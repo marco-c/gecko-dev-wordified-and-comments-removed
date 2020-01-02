@@ -7259,7 +7259,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsNavHistoryQueryResultNode
 nsNavHistoryContainerResultNode
@@ -12264,7 +12264,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsNavHistoryFolderResultNode
 nsNavHistoryContainerResultNode

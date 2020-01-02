@@ -128,7 +128,7 @@ mApp
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsGnomeVFSMimeApp
 nsIGnomeVFSMimeApp
@@ -370,7 +370,7 @@ mIndex
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UTF8StringEnumerator
 nsIUTF8StringEnumerator
@@ -578,7 +578,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsGnomeVFSService
 nsIGnomeVFSService

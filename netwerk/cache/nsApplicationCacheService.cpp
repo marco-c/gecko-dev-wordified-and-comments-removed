@@ -65,7 +65,7 @@ kCacheServiceCID
 NS_CACHESERVICE_CID
 )
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsApplicationCacheService
 nsIApplicationCacheService
@@ -929,7 +929,7 @@ browserOnly
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AppCacheClearDataObserver
 nsIObserver

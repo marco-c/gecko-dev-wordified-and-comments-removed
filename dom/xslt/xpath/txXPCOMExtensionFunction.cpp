@@ -112,7 +112,7 @@ nsIInterfaceInfo
 .
 h
 "
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 txXPathObjectAdaptor
 txIXPathObject
@@ -185,7 +185,7 @@ aState
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 txFunctionEvaluationContext
 txIFunctionEvaluationContext

@@ -925,7 +925,7 @@ mBufferSize
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FileSpecWorker
 nsIRunnable
@@ -1272,7 +1272,7 @@ mBufferSize
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FileChannelWorker
 nsIRunnable

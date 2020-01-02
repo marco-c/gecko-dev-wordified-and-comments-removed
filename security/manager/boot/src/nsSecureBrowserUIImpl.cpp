@@ -589,7 +589,7 @@ nullptr
 ;
 }
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsSecureBrowserUIImpl
 nsISecureBrowserUI
@@ -5819,7 +5819,7 @@ mWindow
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsUIContext
 nsIInterfaceRequestor

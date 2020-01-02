@@ -123,7 +123,7 @@ mFlags
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChildDNSRecord
 nsIDNSRecord
@@ -766,7 +766,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DNSRequestChild
 nsICancelable

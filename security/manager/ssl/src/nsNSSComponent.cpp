@@ -460,7 +460,7 @@ mTokenName
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsTokenEventRunnable
 nsIRunnable
@@ -3658,7 +3658,7 @@ CipherSuiteChangeObserver
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CipherSuiteChangeObserver
 nsIObserver
@@ -5947,7 +5947,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsNSSComponent
 nsISignatureVerifier
@@ -8216,7 +8216,7 @@ nullptr
 }
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PipUIContext
 nsIInterfaceRequestor

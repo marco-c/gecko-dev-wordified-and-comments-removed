@@ -4934,7 +4934,7 @@ wrapped_obj
 0
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsAndroidDisplayport
 nsIAndroidDisplayport

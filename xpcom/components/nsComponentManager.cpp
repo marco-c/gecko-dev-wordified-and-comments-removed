@@ -3883,7 +3883,7 @@ Destroyed
 )
 ;
 }
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsComponentManagerImpl
 nsIComponentManager

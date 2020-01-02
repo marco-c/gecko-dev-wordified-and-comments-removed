@@ -252,7 +252,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 FontInfoLoadCompleteEvent
 nsIRunnable
@@ -287,13 +287,13 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AsyncFontInfoLoader
 nsIRunnable
 )
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 gfxFontInfoLoader
 :

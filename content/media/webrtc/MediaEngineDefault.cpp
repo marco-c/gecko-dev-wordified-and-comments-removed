@@ -141,7 +141,7 @@ mozilla
 :
 gfx
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaEngineDefaultVideoSource
 nsITimerCallback
@@ -1575,7 +1575,7 @@ mReadLength
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaEngineDefaultAudioSource
 nsITimerCallback

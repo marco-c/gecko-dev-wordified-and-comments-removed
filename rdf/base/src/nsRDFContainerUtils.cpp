@@ -262,7 +262,7 @@ kRDFNameSpaceURI
 =
 RDF_NAMESPACE_URI
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 RDFContainerUtilsImpl
 nsIRDFContainerUtils

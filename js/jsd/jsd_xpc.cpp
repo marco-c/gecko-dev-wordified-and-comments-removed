@@ -3363,7 +3363,7 @@ ds
 }
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 jsdObject
 jsdIObject
@@ -3548,7 +3548,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdProperty
 jsdIProperty
@@ -3884,7 +3884,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdScript
 jsdIScript
@@ -6956,7 +6956,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdContext
 jsdIContext
@@ -8009,7 +8009,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdStackFrame
 jsdIStackFrame
@@ -9040,7 +9040,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 jsdValue
 jsdIValue
@@ -13641,7 +13641,7 @@ jsdASObserver
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 jsdASObserver
 nsIObserver
@@ -14067,7 +14067,7 @@ global
 #
 if
 0
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 jsdThreadState
 jsdIThreadState

@@ -640,7 +640,7 @@ StartupCache
 :
 IGNORE_AGE
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StartupCache
 nsIMemoryReporter
@@ -2542,7 +2542,7 @@ PR_JOINABLE_THREAD
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StartupCacheListener
 nsIObserver
@@ -2793,7 +2793,7 @@ NS_OK
 #
 ifdef
 DEBUG
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 StartupCacheDebugOutputStream
 nsIObjectOutputStream
@@ -3259,7 +3259,7 @@ gStartupCacheWrapper
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StartupCacheWrapper
 nsIStartupCache

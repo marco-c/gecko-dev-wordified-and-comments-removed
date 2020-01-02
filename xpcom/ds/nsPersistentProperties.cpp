@@ -1712,7 +1712,7 @@ aResult
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsPersistentProperties
 nsIPersistentProperties
@@ -2419,7 +2419,7 @@ aResult
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPropertyElement
 nsIPropertyElement

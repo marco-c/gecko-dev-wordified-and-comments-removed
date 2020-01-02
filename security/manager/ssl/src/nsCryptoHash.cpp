@@ -148,7 +148,7 @@ mHashContext
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCryptoHash
 nsICryptoHash
@@ -699,7 +699,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCryptoHMAC
 nsICryptoHMAC

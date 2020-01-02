@@ -147,7 +147,7 @@ mozilla
 namespace
 storage
 {
-NS_IMPL_CI_INTERFACE_GETTER4
+NS_IMPL_CI_INTERFACE_GETTER
 (
 AsyncStatement
 mozIStorageAsyncStatement
@@ -380,7 +380,7 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 AsyncStatementClassInfo
 nsIClassInfo

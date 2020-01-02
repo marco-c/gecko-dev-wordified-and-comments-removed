@@ -863,7 +863,7 @@ aKeepWhenOffline
 mKeepWhenOffline
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsServerSocket
 nsIServerSocket
@@ -1576,7 +1576,7 @@ mTargetThread
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ServerSocketListenerProxy
 nsIServerSocketListener

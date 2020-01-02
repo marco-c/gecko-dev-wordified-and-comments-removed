@@ -99,7 +99,7 @@ mozilla
 namespace
 layout
 {
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ScrollbarActivity
 nsIDOMEventListener

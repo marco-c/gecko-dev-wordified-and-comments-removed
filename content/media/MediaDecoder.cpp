@@ -414,12 +414,12 @@ MediaMemoryTracker
 :
 sUniqueInstance
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaMemoryTracker
 nsIMemoryReporter
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaDecoder
 nsIObserver

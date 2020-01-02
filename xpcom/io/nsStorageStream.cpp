@@ -209,7 +209,7 @@ delete
 mSegmentedBuffer
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsStorageStream
 nsIStorageStream
@@ -1361,7 +1361,7 @@ mSegmentSize
 }
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsStorageInputStream
 nsIInputStream

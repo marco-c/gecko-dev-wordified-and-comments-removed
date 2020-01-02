@@ -242,7 +242,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHtml5StreamParser
 )
-NS_INTERFACE_TABLE1
+NS_INTERFACE_TABLE
 (
 nsHtml5StreamParser
 nsICharsetDetectionObserver

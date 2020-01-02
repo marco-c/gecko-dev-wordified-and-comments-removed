@@ -8479,7 +8479,7 @@ break
 ;
 }
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsVariant
 nsIVariant

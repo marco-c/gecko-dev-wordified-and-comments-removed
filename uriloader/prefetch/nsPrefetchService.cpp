@@ -517,7 +517,7 @@ mNext
 }
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPrefetchQueueEnumerator
 nsISimpleEnumerator
@@ -745,7 +745,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsPrefetchNode
 nsIRequestObserver
@@ -2158,7 +2158,7 @@ EmptyQueue
 )
 ;
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsPrefetchService
 nsIPrefetchService

@@ -26,7 +26,7 @@ nsString
 .
 h
 "
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsUnicodeNormalizer
 nsIUnicodeNormalizer

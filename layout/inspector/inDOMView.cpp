@@ -327,7 +327,7 @@ nullptr
 )
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 inDOMView
 inIDOMView

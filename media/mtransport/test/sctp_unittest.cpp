@@ -196,7 +196,7 @@ to_send_
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SendPeriodic
 nsITimerCallback

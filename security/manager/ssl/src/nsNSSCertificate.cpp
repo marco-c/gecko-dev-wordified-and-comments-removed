@@ -361,7 +361,7 @@ CERT_TYPE_NOT_YET_INITIALIZED
 <
 30
 )
-NS_IMPL_ISUPPORTS7
+NS_IMPL_ISUPPORTS
 (
 nsNSSCertificate
 nsIX509Cert
@@ -7438,7 +7438,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsNSSCertList
 nsIX509CertList
@@ -7998,7 +7998,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsNSSCertListEnumerator
 nsISimpleEnumerator

@@ -260,7 +260,7 @@ mFailed
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 EncodingCompleteEvent
 nsIRunnable
@@ -591,7 +591,7 @@ mUsingCustomOptions
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 EncodingRunnable
 nsIRunnable

@@ -58,7 +58,7 @@ SEC_ASN1_MKSUB
 (
 SECOID_AlgorithmIDTemplate
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDataSignatureVerifier
 nsIDataSignatureVerifier

@@ -1011,7 +1011,7 @@ browserOnly
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AppClearDataObserver
 nsIObserver
@@ -1132,7 +1132,7 @@ mRebuildOnSuccess
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CloseDatabaseListener
 mozIStorageCompletionCallback
@@ -1236,7 +1236,7 @@ mManager
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DeleteFromMozHostListener
 mozIStorageStatementCallback
@@ -1424,7 +1424,7 @@ kPermissionChangeNotification
 =
 PERM_CHANGE_NOTIFICATION
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsPermissionManager
 nsIPermissionManager

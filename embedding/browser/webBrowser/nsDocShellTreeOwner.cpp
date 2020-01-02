@@ -3828,7 +3828,7 @@ mTag_window
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DefaultTooltipTextProvider
 nsITooltipTextProvider
@@ -4522,7 +4522,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChromeTooltipListener
 nsIDOMEventListener
@@ -5779,7 +5779,7 @@ HideTooltip
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ChromeContextMenuListener
 nsIDOMEventListener

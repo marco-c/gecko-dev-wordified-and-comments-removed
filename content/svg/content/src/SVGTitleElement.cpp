@@ -53,7 +53,7 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED
 (
 SVGTitleElement
 SVGTitleElementBase

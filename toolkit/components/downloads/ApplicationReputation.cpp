@@ -660,7 +660,7 @@ aSpec
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PendingDBLookup
 nsIUrlClassifierCallback
@@ -1256,7 +1256,7 @@ LookupNext
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 PendingLookup
 nsIStreamListener
@@ -4230,7 +4230,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ApplicationReputationService
 nsIApplicationReputationService

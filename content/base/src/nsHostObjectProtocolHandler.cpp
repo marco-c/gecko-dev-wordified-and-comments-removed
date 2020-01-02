@@ -188,7 +188,7 @@ createObjectURL
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 HostObjectURLsReporter
 nsIMemoryReporter
@@ -1281,7 +1281,7 @@ PL_DHASH_NEXT
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 BlobURLsReporter
 nsIMemoryReporter
@@ -1885,7 +1885,7 @@ mObject
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsHostObjectProtocolHandler
 nsIProtocolHandler

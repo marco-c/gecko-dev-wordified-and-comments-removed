@@ -140,7 +140,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS_INHERITED5
+NS_IMPL_ISUPPORTS_INHERITED
 (
 ExternalHelperAppParent
 nsHashPropertyBag

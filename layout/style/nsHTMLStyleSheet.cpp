@@ -136,7 +136,7 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsHTMLStyleSheet
 :
@@ -276,7 +276,7 @@ out
 }
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsHTMLStyleSheet
 :
@@ -469,7 +469,7 @@ eCSSUnit_Enumerated
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsHTMLStyleSheet
 :
@@ -1123,7 +1123,7 @@ mMappedAttrTable
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsHTMLStyleSheet
 nsIStyleRuleProcessor

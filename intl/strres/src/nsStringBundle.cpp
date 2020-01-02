@@ -710,7 +710,7 @@ aResult
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsStringBundle
 nsIStringBundle
@@ -1481,7 +1481,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsExtensibleStringBundle
 nsIStringBundle
@@ -2095,7 +2095,7 @@ service
 )
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsStringBundleService
 nsIStringBundleService

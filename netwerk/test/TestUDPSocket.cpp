@@ -479,7 +479,7 @@ mResult
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UDPClientListener
 nsIUDPSocketListener
@@ -757,7 +757,7 @@ mResult
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UDPServerListener
 nsIUDPSocketListener

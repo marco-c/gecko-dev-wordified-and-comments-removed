@@ -153,7 +153,7 @@ URI_SAFE_FOR_UNTRUSTED_CONTENT
 0
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsAboutProtocolHandler
 nsIProtocolHandler
@@ -703,7 +703,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSafeAboutProtocolHandler
 nsIProtocolHandler

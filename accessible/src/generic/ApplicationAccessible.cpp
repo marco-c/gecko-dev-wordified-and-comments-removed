@@ -135,7 +135,7 @@ info
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 ApplicationAccessible
 Accessible

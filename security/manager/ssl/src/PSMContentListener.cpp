@@ -246,7 +246,7 @@ mByteData
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 PSMContentDownloader
 nsIStreamListener
@@ -899,7 +899,7 @@ UNKNOWN_TYPE
 ;
 }
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 PSMContentListener
 nsIURIContentListener

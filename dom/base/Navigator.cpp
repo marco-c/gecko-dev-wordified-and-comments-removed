@@ -2593,7 +2593,7 @@ mDocument
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VibrateWindowListener
 nsIDOMEventListener
@@ -4088,7 +4088,7 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 BeaconStreamListener
 nsIStreamListener

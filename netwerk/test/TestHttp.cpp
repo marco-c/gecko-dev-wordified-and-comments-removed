@@ -145,7 +145,7 @@ MyListener
 }
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 MyListener
 nsIRequestObserver
@@ -391,7 +391,7 @@ MyNotifications
 }
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 MyNotifications
 nsIInterfaceRequestor

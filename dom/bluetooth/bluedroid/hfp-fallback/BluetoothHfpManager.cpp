@@ -515,7 +515,7 @@ NS_IsMainThread
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 BluetoothHfpManager
 nsIObserver

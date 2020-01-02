@@ -327,7 +327,7 @@ NSNotification
 aSender
 ;
 end
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsFilePicker
 nsIFilePicker

@@ -34,7 +34,7 @@ mozilla
 namespace
 browser
 {
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AboutRedirector
 nsIAboutModule

@@ -145,7 +145,7 @@ mOut
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TriplesVisitor
 rdfITripleVisitor
@@ -678,7 +678,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 rdfTriplesSerializer
 rdfISerializer

@@ -19,7 +19,7 @@ nsServiceManagerUtils
 h
 "
 USING_TELEPHONY_NAMESPACE
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TelephonyParent
 nsITelephonyListener
@@ -1285,7 +1285,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 TelephonyRequestParent
 nsITelephonyListener

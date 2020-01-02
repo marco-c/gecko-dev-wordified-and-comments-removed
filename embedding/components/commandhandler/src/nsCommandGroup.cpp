@@ -132,7 +132,7 @@ mInitted
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsGroupsEnumerator
 nsISimpleEnumerator
@@ -583,7 +583,7 @@ nsNamedGroupEnumerator
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsNamedGroupEnumerator
 nsISimpleEnumerator
@@ -761,7 +761,7 @@ mark
 -
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsControllerCommandGroup
 nsIControllerCommandGroup

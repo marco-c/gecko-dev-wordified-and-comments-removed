@@ -708,7 +708,7 @@ mark
 -
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSelectionCommandsBase
 nsIControllerCommand
@@ -1736,7 +1736,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSICONTROLLERCOMMAND
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsClipboardCommand
 nsIControllerCommand
@@ -2053,7 +2053,7 @@ aEditInterface
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSelectionCommand
 nsIControllerCommand
@@ -3023,7 +3023,7 @@ aWebNavigation
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsWebNavigationBaseCommand
 nsIControllerCommand
@@ -3346,7 +3346,7 @@ protected
 :
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsClipboardDragDropHookCommand
 nsIControllerCommand

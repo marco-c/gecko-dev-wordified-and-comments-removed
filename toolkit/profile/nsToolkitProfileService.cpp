@@ -652,7 +652,7 @@ this
 }
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsToolkitProfile
 nsIToolkitProfile
@@ -1058,7 +1058,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsToolkitProfileLock
 nsIProfileLock
@@ -1369,7 +1369,7 @@ gService
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsToolkitProfileService
 nsIToolkitProfileService
@@ -2090,7 +2090,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsToolkitProfileService
 :
@@ -4241,7 +4241,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsToolkitProfileFactory
 nsIFactory

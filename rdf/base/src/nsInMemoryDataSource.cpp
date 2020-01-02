@@ -1573,7 +1573,7 @@ NS_IMPL_RELEASE
 (
 InMemoryAssertionEnumeratorImpl
 )
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 InMemoryAssertionEnumeratorImpl
 nsISimpleEnumerator
@@ -2152,7 +2152,7 @@ NS_IMPL_RELEASE
 (
 InMemoryArcsEnumeratorImpl
 )
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 InMemoryArcsEnumeratorImpl
 nsISimpleEnumerator

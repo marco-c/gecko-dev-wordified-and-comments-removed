@@ -183,7 +183,7 @@ mBehaviorPref
 NUMBER_OF_TYPES
 ]
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsContentBlocker
 nsIContentPolicy

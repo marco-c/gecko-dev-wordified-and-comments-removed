@@ -599,7 +599,7 @@ process
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ResidentUniqueReporter
 nsIMemoryReporter
@@ -2281,7 +2281,7 @@ memory
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VsizeMaxContiguousReporter
 nsIMemoryReporter
@@ -2380,7 +2380,7 @@ to
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PrivateReporter
 nsIMemoryReporter
@@ -2547,7 +2547,7 @@ process
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VsizeReporter
 nsIMemoryReporter
@@ -2691,7 +2691,7 @@ time
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ResidentReporter
 nsIMemoryReporter
@@ -2925,7 +2925,7 @@ faults
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PageFaultsSoftReporter
 nsIMemoryReporter
@@ -3188,7 +3188,7 @@ second
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PageFaultsHardReporter
 nsIMemoryReporter
@@ -3778,7 +3778,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 JemallocHeapReporter
 nsIMemoryReporter
@@ -3843,7 +3843,7 @@ tables
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AtomTablesReporter
 nsIMemoryReporter
@@ -4106,7 +4106,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DMDReporter
 nsIMemoryReporter
@@ -4115,7 +4115,7 @@ nsIMemoryReporter
 }
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsMemoryReporterManager
 nsIMemoryReporterManager
@@ -6284,7 +6284,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ExplicitCallback
 nsIHandleReportCallback
@@ -7868,7 +7868,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DoNothingCallback
 nsIHandleReportCallback

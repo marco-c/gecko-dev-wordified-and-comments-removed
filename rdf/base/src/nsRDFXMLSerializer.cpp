@@ -694,7 +694,7 @@ gRDFC
 ;
 }
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsRDFXMLSerializer
 nsIRDFXMLSerializer
@@ -5157,7 +5157,7 @@ mParent
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 QNameCollector
 rdfITripleVisitor

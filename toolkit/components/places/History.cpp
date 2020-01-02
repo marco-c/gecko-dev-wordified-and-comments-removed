@@ -5864,7 +5864,7 @@ mHistory
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SetDownloadAnnotations
 mozIVisitInfoCallback
@@ -12576,7 +12576,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 History
 IHistory

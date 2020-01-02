@@ -73,7 +73,7 @@ static
 nsMemoryImpl
 sGlobalMemory
 ;
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsMemoryImpl
 nsIMemory
@@ -701,7 +701,7 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsMemoryImpl
 :

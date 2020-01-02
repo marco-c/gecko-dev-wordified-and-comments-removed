@@ -210,7 +210,7 @@ mPrintSession
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDeviceContextSpecX
 nsIDeviceContextSpec

@@ -59,7 +59,7 @@ Comment
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED
 (
 Comment
 nsGenericDOMDataNode

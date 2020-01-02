@@ -91,7 +91,7 @@ aDoc
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLLinkAccessible
 HyperTextAccessibleWrap

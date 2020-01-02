@@ -220,7 +220,7 @@ delete
 mCollation
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCollationUnix
 nsICollation

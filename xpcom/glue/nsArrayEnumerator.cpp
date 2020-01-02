@@ -91,7 +91,7 @@ mIndex
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSimpleArrayEnumerator
 nsISimpleEnumerator
@@ -406,7 +406,7 @@ mValueArray
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCOMArrayEnumerator
 nsISimpleEnumerator

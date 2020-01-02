@@ -623,7 +623,7 @@ mChannel
 ;
 }
 ;
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsManifestCheck
 nsIRequestObserver
@@ -1087,7 +1087,7 @@ return
 NS_ERROR_ABORT
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheUpdateItem
 nsIRequestObserver
@@ -4564,7 +4564,7 @@ aStatus
 )
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheUpdate
 nsIOfflineCacheUpdateObserver

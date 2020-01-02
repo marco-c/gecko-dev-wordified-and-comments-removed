@@ -230,7 +230,7 @@ Close
 )
 ;
 }
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsJAR
 nsIZipReader
@@ -3851,7 +3851,7 @@ digest
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsJAREnumerator
 nsIUTF8StringEnumerator
@@ -3992,7 +3992,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsJARItem
 nsIZipEntry
@@ -4279,7 +4279,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsZipReaderCache
 nsIZipReaderCache

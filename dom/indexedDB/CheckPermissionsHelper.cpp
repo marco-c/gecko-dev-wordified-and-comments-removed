@@ -365,7 +365,7 @@ permission
 ;
 }
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 CheckPermissionsHelper
 nsIRunnable

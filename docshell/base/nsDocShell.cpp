@@ -2007,7 +2007,7 @@ mTimer
 ;
 }
 ;
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsPingListener
 nsIStreamListener
@@ -34392,7 +34392,7 @@ mInPrivateBrowsing
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCopyFaviconCallback
 nsIFaviconDataCallback
@@ -47102,7 +47102,7 @@ mWeakPtr
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDocShell
 :

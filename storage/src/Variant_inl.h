@@ -31,7 +31,7 @@ NS_IMPL_RELEASE
 Variant_base
 )
 inline
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 Variant_base
 nsIVariant

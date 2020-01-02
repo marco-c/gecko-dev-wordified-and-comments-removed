@@ -1509,7 +1509,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 NotificationTask
 nsIRunnable
@@ -1569,7 +1569,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 NotificationObserver
 nsIObserver

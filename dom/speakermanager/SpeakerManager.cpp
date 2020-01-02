@@ -67,7 +67,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_QUERY_INTERFACE_INHERITED1
+NS_IMPL_QUERY_INTERFACE_INHERITED
 (
 SpeakerManager
 DOMEventTargetHelper

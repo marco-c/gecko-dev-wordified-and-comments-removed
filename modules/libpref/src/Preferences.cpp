@@ -773,7 +773,7 @@ mClosures
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ValueObserver
 nsIObserver
@@ -1149,7 +1149,7 @@ aClosure
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PreferenceServiceReporter
 nsIMemoryReporter

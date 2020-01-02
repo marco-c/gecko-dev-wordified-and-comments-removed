@@ -1531,7 +1531,7 @@ nullptr
 ;
 }
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsPluginInstanceOwner
 nsIPluginInstanceOwner
@@ -15195,7 +15195,7 @@ nsPluginDOMContextMenuListener
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPluginDOMContextMenuListener
 nsIDOMEventListener

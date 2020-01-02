@@ -1569,7 +1569,7 @@ return
 count
 ;
 }
-NS_IMPL_QUERY_INTERFACE5
+NS_IMPL_QUERY_INTERFACE
 (
 LazyIdleThread
 nsIThread

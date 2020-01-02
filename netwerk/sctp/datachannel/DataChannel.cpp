@@ -592,7 +592,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DataChannelShutdown
 nsIObserver
@@ -1213,7 +1213,7 @@ disconnect_all
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DataChannelConnection
 nsITimerCallback

@@ -519,7 +519,7 @@ MOZ_DELETE
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 KeyPair
 nsIIdentityKeyPair
@@ -831,7 +831,7 @@ MOZ_DELETE
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 IdentityCryptoService
 nsIIdentityCryptoService

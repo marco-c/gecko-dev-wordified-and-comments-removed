@@ -681,7 +681,7 @@ mDidReleaseThis
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCachePendingUpdate
 nsIWebProgressListener
@@ -1106,7 +1106,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsOfflineCacheUpdateService
 nsIOfflineCacheUpdateService

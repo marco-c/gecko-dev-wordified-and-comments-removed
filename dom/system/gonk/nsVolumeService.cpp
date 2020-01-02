@@ -205,7 +205,7 @@ mozilla
 namespace
 system
 {
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsVolumeService
 nsIVolumeService

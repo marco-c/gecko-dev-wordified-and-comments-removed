@@ -240,7 +240,7 @@ mSearchResult
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsFileResult
 nsIAutoCompleteResult
@@ -943,7 +943,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIAUTOCOMPLETESEARCH
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsFileComplete
 nsIAutoCompleteSearch
@@ -1386,7 +1386,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsFileView
 nsITreeView

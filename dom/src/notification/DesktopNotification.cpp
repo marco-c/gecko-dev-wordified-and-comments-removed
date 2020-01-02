@@ -282,7 +282,7 @@ mDesktopNotification
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AlertServiceObserver
 nsIObserver
@@ -1232,7 +1232,7 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 DesktopNotificationRequest
 nsIContentPermissionRequest

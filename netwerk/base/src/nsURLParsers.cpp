@@ -99,12 +99,12 @@ return
 count
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsAuthURLParser
 nsIURLParser
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsNoAuthURLParser
 nsIURLParser

@@ -40,7 +40,7 @@ nsArrayUtils
 .
 h
 "
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsNSSASN1Tree
 nsIASN1Tree

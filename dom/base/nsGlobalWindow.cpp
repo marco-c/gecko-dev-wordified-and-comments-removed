@@ -2762,7 +2762,7 @@ mWindow
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsGlobalWindowObserver
 nsIObserver
@@ -9810,7 +9810,7 @@ FreeInnerObjects
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WindowStateHolder
 WindowStateHolder

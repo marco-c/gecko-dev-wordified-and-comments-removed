@@ -331,7 +331,7 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 StartTransactionRunnable
 nsIRunnable
@@ -3728,7 +3728,7 @@ CommitHelper
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CommitHelper
 nsIRunnable
@@ -4676,7 +4676,7 @@ comittedAutoIncrementId
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UpdateRefcountFunction
 mozIStorageFunction

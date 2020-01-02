@@ -1729,12 +1729,12 @@ mAvailableCost
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SurfaceCacheImpl
 nsIMemoryReporter
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SurfaceCacheImpl
 :

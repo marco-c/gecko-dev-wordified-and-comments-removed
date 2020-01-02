@@ -719,7 +719,7 @@ mPendingLookups
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsUrlClassifierDBServiceWorker
 nsIUrlClassifierDBServiceWorker
@@ -3045,7 +3045,7 @@ mCallback
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsUrlClassifierLookupCallback
 nsIUrlClassifierLookupCallback
@@ -3957,7 +3957,7 @@ mCheckPhishing
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsUrlClassifierClassifyCallback
 nsIUrlClassifierCallback
@@ -4072,7 +4072,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsUrlClassifierDBService
 nsIUrlClassifierDBService

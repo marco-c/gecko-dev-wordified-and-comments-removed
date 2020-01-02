@@ -69,7 +69,7 @@ NUM_CHANNELS
 =
 2
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 Fake_DOMMediaStream
 nsIDOMMediaStream
@@ -518,7 +518,7 @@ segment
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 Fake_MediaPeriodic
 nsITimerCallback

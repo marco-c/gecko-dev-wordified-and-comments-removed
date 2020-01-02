@@ -584,7 +584,7 @@ nsFrameTraversal
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsFrameTraversal
 nsIFrameTraversal
@@ -634,7 +634,7 @@ aFollowOOFs
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsFrameIterator
 nsIFrameEnumerator

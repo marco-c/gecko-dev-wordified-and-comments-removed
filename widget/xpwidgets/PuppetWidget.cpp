@@ -320,7 +320,7 @@ kMaxDimension
 =
 4000
 ;
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 PuppetWidget
 nsBaseWidget
@@ -3604,7 +3604,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PuppetScreenManager
 nsIScreenManager

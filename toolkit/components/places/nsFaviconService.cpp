@@ -179,7 +179,7 @@ nullptr
 0
 NS_FAVICONSERVICE_CID
 )
-NS_IMPL_ISUPPORTS3_CI
+NS_IMPL_ISUPPORTS_CI
 (
 nsFaviconService
 nsIFaviconService

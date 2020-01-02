@@ -149,7 +149,7 @@ n
 }
 }
 ;
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsTestCom
 nsITestCom
@@ -339,7 +339,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsTestComFactory
 nsIFactory

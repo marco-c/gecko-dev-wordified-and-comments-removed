@@ -1389,7 +1389,7 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 HTMLInputElementState
 NS_INPUT_ELEMENT_STATE_IID
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 HTMLInputElementState
 HTMLInputElementState
@@ -1420,7 +1420,7 @@ aInput
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UploadLastDir
 :
@@ -2218,7 +2218,7 @@ mDirEnumeratorStack
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DirPickerRecursiveFileEnumerator
 nsISimpleEnumerator
@@ -3182,7 +3182,7 @@ false
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 HTMLInputElement
 :
@@ -3513,7 +3513,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsColorPickerShownCallback
 nsIColorPickerShownCallback
@@ -4328,7 +4328,7 @@ upload
 lastDir
 "
 )
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 UploadLastDir
 nsIObserver
@@ -5290,7 +5290,7 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 HTMLInputElement
 )
-NS_INTERFACE_TABLE_INHERITED9
+NS_INTERFACE_TABLE_INHERITED
 (
 HTMLInputElement
 nsIDOMHTMLInputElement

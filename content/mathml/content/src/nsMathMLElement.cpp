@@ -154,7 +154,7 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsMathMLElement
 nsMathMLElementBase

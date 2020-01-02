@@ -936,7 +936,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsAppStartup
 nsIAppStartup

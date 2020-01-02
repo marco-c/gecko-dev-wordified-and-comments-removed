@@ -155,7 +155,7 @@ Close
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPluginStreamToFile
 nsIOutputStream
@@ -530,7 +530,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsNPAPIPluginStreamListener
 nsITimerCallback

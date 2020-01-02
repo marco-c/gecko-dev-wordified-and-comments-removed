@@ -1901,7 +1901,7 @@ mProfilerStart
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VisualEventTracerLog
 nsIVisualEventTracerLog
@@ -2407,7 +2407,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 VisualEventTracer
 nsIVisualEventTracer

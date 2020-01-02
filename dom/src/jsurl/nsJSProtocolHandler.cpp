@@ -374,7 +374,7 @@ mURL
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsJSThunk
 nsIInputStream
@@ -1967,7 +1967,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS7
+NS_IMPL_ISUPPORTS
 (
 nsJSChannel
 nsIChannel
@@ -3933,7 +3933,7 @@ nsJSProtocolHandler
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsJSProtocolHandler
 nsIProtocolHandler

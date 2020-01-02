@@ -79,7 +79,7 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSVGRenderingObserver
 nsIMutationObserver
@@ -712,7 +712,7 @@ DoUpdate
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSVGFilterProperty
 nsISupports
@@ -984,7 +984,7 @@ Invalidate
 ;
 }
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsSVGFilterReference
 nsSVGIDRenderingObserver

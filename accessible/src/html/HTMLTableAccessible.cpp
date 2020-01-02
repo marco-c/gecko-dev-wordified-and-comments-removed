@@ -256,7 +256,7 @@ mGenericTypes
 eTableCell
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLTableCellAccessible
 HyperTextAccessible
@@ -1620,7 +1620,7 @@ roles
 ROW
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLTableAccessible
 Accessible

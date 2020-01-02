@@ -7395,7 +7395,7 @@ NS_IMPL_ISUPPORTS_INHERITED0
 TopLevelWorkerFinishedRunnable
 nsRunnable
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TimerThreadEventTarget
 nsIEventTarget
@@ -8407,7 +8407,7 @@ explicitLength
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WorkerPrivate
 :

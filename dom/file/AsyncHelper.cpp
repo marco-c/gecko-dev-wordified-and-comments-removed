@@ -27,7 +27,7 @@ FileService
 h
 "
 USING_FILE_NAMESPACE
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 AsyncHelper
 nsIRunnable

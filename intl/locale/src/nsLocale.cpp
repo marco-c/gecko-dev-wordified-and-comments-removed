@@ -44,7 +44,7 @@ h
 define
 LOCALE_HASH_SIZE
 0xFF
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsLocale
 nsILocale

@@ -149,7 +149,7 @@ BodyRule
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 BodyRule
 nsIStyleRule
@@ -1323,7 +1323,7 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLBodyElement
 nsGenericHTMLElement

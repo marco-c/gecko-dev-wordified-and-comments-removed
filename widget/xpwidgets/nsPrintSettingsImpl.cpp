@@ -25,7 +25,7 @@ DEFAULT_MARGIN_WIDTH
 0
 .
 5
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPrintSettings
 nsIPrintSettings

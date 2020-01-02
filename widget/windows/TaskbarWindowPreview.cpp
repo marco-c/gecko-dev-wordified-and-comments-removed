@@ -114,7 +114,7 @@ true
 ;
 }
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 TaskbarWindowPreview
 nsITaskbarWindowPreview

@@ -182,7 +182,7 @@ Close
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsFileStreamBase
 nsISeekableStream
@@ -1335,7 +1335,7 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 nsFileStreamBase
 )
-NS_IMPL_CI_INTERFACE_GETTER4
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsFileInputStream
 nsIInputStream
@@ -2430,7 +2430,7 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 nsFileStreamBase
 )
-NS_IMPL_CI_INTERFACE_GETTER4
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsPartialFileInputStream
 nsIInputStream
@@ -3135,7 +3135,7 @@ mStart
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsFileOutputStream
 nsFileStreamBase
@@ -3288,7 +3288,7 @@ DEFER_OPEN
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsAtomicFileOutputStream
 nsFileOutputStream
@@ -3863,7 +3863,7 @@ Finish
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsFileStream
 nsFileStreamBase

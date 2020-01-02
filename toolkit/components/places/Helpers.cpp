@@ -59,7 +59,7 @@ mozilla
 namespace
 places
 {
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AsyncStatementCallback
 mozIStorageStatementCallback
@@ -1571,7 +1571,7 @@ nullptr
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PlacesEvent
 nsIRunnable

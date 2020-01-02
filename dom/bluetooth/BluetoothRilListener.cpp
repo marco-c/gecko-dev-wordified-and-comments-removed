@@ -48,7 +48,7 @@ nsString
 h
 "
 USING_BLUETOOTH_NAMESPACE
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 IccListener
 nsIIccListener
@@ -235,7 +235,7 @@ mOwner
 aOwner
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MobileConnectionListener
 nsIMobileConnectionListener
@@ -473,7 +473,7 @@ rv
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TelephonyListener
 nsITelephonyListener

@@ -635,7 +635,7 @@ gObserver
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSHistoryObserver
 nsIObserver
@@ -7138,7 +7138,7 @@ mSHistory
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsSHEnumerator
 nsISimpleEnumerator

@@ -1839,7 +1839,7 @@ NS_INTERFACE_TABLE_HEAD
 nsChildContentList
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
-NS_INTERFACE_TABLE2
+NS_INTERFACE_TABLE
 (
 nsChildContentList
 nsINodeList
@@ -2120,7 +2120,7 @@ slots
 mChildrenList
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsNodeWeakReference
 nsIWeakReference

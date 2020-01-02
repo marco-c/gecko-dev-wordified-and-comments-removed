@@ -330,7 +330,7 @@ nsTextNode
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsTextNode
 nsGenericDOMDataNode
@@ -1004,7 +1004,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsAttributeTextNode
 nsTextNode

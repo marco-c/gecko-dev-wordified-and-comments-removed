@@ -33,7 +33,7 @@ nsICategoryManager
 .
 h
 "
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 mozHunspellDirProvider
 nsIDirectoryServiceProvider
@@ -185,7 +185,7 @@ return
 NS_SUCCESS_AGGREGATE_RESULT
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 mozHunspellDirProvider
 :

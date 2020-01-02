@@ -229,7 +229,7 @@ nsIClassInfo
 THREADSAFE
 NS_MIMEINPUTSTREAM_CID
 )
-NS_IMPL_QUERY_INTERFACE4_CI
+NS_IMPL_QUERY_INTERFACE_CI
 (
 nsMIMEInputStream
 nsIMIMEInputStream
@@ -237,7 +237,7 @@ nsIInputStream
 nsISeekableStream
 nsIIPCSerializableInputStream
 )
-NS_IMPL_CI_INTERFACE_GETTER3
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsMIMEInputStream
 nsIMIMEInputStream

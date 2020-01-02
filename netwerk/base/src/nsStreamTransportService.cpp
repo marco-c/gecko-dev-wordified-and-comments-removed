@@ -201,7 +201,7 @@ mInProgress
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsInputStreamTransport
 nsITransport
@@ -793,7 +793,7 @@ mInProgress
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsOutputStreamTransport
 nsITransport
@@ -1342,7 +1342,7 @@ STSThreadPoolListener
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 STSThreadPoolListener
 nsIThreadPoolListener
@@ -1534,7 +1534,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsStreamTransportService
 nsIStreamTransportService

@@ -76,7 +76,7 @@ kTestConverterCID
 NS_TESTCONVERTER_CID
 )
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 TestConverter
 nsIStreamConverter

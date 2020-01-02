@@ -21,7 +21,7 @@ nullptr
 0
 }
 )
-NS_IMPL_ISUPPORTS1_CI
+NS_IMPL_ISUPPORTS_CI
 (
 nsPermission
 nsIPermission

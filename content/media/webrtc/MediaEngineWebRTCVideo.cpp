@@ -187,14 +187,14 @@ endif
 #
 ifndef
 MOZ_B2G_CAMERA
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaEngineWebRTCVideoSource
 nsIRunnable
 )
 #
 else
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 MediaEngineWebRTCVideoSource
 nsIRunnable

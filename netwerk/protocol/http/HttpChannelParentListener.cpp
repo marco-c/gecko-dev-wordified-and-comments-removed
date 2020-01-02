@@ -91,7 +91,7 @@ HttpChannelParentListener
 )
 {
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 HttpChannelParentListener
 nsIInterfaceRequestor

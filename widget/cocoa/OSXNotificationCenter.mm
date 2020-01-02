@@ -963,7 +963,7 @@ release
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 OSXNotificationCenter
 nsIAlertsService

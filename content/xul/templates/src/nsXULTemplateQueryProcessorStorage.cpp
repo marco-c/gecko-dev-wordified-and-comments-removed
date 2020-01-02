@@ -131,7 +131,7 @@ nsIDocument
 .
 h
 "
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXULTemplateResultSetStorage
 nsISimpleEnumerator
@@ -599,7 +599,7 @@ value
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXULTemplateQueryProcessorStorage
 nsIXULTemplateQueryProcessor

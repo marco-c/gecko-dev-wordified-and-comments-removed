@@ -732,7 +732,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsHttpNegotiateAuth
 nsIHttpAuthenticator

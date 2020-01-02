@@ -424,7 +424,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AnnotatedResult
 mozIAnnotatedResult
@@ -436,7 +436,7 @@ PLACES_FACTORY_SINGLETON_IMPLEMENTATION
 nsAnnotationService
 gAnnotationService
 )
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsAnnotationService
 nsIAnnotationService

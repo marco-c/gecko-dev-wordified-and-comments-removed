@@ -1540,7 +1540,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 LowEventsReporter
 nsIMemoryReporter
@@ -1560,7 +1560,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsJemallocFreeDirtyPagesRunnable
 nsIRunnable
@@ -1620,7 +1620,7 @@ sFreeDirtyPages
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsMemoryPressureWatcher
 nsIObserver

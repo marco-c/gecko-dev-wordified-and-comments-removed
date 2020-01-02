@@ -1159,7 +1159,7 @@ mType
 eHTMLTextFieldType
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLTextFieldAccessible
 Accessible

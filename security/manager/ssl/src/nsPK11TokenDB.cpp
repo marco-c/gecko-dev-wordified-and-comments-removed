@@ -71,7 +71,7 @@ gPIPNSSLog
 ;
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPK11Token
 nsIPK11Token
@@ -1635,7 +1635,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPK11TokenDB
 nsIPK11TokenDB

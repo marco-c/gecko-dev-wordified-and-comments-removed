@@ -84,7 +84,7 @@ Enterprise
 )
 ;
 }
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsURIChecker
 nsIURIChecker

@@ -713,7 +713,7 @@ NS_IMPL_RELEASE
 (
 nsWatcherWindowEnumerator
 )
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsWatcherWindowEnumerator
 nsISimpleEnumerator
@@ -1000,7 +1000,7 @@ NS_IMPL_RELEASE
 (
 nsWindowWatcher
 )
-NS_IMPL_QUERY_INTERFACE3
+NS_IMPL_QUERY_INTERFACE
 (
 nsWindowWatcher
 nsIWindowWatcher

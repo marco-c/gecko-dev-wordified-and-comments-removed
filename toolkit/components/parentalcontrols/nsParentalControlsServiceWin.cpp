@@ -110,7 +110,7 @@ IID_IWinParentalControls
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsParentalControlsServiceWin
 nsIParentalControlsService

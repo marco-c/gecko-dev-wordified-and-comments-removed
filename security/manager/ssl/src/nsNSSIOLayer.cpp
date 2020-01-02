@@ -466,7 +466,7 @@ max
 0
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsNSSSocketInfo
 TransportSecurityInfo
@@ -5372,7 +5372,7 @@ mOwner
 }
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PrefObserver
 nsIObserver

@@ -192,7 +192,7 @@ mozilla
 namespace
 net
 {
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsHttpConnectionMgr
 nsIObserver
@@ -12999,7 +12999,7 @@ bufLen
 )
 ;
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsHttpConnectionMgr
 :

@@ -1693,7 +1693,7 @@ mSpellChecker
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 InitEditorSpellCheckCallback
 nsIEditorSpellCheckCallback
@@ -7097,7 +7097,7 @@ mDisabledAsyncToken
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UpdateCurrentDictionaryCallback
 nsIEditorSpellCheckCallback

@@ -4585,7 +4585,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsNavHistoryQuery
 nsNavHistoryQuery
@@ -6423,7 +6423,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsNavHistoryQueryOptions
 nsNavHistoryQueryOptions

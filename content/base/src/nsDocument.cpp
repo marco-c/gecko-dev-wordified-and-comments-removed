@@ -3615,7 +3615,7 @@ this
 ;
 }
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsDOMStyleSheetList
 StyleSheetList
@@ -3928,7 +3928,7 @@ mLength
 }
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsOnloadBlocker
 nsIRequest
@@ -5230,7 +5230,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsExternalResourceMap
 :
@@ -6121,7 +6121,7 @@ nullptr
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsExternalResourceMap
 :
@@ -6136,7 +6136,7 @@ IMPL_SHIM
 _i
 )
 \
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsExternalResourceMap
 :
@@ -24481,7 +24481,7 @@ mIsBaseQueue
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ProcessStackRunner
 nsIRunnable
@@ -40957,7 +40957,7 @@ NS_OK
 NS_DECL_ISUPPORTS
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StubCSSLoaderObserver
 nsICSSLoaderObserver
@@ -49948,7 +49948,7 @@ mUserInputOrChromeCaller
 ;
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsPointerLockPermissionRequest
 nsRunnable

@@ -1060,7 +1060,7 @@ mListener
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MediaDevice
 nsIMediaDevice
@@ -4984,7 +4984,7 @@ mMinFPS
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 MediaManager
 nsIMediaManagerService

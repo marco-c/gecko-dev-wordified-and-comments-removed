@@ -446,7 +446,7 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 nsThreadClassInfo
 nsIClassInfo
@@ -687,7 +687,7 @@ sThreadClassInfo
 }
 else
 NS_INTERFACE_MAP_END
-NS_IMPL_CI_INTERFACE_GETTER4
+NS_IMPL_CI_INTERFACE_GETTER
 (
 nsThread
 nsIThread
@@ -3467,7 +3467,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsThread
 :

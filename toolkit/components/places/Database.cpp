@@ -1023,7 +1023,7 @@ NS_IsMainThread
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ConnectionCloseCallback
 mozIStorageCompletionCallback
@@ -1495,7 +1495,7 @@ PLACES_FACTORY_SINGLETON_IMPLEMENTATION
 Database
 gDatabase
 )
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 Database
 nsIObserver

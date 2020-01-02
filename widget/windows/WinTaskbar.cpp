@@ -831,7 +831,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DefaultController
 nsITaskbarPreviewController
@@ -843,7 +843,7 @@ mozilla
 namespace
 widget
 {
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WinTaskbar
 nsIWinTaskbar

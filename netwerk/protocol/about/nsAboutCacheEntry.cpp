@@ -370,7 +370,7 @@ row_max
 ;
 }
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsAboutCacheEntry
 nsIAboutModule

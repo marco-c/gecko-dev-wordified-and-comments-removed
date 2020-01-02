@@ -301,7 +301,7 @@ mozilla
 class
 nsHTMLEditUtils
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DocumentResizeEventListener
 nsIDOMEventListener
@@ -371,7 +371,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ResizerSelectionListener
 nsISelectionListener
@@ -473,7 +473,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 ResizerMouseMotionListener
 nsIDOMEventListener

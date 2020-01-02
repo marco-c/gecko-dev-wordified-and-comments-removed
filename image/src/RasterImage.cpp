@@ -1684,7 +1684,7 @@ nullptr
 #
 ifndef
 DEBUG
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 RasterImage
 imgIContainer
@@ -1692,7 +1692,7 @@ nsIProperties
 )
 #
 else
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 RasterImage
 imgIContainer
@@ -11766,7 +11766,7 @@ wasSize
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 RasterImage
 :
@@ -11879,7 +11879,7 @@ RIDThreadPoolListener
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 RIDThreadPoolListener
 nsIThreadPoolListener

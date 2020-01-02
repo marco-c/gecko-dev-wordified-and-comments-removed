@@ -344,7 +344,7 @@ mContentLength
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsJARInputThunk
 nsIInputStream
@@ -709,7 +709,7 @@ handler
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED7
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsJARChannel
 nsHashPropertyBag

@@ -966,7 +966,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 DistributedContentList
 )
-NS_INTERFACE_TABLE1
+NS_INTERFACE_TABLE
 (
 DistributedContentList
 nsINodeList

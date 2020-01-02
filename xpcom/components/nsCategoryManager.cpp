@@ -298,7 +298,7 @@ mStringCurItem
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 BaseStringEnumerator
 nsISimpleEnumerator
@@ -1442,7 +1442,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 nsCategoryManager
 nsICategoryManager

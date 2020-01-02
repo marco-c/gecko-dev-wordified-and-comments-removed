@@ -902,12 +902,12 @@ nsPkcs11
 #
 ifndef
 MOZ_DISABLE_CRYPTOLEGACY
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCryptoRunnable
 nsIRunnable
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsP12Runnable
 nsIRunnable

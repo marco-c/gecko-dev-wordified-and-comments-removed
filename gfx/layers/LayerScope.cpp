@@ -1388,7 +1388,7 @@ mState
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 LayerScopeWebSocketHandler
 nsIInputStreamCallback
@@ -2744,7 +2744,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DebugListener
 nsIServerSocketListener
@@ -2942,7 +2942,7 @@ mList
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 DebugDataSender
 nsIRunnable

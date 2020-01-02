@@ -901,7 +901,7 @@ mShutdownPipeWrite
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 MemoryPressureWatcher
 nsIRunnable

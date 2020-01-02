@@ -5,7 +5,7 @@ xpctest_private
 .
 h
 "
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 xpcTestObjectReadOnly
 nsIXPCTestObjectReadOnly
@@ -237,7 +237,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 xpcTestObjectReadWrite
 nsIXPCTestObjectReadWrite

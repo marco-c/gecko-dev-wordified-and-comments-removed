@@ -183,7 +183,7 @@ state
 changed
 "
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 GonkGPSGeolocationProvider
 nsIGeolocationProvider
@@ -2613,7 +2613,7 @@ mRadioInterface
 }
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GonkGPSGeolocationProvider
 :

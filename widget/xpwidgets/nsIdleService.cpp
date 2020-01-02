@@ -221,7 +221,7 @@ reqIdleTime
 }
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsIdleServiceDaily
 nsIObserver
@@ -1466,7 +1466,7 @@ gIdleService
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS
 (
 nsIdleService
 nsIIdleService

@@ -152,12 +152,12 @@ mozilla
 :
 dom
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXMLQuery
 nsXMLQuery
 )
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXULTemplateResultSetXML
 nsISimpleEnumerator

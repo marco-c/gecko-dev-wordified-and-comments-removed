@@ -110,7 +110,7 @@ mEvent
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 TokenBucketCancelable
 nsICancelable
@@ -192,7 +192,7 @@ OnTokenBucketAdmitted
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 EventTokenBucket
 nsITimerCallback

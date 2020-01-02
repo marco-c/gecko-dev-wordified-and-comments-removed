@@ -92,7 +92,7 @@ nullptr
 0
 NS_SAMPLE_CID
 )
-NS_IMPL_ISUPPORTS1_CI
+NS_IMPL_ISUPPORTS_CI
 (
 nsSampleImpl
 nsISample

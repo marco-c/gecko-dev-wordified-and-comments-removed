@@ -2328,7 +2328,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED
 (
 AsyncFetchAndSetIconFromNetwork
 nsRunnable

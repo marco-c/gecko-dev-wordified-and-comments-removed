@@ -75,7 +75,7 @@ mURLLength
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 URLPropertyElement
 nsIPropertyElement
@@ -273,7 +273,7 @@ mURL
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsStringBundleTextOverride
 nsIStringBundleOverride
@@ -807,7 +807,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPropertyEnumeratorByURL
 nsISimpleEnumerator

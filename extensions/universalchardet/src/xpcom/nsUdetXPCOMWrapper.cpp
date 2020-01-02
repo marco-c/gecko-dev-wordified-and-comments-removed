@@ -92,7 +92,7 @@ nsXPCOMDetector
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXPCOMDetector
 nsICharsetDetector
@@ -403,7 +403,7 @@ nsXPCOMStringDetector
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsXPCOMStringDetector
 nsIStringCharsetDetector

@@ -360,7 +360,7 @@ gAppShell
 =
 nullptr
 ;
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsAppShell
 nsBaseAppShell
@@ -670,7 +670,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WakeLockListener
 nsIDOMMozWakeLockListener

@@ -311,7 +311,7 @@ tmpOutstanding
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsUDPOutputStream
 nsIOutputStream
@@ -1248,7 +1248,7 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UDPMessageProxy
 nsIUDPMessage
@@ -1798,7 +1798,7 @@ nsINetAddr
 FAMILY_LOCAL
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsUDPSocket
 nsIUDPSocket
@@ -2415,7 +2415,7 @@ mTargetThread
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SocketListenerProxy
 nsIUDPSocketListener
@@ -2688,7 +2688,7 @@ mData
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 PendingSend
 nsIDNSListener

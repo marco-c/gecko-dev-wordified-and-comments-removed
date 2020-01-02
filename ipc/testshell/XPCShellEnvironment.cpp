@@ -2087,7 +2087,7 @@ return
 1
 ;
 }
-NS_IMPL_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE
 (
 XPCShellDirProvider
 nsIDirectoryServiceProvider

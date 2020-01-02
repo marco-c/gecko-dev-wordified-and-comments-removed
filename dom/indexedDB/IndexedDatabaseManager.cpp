@@ -2773,7 +2773,7 @@ Destroy
 (
 )
 )
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 IndexedDatabaseManager
 nsIIndexedDatabaseManager
@@ -3546,7 +3546,7 @@ aFileId
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AsyncDeleteFileRunnable
 nsIRunnable
@@ -3896,7 +3896,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GetFileReferencesHelper
 nsIRunnable

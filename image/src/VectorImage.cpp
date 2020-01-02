@@ -640,7 +640,7 @@ mImage
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SVGParseCompleteListener
 nsIDocumentObserver
@@ -963,7 +963,7 @@ mImage
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SVGLoadEventListener
 nsIDOMEventListener
@@ -1330,7 +1330,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 VectorImage
 imgIContainer

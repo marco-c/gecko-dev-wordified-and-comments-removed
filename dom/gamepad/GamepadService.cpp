@@ -246,7 +246,7 @@ sShutdown
 =
 false
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GamepadService
 nsIObserver
@@ -2225,7 +2225,7 @@ TYPE_ONE_SHOT
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GamepadServiceTest
 nsIGamepadServiceTest

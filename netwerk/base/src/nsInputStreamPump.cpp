@@ -645,7 +645,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsInputStreamPump
 nsIRequest

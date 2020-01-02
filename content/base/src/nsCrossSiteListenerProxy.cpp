@@ -1783,7 +1783,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsCORSListenerProxy
 nsIStreamListener
@@ -4201,7 +4201,7 @@ mWithCredentials
 ;
 }
 ;
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsCORSPreflightListener
 nsIStreamListener

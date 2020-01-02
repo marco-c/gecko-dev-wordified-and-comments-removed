@@ -213,7 +213,7 @@ BRIGHTNESS_FULL
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsScreenManagerAndroid
 nsIScreenManager

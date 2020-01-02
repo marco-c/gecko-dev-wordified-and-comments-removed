@@ -5018,7 +5018,7 @@ TimestampCount
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 WatchdogManager
 nsIObserver
@@ -7208,7 +7208,7 @@ temporary
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 JSMainRuntimeTemporaryPeakReporter
 nsIMemoryReporter
@@ -12351,7 +12351,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 JSMainRuntimeCompartmentsReporter
 nsIMemoryReporter

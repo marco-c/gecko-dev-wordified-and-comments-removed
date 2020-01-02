@@ -449,7 +449,7 @@ response_allowed_
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 STUNUDPSocketFilter
 nsIUDPSocketFilter
@@ -987,7 +987,7 @@ false
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsStunUDPSocketFilterHandler
 nsIUDPSocketFilterHandler

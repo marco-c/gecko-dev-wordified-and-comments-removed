@@ -809,7 +809,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SmsParent
 nsIObserver
@@ -2404,7 +2404,7 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 SmsRequestParent
 nsIMobileMessageCallback
@@ -3712,7 +3712,7 @@ aError
 )
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 MobileMessageCursorParent
 nsIMobileMessageCursorCallback

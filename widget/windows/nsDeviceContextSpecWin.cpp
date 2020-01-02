@@ -843,7 +843,7 @@ mDevMode
 nullptr
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDeviceContextSpecWin
 nsIDeviceContextSpec
@@ -3106,7 +3106,7 @@ nsPrinterEnumeratorWin
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPrinterEnumeratorWin
 nsIPrinterEnumerator

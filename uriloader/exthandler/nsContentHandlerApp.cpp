@@ -59,7 +59,7 @@ nullptr
 0
 NS_CONTENTHANDLER_CID
 )
-NS_IMPL_ISUPPORTS1_CI
+NS_IMPL_ISUPPORTS_CI
 (
 nsContentHandlerApp
 nsIHandlerApp

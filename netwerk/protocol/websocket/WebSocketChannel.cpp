@@ -377,7 +377,7 @@ mozilla
 namespace
 net
 {
-NS_IMPL_ISUPPORTS13
+NS_IMPL_ISUPPORTS
 (
 WebSocketChannel
 nsIWebSocketChannel
@@ -2411,7 +2411,7 @@ mLen
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CallOnMessageAvailable
 nsIRunnable
@@ -2533,7 +2533,7 @@ mReason
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CallOnStop
 nsIRunnable
@@ -2634,7 +2634,7 @@ mReason
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CallOnServerClose
 nsIRunnable
@@ -2743,7 +2743,7 @@ mSize
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CallAcknowledge
 nsIRunnable
@@ -2860,7 +2860,7 @@ mSocketOut
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CallOnTransportAvailable
 nsIRunnable
@@ -3394,7 +3394,7 @@ mMessage
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 OutboundEnqueuer
 nsIRunnable

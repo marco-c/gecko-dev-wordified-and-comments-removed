@@ -281,7 +281,7 @@ Destroy
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 CommonAnimationManager
 nsIStyleRuleProcessor
@@ -1166,7 +1166,7 @@ return
 newStyle
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 AnimValuesStyleRule
 nsIStyleRule

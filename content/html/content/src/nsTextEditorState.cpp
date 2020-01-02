@@ -1061,7 +1061,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsTextInputSelectionImpl
 )
-NS_INTERFACE_TABLE3
+NS_INTERFACE_TABLE
 (
 nsTextInputSelectionImpl
 nsISelectionController
@@ -2665,7 +2665,7 @@ nsTextInputListener
 )
 {
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsTextInputListener
 nsISelectionListener
@@ -7785,7 +7785,7 @@ SELECTION_HIDDEN
 ;
 }
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsAnonDivObserver
 nsIMutationObserver

@@ -114,7 +114,7 @@ gWifiMonitorLog
 ;
 #
 endif
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS
 (
 nsWifiMonitor
 nsIRunnable
@@ -536,7 +536,7 @@ mResult
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsPassErrorToWifiListeners
 nsIRunnable
@@ -825,7 +825,7 @@ mAccessPoints
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsCallWifiListeners
 nsIRunnable

@@ -480,7 +480,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GfxD2DSurfaceReporter
 nsIMemoryReporter
@@ -597,7 +597,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GfxD2DVramReporter
 nsIMemoryReporter
@@ -1341,7 +1341,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 GPUAdapterReporter
 nsIMemoryReporter

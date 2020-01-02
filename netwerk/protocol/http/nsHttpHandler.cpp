@@ -8891,7 +8891,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS6
+NS_IMPL_ISUPPORTS
 (
 nsHttpHandler
 nsIHttpProtocolHandler
@@ -10512,7 +10512,7 @@ Tickle
 )
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS
 (
 nsHttpsHandler
 nsIHttpProtocolHandler

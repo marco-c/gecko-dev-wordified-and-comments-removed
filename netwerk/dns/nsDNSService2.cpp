@@ -419,7 +419,7 @@ mDone
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDNSRecord
 nsIDNSRecord
@@ -1330,7 +1330,7 @@ return
 n
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 nsDNSAsyncRequest
 nsICancelable
@@ -1662,7 +1662,7 @@ nsDNSService
 )
 {
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS
 (
 nsDNSService
 nsIDNSService

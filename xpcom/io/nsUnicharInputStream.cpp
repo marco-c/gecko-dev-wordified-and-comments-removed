@@ -472,7 +472,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 StringUnicharInputStream
 nsIUnicharInputStream
@@ -628,7 +628,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS
 (
 UTF8InputStream
 nsIUnicharInputStream
@@ -1566,7 +1566,7 @@ aValidUTF16CodeUnits
 utf16length
 ;
 }
-NS_IMPL_QUERY_INTERFACE2
+NS_IMPL_QUERY_INTERFACE
 (
 nsSimpleUnicharStreamFactory
 nsIFactory
