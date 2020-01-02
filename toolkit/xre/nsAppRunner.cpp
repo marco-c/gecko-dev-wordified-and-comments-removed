@@ -1014,13 +1014,6 @@ ProgramName
 )
 ;
 #
-include
-"
-nsX11ErrorHandler
-.
-h
-"
-#
 define
 FILE_COMPATIBILITY_INFO
 NS_LITERAL_CSTRING
@@ -15830,7 +15823,7 @@ endif
 #
 ifdef
 MOZ_X11
-InstallX11ErrorHandler
+XRE_InstallX11ErrorHandler
 (
 )
 ;

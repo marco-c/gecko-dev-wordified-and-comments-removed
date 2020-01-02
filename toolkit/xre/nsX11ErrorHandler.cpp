@@ -67,7 +67,6 @@ extern
 C
 "
 {
-static
 int
 X11Error
 (
@@ -655,6 +654,14 @@ return
 ;
 }
 }
+#
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
+)
 void
 InstallX11ErrorHandler
 (
@@ -704,3 +711,5 @@ True
 ;
 }
 }
+#
+endif
