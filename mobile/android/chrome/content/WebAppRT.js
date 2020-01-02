@@ -458,6 +458,12 @@ IsDebuggable
 "
 }
 )
+=
+=
+=
+"
+true
+"
 )
 {
 this
