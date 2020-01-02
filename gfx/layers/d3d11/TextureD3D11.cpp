@@ -320,7 +320,10 @@ aFormat
 )
 mFlags
 (
-0
+TextureFlags
+:
+:
+NO_FLAGS
 )
 mCurrentTile
 (
