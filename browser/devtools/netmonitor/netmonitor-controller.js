@@ -2437,6 +2437,7 @@ emit
 EVENTS
 .
 NETWORK_EVENT
+actor
 )
 ;
 }
@@ -2502,6 +2503,7 @@ emit
 EVENTS
 .
 UPDATING_REQUEST_HEADERS
+actor
 )
 ;
 break
@@ -2530,6 +2532,7 @@ emit
 EVENTS
 .
 UPDATING_REQUEST_COOKIES
+actor
 )
 ;
 break
@@ -2558,6 +2561,7 @@ emit
 EVENTS
 .
 UPDATING_REQUEST_POST_DATA
+actor
 )
 ;
 break
@@ -2586,6 +2590,7 @@ emit
 EVENTS
 .
 UPDATING_RESPONSE_HEADERS
+actor
 )
 ;
 break
@@ -2614,6 +2619,7 @@ emit
 EVENTS
 .
 UPDATING_RESPONSE_COOKIES
+actor
 )
 ;
 break
@@ -2671,6 +2677,7 @@ emit
 EVENTS
 .
 STARTED_RECEIVING_RESPONSE
+actor
 )
 ;
 break
@@ -2722,6 +2729,7 @@ emit
 EVENTS
 .
 UPDATING_RESPONSE_CONTENT
+actor
 )
 ;
 break
@@ -2768,6 +2776,7 @@ emit
 EVENTS
 .
 UPDATING_EVENT_TIMINGS
+actor
 )
 ;
 break
@@ -2804,6 +2813,9 @@ emit
 EVENTS
 .
 RECEIVED_REQUEST_HEADERS
+aResponse
+.
+from
 )
 ;
 }
@@ -2837,6 +2849,9 @@ emit
 EVENTS
 .
 RECEIVED_REQUEST_COOKIES
+aResponse
+.
+from
 )
 ;
 }
@@ -2870,6 +2885,9 @@ emit
 EVENTS
 .
 RECEIVED_REQUEST_POST_DATA
+aResponse
+.
+from
 )
 ;
 }
@@ -2903,6 +2921,9 @@ emit
 EVENTS
 .
 RECEIVED_RESPONSE_HEADERS
+aResponse
+.
+from
 )
 ;
 }
@@ -2936,6 +2957,9 @@ emit
 EVENTS
 .
 RECEIVED_RESPONSE_COOKIES
+aResponse
+.
+from
 )
 ;
 }
@@ -2969,6 +2993,9 @@ emit
 EVENTS
 .
 RECEIVED_RESPONSE_CONTENT
+aResponse
+.
+from
 )
 ;
 }
@@ -3002,6 +3029,9 @@ emit
 EVENTS
 .
 RECEIVED_EVENT_TIMINGS
+aResponse
+.
+from
 )
 ;
 }
