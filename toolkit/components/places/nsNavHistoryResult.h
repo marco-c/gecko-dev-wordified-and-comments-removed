@@ -2398,6 +2398,10 @@ nsNavHistoryResultNode
 aNode
 int32_t
 aIndex
+bool
+aIsTemporary
+=
+false
 )
 ;
 nsresult
@@ -2406,6 +2410,10 @@ InsertSortedChild
 nsNavHistoryResultNode
 *
 aNode
+bool
+aIsTemporary
+=
+false
 bool
 aIgnoreDuplicates
 =
@@ -2424,6 +2432,10 @@ RemoveChildAt
 (
 int32_t
 aIndex
+bool
+aIsTemporary
+=
+false
 )
 ;
 void
