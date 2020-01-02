@@ -347,6 +347,12 @@ aValue
 (
 BOOL
 )
+isBeingShown
+;
+-
+(
+BOOL
+)
 isVisibleOrBeingShown
 ;
 -
