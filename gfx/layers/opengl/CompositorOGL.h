@@ -530,6 +530,7 @@ mUnusedTextures
 ;
 class
 CompositorOGL
+MOZ_FINAL
 :
 public
 Compositor
@@ -1003,6 +1004,9 @@ OGL
 }
 #
 endif
+/
+/
+MOZ_DUMP_PAINTING
 virtual
 LayersBackend
 GetBackendType
