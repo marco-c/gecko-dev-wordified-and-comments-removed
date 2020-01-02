@@ -107,12 +107,12 @@ MOZALLOC_LIB
 .
 .
 /
-certverifier
+insanity
 /
 (
 LIB_PREFIX
 )
-certverifier
+insanitypkix
 .
 (
 LIB_SUFFIX
