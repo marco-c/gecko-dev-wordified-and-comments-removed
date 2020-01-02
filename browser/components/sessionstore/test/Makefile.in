@@ -160,6 +160,10 @@ browser_sessionStorage
 .
 js
 \
+browser_tabStateCache
+.
+js
+\
 browser_upgrade_backup
 .
 js
