@@ -3915,8 +3915,7 @@ ok
 )
 ;
 }
-PCompositorParent
-*
+bool
 CompositorParent
 :
 :
@@ -3959,7 +3958,7 @@ handle
 )
 {
 return
-nullptr
+false
 ;
 }
 cpcp
@@ -3994,11 +3993,7 @@ XRE_GetIOMessageLoop
 )
 ;
 return
-cpcp
-.
-get
-(
-)
+true
 ;
 }
 static

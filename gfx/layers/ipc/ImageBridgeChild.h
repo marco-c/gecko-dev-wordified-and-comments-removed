@@ -191,8 +191,7 @@ StartUp
 )
 ;
 static
-PImageBridgeChild
-*
+bool
 StartUpInChildProcess
 (
 Transport

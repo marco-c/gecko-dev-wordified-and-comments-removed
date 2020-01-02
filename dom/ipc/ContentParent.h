@@ -791,8 +791,7 @@ bool
 aCloseWithError
 )
 ;
-PCompositorParent
-*
+bool
 AllocPCompositorParent
 (
 mozilla
@@ -812,8 +811,7 @@ aOtherProcess
 )
 MOZ_OVERRIDE
 ;
-PImageBridgeParent
-*
+bool
 AllocPImageBridgeParent
 (
 mozilla

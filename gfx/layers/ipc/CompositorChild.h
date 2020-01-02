@@ -120,8 +120,7 @@ Destroy
 )
 ;
 static
-PCompositorChild
-*
+bool
 Create
 (
 Transport

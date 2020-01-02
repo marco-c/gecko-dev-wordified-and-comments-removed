@@ -469,8 +469,7 @@ aLayersId
 )
 ;
 static
-PCompositorParent
-*
+bool
 Create
 (
 Transport

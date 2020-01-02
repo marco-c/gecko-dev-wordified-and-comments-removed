@@ -2415,8 +2415,7 @@ reached
 }
 }
 }
-PImageBridgeChild
-*
+bool
 ImageBridgeChild
 :
 :
@@ -2463,7 +2462,7 @@ processHandle
 )
 {
 return
-nullptr
+false
 ;
 }
 sImageBridgeChildThread
@@ -2488,7 +2487,7 @@ Start
 )
 {
 return
-nullptr
+false
 ;
 }
 sImageBridgeChildSingleton
@@ -2518,7 +2517,7 @@ processHandle
 )
 ;
 return
-sImageBridgeChildSingleton
+true
 ;
 }
 void

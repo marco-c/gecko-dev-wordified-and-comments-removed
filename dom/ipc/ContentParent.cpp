@@ -8404,8 +8404,7 @@ return
 NS_OK
 ;
 }
-PCompositorParent
-*
+bool
 ContentParent
 :
 :
@@ -8438,8 +8437,7 @@ aOtherProcess
 )
 ;
 }
-PImageBridgeParent
-*
+bool
 ContentParent
 :
 :
