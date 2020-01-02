@@ -22,8 +22,6 @@ RtspChannel
 :
 public
 nsBaseChannel
-public
-nsIStreamListener
 {
 public
 :
