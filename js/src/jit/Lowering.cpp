@@ -23832,7 +23832,7 @@ if
 ins
 -
 >
-isCall
+possiblyCalls
 (
 )
 )
