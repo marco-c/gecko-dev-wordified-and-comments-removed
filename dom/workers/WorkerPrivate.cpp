@@ -23933,7 +23933,6 @@ MessageEvent
 Constructor
 (
 globalObject
-aCx
 NS_LITERAL_STRING
 (
 "

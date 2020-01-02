@@ -448,9 +448,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 JS
 :
 :
@@ -507,9 +504,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 JS
 :
 :
@@ -597,9 +591,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 Sequence
 <
@@ -626,9 +617,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 Sequence
 <

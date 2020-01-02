@@ -98,9 +98,6 @@ const
 GlobalObject
 &
 aOwner
-JSContext
-*
-aCx
 const
 ActivityOptions
 &
@@ -162,7 +159,11 @@ activity
 Initialize
 (
 window
-aCx
+aOwner
+.
+Context
+(
+)
 aOptions
 )
 ;

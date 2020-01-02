@@ -39831,11 +39831,18 @@ returnType
 arguments
 extendedAttributes
 considerTypes
+           
+static
+=
+False
 )
 :
     
 return
 (
+not
+static
+and
 considerTypes
 and
             
@@ -42243,19 +42250,11 @@ interface
 isJSImplemented
 (
 )
+static
 )
         
 if
 needsCx
-and
-not
-(
-static
-and
-descriptor
-.
-workers
-)
 :
             
 argsPre
@@ -83151,6 +83150,13 @@ extendedAttrs
 self
 .
 passJSBitsAsNeeded
+self
+.
+member
+.
+isStatic
+(
+)
 )
 :
             
@@ -96512,6 +96518,11 @@ arguments
 )
 [
 ]
+considerTypes
+=
+True
+static
+=
 True
 )
 :
@@ -97065,6 +97076,11 @@ arguments
 )
 [
 ]
+considerTypes
+=
+True
+static
+=
 True
 )
 :

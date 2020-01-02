@@ -498,8 +498,6 @@ Test2
 const
 GlobalObject
 &
-JSContext
-*
 const
 DictForConstructor
 &
@@ -5303,8 +5301,6 @@ StaticMethodWithContext
 const
 GlobalObject
 &
-JSContext
-*
 JS
 :
 :
