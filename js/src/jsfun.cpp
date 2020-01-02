@@ -3121,7 +3121,6 @@ fun_resolve
 JS_ConvertStub
 nullptr
 nullptr
-nullptr
 fun_hasInstance
 nullptr
 fun_trace

@@ -464,7 +464,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 nsXBLDocGlobalObject

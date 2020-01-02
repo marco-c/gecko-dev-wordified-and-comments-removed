@@ -18337,7 +18337,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 ArrayBufferObject
 :
 :
@@ -19286,13 +19285,6 @@ nullptr
 /
 *
 finalize
-*
-/
-\
-nullptr
-/
-*
-checkAccess
 *
 /
 \
@@ -20421,7 +20413,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-nullptr
 nullptr
 nullptr
 nullptr

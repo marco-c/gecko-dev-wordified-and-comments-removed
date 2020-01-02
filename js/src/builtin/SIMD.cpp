@@ -772,7 +772,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 nullptr
-nullptr
 call
 nullptr
 nullptr
@@ -1679,7 +1678,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-nullptr
 nullptr
 nullptr
 nullptr

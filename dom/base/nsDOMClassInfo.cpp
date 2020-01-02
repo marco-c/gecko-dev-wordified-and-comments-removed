@@ -16889,7 +16889,6 @@ nsHTMLDocumentSH
 :
 :
 ReleaseDocument
-nullptr
 nsHTMLDocumentSH
 :
 :

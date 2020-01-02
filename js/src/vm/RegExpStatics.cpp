@@ -141,7 +141,6 @@ resc_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 resc_trace
 }
 ;

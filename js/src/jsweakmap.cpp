@@ -2393,7 +2393,6 @@ WeakMap_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 WeakMap_mark
 }
 ;

@@ -4623,7 +4623,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 trace
 {
 nullptr
@@ -6405,7 +6404,6 @@ JS_ResolveStub
 JS_ConvertStub
 nullptr
 nullptr
-nullptr
 stopiter_hasInstance
 nullptr
 }
@@ -7469,7 +7467,6 @@ LegacyGeneratorObject
 nullptr
 nullptr
 nullptr
-nullptr
 TraceGenerator
 <
 LegacyGeneratorObject
@@ -7506,7 +7503,6 @@ FinalizeGenerator
 <
 StarGeneratorObject
 >
-nullptr
 nullptr
 nullptr
 nullptr

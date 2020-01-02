@@ -18230,7 +18230,6 @@ prop_iter_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 prop_iter_trace
 }
 ;

@@ -2139,7 +2139,6 @@ AsmJSModuleObject_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 AsmJSModuleObject_trace
 }
 ;

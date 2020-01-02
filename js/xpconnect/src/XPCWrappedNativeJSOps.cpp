@@ -3114,7 +3114,6 @@ XPC_WN_NoHelper_Finalize
 nullptr
 nullptr
 nullptr
-nullptr
 XPC_WN_NoHelper_Trace
 {
 nullptr
@@ -6399,7 +6398,6 @@ XPC_WN_Shared_Proto_Finalize
 nullptr
 nullptr
 nullptr
-nullptr
 XPC_WN_Shared_Proto_Trace
 JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
@@ -6425,7 +6423,6 @@ XPC_WN_Shared_Proto_Enumerate
 XPC_WN_ModsAllowed_Proto_Resolve
 JS_ConvertStub
 XPC_WN_Shared_Proto_Finalize
-nullptr
 nullptr
 nullptr
 nullptr
@@ -6745,7 +6742,6 @@ XPC_WN_Shared_Proto_Finalize
 nullptr
 nullptr
 nullptr
-nullptr
 XPC_WN_Shared_Proto_Trace
 JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
@@ -6771,7 +6767,6 @@ XPC_WN_Shared_Proto_Enumerate
 XPC_WN_NoMods_Proto_Resolve
 JS_ConvertStub
 XPC_WN_Shared_Proto_Finalize
-nullptr
 nullptr
 nullptr
 nullptr

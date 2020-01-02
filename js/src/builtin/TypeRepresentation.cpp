@@ -125,7 +125,6 @@ obj_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 obj_trace
 }
 ;

@@ -4662,7 +4662,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 mark
 }
 ;
@@ -8025,7 +8024,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 finalize
-nullptr
 nullptr
 nullptr
 nullptr

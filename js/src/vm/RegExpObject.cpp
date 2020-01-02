@@ -1065,7 +1065,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 regexp_trace
 }
 ;

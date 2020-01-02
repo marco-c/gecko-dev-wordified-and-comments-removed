@@ -27929,7 +27929,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 JSCLASS_NO_INTERNAL_MEMBERS
 }
 ;

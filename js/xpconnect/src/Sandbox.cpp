@@ -3052,7 +3052,6 @@ sandbox_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 TraceXPCGlobal
 }
 ;

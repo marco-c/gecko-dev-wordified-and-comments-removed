@@ -130,7 +130,6 @@ finalize
 nullptr
 nullptr
 nullptr
-nullptr
 trace
 }
 ;

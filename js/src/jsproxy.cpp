@@ -17713,13 +17713,6 @@ finalize
 *
 /
 \
-nullptr
-/
-*
-checkAccess
-*
-/
-\
 callOp
 /
 *
@@ -17914,7 +17907,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 proxy_Finalize
-nullptr
 nullptr
 nullptr
 nullptr

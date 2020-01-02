@@ -218,7 +218,6 @@ exn_finalize
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 static
