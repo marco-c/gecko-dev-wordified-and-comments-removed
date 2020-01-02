@@ -2723,13 +2723,13 @@ default
 return
 ;
 }
-nsMouseEvent_base
+WidgetMouseEventBase
 &
 mouseEvent
 =
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 &
 >
 (

@@ -435,7 +435,10 @@ const
 return
 static_cast
 <
-nsMouseEvent_base
+mozilla
+:
+:
+WidgetMouseEventBase
 *
 >
 (
@@ -455,7 +458,10 @@ const
 return
 static_cast
 <
-nsMouseEvent_base
+mozilla
+:
+:
+WidgetMouseEventBase
 *
 >
 (

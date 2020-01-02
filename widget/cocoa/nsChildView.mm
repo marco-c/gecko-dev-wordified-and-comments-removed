@@ -28398,13 +28398,13 @@ localPoint
 )
 )
 ;
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 mouseEvent
 =
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -35383,7 +35383,7 @@ ChildViewMouseTracker
 :
 AttachPluginEvent
 (
-nsMouseEvent_base
+WidgetMouseEventBase
 &
 aMouseEvent
 ChildView
