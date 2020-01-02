@@ -260,6 +260,17 @@ mDontRouteViaWildCard
 ;
 }
 void
+EnableKeepAlive
+(
+)
+{
+mCaps
+|
+=
+NS_HTTP_ALLOW_KEEPALIVE
+;
+}
+void
 SetPriority
 (
 int32_t

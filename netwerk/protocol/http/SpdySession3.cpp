@@ -12511,6 +12511,13 @@ tunnel
 )
 ;
 }
+trans
+-
+>
+EnableKeepAlive
+(
+)
+;
 gHttpHandler
 -
 >
