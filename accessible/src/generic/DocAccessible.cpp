@@ -6929,8 +6929,13 @@ mContent
 aContainer
 -
 >
-UpdateChildren
+InvalidateChildren
 (
+)
+;
+CacheChildrenInSubtree
+(
+aContainer
 )
 ;
 }
