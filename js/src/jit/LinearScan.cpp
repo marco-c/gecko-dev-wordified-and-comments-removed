@@ -250,7 +250,7 @@ dequeue
 )
 !
 =
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -8531,13 +8531,13 @@ UsePosition
 *
 fixedOp
 =
-NULL
+nullptr
 ;
 UsePosition
 *
 registerOp
 =
-NULL
+nullptr
 ;
 UsePositionIterator
 usePos
@@ -9099,7 +9099,7 @@ LiveInterval
 *
 prev
 =
-NULL
+nullptr
 ;
 for
 (
@@ -9222,7 +9222,7 @@ rend
 )
 )
 return
-NULL
+nullptr
 ;
 LiveInterval
 *

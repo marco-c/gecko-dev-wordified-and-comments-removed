@@ -386,11 +386,11 @@ MUse
 :
 producer_
 (
-NULL
+nullptr
 )
 consumer_
 (
-NULL
+nullptr
 )
 index_
 (
@@ -462,7 +462,7 @@ JS_ASSERT
 producer_
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -479,7 +479,7 @@ return
 producer_
 !
 =
-NULL
+nullptr
 ;
 }
 MNode
@@ -494,7 +494,7 @@ JS_ASSERT
 consumer_
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -554,7 +554,7 @@ MNode
 :
 block_
 (
-NULL
+nullptr
 )
 {
 }
@@ -650,7 +650,7 @@ typePolicy
 )
 {
 return
-NULL
+nullptr
 ;
 }
 MUseIterator
@@ -1201,11 +1201,11 @@ id_
 )
 valueNumber_
 (
-NULL
+nullptr
 )
 range_
 (
-NULL
+nullptr
 )
 resultType_
 (
@@ -1213,7 +1213,7 @@ MIRType_None
 )
 resultTypeSet_
 (
-NULL
+nullptr
 )
 flags_
 (
@@ -1221,11 +1221,11 @@ flags_
 )
 dependency_
 (
-NULL
+nullptr
 )
 trackedPc_
 (
-NULL
+nullptr
 )
 {
 }
@@ -1515,7 +1515,7 @@ clearValueNumberData
 {
 valueNumber_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1531,7 +1531,7 @@ JS_ASSERT
 valueNumber_
 =
 =
-NULL
+nullptr
 )
 ;
 valueNumber_
@@ -2469,7 +2469,7 @@ MInstruction
 :
 resumePoint_
 (
-NULL
+nullptr
 )
 {
 }
@@ -15741,7 +15741,7 @@ bool
 *
 ptypeChange
 =
-NULL
+nullptr
 )
 ;
 MDefinition
@@ -15857,7 +15857,7 @@ i
 this
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -23067,7 +23067,7 @@ pc
 )
 priorResumePoint_
 (
-NULL
+nullptr
 )
 entries_
 (
@@ -23087,7 +23087,7 @@ JS_ASSERT
 priorResumePoint_
 =
 =
-NULL
+nullptr
 )
 ;
 priorResumePoint_
@@ -23278,11 +23278,11 @@ CacheLocationList
 :
 pc
 (
-NULL
+nullptr
 )
 script
 (
-NULL
+nullptr
 )
 {
 }
@@ -23351,7 +23351,7 @@ location_
 )
 inlinePropertyTable_
 (
-NULL
+nullptr
 )
 {
 setResultType
@@ -23406,7 +23406,7 @@ JS_ASSERT
 inlinePropertyTable_
 =
 =
-NULL
+nullptr
 )
 ;
 inlinePropertyTable_
@@ -23428,7 +23428,7 @@ clearInlinePropertyTable
 {
 inlinePropertyTable_
 =
-NULL
+nullptr
 ;
 }
 InlinePropertyTable
@@ -24279,7 +24279,7 @@ map_
 )
 fallback_
 (
-NULL
+nullptr
 )
 {
 setOperand
@@ -30599,7 +30599,7 @@ obj
 MBinaryInstruction
 (
 obj
-NULL
+nullptr
 )
 hasValue_
 (
@@ -31301,7 +31301,7 @@ Inline_Exit
 script
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT_IF
@@ -31714,7 +31714,7 @@ index
 .
 set
 (
-NULL
+nullptr
 this
 index
 )

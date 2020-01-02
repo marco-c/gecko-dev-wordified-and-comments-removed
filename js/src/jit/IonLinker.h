@@ -91,7 +91,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 IonCode
@@ -302,7 +302,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -494,7 +494,7 @@ if
 alloc
 )
 return
-NULL
+nullptr
 ;
 return
 newCode

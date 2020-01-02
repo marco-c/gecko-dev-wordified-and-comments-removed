@@ -6,6 +6,15 @@ define
 jit_JSONSpewer_h
 #
 include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -178,7 +187,7 @@ true
 )
 fp_
 (
-NULL
+nullptr
 )
 {
 }

@@ -494,7 +494,7 @@ IonSpewer
 :
 graph
 (
-NULL
+nullptr
 )
 function
 (
@@ -801,7 +801,7 @@ FILE
 const
 IonSpewFile
 =
-NULL
+nullptr
 ;
 static
 inline

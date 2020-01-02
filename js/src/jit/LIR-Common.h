@@ -1034,7 +1034,7 @@ shouldUseVM
 VMCall
 "
 :
-NULL
+nullptr
 ;
 }
 MNewArray
@@ -1094,7 +1094,7 @@ shouldUseVM
 VMCall
 "
 :
-NULL
+nullptr
 ;
 }
 MNewObject
@@ -2444,7 +2444,7 @@ LInterruptCheckImplicit
 :
 oolEntry_
 (
-NULL
+nullptr
 )
 {
 }
@@ -3586,7 +3586,7 @@ getSingleTarget
 )
 !
 =
-NULL
+nullptr
 ;
 }
 JSFunction
@@ -4578,7 +4578,7 @@ getSingleTarget
 )
 !
 =
-NULL
+nullptr
 ;
 }
 JSFunction
@@ -5412,7 +5412,7 @@ operandMightEmulateUndefined
 MightEmulateUndefined
 "
 :
-NULL
+nullptr
 ;
 }
 static
@@ -7609,7 +7609,7 @@ UrshCanOverflow
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 JSOp
@@ -8771,7 +8771,7 @@ snapshot
 OverflowCheck
 "
 :
-NULL
+nullptr
 ;
 }
 virtual
@@ -8842,7 +8842,7 @@ snapshot
 OverflowCheck
 "
 :
-NULL
+nullptr
 ;
 }
 virtual
@@ -11855,7 +11855,7 @@ needsHoleCheck
 HoleCheck
 "
 :
-NULL
+nullptr
 ;
 }
 const
@@ -12119,7 +12119,7 @@ needsHoleCheck
 HoleCheck
 "
 :
-NULL
+nullptr
 ;
 }
 const
@@ -12261,7 +12261,7 @@ loadDoubles
 Doubles
 "
 :
-NULL
+nullptr
 )
 ;
 }
@@ -12378,7 +12378,7 @@ needsHoleCheck
 HoleCheck
 "
 :
-NULL
+nullptr
 ;
 }
 static
@@ -12509,7 +12509,7 @@ needsHoleCheck
 HoleCheck
 "
 :
-NULL
+nullptr
 ;
 }
 const

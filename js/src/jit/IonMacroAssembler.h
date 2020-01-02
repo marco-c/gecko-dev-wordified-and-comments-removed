@@ -220,7 +220,7 @@ Equal
 )
 jump_
 (
-NULL
+nullptr
 )
 reg_
 (
@@ -533,7 +533,7 @@ ptr_
 (
 ImmGCPtr
 (
-NULL
+nullptr
 )
 )
 {
@@ -658,7 +658,7 @@ false
 )
 sps_
 (
-NULL
+nullptr
 )
 {
 JSContext
@@ -745,7 +745,7 @@ false
 )
 sps_
 (
-NULL
+nullptr
 )
 {
 constructRoot
@@ -768,7 +768,7 @@ jit
 TempAllocator
 *
 )
-NULL
+nullptr
 )
 ;
 alloc_
@@ -821,7 +821,7 @@ false
 )
 sps_
 (
-NULL
+nullptr
 )
 {
 #
@@ -4225,7 +4225,7 @@ VMFunction
 *
 f
 =
-NULL
+nullptr
 )
 {
 linkExitFrame
@@ -4259,7 +4259,7 @@ IonCode
 *
 codeVal
 =
-NULL
+nullptr
 )
 {
 linkExitFrame
@@ -4278,7 +4278,7 @@ Push
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 )
 ;
@@ -4342,7 +4342,7 @@ IonCode
 *
 codeVal
 =
-NULL
+nullptr
 )
 ;
 void
@@ -4358,7 +4358,7 @@ IonCode
 *
 codeVal
 =
-NULL
+nullptr
 )
 ;
 void
@@ -5338,7 +5338,7 @@ storePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 Address
 (
@@ -5485,7 +5485,7 @@ storePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 Address
 (
@@ -6298,10 +6298,10 @@ behavior
 convertValueToInt
 (
 value
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 InvalidReg
 temp
 output
@@ -6417,9 +6417,9 @@ convertValueToInt
 (
 value
 input
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 InvalidReg
 temp
 output
@@ -6619,9 +6619,9 @@ convertValueToInt
 (
 value
 input
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 InvalidReg
 temp
 output
@@ -6766,7 +6766,7 @@ value
 input
 handleStringEntry
 handleStringRejoin
-NULL
+nullptr
 stringReg
 temp
 output
@@ -6796,9 +6796,9 @@ convertValueToInt
 (
 value
 input
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 InvalidReg
 temp
 output

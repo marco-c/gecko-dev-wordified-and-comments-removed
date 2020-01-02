@@ -16473,7 +16473,7 @@ LInstruction
 *
 lir
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -20101,7 +20101,7 @@ lastResumePoint_
 )
 SpewResumePoint
 (
-NULL
+nullptr
 ins
 lastResumePoint_
 )
@@ -20140,7 +20140,7 @@ lastResumePoint_
 SpewResumePoint
 (
 block
-NULL
+nullptr
 lastResumePoint_
 )
 ;

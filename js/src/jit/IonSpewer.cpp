@@ -299,7 +299,7 @@ filelen
 +
 1
 ]
-NULL
+nullptr
 10
 )
 ;
@@ -917,7 +917,7 @@ this
 >
 graph
 =
-NULL
+nullptr
 ;
 }
 FILE
@@ -927,7 +927,7 @@ jit
 :
 IonSpewFile
 =
-NULL
+nullptr
 ;
 static
 bool
@@ -1076,7 +1076,7 @@ help
 {
 fflush
 (
-NULL
+nullptr
 )
 ;
 printf
