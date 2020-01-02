@@ -7874,6 +7874,15 @@ mSignalingState
 =
 =
 aSignalingState
+|
+|
+mSignalingState
+=
+=
+PCImplSignalingState
+:
+:
+SignalingClosed
 )
 {
 return
