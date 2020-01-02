@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsRect
-.
-h
-"
-#
-include
-"
 nsIBaseWindow
 .
 h

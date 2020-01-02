@@ -44,15 +44,6 @@ include
 "
 mozilla
 /
-EventForwards
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h
@@ -62,7 +53,7 @@ include
 "
 mozilla
 /
-TextRange
+TextEvents
 .
 h
 "

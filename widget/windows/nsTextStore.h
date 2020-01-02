@@ -60,7 +60,7 @@ include
 "
 mozilla
 /
-TextRange
+TextEvents
 .
 h
 "

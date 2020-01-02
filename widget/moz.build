@@ -671,11 +671,6 @@ TextEvents
 h
 '
 '
-TextRange
-.
-h
-'
-'
 TouchEvents
 .
 h

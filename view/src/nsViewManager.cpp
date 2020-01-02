@@ -170,13 +170,6 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-nsIDocument
-.
-h
-"
 using
 namespace
 mozilla

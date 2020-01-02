@@ -117,7 +117,7 @@ include
 "
 mozilla
 /
-EventForwards
+MouseEvents
 .
 h
 "

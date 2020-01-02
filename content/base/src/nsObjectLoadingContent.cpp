@@ -429,15 +429,6 @@ include
 "
 mozilla
 /
-BasicEvents
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingUtils

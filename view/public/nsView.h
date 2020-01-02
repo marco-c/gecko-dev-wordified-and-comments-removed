@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsWidgetInitData
-.
-h
-"
-#
-include
-"
 nsIWidgetListener
 .
 h

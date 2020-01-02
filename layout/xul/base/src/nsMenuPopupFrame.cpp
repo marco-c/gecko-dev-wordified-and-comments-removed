@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIDOMKeyEvent
-.
-h
-"
-#
-include
-"
 nsIDOMScreen
 .
 h
@@ -7464,10 +7457,7 @@ if
 keyCode
 =
 =
-nsIDOMKeyEvent
-:
-:
-DOM_VK_BACK_SPACE
+NS_VK_BACK
 )
 {
 if
