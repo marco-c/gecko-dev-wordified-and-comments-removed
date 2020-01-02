@@ -10,6 +10,9 @@ fails
 if
 (
 B2G
+|
+|
+Android
 )
 fuzzy
 -
@@ -51,6 +54,9 @@ fails
 if
 (
 B2G
+|
+|
+Android
 )
 fuzzy
 -
@@ -92,6 +98,9 @@ fails
 if
 (
 B2G
+|
+|
+Android
 )
 fuzzy
 -
@@ -133,6 +142,9 @@ fails
 if
 (
 B2G
+|
+|
+Android
 )
 fuzzy
 -
@@ -174,6 +186,9 @@ fails
 if
 (
 B2G
+|
+|
+Android
 )
 skip
 -
@@ -216,6 +231,9 @@ fails
 if
 (
 B2G
+|
+|
+Android
 )
 =
 =

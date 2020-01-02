@@ -69,12 +69,6 @@ makes
 this
 fail
 random
-fails
--
-if
-(
-Android
-)
 !
 =
 boxshadow

@@ -299,12 +299,6 @@ html
 #
 bug
 8253
-fails
--
-if
-(
-Android
-)
 random
 -
 if

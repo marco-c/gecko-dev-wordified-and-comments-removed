@@ -377,6 +377,9 @@ skip
 if
 (
 B2G
+|
+|
+Android
 )
 =
 =
@@ -405,6 +408,9 @@ skip
 if
 (
 B2G
+|
+|
+Android
 )
 =
 =
@@ -433,6 +439,9 @@ skip
 if
 (
 B2G
+|
+|
+Android
 )
 =
 =
@@ -461,6 +470,9 @@ skip
 if
 (
 B2G
+|
+|
+Android
 )
 =
 =
