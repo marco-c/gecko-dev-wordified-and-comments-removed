@@ -307,12 +307,13 @@ mDisableSequenceForNextFrame
 false
 )
 {
-sBackend
-=
+SetBackend
+(
 LayersBackend
 :
 :
 LAYERS_D3D11
+)
 ;
 }
 CompositorD3D11

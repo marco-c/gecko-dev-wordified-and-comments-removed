@@ -762,12 +762,13 @@ MOZ_COUNT_CTOR
 CompositorOGL
 )
 ;
-sBackend
-=
+SetBackend
+(
 LayersBackend
 :
 :
 LAYERS_OPENGL
+)
 ;
 }
 CompositorOGL
