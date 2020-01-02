@@ -4752,6 +4752,13 @@ lastPoint
 pointOut
 ;
 }
+apzc
+-
+>
+Destroy
+(
+)
+;
 }
 TEST_F
 (
@@ -4929,6 +4936,13 @@ ScreenPoint
 90
 )
 pointOut
+)
+;
+apzc
+-
+>
+Destroy
+(
 )
 ;
 }
