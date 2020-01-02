@@ -6494,16 +6494,12 @@ segment
 AppendFrame
 (
 image
-?
-image
 .
 forget
 (
 )
-:
-nullptr
 delta
-gfxIntSize
+IntSize
 (
 width_
 height_

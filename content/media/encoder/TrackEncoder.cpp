@@ -906,6 +906,10 @@ mFrame
 GetIntrinsicSize
 (
 )
+.
+ToIntSize
+(
+)
 )
 ;
 iter

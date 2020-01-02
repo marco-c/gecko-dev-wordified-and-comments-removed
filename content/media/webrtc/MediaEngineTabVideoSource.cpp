@@ -885,13 +885,7 @@ forget
 (
 )
 delta
-gfx
-:
-:
-ThebesIntSize
-(
 size
-)
 )
 ;
 }
@@ -903,7 +897,7 @@ AppendFrame
 (
 nullptr
 delta
-gfxIntSize
+IntSize
 (
 0
 0
