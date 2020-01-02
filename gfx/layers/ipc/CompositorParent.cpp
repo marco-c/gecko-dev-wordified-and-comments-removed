@@ -1084,13 +1084,6 @@ mLayerManager
 nullptr
 ;
 mCompositor
--
->
-Destroy
-(
-)
-;
-mCompositor
 =
 nullptr
 ;
@@ -1232,6 +1225,10 @@ Destroy
 )
 ;
 mLayerManager
+=
+nullptr
+;
+mCompositor
 =
 nullptr
 ;
