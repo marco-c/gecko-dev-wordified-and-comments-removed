@@ -62,6 +62,7 @@ StatementCache
 {
 public
 :
+explicit
 StatementCache
 (
 nsCOMPtr

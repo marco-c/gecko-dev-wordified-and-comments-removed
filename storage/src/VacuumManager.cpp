@@ -382,6 +382,7 @@ BaseCallback
 public
 :
 NS_DECL_MOZISTORAGESTATEMENTCALLBACK
+explicit
 Vacuumer
 (
 mozIStorageVacuumParticipant

@@ -50,6 +50,7 @@ nsIXPCScriptable
 {
 public
 :
+explicit
 AsyncStatementParams
 (
 AsyncStatement

@@ -330,6 +330,7 @@ mozStorageStatementScoper
 {
 public
 :
+explicit
 mozStorageStatementScoper
 (
 mozIStorageStatement

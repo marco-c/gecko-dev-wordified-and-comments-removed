@@ -689,6 +689,7 @@ nsRunnable
 {
 public
 :
+explicit
 CallbackEvent
 (
 mozIStorageCompletionCallback

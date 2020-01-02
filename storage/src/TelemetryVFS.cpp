@@ -277,6 +277,7 @@ IOThreadAutoTimer
 {
 public
 :
+explicit
 IOThreadAutoTimer
 (
 Telemetry
@@ -315,6 +316,7 @@ aOp
 )
 {
 }
+explicit
 IOThreadAutoTimer
 (
 IOInterposeObserver
