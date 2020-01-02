@@ -3593,6 +3593,9 @@ nullptr
 if
 (
 mTarget
+&
+&
+aName
 )
 {
 mTarget
