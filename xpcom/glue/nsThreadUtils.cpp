@@ -1146,6 +1146,12 @@ MOZ_FINAL
 public
 nsIRunnable
 {
+~
+nsNameThreadRunnable
+(
+)
+{
+}
 public
 :
 nsNameThreadRunnable

@@ -768,13 +768,6 @@ NS_OK
 )
 {
 }
-virtual
-~
-nsAStreamCopier
-(
-)
-{
-}
 nsresult
 Start
 (
@@ -1560,6 +1553,13 @@ mCanceled
 nsresult
 mCancelStatus
 ;
+virtual
+~
+nsAStreamCopier
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS

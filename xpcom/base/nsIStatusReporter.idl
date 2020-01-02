@@ -405,6 +405,16 @@ public
 nsIStatusReporter
 {
 \
+~
+StatusReporter_
+#
+#
+_classname
+(
+)
+{
+}
+\
 public
 :
 \
