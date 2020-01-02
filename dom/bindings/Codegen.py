@@ -20472,12 +20472,6 @@ treatNullAs
 Default
 "
                                 
-treatUndefinedAs
-=
-"
-Default
-"
-                                
 isEnforceRange
 =
 False
@@ -25898,19 +25892,19 @@ treatNullAs
 Null
 "
             
-if
-treatUndefinedAs
-=
+undefinedBehavior
 =
 "
-Default
+eNull
 "
+        
+else
 :
-                
-treatUndefinedAs
+            
+undefinedBehavior
 =
 "
-Null
+eStringify
 "
         
 nullBehavior
@@ -25918,13 +25912,6 @@ nullBehavior
 treatAs
 [
 treatNullAs
-]
-        
-undefinedBehavior
-=
-treatAs
-[
-treatUndefinedAs
 ]
         
 def
@@ -29767,14 +29754,6 @@ self
 argument
 .
 treatNullAs
-            
-treatUndefinedAs
-=
-self
-.
-argument
-.
-treatUndefinedAs
             
 isEnforceRange
 =
@@ -40476,14 +40455,6 @@ treatNullAs
 interfaceMember
 .
 treatNullAs
-        
-self
-.
-treatUndefinedAs
-=
-interfaceMember
-.
-treatUndefinedAs
         
 if
 isinstance
@@ -55940,12 +55911,6 @@ treatNullAs
 argument
 .
 treatNullAs
-                
-treatUndefinedAs
-=
-argument
-.
-treatUndefinedAs
                 
 sourceDescription
 =
@@ -79932,10 +79897,6 @@ self
 )
 :
         
-self
-.
-treatUndefinedAs
-=
 self
 .
 treatNullAs
