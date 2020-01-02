@@ -5782,7 +5782,6 @@ gfxUtils
 PremultiplyDataSurface
 (
 surf
-surf
 )
 ;
 }
