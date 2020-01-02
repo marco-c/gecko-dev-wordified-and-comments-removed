@@ -22348,6 +22348,17 @@ String_static_fromCodePoint
 0
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+raw
+"
+"
+String_static_raw
+"
+2
+0
+)
 #
 if
 EXPOSE_INTL_API
