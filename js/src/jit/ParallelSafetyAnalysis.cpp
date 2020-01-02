@@ -414,7 +414,7 @@ class
 ParallelSafetyVisitor
 :
 public
-MInstructionVisitor
+MDefinitionVisitor
 {
 MIRGraph
 &

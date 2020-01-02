@@ -44,7 +44,7 @@ class
 LIRGeneratorShared
 :
 public
-MInstructionVisitorWithDefaults
+MDefinitionVisitorWithDefaults
 {
 protected
 :
