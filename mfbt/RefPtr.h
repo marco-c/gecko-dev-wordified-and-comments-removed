@@ -743,6 +743,9 @@ T
 }
 }
 ;
+namespace
+external
+{
 template
 <
 typename
@@ -752,12 +755,18 @@ class
 AtomicRefCounted
 :
 public
+mozilla
+:
+:
 detail
 :
 :
 RefCounted
 <
 T
+mozilla
+:
+:
 detail
 :
 :
@@ -796,6 +805,7 @@ T
 }
 }
 ;
+}
 template
 <
 typename

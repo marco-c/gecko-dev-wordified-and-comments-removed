@@ -319,6 +319,9 @@ public
 mozilla
 :
 :
+external
+:
+:
 AtomicRefCounted
 <
 LibHandle
@@ -423,6 +426,9 @@ directRefCnt
 mozilla
 :
 :
+external
+:
+:
 AtomicRefCounted
 <
 LibHandle
@@ -457,6 +463,9 @@ directRefCnt
 mozilla
 :
 :
+external
+:
+:
 AtomicRefCounted
 <
 LibHandle
@@ -479,6 +488,9 @@ ret
 true
 ;
 mozilla
+:
+:
+external
 :
 :
 AtomicRefCounted
