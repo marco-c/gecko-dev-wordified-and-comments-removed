@@ -6632,9 +6632,6 @@ url
 line
 :
 line
-column
-:
-0
 }
 ;
 }
@@ -21151,6 +21148,13 @@ this
 _sourceMapsByGeneratedSource
 )
 {
+column
+=
+column
+|
+|
+0
+;
 return
 this
 .
