@@ -23,14 +23,14 @@ h
 #
 include
 "
-ImageTypes
+gfxTypes
 .
 h
 "
 #
 include
 "
-gfxASurface
+ImageTypes
 .
 h
 "

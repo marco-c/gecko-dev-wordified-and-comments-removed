@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

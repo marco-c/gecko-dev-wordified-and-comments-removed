@@ -41,13 +41,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h

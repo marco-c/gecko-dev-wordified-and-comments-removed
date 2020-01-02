@@ -137,9 +137,6 @@ nsString
 .
 h
 "
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

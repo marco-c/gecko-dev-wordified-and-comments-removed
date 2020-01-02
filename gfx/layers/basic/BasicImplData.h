@@ -43,9 +43,6 @@ Types
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

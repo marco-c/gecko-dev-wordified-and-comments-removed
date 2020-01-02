@@ -22,13 +22,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 Effects
 .
 h

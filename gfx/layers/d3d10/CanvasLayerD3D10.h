@@ -20,9 +20,6 @@ Preferences
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

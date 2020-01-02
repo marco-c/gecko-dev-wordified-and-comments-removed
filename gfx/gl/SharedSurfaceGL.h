@@ -67,9 +67,6 @@ include
 <
 queue
 >
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

@@ -33,13 +33,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 Layers
 .
 h

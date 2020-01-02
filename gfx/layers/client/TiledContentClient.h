@@ -243,9 +243,6 @@ gfxPrefs
 .
 h
 "
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

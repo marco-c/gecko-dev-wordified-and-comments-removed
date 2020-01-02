@@ -90,13 +90,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-gfxASurface
-.
-h
-"
 namespace
 mozilla
 {

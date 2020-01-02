@@ -43,9 +43,6 @@ Point
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

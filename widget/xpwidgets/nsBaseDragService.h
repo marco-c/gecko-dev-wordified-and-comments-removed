@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsRect
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
@@ -59,13 +66,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-gfxImageSurface
 .
 h
 "

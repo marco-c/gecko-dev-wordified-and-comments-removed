@@ -78,13 +78,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxCrashReporterUtils
 .
 h

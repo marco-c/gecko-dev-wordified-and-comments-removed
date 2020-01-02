@@ -115,9 +115,6 @@ nsIntPoint
 struct
 nsIntRect
 ;
-class
-gfxASurface
-;
 namespace
 mozilla
 {

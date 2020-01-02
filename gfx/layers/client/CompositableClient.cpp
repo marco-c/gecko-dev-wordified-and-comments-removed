@@ -66,13 +66,6 @@ mozalloc
 h
 "
 #
-include
-"
-gfxASurface
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

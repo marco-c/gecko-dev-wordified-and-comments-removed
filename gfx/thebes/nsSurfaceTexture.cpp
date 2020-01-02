@@ -30,13 +30,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 AndroidBridge
 .
 h

@@ -62,9 +62,6 @@ nsISupportsImpl
 .
 h
 "
-class
-gfxASurface
-;
 #
 ifndef
 MOZILLA_LAYERS_SHAREDPLANARYCBCRIMAGE_H

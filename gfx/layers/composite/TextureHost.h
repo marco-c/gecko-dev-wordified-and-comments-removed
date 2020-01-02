@@ -170,9 +170,6 @@ AtomicRefCountedWithFinalize
 h
 "
 class
-gfxImageSurface
-;
-class
 gfxReusableSurfaceWrapper
 ;
 struct

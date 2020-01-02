@@ -33,9 +33,6 @@ h
 #
 endif
 class
-gfxASurface
-;
-class
 gfxContext
 ;
 class

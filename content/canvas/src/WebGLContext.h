@@ -111,13 +111,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 LinkedList

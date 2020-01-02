@@ -44,9 +44,6 @@ h
 class
 gfxContext
 ;
-class
-gfxImageSurface
-;
 struct
 gfxRect
 ;

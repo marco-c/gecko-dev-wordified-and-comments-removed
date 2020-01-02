@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h

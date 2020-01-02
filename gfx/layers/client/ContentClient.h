@@ -183,9 +183,6 @@ h
 class
 gfxContext
 ;
-class
-gfxASurface
-;
 namespace
 mozilla
 {

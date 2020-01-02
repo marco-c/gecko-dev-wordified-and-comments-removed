@@ -15,13 +15,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxImageSurface
 .
 h

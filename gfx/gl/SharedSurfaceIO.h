@@ -7,6 +7,13 @@ SHARED_SURFACEIO_H_
 #
 include
 "
+gfxImageSurface
+.
+h
+"
+#
+include
+"
 SharedSurfaceGL
 .
 h

@@ -78,13 +78,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxReusableSurfaceWrapper
 .
 h

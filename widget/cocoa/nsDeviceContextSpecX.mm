@@ -142,13 +142,6 @@ gfxQuartzSurface
 .
 h
 "
-#
-include
-"
-gfxImageSurface
-.
-h
-"
 /
 /
 This

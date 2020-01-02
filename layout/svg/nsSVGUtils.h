@@ -131,13 +131,7 @@ include
 algorithm
 >
 class
-gfxASurface
-;
-class
 gfxContext
-;
-class
-gfxImageSurface
 ;
 class
 gfxPattern

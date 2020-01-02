@@ -20,15 +20,6 @@ Attributes
 .
 h
 "
-class
-gfxASurface
-;
-class
-gfxPattern
-;
-class
-gfxImageSurface
-;
 namespace
 mozilla
 {

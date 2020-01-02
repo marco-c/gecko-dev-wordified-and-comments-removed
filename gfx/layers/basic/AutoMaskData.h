@@ -7,13 +7,6 @@ GFX_AUTOMASKDATA_H_
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

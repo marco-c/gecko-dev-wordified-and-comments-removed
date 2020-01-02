@@ -18,9 +18,6 @@ GLContextTypes
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

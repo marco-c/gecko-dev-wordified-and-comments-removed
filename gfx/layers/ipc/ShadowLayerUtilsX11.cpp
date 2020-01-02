@@ -71,13 +71,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h

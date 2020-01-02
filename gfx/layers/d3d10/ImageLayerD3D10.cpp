@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxD2DSurface
 .
 h

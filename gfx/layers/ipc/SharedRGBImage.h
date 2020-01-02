@@ -79,9 +79,6 @@ nsCOMPtr
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {

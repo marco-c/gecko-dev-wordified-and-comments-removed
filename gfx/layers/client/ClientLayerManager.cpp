@@ -22,13 +22,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h

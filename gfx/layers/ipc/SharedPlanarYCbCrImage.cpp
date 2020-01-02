@@ -146,9 +146,6 @@ Shmem
 .
 h
 "
-class
-gfxASurface
-;
 namespace
 mozilla
 {
