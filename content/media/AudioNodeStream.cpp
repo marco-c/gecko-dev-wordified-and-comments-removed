@@ -2084,7 +2084,7 @@ OutputCount
 mEngine
 -
 >
-ProduceAudioBlock
+ProcessBlock
 (
 this
 inputChunks
@@ -2106,7 +2106,7 @@ else
 mEngine
 -
 >
-ProduceAudioBlocksOnPorts
+ProcessBlocksOnPorts
 (
 this
 inputChunks

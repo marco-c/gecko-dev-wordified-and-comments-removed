@@ -762,7 +762,7 @@ it
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *
@@ -824,7 +824,7 @@ n
 }
 virtual
 void
-ProduceAudioBlocksOnPorts
+ProcessBlocksOnPorts
 (
 AudioNodeStream
 *

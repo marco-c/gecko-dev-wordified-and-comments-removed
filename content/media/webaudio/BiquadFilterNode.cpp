@@ -574,7 +574,7 @@ TimelineParameter
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *

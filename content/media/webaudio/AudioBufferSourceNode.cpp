@@ -1830,7 +1830,7 @@ aChannels
 }
 virtual
 void
-ProduceAudioBlock
+ProcessBlock
 (
 AudioNodeStream
 *
