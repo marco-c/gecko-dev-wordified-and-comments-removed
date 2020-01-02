@@ -3693,13 +3693,12 @@ proto
 ;
 extern
 bool
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 const
 JSPropertySpec

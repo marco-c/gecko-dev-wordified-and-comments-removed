@@ -4908,7 +4908,7 @@ proto
 |
 |
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 proto

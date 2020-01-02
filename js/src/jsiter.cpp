@@ -10231,7 +10231,7 @@ false
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 iteratorProto
@@ -10315,7 +10315,7 @@ proto
 |
 |
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 proto
@@ -10381,7 +10381,7 @@ proto
 |
 |
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 proto
@@ -10436,7 +10436,7 @@ proto
 |
 |
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 proto
@@ -10498,7 +10498,7 @@ false
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 genObjectProto

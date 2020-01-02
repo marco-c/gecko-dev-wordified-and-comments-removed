@@ -3250,7 +3250,7 @@ nullptr
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 weakMapProto

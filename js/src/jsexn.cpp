@@ -3053,7 +3053,7 @@ nullptr
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 errorProto

@@ -22088,7 +22088,7 @@ nullptr
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 proto
@@ -22098,7 +22098,7 @@ string_methods
 |
 |
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 ctor

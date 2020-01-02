@@ -5652,7 +5652,7 @@ proto
 |
 |
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 proto
@@ -5668,7 +5668,7 @@ typeObjectMethods
 |
 |
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 protoProto

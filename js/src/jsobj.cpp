@@ -14674,7 +14674,7 @@ bad
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 proto
@@ -14691,7 +14691,7 @@ proto
 &
 &
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 ctor

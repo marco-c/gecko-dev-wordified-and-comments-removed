@@ -6569,7 +6569,7 @@ nullptr
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 ctor
@@ -6583,7 +6583,7 @@ nullptr
 if
 (
 !
-DefinePropertiesAndBrand
+DefinePropertiesAndFunctions
 (
 cx
 numberProto
