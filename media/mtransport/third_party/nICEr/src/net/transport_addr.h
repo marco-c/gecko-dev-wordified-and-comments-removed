@@ -115,7 +115,7 @@ MAXIFNAME
 char
 as_string
 [
-52
+56
 ]
 ;
 }
