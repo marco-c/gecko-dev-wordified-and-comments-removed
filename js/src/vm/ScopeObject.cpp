@@ -9660,6 +9660,14 @@ if
 script
 -
 >
+analyzedArgsUsage
+(
+)
+&
+&
+script
+-
+>
 needsArgsObj
 (
 )
