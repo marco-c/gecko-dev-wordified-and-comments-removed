@@ -1,16 +1,3 @@
-netscape
-.
-security
-.
-PrivilegeManager
-.
-enablePrivilege
-(
-"
-UniversalXPConnect
-"
-)
-;
 function
 f
 (
