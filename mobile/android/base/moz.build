@@ -1116,7 +1116,7 @@ GeckoProfile
 java
 '
 '
-GeckoScreenOrientationListener
+GeckoScreenOrientation
 .
 java
 '

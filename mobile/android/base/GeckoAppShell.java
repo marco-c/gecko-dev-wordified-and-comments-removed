@@ -14428,7 +14428,7 @@ getScreenOrientation
 )
 {
 return
-GeckoScreenOrientationListener
+GeckoScreenOrientation
 .
 getInstance
 (
@@ -14437,6 +14437,8 @@ getInstance
 getScreenOrientation
 (
 )
+.
+value
 ;
 }
 WrapElementForJNI
@@ -14447,7 +14449,7 @@ enableScreenOrientationNotifications
 (
 )
 {
-GeckoScreenOrientationListener
+GeckoScreenOrientation
 .
 getInstance
 (
@@ -14466,7 +14468,7 @@ disableScreenOrientationNotifications
 (
 )
 {
-GeckoScreenOrientationListener
+GeckoScreenOrientation
 .
 getInstance
 (
@@ -14487,13 +14489,13 @@ int
 aOrientation
 )
 {
-GeckoScreenOrientationListener
+GeckoScreenOrientation
 .
 getInstance
 (
 )
 .
-lockScreenOrientation
+lock
 (
 aOrientation
 )
@@ -14507,13 +14509,13 @@ unlockScreenOrientation
 (
 )
 {
-GeckoScreenOrientationListener
+GeckoScreenOrientation
 .
 getInstance
 (
 )
 .
-unlockScreenOrientation
+unlock
 (
 )
 ;
