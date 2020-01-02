@@ -2355,7 +2355,9 @@ descr
 if
 (
 !
-typeRepr
+this
+.
+descr
 .
 variable
 &
