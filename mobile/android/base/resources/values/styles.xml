@@ -1243,7 +1243,7 @@ name
 "
 Widget
 .
-TwoLineRow
+TwoLinePageRow
 "
 /
 >
@@ -1254,7 +1254,7 @@ name
 "
 Widget
 .
-TwoLineRow
+TwoLinePageRow
 .
 Title
 "
@@ -1323,7 +1323,7 @@ name
 "
 Widget
 .
-TwoLineRow
+TwoLinePageRow
 .
 Description
 "
@@ -1414,7 +1414,7 @@ parent
 "
 Widget
 .
-TwoLineRow
+TwoLinePageRow
 .
 Title
 "
@@ -1946,7 +1946,7 @@ parent
 "
 Widget
 .
-TwoLineRow
+TwoLinePageRow
 "
 /
 >

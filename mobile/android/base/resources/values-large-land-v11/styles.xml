@@ -127,7 +127,7 @@ parent
 "
 Widget
 .
-TwoLineRow
+TwoLinePageRow
 .
 Title
 "
@@ -197,7 +197,7 @@ parent
 "
 Widget
 .
-TwoLineRow
+TwoLinePageRow
 "
 >
 <
