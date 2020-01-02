@@ -470,6 +470,15 @@ if
 (
 winWidget
 )
+skip
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 placeholder
@@ -484,6 +493,9 @@ overridden
 ref
 .
 xul
+#
+bug
+974780
 #
 needs
 -

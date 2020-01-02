@@ -61,6 +61,15 @@ fuzzy
 when
 tiled
 .
+skip
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 img
