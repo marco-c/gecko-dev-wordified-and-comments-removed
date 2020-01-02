@@ -1895,8 +1895,14 @@ path
 )
 :
                 
-file_mapping
-[
+abs_dest
+=
+os
+.
+path
+.
+normpath
+(
 os
 .
 path
@@ -1906,6 +1912,11 @@ join
 destination
 dst
 )
+)
+                
+file_mapping
+[
+abs_dest
 ]
 =
 src
