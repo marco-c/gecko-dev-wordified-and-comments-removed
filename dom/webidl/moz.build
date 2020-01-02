@@ -1280,11 +1280,6 @@ MozNamedAttrMap
 webidl
 '
 '
-MozNetworkStats
-.
-webidl
-'
-'
 MozPowerManager
 .
 webidl
@@ -2819,6 +2814,11 @@ WEBIDL_FILES
 +
 =
 [
+'
+MozNetworkStats
+.
+webidl
+'
 '
 MozNetworkStatsAlarm
 .

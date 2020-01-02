@@ -156,11 +156,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMNetworkStats
-.
-idl
-'
-'
 nsIDOMNetworkStatsManager
 .
 idl
