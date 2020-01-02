@@ -1022,12 +1022,6 @@ CR
 )
 (
 shell
-_PYMAKE
-=
-(
-.
-PYMAKE
-)
 (
 TOPSRCDIR
 )
