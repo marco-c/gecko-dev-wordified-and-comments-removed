@@ -130,6 +130,16 @@ CrashManager
 jsm
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+CrashManagerTest
+.
+jsm
+'
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =

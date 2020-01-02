@@ -130,6 +130,16 @@ httpd
 js
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+httpd
+.
+js
+'
+]
 JAR_MANIFESTS
 +
 =

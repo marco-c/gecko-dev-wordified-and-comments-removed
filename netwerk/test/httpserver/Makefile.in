@@ -88,8 +88,3 @@ manifest
 NULL
 )
 endif
-TESTING_JS_MODULES
-=
-httpd
-.
-js
