@@ -114,6 +114,11 @@ dom
 =
 [
 '
+Animation
+.
+h
+'
+'
 AnimationPlayer
 .
 h
@@ -128,6 +133,11 @@ SOURCES
 +
 =
 [
+'
+Animation
+.
+cpp
+'
 '
 AnimationPlayer
 .

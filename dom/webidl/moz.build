@@ -155,6 +155,11 @@ Animatable
 webidl
 '
 '
+Animation
+.
+webidl
+'
+'
 AnimationEvent
 .
 webidl
