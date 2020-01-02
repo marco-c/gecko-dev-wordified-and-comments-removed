@@ -4222,6 +4222,9 @@ bodyStart
 =
 1
 ;
+mozilla
+:
+:
 RangedPtr
 <
 const
