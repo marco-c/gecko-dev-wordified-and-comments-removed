@@ -1451,6 +1451,10 @@ variables
 *
 nsAString
 nsACString
+nsFixedString
+nsFixedCString
+nsAutoString
+nsAutoCString
 Strings
 have
 a
