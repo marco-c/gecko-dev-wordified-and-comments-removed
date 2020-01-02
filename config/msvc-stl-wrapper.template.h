@@ -111,7 +111,7 @@ new
 endif
 #
 ifdef
-DEBUG
+_DEBUG
 #
 else
 #
