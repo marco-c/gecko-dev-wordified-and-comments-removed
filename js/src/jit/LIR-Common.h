@@ -1301,7 +1301,7 @@ class
 LNewDenseArrayPar
 :
 public
-LInstructionHelper
+LCallInstructionHelper
 <
 1
 2
@@ -20607,7 +20607,7 @@ class
 LRestPar
 :
 public
-LInstructionHelper
+LCallInstructionHelper
 <
 1
 2
