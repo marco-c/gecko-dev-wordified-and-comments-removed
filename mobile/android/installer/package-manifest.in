@@ -763,6 +763,13 @@ BINPATH
 /
 components
 /
+dom_messages
+.
+xpt
+BINPATH
+/
+components
+/
 dom_network
 .
 xpt
