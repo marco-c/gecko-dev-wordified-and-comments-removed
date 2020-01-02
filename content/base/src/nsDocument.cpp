@@ -11935,9 +11935,6 @@ const
 nsAString
 &
 aHeaderValue
-nsIURI
-*
-aSelfURI
 bool
 aReportOnly
 )
@@ -11983,7 +11980,6 @@ csp
 AppendPolicy
 (
 policy
-aSelfURI
 aReportOnly
 )
 ;
@@ -12712,7 +12708,6 @@ csp
 AppendPolicy
 (
 appCSP
-selfURI
 false
 )
 ;
@@ -12729,7 +12724,6 @@ csp
 AppendPolicy
 (
 appManifestCSP
-selfURI
 false
 )
 ;
@@ -12750,7 +12744,6 @@ AppendCSPFromHeader
 (
 csp
 cspHeaderValue
-selfURI
 false
 )
 ;
@@ -12777,7 +12770,6 @@ AppendCSPFromHeader
 (
 csp
 cspROHeaderValue
-selfURI
 true
 )
 ;

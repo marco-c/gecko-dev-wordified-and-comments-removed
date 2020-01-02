@@ -427,7 +427,6 @@ csp
 appendPolicy
 (
 policy
-selfuri
 useReportOnlyPolicy
 )
 ;

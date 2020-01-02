@@ -277,7 +277,6 @@ csp
 AppendPolicy
 (
 policyStr
-nullptr
 false
 )
 ;
