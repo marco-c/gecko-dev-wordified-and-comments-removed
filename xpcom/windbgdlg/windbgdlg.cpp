@@ -551,7 +551,7 @@ L
 return
 MessageBoxW
 (
-NULL
+nullptr
 msg
 L
 "

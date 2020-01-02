@@ -75,7 +75,7 @@ nsIObserverService
 *
 anObserverService
 =
-NULL
+nullptr
 ;
 static
 void

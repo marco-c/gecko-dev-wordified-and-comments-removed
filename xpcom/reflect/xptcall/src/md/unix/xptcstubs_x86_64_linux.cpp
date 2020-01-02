@@ -63,7 +63,7 @@ nsXPTCMiniVariant
 *
 dispatchParams
 =
-NULL
+nullptr
 ;
 const
 nsXPTMethodInfo

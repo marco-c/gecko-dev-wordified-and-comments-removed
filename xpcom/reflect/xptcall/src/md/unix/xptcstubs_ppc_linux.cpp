@@ -72,14 +72,14 @@ nsXPTCMiniVariant
 *
 dispatchParams
 =
-NULL
+nullptr
 ;
 const
 nsXPTMethodInfo
 *
 info
 =
-NULL
+nullptr
 ;
 uint32_t
 paramCount

@@ -197,7 +197,7 @@ nsThreadPool
 NS_IMPL_CLASSINFO
 (
 nsThreadPool
-NULL
+nullptr
 nsIClassInfo
 :
 :

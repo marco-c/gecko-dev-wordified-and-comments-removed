@@ -63,7 +63,7 @@ text
 {
 MessageBox
 (
-NULL
+nullptr
 text
 "
 XP
@@ -85,7 +85,7 @@ text
 {
 MessageBox
 (
-NULL
+nullptr
 text
 "
 XP
@@ -287,7 +287,7 @@ hIcon
 =
 LoadIcon
 (
-NULL
+nullptr
 IDI_APPLICATION
 )
 ;
@@ -297,7 +297,7 @@ hCursor
 =
 LoadCursor
 (
-NULL
+nullptr
 IDC_ARROW
 )
 ;
@@ -317,7 +317,7 @@ wndclass
 .
 lpszMenuName
 =
-NULL
+nullptr
 ;
 wndclass
 .
@@ -331,7 +331,7 @@ hIconSm
 =
 LoadIcon
 (
-NULL
+nullptr
 IDI_APPLICATION
 )
 ;
@@ -356,10 +356,10 @@ CW_USEDEFAULT
 CW_USEDEFAULT
 CW_USEDEFAULT
 CW_USEDEFAULT
-NULL
-NULL
+nullptr
+nullptr
 inst
-NULL
+nullptr
 )
 ;
 ShowWindow

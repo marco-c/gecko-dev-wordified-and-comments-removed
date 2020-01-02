@@ -197,7 +197,7 @@ return
 NS_IMPL_CLASSINFO
 (
 nsThreadManager
-NULL
+nullptr
 nsIClassInfo
 :
 :

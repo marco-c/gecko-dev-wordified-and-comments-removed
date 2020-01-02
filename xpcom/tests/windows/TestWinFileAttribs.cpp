@@ -167,10 +167,10 @@ GENERIC_READ
 |
 GENERIC_WRITE
 0
-NULL
+nullptr
 CREATE_ALWAYS
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 ;
 if
@@ -219,7 +219,7 @@ txt
 "
 MAX_PATH
 filePath
-NULL
+nullptr
 )
 ;
 rv

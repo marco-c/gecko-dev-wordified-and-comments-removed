@@ -370,7 +370,7 @@ test
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uint32_t
@@ -449,7 +449,7 @@ test
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 NS_IMETHODIMP_
@@ -484,7 +484,7 @@ test
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 NS_IMETHODIMP_

@@ -250,11 +250,11 @@ aTypelib
 )
 mParent
 (
-NULL
+nullptr
 )
 mInfo
 (
-NULL
+nullptr
 )
 mFlags
 (
@@ -737,7 +737,7 @@ param
 *
 info
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_INVALID_ARG
@@ -972,7 +972,7 @@ param
 *
 constant
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_INVALID_ARG

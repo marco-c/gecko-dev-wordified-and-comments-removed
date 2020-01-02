@@ -308,7 +308,7 @@ nsIDirectoryServiceProvider
 *
 dirSvcProvider
 =
-NULL
+nullptr
 )
 :
 mDirSvcProvider
@@ -343,7 +343,7 @@ NS_InitXPCOM2
 (
 &
 mServMgr
-NULL
+nullptr
 this
 )
 ;
@@ -371,7 +371,7 @@ rv
 ;
 mServMgr
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -544,7 +544,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-NULL
+nullptr
 )
 ;
 if
@@ -602,7 +602,7 @@ return
 mServMgr
 =
 =
-NULL
+nullptr
 ;
 }
 already_AddRefed

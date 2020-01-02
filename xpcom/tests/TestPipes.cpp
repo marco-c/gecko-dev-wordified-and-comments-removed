@@ -2205,8 +2205,8 @@ getter_AddRefs
 (
 servMgr
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -2286,7 +2286,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-NULL
+nullptr
 )
 ;
 NS_ASSERTION

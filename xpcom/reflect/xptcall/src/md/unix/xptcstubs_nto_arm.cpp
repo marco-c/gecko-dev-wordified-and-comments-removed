@@ -97,13 +97,13 @@ nsXPTCMiniVariant
 *
 dispatchParams
 =
-NULL
+nullptr
 ;
 nsIInterfaceInfo
 *
 iface_info
 =
-NULL
+nullptr
 ;
 const
 nsXPTMethodInfo

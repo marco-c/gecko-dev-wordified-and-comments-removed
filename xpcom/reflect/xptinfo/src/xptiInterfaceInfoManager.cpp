@@ -136,7 +136,7 @@ mIIDTable
 .
 SizeOfExcludingThis
 (
-NULL
+nullptr
 aMallocSizeOf
 )
 ;
@@ -149,7 +149,7 @@ mNameTable
 .
 SizeOfExcludingThis
 (
-NULL
+nullptr
 aMallocSizeOf
 )
 ;
