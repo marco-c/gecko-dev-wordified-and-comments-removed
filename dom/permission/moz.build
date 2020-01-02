@@ -131,11 +131,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-PermissionPromptHelper
-.
-jsm
-'
-'
 PermissionSettings
 .
 jsm
