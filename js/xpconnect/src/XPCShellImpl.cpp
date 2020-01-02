@@ -6188,11 +6188,10 @@ usage
 )
 ;
 }
-JS_EvaluateScriptForPrincipals
+JS_EvaluateScript
 (
 cx
 obj
-gJSPrincipals
 argv
 [
 i
