@@ -391,8 +391,6 @@ aButtonReflowState
 nsIFrame
 *
 aFirstKid
-nsMargin
-aFocusPadding
 )
 ;
 nsButtonFrameRenderer
