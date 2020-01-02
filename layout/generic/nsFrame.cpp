@@ -12642,6 +12642,16 @@ content
 IsEditable
 (
 )
+&
+&
+!
+nsContentUtils
+:
+:
+IsDraggableLink
+(
+content
+)
 )
 {
 if
