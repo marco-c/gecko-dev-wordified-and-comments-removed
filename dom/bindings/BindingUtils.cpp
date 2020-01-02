@@ -1624,9 +1624,8 @@ if
 !
 args
 .
-computeThis
+thisv
 (
-cx
 )
 .
 isObject
@@ -1738,9 +1737,8 @@ GetObjectJSClass
 &
 args
 .
-computeThis
+thisv
 (
-cx
 )
 .
 toObject
