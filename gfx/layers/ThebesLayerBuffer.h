@@ -119,6 +119,13 @@ nsTraceRefcnt
 .
 h
 "
+#
+include
+"
+LayersTypes
+.
+h
+"
 struct
 gfxMatrix
 ;
@@ -632,6 +639,9 @@ mRegionToInvalidate
 ;
 bool
 mDidSelfCopy
+;
+DrawRegionClip
+mClip
 ;
 }
 ;

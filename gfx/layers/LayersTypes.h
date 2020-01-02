@@ -182,6 +182,14 @@ BUFFER_BUFFERED
 }
 ;
 enum
+DrawRegionClip
+{
+CLIP_DRAW
+CLIP_DRAW_SNAPPED
+CLIP_NONE
+}
+;
+enum
 LayerRenderStateFlags
 {
 LAYER_RENDER_STATE_Y_FLIPPED

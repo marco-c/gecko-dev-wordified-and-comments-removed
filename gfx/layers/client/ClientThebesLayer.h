@@ -439,6 +439,8 @@ nsIntRegion
 aRegionToInvalidate
 bool
 aDidSelfCopy
+DrawRegionClip
+aClip
 )
 ;
 void

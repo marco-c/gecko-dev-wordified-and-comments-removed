@@ -637,6 +637,9 @@ mRegionToInvalidate
 state
 .
 mDidSelfCopy
+state
+.
+mClip
 )
 ;
 MOZ_LAYERS_LOG_IF_SHADOWABLE
@@ -818,6 +821,8 @@ nsIntRegion
 aRegionToInvalidate
 bool
 aDidSelfCopy
+DrawRegionClip
+aClip
 )
 {
 ContentClientRemote
@@ -891,6 +896,7 @@ GetThebesLayerCallback
 this
 aContext
 aExtendedRegionToDraw
+aClip
 aRegionToInvalidate
 ClientManager
 (

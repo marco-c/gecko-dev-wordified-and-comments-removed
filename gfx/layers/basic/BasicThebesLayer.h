@@ -461,6 +461,8 @@ nsIntRegion
 aRegionToInvalidate
 bool
 aDidSelfCopy
+DrawRegionClip
+aClip
 LayerManager
 :
 :
@@ -494,6 +496,7 @@ aCallback
 this
 aContext
 aExtendedRegionToDraw
+aClip
 aRegionToInvalidate
 aCallbackData
 )

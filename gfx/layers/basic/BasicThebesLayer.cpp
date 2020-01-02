@@ -872,6 +872,7 @@ aCallback
 this
 groupContext
 toDraw
+CLIP_NONE
 nsIntRegion
 (
 )
@@ -1440,6 +1441,9 @@ mRegionToInvalidate
 state
 .
 mDidSelfCopy
+state
+.
+mClip
 aCallback
 aCallbackData
 )
