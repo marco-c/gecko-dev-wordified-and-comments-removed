@@ -295,11 +295,6 @@ selectedItem
 =
 item
 ;
-gotoPref
-(
-name
-)
-;
 }
 function
 gotoPref
