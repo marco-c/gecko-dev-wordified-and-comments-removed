@@ -695,8 +695,6 @@ plugin
 ownerDocument
 .
 defaultView
-.
-top
 ;
 let
 cwu
