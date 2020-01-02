@@ -514,7 +514,7 @@ nullptr
 }
 #
 ifdef
-MOZ_B2G
+MOZ_DISABLE_STARTUP_CACHE
 return
 nullptr
 ;

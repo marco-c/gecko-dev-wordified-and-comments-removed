@@ -2923,6 +2923,22 @@ launcher
 can_launch
 (
 )
+\
+      
+and
+buildconfig
+.
+substs
+[
+'
+MOZ_DISABLE_STARTUPCACHE
+'
+]
+!
+=
+'
+1
+'
 :
         
 if
