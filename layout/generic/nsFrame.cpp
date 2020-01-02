@@ -24228,7 +24228,7 @@ aFrame
 >
 List
 (
-stdout
+stderr
 )
 ;
 }
@@ -25251,7 +25251,7 @@ RootFrameList
 PresContext
 (
 )
-stdout
+stderr
 )
 ;
 }
@@ -25265,7 +25265,7 @@ DumpFrameTreeLimited
 {
 List
 (
-stdout
+stderr
 )
 ;
 }
