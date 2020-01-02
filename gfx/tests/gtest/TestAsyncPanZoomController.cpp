@@ -9701,7 +9701,6 @@ public
 :
 MockTask
 (
-const
 TaskRunMetrics
 &
 aMetrics
@@ -9742,6 +9741,7 @@ IncrementCancelCount
 private
 :
 TaskRunMetrics
+&
 mMetrics
 ;
 }
@@ -9831,7 +9831,6 @@ MakeUnique
 MockTask
 >
 (
-&
 metrics
 )
 ;
