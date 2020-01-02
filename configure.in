@@ -77207,6 +77207,11 @@ with
 png
 =
 yes
+-
+-
+without
+-
+harfbuzz
 "
 if
 !
