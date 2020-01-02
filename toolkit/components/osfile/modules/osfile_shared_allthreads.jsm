@@ -4698,6 +4698,10 @@ function
 OSError
 (
 operation
+path
+=
+"
+"
 )
 {
 Error
@@ -4712,6 +4716,12 @@ this
 operation
 =
 operation
+;
+this
+.
+path
+=
+path
 ;
 }
 exports

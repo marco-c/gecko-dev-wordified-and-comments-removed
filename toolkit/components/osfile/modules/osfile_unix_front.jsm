@@ -188,6 +188,7 @@ function
 File
 (
 fd
+path
 )
 {
 exports
@@ -202,6 +203,7 @@ call
 (
 this
 fd
+path
 )
 ;
 this
@@ -318,6 +320,12 @@ Error
 "
 close
 "
+ctypes
+.
+errno
+this
+.
+_path
 )
 ;
 }
@@ -424,6 +432,9 @@ fd
 buffer
 nbytes
 )
+this
+.
+_path
 )
 ;
 }
@@ -461,6 +472,9 @@ fd
 buffer
 nbytes
 )
+this
+.
+_path
 )
 ;
 }
@@ -535,6 +549,9 @@ fd
 pos
 whence
 )
+this
+.
+_path
 )
 ;
 }
@@ -564,6 +581,9 @@ this
 fd
 gStatDataPtr
 )
+this
+.
+_path
 )
 ;
 return
@@ -573,6 +593,9 @@ File
 Info
 (
 gStatData
+this
+.
+_path
 )
 ;
 }
@@ -680,6 +703,9 @@ this
 fd
 gTimevalsPtr
 )
+this
+.
+_path
 )
 ;
 }
@@ -708,6 +734,9 @@ this
 .
 fd
 )
+this
+.
+_path
 )
 ;
 }
@@ -940,6 +969,7 @@ path
 flags
 omode
 )
+path
 )
 ;
 }
@@ -1057,6 +1087,10 @@ Error
 "
 remove
 "
+ctypes
+.
+errno
+path
 )
 ;
 }
@@ -1136,6 +1170,10 @@ Error
 "
 removeEmptyDir
 "
+ctypes
+.
+errno
+path
 )
 ;
 }
@@ -1323,6 +1361,10 @@ Error
 "
 makeDir
 "
+ctypes
+.
+errno
+path
 )
 ;
 }
@@ -1398,6 +1440,7 @@ destPath
 null
 flags
 )
+sourcePath
 )
 ;
 }
@@ -2137,6 +2180,7 @@ move
 Const
 .
 EEXIST
+sourcePath
 )
 ;
 }
@@ -2165,6 +2209,7 @@ move
 Const
 .
 EEXIST
+sourcePath
 )
 ;
 }
@@ -2216,6 +2261,10 @@ Error
 "
 move
 "
+ctypes
+.
+errno
+sourcePath
 )
 ;
 }
@@ -2319,6 +2368,7 @@ Error
 DirectoryIterator
 "
 error
+path
 )
 ;
 }
@@ -2410,6 +2460,9 @@ prototype
 .
 next
 "
+this
+.
+_path
 )
 ;
 }
@@ -2544,6 +2597,9 @@ lstat
 path
 gStatDataPtr
 )
+this
+.
+_path
 )
 ;
 isDir
@@ -2725,6 +2781,12 @@ Error
 .
 closed
 (
+"
+unixAsFile
+"
+this
+.
+_path
 )
 ;
 return
@@ -2738,6 +2800,9 @@ this
 .
 _dir
 )
+this
+.
+_path
 )
 ;
 }
@@ -2959,6 +3024,7 @@ function
 Info
 (
 stat
+path
 )
 {
 let
@@ -3101,6 +3167,7 @@ AbstractInfo
 call
 (
 this
+path
 isDir
 isSymLink
 size
@@ -3307,6 +3374,7 @@ lstat
 path
 gStatDataPtr
 )
+path
 )
 ;
 }
@@ -3324,6 +3392,7 @@ stat
 path
 gStatDataPtr
 )
+path
 )
 ;
 }
@@ -3334,6 +3403,7 @@ File
 Info
 (
 gStatData
+path
 )
 ;
 }
@@ -3434,6 +3504,7 @@ utimes
 path
 gTimevalsPtr
 )
+path
 )
 ;
 }
@@ -3561,6 +3632,7 @@ chdir
 (
 path
 )
+path
 )
 ;
 }
@@ -3610,6 +3682,7 @@ function
 error_or_file
 (
 maybe
+path
 )
 {
 if
@@ -3630,6 +3703,10 @@ Error
 "
 open
 "
+ctypes
+.
+errno
+path
 )
 ;
 }
@@ -3638,6 +3715,7 @@ new
 File
 (
 maybe
+path
 )
 ;
 }
@@ -3646,6 +3724,7 @@ throw_on_negative
 (
 operation
 result
+path
 )
 {
 if
@@ -3662,6 +3741,10 @@ File
 Error
 (
 operation
+ctypes
+.
+errno
+path
 )
 ;
 }
@@ -3674,6 +3757,7 @@ throw_on_null
 (
 operation
 result
+path
 )
 {
 if
@@ -3705,6 +3789,10 @@ File
 Error
 (
 operation
+ctypes
+.
+errno
+path
 )
 ;
 }

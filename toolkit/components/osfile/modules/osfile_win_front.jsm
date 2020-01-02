@@ -235,6 +235,7 @@ function
 File
 (
 fd
+path
 )
 {
 exports
@@ -249,6 +250,7 @@ call
 (
 this
 fd
+path
 )
 ;
 this
@@ -365,6 +367,12 @@ Error
 "
 close
 "
+ctypes
+.
+winLastError
+this
+.
+_path
 )
 ;
 }
@@ -417,6 +425,9 @@ nbytes
 gBytesReadPtr
 null
 )
+this
+.
+_path
 )
 ;
 return
@@ -475,6 +486,9 @@ nbytes
 gBytesWrittenPtr
 null
 )
+this
+.
+_path
 )
 ;
 return
@@ -555,6 +569,9 @@ pos
 null
 whence
 )
+this
+.
+_path
 )
 ;
 }
@@ -584,6 +601,9 @@ this
 fd
 gFileInfoPtr
 )
+this
+.
+_path
 )
 ;
 return
@@ -593,6 +613,9 @@ File
 Info
 (
 gFileInfo
+this
+.
+_path
 )
 ;
 }
@@ -622,6 +645,9 @@ prototype
 setDates
 "
 accessDate
+this
+.
+_path
 )
 ;
 modificationDate
@@ -636,6 +662,9 @@ prototype
 setDates
 "
 modificationDate
+this
+.
+_path
 )
 ;
 throw_on_zero
@@ -662,6 +691,9 @@ address
 (
 )
 )
+this
+.
+_path
 )
 ;
 }
@@ -690,6 +722,9 @@ this
 .
 fd
 )
+this
+.
+_path
 )
 ;
 }
@@ -1049,6 +1084,7 @@ disposition
 flags
 template
 )
+path
 )
 ;
 file
@@ -1103,6 +1139,7 @@ file
 .
 fd
 )
+path
 )
 ;
 return
@@ -1300,6 +1337,10 @@ Error
 "
 remove
 "
+ctypes
+.
+winLastError
+path
 )
 ;
 }
@@ -1375,6 +1416,10 @@ Error
 "
 removeEmptyDir
 "
+ctypes
+.
+winLastError
+path
 )
 ;
 }
@@ -1449,6 +1494,10 @@ Error
 "
 makeDir
 "
+ctypes
+.
+winLastError
+path
 )
 ;
 }
@@ -1524,7 +1573,7 @@ ERROR_ACCESS_DENIED
 &
 splitPath
 .
-winDrive
+absolute
 &
 &
 splitPath
@@ -1550,6 +1599,10 @@ Error
 "
 makeDir
 "
+ctypes
+.
+winLastError
+path
 )
 ;
 }
@@ -1587,6 +1640,7 @@ noOverwrite
 |
 false
 )
+sourcePath
 )
 ;
 }
@@ -1656,6 +1710,7 @@ sourcePath
 destPath
 flags
 )
+sourcePath
 )
 ;
 if
@@ -1868,6 +1923,7 @@ function
 FILETIME_to_Date
 (
 fileTime
+path
 )
 {
 if
@@ -1909,6 +1965,7 @@ address
 )
 gSystemTimePtr
 )
+path
 )
 ;
 let
@@ -1960,6 +2017,7 @@ Date_to_FILETIME
 (
 fn
 date
+path
 )
 {
 if
@@ -2148,6 +2206,7 @@ address
 (
 )
 )
+path
 )
 ;
 return
@@ -2388,6 +2447,9 @@ Error
 DirectoryIterator
 "
 error
+this
+.
+_path
 )
 ;
 }
@@ -2467,6 +2529,9 @@ prototype
 .
 next
 "
+this
+.
+_path
 )
 ;
 }
@@ -2565,6 +2630,9 @@ FindNextFile
 )
 "
 error
+this
+.
+_path
 )
 ;
 }
@@ -2710,6 +2778,9 @@ this
 .
 _handle
 )
+this
+.
+_path
 )
 ;
 this
@@ -2823,6 +2894,9 @@ FILETIME_to_Date
 win_entry
 .
 ftCreationTime
+this
+.
+_path
 )
 ;
 let
@@ -2833,6 +2907,9 @@ FILETIME_to_Date
 win_entry
 .
 ftLastWriteTime
+this
+.
+_path
 )
 ;
 let
@@ -2843,6 +2920,9 @@ FILETIME_to_Date
 win_entry
 .
 ftLastAccessTime
+this
+.
+_path
 )
 ;
 let
@@ -3048,6 +3128,7 @@ function
 Info
 (
 stat
+path
 )
 {
 let
@@ -3088,6 +3169,9 @@ FILETIME_to_Date
 stat
 .
 ftCreationTime
+this
+.
+_path
 )
 ;
 let
@@ -3098,6 +3182,9 @@ FILETIME_to_Date
 stat
 .
 ftLastAccessTime
+this
+.
+_path
 )
 ;
 let
@@ -3108,6 +3195,9 @@ FILETIME_to_Date
 stat
 .
 ftLastWriteTime
+this
+.
+_path
 )
 ;
 let
@@ -3146,6 +3236,7 @@ AbstractInfo
 call
 (
 this
+path
 isDir
 isSymLink
 size
@@ -3555,6 +3646,7 @@ SetCurrentDirectory
 (
 path
 )
+path
 )
 ;
 }
@@ -3604,6 +3696,7 @@ function
 error_or_file
 (
 maybe
+path
 )
 {
 if
@@ -3625,6 +3718,10 @@ Error
 "
 open
 "
+ctypes
+.
+winLastError
+path
 )
 ;
 }
@@ -3633,6 +3730,7 @@ new
 File
 (
 maybe
+path
 )
 ;
 }
@@ -3641,6 +3739,7 @@ throw_on_zero
 (
 operation
 result
+path
 )
 {
 if
@@ -3658,6 +3757,10 @@ File
 Error
 (
 operation
+ctypes
+.
+winLastError
+path
 )
 ;
 }
@@ -3670,6 +3773,7 @@ throw_on_negative
 (
 operation
 result
+path
 )
 {
 if
@@ -3686,6 +3790,10 @@ File
 Error
 (
 operation
+ctypes
+.
+winLastError
+path
 )
 ;
 }
@@ -3698,6 +3806,7 @@ throw_on_null
 (
 operation
 result
+path
 )
 {
 if
@@ -3729,6 +3838,10 @@ File
 Error
 (
 operation
+ctypes
+.
+winLastError
+path
 )
 ;
 }
