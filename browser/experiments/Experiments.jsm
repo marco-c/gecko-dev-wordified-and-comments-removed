@@ -1857,7 +1857,7 @@ _forensicsLogs
 .
 length
 =
-3
+10
 ;
 this
 .
