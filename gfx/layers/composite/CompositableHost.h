@@ -356,6 +356,14 @@ aQuirks
 }
 virtual
 void
+OnActorDestroy
+(
+)
+=
+0
+;
+virtual
+void
 SetCompositor
 (
 Compositor
