@@ -23,6 +23,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Endian
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -646,8 +655,8 @@ uint16_t
 )
 )
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 *
 (
 out
