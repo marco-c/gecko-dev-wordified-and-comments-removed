@@ -146,8 +146,10 @@ bundleCacheEntry_t
 *
 insertIntoCache
 (
+already_AddRefed
+<
 nsIStringBundle
-*
+>
 aBundle
 nsCStringKey
 *
