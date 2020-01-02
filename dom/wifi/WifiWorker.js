@@ -13693,6 +13693,7 @@ WifiManager
 scan
 (
 true
+(
 function
 (
 ok
@@ -13794,6 +13795,12 @@ return
 ;
 }
 }
+)
+.
+bind
+(
+this
+)
 )
 ;
 }
