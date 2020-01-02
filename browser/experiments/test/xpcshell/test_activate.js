@@ -1106,6 +1106,11 @@ _shutdown
 (
 )
 ;
+yield
+removeCacheFile
+(
+)
+;
 }
 )
 ;

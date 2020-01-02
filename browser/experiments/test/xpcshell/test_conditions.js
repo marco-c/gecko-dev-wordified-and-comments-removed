@@ -1230,6 +1230,11 @@ _shutdown
 (
 )
 ;
+yield
+removeCacheFile
+(
+)
+;
 }
 )
 ;
