@@ -1382,7 +1382,7 @@ Size
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unknown
@@ -2281,7 +2281,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -2587,7 +2587,7 @@ return
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3098,7 +3098,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4143,7 +4143,7 @@ script
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unknown
@@ -5507,7 +5507,7 @@ VMFunction
 :
 RootNone
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Handle
@@ -6932,7 +6932,7 @@ VMFunction
 :
 RootNone
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Handle
@@ -7311,7 +7311,7 @@ break
 case
 JitFrame_Unwound_IonJS
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 invalid
@@ -7336,7 +7336,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -8439,7 +8439,7 @@ payload
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -8960,7 +8960,7 @@ stackOffset2
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -9270,7 +9270,7 @@ index
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 huh
@@ -9767,7 +9767,7 @@ parallelIonScript
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 No
@@ -9780,7 +9780,7 @@ mode
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unknown
