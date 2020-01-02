@@ -93,13 +93,13 @@ Init
 ;
 private
 :
+virtual
 ~
 nsAndroidSystemProxySettings
 (
 )
 {
 }
-;
 }
 ;
 NS_IMPL_ISUPPORTS

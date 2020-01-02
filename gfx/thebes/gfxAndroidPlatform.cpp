@@ -199,6 +199,14 @@ CountingAllocatorBase
 FreetypeReporter
 >
 {
+private
+:
+~
+FreetypeReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -132,6 +132,8 @@ mBridgeInputStream
 )
 ;
 }
+private
+:
 virtual
 ~
 AndroidInputStream
@@ -163,6 +165,8 @@ mBridgeChannel
 )
 ;
 }
+public
+:
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 private

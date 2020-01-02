@@ -478,6 +478,15 @@ GLStrings
 )
 {
 }
+GfxInfo
+:
+:
+~
+GfxInfo
+(
+)
+{
+}
 nsresult
 GfxInfo
 :

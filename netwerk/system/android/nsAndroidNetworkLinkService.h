@@ -25,6 +25,8 @@ nsAndroidNetworkLinkService
 (
 )
 ;
+private
+:
 virtual
 ~
 nsAndroidNetworkLinkService

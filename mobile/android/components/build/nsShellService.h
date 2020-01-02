@@ -27,7 +27,6 @@ nsShellService
 )
 {
 }
-;
 private
 :
 ~
@@ -36,7 +35,6 @@ nsShellService
 )
 {
 }
-;
 }
 ;
 #

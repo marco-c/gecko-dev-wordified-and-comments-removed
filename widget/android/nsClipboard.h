@@ -18,6 +18,14 @@ MOZ_FINAL
 public
 nsIClipboard
 {
+private
+:
+~
+nsClipboard
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

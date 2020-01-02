@@ -68,12 +68,6 @@ nsIconChannel
 )
 {
 }
-~
-nsIconChannel
-(
-)
-{
-}
 nsresult
 Init
 (
@@ -84,6 +78,12 @@ aURI
 ;
 private
 :
+~
+nsIconChannel
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIChannel

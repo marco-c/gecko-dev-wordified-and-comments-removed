@@ -80,6 +80,8 @@ nsAndroidProtocolHandler
 )
 {
 }
+private
+:
 ~
 nsAndroidProtocolHandler
 (

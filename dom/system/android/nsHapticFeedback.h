@@ -12,6 +12,14 @@ MOZ_FINAL
 public
 nsIHapticFeedback
 {
+private
+:
+~
+nsHapticFeedback
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -53,6 +53,13 @@ GfxInfo
 public
 GfxInfoBase
 {
+private
+:
+~
+GfxInfo
+(
+)
+;
 public
 :
 GfxInfo
