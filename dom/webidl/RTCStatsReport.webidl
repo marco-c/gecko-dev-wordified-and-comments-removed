@@ -562,6 +562,9 @@ c
 dictionary
 RTCStatsReportInternal
 {
+DOMString
+pcid
+;
 sequence
 <
 RTCRTPStreamStats
@@ -674,6 +677,14 @@ rtcstatsreport
 interface
 RTCStatsReport
 {
+[
+ChromeOnly
+]
+readonly
+attribute
+DOMString
+mozPcid
+;
 void
 forEach
 (
