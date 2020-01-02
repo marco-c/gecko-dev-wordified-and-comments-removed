@@ -1072,7 +1072,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )
@@ -1103,7 +1103,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )

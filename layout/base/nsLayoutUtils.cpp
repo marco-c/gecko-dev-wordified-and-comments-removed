@@ -13693,7 +13693,7 @@ Get
 nsIFrame
 :
 :
-IBSplitSpecialSibling
+IBSplitSibling
 (
 )
 )
