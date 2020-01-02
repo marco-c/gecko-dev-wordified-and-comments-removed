@@ -381,13 +381,13 @@ error
 function
 safeGetState
 (
-state
+fetchState
 )
 {
 if
 (
 !
-state
+fetchState
 )
 {
 return
@@ -410,7 +410,7 @@ JSON
 .
 stringify
 (
-state
+fetchState
 (
 )
 )
@@ -753,7 +753,7 @@ function
 (
 name
 condition
-state
+fetchState
 =
 null
 )
@@ -764,7 +764,7 @@ addBlocker
 (
 name
 condition
-state
+fetchState
 )
 ;
 }
@@ -902,7 +902,7 @@ function
 (
 name
 condition
-state
+fetchState
 )
 {
 this
@@ -915,7 +915,7 @@ addBlocker
 (
 name
 condition
-state
+fetchState
 )
 ;
 }
@@ -1082,7 +1082,7 @@ function
 (
 name
 condition
-state
+fetchState
 )
 {
 if
@@ -1116,11 +1116,11 @@ argument
 }
 if
 (
-state
+fetchState
 &
 &
 typeof
-state
+fetchState
 !
 =
 "
@@ -1234,9 +1234,9 @@ push
 name
 :
 name
-state
+fetchState
 :
-state
+fetchState
 }
 )
 ;
@@ -1379,7 +1379,7 @@ let
 {
 name
 isComplete
-state
+fetchState
 }
 of
 this
@@ -1405,7 +1405,7 @@ state
 :
 safeGetState
 (
-state
+fetchState
 )
 }
 )
@@ -1552,7 +1552,7 @@ _condition
 let
 {
 name
-state
+fetchState
 }
 =
 current
@@ -1634,9 +1634,9 @@ false
 name
 :
 name
-state
+fetchState
 :
-state
+fetchState
 }
 ;
 condition
@@ -1696,7 +1696,7 @@ State
 +
 safeGetState
 (
-state
+fetchState
 )
 ;
 warn
@@ -1807,7 +1807,7 @@ State
 +
 safeGetState
 (
-state
+fetchState
 )
 ;
 warn
