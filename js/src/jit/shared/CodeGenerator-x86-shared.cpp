@@ -12075,6 +12075,17 @@ output
 )
 ;
 }
+else
+{
+masm
+.
+jump
+(
+&
+noMoreWork
+)
+;
+}
 masm
 .
 bind
