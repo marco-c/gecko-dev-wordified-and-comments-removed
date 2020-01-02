@@ -116,15 +116,6 @@ AutoClose
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Telemetry
-.
-h
-"
 class
 nsIPrincipal
 ;
