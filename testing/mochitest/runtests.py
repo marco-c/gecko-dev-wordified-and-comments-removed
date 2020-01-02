@@ -4648,6 +4648,12 @@ xrePath
 debugger
 =
 debugger
+                                  
+dmdPath
+=
+options
+.
+dmdPath
 )
     
 browserEnv
