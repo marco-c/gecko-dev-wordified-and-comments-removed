@@ -11031,9 +11031,10 @@ i
 {
 if
 (
+!
 i
 .
-isIon
+hasUsableAbstractFramePtr
 (
 )
 )

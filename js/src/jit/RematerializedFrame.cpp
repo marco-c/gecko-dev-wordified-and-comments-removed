@@ -108,6 +108,10 @@ InlineFrameIterator
 iter
 )
 :
+prevUpToDate_
+(
+false
+)
 top_
 (
 top
