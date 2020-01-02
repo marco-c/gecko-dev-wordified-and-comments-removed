@@ -138,7 +138,7 @@ is
 (
 grid
 .
-children
+items
 .
 length
 2
@@ -156,7 +156,7 @@ is
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -871,7 +871,7 @@ is
 (
 grid
 .
-children
+items
 .
 length
 0
@@ -879,41 +879,9 @@ length
 grid
 has
 0
-children
+items
 after
 clearAll
-"
-)
-;
-is
-(
-grid
-.
-rowCount
-0
-"
-grid
-has
-0
-rows
-when
-empty
-"
-)
-;
-is
-(
-grid
-.
-columnCount
-0
-"
-grid
-has
-0
-cols
-when
-empty
 "
 )
 ;
@@ -1152,13 +1120,13 @@ is
 (
 grid
 .
-children
+items
 .
 length
 0
 "
 0
-children
+items
 when
 empty
 "
@@ -1220,7 +1188,7 @@ newItem
 &
 grid
 .
-children
+items
 [
 0
 ]
@@ -1578,7 +1546,7 @@ is
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -1758,7 +1726,7 @@ is
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -1836,7 +1804,7 @@ is
 (
 grid
 .
-children
+items
 [
 2
 ]
@@ -2332,7 +2300,7 @@ removeItem
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -2363,7 +2331,7 @@ removeItem
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -2657,7 +2625,7 @@ toggleItemSelection
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2667,7 +2635,7 @@ ok
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2706,7 +2674,7 @@ toggleItemSelection
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2717,7 +2685,7 @@ ok
 !
 grid
 .
-children
+items
 [
 1
 ]
@@ -2760,7 +2728,7 @@ selectItem
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2770,7 +2738,7 @@ ok
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2793,7 +2761,7 @@ ok
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2841,7 +2809,7 @@ selectItem
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -2853,7 +2821,7 @@ selectItem
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2957,7 +2925,7 @@ is
 +
 grid
 .
-children
+items
 [
 0
 ]
@@ -2971,7 +2939,7 @@ selectItem
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -2990,7 +2958,7 @@ is
 +
 grid
 .
-children
+items
 [
 0
 ]
@@ -3240,7 +3208,7 @@ toggleItemSelection
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -3250,7 +3218,7 @@ ok
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -3299,7 +3267,7 @@ selectedItems
 ]
 grid
 .
-children
+items
 [
 1
 ]
@@ -3331,7 +3299,7 @@ toggleItemSelection
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -3357,7 +3325,7 @@ again
 ;
 grid
 .
-children
+items
 [
 0
 ]
@@ -3368,7 +3336,7 @@ true
 ;
 grid
 .
-children
+items
 [
 1
 ]
@@ -3425,7 +3393,7 @@ ok
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -3435,7 +3403,7 @@ selected
 |
 grid
 .
-children
+items
 [
 1
 ]
@@ -3513,7 +3481,7 @@ is
 +
 grid
 .
-children
+items
 [
 0
 ]
@@ -3527,7 +3495,7 @@ toggleItemSelection
 (
 grid
 .
-children
+items
 [
 0
 ]
@@ -3547,7 +3515,7 @@ is
 +
 grid
 .
-children
+items
 [
 0
 ]

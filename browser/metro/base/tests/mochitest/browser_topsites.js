@@ -859,7 +859,7 @@ items
 =
 grid
 .
-children
+items
 ;
 is
 (
@@ -1086,7 +1086,7 @@ TopSitesTestHelper
 .
 grid
 .
-children
+items
 ;
 is
 (
@@ -1392,7 +1392,7 @@ items
 =
 grid
 .
-children
+items
 ;
 is
 (
@@ -1418,7 +1418,7 @@ tile
 =
 grid
 .
-children
+items
 [
 2
 ]
@@ -1501,7 +1501,7 @@ thirdTile
 =
 grid
 .
-children
+items
 [
 2
 ]
@@ -1725,7 +1725,7 @@ items
 =
 grid
 .
-children
+items
 ;
 is
 (
@@ -1850,7 +1850,7 @@ secondTile
 =
 grid
 .
-children
+items
 [
 1
 ]
@@ -1997,7 +1997,7 @@ items
 =
 grid
 .
-children
+items
 ;
 is
 (
@@ -2557,7 +2557,7 @@ is
 (
 grid
 .
-children
+items
 [
 1
 ]
@@ -2765,7 +2765,7 @@ items
 =
 grid
 .
-children
+items
 ;
 is
 (
