@@ -301,7 +301,7 @@ sInstance
 }
 synchronized
 void
-surfaceDestroyed
+serverSurfaceDestroyed
 (
 )
 {
@@ -320,7 +320,7 @@ LOGTAG
 GLController
 :
 :
-surfaceDestroyed
+serverSurfaceDestroyed
 (
 )
 with
@@ -366,7 +366,7 @@ done
 GLController
 :
 :
-surfaceDestroyed
+serverSurfaceDestroyed
 (
 )
 "
@@ -375,7 +375,7 @@ surfaceDestroyed
 }
 synchronized
 void
-surfaceChanged
+serverSurfaceChanged
 (
 int
 newWidth
@@ -398,7 +398,7 @@ LOGTAG
 GLController
 :
 :
-surfaceChanged
+serverSurfaceChanged
 (
 "
 +
@@ -448,7 +448,7 @@ done
 GLController
 :
 :
-surfaceChanged
+serverSurfaceChanged
 with
 compositor
 resume
@@ -487,7 +487,7 @@ LOGTAG
 GLController
 :
 :
-surfaceChanged
+serverSurfaceChanged
 creating
 compositor
 ;
@@ -756,7 +756,7 @@ true
 }
 public
 boolean
-hasValidSurface
+isServerSurfaceValid
 (
 )
 {

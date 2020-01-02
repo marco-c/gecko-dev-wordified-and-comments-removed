@@ -2156,7 +2156,7 @@ if
 !
 mGLController
 .
-hasValidSurface
+isServerSurfaceValid
 (
 )
 |
@@ -2214,7 +2214,7 @@ height
 {
 mGLController
 .
-surfaceChanged
+serverSurfaceChanged
 (
 width
 height
@@ -2254,7 +2254,7 @@ onDestroyed
 {
 mGLController
 .
-surfaceDestroyed
+serverSurfaceDestroyed
 (
 )
 ;
