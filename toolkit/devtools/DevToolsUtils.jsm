@@ -78,6 +78,9 @@ makeInfallible
 yieldingEach
 :
 yieldingEach
+reportingDisabled
+:
+false
 defineLazyPrototypeGetter
 :
 defineLazyPrototypeGetter
