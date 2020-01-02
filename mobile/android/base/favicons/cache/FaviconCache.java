@@ -1048,10 +1048,6 @@ get
 maxSizeBytes
 )
 ;
-finishRead
-(
-)
-;
 return
 0xFFFFFF
 ;
