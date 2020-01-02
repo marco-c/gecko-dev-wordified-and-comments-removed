@@ -6152,14 +6152,11 @@ addView
 this
 )
 ;
-setPrivate
+InitArrayBufferViewDataPointer
 (
+this
+&
 buffer
-.
-dataPointer
-(
-)
-+
 offset
 )
 ;
