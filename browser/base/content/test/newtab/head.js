@@ -166,6 +166,7 @@ Promise
 NewTabUtils
 Sanitizer
 clearTimeout
+setTimeout
 DirectoryLinksProvider
 }
 =
