@@ -310,6 +310,9 @@ mIsOffline
 bool
 mHasFinished
 ;
+bool
+mAudioChannelAgentPlaying
+;
 TimeStamp
 mStartedBlockingDueToBeingOnlyNode
 ;
