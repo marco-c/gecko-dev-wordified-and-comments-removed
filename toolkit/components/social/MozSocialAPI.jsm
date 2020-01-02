@@ -158,6 +158,9 @@ findChromeWindowForChats
 "
 closeAllChatWindows
 "
+"
+hookWindowCloseForPanelClose
+"
 ]
 ;
 this
@@ -420,7 +423,7 @@ origin
 return
 ;
 }
-handleWindowClose
+hookWindowCloseForPanelClose
 (
 window
 )
@@ -1154,7 +1157,7 @@ close
 }
 }
 function
-handleWindowClose
+hookWindowCloseForPanelClose
 (
 targetWindow
 )
