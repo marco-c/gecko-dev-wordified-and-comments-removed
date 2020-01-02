@@ -2205,6 +2205,13 @@ if
 actor
 )
 {
+actor
+-
+>
+mTextureClient
+=
+nullptr
+;
 if
 (
 actor
@@ -2229,13 +2236,6 @@ this
 )
 ;
 }
-actor
--
->
-mTextureClient
-=
-nullptr
-;
 }
 }
 bool
