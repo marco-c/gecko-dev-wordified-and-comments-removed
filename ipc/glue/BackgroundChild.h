@@ -114,6 +114,12 @@ nsIIPCBackgroundChildCreateCallback
 aCallback
 )
 ;
+static
+void
+CloseForCurrentThread
+(
+)
+;
 private
 :
 static
