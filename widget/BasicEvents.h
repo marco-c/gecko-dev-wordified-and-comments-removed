@@ -3422,8 +3422,6 @@ uint32_t
 aMessage
 nsEventStructType
 aStructType
-int32_t
-aDetail
 )
 :
 WidgetGUIEvent
@@ -3435,7 +3433,7 @@ aStructType
 )
 detail
 (
-aDetail
+0
 )
 {
 }
@@ -3459,8 +3457,6 @@ bool
 aIsTrusted
 uint32_t
 aMessage
-int32_t
-aDetail
 )
 :
 WidgetGUIEvent
@@ -3472,7 +3468,7 @@ NS_UI_EVENT
 )
 detail
 (
-aDetail
+0
 )
 {
 }
@@ -3519,7 +3515,6 @@ InternalUIEvent
 (
 false
 message
-detail
 )
 ;
 result
@@ -3562,6 +3557,12 @@ AssignGUIEventData
 aEvent
 aCopyTargets
 )
+;
+detail
+=
+aEvent
+.
+detail
 ;
 }
 }
