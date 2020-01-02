@@ -4314,7 +4314,7 @@ lineNo
 .
 setVersion
 (
-SCRIPTVERSION_DEFAULT
+JSVERSION_DEFAULT
 )
 .
 setElement

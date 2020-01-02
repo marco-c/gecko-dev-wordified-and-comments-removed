@@ -108,10 +108,6 @@ NS_ISCRIPTCONTEXT_IID
 0xb7
 }
 }
-#
-define
-SCRIPTVERSION_DEFAULT
-JSVERSION_DEFAULT
 class
 nsIOffThreadScriptReceiver
 ;
