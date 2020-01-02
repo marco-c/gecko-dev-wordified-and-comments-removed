@@ -8106,7 +8106,6 @@ new
 DoorHangerPopup
 (
 this
-null
 )
 ;
 mPluginContainer

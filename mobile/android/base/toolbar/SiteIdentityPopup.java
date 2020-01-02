@@ -317,7 +317,6 @@ aActivity
 super
 (
 aActivity
-null
 )
 ;
 mResources
