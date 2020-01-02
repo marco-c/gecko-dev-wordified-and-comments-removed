@@ -348,6 +348,11 @@ ForkJoinNursery
 (
 )
 ;
+bool
+initialize
+(
+)
+;
 void
 minorGC
 (
@@ -581,7 +586,7 @@ sweepHugeSlots
 (
 )
 ;
-void
+bool
 setCurrentChunk
 (
 int
@@ -609,7 +614,7 @@ int
 op
 )
 ;
-void
+bool
 initNewspace
 (
 )
@@ -708,6 +713,14 @@ size_t
 nelem
 size_t
 elemSize
+)
+;
+void
+*
+allocateInTospaceInfallible
+(
+size_t
+thingSize
 )
 ;
 MOZ_ALWAYS_INLINE

@@ -380,6 +380,11 @@ ParallelBailoutRecord
 bailoutRecord
 )
 ;
+bool
+initialize
+(
+)
+;
 uint32_t
 workerId
 (
@@ -522,7 +527,7 @@ current
 ;
 static
 bool
-initialize
+initializeTls
 (
 )
 ;
