@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-interface
-nsISupports
-;
 enum
 DOMRequestReadyState
 {
@@ -122,7 +119,7 @@ result
 ;
 readonly
 attribute
-nsISupports
+DOMError
 ?
 error
 ;
