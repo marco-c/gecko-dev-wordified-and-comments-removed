@@ -118,6 +118,11 @@ nsUConvCID
 h
 '
 '
+nsUCSupport
+.
+h
+'
+'
 uconvutil
 .
 h
