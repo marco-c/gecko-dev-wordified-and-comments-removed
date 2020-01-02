@@ -1011,6 +1011,9 @@ damageArea
 ;
 }
 }
+#
+ifdef
+DEBUG
 void
 nsTableCellFrame
 :
@@ -1024,9 +1027,8 @@ nsFrameList
 aFrameList
 )
 {
-NS_PRECONDITION
+MOZ_CRASH
 (
-false
 "
 unsupported
 operation
@@ -1050,9 +1052,8 @@ nsFrameList
 aFrameList
 )
 {
-NS_PRECONDITION
+MOZ_CRASH
 (
-false
 "
 unsupported
 operation
@@ -1073,9 +1074,8 @@ nsIFrame
 aOldFrame
 )
 {
-NS_PRECONDITION
+MOZ_CRASH
 (
-false
 "
 unsupported
 operation
@@ -1083,6 +1083,8 @@ operation
 )
 ;
 }
+#
+endif
 void
 nsTableCellFrame
 :

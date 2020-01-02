@@ -177,6 +177,9 @@ aOldStyleContext
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+DEBUG
 virtual
 void
 AppendFrames
@@ -216,6 +219,8 @@ aOldFrame
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 virtual
 nsContainerFrame
 *
