@@ -4678,10 +4678,6 @@ pk11sdr_Shutdown
 (
 )
 ;
-nss_DestroyErrorStack
-(
-)
-;
 nssArena_Shutdown
 (
 )
@@ -4715,6 +4711,10 @@ shutdownRV
 SECFailure
 ;
 }
+nss_DestroyErrorStack
+(
+)
+;
 nssIsInitted
 =
 PR_FALSE

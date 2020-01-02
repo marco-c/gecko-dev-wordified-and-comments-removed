@@ -2712,7 +2712,7 @@ and
 the
 maximum
 is
-8192
+16384
 bits
 .
 The
@@ -3956,7 +3956,7 @@ t
 "
 TCu
 Cu
-Tuw
+Tu
 "
 <
 /

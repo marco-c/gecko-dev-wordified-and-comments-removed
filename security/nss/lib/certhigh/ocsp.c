@@ -9411,14 +9411,6 @@ ocspResponseBytes
 rbytes
 )
 {
-PORT_Assert
-(
-rbytes
-!
-=
-NULL
-)
-;
 if
 (
 rbytes
@@ -9429,7 +9421,7 @@ NULL
 {
 PORT_SetError
 (
-SEC_ERROR_INVALID_ARGS
+SEC_ERROR_OCSP_UNKNOWN_RESPONSE_TYPE
 )
 ;
 return
