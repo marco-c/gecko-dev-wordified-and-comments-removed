@@ -1998,7 +1998,7 @@ surfaceFormat
 ;
 }
 SurfaceFormat
-UploadSurfaceToTexture
+DeprecatedUploadSurfaceToTexture
 (
 GLContext
 *

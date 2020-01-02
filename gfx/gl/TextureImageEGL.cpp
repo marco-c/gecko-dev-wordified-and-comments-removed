@@ -935,7 +935,7 @@ aRegion
 }
 mTextureFormat
 =
-UploadSurfaceToTexture
+DeprecatedUploadSurfaceToTexture
 (
 mGLContext
 aSurf
