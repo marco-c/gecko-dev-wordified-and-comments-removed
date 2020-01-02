@@ -114,6 +114,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+Credentials
+.
+jsm
+'
+'
 FxAccounts
 .
 jsm
