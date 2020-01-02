@@ -17,6 +17,8 @@ common
 inc
 .
 css
+xul
+|
 caption
 {
 background
@@ -26,7 +28,11 @@ color
 transparent
 ;
 }
+xul
+|
 button
+xul
+|
 colorpicker
 [
 type
@@ -35,6 +41,8 @@ type
 button
 "
 ]
+xul
+|
 menulist
 {
 margin
@@ -43,6 +51,8 @@ margin
 4px
 ;
 }
+xul
+|
 menulist
 :
 not
@@ -56,6 +66,9 @@ true
 ]
 )
 >
+xul
+|
+*
 .
 menulist
 -
@@ -74,6 +87,8 @@ bottom
 1px
 ;
 }
+xul
+|
 checkbox
 {
 -
@@ -86,6 +101,8 @@ start
 0
 ;
 }
+xul
+|
 radio
 {
 -
@@ -133,10 +150,16 @@ start
 0
 ;
 }
+xul
+|
+*
 .
 radio
 -
 icon
+xul
+|
+*
 .
 checkbox
 -
