@@ -4368,6 +4368,12 @@ mDocument
 NodePrincipal
 (
 )
+mDocument
+-
+>
+GetWindow
+(
+)
 )
 &
 &
