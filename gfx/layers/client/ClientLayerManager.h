@@ -284,9 +284,6 @@ nsAString
 name
 )
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -302,8 +299,6 @@ Client
 "
 ;
 }
-#
-endif
 virtual
 void
 SetRoot

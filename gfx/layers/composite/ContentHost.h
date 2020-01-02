@@ -702,9 +702,6 @@ MOZ_OVERRIDE
 ;
 #
 endif
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -718,8 +715,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 protected
 :
 nsIntRegion
@@ -825,9 +820,6 @@ DestroyTextures
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -841,8 +833,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 }
 ;
 class

@@ -1437,6 +1437,12 @@ GetPrefLayoutFrameRate
 ;
 static
 bool
+GetPrefLayersDump
+(
+)
+;
+static
+bool
 OffMainThreadCompositionRequired
 (
 )

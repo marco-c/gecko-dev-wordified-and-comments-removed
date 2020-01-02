@@ -475,9 +475,6 @@ mWidget
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -493,8 +490,6 @@ Basic
 "
 ;
 }
-#
-endif
 virtual
 void
 ClearCachedResources

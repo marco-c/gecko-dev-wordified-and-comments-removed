@@ -799,9 +799,6 @@ Unlock
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 void
 ImageHost
 :
@@ -894,8 +891,6 @@ get
 ;
 }
 }
-#
-endif
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -1701,9 +1696,6 @@ Unlock
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 void
 DeprecatedImageHostSingle
 :
@@ -1796,8 +1788,6 @@ get
 ;
 }
 }
-#
-endif
 bool
 DeprecatedImageHostBuffered
 :

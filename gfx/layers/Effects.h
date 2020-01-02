@@ -152,9 +152,6 @@ Effect
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -170,8 +167,6 @@ aPrefix
 =
 0
 ;
-#
-endif
 }
 ;
 struct
@@ -225,9 +220,6 @@ aFilter
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -251,8 +243,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 gfx
 :
 :
@@ -322,9 +312,6 @@ aMaskTransform
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -338,8 +325,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 TextureSource
 *
 mMaskTexture
@@ -390,9 +375,6 @@ aRenderTarget
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -420,8 +402,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 RefPtr
 <
 CompositingRenderTarget
@@ -463,9 +443,6 @@ aFilter
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -480,8 +457,6 @@ EffectBGRX
 "
 ;
 }
-#
-endif
 }
 ;
 struct
@@ -513,9 +488,6 @@ aFilter
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -530,8 +502,6 @@ EffectRGBX
 "
 ;
 }
-#
-endif
 }
 ;
 struct
@@ -563,9 +533,6 @@ aFilter
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -580,8 +547,6 @@ EffectBGRA
 "
 ;
 }
-#
-endif
 }
 ;
 struct
@@ -613,9 +578,6 @@ aFilter
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -630,8 +592,6 @@ EffectRGBA
 "
 ;
 }
-#
-endif
 }
 ;
 struct
@@ -661,9 +621,6 @@ aFilter
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -678,8 +635,6 @@ EffectYCbCr
 "
 ;
 }
-#
-endif
 }
 ;
 struct
@@ -720,9 +675,6 @@ aOnWhite
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -737,8 +689,6 @@ EffectComponentAlpha
 "
 ;
 }
-#
-endif
 TextureSource
 *
 mOnBlack
@@ -776,9 +726,6 @@ aColor
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -792,8 +739,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 gfx
 :
 :

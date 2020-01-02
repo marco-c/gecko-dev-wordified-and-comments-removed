@@ -205,9 +205,6 @@ return
 this
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -240,8 +237,6 @@ aPrefix
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 private
 :
 RefPtr

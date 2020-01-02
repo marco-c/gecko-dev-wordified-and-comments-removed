@@ -1659,9 +1659,6 @@ aSize
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 void
 TiledContentHost
 :
@@ -1699,8 +1696,6 @@ this
 )
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_DUMP_PAINTING

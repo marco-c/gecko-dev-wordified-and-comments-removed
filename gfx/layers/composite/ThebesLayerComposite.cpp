@@ -822,9 +822,6 @@ return
 resolution
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 nsACString
 &
 ThebesLayerComposite
@@ -901,7 +898,5 @@ return
 aTo
 ;
 }
-#
-endif
 }
 }

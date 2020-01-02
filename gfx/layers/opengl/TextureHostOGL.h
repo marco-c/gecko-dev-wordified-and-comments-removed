@@ -147,17 +147,6 @@ mozilla
 /
 layers
 /
-LayersTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 TextureHost
 .
 h
@@ -1178,9 +1167,6 @@ return
 mSize
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -1195,8 +1181,6 @@ SharedTextureHostOGL
 "
 ;
 }
-#
-endif
 protected
 :
 gfx
@@ -1578,9 +1562,6 @@ GetDevicePixelHeight
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -1595,8 +1576,6 @@ MacIOSurfaceTextureHostOGL
 "
 ;
 }
-#
-endif
 protected
 :
 CompositorOGL
@@ -1979,9 +1958,6 @@ GetFormat
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -1996,8 +1972,6 @@ TextureImageDeprecatedTextureHostOGL
 "
 ;
 }
-#
-endif
 protected
 :
 nsRefPtr
@@ -2410,9 +2384,6 @@ GetAsSurface
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -2427,8 +2398,6 @@ YCbCrDeprecatedTextureHostOGL
 "
 ;
 }
-#
-endif
 private
 :
 RefPtr
@@ -2784,9 +2753,6 @@ GetAsSurface
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -2801,8 +2767,6 @@ SharedDeprecatedTextureHostOGL
 "
 ;
 }
-#
-endif
 protected
 :
 void
@@ -3092,9 +3056,6 @@ GetAsSurface
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -3109,8 +3070,6 @@ SurfaceStreamHostOGL
 "
 ;
 }
-#
-endif
 SurfaceStreamHostOGL
 (
 )
@@ -3385,9 +3344,6 @@ GetAsSurface
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -3402,8 +3358,6 @@ TiledDeprecatedTextureHostOGL
 "
 ;
 }
-#
-endif
 protected
 :
 void
@@ -3651,9 +3605,6 @@ GetAsSurface
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -3668,8 +3619,6 @@ GrallocDeprecatedTextureHostOGL
 "
 ;
 }
-#
-endif
 void
 BindTexture
 (

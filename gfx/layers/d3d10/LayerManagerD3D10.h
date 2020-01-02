@@ -411,9 +411,6 @@ Direct3D
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -429,8 +426,6 @@ D3D10
 "
 ;
 }
-#
-endif
 ID3D10Device1
 *
 device

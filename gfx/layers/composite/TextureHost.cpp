@@ -631,9 +631,6 @@ TextureHost
 )
 {
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 void
 TextureHost
 :
@@ -721,8 +718,6 @@ flags
 )
 ;
 }
-#
-endif
 void
 TextureSource
 :
@@ -957,9 +952,6 @@ mDeAllocator
 )
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 void
 DeprecatedTextureHost
 :
@@ -1047,8 +1039,6 @@ flags
 )
 ;
 }
-#
-endif
 BufferTextureHost
 :
 :

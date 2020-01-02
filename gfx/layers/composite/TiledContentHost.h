@@ -922,9 +922,6 @@ MOZ_OVERRIDE
 ;
 #
 endif
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -938,8 +935,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 private
 :
 void

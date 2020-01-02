@@ -589,9 +589,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -607,8 +604,6 @@ DeprecatedTextureHostShmemD3D11
 "
 ;
 }
-#
-endif
 virtual
 void
 BeginTileIteration
@@ -840,9 +835,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -857,8 +849,6 @@ DeprecatedTextureHostDXGID3D11
 "
 ;
 }
-#
-endif
 protected
 :
 virtual
@@ -986,9 +976,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -1004,8 +991,6 @@ TextureImageDeprecatedTextureHostD3D11
 "
 ;
 }
-#
-endif
 protected
 :
 virtual

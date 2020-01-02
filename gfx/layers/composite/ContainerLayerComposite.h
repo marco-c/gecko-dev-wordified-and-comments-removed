@@ -31,17 +31,6 @@ LayerManagerComposite
 .
 h
 "
-#
-include
-"
-mozilla
-/
-layers
-/
-LayersTypes
-.
-h
-"
 class
 gfx3DMatrix
 ;
@@ -186,9 +175,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -205,8 +191,6 @@ ContainerLayerComposite
 "
 ;
 }
-#
-endif
 }
 ;
 class
@@ -333,9 +317,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -352,8 +333,6 @@ RefLayerComposite
 "
 ;
 }
-#
-endif
 }
 ;
 }

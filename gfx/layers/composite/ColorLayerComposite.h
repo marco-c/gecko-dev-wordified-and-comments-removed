@@ -34,17 +34,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-LayersTypes
-.
-h
-"
-#
-include
-"
 nsTraceRefcnt
 .
 h
@@ -190,9 +179,6 @@ return
 this
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -209,8 +195,6 @@ ColorLayerComposite
 "
 ;
 }
-#
-endif
 }
 ;
 }

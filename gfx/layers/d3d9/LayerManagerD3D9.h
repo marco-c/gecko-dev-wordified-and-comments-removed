@@ -436,9 +436,6 @@ mDefaultDeviceManager
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -454,8 +451,6 @@ D3D9
 "
 ;
 }
-#
-endif
 void
 ReportFailure
 (

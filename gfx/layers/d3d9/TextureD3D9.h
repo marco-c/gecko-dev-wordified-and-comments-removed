@@ -603,9 +603,6 @@ DeprecatedTextureHostD3D9
 {
 public
 :
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -620,8 +617,6 @@ DeprecatedTextureHostShmemD3D9
 "
 ;
 }
-#
-endif
 protected
 :
 virtual
@@ -653,9 +648,6 @@ DeprecatedTextureHostD3D9
 {
 public
 :
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -670,8 +662,6 @@ DeprecatedTextureHostSystemMemD3D9
 "
 ;
 }
-#
-endif
 protected
 :
 virtual
@@ -781,9 +771,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -799,8 +786,6 @@ TextureImageDeprecatedTextureHostD3D11
 "
 ;
 }
-#
-endif
 protected
 :
 virtual
@@ -840,9 +825,6 @@ DeprecatedTextureHostD3D9
 {
 public
 :
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 const
 char
@@ -857,8 +839,6 @@ DeprecatedTextureHostDIB
 "
 ;
 }
-#
-endif
 virtual
 void
 SetBuffer

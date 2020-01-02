@@ -302,9 +302,6 @@ GetRenderState
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -318,8 +315,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_DUMP_PAINTING
@@ -554,9 +549,6 @@ aCompositor
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -570,8 +562,6 @@ char
 aPrefix
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_DUMP_PAINTING
