@@ -197,6 +197,9 @@ DIRS
 =
 [
 '
+unixfd
+'
+'
 unixsocket
 '
 ]
@@ -218,10 +221,10 @@ DIRS
 =
 [
 '
-netd
-'
-'
 keystore
+'
+'
+netd
 '
 ]
 TOOL_DIRS
