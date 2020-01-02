@@ -187,7 +187,7 @@ aContent
 )
 ;
 void
-SetMouseButtonDownHandlingDocument
+SetMouseButtonHandlingDocument
 (
 nsIDocument
 *
@@ -201,7 +201,7 @@ aDocument
 |
 |
 !
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 "
 Some
 mouse
@@ -214,7 +214,7 @@ nested
 "
 )
 ;
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 =
 aDocument
 ;
@@ -739,7 +739,7 @@ nsCOMPtr
 <
 nsIDocument
 >
-mMouseDownEventHandlingDocument
+mMouseButtonEventHandlingDocument
 ;
 static
 bool
