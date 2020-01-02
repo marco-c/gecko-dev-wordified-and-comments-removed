@@ -209,7 +209,7 @@ private
 static
 final
 String
-PREFS_KEY
+PREFS_CONFIG_KEY
 =
 "
 home_panels
@@ -566,7 +566,7 @@ prefs
 .
 getString
 (
-PREFS_KEY
+PREFS_CONFIG_KEY
 null
 )
 ;
@@ -743,7 +743,7 @@ editor
 .
 putString
 (
-PREFS_KEY
+PREFS_CONFIG_KEY
 jsonString
 )
 ;
@@ -843,7 +843,7 @@ TextUtils
 equals
 (
 key
-PREFS_KEY
+PREFS_CONFIG_KEY
 )
 )
 {
