@@ -3154,6 +3154,16 @@ this
 mState
 )
 ;
+if
+(
+aEvent
+.
+mCurrentSpan
+>
+=
+0
+)
+{
 SetState
 (
 PANNING
@@ -3181,6 +3191,7 @@ mFocusPoint
 y
 )
 ;
+}
 {
 ReentrantMonitorAutoEnter
 lock
