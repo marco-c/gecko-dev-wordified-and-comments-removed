@@ -174,6 +174,9 @@ class
 CompositorParent
 ;
 class
+APZPaintLogHelper
+;
+class
 APZCTreeManager
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -212,7 +215,7 @@ aRoot
 bool
 aIsFirstPaint
 uint64_t
-aFirstPaintLayersId
+aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
 )
@@ -603,7 +606,11 @@ aNextSibling
 bool
 aIsFirstPaint
 uint64_t
-aFirstPaintLayersId
+aOriginatingLayersId
+const
+APZPaintLogHelper
+&
+aPaintLogger
 nsTArray
 <
 nsRefPtr
