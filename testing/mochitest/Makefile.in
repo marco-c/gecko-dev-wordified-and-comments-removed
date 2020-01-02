@@ -968,6 +968,11 @@ SecondTest
 .
 plugin
 /
+\
+JavaTest
+.
+plugin
+/
 else
 TEST_HARNESS_PLUGINS
 :
@@ -985,6 +990,14 @@ DLL_SUFFIX
 DLL_PREFIX
 )
 npsecondtest
+(
+DLL_SUFFIX
+)
+\
+(
+DLL_PREFIX
+)
+nptestjava
 (
 DLL_SUFFIX
 )
