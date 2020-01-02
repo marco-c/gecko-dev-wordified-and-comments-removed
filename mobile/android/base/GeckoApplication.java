@@ -419,6 +419,13 @@ GeckoActivityStatus
 activity
 )
 {
+GeckoAppShell
+.
+setContextGetter
+(
+this
+)
+;
 if
 (
 mPausedGecko
