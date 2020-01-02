@@ -1118,6 +1118,16 @@ clearUserPref
 PREF_SYNC_SHOW_CUSTOMIZATION
 )
 ;
+Weave
+.
+Service
+.
+engineManager
+.
+declineDisabled
+(
+)
+;
 }
 else
 {
