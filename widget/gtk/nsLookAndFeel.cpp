@@ -2546,6 +2546,15 @@ aResult
 ;
 break
 ;
+case
+eIntID_ColorPickerAvailable
+:
+aResult
+=
+1
+;
+break
+;
 default
 :
 aResult
