@@ -950,7 +950,7 @@ lengthLength
 "
 )
 ;
-PR_Abort
+abort
 (
 )
 ;
@@ -1256,7 +1256,7 @@ hashAlg
 "
 )
 ;
-PR_Abort
+abort
 (
 )
 ;
@@ -6187,7 +6187,7 @@ certStatus
 "
 )
 ;
-PR_Abort
+abort
 (
 )
 ;

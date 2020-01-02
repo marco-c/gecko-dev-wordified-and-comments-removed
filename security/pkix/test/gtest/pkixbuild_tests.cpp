@@ -898,7 +898,7 @@ SetUpCertChainTail
 )
 )
 {
-PR_Abort
+abort
 (
 )
 ;
