@@ -569,16 +569,6 @@ user_pref
 "
 experiments
 .
-enabled
-"
-true
-)
-;
-user_pref
-(
-"
-experiments
-.
 supported
 "
 true
