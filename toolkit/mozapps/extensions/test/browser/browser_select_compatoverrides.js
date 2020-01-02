@@ -154,8 +154,9 @@ gTestAddon
 =
 addon
 ;
-aCallback
+executeSoon
 (
+aCallback
 )
 ;
 }

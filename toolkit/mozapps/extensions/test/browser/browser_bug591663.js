@@ -419,8 +419,9 @@ check_list
 gItem
 )
 ;
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 }
@@ -570,8 +571,9 @@ cancel
 (
 )
 ;
-run_next_test
+executeSoon
 (
+run_next_test
 )
 ;
 }
