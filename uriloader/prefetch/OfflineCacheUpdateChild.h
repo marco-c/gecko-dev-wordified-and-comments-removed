@@ -116,6 +116,7 @@ uint64_t
 &
 byteProgress
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -130,6 +131,7 @@ nsCString
 &
 cacheClientId
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -138,12 +140,13 @@ RecvFinish
 const
 bool
 &
-succeded
+succeeded
 const
 bool
 &
 isUpgrade
 )
+MOZ_OVERRIDE
 ;
 OfflineCacheUpdateChild
 (
