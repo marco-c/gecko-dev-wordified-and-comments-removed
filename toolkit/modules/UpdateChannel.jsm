@@ -47,6 +47,9 @@ get
 function
 UpdateChannel_get
 (
+aIncludePartners
+=
+true
 )
 {
 let
@@ -92,6 +95,11 @@ e
 )
 {
 }
+if
+(
+aIncludePartners
+)
+{
 try
 {
 let
@@ -172,6 +180,7 @@ reportError
 e
 )
 ;
+}
 }
 return
 channel
