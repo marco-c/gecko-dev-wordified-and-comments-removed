@@ -222,6 +222,9 @@ namespace
 mozilla
 {
 class
+EventChainPreVisitor
+;
+class
 EventListenerManager
 ;
 namespace
@@ -1356,10 +1359,14 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+mozilla
+:
+:
+EventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

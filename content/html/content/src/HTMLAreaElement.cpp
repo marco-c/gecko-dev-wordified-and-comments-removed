@@ -38,6 +38,13 @@ MemoryReporting
 .
 h
 "
+#
+include
+"
+nsEventDispatcher
+.
+h
+"
 NS_IMPL_NS_NEW_HTML_ELEMENT
 (
 Area
@@ -304,7 +311,7 @@ HTMLAreaElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

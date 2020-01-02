@@ -123,13 +123,16 @@ namespace
 mozilla
 {
 class
+AutoSVGRenderingState
+;
+class
 DOMSVGAnimatedPreserveAspectRatio
 ;
 class
-SVGFragmentIdentifier
+EventChainPreVisitor
 ;
 class
-AutoSVGRenderingState
+SVGFragmentIdentifier
 ;
 namespace
 dom
@@ -545,7 +548,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsEventDispatcher
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -257,7 +264,7 @@ SVGAElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

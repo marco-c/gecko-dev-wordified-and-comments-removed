@@ -33575,7 +33575,7 @@ nsDocument
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

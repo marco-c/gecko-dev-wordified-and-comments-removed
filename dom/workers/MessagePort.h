@@ -46,6 +46,13 @@ nsIDOMEvent
 class
 nsPIDOMWindow
 ;
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
 BEGIN_WORKERS_NAMESPACE
 class
 SharedWorker
@@ -256,7 +263,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

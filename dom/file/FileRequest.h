@@ -30,6 +30,13 @@ h
 class
 nsIDOMLockedFile
 ;
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
 BEGIN_FILE_NAMESPACE
 class
 FileHelper
@@ -78,7 +85,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

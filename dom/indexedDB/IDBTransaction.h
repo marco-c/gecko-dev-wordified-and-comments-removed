@@ -156,6 +156,13 @@ nsIThread
 class
 nsPIDOMWindow
 ;
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
 BEGIN_INDEXEDDB_NAMESPACE
 class
 AsyncConnectionHelper
@@ -330,7 +337,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

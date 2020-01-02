@@ -99,6 +99,10 @@ dom
 :
 Sequence
 ;
+using
+namespace
+mozilla
+;
 USING_WORKERS_NAMESPACE
 SharedWorker
 :
@@ -805,7 +809,7 @@ SharedWorker
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

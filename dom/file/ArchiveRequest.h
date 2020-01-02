@@ -34,6 +34,13 @@ FileCommon
 .
 h
 "
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
 BEGIN_FILE_NAMESPACE
 class
 ArchiveRequest
@@ -96,7 +103,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

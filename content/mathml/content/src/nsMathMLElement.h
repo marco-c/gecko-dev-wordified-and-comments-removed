@@ -63,6 +63,13 @@ typedef
 nsMappedAttributeElement
 nsMathMLElementBase
 ;
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
 class
 nsMathMLElement
 MOZ_FINAL
@@ -245,7 +252,10 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+mozilla
+:
+:
+EventChainPreVisitor
 &
 aVisitor
 )

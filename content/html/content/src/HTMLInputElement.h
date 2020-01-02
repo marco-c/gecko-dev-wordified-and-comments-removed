@@ -139,6 +139,9 @@ nsTextEditorState
 namespace
 mozilla
 {
+class
+EventChainPreVisitor
+;
 namespace
 dom
 {
@@ -542,7 +545,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )
@@ -2824,7 +2827,7 @@ aSetValueChanged
 bool
 NeedToInitializeEditorForEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

@@ -5474,7 +5474,7 @@ HTMLSelectElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

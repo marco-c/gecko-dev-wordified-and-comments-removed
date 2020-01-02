@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsEventDispatcher
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -4244,7 +4251,7 @@ nsMathMLElement
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

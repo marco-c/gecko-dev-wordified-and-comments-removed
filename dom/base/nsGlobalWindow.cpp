@@ -13278,7 +13278,7 @@ nsGlobalWindow
 :
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

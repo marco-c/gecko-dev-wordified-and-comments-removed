@@ -338,6 +338,9 @@ namespace
 mozilla
 {
 class
+EventChainPreVisitor
+;
+class
 EventChainVisitor
 ;
 class
@@ -3235,7 +3238,7 @@ const
 nsresult
 PreHandleEventForLinks
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

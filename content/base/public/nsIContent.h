@@ -57,6 +57,9 @@ nsXBLBinding
 namespace
 mozilla
 {
+class
+EventChainPreVisitor
+;
 namespace
 dom
 {
@@ -1645,7 +1648,10 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+mozilla
+:
+:
+EventChainPreVisitor
 &
 aVisitor
 )

@@ -55,6 +55,13 @@ h
 class
 nsIInputStream
 ;
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
 BEGIN_FILE_NAMESPACE
 class
 FileHandle
@@ -143,7 +150,7 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+EventChainPreVisitor
 &
 aVisitor
 )

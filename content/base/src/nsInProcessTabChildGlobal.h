@@ -111,6 +111,13 @@ nsWeakReference
 .
 h
 "
+namespace
+mozilla
+{
+class
+EventChainPreVisitor
+;
+}
 class
 nsInProcessTabChildGlobal
 :
@@ -474,7 +481,10 @@ virtual
 nsresult
 PreHandleEvent
 (
-nsEventChainPreVisitor
+mozilla
+:
+:
+EventChainPreVisitor
 &
 aVisitor
 )
