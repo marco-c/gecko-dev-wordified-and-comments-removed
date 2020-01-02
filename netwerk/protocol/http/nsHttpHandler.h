@@ -535,12 +535,12 @@ mParallelSpeculativeConnectLimit
 ;
 }
 bool
-CritialRequestPrioritization
+CriticalRequestPrioritization
 (
 )
 {
 return
-mCritialRequestPrioritization
+mCriticalRequestPrioritization
 ;
 }
 double
@@ -1471,7 +1471,7 @@ uint32_t
 mRequestTokenBucketBurst
 ;
 bool
-mCritialRequestPrioritization
+mCriticalRequestPrioritization
 ;
 mozilla
 :
