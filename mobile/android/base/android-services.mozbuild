@@ -9706,6 +9706,13 @@ java
 '
 sync
 /
+Sync11Configuration
+.
+java
+'
+'
+sync
+/
 syncadapter
 /
 SyncAdapter
