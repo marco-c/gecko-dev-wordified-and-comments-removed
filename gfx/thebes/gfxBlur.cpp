@@ -1882,6 +1882,15 @@ dt
 topLeft
 )
 ;
+if
+(
+!
+surface
+)
+{
+return
+;
+}
 CacheBlur
 (
 dt
