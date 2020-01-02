@@ -4424,16 +4424,6 @@ showHideScrollbars
 pref
 (
 "
-ui
-.
-useOverlayScrollbars
-"
-1
-)
-;
-pref
-(
-"
 dom
 .
 ipc
@@ -5700,6 +5690,9 @@ socket
 "
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 pref
 (
 "
@@ -5730,6 +5723,8 @@ accelerated
 true
 )
 ;
+#
+endif
 pref
 (
 "
