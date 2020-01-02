@@ -285,7 +285,7 @@ n
 "
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 indent
 >

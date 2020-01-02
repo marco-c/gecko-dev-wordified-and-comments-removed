@@ -1905,7 +1905,7 @@ reflector
 return
 nullptr
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 WrapperFactory
 :

@@ -41,12 +41,12 @@ JSDScript
 jsdscript
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdscript
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdscript
 -
@@ -63,12 +63,12 @@ JSDExecHook
 jsdhook
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdhook
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdhook
 -
@@ -127,7 +127,7 @@ char
 *
 raw_filename
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_SCRIPTS_LOCKED
 (
@@ -296,7 +296,7 @@ JSDScript
 jsdscript
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_SCRIPTS_LOCKED
 (
@@ -554,7 +554,7 @@ Buf
 )
 -
 n
-MOZ_ASSERT_STRING_IS_FLAT
+JS_ASSERT_STRING_IS_FLAT
 (
 fun
 )
@@ -936,7 +936,7 @@ JSScript
 script
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_SCRIPTS_LOCKED
 (
@@ -994,7 +994,7 @@ JSDScript
 *
 jsdscript
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_SCRIPTS_LOCKED
 (
@@ -1509,7 +1509,7 @@ jsdscript
 *
 iterp
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_SCRIPTS_LOCKED
 (
@@ -1634,7 +1634,7 @@ JSDScript
 *
 current
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_SCRIPTS_LOCKED
 (
@@ -2978,7 +2978,7 @@ JSD_ASSERT_VALID_EXEC_HOOK
 jsdhook
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 !
 jsdhook
@@ -2999,7 +2999,7 @@ uintptr_t
 pc
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdhook
 -
@@ -3013,7 +3013,7 @@ script
 script
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdhook
 -

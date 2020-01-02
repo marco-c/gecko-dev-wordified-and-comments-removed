@@ -855,7 +855,7 @@ NBUCKETS
 ht
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 newshift
 <
@@ -1012,7 +1012,7 @@ he
 next
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 nentries
 !
@@ -1699,7 +1699,7 @@ hep
 nullptr
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 n
 <
@@ -1795,7 +1795,7 @@ nentries
 nlimit
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 ht
 -
@@ -1850,7 +1850,7 @@ newlog2
 =
 MINBUCKETSLOG2
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JS_HASH_BITS
 -

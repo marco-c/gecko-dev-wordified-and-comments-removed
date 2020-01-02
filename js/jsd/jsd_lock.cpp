@@ -117,7 +117,7 @@ nullptr
 )
 ;
 \
-MOZ_ASSERT
+JS_ASSERT
 (
 out
 )
@@ -146,7 +146,7 @@ PR_GetCurrentThread
 )
 ;
 \
-MOZ_ASSERT
+JS_ASSERT
 (
 out
 )
@@ -170,12 +170,12 @@ JSDStaticLock
 lock
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -
@@ -183,7 +183,7 @@ lock
 lock
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -
@@ -194,7 +194,7 @@ count
 0
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -
@@ -342,7 +342,7 @@ count
 +
 +
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -
@@ -363,7 +363,7 @@ lock
 lock
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -
@@ -374,7 +374,7 @@ owner
 0
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -
@@ -423,7 +423,7 @@ _CURRENT_THREAD
 me
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -
@@ -514,7 +514,7 @@ me
 return
 false
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 lock
 -

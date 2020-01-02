@@ -36,12 +36,12 @@ JSDThreadState
 jsdthreadstate
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdthreadstate
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdthreadstate
 -
@@ -60,12 +60,12 @@ JSDStackFrameInfo
 jsdframe
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdframe
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdframe
 -
@@ -603,12 +603,12 @@ JSCList
 *
 list
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 jsdthreadstate
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_CURRENT_THREAD
 (
@@ -1547,7 +1547,7 @@ exceptionState
 =
 nullptr
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_CURRENT_THREAD
 (
@@ -1596,7 +1596,7 @@ jsdthreadstate
 context
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 cx
 )
@@ -1705,7 +1705,7 @@ exceptionState
 =
 nullptr
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_CURRENT_THREAD
 (
@@ -1754,7 +1754,7 @@ jsdthreadstate
 context
 )
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 cx
 )
@@ -1884,7 +1884,7 @@ jsdthreadstate
 >
 context
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 cx
 )
@@ -1942,7 +1942,7 @@ JSDThreadState
 *
 cur
 ;
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_THREADSTATES_LOCKED
 (
@@ -2021,7 +2021,7 @@ JSDStackFrameInfo
 jsdframe
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 JSD_THREADSTATES_LOCKED
 (
