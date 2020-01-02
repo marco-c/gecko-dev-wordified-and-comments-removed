@@ -35,13 +35,6 @@ h
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-#
-include
-"
 gfxPoint
 .
 h

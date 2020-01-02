@@ -49,7 +49,10 @@ void
 Construct
 (
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 gfxASurface
@@ -61,7 +64,10 @@ void
 Construct
 (
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 const
@@ -77,7 +83,10 @@ GetSurface
 )
 ;
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 GetTransform
 (
@@ -90,7 +99,10 @@ IsConstructed
 (
 )
 ;
-gfxMatrix
+gfx
+:
+:
+Matrix
 mTransform
 ;
 nsRefPtr

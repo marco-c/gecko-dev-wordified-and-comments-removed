@@ -750,13 +750,10 @@ GetSurface
 ;
 maskTransform
 =
-ToMatrix
-(
 mask
 .
 GetTransform
 (
-)
 )
 ;
 }

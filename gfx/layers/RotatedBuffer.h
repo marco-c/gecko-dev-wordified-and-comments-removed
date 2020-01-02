@@ -113,9 +113,6 @@ LayersTypes
 h
 "
 struct
-gfxMatrix
-;
-struct
 nsIntSize
 ;
 namespace
