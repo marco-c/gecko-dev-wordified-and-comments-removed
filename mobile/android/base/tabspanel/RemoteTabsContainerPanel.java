@@ -164,6 +164,9 @@ String
 ]
 {
 "
+clients
+"
+"
 tabs
 "
 }
