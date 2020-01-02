@@ -113,7 +113,7 @@ mozilla
 :
 dom
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGForeignObjectFrame
 (

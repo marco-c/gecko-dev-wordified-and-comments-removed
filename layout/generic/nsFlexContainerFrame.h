@@ -23,7 +23,7 @@ class
 LinkedList
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (
@@ -54,7 +54,7 @@ nsFlexContainerFrame
 )
 NS_DECL_QUERYFRAME
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewFlexContainerFrame
 (

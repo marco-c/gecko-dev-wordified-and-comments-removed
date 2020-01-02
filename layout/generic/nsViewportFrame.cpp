@@ -44,7 +44,7 @@ using
 namespace
 mozilla
 ;
-nsIFrame
+ViewportFrame
 *
 NS_NewViewportFrame
 (

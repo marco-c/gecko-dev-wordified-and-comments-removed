@@ -442,7 +442,7 @@ class
 nsTableOuterFrame
 ;
 friend
-nsIFrame
+nsTableFrame
 *
 NS_NewTableFrame
 (

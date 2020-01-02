@@ -6888,7 +6888,7 @@ aDisplayItemKey
 )
 ;
 }
-nsIFrame
+nsTableRowFrame
 *
 NS_NewTableRowFrame
 (

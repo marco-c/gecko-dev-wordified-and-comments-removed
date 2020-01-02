@@ -65,7 +65,7 @@ mozilla
 :
 gfx
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGMarkerFrame
 (
@@ -1050,7 +1050,7 @@ mInUse
 false
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGMarkerAnonChildFrame
 (

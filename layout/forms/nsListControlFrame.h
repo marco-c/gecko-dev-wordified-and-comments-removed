@@ -117,7 +117,7 @@ nsISelectControlFrame
 public
 :
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewListControlFrame
 (

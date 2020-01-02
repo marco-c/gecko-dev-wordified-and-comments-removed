@@ -59,7 +59,7 @@ nsMathMLFrame
 public
 :
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtableOuterFrame
 (
@@ -179,7 +179,7 @@ public
 :
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtableFrame
 (
@@ -369,7 +369,7 @@ public
 :
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtrFrame
 (
@@ -605,7 +605,7 @@ public
 :
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtdFrame
 (
@@ -744,7 +744,7 @@ nsMathMLFrame
 public
 :
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewMathMLmtdInnerFrame
 (

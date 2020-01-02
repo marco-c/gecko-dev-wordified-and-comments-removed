@@ -84,7 +84,7 @@ using
 namespace
 mozilla
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewHTMLButtonControlFrame
 (

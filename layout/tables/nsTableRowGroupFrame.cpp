@@ -7988,7 +7988,7 @@ StyleDisplay
 mBreakAfter
 ;
 }
-nsIFrame
+nsTableRowGroupFrame
 *
 NS_NewTableRowGroupFrame
 (

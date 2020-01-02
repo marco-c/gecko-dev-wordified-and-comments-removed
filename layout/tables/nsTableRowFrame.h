@@ -139,7 +139,7 @@ aOldFrame
 MOZ_OVERRIDE
 ;
 friend
-nsIFrame
+nsTableRowFrame
 *
 NS_NewTableRowFrame
 (

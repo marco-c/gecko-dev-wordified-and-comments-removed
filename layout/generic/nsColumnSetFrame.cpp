@@ -30,7 +30,7 @@ mozilla
 :
 layout
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewColumnSetFrame
 (

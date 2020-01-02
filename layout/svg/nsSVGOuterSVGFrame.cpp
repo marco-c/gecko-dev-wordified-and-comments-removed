@@ -249,7 +249,7 @@ aFrame
 )
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGOuterSVGFrame
 (
@@ -3993,7 +3993,7 @@ GetBaseValInSpecifiedUnits
 100
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 NS_NewSVGOuterSVGAnonChildFrame
 (

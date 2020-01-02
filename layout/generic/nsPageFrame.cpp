@@ -127,7 +127,7 @@ using
 namespace
 mozilla
 ;
-nsIFrame
+nsPageFrame
 *
 NS_NewPageFrame
 (

@@ -156,7 +156,7 @@ nsTableRowGroupFrame
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 friend
-nsIFrame
+nsTableRowGroupFrame
 *
 NS_NewTableRowGroupFrame
 (

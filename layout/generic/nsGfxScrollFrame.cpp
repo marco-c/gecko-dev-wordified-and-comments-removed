@@ -378,7 +378,7 @@ mozilla
 :
 layout
 ;
-nsIFrame
+nsHTMLScrollFrame
 *
 NS_NewHTMLScrollFrame
 (
@@ -3988,7 +3988,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame
 )
-nsIFrame
+nsXULScrollFrame
 *
 NS_NewXULScrollFrame
 (

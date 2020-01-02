@@ -256,7 +256,7 @@ _p1
 )
 #
 endif
-nsIFrame
+nsSimplePageSequenceFrame
 *
 NS_NewSimplePageSequenceFrame
 (

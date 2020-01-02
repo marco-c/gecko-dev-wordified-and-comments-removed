@@ -16939,7 +16939,7 @@ return
 ascent
 ;
 }
-nsIFrame
+nsTableFrame
 *
 NS_NewTableFrame
 (

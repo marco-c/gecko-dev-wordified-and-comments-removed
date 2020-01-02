@@ -26,7 +26,7 @@ nsDisplayList
 .
 h
 "
-nsIFrame
+nsContainerFrame
 *
 NS_NewSelectsAreaFrame
 (

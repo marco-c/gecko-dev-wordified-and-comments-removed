@@ -11,7 +11,7 @@ nsContainerFrame
 .
 h
 "
-nsIFrame
+nsContainerFrame
 *
 NS_NewGridContainerFrame
 (
@@ -85,7 +85,7 @@ endif
 protected
 :
 friend
-nsIFrame
+nsContainerFrame
 *
 NS_NewGridContainerFrame
 (

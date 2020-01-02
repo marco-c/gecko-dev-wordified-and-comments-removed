@@ -40,7 +40,7 @@ nsSimplePageSequenceFrame
 .
 h
 "
-nsIFrame
+nsPageContentFrame
 *
 NS_NewPageContentFrame
 (

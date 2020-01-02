@@ -391,7 +391,7 @@ sFocused
 =
 nullptr
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewComboboxControlFrame
 (

@@ -4757,7 +4757,7 @@ return
 NS_OK
 ;
 }
-nsIFrame
+nsTableCellFrame
 *
 NS_NewTableCellFrame
 (

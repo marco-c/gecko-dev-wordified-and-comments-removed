@@ -2289,7 +2289,7 @@ mBottomContBorderWidth
 )
 ;
 }
-nsIFrame
+nsTableColGroupFrame
 *
 NS_NewTableColGroupFrame
 (

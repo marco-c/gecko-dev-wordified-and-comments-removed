@@ -116,7 +116,7 @@ mozilla
 :
 layout
 ;
-nsIFrame
+nsContainerFrame
 *
 NS_NewFieldSetFrame
 (

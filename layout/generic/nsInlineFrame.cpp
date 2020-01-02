@@ -110,7 +110,7 @@ mozilla
 :
 layout
 ;
-nsIFrame
+nsInlineFrame
 *
 NS_NewInlineFrame
 (

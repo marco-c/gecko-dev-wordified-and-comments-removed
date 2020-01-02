@@ -93,7 +93,7 @@ mozilla
 :
 layout
 ;
-nsIFrame
+nsFirstLetterFrame
 *
 NS_NewFirstLetterFrame
 (
@@ -1328,7 +1328,7 @@ GetPlaceholderFrameFor
 this
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 parent
 =
