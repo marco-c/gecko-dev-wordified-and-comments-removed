@@ -112,6 +112,11 @@ mochitest
 ini
 '
 '
+mochitest
+.
+ini
+'
+'
 webapps
 /
 mochitest
