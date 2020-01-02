@@ -202,6 +202,11 @@ compilation
 \
 _
 (
+FoldTests
+)
+\
+_
+(
 SplitCriticalEdges
 )
 \
