@@ -110,6 +110,15 @@ MPL
 *
 /
 [
+Pref
+=
+"
+dom
+.
+wakelock
+.
+enabled
+"
 Func
 =
 "
