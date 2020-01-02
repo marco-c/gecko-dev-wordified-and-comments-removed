@@ -89,6 +89,16 @@ ResetComplete
 =
 0
 ;
+virtual
+void
+Error
+(
+GMPErr
+aError
+)
+=
+0
+;
 }
 ;
 class
@@ -104,7 +114,7 @@ GMPAudioDecoder
 {
 }
 virtual
-GMPErr
+void
 InitDecode
 (
 const
@@ -119,7 +129,7 @@ aCallback
 0
 ;
 virtual
-GMPErr
+void
 Decode
 (
 GMPAudioSamples
@@ -130,7 +140,7 @@ aEncodedSamples
 0
 ;
 virtual
-GMPErr
+void
 Reset
 (
 )
@@ -138,7 +148,7 @@ Reset
 0
 ;
 virtual
-GMPErr
+void
 Drain
 (
 )

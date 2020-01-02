@@ -113,6 +113,15 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+Error
+(
+GMPErr
+aError
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 CheckThread
 (
 )

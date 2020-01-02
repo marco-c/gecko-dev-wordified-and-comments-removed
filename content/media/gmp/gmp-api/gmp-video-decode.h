@@ -126,6 +126,16 @@ ResetComplete
 =
 0
 ;
+virtual
+void
+Error
+(
+GMPErr
+aError
+)
+=
+0
+;
 }
 ;
 class
@@ -141,7 +151,7 @@ GMPVideoDecoder
 {
 }
 virtual
-GMPErr
+void
 InitDecode
 (
 const
@@ -164,7 +174,7 @@ aCoreCount
 0
 ;
 virtual
-GMPErr
+void
 Decode
 (
 GMPVideoEncodedFrame
@@ -188,7 +198,7 @@ aRenderTimeMs
 0
 ;
 virtual
-GMPErr
+void
 Reset
 (
 )
@@ -196,7 +206,7 @@ Reset
 0
 ;
 virtual
-GMPErr
+void
 Drain
 (
 )

@@ -328,6 +328,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvError
+(
+const
+GMPErr
+&
+aError
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvParentShmemForPool
 (
 Shmem

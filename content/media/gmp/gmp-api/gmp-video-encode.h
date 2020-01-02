@@ -91,6 +91,16 @@ aCodecSpecificInfoLength
 =
 0
 ;
+virtual
+void
+Error
+(
+GMPErr
+aError
+)
+=
+0
+;
 }
 ;
 class
@@ -106,7 +116,7 @@ GMPVideoEncoder
 {
 }
 virtual
-GMPErr
+void
 InitEncode
 (
 const
@@ -131,7 +141,7 @@ aMaxPayloadSize
 0
 ;
 virtual
-GMPErr
+void
 Encode
 (
 GMPVideoi420Frame
@@ -154,7 +164,7 @@ aFrameTypesLength
 0
 ;
 virtual
-GMPErr
+void
 SetChannelParameters
 (
 uint32_t
@@ -166,7 +176,7 @@ aRTT
 0
 ;
 virtual
-GMPErr
+void
 SetRates
 (
 uint32_t
@@ -178,7 +188,7 @@ aFrameRate
 0
 ;
 virtual
-GMPErr
+void
 SetPeriodicKeyFrames
 (
 bool
