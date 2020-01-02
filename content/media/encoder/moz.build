@@ -195,14 +195,6 @@ MOZ_OMX_ENCODER
 '
 ]
 :
-DEFINES
-[
-'
-MOZ_OMX_ENCODER
-'
-]
-=
-True
 EXPORTS
 +
 =
