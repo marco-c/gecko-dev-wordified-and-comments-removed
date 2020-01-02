@@ -11999,6 +11999,16 @@ true
 pref
 (
 "
+security
+.
+use_mozillapkix_verification
+"
+true
+)
+;
+pref
+(
+"
 plain_text
 .
 wrap_long_lines

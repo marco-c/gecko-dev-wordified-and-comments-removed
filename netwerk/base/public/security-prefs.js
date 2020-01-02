@@ -575,3 +575,13 @@ enabled
 false
 )
 ;
+pref
+(
+"
+security
+.
+use_mozillapkix_verification
+"
+false
+)
+;
