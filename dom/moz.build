@@ -361,6 +361,9 @@ PARALLEL_DIRS
 =
 [
 '
+speakermanager
+'
+'
 wifi
 '
 ]
