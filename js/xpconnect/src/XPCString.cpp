@@ -204,11 +204,8 @@ StringBufferToJSVal
 cx
 buf
 length
+&
 val
-.
-address
-(
-)
 &
 shared
 )

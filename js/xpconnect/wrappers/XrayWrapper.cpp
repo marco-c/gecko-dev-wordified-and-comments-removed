@@ -6908,6 +6908,8 @@ false
 nsGlobalWindow
 *
 win
+=
+nullptr
 ;
 if
 (
@@ -6919,6 +6921,7 @@ object
 )
 &
 &
+(
 Traits
 :
 :
@@ -6926,6 +6929,7 @@ Type
 =
 =
 XrayForWrappedNative
+)
 &
 &
 JSID_IS_STRING
