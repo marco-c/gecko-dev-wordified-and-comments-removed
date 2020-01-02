@@ -204,6 +204,12 @@ host
 {
 this
 .
+host
+=
+host
+;
+this
+.
 doc
 =
 host
@@ -656,6 +662,13 @@ false
 autocomplete
 :
 true
+contextMenu
+:
+this
+.
+host
+.
+textEditorContextMenuPopup
 }
 )
 ;
