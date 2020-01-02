@@ -161,13 +161,3 @@ stateArg
 ;
 }
 ;
-dictionary
-PopStateEventInit
-:
-EventInit
-{
-nsIVariant
-state
-;
-}
-;

@@ -221,13 +221,3 @@ aName
 ;
 }
 ;
-dictionary
-RecordErrorEventInit
-:
-EventInit
-{
-DOMString
-name
-;
-}
-;

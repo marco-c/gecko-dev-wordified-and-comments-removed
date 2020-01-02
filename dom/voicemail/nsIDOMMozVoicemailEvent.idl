@@ -184,13 +184,3 @@ aStatus
 ;
 }
 ;
-dictionary
-MozVoicemailEventInit
-:
-EventInit
-{
-nsIDOMMozVoicemailStatus
-status
-;
-}
-;

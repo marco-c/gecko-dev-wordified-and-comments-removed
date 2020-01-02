@@ -157,16 +157,3 @@ aDocumentSheet
 ;
 }
 ;
-dictionary
-StyleSheetChangeEventInit
-:
-EventInit
-{
-nsIDOMCSSStyleSheet
-stylesheet
-;
-boolean
-documentSheet
-;
-}
-;

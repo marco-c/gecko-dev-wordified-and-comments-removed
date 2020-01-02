@@ -17,13 +17,6 @@ h
 #
 include
 "
-DictionaryHelpers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex

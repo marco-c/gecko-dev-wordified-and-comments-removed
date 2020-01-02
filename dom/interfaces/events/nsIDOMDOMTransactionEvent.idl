@@ -146,13 +146,3 @@ transactions
 ;
 }
 ;
-dictionary
-DOMTransactionEventInit
-:
-EventInit
-{
-nsIVariant
-transactions
-;
-}
-;

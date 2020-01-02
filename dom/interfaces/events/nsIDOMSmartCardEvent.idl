@@ -169,13 +169,3 @@ aTokenNAme
 ;
 }
 ;
-dictionary
-SmartCardEventInit
-:
-EventInit
-{
-DOMString
-tokenName
-;
-}
-;

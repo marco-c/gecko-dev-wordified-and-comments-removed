@@ -1512,17 +1512,6 @@ InternalDOMEvent
 ;
 }
 ;
-dictionary
-EventInit
-{
-boolean
-bubbles
-;
-boolean
-cancelable
-;
-}
-;
 %
 {
 C

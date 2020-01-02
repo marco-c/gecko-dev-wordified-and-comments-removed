@@ -126,16 +126,3 @@ reason
 ;
 }
 ;
-dictionary
-DeviceStorageChangeEventInit
-:
-EventInit
-{
-DOMString
-path
-;
-DOMString
-reason
-;
-}
-;

@@ -146,13 +146,3 @@ upgrade
 ;
 }
 ;
-dictionary
-ElementReplaceEventInit
-:
-EventInit
-{
-nsIDOMElement
-upgrade
-;
-}
-;

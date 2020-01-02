@@ -160,16 +160,3 @@ aRule
 ;
 }
 ;
-dictionary
-StyleRuleChangeEventInit
-:
-EventInit
-{
-nsIDOMCSSStyleSheet
-stylesheet
-;
-nsIDOMCSSRule
-rule
-;
-}
-;

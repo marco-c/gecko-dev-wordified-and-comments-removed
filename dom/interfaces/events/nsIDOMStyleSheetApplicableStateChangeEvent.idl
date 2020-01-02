@@ -157,16 +157,3 @@ aApplicable
 ;
 }
 ;
-dictionary
-StyleSheetApplicableStateChangeEventInit
-:
-EventInit
-{
-nsIDOMCSSStyleSheet
-stylesheet
-;
-boolean
-applicable
-;
-}
-;

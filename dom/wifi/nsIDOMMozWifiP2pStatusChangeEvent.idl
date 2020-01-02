@@ -129,13 +129,3 @@ aPeerAddress
 ;
 }
 ;
-dictionary
-MozWifiP2pStatusChangeEventInit
-:
-EventInit
-{
-DOMString
-peerAddress
-;
-}
-;

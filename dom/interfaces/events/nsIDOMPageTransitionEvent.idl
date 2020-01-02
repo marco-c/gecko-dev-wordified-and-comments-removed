@@ -243,13 +243,3 @@ persisted
 ;
 }
 ;
-dictionary
-PageTransitionEventInit
-:
-EventInit
-{
-boolean
-persisted
-;
-}
-;

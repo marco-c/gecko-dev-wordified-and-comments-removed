@@ -172,16 +172,3 @@ aStatus
 ;
 }
 ;
-dictionary
-MozWifiStatusChangeEventInit
-:
-EventInit
-{
-nsIVariant
-network
-;
-DOMString
-status
-;
-}
-;

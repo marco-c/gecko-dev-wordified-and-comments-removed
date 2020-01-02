@@ -122,16 +122,3 @@ aSettingValue
 ;
 }
 ;
-dictionary
-MozSettingsEventInit
-:
-EventInit
-{
-DOMString
-settingName
-;
-nsIVariant
-settingValue
-;
-}
-;
