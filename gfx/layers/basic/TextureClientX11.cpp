@@ -183,7 +183,7 @@ OpenMode
 aMode
 )
 {
-NS_WARN_IF_FALSE
+MOZ_ASSERT
 (
 !
 mLocked
@@ -220,7 +220,7 @@ Unlock
 (
 )
 {
-NS_WARN_IF_FALSE
+MOZ_ASSERT
 (
 mLocked
 "

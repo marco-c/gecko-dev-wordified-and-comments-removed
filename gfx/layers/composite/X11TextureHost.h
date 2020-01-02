@@ -33,7 +33,7 @@ mozilla
 /
 gfx
 /
-2D
+Types
 .
 h
 "
