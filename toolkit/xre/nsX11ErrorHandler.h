@@ -14,9 +14,9 @@ h
 if
 (
 MOZ_WIDGET_GTK
+!
 =
-=
-2
+3
 )
 void
 InstallX11ErrorHandler
