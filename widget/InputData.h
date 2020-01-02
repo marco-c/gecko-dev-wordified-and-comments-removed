@@ -58,6 +58,9 @@ E
 struct
 already_AddRefed
 ;
+class
+nsIWidget
+;
 namespace
 mozilla
 {
@@ -307,6 +310,7 @@ Touch
 ToNewDOMTouch
 (
 )
+const
 ;
 int32_t
 mIdentifier
@@ -417,6 +421,15 @@ WidgetTouchEvent
 &
 aTouchEvent
 )
+;
+WidgetTouchEvent
+ToWidgetTouchEvent
+(
+nsIWidget
+*
+aWidget
+)
+const
 ;
 MultiTouchInput
 (
