@@ -59,7 +59,7 @@ length
 =
 aLength
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 WORD
 500
@@ -153,7 +153,7 @@ false
 SIZE
 size
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 int
 500

@@ -1676,7 +1676,7 @@ mAlternativeString
 define
 AVERAGE_ITEM_LENGTH
 40
-nsAutoTArray
+AutoFallibleTArray
 <
 WORD
 uint32_t
@@ -1689,7 +1689,7 @@ AVERAGE_ITEM_LENGTH
 >
 mGlyphs
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 WORD
 AVERAGE_ITEM_LENGTH
@@ -1698,7 +1698,7 @@ AVERAGE_ITEM_LENGTH
 >
 mClusters
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 SCRIPT_VISATTR
 uint32_t
@@ -1711,7 +1711,7 @@ AVERAGE_ITEM_LENGTH
 >
 mAttr
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 GOFFSET
 2
@@ -1720,7 +1720,7 @@ AVERAGE_ITEM_LENGTH
 >
 mOffsets
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 int
 2
@@ -1985,7 +1985,7 @@ mControl
 SCRIPT_STATE
 mState
 ;
-nsTArray
+FallibleTArray
 <
 SCRIPT_ITEM
 >
