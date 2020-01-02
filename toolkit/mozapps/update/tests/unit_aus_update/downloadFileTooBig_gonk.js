@@ -96,7 +96,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 setUpdateURLOverride
@@ -461,9 +460,5 @@ null
 gDirProvider
 =
 null
-;
-cleanupTestCommon
-(
-)
 ;
 }

@@ -5,7 +5,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -294,16 +293,6 @@ exists
 )
 ;
 do_test_finished
-(
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
 (
 )
 ;

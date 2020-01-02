@@ -14,7 +14,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -52,16 +51,6 @@ callHandleEvent
 do_execute_soon
 (
 run_test_pt1
-)
-;
-}
-function
-end_test
-(
-)
-{
-cleanupTestCommon
-(
 )
 ;
 }

@@ -37,7 +37,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -117,10 +116,6 @@ end_test
 )
 {
 cleanupMockIncrementalDownload
-(
-)
-;
-cleanupTestCommon
 (
 )
 ;

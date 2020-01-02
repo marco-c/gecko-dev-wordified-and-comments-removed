@@ -5,7 +5,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -372,10 +371,6 @@ ID
 "
 )
 WindowMediatorFactory
-)
-;
-cleanupTestCommon
-(
 )
 ;
 }

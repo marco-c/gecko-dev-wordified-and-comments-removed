@@ -5,7 +5,6 @@ run_test
 {
 setupTestCommon
 (
-true
 )
 ;
 logTestInfo
@@ -77,6 +76,16 @@ Bug
 )
 .
 "
+)
+;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_APP_UPDATE_SILENT
+false
 )
 ;
 let
@@ -311,10 +320,6 @@ ID
 "
 )
 WindowWatcherFactory
-)
-;
-cleanupTestCommon
-(
 )
 ;
 }
