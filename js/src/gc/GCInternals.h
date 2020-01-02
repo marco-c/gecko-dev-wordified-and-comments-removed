@@ -498,6 +498,15 @@ bool
 ;
 #
 endif
+void
+CrashAtUnhandlableOOM
+(
+const
+char
+*
+reason
+)
+;
 }
 }
 #

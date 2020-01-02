@@ -16499,7 +16499,7 @@ AddTypeProperty
 (
 cx
 type
-JSID_VOID
+nullptr
 UndefinedValue
 (
 )
@@ -17166,7 +17166,7 @@ AddTypeProperty
 (
 cx
 type
-JSID_VOID
+nullptr
 Type
 :
 :

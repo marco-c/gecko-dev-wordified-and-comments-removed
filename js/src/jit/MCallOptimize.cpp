@@ -5786,6 +5786,9 @@ empty
 )
 )
 {
+if
+(
+!
 returned
 -
 >
@@ -5807,6 +5810,9 @@ lifoAlloc
 (
 )
 )
+)
+return
+InliningStatus_Error
 ;
 }
 else
