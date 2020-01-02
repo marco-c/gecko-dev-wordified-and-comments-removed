@@ -276,6 +276,12 @@ nsString
 >
 mIsoModes
 ;
+nsTArray
+<
+nsString
+>
+mSceneModes
+;
 nsClassHashtable
 <
 nsStringHashKey
@@ -947,6 +953,12 @@ aIsoOut
 ;
 nsresult
 Initialize
+(
+)
+;
+static
+bool
+IsLowMemoryPlatform
 (
 )
 ;
