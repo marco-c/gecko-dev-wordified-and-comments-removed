@@ -918,6 +918,14 @@ nsPIDOMWindow
 aWindow
 )
 ;
+void
+AdjustPopupsOnWindowChange
+(
+nsIPresShell
+*
+aPresShell
+)
+;
 static
 nsMenuFrame
 *
