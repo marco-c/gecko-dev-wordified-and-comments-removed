@@ -330,6 +330,15 @@ if
 dumpID
 )
 return
+let
+contentProcessType
+=
+Services
+.
+crashmanager
+.
+PROCESS_TYPE_CONTENT
+;
 if
 (
 CrashSubmit
@@ -337,6 +346,11 @@ CrashSubmit
 submit
 (
 dumpID
+{
+processType
+:
+contentProcessType
+}
 )
 )
 {
