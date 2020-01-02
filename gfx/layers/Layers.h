@@ -657,6 +657,16 @@ true
 ;
 }
 virtual
+bool
+IsInactiveLayerManager
+(
+)
+{
+return
+false
+;
+}
+virtual
 void
 BeginTransaction
 (

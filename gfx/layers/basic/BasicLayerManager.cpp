@@ -1077,6 +1077,10 @@ BufferMode
 :
 BUFFER_NONE
 )
+mType
+(
+BLM_WIDGET
+)
 mUsingDefaultTarget
 (
 false
@@ -1112,6 +1116,8 @@ BasicLayerManager
 :
 BasicLayerManager
 (
+BasicLayerManagerType
+aType
 )
 :
 mPhase
@@ -1129,6 +1135,10 @@ BufferMode
 :
 BUFFER_NONE
 )
+mType
+(
+aType
+)
 mUsingDefaultTarget
 (
 false
@@ -1141,6 +1151,14 @@ false
 MOZ_COUNT_CTOR
 (
 BasicLayerManager
+)
+;
+MOZ_ASSERT
+(
+mType
+!
+=
+BLM_WIDGET
 )
 ;
 }
