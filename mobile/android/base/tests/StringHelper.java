@@ -865,7 +865,7 @@ String
 REMEMBER_PASSWORDS_LABEL
 =
 "
-Remeber
+Remember
 passwords
 "
 ;
