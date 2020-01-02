@@ -2774,8 +2774,8 @@ RuntimeLock
 {
 ExclusiveAccessLock
 WorkerThreadStateLock
-OperationCallbackLock
 CompilationLock
+OperationCallbackLock
 GCLock
 }
 ;
