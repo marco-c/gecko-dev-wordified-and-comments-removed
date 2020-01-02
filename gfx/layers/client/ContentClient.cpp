@@ -4289,6 +4289,10 @@ failed
 "
 )
 ;
+Clear
+(
+)
+;
 return
 nullptr
 ;
