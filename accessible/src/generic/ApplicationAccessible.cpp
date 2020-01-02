@@ -549,7 +549,7 @@ ApplicationAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aRelationType
 )
 {

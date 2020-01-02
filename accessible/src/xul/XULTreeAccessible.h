@@ -149,9 +149,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -484,9 +485,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 Accessible

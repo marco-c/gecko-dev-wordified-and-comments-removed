@@ -1075,10 +1075,10 @@ mGeckoAccessible
 >
 RelationByType
 (
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABELLED_BY
+LABELLED_BY
 )
 ;
 Accessible

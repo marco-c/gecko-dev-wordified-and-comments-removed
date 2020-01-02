@@ -523,9 +523,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -581,9 +582,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -631,9 +633,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -690,9 +693,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 }
 ;

@@ -312,7 +312,7 @@ XULLabelAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -332,10 +332,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABEL_FOR
+LABEL_FOR
 )
 {
 nsIContent

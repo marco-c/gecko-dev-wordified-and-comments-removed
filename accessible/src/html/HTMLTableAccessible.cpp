@@ -1951,7 +1951,7 @@ HTMLTableAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -1971,10 +1971,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABELLED_BY
+LABELLED_BY
 )
 rel
 .
@@ -5526,7 +5526,7 @@ HTMLCaptionAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -5546,10 +5546,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABEL_FOR
+LABEL_FOR
 )
 rel
 .

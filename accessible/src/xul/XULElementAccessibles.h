@@ -70,9 +70,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
-aRelationType
+RelationType
+aType
 )
+MOZ_OVERRIDE
 ;
 void
 UpdateLabelValue

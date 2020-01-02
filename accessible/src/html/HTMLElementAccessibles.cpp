@@ -195,7 +195,7 @@ HTMLLabelAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -215,10 +215,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABEL_FOR
+LABEL_FOR
 )
 {
 nsRefPtr
@@ -285,7 +285,7 @@ HTMLOutputAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -305,10 +305,10 @@ if
 aType
 =
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_CONTROLLED_BY
+CONTROLLED_BY
 )
 rel
 .

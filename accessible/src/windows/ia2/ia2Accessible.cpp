@@ -357,8 +357,8 @@ idx
 +
 )
 {
-uint32_t
-relType
+RelationType
+relationType
 =
 sRelationTypesForIA2
 [
@@ -373,7 +373,7 @@ acc
 >
 RelationByType
 (
-relType
+relationType
 )
 ;
 nsRefPtr
@@ -385,7 +385,7 @@ ia2Relation
 new
 ia2AccessibleRelation
 (
-relType
+relationType
 &
 rel
 )
@@ -516,8 +516,8 @@ idx
 +
 )
 {
-uint32_t
-relType
+RelationType
+relationType
 =
 sRelationTypesForIA2
 [
@@ -532,7 +532,7 @@ acc
 >
 RelationByType
 (
-relType
+relationType
 )
 ;
 nsRefPtr
@@ -544,7 +544,7 @@ ia2Rel
 new
 ia2AccessibleRelation
 (
-relType
+relationType
 &
 rel
 )

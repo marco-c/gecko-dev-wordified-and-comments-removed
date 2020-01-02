@@ -1309,10 +1309,10 @@ label
 =
 RelationByType
 (
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABELLED_BY
+LABELLED_BY
 )
 .
 Next
@@ -1342,7 +1342,7 @@ XULGroupboxAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -1362,10 +1362,10 @@ if
 aType
 !
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABELLED_BY
+LABELLED_BY
 )
 return
 rel
@@ -1426,10 +1426,10 @@ childAcc
 >
 RelationByType
 (
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABEL_FOR
+LABEL_FOR
 )
 ;
 Accessible

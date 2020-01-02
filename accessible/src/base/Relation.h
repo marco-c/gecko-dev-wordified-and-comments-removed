@@ -1,9 +1,9 @@
 #
 ifndef
-RELATION_H_
+mozilla_a11y_relation_h_
 #
 define
-RELATION_H_
+mozilla_a11y_relation_h_
 #
 include
 "

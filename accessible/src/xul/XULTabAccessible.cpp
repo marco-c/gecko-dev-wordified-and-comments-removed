@@ -363,7 +363,7 @@ XULTabAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -383,10 +383,10 @@ if
 aType
 !
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABEL_FOR
+LABEL_FOR
 )
 return
 rel
@@ -612,7 +612,7 @@ XULTabpanelAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
@@ -632,10 +632,10 @@ if
 aType
 !
 =
-nsIAccessibleRelation
+RelationType
 :
 :
-RELATION_LABELLED_BY
+LABELLED_BY
 )
 return
 rel

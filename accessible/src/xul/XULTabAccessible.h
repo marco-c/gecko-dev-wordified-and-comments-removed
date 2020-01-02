@@ -92,9 +92,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint8_t
@@ -231,9 +232,10 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
+MOZ_OVERRIDE
 ;
 }
 ;

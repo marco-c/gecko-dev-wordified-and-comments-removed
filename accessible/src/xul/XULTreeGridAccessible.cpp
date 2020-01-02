@@ -3048,7 +3048,7 @@ XULTreeGridCellAccessible
 :
 RelationByType
 (
-uint32_t
+RelationType
 aType
 )
 {
