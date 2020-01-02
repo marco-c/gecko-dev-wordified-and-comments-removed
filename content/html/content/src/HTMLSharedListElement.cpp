@@ -409,8 +409,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLSharedListElement
+:
+:
 MapAttributesIntoRule
 (
 const

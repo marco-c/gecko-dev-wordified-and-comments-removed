@@ -18657,8 +18657,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLInputElement
+:
+:
 MapAttributesIntoRule
 (
 const
@@ -28476,3 +28478,6 @@ this
 }
 }
 }
+#
+undef
+NS_ORIGINAL_CHECKED_VALUE

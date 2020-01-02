@@ -1447,8 +1447,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLTextAreaElement
+:
+:
 MapAttributesIntoRule
 (
 const

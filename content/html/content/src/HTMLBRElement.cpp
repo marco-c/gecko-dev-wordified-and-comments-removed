@@ -211,8 +211,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLBRElement
+:
+:
 MapAttributesIntoRule
 (
 const

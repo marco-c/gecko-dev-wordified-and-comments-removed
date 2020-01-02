@@ -5273,8 +5273,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLSelectElement
+:
+:
 MapAttributesIntoRule
 (
 const

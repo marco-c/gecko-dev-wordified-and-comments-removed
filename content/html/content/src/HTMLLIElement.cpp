@@ -276,8 +276,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLLIElement
+:
+:
 MapAttributesIntoRule
 (
 const

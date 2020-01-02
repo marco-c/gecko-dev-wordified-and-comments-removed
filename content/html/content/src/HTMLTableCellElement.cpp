@@ -1677,8 +1677,10 @@ aResult
 )
 ;
 }
-static
 void
+HTMLTableCellElement
+:
+:
 MapAttributesIntoRule
 (
 const

@@ -1920,8 +1920,10 @@ aNullParent
 )
 ;
 }
-static
 void
+HTMLBodyElement
+:
+:
 MapAttributesIntoRule
 (
 const
