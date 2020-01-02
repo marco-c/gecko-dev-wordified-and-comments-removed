@@ -2384,10 +2384,17 @@ length
 aSrc
 getCharacters
 :
+reinterpret_cast
+<
+unichar
+*
+>
+(
 aDest
 .
 BeginWriting
 (
+)
 )
 ]
 ;
