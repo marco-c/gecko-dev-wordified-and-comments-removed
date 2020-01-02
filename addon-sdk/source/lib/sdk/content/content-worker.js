@@ -1,6 +1,3 @@
-const
-ContentWorker
-=
 Object
 .
 freeze
@@ -303,6 +300,11 @@ createPipe
 emitToChrome
 )
 {
+let
+ContentWorker
+=
+this
+;
 function
 onEvent
 (
@@ -1355,6 +1357,11 @@ console
 )
 {
 let
+ContentWorker
+=
+this
+;
+let
 {
 eventEmitter
 :
@@ -1804,6 +1811,11 @@ emitToChrome
 options
 )
 {
+let
+ContentWorker
+=
+this
+;
 let
 {
 pipe
