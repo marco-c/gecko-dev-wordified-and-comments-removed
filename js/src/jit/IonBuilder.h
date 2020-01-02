@@ -3824,8 +3824,7 @@ JSObject
 foundProto
 )
 ;
-MDefinition
-*
+bool
 testCommonGetterSetter
 (
 types
@@ -3842,9 +3841,9 @@ isGetter
 JSObject
 *
 foundProto
-Shape
+JSFunction
 *
-lastProperty
+function
 )
 ;
 bool

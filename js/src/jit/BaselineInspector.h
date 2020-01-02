@@ -543,10 +543,6 @@ commonGetPropFunction
 jsbytecode
 *
 pc
-Shape
-*
-*
-lastProperty
 JSFunction
 *
 *
@@ -560,10 +556,6 @@ commonSetPropFunction
 jsbytecode
 *
 pc
-Shape
-*
-*
-lastProperty
 JSFunction
 *
 *
