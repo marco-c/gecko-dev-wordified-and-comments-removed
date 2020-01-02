@@ -38867,16 +38867,6 @@ false
 pref
 (
 "
-ril
-.
-numRadioInterfaces
-"
-1
-)
-;
-pref
-(
-"
 ui
 .
 touch_activation
