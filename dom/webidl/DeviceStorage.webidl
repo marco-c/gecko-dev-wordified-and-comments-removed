@@ -236,6 +236,14 @@ available
 (
 )
 ;
+[
+Throws
+]
+DOMRequest
+format
+(
+)
+;
 /
 /
 Note

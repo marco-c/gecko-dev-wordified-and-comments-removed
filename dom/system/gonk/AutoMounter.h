@@ -73,6 +73,15 @@ aAllowSharing
 )
 ;
 void
+AutoMounterFormatVolume
+(
+const
+nsCString
+&
+aVolumeName
+)
+;
+void
 ShutdownAutoMounter
 (
 )

@@ -506,6 +506,17 @@ storageName
 }
 ;
 struct
+DeviceStorageFormatParams
+{
+nsString
+type
+;
+nsString
+storageName
+;
+}
+;
+struct
 DeviceStorageAddParams
 {
 nsString
@@ -586,6 +597,8 @@ DeviceStorageFreeSpaceParams
 DeviceStorageUsedSpaceParams
 ;
 DeviceStorageAvailableParams
+;
+DeviceStorageFormatParams
 ;
 }
 ;

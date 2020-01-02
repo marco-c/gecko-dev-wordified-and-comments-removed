@@ -182,6 +182,14 @@ mountState
 ;
 }
 ;
+struct
+FormatStorageResponse
+{
+nsString
+mountState
+;
+}
+;
 union
 DeviceStorageResponseValue
 {
@@ -198,6 +206,8 @@ FreeSpaceStorageResponse
 UsedSpaceStorageResponse
 ;
 AvailableStorageResponse
+;
+FormatStorageResponse
 ;
 }
 ;
