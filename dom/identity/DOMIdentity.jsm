@@ -613,6 +613,7 @@ RPWatchContext
 (
 aOptions
 aTargetMM
+aPrincipal
 )
 {
 objectCopy
@@ -654,6 +655,12 @@ context
 )
 ;
 }
+this
+.
+principal
+=
+aPrincipal
+;
 this
 .
 loggedInUser
@@ -1040,6 +1047,7 @@ function
 (
 message
 targetMM
+principal
 )
 {
 let
@@ -1050,6 +1058,7 @@ RPWatchContext
 (
 message
 targetMM
+principal
 )
 ;
 this
@@ -1484,6 +1493,9 @@ _watch
 (
 msg
 targetMM
+aMessage
+.
+principal
 )
 ;
 break
@@ -1521,7 +1533,6 @@ this
 _request
 (
 msg
-targetMM
 )
 ;
 break
@@ -1540,7 +1551,6 @@ this
 _logout
 (
 msg
-targetMM
 )
 ;
 break
@@ -1946,6 +1956,7 @@ DOMIdentity__watch
 (
 message
 targetMM
+principal
 )
 {
 log
@@ -1958,6 +1969,12 @@ DOMIdentity__watch
 message
 .
 id
++
+"
+-
+"
++
+principal
 )
 ;
 let
@@ -1969,6 +1986,7 @@ newContext
 (
 message
 targetMM
+principal
 )
 ;
 this
