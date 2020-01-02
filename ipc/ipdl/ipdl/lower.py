@@ -19765,7 +19765,7 @@ Decl
 (
 actortype
 '
-actor
+aActor
 '
 )
 ]
@@ -19844,7 +19844,7 @@ ptr
 1
 )
 '
-transport
+aTransport
 '
 )
                          
@@ -19857,7 +19857,7 @@ ProcessId
 '
 )
 '
-otherProcess
+aOtherProcess
 '
 )
 ]
@@ -19910,7 +19910,7 @@ Type
 (
 )
 '
-why
+aWhy
 '
 )
 ]
@@ -19980,7 +19980,7 @@ Type
 (
 )
 '
-code
+aCode
 '
 )
 ]
@@ -22310,7 +22310,7 @@ codevar
 ExprVar
 (
 '
-code
+aCode
 '
 )
         
@@ -23019,7 +23019,7 @@ Type
 .
 INT32
 '
-pid
+aPid
 '
 )
 ]
