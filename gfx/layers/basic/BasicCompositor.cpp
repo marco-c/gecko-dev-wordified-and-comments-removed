@@ -690,6 +690,12 @@ GetSize
 height
 )
 ;
+sourceRect
+.
+Round
+(
+)
+;
 gfxMatrix
 transform
 =
