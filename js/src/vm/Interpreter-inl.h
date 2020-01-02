@@ -1408,15 +1408,6 @@ GlobalObject
 )
 )
 {
-RootedValue
-value
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 if
 (
 !
@@ -1428,7 +1419,7 @@ defineProperty
 cx
 varobj
 dn
-value
+UndefinedHandleValue
 JS_PropertyStub
 JS_StrictPropertyStub
 attrs

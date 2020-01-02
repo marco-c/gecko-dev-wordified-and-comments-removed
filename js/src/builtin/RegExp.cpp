@@ -87,15 +87,6 @@ cx
 input_
 )
 ;
-RootedValue
-undefinedValue
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 if
 (
 !
@@ -205,7 +196,7 @@ elements
 .
 infallibleAppend
 (
-undefinedValue
+UndefinedHandleValue
 )
 ;
 }

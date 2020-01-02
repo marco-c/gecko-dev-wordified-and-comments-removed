@@ -10751,15 +10751,6 @@ slotSpan
 (
 )
 ;
-RootedValue
-value
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 if
 (
 !
@@ -10768,7 +10759,7 @@ DefineNativeProperty
 cx
 baseobj
 id
-value
+UndefinedHandleValue
 nullptr
 nullptr
 JSPROP_ENUMERATE

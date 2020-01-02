@@ -1307,9 +1307,6 @@ RootedValue
 globalVal
 (
 cx
-UndefinedValue
-(
-)
 )
 ;
 if
@@ -1333,9 +1330,6 @@ RootedValue
 importVal
 (
 cx
-UndefinedValue
-(
-)
 )
 ;
 if
@@ -1359,9 +1353,6 @@ RootedValue
 bufferVal
 (
 cx
-UndefinedValue
-(
-)
 )
 ;
 if

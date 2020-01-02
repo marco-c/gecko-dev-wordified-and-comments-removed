@@ -9220,12 +9220,6 @@ undefs
 -
 undefs
 ;
-RootedValue
-undefinedValue
-(
-cx
-)
-;
 if
 (
 !
@@ -9243,7 +9237,7 @@ obj
 n
 +
 +
-undefinedValue
+UndefinedHandleValue
 )
 )
 return

@@ -1849,15 +1849,6 @@ setter
 JS_StrictPropertyStub
 ;
 }
-RootedValue
-value
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 if
 (
 !
@@ -1866,7 +1857,7 @@ DefineNativeProperty
 cx
 fun
 id
-value
+UndefinedHandleValue
 getter
 setter
 attrs

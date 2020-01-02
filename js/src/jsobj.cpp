@@ -3079,15 +3079,6 @@ isAccessorDescriptor
 )
 )
 ;
-RootedValue
-tmp
-(
-cx
-UndefinedValue
-(
-)
-)
-;
 return
 baseops
 :
@@ -3097,7 +3088,7 @@ DefineGeneric
 cx
 obj
 id
-tmp
+UndefinedHandleValue
 desc
 .
 getter
@@ -3120,9 +3111,6 @@ RootedValue
 v
 (
 cx
-UndefinedValue
-(
-)
 )
 ;
 JS_ASSERT
@@ -17655,9 +17643,6 @@ RootedValue
 v
 (
 cx
-UndefinedValue
-(
-)
 )
 ;
 if
