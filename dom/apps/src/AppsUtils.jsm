@@ -407,16 +407,6 @@ equals
 (
 Ci
 .
-mozIDOMApplication
-)
-|
-|
-aIID
-.
-equals
-(
-Ci
-.
 mozIApplication
 )
 |

@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMApplicationRegistry
-.
-h
-"
-#
-include
-"
 TabParent
 .
 h
