@@ -8748,7 +8748,6 @@ NameToId
 (
 ScopeCoordinateName
 (
-cx
 script
 pc
 )
@@ -37602,7 +37601,6 @@ name
 =
 ScopeCoordinateName
 (
-cx
 script
 pc
 )

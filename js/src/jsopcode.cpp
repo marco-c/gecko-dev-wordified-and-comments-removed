@@ -5103,7 +5103,6 @@ StringValue
 (
 ScopeCoordinateName
 (
-cx
 script
 pc
 )
@@ -8175,7 +8174,6 @@ atom
 =
 ScopeCoordinateName
 (
-cx
 script
 pc
 )

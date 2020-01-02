@@ -4159,9 +4159,11 @@ enclosingStaticScope
 )
 ;
 StaticScopeIter
+<
+NoGC
+>
 ssi
 (
-cx
 staticScope
 )
 ;
@@ -4182,6 +4184,9 @@ type
 =
 =
 StaticScopeIter
+<
+NoGC
+>
 :
 :
 FUNCTION
@@ -13101,6 +13106,9 @@ enclosingStaticScope
 )
 ;
 StaticScopeIter
+<
+CanGC
+>
 ssi
 (
 cx
@@ -13131,6 +13139,9 @@ type
 =
 =
 StaticScopeIter
+<
+CanGC
+>
 :
 :
 BLOCK
@@ -16763,9 +16774,11 @@ const
 for
 (
 StaticScopeIter
+<
+NoGC
+>
 ssi
 (
-cx
 enclosingScope
 (
 )
@@ -16793,6 +16806,9 @@ type
 =
 =
 StaticScopeIter
+<
+NoGC
+>
 :
 :
 FUNCTION

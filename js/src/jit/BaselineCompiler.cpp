@@ -8209,7 +8209,6 @@ shape
 =
 ScopeCoordinateToStaticScopeShape
 (
-cx
 script
 pc
 )
@@ -8417,7 +8416,6 @@ outerScript
 =
 ScopeCoordinateFunctionScript
 (
-cx
 script
 pc
 )
