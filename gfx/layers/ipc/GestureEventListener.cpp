@@ -1004,12 +1004,6 @@ secondTouch
 =
 mTouches
 [
-mTouches
-.
-Length
-(
-)
--
 1
 ]
 .
