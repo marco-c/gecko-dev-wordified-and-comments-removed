@@ -2539,16 +2539,6 @@ result
 cx
 )
 ;
-MOZ_ASSERT
-(
-!
-v
-.
-isObject
-(
-)
-)
-;
 result
 .
 setBoolean

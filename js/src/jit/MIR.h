@@ -24245,8 +24245,7 @@ canRecoverOnBailout
 const
 {
 return
-!
-operandMightEmulateUndefined_
+true
 ;
 }
 }
