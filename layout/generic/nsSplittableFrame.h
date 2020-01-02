@@ -271,7 +271,7 @@ NS_INTRINSICSIZE
 const
 ;
 virtual
-int
+LogicalSides
 GetLogicalSkipSides
 (
 const

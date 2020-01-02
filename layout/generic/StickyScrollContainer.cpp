@@ -33,13 +33,6 @@ RestyleTracker
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-css
-;
 namespace
 mozilla
 {
