@@ -4171,17 +4171,6 @@ _installHelperSheet
 node
 )
 ;
-this
-.
-layoutHelpers
-.
-scrollIntoViewIfNeeded
-(
-node
-.
-rawNode
-)
-;
 DOMUtils
 .
 addPseudoClassLock
