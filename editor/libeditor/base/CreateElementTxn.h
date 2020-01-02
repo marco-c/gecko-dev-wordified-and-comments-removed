@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIDOMNode
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -48,9 +55,6 @@ h
 "
 class
 nsEditor
-;
-class
-nsINode
 ;
 class
 CreateElementTxn
@@ -78,7 +82,7 @@ const
 nsAString
 &
 aTag
-nsINode
+nsIDOMNode
 *
 aParent
 uint32_t
@@ -104,7 +108,7 @@ RedoTransaction
 NS_IMETHOD
 GetNewNode
 (
-nsINode
+nsIDOMNode
 *
 *
 aNewNode
@@ -121,7 +125,7 @@ mTag
 ;
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mParent
 ;
@@ -130,13 +134,13 @@ mOffsetInParent
 ;
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mNewNode
 ;
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 mRefNode
 ;
