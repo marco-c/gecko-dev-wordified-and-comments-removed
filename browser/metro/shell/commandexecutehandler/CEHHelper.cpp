@@ -383,7 +383,7 @@ snapshot
 CreateToolhelp32Snapshot
 (
 TH32CS_SNAPPROCESS
-NULL
+0
 )
 ;
 if

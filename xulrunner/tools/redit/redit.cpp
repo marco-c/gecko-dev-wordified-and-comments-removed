@@ -169,7 +169,7 @@ empty
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -182,7 +182,7 @@ handle
 {
 if
 (
-NULL
+nullptr
 !
 =
 handle
@@ -407,7 +407,7 @@ FALSE
 ;
 if
 (
-NULL
+nullptr
 =
 =
 updateRes

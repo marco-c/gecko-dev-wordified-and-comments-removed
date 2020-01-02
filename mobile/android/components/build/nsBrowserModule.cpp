@@ -97,7 +97,7 @@ kBrowserCIDs
 &
 knsShellService_CID
 false
-NULL
+nullptr
 nsShellServiceConstructor
 }
 #
@@ -107,13 +107,13 @@ MOZ_ANDROID_HISTORY
 &
 kNS_ANDROIDHISTORY_CID
 false
-NULL
+nullptr
 nsAndroidHistoryConstructor
 }
 #
 endif
 {
-NULL
+nullptr
 }
 }
 ;
@@ -147,7 +147,7 @@ kNS_ANDROIDHISTORY_CID
 #
 endif
 {
-NULL
+nullptr
 }
 }
 ;

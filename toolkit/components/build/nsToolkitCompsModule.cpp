@@ -635,7 +635,7 @@ endif
 &
 kFINALIZATIONWITNESSSERVICE_CID
 false
-NULL
+nullptr
 FinalizationWitnessServiceConstructor
 }
 {

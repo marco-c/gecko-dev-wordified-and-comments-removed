@@ -480,7 +480,7 @@ mHandlerInfo
 .
 commandPattern
 =
-NULL
+nullptr
 ;
 for
 (

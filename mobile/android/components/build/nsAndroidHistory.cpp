@@ -59,7 +59,7 @@ nsAndroidHistory
 :
 sHistory
 =
-NULL
+nullptr
 ;
 nsAndroidHistory
 *

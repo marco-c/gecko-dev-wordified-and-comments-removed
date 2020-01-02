@@ -4367,7 +4367,7 @@ JS_ExecuteScriptVersion
 cx
 obj
 script
-NULL
+nullptr
 JSVERSION_LATEST
 )
 ;

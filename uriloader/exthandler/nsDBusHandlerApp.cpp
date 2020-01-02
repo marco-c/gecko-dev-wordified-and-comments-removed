@@ -45,7 +45,7 @@ h
 NS_IMPL_CLASSINFO
 (
 nsDBusHandlerApp
-NULL
+nullptr
 0
 NS_DBUSHANDLERAPP_CID
 )
@@ -448,7 +448,7 @@ dbus_connection_send
 (
 connection
 msg
-NULL
+nullptr
 )
 )
 {

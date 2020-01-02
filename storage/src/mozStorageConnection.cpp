@@ -3490,7 +3490,7 @@ sqlite3_stmt
 *
 stmt
 =
-NULL
+nullptr
 ;
 while
 (
@@ -3668,7 +3668,7 @@ SQLITE_OK
 {
 stmt
 =
-NULL
+nullptr
 ;
 }
 }

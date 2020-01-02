@@ -2359,11 +2359,11 @@ kWindowDSCIDs
 &
 kNS_WINDOWDATASOURCE_CID
 false
-NULL
+nullptr
 nsWindowDataSourceConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -2392,7 +2392,7 @@ mediator
 kNS_WINDOWDATASOURCE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -2432,7 +2432,7 @@ mediator
 "
 }
 {
-NULL
+nullptr
 }
 }
 ;
