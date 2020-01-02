@@ -3755,9 +3755,6 @@ marionettecomponent
 js
 #
 endif
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 BINPATH
 /
 components
@@ -3765,8 +3762,6 @@ components
 WebappsUpdateTimer
 .
 js
-#
-endif
 BINPATH
 /
 components

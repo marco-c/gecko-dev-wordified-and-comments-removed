@@ -7007,9 +7007,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 pref
 (
 "
@@ -7088,8 +7085,6 @@ app_updates
 "
 )
 ;
-#
-endif
 pref
 (
 "

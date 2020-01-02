@@ -2030,9 +2030,6 @@ filter
 /
 activity
 >
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 <
 activity
 android
@@ -2260,8 +2257,6 @@ filter
 /
 receiver
 >
-#
-endif
 <
 activity
 android

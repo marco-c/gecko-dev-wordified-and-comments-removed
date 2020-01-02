@@ -133,9 +133,6 @@ jsm
 "
 )
 ;
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 Cu
 .
 import
@@ -178,8 +175,6 @@ jsm
 "
 )
 ;
-#
-endif
 function
 pref
 (
@@ -468,9 +463,6 @@ true
 )
 ;
 }
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 sendMessageToJava
 (
 {
@@ -506,8 +498,6 @@ aUrl
 }
 )
 ;
-#
-endif
 this
 .
 findManifestUrlFor
@@ -977,9 +967,6 @@ break
 ;
 }
 }
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 _enableRemoteDebugger
 :
 function
@@ -1197,8 +1184,6 @@ warning_doorhanger
 )
 ;
 }
-#
-endif
 handleEvent
 :
 function

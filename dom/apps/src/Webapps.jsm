@@ -6074,7 +6074,7 @@ Install
 {
 #
 ifdef
-MOZ_ANDROID_SYNTHAPKS
+MOZ_WIDGET_ANDROID
 Services
 .
 obs
@@ -6241,7 +6241,7 @@ InstallPackage
 {
 #
 ifdef
-MOZ_ANDROID_SYNTHAPKS
+MOZ_WIDGET_ANDROID
 Services
 .
 obs
@@ -13807,7 +13807,7 @@ package_path
 {
 #
 ifdef
-MOZ_ANDROID_SYNTHAPKS
+MOZ_WIDGET_ANDROID
 dontNeedNetwork
 =
 !

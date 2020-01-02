@@ -540,9 +540,6 @@ handling
 .
 properties
 )
-#
-ifdef
-MOZ_ANDROID_SYNTHAPKS
 locale
 /
 AB_CD
@@ -560,8 +557,6 @@ webapp
 .
 properties
 )
-#
-endif
 #
 overrides
 for

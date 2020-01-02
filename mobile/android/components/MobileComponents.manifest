@@ -1468,9 +1468,6 @@ snippets
 updateInterval
 86400
 #
-ifdef
-MOZ_ANDROID_SYNTHAPKS
-#
 WebappsUpdateTimer
 .
 js
@@ -1542,8 +1539,6 @@ webapps
 .
 updateInterval
 86400
-#
-endif
 #
 ColorPicker
 .
