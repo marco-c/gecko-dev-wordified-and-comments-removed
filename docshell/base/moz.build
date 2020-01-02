@@ -279,6 +279,11 @@ LoadContext
 .
 h
 '
+'
+LoadInfo
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -286,6 +291,11 @@ UNIFIED_SOURCES
 [
 '
 LoadContext
+.
+cpp
+'
+'
+LoadInfo
 .
 cpp
 '
