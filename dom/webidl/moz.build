@@ -2829,6 +2829,11 @@ BluetoothDevice2
 webidl
 '
 '
+BluetoothDiscoveryHandle
+.
+webidl
+'
+'
 BluetoothManager2
 .
 webidl
