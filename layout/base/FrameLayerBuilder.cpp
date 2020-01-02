@@ -14230,7 +14230,7 @@ tempManager
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 LayerProperties
 >

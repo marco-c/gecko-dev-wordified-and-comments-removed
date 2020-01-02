@@ -130,6 +130,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
@@ -933,7 +942,7 @@ Compositor
 >
 mCompositor
 ;
-nsAutoPtr
+UniquePtr
 <
 LayerProperties
 >
@@ -960,7 +969,7 @@ mWorldMatrix
 nsIntRegion
 mInvalidRegion
 ;
-nsAutoPtr
+UniquePtr
 <
 FPSState
 >
