@@ -117,6 +117,14 @@ app
 .
 zip
 \
+data
+/
+app
+-
+certified
+.
+zip
+\
 (
 NULL
 )
