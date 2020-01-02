@@ -1430,7 +1430,7 @@ scriptDataTable
 }
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 WorkerThreadState
 *
 workerThreadState
@@ -3670,7 +3670,7 @@ AutoLockForExclusiveAccess
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JSRuntime
 *
 runtime
@@ -3889,7 +3889,7 @@ AutoLockForCompilation
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JSRuntime
 *
 runtime

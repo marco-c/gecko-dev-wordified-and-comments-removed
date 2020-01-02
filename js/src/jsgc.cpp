@@ -7482,7 +7482,7 @@ gcTriggerBytes
 ;
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JS_ASSERT_IF
 (
 cx
@@ -7637,7 +7637,7 @@ else
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 mozilla
 :
 :
@@ -20191,7 +20191,7 @@ exclusiveThreadsPresent
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 AutoLockWorkerThreadState
 lock
 (
@@ -20259,7 +20259,7 @@ exclusiveThreadsPresent
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 AutoLockWorkerThreadState
 lock
 (
@@ -23158,7 +23158,7 @@ NO_INCREMENTAL
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 EnqueuePendingParseTasksAfterGC
 (
 rt

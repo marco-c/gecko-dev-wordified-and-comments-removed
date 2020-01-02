@@ -7,7 +7,7 @@ h
 "
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 #
 include
 "
@@ -233,6 +233,9 @@ return
 true
 ;
 }
+#
+ifdef
+JS_ION
 bool
 js
 :
@@ -518,6 +521,8 @@ builder
 )
 ;
 }
+#
+endif
 static
 inline
 bool
@@ -570,6 +575,9 @@ JSScript
 script
 )
 {
+#
+ifdef
+JS_ION
 JSRuntime
 *
 rt
@@ -874,6 +882,8 @@ popBack
 ;
 }
 }
+#
+endif
 }
 static
 const
@@ -3397,6 +3407,9 @@ WorkerThreadState
 state
 )
 {
+#
+ifdef
+JS_ION
 JS_ASSERT
 (
 state
@@ -3615,6 +3628,14 @@ WorkerThreadState
 CONSUMER
 )
 ;
+#
+else
+MOZ_CRASH
+(
+)
+;
+#
+endif
 }
 void
 WorkerThread
@@ -3627,6 +3648,9 @@ WorkerThreadState
 state
 )
 {
+#
+ifdef
+JS_ION
 JS_ASSERT
 (
 state
@@ -3840,6 +3864,14 @@ WorkerThreadState
 CONSUMER
 )
 ;
+#
+else
+MOZ_CRASH
+(
+)
+;
+#
+endif
 }
 void
 ExclusiveContext
@@ -4905,6 +4937,9 @@ using
 namespace
 js
 ;
+#
+ifdef
+JS_ION
 bool
 js
 :
@@ -4970,6 +5005,8 @@ builds
 )
 ;
 }
+#
+endif
 void
 js
 :

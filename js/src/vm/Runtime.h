@@ -2966,20 +2966,8 @@ operationCallbackLockTaken
 endif
 }
 #
-if
-defined
-(
+ifdef
 JS_THREADSAFE
-)
-&
-&
-defined
-(
-JS_ION
-)
-#
-define
-JS_WORKER_THREADS
 js
 :
 :
@@ -3107,7 +3095,7 @@ currentThreadHasExclusiveAccess
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 return
 (
 !
@@ -3143,7 +3131,7 @@ const
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 return
 numExclusiveThreads
 >
@@ -3164,7 +3152,7 @@ addCompilationThread
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 numCompilationThreads
 +
 +
@@ -3189,7 +3177,7 @@ removeCompilationThread
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JS_ASSERT
 (
 numCompilationThreads
@@ -3220,7 +3208,7 @@ const
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 return
 numCompilationThreads
 >
@@ -3244,7 +3232,7 @@ currentThreadHasCompilationLock
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 return
 (
 !

@@ -75,7 +75,7 @@ IonBuilder
 }
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 class
 WorkerThreadState
 {
@@ -550,6 +550,9 @@ ExclusiveContext
 cx
 )
 ;
+#
+ifdef
+JS_ION
 bool
 StartOffThreadAsmJSCompile
 (
@@ -575,6 +578,8 @@ IonBuilder
 builder
 )
 ;
+#
+endif
 void
 CancelOffThreadIonCompile
 (
@@ -647,7 +652,7 @@ AutoLockWorkerThreadState
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 WorkerThreadState
 &
 state
@@ -734,7 +739,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JS_ASSERT
 (
 rt
@@ -773,7 +778,7 @@ AutoUnlockWorkerThreadState
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 rt
 -
 >
@@ -1009,7 +1014,7 @@ ScriptSource
 ;
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 WorkerThread
 *
 workerThread
@@ -1090,7 +1095,7 @@ abort_
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 workerThread
 =
 nullptr

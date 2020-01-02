@@ -5025,7 +5025,7 @@ nullptr
 {
 #
 ifdef
-JS_WORKER_THREADS
+JS_THREADSAFE
 JS_ASSERT_IF
 (
 kind
