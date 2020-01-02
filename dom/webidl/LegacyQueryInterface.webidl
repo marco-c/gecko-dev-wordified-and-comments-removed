@@ -426,6 +426,10 @@ WebSocket
 implements
 LegacyQueryInterface
 ;
+Window
+implements
+LegacyQueryInterface
+;
 XMLHttpRequest
 implements
 LegacyQueryInterface
