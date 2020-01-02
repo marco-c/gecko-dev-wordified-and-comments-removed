@@ -1779,7 +1779,11 @@ EnsureFresh
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 wrapper
 (
 aCx

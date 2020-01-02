@@ -5365,7 +5365,11 @@ index
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 str
 (
 cx

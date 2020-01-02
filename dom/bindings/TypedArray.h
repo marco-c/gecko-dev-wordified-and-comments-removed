@@ -305,7 +305,11 @@ cx
 JS
 :
 :
-MutableHandleObject
+MutableHandle
+<
+JSObject
+*
+>
 :
 :
 fromMarkedLocation

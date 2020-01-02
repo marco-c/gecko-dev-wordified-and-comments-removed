@@ -299,7 +299,13 @@ aCx
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aMessage
 const
 Optional
@@ -887,7 +893,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aScope
 )
 {

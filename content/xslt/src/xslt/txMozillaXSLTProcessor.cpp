@@ -5870,7 +5870,11 @@ NS_ERROR_NOT_AVAILABLE
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 jsobj
 (
 cx
@@ -5890,7 +5894,11 @@ jsobj
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 str
 (
 cx

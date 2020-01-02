@@ -2854,7 +2854,11 @@ lineno
 JS
 :
 :
-RootedScript
+Rooted
+<
+JSScript
+*
+>
 script
 (
 aCx

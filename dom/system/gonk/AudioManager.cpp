@@ -1624,7 +1624,11 @@ NS_OK
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 jsKey
 (
 cx

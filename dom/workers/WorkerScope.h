@@ -91,7 +91,11 @@ aCx
 JS
 :
 :
-HandleObject
+Handle
+<
+JSObject
+*
+>
 aScope
 )
 MOZ_OVERRIDE

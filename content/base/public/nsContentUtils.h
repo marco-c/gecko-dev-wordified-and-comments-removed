@@ -607,7 +607,10 @@ aContent
 JS
 :
 :
-HandleId
+Handle
+<
+jsid
+>
 aId
 JS
 :

@@ -1976,7 +1976,13 @@ str
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 exn
 (
 cx

@@ -2859,7 +2859,13 @@ aMessagePortSerial
 JS
 :
 :
-HandleValue
+Handle
+<
+JS
+:
+:
+Value
+>
 aMessage
 const
 Optional

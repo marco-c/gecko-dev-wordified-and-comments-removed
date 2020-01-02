@@ -43692,7 +43692,11 @@ KillSlowScript
 JS
 :
 :
-RootedScript
+Rooted
+<
+JSScript
+*
+>
 script
 (
 cx

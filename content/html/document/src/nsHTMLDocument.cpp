@@ -6778,7 +6778,11 @@ mScopeObject
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 wrapper
 (
 cx

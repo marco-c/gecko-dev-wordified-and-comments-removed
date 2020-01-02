@@ -159,7 +159,10 @@ aName
 JS
 :
 :
-HandleId
+Handle
+<
+jsid
+>
 aNameAsId
 JS
 :

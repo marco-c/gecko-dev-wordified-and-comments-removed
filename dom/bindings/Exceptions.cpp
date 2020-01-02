@@ -1638,7 +1638,11 @@ fun
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 funid
 (
 cx

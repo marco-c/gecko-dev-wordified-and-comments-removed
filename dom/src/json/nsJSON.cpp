@@ -2314,7 +2314,13 @@ rv
 JS
 :
 :
-RootedValue
+Rooted
+<
+JS
+:
+:
+Value
+>
 reviver
 (
 mCx

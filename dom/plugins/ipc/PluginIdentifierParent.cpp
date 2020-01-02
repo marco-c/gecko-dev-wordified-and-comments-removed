@@ -104,7 +104,11 @@ true
 JS
 :
 :
-RootedString
+Rooted
+<
+JSString
+*
+>
 str
 (
 cx
