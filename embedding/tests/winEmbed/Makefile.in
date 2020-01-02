@@ -254,6 +254,11 @@ BLOCK
 *
 *
 *
+RESFILE
+=
+winEmbed
+.
+res
 LIBS
 =
 \

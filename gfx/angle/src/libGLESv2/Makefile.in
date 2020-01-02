@@ -101,6 +101,15 @@ srcdir
 libGLESv2
 .
 def
+RCFILE
+=
+(
+srcdir
+)
+/
+libGLESv2
+.
+rc
 #
 End
 build_angle

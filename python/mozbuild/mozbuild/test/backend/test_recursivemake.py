@@ -2851,40 +2851,6 @@ USE_DELAYIMP
 '
             
 ]
-            
-'
-RCFILE
-'
-:
-[
-                
-'
-RCFILE
-:
-=
-foo
-.
-rc
-'
-            
-]
-            
-'
-RESFILE
-'
-:
-[
-                
-'
-RESFILE
-:
-=
-bar
-.
-res
-'
-            
-]
         
 }
         

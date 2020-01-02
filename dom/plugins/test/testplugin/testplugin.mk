@@ -138,6 +138,16 @@ MOZ_WIDGET_TOOLKIT
 )
 windows
 )
+RCFILE
+=
+nptest
+.
+rc
+RESFILE
+=
+nptest
+.
+res
 DEFFILE
 =
 (

@@ -282,6 +282,11 @@ OS_ARCH
 )
 OS2
 )
+RESFILE
+=
+xulrunos2
+.
+res
 RCFLAGS
 +
 =

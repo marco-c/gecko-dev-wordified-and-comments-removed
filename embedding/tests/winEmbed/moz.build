@@ -131,10 +131,3 @@ XPCOM_GLUE
 ]
 =
 True
-RESFILE
-=
-'
-winEmbed
-.
-res
-'

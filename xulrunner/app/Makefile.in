@@ -341,6 +341,11 @@ OS_ARCH
 )
 OS2
 )
+RESFILE
+=
+splashos2
+.
+res
 RCFLAGS
 +
 =
