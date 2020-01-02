@@ -2296,7 +2296,7 @@ components
 /
 storage
 -
-json
+mozStorage
 .
 js
 BINPATH
