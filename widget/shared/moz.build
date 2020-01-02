@@ -124,12 +124,12 @@ nsShmImage
 cpp
 '
 '
-WidgetEventImpl
+SharedWidgetUtils
 .
 cpp
 '
 '
-WidgetUtils
+WidgetEventImpl
 .
 cpp
 '
