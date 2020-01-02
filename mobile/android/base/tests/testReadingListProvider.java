@@ -324,6 +324,10 @@ run
 )
 ;
 }
+blockForGeckoReady
+(
+)
+;
 }
 private
 class
