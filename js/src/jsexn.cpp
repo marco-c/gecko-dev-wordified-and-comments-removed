@@ -1050,11 +1050,11 @@ cx
 ScriptFrameIter
 :
 :
-CURRENT_CONTEXT
+ALL_CONTEXTS
 ScriptFrameIter
 :
 :
-STOP_AT_SAVED
+GO_THROUGH_SAVED
 cx
 -
 >
