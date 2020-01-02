@@ -207,7 +207,6 @@ MIXED_CONTENT_LOADED
 mixed_content_loaded
 "
 ;
-public
 static
 final
 int
@@ -215,7 +214,6 @@ LEVEL_UKNOWN
 =
 0
 ;
-public
 static
 final
 int
@@ -223,7 +221,6 @@ LEVEL_IDENTIFIED
 =
 1
 ;
-public
 static
 final
 int
@@ -231,7 +228,6 @@ LEVEL_VERIFIED
 =
 2
 ;
-public
 static
 final
 int
@@ -239,7 +235,6 @@ LEVEL_MIXED_CONTENT_BLOCKED
 =
 3
 ;
-public
 static
 final
 int
@@ -307,7 +302,6 @@ private
 DoorHanger
 mMixedContentNotification
 ;
-public
 SiteIdentityPopup
 (
 BrowserApp
@@ -328,7 +322,6 @@ getResources
 )
 ;
 }
-public
 static
 int
 getSecurityImageLevel
@@ -1011,7 +1004,6 @@ null
 ;
 }
 }
-public
 void
 updateIdentity
 (
