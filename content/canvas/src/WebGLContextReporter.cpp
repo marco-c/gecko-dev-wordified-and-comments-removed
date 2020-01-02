@@ -587,13 +587,6 @@ WebGLMemoryTracker
 WebGLMemoryTracker
 (
 )
-:
-MemoryMultiReporter
-(
-"
-webgl
-"
-)
 {
 }
 void

@@ -248,13 +248,6 @@ public
 imgMemoryReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-images
-"
-)
 {
 }
 NS_IMETHOD

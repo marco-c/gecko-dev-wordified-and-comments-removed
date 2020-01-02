@@ -1117,14 +1117,6 @@ Service
 (
 )
 :
-MemoryMultiReporter
-(
-"
-storage
--
-sqlite
-"
-)
 mMutex
 (
 "

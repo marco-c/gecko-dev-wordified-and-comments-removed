@@ -5464,15 +5464,6 @@ public
 MessageManagerReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-message
--
-manager
-"
-)
 {
 }
 NS_IMETHOD

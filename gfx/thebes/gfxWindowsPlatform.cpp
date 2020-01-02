@@ -965,15 +965,6 @@ public
 GPUAdapterReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-gpu
--
-adapter
-"
-)
 {
 }
 NS_IMETHOD

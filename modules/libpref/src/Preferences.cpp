@@ -1076,15 +1076,6 @@ public
 PreferenceServiceReporter
 (
 )
-:
-MemoryMultiReporter
-(
-"
-preference
--
-service
-"
-)
 {
 }
 NS_IMETHOD
