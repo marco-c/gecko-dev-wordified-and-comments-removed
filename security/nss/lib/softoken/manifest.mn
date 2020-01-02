@@ -234,10 +234,6 @@ pkcs11u
 .
 c
 \
-rsawrapr
-.
-c
-\
 sdb
 .
 c
