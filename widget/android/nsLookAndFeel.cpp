@@ -1466,9 +1466,14 @@ Bridge
 )
 mShowPassword
 =
-GeckoAppShell
+AndroidBridge
 :
 :
+Bridge
+(
+)
+-
+>
 GetShowPasswordSetting
 (
 )

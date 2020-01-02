@@ -7336,9 +7336,14 @@ nullptr
 *
 showPassword
 =
-GeckoAppShell
+AndroidBridge
 :
 :
+Bridge
+(
+)
+-
+>
 GetShowPasswordSetting
 (
 )

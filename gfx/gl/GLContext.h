@@ -8753,8 +8753,6 @@ TextureImage
 >
 CreateDirectTextureImage
 (
-:
-:
 android
 :
 :
