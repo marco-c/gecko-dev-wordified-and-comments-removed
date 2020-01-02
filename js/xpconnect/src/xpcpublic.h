@@ -1418,6 +1418,15 @@ JSObject
 global
 )
 ;
+nsISupports
+*
+UnwrapReflectorToISupports
+(
+JSObject
+*
+reflector
+)
+;
 JSObject
 *
 GetJunkScope
