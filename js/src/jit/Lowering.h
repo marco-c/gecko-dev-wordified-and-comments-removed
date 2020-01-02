@@ -1888,6 +1888,14 @@ ins
 )
 ;
 bool
+visitSimdBinaryArith
+(
+MSimdBinaryArith
+*
+ins
+)
+;
+bool
 visitSimdValueX4
 (
 MSimdValueX4

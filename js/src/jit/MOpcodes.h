@@ -39,6 +39,11 @@ SimdExtractElement
 \
 _
 (
+SimdBinaryArith
+)
+\
+_
+(
 CloneLiteral
 )
 \
