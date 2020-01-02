@@ -208,6 +208,13 @@ prenv
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 using
 namespace
 mozilla
@@ -579,7 +586,10 @@ ISurfaceAllocator
 PlatformAllocSurfaceDescriptor
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 gfxContentType
@@ -636,7 +646,10 @@ platform
 >
 CreateOffscreenSurface
 (
+ThebesIntSize
+(
 aSize
+)
 aContent
 )
 ;

@@ -377,7 +377,13 @@ hal
 ProcessPriority
 ;
 using
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 ;
 namespace
 mozilla
@@ -1181,7 +1187,7 @@ permission
 ;
 ScreenSizeChanged
 (
-gfxIntSize
+IntSize
 size
 )
 ;
