@@ -148,7 +148,7 @@ textColor
 .
 accesskey
 "
-t
+T
 "
 >
 <
@@ -169,7 +169,7 @@ backgroundColor
 .
 accesskey
 "
-b
+B
 "
 >
 <
@@ -212,7 +212,7 @@ underlineLinks
 .
 accesskey
 "
-u
+U
 "
 >
 <
@@ -243,7 +243,7 @@ linkColor
 .
 accesskey
 "
-l
+L
 "
 >
 <
@@ -265,6 +265,6 @@ visitedLinkColor
 .
 accesskey
 "
-v
+V
 "
 >
