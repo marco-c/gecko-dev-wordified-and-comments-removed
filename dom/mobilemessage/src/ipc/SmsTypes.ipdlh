@@ -396,6 +396,9 @@ uint64_t
 timestamp
 ;
 nsString
+lastMessageSubject
+;
+nsString
 body
 ;
 uint64_t
