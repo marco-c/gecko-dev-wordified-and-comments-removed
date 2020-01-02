@@ -1373,15 +1373,11 @@ CONFIG
 OS_TEST
 '
 ]
-in
-(
+=
+=
 '
 powerpc64
 '
-'
-powerpc64le
-'
-)
 :
 if
 CONFIG
@@ -1407,7 +1403,7 @@ SOURCES
 '
 xptcinvoke_asm_ppc64_linux
 .
-S
+s
 '
 '
 xptcinvoke_ppc64_linux
@@ -1417,7 +1413,7 @@ cpp
 '
 xptcstubs_asm_ppc64_linux
 .
-S
+s
 '
 '
 xptcstubs_ppc64_linux
