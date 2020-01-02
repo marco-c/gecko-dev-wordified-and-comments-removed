@@ -38,13 +38,6 @@ h
 #
 include
 "
-FFmpegRuntimeLinker
-.
-h
-"
-#
-include
-"
 FFmpegH264Decoder
 .
 h
@@ -84,6 +77,9 @@ namespace
 mozilla
 {
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 FFmpegH264Decoder
@@ -148,6 +144,9 @@ length
 }
 nsresult
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 Init
@@ -182,6 +181,9 @@ NS_OK
 }
 void
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 DecodeFrame
@@ -648,6 +650,9 @@ height
 }
 int
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 AllocateBufferCb
@@ -721,6 +726,9 @@ aFrame
 }
 int
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 AllocateYUV420PVideoBuffer
@@ -1017,6 +1025,9 @@ return
 }
 nsresult
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 Input
@@ -1048,6 +1059,9 @@ MP4Sample
 this
 &
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 DecodeFrame
@@ -1070,6 +1084,9 @@ NS_OK
 }
 void
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 OutputDelayedFrames
@@ -1102,6 +1119,9 @@ Pop
 }
 nsresult
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 Drain
@@ -1168,6 +1188,9 @@ NS_NewRunnableMethod
 this
 &
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 OutputDelayedFrames
@@ -1180,6 +1203,9 @@ NS_OK
 }
 nsresult
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 Flush
@@ -1207,6 +1233,9 @@ rv
 ;
 }
 FFmpegH264Decoder
+<
+LIBAV_VER
+>
 :
 :
 ~
