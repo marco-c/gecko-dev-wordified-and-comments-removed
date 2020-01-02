@@ -10114,6 +10114,7 @@ JavaScriptParent
 :
 DOMInstanceOf
 (
+cx
 unwrapped
 clasp
 -

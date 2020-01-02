@@ -9311,7 +9311,7 @@ parent
 )
 -
 >
-destroyFromContent
+decref
 (
 )
 ;
