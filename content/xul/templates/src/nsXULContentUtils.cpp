@@ -228,13 +228,6 @@ using
 namespace
 mozilla
 ;
-static
-NS_DEFINE_CID
-(
-kRDFServiceCID
-NS_RDFSERVICE_CID
-)
-;
 nsIRDFService
 *
 nsXULContentUtils
@@ -313,6 +306,13 @@ Init
 (
 )
 {
+static
+NS_DEFINE_CID
+(
+kRDFServiceCID
+NS_RDFSERVICE_CID
+)
+;
 nsresult
 rv
 =
