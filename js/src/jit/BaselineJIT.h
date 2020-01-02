@@ -1050,9 +1050,12 @@ return
 cx
 -
 >
-hasOption
+options
 (
-JSOPTION_BASELINE
+)
+.
+baseline
+(
 )
 ;
 }

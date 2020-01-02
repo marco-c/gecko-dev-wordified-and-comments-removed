@@ -38887,9 +38887,12 @@ debugMode
 cx
 -
 >
-hasOption
+options
 (
-JSOPTION_ASMJS
+)
+.
+asmJS
+(
 )
 ;
 args

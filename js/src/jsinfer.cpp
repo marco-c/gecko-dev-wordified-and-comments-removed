@@ -6928,9 +6928,12 @@ cx
 cx
 -
 >
-hasOption
+options
 (
-JSOPTION_TYPE_INFERENCE
+)
+.
+typeInference
+(
 )
 |
 |
