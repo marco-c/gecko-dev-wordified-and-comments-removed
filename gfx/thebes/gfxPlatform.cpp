@@ -2419,7 +2419,7 @@ endif
 cairo_user_data_key_t
 kDrawTarget
 ;
-TemporaryRef
+RefPtr
 <
 DrawTarget
 >
@@ -2485,13 +2485,9 @@ nullptr
 ;
 return
 drawTarget
-.
-forget
-(
-)
 ;
 }
-TemporaryRef
+RefPtr
 <
 DrawTarget
 >
@@ -2914,7 +2910,7 @@ return
 data
 ;
 }
-TemporaryRef
+RefPtr
 <
 SourceSurface
 >
@@ -3352,10 +3348,6 @@ srcBuffer
 {
 return
 srcBuffer
-.
-forget
-(
-)
 ;
 }
 }
@@ -3440,10 +3432,6 @@ dataSurf
 {
 return
 srcBuffer
-.
-forget
-(
-)
 ;
 }
 }
@@ -3486,13 +3474,9 @@ SourceBufferDestroy
 ;
 return
 srcBuffer
-.
-forget
-(
-)
 ;
 }
-TemporaryRef
+RefPtr
 <
 DataSourceSurface
 >
@@ -3609,10 +3593,6 @@ SourceSurfaceDestroyed
 ;
 return
 result
-.
-forget
-(
-)
 ;
 }
 TemporaryRef
@@ -4340,7 +4320,7 @@ forget
 )
 ;
 }
-TemporaryRef
+RefPtr
 <
 DrawTarget
 >
@@ -4426,7 +4406,7 @@ aFormat
 ;
 }
 }
-TemporaryRef
+RefPtr
 <
 DrawTarget
 >
@@ -4488,10 +4468,6 @@ NONE
 {
 return
 target
-.
-forget
-(
-)
 ;
 }
 return
@@ -4503,7 +4479,7 @@ aFormat
 )
 ;
 }
-TemporaryRef
+RefPtr
 <
 DrawTarget
 >
@@ -4545,7 +4521,7 @@ aFormat
 )
 ;
 }
-TemporaryRef
+RefPtr
 <
 DrawTarget
 >

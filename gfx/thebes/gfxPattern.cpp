@@ -400,8 +400,13 @@ gfxPattern
 :
 SetColorStops
 (
+mozilla
+:
+:
+RefPtr
+<
 GradientStops
-*
+>
 aStops
 )
 {
