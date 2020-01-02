@@ -336,6 +336,14 @@ lir
 )
 ;
 bool
+visitPcOffset
+(
+LPcOffset
+*
+lir
+)
+;
+bool
 visitReturn
 (
 LReturn
