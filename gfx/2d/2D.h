@@ -2441,7 +2441,7 @@ mPermitSubpixelAA
 ifdef
 USE_SKIA_GPU
 virtual
-bool
+void
 InitWithGrContext
 (
 GrContext

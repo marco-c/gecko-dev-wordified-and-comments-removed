@@ -3733,7 +3733,7 @@ true
 #
 ifdef
 USE_SKIA_GPU
-bool
+void
 DrawTargetSkia
 :
 :
@@ -3834,16 +3834,6 @@ NULL
 )
 )
 ;
-if
-(
-!
-skiaTexture
-)
-{
-return
-false
-;
-}
 mTexture
 =
 (
@@ -3903,9 +3893,6 @@ canvas
 get
 (
 )
-;
-return
-true
 ;
 }
 #
