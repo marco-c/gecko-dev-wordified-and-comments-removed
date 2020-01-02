@@ -3345,8 +3345,6 @@ const
 SurfaceCaps
 &
 caps
-ContextFlags
-flags
 )
 {
 if
@@ -3429,8 +3427,6 @@ GLContextProviderEGL
 :
 GetGlobalContext
 (
-const
-ContextFlags
 )
 {
 return

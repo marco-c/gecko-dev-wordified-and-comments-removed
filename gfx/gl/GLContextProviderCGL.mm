@@ -1193,9 +1193,6 @@ const
 SurfaceCaps
 &
 caps
-const
-ContextFlags
-flags
 )
 {
 nsRefPtr
@@ -1264,8 +1261,6 @@ GLContextProviderCGL
 :
 GetGlobalContext
 (
-const
-ContextFlags
 )
 {
 if

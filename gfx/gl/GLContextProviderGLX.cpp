@@ -3615,11 +3615,6 @@ GLContextGLX
 *
 GetGlobalContextGLX
 (
-const
-ContextFlags
-aFlags
-=
-ContextFlagsNone
 )
 {
 return
@@ -3634,7 +3629,6 @@ GLContextProviderGLX
 :
 GetGlobalContext
 (
-aFlags
 )
 )
 ;
@@ -4588,11 +4582,6 @@ error
 serverError
 )
 {
-ContextFlags
-flag
-=
-ContextFlagsNone
-;
 SurfaceCaps
 dummyCaps
 =
@@ -4609,7 +4598,6 @@ shareContext
 =
 GetGlobalContextGLX
 (
-flag
 )
 ;
 glContext
@@ -4658,8 +4646,6 @@ const
 SurfaceCaps
 &
 caps
-ContextFlags
-flags
 )
 {
 gfxIntSize
@@ -4744,9 +4730,6 @@ GLContextProviderGLX
 :
 GetGlobalContext
 (
-const
-ContextFlags
-aFlag
 )
 {
 if

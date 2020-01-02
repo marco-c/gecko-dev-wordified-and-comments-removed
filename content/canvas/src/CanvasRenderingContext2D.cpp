@@ -4180,10 +4180,6 @@ size
 height
 )
 caps
-gl
-:
-:
-ContextFlagsNone
 )
 ;
 }
