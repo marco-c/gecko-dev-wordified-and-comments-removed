@@ -31996,7 +31996,7 @@ VARIANT_NUMBER
 nsCSSProps
 :
 :
-kWidthKTable
+kFlexBasisKTable
 )
 )
 {
@@ -32095,7 +32095,7 @@ flexBasisVariantMask
 nsCSSProps
 :
 :
-kWidthKTable
+kFlexBasisKTable
 )
 )
 {
