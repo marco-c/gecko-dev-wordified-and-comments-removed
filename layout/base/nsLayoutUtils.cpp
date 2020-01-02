@@ -11614,6 +11614,9 @@ builder
 aFrame
 &
 list
+nsRect
+(
+)
 )
 ;
 *
