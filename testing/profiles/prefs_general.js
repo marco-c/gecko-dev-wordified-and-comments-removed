@@ -1393,3 +1393,15 @@ testing
 true
 )
 ;
+user_pref
+(
+"
+browser
+.
+snippets
+.
+enabled
+"
+false
+)
+;
