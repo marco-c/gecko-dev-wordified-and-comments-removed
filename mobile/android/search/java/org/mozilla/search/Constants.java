@@ -61,16 +61,6 @@ public
 static
 final
 String
-AUTOCOMPLETE_ROW_LIMIT
-=
-"
-5
-"
-;
-public
-static
-final
-String
 YAHOO_WEB_SEARCH_BASE_URL
 =
 "
