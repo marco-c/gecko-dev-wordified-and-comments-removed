@@ -114,3 +114,16 @@ mfbt
 FORCE_STATIC_LIB
 =
 True
+mfbt_root
+=
+'
+.
+'
+include
+(
+'
+common
+.
+mozbuild
+'
+)
