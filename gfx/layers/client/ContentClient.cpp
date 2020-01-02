@@ -654,7 +654,7 @@ if
 mTextureClient
 )
 {
-SetNewBufferProvider
+SetBufferProvider
 (
 mTextureClient
 )
@@ -665,7 +665,7 @@ if
 mTextureClientOnWhite
 )
 {
-SetNewBufferProviderOnWhite
+SetBufferProviderOnWhite
 (
 mTextureClientOnWhite
 )
@@ -680,12 +680,12 @@ EndPaint
 (
 )
 {
-SetNewBufferProvider
+SetBufferProvider
 (
 nullptr
 )
 ;
-SetNewBufferProviderOnWhite
+SetBufferProviderOnWhite
 (
 nullptr
 )
@@ -1466,7 +1466,7 @@ if
 mDeprecatedTextureClient
 )
 {
-SetBufferProvider
+SetDeprecatedBufferProvider
 (
 mDeprecatedTextureClient
 )
@@ -1477,7 +1477,7 @@ if
 mDeprecatedTextureClientOnWhite
 )
 {
-SetBufferProviderOnWhite
+SetDeprecatedBufferProviderOnWhite
 (
 mDeprecatedTextureClientOnWhite
 )
@@ -1492,12 +1492,12 @@ EndPaint
 (
 )
 {
-SetBufferProvider
+SetDeprecatedBufferProvider
 (
 nullptr
 )
 ;
-SetBufferProviderOnWhite
+SetDeprecatedBufferProviderOnWhite
 (
 nullptr
 )
