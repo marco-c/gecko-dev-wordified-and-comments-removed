@@ -440,7 +440,6 @@ FuncWith
 <
 Float32x4
 Scale
-Float32x4
 >
 )
 2
@@ -472,7 +471,6 @@ FuncWith
 <
 Float32x4
 WithX
-Float32x4
 >
 )
 2
@@ -488,7 +486,6 @@ FuncWith
 <
 Float32x4
 WithY
-Float32x4
 >
 )
 2
@@ -504,7 +501,6 @@ FuncWith
 <
 Float32x4
 WithZ
-Float32x4
 >
 )
 2
@@ -520,7 +516,6 @@ FuncWith
 <
 Float32x4
 WithW
-Float32x4
 >
 )
 2
@@ -896,7 +891,6 @@ FuncWith
 <
 Int32x4
 WithFlagX
-Int32x4
 >
 )
 2
@@ -912,7 +906,6 @@ FuncWith
 <
 Int32x4
 WithFlagY
-Int32x4
 >
 )
 2
@@ -928,7 +921,6 @@ FuncWith
 <
 Int32x4
 WithFlagZ
-Int32x4
 >
 )
 2
@@ -944,7 +936,6 @@ FuncWith
 <
 Int32x4
 WithFlagW
-Int32x4
 >
 )
 2
@@ -960,7 +951,6 @@ FuncWith
 <
 Int32x4
 WithX
-Int32x4
 >
 )
 2
@@ -976,7 +966,6 @@ FuncWith
 <
 Int32x4
 WithY
-Int32x4
 >
 )
 2
@@ -992,7 +981,6 @@ FuncWith
 <
 Int32x4
 WithZ
-Int32x4
 >
 )
 2
@@ -1008,7 +996,6 @@ FuncWith
 <
 Int32x4
 WithW
-Int32x4
 >
 )
 2

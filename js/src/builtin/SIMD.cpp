@@ -3999,8 +3999,6 @@ T
 >
 class
 OpWith
-typename
-Vret
 >
 static
 bool
@@ -4023,14 +4021,6 @@ V
 :
 Elem
 Elem
-;
-typedef
-typename
-Vret
-:
-:
-Elem
-RetElem
 ;
 CallArgs
 args
@@ -4113,10 +4103,10 @@ args
 ]
 )
 ;
-RetElem
+Elem
 result
 [
-Vret
+V
 :
 :
 lanes
@@ -4140,7 +4130,7 @@ withAsNumber
 if
 (
 !
-Vret
+V
 :
 :
 toType
@@ -4166,7 +4156,7 @@ i
 ;
 i
 <
-Vret
+V
 :
 :
 lanes
@@ -4182,7 +4172,7 @@ i
 =
 OpWith
 <
-RetElem
+Elem
 >
 :
 :
@@ -4232,7 +4222,7 @@ i
 ;
 i
 <
-Vret
+V
 :
 :
 lanes
@@ -4248,7 +4238,7 @@ i
 =
 OpWith
 <
-RetElem
+Elem
 >
 :
 :
@@ -4269,7 +4259,7 @@ obj
 cx
 Create
 <
-Vret
+V
 >
 (
 cx
