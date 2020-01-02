@@ -181,13 +181,6 @@ java
 .
 util
 .
-Collections
-;
-import
-java
-.
-util
-.
 EnumSet
 ;
 import
@@ -612,12 +605,7 @@ jsonString
 ;
 }
 return
-Collections
-.
-unmodifiableList
-(
 panelConfigs
-)
 ;
 }
 Override
