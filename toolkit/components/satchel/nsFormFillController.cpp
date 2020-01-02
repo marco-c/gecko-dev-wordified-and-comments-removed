@@ -2518,6 +2518,10 @@ result
 =
 aPreviousResult
 ;
+mLastSearchResult
+=
+nullptr
+;
 }
 if
 (
