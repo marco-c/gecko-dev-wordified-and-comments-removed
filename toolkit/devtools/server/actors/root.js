@@ -247,6 +247,9 @@ true
 highlightable
 :
 true
+urlToImageDataResolver
+:
+true
 }
 }
 ;
