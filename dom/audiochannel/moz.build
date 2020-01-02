@@ -141,7 +141,7 @@ AudioChannelServiceChild
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
