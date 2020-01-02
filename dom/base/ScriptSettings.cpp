@@ -755,7 +755,7 @@ aIsMainThread
 {
 mCxPusher
 .
-Push
+construct
 (
 aCx
 )
@@ -908,8 +908,10 @@ aIsMainThread
 {
 mCxPusher
 .
-PushNull
+construct
 (
+nullptr
+true
 )
 ;
 }
