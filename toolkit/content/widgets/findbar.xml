@@ -8793,7 +8793,7 @@ strBundle
 GetStringFromName
 (
 "
-FoundTooManyMatches
+FoundMatchesCountLimit
 "
 )
 )
