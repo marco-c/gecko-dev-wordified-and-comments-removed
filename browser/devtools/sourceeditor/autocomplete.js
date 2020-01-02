@@ -597,7 +597,7 @@ Editor
 keyFor
 (
 "
-showInformation
+showInformation2
 "
 {
 noaccel
