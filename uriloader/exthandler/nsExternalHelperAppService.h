@@ -621,6 +621,13 @@ CreateTransfer
 (
 )
 ;
+nsresult
+CreateFailedTransfer
+(
+bool
+aIsPrivateBrowsing
+)
+;
 void
 RequestSaveDestination
 (
