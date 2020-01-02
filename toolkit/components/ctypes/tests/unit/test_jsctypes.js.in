@@ -2612,7 +2612,7 @@ prototype
 value
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -2632,7 +2632,7 @@ value
 null
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -8059,7 +8059,7 @@ prototype
 value
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -8077,7 +8077,7 @@ value
 null
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
