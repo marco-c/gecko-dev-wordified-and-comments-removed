@@ -185,6 +185,16 @@ ChunkSize
 static
 const
 size_t
+ChunkShift
+=
+gc
+:
+:
+ChunkShift
+;
+static
+const
+size_t
 NurserySize
 =
 gc
