@@ -210,6 +210,16 @@ aContainer
 children
 )
 {
+if
+(
+child
+.
+hidden
+)
+{
+continue
+;
+}
 let
 isNodeWide
 =
