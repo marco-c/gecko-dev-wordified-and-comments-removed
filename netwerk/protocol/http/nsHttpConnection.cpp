@@ -6078,6 +6078,10 @@ now
 -
 mLastReadTime
 ;
+mResponseTimeoutEnabled
+=
+false
+;
 if
 (
 mKeepAliveMask
