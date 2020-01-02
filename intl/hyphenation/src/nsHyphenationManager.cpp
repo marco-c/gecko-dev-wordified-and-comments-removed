@@ -298,6 +298,10 @@ Shutdown
 delete
 sInstance
 ;
+sInstance
+=
+nullptr
+;
 }
 nsHyphenationManager
 :
