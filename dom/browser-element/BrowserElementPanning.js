@@ -3323,12 +3323,6 @@ this
 }
 }
 ;
-ContentPanning
-.
-init
-(
-)
-;
 const
 kMinVelocity
 =
