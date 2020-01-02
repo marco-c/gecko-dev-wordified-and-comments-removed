@@ -67,6 +67,13 @@ GMPTypes
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 template
 <
 >

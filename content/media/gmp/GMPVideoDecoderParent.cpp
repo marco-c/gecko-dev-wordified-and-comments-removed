@@ -56,6 +56,13 @@ nsAutoRef
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 template
 <
 >
