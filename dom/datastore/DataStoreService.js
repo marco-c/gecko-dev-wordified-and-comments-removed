@@ -1987,6 +1987,12 @@ aWindow
 obj
 )
 ;
+obj
+.
+exposedObject
+=
+exposedObj
+;
 results
 .
 push

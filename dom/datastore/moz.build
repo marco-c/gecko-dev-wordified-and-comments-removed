@@ -151,6 +151,11 @@ DataStoreChangeNotifier
 jsm
 '
 '
+DataStoreCursor
+.
+jsm
+'
+'
 DataStoreDB
 .
 jsm
