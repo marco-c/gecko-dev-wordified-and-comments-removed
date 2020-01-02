@@ -1957,12 +1957,6 @@ Prefs
 ignoreCaughtExceptions
 )
 ;
-this
-.
-handleTabNavigation
-(
-)
-;
 }
 disconnect
 :
