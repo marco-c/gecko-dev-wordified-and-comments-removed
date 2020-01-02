@@ -9235,7 +9235,7 @@ if
 failed
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 false
 "
