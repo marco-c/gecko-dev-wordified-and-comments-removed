@@ -323,6 +323,7 @@ T
 void
 MaybeResolve
 (
+const
 T
 &
 aArg
@@ -347,6 +348,7 @@ T
 void
 MaybeReject
 (
+const
 T
 &
 aArg
