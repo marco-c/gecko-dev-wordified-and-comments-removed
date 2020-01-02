@@ -2163,6 +2163,9 @@ cppunittests
 extract_unittests_from_args
 (
 args
+options
+.
+manifest_file
 )
     
 tester
