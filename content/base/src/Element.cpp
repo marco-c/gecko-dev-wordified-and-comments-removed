@@ -9867,12 +9867,11 @@ value
 ;
 aOutDescription
 .
-AppendLiteral
+Append
 (
+'
 "
-\
-"
-"
+'
 )
 ;
 }

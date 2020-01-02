@@ -911,12 +911,12 @@ texture_from_pixmap
 ;
 note
 .
-AppendLiteral
+Append
 (
-"
+'
 \
 n
-"
+'
 )
 ;
 #

@@ -418,12 +418,11 @@ object
 ;
 object
 .
-AppendLiteral
+Append
 (
+'
 "
-\
-"
-"
+'
 )
 ;
 AppendUTF16toUTF8

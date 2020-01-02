@@ -1656,11 +1656,11 @@ GetHost
 ;
 authorityHeader
 .
-AppendLiteral
+Append
 (
-"
+'
 :
-"
+'
 )
 ;
 authorityHeader

@@ -700,12 +700,12 @@ str
 ;
 path
 .
-AppendLiteral
+Append
 (
-"
+'
 \
 \
-"
+'
 )
 ;
 nsresult
