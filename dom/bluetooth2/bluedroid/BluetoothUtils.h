@@ -39,13 +39,6 @@ BluetoothValue
 class
 BluetoothReplyRunnable
 ;
-const
-bt_interface_t
-*
-GetBluetoothInterface
-(
-)
-;
 void
 StringToBdAddressType
 (
