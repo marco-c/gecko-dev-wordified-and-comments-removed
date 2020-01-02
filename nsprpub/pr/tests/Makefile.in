@@ -503,6 +503,10 @@ rmdir
 .
 c
 \
+rwlockrank
+.
+c
+\
 rwlocktest
 .
 c
