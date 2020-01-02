@@ -289,8 +289,6 @@ runtime
 )
 -
 >
-gc
-.
 upcomingZealousGC
 (
 )

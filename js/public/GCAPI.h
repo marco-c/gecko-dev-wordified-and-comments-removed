@@ -807,15 +807,9 @@ AutoAssertOnGC
 #
 ifdef
 DEBUG
-js
-:
-:
-gc
-:
-:
-GCRuntime
+JSRuntime
 *
-gc
+runtime
 ;
 size_t
 gcNumber
