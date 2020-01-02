@@ -12760,9 +12760,6 @@ principals
 struct
 JSSecurityCallbacks
 {
-JSCheckAccessOp
-checkObjectAccess
-;
 JSCSPEvalChecker
 contentSecurityPolicyAllows
 ;
