@@ -930,6 +930,7 @@ EXT_occlusion_query_boolean
 ARB_occlusion_query2
 EXT_transform_feedback
 NV_transform_feedback
+ANGLE_depth_texture
 Extensions_Max
 Extensions_End
 }
