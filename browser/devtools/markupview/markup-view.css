@@ -204,7 +204,9 @@ tag
 -
 line
 .
-highlighter
+tag
+-
+state
 {
 position
 :
@@ -394,7 +396,9 @@ right
 ;
 }
 .
-highlighter
+tag
+-
+state
 .
 flash
 -

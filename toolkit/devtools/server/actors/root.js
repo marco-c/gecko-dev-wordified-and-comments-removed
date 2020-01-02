@@ -244,6 +244,9 @@ true
 editOuterHTML
 :
 true
+highlightable
+:
+true
 }
 }
 ;
