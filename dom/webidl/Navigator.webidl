@@ -939,6 +939,12 @@ getDataStores
 (
 DOMString
 name
+optional
+DOMString
+?
+owner
+=
+null
 )
 ;
 }

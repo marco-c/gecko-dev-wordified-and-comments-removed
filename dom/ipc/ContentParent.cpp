@@ -10083,6 +10083,10 @@ nsString
 &
 aName
 const
+nsString
+&
+aOwner
+const
 IPC
 :
 :
@@ -10132,6 +10136,7 @@ service
 GetDataStoresFromIPC
 (
 aName
+aOwner
 aPrincipal
 aValue
 )

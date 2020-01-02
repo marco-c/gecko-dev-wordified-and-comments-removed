@@ -154,6 +154,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 nsIPrincipal
 *
 aPrincipal
@@ -289,6 +293,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 uint32_t
 aAppId
 nsIPrincipal

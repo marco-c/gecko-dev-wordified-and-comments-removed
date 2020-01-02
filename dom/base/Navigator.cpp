@@ -6170,6 +6170,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 ErrorResult
 &
 aRv
@@ -6246,6 +6250,7 @@ GetDataStores
 (
 aWindow
 aName
+aOwner
 getter_AddRefs
 (
 promise
@@ -6292,6 +6297,10 @@ const
 nsAString
 &
 aName
+const
+nsAString
+&
+aOwner
 ErrorResult
 &
 aRv
@@ -6302,6 +6311,7 @@ GetDataStores
 (
 mWindow
 aName
+aOwner
 aRv
 )
 ;

@@ -2489,6 +2489,10 @@ nsString
 &
 aName
 const
+nsString
+&
+aOwner
+const
 IPC
 :
 :

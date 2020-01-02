@@ -2458,6 +2458,8 @@ DataStoreGetStores
 (
 nsString
 aName
+nsString
+aOwner
 Principal
 aPrincipal
 )
