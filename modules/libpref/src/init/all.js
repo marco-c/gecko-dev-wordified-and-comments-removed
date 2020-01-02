@@ -3409,16 +3409,6 @@ pref
 "
 print
 .
-whileInPrintPreview
-"
-true
-)
-;
-pref
-(
-"
-print
-.
 always_cache_old_pres
 "
 false
