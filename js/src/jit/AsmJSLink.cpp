@@ -3333,6 +3333,15 @@ Invoke
 (
 cx
 args
+args
+.
+isConstructing
+(
+)
+?
+CONSTRUCT
+:
+NO_CONSTRUCT
 )
 ;
 }
