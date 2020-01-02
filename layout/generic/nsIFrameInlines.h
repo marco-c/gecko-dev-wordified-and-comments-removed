@@ -46,8 +46,12 @@ flexContainerFrame
 &
 &
 !
-IsAbsolutelyPositioned
 (
+GetStateBits
+(
+)
+&
+NS_FRAME_OUT_OF_FLOW
 )
 ;
 }
