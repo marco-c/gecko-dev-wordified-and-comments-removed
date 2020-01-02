@@ -199,6 +199,17 @@ reftests
 /
 fonts
 /
+math
+/
+mochitest
+.
+ini
+'
+'
+reftests
+/
+fonts
+/
 mochitest
 .
 ini
