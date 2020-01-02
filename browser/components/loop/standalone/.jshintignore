@@ -6,4 +6,6 @@ shared
 libs
 test
 /
+shared
+/
 vendor
