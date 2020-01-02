@@ -927,7 +927,6 @@ if
 WrapNewBindingObject
 (
 aCx
-scope
 this
 &
 val
@@ -1780,7 +1779,6 @@ dom
 WrapNewBindingObject
 (
 aCx
-obj
 aPromise
 &
 promiseObj
@@ -1921,7 +1919,6 @@ dom
 WrapNewBindingObject
 (
 aCx
-obj
 aPromise
 &
 promiseObj

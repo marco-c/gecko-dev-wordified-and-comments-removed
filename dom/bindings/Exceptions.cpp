@@ -398,7 +398,6 @@ if
 WrapNewBindingObject
 (
 aCx
-glob
 aException
 &
 thrown

@@ -150,7 +150,6 @@ dom
 WrapNewBindingObject
 (
 cx
-wrapper
 const_cast
 <
 WebGLObjectType
