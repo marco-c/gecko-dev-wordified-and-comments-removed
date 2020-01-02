@@ -261,6 +261,12 @@ JumpListItem
 public
 nsIJumpListLink
 {
+~
+JumpListLink
+(
+)
+{
+}
 public
 :
 JumpListLink
