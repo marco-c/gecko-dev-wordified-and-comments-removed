@@ -1900,7 +1900,7 @@ struct_
 WINDOW_EVENT_HELPER
 (
 name_
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 )
 #
 include

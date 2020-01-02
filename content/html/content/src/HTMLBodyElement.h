@@ -41,7 +41,7 @@ namespace
 dom
 {
 class
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 ;
 class
 HTMLBodyElement
@@ -264,7 +264,7 @@ struct_
 WINDOW_EVENT_HELPER
 (
 name_
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 )
 #
 include

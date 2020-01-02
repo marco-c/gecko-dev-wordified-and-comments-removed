@@ -179,7 +179,7 @@ EventHandler
 TreatNonCallableAsNull
 ]
 callback
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 =
 DOMString
 ?
@@ -189,9 +189,9 @@ event
 )
 ;
 typedef
-OnBeforeUnloadEventHandlerNonNull
+BeforeUnloadEventHandlerNonNull
 ?
-OnBeforeUnloadEventHandler
+BeforeUnloadEventHandler
 ;
 [
 TreatNonCallableAsNull
@@ -593,7 +593,7 @@ EventHandler
 onbeforeprint
 ;
 attribute
-OnBeforeUnloadEventHandler
+BeforeUnloadEventHandler
 onbeforeunload
 ;
 /
