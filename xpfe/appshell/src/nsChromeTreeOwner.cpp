@@ -139,13 +139,6 @@ using
 namespace
 mozilla
 ;
-static
-NS_DEFINE_CID
-(
-kWindowMediatorCID
-NS_WINDOWMEDIATOR_CID
-)
-;
 struct
 nsChromeTreeOwnerLiterals
 {
@@ -549,6 +542,12 @@ nsIDocShellTreeItem
 aFoundItem
 )
 {
+NS_DEFINE_CID
+(
+kWindowMediatorCID
+NS_WINDOWMEDIATOR_CID
+)
+;
 NS_ENSURE_ARG_POINTER
 (
 aFoundItem
