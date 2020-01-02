@@ -1664,10 +1664,6 @@ sNativePropertyHooks
 "
 "
 )
-.
-rstrip
-(
-)
     
 def
 define
@@ -9250,11 +9246,6 @@ self
 return
 (
 "
-\
-n
-"
-                
-"
 %
 s
 *
@@ -10278,6 +10269,11 @@ ctorName
         
 return
 preamble
++
+"
+\
+n
+"
 +
 callGenerator
 .
@@ -15762,10 +15758,6 @@ define
 (
 self
 )
-.
-rstrip
-(
-)
 class
 CGCreateInterfaceObjectsMethod
 (
@@ -19218,11 +19210,6 @@ object
 \
 n
 "
-            
-"
-\
-n
-"
 )
     
 else
@@ -19546,8 +19533,6 @@ hasMembersInSlots
         
 return
 "
-\
-n
 "
     
 if
@@ -29269,11 +29254,6 @@ define
 (
 )
 )
-+
-"
-\
-n
-"
             
 template
 =
@@ -31493,11 +31473,6 @@ haveObject
 CGGeneric
 (
 conversion
-+
-"
-\
-n
-"
 )
                                            
 CGGeneric
@@ -45857,8 +45832,6 @@ s
 ;
 \
 n
-\
-n
 '
 %
                                
@@ -45907,18 +45880,9 @@ self
 .
 cgRoot
 =
-CGWrapper
-(
 CGList
 (
 overloadCGThings
-)
-pre
-=
-"
-\
-n
-"
 )
     
 def
@@ -57689,8 +57653,6 @@ default
 CGGeneric
 (
 "
-\
-n
 "
 )
 )
@@ -57705,8 +57667,6 @@ else
 traceBody
 =
 "
-\
-n
 "
             
 methods
@@ -60835,11 +60795,6 @@ self
 getBody
 (
 )
-or
-"
-\
-n
-"
 )
 class
 ClassMember
@@ -62630,8 +62585,6 @@ desc
 ;
 \
 n
-\
-n
 "
 class
 CGResolveOwnPropertyViaNewresolve
@@ -63152,8 +63105,6 @@ wrapper
 props
 )
 ;
-\
-n
 \
 n
 "
@@ -66834,6 +66785,8 @@ defined
 =
 true
 ;
+\
+n
 "
                                    
 "
@@ -66864,11 +66817,6 @@ n
                                    
 "
 }
-\
-n
-"
-                                   
-"
 \
 n
 "
@@ -67765,8 +67713,6 @@ n
 }
 \
 n
-\
-n
 "
 )
             
@@ -67809,17 +67755,6 @@ id
 define
 (
 )
-        
-else
-:
-            
-delete
-+
-=
-"
-\
-n
-"
         
 delete
 +
@@ -68695,8 +68630,6 @@ named
 return
 true
 ;
-\
-n
 \
 n
 "
@@ -74974,17 +74907,6 @@ self
 memberInfo
 )
         
-else
-:
-            
-body
-+
-=
-"
-\
-n
-"
-        
 body
 +
 =
@@ -75354,17 +75276,6 @@ join
 memberTraces
 )
         
-else
-:
-            
-body
-+
-=
-"
-\
-n
-"
-        
 return
 ClassMethod
 (
@@ -75637,11 +75548,6 @@ body
 define
 (
 )
-or
-"
-\
-n
-"
 )
     
 def
@@ -90309,36 +90215,6 @@ define
 (
 )
         
-if
-type
-=
-=
-"
-"
-:
-            
-type
-=
-"
-\
-n
-"
-        
-if
-assignRetval
-=
-=
-"
-"
-:
-            
-assignRetval
-=
-"
-\
-n
-"
-        
 return
 type
 +
@@ -90384,8 +90260,6 @@ argConversions
             
 return
 "
-\
-n
 \
 n
 "
