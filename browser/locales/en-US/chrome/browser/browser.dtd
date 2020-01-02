@@ -1683,17 +1683,6 @@ Search
 <
 !
 ENTITY
-throbberItem
-.
-title
-"
-Activity
-Indicator
-"
->
-<
-!
-ENTITY
 bookmarksItem
 .
 title
