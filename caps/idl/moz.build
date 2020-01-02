@@ -112,11 +112,6 @@ nsIScriptSecurityManager
 .
 idl
 '
-'
-nsISecurityCheckedComponent
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
