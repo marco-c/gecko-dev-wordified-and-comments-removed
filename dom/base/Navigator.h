@@ -1126,6 +1126,17 @@ JSObject
 aGlobal
 )
 ;
+static
+bool
+HasNfcPeerSupport
+(
+JSContext
+*
+JSObject
+*
+aGlobal
+)
+;
 #
 endif
 #
