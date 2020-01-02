@@ -632,7 +632,7 @@ kFxAccountsClient
 =
 FxAccountsManager
 .
-_createFxAccountsClient
+_getFxAccountsClient
 ;
 let
 FakeFxAccountsClient
@@ -931,7 +931,7 @@ promise
 ;
 FxAccountsManager
 .
-_createFxAccountsClient
+_getFxAccountsClient
 =
 function
 (
@@ -941,6 +941,7 @@ return
 FakeFxAccountsClient
 ;
 }
+;
 do_register_cleanup
 (
 function
@@ -999,7 +1000,7 @@ kFxAccounts
 ;
 FxAccountsManager
 .
-_createFxAccountsClient
+_getFxAccountsClient
 =
 kFxAccountsClient
 ;
