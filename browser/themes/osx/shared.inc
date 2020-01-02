@@ -118,8 +118,8 @@ toolbarColorLWT
 )
 %
 define
-fgTabBackgroundMiddle
-none
+fgTabBackgroundColor
+transparent
 %
 define
 hudButton
