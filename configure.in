@@ -53760,6 +53760,13 @@ MOZ_GMP_SANDBOX
 esac
 ;
 ;
+Darwin
+)
+MOZ_GMP_SANDBOX
+=
+1
+;
+;
 esac
 if
 test
