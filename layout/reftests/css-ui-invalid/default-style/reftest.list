@@ -58,6 +58,12 @@ output
 ref
 .
 html
+random
+-
+if
+(
+winWidget
+)
 needs
 -
 focus
@@ -75,6 +81,11 @@ focus
 ref
 .
 html
+#
+Intermittent
+failures
+bug
+660224
 needs
 -
 focus
@@ -109,6 +120,12 @@ focus
 ref
 .
 html
+random
+-
+if
+(
+winWidget
+)
 needs
 -
 focus
@@ -126,3 +143,8 @@ focus
 ref
 .
 html
+#
+Intermittent
+failures
+bug
+660224
