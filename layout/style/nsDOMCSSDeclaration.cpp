@@ -667,7 +667,7 @@ aPropertyName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
@@ -742,7 +742,7 @@ aPropertyName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
@@ -909,7 +909,7 @@ aPropertyName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
@@ -1050,7 +1050,7 @@ aPropertyName
 nsCSSProps
 :
 :
-eEnabled
+eEnabledForAllContent
 )
 ;
 if
