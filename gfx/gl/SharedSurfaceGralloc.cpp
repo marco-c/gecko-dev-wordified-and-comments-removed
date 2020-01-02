@@ -984,7 +984,7 @@ WaitForBufferOwnership
 mTextureClient
 -
 >
-WaitReleaseFence
+WaitForBufferOwnership
 (
 )
 ;
