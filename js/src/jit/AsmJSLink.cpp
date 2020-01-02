@@ -2670,7 +2670,7 @@ begin
 =
 module
 .
-offsetToEndOfUseAsm
+srcBodyStart
 (
 )
 ;
@@ -2679,7 +2679,7 @@ end
 =
 module
 .
-funcEndBeforeCurly
+srcEndBeforeCurly
 (
 )
 ;
@@ -4604,7 +4604,7 @@ begin
 =
 module
 .
-funcStart
+srcStart
 (
 )
 ;
@@ -4613,7 +4613,7 @@ end
 =
 module
 .
-funcEndAfterCurly
+srcEndAfterCurly
 (
 )
 ;
@@ -5238,7 +5238,7 @@ begin
 =
 module
 .
-funcStart
+srcStart
 (
 )
 +
@@ -5253,7 +5253,7 @@ end
 =
 module
 .
-funcStart
+srcStart
 (
 )
 +
