@@ -850,15 +850,6 @@ mSize
 ;
 }
 virtual
-void
-SetPermitSubpixelAA
-(
-bool
-aPermitSubpixelAA
-)
-MOZ_OVERRIDE
-;
-virtual
 TemporaryRef
 <
 SourceSurface
