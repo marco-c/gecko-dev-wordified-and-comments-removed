@@ -7411,6 +7411,16 @@ n
 n
 +
 =
+mKey
+.
+SizeOfExcludingThisIfUnshared
+(
+mallocSizeOf
+)
+;
+n
++
+=
 mChunks
 .
 SizeOfExcludingThis
