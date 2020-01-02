@@ -11380,6 +11380,12 @@ bookmark
 -
 item
 )
+:
+not
+(
+.
+overflowedItem
+)
 >
 .
 toolbarbutton

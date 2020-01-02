@@ -5861,6 +5861,12 @@ updateVisibility
 (
 )
 ;
+BookmarkingUI
+.
+init
+(
+)
+;
 gPrefService
 .
 addObserver
