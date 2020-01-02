@@ -151,10 +151,6 @@ float
 aLowLoadThreshold
 )
 :
-mLastSystemLoad
-(
-0
-)
 mLoadSum
 (
 0

@@ -201,9 +201,6 @@ nsIThread
 >
 mLoadInfoThread
 ;
-uint64_t
-mTicksPerInterval
-;
 float
 mSystemLoad
 ;
