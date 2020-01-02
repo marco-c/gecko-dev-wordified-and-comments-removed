@@ -342,6 +342,16 @@ XP_LINUX
 )
 if
 (
+profiler_is_active
+(
+)
+)
+{
+return
+;
+}
+if
+(
 !
 sInitialized
 )
