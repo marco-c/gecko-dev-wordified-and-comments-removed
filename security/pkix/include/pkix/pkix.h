@@ -30,6 +30,7 @@ BuildCertChain
 TrustDomain
 &
 trustDomain
+const
 CERTCertificate
 *
 cert
@@ -62,9 +63,9 @@ CERTSignedData
 *
 sd
 const
-CERTCertificate
-*
-cert
+SECItem
+&
+subjectPublicKeyInfo
 void
 *
 pkcs11PinArg

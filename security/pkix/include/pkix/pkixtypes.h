@@ -97,14 +97,6 @@ CERT_DestroyCertList
 >
 ScopedCERTCertList
 ;
-typedef
-ScopedPtr
-<
-SECKEYPublicKey
-SECKEY_DestroyPublicKey
->
-ScopedSECKEYPublicKey
-;
 MOZILLA_PKIX_ENUM_CLASS
 EndEntityOrCA
 {
@@ -249,9 +241,9 @@ CERTSignedData
 *
 signedData
 const
-CERTCertificate
-*
-cert
+SECItem
+&
+subjectPublicKeyInfo
 )
 =
 0

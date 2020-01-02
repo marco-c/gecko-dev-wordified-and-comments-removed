@@ -555,9 +555,9 @@ CERTSignedData
 *
 signedData
 const
-CERTCertificate
-*
-cert
+SECItem
+&
+subjectPublicKeyInfo
 )
 {
 return
@@ -572,7 +572,7 @@ pkix
 VerifySignedData
 (
 signedData
-cert
+subjectPublicKeyInfo
 nullptr
 )
 ;

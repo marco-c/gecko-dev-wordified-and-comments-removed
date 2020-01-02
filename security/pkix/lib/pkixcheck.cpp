@@ -1027,7 +1027,9 @@ constrainedNames
 =
 CERT_GetConstrainedCertificateNames
 (
-nssCert
+GetNSSCert
+(
+)
 arena
 .
 get
