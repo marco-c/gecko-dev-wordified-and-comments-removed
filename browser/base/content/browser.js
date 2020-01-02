@@ -30068,6 +30068,12 @@ isWindowPrivate
 (
 window
 )
+&
+&
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
 ;
 if
 (
