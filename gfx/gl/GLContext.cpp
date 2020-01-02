@@ -6859,6 +6859,12 @@ v
 ;
 raw_fGetIntegerv
 (
+LOCAL_GL_VIEWPORT
+mViewportRect
+)
+;
+raw_fGetIntegerv
+(
 LOCAL_GL_MAX_TEXTURE_SIZE
 &
 mMaxTextureSize
