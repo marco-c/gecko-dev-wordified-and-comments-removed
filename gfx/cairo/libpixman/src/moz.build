@@ -494,7 +494,7 @@ True
 FINAL_LIBRARY
 =
 '
-xul
+gkmedias
 '
 LOCAL_INCLUDES
 +
