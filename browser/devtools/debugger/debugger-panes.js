@@ -6273,6 +6273,12 @@ e
 .
 DOM_VK_ESCAPE
 :
+e
+.
+stopPropagation
+(
+)
+;
 DebuggerView
 .
 editor
