@@ -501,7 +501,7 @@ doc
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
