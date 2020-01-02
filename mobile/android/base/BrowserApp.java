@@ -13277,9 +13277,9 @@ null
 ?
 profile
 :
-"
-default
-"
+GeckoProfile
+.
+DEFAULT_PROFILE
 )
 ;
 }

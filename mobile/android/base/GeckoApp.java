@@ -7178,9 +7178,9 @@ null
 )
 profileName
 =
-"
-default
-"
+GeckoProfile
+.
+DEFAULT_PROFILE
 ;
 }
 GeckoProfile
