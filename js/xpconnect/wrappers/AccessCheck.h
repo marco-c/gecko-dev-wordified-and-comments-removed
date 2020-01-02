@@ -577,7 +577,11 @@ JS
 NativeImpl
 impl
 )
+{
+return
+false
 ;
+}
 }
 ;
 }
