@@ -288,6 +288,11 @@ nsIFileURL
 idl
 '
 '
+nsIForcePendingChannel
+.
+idl
+'
+'
 nsIIncrementalDownload
 .
 idl

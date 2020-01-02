@@ -49,6 +49,7 @@ nsIUploadChannel
 nsIResumableChannel
 nsIFTPChannel
 nsIProxiedChannel
+nsIForcePendingChannel
 )
 NS_IMETHODIMP
 nsFtpChannel
@@ -588,7 +589,7 @@ aResult
 mFTPEventSink
 ;
 }
-void
+NS_IMETHODIMP
 nsFtpChannel
 :
 :
@@ -601,6 +602,9 @@ aForcePending
 mForcePending
 =
 aForcePending
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIForcePendingChannel
+.
+h
+"
+#
+include
+"
 nsIUploadChannel
 .
 h
@@ -76,6 +83,8 @@ public
 nsIResumableChannel
 public
 nsIProxiedChannel
+public
+nsIForcePendingChannel
 {
 public
 :
@@ -257,7 +266,7 @@ aResult
 ;
 public
 :
-void
+NS_IMETHOD
 ForcePending
 (
 bool

@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsIHttpChannelInternal
+nsIForcePendingChannel
 .
 h
 "
@@ -607,9 +607,9 @@ request
 ;
 nsCOMPtr
 <
-nsIHttpChannelInternal
+nsIForcePendingChannel
 >
-httpChannel
+forcePendingChannel
 =
 do_QueryInterface
 (
@@ -618,10 +618,10 @@ request
 ;
 if
 (
-httpChannel
+forcePendingChannel
 )
 {
-httpChannel
+forcePendingChannel
 -
 >
 ForcePending
@@ -653,10 +653,10 @@ rv
 }
 if
 (
-httpChannel
+forcePendingChannel
 )
 {
-httpChannel
+forcePendingChannel
 -
 >
 ForcePending
