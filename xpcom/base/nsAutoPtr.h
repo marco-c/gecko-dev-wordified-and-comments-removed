@@ -1092,9 +1092,6 @@ get
 )
 ;
 }
-#
-ifndef
-NSCAP_DONT_PROVIDE_NONCONST_OPEQ
 template
 <
 class
@@ -1303,8 +1300,6 @@ get
 )
 ;
 }
-#
-endif
 template
 <
 class
@@ -2544,9 +2539,6 @@ get
 )
 ;
 }
-#
-ifndef
-NSCAP_DONT_PROVIDE_NONCONST_OPEQ
 template
 <
 class
@@ -2755,8 +2747,6 @@ get
 )
 ;
 }
-#
-endif
 template
 <
 class
@@ -4538,9 +4528,6 @@ get
 )
 ;
 }
-#
-ifndef
-NSCAP_DONT_PROVIDE_NONCONST_OPEQ
 template
 <
 class
@@ -4749,8 +4736,6 @@ get
 )
 ;
 }
-#
-endif
 template
 <
 class
