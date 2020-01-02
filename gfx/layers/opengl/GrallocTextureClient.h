@@ -80,9 +80,8 @@ public
 :
 GrallocTextureClientOGL
 (
-GrallocBufferActor
-*
-aActor
+MaybeMagicGrallocBufferHandle
+buffer
 gfx
 :
 :
@@ -210,9 +209,8 @@ MOZ_OVERRIDE
 void
 InitWith
 (
-GrallocBufferActor
-*
-aActor
+MaybeMagicGrallocBufferHandle
+aDesc
 gfx
 :
 :
@@ -411,9 +409,8 @@ mMediaBuffer
 }
 protected
 :
-GrallocBufferActor
-*
-mGrallocActor
+MaybeMagicGrallocBufferHandle
+mGrallocHandle
 ;
 android
 :
