@@ -751,7 +751,7 @@ thread_info_t
 *
 sCurrentRecreatingThread
 =
-NULL
+nullptr
 ;
 static
 void
@@ -773,7 +773,7 @@ tinfo
 recrFunc
 !
 =
-NULL
+nullptr
 )
 {
 tinfo
@@ -982,7 +982,7 @@ tinfo
 }
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1163,7 +1163,7 @@ thread_info_t
 *
 sCurThreadInfo
 =
-NULL
+nullptr
 ;
 #
 define
@@ -1563,7 +1563,7 @@ if
 oldinfo
 !
 =
-NULL
+nullptr
 )
 {
 abort
@@ -1613,7 +1613,7 @@ end
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1737,7 +1737,7 @@ sInstance
 ;
 sInstance
 =
-NULL
+nullptr
 ;
 }
 private
@@ -1805,14 +1805,14 @@ tinfo
 >
 recrFunc
 =
-NULL
+nullptr
 ;
 tinfo
 -
 >
 recrArg
 =
-NULL
+nullptr
 ;
 tinfo
 -
@@ -1826,7 +1826,7 @@ tinfo
 >
 reacquireMutex
 =
-NULL
+nullptr
 ;
 tinfo
 -
@@ -2381,7 +2381,7 @@ if
 value
 =
 =
-NULL
+nullptr
 )
 {
 continue
@@ -2741,7 +2741,7 @@ if
 tinfo
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4853,7 +4853,7 @@ if
 info
 =
 =
-NULL
+nullptr
 )
 {
 abort
@@ -5043,7 +5043,7 @@ retEnv
 )
 {
 return
-NULL
+nullptr
 ;
 }
 longjmp
@@ -5060,7 +5060,7 @@ abort
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -5193,7 +5193,7 @@ while
 tinfo
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -5902,14 +5902,14 @@ NuwaProtoFdInfo
 int
 )
 =
-NULL
+nullptr
 ;
 if
 (
 AddNewIPCProcess
 =
 =
-NULL
+nullptr
 )
 {
 AddNewIPCProcess
@@ -6371,7 +6371,7 @@ int
 *
 )
 =
-NULL
+nullptr
 ;
 void
 (
@@ -6381,7 +6381,7 @@ OnNuwaProcessReady
 (
 )
 =
-NULL
+nullptr
 ;
 sIsFreezing
 =
@@ -6536,7 +6536,7 @@ if
 tinfo
 =
 =
-NULL
+nullptr
 )
 {
 abort
@@ -6591,7 +6591,7 @@ if
 tinfo
 =
 =
-NULL
+nullptr
 )
 {
 abort

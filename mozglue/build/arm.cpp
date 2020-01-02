@@ -333,7 +333,7 @@ if
 fin
 !
 =
-NULL
+nullptr
 )
 {
 char
@@ -352,7 +352,7 @@ fin
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -389,7 +389,7 @@ if
 p
 !
 =
-NULL
+nullptr
 &
 &
 (
@@ -435,7 +435,7 @@ if
 p
 !
 =
-NULL
+nullptr
 &
 &
 (
