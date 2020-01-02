@@ -68,9 +68,7 @@ document
 body
 ;
 let
-[
 appTabIcon
-]
 =
 cw
 .
@@ -83,6 +81,9 @@ appTabTray
 appTabIcon
 "
 )
+[
+0
+]
 ;
 EventUtils
 .
