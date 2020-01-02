@@ -460,6 +460,9 @@ RTCIceCandidateStats
 RTCStats
 {
 DOMString
+componentId
+;
+DOMString
 candidateId
 ;
 DOMString
