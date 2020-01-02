@@ -3602,9 +3602,6 @@ ccx
 JS_CALLER
 cx
 obj
-js
-:
-:
 NullPtr
 (
 )
