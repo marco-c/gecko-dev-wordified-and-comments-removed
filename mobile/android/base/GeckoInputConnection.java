@@ -3006,12 +3006,13 @@ TYPE_TEXT_FLAG_CAP_WORDS
 else
 if
 (
+!
 mIMEModeHint
 .
 equalsIgnoreCase
 (
 "
-autocapitalized
+lowercase
 "
 )
 )
