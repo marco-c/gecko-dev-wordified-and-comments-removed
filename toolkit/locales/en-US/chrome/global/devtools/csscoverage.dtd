@@ -223,7 +223,7 @@ csscoverage
 unused
 csscoverage
 .
-noMatch
+noMatches
 )
 :
 -
@@ -261,7 +261,7 @@ Rules
 ENTITY
 csscoverage
 .
-noMatch
+noMatches
 "
 No
 matches
@@ -283,6 +283,8 @@ NOTE
 csscoverage
 .
 optimize
+.
+header
 )
 :
 -
@@ -454,7 +456,9 @@ NOTE
 (
 csscoverage
 .
-noPreload
+optimize
+.
+bodyX
 )
 :
 -
