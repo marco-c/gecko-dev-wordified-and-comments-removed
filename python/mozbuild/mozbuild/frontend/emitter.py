@@ -636,11 +636,6 @@ exclusions
 =
 (
 '
-ipc
-/
-chromium
-'
-'
 gfx
 '
 '
