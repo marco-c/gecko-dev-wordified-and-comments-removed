@@ -2264,7 +2264,7 @@ second
 {
 relationType
 .
-construct
+emplace
 (
 sRelationTypePairs
 [
@@ -2280,11 +2280,8 @@ break
 }
 if
 (
+!
 relationType
-.
-empty
-(
-)
 )
 return
 E_INVALIDARG
@@ -2322,11 +2319,8 @@ acc
 >
 RelationByType
 (
+*
 relationType
-.
-ref
-(
-)
 )
 ;
 nsTArray
