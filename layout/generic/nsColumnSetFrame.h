@@ -50,6 +50,9 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+DEBUG
 virtual
 void
 SetInitialChildList
@@ -101,6 +104,8 @@ aOldFrame
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 virtual
 nscoord
 GetMinWidth
