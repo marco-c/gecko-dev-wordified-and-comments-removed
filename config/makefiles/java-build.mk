@@ -849,10 +849,17 @@ jar
 _JAVAFILES
 )
 (
+addprefix
+(
+CURDIR
+)
+/
+(
 (
 jar
 )
 _PP_JAVAFILES
+)
 )
 (
 (

@@ -1746,6 +1746,10 @@ aapt
 invocations
 .
 (
+CURDIR
+)
+/
+(
 gecko_package_dir
 )
 /
@@ -1825,6 +1829,10 @@ Comment
 3
 ]
 .
+(
+CURDIR
+)
+/
 gecko
 -
 nodeps
@@ -1933,6 +1941,9 @@ dir
 )
 (
 2
+)
+(
+REPORT_BUILD
 )
 (
 AAPT
@@ -2183,6 +2194,10 @@ fennec_ids
 txt
 :
 (
+CURDIR
+)
+/
+(
 gecko_package_dir
 )
 /
@@ -2196,6 +2211,9 @@ ids
 generator
 .
 py
+(
+REPORT_BUILD
+)
 (
 PYTHON
 )
