@@ -986,7 +986,7 @@ isMemory
 {
 masm
 .
-movsd
+loadDouble
 (
 toOperand
 (
@@ -997,7 +997,7 @@ ScratchFloatReg
 ;
 masm
 .
-movsd
+storeDouble
 (
 ScratchFloatReg
 cycleSlot
@@ -1010,7 +1010,7 @@ else
 {
 masm
 .
-movsd
+storeDouble
 (
 to
 .
@@ -1097,7 +1097,7 @@ isMemory
 {
 masm
 .
-movsd
+loadDouble
 (
 cycleSlot
 (
@@ -1107,7 +1107,7 @@ ScratchFloatReg
 ;
 masm
 .
-movsd
+storeDouble
 (
 ScratchFloatReg
 toOperand
@@ -1121,7 +1121,7 @@ else
 {
 masm
 .
-movsd
+loadDouble
 (
 cycleSlot
 (
@@ -1474,7 +1474,7 @@ isFloatReg
 {
 masm
 .
-movsd
+loadDouble
 (
 toOperand
 (
@@ -1501,7 +1501,7 @@ isMemory
 ;
 masm
 .
-movsd
+loadDouble
 (
 toOperand
 (
@@ -1512,7 +1512,7 @@ ScratchFloatReg
 ;
 masm
 .
-movsd
+storeDouble
 (
 ScratchFloatReg
 toOperand

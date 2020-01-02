@@ -1358,7 +1358,7 @@ dst
 else
 masm
 .
-movsd
+storeDouble
 (
 ToFloatRegister
 (
@@ -1369,10 +1369,7 @@ arg
 (
 )
 )
-Operand
-(
 dst
-)
 )
 ;
 }

@@ -1068,7 +1068,7 @@ MIRType_Double
 {
 masm
 .
-movsd
+storeDouble
 (
 ToFloatRegister
 (
@@ -1419,7 +1419,7 @@ MIRType_Double
 {
 masm
 .
-movsd
+storeDouble
 (
 ToFloatRegister
 (
@@ -4865,7 +4865,7 @@ esp
 ;
 masm
 .
-movsd
+loadDouble
 (
 Operand
 (
@@ -5337,7 +5337,7 @@ esp
 ;
 masm
 .
-movsd
+storeDouble
 (
 input
 Operand
