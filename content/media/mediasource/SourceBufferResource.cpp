@@ -591,6 +591,12 @@ uint32_t
 aThreshold
 )
 {
+ReentrantMonitorAutoEnter
+mon
+(
+mMonitor
+)
+;
 return
 mInputBuffer
 .
@@ -611,6 +617,12 @@ uint64_t
 aOffset
 )
 {
+ReentrantMonitorAutoEnter
+mon
+(
+mMonitor
+)
+;
 if
 (
 aOffset
