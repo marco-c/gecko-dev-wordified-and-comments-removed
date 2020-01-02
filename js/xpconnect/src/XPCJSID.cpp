@@ -2536,7 +2536,9 @@ nsCID
 *
 cid
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 registrar
 -
@@ -2547,8 +2549,10 @@ str
 &
 cid
 )
-nullptr
 )
+)
+return
+nullptr
 ;
 bool
 success
