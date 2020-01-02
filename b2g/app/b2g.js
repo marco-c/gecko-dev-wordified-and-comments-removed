@@ -5795,3 +5795,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+dom
+.
+mozDownloads
+.
+enabled
+"
+true
+)
+;
