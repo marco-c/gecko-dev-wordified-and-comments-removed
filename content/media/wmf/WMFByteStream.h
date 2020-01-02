@@ -63,9 +63,6 @@ RefPtr
 .
 h
 "
-class
-nsIThreadPool
-;
 namespace
 mozilla
 {
@@ -77,6 +74,9 @@ ReadRequest
 ;
 class
 WMFSourceReaderCallback
+;
+class
+SharedThreadPool
 ;
 class
 WMFByteStream
@@ -606,9 +606,9 @@ IsEOS
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIThreadPool
+SharedThreadPool
 >
 mThreadPool
 ;

@@ -478,6 +478,11 @@ SharedBuffer
 h
 '
 '
+SharedThreadPool
+.
+h
+'
+'
 StreamBuffer
 .
 h
@@ -688,6 +693,11 @@ cpp
 '
 '
 RtspMediaResource
+.
+cpp
+'
+'
+SharedThreadPool
 .
 cpp
 '
