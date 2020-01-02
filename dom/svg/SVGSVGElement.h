@@ -189,6 +189,7 @@ aElement
 nsISVGPoint
 (
 aPt
+true
 )
 mElement
 (
@@ -210,6 +211,7 @@ aPt
 -
 >
 mPt
+true
 )
 mElement
 (
@@ -227,9 +229,9 @@ DOMSVGTranslatePoint
 nsISVGPoint
 )
 virtual
-nsISVGPoint
+DOMSVGPoint
 *
-Clone
+Copy
 (
 )
 MOZ_OVERRIDE
