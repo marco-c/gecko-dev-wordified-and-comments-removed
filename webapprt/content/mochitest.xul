@@ -99,6 +99,11 @@ css
 >
 <
 window
+id
+=
+"
+browserTestHarness
+"
 windowtype
 =
 "
