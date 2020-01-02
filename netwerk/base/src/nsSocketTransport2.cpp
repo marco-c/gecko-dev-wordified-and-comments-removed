@@ -4827,10 +4827,6 @@ fd
 ;
 }
 }
-CleanupTypes
-(
-)
-;
 return
 rv
 ;
