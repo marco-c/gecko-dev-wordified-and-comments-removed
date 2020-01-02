@@ -281,6 +281,13 @@ defined
 (
 HAVE_LSTAT64
 )
+&
+&
+!
+defined
+(
+XP_MACOSX
+)
 #
 if
 defined
