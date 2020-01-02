@@ -80,6 +80,7 @@ passwordManager
 .
 xul
 )
+*
 content
 /
 passwordmgr
@@ -94,6 +95,7 @@ passwordManager
 .
 js
 )
+*
 content
 /
 passwordmgr

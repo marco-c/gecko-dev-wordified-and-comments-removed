@@ -171,6 +171,7 @@ preferences
 cookies
 .
 xul
+*
 content
 /
 browser
@@ -302,6 +303,7 @@ preferences
 permissions
 .
 xul
+*
 content
 /
 browser
