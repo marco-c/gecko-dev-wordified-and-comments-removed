@@ -157,6 +157,11 @@ SimpleServiceDiscovery
 .
 jsm
 '
+'
+SSLExceptions
+.
+jsm
+'
 ]
 if
 CONFIG
