@@ -2223,7 +2223,7 @@ label
 /
 >
 <
-vbox
+hbox
 id
 =
 "
@@ -2231,6 +2231,9 @@ fxaSyncEngines
 "
 >
 <
+vbox
+>
+<
 checkbox
 label
 =
@@ -2431,6 +2434,14 @@ prefs
 <
 /
 vbox
+>
+<
+spacer
+/
+>
+<
+/
+hbox
 >
 <
 /
