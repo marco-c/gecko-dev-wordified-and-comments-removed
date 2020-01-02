@@ -3219,13 +3219,6 @@ sMaxVibrateMS
 }
 if
 (
-pattern
-.
-IsEmpty
-(
-)
-|
-|
 !
 sVibratorEnabled
 )
