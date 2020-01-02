@@ -1,4 +1,10 @@
 #
+ifndef
+nsCSPService_h___
+#
+define
+nsCSPService_h___
+#
 include
 "
 nsXPCOM
@@ -85,6 +91,10 @@ static
 bool
 sCSPEnabled
 ;
+static
+bool
+sNewBackendEnabled
+;
 private
 :
 nsDataHashtable
@@ -96,3 +106,5 @@ mAppStatusCache
 ;
 }
 ;
+#
+endif
