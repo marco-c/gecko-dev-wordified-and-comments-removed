@@ -68,6 +68,13 @@ gcli
 /
 commands
 /
+csscoverage
+"
+"
+gcli
+/
+commands
+/
 jsb
 "
 "
