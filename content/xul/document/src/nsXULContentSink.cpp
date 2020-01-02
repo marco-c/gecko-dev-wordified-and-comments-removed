@@ -2171,7 +2171,6 @@ script
 >
 mLineNo
 doc
-mPrototype
 )
 ;
 }

@@ -12120,19 +12120,11 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsXULPrototypeDocument
-*
-aProtoDoc
 nsIOffThreadScriptReceiver
 *
 aOffThreadReceiver
 )
 {
-NS_ENSURE_STATE
-(
-aProtoDoc
-)
-;
 NS_ENSURE_TRUE
 (
 xpc
@@ -12378,9 +12370,6 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsXULPrototypeDocument
-*
-aProtoDoc
 nsIOffThreadScriptReceiver
 *
 aOffThreadReceiver
@@ -12410,7 +12399,6 @@ srcBuf
 aURI
 aLineNo
 aDocument
-aProtoDoc
 aOffThreadReceiver
 )
 ;

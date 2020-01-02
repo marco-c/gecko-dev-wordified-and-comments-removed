@@ -873,9 +873,6 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsXULPrototypeDocument
-*
-aProtoDoc
 nsIOffThreadScriptReceiver
 *
 aOffThreadReceiver
@@ -900,9 +897,6 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsXULPrototypeDocument
-*
-aProtoDoc
 nsIOffThreadScriptReceiver
 *
 aOffThreadReceiver
