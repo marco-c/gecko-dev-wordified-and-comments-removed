@@ -175,9 +175,6 @@ CFStateChangeEvent
 DataErrorEvent
 '
 '
-IccCardLockErrorEvent
-'
-'
 MozEmergencyCbModeEvent
 '
 '

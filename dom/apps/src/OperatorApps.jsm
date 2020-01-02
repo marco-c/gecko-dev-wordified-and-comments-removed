@@ -349,13 +349,6 @@ function
 )
 {
 }
-notifyIccCardLockError
-:
-function
-(
-)
-{
-}
 notifyCardStateChanged
 :
 function

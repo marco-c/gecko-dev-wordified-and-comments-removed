@@ -2499,7 +2499,7 @@ DataErrorEvent
 webidl
 '
 '
-IccCardLockErrorEvent
+IccCardLockError
 .
 webidl
 '
