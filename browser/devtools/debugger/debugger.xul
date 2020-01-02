@@ -3060,6 +3060,11 @@ command
 "
 prettyPrintCommand
 "
+hidden
+=
+"
+true
+"
 /
 >
 <
