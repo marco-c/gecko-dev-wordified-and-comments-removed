@@ -53,7 +53,8 @@ MPL
 0
 /
 .
-HOST_LIBS
+HOST_EXTRA_LIBS
++
 =
 -
 lz

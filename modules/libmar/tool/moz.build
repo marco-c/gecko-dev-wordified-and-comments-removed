@@ -124,6 +124,14 @@ HOST_PROGRAM
 '
 mar
 '
+HOST_USE_LIBS
++
+=
+[
+'
+hostmar
+'
+]
 for
 var
 in
