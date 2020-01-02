@@ -931,6 +931,11 @@ lock
 )
 )
 ;
+if
+(
+lock
+)
+{
 lock
 -
 >
@@ -945,6 +950,7 @@ nullptr
 nullptr
 )
 ;
+}
 return
 NS_OK
 ;
