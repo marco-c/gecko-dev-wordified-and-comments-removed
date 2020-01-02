@@ -442,6 +442,17 @@ const
 {
 return
 mDeviceManager
+&
+&
+mDeviceResetCount
+=
+=
+mDeviceManager
+-
+>
+GetDeviceResetCount
+(
+)
 ?
 mDeviceManager
 -
