@@ -392,7 +392,7 @@ size
 The
 second
 scope
-shoild
+should
 have
 no
 variables
@@ -414,7 +414,7 @@ size
 The
 third
 scope
-shoild
+should
 have
 no
 variables
@@ -436,7 +436,7 @@ size
 The
 global
 scope
-shoild
+should
 have
 no
 variables
@@ -694,6 +694,9 @@ globalScope
 expand
 (
 )
+;
+yield
+fetched
 ;
 let
 someVar2
