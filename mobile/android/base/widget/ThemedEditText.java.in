@@ -3,7 +3,15 @@ filter
 substitution
 #
 define
-VIEWTYPE
+VIEW_NAME_SUFFIX
+EditText
+#
+define
+BASE_TYPE
+android
+.
+widget
+.
 EditText
 #
 include
