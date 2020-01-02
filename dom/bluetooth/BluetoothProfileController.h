@@ -244,16 +244,7 @@ EndSession
 )
 ;
 void
-OnConnect
-(
-const
-nsAString
-&
-aErrorStr
-)
-;
-void
-OnDisconnect
+NotifyCompletion
 (
 const
 nsAString

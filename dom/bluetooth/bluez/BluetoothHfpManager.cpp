@@ -5231,7 +5231,7 @@ sInShutdown
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -5258,7 +5258,7 @@ aDeviceAddress
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -5272,7 +5272,7 @@ else
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -5318,7 +5318,7 @@ this
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -5609,7 +5609,7 @@ aController
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -9057,7 +9057,7 @@ forget
 controller
 -
 >
-OnConnect
+NotifyCompletion
 (
 aErrorStr
 )
@@ -9110,7 +9110,7 @@ forget
 controller
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 aErrorStr
 )

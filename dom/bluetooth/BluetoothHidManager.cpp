@@ -463,7 +463,7 @@ sInShutdown
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -482,7 +482,7 @@ mConnected
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -524,7 +524,7 @@ Connect
 aController
 -
 >
-OnConnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -579,7 +579,7 @@ aController
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -605,7 +605,7 @@ aController
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -660,7 +660,7 @@ Disconnect
 aController
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 NS_LITERAL_STRING
 (
@@ -711,7 +711,7 @@ forget
 controller
 -
 >
-OnConnect
+NotifyCompletion
 (
 aErrorStr
 )
@@ -756,7 +756,7 @@ forget
 controller
 -
 >
-OnDisconnect
+NotifyCompletion
 (
 aErrorStr
 )
