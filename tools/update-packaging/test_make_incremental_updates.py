@@ -136,19 +136,6 @@ self
 .
 patch_info
 .
-manifestv1
-)
-        
-self
-.
-assertEquals
-(
-[
-]
-self
-.
-patch_info
-.
 manifestv2
 )
         
@@ -218,7 +205,7 @@ self
 .
 patch_info
 .
-manifestv1
+manifestv2
 )
     
 def
@@ -265,7 +252,7 @@ self
 .
 patch_info
 .
-manifestv1
+manifestv2
 )
     
 "
@@ -316,7 +303,7 @@ self
 .
 patch_info
 .
-manifestv1
+manifestv2
 )
     
 def

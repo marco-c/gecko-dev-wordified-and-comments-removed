@@ -61,10 +61,10 @@ x
 1
 "
 mv
-update
+updatev2
 .
 manifest
-update
+updatev2
 .
 manifest
 .
@@ -72,12 +72,12 @@ bz2
 bzip2
 -
 d
-update
+updatev2
 .
 manifest
 .
 bz2
 cat
-update
+updatev2
 .
 manifest
