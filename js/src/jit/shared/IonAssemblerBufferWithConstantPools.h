@@ -1042,12 +1042,6 @@ nodeSize
 if
 (
 size
-=
-=
-InstBaseSize
-|
-|
-size
 >
 =
 SliceSize
