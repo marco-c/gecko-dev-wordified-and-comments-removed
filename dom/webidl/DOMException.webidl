@@ -473,6 +473,9 @@ dealing
 with
 exceptions
 .
+[
+ExceptionClass
+]
 interface
 DOMException
 {
