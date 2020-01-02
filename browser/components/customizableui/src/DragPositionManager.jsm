@@ -481,6 +481,11 @@ aDraggedItemId
 ;
 if
 (
+this
+.
+_inPanel
+&
+&
 draggedItem
 &
 &
