@@ -333,6 +333,7 @@ uint32_t
 CharacterCount
 (
 )
+const
 {
 return
 GetChildOffset
@@ -621,6 +622,7 @@ aInvalidateAfter
 =
 false
 )
+const
 {
 int32_t
 index
@@ -657,6 +659,7 @@ aInvalidateAfter
 =
 false
 )
+const
 ;
 int32_t
 GetChildIndexAtOffset
@@ -664,6 +667,7 @@ GetChildIndexAtOffset
 uint32_t
 aOffset
 )
+const
 ;
 Accessible
 *
@@ -672,6 +676,7 @@ GetChildAtOffset
 uint32_t
 aOffset
 )
+const
 {
 return
 GetChildAt
@@ -1152,6 +1157,7 @@ aAttributes
 ;
 private
 :
+mutable
 nsTArray
 <
 uint32_t

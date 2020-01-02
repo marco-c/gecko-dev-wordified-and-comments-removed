@@ -7833,6 +7833,7 @@ aChildIndex
 bool
 aInvalidateAfter
 )
+const
 {
 if
 (
@@ -7978,6 +7979,7 @@ GetChildIndexAtOffset
 uint32_t
 aOffset
 )
+const
 {
 uint32_t
 lastOffset
