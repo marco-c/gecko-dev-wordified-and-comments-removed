@@ -739,7 +739,7 @@ false
 }
 Favicons
 .
-getLargestFaviconForPage
+getPreferredSizeFaviconForPage
 (
 info
 .
