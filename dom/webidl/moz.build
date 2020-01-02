@@ -185,6 +185,11 @@ AppNotificationServiceOptions
 webidl
 '
 '
+Apps
+.
+webidl
+'
+'
 APZTestData
 .
 webidl
