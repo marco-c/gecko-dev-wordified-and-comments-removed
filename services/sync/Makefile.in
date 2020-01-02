@@ -166,6 +166,10 @@ engines
 .
 js
 \
+healthreport
+.
+jsm
+\
 identity
 .
 js
