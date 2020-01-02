@@ -3355,6 +3355,9 @@ LayersBackend
 aHints
 )
 {
+#
+ifndef
+XP_WIN
 for
 (
 size_t
@@ -3420,6 +3423,8 @@ LAYERS_NONE
 ;
 }
 }
+#
+endif
 }
 void
 nsBaseWidget
