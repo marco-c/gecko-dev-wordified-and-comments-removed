@@ -15406,16 +15406,7 @@ show
 .
 then
 (
-(
-)
-=
->
-{
 focusSearchBar
-(
-)
-;
-}
 )
 ;
 return
@@ -15423,6 +15414,9 @@ return
 }
 if
 (
+placement
+&
+&
 placement
 .
 area
