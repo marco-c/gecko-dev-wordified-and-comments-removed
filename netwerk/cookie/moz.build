@@ -230,8 +230,6 @@ LOCAL_INCLUDES
 intl
 /
 uconv
-/
-src
 '
 ]
 XPCSHELL_TESTS_MANIFESTS
