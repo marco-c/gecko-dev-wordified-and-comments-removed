@@ -430,16 +430,6 @@ nsPlacesAutoComplete
 .
 manifest
 '
-'
-UnifiedComplete
-.
-js
-'
-'
-UnifiedComplete
-.
-manifest
-'
 ]
 FINAL_LIBRARY
 =
