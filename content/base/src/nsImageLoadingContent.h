@@ -92,14 +92,6 @@ nsIContent
 class
 imgRequestProxy
 ;
-#
-ifdef
-LoadImage
-#
-undef
-LoadImage
-#
-endif
 class
 nsImageLoadingContent
 :
