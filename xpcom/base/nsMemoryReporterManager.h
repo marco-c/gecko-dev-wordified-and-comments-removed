@@ -165,7 +165,7 @@ MemoryReport
 aChildReports
 )
 ;
-void
+nsresult
 FinishReporting
 (
 )
@@ -292,6 +292,11 @@ bool
 aStrongRef
 )
 ;
+nsresult
+StartGettingReports
+(
+)
+;
 static
 void
 TimeoutCallback
@@ -309,7 +314,7 @@ const
 uint32_t
 kTimeoutLengthMS
 =
-5000
+50000
 ;
 mozilla
 :
@@ -384,6 +389,9 @@ nsISupports
 >
 mFinishReportingData
 ;
+nsString
+mDMDDumpIdent
+;
 GetReportsState
 (
 uint32_t
@@ -405,6 +413,10 @@ aFinishReporting
 nsISupports
 *
 aFinishReportingData
+const
+nsAString
+&
+aDMDDumpIdent
 )
 :
 mGeneration
@@ -438,6 +450,10 @@ aFinishReporting
 mFinishReportingData
 (
 aFinishReportingData
+)
+mDMDDumpIdent
+(
+aDMDDumpIdent
 )
 {
 }

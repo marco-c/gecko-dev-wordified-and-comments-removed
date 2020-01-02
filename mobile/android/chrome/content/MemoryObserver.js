@@ -382,7 +382,6 @@ dumpMemoryInfoToTempDir
 (
 aLabel
 false
-true
 )
 ;
 }
