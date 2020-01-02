@@ -102,14 +102,6 @@ forcedDefaultIonUsesBeforeCompile
 =
 1000
 ;
-forceGvnKind
-=
-false
-;
-forcedGvnKind
-=
-GVN_Optimistic
-;
 forceRegisterAllocator
 =
 false

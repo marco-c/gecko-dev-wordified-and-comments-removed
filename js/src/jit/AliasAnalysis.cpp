@@ -719,7 +719,7 @@ false
 uint32_t
 newId
 =
-1
+0
 ;
 for
 (

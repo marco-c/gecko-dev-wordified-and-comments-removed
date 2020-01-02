@@ -64,13 +64,6 @@ RegisterAllocator_Backtracking
 RegisterAllocator_Stupid
 }
 ;
-enum
-IonGvnKind
-{
-GVN_Optimistic
-GVN_Pessimistic
-}
-;
 struct
 JitOptions
 {
@@ -120,12 +113,6 @@ forceDefaultIonUsesBeforeCompile
 ;
 uint32_t
 forcedDefaultIonUsesBeforeCompile
-;
-bool
-forceGvnKind
-;
-IonGvnKind
-forcedGvnKind
 ;
 bool
 forceRegisterAllocator
