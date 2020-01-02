@@ -308,6 +308,11 @@ MouseScrollEvent
 h
 '
 '
+MutationEvent
+.
+h
+'
+'
 PointerEvent
 .
 h
@@ -430,6 +435,11 @@ MouseScrollEvent
 cpp
 '
 '
+MutationEvent
+.
+cpp
+'
+'
 nsAsyncDOMEvent
 .
 cpp
@@ -441,11 +451,6 @@ cpp
 '
 '
 nsDOMEventTargetHelper
-.
-cpp
-'
-'
-nsDOMMutationEvent
 .
 cpp
 '
