@@ -59,7 +59,7 @@ libs
 :
 :
 ifdef
-MOZ_HAS_WINSDK_WITH_D3D
+MOZ_D3DCOMPILER_DLL_PATH
 cp
 -
 fp
