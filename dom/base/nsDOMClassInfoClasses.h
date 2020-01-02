@@ -34,10 +34,6 @@ DOMCI_CLASS
 (
 CSSNameSpaceRule
 )
-DOMCI_CLASS
-(
-CSSStyleSheet
-)
 #
 ifdef
 MOZ_XUL
@@ -101,10 +97,6 @@ CSSMozDocumentRule
 DOMCI_CLASS
 (
 CSSSupportsRule
-)
-DOMCI_CLASS
-(
-SVGNumber
 )
 DOMCI_CLASS
 (
