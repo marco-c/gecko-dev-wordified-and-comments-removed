@@ -1379,6 +1379,12 @@ item
 :
 not
 (
+.
+subviewbutton
+)
+:
+not
+(
 #
 bookmarks
 -
@@ -1593,6 +1599,12 @@ toolbarbutton
 bookmark
 -
 item
+:
+not
+(
+.
+subviewbutton
+)
 :
 not
 (
