@@ -1438,7 +1438,7 @@ ENABLE_ION
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -1852,7 +1852,7 @@ find
 -
 1
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -1961,7 +1961,7 @@ TARGET_CPU
 x86_64
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -2056,7 +2056,7 @@ cpp
 ]
 else
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -2168,7 +2168,7 @@ arm
 -
 1
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

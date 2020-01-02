@@ -8777,6 +8777,9 @@ move32
 (
 Imm32
 (
+js
+:
+:
 ToInt32
 (
 d
