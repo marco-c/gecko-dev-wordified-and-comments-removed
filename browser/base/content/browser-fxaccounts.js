@@ -1090,9 +1090,9 @@ about
 :
 accounts
 ?
-signin
+action
 =
-true
+reauth
 "
 true
 )
