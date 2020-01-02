@@ -583,7 +583,7 @@ BackendType
 DrawTargetCG
 :
 :
-GetType
+GetBackendType
 (
 )
 const
@@ -701,7 +701,7 @@ newTarget
 >
 Init
 (
-GetType
+GetBackendType
 (
 )
 aSize
@@ -8113,7 +8113,7 @@ if
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -8127,7 +8127,7 @@ COREGRAPHICS
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 =

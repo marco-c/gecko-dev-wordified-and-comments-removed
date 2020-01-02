@@ -298,7 +298,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -312,7 +312,7 @@ COREGRAPHICS
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =

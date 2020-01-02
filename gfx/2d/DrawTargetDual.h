@@ -146,7 +146,7 @@ GetFormat
 }
 virtual
 BackendType
-GetType
+GetBackendType
 (
 )
 const
@@ -155,7 +155,7 @@ return
 mA
 -
 >
-GetType
+GetBackendType
 (
 )
 ;

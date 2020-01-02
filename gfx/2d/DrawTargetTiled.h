@@ -52,7 +52,7 @@ mTiles
 ;
 virtual
 BackendType
-GetType
+GetBackendType
 (
 )
 const
@@ -66,7 +66,7 @@ mTiles
 mDrawTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 ;

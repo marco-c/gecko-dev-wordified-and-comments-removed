@@ -57,7 +57,7 @@ DrawTargetRecording
 ;
 virtual
 BackendType
-GetType
+GetBackendType
 (
 )
 const
@@ -66,7 +66,7 @@ return
 mFinalDT
 -
 >
-GetType
+GetBackendType
 (
 )
 ;

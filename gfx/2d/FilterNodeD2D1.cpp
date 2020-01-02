@@ -408,7 +408,7 @@ switch
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 )

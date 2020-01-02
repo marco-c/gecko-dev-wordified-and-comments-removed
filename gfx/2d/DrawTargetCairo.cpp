@@ -5887,7 +5887,7 @@ if
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 !
@@ -5977,7 +5977,7 @@ if
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 !

@@ -188,7 +188,7 @@ DrawTargetCairo
 ;
 virtual
 BackendType
-GetType
+GetBackendType
 (
 )
 const
