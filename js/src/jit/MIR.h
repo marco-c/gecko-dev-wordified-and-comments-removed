@@ -24319,6 +24319,15 @@ maximum_
 n
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 bool
 congruentTo
 (
