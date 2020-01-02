@@ -1,0 +1,11 @@
+Object
+.
+preventExtensions
+(
+this
+)
+;
+saveStack
+(
+)
+;
