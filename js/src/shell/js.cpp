@@ -30425,6 +30425,12 @@ defined
 (
 JS_CPU_X86
 )
+&
+&
+defined
+(
+JS_ION
+)
 if
 (
 op
