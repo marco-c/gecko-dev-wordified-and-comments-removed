@@ -769,10 +769,6 @@ onhashchange
 ;
 attribute
 EventHandler
-onlanguagechange
-;
-attribute
-EventHandler
 onmessage
 ;
 attribute
