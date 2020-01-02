@@ -110,6 +110,15 @@ GeneratedEventClasses
 .
 h
 "
+Pref
+=
+"
+dom
+.
+voicemail
+.
+enabled
+"
 ]
 interface
 MozVoicemailEvent

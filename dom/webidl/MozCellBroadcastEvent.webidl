@@ -110,6 +110,15 @@ GeneratedEventClasses
 .
 h
 "
+Pref
+=
+"
+dom
+.
+cellbroadcast
+.
+enabled
+"
 ]
 interface
 MozCellBroadcastEvent

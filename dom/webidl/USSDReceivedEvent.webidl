@@ -107,6 +107,15 @@ GeneratedEventClasses
 .
 h
 "
+Pref
+=
+"
+dom
+.
+icc
+.
+enabled
+"
 ]
 interface
 USSDReceivedEvent

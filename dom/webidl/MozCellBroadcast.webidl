@@ -126,6 +126,17 @@ region
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+cellbroadcast
+.
+enabled
+"
+]
 interface
 MozCellBroadcast
 :

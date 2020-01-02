@@ -294,15 +294,6 @@ ErrorResult
 aRv
 )
 ;
-static
-bool
-CheckPermission
-(
-nsPIDOMWindow
-*
-aOwner
-)
-;
 void
 AddCall
 (
