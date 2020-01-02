@@ -662,9 +662,7 @@ name
 nav_button_border_width
 "
 >
-0
-.
-75dp
+1dp
 <
 /
 dimen
