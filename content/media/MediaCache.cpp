@@ -128,7 +128,7 @@ gMediaCacheLog
 ;
 #
 define
-CACHE_LOG
+LOG
 (
 type
 msg
@@ -143,7 +143,7 @@ msg
 else
 #
 define
-CACHE_LOG
+LOG
 (
 type
 msg
@@ -4090,7 +4090,7 @@ IsEmpty
 return
 ;
 }
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -4918,7 +4918,7 @@ rv
 )
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -4946,7 +4946,7 @@ blockIndex
 destinationBlockIndex
 )
 ;
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -4973,7 +4973,7 @@ blockIndex
 }
 else
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5297,7 +5297,7 @@ stream
 mStreamLength
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5346,7 +5346,7 @@ stream
 mStreamOffset
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5379,7 +5379,7 @@ mStreamOffset
 BLOCK_SIZE
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5417,7 +5417,7 @@ maxBlocks
 NONSEEKABLE_READAHEAD_MAX
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5455,7 +5455,7 @@ maxBlocks
 )
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5505,7 +5505,7 @@ ToMilliseconds
 CACHE_POWERSAVE_WAKEUP_LOW_THRESHOLD_MS
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5539,7 +5539,7 @@ freeBlockCount
 0
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5575,7 +5575,7 @@ TimeDuration
 )
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5601,7 +5601,7 @@ false
 }
 else
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -5717,7 +5717,7 @@ enableReading
 =
 false
 ;
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6014,7 +6014,7 @@ SEEK
 case
 SEEK_AND_RESUME
 :
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6080,7 +6080,7 @@ break
 case
 RESUME
 :
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6111,7 +6111,7 @@ break
 case
 SUSPEND
 :
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6708,7 +6708,7 @@ mBlocks
 streamBlockIndex
 ]
 ;
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6792,7 +6792,7 @@ mIndex
 blockIndex
 ]
 ;
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -6996,7 +6996,7 @@ rv
 )
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -7073,7 +7073,7 @@ mon
 mReentrantMonitor
 )
 ;
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -7142,7 +7142,7 @@ mon
 mReentrantMonitor
 )
 ;
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -7228,7 +7228,7 @@ blockIndex
 0
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -8007,7 +8007,7 @@ data
 =
 aData
 ;
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -8329,7 +8329,7 @@ blockOffset
 0
 )
 {
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -9713,7 +9713,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -10249,7 +10249,7 @@ QueueUpdate
 )
 ;
 }
-CACHE_LOG
+LOG
 (
 PR_LOG_DEBUG
 (

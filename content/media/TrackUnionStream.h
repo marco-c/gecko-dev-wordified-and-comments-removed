@@ -24,7 +24,7 @@ ifdef
 PR_LOGGING
 #
 define
-STREAM_LOG
+LOG
 (
 type
 msg
@@ -39,7 +39,7 @@ msg
 else
 #
 define
-STREAM_LOG
+LOG
 (
 type
 msg
@@ -914,7 +914,7 @@ forget
 )
 )
 ;
-STREAM_LOG
+LOG
 (
 PR_LOG_DEBUG
 (
@@ -1531,7 +1531,7 @@ AppendNullData
 ticks
 )
 ;
-STREAM_LOG
+LOG
 (
 PR_LOG_DEBUG
 +
@@ -1700,7 +1700,7 @@ inputEndTicks
 )
 ;
 }
-STREAM_LOG
+LOG
 (
 PR_LOG_DEBUG
 +
