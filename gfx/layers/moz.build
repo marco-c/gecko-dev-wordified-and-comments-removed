@@ -1488,6 +1488,15 @@ cpp
 '
 apz
 /
+src
+/
+TouchBlockState
+.
+cpp
+'
+'
+apz
+/
 testutil
 /
 APZTestData

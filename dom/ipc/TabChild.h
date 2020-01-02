@@ -2515,13 +2515,10 @@ bool
 mUpdateHitRegion
 ;
 bool
-mContextMenuHandled
+mPendingTouchPreventedResponse
 ;
-bool
-mLongTapEventHandled
-;
-bool
-mWaitingTouchListeners
+ScrollableLayerGuid
+mPendingTouchPreventedGuid
 ;
 void
 FireSingleTapEvent
