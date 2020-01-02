@@ -2646,6 +2646,7 @@ workerCursor
 new
 WorkerDataStoreCursor
 (
+this
 )
 ;
 nsRefPtr
