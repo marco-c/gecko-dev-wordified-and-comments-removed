@@ -43,7 +43,7 @@ db
 .
 BrowserContract
 .
-Bookmarks
+ReadingListItems
 ;
 import
 org
@@ -570,7 +570,7 @@ cursor
 .
 getColumnIndexOrThrow
 (
-URLColumns
+ReadingListItems
 .
 URL
 )
@@ -588,7 +588,7 @@ cursor
 .
 getColumnIndexOrThrow
 (
-URLColumns
+ReadingListItems
 .
 TITLE
 )
@@ -596,7 +596,7 @@ TITLE
 ;
 info
 .
-bookmarkId
+readingListItemId
 =
 cursor
 .
@@ -606,17 +606,11 @@ cursor
 .
 getColumnIndexOrThrow
 (
-Bookmarks
+ReadingListItems
 .
 _ID
 )
 )
-;
-info
-.
-inReadingList
-=
-true
 ;
 return
 info
@@ -1007,7 +1001,7 @@ loadCursor
 return
 BrowserDB
 .
-getBookmarksInFolder
+getReadingList
 (
 getContext
 (
@@ -1016,9 +1010,6 @@ getContext
 getContentResolver
 (
 )
-Bookmarks
-.
-FIXED_READING_LIST_ID
 )
 ;
 }

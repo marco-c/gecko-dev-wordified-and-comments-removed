@@ -893,6 +893,13 @@ java
 '
 db
 /
+ReadingListProvider
+.
+java
+'
+'
+db
+/
 SQLiteBridgeContentProvider
 .
 java
