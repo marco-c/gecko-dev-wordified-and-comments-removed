@@ -8631,6 +8631,9 @@ operandMightEmulateUndefined_
 bool
 operandsAreNeverNaN_
 ;
+bool
+truncateOperands_
+;
 MCompare
 (
 MDefinition
@@ -8661,6 +8664,10 @@ operandMightEmulateUndefined_
 true
 )
 operandsAreNeverNaN_
+(
+false
+)
+truncateOperands_
 (
 false
 )
