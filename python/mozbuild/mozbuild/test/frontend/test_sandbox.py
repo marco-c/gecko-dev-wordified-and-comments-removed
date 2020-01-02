@@ -61,17 +61,19 @@ test
 common
 import
 MockConfig
-test_data_path
-=
-os
+import
+mozpack
 .
 path
+as
+mozpath
+test_data_path
+=
+mozpath
 .
 abspath
 (
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -80,9 +82,7 @@ __file__
 )
 test_data_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -132,9 +132,7 @@ config
 =
 MockConfig
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -211,9 +209,7 @@ TOPOBJDIR
 '
 ]
             
-os
-.
-path
+mozpath
 .
 abspath
 (
@@ -263,9 +259,7 @@ OBJDIR
 '
 ]
             
-os
-.
-path
+mozpath
 .
 abspath
 (
@@ -450,9 +444,7 @@ OBJDIR
 '
 ]
             
-os
-.
-path
+mozpath
 .
 abspath
 (
@@ -1696,9 +1688,7 @@ sandbox
 .
 main_path
             
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1777,9 +1767,7 @@ build
         
 expected
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1915,9 +1903,7 @@ ILLEGAL
 expected_stack
 =
 [
-os
-.
-path
+mozpath
 .
 join
 (

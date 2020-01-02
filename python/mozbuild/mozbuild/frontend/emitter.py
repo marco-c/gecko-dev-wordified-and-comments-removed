@@ -177,9 +177,7 @@ config
         
 mozinfo_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -935,9 +933,7 @@ path
 .
 exists
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1452,9 +1448,7 @@ variable
                 
 ext
 =
-os
-.
-path
+mozpath
 .
 splitext
 (
@@ -2354,9 +2348,7 @@ sub
 .
 input_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2380,9 +2372,7 @@ sub
 .
 output_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -2422,9 +2412,7 @@ info
         
 manifest_path
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
@@ -2812,9 +2800,7 @@ mozpath
 join
 (
 out_dir
-os
-.
-path
+mozpath
 .
 basename
 (

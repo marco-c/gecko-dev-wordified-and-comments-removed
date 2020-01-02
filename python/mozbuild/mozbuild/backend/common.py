@@ -601,9 +601,7 @@ _idl_manager
         
 path
 =
-os
-.
-path
+mozpath
 .
 join
 (

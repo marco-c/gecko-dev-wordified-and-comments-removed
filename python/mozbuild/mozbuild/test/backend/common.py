@@ -44,6 +44,12 @@ frontend
 reader
 import
 BuildReader
+import
+mozpack
+.
+path
+as
+mozpath
 log_manager
 =
 LoggingManager
@@ -56,15 +62,11 @@ add_terminal_logging
 )
 test_data_path
 =
-os
-.
-path
+mozpath
 .
 abspath
 (
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -73,9 +75,7 @@ __file__
 )
 test_data_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -600,9 +600,7 @@ objdir
         
 srcdir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -764,15 +762,11 @@ filename
 :
                     
 yield
-os
-.
-path
+mozpath
 .
 relpath
 (
-os
-.
-path
+mozpath
 .
 join
 (

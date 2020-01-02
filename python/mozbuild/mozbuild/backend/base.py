@@ -59,6 +59,12 @@ from
 configenvironment
 import
 ConfigEnvironment
+import
+mozpack
+.
+path
+as
+mozpath
 class
 BackendConsumeSummary
 (
@@ -522,9 +528,7 @@ self
 .
 _backend_output_list_file
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -774,9 +778,7 @@ environment
             
 config_status
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1046,9 +1048,7 @@ os
 .
 unlink
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1081,9 +1081,7 @@ dir
 in
 set
 (
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -1447,9 +1445,7 @@ None
         
 dirname
 =
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -1496,9 +1492,7 @@ _backend_output_files
 .
 add
 (
-os
-.
-path
+mozpath
 .
 relpath
 (

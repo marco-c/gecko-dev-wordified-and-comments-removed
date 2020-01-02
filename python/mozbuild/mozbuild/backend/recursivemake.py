@@ -427,9 +427,7 @@ self
 .
 name
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -1883,9 +1881,7 @@ backend_input_files
 .
 add
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -3978,9 +3974,7 @@ self
 _write_file
 (
                 
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4016,9 +4010,7 @@ self
 _write_file
 (
                 
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4413,9 +4405,7 @@ self
 .
 _write_file
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4804,9 +4794,7 @@ bf
                 
 makefile_in
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4820,9 +4808,7 @@ in
                 
 makefile
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -4985,9 +4971,7 @@ path
 .
 exists
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5042,9 +5026,7 @@ stub
         
 ipdl_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5111,9 +5093,7 @@ ipdl
             
 base
 =
-os
-.
-path
+mozpath
 .
 basename
 (
@@ -5123,9 +5103,7 @@ ipdl
 root
 ext
 =
-os
-.
-path
+mozpath
 .
 splitext
 (
@@ -5247,9 +5225,7 @@ sorted
 (
 set
 (
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -5272,9 +5248,7 @@ self
 .
 _write_file
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5323,9 +5297,7 @@ ipdl
         
 bindings_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5361,9 +5333,7 @@ sources
 files
 =
 [
-os
-.
-path
+mozpath
 .
 basename
 (
@@ -5501,9 +5471,7 @@ _preprocessed_webidl_sources
 all_webidl_files
 =
 [
-os
-.
-path
+mozpath
 .
 basename
 (
@@ -5572,9 +5540,7 @@ self
 .
 _write_file
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5779,9 +5745,7 @@ t
             
 manifest_stem
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5800,9 +5764,7 @@ self
 .
 _write_master_test_manifest
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -5858,9 +5820,7 @@ _install_manifests
         
 ensureParentDir
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -6799,15 +6759,11 @@ strings
             
 source
 =
-os
-.
-path
+mozpath
 .
 normpath
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -6829,9 +6785,7 @@ s
 %
 (
 namespace
-os
-.
-path
+mozpath
 .
 basename
 (
@@ -7396,9 +7350,7 @@ deps
         
 out_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -7476,9 +7428,7 @@ backend_input_files
 .
 add
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -7628,9 +7578,7 @@ sBinding
 h
 '
 %
-os
-.
-path
+mozpath
 .
 splitext
 (
@@ -7669,9 +7617,7 @@ backend_input_files
 .
 add
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -8101,9 +8047,7 @@ target
 .
 join
 (
-os
-.
-path
+mozpath
 .
 join
 (
@@ -8339,9 +8283,7 @@ manifests
         
 man_dir
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -8386,9 +8328,7 @@ self
 .
 _write_file
 (
-os
-.
-path
+mozpath
 .
 join
 (
