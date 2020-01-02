@@ -10,6 +10,7 @@ Copyright
 2001
 -
 2011
+2013
 by
 #
 David
@@ -744,8 +745,6 @@ true
 The
 file
 <
-freetype
-/
 config
 /
 ftheader
@@ -759,9 +758,9 @@ define
 macros
 that
 are
-#
 later
 used
+#
 in
 #
 include
@@ -775,9 +774,9 @@ parsed
 in
 order
 to
-#
 record
 these
+#
 definitions
 .
 #
@@ -970,11 +969,7 @@ ftexport
 sym
 :
 include
-/
-freetype
 include
-/
-freetype
 /
 cache
 ;
@@ -1048,7 +1043,7 @@ FreeType
 .
 5
 .
-0
+2
 -
 -
 output
@@ -1060,16 +1055,12 @@ DOC_DIR
 FT2_INCLUDE
 )
 /
-freetype
-/
 *
 .
 h
 (
 FT2_INCLUDE
 )
-/
-freetype
 /
 config
 /

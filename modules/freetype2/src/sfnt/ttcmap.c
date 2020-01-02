@@ -637,10 +637,6 @@ offset
 FT_Int
 delta
 ;
-FT_Byte
-*
-ids
-;
 first_code
 =
 TT_NEXT_USHORT
@@ -714,6 +710,10 @@ offset
 0
 )
 {
+FT_Byte
+*
+ids
+;
 ids
 =
 p
@@ -9803,10 +9803,6 @@ data
 variantSelector
 )
 ;
-FT_UInt32
-*
-ret
-;
 FT_Int
 i
 ;
@@ -9928,6 +9924,10 @@ FT_UInt
 di
 ni
 k
+;
+FT_UInt32
+*
+ret
 ;
 p
 =

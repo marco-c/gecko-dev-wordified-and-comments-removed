@@ -1523,6 +1523,14 @@ bgra
 FT_Long
 l
 ;
+if
+(
+!
+a
+)
+return
+0
+;
 b
 =
 FT_MulDiv

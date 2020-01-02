@@ -28,9 +28,8 @@ FT_Error
 )
 Load_SBit_Png
 (
-FT_Bitmap
-*
-map
+FT_GlyphSlot
+slot
 FT_Int
 x_offset
 FT_Int
@@ -46,6 +45,8 @@ FT_Byte
 data
 FT_UInt
 png_len
+FT_Bool
+populate_map_and_metrics
 )
 ;
 #

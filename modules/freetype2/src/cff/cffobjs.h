@@ -130,6 +130,12 @@ hinting_engine
 FT_Bool
 no_stem_darkening
 ;
+FT_Int
+darken_params
+[
+8
+]
+;
 }
 CFF_DriverRec
 ;

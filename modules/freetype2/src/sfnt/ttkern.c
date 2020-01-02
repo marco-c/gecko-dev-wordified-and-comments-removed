@@ -595,8 +595,6 @@ result
 FT_UInt
 count
 mask
-=
-1
 ;
 FT_Byte
 *
@@ -667,8 +665,6 @@ p
 FT_Byte
 *
 next
-=
-base
 ;
 FT_UInt
 version

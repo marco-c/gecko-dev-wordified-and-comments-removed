@@ -1528,11 +1528,11 @@ tt_face_load_font_dir
 tt_face_load_hmtx
 PUT_EMBEDDED_BITMAPS
 (
-tt_face_load_eblc
+tt_face_load_sbit
 )
 PUT_EMBEDDED_BITMAPS
 (
-tt_face_free_eblc
+tt_face_free_sbit
 )
 PUT_EMBEDDED_BITMAPS
 (

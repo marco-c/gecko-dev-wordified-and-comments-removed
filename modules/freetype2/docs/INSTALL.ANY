@@ -269,8 +269,6 @@ c
 recommended
 see
 <
-freetype
-/
 ftbbox
 .
 h
@@ -287,8 +285,6 @@ c
 recommended
 see
 <
-freetype
-/
 ftglyph
 .
 h
@@ -305,8 +301,6 @@ c
 optional
 see
 <
-freetype
-/
 ftbdf
 .
 h
@@ -323,8 +317,6 @@ c
 optional
 see
 <
-freetype
-/
 ftbitmap
 .
 h
@@ -341,8 +333,6 @@ c
 optional
 see
 <
-freetype
-/
 ftcid
 .
 h
@@ -369,8 +359,6 @@ c
 optional
 see
 <
-freetype
-/
 ftgasp
 .
 h
@@ -387,8 +375,6 @@ c
 optional
 see
 <
-freetype
-/
 ftgxval
 .
 h
@@ -405,8 +391,6 @@ c
 optional
 see
 <
-freetype
-/
 ftlcdfil
 .
 h
@@ -423,8 +407,6 @@ c
 optional
 see
 <
-freetype
-/
 ftmm
 .
 h
@@ -441,8 +423,6 @@ c
 optional
 see
 <
-freetype
-/
 ftotval
 .
 h
@@ -469,8 +449,6 @@ c
 optional
 see
 <
-freetype
-/
 ftpfr
 .
 h
@@ -487,8 +465,6 @@ c
 optional
 see
 <
-freetype
-/
 ftstroke
 .
 h
@@ -505,8 +481,6 @@ c
 optional
 see
 <
-freetype
-/
 ftsynth
 .
 h
@@ -523,8 +497,6 @@ c
 optional
 see
 <
-freetype
-/
 t1tables
 .
 h
@@ -541,8 +513,6 @@ c
 optional
 see
 <
-freetype
-/
 ftwinfnt
 .
 h
@@ -559,8 +529,6 @@ c
 optional
 see
 <
-freetype
-/
 ftxf86
 .
 h
@@ -1413,6 +1381,7 @@ Copyright
 2006
 2009
 2010
+2013
 by
 David
 Turner

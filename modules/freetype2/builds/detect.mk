@@ -11,12 +11,10 @@ rules
 Copyright
 1996
 -
-2000
-2001
-2002
 2003
 2006
 2008
+2013
 by
 #
 David
@@ -119,8 +117,6 @@ directory
 .
 Usually
 #
-freetype
-/
 builds
 /
 (
@@ -132,9 +128,9 @@ can
 be
 different
 for
-#
 custom
 builds
+#
 of
 the
 library

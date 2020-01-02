@@ -8,6 +8,7 @@ Jamfile
 Copyright
 2001
 2002
+2013
 by
 #
 David
@@ -86,8 +87,6 @@ FT2_SRC_DIR
 The
 file
 <
-freetype
-/
 internal
 /
 internal

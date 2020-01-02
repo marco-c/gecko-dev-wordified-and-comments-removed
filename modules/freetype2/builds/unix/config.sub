@@ -25,9 +25,9 @@ timestamp
 '
 2013
 -
-04
+10
 -
-24
+01
 '
 #
 This
@@ -2124,6 +2124,8 @@ bfin
 |
 c4x
 |
+c8051
+|
 clipper
 \
 |
@@ -2187,6 +2189,9 @@ ia64
 ip2k
 |
 iq2000
+\
+|
+k1om
 \
 |
 le32
@@ -2565,6 +2570,8 @@ m68hc12
 |
 m68hcs12x
 |
+nvptx
+|
 picochip
 )
 basic_machine
@@ -2917,6 +2924,10 @@ c4x
 *
 \
 |
+c8051
+-
+*
+|
 clipper
 -
 *
@@ -3046,6 +3057,11 @@ ip2k
 *
 |
 iq2000
+-
+*
+\
+|
+k1om
 -
 *
 \
@@ -5410,7 +5426,7 @@ mingw32
 )
 basic_machine
 =
-i386
+i686
 -
 pc
 os
@@ -5589,7 +5605,7 @@ msys
 )
 basic_machine
 =
-i386
+i686
 -
 pc
 os
@@ -9344,6 +9360,16 @@ os
 =
 -
 coff
+;
+;
+c8051
+-
+*
+)
+os
+=
+-
+elf
 ;
 ;
 hexagon

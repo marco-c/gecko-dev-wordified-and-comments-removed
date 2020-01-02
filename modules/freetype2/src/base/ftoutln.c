@@ -2446,9 +2446,6 @@ tags
 +
 last
 ;
-char
-swap
-;
 while
 (
 p
@@ -2456,6 +2453,9 @@ p
 q
 )
 {
+char
+swap
+;
 swap
 =
 *
@@ -2927,6 +2927,7 @@ last
 )
 \
 do
+\
 {
 \
 (

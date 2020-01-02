@@ -396,6 +396,9 @@ FT_UNUSED
 valid
 )
 ;
+#
+ifdef
+FT_DEBUG_LEVEL_TRACE
 if
 (
 coverage
@@ -541,6 +544,8 @@ n
 )
 )
 ;
+#
+endif
 }
 static
 void

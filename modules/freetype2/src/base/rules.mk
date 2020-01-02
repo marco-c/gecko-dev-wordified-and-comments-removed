@@ -145,8 +145,6 @@ components
 found
 #
 in
-freetype
-/
 src
 /
 base
@@ -157,8 +155,8 @@ not
 compiled
 within
 the
-#
 base
+#
 layer
 proper
 .

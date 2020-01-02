@@ -1275,11 +1275,6 @@ FT_Vector
 delta
 )
 {
-const
-FT_Glyph_Class
-*
-clazz
-;
 FT_Error
 error
 =
@@ -1306,6 +1301,9 @@ Invalid_Argument
 ;
 else
 {
+const
+FT_Glyph_Class
+*
 clazz
 =
 glyph
@@ -1422,8 +1420,6 @@ clazz
 )
 return
 ;
-else
-{
 clazz
 =
 glyph
@@ -1441,8 +1437,6 @@ glyph_bbox
 )
 return
 ;
-else
-{
 clazz
 -
 >
@@ -1570,10 +1564,6 @@ yMax
 6
 ;
 }
-}
-}
-return
-;
 }
 FT_EXPORT_DEF
 (

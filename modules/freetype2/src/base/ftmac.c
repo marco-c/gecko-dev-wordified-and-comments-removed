@@ -3186,10 +3186,6 @@ FT_THROW
 Invalid_Argument
 )
 ;
-error
-=
-FT_Err_Ok
-;
 *
 aface
 =

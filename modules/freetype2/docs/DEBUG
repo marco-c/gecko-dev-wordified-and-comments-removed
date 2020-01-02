@@ -621,8 +621,10 @@ an
 enumeration
 named
 trace_XXXX
+'
 where
 XXXX
+'
 is
 one
 of
@@ -634,8 +636,6 @@ in
 the
 internal
 file
-freetype
-/
 internal
 /
 fttrace
@@ -652,6 +652,7 @@ and
 insert
 new
 trace_XXXX
+'
 macro
 you
 must
@@ -661,6 +662,7 @@ in
 fttrace
 .
 h
+'
 .
 If
 you
@@ -688,6 +690,7 @@ tools
 chktrcmp
 .
 py
+'
 .
 Each
 such
@@ -1372,10 +1375,10 @@ runtime
 -
 Copyright
 2002
-2003
-2004
+-
 2005
 2009
+2013
 by
 David
 Turner

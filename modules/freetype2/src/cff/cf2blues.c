@@ -113,6 +113,9 @@ CF2_Fixed
 emBoxBottom
 emBoxTop
 ;
+#
+if
+0
 CF2_Int
 unitsPerEm
 =
@@ -132,6 +135,8 @@ unitsPerEm
 =
 1000
 ;
+#
+endif
 FT_ZERO
 (
 blues

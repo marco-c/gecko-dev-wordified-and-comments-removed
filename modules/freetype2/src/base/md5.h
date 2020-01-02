@@ -70,6 +70,7 @@ MD5_Update
 MD5_CTX
 *
 ctx
+const
 void
 *
 data

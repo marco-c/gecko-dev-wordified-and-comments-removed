@@ -250,6 +250,9 @@ FT_Bool
 pathIsOpen
 ;
 FT_Bool
+pathIsClosing
+;
+FT_Bool
 darken
 ;
 FT_Bool

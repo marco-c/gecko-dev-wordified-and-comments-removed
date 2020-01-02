@@ -3185,6 +3185,9 @@ y
 yz
 ;
 }
+#
+if
+0
 FT_BASE_DEF
 (
 FT_Int32
@@ -3303,6 +3306,8 @@ FT_Int32
 root
 ;
 }
+#
+endif
 FT_BASE_DEF
 (
 FT_Int

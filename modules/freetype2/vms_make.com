@@ -10,6 +10,7 @@ Copyright
 2004
 2006
 2007
+2013
 by
 !
 David
@@ -1205,8 +1206,6 @@ freetype
 -
 .
 include
-.
-freetype
 ]
 define
 psaux

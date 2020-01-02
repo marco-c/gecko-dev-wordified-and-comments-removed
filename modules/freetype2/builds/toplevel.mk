@@ -23,6 +23,7 @@ Copyright
 -
 2010
 2012
+2013
 by
 #
 David
@@ -1045,8 +1046,6 @@ FT_H
 :
 =
 include
-/
-freetype
 /
 freetype
 .

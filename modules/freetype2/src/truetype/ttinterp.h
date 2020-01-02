@@ -171,11 +171,9 @@ Caller_IP
 FT_Long
 Cur_Count
 ;
-FT_Long
-Cur_Restart
-;
-FT_Long
-Cur_End
+TT_DefRecord
+*
+Def
 ;
 }
 TT_CallRec

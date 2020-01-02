@@ -29,8 +29,6 @@ TRACE_DEF_FILES
 "
 include
 /
-freetype
-/
 internal
 /
 fttrace

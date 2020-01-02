@@ -2696,15 +2696,6 @@ y_delta
 {
 PSH_Dimension
 dim
-=
-&
-globals
--
->
-dimension
-[
-0
-]
 ;
 dim
 =

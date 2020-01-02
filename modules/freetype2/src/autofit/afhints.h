@@ -125,6 +125,12 @@ AF_FLAG_INFLECTION
 <
 <
 9
+AF_FLAG_NEAR
+=
+1
+<
+<
+10
 }
 AF_Flags
 ;

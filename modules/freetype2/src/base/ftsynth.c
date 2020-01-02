@@ -393,6 +393,16 @@ vertAdvance
 =
 ystr
 ;
+slot
+-
+>
+metrics
+.
+horiBearingY
++
+=
+ystr
+;
 if
 (
 slot

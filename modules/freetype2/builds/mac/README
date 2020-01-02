@@ -3,7 +3,7 @@ folder
 contains
 *
 Makefile
-skeltons
+skeletons
 for
 Apple
 MPW
@@ -11,7 +11,9 @@ MPW
 Macintosh
 '
 s
-Programmers
+Programmer
+'
+s
 Workshop
 )
 *
@@ -22,7 +24,7 @@ generate
 MPW
 makefile
 from
-skelton
+skeleton
 *
 Metrowerks
 CodeWarrior
@@ -374,7 +376,7 @@ MPW
 makefiles
 from
 the
-skeltons
+skeletons
 .
 Python
 bundled
@@ -573,7 +575,7 @@ MPW
 makefiles
 from
 the
-skeltons
+skeletons
 -
 -
 -
@@ -625,7 +627,7 @@ skeltons
 Here
 are
 4
-skeltons
+skeletons
 for
 following
 targets
@@ -795,7 +797,7 @@ control
 here
 we
 store
-skeltons
+skeletons
 in
 pure
 ASCII
@@ -852,7 +854,7 @@ m68k_far
 .
 make
 The
-skeltons
+skeletons
 are
 designed
 to
@@ -884,7 +886,7 @@ txt
 "
 from
 source
-skelton
+skeleton
 name
 .
 3
@@ -3692,11 +3694,11 @@ versions
 Last
 update
 :
-2009
+2013
 -
-Jul
+Nov
 -
-25
+03
 .
 Currently
 maintained
@@ -3733,16 +3735,3 @@ letterror
 .
 com
 >
-This
-directory
-is
-now
-actively
-maintained
-as
-part
-of
-the
-FreeType
-Project
-.

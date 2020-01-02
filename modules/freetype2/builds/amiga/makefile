@@ -56,9 +56,10 @@ de
 #
 Copyright
 2005
-2006
+-
 2007
 2009
+2013
 by
 #
 Werner
@@ -366,8 +367,6 @@ or
 FT_DEBUG_LEVEL_TRACE
 in
 include
-/
-freetype
 /
 config
 /

@@ -145,10 +145,6 @@ size_t
 nbytes
 )
 {
-unsigned
-char
-c
-;
 for
 (
 ;
@@ -167,6 +163,10 @@ buf
 2
 )
 {
+unsigned
+char
+c
+;
 c
 =
 buf
@@ -207,10 +207,6 @@ size_t
 nbytes
 )
 {
-unsigned
-char
-c
-;
 for
 (
 ;
@@ -229,6 +225,10 @@ buf
 4
 )
 {
+unsigned
+char
+c
+;
 c
 =
 buf

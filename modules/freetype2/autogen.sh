@@ -7,11 +7,9 @@ sh
 #
 Copyright
 2005
-2006
-2007
-2008
-2009
+-
 2010
+2013
 by
 #
 David
@@ -903,8 +901,6 @@ version
 .
 sed
 include
-/
-freetype
 /
 freetype
 .

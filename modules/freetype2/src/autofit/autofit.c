@@ -25,6 +25,13 @@ c
 #
 include
 "
+afblue
+.
+c
+"
+#
+include
+"
 afglobal
 .
 c

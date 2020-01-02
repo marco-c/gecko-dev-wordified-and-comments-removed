@@ -69,6 +69,8 @@ TT_Face
 face
 FT_UInt
 idx
+FT_Pos
+yMax
 FT_Short
 *
 tsb

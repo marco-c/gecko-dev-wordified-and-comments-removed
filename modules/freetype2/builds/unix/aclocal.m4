@@ -5,9 +5,7 @@ by
 aclocal
 1
 .
-13
-.
-1
+14
 -
 *
 -
@@ -22,7 +20,7 @@ C
 )
 1996
 -
-2012
+2013
 Free
 Software
 Foundation

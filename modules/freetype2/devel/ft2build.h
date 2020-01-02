@@ -1,9 +1,9 @@
 #
 ifndef
-__FT2_BUILD_DEVEL_H__
+__FT2BUILD_H__
 #
 define
-__FT2_BUILD_DEVEL_H__
+__FT2BUILD_H__
 #
 define
 FT_CONFIG_OPTIONS_H
@@ -15,8 +15,6 @@ h
 #
 include
 <
-freetype
-/
 config
 /
 ftheader
