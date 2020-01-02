@@ -581,7 +581,7 @@ def
 run_b2g_test
 (
 self
-test_file
+test_paths
 =
 None
 b2g_home
@@ -616,14 +616,14 @@ b2g
 mochitest
 .
         
-test_file
+test_paths
 is
-a
-path
+an
+enumerable
+of
+paths
 to
-a
-test
-file
+tests
 .
 It
 can
@@ -631,9 +631,9 @@ be
 a
 relative
 path
+        
 from
 the
-        
 top
 source
 directory
@@ -643,8 +643,8 @@ filename
 or
 a
 directory
-containing
         
+containing
 test
 files
 .
@@ -659,8 +659,34 @@ test_path
 '
         
 if
-test_file
+test_paths
 :
+            
+if
+len
+(
+test_paths
+)
+>
+1
+:
+                
+print
+(
+'
+Warning
+:
+Only
+the
+first
+test
+path
+will
+be
+used
+.
+'
+)
             
 test_path
 =
@@ -668,7 +694,10 @@ self
 .
 _wrap_path_argument
 (
-test_file
+test_paths
+[
+0
+]
 )
 .
 relpath
@@ -1201,7 +1230,7 @@ context
 suite
 =
 None
-test_file
+test_paths
 =
 None
 debugger
@@ -1294,16 +1323,13 @@ a
 mochitest
 .
         
-test_file
-is
-a
+test_paths
+are
 path
 to
-a
-test
-file
+tests
 .
-It
+They
 can
 be
 a
@@ -1457,7 +1483,7 @@ complete
 if
 rerun_failures
 and
-test_file
+test_paths
 :
             
 print
@@ -1482,27 +1508,28 @@ path
 return
 1
         
-test_path
-=
-'
-'
-        
 if
-test_file
+test_paths
 :
             
-test_path
+test_paths
 =
+[
 self
 .
 _wrap_path_argument
 (
-test_file
+p
 )
 .
 relpath
 (
 )
+for
+p
+in
+test_paths
+]
         
 failure_file_path
 =
@@ -2142,7 +2169,7 @@ v
 )
         
 if
-test_path
+test_paths
 :
             
 resolver
@@ -2162,9 +2189,9 @@ resolver
 .
 resolve_tests
 (
-path
+paths
 =
-test_path
+test_paths
 flavor
 =
 flavor
@@ -3458,7 +3485,7 @@ path
 CommandArgument
 (
 '
-test_file
+test_paths
 '
 default
 =
@@ -3466,7 +3493,7 @@ None
 nargs
 =
 '
-?
+*
 '
         
 metavar
@@ -4024,7 +4051,7 @@ path
 CommandArgument
 (
 '
-test_file
+test_paths
 '
 default
 =
@@ -4032,7 +4059,7 @@ None
 nargs
 =
 '
-?
+*
 '
         
 metavar
@@ -4135,7 +4162,7 @@ def
 run_mochitest_plain
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4147,7 +4174,7 @@ self
 .
 run_mochitest
 (
-test_file
+test_paths
 '
 plain
 '
@@ -4194,7 +4221,7 @@ def
 run_mochitest_chrome
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4206,7 +4233,7 @@ self
 .
 run_mochitest
 (
-test_file
+test_paths
 '
 chrome
 '
@@ -4255,7 +4282,7 @@ def
 run_mochitest_browser
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4267,7 +4294,7 @@ self
 .
 run_mochitest
 (
-test_file
+test_paths
 '
 browser
 '
@@ -4317,7 +4344,7 @@ def
 run_mochitest_metro
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4329,7 +4356,7 @@ self
 .
 run_mochitest
 (
-test_file
+test_paths
 '
 metro
 '
@@ -4376,7 +4403,7 @@ def
 run_mochitest_a11y
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4388,7 +4415,7 @@ self
 .
 run_mochitest
 (
-test_file
+test_paths
 '
 a11y
 '
@@ -4438,7 +4465,7 @@ def
 run_mochitest_webapprt_chrome
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4450,7 +4477,7 @@ self
 .
 run_mochitest
 (
-test_file
+test_paths
 '
 webapprt
 -
@@ -4502,7 +4529,7 @@ def
 run_mochitest_webapprt_content
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4514,7 +4541,7 @@ self
 .
 run_mochitest
 (
-test_file
+test_paths
 '
 webapprt
 -
@@ -4529,7 +4556,7 @@ def
 run_mochitest
 (
 self
-test_file
+test_paths
 flavor
 *
 *
@@ -4591,9 +4618,9 @@ self
 .
 _mach_context
             
-test_file
+test_paths
 =
-test_file
+test_paths
 suite
 =
 flavor
@@ -4757,7 +4784,7 @@ def
 run_mochitest_remote
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4825,9 +4852,9 @@ xre_path
 self
 .
 xre_path
-test_file
+test_paths
 =
-test_file
+test_paths
 *
 *
 kwargs
@@ -4874,7 +4901,7 @@ def
 run_mochitest_b2g_desktop
 (
 self
-test_file
+test_paths
 *
 *
 kwargs
@@ -4931,9 +4958,9 @@ mochitest
 .
 run_b2g_test
 (
-test_file
+test_paths
 =
-test_file
+test_paths
 *
 *
 kwargs
