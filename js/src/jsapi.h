@@ -6724,15 +6724,6 @@ JS_GetClassObject
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-obj
 JSProtoKey
 key
 JS

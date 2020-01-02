@@ -21235,6 +21235,12 @@ isNative
 )
 )
 ;
+assertSameCompartment
+(
+cx
+obj
+)
+;
 Rooted
 <
 GlobalObject
@@ -21267,7 +21273,6 @@ if
 js_GetClassObject
 (
 cx
-global
 JSProto_ArrayBuffer
 &
 stop
