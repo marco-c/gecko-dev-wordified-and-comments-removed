@@ -172,3 +172,11 @@ TEST_DIRS
 tests
 '
 ]
+HOST_OS_LIBS
++
+=
+[
+'
+z
+'
+]
