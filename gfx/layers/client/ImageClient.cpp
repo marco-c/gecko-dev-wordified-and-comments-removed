@@ -467,7 +467,6 @@ if
 aAsyncTransactionTracker
 |
 |
-(
 GetForwarder
 (
 )
@@ -475,15 +474,6 @@ GetForwarder
 >
 IsImageBridgeChild
 (
-)
-&
-&
-aTexture
--
->
-HasRecycleCallback
-(
-)
 )
 )
 {
