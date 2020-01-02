@@ -987,6 +987,13 @@ GetIntrinsicSize
 ToIntSize
 (
 )
+chunk
+.
+mFrame
+.
+GetForceBlack
+(
+)
 )
 ;
 iter

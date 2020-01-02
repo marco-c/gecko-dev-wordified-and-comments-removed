@@ -112,6 +112,11 @@ TestTrackEncoder
 .
 cpp
 '
+'
+TestVideoSegment
+.
+cpp
+'
 ]
 if
 CONFIG
