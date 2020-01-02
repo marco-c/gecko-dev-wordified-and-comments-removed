@@ -636,7 +636,7 @@ XP_WIN
 &
 defined
 (
-MOZ_GFX
+GKMEDIAS_SHARED_LIBRARY
 )
 #
 ifdef

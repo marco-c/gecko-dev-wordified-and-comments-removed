@@ -664,7 +664,6 @@ height
 )
 {
 }
-GFX2D_API
 void
 NudgeToIntegers
 (
