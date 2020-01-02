@@ -234,13 +234,13 @@ found
 "
 )
 ;
-isnot
+ok
 (
 msg
 .
 textContent
 .
-indexOf
+contains
 (
 '
 {
@@ -252,8 +252,6 @@ testValue2
 }
 '
 )
--
-1
 "
 message
 text

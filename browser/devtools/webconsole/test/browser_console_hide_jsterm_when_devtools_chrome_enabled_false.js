@@ -124,8 +124,11 @@ messages
 text
 :
 "
-object
+Object
 "
+category
+:
+CATEGORY_OUTPUT
 }
 ]
 }

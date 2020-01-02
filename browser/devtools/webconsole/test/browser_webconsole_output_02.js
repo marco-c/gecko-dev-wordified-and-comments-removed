@@ -252,6 +252,7 @@ array1
 output
 :
 '
+Array
 [
 1
 2
@@ -308,6 +309,7 @@ array2
 output
 :
 '
+Array
 [
 "
 a
@@ -385,6 +387,7 @@ array3
 output
 :
 '
+Array
 [
 1
 Window
@@ -481,6 +484,7 @@ array4
 output
 :
 '
+Array
 [
 "
 test
@@ -617,6 +621,7 @@ testobj2
 output
 :
 '
+Object
 {
 a
 :
@@ -678,6 +683,7 @@ testobj3
 output
 :
 '
+Object
 {
 a
 :
@@ -759,6 +765,7 @@ testobj4
 output
 :
 '
+Object
 {
 a
 :
