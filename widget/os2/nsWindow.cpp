@@ -4736,7 +4736,7 @@ nsRefPtr
 gfxASurface
 >
 surface
-;
+=
 aCursor
 -
 >
@@ -4750,10 +4750,6 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
-getter_AddRefs
-(
-surface
-)
 )
 ;
 NS_ENSURE_TRUE

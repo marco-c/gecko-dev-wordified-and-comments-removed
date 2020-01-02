@@ -2344,7 +2344,7 @@ nsRefPtr
 gfxASurface
 >
 surface
-;
+=
 imageContainer
 -
 >
@@ -2358,10 +2358,6 @@ imgIContainer
 :
 :
 FLAG_NONE
-getter_AddRefs
-(
-surface
-)
 )
 ;
 if

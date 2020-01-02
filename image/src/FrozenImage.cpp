@@ -101,7 +101,13 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+already_AddRefed
+<
+gfxASurface
+>
+)
 FrozenImage
 :
 :
@@ -111,10 +117,6 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
-gfxASurface
-*
-*
-_retval
 )
 {
 return
@@ -127,7 +129,6 @@ GetFrame
 (
 FRAME_FIRST
 aFlags
-_retval
 )
 ;
 }
