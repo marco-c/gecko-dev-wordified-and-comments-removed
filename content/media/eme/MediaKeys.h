@@ -385,6 +385,11 @@ nsString
 aOutOrigin
 )
 ;
+void
+Shutdown
+(
+)
+;
 private
 :
 already_AddRefed
