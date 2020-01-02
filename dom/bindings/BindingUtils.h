@@ -9164,6 +9164,8 @@ growBy
 InternJSString
 (
 cx
+*
+(
 vector
 [
 vector
@@ -9174,6 +9176,11 @@ length
 -
 1
 ]
+)
+.
+address
+(
+)
 name
 )
 ;

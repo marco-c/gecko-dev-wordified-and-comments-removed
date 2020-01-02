@@ -3901,11 +3901,9 @@ cx
 userFieldTypes
 id
 fieldTypeObjs
-.
-handleAt
-(
+[
 i
-)
+]
 nullptr
 nullptr
 JSPROP_READONLY

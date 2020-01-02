@@ -995,11 +995,9 @@ aArguments
 i
 ]
 v
-.
-handleAt
-(
+[
 i
-)
+]
 )
 )
 {

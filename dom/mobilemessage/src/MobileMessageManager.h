@@ -106,8 +106,13 @@ aMessage
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aRequest
 )
 ;

@@ -6196,9 +6196,12 @@ allObjs
 [
 placeholderIndex
 ]
-=
+.
+set
+(
 *
 vp
+)
 ;
 return
 true

@@ -1330,8 +1330,8 @@ atoms
 [
 i
 ]
-=
-StringValue
+.
+setString
 (
 atom
 )
