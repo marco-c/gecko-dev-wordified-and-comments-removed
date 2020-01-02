@@ -5423,6 +5423,9 @@ configured
 "
 "
     
+try
+:
+        
 return
 cls
 .
@@ -5434,6 +5437,13 @@ startswith
 emulator
 '
 )
+    
+except
+AttributeError
+:
+        
+return
+False
 CommandProvider
 class
 B2GCommands
