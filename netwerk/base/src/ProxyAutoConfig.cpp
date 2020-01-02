@@ -3930,15 +3930,6 @@ mContext
 global
 )
 ;
-js
-:
-:
-SetDefaultObjectForContext
-(
-mContext
-global
-)
-;
 JS_InitStandardClasses
 (
 mContext
