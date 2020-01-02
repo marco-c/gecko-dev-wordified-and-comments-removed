@@ -2084,6 +2084,15 @@ NO_INCREMENTAL
 )
 return
 ;
+if
+(
+rt
+-
+>
+gcVerifyPostData
+)
+return
+;
 MinorGC
 (
 rt
