@@ -4983,6 +4983,13 @@ CHECK_TEXTREL
 1
 )
 )
+(
+call
+LOCAL_CHECKS
+(
+1
+)
+)
 endef
 #
 autoconf
