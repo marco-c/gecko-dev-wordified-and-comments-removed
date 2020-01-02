@@ -1177,17 +1177,6 @@ JSObject
 aGlobal
 )
 ;
-static
-bool
-HasDataStoreSupport
-(
-JSContext
-*
-JSObject
-*
-aGlobal
-)
-;
 nsPIDOMWindow
 *
 GetParentObject
