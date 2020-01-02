@@ -6165,9 +6165,6 @@ NS_ERROR_NOT_AVAILABLE
 ;
 #
 else
-bool
-more
-;
 nsRefPtr
 <
 ExplicitCallback
