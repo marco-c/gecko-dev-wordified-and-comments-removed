@@ -3590,6 +3590,9 @@ destroyCompartmentCallback
 JSZoneCallback
 destroyZoneCallback
 ;
+JSZoneCallback
+sweepZoneCallback
+;
 JSCompartmentNameCallback
 compartmentNameCallback
 ;

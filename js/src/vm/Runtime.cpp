@@ -622,6 +622,10 @@ destroyZoneCallback
 (
 nullptr
 )
+sweepZoneCallback
+(
+nullptr
+)
 compartmentNameCallback
 (
 nullptr
