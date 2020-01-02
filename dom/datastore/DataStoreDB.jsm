@@ -421,7 +421,7 @@ addRevision
 function
 (
 aStore
-aId
+aKey
 aType
 aSuccessCb
 )
@@ -433,7 +433,7 @@ AddRevision
 :
 "
 +
-aId
+aKey
 +
 "
 -
@@ -468,7 +468,7 @@ revisionId
 revisionId
 objectId
 :
-aId
+aKey
 operation
 :
 aType

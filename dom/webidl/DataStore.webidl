@@ -228,13 +228,13 @@ Promise
 void
 >
 Promise
-update
+put
 (
+any
+obj
 unsigned
 long
 id
-any
-obj
 )
 ;
 /
@@ -249,6 +249,10 @@ add
 (
 any
 obj
+optional
+unsigned
+long
+id
 )
 ;
 /
