@@ -261,6 +261,11 @@ SOURCES
 =
 [
 '
+cubeb_resampler
+.
+cpp
+'
+'
 cubeb_wasapi
 .
 cpp
