@@ -788,7 +788,7 @@ current
 webpage
 utils
 .
-getToplevelWindow
+getToplevelWindw
 (
 window
 )
