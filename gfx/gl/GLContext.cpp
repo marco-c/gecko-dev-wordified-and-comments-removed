@@ -296,6 +296,9 @@ GL_OES_stencil8
 GL_OES_texture_npot
 "
 "
+GL_IMG_texture_npot
+"
+"
 GL_ARB_depth_texture
 "
 "
