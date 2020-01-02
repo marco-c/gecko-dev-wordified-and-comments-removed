@@ -831,7 +831,9 @@ NULL_SCROLL_ID
 return
 metrics
 .
-mZoom
+GetZoom
+(
+)
 ;
 }
 }

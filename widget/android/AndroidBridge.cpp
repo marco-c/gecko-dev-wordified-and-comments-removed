@@ -9576,7 +9576,9 @@ resolution
 =
 aFrameMetrics
 .
-mZoom
+GetZoom
+(
+)
 ;
 ScreenRect
 dp
