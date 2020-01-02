@@ -810,7 +810,7 @@ aFontStyle
 )
 mCharGlyphCache
 (
-64
+32
 )
 {
 NS_ASSERTION

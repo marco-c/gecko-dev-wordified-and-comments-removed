@@ -2676,7 +2676,7 @@ gfxGDIFontList
 :
 mFontSubstitutes
 (
-50
+32
 )
 {
 #

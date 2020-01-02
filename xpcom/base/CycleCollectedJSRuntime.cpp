@@ -1840,7 +1840,7 @@ nullptr
 )
 mJSHolders
 (
-512
+256
 )
 mOutOfMemoryState
 (

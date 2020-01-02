@@ -16567,7 +16567,6 @@ sizeof
 (
 SubDocMapEntry
 )
-16
 )
 ;
 if
@@ -29748,7 +29747,7 @@ nsIContent
 nsPIBoxObject
 >
 (
-12
+6
 )
 ;
 }

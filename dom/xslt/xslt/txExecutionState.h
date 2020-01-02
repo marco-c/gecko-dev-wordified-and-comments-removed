@@ -228,7 +228,7 @@ nsTHashtable
 txLoadedDocumentEntry
 >
 (
-8
+4
 )
 mSourceDocument
 (

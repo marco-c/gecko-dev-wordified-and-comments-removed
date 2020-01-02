@@ -564,7 +564,6 @@ nullptr
 )
 mImageCache
 (
-16
 )
 mTopRowIndex
 (

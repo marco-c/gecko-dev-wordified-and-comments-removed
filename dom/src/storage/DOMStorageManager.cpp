@@ -353,7 +353,7 @@ aType
 :
 mCaches
 (
-10
+8
 )
 mType
 (

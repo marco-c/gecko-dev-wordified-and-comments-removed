@@ -595,7 +595,6 @@ sizeof
 (
 PlaceholderMapEntry
 )
-16
 )
 ;
 }

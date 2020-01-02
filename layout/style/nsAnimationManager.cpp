@@ -1630,7 +1630,6 @@ ResolvedStyleCache
 :
 mCache
 (
-16
 )
 {
 }

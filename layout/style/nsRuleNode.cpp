@@ -6826,6 +6826,7 @@ kMaxChildrenInList
 )
 ConvertChildrenToHash
 (
+numKids
 )
 ;
 }
@@ -7141,6 +7142,8 @@ nsRuleNode
 :
 ConvertChildrenToHash
 (
+int32_t
+aNumKids
 )
 {
 NS_ASSERTION
@@ -7180,9 +7183,7 @@ sizeof
 (
 ChildrenHashEntry
 )
-kMaxChildrenInList
-*
-4
+aNumKids
 )
 ;
 if

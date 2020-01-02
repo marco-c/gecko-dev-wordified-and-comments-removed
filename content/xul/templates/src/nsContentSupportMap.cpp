@@ -32,7 +32,6 @@ sizeof
 (
 Entry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 }

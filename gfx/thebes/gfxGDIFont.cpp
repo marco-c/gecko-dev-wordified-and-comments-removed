@@ -2143,7 +2143,7 @@ nsUint32HashKey
 uint32_t
 >
 (
-128
+64
 )
 ;
 }
@@ -2289,7 +2289,7 @@ nsUint32HashKey
 int32_t
 >
 (
-200
+128
 )
 ;
 }

@@ -84,7 +84,7 @@ explicit
 nsInterfaceHashtable
 (
 uint32_t
-aInitSize
+aInitLength
 )
 :
 nsBaseHashtable
@@ -98,7 +98,7 @@ Interface
 *
 >
 (
-aInitSize
+aInitLength
 )
 {
 }

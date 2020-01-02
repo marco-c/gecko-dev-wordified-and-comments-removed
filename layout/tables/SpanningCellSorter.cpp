@@ -319,7 +319,6 @@ sizeof
 (
 HashTableEntry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 }

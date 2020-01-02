@@ -15896,7 +15896,7 @@ JSObject2WrappedJSMap
 :
 newMap
 (
-XPC_JS_MAP_SIZE
+XPC_JS_MAP_LENGTH
 )
 )
 mWrappedJSClassMap
@@ -15906,7 +15906,7 @@ IID2WrappedJSClassMap
 :
 newMap
 (
-XPC_JS_CLASS_MAP_SIZE
+XPC_JS_CLASS_MAP_LENGTH
 )
 )
 mIID2NativeInterfaceMap
@@ -15916,7 +15916,7 @@ IID2NativeInterfaceMap
 :
 newMap
 (
-XPC_NATIVE_INTERFACE_MAP_SIZE
+XPC_NATIVE_INTERFACE_MAP_LENGTH
 )
 )
 mClassInfo2NativeSetMap
@@ -15926,7 +15926,7 @@ ClassInfo2NativeSetMap
 :
 newMap
 (
-XPC_NATIVE_SET_MAP_SIZE
+XPC_NATIVE_SET_MAP_LENGTH
 )
 )
 mNativeSetMap
@@ -15936,7 +15936,7 @@ NativeSetMap
 :
 newMap
 (
-XPC_NATIVE_SET_MAP_SIZE
+XPC_NATIVE_SET_MAP_LENGTH
 )
 )
 mThisTranslatorMap
@@ -15946,7 +15946,7 @@ IID2ThisTranslatorMap
 :
 newMap
 (
-XPC_THIS_TRANSLATOR_MAP_SIZE
+XPC_THIS_TRANSLATOR_MAP_LENGTH
 )
 )
 mNativeScriptableSharedMap
@@ -15956,7 +15956,7 @@ XPCNativeScriptableSharedMap
 :
 newMap
 (
-XPC_NATIVE_JSCLASS_MAP_SIZE
+XPC_NATIVE_JSCLASS_MAP_LENGTH
 )
 )
 mDyingWrappedNativeProtoMap
@@ -15966,7 +15966,7 @@ XPCWrappedNativeProtoMap
 :
 newMap
 (
-XPC_DYING_NATIVE_PROTO_MAP_SIZE
+XPC_DYING_NATIVE_PROTO_MAP_LENGTH
 )
 )
 mDetachedWrappedNativeProtoMap
@@ -15976,7 +15976,7 @@ XPCWrappedNativeProtoMap
 :
 newMap
 (
-XPC_DETACHED_NATIVE_PROTO_MAP_SIZE
+XPC_DETACHED_NATIVE_PROTO_MAP_LENGTH
 )
 )
 mGCIsRunning

@@ -3572,11 +3572,11 @@ lock
 )
 mActiveCaches
 (
-5
+4
 )
 mLockedEntries
 (
-64
+32
 )
 {
 }

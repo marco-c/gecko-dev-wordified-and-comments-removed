@@ -3115,7 +3115,7 @@ NS_STYLE_TEXT_OVERFLOW_CLIP
 FrameHashtable
 framesToHide
 (
-100
+64
 )
 ;
 AlignmentEdges

@@ -1073,7 +1073,7 @@ aRow
 )
 mAccessibleCache
 (
-kDefaultTreeCacheSize
+kDefaultTreeCacheLength
 )
 {
 mGenericTypes

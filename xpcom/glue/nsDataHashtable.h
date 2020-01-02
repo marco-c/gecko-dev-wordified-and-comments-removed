@@ -47,7 +47,7 @@ explicit
 nsDataHashtable
 (
 uint32_t
-aInitSize
+aInitLength
 )
 :
 nsBaseHashtable
@@ -57,7 +57,7 @@ DataType
 DataType
 >
 (
-aInitSize
+aInitLength
 )
 {
 }

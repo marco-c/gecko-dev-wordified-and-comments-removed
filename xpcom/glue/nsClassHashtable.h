@@ -93,7 +93,7 @@ explicit
 nsClassHashtable
 (
 uint32_t
-aInitSize
+aInitLength
 )
 :
 nsBaseHashtable
@@ -107,7 +107,7 @@ T
 *
 >
 (
-aInitSize
+aInitLength
 )
 {
 }

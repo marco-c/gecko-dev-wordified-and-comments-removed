@@ -115,7 +115,7 @@ nsTHashtable
 {
 Init
 (
-PL_DHASH_MIN_SIZE
+PL_DHASH_DEFAULT_INITIAL_LENGTH
 )
 ;
 }
@@ -123,12 +123,12 @@ explicit
 nsTHashtable
 (
 uint32_t
-aInitSize
+aInitLength
 )
 {
 Init
 (
-aInitSize
+aInitLength
 )
 ;
 }
@@ -848,7 +848,7 @@ void
 Init
 (
 uint32_t
-aInitSize
+aInitLength
 )
 ;
 static
@@ -990,7 +990,7 @@ EntryType
 Init
 (
 uint32_t
-aInitSize
+aInitLength
 )
 {
 static
@@ -1035,7 +1035,7 @@ sizeof
 (
 EntryType
 )
-aInitSize
+aInitLength
 )
 ;
 }

@@ -307,7 +307,7 @@ nsResProtocolHandler
 :
 mSubstitutions
 (
-32
+16
 )
 {
 #

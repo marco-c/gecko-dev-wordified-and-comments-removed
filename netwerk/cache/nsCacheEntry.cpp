@@ -1427,10 +1427,10 @@ sizeof
 (
 nsCacheEntryHashTableEntry
 )
-512
 fallible_t
 (
 )
+256
 )
 ;
 if

@@ -30,8 +30,8 @@ aResult
 ;
 #
 define
-NUM_COMMANDS_BOUNDS
-64
+NUM_COMMANDS_LENGTH
+32
 nsControllerCommandTable
 :
 :
@@ -41,7 +41,7 @@ nsControllerCommandTable
 :
 mCommandsTable
 (
-NUM_COMMANDS_BOUNDS
+NUM_COMMANDS_LENGTH
 )
 mMutable
 (

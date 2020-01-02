@@ -7995,7 +7995,6 @@ sizeof
 (
 NPObjWrapperHashEntry
 )
-16
 )
 ;
 }

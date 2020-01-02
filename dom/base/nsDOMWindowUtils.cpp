@@ -7435,7 +7435,7 @@ nsIContent
 >
 translationNodesHash
 (
-1000
+500
 )
 ;
 nsRefPtr

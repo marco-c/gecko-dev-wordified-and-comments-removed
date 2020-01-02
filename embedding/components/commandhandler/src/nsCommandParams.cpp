@@ -123,7 +123,7 @@ sizeof
 (
 HashEntry
 )
-4
+2
 )
 ;
 return
@@ -1045,7 +1045,7 @@ limit
 =
 entry
 +
-PL_DHASH_TABLE_SIZE
+PL_DHASH_TABLE_CAPACITY
 (
 &
 mValuesHash
@@ -1128,7 +1128,7 @@ limit
 =
 entry
 +
-PL_DHASH_TABLE_SIZE
+PL_DHASH_TABLE_CAPACITY
 (
 &
 mValuesHash

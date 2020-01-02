@@ -506,7 +506,6 @@ sizeof
 (
 Entry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 }
@@ -2711,7 +2710,6 @@ sizeof
 (
 Entry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 PL_DHashTableInit
@@ -2726,7 +2724,6 @@ sizeof
 (
 Entry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 #

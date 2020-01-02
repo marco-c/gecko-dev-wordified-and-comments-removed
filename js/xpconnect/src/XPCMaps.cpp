@@ -595,7 +595,7 @@ Native2WrappedNativeMap
 newMap
 (
 int
-size
+length
 )
 {
 Native2WrappedNativeMap
@@ -605,7 +605,7 @@ map
 new
 Native2WrappedNativeMap
 (
-size
+length
 )
 ;
 if
@@ -642,7 +642,7 @@ Native2WrappedNativeMap
 Native2WrappedNativeMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -657,7 +657,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -789,7 +789,7 @@ IID2WrappedJSClassMap
 newMap
 (
 int
-size
+length
 )
 {
 IID2WrappedJSClassMap
@@ -799,7 +799,7 @@ map
 new
 IID2WrappedJSClassMap
 (
-size
+length
 )
 ;
 if
@@ -828,7 +828,7 @@ IID2WrappedJSClassMap
 IID2WrappedJSClassMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -845,7 +845,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -896,7 +896,7 @@ IID2NativeInterfaceMap
 newMap
 (
 int
-size
+length
 )
 {
 IID2NativeInterfaceMap
@@ -906,7 +906,7 @@ map
 new
 IID2NativeInterfaceMap
 (
-size
+length
 )
 ;
 if
@@ -935,7 +935,7 @@ IID2NativeInterfaceMap
 IID2NativeInterfaceMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -952,7 +952,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -1072,7 +1072,7 @@ ClassInfo2NativeSetMap
 newMap
 (
 int
-size
+length
 )
 {
 ClassInfo2NativeSetMap
@@ -1082,7 +1082,7 @@ map
 new
 ClassInfo2NativeSetMap
 (
-size
+length
 )
 ;
 if
@@ -1111,7 +1111,7 @@ ClassInfo2NativeSetMap
 ClassInfo2NativeSetMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -1126,7 +1126,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -1200,7 +1200,7 @@ ClassInfo2WrappedNativeProtoMap
 newMap
 (
 int
-size
+length
 )
 {
 ClassInfo2WrappedNativeProtoMap
@@ -1210,7 +1210,7 @@ map
 new
 ClassInfo2WrappedNativeProtoMap
 (
-size
+length
 )
 ;
 if
@@ -1247,7 +1247,7 @@ ClassInfo2WrappedNativeProtoMap
 ClassInfo2WrappedNativeProtoMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -1262,7 +1262,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -1810,7 +1810,7 @@ NativeSetMap
 newMap
 (
 int
-size
+length
 )
 {
 NativeSetMap
@@ -1820,7 +1820,7 @@ map
 new
 NativeSetMap
 (
-size
+length
 )
 ;
 if
@@ -1849,7 +1849,7 @@ NativeSetMap
 NativeSetMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -1866,7 +1866,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -2097,7 +2097,7 @@ IID2ThisTranslatorMap
 newMap
 (
 int
-size
+length
 )
 {
 IID2ThisTranslatorMap
@@ -2107,7 +2107,7 @@ map
 new
 IID2ThisTranslatorMap
 (
-size
+length
 )
 ;
 if
@@ -2136,7 +2136,7 @@ IID2ThisTranslatorMap
 IID2ThisTranslatorMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -2153,7 +2153,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -2443,7 +2443,7 @@ XPCNativeScriptableSharedMap
 newMap
 (
 int
-size
+length
 )
 {
 XPCNativeScriptableSharedMap
@@ -2453,7 +2453,7 @@ map
 new
 XPCNativeScriptableSharedMap
 (
-size
+length
 )
 ;
 if
@@ -2482,7 +2482,7 @@ XPCNativeScriptableSharedMap
 XPCNativeScriptableSharedMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -2499,7 +2499,7 @@ sizeof
 (
 Entry
 )
-size
+length
 )
 ;
 }
@@ -2659,7 +2659,7 @@ XPCWrappedNativeProtoMap
 newMap
 (
 int
-size
+length
 )
 {
 XPCWrappedNativeProtoMap
@@ -2669,7 +2669,7 @@ map
 new
 XPCWrappedNativeProtoMap
 (
-size
+length
 )
 ;
 if
@@ -2698,7 +2698,7 @@ XPCWrappedNativeProtoMap
 XPCWrappedNativeProtoMap
 (
 int
-size
+length
 )
 {
 mTable
@@ -2713,7 +2713,7 @@ sizeof
 (
 PLDHashEntryStub
 )
-size
+length
 )
 ;
 }

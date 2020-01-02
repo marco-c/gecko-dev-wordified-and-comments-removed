@@ -2670,7 +2670,6 @@ sizeof
 (
 RuleHashTableEntry
 )
-16
 )
 ;
 }
@@ -2734,7 +2733,6 @@ sizeof
 (
 RuleHashTableEntry
 )
-16
 )
 ;
 }
@@ -2796,7 +2794,6 @@ sizeof
 (
 RuleHashTagTableEntry
 )
-16
 )
 ;
 }
@@ -2885,7 +2882,6 @@ sizeof
 (
 RuleHashTableEntry
 )
-16
 )
 ;
 }
@@ -4159,11 +4155,9 @@ mSelectorDocumentStates
 )
 mKeyframesRuleTable
 (
-16
 )
 mCounterStyleRuleTable
 (
-16
 )
 mCacheKey
 (
@@ -4189,7 +4183,6 @@ sizeof
 (
 AtomSelectorEntry
 )
-16
 )
 ;
 PL_DHashTableInit
@@ -4203,7 +4196,6 @@ sizeof
 (
 RuleHashTagTableEntry
 )
-16
 )
 ;
 PL_DHashTableInit
@@ -4224,7 +4216,6 @@ sizeof
 (
 AtomSelectorEntry
 )
-16
 )
 ;
 PL_DHashTableInit
@@ -4245,7 +4236,6 @@ sizeof
 (
 AtomSelectorEntry
 )
-16
 )
 ;
 memset
@@ -4272,7 +4262,6 @@ sizeof
 (
 RuleHashTagTableEntry
 )
-16
 )
 ;
 #
@@ -14476,10 +14465,10 @@ sizeof
 (
 RuleByWeightEntry
 )
-64
 fallible_t
 (
 )
+32
 )
 )
 mRulesByWeight

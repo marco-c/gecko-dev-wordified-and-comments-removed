@@ -526,7 +526,7 @@ aNames
 [
 ]
 int32_t
-aCount
+aLength
 )
 {
 NS_ASSERTION
@@ -563,10 +563,10 @@ table
 ;
 NS_ASSERTION
 (
-aCount
+aLength
 "
 0
-count
+length
 "
 )
 ;
@@ -581,7 +581,7 @@ nsMemory
 :
 Alloc
 (
-aCount
+aLength
 *
 sizeof
 (
@@ -613,10 +613,10 @@ sizeof
 (
 NameTableEntry
 )
-aCount
 fallible_t
 (
 )
+aLength
 )
 )
 {
@@ -639,7 +639,7 @@ index
 ;
 index
 <
-aCount
+aLength
 ;
 +
 +

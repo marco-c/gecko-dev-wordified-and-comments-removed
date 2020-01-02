@@ -42,7 +42,7 @@ aNames
 [
 ]
 int32_t
-aCount
+aLength
 )
 ;
 int32_t

@@ -3223,7 +3223,6 @@ sizeof
 (
 BroadcasterMapEntry
 )
-PL_DHASH_MIN_SIZE
 )
 ;
 if

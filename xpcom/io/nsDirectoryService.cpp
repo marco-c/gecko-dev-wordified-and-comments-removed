@@ -851,7 +851,7 @@ nsDirectoryService
 :
 mHashtable
 (
-256
+128
 )
 {
 }

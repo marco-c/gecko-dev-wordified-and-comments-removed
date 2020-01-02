@@ -4669,7 +4669,6 @@ mWarnLevelMissingRFC5746
 )
 mTLSIntoleranceInfo
 (
-16
 )
 mFalseStartRequireNPN
 (
@@ -6231,7 +6230,6 @@ nsTHashtable
 nsCStringHashKey
 >
 (
-16
 )
 ;
 nsCString

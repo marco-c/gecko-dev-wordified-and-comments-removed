@@ -131,7 +131,7 @@ nsUnixSystemProxySettings
 :
 mSchemeProxySettings
 (
-5
+4
 )
 {
 }

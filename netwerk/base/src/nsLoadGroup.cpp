@@ -4735,7 +4735,6 @@ sizeof
 (
 RequestMapEntry
 )
-16
 )
 ;
 mConnectionInfo

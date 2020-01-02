@@ -628,7 +628,7 @@ aRawTable
 [
 ]
 int32_t
-aSize
+aLength
 )
 {
 auto
@@ -656,7 +656,7 @@ index
 ;
 index
 <
-aSize
+aLength
 ;
 +
 +
@@ -740,7 +740,7 @@ table
 Init
 (
 aRawTable
-aSize
+aLength
 )
 ;
 }
