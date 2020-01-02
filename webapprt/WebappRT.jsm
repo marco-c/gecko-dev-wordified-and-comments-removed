@@ -210,15 +210,10 @@ launchURI
 (
 )
 {
-let
-manifest
-=
+return
 this
 .
 localeManifest
-;
-return
-manifest
 .
 fullLaunchPath
 (
