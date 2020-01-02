@@ -25,6 +25,9 @@ bottom
 1px
 ;
 }
+#
+handlersView
+>
 richlistitem
 label
 {
@@ -44,6 +47,9 @@ top
 2px
 ;
 }
+#
+handlersView
+>
 richlistitem
 {
 min
