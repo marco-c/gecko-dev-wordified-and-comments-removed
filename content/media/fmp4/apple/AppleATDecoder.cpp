@@ -285,7 +285,7 @@ AppleATDecoder
 {
 MOZ_COUNT_DTOR
 (
-AppleATDecoer
+AppleATDecoder
 )
 ;
 MOZ_ASSERT
