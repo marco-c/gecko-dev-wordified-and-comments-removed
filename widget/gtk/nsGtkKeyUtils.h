@@ -382,6 +382,15 @@ gint
 aGroup
 )
 ;
+uint32_t
+GetUnmodifiedCharCodeFor
+(
+const
+GdkEventKey
+*
+aGdkKeyEvent
+)
+;
 gint
 GetKeyLevel
 (
