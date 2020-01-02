@@ -5506,7 +5506,9 @@ res
 =
 InsertNode
 (
+*
 child
+*
 headNode
 offsetOfNewNode
 +
