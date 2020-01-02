@@ -913,12 +913,10 @@ length
 LifoAlloc
 alloc
 ;
-JSObject
-*
+PersistentRootedObject
 scopeChain
 ;
-JSObject
-*
+PersistentRootedObject
 exclusiveContextGlobal
 ;
 JS
