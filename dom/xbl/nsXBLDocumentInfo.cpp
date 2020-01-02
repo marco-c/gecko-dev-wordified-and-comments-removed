@@ -1557,7 +1557,7 @@ MOZ_ASSERT
 xpc
 :
 :
-GetCompilationScope
+CompilationScope
 (
 )
 =

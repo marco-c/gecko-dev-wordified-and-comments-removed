@@ -2214,12 +2214,12 @@ mAutoRoots
 }
 JSObject
 *
-JunkScope
+PrivilegedJunkScope
 (
 )
 {
 return
-mJunkScope
+mPrivilegedJunkScope
 ;
 }
 JSObject
@@ -2427,7 +2427,7 @@ JS
 :
 :
 PersistentRootedObject
-mJunkScope
+mPrivilegedJunkScope
 ;
 JS
 :

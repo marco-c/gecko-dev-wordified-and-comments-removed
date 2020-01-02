@@ -11436,7 +11436,7 @@ cx
 xpc
 :
 :
-GetCompilationScope
+CompilationScope
 (
 )
 )
@@ -11565,7 +11565,7 @@ MOZ_ASSERT
 xpc
 :
 :
-GetCompilationScope
+CompilationScope
 (
 )
 =
@@ -11896,7 +11896,7 @@ cx
 xpc
 :
 :
-GetCompilationScope
+CompilationScope
 (
 )
 )
@@ -12280,7 +12280,7 @@ cx
 xpc
 :
 :
-GetCompilationScope
+CompilationScope
 (
 )
 )
@@ -12391,17 +12391,6 @@ nsIOffThreadScriptReceiver
 aOffThreadReceiver
 )
 {
-NS_ENSURE_TRUE
-(
-xpc
-:
-:
-GetCompilationScope
-(
-)
-NS_ERROR_UNEXPECTED
-)
-;
 AutoSafeJSContext
 cx
 ;
@@ -12412,7 +12401,7 @@ cx
 xpc
 :
 :
-GetCompilationScope
+CompilationScope
 (
 )
 )
