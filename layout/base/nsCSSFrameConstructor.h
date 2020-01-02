@@ -3469,15 +3469,6 @@ aPossiblyLeafFrame
 nullptr
 )
 ;
-nsIFrame
-*
-GetFrameFor
-(
-nsIContent
-*
-aContent
-)
-;
 public
 :
 enum
