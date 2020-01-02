@@ -739,10 +739,6 @@ StringInfo
 (
 )
 :
-length
-(
-0
-)
 numCopies
 (
 0
@@ -764,8 +760,6 @@ normalMallocHeap
 StringInfo
 (
 size_t
-len
-size_t
 shorts
 size_t
 normals
@@ -773,10 +767,6 @@ size_t
 chars
 )
 :
-length
-(
-len
-)
 numCopies
 (
 1
@@ -835,16 +825,6 @@ StringInfo
 info
 )
 {
-MOZ_ASSERT
-(
-length
-=
-=
-info
-.
-length
-)
-;
 shortGCHeap
 +
 =
@@ -900,9 +880,6 @@ shortGCHeap
 normalGCHeap
 ;
 }
-size_t
-length
-;
 size_t
 numCopies
 ;
@@ -986,6 +963,9 @@ MemoryReportingSundriesThreshold
 char
 *
 buffer
+;
+size_t
+length
 ;
 private
 :
