@@ -11981,7 +11981,6 @@ JS
 CompileOffThread
 (
 cx
-scope
 options
 static_cast
 <

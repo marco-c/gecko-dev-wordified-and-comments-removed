@@ -14795,8 +14795,6 @@ CompileOffThread
 JSContext
 *
 cx
-HandleObject
-obj
 const
 ReadOnlyCompileOptions
 &

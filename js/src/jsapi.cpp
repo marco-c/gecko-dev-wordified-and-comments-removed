@@ -22357,12 +22357,6 @@ CompileOffThread
 JSContext
 *
 cx
-Handle
-<
-JSObject
-*
->
-obj
 const
 ReadOnlyCompileOptions
 &
@@ -22397,7 +22391,6 @@ cx
 options
 chars
 length
-obj
 callback
 callbackData
 )

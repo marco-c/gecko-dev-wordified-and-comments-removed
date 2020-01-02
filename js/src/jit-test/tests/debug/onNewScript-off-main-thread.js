@@ -89,6 +89,8 @@ wine
 ;
 assertEq
 (
+g
+.
 runOffThreadScript
 (
 )

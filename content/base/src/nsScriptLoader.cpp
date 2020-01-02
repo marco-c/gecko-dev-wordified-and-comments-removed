@@ -3898,7 +3898,6 @@ JS
 CompileOffThread
 (
 cx
-global
 options
 aRequest
 -

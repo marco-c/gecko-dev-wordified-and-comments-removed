@@ -786,8 +786,6 @@ jschar
 chars
 size_t
 length
-HandleObject
-scopeChain
 JS
 :
 :
@@ -1058,9 +1056,6 @@ LifoAlloc
 alloc
 ;
 PersistentRootedObject
-scopeChain
-;
-PersistentRootedObject
 exclusiveContextGlobal
 ;
 PersistentRootedObject
@@ -1113,9 +1108,6 @@ jschar
 chars
 size_t
 length
-JSObject
-*
-scopeChain
 JS
 :
 :
