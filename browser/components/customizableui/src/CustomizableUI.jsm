@@ -13456,7 +13456,9 @@ CustomizableUIInternal
 .
 getPlacementOfWidget
 (
-aWidgetId
+aWidget
+.
+id
 )
 ;
 if
