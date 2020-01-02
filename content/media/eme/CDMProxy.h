@@ -432,6 +432,11 @@ aPromiseId
 )
 ;
 void
+gmp_Shutdown
+(
+)
+;
+void
 OnCDMCreated
 (
 uint32_t
