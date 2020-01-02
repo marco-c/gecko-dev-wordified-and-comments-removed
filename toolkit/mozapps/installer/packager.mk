@@ -2346,12 +2346,6 @@ removed
 -
 files
 \
-recommended
--
-addons
-.
-json
-\
 distribution
 \
 (

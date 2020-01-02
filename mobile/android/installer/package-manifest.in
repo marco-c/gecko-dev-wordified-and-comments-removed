@@ -437,13 +437,6 @@ res
 layout
 BINPATH
 /
-recommended
--
-addons
-.
-json
-BINPATH
-/
 distribution
 /
 *
