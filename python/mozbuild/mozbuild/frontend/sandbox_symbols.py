@@ -387,6 +387,11 @@ no_pgo
 '
 :
 bool
+'
+flags
+'
+:
+list
 }
 )
 list
