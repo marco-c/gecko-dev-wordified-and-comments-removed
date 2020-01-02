@@ -2681,6 +2681,15 @@ execute_async_script
 "
 "
 "
+log
+(
+'
+waiting
+for
+mozbrowserloadend
+'
+)
+;
 window
 .
 addEventListener
@@ -2694,6 +2703,22 @@ loaded
 aEvent
 )
 {
+  
+log
+(
+'
+received
+mozbrowserloadend
+for
+'
++
+aEvent
+.
+target
+.
+src
+)
+;
   
 if
 (
@@ -2759,7 +2784,7 @@ marionetteScriptFinished
 "
 script_timeout
 =
-60000
+120000
 )
         
 print
