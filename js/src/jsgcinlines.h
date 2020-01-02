@@ -1681,7 +1681,7 @@ suppressGC
 {
 MinorGC
 (
-rt
+cx
 JS
 :
 :

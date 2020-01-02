@@ -4113,6 +4113,11 @@ templateObject
 Label
 *
 fail
+gc
+:
+:
+InitialHeap
+initialHeap
 )
 ;
 void

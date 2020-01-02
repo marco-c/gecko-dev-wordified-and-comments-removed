@@ -1230,11 +1230,6 @@ setAboutToOverflow
 MinorGC
 (
 cx
--
->
-runtime
-(
-)
 gcreason
 :
 :
