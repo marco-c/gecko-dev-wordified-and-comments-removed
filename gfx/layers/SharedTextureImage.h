@@ -28,13 +28,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
