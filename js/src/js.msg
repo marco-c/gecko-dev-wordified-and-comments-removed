@@ -3933,14 +3933,11 @@ block
 )
 MSG_DEF
 (
-JSMSG_BAD_OBJECT_INIT
+JSMSG_UNUSED224
 224
 0
-JSEXN_SYNTAXERR
+JSEXN_NONE
 "
-invalid
-object
-initializer
 "
 )
 MSG_DEF

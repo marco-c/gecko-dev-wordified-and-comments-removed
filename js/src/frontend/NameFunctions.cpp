@@ -559,6 +559,9 @@ break
 case
 PNK_COLON
 :
+case
+PNK_SHORTHAND
+:
 pos
 -
 -
@@ -872,6 +875,15 @@ node
 isKind
 (
 PNK_COLON
+)
+|
+|
+node
+-
+>
+isKind
+(
+PNK_SHORTHAND
 )
 )
 {
