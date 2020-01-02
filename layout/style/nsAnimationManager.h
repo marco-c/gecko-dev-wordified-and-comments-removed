@@ -563,6 +563,15 @@ aStyleContext
 mozilla
 :
 :
+dom
+:
+:
+AnimationTimeline
+*
+aTimeline
+mozilla
+:
+:
 ElementAnimationPtrArray
 &
 aAnimations
