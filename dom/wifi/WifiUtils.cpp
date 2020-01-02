@@ -47,6 +47,12 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+network
+/
 NetUtils
 .
 h

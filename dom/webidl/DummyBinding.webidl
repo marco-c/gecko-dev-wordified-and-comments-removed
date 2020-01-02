@@ -294,6 +294,17 @@ DOMFileMetadataParameters
 arg
 )
 ;
+void
+NetworkOptions
+(
+optional
+NetworkCommandOptions
+arg1
+optional
+NetworkResultOptions
+arg2
+)
+;
 }
 ;
 interface

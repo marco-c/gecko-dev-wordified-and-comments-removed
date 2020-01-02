@@ -210,11 +210,6 @@ SOURCES
 =
 [
 '
-NetUtils
-.
-cpp
-'
-'
 WifiProxyService
 .
 cpp
