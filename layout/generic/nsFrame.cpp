@@ -24404,6 +24404,15 @@ pseudoType
 nsCSSAnonBoxes
 :
 :
+buttonContent
+|
+|
+pseudoType
+=
+=
+nsCSSAnonBoxes
+:
+:
 cellContent
 )
 ;
