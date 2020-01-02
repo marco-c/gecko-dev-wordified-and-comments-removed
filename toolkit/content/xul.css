@@ -5362,6 +5362,13 @@ group
 ;
 }
 scrollbar
+[
+orient
+=
+"
+horizontal
+"
+]
 {
 direction
 :
