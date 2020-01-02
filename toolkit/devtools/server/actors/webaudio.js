@@ -1246,6 +1246,12 @@ reload
 }
 )
 {
+this
+.
+_firstNodeCreated
+=
+false
+;
 if
 (
 this
@@ -1314,12 +1320,6 @@ performReload
 reload
 }
 )
-;
-this
-.
-_firstNodeCreated
-=
-false
 ;
 }
 {
