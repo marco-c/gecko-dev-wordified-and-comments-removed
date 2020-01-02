@@ -4101,6 +4101,10 @@ currentEngine
 getSubmission
 (
 aData
+null
+"
+searchbar
+"
 )
 ;
 BrowserSearch
@@ -4464,6 +4468,10 @@ getSubmission
 "
 dummy
 "
+null
+"
+searchbar
+"
 )
 .
 uri
@@ -4529,6 +4537,9 @@ getSubmission
 dummy
 "
 SUGGEST_TYPE
+"
+searchbar
+"
 )
 .
 uri
