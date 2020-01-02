@@ -398,9 +398,12 @@ none
 "
 ;
 }
+let
+data
+string
+;
 try
 {
-let
 string
 =
 JSON
@@ -412,7 +415,6 @@ state
 )
 )
 ;
-let
 data
 =
 JSON
@@ -459,6 +461,15 @@ catch
 ex
 )
 {
+if
+(
+string
+)
+{
+return
+string
+;
+}
 try
 {
 return
