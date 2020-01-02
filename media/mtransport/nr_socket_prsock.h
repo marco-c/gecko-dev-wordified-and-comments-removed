@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 databuffer
 .
 h
@@ -908,7 +915,7 @@ nr_udp_message
 >
 received_msgs_
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIUDPSocketChild
 >
