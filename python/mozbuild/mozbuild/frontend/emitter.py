@@ -1306,6 +1306,18 @@ DEFFILE
 '
 SDK_LIBRARY
 '
+            
+'
+CFLAGS
+'
+            
+'
+CXXFLAGS
+'
+            
+'
+LDFLAGS
+'
         
 ]
         
