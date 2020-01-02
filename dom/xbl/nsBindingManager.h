@@ -21,7 +21,7 @@ h
 #
 include
 "
-pldhash
+nsHashKeys
 .
 h
 "
@@ -554,9 +554,17 @@ nsIContent
 >
 mBoundContentSet
 ;
+typedef
+nsInterfaceHashtable
+<
+nsISupportsHashKey
+nsIXPConnectWrappedJS
+>
+WrapperHashtable
+;
 nsAutoPtr
 <
-PLDHashTable
+WrapperHashtable
 >
 mWrapperTable
 ;
