@@ -117,9 +117,6 @@ Netd
 cpp
 '
 ]
-LIBXUL_LIBRARY
-=
-True
 LIBRARY_NAME
 =
 '

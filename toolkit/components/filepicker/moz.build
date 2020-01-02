@@ -128,9 +128,6 @@ windows
 '
 )
 :
-LIBXUL_LIBRARY
-=
-True
 XPIDL_MODULE
 =
 '

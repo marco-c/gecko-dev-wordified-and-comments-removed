@@ -108,9 +108,6 @@ LIBRARY_NAME
 '
 jsdownloads_s
 '
-LIBXUL_LIBRARY
-=
-True
 EXTRA_COMPONENTS
 +
 =

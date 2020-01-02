@@ -175,9 +175,6 @@ LIBRARY_NAME
 '
 browsercomps
 '
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

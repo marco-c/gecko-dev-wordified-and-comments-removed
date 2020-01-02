@@ -153,9 +153,6 @@ LIBRARY_NAME
 '
 gkconmediaplugins_s
 '
-LIBXUL_LIBRARY
-=
-True
 LOCAL_INCLUDES
 +
 =

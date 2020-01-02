@@ -118,9 +118,6 @@ LIBRARY_NAME
 '
 storagecomps
 '
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

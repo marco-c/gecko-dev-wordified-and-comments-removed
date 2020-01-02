@@ -108,9 +108,6 @@ LIBRARY_NAME
 '
 gtkxtbin
 '
-LIBXUL_LIBRARY
-=
-True
 if
 CONFIG
 [

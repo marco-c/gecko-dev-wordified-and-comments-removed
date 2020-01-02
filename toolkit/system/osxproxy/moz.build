@@ -108,9 +108,6 @@ LIBRARY_NAME
 '
 osxproxy
 '
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

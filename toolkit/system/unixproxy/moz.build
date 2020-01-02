@@ -128,9 +128,6 @@ LIBRARY_NAME
 '
 unixproxy
 '
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

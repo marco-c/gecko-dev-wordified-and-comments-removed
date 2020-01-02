@@ -187,9 +187,6 @@ LIBRARY_NAME
 '
 accessibility_generic_s
 '
-LIBXUL_LIBRARY
-=
-True
 LOCAL_INCLUDES
 +
 =

@@ -138,9 +138,6 @@ LIBRARY_NAME
 '
 skia_npapi
 '
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

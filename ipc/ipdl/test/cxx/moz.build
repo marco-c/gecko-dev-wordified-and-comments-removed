@@ -628,9 +628,6 @@ PTestUrgency
 ipdl
 '
 ]
-LIBXUL_LIBRARY
-=
-True
 include
 (
 '

@@ -193,9 +193,6 @@ LIBRARY_NAME
 '
 wdgtos2
 '
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

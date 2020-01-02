@@ -126,9 +126,6 @@ xptinfo
 MSVC_ENABLE_PGO
 =
 True
-LIBXUL_LIBRARY
-=
-True
 #
 For
 nsManifestLineReader

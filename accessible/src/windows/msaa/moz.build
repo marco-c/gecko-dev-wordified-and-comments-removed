@@ -240,9 +240,6 @@ XULTreeGridAccessibleWrap
 cpp
 '
 ]
-LIBXUL_LIBRARY
-=
-True
 LOCAL_INCLUDES
 +
 =

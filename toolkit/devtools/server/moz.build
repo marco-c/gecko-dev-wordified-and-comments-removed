@@ -131,9 +131,6 @@ LIBRARY_NAME
 '
 jsinspector
 '
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

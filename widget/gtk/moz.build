@@ -325,9 +325,6 @@ mozcontainer
 c
 '
 ]
-LIBXUL_LIBRARY
-=
-True
 if
 CONFIG
 [

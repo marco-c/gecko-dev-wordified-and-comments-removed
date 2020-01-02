@@ -160,9 +160,6 @@ LIBRARY_NAME
 '
 profile_s
 '
-LIBXUL_LIBRARY
-=
-True
 LOCAL_INCLUDES
 +
 =

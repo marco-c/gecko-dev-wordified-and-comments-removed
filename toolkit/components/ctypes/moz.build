@@ -139,9 +139,6 @@ ctypes
 jsm
 '
 ]
-LIBXUL_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

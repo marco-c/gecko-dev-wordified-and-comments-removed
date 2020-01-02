@@ -305,9 +305,6 @@ ifaddrs_android
 cpp
 '
 ]
-LIBXUL_LIBRARY
-=
-True
 LIBRARY_NAME
 =
 '
