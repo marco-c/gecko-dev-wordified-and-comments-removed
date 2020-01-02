@@ -37,10 +37,6 @@ downloads
 -
 indicator
 #
-history
--
-button
-#
 bookmarks
 -
 menu
