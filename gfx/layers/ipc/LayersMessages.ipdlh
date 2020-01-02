@@ -1163,6 +1163,12 @@ scrollbarTargetContainerId
 uint32_t
 scrollbarDirection
 ;
+int8_t
+mixBlendMode
+;
+bool
+forceIsolatedGroup
+;
 nullable
 PLayer
 maskLayer
