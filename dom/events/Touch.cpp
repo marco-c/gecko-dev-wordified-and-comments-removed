@@ -549,15 +549,6 @@ aTouch
 RadiusY
 (
 )
-&
-&
-mMessage
-=
-=
-aTouch
--
->
-mMessage
 ;
 }
 JSObject
