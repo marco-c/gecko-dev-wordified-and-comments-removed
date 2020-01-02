@@ -805,6 +805,31 @@ test_paths
 1
 )
         
+xpcsExecutable
+=
+'
+xpcshell
+'
+        
+if
+os
+.
+name
+=
+=
+'
+nt
+'
+:
+          
+xpcsExecutable
++
+=
+'
+.
+exe
+'
+        
 args
 =
 {
@@ -828,9 +853,7 @@ join
 self
 .
 bindir
-'
-xpcshell
-'
+xpcsExecutable
 )
             
 '
