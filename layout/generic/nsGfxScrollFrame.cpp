@@ -8360,7 +8360,7 @@ false
 mOuter
 -
 >
-SchedulePaint
+InvalidateFrameSubtree
 (
 )
 ;
