@@ -3614,6 +3614,15 @@ aContent
 )
 ;
 static
+bool
+IsUserFocusIgnored
+(
+nsINode
+*
+aNode
+)
+;
+static
 void
 FlushLayoutForTree
 (

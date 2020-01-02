@@ -283,6 +283,12 @@ ErrorResult
 aError
 )
 ;
+static
+bool
+BrowserFramesEnabled
+(
+)
+;
 protected
 :
 void
