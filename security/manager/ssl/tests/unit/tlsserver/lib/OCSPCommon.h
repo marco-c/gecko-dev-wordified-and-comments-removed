@@ -42,6 +42,10 @@ ORTBadSignature
 ORTSkipResponseBytes
 ORTCriticalExtension
 ORTNoncriticalExtension
+ORTDelegatedIncluded
+ORTDelegatedIncludedLast
+ORTDelegatedMissing
+ORTDelegatedMissingMultiple
 }
 ;
 struct
