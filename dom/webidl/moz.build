@@ -1680,6 +1680,11 @@ SVGFEDistantLightElement
 webidl
 '
 '
+SVGFEDropShadowElement
+.
+webidl
+'
+'
 SVGFEFloodElement
 .
 webidl
