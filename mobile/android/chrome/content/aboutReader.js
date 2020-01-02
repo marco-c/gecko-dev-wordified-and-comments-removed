@@ -2302,7 +2302,7 @@ about
 :
 home
 ?
-page
+panel
 =
 "
 +
