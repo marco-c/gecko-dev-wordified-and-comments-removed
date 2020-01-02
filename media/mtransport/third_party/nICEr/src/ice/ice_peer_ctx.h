@@ -80,6 +80,10 @@ done_cb_timer
 UCHAR
 reported_done
 ;
+void
+*
+trickle_grace_period_timer
+;
 STAILQ_ENTRY
 (
 nr_ice_peer_ctx_
