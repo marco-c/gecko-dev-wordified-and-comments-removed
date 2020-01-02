@@ -482,7 +482,7 @@ true
 {
 MOZ_COUNT_CTOR
 (
-Assertion
+RDF_Assertion
 )
 ;
 NS_ADDREF
@@ -546,7 +546,7 @@ false
 {
 MOZ_COUNT_CTOR
 (
-Assertion
+RDF_Assertion
 )
 ;
 u
@@ -664,7 +664,7 @@ nullptr
 }
 MOZ_COUNT_DTOR
 (
-Assertion
+RDF_Assertion
 )
 ;
 #
