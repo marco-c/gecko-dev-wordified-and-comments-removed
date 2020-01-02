@@ -471,6 +471,16 @@ e2
 ;
 }
 }
+if
+(
+this
+.
+dataReady
+)
+{
+return
+;
+}
 this
 .
 data
