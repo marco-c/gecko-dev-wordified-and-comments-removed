@@ -233,6 +233,11 @@ nsSubDocumentFrame
 h
 '
 '
+nsTextRunTransformations
+.
+h
+'
+'
 ScrollbarActivity
 .
 h
