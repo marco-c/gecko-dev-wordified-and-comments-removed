@@ -39,7 +39,6 @@ prototype
 addBreakpoint
 :
 function
-BS_addBreakpoint
 (
 aBreakpoint
 )
@@ -168,7 +167,6 @@ aBreakpoint
 removeBreakpoint
 :
 function
-BS_removeBreakpoint
 (
 {
 url
@@ -290,7 +288,6 @@ line
 getBreakpoint
 :
 function
-BS_getBreakpoint
 (
 aLocation
 )
@@ -375,7 +372,6 @@ foundBreakpoint
 hasBreakpoint
 :
 function
-BS_hasBreakpoint
 (
 aLocation
 )
@@ -429,7 +425,6 @@ null
 findBreakpoints
 :
 function
-BS_findBreakpoints
 (
 aSearchParams
 =
@@ -589,7 +584,6 @@ column
 _iterUrls
 :
 function
-BS__iterUrls
 (
 aUrl
 )
@@ -679,7 +673,6 @@ url
 _iterLines
 :
 function
-BS__iterLines
 (
 aUrl
 aLine
@@ -844,7 +837,6 @@ line
 _iterColumns
 :
 function
-BS__iterColumns
 (
 aUrl
 aLine
@@ -1906,7 +1898,6 @@ null
 _pushThreadPause
 :
 function
-TA__pushThreadPause
 (
 )
 {
@@ -1956,7 +1947,6 @@ enter
 _popThreadPause
 :
 function
-TA__popThreadPause
 (
 )
 {
@@ -1994,7 +1984,6 @@ resolve
 clearDebuggees
 :
 function
-TA_clearDebuggees
 (
 )
 {
@@ -2044,7 +2033,6 @@ null
 addDebuggee
 :
 function
-TA_addDebuggee
 (
 aGlobal
 )
@@ -2097,7 +2085,6 @@ globalDebugObject
 _initDebugger
 :
 function
-TA__initDebugger
 (
 )
 {
@@ -2191,7 +2178,6 @@ detached
 removeDebugee
 :
 function
-TA_removeDebuggee
 (
 aGlobal
 )
@@ -2218,7 +2204,6 @@ ex
 _addDebuggees
 :
 function
-TA__addDebuggees
 (
 aWindow
 )
@@ -2285,7 +2270,6 @@ globalManager
 findGlobals
 :
 function
-TA_findGlobals
 (
 )
 {
@@ -2306,7 +2290,6 @@ global
 onNewGlobal
 :
 function
-TA_onNewGlobal
 (
 aGlobal
 )
@@ -2381,7 +2364,6 @@ hostAnnotations
 disconnect
 :
 function
-TA_disconnect
 (
 )
 {
@@ -2511,7 +2493,6 @@ null
 exit
 :
 function
-TA_exit
 (
 )
 {
@@ -2525,7 +2506,6 @@ disconnect
 onAttach
 :
 function
-TA_onAttach
 (
 aRequest
 )
@@ -2722,7 +2702,6 @@ toString
 onDetach
 :
 function
-TA_onDetach
 (
 aRequest
 )
@@ -2763,7 +2742,6 @@ detached
 onReconfigure
 :
 function
-TA_onReconfigure
 (
 aRequest
 )
@@ -2818,7 +2796,6 @@ return
 _pauseAndRespond
 :
 function
-TA__pauseAndRespond
 (
 aFrame
 aReason
@@ -2990,7 +2967,6 @@ undefined
 _forceCompletion
 :
 function
-TA__forceCompletion
 (
 aRequest
 )
@@ -3019,7 +2995,6 @@ implemented
 _makeOnEnterFrame
 :
 function
-TA__makeOnEnterFrame
 (
 {
 pauseAndRespond
@@ -3081,7 +3056,6 @@ aFrame
 _makeOnPop
 :
 function
-TA__makeOnPop
 (
 {
 thread
@@ -3267,7 +3241,6 @@ aPacket
 _makeOnStep
 :
 function
-TA__makeOnStep
 (
 {
 thread
@@ -3380,7 +3353,6 @@ undefined
 _makeSteppingHooks
 :
 function
-TA__makeSteppingHooks
 (
 aStartLocation
 )
@@ -3476,7 +3448,6 @@ steppingHookState
 _handleResumeLimit
 :
 function
-TA__handleResumeLimit
 (
 aRequest
 )
@@ -3659,7 +3630,6 @@ true
 _clearSteppingHooks
 :
 function
-TA__clearSteppingHooks
 (
 aFrame
 )
@@ -3692,7 +3662,6 @@ older
 _maybeListenToEvents
 :
 function
-TA__maybeListenToEvents
 (
 aRequest
 )
@@ -3786,7 +3755,6 @@ true
 onResume
 :
 function
-TA_onResume
 (
 aRequest
 )
@@ -4610,7 +4578,6 @@ break
 _getNextStepFrame
 :
 function
-TA__getNextStepFrame
 (
 aFrame
 )
@@ -4652,7 +4619,6 @@ stepFrame
 onClientEvaluate
 :
 function
-TA_onClientEvaluate
 (
 aRequest
 )
@@ -4832,7 +4798,6 @@ packet
 onFrames
 :
 function
-TA_onFrames
 (
 aRequest
 )
@@ -5100,7 +5065,6 @@ frames
 onReleaseMany
 :
 function
-TA_onReleaseMany
 (
 aRequest
 )
@@ -5215,7 +5179,6 @@ res
 onSetBreakpoint
 :
 function
-TA_onSetBreakpoint
 (
 aRequest
 )
@@ -5562,7 +5525,6 @@ aLocation
 _setBreakpoint
 :
 function
-TA__setBreakpoint
 (
 aLocation
 )
@@ -6031,7 +5993,6 @@ actorID
 _findClosestOffsetMappings
 :
 function
-TA__findClosestOffsetMappings
 (
 aTargetLocation
 aScript
@@ -6275,7 +6236,6 @@ mapping
 _discoverSources
 :
 function
-TA__discoverSources
 (
 )
 {
@@ -6349,7 +6309,6 @@ values
 onSources
 :
 function
-TA_onSources
 (
 aRequest
 )
@@ -6438,7 +6397,6 @@ removeScripts
 onInterrupt
 :
 function
-TA_onInterrupt
 (
 aRequest
 )
@@ -6626,7 +6584,6 @@ toString
 onEventListeners
 :
 function
-TA_onEventListeners
 (
 aRequest
 )
@@ -6917,7 +6874,6 @@ listeners
 _requestFrame
 :
 function
-TA_requestFrame
 (
 aFrameID
 )
@@ -6966,7 +6922,6 @@ undefined
 _paused
 :
 function
-TA__paused
 (
 aFrame
 )
@@ -7276,7 +7231,6 @@ packet
 _resumed
 :
 function
-TA_resumed
 (
 )
 {
@@ -7329,7 +7283,6 @@ resumed
 _updateFrames
 :
 function
-TA_updateFrames
 (
 )
 {
@@ -7451,7 +7404,6 @@ popped
 _createFrameActor
 :
 function
-TA_createFrameActor
 (
 aFrame
 )
@@ -7510,7 +7462,6 @@ actor
 createEnvironmentActor
 :
 function
-TA_createEnvironmentActor
 (
 aEnvironment
 aPool
@@ -7569,7 +7520,6 @@ actor
 createValueGrip
 :
 function
-TA_createValueGrip
 (
 aValue
 aPool
@@ -7803,7 +7753,6 @@ null
 createProtocolCompletionValue
 :
 function
-TA_createProtocolCompletionValue
 (
 aCompletion
 )
@@ -7901,7 +7850,6 @@ protoValue
 objectGrip
 :
 function
-TA_objectGrip
 (
 aValue
 aPool
@@ -8022,7 +7970,6 @@ grip
 pauseObjectGrip
 :
 function
-TA_pauseObjectGrip
 (
 aValue
 )
@@ -8062,7 +8009,6 @@ _pausePool
 threadObjectGrip
 :
 function
-TA_threadObjectGrip
 (
 aActor
 )
@@ -8107,7 +8053,6 @@ aActor
 onThreadGrips
 :
 function
-OA_onThreadGrips
 (
 aRequest
 )
@@ -8204,7 +8149,6 @@ return
 longStringGrip
 :
 function
-TA_longStringGrip
 (
 aString
 aPool
@@ -8288,7 +8232,6 @@ grip
 pauseLongStringGrip
 :
 function
-TA_pauseLongStringGrip
 (
 aString
 )
@@ -8308,7 +8251,6 @@ _pausePool
 threadLongStringGrip
 :
 function
-TA_pauseLongStringGrip
 (
 aString
 )
@@ -8328,7 +8270,6 @@ _threadLifetimePool
 _stringIsLong
 :
 function
-TA__stringIsLong
 (
 aString
 )
@@ -8347,7 +8288,6 @@ LONG_STRING_LENGTH
 uncaughtExceptionHook
 :
 function
-TA_uncaughtExceptionHook
 (
 aException
 )
@@ -8379,7 +8319,6 @@ stack
 onDebuggerStatement
 :
 function
-TA_onDebuggerStatement
 (
 aFrame
 )
@@ -8446,7 +8385,6 @@ debuggerStatement
 onExceptionUnwind
 :
 function
-TA_onExceptionUnwind
 (
 aFrame
 aValue
@@ -8641,7 +8579,6 @@ undefined
 onNewScript
 :
 function
-TA_onNewScript
 (
 aScript
 aGlobal
@@ -8667,7 +8604,6 @@ aScript
 onNewSource
 :
 function
-TA_onNewSource
 (
 aSource
 )
@@ -8703,7 +8639,6 @@ form
 _allowSource
 :
 function
-TA__allowSource
 (
 aSourceUrl
 )
@@ -8765,7 +8700,6 @@ true
 _restoreBreakpoints
 :
 function
-TA__restoreBreakpoints
 (
 )
 {
@@ -8795,7 +8729,6 @@ s
 _addScript
 :
 function
-TA__addScript
 (
 aScript
 )
@@ -8897,7 +8830,6 @@ true
 onPrototypesAndProperties
 :
 function
-TA_onPrototypesAndProperties
 (
 aRequest
 )
@@ -9197,7 +9129,6 @@ PauseScopedActor
 withPaused
 =
 function
-PSA_withPaused
 (
 aMethod
 )
@@ -9248,7 +9179,6 @@ prototype
 isPaused
 :
 function
-PSA_isPaused
 (
 )
 {
@@ -9275,7 +9205,6 @@ true
 _wrongState
 :
 function
-PSA_wrongState
 (
 )
 {
@@ -9535,7 +9464,6 @@ prettyPrintWorker
 form
 :
 function
-SA_form
 (
 )
 {
@@ -9585,7 +9513,6 @@ url
 disconnect
 :
 function
-SA_disconnect
 (
 )
 {
@@ -9620,7 +9547,6 @@ actorID
 _getSourceText
 :
 function
-SA__getSourceText
 (
 )
 {
@@ -9713,7 +9639,6 @@ _sourceMap
 onSource
 :
 function
-SA_onSource
 (
 )
 {
@@ -9961,7 +9886,6 @@ error
 _sendToPrettyPrintWorker
 :
 function
-SA__sendToPrettyPrintWorker
 (
 aIndent
 )
@@ -10112,7 +10036,6 @@ promise
 _invertSourceMap
 :
 function
-SA__invertSourceMap
 (
 {
 code
@@ -10354,7 +10277,6 @@ consumer
 _saveMap
 :
 function
-SA__saveMap
 (
 {
 map
@@ -10460,7 +10382,6 @@ _url
 onDisablePrettyPrint
 :
 function
-SA_onDisablePrettyPrint
 (
 )
 {
@@ -10517,7 +10438,6 @@ onSource
 onBlackBox
 :
 function
-SA_onBlackBox
 (
 aRequest
 )
@@ -10597,7 +10517,6 @@ packet
 onUnblackBox
 :
 function
-SA_onUnblackBox
 (
 aRequest
 )
@@ -10717,7 +10636,6 @@ false
 grip
 :
 function
-OA_grip
 (
 )
 {
@@ -10945,7 +10863,6 @@ g
 release
 :
 function
-OA_release
 (
 )
 {
@@ -10985,7 +10902,6 @@ this
 _forceMagicProperties
 :
 function
-OA__forceMagicProperties
 (
 )
 {
@@ -11063,7 +10979,6 @@ true
 onOwnPropertyNames
 :
 function
-OA_onOwnPropertyNames
 (
 aRequest
 )
@@ -11096,7 +11011,6 @@ getOwnPropertyNames
 onPrototypeAndProperties
 :
 function
-OA_onPrototypeAndProperties
 (
 aRequest
 )
@@ -11228,7 +11142,6 @@ ownProperties
 _findSafeGetterValues
 :
 function
-OA__findSafeGetterValues
 (
 aOwnProperties
 )
@@ -11483,7 +11396,6 @@ safeGetterValues
 _findSafeGetters
 :
 function
-OA__findSafeGetters
 (
 aObject
 )
@@ -11630,7 +11542,6 @@ getters
 onPrototype
 :
 function
-OA_onPrototype
 (
 aRequest
 )
@@ -11662,7 +11573,6 @@ proto
 onProperty
 :
 function
-OA_onProperty
 (
 aRequest
 )
@@ -11717,7 +11627,6 @@ name
 onDisplayString
 :
 function
-OA_onDisplayString
 (
 aRequest
 )
@@ -11857,7 +11766,6 @@ result
 _propertyDescriptor
 :
 function
-OA_propertyDescriptor
 (
 aName
 )
@@ -12022,7 +11930,6 @@ retval
 onDecompile
 :
 function
-OA_onDecompile
 (
 aRequest
 )
@@ -12101,7 +12008,6 @@ pretty
 onParameterNames
 :
 function
-OA_onParameterNames
 (
 aRequest
 )
@@ -12170,7 +12076,6 @@ parameterNames
 onRelease
 :
 function
-OA_onRelease
 (
 aRequest
 )
@@ -12189,7 +12094,6 @@ return
 onScope
 :
 function
-OA_onScope
 (
 aRequest
 )
@@ -12539,7 +12443,6 @@ PauseScopedActor
 withPaused
 (
 function
-OA_onThreadGrip
 (
 aRequest
 )
@@ -12566,7 +12469,6 @@ PauseScopedActor
 withPaused
 (
 function
-OA_onRelease
 (
 aRequest
 )
@@ -12678,7 +12580,6 @@ longString
 disconnect
 :
 function
-LSA_disconnect
 (
 )
 {
@@ -12713,7 +12614,6 @@ actorID
 grip
 :
 function
-LSA_grip
 (
 )
 {
@@ -12761,7 +12661,6 @@ actorID
 onSubstring
 :
 function
-LSA_onSubString
 (
 aRequest
 )
@@ -12798,7 +12697,6 @@ end
 onRelease
 :
 function
-LSA_onRelease
 (
 )
 {
@@ -12946,7 +12844,6 @@ _frameLifetimePool
 disconnect
 :
 function
-FA_disconnect
 (
 )
 {
@@ -12971,7 +12868,6 @@ null
 form
 :
 function
-FA_form
 (
 )
 {
@@ -13137,7 +13033,6 @@ form
 _args
 :
 function
-FA__args
 (
 )
 {
@@ -13183,7 +13078,6 @@ arguments
 onPop
 :
 function
-FA_onPop
 (
 aRequest
 )
@@ -13338,7 +13232,6 @@ breakpoint
 addScript
 :
 function
-BA_addScript
 (
 aScript
 aThreadActor
@@ -13395,7 +13288,6 @@ scripts
 hit
 :
 function
-BA_hit
 (
 aFrame
 )
@@ -13535,7 +13427,6 @@ reason
 onDelete
 :
 function
-BA_onDelete
 (
 aRequest
 )
@@ -13633,7 +13524,6 @@ environment
 form
 :
 function
-EA_form
 (
 )
 {
@@ -13833,7 +13723,6 @@ form
 _bindings
 :
 function
-EA_bindings
 (
 )
 {
@@ -14222,7 +14111,6 @@ bindings
 onAssign
 :
 function
-EA_onAssign
 (
 aRequest
 )
@@ -14304,7 +14192,6 @@ actorID
 onBindings
 :
 function
-EA_onBindings
 (
 aRequest
 )
@@ -14578,7 +14465,6 @@ globalManager
 findGlobals
 :
 function
-CDA_findGlobals
 (
 )
 {
@@ -14594,7 +14480,6 @@ addAllGlobalsAsDebuggees
 onNewGlobal
 :
 function
-CDA_onNewGlobal
 (
 aGlobal
 )
@@ -14740,7 +14625,6 @@ prototype
 source
 :
 function
-TS_source
 (
 {
 url
@@ -14862,7 +14746,6 @@ actor
 _sourceForScript
 :
 function
-TS__sourceForScript
 (
 aScript
 )
@@ -14964,7 +14847,6 @@ spec
 sourcesForScript
 :
 function
-TS_sourcesForScript
 (
 aScript
 )
@@ -15105,7 +14987,6 @@ isNotNull
 sourceMap
 :
 function
-TS_sourceMap
 (
 aScript
 )
@@ -15186,7 +15067,6 @@ map
 saveSourceMap
 :
 function
-TS_saveSourceMap
 (
 aSourceMap
 aGeneratedSource
@@ -15261,7 +15141,6 @@ aSourceMap
 _fetchSourceMap
 :
 function
-TS__fetchSourceMap
 (
 aAbsSourceMapURL
 aScriptURL
@@ -15316,7 +15195,6 @@ map
 _setSourceMapRoot
 :
 function
-TS__setSourceMapRoot
 (
 aSourceMap
 aAbsSourceMapURL
@@ -15373,7 +15251,6 @@ base
 _dirname
 :
 function
-TS__dirname
 (
 aPath
 )
@@ -15407,7 +15284,6 @@ spec
 getOriginalLocation
 :
 function
-TS_getOriginalLocation
 (
 {
 url
@@ -15544,7 +15420,6 @@ column
 getGeneratedLocation
 :
 function
-TS_getGeneratedLocation
 (
 {
 url
@@ -15654,7 +15529,6 @@ column
 isBlackBoxed
 :
 function
-TS_isBlackBoxed
 (
 aURL
 )
@@ -15673,7 +15547,6 @@ aURL
 blackBox
 :
 function
-TS_blackBox
 (
 aURL
 )
@@ -15691,7 +15564,6 @@ aURL
 unblackBox
 :
 function
-TS_unblackBox
 (
 aURL
 )
@@ -15709,7 +15581,6 @@ aURL
 isPrettyPrinted
 :
 function
-TS_isPrettyPrinted
 (
 aURL
 )
@@ -15728,7 +15599,6 @@ aURL
 prettyPrint
 :
 function
-TS_prettyPrint
 (
 aURL
 aIndent
@@ -15748,7 +15618,6 @@ aIndent
 prettyPrintIndent
 :
 function
-TS_prettyPrintIndent
 (
 aURL
 )
@@ -15767,7 +15636,6 @@ aURL
 disablePrettyPrint
 :
 function
-TS_disablePrettyPrint
 (
 aURL
 )
@@ -15785,7 +15653,6 @@ aURL
 _normalize
 :
 function
-TS__normalize
 (
 .
 .
@@ -15867,7 +15734,6 @@ spec
 iter
 :
 function
-TS_iter
 (
 )
 {
