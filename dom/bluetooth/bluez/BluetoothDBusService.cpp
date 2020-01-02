@@ -4848,10 +4848,10 @@ break
 ;
 }
 }
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
 i
-=
+!
 =
 properties
 .
