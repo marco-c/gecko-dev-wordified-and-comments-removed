@@ -479,6 +479,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+SystemReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

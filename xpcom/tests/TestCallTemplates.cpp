@@ -126,6 +126,12 @@ nsITestService
 public
 nsSupportsWeakReference
 {
+~
+nsTestService
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

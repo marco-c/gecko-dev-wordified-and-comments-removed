@@ -193,6 +193,12 @@ MOZ_FINAL
 public
 nsIThreadPoolListener
 {
+~
+Listener
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

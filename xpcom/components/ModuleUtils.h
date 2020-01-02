@@ -460,6 +460,12 @@ MOZ_FINAL
 public
 nsIModule
 {
+~
+GenericModule
+(
+)
+{
+}
 public
 :
 GenericModule

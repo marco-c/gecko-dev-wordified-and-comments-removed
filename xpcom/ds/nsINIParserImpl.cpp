@@ -42,6 +42,12 @@ MOZ_FINAL
 public
 nsIINIParser
 {
+~
+nsINIParserImpl
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
