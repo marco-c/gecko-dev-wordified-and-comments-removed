@@ -467,13 +467,6 @@ nbsp
 FAILED
 +
 expect
-+
-"
-<
-/
-tt
->
-"
 ;
 DocumentWrite
 (
