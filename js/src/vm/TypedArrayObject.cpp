@@ -5784,12 +5784,6 @@ JSContext
 cx
 )
 {
-AutoLockForCompilation
-lock
-(
-cx
-)
-;
 setSlot
 (
 LENGTH_SLOT

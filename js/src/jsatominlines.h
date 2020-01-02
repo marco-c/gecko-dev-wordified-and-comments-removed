@@ -113,12 +113,6 @@ JSAtom
 atom
 )
 {
-AutoThreadSafeAccess
-ts
-(
-atom
-)
-;
 JS_STATIC_ASSERT
 (
 JSID_INT_MIN

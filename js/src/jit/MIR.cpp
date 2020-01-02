@@ -4347,12 +4347,6 @@ asAtom
 (
 )
 ;
-AutoThreadSafeAccess
-ts
-(
-atom
-)
-;
 return
 MConstant
 :
@@ -13489,14 +13483,6 @@ shouldUseVM
 )
 const
 {
-AutoThreadSafeAccess
-ts
-(
-templateObject
-(
-)
-)
-;
 return
 templateObject
 (

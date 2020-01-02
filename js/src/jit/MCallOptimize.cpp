@@ -1646,13 +1646,6 @@ constraints
 )
 )
 ;
-{
-AutoThreadSafeAccess
-ts
-(
-templateObject
-)
-;
 if
 (
 conversion
@@ -1681,7 +1674,6 @@ clearShouldConvertDoubleElements
 (
 )
 ;
-}
 MNewArray
 *
 ins

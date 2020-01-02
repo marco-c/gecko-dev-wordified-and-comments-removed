@@ -105,9 +105,6 @@ bool
 checkRangeAnalysis
 ;
 bool
-checkThreadSafety
-;
-bool
 compileTryCatch
 ;
 bool

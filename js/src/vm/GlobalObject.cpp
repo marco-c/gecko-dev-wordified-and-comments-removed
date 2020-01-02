@@ -2591,7 +2591,7 @@ set
 global
 -
 >
-getSlotForCompilation
+getSlot
 (
 EVAL
 )
@@ -2618,7 +2618,7 @@ val
 Value
 eval
 =
-getSlotForCompilation
+getSlot
 (
 EVAL
 )
@@ -4046,12 +4046,6 @@ shape
 )
 return
 false
-;
-AutoLockForCompilation
-lock
-(
-cx
-)
 ;
 if
 (

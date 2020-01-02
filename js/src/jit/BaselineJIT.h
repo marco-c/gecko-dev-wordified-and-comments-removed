@@ -1072,9 +1072,6 @@ enable
 void
 noteAccessedGetter
 (
-JSContext
-*
-cx
 uint32_t
 pcOffset
 )
@@ -1082,9 +1079,6 @@ pcOffset
 void
 noteArrayWriteHole
 (
-JSContext
-*
-cx
 uint32_t
 pcOffset
 )

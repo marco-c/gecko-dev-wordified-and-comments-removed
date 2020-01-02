@@ -278,13 +278,6 @@ compartment
 (
 )
 ;
-friend
-class
-js
-:
-:
-AutoLockForCompilation
-;
 public
 :
 static

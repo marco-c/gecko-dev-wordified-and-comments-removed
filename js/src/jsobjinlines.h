@@ -5689,13 +5689,6 @@ id
 )
 )
 ;
-{
-AutoLockForCompilation
-lock
-(
-cx
-)
-;
 global
 -
 >
@@ -5722,7 +5715,6 @@ proto
 )
 )
 ;
-}
 global
 -
 >

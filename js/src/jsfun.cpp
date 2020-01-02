@@ -6268,12 +6268,6 @@ if
 script
 )
 {
-AutoLockForCompilation
-lock
-(
-cx
-)
-;
 fun
 -
 >
@@ -6352,12 +6346,6 @@ script
 )
 return
 false
-;
-AutoLockForCompilation
-lock
-(
-cx
-)
 ;
 fun
 -
@@ -6505,13 +6493,6 @@ setFunction
 fun
 )
 ;
-{
-AutoLockForCompilation
-lock
-(
-cx
-)
-;
 fun
 -
 >
@@ -6520,7 +6501,6 @@ setUnlazifiedScript
 clonedScript
 )
 ;
-}
 CallNewScriptHook
 (
 cx

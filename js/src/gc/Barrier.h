@@ -284,15 +284,6 @@ thing
 #
 ifdef
 JSGC_INCREMENTAL
-js
-:
-:
-AutoThreadSafeAccess
-ts
-(
-thing
-)
-;
 JS
 :
 :

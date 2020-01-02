@@ -7112,7 +7112,6 @@ baselineScript
 >
 noteArrayWriteHole
 (
-cx
 script
 -
 >
