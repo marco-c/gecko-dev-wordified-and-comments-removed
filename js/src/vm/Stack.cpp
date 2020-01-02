@@ -645,6 +645,8 @@ dst
 }
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -655,6 +657,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 DebugScopes
@@ -1732,6 +1735,8 @@ isForEval
 ;
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -1742,6 +1747,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 DebugScopes
@@ -1934,6 +1940,8 @@ scopeChain
 ;
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -1944,6 +1952,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 DebugScopes
@@ -2110,6 +2119,8 @@ hasBlockChain
 ;
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -2120,6 +2131,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 DebugScopes
@@ -2190,6 +2202,8 @@ cx
 {
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -2200,6 +2214,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 DebugScopes

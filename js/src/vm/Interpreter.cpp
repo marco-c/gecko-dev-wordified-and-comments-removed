@@ -7265,6 +7265,8 @@ entryFrame
 }
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -7275,6 +7277,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 {
@@ -8576,6 +8579,8 @@ SCRIPT_STOP
 endif
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -8586,6 +8591,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 interpReturnOK
@@ -13611,6 +13617,8 @@ error
 ;
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -13621,6 +13629,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 {
@@ -17687,6 +17696,8 @@ isExceptionPending
 {
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -17697,6 +17708,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 {
@@ -18099,6 +18111,8 @@ exit
 :
 if
 (
+JS_UNLIKELY
+(
 cx
 -
 >
@@ -18109,6 +18123,7 @@ compartment
 >
 debugMode
 (
+)
 )
 )
 interpReturnOK
