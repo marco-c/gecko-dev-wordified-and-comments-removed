@@ -740,6 +740,7 @@ ColorSpace
 )
 SRGB
 LinearRGB
+Max
 MOZ_END_ENUM_CLASS
 (
 ColorSpace
