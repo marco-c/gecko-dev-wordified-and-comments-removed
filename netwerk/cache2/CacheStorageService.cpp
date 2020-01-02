@@ -2310,6 +2310,14 @@ mCache2Profileless
 nsDeleteDir
 :
 :
+RemoveOldTrashes
+(
+mCache2Profileless
+)
+;
+nsDeleteDir
+:
+:
 DeleteDir
 (
 mCache2Profileless
