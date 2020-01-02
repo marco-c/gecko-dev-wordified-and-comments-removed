@@ -595,6 +595,16 @@ ClientCanvasLayer
 aLayer
 )
 {
+aLayer
+-
+>
+mGLContext
+-
+>
+MakeCurrent
+(
+)
+;
 GLScreenBuffer
 *
 screen
