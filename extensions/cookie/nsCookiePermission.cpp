@@ -854,9 +854,6 @@ NS_ERROR_UNEXPECTED
 uint32_t
 perm
 ;
-nsresult
-rv
-=
 mPermMgr
 -
 >
@@ -866,12 +863,6 @@ aURI
 kPermissionType
 &
 perm
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-false
 )
 ;
 bool
