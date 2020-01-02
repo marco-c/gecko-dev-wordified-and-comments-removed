@@ -142,6 +142,16 @@ nsSearchService
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+SearchStaticData
+.
+jsm
+'
+]
 DEFINES
 [
 '
