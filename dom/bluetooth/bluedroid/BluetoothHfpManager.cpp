@@ -1798,6 +1798,12 @@ aState
 BTHF_CONNECTION_STATE_CONNECTED
 )
 {
+BdAddressTypeToString
+(
+aBdAddress
+mDeviceAddress
+)
+;
 BT_HF_DISPATCH_MAIN
 (
 MainThreadTaskCmd
