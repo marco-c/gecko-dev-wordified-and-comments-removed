@@ -198,9 +198,6 @@ TestBlockingSocket
 TestCallbacks
 '
 '
-TestCookie
-'
-'
 TestDNS
 '
 '
@@ -295,6 +292,9 @@ CPP_UNIT_TESTS
 +
 =
 [
+'
+TestCookie
+'
 '
 TestSTSParser
 '
