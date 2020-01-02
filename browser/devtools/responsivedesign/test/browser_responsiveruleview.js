@@ -291,8 +291,11 @@ setSize
 500
 )
 ;
-openRuleView
+openView
 (
+"
+ruleview
+"
 onInspectorUIOpen
 )
 ;

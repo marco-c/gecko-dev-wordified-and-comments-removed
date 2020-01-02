@@ -236,6 +236,9 @@ selection
 setNode
 (
 div
+"
+test
+"
 )
 ;
 inspector

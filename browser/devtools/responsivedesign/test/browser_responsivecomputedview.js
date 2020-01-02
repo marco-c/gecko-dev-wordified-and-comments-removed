@@ -302,8 +302,11 @@ setSize
 500
 )
 ;
-openComputedView
+openView
 (
+"
+computedview
+"
 onInspectorUIOpen
 )
 ;
