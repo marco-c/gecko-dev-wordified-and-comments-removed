@@ -9978,7 +9978,7 @@ rt
 >
 gcMarker
 .
-sizeLimit
+maxCapacity
 (
 )
 ;

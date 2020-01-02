@@ -6559,13 +6559,13 @@ p
 =
 stack
 .
-tos
+tos_
 ;
 p
 >
 stack
 .
-stack
+stack_
 ;
 )
 {
