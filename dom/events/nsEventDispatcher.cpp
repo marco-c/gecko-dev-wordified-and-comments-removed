@@ -152,6 +152,15 @@ TouchEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -604,7 +613,7 @@ ELMCreationDetector
 aCd
 )
 ;
-nsresult
+void
 PreHandleEvent
 (
 nsEventChainPreVisitor
@@ -846,7 +855,7 @@ GetTargetForEventTargetChain
 )
 ;
 }
-nsresult
+void
 nsEventTargetChainItem
 :
 :
@@ -863,9 +872,9 @@ Reset
 (
 )
 ;
-nsresult
-rv
-=
+unused
+<
+<
 mTarget
 -
 >
@@ -906,9 +915,6 @@ mItemData
 aVisitor
 .
 mItemData
-;
-return
-rv
 ;
 }
 nsresult
