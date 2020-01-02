@@ -1639,7 +1639,7 @@ identity
 .
 timeout
 "
-10000
+5000
 )
 ;
 pref

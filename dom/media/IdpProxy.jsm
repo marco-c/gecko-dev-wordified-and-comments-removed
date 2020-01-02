@@ -196,8 +196,6 @@ aCallback
 aSandbox
 )
 {
-try
-{
 this
 .
 messagechannel
@@ -213,6 +211,8 @@ MessageChannel
 (
 )
 ;
+try
+{
 Object
 .
 defineProperty
@@ -1198,7 +1198,7 @@ type
 "
 ERROR
 "
-error
+message
 :
 "
 IdP
@@ -1220,6 +1220,8 @@ function
 k
 )
 {
+this
+.
 trackingCopy
 [
 k
@@ -1229,6 +1231,7 @@ error
 )
 ;
 }
+this
 )
 ;
 pendingCopy
@@ -1248,6 +1251,7 @@ error
 )
 ;
 }
+this
 )
 ;
 }
