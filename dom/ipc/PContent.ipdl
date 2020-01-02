@@ -522,6 +522,9 @@ italic
 uint8_t
 index
 ;
+bool
+isHidden
+;
 }
 ;
 struct

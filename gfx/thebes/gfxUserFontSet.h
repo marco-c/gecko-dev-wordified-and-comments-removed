@@ -250,6 +250,10 @@ mMetaOrigLen
 (
 0
 )
+mPrivate
+(
+false
+)
 {
 }
 virtual
