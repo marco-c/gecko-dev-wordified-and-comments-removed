@@ -440,6 +440,14 @@ mLastTimestamp
 )
 #
 endif
+mSamples
+(
+0
+)
+mLastSyncLog
+(
+0
+)
 {
 }
 virtual
@@ -812,6 +820,12 @@ mLastTimestamp
 ;
 #
 endif
+uint32_t
+mSamples
+;
+uint32_t
+mLastSyncLog
+;
 }
 ;
 }

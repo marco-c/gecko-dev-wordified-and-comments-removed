@@ -4199,6 +4199,10 @@ _recPacketDelayMs
 (
 20
 )
+_current_sync_offset
+(
+0
+)
 _RxVadDetection
 (
 false
@@ -21096,6 +21100,9 @@ jitter_buffer_delay_ms
 int
 *
 playout_buffer_delay_ms
+int
+*
+avsync_offset_ms
 )
 const
 {
@@ -21151,6 +21158,11 @@ _recPacketDelayMs
 playout_buffer_delay_ms
 =
 playout_delay_ms_
+;
+*
+avsync_offset_ms
+=
+_current_sync_offset
 ;
 WEBRTC_TRACE
 (
