@@ -469,12 +469,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-B2G
-)
 =
 =
 329069
