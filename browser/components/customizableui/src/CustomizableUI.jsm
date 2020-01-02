@@ -2094,6 +2094,17 @@ node
 if
 (
 palette
+&
+&
+!
+this
+.
+isSpecialWidget
+(
+node
+.
+id
+)
 )
 {
 palette
