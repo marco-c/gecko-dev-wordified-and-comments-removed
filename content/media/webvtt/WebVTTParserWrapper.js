@@ -244,6 +244,16 @@ cues
 overlay
 )
 {
+WebVTTParser
+.
+processCues
+(
+window
+cues
+null
+overlay
+)
+;
 }
 classDescription
 :
