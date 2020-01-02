@@ -8741,6 +8741,16 @@ isPrivate
 }
 }
 public
+View
+getDoorHangerAnchor
+(
+)
+{
+return
+mFavicon
+;
+}
+public
 void
 onDestroy
 (
