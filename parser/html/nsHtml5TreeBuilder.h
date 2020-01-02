@@ -7,6 +7,13 @@ nsHtml5TreeBuilder_h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h
@@ -171,6 +178,13 @@ h
 include
 "
 nsIContentHandle
+.
+h
+"
+#
+include
+"
+nsHtml5OplessBuilder
 .
 h
 "
