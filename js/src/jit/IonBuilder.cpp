@@ -8652,6 +8652,12 @@ jsop_instanceof
 (
 )
 ;
+case
+JSOP_DEBUGLEAVEBLOCK
+:
+return
+true
+;
 default
 :
 #
