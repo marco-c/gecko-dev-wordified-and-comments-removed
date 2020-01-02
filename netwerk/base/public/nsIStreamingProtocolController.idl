@@ -599,7 +599,7 @@ in
 uint8_t
 index
 in
-uint32_t
+nsresult
 reason
 )
 ;

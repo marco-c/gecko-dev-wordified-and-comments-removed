@@ -1329,7 +1329,7 @@ nsIStreamingProtocolListener
 listener
 uint8_t
 index
-uint32_t
+nsresult
 reason
 )
 :
@@ -1383,7 +1383,7 @@ mListener
 uint8_t
 mIndex
 ;
-uint32_t
+nsresult
 mReason
 ;
 }
@@ -1396,7 +1396,7 @@ OnDisconnected
 (
 uint8_t
 index
-uint32_t
+nsresult
 reason
 )
 {
@@ -1410,7 +1410,18 @@ RtspController
 OnDisconnected
 (
 )
+for
+track
+%
+d
+reason
+=
+0x
+%
+x
 "
+index
+reason
 )
 )
 ;

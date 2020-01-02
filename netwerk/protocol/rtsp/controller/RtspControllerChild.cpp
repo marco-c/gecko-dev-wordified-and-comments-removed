@@ -374,7 +374,7 @@ metaArray
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 if
@@ -487,7 +487,7 @@ metaArray
 NS_ENSURE_SUCCESS
 (
 rv
-false
+true
 )
 ;
 meta
@@ -585,7 +585,7 @@ uint8_t
 &
 index
 const
-uint32_t
+nsresult
 &
 reason
 )
@@ -598,10 +598,15 @@ RtspControllerChild
 :
 :
 RecvOnDisconnected
+for
+track
 %
 d
+reason
+=
+0x
 %
-d
+x
 "
 index
 reason
@@ -634,7 +639,7 @@ RtspControllerChild
 RecvAsyncOpenFailed
 (
 const
-uint8_t
+nsresult
 &
 reason
 )
@@ -647,8 +652,11 @@ RtspControllerChild
 :
 :
 RecvAsyncOpenFailed
+reason
+=
+0x
 %
-d
+x
 "
 reason
 )
@@ -1062,7 +1070,7 @@ Play
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
 mIPCOpen
 NS_ERROR_FAILURE
@@ -1135,7 +1143,7 @@ Pause
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
 mIPCOpen
 NS_ERROR_FAILURE
@@ -1208,7 +1216,7 @@ Resume
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
 mIPCOpen
 NS_ERROR_FAILURE
@@ -1298,7 +1306,7 @@ Suspend
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
 mIPCOpen
 NS_ERROR_FAILURE
@@ -1384,7 +1392,7 @@ seekTimeUs
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
 mIPCOpen
 NS_ERROR_FAILURE
@@ -1458,7 +1466,7 @@ Stop
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
 mIPCOpen
 NS_ERROR_FAILURE
@@ -1640,7 +1648,7 @@ OnDisconnected
 (
 uint8_t
 index
-uint32_t
+nsresult
 reason
 )
 {
@@ -1654,7 +1662,13 @@ RtspControllerChild
 OnDisconnected
 (
 )
+reason
+=
+0x
+%
+x
 "
+reason
 )
 )
 ;

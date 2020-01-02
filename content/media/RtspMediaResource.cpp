@@ -1579,7 +1579,7 @@ OnDisconnected
 (
 uint8_t
 aTrackIdx
-uint32_t
+nsresult
 reason
 )
 {
@@ -2147,7 +2147,7 @@ OnDisconnected
 (
 uint8_t
 aTrackIdx
-uint32_t
+nsresult
 aReason
 )
 {
@@ -2215,9 +2215,6 @@ if
 aReason
 =
 =
-(
-uint32_t
-)
 NS_ERROR_CONNECTION_REFUSED
 )
 {
