@@ -1125,6 +1125,12 @@ JAVA
 )
 -
 classpath
+gecko
+-
+mozglue
+.
+jar
+:
 (
 JAVA_BOOTCLASSPATH
 )
