@@ -5943,6 +5943,8 @@ rollbackProperties
 ExclusiveContext
 *
 cx
+HandleObject
+obj
 uint32_t
 slotSpan
 )
@@ -5950,6 +5952,9 @@ slotSpan
 JS_ASSERT
 (
 !
+obj
+-
+>
 inDictionaryMode
 (
 )
@@ -5958,7 +5963,7 @@ inDictionaryMode
 slotSpan
 <
 =
-this
+obj
 -
 >
 slotSpan
@@ -5973,6 +5978,9 @@ true
 {
 if
 (
+obj
+-
+>
 lastProperty
 (
 )
@@ -5999,6 +6007,9 @@ else
 uint32_t
 slot
 =
+obj
+-
+>
 lastProperty
 (
 )
@@ -6018,6 +6029,9 @@ break
 ;
 JS_ASSERT
 (
+obj
+-
+>
 getSlot
 (
 slot
@@ -6032,9 +6046,15 @@ isUndefined
 if
 (
 !
+obj
+-
+>
 removeProperty
 (
 cx
+obj
+-
+>
 lastProperty
 (
 )

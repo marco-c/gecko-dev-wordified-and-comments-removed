@@ -16026,12 +16026,13 @@ finished
 if
 (
 !
-obj
--
->
+JSObject
+:
+:
 rollbackProperties
 (
 cx
+obj
 numProperties
 )
 )
