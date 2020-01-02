@@ -3493,8 +3493,10 @@ GetIPCChannel
 (
 )
 ;
+nsRefPtr
+<
 ClientLayerManager
-*
+>
 lm
 =
 new
@@ -3620,8 +3622,9 @@ if
 lf
 )
 {
-delete
 lm
+=
+nullptr
 ;
 mCompositorChild
 =
@@ -3661,6 +3664,10 @@ WindowUsesOMTC
 mLayerManager
 =
 lm
+.
+forget
+(
+)
 ;
 return
 ;

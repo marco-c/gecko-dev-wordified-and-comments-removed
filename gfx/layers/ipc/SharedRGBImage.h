@@ -139,11 +139,15 @@ ImageClient
 aCompositable
 )
 ;
+protected
+:
 ~
 SharedRGBImage
 (
 )
 ;
+public
+:
 virtual
 ISharedImage
 *

@@ -162,12 +162,16 @@ nsIWidget
 aWidget
 )
 ;
+protected
+:
 virtual
 ~
 BasicLayerManager
 (
 )
 ;
+public
+:
 void
 SetDefaultTarget
 (

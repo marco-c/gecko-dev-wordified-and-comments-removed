@@ -164,6 +164,8 @@ BasicImageLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 BasicImageLayer
@@ -176,6 +178,8 @@ BasicImageLayer
 )
 ;
 }
+public
+:
 virtual
 void
 SetVisibleRegion

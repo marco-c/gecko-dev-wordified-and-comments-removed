@@ -180,6 +180,8 @@ ClientThebesLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 ClientThebesLayer
@@ -209,6 +211,8 @@ ClientThebesLayer
 )
 ;
 }
+public
+:
 virtual
 void
 SetVisibleRegion

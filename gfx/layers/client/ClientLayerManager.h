@@ -219,12 +219,16 @@ nsIWidget
 aWidget
 )
 ;
+protected
+:
 virtual
 ~
 ClientLayerManager
 (
 )
 ;
+public
+:
 virtual
 ShadowLayerForwarder
 *

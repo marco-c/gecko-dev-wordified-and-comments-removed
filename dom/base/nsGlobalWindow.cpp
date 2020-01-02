@@ -32781,6 +32781,8 @@ PostMessageEvent
 )
 ;
 }
+protected
+:
 ~
 PostMessageEvent
 (
@@ -32792,6 +32794,8 @@ PostMessageEvent
 )
 ;
 }
+public
+:
 JSAutoStructuredCloneBuffer
 &
 Buffer

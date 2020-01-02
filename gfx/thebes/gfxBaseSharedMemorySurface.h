@@ -160,7 +160,7 @@ friend
 class
 gfxReusableSharedImageSurfaceWrapper
 ;
-public
+protected
 :
 virtual
 ~
@@ -174,6 +174,8 @@ gfxBaseSharedMemorySurface
 )
 ;
 }
+public
+:
 template
 <
 class

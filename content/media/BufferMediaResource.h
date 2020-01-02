@@ -89,6 +89,8 @@ BufferMediaResource
 )
 ;
 }
+protected
+:
 virtual
 ~
 BufferMediaResource
@@ -101,6 +103,8 @@ BufferMediaResource
 )
 ;
 }
+private
+:
 virtual
 nsresult
 Close

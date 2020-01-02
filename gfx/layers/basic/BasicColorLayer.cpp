@@ -160,6 +160,8 @@ BasicColorLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 BasicColorLayer
@@ -172,6 +174,8 @@ BasicColorLayer
 )
 ;
 }
+public
+:
 virtual
 void
 SetVisibleRegion

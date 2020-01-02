@@ -488,6 +488,8 @@ ClientLayerManager
 aManager
 )
 ;
+private
+:
 ~
 SimpleTiledContentClient
 (
@@ -555,11 +557,15 @@ LayerManager
 NONE
 )
 ;
+protected
+:
 ~
 SimpleClientTiledThebesLayer
 (
 )
 ;
+public
+:
 virtual
 Layer
 *

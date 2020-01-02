@@ -576,12 +576,16 @@ aUseExternalSurfaceSize
 false
 )
 ;
+protected
+:
 virtual
 ~
 CompositorOGL
 (
 )
 ;
+public
+:
 virtual
 TemporaryRef
 <

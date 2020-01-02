@@ -35,11 +35,15 @@ void
 aKey
 )
 ;
+protected
+:
 ~
 nsHtml5OwningUTF16Buffer
 (
 )
 ;
+public
+:
 nsRefPtr
 <
 nsHtml5OwningUTF16Buffer

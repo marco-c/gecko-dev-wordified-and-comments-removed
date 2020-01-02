@@ -673,11 +673,15 @@ TextureInfo
 aTextureInfo
 )
 ;
+protected
+:
 ~
 TiledContentHost
 (
 )
 ;
+public
+:
 virtual
 LayerRenderState
 GetRenderState

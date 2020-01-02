@@ -118,6 +118,8 @@ mSupportsComponentAlphaChildren
 true
 ;
 }
+protected
+:
 virtual
 ~
 ClientContainerLayer
@@ -144,6 +146,8 @@ ClientContainerLayer
 )
 ;
 }
+public
+:
 virtual
 void
 RenderLayer
@@ -759,6 +763,8 @@ ClientRefLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 ClientRefLayer
@@ -771,6 +777,8 @@ ClientRefLayer
 )
 ;
 }
+public
+:
 virtual
 Layer
 *

@@ -144,6 +144,8 @@ NotifyCacheFileListenerEvent
 )
 ;
 }
+protected
+:
 ~
 NotifyCacheFileListenerEvent
 (
@@ -179,6 +181,8 @@ NotifyCacheFileListenerEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -300,6 +304,8 @@ NotifyChunkListenerEvent
 )
 ;
 }
+protected
+:
 ~
 NotifyChunkListenerEvent
 (
@@ -333,6 +339,8 @@ NotifyChunkListenerEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (

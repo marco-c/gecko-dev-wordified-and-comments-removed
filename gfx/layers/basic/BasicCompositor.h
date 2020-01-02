@@ -183,12 +183,16 @@ nsIWidget
 aWidget
 )
 ;
+protected
+:
 virtual
 ~
 BasicCompositor
 (
 )
 ;
+public
+:
 virtual
 bool
 Initialize

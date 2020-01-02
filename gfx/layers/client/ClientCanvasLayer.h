@@ -180,12 +180,16 @@ ClientCanvasLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 ClientCanvasLayer
 (
 )
 ;
+public
+:
 virtual
 void
 SetVisibleRegion

@@ -1594,6 +1594,8 @@ nsResizeDropdownAtFinalPosition
 )
 ;
 }
+protected
+:
 ~
 nsResizeDropdownAtFinalPosition
 (
@@ -1605,6 +1607,8 @@ nsResizeDropdownAtFinalPosition
 )
 ;
 }
+public
+:
 virtual
 bool
 ReflowFinished

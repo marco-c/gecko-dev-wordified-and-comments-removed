@@ -374,11 +374,15 @@ AbstractMediaDecoder
 aDecoder
 )
 ;
+protected
+:
 ~
 WebMReader
 (
 )
 ;
+public
+:
 virtual
 nsresult
 Init

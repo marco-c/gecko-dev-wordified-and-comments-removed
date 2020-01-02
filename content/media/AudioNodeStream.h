@@ -179,11 +179,15 @@ AudioNodeStream
 )
 ;
 }
+protected
+:
 ~
 AudioNodeStream
 (
 )
 ;
+public
+:
 void
 SetStreamTimeParameter
 (

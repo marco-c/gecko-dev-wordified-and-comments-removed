@@ -99,11 +99,15 @@ LayerManager
 NONE
 )
 ;
+protected
+:
 ~
 ClientTiledThebesLayer
 (
 )
 ;
+public
+:
 virtual
 const
 char

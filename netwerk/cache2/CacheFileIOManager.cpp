@@ -2870,6 +2870,8 @@ ShutdownEvent
 )
 ;
 }
+protected
+:
 ~
 ShutdownEvent
 (
@@ -2881,6 +2883,8 @@ ShutdownEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -3054,6 +3058,8 @@ background
 )
 ;
 }
+protected
+:
 ~
 OpenFileEvent
 (
@@ -3065,6 +3071,8 @@ OpenFileEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -3580,6 +3588,8 @@ background
 )
 ;
 }
+protected
+:
 ~
 ReadEvent
 (
@@ -3591,6 +3601,8 @@ ReadEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -3969,6 +3981,8 @@ background
 )
 ;
 }
+protected
+:
 ~
 WriteEvent
 (
@@ -4002,6 +4016,8 @@ mBuf
 ;
 }
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -4364,6 +4380,8 @@ background
 )
 ;
 }
+protected
+:
 ~
 DoomFileEvent
 (
@@ -4375,6 +4393,8 @@ DoomFileEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -4689,6 +4709,8 @@ mTarget
 )
 ;
 }
+protected
+:
 ~
 DoomFileByKeyEvent
 (
@@ -4700,6 +4722,8 @@ DoomFileByKeyEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -4844,6 +4868,8 @@ ReleaseNSPRHandleEvent
 )
 ;
 }
+protected
+:
 ~
 ReleaseNSPRHandleEvent
 (
@@ -4855,6 +4881,8 @@ ReleaseNSPRHandleEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -4965,6 +4993,8 @@ NS_GetCurrentThread
 )
 ;
 }
+protected
+:
 ~
 TruncateSeekSetEOFEvent
 (
@@ -4976,6 +5006,8 @@ TruncateSeekSetEOFEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -5156,6 +5188,8 @@ NS_GetCurrentThread
 )
 ;
 }
+protected
+:
 ~
 RenameFileEvent
 (
@@ -5167,6 +5201,8 @@ RenameFileEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -5329,6 +5365,8 @@ InitIndexEntryEvent
 )
 ;
 }
+protected
+:
 ~
 InitIndexEntryEvent
 (
@@ -5340,6 +5378,8 @@ InitIndexEntryEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (
@@ -5505,6 +5545,8 @@ aExpirationTime
 ;
 }
 }
+protected
+:
 ~
 UpdateIndexEntryEvent
 (
@@ -5516,6 +5558,8 @@ UpdateIndexEntryEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (

@@ -117,12 +117,16 @@ LayerManagerComposite
 aManager
 )
 ;
+protected
+:
 virtual
 ~
 ImageLayerComposite
 (
 )
 ;
+public
+:
 virtual
 LayerRenderState
 GetRenderState

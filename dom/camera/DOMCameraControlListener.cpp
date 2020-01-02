@@ -187,6 +187,8 @@ DOMCallback
 )
 ;
 }
+protected
+:
 virtual
 ~
 DOMCallback
@@ -202,6 +204,8 @@ DOMCallback
 )
 ;
 }
+public
+:
 virtual
 void
 RunCallback

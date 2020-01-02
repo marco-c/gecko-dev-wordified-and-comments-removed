@@ -97,6 +97,8 @@ this
 )
 ;
 }
+protected
+:
 ~
 ColorLayerComposite
 (
@@ -112,6 +114,8 @@ Destroy
 )
 ;
 }
+public
+:
 virtual
 Layer
 *

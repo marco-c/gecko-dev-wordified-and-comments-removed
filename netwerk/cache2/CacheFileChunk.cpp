@@ -90,6 +90,8 @@ NotifyUpdateListenerEvent
 )
 ;
 }
+protected
+:
 ~
 NotifyUpdateListenerEvent
 (
@@ -123,6 +125,8 @@ NotifyUpdateListenerEvent
 )
 ;
 }
+public
+:
 NS_IMETHOD
 Run
 (

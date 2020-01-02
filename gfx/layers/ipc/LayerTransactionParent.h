@@ -163,11 +163,15 @@ ProcessId
 aOtherProcess
 )
 ;
+protected
+:
 ~
 LayerTransactionParent
 (
 )
 ;
+public
+:
 void
 Destroy
 (

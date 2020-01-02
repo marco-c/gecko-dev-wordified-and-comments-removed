@@ -78,11 +78,15 @@ FileBlockCache
 (
 )
 ;
+protected
+:
 ~
 FileBlockCache
 (
 )
 ;
+public
+:
 nsresult
 Open
 (

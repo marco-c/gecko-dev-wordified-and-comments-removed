@@ -118,6 +118,8 @@ ClientColorLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 ClientColorLayer
@@ -130,6 +132,8 @@ ClientColorLayer
 )
 ;
 }
+public
+:
 virtual
 void
 SetVisibleRegion

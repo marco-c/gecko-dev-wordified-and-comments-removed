@@ -493,6 +493,8 @@ FenceDeliveryTracker
 )
 ;
 }
+protected
+:
 ~
 FenceDeliveryTracker
 (
@@ -504,6 +506,8 @@ FenceDeliveryTracker
 )
 ;
 }
+public
+:
 virtual
 void
 Complete

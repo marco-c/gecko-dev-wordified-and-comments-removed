@@ -213,6 +213,8 @@ BasicReadbackLayer
 )
 ;
 }
+protected
+:
 virtual
 ~
 BasicReadbackLayer
@@ -225,6 +227,8 @@ BasicReadbackLayer
 )
 ;
 }
+public
+:
 virtual
 void
 SetVisibleRegion

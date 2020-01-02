@@ -104,12 +104,16 @@ LayerManagerComposite
 aManager
 )
 ;
+protected
+:
 virtual
 ~
 CanvasLayerComposite
 (
 )
 ;
+public
+:
 virtual
 void
 Initialize
