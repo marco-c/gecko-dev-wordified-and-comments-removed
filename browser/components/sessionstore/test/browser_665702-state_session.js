@@ -114,9 +114,6 @@ expectedKeys
 =
 [
 "
-state
-"
-"
 lastUpdate
 "
 "
