@@ -385,7 +385,7 @@ bool
 aSkipWS
 )
 ;
-bool
+void
 NextURL
 (
 nsCSSToken

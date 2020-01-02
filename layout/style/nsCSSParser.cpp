@@ -13951,9 +13951,6 @@ point
 "
 )
 ;
-if
-(
-!
 mScanner
 -
 >
@@ -13961,8 +13958,9 @@ NextURL
 (
 mToken
 )
-|
-|
+;
+if
+(
 mToken
 .
 mType
