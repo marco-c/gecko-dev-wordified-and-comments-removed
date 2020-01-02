@@ -2639,15 +2639,9 @@ deviceY
 )
 ;
 return
-gfxMatrix
-(
 deviceToUser
-)
-.
-Multiply
-(
+*
 aUserSpaceToImageSpace
-)
 ;
 }
 #
