@@ -40,7 +40,7 @@ nsresult
 Put
 (
 uint32_t
-key
+aKey
 const
 char
 *
@@ -52,14 +52,14 @@ char
 Get
 (
 uint32_t
-key
+aKey
 )
 ;
 nsresult
 Remove
 (
 uint32_t
-key
+aKey
 )
 ;
 protected
@@ -91,7 +91,7 @@ Create
 (
 nsISupports
 *
-outer
+aOuter
 const
 nsIID
 &
