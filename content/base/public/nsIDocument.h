@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

@@ -129,6 +129,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsIProtocolHandler
 .
 h
