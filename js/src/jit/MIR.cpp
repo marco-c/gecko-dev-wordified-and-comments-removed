@@ -14415,10 +14415,6 @@ func
 =
 func
 )
-{
-if
-(
-!
 types
 -
 >
@@ -14442,11 +14438,7 @@ typeObj
 )
 alloc
 )
-)
-return
-nullptr
 ;
-}
 }
 return
 types
@@ -16741,7 +16733,7 @@ return
 true
 ;
 }
-bool
+void
 jit
 :
 :
@@ -16804,7 +16796,7 @@ unknownObject
 (
 )
 )
-return
+{
 observed
 -
 >
@@ -16822,6 +16814,9 @@ AnyObjectType
 alloc
 )
 ;
+return
+;
+}
 for
 (
 size_t
@@ -16874,7 +16869,7 @@ unknownProperties
 (
 )
 )
-return
+{
 observed
 -
 >
@@ -16892,6 +16887,9 @@ AnyObjectType
 alloc
 )
 ;
+return
+;
+}
 jsid
 id
 =
@@ -16947,7 +16945,7 @@ unknownObject
 (
 )
 )
-return
+{
 observed
 -
 >
@@ -16965,6 +16963,9 @@ AnyObjectType
 alloc
 )
 ;
+return
+;
+}
 for
 (
 size_t
@@ -17004,9 +17005,7 @@ i
 if
 (
 object
-&
-&
-!
+)
 observed
 -
 >
@@ -17024,15 +17023,9 @@ object
 )
 alloc
 )
-)
-return
-false
 ;
 }
 }
-return
-true
-;
 }
 static
 bool
