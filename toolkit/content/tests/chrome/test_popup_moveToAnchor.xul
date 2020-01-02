@@ -97,16 +97,6 @@ xul
 "
 >
 <
-title
->
-Popup
-moveToAnchor
-Tests
-<
-/
-title
->
-<
 script
 type
 =
@@ -200,7 +190,7 @@ margin
 -
 top
 :
-40px
+50px
 ;
 "
 /
@@ -225,7 +215,7 @@ margin
 -
 top
 :
-50px
+60px
 ;
 "
 /

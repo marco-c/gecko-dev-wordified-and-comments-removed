@@ -213,6 +213,14 @@ js
 script
 >
 <
+vbox
+hidden
+=
+"
+true
+"
+>
+<
 bindings
 xmlns
 =
@@ -297,6 +305,10 @@ binding
 <
 /
 bindings
+>
+<
+/
+vbox
 >
 <
 body
