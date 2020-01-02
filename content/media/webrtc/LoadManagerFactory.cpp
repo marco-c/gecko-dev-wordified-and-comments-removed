@@ -57,6 +57,12 @@ defined
 (
 LINUX
 )
+|
+|
+defined
+(
+XP_MACOSX
+)
 int
 loadMeasurementInterval
 =
