@@ -293,6 +293,16 @@ mAcquired
 aAcquisitionState
 ;
 }
+void
+ClearAcquisitionState
+(
+)
+{
+mAcquired
+=
+false
+;
+}
 BlockingResourceBase
 *
 mChainPrev

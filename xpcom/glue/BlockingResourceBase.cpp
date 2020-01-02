@@ -1482,9 +1482,8 @@ mEntryCount
 =
 0
 ;
-SetAcquisitionState
+ClearAcquisitionState
 (
-false
 )
 ;
 mChainPrev
@@ -1577,9 +1576,8 @@ mChainPrev
 mLock
 -
 >
-SetAcquisitionState
+ClearAcquisitionState
 (
-false
 )
 ;
 mLock
