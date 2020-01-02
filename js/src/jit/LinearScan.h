@@ -186,7 +186,7 @@ pos
 class
 LinearScanAllocator
 :
-public
+private
 LiveRangeAllocator
 <
 LinearScanVirtualRegister

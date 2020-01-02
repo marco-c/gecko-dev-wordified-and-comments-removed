@@ -1306,13 +1306,7 @@ item
 =
 worklist
 .
-back
-(
-)
-;
-worklist
-.
-popBack
+popCopy
 (
 )
 ;
@@ -1708,6 +1702,7 @@ i
 +
 )
 {
+const
 InstructionInfo
 &
 info
@@ -2642,6 +2637,7 @@ i
 +
 )
 {
+const
 InstructionInfo
 &
 info
@@ -2820,6 +2816,7 @@ ins
 *
 iter
 ;
+const
 InstructionInfo
 &
 info
