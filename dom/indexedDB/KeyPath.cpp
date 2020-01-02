@@ -439,9 +439,10 @@ JSObject
 obj
 (
 aCx
-JSVAL_IS_PRIMITIVE
-(
 aValue
+.
+isPrimitive
+(
 )
 ?
 nullptr
@@ -611,9 +612,10 @@ hasMoreTokens
 {
 if
 (
-JSVAL_IS_PRIMITIVE
-(
 intermediate
+.
+isPrimitive
+(
 )
 )
 {

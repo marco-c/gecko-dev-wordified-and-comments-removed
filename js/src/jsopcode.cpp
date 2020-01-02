@@ -4249,9 +4249,10 @@ true
 if
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 v
+.
+isPrimitive
+(
 )
 )
 {

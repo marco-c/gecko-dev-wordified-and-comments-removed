@@ -842,9 +842,10 @@ fun
 )
 |
 |
-JSVAL_IS_PRIMITIVE
-(
 fun
+.
+isPrimitive
+(
 )
 )
 return
@@ -5437,9 +5438,10 @@ else
 if
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 fval
+.
+isPrimitive
+(
 )
 )
 {

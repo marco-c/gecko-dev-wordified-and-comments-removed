@@ -12129,9 +12129,10 @@ const
 if
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 mJSVal
+.
+isPrimitive
+(
 )
 )
 JS

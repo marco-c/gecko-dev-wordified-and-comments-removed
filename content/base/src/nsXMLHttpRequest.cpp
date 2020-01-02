@@ -10470,9 +10470,10 @@ rv
 &
 &
 !
-JSVAL_IS_PRIMITIVE
-(
 realVal
+.
+isPrimitive
+(
 )
 )
 {

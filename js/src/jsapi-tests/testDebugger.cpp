@@ -275,9 +275,10 @@ allWrapped
 &
 &
 !
-JSVAL_IS_PRIMITIVE
-(
 thisv
+.
+isPrimitive
+(
 )
 ;
 }
@@ -568,9 +569,10 @@ anyWrapped
 |
 |
 !
-JSVAL_IS_PRIMITIVE
-(
 thisv
+.
+isPrimitive
+(
 )
 ;
 }

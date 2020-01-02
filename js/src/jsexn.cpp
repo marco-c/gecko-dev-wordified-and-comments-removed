@@ -3949,9 +3949,10 @@ cx
 ;
 if
 (
-JSVAL_IS_PRIMITIVE
-(
 exn
+.
+isPrimitive
+(
 )
 )
 {

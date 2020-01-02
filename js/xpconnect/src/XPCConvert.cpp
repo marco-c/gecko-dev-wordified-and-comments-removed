@@ -5502,9 +5502,10 @@ s
 if
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 s
+.
+isPrimitive
+(
 )
 )
 {

@@ -9489,9 +9489,10 @@ else
 if
 (
 !
-JSVAL_IS_PRIMITIVE
-(
 val
+.
+isPrimitive
+(
 )
 )
 *
