@@ -1506,6 +1506,10 @@ mSlcConnected
 =
 false
 ;
+mHspConnected
+=
+false
+;
 mReceiveVgsFlag
 =
 false
@@ -7943,6 +7947,10 @@ MOZ_ASSERT
 mSocket
 )
 ;
+mHspConnected
+=
+true
+;
 mHeadsetSocket
 .
 swap
@@ -8601,6 +8609,10 @@ if
 (
 !
 mSlcConnected
+&
+&
+!
+mHspConnected
 )
 {
 mConnectScoRequest

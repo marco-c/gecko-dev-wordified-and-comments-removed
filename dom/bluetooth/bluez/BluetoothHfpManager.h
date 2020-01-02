@@ -631,6 +631,9 @@ mConnectScoRequest
 bool
 mSlcConnected
 ;
+bool
+mHspConnected
+;
 #
 ifdef
 MOZ_B2G_RIL
