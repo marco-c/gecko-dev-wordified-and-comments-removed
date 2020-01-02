@@ -9,7 +9,7 @@ include
 "
 builtin
 /
-TypeRepresentation
+TypedObject
 .
 h
 "
@@ -156,9 +156,6 @@ typename
 T
 :
 :
-TypeRepr
-:
-:
 Type
 *
 out
@@ -186,7 +183,7 @@ empty
 bool
 allOfKind
 (
-TypeRepresentation
+TypeDescr
 :
 :
 Kind
@@ -206,7 +203,7 @@ size_t
 out
 )
 ;
-TypeRepresentation
+TypeDescr
 :
 :
 Kind
@@ -217,7 +214,7 @@ kind
 bool
 scalarType
 (
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -228,7 +225,7 @@ out
 bool
 referenceType
 (
-ReferenceTypeRepresentation
+ReferenceTypeDescr
 :
 :
 Type
@@ -239,7 +236,7 @@ out
 bool
 x4Type
 (
-X4TypeRepresentation
+X4TypeDescr
 :
 :
 Type

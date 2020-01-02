@@ -105,15 +105,6 @@ h
 #
 include
 "
-builtin
-/
-TypedObject
-.
-h
-"
-#
-include
-"
 gc
 /
 Marking
@@ -8508,7 +8499,7 @@ classes
 ]
 ;
 return
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX

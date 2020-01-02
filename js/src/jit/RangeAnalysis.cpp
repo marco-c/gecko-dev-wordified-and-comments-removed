@@ -7618,13 +7618,13 @@ type
 )
 {
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED
 :
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8
@@ -7641,7 +7641,7 @@ UINT8_MAX
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT16
@@ -7658,7 +7658,7 @@ UINT16_MAX
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -7675,7 +7675,7 @@ UINT32_MAX
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT8
@@ -7692,7 +7692,7 @@ INT8_MAX
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT16
@@ -7709,7 +7709,7 @@ INT16_MAX
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_INT32
@@ -7726,13 +7726,13 @@ INT32_MAX
 )
 ;
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
 :
 case
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -7788,7 +7788,7 @@ type
 )
 !
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32

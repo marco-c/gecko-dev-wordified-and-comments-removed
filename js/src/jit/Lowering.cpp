@@ -17116,7 +17116,7 @@ arrayType
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT32
@@ -17623,7 +17623,7 @@ arrayType
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -17657,7 +17657,7 @@ arrayType
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -17879,7 +17879,7 @@ arrayType
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -17913,7 +17913,7 @@ arrayType
 )
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64

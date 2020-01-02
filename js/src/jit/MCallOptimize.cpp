@@ -7735,7 +7735,7 @@ false
 )
 ;
 }
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -7883,7 +7883,7 @@ InliningStatus_Error
 continue
 ;
 }
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -8041,7 +8041,7 @@ CallInfo
 callInfo
 uint32_t
 base
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type

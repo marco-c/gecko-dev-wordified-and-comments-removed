@@ -2033,7 +2033,7 @@ typedObj
 MDefinition
 *
 offset
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -2093,7 +2093,7 @@ obj
 MDefinition
 *
 offset
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -2634,7 +2634,7 @@ obj
 MDefinition
 *
 index
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -2673,7 +2673,7 @@ value
 bool
 jsop_setelem_typed
 (
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type
@@ -3218,7 +3218,7 @@ CallInfo
 callInfo
 uint32_t
 base
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 Type

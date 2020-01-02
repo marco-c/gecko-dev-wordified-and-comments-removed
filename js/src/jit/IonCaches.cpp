@@ -44,7 +44,7 @@ include
 "
 builtin
 /
-TypeRepresentation
+TypedObject
 .
 h
 "
@@ -5041,7 +5041,7 @@ TypedArrayObject
 :
 classes
 [
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_MAX
@@ -15556,7 +15556,7 @@ if
 arrayType
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -15565,7 +15565,7 @@ TYPE_FLOAT32
 arrayType
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -18917,7 +18917,7 @@ if
 arrayType
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT32
@@ -18987,7 +18987,7 @@ if
 arrayType
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_FLOAT64
@@ -19034,7 +19034,7 @@ if
 arrayType
 =
 =
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 TYPE_UINT8_CLAMPED

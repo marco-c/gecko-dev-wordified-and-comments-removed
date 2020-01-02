@@ -46,7 +46,7 @@ TypedArrayObject
 :
 classes
 [
-ScalarTypeRepresentation
+ScalarTypeDescr
 :
 :
 type
