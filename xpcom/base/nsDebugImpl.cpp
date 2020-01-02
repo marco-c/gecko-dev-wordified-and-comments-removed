@@ -311,12 +311,6 @@ namespace
 mozilla
 ;
 static
-bool
-sIsMultiprocess
-=
-false
-;
-static
 const
 char
 *
@@ -704,10 +698,6 @@ char
 aDesc
 )
 {
-sIsMultiprocess
-=
-true
-;
 sMultiprocessDescription
 =
 aDesc
@@ -1287,11 +1277,6 @@ StuffFixedBuffer
 buf
 __VA_ARGS__
 )
-if
-(
-sIsMultiprocess
-)
-{
 PrintToBuffer
 (
 "
@@ -1329,7 +1314,6 @@ GetCurrentProcId
 )
 )
 ;
-}
 PrintToBuffer
 (
 "
