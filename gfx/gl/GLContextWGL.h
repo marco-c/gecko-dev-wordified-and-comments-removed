@@ -24,13 +24,6 @@ mozilla
 namespace
 gl
 {
-typedef
-WGLLibrary
-:
-:
-LibraryType
-LibType
-;
 class
 GLContextWGL
 :
@@ -54,8 +47,6 @@ HDC
 aDC
 HGLRC
 aContext
-LibType
-aLibUsed
 HWND
 aWindow
 =
@@ -81,8 +72,6 @@ HGLRC
 aContext
 int
 aPixelFormat
-LibType
-aLibUsed
 )
 ;
 ~
@@ -225,9 +214,6 @@ mPBuffer
 ;
 int
 mPixelFormat
-;
-LibType
-mLibType
 ;
 bool
 mIsDoubleBuffered
