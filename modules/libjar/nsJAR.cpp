@@ -4947,6 +4947,12 @@ rv
 rv
 )
 ;
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 #
 ifdef
 ZIP_CACHE_HIT_RATE
@@ -5152,10 +5158,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 #
 else
-mMustCacheFd
-=
-aMustCacheFd
-;
 if
 (
 !
@@ -5223,6 +5225,10 @@ lock
 (
 mLock
 )
+;
+mMustCacheFd
+=
+aMustCacheFd
 ;
 nsRefPtr
 <
@@ -5989,6 +5995,12 @@ caches
 0
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 mZips
 .
 EnumerateRead
