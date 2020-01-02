@@ -152,6 +152,7 @@ preprocessor
 jar
 -
 manifests
+webidl
 mozbuild
 =
 =
