@@ -1597,7 +1597,11 @@ uintptr_t
 aSource
 +
 (
+(
 y
++
+1
+)
 *
 aSourceStride
 )
