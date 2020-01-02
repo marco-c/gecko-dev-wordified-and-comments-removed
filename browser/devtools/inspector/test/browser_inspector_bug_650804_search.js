@@ -361,9 +361,6 @@ browser
 /
 devtools
 /
-"
-+
-"
 inspector
 /
 test

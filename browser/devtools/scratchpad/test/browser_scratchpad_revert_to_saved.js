@@ -489,9 +489,9 @@ false
 ;
 gFile
 =
+null
+;
 gScratchpad
-=
-menu
 =
 null
 ;

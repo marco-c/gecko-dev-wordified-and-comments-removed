@@ -519,6 +519,17 @@ reason
 =
 reason
 ;
+if
+(
+value
+!
+=
+=
+this
+.
+_nodeFront
+)
+{
 let
 rawValue
 =
@@ -635,6 +646,7 @@ this
 reason
 )
 ;
+}
 }
 get
 documentFront

@@ -659,8 +659,6 @@ doc
 =
 nodes
 =
-inspector
-=
 null
 ;
 gBrowser

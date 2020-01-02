@@ -950,7 +950,6 @@ inspector
 ;
 }
 }
-;
 function
 ComputedViewTool
 (

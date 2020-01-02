@@ -2416,10 +2416,6 @@ gDebugger
 =
 null
 ;
-gVariables
-=
-null
-;
 }
 )
 ;

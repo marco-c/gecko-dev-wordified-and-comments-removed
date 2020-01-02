@@ -165,7 +165,7 @@ info
 (
 "
 debugger
-opened
+openeed
 "
 )
 ;
@@ -387,6 +387,12 @@ node
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 aSubject
 .
 close
@@ -420,6 +426,9 @@ null
 ;
 finishTest
 (
+)
+;
+}
 )
 ;
 }
