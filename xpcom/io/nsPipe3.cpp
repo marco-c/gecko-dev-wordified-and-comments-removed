@@ -826,9 +826,6 @@ uint32_t
 segmentSize
 uint32_t
 segmentCount
-nsIMemory
-*
-segmentAlloc
 )
 {
 mInited
@@ -889,7 +886,6 @@ segmentSize
 segmentSize
 *
 segmentCount
-segmentAlloc
 )
 ;
 if
@@ -4559,9 +4555,6 @@ bool
 nonBlockingInput
 bool
 nonBlockingOutput
-nsIMemory
-*
-segmentAlloc
 )
 {
 if
@@ -4617,7 +4610,6 @@ nonBlockingInput
 nonBlockingOutput
 segmentSize
 segmentCount
-segmentAlloc
 )
 ;
 if
@@ -4663,9 +4655,6 @@ uint32_t
 segmentSize
 uint32_t
 segmentCount
-nsIMemory
-*
-segmentAlloc
 )
 {
 nsresult
@@ -4699,7 +4688,6 @@ nonBlockingInput
 nonBlockingOutput
 segmentSize
 segmentCount
-segmentAlloc
 )
 ;
 if

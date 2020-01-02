@@ -401,7 +401,6 @@ HasInfiniteBuffer
 UINT32_MAX
 :
 0
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS

@@ -911,7 +911,6 @@ uint32_t
 )
 -
 1
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
