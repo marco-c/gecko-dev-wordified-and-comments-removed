@@ -1935,12 +1935,7 @@ deferred
 .
 resolve
 (
-JSON
-.
-parse
-(
 data
-)
 .
 versions
 )

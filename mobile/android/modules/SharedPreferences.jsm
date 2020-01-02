@@ -292,12 +292,7 @@ data
 {
 result
 =
-JSON
-.
-parse
-(
 data
-)
 .
 values
 ;

@@ -40462,12 +40462,7 @@ data
 let
 profilePath
 =
-JSON
-.
-parse
-(
 data
-)
 .
 profile
 ;
