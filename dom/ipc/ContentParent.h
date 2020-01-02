@@ -1370,6 +1370,9 @@ RecvGetXPCOMProcessAttributes
 bool
 *
 aIsOffline
+bool
+*
+aIsLangRTL
 )
 MOZ_OVERRIDE
 ;
