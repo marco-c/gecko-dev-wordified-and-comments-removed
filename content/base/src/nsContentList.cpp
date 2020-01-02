@@ -1880,12 +1880,9 @@ std
 min
 (
 aIndex
-uint32_t
-(
 UINT32_MAX
 -
 1
-)
 )
 +
 1
