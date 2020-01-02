@@ -109,7 +109,7 @@ tex
 AllocateForSurface
 (
 mSize
-aAllocFlags
+ALLOC_DEFAULT
 )
 )
 {
