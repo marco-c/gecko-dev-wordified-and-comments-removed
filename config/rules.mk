@@ -3889,8 +3889,13 @@ endif
 #
 #
 #
-ifndef
+ifneq
+(
+1
+(
 NO_PROFILE_GUIDED_OPTIMIZE
+)
+)
 ifdef
 MOZ_PROFILE_USE
 ifeq
