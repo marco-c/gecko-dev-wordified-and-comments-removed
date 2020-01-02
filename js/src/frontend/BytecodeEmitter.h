@@ -303,6 +303,13 @@ uint32_t
 offset
 )
 ;
+uint32_t
+findEnclosingScope
+(
+uint32_t
+index
+)
+;
 void
 recordEnd
 (
