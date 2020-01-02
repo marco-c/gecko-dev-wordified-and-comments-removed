@@ -135,11 +135,6 @@ LightweightThemeImageOptimizer
 jsm
 '
 '
-OpenH264Provider
-.
-jsm
-'
-'
 PluginProvider
 .
 jsm
