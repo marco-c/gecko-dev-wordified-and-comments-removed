@@ -3279,7 +3279,7 @@ aLayer
 }
 static
 pixman_transform
-Matrix3DToPixman
+BasicLayerManager_Matrix3DToPixman
 (
 const
 gfx3DMatrix
@@ -3576,7 +3576,7 @@ images
 pixman_transform
 pixTransform
 =
-Matrix3DToPixman
+BasicLayerManager_Matrix3DToPixman
 (
 aTransform
 )

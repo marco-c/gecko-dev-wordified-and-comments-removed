@@ -1003,6 +1003,9 @@ fillRect
 }
 RefPtr
 <
+gfx
+:
+:
 SourceSurface
 >
 snapshot
@@ -1684,6 +1687,9 @@ true
 }
 RefPtr
 <
+gfx
+:
+:
 SourceSurface
 >
 mask

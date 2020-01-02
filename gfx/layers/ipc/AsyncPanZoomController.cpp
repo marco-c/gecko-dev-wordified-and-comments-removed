@@ -677,15 +677,6 @@ gTouchStartTolerance
 ;
 static
 const
-float
-EPSILON
-=
-0
-.
-0001f
-;
-static
-const
 double
 AXIS_LOCK_ANGLE
 =

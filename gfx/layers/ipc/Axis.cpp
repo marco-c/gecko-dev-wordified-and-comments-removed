@@ -97,15 +97,6 @@ namespace
 layers
 {
 static
-const
-float
-EPSILON
-=
-0
-.
-0001f
-;
-static
 float
 gMaxEventAcceleration
 =

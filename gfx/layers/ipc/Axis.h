@@ -42,6 +42,14 @@ mozilla
 namespace
 layers
 {
+const
+float
+EPSILON
+=
+0
+.
+0001f
+;
 class
 AsyncPanZoomController
 ;

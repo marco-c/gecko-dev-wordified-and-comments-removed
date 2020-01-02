@@ -5246,7 +5246,7 @@ aMatrix
 }
 static
 GLenum
-GetFrameBufferInternalFormat
+LayerManagerOGL_GetFrameBufferInternalFormat
 (
 GLContext
 *
@@ -5343,7 +5343,7 @@ InitModeCopy
 GLenum
 format
 =
-GetFrameBufferInternalFormat
+LayerManagerOGL_GetFrameBufferInternalFormat
 (
 gl
 (
