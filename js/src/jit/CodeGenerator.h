@@ -2499,6 +2499,8 @@ TypedOrValueRegister
 output
 bool
 allowGetters
+bool
+monitoredResult
 )
 ;
 bool
