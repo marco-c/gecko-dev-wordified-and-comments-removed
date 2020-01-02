@@ -98,9 +98,6 @@ TEST_DIRS
 =
 [
 '
-background
-'
-'
-browser
+junit3
 '
 ]
