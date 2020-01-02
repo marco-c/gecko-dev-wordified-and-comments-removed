@@ -108,6 +108,15 @@ cp
 /
 libspeexdsp
 /
+resample_neon
+.
+h
+src
+cp
+1
+/
+libspeexdsp
+/
 arch
 .
 h
