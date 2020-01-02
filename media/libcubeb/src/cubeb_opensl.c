@@ -1341,7 +1341,7 @@ int
 get_output_frame_count
 )
 (
-int
+size_t
 *
 frameCount
 int
