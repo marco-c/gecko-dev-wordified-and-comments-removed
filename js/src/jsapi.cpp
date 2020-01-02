@@ -21360,6 +21360,9 @@ getc
 #
 endif
 typedef
+js
+:
+:
 Vector
 <
 char
