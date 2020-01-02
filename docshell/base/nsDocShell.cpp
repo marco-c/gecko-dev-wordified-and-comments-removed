@@ -14026,8 +14026,13 @@ false
 uint32_t
 sandboxFlags
 =
-0
+mSandboxFlags
 ;
+if
+(
+mContentViewer
+)
+{
 nsCOMPtr
 <
 nsIDocument
@@ -14055,6 +14060,7 @@ GetSandboxFlags
 (
 )
 ;
+}
 }
 if
 (
