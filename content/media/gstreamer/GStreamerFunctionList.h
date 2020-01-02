@@ -264,6 +264,11 @@ gst_mini_object_unref
 GST_FUNC
 (
 LIBGSTREAMER
+gst_object_get_name
+)
+GST_FUNC
+(
+LIBGSTREAMER
 gst_object_get_parent
 )
 GST_FUNC
