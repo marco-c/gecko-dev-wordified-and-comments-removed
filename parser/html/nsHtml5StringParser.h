@@ -46,12 +46,6 @@ nsHtml5StringParser
 (
 )
 ;
-virtual
-~
-nsHtml5StringParser
-(
-)
-;
 nsresult
 ParseFragment
 (
@@ -89,6 +83,12 @@ aScriptingEnabledForNoscriptParsing
 ;
 private
 :
+virtual
+~
+nsHtml5StringParser
+(
+)
+;
 nsresult
 Tokenize
 (

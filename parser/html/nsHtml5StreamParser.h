@@ -205,12 +205,6 @@ eParserMode
 aMode
 )
 ;
-virtual
-~
-nsHtml5StreamParser
-(
-)
-;
 nsresult
 CheckListenerChain
 (
@@ -421,6 +415,12 @@ aURL
 ;
 private
 :
+virtual
+~
+nsHtml5StreamParser
+(
+)
+;
 #
 ifdef
 DEBUG

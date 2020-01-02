@@ -165,12 +165,6 @@ nsHtml5Parser
 (
 )
 ;
-virtual
-~
-nsHtml5Parser
-(
-)
-;
 NS_IMETHOD_
 (
 void
@@ -574,6 +568,12 @@ ParseUntilBlocked
 ;
 private
 :
+virtual
+~
+nsHtml5Parser
+(
+)
+;
 bool
 mLastWasCR
 ;

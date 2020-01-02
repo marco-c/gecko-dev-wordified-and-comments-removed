@@ -36,6 +36,12 @@ nsIScriptableUnescapeHTML
 public
 nsIParserUtils
 {
+~
+nsParserUtils
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

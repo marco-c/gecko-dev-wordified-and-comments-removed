@@ -49,12 +49,6 @@ nsHtml5StreamParser
 aDelegate
 )
 ;
-virtual
-~
-nsHtml5StreamListener
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
@@ -77,6 +71,12 @@ DropDelegate
 ;
 private
 :
+virtual
+~
+nsHtml5StreamListener
+(
+)
+;
 nsHtml5RefPtr
 <
 nsHtml5StreamParser

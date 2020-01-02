@@ -242,6 +242,12 @@ nullptr
 }
 private
 :
+~
+nsSAXXMLReader
+(
+)
+{
+}
 nsCOMPtr
 <
 nsISAXContentHandler

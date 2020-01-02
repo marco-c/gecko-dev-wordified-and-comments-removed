@@ -113,6 +113,12 @@ nsIStreamListener
 public
 nsSupportsWeakReference
 {
+virtual
+~
+nsParser
+(
+)
+;
 public
 :
 static
@@ -133,12 +139,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsParser
 nsIParser
 )
-nsParser
-(
-)
-;
-virtual
-~
 nsParser
 (
 )

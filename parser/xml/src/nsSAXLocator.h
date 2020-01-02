@@ -104,6 +104,12 @@ aColumnNumber
 ;
 private
 :
+~
+nsSAXLocator
+(
+)
+{
+}
 nsString
 mPublicId
 ;
