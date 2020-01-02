@@ -1130,9 +1130,6 @@ mDumpFile
 CircularByteBuffer
 mBuffer
 ;
-double
-mVolume
-;
 nsAutoRef
 <
 cubeb_stream
