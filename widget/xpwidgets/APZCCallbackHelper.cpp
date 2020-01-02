@@ -263,11 +263,11 @@ mDisplayPort
 displayPort
 +
 =
-aActualScrollOffset
--
 aFrameMetrics
 .
 mScrollOffset
+-
+aActualScrollOffset
 ;
 if
 (
