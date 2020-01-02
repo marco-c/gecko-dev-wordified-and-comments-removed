@@ -81,16 +81,6 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-DestroyFrom
-(
-nsIFrame
-*
-aDestructRoot
-)
-MOZ_OVERRIDE
-;
-virtual
-void
 DidSetStyleContext
 (
 nsStyleContext
