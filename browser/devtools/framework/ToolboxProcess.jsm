@@ -260,6 +260,14 @@ this
 .
 loader
 .
+invisibleToDebugger
+=
+true
+;
+this
+.
+loader
+.
 main
 (
 "
