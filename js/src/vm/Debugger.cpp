@@ -24074,6 +24074,14 @@ setCanLazilyParse
 (
 false
 )
+.
+setIntroductionType
+(
+"
+debugger
+eval
+"
+)
 ;
 RootedScript
 callerScript

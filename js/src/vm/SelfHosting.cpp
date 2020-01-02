@@ -4307,6 +4307,17 @@ options
 {
 options
 .
+setIntroductionType
+(
+"
+self
+-
+hosted
+"
+)
+;
+options
+.
 setFileAndLine
 (
 "
