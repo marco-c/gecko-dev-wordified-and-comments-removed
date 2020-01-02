@@ -32,6 +32,7 @@ try
 {
 v
 =
+new
 ArrayBuffer
 (
 )

@@ -12,6 +12,7 @@ x
 .
 p
 =
+new
 ArrayBuffer
 (
 )
@@ -64,6 +65,7 @@ f
 new
 Function
 }
+new
 ArrayBuffer
 (
 )

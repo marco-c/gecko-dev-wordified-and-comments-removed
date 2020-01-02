@@ -57,6 +57,7 @@ arguments
 callee
 \
 }
+new
 ArrayBuffer
 (
 4096

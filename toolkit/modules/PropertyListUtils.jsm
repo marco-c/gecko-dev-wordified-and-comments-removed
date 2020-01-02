@@ -467,6 +467,7 @@ nsIDOMParser
 let
 bytesView
 =
+new
 Uint8Array
 (
 aBuffer
@@ -890,6 +891,7 @@ each
 (
 c
 in
+new
 Uint8Array
 (
 aBuffer
@@ -1265,6 +1267,7 @@ aRealSize
 4
 )
 return
+new
 Float32Array
 (
 swapped
@@ -1285,6 +1288,7 @@ aRealSize
 8
 )
 return
+new
 Float64Array
 (
 swapped
@@ -1622,6 +1626,7 @@ aIntSize
 1
 )
 return
+new
 Uint8Array
 (
 this
@@ -1651,6 +1656,7 @@ aIntSize
 2
 )
 return
+new
 Uint16Array
 (
 swapped
@@ -1666,6 +1672,7 @@ aIntSize
 4
 )
 return
+new
 Uint32Array
 (
 swapped
@@ -2891,6 +2898,7 @@ base64str
 )
 ;
 return
+new
 Uint8Array
 (
 [

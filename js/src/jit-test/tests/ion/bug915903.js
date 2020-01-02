@@ -16,6 +16,7 @@ heap
 {
 Int8ArrayView
 =
+new
 stdlib
 .
 Int8Array
@@ -25,6 +26,7 @@ heap
 ;
 Float32ArrayView
 =
+new
 stdlib
 .
 Float32Array

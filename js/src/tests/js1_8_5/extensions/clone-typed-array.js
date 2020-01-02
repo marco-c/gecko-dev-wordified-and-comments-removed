@@ -148,6 +148,7 @@ test
 {
 check
 (
+new
 ArrayBuffer
 (
 0
@@ -156,6 +157,7 @@ ArrayBuffer
 ;
 check
 (
+new
 ArrayBuffer
 (
 7
@@ -213,6 +215,7 @@ i
 ;
 b
 =
+new
 ctor
 (
 0
@@ -225,6 +228,7 @@ b
 ;
 b
 =
+new
 ctor
 (
 100
@@ -285,6 +289,7 @@ ctor
 var
 base
 =
+new
 Int8Array
 (
 [
@@ -298,6 +303,7 @@ Int8Array
 b
 =
 [
+new
 Int8Array
 (
 base
@@ -306,6 +312,7 @@ buffer
 0
 3
 )
+new
 Int8Array
 (
 base
@@ -352,6 +359,7 @@ b
 [
 0
 ]
+new
 Int8Array
 (
 [
@@ -369,6 +377,7 @@ b
 [
 1
 ]
+new
 Int8Array
 (
 [
@@ -386,6 +395,7 @@ a
 [
 0
 ]
+new
 Int8Array
 (
 [
@@ -403,6 +413,7 @@ a
 [
 1
 ]
+new
 Int8Array
 (
 [
@@ -467,6 +478,7 @@ byteLength
 ;
 base
 =
+new
 Int8Array
 (
 [
@@ -480,6 +492,7 @@ Int8Array
 b
 =
 [
+new
 Int8Array
 (
 base
@@ -488,6 +501,7 @@ buffer
 0
 3
 )
+new
 Int8Array
 (
 base

@@ -155,6 +155,7 @@ try
 let
 buffer
 =
+new
 Uint8Array
 (
 subject
@@ -261,6 +262,7 @@ utf8
 '
 ;
 return
+new
 Uint8Array
 (
 new
@@ -293,6 +295,7 @@ length
 3
 )
 return
+new
 Uint8Array
 (
 subject
@@ -305,6 +308,7 @@ arguments
 ;
 else
 return
+new
 Uint8Array
 (
 subject
@@ -693,6 +697,7 @@ view
 ;
 view
 =
+new
 DataView
 (
 this

@@ -5,6 +5,7 @@ __proto__
 1
 ]
 =
+new
 Uint8ClampedArray
 (
 )

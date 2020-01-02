@@ -2,6 +2,7 @@ for
 (
 x
 of
+new
 Int16Array
 (
 0
@@ -16,6 +17,7 @@ for
 (
 x
 of
+new
 Float32Array
 (
 0
@@ -29,6 +31,7 @@ FAIL
 var
 a
 =
+new
 Int8Array
 (
 [

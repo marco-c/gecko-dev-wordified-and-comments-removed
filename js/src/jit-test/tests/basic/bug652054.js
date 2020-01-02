@@ -243,6 +243,7 @@ M4x4_makeLookAt
 {
 tm1
 =
+new
 Float32Array
 (
 16
@@ -250,6 +251,7 @@ Float32Array
 ;
 tm2
 =
+new
 Float32Array
 (
 16

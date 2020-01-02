@@ -16199,6 +16199,7 @@ toString
 .
 apply
 (
+new
 Uint8Array
 (
 0
@@ -16222,6 +16223,7 @@ toString
 .
 apply
 (
+new
 Float32Array
 (
 0
@@ -16289,6 +16291,7 @@ toString
 .
 apply
 (
+new
 ArrayBuffer
 (
 )
@@ -16311,6 +16314,7 @@ toString
 .
 apply
 (
+new
 DataView
 (
 view

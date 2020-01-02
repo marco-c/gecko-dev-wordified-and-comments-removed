@@ -7,6 +7,7 @@ function
 {
 var
 m
+new
 ArrayBuffer
 (
 )

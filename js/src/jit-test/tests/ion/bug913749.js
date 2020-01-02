@@ -1,5 +1,6 @@
 y
 =
+new
 Float32Array
 (
 11

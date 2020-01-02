@@ -19,6 +19,7 @@ of
 ;
 assertDeepEq
 (
+new
 Uint8Array
 .
 of
@@ -28,6 +29,7 @@ of
 0x5678
 0x9abcdef
 )
+new
 Uint8Array
 (
 [

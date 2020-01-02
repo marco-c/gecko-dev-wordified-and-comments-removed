@@ -15,6 +15,7 @@ function
 (
 )
 {
+new
 Int8Array
 (
 ArrayBuffer
@@ -23,6 +24,7 @@ ArrayBuffer
 0
 ]
 =
+new
 Float32Array
 (
 ArrayBuffer

@@ -1,6 +1,7 @@
 var
 a
 =
+new
 Int8Array
 (
 [

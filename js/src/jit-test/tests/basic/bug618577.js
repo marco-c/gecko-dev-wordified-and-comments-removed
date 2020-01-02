@@ -1,6 +1,7 @@
 var
 x
 =
+new
 Uint32Array
 (
 )

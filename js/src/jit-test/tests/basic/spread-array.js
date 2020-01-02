@@ -234,6 +234,7 @@ assertEqArray
 .
 .
 .
+new
 Int32Array
 (
 [

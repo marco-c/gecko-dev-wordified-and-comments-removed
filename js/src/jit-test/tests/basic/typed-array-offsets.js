@@ -33,6 +33,7 @@ y
 var
 a
 =
+new
 ArrayBuffer
 (
 20
@@ -41,6 +42,7 @@ ArrayBuffer
 var
 b
 =
+new
 Int32Array
 (
 a
@@ -51,6 +53,7 @@ a
 var
 c
 =
+new
 Int32Array
 (
 a

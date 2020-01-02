@@ -29,6 +29,7 @@ function
 var
 x
 =
+new
 Int32Array
 (
 0

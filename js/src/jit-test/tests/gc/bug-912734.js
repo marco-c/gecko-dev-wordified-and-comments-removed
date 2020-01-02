@@ -76,6 +76,7 @@ function
 )
 {
 return
+new
 Uint32Array
 (
 this

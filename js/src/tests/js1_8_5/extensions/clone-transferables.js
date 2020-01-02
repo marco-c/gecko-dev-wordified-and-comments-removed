@@ -51,6 +51,7 @@ size
 var
 old
 =
+new
 buffer_ctor
 (
 size
@@ -112,6 +113,7 @@ constructors
 var
 buf
 =
+new
 buffer_ctor
 (
 size
@@ -120,6 +122,7 @@ size
 var
 old_arr
 =
+new
 ctor
 (
 buf
@@ -248,6 +251,7 @@ constructors
 var
 buf
 =
+new
 buffer_ctor
 (
 size
@@ -256,6 +260,7 @@ size
 var
 old_arr
 =
+new
 ctor
 (
 buf
@@ -264,6 +269,7 @@ buf
 var
 dv
 =
+new
 DataView
 (
 buf
@@ -357,6 +363,7 @@ size
 {
 old
 =
+new
 buffer_ctor
 (
 size
@@ -365,6 +372,7 @@ size
 var
 view
 =
+new
 Int32Array
 (
 old
@@ -416,6 +424,7 @@ old
 var
 viewCopy
 =
+new
 Int32Array
 (
 copy
@@ -452,6 +461,7 @@ size
 {
 old
 =
+new
 buffer_ctor
 (
 size

@@ -1,6 +1,7 @@
 var
 ab
 =
+new
 ArrayBuffer
 (
 5

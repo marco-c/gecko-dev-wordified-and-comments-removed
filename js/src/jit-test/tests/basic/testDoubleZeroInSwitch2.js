@@ -1,6 +1,7 @@
 var
 arr
 =
+new
 Float32Array
 (
 1

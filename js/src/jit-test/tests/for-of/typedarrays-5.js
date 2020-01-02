@@ -20,6 +20,7 @@ for
 var
 v
 of
+new
 Int8Array
 (
 [
