@@ -123,11 +123,6 @@ nsAccessibilityService
 .
 h
 '
-'
-nsAccessNode
-.
-h
-'
 ]
 EXPORTS
 .
@@ -271,11 +266,6 @@ cpp
 '
 '
 nsAccessiblePivot
-.
-cpp
-'
-'
-nsAccessNode
 .
 cpp
 '

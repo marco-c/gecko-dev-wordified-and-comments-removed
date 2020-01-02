@@ -2537,14 +2537,6 @@ Gecko
 '
 s
 process
--
-casts
-to
-an
-XPCOM
-nsAccessNode
-object
-pointer
 "
 )
 cpp_quote

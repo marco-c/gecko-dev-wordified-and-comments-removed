@@ -108,12 +108,6 @@ HTMLLIAccessible
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
-virtual
-void
-Shutdown
-(
-)
-;
 NS_IMETHOD
 GetBounds
 (
@@ -129,6 +123,12 @@ aWidth
 int32_t
 *
 aHeight
+)
+;
+virtual
+void
+Shutdown
+(
 )
 ;
 virtual
