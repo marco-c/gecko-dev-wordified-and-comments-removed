@@ -770,6 +770,14 @@ nsCSubstring
 groupID
 )
 ;
+bool
+IsForProfile
+(
+nsIFile
+*
+aCustomProfileDir
+)
+;
 virtual
 nsresult
 UpdateFinished
@@ -1098,6 +1106,9 @@ uint32_t
 aAppID
 bool
 aInBrowser
+nsIFile
+*
+aCustomProfileDir
 nsOfflineCacheUpdate
 *
 *

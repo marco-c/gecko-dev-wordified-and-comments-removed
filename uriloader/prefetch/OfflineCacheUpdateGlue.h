@@ -477,6 +477,9 @@ nsOfflineCacheUpdate
 >
 mUpdate
 ;
+bool
+mCoalesced
+;
 nsCOMPtr
 <
 nsIDOMDocument
