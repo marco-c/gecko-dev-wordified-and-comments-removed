@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -2031,7 +2038,7 @@ aType
 aParentDecoder
 )
 ;
-nsAutoPtr
+nsRefPtr
 <
 MediaDecoderReader
 >
@@ -2140,10 +2147,6 @@ decoder
 SetReader
 (
 reader
-.
-forget
-(
-)
 )
 ;
 mPendingDecoders
