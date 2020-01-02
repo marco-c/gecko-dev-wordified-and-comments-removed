@@ -114,6 +114,12 @@ nlf
 \
 locale
 -
+fonts
+.
+nsh
+\
+locale
+-
 rtl
 .
 nlf
