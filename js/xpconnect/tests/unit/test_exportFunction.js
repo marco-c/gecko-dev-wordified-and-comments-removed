@@ -62,7 +62,7 @@ example
 com
 "
 {
-wantDOMConstructors
+wantGlobalProperties
 :
 [
 "
@@ -89,7 +89,7 @@ example
 com
 "
 {
-wantDOMConstructors
+wantGlobalProperties
 :
 [
 "

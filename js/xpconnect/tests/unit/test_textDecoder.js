@@ -29,7 +29,7 @@ example
 com
 '
 {
-wantDOMConstructors
+wantGlobalProperties
 :
 [
 "

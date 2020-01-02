@@ -629,7 +629,7 @@ principals
 window
 ;
 let
-wantDOMConstructors
+wantGlobalProperties
 =
 [
 ]
@@ -662,7 +662,7 @@ proto
 .
 XMLHttpRequest
 ;
-wantDOMConstructors
+wantGlobalProperties
 .
 push
 (
@@ -711,9 +711,9 @@ proto
 wantXrays
 :
 true
-wantDOMConstructors
+wantGlobalProperties
 :
-wantDOMConstructors
+wantGlobalProperties
 sameZoneAs
 :
 window

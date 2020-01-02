@@ -114,7 +114,7 @@ simple
 "
 ]
 {
-wantDOMConstructors
+wantGlobalProperties
 :
 [
 "

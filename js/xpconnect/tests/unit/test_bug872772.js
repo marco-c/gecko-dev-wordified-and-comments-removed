@@ -32,7 +32,7 @@ com
 '
 ]
 {
-wantDOMConstructors
+wantGlobalProperties
 :
 [
 "
