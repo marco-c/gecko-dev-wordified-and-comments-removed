@@ -624,7 +624,7 @@ to
 throw
 .
 var
-anonAttr1
+anonElem1
 =
 getAnonymousNodes
 (
@@ -642,6 +642,11 @@ firstChild
 [
 0
 ]
+;
+var
+anonAttr1
+=
+anonElem1
 .
 getAttributeNode
 (
@@ -827,9 +832,7 @@ same
 anonymous
 tree
 .
-anonAttr1
-.
-ownerElement
+anonElem1
 .
 setAttribute
 (
