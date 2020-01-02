@@ -3119,6 +3119,12 @@ hidden
 =
 aShow
 ;
+ToolbarIconColor
+.
+inferFromText
+(
+)
+;
 }
 }
 ;
