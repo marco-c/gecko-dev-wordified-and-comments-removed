@@ -1912,6 +1912,16 @@ Init
 )
 ;
 void
+InitializeRootMetrics
+(
+)
+;
+bool
+HasValidInnerSize
+(
+)
+;
+void
 NotifyTabContextUpdated
 (
 )
