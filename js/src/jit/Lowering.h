@@ -924,14 +924,6 @@ ins
 )
 ;
 bool
-visitRegExpExec
-(
-MRegExpExec
-*
-ins
-)
-;
-bool
 visitRegExpTest
 (
 MRegExpTest
