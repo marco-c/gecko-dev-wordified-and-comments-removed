@@ -255,11 +255,6 @@ CallsList
 webidl
 '
 '
-CameraCapabilities
-.
-webidl
-'
-'
 CameraControl
 .
 webidl

@@ -42,6 +42,13 @@ h
 #
 include
 "
+DictionaryHelpers
+.
+h
+"
+#
+include
+"
 CameraCommon
 .
 h

@@ -861,6 +861,13 @@ BINPATH
 /
 components
 /
+dom_camera
+.
+xpt
+BINPATH
+/
+components
+/
 dom_canvas
 .
 xpt
