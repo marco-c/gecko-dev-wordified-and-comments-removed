@@ -247,6 +247,12 @@ RDFContentSinkImpl
 (
 )
 ;
+virtual
+~
+RDFContentSinkImpl
+(
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIEXPATSINK
 NS_IMETHOD
@@ -432,12 +438,6 @@ ContainerInfo
 ;
 protected
 :
-virtual
-~
-RDFContentSinkImpl
-(
-)
-;
 void
 ParseText
 (

@@ -34,14 +34,14 @@ MOZ_FINAL
 public
 nsISupportsArray
 {
-~
+public
+:
 nsSupportsArray
 (
 void
 )
 ;
-public
-:
+~
 nsSupportsArray
 (
 void

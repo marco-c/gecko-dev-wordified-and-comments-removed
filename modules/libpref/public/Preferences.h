@@ -167,6 +167,12 @@ Preferences
 (
 )
 ;
+virtual
+~
+Preferences
+(
+)
+;
 nsresult
 Init
 (
@@ -1246,12 +1252,6 @@ aValue
 ;
 protected
 :
-virtual
-~
-Preferences
-(
-)
-;
 nsresult
 NotifyServiceObservers
 (

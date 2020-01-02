@@ -75,12 +75,6 @@ nsIINIParserFactory
 public
 nsIFactory
 {
-~
-nsINIParserFactory
-(
-)
-{
-}
 public
 :
 NS_DECL_ISUPPORTS

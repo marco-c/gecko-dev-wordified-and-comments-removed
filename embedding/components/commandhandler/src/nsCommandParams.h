@@ -44,6 +44,12 @@ nsCommandParams
 (
 )
 ;
+virtual
+~
+nsCommandParams
+(
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICOMMANDPARAMS
 nsresult
@@ -53,12 +59,6 @@ Init
 ;
 protected
 :
-virtual
-~
-nsCommandParams
-(
-)
-;
 struct
 HashEntry
 :

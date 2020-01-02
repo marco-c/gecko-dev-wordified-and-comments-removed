@@ -307,12 +307,6 @@ MOZ_FINAL
 public
 nsIProperty
 {
-~
-nsSimpleProperty
-(
-)
-{
-}
 public
 :
 nsSimpleProperty

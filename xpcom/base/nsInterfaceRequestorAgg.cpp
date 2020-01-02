@@ -95,13 +95,13 @@ NS_GetCurrentThread
 ;
 }
 }
-private
-:
 ~
 nsInterfaceRequestorAgg
 (
 )
 ;
+private
+:
 nsCOMPtr
 <
 nsIInterfaceRequestor

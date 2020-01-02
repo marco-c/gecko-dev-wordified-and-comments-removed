@@ -3808,12 +3808,6 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITOOLTIPTEXTPROVIDER
 protected
 :
-~
-DefaultTooltipTextProvider
-(
-)
-{
-}
 nsCOMPtr
 <
 nsIAtom
@@ -3834,6 +3828,11 @@ mTag_window
 ;
 }
 ;
+NS_IMPL_ISUPPORTS
+(
+DefaultTooltipTextProvider
+nsITooltipTextProvider
+)
 DefaultTooltipTextProvider
 :
 :

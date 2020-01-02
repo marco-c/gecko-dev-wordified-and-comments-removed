@@ -129,12 +129,6 @@ NativePropertyHooks
 aNativePropHooks
 )
 ;
-~
-ShimInterfaceInfo
-(
-)
-{
-}
 private
 :
 nsIID

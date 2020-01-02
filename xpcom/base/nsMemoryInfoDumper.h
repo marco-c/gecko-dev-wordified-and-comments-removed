@@ -20,12 +20,6 @@ nsMemoryInfoDumper
 public
 nsIMemoryInfoDumper
 {
-virtual
-~
-nsMemoryInfoDumper
-(
-)
-;
 public
 :
 NS_DECL_ISUPPORTS
@@ -34,6 +28,14 @@ nsMemoryInfoDumper
 (
 )
 ;
+virtual
+~
+nsMemoryInfoDumper
+(
+)
+;
+public
+:
 static
 void
 Initialize

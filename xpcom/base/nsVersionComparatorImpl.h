@@ -21,12 +21,6 @@ MOZ_FINAL
 public
 nsIVersionComparator
 {
-~
-nsVersionComparatorImpl
-(
-)
-{
-}
 public
 :
 NS_DECL_ISUPPORTS

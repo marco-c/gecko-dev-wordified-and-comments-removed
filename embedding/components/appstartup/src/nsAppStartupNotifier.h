@@ -48,8 +48,6 @@ nsAppStartupNotifier
 (
 )
 ;
-protected
-:
 virtual
 ~
 nsAppStartupNotifier

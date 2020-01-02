@@ -143,6 +143,12 @@ nsWindowWatcher
 (
 )
 ;
+virtual
+~
+nsWindowWatcher
+(
+)
+;
 nsresult
 Init
 (
@@ -171,12 +177,6 @@ aSizeSpecified
 ;
 protected
 :
-virtual
-~
-nsWindowWatcher
-(
-)
-;
 friend
 class
 nsPromptService

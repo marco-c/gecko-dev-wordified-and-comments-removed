@@ -144,12 +144,6 @@ mResult
 int32_t
 mNextIndex
 ;
-virtual
-~
-ContainerEnumeratorImpl
-(
-)
-;
 public
 :
 ContainerEnumeratorImpl
@@ -160,6 +154,12 @@ ds
 nsIRDFResource
 *
 container
+)
+;
+virtual
+~
+ContainerEnumeratorImpl
+(
 )
 ;
 nsresult

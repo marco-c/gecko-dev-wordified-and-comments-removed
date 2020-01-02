@@ -84,11 +84,6 @@ MOZ_FINAL
 public
 nsIObserver
 {
-~
-nsCategoryObserver
-(
-)
-;
 public
 :
 nsCategoryObserver
@@ -97,6 +92,11 @@ const
 char
 *
 aCategory
+)
+;
+~
+nsCategoryObserver
+(
 )
 ;
 void

@@ -83,6 +83,12 @@ nsCommandManager
 (
 )
 ;
+virtual
+~
+nsCommandManager
+(
+)
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
@@ -93,12 +99,6 @@ NS_DECL_NSICOMMANDMANAGER
 NS_DECL_NSPICOMMANDUPDATER
 protected
 :
-virtual
-~
-nsCommandManager
-(
-)
-;
 nsresult
 GetControllerForCommand
 (
