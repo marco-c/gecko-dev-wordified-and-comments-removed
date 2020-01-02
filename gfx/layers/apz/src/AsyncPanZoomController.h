@@ -459,6 +459,12 @@ IsPannable
 )
 const
 ;
+int32_t
+GetLastTouchIdentifier
+(
+)
+const
+;
 protected
 :
 enum

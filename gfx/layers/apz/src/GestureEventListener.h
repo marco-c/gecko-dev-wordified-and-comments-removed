@@ -86,6 +86,12 @@ MultiTouchInput
 aEvent
 )
 ;
+int32_t
+GetLastTouchIdentifier
+(
+)
+const
+;
 private
 :
 ~
