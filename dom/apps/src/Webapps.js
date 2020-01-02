@@ -153,11 +153,11 @@ aWindow
 let
 apps
 =
-Cu
-.
-createArrayIn
-(
+new
 aWindow
+.
+Array
+(
 )
 ;
 for
