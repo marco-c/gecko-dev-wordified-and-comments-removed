@@ -9557,11 +9557,9 @@ devtools
 .
 appmanager
 .
-lastTab
+firstrun
 "
-"
-help
-"
+true
 )
 ;
 pref
