@@ -2082,8 +2082,6 @@ checkStrictAssignment
 (
 Node
 lhs
-AssignmentFlavor
-flavor
 )
 ;
 bool
@@ -2199,10 +2197,6 @@ ParseHandler
 data
 Node
 left
-bool
-toplevel
-=
-true
 )
 ;
 bool

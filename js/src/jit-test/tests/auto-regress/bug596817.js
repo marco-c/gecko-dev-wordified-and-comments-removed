@@ -1,3 +1,15 @@
+load
+(
+libdir
++
+'
+asserts
+.
+js
+'
+)
+;
+assertThrowsInstanceOf
 (
 function
 (
@@ -28,6 +40,6 @@ in
 ]
 }
 }
+TypeError
 )
-(
-)
+;

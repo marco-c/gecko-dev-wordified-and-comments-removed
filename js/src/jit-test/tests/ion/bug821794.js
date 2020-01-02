@@ -9,11 +9,12 @@ bitsinbyte
 )
 {
 var
-[
 summary
-]
 =
 true
+[
+0
+]
 ;
 }
 function

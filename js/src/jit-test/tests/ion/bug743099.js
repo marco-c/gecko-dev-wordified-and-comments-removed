@@ -67,6 +67,7 @@ var
 [
 ]
 =
+[
 expect
 ?
 WeekDay
@@ -77,6 +78,7 @@ a
 )
 :
 true
+]
 uneval
 ;
 }
