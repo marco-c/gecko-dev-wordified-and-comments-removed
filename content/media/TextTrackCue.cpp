@@ -351,11 +351,16 @@ GetCueAsHTML
 (
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mDocument
 )
+{
+return
+nullptr
 ;
+}
 if
 (
 !
