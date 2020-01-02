@@ -1388,8 +1388,10 @@ precision
 resolution
 "
 LowPrecisionResolution
-int32_t
-250
+float
+0
+.
+25f
 )
 ;
 DECL_GFX_PREF

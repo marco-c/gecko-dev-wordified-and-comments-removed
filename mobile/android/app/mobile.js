@@ -5051,7 +5051,11 @@ precision
 -
 resolution
 "
-250
+"
+0
+.
+25
+"
 )
 ;
 pref
