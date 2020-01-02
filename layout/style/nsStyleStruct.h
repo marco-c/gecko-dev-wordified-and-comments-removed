@@ -5584,10 +5584,6 @@ inline
 bool
 HasTextShadow
 (
-const
-nsIFrame
-*
-aContextFrame
 )
 const
 ;
@@ -5596,10 +5592,6 @@ nsCSSShadowArray
 *
 GetTextShadow
 (
-const
-nsIFrame
-*
-aContextFrame
 )
 const
 ;

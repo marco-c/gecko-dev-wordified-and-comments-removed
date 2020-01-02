@@ -13032,7 +13032,6 @@ textStyle
 >
 HasTextShadow
 (
-aFrame
 )
 )
 return
@@ -18767,7 +18766,6 @@ textStyle
 >
 HasTextShadow
 (
-aFrame
 )
 )
 return
