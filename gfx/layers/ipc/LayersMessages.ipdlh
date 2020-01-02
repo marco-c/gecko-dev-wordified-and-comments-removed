@@ -1059,9 +1059,6 @@ stickyScrollRangeOuter
 LayerRect
 stickyScrollRangeInner
 ;
-bool
-isScrollbar
-;
 uint64_t
 scrollbarTargetContainerId
 ;

@@ -2646,6 +2646,7 @@ Mutated
 enum
 ScrollDirection
 {
+NONE
 VERTICAL
 HORIZONTAL
 }
@@ -2664,9 +2665,6 @@ aDir
 {
 if
 (
-mIsScrollbar
-|
-|
 mScrollbarTargetId
 !
 =
@@ -2697,10 +2695,6 @@ ScrollbarData
 this
 )
 )
-;
-mIsScrollbar
-=
-true
 ;
 mScrollbarTargetId
 =
@@ -2970,15 +2964,6 @@ mStickyPositionData
 -
 >
 mInner
-;
-}
-bool
-GetIsScrollbar
-(
-)
-{
-return
-mIsScrollbar
 ;
 }
 FrameMetrics
@@ -3876,9 +3861,6 @@ nsAutoPtr
 StickyPositionData
 >
 mStickyPositionData
-;
-bool
-mIsScrollbar
 ;
 FrameMetrics
 :
