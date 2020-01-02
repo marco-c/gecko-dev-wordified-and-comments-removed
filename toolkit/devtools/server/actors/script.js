@@ -4228,6 +4228,8 @@ unknownError
 "
 message
 :
+DevToolsUtils
+.
 safeErrorString
 (
 error
@@ -10019,6 +10021,8 @@ _url
 n
 "
 +
+DevToolsUtils
+.
 safeErrorString
 (
 aError
