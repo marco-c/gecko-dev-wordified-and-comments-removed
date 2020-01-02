@@ -71,9 +71,6 @@ Func
 <
 Float32x4
 Abs
-<
-float
->
 Float32x4
 >
 )
@@ -105,9 +102,6 @@ Func
 <
 Float32x4
 Neg
-<
-float
->
 Float32x4
 >
 )
@@ -125,9 +119,6 @@ CoercedFunc
 Float32x4
 Int32x4
 Not
-<
-int32_t
->
 Float32x4
 >
 )
@@ -144,9 +135,6 @@ Func
 <
 Float32x4
 Rec
-<
-float
->
 Float32x4
 >
 )
@@ -163,9 +151,6 @@ Func
 <
 Float32x4
 RecSqrt
-<
-float
->
 Float32x4
 >
 )
@@ -196,9 +181,6 @@ Func
 <
 Float32x4
 Sqrt
-<
-float
->
 Float32x4
 >
 )
@@ -236,9 +218,6 @@ Func
 <
 Float32x4
 Add
-<
-float
->
 Float32x4
 >
 )
@@ -256,9 +235,6 @@ CoercedFunc
 Float32x4
 Int32x4
 And
-<
-int32_t
->
 Float32x4
 >
 )
@@ -275,9 +251,6 @@ Func
 <
 Float32x4
 Div
-<
-float
->
 Float32x4
 >
 )
@@ -294,9 +267,6 @@ Func
 <
 Float32x4
 Equal
-<
-float
->
 Int32x4
 >
 )
@@ -313,9 +283,6 @@ Func
 <
 Float32x4
 GreaterThan
-<
-float
->
 Int32x4
 >
 )
@@ -332,9 +299,6 @@ Func
 <
 Float32x4
 GreaterThanOrEqual
-<
-float
->
 Int32x4
 >
 )
@@ -351,9 +315,6 @@ Func
 <
 Float32x4
 LessThan
-<
-float
->
 Int32x4
 >
 )
@@ -370,9 +331,6 @@ Func
 <
 Float32x4
 LessThanOrEqual
-<
-float
->
 Int32x4
 >
 )
@@ -389,9 +347,6 @@ Func
 <
 Float32x4
 Maximum
-<
-float
->
 Float32x4
 >
 )
@@ -408,9 +363,6 @@ Func
 <
 Float32x4
 Minimum
-<
-float
->
 Float32x4
 >
 )
@@ -427,9 +379,6 @@ Func
 <
 Float32x4
 Mul
-<
-float
->
 Float32x4
 >
 )
@@ -446,9 +395,6 @@ Func
 <
 Float32x4
 NotEqual
-<
-float
->
 Int32x4
 >
 )
@@ -478,9 +424,6 @@ CoercedFunc
 Float32x4
 Int32x4
 Or
-<
-int32_t
->
 Float32x4
 >
 )
@@ -497,9 +440,6 @@ FuncWith
 <
 Float32x4
 Scale
-<
-float
->
 Float32x4
 >
 )
@@ -516,9 +456,6 @@ Func
 <
 Float32x4
 Sub
-<
-float
->
 Float32x4
 >
 )
@@ -535,9 +472,6 @@ FuncWith
 <
 Float32x4
 WithX
-<
-float
->
 Float32x4
 >
 )
@@ -554,9 +488,6 @@ FuncWith
 <
 Float32x4
 WithY
-<
-float
->
 Float32x4
 >
 )
@@ -573,9 +504,6 @@ FuncWith
 <
 Float32x4
 WithZ
-<
-float
->
 Float32x4
 >
 )
@@ -592,9 +520,6 @@ FuncWith
 <
 Float32x4
 WithW
-<
-float
->
 Float32x4
 >
 )
@@ -612,9 +537,6 @@ CoercedFunc
 Float32x4
 Int32x4
 Xor
-<
-int32_t
->
 Float32x4
 >
 )
@@ -725,9 +647,6 @@ Func
 <
 Int32x4
 Neg
-<
-int32_t
->
 Int32x4
 >
 )
@@ -744,9 +663,6 @@ Func
 <
 Int32x4
 Not
-<
-int32_t
->
 Int32x4
 >
 )
@@ -798,9 +714,6 @@ Func
 <
 Int32x4
 Add
-<
-int32_t
->
 Int32x4
 >
 )
@@ -817,9 +730,6 @@ Func
 <
 Int32x4
 And
-<
-int32_t
->
 Int32x4
 >
 )
@@ -836,9 +746,6 @@ Func
 <
 Int32x4
 Equal
-<
-int32_t
->
 Int32x4
 >
 )
@@ -855,9 +762,6 @@ Func
 <
 Int32x4
 GreaterThan
-<
-int32_t
->
 Int32x4
 >
 )
@@ -874,9 +778,6 @@ Func
 <
 Int32x4
 LessThan
-<
-int32_t
->
 Int32x4
 >
 )
@@ -893,9 +794,6 @@ Func
 <
 Int32x4
 Mul
-<
-int32_t
->
 Int32x4
 >
 )
@@ -912,9 +810,6 @@ Func
 <
 Int32x4
 Or
-<
-int32_t
->
 Int32x4
 >
 )
@@ -931,9 +826,6 @@ Func
 <
 Int32x4
 Sub
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1004,9 +896,6 @@ FuncWith
 <
 Int32x4
 WithFlagX
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1023,9 +912,6 @@ FuncWith
 <
 Int32x4
 WithFlagY
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1042,9 +928,6 @@ FuncWith
 <
 Int32x4
 WithFlagZ
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1061,9 +944,6 @@ FuncWith
 <
 Int32x4
 WithFlagW
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1080,9 +960,6 @@ FuncWith
 <
 Int32x4
 WithX
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1099,9 +976,6 @@ FuncWith
 <
 Int32x4
 WithY
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1118,9 +992,6 @@ FuncWith
 <
 Int32x4
 WithZ
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1137,9 +1008,6 @@ FuncWith
 <
 Int32x4
 WithW
-<
-int32_t
->
 Int32x4
 >
 )
@@ -1156,9 +1024,6 @@ Func
 <
 Int32x4
 Xor
-<
-int32_t
->
 Int32x4
 >
 )
