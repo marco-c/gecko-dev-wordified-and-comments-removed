@@ -919,7 +919,7 @@ i
 ]
 -
 >
-GetOuterWindow
+IsCurrentInnerWindow
 (
 )
 |
@@ -1238,7 +1238,7 @@ i
 ]
 -
 >
-GetOuterWindow
+IsCurrentInnerWindow
 (
 )
 |
@@ -1534,7 +1534,7 @@ i
 ]
 -
 >
-GetOuterWindow
+IsCurrentInnerWindow
 (
 )
 |
@@ -2289,6 +2289,19 @@ GamepadServiceTest
 (
 )
 {
+nsRefPtr
+<
+GamepadService
+>
+service
+=
+GamepadService
+:
+:
+GetService
+(
+)
+;
 }
 NS_IMETHODIMP
 GamepadServiceTest
