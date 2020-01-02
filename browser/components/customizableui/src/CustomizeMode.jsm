@@ -597,11 +597,12 @@ customizationstarting
 "
 )
 ;
+yield
 window
 .
 PanelUI
 .
-ensureRegistered
+ensureReady
 (
 true
 )
