@@ -35115,3 +35115,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+dom
+.
+wakelock
+.
+enabled
+"
+false
+)
+;

@@ -1518,6 +1518,15 @@ name
 /
 [
 Throws
+Pref
+=
+"
+dom
+.
+wakelock
+.
+enabled
+"
 Func
 =
 "
