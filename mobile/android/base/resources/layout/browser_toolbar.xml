@@ -530,13 +530,6 @@ ImageButton
 "
 android
 :
-layout_width
-=
-"
-48dip
-"
-android
-:
 layout_alignParentRight
 =
 "
@@ -910,8 +903,6 @@ style
 UrlBar
 .
 ImageButton
-.
-Icon
 "
 android
 :
