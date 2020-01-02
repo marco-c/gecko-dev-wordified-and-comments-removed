@@ -13,14 +13,6 @@ forward
 -
 button
 #
-reload
--
-button
-#
-stop
--
-button
-#
 home
 -
 button
