@@ -11704,6 +11704,14 @@ SetLoadUnblocked
 true
 )
 ;
+internalHttpChannel
+-
+>
+SetResponseTimeoutEnabled
+(
+false
+)
+;
 }
 nsCOMPtr
 <

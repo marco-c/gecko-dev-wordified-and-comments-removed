@@ -293,6 +293,17 @@ return
 nullptr
 ;
 }
+virtual
+bool
+ResponseTimeoutEnabled
+(
+)
+const
+{
+return
+false
+;
+}
 enum
 Classifier
 {
