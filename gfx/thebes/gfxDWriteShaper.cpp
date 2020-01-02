@@ -124,10 +124,15 @@ length
 =
 aLength
 ;
+char16ptr_t
+text
+=
+aText
+;
 TextAnalysis
 analysis
 (
-aText
+text
 length
 nullptr
 readingDirection
@@ -334,7 +339,7 @@ analyzer
 >
 GetGlyphs
 (
-aText
+text
 length
 font
 -
@@ -502,7 +507,7 @@ analyzer
 >
 GetGdiCompatibleGlyphPlacements
 (
-aText
+text
 clusters
 .
 Elements
@@ -575,7 +580,7 @@ analyzer
 >
 GetGlyphPlacements
 (
-aText
+text
 clusters
 .
 Elements

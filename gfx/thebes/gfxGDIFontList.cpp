@@ -1379,16 +1379,13 @@ dc
 hfont
 )
 ;
-PRUnichar
+wchar_t
 str
 [
 1
 ]
 =
 {
-(
-PRUnichar
-)
 aCh
 }
 ;

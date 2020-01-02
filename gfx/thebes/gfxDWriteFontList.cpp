@@ -1338,7 +1338,7 @@ FindLocaleName
 (
 localeName
 .
-BeginReading
+get
 (
 )
 &

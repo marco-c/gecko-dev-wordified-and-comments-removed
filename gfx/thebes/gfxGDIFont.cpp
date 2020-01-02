@@ -369,9 +369,7 @@ UseUniscribe
 gfxShapedText
 *
 aShapedText
-const
-PRUnichar
-*
+char16ptr_t
 aText
 uint32_t
 aLength

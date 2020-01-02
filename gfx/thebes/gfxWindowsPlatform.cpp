@@ -4966,9 +4966,7 @@ gfxWindowsPlatform
 :
 GetDLLVersion
 (
-const
-PRUnichar
-*
+char16ptr_t
 aDLLPath
 nsAString
 &
