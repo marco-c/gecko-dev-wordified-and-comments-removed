@@ -4883,9 +4883,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
@@ -4949,9 +4946,6 @@ aArgument
 JSContext
 *
 aCx
-JSObject
-*
-aScope
 JS
 :
 :
