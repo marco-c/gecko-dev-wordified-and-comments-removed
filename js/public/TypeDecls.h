@@ -42,6 +42,9 @@ JSScript
 class
 JSString
 ;
+class
+JSAddonId
+;
 struct
 jsid
 ;

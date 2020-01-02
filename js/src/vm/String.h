@@ -5351,6 +5351,14 @@ str
 )
 ;
 }
+class
+JSAddonId
+:
+public
+JSAtom
+{
+}
+;
 MOZ_ALWAYS_INLINE
 const
 jschar
