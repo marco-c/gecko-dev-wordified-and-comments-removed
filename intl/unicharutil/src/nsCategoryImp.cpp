@@ -26,10 +26,6 @@ nsUnicodeProperties
 .
 h
 "
-static
-nsCategoryImp
-gCategoryImp
-;
 NS_IMPL_QUERY_INTERFACE1
 (
 nsCategoryImp
@@ -82,9 +78,13 @@ GetInstance
 (
 )
 {
+static
+nsCategoryImp
+categoryImp
+;
 return
 &
-gCategoryImp
+categoryImp
 ;
 }
 nsIUGenCategory
