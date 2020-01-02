@@ -1075,6 +1075,17 @@ HaveBufferOnWhite
 )
 const
 ;
+virtual
+void
+FinalizeFrame
+(
+const
+nsIntRegion
+&
+aRegionToDraw
+)
+{
+}
 DeprecatedTextureClient
 *
 mDeprecatedBufferProvider
