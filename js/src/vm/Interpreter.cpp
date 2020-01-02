@@ -1961,7 +1961,7 @@ status
 jit
 :
 :
-Cannon
+IonCannon
 (
 cx
 state
@@ -13285,7 +13285,7 @@ exec
 jit
 :
 :
-Cannon
+IonCannon
 (
 cx
 state

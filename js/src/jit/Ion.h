@@ -583,7 +583,7 @@ vals
 )
 ;
 IonExecStatus
-Cannon
+IonCannon
 (
 JSContext
 *

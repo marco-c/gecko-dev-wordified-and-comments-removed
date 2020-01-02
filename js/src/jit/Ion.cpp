@@ -10412,7 +10412,7 @@ IonExecStatus
 jit
 :
 :
-Cannon
+IonCannon
 (
 JSContext
 *
