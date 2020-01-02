@@ -1174,7 +1174,7 @@ tab
 )
 )
 {
-loadFavicon
+maybeCancelFaviconLoad
 (
 tab
 )
@@ -1354,6 +1354,16 @@ invalidateOptionsMenu
 )
 ;
 }
+break
+;
+case
+PAGE_SHOW
+:
+loadFavicon
+(
+tab
+)
+;
 break
 ;
 case
