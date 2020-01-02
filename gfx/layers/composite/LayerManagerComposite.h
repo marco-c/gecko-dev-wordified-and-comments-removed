@@ -753,13 +753,6 @@ aFormat
 )
 MOZ_OVERRIDE
 ;
-const
-nsIntSize
-&
-GetWidgetSize
-(
-)
-;
 float
 ComputeRenderIntegrity
 (
