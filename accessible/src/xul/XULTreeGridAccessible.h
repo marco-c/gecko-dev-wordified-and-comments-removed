@@ -424,9 +424,6 @@ mutable
 AccessibleHashtable
 mAccessibleCache
 ;
-nsString
-mCachedName
-;
 }
 ;
 #
@@ -702,7 +699,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 XULTREEGRIDCELLACCESSIBLE_IMPL_CID
 )
-void
+bool
 CellInvalidated
 (
 )
