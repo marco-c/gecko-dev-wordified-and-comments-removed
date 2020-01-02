@@ -285,6 +285,11 @@ SOURCES
 =
 [
 '
+I420ColorConverterHelper
+.
+cpp
+'
+'
 MediaCodecProxy
 .
 cpp
