@@ -5984,7 +5984,7 @@ kind
 Double
 )
 {
-ASSERT
+JS_ASSERT
 (
 _code
 <
@@ -6043,7 +6043,7 @@ kind
 Double
 )
 {
-ASSERT
+JS_ASSERT
 (
 _code
 <

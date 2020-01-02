@@ -11599,7 +11599,7 @@ uint32_t
 nsrcnotes
 )
 {
-ASSERT
+JS_ASSERT
 (
 script
 !
@@ -11607,7 +11607,7 @@ script
 nullptr
 )
 ;
-ASSERT
+JS_ASSERT
 (
 ssd
 !
