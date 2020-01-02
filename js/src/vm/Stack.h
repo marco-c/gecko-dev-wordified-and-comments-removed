@@ -5662,6 +5662,17 @@ index
 )
 const
 ;
+bool
+ensureHasRematerializedFrame
+(
+)
+;
+bool
+hasUsableAbstractFramePtr
+(
+)
+const
+;
 AbstractFramePtr
 abstractFramePtr
 (
