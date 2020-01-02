@@ -14609,6 +14609,8 @@ callWithABIPre
 uint32_t
 *
 stackAdjust
+bool
+callFromAsmJS
 )
 {
 MOZ_ASSERT
@@ -14646,6 +14648,15 @@ sizeof
 intptr_t
 )
 ;
+uint32_t
+alignmentAtPrologue
+=
+callFromAsmJS
+?
+AlignmentAtAsmJSPrologue
+:
+0
+;
 if
 (
 dynamicAlignment_
@@ -14672,6 +14683,8 @@ stackAdjust
 ComputeByteAlignment
 (
 framePushed_
++
+alignmentAtPrologue
 +
 *
 stackAdjust
@@ -15077,6 +15090,7 @@ callWithABIPre
 (
 &
 stackAdjust
+true
 )
 ;
 call
