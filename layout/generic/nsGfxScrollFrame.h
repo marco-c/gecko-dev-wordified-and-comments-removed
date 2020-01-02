@@ -801,6 +801,10 @@ nsIAtom
 aOrigin
 =
 nullptr
+bool
+aIsMomentum
+=
+false
 )
 ;
 void
@@ -2419,6 +2423,10 @@ nsIAtom
 aOrigin
 =
 nullptr
+bool
+aIsMomentum
+=
+false
 )
 MOZ_OVERRIDE
 {
@@ -2431,6 +2439,7 @@ aUnit
 aMode
 aOverflow
 aOrigin
+aIsMomentum
 )
 ;
 }
@@ -3857,6 +3866,10 @@ nsIAtom
 aOrigin
 =
 nullptr
+bool
+aIsMomentum
+=
+false
 )
 MOZ_OVERRIDE
 {
@@ -3869,6 +3882,7 @@ aUnit
 aMode
 aOverflow
 aOrigin
+aIsMomentum
 )
 ;
 }
