@@ -1474,12 +1474,12 @@ WHEN_ATTR
 )
 )
 {
-int
+long
 when
 =
 message
 .
-optInt
+optLong
 (
 WHEN_ATTR
 )
