@@ -239,6 +239,12 @@ Is2D
 const
 ;
 bool
+IsProjective
+(
+)
+const
+;
+bool
 CanDraw2D
 (
 gfxMatrix
