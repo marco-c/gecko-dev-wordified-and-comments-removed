@@ -213,6 +213,7 @@ launchSetup
 :
 function
 (
+extras
 )
 {
 sendMessageToJava
@@ -225,6 +226,9 @@ Accounts
 :
 Create
 "
+extras
+:
+extras
 }
 )
 ;
