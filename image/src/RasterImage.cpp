@@ -6564,6 +6564,13 @@ finalStatus
 =
 aStatus
 ;
+{
+ReentrantMonitorAutoEnter
+lock
+(
+mDecodingMonitor
+)
+;
 nsRefPtr
 <
 imgStatusTracker
@@ -6586,13 +6593,6 @@ OnStopRequest
 (
 aLastPart
 finalStatus
-)
-;
-{
-ReentrantMonitorAutoEnter
-lock
-(
-mDecodingMonitor
 )
 ;
 FinishedSomeDecoding
