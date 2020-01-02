@@ -1396,6 +1396,13 @@ defined
 (
 JS_ARM_SIMULATOR
 )
+&
+&
+!
+defined
+(
+JS_MIPS_SIMULATOR
+)
 for
 (
 jit
