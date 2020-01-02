@@ -220,7 +220,7 @@ error
 <
 !
 ENTITY
-help
+help2
 "
 Firefox
 Developer
@@ -284,8 +284,6 @@ docs
 /
 Tools
 /
-Debugger
-#
 Remote_Debugging
 '
 >
