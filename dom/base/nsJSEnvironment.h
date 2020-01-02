@@ -457,8 +457,6 @@ static
 void
 RunCycleCollectorSlice
 (
-int64_t
-aSliceTime
 )
 ;
 static
