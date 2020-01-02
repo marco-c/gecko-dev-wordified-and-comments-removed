@@ -426,6 +426,12 @@ type
 =
 =
 kH264NALU_SEI
+|
+|
+type
+=
+=
+kh264NALU_PREFIX
 )
 {
 *
