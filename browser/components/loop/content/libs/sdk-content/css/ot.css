@@ -7,7 +7,7 @@ OT_root
 color
 :
 #
-fff
+ffffff
 ;
 margin
 :
@@ -43,6 +43,7 @@ vertical
 align
 :
 baseline
+;
 }
 .
 OT_root
@@ -66,7 +67,7 @@ h6
 color
 :
 #
-fff
+ffffff
 ;
 font
 -
@@ -90,6 +91,37 @@ font
 weight
 :
 bold
+;
+}
+.
+OT_root
+header
+{
+}
+.
+OT_root
+footer
+{
+}
+.
+OT_root
+div
+{
+}
+.
+OT_root
+section
+{
+}
+.
+OT_root
+video
+{
+}
+.
+OT_root
+button
+{
 }
 .
 OT_root
@@ -100,6 +132,7 @@ font
 weight
 :
 bold
+;
 }
 .
 OT_root
@@ -110,6 +143,7 @@ font
 style
 :
 italic
+;
 }
 .
 OT_root
@@ -144,6 +178,7 @@ Helvetica
 sans
 -
 serif
+;
 }
 .
 OT_root
@@ -158,6 +193,7 @@ margin
 1em
 1em
 2em
+;
 }
 .
 OT_root
@@ -169,6 +205,7 @@ style
 :
 decimal
 outside
+;
 }
 .
 OT_root
@@ -180,6 +217,7 @@ style
 :
 disc
 outside
+;
 }
 .
 OT_root
@@ -188,6 +226,7 @@ dl
 margin
 :
 4px
+;
 }
 .
 OT_root
@@ -209,6 +248,7 @@ margin
 padding
 :
 0
+;
 }
 .
 OT_root
@@ -228,6 +268,7 @@ right
 width
 :
 50px
+;
 }
 .
 OT_root
@@ -239,6 +280,7 @@ margin
 left
 :
 10px
+;
 }
 .
 OT_root
@@ -248,13 +290,14 @@ border
 :
 0
 none
+;
 }
 .
 OT_dialog
 {
 border
 :
-0
+none
 ;
 border
 -
@@ -323,6 +366,7 @@ Gothic
 sans
 -
 serif
+;
 }
 .
 OT_dialog
@@ -359,6 +403,7 @@ color
 :
 #
 363636
+;
 }
 .
 OT_dialog
@@ -375,6 +420,7 @@ shadow
 0
 0
 transparent
+;
 }
 .
 OT_dialog
@@ -391,6 +437,7 @@ Gothic
 sans
 -
 serif
+;
 }
 .
 OT_dialog
@@ -420,6 +467,7 @@ width
 height
 :
 282px
+;
 }
 .
 OT_dialog
@@ -449,6 +497,7 @@ width
 height
 :
 234px
+;
 }
 .
 OT_dialog
@@ -478,6 +527,7 @@ width
 height
 :
 188px
+;
 }
 .
 OT_dialog
@@ -511,6 +561,7 @@ width
 height
 :
 244px
+;
 }
 .
 OT_dialog
@@ -546,6 +597,7 @@ width
 height
 :
 270px
+;
 }
 .
 OT_dialog
@@ -581,6 +633,7 @@ width
 height
 :
 170px
+;
 }
 .
 OT_dialog
@@ -614,6 +667,7 @@ width
 height
 :
 190px
+;
 }
 .
 OT_dialog
@@ -649,6 +703,7 @@ width
 height
 :
 252px
+;
 }
 .
 OT_dialog
@@ -700,6 +755,7 @@ chrome
 .
 png
 )
+;
 }
 .
 OT_closeButton
@@ -725,6 +781,7 @@ size
 cursor
 :
 pointer
+;
 }
 .
 OT_dialog
@@ -752,6 +809,7 @@ text
 align
 :
 center
+;
 }
 .
 OT_dialog
@@ -773,6 +831,7 @@ messages
 top
 :
 45px
+;
 }
 .
 OT_dialog
@@ -798,6 +857,7 @@ line
 height
 :
 24px
+;
 }
 .
 OT_dialog
@@ -833,7 +893,8 @@ height
 color
 :
 #
-a4a4a4
+A4A4A4
+;
 }
 .
 OT_dialog
@@ -859,6 +920,7 @@ margin
 top
 :
 4px
+;
 }
 .
 OT_dialog
@@ -877,7 +939,8 @@ weight
 color
 :
 #
-fff
+ffffff
+;
 }
 .
 OT_dialog
@@ -913,6 +976,7 @@ height
 width
 :
 193px
+;
 }
 .
 OT_dialog
@@ -940,6 +1004,7 @@ right
 height
 :
 94px
+;
 }
 .
 OT_dialog
@@ -969,6 +1034,7 @@ width
 float
 :
 left
+;
 }
 .
 OT_dialog
@@ -986,7 +1052,7 @@ right
 1px
 solid
 #
-555
+555555
 ;
 height
 :
@@ -999,6 +1065,7 @@ width
 float
 :
 left
+;
 }
 .
 OT_dialog
@@ -1041,7 +1108,8 @@ height
 color
 :
 #
-a4a4a4
+A4A4A4
+;
 }
 .
 OT_dialog
@@ -1054,7 +1122,7 @@ strong
 color
 :
 #
-fff
+ffffff
 ;
 font
 -
@@ -1065,6 +1133,7 @@ weight
 display
 :
 block
+;
 }
 .
 OT_dialog
@@ -1096,7 +1165,7 @@ background
 color
 :
 #
-29a4da
+29A4DA
 ;
 text
 -
@@ -1113,6 +1182,7 @@ size
 cursor
 :
 pointer
+;
 }
 .
 OT_dialog
@@ -1134,6 +1204,7 @@ height
 height
 :
 58px
+;
 }
 .
 OT_dialog
@@ -1147,11 +1218,12 @@ border
 1px
 solid
 #
-4e4e4e
+4E4E4E
 ;
 height
 :
 8px
+;
 }
 .
 OT_dialog
@@ -1167,7 +1239,7 @@ background
 color
 :
 #
-29a4da
+29A4DA
 ;
 height
 :
@@ -1193,6 +1265,7 @@ right
 :
 -
 1px
+;
 }
 .
 OT_dialog
@@ -1220,6 +1293,7 @@ font
 weight
 :
 100
+;
 }
 .
 OT_dialog
@@ -1245,6 +1319,7 @@ margin
 bottom
 :
 25px
+;
 }
 .
 OT_dialog
@@ -1256,6 +1331,7 @@ margin
 top
 :
 24px
+;
 }
 .
 OT_dialog
@@ -1279,6 +1355,7 @@ margin
 top
 :
 21px
+;
 }
 .
 OT_dialog
@@ -1327,7 +1404,8 @@ padding
 color
 :
 #
-a4a4a4
+A4A4A4
+;
 }
 .
 OT_dialog
@@ -1378,7 +1456,8 @@ background
 color
 :
 #
-555
+555555
+;
 }
 .
 OT_dialog
@@ -1404,6 +1483,7 @@ margin
 top
 :
 16px
+;
 }
 .
 OT_dialog
@@ -1425,7 +1505,7 @@ background
 color
 :
 #
-2aa3d8
+2AA3D8
 ;
 border
 -
@@ -1452,6 +1532,7 @@ margin
 0
 auto
 17px
+;
 }
 .
 OT_dialog
@@ -1479,6 +1560,7 @@ margin
 bottom
 :
 10px
+;
 }
 .
 OT_dialog
@@ -1531,6 +1613,7 @@ chrome
 .
 png
 )
+;
 }
 .
 OT_publisher
@@ -1545,6 +1628,7 @@ color
 :
 #
 fff
+;
 }
 .
 OT_publisher
@@ -1631,6 +1715,7 @@ repeat
 no
 -
 repeat
+;
 }
 .
 OT_publisher
@@ -1713,6 +1798,7 @@ nowrap
 overflow
 :
 hidden
+;
 }
 .
 OT_centered
@@ -1734,6 +1820,7 @@ top
 margin
 :
 0
+;
 }
 .
 OT_publisher
@@ -1755,6 +1842,7 @@ min
 height
 :
 48px
+;
 }
 .
 OT_publisher
@@ -1772,6 +1860,7 @@ height
 :
 100
 %
+;
 }
 .
 OT_publisher
@@ -1802,6 +1891,7 @@ scale
 1
 1
 )
+;
 }
 .
 OT_subscriber_error
@@ -1823,6 +1913,7 @@ text
 align
 :
 center
+;
 }
 .
 OT_subscriber_error
@@ -1832,6 +1923,7 @@ p
 padding
 :
 20px
+;
 }
 .
 OT_publisher
@@ -1950,6 +2042,7 @@ height
 position
 :
 absolute
+;
 }
 .
 OT_publisher
@@ -1971,6 +2064,7 @@ rgba
 .
 4
 )
+;
 }
 .
 OT_publisher
@@ -1990,7 +2084,7 @@ transparent
 color
 :
 #
-fff
+ffffff
 ;
 font
 -
@@ -2016,6 +2110,7 @@ padding
 4px
 0
 36px
+;
 }
 .
 OT_publisher
@@ -2088,6 +2183,7 @@ font
 weight
 :
 normal
+;
 }
 .
 OT_micro
@@ -2121,6 +2217,7 @@ status
 display
 :
 none
+;
 }
 .
 OT_publisher
@@ -2170,6 +2267,7 @@ width
 height
 :
 34px
+;
 }
 .
 OT_archiving
@@ -2265,6 +2363,7 @@ shadow
 1px
 #
 575757
+;
 }
 .
 OT_archiving
@@ -2351,6 +2450,7 @@ iteration
 count
 :
 infinite
+;
 }
 -
 moz
@@ -2370,8 +2470,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2384,8 +2484,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2395,10 +2495,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 30
 %
@@ -2441,6 +2542,7 @@ shadow
 1px
 #
 c70019
+;
 }
 50
 %
@@ -2483,6 +2585,7 @@ shadow
 1px
 #
 c70019
+;
 }
 80
 %
@@ -2496,8 +2599,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2510,8 +2613,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2521,10 +2624,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 100
 %
@@ -2538,8 +2642,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2552,8 +2656,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2563,10 +2667,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 }
 -
@@ -2587,8 +2692,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2601,8 +2706,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2612,10 +2717,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 30
 %
@@ -2658,6 +2764,7 @@ shadow
 1px
 #
 c70019
+;
 }
 50
 %
@@ -2700,6 +2807,7 @@ shadow
 1px
 #
 c70019
+;
 }
 80
 %
@@ -2713,8 +2821,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2727,8 +2835,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2738,10 +2846,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 100
 %
@@ -2755,8 +2864,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2769,8 +2878,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2780,10 +2889,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 }
 -
@@ -2804,8 +2914,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2818,8 +2928,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2829,10 +2939,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 30
 %
@@ -2875,6 +2986,7 @@ shadow
 1px
 #
 c70019
+;
 }
 50
 %
@@ -2917,6 +3029,7 @@ shadow
 1px
 #
 c70019
+;
 }
 80
 %
@@ -2930,8 +3043,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2944,8 +3057,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2955,10 +3068,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 100
 %
@@ -2972,8 +3086,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2986,8 +3100,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -2997,10 +3111,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 }
 -
@@ -3021,8 +3136,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3035,8 +3150,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3046,10 +3161,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 30
 %
@@ -3092,6 +3208,7 @@ shadow
 1px
 #
 c70019
+;
 }
 50
 %
@@ -3134,6 +3251,7 @@ shadow
 1px
 #
 c70019
+;
 }
 80
 %
@@ -3147,8 +3265,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3161,8 +3279,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3172,10 +3290,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 100
 %
@@ -3189,8 +3308,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3203,8 +3322,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3214,10 +3333,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 }
 -
@@ -3238,8 +3358,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3252,8 +3372,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3263,10 +3383,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 30
 %
@@ -3309,6 +3430,7 @@ shadow
 1px
 #
 c70019
+;
 }
 50
 %
@@ -3351,6 +3473,7 @@ shadow
 1px
 #
 c70019
+;
 }
 80
 %
@@ -3364,8 +3487,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3378,8 +3501,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3389,10 +3512,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 100
 %
@@ -3406,8 +3530,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3420,8 +3544,8 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
 ;
@@ -3431,10 +3555,11 @@ shadow
 :
 0
 0
-0
-0
+0px
+0px
 #
 c70019
+;
 }
 }
 .
@@ -3463,6 +3588,7 @@ bottom
 height
 :
 auto
+;
 }
 .
 OT_mini
@@ -3502,6 +3628,7 @@ auto
 display
 :
 none
+;
 }
 .
 OT_publisher
@@ -3523,6 +3650,7 @@ right
 height
 :
 34px
+;
 }
 .
 OT_publisher
@@ -3550,6 +3678,7 @@ padding
 left
 :
 0
+;
 }
 .
 OT_publisher
@@ -3570,7 +3699,7 @@ OT_opentok
 {
 border
 :
-0
+none
 ;
 cursor
 :
@@ -3610,6 +3739,7 @@ repeat
 no
 -
 repeat
+;
 }
 .
 OT_publisher
@@ -3667,6 +3797,7 @@ top
 width
 :
 16px
+;
 }
 .
 OT_micro
@@ -3678,6 +3809,7 @@ display
 none
 !
 important
+;
 }
 .
 OT_publisher
@@ -3719,6 +3851,7 @@ height
 width
 :
 37px
+;
 }
 .
 OT_mini
@@ -3774,6 +3907,7 @@ border
 left
 :
 none
+;
 }
 .
 OT_publisher
@@ -3806,6 +3940,7 @@ position
 :
 9px
 5px
+;
 }
 .
 OT_publisher
@@ -3840,6 +3975,7 @@ position
 :
 9px
 4px
+;
 }
 .
 OT_subscriber
@@ -3872,6 +4008,7 @@ position
 :
 8px
 7px
+;
 }
 .
 OT_subscriber
@@ -3906,6 +4043,7 @@ position
 :
 7px
 7px
+;
 }
 .
 OT_publisher
@@ -3942,6 +4080,7 @@ transition
 -
 duration
 :
+0
 .
 5s
 ;
@@ -3963,6 +4102,7 @@ transition
 -
 duration
 :
+0
 .
 5s
 ;
@@ -3984,6 +4124,7 @@ transition
 -
 duration
 :
+0
 .
 5s
 ;
@@ -4005,6 +4146,7 @@ transition
 -
 duration
 :
+0
 .
 5s
 ;
@@ -4020,6 +4162,7 @@ transition
 -
 duration
 :
+0
 .
 5s
 ;
@@ -4032,6 +4175,7 @@ function
 ease
 -
 in
+;
 }
 .
 OT_publisher
@@ -4118,6 +4262,7 @@ top
 opacity
 :
 0
+;
 }
 .
 OT_mini
@@ -4152,6 +4297,7 @@ top
 :
 50
 %
+;
 }
 .
 OT_publisher
@@ -4262,6 +4408,7 @@ bottom
 :
 -
 25px
+;
 }
 .
 OT_publisher
@@ -4355,6 +4502,7 @@ top
 opacity
 :
 1
+;
 }
 .
 OT_mini
@@ -4397,6 +4545,7 @@ top
 :
 50
 %
+;
 }
 .
 OT_publisher
@@ -4478,6 +4627,7 @@ bottom
 opacity
 :
 1
+;
 }
 .
 OT_publisher
@@ -4516,6 +4666,7 @@ top
 :
 -
 17px
+;
 }
 .
 OT_publisher
@@ -4557,6 +4708,7 @@ auto
 top
 :
 8px
+;
 }
 .
 OT_video
@@ -4572,11 +4724,12 @@ background
 color
 :
 #
-000
+000000
 ;
 overflow
 :
 hidden
+;
 }
 .
 OT_hidden
@@ -4600,6 +4753,7 @@ width
 1px
 !
 important
+;
 }
 .
 OT_root
@@ -4668,6 +4822,7 @@ top
 :
 -
 16px
+;
 }
 .
 OT_publisher
@@ -4689,6 +4844,7 @@ loading
 display
 :
 block
+;
 }
 .
 OT_publisher
@@ -4704,6 +4860,7 @@ video
 display
 :
 none
+;
 }
 .
 OT_video
@@ -4740,6 +4897,7 @@ repeat
 display
 :
 none
+;
 }
 .
 OT_publisher
@@ -4767,6 +4925,7 @@ publisher
 .
 png
 )
+;
 }
 .
 OT_subscriber
@@ -4794,4 +4953,5 @@ subscriber
 .
 png
 )
+;
 }
