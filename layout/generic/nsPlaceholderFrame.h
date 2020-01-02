@@ -66,16 +66,6 @@ nsFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-#
-ifdef
-DEBUG
-NS_DECL_QUERYFRAME_TARGET
-(
-nsPlaceholderFrame
-)
-NS_DECL_QUERYFRAME
-#
-endif
 friend
 nsIFrame
 *
