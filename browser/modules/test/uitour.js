@@ -150,6 +150,7 @@ showHighlight
 function
 (
 target
+effect
 )
 {
 _sendEvent
@@ -161,6 +162,9 @@ showHighlight
 target
 :
 target
+effect
+:
+effect
 }
 )
 ;
