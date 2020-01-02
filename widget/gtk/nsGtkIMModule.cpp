@@ -16,6 +16,13 @@ h
 #
 include
 "
+prtime
+.
+h
+"
+#
+include
+"
 nsGtkIMModule
 .
 h
