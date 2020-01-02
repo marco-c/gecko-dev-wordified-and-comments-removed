@@ -3863,7 +3863,14 @@ success
 startTime
 ping
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 if
 (
 success
@@ -3886,6 +3893,9 @@ event
 )
 ;
 }
+}
+)
+;
 }
 ;
 }
