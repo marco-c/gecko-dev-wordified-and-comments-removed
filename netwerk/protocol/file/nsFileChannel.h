@@ -49,6 +49,11 @@ uri
 ;
 protected
 :
+~
+nsFileChannel
+(
+)
+;
 nsresult
 MakeFileInputStream
 (

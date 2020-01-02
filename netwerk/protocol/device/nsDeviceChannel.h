@@ -24,11 +24,6 @@ nsDeviceChannel
 (
 )
 ;
-~
-nsDeviceChannel
-(
-)
-;
 nsresult
 Init
 (
@@ -50,6 +45,13 @@ nsIChannel
 *
 *
 aChannel
+)
+;
+protected
+:
+~
+nsDeviceChannel
+(
 )
 ;
 }
