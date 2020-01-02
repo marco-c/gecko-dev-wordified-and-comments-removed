@@ -1533,7 +1533,7 @@ nscoord
 nsColumnSetFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1569,7 +1569,7 @@ FirstChild
 )
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -1684,7 +1684,7 @@ nscoord
 nsColumnSetFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1769,7 +1769,7 @@ FirstChild
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )

@@ -4080,7 +4080,7 @@ MarkIntrinsicWidthsDirty
 ;
 virtual
 nscoord
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -4091,7 +4091,7 @@ aRenderingContext
 ;
 virtual
 nscoord
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

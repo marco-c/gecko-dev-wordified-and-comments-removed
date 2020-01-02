@@ -3424,7 +3424,7 @@ nscoord
 nsTableCellFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -3475,7 +3475,7 @@ nscoord
 nsTableCellFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

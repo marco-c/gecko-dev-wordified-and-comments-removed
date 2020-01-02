@@ -1179,7 +1179,7 @@ nscoord
 nsListControlFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1202,7 +1202,7 @@ GetScrolledFrame
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -1233,7 +1233,7 @@ nscoord
 nsListControlFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1256,7 +1256,7 @@ GetScrolledFrame
 )
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )

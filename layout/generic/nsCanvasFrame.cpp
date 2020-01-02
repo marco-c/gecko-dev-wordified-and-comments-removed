@@ -2487,7 +2487,7 @@ nscoord
 nsCanvasFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -2525,7 +2525,7 @@ FirstChild
 )
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -2538,7 +2538,7 @@ nscoord
 nsCanvasFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -2576,7 +2576,7 @@ FirstChild
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )

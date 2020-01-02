@@ -2649,7 +2649,7 @@ nscoord
 nsVideoFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -2680,7 +2680,7 @@ nscoord
 nsVideoFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

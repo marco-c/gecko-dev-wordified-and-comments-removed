@@ -3613,7 +3613,7 @@ nscoord
 nsMathMLContainerFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -3668,7 +3668,7 @@ nscoord
 nsMathMLContainerFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

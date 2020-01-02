@@ -1097,7 +1097,7 @@ nscoord
 nsFileControlFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1115,7 +1115,7 @@ result
 ;
 result
 =
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )

@@ -1210,7 +1210,7 @@ nscoord
 nsProgressFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1289,7 +1289,7 @@ nscoord
 nsProgressFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -1297,7 +1297,7 @@ aRenderingContext
 )
 {
 return
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )

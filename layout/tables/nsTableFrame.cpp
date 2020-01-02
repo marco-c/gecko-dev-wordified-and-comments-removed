@@ -7224,7 +7224,7 @@ nscoord
 nsTableFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -7252,7 +7252,7 @@ LayoutStrategy
 )
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -7262,7 +7262,7 @@ nscoord
 nsTableFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -7290,7 +7290,7 @@ LayoutStrategy
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 false
@@ -7424,7 +7424,7 @@ this
 nscoord
 minWidth
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -7472,7 +7472,7 @@ result
 nscoord
 minWidth
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -7499,7 +7499,7 @@ LayoutStrategy
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 true

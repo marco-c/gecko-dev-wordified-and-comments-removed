@@ -3182,7 +3182,7 @@ dropdownContentWidth
 mDropdownFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -3221,7 +3221,7 @@ dropdownContentWidth
 mDropdownFrame
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
@@ -3292,7 +3292,7 @@ nscoord
 nsComboboxControlFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -3327,7 +3327,7 @@ nscoord
 nsComboboxControlFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

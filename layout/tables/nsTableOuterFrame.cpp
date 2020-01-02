@@ -322,7 +322,7 @@ result
 .
 width
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -346,7 +346,7 @@ NS_STYLE_CAPTION_SIDE_BOTTOM
 nscoord
 min
 =
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -1606,7 +1606,7 @@ nscoord
 nsTableOuterFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -1703,7 +1703,7 @@ nscoord
 nsTableOuterFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

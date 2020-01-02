@@ -311,7 +311,7 @@ nscoord
 nsNumberControlFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -373,7 +373,7 @@ nscoord
 nsNumberControlFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

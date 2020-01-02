@@ -18784,7 +18784,7 @@ inlineSize
 kid
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 renderingContext
 )

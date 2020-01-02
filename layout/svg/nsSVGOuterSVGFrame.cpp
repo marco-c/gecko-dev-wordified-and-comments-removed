@@ -463,7 +463,7 @@ nscoord
 nsSVGOuterSVGFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -494,7 +494,7 @@ nscoord
 nsSVGOuterSVGFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

@@ -20581,7 +20581,7 @@ nscoord
 nsTextFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -20603,7 +20603,7 @@ nscoord
 nsTextFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *

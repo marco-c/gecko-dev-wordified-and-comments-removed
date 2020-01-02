@@ -107,7 +107,7 @@ nscoord
 BasicTableLayoutStrategy
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -140,7 +140,7 @@ nscoord
 BasicTableLayoutStrategy
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -315,7 +315,7 @@ minCoord
 aFrame
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -325,7 +325,7 @@ prefCoord
 aFrame
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )

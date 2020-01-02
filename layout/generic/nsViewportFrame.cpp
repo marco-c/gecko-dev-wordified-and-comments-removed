@@ -407,7 +407,7 @@ nscoord
 ViewportFrame
 :
 :
-GetMinWidth
+GetMinISize
 (
 nsRenderingContext
 *
@@ -445,7 +445,7 @@ FirstChild
 )
 -
 >
-GetMinWidth
+GetMinISize
 (
 aRenderingContext
 )
@@ -458,7 +458,7 @@ nscoord
 ViewportFrame
 :
 :
-GetPrefWidth
+GetPrefISize
 (
 nsRenderingContext
 *
@@ -496,7 +496,7 @@ FirstChild
 )
 -
 >
-GetPrefWidth
+GetPrefISize
 (
 aRenderingContext
 )
