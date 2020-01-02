@@ -647,7 +647,7 @@ break
 ;
 default
 :
-NS_NOTREACHED
+NS_WARNING
 (
 "
 Support
