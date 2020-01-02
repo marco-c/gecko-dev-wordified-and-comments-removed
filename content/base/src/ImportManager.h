@@ -255,12 +255,6 @@ UnblockScripts
 (
 )
 ;
-nsIPrincipal
-*
-Principal
-(
-)
-;
 nsCOMPtr
 <
 nsIDocument
