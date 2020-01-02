@@ -911,24 +911,6 @@ KeyboardInterrupt
 raise
                 
 except
-self
-.
-failureException
-:
-                    
-result
-.
-addFailure
-(
-self
-sys
-.
-exc_info
-(
-)
-)
-                
-except
 _ExpectedFailure
 as
 e
@@ -2117,6 +2099,14 @@ tearDown
 self
 )
 :
+        
+self
+.
+marionette
+.
+check_for_crash
+(
+)
         
 self
 .
