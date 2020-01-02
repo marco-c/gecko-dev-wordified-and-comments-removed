@@ -2794,10 +2794,6 @@ DeallocateDeviceData
 (
 )
 ;
-mShmem
-=
-nullptr
-;
 MOZ_COUNT_DTOR
 (
 ShmemTextureHost
