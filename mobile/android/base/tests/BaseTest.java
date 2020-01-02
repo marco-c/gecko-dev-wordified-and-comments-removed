@@ -418,6 +418,14 @@ MAX_WAIT_HOME_PAGER_HIDDEN_MS
 =
 15000
 ;
+private
+static
+final
+int
+MAX_WAIT_VERIFY_PAGE_TITLE_MS
+=
+15000
+;
 public
 static
 final
@@ -2851,7 +2859,7 @@ VerifyTextViewText
 urlBarTitle
 title
 )
-MAX_WAIT_MS
+MAX_WAIT_VERIFY_PAGE_TITLE_MS
 )
 ;
 pageTitle
