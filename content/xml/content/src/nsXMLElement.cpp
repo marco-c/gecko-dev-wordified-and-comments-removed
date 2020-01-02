@@ -384,12 +384,8 @@ if
 attrVal
 )
 {
-doc
--
->
 RemoveFromIdTable
 (
-this
 attrVal
 -
 >
@@ -509,12 +505,8 @@ if
 doc
 )
 {
-doc
--
->
 AddToIdTable
 (
-this
 attrVal
 -
 >

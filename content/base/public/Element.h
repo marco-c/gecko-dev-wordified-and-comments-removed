@@ -3207,6 +3207,14 @@ RemoveFromIdTable
 (
 )
 ;
+void
+RemoveFromIdTable
+(
+nsIAtom
+*
+aId
+)
+;
 bool
 CheckHandleEventForLinksPrecondition
 (
