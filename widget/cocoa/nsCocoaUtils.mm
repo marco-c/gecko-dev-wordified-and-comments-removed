@@ -187,7 +187,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+MiscEvents
 .
 h
 "
