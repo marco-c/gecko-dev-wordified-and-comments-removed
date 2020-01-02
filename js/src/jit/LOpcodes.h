@@ -608,6 +608,11 @@ DoubleToInt32
 \
 _
 (
+Float32ToInt32
+)
+\
+_
+(
 TruncateDToInt32
 )
 \
