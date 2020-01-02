@@ -23514,7 +23514,6 @@ statfs
 getpagesize
 localtime_r
 arc4random
-arc4random_buf
 )
 dnl
 check
