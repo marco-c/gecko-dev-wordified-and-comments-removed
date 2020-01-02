@@ -77,6 +77,9 @@ ConnectionStatus
 connecting
 "
 "
+authenticating
+"
+"
 associated
 "
 "
