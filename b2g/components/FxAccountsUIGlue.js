@@ -368,7 +368,7 @@ refreshAuthentication
 :
 function
 (
-aAccountId
+aEmail
 )
 {
 return
@@ -380,9 +380,9 @@ _contentRequest
 refreshAuthentication
 "
 {
-accountId
+email
 :
-aAccountId
+aEmail
 }
 )
 ;

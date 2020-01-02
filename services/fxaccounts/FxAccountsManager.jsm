@@ -210,7 +210,7 @@ null
 }
 return
 {
-accountId
+email
 :
 this
 .
@@ -373,7 +373,7 @@ _signInSignUp
 function
 (
 aMethod
-aAccountId
+aEmail
 aPassword
 )
 {
@@ -398,7 +398,7 @@ ERROR_OFFLINE
 if
 (
 !
-aAccountId
+aEmail
 )
 {
 return
@@ -406,7 +406,7 @@ this
 .
 _error
 (
-ERROR_INVALID_ACCOUNTID
+ERROR_INVALID_EMAIL
 )
 ;
 }
@@ -515,7 +515,7 @@ client
 aMethod
 ]
 (
-aAccountId
+aEmail
 aPassword
 )
 ;
@@ -586,7 +586,7 @@ user
 email
 |
 |
-aAccountId
+aEmail
 ;
 return
 this
@@ -1008,7 +1008,7 @@ signIn
 :
 function
 (
-aAccountId
+aEmail
 aPassword
 )
 {
@@ -1020,7 +1020,7 @@ _signInSignUp
 "
 signIn
 "
-aAccountId
+aEmail
 aPassword
 )
 ;
@@ -1029,7 +1029,7 @@ signUp
 :
 function
 (
-aAccountId
+aEmail
 aPassword
 )
 {
@@ -1041,7 +1041,7 @@ _signInSignUp
 "
 signUp
 "
-aAccountId
+aEmail
 aPassword
 )
 ;
@@ -1305,7 +1305,7 @@ queryAccount
 :
 function
 (
-aAccountId
+aEmail
 )
 {
 log
@@ -1316,7 +1316,7 @@ debug
 queryAccount
 "
 +
-aAccountId
+aEmail
 )
 ;
 if
@@ -1349,7 +1349,7 @@ defer
 if
 (
 !
-aAccountId
+aEmail
 )
 {
 return
@@ -1357,7 +1357,7 @@ this
 .
 _error
 (
-ERROR_INVALID_ACCOUNTID
+ERROR_INVALID_EMAIL
 )
 ;
 }
@@ -1375,7 +1375,7 @@ client
 .
 accountExists
 (
-aAccountId
+aEmail
 )
 .
 then
@@ -1844,7 +1844,7 @@ UI_REQUEST_REFRESH_AUTH
 aAudience
 user
 .
-accountId
+email
 )
 .
 then

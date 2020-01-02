@@ -1994,12 +1994,12 @@ do_check_eq
 (
 result
 .
-accountId
+email
 FxAccountsManager
 .
 _user
 .
-accountId
+email
 )
 ;
 do_check_eq
@@ -2109,12 +2109,12 @@ do_check_eq
 (
 result
 .
-accountId
+email
 FxAccountsManager
 .
 _user
 .
-accountId
+email
 )
 ;
 FakeFxAccountsClient
@@ -2236,12 +2236,12 @@ do_check_eq
 (
 result
 .
-accountId
+email
 FxAccountsManager
 .
 _user
 .
-accountId
+email
 )
 ;
 FakeFxAccountsClient
@@ -2350,7 +2350,7 @@ add_test
 (
 function
 (
-test_signUp_no_accountId
+test_signUp_no_email
 )
 {
 do_print
@@ -2359,7 +2359,7 @@ do_print
 =
 signUp
 no
-accountId
+email
 =
 "
 )
@@ -2395,7 +2395,7 @@ do_check_eq
 error
 .
 error
-ERROR_INVALID_ACCOUNTID
+ERROR_INVALID_EMAIL
 )
 ;
 run_next_test
@@ -2412,7 +2412,7 @@ add_test
 (
 function
 (
-test_signIn_no_accountId
+test_signIn_no_email
 )
 {
 do_print
@@ -2421,7 +2421,7 @@ do_print
 =
 signIn
 no
-accountId
+email
 =
 "
 )
@@ -2457,7 +2457,7 @@ do_check_eq
 error
 .
 error
-ERROR_INVALID_ACCOUNTID
+ERROR_INVALID_EMAIL
 )
 ;
 run_next_test
@@ -2483,7 +2483,7 @@ do_print
 =
 signUp
 no
-accountId
+email
 =
 "
 )
@@ -2542,7 +2542,7 @@ add_test
 (
 function
 (
-test_signIn_no_accountId
+test_signIn_no_email
 )
 {
 do_print
@@ -2551,7 +2551,7 @@ do_print
 =
 signIn
 no
-accountId
+email
 =
 "
 )
@@ -2712,7 +2712,7 @@ result
 .
 user
 .
-accountId
+email
 "
 user
 domain
@@ -2849,7 +2849,7 @@ details
 .
 user
 .
-accountId
+email
 "
 user
 domain
@@ -2949,7 +2949,7 @@ details
 .
 user
 .
-accountId
+email
 "
 user
 domain
@@ -3282,7 +3282,7 @@ add_test
 (
 function
 (
-test_queryAccount_no_accountId
+test_queryAccount_no_email
 )
 {
 do_print
@@ -3291,7 +3291,7 @@ do_print
 =
 queryAccount
 no
-accountId
+email
 =
 "
 )
@@ -3327,7 +3327,7 @@ do_check_eq
 error
 .
 error
-ERROR_INVALID_ACCOUNTID
+ERROR_INVALID_EMAIL
 )
 ;
 run_next_test
