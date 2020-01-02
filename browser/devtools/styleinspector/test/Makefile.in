@@ -203,6 +203,10 @@ browser_bug913014_matched_expand
 .
 js
 \
+browser_bug765105_background_image_tooltip
+.
+js
+\
 head
 .
 js
