@@ -1303,6 +1303,9 @@ rv
 ;
 if
 (
+mAllowSTS
+&
+&
 !
 usingSSL
 )

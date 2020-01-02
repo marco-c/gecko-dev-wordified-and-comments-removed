@@ -431,6 +431,9 @@ bool
 allowPipelining
 ;
 bool
+allowSTS
+;
+bool
 forceAllowThirdPartyCookie
 ;
 bool

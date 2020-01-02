@@ -261,6 +261,10 @@ allowPipelining
 const
 bool
 &
+allowSTS
+const
+bool
+&
 forceAllowThirdPartyCookie
 const
 bool
