@@ -40,7 +40,7 @@ object
     
 TEST_PROC_TIMEOUT
 =
-1200
+900
     
 TEST_PROC_NO_OUTPUT_TIMEOUT
 =
