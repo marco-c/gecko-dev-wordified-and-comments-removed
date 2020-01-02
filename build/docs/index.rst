@@ -126,6 +126,9 @@ Files
 <
 mozconfigs
 >
+mozbuild
+-
+files
 Profile
 Guided
 Optimization
@@ -139,6 +142,7 @@ variables
 build
 -
 targets
+python
 test_manifests
 mozbuild
 =
@@ -178,9 +182,6 @@ maxdepth
 mozbuild
 /
 index
-mozbuild
-/
-frontend
 mozbuild
 /
 dumbmake
