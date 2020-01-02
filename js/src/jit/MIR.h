@@ -27382,6 +27382,9 @@ BoxPolicy
 bool
 strict_
 ;
+bool
+guardHoles_
+;
 MSetElementCache
 (
 MDefinition
@@ -27395,6 +27398,8 @@ MDefinition
 value
 bool
 strict
+bool
+guardHoles
 )
 :
 MSetElementInstruction
@@ -27406,6 +27411,10 @@ value
 strict_
 (
 strict
+)
+guardHoles_
+(
+guardHoles
 )
 {
 }
@@ -27432,6 +27441,8 @@ MDefinition
 value
 bool
 strict
+bool
+guardHoles
 )
 {
 return
@@ -27442,6 +27453,7 @@ obj
 index
 value
 strict
+guardHoles
 )
 ;
 }
@@ -27453,6 +27465,16 @@ const
 {
 return
 strict_
+;
+}
+bool
+guardHoles
+(
+)
+const
+{
+return
+guardHoles_
 ;
 }
 TypePolicy

@@ -35871,6 +35871,17 @@ return
 true
 ;
 }
+bool
+guardHoles
+=
+ElementAccessHasExtraIndexedProperty
+(
+constraints
+(
+)
+object
+)
+;
 MInstruction
 *
 ins
@@ -35889,6 +35900,7 @@ script
 -
 >
 strict
+guardHoles
 )
 ;
 current
