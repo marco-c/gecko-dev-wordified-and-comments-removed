@@ -8442,6 +8442,10 @@ bytestring
 '
         
 '
+scalarvaluestring
+'
+        
+'
 object
 '
         
@@ -8647,6 +8651,16 @@ False
     
 def
 isDOMString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isScalarValueString
 (
 self
 )
@@ -9619,6 +9633,22 @@ isDOMString
 )
     
 def
+isScalarValueString
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isScalarValueString
+(
+)
+    
+def
 isFloat
 (
 self
@@ -10309,6 +10339,16 @@ False
     
 def
 isDOMString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isScalarValueString
 (
 self
 )
@@ -11945,6 +11985,16 @@ return
 False
     
 def
+isScalarValueString
+(
+self
+)
+:
+        
+return
+False
+    
+def
 isVoid
 (
 self
@@ -12465,6 +12515,22 @@ isDOMString
 )
     
 def
+isScalarValueString
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isScalarValueString
+(
+)
+    
+def
 isVoid
 (
 self
@@ -12934,6 +13000,16 @@ False
     
 def
 isDOMString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isScalarValueString
 (
 self
 )
@@ -13754,6 +13830,10 @@ bytestring
 '
         
 '
+scalarvaluestring
+'
+        
+'
 object
 '
         
@@ -13974,6 +14054,16 @@ IDLType
 Tags
 .
 bytestring
+            
+Types
+.
+scalarvaluestring
+:
+IDLType
+.
+Tags
+.
+scalarvaluestring
             
 Types
 .
@@ -14238,6 +14328,19 @@ IDLBuiltinType
 Types
 .
 bytestring
+or
+\
+               
+self
+.
+_typeTag
+=
+=
+IDLBuiltinType
+.
+Types
+.
+scalarvaluestring
     
 def
 isByteString
@@ -14276,6 +14379,25 @@ IDLBuiltinType
 Types
 .
 domstring
+    
+def
+isScalarValueString
+(
+self
+)
+:
+        
+return
+self
+.
+_typeTag
+=
+=
+IDLBuiltinType
+.
+Types
+.
+scalarvaluestring
     
 def
 isInteger
@@ -15584,6 +15706,35 @@ IDLBuiltinType
 .
 Types
 .
+scalarvaluestring
+:
+          
+IDLBuiltinType
+(
+BuiltinLocation
+(
+"
+<
+builtin
+type
+>
+"
+)
+"
+ScalarValueString
+"
+                         
+IDLBuiltinType
+.
+Types
+.
+scalarvaluestring
+)
+      
+IDLBuiltinType
+.
+Types
+.
 object
 :
           
@@ -16639,6 +16790,34 @@ location
 ]
 )
 ;
+            
+return
+self
+        
+elif
+self
+.
+type
+.
+isString
+(
+)
+and
+type
+.
+isScalarValueString
+(
+)
+:
+            
+assert
+self
+.
+type
+.
+isDOMString
+(
+)
             
 return
 self
@@ -25457,6 +25636,14 @@ BYTESTRING
 "
         
 "
+ScalarValueString
+"
+:
+"
+SCALARVALUESTRING
+"
+        
+"
 any
 "
 :
@@ -31189,6 +31376,9 @@ DOMSTRING
 BYTESTRING
                   
 |
+SCALARVALUESTRING
+                  
+|
 ANY
                   
 |
@@ -32624,6 +32814,37 @@ IDLBuiltinType
 Types
 .
 bytestring
+    
+def
+p_PrimitiveOrStringTypeScalarValueString
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+PrimitiveOrStringType
+:
+SCALARVALUESTRING
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+IDLBuiltinType
+.
+Types
+.
+scalarvaluestring
     
 def
 p_UnsignedIntegerTypeUnsigned

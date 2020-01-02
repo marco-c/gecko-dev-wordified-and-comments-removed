@@ -1278,6 +1278,10 @@ Date
 "
 any
 "
+                 
+"
+ScalarValueString
+"
 ]
     
 def
@@ -1376,6 +1380,9 @@ Enum
 "
 "
 Enum2
+"
+"
+ScalarValueString
 "
 ]
     
@@ -1677,6 +1684,14 @@ setDistinguishable
 (
 "
 ByteString
+"
+nonStrings
+)
+    
+setDistinguishable
+(
+"
+ScalarValueString
 "
 nonStrings
 )
