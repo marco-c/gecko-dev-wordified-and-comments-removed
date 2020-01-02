@@ -4082,6 +4082,12 @@ catch
 is
 needed
 here
+this
+.
+_updateScrollButtonsDisabledState
+(
+)
+;
 let
 childNodes
 =
