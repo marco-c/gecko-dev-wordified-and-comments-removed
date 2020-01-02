@@ -107,7 +107,9 @@ rv
 &
 aMetrics
 .
-mPresShellId
+GetPresShellId
+(
+)
 =
 =
 presShellId
