@@ -293,6 +293,17 @@ checkForUpdates
 "
 0
 )
+pref
+(
+"
+dom
+.
+sysmsg
+.
+enabled
+"
+true
+)
 ]
 init
 :
