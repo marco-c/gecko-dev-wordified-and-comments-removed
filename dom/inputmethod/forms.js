@@ -2177,6 +2177,14 @@ modifiers
 )
 ;
 }
+if
+(
+!
+json
+.
+repeat
+)
+{
 domWindowUtils
 .
 sendKeyEvent
@@ -2195,6 +2203,7 @@ json
 modifiers
 )
 ;
+}
 this
 .
 _editing

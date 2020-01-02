@@ -3401,6 +3401,7 @@ ic_sendKey
 keyCode
 charCode
 modifiers
+repeat
 )
 {
 let
@@ -3445,6 +3446,9 @@ charCode
 modifiers
 :
 modifiers
+repeat
+:
+repeat
 }
 )
 ;
