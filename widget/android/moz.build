@@ -178,6 +178,11 @@ GfxInfo
 cpp
 '
 '
+NativeJSContainer
+.
+cpp
+'
+'
 nsAppShell
 .
 cpp
