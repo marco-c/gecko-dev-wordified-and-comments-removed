@@ -17806,15 +17806,12 @@ i
 setSuccessor
 (
 j
-skipTrivialBlocks
-(
 block
 -
 >
 getSuccessor
 (
 j
-)
 )
 -
 >
