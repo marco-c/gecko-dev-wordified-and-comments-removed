@@ -1127,7 +1127,7 @@ dt
 texture
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;

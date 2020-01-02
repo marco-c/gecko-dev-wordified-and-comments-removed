@@ -289,14 +289,12 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-TemporaryRef
-<
 gfx
 :
 :
 DrawTarget
->
-GetAsDrawTarget
+*
+BorrowDrawTarget
 (
 )
 MOZ_OVERRIDE

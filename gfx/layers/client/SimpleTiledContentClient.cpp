@@ -649,7 +649,7 @@ srcDT
 textureClient
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;
@@ -849,7 +849,7 @@ drawTarget
 textureClient
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;

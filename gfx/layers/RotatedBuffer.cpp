@@ -1636,7 +1636,7 @@ mDTBuffer
 mBufferProvider
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;
@@ -1695,7 +1695,7 @@ mDTBufferOnWhite
 mBufferProviderOnWhite
 -
 >
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;

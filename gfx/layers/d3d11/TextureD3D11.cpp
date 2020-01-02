@@ -749,7 +749,7 @@ mNeedsClear
 {
 mDrawTarget
 =
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 ;
@@ -848,14 +848,12 @@ mIsLocked
 false
 ;
 }
-TemporaryRef
-<
 DrawTarget
->
+*
 TextureClientD3D11
 :
 :
-GetAsDrawTarget
+BorrowDrawTarget
 (
 )
 {
@@ -867,7 +865,7 @@ Calling
 TextureClient
 :
 :
-GetAsDrawTarget
+BorrowDrawTarget
 without
 locking
 :
