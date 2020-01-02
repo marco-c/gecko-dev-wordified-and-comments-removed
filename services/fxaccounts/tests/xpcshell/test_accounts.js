@@ -921,11 +921,17 @@ credentials
 kB
 )
 ;
+let
+localOnly
+=
+true
+;
 yield
 account
 .
 signOut
 (
+localOnly
 )
 ;
 let
