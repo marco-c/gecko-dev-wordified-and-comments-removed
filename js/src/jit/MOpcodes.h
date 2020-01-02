@@ -1162,7 +1162,7 @@ VISIT_INS
 }
 ;
 class
-MDefinitionVisitorWithDefaults
+MDefinitionVisitorDefaultNYI
 :
 public
 MDefinitionVisitor
