@@ -509,7 +509,7 @@ Bug
 .
 *
 /
-nsIntSize
+IntSize
 size
 ;
 /
@@ -740,7 +740,7 @@ MemoryImage
 uintptr_t
 data
 ;
-gfxIntSize
+IntSize
 size
 ;
 uint32_t

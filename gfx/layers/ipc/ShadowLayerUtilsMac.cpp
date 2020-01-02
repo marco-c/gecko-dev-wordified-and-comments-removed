@@ -56,6 +56,13 @@ gfxSharedQuartzSurface
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 using
 namespace
 mozilla
@@ -199,10 +206,13 @@ image
 data
 (
 )
+ThebesIntSize
+(
 image
 .
 size
 (
+)
 )
 image
 .

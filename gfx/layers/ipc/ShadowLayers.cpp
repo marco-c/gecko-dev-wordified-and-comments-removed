@@ -220,6 +220,13 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 struct
 nsIntPoint
 ;
@@ -3672,10 +3679,13 @@ image
 data
 (
 )
+ThebesIntSize
+(
 image
 .
 size
 (
+)
 )
 image
 .
