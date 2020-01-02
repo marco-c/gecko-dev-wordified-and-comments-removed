@@ -270,6 +270,11 @@ nsTimerImpl
 cpp
 '
 '
+ThreadStackHelper
+.
+cpp
+'
+'
 TimerThread
 .
 cpp
