@@ -1410,6 +1410,17 @@ other
 )
 :
         
+other
+=
+[
+]
+if
+other
+is
+None
+else
+other
+        
 if
 not
 isinstance
@@ -1435,12 +1446,15 @@ lists
 )
         
 return
+List
+(
 list
 .
 __add__
 (
 self
 other
+)
 )
     
 def
@@ -1450,6 +1464,17 @@ self
 other
 )
 :
+        
+other
+=
+[
+]
+if
+other
+is
+None
+else
+other
         
 if
 not
