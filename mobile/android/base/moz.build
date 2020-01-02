@@ -1984,6 +1984,13 @@ java
 '
 preferences
 /
+ModifiableHintPreference
+.
+java
+'
+'
+preferences
+/
 MultiChoicePreference
 .
 java

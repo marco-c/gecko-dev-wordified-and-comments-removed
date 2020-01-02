@@ -213,7 +213,15 @@ pref_category_add_search_providers
 "
 >
 <
-Preference
+org
+.
+mozilla
+.
+gecko
+.
+preferences
+.
+ModifiableHintPreference
 android
 :
 layout
