@@ -14200,6 +14200,11 @@ broadcastMessage
 (
 aName
 {
+iccId
+:
+aDomMessage
+.
+iccId
 type
 :
 aDomMessage

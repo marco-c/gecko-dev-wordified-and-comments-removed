@@ -7151,6 +7151,11 @@ broadcastMessage
 (
 aName
 {
+iccId
+:
+aDomMessage
+.
+iccId
 type
 :
 aDomMessage
@@ -7221,6 +7226,11 @@ expiryDate
 aDomMessage
 .
 expiryDate
+readReportRequested
+:
+aDomMessage
+.
+readReportRequested
 }
 )
 ;
