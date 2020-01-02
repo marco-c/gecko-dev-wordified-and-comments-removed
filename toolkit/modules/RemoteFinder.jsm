@@ -633,6 +633,16 @@ data
 )
 ;
 }
+shouldFocusContent
+:
+function
+(
+)
+{
+return
+true
+;
+}
 receiveMessage
 :
 function
