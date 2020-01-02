@@ -486,16 +486,6 @@ aPoint
 )
 const
 ;
-gfxRect
-ProjectRectBounds
-(
-const
-gfxRect
-&
-aRect
-)
-const
-;
 gfx3DMatrix
 Inverse
 (

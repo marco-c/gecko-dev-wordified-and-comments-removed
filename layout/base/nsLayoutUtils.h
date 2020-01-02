@@ -462,6 +462,16 @@ gfx
 Rect
 Rect
 ;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+Matrix4x4
+Matrix4x4
+;
 public
 :
 typedef
@@ -1437,7 +1447,7 @@ nullptr
 )
 ;
 static
-gfx3DMatrix
+Matrix4x4
 GetTransformToAncestor
 (
 nsIFrame
@@ -1511,7 +1521,7 @@ GetLayerTransformForFrame
 nsIFrame
 *
 aFrame
-gfx3DMatrix
+Matrix4x4
 *
 aTransform
 )

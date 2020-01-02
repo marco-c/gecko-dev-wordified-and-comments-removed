@@ -19326,14 +19326,14 @@ return
 mFontSizeScaleFactor
 ;
 }
-gfxPoint
+Point
 SVGTextFrame
 :
 :
 TransformFramePointToTextChild
 (
 const
-gfxPoint
+Point
 &
 aPoint
 nsIFrame
@@ -19415,7 +19415,7 @@ AppUnitsPerCSSPixel
 (
 )
 ;
-gfxPoint
+Point
 framePosition
 (
 NSAppUnitsToFloatPixels
@@ -19434,7 +19434,7 @@ factor
 )
 )
 ;
-gfxPoint
+Point
 pointInUserSpace
 =
 aPoint
@@ -19558,7 +19558,10 @@ m
 .
 Transform
 (
+ThebesPoint
+(
 pointInUserSpace
+)
 )
 ;
 if
@@ -19681,6 +19684,8 @@ mFontSizeScaleFactor
 )
 ;
 return
+ToPoint
+(
 m
 .
 Transform
@@ -19689,6 +19694,7 @@ pointInRun
 )
 /
 cssPxPerDevPx
+)
 ;
 }
 gfxRect

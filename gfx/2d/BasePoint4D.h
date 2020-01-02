@@ -789,6 +789,17 @@ Length
 )
 ;
 }
+bool
+HasPositiveWCoord
+(
+)
+{
+return
+w
+>
+0
+;
+}
 }
 ;
 }
