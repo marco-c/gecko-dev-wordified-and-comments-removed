@@ -2333,6 +2333,11 @@ Constructor
 Path2D
 other
 )
+Constructor
+(
+DOMString
+pathString
+)
 ]
 interface
 Path2D
