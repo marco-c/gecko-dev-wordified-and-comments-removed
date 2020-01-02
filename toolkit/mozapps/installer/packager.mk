@@ -3690,12 +3690,12 @@ tmp
 .
 background
 /
-basename
-'
+(
+notdir
 (
 MOZ_PKG_MAC_BACKGROUND
 )
-'
+)
 '
 '
 (
