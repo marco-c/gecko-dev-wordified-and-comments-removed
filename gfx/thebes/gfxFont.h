@@ -11162,8 +11162,10 @@ mUnderlineOffset
 gfxFloat
 mHyphenWidth
 ;
+nsRefPtr
+<
 gfxUserFontSet
-*
+>
 mUserFontSet
 ;
 uint64_t
