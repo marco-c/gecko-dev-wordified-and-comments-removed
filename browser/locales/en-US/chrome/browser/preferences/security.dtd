@@ -62,16 +62,6 @@ MPL
 <
 !
 ENTITY
-general
-.
-label
-"
-General
-"
->
-<
-!
-ENTITY
 warnAddonInstall
 .
 label
