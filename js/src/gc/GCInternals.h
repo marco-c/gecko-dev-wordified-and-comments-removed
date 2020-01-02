@@ -27,6 +27,14 @@ namespace
 gc
 {
 void
+MarkPersistentRootedChains
+(
+JSTracer
+*
+trc
+)
+;
+void
 MarkRuntime
 (
 JSTracer

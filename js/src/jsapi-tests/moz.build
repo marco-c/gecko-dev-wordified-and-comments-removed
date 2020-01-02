@@ -320,6 +320,11 @@ testParseJSON
 cpp
 '
 '
+testPersistentRooted
+.
+cpp
+'
+'
 testProfileStrings
 .
 cpp
