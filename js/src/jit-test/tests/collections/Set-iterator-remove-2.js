@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+iteration
+.
+js
+"
+)
+;
 var
 set
 =
@@ -12,8 +23,9 @@ var
 iter
 =
 set
-.
-iterator
+[
+std_iterator
+]
 (
 )
 ;
