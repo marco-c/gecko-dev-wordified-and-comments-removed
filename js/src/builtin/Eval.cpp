@@ -1250,13 +1250,13 @@ JS_ASSERT_IF
 (
 caller
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 !
 caller
 .
-asStackFrame
+asInterpreterFrame
 (
 )
 -

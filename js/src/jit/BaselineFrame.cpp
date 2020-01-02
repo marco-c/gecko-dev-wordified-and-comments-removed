@@ -776,7 +776,7 @@ BaselineFrame
 :
 initForOsr
 (
-StackFrame
+InterpreterFrame
 *
 fp
 uint32_t

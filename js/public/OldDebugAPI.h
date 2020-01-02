@@ -55,7 +55,7 @@ namespace
 js
 {
 class
-StackFrame
+InterpreterFrame
 ;
 class
 ScriptFrameIter
@@ -328,7 +328,7 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpStackFrame
+js_DumpInterpreterFrame
 (
 JSContext
 *
@@ -336,7 +336,7 @@ cx
 js
 :
 :
-StackFrame
+InterpreterFrame
 *
 start
 =

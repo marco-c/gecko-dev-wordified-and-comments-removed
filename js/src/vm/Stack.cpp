@@ -130,7 +130,7 @@ mozilla
 PodCopy
 ;
 void
-StackFrame
+InterpreterFrame
 :
 :
 initExecuteFrame
@@ -449,14 +449,14 @@ endif
 }
 template
 <
-StackFrame
+InterpreterFrame
 :
 :
 TriggerPostBarriers
 doPostBarrier
 >
 void
-StackFrame
+InterpreterFrame
 :
 :
 copyFrameAndValues
@@ -467,7 +467,7 @@ cx
 Value
 *
 vp
-StackFrame
+InterpreterFrame
 *
 otherfp
 const
@@ -674,12 +674,12 @@ dst
 }
 template
 void
-StackFrame
+InterpreterFrame
 :
 :
 copyFrameAndValues
 <
-StackFrame
+InterpreterFrame
 :
 :
 NoPostBarrier
@@ -689,7 +689,7 @@ JSContext
 *
 Value
 *
-StackFrame
+InterpreterFrame
 *
 const
 Value
@@ -700,12 +700,12 @@ Value
 ;
 template
 void
-StackFrame
+InterpreterFrame
 :
 :
 copyFrameAndValues
 <
-StackFrame
+InterpreterFrame
 :
 :
 DoPostBarrier
@@ -715,7 +715,7 @@ JSContext
 *
 Value
 *
-StackFrame
+InterpreterFrame
 *
 const
 Value
@@ -725,7 +725,7 @@ Value
 )
 ;
 void
-StackFrame
+InterpreterFrame
 :
 :
 writeBarrierPost
@@ -859,7 +859,7 @@ rval_
 ;
 }
 bool
-StackFrame
+InterpreterFrame
 :
 :
 copyRawFrameSlots
@@ -941,7 +941,7 @@ true
 }
 JSObject
 *
-StackFrame
+InterpreterFrame
 :
 :
 createRestParameter
@@ -1309,7 +1309,7 @@ break
 endif
 }
 bool
-StackFrame
+InterpreterFrame
 :
 :
 initFunctionScopeObjects
@@ -1356,7 +1356,7 @@ true
 ;
 }
 bool
-StackFrame
+InterpreterFrame
 :
 :
 prologue
@@ -1607,7 +1607,7 @@ true
 ;
 }
 void
-StackFrame
+InterpreterFrame
 :
 :
 epilogue
@@ -1958,7 +1958,7 @@ constructorThis
 ;
 }
 bool
-StackFrame
+InterpreterFrame
 :
 :
 pushBlock
@@ -2025,7 +2025,7 @@ true
 ;
 }
 void
-StackFrame
+InterpreterFrame
 :
 :
 popBlock
@@ -2054,7 +2054,7 @@ popOffScopeChain
 ;
 }
 void
-StackFrame
+InterpreterFrame
 :
 :
 popWith
@@ -2110,7 +2110,7 @@ popOffScopeChain
 ;
 }
 void
-StackFrame
+InterpreterFrame
 :
 :
 mark
@@ -2268,7 +2268,7 @@ rval
 ;
 }
 void
-StackFrame
+InterpreterFrame
 :
 :
 markValues
@@ -2309,7 +2309,7 @@ vm_stack
 ;
 }
 void
-StackFrame
+InterpreterFrame
 :
 :
 markValues
@@ -2597,7 +2597,7 @@ done
 frames
 )
 {
-StackFrame
+InterpreterFrame
 *
 fp
 =
@@ -2754,7 +2754,7 @@ JSOP_RETRVAL
 )
 ;
 }
-StackFrame
+InterpreterFrame
 *
 InterpreterStack
 :
@@ -2815,7 +2815,7 @@ nonLazyScript
 )
 )
 ;
-StackFrame
+InterpreterFrame
 :
 :
 Flags
@@ -2830,7 +2830,7 @@ Value
 *
 argv
 ;
-StackFrame
+InterpreterFrame
 *
 fp
 =
@@ -2885,7 +2885,7 @@ return
 fp
 ;
 }
-StackFrame
+InterpreterFrame
 *
 InterpreterStack
 :
@@ -2942,7 +2942,7 @@ allocateFrame
 cx
 sizeof
 (
-StackFrame
+InterpreterFrame
 )
 +
 nvars
@@ -2961,13 +2961,13 @@ buffer
 return
 nullptr
 ;
-StackFrame
+InterpreterFrame
 *
 fp
 =
 reinterpret_cast
 <
-StackFrame
+InterpreterFrame
 *
 >
 (
@@ -5560,7 +5560,7 @@ case
 INTERP
 :
 {
-StackFrame
+InterpreterFrame
 *
 frame
 =
@@ -7402,12 +7402,12 @@ const
 {
 if
 (
-isStackFrame
+isInterpreterFrame
 (
 )
 )
 return
-asStackFrame
+asInterpreterFrame
 (
 )
 -

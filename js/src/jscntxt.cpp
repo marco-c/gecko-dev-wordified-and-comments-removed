@@ -6452,7 +6452,7 @@ CompartmentChecker
 :
 check
 (
-StackFrame
+InterpreterFrame
 *
 fp
 )

@@ -7497,7 +7497,7 @@ fp
 JS_FREE_PATTERN
 sizeof
 (
-StackFrame
+InterpreterFrame
 )
 )
 ;
@@ -7972,7 +7972,7 @@ gen_
 )
 ;
 }
-StackFrame
+InterpreterFrame
 *
 GeneratorState
 :
@@ -8131,7 +8131,7 @@ stackDepth
 0
 )
 ;
-StackFrame
+InterpreterFrame
 *
 stackfp
 =
@@ -8433,7 +8433,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-StackFrame
+InterpreterFrame
 )
 %
 sizeof
@@ -8488,13 +8488,13 @@ genvp
 vplen
 )
 ;
-StackFrame
+InterpreterFrame
 *
 genfp
 =
 reinterpret_cast
 <
-StackFrame
+InterpreterFrame
 *
 >
 (
@@ -8551,7 +8551,7 @@ genfp
 >
 copyFrameAndValues
 <
-StackFrame
+InterpreterFrame
 :
 :
 DoPostBarrier

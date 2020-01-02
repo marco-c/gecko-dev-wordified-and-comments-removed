@@ -18653,7 +18653,7 @@ handleBaselineOsr
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 from
 jit

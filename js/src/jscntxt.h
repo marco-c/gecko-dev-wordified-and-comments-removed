@@ -1816,7 +1816,7 @@ isJit
 js
 :
 :
-StackFrame
+InterpreterFrame
 *
 interpreterFrame
 (

@@ -277,7 +277,7 @@ static
 bool
 CheckFrame
 (
-StackFrame
+InterpreterFrame
 *
 fp
 )
@@ -891,7 +891,7 @@ EnterBaselineAtBranch
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 fp
 jsbytecode
@@ -1681,7 +1681,7 @@ CanEnterBaselineAtBranch
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 fp
 bool

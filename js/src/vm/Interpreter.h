@@ -469,7 +469,7 @@ script_
 ;
 }
 virtual
-StackFrame
+InterpreterFrame
 *
 pushInterpreterFrame
 (
@@ -656,7 +656,7 @@ type_
 ;
 }
 virtual
-StackFrame
+InterpreterFrame
 *
 pushInterpreterFrame
 (
@@ -795,7 +795,7 @@ args_
 ;
 }
 virtual
-StackFrame
+InterpreterFrame
 *
 pushInterpreterFrame
 (
@@ -866,7 +866,7 @@ GeneratorState
 )
 ;
 virtual
-StackFrame
+InterpreterFrame
 *
 pushInterpreterFrame
 (

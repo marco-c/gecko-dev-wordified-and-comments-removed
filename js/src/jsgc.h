@@ -2890,7 +2890,7 @@ namespace
 js
 {
 class
-StackFrame
+InterpreterFrame
 ;
 extern
 void
@@ -2899,7 +2899,7 @@ MarkCompartmentActive
 js
 :
 :
-StackFrame
+InterpreterFrame
 *
 fp
 )

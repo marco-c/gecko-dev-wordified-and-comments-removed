@@ -822,7 +822,7 @@ compartment
 void
 check
 (
-StackFrame
+InterpreterFrame
 *
 fp
 )
@@ -2472,7 +2472,7 @@ isInterpreter
 js
 :
 :
-StackFrame
+InterpreterFrame
 *
 fp
 =

@@ -122,7 +122,7 @@ script
 JSFunction
 *
 maybeFun
-StackFrame
+InterpreterFrame
 *
 fp
 )

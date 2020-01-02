@@ -1036,7 +1036,7 @@ GetPropertyOperation
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 fp
 HandleScript
@@ -1319,7 +1319,7 @@ NameOperation
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 fp
 jsbytecode
@@ -1804,7 +1804,7 @@ RunState
 state
 )
 ;
-StackFrame
+InterpreterFrame
 *
 InvokeState
 :
@@ -1837,7 +1837,7 @@ initial_
 )
 ;
 }
-StackFrame
+InterpreterFrame
 *
 ExecuteState
 :
@@ -7639,7 +7639,7 @@ compartment
 activeAnalysis
 )
 ;
-StackFrame
+InterpreterFrame
 *
 entryFrame
 =

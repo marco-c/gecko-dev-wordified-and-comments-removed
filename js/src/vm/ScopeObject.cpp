@@ -1440,7 +1440,7 @@ JS_ASSERT_IF
 (
 frame
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 cx
@@ -1453,7 +1453,7 @@ interpreterFrame
 =
 frame
 .
-asStackFrame
+asInterpreterFrame
 (
 )
 )
@@ -1462,7 +1462,7 @@ JS_ASSERT_IF
 (
 frame
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 cx

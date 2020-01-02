@@ -95,13 +95,13 @@ JS_ASSERT_IF
 (
 frame
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 !
 frame
 .
-asStackFrame
+asInterpreterFrame
 (
 )
 -

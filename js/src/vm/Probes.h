@@ -74,7 +74,7 @@ JSScript
 *
 JSFunction
 *
-StackFrame
+InterpreterFrame
 *
 )
 ;

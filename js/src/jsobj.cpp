@@ -31506,12 +31506,12 @@ JS_FRIEND_API
 (
 void
 )
-js_DumpStackFrame
+js_DumpInterpreterFrame
 (
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 start
 )
@@ -31681,7 +31681,7 @@ fprintf
 (
 stderr
 "
-StackFrame
+InterpreterFrame
 at
 %
 p

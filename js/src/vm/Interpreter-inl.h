@@ -129,13 +129,13 @@ JS_ASSERT_IF
 (
 frame
 .
-isStackFrame
+isInterpreterFrame
 (
 )
 !
 frame
 .
-asStackFrame
+asInterpreterFrame
 (
 )
 -
@@ -422,7 +422,7 @@ ValuePropertyBearer
 JSContext
 *
 cx
-StackFrame
+InterpreterFrame
 *
 fp
 HandleValue

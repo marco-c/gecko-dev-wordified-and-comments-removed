@@ -7232,7 +7232,7 @@ JSContext
 *
 cx
 ;
-StackFrame
+InterpreterFrame
 *
 fp
 ;

@@ -847,7 +847,7 @@ prevGenerator
 js
 :
 :
-StackFrame
+InterpreterFrame
 *
 fp
 ;

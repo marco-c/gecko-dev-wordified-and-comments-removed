@@ -9594,7 +9594,7 @@ js
 :
 MarkCompartmentActive
 (
-StackFrame
+InterpreterFrame
 *
 fp
 )
