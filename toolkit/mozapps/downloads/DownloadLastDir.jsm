@@ -475,6 +475,9 @@ function
 aURI
 )
 {
+let
+Deprecated
+=
 Components
 .
 utils
@@ -494,7 +497,11 @@ Deprecated
 .
 jsm
 "
+{
+}
 )
+.
+Deprecated
 ;
 Deprecated
 .
