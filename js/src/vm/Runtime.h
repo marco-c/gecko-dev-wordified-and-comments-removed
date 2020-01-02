@@ -5354,9 +5354,14 @@ runtimeIfOnOwnerThread
 )
 {
 return
+(
+runtime_
+&
+&
 CurrentThreadCanAccessRuntime
 (
 runtime_
+)
 )
 ?
 runtime_
