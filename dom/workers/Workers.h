@@ -578,6 +578,9 @@ aObjp
 void
 CancelWorkersForWindow
 (
+JSContext
+*
+aCx
 nsPIDOMWindow
 *
 aWindow
@@ -586,6 +589,9 @@ aWindow
 void
 SuspendWorkersForWindow
 (
+JSContext
+*
+aCx
 nsPIDOMWindow
 *
 aWindow
@@ -594,6 +600,9 @@ aWindow
 void
 ResumeWorkersForWindow
 (
+nsIScriptContext
+*
+aCx
 nsPIDOMWindow
 *
 aWindow

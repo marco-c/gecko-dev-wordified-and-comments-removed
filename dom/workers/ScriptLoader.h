@@ -43,7 +43,7 @@ nsIDocument
 *
 aParentDoc
 const
-nsAString
+nsString
 &
 aScriptURL
 nsIChannel
@@ -62,7 +62,7 @@ WorkerPrivate
 *
 aParent
 const
-nsAString
+nsString
 &
 aScriptURL
 nsIChannel
@@ -78,7 +78,7 @@ JSContext
 *
 aCx
 const
-nsAString
+nsString
 &
 aURL
 nsresult
