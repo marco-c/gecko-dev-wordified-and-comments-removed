@@ -6491,7 +6491,7 @@ DeleteText
 (
 *
 node
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -6535,7 +6535,7 @@ DeleteText
 *
 node
 0
-SafeCast
+AssertedCast
 <
 uint32_t
 >

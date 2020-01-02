@@ -698,7 +698,7 @@ return
 ;
 }
 return
-SafeCast
+AssertedCast
 <
 uint32_t
 >

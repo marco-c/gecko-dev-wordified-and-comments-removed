@@ -353,6 +353,12 @@ using
 mozilla
 :
 :
+AssertedCast
+;
+using
+mozilla
+:
+:
 CheckedInt
 ;
 using
@@ -396,12 +402,6 @@ mozilla
 :
 :
 RangedPtr
-;
-using
-mozilla
-:
-:
-SafeCast
 ;
 using
 mozilla
@@ -1464,7 +1464,7 @@ integer
 int
 length
 =
-SafeCast
+AssertedCast
 <
 int
 >
@@ -5413,7 +5413,7 @@ get
 int32_t
 srcLen
 =
-SafeCast
+AssertedCast
 <
 int32_t
 >

@@ -7104,7 +7104,7 @@ length
 mozilla
 :
 :
-SafeCast
+AssertedCast
 <
 uint32_t
 >

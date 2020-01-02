@@ -3805,7 +3805,7 @@ gNumberOfDocShells
 getpid
 (
 )
-SafeCast
+AssertedCast
 <
 unsigned
 long
@@ -3954,7 +3954,7 @@ gNumberOfDocShells
 getpid
 (
 )
-SafeCast
+AssertedCast
 <
 unsigned
 long

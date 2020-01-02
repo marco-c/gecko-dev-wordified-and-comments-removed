@@ -3659,7 +3659,7 @@ aStartIndex
 0
 |
 |
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -3676,7 +3676,7 @@ aEndIndex
 0
 |
 |
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -3755,7 +3755,7 @@ for
 uint32_t
 optIndex
 =
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -3766,7 +3766,7 @@ aStartIndex
 optIndex
 <
 =
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -3913,7 +3913,7 @@ for
 uint32_t
 optIndex
 =
-SafeCast
+AssertedCast
 <
 uint32_t
 >

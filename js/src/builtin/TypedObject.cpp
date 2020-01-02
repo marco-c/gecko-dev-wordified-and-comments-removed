@@ -145,6 +145,12 @@ using
 mozilla
 :
 :
+AssertedCast
+;
+using
+mozilla
+:
+:
 CheckedInt32
 ;
 using
@@ -152,12 +158,6 @@ mozilla
 :
 :
 DebugOnly
-;
-using
-mozilla
-:
-:
-SafeCast
 ;
 using
 namespace
@@ -5103,7 +5103,7 @@ getDenseInitializedLength
 )
 ;
 return
-SafeCast
+AssertedCast
 <
 size_t
 >
@@ -5162,7 +5162,7 @@ getDenseInitializedLength
 )
 ;
 return
-SafeCast
+AssertedCast
 <
 size_t
 >

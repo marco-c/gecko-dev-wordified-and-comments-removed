@@ -6772,7 +6772,7 @@ x
 value
 )
 >
-SafeCast
+AssertedCast
 <
 uint32_t
 >
@@ -6790,7 +6790,7 @@ y
 value
 )
 >
-SafeCast
+AssertedCast
 <
 uint32_t
 >

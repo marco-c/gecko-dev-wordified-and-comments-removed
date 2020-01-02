@@ -293,7 +293,7 @@ length
 mozilla
 :
 :
-SafeCast
+AssertedCast
 <
 int
 >
