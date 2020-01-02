@@ -19,7 +19,7 @@ TestCountPopulation32
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -30,7 +30,7 @@ CountPopulation32
 32
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -41,7 +41,7 @@ CountPopulation32
 13
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -52,7 +52,7 @@ CountPopulation32
 13
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -63,7 +63,7 @@ CountPopulation32
 15
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -74,7 +74,7 @@ CountPopulation32
 12
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -85,7 +85,7 @@ CountPopulation32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -96,7 +96,7 @@ CountPopulation32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -107,7 +107,7 @@ CountPopulation32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -118,7 +118,7 @@ CountPopulation32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -129,7 +129,7 @@ CountPopulation32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -140,7 +140,7 @@ CountPopulation32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (
@@ -151,7 +151,7 @@ CountPopulation32
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CountPopulation32
 (

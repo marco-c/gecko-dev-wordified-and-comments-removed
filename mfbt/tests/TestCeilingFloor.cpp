@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MathAlgorithms
 .
 h
@@ -21,12 +12,6 @@ mozilla
 :
 :
 CeilingLog2
-;
-using
-mozilla
-:
-:
-DebugOnly
 ;
 using
 mozilla
@@ -62,7 +47,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CeilingLog2
 (
@@ -89,7 +74,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CeilingLog2
 (
@@ -116,7 +101,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CeilingLog2
 (
@@ -143,7 +128,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CeilingLog2
 (
@@ -170,7 +155,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CeilingLog2
 (
@@ -204,7 +189,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 FloorLog2
 (
@@ -231,7 +216,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 FloorLog2
 (
@@ -258,7 +243,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 FloorLog2
 (
@@ -285,7 +270,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 FloorLog2
 (
@@ -312,7 +297,7 @@ i
 +
 +
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 FloorLog2
 (
@@ -330,7 +315,7 @@ TestRoundUpPow2
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -341,7 +326,7 @@ RoundUpPow2
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -352,7 +337,7 @@ RoundUpPow2
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -363,7 +348,7 @@ RoundUpPow2
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -374,7 +359,7 @@ RoundUpPow2
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -385,7 +370,7 @@ RoundUpPow2
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -396,7 +381,7 @@ RoundUpPow2
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -407,7 +392,7 @@ RoundUpPow2
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -418,7 +403,7 @@ RoundUpPow2
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -429,7 +414,7 @@ RoundUpPow2
 8
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -440,7 +425,7 @@ RoundUpPow2
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -451,7 +436,7 @@ RoundUpPow2
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -462,7 +447,7 @@ RoundUpPow2
 16
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -473,7 +458,7 @@ RoundUpPow2
 32
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -484,7 +469,7 @@ RoundUpPow2
 32
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -495,7 +480,7 @@ RoundUpPow2
 32
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -506,10 +491,7 @@ RoundUpPow2
 64
 )
 ;
-DebugOnly
-<
 size_t
->
 MaxPow2
 =
 size_t
@@ -529,7 +511,7 @@ CHAR_BIT
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (
@@ -542,7 +524,7 @@ MaxPow2
 MaxPow2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 RoundUpPow2
 (

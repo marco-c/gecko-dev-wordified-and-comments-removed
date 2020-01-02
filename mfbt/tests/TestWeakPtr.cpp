@@ -109,7 +109,7 @@ act
 delete
 ptr
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 weak
@@ -127,7 +127,7 @@ it
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 other
@@ -218,7 +218,7 @@ asWeakPtr
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ptr
 -
@@ -242,7 +242,7 @@ asWeakPtr
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ptr
 -
@@ -257,7 +257,7 @@ data
 delete
 a
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 ptr

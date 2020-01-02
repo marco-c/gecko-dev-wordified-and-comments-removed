@@ -92,7 +92,7 @@ FilterChecker
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 )
@@ -130,7 +130,7 @@ add
 one
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 -
@@ -150,7 +150,7 @@ one
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 filter
@@ -176,7 +176,7 @@ not
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 -
@@ -209,7 +209,7 @@ add
 two
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 -
@@ -242,7 +242,7 @@ remove
 two
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 filter
@@ -306,7 +306,7 @@ add
 two
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 -
@@ -366,7 +366,7 @@ remove
 two
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 filter
@@ -427,7 +427,7 @@ add
 two
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 -
@@ -487,7 +487,7 @@ remove
 two
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 -
@@ -527,7 +527,7 @@ positive
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 filter
 -
@@ -576,7 +576,7 @@ remove
 one
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 filter
@@ -615,7 +615,7 @@ clear
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 filter

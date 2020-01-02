@@ -141,7 +141,7 @@ testSize
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mAlcidae
 .
@@ -153,7 +153,7 @@ size
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mDiomedeidae
 .
@@ -165,7 +165,7 @@ size
 1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrelProcellariidae
 .
@@ -177,7 +177,7 @@ size
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mNonPetrelProcellariidae
 .
@@ -189,7 +189,7 @@ size
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -207,7 +207,7 @@ testContains
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -218,7 +218,7 @@ PENGUIN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -229,7 +229,7 @@ ALBATROSS
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -240,7 +240,7 @@ FULMAR
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -251,7 +251,7 @@ PRION
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -262,7 +262,7 @@ SHEARWATER
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -272,7 +272,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -282,7 +282,7 @@ TRUE_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -292,7 +292,7 @@ DIVING_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -302,7 +302,7 @@ STORM_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -313,7 +313,7 @@ PELICAN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -324,7 +324,7 @@ GANNET
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -335,7 +335,7 @@ BOOBY
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -346,7 +346,7 @@ CORMORANT
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -357,7 +357,7 @@ FRIGATEBIRD
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -368,7 +368,7 @@ TROPICBIRD
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -379,7 +379,7 @@ SKUA
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -390,7 +390,7 @@ GULL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -401,7 +401,7 @@ TERN
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -412,7 +412,7 @@ SKIMMER
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -442,7 +442,7 @@ likes
 =
 TRUE_PETREL
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -454,7 +454,7 @@ size
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -464,7 +464,7 @@ TRUE_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -476,7 +476,7 @@ size
 3
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -486,7 +486,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -496,7 +496,7 @@ DIVING_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -530,7 +530,7 @@ seen
 =
 TRUE_PETREL
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -542,7 +542,7 @@ size
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -553,7 +553,7 @@ CORMORANT
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -565,7 +565,7 @@ size
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -575,7 +575,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -585,7 +585,7 @@ TRUE_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -595,7 +595,7 @@ DIVING_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -605,7 +605,7 @@ STORM_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -633,7 +633,7 @@ CORMORANT
 +
 STORM_PETREL
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPetrels
 .
@@ -645,7 +645,7 @@ size
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mPetrels
@@ -656,7 +656,7 @@ CORMORANT
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -668,7 +668,7 @@ size
 5
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -678,7 +678,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -688,7 +688,7 @@ TRUE_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -698,7 +698,7 @@ DIVING_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -708,7 +708,7 @@ STORM_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 seen
 .
@@ -740,7 +740,7 @@ procellariidae
 =
 mNonPetrelProcellariidae
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 procellariidae
 .
@@ -773,7 +773,7 @@ procellariiformes
 =
 mPetrels
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 procellariiformes
 .
@@ -801,7 +801,7 @@ mPetrelProcellariidae
 +
 mNonPetrelProcellariidae
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 procellariidae
 .
@@ -825,7 +825,7 @@ procellariidae
 +
 mPetrels
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 procellariiformes
 .
@@ -861,7 +861,7 @@ likes
 =
 DIVING_PETREL
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -873,7 +873,7 @@ size
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -883,7 +883,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -911,7 +911,7 @@ TRUE_PETREL
 -
 DIVING_PETREL
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -923,7 +923,7 @@ size
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -933,7 +933,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -962,7 +962,7 @@ likes
 =
 mPetrelProcellariidae
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -974,7 +974,7 @@ size
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -984,7 +984,7 @@ DIVING_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1010,7 +1010,7 @@ mPetrels
 -
 mPetrelProcellariidae
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1022,7 +1022,7 @@ size
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1032,7 +1032,7 @@ DIVING_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1061,7 +1061,7 @@ likes
 =
 mPetrelProcellariidae
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1073,7 +1073,7 @@ size
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1083,7 +1083,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1109,7 +1109,7 @@ mPetrels
 &
 mPetrelProcellariidae
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1121,7 +1121,7 @@ size
 2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1131,7 +1131,7 @@ GADFLY_PETREL
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1157,7 +1157,7 @@ mPetrels
 &
 mPetrelProcellariidae
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 =
@@ -1206,7 +1206,7 @@ likes
 =
 STORM_PETREL
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 .
@@ -1218,7 +1218,7 @@ size
 4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 likes
 =

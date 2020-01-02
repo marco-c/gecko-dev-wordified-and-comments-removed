@@ -12,15 +12,6 @@ include
 "
 mozilla
 /
-DebugOnly
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Endian
 .
 h
@@ -37,12 +28,6 @@ mozilla
 :
 :
 BigEndian
-;
-using
-mozilla
-:
-:
-DebugOnly
 ;
 using
 mozilla
@@ -73,7 +58,7 @@ swappedValue
 #
 if
 MOZ_LITTLE_ENDIAN
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -87,7 +72,7 @@ value
 swappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -101,7 +86,7 @@ value
 swappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -115,7 +100,7 @@ value
 swappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -131,7 +116,7 @@ swappedValue
 ;
 #
 else
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -145,7 +130,7 @@ value
 swappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -179,7 +164,7 @@ notSwappedValue
 #
 if
 MOZ_LITTLE_ENDIAN
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -193,7 +178,7 @@ value
 notSwappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -209,7 +194,7 @@ notSwappedValue
 ;
 #
 else
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -223,7 +208,7 @@ value
 notSwappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -237,7 +222,7 @@ value
 notSwappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -251,7 +236,7 @@ value
 notSwappedValue
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NativeEndian
 :
@@ -539,7 +524,7 @@ checkBuffer
 bufferSize
 ]
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 bufferSize
 >
@@ -609,7 +594,7 @@ values
 nValues
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -622,10 +607,7 @@ startPosition
 0
 )
 ;
-DebugOnly
-<
 size_t
->
 valuesEndPosition
 =
 startPosition
@@ -637,7 +619,7 @@ T
 *
 nValues
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -664,7 +646,7 @@ expectSwap
 NoSwap
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -701,7 +683,7 @@ nValues
 i
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 readerFunc
 (
@@ -873,7 +855,7 @@ values
 nValues
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -891,17 +873,14 @@ T
 0
 )
 ;
-DebugOnly
-<
 size_t
->
 valuesEndPosition
 =
 startPosition
 +
 nValues
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -935,7 +914,7 @@ expectSwap
 NoSwap
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -971,7 +950,7 @@ nValues
 +
 i
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 readerFunc
 (
@@ -1076,7 +1055,7 @@ checkBuffer
 bufferCount
 ]
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 bufferSize
 >
@@ -1156,7 +1135,7 @@ startPosition
 nValues
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -1174,17 +1153,14 @@ T
 0
 )
 ;
-DebugOnly
-<
 size_t
->
 valuesEndPosition
 =
 startPosition
 +
 nValues
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -1216,7 +1192,7 @@ expectSwap
 NoSwap
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -1252,7 +1228,7 @@ nValues
 +
 i
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 readerFunc
 (
@@ -2118,7 +2094,7 @@ buffer
 8
 ]
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 LittleEndian
 :
@@ -2136,7 +2112,7 @@ unsigned_bytes
 0x201
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BigEndian
 :
@@ -2154,7 +2130,7 @@ unsigned_bytes
 0x102
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 LittleEndian
 :
@@ -2172,7 +2148,7 @@ unsigned_bytes
 0x4030201U
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BigEndian
 :
@@ -2190,7 +2166,7 @@ unsigned_bytes
 0x1020304U
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 LittleEndian
 :
@@ -2208,7 +2184,7 @@ unsigned_bytes
 0x807060504030201ULL
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BigEndian
 :
@@ -2239,7 +2215,7 @@ buffer
 0x201
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2276,7 +2252,7 @@ buffer
 0x102
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2313,7 +2289,7 @@ buffer
 0x4030201U
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2350,7 +2326,7 @@ buffer
 0x1020304U
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2387,7 +2363,7 @@ buffer
 0x807060504030201ULL
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2424,7 +2400,7 @@ buffer
 0x102030405060708ULL
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2448,7 +2424,7 @@ uint64_t
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 LittleEndian
 :
@@ -2469,7 +2445,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BigEndian
 :
@@ -2490,7 +2466,7 @@ int16_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 LittleEndian
 :
@@ -2511,7 +2487,7 @@ int32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BigEndian
 :
@@ -2532,7 +2508,7 @@ int32_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 LittleEndian
 :
@@ -2553,7 +2529,7 @@ int64_t
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 BigEndian
 :
@@ -2587,7 +2563,7 @@ buffer
 0xf2f1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2624,7 +2600,7 @@ buffer
 0xf1f2
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2661,7 +2637,7 @@ buffer
 0xf4f3f2f1
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2698,7 +2674,7 @@ buffer
 0xf1f2f3f4
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2735,7 +2711,7 @@ buffer
 0xf8f7f6f5f4f3f2f1LL
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
@@ -2772,7 +2748,7 @@ buffer
 0xf1f2f3f4f5f6f7f8LL
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 memcmp
 (
