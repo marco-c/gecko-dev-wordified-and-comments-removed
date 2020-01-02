@@ -7,7 +7,7 @@ PACKAGE_VERSION
 '
 0
 .
-6
+7
 '
 deps
 =
@@ -18,7 +18,7 @@ moznetwork
 =
 0
 .
-1
+24
 '
 ]
 setup

@@ -1,4 +1,6 @@
 import
+json
+import
 os
 import
 platform
@@ -6,19 +8,6 @@ import
 re
 import
 sys
-try
-:
-    
-import
-json
-except
-ImportError
-:
-    
-import
-simplejson
-as
-json
 import
 mozfile
 _os

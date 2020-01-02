@@ -386,6 +386,10 @@ if
 mozinfo
 .
 isLinux
+or
+mozinfo
+.
+isMac
 :
             
 with

@@ -7,7 +7,7 @@ PACKAGE_VERSION
 '
 0
 .
-9
+10
 '
 deps
 =
@@ -18,7 +18,7 @@ mozfile
 =
 0
 .
-3
+12
 '
         
 '

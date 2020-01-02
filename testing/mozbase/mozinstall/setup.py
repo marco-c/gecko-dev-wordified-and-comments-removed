@@ -59,7 +59,7 @@ PACKAGE_VERSION
 '
 1
 .
-7
+8
 '
 deps
 =
@@ -70,7 +70,7 @@ mozinfo
 =
 0
 .
-4
+7
 '
         
 '

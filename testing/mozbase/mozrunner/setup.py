@@ -14,7 +14,7 @@ PACKAGE_VERSION
 '
 5
 .
-22
+25
 '
 desc
 =
@@ -48,7 +48,7 @@ mozcrash
 =
 0
 .
-3
+10
 '
         
 '
@@ -66,7 +66,7 @@ mozinfo
 =
 0
 .
-4
+7
 '
         
 '
@@ -93,7 +93,7 @@ mozprofile
 =
 0
 .
-11
+16
 '
        
 ]
