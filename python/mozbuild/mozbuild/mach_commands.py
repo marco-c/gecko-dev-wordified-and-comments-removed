@@ -5610,7 +5610,7 @@ CommandArgument
 (
 '
 +
-gdbparams
+debugparams
 '
 default
 =
@@ -5635,6 +5635,8 @@ to
 pass
 to
 GDB
+or
+LLDB
 itself
 ;
 split
@@ -5696,13 +5698,17 @@ self
 params
 remote
 background
-gdbparams
+debugparams
 slowscript
 )
 :
         
 import
 which
+        
+use_lldb
+=
+False
         
 try
 :
@@ -5720,10 +5726,32 @@ gdb
         
 except
 Exception
+:
+            
+try
+:
+                
+debugger
+=
+which
+.
+which
+(
+'
+lldb
+'
+)
+                
+use_lldb
+=
+True
+            
+except
+Exception
 as
 e
 :
-            
+                
 print
 (
 "
@@ -5733,17 +5761,19 @@ don
 t
 have
 gdb
+or
+lldb
 in
 your
 PATH
 "
 )
-            
+                
 print
 (
 e
 )
-            
+                
 return
 1
         
@@ -5759,7 +5789,7 @@ extra_env
 }
         
 if
-gdbparams
+debugparams
 :
             
 import
@@ -5767,10 +5797,8 @@ pymake
 .
 process
             
-(
 argv
 badchar
-)
 =
 pymake
 .
@@ -5778,7 +5806,7 @@ process
 .
 clinetoargv
 (
-gdbparams
+debugparams
 os
 .
 getcwd
@@ -5795,7 +5823,7 @@ print
 "
 The
 +
-gdbparams
+debugparams
 you
 passed
 require
@@ -5841,19 +5869,15 @@ extend
 argv
 )
         
+binpath
+=
+None
+        
 try
 :
             
-args
-.
-extend
-(
-[
-'
--
--
-args
-'
+binpath
+=
 self
 .
 get_binary_path
@@ -5861,8 +5885,6 @@ get_binary_path
 '
 app
 '
-)
-]
 )
         
 except
@@ -5908,6 +5930,41 @@ e
             
 return
 1
+        
+if
+not
+use_lldb
+:
+            
+args
+.
+extend
+(
+[
+'
+-
+-
+args
+'
+binpath
+]
+)
+        
+else
+:
+            
+args
+.
+extend
+(
+[
+'
+-
+-
+'
+binpath
+]
+)
         
 if
 not
