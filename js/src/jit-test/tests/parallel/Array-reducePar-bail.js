@@ -55,6 +55,8 @@ array
 =
 build
 (
+8
+*
 4096
 function
 (
