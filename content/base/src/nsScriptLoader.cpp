@@ -4570,6 +4570,16 @@ mURL
 aOptions
 -
 >
+setIntroductionType
+(
+"
+scriptElement
+"
+)
+;
+aOptions
+-
+>
 setFileAndLine
 (
 aRequest

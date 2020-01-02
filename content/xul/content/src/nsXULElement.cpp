@@ -11861,6 +11861,13 @@ cx
 ;
 options
 .
+setIntroductionType
+(
+"
+scriptElement
+"
+)
+.
 setFileAndLine
 (
 urlspec
