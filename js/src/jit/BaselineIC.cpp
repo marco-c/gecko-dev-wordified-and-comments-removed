@@ -11764,6 +11764,13 @@ true
 ;
 }
 }
+stub
+-
+>
+noteUnoptimizableAccess
+(
+)
+;
 return
 true
 ;
