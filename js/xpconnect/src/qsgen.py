@@ -4959,8 +4959,8 @@ if
 (
 xpc_FastGetCachedWrapper
 (
+cx
 cache
-obj
 %
 s
 )
