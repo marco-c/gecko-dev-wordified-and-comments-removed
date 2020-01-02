@@ -806,6 +806,12 @@ return
 result
 ;
 }
+~
+GPUAdapterReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
