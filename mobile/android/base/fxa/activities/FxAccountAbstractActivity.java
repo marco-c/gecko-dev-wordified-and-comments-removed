@@ -615,6 +615,7 @@ ActivityUtils
 linkifyTextView
 (
 textView
+false
 )
 ;
 }

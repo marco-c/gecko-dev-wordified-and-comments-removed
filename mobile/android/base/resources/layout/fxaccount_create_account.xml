@@ -512,6 +512,15 @@ FxAccountLinkifiedItem
 "
 android
 :
+textColorLink
+=
+"
+color
+/
+fxaccount_linkified_textColorLinkSubdued
+"
+android
+:
 text
 =
 "
