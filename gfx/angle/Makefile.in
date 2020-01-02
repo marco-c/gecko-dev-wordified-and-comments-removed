@@ -53,16 +53,6 @@ MPL
 0
 /
 .
-ifeq
-(
-WINNT
-(
-OS_TARGET
-)
-)
-VISIBILITY_FLAGS
-=
-endif
 #
 The
 below

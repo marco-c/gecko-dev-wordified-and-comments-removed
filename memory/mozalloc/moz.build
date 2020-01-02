@@ -98,6 +98,9 @@ MODULE
 '
 mozalloc
 '
+NO_VISIBILITY_FLAGS
+=
+True
 EXPORTS
 .
 mozilla

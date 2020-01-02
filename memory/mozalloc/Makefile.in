@@ -54,8 +54,6 @@ MPL
 0
 /
 .
-VISIBILITY_FLAGS
-=
 STL_FLAGS
 =
 ifdef

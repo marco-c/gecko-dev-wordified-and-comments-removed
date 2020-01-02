@@ -55,16 +55,6 @@ MPL
 .
 ifeq
 (
-WINNT
-(
-OS_TARGET
-)
-)
-VISIBILITY_FLAGS
-=
-endif
-ifeq
-(
 (
 OS_ARCH
 )

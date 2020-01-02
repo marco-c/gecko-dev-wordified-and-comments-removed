@@ -122,8 +122,6 @@ WINNT
 OS_TARGET
 )
 )
-VISIBILITY_FLAGS
-=
 endif
 ifeq
 (

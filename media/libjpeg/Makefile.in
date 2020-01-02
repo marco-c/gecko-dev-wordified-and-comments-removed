@@ -54,16 +54,6 @@ MPL
 0
 /
 .
-ifeq
-(
-(
-OS_ARCH
-)
-WINNT
-)
-VISIBILITY_FLAGS
-=
-endif
 AS
 =
 (
