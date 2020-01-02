@@ -1625,6 +1625,12 @@ bool
 aRequireTrust
 )
 ;
+bool
+FullScreen
+(
+)
+const
+;
 virtual
 void
 SetHasGamepadEventListener
