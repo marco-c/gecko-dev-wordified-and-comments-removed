@@ -4597,13 +4597,6 @@ nsIMEUpdatePreference
 :
 NOTIFY_NOTHING
 ;
-aPreference
--
->
-mWantHints
-=
-false
-;
 return
 true
 ;

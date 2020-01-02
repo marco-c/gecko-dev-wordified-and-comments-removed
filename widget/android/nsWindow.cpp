@@ -10849,7 +10849,6 @@ return
 nsIMEUpdatePreference
 (
 notifications
-true
 )
 ;
 }

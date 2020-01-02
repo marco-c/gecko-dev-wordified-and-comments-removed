@@ -1203,15 +1203,6 @@ its
 text
 cache
 *
-Only
-called
-when
-NotifyIMEFocus
-returns
-PR_TRUE
-for
-mWantHints
-*
 *
 text
 The

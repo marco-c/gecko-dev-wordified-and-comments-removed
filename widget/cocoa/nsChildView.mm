@@ -11084,7 +11084,6 @@ nsIMEUpdatePreference
 :
 :
 NOTIFY_SELECTION_CHANGE
-false
 )
 ;
 }

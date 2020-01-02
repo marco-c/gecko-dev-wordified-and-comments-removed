@@ -18736,7 +18736,6 @@ return
 nsIMEUpdatePreference
 (
 notifications
-false
 )
 ;
 }
