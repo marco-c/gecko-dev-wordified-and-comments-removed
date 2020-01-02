@@ -356,7 +356,7 @@ function
 )
 {
 }
-notifyCardStateChange
+notifyCardStateChanged
 :
 function
 (
