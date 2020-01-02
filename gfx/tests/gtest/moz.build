@@ -107,6 +107,15 @@ gfxSurfaceRefCountTest
 .
 cpp
 '
+#
+Disabled
+on
+suspicion
+of
+causing
+bug
+904227
+#
 '
 gfxWordCacheTest
 .
