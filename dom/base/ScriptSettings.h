@@ -324,6 +324,13 @@ nsIScriptContext
 aScx
 )
 ;
+AutoJSAPIWithErrorsReportedToWindow
+(
+nsIGlobalObject
+*
+aGlobalObject
+)
+;
 }
 ;
 class
