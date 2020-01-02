@@ -2102,6 +2102,15 @@ areatype
 toolbar
 "
 ]
+:
+not
+(
+[
+overflowedItem
+=
+true
+]
+)
 >
 #
 bookmarks

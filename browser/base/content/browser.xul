@@ -8880,6 +8880,13 @@ toolbar
 -
 placeholder
 "
+class
+=
+"
+toolbarbutton
+-
+1
+"
 mousethrough
 =
 "
