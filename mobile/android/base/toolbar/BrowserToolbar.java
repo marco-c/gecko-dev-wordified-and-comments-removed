@@ -2133,7 +2133,7 @@ isEditing
 )
 )
 {
-stopEditing
+cancelEdit
 (
 )
 ;
