@@ -969,8 +969,6 @@ discardJitCode
 FreeOp
 *
 fop
-bool
-discardConstraints
 )
 {
 #
@@ -1187,10 +1185,9 @@ comp
 >
 types
 .
-sweepCompilerOutputs
+clearCompilerOutputs
 (
 fop
-discardConstraints
 )
 ;
 }

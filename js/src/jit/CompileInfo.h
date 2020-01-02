@@ -88,14 +88,6 @@ nargs
 )
 ;
 }
-enum
-ExecutionMode
-{
-SequentialExecution
-ParallelExecution
-DefinitePropertiesAnalysis
-}
-;
 static
 const
 unsigned

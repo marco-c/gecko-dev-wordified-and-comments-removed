@@ -202,6 +202,15 @@ generateAsmJS
 bool
 link
 (
+JSContext
+*
+cx
+types
+:
+:
+CompilerConstraintList
+*
+constraints
 )
 ;
 bool

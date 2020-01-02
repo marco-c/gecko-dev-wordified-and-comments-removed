@@ -680,8 +680,6 @@ js
 FreeOp
 *
 fop
-bool
-discardConstraints
 )
 ;
 void

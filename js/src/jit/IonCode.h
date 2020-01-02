@@ -1043,6 +1043,11 @@ New
 JSContext
 *
 cx
+types
+:
+:
+RecompileInfo
+recompileInfo
 uint32_t
 frameLocals
 uint32_t
