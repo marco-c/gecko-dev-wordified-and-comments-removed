@@ -581,6 +581,13 @@ id3
 id2
 )
 ;
+let
+waitForVisited
+=
+promiseOnItemVisited
+(
+)
+;
 yield
 promiseAddVisits
 (
@@ -595,9 +602,7 @@ TRANSITION_TYPED
 )
 ;
 yield
-promiseOnItemVisited
-(
-)
+waitForVisited
 ;
 do_print
 (
