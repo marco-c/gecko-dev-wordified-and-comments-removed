@@ -712,14 +712,14 @@ nsAString
 aStringToInsert
 nsCOMPtr
 <
-nsINode
+nsIDOMNode
 >
 *
 aInOutNode
 int32_t
 *
 aInOutOffset
-nsIDocument
+nsIDOMDocument
 *
 aDoc
 )
