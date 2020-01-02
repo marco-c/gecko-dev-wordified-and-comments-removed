@@ -166,6 +166,15 @@ object
 "
 )
 ;
+if
+(
+SpecialPowers
+.
+isMainProcess
+(
+)
+)
+{
 is
 (
 applicationCache
@@ -182,6 +191,7 @@ be
 "
 )
 ;
+}
 is
 (
 applicationCache

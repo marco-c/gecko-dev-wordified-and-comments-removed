@@ -212,6 +212,15 @@ cancelation
 .
 *
 /
+if
+(
+SpecialPowers
+.
+isMainProcess
+(
+)
+)
+{
 ok
 (
 applicationCache
@@ -240,6 +249,7 @@ cache
 "
 )
 ;
+}
 function
 updateCanceled
 (

@@ -186,6 +186,15 @@ code
 .
 *
 /
+if
+(
+SpecialPowers
+.
+isMainProcess
+(
+)
+)
+{
 ok
 (
 applicationCache
@@ -214,6 +223,7 @@ cache
 "
 )
 ;
+}
 function
 manifestUpdated
 (
