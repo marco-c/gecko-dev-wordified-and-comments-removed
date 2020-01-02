@@ -385,6 +385,14 @@ svg
 #
 bug
 773482
+fuzzy
+-
+if
+(
+winWidget
+12
+7
+)
 =
 =
 zoomed
