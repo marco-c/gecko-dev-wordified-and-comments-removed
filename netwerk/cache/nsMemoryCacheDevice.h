@@ -26,6 +26,9 @@ nsCacheEntry
 h
 "
 class
+nsIMemoryReporter
+;
+class
 nsMemoryCacheDeviceInfo
 ;
 class
@@ -339,6 +342,12 @@ mMaxEntryCount
 ;
 int32_t
 mMaxEntrySize
+;
+nsCOMPtr
+<
+nsIMemoryReporter
+>
+mReporter
 ;
 }
 ;

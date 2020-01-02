@@ -15494,15 +15494,13 @@ failed
 "
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 JSMainRuntimeCompartmentsReporter
-(
-)
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 JSMainRuntimeTemporaryPeakReporter

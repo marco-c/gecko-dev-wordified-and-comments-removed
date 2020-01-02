@@ -955,7 +955,7 @@ thread
 "
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 GrallocReporter

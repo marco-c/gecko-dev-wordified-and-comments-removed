@@ -387,11 +387,6 @@ nsEffectiveTLDService
 MOZ_FINAL
 :
 public
-mozilla
-:
-:
-MemoryUniReporter
-public
 nsIEffectiveTLDService
 {
 public
@@ -406,12 +401,6 @@ nsresult
 Init
 (
 )
-;
-int64_t
-Amount
-(
-)
-MOZ_OVERRIDE
 ;
 size_t
 SizeOfIncludingThis
@@ -450,6 +439,12 @@ aHostname
 nsEffectiveTLDService
 (
 )
+;
+nsCOMPtr
+<
+nsIMemoryReporter
+>
+mReporter
 ;
 nsTHashtable
 <

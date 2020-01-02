@@ -2965,7 +2965,7 @@ if
 registered
 )
 {
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 SurfaceMemoryReporter

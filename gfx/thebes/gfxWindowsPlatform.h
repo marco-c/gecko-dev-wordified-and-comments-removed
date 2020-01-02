@@ -1153,6 +1153,10 @@ gfxFontEntry
 >
 mPrefFonts
 ;
+nsIMemoryReporter
+*
+mGPUAdapterReporter
+;
 }
 ;
 #

@@ -202,7 +202,7 @@ initialized
 =
 true
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 mozilla

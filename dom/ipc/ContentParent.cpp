@@ -1746,7 +1746,7 @@ GeckoProcessType_Default
 return
 ;
 }
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 ContentParentsMemoryReporter

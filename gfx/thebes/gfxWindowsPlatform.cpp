@@ -1604,7 +1604,7 @@ nullptr
 #
 ifdef
 CAIRO_HAS_D2D_SURFACE
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 GfxD2DSurfaceCacheReporter
@@ -1612,7 +1612,7 @@ GfxD2DSurfaceCacheReporter
 )
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 GfxD2DSurfaceVramReporter
@@ -1626,7 +1626,7 @@ nullptr
 ;
 #
 endif
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 GfxD2DVramDrawTargetReporter
@@ -1634,7 +1634,7 @@ GfxD2DVramDrawTargetReporter
 )
 )
 ;
-RegisterStrongMemoryReporter
+NS_RegisterMemoryReporter
 (
 new
 GfxD2DVramSourceSurfaceReporter
@@ -1645,6 +1645,10 @@ GfxD2DVramSourceSurfaceReporter
 UpdateRenderMode
 (
 )
+;
+mGPUAdapterReporter
+=
+nullptr
 ;
 }
 gfxWindowsPlatform

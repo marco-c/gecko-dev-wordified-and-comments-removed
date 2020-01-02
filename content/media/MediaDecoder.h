@@ -95,6 +95,9 @@ class
 nsIStreamListener
 ;
 class
+nsIMemoryReporter
+;
+class
 nsIPrincipal
 ;
 class
