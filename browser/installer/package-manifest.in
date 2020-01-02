@@ -1050,13 +1050,6 @@ BINPATH
 /
 components
 /
-dom_indexeddb
-.
-xpt
-BINPATH
-/
-components
-/
 dom_offline
 .
 xpt
