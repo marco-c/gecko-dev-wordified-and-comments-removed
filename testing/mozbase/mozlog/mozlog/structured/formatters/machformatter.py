@@ -1982,8 +1982,7 @@ component
 )
 :
             
-rv
-=
+return
 "
 "
 .
@@ -2006,11 +2005,7 @@ message
 ]
 )
         
-else
-:
-            
-rv
-=
+return
 "
 %
 s
@@ -2020,36 +2015,13 @@ s
 %
 (
 level
-message
-)
-        
-if
-"
-stack
-"
-in
-data
-:
-            
-rv
-+
-=
-"
-\
-n
-%
-s
-"
-%
 data
 [
 "
-stack
+message
 "
 ]
-        
-return
-rv
+)
     
 def
 _get_subtest_data
