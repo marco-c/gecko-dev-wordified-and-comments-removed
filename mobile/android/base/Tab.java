@@ -2947,7 +2947,7 @@ void
 handleDocumentStart
 (
 boolean
-showProgress
+restoring
 String
 url
 )
@@ -2959,7 +2959,16 @@ LOAD_PROGRESS_START
 ;
 setState
 (
-showProgress
+(
+!
+restoring
+&
+&
+shouldShowProgress
+(
+url
+)
+)
 ?
 STATE_LOADING
 :

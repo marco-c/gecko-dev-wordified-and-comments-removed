@@ -2366,14 +2366,14 @@ WPL_STATE_START
 )
 {
 boolean
-showProgress
+restoring
 =
 message
 .
 getBoolean
 (
 "
-showProgress
+restoring
 "
 )
 ;
@@ -2381,7 +2381,7 @@ tab
 .
 handleDocumentStart
 (
-showProgress
+restoring
 message
 .
 getString
