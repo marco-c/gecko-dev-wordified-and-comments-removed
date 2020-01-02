@@ -118,3 +118,12 @@ mozilla
 assertions
 .
 patch
+patch
+-
+p3
+<
+use
+-
+static_assert
+.
+patch
