@@ -433,9 +433,7 @@ nullptr
 #
 ifdef
 XP_WIN
-const
-char16_t
-*
+char16ptr_t
 pathChars
 =
 JS_GetFlatStringChars
