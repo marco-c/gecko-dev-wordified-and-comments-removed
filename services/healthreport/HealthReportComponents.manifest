@@ -45,6 +45,9 @@ modules
 HealthReport
 .
 jsm
+#
+ifdef
+MOZ_CRASHREPORTER
 category
 healthreport
 -
@@ -65,6 +68,8 @@ modules
 HealthReport
 .
 jsm
+#
+endif
 category
 healthreport
 -
