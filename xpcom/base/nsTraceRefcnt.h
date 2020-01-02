@@ -89,15 +89,6 @@ aStream
 ;
 static
 void
-WalkTheStackCached
-(
-FILE
-*
-aStream
-)
-;
-static
-void
 SetActivityIsLegal
 (
 bool
