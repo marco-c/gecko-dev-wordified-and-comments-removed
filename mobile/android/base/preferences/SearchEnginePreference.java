@@ -530,7 +530,7 @@ if
 (
 Favicons
 .
-sLargestFaviconSize
+largestFaviconSize
 =
 =
 0
@@ -547,7 +547,7 @@ desiredWidth
 =
 Favicons
 .
-sLargestFaviconSize
+largestFaviconSize
 ;
 }
 }

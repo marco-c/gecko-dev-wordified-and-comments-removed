@@ -384,17 +384,6 @@ mozilla
 .
 gecko
 .
-prompts
-.
-PromptListItem
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 sync
 .
 setup
@@ -7881,7 +7870,7 @@ null
 ?
 Favicons
 .
-sDefaultFavicon
+defaultFavicon
 :
 favicon
 )
