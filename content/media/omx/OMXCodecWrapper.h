@@ -327,7 +327,6 @@ aSampleRate
 nsresult
 Encode
 (
-const
 mozilla
 :
 :
