@@ -2689,9 +2689,12 @@ nsIRequest
 aRequest
 nsIInterfaceRequestor
 *
-aWindowContext
+aContentContext
 bool
 aForceSave
+nsIInterfaceRequestor
+*
+aWindowContext
 nsIStreamListener
 *
 *
@@ -2706,7 +2709,7 @@ window
 =
 do_GetInterface
 (
-aWindowContext
+aContentContext
 )
 ;
 NS_ENSURE_STATE
@@ -2953,6 +2956,7 @@ nullptr
 EmptyCString
 (
 )
+aContentContext
 aWindowContext
 this
 fileName
@@ -2997,9 +3001,12 @@ nsIRequest
 aRequest
 nsIInterfaceRequestor
 *
-aWindowContext
+aContentContext
 bool
 aForceSave
+nsIInterfaceRequestor
+*
+aWindowContext
 nsIStreamListener
 *
 *
@@ -3021,8 +3028,9 @@ DoContentContentProcessHelper
 (
 aMimeContentType
 aRequest
-aWindowContext
+aContentContext
 aForceSave
+aWindowContext
 aStreamListener
 )
 ;
@@ -3639,6 +3647,7 @@ nsExternalAppHandler
 (
 mimeInfo
 buf
+aContentContext
 aWindowContext
 this
 fileName
@@ -5178,6 +5187,9 @@ nsCSubstring
 aTempFileExtension
 nsIInterfaceRequestor
 *
+aContentContext
+nsIInterfaceRequestor
+*
 aWindowContext
 nsExternalHelperAppService
 *
@@ -5195,6 +5207,10 @@ aForceSave
 mMimeInfo
 (
 aMIMEInfo
+)
+mContentContext
+(
+aContentContext
 )
 mWindowContext
 (
@@ -5649,7 +5665,7 @@ origContextLoader
 =
 do_GetInterface
 (
-mWindowContext
+mContentContext
 )
 ;
 if
@@ -7084,7 +7100,9 @@ mDialog
 Show
 (
 this
-mWindowContext
+GetDialogParent
+(
+)
 mReason
 )
 ;
@@ -7755,7 +7773,9 @@ prompter
 (
 do_GetInterface
 (
-mWindowContext
+GetDialogParent
+(
+)
 &
 qiRv
 )
@@ -7792,7 +7812,7 @@ mLog
 PR_LOG_DEBUG
 (
 "
-mWindowContext
+mContentContext
 =
 0x
 %
@@ -7821,7 +7841,7 @@ msg
 s
 '
 "
-mWindowContext
+mContentContext
 .
 get
 (
@@ -7865,7 +7885,9 @@ window
 (
 do_GetInterface
 (
-mWindowContext
+GetDialogParent
+(
+)
 )
 )
 ;
@@ -7913,7 +7935,7 @@ PR_LOG_DEBUG
 No
 prompter
 from
-mWindowContext
+mContentContext
 using
 DocShell
 "
@@ -9315,7 +9337,9 @@ mDialog
 PromptForSaveToFile
 (
 this
-mWindowContext
+GetDialogParent
+(
+)
 aDefaultFile
 .
 get
@@ -9347,7 +9371,9 @@ mDialog
 PromptForSaveToFileAsync
 (
 this
-mWindowContext
+GetDialogParent
+(
+)
 aDefaultFile
 .
 get
@@ -10105,7 +10131,7 @@ ProcessAnyRefreshTags
 {
 if
 (
-mWindowContext
+mContentContext
 &
 &
 mOriginalChannel
@@ -10119,7 +10145,7 @@ refreshHandler
 (
 do_GetInterface
 (
-mWindowContext
+mContentContext
 )
 )
 ;
@@ -10238,7 +10264,7 @@ window
 =
 do_GetInterface
 (
-mWindowContext
+mContentContext
 )
 ;
 NS_ENSURE_STATE
@@ -10293,7 +10319,7 @@ isClosed
 isClosed
 )
 {
-mWindowContext
+mContentContext
 =
 do_GetInterface
 (

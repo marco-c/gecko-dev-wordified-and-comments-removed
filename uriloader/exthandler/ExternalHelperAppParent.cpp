@@ -393,6 +393,7 @@ aMimeContentType
 this
 window
 aForceSave
+nullptr
 getter_AddRefs
 (
 mListener

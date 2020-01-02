@@ -2274,6 +2274,7 @@ mContentType
 request
 m_originalContext
 false
+nullptr
 getter_AddRefs
 (
 m_targetStreamListener
