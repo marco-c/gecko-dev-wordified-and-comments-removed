@@ -52,6 +52,15 @@ nsSprocketLayout
 )
 {
 }
+nsGridRowLayout
+:
+:
+~
+nsGridRowLayout
+(
+)
+{
+}
 void
 nsGridRowLayout
 :

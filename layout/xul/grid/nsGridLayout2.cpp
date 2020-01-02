@@ -93,6 +93,15 @@ nsStackLayout
 )
 {
 }
+nsGridLayout2
+:
+:
+~
+nsGridLayout2
+(
+)
+{
+}
 void
 nsGridLayout2
 :

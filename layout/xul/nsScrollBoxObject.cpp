@@ -82,12 +82,6 @@ nsScrollBoxObject
 )
 ;
 virtual
-~
-nsScrollBoxObject
-(
-)
-;
-virtual
 nsIScrollableFrame
 *
 GetScrollFrame
@@ -104,6 +98,14 @@ false
 )
 ;
 }
+protected
+:
+virtual
+~
+nsScrollBoxObject
+(
+)
+;
 }
 ;
 NS_INTERFACE_MAP_BEGIN

@@ -227,6 +227,12 @@ nsGridRowLayout
 (
 )
 ;
+virtual
+~
+nsGridRowLayout
+(
+)
+;
 }
 ;
 #

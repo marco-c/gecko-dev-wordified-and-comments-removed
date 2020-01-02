@@ -105,11 +105,6 @@ IncrementDestroyRefCount
 )
 ;
 }
-~
-nsPagePrintTimer
-(
-)
-;
 NS_DECL_NSITIMERCALLBACK
 nsresult
 Start
@@ -132,6 +127,11 @@ Stop
 ;
 private
 :
+~
+nsPagePrintTimer
+(
+)
+;
 nsresult
 StartTimer
 (

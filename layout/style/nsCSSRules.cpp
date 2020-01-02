@@ -11313,6 +11313,15 @@ aCondition
 CSSSupportsRule
 :
 :
+~
+CSSSupportsRule
+(
+)
+{
+}
+CSSSupportsRule
+:
+:
 CSSSupportsRule
 (
 const
