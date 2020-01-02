@@ -2189,11 +2189,7 @@ finished
 default
 "
 :
-tempfile
-.
-mkdtemp
-(
-)
+None
         
 }
 ]
@@ -3756,6 +3752,35 @@ self
 mochitest_options
 :
             
+if
+"
+default
+"
+in
+value
+and
+isinstance
+(
+value
+[
+"
+default
+"
+]
+list
+)
+:
+                
+value
+[
+"
+default
+"
+]
+=
+[
+]
+            
 self
 .
 add_option
@@ -4009,6 +4034,24 @@ must
 be
 specified
 "
+)
+        
+if
+options
+.
+profilePath
+is
+None
+:
+            
+options
+.
+profilePath
+=
+tempfile
+.
+mkdtemp
+(
 )
         
 options
@@ -6075,7 +6118,9 @@ None
 "
 -
 -
-logdir
+logcat
+-
+dir
 "
 ]
         
@@ -6101,7 +6146,7 @@ dest
 "
 :
 "
-logdir
+logcat_dir
 "
           
 "
@@ -6112,7 +6157,8 @@ help
 directory
 to
 store
-log
+logcat
+dump
 files
 "
           
@@ -6341,6 +6387,22 @@ https
 defaults
 [
 "
+remoteTestRoot
+"
+]
+=
+"
+/
+data
+/
+local
+/
+tests
+"
+        
+defaults
+[
+"
 logFile
 "
 ]
@@ -6508,7 +6570,7 @@ path
 if
 options
 .
-logdir
+logcat_dir
 and
 not
 options
@@ -6532,7 +6594,9 @@ you
 specify
 -
 -
-logdir
+logcat
+-
+dir
 "
 )
         
