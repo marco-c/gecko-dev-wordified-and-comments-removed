@@ -2305,6 +2305,13 @@ scope
 return
 true
 ;
+scope
+-
+>
+ForcePrivilegedComponents
+(
+)
+;
 return
 scope
 -

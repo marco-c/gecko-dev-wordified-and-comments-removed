@@ -4109,6 +4109,11 @@ return
 mComponents
 ;
 }
+void
+ForcePrivilegedComponents
+(
+)
+;
 bool
 AttachComponentsObject
 (
