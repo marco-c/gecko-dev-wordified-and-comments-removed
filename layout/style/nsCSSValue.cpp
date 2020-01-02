@@ -9510,7 +9510,7 @@ for
 )
 {
 bool
-addSpaceSpearator
+addSpaceSeparator
 =
 true
 ;
@@ -9534,7 +9534,7 @@ unit
 eCSSUnit_Null
 )
 {
-addSpaceSpearator
+addSpaceSeparator
 =
 false
 ;
@@ -9621,7 +9621,7 @@ break
 }
 if
 (
-addSpaceSpearator
+addSpaceSeparator
 )
 {
 aResult
