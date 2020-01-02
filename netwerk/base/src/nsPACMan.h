@@ -111,6 +111,9 @@ class
 nsIThread
 ;
 class
+WaitForThreadShutdown
+;
+class
 NS_NO_VTABLE
 nsPACManCallback
 :
@@ -400,6 +403,10 @@ PACLoadComplete
 friend
 class
 ExecutePACThreadAction
+;
+friend
+class
+WaitForThreadShutdown
 ;
 ~
 nsPACMan
