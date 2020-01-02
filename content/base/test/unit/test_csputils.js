@@ -4110,7 +4110,6 @@ appendPolicy
 testPolicy
 aChildUri
 false
-false
 )
 ;
 let
@@ -6323,7 +6322,6 @@ appendPolicy
 policy
 selfURI
 false
-true
 )
 ;
 do_check_true

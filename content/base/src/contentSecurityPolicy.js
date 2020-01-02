@@ -2032,7 +2032,6 @@ csp_appendPolicy
 aPolicy
 selfURI
 aReportOnly
-aSpecCompliant
 )
 {
 return
