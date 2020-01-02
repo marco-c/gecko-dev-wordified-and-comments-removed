@@ -1157,6 +1157,11 @@ JSFunctionSpec
 *
 prototypeFunctions
 ;
+const
+JSPropertySpec
+*
+prototypeProperties
+;
 FinishClassInitOp
 finishInit
 ;
@@ -1198,6 +1203,7 @@ weakmapKeyDelegateOp
 define
 JS_NULL_CLASS_SPEC
 {
+nullptr
 nullptr
 nullptr
 nullptr
@@ -1332,7 +1338,7 @@ void
 *
 reserved
 [
-31
+32
 ]
 ;
 }
