@@ -3353,6 +3353,17 @@ as_vmrs
 pc
 )
 ;
+ma_mov
+(
+Imm32
+(
+0
+)
+output
+NoSetCond
+Overflow
+)
+;
 ma_b
 (
 &
