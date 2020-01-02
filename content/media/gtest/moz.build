@@ -135,6 +135,11 @@ TestVorbisTrackEncoder
 .
 cpp
 '
+'
+TestWebMWriter
+.
+cpp
+'
 ]
 EXPORT_LIBRARY
 =
