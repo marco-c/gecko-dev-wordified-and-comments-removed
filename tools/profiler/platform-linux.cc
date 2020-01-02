@@ -240,6 +240,15 @@ h
 #
 include
 "
+mozilla
+/
+LinuxSignal
+.
+h
+"
+#
+include
+"
 ProfileEntry
 .
 h
@@ -967,7 +976,8 @@ V8_HOST_ARCH_X64
 1
 #
 endif
-static
+namespace
+{
 void
 ProfilerSignalHandler
 (
@@ -1116,6 +1126,7 @@ sem_post
 sSignalHandlingDone
 )
 ;
+}
 }
 static
 void
@@ -1780,7 +1791,10 @@ sa
 .
 sa_sigaction
 =
+MOZ_SIGNAL_TRAMPOLINE
+(
 ProfilerSignalHandler
+)
 ;
 sigemptyset
 (
