@@ -1239,12 +1239,6 @@ IS_COMPONENT
 =
 True
             
-LIBRARY_NAME
-=
-'
-lib_name
-'
-            
 LIBS
 =
 [

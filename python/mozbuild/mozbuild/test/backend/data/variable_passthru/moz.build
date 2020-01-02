@@ -230,11 +230,6 @@ HOST_LIBRARY_NAME
 '
 host_bar
 '
-LIBRARY_NAME
-=
-'
-lib_name
-'
 LIBS
 =
 [
