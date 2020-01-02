@@ -57,9 +57,6 @@ WAIT_FOR_BOOKMARKED_TIMEOUT
 =
 10000
 ;
-Navigation
-nav
-;
 Override
 protected
 int
@@ -84,14 +81,6 @@ getAbsoluteUrl
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
-)
-;
-nav
-=
-new
-Navigation
-(
-mDevice
 )
 ;
 runAboutHomeTest
@@ -422,9 +411,7 @@ StringHelper
 ROBOCOP_BLANK_PAGE_01_TITLE
 )
 ;
-nav
-.
-bookmark
+toggleBookmark
 (
 )
 ;
@@ -474,9 +461,7 @@ StringHelper
 ROBOCOP_BLANK_PAGE_01_TITLE
 )
 ;
-nav
-.
-bookmark
+toggleBookmark
 (
 )
 ;
