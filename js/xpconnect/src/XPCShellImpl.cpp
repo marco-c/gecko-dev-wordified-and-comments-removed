@@ -6102,10 +6102,6 @@ case
 d
 '
 :
-xpc_ActivateDebugMode
-(
-)
-;
 break
 ;
 case

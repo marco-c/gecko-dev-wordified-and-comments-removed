@@ -970,9 +970,6 @@ var
 in
 (
 '
-MOZ_JSDEBUGGER
-'
-'
 MOZ_B2G_RIL
 '
 '
