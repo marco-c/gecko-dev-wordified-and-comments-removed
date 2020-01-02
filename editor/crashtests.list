@@ -56,6 +56,8 @@ MPL
 include
 libeditor
 /
+html
+/
 crashtests
 /
 crashtests
@@ -64,7 +66,7 @@ list
 include
 libeditor
 /
-html
+base
 /
 crashtests
 /
@@ -83,6 +85,8 @@ crashtests
 list
 include
 composer
+/
+src
 /
 crashtests
 /

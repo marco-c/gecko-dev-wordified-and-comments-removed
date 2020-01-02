@@ -284,6 +284,8 @@ src
 editor
 /
 libeditor
+/
+base
 '
 '
 .
@@ -308,6 +310,8 @@ text
 editor
 /
 txmgr
+/
+src
 '
 '
 .

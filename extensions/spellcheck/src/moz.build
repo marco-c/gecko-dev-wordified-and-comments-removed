@@ -173,5 +173,7 @@ src
 editor
 /
 libeditor
+/
+base
 '
 ]
