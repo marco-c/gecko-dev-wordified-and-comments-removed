@@ -1984,6 +1984,15 @@ obj
 ThrowError
 (
 JSMSG_INCOMPATIBLE_PROTO
+"
+Handle
+"
+"
+set
+"
+"
+value
+"
 )
 ;
 var
