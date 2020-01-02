@@ -26057,6 +26057,11 @@ fails
 if
 (
 Android
+&
+&
+AndroidVersion
+<
+17
 )
 =
 =
