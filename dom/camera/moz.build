@@ -270,14 +270,3 @@ LIBRARY_NAME
 '
 domcamera_s
 '
-LOCAL_INCLUDES
-+
-=
-[
-'
-.
-.
-/
-base
-'
-]
