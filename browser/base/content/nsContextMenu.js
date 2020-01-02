@@ -2639,6 +2639,12 @@ InlineSpellCheckerUI
 canSpellCheck
 &
 &
+!
+InlineSpellCheckerUI
+.
+initialSpellCheckPending
+&
+&
 this
 .
 canSpellCheck
