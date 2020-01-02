@@ -740,6 +740,10 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 nullptr
+nullptr
+nullptr
+nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 ParseTask
@@ -1439,6 +1443,13 @@ compartmentOptions
 setMergeable
 (
 true
+)
+;
+compartmentOptions
+.
+setTrace
+(
+nullptr
 )
 ;
 JSObject

@@ -14547,6 +14547,11 @@ JSResolveOp
 )
 sandbox_resolve
 JS_ConvertStub
+nullptr
+nullptr
+nullptr
+nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 static
@@ -28371,6 +28376,10 @@ JSResolveOp
 global_resolve
 JS_ConvertStub
 nullptr
+nullptr
+nullptr
+nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 static

@@ -463,7 +463,7 @@ nsXBLDocGlobalObject_finalize
 nullptr
 nullptr
 nullptr
-nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 nsXBLDocGlobalObject

@@ -3191,7 +3191,7 @@ sandbox_finalize
 nullptr
 nullptr
 nullptr
-TraceXPCGlobal
+JS_GlobalObjectTraceHook
 }
 ;
 static
@@ -5243,6 +5243,11 @@ setInvisibleToDebugger
 options
 .
 invisibleToDebugger
+)
+.
+setTrace
+(
+TraceXPCGlobal
 )
 ;
 RootedObject

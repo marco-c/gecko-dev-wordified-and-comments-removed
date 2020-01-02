@@ -459,7 +459,7 @@ nsXULPDGlobalObject_finalize
 nullptr
 nullptr
 nullptr
-nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 nsXULPrototypeDocument

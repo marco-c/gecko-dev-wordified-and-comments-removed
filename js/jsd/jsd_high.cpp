@@ -154,6 +154,10 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 global_finalize
+nullptr
+nullptr
+nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 static

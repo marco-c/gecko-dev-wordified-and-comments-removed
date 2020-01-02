@@ -675,6 +675,16 @@ flags
 JSCLASS_IS_GLOBAL
 )
 ;
+aOptions
+.
+setTrace
+(
+XPCWrappedNative
+:
+:
+Trace
+)
+;
 RootedObject
 global
 (

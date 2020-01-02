@@ -99,6 +99,11 @@ JS_StrictPropertyStub
 GlobalEnumerate
 GlobalResolve
 JS_ConvertStub
+nullptr
+nullptr
+nullptr
+nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 JS

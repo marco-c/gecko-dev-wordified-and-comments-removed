@@ -2241,6 +2241,13 @@ global
 )
 const
 ;
+inline
+bool
+isOwnGlobal
+(
+)
+const
+;
 static
 inline
 bool

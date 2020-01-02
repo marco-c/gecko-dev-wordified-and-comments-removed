@@ -1329,6 +1329,14 @@ crossCompartmentWrappers
 }
 ;
 void
+trace
+(
+JSTracer
+*
+trc
+)
+;
+void
 markRoots
 (
 JSTracer

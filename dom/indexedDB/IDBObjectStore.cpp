@@ -2465,6 +2465,11 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
+nullptr
+nullptr
+nullptr
+nullptr
+JS_GlobalObjectTraceHook
 }
 ;
 inline
