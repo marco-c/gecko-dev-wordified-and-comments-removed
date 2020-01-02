@@ -1118,6 +1118,9 @@ sGreDir
 return
 ;
 }
+#
+ifdef
+MOZ_WIDGET_GONK
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -1125,6 +1128,8 @@ NS_IsMainThread
 )
 )
 ;
+#
+endif
 if
 (
 ShouldHaveDirectoryService
