@@ -335,6 +335,11 @@ Console
 webidl
 '
 '
+Constraints
+.
+webidl
+'
+'
 Contacts
 .
 webidl
@@ -1201,6 +1206,11 @@ webidl
 '
 '
 MediaStreamTrack
+.
+webidl
+'
+'
+MediaTrackConstraintSet
 .
 webidl
 '
