@@ -1814,7 +1814,7 @@ Linux_x86
 -
 gcc3
 )
-scheck
+check
 :
 :
 relcount
