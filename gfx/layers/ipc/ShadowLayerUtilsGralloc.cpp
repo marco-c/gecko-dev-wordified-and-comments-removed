@@ -78,17 +78,6 @@ include
 "
 mozilla
 /
-layers
-/
-TextureHost
-.
-h
-"
-#
-include
-"
-mozilla
-/
 unused
 .
 h

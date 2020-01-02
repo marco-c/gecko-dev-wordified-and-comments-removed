@@ -619,11 +619,6 @@ layers
 =
 [
 '
-AtomicRefCountedWithFinalize
-.
-h
-'
-'
 basic
 /
 BasicCompositor
@@ -1787,13 +1782,6 @@ ipdl
 ipc
 /
 PLayerTransaction
-.
-ipdl
-'
-'
-ipc
-/
-PTexture
 .
 ipdl
 '
