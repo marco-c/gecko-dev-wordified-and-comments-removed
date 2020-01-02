@@ -1166,6 +1166,9 @@ AsyncDeleteAllFaviconsFromDisk
 ;
 private
 :
+int32_t
+mIcoNoDeleteSeconds
+;
 bool
 mIgnoreRecent
 ;
