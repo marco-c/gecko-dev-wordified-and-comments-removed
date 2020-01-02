@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -407,6 +410,9 @@ x
 )
 ;
 }
+#
+if
+0
 status_t
 convertMetaDataToMessage
 (
@@ -4102,4 +4108,9 @@ info
 )
 ;
 }
+#
+endif
 }
+#
+undef
+LOG_TAG

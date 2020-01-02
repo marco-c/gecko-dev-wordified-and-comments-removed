@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -317,3 +320,6 @@ signal
 ;
 }
 }
+#
+undef
+LOG_TAG
