@@ -6652,7 +6652,7 @@ aRv
 )
 ;
 }
-nsIDOMMozMobileMessageManager
+MobileMessageManager
 *
 Navigator
 :
@@ -6689,6 +6689,7 @@ mMobileMessageManager
 new
 MobileMessageManager
 (
+mWindow
 )
 ;
 mMobileMessageManager
@@ -6696,7 +6697,6 @@ mMobileMessageManager
 >
 Init
 (
-mWindow
 )
 ;
 }
