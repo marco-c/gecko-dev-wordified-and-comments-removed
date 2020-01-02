@@ -61,6 +61,9 @@ nsIChannel
 >
 mSuspendedChannel
 ;
+bool
+mIsAllowListed
+;
 ~
 nsChannelClassifier
 (
