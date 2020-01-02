@@ -485,6 +485,7 @@ DocumentFlavor
 DocumentFlavorLegacyGuess
 DocumentFlavorHTML
 DocumentFlavorSVG
+DocumentFlavorPlain
 }
 ;
 #
@@ -6791,6 +6792,10 @@ nsIDocument
 aInstancePtrResult
 bool
 aLoadedAsData
+=
+false
+bool
+aIsPlainDocument
 =
 false
 )
