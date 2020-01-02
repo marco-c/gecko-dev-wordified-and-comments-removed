@@ -884,6 +884,12 @@ Initialize
 (
 )
 ;
+static
+bool
+ShouldHideScrollbars
+(
+)
+;
 private
 :
 typedef
