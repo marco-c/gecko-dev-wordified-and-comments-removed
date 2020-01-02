@@ -120,6 +120,16 @@ aCtx
 MOZ_OVERRIDE
 ;
 virtual
+TemporaryRef
+<
+Path
+>
+BuildPath
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 Clone
 (

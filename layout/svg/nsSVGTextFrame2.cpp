@@ -18197,7 +18197,7 @@ mStrokeOpacity
 0
 |
 |
-nsSVGUtils
+SVGContentUtils
 :
 :
 CoordToFloat

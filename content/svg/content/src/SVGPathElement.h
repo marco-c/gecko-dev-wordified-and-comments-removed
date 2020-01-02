@@ -189,6 +189,16 @@ aCtx
 MOZ_OVERRIDE
 ;
 virtual
+TemporaryRef
+<
+Path
+>
+BuildPath
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 already_AddRefed
 <
 gfxPath
