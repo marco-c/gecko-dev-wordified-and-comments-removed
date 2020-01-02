@@ -2180,6 +2180,15 @@ mKeyCode
 ;
 }
 int
+ScanCode
+(
+)
+{
+return
+mScanCode
+;
+}
+int
 MetaState
 (
 )
@@ -2648,6 +2657,9 @@ mDomKeyLocation
 ;
 int
 mKeyCode
+mScanCode
+;
+int
 mUnicodeChar
 mBaseUnicodeChar
 mDOMPrintableKeyValue
@@ -2954,6 +2966,10 @@ jDOMPrintableKeyValueField
 static
 jfieldID
 jKeyCodeField
+;
+static
+jfieldID
+jScanCodeField
 ;
 static
 jfieldID

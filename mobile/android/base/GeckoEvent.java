@@ -913,6 +913,10 @@ mKeyCode
 ;
 private
 int
+mScanCode
+;
+private
+int
 mUnicodeChar
 ;
 private
@@ -1278,6 +1282,14 @@ mKeyCode
 k
 .
 getKeyCode
+(
+)
+;
+mScanCode
+=
+k
+.
+getScanCode
 (
 )
 ;
