@@ -155,6 +155,12 @@ ContentOrNormalChannelIsActive
 ;
 virtual
 bool
+TelephonyChannelIsActive
+(
+)
+;
+virtual
+bool
 ProcessContentOrNormalChannelIsActive
 (
 uint64_t

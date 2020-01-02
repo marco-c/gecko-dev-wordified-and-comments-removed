@@ -218,6 +218,11 @@ nsCString
 aAddress
 )
 ;
+void
+HandleAudioChannelProcessChanged
+(
+)
+;
 }
 ;
 }
