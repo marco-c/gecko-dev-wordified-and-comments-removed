@@ -684,7 +684,11 @@ graph
 .
 width
 /
+(
 4180
+-
+112
+)
 "
 The
 data
