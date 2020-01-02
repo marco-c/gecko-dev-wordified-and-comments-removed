@@ -3396,6 +3396,13 @@ aActor
 prototype
 .
 actorPrefix
+|
+|
+aActor
+.
+prototype
+.
+typeName
 ;
 }
 aActor
