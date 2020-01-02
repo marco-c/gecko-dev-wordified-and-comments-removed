@@ -187,13 +187,6 @@ AA_DEFAULT
 }
 ;
 enum
-Snapping
-{
-SNAP_NONE
-SNAP_ALIGNED
-}
-;
-enum
 Filter
 {
 FILTER_GOOD

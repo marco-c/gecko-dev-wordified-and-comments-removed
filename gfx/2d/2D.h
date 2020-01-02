@@ -175,10 +175,6 @@ AntialiasMode
 aAntialiasMode
 =
 AA_DEFAULT
-Snapping
-aSnapping
-=
-SNAP_NONE
 )
 :
 mAlpha
@@ -192,10 +188,6 @@ aCompositionOp
 mAntialiasMode
 (
 aAntialiasMode
-)
-mSnapping
-(
-aSnapping
 )
 {
 }
@@ -211,11 +203,6 @@ AntialiasMode
 mAntialiasMode
 :
 3
-;
-Snapping
-mSnapping
-:
-1
 ;
 }
 ;
