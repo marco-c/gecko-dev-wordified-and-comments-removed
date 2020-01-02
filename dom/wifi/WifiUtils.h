@@ -403,6 +403,7 @@ virtual
 int32_t
 do_wifi_stop_supplicant
 (
+int32_t
 )
 =
 0
