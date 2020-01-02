@@ -2868,7 +2868,7 @@ width
 *
 bpp
 ;
-SkAutoSMalloc
+GrAutoMalloc
 <
 128
 *
@@ -8583,7 +8583,7 @@ readDst
 =
 buffer
 ;
-SkAutoSMalloc
+GrAutoMalloc
 <
 32
 *

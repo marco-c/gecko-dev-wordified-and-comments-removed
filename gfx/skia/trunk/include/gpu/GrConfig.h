@@ -559,4 +559,17 @@ GR_STROKE_PATH_RENDERING
 #
 endif
 #
+if
+!
+defined
+(
+GR_ALWAYS_ALLOCATE_ON_HEAP
+)
+#
+define
+GR_ALWAYS_ALLOCATE_ON_HEAP
+0
+#
+endif
+#
 endif
