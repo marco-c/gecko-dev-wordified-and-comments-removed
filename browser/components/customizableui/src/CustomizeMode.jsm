@@ -4815,9 +4815,7 @@ placement
 .
 position
 :
-aTargetArea
-.
-childElementCount
+null
 ;
 if
 (
