@@ -3054,6 +3054,13 @@ ExclusiveContext
 cx
 )
 ;
+bool
+isPropertyConfigured
+(
+jsid
+id
+)
+;
 void
 print
 (
