@@ -305,7 +305,7 @@ WebrtcAudioConduit
 :
 mOtherDirection
 (
-NULL
+nullptr
 )
 mShutDown
 (
@@ -313,11 +313,11 @@ false
 )
 mVoiceEngine
 (
-NULL
+nullptr
 )
 mTransport
 (
-NULL
+nullptr
 )
 mEngineTransmitting
 (
@@ -334,7 +334,7 @@ mChannel
 )
 mCurSendCodecConfig
 (
-NULL
+nullptr
 )
 mCaptureDelay
 (
