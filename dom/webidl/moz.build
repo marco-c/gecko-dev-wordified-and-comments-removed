@@ -2964,6 +2964,11 @@ MediaStreamEvent
 webidl
 '
 '
+MozClirModeEvent
+.
+webidl
+'
+'
 MozContactChangeEvent
 .
 webidl
