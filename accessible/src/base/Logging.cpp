@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -4654,7 +4654,7 @@ n
 "
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack

@@ -149,7 +149,7 @@ out
 of
 #
 |
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -171,7 +171,7 @@ names
 out
 of
 |
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack

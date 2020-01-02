@@ -1,7 +1,7 @@
 #
 include
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -1571,7 +1571,7 @@ Dump
 -
 1
 out
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 ALL_STATS
@@ -1628,7 +1628,7 @@ const
 char
 *
 msg
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 StatisticsType
@@ -1675,7 +1675,7 @@ stats
 type
 =
 =
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 NEW_STATS
@@ -1870,7 +1870,7 @@ i
 FILE
 *
 out
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 StatisticsType
@@ -1885,7 +1885,7 @@ stats
 type
 =
 =
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 NEW_STATS
@@ -2641,7 +2641,7 @@ GetClassName
 #
 endif
 nsresult
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 DumpStatistics
@@ -2901,7 +2901,7 @@ fprintf
 (
 out
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 DumpStatistics
@@ -2959,7 +2959,7 @@ NS_OK
 ;
 }
 void
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 ResetStatistics
@@ -4781,7 +4781,7 @@ stream
 endif
 }
 void
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -4830,7 +4830,7 @@ h
 #
 endif
 void
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 DemangleSymbol
@@ -4965,7 +4965,7 @@ if
 +
 gInitCount
 )
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal
@@ -5058,14 +5058,14 @@ if
 gInitialized
 )
 {
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 DumpStatistics
 (
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 ResetStatistics
@@ -5073,7 +5073,7 @@ ResetStatistics
 )
 ;
 }
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 Shutdown
@@ -5083,7 +5083,7 @@ Shutdown
 #
 ifdef
 NS_IMPL_REFCNT_LOGGING
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal
@@ -5317,7 +5317,7 @@ aPtr
 serialno
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -5389,7 +5389,7 @@ serialno
 aRefcnt
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -5641,7 +5641,7 @@ serialno
 aRefcnt
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -5702,7 +5702,7 @@ aPtr
 serialno
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -5903,7 +5903,7 @@ serialno
 aInstanceSize
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -6089,7 +6089,7 @@ serialno
 aInstanceSize
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -6283,7 +6283,7 @@ aCOMPtr
 )
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -6477,7 +6477,7 @@ aCOMPtr
 )
 )
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack
@@ -6495,7 +6495,7 @@ UNLOCK_TRACELOG
 endif
 }
 void
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 Startup
@@ -6536,7 +6536,7 @@ nullptr
 ;
 }
 void
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 Shutdown
@@ -6635,7 +6635,7 @@ gCOMPtrLog
 endif
 }
 void
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal

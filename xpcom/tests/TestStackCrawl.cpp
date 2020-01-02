@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsTraceRefCntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -31,7 +31,7 @@ argv
 ]
 )
 {
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 WalkTheStack

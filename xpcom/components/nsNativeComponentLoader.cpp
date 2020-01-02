@@ -65,7 +65,7 @@ h
 #
 include
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -993,7 +993,7 @@ get
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal
@@ -1035,7 +1035,7 @@ endif
 #
 ifdef
 NS_BUILD_REFCNT_LOGGING
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 SetActivityIsLegal

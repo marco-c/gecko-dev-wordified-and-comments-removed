@@ -336,7 +336,7 @@ nsStackWalk
 h
 '
 '
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 '
@@ -607,7 +607,7 @@ nsSystemInfo
 cpp
 '
 '
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 cpp
 '

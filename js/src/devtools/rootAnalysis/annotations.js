@@ -58,7 +58,7 @@ size_t
 :
 true
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 cpp
 :
@@ -74,7 +74,7 @@ void
 :
 true
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 cpp
 :
@@ -93,7 +93,7 @@ int
 :
 true
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 cpp
 :
@@ -109,7 +109,7 @@ void
 :
 true
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 cpp
 :

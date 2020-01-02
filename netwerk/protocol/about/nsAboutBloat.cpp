@@ -1,7 +1,7 @@
 #
 include
 "
-nsTraceRefcntImpl
+nsTraceRefcnt
 .
 h
 "
@@ -115,13 +115,13 @@ rv
 return
 rv
 ;
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 StatisticsType
 statType
 =
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 ALL_STATS
@@ -192,7 +192,7 @@ new
 )
 statType
 =
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 NEW_STATS
@@ -241,7 +241,7 @@ if
 clear
 )
 {
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 ResetStatistics
@@ -435,7 +435,7 @@ if
 statType
 =
 =
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 ALL_STATS
@@ -562,7 +562,7 @@ rv
 ;
 rv
 =
-nsTraceRefcntImpl
+nsTraceRefcnt
 :
 :
 DumpStatistics
