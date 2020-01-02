@@ -359,7 +359,7 @@ DrawTarget
 *
 aTarget
 const
-nsIntSize
+IntSize
 aTargetSize
 const
 Cost
@@ -439,7 +439,10 @@ new
 gfxSurfaceDrawable
 (
 mTarget
+ThebesIntSize
+(
 mTargetSize
+)
 )
 ;
 return
@@ -509,7 +512,7 @@ DrawTarget
 mTarget
 ;
 const
-nsIntSize
+IntSize
 mTargetSize
 ;
 const
@@ -858,7 +861,7 @@ Insert
 DrawTarget
 *
 aTarget
-nsIntSize
+IntSize
 aTargetSize
 const
 Cost
@@ -1998,13 +2001,10 @@ sInstance
 Insert
 (
 aTarget
-ThebesIntSize
-(
 aSurfaceKey
 .
 Size
 (
-)
 )
 cost
 aImageKey
