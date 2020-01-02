@@ -3198,7 +3198,7 @@ NS_OK
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 -
@@ -3520,7 +3520,7 @@ this
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 -

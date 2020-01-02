@@ -1150,7 +1150,7 @@ document
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

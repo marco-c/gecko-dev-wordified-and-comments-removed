@@ -7292,7 +7292,7 @@ document
 aContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

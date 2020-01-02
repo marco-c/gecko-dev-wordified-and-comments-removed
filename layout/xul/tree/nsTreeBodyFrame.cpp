@@ -1497,7 +1497,7 @@ nsDoc
 parent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -10087,7 +10087,7 @@ doc
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

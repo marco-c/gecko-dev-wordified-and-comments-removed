@@ -1539,7 +1539,7 @@ document
 mElement
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -1739,6 +1739,15 @@ else
 if
 (
 !
+mElement
+-
+>
+IsInUncomposedDoc
+(
+)
+|
+|
+!
 (
 popup
 =
@@ -1752,7 +1761,7 @@ identifier
 )
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 GetElementById

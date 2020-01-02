@@ -2525,7 +2525,7 @@ document
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

@@ -1803,7 +1803,7 @@ document
 formNode
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

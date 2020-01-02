@@ -27664,7 +27664,7 @@ document
 aStartChild
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

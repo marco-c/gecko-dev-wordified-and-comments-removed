@@ -1408,7 +1408,7 @@ doc
 sourceNode
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -1675,15 +1675,14 @@ nsCOMPtr
 nsIDOMXULDocument
 >
 xulDoc
-(
+=
 do_QueryInterface
 (
 tooltipNode
 -
 >
-GetDocument
+GetComposedDoc
 (
-)
 )
 )
 ;
@@ -1697,7 +1696,7 @@ if
 sourceNode
 -
 >
-GetDocument
+IsInComposedDoc
 (
 )
 )
@@ -1780,7 +1779,7 @@ doc
 sourceNode
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -2441,7 +2440,7 @@ document
 aTarget
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -2651,6 +2650,14 @@ if
 tooltipId
 .
 IsEmpty
+(
+)
+&
+&
+aTarget
+-
+>
+IsInUncomposedDoc
 (
 )
 )
@@ -2918,7 +2925,7 @@ doc
 currentTooltip
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

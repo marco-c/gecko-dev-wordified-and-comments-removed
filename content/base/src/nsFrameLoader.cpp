@@ -8287,7 +8287,7 @@ doc
 mOwnerContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -9030,7 +9030,7 @@ doc
 mOwnerContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

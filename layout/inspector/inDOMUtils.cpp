@@ -4587,7 +4587,7 @@ doc
 aElement
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

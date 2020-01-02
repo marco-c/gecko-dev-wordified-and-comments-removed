@@ -5533,7 +5533,7 @@ doc
 aContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

@@ -3449,7 +3449,7 @@ doc
 aForm
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

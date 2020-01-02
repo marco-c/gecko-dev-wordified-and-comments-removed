@@ -480,6 +480,7 @@ presContext
 =
 GetPresContext
 (
+eForComposedDoc
 )
 ;
 if

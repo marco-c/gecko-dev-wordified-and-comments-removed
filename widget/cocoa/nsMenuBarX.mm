@@ -3210,7 +3210,7 @@ do_QueryInterface
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )
@@ -3545,7 +3545,7 @@ Content
 )
 -
 >
-GetDocument
+GetUncomposedDoc
 (
 )
 ;

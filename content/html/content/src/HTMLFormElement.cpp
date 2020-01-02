@@ -1079,16 +1079,6 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
-<
-nsPresContext
->
-presContext
-=
-GetPresContext
-(
-)
-;
 if
 (
 mPendingSubmission

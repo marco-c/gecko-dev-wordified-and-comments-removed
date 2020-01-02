@@ -2405,6 +2405,7 @@ presContext
 =
 GetPresContext
 (
+eForComposedDoc
 )
 ;
 if

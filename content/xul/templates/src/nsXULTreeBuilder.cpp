@@ -3314,7 +3314,7 @@ doc
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -5602,7 +5602,7 @@ doc
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -7527,7 +7527,7 @@ doc
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

@@ -1868,7 +1868,7 @@ doc
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -4970,7 +4970,7 @@ doc
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -6170,7 +6170,7 @@ do_QueryInterface
 mRoot
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )

@@ -20176,6 +20176,10 @@ element
 >
 GetPresContext
 (
+nsGenericHTMLElement
+:
+:
+eForComposedDoc
 )
 )
 ;

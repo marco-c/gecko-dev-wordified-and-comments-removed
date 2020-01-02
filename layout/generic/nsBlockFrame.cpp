@@ -29590,7 +29590,7 @@ do_QueryInterface
 mContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )

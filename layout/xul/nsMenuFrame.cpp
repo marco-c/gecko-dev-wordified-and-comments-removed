@@ -4604,7 +4604,7 @@ document
 mContent
 -
 >
-GetDocument
+GetUncomposedDoc
 (
 )
 ;
