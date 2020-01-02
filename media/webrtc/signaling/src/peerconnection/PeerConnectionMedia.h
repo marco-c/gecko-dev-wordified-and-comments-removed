@@ -539,6 +539,9 @@ AsSourceStream
 AddTrack
 (
 1
+mozilla
+:
+:
 USECS_PER_S
 0
 segment
@@ -937,6 +940,9 @@ image
 forget
 (
 )
+mozilla
+:
+:
 USECS_PER_S
 /
 10
