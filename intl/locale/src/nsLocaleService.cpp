@@ -664,8 +664,6 @@ CFStringGetLength
 userLocaleStr
 )
 ;
-if
-(
 buffer
 .
 SetLength
@@ -674,8 +672,7 @@ size
 +
 1
 )
-)
-{
+;
 CFRange
 range
 =
@@ -760,7 +757,6 @@ mApplicationLocale
 =
 mSystemLocale
 ;
-}
 }
 :
 :
