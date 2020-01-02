@@ -9218,7 +9218,7 @@ JS_ASSERT
 analysis
 -
 >
-maybeCode
+isReachable
 (
 pc
 )
@@ -9256,7 +9256,7 @@ if
 analysis
 -
 >
-maybeCode
+isReachable
 (
 pc
 )
@@ -9305,7 +9305,7 @@ analysis
 )
 -
 >
-maybeCode
+isReachable
 (
 initpc
 )
