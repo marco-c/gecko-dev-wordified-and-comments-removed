@@ -1128,6 +1128,18 @@ PMB__getMaybeCachedResources
 aProfile
 )
 {
+let
+profileKey
+=
+aProfile
+?
+aProfile
+.
+id
+:
+"
+"
+;
 if
 (
 this
@@ -1137,7 +1149,7 @@ _resourcesByProfile
 {
 if
 (
-aProfile
+profileKey
 in
 this
 .
@@ -1148,7 +1160,7 @@ this
 .
 _resourcesByProfile
 [
-aProfile
+profileKey
 ]
 ;
 }
@@ -1167,7 +1179,7 @@ this
 .
 _resourcesByProfile
 [
-aProfile
+profileKey
 ]
 =
 this
