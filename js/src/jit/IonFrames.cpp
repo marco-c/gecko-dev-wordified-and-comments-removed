@@ -134,7 +134,7 @@ include
 "
 jit
 /
-SnapshotReader
+Snapshots
 .
 h
 "
@@ -7613,7 +7613,7 @@ JS_ASSERT
 (
 loc
 .
-isStackSlot
+isStackOffset
 (
 )
 )
@@ -7640,7 +7640,7 @@ ReadFrameSlot
 fp_
 loc
 .
-stackSlot
+stackOffset
 (
 )
 )
@@ -7763,17 +7763,17 @@ bool
 SnapshotIterator
 :
 :
-slotReadable
+allocationReadable
 (
 const
-Slot
+RValueAllocation
 &
-slot
+alloc
 )
 {
 switch
 (
-slot
+alloc
 .
 mode
 (
@@ -7781,7 +7781,7 @@ mode
 )
 {
 case
-Slot
+RValueAllocation
 :
 :
 DOUBLE_REG
@@ -7791,7 +7791,7 @@ machine_
 .
 has
 (
-slot
+alloc
 .
 floatReg
 (
@@ -7799,7 +7799,7 @@ floatReg
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 TYPED_REG
@@ -7809,7 +7809,7 @@ machine_
 .
 has
 (
-slot
+alloc
 .
 reg
 (
@@ -7823,7 +7823,7 @@ defined
 JS_NUNBOX32
 )
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_REG_REG
@@ -7831,7 +7831,7 @@ UNTYPED_REG_REG
 return
 hasRegister
 (
-slot
+alloc
 .
 type
 (
@@ -7841,7 +7841,7 @@ type
 &
 hasRegister
 (
-slot
+alloc
 .
 payload
 (
@@ -7849,7 +7849,7 @@ payload
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_REG_STACK
@@ -7857,7 +7857,7 @@ UNTYPED_REG_STACK
 return
 hasRegister
 (
-slot
+alloc
 .
 type
 (
@@ -7867,7 +7867,7 @@ type
 &
 hasStack
 (
-slot
+alloc
 .
 payload
 (
@@ -7875,7 +7875,7 @@ payload
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_STACK_REG
@@ -7883,7 +7883,7 @@ UNTYPED_STACK_REG
 return
 hasStack
 (
-slot
+alloc
 .
 type
 (
@@ -7893,7 +7893,7 @@ type
 &
 hasRegister
 (
-slot
+alloc
 .
 payload
 (
@@ -7901,7 +7901,7 @@ payload
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_STACK_STACK
@@ -7909,7 +7909,7 @@ UNTYPED_STACK_STACK
 return
 hasStack
 (
-slot
+alloc
 .
 type
 (
@@ -7919,7 +7919,7 @@ type
 &
 hasStack
 (
-slot
+alloc
 .
 payload
 (
@@ -7933,7 +7933,7 @@ defined
 JS_PUNBOX64
 )
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_REG
@@ -7941,7 +7941,7 @@ UNTYPED_REG
 return
 hasRegister
 (
-slot
+alloc
 .
 value
 (
@@ -7949,7 +7949,7 @@ value
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_STACK
@@ -7957,7 +7957,7 @@ UNTYPED_STACK
 return
 hasStack
 (
-slot
+alloc
 .
 value
 (
@@ -7977,17 +7977,17 @@ Value
 SnapshotIterator
 :
 :
-slotValue
+allocationValue
 (
 const
-Slot
+RValueAllocation
 &
-slot
+alloc
 )
 {
 switch
 (
-slot
+alloc
 .
 mode
 (
@@ -7995,7 +7995,7 @@ mode
 )
 {
 case
-Slot
+RValueAllocation
 :
 :
 DOUBLE_REG
@@ -8007,7 +8007,7 @@ machine_
 .
 read
 (
-slot
+alloc
 .
 floatReg
 (
@@ -8016,7 +8016,7 @@ floatReg
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 FLOAT32_REG
@@ -8041,7 +8041,7 @@ machine_
 .
 read
 (
-slot
+alloc
 .
 floatReg
 (
@@ -8058,7 +8058,7 @@ f
 ;
 }
 case
-Slot
+RValueAllocation
 :
 :
 FLOAT32_STACK
@@ -8069,16 +8069,16 @@ Float32Value
 ReadFrameFloat32Slot
 (
 fp_
-slot
+alloc
 .
-stackSlot
+stackOffset
 (
 )
 )
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 TYPED_REG
@@ -8086,7 +8086,7 @@ TYPED_REG
 return
 FromTypedPayload
 (
-slot
+alloc
 .
 knownType
 (
@@ -8095,7 +8095,7 @@ machine_
 .
 read
 (
-slot
+alloc
 .
 reg
 (
@@ -8104,7 +8104,7 @@ reg
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 TYPED_STACK
@@ -8112,7 +8112,7 @@ TYPED_STACK
 {
 switch
 (
-slot
+alloc
 .
 knownType
 (
@@ -8128,9 +8128,9 @@ DoubleValue
 ReadFrameDoubleSlot
 (
 fp_
-slot
+alloc
 .
-stackSlot
+stackOffset
 (
 )
 )
@@ -8145,9 +8145,9 @@ Int32Value
 ReadFrameInt32Slot
 (
 fp_
-slot
+alloc
 .
-stackSlot
+stackOffset
 (
 )
 )
@@ -8162,9 +8162,9 @@ BooleanValue
 ReadFrameBooleanSlot
 (
 fp_
-slot
+alloc
 .
-stackSlot
+stackOffset
 (
 )
 )
@@ -8179,9 +8179,9 @@ FromStringPayload
 ReadFrameSlot
 (
 fp_
-slot
+alloc
 .
-stackSlot
+stackOffset
 (
 )
 )
@@ -8196,9 +8196,9 @@ FromObjectPayload
 ReadFrameSlot
 (
 fp_
-slot
+alloc
 .
-stackSlot
+stackOffset
 (
 )
 )
@@ -8223,7 +8223,7 @@ defined
 JS_NUNBOX32
 )
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_REG_REG
@@ -8243,7 +8243,7 @@ JSValueTag
 )
 fromRegister
 (
-slot
+alloc
 .
 type
 (
@@ -8260,7 +8260,7 @@ word
 =
 fromRegister
 (
-slot
+alloc
 .
 payload
 (
@@ -8275,7 +8275,7 @@ layout
 ;
 }
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_REG_STACK
@@ -8295,7 +8295,7 @@ JSValueTag
 )
 fromRegister
 (
-slot
+alloc
 .
 type
 (
@@ -8312,7 +8312,7 @@ word
 =
 fromStack
 (
-slot
+alloc
 .
 payload
 (
@@ -8327,7 +8327,7 @@ layout
 ;
 }
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_STACK_REG
@@ -8347,7 +8347,7 @@ JSValueTag
 )
 fromStack
 (
-slot
+alloc
 .
 type
 (
@@ -8364,7 +8364,7 @@ word
 =
 fromRegister
 (
-slot
+alloc
 .
 payload
 (
@@ -8379,7 +8379,7 @@ layout
 ;
 }
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_STACK_STACK
@@ -8399,7 +8399,7 @@ JSValueTag
 )
 fromStack
 (
-slot
+alloc
 .
 type
 (
@@ -8416,7 +8416,7 @@ word
 =
 fromStack
 (
-slot
+alloc
 .
 payload
 (
@@ -8437,7 +8437,7 @@ defined
 JS_PUNBOX64
 )
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_REG
@@ -8452,7 +8452,7 @@ asBits
 =
 fromRegister
 (
-slot
+alloc
 .
 value
 (
@@ -8467,7 +8467,7 @@ layout
 ;
 }
 case
-Slot
+RValueAllocation
 :
 :
 UNTYPED_STACK
@@ -8482,7 +8482,7 @@ asBits
 =
 fromStack
 (
-slot
+alloc
 .
 value
 (
@@ -8499,7 +8499,7 @@ layout
 #
 endif
 case
-Slot
+RValueAllocation
 :
 :
 JS_UNDEFINED
@@ -8510,7 +8510,7 @@ UndefinedValue
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 JS_NULL
@@ -8521,7 +8521,7 @@ NullValue
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 JS_INT32
@@ -8529,7 +8529,7 @@ JS_INT32
 return
 Int32Value
 (
-slot
+alloc
 .
 int32Value
 (
@@ -8537,7 +8537,7 @@ int32Value
 )
 ;
 case
-Slot
+RValueAllocation
 :
 :
 CONSTANT
@@ -8548,7 +8548,7 @@ ionScript_
 >
 getConstant
 (
-slot
+alloc
 .
 constantIndex
 (
@@ -9006,7 +9006,7 @@ skipCount
 (
 si_
 .
-slots
+allocations
 (
 )
 -
@@ -9051,7 +9051,7 @@ while
 (
 si_
 .
-moreSlots
+moreAllocations
 (
 )
 )
@@ -9680,7 +9680,7 @@ void
 SnapshotIterator
 :
 :
-warnUnreadableSlot
+warnUnreadableAllocation
 (
 )
 {
@@ -9694,8 +9694,8 @@ Tried
 to
 access
 unreadable
-IonMonkey
-slot
+value
+allocation
 (
 possible
 f
@@ -10319,7 +10319,7 @@ n
 "
 si
 .
-slots
+allocations
 (
 )
 -
@@ -10337,7 +10337,7 @@ i
 <
 si
 .
-slots
+allocations
 (
 )
 -

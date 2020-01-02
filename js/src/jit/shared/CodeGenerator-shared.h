@@ -72,7 +72,7 @@ include
 "
 jit
 /
-SnapshotWriter
+Snapshots
 .
 h
 "
@@ -1031,7 +1031,7 @@ snapshot
 )
 ;
 bool
-encodeSlots
+encodeAllocations
 (
 LSnapshot
 *

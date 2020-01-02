@@ -6072,6 +6072,7 @@ isOptimizedJS
 (
 )
 )
+{
 return
 ionInlineFrames_
 .
@@ -6079,7 +6080,7 @@ snapshotIterator
 (
 )
 .
-slots
+allocations
 (
 )
 -
@@ -6094,6 +6095,7 @@ nfixed
 (
 )
 ;
+}
 jit
 :
 :
@@ -6259,7 +6261,7 @@ nfixed
 return
 si
 .
-maybeReadSlotByIndex
+maybeReadAllocByIndex
 (
 index
 )

@@ -275,7 +275,7 @@ testIntTypesABI
 cpp
 '
 '
-testJitSlot
+testJitRValueAlloc
 .
 cpp
 '

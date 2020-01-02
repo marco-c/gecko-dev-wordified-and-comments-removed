@@ -1906,13 +1906,6 @@ cpp
 '
 jit
 /
-Slot
-.
-cpp
-'
-'
-jit
-/
 Snapshots
 .
 cpp

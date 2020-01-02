@@ -55,7 +55,7 @@ include
 "
 jit
 /
-SnapshotReader
+Snapshots
 .
 h
 "
