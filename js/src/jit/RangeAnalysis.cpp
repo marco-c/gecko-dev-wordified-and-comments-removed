@@ -344,6 +344,24 @@ IonSpewFile
 #
 endif
 }
+TempAllocator
+&
+RangeAnalysis
+:
+:
+alloc
+(
+)
+const
+{
+return
+graph_
+.
+alloc
+(
+)
+;
+}
 void
 RangeAnalysis
 :
@@ -860,6 +878,9 @@ MBeta
 :
 New
 (
+alloc
+(
+)
 smaller
 Range
 :
@@ -922,6 +943,9 @@ MBeta
 :
 New
 (
+alloc
+(
+)
 greater
 Range
 :
@@ -1198,6 +1222,9 @@ MBeta
 :
 New
 (
+alloc
+(
+)
 val
 new
 Range
@@ -9338,6 +9365,9 @@ MDefinition
 *
 ConvertLinearSum
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 block
@@ -9418,6 +9448,7 @@ MAdd
 :
 New
 (
+alloc
 def
 term
 .
@@ -9498,6 +9529,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 0
@@ -9538,6 +9570,7 @@ MSub
 :
 New
 (
+alloc
 def
 term
 .
@@ -9604,6 +9637,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 term
@@ -9635,6 +9669,7 @@ MMul
 :
 New
 (
+alloc
 term
 .
 term
@@ -9681,6 +9716,7 @@ MAdd
 :
 New
 (
+alloc
 def
 mul
 )
@@ -9746,6 +9782,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 0
@@ -9973,6 +10010,9 @@ lowerTerm
 =
 ConvertLinearSum
 (
+alloc
+(
+)
 preLoop
 lower
 -
@@ -9994,6 +10034,9 @@ upperTerm
 =
 ConvertLinearSum
 (
+alloc
+(
+)
 preLoop
 upper
 -
@@ -10088,6 +10131,9 @@ MBoundsCheckLower
 :
 New
 (
+alloc
+(
+)
 lowerTerm
 )
 ;
@@ -10108,6 +10154,9 @@ MBoundsCheck
 :
 New
 (
+alloc
+(
+)
 upperTerm
 ins
 -
@@ -10707,6 +10756,9 @@ MAssertRange
 :
 New
 (
+alloc
+(
+)
 ins
 new
 Range
@@ -11722,6 +11774,9 @@ static
 void
 AdjustTruncatedInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 truncated
@@ -11804,6 +11859,7 @@ MTruncateToInt32
 :
 New
 (
+alloc
 truncated
 -
 >
@@ -12202,6 +12258,9 @@ ins
 ;
 AdjustTruncatedInputs
 (
+alloc
+(
+)
 ins
 )
 ;

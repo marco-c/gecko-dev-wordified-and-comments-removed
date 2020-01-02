@@ -180,6 +180,13 @@ MIRGraph
 &
 graph_
 ;
+TempAllocator
+&
+alloc
+(
+)
+const
+;
 public
 :
 MOZ_CONSTEXPR

@@ -1232,6 +1232,9 @@ MMathFunction
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -1613,9 +1616,14 @@ MNewArray
 *
 ins
 =
-new
 MNewArray
+:
+:
+New
 (
+alloc
+(
+)
 initLength
 templateObject
 allocating
@@ -1658,6 +1666,9 @@ MElements
 :
 New
 (
+alloc
+(
+)
 ins
 )
 ;
@@ -1698,6 +1709,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 Int32Value
 (
 i
@@ -1746,6 +1760,9 @@ MToDouble
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -1771,6 +1788,9 @@ MStoreElement
 :
 New
 (
+alloc
+(
+)
 elements
 id
 value
@@ -1795,6 +1815,9 @@ MSetInitializedLength
 :
 New
 (
+alloc
+(
+)
 elements
 id
 )
@@ -2079,6 +2102,9 @@ MArrayPopShift
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -2201,6 +2227,9 @@ if
 (
 PropertyWriteNeedsTypeBarrier
 (
+alloc
+(
+)
 constraints
 (
 )
@@ -2442,6 +2471,9 @@ MToDouble
 :
 New
 (
+alloc
+(
+)
 value
 )
 ;
@@ -2478,6 +2510,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -2496,6 +2531,9 @@ MArrayPush
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -3111,6 +3149,9 @@ MArrayConcat
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -3299,6 +3340,9 @@ MAbs
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -3339,6 +3383,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 ins
 )
 ;
@@ -3557,6 +3604,9 @@ MMathFunction
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -3776,6 +3826,9 @@ MMathFunction
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -3905,6 +3958,9 @@ MSqrt
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -4047,6 +4103,9 @@ MAtan2
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -4195,6 +4254,9 @@ MHypot
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -4467,6 +4529,9 @@ MPowHalf
 :
 New
 (
+alloc
+(
+)
 base
 )
 ;
@@ -4503,6 +4568,9 @@ MPowHalf
 :
 New
 (
+alloc
+(
+)
 base
 )
 ;
@@ -4523,6 +4591,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 DoubleValue
 (
 1
@@ -4548,6 +4619,9 @@ MDiv
 :
 New
 (
+alloc
+(
+)
 one
 half
 MIRType_Double
@@ -4598,6 +4672,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 base
 base
 outputType
@@ -4635,6 +4712,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 base
 base
 outputType
@@ -4657,6 +4737,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 base
 mul1
 outputType
@@ -4694,6 +4777,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 base
 base
 outputType
@@ -4716,6 +4802,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 y
 y
 outputType
@@ -4750,6 +4839,9 @@ MPow
 :
 New
 (
+alloc
+(
+)
 base
 power
 powerType
@@ -4796,6 +4888,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 output
 )
 ;
@@ -4840,6 +4935,9 @@ MToDouble
 :
 New
 (
+alloc
+(
+)
 output
 )
 ;
@@ -4920,6 +5018,9 @@ MRandom
 :
 New
 (
+alloc
+(
+)
 )
 ;
 current
@@ -5051,6 +5152,9 @@ MTruncateToInt32
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -5076,6 +5180,9 @@ MTruncateToInt32
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -5101,6 +5208,9 @@ MMul
 :
 New
 (
+alloc
+(
+)
 first
 second
 MIRType_Int32
@@ -5237,6 +5347,9 @@ MToFloat32
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -5397,6 +5510,9 @@ MMinMax
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -5450,6 +5566,9 @@ MMinMax
 :
 New
 (
+alloc
+(
+)
 last
 callInfo
 .
@@ -5602,6 +5721,9 @@ MNewStringObject
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -5861,6 +5983,9 @@ MStringSplit
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -6022,6 +6147,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -6047,6 +6175,9 @@ MStringLength
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -6079,6 +6210,9 @@ MCharCodeAt
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -6189,6 +6323,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -6214,6 +6351,9 @@ MFromCharCode
 :
 New
 (
+alloc
+(
+)
 charCode
 )
 ;
@@ -6349,6 +6489,9 @@ MToInt32
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -6374,6 +6517,9 @@ MStringLength
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -6406,6 +6552,9 @@ MCharCodeAt
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -6431,6 +6580,9 @@ MFromCharCode
 :
 New
 (
+alloc
+(
+)
 charCode
 )
 ;
@@ -6609,6 +6761,9 @@ MRegExpTest
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -6796,6 +6951,9 @@ writeNeedsBarrier
 =
 PropertyWriteNeedsTypeBarrier
 (
+alloc
+(
+)
 constraints
 (
 )
@@ -6856,6 +7014,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -7246,6 +7407,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 BooleanValue
 (
 true
@@ -7582,6 +7746,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 ObjectValue
 (
 *
@@ -7811,6 +7978,9 @@ MCall
 :
 New
 (
+alloc
+(
+)
 target
 targetArgs
 +
@@ -7870,6 +8040,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -7892,6 +8065,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 undef
 )
 ;
@@ -7922,6 +8098,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -7975,6 +8154,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 arg
 )
 ;
@@ -8036,6 +8218,9 @@ MNewParallelArray
 :
 New
 (
+alloc
+(
+)
 templateObject
 )
 ;
@@ -8056,6 +8241,9 @@ MPassArg
 :
 New
 (
+alloc
+(
+)
 newObject
 )
 ;
@@ -8549,6 +8737,9 @@ MStoreFixedSlot
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -8605,6 +8796,9 @@ MPostWriteBarrier
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 thisArg
@@ -8766,6 +8960,9 @@ MLoadFixedSlot
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -8972,6 +9169,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 BooleanValue
 (
 arg1Clasp
@@ -9016,6 +9216,9 @@ MHaveSameClass
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -9223,6 +9426,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 BooleanValue
 (
 isCallableConstant
@@ -9264,6 +9470,9 @@ MIsCallable
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -9418,6 +9627,9 @@ MBail
 :
 New
 (
+alloc
+(
+)
 )
 )
 ;
@@ -9430,6 +9642,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )
@@ -9537,6 +9752,9 @@ MAssertFloat32
 :
 New
 (
+alloc
+(
+)
 callInfo
 .
 getArg
@@ -9556,6 +9774,9 @@ MConstant
 :
 New
 (
+alloc
+(
+)
 UndefinedValue
 (
 )

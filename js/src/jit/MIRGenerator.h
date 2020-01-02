@@ -102,7 +102,7 @@ JSCompartment
 compartment
 TempAllocator
 *
-temp
+alloc
 MIRGraph
 *
 graph
@@ -113,13 +113,13 @@ info
 ;
 TempAllocator
 &
-temp
+alloc
 (
 )
 {
 return
 *
-temp_
+alloc_
 ;
 }
 MIRGraph
@@ -139,7 +139,7 @@ ensureBallast
 )
 {
 return
-temp
+alloc
 (
 )
 .
@@ -218,7 +218,7 @@ T
 *
 >
 (
-temp
+alloc
 (
 )
 .
@@ -532,7 +532,7 @@ info_
 ;
 TempAllocator
 *
-temp_
+alloc_
 ;
 JSFunction
 *

@@ -141,6 +141,9 @@ static
 void
 ConvertDefinitionToDouble
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 def
@@ -158,6 +161,7 @@ MToDouble
 :
 New
 (
+alloc
 def
 )
 ;
@@ -498,6 +502,9 @@ MConstant
 *
 EvaluateConstantOperands
 (
+TempAllocator
+&
+alloc
 MBinaryInstruction
 *
 ins
@@ -983,6 +990,7 @@ MConstant
 :
 New
 (
+alloc
 ret
 )
 ;
@@ -1260,6 +1268,9 @@ MDefinition
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -1432,6 +1443,9 @@ MTest
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -1460,6 +1474,7 @@ MTest
 :
 New
 (
+alloc
 op
 -
 >
@@ -2306,6 +2321,9 @@ MConstant
 :
 New
 (
+TempAllocator
+&
+alloc
 const
 Value
 &
@@ -2314,6 +2332,9 @@ v
 {
 return
 new
+(
+alloc
+)
 MConstant
 (
 v
@@ -2327,6 +2348,9 @@ MConstant
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 const
 Value
 &
@@ -2340,6 +2364,9 @@ MConstant
 constant
 =
 new
+(
+alloc
+)
 MConstant
 (
 v
@@ -3494,6 +3521,9 @@ MParameter
 :
 New
 (
+TempAllocator
+&
+alloc
 int32_t
 index
 types
@@ -3506,6 +3536,9 @@ types
 {
 return
 new
+(
+alloc
+)
 MParameter
 (
 index
@@ -3608,6 +3641,9 @@ MCall
 :
 New
 (
+TempAllocator
+&
+alloc
 JSFunction
 *
 target
@@ -3632,6 +3668,9 @@ MCall
 ins
 =
 new
+(
+alloc
+)
 MCall
 (
 target
@@ -3666,6 +3705,9 @@ MApplyArgs
 :
 New
 (
+TempAllocator
+&
+alloc
 JSFunction
 *
 target
@@ -3682,6 +3724,9 @@ self
 {
 return
 new
+(
+alloc
+)
 MApplyArgs
 (
 target
@@ -3698,6 +3743,9 @@ MStringLength
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -3761,6 +3809,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 length
@@ -3778,6 +3827,9 @@ MFloor
 :
 trySpecializeFloat32
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -3812,6 +3864,7 @@ ConvertDefinitionToDouble
 0
 >
 (
+alloc
 input
 (
 )
@@ -3848,6 +3901,9 @@ MTest
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 ins
@@ -3861,6 +3917,9 @@ ifFalse
 {
 return
 new
+(
+alloc
+)
 MTest
 (
 ins
@@ -3876,6 +3935,9 @@ MCompare
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -3888,6 +3950,9 @@ op
 {
 return
 new
+(
+alloc
+)
 MCompare
 (
 left
@@ -3903,6 +3968,9 @@ MCompare
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -3946,6 +4014,9 @@ MCompare
 comp
 =
 new
+(
+alloc
+)
 MCompare
 (
 left
@@ -3986,6 +4057,9 @@ MTableSwitch
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 ins
@@ -3997,6 +4071,9 @@ high
 {
 return
 new
+(
+alloc
+)
 MTableSwitch
 (
 ins
@@ -4012,6 +4089,9 @@ MGoto
 :
 New
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 target
@@ -4024,6 +4104,9 @@ target
 ;
 return
 new
+(
+alloc
+)
 MGoto
 (
 target
@@ -4434,6 +4517,9 @@ MPhi
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -5854,6 +5940,9 @@ MBinaryBitwiseInstruction
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -5876,6 +5965,7 @@ folded
 =
 EvaluateConstantOperands
 (
+alloc
 this
 )
 )
@@ -6685,6 +6775,9 @@ MBinaryArithInstruction
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -6725,6 +6818,7 @@ folded
 =
 EvaluateConstantOperands
 (
+alloc
 this
 )
 )
@@ -6791,6 +6885,9 @@ MBinaryArithInstruction
 :
 trySpecializeFloat32
 (
+TempAllocator
+&
+alloc
 )
 {
 MDefinition
@@ -6853,6 +6950,7 @@ ConvertDefinitionToDouble
 0
 >
 (
+alloc
 left
 this
 )
@@ -6874,6 +6972,7 @@ ConvertDefinitionToDouble
 1
 >
 (
+alloc
 right
 this
 )
@@ -6930,6 +7029,9 @@ MAbs
 :
 trySpecializeFloat32
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -6971,6 +7073,7 @@ ConvertDefinitionToDouble
 0
 >
 (
+alloc
 input
 (
 )
@@ -6997,6 +7100,9 @@ MDiv
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -7019,6 +7125,7 @@ folded
 =
 EvaluateConstantOperands
 (
+alloc
 this
 )
 )
@@ -7425,6 +7532,9 @@ MMod
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -7447,6 +7557,7 @@ folded
 =
 EvaluateConstantOperands
 (
+alloc
 this
 )
 )
@@ -7478,6 +7589,9 @@ MMathFunction
 :
 trySpecializeFloat32
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -7519,6 +7633,7 @@ ConvertDefinitionToDouble
 0
 >
 (
+alloc
 input
 (
 )
@@ -7626,6 +7741,9 @@ MMul
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -7639,6 +7757,7 @@ MBinaryArithInstruction
 :
 foldsTo
 (
+alloc
 useValueNumbers
 )
 ;
@@ -8032,6 +8151,9 @@ MBinaryArithInstruction
 :
 infer
 (
+TempAllocator
+&
+alloc
 BaselineInspector
 *
 inspector
@@ -8231,6 +8353,7 @@ false
 ;
 EvaluateConstantOperands
 (
+alloc
 this
 &
 typeChange
@@ -9724,6 +9847,9 @@ MBitNot
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 input
@@ -9731,6 +9857,9 @@ input
 {
 return
 new
+(
+alloc
+)
 MBitNot
 (
 input
@@ -9744,6 +9873,9 @@ MBitNot
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 input
@@ -9754,6 +9886,9 @@ MBitNot
 ins
 =
 new
+(
+alloc
+)
 MBitNot
 (
 input
@@ -9790,6 +9925,9 @@ MBitNot
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -9857,6 +9995,7 @@ MConstant
 :
 New
 (
+alloc
 v
 )
 ;
@@ -9935,6 +10074,9 @@ MTypeOf
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -10053,6 +10195,7 @@ MConstant
 :
 New
 (
+alloc
 StringValue
 (
 TypeName
@@ -10110,6 +10253,9 @@ MBitAnd
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10120,6 +10266,9 @@ right
 {
 return
 new
+(
+alloc
+)
 MBitAnd
 (
 left
@@ -10134,6 +10283,9 @@ MBitAnd
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10147,6 +10299,9 @@ MBitAnd
 ins
 =
 new
+(
+alloc
+)
 MBitAnd
 (
 left
@@ -10171,6 +10326,9 @@ MBitOr
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10181,6 +10339,9 @@ right
 {
 return
 new
+(
+alloc
+)
 MBitOr
 (
 left
@@ -10195,6 +10356,9 @@ MBitOr
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10208,6 +10372,9 @@ MBitOr
 ins
 =
 new
+(
+alloc
+)
 MBitOr
 (
 left
@@ -10232,6 +10399,9 @@ MBitXor
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10242,6 +10412,9 @@ right
 {
 return
 new
+(
+alloc
+)
 MBitXor
 (
 left
@@ -10256,6 +10429,9 @@ MBitXor
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10269,6 +10445,9 @@ MBitXor
 ins
 =
 new
+(
+alloc
+)
 MBitXor
 (
 left
@@ -10293,6 +10472,9 @@ MLsh
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10303,6 +10485,9 @@ right
 {
 return
 new
+(
+alloc
+)
 MLsh
 (
 left
@@ -10317,6 +10502,9 @@ MLsh
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10330,6 +10518,9 @@ MLsh
 ins
 =
 new
+(
+alloc
+)
 MLsh
 (
 left
@@ -10354,6 +10545,9 @@ MRsh
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10364,6 +10558,9 @@ right
 {
 return
 new
+(
+alloc
+)
 MRsh
 (
 left
@@ -10378,6 +10575,9 @@ MRsh
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10391,6 +10591,9 @@ MRsh
 ins
 =
 new
+(
+alloc
+)
 MRsh
 (
 left
@@ -10415,6 +10618,9 @@ MUrsh
 :
 New
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10425,6 +10631,9 @@ right
 {
 return
 new
+(
+alloc
+)
 MUrsh
 (
 left
@@ -10439,6 +10648,9 @@ MUrsh
 :
 NewAsmJS
 (
+TempAllocator
+&
+alloc
 MDefinition
 *
 left
@@ -10452,6 +10664,9 @@ MUrsh
 ins
 =
 new
+(
+alloc
+)
 MUrsh
 (
 left
@@ -10483,6 +10698,9 @@ MResumePoint
 :
 New
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 block
@@ -10501,6 +10719,9 @@ MResumePoint
 resume
 =
 new
+(
+alloc
+)
 MResumePoint
 (
 block
@@ -10670,6 +10891,9 @@ MToInt32
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -10731,6 +10955,9 @@ MTruncateToInt32
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -10815,6 +11042,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 ret
@@ -10833,6 +11061,9 @@ MToDouble
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -10911,6 +11142,7 @@ MConstant
 :
 New
 (
+alloc
 DoubleValue
 (
 out
@@ -10961,6 +11193,9 @@ MToFloat32
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -11091,6 +11326,7 @@ MConstant
 :
 New
 (
+alloc
 DoubleValue
 (
 out
@@ -11121,6 +11357,9 @@ MToString
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -11159,6 +11398,9 @@ MClampToUint8
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -11221,6 +11463,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 clamped
@@ -11255,6 +11498,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 clamped
@@ -12304,6 +12548,9 @@ MCompare
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -12342,6 +12589,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 result
@@ -12364,6 +12612,7 @@ MConstant
 :
 New
 (
+alloc
 BooleanValue
 (
 result
@@ -12381,6 +12630,9 @@ MCompare
 :
 trySpecializeFloat32
 (
+TempAllocator
+&
+alloc
 )
 {
 MDefinition
@@ -12458,6 +12710,7 @@ ConvertDefinitionToDouble
 0
 >
 (
+alloc
 lhs
 this
 )
@@ -12479,6 +12732,7 @@ ConvertDefinitionToDouble
 1
 >
 (
+alloc
 rhs
 this
 )
@@ -12523,6 +12777,9 @@ MNot
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -12571,6 +12828,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 !
@@ -12584,6 +12842,7 @@ MConstant
 :
 New
 (
+alloc
 BooleanValue
 (
 !
@@ -12625,6 +12884,7 @@ MConstant
 :
 New
 (
+alloc
 BooleanValue
 (
 true
@@ -12657,6 +12917,7 @@ MConstant
 :
 New
 (
+alloc
 BooleanValue
 (
 false
@@ -12673,6 +12934,9 @@ MNot
 :
 trySpecializeFloat32
 (
+TempAllocator
+&
+alloc
 )
 {
 MDefinition
@@ -12709,6 +12973,7 @@ ConvertDefinitionToDouble
 0
 >
 (
+alloc
 in
 this
 )
@@ -14046,6 +14311,9 @@ MAsmJSUnsignedToDouble
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -14095,6 +14363,7 @@ MConstant
 :
 New
 (
+alloc
 DoubleValue
 (
 uint32_t
@@ -14120,6 +14389,9 @@ MAsmJSUnsignedToFloat32
 :
 foldsTo
 (
+TempAllocator
+&
+alloc
 bool
 useValueNumbers
 )
@@ -14192,6 +14464,7 @@ MConstant
 :
 NewAsmJS
 (
+alloc
 JS
 :
 :
@@ -14218,6 +14491,9 @@ MAsmJSCall
 :
 New
 (
+TempAllocator
+&
+alloc
 Callee
 callee
 const
@@ -14235,6 +14511,9 @@ MAsmJSCall
 call
 =
 new
+(
+alloc
+)
 MAsmJSCall
 ;
 call
@@ -14485,6 +14764,9 @@ MSqrt
 :
 trySpecializeFloat32
 (
+TempAllocator
+&
+alloc
 )
 {
 if
@@ -14526,6 +14808,7 @@ ConvertDefinitionToDouble
 0
 >
 (
+alloc
 input
 (
 )
@@ -16196,6 +16479,9 @@ static
 bool
 TryAddTypeBarrierForWrite
 (
+TempAllocator
+&
+alloc
 types
 :
 :
@@ -16522,6 +16808,7 @@ MUnbox
 :
 New
 (
+alloc
 *
 pvalue
 propertyType
@@ -16620,6 +16907,7 @@ MMonitorTypes
 :
 New
 (
+alloc
 *
 pvalue
 types
@@ -16642,6 +16930,9 @@ MInstruction
 *
 AddTypeGuard
 (
+TempAllocator
+&
+alloc
 MBasicBlock
 *
 current
@@ -16678,6 +16969,7 @@ MGuardObjectType
 :
 New
 (
+alloc
 obj
 type
 -
@@ -16696,6 +16988,7 @@ MGuardObjectIdentity
 :
 New
 (
+alloc
 obj
 type
 -
@@ -16731,6 +17024,9 @@ jit
 :
 PropertyWriteNeedsTypeBarrier
 (
+TempAllocator
+&
+alloc
 types
 :
 :
@@ -16927,6 +17223,7 @@ success
 =
 TryAddTypeBarrierForWrite
 (
+alloc
 constraints
 current
 types
@@ -17135,6 +17432,7 @@ pobj
 =
 AddTypeGuard
 (
+alloc
 current
 *
 pobj

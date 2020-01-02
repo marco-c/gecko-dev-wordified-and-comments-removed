@@ -1213,7 +1213,7 @@ return
 mir
 -
 >
-temp
+alloc
 (
 )
 ;

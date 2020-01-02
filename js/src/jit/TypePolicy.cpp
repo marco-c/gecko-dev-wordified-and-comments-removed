@@ -58,6 +58,9 @@ BoxInputsPolicy
 :
 boxAt
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 at
@@ -91,6 +94,7 @@ input
 return
 alwaysBoxAt
 (
+alloc
 at
 operand
 )
@@ -103,6 +107,9 @@ BoxInputsPolicy
 :
 alwaysBoxAt
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 at
@@ -139,6 +146,7 @@ MToDouble
 :
 New
 (
+alloc
 operand
 )
 ;
@@ -170,6 +178,7 @@ MBox
 :
 New
 (
+alloc
 boxedOperand
 )
 ;
@@ -197,6 +206,9 @@ BoxInputsPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -260,6 +272,7 @@ replaceOperand
 i
 boxAt
 (
+alloc
 ins
 in
 )
@@ -276,6 +289,9 @@ ArithPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -294,6 +310,7 @@ BoxInputsPolicy
 :
 adjustInputs
 (
+alloc
 ins
 )
 ;
@@ -438,6 +455,7 @@ in
 =
 boxAt
 (
+alloc
 ins
 in
 )
@@ -462,6 +480,7 @@ MToDouble
 :
 New
 (
+alloc
 in
 )
 ;
@@ -485,6 +504,7 @@ MToFloat32
 :
 New
 (
+alloc
 in
 )
 ;
@@ -496,6 +516,7 @@ MToInt32
 :
 New
 (
+alloc
 in
 )
 ;
@@ -533,6 +554,9 @@ BinaryStringPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -617,6 +641,7 @@ MToString
 :
 New
 (
+alloc
 in
 )
 ;
@@ -639,6 +664,7 @@ in
 =
 boxAt
 (
+alloc
 ins
 in
 )
@@ -650,6 +676,7 @@ MUnbox
 :
 New
 (
+alloc
 in
 MIRType_String
 MUnbox
@@ -693,6 +720,9 @@ ComparePolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -769,6 +799,7 @@ MToDouble
 :
 New
 (
+alloc
 in
 )
 ;
@@ -833,6 +864,7 @@ BoxInputsPolicy
 :
 adjustInputs
 (
+alloc
 def
 )
 ;
@@ -939,6 +971,7 @@ rhs
 =
 boxAt
 (
+alloc
 def
 rhs
 )
@@ -952,6 +985,7 @@ MUnbox
 :
 New
 (
+alloc
 rhs
 MIRType_Boolean
 MUnbox
@@ -1128,6 +1162,7 @@ rhs
 =
 boxAt
 (
+alloc
 def
 rhs
 )
@@ -1141,6 +1176,7 @@ MUnbox
 :
 New
 (
+alloc
 rhs
 MIRType_String
 MUnbox
@@ -1376,6 +1412,7 @@ in
 =
 boxAt
 (
+alloc
 def
 in
 )
@@ -1497,6 +1534,7 @@ in
 =
 boxAt
 (
+alloc
 def
 in
 )
@@ -1509,6 +1547,7 @@ MToDouble
 :
 New
 (
+alloc
 in
 convert
 )
@@ -1627,6 +1666,7 @@ in
 =
 boxAt
 (
+alloc
 def
 in
 )
@@ -1639,6 +1679,7 @@ MToFloat32
 :
 New
 (
+alloc
 in
 convert
 )
@@ -1656,6 +1697,7 @@ MToInt32
 :
 New
 (
+alloc
 in
 )
 ;
@@ -1671,6 +1713,7 @@ MUnbox
 :
 New
 (
+alloc
 in
 MIRType_Object
 MUnbox
@@ -1691,6 +1734,7 @@ MUnbox
 :
 New
 (
+alloc
 in
 MIRType_String
 MUnbox
@@ -1747,6 +1791,9 @@ TypeBarrierPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -1823,6 +1870,7 @@ replaceOperand
 0
 boxAt
 (
+alloc
 ins
 ins
 -
@@ -1889,6 +1937,7 @@ MUnbox
 :
 New
 (
+alloc
 ins
 -
 >
@@ -1958,6 +2007,9 @@ TestPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -2024,6 +2076,7 @@ MStringLength
 :
 New
 (
+alloc
 op
 )
 ;
@@ -2063,6 +2116,7 @@ replaceOperand
 0
 boxAt
 (
+alloc
 ins
 op
 )
@@ -2081,6 +2135,9 @@ BitwisePolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -2099,6 +2156,7 @@ BoxInputsPolicy
 :
 adjustInputs
 (
+alloc
 ins
 )
 ;
@@ -2206,6 +2264,7 @@ in
 =
 boxAt
 (
+alloc
 ins
 in
 )
@@ -2219,6 +2278,7 @@ MTruncateToInt32
 :
 New
 (
+alloc
 in
 )
 ;
@@ -2256,6 +2316,9 @@ PowPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -2286,6 +2349,7 @@ DoublePolicy
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 )
@@ -2308,6 +2372,7 @@ DoublePolicy
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -2320,6 +2385,7 @@ IntPolicy
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 ;
@@ -2338,6 +2404,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2405,6 +2474,7 @@ MToString
 :
 New
 (
+alloc
 in
 )
 ;
@@ -2427,6 +2497,7 @@ in
 =
 boxAt
 (
+alloc
 def
 in
 )
@@ -2438,6 +2509,7 @@ MUnbox
 :
 New
 (
+alloc
 in
 MIRType_String
 MUnbox
@@ -2484,6 +2556,9 @@ StringPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -2499,6 +2574,9 @@ StringPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -2514,6 +2592,9 @@ StringPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -2533,6 +2614,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2581,6 +2665,7 @@ in
 =
 boxAt
 (
+alloc
 def
 in
 )
@@ -2594,6 +2679,7 @@ MUnbox
 :
 New
 (
+alloc
 in
 MIRType_Int32
 MUnbox
@@ -2639,6 +2725,9 @@ IntPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2654,6 +2743,9 @@ IntPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2669,6 +2761,9 @@ IntPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2688,6 +2783,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2729,6 +2827,7 @@ MToInt32
 :
 New
 (
+alloc
 in
 )
 ;
@@ -2769,6 +2868,9 @@ ConvertToInt32Policy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2788,6 +2890,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2853,6 +2958,7 @@ MBox
 :
 New
 (
+alloc
 in
 )
 ;
@@ -2879,6 +2985,7 @@ MUnbox
 :
 New
 (
+alloc
 box
 MIRType_Double
 MUnbox
@@ -2923,6 +3030,7 @@ MToDouble
 :
 New
 (
+alloc
 in
 )
 ;
@@ -2963,6 +3071,9 @@ DoublePolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2978,6 +3089,9 @@ DoublePolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -2997,6 +3111,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3062,6 +3179,7 @@ MToDouble
 :
 New
 (
+alloc
 in
 )
 ;
@@ -3088,6 +3206,7 @@ MBox
 :
 New
 (
+alloc
 toDouble
 )
 ;
@@ -3114,6 +3233,7 @@ MUnbox
 :
 New
 (
+alloc
 box
 MIRType_Double
 MUnbox
@@ -3145,6 +3265,7 @@ MToFloat32
 :
 New
 (
+alloc
 unbox
 )
 ;
@@ -3184,6 +3305,7 @@ MToFloat32
 :
 New
 (
+alloc
 in
 )
 ;
@@ -3224,6 +3346,9 @@ Float32Policy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3239,6 +3364,9 @@ Float32Policy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3254,6 +3382,9 @@ Float32Policy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3273,6 +3404,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3312,6 +3446,7 @@ MToDouble
 :
 New
 (
+alloc
 in
 )
 ;
@@ -3353,6 +3488,9 @@ NoFloatPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3368,6 +3506,9 @@ NoFloatPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3383,6 +3524,9 @@ NoFloatPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3398,6 +3542,9 @@ NoFloatPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -3417,6 +3564,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3457,6 +3607,7 @@ replaceOperand
 Op
 boxAt
 (
+alloc
 ins
 in
 )
@@ -3476,6 +3627,9 @@ BoxPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3491,6 +3645,9 @@ BoxPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3506,6 +3663,9 @@ BoxPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3517,6 +3677,9 @@ ToDoublePolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3564,6 +3727,7 @@ in
 =
 boxAt
 (
+alloc
 ins
 in
 )
@@ -3587,6 +3751,9 @@ ToInt32Policy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3637,6 +3804,7 @@ in
 =
 boxAt
 (
+alloc
 ins
 in
 )
@@ -3675,6 +3843,9 @@ Op
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3747,6 +3918,7 @@ in
 =
 boxAt
 (
+alloc
 ins
 in
 )
@@ -3760,6 +3932,7 @@ MUnbox
 :
 New
 (
+alloc
 in
 MIRType_Object
 MUnbox
@@ -3805,6 +3978,9 @@ ObjectPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3820,6 +3996,9 @@ ObjectPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3835,6 +4014,9 @@ ObjectPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3850,6 +4032,9 @@ ObjectPolicy
 :
 staticAdjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3861,6 +4046,9 @@ CallPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3919,6 +4107,7 @@ func
 =
 boxAt
 (
+alloc
 call
 func
 )
@@ -3932,6 +4121,7 @@ MUnbox
 :
 New
 (
+alloc
 func
 MIRType_Object
 MUnbox
@@ -3972,6 +4162,9 @@ CallSetElementPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -3982,6 +4175,7 @@ SingleObjectPolicy
 :
 adjustInputs
 (
+alloc
 ins
 )
 ;
@@ -4043,6 +4237,7 @@ replaceOperand
 i
 boxAt
 (
+alloc
 ins
 in
 )
@@ -4059,6 +4254,9 @@ InstanceOfPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 def
@@ -4082,7 +4280,6 @@ type
 =
 MIRType_Object
 )
-{
 BoxPolicy
 <
 0
@@ -4091,10 +4288,10 @@ BoxPolicy
 :
 staticAdjustInputs
 (
+alloc
 def
 )
 ;
-}
 return
 true
 ;
@@ -4105,6 +4302,9 @@ StoreTypedArrayPolicy
 :
 adjustValueInput
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -4167,6 +4367,7 @@ MConstant
 :
 New
 (
+alloc
 Int32Value
 (
 0
@@ -4214,6 +4415,7 @@ MConstant
 :
 New
 (
+alloc
 DoubleNaNValue
 (
 )
@@ -4247,6 +4449,7 @@ value
 =
 boxAt
 (
+alloc
 ins
 value
 )
@@ -4404,6 +4607,7 @@ MTruncateToInt32
 :
 New
 (
+alloc
 value
 )
 ;
@@ -4486,6 +4690,7 @@ MToFloat32
 :
 New
 (
+alloc
 value
 )
 ;
@@ -4538,6 +4743,7 @@ MToDouble
 :
 New
 (
+alloc
 value
 )
 ;
@@ -4607,6 +4813,9 @@ StoreTypedArrayPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -4662,6 +4871,7 @@ MIRType_Int32
 return
 adjustValueInput
 (
+alloc
 ins
 store
 -
@@ -4685,6 +4895,9 @@ StoreTypedArrayHolePolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -4758,6 +4971,7 @@ MIRType_Int32
 return
 adjustValueInput
 (
+alloc
 ins
 store
 -
@@ -4781,6 +4995,9 @@ StoreTypedArrayElementStaticPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -4806,12 +5023,14 @@ ConvertToInt32Policy
 :
 staticAdjustInputs
 (
+alloc
 ins
 )
 &
 &
 adjustValueInput
 (
+alloc
 ins
 store
 -
@@ -4835,6 +5054,9 @@ ClampPolicy
 :
 adjustInputs
 (
+TempAllocator
+&
+alloc
 MInstruction
 *
 ins
@@ -4887,6 +5109,7 @@ replaceOperand
 0
 boxAt
 (
+alloc
 ins
 in
 )

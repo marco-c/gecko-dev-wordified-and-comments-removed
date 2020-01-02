@@ -90,10 +90,9 @@ alloc
 const
 {
 return
-mir
--
->
-temp
+graph_
+.
+alloc
 (
 )
 ;
@@ -207,6 +206,9 @@ def
 >
 foldsTo
 (
+alloc
+(
+)
 useValueNumbers
 )
 ;
@@ -396,6 +398,9 @@ def
 >
 foldsTo
 (
+alloc
+(
+)
 false
 )
 ;

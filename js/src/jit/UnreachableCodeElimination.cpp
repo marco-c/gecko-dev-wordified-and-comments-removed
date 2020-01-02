@@ -773,6 +773,11 @@ MGoto
 :
 New
 (
+graph_
+.
+alloc
+(
+)
 succ
 )
 ;

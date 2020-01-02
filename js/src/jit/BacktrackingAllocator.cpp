@@ -135,7 +135,7 @@ lifoAlloc
 mir
 -
 >
-temp
+alloc
 (
 )
 .
