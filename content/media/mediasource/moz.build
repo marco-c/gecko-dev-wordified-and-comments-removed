@@ -83,6 +83,11 @@ AsyncEventRunner
 .
 h
 '
+'
+MediaSourceDecoder
+.
+h
+'
 ]
 EXPORTS
 .
@@ -118,7 +123,7 @@ MediaSource
 cpp
 '
 '
-MediaSourceInputAdapter
+MediaSourceDecoder
 .
 cpp
 '
@@ -129,6 +134,11 @@ cpp
 '
 '
 SourceBufferList
+.
+cpp
+'
+'
+SourceBufferResource
 .
 cpp
 '
