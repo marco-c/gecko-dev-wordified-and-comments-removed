@@ -144,6 +144,11 @@ FrameTree
 jsm
 '
 '
+GlobalState
+.
+jsm
+'
+'
 Messenger
 .
 jsm
