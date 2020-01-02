@@ -162,6 +162,7 @@ EOF
 CC
 -
 E
+CFLAGS
 conftest
 .
 c
@@ -187,6 +188,7 @@ EOF
 CXX
 -
 E
+CXXFLAGS
 conftest
 .
 c
