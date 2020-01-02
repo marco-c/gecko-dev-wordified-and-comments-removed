@@ -298,9 +298,11 @@ OrderedDict
         
 self
 .
-active_tier
+active_tiers
 =
-None
+set
+(
+)
         
 self
 .
@@ -417,9 +419,12 @@ tier
         
 self
 .
-active_tier
-=
+active_tiers
+.
+add
+(
 tier
+)
     
 def
 finish_tier
@@ -482,6 +487,15 @@ finish_phase
 (
 tier
 )
+        
+self
+.
+active_tiers
+.
+remove
+(
+tier
+)
     
 def
 tier_status
@@ -505,12 +519,11 @@ items
             
 active
 =
+tier
+in
 self
 .
-active_tier
-=
-=
-tier
+active_tiers
             
 finished
 =

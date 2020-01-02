@@ -1472,6 +1472,9 @@ package
 l10n
 -
 check
+automation
+/
+build
 #
 #
 #
