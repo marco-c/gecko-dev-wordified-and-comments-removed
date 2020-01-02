@@ -93,6 +93,16 @@ MPL
 0
 /
 .
+EXPORTS
++
+=
+[
+'
+nsImageModule
+.
+h
+'
+]
 SOURCES
 +
 =
