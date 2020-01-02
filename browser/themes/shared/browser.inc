@@ -85,10 +85,6 @@ feed
 -
 button
 #
-tabview
--
-button
-#
 webrtc
 -
 status
