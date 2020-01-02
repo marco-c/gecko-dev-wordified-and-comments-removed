@@ -54,3 +54,17 @@ MPL
 0
 /
 .
+MOCHITEST_A11Y_FILES
+=
+\
+test_zoom_text
+.
+html
+\
+test_zoom
+.
+html
+\
+(
+NULL
+)
