@@ -7353,6 +7353,15 @@ java
 '
 fxa
 /
+activities
+/
+FxAccountUpdateCredentialsActivity
+.
+java
+'
+'
+fxa
+/
 authenticator
 /
 AbstractFxAccount

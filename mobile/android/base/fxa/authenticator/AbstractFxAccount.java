@@ -184,4 +184,14 @@ getQuickStretchedPW
 (
 )
 ;
+public
+void
+setQuickStretchedPW
+(
+byte
+[
+]
+quickStretchedPW
+)
+;
 }

@@ -225,7 +225,7 @@ final
 String
 password
 ;
-protected
+public
 final
 byte
 [
