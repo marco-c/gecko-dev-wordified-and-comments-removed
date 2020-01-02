@@ -368,26 +368,28 @@ for
 tests
 to
 finish
-(
-as
-evidenced
-by
-the
-process
-exiting
-)
+.
             
-or
-for
+If
 maxTime
+seconds
 elapse
-in
-which
-case
+or
+no
+output
+is
+detected
+for
+timeout
+            
+seconds
 kill
 the
 process
-regardless
+and
+fail
+the
+test
 .
         
 "
@@ -403,6 +405,9 @@ wait
 timeout
 =
 maxTime
+noOutputTimeout
+=
+timeout
 )
         
 self
@@ -413,13 +418,8 @@ proc
 .
 getLastTestSeen
         
-if
-(
-status
+topActivity
 =
-=
-1
-and
 self
 .
 _devicemanager
@@ -427,12 +427,27 @@ _devicemanager
 getTopActivity
 (
 )
+        
+if
+topActivity
 =
 =
 proc
 .
 procName
+:
+            
+proc
+.
+kill
+(
 )
+        
+if
+status
+=
+=
+1
 :
             
 if
@@ -508,11 +523,47 @@ self
 .
 lastTestSeen
 )
+        
+if
+status
+=
+=
+2
+:
             
-proc
-.
-kill
+print
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+%
+s
+|
+application
+timed
+out
+after
+%
+d
+seconds
+with
+no
+output
+"
+\
+                
+%
 (
+self
+.
+lastTestSeen
+int
+(
+timeout
+)
 )
         
 return
@@ -1404,10 +1455,17 @@ self
 timeout
 =
 None
+noOutputTimeout
+=
+None
 )
 :
             
 timer
+=
+0
+            
+noOutputTimer
 =
 0
             
@@ -1427,6 +1485,10 @@ timeout
 self
 .
 timeout
+            
+status
+=
+0
             
 while
 (
@@ -1470,6 +1532,10 @@ t
                         
 print
 t
+                        
+noOutputTimer
+=
+0
                 
 time
 .
@@ -1483,6 +1549,11 @@ timer
 =
 interval
                 
+noOutputTimer
++
+=
+interval
+                
 if
 (
 timer
@@ -1491,6 +1562,26 @@ timeout
 )
 :
                     
+status
+=
+1
+                    
+break
+                
+if
+(
+noOutputTimeout
+and
+noOutputTimer
+>
+noOutputTimeout
+)
+:
+                    
+status
+=
+2
+                    
 break
             
 print
@@ -1498,20 +1589,8 @@ self
 .
 stdout
             
-if
-(
-timer
->
-=
-timeout
-)
-:
-                
 return
-1
-            
-return
-0
+status
         
 def
 kill
