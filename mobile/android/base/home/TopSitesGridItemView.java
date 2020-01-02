@@ -179,8 +179,8 @@ String
 mFaviconURL
 ;
 private
-Bitmap
-mThumbnail
+boolean
+mThumbnailSet
 ;
 private
 boolean
@@ -634,9 +634,9 @@ if
 changed
 )
 {
-mThumbnail
+mThumbnailSet
 =
-null
+false
 ;
 }
 if
@@ -724,6 +724,10 @@ setBackgroundColor
 0x0
 )
 ;
+mThumbnailSet
+=
+false
+;
 }
 public
 void
@@ -753,9 +757,9 @@ favicon
 return
 ;
 }
-mThumbnail
+mThumbnailSet
 =
-thumbnail
+true
 ;
 Favicons
 .
@@ -836,10 +840,7 @@ faviconURL
 {
 if
 (
-mThumbnail
-!
-=
-null
+mThumbnailSet
 )
 {
 return
