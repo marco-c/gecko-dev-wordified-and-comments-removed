@@ -812,9 +812,11 @@ appcache
 )
 {
 return
+Ci
+.
 nsICacheEntryOpenCallback
 .
-ENTRY_VALID
+ENTRY_WANTED
 ;
 }
 onCacheEntryAvailable
