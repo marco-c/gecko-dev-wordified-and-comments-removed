@@ -436,6 +436,13 @@ if
 region
 )
 {
+aRegion
+.
+SetTextTrack
+(
+this
+)
+;
 mRegionList
 -
 >
