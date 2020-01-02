@@ -85,6 +85,10 @@ PathBuilder
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathBuilderRecording
+)
 PathBuilderRecording
 (
 PathBuilder
@@ -226,6 +230,10 @@ Path
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathRecording
+)
 PathRecording
 (
 Path

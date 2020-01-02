@@ -46,6 +46,10 @@ FilterNode
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+FilterNodeD2D1
+)
 static
 TemporaryRef
 <
@@ -363,6 +367,10 @@ FilterNodeD2D1
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+FilterNodeConvolveD2D1
+)
 FilterNodeConvolveD2D1
 (
 DrawTarget
@@ -516,6 +524,10 @@ FilterNodeD2D1
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+FilterNodeComponentTransferD2D1
+)
 FilterNodeComponentTransferD2D1
 (
 DrawTarget

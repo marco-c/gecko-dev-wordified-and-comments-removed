@@ -47,6 +47,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SourceSurfaceD2DTarget
+)
 SourceSurfaceD2DTarget
 (
 DrawTargetD2D
@@ -181,6 +185,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceD2DTarget
+)
 DataSourceSurfaceD2DTarget
 (
 SurfaceFormat

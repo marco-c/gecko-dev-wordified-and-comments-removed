@@ -32,6 +32,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceRawData
+)
 SourceSurfaceRawData
 (
 )
@@ -156,6 +160,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceAlignedRawData
+)
 SourceSurfaceAlignedRawData
 (
 )

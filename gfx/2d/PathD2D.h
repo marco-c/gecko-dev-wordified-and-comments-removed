@@ -35,6 +35,10 @@ PathBuilder
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathBuilderD2D
+)
 PathBuilderD2D
 (
 ID2D1GeometrySink
@@ -224,6 +228,10 @@ Path
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+PathD2D
+)
 PathD2D
 (
 ID2D1PathGeometry

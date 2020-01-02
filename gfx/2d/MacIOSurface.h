@@ -305,7 +305,7 @@ MacIOSurface
 {
 public
 :
-MOZ_DECLARE_REFCOUNTED_TYPENAME
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 MacIOSurface
 )
@@ -410,6 +410,7 @@ aHasAlpha
 )
 {
 }
+virtual
 ~
 MacIOSurface
 (
@@ -561,6 +562,10 @@ MacIOSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+MacIOSurfaceLib
+)
 static
 void
 *

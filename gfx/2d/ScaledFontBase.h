@@ -80,6 +80,10 @@ ScaledFont
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+ScaledFontBase
+)
 ScaledFontBase
 (
 Float

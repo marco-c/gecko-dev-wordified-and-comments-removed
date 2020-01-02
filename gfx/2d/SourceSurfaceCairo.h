@@ -28,6 +28,10 @@ SourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+SourceSurfaceCairo
+)
 SourceSurfaceCairo
 (
 cairo_surface_t
@@ -135,6 +139,10 @@ DataSourceSurface
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+DataSourceSurfaceCairo
+)
 DataSourceSurfaceCairo
 (
 cairo_surface_t
