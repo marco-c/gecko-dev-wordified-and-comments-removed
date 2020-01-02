@@ -1,4 +1,10 @@
 #
+ifndef
+nsMemoryReporterManager_h__
+#
+define
+nsMemoryReporterManager_h__
+#
 include
 "
 nsIMemoryReporter
@@ -463,3 +469,5 @@ NS_MEMORY_REPORTER_MANAGER_CID
 0x10
 }
 }
+#
+endif
