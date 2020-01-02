@@ -394,6 +394,11 @@ WidgetEvent
 aEvent
 )
 ;
+nsresult
+HandleSelectCall
+(
+)
+;
 virtual
 Element
 *
