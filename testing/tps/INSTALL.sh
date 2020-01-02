@@ -253,6 +253,8 @@ a
 virtualenv
 :
 curl
+-
+L
 https
 :
 /
