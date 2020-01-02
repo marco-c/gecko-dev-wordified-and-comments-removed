@@ -848,16 +848,6 @@ false
 }
 static
 bool
-allowFloat32Optimizations
-(
-)
-{
-return
-false
-;
-}
-static
-bool
 allowInlineForkJoinGetSlice
 (
 )

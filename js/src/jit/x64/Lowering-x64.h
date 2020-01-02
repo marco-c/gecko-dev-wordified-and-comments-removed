@@ -248,16 +248,6 @@ ins
 ;
 static
 bool
-allowFloat32Optimizations
-(
-)
-{
-return
-true
-;
-}
-static
-bool
 allowInlineForkJoinGetSlice
 (
 )

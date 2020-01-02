@@ -5112,16 +5112,6 @@ Float32
 :
 if
 (
-LIRGenerator
-:
-:
-allowFloat32Optimizations
-(
-)
-)
-{
-if
-(
 value
 -
 >
@@ -5166,7 +5156,6 @@ toInstruction
 }
 break
 ;
-}
 case
 Scalar
 :
