@@ -1606,6 +1606,13 @@ definitionlist
 INCLUDE_DESC
 |
 INCLUDE_NAME
+'
+dialog
+'
+:
+INCLUDE_DESC
+|
+INCLUDE_NAME
 }
 objectOutputFunctions
 :
