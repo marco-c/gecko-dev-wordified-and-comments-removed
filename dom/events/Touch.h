@@ -194,11 +194,7 @@ EventTarget
 GetParentObject
 (
 )
-{
-return
-mTarget
 ;
-}
 int32_t
 Identifier
 (
