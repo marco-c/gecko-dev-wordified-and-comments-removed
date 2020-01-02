@@ -74,11 +74,6 @@ SharedMemory
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-SharedMemory
-)
-;
 Unmapped
 (
 )
