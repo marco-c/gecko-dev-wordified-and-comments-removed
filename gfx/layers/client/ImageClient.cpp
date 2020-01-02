@@ -506,7 +506,6 @@ request
 new
 RemoveTextureFromCompositableTracker
 (
-this
 )
 ;
 }
@@ -643,7 +642,6 @@ status
 new
 RemoveTextureFromCompositableTracker
 (
-this
 )
 ;
 return

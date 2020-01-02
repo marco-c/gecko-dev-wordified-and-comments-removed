@@ -970,7 +970,6 @@ tracker
 new
 RemoveTextureFromCompositableTracker
 (
-this
 )
 ;
 tracker
