@@ -242,6 +242,11 @@ keyhi
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
