@@ -127,6 +127,9 @@ class
 ErrorEvent
 ;
 class
+ProgressEvent
+;
+class
 EventBase
 :
 public
@@ -325,6 +328,17 @@ virtual
 ErrorEvent
 *
 AsErrorEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+ProgressEvent
+*
+AsProgressEvent
 (
 )
 {

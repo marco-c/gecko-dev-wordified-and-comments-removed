@@ -243,11 +243,6 @@ nsIDOMPopupBlockedEvent
 idl
 '
 '
-nsIDOMProgressEvent
-.
-idl
-'
-'
 nsIDOMRecordErrorEvent
 .
 idl

@@ -107,9 +107,6 @@ simple_events
 =
 [
 '
-ProgressEvent
-'
-'
 MozSettingsEvent
 '
 '
