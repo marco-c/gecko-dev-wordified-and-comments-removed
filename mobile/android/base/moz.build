@@ -2152,6 +2152,13 @@ ToolbarEditText
 java
 '
 '
+toolbar
+/
+ToolbarTitlePrefs
+.
+java
+'
+'
 TouchEventInterceptor
 .
 java
