@@ -448,6 +448,24 @@ found_stdout_logger
 =
 False
     
+if
+not
+hasattr
+(
+args
+'
+iteritems
+'
+)
+:
+        
+args
+=
+vars
+(
+args
+)
+    
 for
 name
 values
