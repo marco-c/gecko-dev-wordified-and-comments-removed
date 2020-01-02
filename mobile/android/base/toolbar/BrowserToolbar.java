@@ -4404,6 +4404,16 @@ EDIT
 ;
 }
 public
+boolean
+isAnimating
+(
+)
+{
+return
+isAnimatingEntry
+;
+}
+public
 void
 startEditing
 (
