@@ -23,6 +23,9 @@ nsCOMPtr
 .
 h
 "
+#
+undef
+CreateEvent
 class
 nsEventTargetChainItem
 ;
