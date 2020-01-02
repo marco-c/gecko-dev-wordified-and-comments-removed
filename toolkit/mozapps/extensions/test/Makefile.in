@@ -53,6 +53,12 @@ MPL
 0
 /
 .
+TESTING_JS_MODULES
+:
+=
+AddonManagerTesting
+.
+jsm
 ADDONSRC
 =
 (
