@@ -867,7 +867,7 @@ pause
 #
 endif
 class
-AutoPauseWorkersForGC
+AutoPauseWorkersForTracing
 {
 #
 ifdef
@@ -893,7 +893,7 @@ endif
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
-AutoPauseWorkersForGC
+AutoPauseWorkersForTracing
 (
 JSRuntime
 *
@@ -902,7 +902,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
-AutoPauseWorkersForGC
+AutoPauseWorkersForTracing
 (
 )
 ;

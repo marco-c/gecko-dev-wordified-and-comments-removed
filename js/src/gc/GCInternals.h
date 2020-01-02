@@ -134,9 +134,6 @@ js
 HeapState
 prevState
 ;
-AutoPauseWorkersForGC
-pause
-;
 }
 ;
 struct
@@ -144,6 +141,9 @@ AutoPrepareForTracing
 {
 AutoFinishGC
 finish
+;
+AutoPauseWorkersForTracing
+pause
 ;
 AutoTraceSession
 session
