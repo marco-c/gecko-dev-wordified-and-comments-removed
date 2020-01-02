@@ -103,6 +103,11 @@ src
 '
 public
 '
+]
+TEST_DIRS
++
+=
+[
 '
 tests
 '
