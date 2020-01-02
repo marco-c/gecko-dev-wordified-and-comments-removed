@@ -415,6 +415,15 @@ sizing
 box_sizing
 MozBoxSizing
 "
+layout
+.
+css
+.
+prefixes
+.
+box
+-
+sizing
 "
 )
 CSS_PROP_ALIAS
