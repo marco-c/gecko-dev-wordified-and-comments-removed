@@ -395,6 +395,11 @@ nsIDOMEvent
 aEvent
 )
 ;
+nsresult
+StopDrag
+(
+)
+;
 static
 int32_t
 GetCurrentPosition
@@ -753,6 +758,9 @@ mCurPos
 ;
 nscoord
 mChange
+;
+bool
+mDragFinished
 ;
 bool
 mUserChanged
