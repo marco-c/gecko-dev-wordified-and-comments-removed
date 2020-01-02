@@ -1019,6 +1019,7 @@ MIRType_Slots
 MIRType_Elements
 MIRType_Pointer
 MIRType_Shape
+MIRType_TypeObject
 MIRType_ForkJoinContext
 MIRType_Last
 =

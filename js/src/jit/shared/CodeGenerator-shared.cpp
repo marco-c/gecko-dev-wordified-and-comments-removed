@@ -6045,8 +6045,6 @@ const
 LAllocation
 *
 index
-MIRType
-type
 )
 {
 if
@@ -6079,7 +6077,7 @@ masm
 patchableCallPreBarrier
 (
 address
-type
+MIRType_Value
 )
 ;
 }
@@ -6101,7 +6099,7 @@ masm
 patchableCallPreBarrier
 (
 address
-type
+MIRType_Value
 )
 ;
 }
@@ -6114,8 +6112,6 @@ emitPreBarrier
 (
 Address
 address
-MIRType
-type
 )
 {
 masm
@@ -6123,7 +6119,7 @@ masm
 patchableCallPreBarrier
 (
 address
-type
+MIRType_Value
 )
 ;
 }
