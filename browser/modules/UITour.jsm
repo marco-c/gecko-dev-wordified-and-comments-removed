@@ -458,8 +458,6 @@ query
 #
 PanelUI
 -
-menu
--
 button
 "
 }
@@ -3899,8 +3897,6 @@ id
 "
 PanelUI
 -
-menu
--
 button
 "
 ;
@@ -4460,9 +4456,9 @@ maxDimension
 minDimension
 <
 =
-1
+2
 .
-4
+1
 )
 {
 highlightHeight
