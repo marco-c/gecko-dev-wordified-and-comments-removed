@@ -364,7 +364,6 @@ private
 MenuItemsAdapter
 mAdapter
 ;
-private
 boolean
 mShowIcons
 ;
@@ -2349,7 +2348,6 @@ item
 )
 ;
 }
-private
 void
 handleMenuItemClick
 (
@@ -2475,7 +2473,6 @@ item
 ;
 }
 }
-private
 void
 handleMenuItemLongClick
 (

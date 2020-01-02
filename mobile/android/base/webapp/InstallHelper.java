@@ -399,7 +399,6 @@ e
 ;
 }
 }
-private
 void
 install
 (

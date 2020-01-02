@@ -269,7 +269,6 @@ private
 View
 mTitlebar
 ;
-private
 View
 mSplashscreen
 ;

@@ -106,7 +106,6 @@ private
 int
 len
 ;
-private
 IconDirectoryEntry
 [
 ]

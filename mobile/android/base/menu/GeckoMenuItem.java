@@ -220,11 +220,6 @@ GeckoActionProvider
 mActionProvider
 ;
 private
-final
-GeckoMenu
-mMenu
-;
-private
 GeckoSubMenu
 mSubMenu
 ;
@@ -234,7 +229,10 @@ MenuItem
 OnMenuItemClickListener
 mMenuItemClickListener
 ;
-private
+final
+GeckoMenu
+mMenu
+;
 OnShowAsActionChangedListener
 mShowAsActionChangedListener
 ;

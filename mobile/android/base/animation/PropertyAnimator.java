@@ -202,7 +202,6 @@ PropertyAnimationListener
 >
 mListeners
 ;
-private
 FramePoster
 mFramePoster
 ;

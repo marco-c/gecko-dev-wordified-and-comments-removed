@@ -36,7 +36,6 @@ volatile
 boolean
 mCancelled
 ;
-private
 final
 Handler
 mBackgroundThreadHandler
