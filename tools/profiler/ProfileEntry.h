@@ -296,7 +296,7 @@ uintptr_t
 mTagOffset
 ;
 int
-mTagLine
+mTagInt
 ;
 char
 mTagChar
