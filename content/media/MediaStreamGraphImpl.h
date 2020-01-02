@@ -672,16 +672,6 @@ mStreamOrderDirty
 true
 ;
 }
-void
-PauseAllAudioOutputs
-(
-)
-;
-void
-ResumeAllAudioOutputs
-(
-)
-;
 TrackRate
 AudioSampleRate
 (
@@ -986,9 +976,6 @@ mAudioStreamSizes
 ;
 bool
 mNeedsMemoryReport
-;
-bool
-mAudioOutputsPaused
 ;
 #
 ifdef

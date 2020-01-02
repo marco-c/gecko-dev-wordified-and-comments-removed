@@ -737,6 +737,7 @@ AsyncCubebOperation
 {
 INIT
 SHUTDOWN
+SLEEP
 }
 ;
 AsyncCubebTask
@@ -934,8 +935,7 @@ WaitForNextIteration
 (
 )
 MOZ_OVERRIDE
-{
-}
+;
 virtual
 void
 WakeUp
