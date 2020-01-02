@@ -242,6 +242,8 @@ public
 nsIContentFrameMessageManager
 public
 nsIScriptObjectPrincipal
+public
+nsIGlobalObject
 {
 public
 :
@@ -558,6 +560,14 @@ virtual
 nsIPrincipal
 *
 GetPrincipal
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+JSObject
+*
+GetGlobalJSObject
 (
 )
 MOZ_OVERRIDE
