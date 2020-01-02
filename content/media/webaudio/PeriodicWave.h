@@ -135,6 +135,14 @@ return
 mCoefficients
 ;
 }
+size_t
+SizeOfExcludingThisIfNotShared
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 nsRefPtr

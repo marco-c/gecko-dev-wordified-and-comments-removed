@@ -227,6 +227,14 @@ return
 mMaxDelayTicks
 ;
 }
+size_t
+SizeOfExcludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 void
