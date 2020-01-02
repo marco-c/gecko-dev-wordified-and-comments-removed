@@ -12,7 +12,11 @@ include
 "
 jit
 /
-IonTypes
+arm
+/
+Architecture
+-
+arm
 .
 h
 "
@@ -21,11 +25,7 @@ include
 "
 jit
 /
-arm
-/
-Architecture
--
-arm
+IonTypes
 .
 h
 "
