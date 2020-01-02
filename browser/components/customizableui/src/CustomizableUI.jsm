@@ -11287,13 +11287,6 @@ SOURCE_EXTERNAL
 external
 "
 get
-TYPE_BUTTON
-(
-)
-"
-button
-"
-get
 WIDE_PANEL_CLASS
 (
 )
