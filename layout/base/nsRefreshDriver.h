@@ -593,6 +593,15 @@ DefaultInterval
 (
 )
 ;
+bool
+IsInRefresh
+(
+)
+{
+return
+mInRefresh
+;
+}
 private
 :
 typedef
@@ -823,6 +832,9 @@ mViewManagerFlushIsPending
 ;
 bool
 mRequestedHighPrecision
+;
+bool
+mInRefresh
 ;
 int64_t
 mMostRecentRefreshEpochTime
