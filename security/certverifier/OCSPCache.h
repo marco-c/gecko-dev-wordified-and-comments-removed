@@ -52,6 +52,13 @@ prerror
 .
 h
 "
+#
+include
+"
+seccomon
+.
+h
+"
 namespace
 mozilla
 {

@@ -140,7 +140,7 @@ PublicSSL
 h
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -441,7 +441,7 @@ MOZ_DISABLE_CRYPTOLEGACY
 '
 ]
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -459,7 +459,7 @@ MOZ_XUL
 '
 ]
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -469,7 +469,7 @@ nsCertTree
 cpp
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
