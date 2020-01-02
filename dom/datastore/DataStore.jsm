@@ -1591,11 +1591,18 @@ SendNotification
 if
 (
 aOperation
-!
+=
 =
 REVISION_VOID
 )
 {
+aOperation
+=
+"
+cleared
+"
+;
+}
 cpmm
 .
 sendAsyncMessage
@@ -1632,7 +1639,6 @@ aOperation
 }
 )
 ;
-}
 }
 receiveMessage
 :
