@@ -1505,6 +1505,10 @@ registered
 Telemetry
 .
 registeredHistograms
+(
+[
+]
+)
 ;
 let
 ret
@@ -1514,9 +1518,8 @@ ret
 ;
 for
 (
-let
 name
-in
+of
 registered
 )
 {
@@ -2786,6 +2789,10 @@ info
 Telemetry
 .
 registeredHistograms
+(
+[
+]
+)
 ;
 let
 snapshots
@@ -2798,7 +2805,7 @@ for
 (
 let
 name
-in
+of
 info
 )
 {
