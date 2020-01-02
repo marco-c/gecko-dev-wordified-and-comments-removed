@@ -256,9 +256,10 @@ AppUnitsPerCSSInch
 )
 {
 return
-96
-*
-AppUnitsPerCSSPixel
+mozilla
+:
+:
+AppUnitsPerCSSInch
 (
 )
 ;
