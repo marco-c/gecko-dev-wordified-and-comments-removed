@@ -1,3 +1,8 @@
+from
+__future__
+import
+print_function
+unicode_literals
 import
 math
 os
@@ -1701,11 +1706,7 @@ test_list
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 No
 tests
@@ -1716,6 +1717,12 @@ line
 arguments
 .
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -2162,6 +2169,7 @@ job_list
 :
             
 print
+(
 '
 Multiple
 tests
@@ -2175,6 +2183,7 @@ only
 run
 one
 '
+)
             
 for
 tc
@@ -2183,6 +2192,7 @@ job_list
 :
                 
 print
+(
 '
 %
 s
@@ -2191,6 +2201,7 @@ s
 tc
 .
 path
+)
             
 sys
 .
@@ -2335,11 +2346,7 @@ prefix
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 JS
 shell
@@ -2360,6 +2367,12 @@ prefix
 [
 0
 ]
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
