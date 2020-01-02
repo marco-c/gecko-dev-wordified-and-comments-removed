@@ -1053,11 +1053,8 @@ CHECK
 JS_WrapObject
 (
 cx
+&
 debuggeeWrapper
-.
-address
-(
-)
 )
 )
 ;
@@ -1307,11 +1304,8 @@ CHECK
 JS_WrapObject
 (
 cx
+&
 gWrapper
-.
-address
-(
-)
 )
 )
 ;

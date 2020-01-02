@@ -160,11 +160,8 @@ NS_ENSURE_TRUE
 JS_WrapObject
 (
 aCx
+&
 prototype
-.
-address
-(
-)
 )
 nullptr
 )

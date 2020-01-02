@@ -296,8 +296,17 @@ return
 JS_WrapObject
 (
 cx
+JS
+:
+:
+MutableHandleObject
+:
+:
+fromMarkedLocation
+(
 &
 mObj
+)
 )
 ;
 }

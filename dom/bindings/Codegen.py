@@ -34895,9 +34895,18 @@ isMember
 value
 =
 "
+JS
+:
+:
+MutableHandleObject
+:
+:
+fromMarkedLocation
+(
 &
 %
 s
+)
 "
 %
 value
@@ -34907,14 +34916,11 @@ else
             
 value
 =
-value
+"
+&
+"
 +
-"
-.
-address
-(
-)
-"
+value
         
 return
 CGGeneric
@@ -76645,11 +76651,8 @@ if
 JS_WrapObject
 (
 aCx
+&
 obj
-.
-address
-(
-)
 )
 )
 {

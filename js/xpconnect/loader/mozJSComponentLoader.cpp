@@ -4839,11 +4839,8 @@ if
 JS_WrapObject
 (
 cx
+&
 global
-.
-address
-(
-)
 )
 )
 {

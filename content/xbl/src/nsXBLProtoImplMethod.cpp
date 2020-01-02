@@ -588,11 +588,8 @@ if
 JS_WrapObject
 (
 aCx
+&
 method
-.
-address
-(
-)
 )
 )
 return
@@ -1535,11 +1532,8 @@ if
 JS_WrapObject
 (
 cx
+&
 thisObject
-.
-address
-(
-)
 )
 )
 return

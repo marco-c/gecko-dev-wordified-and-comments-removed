@@ -426,11 +426,8 @@ CHECK
 JS_WrapObject
 (
 cx
+&
 wrappedCustomA
-.
-address
-(
-)
 )
 )
 ;
