@@ -511,11 +511,6 @@ stdout
 )
 ;
 void
-PrintAsDataURL
-(
-)
-;
-void
 CopyAsDataURL
 (
 )
