@@ -11033,6 +11033,16 @@ false
 pref
 (
 "
+shumway
+.
+disabled
+"
+true
+)
+;
+pref
+(
+"
 image
 .
 mem
