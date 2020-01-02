@@ -6720,6 +6720,15 @@ openInTabs
 "
 children
 "
+anonanchorclass
+=
+"
+toolbarbutton
+-
+menubutton
+-
+dropmarker
+"
 oncommand
 =
 "

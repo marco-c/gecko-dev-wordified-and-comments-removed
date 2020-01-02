@@ -4161,13 +4161,16 @@ var
 PlacesMenuDNDHandler
 =
 {
-_springLoadDelay
+_springLoadDelayMs
 :
 350
+_closeDelayMs
+:
+500
 _loadTimer
 :
 null
-_closerTimer
+_closeTimer
 :
 null
 onDragEnter
@@ -4294,7 +4297,7 @@ popup
 }
 this
 .
-_springLoadDelay
+_springLoadDelayMs
 Ci
 .
 nsITimer
@@ -4336,6 +4339,12 @@ event
 currentTarget
 |
 |
+(
+event
+.
+relatedTarget
+&
+&
 event
 .
 relatedTarget
@@ -4347,6 +4356,7 @@ parentNode
 event
 .
 currentTarget
+)
 )
 return
 ;
@@ -4510,7 +4520,7 @@ hidePopup
 }
 this
 .
-_springLoadDelay
+_closeDelayMs
 Ci
 .
 nsITimer
