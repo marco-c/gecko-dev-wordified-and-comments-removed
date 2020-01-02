@@ -23699,7 +23699,7 @@ calleev
 )
 )
 ;
-nsDependentJSString
+nsAutoJSString
 elemName
 ;
 if

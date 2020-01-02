@@ -546,7 +546,7 @@ isString
 )
 )
 {
-nsDependentJSString
+nsAutoJSString
 value
 ;
 if
@@ -558,6 +558,10 @@ init
 (
 aCtx
 aValue
+.
+toString
+(
+)
 )
 )
 return

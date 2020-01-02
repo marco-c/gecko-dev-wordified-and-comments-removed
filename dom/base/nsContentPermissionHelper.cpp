@@ -1523,7 +1523,7 @@ isString
 }
 else
 {
-nsDependentJSString
+nsAutoJSString
 choice
 ;
 if

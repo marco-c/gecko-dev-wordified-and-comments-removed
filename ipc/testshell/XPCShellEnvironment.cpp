@@ -3044,14 +3044,14 @@ cx
 result
 )
 ;
-nsDependentJSString
-depStr
+nsAutoJSString
+autoStr
 ;
 if
 (
 str
 )
-depStr
+autoStr
 .
 init
 (
@@ -3068,7 +3068,7 @@ old
 if
 (
 !
-depStr
+autoStr
 .
 IsEmpty
 (
@@ -3083,7 +3083,7 @@ aResult
 >
 Assign
 (
-depStr
+autoStr
 )
 ;
 }

@@ -506,12 +506,12 @@ if
 str
 )
 {
-nsDependentJSString
-depStr
+nsAutoJSString
+autoStr
 ;
 if
 (
-depStr
+autoStr
 .
 init
 (
@@ -524,7 +524,7 @@ aResult
 .
 Assign
 (
-depStr
+autoStr
 )
 ;
 }

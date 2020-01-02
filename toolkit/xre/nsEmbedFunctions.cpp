@@ -3148,7 +3148,7 @@ tsp
 false
 )
 ;
-nsDependentJSString
+nsAutoJSString
 command
 ;
 NS_ENSURE_TRUE

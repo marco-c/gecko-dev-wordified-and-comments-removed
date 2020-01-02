@@ -5878,7 +5878,7 @@ str
 NS_ERROR_FAILURE
 )
 ;
-nsDependentJSString
+nsAutoJSString
 value
 ;
 NS_ENSURE_TRUE

@@ -997,7 +997,7 @@ toString
 (
 )
 ;
-nsDependentJSString
+nsAutoJSString
 str
 ;
 if
@@ -1179,7 +1179,7 @@ arr
 }
 else
 {
-nsDependentJSString
+nsAutoJSString
 name
 ;
 JS

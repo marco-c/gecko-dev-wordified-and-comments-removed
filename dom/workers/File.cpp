@@ -1013,7 +1013,7 @@ return
 false
 ;
 }
-nsDependentJSString
+nsAutoJSString
 contentType
 ;
 if

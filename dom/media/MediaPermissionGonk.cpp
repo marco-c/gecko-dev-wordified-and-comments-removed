@@ -1527,7 +1527,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsDependentJSString
+nsAutoJSString
 deviceName
 ;
 if
@@ -1598,7 +1598,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsDependentJSString
+nsAutoJSString
 deviceName
 ;
 if

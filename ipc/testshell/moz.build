@@ -222,7 +222,7 @@ xpcshell
 error
 messages
 and
-nsDependentJSString
+nsAutoJSString
 LOCAL_INCLUDES
 +
 =

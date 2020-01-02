@@ -724,7 +724,7 @@ JSContext
 aContext
 )
 {
-nsDependentJSString
+nsAutoJSString
 valueStr
 ;
 if

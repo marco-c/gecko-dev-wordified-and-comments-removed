@@ -3331,7 +3331,7 @@ return
 NS_OK
 ;
 }
-nsDependentJSString
+nsAutoJSString
 keyStr
 ;
 if
