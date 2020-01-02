@@ -747,8 +747,6 @@ text
 {
 text
 :
-aLauncher
-.
 downloadSize
 className
 :
