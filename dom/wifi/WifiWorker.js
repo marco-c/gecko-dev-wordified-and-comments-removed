@@ -1152,6 +1152,7 @@ status
 function
 unloadDriver
 (
+type
 callback
 )
 {
@@ -1159,6 +1160,15 @@ if
 (
 !
 unloadDriverEnabled
+)
+{
+if
+(
+type
+=
+=
+=
+WIFI_FIRMWARE_STATION
 )
 {
 notify
@@ -1173,6 +1183,7 @@ true
 }
 )
 ;
+}
 callback
 (
 0
@@ -1198,6 +1209,15 @@ status
 0
 )
 ;
+if
+(
+type
+=
+=
+=
+WIFI_FIRMWARE_STATION
+)
+{
 notify
 (
 "
@@ -1210,6 +1230,7 @@ true
 }
 )
 ;
+}
 callback
 (
 status
@@ -4856,6 +4877,7 @@ status
 {
 unloadDriver
 (
+WIFI_FIRMWARE_STATION
 function
 (
 )
@@ -5012,6 +5034,7 @@ ok
 {
 unloadDriver
 (
+WIFI_FIRMWARE_STATION
 callback
 )
 ;
@@ -5214,6 +5237,7 @@ successfully
 ;
 unloadDriver
 (
+WIFI_FIRMWARE_AP
 function
 (
 status
