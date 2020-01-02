@@ -105,6 +105,13 @@ ImageFactory
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 namespace
 mozilla
 {
@@ -156,6 +163,13 @@ if
 gInitializedPrefCaches
 )
 {
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 Preferences
 :
 :
