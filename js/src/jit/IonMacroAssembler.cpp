@@ -3336,6 +3336,8 @@ initialHeap
 Label
 *
 fail
+bool
+initFixedSlots
 )
 {
 uint32_t
@@ -3396,6 +3398,7 @@ initGCThing
 obj
 temp
 templateObj
+initFixedSlots
 )
 ;
 }
@@ -4149,6 +4152,8 @@ slots
 JSObject
 *
 templateObj
+bool
+initFixedSlots
 )
 {
 uint32_t
@@ -4184,15 +4189,11 @@ return
 uint32_t
 nfixed
 =
-Min
-(
 templateObj
 -
 >
-numFixedSlots
+numUsedFixedSlots
 (
-)
-nslots
 )
 ;
 uint32_t
@@ -4230,6 +4231,11 @@ templateObj
 startOfUndefined
 )
 ;
+if
+(
+initFixedSlots
+)
+{
 fillSlotsWithUndefined
 (
 Address
@@ -4248,6 +4254,7 @@ startOfUndefined
 nfixed
 )
 ;
+}
 if
 (
 ndynamic
@@ -4305,6 +4312,8 @@ slots
 JSObject
 *
 templateObj
+bool
+initFixedSlots
 )
 {
 JS_ASSERT
@@ -4622,6 +4631,7 @@ initGCSlots
 obj
 slots
 templateObj
+initFixedSlots
 )
 ;
 if
