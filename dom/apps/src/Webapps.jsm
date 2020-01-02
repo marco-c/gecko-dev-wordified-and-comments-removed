@@ -2068,6 +2068,7 @@ updatePermissionsForApp
 function
 (
 aId
+aIsPreinstalled
 )
 {
 if
@@ -2150,6 +2151,9 @@ aId
 ]
 .
 origin
+isPreinstalled
+:
+aIsPreinstalled
 }
 true
 function
@@ -2300,6 +2304,9 @@ aId
 ;
 let
 baseDir
+isPreinstalled
+=
+false
 ;
 try
 {
@@ -2332,6 +2339,7 @@ exists
 )
 {
 return
+isPreinstalled
 ;
 }
 else
@@ -2368,6 +2376,7 @@ empty
 )
 ;
 return
+isPreinstalled
 ;
 }
 }
@@ -2377,8 +2386,13 @@ e
 )
 {
 return
+isPreinstalled
 ;
 }
+isPreinstalled
+=
+true
+;
 let
 filesToMove
 ;
@@ -2445,6 +2459,7 @@ exists
 )
 {
 return
+isPreinstalled
 ;
 }
 isPackage
@@ -2629,6 +2644,7 @@ isPackage
 )
 {
 return
+isPreinstalled
 ;
 }
 app
@@ -2816,6 +2832,9 @@ close
 )
 ;
 }
+return
+isPreinstalled
+;
 #
 endif
 }
@@ -3390,6 +3409,9 @@ this
 webapps
 )
 {
+let
+isPreinstalled
+=
 this
 .
 installPreinstalledApp
@@ -3430,6 +3452,7 @@ this
 updatePermissionsForApp
 (
 id
+isPreinstalled
 )
 ;
 }
