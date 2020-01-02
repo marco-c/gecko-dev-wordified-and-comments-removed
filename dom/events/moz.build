@@ -570,6 +570,11 @@ WheelEvent
 cpp
 '
 '
+WheelHandlingHelper
+.
+cpp
+'
+'
 XULCommandEvent
 .
 cpp
