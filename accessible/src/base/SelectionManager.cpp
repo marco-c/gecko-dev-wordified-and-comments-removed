@@ -106,6 +106,7 @@ a11y
 :
 :
 SelData
+MOZ_FINAL
 {
 SelData
 (
@@ -139,7 +140,14 @@ NS_INLINE_DECL_REFCOUNTING
 (
 SelData
 )
-;
+private
+:
+~
+SelData
+(
+)
+{
+}
 }
 ;
 void

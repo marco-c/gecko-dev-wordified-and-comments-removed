@@ -51,13 +51,6 @@ Notification
 {
 public
 :
-virtual
-~
-Notification
-(
-)
-{
-}
 NS_INLINE_DECL_REFCOUNTING
 (
 Notification
@@ -72,6 +65,13 @@ Process
 ;
 protected
 :
+Notification
+(
+)
+{
+}
+virtual
+~
 Notification
 (
 )
