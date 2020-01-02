@@ -2083,7 +2083,7 @@ MOZ_DELETE
 #
 ifdef
 JSGC_GENERATIONAL
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 void
 )
@@ -2101,7 +2101,7 @@ Cell
 cellp
 )
 ;
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 void
 )
