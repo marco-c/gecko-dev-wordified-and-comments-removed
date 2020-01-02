@@ -1532,10 +1532,10 @@ convertShiftToMaskForStaticTypedArray
 MDefinition
 *
 id
-ArrayBufferView
+Scalar
 :
 :
-ViewType
+Type
 viewType
 )
 ;

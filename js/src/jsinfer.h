@@ -2451,7 +2451,10 @@ getCommonPrototype
 (
 )
 ;
-int
+Scalar
+:
+:
+Type
 getTypedArrayType
 (
 )

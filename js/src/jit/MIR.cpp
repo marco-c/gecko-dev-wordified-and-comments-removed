@@ -16567,7 +16567,7 @@ obj
 MDefinition
 *
 id
-ScalarTypeDescr
+Scalar
 :
 :
 Type
@@ -16639,12 +16639,6 @@ false
 *
 arrayType
 =
-(
-ScalarTypeDescr
-:
-:
-Type
-)
 types
 -
 >
@@ -16657,10 +16651,10 @@ return
 arrayType
 !
 =
-ScalarTypeDescr
+Scalar
 :
 :
-TYPE_MAX
+TypeMax
 ;
 }
 bool
