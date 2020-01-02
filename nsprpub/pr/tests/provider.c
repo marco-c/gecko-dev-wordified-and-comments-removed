@@ -3828,7 +3828,7 @@ NULL
 0U
 windows_start
 start_object
-0U
+STACK_SIZE_PARAM_IS_A_RESERVATION
 &
 id
 )
