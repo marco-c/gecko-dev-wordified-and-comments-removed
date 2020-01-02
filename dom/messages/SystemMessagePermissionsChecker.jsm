@@ -319,6 +319,16 @@ connection
 {
 }
 "
+dummy
+-
+system
+-
+message
+"
+:
+{
+}
+"
 headset
 -
 button
