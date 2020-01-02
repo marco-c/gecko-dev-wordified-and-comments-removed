@@ -3931,6 +3931,8 @@ cls
 Must
 have
 a
+Firefox
+or
 Mulet
 build
 .
