@@ -425,15 +425,6 @@ status
 expected
 :
             
-if
-status
-=
-=
-"
-PASS
-"
-:
-                
 status_name
 =
 "
@@ -441,23 +432,22 @@ UNEXPECTED_
 "
 +
 status
-            
-else
+        
+elif
+status
+!
+=
+"
+PASS
+"
 :
-                
+            
 status_name
 =
 "
 EXPECTED_
 "
 +
-status
-        
-else
-:
-            
-status_name
-=
 status
         
 self
@@ -1192,7 +1182,7 @@ self
 test_count
 [
 "
-FAIL
+UNEXPECTED_FAIL
 "
 ]
 class_
@@ -1219,7 +1209,7 @@ self
 test_count
 [
 "
-ERROR
+UNEXPECTED_ERROR
 "
 ]
 class_
@@ -1453,6 +1443,17 @@ table
 )
         
 return
+u
+"
+<
+!
+DOCTYPE
+html
+>
+\
+n
+"
++
 doc
 .
 unicode
