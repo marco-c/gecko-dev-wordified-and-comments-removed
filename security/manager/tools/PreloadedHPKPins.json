@@ -1598,7 +1598,7 @@ mozilla_fxa
 test_mode
 "
 :
-true
+false
 "
 id
 "
@@ -1635,7 +1635,7 @@ mozilla_fxa
 test_mode
 "
 :
-true
+false
 "
 id
 "
