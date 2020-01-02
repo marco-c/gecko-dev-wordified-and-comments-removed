@@ -304,7 +304,7 @@ URLFetcherFileTest
 LargeGet
 URLFetcherFileTest
 .
-CanTakeOwnershipOfFile
+CantakeOfFile
 URLFetcherFileTest
 .
 OverwriteExistingFile
@@ -319,7 +319,7 @@ URLFetcherFileTest
 LargeGetToTempFile
 URLFetcherFileTest
 .
-CanTakeOwnershipOfTempFile
+CantakeOfTempFile
 URLFetcherEmptyPostTest
 .
 Basic

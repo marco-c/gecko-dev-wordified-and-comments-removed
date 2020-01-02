@@ -436,7 +436,7 @@ Alloc
 storageSize
 )
 .
-get
+take
 (
 )
 ;

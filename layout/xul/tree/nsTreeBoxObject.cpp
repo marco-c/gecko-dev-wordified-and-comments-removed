@@ -873,7 +873,7 @@ Columns
 (
 )
 .
-get
+take
 (
 )
 ;

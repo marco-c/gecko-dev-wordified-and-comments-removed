@@ -374,7 +374,7 @@ _GetterProc
 )
 )
 .
-get
+take
 (
 )
 ;

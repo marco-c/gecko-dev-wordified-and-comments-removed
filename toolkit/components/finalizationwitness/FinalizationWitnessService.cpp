@@ -678,7 +678,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 )

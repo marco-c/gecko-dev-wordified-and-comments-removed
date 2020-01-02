@@ -6176,7 +6176,7 @@ GetDocumentLoadGroup
 (
 )
 .
-get
+take
 (
 )
 ;

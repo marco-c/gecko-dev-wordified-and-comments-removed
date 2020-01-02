@@ -2147,7 +2147,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ReleaseTexture

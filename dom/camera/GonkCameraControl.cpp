@@ -4909,7 +4909,7 @@ GetGonkRecorderProfileManager
 (
 )
 .
-get
+take
 (
 )
 -

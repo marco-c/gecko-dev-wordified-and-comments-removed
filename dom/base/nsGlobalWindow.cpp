@@ -17129,7 +17129,7 @@ GetContentInternal
 rv
 )
 .
-get
+take
 (
 )
 ;

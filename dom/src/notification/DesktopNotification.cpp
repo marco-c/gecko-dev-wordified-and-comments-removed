@@ -832,7 +832,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 permArray

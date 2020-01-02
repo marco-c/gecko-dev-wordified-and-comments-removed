@@ -8789,7 +8789,7 @@ fileOutputStream
 BUFFERED_OUTPUT_SIZE
 )
 .
-get
+take
 (
 )
 ;

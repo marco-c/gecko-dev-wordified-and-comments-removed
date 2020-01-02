@@ -1248,7 +1248,7 @@ InterfaceInfo
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -2234,7 +2234,7 @@ InterfaceInfo
 (
 )
 .
-get
+take
 (
 )
 ;

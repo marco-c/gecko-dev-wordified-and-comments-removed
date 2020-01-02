@@ -382,7 +382,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ;

@@ -7799,7 +7799,7 @@ MozCaptureStream
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -7884,7 +7884,7 @@ MozCaptureStreamUntilEnded
 rv
 )
 .
-get
+take
 (
 )
 ;

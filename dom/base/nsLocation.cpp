@@ -3703,7 +3703,7 @@ GetBaseURI
 (
 )
 .
-get
+take
 (
 )
 ;

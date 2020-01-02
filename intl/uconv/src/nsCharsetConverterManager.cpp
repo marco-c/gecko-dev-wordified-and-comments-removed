@@ -1297,7 +1297,7 @@ NS_NewAtom
 langGroup
 )
 .
-get
+take
 (
 )
 ;

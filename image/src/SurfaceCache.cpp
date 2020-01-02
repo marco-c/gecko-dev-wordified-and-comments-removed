@@ -899,7 +899,7 @@ aImageKey
 aSurfaceKey
 )
 .
-get
+take
 (
 )
 "

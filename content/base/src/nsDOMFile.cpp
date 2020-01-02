@@ -1062,7 +1062,7 @@ aStart
 aContentType
 )
 .
-get
+take
 (
 )
 ;

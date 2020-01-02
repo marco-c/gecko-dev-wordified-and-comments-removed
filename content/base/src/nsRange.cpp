@@ -9230,7 +9230,7 @@ CloneContents
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -10000,7 +10000,7 @@ CloneRange
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -12234,7 +12234,7 @@ GetBoundingClientRect
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -12353,7 +12353,7 @@ GetClientRects
 (
 )
 .
-get
+take
 (
 )
 ;

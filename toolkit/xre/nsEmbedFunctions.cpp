@@ -2983,10 +2983,6 @@ ContentParent
 GetNewOrUsed
 (
 )
-.
-get
-(
-)
 ;
 parent
 .

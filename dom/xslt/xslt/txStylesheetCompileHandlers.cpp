@@ -1236,7 +1236,7 @@ attr
 mValue
 )
 .
-get
+take
 (
 )
 ;

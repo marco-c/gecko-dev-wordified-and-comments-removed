@@ -212,7 +212,7 @@ ToXPCOMCallback
 (
 )
 .
-get
+take
 (
 )
 ;

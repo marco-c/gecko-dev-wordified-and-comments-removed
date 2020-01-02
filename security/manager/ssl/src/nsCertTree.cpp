@@ -3763,7 +3763,7 @@ GetCertAtIndex
 aIndex
 )
 .
-get
+take
 (
 )
 ;

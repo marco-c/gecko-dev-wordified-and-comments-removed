@@ -4283,7 +4283,7 @@ idx
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -4326,7 +4326,7 @@ idx
 )
 )
 .
-get
+take
 (
 )
 ;
@@ -4397,7 +4397,7 @@ NS_NewAtom
 lcname
 )
 .
-get
+take
 (
 )
 ;
@@ -4412,7 +4412,7 @@ NS_NewAtom
 aQName
 )
 .
-get
+take
 (
 )
 ;

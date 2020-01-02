@@ -3179,7 +3179,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 aContext
@@ -3453,7 +3453,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 aContext
@@ -10027,7 +10027,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -10113,7 +10113,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 ;

@@ -5825,7 +5825,7 @@ false
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -5895,7 +5895,7 @@ replace
 rv
 )
 .
-get
+take
 (
 )
 ;
@@ -8187,7 +8187,7 @@ GetElementsByName
 aElementName
 )
 .
-get
+take
 (
 )
 ;
@@ -8629,7 +8629,7 @@ GetItems
 types
 )
 .
-get
+take
 (
 )
 ;
@@ -9192,7 +9192,7 @@ GetSelection
 rv
 )
 .
-get
+take
 (
 )
 ;

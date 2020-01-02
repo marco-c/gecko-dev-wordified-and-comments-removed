@@ -412,7 +412,7 @@ valStr
 )
 )
 .
-get
+take
 (
 )
 ;

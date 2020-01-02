@@ -20188,7 +20188,7 @@ BufferFromString
 aString
 )
 .
-get
+take
 (
 )
 ;

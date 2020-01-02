@@ -2552,7 +2552,7 @@ forget
 (
 )
 .
-get
+take
 (
 )
 nsPropertyTable

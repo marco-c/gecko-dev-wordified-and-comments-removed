@@ -285,7 +285,7 @@ aRawPtr
 }
 T
 *
-get
+take
 (
 )
 const

@@ -14488,7 +14488,7 @@ EnsureXPCOMifier
 (
 )
 .
-get
+take
 (
 )
 )
@@ -14531,7 +14531,7 @@ EnsureXPCOMifier
 (
 )
 .
-get
+take
 (
 )
 )
@@ -14936,7 +14936,7 @@ EnsureXPCOMifier
 (
 )
 .
-get
+take
 (
 )
 )
@@ -14972,7 +14972,7 @@ EnsureXPCOMifier
 (
 )
 .
-get
+take
 (
 )
 )
@@ -15008,7 +15008,7 @@ EnsureXPCOMifier
 (
 )
 .
-get
+take
 (
 )
 )

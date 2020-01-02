@@ -1212,7 +1212,7 @@ PeekUndoStack
 (
 )
 .
-get
+take
 (
 )
 ;
@@ -1286,7 +1286,7 @@ PeekRedoStack
 (
 )
 .
-get
+take
 (
 )
 ;

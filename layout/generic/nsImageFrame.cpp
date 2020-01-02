@@ -8813,7 +8813,7 @@ GetDocumentLoadGroup
 (
 )
 .
-get
+take
 (
 )
 ;
