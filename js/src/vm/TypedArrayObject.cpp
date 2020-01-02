@@ -18318,6 +18318,7 @@ ArrayBufferObject
 obj_deleteSpecial
 nullptr
 nullptr
+nullptr
 ArrayBufferObject
 :
 :
@@ -19398,6 +19399,13 @@ nullptr
 watch
 /
 unwatch
+*
+/
+\
+nullptr
+/
+*
+slice
 *
 /
 \
