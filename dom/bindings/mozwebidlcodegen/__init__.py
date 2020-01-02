@@ -2410,23 +2410,11 @@ filename
 )
         
 return
-set
-(
-f
-for
-f
-in
 changed_inputs
-if
-os
+&
+self
 .
-path
-.
-exists
-(
-f
-)
-)
+_input_paths
     
 def
 _binding_info
