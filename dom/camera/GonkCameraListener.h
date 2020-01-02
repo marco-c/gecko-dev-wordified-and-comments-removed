@@ -49,7 +49,7 @@ ext2
 0
 ;
 virtual
-void
+bool
 postData
 (
 int32_t
@@ -69,7 +69,7 @@ metadata
 0
 ;
 virtual
-void
+bool
 postDataTimestamp
 (
 nsecs_t
