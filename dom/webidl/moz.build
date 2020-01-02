@@ -665,6 +665,11 @@ HTMLFontElement
 webidl
 '
 '
+HTMLFormControlsCollection
+.
+webidl
+'
+'
 HTMLFormElement
 .
 webidl
