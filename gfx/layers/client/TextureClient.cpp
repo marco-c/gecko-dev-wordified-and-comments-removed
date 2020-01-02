@@ -1324,6 +1324,7 @@ result
 new
 TextureClientX11
 (
+aAllocator
 aFormat
 aTextureFlags
 )
@@ -1387,6 +1388,7 @@ result
 new
 TextureClientX11
 (
+aAllocator
 aFormat
 aTextureFlags
 )

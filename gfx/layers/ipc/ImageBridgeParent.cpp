@@ -577,6 +577,14 @@ size
 )
 ;
 }
+if
+(
+!
+IsSameProcess
+(
+)
+)
+{
 LayerManagerComposite
 :
 :
@@ -584,6 +592,7 @@ PlatformSyncBeforeReplyUpdate
 (
 )
 ;
+}
 return
 true
 ;

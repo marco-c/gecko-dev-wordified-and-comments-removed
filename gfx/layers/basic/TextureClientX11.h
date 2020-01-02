@@ -49,6 +49,9 @@ public
 :
 TextureClientX11
 (
+ISurfaceAllocator
+*
+aAllocator
 gfx
 :
 :
@@ -213,6 +216,12 @@ RefPtr
 gfxXlibSurface
 >
 mSurface
+;
+RefPtr
+<
+ISurfaceAllocator
+>
+mAllocator
 ;
 bool
 mLocked

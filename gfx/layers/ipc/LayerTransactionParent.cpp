@@ -3255,6 +3255,14 @@ size
 ;
 }
 }
+if
+(
+!
+IsSameProcess
+(
+)
+)
+{
 LayerManagerComposite
 :
 :
@@ -3262,6 +3270,7 @@ PlatformSyncBeforeReplyUpdate
 (
 )
 ;
+}
 mShadowLayersManager
 -
 >
