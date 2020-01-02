@@ -327,7 +327,7 @@ stream_params
 .
 rate
 <
-1
+1000
 |
 |
 stream_params
