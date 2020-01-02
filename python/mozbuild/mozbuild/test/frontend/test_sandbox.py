@@ -1660,20 +1660,6 @@ build
 '
 )
         
-expected
-=
-mozpath
-.
-join
-(
-test_data_path
-'
-moz
-.
-build
-'
-)
-        
 self
 .
 assertEqual
@@ -1683,7 +1669,14 @@ se
 exception
 .
 illegal_path
-expected
+'
+.
+.
+/
+moz
+.
+build
+'
 )
     
 def
