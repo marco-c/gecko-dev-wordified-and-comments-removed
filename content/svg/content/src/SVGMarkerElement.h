@@ -483,7 +483,13 @@ HasValidDimensions
 const
 MOZ_OVERRIDE
 ;
-gfxMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
 GetMarkerTransform
 (
 float
