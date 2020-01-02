@@ -3465,13 +3465,6 @@ name
 )
 ;
 }
-typedef
-HeapPtr
-<
-JSAtom
->
-HeapPtrAtom
-;
 class
 AutoNameVector
 :

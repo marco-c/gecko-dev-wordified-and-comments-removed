@@ -2020,10 +2020,7 @@ dynamicallyLinked_
 bool
 loadedFromCache_
 ;
-HeapPtr
-<
-ArrayBufferObject
->
+HeapPtrArrayBufferObject
 maybeHeap_
 ;
 uint32_t

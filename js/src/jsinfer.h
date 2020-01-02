@@ -2906,10 +2906,7 @@ private
 TypeObjectFlags
 flags_
 ;
-HeapPtr
-<
-TypeObjectAddendum
->
+HeapPtrTypeObjectAddendum
 addendum
 ;
 public

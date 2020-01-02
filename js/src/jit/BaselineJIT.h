@@ -372,10 +372,7 @@ MAX_JSSCRIPT_SLOTS
 ;
 private
 :
-HeapPtr
-<
-JitCode
->
+HeapPtrJitCode
 method_
 ;
 HeapPtrObject

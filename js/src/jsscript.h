@@ -519,10 +519,7 @@ friend
 class
 AliasedFormalIter
 ;
-HeapPtr
-<
-Shape
->
+HeapPtrShape
 callObjShape_
 ;
 uintptr_t

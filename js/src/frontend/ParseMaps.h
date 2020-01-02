@@ -107,10 +107,7 @@ InitAtomMap
 AtomIndexMap
 *
 indices
-HeapPtr
-<
-JSAtom
->
+HeapPtrAtom
 *
 atoms
 )

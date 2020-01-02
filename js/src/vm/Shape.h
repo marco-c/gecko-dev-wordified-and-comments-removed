@@ -2218,10 +2218,7 @@ setterObj
 ;
 }
 ;
-HeapPtr
-<
-UnownedBaseShape
->
+HeapPtrUnownedBaseShape
 unowned_
 ;
 ShapeTable

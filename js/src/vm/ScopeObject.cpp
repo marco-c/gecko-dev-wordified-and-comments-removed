@@ -8585,10 +8585,7 @@ ObjectWeakMap
 *
 map
 const
-EncapsulatedPtr
-<
-JSObject
->
+EncapsulatedPtrObject
 &
 key
 )
