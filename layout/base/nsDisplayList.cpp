@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsThemeConstants
 .
 h
