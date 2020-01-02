@@ -253,16 +253,6 @@ DataChannel
 channel
 )
 ;
-void
-notifyConnection
-(
-)
-;
-void
-notifyClosedConnection
-(
-)
-;
 /
 *
 Notification

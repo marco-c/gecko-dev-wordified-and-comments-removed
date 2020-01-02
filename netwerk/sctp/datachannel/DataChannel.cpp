@@ -2925,7 +2925,6 @@ DataChannelOnMessageAvailable
 :
 ON_CONNECTION
 this
-false
 )
 )
 ;
@@ -7357,7 +7356,6 @@ DataChannelOnMessageAvailable
 :
 ON_CONNECTION
 this
-true
 )
 )
 ;

@@ -826,14 +826,6 @@ attribute
 EventHandler
 ondatachannel
 ;
-attribute
-EventHandler
-onconnection
-;
-attribute
-EventHandler
-onclosedconnection
-;
 [
 Pref
 =
