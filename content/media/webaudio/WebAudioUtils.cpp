@@ -28,15 +28,6 @@ HRTFDatabaseLoader
 .
 h
 "
-#
-include
-"
-speex
-/
-speex_resampler
-.
-h
-"
 namespace
 mozilla
 {

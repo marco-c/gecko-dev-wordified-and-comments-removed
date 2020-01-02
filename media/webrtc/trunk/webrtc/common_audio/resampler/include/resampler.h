@@ -15,13 +15,13 @@ h
 "
 #
 include
-"
+<
 speex
 /
 speex_resampler
 .
 h
-"
+>
 namespace
 webrtc
 {
