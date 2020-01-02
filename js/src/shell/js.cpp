@@ -5927,9 +5927,6 @@ loadBytecode
 |
 |
 saveBytecode
-|
-|
-assertEqBytecode
 )
 {
 if
