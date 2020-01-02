@@ -301,17 +301,6 @@ none
 ;
 }
 #
-main
--
-window
-:
-not
-(
-[
-disablechrome
-]
-)
-#
 navigator
 -
 toolbox
