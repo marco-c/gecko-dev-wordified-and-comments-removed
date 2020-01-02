@@ -400,9 +400,6 @@ DrawTargetCG
 CGMutablePathRef
 mPath
 ;
-bool
-mEndedActive
-;
 Point
 mEndPoint
 ;

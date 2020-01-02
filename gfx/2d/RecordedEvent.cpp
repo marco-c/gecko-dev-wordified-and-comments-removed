@@ -1506,7 +1506,7 @@ ReferencePtr
 RecordedDrawingEvent
 :
 :
-GetObject
+GetObjectRef
 (
 )
 const
