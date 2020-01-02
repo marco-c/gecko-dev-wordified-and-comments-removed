@@ -367,6 +367,16 @@ DLL_SUFFIX
 #
 endif
 #
+ifdef
+MOZ_DMD
+BINPATH
+/
+DLL_PREFIX
+dmd
+DLL_SUFFIX
+#
+endif
+#
 ifndef
 MOZ_NATIVE_NSPR
 #
