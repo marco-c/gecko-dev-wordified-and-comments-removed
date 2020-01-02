@@ -61,6 +61,13 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+nsPIDOMWindow
+.
+h
+"
 struct
 JSContext
 ;

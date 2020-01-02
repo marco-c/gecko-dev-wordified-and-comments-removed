@@ -113,6 +113,12 @@ aNsAware
 ;
 #
 endif
+virtual
+~
+nsIAttribute
+(
+)
+;
 nsRefPtr
 <
 nsDOMAttributeMap
