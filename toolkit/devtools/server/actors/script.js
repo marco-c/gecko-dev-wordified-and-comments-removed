@@ -1902,6 +1902,12 @@ _threadLifetimePool
 =
 null
 ;
+this
+.
+_tabClosed
+=
+false
+;
 }
 ThreadActor
 .
@@ -3596,6 +3602,12 @@ TA__pauseAndRespond
 ;
 }
 return
+this
+.
+_tabClosed
+?
+null
+:
 undefined
 ;
 }
@@ -4039,6 +4051,7 @@ k
 =
 >
 {
+return
 this
 .
 _pauseAndRespond
