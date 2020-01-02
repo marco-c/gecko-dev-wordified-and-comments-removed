@@ -22713,7 +22713,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-sinf
+asinf
 )
 ;
 break
