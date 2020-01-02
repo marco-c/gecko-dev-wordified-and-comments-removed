@@ -2835,6 +2835,9 @@ tiles
 mRetainedWidth
 mRetainedHeight
 mResolution
+mFrameResolution
+.
+scale
 )
 ;
 }

@@ -1419,6 +1419,9 @@ retainedHeight
 float
 resolution
 ;
+float
+frameResolution
+;
 }
 ;
 struct
