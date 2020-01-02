@@ -1,4 +1,6 @@
 import
+os
+import
 subprocess
 import
 traceback
@@ -210,8 +212,6 @@ self
 symbols_path
 =
 symbols_path
-    
-abstractmethod
     
 def
 start
@@ -665,11 +665,36 @@ check_for_crashes
 (
 self
 dump_directory
+=
+None
 test_name
 =
 None
 )
 :
+        
+if
+not
+dump_directory
+:
+            
+dump_directory
+=
+os
+.
+path
+.
+join
+(
+self
+.
+profile
+.
+profile
+'
+minidumps
+'
+)
         
 crashed
 =
