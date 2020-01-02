@@ -1682,6 +1682,10 @@ manifest
 '
         
 '
+tests
+'
+        
+'
 manifest_relpath
 '
         
@@ -1777,6 +1781,13 @@ installs
 =
 {
 }
+        
+self
+.
+tests
+=
+[
+]
         
 self
 .
