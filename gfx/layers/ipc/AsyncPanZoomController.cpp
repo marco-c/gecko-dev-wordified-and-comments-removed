@@ -6300,7 +6300,9 @@ APZC_LOG_FM
 (
 aFrameMetrics
 "
-Calculated
+%
+p
+calculated
 displayport
 as
 (
@@ -6334,6 +6336,7 @@ time
 f
 metrics
 "
+this
 displayPort
 .
 x
@@ -7564,7 +7567,9 @@ mUpdateScrollOffset
 APZC_LOG
 (
 "
-Updating
+%
+p
+updating
 scroll
 offset
 from
@@ -7584,6 +7589,7 @@ f
 \
 n
 "
+this
 mFrameMetrics
 .
 mScrollOffset
@@ -9189,7 +9195,9 @@ mAPZCId
 APZC_LOG
 (
 "
-Failed
+%
+p
+failed
 to
 share
 FrameMetrics
@@ -9198,6 +9206,7 @@ content
 process
 .
 "
+this
 )
 ;
 }
