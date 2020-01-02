@@ -3715,7 +3715,7 @@ map
 PR_CreateFileMap
 (
 fileHandle
-fileSize
+0
 PR_PROT_READONLY
 )
 ;
