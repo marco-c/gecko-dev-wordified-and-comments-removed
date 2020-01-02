@@ -127,6 +127,7 @@ gr_slatJStretch
 +
 29
 gr_slatUserDefn
+gr_slatBidiLevel
 gr_slatMax
 gr_slatNoEffect
 =

@@ -44,6 +44,9 @@ class
 VMScratch
 ;
 class
+Error
+;
+class
 Pseudo
 {
 public
@@ -197,7 +200,6 @@ const
 pSilf
 size_t
 lSilf
-const
 Face
 &
 face
@@ -217,6 +219,10 @@ firstPass
 0
 uint8
 lastPass
+=
+0
+int
+dobidi
 =
 0
 )
@@ -299,6 +305,16 @@ const
 {
 return
 m_aPassBits
+;
+}
+uint8
+aBidi
+(
+)
+const
+{
+return
+m_aBidi
 ;
 }
 uint8
@@ -440,6 +456,9 @@ size_t
 data_len
 uint32
 version
+Error
+&
+e
 )
 ;
 template
@@ -458,6 +477,9 @@ byte
 p
 size_t
 data_len
+Error
+&
+e
 )
 ;
 Pass

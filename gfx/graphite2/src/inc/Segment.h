@@ -88,6 +88,15 @@ List
 h
 "
 #
+include
+"
+inc
+/
+Bidi
+.
+h
+"
+#
 define
 MAX_SEG_GROWTH_FACTOR
 256
@@ -555,6 +564,10 @@ last
 void
 associateChars
 (
+int
+offset
+int
+num
 )
 ;
 void
@@ -994,7 +1007,7 @@ const
 CLASS_NEW_DELETE
 public
 :
-void
+bool
 read_text
 (
 const
@@ -1058,9 +1071,6 @@ pLast
 ;
 private
 :
-Rect
-m_bbox
-;
 Position
 m_advance
 ;
@@ -1150,6 +1160,8 @@ font
 ;
 associateChars
 (
+0
+m_numCharinfo
 )
 ;
 linkClusters

@@ -4748,10 +4748,6 @@ uint16
 pMid
 )
 ;
-n
-=
-rangeKey
-;
 }
 else
 {

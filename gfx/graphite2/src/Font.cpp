@@ -110,6 +110,9 @@ m_ops
 if
 (
 m_hinted
+&
+&
+ops
 )
 memcpy
 (

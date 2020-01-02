@@ -548,10 +548,10 @@ seg
 >
 associateChars
 (
+subSegStart
+length
 )
 ;
-entry
-=
 segCache
 -
 >

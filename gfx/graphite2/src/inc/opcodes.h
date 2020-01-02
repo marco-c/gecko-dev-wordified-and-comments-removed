@@ -973,6 +973,13 @@ newSlot
 (
 )
 ;
+if
+(
+!
+newSlot
+)
+DIE
+;
 Slot
 *
 iss
@@ -3547,6 +3554,13 @@ seg
 newSlot
 (
 )
+;
+if
+(
+!
+newSlot
+)
+DIE
 ;
 int16
 *

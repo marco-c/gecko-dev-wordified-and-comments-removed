@@ -1088,11 +1088,15 @@ if
 !
 _code
 )
+{
 failure
 (
 alloc_failed
 )
 ;
+return
+;
+}
 _code
 [
 _instr_count

@@ -21,7 +21,7 @@ GR2_VERSION_MINOR
 #
 define
 GR2_VERSION_BUGFIX
-3
+4
 #
 ifdef
 __cplusplus
