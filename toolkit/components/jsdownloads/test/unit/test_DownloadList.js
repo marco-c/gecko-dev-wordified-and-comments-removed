@@ -1532,9 +1532,6 @@ add
 downloadTwo
 )
 ;
-let
-expire
-=
 Cc
 [
 "
@@ -1556,8 +1553,6 @@ Ci
 .
 nsIObserver
 )
-;
-expire
 .
 observe
 (
