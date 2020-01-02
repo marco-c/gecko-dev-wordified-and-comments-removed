@@ -18993,6 +18993,18 @@ n
 "
                            
 "
+JSAutoCompartment
+ac
+(
+aCx
+obj
+)
+;
+\
+n
+"
+                           
+"
 if
 (
 !
