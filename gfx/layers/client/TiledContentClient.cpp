@@ -4384,7 +4384,7 @@ aResolution
 const
 gfx3DMatrix
 &
-aTransformParentLayerToLayoutDevice
+aTransformDisplayPortToLayoutDevice
 )
 {
 ParentLayerRect
@@ -4409,7 +4409,7 @@ aScrollOffset
 gfxRect
 transformedViewport
 =
-aTransformParentLayerToLayoutDevice
+aTransformDisplayPortToLayoutDevice
 .
 TransformBounds
 (
@@ -4653,7 +4653,7 @@ mResolution
 aPaintData
 -
 >
-mTransformParentLayerToLayoutDevice
+mTransformDisplayPortToLayoutDevice
 )
 ;
 LayoutDeviceRect

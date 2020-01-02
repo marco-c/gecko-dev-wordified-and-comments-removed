@@ -910,7 +910,7 @@ ParentLayerPoint
 mLastScrollOffset
 ;
 gfx3DMatrix
-mTransformParentLayerToLayoutDevice
+mTransformDisplayPortToLayoutDevice
 ;
 nsIntRect
 mCriticalDisplayPort
