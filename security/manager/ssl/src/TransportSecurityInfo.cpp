@@ -2753,15 +2753,6 @@ char
 *
 certName
 =
-nullptr
-;
-if
-(
-!
-certName
-)
-certName
-=
 CERT_GetCommonName
 (
 &
