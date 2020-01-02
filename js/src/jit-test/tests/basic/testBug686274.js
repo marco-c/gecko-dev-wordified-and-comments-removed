@@ -1,3 +1,15 @@
+setJitCompilerOption
+(
+"
+baseline
+.
+usecount
+.
+trigger
+"
+2
+)
+;
 function
 f
 (
