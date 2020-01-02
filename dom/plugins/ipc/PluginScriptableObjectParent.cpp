@@ -3247,6 +3247,17 @@ SendUnprotect
 )
 ;
 }
+void
+PluginScriptableObjectParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 PluginScriptableObjectParent
 :

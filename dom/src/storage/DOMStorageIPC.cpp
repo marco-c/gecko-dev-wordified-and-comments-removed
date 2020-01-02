@@ -1530,6 +1530,17 @@ aScope
 )
 ;
 }
+void
+DOMStorageDBParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 DOMStorageDBParent
 :

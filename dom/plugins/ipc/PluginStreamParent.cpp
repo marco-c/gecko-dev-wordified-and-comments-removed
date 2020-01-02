@@ -111,6 +111,17 @@ mStream
 nullptr
 ;
 }
+void
+PluginStreamParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 PluginStreamParent
 :

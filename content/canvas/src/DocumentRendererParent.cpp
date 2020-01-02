@@ -240,6 +240,17 @@ damageRect
 )
 ;
 }
+void
+DocumentRendererParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 DocumentRendererParent
 :

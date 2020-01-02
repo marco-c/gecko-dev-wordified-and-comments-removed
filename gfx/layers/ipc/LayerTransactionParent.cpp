@@ -826,6 +826,17 @@ GetBackendType
 )
 ;
 }
+void
+LayerTransactionParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 LayerTransactionParent
 :

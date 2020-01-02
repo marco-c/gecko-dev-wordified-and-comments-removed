@@ -92,5 +92,16 @@ PluginSurfaceParent
 )
 {
 }
+void
+PluginSurfaceParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 }
 }

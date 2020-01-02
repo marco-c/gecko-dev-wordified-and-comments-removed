@@ -278,6 +278,17 @@ CookieServiceParent
 )
 {
 }
+void
+CookieServiceParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 CookieServiceParent
 :

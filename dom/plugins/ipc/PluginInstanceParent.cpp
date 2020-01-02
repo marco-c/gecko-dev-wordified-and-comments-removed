@@ -293,6 +293,17 @@ mozilla
 :
 gl
 ;
+void
+StreamNotifyParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 StreamNotifyParent
 :

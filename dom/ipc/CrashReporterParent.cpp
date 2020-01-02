@@ -82,6 +82,17 @@ data
 #
 endif
 }
+void
+CrashReporterParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 CrashReporterParent
 :

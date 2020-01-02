@@ -131,6 +131,15 @@ aResult
 ;
 virtual
 void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 CloneManagees
 (
 ProtocolBase

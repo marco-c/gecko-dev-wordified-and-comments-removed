@@ -91,6 +91,17 @@ BrowserStreamParent
 )
 {
 }
+void
+BrowserStreamParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 BrowserStreamParent
 :

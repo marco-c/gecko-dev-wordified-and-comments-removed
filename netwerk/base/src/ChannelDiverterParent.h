@@ -65,6 +65,15 @@ nsIStreamListener
 newListener
 )
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
 private
 :
 nsRefPtr

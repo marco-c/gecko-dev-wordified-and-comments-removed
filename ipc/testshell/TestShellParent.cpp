@@ -79,6 +79,17 @@ dom
 :
 ContentParent
 ;
+void
+TestShellParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 PTestShellCommandParent
 *
 TestShellParent

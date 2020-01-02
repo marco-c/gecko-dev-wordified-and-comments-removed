@@ -8918,6 +8918,17 @@ return
 NS_OK
 ;
 }
+void
+IndexedDBDeleteDatabaseRequestParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 nsresult
 IndexedDBDeleteDatabaseRequestParent
 :

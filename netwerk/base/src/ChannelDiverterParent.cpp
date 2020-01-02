@@ -258,5 +258,16 @@ newListener
 )
 ;
 }
+void
+ChannelDiverterParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 }
 }

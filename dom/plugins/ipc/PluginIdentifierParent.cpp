@@ -58,6 +58,17 @@ mozilla
 namespace
 plugins
 {
+void
+PluginIdentifierParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 PluginIdentifierParent
 :

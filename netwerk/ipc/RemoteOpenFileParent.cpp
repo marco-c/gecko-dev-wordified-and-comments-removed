@@ -61,6 +61,17 @@ mozilla
 namespace
 net
 {
+void
+RemoteOpenFileParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 RemoteOpenFileParent
 :

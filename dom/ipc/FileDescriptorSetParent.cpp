@@ -71,6 +71,17 @@ aFileDescriptors
 )
 ;
 }
+void
+FileDescriptorSetParent
+:
+:
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+{
+}
 bool
 FileDescriptorSetParent
 :

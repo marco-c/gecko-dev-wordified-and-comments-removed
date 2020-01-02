@@ -2498,6 +2498,15 @@ IndexedDBDeleteDatabaseRequestParent
 (
 )
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
 nsresult
 SetOpenRequest
 (

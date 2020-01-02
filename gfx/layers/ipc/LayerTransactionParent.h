@@ -305,6 +305,15 @@ MOZ_OVERRIDE
 protected
 :
 virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 RecvUpdate
 (
