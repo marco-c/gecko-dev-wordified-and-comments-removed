@@ -536,7 +536,7 @@ interfaceStateChangeTopic
 "
 network
 -
-interface
+connection
 -
 state
 -
@@ -697,7 +697,7 @@ interfaceStateChangeTopic
 "
 network
 -
-interface
+connection
 -
 state
 -

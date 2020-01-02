@@ -448,6 +448,19 @@ changed
 "
 ;
 const
+kNetworkConnStateChangedTopic
+=
+"
+network
+-
+connection
+-
+state
+-
+changed
+"
+;
+const
 kSmsReceivedObserverTopic
 =
 "
@@ -9579,7 +9592,7 @@ obs
 addObserver
 (
 this
-kNetworkInterfaceStateChangedTopic
+kNetworkConnStateChangedTopic
 false
 )
 ;
@@ -9851,7 +9864,7 @@ obs
 removeObserver
 (
 this
-kNetworkInterfaceStateChangedTopic
+kNetworkConnStateChangedTopic
 )
 ;
 }
@@ -16103,7 +16116,7 @@ offset
 break
 ;
 case
-kNetworkInterfaceStateChangedTopic
+kNetworkConnStateChangedTopic
 :
 let
 network

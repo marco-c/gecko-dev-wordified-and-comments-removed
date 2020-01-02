@@ -297,12 +297,12 @@ shutdown
 "
 ;
 const
-kNetworkInterfaceStateChangedTopic
+kNetworkConnStateChangedTopic
 =
 "
 network
 -
-interface
+connection
 -
 state
 -
@@ -1343,7 +1343,7 @@ obs
 addObserver
 (
 this
-kNetworkInterfaceStateChangedTopic
+kNetworkConnStateChangedTopic
 false
 )
 ;
@@ -2025,7 +2025,7 @@ obs
 removeObserver
 (
 this
-kNetworkInterfaceStateChangedTopic
+kNetworkConnStateChangedTopic
 )
 ;
 this
@@ -2073,7 +2073,7 @@ topic
 )
 {
 case
-kNetworkInterfaceStateChangedTopic
+kNetworkConnStateChangedTopic
 :
 {
 if
