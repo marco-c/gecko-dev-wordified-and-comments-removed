@@ -1933,6 +1933,14 @@ lir
 )
 ;
 bool
+visitGetDOMMember
+(
+LGetDOMMember
+*
+lir
+)
+;
+bool
 visitSetDOMProperty
 (
 LSetDOMProperty

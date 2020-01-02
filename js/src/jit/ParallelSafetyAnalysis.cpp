@@ -1253,6 +1253,10 @@ GetDOMProperty
 )
 UNSAFE_OP
 (
+GetDOMMember
+)
+UNSAFE_OP
+(
 SetDOMProperty
 )
 UNSAFE_OP

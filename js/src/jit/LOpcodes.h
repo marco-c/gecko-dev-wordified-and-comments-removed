@@ -1273,6 +1273,11 @@ GetDOMProperty
 \
 _
 (
+GetDOMMember
+)
+\
+_
+(
 SetDOMProperty
 )
 \

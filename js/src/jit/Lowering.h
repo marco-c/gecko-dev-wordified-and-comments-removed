@@ -1758,6 +1758,14 @@ MGetDOMProperty
 ins
 )
 ;
+bool
+visitGetDOMMember
+(
+MGetDOMMember
+*
+ins
+)
+;
 }
 ;
 }
