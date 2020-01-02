@@ -60,6 +60,9 @@ class
 nsIChannel
 ;
 class
+nsIPrincipal
+;
+class
 nsINode
 ;
 class
@@ -252,6 +255,12 @@ BlockScripts
 ;
 void
 UnblockScripts
+(
+)
+;
+nsIPrincipal
+*
+Principal
 (
 )
 ;
