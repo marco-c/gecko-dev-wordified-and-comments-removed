@@ -36,13 +36,9 @@ WindowNamedPropertiesHandler
 BaseDOMProxyHandler
 (
 nullptr
-)
-{
-setHasPrototype
-(
 true
 )
-;
+{
 }
 virtual
 bool
