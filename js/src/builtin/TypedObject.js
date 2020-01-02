@@ -152,7 +152,7 @@ TO_INT32
 UnsafeGetReservedSlot
 (
 obj
-JS_TYPEDOBJ_SLOT_BYTEOFFSET
+JS_BUFVIEW_SLOT_BYTEOFFSET
 )
 )
 #
@@ -177,7 +177,7 @@ obj
 UnsafeGetReservedSlot
 (
 obj
-JS_TYPEDOBJ_SLOT_OWNER
+JS_BUFVIEW_SLOT_OWNER
 )
 #
 define
@@ -191,7 +191,7 @@ TO_INT32
 UnsafeGetReservedSlot
 (
 obj
-JS_TYPEDOBJ_SLOT_LENGTH
+JS_BUFVIEW_SLOT_LENGTH
 )
 )
 #

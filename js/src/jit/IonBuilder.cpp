@@ -34539,7 +34539,7 @@ alloc
 (
 )
 obj
-JS_TYPEDOBJ_SLOT_LENGTH
+JS_BUFVIEW_SLOT_LENGTH
 )
 ;
 current
