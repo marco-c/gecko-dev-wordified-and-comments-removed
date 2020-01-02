@@ -2082,7 +2082,7 @@ HasIDIV
 (
 )
 ;
-static
+inline
 bool
 hasUnaliasedDouble
 (
@@ -2094,7 +2094,7 @@ Has32DP
 )
 ;
 }
-static
+inline
 bool
 hasMultiAlias
 (

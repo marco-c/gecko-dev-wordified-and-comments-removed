@@ -1160,7 +1160,7 @@ getRegisterDumpOffsetInBytes
 ;
 }
 ;
-static
+inline
 bool
 hasUnaliasedDouble
 (
@@ -1170,7 +1170,7 @@ return
 false
 ;
 }
-static
+inline
 bool
 hasMultiAlias
 (
