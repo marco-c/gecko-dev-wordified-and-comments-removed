@@ -2401,6 +2401,9 @@ bool
 mContextMenuHandled
 ;
 bool
+mLongTapEventHandled
+;
+bool
 mWaitingTouchListeners
 ;
 void
