@@ -13281,7 +13281,7 @@ t
 set
 ]
 ;
-NSRectFill
+NSRectFillUsingOperation
 (
 NSMakeRect
 (
@@ -13292,6 +13292,7 @@ aWindowSize
 width
 aDevicePixelWidth
 )
+NSCompositeSourceOver
 )
 ;
 }
