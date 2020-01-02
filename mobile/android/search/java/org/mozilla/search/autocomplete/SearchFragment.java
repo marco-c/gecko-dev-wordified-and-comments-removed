@@ -931,6 +931,8 @@ setSpan
 (
 COLOR_SPAN
 start
+start
++
 searchTerm
 .
 length
