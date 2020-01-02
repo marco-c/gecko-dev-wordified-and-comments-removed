@@ -11494,17 +11494,6 @@ JSFunction
 )
 )
 ;
-JSRuntime
-*
-runtime
-=
-scriptedTarget
--
->
-runtimeFromMainThread
-(
-)
-;
 if
 (
 nativeCallInfo
@@ -11543,7 +11532,6 @@ gc
 :
 IsInsideNursery
 (
-runtime
 scriptedTarget
 )
 )
@@ -11597,7 +11585,6 @@ gc
 :
 IsInsideNursery
 (
-runtime
 &
 val
 .
@@ -11635,7 +11622,6 @@ gc
 :
 IsInsideNursery
 (
-runtime
 &
 thisVal
 .
