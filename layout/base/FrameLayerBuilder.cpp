@@ -6904,7 +6904,7 @@ GetScrollPositionClampingScrollPortSize
 )
 ;
 }
-nsDisplayFixedPosition
+nsLayoutUtils
 :
 :
 SetFixedPositionLayerData
