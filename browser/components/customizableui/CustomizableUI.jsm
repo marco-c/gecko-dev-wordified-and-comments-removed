@@ -367,7 +367,7 @@ ViewHiding
 let
 kVersion
 =
-0
+1
 ;
 let
 gPalette
