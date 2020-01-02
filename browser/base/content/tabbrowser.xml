@@ -12959,6 +12959,10 @@ evt
 if
 (
 !
+aTabWillBeMoved
+&
+&
+!
 gMultiProcessBrowser
 )
 {
