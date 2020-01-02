@@ -5,6 +5,12 @@ mozhttpd
 0
 .
 5
+mozinfo
+>
+=
+0
+.
+7
 mozprocess
 >
 =

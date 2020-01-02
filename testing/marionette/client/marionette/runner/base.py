@@ -23,6 +23,8 @@ traceback
 import
 random
 import
+mozinfo
+import
 moznetwork
 import
 xml
@@ -6084,6 +6086,12 @@ app
 self
 .
 appName
+                                                   
+*
+*
+mozinfo
+.
+info
 )
             
 skip_tests
