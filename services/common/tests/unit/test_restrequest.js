@@ -4664,6 +4664,11 @@ this
 ABORTED
 )
 ;
+if
+(
+server_connection
+)
+{
 _
 (
 "
@@ -4679,6 +4684,7 @@ close
 (
 )
 ;
+}
 _
 (
 "
