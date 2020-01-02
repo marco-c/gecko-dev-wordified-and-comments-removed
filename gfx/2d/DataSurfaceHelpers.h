@@ -54,5 +54,14 @@ DataSourceSurface
 aSurface
 )
 ;
+uint8_t
+*
+SurfaceToPackedBGR
+(
+DataSourceSurface
+*
+aSurface
+)
+;
 }
 }
