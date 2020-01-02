@@ -580,7 +580,7 @@ GetType
 )
 !
 =
-COMPOSITABLE_CONTENT_SINGLE
+BUFFER_CONTENT
 &
 &
 compositableHost
@@ -591,7 +591,7 @@ GetType
 )
 !
 =
-COMPOSITABLE_CONTENT_DOUBLE
+BUFFER_CONTENT_DIRECT
 )
 {
 return
