@@ -394,6 +394,13 @@ MOZILLA_OFFICIAL
 "
 1
 "
+"
+MOZ_TELEMETRY_REPORTING
+"
+:
+"
+1
+"
 }
 "
 b2g_manifest
