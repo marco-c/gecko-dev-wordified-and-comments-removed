@@ -527,7 +527,7 @@ nsAString
 aFeatures
 )
 {
-OpenWindowEventDetail
+OpenWindowEventDetailInitializer
 detail
 ;
 detail
@@ -1214,7 +1214,7 @@ globalObject
 NS_ERROR_UNEXPECTED
 )
 ;
-AsyncScrollEventDetail
+AsyncScrollEventDetailInitializer
 detail
 ;
 detail

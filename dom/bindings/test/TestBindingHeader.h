@@ -4210,7 +4210,7 @@ JSContext
 *
 Nullable
 <
-Dict
+DictInitializer
 >
 &
 )
