@@ -83,7 +83,10 @@ MOZ_ASSERT
 gl
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 (
 surface
@@ -247,7 +250,10 @@ GLContext
 *
 gl
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 bool
@@ -423,7 +429,10 @@ SurfaceFactory_IOSurface
 CreateShared
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 )

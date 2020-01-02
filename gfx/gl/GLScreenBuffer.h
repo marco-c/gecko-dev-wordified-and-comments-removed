@@ -28,7 +28,7 @@ h
 #
 include
 "
-gfxPoint
+gfx2DGlue
 .
 h
 "
@@ -324,7 +324,10 @@ surf
 )
 ;
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 Size
 (
@@ -668,7 +671,10 @@ fb
 )
 ;
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 Size
 (
@@ -686,11 +692,14 @@ MOZ_ASSERT
 mDraw
 |
 |
+ToIntSize
+(
 mDraw
 -
 >
 Size
 (
+)
 )
 =
 =

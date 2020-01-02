@@ -8833,8 +8833,11 @@ mScreen
 >
 PublishFrame
 (
+ThebesIntSize
+(
 OffscreenSize
 (
+)
 )
 )
 )
@@ -13386,7 +13389,10 @@ fFinish
 ;
 }
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 GLContext
 :
