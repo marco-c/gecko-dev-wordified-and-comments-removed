@@ -193,7 +193,7 @@ TESTING_JS_MODULE_DIR
 :
 =
 services
--
+/
 common
 PP_JS_MODULES
 :
