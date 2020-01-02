@@ -5533,6 +5533,9 @@ times
 if
 (
 mStarted
+|
+|
+mTerminated
 )
 return
 NS_OK
