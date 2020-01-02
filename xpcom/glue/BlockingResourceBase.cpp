@@ -351,6 +351,14 @@ mChainPrev
 =
 0
 ;
+sDeadlockDetector
+-
+>
+Remove
+(
+mDDEntry
+)
+;
 mDDEntry
 =
 0
