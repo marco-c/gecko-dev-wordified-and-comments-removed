@@ -1804,7 +1804,6 @@ GetBuffer
 )
 ;
 }
-virtual
 void
 SetBuffer
 (
