@@ -189,9 +189,6 @@ class
 MP4Stream
 :
 public
-mp4_demuxer
-:
-:
 Stream
 {
 public
@@ -1380,9 +1377,6 @@ MP4Reader
 :
 Decoder
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -1864,9 +1858,6 @@ MP4Reader
 :
 Output
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 MediaData
@@ -2045,9 +2036,6 @@ MP4Reader
 :
 InputExhausted
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -2088,9 +2076,6 @@ MP4Reader
 :
 Error
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
@@ -2161,9 +2146,6 @@ MP4Reader
 :
 Flush
 (
-mp4_demuxer
-:
-:
 TrackType
 aTrack
 )
