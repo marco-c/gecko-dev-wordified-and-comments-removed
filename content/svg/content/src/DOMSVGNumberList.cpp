@@ -57,9 +57,6 @@ include
 algorithm
 >
 namespace
-mozilla
-{
-namespace
 {
 using
 mozilla
@@ -129,6 +126,9 @@ i
 }
 }
 }
+namespace
+mozilla
+{
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 DOMSVGNumberList

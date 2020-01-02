@@ -46,14 +46,14 @@ SVGZoomEventBinding
 h
 "
 class
-nsISVGPoint
-;
-class
 nsPresContext
 ;
 namespace
 mozilla
 {
+class
+nsISVGPoint
+;
 namespace
 dom
 {
