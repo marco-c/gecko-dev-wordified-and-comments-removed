@@ -3449,10 +3449,10 @@ aParams
 .
 imageRect
 )
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+B8G8R8A8
 GraphicsFilter
 :
 :
@@ -3580,10 +3580,10 @@ imageRect
 aParams
 .
 fill
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+B8G8R8A8
 aParams
 .
 filter

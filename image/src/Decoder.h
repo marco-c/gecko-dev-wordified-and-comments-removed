@@ -385,7 +385,10 @@ uint32_t
 width
 uint32_t
 height
-gfxImageFormat
+gfx
+:
+:
+SurfaceFormat
 format
 uint8_t
 palette_depth
@@ -407,11 +410,6 @@ mNeedsNewFrame
 virtual
 nsresult
 AllocateFrame
-(
-)
-;
-void
-MarkFrameDirty
 (
 )
 ;
@@ -613,7 +611,10 @@ uint32_t
 width
 uint32_t
 height
-gfxImageFormat
+gfx
+:
+:
+SurfaceFormat
 format
 uint8_t
 paletteDepth
@@ -664,7 +665,10 @@ mWidth
 uint32_t
 mHeight
 ;
-gfxImageFormat
+gfx
+:
+:
+SurfaceFormat
 mFormat
 ;
 uint8_t

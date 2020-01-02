@@ -186,7 +186,13 @@ gfxRect
 &
 aFill
 const
-gfxImageFormat
+mozilla
+:
+:
+gfx
+:
+:
+SurfaceFormat
 aFormat
 GraphicsFilter
 aFilter
