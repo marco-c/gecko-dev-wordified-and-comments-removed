@@ -11409,6 +11409,12 @@ _mousedown
 =
 false
 ;
+aEvent
+.
+preventDefault
+(
+)
+;
 if
 (
 aEvent
@@ -11430,12 +11436,6 @@ button
 return
 ;
 }
-aEvent
-.
-preventDefault
-(
-)
-;
 if
 (
 mousedown
