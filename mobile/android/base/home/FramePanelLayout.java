@@ -206,6 +206,11 @@ DatasetRequest
 (
 mChildConfig
 .
+getIndex
+(
+)
+mChildConfig
+.
 getDatasetId
 (
 )
