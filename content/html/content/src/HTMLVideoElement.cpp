@@ -1145,13 +1145,6 @@ corruptedFrames
 =
 0
 ;
-double
-totalFrameDelay
-=
-0
-.
-0
-;
 if
 (
 sVideoStatsEnabled
@@ -1260,14 +1253,6 @@ GetDecodedFrames
 (
 )
 ;
-totalFrameDelay
-=
-stats
-.
-GetTotalFrameDelay
-(
-)
-;
 }
 }
 nsRefPtr
@@ -1284,7 +1269,6 @@ creationTime
 totalFrames
 droppedFrames
 corruptedFrames
-totalFrameDelay
 )
 ;
 return
