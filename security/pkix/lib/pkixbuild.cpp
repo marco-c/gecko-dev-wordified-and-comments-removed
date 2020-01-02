@@ -302,6 +302,16 @@ encodedExtendedKeyUsage
 ;
 break
 ;
+case
+54
+:
+out
+=
+&
+encodedInhibitAnyPolicy
+;
+break
+;
 }
 }
 else

@@ -187,6 +187,10 @@ encodedNameConstraints
 (
 nullptr
 )
+encodedInhibitAnyPolicy
+(
+nullptr
+)
 childCert
 (
 childCert
@@ -234,6 +238,11 @@ const
 SECItem
 *
 encodedNameConstraints
+;
+const
+SECItem
+*
+encodedInhibitAnyPolicy
 ;
 BackCert
 *
