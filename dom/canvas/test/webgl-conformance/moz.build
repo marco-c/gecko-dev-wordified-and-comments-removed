@@ -98,7 +98,16 @@ MOCHITEST_MANIFESTS
 =
 [
 '
-_mochitest
+mochitest
+-
+conformance
+-
+files
+.
+ini
+'
+'
+mochitest
 .
 ini
 '
