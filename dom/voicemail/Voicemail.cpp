@@ -105,6 +105,7 @@ Voicemail
 :
 :
 Listener
+MOZ_FINAL
 :
 public
 nsIVoicemailListener
