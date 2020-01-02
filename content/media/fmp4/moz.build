@@ -239,7 +239,7 @@ video_util
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -403,7 +403,7 @@ WMFVideoDecoder
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
