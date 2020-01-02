@@ -77,6 +77,7 @@ RemoteVoice
 &
 aVoice
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvVoiceRemoved
@@ -86,6 +87,7 @@ nsString
 &
 aUri
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvSetDefaultVoice
@@ -99,6 +101,7 @@ bool
 &
 aIsDefault
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -141,6 +144,7 @@ float
 &
 aRate
 )
+MOZ_OVERRIDE
 ;
 bool
 DeallocPSpeechSynthesisRequestChild
@@ -149,6 +153,7 @@ PSpeechSynthesisRequestChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -180,6 +185,7 @@ bool
 RecvOnStart
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -198,6 +204,7 @@ uint32_t
 &
 aCharIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -212,6 +219,7 @@ uint32_t
 &
 aCharIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -226,6 +234,7 @@ uint32_t
 &
 aCharIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -258,6 +267,7 @@ uint32_t
 &
 aCharIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -276,6 +286,7 @@ uint32_t
 &
 aCharIndex
 )
+MOZ_OVERRIDE
 ;
 nsRefPtr
 <

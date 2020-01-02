@@ -80,6 +80,7 @@ nsString
 *
 aDefaults
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -122,6 +123,7 @@ float
 &
 aPitch
 )
+MOZ_OVERRIDE
 ;
 bool
 DeallocPSpeechSynthesisRequestParent
@@ -130,6 +132,7 @@ PSpeechSynthesisRequestParent
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvPSpeechSynthesisRequestConstructor
@@ -162,6 +165,7 @@ float
 &
 aPitch
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -199,18 +203,21 @@ bool
 RecvPause
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvResume
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvCancel
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

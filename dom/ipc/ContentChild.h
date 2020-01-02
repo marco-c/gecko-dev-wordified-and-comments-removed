@@ -318,6 +318,7 @@ ChildPrivileges
 &
 aPrivs
 )
+MOZ_OVERRIDE
 ;
 virtual
 PBrowserChild
@@ -399,6 +400,7 @@ uint32_t
 &
 processType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -407,6 +409,7 @@ DeallocPCrashReporterChild
 PCrashReporterChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PHalChild
@@ -431,6 +434,7 @@ PIndexedDBChild
 AllocPIndexedDBChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -440,6 +444,7 @@ PIndexedDBChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 PMemoryReportRequestChild
@@ -451,6 +456,7 @@ uint32_t
 &
 generation
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -460,6 +466,7 @@ PMemoryReportRequestChild
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -473,12 +480,14 @@ uint32_t
 &
 generation
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvAudioChannelNotify
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -497,6 +506,7 @@ bool
 &
 aDumpChildProcesses
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -515,6 +525,7 @@ bool
 &
 aDumpChildProcesses
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTestShellChild
@@ -522,6 +533,7 @@ PTestShellChild
 AllocPTestShellChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -530,6 +542,7 @@ DeallocPTestShellChild
 PTestShellChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -538,6 +551,7 @@ RecvPTestShellConstructor
 PTestShellChild
 *
 )
+MOZ_OVERRIDE
 ;
 jsipc
 :
@@ -554,6 +568,7 @@ PNeckoChild
 AllocPNeckoChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -562,6 +577,7 @@ DeallocPNeckoChild
 PNeckoChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PExternalHelperAppChild
@@ -596,6 +612,7 @@ PBrowserChild
 *
 aBrowser
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -605,6 +622,7 @@ PExternalHelperAppChild
 *
 aService
 )
+MOZ_OVERRIDE
 ;
 virtual
 PSmsChild
@@ -612,6 +630,7 @@ PSmsChild
 AllocPSmsChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -620,6 +639,7 @@ DeallocPSmsChild
 PSmsChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PTelephonyChild
@@ -627,6 +647,7 @@ PTelephonyChild
 AllocPTelephonyChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -635,6 +656,7 @@ DeallocPTelephonyChild
 PTelephonyChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PStorageChild
@@ -642,6 +664,7 @@ PStorageChild
 AllocPStorageChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -651,6 +674,7 @@ PStorageChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 PBluetoothChild
@@ -658,6 +682,7 @@ PBluetoothChild
 AllocPBluetoothChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -667,6 +692,7 @@ PBluetoothChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 PFMRadioChild
@@ -674,6 +700,7 @@ PFMRadioChild
 AllocPFMRadioChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -683,6 +710,7 @@ PFMRadioChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 PAsmJSCacheEntryChild
@@ -729,6 +757,7 @@ PSpeechSynthesisChild
 AllocPSpeechSynthesisChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -738,6 +767,7 @@ PSpeechSynthesisChild
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -769,6 +799,7 @@ nsCString
 &
 locale
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -782,6 +813,7 @@ PJavaScriptChild
 AllocPJavaScriptChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -796,6 +828,7 @@ jsipc
 PJavaScriptChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -806,12 +839,14 @@ bool
 &
 offline
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvSpeakerManagerNotify
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -822,6 +857,7 @@ URIParams
 &
 aURI
 )
+MOZ_OVERRIDE
 ;
 nsresult
 AddRemoteAlertObserver
@@ -844,6 +880,7 @@ PrefSetting
 &
 aPref
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -858,6 +895,7 @@ nsString
 &
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -886,6 +924,7 @@ Principal
 &
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -896,6 +935,7 @@ GeoPosition
 &
 somewhere
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -909,6 +949,7 @@ Permission
 &
 permission
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -919,6 +960,7 @@ gfxIntSize
 &
 size
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -929,24 +971,28 @@ nsString
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvActivateA11y
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvGarbageCollect
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvCycleCollect
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -969,12 +1015,14 @@ nsCString
 &
 UAName
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvLastPrivateDocShellDestroyed
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -997,6 +1045,7 @@ nsCString
 &
 aReason
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1031,6 +1080,7 @@ bool
 &
 aIsFormatting
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1051,18 +1101,21 @@ ProcessPriority
 &
 aPriority
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvMinimizeMemoryUsage
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvCancelMinimizeMemoryUsage
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1077,6 +1130,7 @@ uint32_t
 &
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1091,6 +1145,7 @@ uint32_t
 &
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1101,6 +1156,7 @@ nsString
 &
 state
 )
+MOZ_OVERRIDE
 ;
 void
 AddIdleObserver
@@ -1139,6 +1195,7 @@ nsString
 &
 aData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1214,6 +1271,7 @@ uint32_t
 &
 chromeFlags
 )
+MOZ_OVERRIDE
 ;
 private
 :
