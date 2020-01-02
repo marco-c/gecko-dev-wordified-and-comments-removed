@@ -180,6 +180,14 @@ WorkerGlobalScope
 (
 )
 {
+mozilla
+:
+:
+DropJSObjects
+(
+this
+)
+;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
