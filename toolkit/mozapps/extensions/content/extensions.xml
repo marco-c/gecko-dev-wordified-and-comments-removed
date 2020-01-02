@@ -11319,6 +11319,15 @@ experiment
 "
 )
 {
+this
+.
+removeAttribute
+(
+"
+notification
+"
+)
+;
 let
 prefix
 =
@@ -11336,6 +11345,12 @@ mAddon
 .
 isActive
 ;
+if
+(
+!
+showProgress
+)
+{
 let
 stateKey
 =
@@ -11524,6 +11539,7 @@ value
 =
 timeMessage
 ;
+}
 }
 ]
 ]
