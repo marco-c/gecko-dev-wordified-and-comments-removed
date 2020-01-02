@@ -4622,6 +4622,7 @@ v
 W
 )
 {
+const
 float
 *
 w
@@ -4711,6 +4712,7 @@ i
 }
 else
 {
+const
 float
 *
 w
@@ -4817,6 +4819,7 @@ v
 W
 )
 {
+const
 float
 *
 w
@@ -4941,6 +4944,7 @@ i
 }
 else
 {
+const
 float
 *
 w
@@ -6287,6 +6291,7 @@ pcm_returned
 )
 ;
 }
+const
 float
 *
 vorbis_window
