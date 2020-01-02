@@ -315,6 +315,9 @@ wappush
 telephony
 '
 '
+inputmethod
+'
+'
 webidl
 '
 ]

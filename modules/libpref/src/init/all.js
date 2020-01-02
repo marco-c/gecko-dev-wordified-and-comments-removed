@@ -8005,7 +8005,7 @@ spdy
 .
 enabled
 .
-v3
+v2
 "
 true
 )
@@ -8022,8 +8022,6 @@ spdy
 enabled
 .
 v3
--
-1
 "
 true
 )
@@ -38950,6 +38948,18 @@ true
 ;
 #
 endif
+pref
+(
+"
+dom
+.
+mozInputMethod
+.
+enabled
+"
+false
+)
+;
 pref
 (
 "
