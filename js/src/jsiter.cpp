@@ -7330,8 +7330,6 @@ pushInterpreterFrame
 JSContext
 *
 cx
-FrameGuard
-*
 )
 {
 GeneratorWriteBarrierPre

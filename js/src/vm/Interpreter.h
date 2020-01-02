@@ -470,9 +470,6 @@ pushInterpreterFrame
 JSContext
 *
 cx
-FrameGuard
-*
-fg
 )
 =
 0
@@ -660,9 +657,6 @@ pushInterpreterFrame
 JSContext
 *
 cx
-FrameGuard
-*
-fg
 )
 ;
 virtual
@@ -802,9 +796,6 @@ pushInterpreterFrame
 JSContext
 *
 cx
-FrameGuard
-*
-fg
 )
 ;
 virtual
@@ -876,9 +867,6 @@ pushInterpreterFrame
 JSContext
 *
 cx
-FrameGuard
-*
-fg
 )
 ;
 virtual
