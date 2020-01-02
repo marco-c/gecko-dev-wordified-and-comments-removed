@@ -52,10 +52,6 @@ insert
 here
 )
 from
-b2gautomation
-import
-B2GDesktopAutomation
-from
 runtests
 import
 Mochitest
@@ -1586,7 +1582,6 @@ def
 __init__
 (
 self
-automation
 marionette
 profile_data_dir
 )
@@ -1611,7 +1606,6 @@ Mochitest
 __init__
 (
 self
-automation
 )
     
 def
@@ -2330,12 +2324,6 @@ options
 )
 :
     
-automation
-=
-B2GDesktopAutomation
-(
-)
-    
 kwargs
 =
 {
@@ -2393,17 +2381,10 @@ getMarionetteOrExit
 kwargs
 )
     
-automation
-.
-marionette
-=
-marionette
-    
 mochitest
 =
 B2GDesktopMochitest
 (
-automation
 marionette
 options
 .
@@ -2491,27 +2472,6 @@ specifying
 -
 desktop
 "
-)
-    
-automation
-.
-setServerInfo
-(
-options
-.
-webServer
-                             
-options
-.
-httpPort
-                             
-options
-.
-sslPort
-                             
-options
-.
-webSocketPort
 )
     
 sys
