@@ -1530,8 +1530,8 @@ bound
 nullptr
 )
 ;
-nsEventHandler
-eventHandler
+TypedEventHandler
+typedHandler
 (
 handlerCallback
 )
@@ -1548,7 +1548,7 @@ NS_NewJSEventHandler
 (
 scriptTarget
 onEventAtom
-eventHandler
+typedHandler
 getter_AddRefs
 (
 eventListener
