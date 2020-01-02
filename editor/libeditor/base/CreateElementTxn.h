@@ -116,6 +116,12 @@ aNewNode
 ;
 protected
 :
+virtual
+~
+CreateElementTxn
+(
+)
+;
 nsEditor
 *
 mEditor

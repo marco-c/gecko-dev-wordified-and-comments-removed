@@ -98,6 +98,12 @@ aNewNode
 ;
 protected
 :
+virtual
+~
+SplitElementTxn
+(
+)
+;
 nsCOMPtr
 <
 nsIDOMNode

@@ -99,6 +99,12 @@ RedoTransaction
 ;
 protected
 :
+virtual
+~
+DeleteNodeTxn
+(
+)
+;
 nsCOMPtr
 <
 nsINode

@@ -87,6 +87,15 @@ nullptr
 )
 {
 }
+PlaceholderTxn
+:
+:
+~
+PlaceholderTxn
+(
+)
+{
+}
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 PlaceholderTxn

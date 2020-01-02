@@ -177,6 +177,12 @@ aResult
 protected
 :
 virtual
+~
+InsertTextTxn
+(
+)
+;
+virtual
 bool
 IsSequentialInsert
 (

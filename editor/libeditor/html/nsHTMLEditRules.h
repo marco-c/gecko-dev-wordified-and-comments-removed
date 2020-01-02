@@ -243,12 +243,6 @@ nsHTMLEditRules
 (
 )
 ;
-virtual
-~
-nsHTMLEditRules
-(
-)
-;
 NS_IMETHOD
 Init
 (
@@ -613,6 +607,12 @@ aSelection
 ;
 protected
 :
+virtual
+~
+nsHTMLEditRules
+(
+)
+;
 enum
 RulesEndpoint
 {

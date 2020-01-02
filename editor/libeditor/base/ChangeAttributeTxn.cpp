@@ -59,6 +59,15 @@ EditTxn
 )
 {
 }
+ChangeAttributeTxn
+:
+:
+~
+ChangeAttributeTxn
+(
+)
+{
+}
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 ChangeAttributeTxn

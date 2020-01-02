@@ -103,6 +103,12 @@ RedoTransaction
 ;
 protected
 :
+virtual
+~
+ChangeAttributeTxn
+(
+)
+;
 nsIEditor
 *
 mEditor

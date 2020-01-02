@@ -164,6 +164,12 @@ RememberEndingSelection
 ;
 protected
 :
+virtual
+~
+PlaceholderTxn
+(
+)
+;
 bool
 mAbsorb
 ;
