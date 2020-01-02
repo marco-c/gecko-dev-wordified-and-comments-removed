@@ -34,12 +34,6 @@ nsNetworkManagerListener
 (
 )
 ;
-virtual
-~
-nsNetworkManagerListener
-(
-)
-;
 nsresult
 Init
 (
@@ -78,6 +72,14 @@ UpdateNetworkStatus
 DBusMessage
 *
 message
+)
+;
+protected
+:
+virtual
+~
+nsNetworkManagerListener
+(
 )
 ;
 private

@@ -1030,6 +1030,12 @@ NS_OK
 }
 private
 :
+~
+RemoveFolderTransaction
+(
+)
+{
+}
 int64_t
 mID
 ;

@@ -5858,6 +5858,12 @@ NS_OK
 }
 private
 :
+~
+SetDownloadAnnotations
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIURI

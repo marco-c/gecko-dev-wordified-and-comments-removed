@@ -56,12 +56,6 @@ AddonPathService
 (
 )
 ;
-virtual
-~
-AddonPathService
-(
-)
-;
 static
 AddonPathService
 *
@@ -127,6 +121,12 @@ aAddonId
 ;
 private
 :
+virtual
+~
+AddonPathService
+(
+)
+;
 nsTArray
 <
 PathEntry

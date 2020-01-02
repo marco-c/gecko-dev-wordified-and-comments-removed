@@ -162,6 +162,8 @@ mAlertWindow
 aWindow
 ;
 }
+protected
+:
 virtual
 ~
 nsXULAlertObserver
@@ -169,8 +171,6 @@ nsXULAlertObserver
 )
 {
 }
-protected
-:
 nsXULAlerts
 *
 mXULAlerts

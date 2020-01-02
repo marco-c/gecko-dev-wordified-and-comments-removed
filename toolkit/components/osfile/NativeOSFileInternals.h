@@ -36,6 +36,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSINATIVEOSFILEINTERNALSSERVICE
 private
 :
+~
+NativeOSFileInternalsService
+(
+)
+{
+}
 void
 operator
 =

@@ -27,6 +27,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIFINALIZATIONWITNESSSERVICE
 private
 :
+~
+FinalizationWitnessService
+(
+)
+{
+}
 void
 operator
 =

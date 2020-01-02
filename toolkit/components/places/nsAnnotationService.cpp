@@ -318,6 +318,15 @@ aAnnotationValue
 )
 {
 }
+AnnotatedResult
+:
+:
+~
+AnnotatedResult
+(
+)
+{
+}
 NS_IMETHODIMP
 AnnotatedResult
 :

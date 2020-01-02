@@ -39,6 +39,12 @@ MOZ_FINAL
 public
 mozIStorageFunction
 {
+~
+GenerateGUIDFunction
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

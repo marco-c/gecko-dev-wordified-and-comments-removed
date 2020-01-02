@@ -420,11 +420,6 @@ nsIApplicationReputationCallback
 aCallback
 )
 ;
-~
-PendingLookup
-(
-)
-;
 nsresult
 StartLookup
 (
@@ -432,6 +427,11 @@ StartLookup
 ;
 private
 :
+~
+PendingLookup
+(
+)
+;
 friend
 class
 PendingDBLookup
@@ -629,11 +629,6 @@ PendingLookup
 aPendingLookup
 )
 ;
-~
-PendingDBLookup
-(
-)
-;
 nsresult
 LookupSpec
 (
@@ -647,6 +642,11 @@ aAllowlistOnly
 ;
 private
 :
+~
+PendingDBLookup
+(
+)
+;
 enum
 LIST_TYPES
 {

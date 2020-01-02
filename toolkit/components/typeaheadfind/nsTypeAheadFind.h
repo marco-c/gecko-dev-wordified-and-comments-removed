@@ -135,12 +135,6 @@ nsTypeAheadFind
 (
 )
 ;
-virtual
-~
-nsTypeAheadFind
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSITYPEAHEADFIND
 NS_DECL_NSIOBSERVER
@@ -151,6 +145,12 @@ nsITypeAheadFind
 )
 protected
 :
+virtual
+~
+nsTypeAheadFind
+(
+)
+;
 nsresult
 PrefsReset
 (

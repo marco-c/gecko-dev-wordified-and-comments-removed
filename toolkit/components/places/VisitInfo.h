@@ -64,6 +64,11 @@ aReferrer
 ;
 private
 :
+~
+VisitInfo
+(
+)
+;
 const
 int64_t
 mVisitId

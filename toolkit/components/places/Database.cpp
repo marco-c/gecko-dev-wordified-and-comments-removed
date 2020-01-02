@@ -921,6 +921,12 @@ mozIStorageCompletionCallback
 bool
 mDone
 ;
+~
+ConnectionCloseCallback
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

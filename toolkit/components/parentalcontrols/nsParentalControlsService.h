@@ -84,6 +84,8 @@ nsParentalControlsService
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsParentalControlsService

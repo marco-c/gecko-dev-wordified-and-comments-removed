@@ -122,6 +122,12 @@ aVisits
 ;
 private
 :
+~
+PlaceInfo
+(
+)
+{
+}
 const
 int64_t
 mId

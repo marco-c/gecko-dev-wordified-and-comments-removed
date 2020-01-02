@@ -54,6 +54,15 @@ aReferrer
 )
 {
 }
+VisitInfo
+:
+:
+~
+VisitInfo
+(
+)
+{
+}
 NS_IMETHODIMP
 VisitInfo
 :

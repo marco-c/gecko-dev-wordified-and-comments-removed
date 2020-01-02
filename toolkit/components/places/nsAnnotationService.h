@@ -115,6 +115,11 @@ aAnnotationValue
 ;
 private
 :
+~
+AnnotatedResult
+(
+)
+;
 const
 nsCString
 mGUID

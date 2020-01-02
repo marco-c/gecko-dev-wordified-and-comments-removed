@@ -228,6 +228,8 @@ aApp
 )
 {
 }
+private
+:
 ~
 nsGIOMimeApp
 (
@@ -239,8 +241,6 @@ mApp
 )
 ;
 }
-private
-:
 GAppInfo
 *
 mApp
@@ -468,6 +468,12 @@ MOZ_FINAL
 public
 nsIUTF8StringEnumerator
 {
+~
+GIOUTF8StringEnumerator
+(
+)
+{
+}
 public
 :
 GIOUTF8StringEnumerator
@@ -477,12 +483,6 @@ GIOUTF8StringEnumerator
 mIndex
 (
 0
-)
-{
-}
-~
-GIOUTF8StringEnumerator
-(
 )
 {
 }
