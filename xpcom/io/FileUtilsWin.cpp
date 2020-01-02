@@ -185,10 +185,13 @@ GetCurrentProcess
 (
 )
 view
+wwc
+(
 mappedFilename
 .
 BeginWriting
 (
+)
 )
 mappedFilename
 .
