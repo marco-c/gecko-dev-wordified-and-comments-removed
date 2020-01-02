@@ -438,6 +438,9 @@ devicestorage
 .
 properties
 )
+#
+ifndef
+ANDROID
 content
 /
 global
@@ -450,6 +453,8 @@ directoryLinks
 .
 json
 )
+#
+endif
 content
 /
 global
