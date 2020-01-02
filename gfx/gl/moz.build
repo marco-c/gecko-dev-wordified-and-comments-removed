@@ -322,6 +322,11 @@ GLTypes
 h
 '
 '
+ScopedGLHelpers
+.
+h
+'
+'
 SharedSurface
 .
 h
@@ -739,6 +744,11 @@ cpp
 '
 '
 GLTextureImage
+.
+cpp
+'
+'
+ScopedGLHelpers
 .
 cpp
 '

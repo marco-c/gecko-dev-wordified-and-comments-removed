@@ -22,6 +22,13 @@ h
 #
 include
 "
+ScopedGLHelpers
+.
+h
+"
+#
+include
+"
 SharedSurfaceGL
 .
 h
