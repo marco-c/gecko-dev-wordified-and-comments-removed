@@ -209,6 +209,11 @@ Startup
 jsm
 '
 '
+WebRTCHandler
+.
+jsm
+'
+'
 WebappRT
 .
 jsm

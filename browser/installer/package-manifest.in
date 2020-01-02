@@ -4740,6 +4740,15 @@ modules
 RemoteDebugger
 .
 jsm
+BINPATH
+/
+webapprt
+/
+modules
+/
+WebRTCHandler
+.
+jsm
 #
 endif
 #
