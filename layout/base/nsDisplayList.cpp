@@ -13979,6 +13979,7 @@ rects
 [
 i
 ]
+mOpacity
 )
 ;
 aCtx
