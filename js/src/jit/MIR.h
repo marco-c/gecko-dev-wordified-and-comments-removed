@@ -4070,6 +4070,10 @@ resultTypeSet
 )
 )
 ;
+setMovable
+(
+)
+;
 }
 public
 :
