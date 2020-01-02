@@ -2160,10 +2160,10 @@ return
 FAILURE
 ;
 }
-GeckoProcessType
+void
 (
 *
-fXRE_StringToChildProcessType
+fXRE_SetProcessType
 )
 (
 char
@@ -2173,10 +2173,10 @@ char
 xul_dlsym
 (
 "
-XRE_StringToChildProcessType
+XRE_SetProcessType
 "
 &
-fXRE_StringToChildProcessType
+fXRE_SetProcessType
 )
 ;
 mozglueresult
@@ -2189,7 +2189,6 @@ int
 char
 *
 *
-GeckoProcessType
 )
 ;
 xul_dlsym
@@ -2201,10 +2200,7 @@ XRE_InitChildProcess
 fXRE_InitChildProcess
 )
 ;
-GeckoProcessType
-proctype
-=
-fXRE_StringToChildProcessType
+fXRE_SetProcessType
 (
 argv
 [
@@ -2219,7 +2215,6 @@ fXRE_InitChildProcess
 (
 argc
 argv
-proctype
 )
 ;
 }
