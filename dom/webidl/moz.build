@@ -1120,6 +1120,16 @@ InspectorUtils
 webidl
 '
 '
+InstallEvent
+.
+webidl
+'
+'
+InstallPhaseEvent
+.
+webidl
+'
+'
 InterAppConnection
 .
 webidl

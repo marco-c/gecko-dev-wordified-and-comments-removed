@@ -309,6 +309,11 @@ ServiceWorkerContainer
 cpp
 '
 '
+ServiceWorkerEvents
+.
+cpp
+'
+'
 SharedWorker
 .
 cpp
