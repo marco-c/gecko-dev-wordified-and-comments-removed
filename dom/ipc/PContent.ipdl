@@ -1369,8 +1369,8 @@ bool
 anonymize
 bool
 minimizeMemoryUsage
-nsString
-DMDDumpIdent
+FileDescriptor
+DMDFile
 )
 ;
 /
