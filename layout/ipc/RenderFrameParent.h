@@ -44,9 +44,6 @@ RenderFrameUtils
 h
 "
 class
-nsContentView
-;
-class
 nsFrameLoader
 ;
 class
@@ -224,12 +221,6 @@ RenderFrameParent
 ;
 void
 Destroy
-(
-)
-;
-nsContentView
-*
-GetRootContentView
 (
 )
 ;
@@ -451,12 +442,6 @@ APZCTreeManager
 GetApzcTreeManager
 (
 )
-;
-nsRefPtr
-<
-nsContentView
->
-mRootContentView
 ;
 bool
 mFrameLoaderDestroyed
