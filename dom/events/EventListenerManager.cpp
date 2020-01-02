@@ -4208,7 +4208,6 @@ nsContentUtils
 WrapNative
 (
 cx
-wrapScope
 mTarget
 &
 v

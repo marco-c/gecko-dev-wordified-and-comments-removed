@@ -359,7 +359,7 @@ Rooted
 JSObject
 *
 >
-global
+scope
 (
 cx
 sc
@@ -370,6 +370,13 @@ GetWindowProxy
 )
 )
 ;
+JSAutoCompartment
+ac
+(
+cx
+scope
+)
+;
 rv
 =
 nsContentUtils
@@ -378,7 +385,6 @@ nsContentUtils
 WrapNative
 (
 cx
-global
 adapter
 aValue
 )

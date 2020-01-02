@@ -323,7 +323,6 @@ nsContentUtils
 WrapNative
 (
 cx
-global
 aMessage
 &
 wrappedMessage

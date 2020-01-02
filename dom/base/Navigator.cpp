@@ -8171,7 +8171,6 @@ nsContentUtils
 WrapNative
 (
 aCx
-naviObj
 native
 &
 prop_val

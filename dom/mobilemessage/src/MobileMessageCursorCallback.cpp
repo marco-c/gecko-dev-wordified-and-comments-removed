@@ -332,7 +332,6 @@ nsContentUtils
 WrapNative
 (
 cx
-global
 aResult
 &
 wrappedResult

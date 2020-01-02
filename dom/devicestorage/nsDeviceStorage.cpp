@@ -7472,7 +7472,6 @@ nsContentUtils
 WrapNative
 (
 cx
-scopeObj
 aObject
 aIID
 &

@@ -24200,7 +24200,6 @@ nsContentUtils
 WrapNative
 (
 aCx
-global
 newElement
 newElement
 args
@@ -32367,15 +32366,8 @@ GetGlobalJSObject
 )
 )
 {
-JS
-:
-:
-Rooted
-<
-JSObject
-*
->
-global
+JSAutoCompartment
+ac
 (
 cx
 GetScopeObject
@@ -32411,7 +32403,6 @@ nsContentUtils
 WrapNative
 (
 cx
-global
 this
 this
 &
@@ -53238,7 +53229,6 @@ nsContentUtils
 WrapNative
 (
 aCx
-obj
 win
 &
 NS_GET_IID

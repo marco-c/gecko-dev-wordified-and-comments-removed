@@ -1439,7 +1439,6 @@ nsContentUtils
 WrapNative
 (
 cx
-scopeObject
 scriptTarget
 &
 targetV

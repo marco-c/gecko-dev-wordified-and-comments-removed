@@ -4740,6 +4740,13 @@ nsIVariant
 ;
 #
 endif
+JSAutoCompartment
+ac
+(
+cx
+aScope
+)
+;
 rv
 =
 nsContentUtils
@@ -4748,7 +4755,6 @@ nsContentUtils
 WrapNative
 (
 cx
-aScope
 arg
 thisVal
 )
@@ -5566,7 +5572,7 @@ Rooted
 JSObject
 *
 >
-global
+scope
 (
 cx
 GetWindowProxy
@@ -5589,6 +5595,13 @@ v
 cx
 )
 ;
+JSAutoCompartment
+ac
+(
+cx
+scope
+)
+;
 nsresult
 rv
 =
@@ -5598,7 +5611,6 @@ nsContentUtils
 WrapNative
 (
 cx
-global
 data
 iid
 &

@@ -833,15 +833,10 @@ rv
 rv
 )
 ;
-JS
+js
 :
 :
-Rooted
-<
-JSObject
-*
->
-global
+AssertSameCompartment
 (
 aCx
 aGlobal
@@ -870,7 +865,6 @@ nsContentUtils
 WrapNative
 (
 aCx
-global
 static_cast
 <
 nsIDOMDOMRequest

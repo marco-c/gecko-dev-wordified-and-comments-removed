@@ -1054,7 +1054,6 @@ nsContentUtils
 WrapNative
 (
 cx
-global
 xhr
 args
 .
