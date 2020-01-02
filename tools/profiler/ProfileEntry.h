@@ -90,7 +90,7 @@ ProfileEntry
 (
 char
 aTagName
-float
+double
 aTagFloat
 )
 ;
@@ -240,7 +240,7 @@ ProfilerMarker
 *
 mTagMarker
 ;
-float
+double
 mTagFloat
 ;
 Address

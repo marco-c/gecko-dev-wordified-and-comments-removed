@@ -145,7 +145,7 @@ ProfileEntry
 (
 char
 aTagName
-float
+double
 aTagFloat
 )
 :
