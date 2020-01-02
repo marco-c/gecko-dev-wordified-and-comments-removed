@@ -248,12 +248,6 @@ psm
 {
 namespace
 {
-NS_DEFINE_CID
-(
-kNSSComponentCID
-NS_NSSCOMPONENT_CID
-)
-;
 NSSCleanupAutoPtrClass
 (
 CERTCertificate
