@@ -496,6 +496,12 @@ events
 '
 '
 /
+dom
+/
+workers
+'
+'
+/
 js
 /
 ipc
