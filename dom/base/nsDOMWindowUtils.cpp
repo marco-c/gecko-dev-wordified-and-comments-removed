@@ -5796,6 +5796,16 @@ PR_IntervalNow
 (
 )
 ;
+if
+(
+!
+(
+aAdditionalFlags
+&
+KEY_FLAG_NOT_SYNTHESIZED_FOR_TESTS
+)
+)
+{
 event
 .
 mFlags
@@ -5804,6 +5814,7 @@ mIsSynthesizedForTests
 =
 true
 ;
+}
 if
 (
 aAdditionalFlags
