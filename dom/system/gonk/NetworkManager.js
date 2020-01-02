@@ -1350,8 +1350,6 @@ gNetworkService
 removeDefaultRoute
 (
 network
-.
-name
 )
 ;
 this
@@ -1541,8 +1539,6 @@ gNetworkService
 removeDefaultRoute
 (
 network
-.
-name
 )
 ;
 #
@@ -2200,8 +2196,6 @@ gNetworkService
 removeDefaultRoute
 (
 network
-.
-name
 )
 ;
 this
