@@ -1295,6 +1295,8 @@ base_type
 NS_NewRunnableMethodWithArg
 (
 PtrType
+&
+&
 aPtr
 Method
 aMethod
@@ -1344,6 +1346,8 @@ base_type
 NS_NewNonOwningRunnableMethod
 (
 PtrType
+&
+&
 aPtr
 Method
 aMethod
