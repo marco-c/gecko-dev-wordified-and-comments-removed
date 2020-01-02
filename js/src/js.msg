@@ -3335,7 +3335,7 @@ incompatible
 )
 MSG_DEF
 (
-JSMSG_SYMBOL_TO_PRIMITIVE
+JSMSG_SYMBOL_TO_NUMBER
 189
 0
 JSEXN_TYPEERR
@@ -3345,9 +3345,8 @@ can
 t
 convert
 symbol
-object
 to
-primitive
+number
 "
 )
 MSG_DEF
