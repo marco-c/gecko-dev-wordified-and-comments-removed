@@ -12,9 +12,6 @@ nsQueryFrame
 h
 "
 class
-nsIDOMHTMLOptionElement
-;
-class
 nsISelectControlFrame
 :
 public

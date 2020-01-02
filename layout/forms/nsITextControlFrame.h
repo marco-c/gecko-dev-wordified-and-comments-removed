@@ -15,9 +15,6 @@ class
 nsIEditor
 ;
 class
-nsIDocShell
-;
-class
 nsISelectionController
 ;
 class

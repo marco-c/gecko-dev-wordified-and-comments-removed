@@ -15,13 +15,7 @@ class
 nsAString
 ;
 class
-nsIContent
-;
-class
 nsIAtom
-;
-struct
-nsSize
 ;
 class
 nsIFormControlFrame
