@@ -361,6 +361,10 @@ USING_INDEXEDDB_NAMESPACE
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -1242,7 +1246,7 @@ FireWindowOnError
 nsPIDOMWindow
 *
 aOwner
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

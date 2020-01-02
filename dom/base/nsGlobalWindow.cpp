@@ -13250,7 +13250,7 @@ nsGlobalWindow
 :
 WillHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -14183,7 +14183,7 @@ nsGlobalWindow
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

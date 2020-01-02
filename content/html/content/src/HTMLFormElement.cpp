@@ -2079,7 +2079,7 @@ HTMLFormElement
 :
 WillHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -2160,7 +2160,7 @@ HTMLFormElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

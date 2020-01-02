@@ -5518,7 +5518,7 @@ HTMLSelectElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

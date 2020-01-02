@@ -1302,7 +1302,11 @@ virtual
 nsresult
 WillHandleEvent
 (
-nsEventChainPostVisitor
+\
+mozilla
+:
+:
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -1322,7 +1326,11 @@ virtual
 nsresult
 PostHandleEvent
 (
-nsEventChainPostVisitor
+\
+mozilla
+:
+:
+EventChainPostVisitor
 &
 aVisitor
 )

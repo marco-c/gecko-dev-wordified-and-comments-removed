@@ -137,6 +137,9 @@ nsPIDOMWindow
 namespace
 mozilla
 {
+class
+EventChainPostVisitor
+;
 namespace
 dom
 {
@@ -295,7 +298,7 @@ virtual
 nsresult
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

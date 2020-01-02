@@ -104,12 +104,12 @@ manager
 class
 nsPIDOMWindow
 ;
-class
-nsEventChainPostVisitor
-;
 namespace
 mozilla
 {
+class
+EventChainPostVisitor
+;
 namespace
 dom
 {
@@ -378,7 +378,7 @@ FireWindowOnError
 nsPIDOMWindow
 *
 aOwner
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

@@ -1388,7 +1388,7 @@ nsDOMEventTargetHelper
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

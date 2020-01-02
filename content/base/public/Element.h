@@ -338,6 +338,9 @@ namespace
 mozilla
 {
 class
+EventChainPostVisitor
+;
+class
 EventChainPreVisitor
 ;
 class
@@ -3246,7 +3249,7 @@ aVisitor
 nsresult
 PostHandleEventForLinks
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

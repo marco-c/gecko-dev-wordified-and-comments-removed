@@ -5669,7 +5669,7 @@ nsINode
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 )
 {

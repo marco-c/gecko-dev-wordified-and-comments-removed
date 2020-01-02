@@ -608,7 +608,7 @@ nsEventTargetChainItem
 >
 &
 aChain
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 nsDispatchingCallback
@@ -630,7 +630,7 @@ aVisitor
 void
 HandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 ELMCreationDetector
@@ -778,7 +778,7 @@ null
 void
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -924,7 +924,7 @@ nsEventTargetChainItem
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
@@ -962,7 +962,7 @@ nsEventTargetChainItem
 >
 &
 aChain
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 nsDispatchingCallback
@@ -2769,7 +2769,7 @@ GetTargetForDOMEvent
 }
 else
 {
-nsEventChainPostVisitor
+EventChainPostVisitor
 postVisitor
 (
 preVisitor

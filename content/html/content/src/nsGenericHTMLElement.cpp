@@ -3350,7 +3350,7 @@ nsGenericHTMLElement
 :
 PostHandleEventForAnchors
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

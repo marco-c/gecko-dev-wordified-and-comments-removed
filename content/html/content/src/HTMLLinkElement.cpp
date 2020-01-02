@@ -1278,7 +1278,7 @@ HTMLLinkElement
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

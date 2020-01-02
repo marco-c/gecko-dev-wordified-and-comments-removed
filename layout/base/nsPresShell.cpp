@@ -2074,7 +2074,7 @@ virtual
 void
 HandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )

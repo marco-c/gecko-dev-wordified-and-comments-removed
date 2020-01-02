@@ -754,7 +754,7 @@ nsWindowRoot
 :
 PostHandleEvent
 (
-nsEventChainPostVisitor
+EventChainPostVisitor
 &
 aVisitor
 )
