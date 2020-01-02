@@ -876,6 +876,11 @@ ShadowRoot
 cpp
 '
 '
+StyleSheetList
+.
+cpp
+'
+'
 Text
 .
 cpp
