@@ -325,6 +325,14 @@ aMessages
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvWillStop
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 bool
 RecvStop
 (
