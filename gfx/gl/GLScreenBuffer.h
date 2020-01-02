@@ -14,13 +14,6 @@ h
 #
 include
 "
-SurfaceStream
-.
-h
-"
-#
-include
-"
 GLContextTypes
 .
 h
@@ -471,10 +464,8 @@ SurfaceFactory_GL
 *
 mFactory
 ;
-RefPtr
-<
 SurfaceStream
->
+*
 mStream
 ;
 DrawBuffer
