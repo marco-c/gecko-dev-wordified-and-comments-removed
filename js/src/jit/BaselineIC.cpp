@@ -3754,11 +3754,6 @@ needsBarrier
 )
 )
 {
-if
-(
-hasFallbackStub_
-)
-{
 for
 (
 ICStub
@@ -3797,7 +3792,6 @@ barrierTracer
 )
 )
 ;
-}
 }
 firstMonitorStub_
 =
