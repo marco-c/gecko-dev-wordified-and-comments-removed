@@ -500,7 +500,7 @@ IonBuilder
 JSContext
 *
 analysisContext
-CompileCompartment
+JSCompartment
 *
 comp
 TempAllocator
@@ -3669,7 +3669,6 @@ callerBuilder_
 nullptr
 ;
 }
-const
 JSAtomState
 &
 names
@@ -3680,14 +3679,12 @@ return
 compartment
 -
 >
-runtime
+runtimeFromAnyThread
 (
 )
 -
 >
-names
-(
-)
+atomState
 ;
 }
 private

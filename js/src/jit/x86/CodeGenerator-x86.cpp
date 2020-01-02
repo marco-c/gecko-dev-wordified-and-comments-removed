@@ -1600,6 +1600,7 @@ Operand
 (
 AbsoluteAddress
 (
+&
 GetIonContext
 (
 )
@@ -1608,9 +1609,7 @@ GetIonContext
 runtime
 -
 >
-addressOfInterrupt
-(
-)
+interrupt
 )
 )
 Imm32

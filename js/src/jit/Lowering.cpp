@@ -19835,8 +19835,6 @@ runtime
 -
 >
 spsProfiler
-(
-)
 .
 slowAssertionsEnabled
 (

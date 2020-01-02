@@ -282,10 +282,9 @@ JSFunction
 *
 ExistingCloneFunctionAtCallsite
 (
-const
-CallsiteCloneTable
-&
-table
+JSCompartment
+*
+comp
 JSFunction
 *
 fun
