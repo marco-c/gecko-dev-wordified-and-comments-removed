@@ -120,8 +120,6 @@ LOCAL_INCLUDES
 .
 /
 appstartup
-/
-src
 '
 '
 .
