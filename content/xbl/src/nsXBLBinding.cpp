@@ -4585,6 +4585,9 @@ AllowScripts
 )
 {
 return
+mBoundElement
+&
+&
 mPrototypeBinding
 -
 >
