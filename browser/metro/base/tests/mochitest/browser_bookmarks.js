@@ -276,7 +276,7 @@ itemCount
 =
 gStartView
 .
-_limit
+maxTiles
 "
 Grid
 repopulated
@@ -503,7 +503,7 @@ itemCount
 =
 gStartView
 .
-_limit
+maxTiles
 -
 1
 "
@@ -733,7 +733,7 @@ itemCount
 =
 gStartView
 .
-_limit
+maxTiles
 "
 Grid
 repopulated
@@ -1026,7 +1026,7 @@ itemCount
 =
 gStartView
 .
-_limit
+maxTiles
 "
 Grid
 repopulated
@@ -1295,7 +1295,7 @@ itemCount
 =
 gStartView
 .
-_limit
+maxTiles
 -
 1
 "
@@ -1446,7 +1446,7 @@ itemCount
 =
 gStartView
 .
-_limit
+maxTiles
 "
 Grid
 repopulated
@@ -1802,7 +1802,7 @@ itemCount
 =
 gStartView
 .
-_limit
+maxTiles
 -
 1
 "
