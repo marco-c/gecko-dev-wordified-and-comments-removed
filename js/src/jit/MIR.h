@@ -35389,6 +35389,7 @@ true
 ;
 class
 MResumePoint
+MOZ_FINAL
 :
 public
 MNode
