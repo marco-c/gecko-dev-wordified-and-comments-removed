@@ -786,11 +786,16 @@ i
 +
 +
 )
-delete
+js_delete
+<
+Segment
+>
+(
 m_segments
 [
 i
 ]
+)
 ;
 }
 bool
