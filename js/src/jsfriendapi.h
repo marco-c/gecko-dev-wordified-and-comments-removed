@@ -5309,6 +5309,12 @@ isConstant
 bool
 isPure
 ;
+bool
+isInSlot
+;
+size_t
+slotIndex
+;
 JSValueType
 returnType
 ;
@@ -5337,6 +5343,8 @@ OpType_None
 false
 false
 false
+false
+0
 JSVAL_TYPE_MISSING
 op
 }

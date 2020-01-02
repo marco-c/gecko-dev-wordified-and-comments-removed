@@ -27157,6 +27157,11 @@ JSJitInfo
 Getter
 true
 true
+true
+false
+0
+JSVAL_TYPE_UNKNOWN
+nullptr
 }
 ;
 static
@@ -27179,6 +27184,11 @@ JSJitInfo
 Setter
 false
 false
+false
+false
+0
+JSVAL_TYPE_UNKNOWN
+nullptr
 }
 ;
 static
@@ -27201,6 +27211,11 @@ JSJitInfo
 Method
 false
 false
+false
+false
+0
+JSVAL_TYPE_UNKNOWN
+nullptr
 }
 ;
 static

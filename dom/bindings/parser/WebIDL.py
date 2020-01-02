@@ -16064,6 +16064,12 @@ clamp
 =
 False
         
+self
+.
+slotIndex
+=
+0
+        
 if
 static
 and
