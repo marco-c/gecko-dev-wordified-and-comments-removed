@@ -353,6 +353,16 @@ a0
 )
 ;
 static
+jstring
+GetExternalPublicDirectory
+(
+const
+nsAString
+&
+a0
+)
+;
+static
 jobjectArray
 GetHandlersForMimeTypeWrapper
 (
@@ -1013,6 +1023,10 @@ jGetDpiWrapper
 static
 jmethodID
 jGetExtensionFromMimeTypeWrapper
+;
+static
+jmethodID
+jGetExternalPublicDirectory
 ;
 static
 jmethodID
