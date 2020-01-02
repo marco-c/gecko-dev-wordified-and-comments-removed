@@ -2140,7 +2140,13 @@ NS_ERROR_FAILURE
 }
 if
 (
+static_cast
+<
+int64_t
+>
+(
 mCodecDelay
+)
 !
 =
 FramesToUsecs
