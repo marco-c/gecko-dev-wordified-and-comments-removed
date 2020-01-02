@@ -144,6 +144,15 @@ start
 >
 <
 button
+id
+=
+"
+customization
+-
+reset
+-
+button
+"
 oncommand
 =
 "
