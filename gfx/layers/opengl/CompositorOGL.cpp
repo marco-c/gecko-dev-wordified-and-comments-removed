@@ -2977,11 +2977,9 @@ GetSize
 if
 (
 !
-mGLContext
--
->
 CanUploadNonPowerOfTwo
 (
+mGLContext
 )
 )
 {
@@ -3804,11 +3802,9 @@ gl
 {
 if
 (
-gl
--
->
 CanUploadNonPowerOfTwo
 (
+gl
 )
 )
 return

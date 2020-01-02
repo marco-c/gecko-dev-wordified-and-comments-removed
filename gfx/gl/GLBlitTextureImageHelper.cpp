@@ -8,6 +8,13 @@ h
 #
 include
 "
+GLUploadHelpers
+.
+h
+"
+#
+include
+"
 DecomposeIntoNoRepeatTriangles
 .
 h
@@ -626,11 +633,9 @@ srcSize
 if
 (
 !
-mGL
--
->
 CanUploadNonPowerOfTwo
 (
+mGL
 )
 )
 {
