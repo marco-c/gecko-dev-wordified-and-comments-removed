@@ -387,15 +387,6 @@ HasEnv
 did_work
 |
 =
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :

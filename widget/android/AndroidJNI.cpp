@@ -288,16 +288,6 @@ mozilla
 :
 layers
 ;
-using
-namespace
-mozilla
-:
-:
-widget
-:
-:
-android
-;
 extern
 "
 C

@@ -117,15 +117,6 @@ uriScheme
 )
 ;
 return
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :

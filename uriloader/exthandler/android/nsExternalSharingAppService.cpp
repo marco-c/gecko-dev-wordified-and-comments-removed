@@ -118,15 +118,6 @@ EmptyString
 )
 ;
 return
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :

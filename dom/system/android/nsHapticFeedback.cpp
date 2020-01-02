@@ -42,15 +42,6 @@ int32_t
 aType
 )
 {
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :

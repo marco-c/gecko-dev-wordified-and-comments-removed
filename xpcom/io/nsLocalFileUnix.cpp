@@ -8127,15 +8127,6 @@ file
 mPath
 ;
 return
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :

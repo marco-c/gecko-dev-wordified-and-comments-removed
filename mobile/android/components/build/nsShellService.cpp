@@ -98,15 +98,6 @@ Length
 return
 NS_ERROR_FAILURE
 ;
-mozilla
-:
-:
-widget
-:
-:
-android
-:
-:
 GeckoAppShell
 :
 :
