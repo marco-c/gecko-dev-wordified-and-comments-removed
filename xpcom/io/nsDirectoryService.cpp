@@ -395,7 +395,7 @@ localFile
 #
 ifdef
 XP_WIN
-PRUnichar
+wchar_t
 buf
 [
 MAX_PATH
@@ -432,7 +432,7 @@ GetLastError
 ERROR_INSUFFICIENT_BUFFER
 )
 {
-PRUnichar
+wchar_t
 *
 lastSlash
 =

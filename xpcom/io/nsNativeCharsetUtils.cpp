@@ -3767,9 +3767,7 @@ BeginReading
 iter
 )
 ;
-const
-PRUnichar
-*
+char16ptr_t
 buf
 =
 iter
@@ -3961,7 +3959,10 @@ WideCharToMultiByte
 (
 CP_ACP
 0
+char16ptr_t
+(
 aStrInW
+)
 -
 1
 aStrOutA

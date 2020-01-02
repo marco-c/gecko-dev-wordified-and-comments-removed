@@ -567,7 +567,7 @@ NS_ERROR_NOT_INITIALIZED
 FILETIME
 lastWritten
 ;
-PRUnichar
+wchar_t
 nameBuf
 [
 MAX_KEY_NAME_LEN
@@ -793,7 +793,7 @@ mKey
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-PRUnichar
+wchar_t
 nameBuf
 [
 MAX_VALUE_NAME_LEN
