@@ -585,11 +585,12 @@ def
 on_timeout
 (
 self
-line
 )
 :
         
 self
+.
+app_ctx
 .
 dm
 .
@@ -698,6 +699,12 @@ remote_process
 msg
 =
 "
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
 %
 s
 |
@@ -743,11 +750,7 @@ output
 %
 msg
         
-self
-.
-log
-.
-testFail
+print
 (
 msg
 %
