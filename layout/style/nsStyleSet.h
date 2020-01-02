@@ -442,8 +442,6 @@ dom
 Element
 *
 aPseudoElement
-=
-nullptr
 )
 ;
 already_AddRefed

@@ -30395,6 +30395,7 @@ AsElement
 )
 pseudoType
 parentStyle
+nullptr
 )
 ;
 nsBulletFrame

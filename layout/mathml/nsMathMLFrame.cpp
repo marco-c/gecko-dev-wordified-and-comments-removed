@@ -532,6 +532,7 @@ AsElement
 )
 pseudoType
 aParentStyleContext
+nullptr
 )
 ;
 aMathMLChar

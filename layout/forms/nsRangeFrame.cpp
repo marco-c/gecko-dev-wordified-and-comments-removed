@@ -548,6 +548,15 @@ aPseudoType
 StyleContext
 (
 )
+(
+*
+aResult
+)
+-
+>
+AsElement
+(
+)
 )
 ;
 if

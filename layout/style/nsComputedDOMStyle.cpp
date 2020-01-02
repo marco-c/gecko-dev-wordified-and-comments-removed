@@ -1622,6 +1622,7 @@ ResolvePseudoElementStyle
 aElement
 type
 parentContext
+nullptr
 )
 ;
 }
