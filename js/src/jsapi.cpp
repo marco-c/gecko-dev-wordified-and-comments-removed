@@ -3004,6 +3004,8 @@ JS_NewRuntime
 (
 uint32_t
 maxbytes
+uint32_t
+maxNurseryBytes
 JSRuntime
 *
 parentRuntime
@@ -3066,6 +3068,7 @@ rt
 init
 (
 maxbytes
+maxNurseryBytes
 )
 )
 {

@@ -283,6 +283,16 @@ JS
 struct
 Zone
 ;
+const
+uint32_t
+DefaultNurseryBytes
+=
+16
+*
+1024
+*
+1024
+;
 static
 MOZ_ALWAYS_INLINE
 js
