@@ -1646,6 +1646,13 @@ java
 '
 home
 /
+HomePanelPicker
+.
+java
+'
+'
+home
+/
 LastTabsPanel
 .
 java
