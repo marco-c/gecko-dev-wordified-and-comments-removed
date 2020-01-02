@@ -1127,7 +1127,6 @@ float
 >
 {
 static
-const
 float
 value
 (
@@ -1158,7 +1157,6 @@ double
 >
 {
 static
-const
 double
 value
 (
