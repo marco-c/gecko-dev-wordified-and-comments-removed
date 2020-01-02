@@ -4720,6 +4720,21 @@ not
 dictionary
             
 if
+dictionary
+:
+                
+headerSet
+=
+declareIncludes
+            
+else
+:
+                
+headerSet
+=
+bindingHeaders
+            
+if
 t
 .
 nullable
@@ -4727,29 +4742,7 @@ nullable
 )
 :
                 
-if
-dictionary
-:
-                    
-declareIncludes
-.
-add
-(
-"
-mozilla
-/
-dom
-/
-Nullable
-.
-h
-"
-)
-                
-else
-:
-                    
-bindingHeaders
+headerSet
 .
 add
 (
@@ -4828,18 +4821,25 @@ or
 jsImplementedDescriptors
 :
                     
-headerSet
-=
 declareIncludes
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+Date
+.
+h
+"
+)
                 
 else
 :
                     
-headerSet
-=
 bindingHeaders
-                
-headerSet
 .
 add
 (
@@ -4880,21 +4880,6 @@ jsfriendapi
 h
 "
 )
-                    
-if
-dictionary
-:
-                        
-headerSet
-=
-declareIncludes
-                    
-else
-:
-                        
-headerSet
-=
-bindingHeaders
                     
 headerSet
 .
@@ -4952,23 +4937,7 @@ NoSuchDescriptorError
                             
 continue
                         
-if
-dictionary
-:
-                            
-declareIncludes
-.
-add
-(
-typeDesc
-.
-headerFile
-)
-                        
-else
-:
-                            
-implementationIncludes
+headerSet
 .
 add
 (
@@ -4985,7 +4954,7 @@ isDictionary
 )
 :
                 
-bindingHeaders
+headerSet
 .
 add
 (
@@ -5007,7 +4976,7 @@ isCallback
 )
 :
                 
-bindingHeaders
+headerSet
 .
 add
 (
@@ -5085,18 +5054,6 @@ unrolled
 inner
 )
                 
-if
-filename
-!
-=
-prefix
-+
-"
-.
-h
-"
-:
-                    
 declareIncludes
 .
 add
@@ -5141,6 +5098,19 @@ dictionaries
 callbacks
 )
 )
+        
+declareIncludes
+.
+discard
+(
+prefix
++
+"
+.
+h
+"
+)
+;
         
 for
 desc
@@ -76162,18 +76132,26 @@ h
 %
 interfaceName
                                 
+(
 "
 mozilla
 /
 dom
 /
 %
-sBinding
-.
-h
+s
 "
 %
-interfaceName
+                                 
+CGHeaders
+.
+getDeclarationFilename
+(
+descriptor
+.
+interface
+)
+)
                                 
 "
 nsContentUtils
