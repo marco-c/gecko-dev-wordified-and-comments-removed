@@ -6913,12 +6913,7 @@ false
 ;
 JS_ASSERT
 (
-analysis
-(
-)
--
->
-ranBytecode
+hasAnalysis
 (
 )
 )
