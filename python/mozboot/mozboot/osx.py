@@ -1485,6 +1485,12 @@ _install_xcode_app_store
                     
 assert
 False
+                
+output
+=
+e
+.
+output
             
 if
 '
