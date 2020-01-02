@@ -85,6 +85,10 @@ ifdef
 ANDROID_RESFILES
 #
 {
+ifndef
+IGNORE_ANDROID_RESFILES
+#
+{
 res
 -
 dep
@@ -196,6 +200,10 @@ res
 (
 TOUCH
 )
+endif
+#
+}
+IGNORE_ANDROID_RESFILES
 endif
 #
 }
