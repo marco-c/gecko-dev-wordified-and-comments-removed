@@ -181,6 +181,17 @@ layout
 "
 layout
 /
+fxaccount_custom_server_view
+"
+/
+>
+<
+include
+layout
+=
+"
+layout
+/
 fxaccount_email_password_view
 "
 /
