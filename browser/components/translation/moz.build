@@ -99,6 +99,11 @@ Translation
 jsm
 '
 '
+TranslationContentHandler
+.
+jsm
+'
+'
 TranslationDocument
 .
 jsm
