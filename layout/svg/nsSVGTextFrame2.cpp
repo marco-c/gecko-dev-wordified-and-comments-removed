@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsSVGGlyphFrame
-.
-h
-"
-#
-include
-"
 nsSVGOuterSVGFrame
 .
 h
@@ -171,13 +164,6 @@ h
 include
 "
 nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
-nsSVGTextFrame
 .
 h
 "

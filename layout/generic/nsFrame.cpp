@@ -34837,7 +34837,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame
+svgTextFrame2
 )
 {
 break

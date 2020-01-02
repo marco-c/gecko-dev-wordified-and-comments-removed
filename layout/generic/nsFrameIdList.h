@@ -540,10 +540,6 @@ nsSVGGFrame
 )
 FRAME_ID
 (
-nsSVGGlyphFrame
-)
-FRAME_ID
-(
 nsSVGGradientFrame
 )
 FRAME_ID
@@ -605,10 +601,6 @@ nsSVGSwitchFrame
 FRAME_ID
 (
 nsSVGTextContainerFrame
-)
-FRAME_ID
-(
-nsSVGTextFrame
 )
 FRAME_ID
 (
