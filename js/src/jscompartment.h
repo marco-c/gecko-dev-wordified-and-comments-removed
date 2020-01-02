@@ -947,6 +947,11 @@ checkInitialShapesTableAfterMovingGC
 (
 )
 ;
+void
+checkWrapperMapAfterMovingGC
+(
+)
+;
 #
 endif
 js
@@ -1051,14 +1056,6 @@ cx
 ;
 void
 markCrossCompartmentWrappers
-(
-JSTracer
-*
-trc
-)
-;
-void
-markAllCrossCompartmentWrappers
 (
 JSTracer
 *
@@ -1217,6 +1214,9 @@ props
 bool
 putWrapper
 (
+JSContext
+*
+cx
 const
 js
 :
