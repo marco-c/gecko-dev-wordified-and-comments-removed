@@ -213,6 +213,9 @@ pin
 boolean
 dontConnect
 ;
+DOMString
+serverCertificate
+;
 }
 ;
 [
@@ -395,6 +398,11 @@ attribute
 boolean
 ?
 dontConnect
+;
+attribute
+DOMString
+?
+serverCertificate
 ;
 }
 ;
