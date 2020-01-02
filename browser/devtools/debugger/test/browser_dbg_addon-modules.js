@@ -321,13 +321,13 @@ sources
 "
 )
 ;
-sources
-.
-forEach
+for
 (
+let
 source
-=
->
+of
+sources
+)
 {
 let
 url
@@ -585,8 +585,6 @@ url
 ;
 }
 }
-)
-;
 ok
 (
 foundAddonModule
