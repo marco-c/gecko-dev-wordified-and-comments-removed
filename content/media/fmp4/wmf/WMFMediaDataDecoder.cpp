@@ -468,7 +468,6 @@ send
 DRAIN
 command
 to
-audio
 MFT
 "
 )
