@@ -10,6 +10,15 @@ icc_header
 js
 "
 ;
+let
+origNumICCs
+=
+iccManager
+.
+iccIds
+.
+length
+;
 function
 setRadioEnabled
 (
@@ -159,7 +168,9 @@ iccManager
 iccIds
 .
 length
-0
+origNumICCs
+-
+1
 "
 iccIds
 .
@@ -284,7 +295,7 @@ iccManager
 iccIds
 .
 length
-1
+origNumICCs
 "
 iccIds
 .

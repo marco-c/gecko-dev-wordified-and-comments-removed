@@ -558,6 +558,9 @@ aAllowError
 ;
 }
 let
+workingFrame
+;
+let
 mobileConnection
 ;
 function
@@ -679,8 +682,7 @@ permissions
 )
 )
 ;
-let
-ifr
+workingFrame
 =
 document
 .
@@ -691,7 +693,7 @@ iframe
 "
 )
 ;
-ifr
+workingFrame
 .
 addEventListener
 (
@@ -703,7 +705,7 @@ load
 (
 )
 {
-ifr
+workingFrame
 .
 removeEventListener
 (
@@ -715,7 +717,7 @@ load
 ;
 mobileConnection
 =
-ifr
+workingFrame
 .
 contentWindow
 .
@@ -809,7 +811,7 @@ body
 .
 appendChild
 (
-ifr
+workingFrame
 )
 ;
 }
