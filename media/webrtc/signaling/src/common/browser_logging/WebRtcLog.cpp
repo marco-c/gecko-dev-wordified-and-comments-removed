@@ -146,6 +146,9 @@ int
 length
 )
 {
+#
+ifdef
+PR_LOGGING
 PRLogModuleInfo
 *
 log
@@ -167,8 +170,8 @@ message
 )
 )
 ;
-return
-;
+#
+endif
 }
 }
 ;

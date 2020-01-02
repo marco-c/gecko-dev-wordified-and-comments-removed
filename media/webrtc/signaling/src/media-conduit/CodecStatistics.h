@@ -436,14 +436,14 @@ mReceiveFailureTime
 TimeDuration
 mTotalLossTime
 ;
-#
-endif
 uint32_t
 mRecoveredBeforeLoss
 ;
 uint32_t
 mRecoveredLosses
 ;
+#
+endif
 }
 ;
 }
