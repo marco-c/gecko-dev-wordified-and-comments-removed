@@ -10825,8 +10825,16 @@ move
 event
 to
 Gecko
-NotifyWindowMoved
+if
 (
+mWidgetListener
+)
+mWidgetListener
+-
+>
+WindowMoved
+(
+this
 mBounds
 .
 x
