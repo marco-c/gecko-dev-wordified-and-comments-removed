@@ -44,6 +44,9 @@ JSThreadSafeNative
 ThreadSafeNative
 ;
 }
+struct
+JSAtomState
+;
 class
 JSFunction
 :
@@ -2333,9 +2336,10 @@ GenericObject
 bool
 FunctionHasResolveHook
 (
-JSRuntime
-*
-rt
+const
+JSAtomState
+&
+atomState
 PropertyName
 *
 name

@@ -7570,7 +7570,6 @@ storePtr
 StackPointer
 AbsoluteAddress
 (
-&
 GetIonContext
 (
 )
@@ -7579,9 +7578,9 @@ GetIonContext
 runtime
 -
 >
-mainThread
-.
-ionTop
+addressOfIonTop
+(
+)
 )
 )
 ;

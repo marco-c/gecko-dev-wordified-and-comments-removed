@@ -1728,7 +1728,6 @@ loadPtr
 (
 AbsoluteAddress
 (
-&
 GetIonContext
 (
 )
@@ -1737,9 +1736,9 @@ GetIonContext
 runtime
 -
 >
-mainThread
-.
-ionJSContext
+addressOfJSContext
+(
+)
 )
 dest
 )
@@ -1766,8 +1765,6 @@ GetIonContext
 runtime
 -
 >
-mainThread
-.
 addressOfActivation
 (
 )
@@ -3255,10 +3252,7 @@ cond
 NonZero
 )
 ;
-JS
-:
-:
-Zone
+CompileZone
 *
 zone
 =
@@ -3281,7 +3275,7 @@ ImmPtr
 zone
 -
 >
-AddressOfNeedsBarrier
+addressOfNeedsBarrier
 (
 )
 )
@@ -3381,6 +3375,7 @@ address
 PreBarrierReg
 )
 ;
+const
 JitRuntime
 *
 rt
