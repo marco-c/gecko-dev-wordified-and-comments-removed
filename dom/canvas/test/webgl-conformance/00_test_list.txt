@@ -20,11 +20,6 @@ be
 .
 html
 files
-always
--
-fail
-.
-html
 conformance
 /
 00_test_list

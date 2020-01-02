@@ -1,11 +1,11 @@
 [
 DEFAULT
 ]
-%
-%
-DEFAULT_ERRATA
-%
-%
+skip
+-
+if
+=
+e10s
 support
 -
 files
