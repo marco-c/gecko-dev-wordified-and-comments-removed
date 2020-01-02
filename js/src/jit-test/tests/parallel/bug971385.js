@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+asserts
+.
+js
+"
+)
+;
 function
 f
 (
@@ -28,7 +39,9 @@ getBuildConfiguration
 .
 parallelJS
 )
-f
+assertThrowsInstanceOf
 (
+f
+InternalError
 )
 ;
