@@ -821,9 +821,9 @@ addMessageListenerId
 "
 Marionette
 :
-getCurrentUrl
+getUrl
 "
-getCurrentUrl
+getUrl
 )
 ;
 addMessageListenerId
@@ -1021,9 +1021,9 @@ addMessageListenerId
 "
 Marionette
 :
-getElementLocation
+getElementPosition
 "
-getElementLocation
+getElementPosition
 )
 ;
 addMessageListenerId
@@ -1440,9 +1440,9 @@ removeMessageListenerId
 "
 Marionette
 :
-getCurrentUrl
+getUrl
 "
-getCurrentUrl
+getUrl
 )
 ;
 removeMessageListenerId
@@ -1610,9 +1610,9 @@ removeMessageListenerId
 "
 Marionette
 :
-getElementLocation
+getElementPosition
 "
-getElementLocation
+getElementPosition
 )
 ;
 removeMessageListenerId
@@ -6986,7 +6986,7 @@ url
 ;
 }
 function
-getCurrentUrl
+getUrl
 (
 msg
 )
@@ -9272,7 +9272,7 @@ command_id
 }
 }
 function
-getElementLocation
+getElementPosition
 (
 msg
 )
