@@ -136,6 +136,17 @@ ToPrecision
 exponential
 .
 patch
+patch
+-
+p3
+<
+fix
+-
+gcc
+-
+warnings
+.
+patch
 #
 Merged
 upstream
