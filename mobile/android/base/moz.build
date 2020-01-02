@@ -7319,15 +7319,6 @@ resources
 /
 drawable
 /
-favicon_bg
-.
-xml
-'
-'
-resources
-/
-drawable
-/
 handle_end_level
 .
 xml
