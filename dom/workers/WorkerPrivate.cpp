@@ -15749,11 +15749,12 @@ ChannelFromScriptURLWorkerThread
 aCx
 aParent
 aScriptURL
-getter_AddRefs
-(
 loadInfo
 .
 mChannel
+.
+StartAssignment
+(
 )
 )
 ;
