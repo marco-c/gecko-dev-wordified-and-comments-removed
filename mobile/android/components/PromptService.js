@@ -1953,7 +1953,7 @@ p
 aPassword
 .
 value
-true
+false
 PromptUtils
 .
 getLocaleString
