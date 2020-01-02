@@ -2134,6 +2134,12 @@ invisibleToDebugger
 =
 true
 ;
+sandboxOptions
+.
+discardSource
+=
+true
+;
 rv
 =
 CreateSandboxObject
