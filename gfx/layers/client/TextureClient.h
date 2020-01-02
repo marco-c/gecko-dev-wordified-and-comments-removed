@@ -791,7 +791,7 @@ gfx
 IntSize
 aSize
 TextureAllocationFlags
-flags
+aFlags
 =
 ALLOC_DEFAULT
 )

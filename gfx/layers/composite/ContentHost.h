@@ -427,9 +427,12 @@ MOZ_OVERRIDE
 ifdef
 MOZ_DUMP_PAINTING
 virtual
-already_AddRefed
+TemporaryRef
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 GetAsSurface
 (
@@ -461,9 +464,6 @@ MOZ_OVERRIDE
 ;
 #
 endif
-#
-ifdef
-MOZ_LAYERS_HAVE_LOG
 virtual
 void
 PrintInfo
@@ -478,8 +478,6 @@ aPrefix
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 virtual
 TextureHost
 *
@@ -521,6 +519,13 @@ mPaintWillResample
 aResample
 ;
 }
+virtual
+void
+OnActorDestroy
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
