@@ -6971,9 +6971,10 @@ result
 {
 if
 (
-JSVAL_IS_BOOLEAN
-(
 val
+.
+isBoolean
+(
 )
 )
 {
@@ -7450,9 +7451,10 @@ false
 }
 if
 (
-JSVAL_IS_BOOLEAN
-(
 val
+.
+isBoolean
+(
 )
 )
 {

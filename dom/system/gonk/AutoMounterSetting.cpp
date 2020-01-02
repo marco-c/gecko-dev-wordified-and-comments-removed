@@ -360,9 +360,10 @@ aResult
 {
 if
 (
-JSVAL_IS_BOOLEAN
-(
 aResult
+.
+isBoolean
+(
 )
 )
 {

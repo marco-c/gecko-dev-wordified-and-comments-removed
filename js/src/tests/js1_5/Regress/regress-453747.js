@@ -20,9 +20,10 @@ isUndefined
 )
 |
 |
-JSVAL_IS_BOOLEAN
-(
 boxed
+.
+isBoolean
+(
 )
 '
 ;
