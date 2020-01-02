@@ -369,6 +369,15 @@ profiler
 -
 controls
 "
+class
+=
+"
+devtools
+-
+toolbarbutton
+-
+group
+"
 >
 <
 toolbarbutton
