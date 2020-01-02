@@ -284,6 +284,12 @@ callee
 true
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 gBrowser
 .
 contentDocument
@@ -309,6 +315,9 @@ s
 .
 click
 (
+)
+;
+}
 )
 ;
 }
