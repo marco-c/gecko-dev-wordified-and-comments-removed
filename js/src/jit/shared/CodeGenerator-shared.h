@@ -558,6 +558,14 @@ argc
 ;
 protected
 :
+#
+ifdef
+CHECK_OSIPOINT_REGISTERS
+bool
+checkOsiPointRegisters
+;
+#
+endif
 int32_t
 frameDepth_
 ;
