@@ -3274,8 +3274,8 @@ EventUtils
 synthesizeMouse
 (
 button
-1
-1
+4
+4
 {
 }
 )
