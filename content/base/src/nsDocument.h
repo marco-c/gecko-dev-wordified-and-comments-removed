@@ -4505,6 +4505,11 @@ EnsureOnloadBlocker
 (
 )
 ;
+void
+NotifyStyleSheetApplicableStateChanged
+(
+)
+;
 nsTArray
 <
 nsIObserver
@@ -4708,6 +4713,11 @@ mAllowRelocking
 ;
 bool
 mAsyncFullscreenPending
+:
+1
+;
+bool
+mSSApplicableStateNotificationPending
 :
 1
 ;
