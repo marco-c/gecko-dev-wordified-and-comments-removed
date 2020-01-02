@@ -640,7 +640,10 @@ addr
 SurfacePattern
 (
 mSourceSurface
-EXTEND_CLAMP
+ToExtendMode
+(
+mExtend
+)
 mTransform
 )
 ;
