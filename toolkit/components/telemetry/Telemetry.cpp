@@ -3147,7 +3147,7 @@ mAddonMap
 typedef
 nsBaseHashtableET
 <
-nsCharPtrHashKey
+nsDepCharHashKey
 Telemetry
 :
 :
