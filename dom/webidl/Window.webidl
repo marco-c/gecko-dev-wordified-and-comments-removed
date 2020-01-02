@@ -2504,6 +2504,7 @@ fullScreen
 ;
 [
 Throws
+ChromeOnly
 ]
 void
 back
@@ -2512,6 +2513,7 @@ back
 ;
 [
 Throws
+ChromeOnly
 ]
 void
 forward
@@ -2520,6 +2522,7 @@ forward
 ;
 [
 Throws
+ChromeOnly
 ]
 void
 home
