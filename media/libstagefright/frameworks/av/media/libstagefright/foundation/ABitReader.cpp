@@ -8,6 +8,15 @@ h
 #
 include
 <
+log
+/
+log
+.
+h
+>
+#
+include
+<
 media
 /
 stagefright

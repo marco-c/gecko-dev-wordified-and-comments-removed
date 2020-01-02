@@ -113,12 +113,14 @@ PlatformDecoderModule
 h
 '
 ]
+#
 EXPORTS
 .
 mp4_demuxer
 +
 =
 [
+#
 '
 demuxer
 /
@@ -126,6 +128,7 @@ aac
 .
 h
 '
+#
 '
 demuxer
 /
@@ -133,6 +136,7 @@ audio_decoder_config
 .
 h
 '
+#
 '
 demuxer
 /
@@ -140,6 +144,7 @@ avc
 .
 h
 '
+#
 '
 demuxer
 /
@@ -147,6 +152,7 @@ basictypes
 .
 h
 '
+#
 '
 demuxer
 /
@@ -154,6 +160,7 @@ bit_reader
 .
 h
 '
+#
 '
 demuxer
 /
@@ -161,6 +168,7 @@ box_definitions
 .
 h
 '
+#
 '
 demuxer
 /
@@ -168,6 +176,7 @@ box_reader
 .
 h
 '
+#
 '
 demuxer
 /
@@ -175,6 +184,7 @@ cenc
 .
 h
 '
+#
 '
 demuxer
 /
@@ -182,6 +192,7 @@ channel_layout
 .
 h
 '
+#
 '
 demuxer
 /
@@ -189,6 +200,7 @@ decrypt_config
 .
 h
 '
+#
 '
 demuxer
 /
@@ -196,6 +208,7 @@ es_descriptor
 .
 h
 '
+#
 '
 demuxer
 /
@@ -203,6 +216,7 @@ fourccs
 .
 h
 '
+#
 '
 demuxer
 /
@@ -210,6 +224,7 @@ mp4_demuxer
 .
 h
 '
+#
 '
 demuxer
 /
@@ -217,6 +232,7 @@ Streams
 .
 h
 '
+#
 '
 demuxer
 /
@@ -224,6 +240,7 @@ track_run_iterator
 .
 h
 '
+#
 '
 demuxer
 /
@@ -231,6 +248,7 @@ video_decoder_config
 .
 h
 '
+#
 '
 demuxer
 /
@@ -238,8 +256,14 @@ video_util
 .
 h
 '
+#
 ]
+#
 UNIFIED_SOURCES
++
+=
+[
+SOURCES
 +
 =
 [
@@ -248,6 +272,7 @@ BlankDecoderModule
 .
 cpp
 '
+#
 '
 demuxer
 /
@@ -255,6 +280,7 @@ aac
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -262,6 +288,7 @@ audio_decoder_config
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -269,6 +296,7 @@ avc
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -276,6 +304,7 @@ bit_reader
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -283,6 +312,7 @@ box_definitions
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -290,6 +320,7 @@ box_reader
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -297,6 +328,7 @@ cenc
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -304,6 +336,7 @@ channel_layout
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -311,6 +344,7 @@ decrypt_config
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -318,6 +352,7 @@ es_descriptor
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -325,6 +360,7 @@ mp4_demuxer
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -332,6 +368,7 @@ track_run_iterator
 .
 cc
 '
+#
 '
 demuxer
 /
@@ -339,6 +376,7 @@ video_decoder_config
 .
 cc
 '
+#
 '
 demuxer
 /

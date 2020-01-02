@@ -128,6 +128,11 @@ kKeySampleRate
 '
 srte
 '
+kKeySampleSize
+=
+'
+ssiz
+'
 kKeyFrameRate
 =
 '

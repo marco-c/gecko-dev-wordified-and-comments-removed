@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -3337,3 +3340,6 @@ sampleIndex
 ;
 }
 }
+#
+undef
+LOG_TAG

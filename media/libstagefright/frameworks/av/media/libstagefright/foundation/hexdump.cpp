@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -390,3 +393,6 @@ offset
 }
 }
 }
+#
+undef
+LOG_TAG
