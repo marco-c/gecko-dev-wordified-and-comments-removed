@@ -1660,9 +1660,9 @@ mozilla
 Telemetry
 :
 :
-NTLM_MODULE_USED
+NTLM_MODULE_USED_2
 serviceFlags
-|
+&
 nsIAuthModule
 :
 :
