@@ -133,6 +133,13 @@ onManifestLoad
 }
 SimpleTest
 .
+requestLongerTimeout
+(
+2
+)
+;
+SimpleTest
+.
 waitForExplicitFinish
 (
 )
