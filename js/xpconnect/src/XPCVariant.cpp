@@ -263,9 +263,10 @@ trc
 {
 MOZ_ASSERT
 (
-JSVAL_IS_TRACEABLE
-(
 mJSVal
+.
+isMarkable
+(
 )
 )
 ;
@@ -508,9 +509,10 @@ variant
 if
 (
 !
-JSVAL_IS_TRACEABLE
-(
 aJSVal
+.
+isMarkable
+(
 )
 )
 variant
