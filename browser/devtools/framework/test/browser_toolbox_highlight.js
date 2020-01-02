@@ -382,9 +382,7 @@ ok
 (
 tab
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 highlighted
@@ -393,7 +391,7 @@ highlighted
 "
 The
 highlighted
-class
+attribute
 is
 present
 "
@@ -464,9 +462,7 @@ ok
 (
 tab
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 highlighted
@@ -475,7 +471,7 @@ highlighted
 "
 The
 highlighted
-class
+attribute
 is
 present
 "
@@ -555,9 +551,7 @@ ok
 !
 tab
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 highlighted
@@ -566,7 +560,7 @@ highlighted
 "
 The
 highlighted
-class
+attribute
 is
 not
 present

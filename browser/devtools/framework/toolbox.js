@@ -4351,12 +4351,13 @@ tab
 &
 tab
 .
-classList
-.
-add
+setAttribute
 (
 "
 highlighted
+"
+"
+true
 "
 )
 ;
@@ -4392,9 +4393,7 @@ tab
 &
 tab
 .
-classList
-.
-remove
+removeAttribute
 (
 "
 highlighted
