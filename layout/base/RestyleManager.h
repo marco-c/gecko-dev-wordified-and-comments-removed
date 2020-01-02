@@ -376,6 +376,8 @@ RestyleTracker
 aRestyleTracker
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 ;
 void
