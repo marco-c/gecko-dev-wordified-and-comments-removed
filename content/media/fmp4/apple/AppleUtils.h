@@ -83,6 +83,17 @@ bool
 value
 )
 ;
+static
+nsresult
+GetRichestDecodableFormat
+(
+AudioFileStreamID
+aAudioFileStream
+AudioStreamBasicDescription
+&
+aFormat
+)
+;
 }
 ;
 template
