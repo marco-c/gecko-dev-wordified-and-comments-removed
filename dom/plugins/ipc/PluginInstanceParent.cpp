@@ -222,7 +222,7 @@ h
 "
 extern
 const
-PRUnichar
+wchar_t
 *
 kOOPPPluginFocusEventId
 ;
@@ -236,7 +236,7 @@ kOOPPPluginFocusEventId
 ;
 extern
 const
-PRUnichar
+wchar_t
 *
 kFlashFullscreenClass
 ;
@@ -5419,7 +5419,7 @@ case
 WM_KILLFOCUS
 :
 {
-PRUnichar
+wchar_t
 szClass
 [
 26
@@ -8041,7 +8041,7 @@ OS_WIN
 )
 static
 const
-PRUnichar
+wchar_t
 kPluginInstanceParentProperty
 [
 ]

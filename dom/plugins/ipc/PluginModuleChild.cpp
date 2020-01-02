@@ -312,7 +312,7 @@ defined
 XP_WIN
 )
 const
-PRUnichar
+wchar_t
 *
 kFlashFullscreenClass
 =
@@ -322,7 +322,7 @@ ShockwaveFlashFullScreen
 "
 ;
 const
-PRUnichar
+wchar_t
 *
 kMozillaWindowClass
 =
@@ -7945,7 +7945,7 @@ if
 sBrowserHwnd
 )
 {
-PRUnichar
+wchar_t
 szClass
 [
 20
@@ -9935,7 +9935,7 @@ message
 WM_KILLFOCUS
 )
 {
-PRUnichar
+wchar_t
 szClass
 [
 26

@@ -103,7 +103,7 @@ h
 "
 extern
 const
-PRUnichar
+wchar_t
 *
 kFlashFullscreenClass
 ;
@@ -6705,7 +6705,7 @@ PluginModuleChild
 QUIRK_FLASH_FIXUP_MOUSE_CAPTURE
 )
 {
-PRUnichar
+wchar_t
 szClass
 [
 26
@@ -7513,7 +7513,7 @@ return
 0
 ;
 }
-PRUnichar
+wchar_t
 szClass
 [
 21
@@ -9073,7 +9073,7 @@ return
 FALSE
 ;
 }
-PRUnichar
+wchar_t
 className
 [
 64
