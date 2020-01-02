@@ -647,7 +647,7 @@ Invalidate
 types
 :
 :
-TypeZone
+TypeCompartment
 &
 types
 FreeOp
