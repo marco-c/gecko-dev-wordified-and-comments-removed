@@ -4717,6 +4717,13 @@ onclick
 )
 GK_ATOM
 (
+onclirmodechange
+"
+onclirmodechange
+"
+)
+GK_ATOM
+(
 onclose
 "
 onclose
