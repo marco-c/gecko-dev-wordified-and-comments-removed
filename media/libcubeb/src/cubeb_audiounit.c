@@ -1634,6 +1634,9 @@ return
 CUBEB_ERROR
 ;
 }
+#
+if
+0
 if
 (
 buffer_size
@@ -1678,6 +1681,8 @@ CUBEB_ERROR
 ;
 }
 }
+#
+endif
 r
 =
 AudioUnitSetProperty
