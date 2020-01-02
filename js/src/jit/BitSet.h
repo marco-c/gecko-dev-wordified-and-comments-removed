@@ -211,7 +211,6 @@ JS_ASSERT
 (
 value
 <
-=
 max_
 )
 ;
@@ -257,7 +256,6 @@ JS_ASSERT
 (
 value
 <
-=
 max_
 )
 ;
@@ -302,7 +300,6 @@ JS_ASSERT
 (
 value
 <
-=
 max_
 )
 ;
@@ -506,7 +503,6 @@ JS_ASSERT
 (
 index_
 <
-=
 set_
 .
 max_
@@ -592,7 +588,6 @@ JS_ASSERT_IF
 (
 index_
 <
-=
 set_
 .
 max_
@@ -620,7 +615,6 @@ JS_ASSERT
 (
 index_
 <
-=
 set_
 .
 max_

@@ -11033,6 +11033,14 @@ argnum_
 =
 argnum
 ;
+JS_ASSERT
+(
+argnum_
+>
+=
+0
+)
+;
 }
 uint32_t
 getArgnum
