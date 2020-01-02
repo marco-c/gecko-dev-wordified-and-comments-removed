@@ -1421,7 +1421,8 @@ getTime
 )
 thread
 :
-null
+"
+"
 pid
 :
 null

@@ -2,6 +2,8 @@ from
 threading
 import
 Lock
+import
+codecs
 from
 .
 .
@@ -298,6 +300,22 @@ is
 not
 None
         
+if
+isinstance
+(
+stream
+codecs
+.
+StreamWriter
+)
+:
+            
+stream
+=
+stream
+.
+stream
+        
 self
 .
 stream
@@ -364,7 +382,12 @@ self
 _lock
 :
             
-try
+if
+isinstance
+(
+formatted
+unicode
+)
 :
                 
 self
@@ -378,7 +401,9 @@ formatted
 encode
 (
 "
-utf8
+utf
+-
+8
 "
 "
 replace
@@ -386,10 +411,39 @@ replace
 )
 )
             
-except
+elif
+isinstance
+(
+formatted
+str
+)
 :
                 
-raise
+self
+.
+stream
+.
+write
+(
+formatted
+)
+            
+else
+:
+                
+assert
+False
+"
+Got
+output
+from
+the
+formatter
+of
+an
+unexpected
+type
+"
             
 self
 .
