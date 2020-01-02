@@ -527,10 +527,10 @@ ttrack
 >
 SetReadyState
 (
-TextTrack
+TextTrackReadyState
 :
 :
-READY_STATE_LOADED
+Loaded
 )
 ;
 AddCues
@@ -1013,10 +1013,10 @@ ReadyState
 )
 =
 =
-TextTrack
+TextTrackReadyState
 :
 :
-READY_STATE_LOADING
+Loading
 )
 {
 mPendingTextTracks
