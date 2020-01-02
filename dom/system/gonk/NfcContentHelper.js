@@ -1911,7 +1911,7 @@ shutdown
 {
 this
 .
-removeMessageListener
+destroyDOMRequestHelper
 (
 )
 ;
