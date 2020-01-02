@@ -6625,6 +6625,16 @@ aEvent
 currentTarget
 )
 ;
+if
+(
+!
+panel
+)
+{
+return
+true
+;
+}
 let
 inInput
 =
