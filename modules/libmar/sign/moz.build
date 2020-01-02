@@ -133,6 +133,14 @@ src
 verify
 '
 ]
+DEFINES
+[
+'
+MAR_NSS
+'
+]
+=
+True
 if
 CONFIG
 [

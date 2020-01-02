@@ -63,11 +63,6 @@ for
 reading
 archives
 .
-CFLAGS
-+
-=
--
-DMAR_NSS
 include
 (
 topsrcdir
