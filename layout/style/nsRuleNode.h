@@ -2187,7 +2187,7 @@ bool
 aCanStoreInRuleTree
 )
 ;
-void
+bool
 SetStyleFilterToCSSValue
 (
 nsStyleFilter
