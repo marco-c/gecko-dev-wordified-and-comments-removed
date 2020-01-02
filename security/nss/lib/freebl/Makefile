@@ -5371,7 +5371,13 @@ ifneq
 findstring
 clang
 (
+shell
+(
 AS
+)
+-
+-
+version
 )
 )
 )

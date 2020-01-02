@@ -6631,6 +6631,7 @@ crvCollect
 =
 CKR_OK
 ;
+unsigned
 int
 i
 ;
@@ -6887,6 +6888,7 @@ dbKey
 class
 )
 ;
+unsigned
 int
 i
 ;
@@ -8257,6 +8259,7 @@ writePrivate
 =
 PR_FALSE
 ;
+unsigned
 int
 i
 ;

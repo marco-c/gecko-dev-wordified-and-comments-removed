@@ -8,7 +8,7 @@ _CERTDB_H_
 define
 CERTDB_TERMINAL_RECORD
 (
-1
+1u
 <
 <
 0
@@ -17,7 +17,7 @@ CERTDB_TERMINAL_RECORD
 define
 CERTDB_TRUSTED
 (
-1
+1u
 <
 <
 1
@@ -26,7 +26,7 @@ CERTDB_TRUSTED
 define
 CERTDB_SEND_WARN
 (
-1
+1u
 <
 <
 2
@@ -35,7 +35,7 @@ CERTDB_SEND_WARN
 define
 CERTDB_VALID_CA
 (
-1
+1u
 <
 <
 3
@@ -44,7 +44,7 @@ CERTDB_VALID_CA
 define
 CERTDB_TRUSTED_CA
 (
-1
+1u
 <
 <
 4
@@ -62,7 +62,7 @@ certs
 define
 CERTDB_NS_TRUSTED_CA
 (
-1
+1u
 <
 <
 5
@@ -71,7 +71,7 @@ CERTDB_NS_TRUSTED_CA
 define
 CERTDB_USER
 (
-1
+1u
 <
 <
 6
@@ -80,7 +80,7 @@ CERTDB_USER
 define
 CERTDB_TRUSTED_CLIENT_CA
 (
-1
+1u
 <
 <
 7
@@ -98,7 +98,7 @@ certs
 define
 CERTDB_INVISIBLE_CA
 (
-1
+1u
 <
 <
 8
@@ -117,7 +117,7 @@ UI
 define
 CERTDB_GOVT_APPROVED_CA
 (
-1
+1u
 <
 <
 9

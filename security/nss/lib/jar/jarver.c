@@ -49,15 +49,6 @@ h
 "
 #
 define
-CERTDB_USER
-(
-1
-<
-<
-6
-)
-#
-define
 SZ
 512
 static

@@ -25577,10 +25577,9 @@ sessionIDLength
 else
 rv
 =
-ssl3_AppendHandshakeVariable
+ssl3_AppendHandshakeNumber
 (
 ss
-NULL
 0
 1
 )
@@ -42354,10 +42353,9 @@ sessionIDLength
 else
 rv
 =
-ssl3_AppendHandshakeVariable
+ssl3_AppendHandshakeNumber
 (
 ss
-NULL
 0
 1
 )
