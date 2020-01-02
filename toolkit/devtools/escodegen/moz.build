@@ -126,13 +126,6 @@ escodegen
 js
 '
 '
-escodegen
-.
-worker
-.
-js
-'
-'
 estraverse
 .
 js
