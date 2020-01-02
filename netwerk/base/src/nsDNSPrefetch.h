@@ -7,13 +7,6 @@ nsDNSPrefetch_h___
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -65,9 +58,6 @@ nsDNSPrefetch
 nsIURI
 *
 aURI
-nsIDNSListener
-*
-aListener
 bool
 storeTiming
 )
@@ -186,9 +176,6 @@ mozilla
 :
 TimeStamp
 mEndTimestamp
-;
-nsWeakPtr
-mListener
 ;
 nsresult
 Prefetch
