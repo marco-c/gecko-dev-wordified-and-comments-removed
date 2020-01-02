@@ -8662,7 +8662,7 @@ cc
 >
 SendSyncMessage
 (
-nsString
+PromiseFlatString
 (
 aMessage
 )
@@ -8679,7 +8679,7 @@ cc
 >
 CallRpcMessage
 (
-nsString
+PromiseFlatString
 (
 aMessage
 )
@@ -8819,7 +8819,7 @@ cc
 >
 SendAsyncMessage
 (
-nsString
+PromiseFlatString
 (
 aMessage
 )
