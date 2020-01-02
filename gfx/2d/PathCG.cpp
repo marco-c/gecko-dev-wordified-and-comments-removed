@@ -268,7 +268,6 @@ y
 aRadius
 aStartAngle
 aEndAngle
-!
 aAntiClockwise
 )
 ;
