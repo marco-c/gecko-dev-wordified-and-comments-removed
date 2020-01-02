@@ -136,6 +136,15 @@ nullptr
 ;
 static
 void
+PremultiplyDataSurface
+(
+DataSourceSurface
+*
+aSurface
+)
+;
+static
+void
 UnpremultiplyImageSurface
 (
 gfxImageSurface
