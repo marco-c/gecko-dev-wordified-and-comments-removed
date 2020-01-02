@@ -1118,7 +1118,9 @@ GetFrameMetrics
 (
 )
 .
-mScrollableRect
+GetExpandedScrollableRect
+(
+)
 ;
 return
 GetRectOffset
@@ -1146,7 +1148,9 @@ GetFrameMetrics
 (
 )
 .
-mScrollableRect
+GetExpandedScrollableRect
+(
+)
 ;
 return
 GetRectLength
@@ -1205,7 +1209,9 @@ GetRectLength
 (
 metrics
 .
-mScrollableRect
+GetExpandedScrollableRect
+(
+)
 )
 <
 GetRectLength
