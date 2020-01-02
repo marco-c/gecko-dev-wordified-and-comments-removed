@@ -1370,14 +1370,11 @@ Success
 ;
 default
 :
-PR_SetError
+return
+Fail
 (
 SEC_ERROR_BAD_DER
-0
 )
-;
-return
-Failure
 ;
 }
 }
