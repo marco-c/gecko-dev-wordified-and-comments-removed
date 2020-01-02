@@ -90,6 +90,9 @@ h
 class
 nsASocketHandler
 ;
+struct
+PRPollDesc
+;
 #
 if
 defined

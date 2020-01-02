@@ -1458,17 +1458,3 @@ NO_EXPIRATION_TIME
 ;
 }
 ;
-%
-{
-C
-+
-+
-#
-include
-"
-nsError
-.
-h
-"
-%
-}

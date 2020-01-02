@@ -63,13 +63,9 @@ nsISupports
 .
 idl
 "
-#
-include
-"
+interface
 nsIWifiListener
-.
-idl
-"
+;
 [
 scriptable
 uuid

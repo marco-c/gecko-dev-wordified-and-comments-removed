@@ -172,13 +172,6 @@ nsIStreamConverter
 .
 idl
 "
-#
-include
-"
-nsrootidl
-.
-idl
-"
 %
 {
 C

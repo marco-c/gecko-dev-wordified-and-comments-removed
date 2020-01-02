@@ -59,12 +59,15 @@ MPL
 #
 include
 "
-nsIChannel
+nsISupports
 .
 idl
 "
 interface
 nsIInputStream
+;
+interface
+nsIURI
 ;
 /
 *

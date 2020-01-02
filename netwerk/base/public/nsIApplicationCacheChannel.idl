@@ -92,13 +92,6 @@ MPL
 #
 include
 "
-nsISupports
-.
-idl
-"
-#
-include
-"
 nsIApplicationCacheContainer
 .
 idl

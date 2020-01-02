@@ -34,6 +34,13 @@ h
 #
 include
 "
+nsIDashboardEventNotifier
+.
+h
+"
+#
+include
+"
 nsIDNSListener
 .
 h

@@ -100,13 +100,6 @@ nsIProxiedChannel
 .
 idl
 "
-#
-include
-"
-nsIChannel
-.
-idl
-"
 interface
 nsILoadGroup
 ;
@@ -115,6 +108,11 @@ nsIURI
 ;
 interface
 nsIInterfaceRequestor
+;
+typedef
+unsigned
+long
+nsLoadFlags
 ;
 [
 scriptable

@@ -98,13 +98,6 @@ nsIStreamConverter
 .
 idl
 "
-#
-include
-"
-nsrootidl
-.
-idl
-"
 [
 scriptable
 uuid

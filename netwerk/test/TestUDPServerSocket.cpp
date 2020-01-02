@@ -48,6 +48,13 @@ nsIInputStream
 h
 "
 #
+include
+"
+nsINetAddr
+.
+h
+"
+#
 define
 UDP_PORT
 1234

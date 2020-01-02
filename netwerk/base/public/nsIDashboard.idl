@@ -63,13 +63,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsIDashboardEventNotifier
-.
-idl
-"
 /
 *
 A

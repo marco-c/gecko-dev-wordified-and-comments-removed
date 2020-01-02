@@ -292,13 +292,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsISimpleEnumerator
-.
-idl
-"
 interface
 nsIURI
 ;
@@ -313,6 +306,9 @@ nsIDOMWindow
 ;
 interface
 nsIPermission
+;
+interface
+nsISimpleEnumerator
 ;
 [
 scriptable

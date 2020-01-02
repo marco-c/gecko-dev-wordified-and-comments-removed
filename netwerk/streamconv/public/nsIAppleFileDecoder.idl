@@ -98,13 +98,9 @@ nsIOutputStream
 .
 idl
 "
-#
-include
-"
+interface
 nsIFile
-.
-idl
-"
+;
 %
 {
 C

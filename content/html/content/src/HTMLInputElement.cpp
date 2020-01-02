@@ -593,6 +593,13 @@ h
 #
 include
 "
+nsIMIMEInfo
+.
+h
+"
+#
+include
+"
 js
 /
 Date

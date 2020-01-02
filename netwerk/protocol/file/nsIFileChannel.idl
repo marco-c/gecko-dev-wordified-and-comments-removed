@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIChannel
+nsISupports
 .
 idl
 "

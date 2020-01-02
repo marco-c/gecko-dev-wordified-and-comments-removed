@@ -98,13 +98,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsIURI
-.
-idl
-"
 /
 *
 *

@@ -79,13 +79,9 @@ nsISupports
 .
 idl
 "
-#
-include
-"
+interface
 nsIFile
-.
-idl
-"
+;
 interface
 nsIServerSocketListener
 ;
