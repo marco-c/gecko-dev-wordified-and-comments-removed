@@ -1425,12 +1425,6 @@ url
 }
 )
 ;
-this
-.
-_getRunningApps
-(
-)
-;
 }
 )
 ;
