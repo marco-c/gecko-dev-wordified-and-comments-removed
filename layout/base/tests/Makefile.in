@@ -706,14 +706,6 @@ test_event_target_radius
 .
 html
 \
-test_event_target_iframe_oop
-.
-html
-\
-test_event_target_iframe_apps_oop
-.
-html
-\
 test_mozPaintCount
 .
 html
