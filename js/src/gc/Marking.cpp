@@ -993,7 +993,9 @@ rt
 >
 gc
 .
-manipulatingDeadZones
+isManipulatingDeadZones
+(
+)
 !
 thing
 -
@@ -1400,7 +1402,9 @@ runtime
 >
 gc
 .
-incrementalState
+state
+(
+)
 =
 =
 NO_INCREMENTAL
@@ -1417,7 +1421,9 @@ runtime
 >
 gc
 .
-incrementalState
+state
+(
+)
 =
 =
 MARK_ROOTS
@@ -4658,9 +4664,9 @@ runtime
 >
 gc
 .
-foundBlackGrayEdges
-=
-true
+setFoundBlackGrayEdges
+(
+)
 ;
 }
 return
@@ -8745,7 +8751,9 @@ runtime
 >
 gc
 .
-incrementalEnabled
+isIncrementalGCEnabled
+(
+)
 &
 &
 !

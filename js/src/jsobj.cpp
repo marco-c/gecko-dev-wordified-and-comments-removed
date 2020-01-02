@@ -7571,9 +7571,9 @@ rt
 >
 gc
 .
-incrementalEnabled
-=
-false
+disableIncrementalGC
+(
+)
 ;
 #
 ifdef

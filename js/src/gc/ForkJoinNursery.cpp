@@ -516,6 +516,8 @@ pjsCollection
 rt
 -
 >
+gc
+.
 incFJMinorCollecting
 (
 )
@@ -664,6 +666,8 @@ movedSize_
 rt
 -
 >
+gc
+.
 decFJMinorCollecting
 (
 )
