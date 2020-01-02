@@ -4634,6 +4634,16 @@ sCacheMaxSize
 *
 1024
 ;
+sCacheMaxSize
+=
+sCacheMaxSize
+>
+0
+?
+sCacheMaxSize
+:
+0
+;
 sMemReporter
 =
 new
@@ -6018,7 +6028,6 @@ GetSize
 (
 )
 >
-=
 sCacheMaxSize
 )
 {
