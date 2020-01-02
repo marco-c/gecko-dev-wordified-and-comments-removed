@@ -392,6 +392,13 @@ include
 algorithm
 >
 #
+include
+"
+PowerWakeLock
+.
+h
+"
+#
 define
 LOG
 (
@@ -2766,6 +2773,10 @@ SetEnabled
 (
 aEnabled
 )
+;
+gPowerWakelock
+=
+nullptr
 ;
 sScreenEnabled
 =
