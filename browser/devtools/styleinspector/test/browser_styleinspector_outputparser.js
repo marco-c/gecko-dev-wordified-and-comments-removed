@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 {
 devtools
@@ -67,10 +72,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 function
 countAll
 (
