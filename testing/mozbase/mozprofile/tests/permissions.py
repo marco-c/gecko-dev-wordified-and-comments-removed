@@ -882,8 +882,14 @@ origins_decl
 =
 "
 var
-origins
+knownOrigins
 =
+(
+function
+(
+)
+{
+return
 [
 '
 http
@@ -927,7 +933,8 @@ http
 8888
 '
 ]
-;
+.
+reduce
 "
         
 self
