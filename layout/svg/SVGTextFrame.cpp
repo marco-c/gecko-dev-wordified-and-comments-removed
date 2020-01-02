@@ -9288,8 +9288,9 @@ NS_FRAME_IS_SVG_TEXT
 )
 ;
 mMutationObserver
-.
-StartObserving
+=
+new
+MutationObserver
 (
 this
 )
