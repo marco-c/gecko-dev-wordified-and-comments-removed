@@ -228,10 +228,7 @@ mCompositorID
 )
 mDiagnosticTypes
 (
-DiagnosticTypes
-:
-:
-NO_DIAGNOSTIC
+DIAGNOSTIC_NONE
 )
 mParent
 (
@@ -253,10 +250,7 @@ CreateDataTextureSource
 TextureFlags
 aFlags
 =
-TextureFlags
-:
-:
-NO_FLAGS
+0
 )
 =
 0

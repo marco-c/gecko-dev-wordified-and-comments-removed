@@ -2854,10 +2854,7 @@ GetDiagnosticTypes
 (
 )
 &
-DiagnosticTypes
-:
-:
-FLASH_BORDERS
+DIAGNOSTIC_FLASH_BORDERS
 )
 {
 ScheduleComposition

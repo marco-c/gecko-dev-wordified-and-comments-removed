@@ -805,9 +805,6 @@ GetType
 )
 {
 return
-CompositableType
-:
-:
 BUFFER_TILED
 ;
 }

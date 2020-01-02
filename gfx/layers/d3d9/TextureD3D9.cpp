@@ -1731,10 +1731,7 @@ maxSize
 (
 mFlags
 &
-TextureFlags
-:
-:
-DISALLOW_BIGIMAGE
+TEXTURE_DISALLOW_BIGIMAGE
 )
 )
 {
@@ -2153,10 +2150,7 @@ maxSize
 (
 mFlags
 &
-TextureFlags
-:
-:
-DISALLOW_BIGIMAGE
+TEXTURE_DISALLOW_BIGIMAGE
 )
 )
 {

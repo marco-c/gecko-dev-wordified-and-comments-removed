@@ -320,10 +320,7 @@ aFormat
 )
 mFlags
 (
-TextureFlags
-:
-:
-NO_FLAGS
+0
 )
 mCurrentTile
 (
@@ -1545,10 +1542,7 @@ maxSize
 (
 mFlags
 &
-TextureFlags
-:
-:
-DISALLOW_BIGIMAGE
+TEXTURE_DISALLOW_BIGIMAGE
 )
 )
 {

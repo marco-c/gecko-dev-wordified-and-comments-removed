@@ -260,10 +260,7 @@ const
 return
 TextureInfo
 (
-CompositableType
-:
-:
-IMAGE
+COMPOSITABLE_IMAGE
 )
 ;
 }
@@ -383,10 +380,7 @@ const
 return
 TextureInfo
 (
-CompositableType
-:
-:
-IMAGE
+COMPOSITABLE_IMAGE
 )
 ;
 }

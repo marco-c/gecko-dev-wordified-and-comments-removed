@@ -581,9 +581,6 @@ if
 (
 aMode
 &
-OpenMode
-:
-:
 OPEN_READ
 )
 {
@@ -597,9 +594,6 @@ if
 (
 aMode
 &
-OpenMode
-:
-:
 OPEN_WRITE
 )
 {
@@ -1030,10 +1024,7 @@ PIXEL_FORMAT_RGBA_8888
 mFlags
 |
 =
-TextureFlags
-:
-:
-RB_SWAPPED
+TEXTURE_RB_SWAPPED
 ;
 break
 ;
@@ -1074,10 +1065,7 @@ PIXEL_FORMAT_RGBX_8888
 mFlags
 |
 =
-TextureFlags
-:
-:
-RB_SWAPPED
+TEXTURE_RB_SWAPPED
 ;
 break
 ;

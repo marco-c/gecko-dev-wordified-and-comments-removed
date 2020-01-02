@@ -1111,9 +1111,6 @@ texture
 >
 Lock
 (
-OpenMode
-:
-:
 OPEN_READ_WRITE
 )
 )
@@ -1433,9 +1430,6 @@ client
 >
 Lock
 (
-OpenMode
-:
-:
 OPEN_READ_WRITE
 )
 )
@@ -1852,10 +1846,7 @@ BackendType
 :
 :
 CAIRO
-TextureFlags
-:
-:
-DEALLOCATE_CLIENT
+TEXTURE_DEALLOCATE_CLIENT
 )
 ;
 TestTextureClientSurface
@@ -2134,10 +2125,7 @@ BackendType
 :
 :
 CAIRO
-TextureFlags
-:
-:
-DEALLOCATE_CLIENT
+TEXTURE_DEALLOCATE_CLIENT
 )
 ;
 TestTextureClientYCbCr

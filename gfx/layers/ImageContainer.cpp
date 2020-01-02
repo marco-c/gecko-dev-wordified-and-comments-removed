@@ -674,9 +674,6 @@ GetSingleton
 >
 CreateImageClient
 (
-CompositableType
-:
-:
 BUFFER_IMAGE_SINGLE
 )
 .
@@ -2862,10 +2859,7 @@ surface
 GetFormat
 (
 )
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 gfx
 :
 :
@@ -2914,9 +2908,6 @@ textureClient
 >
 Lock
 (
-OpenMode
-:
-:
 OPEN_WRITE_ONLY
 )
 )

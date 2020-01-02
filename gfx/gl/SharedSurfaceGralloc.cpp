@@ -363,13 +363,7 @@ BackendType
 :
 :
 NONE
-layers
-:
-:
-TextureFlags
-:
-:
-DEFAULT
+TEXTURE_FLAGS_DEFAULT
 )
 ;
 if
