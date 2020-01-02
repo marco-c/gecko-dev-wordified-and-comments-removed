@@ -320,13 +320,9 @@ attribute
 double
 currentTime
 ;
-/
-/
-TODO
-:
-Bug
-847375
--
+[
+Throws
+]
 void
 fastSeek
 (
