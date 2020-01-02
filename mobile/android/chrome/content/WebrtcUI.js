@@ -683,7 +683,7 @@ inputs
 &
 inputs
 .
-videoDevice
+videoSource
 !
 =
 undefined
@@ -692,7 +692,7 @@ videoId
 =
 inputs
 .
-videoDevice
+videoSource
 ;
 if
 (
