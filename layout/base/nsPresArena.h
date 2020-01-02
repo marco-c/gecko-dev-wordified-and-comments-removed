@@ -92,6 +92,8 @@ nsQueryFrame
 NON_FRAME_MARKER
 nsRuleNode_id
 nsStyleContext_id
+nsInheritedStyleData_id
+nsResetStyleData_id
 nsFrameList_id
 First_nsStyleStruct_id
 DummyBeforeStyleStructs_id
