@@ -780,14 +780,6 @@ Destroy
 (
 )
 ;
-virtual
-nsIWidget
-*
-GetParent
-(
-void
-)
-;
 NS_IMETHOD
 Show
 (
