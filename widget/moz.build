@@ -271,6 +271,11 @@ nsIStandaloneNativeMenu
 idl
 '
 '
+nsISystemStatusBar
+.
+idl
+'
+'
 nsITaskbarProgress
 .
 idl
