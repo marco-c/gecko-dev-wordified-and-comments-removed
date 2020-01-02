@@ -138,6 +138,8 @@ nsIAsyncInputStream
 *
 nsIAsyncOutputStream
 *
+bool
+connectedTransport
 nsIInterfaceRequestor
 *
 PRIntervalTime
@@ -769,6 +771,9 @@ mInputOverflow
 ;
 PRIntervalTime
 mRtt
+;
+bool
+mConnectedTransport
 ;
 bool
 mKeepAlive
