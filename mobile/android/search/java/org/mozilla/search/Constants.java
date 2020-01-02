@@ -132,4 +132,12 @@ intent
 START_SEARCH_QUERY_EXTRA
 "
 ;
+public
+static
+final
+int
+SUGGESTION_MAX
+=
+5
+;
 }
