@@ -3291,6 +3291,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineForkJoinGetSlice
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineIsCallable
 (
 CallInfo

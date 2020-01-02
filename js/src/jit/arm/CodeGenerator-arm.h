@@ -1051,6 +1051,14 @@ ins
 )
 ;
 bool
+visitForkJoinGetSlice
+(
+LForkJoinGetSlice
+*
+ins
+)
+;
+bool
 generateInvalidateEpilogue
 (
 )

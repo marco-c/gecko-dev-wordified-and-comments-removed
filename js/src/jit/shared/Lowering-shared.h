@@ -828,6 +828,16 @@ return
 false
 ;
 }
+static
+bool
+allowInlineForkJoinGetSlice
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 }

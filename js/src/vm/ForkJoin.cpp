@@ -5923,16 +5923,13 @@ parallel
 job
 [
 slices
+:
 %
 d
 threads
 :
 %
 d
-(
-+
-1
-)
 stolen
 :
 %
@@ -5949,6 +5946,8 @@ s
 sliceTo_
 -
 sliceFrom_
++
+1
 threadPool_
 -
 >

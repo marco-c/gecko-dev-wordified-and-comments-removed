@@ -758,6 +758,14 @@ ins
 )
 ;
 bool
+visitForkJoinGetSlice
+(
+LForkJoinGetSlice
+*
+ins
+)
+;
+bool
 visitNegI
 (
 LNegI

@@ -277,6 +277,16 @@ return
 true
 ;
 }
+static
+bool
+allowInlineForkJoinGetSlice
+(
+)
+{
+return
+true
+;
+}
 }
 ;
 typedef

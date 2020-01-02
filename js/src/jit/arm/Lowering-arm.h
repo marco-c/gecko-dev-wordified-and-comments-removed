@@ -531,6 +531,14 @@ MStoreTypedArrayElementStatic
 ins
 )
 ;
+bool
+visitForkJoinGetSlice
+(
+MForkJoinGetSlice
+*
+ins
+)
+;
 static
 bool
 allowFloat32Optimizations
