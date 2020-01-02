@@ -1226,18 +1226,6 @@ mHeight
 ;
 }
 }
-#
-if
-!
-defined
-(
-_MSC_VER
-)
-|
-|
-_MSC_VER
-<
-1800
 TEST
 (
 VP8VideoTrackEncoder
@@ -1396,8 +1384,6 @@ container
 )
 ;
 }
-#
-endif
 TEST
 (
 VP8VideoTrackEncoder
