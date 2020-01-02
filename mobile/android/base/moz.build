@@ -1980,6 +1980,11 @@ InputMethods
 java
 '
 '
+IntentHelper
+.
+java
+'
+'
 JavaAddonManager
 .
 java
