@@ -231,7 +231,6 @@ BackCert
 const
 childCert
 ;
-const
 CERTCertificate
 *
 GetNSSCert
