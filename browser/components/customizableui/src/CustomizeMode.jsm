@@ -698,6 +698,15 @@ autohide
 true
 ]
 )
+:
+not
+(
+[
+collapsed
+=
+true
+]
+)
 "
 )
 ;
