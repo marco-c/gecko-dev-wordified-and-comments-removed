@@ -2540,7 +2540,7 @@ GetReentrantMonitor
 mDecoder
 -
 >
-SetMediaDuration
+SetMediaEndTime
 (
 duration
 )
