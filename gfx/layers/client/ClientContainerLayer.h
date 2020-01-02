@@ -28,7 +28,7 @@ h
 #
 include
 "
-gfxPlatform
+gfxPrefs
 .
 h
 "
@@ -245,7 +245,7 @@ HasNonIntegerTranslation
 {
 SetSupportsComponentAlphaChildren
 (
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled

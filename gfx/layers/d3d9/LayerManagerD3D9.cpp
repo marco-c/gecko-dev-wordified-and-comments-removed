@@ -78,9 +78,7 @@ h
 #
 include
 "
-mozilla
-/
-Preferences
+gfxPrefs
 .
 h
 "
@@ -165,10 +163,10 @@ force
 bool
 forceAccelerate
 =
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayersAccelerationForceEnabled
+LayersAccelerationForceEnabled
 (
 )
 ;

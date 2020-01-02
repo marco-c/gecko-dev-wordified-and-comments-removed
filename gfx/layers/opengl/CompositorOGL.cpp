@@ -120,6 +120,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 gfxRect
 .
 h
@@ -5936,7 +5943,7 @@ EFFECT_COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled

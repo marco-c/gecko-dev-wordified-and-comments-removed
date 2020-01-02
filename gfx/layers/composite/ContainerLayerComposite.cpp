@@ -48,7 +48,7 @@ h
 #
 include
 "
-gfxPlatform
+gfxPrefs
 .
 h
 "
@@ -1649,7 +1649,7 @@ HasNonIntegerTranslation
 {
 surfaceCopyNeeded
 =
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
@@ -1679,7 +1679,7 @@ aContainer
 >
 mSupportsComponentAlphaChildren
 =
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
@@ -2144,10 +2144,10 @@ clipRect
 }
 if
 (
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayersScrollGraph
+LayersScrollGraph
 (
 )
 )

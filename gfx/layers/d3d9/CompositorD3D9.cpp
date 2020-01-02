@@ -102,6 +102,13 @@ LayerManagerComposite
 .
 h
 "
+#
+include
+"
+gfxPrefs
+.
+h
+"
 using
 namespace
 mozilla
@@ -2027,7 +2034,7 @@ EFFECT_COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-gfxPlatform
+gfxPrefs
 :
 :
 ComponentAlphaEnabled
