@@ -420,7 +420,7 @@ framerate
 1000
 /
 (
-bucketTime
+resolution
 /
 frameCount
 )
