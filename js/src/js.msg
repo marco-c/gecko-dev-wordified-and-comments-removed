@@ -5970,9 +5970,9 @@ MSG_DEF
 JSMSG_USE_ASM_TYPE_OK
 341
 1
-JSEXN_ERR
+JSEXN_NONE
 "
-successfully
+Successfully
 compiled
 asm
 .
