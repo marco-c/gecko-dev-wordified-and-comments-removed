@@ -183,6 +183,15 @@ aURI
 )
 ;
 static
+uint16_t
+AppStatusForPrincipal
+(
+nsIPrincipal
+*
+aPrin
+)
+;
+static
 nsresult
 ReportError
 (
