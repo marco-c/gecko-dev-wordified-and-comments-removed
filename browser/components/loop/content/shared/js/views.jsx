@@ -1254,6 +1254,11 @@ buttonDisplayMode
 "
 off
 "
+nameDisplayMode
+:
+"
+off
+"
 }
 }
 getInitialState
