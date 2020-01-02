@@ -210,7 +210,7 @@ return
 region
 !
 =
-NULL
+nullptr
 ;
 }
 extern

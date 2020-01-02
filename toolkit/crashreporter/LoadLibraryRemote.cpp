@@ -96,7 +96,7 @@ Void
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -109,7 +109,7 @@ aView
 {
 if
 (
-NULL
+nullptr
 !
 =
 aView
@@ -237,7 +237,7 @@ FORMAT_MESSAGE_ALLOCATE_BUFFER
 FORMAT_MESSAGE_FROM_SYSTEM
 |
 FORMAT_MESSAGE_IGNORE_INSERTS
-NULL
+nullptr
 GetLastError
 (
 )
@@ -252,7 +252,7 @@ LPSTR
 &
 tmp
 0
-NULL
+nullptr
 )
 ;
 tmpmsg
@@ -734,7 +734,7 @@ hRemoteProcess
 remoteAddress
 localAddress
 size
-NULL
+nullptr
 )
 )
 {
@@ -1180,7 +1180,7 @@ if
 handle
 =
 =
-NULL
+nullptr
 )
 {
 #
@@ -1246,7 +1246,7 @@ module
 modules
 =
 =
-NULL
+nullptr
 )
 {
 result
@@ -1492,10 +1492,10 @@ CreateFile
 library
 GENERIC_READ
 FILE_SHARE_READ
-NULL
+nullptr
 OPEN_EXISTING
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 )
 ;
@@ -1528,7 +1528,7 @@ n
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 nsAutoHandle
@@ -1537,11 +1537,11 @@ hMapping
 CreateFileMapping
 (
 hLibrary
-NULL
+nullptr
 PAGE_READONLY
 0
 0
-NULL
+nullptr
 )
 )
 ;
@@ -1570,7 +1570,7 @@ n
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 nsAutoRef
@@ -1620,7 +1620,7 @@ n
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 SIZE_T
@@ -1669,7 +1669,7 @@ n
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 PIMAGE_NT_HEADERS
@@ -1717,7 +1717,7 @@ n
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 unsigned
@@ -1732,7 +1732,7 @@ char
 )
 VirtualAlloc
 (
-NULL
+nullptr
 old_header
 -
 >
@@ -1783,7 +1783,7 @@ char
 VirtualAllocEx
 (
 hRemoteProcess
-NULL
+nullptr
 old_header
 -
 >
@@ -1844,7 +1844,7 @@ result
 .
 modules
 =
-NULL
+nullptr
 ;
 memcpy
 (
@@ -1945,7 +1945,7 @@ result
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1960,7 +1960,7 @@ hRemoteProcess
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2034,7 +2034,7 @@ Size
 )
 {
 return
-NULL
+nullptr
 ;
 }
 exports
@@ -2072,7 +2072,7 @@ NumberOfFunctions
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nameRef
@@ -2172,7 +2172,7 @@ idx
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2189,7 +2189,7 @@ NumberOfFunctions
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

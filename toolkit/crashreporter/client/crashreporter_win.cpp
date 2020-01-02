@@ -464,7 +464,7 @@ RegQueryValueEx
 (
 hRegKey
 valueName
-NULL
+nullptr
 &
 type
 (
@@ -805,7 +805,7 @@ RegQueryValueEx
 (
 hRegKey
 valueName
-NULL
+nullptr
 &
 type
 (
@@ -1076,7 +1076,7 @@ LPWSTR
 &
 s
 0
-NULL
+nullptr
 )
 !
 =
@@ -1089,7 +1089,7 @@ message
 WideToUTF8
 (
 s
-NULL
+nullptr
 )
 ;
 LocalFree
@@ -1393,7 +1393,7 @@ buttonTheme
 hdc
 BP_CHECKBOX
 0
-NULL
+nullptr
 TS_DRAW
 &
 s
@@ -1437,7 +1437,7 @@ r
 ;
 MapWindowPoints
 (
-NULL
+nullptr
 hwndParent
 (
 POINT
@@ -2342,7 +2342,7 @@ true
 ;
 gThreadHandle
 =
-NULL
+nullptr
 ;
 gSendData
 .
@@ -2360,13 +2360,13 @@ gThreadHandle
 =
 CreateThread
 (
-NULL
+nullptr
 0
 SendThreadProc
 &
 gSendData
 0
-NULL
+nullptr
 )
 ;
 }
@@ -2475,7 +2475,7 @@ if
 (
 CreateProcess
 (
-NULL
+nullptr
 (
 LPWSTR
 )
@@ -2484,12 +2484,12 @@ cmdLine
 c_str
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 FALSE
 0
-NULL
-NULL
+nullptr
+nullptr
 &
 si
 &
@@ -2881,7 +2881,7 @@ EM_SETTARGETDEVICE
 (
 WPARAM
 )
-NULL
+nullptr
 0
 )
 ;
@@ -2959,10 +2959,10 @@ CP_UTF8
 str
 -
 1
-NULL
+nullptr
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 -
 1
@@ -3111,14 +3111,14 @@ static
 WNDPROC
 super
 =
-NULL
+nullptr
 ;
 if
 (
 super
 =
 =
-NULL
+nullptr
 )
 super
 =
@@ -4022,7 +4022,7 @@ hDialogRC
 =
 FindResource
 (
-NULL
+nullptr
 MAKEINTRESOURCE
 (
 idd
@@ -4035,7 +4035,7 @@ hDlgTemplate
 =
 LoadResource
 (
-NULL
+nullptr
 hDialogRC
 )
 ;
@@ -4058,7 +4058,7 @@ sizeDlg
 =
 SizeofResource
 (
-NULL
+nullptr
 hDialogRC
 )
 ;
@@ -4103,7 +4103,7 @@ rv
 =
 DialogBoxIndirectParam
 (
-NULL
+nullptr
 (
 LPCDLGTEMPLATE
 )
@@ -4130,7 +4130,7 @@ rv
 =
 DialogBoxParam
 (
-NULL
+nullptr
 MAKEINTRESOURCE
 (
 idd
@@ -4226,7 +4226,7 @@ LoadIcon
 (
 GetModuleHandle
 (
-NULL
+nullptr
 )
 MAKEINTRESOURCE
 (
@@ -5126,7 +5126,7 @@ EM_SETEVENTMASK
 (
 WPARAM
 )
-NULL
+nullptr
 ENM_REQUESTRESIZE
 )
 ;
@@ -5242,7 +5242,7 @@ EM_SETTARGETDEVICE
 (
 WPARAM
 )
-NULL
+nullptr
 0
 )
 ;
@@ -5429,7 +5429,7 @@ lParam
 InvalidateRect
 (
 hwndDlg
-NULL
+nullptr
 TRUE
 )
 ;
@@ -5766,7 +5766,7 @@ SetTimer
 hwndDlg
 0
 5000
-NULL
+nullptr
 )
 ;
 return
@@ -5910,7 +5910,7 @@ wchar_t
 *
 buffer
 =
-NULL
+nullptr
 ;
 int
 buffer_size
@@ -5926,7 +5926,7 @@ c_str
 )
 -
 1
-NULL
+nullptr
 0
 )
 ;
@@ -5966,7 +5966,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -6044,7 +6044,7 @@ char
 *
 buffer
 =
-NULL
+nullptr
 ;
 int
 buffer_size
@@ -6060,10 +6060,10 @@ c_str
 )
 -
 1
-NULL
+nullptr
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -6101,7 +6101,7 @@ if
 buffer
 =
 =
-NULL
+nullptr
 )
 {
 if
@@ -6131,8 +6131,8 @@ c_str
 1
 buffer
 buffer_size
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 string
@@ -6240,7 +6240,7 @@ UIShowDefaultUI
 {
 MessageBox
 (
-NULL
+nullptr
 Str
 (
 ST_CRASHREPORTERDEFAULT
@@ -6288,7 +6288,7 @@ gSendData
 .
 hDlg
 =
-NULL
+nullptr
 ;
 gSendData
 .
@@ -6514,7 +6514,7 @@ return
 DialogBoxParamMaybeRTL
 (
 IDD_SENDDIALOG
-NULL
+nullptr
 (
 DLGPROC
 )
@@ -6559,7 +6559,7 @@ Error
 ;
 MessageBox
 (
-NULL
+nullptr
 UTF8ToWide
 (
 message
@@ -6597,7 +6597,7 @@ if
 (
 GetModuleFileName
 (
-NULL
+nullptr
 fileName
 MAX_PATH
 )
@@ -6673,9 +6673,9 @@ hRes
 =
 SHGetFolderPath
 (
-NULL
+nullptr
 CSIDL_APPDATA
-NULL
+nullptr
 0
 path
 )
@@ -6748,7 +6748,7 @@ L
 "
 AppData
 "
-NULL
+nullptr
 &
 type
 (
@@ -6877,7 +6877,7 @@ path
 c_str
 (
 )
-NULL
+nullptr
 )
 =
 =

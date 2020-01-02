@@ -381,7 +381,7 @@ uint32_t
 *
 aSequence
 =
-NULL
+nullptr
 )
 ;
 #
