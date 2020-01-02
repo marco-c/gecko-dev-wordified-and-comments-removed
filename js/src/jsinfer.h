@@ -4244,6 +4244,17 @@ RecompileInfo
 precompileInfo
 )
 ;
+void
+FinishDefinitePropertiesAnalysis
+(
+JSContext
+*
+cx
+CompilerConstraintList
+*
+constraints
+)
+;
 struct
 ArrayTableKey
 ;
