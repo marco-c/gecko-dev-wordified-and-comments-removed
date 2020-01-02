@@ -485,13 +485,9 @@ gfx
 :
 Matrix4x4
 local
-;
-ToMatrix4x4
-(
+=
 GetLocalTransform
 (
-)
-local
 )
 ;
 gfxRect
