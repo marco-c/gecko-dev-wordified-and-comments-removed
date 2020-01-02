@@ -1401,6 +1401,7 @@ computeHeapGrowthFactor
 size_t
 lastBytes
 )
+const
 ;
 size_t
 computeTriggerBytes
@@ -1412,6 +1413,7 @@ lastBytes
 JSGCInvocationKind
 gckind
 )
+const
 ;
 size_t
 allocationThreshold
@@ -1771,8 +1773,6 @@ sliceBudget
 void
 endSweepPhase
 (
-JSGCInvocationKind
-gckind
 bool
 lastGC
 )
@@ -2088,6 +2088,9 @@ isIncremental
 ;
 bool
 isFull
+;
+JSGCInvocationKind
+lastKind
 ;
 JS
 :
