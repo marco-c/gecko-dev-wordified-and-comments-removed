@@ -116,7 +116,7 @@ incoming
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -181,7 +181,7 @@ reject
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
@@ -326,7 +326,7 @@ length
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm

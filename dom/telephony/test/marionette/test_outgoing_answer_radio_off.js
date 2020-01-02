@@ -342,7 +342,7 @@ call
 ;
 emulator
 .
-run
+runWithCallback
 (
 "
 gsm
