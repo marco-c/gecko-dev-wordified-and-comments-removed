@@ -983,7 +983,11 @@ AsyncPanZoomController
 *
 next
 =
+apzc
+?
 nullptr
+:
+aNextSibling
 ;
 for
 (
