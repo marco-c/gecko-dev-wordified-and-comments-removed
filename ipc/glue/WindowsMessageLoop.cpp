@@ -946,11 +946,11 @@ className
 ;
 log
 .
-Append
+AppendLiteral
 (
-'
+"
 \
-'
+"
 )
 "
 )
