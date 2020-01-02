@@ -343,13 +343,6 @@ DUA_BUILDID
 UA_BUILDID
 )
 \
--
-DMOZ_DEBUG
-=
-(
-MOZ_DEBUG
-)
-\
 (
 NULL
 )
