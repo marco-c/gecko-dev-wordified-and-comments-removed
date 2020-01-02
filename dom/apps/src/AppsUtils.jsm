@@ -468,11 +468,11 @@ origin
 #
 ifdef
 MOZ_ANDROID_SYNTHAPKS
-packageName
+apkPackageName
 :
 aApp
 .
-packageName
+apkPackageName
 #
 endif
 receipts

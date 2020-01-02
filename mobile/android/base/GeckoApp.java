@@ -3660,7 +3660,7 @@ message
 getString
 (
 "
-packageName
+apkPackageName
 "
 )
 message

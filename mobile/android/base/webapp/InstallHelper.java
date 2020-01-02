@@ -414,7 +414,7 @@ message
 put
 (
 "
-packageName
+apkPackageName
 "
 mApkResources
 .

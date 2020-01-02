@@ -256,7 +256,7 @@ message
 put
 (
 "
-packages
+apkPackageNames
 "
 packageNames
 )
@@ -485,7 +485,7 @@ message
 put
 (
 "
-packages
+apkPackageNames
 "
 packageNames
 )
