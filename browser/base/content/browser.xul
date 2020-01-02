@@ -2867,6 +2867,8 @@ label
 =
 "
 &
+toolbarContextMenu
+.
 reloadAllTabs
 .
 label
@@ -2919,6 +2921,8 @@ label
 =
 "
 &
+toolbarContextMenu
+.
 bookmarkAllTabs
 .
 label
@@ -2964,6 +2968,8 @@ label
 =
 "
 &
+toolbarContextMenu
+.
 undoCloseTab
 .
 label
