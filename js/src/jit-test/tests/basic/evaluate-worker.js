@@ -1,3 +1,17 @@
+if
+(
+typeof
+evalInWorker
+=
+=
+"
+undefined
+"
+)
+quit
+(
+)
+;
 gcslice
 (
 10

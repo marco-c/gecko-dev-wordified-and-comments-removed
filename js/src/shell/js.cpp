@@ -14345,6 +14345,9 @@ return
 ok
 ;
 }
+#
+ifdef
+JS_THREADSAFE
 struct
 WorkerInput
 {
@@ -14840,6 +14843,8 @@ return
 true
 ;
 }
+#
+endif
 static
 bool
 ShapeOf
@@ -23924,6 +23929,9 @@ chain
 .
 "
 )
+#
+ifdef
+JS_THREADSAFE
 JS_FN_HELP
 (
 "
@@ -23956,6 +23964,8 @@ runtime
 n
 "
 )
+#
+endif
 JS_FN_HELP
 (
 "
@@ -35149,6 +35159,9 @@ KillWatchdog
 (
 )
 ;
+#
+ifdef
+JS_THREADSAFE
 for
 (
 size_t
@@ -35176,6 +35189,8 @@ i
 ]
 )
 ;
+#
+endif
 JS_DestroyRuntime
 (
 rt
