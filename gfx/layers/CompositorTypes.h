@@ -173,15 +173,6 @@ TEXTURE_DEALLOCATE_CLIENT
 ;
 const
 TextureFlags
-TEXTURE_DEALLOCATE_HOST
-=
-1
-<
-<
-26
-;
-const
-TextureFlags
 TEXTURE_IMMUTABLE
 =
 1
@@ -211,8 +202,6 @@ const
 TextureFlags
 TEXTURE_FLAGS_DEFAULT
 =
-TEXTURE_DEALLOCATE_HOST
-|
 TEXTURE_FRONT
 ;
 static
