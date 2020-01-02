@@ -53,9 +53,6 @@ h
 #
 endif
 #
-ifndef
-bit_MMX
-#
 define
 bit_MMX
 (
@@ -64,11 +61,6 @@ bit_MMX
 <
 23
 )
-#
-endif
-#
-ifndef
-bit_SSE
 #
 define
 bit_SSE
@@ -79,11 +71,6 @@ bit_SSE
 25
 )
 #
-endif
-#
-ifndef
-bit_SSE2
-#
 define
 bit_SSE2
 (
@@ -92,8 +79,6 @@ bit_SSE2
 <
 26
 )
-#
-endif
 #
 endif
 static

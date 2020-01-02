@@ -847,17 +847,6 @@ if
 mTimeStretcher
 )
 {
-if
-(
-mOutChannels
->
-2
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
 mTimeStretcher
 =
 new
