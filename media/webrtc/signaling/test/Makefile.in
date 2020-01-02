@@ -234,8 +234,6 @@ LIB_SUFFIX
 NULL
 )
 ifdef
-MOZ_CUBEB
-ifdef
 MOZ_ALSA
 LIBS
 +
@@ -248,7 +246,6 @@ MOZ_ALSA_LIBS
 (
 NULL
 )
-endif
 endif
 ifeq
 (
