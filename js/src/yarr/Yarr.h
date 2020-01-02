@@ -131,7 +131,7 @@ const
 unsigned
 matchLimit
 =
-1000000
+2500000
 ;
 enum
 JSRegExpResult
