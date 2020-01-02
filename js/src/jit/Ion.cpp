@@ -7110,6 +7110,17 @@ false
 if
 (
 !
+mir
+-
+>
+compilingAsmJS
+(
+)
+)
+{
+if
+(
+!
 EliminateDeadResumePointOperands
 (
 mir
@@ -7138,6 +7149,7 @@ operands
 return
 false
 ;
+}
 }
 if
 (
