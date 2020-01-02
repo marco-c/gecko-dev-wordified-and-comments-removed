@@ -120,6 +120,11 @@ MobileConnectionArray
 (
 )
 ;
+void
+DropConnections
+(
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindow

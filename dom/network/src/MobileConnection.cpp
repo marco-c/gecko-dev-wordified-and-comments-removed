@@ -144,6 +144,7 @@ MobileConnection
 :
 :
 Listener
+MOZ_FINAL
 :
 public
 nsIMobileConnectionListener
