@@ -1562,6 +1562,9 @@ getFolderListPref
 hbox
 >
 <
+hbox
+>
+<
 radio
 id
 =
@@ -1595,6 +1598,10 @@ accesskey
 >
 <
 /
+hbox
+>
+<
+/
 radiogroup
 >
 <
@@ -1623,6 +1630,11 @@ hidden
 =
 "
 true
+"
+align
+=
+"
+start
 "
 >
 <
