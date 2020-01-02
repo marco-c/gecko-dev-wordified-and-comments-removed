@@ -501,16 +501,6 @@ aFile
 )
 ;
 void
-DumpAsDataURL
-(
-FILE
-*
-aOutput
-=
-stdout
-)
-;
-void
 CopyAsDataURL
 (
 )
