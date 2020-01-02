@@ -5197,6 +5197,9 @@ status
 true
 )
 ;
+#
+ifndef
+MOZ_MULET
 pref
 (
 "
@@ -5207,6 +5210,8 @@ reuseGlobal
 true
 )
 ;
+#
+endif
 pref
 (
 "
