@@ -100,9 +100,6 @@ DIRS
 '
 chrome
 '
-'
-mochitest
-'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
