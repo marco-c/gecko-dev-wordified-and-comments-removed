@@ -419,6 +419,17 @@ nsACString
 &
 nsACString
 &
+uint32_t
+)
+;
+nsresult
+DoLiteralNeverIndexed
+(
+)
+;
+nsresult
+DoContextUpdate
+(
 )
 ;
 nsresult
@@ -672,6 +683,7 @@ private
 enum
 outputCode
 {
+kNeverIndexedLiteral
 kPlainLiteral
 kIndexedLiteral
 kToggleOff
@@ -711,6 +723,8 @@ ProcessHeader
 const
 nvPair
 inputPair
+bool
+neverIndex
 )
 ;
 void
