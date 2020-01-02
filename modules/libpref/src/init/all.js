@@ -1569,6 +1569,16 @@ enabled
 true
 )
 ;
+pref
+(
+"
+apzc
+.
+axis_lock_mode
+"
+0
+)
+;
 #
 ifdef
 XP_MACOSX
