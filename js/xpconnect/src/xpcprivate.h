@@ -3838,11 +3838,6 @@ HandleObject
 chain
 )
 ;
-void
-RemoveWrappedNativeProtos
-(
-)
-;
 static
 void
 SystemIsBeingShutDown
