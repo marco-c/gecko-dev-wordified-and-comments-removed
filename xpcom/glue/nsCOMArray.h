@@ -849,7 +849,7 @@ aFlags
 =
 CycleCollectionEdgeNameArrayFlag
 ;
-size_t
+int32_t
 length
 =
 aField
@@ -860,7 +860,7 @@ Count
 ;
 for
 (
-size_t
+int32_t
 i
 =
 0
@@ -1727,7 +1727,7 @@ aFlags
 =
 CycleCollectionEdgeNameArrayFlag
 ;
-size_t
+int32_t
 length
 =
 aField
@@ -1738,7 +1738,7 @@ Count
 ;
 for
 (
-size_t
+int32_t
 i
 =
 0
