@@ -28,13 +28,12 @@ nsAccUtils
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 a11y
-;
+{
 bool
 TextPoint
 :
@@ -1430,4 +1429,6 @@ int32_t
 aStopOffset
 )
 {
+}
+}
 }
