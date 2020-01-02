@@ -238,4 +238,17 @@ PreSearchFragment
 .
 java
 '
+'
+java
+/
+org
+/
+mozilla
+/
+search
+/
+SearchPreferenceActivity
+.
+java
+'
 ]
