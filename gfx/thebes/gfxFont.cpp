@@ -20033,8 +20033,6 @@ wordCacheCharLimit
 HasSpaces
 (
 aString
-+
-aRunStart
 aRunLength
 )
 )
@@ -20050,8 +20048,6 @@ ShapeTextWithoutWordCache
 (
 aContext
 aString
-+
-aRunStart
 aRunStart
 aRunLength
 aRunScript
@@ -20117,15 +20113,6 @@ gfxTextRunFactory
 TEXT_IS_8BIT
 ;
 }
-const
-T
-*
-text
-=
-aString
-+
-aRunStart
-;
 uint32_t
 wordStart
 =
@@ -20154,7 +20141,7 @@ GetAppUnitsPerDevUnit
 T
 nextCh
 =
-text
+aString
 [
 0
 ]
@@ -20191,7 +20178,7 @@ aRunLength
 1
 )
 ?
-text
+aString
 [
 i
 +
@@ -20288,7 +20275,7 @@ ok
 ShapeFragmentWithoutWordCache
 (
 aContext
-text
+aString
 +
 wordStart
 aRunStart
@@ -20359,7 +20346,7 @@ sw
 GetShapedWord
 (
 aContext
-text
+aString
 +
 wordStart
 length
@@ -26804,8 +26791,12 @@ InitScriptRun
 aContext
 aTextRun
 textPtr
++
+runStart
 runStart
 runLimit
+-
+runStart
 runScript
 )
 ;
@@ -26902,18 +26893,18 @@ T
 *
 aString
 uint32_t
-aScriptRunStart
+aOffset
 uint32_t
-aScriptRunEnd
+aLength
 int32_t
 aRunScript
 )
 {
 NS_ASSERTION
 (
-aScriptRunEnd
+aLength
 >
-aScriptRunStart
+0
 "
 don
 '
@@ -26922,7 +26913,7 @@ call
 InitScriptRun
 for
 a
-zero
+0
 -
 length
 run
@@ -26941,7 +26932,7 @@ GetFontAt
 uint32_t
 runStart
 =
-aScriptRunStart
+0
 ;
 nsAutoTArray
 <
@@ -26954,11 +26945,7 @@ ComputeRanges
 (
 fontRanges
 aString
-+
-aScriptRunStart
-aScriptRunEnd
--
-aScriptRunStart
+aLength
 aRunScript
 )
 ;
@@ -27028,6 +27015,8 @@ matchedFont
 range
 .
 matchType
+aOffset
++
 runStart
 (
 matchedLength
@@ -27047,6 +27036,10 @@ SplitAndInitTextRun
 aContext
 aTextRun
 aString
++
+runStart
+aOffset
++
 runStart
 matchedLength
 aRunScript
@@ -27071,6 +27064,8 @@ gfxTextRange
 :
 :
 kFontGroup
+aOffset
++
 runStart
 (
 matchedLength
@@ -27091,6 +27086,8 @@ aTextRun
 >
 SetupClusterBoundaries
 (
+aOffset
++
 runStart
 aString
 +
@@ -27145,6 +27142,8 @@ aTextRun
 >
 SetIsNewline
 (
+aOffset
++
 index
 )
 ;
@@ -27167,6 +27166,8 @@ aTextRun
 >
 SetIsTab
 (
+aOffset
++
 index
 )
 ;
@@ -27199,7 +27200,7 @@ index
 +
 1
 <
-aScriptRunEnd
+aLength
 &
 &
 NS_IS_LOW_SURROGATE
@@ -27218,6 +27219,8 @@ aTextRun
 >
 SetMissingGlyph
 (
+aOffset
++
 index
 SURROGATE_TO_UCS4
 (
@@ -27300,6 +27303,8 @@ GetCharacterGlyphs
 (
 )
 [
+aOffset
++
 index
 ]
 .
@@ -27370,6 +27375,8 @@ aTextRun
 >
 SetGlyphs
 (
+aOffset
++
 index
 g
 &
@@ -27397,6 +27404,8 @@ aTextRun
 >
 SetMissingGlyph
 (
+aOffset
++
 index
 ch
 mainFont
