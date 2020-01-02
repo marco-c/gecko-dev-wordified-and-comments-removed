@@ -101,7 +101,7 @@ nullptr
 Variables
 "
 "
-nullptr
+CheckVariablesCallback
 "
 )
 ]

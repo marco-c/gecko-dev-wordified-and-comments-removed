@@ -29,6 +29,9 @@ namespace
 mozilla
 {
 class
+CSSVariableResolver
+;
+class
 CSSVariableValues
 {
 public
@@ -112,6 +115,15 @@ aFirstToken
 nsCSSTokenSerializationType
 aLastToken
 )
+;
+void
+AddVariablesToResolver
+(
+CSSVariableResolver
+*
+aResolver
+)
+const
 ;
 private
 :

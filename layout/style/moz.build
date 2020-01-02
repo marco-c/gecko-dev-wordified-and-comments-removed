@@ -368,6 +368,11 @@ CSSVariableDeclarations
 h
 '
 '
+CSSVariableResolver
+.
+h
+'
+'
 CSSVariableValues
 .
 h
@@ -462,6 +467,11 @@ cpp
 '
 '
 CSSVariableDeclarations
+.
+cpp
+'
+'
+CSSVariableResolver
 .
 cpp
 '
