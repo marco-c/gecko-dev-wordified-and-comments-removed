@@ -38705,11 +38705,8 @@ initially
 to
 2
 {
-While
+Do
 }
-9
->
-0
 IntOp
 R1
 R1
@@ -38727,8 +38724,11 @@ IntOp
 /
 R1
 {
-EndWhile
+LoopUntil
 }
+9
+<
+0
 IntOp
 7
 7
