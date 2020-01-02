@@ -113,8 +113,6 @@ JS_MODULES_PATH
 modules
 /
 devtools
-/
-acorn
 '
 EXTRA_JS_MODULES
 +
