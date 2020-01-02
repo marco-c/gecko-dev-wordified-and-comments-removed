@@ -3743,9 +3743,10 @@ ownerThread_
 PR_GetCurrentThread
 (
 )
-|
-|
-InExclusiveParallelSection
+&
+&
+!
+InParallelSection
 (
 )
 ;
