@@ -289,10 +289,15 @@ TimeStamp
 aSampleTime
 ViewTransform
 *
-aNewTransform
+aOutTransform
 ScreenPoint
 &
 aScrollOffset
+ViewTransform
+*
+aOutOverscrollTransform
+=
+nullptr
 )
 ;
 void
@@ -922,7 +927,7 @@ mState
 )
 ;
 void
-ApplyOverscrollEffect
+GetOverscrollTransform
 (
 ViewTransform
 *
