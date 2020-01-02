@@ -113,7 +113,7 @@ gAppBrowser
 removeEventListener
 (
 "
-DOMContentLoaded
+load
 "
 onLoadApp
 true
@@ -129,7 +129,7 @@ gAppBrowser
 addEventListener
 (
 "
-DOMContentLoaded
+load
 "
 onLoadApp
 true
