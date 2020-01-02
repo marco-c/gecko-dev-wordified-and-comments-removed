@@ -237,9 +237,6 @@ aType
 MediaSourceDecoder
 *
 aParentDecoder
-MediaTaskQueue
-*
-aTaskQueue
 )
 ;
 void
@@ -348,6 +345,12 @@ SubBufferDecoder
 >
 >
 mDecoders
+;
+nsRefPtr
+<
+MediaTaskQueue
+>
+mTaskQueue
 ;
 int32_t
 mActiveVideoDecoder
