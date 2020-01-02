@@ -75,6 +75,9 @@ gWebRtcTraceLoggingOn
 =
 0
 ;
+#
+ifndef
+ANDROID
 static
 const
 char
@@ -87,6 +90,8 @@ WebRTC
 log
 "
 ;
+#
+endif
 static
 PRLogModuleInfo
 *

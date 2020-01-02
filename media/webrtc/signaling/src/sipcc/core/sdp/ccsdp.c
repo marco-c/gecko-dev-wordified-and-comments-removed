@@ -42,7 +42,7 @@ NULL
 )
 {
 return
-NULL
+0
 ;
 }
 return

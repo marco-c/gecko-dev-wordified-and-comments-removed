@@ -12434,7 +12434,7 @@ strlenof
 messagebody
 =
 %
-lu
+zu
 "
 fname
 content_length
