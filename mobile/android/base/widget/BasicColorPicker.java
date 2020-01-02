@@ -264,12 +264,10 @@ static
 Drawable
 mCheckDrawable
 ;
-private
 int
 mSelected
 ;
 final
-private
 ColorPickerListAdapter
 mAdapter
 ;
@@ -484,7 +482,6 @@ notifyDataSetChanged
 )
 ;
 }
-private
 Drawable
 getCheckDrawable
 (

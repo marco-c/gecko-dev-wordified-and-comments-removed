@@ -179,7 +179,6 @@ onTargetSelected
 )
 ;
 }
-private
 final
 Context
 mContext
@@ -208,13 +207,11 @@ history
 xml
 "
 ;
-private
 String
 mHistoryFileName
 =
 DEFAULT_HISTORY_FILE_NAME
 ;
-private
 OnTargetSelectedListener
 mOnTargetListener
 ;
@@ -763,15 +760,6 @@ mContext
 mHistoryFileName
 )
 ;
-PackageManager
-packageManager
-=
-mContext
-.
-getPackageManager
-(
-)
-;
 final
 int
 count
@@ -838,7 +826,6 @@ implements
 OnMenuItemClickListener
 OnClickListener
 {
-private
 void
 chooseActivity
 (

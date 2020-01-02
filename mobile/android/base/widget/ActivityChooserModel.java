@@ -282,7 +282,6 @@ DEBUG
 =
 false
 ;
-private
 static
 final
 String
@@ -490,12 +489,10 @@ DataModelPackageMonitor
 (
 )
 ;
-private
 final
 Context
 mContext
 ;
-private
 final
 String
 mHistoryFileName
@@ -519,7 +516,6 @@ mHistoryMaxSize
 =
 DEFAULT_HISTORY_MAX_LENGTH
 ;
-private
 boolean
 mCanReadHistoricalData
 =
@@ -535,7 +531,6 @@ mHistoricalRecordsChanged
 =
 true
 ;
-private
 boolean
 mReloadActivities
 ;
@@ -1750,7 +1745,6 @@ return
 added
 ;
 }
-private
 boolean
 removeHistoricalRecordsForPackage
 (
@@ -3092,7 +3086,6 @@ return
 ;
 }
 }
-private
 void
 readHistoricalDataFromStream
 (
@@ -3934,7 +3927,6 @@ DataModelPackageMonitor
 extends
 BroadcastReceiver
 {
-private
 Context
 mContext
 ;

@@ -140,15 +140,12 @@ ArrowPopup
 extends
 PopupWindow
 {
-private
 View
 mAnchor
 ;
-private
 ImageView
 mArrow
 ;
-private
 int
 mArrowWidth
 ;
@@ -719,7 +716,6 @@ onSizeChanged
 )
 ;
 }
-private
 OnSizeChangedListener
 mListener
 ;

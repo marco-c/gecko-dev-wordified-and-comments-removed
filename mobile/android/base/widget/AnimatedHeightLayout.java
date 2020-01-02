@@ -317,7 +317,6 @@ finishAnimation
 )
 ;
 }
-private
 void
 finishAnimation
 (
