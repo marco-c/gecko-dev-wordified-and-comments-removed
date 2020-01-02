@@ -5031,6 +5031,12 @@ robocopIni
 "
 :
         
+message_logger
+.
+buffering
+=
+False
+        
 dm
 .
 default_timeout
@@ -5099,19 +5105,6 @@ name
 '
 ]
 )
-        
-log
-.
-suite_start
-(
-tests
-)
-        
-message_logger
-.
-buffering
-=
-False
         
 if
 options
@@ -5441,6 +5434,11 @@ retVal
 =
 None
         
+active_tests
+=
+[
+]
+        
 for
 test
 in
@@ -5523,6 +5521,37 @@ disabled
 )
                 
 continue
+            
+active_tests
+.
+append
+(
+test
+)
+        
+log
+.
+suite_start
+(
+[
+t
+[
+'
+name
+'
+]
+for
+t
+in
+active_tests
+]
+)
+        
+for
+test
+in
+active_tests
+:
             
 if
 mochitest
