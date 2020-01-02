@@ -884,7 +884,7 @@ progressive
 -
 paint
 "
-false
+true
 )
 ;
 #
