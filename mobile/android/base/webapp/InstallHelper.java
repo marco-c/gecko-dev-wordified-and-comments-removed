@@ -164,7 +164,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppInstallHelper
+GeckoWebappInstallHelper
 "
 ;
 private
@@ -181,9 +181,9 @@ String
 ]
 {
 "
-WebApps
+Webapps
 :
-PostInstall
+Postinstall
 "
 }
 ;
@@ -475,7 +475,7 @@ appType
 =
 mApkResources
 .
-getWebAppType
+getWebappType
 (
 )
 ;

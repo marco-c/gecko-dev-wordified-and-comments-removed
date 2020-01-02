@@ -73,7 +73,7 @@ ArrayList
 ;
 public
 class
-WebAppAllocator
+WebappAllocator
 {
 private
 final
@@ -81,7 +81,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppAllocator
+GeckoWebappAllocator
 "
 ;
 private
@@ -94,14 +94,14 @@ MAX_WEB_APPS
 ;
 protected
 static
-WebAppAllocator
+WebappAllocator
 sInstance
 =
 null
 ;
 public
 static
-WebAppAllocator
+WebappAllocator
 getInstance
 (
 )
@@ -120,7 +120,7 @@ getContext
 public
 static
 synchronized
-WebAppAllocator
+WebappAllocator
 getInstance
 (
 Context
@@ -138,7 +138,7 @@ null
 sInstance
 =
 new
-WebAppAllocator
+WebappAllocator
 (
 cx
 )
@@ -152,7 +152,7 @@ SharedPreferences
 mPrefs
 ;
 protected
-WebAppAllocator
+WebappAllocator
 (
 Context
 context

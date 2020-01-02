@@ -3856,7 +3856,7 @@ true
 public
 static
 Intent
-getWebAppIntent
+getWebappIntent
 (
 String
 aURI
@@ -3983,7 +3983,7 @@ aTitle
 )
 index
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -4002,7 +4002,7 @@ aIcon
 else
 index
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -4029,7 +4029,7 @@ null
 ;
 intent
 =
-getWebAppIntent
+getWebappIntent
 (
 index
 aURI
@@ -4043,7 +4043,7 @@ intent
 public
 static
 Intent
-getWebAppIntent
+getWebappIntent
 (
 int
 aIndex
@@ -4349,7 +4349,7 @@ SHORTCUT_TYPE_WEBAPP
 {
 shortcutIntent
 =
-getWebAppIntent
+getWebappIntent
 (
 aURI
 aUniqueURI
@@ -4577,7 +4577,7 @@ SHORTCUT_TYPE_WEBAPP
 {
 shortcutIntent
 =
-getWebAppIntent
+getWebappIntent
 (
 aURI
 aUniqueURI

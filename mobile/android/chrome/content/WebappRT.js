@@ -198,7 +198,7 @@ value
 }
 }
 let
-WebAppRT
+WebappRT
 =
 {
 DEFAULT_PREFS_FILENAME

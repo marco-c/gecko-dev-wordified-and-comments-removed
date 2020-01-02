@@ -53,7 +53,7 @@ process
 :
 ANDROID_PACKAGE_NAME
 .
-WebApp
+Webapp
 APPNUM
 "
 android

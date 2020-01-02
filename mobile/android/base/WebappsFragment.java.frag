@@ -4,7 +4,7 @@ class
 WebApp
 APPNUM
 extends
-WebApp
+Webapp
 {
 Override
 protected

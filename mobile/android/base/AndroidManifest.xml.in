@@ -1868,7 +1868,7 @@ name
 =
 "
 .
-WebApp
+Webapp
 "
 android
 :
@@ -1933,7 +1933,7 @@ process
 :
 ANDROID_PACKAGE_NAME
 .
-WebApp
+Webapp
 "
 android
 :
@@ -2023,7 +2023,7 @@ a
 predefined
 number
 of
-WebApp
+Webapp
 <
 num
 >
@@ -2058,7 +2058,7 @@ web
 apps
 handled
 in
-WebAppAllocator
+WebappAllocator
 .
 -
 -
@@ -2066,7 +2066,7 @@ WebAppAllocator
 #
 define
 FRAGMENT
-WebAppManifestFragment
+WebappManifestFragment
 .
 xml
 .
@@ -2075,7 +2075,7 @@ frag
 in
 #
 include
-WebAppFragmentRepeater
+WebappFragmentRepeater
 .
 inc
 <

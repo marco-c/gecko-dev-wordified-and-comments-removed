@@ -148,7 +148,7 @@ File
 ;
 public
 class
-WebAppImpl
+WebappImpl
 extends
 GeckoApp
 {
@@ -159,7 +159,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppImpl
+GeckoWebappImpl
 "
 ;
 private
@@ -382,7 +382,7 @@ e
 (
 LOGTAG
 "
-WebApp
+Webapp
 launch
 but
 intent
@@ -403,7 +403,7 @@ return
 String
 origin
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -557,7 +557,7 @@ action
 int
 index
 =
-WebAppAllocator
+WebappAllocator
 .
 getInstance
 (
@@ -581,7 +581,7 @@ appIntent
 =
 GeckoAppShell
 .
-getWebAppIntent
+getWebappIntent
 (
 index
 uri
@@ -639,7 +639,7 @@ prefs
 .
 getInt
 (
-WebAppAllocator
+WebappAllocator
 .
 iconKey
 (
@@ -950,7 +950,7 @@ e
 (
 LOGTAG
 "
-WebApp
+Webapp
 launch
 but
 intent

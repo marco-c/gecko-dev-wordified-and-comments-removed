@@ -354,7 +354,7 @@ AndroidManifest
 .
 xml
 \
-WebAppManifestFragment
+WebappManifestFragment
 .
 xml
 .
@@ -1077,7 +1077,7 @@ xml
 .
 in
 \
-WebAppManifestFragment
+WebappManifestFragment
 .
 xml
 .
@@ -1705,7 +1705,7 @@ xml
 CURDIR
 )
 /
-WebAppManifestFragment
+WebappManifestFragment
 .
 xml
 .

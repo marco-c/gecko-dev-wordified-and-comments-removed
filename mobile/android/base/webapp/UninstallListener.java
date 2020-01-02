@@ -139,7 +139,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppUninstallListener
+GeckoWebappUninstallListener
 "
 ;
 Override

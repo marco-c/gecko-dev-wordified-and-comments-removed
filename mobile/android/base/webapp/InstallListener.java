@@ -123,7 +123,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppInstallListener
+GeckoWebappInstallListener
 "
 ;
 private

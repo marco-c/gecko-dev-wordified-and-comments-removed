@@ -74,7 +74,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppAllocator
+GeckoWebappAllocator
 "
 ;
 private

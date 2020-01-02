@@ -107,7 +107,7 @@ gecko
 .
 webapp
 .
-WebAppImpl
+WebappImpl
 ;
 #
 else
@@ -118,7 +118,7 @@ mozilla
 .
 gecko
 .
-WebAppImpl
+WebappImpl
 ;
 #
 endif
@@ -135,14 +135,14 @@ a
 namespace
 wrapper
 for
-WebAppImpl
+WebappImpl
 .
 *
 /
 public
 class
-WebApp
+Webapp
 extends
-WebAppImpl
+WebappImpl
 {
 }

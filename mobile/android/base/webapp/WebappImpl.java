@@ -289,7 +289,7 @@ TextView
 ;
 public
 class
-WebAppImpl
+WebappImpl
 extends
 GeckoApp
 implements
@@ -302,7 +302,7 @@ String
 LOGTAG
 =
 "
-GeckoWebAppImpl
+GeckoWebappImpl
 "
 ;
 private
@@ -751,7 +751,7 @@ return
 }
 else
 {
-launchWebApp
+launchWebapp
 (
 origin
 mApkResources
@@ -1647,9 +1647,9 @@ event
 equals
 (
 "
-WebApps
+Webapps
 :
-PostInstall
+Postinstall
 "
 )
 )
@@ -1666,7 +1666,7 @@ origin
 "
 )
 ;
-launchWebApp
+launchWebapp
 (
 origin
 mApkResources
@@ -1709,7 +1709,7 @@ exception
 }
 public
 void
-launchWebApp
+launchWebapp
 (
 String
 origin
