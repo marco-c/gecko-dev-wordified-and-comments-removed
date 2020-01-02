@@ -783,6 +783,10 @@ Abs
 )
 SAFE_OP
 (
+Clz
+)
+SAFE_OP
+(
 Sqrt
 )
 UNSAFE_OP
