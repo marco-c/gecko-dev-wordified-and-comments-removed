@@ -897,7 +897,9 @@ setPtr
 (
 p
 .
-ptr
+getPtr
+(
+)
 )
 ;
 }
