@@ -1246,10 +1246,16 @@ target
 }
 class
 SineWaveGenerator
+:
+public
+RefCounted
+<
+SineWaveGenerator
+>
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 SineWaveGenerator
 )
