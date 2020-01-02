@@ -10207,9 +10207,13 @@ devtools
 .
 styleeditor
 .
-transitions
+source
+-
+maps
+-
+enabled
 "
-true
+false
 )
 ;
 pref
