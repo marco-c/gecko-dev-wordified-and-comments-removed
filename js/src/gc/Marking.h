@@ -50,6 +50,9 @@ class
 LazyScript
 ;
 class
+SavedFrame
+;
+class
 ScopeObject
 ;
 class
@@ -387,6 +390,11 @@ DeclMarker
 (
 Object
 JSFunction
+)
+DeclMarker
+(
+Object
+SavedFrame
 )
 DeclMarker
 (
