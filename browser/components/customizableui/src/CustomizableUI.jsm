@@ -7619,7 +7619,14 @@ PROVIDER_API
 )
 {
 return
-true
+gPalette
+.
+get
+(
+aWidgetId
+)
+.
+removable
 ;
 }
 if
