@@ -713,7 +713,7 @@ aFamilyName
 const
 {
 return
-GetFamily
+LookupFamily
 (
 aFamilyName
 )
@@ -722,9 +722,9 @@ aFamilyName
 nullptr
 ;
 }
-gfxFontFamily
+gfxMixedFontFamily
 *
-GetFamily
+LookupFamily
 (
 const
 nsAString
@@ -1511,6 +1511,16 @@ DoRebuildUserFontSet
 )
 =
 0
+;
+gfxMixedFontFamily
+*
+GetFamily
+(
+const
+nsAString
+&
+aFamilyName
+)
 ;
 nsRefPtrHashtable
 <
