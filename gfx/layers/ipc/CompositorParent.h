@@ -233,7 +233,6 @@ mLayersId
 ;
 class
 CompositorParent
-MOZ_FINAL
 :
 public
 PCompositorParent
@@ -724,7 +723,7 @@ IsInCompositorThread
 (
 )
 ;
-private
+protected
 :
 virtual
 ~
