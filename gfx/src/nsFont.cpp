@@ -1411,7 +1411,7 @@ y
 }
 }
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 NS_ARRAY_LENGTH
 (
@@ -1420,6 +1420,12 @@ eastAsianDefaults
 =
 =
 eFeatureEastAsian_numFeatures
+"
+eFeatureEastAsian_numFeatures
+should
+be
+correct
+"
 )
 ;
 const
@@ -1575,7 +1581,7 @@ t
 }
 }
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 NS_ARRAY_LENGTH
 (
@@ -1584,6 +1590,12 @@ ligDefaults
 =
 =
 eFeatureLigatures_numFeatures
+"
+eFeatureLigatures_numFeatures
+should
+be
+correct
+"
 )
 ;
 const
@@ -1739,7 +1751,7 @@ n
 }
 }
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 NS_ARRAY_LENGTH
 (
@@ -1748,6 +1760,12 @@ numericDefaults
 =
 =
 eFeatureNumeric_numFeatures
+"
+eFeatureNumeric_numFeatures
+should
+be
+correct
+"
 )
 ;
 static
