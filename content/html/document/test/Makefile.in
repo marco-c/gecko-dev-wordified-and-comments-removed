@@ -397,3 +397,17 @@ html
 (
 NULL
 )
+MOCHITEST_BROWSER_FILES
+=
+\
+browser_bug592641
+.
+js
+\
+bug592641_img
+.
+jpg
+\
+(
+NULL
+)

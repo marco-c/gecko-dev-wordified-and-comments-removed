@@ -54,3 +54,17 @@ MPL
 0
 /
 .
+MOCHITEST_BROWSER_FILES
+=
+\
+head
+.
+js
+\
+browser_bug627234_perwindowpb
+.
+js
+\
+(
+NULL
+)

@@ -53,6 +53,17 @@ MPL
 0
 /
 .
+MOCHITEST_BROWSER_FILES
+:
+=
+\
+browser_NetworkPrioritizer
+.
+js
+\
+(
+NULL
+)
 ifeq
 (
 (

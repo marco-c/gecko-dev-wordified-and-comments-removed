@@ -191,3 +191,17 @@ frame
 .
 sjs
 \
+MOCHITEST_BROWSER_FILES
+=
+\
+browser_bug593387
+.
+js
+\
+browser_bug902350
+.
+js
+\
+(
+NULL
+)

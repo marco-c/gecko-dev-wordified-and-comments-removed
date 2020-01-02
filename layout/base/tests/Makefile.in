@@ -2309,3 +2309,13 @@ RUN
 ON
 MAC
 endif
+MOCHITEST_BROWSER_FILES
+=
+\
+browser_bug617076
+.
+js
+\
+(
+NULL
+)

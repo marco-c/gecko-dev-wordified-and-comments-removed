@@ -54,3 +54,13 @@ MPL
 0
 /
 .
+MOCHITEST_BROWSER_FILES
+=
+\
+browser_test_favicon
+.
+js
+\
+(
+NULL
+)

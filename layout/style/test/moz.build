@@ -116,13 +116,3 @@ ListCSSProperties
 cpp
 '
 ]
-BROWSER_CHROME_MANIFESTS
-+
-=
-[
-'
-browser
-.
-ini
-'
-]

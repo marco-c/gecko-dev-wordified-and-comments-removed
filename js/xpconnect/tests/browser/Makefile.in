@@ -53,3 +53,14 @@ MPL
 0
 /
 .
+MOCHITEST_BROWSER_FILES
+:
+=
+\
+browser_dead_object
+.
+js
+\
+(
+NULL
+)

@@ -98,13 +98,3 @@ MODULE
 '
 forgetaboutsite
 '
-BROWSER_CHROME_MANIFESTS
-+
-=
-[
-'
-browser
-.
-ini
-'
-]

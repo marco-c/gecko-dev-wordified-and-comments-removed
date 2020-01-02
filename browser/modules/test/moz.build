@@ -104,13 +104,3 @@ chrome
 unit
 '
 ]
-BROWSER_CHROME_MANIFESTS
-+
-=
-[
-'
-browser
-.
-ini
-'
-]
