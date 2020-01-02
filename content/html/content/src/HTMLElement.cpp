@@ -171,6 +171,9 @@ plaintext
 )
 )
 {
+if
+(
+!
 nsContentUtils
 :
 :
@@ -180,7 +183,12 @@ this
 false
 aInnerHTML
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 return
 NS_OK
 ;
