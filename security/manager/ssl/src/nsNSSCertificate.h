@@ -212,16 +212,6 @@ int
 derLen
 )
 ;
-static
-char
-*
-defaultServerNickname
-(
-CERTCertificate
-*
-cert
-)
-;
 private
 :
 insanity
