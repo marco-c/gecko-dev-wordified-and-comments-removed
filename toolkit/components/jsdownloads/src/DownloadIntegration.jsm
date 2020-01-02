@@ -2016,6 +2016,9 @@ shouldBlockInTestForApplicationReputation
 let
 hash
 ;
+let
+sigInfo
+;
 try
 {
 hash
@@ -2025,6 +2028,16 @@ aDownload
 saver
 .
 getSha256Hash
+(
+)
+;
+sigInfo
+=
+aDownload
+.
+saver
+.
+getSignatureInfo
 (
 )
 ;
@@ -2047,6 +2060,10 @@ if
 (
 !
 hash
+|
+|
+!
+sigInfo
 )
 {
 return
@@ -2092,6 +2109,9 @@ currentBytes
 sha256Hash
 :
 hash
+signatureInfo
+:
+sigInfo
 }
 function
 onComplete

@@ -136,6 +136,9 @@ int16_t
 DownloadType
 ;
 class
+nsIArray
+;
+class
 nsDownload
 ;
 #
@@ -989,6 +992,12 @@ mAutoResume
 ;
 nsAutoCString
 mHash
+;
+nsCOMPtr
+<
+nsIArray
+>
+mSignatureInfo
 ;
 friend
 class

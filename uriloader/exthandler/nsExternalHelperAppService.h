@@ -586,6 +586,12 @@ mSaver
 nsAutoCString
 mHash
 ;
+nsCOMPtr
+<
+nsIArray
+>
+mSignatureInfo
+;
 nsresult
 SetUpTempFile
 (
