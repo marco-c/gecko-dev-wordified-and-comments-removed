@@ -154,9 +154,9 @@ return
 MozbuildSandbox
 (
 config
-config
+mozpath
 .
-child_path
+dirname
 (
 relpath
 )
