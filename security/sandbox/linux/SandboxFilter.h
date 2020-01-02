@@ -13,13 +13,6 @@ sock_filter
 namespace
 mozilla
 {
-enum
-SandboxType
-{
-kSandboxContentProcess
-kSandboxMediaPlugin
-}
-;
 class
 SandboxFilter
 {
@@ -46,8 +39,6 @@ sock_fprog
 *
 *
 aStored
-SandboxType
-aBox
 bool
 aVerbose
 =
