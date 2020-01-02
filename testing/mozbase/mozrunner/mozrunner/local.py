@@ -2205,11 +2205,8 @@ debugger_args
 action
 =
 '
-append
+store
 '
-default
-=
-None
                           
 help
 =
@@ -2639,6 +2636,21 @@ options
 .
 debugger_args
         
+if
+debug_args
+is
+not
+None
+:
+            
+debug_args
+=
+debug_args
+.
+split
+(
+)
+        
 interactive
 =
 self
@@ -2665,6 +2677,8 @@ self
 options
 .
 debugger
+debug_args
+interactive
 )
         
 return
