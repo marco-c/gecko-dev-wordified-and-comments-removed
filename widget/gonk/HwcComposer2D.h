@@ -42,7 +42,7 @@ if
 ANDROID_VERSION
 >
 =
-18
+17
 #
 include
 <
@@ -293,7 +293,7 @@ if
 ANDROID_VERSION
 >
 =
-18
+17
 android
 :
 :

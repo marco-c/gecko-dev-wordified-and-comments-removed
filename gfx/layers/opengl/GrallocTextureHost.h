@@ -262,7 +262,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 public
 TextureHostOGL
 #
@@ -399,7 +399,7 @@ MOZ_WIDGET_GONK
 ANDROID_VERSION
 >
 =
-18
+17
 virtual
 TextureHostOGL
 *
