@@ -117,6 +117,17 @@ util
 ThreadUtils
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+EllipsisTextView
+;
+import
 android
 .
 content
@@ -272,7 +283,7 @@ false
 ;
 private
 final
-TextView
+EllipsisTextView
 mTextView
 ;
 private
@@ -344,7 +355,7 @@ this
 mTextView
 =
 (
-TextView
+EllipsisTextView
 )
 findViewById
 (
@@ -776,7 +787,7 @@ id
 ;
 mTextView
 .
-setText
+setOriginalText
 (
 Html
 .

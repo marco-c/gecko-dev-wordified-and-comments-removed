@@ -2605,6 +2605,13 @@ java
 '
 widget
 /
+EllipsisTextView
+.
+java
+'
+'
+widget
+/
 FaviconView
 .
 java
