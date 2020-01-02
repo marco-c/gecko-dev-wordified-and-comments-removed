@@ -5347,7 +5347,11 @@ mFeature
 )
 )
 {
-MaybeReportRejected
+mFeature
+=
+nullptr
+;
+MaybeReportRejectedOnce
 (
 )
 ;
