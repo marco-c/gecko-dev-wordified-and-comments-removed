@@ -5506,8 +5506,6 @@ nsNavHistoryResultNode
 aNode
 int32_t
 aIndex
-bool
-aIsTemporary
 )
 {
 nsNavHistoryResult
@@ -5541,10 +5539,6 @@ mIndentLevel
 ;
 if
 (
-!
-aIsTemporary
-&
-&
 aNode
 -
 >
@@ -5593,12 +5587,6 @@ aIndex
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-if
-(
-!
-aIsTemporary
-)
-{
 mAccessCount
 +
 =
@@ -5669,7 +5657,6 @@ rv
 rv
 )
 ;
-}
 if
 (
 AreChildrenVisible
@@ -5701,8 +5688,6 @@ nsNavHistoryResultNode
 *
 aNode
 bool
-aIsTemporary
-bool
 aIgnoreDuplicates
 )
 {
@@ -5722,7 +5707,6 @@ InsertChildAt
 (
 aNode
 0
-aIsTemporary
 )
 ;
 SortComparator
@@ -5742,10 +5726,6 @@ comparator
 {
 if
 (
-!
-aIsTemporary
-&
-&
 aNode
 -
 >
@@ -5822,7 +5802,6 @@ InsertChildAt
 (
 aNode
 position
-aIsTemporary
 )
 ;
 }
@@ -5835,7 +5814,6 @@ mChildren
 Count
 (
 )
-aIsTemporary
 )
 ;
 }
@@ -6015,8 +5993,6 @@ RemoveChildAt
 (
 int32_t
 aIndex
-bool
-aIsTemporary
 )
 {
 NS_ASSERTION
@@ -6051,17 +6027,6 @@ mChildren
 aIndex
 ]
 ;
-uint32_t
-oldAccessCount
-=
-0
-;
-if
-(
-!
-aIsTemporary
-)
-{
 MOZ_ASSERT
 (
 mAccessCount
@@ -6084,6 +6049,7 @@ updating
 "
 )
 ;
+uint32_t
 oldAccessCount
 =
 mAccessCount
@@ -6099,7 +6065,6 @@ aIndex
 >
 mAccessCount
 ;
-}
 mChildren
 .
 RemoveObjectAt
@@ -6134,12 +6099,6 @@ aIndex
 )
 ;
 }
-if
-(
-!
-aIsTemporary
-)
-{
 nsresult
 rv
 =
@@ -6163,7 +6122,6 @@ OnRemoving
 (
 )
 ;
-}
 return
 NS_OK
 ;
@@ -10639,7 +10597,6 @@ rv
 InsertSortedChild
 (
 node
-true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11608,7 +11565,6 @@ rv
 InsertSortedChild
 (
 node
-true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14411,7 +14367,6 @@ return
 InsertSortedChild
 (
 node
-false
 )
 ;
 }
