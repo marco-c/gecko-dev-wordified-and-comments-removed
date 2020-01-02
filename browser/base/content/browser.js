@@ -20041,6 +20041,15 @@ return
 if
 (
 !
+aWebProgress
+.
+isTopLevel
+)
+return
+;
+if
+(
+!
 Object
 .
 getOwnPropertyDescriptor
@@ -20071,13 +20080,6 @@ removeTransientNotifications
 (
 )
 ;
-if
-(
-aWebProgress
-.
-isTopLevel
-)
-{
 FullZoom
 .
 onLocationChange
@@ -20087,7 +20089,6 @@ false
 aBrowser
 )
 ;
-}
 }
 onRefreshAttempted
 :
