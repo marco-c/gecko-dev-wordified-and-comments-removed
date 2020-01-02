@@ -385,15 +385,6 @@ GeckoPreferences
 public
 static
 String
-GECKO_BROADCAST_ANNOUNCEMENTS_PREF_METHOD
-=
-"
-broadcastAnnouncementsPref
-"
-;
-public
-static
-String
 GECKO_BROADCAST_HEALTHREPORT_UPLOAD_PREF_METHOD
 =
 "

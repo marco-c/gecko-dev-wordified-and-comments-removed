@@ -99,15 +99,6 @@ background_junit3_sources
 '
 src
 /
-announcements
-/
-TestAnnouncementsBroadcastService
-.
-java
-'
-'
-src
-/
 common
 /
 TestAndroidLogWriters
