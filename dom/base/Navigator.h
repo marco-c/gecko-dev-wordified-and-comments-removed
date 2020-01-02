@@ -1132,6 +1132,17 @@ JSObject
 aGlobal
 )
 ;
+static
+bool
+HasNfcManagerSupport
+(
+JSContext
+*
+JSObject
+*
+aGlobal
+)
+;
 #
 endif
 #
