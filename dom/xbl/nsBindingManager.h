@@ -125,13 +125,9 @@ nsBindingList
 class
 nsIPrincipal
 ;
-namespace
-mozilla
-{
 class
-CSSStyleSheet
+nsCSSStyleSheet
 ;
-}
 class
 nsBindingManager
 MOZ_FINAL
@@ -425,10 +421,7 @@ AppendAllSheets
 (
 nsTArray
 <
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 >
 &

@@ -101,6 +101,9 @@ class
 nsICSSLoaderObserver
 ;
 class
+nsCSSStyleSheet
+;
+class
 nsIContent
 ;
 class
@@ -121,9 +124,6 @@ nsCycleCollectionTraversalCallback
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 namespace
 dom
 {
@@ -615,7 +615,7 @@ aIsAlternate
 nsresult
 LoadChildSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 nsIURI
@@ -639,7 +639,7 @@ bool
 aEnableUnsafeRules
 bool
 aUseSystemPrincipal
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -651,7 +651,7 @@ LoadSheetSync
 nsIURI
 *
 aURL
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -683,7 +683,7 @@ aCharset
 nsICSSLoaderObserver
 *
 aObserver
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -838,7 +838,7 @@ URIPrincipalAndCORSModeHashKey
 aKey
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 &
 aSheet
@@ -889,7 +889,7 @@ aSheetState
 bool
 *
 aIsAlternate
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -898,7 +898,7 @@ aSheet
 void
 PrepareSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 const
@@ -925,7 +925,7 @@ isAlternate
 nsresult
 InsertSheetInDoc
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIContent
@@ -939,10 +939,10 @@ aDocument
 nsresult
 InsertChildSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 ImportRule
@@ -967,7 +967,7 @@ const
 nsCString
 &
 aCharset
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -986,7 +986,7 @@ PostLoadEvent
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsICSSLoaderObserver
@@ -1066,7 +1066,7 @@ Sheets
 nsRefPtrHashtable
 <
 URIPrincipalAndCORSModeHashKey
-CSSStyleSheet
+nsCSSStyleSheet
 >
 mCompleteSheets
 ;

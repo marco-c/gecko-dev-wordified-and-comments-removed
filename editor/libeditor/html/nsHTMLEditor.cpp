@@ -191,18 +191,16 @@ include
 "
 mozilla
 /
-CSSStyleSheet
+css
+/
+Loader
 .
 h
 "
 #
 include
 "
-mozilla
-/
-css
-/
-Loader
+nsCSSStyleSheet
 .
 h
 "
@@ -12780,7 +12778,7 @@ aURL
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -12938,7 +12936,7 @@ rv
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -13085,7 +13083,7 @@ aURL
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -13169,7 +13167,7 @@ aEnable
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -13241,7 +13239,7 @@ aURL
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -13313,7 +13311,7 @@ const
 nsAString
 &
 aURL
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -13436,7 +13434,7 @@ const
 nsAString
 &
 aURL
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aStyleSheet
@@ -13507,7 +13505,7 @@ nsHTMLEditor
 :
 GetURLForStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 nsAString
@@ -15254,7 +15252,7 @@ nsHTMLEditor
 :
 StyleSheetLoaded
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool

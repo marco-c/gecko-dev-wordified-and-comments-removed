@@ -25,12 +25,12 @@ nsWrapperCache
 .
 h
 "
+class
+nsCSSStyleSheet
+;
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 namespace
 dom
 {
@@ -90,7 +90,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 CSSRuleList
 )
 virtual
-CSSStyleSheet
+nsCSSStyleSheet
 *
 GetParentObject
 (

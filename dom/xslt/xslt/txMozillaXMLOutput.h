@@ -126,10 +126,7 @@ NS_DECL_NSISCRIPTLOADEROBSERVER
 NS_IMETHOD
 StyleSheetLoaded
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool

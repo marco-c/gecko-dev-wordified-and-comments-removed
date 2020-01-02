@@ -49,6 +49,9 @@ nsTArrayForwardDeclare
 h
 "
 class
+nsCSSStyleSheet
+;
+class
 nsIPrincipal
 ;
 class
@@ -72,9 +75,6 @@ nsRuleData
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 class
 CSSVariableValues
 ;
@@ -114,10 +114,7 @@ Loader
 aLoader
 =
 nullptr
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 =
@@ -161,10 +158,7 @@ public
 nsresult
 SetStyleSheet
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -604,10 +598,7 @@ aBaseURL
 nsIPrincipal
 *
 aDocPrincipal
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 uint32_t

@@ -294,10 +294,7 @@ MOZ_OVERRIDE
 NS_IMETHOD
 StyleSheetLoaded
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool

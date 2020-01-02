@@ -221,6 +221,11 @@ nsCSSScanner
 h
 '
 '
+nsCSSStyleSheet
+.
+h
+'
+'
 nsCSSValue
 .
 h
@@ -358,11 +363,6 @@ mozilla
 =
 [
 '
-CSSStyleSheet
-.
-h
-'
-'
 CSSVariableDeclarations
 .
 h
@@ -486,11 +486,6 @@ CSSRuleList
 cpp
 '
 '
-CSSStyleSheet
-.
-cpp
-'
-'
 CSSVariableDeclarations
 .
 cpp
@@ -582,6 +577,11 @@ cpp
 '
 '
 nsCSSScanner
+.
+cpp
+'
+'
+nsCSSStyleSheet
 .
 cpp
 '

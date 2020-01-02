@@ -22,9 +22,7 @@ h
 #
 include
 "
-mozilla
-/
-CSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -77,10 +75,6 @@ nsStyleSheetTxns
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsIStyleSheet
 ;
@@ -265,7 +259,7 @@ Init
 nsIEditor
 *
 aEditor
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -408,7 +402,7 @@ Init
 nsIEditor
 *
 aEditor
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

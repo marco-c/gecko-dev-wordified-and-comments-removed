@@ -31,13 +31,9 @@ NS_ICSSLOADEROBSERVER_IID
 0x40
 }
 }
-namespace
-mozilla
-{
 class
-CSSStyleSheet
+nsCSSStyleSheet
 ;
-}
 class
 nsICSSLoaderObserver
 :
@@ -53,10 +49,7 @@ NS_ICSSLOADEROBSERVER_IID
 NS_IMETHOD
 StyleSheetLoaded
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool

@@ -255,10 +255,7 @@ NS_DECL_NSITIMERCALLBACK
 NS_IMETHOD
 StyleSheetLoaded
 (
-mozilla
-:
-:
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool

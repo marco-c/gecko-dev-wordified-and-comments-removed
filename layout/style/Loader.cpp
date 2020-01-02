@@ -156,6 +156,13 @@ h
 #
 include
 "
+nsCSSStyleSheet
+.
+h
+"
+#
+include
+"
 nsIStyleSheetLinkingElement
 .
 h
@@ -171,15 +178,6 @@ h
 include
 "
 nsCSSParser
-.
-h
-"
-#
-include
-"
-mozilla
-/
-CSSStyleSheet
 .
 h
 "
@@ -369,7 +367,7 @@ aTitle
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIStyleSheetLinkingElement
@@ -393,7 +391,7 @@ aLoader
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 SheetLoadData
@@ -415,7 +413,7 @@ aLoader
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool
@@ -476,7 +474,7 @@ mLineNumber
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;
@@ -867,7 +865,7 @@ aTitle
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIStyleSheetLinkingElement
@@ -993,7 +991,7 @@ aLoader
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 SheetLoadData
@@ -1181,7 +1179,7 @@ aLoader
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 bool
@@ -3768,7 +3766,7 @@ URIPrincipalAndCORSModeHashKey
 aKey
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 &
 aSheet
@@ -4082,7 +4080,7 @@ aSheetState
 bool
 *
 aIsAlternate
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -4157,7 +4155,7 @@ eSheetComplete
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -4859,12 +4857,12 @@ aURI
 }
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 =
 new
-CSSStyleSheet
+nsCSSStyleSheet
 (
 aCORSMode
 )
@@ -4945,7 +4943,7 @@ Loader
 :
 PrepareSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 const
@@ -5077,7 +5075,7 @@ Loader
 :
 InsertSheetInDoc
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsIContent
@@ -5376,10 +5374,10 @@ Loader
 :
 InsertChildSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 ImportRule
@@ -7845,7 +7843,7 @@ data
 =
 aLoadData
 ;
-CSSStyleSheet
+nsCSSStyleSheet
 *
 sheet
 =
@@ -8205,7 +8203,7 @@ state
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -8668,7 +8666,7 @@ state
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -9073,7 +9071,7 @@ Loader
 :
 LoadChildSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aParentSheet
 nsIURI
@@ -9414,7 +9412,7 @@ aParentSheet
 }
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -9587,7 +9585,7 @@ bool
 aAllowUnsafeRules
 bool
 aUseSystemPrincipal
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -9642,7 +9640,7 @@ aCharset
 nsICSSLoaderObserver
 *
 aObserver
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -9771,7 +9769,7 @@ const
 nsCString
 &
 aCharset
-CSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -9937,7 +9935,7 @@ isAlternate
 ;
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -10135,7 +10133,7 @@ PostLoadEvent
 nsIURI
 *
 aURI
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 nsICSSLoaderObserver
@@ -10944,7 +10942,7 @@ TraverseSheet
 (
 URIPrincipalAndCORSModeHashKey
 *
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 void
@@ -11070,7 +11068,7 @@ URIPrincipalAndCORSModeHashKey
 const
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 &
 aSheet

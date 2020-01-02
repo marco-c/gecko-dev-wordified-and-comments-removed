@@ -10,15 +10,6 @@ include
 "
 mozilla
 /
-CSSStyleSheet
-.
-h
-"
-#
-include
-"
-mozilla
-/
 css
 /
 Loader
@@ -64,6 +55,13 @@ include
 mozilla
 /
 Preferences
+.
+h
+"
+#
+include
+"
+nsCSSStyleSheet
 .
 h
 "
@@ -242,7 +240,7 @@ nsStyleLinkElement
 :
 SetStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -1082,7 +1080,7 @@ aSheet
 {
 nsRefPtr
 <
-CSSStyleSheet
+nsCSSStyleSheet
 >
 cssStyleSheet
 =

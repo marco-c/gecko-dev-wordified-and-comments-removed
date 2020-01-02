@@ -347,7 +347,7 @@ Disabled
 (
 )
 {
-CSSStyleSheet
+nsCSSStyleSheet
 *
 ss
 =
@@ -399,7 +399,7 @@ bool
 aDisabled
 )
 {
-CSSStyleSheet
+nsCSSStyleSheet
 *
 ss
 =

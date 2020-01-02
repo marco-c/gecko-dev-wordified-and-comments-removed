@@ -7669,7 +7669,7 @@ nsXBLPrototypeBinding
 :
 AppendStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -7693,7 +7693,7 @@ nsXBLPrototypeBinding
 :
 RemoveStyleSheet
 (
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -7741,7 +7741,7 @@ InsertStyleSheetAt
 (
 size_t
 aIndex
-CSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -7760,7 +7760,7 @@ aSheet
 )
 ;
 }
-CSSStyleSheet
+nsCSSStyleSheet
 *
 nsXBLPrototypeBinding
 :
@@ -7838,7 +7838,7 @@ AppendStyleSheetsTo
 (
 nsTArray
 <
-CSSStyleSheet
+nsCSSStyleSheet
 *
 >
 &
