@@ -862,6 +862,13 @@ options
 .
 png
 "
+bgTheme
+:
+"
+theme
+-
+body
+"
 tooltip
 :
 l10n

@@ -355,10 +355,7 @@ switching
 .
 js
 "
->
-<
 /
-script
 >
 <
 script
@@ -833,6 +830,9 @@ devtools
 responsive
 -
 container
+theme
+-
+body
 "
 >
 <
