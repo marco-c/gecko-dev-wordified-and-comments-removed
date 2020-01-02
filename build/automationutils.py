@@ -3307,7 +3307,7 @@ ASAN_OPTIONS
 "
 quarantine_size
 =
-100663296
+80530636
 :
 redzone
 =
