@@ -100,13 +100,6 @@ optional
 RecordErrorEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 RecordErrorEvent

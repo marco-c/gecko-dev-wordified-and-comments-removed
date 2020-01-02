@@ -3206,6 +3206,11 @@ ProgressEvent
 webidl
 '
 '
+RecordErrorEvent
+.
+webidl
+'
+'
 RTCDataChannelEvent
 .
 webidl

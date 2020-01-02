@@ -141,9 +141,6 @@ endif
 '
 DeviceStorageChangeEvent
 '
-'
-RecordErrorEvent
-'
 #
 ifdef
 MOZ_WEBSPEECH

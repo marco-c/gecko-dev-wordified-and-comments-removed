@@ -213,11 +213,6 @@ nsIDOMPaintRequest
 idl
 '
 '
-nsIDOMRecordErrorEvent
-.
-idl
-'
-'
 nsIDOMScrollAreaEvent
 .
 idl
