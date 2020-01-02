@@ -3590,6 +3590,9 @@ RecursiveMake
 AndroidEclipse
 '
 '
+CppEclipse
+'
+'
 VisualStudio
 '
 ]
