@@ -4757,16 +4757,6 @@ enabledTextIds
 TraceLogger
 :
 :
-UnsplitEdges
-]
-=
-true
-;
-enabledTextIds
-[
-TraceLogger
-:
-:
 GenerateCode
 ]
 =

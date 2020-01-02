@@ -408,6 +408,13 @@ DoubleCondition
 cond
 )
 {
+mir
+=
+skipTrivialBlocks
+(
+mir
+)
+;
 Label
 *
 label

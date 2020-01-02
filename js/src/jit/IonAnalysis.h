@@ -162,14 +162,6 @@ MIRGraph
 graph
 )
 ;
-bool
-UnsplitEdges
-(
-LIRGraph
-*
-lir
-)
-;
 class
 MDefinition
 ;

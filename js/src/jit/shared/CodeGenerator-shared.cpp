@@ -5119,6 +5119,13 @@ MBasicBlock
 mir
 )
 {
+mir
+=
+skipTrivialBlocks
+(
+mir
+)
+;
 if
 (
 isNextBlock
@@ -5235,6 +5242,13 @@ Condition
 cond
 )
 {
+mir
+=
+skipTrivialBlocks
+(
+mir
+)
+;
 if
 (
 Label
