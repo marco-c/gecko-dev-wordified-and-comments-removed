@@ -4102,7 +4102,7 @@ browser
 .
 finder
 .
-removeSelection
+enableSelection
 (
 )
 ;
