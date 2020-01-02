@@ -1638,6 +1638,17 @@ nsString
 aNames
 )
 ;
+static
+bool
+IsChromeWindow
+(
+JSContext
+*
+JSObject
+*
+aObj
+)
+;
 bool
 DoNewResolve
 (
