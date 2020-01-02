@@ -4,6 +4,7 @@ testName
 aAccOrElmOrID
 aName
 aMsg
+aTodo
 )
 {
 var
@@ -32,6 +33,15 @@ acc
 return
 ;
 var
+func
+=
+aTodo
+?
+todo_is
+:
+is
+;
+var
 txtID
 =
 prettyName
@@ -41,7 +51,7 @@ aAccOrElmOrID
 ;
 try
 {
-is
+func
 (
 acc
 .
