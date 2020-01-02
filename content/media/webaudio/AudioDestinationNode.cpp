@@ -1052,6 +1052,7 @@ MediaStreamGraph
 :
 CreateNonRealtimeInstance
 (
+aSampleRate
 )
 :
 MediaStreamGraph

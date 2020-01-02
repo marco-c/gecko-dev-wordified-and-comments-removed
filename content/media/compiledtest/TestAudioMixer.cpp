@@ -36,6 +36,8 @@ uint32_t
 aChannels
 uint32_t
 aFrames
+uint32_t
+aSampleRate
 )
 {
 bool
@@ -302,6 +304,12 @@ CHANNEL_LENGTH
 =
 256
 ;
+const
+uint32_t
+AUDIO_RATE
+=
+44100
+;
 AudioDataValue
 a
 [
@@ -414,6 +422,7 @@ Mix
 a
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -423,6 +432,7 @@ Mix
 b
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -531,6 +541,7 @@ a
 CHANNEL_LENGTH
 /
 2
+AUDIO_RATE
 )
 ;
 mixer
@@ -542,6 +553,7 @@ b
 CHANNEL_LENGTH
 /
 2
+AUDIO_RATE
 )
 ;
 mixer
@@ -609,6 +621,7 @@ Mix
 a
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -618,6 +631,7 @@ Mix
 b
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -699,6 +713,7 @@ a
 CHANNEL_LENGTH
 /
 2
+AUDIO_RATE
 )
 ;
 mixer
@@ -710,6 +725,7 @@ b
 CHANNEL_LENGTH
 /
 2
+AUDIO_RATE
 )
 ;
 mixer
@@ -775,6 +791,7 @@ Mix
 a
 1
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -784,6 +801,7 @@ Mix
 b
 1
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -799,6 +817,7 @@ Mix
 a
 1
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -808,6 +827,7 @@ Mix
 b
 1
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -823,6 +843,7 @@ Mix
 a
 1
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -832,6 +853,7 @@ Mix
 b
 1
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -873,6 +895,7 @@ Mix
 a
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -882,6 +905,7 @@ Mix
 b
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -897,6 +921,7 @@ Mix
 a
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -906,6 +931,7 @@ Mix
 b
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -915,6 +941,7 @@ Mix
 a
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -924,6 +951,7 @@ Mix
 b
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -939,6 +967,7 @@ Mix
 a
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer
@@ -948,6 +977,7 @@ Mix
 b
 2
 CHANNEL_LENGTH
+AUDIO_RATE
 )
 ;
 mixer

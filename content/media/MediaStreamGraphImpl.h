@@ -222,6 +222,8 @@ MediaStreamGraphImpl
 (
 bool
 aRealtime
+TrackRate
+aSampleRate
 )
 ;
 void
@@ -638,6 +640,15 @@ ResumeAllAudioOutputs
 (
 )
 ;
+TrackRate
+AudioSampleRate
+(
+)
+{
+return
+mSampleRate
+;
+}
 nsCOMPtr
 <
 nsIThread
@@ -751,6 +762,9 @@ mWaitState
 ;
 GraphTime
 mEndTime
+;
+TrackRate
+mSampleRate
 ;
 bool
 mNeedAnotherIteration

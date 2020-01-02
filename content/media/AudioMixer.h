@@ -46,6 +46,8 @@ uint32_t
 aChannels
 uint32_t
 aFrames
+uint32_t
+aSampleRate
 )
 ;
 class
@@ -68,6 +70,10 @@ mFrames
 0
 )
 mChannels
+(
+0
+)
+mSampleRate
 (
 0
 )
@@ -94,6 +100,7 @@ AudioDataValue
 Format
 mChannels
 mFrames
+mSampleRate
 )
 ;
 PodZero
@@ -110,6 +117,8 @@ Length
 )
 )
 ;
+mSampleRate
+=
 mChannels
 =
 mFrames
@@ -127,6 +136,8 @@ uint32_t
 aChannels
 uint32_t
 aFrames
+uint32_t
+aSampleRate
 )
 {
 if
@@ -147,6 +158,10 @@ mChannels
 =
 aChannels
 ;
+mSampleRate
+=
+aSampleRate
+;
 EnsureCapacityAndSilence
 (
 )
@@ -166,6 +181,14 @@ aChannels
 =
 =
 mChannels
+)
+;
+MOZ_ASSERT
+(
+aSampleRate
+=
+=
+mSampleRate
 )
 ;
 for
@@ -252,6 +275,9 @@ mFrames
 ;
 uint32_t
 mChannels
+;
+uint32_t
+mSampleRate
 ;
 nsTArray
 <
