@@ -4710,6 +4710,13 @@ PKG_STAGE
 )
 /
 cppunittests
+ifeq
+(
+(
+MOZ_WIDGET_TOOLKIT
+)
+android
+)
 (
 NSINSTALL
 )
@@ -4727,6 +4734,7 @@ PKG_STAGE
 )
 /
 cppunittests
+endif
 stage
 -
 jittest
