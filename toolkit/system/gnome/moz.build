@@ -176,3 +176,17 @@ True
 FORCE_SHARED_LIB
 =
 True
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+toolkit
+/
+components
+/
+build
+/
+'
+]

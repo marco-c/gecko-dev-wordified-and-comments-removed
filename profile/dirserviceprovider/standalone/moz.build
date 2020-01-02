@@ -126,3 +126,14 @@ XPCOM_GLUE
 ]
 =
 1
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+src
+'
+]

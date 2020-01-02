@@ -229,3 +229,16 @@ spellcheck
 src
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+editor
+/
+libeditor
+/
+base
+'
+]

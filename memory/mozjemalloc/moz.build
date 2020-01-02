@@ -242,3 +242,14 @@ Linux
 NO_PGO
 =
 True
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+memory
+/
+build
+'
+]

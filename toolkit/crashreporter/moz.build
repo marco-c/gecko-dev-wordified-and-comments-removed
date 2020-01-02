@@ -683,3 +683,15 @@ jar
 mn
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+google
+-
+breakpad
+/
+src
+'
+]

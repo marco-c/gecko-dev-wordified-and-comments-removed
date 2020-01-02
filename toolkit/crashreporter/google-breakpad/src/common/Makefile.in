@@ -64,16 +64,6 @@ ifdef
 MOZ_CRASHREPORTER
 endif
 endif
-LOCAL_INCLUDES
-=
--
-I
-(
-srcdir
-)
-/
-.
-.
 ifeq
 (
 (

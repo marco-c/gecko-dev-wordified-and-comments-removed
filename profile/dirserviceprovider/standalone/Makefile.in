@@ -63,17 +63,5 @@ config
 rules
 .
 mk
-LOCAL_INCLUDES
-=
--
-I
-(
-srcdir
-)
-/
-.
-.
-/
-src
 STL_FLAGS
 =

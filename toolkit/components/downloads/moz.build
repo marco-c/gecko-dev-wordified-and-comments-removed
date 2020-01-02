@@ -331,3 +331,14 @@ FINAL_LIBRARY
 '
 toolkitcomps
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+protobuf
+'
+]
