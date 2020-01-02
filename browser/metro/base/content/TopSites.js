@@ -7,12 +7,6 @@ let
 TopSites
 =
 {
-_initialized
-:
-false
-Site
-:
-Site
 prepareCache
 :
 function
