@@ -97,6 +97,14 @@ runTests
 (
 )
 {
+dontExpireThumbnailURLs
+(
+[
+URL
+URL_COPY
+]
+)
+;
 yield
 clearHistory
 (
