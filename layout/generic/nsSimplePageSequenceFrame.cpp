@@ -551,7 +551,7 @@ GetPrintPreviewScale
 )
 ;
 }
-nsresult
+void
 nsSimplePageSequenceFrame
 :
 :
@@ -659,7 +659,6 @@ aDesiredSize
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -1324,6 +1323,7 @@ if
 !
 mDateFormatter
 )
+{
 mDateFormatter
 =
 do_CreateInstance
@@ -1331,12 +1331,16 @@ do_CreateInstance
 NS_DATETIMEFORMAT_CONTRACTID
 )
 ;
-NS_ENSURE_TRUE
+}
+if
 (
+!
 mDateFormatter
-NS_ERROR_FAILURE
 )
+{
+return
 ;
+}
 nsAutoString
 formattedDateString
 ;
@@ -1422,9 +1426,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 #

@@ -461,7 +461,7 @@ aSqrOffset
 dxSqr
 ;
 }
-nsresult
+void
 nsMathMLmrootFrame
 :
 :
@@ -705,7 +705,6 @@ childFrame
 )
 ;
 return
-NS_OK
 ;
 }
 nsRefPtr
@@ -1477,9 +1476,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 void

@@ -1255,7 +1255,7 @@ mContent
 ;
 }
 ;
-nsresult
+void
 nsVideoFrame
 :
 :
@@ -1539,12 +1539,15 @@ do_QueryInterface
 mPosterImage
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 posterImage
-NS_ERROR_FAILURE
 )
+{
+return
 ;
+}
 posterImage
 -
 >
@@ -2100,9 +2103,6 @@ aStatus
 aReflowState
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 class

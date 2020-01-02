@@ -1042,7 +1042,7 @@ aWidthInCB
 )
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

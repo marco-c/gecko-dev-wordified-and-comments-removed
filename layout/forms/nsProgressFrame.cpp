@@ -450,7 +450,7 @@ aLists
 )
 ;
 }
-nsresult
+void
 nsProgressFrame
 :
 :
@@ -659,9 +659,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 void

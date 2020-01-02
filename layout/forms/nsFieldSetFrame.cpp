@@ -1398,7 +1398,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsFieldSetFrame
 :
 :
@@ -2516,9 +2516,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

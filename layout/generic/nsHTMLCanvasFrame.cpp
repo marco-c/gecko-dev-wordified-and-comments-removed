@@ -704,7 +704,7 @@ aPadding
 )
 ;
 }
-nsresult
+void
 nsHTMLCanvasFrame
 :
 :
@@ -1044,9 +1044,6 @@ aStatus
 aReflowState
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 nsRect

@@ -140,7 +140,7 @@ mState
 NS_FRAME_REFLOW_ROOT
 ;
 }
-nsresult
+void
 nsScrollbarFrame
 :
 :
@@ -161,9 +161,6 @@ nsReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -173,12 +170,6 @@ aPresContext
 aDesiredSize
 aReflowState
 aStatus
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -223,9 +214,6 @@ Height
 0
 ;
 }
-return
-NS_OK
-;
 }
 nsIAtom
 *

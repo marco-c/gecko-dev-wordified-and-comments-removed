@@ -158,7 +158,7 @@ aLists
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext
@@ -475,7 +475,7 @@ ContentInfo
 aElements
 )
 ;
-nsresult
+void
 ReflowAnonymousContent
 (
 nsPresContext

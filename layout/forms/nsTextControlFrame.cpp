@@ -2007,7 +2007,7 @@ return
 autoSize
 ;
 }
-nsresult
+void
 nsTextControlFrame
 :
 :
@@ -2157,9 +2157,6 @@ nsFontMetrics
 >
 fontMet
 ;
-nsresult
-rv
-=
 nsLayoutUtils
 :
 :
@@ -2171,12 +2168,6 @@ getter_AddRefs
 fontMet
 )
 inflation
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 aDesiredSize
@@ -2257,9 +2248,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 void

@@ -1221,7 +1221,7 @@ amount
 ;
 }
 }
-nsresult
+void
 nsMathMLmpaddedFrame
 :
 :
@@ -1256,9 +1256,6 @@ aDesiredSize
 aReflowState
 aStatus
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

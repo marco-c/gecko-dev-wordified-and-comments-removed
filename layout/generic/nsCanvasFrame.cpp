@@ -2397,7 +2397,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsCanvasFrame
 :
 :
@@ -2980,9 +2980,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom

@@ -4917,7 +4917,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsTableRowFrame
 :
 :
@@ -4953,11 +4953,6 @@ aReflowState
 aDesiredSize
 aStatus
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 nsTableFrame
 *
@@ -5020,8 +5015,6 @@ InitHasCellWithStyleHeight
 tableFrame
 )
 ;
-rv
-=
 ReflowChildren
 (
 aPresContext
@@ -5124,9 +5117,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-rv
 ;
 }
 nscoord

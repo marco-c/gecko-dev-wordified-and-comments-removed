@@ -288,7 +288,7 @@ aOldFrame
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext
@@ -725,7 +725,7 @@ gReflows
 ;
 #
 endif
-nsresult
+void
 nsRootBoxFrame
 :
 :

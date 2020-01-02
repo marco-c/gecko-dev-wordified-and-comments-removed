@@ -3895,7 +3895,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsMathMLmoFrame
 :
 :
@@ -3930,9 +3930,6 @@ aDesiredSize
 aReflowState
 aStatus
 )
-;
-return
-NS_OK
 ;
 }
 void

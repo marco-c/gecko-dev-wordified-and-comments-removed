@@ -2482,7 +2482,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsBoxFrame
 :
 :
@@ -3056,9 +3056,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 nsSize

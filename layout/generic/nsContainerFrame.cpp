@@ -4062,9 +4062,6 @@ state
 "
 )
 ;
-nsresult
-result
-;
 aKidFrame
 -
 >
@@ -4116,8 +4113,6 @@ aKidFrame
 )
 ;
 }
-result
-=
 aKidFrame
 -
 >
@@ -4131,12 +4126,6 @@ aStatus
 ;
 if
 (
-NS_SUCCEEDED
-(
-result
-)
-&
-&
 NS_FRAME_IS_FULLY_COMPLETE
 (
 aStatus
@@ -4201,7 +4190,7 @@ true
 }
 }
 return
-result
+NS_OK
 ;
 }
 void

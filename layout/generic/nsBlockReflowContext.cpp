@@ -889,7 +889,7 @@ return
 dirtiedLine
 ;
 }
-nsresult
+void
 nsBlockReflowContext
 :
 :
@@ -922,11 +922,6 @@ nsBlockReflowState
 aState
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 mFrame
 =
 aFrameRS
@@ -1172,8 +1167,6 @@ tx
 ty
 )
 ;
-rv
-=
 mFrame
 -
 >
@@ -1460,9 +1453,6 @@ true
 }
 }
 }
-return
-rv
-;
 }
 bool
 nsBlockReflowContext

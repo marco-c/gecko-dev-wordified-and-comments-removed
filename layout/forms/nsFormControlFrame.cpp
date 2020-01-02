@@ -230,7 +230,7 @@ GetUsedBorderAndPadding
 bottom
 ;
 }
-nsresult
+void
 nsFormControlFrame
 :
 :
@@ -288,9 +288,6 @@ true
 )
 ;
 }
-nsresult
-rv
-=
 nsLeafFrame
 :
 :
@@ -302,18 +299,6 @@ aReflowState
 aStatus
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-rv
-;
-}
 if
 (
 nsLayoutUtils
@@ -367,9 +352,6 @@ aDesiredSize
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 nsFormControlFrame

@@ -806,7 +806,7 @@ return
 rect
 ;
 }
-nsresult
+void
 ViewportFrame
 :
 :
@@ -883,11 +883,6 @@ nscoord
 kidHeight
 =
 0
-;
-nsresult
-rv
-=
-NS_OK
 ;
 if
 (
@@ -975,8 +970,6 @@ ComputedHeight
 )
 )
 ;
-rv
-=
 ReflowChild
 (
 kidFrame
@@ -1196,8 +1189,6 @@ AdjustReflowStateAsContainingBlock
 reflowState
 )
 ;
-rv
-=
 GetAbsoluteContainingBlock
 (
 )
@@ -1323,9 +1314,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-rv
 ;
 }
 nsIAtom

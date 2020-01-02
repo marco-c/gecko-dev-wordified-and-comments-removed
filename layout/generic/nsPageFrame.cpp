@@ -179,7 +179,7 @@ nsPageFrame
 )
 {
 }
-nsresult
+void
 nsPageFrame
 :
 :
@@ -423,7 +423,6 @@ content
 )
 ;
 return
-NS_OK
 ;
 }
 nsHTMLReflowState
@@ -885,9 +884,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 nsIAtom
@@ -3213,7 +3209,7 @@ return
 0
 ;
 }
-nsresult
+void
 nsPageBreakFrame
 :
 :
@@ -3313,9 +3309,6 @@ true
 aStatus
 =
 NS_FRAME_COMPLETE
-;
-return
-NS_OK
 ;
 }
 nsIAtom
