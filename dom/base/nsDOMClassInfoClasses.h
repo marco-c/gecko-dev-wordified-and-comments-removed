@@ -108,10 +108,6 @@ XPathNSResolver
 )
 DOMCI_CLASS
 (
-Storage
-)
-DOMCI_CLASS
-(
 Blob
 )
 DOMCI_CLASS

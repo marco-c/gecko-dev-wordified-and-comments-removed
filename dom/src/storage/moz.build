@@ -102,6 +102,11 @@ dom
 =
 [
 '
+DOMStorage
+.
+h
+'
+'
 DOMStorageIPC
 .
 h

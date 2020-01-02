@@ -140,9 +140,6 @@ changes
 .
 *
 /
-interface
-Storage
-;
 [
 Constructor
 (

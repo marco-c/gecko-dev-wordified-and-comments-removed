@@ -1675,6 +1675,11 @@ SourceBufferList
 webidl
 '
 '
+Storage
+.
+webidl
+'
+'
 StorageEvent
 .
 webidl

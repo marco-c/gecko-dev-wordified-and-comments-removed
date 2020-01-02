@@ -3090,6 +3090,7 @@ dsm
 .
 createStorage
 (
+null
 principal
 "
 "

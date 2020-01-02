@@ -113,13 +113,3 @@ XPIDL_MODULE
 '
 dom_storage
 '
-EXPORTS
-+
-=
-[
-'
-nsPIDOMStorage
-.
-h
-'
-]
