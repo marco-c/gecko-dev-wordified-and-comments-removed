@@ -849,7 +849,6 @@ provider
 >
 RegisterMobileConnectionMsg
 (
-0
 mMobileConnectionListener
 )
 ;
@@ -893,7 +892,6 @@ provider
 >
 UnregisterMobileConnectionMsg
 (
-0
 mMobileConnectionListener
 )
 ;
