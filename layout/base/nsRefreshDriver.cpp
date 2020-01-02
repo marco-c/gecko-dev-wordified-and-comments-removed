@@ -179,6 +179,13 @@ imgIContainer
 .
 h
 "
+#
+include
+"
+nsIFrameRequestCallback
+.
+h
+"
 using
 namespace
 mozilla

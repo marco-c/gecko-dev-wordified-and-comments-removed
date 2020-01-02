@@ -190,6 +190,13 @@ h
 #
 include
 "
+nsILoadContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 LookAndFeel

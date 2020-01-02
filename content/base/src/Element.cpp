@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsIDocumentEncoder
+.
+h
+"
+#
+include
+"
 nsIDocumentInlines
 .
 h
