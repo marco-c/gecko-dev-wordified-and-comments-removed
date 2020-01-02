@@ -708,12 +708,6 @@ mTarget
 ;
 nsRefPtr
 <
-gfxContext
->
-mDummyTarget
-;
-nsRefPtr
-<
 ImageFactory
 >
 mFactory
