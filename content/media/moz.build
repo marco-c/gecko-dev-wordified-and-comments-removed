@@ -504,6 +504,11 @@ MP3FrameParser
 h
 '
 '
+nsIDocumentActivity
+.
+h
+'
+'
 RtspMediaResource
 .
 h

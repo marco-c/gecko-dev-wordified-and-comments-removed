@@ -638,9 +638,9 @@ static
 void
 BeginSwapDocShells
 (
-nsIContent
+nsISupports
 *
-aContent
+aSupports
 void
 *
 )
@@ -649,9 +649,9 @@ static
 void
 EndSwapDocShells
 (
-nsIContent
+nsISupports
 *
-aContent
+aSupports
 void
 *
 )

@@ -33,7 +33,7 @@ void
 Element
 :
 :
-RegisterFreezableElement
+RegisterActivityObserver
 (
 )
 {
@@ -42,7 +42,7 @@ OwnerDoc
 )
 -
 >
-RegisterFreezableElement
+RegisterActivityObserver
 (
 this
 )
@@ -53,7 +53,7 @@ void
 Element
 :
 :
-UnregisterFreezableElement
+UnregisterActivityObserver
 (
 )
 {
@@ -62,7 +62,7 @@ OwnerDoc
 )
 -
 >
-UnregisterFreezableElement
+UnregisterActivityObserver
 (
 this
 )

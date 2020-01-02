@@ -4426,7 +4426,7 @@ rootFrame
 aDocument
 -
 >
-EnumerateFreezableElements
+EnumerateActivityObservers
 (
 nsObjectFrame
 :
@@ -4983,7 +4983,7 @@ prev
 aDocument
 -
 >
-EnumerateFreezableElements
+EnumerateActivityObservers
 (
 nsObjectFrame
 :

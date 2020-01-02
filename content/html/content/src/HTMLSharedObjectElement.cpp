@@ -147,7 +147,7 @@ embed
 aFromParser
 )
 {
-RegisterFreezableElement
+RegisterActivityObserver
 (
 )
 ;
@@ -260,7 +260,7 @@ HTMLSharedObjectElement
 (
 )
 {
-UnregisterFreezableElement
+UnregisterActivityObserver
 (
 )
 ;
