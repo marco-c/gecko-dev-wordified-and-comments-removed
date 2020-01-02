@@ -173,6 +173,11 @@ gfxFontFeatures
 h
 '
 '
+gfxFontInfoLoader
+.
+h
+'
+'
 gfxFontTest
 .
 h
@@ -1270,6 +1275,11 @@ cpp
 '
 '
 gfxFontFeatures
+.
+cpp
+'
+'
+gfxFontInfoLoader
 .
 cpp
 '

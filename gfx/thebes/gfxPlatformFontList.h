@@ -35,6 +35,13 @@ h
 #
 include
 "
+gfxFontInfoLoader
+.
+h
+"
+#
+include
+"
 gfxFont
 .
 h
