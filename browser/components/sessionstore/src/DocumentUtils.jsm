@@ -182,6 +182,13 @@ instanceof
 Ci
 .
 nsIDOMHTMLTextAreaElement
+|
+|
+node
+instanceof
+Ci
+.
+nsIDOMXULTextBoxElement
 )
 {
 switch
