@@ -5967,9 +5967,10 @@ else
 {
 number
 =
-JSVAL_TO_DOUBLE
-(
 s
+.
+toDouble
+(
 )
 ;
 if

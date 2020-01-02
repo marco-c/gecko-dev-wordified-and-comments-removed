@@ -252,9 +252,10 @@ isDouble
 *
 d
 =
-JSVAL_TO_DOUBLE
-(
 v
+.
+toDouble
+(
 )
 ;
 }

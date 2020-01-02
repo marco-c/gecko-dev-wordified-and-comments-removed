@@ -1733,9 +1733,10 @@ isDouble
 double
 d
 =
-JSVAL_TO_DOUBLE
-(
 val
+.
+toDouble
+(
 )
 ;
 int

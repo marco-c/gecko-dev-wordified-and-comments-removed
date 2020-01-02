@@ -1854,9 +1854,10 @@ float
 double
 *
 )
-JSVAL_TO_DOUBLE
-(
 value
+.
+toDouble
+(
 )
 ;
 }

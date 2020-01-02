@@ -6285,12 +6285,13 @@ Invert
 double
 NaN
 =
-JSVAL_TO_DOUBLE
-(
 JS_GetNaNValue
 (
 cx
 )
+.
+toDouble
+(
 )
 ;
 ctm

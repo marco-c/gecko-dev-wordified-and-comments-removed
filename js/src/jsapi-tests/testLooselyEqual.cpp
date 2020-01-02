@@ -349,9 +349,10 @@ copysign
 1
 .
 0
-JSVAL_TO_DOUBLE
-(
 poszero
+.
+toDouble
+(
 )
 )
 =
@@ -368,9 +369,10 @@ copysign
 1
 .
 0
-JSVAL_TO_DOUBLE
-(
 negzero
+.
+toDouble
+(
 )
 )
 =
