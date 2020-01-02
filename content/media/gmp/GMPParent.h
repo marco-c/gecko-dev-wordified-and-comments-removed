@@ -201,6 +201,11 @@ GMPParent
 aOther
 )
 ;
+void
+Crash
+(
+)
+;
 nsresult
 LoadProcess
 (
