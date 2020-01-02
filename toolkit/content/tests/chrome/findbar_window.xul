@@ -2727,12 +2727,6 @@ checked
 "
 )
 ;
-if
-(
-!
-gHasFindClipboard
-)
-{
 a
 =
 gFindBar
@@ -2798,7 +2792,6 @@ c
 "
 )
 ;
-}
 gFindBar
 .
 onFindAgainCommand
