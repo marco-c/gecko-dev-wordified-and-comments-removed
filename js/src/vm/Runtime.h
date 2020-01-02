@@ -1737,7 +1737,7 @@ enum
 RuntimeLock
 {
 ExclusiveAccessLock
-WorkerThreadStateLock
+HelperThreadStateLock
 InterruptLock
 GCLock
 }

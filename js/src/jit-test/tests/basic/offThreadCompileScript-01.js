@@ -11,7 +11,7 @@ js
 ;
 if
 (
-workerThreadCount
+helperThreadCount
 (
 )
 =

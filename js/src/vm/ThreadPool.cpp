@@ -1089,7 +1089,7 @@ const
 ifdef
 JS_THREADSAFE
 return
-WorkerThreadState
+HelperThreadState
 (
 )
 .

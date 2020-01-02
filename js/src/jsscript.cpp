@@ -9174,7 +9174,7 @@ USE_ZLIB
 bool
 canCompressOffThread
 =
-WorkerThreadState
+HelperThreadState
 (
 )
 .
@@ -9183,7 +9183,7 @@ cpuCount
 1
 &
 &
-WorkerThreadState
+HelperThreadState
 (
 )
 .
