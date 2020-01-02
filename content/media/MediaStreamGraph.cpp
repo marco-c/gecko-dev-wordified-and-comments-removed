@@ -11726,18 +11726,6 @@ data
 mHaveEnough
 )
 {
-if
-(
-data
--
->
-mDispatchWhenNotEnough
-.
-IsEmpty
-(
-)
-)
-{
 data
 -
 >
@@ -11754,7 +11742,6 @@ aSignalThread
 aSignalRunnable
 )
 ;
-}
 }
 else
 {
