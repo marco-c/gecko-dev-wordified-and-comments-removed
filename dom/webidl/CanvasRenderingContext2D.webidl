@@ -997,6 +997,7 @@ hitregions
 .
 enabled
 "
+Throws
 ]
 void
 addHitRegion
