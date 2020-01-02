@@ -98,6 +98,11 @@ CPP_UNIT_TESTS
 =
 [
 '
+TestArrayUtils
+.
+cpp
+'
+'
 TestAtomics
 .
 cpp
