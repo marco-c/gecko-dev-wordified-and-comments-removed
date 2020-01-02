@@ -100,7 +100,7 @@ gdb
 -
 tests
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
