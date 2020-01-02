@@ -145,6 +145,11 @@ AnimationEvent
 webidl
 '
 '
+AppInfo
+.
+webidl
+'
+'
 AppNotificationServiceOptions
 .
 webidl
@@ -171,11 +176,6 @@ webidl
 '
 '
 AudioBufferSourceNode
-.
-webidl
-'
-'
-AudioChannel
 .
 webidl
 '
