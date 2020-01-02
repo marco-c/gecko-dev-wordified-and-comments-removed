@@ -16830,9 +16830,7 @@ the
 current
 panel
 .
-gBrowser
-.
-loadOneTab
+openUILinkIn
 (
 this
 .
@@ -16844,11 +16842,9 @@ getAttribute
 href
 "
 )
-{
-inBackground
-:
-false
-}
+"
+tab
+"
 )
 ;
 this
