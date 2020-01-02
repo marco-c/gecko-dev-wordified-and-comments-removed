@@ -5338,9 +5338,6 @@ None
 void
 infer
 (
-JSContext
-*
-cx
 )
 ;
 MDefinition
@@ -8115,9 +8112,6 @@ useValueNumbers
 void
 infer
 (
-JSContext
-*
-cx
 BaselineInspector
 *
 inspector
@@ -11374,9 +11368,6 @@ useValueNumbers
 void
 infer
 (
-JSContext
-*
-cx
 )
 ;
 bool
@@ -18806,9 +18797,6 @@ Not
 void
 infer
 (
-JSContext
-*
-cx
 )
 ;
 MDefinition
