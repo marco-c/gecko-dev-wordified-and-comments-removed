@@ -86,8 +86,6 @@ list
 include
 composer
 /
-src
-/
 crashtests
 /
 crashtests
