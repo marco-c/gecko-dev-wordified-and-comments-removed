@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsClientRect
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h

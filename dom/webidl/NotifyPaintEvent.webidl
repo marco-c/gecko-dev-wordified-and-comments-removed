@@ -110,12 +110,12 @@ Event
 {
 readonly
 attribute
-ClientRectList
+DOMRectList
 clientRects
 ;
 readonly
 attribute
-ClientRect
+DOMRect
 boundingClientRect
 ;
 readonly

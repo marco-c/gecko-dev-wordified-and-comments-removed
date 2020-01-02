@@ -78,6 +78,17 @@ mozilla
 /
 dom
 /
+DOMRect
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ValidityState
 .
 h

@@ -108,7 +108,7 @@ partial
 interface
 CaretPosition
 {
-ClientRect
+DOMRect
 ?
 getClientRect
 (

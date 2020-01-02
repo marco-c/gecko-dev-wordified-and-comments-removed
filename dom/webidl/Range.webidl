@@ -559,13 +559,13 @@ partial
 interface
 Range
 {
-ClientRectList
+DOMRectList
 ?
 getClientRects
 (
 )
 ;
-ClientRect
+DOMRect
 getBoundingClientRect
 (
 )

@@ -108,11 +108,6 @@ HTMLPropertiesCollection
 h
 '
 '
-nsClientRect
-.
-h
-'
-'
 nsGenericHTMLElement
 .
 h
@@ -758,11 +753,6 @@ cpp
 '
 '
 ValidityState
-.
-cpp
-'
-'
-nsClientRect
 .
 cpp
 '

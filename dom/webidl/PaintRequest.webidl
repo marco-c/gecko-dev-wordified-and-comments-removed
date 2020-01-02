@@ -142,7 +142,7 @@ triggered
 /
 readonly
 attribute
-ClientRect
+DOMRect
 clientRect
 ;
 /

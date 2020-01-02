@@ -982,12 +982,12 @@ partial
 interface
 Element
 {
-ClientRectList
+DOMRectList
 getClientRects
 (
 )
 ;
-ClientRect
+DOMRect
 getBoundingClientRect
 (
 )

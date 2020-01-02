@@ -338,6 +338,11 @@ DOMParser
 h
 '
 '
+DOMRect
+.
+h
+'
+'
 DocumentFragment
 .
 h
@@ -389,6 +394,11 @@ cpp
 '
 '
 DOMImplementation
+.
+cpp
+'
+'
+DOMRect
 .
 cpp
 '

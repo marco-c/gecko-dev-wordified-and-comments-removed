@@ -1,9 +1,9 @@
 #
 ifndef
-NSCLIENTRECT_H_
+MOZILLA_DOMRECT_H_
 #
 define
-NSCLIENTRECT_H_
+MOZILLA_DOMRECT_H_
 #
 include
 "
@@ -65,8 +65,14 @@ h
 struct
 nsRect
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsClientRect
+DOMRect
 MOZ_FINAL
 :
 public
@@ -76,7 +82,7 @@ nsWrapperCache
 {
 public
 :
-nsClientRect
+DOMRect
 (
 nsISupports
 *
@@ -119,7 +125,7 @@ SetIsDOMBinding
 }
 virtual
 ~
-nsClientRect
+DOMRect
 (
 )
 {
@@ -166,7 +172,7 @@ aLayoutRect
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-nsClientRect
+DOMRect
 )
 NS_DECL_NSIDOMCLIENTRECT
 nsISupports
@@ -286,7 +292,7 @@ mHeight
 }
 ;
 class
-nsClientRectList
+DOMRectList
 MOZ_FINAL
 :
 public
@@ -296,7 +302,7 @@ nsWrapperCache
 {
 public
 :
-nsClientRectList
+DOMRectList
 (
 nsISupports
 *
@@ -316,7 +322,7 @@ SetIsDOMBinding
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-nsClientRectList
+DOMRectList
 )
 NS_DECL_NSIDOMCLIENTRECTLIST
 virtual
@@ -352,7 +358,7 @@ mParent
 void
 Append
 (
-nsClientRect
+DOMRect
 *
 aElement
 )
@@ -366,7 +372,7 @@ aElement
 ;
 }
 static
-nsClientRectList
+DOMRectList
 *
 FromSupports
 (
@@ -417,7 +423,7 @@ endif
 return
 static_cast
 <
-nsClientRectList
+DOMRectList
 *
 >
 (
@@ -438,7 +444,7 @@ Length
 )
 ;
 }
-nsClientRect
+DOMRect
 *
 Item
 (
@@ -455,7 +461,7 @@ aIndex
 )
 ;
 }
-nsClientRect
+DOMRect
 *
 IndexedGetter
 (
@@ -497,7 +503,7 @@ protected
 :
 virtual
 ~
-nsClientRectList
+DOMRectList
 (
 )
 {
@@ -506,7 +512,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsClientRect
+DOMRect
 >
 >
 mArray
@@ -519,5 +525,7 @@ mParent
 ;
 }
 ;
+}
+}
 #
 endif

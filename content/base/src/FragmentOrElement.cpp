@@ -393,13 +393,6 @@ h
 #
 include
 "
-nsClientRect
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h

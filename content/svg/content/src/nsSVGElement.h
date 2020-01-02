@@ -66,6 +66,17 @@ mozilla
 /
 dom
 /
+DOMRect
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h

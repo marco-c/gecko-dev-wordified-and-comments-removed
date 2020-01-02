@@ -160,6 +160,17 @@ nsFrameLoader
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+DOMRect
+.
+h
+"
 class
 nsIDocument
 ;
