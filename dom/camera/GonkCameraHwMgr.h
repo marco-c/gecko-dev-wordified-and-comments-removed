@@ -165,6 +165,14 @@ Close
 ;
 virtual
 void
+OnRateLimitPreview
+(
+bool
+aLimit
+)
+;
+virtual
+void
 OnNewFrame
 (
 )

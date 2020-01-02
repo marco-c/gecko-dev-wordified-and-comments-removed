@@ -351,6 +351,11 @@ CheckAudioOffload
 ;
 #
 endif
+void
+ReleaseDecoder
+(
+)
+;
 }
 ;
 }

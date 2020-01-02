@@ -144,6 +144,15 @@ OnShutter
 {
 }
 virtual
+void
+OnRateLimitPreview
+(
+bool
+aLimit
+)
+{
+}
+virtual
 bool
 OnNewPreviewFrame
 (

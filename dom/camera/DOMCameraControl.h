@@ -1385,8 +1385,10 @@ DOMCameraControlListener
 *
 mListener
 ;
+nsRefPtr
+<
 CameraPreviewMediaStream
-*
+>
 mInput
 ;
 nsCOMPtr
