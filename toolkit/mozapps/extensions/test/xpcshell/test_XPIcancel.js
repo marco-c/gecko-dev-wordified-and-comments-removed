@@ -16,8 +16,6 @@ gre
 /
 modules
 /
-addons
-/
 XPIProvider
 .
 jsm

@@ -510,8 +510,6 @@ gre
 /
 modules
 /
-addons
-/
 AddonRepository
 .
 jsm
@@ -602,8 +600,6 @@ gre
 /
 modules
 /
-addons
-/
 XPIProvider
 .
 jsm
@@ -666,8 +662,6 @@ resource
 gre
 /
 modules
-/
-addons
 /
 AddonLogging
 .
@@ -4732,8 +4726,6 @@ resource
 gre
 /
 modules
-/
-addons
 /
 AddonUpdateChecker
 .
