@@ -313,6 +313,9 @@ eGfxLog_textrunui
 eGfxLog_cmapdata
 =
 4
+eGfxLog_textperf
+=
+5
 }
 ;
 const

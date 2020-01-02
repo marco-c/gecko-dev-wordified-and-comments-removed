@@ -98,6 +98,9 @@ class
 gfxASurface
 ;
 class
+gfxTextPerfMetrics
+;
+class
 gfxUserFontSet
 ;
 class
@@ -287,6 +290,9 @@ aLanguage
 gfxUserFontSet
 *
 aUserFontSet
+gfxTextPerfMetrics
+*
+aTextPerf
 nsFontMetrics
 *
 &

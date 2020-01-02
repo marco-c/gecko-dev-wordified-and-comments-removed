@@ -2850,6 +2850,12 @@ pc
 GetUserFontSet
 (
 )
+pc
+-
+>
+GetTextPerfMetrics
+(
+)
 *
 getter_AddRefs
 (

@@ -589,6 +589,13 @@ sCmapDataLog
 =
 nullptr
 ;
+static
+PRLogModuleInfo
+*
+sTextPerfLog
+=
+nullptr
+;
 #
 endif
 class
@@ -1700,7 +1707,6 @@ fontlist
 "
 )
 ;
-;
 sFontInitLog
 =
 PR_NewLogModule
@@ -1709,7 +1715,6 @@ PR_NewLogModule
 fontinit
 "
 )
-;
 ;
 sTextrunLog
 =
@@ -1720,7 +1725,6 @@ textrun
 "
 )
 ;
-;
 sTextrunuiLog
 =
 PR_NewLogModule
@@ -1729,7 +1733,6 @@ PR_NewLogModule
 textrunui
 "
 )
-;
 ;
 sCmapDataLog
 =
@@ -1740,6 +1743,14 @@ cmapdata
 "
 )
 ;
+sTextPerfLog
+=
+PR_NewLogModule
+(
+"
+textperf
+"
+)
 ;
 #
 endif
@@ -8848,6 +8859,14 @@ eGfxLog_cmapdata
 :
 return
 sCmapDataLog
+;
+break
+;
+case
+eGfxLog_textperf
+:
+return
+sTextPerfLog
 ;
 break
 ;

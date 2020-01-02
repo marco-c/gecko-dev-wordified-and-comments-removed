@@ -89,6 +89,9 @@ class
 gfxUserFontSet
 ;
 class
+gfxTextPerfMetrics
+;
+class
 nsDeviceContext
 ;
 class
@@ -134,8 +137,9 @@ aContext
 gfxUserFontSet
 *
 aUserFontSet
-=
-nullptr
+gfxTextPerfMetrics
+*
+aTextPerf
 )
 ;
 void

@@ -838,6 +838,17 @@ GetUserFontSet
 )
 ;
 }
+gfxTextPerfMetrics
+*
+tp
+=
+aPresContext
+-
+>
+GetTextPerfMetrics
+(
+)
+;
 nsRefPtr
 <
 nsFontMetrics
@@ -860,6 +871,7 @@ aStyleFont
 >
 mLanguage
 fs
+tp
 *
 getter_AddRefs
 (
