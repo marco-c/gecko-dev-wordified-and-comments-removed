@@ -2015,9 +2015,9 @@ notifyObservers
 (
 null
 "
-FullZoom
-:
-TESTS
+browser
+-
+fullZoom
 :
 location
 -
