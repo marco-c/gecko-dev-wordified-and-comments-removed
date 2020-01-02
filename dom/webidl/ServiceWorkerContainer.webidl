@@ -329,6 +329,16 @@ clearAllServiceWorkerData
 Throws
 ]
 DOMString
+getScopeForUrl
+(
+DOMString
+url
+)
+;
+[
+Throws
+]
+DOMString
 getControllingWorkerScriptURLForPath
 (
 DOMString
