@@ -10,10 +10,6 @@ ATRACE_TAG
 ATRACE_TAG_GRAPHICS
 #
 define
-LOG_NDEBUG
-0
-#
-define
 GL_GLEXT_PROTOTYPES
 #
 define
@@ -83,76 +79,6 @@ GonkBufferQueueKK
 .
 h
 "
-#
-define
-ST_LOGV
-(
-.
-.
-.
-)
-__android_log_print
-(
-ANDROID_LOG_VERBOSE
-LOG_TAG
-__VA_ARGS__
-)
-#
-define
-ST_LOGD
-(
-.
-.
-.
-)
-__android_log_print
-(
-ANDROID_LOG_DEBUG
-LOG_TAG
-__VA_ARGS__
-)
-#
-define
-ST_LOGI
-(
-.
-.
-.
-)
-__android_log_print
-(
-ANDROID_LOG_INFO
-LOG_TAG
-__VA_ARGS__
-)
-#
-define
-ST_LOGW
-(
-.
-.
-.
-)
-__android_log_print
-(
-ANDROID_LOG_WARN
-LOG_TAG
-__VA_ARGS__
-)
-#
-define
-ST_LOGE
-(
-.
-.
-.
-)
-__android_log_print
-(
-ANDROID_LOG_ERROR
-LOG_TAG
-__VA_ARGS__
-)
 #
 define
 ATRACE_BUFFER_INDEX
@@ -350,7 +276,7 @@ createProcessUniqueId
 )
 )
 ;
-ST_LOGV
+ALOGV
 (
 "
 GonkBufferQueue
@@ -366,7 +292,7 @@ GonkBufferQueue
 (
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 ~
@@ -503,7 +429,7 @@ uint32_t
 hint
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 setTransformHint
@@ -562,7 +488,7 @@ buffer
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 getSlotFromBufferLocked
@@ -633,7 +559,7 @@ mTextureClient
 ;
 }
 }
-ST_LOGE
+ALOGE
 (
 "
 getSlotFromBufferLocked
@@ -674,7 +600,7 @@ client
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 getSlotFromBufferLocked
@@ -723,7 +649,7 @@ i
 ;
 }
 }
-ST_LOGE
+ALOGE
 (
 "
 getSlotFromBufferLocked
@@ -751,7 +677,7 @@ int
 bufferCount
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 setBufferCount
@@ -785,7 +711,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 setBufferCount
@@ -809,7 +735,7 @@ bufferCount
 NUM_BUFFER_SLOTS
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 setBufferCount
@@ -862,7 +788,7 @@ BufferSlot
 DEQUEUED
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 setBufferCount
@@ -918,7 +844,7 @@ bufferCount
 minBufferSlots
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 setBufferCount
@@ -1019,7 +945,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 query
@@ -1147,7 +1073,7 @@ ATRACE_CALL
 (
 )
 ;
-ST_LOGV
+ALOGV
 (
 "
 requestBuffer
@@ -1174,7 +1100,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 requestBuffer
@@ -1204,7 +1130,7 @@ slot
 NUM_BUFFER_SLOTS
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 requestBuffer
@@ -1248,7 +1174,7 @@ BufferSlot
 DEQUEUED
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 requestBuffer
@@ -1336,7 +1262,7 @@ ATRACE_CALL
 (
 )
 ;
-ST_LOGV
+ALOGV
 (
 "
 dequeueBuffer
@@ -1386,7 +1312,7 @@ h
 )
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -1471,7 +1397,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -1512,7 +1438,7 @@ mOverrideMaxBufferCount
 maxBufferCount
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -1650,7 +1576,7 @@ mOverrideMaxBufferCount
 dequeuedCount
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -1709,7 +1635,7 @@ newUndequeuedCount
 minUndequeuedCount
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -1772,7 +1698,7 @@ mMaxAcquiredBufferCount
 )
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -1809,7 +1735,7 @@ found
 INVALID_BUFFER_SLOT
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -2088,7 +2014,7 @@ NULL
 )
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -2263,7 +2189,7 @@ get
 )
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -2296,7 +2222,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 dequeueBuffer
@@ -2331,7 +2257,7 @@ mTextureClient
 =
 textureClient
 ;
-ST_LOGD
+ALOGD
 (
 "
 dequeueBuffer
@@ -2360,7 +2286,7 @@ handle
 ;
 }
 }
-ST_LOGV
+ALOGV
 (
 "
 dequeueBuffer
@@ -2482,7 +2408,7 @@ fence
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 queueBuffer
@@ -2497,7 +2423,7 @@ return
 BAD_VALUE
 ;
 }
-ST_LOGV
+ALOGV
 (
 "
 queueBuffer
@@ -2577,7 +2503,7 @@ break
 ;
 default
 :
-ST_LOGE
+ALOGE
 (
 "
 unknown
@@ -2616,7 +2542,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 queueBuffer
@@ -2657,7 +2583,7 @@ mOverrideMaxBufferCount
 maxBufferCount
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 queueBuffer
@@ -2690,7 +2616,7 @@ buf
 maxBufferCount
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 queueBuffer
@@ -2735,7 +2661,7 @@ BufferSlot
 DEQUEUED
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 queueBuffer
@@ -2784,7 +2710,7 @@ buf
 mRequestBufferCalled
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 queueBuffer
@@ -2809,7 +2735,7 @@ return
 EINVAL
 ;
 }
-ST_LOGV
+ALOGV
 (
 "
 queueBuffer
@@ -2927,7 +2853,7 @@ croppedCrop
 crop
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 queueBuffer
@@ -3253,7 +3179,7 @@ ATRACE_CALL
 (
 )
 ;
-ST_LOGV
+ALOGV
 (
 "
 cancelBuffer
@@ -3280,7 +3206,7 @@ if
 mAbandoned
 )
 {
-ST_LOGW
+ALOGW
 (
 "
 cancelBuffer
@@ -3309,7 +3235,7 @@ buf
 NUM_BUFFER_SLOTS
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 cancelBuffer
@@ -3352,7 +3278,7 @@ BufferSlot
 DEQUEUED
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 cancelBuffer
@@ -3394,7 +3320,7 @@ fence
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 cancelBuffer
@@ -3471,7 +3397,7 @@ ATRACE_CALL
 (
 )
 ;
-ST_LOGV
+ALOGV
 (
 "
 connect
@@ -3513,7 +3439,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 connect
@@ -3538,7 +3464,7 @@ mConsumerListener
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 connect
@@ -3563,7 +3489,7 @@ mConnectedApi
 NO_CONNECTED_API
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 connect
@@ -3612,7 +3538,7 @@ size_t
 maxBufferCount
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 queue
@@ -3829,7 +3755,7 @@ ATRACE_CALL
 (
 )
 ;
-ST_LOGV
+ALOGV
 (
 "
 disconnect
@@ -3918,7 +3844,7 @@ mConsumerListener
 }
 else
 {
-ST_LOGE
+ALOGE
 (
 "
 disconnect
@@ -3952,7 +3878,7 @@ break
 ;
 default
 :
-ST_LOGE
+ALOGE
 (
 "
 disconnect
@@ -4803,7 +4729,7 @@ mMaxAcquiredBufferCount
 1
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 acquireBuffer
@@ -4923,7 +4849,7 @@ desiredPresent
 expectedPresent
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 pts
@@ -4960,7 +4886,7 @@ CLOCK_MONOTONIC
 break
 ;
 }
-ST_LOGV
+ALOGV
 (
 "
 pts
@@ -5050,7 +4976,7 @@ expectedPresent
 MAX_REASONABLE_NSEC
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 pts
@@ -5088,7 +5014,7 @@ return
 PRESENT_LATER
 ;
 }
-ST_LOGV
+ALOGV
 (
 "
 pts
@@ -5179,7 +5105,7 @@ ATRACE_BUFFER_INDEX
 buf
 )
 ;
-ST_LOGV
+ALOGV
 (
 "
 acquireBuffer
@@ -5475,7 +5401,7 @@ buf
 mNeedsCleanupOnRelease
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 releasing
@@ -5514,7 +5440,7 @@ STALE_BUFFER_SLOT
 }
 else
 {
-ST_LOGE
+ALOGE
 (
 "
 attempted
@@ -5571,7 +5497,7 @@ bool
 controlledByApp
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 consumerConnect
@@ -5605,7 +5531,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 consumerConnect
@@ -5630,7 +5556,7 @@ consumerListener
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 consumerConnect
@@ -5667,7 +5593,7 @@ consumerDisconnect
 (
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 consumerDisconnect
@@ -5691,7 +5617,7 @@ mConsumerListener
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 consumerDisconnect
@@ -5748,7 +5674,7 @@ uint32_t
 slotMask
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 getReleasedBuffers
@@ -5769,7 +5695,7 @@ if
 mAbandoned
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 getReleasedBuffers
@@ -5884,7 +5810,7 @@ slotMask
 =
 mask
 ;
-ST_LOGV
+ALOGV
 (
 "
 getReleasedBuffers
@@ -5914,7 +5840,7 @@ uint32_t
 h
 )
 {
-ST_LOGV
+ALOGV
 (
 "
 setDefaultBufferSize
@@ -5942,7 +5868,7 @@ w
 h
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 setDefaultBufferSize
@@ -6050,7 +5976,7 @@ mConsumerListener
 NULL
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 disableAsyncBuffer
@@ -6109,7 +6035,7 @@ maxAcquiredBuffers
 MAX_MAX_ACQUIRED_BUFFERS
 )
 {
-ST_LOGE
+ALOGE
 (
 "
 setMaxAcquiredBufferCount
@@ -6347,7 +6273,7 @@ item
 mBuf
 ]
 ;
-ST_LOGV
+ALOGV
 (
 "
 stillTracking
