@@ -32,7 +32,7 @@ dump
 "
 INFO
 |
-test_crash_oom
+test_crash_purevirtual
 .
 js
 |
