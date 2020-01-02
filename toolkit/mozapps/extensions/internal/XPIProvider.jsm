@@ -17825,6 +17825,9 @@ wantGlobalProperties
 indexedDB
 "
 ]
+addonId
+:
+aId
 metadata
 :
 {
@@ -17923,6 +17926,9 @@ wantGlobalProperties
 indexedDB
 "
 ]
+addonId
+:
+aId
 metadata
 :
 {
