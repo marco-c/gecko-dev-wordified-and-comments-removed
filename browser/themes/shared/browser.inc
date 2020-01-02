@@ -284,3 +284,7 @@ overflowedItem
 true
 ]
 )
+%
+define
+tabToolbarNavbarOverlap
+1px

@@ -2018,7 +2018,7 @@ position
 :
 center
 bottom
-1px
+tabToolbarNavbarOverlap
 ;
 background
 -
@@ -2214,6 +2214,7 @@ position
 :
 left
 bottom
+tabToolbarNavbarOverlap
 ;
 background
 -
@@ -2242,12 +2243,6 @@ display
 moz
 -
 box
-;
-margin
--
-bottom
-:
-1px
 ;
 width
 :
