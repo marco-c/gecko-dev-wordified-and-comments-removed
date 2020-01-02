@@ -180,7 +180,7 @@ isGCEnabled
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -764,7 +764,7 @@ ptr
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 extern
 JS_FRIEND_API
 (
@@ -2553,7 +2553,7 @@ endif
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 extern
 JS_PUBLIC_API
@@ -3245,7 +3245,7 @@ endif
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -3339,7 +3339,7 @@ SkipRoot
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -5060,7 +5060,7 @@ cx
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &

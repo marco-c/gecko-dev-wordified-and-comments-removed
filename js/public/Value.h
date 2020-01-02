@@ -7560,7 +7560,7 @@ asBits
 endif
 #
 ifdef
-DEBUG
+JS_DEBUG
 namespace
 detail
 {

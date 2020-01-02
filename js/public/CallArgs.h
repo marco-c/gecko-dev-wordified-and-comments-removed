@@ -206,7 +206,7 @@ detail
 {
 #
 ifdef
-DEBUG
+JS_DEBUG
 extern
 JS_PUBLIC_API
 (
@@ -318,7 +318,7 @@ UsedRvalBase
 <
 #
 ifdef
-DEBUG
+JS_DEBUG
 WantUsedRval
 #
 else
@@ -456,7 +456,7 @@ const
 {
 #
 ifdef
-DEBUG
+JS_DEBUG
 if
 (
 this

@@ -18,6 +18,15 @@ stdint
 .
 h
 >
+#
+include
+"
+js
+-
+config
+.
+h
+"
 struct
 JSContext
 ;
@@ -37,7 +46,7 @@ JSString
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &

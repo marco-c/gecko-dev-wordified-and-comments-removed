@@ -606,7 +606,7 @@ objp
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 extern
 JS_FRIEND_API
 (
@@ -1810,7 +1810,7 @@ obj
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 JS_FRIEND_API
 (
 void
@@ -3208,7 +3208,7 @@ exnType
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 extern
 JS_FRIEND_API
 (
@@ -6129,7 +6129,7 @@ nullptr
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 extern
 JS_FRIEND_API
 (

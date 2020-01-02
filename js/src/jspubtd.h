@@ -70,7 +70,7 @@ JSGC_USE_EXACT_ROOTING
 |
 defined
 (
-DEBUG
+JS_DEBUG
 )
 #
 define
@@ -1154,7 +1154,7 @@ endif
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -1250,7 +1250,7 @@ endif
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &
@@ -1428,7 +1428,7 @@ field2
 ;
 #
 ifdef
-DEBUG
+JS_DEBUG
 uint64_t
 field3
 ;
@@ -1468,7 +1468,7 @@ endif
 if
 defined
 (
-DEBUG
+JS_DEBUG
 )
 &
 &

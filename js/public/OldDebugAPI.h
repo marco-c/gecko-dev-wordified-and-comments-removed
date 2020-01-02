@@ -137,7 +137,7 @@ showThisProps
 }
 #
 ifdef
-DEBUG
+JS_DEBUG
 JS_FRIEND_API
 (
 void
