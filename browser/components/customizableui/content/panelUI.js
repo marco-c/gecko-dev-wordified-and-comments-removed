@@ -346,8 +346,14 @@ let
 anchor
 =
 aEvent
+?
+aEvent
 .
 target
+:
+this
+.
+menuButton
 ;
 let
 iconAnchor
