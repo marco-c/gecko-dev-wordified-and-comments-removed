@@ -213,6 +213,7 @@ Throws
 readonly
 attribute
 FileList
+?
 files
 ;
 }
