@@ -287,10 +287,6 @@ path
 "
 )
 {
-operation
-=
-operation
-;
 SharedAll
 .
 OSError
