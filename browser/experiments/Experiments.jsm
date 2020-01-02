@@ -7356,6 +7356,14 @@ return
 false
 ;
 }
+install
+.
+addon
+.
+userDisabled
+=
+false
+;
 }
 onInstallEnded
 :
