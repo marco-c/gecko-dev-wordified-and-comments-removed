@@ -495,15 +495,6 @@ false
 \
 macro
 (
-fieldNames
-fieldNames
-"
-fieldNames
-"
-)
-\
-macro
-(
 fieldOffsets
 fieldOffsets
 "
