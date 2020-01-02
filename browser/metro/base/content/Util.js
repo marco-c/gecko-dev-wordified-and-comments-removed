@@ -1,3 +1,17 @@
+let
+Cc
+=
+Components
+.
+classes
+;
+let
+Ci
+=
+Components
+.
+interfaces
+;
 Components
 .
 utils
@@ -1992,3 +2006,9 @@ copy
 ;
 }
 }
+this
+.
+Util
+=
+Util
+;
