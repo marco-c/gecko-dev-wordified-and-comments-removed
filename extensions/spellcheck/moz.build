@@ -110,7 +110,7 @@ hunspell
 src
 '
 ]
-TEST_DIRS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
@@ -118,5 +118,9 @@ TEST_DIRS
 tests
 /
 chrome
+/
+chrome
+.
+ini
 '
 ]

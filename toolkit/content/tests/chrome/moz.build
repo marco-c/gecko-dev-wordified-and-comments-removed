@@ -93,17 +93,6 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-rtltest
-'
-'
-rtlchrome
-'
-]
 MOCHITEST_CHROME_MANIFESTS
 +
 =

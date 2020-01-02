@@ -93,10 +93,15 @@ MPL
 0
 /
 .
-DIRS
+MOCHITEST_MANIFESTS
++
 =
 [
 '
 priority
+/
+mochitest
+.
+ini
 '
 ]
