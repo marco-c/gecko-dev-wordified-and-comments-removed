@@ -889,6 +889,10 @@ browser_CTP_data_urls
 .
 js
 \
+browser_CTP_nonplugins
+.
+js
+\
 browser_CTP_resize
 .
 js
