@@ -2142,9 +2142,6 @@ className
 "
 devtools
 -
-toolbar
-devtools
--
 responsiveui
 -
 toolbar
@@ -2173,6 +2170,8 @@ className
 =
 "
 devtools
+-
+responsiveui
 -
 menulist
 "
@@ -2432,6 +2431,8 @@ className
 "
 devtools
 -
+responsiveui
+-
 toolbarbutton
 devtools
 -
@@ -2515,6 +2516,8 @@ className
 =
 "
 devtools
+-
+responsiveui
 -
 toolbarbutton
 devtools
@@ -2600,6 +2603,8 @@ className
 "
 devtools
 -
+responsiveui
+-
 toolbarbutton
 devtools
 -
@@ -2660,6 +2665,8 @@ className
 =
 "
 devtools
+-
+responsiveui
 -
 toolbarbutton
 devtools
