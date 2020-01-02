@@ -103,15 +103,6 @@ WrapNode
 JSContext
 *
 aCx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScope
 )
 MOZ_OVERRIDE
 ;
