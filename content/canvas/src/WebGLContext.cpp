@@ -5584,14 +5584,10 @@ LOCAL_GL_FRAMEBUFFER
 if
 (
 status
-=
+!
 =
 LOCAL_GL_FRAMEBUFFER_COMPLETE
 )
-return
-;
-else
-return
 ErrorInvalidFramebufferOperation
 (
 "
