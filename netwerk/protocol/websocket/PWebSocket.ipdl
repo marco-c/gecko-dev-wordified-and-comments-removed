@@ -147,10 +147,17 @@ h
 "
 ;
 using
+class
 IPC
 :
 :
 SerializedLoadContext
+from
+"
+SerializedLoadContext
+.
+h
+"
 ;
 namespace
 mozilla

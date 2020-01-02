@@ -81,6 +81,14 @@ hal
 :
 :
 FMRadioSeekDirection
+from
+"
+mozilla
+/
+HalTypes
+.
+h
+"
 ;
 namespace
 mozilla

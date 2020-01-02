@@ -120,7 +120,14 @@ h
 "
 ;
 using
+class
 nsRegion
+from
+"
+nsRegion
+.
+h
+"
 ;
 namespace
 mozilla

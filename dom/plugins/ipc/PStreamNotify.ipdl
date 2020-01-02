@@ -106,6 +106,12 @@ h
 ;
 using
 NPReason
+from
+"
+npapi
+.
+h
+"
 ;
 namespace
 mozilla

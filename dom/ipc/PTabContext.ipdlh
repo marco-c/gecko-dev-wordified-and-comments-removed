@@ -137,6 +137,16 @@ layout
 :
 :
 ScrollingBehavior
+from
+"
+mozilla
+/
+layout
+/
+RenderFrameUtils
+.
+h
+"
 ;
 namespace
 mozilla

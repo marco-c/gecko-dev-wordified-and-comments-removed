@@ -176,6 +176,7 @@ h
 "
 ;
 using
+struct
 mozilla
 :
 :
@@ -183,6 +184,16 @@ layers
 :
 :
 TextureInfo
+from
+"
+mozilla
+/
+layers
+/
+CompositorTypes
+.
+h
+"
 ;
 /
 *

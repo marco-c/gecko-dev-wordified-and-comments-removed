@@ -78,6 +78,7 @@ h
 "
 ;
 using
+struct
 mozilla
 :
 :
@@ -88,6 +89,18 @@ indexedDB
 :
 :
 ObjectStoreInfoGuts
+from
+"
+mozilla
+/
+dom
+/
+indexedDB
+/
+DatabaseInfo
+.
+h
+"
 ;
 namespace
 mozilla
