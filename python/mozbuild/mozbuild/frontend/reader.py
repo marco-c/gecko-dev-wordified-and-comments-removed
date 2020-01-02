@@ -504,20 +504,6 @@ True
 return
 False
 class
-PathWithTrigger
-(
-unicode
-)
-:
-    
-__slots__
-=
-(
-'
-trigger
-'
-)
-class
 SandboxCalledError
 (
 SandboxError
@@ -1710,9 +1696,6 @@ reldir
 external
 =
 False
-trigger
-=
-None
 )
 :
         
@@ -1841,19 +1824,6 @@ s
 %
 path
 )
-            
-path
-=
-PathWithTrigger
-(
-path
-)
-            
-path
-.
-trigger
-=
-trigger
             
 self
 [
