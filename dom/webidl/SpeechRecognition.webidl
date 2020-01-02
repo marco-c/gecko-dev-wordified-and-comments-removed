@@ -230,6 +230,9 @@ Throws
 void
 start
 (
+optional
+MediaStream
+stream
 )
 ;
 void
