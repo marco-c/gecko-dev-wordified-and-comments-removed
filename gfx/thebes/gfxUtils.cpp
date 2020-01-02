@@ -3733,7 +3733,10 @@ height
 0
 &
 &
+ToIntSize
+(
 aSuggestedSize
+)
 !
 =
 aData
@@ -3881,7 +3884,10 @@ if
 prescale
 )
 {
+ToIntSize
+(
 aSuggestedSize
+)
 =
 aData
 .
@@ -4020,7 +4026,10 @@ height
 ;
 if
 (
+ToIntSize
+(
 aDestSize
+)
 !
 =
 aData

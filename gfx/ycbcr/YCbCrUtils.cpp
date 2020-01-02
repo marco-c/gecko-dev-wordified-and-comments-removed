@@ -384,12 +384,9 @@ if
 aDestSize
 !
 =
-ToIntSize
-(
 aData
 .
 mPicSize
-)
 )
 {
 #
