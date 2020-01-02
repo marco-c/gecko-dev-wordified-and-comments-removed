@@ -10615,6 +10615,10 @@ nsIFrame
 aOutAncestor
 =
 nullptr
+bool
+aOffsetByOrigin
+=
+false
 )
 ;
 static
@@ -10705,6 +10709,8 @@ nsIFrame
 *
 *
 aOutAncestor
+bool
+aOffsetByOrigin
 )
 ;
 nsDisplayWrapList
