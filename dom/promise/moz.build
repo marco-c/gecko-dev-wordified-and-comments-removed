@@ -119,6 +119,11 @@ Promise
 .
 h
 '
+'
+PromiseNativeHandler
+.
+h
+'
 ]
 SOURCES
 +
