@@ -831,6 +831,12 @@ findZoneEdges
 (
 )
 {
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 Zone
 *
 mapZone
