@@ -11,6 +11,8 @@ js
 "
 )
 ;
+try
+{
 var
 spew
 =
@@ -21,6 +23,13 @@ ParallelSpew
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 getBuildConfiguration
