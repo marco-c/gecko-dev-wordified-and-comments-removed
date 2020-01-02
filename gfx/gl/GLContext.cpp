@@ -337,6 +337,12 @@ GL_OES_texture_float_linear
 GL_ARB_texture_float
 "
 "
+GL_OES_texture_half_float
+"
+"
+GL_NV_half_float
+"
+"
 GL_EXT_unpack_subimage
 "
 "
