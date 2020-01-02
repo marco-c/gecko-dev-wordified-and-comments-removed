@@ -985,14 +985,6 @@ cpp
 '
 ]
 ]
-if
-CONFIG
-[
-'
-GNU_CC
-'
-]
-:
 SOURCES
 [
 '
@@ -1007,10 +999,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
 #

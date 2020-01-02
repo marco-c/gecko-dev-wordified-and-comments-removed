@@ -666,10 +666,10 @@ f
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
 if

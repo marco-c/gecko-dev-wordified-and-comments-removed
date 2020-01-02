@@ -290,14 +290,6 @@ _USE_SSE2
 ]
 =
 True
-if
-CONFIG
-[
-'
-GNU_CC
-'
-]
-:
 SOURCES
 [
 '
@@ -310,10 +302,10 @@ c
 flags
 +
 =
+CONFIG
 [
 '
--
-msse2
+SSE2_FLAGS
 '
 ]
 #
