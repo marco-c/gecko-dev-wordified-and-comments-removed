@@ -1044,6 +1044,16 @@ bool
 '
 in
 operation
+'
+-
+wd4099
+'
+#
+mismatched
+class
+/
+struct
+tags
 ]
 elif
 CONFIG
