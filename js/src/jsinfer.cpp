@@ -6619,9 +6619,6 @@ types
 :
 UseNewTypeForInitializer
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -6633,16 +6630,6 @@ key
 )
 {
 if
-(
-!
-cx
--
->
-typeInferenceEnabled
-(
-)
-|
-|
 (
 script
 -
@@ -6657,7 +6644,6 @@ script
 -
 >
 treatAsRunOnce
-)
 )
 return
 GenericObject
@@ -6822,9 +6808,6 @@ types
 :
 UseNewTypeForInitializer
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -6840,7 +6823,6 @@ clasp
 return
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 JSCLASS_CACHED_PROTO_KEY

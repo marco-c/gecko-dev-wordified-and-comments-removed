@@ -7918,7 +7918,6 @@ script
 ?
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 &

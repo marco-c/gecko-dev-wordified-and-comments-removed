@@ -26143,7 +26143,6 @@ types
 :
 UseNewTypeForInitializer
 (
-cx
 script
 (
 )
@@ -26403,7 +26402,6 @@ types
 :
 UseNewTypeForInitializer
 (
-cx
 script
 (
 )

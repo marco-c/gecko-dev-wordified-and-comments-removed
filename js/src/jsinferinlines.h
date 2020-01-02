@@ -3477,9 +3477,6 @@ js
 NewObjectKind
 UseNewTypeForInitializer
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -3496,9 +3493,6 @@ js
 NewObjectKind
 UseNewTypeForInitializer
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -3537,7 +3531,6 @@ JS_ASSERT
 !
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 kind
@@ -3752,7 +3745,6 @@ kind
 =
 UseNewTypeForInitializer
 (
-cx
 script
 pc
 key
