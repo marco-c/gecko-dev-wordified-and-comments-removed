@@ -557,6 +557,10 @@ mIsCompositorReady
 (
 false
 )
+mDebugOverlayWantsNextFrame
+(
+false
+)
 {
 MOZ_ASSERT
 (
