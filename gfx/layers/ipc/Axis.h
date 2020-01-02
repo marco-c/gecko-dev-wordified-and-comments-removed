@@ -181,7 +181,7 @@ aDisplacement
 Overscroll
 ScaleWillOverscroll
 (
-ScreenToScreenScale
+float
 aScale
 float
 aFocus
@@ -190,7 +190,7 @@ aFocus
 float
 ScaleWillOverscrollAmount
 (
-ScreenToScreenScale
+float
 aScale
 float
 aFocus
@@ -199,7 +199,7 @@ aFocus
 bool
 ScaleWillOverscrollBothSides
 (
-ScreenToScreenScale
+float
 aScale
 )
 ;

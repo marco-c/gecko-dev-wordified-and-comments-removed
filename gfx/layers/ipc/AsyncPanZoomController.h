@@ -499,15 +499,10 @@ aOffset
 void
 ScaleWithFocus
 (
-const
-mozilla
-:
-:
-CSSToScreenScale
-&
+float
 aScale
 const
-ScreenPoint
+CSSPoint
 &
 aFocus
 )
