@@ -2223,6 +2223,7 @@ Filter
 :
 :
 POINT
+true
 )
 ;
 unsigned

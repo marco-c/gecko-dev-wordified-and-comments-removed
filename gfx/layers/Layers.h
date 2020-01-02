@@ -5474,7 +5474,7 @@ false
 )
 mIsGLAlphaPremult
 (
-false
+true
 )
 {
 }

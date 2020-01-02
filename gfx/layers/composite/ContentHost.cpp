@@ -337,6 +337,7 @@ CreateTexturedEffect
 source
 sourceOnWhite
 aFilter
+true
 )
 ;
 if
