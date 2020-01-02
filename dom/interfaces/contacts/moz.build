@@ -98,16 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIContactProperties
-.
-idl
-'
-'
-nsIDOMContactManager
-.
-idl
-'
-'
 nsIDOMMozContactChangeEvent
 .
 idl
