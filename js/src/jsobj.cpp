@@ -15534,6 +15534,7 @@ DECLARE_PROTOTYPE_CLASS_INIT
 name
 code
 init
+clasp
 )
 \
 extern
@@ -15575,6 +15576,7 @@ LAZY_PROTOTYPE_INIT
 name
 code
 init
+clasp
 )
 init
 JS_FOR_EACH_PROTOTYPE
@@ -28362,6 +28364,7 @@ TEST_SLOT_MATCHES_PROTOTYPE
 name
 code
 init
+clasp
 )
 \
 if

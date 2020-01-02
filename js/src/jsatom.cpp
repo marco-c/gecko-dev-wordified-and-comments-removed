@@ -207,6 +207,7 @@ DEFINE_PROTO_STRING
 name
 code
 init
+clasp
 )
 const
 char
@@ -850,6 +851,7 @@ COMMON_NAME_INFO
 name
 code
 init
+clasp
 )
 {
 js_
