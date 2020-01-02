@@ -9179,7 +9179,7 @@ regexp
 {
 REPORT_UNEXPECTED_TOKEN
 (
-PEMozDocRuleBadFunc
+PEMozDocRuleBadFunc2
 )
 ;
 UngetToken
