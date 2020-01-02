@@ -276,7 +276,10 @@ struct
 JSStructuredCloneWriter
 ;
 class
+JS_PUBLIC_API
+(
 JSTracer
+)
 ;
 class
 JSFlatString
