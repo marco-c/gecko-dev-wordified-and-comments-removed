@@ -7923,6 +7923,13 @@ TypedMem
 object
 )
 ;
+if
+(
+!
+mem
+)
+return
+;
 switch
 (
 repr
