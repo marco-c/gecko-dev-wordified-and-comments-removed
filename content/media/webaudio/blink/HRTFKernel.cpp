@@ -68,7 +68,7 @@ ExtractAverageGroupDelay
 ;
 estimationFrame
 .
-PerformInverseFFT
+GetInverse
 (
 impulseP
 )
@@ -204,7 +204,7 @@ fftSize
 m_fftFrame
 -
 >
-PerformPaddedFFT
+PadAndMakeScaledDFT
 (
 impulseResponse
 length
