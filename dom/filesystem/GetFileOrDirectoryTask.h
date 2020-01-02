@@ -78,6 +78,17 @@ GetPromise
 (
 )
 ;
+virtual
+void
+GetPermissionAccessType
+(
+nsCString
+&
+aAccess
+)
+const
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
