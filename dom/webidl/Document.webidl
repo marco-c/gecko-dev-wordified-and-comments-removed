@@ -438,6 +438,14 @@ DOMString
 classNames
 )
 ;
+Element
+?
+getElementById
+(
+DOMString
+elementId
+)
+;
 [
 NewObject
 Throws

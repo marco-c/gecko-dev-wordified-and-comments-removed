@@ -387,6 +387,17 @@ SVGMatrix
 matrix
 )
 ;
+[
+Throws
+]
+Element
+?
+getElementById
+(
+DOMString
+elementId
+)
+;
 }
 ;
 /
