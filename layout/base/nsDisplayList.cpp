@@ -6463,10 +6463,6 @@ aListVisibleBounds
 ;
 #
 endif
-mVisibleRect
-=
-aListVisibleBounds
-;
 bool
 anyVisible
 =
@@ -6608,7 +6604,7 @@ aVisibleRegion
 >
 Intersects
 (
-mVisibleRect
+aListVisibleBounds
 )
 ;
 return

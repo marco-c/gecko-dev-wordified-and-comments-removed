@@ -4386,16 +4386,6 @@ mForceTransparentSurface
 true
 ;
 }
-nsRect
-GetVisibleRect
-(
-)
-const
-{
-return
-mVisibleRect
-;
-}
 private
 :
 void
@@ -4414,9 +4404,6 @@ mSentinel
 nsDisplayItemLink
 *
 mTop
-;
-nsRect
-mVisibleRect
 ;
 bool
 mIsOpaque
