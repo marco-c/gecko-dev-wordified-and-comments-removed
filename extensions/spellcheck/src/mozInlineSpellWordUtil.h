@@ -1,10 +1,4 @@
 #
-ifndef
-mozInlineSpellWordUtil_h
-#
-define
-mozInlineSpellWordUtil_h
-#
 include
 "
 nsCOMPtr
@@ -436,5 +430,3 @@ aRange
 ;
 }
 ;
-#
-endif
