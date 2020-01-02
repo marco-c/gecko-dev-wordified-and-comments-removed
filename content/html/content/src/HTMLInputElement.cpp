@@ -7496,7 +7496,7 @@ MayFireChangeOnBlur
 nsAutoString
 currentValue
 ;
-GetValueInternal
+GetValue
 (
 currentValue
 )
@@ -7551,7 +7551,7 @@ currentValue
 )
 )
 {
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
@@ -10928,10 +10928,10 @@ FireChangeEventIfNeeded
 (
 )
 {
-nsString
+nsAutoString
 value
 ;
-GetValueInternal
+GetValue
 (
 value
 )
@@ -14408,7 +14408,7 @@ GetPrimaryFrame
 )
 )
 ;
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
@@ -15272,7 +15272,7 @@ MayFireChangeOnBlur
 mIsDraggingRange
 )
 {
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
@@ -18429,7 +18429,7 @@ oldType
 )
 )
 {
-GetValueInternal
+GetValue
 (
 mFocusedValue
 )
