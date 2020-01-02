@@ -1322,7 +1322,7 @@ GuardThreadExclusive
 )
 SAFE_OP
 (
-CheckInterruptPar
+InterruptCheckPar
 )
 SAFE_OP
 (
@@ -3158,7 +3158,7 @@ return
 replace
 (
 ins
-MCheckInterruptPar
+MInterruptCheckPar
 :
 :
 New

@@ -82,7 +82,7 @@ cx
 )
 ;
 bool
-CheckInterruptPar
+InterruptCheckPar
 (
 ForkJoinContext
 *

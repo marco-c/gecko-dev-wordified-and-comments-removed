@@ -13500,14 +13500,14 @@ bool
 LIRGenerator
 :
 :
-visitCheckInterruptPar
+visitInterruptCheckPar
 (
-MCheckInterruptPar
+MInterruptCheckPar
 *
 ins
 )
 {
-LCheckInterruptPar
+LInterruptCheckPar
 *
 lir
 =
@@ -13517,7 +13517,7 @@ alloc
 (
 )
 )
-LCheckInterruptPar
+LInterruptCheckPar
 (
 useRegister
 (

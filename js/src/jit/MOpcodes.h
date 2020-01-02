@@ -1029,7 +1029,7 @@ GuardThreadExclusive
 \
 _
 (
-CheckInterruptPar
+InterruptCheckPar
 )
 \
 _

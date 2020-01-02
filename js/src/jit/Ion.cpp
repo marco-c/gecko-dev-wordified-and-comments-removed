@@ -1952,6 +1952,12 @@ JSRuntime
 :
 TriggerCallbackAnyThreadDontStopIon
 :
+case
+JSRuntime
+:
+:
+TriggerCallbackAnyThreadForkJoin
+:
 break
 ;
 default

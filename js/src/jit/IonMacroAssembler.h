@@ -4260,7 +4260,7 @@ fail
 )
 ;
 void
-checkInterruptFlagsPar
+checkInterruptFlagPar
 (
 const
 Register

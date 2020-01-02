@@ -1398,7 +1398,7 @@ AsmJSCheckOverRecursed
 \
 _
 (
-CheckInterruptPar
+InterruptCheckPar
 )
 \
 _
