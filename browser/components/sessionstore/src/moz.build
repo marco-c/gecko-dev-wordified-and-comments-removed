@@ -134,11 +134,6 @@ DocShellCapabilities
 jsm
 '
 '
-FormData
-.
-jsm
-'
-'
 FrameTree
 .
 jsm
@@ -165,11 +160,6 @@ jsm
 '
 '
 RecentlyClosedTabsAndWindowsMenuUtils
-.
-jsm
-'
-'
-ScrollPosition
 .
 jsm
 '
@@ -220,11 +210,6 @@ jsm
 '
 '
 Utils
-.
-jsm
-'
-'
-XPathGenerator
 .
 jsm
 '
