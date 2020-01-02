@@ -979,7 +979,7 @@ samplingFreqHz
 &
 &
 (
-44000
+44100
 !
 =
 samplingFreqHz
@@ -1579,7 +1579,7 @@ samplingFreqHz
 &
 &
 (
-44000
+44100
 !
 =
 samplingFreqHz

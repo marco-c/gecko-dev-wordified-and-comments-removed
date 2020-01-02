@@ -8283,6 +8283,12 @@ true
 )
 ;
 }
+vie_receiver_
+.
+StartRTCPReceive
+(
+)
+;
 return
 0
 ;
@@ -8520,6 +8526,12 @@ false
 )
 ;
 }
+vie_receiver_
+.
+StopRTCPReceive
+(
+)
+;
 return
 0
 ;

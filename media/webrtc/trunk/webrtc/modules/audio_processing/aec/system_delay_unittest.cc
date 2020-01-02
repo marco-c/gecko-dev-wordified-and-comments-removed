@@ -498,7 +498,7 @@ if
 self_
 -
 >
-ECstartup
+startup_phase
 =
 =
 0
@@ -789,7 +789,7 @@ if
 self_
 -
 >
-ECstartup
+startup_phase
 =
 =
 0
@@ -980,7 +980,7 @@ if
 self_
 -
 >
-ECstartup
+startup_phase
 =
 =
 0

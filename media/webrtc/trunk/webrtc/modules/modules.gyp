@@ -1259,6 +1259,13 @@ cc
 '
 audio_processing
 /
+echo_cancellation_impl_unittest
+.
+cc
+'
+'
+audio_processing
+/
 test
 /
 audio_processing_unittest

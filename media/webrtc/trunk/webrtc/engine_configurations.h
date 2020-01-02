@@ -35,8 +35,13 @@ endif
 define
 WEBRTC_CODEC_AVT
 #
+ifndef
+WEBRTC_CODEC_PCM16
+#
 define
 WEBRTC_CODEC_PCM16
+#
+endif
 #
 if
 !
