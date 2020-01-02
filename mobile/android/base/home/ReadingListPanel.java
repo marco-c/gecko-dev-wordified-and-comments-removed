@@ -1051,11 +1051,11 @@ cursor
 )
 {
 final
-TwoLinePageRow
+ReadingListRow
 row
 =
 (
-TwoLinePageRow
+ReadingListRow
 )
 view
 ;
@@ -1098,7 +1098,7 @@ R
 .
 layout
 .
-bookmark_item_row
+reading_list_item_row
 parent
 false
 )

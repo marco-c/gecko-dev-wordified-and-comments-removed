@@ -186,7 +186,7 @@ Tabs
 .
 OnTabsChangedListener
 {
-private
+protected
 static
 final
 int
@@ -536,7 +536,7 @@ text
 )
 ;
 }
-private
+protected
 void
 setUrl
 (
@@ -552,7 +552,7 @@ text
 )
 ;
 }
-private
+protected
 void
 setUrl
 (
@@ -568,7 +568,17 @@ stringId
 )
 ;
 }
-private
+protected
+String
+getUrl
+(
+)
+{
+return
+mPageUrl
+;
+}
+protected
 void
 setSwitchToTabIcon
 (
@@ -653,7 +663,7 @@ updateDisplayedUrl
 )
 ;
 }
-private
+protected
 void
 updateDisplayedUrl
 (
