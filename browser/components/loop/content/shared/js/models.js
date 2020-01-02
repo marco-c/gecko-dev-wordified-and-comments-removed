@@ -212,6 +212,9 @@ get
 loopToken
 "
 )
+options
+.
+callType
 handleResult
 .
 bind

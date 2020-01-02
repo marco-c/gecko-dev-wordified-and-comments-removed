@@ -344,6 +344,7 @@ requestCallInfo
 function
 (
 loopToken
+callType
 cb
 )
 {
@@ -405,6 +406,18 @@ dataType
 "
 json
 "
+data
+:
+JSON
+.
+stringify
+(
+{
+callType
+:
+callType
+}
+)
 }
 )
 ;

@@ -382,6 +382,13 @@ baseServerUrl
 outgoing
 :
 true
+callType
+:
+"
+audio
+-
+video
+"
 }
 )
 ;
