@@ -101,6 +101,16 @@ DIRS
 locales
 '
 ]
+SPHINX_TREES
+[
+'
+fennec
+'
+]
+=
+'
+docs
+'
 include
 (
 '
