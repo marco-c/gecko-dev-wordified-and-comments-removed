@@ -3085,8 +3085,6 @@ evt
 target
 .
 defaultView
-.
-wrappedJSObject
 ;
 this
 .
