@@ -8098,13 +8098,6 @@ xml
 ref
 .
 xml
-asserts
--
-if
-(
-gtk2Widget
-1
-)
 =
 =
 355548
@@ -8119,9 +8112,6 @@ xml
 ref
 .
 xml
-#
-bug
-456899
 =
 =
 355548
