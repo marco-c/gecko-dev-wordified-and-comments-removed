@@ -304,6 +304,7 @@ provided
 readonly
 attribute
 DOMString
+?
 returnNumber
 ;
 /
@@ -334,6 +335,7 @@ provided
 readonly
 attribute
 DOMString
+?
 returnMessage
 ;
 }
