@@ -228,7 +228,6 @@ Android
 then
 MOZ_NUWA_PROCESS
 =
-1
 fi
 MOZ_FOLD_LIBS
 =
