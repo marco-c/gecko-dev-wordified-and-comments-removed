@@ -111,6 +111,18 @@ strings
 <
 !
 ENTITY
+formatI
+"
+&
+#
+037
+;
+I
+"
+>
+<
+!
+ENTITY
 formatS
 "
 &
@@ -3675,7 +3687,7 @@ home_reading_list_hint
 "
 >
 &
-home_reading_list_hint
+home_reading_list_hint2
 ;
 <
 /
