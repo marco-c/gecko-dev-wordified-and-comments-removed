@@ -2011,7 +2011,7 @@ setVisibleToUser
 (
 host
 .
-isFocused
+isShown
 (
 )
 )
