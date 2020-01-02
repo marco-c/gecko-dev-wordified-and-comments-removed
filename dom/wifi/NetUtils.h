@@ -200,7 +200,7 @@ name
 )
 {
 \
-MOZ_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Symbol

@@ -3067,7 +3067,7 @@ index
 }
 else
 {
-MOZ_ASSERT
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
