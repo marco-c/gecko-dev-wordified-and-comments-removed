@@ -1190,7 +1190,7 @@ picture
 -
 size
 -
-failred
+failed
 "
 "
 set
