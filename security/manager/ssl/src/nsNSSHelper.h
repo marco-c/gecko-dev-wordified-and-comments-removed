@@ -39,6 +39,8 @@ PipUIContext
 (
 )
 ;
+protected
+:
 virtual
 ~
 PipUIContext

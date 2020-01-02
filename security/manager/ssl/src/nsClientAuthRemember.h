@@ -317,11 +317,6 @@ nsClientAuthRememberService
 (
 )
 ;
-~
-nsClientAuthRememberService
-(
-)
-;
 nsresult
 Init
 (
@@ -390,6 +385,11 @@ ClearAllRememberedDecisions
 ;
 protected
 :
+~
+nsClientAuthRememberService
+(
+)
+;
 mozilla
 :
 :

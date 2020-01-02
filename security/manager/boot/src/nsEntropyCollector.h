@@ -71,12 +71,6 @@ nsEntropyCollector
 (
 )
 ;
-virtual
-~
-nsEntropyCollector
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIENTROPYCOLLECTOR
 NS_DECL_NSIBUFENTROPYCOLLECTOR
@@ -89,6 +83,12 @@ entropy_buffer_size
 ;
 protected
 :
+virtual
+~
+nsEntropyCollector
+(
+)
+;
 unsigned
 char
 mEntropyCache

@@ -132,12 +132,6 @@ uint32_t
 type
 )
 ;
-virtual
-~
-PSMContentDownloader
-(
-)
-;
 void
 setSilentDownload
 (
@@ -185,6 +179,12 @@ X509_SERVER_CERT
 ;
 protected
 :
+virtual
+~
+PSMContentDownloader
+(
+)
+;
 char
 *
 mByteData

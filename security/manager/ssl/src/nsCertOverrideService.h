@@ -432,11 +432,6 @@ nsCertOverrideService
 (
 )
 ;
-~
-nsCertOverrideService
-(
-)
-;
 nsresult
 Init
 (
@@ -493,6 +488,11 @@ _retval
 ;
 protected
 :
+~
+nsCertOverrideService
+(
+)
+;
 mozilla
 :
 :

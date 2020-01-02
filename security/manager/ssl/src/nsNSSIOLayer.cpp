@@ -5392,6 +5392,8 @@ aOwner
 )
 {
 }
+protected
+:
 virtual
 ~
 PrefObserver

@@ -87,12 +87,6 @@ nsProtectedAuthThread
 (
 )
 ;
-virtual
-~
-nsProtectedAuthThread
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIPROTECTEDAUTHTHREAD
 void
@@ -118,6 +112,14 @@ void
 Run
 (
 void
+)
+;
+protected
+:
+virtual
+~
+nsProtectedAuthThread
+(
 )
 ;
 }

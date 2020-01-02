@@ -44,6 +44,8 @@ nsSSLSocketProvider
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsSSLSocketProvider

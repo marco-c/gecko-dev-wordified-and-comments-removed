@@ -105,14 +105,14 @@ nsNSSASN1Tree
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsNSSASN1Tree
 (
 )
 ;
-protected
-:
 class
 myNode
 {

@@ -79,6 +79,8 @@ PK11SlotInfo
 slot
 )
 ;
+protected
+:
 virtual
 ~
 nsPK11Token
@@ -148,6 +150,8 @@ nsPK11TokenDB
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsPK11TokenDB

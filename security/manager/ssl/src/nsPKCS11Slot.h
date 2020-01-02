@@ -79,6 +79,8 @@ PK11SlotInfo
 slot
 )
 ;
+protected
+:
 virtual
 ~
 nsPKCS11Slot
@@ -137,6 +139,8 @@ SECMODModule
 module
 )
 ;
+protected
+:
 virtual
 ~
 nsPKCS11Module
@@ -179,6 +183,8 @@ nsPKCS11ModuleDB
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsPKCS11ModuleDB

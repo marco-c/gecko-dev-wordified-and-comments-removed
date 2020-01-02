@@ -119,12 +119,6 @@ nsNSSDialogs
 (
 )
 ;
-virtual
-~
-nsNSSDialogs
-(
-)
-;
 nsresult
 Init
 (
@@ -132,6 +126,12 @@ Init
 ;
 protected
 :
+virtual
+~
+nsNSSDialogs
+(
+)
+;
 nsCOMPtr
 <
 nsIStringBundle

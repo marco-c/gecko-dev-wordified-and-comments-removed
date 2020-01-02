@@ -200,12 +200,6 @@ nsSecureBrowserUIImpl
 (
 )
 ;
-virtual
-~
-nsSecureBrowserUIImpl
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSISECUREBROWSERUI
@@ -244,6 +238,12 @@ NS_OK
 }
 protected
 :
+virtual
+~
+nsSecureBrowserUIImpl
+(
+)
+;
 mozilla
 :
 :

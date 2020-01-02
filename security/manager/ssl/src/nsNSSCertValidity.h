@@ -39,6 +39,8 @@ CERTCertificate
 cert
 )
 ;
+protected
+:
 virtual
 ~
 nsX509CertValidity

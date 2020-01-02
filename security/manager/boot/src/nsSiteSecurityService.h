@@ -298,6 +298,8 @@ Init
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsSiteSecurityService

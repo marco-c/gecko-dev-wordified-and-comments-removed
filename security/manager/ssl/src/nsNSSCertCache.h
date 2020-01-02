@@ -64,6 +64,8 @@ nsNSSCertCache
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsNSSCertCache

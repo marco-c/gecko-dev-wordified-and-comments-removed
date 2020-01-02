@@ -77,12 +77,6 @@ PSMContentListener
 (
 )
 ;
-virtual
-~
-PSMContentListener
-(
-)
-;
 nsresult
 init
 (
@@ -90,6 +84,14 @@ init
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURICONTENTLISTENER
+protected
+:
+virtual
+~
+PSMContentListener
+(
+)
+;
 private
 :
 nsCOMPtr

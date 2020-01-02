@@ -46,12 +46,6 @@ nsSecurityWarningDialogs
 (
 )
 ;
-virtual
-~
-nsSecurityWarningDialogs
-(
-)
-;
 nsresult
 Init
 (
@@ -59,6 +53,12 @@ Init
 ;
 protected
 :
+virtual
+~
+nsSecurityWarningDialogs
+(
+)
+;
 nsresult
 AlertDialog
 (

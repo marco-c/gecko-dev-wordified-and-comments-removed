@@ -62,6 +62,8 @@ nsTLSSocketProvider
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsTLSSocketProvider

@@ -68,6 +68,8 @@ nsNSSASN1Sequence
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsNSSASN1Sequence
@@ -117,6 +119,8 @@ nsNSSASN1PrintableItem
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsNSSASN1PrintableItem

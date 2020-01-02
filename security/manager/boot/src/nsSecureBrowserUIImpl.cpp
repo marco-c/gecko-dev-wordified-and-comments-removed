@@ -5810,6 +5810,8 @@ nsIDOMWindow
 window
 )
 ;
+protected
+:
 virtual
 ~
 nsUIContext

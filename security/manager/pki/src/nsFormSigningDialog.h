@@ -47,13 +47,15 @@ MOZ_FINAL
 public
 nsIFormSigningDialog
 {
-public
+private
 :
+~
 nsFormSigningDialog
 (
 )
 ;
-~
+public
+:
 nsFormSigningDialog
 (
 )

@@ -78,12 +78,6 @@ nsNSSCertificateDB
 (
 )
 ;
-virtual
-~
-nsNSSCertificateDB
-(
-)
-;
 static
 void
 get_default_nickname
@@ -119,6 +113,14 @@ const
 nsNSSShutDownPreventionLock
 &
 proofOfLock
+)
+;
+protected
+:
+virtual
+~
+nsNSSCertificateDB
+(
 )
 ;
 private

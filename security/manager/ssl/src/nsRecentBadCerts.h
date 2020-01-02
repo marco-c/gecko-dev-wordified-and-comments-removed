@@ -196,13 +196,13 @@ nsRecentBadCerts
 (
 )
 ;
+protected
+:
 ~
 nsRecentBadCerts
 (
 )
 ;
-protected
-:
 mozilla
 :
 :
