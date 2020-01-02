@@ -57,7 +57,7 @@ static
 long
 ELAPSED_REALTIME_OF_LAST_FAILED_AGE_CHECK
 =
-0
+0L
 ;
 public
 static
@@ -69,6 +69,18 @@ long
 elapsedRealtime
 )
 {
+if
+(
+ELAPSED_REALTIME_OF_LAST_FAILED_AGE_CHECK
+=
+=
+0L
+)
+{
+return
+false
+;
+}
 long
 millsecondsSinceLastFailedAgeCheck
 =
