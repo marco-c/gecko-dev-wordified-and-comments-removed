@@ -10231,6 +10231,18 @@ pref
 "
 devtools
 .
+webconsole
+.
+persistlog
+"
+false
+)
+;
+pref
+(
+"
+devtools
+.
 hud
 .
 loglimit
@@ -10424,7 +10436,7 @@ newtab
 .
 preload
 "
-false
+true
 )
 ;
 pref

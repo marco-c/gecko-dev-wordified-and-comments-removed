@@ -913,6 +913,10 @@ timespans
 .
 js
 \
+browser_tabopen_reflows
+.
+js
+\
 browser_clearplugindata
 .
 js
