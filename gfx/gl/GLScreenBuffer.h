@@ -106,8 +106,7 @@ SurfaceCaps
 public
 :
 static
-DrawBuffer
-*
+bool
 Create
 (
 GLContext
@@ -129,6 +128,10 @@ gfx
 IntSize
 &
 size
+DrawBuffer
+*
+*
+out_buffer
 )
 ;
 protected
@@ -874,7 +877,7 @@ dest
 ;
 protected
 :
-void
+bool
 Attach
 (
 SharedSurface
@@ -889,8 +892,7 @@ IntSize
 size
 )
 ;
-DrawBuffer
-*
+bool
 CreateDraw
 (
 const
@@ -900,6 +902,10 @@ gfx
 IntSize
 &
 size
+DrawBuffer
+*
+*
+out_buffer
 )
 ;
 ReadBuffer
