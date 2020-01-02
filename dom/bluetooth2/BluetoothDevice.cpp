@@ -338,10 +338,6 @@ DOMEventTargetHelper
 (
 aWindow
 )
-mPaired
-(
-false
-)
 {
 MOZ_ASSERT
 (
