@@ -4,10 +4,6 @@ Window
 )
 DOMCI_CLASS
 (
-Location
-)
-DOMCI_CLASS
-(
 DOMPrototype
 )
 DOMCI_CLASS
