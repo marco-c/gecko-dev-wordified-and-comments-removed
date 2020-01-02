@@ -8,9 +8,14 @@ MOZPNGCONF_H
 define
 PNGLCONF_H
 #
+ifndef
+MOZ_PNG_MAX_DIMENSION
+#
 define
 MOZ_PNG_MAX_DIMENSION
 32767
+#
+endif
 #
 define
 PNG_API_RULE
