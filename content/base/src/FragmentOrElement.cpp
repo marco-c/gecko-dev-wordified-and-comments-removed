@@ -4827,6 +4827,9 @@ nsAString
 aTextContent
 )
 {
+if
+(
+!
 nsContentUtils
 :
 :
@@ -4835,6 +4838,13 @@ GetNodeTextContent
 this
 true
 aTextContent
+)
+)
+NS_RUNTIMEABORT
+(
+"
+OOM
+"
 )
 ;
 }

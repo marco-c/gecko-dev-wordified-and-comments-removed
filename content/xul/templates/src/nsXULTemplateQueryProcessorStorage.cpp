@@ -1173,6 +1173,9 @@ aQueryNode
 nsAutoString
 sqlQuery
 ;
+if
+(
+!
 nsContentUtils
 :
 :
@@ -1182,7 +1185,12 @@ queryContent
 false
 sqlQuery
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 nsresult
 rv
 =
@@ -1274,6 +1282,9 @@ kNameSpaceID_XUL
 nsAutoString
 value
 ;
+if
+(
+!
 nsContentUtils
 :
 :
@@ -1283,7 +1294,12 @@ child
 false
 value
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 uint32_t
 index
 =
