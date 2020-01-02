@@ -294,6 +294,11 @@ nsWindow
 aCaller
 )
 ;
+void
+OnUpdateComposition
+(
+)
+;
 static
 bool
 IsVirtualKeyboardOpened
@@ -337,6 +342,9 @@ mSelectedString
 GdkEventKey
 *
 mProcessingKeyEvent
+;
+uint32_t
+mCompositionTargetOffset
 ;
 enum
 eCompositionState
