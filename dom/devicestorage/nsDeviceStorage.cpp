@@ -14629,7 +14629,15 @@ volNames
 0
 ]
 ;
+return
+;
 }
+aStorageName
+.
+Truncate
+(
+)
+;
 }
 bool
 nsDOMDeviceStorage
