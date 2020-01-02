@@ -341,9 +341,6 @@ xbl
 '
 xslt
 '
-'
-resourcestats
-'
 ]
 if
 CONFIG

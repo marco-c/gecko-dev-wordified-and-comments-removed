@@ -1540,16 +1540,6 @@ Rect
 webidl
 '
 '
-ResourceStats
-.
-webidl
-'
-'
-ResourceStatsManager
-.
-webidl
-'
-'
 RGBColor
 .
 webidl
