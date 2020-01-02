@@ -447,6 +447,11 @@ PCrashReporter
 ipdl
 '
 '
+PCycleCollectWithLogs
+.
+ipdl
+'
+'
 PDocumentRenderer
 .
 ipdl
