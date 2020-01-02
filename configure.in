@@ -78705,6 +78705,12 @@ nsprpub
 and
 restore
 them
+unset
+CFLAGS
+unset
+CPPFLAGS
+unset
+LDFLAGS
 CFLAGS
 =
 "
