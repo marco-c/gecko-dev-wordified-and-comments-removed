@@ -24143,7 +24143,7 @@ sourceData
 cx
 )
 :
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >
@@ -26461,7 +26461,7 @@ names
 empty
 ;
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -26557,7 +26557,7 @@ nullptr
 ;
 str
 =
-js_NewString
+NewString
 <
 CanGC
 >
@@ -26848,7 +26848,7 @@ cx
 )
 ;
 return
-js_NewString
+NewString
 <
 CanGC
 >
@@ -26903,7 +26903,7 @@ names
 empty
 ;
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -26957,7 +26957,7 @@ runtime
 emptyString
 ;
 return
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >
@@ -27737,7 +27737,7 @@ cx
 )
 ;
 return
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -29815,7 +29815,7 @@ RootedLinearString
 input
 (
 cx
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -30029,7 +30029,7 @@ RootedLinearString
 input
 (
 cx
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >

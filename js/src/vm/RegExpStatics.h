@@ -956,7 +956,7 @@ JSString
 *
 str
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 matchesInput

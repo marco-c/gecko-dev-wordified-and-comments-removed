@@ -775,7 +775,7 @@ get
 length
 )
 :
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >

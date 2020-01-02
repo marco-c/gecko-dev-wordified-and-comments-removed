@@ -365,7 +365,7 @@ JSFlatString
 *
 str
 =
-js_NewString
+NewString
 <
 CanGC
 >

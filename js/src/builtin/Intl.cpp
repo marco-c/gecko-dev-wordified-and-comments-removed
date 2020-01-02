@@ -6917,7 +6917,7 @@ JSString
 *
 str
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -9609,7 +9609,7 @@ JSString
 *
 str
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >

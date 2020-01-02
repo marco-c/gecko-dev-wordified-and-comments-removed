@@ -3514,7 +3514,6 @@ cx
 )
 ;
 }
-}
 template
 <
 js
@@ -3526,7 +3525,7 @@ allowGC
 inline
 JSString
 *
-js_NewGCString
+NewGCString
 (
 js
 :
@@ -3564,7 +3563,7 @@ allowGC
 inline
 JSFatInlineString
 *
-js_NewGCFatInlineString
+NewGCFatInlineString
 (
 js
 :
@@ -3594,7 +3593,7 @@ cx
 inline
 JSExternalString
 *
-js_NewGCExternalString
+NewGCExternalString
 (
 js
 :
@@ -3623,6 +3622,7 @@ CanGC
 cx
 )
 ;
+}
 }
 inline
 JSScript

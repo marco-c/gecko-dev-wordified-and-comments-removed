@@ -1163,7 +1163,7 @@ JSString
 *
 res
 =
-js_NewString
+NewString
 <
 CanGC
 >
@@ -2072,7 +2072,7 @@ JSString
 *
 str1
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -3116,7 +3116,7 @@ leftChild
 )
 ;
 return
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -3168,7 +3168,7 @@ length
 )
 ;
 return
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -3262,7 +3262,7 @@ RootedString
 lhs
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 ropeRoot
@@ -3288,7 +3288,7 @@ RootedString
 rhs
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 ropeRoot
@@ -3327,7 +3327,7 @@ len
 ;
 }
 return
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -3781,7 +3781,7 @@ JSString
 *
 res
 =
-js_NewString
+NewString
 <
 CanGC
 >
@@ -4187,7 +4187,7 @@ JSString
 *
 res
 =
-js_NewString
+NewString
 <
 CanGC
 >
@@ -5050,7 +5050,7 @@ JSString
 *
 ns
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -10352,7 +10352,7 @@ end
 }
 str
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -11948,7 +11948,7 @@ JSLinearString
 *
 str
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 input
@@ -15006,7 +15006,7 @@ RootedString
 leftSide
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -15057,7 +15057,7 @@ RootedString
 rightSide
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -15135,7 +15135,7 @@ RootedString
 leftSide
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 textstr
@@ -15160,7 +15160,7 @@ cx
 ;
 rightSide
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 textstr
@@ -15704,7 +15704,7 @@ RootedString
 leftSide
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 textstr
@@ -15757,7 +15757,7 @@ RootedString
 rightSide
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 textstr
@@ -16001,7 +16001,7 @@ JSFatInlineString
 *
 str
 =
-js_NewGCFatInlineString
+NewGCFatInlineString
 <
 CanGC
 >
@@ -16099,7 +16099,7 @@ rangesLen
 1
 )
 return
-js_NewDependentString
+NewDependentString
 (
 cx
 flatStr
@@ -16237,7 +16237,7 @@ i
 ;
 part
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 flatStr
@@ -17401,7 +17401,7 @@ RootedString
 matchStr
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 rdata
@@ -17579,7 +17579,7 @@ RootedString
 leftSide
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 rdata
@@ -17621,7 +17621,7 @@ RootedString
 rightSide
 (
 cx
-js_NewDependentString
+NewDependentString
 (
 cx
 rdata
@@ -18650,7 +18650,7 @@ JSString
 *
 sub
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -18806,7 +18806,7 @@ parsub
 ;
 sub
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 parsub
@@ -18907,7 +18907,7 @@ JSString
 *
 sub
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -20621,7 +20621,7 @@ str
 begin
 )
 :
-js_NewDependentString
+NewDependentString
 (
 cx
 str
@@ -20835,17 +20835,15 @@ length
 }
 str
 =
-js_NewDependentString
+NewDependentString
 (
 cx
 str
-(
 size_t
-)
+(
 begin
-(
-size_t
 )
+size_t
 (
 end
 -
@@ -21641,7 +21639,7 @@ JSString
 *
 str
 =
-js_NewString
+NewString
 <
 CanGC
 >
@@ -21793,7 +21791,7 @@ JSString
 *
 str
 =
-js_NewString
+NewString
 <
 CanGC
 >
@@ -22150,7 +22148,10 @@ CharT
 >
 JSFlatString
 *
-js_NewString
+js
+:
+:
+NewString
 (
 ThreadSafeContext
 *
@@ -22227,7 +22228,10 @@ length
 template
 JSFlatString
 *
-js_NewString
+js
+:
+:
+NewString
 <
 CanGC
 >
@@ -22245,7 +22249,10 @@ length
 template
 JSFlatString
 *
-js_NewString
+js
+:
+:
+NewString
 <
 NoGC
 >
@@ -22263,7 +22270,10 @@ length
 template
 JSFlatString
 *
-js_NewString
+js
+:
+:
+NewString
 <
 CanGC
 >
@@ -22281,7 +22291,10 @@ length
 template
 JSFlatString
 *
-js_NewString
+js
+:
+:
+NewString
 <
 NoGC
 >
@@ -22298,7 +22311,10 @@ length
 ;
 JSLinearString
 *
-js_NewDependentString
+js
+:
+:
+NewDependentString
 (
 JSContext
 *
@@ -22545,6 +22561,9 @@ len
 )
 ;
 }
+namespace
+js
+{
 template
 <
 AllowGC
@@ -22554,7 +22573,7 @@ CharT
 >
 JSFlatString
 *
-js_NewStringCopyN
+NewStringCopyN
 (
 ThreadSafeContext
 *
@@ -22653,7 +22672,7 @@ JSFlatString
 *
 str
 =
-js_NewString
+NewString
 <
 allowGC
 >
@@ -22763,7 +22782,7 @@ JSFlatString
 *
 str
 =
-js_NewString
+NewString
 <
 allowGC
 >
@@ -22798,7 +22817,7 @@ str
 template
 JSFlatString
 *
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -22817,7 +22836,7 @@ n
 template
 JSFlatString
 *
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -22836,7 +22855,7 @@ n
 template
 JSFlatString
 *
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -22855,7 +22874,7 @@ n
 template
 JSFlatString
 *
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -22876,7 +22895,7 @@ template
 >
 JSFlatString
 *
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -22893,7 +22912,7 @@ n
 )
 {
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >
@@ -22917,7 +22936,7 @@ template
 >
 JSFlatString
 *
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -22934,7 +22953,7 @@ n
 )
 {
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >
@@ -22952,6 +22971,7 @@ s
 n
 )
 ;
+}
 }
 template
 <
@@ -22960,7 +22980,10 @@ allowGC
 >
 JSFlatString
 *
-js_NewStringCopyZ
+js
+:
+:
+NewStringCopyZ
 (
 ExclusiveContext
 *
@@ -23056,7 +23079,7 @@ JSFlatString
 *
 str
 =
-js_NewString
+NewString
 <
 allowGC
 >
@@ -23083,7 +23106,10 @@ str
 template
 JSFlatString
 *
-js_NewStringCopyZ
+js
+:
+:
+NewStringCopyZ
 <
 CanGC
 >
@@ -23100,7 +23126,10 @@ s
 template
 JSFlatString
 *
-js_NewStringCopyZ
+js
+:
+:
+NewStringCopyZ
 <
 NoGC
 >
@@ -23121,7 +23150,10 @@ allowGC
 >
 JSFlatString
 *
-js_NewStringCopyZ
+js
+:
+:
+NewStringCopyZ
 (
 ThreadSafeContext
 *
@@ -23133,7 +23165,7 @@ s
 )
 {
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 allowGC
 >
@@ -23150,7 +23182,10 @@ s
 template
 JSFlatString
 *
-js_NewStringCopyZ
+js
+:
+:
+NewStringCopyZ
 <
 CanGC
 >
@@ -23167,7 +23202,10 @@ s
 template
 JSFlatString
 *
-js_NewStringCopyZ
+js
+:
+:
+NewStringCopyZ
 <
 NoGC
 >
@@ -23919,7 +23957,7 @@ js_negzero_ucNstr
 }
 ;
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >

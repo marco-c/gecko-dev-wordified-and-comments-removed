@@ -16217,7 +16217,7 @@ introducerFilename
 )
 str
 =
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >
@@ -16239,7 +16239,7 @@ introducerFilename
 else
 str
 =
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >
@@ -21442,7 +21442,7 @@ length
 )
 )
 :
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >
@@ -21534,7 +21534,7 @@ JSString
 *
 str
 =
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >
@@ -22108,7 +22108,7 @@ JSString
 *
 str
 =
-js_NewStringCopyZ
+NewStringCopyZ
 <
 CanGC
 >

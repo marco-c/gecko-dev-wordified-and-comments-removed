@@ -2016,7 +2016,7 @@ JSFlatString
 *
 flat
 =
-js_NewString
+NewString
 <
 NoGC
 >
@@ -2253,7 +2253,7 @@ JSFlatString
 *
 flat
 =
-js_NewStringCopyN
+NewStringCopyN
 <
 NoGC
 >

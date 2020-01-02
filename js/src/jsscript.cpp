@@ -8880,7 +8880,7 @@ return
 nullptr
 ;
 return
-js_NewStringCopyN
+NewStringCopyN
 <
 CanGC
 >

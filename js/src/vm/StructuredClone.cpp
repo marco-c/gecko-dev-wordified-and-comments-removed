@@ -5767,7 +5767,7 @@ JSString
 *
 str
 =
-js_NewString
+NewString
 <
 CanGC
 >
