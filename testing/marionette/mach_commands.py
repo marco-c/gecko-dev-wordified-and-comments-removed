@@ -388,6 +388,13 @@ a
 Marionette
 webapi
 test
+(
+test
+WebAPIs
+using
+marionette
+)
+.
 '
         
 conditions
@@ -608,6 +615,16 @@ Run
 a
 Marionette
 test
+(
+Check
+UI
+or
+the
+internal
+JavaScript
+using
+marionette
+)
 .
 '
         

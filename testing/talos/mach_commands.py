@@ -934,6 +934,10 @@ description
 Run
 talos
 tests
+(
+performance
+testing
+)
 .
 '
 )

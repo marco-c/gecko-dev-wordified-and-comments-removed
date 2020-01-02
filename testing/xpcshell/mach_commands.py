@@ -2966,7 +2966,12 @@ Run
 XPCOM
 Shell
 tests
-.
+(
+API
+direct
+unit
+testing
+)
 '
 )
     
