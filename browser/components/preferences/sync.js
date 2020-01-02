@@ -490,8 +490,6 @@ service
 start
 -
 over
-:
-finish
 "
 "
 weave
