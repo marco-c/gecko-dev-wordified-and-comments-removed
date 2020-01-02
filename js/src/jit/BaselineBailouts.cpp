@@ -75,6 +75,15 @@ h
 #
 include
 "
+vm
+/
+TraceLogging
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h

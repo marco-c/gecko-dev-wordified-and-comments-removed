@@ -382,7 +382,7 @@ jitStackLimit
 0
 )
 #
-if
+ifdef
 JS_TRACE_LOGGING
 traceLogger
 (

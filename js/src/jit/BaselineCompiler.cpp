@@ -87,6 +87,15 @@ h
 #
 include
 "
+vm
+/
+TraceLogging
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h
@@ -1786,7 +1795,7 @@ earlyStackCheckFailed
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 TraceLogger
 *
@@ -1959,7 +1968,7 @@ return_
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 TraceLogger
 *

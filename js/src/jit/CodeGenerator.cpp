@@ -196,6 +196,15 @@ h
 #
 include
 "
+vm
+/
+TraceLogging
+.
+h
+"
+#
+include
+"
 jsboolinlines
 .
 h
@@ -7419,7 +7428,7 @@ size
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 if
 (
@@ -37546,7 +37555,7 @@ return
 false
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 if
 (
@@ -37649,7 +37658,7 @@ false
 ;
 }
 #
-if
+ifdef
 JS_TRACE_LOGGING
 Label
 skip
@@ -37680,7 +37689,7 @@ size
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 if
 (
@@ -38877,7 +38886,7 @@ begin
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 TraceLogger
 *

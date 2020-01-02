@@ -1620,6 +1620,8 @@ SOURCES
 =
 [
 '
+vm
+/
 TraceLogging
 .
 cpp

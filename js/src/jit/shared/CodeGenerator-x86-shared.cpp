@@ -77,6 +77,15 @@ h
 #
 include
 "
+vm
+/
+TraceLogging
+.
+h
+"
+#
+include
+"
 jit
 /
 shared
@@ -192,7 +201,7 @@ returnLabel_
 )
 ;
 #
-if
+ifdef
 JS_TRACE_LOGGING
 if
 (
