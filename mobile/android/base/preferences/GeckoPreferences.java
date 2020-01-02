@@ -265,6 +265,17 @@ util
 ThreadUtils
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+FloatingHintEditText
+;
+import
 android
 .
 app
@@ -4607,7 +4618,7 @@ EditText
 input
 =
 new
-EditText
+FloatingHintEditText
 (
 GeckoAppShell
 .
