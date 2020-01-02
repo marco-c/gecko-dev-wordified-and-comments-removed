@@ -875,13 +875,6 @@ java
 '
 db
 /
-HomeListsDatabaseHelper
-.
-java
-'
-'
-db
-/
 HomeListsProvider
 .
 java
