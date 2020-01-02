@@ -1,6 +1,8 @@
 import
 os
 import
+re
+import
 select
 import
 signal
@@ -4868,6 +4870,36 @@ kernel32
 .
 GetLastError
         
+staticmethod
+        
+def
+_normalize_newline
+(
+line
+)
+:
+            
+return
+re
+.
+sub
+(
+r
+'
+\
+r
++
+\
+n
+?
+'
+'
+\
+n
+'
+line
+)
+        
 def
 _readWithTimeout
 (
@@ -4885,10 +4917,15 @@ None
                 
 return
 (
+self
+.
+_normalize_newline
+(
 f
 .
 readline
 (
+)
 )
 False
 )
@@ -5010,10 +5047,15 @@ value
                     
 return
 (
+self
+.
+_normalize_newline
+(
 f
 .
 readline
 (
+)
 )
 False
 )
