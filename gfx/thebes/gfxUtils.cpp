@@ -3677,7 +3677,10 @@ aData
 gfxImageFormat
 &
 aSuggestedFormat
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSuggestedSize
 )
@@ -3915,7 +3918,10 @@ gfxImageFormat
 &
 aDestFormat
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aDestSize
 unsigned

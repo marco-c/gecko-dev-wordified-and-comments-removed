@@ -319,7 +319,10 @@ Layer
 aMaskLayer
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 }
@@ -439,7 +442,10 @@ GetImage
 (
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 =
 mSize
@@ -746,7 +752,10 @@ return
 false
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 dontCare
 ;
 nsRefPtr

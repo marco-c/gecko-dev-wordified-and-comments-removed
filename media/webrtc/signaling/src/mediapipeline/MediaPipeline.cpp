@@ -4108,7 +4108,10 @@ img
 return
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 =
 img
