@@ -4389,7 +4389,7 @@ Truncate
 (
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -5456,7 +5456,7 @@ n
 )
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -7463,7 +7463,7 @@ mCompositionString
 mLastDispatchedCompositionString
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 compositionUpdate
 (
 true

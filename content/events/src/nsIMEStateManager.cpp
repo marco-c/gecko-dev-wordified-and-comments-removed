@@ -2701,7 +2701,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 endEvent
 (
 true
@@ -2779,7 +2779,7 @@ IsEmpty
 )
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 updateEvent
 (
 true
@@ -2888,7 +2888,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 endEvent
 (
 true

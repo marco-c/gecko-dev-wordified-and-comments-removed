@@ -8791,7 +8791,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCompositionEvent
+WidgetCompositionEvent
 compositionEvent
 (
 true

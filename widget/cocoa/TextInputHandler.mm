@@ -16746,7 +16746,7 @@ theText
 mLastDispatchedCompositionString
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 compositionUpdate
 (
 true
@@ -16861,7 +16861,7 @@ IMEInputHandler
 :
 InitCompositionEvent
 (
-nsCompositionEvent
+WidgetCompositionEvent
 &
 aCompositionEvent
 )
@@ -17286,7 +17286,7 @@ we
 implement
 it
 .
-nsCompositionEvent
+WidgetCompositionEvent
 compStart
 (
 true
@@ -17404,7 +17404,7 @@ string
 ]
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compEnd
 (
 true
@@ -17907,7 +17907,7 @@ SelectedRange
 .
 location
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compStart
 (
 true
@@ -18033,7 +18033,7 @@ if
 doCommit
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 compEnd
 (
 true

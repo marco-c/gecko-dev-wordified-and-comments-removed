@@ -2135,7 +2135,7 @@ aSelectedRange
 void
 InitCompositionEvent
 (
-nsCompositionEvent
+WidgetCompositionEvent
 &
 aCompositionEvent
 )

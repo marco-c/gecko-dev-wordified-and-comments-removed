@@ -13659,7 +13659,7 @@ bool
 handled
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 start
 (
 true
@@ -13698,7 +13698,7 @@ IsEmpty
 )
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 update
 (
 true
@@ -13739,7 +13739,7 @@ DispatchEvent
 text
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 end
 (
 true

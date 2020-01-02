@@ -8439,7 +8439,7 @@ DispatchEvent
 textEvent
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -8856,7 +8856,7 @@ break
 ;
 }
 {
-nsCompositionEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -8911,7 +8911,7 @@ event
 ;
 }
 {
-nsCompositionEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -9458,7 +9458,7 @@ mString
 ;
 }
 {
-nsCompositionEvent
+WidgetCompositionEvent
 event
 (
 true
@@ -9492,7 +9492,7 @@ theText
 mIMEComposingText
 )
 {
-nsCompositionEvent
+WidgetCompositionEvent
 compositionUpdate
 (
 true
@@ -9865,7 +9865,7 @@ DispatchEvent
 textEvent
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compEvent
 (
 true

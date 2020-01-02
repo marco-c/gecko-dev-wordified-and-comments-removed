@@ -1440,7 +1440,10 @@ if
 letter
 )
 {
-nsCompositionEvent
+mozilla
+:
+:
+WidgetCompositionEvent
 start
 (
 true
@@ -1499,7 +1502,10 @@ DispatchEvent
 text
 )
 ;
-nsCompositionEvent
+mozilla
+:
+:
+WidgetCompositionEvent
 end
 (
 true

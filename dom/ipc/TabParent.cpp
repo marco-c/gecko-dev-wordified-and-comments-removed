@@ -4356,7 +4356,7 @@ TabParent
 :
 SendCompositionEvent
 (
-nsCompositionEvent
+WidgetCompositionEvent
 &
 event
 )

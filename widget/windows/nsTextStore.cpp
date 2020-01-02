@@ -5087,7 +5087,7 @@ this
 )
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compositionStart
 (
 true
@@ -5502,7 +5502,7 @@ this
 )
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compositionUpdate
 (
 true
@@ -5837,7 +5837,7 @@ this
 )
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compositionUpdate
 (
 true
@@ -6018,7 +6018,7 @@ this
 )
 )
 ;
-nsCompositionEvent
+WidgetCompositionEvent
 compositionEnd
 (
 true

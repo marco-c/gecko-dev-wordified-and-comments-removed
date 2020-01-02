@@ -1528,13 +1528,6 @@ typedef
 mozilla
 :
 :
-WidgetCompositionEvent
-nsCompositionEvent
-;
-typedef
-mozilla
-:
-:
 WidgetQueryContentEvent
 nsQueryContentEvent
 ;

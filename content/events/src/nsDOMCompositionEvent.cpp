@@ -21,6 +21,10 @@ TextEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMCompositionEvent
 :
 :
@@ -38,7 +42,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsCompositionEvent
+WidgetCompositionEvent
 *
 aEvent
 )
@@ -52,7 +56,7 @@ aEvent
 aEvent
 :
 new
-nsCompositionEvent
+WidgetCompositionEvent
 (
 false
 0
@@ -115,7 +119,7 @@ mData
 =
 static_cast
 <
-nsCompositionEvent
+WidgetCompositionEvent
 *
 >
 (
@@ -142,7 +146,7 @@ mEventIsInternal
 delete
 static_cast
 <
-nsCompositionEvent
+WidgetCompositionEvent
 *
 >
 (
@@ -294,7 +298,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsCompositionEvent
+WidgetCompositionEvent
 *
 aEvent
 )

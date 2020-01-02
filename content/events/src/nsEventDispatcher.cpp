@@ -3272,7 +3272,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsCompositionEvent
+WidgetCompositionEvent
 *
 >
 (
