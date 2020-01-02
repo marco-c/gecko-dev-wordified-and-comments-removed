@@ -3009,6 +3009,12 @@ gc
 :
 IsInsideNursery
 (
+cx
+-
+>
+runtime
+(
+)
 obj
 )
 )

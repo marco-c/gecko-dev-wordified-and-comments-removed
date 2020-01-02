@@ -1137,13 +1137,8 @@ isHeapBusy
 !
 IsInsideNursery
 (
-JS
-:
-:
-AsCell
-(
+rt
 obj
-)
 )
 )
 rt
