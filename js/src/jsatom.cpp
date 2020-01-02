@@ -2374,11 +2374,11 @@ inflated
 ATOMIZE_BUF_MAX
 ]
 ;
-InflateStringToBuffer
+CopyAndInflateChars
 (
+inflated
 bytes
 length
-inflated
 )
 ;
 return

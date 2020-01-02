@@ -1548,6 +1548,9 @@ rightInspector
 right
 )
 ;
+AutoCheckCannotGC
+nogc
+;
 if
 (
 !
@@ -1556,6 +1559,7 @@ leftInspector
 ensureChars
 (
 cx
+nogc
 )
 |
 |
@@ -1565,6 +1569,7 @@ rightInspector
 ensureChars
 (
 cx
+nogc
 )
 )
 return
@@ -1577,7 +1582,7 @@ CompareChars
 (
 leftInspector
 .
-chars
+twoByteChars
 (
 )
 left
@@ -1588,7 +1593,7 @@ length
 )
 rightInspector
 .
-chars
+twoByteChars
 (
 )
 right

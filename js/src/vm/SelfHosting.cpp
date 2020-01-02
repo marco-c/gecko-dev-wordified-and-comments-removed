@@ -1573,6 +1573,9 @@ isString
 )
 )
 ;
+AutoCheckCannotGC
+nogc
+;
 ScopedThreadSafeStringInspector
 inspector
 (
@@ -1594,6 +1597,7 @@ inspector
 ensureChars
 (
 cx
+nogc
 )
 )
 return
@@ -1610,7 +1614,7 @@ TwoByteCharsToNewUTF8CharsZ
 cx
 inspector
 .
-range
+twoByteRange
 (
 )
 )

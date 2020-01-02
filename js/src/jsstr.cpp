@@ -14453,7 +14453,7 @@ buf
 str
 -
 >
-init
+initTwoByte
 (
 outputLen
 )

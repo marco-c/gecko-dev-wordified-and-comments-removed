@@ -8202,6 +8202,17 @@ dest
 )
 ;
 void
+and32
+(
+const
+Address
+&
+src
+Register
+dest
+)
+;
+void
 or32
 (
 Imm32

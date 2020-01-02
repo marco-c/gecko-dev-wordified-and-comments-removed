@@ -28545,11 +28545,11 @@ srclen
 dstlen
 )
 {
-InflateStringToBuffer
+CopyAndInflateChars
 (
+dst
 src
 dstlen
-dst
 )
 ;
 AutoSuppressGC
@@ -28570,11 +28570,11 @@ return
 false
 ;
 }
-InflateStringToBuffer
+CopyAndInflateChars
 (
+dst
 src
 srclen
-dst
 )
 ;
 *

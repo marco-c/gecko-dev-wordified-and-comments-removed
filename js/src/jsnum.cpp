@@ -3214,7 +3214,7 @@ PodCopy
 str
 -
 >
-init
+initTwoByte
 (
 length
 )
@@ -7684,7 +7684,7 @@ dst
 str
 -
 >
-init
+initTwoByte
 (
 end
 -
@@ -8150,6 +8150,9 @@ double
 result
 )
 {
+AutoCheckCannotGC
+nogc
+;
 ScopedThreadSafeStringInspector
 inspector
 (
@@ -8164,6 +8167,7 @@ inspector
 ensureChars
 (
 cx
+nogc
 )
 )
 return
@@ -8175,7 +8179,7 @@ CharsToNumber
 cx
 inspector
 .
-chars
+twoByteChars
 (
 )
 str

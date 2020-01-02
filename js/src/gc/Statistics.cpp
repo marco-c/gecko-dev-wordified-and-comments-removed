@@ -624,11 +624,11 @@ return
 nullptr
 ;
 }
-InflateStringToBuffer
+CopyAndInflateChars
 (
+out
 buf
 nchars
-out
 )
 ;
 js_free
