@@ -947,7 +947,7 @@ Builtin
 wchar
 '
 '
-PRUnichar
+char16_t
 '
 False
 False
@@ -959,7 +959,7 @@ Builtin
 wstring
 '
 '
-PRUnichar
+char16_t
 *
 '
 False
