@@ -272,12 +272,6 @@ body
 >
 hi
 "
-"
-javascript
-:
-1
-;
-"
 ]
 ;
 function
