@@ -630,7 +630,7 @@ R
 .
 string
 .
-bookmark_add
+home_top_sites_add
 )
 ;
 mIsEmpty
