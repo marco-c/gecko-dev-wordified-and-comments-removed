@@ -10768,6 +10768,12 @@ windows
 "
 )
 ;
+NS_ENSURE_STATE
+(
+!
+mCleanedUp
+)
+;
 if
 (
 IsFrozen
