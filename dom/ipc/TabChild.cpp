@@ -2256,13 +2256,6 @@ true
 ;
 }
 }
-mLastRootMetrics
-=
-ProcessUpdateFrame
-(
-mLastRootMetrics
-)
-;
 return
 true
 ;

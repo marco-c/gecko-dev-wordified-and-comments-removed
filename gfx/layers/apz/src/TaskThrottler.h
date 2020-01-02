@@ -87,6 +87,10 @@ const
 TimeStamp
 &
 aTimeStamp
+const
+TimeDuration
+&
+aMaxWait
 )
 ;
 void
@@ -217,6 +221,9 @@ mQueuedTask
 ;
 TimeStamp
 mStartTime
+;
+TimeDuration
+mMaxWait
 ;
 RollingMean
 <
