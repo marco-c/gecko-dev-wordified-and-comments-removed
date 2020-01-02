@@ -2994,7 +2994,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3003,8 +3003,6 @@ for
 ma_load
 "
 )
-;
-break
 ;
 }
 }
@@ -3184,7 +3182,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -3193,8 +3191,6 @@ for
 ma_store
 "
 )
-;
-break
 ;
 }
 }
@@ -4529,7 +4525,7 @@ Signed
 case
 NotSigned
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 There
@@ -4550,7 +4546,7 @@ break
 case
 Overflow
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Overflow
@@ -4567,7 +4563,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4845,7 +4841,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -4855,8 +4851,6 @@ ma_cmp_set
 .
 "
 )
-;
-break
 ;
 }
 }
@@ -5140,7 +5134,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -5148,8 +5142,6 @@ DoubleCondition
 .
 "
 )
-;
-break
 ;
 }
 }
@@ -15086,7 +15078,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -15676,7 +15668,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -15767,7 +15759,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

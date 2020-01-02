@@ -399,7 +399,7 @@ rhs
 snapshot
 )
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid
@@ -408,9 +408,6 @@ tag
 .
 "
 )
-;
-return
-false
 ;
 }
 template
