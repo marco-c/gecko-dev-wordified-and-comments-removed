@@ -324,16 +324,6 @@ IsEmpty
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-aTitle
-.
-IsEmpty
-(
-)
-)
-;
 NotificationOptions
 options
 ;
