@@ -1861,8 +1861,16 @@ OncePreferenceDirect2DForceEnabled
 bool
 tryD2D
 =
+(
 !
 d2dBlocked
+&
+&
+!
+GetPrefLayersPreferD3D9
+(
+)
+)
 |
 |
 d2dForceEnabled
