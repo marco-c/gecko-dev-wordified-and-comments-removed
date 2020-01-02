@@ -4021,6 +4021,15 @@ v
 ;
 #
 endif
+JSObject
+*
+TypedObjectProto
+(
+JSObject
+*
+obj
+)
+;
 }
 }
 #
