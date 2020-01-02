@@ -2147,6 +2147,17 @@ serializer
 .
 GetAsDrawTarget
 (
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+-
+>
+GetContentBackend
+(
+)
 )
 ;
 if
