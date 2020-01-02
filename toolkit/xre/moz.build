@@ -189,11 +189,6 @@ nsNativeAppSupportWin
 .
 cpp
 '
-'
-nsWindowsDllBlocklist
-.
-cpp
-'
 ]
 elif
 CONFIG
