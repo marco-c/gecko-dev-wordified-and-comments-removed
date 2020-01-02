@@ -441,7 +441,7 @@ LMoveGroup
 alloc
 )
 ;
-JS_ASSERT
+if
 (
 begin
 (
@@ -452,8 +452,17 @@ isLabel
 (
 )
 )
-;
 insertAfter
+(
+*
+begin
+(
+)
+entryMoveGroup_
+)
+;
+else
+insertBefore
 (
 *
 begin

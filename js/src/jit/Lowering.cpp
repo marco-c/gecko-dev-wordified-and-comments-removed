@@ -21534,6 +21534,16 @@ false
 ;
 if
 (
+js_IonOptions
+.
+registerAllocator
+=
+=
+RegisterAllocator_LSRA
+)
+{
+if
+(
 !
 add
 (
@@ -21546,6 +21556,7 @@ LLabel
 return
 false
 ;
+}
 for
 (
 MInstructionIterator
