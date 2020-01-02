@@ -340,6 +340,9 @@ t
 flavor
 =
 None
+topsrcdir
+=
+None
 )
 :
         
@@ -358,6 +361,30 @@ flavor
 ]
 =
 flavor
+        
+if
+topsrcdir
+is
+None
+:
+            
+topsrcdir
+=
+self
+.
+topsrcdir
+        
+else
+:
+            
+topsrcdir
+=
+mozpath
+.
+normpath
+(
+topsrcdir
+)
         
 path
 =
@@ -378,8 +405,6 @@ path
 .
 startswith
 (
-self
-.
 topsrcdir
 )
         
@@ -389,8 +414,6 @@ path
 [
 len
 (
-self
-.
 topsrcdir
 )
 +
@@ -519,6 +542,12 @@ flavor
 obj
 .
 flavor
+                    
+topsrcdir
+=
+obj
+.
+topsrcdir
 )
         
 if
