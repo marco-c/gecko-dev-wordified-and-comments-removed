@@ -45,9 +45,6 @@ nsIContent
 class
 nsINodeInfo
 ;
-class
-nsSVGTextPathFrame
-;
 nsresult
 NS_NewSVGTextPathElement
 (
@@ -127,12 +124,6 @@ MOZ_FINAL
 public
 SVGTextPathElementBase
 {
-friend
-class
-:
-:
-nsSVGTextPathFrame
-;
 friend
 class
 :

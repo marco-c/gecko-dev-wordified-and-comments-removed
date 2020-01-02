@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsSVGTextPathFrame
-.
-h
-"
-#
-include
-"
 nsIReflowCallback
 .
 h

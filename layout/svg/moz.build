@@ -258,11 +258,6 @@ nsSVGTextFrame2
 cpp
 '
 '
-nsSVGTextPathFrame
-.
-cpp
-'
-'
 nsSVGTSpanFrame
 .
 cpp

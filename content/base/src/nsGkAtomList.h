@@ -13160,13 +13160,6 @@ SVGTextFrame2
 )
 GK_ATOM
 (
-svgTextPathFrame
-"
-SVGTextPathFrame
-"
-)
-GK_ATOM
-(
 svgTSpanFrame
 "
 SVGTSpanFrame
