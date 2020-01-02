@@ -850,6 +850,11 @@ CanComposite
 (
 )
 ;
+void
+DidComposite
+(
+)
+;
 nsRefPtr
 <
 LayerManagerComposite
@@ -932,6 +937,9 @@ nsRefPtr
 APZCTreeManager
 >
 mApzcTreeManager
+;
+bool
+mWantDidCompositeEvent
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
