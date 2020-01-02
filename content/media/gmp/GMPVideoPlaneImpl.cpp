@@ -297,6 +297,10 @@ SharedMemMgr
 >
 MgrAllocShmem
 (
+GMPSharedMemManager
+:
+:
+kGMPFrameData
 aNewSize
 ipc
 :
@@ -393,6 +397,10 @@ SharedMemMgr
 >
 MgrDeallocShmem
 (
+GMPSharedMemManager
+:
+:
+kGMPFrameData
 mBuffer
 )
 ;

@@ -107,7 +107,7 @@ mozilla
 namespace
 gmp
 {
-async
+intr
 protocol
 PGMP
 {
@@ -119,10 +119,12 @@ PGMPVideoEncoder
 ;
 child
 :
+async
 PGMPVideoDecoder
 (
 )
 ;
+async
 PGMPVideoEncoder
 (
 )
