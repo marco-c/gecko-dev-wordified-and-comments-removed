@@ -4805,6 +4805,10 @@ GetRate
 (
 )
 AUDIO_CHANNEL_NORMAL
+AudioStream
+:
+:
+LowLatency
 )
 ;
 audioOutputStream
