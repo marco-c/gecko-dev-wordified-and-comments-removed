@@ -7514,6 +7514,10 @@ aViewId
 const
 bool
 &
+aIsRoot
+const
+bool
+&
 aAllowZoom
 const
 CSSToScreenScale
@@ -7543,6 +7547,7 @@ UpdateZoomConstraints
 (
 aPresShellId
 aViewId
+aIsRoot
 aAllowZoom
 aMinZoom
 aMaxZoom
