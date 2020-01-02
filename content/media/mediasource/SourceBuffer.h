@@ -399,6 +399,13 @@ double
 aEnd
 )
 ;
+bool
+ContainsTime
+(
+double
+aTime
+)
+;
 private
 :
 SourceBuffer

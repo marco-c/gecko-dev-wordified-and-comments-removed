@@ -229,6 +229,13 @@ double
 aEnd
 )
 ;
+bool
+ContainsTime
+(
+double
+aTime
+)
+;
 private
 :
 friend
