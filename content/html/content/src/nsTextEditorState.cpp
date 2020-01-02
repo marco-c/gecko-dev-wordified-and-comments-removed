@@ -220,7 +220,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -5758,7 +5760,7 @@ do_QueryInterface
 mTextCtrlElement
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -7484,7 +7486,7 @@ do_QueryInterface
 mTextCtrlElement
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

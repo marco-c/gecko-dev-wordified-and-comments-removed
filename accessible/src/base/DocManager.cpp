@@ -59,6 +59,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Event
@@ -90,13 +99,6 @@ h
 include
 "
 nsIDOMDocument
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -1237,7 +1239,7 @@ GetChromeEventHandler
 (
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -1400,7 +1402,7 @@ target
 )
 return
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =

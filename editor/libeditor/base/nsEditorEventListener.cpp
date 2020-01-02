@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -88,13 +97,6 @@ h
 include
 "
 nsEditorEventListener
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -724,7 +726,7 @@ piTarget
 NS_ERROR_FAILURE
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elmP
 =
@@ -1148,7 +1150,7 @@ piTarget
 return
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 elmP
 =

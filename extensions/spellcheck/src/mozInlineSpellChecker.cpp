@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h
@@ -235,6 +228,13 @@ h
 include
 "
 nsITextControlElement
+.
+h
+"
+#
+include
+"
+prtime
 .
 h
 "

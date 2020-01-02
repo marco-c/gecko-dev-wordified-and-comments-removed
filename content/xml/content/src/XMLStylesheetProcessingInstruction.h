@@ -27,6 +27,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsStyleLinkElement
 .
 h

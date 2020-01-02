@@ -389,13 +389,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

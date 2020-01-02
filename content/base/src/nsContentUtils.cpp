@@ -273,6 +273,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -514,13 +523,6 @@ h
 include
 "
 nsEventDispatcher
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -1889,7 +1891,7 @@ public
 :
 nsRefPtr
 <
-nsEventListenerManager
+EventListenerManager
 >
 mListenerManager
 ;
@@ -16255,7 +16257,7 @@ if
 piTarget
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -16290,7 +16292,7 @@ while
 aNode
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -16801,7 +16803,7 @@ mListenerManager
 ;
 }
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsContentUtils
 :
@@ -16869,7 +16871,7 @@ entry
 mListenerManager
 =
 new
-nsEventListenerManager
+EventListenerManager
 (
 aNode
 )
@@ -16890,7 +16892,7 @@ entry
 mListenerManager
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsContentUtils
 :
@@ -17016,7 +17018,7 @@ entry
 {
 nsRefPtr
 <
-nsEventListenerManager
+EventListenerManager
 >
 listenerManager
 ;

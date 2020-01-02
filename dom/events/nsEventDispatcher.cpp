@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -116,6 +109,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 InternalMutationEvent
 .
 h
@@ -198,7 +200,7 @@ mNonMainThread
 ?
 0
 :
-nsEventListenerManager
+EventListenerManager
 :
 :
 sMainThreadCreatedCount
@@ -217,7 +219,7 @@ mNonMainThread
 mInitialCount
 !
 =
-nsEventListenerManager
+EventListenerManager
 :
 :
 sMainThreadCreatedCount
@@ -807,7 +809,7 @@ mNewTarget
 ;
 nsRefPtr
 <
-nsEventListenerManager
+EventListenerManager
 >
 mManager
 ;

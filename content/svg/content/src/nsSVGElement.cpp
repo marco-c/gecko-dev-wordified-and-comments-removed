@@ -158,7 +158,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -3215,7 +3217,7 @@ aName
 )
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

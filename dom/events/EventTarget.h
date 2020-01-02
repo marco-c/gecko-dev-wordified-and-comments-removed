@@ -37,6 +37,9 @@ mozilla
 class
 ErrorResult
 ;
+class
+EventListenerManager
+;
 namespace
 dom
 {
@@ -241,7 +244,7 @@ GetOwnerGlobal
 0
 ;
 virtual
-nsEventListenerManager
+EventListenerManager
 *
 GetOrCreateListenerManager
 (
@@ -250,7 +253,7 @@ GetOrCreateListenerManager
 0
 ;
 virtual
-nsEventListenerManager
+EventListenerManager
 *
 GetExistingListenerManager
 (

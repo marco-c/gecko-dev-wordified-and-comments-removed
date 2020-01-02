@@ -205,6 +205,15 @@ h
 #
 include
 "
+mozilla
+/
+EventListenerManager
+.
+h
+"
+#
+include
+"
 nsAsyncDOMEvent
 .
 h
@@ -7517,7 +7526,7 @@ aRemovingAllowed
 )
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -33503,7 +33512,7 @@ mAllowDoubleTapZoom
 ;
 }
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsDocument
 :
@@ -33521,7 +33530,7 @@ mListenerManager
 mListenerManager
 =
 new
-nsEventListenerManager
+EventListenerManager
 (
 static_cast
 <
@@ -33543,7 +33552,7 @@ return
 mListenerManager
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsDocument
 :
@@ -36678,7 +36687,7 @@ if
 piTarget
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -51935,7 +51944,7 @@ mMallocSizeOf
 }
 if
 (
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -52190,7 +52199,7 @@ nodeSize
 ;
 if
 (
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =

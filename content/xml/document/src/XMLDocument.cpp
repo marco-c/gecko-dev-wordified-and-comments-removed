@@ -212,7 +212,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -1999,7 +2001,7 @@ false
 }
 nsRefPtr
 <
-nsEventListenerManager
+EventListenerManager
 >
 elm
 (

@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -34,13 +43,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -420,7 +422,7 @@ aContent
 {
 if
 (
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -494,7 +496,7 @@ nsIContent
 aContent
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =

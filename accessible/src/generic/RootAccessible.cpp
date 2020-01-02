@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

@@ -157,11 +157,6 @@ nsEventDispatcher
 h
 '
 '
-nsEventListenerManager
-.
-h
-'
-'
 nsEventNameList
 .
 h
@@ -193,6 +188,11 @@ mozilla
 +
 =
 [
+'
+EventListenerManager
+.
+h
+'
 '
 IMEStateManager
 .
@@ -435,6 +435,11 @@ Event
 cpp
 '
 '
+EventListenerManager
+.
+cpp
+'
+'
 EventListenerService
 .
 cpp
@@ -506,11 +511,6 @@ cpp
 '
 '
 nsEventDispatcher
-.
-cpp
-'
-'
-nsEventListenerManager
 .
 cpp
 '

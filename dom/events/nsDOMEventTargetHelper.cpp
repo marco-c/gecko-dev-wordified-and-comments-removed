@@ -52,6 +52,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -687,7 +696,7 @@ bool
 aUseCapture
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -807,7 +816,7 @@ rv
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -913,7 +922,7 @@ Value
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -1422,7 +1431,7 @@ aEventStatus
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsDOMEventTargetHelper
 :
@@ -1440,7 +1449,7 @@ mListenerManager
 mListenerManager
 =
 new
-nsEventListenerManager
+EventListenerManager
 (
 this
 )
@@ -1450,7 +1459,7 @@ return
 mListenerManager
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsDOMEventTargetHelper
 :

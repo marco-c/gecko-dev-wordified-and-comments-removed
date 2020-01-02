@@ -285,13 +285,6 @@ nsXBLSerialize
 h
 "
 #
-include
-"
-nsEventListenerManager
-.
-h
-"
-#
 ifdef
 MOZ_XUL
 #
@@ -316,6 +309,15 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -2406,7 +2408,7 @@ piTarget
 doc
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -2620,7 +2622,7 @@ do_QueryInterface
 doc
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

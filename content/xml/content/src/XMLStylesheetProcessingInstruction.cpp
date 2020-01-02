@@ -19,6 +19,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

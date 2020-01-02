@@ -162,6 +162,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LazyIdleThread
 .
 h
@@ -18957,7 +18966,7 @@ aEventStatus
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsDOMDeviceStorage
 :
@@ -18975,7 +18984,7 @@ GetOrCreateListenerManager
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsDOMDeviceStorage
 :

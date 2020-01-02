@@ -292,13 +292,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -363,6 +356,15 @@ include
 mozilla
 /
 Debug
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -7942,7 +7944,7 @@ nullptr
 }
 if
 (
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -38239,7 +38241,7 @@ if
 (
 nsRefPtr
 <
-nsEventListenerManager
+EventListenerManager
 >
 elm
 =
@@ -38526,7 +38528,7 @@ aWantsUntrusted
 true
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -38646,7 +38648,7 @@ Value
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -38810,7 +38812,7 @@ aWantsUntrusted
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsGlobalWindow
 :
@@ -38836,7 +38838,7 @@ mListenerManager
 mListenerManager
 =
 new
-nsEventListenerManager
+EventListenerManager
 (
 static_cast
 <
@@ -38853,7 +38855,7 @@ return
 mListenerManager
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsGlobalWindow
 :
@@ -53758,7 +53760,7 @@ mMallocSizeOf
 }
 if
 (
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -53821,7 +53823,7 @@ IsInnerWindow
 )
 )
 {
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -56869,7 +56871,7 @@ vp
 )
 {
 \
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -56964,7 +56966,7 @@ v
 )
 {
 \
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -57098,7 +57100,7 @@ vp
 )
 {
 \
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -57194,7 +57196,7 @@ v
 )
 {
 \
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =

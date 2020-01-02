@@ -88,13 +88,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h
@@ -280,6 +273,15 @@ include
 mozilla
 /
 ContentEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -7269,7 +7271,7 @@ defer
 =
 true
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =
@@ -8496,7 +8498,7 @@ return
 false
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 Element
 :

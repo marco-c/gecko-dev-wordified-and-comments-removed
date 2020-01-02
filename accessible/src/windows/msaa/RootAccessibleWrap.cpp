@@ -26,13 +26,6 @@ nsWinUtils
 .
 h
 "
-#
-include
-"
-nsEventListenerManager
-.
-h
-"
 using
 namespace
 mozilla

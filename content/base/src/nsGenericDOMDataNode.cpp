@@ -55,13 +55,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

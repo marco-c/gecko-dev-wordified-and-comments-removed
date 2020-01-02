@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+EventListenerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -152,13 +161,6 @@ h
 include
 "
 nsIDOMDocument
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -3728,7 +3730,7 @@ aNotify
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsGenericHTMLElement
 :
@@ -4888,7 +4890,7 @@ aAttribute
 {
 if
 (
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

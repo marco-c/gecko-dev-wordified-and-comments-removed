@@ -151,7 +151,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -1553,7 +1555,7 @@ Shutdown
 (
 )
 ;
-nsEventListenerManager
+EventListenerManager
 :
 :
 Shutdown

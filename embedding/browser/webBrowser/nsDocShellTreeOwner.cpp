@@ -382,13 +382,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsIDOMDragEvent
 .
 h
@@ -406,6 +399,15 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -3236,7 +3238,7 @@ target
 )
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elmP
 =
@@ -3358,7 +3360,7 @@ piTarget
 return
 NS_OK
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elmP
 =

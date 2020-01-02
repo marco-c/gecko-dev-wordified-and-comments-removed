@@ -216,9 +216,6 @@ class
 nsEventChainVisitor
 ;
 class
-nsEventListenerManager
-;
-class
 nsIScrollableFrame
 ;
 class
@@ -340,6 +337,9 @@ ELEMENT_TYPE_SPECIFIC_BITS_OFFSET
 namespace
 mozilla
 {
+class
+EventListenerManager
+;
 namespace
 dom
 {
@@ -3127,7 +3127,7 @@ NS_OK
 ;
 }
 virtual
-nsEventListenerManager
+EventListenerManager
 *
 GetEventListenerManagerForAttr
 (

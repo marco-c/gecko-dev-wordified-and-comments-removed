@@ -59,6 +59,13 @@ nsSMILInstanceTime
 class
 nsSMILInterval
 ;
+namespace
+mozilla
+{
+class
+EventListenerManager
+;
+}
 class
 nsSMILTimeValueSpec
 {
@@ -230,7 +237,10 @@ Element
 aElement
 )
 ;
-nsEventListenerManager
+mozilla
+:
+:
+EventListenerManager
 *
 GetEventListenerManager
 (

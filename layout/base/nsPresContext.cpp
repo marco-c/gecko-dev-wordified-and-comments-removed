@@ -226,7 +226,9 @@ h
 #
 include
 "
-nsEventListenerManager
+mozilla
+/
+EventListenerManager
 .
 h
 "
@@ -9671,7 +9673,7 @@ parentTarget
 return
 false
 ;
-nsEventListenerManager
+EventListenerManager
 *
 manager
 =

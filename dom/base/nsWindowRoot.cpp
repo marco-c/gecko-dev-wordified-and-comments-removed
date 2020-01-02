@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+EventListenerManager
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -25,13 +34,6 @@ h
 include
 "
 nsPIDOMWindow
-.
-h
-"
-#
-include
-"
-nsEventListenerManager
 .
 h
 "
@@ -256,7 +258,7 @@ if
 (
 nsRefPtr
 <
-nsEventListenerManager
+EventListenerManager
 >
 elm
 =
@@ -446,7 +448,7 @@ zero
 "
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -518,7 +520,7 @@ Value
 (
 )
 ;
-nsEventListenerManager
+EventListenerManager
 *
 elm
 =
@@ -630,7 +632,7 @@ aWantsUntrusted
 )
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsWindowRoot
 :
@@ -648,7 +650,7 @@ mListenerManager
 mListenerManager
 =
 new
-nsEventListenerManager
+EventListenerManager
 (
 static_cast
 <
@@ -665,7 +667,7 @@ return
 mListenerManager
 ;
 }
-nsEventListenerManager
+EventListenerManager
 *
 nsWindowRoot
 :
