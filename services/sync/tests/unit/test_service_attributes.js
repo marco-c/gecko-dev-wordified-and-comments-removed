@@ -90,7 +90,7 @@ URL
 related
 Service
 properties
-corresopnd
+correspond
 to
 preference
 settings
