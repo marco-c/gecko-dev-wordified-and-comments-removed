@@ -130,10 +130,11 @@ function
 try
 {
 yield
-waitForSourceShown
+ensureSourceIs
 (
 gPanel
 CODE_URL
+true
 )
 ;
 yield
