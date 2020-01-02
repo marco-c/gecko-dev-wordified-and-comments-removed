@@ -112,6 +112,11 @@ nsIMobileConnectionProvider
 .
 idl
 '
+'
+nsIMobileNetworkInfo
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
