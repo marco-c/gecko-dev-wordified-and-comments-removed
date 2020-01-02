@@ -5090,7 +5090,7 @@ return
 true
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 CreateActorRunnable
 >

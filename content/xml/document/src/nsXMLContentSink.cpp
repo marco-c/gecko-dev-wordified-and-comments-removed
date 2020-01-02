@@ -877,7 +877,7 @@ true
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsXMLPrettyPrinter
 >

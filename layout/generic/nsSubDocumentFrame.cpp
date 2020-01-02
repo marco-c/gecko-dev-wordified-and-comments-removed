@@ -4687,7 +4687,7 @@ while
 cv
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

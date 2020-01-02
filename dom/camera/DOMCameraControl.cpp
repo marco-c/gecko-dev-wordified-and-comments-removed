@@ -3071,7 +3071,7 @@ GetOnShutter
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraShutterCallback
 >
@@ -3114,7 +3114,7 @@ GetOnClosed
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraClosedCallback
 >
@@ -3157,7 +3157,7 @@ GetOnRecorderStateChange
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraRecorderStateChange
 >
@@ -3200,7 +3200,7 @@ GetOnPreviewStateChange
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraPreviewStateChange
 >
@@ -3793,7 +3793,7 @@ MOZ_ASSERT
 mCameraControl
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraTakePictureCallback
 >
@@ -3999,7 +3999,7 @@ MOZ_ASSERT
 mCameraControl
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraAutoFocusCallback
 >
@@ -4021,7 +4021,7 @@ if
 cb
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraErrorCallback
 >
@@ -4133,7 +4133,7 @@ MOZ_ASSERT
 mCameraControl
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraTakePictureCallback
 >
@@ -4641,7 +4641,7 @@ if
 mGetCameraOnSuccessCb
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 GetCameraCallback
 >
@@ -4686,7 +4686,7 @@ if
 mReleaseOnSuccessCb
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraReleaseCallback
 >
@@ -4717,7 +4717,7 @@ if
 mOnClosedCb
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraClosedCallback
 >
@@ -4779,7 +4779,7 @@ n
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraShutterCallback
 >
@@ -4873,7 +4873,7 @@ stopped
 break
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 CameraPreviewStateChange
 >
@@ -4940,7 +4940,7 @@ if
 mStartRecordingOnSuccessCb
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 CameraStartRecordingCallback
 >
@@ -5125,7 +5125,7 @@ error
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 CameraRecorderStateChange
 >
@@ -5310,7 +5310,7 @@ get
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraSetConfigurationCallback
 >
@@ -5363,7 +5363,7 @@ NS_IsMainThread
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraAutoFocusCallback
 >
@@ -5416,7 +5416,7 @@ NS_IsMainThread
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraTakePictureCallback
 >
@@ -5521,7 +5521,7 @@ NS_IsMainThread
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 CameraErrorCallback
 >
@@ -5807,7 +5807,7 @@ aContext
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 CameraErrorCallback
 >

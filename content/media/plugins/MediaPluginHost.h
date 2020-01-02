@@ -45,7 +45,7 @@ MediaPluginReader
 class
 MediaPluginHost
 {
-nsCOMPtr
+nsRefPtr
 <
 MediaResourceServer
 >

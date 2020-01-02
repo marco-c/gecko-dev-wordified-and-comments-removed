@@ -21515,7 +21515,7 @@ return
 0
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
