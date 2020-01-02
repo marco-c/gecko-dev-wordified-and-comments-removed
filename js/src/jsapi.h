@@ -259,6 +259,13 @@ len
 )
 {
 }
+using
+CharPtr
+:
+:
+operator
+=
+;
 }
 ;
 #
