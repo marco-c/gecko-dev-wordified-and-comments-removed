@@ -13730,7 +13730,7 @@ MediaStreamGraphShutdownObserver
 )
 ;
 }
-AudioStream
+CubebUtils
 :
 :
 InitPreferredSampleRate
@@ -13743,7 +13743,7 @@ new
 MediaStreamGraphImpl
 (
 true
-AudioStream
+CubebUtils
 :
 :
 PreferredSampleRate

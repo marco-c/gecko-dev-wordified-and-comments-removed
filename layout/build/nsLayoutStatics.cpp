@@ -580,7 +580,7 @@ endif
 #
 include
 "
-AudioStream
+CubebUtils
 .
 h
 "
@@ -1395,7 +1395,7 @@ InitializeStatics
 (
 )
 ;
-AudioStream
+CubebUtils
 :
 :
 InitLibrary
@@ -1910,7 +1910,7 @@ Unlink
 ;
 #
 endif
-AudioStream
+CubebUtils
 :
 :
 ShutdownLibrary

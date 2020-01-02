@@ -360,7 +360,7 @@ aSampleRate
 }
 else
 {
-AudioStream
+CubebUtils
 :
 :
 InitPreferredSampleRate
@@ -373,7 +373,7 @@ static_cast
 float
 >
 (
-AudioStream
+CubebUtils
 :
 :
 PreferredSampleRate
@@ -2219,7 +2219,7 @@ mIsOffline
 ?
 mNumberOfChannels
 :
-AudioStream
+CubebUtils
 :
 :
 MaxNumberOfChannels

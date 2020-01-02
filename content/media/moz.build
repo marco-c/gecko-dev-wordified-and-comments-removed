@@ -406,6 +406,11 @@ BufferMediaResource
 h
 '
 '
+CubebUtils
+.
+h
+'
+'
 DecoderTraits
 .
 h
@@ -701,6 +706,11 @@ cpp
 '
 '
 AudioTrackList
+.
+cpp
+'
+'
+CubebUtils
 .
 cpp
 '
