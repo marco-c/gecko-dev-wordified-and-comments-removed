@@ -2825,6 +2825,11 @@ MozNetworkStatsData
 webidl
 '
 '
+MozNetworkStatsInterface
+.
+webidl
+'
+'
 MozSpeakerManager
 .
 webidl

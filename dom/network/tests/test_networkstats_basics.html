@@ -589,7 +589,7 @@ function
 Check
 if
 getSamples
-launch
+throws
 exception
 when
 start
@@ -677,7 +677,7 @@ ok
 true
 "
 getSamples
-launch
+throws
 exception
 when
 start
@@ -700,7 +700,7 @@ ok
 false
 "
 getSamples
-launch
+throws
 exception
 when
 start
@@ -758,8 +758,8 @@ different
 than
 /
 /
-nsIDOMMozNetworkStatsInterface
-launch
+MozNetworkStatsInterface
+throws
 an
 exception
 /
@@ -825,7 +825,7 @@ ok
 true
 "
 getSamples
-launch
+throws
 exception
 if
 network
@@ -835,7 +835,7 @@ not
 +
 "
 a
-nsIDOMMozNetworkStatsInterface
+MozNetworkStatsInterface
 "
 )
 ;
@@ -851,7 +851,7 @@ ok
 false
 "
 getSamples
-launch
+throws
 exception
 if
 network
@@ -861,7 +861,7 @@ not
 +
 "
 a
-nsIDOMMozNetworkStatsInterface
+MozNetworkStatsInterface
 "
 )
 ;
@@ -883,7 +883,7 @@ type
 different
 than
 Date
-launch
+throws
 an
 exception
 /
@@ -970,7 +970,7 @@ ok
 true
 "
 getSamples
-launch
+throws
 exception
 when
 start
@@ -994,7 +994,7 @@ ok
 false
 "
 getSamples
-launch
+throws
 exception
 when
 start
@@ -1047,7 +1047,7 @@ type
 different
 than
 Date
-launch
+throws
 an
 exception
 /
@@ -1134,7 +1134,7 @@ ok
 true
 "
 getSamples
-launch
+throws
 exception
 when
 end
@@ -1158,7 +1158,7 @@ ok
 false
 "
 getSamples
-launch
+throws
 exception
 when
 end
