@@ -2622,6 +2622,12 @@ jsobj
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+xblScope
+NS_ERROR_UNEXPECTED
+)
+;
 JSAutoCompartment
 ac
 (
