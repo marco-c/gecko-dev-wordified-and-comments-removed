@@ -3299,6 +3299,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineObjectIsTypeDescr
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineIsCallable
 (
 CallInfo
