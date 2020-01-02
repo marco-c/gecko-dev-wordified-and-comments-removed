@@ -1588,7 +1588,7 @@ toNot
 )
 -
 >
-operand
+input
 (
 )
 ifFalse
@@ -14253,7 +14253,7 @@ alloc
 {
 if
 (
-operand
+input
 (
 )
 -
@@ -14266,7 +14266,7 @@ isConstant
 bool
 result
 =
-operand
+input
 (
 )
 -
@@ -14320,7 +14320,7 @@ result
 }
 if
 (
-operand
+input
 (
 )
 -
@@ -14333,7 +14333,7 @@ type
 MIRType_Undefined
 |
 |
-operand
+input
 (
 )
 -
@@ -14360,7 +14360,7 @@ true
 ;
 if
 (
-operand
+input
 (
 )
 -
