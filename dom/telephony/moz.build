@@ -136,6 +136,11 @@ TelephonyCallGroup
 .
 h
 '
+'
+TelephonyCallId
+.
+h
+'
 ]
 EXPORTS
 .
@@ -214,6 +219,11 @@ cpp
 '
 '
 TelephonyCallGroup
+.
+cpp
+'
+'
+TelephonyCallId
 .
 cpp
 '
