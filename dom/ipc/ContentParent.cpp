@@ -57,7 +57,7 @@ h
 endif
 #
 ifdef
-XP_UNIX
+MOZ_WIDGET_GONK
 #
 include
 <
@@ -4495,7 +4495,7 @@ aPriority
 ;
 #
 ifdef
-XP_UNIX
+MOZ_WIDGET_GONK
 siginfo_t
 info
 ;
