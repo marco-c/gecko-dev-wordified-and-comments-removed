@@ -207,6 +207,12 @@ code
 =
 =
 NS_BINDING_RETARGETED
+|
+|
+code
+=
+=
+NS_ERROR_CORRUPTED_CONTENT
 )
 ;
 }
