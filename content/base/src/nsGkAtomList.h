@@ -6172,6 +6172,13 @@ phase
 )
 GK_ATOM
 (
+picture
+"
+picture
+"
+)
+GK_ATOM
+(
 ping
 "
 ping
@@ -15853,13 +15860,6 @@ GK_ATOM
 password
 "
 password
-"
-)
-GK_ATOM
-(
-picture
-"
-picture
 "
 )
 GK_ATOM
