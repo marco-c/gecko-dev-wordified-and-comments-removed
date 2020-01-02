@@ -780,7 +780,7 @@ true
 [
 Throws
 ]
-nsISupports
+DOMRequest
 getCardLock
 (
 DOMString
@@ -1680,7 +1680,7 @@ true
 [
 Throws
 ]
-nsISupports
+DOMRequest
 unlockCardLock
 (
 any
@@ -1973,7 +1973,7 @@ true
 [
 Throws
 ]
-nsISupports
+DOMRequest
 setCardLock
 (
 any
@@ -2079,7 +2079,7 @@ undefined
 [
 Throws
 ]
-nsISupports
+DOMRequest
 getCardLockRetryCount
 (
 DOMString
@@ -2143,7 +2143,7 @@ DOMRequest
 [
 Throws
 ]
-nsISupports
+DOMRequest
 readContacts
 (
 DOMString
@@ -2228,7 +2228,7 @@ DOMRequest
 [
 Throws
 ]
-nsISupports
+DOMRequest
 updateContact
 (
 DOMString
@@ -2367,7 +2367,7 @@ null
 [
 Throws
 ]
-nsISupports
+DOMRequest
 iccOpenChannel
 (
 DOMString
@@ -2463,7 +2463,7 @@ APDU
 [
 Throws
 ]
-nsISupports
+DOMRequest
 iccExchangeAPDU
 (
 long
@@ -2520,7 +2520,7 @@ DOMRequest
 [
 Throws
 ]
-nsISupports
+DOMRequest
 iccCloseChannel
 (
 long
@@ -2652,7 +2652,7 @@ MozIccManager
 [
 Throws
 ]
-nsISupports
+DOMRequest
 matchMvno
 (
 DOMString

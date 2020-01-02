@@ -27,6 +27,9 @@ namespace
 dom
 {
 class
+DOMRequest
+;
+class
 Icc
 MOZ_FINAL
 :
@@ -224,7 +227,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 GetCardLock
 (
@@ -239,7 +242,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 UnlockCardLock
 (
@@ -265,7 +268,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 SetCardLock
 (
@@ -291,7 +294,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 GetCardLockRetryCount
 (
@@ -306,7 +309,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 ReadContacts
 (
@@ -321,7 +324,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 UpdateContact
 (
@@ -355,7 +358,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 IccOpenChannel
 (
@@ -370,7 +373,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 IccExchangeAPDU
 (
@@ -398,7 +401,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 IccCloseChannel
 (
@@ -411,7 +414,7 @@ aRv
 ;
 already_AddRefed
 <
-nsISupports
+DOMRequest
 >
 MatchMvno
 (
