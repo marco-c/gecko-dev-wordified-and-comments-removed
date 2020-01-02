@@ -790,6 +790,17 @@ path
 return
 1
         
+bin
+=
+self
+.
+get_binary_path
+(
+'
+app
+'
+)
+        
 return
 run_marionette
 (
