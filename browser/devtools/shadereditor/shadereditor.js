@@ -2799,7 +2799,11 @@ tooltip
 .
 setTextContent
 (
+{
 messages
+:
+messages
+}
 )
 ;
 tooltip
