@@ -148,12 +148,6 @@ event
 new
 nsRunnable
 ;
-NS_ENSURE_TRUE
-(
-event
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 return
 NS_DispatchToMainThread
 (

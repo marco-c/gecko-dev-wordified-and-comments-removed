@@ -411,10 +411,16 @@ bool
 aIsUniversalBinary
 )
 {
-NS_ENSURE_ARG_POINTER
+if
 (
+NS_WARN_IF
+(
+!
 aIsUniversalBinary
 )
+)
+return
+NS_ERROR_INVALID_ARG
 ;
 *
 aIsUniversalBinary

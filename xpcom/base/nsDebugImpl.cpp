@@ -2427,10 +2427,15 @@ void
 aInstancePtr
 )
 {
-NS_ENSURE_NO_AGGREGATION
+if
+(
+NS_WARN_IF
 (
 outer
 )
+)
+return
+NS_ERROR_NO_AGGREGATION
 ;
 return
 const_cast
