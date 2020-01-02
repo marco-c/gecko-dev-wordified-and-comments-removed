@@ -102,6 +102,11 @@ CertVerifier
 .
 cpp
 '
+'
+NSSCertDBTrustDomain
+.
+cpp
+'
 ]
 if
 not
