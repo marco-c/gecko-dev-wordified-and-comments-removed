@@ -400,9 +400,9 @@ value
 void
 neuter
 (
-void
+JSContext
 *
-newData
+cx
 )
 ;
 static
@@ -1767,9 +1767,6 @@ method
 void
 neuter
 (
-void
-*
-newData
 )
 ;
 private
