@@ -4492,7 +4492,6 @@ XDRStaticBlockObject
 (
 xdr
 blockEnclosingScope
-script
 tmp
 .
 address

@@ -3954,8 +3954,6 @@ mode
 xdr
 HandleObject
 enclosingScope
-HandleScript
-script
 StaticBlockObject
 *
 *
@@ -4531,7 +4529,6 @@ XDR_ENCODE
 >
 *
 HandleObject
-HandleScript
 StaticBlockObject
 *
 *
@@ -4550,7 +4547,6 @@ XDR_DECODE
 >
 *
 HandleObject
-HandleScript
 StaticBlockObject
 *
 *
