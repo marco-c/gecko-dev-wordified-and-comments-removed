@@ -2717,11 +2717,10 @@ mTag
 if
 (
 !
-ops
-.
-ToObject
+ToJSValue
 (
 cx
+ops
 &
 val
 )

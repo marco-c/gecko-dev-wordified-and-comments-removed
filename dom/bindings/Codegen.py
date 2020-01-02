@@ -37577,7 +37577,7 @@ wrapAndSetPtr
 %
 s
 .
-ToObject
+ToObjectInternal
 (
 cx
 {
@@ -75220,7 +75220,7 @@ json
 )
     
 def
-toObjectMethod
+toObjectInternalMethod
 (
 self
 )
@@ -75351,7 +75351,7 @@ dictName
 }
 :
 :
-ToObject
+ToObjectInternal
 (
 cx
 rval
@@ -75531,7 +75531,7 @@ return
 ClassMethod
 (
 "
-ToObject
+ToObjectInternal
 "
 "
 bool
@@ -76227,7 +76227,7 @@ append
 (
 self
 .
-toObjectMethod
+toObjectInternalMethod
 (
 )
 )
