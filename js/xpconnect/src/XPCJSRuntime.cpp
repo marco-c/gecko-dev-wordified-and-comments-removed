@@ -369,6 +369,9 @@ __iterator__
 "
 __exposedProps__
 "
+"
+eval
+"
 }
 ;
 struct
