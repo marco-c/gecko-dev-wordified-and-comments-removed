@@ -73,12 +73,6 @@ and
 has
 been
 removed
-skip
--
-if
-(
-B2G
-)
 =
 =
 reset
@@ -93,9 +87,6 @@ box
 ref
 .
 svg
-#
-bug
-773482
 =
 =
 reset

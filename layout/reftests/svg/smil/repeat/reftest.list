@@ -3,12 +3,6 @@ Tests
 for
 repeat
 behaviour
-skip
--
-if
-(
-B2G
-)
 =
 =
 indefinite
@@ -25,9 +19,6 @@ box
 ref
 .
 svg
-#
-bug
-773482
 =
 =
 init
