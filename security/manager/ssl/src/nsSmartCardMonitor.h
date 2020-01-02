@@ -1,9 +1,9 @@
 #
 ifndef
-_NSSMARTCARDMONITOR_
+nsSmartCardMonitor_h
 #
 define
-_NSSMARTCARDMONITOR_
+nsSmartCardMonitor_h
 #
 include
 "
@@ -160,7 +160,7 @@ CK_SLOT_ID
 slotid
 )
 ;
-nsresult
+void
 SendEvent
 (
 const
