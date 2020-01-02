@@ -129,8 +129,6 @@ require
 "
 devtools
 /
-webide
-/
 app
 -
 manager
