@@ -525,11 +525,11 @@ NS_IsMainThread
 )
 )
 ;
-mBufferDecoder
+mDecoderReader
 =
 nullptr
 ;
-mDecoderReader
+mBufferDecoder
 =
 nullptr
 ;
