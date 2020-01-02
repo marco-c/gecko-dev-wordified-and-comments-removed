@@ -101,7 +101,7 @@ GetDOMWindowUtils
 (
 nsIDocument
 *
-doc
+aDoc
 )
 ;
 static
@@ -113,7 +113,7 @@ GetDOMWindowUtils
 (
 nsIContent
 *
-content
+aContent
 )
 ;
 }

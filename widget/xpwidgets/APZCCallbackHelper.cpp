@@ -437,7 +437,7 @@ GetDOMWindowUtils
 (
 nsIDocument
 *
-doc
+aDoc
 )
 {
 nsCOMPtr
@@ -452,7 +452,7 @@ nsIDOMWindow
 >
 window
 =
-doc
+aDoc
 -
 >
 GetDefaultView
@@ -491,7 +491,7 @@ GetDOMWindowUtils
 (
 nsIContent
 *
-content
+aContent
 )
 {
 nsCOMPtr
@@ -504,7 +504,7 @@ nsIDocument
 *
 doc
 =
-content
+aContent
 -
 >
 GetCurrentDoc
