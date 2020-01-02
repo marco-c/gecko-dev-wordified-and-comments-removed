@@ -5177,6 +5177,9 @@ js
 Value
 ionReturnOverride_
 ;
+#
+ifdef
+JS_THREADSAFE
 static
 mozilla
 :
@@ -5187,6 +5190,14 @@ size_t
 >
 liveRuntimesCount
 ;
+#
+else
+static
+size_t
+liveRuntimesCount
+;
+#
+endif
 public
 :
 static

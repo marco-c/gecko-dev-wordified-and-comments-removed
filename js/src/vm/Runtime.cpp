@@ -284,6 +284,9 @@ js
 :
 TlsPerThreadData
 ;
+#
+ifdef
+JS_THREADSAFE
 Atomic
 <
 size_t
@@ -293,6 +296,16 @@ JSRuntime
 :
 liveRuntimesCount
 ;
+#
+else
+size_t
+JSRuntime
+:
+:
+liveRuntimesCount
+;
+#
+endif
 const
 JSSecurityCallbacks
 js

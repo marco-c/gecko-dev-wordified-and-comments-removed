@@ -146,11 +146,9 @@ refcnt
 nsrefcnt
 count
 =
-PR_ATOMIC_INCREMENT
-(
-&
++
++
 refcount
-)
 ;
 NS_LOG_ADDREF
 (
@@ -196,11 +194,9 @@ release
 nsrefcnt
 count
 =
-PR_ATOMIC_DECREMENT
-(
-&
+-
+-
 refcount
-)
 ;
 NS_LOG_RELEASE
 (

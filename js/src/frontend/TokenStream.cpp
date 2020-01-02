@@ -1327,6 +1327,8 @@ originPrincipals
 -
 >
 refcount
+>
+0
 )
 ;
 userbuf

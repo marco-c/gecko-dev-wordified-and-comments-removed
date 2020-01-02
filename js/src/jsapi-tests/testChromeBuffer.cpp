@@ -10,12 +10,11 @@ tests
 h
 "
 static
-JSPrincipals
+TestJSPrincipals
 system_principals
-=
-{
+(
 1
-}
+)
 ;
 static
 const
