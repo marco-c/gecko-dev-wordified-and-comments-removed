@@ -11633,7 +11633,7 @@ global
 )
 ;
 return
-nullptr
+false
 ;
 }
 JSAutoCompartment
@@ -11644,12 +11644,6 @@ aGlobal
 )
 ;
 {
-JS
-:
-:
-AutoAssertNoGC
-nogc
-;
 js
 :
 :

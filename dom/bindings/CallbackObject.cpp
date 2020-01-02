@@ -315,7 +315,7 @@ nullptr
 JS
 :
 :
-AutoAssertNoGC
+AutoSuppressGCAnalysis
 nogc
 ;
 if
