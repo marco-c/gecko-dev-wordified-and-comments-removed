@@ -1304,6 +1304,8 @@ doc
 =
 inspector
 =
+win
+=
 null
 ;
 finish

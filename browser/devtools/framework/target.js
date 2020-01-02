@@ -1747,6 +1747,12 @@ destroy
 (
 )
 ;
+this
+.
+_inspector
+=
+null
+;
 }
 this
 .

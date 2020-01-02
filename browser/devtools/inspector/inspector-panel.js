@@ -3821,6 +3821,12 @@ this
 _markupFrame
 ;
 }
+this
+.
+_markupBox
+=
+null
+;
 }
 togglePseudoClass
 :
