@@ -433,6 +433,12 @@ HINT_CONTENTS_VIDEO
 <
 <
 1
+HINT_CONTENTS_UNKNOWN
+=
+1
+<
+<
+2
 }
 ;
 TrackTypeHints

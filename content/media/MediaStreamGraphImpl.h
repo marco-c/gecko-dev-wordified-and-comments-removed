@@ -254,6 +254,11 @@ bool
 aRealtime
 TrackRate
 aSampleRate
+DOMMediaStream
+:
+:
+TrackTypeHints
+aHint
 )
 ;
 void

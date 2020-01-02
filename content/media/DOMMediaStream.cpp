@@ -904,6 +904,7 @@ MediaStreamGraph
 :
 GetInstance
 (
+aHintContents
 )
 ;
 InitStreamCommon
@@ -949,6 +950,7 @@ MediaStreamGraph
 :
 GetInstance
 (
+aHintContents
 )
 ;
 InitStreamCommon

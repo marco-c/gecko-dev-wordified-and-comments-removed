@@ -150,6 +150,14 @@ None
 #
 endif
 #
+ifdef
+CurrentTime
+#
+undef
+CurrentTime
+#
+endif
+#
 include
 "
 mozilla
