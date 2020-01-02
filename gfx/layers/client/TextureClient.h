@@ -648,11 +648,6 @@ return
 mFlags
 ;
 }
-void
-WaitForCompositorRecycle
-(
-)
-;
 bool
 IsImmutable
 (
