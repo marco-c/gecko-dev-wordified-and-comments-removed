@@ -8453,6 +8453,7 @@ SECItem
 *
 PK11_DEREncodePublicKey
 (
+const
 SECKEYPublicKey
 *
 pubk
