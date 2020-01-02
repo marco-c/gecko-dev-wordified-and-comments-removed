@@ -5932,9 +5932,12 @@ pages
 .
 Bug
 453442
-else
 if
 (
+!
+icon
+&
+&
 this
 .
 shouldLoadFavIcon
