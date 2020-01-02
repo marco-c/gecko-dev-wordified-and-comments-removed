@@ -292,6 +292,11 @@ SVGFEDistantLightElement
 h
 '
 '
+SVGFEDropShadowElement
+.
+h
+'
+'
 SVGFEFloodElement
 .
 h
