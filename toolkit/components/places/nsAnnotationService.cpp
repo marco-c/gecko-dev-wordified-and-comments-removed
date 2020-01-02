@@ -1107,6 +1107,16 @@ AnnotationService
 "
 SetItemAnnotation
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 NS_ENSURE_ARG_MIN

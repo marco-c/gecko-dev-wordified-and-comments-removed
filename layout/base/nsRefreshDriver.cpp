@@ -4083,6 +4083,16 @@ nsRefreshDriver
 "
 Tick
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 if

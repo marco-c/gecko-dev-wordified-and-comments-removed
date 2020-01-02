@@ -1903,6 +1903,16 @@ nsStyleContext
 "
 CalcStyleDifference
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+CSS
 )
 ;
 NS_ABORT_IF_FALSE

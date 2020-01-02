@@ -1363,6 +1363,16 @@ Startup
 "
 XRE_InitChildProcess
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+OTHER
 )
 ;
 sChildProcessType

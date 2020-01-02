@@ -301,6 +301,16 @@ ImageDecoder
 "
 Write
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 MOZ_ASSERT

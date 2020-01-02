@@ -10624,6 +10624,16 @@ DrawBorders
 :
 multipass
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 NS_FOR_CSS_CORNERS

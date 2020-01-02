@@ -1441,6 +1441,16 @@ Events
 "
 ProcessGeckoEvents
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+EVENTS
 )
 ;
 nsAppShell

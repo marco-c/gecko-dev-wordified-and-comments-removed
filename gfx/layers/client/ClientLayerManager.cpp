@@ -824,6 +824,16 @@ ClientLayerManager
 "
 EndTransactionInternal
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 #

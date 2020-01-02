@@ -4352,6 +4352,16 @@ AsyncCompositionManager
 "
 TransformShadowTree
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+GRAPHICS
 )
 ;
 Layer

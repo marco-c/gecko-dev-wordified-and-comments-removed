@@ -318,6 +318,16 @@ PluginStreamListener
 "
 OnStartRequest
 "
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+:
+:
+NETWORK
 )
 ;
 nsCOMPtr
