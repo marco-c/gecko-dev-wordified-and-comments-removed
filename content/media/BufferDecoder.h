@@ -143,7 +143,6 @@ int64_t
 GetMediaDuration
 (
 )
-MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
