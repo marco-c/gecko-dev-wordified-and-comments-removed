@@ -1743,6 +1743,17 @@ mBaselineOffsetFromCrossStart
 ;
 }
 void
+ResolveFlexibleLengths
+(
+const
+FlexboxAxisTracker
+&
+aAxisTracker
+nscoord
+aFlexContainerMainSize
+)
+;
+void
 PositionItemsInMainAxis
 (
 uint8_t
@@ -4799,7 +4810,7 @@ true
 ;
 }
 void
-nsFlexContainerFrame
+FlexLine
 :
 :
 ResolveFlexibleLengths
@@ -4810,12 +4821,6 @@ FlexboxAxisTracker
 aAxisTracker
 nscoord
 aFlexContainerMainSize
-nsTArray
-<
-FlexItem
->
-&
-aItems
 )
 {
 PR_LOG
@@ -4835,7 +4840,7 @@ n
 ;
 if
 (
-aItems
+mItems
 .
 IsEmpty
 (
@@ -4859,7 +4864,7 @@ i
 ;
 i
 <
-aItems
+mItems
 .
 Length
 (
@@ -4873,7 +4878,7 @@ i
 spaceAvailableForFlexItemsContentBoxes
 -
 =
-aItems
+mItems
 [
 i
 ]
@@ -4894,7 +4899,7 @@ havePositiveFreeSpace
 ShouldUseFlexGrow
 (
 spaceAvailableForFlexItemsContentBoxes
-aItems
+mItems
 )
 ;
 for
@@ -4906,7 +4911,7 @@ iterationCounter
 ;
 iterationCounter
 <
-aItems
+mItems
 .
 Length
 (
@@ -4931,7 +4936,7 @@ i
 ;
 i
 <
-aItems
+mItems
 .
 Length
 (
@@ -4946,7 +4951,7 @@ FlexItem
 &
 item
 =
-aItems
+mItems
 [
 i
 ]
@@ -5055,7 +5060,7 @@ i
 ;
 i
 <
-aItems
+mItems
 .
 Length
 (
@@ -5070,7 +5075,7 @@ FlexItem
 &
 item
 =
-aItems
+mItems
 [
 i
 ]
@@ -5210,7 +5215,7 @@ for
 uint32_t
 i
 =
-aItems
+mItems
 .
 Length
 (
@@ -5220,7 +5225,7 @@ Length
 ;
 i
 <
-aItems
+mItems
 .
 Length
 (
@@ -5235,7 +5240,7 @@ FlexItem
 &
 item
 =
-aItems
+mItems
 [
 i
 ]
@@ -5451,7 +5456,7 @@ i
 ;
 i
 <
-aItems
+mItems
 .
 Length
 (
@@ -5466,7 +5471,7 @@ FlexItem
 &
 item
 =
-aItems
+mItems
 [
 i
 ]
@@ -5583,7 +5588,7 @@ SetHadMaxViolation
 FreezeOrRestoreEachFlexibleSize
 (
 totalViolation
-aItems
+mItems
 )
 ;
 PR_LOG
@@ -5630,7 +5635,7 @@ i
 ;
 i
 <
-aItems
+mItems
 .
 Length
 (
@@ -5643,7 +5648,7 @@ i
 {
 MOZ_ASSERT
 (
-aItems
+mItems
 [
 i
 ]
@@ -8524,13 +8529,12 @@ availableHeightForContent
 aStatus
 )
 ;
+line
+.
 ResolveFlexibleLengths
 (
 axisTracker
 contentBoxMainSize
-line
-.
-mItems
 )
 ;
 for
