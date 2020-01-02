@@ -1,3 +1,9 @@
+#
+ifndef
+SkImages_DEFINED
+#
+define
+SkImages_DEFINED
 class
 SkImages
 {
@@ -11,3 +17,5 @@ InitializeFlattenables
 ;
 }
 ;
+#
+endif

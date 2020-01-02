@@ -38,6 +38,12 @@ FloatToConvolutionFixed
 undef
 ConvolutionFixedToFloat
 #
+undef
+FloatToFixed
+#
+undef
+FixedToFloat
+#
 endif
 class
 SkConvolutionFilter1D

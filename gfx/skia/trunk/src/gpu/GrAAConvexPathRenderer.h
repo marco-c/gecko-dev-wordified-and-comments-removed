@@ -5,6 +5,12 @@ GrPathRenderer
 .
 h
 "
+#
+ifndef
+GrAAConvexPathRenderer_DEFINED
+#
+define
+GrAAConvexPathRenderer_DEFINED
 class
 GrAAConvexPathRenderer
 :
@@ -63,3 +69,5 @@ SK_OVERRIDE
 ;
 }
 ;
+#
+endif

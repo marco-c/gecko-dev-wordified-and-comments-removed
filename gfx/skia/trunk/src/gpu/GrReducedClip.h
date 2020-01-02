@@ -1,4 +1,10 @@
 #
+ifndef
+GrReducedClip_DEFINED
+#
+define
+GrReducedClip_DEFINED
+#
 include
 "
 SkClipStack
@@ -66,3 +72,5 @@ NULL
 )
 ;
 }
+#
+endif
