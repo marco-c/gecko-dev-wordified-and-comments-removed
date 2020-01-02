@@ -302,7 +302,7 @@ aRv
 ;
 already_AddRefed
 <
-DOMRequest
+Promise
 >
 StartDiscovery
 (
@@ -313,7 +313,7 @@ aRv
 ;
 already_AddRefed
 <
-DOMRequest
+Promise
 >
 StopDiscovery
 (
@@ -757,13 +757,7 @@ Root
 ;
 already_AddRefed
 <
-mozilla
-:
-:
-dom
-:
-:
-DOMRequest
+Promise
 >
 StartStopDiscovery
 (
