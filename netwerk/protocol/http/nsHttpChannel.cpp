@@ -9357,6 +9357,10 @@ mCachedContentIsPartial
 =
 false
 ;
+mConcurentCacheAccess
+=
+0
+;
 gHttpHandler
 -
 >
@@ -21814,10 +21818,6 @@ mUpgradeProtocolCallback
 ;
 }
 }
-mIsPending
-=
-false
-;
 if
 (
 mCacheEntry
@@ -22049,6 +22049,10 @@ rv
 }
 }
 }
+mIsPending
+=
+false
+;
 mStatus
 =
 status
