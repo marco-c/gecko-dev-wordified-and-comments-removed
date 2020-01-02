@@ -427,7 +427,7 @@ enabled
 "
 ]
 interface
-CryptoKey
+Key
 {
 readonly
 attribute
@@ -471,16 +471,16 @@ enabled
 "
 ]
 interface
-CryptoKeyPair
+KeyPair
 {
 readonly
 attribute
-CryptoKey
+Key
 publicKey
 ;
 readonly
 attribute
-CryptoKey
+Key
 privateKey
 ;
 }
@@ -532,7 +532,7 @@ encrypt
 (
 AlgorithmIdentifier
 algorithm
-CryptoKey
+Key
 key
 CryptoOperationData
 data
@@ -543,7 +543,7 @@ decrypt
 (
 AlgorithmIdentifier
 algorithm
-CryptoKey
+Key
 key
 CryptoOperationData
 data
@@ -554,7 +554,7 @@ sign
 (
 AlgorithmIdentifier
 algorithm
-CryptoKey
+Key
 key
 CryptoOperationData
 data
@@ -565,7 +565,7 @@ verify
 (
 AlgorithmIdentifier
 algorithm
-CryptoKey
+Key
 key
 CryptoOperationData
 signature
@@ -601,7 +601,7 @@ deriveKey
 (
 AlgorithmIdentifier
 algorithm
-CryptoKey
+Key
 baseKey
 AlgorithmIdentifier
 derivedKeyType
@@ -619,7 +619,7 @@ deriveBits
 (
 AlgorithmIdentifier
 algorithm
-CryptoKey
+Key
 baseKey
 unsigned
 long
@@ -649,7 +649,7 @@ exportKey
 (
 KeyFormat
 format
-CryptoKey
+Key
 key
 )
 ;

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_CryptoKey_h
+mozilla_dom_Key_h
 #
 define
-mozilla_dom_CryptoKey_h
+mozilla_dom_Key_h
 #
 include
 "
@@ -103,7 +103,7 @@ namespace
 dom
 {
 class
-CryptoKey
+Key
 MOZ_FINAL
 :
 public
@@ -118,7 +118,7 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-CryptoKey
+Key
 )
 static
 const
@@ -208,7 +208,7 @@ UNWRAPKEY
 0x00800000
 }
 ;
-CryptoKey
+Key
 (
 nsIGlobalObject
 *
@@ -488,7 +488,7 @@ aReader
 private
 :
 ~
-CryptoKey
+Key
 (
 )
 ;
