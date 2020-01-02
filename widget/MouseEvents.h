@@ -1151,12 +1151,5 @@ mozilla
 WidgetMouseEvent
 nsMouseEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetMouseScrollEvent
-nsMouseScrollEvent
-;
 #
 endif

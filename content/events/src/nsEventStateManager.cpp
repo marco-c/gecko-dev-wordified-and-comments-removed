@@ -10714,7 +10714,7 @@ GetParent
 )
 ;
 }
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 event
 (
 aEvent
@@ -10916,7 +10916,7 @@ GetParent
 )
 ;
 }
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 event
 (
 aEvent

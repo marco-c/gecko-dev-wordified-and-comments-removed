@@ -23933,7 +23933,7 @@ only
 /
 /
 sets
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 .
 scrollOverflow
 when
@@ -23953,7 +23953,7 @@ events
 .
 /
 /
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 .
 scrollOverflow
 only

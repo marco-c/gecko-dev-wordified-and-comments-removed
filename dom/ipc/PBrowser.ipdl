@@ -315,9 +315,6 @@ using
 nsMouseEvent
 ;
 using
-nsMouseScrollEvent
-;
-using
 mozilla
 :
 :
