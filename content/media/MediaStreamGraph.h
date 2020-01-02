@@ -1649,10 +1649,6 @@ mUpdateFinished
 (
 false
 )
-mDestroyed
-(
-false
-)
 {
 }
 virtual
@@ -2043,9 +2039,6 @@ mPullEnabled
 ;
 bool
 mUpdateFinished
-;
-bool
-mDestroyed
 ;
 bool
 mNeedsMixing
