@@ -2238,6 +2238,7 @@ XPCJSRuntime
 (
 )
 ;
+explicit
 XPCJSRuntime
 (
 nsXPConnect
@@ -4216,6 +4217,7 @@ depth
 struct
 ScopeSizeInfo
 {
+explicit
 ScopeSizeInfo
 (
 mozilla
@@ -5375,6 +5377,7 @@ XPCNativeSetKey
 {
 public
 :
+explicit
 XPCNativeSetKey
 (
 XPCNativeSet
@@ -5982,6 +5985,7 @@ mFlags
 ;
 public
 :
+explicit
 XPCNativeScriptableFlags
 (
 uint32_t
@@ -6757,6 +6761,7 @@ trc
 }
 protected
 :
+explicit
 XPCNativeScriptableInfo
 (
 nsIXPCScriptable
@@ -6840,6 +6845,7 @@ XPCNativeScriptableCreateInfo
 {
 public
 :
+explicit
 XPCNativeScriptableCreateInfo
 (
 const
@@ -9945,6 +9951,7 @@ XPCJSObjectHolder
 (
 )
 ;
+explicit
 XPCJSObjectHolder
 (
 JSObject
@@ -10754,6 +10761,7 @@ nsIInterfaceInfo
 aInfo
 )
 ;
+explicit
 nsJSIID
 (
 nsIInterfaceInfo
@@ -10838,6 +10846,7 @@ mDetails
 struct
 XPCJSContextInfo
 {
+explicit
 XPCJSContextInfo
 (
 JSContext
@@ -10886,6 +10895,7 @@ XPCJSContextStack
 {
 public
 :
+explicit
 XPCJSContextStack
 (
 XPCJSRuntime
@@ -11110,6 +11120,7 @@ nsXPCComponentsBase
 (
 )
 ;
+explicit
 nsXPCComponentsBase
 (
 XPCWrappedNativeScope
@@ -11171,6 +11182,7 @@ nsXPCComponentsBase
 NS_DECL_NSIXPCCOMPONENTS
 protected
 :
+explicit
 nsXPCComponents
 (
 XPCWrappedNativeScope
@@ -11373,6 +11385,7 @@ AutoScriptEvaluate
 {
 public
 :
+explicit
 AutoScriptEvaluate
 (
 JSContext
@@ -11587,6 +11600,7 @@ AutoMarkingPtr
 {
 public
 :
+explicit
 AutoMarkingPtr
 (
 JSContext
@@ -11757,6 +11771,7 @@ AutoMarkingPtr
 {
 public
 :
+explicit
 TypedAutoMarkingPtr
 (
 JSContext
@@ -11966,6 +11981,7 @@ AutoMarkingPtr
 {
 public
 :
+explicit
 ArrayAutoMarkingPtr
 (
 JSContext
@@ -12807,6 +12823,7 @@ OptionsBase
 {
 public
 :
+explicit
 OptionsBase
 (
 JSContext
@@ -12962,6 +12979,7 @@ OptionsBase
 {
 public
 :
+explicit
 SandboxOptions
 (
 JSContext
@@ -13097,6 +13115,7 @@ OptionsBase
 {
 public
 :
+explicit
 CreateObjectInOptions
 (
 JSContext
@@ -13160,6 +13179,7 @@ OptionsBase
 {
 public
 :
+explicit
 ExportFunctionOptions
 (
 JSContext
@@ -13223,6 +13243,7 @@ OptionsBase
 {
 public
 :
+explicit
 StackScopedCloneOptions
 (
 JSContext
@@ -13595,6 +13616,7 @@ LocationHintRegular
 LocationHintAddon
 }
 ;
+explicit
 CompartmentPrivate
 (
 JSCompartment
