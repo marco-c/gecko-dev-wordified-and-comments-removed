@@ -1409,7 +1409,7 @@ if
 conn
 -
 >
-ConnectionReady
+connectionReady
 (
 )
 )
@@ -3732,13 +3732,14 @@ i
 {
 if
 (
+!
 connections
 [
 i
 ]
 -
 >
-ConnectionReady
+isClosed
 (
 )
 )

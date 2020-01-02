@@ -1065,6 +1065,7 @@ mConnection
 >
 stepStatement
 (
+mNativeConnection
 aStatement
 )
 ;
@@ -1869,6 +1870,17 @@ Run
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mConnection
+-
+>
+isClosed
+(
+)
+)
+;
 {
 MutexAutoLock
 lockedScope
