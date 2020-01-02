@@ -382,6 +382,11 @@ gFront
 .
 setup
 (
+{
+reload
+:
+true
+}
 )
 ;
 "

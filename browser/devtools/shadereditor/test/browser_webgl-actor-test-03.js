@@ -45,6 +45,11 @@ front
 .
 setup
 (
+{
+reload
+:
+true
+}
 )
 ;
 ok
