@@ -3646,7 +3646,12 @@ NS_ERROR_NOT_AVAILABLE
 nsAutoWindowStateHelper
 windowStateHelper
 (
-aParent
+parentWindow
+-
+>
+GetOuterWindow
+(
+)
 )
 ;
 if
