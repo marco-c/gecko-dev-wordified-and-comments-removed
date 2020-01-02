@@ -1837,9 +1837,10 @@ else
 {
 SkASSERT
 (
-JSVAL_IS_DOUBLE
-(
 value
+.
+isDouble
+(
 )
 )
 ;

@@ -1723,9 +1723,10 @@ variant
 else
 if
 (
-JSVAL_IS_DOUBLE
-(
 val
+.
+isDouble
+(
 )
 )
 {

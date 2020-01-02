@@ -1106,9 +1106,10 @@ jsexception
 {
 if
 (
-JSVAL_IS_DOUBLE
-(
 jsexception
+.
+isDouble
+(
 )
 )
 rv
