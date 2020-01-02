@@ -13938,9 +13938,6 @@ MInterruptCheck
 ins
 )
 {
-#
-ifndef
-JS_CODEGEN_ARM
 if
 (
 GetIonContext
@@ -13985,8 +13982,6 @@ ins
 )
 ;
 }
-#
-endif
 LInterruptCheck
 *
 lir

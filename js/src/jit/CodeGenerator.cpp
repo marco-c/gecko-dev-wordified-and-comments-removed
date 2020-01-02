@@ -40576,6 +40576,7 @@ patchableBackedges_
 begin
 (
 )
+masm
 )
 ;
 #
