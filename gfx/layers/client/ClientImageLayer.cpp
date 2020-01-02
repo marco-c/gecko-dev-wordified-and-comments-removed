@@ -160,6 +160,9 @@ MOZ_THIS_IN_INITIALIZER_LIST
 )
 mImageClientTypeContainer
 (
+CompositableType
+:
+:
 BUFFER_UNKNOWN
 )
 {
@@ -205,6 +208,9 @@ aContainer
 ;
 mImageClientTypeContainer
 =
+CompositableType
+:
+:
 BUFFER_UNKNOWN
 ;
 }
@@ -389,6 +395,9 @@ if
 mImageClientTypeContainer
 !
 =
+CompositableType
+:
+:
 BUFFER_UNKNOWN
 )
 {
@@ -408,6 +417,9 @@ IsAsync
 {
 mImageClientTypeContainer
 =
+CompositableType
+:
+:
 BUFFER_BRIDGE
 ;
 return
@@ -442,7 +454,13 @@ GetImage
 (
 )
 ?
+CompositableType
+:
+:
 BUFFER_IMAGE_BUFFERED
+:
+CompositableType
+:
 :
 BUFFER_UNKNOWN
 ;
@@ -456,7 +474,13 @@ GetImage
 (
 )
 ?
+CompositableType
+:
+:
 BUFFER_IMAGE_SINGLE
+:
+CompositableType
+:
 :
 BUFFER_UNKNOWN
 ;
@@ -558,6 +582,9 @@ if
 type
 =
 =
+CompositableType
+:
+:
 BUFFER_UNKNOWN
 )
 {
@@ -610,6 +637,9 @@ if
 type
 =
 =
+CompositableType
+:
+:
 BUFFER_BRIDGE
 )
 {

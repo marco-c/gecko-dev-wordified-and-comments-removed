@@ -581,6 +581,9 @@ if
 (
 aMode
 &
+OpenMode
+:
+:
 OPEN_READ
 )
 {
@@ -594,6 +597,9 @@ if
 (
 aMode
 &
+OpenMode
+:
+:
 OPEN_WRITE
 )
 {

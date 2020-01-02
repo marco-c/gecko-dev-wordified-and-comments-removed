@@ -1383,6 +1383,9 @@ MOZ_OVERRIDE
 return
 TextureInfo
 (
+CompositableType
+:
+:
 BUFFER_TILED
 )
 ;
