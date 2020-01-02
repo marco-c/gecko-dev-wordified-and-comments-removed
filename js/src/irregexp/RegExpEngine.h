@@ -229,6 +229,11 @@ is_ascii
 false
 )
 ;
+template
+<
+typename
+CharT
+>
 RegExpRunStatus
 ExecuteCode
 (
@@ -242,7 +247,7 @@ JitCode
 *
 codeBlock
 const
-jschar
+CharT
 *
 chars
 size_t
@@ -254,6 +259,11 @@ MatchPairs
 matches
 )
 ;
+template
+<
+typename
+CharT
+>
 RegExpRunStatus
 InterpretCode
 (
@@ -265,7 +275,7 @@ uint8_t
 *
 byteCode
 const
-jschar
+CharT
 *
 chars
 size_t
