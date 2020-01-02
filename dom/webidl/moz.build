@@ -2868,6 +2868,11 @@ BluetoothManager2
 .
 webidl
 '
+'
+BluetoothPairingHandle
+.
+webidl
+'
 ]
 else
 :
@@ -3416,6 +3421,11 @@ webidl
 '
 '
 BluetoothAttributeEvent
+.
+webidl
+'
+'
+BluetoothPairingEvent
 .
 webidl
 '
