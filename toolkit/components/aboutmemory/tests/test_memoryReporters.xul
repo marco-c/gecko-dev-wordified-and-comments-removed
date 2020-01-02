@@ -1265,6 +1265,9 @@ amounts
 vsize
 "
 "
+vsizeMaxContiguous
+"
+"
 resident
 "
 "
