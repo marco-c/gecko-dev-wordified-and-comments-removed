@@ -1925,7 +1925,7 @@ const
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 *
 aCalc
 nsCSSValue
@@ -15056,7 +15056,7 @@ canStoreInRuleTree
 nsStyleCoord
 :
 :
-Calc
+CalcValue
 c2
 ;
 c2
