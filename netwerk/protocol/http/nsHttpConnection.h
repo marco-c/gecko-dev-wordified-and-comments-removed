@@ -663,12 +663,6 @@ nsAHttpTransaction
 int32_t
 )
 ;
-void
-ReportDataUsage
-(
-bool
-)
-;
 nsresult
 StartShortLivedTCPKeepalives
 (
@@ -684,6 +678,8 @@ DisableTCPKeepalives
 (
 )
 ;
+private
+:
 nsCOMPtr
 <
 nsISocketTransport
@@ -776,12 +772,6 @@ mTotalBytesRead
 ;
 int64_t
 mTotalBytesWritten
-;
-uint64_t
-mUnreportedBytesRead
-;
-uint64_t
-mUnreportedBytesWritten
 ;
 nsRefPtr
 <
