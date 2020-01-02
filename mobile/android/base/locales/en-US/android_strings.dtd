@@ -2628,16 +2628,6 @@ Tabs
 <
 !
 ENTITY
-close_private_tabs
-"
-Close
-Private
-Tabs
-"
->
-<
-!
-ENTITY
 tabs_normal
 "
 Tabs
