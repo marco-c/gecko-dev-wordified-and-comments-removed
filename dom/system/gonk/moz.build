@@ -184,6 +184,11 @@ nsINetworkManager
 idl
 '
 '
+nsINetworkService
+.
+idl
+'
+'
 nsISystemWorkerManager
 .
 idl
@@ -373,6 +378,11 @@ NetworkManager
 .
 manifest
 '
+'
+NetworkService
+.
+manifest
+'
 ]
 EXTRA_PP_COMPONENTS
 +
@@ -380,6 +390,11 @@ EXTRA_PP_COMPONENTS
 [
 '
 NetworkManager
+.
+js
+'
+'
+NetworkService
 .
 js
 '
