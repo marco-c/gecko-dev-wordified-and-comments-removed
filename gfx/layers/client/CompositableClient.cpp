@@ -748,6 +748,11 @@ SurfaceFormat
 aFormat
 TextureFlags
 aTextureFlags
+gfx
+:
+:
+BackendType
+aMoz2DBackend
 )
 {
 return
@@ -763,6 +768,7 @@ aFormat
 aTextureFlags
 |
 mTextureFlags
+aMoz2DBackend
 )
 ;
 }
@@ -779,6 +785,11 @@ SurfaceFormat
 aFormat
 TextureFlags
 aTextureFlags
+gfx
+:
+:
+BackendType
+aMoz2DBackend
 const
 IntSize
 &
@@ -798,6 +809,7 @@ aFormat
 aTextureFlags
 |
 mTextureFlags
+aMoz2DBackend
 aSizeHint
 )
 ;

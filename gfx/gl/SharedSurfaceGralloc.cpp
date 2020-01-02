@@ -356,6 +356,13 @@ ImageFormatToSurfaceFormat
 (
 format
 )
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 TEXTURE_FLAGS_DEFAULT
 )
 ;

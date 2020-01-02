@@ -195,6 +195,13 @@ CreateBufferTextureClient
 mSurfaceAllocator
 mFormat
 TEXTURE_IMMEDIATE_UPLOAD
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 )
 ;
 }
@@ -210,6 +217,13 @@ CreateTextureClientForDrawing
 mSurfaceAllocator
 mFormat
 TEXTURE_IMMEDIATE_UPLOAD
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 mSize
 )
 ;

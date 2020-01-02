@@ -808,6 +808,13 @@ mTextureInfo
 mTextureFlags
 |
 aFlags
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 mSize
 )
 ;
@@ -851,6 +858,13 @@ mTextureFlags
 TEXTURE_ALLOC_FALLBACK
 |
 aFlags
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 mSize
 )
 ;

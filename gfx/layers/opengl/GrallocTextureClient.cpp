@@ -353,6 +353,11 @@ gfx
 :
 IntSize
 aSize
+gfx
+:
+:
+BackendType
+aMoz2dBackend
 TextureFlags
 aFlags
 )
@@ -367,6 +372,7 @@ SurfaceFormat
 :
 :
 UNKNOWN
+aMoz2dBackend
 aFlags
 )
 mMappedBuffer
@@ -399,6 +405,11 @@ gfx
 :
 SurfaceFormat
 aFormat
+gfx
+:
+:
+BackendType
+aMoz2dBackend
 TextureFlags
 aFlags
 )
@@ -407,6 +418,7 @@ BufferTextureClient
 (
 aAllocator
 aFormat
+aMoz2dBackend
 aFlags
 )
 mMappedBuffer

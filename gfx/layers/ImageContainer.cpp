@@ -3233,6 +3233,13 @@ GetFormat
 (
 )
 TEXTURE_FLAGS_DEFAULT
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 surface
 -
 >

@@ -352,6 +352,13 @@ mFormat
 TEXTURE_IMMEDIATE_UPLOAD
 |
 TEXTURE_RECYCLE
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 )
 ;
 }
@@ -369,6 +376,13 @@ mFormat
 TEXTURE_FLAGS_DEFAULT
 |
 TEXTURE_RECYCLE
+gfx
+:
+:
+BackendType
+:
+:
+NONE
 mSize
 )
 ;

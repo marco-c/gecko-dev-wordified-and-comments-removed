@@ -147,6 +147,11 @@ DrawTarget
 >
 GetAsDrawTarget
 (
+gfx
+:
+:
+BackendType
+aBackend
 )
 ;
 static
