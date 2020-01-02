@@ -747,6 +747,11 @@ TextureFlags
 aFlags
 )
 ;
+void
+CompositorRecycle
+(
+)
+;
 virtual
 bool
 Lock

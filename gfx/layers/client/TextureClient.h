@@ -759,6 +759,13 @@ return
 mReleaseFenceHandle
 ;
 }
+virtual
+void
+WaitReleaseFence
+(
+)
+{
+}
 private
 :
 void

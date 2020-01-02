@@ -273,7 +273,10 @@ public
 TextureHost
 #
 if
+defined
+(
 MOZ_WIDGET_GONK
+)
 &
 &
 ANDROID_VERSION
@@ -410,7 +413,10 @@ mTextureSource
 }
 #
 if
+defined
+(
 MOZ_WIDGET_GONK
+)
 &
 &
 ANDROID_VERSION
