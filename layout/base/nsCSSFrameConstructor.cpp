@@ -14872,7 +14872,7 @@ aState
 PushAbsoluteContainingBlock
 (
 cb
-primaryFrame
+cb
 absoluteSaveState
 )
 ;
