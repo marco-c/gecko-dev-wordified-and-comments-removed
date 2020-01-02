@@ -199,6 +199,12 @@ h
 #
 endif
 #
+if
+defined
+(
+MOZ_CONTENT_SANDBOX
+)
+#
 include
 "
 seccomp_filter
@@ -212,6 +218,8 @@ linux_seccomp
 .
 h
 "
+#
+endif
 #
 ifdef
 MOZ_LOGGING
