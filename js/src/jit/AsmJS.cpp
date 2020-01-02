@@ -30429,7 +30429,7 @@ ParallelCompilationGuard
 :
 parallelState_
 (
-NULL
+nullptr
 )
 {
 }

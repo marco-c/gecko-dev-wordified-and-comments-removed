@@ -306,7 +306,7 @@ char
 *
 text
 =
-NULL
+nullptr
 unsigned
 int
 number

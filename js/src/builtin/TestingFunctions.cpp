@@ -4284,7 +4284,7 @@ FILE
 *
 dumpFile
 =
-NULL
+nullptr
 ;
 unsigned
 i

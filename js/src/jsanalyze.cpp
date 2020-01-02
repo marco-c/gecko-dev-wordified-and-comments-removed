@@ -1712,7 +1712,7 @@ LoopAnalysis
 *
 loop
 =
-NULL
+nullptr
 ;
 uint32_t
 offset
@@ -2169,7 +2169,7 @@ var
 .
 saved
 =
-NULL
+nullptr
 ;
 saved
 [
@@ -2589,7 +2589,7 @@ var
 .
 saved
 =
-NULL
+nullptr
 ;
 saved
 [
@@ -2877,7 +2877,7 @@ var
 .
 saved
 =
-NULL
+nullptr
 ;
 }
 }
@@ -3114,7 +3114,7 @@ var
 .
 lifetime
 =
-NULL
+nullptr
 ;
 saved
 [
@@ -7040,7 +7040,7 @@ code
 .
 pendingValues
 =
-NULL
+nullptr
 ;
 unsigned
 count

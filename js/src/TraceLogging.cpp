@@ -428,9 +428,9 @@ loggers
 ]
 =
 {
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 }
 ;
 bool
@@ -464,7 +464,7 @@ nextTextId
 )
 entries
 (
-NULL
+nullptr
 )
 curEntry
 (
@@ -480,7 +480,7 @@ fileno
 )
 out
 (
-NULL
+nullptr
 )
 id
 (
@@ -518,7 +518,7 @@ entries
 ;
 entries
 =
-NULL
+nullptr
 ;
 }
 if
@@ -533,7 +533,7 @@ out
 ;
 out
 =
-NULL
+nullptr
 ;
 }
 }
@@ -654,7 +654,7 @@ char
 *
 text_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1219,7 +1219,7 @@ text
 )
 !
 =
-NULL
+nullptr
 )
 {
 free
@@ -1241,7 +1241,7 @@ i
 .
 text_
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1356,7 +1356,7 @@ loggers
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
