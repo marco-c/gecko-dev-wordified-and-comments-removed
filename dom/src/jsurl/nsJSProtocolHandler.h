@@ -300,6 +300,13 @@ MOZ_OVERRIDE
 protected
 :
 virtual
+~
+nsJSURI
+(
+)
+{
+}
+virtual
 nsresult
 EqualsInternal
 (

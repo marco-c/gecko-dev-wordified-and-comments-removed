@@ -419,6 +419,12 @@ readerror
 )
 private
 :
+~
+MobileMessageManager
+(
+)
+{
+}
 already_AddRefed
 <
 DOMRequest

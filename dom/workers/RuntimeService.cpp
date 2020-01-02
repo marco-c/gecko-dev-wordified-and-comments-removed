@@ -3011,6 +3011,12 @@ Run
 }
 private
 :
+~
+LogViolationDetailsRunnable
+(
+)
+{
+}
 NS_DECL_NSIRUNNABLE
 }
 ;

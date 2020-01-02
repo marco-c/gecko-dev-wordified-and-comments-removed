@@ -82,12 +82,6 @@ aHashName
 )
 {
 }
-~
-RsaHashedKeyAlgorithm
-(
-)
-{
-}
 virtual
 JSObject
 *
@@ -136,6 +130,12 @@ aReader
 ;
 private
 :
+~
+RsaHashedKeyAlgorithm
+(
+)
+{
+}
 nsRefPtr
 <
 KeyAlgorithm

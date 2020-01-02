@@ -289,6 +289,8 @@ nsPIDOMWindow
 aWindow
 )
 ;
+protected
+:
 virtual
 ~
 DOMRequest
@@ -308,8 +310,6 @@ this
 )
 ;
 }
-protected
-:
 void
 FireEvent
 (

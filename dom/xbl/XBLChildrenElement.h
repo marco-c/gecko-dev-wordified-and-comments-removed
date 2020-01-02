@@ -101,11 +101,6 @@ aNodeInfo
 )
 {
 }
-~
-XBLChildrenElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
@@ -541,6 +536,13 @@ aIndex
 ]
 ;
 }
+protected
+:
+~
+XBLChildrenElement
+(
+)
+;
 private
 :
 nsTArray

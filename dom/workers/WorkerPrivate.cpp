@@ -3586,6 +3586,12 @@ AssertIsOnWorkerThread
 NS_DECL_ISUPPORTS_INHERITED
 private
 :
+~
+TopLevelWorkerFinishedRunnable
+(
+)
+{
+}
 NS_IMETHOD
 Run
 (

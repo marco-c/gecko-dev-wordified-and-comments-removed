@@ -145,6 +145,12 @@ typechange
 )
 private
 :
+~
+Connection
+(
+)
+{
+}
 void
 UpdateFromNetworkInfo
 (

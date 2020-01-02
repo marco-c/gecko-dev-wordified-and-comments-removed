@@ -12561,6 +12561,15 @@ aTabChild
 )
 {
 }
+TabChildGlobal
+:
+:
+~
+TabChildGlobal
+(
+)
+{
+}
 void
 TabChildGlobal
 :

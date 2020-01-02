@@ -60,11 +60,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-~
-DataStore
-(
-)
-;
 static
 already_AddRefed
 <
@@ -314,6 +309,11 @@ aRv
 ;
 private
 :
+~
+DataStore
+(
+)
+;
 nsRefPtr
 <
 DataStoreImpl
