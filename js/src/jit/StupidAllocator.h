@@ -53,6 +53,12 @@ AllocatedRegister
 AnyRegister
 reg
 ;
+LDefinition
+:
+:
+Type
+type
+;
 uint32_t
 vreg
 ;
@@ -267,6 +273,11 @@ uint32_t
 vreg
 RegisterIndex
 index
+LDefinition
+:
+:
+Type
+type
 )
 ;
 RegisterIndex

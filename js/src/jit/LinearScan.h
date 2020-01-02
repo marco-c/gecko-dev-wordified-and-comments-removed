@@ -425,6 +425,11 @@ from
 LAllocation
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 ;
 void

@@ -2082,6 +2082,11 @@ from
 LAllocation
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 {
 #
@@ -2144,6 +2149,7 @@ LMove
 (
 from
 to
+type
 )
 )
 ;
@@ -2160,6 +2166,11 @@ from
 LAllocation
 *
 to
+LDefinition
+:
+:
+Type
+type
 )
 {
 for
@@ -2272,6 +2283,7 @@ LMove
 (
 from
 to
+type
 )
 ;
 return
@@ -2284,6 +2296,7 @@ add
 (
 from
 to
+type
 )
 ;
 }
