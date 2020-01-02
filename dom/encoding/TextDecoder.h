@@ -179,16 +179,6 @@ aTookOwnership
 )
 ;
 }
-nsISupports
-*
-GetParentObject
-(
-)
-{
-return
-nullptr
-;
-}
 void
 Init
 (

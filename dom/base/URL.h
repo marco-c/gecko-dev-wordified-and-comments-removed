@@ -105,17 +105,6 @@ nsIURI
 aURI
 )
 ;
-nsISupports
-*
-GetParentObject
-(
-)
-const
-{
-return
-nullptr
-;
-}
 JSObject
 *
 WrapObject

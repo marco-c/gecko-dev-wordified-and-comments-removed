@@ -83324,9 +83324,16 @@ __init__
 (
 self
 descriptor
+                                    
 CGExampleMethod
 CGExampleGetter
 CGExampleSetter
+                                    
+wantGetParent
+=
+descriptor
+.
+wrapperCache
 )
         
 self
