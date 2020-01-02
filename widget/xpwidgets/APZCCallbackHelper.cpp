@@ -301,7 +301,9 @@ scrollableRect
 =
 aFrameMetrics
 .
-mScrollableRect
+GetExpandedScrollableRect
+(
+)
 ;
 displayPort
 =
