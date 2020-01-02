@@ -4014,13 +4014,6 @@ FinishInit
 AutoJSContext
 cx
 ;
-JS_SetReservedSlot
-(
-mFlatJSObject
-WN_XRAYEXPANDOCHAIN_SLOT
-JSVAL_NULL
-)
-;
 MOZ_ASSERT
 (
 1
@@ -5114,12 +5107,6 @@ flat
 )
 return
 NS_ERROR_FAILURE
-;
-SetWNExpandoChain
-(
-newobj
-nullptr
-)
 ;
 if
 (
