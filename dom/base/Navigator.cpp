@@ -5070,6 +5070,14 @@ get
 win
 -
 >
+SetHasGamepadEventListener
+(
+true
+)
+;
+win
+-
+>
 GetGamepads
 (
 aGamepads
