@@ -206,13 +206,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
-void
-DisconnectFromOwner
-(
-)
-MOZ_OVERRIDE
-;
 IMPL_EVENT_HANDLER
 (
 dataavailable
