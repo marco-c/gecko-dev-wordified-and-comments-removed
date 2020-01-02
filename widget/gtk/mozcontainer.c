@@ -183,13 +183,6 @@ GtkWidget
 child
 )
 ;
-static
-GtkContainerClass
-*
-parent_class
-=
-NULL
-;
 GType
 moz_container_get_type
 (
@@ -471,13 +464,6 @@ GtkWidgetClass
 widget_class
 =
 GTK_WIDGET_CLASS
-(
-klass
-)
-;
-parent_class
-=
-g_type_class_peek_parent
 (
 klass
 )
