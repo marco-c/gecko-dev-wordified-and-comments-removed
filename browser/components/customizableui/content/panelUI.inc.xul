@@ -274,6 +274,11 @@ appMenuCustomizeExit
 tooltip
 ;
 "
+closemenu
+=
+"
+none
+"
 oncommand
 =
 "
@@ -307,6 +312,11 @@ helpMenu
 .
 label
 ;
+"
+closemenu
+=
+"
+none
 "
 tooltiptext
 =
