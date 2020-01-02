@@ -6,7 +6,7 @@ this
 hasOwnProperty
 (
 "
-Type
+TypedObject
 "
 )
 )
@@ -20,8 +20,12 @@ var
 A
 =
 new
+TypedObject
+.
 ArrayType
 (
+TypedObject
+.
 uint8
 10
 )

@@ -6,7 +6,7 @@ this
 hasOwnProperty
 (
 "
-Type
+TypedObject
 "
 )
 )
@@ -17,6 +17,8 @@ TypeError
 )
 ;
 new
+TypedObject
+.
 StructType
 (
 RegExp

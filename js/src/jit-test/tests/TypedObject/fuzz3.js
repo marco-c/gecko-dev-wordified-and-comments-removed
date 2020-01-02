@@ -6,7 +6,7 @@ this
 hasOwnProperty
 (
 "
-Type
+TypedObject
 "
 )
 )
@@ -29,5 +29,7 @@ create
 )
 ;
 new
+TypedObject
+.
 StructType
 ;

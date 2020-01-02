@@ -6,7 +6,7 @@ this
 hasOwnProperty
 (
 "
-Type
+TypedObject
 "
 )
 )
@@ -17,8 +17,12 @@ Error
 )
 ;
 new
+TypedObject
+.
 ArrayType
 (
+TypedObject
+.
 uint8
 .
 0000000009
