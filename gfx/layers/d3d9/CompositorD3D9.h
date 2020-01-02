@@ -100,10 +100,7 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-gfx
-:
-:
-IntSize
+LayerIntSize
 &
 aSize
 )

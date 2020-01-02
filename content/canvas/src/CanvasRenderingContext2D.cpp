@@ -19374,7 +19374,7 @@ aManager
 >
 CanUseCanvasLayerForSize
 (
-gfxIntSize
+LayerIntSize
 (
 mWidth
 mHeight

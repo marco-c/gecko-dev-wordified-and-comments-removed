@@ -3548,7 +3548,7 @@ LayerManagerComposite
 CanUseCanvasLayerForSize
 (
 const
-gfxIntSize
+LayerIntSize
 &
 aSize
 )
@@ -3559,18 +3559,7 @@ mCompositor
 >
 CanUseCanvasLayerForSize
 (
-gfx
-:
-:
-IntSize
-(
 aSize
-.
-width
-aSize
-.
-height
-)
 )
 ;
 }
