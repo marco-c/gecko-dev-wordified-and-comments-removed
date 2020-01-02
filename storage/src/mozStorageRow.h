@@ -68,6 +68,12 @@ aStatement
 ;
 private
 :
+~
+Row
+(
+)
+{
+}
 uint32_t
 mNumCols
 ;

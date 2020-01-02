@@ -51,11 +51,6 @@ ResultSet
 (
 )
 ;
-~
-ResultSet
-(
-)
-;
 nsresult
 add
 (
@@ -80,6 +75,11 @@ Count
 }
 private
 :
+~
+ResultSet
+(
+)
+;
 int32_t
 mCurrentIndex
 ;

@@ -62,6 +62,12 @@ NS_DECL_MOZISTORAGESTATEMENTPARAMS
 NS_DECL_NSIXPCSCRIPTABLE
 protected
 :
+~
+StatementParams
+(
+)
+{
+}
 mozIStorageStatement
 *
 mStatement

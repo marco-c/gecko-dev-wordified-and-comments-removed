@@ -60,6 +60,12 @@ mozIStorageBindingParams
 >
 array_type
 ;
+~
+BindingParamsArray
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

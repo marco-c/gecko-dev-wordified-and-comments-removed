@@ -56,6 +56,12 @@ aMessage
 ;
 private
 :
+~
+Error
+(
+)
+{
+}
 int
 mResult
 ;
