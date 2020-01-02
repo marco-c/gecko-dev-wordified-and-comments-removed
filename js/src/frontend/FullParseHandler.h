@@ -1597,7 +1597,7 @@ true
 ;
 }
 bool
-addAccessorPropertyDefinition
+addMethodDefinition
 (
 ParseNode
 *

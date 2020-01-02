@@ -620,7 +620,7 @@ true
 ;
 }
 bool
-addAccessorPropertyDefinition
+addMethodDefinition
 (
 Node
 literal
