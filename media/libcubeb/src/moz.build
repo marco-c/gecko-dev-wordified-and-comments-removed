@@ -465,3 +465,6 @@ include
 '
 ]
 ]
+FAIL_ON_WARNINGS
+=
+True

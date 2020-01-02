@@ -6,9 +6,15 @@ define
 __MSVCRT_VERSION__
 0x0700
 #
+undef
+WINVER
+#
 define
 WINVER
 0x0501
+#
+undef
+WIN32_LEAN_AND_MEAN
 #
 define
 WIN32_LEAN_AND_MEAN
