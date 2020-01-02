@@ -10720,7 +10720,7 @@ filter
 .
 jslog
 "
-true
+false
 )
 ;
 pref
@@ -10832,7 +10832,7 @@ filter
 .
 networkinfo
 "
-true
+false
 )
 ;
 pref
@@ -10874,7 +10874,7 @@ filter
 .
 cssparser
 "
-true
+false
 )
 ;
 pref
