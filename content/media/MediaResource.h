@@ -1905,7 +1905,7 @@ RecreateChannel
 (
 )
 ;
-void
+nsresult
 SetupChannelHeaders
 (
 )

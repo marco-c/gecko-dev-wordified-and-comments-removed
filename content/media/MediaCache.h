@@ -198,6 +198,11 @@ aStatus
 )
 ;
 void
+NotifyChannelRecreated
+(
+)
+;
+void
 Pin
 (
 )
