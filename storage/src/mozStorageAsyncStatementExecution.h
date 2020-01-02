@@ -186,6 +186,9 @@ aStatements
 Connection
 *
 aConnection
+sqlite3
+*
+aNativeConnection
 mozIStorageStatementCallback
 *
 aCallback
@@ -210,6 +213,9 @@ aStatements
 Connection
 *
 aConnection
+sqlite3
+*
+aNativeConnection
 mozIStorageStatementCallback
 *
 aCallback
@@ -293,6 +299,10 @@ nsRefPtr
 Connection
 >
 mConnection
+;
+sqlite3
+*
+mNativeConnection
 ;
 mozStorageAsyncTransaction
 *

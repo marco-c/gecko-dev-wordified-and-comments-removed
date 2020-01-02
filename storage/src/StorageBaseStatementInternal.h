@@ -26,6 +26,9 @@ nsAutoPtr
 h
 "
 struct
+sqlite3
+;
+struct
 sqlite3_stmt
 ;
 class
@@ -147,6 +150,10 @@ nsRefPtr
 Connection
 >
 mDBConnection
+;
+sqlite3
+*
+mNativeConnection
 ;
 sqlite3_stmt
 *

@@ -106,6 +106,9 @@ initialize
 Connection
 *
 aDBConnection
+sqlite3
+*
+aNativeConnection
 const
 nsACString
 &

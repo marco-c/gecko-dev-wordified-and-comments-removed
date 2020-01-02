@@ -90,11 +90,6 @@ commit
 =
 0
 ;
-:
-:
-sqlite3_commit_hook
-(
-*
 static_cast
 <
 Connection
@@ -103,6 +98,10 @@ Connection
 (
 aDB
 )
+-
+>
+setCommitHook
+(
 commit_hook
 &
 commit
@@ -155,11 +154,6 @@ SpinUntilCompleted
 (
 )
 ;
-:
-:
-sqlite3_commit_hook
-(
-*
 static_cast
 <
 Connection
@@ -168,7 +162,10 @@ Connection
 (
 aDB
 )
-nullptr
+-
+>
+setCommitHook
+(
 nullptr
 )
 ;
