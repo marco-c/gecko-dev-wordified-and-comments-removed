@@ -307,9 +307,6 @@ content
 JSGCSettingsArray
 gcSettings
 ;
-bool
-jitHardening
-;
 #
 ifdef
 JS_GC_ZEAL
@@ -324,14 +321,10 @@ endif
 JSSettings
 (
 )
-:
-jitHardening
-(
-false
-)
 #
 ifdef
 JS_GC_ZEAL
+:
 gcZeal
 (
 0
