@@ -3412,10 +3412,6 @@ release
 +
 global
 :
-CERT_AddExtensionByOID
-;
-CERT_GetGeneralNameTypeFromString
-;
 PK11_PubEncrypt
 ;
 PK11_PrivDecrypt
