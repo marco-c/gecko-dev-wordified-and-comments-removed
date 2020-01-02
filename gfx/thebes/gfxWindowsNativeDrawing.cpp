@@ -842,16 +842,6 @@ IsDoublePass
 {
 if
 (
-!
-mContext
--
->
-IsCairo
-(
-)
-&
-&
-(
 mContext
 -
 >
@@ -887,7 +877,6 @@ GetDrawTarget
 >
 IsDualDrawTarget
 (
-)
 )
 )
 {
