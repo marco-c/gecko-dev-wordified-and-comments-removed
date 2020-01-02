@@ -803,6 +803,7 @@ forget
 ;
 }
 static
+const
 PLDHashTableOps
 hash_table_ops
 =
@@ -1257,6 +1258,7 @@ nsCacheableFuncStringContentList
 list
 ;
 static
+const
 PLDHashTableOps
 hash_table_ops
 =
