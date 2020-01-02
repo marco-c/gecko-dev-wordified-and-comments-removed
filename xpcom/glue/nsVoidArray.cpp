@@ -68,13 +68,6 @@ kMaxGrowArrayBy
 static
 const
 int32_t
-kAutoClearCompactSizeFactor
-=
-4
-;
-static
-const
-int32_t
 kLinearThreshold
 =
 24
