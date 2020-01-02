@@ -2239,6 +2239,15 @@ mState
 &
 NS_FRAME_IS_NONDISPLAY
 )
+&
+&
+!
+disp
+-
+>
+IsInnerTableStyle
+(
+)
 )
 {
 StickyScrollContainer
