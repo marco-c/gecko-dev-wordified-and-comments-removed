@@ -242,9 +242,6 @@ GLScreenBuffer
 )
 {
 delete
-mFactory
-;
-delete
 mStream
 ;
 delete
@@ -252,6 +249,9 @@ mDraw
 ;
 delete
 mRead
+;
+delete
+mFactory
 ;
 }
 void
