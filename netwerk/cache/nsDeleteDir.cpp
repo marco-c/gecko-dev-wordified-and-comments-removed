@@ -483,11 +483,12 @@ Wait
 (
 )
 ;
-thread
--
->
-Shutdown
+nsShutdownThread
+:
+:
+BlockingShutdown
 (
+thread
 )
 ;
 }
