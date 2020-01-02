@@ -1663,6 +1663,13 @@ aFrame
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvRemotePaintIsReady
+(
+)
+MOZ_OVERRIDE
+;
 static
 TabParent
 *

@@ -2301,6 +2301,12 @@ aActor
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvRequestNotifyAfterRemotePaint
+(
+)
+;
 private
 :
 TabChild
