@@ -81,10 +81,6 @@ mk
 MOCHITEST_BROWSER_FILES
 =
 \
-browser_873066_allowedAreaTypes
-.
-js
-\
 browser_873501_handle_specials
 .
 js
