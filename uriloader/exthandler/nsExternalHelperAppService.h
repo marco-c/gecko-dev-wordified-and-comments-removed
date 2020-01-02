@@ -577,6 +577,12 @@ nsIArray
 >
 mSignatureInfo
 ;
+nsCOMPtr
+<
+nsIArray
+>
+mRedirects
+;
 nsresult
 SetUpTempFile
 (

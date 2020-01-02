@@ -2046,6 +2046,9 @@ hash
 let
 sigInfo
 ;
+let
+channelRedirects
+;
 try
 {
 hash
@@ -2065,6 +2068,16 @@ aDownload
 saver
 .
 getSignatureInfo
+(
+)
+;
+channelRedirects
+=
+aDownload
+.
+saver
+.
+getRedirects
 (
 )
 ;
@@ -2170,6 +2183,9 @@ hash
 signatureInfo
 :
 sigInfo
+redirects
+:
+channelRedirects
 }
 function
 onComplete

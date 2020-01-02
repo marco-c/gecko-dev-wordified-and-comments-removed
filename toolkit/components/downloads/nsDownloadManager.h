@@ -999,6 +999,12 @@ nsIArray
 >
 mSignatureInfo
 ;
+nsCOMPtr
+<
+nsIArray
+>
+mRedirects
+;
 friend
 class
 nsDownloadManager
