@@ -323,13 +323,6 @@ aTransform
 )
 ;
 }
-aDest
-.
-SimplifyOutward
-(
-4
-)
-;
 }
 static
 void
@@ -350,13 +343,6 @@ Or
 (
 aDest
 aSource
-)
-;
-aDest
-.
-SimplifyOutward
-(
-4
 )
 ;
 }

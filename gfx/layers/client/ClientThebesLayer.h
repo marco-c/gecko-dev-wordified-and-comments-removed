@@ -277,13 +277,6 @@ mInvalidRegion
 aRegion
 )
 ;
-mInvalidRegion
-.
-SimplifyOutward
-(
-10
-)
-;
 mValidRegion
 .
 Sub
