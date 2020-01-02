@@ -11707,6 +11707,15 @@ MediaDecoder
 :
 :
 PLAY_STATE_PLAYING
+&
+&
+!
+mDecoder
+-
+>
+GetDecodedStream
+(
+)
 )
 {
 int64_t
