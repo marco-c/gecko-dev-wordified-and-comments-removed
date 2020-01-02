@@ -78,14 +78,9 @@ virtual
 void
 MetadataLoaded
 (
-int
-aChannels
-int
-aRate
-bool
-aHasAudio
-bool
-aHasVideo
+MediaInfo
+*
+aInfo
 MetadataTags
 *
 aTags
