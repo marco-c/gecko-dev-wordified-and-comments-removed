@@ -725,6 +725,11 @@ aUserData
 void
 Eos
 (
+GstAppSink
+*
+aSink
+=
+nullptr
 )
 ;
 static
@@ -862,7 +867,10 @@ GstSegment
 mAudioSegment
 ;
 bool
-mReachedEos
+mReachedAudioEos
+;
+bool
+mReachedVideoEos
 ;
 #
 if
