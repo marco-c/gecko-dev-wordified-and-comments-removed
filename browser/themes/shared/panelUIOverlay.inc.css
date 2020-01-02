@@ -490,6 +490,12 @@ transition
 transform
 150ms
 ;
+overflow
+-
+y
+:
+hidden
+;
 }
 #
 PanelUI
