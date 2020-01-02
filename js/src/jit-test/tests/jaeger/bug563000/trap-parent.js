@@ -17,7 +17,7 @@ child
 trap
 (
 parent
-27
+26
 "
 success
 (
