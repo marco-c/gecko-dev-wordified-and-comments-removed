@@ -167,6 +167,11 @@ EXPORTS
 =
 [
 '
+ActiveLayerTracker
+.
+h
+'
+'
 DisplayItemClip
 .
 h
@@ -348,6 +353,11 @@ SOURCES
 +
 =
 [
+'
+ActiveLayerTracker
+.
+cpp
+'
 '
 DisplayItemClip
 .
