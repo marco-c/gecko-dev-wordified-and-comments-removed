@@ -449,7 +449,7 @@ rval
 =
 cpmm
 .
-sendSyncMessage
+sendRpcMessage
 (
 "
 Addons
