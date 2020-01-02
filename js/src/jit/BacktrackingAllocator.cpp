@@ -2280,6 +2280,9 @@ numIntervals
 )
 continue
 ;
+#
+if
+0
 LDefinition
 *
 def
@@ -2373,6 +2376,8 @@ output
 )
 ;
 }
+#
+endif
 size_t
 start
 =
