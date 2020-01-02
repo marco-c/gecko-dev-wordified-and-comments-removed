@@ -228,6 +228,7 @@ MIRType_Float32
 MIRType_String
 MIRType_Object
 MIRType_MagicOptimizedArguments
+MIRType_MagicOptimizedOut
 MIRType_MagicHole
 MIRType_MagicIsConstructing
 MIRType_Value
@@ -463,6 +464,9 @@ case
 MIRType_MagicOptimizedArguments
 :
 case
+MIRType_MagicOptimizedOut
+:
+case
 MIRType_MagicHole
 :
 case
@@ -591,6 +595,14 @@ MIRType_MagicOptimizedArguments
 return
 "
 MagicOptimizedArguments
+"
+;
+case
+MIRType_MagicOptimizedOut
+:
+return
+"
+MagicOptimizedOut
 "
 ;
 case

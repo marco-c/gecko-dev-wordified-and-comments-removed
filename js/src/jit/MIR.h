@@ -179,6 +179,12 @@ return
 MIRType_MagicOptimizedArguments
 ;
 case
+JS_OPTIMIZED_OUT
+:
+return
+MIRType_MagicOptimizedOut
+;
+case
 JS_ELEMENTS_HOLE
 :
 return

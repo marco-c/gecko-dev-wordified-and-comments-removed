@@ -1248,6 +1248,15 @@ offset
 \
 macro
 (
+optimizedOut
+optimizedOut
+"
+optimizedOut
+"
+)
+\
+macro
+(
 outOfMemory
 outOfMemory
 "

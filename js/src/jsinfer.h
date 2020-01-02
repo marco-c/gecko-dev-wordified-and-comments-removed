@@ -1292,6 +1292,16 @@ Value
 val
 )
 ;
+inline
+Type
+GetMaybeOptimizedOutValueType
+(
+const
+Value
+&
+val
+)
+;
 class
 TypeConstraint
 {
