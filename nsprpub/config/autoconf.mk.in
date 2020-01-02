@@ -88,6 +88,9 @@ includedir
 libdir
 =
 libdir
+datarootdir
+=
+datarootdir
 datadir
 =
 datadir
