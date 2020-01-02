@@ -49,6 +49,9 @@ JSContext
 namespace
 mozilla
 {
+class
+TimeStamp
+;
 namespace
 dom
 {
@@ -113,6 +116,15 @@ Nullable
 double
 >
 GetCurrentTime
+(
+)
+const
+;
+mozilla
+:
+:
+TimeStamp
+GetCurrentTimeStamp
 (
 )
 const
