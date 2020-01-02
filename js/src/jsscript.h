@@ -232,6 +232,13 @@ js
 struct
 BlockScopeNote
 {
+static
+const
+uint32_t
+NoBlockScopeIndex
+=
+UINT32_MAX
+;
 uint32_t
 index
 ;
