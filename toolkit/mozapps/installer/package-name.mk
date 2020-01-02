@@ -479,11 +479,7 @@ MOZ_PKG_LONGVERSION
 MOZ_PKG_LONGVERSION
 =
 (
-shell
-echo
-(
 MOZ_PKG_VERSION
-)
 )
 endif
 ifeq
