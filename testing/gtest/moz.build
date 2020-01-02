@@ -681,7 +681,7 @@ LIBRARY_NAME
 '
 gtest
 '
-GTEST_SOURCES
+SOURCES
 +
 =
 [

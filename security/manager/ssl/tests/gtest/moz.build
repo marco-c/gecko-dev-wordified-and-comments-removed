@@ -101,7 +101,7 @@ ssltest
 LIBXUL_LIBRARY
 =
 True
-GTEST_SOURCES
+SOURCES
 +
 =
 [
