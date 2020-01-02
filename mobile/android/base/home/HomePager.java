@@ -251,7 +251,7 @@ mContext
 private
 volatile
 boolean
-mLoaded
+mVisible
 ;
 private
 Decor
@@ -699,7 +699,7 @@ PropertyAnimator
 animator
 )
 {
-mLoaded
+mVisible
 =
 true
 ;
@@ -894,7 +894,7 @@ unload
 (
 )
 {
-mLoaded
+mVisible
 =
 false
 ;
@@ -921,12 +921,12 @@ HOME
 }
 public
 boolean
-isLoaded
+isVisible
 (
 )
 {
 return
-mLoaded
+mVisible
 ;
 }
 Override
@@ -1123,7 +1123,7 @@ configState
 if
 (
 !
-mLoaded
+mVisible
 )
 {
 return

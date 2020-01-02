@@ -8265,7 +8265,7 @@ null
 &
 mHomePager
 .
-isLoaded
+isVisible
 (
 )
 &
