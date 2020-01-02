@@ -7501,7 +7501,7 @@ gen
 -
 >
 fp
-JS_FREE_PATTERN
+JS_SWEPT_FRAME_PATTERN
 sizeof
 (
 InterpreterFrame
@@ -7511,7 +7511,7 @@ InterpreterFrame
 JS_POISON
 (
 gen
-JS_FREE_PATTERN
+JS_SWEPT_FRAME_PATTERN
 sizeof
 (
 JSGenerator

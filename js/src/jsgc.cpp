@@ -1505,7 +1505,7 @@ fop
 JS_POISON
 (
 t
-JS_FREE_PATTERN
+JS_SWEPT_TENURED_PATTERN
 thingSize
 )
 ;
@@ -1538,6 +1538,16 @@ newFreeSpanStart
 thingsStart
 (
 thingKind
+)
+)
+;
+JS_POISON
+(
+data
+JS_SWEPT_TENURED_PATTERN
+sizeof
+(
+data
 )
 )
 ;
@@ -2913,7 +2923,7 @@ rt
 JS_POISON
 (
 this
-JS_FREE_PATTERN
+JS_FRESH_TENURED_PATTERN
 ChunkSize
 )
 ;
