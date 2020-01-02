@@ -3333,6 +3333,10 @@ mInTransform
 (
 false
 )
+mInFixedPos
+(
+false
+)
 mSyncDecodeImages
 (
 false
