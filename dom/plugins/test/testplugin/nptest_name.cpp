@@ -133,6 +133,12 @@ test
 tst
 :
 Test
+\
+xE2
+\
+x84
+\
+xA2
 mimetype
 "
 ;
