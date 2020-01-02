@@ -3887,7 +3887,7 @@ aWorkerPrivate
 )
 MOZ_OVERRIDE
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Don
@@ -3919,7 +3919,7 @@ aDispatchResult
 )
 MOZ_OVERRIDE
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Don
@@ -6259,7 +6259,7 @@ aWorkerPrivate
 )
 MOZ_OVERRIDE
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Don
@@ -6291,7 +6291,7 @@ aDispatchResult
 )
 MOZ_OVERRIDE
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Don
@@ -16887,7 +16887,7 @@ IdleTimer
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Shouldn

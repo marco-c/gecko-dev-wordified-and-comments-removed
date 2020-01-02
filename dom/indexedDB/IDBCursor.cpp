@@ -1505,7 +1505,7 @@ PREV_UNIQUE
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -2168,7 +2168,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown
@@ -2439,7 +2439,7 @@ this
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -2539,7 +2539,7 @@ Prevunique
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -2618,7 +2618,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 Bad
@@ -3109,7 +3109,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unknown

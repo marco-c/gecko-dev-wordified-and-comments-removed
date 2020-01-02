@@ -8602,7 +8602,7 @@ nsAString
 aDeviceAddress
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT_UNREACHABLE
 (
 "
 UpdateSdpRecords
