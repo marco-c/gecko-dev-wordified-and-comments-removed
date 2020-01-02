@@ -257,7 +257,7 @@ WebGLContext
 :
 GetBitsPerTexel
 (
-mFormat
+mInternalFormat
 mType
 )
 ;
@@ -2329,7 +2329,7 @@ GetWebGLTexelFormat
 (
 imageInfo
 .
-mFormat
+mInternalFormat
 imageInfo
 .
 mType
@@ -2409,7 +2409,7 @@ imageTarget
 level
 imageInfo
 .
-mFormat
+mInternalFormat
 imageInfo
 .
 mWidth
@@ -2419,7 +2419,7 @@ mHeight
 0
 imageInfo
 .
-mFormat
+mInternalFormat
 imageInfo
 .
 mType

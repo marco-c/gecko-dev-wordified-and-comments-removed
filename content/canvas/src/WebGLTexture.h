@@ -256,7 +256,7 @@ ImageInfo
 (
 )
 :
-mFormat
+mInternalFormat
 (
 0
 )
@@ -292,7 +292,7 @@ WebGLRectangleObject
 width
 height
 )
-mFormat
+mInternalFormat
 (
 format
 )
@@ -354,12 +354,12 @@ a
 mHeight
 &
 &
-mFormat
+mInternalFormat
 =
 =
 a
 .
-mFormat
+mInternalFormat
 &
 &
 mType
@@ -465,13 +465,13 @@ MemoryUsage
 const
 ;
 GLenum
-Format
+InternalFormat
 (
 )
 const
 {
 return
-mFormat
+mInternalFormat
 ;
 }
 GLenum
@@ -487,7 +487,7 @@ mType
 protected
 :
 GLenum
-mFormat
+mInternalFormat
 mType
 ;
 WebGLImageDataStatus
