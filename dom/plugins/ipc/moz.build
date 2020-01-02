@@ -267,6 +267,11 @@ PluginUtilsOSX
 h
 '
 '
+ScopedMethodFactory
+.
+h
+'
+'
 StreamNotifyChild
 .
 h
