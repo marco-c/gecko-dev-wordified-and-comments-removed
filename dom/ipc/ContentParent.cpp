@@ -2914,7 +2914,6 @@ false
 PROCESS_PRIORITY_FOREGROUND
 )
 ;
-}
 p
 -
 >
@@ -2922,6 +2921,7 @@ Init
 (
 )
 ;
+}
 sNonAppContentParents
 -
 >
