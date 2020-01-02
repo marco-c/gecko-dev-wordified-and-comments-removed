@@ -8294,17 +8294,6 @@ SkThreadUtils_pthread
 .
 cpp
 '
-'
-trunk
-/
-src
-/
-utils
-/
-SkThreadUtils_pthread_linux
-.
-cpp
-'
 ]
 if
 CONFIG
