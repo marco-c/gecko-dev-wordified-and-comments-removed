@@ -47,7 +47,7 @@ class
 nsSVGFilterFrame
 ;
 class
-nsAutoFilterInstance
+nsSVGFilterInstance
 ;
 nsresult
 NS_NewSVGFilterElement
@@ -88,7 +88,7 @@ friend
 class
 :
 :
-nsAutoFilterInstance
+nsSVGFilterInstance
 ;
 protected
 :
