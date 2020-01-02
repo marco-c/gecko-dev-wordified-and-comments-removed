@@ -21,9 +21,3 @@ Wl
 -
 -
 wrap
-STL_FLAGS
-=
-#
-Avoid
-STL
-wrapping

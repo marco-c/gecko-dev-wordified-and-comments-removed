@@ -190,3 +190,6 @@ tm
 .
 def
 '
+DISABLE_STL_WRAPPING
+=
+True

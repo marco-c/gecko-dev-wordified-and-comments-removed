@@ -55,8 +55,6 @@ MPL
 .
 ifdef
 MOZ_LINKER
-STL_FLAGS
-=
 #
 Only
 link

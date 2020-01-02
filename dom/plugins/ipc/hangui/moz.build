@@ -143,6 +143,17 @@ NS_NO_XPCOM
 ]
 =
 True
+DEFINES
+[
+'
+_HAS_EXCEPTIONS
+'
+]
+=
+0
+DISABLE_STL_WRAPPING
+=
+True
 if
 CONFIG
 [

@@ -174,3 +174,6 @@ sandbox
 chromium
 '
 ]
+DISABLE_STL_WRAPPING
+=
+True

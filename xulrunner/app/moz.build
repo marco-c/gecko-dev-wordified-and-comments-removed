@@ -365,3 +365,6 @@ splash
 .
 rc
 '
+DISABLE_STL_WRAPPING
+=
+True

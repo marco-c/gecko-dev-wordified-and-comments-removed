@@ -123,3 +123,6 @@ DIRS
 jemalloc
 '
 ]
+DISABLE_STL_WRAPPING
+=
+True

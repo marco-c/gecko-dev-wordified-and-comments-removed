@@ -179,8 +179,6 @@ NULL
 )
 endif
 endif
-STL_FLAGS
-=
 LIBS
 +
 =

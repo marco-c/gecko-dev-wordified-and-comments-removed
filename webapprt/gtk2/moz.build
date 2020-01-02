@@ -153,3 +153,6 @@ xpcom
 build
 '
 ]
+DISABLE_STL_WRAPPING
+=
+True

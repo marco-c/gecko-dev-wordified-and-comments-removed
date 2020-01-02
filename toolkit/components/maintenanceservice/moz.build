@@ -227,3 +227,6 @@ maintenanceservice
 .
 rc
 '
+DISABLE_STL_WRAPPING
+=
+True

@@ -124,8 +124,6 @@ under
 the
 License
 .
-STL_FLAGS
-=
 include
 (
 topsrcdir

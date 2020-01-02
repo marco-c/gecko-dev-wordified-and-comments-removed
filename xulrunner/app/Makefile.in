@@ -105,8 +105,6 @@ DAB_CD
 (
 AB_CD
 )
-STL_FLAGS
-=
 ifeq
 (
 cocoa

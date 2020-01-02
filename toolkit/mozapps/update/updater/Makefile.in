@@ -222,8 +222,6 @@ MOZ_WIDGET_TOOLKIT
 )
 #
 {
-STL_FLAGS
-=
 OS_LIBS
 +
 =

@@ -53,8 +53,6 @@ MPL
 0
 /
 .
-STL_FLAGS
-=
 MOZ_GLUE_LDFLAGS
 =
 include

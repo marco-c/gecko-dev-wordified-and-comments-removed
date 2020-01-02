@@ -227,3 +227,6 @@ objs_handler
 USE_STATIC_LIBS
 =
 True
+DISABLE_STL_WRAPPING
+=
+True

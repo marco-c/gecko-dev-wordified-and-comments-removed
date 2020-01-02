@@ -218,8 +218,6 @@ binary
 bootstrapping
 with
 XRE_main
-STL_FLAGS
-=
 LIBS
 +
 =

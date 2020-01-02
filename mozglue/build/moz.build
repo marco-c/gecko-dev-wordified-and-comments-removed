@@ -253,6 +253,9 @@ mozglue
 .
 def
 '
+DISABLE_STL_WRAPPING
+=
+True
 if
 CONFIG
 [

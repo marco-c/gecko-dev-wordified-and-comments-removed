@@ -82,8 +82,6 @@ Android
 OS_TARGET
 )
 )
-STL_FLAGS
-=
 LIBS
 +
 =

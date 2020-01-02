@@ -64,8 +64,6 @@ on
 mozglue
 MOZ_GLUE_LDFLAGS
 =
-STL_FLAGS
-=
 LIBS
 =
 \

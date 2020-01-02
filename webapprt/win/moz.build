@@ -306,3 +306,6 @@ webapprt
 .
 rc
 '
+DISABLE_STL_WRAPPING
+=
+True

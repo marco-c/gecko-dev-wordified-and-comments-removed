@@ -2482,6 +2482,21 @@ c
 ]
             
 '
+DISABLE_STL_WRAPPING
+'
+:
+[
+                
+'
+DISABLE_STL_WRAPPING
+:
+=
+1
+'
+            
+]
+            
+'
 EXTRA_COMPONENTS
 '
 :

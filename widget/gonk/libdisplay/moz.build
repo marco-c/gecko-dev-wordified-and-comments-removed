@@ -324,3 +324,6 @@ XPCOM_GLUE
 ]
 =
 True
+DISABLE_STL_WRAPPING
+=
+True

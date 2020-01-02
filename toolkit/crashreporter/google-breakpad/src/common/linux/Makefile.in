@@ -124,5 +124,7 @@ file_id
 OBJ_SUFFIX
 )
 :
-STL_FLAGS
+DISABLE_STL_WRAPPING
+:
 =
+1

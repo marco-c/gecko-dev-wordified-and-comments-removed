@@ -56,8 +56,6 @@ MPL
 MODULES
 =
 stlport
-STL_FLAGS
-=
 #
 Force
 to

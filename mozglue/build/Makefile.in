@@ -250,8 +250,6 @@ version
 (
 NULL
 )
-STL_FLAGS
-=
 endif
 ifeq
 (

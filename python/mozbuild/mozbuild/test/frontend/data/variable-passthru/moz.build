@@ -401,3 +401,6 @@ subsystem
 console
 '
 ]
+DISABLE_STL_WRAPPING
+=
+True

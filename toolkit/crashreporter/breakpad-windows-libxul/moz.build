@@ -281,3 +281,6 @@ SOURCES
 +
 =
 objs_sender
+DISABLE_STL_WRAPPING
+=
+True

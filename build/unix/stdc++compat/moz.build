@@ -157,3 +157,6 @@ True
 NO_PGO
 =
 True
+DISABLE_STL_WRAPPING
+=
+True

@@ -163,6 +163,9 @@ xpcom
 build
 '
 ]
+DISABLE_STL_WRAPPING
+=
+True
 for
 var
 in
