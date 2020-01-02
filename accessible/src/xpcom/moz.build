@@ -107,6 +107,11 @@ xpcAccessibleSelectable
 .
 h
 '
+'
+xpcAccessibleValue
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -134,6 +139,11 @@ cpp
 '
 '
 xpcAccessibleTableCell
+.
+cpp
+'
+'
+xpcAccessibleValue
 .
 cpp
 '
