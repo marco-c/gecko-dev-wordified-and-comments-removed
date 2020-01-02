@@ -115,6 +115,11 @@ output
 ;
 return
 new
+(
+alloc
+(
+)
+)
 LStackSlot
 (
 DefaultStackSlot
@@ -1100,6 +1105,11 @@ LAllocation
 source
 =
 new
+(
+alloc
+(
+)
+)
 LAllocation
 (
 registers
@@ -1222,6 +1232,11 @@ LAllocation
 dest
 =
 new
+(
+alloc
+(
+)
+)
 LAllocation
 (
 registers

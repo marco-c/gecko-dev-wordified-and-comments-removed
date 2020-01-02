@@ -1871,7 +1871,7 @@ class
 OutOfLineCode
 :
 public
-TempObject
+OldTempObject
 {
 Label
 entry_

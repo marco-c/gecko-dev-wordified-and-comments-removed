@@ -626,7 +626,7 @@ PendingMove
 public
 Move
 public
-TempObject
+OldTempObject
 public
 InlineListNode
 <

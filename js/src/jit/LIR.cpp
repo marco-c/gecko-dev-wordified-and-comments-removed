@@ -656,6 +656,14 @@ LSnapshot
 snapshot
 =
 new
+(
+gen
+-
+>
+alloc
+(
+)
+)
 LSnapshot
 (
 mir
@@ -2033,6 +2041,9 @@ safepoint_
 safepoint_
 =
 new
+(
+alloc
+)
 LSafepoint
 (
 alloc
