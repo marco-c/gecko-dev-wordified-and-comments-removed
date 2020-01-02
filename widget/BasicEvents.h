@@ -92,7 +92,7 @@ eGUIEventClass
 eInputEventClass
 eUIEventClass
 eKeyboardEventClass
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 NS_TEXT_EVENT
 NS_QUERY_CONTENT_EVENT
 NS_SELECTION_EVENT

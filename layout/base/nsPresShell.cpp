@@ -35541,7 +35541,7 @@ aEvent
 mClass
 =
 =
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 |
 |
 aEvent

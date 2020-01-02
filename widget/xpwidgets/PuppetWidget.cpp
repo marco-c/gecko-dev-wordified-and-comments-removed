@@ -1286,7 +1286,7 @@ mClass
 )
 {
 case
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 :
 seqno
 =

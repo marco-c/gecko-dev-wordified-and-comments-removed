@@ -902,7 +902,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 )
 mSeqno
 (
@@ -930,7 +930,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 "
 Duplicate
 (

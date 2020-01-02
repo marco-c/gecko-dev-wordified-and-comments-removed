@@ -530,11 +530,11 @@ aEventClassID
 )
 {
 case
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 :
 return
 "
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 "
 ;
 case
@@ -4304,7 +4304,7 @@ aEvent
 mClass
 =
 =
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 |
 |
 aEvent

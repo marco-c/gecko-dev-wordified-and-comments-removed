@@ -72,7 +72,7 @@ mEvent
 mClass
 =
 =
-NS_COMPOSITION_EVENT
+eCompositionEventClass
 "
 event
 type
