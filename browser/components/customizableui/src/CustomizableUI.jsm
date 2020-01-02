@@ -766,6 +766,16 @@ true
 defaultPlacements
 :
 [
+"
+addonbar
+-
+closebutton
+"
+"
+status
+-
+bar
+"
 ]
 }
 )
