@@ -2,6 +2,14 @@ MARIONETTE_TIMEOUT
 =
 60000
 ;
+MARIONETTE_HEAD_JS
+=
+'
+head
+.
+js
+'
+;
 SpecialPowers
 .
 addPermission
@@ -37,7 +45,9 @@ getExistingCalls
 (
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -87,7 +97,6 @@ result
 )
 ;
 }
-;
 }
 )
 ;
@@ -156,7 +165,9 @@ nextCall
 "
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -206,7 +217,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -229,6 +239,7 @@ calls
 length
 =
 =
+=
 0
 )
 ;
@@ -236,7 +247,6 @@ length
 )
 ;
 }
-;
 }
 function
 verifyInitialState
@@ -291,7 +301,9 @@ if
 confirmNoCalls
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -365,7 +377,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -467,7 +478,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -530,7 +543,9 @@ answerIncoming
 ;
 }
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -669,7 +684,9 @@ telephony
 active
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -805,6 +822,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 onconnected
@@ -850,6 +868,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 answer
@@ -1044,7 +1063,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -1182,6 +1203,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 onheld
@@ -1228,6 +1250,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 hold
@@ -1344,6 +1367,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 onconnected
@@ -1389,6 +1413,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 answer
@@ -1582,7 +1607,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -1720,6 +1747,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 onconnected
@@ -1766,6 +1794,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 resume
@@ -1954,7 +1983,9 @@ length
 0
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -2069,6 +2100,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 onconnected
@@ -2113,6 +2145,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 answer
@@ -2207,6 +2240,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 onheld
@@ -2252,6 +2286,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 hold
@@ -2345,6 +2380,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 onconnected
@@ -2389,6 +2425,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 resume
@@ -2488,6 +2525,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 ondisconnected
@@ -2536,6 +2574,7 @@ call
 )
 ;
 }
+;
 incomingCall
 .
 hangUp
@@ -2591,7 +2630,16 @@ finish
 )
 ;
 }
+startTest
+(
+function
+(
+)
+{
 getExistingCalls
 (
+)
+;
+}
 )
 ;

@@ -2,6 +2,14 @@ MARIONETTE_TIMEOUT
 =
 60000
 ;
+MARIONETTE_HEAD_JS
+=
+'
+head
+.
+js
+'
+;
 SpecialPowers
 .
 addPermission
@@ -37,7 +45,9 @@ getExistingCalls
 (
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -87,7 +97,6 @@ result
 )
 ;
 }
-;
 }
 )
 ;
@@ -156,7 +165,9 @@ nextCall
 "
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -206,7 +217,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -229,6 +239,7 @@ calls
 length
 =
 =
+=
 0
 )
 ;
@@ -236,7 +247,6 @@ length
 )
 ;
 }
-;
 }
 function
 verifyInitialState
@@ -291,7 +301,9 @@ if
 confirmNoCalls
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -365,7 +377,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -530,7 +541,9 @@ alerting
 "
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -660,7 +673,9 @@ telephony
 active
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -723,7 +738,9 @@ hold
 ;
 }
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -734,7 +751,6 @@ outNumber
 )
 ;
 }
-;
 function
 hold
 (
@@ -850,7 +866,9 @@ calls
 outgoingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -912,7 +930,6 @@ resume
 )
 ;
 }
-;
 }
 ;
 outgoingCall
@@ -1036,7 +1053,9 @@ calls
 outgoingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -1098,7 +1117,6 @@ hangUp
 )
 ;
 }
-;
 }
 ;
 outgoingCall
@@ -1218,7 +1236,9 @@ length
 0
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -1261,7 +1281,6 @@ cleanUp
 )
 ;
 }
-;
 }
 ;
 outgoingCall
@@ -1291,7 +1310,16 @@ finish
 )
 ;
 }
+startTest
+(
+function
+(
+)
+{
 getExistingCalls
 (
+)
+;
+}
 )
 ;

@@ -1,3 +1,11 @@
+MARIONETTE_HEAD_JS
+=
+'
+head
+.
+js
+'
+;
 MARIONETTE_TIMEOUT
 =
 60000
@@ -37,7 +45,9 @@ getExistingCalls
 (
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -87,7 +97,6 @@ result
 )
 ;
 }
-;
 }
 )
 ;
@@ -156,7 +165,9 @@ nextCall
 "
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -206,7 +217,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -229,6 +239,7 @@ calls
 length
 =
 =
+=
 0
 )
 ;
@@ -236,7 +247,6 @@ length
 )
 ;
 }
-;
 }
 function
 verifyInitialState
@@ -291,7 +301,9 @@ if
 confirmNoCalls
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -365,7 +377,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -467,7 +478,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -530,7 +543,9 @@ answerIncoming
 ;
 }
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -654,7 +669,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -716,7 +733,6 @@ hold
 )
 ;
 }
-;
 }
 ;
 incomingCall
@@ -726,7 +742,6 @@ answer
 )
 ;
 }
-;
 function
 hold
 (
@@ -842,7 +857,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -904,7 +921,6 @@ resume
 )
 ;
 }
-;
 }
 ;
 incomingCall
@@ -1028,7 +1044,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -1090,7 +1108,6 @@ hangUp
 )
 ;
 }
-;
 }
 ;
 incomingCall
@@ -1210,7 +1227,9 @@ length
 0
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -1253,7 +1272,6 @@ cleanUp
 )
 ;
 }
-;
 }
 ;
 incomingCall
@@ -1289,7 +1307,16 @@ finish
 )
 ;
 }
+startTest
+(
+function
+(
+)
+{
 getExistingCalls
 (
+)
+;
+}
 )
 ;

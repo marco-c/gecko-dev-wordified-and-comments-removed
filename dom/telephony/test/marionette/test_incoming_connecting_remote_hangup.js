@@ -2,6 +2,14 @@ MARIONETTE_TIMEOUT
 =
 60000
 ;
+MARIONETTE_HEAD_JS
+=
+'
+head
+.
+js
+'
+;
 SpecialPowers
 .
 addPermission
@@ -37,7 +45,9 @@ getExistingCalls
 (
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -87,7 +97,6 @@ result
 )
 ;
 }
-;
 }
 )
 ;
@@ -156,7 +165,9 @@ nextCall
 "
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -206,7 +217,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -229,6 +239,7 @@ calls
 length
 =
 =
+=
 0
 )
 ;
@@ -236,7 +247,6 @@ length
 )
 ;
 }
-;
 }
 function
 verifyInitialState
@@ -291,7 +301,9 @@ if
 confirmNoCalls
 )
 {
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -365,7 +377,6 @@ cleanUp
 )
 ;
 }
-;
 }
 )
 ;
@@ -467,7 +478,9 @@ calls
 incomingCall
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -530,7 +543,9 @@ answerIncoming
 ;
 }
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -636,7 +651,6 @@ answer
 )
 ;
 }
-;
 function
 remoteHangUp
 (
@@ -719,7 +733,9 @@ length
 0
 )
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -763,7 +779,9 @@ cleanUp
 ;
 }
 ;
-runEmulatorCmd
+emulator
+.
+run
 (
 "
 gsm
@@ -800,7 +818,16 @@ finish
 )
 ;
 }
+startTest
+(
+function
+(
+)
+{
 getExistingCalls
 (
+)
+;
+}
 )
 ;
