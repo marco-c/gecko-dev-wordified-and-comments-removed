@@ -1496,9 +1496,9 @@ const
 nsAString
 &
 aAlbum
-uint32_t
+uint64_t
 aMediaNumber
-uint32_t
+uint64_t
 aTotalMediaCount
 uint32_t
 aDuration
@@ -1620,7 +1620,7 @@ return
 mPosition
 ;
 }
-uint32_t
+uint64_t
 BluetoothA2dpManager
 :
 :
