@@ -314,7 +314,7 @@ RenderLayer
 (
 )
 {
-RenderLayer
+RenderLayerWithReadback
 (
 nullptr
 )
@@ -322,12 +322,13 @@ nullptr
 }
 virtual
 void
-RenderLayer
+RenderLayerWithReadback
 (
 ReadbackProcessor
 *
 aReadback
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

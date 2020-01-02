@@ -545,7 +545,7 @@ void
 ClientThebesLayer
 :
 :
-RenderLayer
+RenderLayerWithReadback
 (
 ReadbackProcessor
 *
