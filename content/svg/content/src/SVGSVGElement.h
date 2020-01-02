@@ -946,12 +946,6 @@ SVGMatrix
 matrix
 )
 ;
-using
-nsINode
-:
-:
-GetElementById
-;
 already_AddRefed
 <
 SVGAnimatedRect

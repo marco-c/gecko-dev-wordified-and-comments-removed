@@ -387,14 +387,6 @@ SVGMatrix
 matrix
 )
 ;
-Element
-?
-getElementById
-(
-DOMString
-elementId
-)
-;
 }
 ;
 /

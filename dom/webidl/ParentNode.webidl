@@ -195,5 +195,13 @@ DOMString
 nodes
 )
 ;
+Element
+?
+getElementById
+(
+DOMString
+elementId
+)
+;
 }
 ;

@@ -2539,6 +2539,12 @@ ErrorResult
 aError
 )
 ;
+using
+nsINode
+:
+:
+GetElementById
+;
 nsresult
 SetEventHandler
 (
