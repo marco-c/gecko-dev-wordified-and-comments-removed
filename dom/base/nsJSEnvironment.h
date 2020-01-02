@@ -525,11 +525,6 @@ nullptr
 protected
 :
 nsresult
-InitializeExternalClasses
-(
-)
-;
-nsresult
 ConvertSupportsTojsvals
 (
 nsISupports

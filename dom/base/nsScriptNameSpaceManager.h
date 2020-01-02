@@ -103,7 +103,6 @@ eTypeInterface
 eTypeProperty
 eTypeNavigatorProperty
 eTypeExternalConstructor
-eTypeStaticNameSet
 eTypeClassConstructor
 eTypeClassProto
 eTypeExternalClassInfoCreator
@@ -214,14 +213,6 @@ nsScriptNameSpaceManager
 nsresult
 Init
 (
-)
-;
-nsresult
-InitForContext
-(
-nsIScriptContext
-*
-aContext
 )
 ;
 const

@@ -291,13 +291,6 @@ h
 #
 include
 "
-nsIScriptExternalNameSet
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

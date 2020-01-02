@@ -221,11 +221,6 @@ nsIScriptContext
 h
 '
 '
-nsIScriptExternalNameSet
-.
-h
-'
-'
 nsIScriptGlobalObject
 .
 h
