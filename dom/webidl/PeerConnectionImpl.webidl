@@ -494,6 +494,11 @@ Attributes
 readonly
 attribute
 DOMString
+fingerprint
+;
+readonly
+attribute
+DOMString
 localDescription
 ;
 readonly
