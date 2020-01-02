@@ -148,7 +148,7 @@ cpp
 UNIFIED_SOURCES
 +
 =
-{
+[
 '
 TextDecoder
 .
