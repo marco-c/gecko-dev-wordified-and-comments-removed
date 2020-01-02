@@ -12467,7 +12467,7 @@ SHOULD_SENDRECV_AV
 TEST_F
 (
 SignalingTest
-OfferAnswerDontReceiveAudioOnOffer
+DISABLED_OfferAnswerDontReceiveAudioOnOffer
 )
 {
 sipcc
@@ -12515,7 +12515,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontReceiveVideoOnOffer
+DISABLED_OfferAnswerDontReceiveVideoOnOffer
 )
 {
 sipcc
@@ -12563,7 +12563,7 @@ SHOULD_RECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontReceiveAudioOnAnswer
+DISABLED_OfferAnswerDontReceiveAudioOnAnswer
 )
 {
 sipcc
@@ -12609,7 +12609,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontReceiveVideoOnAnswer
+DISABLED_OfferAnswerDontReceiveVideoOnAnswer
 )
 {
 sipcc
@@ -12655,7 +12655,7 @@ SHOULD_SEND_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddAudioStreamOnOfferRecvAudio
+DISABLED_OfferAnswerDontAddAudioStreamOnOfferRecvAudio
 )
 {
 sipcc
@@ -12703,7 +12703,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddAudioStreamOnOffer
+DISABLED_OfferAnswerDontAddAudioStreamOnOffer
 )
 {
 sipcc
@@ -12751,7 +12751,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddVideoStreamOnOfferRecvVideo
+DISABLED_OfferAnswerDontAddVideoStreamOnOfferRecvVideo
 )
 {
 sipcc
@@ -12799,7 +12799,7 @@ SHOULD_SEND_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddVideoStreamOnOffer
+DISABLED_OfferAnswerDontAddVideoStreamOnOffer
 )
 {
 sipcc
@@ -12847,7 +12847,7 @@ SHOULD_OMIT_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddAudioStreamOnAnswer
+DISABLED_OfferAnswerDontAddAudioStreamOnAnswer
 )
 {
 sipcc
@@ -12893,7 +12893,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddVideoStreamOnAnswer
+DISABLED_OfferAnswerDontAddVideoStreamOnAnswer
 )
 {
 sipcc
@@ -12939,7 +12939,7 @@ SHOULD_RECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddVideoStreamOnAnswerDontReceiveVideoOnAnswer
+DISABLED_OfferAnswerDontAddVideoStreamOnAnswerDontReceiveVideoOnAnswer
 )
 {
 sipcc
@@ -12983,7 +12983,7 @@ SHOULD_SENDRECV_AUDIO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddAudioStreamOnAnswerDontReceiveAudioOnAnswer
+DISABLED_OfferAnswerDontAddAudioStreamOnAnswerDontReceiveAudioOnAnswer
 )
 {
 sipcc
@@ -13029,7 +13029,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddAudioStreamOnOfferDontReceiveAudioOnOffer
+DISABLED_OfferAnswerDontAddAudioStreamOnOfferDontReceiveAudioOnOffer
 )
 {
 sipcc
@@ -13073,7 +13073,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontAddVideoStreamOnOfferDontReceiveVideoOnOffer
+DISABLED_OfferAnswerDontAddVideoStreamOnOfferDontReceiveVideoOnOffer
 )
 {
 sipcc
@@ -13121,7 +13121,7 @@ SHOULD_OMIT_VIDEO
 TEST_F
 (
 SignalingTest
-OfferAnswerDontReceiveAudioNoAudioStreamOnOfferDontReceiveVideoOnAnswer
+DISABLED_OfferAnswerDontReceiveAudioNoAudioStreamOnOfferDontReceiveVideoOnAnswer
 )
 {
 sipcc
