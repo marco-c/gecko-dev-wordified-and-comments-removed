@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

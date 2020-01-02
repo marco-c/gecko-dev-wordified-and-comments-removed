@@ -89,7 +89,9 @@ h
 #
 include
 "
-nsEventDispatcher
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -4419,7 +4421,7 @@ events
 i
 ]
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

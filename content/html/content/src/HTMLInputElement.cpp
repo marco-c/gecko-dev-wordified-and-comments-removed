@@ -365,13 +365,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h
@@ -389,6 +382,15 @@ include
 mozilla
 /
 ContentEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -13255,7 +13257,7 @@ mHandlingSelectEvent
 =
 true
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -16389,7 +16391,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -16599,7 +16601,7 @@ MOZ_SOURCE_KEYBOARD
 ;
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -23103,7 +23105,7 @@ if
 (
 NS_SUCCEEDED
 (
-nsEventDispatcher
+EventDispatcher
 :
 :
 CreateEvent
@@ -23143,7 +23145,7 @@ SetTrusted
 true
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

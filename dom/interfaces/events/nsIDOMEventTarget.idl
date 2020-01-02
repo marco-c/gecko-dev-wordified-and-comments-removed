@@ -1554,7 +1554,7 @@ chain
 .
 *
 see
-nsEventDispatcher
+EventDispatcher
 .
 h
 for
@@ -1588,7 +1588,7 @@ dispatching
 *
 note
 Only
-nsEventDispatcher
+EventDispatcher
 should
 call
 this
@@ -1689,7 +1689,7 @@ handling
 *
 *
 see
-nsEventDispatcher
+EventDispatcher
 .
 h
 for
@@ -1700,7 +1700,7 @@ aVisitor
 *
 note
 Only
-nsEventDispatcher
+EventDispatcher
 should
 call
 this

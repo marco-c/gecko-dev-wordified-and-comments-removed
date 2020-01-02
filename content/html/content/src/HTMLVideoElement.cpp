@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsIDOMProgressEvent
 .
 h

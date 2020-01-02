@@ -147,11 +147,6 @@ nsDOMKeyNameList
 h
 '
 '
-nsEventDispatcher
-.
-h
-'
-'
 nsEventNameList
 .
 h
@@ -185,6 +180,11 @@ mozilla
 [
 '
 AsyncEventDispatcher
+.
+h
+'
+'
+EventDispatcher
 .
 h
 '
@@ -440,6 +440,11 @@ Event
 cpp
 '
 '
+EventDispatcher
+.
+cpp
+'
+'
 EventListenerManager
 .
 cpp
@@ -506,11 +511,6 @@ cpp
 '
 '
 nsDOMEventTargetHelper
-.
-cpp
-'
-'
-nsEventDispatcher
 .
 cpp
 '

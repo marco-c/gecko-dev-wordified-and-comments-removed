@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventListenerManager
 .
 h
@@ -479,13 +488,6 @@ h
 include
 "
 nsIEditorIMESupport
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -12674,7 +12676,7 @@ nsIDOMMouseEvent
 :
 MOZ_SOURCE_UNKNOWN
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -13059,7 +13061,7 @@ openAllowed
 openAbused
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

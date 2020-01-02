@@ -3,10 +3,10 @@ ifdef
 MOZILLA_INTERNAL_API
 #
 ifndef
-nsEventDispatcher_h___
+mozilla_EventDispatcher_h_
 #
 define
-nsEventDispatcher_h___
+mozilla_EventDispatcher_h_
 #
 include
 "
@@ -333,9 +333,8 @@ aVisitor
 ;
 }
 ;
-}
 class
-nsEventDispatcher
+EventDispatcher
 {
 public
 :
@@ -349,9 +348,6 @@ aTarget
 nsPresContext
 *
 aPresContext
-mozilla
-:
-:
 WidgetEvent
 *
 aEvent
@@ -365,9 +361,6 @@ nsEventStatus
 aEventStatus
 =
 nullptr
-mozilla
-:
-:
 EventDispatchingCallback
 *
 aCallback
@@ -375,9 +368,6 @@ aCallback
 nullptr
 nsCOMArray
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -396,9 +386,6 @@ DispatchDOMEvent
 nsISupports
 *
 aTarget
-mozilla
-:
-:
 WidgetEvent
 *
 aEvent
@@ -417,9 +404,6 @@ static
 nsresult
 CreateEvent
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -429,9 +413,6 @@ aOwner
 nsPresContext
 *
 aPresContext
-mozilla
-:
-:
 WidgetEvent
 *
 aEvent
@@ -447,6 +428,7 @@ aDOMEvent
 ;
 }
 ;
+}
 #
 endif
 #

@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -202,6 +195,15 @@ include
 mozilla
 /
 ContentEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -13761,7 +13763,7 @@ orient
 orient
 ;
 return
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -15432,7 +15434,7 @@ if
 doc
 )
 {
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -15458,7 +15460,7 @@ mBubbles
 =
 false
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -20417,7 +20419,7 @@ if
 doc
 )
 {
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

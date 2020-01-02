@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

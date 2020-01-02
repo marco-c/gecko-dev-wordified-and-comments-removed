@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsEventStateManager
 .
 h
@@ -241,6 +234,15 @@ mozilla
 dom
 /
 Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -4436,7 +4438,7 @@ WidgetMouseEvent
 eReal
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -5608,7 +5610,7 @@ modifiers
 =
 mCachedModifiers
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -5871,7 +5873,7 @@ WidgetMouseEvent
 eReal
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch

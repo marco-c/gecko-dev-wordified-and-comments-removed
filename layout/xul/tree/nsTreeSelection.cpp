@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

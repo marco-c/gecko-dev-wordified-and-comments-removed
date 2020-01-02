@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventListenerManager
 .
 h
@@ -62,13 +71,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -308,7 +310,7 @@ nsEventStatus_eIgnore
 nsresult
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent
@@ -363,7 +365,7 @@ aEventStatus
 )
 {
 return
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

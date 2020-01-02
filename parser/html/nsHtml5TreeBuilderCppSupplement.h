@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 nsNodeUtils
 .
 h

@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Event
@@ -42,13 +51,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -93,7 +95,7 @@ MOZ_ASSERT
 mEventNode
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 CreateEvent
@@ -235,7 +237,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

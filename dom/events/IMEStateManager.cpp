@@ -166,13 +166,6 @@ nsPresContext
 .
 h
 "
-#
-include
-"
-nsEventDispatcher
-.
-h
-"
 namespace
 mozilla
 {

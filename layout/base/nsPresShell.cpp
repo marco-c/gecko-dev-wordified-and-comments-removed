@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+EventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -558,13 +567,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsEventDispatcher
 .
 h
 "
@@ -9226,7 +9228,7 @@ mInResize
 =
 true
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -33048,7 +33050,7 @@ eventCBPtr
 }
 else
 {
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -33461,7 +33463,7 @@ tmpStatus
 =
 nsEventStatus_eIgnore
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -33610,7 +33612,7 @@ container
 {
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -33679,7 +33681,7 @@ container
 {
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

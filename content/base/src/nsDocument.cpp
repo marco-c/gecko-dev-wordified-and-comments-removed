@@ -692,7 +692,9 @@ h
 #
 include
 "
-nsEventDispatcher
+mozilla
+/
+EventDispatcher
 .
 h
 "
@@ -21393,7 +21395,7 @@ if
 context
 )
 {
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
@@ -33744,7 +33746,7 @@ ev
 ;
 rv
 =
-nsEventDispatcher
+EventDispatcher
 :
 :
 CreateEvent
@@ -38104,7 +38106,7 @@ SetTarget
 this
 )
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 DispatchDOMEvent

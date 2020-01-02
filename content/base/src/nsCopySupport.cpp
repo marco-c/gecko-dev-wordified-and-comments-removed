@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsEventDispatcher
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -293,7 +286,7 @@ include
 "
 mozilla
 /
-Selection
+EventDispatcher
 .
 h
 "
@@ -303,6 +296,15 @@ include
 mozilla
 /
 Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Selection
 .
 h
 "
@@ -2938,7 +2940,7 @@ clipboardData
 =
 clipboardData
 ;
-nsEventDispatcher
+EventDispatcher
 :
 :
 Dispatch
