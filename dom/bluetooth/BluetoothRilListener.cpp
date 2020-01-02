@@ -533,6 +533,7 @@ EmptyString
 )
 aNumber
 aIsOutgoing
+aIsConference
 true
 )
 ;
@@ -595,6 +596,7 @@ EmptyString
 )
 aNumber
 aIsOutgoing
+aIsConference
 false
 )
 ;
@@ -656,6 +658,7 @@ aError
 EmptyString
 (
 )
+false
 false
 true
 )
