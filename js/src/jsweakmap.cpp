@@ -1578,9 +1578,7 @@ key
 rt
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putGeneric
 (

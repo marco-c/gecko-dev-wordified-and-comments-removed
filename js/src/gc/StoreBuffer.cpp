@@ -93,9 +93,7 @@ runtime
 )
 -
 >
-gc
-.
-nursery
+gcNursery
 .
 isInside
 (
@@ -1842,9 +1840,7 @@ runtimeFromMainThread
 runtime
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putRelocatableCell
 (
@@ -1896,9 +1892,7 @@ runtimeFromMainThread
 runtime
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 removeRelocatableCell
 (
@@ -1987,9 +1981,7 @@ runtimeFromMainThread
 runtime
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putRelocatableValue
 (
@@ -2078,9 +2070,7 @@ runtimeFromMainThread
 runtime
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 removeRelocatableValue
 (

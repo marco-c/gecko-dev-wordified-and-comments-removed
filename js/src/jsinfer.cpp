@@ -19790,9 +19790,7 @@ runtime
 )
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putGeneric
 (
@@ -21817,9 +21815,7 @@ runtimeFromMainThread
 )
 -
 >
-gc
-.
-stats
+gcStats
 gcstats
 :
 :
@@ -22587,9 +22583,7 @@ ap2
 rt
 -
 >
-gc
-.
-stats
+gcStats
 gcstats
 :
 :
@@ -22821,9 +22815,7 @@ ap2
 rt
 -
 >
-gc
-.
-stats
+gcStats
 gcstats
 :
 :
@@ -23031,9 +23023,7 @@ ap2
 rt
 -
 >
-gc
-.
-stats
+gcStats
 gcstats
 :
 :

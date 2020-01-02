@@ -2278,9 +2278,7 @@ runtime
 )
 -
 >
-gc
-.
-incrementalState
+gcIncrementalState
 =
 =
 MARK
@@ -2294,9 +2292,7 @@ runtime
 )
 -
 >
-gc
-.
-stats
+gcStats
 gcstats
 :
 :
@@ -3026,9 +3022,7 @@ false
 rt
 -
 >
-gc
-.
-marker
+gcMarker
 .
 setMaxCapacity
 (

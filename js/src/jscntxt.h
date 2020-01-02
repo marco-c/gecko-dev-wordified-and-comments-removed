@@ -688,9 +688,7 @@ return
 runtime_
 -
 >
-gc
-.
-nursery
+gcNursery
 ;
 }
 #
@@ -1015,8 +1013,6 @@ return
 runtime_
 -
 >
-gc
-.
 pageAllocator
 .
 systemPageSize

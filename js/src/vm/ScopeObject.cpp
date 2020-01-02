@@ -8661,9 +8661,7 @@ key
 rt
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putGeneric
 (
@@ -8857,9 +8855,7 @@ enclosingScope
 rt
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putGeneric
 (
@@ -8935,9 +8931,7 @@ key
 rt
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putGeneric
 (
