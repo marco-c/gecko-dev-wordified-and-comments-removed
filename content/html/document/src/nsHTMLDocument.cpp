@@ -11087,16 +11087,8 @@ const
 nsAString
 &
 aID
-nsresult
-*
-aResult
 )
 {
-*
-aResult
-=
-NS_OK
-;
 if
 (
 nsContentList
