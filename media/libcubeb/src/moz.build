@@ -93,6 +93,11 @@ MPL
 0
 /
 .
+LIBRARY_NAME
+=
+'
+cubeb
+'
 SOURCES
 +
 =
