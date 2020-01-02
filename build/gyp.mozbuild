@@ -286,7 +286,7 @@ off
 enable_lazy_trace_alloc
 '
 :
-1
+0
 #
 turn
 off

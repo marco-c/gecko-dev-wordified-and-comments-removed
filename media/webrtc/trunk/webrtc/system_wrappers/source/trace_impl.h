@@ -100,7 +100,7 @@ else
 #
 define
 WEBRTC_TRACE_MAX_QUEUE
-8000
+16000
 #
 endif
 #
