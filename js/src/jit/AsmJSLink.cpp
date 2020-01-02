@@ -2277,6 +2277,7 @@ activation
 (
 cx
 module
+exportIndex
 )
 ;
 JitActivation

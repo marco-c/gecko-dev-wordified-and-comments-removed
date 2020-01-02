@@ -7782,7 +7782,7 @@ NOT_CALLED_FROM_JSOP_EVAL
 ;
 extern
 void
-CurrentScriptFileLineOrigin
+DescribeScriptedCallerForCompilation
 (
 JSContext
 *
@@ -7790,7 +7790,7 @@ cx
 JSScript
 *
 *
-script
+maybeScript
 const
 char
 *

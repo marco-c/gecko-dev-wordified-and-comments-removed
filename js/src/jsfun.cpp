@@ -7722,7 +7722,7 @@ LegacyGenerator
 ;
 JSScript
 *
-script
+maybeScript
 =
 nullptr
 ;
@@ -7741,11 +7741,11 @@ originPrincipals
 uint32_t
 pcOffset
 ;
-CurrentScriptFileLineOrigin
+DescribeScriptedCallerForCompilation
 (
 cx
 &
-script
+maybeScript
 &
 filename
 &
@@ -7797,10 +7797,10 @@ filename
 ;
 if
 (
-script
+maybeScript
 &
 &
-script
+maybeScript
 -
 >
 scriptSource
@@ -7814,7 +7814,7 @@ introducerFilename
 )
 introducerFilename
 =
-script
+maybeScript
 -
 >
 scriptSource
@@ -7865,7 +7865,7 @@ setIntroductionInfo
 introducerFilename
 introductionType
 lineno
-script
+maybeScript
 pcOffset
 )
 ;

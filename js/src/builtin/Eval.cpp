@@ -1497,7 +1497,7 @@ foundScript
 {
 JSScript
 *
-script
+maybeScript
 ;
 unsigned
 lineno
@@ -1514,11 +1514,11 @@ originPrincipals
 uint32_t
 pcOffset
 ;
-CurrentScriptFileLineOrigin
+DescribeScriptedCallerForCompilation
 (
 cx
 &
-script
+maybeScript
 &
 filename
 &
@@ -1546,10 +1546,10 @@ filename
 ;
 if
 (
-script
+maybeScript
 &
 &
-script
+maybeScript
 -
 >
 scriptSource
@@ -1563,7 +1563,7 @@ introducerFilename
 )
 introducerFilename
 =
-script
+maybeScript
 -
 >
 scriptSource
@@ -1621,7 +1621,7 @@ introducerFilename
 eval
 "
 lineno
-script
+maybeScript
 pcOffset
 )
 ;
@@ -1905,7 +1905,7 @@ foundScript
 {
 JSScript
 *
-script
+maybeScript
 ;
 const
 char
@@ -1922,11 +1922,11 @@ originPrincipals
 uint32_t
 pcOffset
 ;
-CurrentScriptFileLineOrigin
+DescribeScriptedCallerForCompilation
 (
 cx
 &
-script
+maybeScript
 &
 filename
 &
@@ -1947,10 +1947,10 @@ filename
 ;
 if
 (
-script
+maybeScript
 &
 &
-script
+maybeScript
 -
 >
 scriptSource
@@ -1964,7 +1964,7 @@ introducerFilename
 )
 introducerFilename
 =
-script
+maybeScript
 -
 >
 scriptSource
@@ -2022,7 +2022,7 @@ introducerFilename
 eval
 "
 lineno
-script
+maybeScript
 pcOffset
 )
 ;
