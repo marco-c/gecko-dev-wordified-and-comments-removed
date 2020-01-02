@@ -3198,11 +3198,11 @@ DataChannelConnection
 :
 SendPacket
 (
-const
 unsigned
 char
-*
 data
+[
+]
 size_t
 len
 bool
@@ -3232,6 +3232,8 @@ if
 release
 )
 delete
+[
+]
 data
 ;
 return
