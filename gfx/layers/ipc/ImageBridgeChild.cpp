@@ -1301,6 +1301,16 @@ NS_IsMainThread
 )
 )
 ;
+SetMessageLoopToPostDestructionTo
+(
+MessageLoop
+:
+:
+current
+(
+)
+)
+;
 mTxn
 =
 new
