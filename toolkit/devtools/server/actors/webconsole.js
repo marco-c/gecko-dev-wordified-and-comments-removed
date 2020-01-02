@@ -1485,7 +1485,7 @@ this
 .
 parentActor
 .
-_chromeGlobal
+messageManager
 ;
 }
 while
@@ -1615,8 +1615,8 @@ networkMonitor
 if
 (
 appId
-&
-&
+|
+|
 messageManager
 )
 {
@@ -1629,6 +1629,11 @@ NetworkMonitorChild
 (
 appId
 messageManager
+this
+.
+parentActor
+.
+actorID
 this
 )
 ;
