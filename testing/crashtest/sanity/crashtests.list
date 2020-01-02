@@ -1,12 +1,3 @@
-asserts
--
-if
-(
-Android
-8
--
-10
-)
 load
 data
 :

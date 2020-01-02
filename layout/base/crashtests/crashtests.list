@@ -1872,13 +1872,6 @@ load
 1
 .
 xhtml
-asserts
--
-if
-(
-Android
-6
-)
 load
 477731
 -
@@ -1891,13 +1884,6 @@ load
 1
 .
 xhtml
-asserts
--
-if
-(
-Android
-6
-)
 load
 480686
 -

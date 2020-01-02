@@ -16,13 +16,6 @@ load
 2
 .
 xul
-asserts
--
-if
-(
-Android
-3
-)
 load
 366583
 -

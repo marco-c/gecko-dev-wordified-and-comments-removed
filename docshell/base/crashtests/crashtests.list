@@ -40,13 +40,6 @@ load
 2
 .
 html
-asserts
--
-if
-(
-Android
-2
-)
 load
 436900
 -
