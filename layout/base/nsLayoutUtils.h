@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsHTMLReflowState
-.
-h
-"
-#
-include
-"
 FrameMetrics
 .
 h
@@ -141,6 +134,13 @@ h
 include
 "
 gfx3DMatrix
+.
+h
+"
+#
+include
+"
+nsIWidget
 .
 h
 "

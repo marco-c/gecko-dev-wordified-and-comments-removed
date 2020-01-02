@@ -36569,6 +36569,16 @@ false
 pref
 (
 "
+signon
+.
+useDOMFormHasPassword
+"
+true
+)
+;
+pref
+(
+"
 browser
 .
 formfill
