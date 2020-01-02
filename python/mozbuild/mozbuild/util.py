@@ -1671,24 +1671,29 @@ lists
 '
 )
         
+new_list
+=
 StrictOrderingOnAppendList
+(
+)
+        
+list
 .
-ensure_sorted
+extend
+(
+new_list
+self
+)
+        
+new_list
+.
+extend
 (
 other
 )
         
 return
-StrictOrderingOnAppendList
-(
-list
-.
-__add__
-(
-self
-other
-)
-)
+new_list
     
 def
 __iadd__
