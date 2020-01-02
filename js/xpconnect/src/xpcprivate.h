@@ -7176,14 +7176,6 @@ GET_IT
 SINGLETON
 )
 bool
-ClassIsMainThreadOnly
-(
-)
-GET_IT
-(
-MAIN_THREAD_ONLY
-)
-bool
 ClassIsDOMObject
 (
 )
