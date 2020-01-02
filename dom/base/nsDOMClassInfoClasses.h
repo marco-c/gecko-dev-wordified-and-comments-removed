@@ -217,10 +217,6 @@ UserDataHandler
 )
 DOMCI_CLASS
 (
-XPathNamespace
-)
-DOMCI_CLASS
-(
 XULControlElement
 )
 DOMCI_CLASS

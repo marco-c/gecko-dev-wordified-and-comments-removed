@@ -113,11 +113,6 @@ nsIDOMXPathExpression
 idl
 '
 '
-nsIDOMXPathNamespace
-.
-idl
-'
-'
 nsIDOMXPathNSResolver
 .
 idl
