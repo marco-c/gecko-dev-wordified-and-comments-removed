@@ -200,6 +200,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxCrashReporterUtils
 .
 h
@@ -4937,7 +4944,10 @@ glContext
 >
 InitOffscreen
 (
+ToIntSize
+(
 size
+)
 caps
 )
 )

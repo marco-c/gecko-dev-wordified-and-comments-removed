@@ -359,10 +359,7 @@ allocator
 >
 AllocSurfaceDescriptorWithCaps
 (
-ThebesIntSize
-(
 size
-)
 type
 USING_GL_RENDERING_ONLY
 &

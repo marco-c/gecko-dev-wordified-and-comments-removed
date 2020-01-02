@@ -619,15 +619,7 @@ gl
 >
 IsOffscreenSizeAllowed
 (
-gfxIntSize
-(
 aSize
-.
-width
-aSize
-.
-height
-)
 )
 &
 &
