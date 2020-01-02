@@ -683,7 +683,7 @@ android
 :
 Fence
 >
-GetAcquireFence
+GetAndResetAcquireFence
 (
 )
 ;
