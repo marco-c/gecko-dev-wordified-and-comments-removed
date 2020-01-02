@@ -65012,8 +65012,6 @@ dnl
 =
 MOZ_ARG_ENABLE_BOOL
 (
-b2g
--
 nfc
 [
 -
