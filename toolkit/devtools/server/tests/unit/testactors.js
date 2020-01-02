@@ -253,6 +253,14 @@ aGlobal
 ;
 this
 .
+_global
+.
+wrappedJSObject
+=
+aGlobal
+;
+this
+.
 _threadActor
 =
 new

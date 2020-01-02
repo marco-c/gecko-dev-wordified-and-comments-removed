@@ -609,6 +609,12 @@ addTestGlobal
 aGlobal
 )
 {
+aGlobal
+.
+wrappedJSObject
+=
+aGlobal
+;
 gTestGlobals
 .
 push

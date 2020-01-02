@@ -2098,8 +2098,6 @@ this
 this
 .
 window
-.
-wrappedJSObject
 )
 ;
 this
