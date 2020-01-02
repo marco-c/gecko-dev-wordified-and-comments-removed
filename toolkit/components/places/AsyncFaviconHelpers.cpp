@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsICacheService
+.
+h
+"
+#
+include
+"
 nsICacheEntry
 .
 h
