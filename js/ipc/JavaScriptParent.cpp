@@ -202,7 +202,7 @@ toDouble
 ;
 MOZ_ASSERT
 (
-findObject
+findCPOWById
 (
 objId
 )
@@ -2849,7 +2849,7 @@ RootedObject
 obj
 (
 cx
-findObject
+findCPOWById
 (
 objId
 )
