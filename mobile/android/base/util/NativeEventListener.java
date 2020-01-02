@@ -30,6 +30,8 @@ String
 event
 NativeJSObject
 message
+EventCallback
+callback
 )
 ;
 }
