@@ -88,7 +88,7 @@ using
 mozilla
 :
 :
-DoubleIsInt32
+DoubleEqualsInt32
 ;
 using
 mozilla
@@ -3452,7 +3452,7 @@ i
 ;
 if
 (
-DoubleIsInt32
+DoubleEqualsInt32
 (
 d
 &
