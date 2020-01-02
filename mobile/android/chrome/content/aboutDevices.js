@@ -202,10 +202,6 @@ _savedSearchInterval
 =
 SimpleServiceDiscovery
 .
-_searchInterval
-;
-SimpleServiceDiscovery
-.
 search
 (
 SEARCH_INTERVAL_IN_MILLISECONDS

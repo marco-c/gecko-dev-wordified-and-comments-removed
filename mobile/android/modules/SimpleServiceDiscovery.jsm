@@ -594,6 +594,13 @@ search
 aInterval
 )
 {
+let
+existingSearchInterval
+=
+this
+.
+_searchInterval
+;
 if
 (
 aInterval
@@ -640,6 +647,9 @@ this
 _search
 (
 )
+;
+return
+existingSearchInterval
 ;
 }
 stopSearch
