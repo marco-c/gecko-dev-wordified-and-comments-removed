@@ -269,3 +269,17 @@ Apps
 MOZ_ANDROID_SYNTHAPKS
 =
 1
+#
+Enable
+second
+screen
+and
+casting
+support
+for
+external
+devices
+.
+MOZ_DEVICES
+=
+1
