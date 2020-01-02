@@ -255,6 +255,7 @@ let
 {
 label
 preLabel
+text
 }
 =
 popup
@@ -277,7 +278,7 @@ ed
 .
 replaceText
 (
-label
+text
 .
 slice
 (
@@ -294,6 +295,17 @@ popup
 .
 hidePopup
 (
+)
+;
+ed
+.
+emit
+(
+"
+popup
+-
+hidden
+"
 )
 ;
 return
@@ -818,7 +830,7 @@ replaceText
 (
 firstItem
 .
-label
+text
 .
 slice
 (
@@ -854,7 +866,7 @@ popup
 .
 selectedItem
 .
-label
+text
 .
 length
 }
@@ -884,7 +896,7 @@ popup
 .
 selectedItem
 .
-label
+text
 fromCur
 cur
 )
