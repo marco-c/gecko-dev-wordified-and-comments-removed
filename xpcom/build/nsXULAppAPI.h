@@ -663,7 +663,7 @@ appOmni
 XRE_API
 (
 void
-XRE_StopLateWriteChecks
+XRE_DisableWritePoisoning
 (
 void
 )

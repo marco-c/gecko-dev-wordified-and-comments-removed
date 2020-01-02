@@ -312,7 +312,7 @@ include
 "
 mozilla
 /
-PoisonIOInterposer
+mozPoisonWrite
 .
 h
 "

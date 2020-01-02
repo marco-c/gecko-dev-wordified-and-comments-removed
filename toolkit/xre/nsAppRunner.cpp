@@ -744,7 +744,7 @@ include
 "
 mozilla
 /
-LateWriteChecks
+mozPoisonWrite
 .
 h
 "
@@ -18099,9 +18099,15 @@ appInitiatedRestart
 =
 true
 ;
-gShutdownChecks
-=
-SCM_NOTHING
+}
+else
+{
+mozilla
+:
+:
+EnableWritePoisoning
+(
+)
 ;
 }
 if
@@ -18711,7 +18717,7 @@ aEnvID
 #
 endif
 void
-XRE_StopLateWriteChecks
+XRE_DisableWritePoisoning
 (
 void
 )
@@ -18719,7 +18725,7 @@ void
 mozilla
 :
 :
-StopLateWriteChecks
+DisableWritePoisoning
 (
 )
 ;
