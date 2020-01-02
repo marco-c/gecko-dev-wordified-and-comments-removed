@@ -1886,6 +1886,17 @@ char
 src
 )
 {
+if
+(
+!
+*
+src
+)
+{
+return
+0
+;
+}
 int32_t
 length
 ;
