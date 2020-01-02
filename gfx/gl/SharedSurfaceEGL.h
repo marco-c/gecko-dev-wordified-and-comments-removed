@@ -147,9 +147,12 @@ mFormats
 GLuint
 mProdTex
 ;
-nsRefPtr
+RefPtr
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 mPixels
 ;
@@ -279,7 +282,10 @@ GLContext
 consGL
 )
 ;
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 *
 GetPixels
 (
