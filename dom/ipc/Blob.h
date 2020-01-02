@@ -611,7 +611,7 @@ mozilla
 ipc
 :
 :
-MessageListener
+IProtocol
 >
 :
 :
