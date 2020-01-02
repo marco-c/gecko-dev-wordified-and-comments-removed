@@ -51,7 +51,7 @@ kStartURI
 "
 about
 :
-start
+newtab
 "
 ;
 const

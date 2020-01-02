@@ -1685,6 +1685,16 @@ aURI
 "
 about
 :
+start
+"
+|
+|
+aURI
+=
+=
+"
+about
+:
 home
 "
 ;

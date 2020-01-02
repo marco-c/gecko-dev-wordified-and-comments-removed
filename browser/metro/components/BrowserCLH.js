@@ -380,7 +380,7 @@ url
 "
 about
 :
-start
+newtab
 "
 ;
 try

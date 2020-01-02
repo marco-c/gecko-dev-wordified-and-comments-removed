@@ -1104,6 +1104,16 @@ aURL
 "
 about
 :
+newtab
+"
+|
+|
+aURL
+=
+=
+"
+about
+:
 start
 "
 )
