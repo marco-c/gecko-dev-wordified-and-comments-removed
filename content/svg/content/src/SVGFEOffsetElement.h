@@ -227,15 +227,6 @@ Dy
 ;
 protected
 :
-nsIntPoint
-GetOffset
-(
-const
-nsSVGFilterInstance
-&
-aInstance
-)
-;
 virtual
 NumberAttributesInfo
 GetNumberInfo
