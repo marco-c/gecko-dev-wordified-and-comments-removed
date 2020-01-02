@@ -251,7 +251,7 @@ class
 UnixSocketConsumer
 :
 public
-RefCounted
+AtomicRefCounted
 <
 UnixSocketConsumer
 >
