@@ -158,6 +158,11 @@ TestIntegerPrintfMacros
 cpp
 '
 '
+TestMacroArgs
+.
+cpp
+'
+'
 TestRollingMean
 .
 cpp
