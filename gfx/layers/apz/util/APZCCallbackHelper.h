@@ -128,9 +128,8 @@ aContent
 ;
 static
 bool
-GetScrollIdentifiers
+GetOrCreateScrollIdentifiers
 (
-const
 nsIContent
 *
 aContent
