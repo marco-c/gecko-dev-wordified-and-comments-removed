@@ -262,13 +262,6 @@ line
 SetterThrows
 ]
 attribute
-AlignSetting
-lineAlign
-;
-[
-SetterThrows
-]
-attribute
 long
 position
 ;
