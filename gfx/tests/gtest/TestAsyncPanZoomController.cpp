@@ -3127,7 +3127,7 @@ gfx3DMatrix
 aTransformToApzcOut
 gfx3DMatrix
 &
-aTransformToScreenOut
+aTransformToGeckoOut
 )
 {
 nsRefPtr
@@ -3160,7 +3160,7 @@ get
 (
 )
 aTransformToApzcOut
-aTransformToScreenOut
+aTransformToGeckoOut
 )
 ;
 }
@@ -3257,7 +3257,7 @@ gfx3DMatrix
 transformToApzc
 ;
 gfx3DMatrix
-transformToScreen
+transformToGecko
 ;
 nsRefPtr
 <
@@ -3274,7 +3274,7 @@ ScreenPoint
 20
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 AsyncPanZoomController
@@ -3306,7 +3306,7 @@ EXPECT_EQ
 gfx3DMatrix
 (
 )
-transformToScreen
+transformToGecko
 )
 ;
 SetScrollableFrameMetrics
@@ -3340,7 +3340,7 @@ ScreenPoint
 15
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -3389,7 +3389,7 @@ gfxPoint
 15
 15
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -3464,7 +3464,7 @@ ScreenPoint
 15
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -3516,7 +3516,7 @@ gfxPoint
 15
 15
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -3539,7 +3539,7 @@ ScreenPoint
 15
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -3601,7 +3601,7 @@ ScreenPoint
 15
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -3653,7 +3653,7 @@ gfxPoint
 15
 15
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -3676,7 +3676,7 @@ ScreenPoint
 90
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -3725,7 +3725,7 @@ gfxPoint
 90
 90
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -3748,7 +3748,7 @@ ScreenPoint
 10
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -3774,7 +3774,7 @@ EXPECT_EQ
 gfx3DMatrix
 (
 )
-transformToScreen
+transformToGecko
 )
 ;
 hit
@@ -3789,7 +3789,7 @@ ScreenPoint
 10
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -3815,7 +3815,7 @@ EXPECT_EQ
 gfx3DMatrix
 (
 )
-transformToScreen
+transformToGecko
 )
 ;
 manager
@@ -3917,7 +3917,7 @@ gfx3DMatrix
 transformToApzc
 ;
 gfx3DMatrix
-transformToScreen
+transformToGecko
 ;
 gfx3DMatrix
 transform
@@ -4074,7 +4074,7 @@ ScreenPoint
 25
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -4113,7 +4113,7 @@ gfxPoint
 75
 25
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -4136,7 +4136,7 @@ ScreenPoint
 75
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -4175,7 +4175,7 @@ gfxPoint
 15
 75
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -4198,7 +4198,7 @@ ScreenPoint
 25
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -4237,7 +4237,7 @@ gfxPoint
 25
 25
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -4260,7 +4260,7 @@ ScreenPoint
 75
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -4301,7 +4301,7 @@ gfxPoint
 25
 75
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -4326,7 +4326,7 @@ ScreenPoint
 75
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -4367,7 +4367,7 @@ gfxPoint
 75
 75
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -4453,7 +4453,7 @@ ScreenPoint
 75
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -4492,7 +4492,7 @@ gfxPoint
 75
 125
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (
@@ -4515,7 +4515,7 @@ ScreenPoint
 25
 )
 transformToApzc
-transformToScreen
+transformToGecko
 )
 ;
 EXPECT_EQ
@@ -4556,7 +4556,7 @@ gfxPoint
 25
 75
 )
-transformToScreen
+transformToGecko
 .
 Transform
 (

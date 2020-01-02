@@ -539,7 +539,7 @@ gfx3DMatrix
 aTransformToApzcOut
 gfx3DMatrix
 &
-aTransformToScreenOut
+aTransformToGeckoOut
 )
 ;
 private
