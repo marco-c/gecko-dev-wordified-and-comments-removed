@@ -1625,7 +1625,7 @@ aPresContext
 mozilla
 :
 :
-WidgetInputEvent
+WidgetMouseEvent
 *
 aEvent
 )
