@@ -279,3 +279,17 @@ enabled
 false
 )
 ;
+branch
+.
+setIntPref
+(
+"
+touchcaret
+.
+expiration
+.
+time
+"
+0
+)
+;
