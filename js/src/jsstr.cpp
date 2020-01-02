@@ -25482,7 +25482,7 @@ if
 ret
 )
 return
-nullptr
+ret
 ;
 js_strncpy
 (
