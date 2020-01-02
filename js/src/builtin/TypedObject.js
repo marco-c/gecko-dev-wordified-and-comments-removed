@@ -217,9 +217,10 @@ typedObj
 return
 TYPROTO_DESCR
 (
+std_Object_getPrototypeOf
+(
 typedObj
-.
-__proto__
+)
 )
 ;
 }
