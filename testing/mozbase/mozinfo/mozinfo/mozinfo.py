@@ -478,6 +478,14 @@ version
 sys
 .
 platform
+else
+:
+    
+os_version
+=
+version
+=
+unknown
 info
 [
 '
