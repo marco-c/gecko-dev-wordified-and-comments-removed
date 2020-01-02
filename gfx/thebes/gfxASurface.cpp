@@ -4103,7 +4103,7 @@ cStr
 }
 #
 endif
-fprintf
+fprintf_stderr
 (
 aFile
 "
