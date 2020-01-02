@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -364,9 +357,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsACString
 &
 aUnEscapedCommand
@@ -3746,9 +3736,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsAString
 &
 aHandler
@@ -3767,7 +3754,6 @@ DoLookUpHandlerAndDescription
 (
 aMajorType
 aMinorType
-aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
@@ -3788,7 +3774,6 @@ DoLookUpHandlerAndDescription
 (
 aMajorType
 aMinorType
-aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
@@ -3815,7 +3800,6 @@ NS_LITERAL_STRING
 *
 "
 )
-aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
@@ -3842,7 +3826,6 @@ NS_LITERAL_STRING
 *
 "
 )
-aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
@@ -3868,9 +3851,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsAString
 &
 aHandler
@@ -3996,7 +3976,6 @@ GetHandlerAndDescriptionFromMailcapFile
 mailcapFileName
 aMajorType
 aMinorType
-aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
@@ -4032,9 +4011,6 @@ const
 nsAString
 &
 aMinorType
-nsHashtable
-&
-aTypeOptions
 nsAString
 &
 aHandler
@@ -4897,7 +4873,6 @@ semicolon_iter
 )
 aMajorType
 aMinorType
-aTypeOptions
 testCommand
 )
 ;
@@ -5996,16 +5971,12 @@ AppendExtension
 aFileExt
 )
 ;
-nsHashtable
-typeOptions
-;
 rv
 =
 LookUpHandlerAndDescription
 (
 majorType
 minorType
-typeOptions
 handler
 mailcap_description
 mozillaFlags
@@ -6317,9 +6288,6 @@ EndReading
 end_iter
 )
 ;
-nsHashtable
-typeOptions
-;
 nsresult
 rv
 =
@@ -6368,7 +6336,6 @@ DoLookUpHandlerAndDescription
 (
 majorType
 minorType
-typeOptions
 handler
 mailcap_description
 mozillaFlags
@@ -6611,7 +6578,6 @@ DoLookUpHandlerAndDescription
 (
 majorType
 minorType
-typeOptions
 handler
 mailcap_description
 mozillaFlags
@@ -6637,7 +6603,6 @@ NS_LITERAL_STRING
 *
 "
 )
-typeOptions
 handler
 mailcap_description
 mozillaFlags
@@ -6663,7 +6628,6 @@ NS_LITERAL_STRING
 *
 "
 )
-typeOptions
 handler
 mailcap_description
 mozillaFlags
