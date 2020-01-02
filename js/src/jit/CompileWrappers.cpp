@@ -806,6 +806,9 @@ hasObjectMetadataCallback
 )
 ;
 }
+#
+ifdef
+JS_WORKER_THREADS
 AutoLockForCompilation
 :
 :
@@ -835,3 +838,5 @@ runtimeFromAnyThread
 )
 ;
 }
+#
+endif
