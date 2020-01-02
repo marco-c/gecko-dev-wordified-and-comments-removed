@@ -79,6 +79,7 @@ mozilla
 dom
 ;
 class
+MOZ_STACK_CLASS
 nsSVGGradientFrame
 :
 :
@@ -91,6 +92,7 @@ AutoGradientReferencer
 nsSVGGradientFrame
 *
 aFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mFrame
@@ -98,6 +100,8 @@ mFrame
 aFrame
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ABORT_IF_FALSE
 (
 !
@@ -140,6 +144,7 @@ nsSVGGradientFrame
 *
 mFrame
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 nsSVGGradientFrame

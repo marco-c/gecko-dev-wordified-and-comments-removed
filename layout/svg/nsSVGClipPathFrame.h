@@ -225,6 +225,7 @@ endif
 private
 :
 class
+MOZ_STACK_CLASS
 AutoClipPathReferencer
 {
 public
@@ -234,6 +235,7 @@ AutoClipPathReferencer
 nsSVGClipPathFrame
 *
 aFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mFrame
@@ -241,6 +243,8 @@ mFrame
 aFrame
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 !
@@ -282,6 +286,7 @@ nsSVGClipPathFrame
 *
 mFrame
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 nsIFrame
