@@ -12,7 +12,7 @@ url
 "
 :
 "
-http
+https
 :
 /
 /
@@ -21,6 +21,7 @@ marketplace
 firefox
 .
 com
+/
 "
 "
 bgcolor
