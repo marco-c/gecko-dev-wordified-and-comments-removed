@@ -6975,9 +6975,11 @@ mDOMWindow
 )
 mDOMWindow
 =
-do_GetInterface
-(
 mDocShell
+-
+>
+GetWindow
+(
 )
 ;
 NS_ENSURE_TRUE

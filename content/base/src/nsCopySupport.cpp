@@ -2851,9 +2851,11 @@ nsIDocShell
 >
 docShell
 =
-do_GetInterface
-(
 piWindow
+-
+>
+GetDocShell
+(
 )
 ;
 const

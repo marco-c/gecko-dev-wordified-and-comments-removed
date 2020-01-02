@@ -309,9 +309,11 @@ nsIDOMWindow
 >
 window
 =
-do_GetInterface
-(
 item
+-
+>
+GetWindow
+(
 )
 ;
 MOZ_ASSERT

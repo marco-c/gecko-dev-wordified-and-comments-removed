@@ -93,6 +93,9 @@ class
 nsIDocShellTreeOwner
 ;
 class
+nsPIDOMWindow
+;
+class
 nsIWebBrowserChrome
 ;
 class
@@ -198,10 +201,8 @@ nsIDocShellTreeItem
 aParentItem
 )
 ;
-already_AddRefed
-<
-nsIDOMWindow
->
+nsPIDOMWindow
+*
 SafeGetWindowByName
 (
 const

@@ -27105,9 +27105,11 @@ nsPIDOMWindow
 >
 win
 =
-do_GetInterface
-(
 docShell
+-
+>
+GetWindow
+(
 )
 ;
 if
