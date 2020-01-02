@@ -849,11 +849,6 @@ this
 _getKeyBindings
 (
 )
-contextMenu
-:
-"
-sourceEditorContextMenu
-"
 }
 ;
 let
