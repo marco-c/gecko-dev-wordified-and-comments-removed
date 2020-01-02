@@ -35027,7 +35027,7 @@ AllMask
 if
 defined
 (
-JS_CPU_ARM
+JS_CODEGEN_ARM
 )
 static
 const
