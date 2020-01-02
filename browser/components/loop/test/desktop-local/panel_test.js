@@ -1377,7 +1377,7 @@ key
 =
 =
 "
-share_email_subject
+share_email_subject2
 "
 )
 text
