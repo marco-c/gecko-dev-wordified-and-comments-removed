@@ -116,7 +116,7 @@ is
 (
 installInfo
 .
-originatingWindow
+originator
 gBrowser
 .
 contentWindow
