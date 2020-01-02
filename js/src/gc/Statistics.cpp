@@ -331,6 +331,16 @@ d
 {
 if
 (
+d
+<
+0
+)
+d
+=
+0
+;
+if
+(
 asJSON_
 )
 appendNumber
