@@ -9998,6 +9998,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 nsCString
@@ -10069,6 +10071,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 nsCString
@@ -10140,6 +10144,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 nsCString

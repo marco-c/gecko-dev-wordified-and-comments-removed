@@ -2249,6 +2249,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 if
@@ -2277,6 +2279,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 if
@@ -2305,6 +2309,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 {
 if

@@ -2555,6 +2555,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 MOZ_OVERRIDE
 {
@@ -2586,6 +2588,7 @@ RemoteContentController
 :
 HandleDoubleTap
 aPoint
+aModifiers
 )
 )
 ;
@@ -2621,6 +2624,7 @@ browser
 HandleDoubleTap
 (
 aPoint
+aModifiers
 )
 ;
 }
@@ -2633,6 +2637,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 MOZ_OVERRIDE
 {
@@ -2664,6 +2670,7 @@ RemoteContentController
 :
 HandleSingleTap
 aPoint
+aModifiers
 )
 )
 ;
@@ -2699,6 +2706,7 @@ browser
 HandleSingleTap
 (
 aPoint
+aModifiers
 )
 ;
 }
@@ -2711,6 +2719,8 @@ const
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 MOZ_OVERRIDE
 {
@@ -2742,6 +2752,7 @@ RemoteContentController
 :
 HandleLongTap
 aPoint
+aModifiers
 )
 )
 ;
@@ -2777,6 +2788,7 @@ browser
 HandleLongTap
 (
 aPoint
+aModifiers
 )
 ;
 }

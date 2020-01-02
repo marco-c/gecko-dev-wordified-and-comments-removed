@@ -1184,13 +1184,6 @@ json
 .
 y
 ;
-let
-modifiers
-=
-json
-.
-modifiers
-;
 switch
 (
 aMessage
@@ -1422,6 +1415,9 @@ x
 json
 .
 y
+json
+.
+modifiers
 )
 ;
 break
@@ -2035,6 +2031,7 @@ function
 (
 aX
 aY
+aModifiers
 )
 {
 let
@@ -2074,7 +2071,7 @@ aX
 aY
 0
 1
-0
+aModifiers
 true
 1
 .

@@ -72,6 +72,9 @@ MULTITOUCH_INPUT
 aTouchEvent
 .
 time
+aTouchEvent
+.
+modifiers
 )
 {
 NS_ABORT_IF_FALSE
@@ -318,6 +321,9 @@ MULTITOUCH_INPUT
 aMouseEvent
 .
 time
+aMouseEvent
+.
+modifiers
 )
 {
 NS_ABORT_IF_FALSE

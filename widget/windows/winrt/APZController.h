@@ -130,6 +130,8 @@ mozilla
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 ;
 virtual
@@ -143,6 +145,8 @@ mozilla
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 ;
 virtual
@@ -156,6 +160,8 @@ mozilla
 CSSIntPoint
 &
 aPoint
+int32_t
+aModifiers
 )
 ;
 virtual
