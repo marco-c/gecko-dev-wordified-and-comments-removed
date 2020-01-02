@@ -14817,7 +14817,7 @@ addMessageListener
 "
 Link
 :
-AddIcon
+SetIcon
 "
 this
 )
@@ -14899,13 +14899,13 @@ case
 "
 Link
 :
-AddIcon
+SetIcon
 "
 :
 return
 this
 .
-addIcon
+setIcon
 (
 aMsg
 .
@@ -14949,7 +14949,7 @@ break
 ;
 }
 }
-addIcon
+setIcon
 :
 function
 (
