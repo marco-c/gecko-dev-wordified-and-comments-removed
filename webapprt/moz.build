@@ -209,12 +209,12 @@ Startup
 jsm
 '
 '
-WebappManager
+WebappRT
 .
 jsm
 '
 '
-WebappRT
+WebappsHandler
 .
 jsm
 '

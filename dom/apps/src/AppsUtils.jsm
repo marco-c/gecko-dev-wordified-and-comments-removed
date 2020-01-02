@@ -1170,7 +1170,7 @@ path
 :
 WebappOSUtils
 .
-getPackagePath
+getInstallPath
 (
 app
 )

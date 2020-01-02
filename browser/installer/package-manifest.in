@@ -4781,7 +4781,7 @@ webapprt
 /
 modules
 /
-WebappManager
+WebappsHandler
 .
 jsm
 BINPATH
