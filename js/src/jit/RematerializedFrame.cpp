@@ -271,10 +271,7 @@ buf
 cx
 -
 >
-pod_calloc
-<
-uint8_t
->
+calloc_
 (
 numBytes
 )
