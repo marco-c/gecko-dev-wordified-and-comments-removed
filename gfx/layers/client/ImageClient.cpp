@@ -464,6 +464,10 @@ ifdef
 MOZ_WIDGET_GONK
 if
 (
+aAsyncTransactionTracker
+|
+|
+(
 GetForwarder
 (
 )
@@ -479,6 +483,7 @@ aTexture
 >
 HasRecycleCallback
 (
+)
 )
 )
 {
