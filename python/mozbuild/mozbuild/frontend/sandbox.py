@@ -980,16 +980,14 @@ value
 :
             
 raise
-Exception
+KeyError
 (
 '
-Reassigning
-%
-s
-is
-forbidden
+global_ns
 '
-%
+'
+reassign
+'
 name
 )
         
