@@ -11008,6 +11008,8 @@ MToInt32
 :
 public
 MUnaryInstruction
+public
+ToInt32Policy
 {
 bool
 canBeNegativeZero_
@@ -11094,6 +11096,16 @@ negativeZero
 canBeNegativeZero_
 =
 negativeZero
+;
+}
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
 ;
 }
 bool
