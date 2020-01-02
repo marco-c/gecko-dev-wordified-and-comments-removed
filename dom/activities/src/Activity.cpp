@@ -339,12 +339,6 @@ aOptions
 ToObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
 &
 optionsValue
 )

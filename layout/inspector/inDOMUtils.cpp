@@ -3293,12 +3293,6 @@ triple
 ToObject
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
 aValue
 )
 )

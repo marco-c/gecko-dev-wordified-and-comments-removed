@@ -2617,12 +2617,6 @@ ops
 ToObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
 &
 val
 )

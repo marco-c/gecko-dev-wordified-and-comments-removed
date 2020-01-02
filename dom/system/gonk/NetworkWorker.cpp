@@ -762,12 +762,6 @@ aOptions
 ToObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
 &
 val
 )

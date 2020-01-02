@@ -683,7 +683,6 @@ detail
 ToObject
 (
 cx
-global
 &
 val
 )
@@ -1372,12 +1371,6 @@ detail
 ToObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
 &
 val
 )

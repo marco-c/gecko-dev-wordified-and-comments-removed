@@ -24050,12 +24050,6 @@ detail
 ToObject
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
 &
 detailValue
 )

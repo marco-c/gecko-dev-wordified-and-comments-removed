@@ -35271,9 +35271,6 @@ ToObject
 (
 cx
 {
-obj
-}
-{
 jsvalHandle
 }
 )
@@ -72589,7 +72586,6 @@ s
 ToObject
 (
 cx
-parentObject
 rval
 )
 )
@@ -72808,23 +72804,6 @@ JSContext
 '
 '
 cx
-'
-)
-            
-Argument
-(
-'
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-'
-'
-parentObject
 '
 )
             
@@ -74772,14 +74751,6 @@ returnsNewObject
 '
 :
 False
-                
-'
-obj
-'
-:
-"
-parentObject
-"
                 
 '
 typedArraysAreStructs
