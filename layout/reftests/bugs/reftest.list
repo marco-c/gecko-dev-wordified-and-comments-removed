@@ -24540,7 +24540,7 @@ if
 (
 B2G
 )
-fails
+skip
 -
 if
 (
@@ -24560,6 +24560,18 @@ html
 ref
 .
 html
+#
+bug
+920927
+for
+Android
+;
+issues
+without
+the
+test
+-
+plugin
 HTTP
 (
 .
