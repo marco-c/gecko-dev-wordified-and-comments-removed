@@ -3010,6 +3010,17 @@ aProperty
 ;
 static
 bool
+HasAnimations
+(
+nsIContent
+*
+aContent
+nsCSSProperty
+aProperty
+)
+;
+static
+bool
 AreAsyncAnimationsEnabled
 (
 )
