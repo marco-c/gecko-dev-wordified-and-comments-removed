@@ -19915,9 +19915,27 @@ why
 )
 ]
                 
+ret
+=
+Type
+.
+VOID
+                
 virtual
 =
 1
+pure
+=
+(
+self
+.
+side
+=
+=
+'
+parent
+'
+)
 )
 )
             
@@ -38708,6 +38726,14 @@ md
 .
 decl
 .
+pure
+=
+0
+    
+md
+.
+decl
+.
 only_for_definition
 =
 True
@@ -39102,7 +39128,15 @@ ZERO
 )
 )
         
-else
+elif
+md
+.
+ret
+=
+=
+Type
+.
+BOOL
 :
             
 impl
