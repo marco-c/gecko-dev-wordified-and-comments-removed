@@ -687,6 +687,16 @@ fun
 )
 )
 ;
+JS_ASSERT
+(
+fun
+-
+>
+isTenured
+(
+)
+)
+;
 typedef
 CallsiteCloneKey
 Key
