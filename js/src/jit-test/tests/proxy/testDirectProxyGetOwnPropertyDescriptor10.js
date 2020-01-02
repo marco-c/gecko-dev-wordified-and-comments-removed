@@ -128,6 +128,9 @@ var
 desc
 =
 {
+configurable
+:
+true
 }
 ;
 var
@@ -199,6 +202,6 @@ assertEq
 desc1
 .
 configurable
-false
+true
 )
 ;
