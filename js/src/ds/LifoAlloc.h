@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -691,6 +700,7 @@ chunk
 }
 ;
 }
+MOZ_NORETURN
 void
 CrashAtUnhandlableOOM
 (
