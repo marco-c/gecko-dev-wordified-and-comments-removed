@@ -94,10 +94,6 @@ js
 :
 gc
 ;
-using
-namespace
-mozilla
-;
 #
 ifdef
 JS_GC_ZEAL

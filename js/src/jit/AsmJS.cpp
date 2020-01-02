@@ -3145,9 +3145,6 @@ stackBytesConsumedSoFar
 }
 ;
 typedef
-js
-:
-:
 Vector
 <
 MIRType
@@ -3163,9 +3160,6 @@ MIRTypeVector
 ABIArgMIRTypeIter
 ;
 typedef
-js
-:
-:
 Vector
 <
 VarType
@@ -3663,9 +3657,6 @@ NEEDS_BOUNDS_CHECK
 namespace
 {
 typedef
-js
-:
-:
 Vector
 <
 PropertyName
@@ -3675,9 +3666,6 @@ PropertyName
 LabelVector
 ;
 typedef
-js
-:
-:
 Vector
 <
 MBasicBlock
@@ -4273,9 +4261,6 @@ mathBuiltinFunc_
 }
 ;
 typedef
-js
-:
-:
 Vector
 <
 const
@@ -4500,9 +4485,6 @@ i
 }
 ;
 typedef
-js
-:
-:
 Vector
 <
 FuncPtrTable
@@ -4832,9 +4814,6 @@ Global
 GlobalMap
 ;
 typedef
-js
-:
-:
 Vector
 <
 Func
@@ -4843,9 +4822,6 @@ Func
 FuncVector
 ;
 typedef
-js
-:
-:
 Vector
 <
 AsmJSGlobalAccess
@@ -4853,9 +4829,6 @@ AsmJSGlobalAccess
 GlobalAccessVector
 ;
 typedef
-js
-:
-:
 Vector
 <
 SlowFunction
@@ -9412,9 +9385,6 @@ Local
 LocalMap
 ;
 typedef
-js
-:
-:
 Vector
 <
 TypedValue
@@ -9440,9 +9410,6 @@ BlockVector
 UnlabeledBlockMap
 ;
 typedef
-js
-:
-:
 Vector
 <
 ParseNode
@@ -11667,9 +11634,6 @@ MAsmJSCall
 Args
 regArgs_
 ;
-js
-:
-:
 Vector
 <
 MAsmJSPassStackArg
@@ -32953,9 +32917,6 @@ mark
 uint32_t
 len
 =
-js
-:
-:
 RoundUpToNextValidAsmJSHeapLength
 (
 m
@@ -33602,9 +33563,6 @@ canUseOffthreadIonCompilation
 struct
 ParallelGroupState
 {
-js
-:
-:
 Vector
 <
 AsmJSParallelTask
@@ -33621,9 +33579,6 @@ compiledJobs
 explicit
 ParallelGroupState
 (
-js
-:
-:
 Vector
 <
 AsmJSParallelTask
@@ -34549,9 +34504,6 @@ threadCount
 +
 1
 ;
-js
-:
-:
 Vector
 <
 AsmJSParallelTask

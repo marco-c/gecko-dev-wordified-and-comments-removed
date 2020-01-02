@@ -4571,9 +4571,6 @@ PropertyName
 name
 )
 {
-js
-:
-:
 Vector
 <
 CharT
@@ -4858,9 +4855,6 @@ size_t
 SerializedVectorSize
 (
 const
-js
-:
-:
 Vector
 <
 T
@@ -4927,9 +4921,6 @@ uint8_t
 *
 cursor
 const
-js
-:
-:
 Vector
 <
 T
@@ -5007,9 +4998,6 @@ const
 uint8_t
 *
 cursor
-js
-:
-:
 Vector
 <
 T
@@ -7916,9 +7904,6 @@ protected
 uint32_t
 isFunCtor_
 ;
-js
-:
-:
 Vector
 <
 PropertyNameWrapper
@@ -7986,9 +7971,6 @@ uncompressedSize_
 uint32_t
 compressedSize_
 ;
-js
-:
-:
 Vector
 <
 char
@@ -8335,9 +8317,6 @@ ModuleCharsForLookup
 :
 ModuleChars
 {
-js
-:
-:
 Vector
 <
 jschar

@@ -39,10 +39,6 @@ js
 jit
 ;
 using
-namespace
-mozilla
-;
-using
 JS
 :
 :
