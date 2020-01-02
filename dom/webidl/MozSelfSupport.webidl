@@ -130,9 +130,12 @@ mozselfsupport
 ;
 1
 "
+Constructor
+(
+)
 ]
 interface
-MozSelfSupportImpl
+MozSelfSupport
 {
 /
 *
