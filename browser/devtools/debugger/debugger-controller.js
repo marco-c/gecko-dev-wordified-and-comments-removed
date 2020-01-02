@@ -6112,6 +6112,13 @@ DevToolsUtils
 .
 reportException
 (
+"
+Tracer
+.
+prototype
+.
+startTracing
+"
 error
 )
 ;
@@ -6185,6 +6192,13 @@ DevToolsUtils
 .
 reportException
 (
+"
+Tracer
+.
+prototype
+.
+stopTracing
+"
 error
 )
 ;
