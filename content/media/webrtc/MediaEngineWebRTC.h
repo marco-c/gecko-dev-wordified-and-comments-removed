@@ -690,10 +690,13 @@ return
 false
 ;
 }
+#
+ifndef
+MOZ_B2G_CAMERA
 NS_DECL_THREADSAFE_ISUPPORTS
 #
-ifdef
-MOZ_B2G_CAMERA
+else
+NS_DECL_ISUPPORTS_INHERITED
 void
 OnHardwareStateChange
 (
