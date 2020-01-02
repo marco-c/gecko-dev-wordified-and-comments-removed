@@ -2501,6 +2501,13 @@ java
 '
 tabspanel
 /
+RemoteTabsSetupPanel
+.
+java
+'
+'
+tabspanel
+/
 TabsPanel
 .
 java
