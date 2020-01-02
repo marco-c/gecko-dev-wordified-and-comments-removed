@@ -57285,9 +57285,11 @@ nsIPermissionManager
 >
 permMgr
 =
-do_GetService
+services
+:
+:
+GetPermissionManager
 (
-NS_PERMISSIONMANAGER_CONTRACTID
 )
 ;
 if
