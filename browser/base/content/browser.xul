@@ -7608,6 +7608,9 @@ cui
 widget
 -
 panelWithFooter
+PanelUI
+-
+subView
 "
 placespopup
 =

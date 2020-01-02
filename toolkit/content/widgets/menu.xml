@@ -1210,11 +1210,6 @@ menu
 -
 text
 "
-flex
-=
-"
-1
-"
 xbl
 :
 inherits
@@ -1378,11 +1373,6 @@ class
 menu
 -
 text
-"
-flex
-=
-"
-1
 "
 xbl
 :
