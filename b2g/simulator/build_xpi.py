@@ -1005,6 +1005,17 @@ b2g
 "
 gaia
 "
+"
+B2G
+.
+app
+/
+Contents
+/
+MacOS
+/
+gaia
+"
 )
 )
     

@@ -876,6 +876,10 @@ exe
 Darwin
 :
 "
+B2G
+.
+app
+/
 Contents
 /
 MacOS
