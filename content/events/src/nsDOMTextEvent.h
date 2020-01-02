@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsDOMUIEvent
 .
 h

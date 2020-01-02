@@ -33,6 +33,13 @@ DOMCursor
 .
 h
 "
+#
+include
+"
+nsIDOMEvent
+.
+h
+"
 using
 mozilla
 :

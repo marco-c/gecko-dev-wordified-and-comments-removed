@@ -48,6 +48,15 @@ StaticPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 class
 gfxASurface
 ;

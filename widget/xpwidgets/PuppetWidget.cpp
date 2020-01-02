@@ -81,6 +81,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 PuppetWidget
 .
 h

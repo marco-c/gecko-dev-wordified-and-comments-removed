@@ -150,6 +150,15 @@ nsUTF8Utils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 nsIFrame
 *
 NS_NewMenuBarFrame

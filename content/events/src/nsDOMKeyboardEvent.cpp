@@ -12,6 +12,15 @@ prtime
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 nsDOMKeyboardEvent
 :
 :

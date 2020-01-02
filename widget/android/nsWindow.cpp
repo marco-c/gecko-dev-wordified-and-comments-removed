@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+TextEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TouchEvents
 .
 h

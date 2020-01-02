@@ -68,7 +68,7 @@ h
 #
 include
 "
-nsGUIEvent
+nsIDOMKeyEvent
 .
 h
 "

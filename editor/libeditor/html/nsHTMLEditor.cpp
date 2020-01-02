@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h

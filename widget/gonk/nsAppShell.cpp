@@ -166,6 +166,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 nsAppShell
 .
 h

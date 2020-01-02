@@ -69,6 +69,15 @@ Services
 h
 "
 #
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
+#
 ifdef
 MOZ_ENABLE_QTMOBILITY
 #

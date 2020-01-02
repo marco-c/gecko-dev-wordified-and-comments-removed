@@ -5,6 +5,15 @@ nsPrivateTextRange
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 nsPrivateTextRange
 :
 :

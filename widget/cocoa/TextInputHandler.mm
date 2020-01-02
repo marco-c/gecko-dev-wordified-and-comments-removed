@@ -167,6 +167,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 nsChildView
 .
 h

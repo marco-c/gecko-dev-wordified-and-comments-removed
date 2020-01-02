@@ -334,6 +334,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h

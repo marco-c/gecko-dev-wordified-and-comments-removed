@@ -288,6 +288,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEvents
+.
+h
+"
+#
+include
+"
 nsNodeUtils
 .
 h

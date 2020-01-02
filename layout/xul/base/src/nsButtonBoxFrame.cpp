@@ -107,6 +107,15 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 nsIFrame
 *
 NS_NewButtonBoxFrame

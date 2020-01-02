@@ -202,6 +202,13 @@ nsIDOMElement
 .
 h
 "
+#
+include
+"
+nsIDOMEvent
+.
+h
+"
 nsMenuItemX
 :
 :
