@@ -866,6 +866,8 @@ __COUNTER__
 __asm
 lea
 eax
+dword
+ptr
 file
 \
 __asm
