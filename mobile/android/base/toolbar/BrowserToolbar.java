@@ -3004,6 +3004,9 @@ msg
 case
 ADDED
 :
+case
+CLOSED
+:
 updateTabCount
 (
 tabs
