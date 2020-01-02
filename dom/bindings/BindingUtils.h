@@ -10415,14 +10415,6 @@ JSObject
 *
 >
 obj
-const
-char
-*
-pre
-const
-char
-*
-post
 JS
 :
 :
