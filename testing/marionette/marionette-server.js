@@ -440,7 +440,7 @@ modules
 /
 devtools
 /
-server
+transport
 /
 transport
 .
@@ -1332,11 +1332,6 @@ true
 ;
 if
 (
-values
-instanceof
-Object
-&
-&
 commandId
 )
 {
