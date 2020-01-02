@@ -895,10 +895,6 @@ AC_SUBST
 (
 ICU_LIB_NAMES
 )
-AC_SUBST
-(
-MOZ_ICU_LIBS
-)
 if
 test
 -
