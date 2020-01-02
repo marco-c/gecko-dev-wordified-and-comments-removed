@@ -15582,7 +15582,7 @@ nullptr
 JS
 :
 :
-UnlimitedHeapMaxBytes
+DefaultHeapMaxBytes
 )
 mJSContextStack
 (
@@ -15816,6 +15816,13 @@ JS_SetRuntimePrivate
 (
 runtime
 rtPrivate
+)
+;
+JS_SetGCParameter
+(
+runtime
+JSGC_MAX_BYTES
+0xffffffff
 )
 ;
 const

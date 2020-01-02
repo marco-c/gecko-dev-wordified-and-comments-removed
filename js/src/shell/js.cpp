@@ -37685,7 +37685,7 @@ JS_NewRuntime
 JS
 :
 :
-UnlimitedHeapMaxBytes
+DefaultHeapMaxBytes
 nurseryBytes
 )
 ;
@@ -37727,6 +37727,13 @@ rt
 NullValue
 (
 )
+)
+;
+JS_SetGCParameter
+(
+rt
+JSGC_MAX_BYTES
+0xffffffff
 )
 ;
 #

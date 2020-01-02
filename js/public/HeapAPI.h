@@ -335,12 +335,6 @@ DefaultHeapMaxBytes
 *
 1024
 ;
-const
-uint32_t
-UnlimitedHeapMaxBytes
-=
-0xffffffff
-;
 static
 MOZ_ALWAYS_INLINE
 js
