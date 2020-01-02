@@ -2429,7 +2429,6 @@ DecodeError
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 return
@@ -2662,7 +2661,6 @@ DecodeError
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 return

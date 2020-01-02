@@ -773,7 +773,6 @@ event
 NS_DispatchToMainThread
 (
 eventRunner
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -845,7 +844,6 @@ event
 NS_DispatchToMainThread
 (
 eventRunner
-NS_DISPATCH_NORMAL
 )
 ;
 }

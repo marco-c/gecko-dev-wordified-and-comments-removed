@@ -320,7 +320,6 @@ rv
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 if
@@ -454,7 +453,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 )
 )
@@ -697,7 +695,6 @@ rv
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 if
@@ -921,7 +918,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 )
 )
@@ -1169,7 +1165,6 @@ mLimit
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 }

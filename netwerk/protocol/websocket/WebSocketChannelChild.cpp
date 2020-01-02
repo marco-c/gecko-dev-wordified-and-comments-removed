@@ -2386,7 +2386,6 @@ this
 stream
 aLength
 )
-NS_DISPATCH_NORMAL
 )
 ;
 }

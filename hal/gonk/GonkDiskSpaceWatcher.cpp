@@ -904,7 +904,6 @@ DiskSpaceCleaner
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -945,7 +944,6 @@ mFreeSpace
 NS_DispatchToMainThread
 (
 runnable
-NS_DISPATCH_NORMAL
 )
 ;
 }

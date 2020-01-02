@@ -1613,7 +1613,6 @@ forget
 NS_DispatchToMainThread
 (
 runner
-NS_DISPATCH_NORMAL
 )
 ;
 return

@@ -276,7 +276,6 @@ Load
 NS_DispatchToMainThread
 (
 mCompleteEvent
-NS_DISPATCH_NORMAL
 )
 ;
 mFontInfo

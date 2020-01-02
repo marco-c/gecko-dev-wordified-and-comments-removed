@@ -1483,7 +1483,6 @@ NS_GetCurrentThread
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }

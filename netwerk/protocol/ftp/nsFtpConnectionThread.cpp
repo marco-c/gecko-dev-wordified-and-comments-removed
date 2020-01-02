@@ -8572,7 +8572,6 @@ mResponseMsg
 NS_DispatchToMainThread
 (
 alertEvent
-NS_DISPATCH_NORMAL
 )
 ;
 }

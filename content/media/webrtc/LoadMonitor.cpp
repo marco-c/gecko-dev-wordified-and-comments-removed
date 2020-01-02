@@ -711,7 +711,6 @@ NS_IsMainThread
 NS_DispatchToMainThread
 (
 remObsRunner
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -2717,7 +2716,6 @@ self
 NS_DispatchToMainThread
 (
 addObsRunner
-NS_DISPATCH_NORMAL
 )
 ;
 NS_NewNamedThread

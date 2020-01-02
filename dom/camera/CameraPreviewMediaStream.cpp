@@ -531,7 +531,6 @@ Invalidate
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -620,7 +619,6 @@ Invalidate
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }

@@ -2871,7 +2871,6 @@ NS_FAILED
 NS_DispatchToMainThread
 (
 finishTransactionRunnable
-NS_DISPATCH_NORMAL
 )
 )
 )

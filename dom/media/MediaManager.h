@@ -1483,7 +1483,6 @@ forget
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }
@@ -1591,7 +1590,6 @@ mWindowID
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }

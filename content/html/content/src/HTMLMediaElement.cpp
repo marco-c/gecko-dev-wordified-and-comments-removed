@@ -14359,7 +14359,6 @@ this
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 return
@@ -15231,7 +15230,6 @@ aSourceElement
 NS_DispatchToMainThread
 (
 event
-NS_DISPATCH_NORMAL
 )
 ;
 }

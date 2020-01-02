@@ -4873,7 +4873,6 @@ RecordingComplete
 (
 mVideoFile
 )
-NS_DISPATCH_NORMAL
 )
 ;
 }

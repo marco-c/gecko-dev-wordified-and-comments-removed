@@ -1615,7 +1615,6 @@ mTimeoutPrefMs
 NS_DispatchToMainThread
 (
 workItem
-NS_DISPATCH_NORMAL
 )
 ;
 return
