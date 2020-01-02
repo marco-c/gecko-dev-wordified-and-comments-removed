@@ -199,6 +199,57 @@ processes
     
 :
 param
+kill_on_timeout
+:
+when
+True
+the
+process
+will
+be
+killed
+when
+a
+timeout
+is
+reached
+.
+When
+False
+the
+caller
+is
+responsible
+for
+killing
+the
+process
+.
+Failure
+to
+do
+so
+could
+cause
+a
+call
+to
+wait
+(
+)
+to
+hang
+indefinitely
+.
+(
+Defaults
+to
+True
+.
+)
+    
+:
+param
 processOutputLine
 :
 function
@@ -3067,6 +3118,10 @@ ignore_children
 =
 False
                  
+kill_on_timeout
+=
+True
+                 
 processOutputLine
 =
 (
@@ -3117,6 +3172,12 @@ self
 _ignore_children
 =
 ignore_children
+        
+self
+.
+_kill_on_timeout
+=
+kill_on_timeout
         
 self
 .
@@ -4071,6 +4132,12 @@ self
 didTimeout
 :
                 
+if
+self
+.
+_kill_on_timeout
+:
+                    
 self
 .
 proc
@@ -4255,6 +4322,7 @@ timeout
 :
                     
 return
+None
         
 return
 self
