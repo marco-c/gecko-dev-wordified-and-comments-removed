@@ -1105,6 +1105,9 @@ aApp
 )
 ;
 #
+ifndef
+MOZ_B2G
+#
 ifdef
 XP_MACOSX
 packagePath
@@ -1124,6 +1127,8 @@ Resources
 "
 )
 ;
+#
+endif
 #
 endif
 return
