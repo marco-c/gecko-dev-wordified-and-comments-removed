@@ -4137,6 +4137,9 @@ GetScrollPosition
 (
 )
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 if
 (
 scrollableFrame
@@ -4197,6 +4200,8 @@ width
 0
 ;
 }
+#
+endif
 contentBounds
 .
 width
