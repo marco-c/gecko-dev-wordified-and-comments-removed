@@ -198,7 +198,7 @@ real
 (
 Date
 6
-js_InitDateClass
+js_InitViaClassSpec
 OCLASP
 (
 Date
