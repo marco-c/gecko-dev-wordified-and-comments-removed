@@ -4450,7 +4450,7 @@ gTestPBackground
 uint32_t
 testValue
 ;
-PRSize
+size_t
 randomSize
 =
 PR_GetRandomNoise

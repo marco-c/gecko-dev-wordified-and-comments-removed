@@ -907,7 +907,7 @@ nsIFilePicker
 filterImages
 )
 ;
-PRInt16
+int16_t
 dialogReturn
 ;
 rv

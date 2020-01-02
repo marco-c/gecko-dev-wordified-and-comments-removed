@@ -1116,7 +1116,7 @@ trust
 SECSuccess
 )
 {
-PRUint32
+uint32_t
 flags
 =
 SEC_GET_TRUST_FLAGS
@@ -1126,7 +1126,7 @@ trust
 mCertDBTrustType
 )
 ;
-PRUint32
+uint32_t
 relevantTrustBit
 =
 endEntityOrCA

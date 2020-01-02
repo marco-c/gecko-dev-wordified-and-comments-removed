@@ -631,12 +631,12 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 begin
 =
 0
 ;
-PRUint32
+uint32_t
 end
 =
 0
@@ -663,7 +663,7 @@ end
 =
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
