@@ -1110,9 +1110,13 @@ ref
 }
 }
 ;
+namespace
+binding_detail
+{
 struct
 FakeDependentString
 ;
+}
 template
 <
 >
@@ -1173,6 +1177,9 @@ operator
 =
 (
 const
+binding_detail
+:
+:
 FakeDependentString
 *
 str
