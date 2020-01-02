@@ -504,6 +504,15 @@ return
 mRoleMapEntry
 ;
 }
+bool
+IsARIARole
+(
+nsIAtom
+*
+aARIARole
+)
+const
+;
 nsRoleMapEntry
 *
 ARIARoleMap
