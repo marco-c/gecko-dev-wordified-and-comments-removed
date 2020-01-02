@@ -29,6 +29,13 @@ stdlib
 .
 h
 >
+#
+include
+<
+string
+.
+h
+>
 void
 BufferUnrotate
 (
