@@ -2249,9 +2249,6 @@ if
 aMaskLayer
 )
 {
-gfxMatrix
-maskTransform
-;
 bool
 maskIs2D
 =
@@ -2264,8 +2261,6 @@ GetTransform
 .
 CanDraw2D
 (
-&
-maskTransform
 )
 ;
 NS_ASSERTION
@@ -2997,7 +2992,10 @@ nullptr
 ;
 }
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 GetTransform
 (
 )

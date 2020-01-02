@@ -12478,7 +12478,10 @@ nsIntRegion
 aCoveredRegion
 )
 {
-gfxMatrix
+gfx
+:
+:
+Matrix
 transform
 ;
 if
@@ -12522,10 +12525,10 @@ nsIntPoint
 (
 transform
 .
-x0
+_31
 transform
 .
-y0
+_32
 )
 ;
 Layer
