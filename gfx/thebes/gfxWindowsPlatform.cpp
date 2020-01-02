@@ -2599,7 +2599,7 @@ ifdef
 CAIRO_HAS_DWRITE_FONT
 if
 (
-IsWin7RTMOrLater
+IsNotWin7PreRTM
 (
 )
 &
