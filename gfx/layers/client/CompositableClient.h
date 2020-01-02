@@ -426,13 +426,13 @@ aTexture
 nullptr
 )
 :
-mCompositable
-(
-aCompositable
-)
 mTexture
 (
 aTexture
+)
+mCompositable
+(
+aCompositable
 )
 {
 }
