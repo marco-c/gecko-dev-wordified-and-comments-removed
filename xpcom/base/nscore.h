@@ -65,6 +65,9 @@ stdint
 h
 >
 #
+ifdef
+__cplusplus
+#
 include
 "
 mozilla
@@ -73,6 +76,8 @@ NullPtr
 .
 h
 "
+#
+endif
 #
 ifdef
 HAVE_VISIBILITY_HIDDEN_ATTRIBUTE
