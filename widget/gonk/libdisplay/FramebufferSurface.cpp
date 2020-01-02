@@ -579,6 +579,14 @@ acquireFence
 get
 (
 )
+&
+&
+acquireFence
+-
+>
+isValid
+(
+)
 )
 mPrevFBAcquireFence
 =
