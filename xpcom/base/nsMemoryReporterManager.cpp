@@ -3420,7 +3420,7 @@ nsIMemoryReporterCallback
 aCallback
 nsISupports
 *
-aClosure
+aData
 )
 {
 dmd
@@ -3484,7 +3484,7 @@ NS_LITERAL_CSTRING
 (
 _desc
 )
-aClosure
+aData
 )
 ;
 \

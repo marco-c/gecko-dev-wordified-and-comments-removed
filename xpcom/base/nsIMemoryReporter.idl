@@ -1110,7 +1110,7 @@ AUTF8String
 description
 in
 nsISupports
-closure
+data
 )
 ;
 }
@@ -1413,7 +1413,7 @@ nsIMemoryReporterCallback
 callback
 in
 nsISupports
-closure
+data
 )
 ;
 /
@@ -3572,7 +3572,7 @@ nsIMemoryReporterCallback
 aCallback
 nsISupports
 *
-aClosure
+aData
 )
 {
 int64_t
@@ -3607,7 +3607,7 @@ mKind
 mUnits
 amount
 mDescription
-aClosure
+aData
 )
 ;
 }
