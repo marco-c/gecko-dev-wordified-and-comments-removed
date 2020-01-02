@@ -103,6 +103,9 @@ app
 manager
 '
 '
+canvasdebugger
+'
+'
 commandline
 '
 '
