@@ -208,15 +208,6 @@ namespace
 mozilla
 ;
 #
-define
-COMPONENT_DIRECTORY
-NS_LITERAL_CSTRING
-(
-"
-components
-"
-)
-#
 if
 defined
 (
