@@ -4308,14 +4308,14 @@ bits
 :
 bits
 <
-1024
+1280
 ?
 7
 :
 bits
 =
 =
-1024
+1280
 ?
 8
 :
@@ -4411,7 +4411,7 @@ value
 }
 static
 void
-AccummulateECCCurve
+AccumulateECCCurve
 (
 Telemetry
 :
@@ -5605,7 +5605,7 @@ break
 case
 ssl_kea_ecdh
 :
-AccummulateECCCurve
+AccumulateECCCurve
 (
 Telemetry
 :
@@ -5697,7 +5697,7 @@ break
 case
 ssl_auth_ecdsa
 :
-AccummulateECCCurve
+AccumulateECCCurve
 (
 Telemetry
 :
