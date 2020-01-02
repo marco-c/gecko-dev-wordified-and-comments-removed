@@ -123,6 +123,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+AVFrame
+*
+PrepareFrame
+(
+)
+;
 MediaTaskQueue
 *
 mTaskQueue
@@ -130,6 +136,10 @@ mTaskQueue
 AVCodecContext
 *
 mCodecContext
+;
+AVFrame
+*
+mFrame
 ;
 Vector
 <
