@@ -4088,6 +4088,7 @@ cx
 ;
 FillCompileOptionsForRequest
 (
+jsapi
 aRequest
 global
 &
@@ -4889,6 +4890,10 @@ nsScriptLoader
 :
 FillCompileOptionsForRequest
 (
+const
+AutoJSAPI
+&
+jsapi
 nsScriptLoadRequest
 *
 aRequest
@@ -5029,8 +5034,15 @@ mOriginPrincipal
 )
 ;
 }
-AutoJSContext
+JSContext
+*
 cx
+=
+jsapi
+.
+cx
+(
+)
 ;
 JS
 :
@@ -5053,13 +5065,6 @@ aRequest
 -
 >
 mElement
-)
-;
-JSAutoCompartment
-ac
-(
-cx
-aScopeChain
 )
 ;
 if
@@ -5386,6 +5391,7 @@ cx
 ;
 FillCompileOptionsForRequest
 (
+entryScript
 aRequest
 global
 &
