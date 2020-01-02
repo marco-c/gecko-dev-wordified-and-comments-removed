@@ -293,6 +293,12 @@ INTENT
 intent
 "
 )
+HOMESCREEN
+(
+"
+homescreen
+"
+)
 LIST
 (
 "
