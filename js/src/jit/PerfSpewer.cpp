@@ -996,6 +996,8 @@ script
 -
 >
 lineno
+(
+)
 thisFunctionIndex
 )
 ;
@@ -1140,6 +1142,8 @@ script
 -
 >
 lineno
+(
+)
 thisFunctionIndex
 )
 ;
@@ -1280,6 +1284,8 @@ script
 -
 >
 lineno
+(
+)
 thisFunctionIndex
 )
 ;
@@ -1405,6 +1411,8 @@ script
 -
 >
 lineno
+(
+)
 thisFunctionIndex
 )
 ;
@@ -1460,6 +1468,8 @@ script
 -
 >
 lineno
+(
+)
 thisFunctionIndex
 )
 ;
@@ -1565,6 +1575,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 }
