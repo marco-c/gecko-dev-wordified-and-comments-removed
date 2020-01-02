@@ -5276,6 +5276,13 @@ JSCompartment
 comp
 )
 ;
+AutoSuppressGC
+(
+JSRuntime
+*
+rt
+)
+;
 ~
 AutoSuppressGC
 (
