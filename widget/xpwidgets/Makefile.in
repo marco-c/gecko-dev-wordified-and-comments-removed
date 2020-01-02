@@ -103,6 +103,7 @@ ifneq
 (
 filter
 gtk3
+gtk2
 (
 MOZ_WIDGET_TOOLKIT
 )
@@ -127,7 +128,7 @@ srcdir
 .
 .
 /
-gtk2
+gtk
 \
 (
 NULL

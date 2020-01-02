@@ -837,7 +837,7 @@ include
 /
 widget
 /
-gtk2
+gtk
 /
 crashtests
 /

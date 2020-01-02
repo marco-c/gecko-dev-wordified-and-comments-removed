@@ -4723,13 +4723,8 @@ licenses
 ply
 export
 CL_INCLUDES_PREFIX
-ifeq
-(
-(
-MOZ_WIDGET_GTK
-)
-2
-)
+ifdef
+MOZ_GTK2_CFLAGS
 MOZ_GTK2_CFLAGS
 :
 =
@@ -4741,7 +4736,7 @@ topsrcdir
 /
 widget
 /
-gtk2
+gtk
 /
 compat
 (
