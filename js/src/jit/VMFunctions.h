@@ -3525,6 +3525,14 @@ unsigned
 nslots
 )
 ;
+void
+FreeSlots
+(
+HeapSlot
+*
+slots
+)
+;
 JSObject
 *
 NewCallObject
@@ -3538,9 +3546,6 @@ HandleShape
 shape
 HandleTypeObject
 type
-HeapSlot
-*
-slots
 )
 ;
 JSObject

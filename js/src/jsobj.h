@@ -965,14 +965,6 @@ js
 :
 HandleTypeObject
 type
-js
-:
-:
-HeapSlot
-*
-extantSlots
-=
-nullptr
 )
 ;
 static
