@@ -1744,7 +1744,14 @@ if
 (
 mKeyPoints
 .
-IsEmpty
+Length
+(
+)
+!
+=
+mKeyTimes
+.
+Length
 (
 )
 )
