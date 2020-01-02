@@ -845,6 +845,14 @@ IPCOpen
 const
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IsSameProcess
+(
+)
+const
+MOZ_OVERRIDE
+;
 PLayerChild
 *
 ConstructShadowFor

@@ -378,6 +378,15 @@ return
 true
 ;
 }
+virtual
+bool
+IsSameProcess
+(
+)
+const
+=
+0
+;
 static
 bool
 IsShmem

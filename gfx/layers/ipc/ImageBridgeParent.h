@@ -382,6 +382,14 @@ aShmem
 )
 ;
 }
+virtual
+bool
+IsSameProcess
+(
+)
+const
+MOZ_OVERRIDE
+;
 IToplevelProtocol
 *
 CloneToplevel

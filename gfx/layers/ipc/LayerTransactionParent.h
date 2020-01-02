@@ -286,6 +286,14 @@ aShmem
 )
 ;
 }
+virtual
+bool
+IsSameProcess
+(
+)
+const
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
