@@ -46,7 +46,7 @@ nsRuleNode
 *
 aRuleNode
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 ~
@@ -895,7 +895,7 @@ void
 ApplyStyleFixups
 (
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 void
@@ -1223,7 +1223,7 @@ nsRuleNode
 *
 aRuleNode
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 #

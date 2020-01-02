@@ -10805,8 +10805,8 @@ node
 TreeMatchContext
 :
 :
-AutoFlexItemStyleFixupSkipper
-flexFixupSkipper
+AutoFlexOrGridItemStyleFixupSkipper
+flexOrGridFixupSkipper
 (
 mTreeMatchContext
 element

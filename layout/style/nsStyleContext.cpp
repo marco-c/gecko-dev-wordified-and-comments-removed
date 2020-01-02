@@ -120,7 +120,7 @@ nsRuleNode
 *
 aRuleNode
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 :
 mParent
@@ -320,7 +320,7 @@ SetUsedDirectly
 ;
 ApplyStyleFixups
 (
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 #
@@ -1432,7 +1432,7 @@ nsStyleContext
 ApplyStyleFixups
 (
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 {
 if
@@ -1656,7 +1656,7 @@ displayVal
 if
 (
 !
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 &
 &
 mParent
@@ -3406,7 +3406,7 @@ nsRuleNode
 *
 aRuleNode
 bool
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 {
 nsRefPtr
@@ -3430,7 +3430,7 @@ aParentContext
 aPseudoTag
 aPseudoType
 aRuleNode
-aSkipFlexItemStyleFixup
+aSkipFlexOrGridItemStyleFixup
 )
 ;
 return
