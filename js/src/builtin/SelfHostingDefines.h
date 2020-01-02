@@ -140,4 +140,8 @@ define
 ATTR_NONWRITABLE
 0x20
 #
+define
+WEAKSET_MAP_SLOT
+0
+#
 endif

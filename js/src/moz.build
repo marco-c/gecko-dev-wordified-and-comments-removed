@@ -865,6 +865,13 @@ TypedObject
 cpp
 '
 '
+builtin
+/
+WeakSetObject
+.
+cpp
+'
+'
 devtools
 /
 sharkctl

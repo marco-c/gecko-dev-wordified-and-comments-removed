@@ -143,6 +143,15 @@ h
 #
 include
 "
+builtin
+/
+WeakSetObject
+.
+h
+"
+#
+include
+"
 vm
 /
 HelperThreads

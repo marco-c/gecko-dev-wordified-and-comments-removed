@@ -156,6 +156,9 @@ URIError
 "
 WeakMap
 "
+"
+WeakSet
+"
 ]
 ;
 var
