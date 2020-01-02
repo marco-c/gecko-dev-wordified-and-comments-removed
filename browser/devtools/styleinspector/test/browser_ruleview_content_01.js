@@ -28,7 +28,7 @@ charset
 utf
 -
 8
-browser_ruleview_ui
+browser_ruleview_content
 .
 js
 "
