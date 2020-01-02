@@ -662,10 +662,6 @@ SetupDecodingFromBom
 const
 char
 *
-aCharsetName
-const
-char
-*
 aDecoderCharsetName
 )
 ;

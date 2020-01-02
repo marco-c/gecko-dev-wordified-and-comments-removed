@@ -347,7 +347,7 @@ characterSet
 "
 UTF
 -
-16
+16LE
 "
 "
 Child
@@ -356,7 +356,7 @@ should
 report
 UTF
 -
-16
+16LE
 subsequently
 "
 )
