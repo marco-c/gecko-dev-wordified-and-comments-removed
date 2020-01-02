@@ -101,7 +101,7 @@ objs
 mozbuild
 '
 )
-SOURCES
+UNIFIED_SOURCES
 +
 =
 modules_profiledirservice_src_csrcs
