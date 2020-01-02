@@ -135,7 +135,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -264,9 +264,6 @@ gfxRect
 native
 gfxGraphicsFilter
 (
-gfxPattern
-:
-:
 GraphicsFilter
 )
 ;

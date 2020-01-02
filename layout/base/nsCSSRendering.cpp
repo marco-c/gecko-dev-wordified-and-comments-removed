@@ -16069,9 +16069,6 @@ subImage
 )
 ;
 }
-gfxPattern
-:
-:
 GraphicsFilter
 graphicsFilter
 =
@@ -22150,9 +22147,6 @@ height
 return
 ;
 }
-gfxPattern
-:
-:
 GraphicsFilter
 graphicsFilter
 =
@@ -22418,9 +22412,6 @@ mType
 eStyleImageType_Image
 )
 {
-gfxPattern
-:
-:
 GraphicsFilter
 graphicsFilter
 =

@@ -31,7 +31,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -355,9 +355,6 @@ surf
 }
 #
 endif
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =
@@ -397,7 +394,7 @@ HasNonTranslationOrFlip
 {
 filter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

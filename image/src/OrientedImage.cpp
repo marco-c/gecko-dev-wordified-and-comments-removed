@@ -648,7 +648,7 @@ imageRect
 imageRect
 imageRect
 imageFormat
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST
@@ -1061,9 +1061,6 @@ Draw
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const

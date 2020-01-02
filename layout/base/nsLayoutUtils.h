@@ -138,7 +138,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -245,7 +245,6 @@ class
 nsLayoutUtils
 {
 typedef
-gfxPattern
 :
 :
 GraphicsFilter

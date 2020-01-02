@@ -337,9 +337,6 @@ inline
 Filter
 ToFilter
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -350,7 +347,7 @@ aFilter
 )
 {
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -359,7 +356,7 @@ return
 FILTER_POINT
 ;
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -375,9 +372,6 @@ FILTER_LINEAR
 }
 }
 inline
-gfxPattern
-:
-:
 GraphicsFilter
 ThebesFilter
 (
@@ -394,7 +388,7 @@ case
 FILTER_POINT
 :
 return
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -402,7 +396,7 @@ FILTER_NEAREST
 default
 :
 return
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_BEST

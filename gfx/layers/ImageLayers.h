@@ -14,7 +14,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -93,9 +93,6 @@ aContainer
 void
 SetFilter
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -186,9 +183,6 @@ return
 mContainer
 ;
 }
-gfxPattern
-:
-:
 GraphicsFilter
 GetFilter
 (
@@ -316,9 +310,6 @@ ImageContainer
 >
 mContainer
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 mFilter
 ;

@@ -2411,9 +2411,6 @@ gfxRect
 &
 aFillRect
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -2456,9 +2453,6 @@ gfxRect
 &
 aFillRect
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -3016,9 +3010,6 @@ aTarget
 nsIFrame
 *
 aPaintServer
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const

@@ -8667,9 +8667,6 @@ false
 void
 ApplyFilterToBoundTexture
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -8679,9 +8676,6 @@ ApplyFilterToBoundTexture
 (
 GLuint
 aTarget
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )

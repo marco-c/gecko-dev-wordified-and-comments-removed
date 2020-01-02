@@ -50,7 +50,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -1643,9 +1643,6 @@ ImageContainer
 >
 mContainer
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 mFilter
 ;

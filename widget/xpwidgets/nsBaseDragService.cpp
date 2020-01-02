@@ -2680,7 +2680,7 @@ imgContainer
 Draw
 (
 ctx
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -2712,7 +2712,7 @@ aCanvas
 RenderContextsExternal
 (
 ctx
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD

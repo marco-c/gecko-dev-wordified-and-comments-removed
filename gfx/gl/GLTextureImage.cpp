@@ -1034,7 +1034,7 @@ aContentType
 )
 mFilter
 (
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD

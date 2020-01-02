@@ -339,6 +339,13 @@ struct
 Nullable
 ;
 }
+namespace
+gfx
+{
+class
+SourceSurface
+;
+}
 using
 WebGLTexelConversions
 :
@@ -650,9 +657,6 @@ Render
 gfxContext
 *
 ctx
-gfxPattern
-:
-:
 GraphicsFilter
 f
 uint32_t
@@ -707,11 +711,7 @@ GetSurfaceSnapshot
 (
 )
 MOZ_OVERRIDE
-{
-return
-nullptr
 ;
-}
 NS_IMETHOD
 SetIsOpaque
 (

@@ -106,7 +106,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -5854,9 +5854,6 @@ texture
 return
 ;
 }
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =

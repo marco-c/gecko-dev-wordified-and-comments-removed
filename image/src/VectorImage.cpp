@@ -977,9 +977,6 @@ gfxRect
 &
 aFillRect
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -1026,9 +1023,6 @@ gfxRect
 &
 aFillRect
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 aFilter
@@ -2411,7 +2405,7 @@ rv
 Draw
 (
 context
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -2512,9 +2506,6 @@ Draw
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const

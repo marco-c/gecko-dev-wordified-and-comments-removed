@@ -9183,9 +9183,6 @@ RasterImage
 :
 CanScale
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 gfxSize
@@ -9205,7 +9202,7 @@ gHQDownscaling
 aFilter
 =
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -9468,9 +9465,6 @@ aFrame
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const
@@ -9757,9 +9751,6 @@ Draw
 gfxContext
 *
 aContext
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const

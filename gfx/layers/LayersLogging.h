@@ -14,7 +14,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -150,9 +150,6 @@ nsACString
 &
 s
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 f

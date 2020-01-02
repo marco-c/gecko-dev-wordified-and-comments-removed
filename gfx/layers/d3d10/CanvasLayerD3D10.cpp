@@ -1233,7 +1233,7 @@ shaderFlags
 mFilter
 =
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

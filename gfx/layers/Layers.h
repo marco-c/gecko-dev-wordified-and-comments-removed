@@ -79,7 +79,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -5018,9 +5018,6 @@ aClosureData
 void
 SetFilter
 (
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 )
@@ -5062,9 +5059,6 @@ Mutated
 ;
 }
 }
-gfxPattern
-:
-:
 GraphicsFilter
 GetFilter
 (
@@ -5160,7 +5154,7 @@ nullptr
 )
 mFilter
 (
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -5220,9 +5214,6 @@ void
 *
 mPostTransCallbackData
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 mFilter
 ;

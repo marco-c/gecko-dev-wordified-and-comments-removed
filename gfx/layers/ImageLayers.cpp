@@ -66,7 +66,7 @@ aImplData
 )
 mFilter
 (
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD

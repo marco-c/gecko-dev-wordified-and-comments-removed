@@ -14,7 +14,7 @@ h
 #
 include
 "
-gfxPattern
+GraphicsFilter
 .
 h
 "
@@ -225,9 +225,6 @@ aTarget
 nsIFrame
 *
 aPaintServer
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const

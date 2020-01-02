@@ -1680,7 +1680,7 @@ gl
 >
 ApplyFilterToBoundTexture
 (
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST

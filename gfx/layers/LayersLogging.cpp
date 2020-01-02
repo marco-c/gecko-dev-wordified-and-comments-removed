@@ -138,9 +138,6 @@ nsACString
 &
 s
 const
-gfxPattern
-:
-:
 GraphicsFilter
 &
 f
@@ -165,7 +162,7 @@ f
 )
 {
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST
@@ -180,7 +177,7 @@ fast
 break
 ;
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -195,7 +192,7 @@ good
 break
 ;
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_BEST
@@ -210,7 +207,7 @@ best
 break
 ;
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -225,7 +222,7 @@ nearest
 break
 ;
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_BILINEAR
@@ -240,7 +237,7 @@ bilinear
 break
 ;
 case
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GAUSSIAN

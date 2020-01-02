@@ -7028,9 +7028,6 @@ SetContainer
 container
 )
 ;
-gfxPattern
-:
-:
 GraphicsFilter
 filter
 =
@@ -7058,7 +7055,7 @@ IsCompositingCheap
 {
 filter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
