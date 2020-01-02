@@ -1636,19 +1636,6 @@ GetParentDocshell
 (
 )
 ;
-bool
-DoAppRedirectIfNeeded
-(
-nsIURI
-*
-aURI
-nsIDocShellLoadInfo
-*
-aLoadInfo
-bool
-aFirstParty
-)
-;
 protected
 :
 nsresult
@@ -1701,6 +1688,7 @@ nsRunnable
 public
 :
 NS_DECL_NSIRUNNABLE
+explicit
 RestorePresentationEvent
 (
 nsDocShell
@@ -2264,6 +2252,7 @@ nsIInterfaceRequestor
 {
 public
 :
+explicit
 InterfaceRequestorProxy
 (
 nsIInterfaceRequestor

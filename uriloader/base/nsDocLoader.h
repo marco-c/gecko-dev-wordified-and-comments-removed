@@ -617,6 +617,7 @@ nsIRequest
 const
 mRequest
 ;
+explicit
 nsStatusInfo
 (
 nsIRequest
@@ -654,6 +655,7 @@ nsRequestInfo
 public
 PLDHashEntryHdr
 {
+explicit
 nsRequestInfo
 (
 const

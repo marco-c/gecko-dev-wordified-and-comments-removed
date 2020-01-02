@@ -50,6 +50,7 @@ nsDocShellEnumerator
 ;
 public
 :
+explicit
 nsDocShellEnumerator
 (
 int32_t
