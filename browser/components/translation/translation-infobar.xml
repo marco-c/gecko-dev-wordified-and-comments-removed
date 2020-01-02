@@ -1148,9 +1148,7 @@ for
 let
 code
 of
-this
-.
-translation
+Translation
 .
 supportedSourceLanguages
 )
@@ -1247,9 +1245,7 @@ for
 let
 code
 of
-this
-.
-translation
+Translation
 .
 supportedTargetLanguages
 )
@@ -1417,9 +1413,7 @@ toLanguage
 .
 value
 =
-this
-.
-translation
+Translation
 .
 defaultTargetLanguage
 ;
