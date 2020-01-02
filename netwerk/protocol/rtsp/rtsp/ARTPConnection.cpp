@@ -748,7 +748,7 @@ start
 ;
 for
 (
-uint16_t
+uint32_t
 port
 =
 start
