@@ -350,6 +350,11 @@ WebGLExtensionTextureFloatLinear
 cpp
 '
 '
+WebGLExtensionTextureHalfFloat
+.
+cpp
+'
+'
 WebGLExtensionVertexArray
 .
 cpp
