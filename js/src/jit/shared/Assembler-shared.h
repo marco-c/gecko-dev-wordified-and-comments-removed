@@ -2349,6 +2349,12 @@ AsmJSImm_ExpD
 AsmJSImm_LogD
 AsmJSImm_PowD
 AsmJSImm_ATan2D
+#
+ifdef
+DEBUG
+AsmJSImm_AssumeUnreachable
+#
+endif
 AsmJSImm_Invalid
 }
 ;
