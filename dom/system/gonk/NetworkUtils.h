@@ -1850,13 +1850,9 @@ static
 void
 escapeQuote
 (
-const
-char
-*
-src
-char
-*
-dst
+nsCString
+&
+aString
 )
 ;
 inline
