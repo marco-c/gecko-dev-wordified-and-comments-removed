@@ -852,8 +852,6 @@ missNameManifestProperty
 )
 )
 ;
-return
-;
 }
 if
 (
