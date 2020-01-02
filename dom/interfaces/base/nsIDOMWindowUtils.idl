@@ -239,9 +239,6 @@ interface
 nsIFile
 ;
 interface
-nsIDOMTouch
-;
-interface
 nsIDOMClientRect
 ;
 interface
