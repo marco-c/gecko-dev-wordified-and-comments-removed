@@ -19,6 +19,12 @@ prprf
 .
 h
 "
+using
+mozilla
+:
+:
+fallible_t
+;
 NS_IMPL_ISUPPORTS2
 (
 nsSupportsIDImpl
