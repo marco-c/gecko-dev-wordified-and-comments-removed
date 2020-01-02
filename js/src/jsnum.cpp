@@ -8338,6 +8338,13 @@ v
 isUndefined
 (
 )
+|
+|
+v
+.
+isSymbol
+(
+)
 )
 ;
 *
