@@ -36,6 +36,13 @@ file
 *
 /
 #
+include
+<
+SkPreConfig
+.
+h
+>
+#
 if
 defined
 (
