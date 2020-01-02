@@ -431,6 +431,9 @@ MakeCurrent
 ;
 EffectChain
 effectChain
+(
+this
+)
 ;
 LayerManagerComposite
 :
