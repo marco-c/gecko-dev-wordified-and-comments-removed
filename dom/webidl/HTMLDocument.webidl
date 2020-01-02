@@ -438,12 +438,9 @@ clear
 (
 )
 ;
-[
-Throws
-]
 readonly
 attribute
-object
+HTMLAllCollection
 all
 ;
 /
