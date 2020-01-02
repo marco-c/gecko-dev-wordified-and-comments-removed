@@ -3312,7 +3312,13 @@ startOfData
 endOfData
 |
 |
+static_cast
+<
+uint32_t
+>
+(
 endOfData
+)
 >
 *
 outDataLen
