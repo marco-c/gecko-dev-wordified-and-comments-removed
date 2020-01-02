@@ -180,6 +180,7 @@ eIntID_WindowsGlass
 eIntID_TouchEnabled
 eIntID_MacGraphiteTheme
 eIntID_MacLionTheme
+eIntID_MacYosemiteTheme
 eIntID_AlertNotificationOrigin
 eIntID_ScrollToClick
 eIntID_IMERawInputUnderlineStyle
