@@ -114,6 +114,12 @@ nsContainerFrame
 (
 aContext
 )
+mBorderPadding
+(
+GetWritingMode
+(
+)
+)
 {
 }
 virtual
@@ -360,7 +366,10 @@ aWidth
 )
 const
 ;
-nsMargin
+mozilla
+:
+:
+LogicalMargin
 mBorderPadding
 ;
 }

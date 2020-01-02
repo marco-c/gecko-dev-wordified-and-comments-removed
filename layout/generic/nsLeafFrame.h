@@ -219,7 +219,10 @@ const
 nsHTMLReflowState
 &
 aReflowState
-nsHTMLReflowMetrics
+mozilla
+:
+:
+LogicalSize
 &
 aDesiredSize
 )

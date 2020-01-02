@@ -3653,8 +3653,11 @@ result
 =
 desiredSize
 .
-Width
+ISize
 (
+GetWritingMode
+(
+)
 )
 ;
 return
@@ -3705,8 +3708,11 @@ result
 =
 desiredSize
 .
-Width
+ISize
 (
+GetWritingMode
+(
+)
 )
 ;
 return
