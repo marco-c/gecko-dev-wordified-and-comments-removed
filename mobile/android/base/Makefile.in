@@ -430,6 +430,12 @@ ALL_JARS
 \
 gecko
 -
+R
+.
+jar
+\
+gecko
+-
 browser
 .
 jar
