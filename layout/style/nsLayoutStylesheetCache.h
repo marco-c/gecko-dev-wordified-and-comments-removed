@@ -92,6 +92,13 @@ FormsSheet
 static
 nsCSSStyleSheet
 *
+NumberControlSheet
+(
+)
+;
+static
+nsCSSStyleSheet
+*
 UserContentSheet
 (
 )
@@ -227,6 +234,12 @@ nsRefPtr
 nsCSSStyleSheet
 >
 mFormsSheet
+;
+nsRefPtr
+<
+nsCSSStyleSheet
+>
+mNumberControlSheet
 ;
 nsRefPtr
 <
