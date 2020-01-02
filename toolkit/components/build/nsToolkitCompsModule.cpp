@@ -177,6 +177,10 @@ FinalizationWitnessService
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsAppStartup
@@ -472,9 +476,6 @@ FINALIZATIONWITNESSSERVICE_CID
 ;
 static
 const
-mozilla
-:
-:
 Module
 :
 :
@@ -645,9 +646,6 @@ nullptr
 ;
 static
 const
-mozilla
-:
-:
 Module
 :
 :
@@ -788,16 +786,10 @@ nullptr
 ;
 static
 const
-mozilla
-:
-:
 Module
 kToolkitModule
 =
 {
-mozilla
-:
-:
 Module
 :
 :
