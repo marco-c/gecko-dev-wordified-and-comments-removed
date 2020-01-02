@@ -1454,9 +1454,9 @@ glue
 .
 chooseActivity
 (
-aMsg
+aResults
 .
-options
+name
 aResults
 .
 options
