@@ -35,7 +35,7 @@ bluetoothManager
 removeEventListener
 (
 "
-enabled
+adapteradded
 "
 onEnabledDisabled
 )
@@ -74,7 +74,7 @@ type
 =
 =
 "
-enabled
+adapteradded
 "
 )
 ;
@@ -84,7 +84,7 @@ bluetoothManager
 addEventListener
 (
 "
-enabled
+adapteradded
 "
 onEnabledDisabled
 )
@@ -195,7 +195,7 @@ aResults
 aEnabled
 "
 '
-enabled
+adapteradded
 '
 event
 received
