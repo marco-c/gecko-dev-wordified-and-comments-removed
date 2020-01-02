@@ -28540,9 +28540,10 @@ if
 (
 target
 .
-className
-=
-=
+classList
+.
+contains
+(
 '
 tab
 -
@@ -28550,6 +28551,7 @@ close
 -
 button
 '
+)
 )
 {
 /
