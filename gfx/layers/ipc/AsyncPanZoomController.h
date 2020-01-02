@@ -392,6 +392,10 @@ const
 ScreenPoint
 &
 aEndPoint
+int
+aOverscrollHandoffChainIndex
+=
+0
 )
 ;
 bool
