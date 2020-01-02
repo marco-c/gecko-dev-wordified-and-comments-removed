@@ -1616,7 +1616,7 @@ webvtt
 .
 enabled
 "
-false
+true
 )
 ;
 pref
