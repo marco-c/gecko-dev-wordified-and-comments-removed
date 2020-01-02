@@ -1304,6 +1304,10 @@ ArrayConcat
 )
 UNSAFE_OP
 (
+ArrayJoin
+)
+UNSAFE_OP
+(
 GetDOMProperty
 )
 UNSAFE_OP

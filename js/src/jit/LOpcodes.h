@@ -973,6 +973,11 @@ ArrayConcat
 \
 _
 (
+ArrayJoin
+)
+\
+_
+(
 StoreElementHoleV
 )
 \
