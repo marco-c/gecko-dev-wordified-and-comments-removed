@@ -2498,12 +2498,13 @@ httpChannel
 retargetable
 &
 &
-!
+ImageFactory
+:
+:
+CanRetargetOnDataAvailable
 (
+mURI
 mIsMultiPartChannel
-&
-&
-mImage
 )
 )
 {
