@@ -30883,6 +30883,7 @@ AddKeywordForSearchField
 (
 )
 {
+let
 bookmarkData
 =
 GetSearchFieldBookmarkData
