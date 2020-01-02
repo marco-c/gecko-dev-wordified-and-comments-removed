@@ -72,7 +72,6 @@ IonFrame_Unwound_OptimizedJS
 IonFrame_Unwound_BaselineStub
 IonFrame_Unwound_Rectifier
 IonFrame_Exit
-IonFrame_Osr
 }
 ;
 enum
