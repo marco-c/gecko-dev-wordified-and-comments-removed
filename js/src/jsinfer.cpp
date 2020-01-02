@@ -11498,6 +11498,7 @@ p
 .
 add
 (
+cx
 *
 arrayTypeTable
 key

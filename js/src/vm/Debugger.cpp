@@ -3184,6 +3184,7 @@ p
 .
 add
 (
+cx
 environments
 env
 envobj
@@ -3446,6 +3447,7 @@ p
 .
 add
 (
+cx
 objects
 obj
 dobj
@@ -14666,6 +14668,7 @@ p
 .
 add
 (
+cx
 scripts
 script
 scriptobj
@@ -19559,6 +19562,7 @@ p
 .
 add
 (
+cx
 sources
 source
 sourceobj

@@ -5338,6 +5338,7 @@ p
 .
 add
 (
+cx
 clonedObjects
 srcObj
 clone
