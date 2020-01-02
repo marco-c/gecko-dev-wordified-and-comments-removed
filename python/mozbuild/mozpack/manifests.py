@@ -566,9 +566,11 @@ _dests
         
 self
 .
-_source_file
+_source_files
 =
-None
+set
+(
+)
         
 if
 path
@@ -591,11 +593,14 @@ fh
                 
 self
 .
-_source_file
-=
+_source_files
+.
+add
+(
 fh
 .
 name
+)
                 
 self
 .
@@ -1018,6 +1023,15 @@ InstallManifest
 .
 '
 )
+        
+self
+.
+_source_files
+|
+=
+other
+.
+_source_files
         
 for
 dest
@@ -1879,29 +1893,6 @@ dest
 entry
     
 def
-_get_deps
-(
-self
-dest
-)
-:
-        
-return
-{
-self
-.
-_source_file
-}
-if
-self
-.
-_source_file
-else
-set
-(
-)
-    
-def
 populate_registry
 (
 self
@@ -2240,10 +2231,7 @@ extra_depends
 =
 self
 .
-_get_deps
-(
-dest
-)
+_source_files
 )
 )
                 
