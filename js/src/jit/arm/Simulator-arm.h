@@ -1227,6 +1227,15 @@ int64_t
 res
 )
 ;
+void
+scratchVolatileRegisters
+(
+bool
+scratchFloat
+=
+true
+)
+;
 template
 <
 class
