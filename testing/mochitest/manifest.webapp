@@ -207,6 +207,12 @@ apps
 {
 }
 "
+systemXHR
+"
+:
+{
+}
+"
 audio
 -
 channel
