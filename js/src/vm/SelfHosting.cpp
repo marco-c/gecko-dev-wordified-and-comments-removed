@@ -5079,6 +5079,9 @@ TenuredObject
 ;
 if
 (
+clone
+&
+&
 hasName
 )
 clone
