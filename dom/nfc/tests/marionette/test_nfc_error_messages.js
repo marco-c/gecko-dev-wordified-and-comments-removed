@@ -97,7 +97,7 @@ then
 )
 =
 >
-emulator
+NCI
 .
 activateRE
 (
@@ -176,7 +176,7 @@ then
 )
 =
 >
-emulator
+NCI
 .
 activateRE
 (
@@ -197,7 +197,7 @@ then
 )
 =
 >
-emulator
+NCI
 .
 deactivate
 (
@@ -210,7 +210,7 @@ then
 )
 =
 >
-emulator
+NCI
 .
 activateRE
 (
@@ -289,7 +289,7 @@ then
 )
 =
 >
-emulator
+NCI
 .
 activateRE
 (
@@ -371,7 +371,7 @@ then
 )
 =
 >
-emulator
+NCI
 .
 activateRE
 (
@@ -1090,7 +1090,7 @@ lost
 techLostHandler
 )
 ;
-emulator
+NCI
 .
 deactivate
 (
