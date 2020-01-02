@@ -854,6 +854,9 @@ xpc_map_end
 h
 "
 static
+mozilla
+:
+:
 StaticRefPtr
 <
 nsIXPCScriptable
