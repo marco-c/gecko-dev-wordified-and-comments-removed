@@ -3523,7 +3523,7 @@ ruleRec
 .
 mFontEntry
 =
-AddFontFace
+FindOrCreateFontFace
 (
 fontfamily
 srcArray
@@ -3532,6 +3532,7 @@ stretch
 italicStyle
 featureSettings
 languageOverride
+nullptr
 )
 ;
 if
@@ -3541,6 +3542,14 @@ ruleRec
 mFontEntry
 )
 {
+AddFontFace
+(
+fontfamily
+ruleRec
+.
+mFontEntry
+)
+;
 mRules
 .
 AppendElement
