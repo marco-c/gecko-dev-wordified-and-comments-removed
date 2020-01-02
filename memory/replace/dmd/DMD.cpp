@@ -2742,7 +2742,9 @@ mLOffset
 0
 )
 {
-W
+aWriter
+.
+Write
 (
 "
 ?
@@ -2786,7 +2788,9 @@ entry
 mFileName
 )
 {
-W
+aWriter
+.
+Write
 (
 "
 %
@@ -2817,7 +2821,9 @@ entryPc
 }
 else
 {
-W
+aWriter
+.
+Write
 (
 "
 %
