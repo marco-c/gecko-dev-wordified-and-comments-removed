@@ -1018,6 +1018,13 @@ java
 '
 animation
 /
+BounceAnimator
+.
+java
+'
+'
+animation
+/
 HeightChangeAnimation
 .
 java
