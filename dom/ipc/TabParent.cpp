@@ -805,6 +805,17 @@ mFD
 )
 )
 ;
+if
+(
+!
+tabParent
+-
+>
+IsDestroyed
+(
+)
+)
+{
 mozilla
 :
 :
@@ -823,6 +834,7 @@ handle
 )
 )
 ;
+}
 nsCOMPtr
 <
 nsIEventTarget

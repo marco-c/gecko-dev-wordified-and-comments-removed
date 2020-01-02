@@ -7018,6 +7018,12 @@ Dispatch
 ;
 }
 }
+mCachedFileDescriptorInfos
+.
+Clear
+(
+)
+;
 }
 void
 TabChild
