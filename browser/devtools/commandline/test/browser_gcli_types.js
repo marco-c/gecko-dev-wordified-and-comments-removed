@@ -148,7 +148,7 @@ util
 )
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -160,6 +160,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 nodetype
@@ -376,7 +378,7 @@ type
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -686,7 +688,7 @@ context
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (

@@ -4,7 +4,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -17,6 +17,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 connectors
@@ -332,7 +334,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

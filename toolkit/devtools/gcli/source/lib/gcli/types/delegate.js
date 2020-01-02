@@ -4,7 +4,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -17,6 +17,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 Conversion
@@ -381,7 +383,7 @@ type
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -688,7 +690,7 @@ context
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

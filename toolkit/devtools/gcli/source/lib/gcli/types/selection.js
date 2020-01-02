@@ -4,7 +4,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -17,6 +17,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 l10n
@@ -821,7 +823,7 @@ context
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1434,7 +1436,7 @@ context
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -1531,7 +1533,7 @@ Status
 .
 ERROR
 msg
-promise
+Promise
 .
 resolve
 (
@@ -1577,7 +1579,7 @@ Status
 VALID
 '
 '
-promise
+Promise
 .
 resolve
 (
@@ -1597,7 +1599,7 @@ Status
 INCOMPLETE
 '
 '
-promise
+Promise
 .
 resolve
 (
@@ -1627,7 +1629,7 @@ context2
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

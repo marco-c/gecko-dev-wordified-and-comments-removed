@@ -4,7 +4,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -17,6 +17,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 l10n
@@ -217,7 +219,7 @@ cliUnusedArg
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -334,7 +336,7 @@ allowNonExec
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (

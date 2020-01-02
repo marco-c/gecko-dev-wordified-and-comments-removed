@@ -4,7 +4,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -17,6 +17,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 l10n
@@ -460,7 +462,7 @@ length
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -522,7 +524,7 @@ text
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -597,7 +599,7 @@ text
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -653,7 +655,7 @@ max
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -709,7 +711,7 @@ min
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -727,7 +729,7 @@ msg
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (

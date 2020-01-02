@@ -4,7 +4,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -17,6 +17,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 l10n
@@ -278,7 +280,7 @@ helpManOptional
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (

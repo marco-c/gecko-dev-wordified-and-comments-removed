@@ -19,7 +19,7 @@ util
 )
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -32,6 +32,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 function
 Argument
@@ -3424,7 +3426,7 @@ context
 ;
 }
 return
-promise
+Promise
 .
 resolve
 (
@@ -3460,7 +3462,7 @@ null
 )
 {
 return
-promise
+Promise
 .
 resolve
 (

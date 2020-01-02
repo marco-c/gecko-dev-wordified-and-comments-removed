@@ -134,7 +134,7 @@ handleError
 ;
 }
 var
-promise
+Promise
 =
 require
 (
@@ -146,6 +146,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 util
@@ -1053,7 +1055,7 @@ name
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (

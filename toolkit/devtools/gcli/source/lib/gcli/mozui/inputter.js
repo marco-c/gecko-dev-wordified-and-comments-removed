@@ -4,7 +4,7 @@ strict
 '
 ;
 var
-promise
+Promise
 =
 require
 (
@@ -17,6 +17,8 @@ util
 promise
 '
 )
+.
+Promise
 ;
 var
 util
@@ -87,7 +89,7 @@ History
 var
 RESOLVED
 =
-promise
+Promise
 .
 resolve
 (
