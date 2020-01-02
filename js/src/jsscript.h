@@ -4338,6 +4338,15 @@ index
 ]
 ;
 }
+JSObject
+*
+getBlockScope
+(
+jsbytecode
+*
+pc
+)
+;
 bool
 isEmpty
 (
