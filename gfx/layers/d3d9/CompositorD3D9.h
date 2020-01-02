@@ -525,7 +525,10 @@ CreateDataTextureSource
 TextureFlags
 aFlags
 =
-0
+TextureFlags
+:
+:
+NO_FLAGS
 )
 MOZ_OVERRIDE
 ;

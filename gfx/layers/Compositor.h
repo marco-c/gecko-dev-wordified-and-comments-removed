@@ -250,7 +250,10 @@ CreateDataTextureSource
 TextureFlags
 aFlags
 =
-0
+TextureFlags
+:
+:
+NO_FLAGS
 )
 =
 0
