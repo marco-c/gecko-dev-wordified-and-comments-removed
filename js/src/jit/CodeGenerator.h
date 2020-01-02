@@ -852,6 +852,14 @@ lir
 )
 ;
 bool
+visitUnreachable
+(
+LUnreachable
+*
+unreachable
+)
+;
+bool
 visitGetDynamicName
 (
 LGetDynamicName
