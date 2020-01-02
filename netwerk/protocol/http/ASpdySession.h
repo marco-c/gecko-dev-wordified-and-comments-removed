@@ -102,11 +102,8 @@ NewSpdySession
 (
 uint32_t
 version
-nsAHttpTransaction
-*
 nsISocketTransport
 *
-int32_t
 )
 ;
 virtual
