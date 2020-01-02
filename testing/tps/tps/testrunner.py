@@ -195,7 +195,7 @@ object
 )
 :
     
-default_env
+extra_env
 =
 {
         
@@ -2763,12 +2763,23 @@ self
 .
 env
 =
-self
+os
 .
-default_env
+environ
 .
 copy
 (
+)
+        
+self
+.
+env
+.
+update
+(
+self
+.
+extra_env
 )
         
 self
