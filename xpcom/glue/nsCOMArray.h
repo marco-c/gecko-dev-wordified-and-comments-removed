@@ -1156,7 +1156,7 @@ aStartIndex
 bool
 Contains
 (
-nsISupports
+T
 *
 aObject
 )
