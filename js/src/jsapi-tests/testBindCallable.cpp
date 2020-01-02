@@ -153,8 +153,10 @@ OBJECT_TO_JSVAL
 (
 newCallable
 )
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 retval
 .
 address

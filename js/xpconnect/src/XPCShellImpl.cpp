@@ -3526,8 +3526,10 @@ JS_CallFunctionValue
 cx
 nullptr
 sScriptedOperationCallback
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 rv
 .
 address

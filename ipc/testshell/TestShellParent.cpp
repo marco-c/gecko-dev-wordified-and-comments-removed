@@ -340,12 +340,7 @@ JS_CallFunctionValue
 mCx
 global
 mCallback
-1
 strVal
-.
-address
-(
-)
 rval
 .
 address

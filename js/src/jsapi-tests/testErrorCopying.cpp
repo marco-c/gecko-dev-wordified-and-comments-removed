@@ -61,8 +61,10 @@ global
 "
 check
 "
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 rval
 .
 address

@@ -1593,8 +1593,10 @@ OBJECT_TO_JSVAL
 (
 method
 )
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 retval
 .
 address

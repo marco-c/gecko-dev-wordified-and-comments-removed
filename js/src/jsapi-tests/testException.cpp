@@ -58,12 +58,10 @@ JS_CallFunctionValue
 cx
 global
 fun
-0
-v
-.
-address
-(
-)
+JS
+:
+:
+EmptyValueArray
 v
 .
 address

@@ -8728,8 +8728,10 @@ JS_CallFunctionValue
 cx
 obj
 toString
-0
-nullptr
+JS
+:
+:
+EmptyValueArray
 toStringResult
 .
 address
