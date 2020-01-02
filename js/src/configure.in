@@ -17209,7 +17209,7 @@ quota
 .
 h
 )
-AC_ARG_ENABLE
+MOZ_ARG_ENABLE_BOOL
 (
 dtrace
 [
