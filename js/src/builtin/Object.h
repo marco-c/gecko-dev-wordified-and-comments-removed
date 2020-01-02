@@ -30,6 +30,13 @@ object_methods
 ;
 extern
 const
+JSPropertySpec
+object_properties
+[
+]
+;
+extern
+const
 JSFunctionSpec
 object_static_methods
 [
