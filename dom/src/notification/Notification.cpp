@@ -3296,7 +3296,7 @@ nsCOMPtr
 <
 nsIRunnable
 >
-showNotificationTask
+closeNotificationTask
 =
 new
 NotificationTask
@@ -3310,7 +3310,7 @@ eClose
 ;
 NS_DispatchToMainThread
 (
-showNotificationTask
+closeNotificationTask
 )
 ;
 }
@@ -3442,11 +3442,16 @@ nsString
 aOrigin
 )
 {
-MOZ_ASSERT
+if
 (
+!
 aWindow
 )
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 nsresult
 rv
 ;
