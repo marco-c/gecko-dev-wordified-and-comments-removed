@@ -3708,6 +3708,15 @@ ObjectOrLongOrNull
 arg
 )
 ;
+void
+PassUnionWithCallback
+(
+const
+EventHandlerNonNullOrNullOrLong
+&
+arg
+)
+;
 #
 endif
 void

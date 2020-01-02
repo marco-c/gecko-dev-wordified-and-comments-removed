@@ -6490,6 +6490,28 @@ NoSuchDescriptorError
                                 
 continue
                             
+if
+typeDesc
+.
+interface
+.
+isCallback
+(
+)
+:
+                                
+headers
+.
+add
+(
+typeDesc
+.
+headerFile
+)
+                            
+else
+:
+                                
 declarations
 .
 add
@@ -6501,7 +6523,7 @@ nativeType
 False
 )
 )
-                            
+                                
 implheaders
 .
 add
@@ -6574,6 +6596,26 @@ getDeclarationFilename
 f
 .
 inner
+)
+)
+                
+elif
+f
+.
+isCallback
+(
+)
+:
+                    
+headers
+.
+add
+(
+CGHeaders
+.
+getDeclarationFilename
+(
+f
 )
 )
     

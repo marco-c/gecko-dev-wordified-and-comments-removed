@@ -2952,6 +2952,17 @@ arg
 5
 )
 ;
+void
+passUnionWithCallback
+(
+(
+EventHandler
+or
+long
+)
+arg
+)
+;
 #
 endif
 void
