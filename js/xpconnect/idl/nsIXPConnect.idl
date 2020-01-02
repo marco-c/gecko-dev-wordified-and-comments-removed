@@ -268,18 +268,6 @@ JSObject
 ptr
 ]
 native
-JSValPtr
-(
-JS
-:
-:
-Value
-)
-;
-[
-ptr
-]
-native
 JSValConstPtr
 (
 const
@@ -3284,7 +3272,7 @@ in
 JSContextPtr
 cx
 in
-JSValPtr
+jsval
 aJSVal
 )
 ;
