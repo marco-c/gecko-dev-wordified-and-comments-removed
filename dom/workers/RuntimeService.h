@@ -699,6 +699,11 @@ WorkersDumpEnabled
 (
 )
 ;
+bool
+PromiseEnabled
+(
+)
+;
 private
 :
 RuntimeService
