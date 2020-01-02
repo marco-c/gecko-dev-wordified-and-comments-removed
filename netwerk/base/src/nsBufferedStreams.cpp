@@ -2735,7 +2735,7 @@ mFillPoint
 -
 amt
 ;
-memcpy
+memmove
 (
 mBuffer
 mBuffer
@@ -2969,6 +2969,15 @@ rv
 )
 )
 return
+(
+*
+_retval
+>
+0
+)
+?
+NS_OK
+:
 rv
 ;
 continue
