@@ -976,6 +976,7 @@ nsString
 {
 public
 :
+explicit
 nsAtomString
 (
 nsIAtom
@@ -1003,6 +1004,7 @@ nsCString
 {
 public
 :
+explicit
 nsAtomCString
 (
 nsIAtom
@@ -1030,6 +1032,7 @@ nsDependentString
 {
 public
 :
+explicit
 nsDependentAtomString
 (
 nsIAtom

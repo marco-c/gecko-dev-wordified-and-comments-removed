@@ -1950,7 +1950,7 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-0
+nullptr
 ;
 }
 nsRefPtr

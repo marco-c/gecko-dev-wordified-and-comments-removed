@@ -2677,6 +2677,11 @@ runnable
 ;
 }
 return
+already_AddRefed
+<
+ContentParent
+>
+(
 actor
 -
 >
@@ -2684,6 +2689,7 @@ mContent
 .
 get
 (
+)
 )
 ;
 }

@@ -990,6 +990,7 @@ typedef
 char16_t
 buffer_type
 ;
+explicit
 ConvertUTF8toUTF16
 (
 buffer_type
@@ -1518,6 +1519,7 @@ typedef
 char
 buffer_type
 ;
+explicit
 ConvertUTF16toUTF8
 (
 buffer_type
@@ -2292,6 +2294,7 @@ output_type
 ;
 public
 :
+explicit
 LossyConvertEncoding8to16
 (
 char16_t
@@ -2427,6 +2430,7 @@ typedef
 char
 output_type
 ;
+explicit
 LossyConvertEncoding16to8
 (
 char

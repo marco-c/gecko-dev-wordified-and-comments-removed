@@ -115,6 +115,7 @@ str
 )
 ;
 }
+MOZ_IMPLICIT
 nsTString_CharT
 (
 const
@@ -1530,6 +1531,7 @@ str
 )
 ;
 }
+MOZ_IMPLICIT
 nsTAutoString_CharT
 (
 const
@@ -2057,6 +2059,7 @@ typedef
 CharT
 char_type
 ;
+explicit
 nsTGetterCopies_CharT
 (
 nsTSubstring_CharT
