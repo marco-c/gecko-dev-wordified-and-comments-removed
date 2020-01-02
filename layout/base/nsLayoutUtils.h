@@ -3374,6 +3374,15 @@ aSubtreeRoot
 ;
 #
 endif
+static
+void
+UpdateImageVisibilityForFrame
+(
+nsIFrame
+*
+aImageFrame
+)
+;
 private
 :
 template
