@@ -1008,7 +1008,7 @@ BluetoothSocketType
 :
 :
 RFCOMM
-true
+false
 true
 )
 ;
@@ -1116,7 +1116,7 @@ BluetoothSocketType
 :
 :
 RFCOMM
-true
+false
 true
 )
 ;
