@@ -868,6 +868,15 @@ hasRegisteredHandler
 (
 )
 {
+if
+(
+!
+initialized
+)
+FinishInitialization
+(
+)
+;
 return
 registeredHandler
 ;
@@ -909,6 +918,11 @@ struct
 sigaction
 *
 oldact
+)
+;
+void
+FinishInitialization
+(
 )
 ;
 struct
@@ -957,6 +971,9 @@ oldStack
 ;
 MappedPtr
 stackPtr
+;
+bool
+initialized
 ;
 bool
 registeredHandler
