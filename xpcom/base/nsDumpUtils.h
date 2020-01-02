@@ -111,10 +111,6 @@ LOG
 )
 #
 endif
-using
-namespace
-mozilla
-;
 #
 if
 defined
@@ -395,6 +391,9 @@ nsAutoCString
 mDirPath
 ;
 static
+mozilla
+:
+:
 StaticRefPtr
 <
 FifoWatcher
@@ -524,6 +523,9 @@ aFd
 private
 :
 static
+mozilla
+:
+:
 StaticRefPtr
 <
 SignalPipeWatcher
