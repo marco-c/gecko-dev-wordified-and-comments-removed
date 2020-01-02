@@ -59,9 +59,9 @@ void
 is
 (
 Object
-a
+actual
 Object
-b
+expected
 String
 name
 )
@@ -70,9 +70,9 @@ void
 isnot
 (
 Object
-a
+actual
 Object
-b
+notExpected
 String
 name
 )
@@ -92,9 +92,9 @@ void
 todo_is
 (
 Object
-a
+actual
 Object
-b
+expected
 String
 name
 )
@@ -103,9 +103,9 @@ void
 todo_isnot
 (
 Object
-a
+actual
 Object
-b
+notExpected
 String
 name
 )
