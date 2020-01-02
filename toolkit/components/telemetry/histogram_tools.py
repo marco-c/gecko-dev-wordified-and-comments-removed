@@ -1328,11 +1328,13 @@ definition
 expiration
 =
 definition
-[
+.
+get
+(
 '
 expires_in_version
 '
-]
+)
         
 if
 not
