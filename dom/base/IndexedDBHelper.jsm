@@ -312,6 +312,9 @@ window
 ;
 }
 aSuccessCb
+&
+&
+aSuccessCb
 (
 )
 ;
@@ -432,6 +435,9 @@ dbName
 )
 ;
 aFailureCb
+&
+&
+aFailureCb
 (
 aEvent
 .
@@ -507,6 +513,9 @@ early
 "
 )
 ;
+aSuccessCb
+&
+&
 aSuccessCb
 (
 )
