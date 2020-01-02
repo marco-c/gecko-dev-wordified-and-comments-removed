@@ -241,7 +241,7 @@ Length
 {
 mStart
 .
-construct
+emplace
 (
 start
 )
@@ -344,14 +344,14 @@ false
 }
 mStart
 .
-construct
+emplace
 (
 start
 )
 ;
 mEnd
 .
-construct
+emplace
 (
 end
 )
@@ -1584,7 +1584,7 @@ false
 }
 mClip
 .
-construct
+emplace
 (
 x
 y
@@ -1664,7 +1664,7 @@ Length
 {
 mResolution
 .
-construct
+emplace
 (
 w
 h
@@ -1707,7 +1707,7 @@ sampleSize
 {
 mSampleSize
 .
-construct
+emplace
 (
 sampleSize
 )
