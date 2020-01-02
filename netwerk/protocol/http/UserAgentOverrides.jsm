@@ -302,7 +302,7 @@ callback
 {
 gOverrideFunctions
 .
-push
+unshift
 (
 callback
 )
