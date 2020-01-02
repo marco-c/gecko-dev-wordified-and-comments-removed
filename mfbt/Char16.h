@@ -650,6 +650,13 @@ char16ptr_t
 endif
 #
 define
+__PRUNICHAR__
+typedef
+char16_t
+PRUnichar
+;
+#
+define
 MOZ_UTF16
 (
 s
