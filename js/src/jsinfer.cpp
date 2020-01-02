@@ -11721,6 +11721,12 @@ suppressGC
 cx
 )
 ;
+JSAutoRequest
+request
+(
+cx
+)
+;
 JSCompartment
 *
 compartment
