@@ -1620,6 +1620,11 @@ SourceBufferList
 webidl
 '
 '
+StorageEvent
+.
+webidl
+'
+'
 StorageType
 .
 webidl
@@ -2965,11 +2970,6 @@ MozWifiP2pStatusChangeEvent
 webidl
 '
 '
-MozWifiStationInfoEvent
-.
-webidl
-'
-'
 MozWifiStatusChangeEvent
 .
 webidl
@@ -3152,11 +3152,6 @@ webidl
 '
 '
 RTCPeerConnectionIdentityEvent
-.
-webidl
-'
-'
-StorageEvent
 .
 webidl
 '
