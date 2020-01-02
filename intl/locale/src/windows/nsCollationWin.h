@@ -32,6 +32,11 @@ MOZ_FINAL
 public
 nsICollation
 {
+~
+nsCollationWin
+(
+)
+;
 protected
 :
 nsCollation
@@ -43,11 +48,6 @@ mLCID
 ;
 public
 :
-nsCollationWin
-(
-)
-;
-~
 nsCollationWin
 (
 )
