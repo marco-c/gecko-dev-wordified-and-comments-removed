@@ -917,7 +917,7 @@ hardwareAccelerated
 true
 "
 #
-if
+ifdef
 MOZILLA_OFFICIAL
 android
 :
