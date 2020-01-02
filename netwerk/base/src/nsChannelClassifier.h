@@ -82,12 +82,15 @@ nsIChannel
 aChannel
 )
 ;
-bool
+nsresult
 ShouldEnableTrackingProtection
 (
 nsIChannel
 *
 aChannel
+bool
+*
+result
 )
 ;
 }
