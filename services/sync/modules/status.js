@@ -64,13 +64,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -119,7 +119,7 @@ Status
 {
 _log
 :
-Log4Moz
+Log
 .
 repository
 .
@@ -637,7 +637,7 @@ _log
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 [

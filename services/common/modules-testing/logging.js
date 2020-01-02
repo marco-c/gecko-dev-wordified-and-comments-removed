@@ -34,13 +34,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -86,7 +86,7 @@ message
 level
 =
 =
-Log4Moz
+Log
 .
 Level
 .
@@ -139,7 +139,7 @@ prototype
 __proto__
 =
 new
-Log4Moz
+Log
 .
 Formatter
 (
@@ -148,7 +148,7 @@ Formatter
 let
 log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -166,7 +166,7 @@ let
 appender
 =
 new
-Log4Moz
+Log
 .
 DumpAppender
 (
@@ -199,14 +199,14 @@ getTestLogger
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 [
 level
 ]
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -219,7 +219,7 @@ Services
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 [
@@ -230,7 +230,7 @@ log
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
@@ -240,7 +240,7 @@ appender
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
@@ -275,7 +275,7 @@ component
 )
 {
 return
-Log4Moz
+Log
 .
 repository
 .

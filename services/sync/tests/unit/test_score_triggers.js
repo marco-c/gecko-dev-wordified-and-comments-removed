@@ -443,7 +443,7 @@ Trace
 "
 )
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -458,7 +458,7 @@ Service
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .

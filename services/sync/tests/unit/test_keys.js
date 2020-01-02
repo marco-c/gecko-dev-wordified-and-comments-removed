@@ -1051,7 +1051,7 @@ test_collections_manager
 let
 log
 =
-Log4Moz
+Log
 .
 repository
 .
@@ -1062,7 +1062,7 @@ Test
 "
 )
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -1071,7 +1071,7 @@ rootLogger
 addAppender
 (
 new
-Log4Moz
+Log
 .
 DumpAppender
 (

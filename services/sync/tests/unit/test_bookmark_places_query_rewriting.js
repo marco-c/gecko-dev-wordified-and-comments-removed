@@ -96,7 +96,7 @@ Trace
 "
 )
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -113,13 +113,13 @@ Bookmarks
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .
 Trace
 ;
-Log4Moz
+Log
 .
 repository
 .
@@ -136,7 +136,7 @@ Bookmarks
 .
 level
 =
-Log4Moz
+Log
 .
 Level
 .

@@ -155,13 +155,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Log
 .
-js
+jsm
 "
 )
 ;
@@ -239,7 +239,7 @@ FormWrapper
 {
 _log
 :
-Log4Moz
+Log
 .
 repository
 .
