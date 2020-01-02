@@ -924,9 +924,6 @@ visibility
 tab
 -
 background
-[
-selected
-]
 :
 not
 (
@@ -945,6 +942,12 @@ pinned
 visibility
 :
 hidden
+;
+transition
+-
+delay
+:
+0ms
 ;
 }
 .
