@@ -1912,6 +1912,10 @@ mDocument
 >
 SuppressEventHandling
 (
+nsIDocument
+:
+:
+eEvents
 parent_doc
 -
 >

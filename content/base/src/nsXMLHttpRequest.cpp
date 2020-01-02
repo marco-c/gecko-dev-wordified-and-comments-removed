@@ -12177,6 +12177,10 @@ suspendedDoc
 >
 SuppressEventHandling
 (
+nsIDocument
+:
+:
+eEvents
 )
 ;
 }
@@ -12255,6 +12259,10 @@ suspendedDoc
 >
 UnsuppressEventHandlingAndFireEvents
 (
+nsIDocument
+:
+:
+eEvents
 true
 )
 ;

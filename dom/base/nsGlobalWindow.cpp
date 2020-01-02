@@ -7522,6 +7522,10 @@ mDoc
 >
 UnsuppressEventHandlingAndFireEvents
 (
+nsIDocument
+:
+:
+eEvents
 false
 )
 ;
@@ -34466,6 +34470,10 @@ mSuspendedDoc
 >
 SuppressEventHandling
 (
+nsIDocument
+:
+:
+eEvents
 )
 ;
 }
@@ -34864,6 +34872,10 @@ mSuspendedDoc
 >
 UnsuppressEventHandlingAndFireEvents
 (
+nsIDocument
+:
+:
+eEvents
 currentDoc
 =
 =
