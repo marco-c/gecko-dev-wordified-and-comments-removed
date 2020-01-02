@@ -56,7 +56,7 @@ nsTArray
 h
 "
 class
-gfxFlattenedPath
+gfxPath
 ;
 class
 nsAString
@@ -159,7 +159,7 @@ mHaveReceivedCommands
 }
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
 GetResultingPath
 (

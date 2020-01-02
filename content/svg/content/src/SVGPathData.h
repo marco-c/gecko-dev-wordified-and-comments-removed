@@ -64,7 +64,7 @@ class
 gfxContext
 ;
 class
-gfxFlattenedPath
+gfxPath
 ;
 class
 nsSVGPathDataParserToInternal
@@ -324,9 +324,9 @@ const
 ;
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
-ToFlattenedPath
+ToPath
 (
 const
 gfxMatrix

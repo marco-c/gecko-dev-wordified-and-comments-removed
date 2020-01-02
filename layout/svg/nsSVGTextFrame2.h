@@ -68,7 +68,7 @@ class
 nsTextFrame
 ;
 class
-gfxFlattenedPath
+gfxPath
 ;
 typedef
 nsSVGDisplayContainerFrame
@@ -1118,9 +1118,9 @@ aTextPathFrame
 ;
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
-GetFlattenedTextPath
+GetTextPath
 (
 nsIFrame
 *

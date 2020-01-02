@@ -84,7 +84,7 @@ mY
 struct
 PathPointParams
 {
-gfxFlattenedPath
+gfxPath
 *
 mPath
 ;
@@ -148,7 +148,7 @@ aY
 }
 MotionSegment
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 float
@@ -875,7 +875,7 @@ static
 void
 GetAngleAndPointAtDistance
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 float
@@ -1181,7 +1181,7 @@ mismatch
 "
 )
 ;
-gfxFlattenedPath
+gfxPath
 *
 path
 =
@@ -1956,7 +1956,7 @@ mU
 .
 mPathPointParams
 ;
-gfxFlattenedPath
+gfxPath
 *
 path
 =
@@ -2324,7 +2324,7 @@ SVGMotionSMILType
 :
 ConstructSMILValue
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 float

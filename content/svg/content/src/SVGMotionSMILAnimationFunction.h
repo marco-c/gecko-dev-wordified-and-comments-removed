@@ -256,7 +256,7 @@ aContextElem
 bool
 GenerateValuesForPathAndPoints
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 bool
@@ -292,7 +292,7 @@ mPathSourceType
 ;
 nsRefPtr
 <
-gfxFlattenedPath
+gfxPath
 >
 mPath
 ;

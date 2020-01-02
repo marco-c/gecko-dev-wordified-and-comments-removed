@@ -63,7 +63,7 @@ nsSVGTSpanFrame
 h
 "
 class
-gfxFlattenedPath
+gfxPath
 ;
 class
 nsIAtom
@@ -208,9 +208,9 @@ aResult
 endif
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
-GetFlattenedPath
+GetPath
 (
 )
 ;

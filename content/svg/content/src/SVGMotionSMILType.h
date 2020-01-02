@@ -28,7 +28,7 @@ nsISMILType
 h
 "
 class
-gfxFlattenedPath
+gfxPath
 ;
 class
 nsSMILValue
@@ -199,7 +199,7 @@ static
 nsSMILValue
 ConstructSMILValue
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 float

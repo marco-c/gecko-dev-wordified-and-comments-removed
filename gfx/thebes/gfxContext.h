@@ -1006,14 +1006,6 @@ GetUserStrokeExtent
 (
 )
 ;
-already_AddRefed
-<
-gfxFlattenedPath
->
-GetFlattenedPath
-(
-)
-;
 enum
 {
 FLAG_SIMPLIFY_OPERATORS

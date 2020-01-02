@@ -1177,7 +1177,7 @@ mPath
 pathElem
 -
 >
-GetFlattenedPath
+GetPath
 (
 gfxMatrix
 (
@@ -1252,7 +1252,7 @@ mPath
 =
 path
 .
-ToFlattenedPath
+ToPath
 (
 gfxMatrix
 (
@@ -1399,7 +1399,7 @@ SVGMotionSMILAnimationFunction
 :
 GenerateValuesForPathAndPoints
 (
-gfxFlattenedPath
+gfxPath
 *
 aPath
 bool

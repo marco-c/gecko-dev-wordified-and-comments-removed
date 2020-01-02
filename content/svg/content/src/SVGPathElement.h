@@ -191,9 +191,9 @@ MOZ_OVERRIDE
 virtual
 already_AddRefed
 <
-gfxFlattenedPath
+gfxPath
 >
-GetFlattenedPath
+GetPath
 (
 const
 gfxMatrix
