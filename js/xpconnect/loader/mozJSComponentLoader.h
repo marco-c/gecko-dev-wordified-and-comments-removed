@@ -163,12 +163,6 @@ mozJSComponentLoader
 (
 )
 ;
-virtual
-~
-mozJSComponentLoader
-(
-)
-;
 const
 mozilla
 :
@@ -221,6 +215,12 @@ aMallocSizeOf
 ;
 protected
 :
+virtual
+~
+mozJSComponentLoader
+(
+)
+;
 static
 mozJSComponentLoader
 *
