@@ -44,16 +44,6 @@ mGeckoActivityOpened
 =
 false
 ;
-public
-void
-onLocaleReady
-(
-final
-String
-locale
-)
-{
-}
 Override
 public
 void

@@ -970,6 +970,15 @@ left
 "
 android
 :
+hint
+=
+"
+string
+/
+url_bar_default_text
+"
+android
+:
 layout_gravity
 =
 "
