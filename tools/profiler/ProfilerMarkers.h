@@ -385,6 +385,10 @@ char
 *
 aSource
 const
+char
+*
+aFilename
+const
 mozilla
 :
 :
@@ -401,6 +405,11 @@ aEndTime
 ProfilerBacktrace
 *
 aStack
+)
+;
+~
+IOMarkerPayload
+(
 )
 ;
 protected
@@ -466,6 +475,10 @@ const
 char
 *
 mSource
+;
+char
+*
+mFilename
 ;
 }
 ;
