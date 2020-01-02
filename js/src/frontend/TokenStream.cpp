@@ -233,7 +233,6 @@ length
 0
 )
 ;
-register
 size_t
 i
 ;
