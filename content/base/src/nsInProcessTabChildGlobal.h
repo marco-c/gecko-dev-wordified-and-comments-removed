@@ -760,9 +760,6 @@ bool
 mLoadingScript
 ;
 bool
-mDelayedDisconnect
-;
-bool
 mIsBrowserOrAppFrame
 ;
 public
