@@ -5176,8 +5176,6 @@ eCSSKeyword_trad_chinese_formal
 NS_STYLE_LIST_STYLE_TRAD_CHINESE_FORMAL
 eCSSKeyword_ethiopic_numeric
 NS_STYLE_LIST_STYLE_ETHIOPIC_NUMERIC
-eCSSKeyword__moz_tamil
-NS_STYLE_LIST_STYLE_MOZ_TAMIL
 eCSSKeyword_UNKNOWN
 -
 1

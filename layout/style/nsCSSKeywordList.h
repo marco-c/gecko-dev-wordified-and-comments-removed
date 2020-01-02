@@ -717,14 +717,6 @@ CSS_KEY
 -
 moz
 -
-tamil
-_moz_tamil
-)
-CSS_KEY
-(
--
-moz
--
 use
 -
 system
