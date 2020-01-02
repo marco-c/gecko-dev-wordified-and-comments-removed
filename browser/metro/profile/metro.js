@@ -1184,6 +1184,16 @@ pref
 "
 extensions
 .
+strictCompatibility
+"
+false
+)
+;
+pref
+(
+"
+extensions
+.
 enabledScopes
 "
 1
