@@ -269,13 +269,7 @@ JS
 :
 :
 ContextOptions
-contextOptions
-;
-JS
-:
-:
-CompartmentOptions
-compartmentOptions
+options
 ;
 int32_t
 maxScriptRuntime
@@ -284,10 +278,7 @@ JSContentChromeSettings
 (
 )
 :
-contextOptions
-(
-)
-compartmentOptions
+options
 (
 )
 maxScriptRuntime
