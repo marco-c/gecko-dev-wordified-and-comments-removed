@@ -226,9 +226,9 @@ return
 aTexture
 -
 >
-SetCompositableBackendSpecificData
+SetCompositor
 (
-GetCompositableBackendSpecificData
+GetCompositor
 (
 )
 )
@@ -236,9 +236,9 @@ GetCompositableBackendSpecificData
 aTexture
 -
 >
-SetCompositor
+SetCompositableBackendSpecificData
 (
-GetCompositor
+GetCompositableBackendSpecificData
 (
 )
 )

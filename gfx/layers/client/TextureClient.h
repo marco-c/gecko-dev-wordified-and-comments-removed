@@ -725,6 +725,11 @@ GetIPDLActor
 (
 )
 ;
+void
+ForceRemove
+(
+)
+;
 private
 :
 Atomic
@@ -737,8 +742,7 @@ void
 Finalize
 (
 )
-{
-}
+;
 protected
 :
 void

@@ -301,15 +301,6 @@ aClient
 ;
 virtual
 void
-RemoveTextureClient
-(
-TextureClient
-*
-aClient
-)
-;
-virtual
-void
 OnTransaction
 (
 )

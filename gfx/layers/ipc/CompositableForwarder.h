@@ -374,8 +374,9 @@ TextureClient
 *
 aTexture
 )
-{
-}
+=
+0
+;
 virtual
 void
 UseTexture

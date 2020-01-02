@@ -536,6 +536,16 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+RemoveTexture
+(
+TextureClient
+*
+aTexture
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 PaintedTiledLayerBuffer
 (
 CompositableClient
