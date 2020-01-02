@@ -390,7 +390,7 @@ asJSContext
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 self
 -
 >
@@ -504,14 +504,14 @@ CallObject
 :
 :
 class_
-NULL
+nullptr
 cx
 -
 >
 global
 (
 )
-NULL
+nullptr
 allocKind
 BaseShape
 :
@@ -677,7 +677,7 @@ cx
 global
 (
 )
-NULL
+nullptr
 BaseShape
 :
 :
@@ -5683,7 +5683,7 @@ ScriptSourceObject
 .
 setSource
 (
-NULL
+nullptr
 )
 ;
 }
@@ -5741,7 +5741,7 @@ NewObjectWithGivenProto
 cx
 &
 class_
-NULL
+nullptr
 cx
 -
 >
@@ -5757,7 +5757,7 @@ if
 object
 )
 return
-NULL
+nullptr
 ;
 RootedScriptSource
 sourceObject
@@ -5977,7 +5977,7 @@ jschar
 *
 src
 =
-NULL
+nullptr
 ;
 size_t
 length
@@ -6096,7 +6096,7 @@ if
 map_
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6121,7 +6121,7 @@ p
 value
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -6207,7 +6207,7 @@ map_
 ;
 map_
 =
-NULL
+nullptr
 ;
 }
 const
@@ -6317,7 +6317,7 @@ if
 decompressed
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6352,7 +6352,7 @@ decompressed
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 decompressed
@@ -6386,7 +6386,7 @@ decompressed
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 cx
@@ -6470,7 +6470,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 JSFlatString
 *
@@ -6496,7 +6496,7 @@ if
 flatStr
 )
 return
-NULL
+nullptr
 ;
 return
 flatStr
@@ -7345,7 +7345,7 @@ data
 .
 compressed
 =
-NULL
+nullptr
 ;
 }
 return
@@ -7505,7 +7505,7 @@ sourceMapURL_
 ;
 sourceMapURL_
 =
-NULL
+nullptr
 ;
 }
 return
@@ -7663,7 +7663,7 @@ sourceURL_
 ;
 sourceURL_
 =
-NULL
+nullptr
 ;
 }
 return
@@ -7892,7 +7892,7 @@ asJSContext
 )
 JSREPORT_WARNING
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_ALREADY_HAS_PRAGMA
 filename_
 "
@@ -8018,7 +8018,7 @@ asJSContext
 )
 JSREPORT_WARNING
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_ALREADY_HAS_PRAGMA
 filename_
 "
@@ -8206,7 +8206,7 @@ if
 entry
 )
 return
-NULL
+nullptr
 ;
 entry
 -
@@ -8328,7 +8328,7 @@ ASSERT
 script
 !
 =
-NULL
+nullptr
 )
 ;
 ASSERT
@@ -8336,7 +8336,7 @@ ASSERT
 ssd
 !
 =
-NULL
+nullptr
 )
 ;
 AutoLockForExclusiveAccess
@@ -8412,14 +8412,14 @@ script
 >
 code
 =
-NULL
+nullptr
 ;
 script
 -
 >
 atoms
 =
-NULL
+nullptr
 ;
 js_free
 (
@@ -9142,7 +9142,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 PodZero
 (
@@ -9262,14 +9262,14 @@ asJSContext
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TOO_DEEP
 js_function_str
 )
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 script
@@ -9352,7 +9352,7 @@ if
 data
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -10415,7 +10415,7 @@ bce
 >
 reportError
 (
-NULL
+nullptr
 JSMSG_NEED_DIET
 "
 script
@@ -10465,7 +10465,7 @@ asFunctionBox
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -10733,7 +10733,7 @@ RootedFunction
 fun
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -11358,7 +11358,7 @@ purge
 {
 code
 =
-NULL
+nullptr
 ;
 if
 (
@@ -11417,7 +11417,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -11469,7 +11469,7 @@ p
 >
 value
 :
-NULL
+nullptr
 ;
 }
 size_t
@@ -11513,7 +11513,7 @@ sn
 {
 result
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -11644,7 +11644,7 @@ cache
 .
 code
 =
-NULL
+nullptr
 ;
 }
 if
@@ -12423,7 +12423,7 @@ jsbytecode
 *
 pc
 =
-NULL
+nullptr
 ;
 JSScript
 *
@@ -12550,7 +12550,7 @@ done
 *
 file
 =
-NULL
+nullptr
 ;
 *
 linenop
@@ -12808,7 +12808,7 @@ if
 data
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -12857,7 +12857,7 @@ src
 )
 )
 return
-NULL
+nullptr
 ;
 AutoObjectVector
 objects
@@ -13080,7 +13080,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -13198,7 +13198,7 @@ clone
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -13290,7 +13290,7 @@ clone
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -13384,7 +13384,7 @@ if
 sourceObject
 )
 return
-NULL
+nullptr
 ;
 RootedScript
 dst
@@ -13430,7 +13430,7 @@ data
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 dst
@@ -14123,7 +14123,7 @@ mutableScript
 .
 init
 (
-NULL
+nullptr
 )
 ;
 JSScript
@@ -14196,7 +14196,7 @@ global
 (
 )
 :
-NULL
+nullptr
 )
 ;
 Debugger
@@ -14406,7 +14406,7 @@ firstBreakpoint
 )
 =
 =
-NULL
+nullptr
 )
 ;
 site
@@ -14415,8 +14415,8 @@ site
 clearTrap
 (
 fop
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 JS_ASSERT
@@ -14427,7 +14427,7 @@ pc
 )
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -14683,7 +14683,7 @@ baseline
 toggleDebugTraps
 (
 this
-NULL
+nullptr
 )
 ;
 #
@@ -14975,7 +14975,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 DebugScript
 *
@@ -15037,7 +15037,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 debug
@@ -15116,7 +15116,7 @@ site
 ;
 site
 =
-NULL
+nullptr
 ;
 if
 (
@@ -16433,7 +16433,7 @@ column
 :
 script_
 (
-NULL
+nullptr
 )
 function_
 (
@@ -16441,11 +16441,11 @@ fun
 )
 enclosingScope_
 (
-NULL
+nullptr
 )
 sourceObject_
 (
-NULL
+nullptr
 )
 table_
 (
@@ -16618,7 +16618,7 @@ ScriptSourceObject
 (
 )
 :
-NULL
+nullptr
 ;
 }
 LazyScript
@@ -16682,7 +16682,7 @@ void
 *
 table
 =
-NULL
+nullptr
 ;
 if
 (
@@ -16705,7 +16705,7 @@ if
 table
 )
 return
-NULL
+nullptr
 ;
 }
 LazyScript
@@ -16723,7 +16723,7 @@ if
 res
 )
 return
-NULL
+nullptr
 ;
 return
 new
@@ -16905,11 +16905,11 @@ else
 {
 baselineOrIonRaw
 =
-NULL
+nullptr
 ;
 baselineOrIonSkipArgCheck
 =
-NULL
+nullptr
 ;
 }
 #

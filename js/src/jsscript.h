@@ -758,11 +758,11 @@ ScriptCounts
 :
 pcCountsVector
 (
-NULL
+nullptr
 )
 ionCounts
 (
-NULL
+nullptr
 )
 {
 }
@@ -939,15 +939,15 @@ compressedLength_
 )
 filename_
 (
-NULL
+nullptr
 )
 sourceURL_
 (
-NULL
+nullptr
 )
 sourceMapURL_
 (
-NULL
+nullptr
 )
 originPrincipals_
 (
@@ -970,7 +970,7 @@ data
 .
 source
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1235,7 +1235,7 @@ return
 sourceURL_
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -1267,7 +1267,7 @@ return
 sourceMapURL_
 !
 =
-NULL
+nullptr
 ;
 }
 JSPrincipals
@@ -3035,7 +3035,7 @@ if
 isCallsiteClone
 )
 return
-NULL
+nullptr
 ;
 return
 enclosingScopeOrOriginalFunction_
@@ -4105,7 +4105,7 @@ pc
 code
 ]
 :
-NULL
+nullptr
 ;
 }
 js
@@ -5501,7 +5501,7 @@ if
 natoms
 )
 return
-NULL
+nullptr
 ;
 return
 reinterpret_cast
@@ -5857,7 +5857,7 @@ unsigned
 *
 columnp
 =
-NULL
+nullptr
 )
 ;
 extern
@@ -5879,7 +5879,7 @@ unsigned
 *
 columnp
 =
-NULL
+nullptr
 )
 ;
 enum

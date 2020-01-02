@@ -2045,7 +2045,7 @@ DEBUG
 :
 context
 (
-NULL
+nullptr
 )
 #
 endif
@@ -2150,7 +2150,7 @@ DEBUG
 :
 context
 (
-NULL
+nullptr
 )
 #
 endif
