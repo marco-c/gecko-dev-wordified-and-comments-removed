@@ -227,6 +227,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -270,6 +271,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -279,6 +281,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -288,12 +291,14 @@ IntrinsicSize
 GetIntrinsicSize
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -313,6 +318,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -329,6 +335,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -347,6 +354,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -363,6 +371,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -376,6 +385,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -402,6 +412,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -411,6 +422,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 ImageFrameSuper
@@ -442,6 +454,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 void
 List
@@ -464,6 +477,7 @@ aFlags
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -668,6 +682,7 @@ InlineMinWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 void
 DisconnectMap
