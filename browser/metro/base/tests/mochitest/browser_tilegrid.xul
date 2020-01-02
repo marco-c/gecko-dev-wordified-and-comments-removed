@@ -242,6 +242,11 @@ seltype
 "
 single
 "
+nocontext
+=
+"
+true
+"
 flex
 =
 "
@@ -311,6 +316,11 @@ seltype
 =
 "
 single
+"
+nocontext
+=
+"
+true
 "
 flex
 =
