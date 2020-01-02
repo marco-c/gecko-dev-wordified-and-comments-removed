@@ -229,9 +229,6 @@ GetGCObjectKind
 clasp
 )
 ;
-#
-if
-0
 if
 (
 handler
@@ -249,8 +246,6 @@ GetBackgroundAllocKind
 allocKind
 )
 ;
-#
-endif
 RootedObject
 obj
 (
