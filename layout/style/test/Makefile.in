@@ -339,16 +339,6 @@ css_properties
 .
 js
 \
-support
-/
-external
--
-variable
--
-url
-.
-css
-\
 (
 NULL
 )
