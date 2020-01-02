@@ -270,6 +270,14 @@ if
 (
 d2d
 )
+fuzzy
+-
+if
+(
+B2G
+12
+18
+)
 =
 =
 boxshadow

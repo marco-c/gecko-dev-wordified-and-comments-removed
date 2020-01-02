@@ -1247,9 +1247,6 @@ PaintBackgroundColor
 (
 gfxRGBA
 aColor
-nsPresContext
-*
-aPresContext
 nsRenderingContext
 &
 aRenderingContext
@@ -1264,6 +1261,10 @@ const
 nsRect
 &
 aBorderArea
+const
+nsRect
+&
+aBGClipRect
 uint32_t
 aFlags
 )
@@ -1316,9 +1317,6 @@ PaintBackgroundColorWithSC
 (
 gfxRGBA
 aColor
-nsPresContext
-*
-aPresContext
 nsRenderingContext
 &
 aRenderingContext
@@ -1333,6 +1331,10 @@ const
 nsRect
 &
 aBorderArea
+const
+nsRect
+&
+aBGClipRect
 nsStyleContext
 *
 aStyleContext
