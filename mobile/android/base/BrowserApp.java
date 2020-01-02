@@ -8666,6 +8666,15 @@ homePagerStub
 inflate
 (
 )
+.
+findViewById
+(
+R
+.
+id
+.
+home_pager
+)
 ;
 }
 mHomePager

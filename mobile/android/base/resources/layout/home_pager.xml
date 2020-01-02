@@ -209,6 +209,16 @@ home
 HomePagerTabStrip
 android
 :
+id
+=
+"
++
+id
+/
+phone_menu_strip
+"
+android
+:
 layout_width
 =
 "
