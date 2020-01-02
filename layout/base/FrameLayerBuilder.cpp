@@ -1116,8 +1116,6 @@ LayerManagerDataProperty
 )
 ;
 }
-namespace
-{
 static
 MaskLayerImageCache
 *
@@ -2468,7 +2466,6 @@ gThebesDisplayItemLayerUserData
 )
 )
 ;
-}
 }
 void
 FrameLayerBuilder
