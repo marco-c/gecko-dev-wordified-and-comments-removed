@@ -24923,6 +24923,15 @@ options
 rilRequestError
 ]
 ;
+this
+.
+sendChromeMessage
+(
+options
+)
+;
+return
+;
 }
 let
 services
