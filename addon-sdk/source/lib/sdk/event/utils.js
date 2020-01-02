@@ -1505,6 +1505,10 @@ Object
 keys
 (
 object
+|
+|
+{
+}
 )
 .
 reduce

@@ -3753,6 +3753,9 @@ modules
 globals
 :
 {
+console
+:
+console
 }
 resolve
 :

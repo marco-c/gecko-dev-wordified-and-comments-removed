@@ -64,7 +64,7 @@ function
 onOptionsDisplayed
 (
 {
-subjec
+subject
 :
 document
 data
