@@ -501,6 +501,9 @@ protected
 int32_t
 frameDepth_
 ;
+int32_t
+frameInitialAdjustment_
+;
 FrameSizeClass
 frameClass_
 ;
@@ -599,6 +602,8 @@ framePushed
 (
 )
 -
+frameInitialAdjustment_
+-
 slot
 ;
 JS_ASSERT
@@ -628,6 +633,8 @@ masm
 framePushed
 (
 )
+-
+frameInitialAdjustment_
 -
 offset
 ;
