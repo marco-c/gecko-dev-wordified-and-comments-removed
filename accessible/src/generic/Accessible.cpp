@@ -11400,6 +11400,11 @@ if
 SelectionMgr
 (
 )
+&
+&
+SelectionMgr
+(
+)
 -
 >
 AccessibleWithCaret
