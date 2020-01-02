@@ -333,6 +333,8 @@ aContent
 nsRect
 *
 aResult
+=
+nullptr
 )
 ;
 static
@@ -345,6 +347,8 @@ aContent
 nsRect
 *
 aResult
+=
+nullptr
 )
 ;
 static
