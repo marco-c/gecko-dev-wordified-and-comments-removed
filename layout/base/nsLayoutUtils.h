@@ -326,10 +326,6 @@ FindOrCreateIDFor
 nsIContent
 *
 aContent
-bool
-aRoot
-=
-false
 )
 ;
 static

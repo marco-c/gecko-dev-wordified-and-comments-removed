@@ -104,11 +104,8 @@ virtual
 void
 SendAsyncScrollDOMEvent
 (
-FrameMetrics
-:
-:
-ViewID
-aScrollId
+bool
+aIsRoot
 const
 CSSRect
 &

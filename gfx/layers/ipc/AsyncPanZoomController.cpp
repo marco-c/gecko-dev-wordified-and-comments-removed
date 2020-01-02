@@ -7398,11 +7398,8 @@ controller
 return
 ;
 }
-FrameMetrics
-:
-:
-ViewID
-scrollId
+bool
+isRoot
 ;
 CSSRect
 contentRect
@@ -7417,11 +7414,11 @@ lock
 mMonitor
 )
 ;
-scrollId
+isRoot
 =
 mFrameMetrics
 .
-mScrollId
+mIsRoot
 ;
 scrollableSize
 =
@@ -7454,7 +7451,7 @@ controller
 >
 SendAsyncScrollDOMEvent
 (
-scrollId
+isRoot
 contentRect
 scrollableSize
 )

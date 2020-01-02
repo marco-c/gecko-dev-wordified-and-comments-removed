@@ -199,11 +199,8 @@ MOCK_METHOD3
 SendAsyncScrollDOMEvent
 void
 (
-FrameMetrics
-:
-:
-ViewID
-aScrollId
+bool
+aIsRoot
 const
 CSSRect
 &
@@ -1665,7 +1662,7 @@ mScrollId
 FrameMetrics
 :
 :
-ROOT_SCROLL_ID
+START_SCROLL_ID
 ;
 FrameMetrics
 childMetrics
@@ -1680,6 +1677,8 @@ FrameMetrics
 :
 :
 START_SCROLL_ID
++
+1
 ;
 layers
 [
@@ -3219,7 +3218,7 @@ root
 FrameMetrics
 :
 :
-ROOT_SCROLL_ID
+START_SCROLL_ID
 )
 ;
 manager
@@ -3315,6 +3314,8 @@ FrameMetrics
 :
 :
 START_SCROLL_ID
++
+1
 )
 ;
 manager
@@ -3480,7 +3481,7 @@ FrameMetrics
 :
 START_SCROLL_ID
 +
-1
+2
 )
 ;
 manager
@@ -3852,7 +3853,7 @@ root
 FrameMetrics
 :
 :
-ROOT_SCROLL_ID
+START_SCROLL_ID
 CSSRect
 (
 0
@@ -3872,6 +3873,8 @@ FrameMetrics
 :
 :
 START_SCROLL_ID
++
+1
 CSSRect
 (
 0
@@ -3892,7 +3895,7 @@ FrameMetrics
 :
 START_SCROLL_ID
 +
-1
+2
 CSSRect
 (
 0

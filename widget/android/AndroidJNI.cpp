@@ -3578,6 +3578,8 @@ nsWindow
 RootLayerTreeId
 (
 )
+0
+0
 )
 )
 ;
@@ -3922,6 +3924,8 @@ nsWindow
 RootLayerTreeId
 (
 )
+0
+0
 )
 prevented
 )
@@ -4020,6 +4024,8 @@ nsWindow
 RootLayerTreeId
 (
 )
+0
+0
 )
 CSSPoint
 (

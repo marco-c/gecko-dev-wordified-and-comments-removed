@@ -2067,6 +2067,8 @@ aPresShellId
 ViewID
 aViewId
 bool
+aIsRoot
+bool
 aAllowZoom
 CSSToScreenScale
 aMinZoom

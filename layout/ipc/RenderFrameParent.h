@@ -253,11 +253,12 @@ GetContentView
 (
 ViewID
 aId
-=
-FrameMetrics
-:
-:
-ROOT_SCROLL_ID
+)
+;
+nsContentView
+*
+GetRootContentView
+(
 )
 ;
 void
@@ -408,6 +409,8 @@ uint32_t
 aPresShellId
 ViewID
 aViewId
+bool
+aIsRoot
 bool
 aAllowZoom
 const

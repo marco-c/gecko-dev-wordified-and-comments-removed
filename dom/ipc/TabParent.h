@@ -693,6 +693,10 @@ aViewId
 const
 bool
 &
+aIsRoot
+const
+bool
+&
 aAllowZoom
 const
 CSSToScreenScale
