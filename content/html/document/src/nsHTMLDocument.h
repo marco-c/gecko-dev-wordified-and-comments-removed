@@ -1510,7 +1510,7 @@ aCharset
 ;
 static
 void
-TryFallback
+TryWeakDocTypeDefault
 (
 int32_t
 &

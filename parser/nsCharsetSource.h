@@ -10,7 +10,7 @@ kCharsetUninitialized
 0
 #
 define
-kCharsetFromFallback
+kCharsetFromWeakDocTypeDefault
 1
 #
 define

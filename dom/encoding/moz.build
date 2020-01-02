@@ -120,11 +120,6 @@ EncodingUtils
 h
 '
 '
-FallbackEncoding
-.
-h
-'
-'
 TextDecoder
 .
 h
@@ -141,11 +136,6 @@ SOURCES
 [
 '
 EncodingUtils
-.
-cpp
-'
-'
-FallbackEncoding
 .
 cpp
 '

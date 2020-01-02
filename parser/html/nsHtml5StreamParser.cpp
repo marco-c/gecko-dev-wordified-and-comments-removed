@@ -1371,7 +1371,7 @@ windows
 ;
 mCharsetSource
 =
-kCharsetFromFallback
+kCharsetFromWeakDocTypeDefault
 ;
 rv
 =
@@ -2730,7 +2730,7 @@ windows
 ;
 mCharsetSource
 =
-kCharsetFromFallback
+kCharsetFromWeakDocTypeDefault
 ;
 mTreeBuilder
 -
@@ -2754,7 +2754,7 @@ LOAD_AS_DATA
 mCharsetSource
 =
 =
-kCharsetFromFallback
+kCharsetFromWeakDocTypeDefault
 )
 {
 NS_ASSERTION
@@ -3340,7 +3340,7 @@ else
 {
 mCharsetSource
 =
-kCharsetFromFallback
+kCharsetFromWeakDocTypeDefault
 ;
 }
 }
@@ -4544,7 +4544,7 @@ rv
 {
 mCharsetSource
 =
-kCharsetFromFallback
+kCharsetFromWeakDocTypeDefault
 ;
 }
 return
