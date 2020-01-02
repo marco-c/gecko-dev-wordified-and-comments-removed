@@ -2641,6 +2641,16 @@ TypedObjectConstants
 h
 \
 (
+srcdir
+)
+/
+builtin
+/
+SelfHostingDefines
+.
+h
+\
+(
 NULL
 )
 SELFHOSTED_DEFINES
