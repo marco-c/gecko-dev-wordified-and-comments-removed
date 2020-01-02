@@ -31,9 +31,16 @@ event
 sendAsyncMessage
 (
 TEST_MSG
+Components
+.
+utils
+.
+waiveXrays
+(
 event
 .
 detail
+)
 )
 ;
 }
