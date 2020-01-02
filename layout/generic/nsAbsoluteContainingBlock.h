@@ -195,7 +195,7 @@ nsIFrame
 aOldFrame
 )
 ;
-nsresult
+void
 Reflow
 (
 nsContainerFrame
