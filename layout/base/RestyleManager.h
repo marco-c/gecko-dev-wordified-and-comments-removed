@@ -656,9 +656,6 @@ aOldContext
 nsStyleContext
 *
 aNewContext
-nsIFrame
-*
-aContinuation
 nsChangeHint
 aChangeToAssume
 )
