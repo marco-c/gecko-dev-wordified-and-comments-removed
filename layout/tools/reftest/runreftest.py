@@ -2834,6 +2834,8 @@ path
 join
 (
 SCRIPT_DIRECTORY
+self
+.
 automation
 .
 DEFAULT_APP
