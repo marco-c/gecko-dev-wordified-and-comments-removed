@@ -885,7 +885,7 @@ stackLimitOffset
 =
 WORKER_THREAD_STACK_SIZE
 -
-10
+100
 *
 1024
 ;
