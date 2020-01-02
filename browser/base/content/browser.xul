@@ -3079,7 +3079,12 @@ contentAreaContextMenu
 pagemenu
 =
 "
-start
+#
+page
+-
+menu
+-
+separator
 "
 onpopupshowing
 =
