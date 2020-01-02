@@ -702,6 +702,9 @@ function
 nsDOMIdentity_request
 (
 aOptions
+=
+{
+}
 )
 {
 let
