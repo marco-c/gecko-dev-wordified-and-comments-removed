@@ -261,7 +261,7 @@ mLastInterval
 return
 duration
 .
-ToSecondsSigDigits
+ToSeconds
 (
 )
 >
