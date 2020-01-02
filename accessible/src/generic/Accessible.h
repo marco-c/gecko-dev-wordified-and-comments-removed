@@ -2224,7 +2224,7 @@ eIgnoreDOMUIEvent
 6
 eLastStateFlag
 =
-eGroupInfoDirty
+eIgnoreDOMUIEvent
 }
 ;
 enum
@@ -2424,7 +2424,7 @@ const
 uint8_t
 kStateFlagsBits
 =
-6
+7
 ;
 static
 const
