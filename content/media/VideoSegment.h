@@ -177,7 +177,7 @@ aForceBlack
 {
 mForceBlack
 =
-true
+aForceBlack
 ;
 }
 bool
