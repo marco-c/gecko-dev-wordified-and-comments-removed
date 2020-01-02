@@ -246,6 +246,11 @@ SelectParentHelper
 jsm
 '
 '
+ShortcutUtils
+.
+jsm
+'
+'
 Sntp
 .
 jsm

@@ -150,9 +150,9 @@ pauseButtonTooltip
 "
 gDebugger
 .
-DevtoolsHelpers
+ShortcutUtils
 .
-prettyKey
+prettifyShortcut
 (
 gResumeKey
 )
@@ -226,9 +226,9 @@ resumeButtonTooltip
 "
 gDebugger
 .
-DevtoolsHelpers
+ShortcutUtils
 .
-prettyKey
+prettifyShortcut
 (
 gResumeKey
 )
@@ -351,9 +351,9 @@ pauseButtonTooltip
 "
 gDebugger
 .
-DevtoolsHelpers
+ShortcutUtils
 .
-prettyKey
+prettifyShortcut
 (
 gResumeKey
 )
