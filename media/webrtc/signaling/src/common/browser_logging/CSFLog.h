@@ -392,10 +392,6 @@ GetWebRTCLogInfo
 (
 )
 ;
-extern
-int
-gWebrtcTraceLoggingOn
-;
 #
 ifdef
 __cplusplus
