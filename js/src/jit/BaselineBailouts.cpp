@@ -6304,6 +6304,17 @@ instructionResults
 return
 BAILOUT_RETURN_FATAL_ERROR
 ;
+#
+ifdef
+TRACK_SNAPSHOTS
+snapIter
+.
+spewBailingFrom
+(
+)
+;
+#
+endif
 RootedFunction
 callee
 (
