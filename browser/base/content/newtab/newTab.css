@@ -114,6 +114,12 @@ moz
 -
 box
 ;
+margin
+-
+bottom
+:
+26px
+;
 -
 moz
 -
@@ -259,12 +265,6 @@ box
 pack
 :
 center
-;
-margin
--
-bottom
-:
-26px
 ;
 }
 #
