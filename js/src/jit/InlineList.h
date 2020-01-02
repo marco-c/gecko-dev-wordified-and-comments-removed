@@ -55,7 +55,7 @@ InlineForwardListNode
 :
 next
 (
-NULL
+nullptr
 )
 {
 }
@@ -205,7 +205,7 @@ const
 return
 iterator
 (
-NULL
+nullptr
 )
 ;
 }
@@ -259,7 +259,7 @@ where
 .
 iter
 =
-NULL
+nullptr
 ;
 return
 iter
@@ -304,7 +304,7 @@ t
 >
 next
 =
-NULL
+nullptr
 ;
 tail_
 =
@@ -540,7 +540,7 @@ at
 >
 next
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -566,7 +566,7 @@ this
 >
 next
 =
-NULL
+nullptr
 ;
 tail_
 =
@@ -645,7 +645,7 @@ owner
 >
 next
 :
-NULL
+nullptr
 )
 #
 ifdef
@@ -950,11 +950,11 @@ InlineForwardListNode
 T
 >
 (
-NULL
+nullptr
 )
 prev
 (
-NULL
+nullptr
 )
 {
 }
@@ -1222,7 +1222,7 @@ where
 .
 iter
 =
-NULL
+nullptr
 ;
 return
 iter
@@ -1509,7 +1509,7 @@ t
 >
 prev
 =
-NULL
+nullptr
 ;
 }
 void
@@ -2033,7 +2033,7 @@ InlineConcatList
 :
 next
 (
-NULL
+nullptr
 )
 tail
 (
@@ -2072,7 +2072,7 @@ const
 return
 iterator
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2140,7 +2140,7 @@ adding
 >
 tail
 =
-NULL
+nullptr
 ;
 }
 protected

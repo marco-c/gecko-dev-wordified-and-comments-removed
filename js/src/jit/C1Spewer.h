@@ -69,7 +69,7 @@ C1Spewer
 :
 graph
 (
-NULL
+nullptr
 )
 script
 (
@@ -79,7 +79,7 @@ NullPtr
 )
 spewout_
 (
-NULL
+nullptr
 )
 {
 }

@@ -68,7 +68,7 @@ ptr
 :
 CompilerRootNode
 (
-NULL
+nullptr
 )
 {
 if

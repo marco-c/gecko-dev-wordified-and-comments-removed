@@ -681,7 +681,7 @@ masm
 )
 unassociatedScriptCounts_
 (
-NULL
+nullptr
 )
 {
 }
@@ -992,11 +992,11 @@ InvalidReg
 ;
 stringEntry
 =
-NULL
+nullptr
 ;
 stringRejoin
 =
-NULL
+nullptr
 ;
 }
 masm
@@ -2220,7 +2220,7 @@ return
 ifTruthy_
 !
 =
-NULL
+nullptr
 ;
 }
 #
@@ -2236,11 +2236,11 @@ DEBUG
 :
 ifTruthy_
 (
-NULL
+nullptr
 )
 ifFalsy_
 (
-NULL
+nullptr
 )
 #
 endif
@@ -2976,7 +2976,7 @@ OutOfLineTestObject
 *
 ool
 =
-NULL
+nullptr
 ;
 if
 (
@@ -14549,13 +14549,13 @@ runtime
 profilingScripts
 )
 return
-NULL
+nullptr
 ;
 IonScriptCounts
 *
 counts
 =
-NULL
+nullptr
 ;
 CompileInfo
 *
@@ -14602,7 +14602,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 counts
 =
@@ -14639,7 +14639,7 @@ counts
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -14787,7 +14787,7 @@ numSuccessors
 )
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -14918,7 +14918,7 @@ spillBytes
 )
 last
 (
-NULL
+nullptr
 )
 lastLength
 (
@@ -15085,7 +15085,7 @@ masm
 .
 setPrinter
 (
-NULL
+nullptr
 )
 ;
 if
@@ -15925,7 +15925,7 @@ hasSingletonType
 (
 )
 ?
-NULL
+nullptr
 :
 templateObject
 -
@@ -17474,7 +17474,7 @@ hasLazyType
 (
 )
 ?
-NULL
+nullptr
 :
 templateObj
 -
@@ -17553,7 +17553,7 @@ hasLazyType
 (
 )
 ?
-NULL
+nullptr
 :
 templateObj
 -
@@ -17564,7 +17564,7 @@ type
 )
 ImmPtr
 (
-NULL
+nullptr
 )
 )
 StoreRegisterTo
@@ -21388,7 +21388,7 @@ void
 *
 funptr
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -22549,7 +22549,7 @@ OutOfLineCode
 *
 ool
 =
-NULL
+nullptr
 ;
 if
 (
@@ -23517,7 +23517,7 @@ OutOfLineTestObjectWithLabels
 *
 ool
 =
-NULL
+nullptr
 ;
 Maybe
 <
@@ -24043,7 +24043,7 @@ OutOfLineTestObject
 *
 ool
 =
-NULL
+nullptr
 ;
 if
 (
@@ -26160,7 +26160,7 @@ movePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 output
 )
@@ -26917,7 +26917,7 @@ OutOfLineTestObjectWithLabels
 *
 ool
 =
-NULL
+nullptr
 ;
 if
 (
@@ -31029,7 +31029,7 @@ movePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 temp1
 )
@@ -32583,7 +32583,7 @@ storePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 Address
 (
@@ -32603,7 +32603,7 @@ storePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 Address
 (
@@ -33263,7 +33263,7 @@ movePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 temp2
 )
@@ -39476,7 +39476,7 @@ OutOfLineTypeOfV
 *
 ool
 =
-NULL
+nullptr
 ;
 if
 (
@@ -42045,11 +42045,11 @@ else
 {
 stringEntry
 =
-NULL
+nullptr
 ;
 stringRejoin
 =
-NULL
+nullptr
 ;
 }
 Label
@@ -42263,7 +42263,7 @@ OutOfLineCode
 *
 ool
 =
-NULL
+nullptr
 ;
 Label
 *
@@ -44608,7 +44608,7 @@ call
 )
 ImmPtr
 (
-NULL
+nullptr
 )
 )
 ;

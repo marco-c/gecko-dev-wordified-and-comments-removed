@@ -949,7 +949,7 @@ PCMappingSlotInfo
 *
 slotInfo
 =
-NULL
+nullptr
 )
 ;
 jsbytecode
@@ -1213,7 +1213,7 @@ ExceptionBailoutInfo
 *
 exceptionInfo
 =
-NULL
+nullptr
 )
 ;
 void

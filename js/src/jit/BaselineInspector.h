@@ -175,7 +175,7 @@ rawScript
 )
 prevLookedUpEntry
 (
-NULL
+nullptr
 )
 {
 JS_ASSERT
@@ -341,7 +341,7 @@ ICEntry
 *
 ent
 =
-NULL
+nullptr
 ;
 if
 (

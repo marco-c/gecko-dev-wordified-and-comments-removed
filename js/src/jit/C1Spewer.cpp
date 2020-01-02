@@ -82,7 +82,7 @@ return
 spewout_
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -248,7 +248,7 @@ int
 )
 time
 (
-NULL
+nullptr
 )
 )
 ;

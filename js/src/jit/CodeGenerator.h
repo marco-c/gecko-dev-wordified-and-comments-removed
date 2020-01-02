@@ -179,7 +179,7 @@ MacroAssembler
 *
 masm
 =
-NULL
+nullptr
 )
 ;
 ~
@@ -2332,7 +2332,7 @@ unassociatedScriptCounts_
 ;
 unassociatedScriptCounts_
 =
-NULL
+nullptr
 ;
 return
 counts

@@ -639,7 +639,7 @@ hasBaselineScript
 )
 )
 return
-NULL
+nullptr
 ;
 const
 ICEntry
@@ -687,7 +687,7 @@ isFallback
 )
 )
 return
-NULL
+nullptr
 ;
 return
 stub
@@ -766,7 +766,7 @@ next
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -1006,7 +1006,7 @@ pc
 *
 second
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1132,7 +1132,7 @@ toCompare_NumberWithUndefined
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (

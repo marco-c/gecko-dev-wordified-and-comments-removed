@@ -51,7 +51,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 return
 result
