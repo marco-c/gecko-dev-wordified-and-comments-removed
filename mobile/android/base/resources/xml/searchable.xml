@@ -1,6 +1,3 @@
-#
-filter
-substitution
 <
 ?
 xml
@@ -57,11 +54,9 @@ android
 searchSuggestAuthority
 =
 "
-ANDROID_PACKAGE_NAME
-.
-db
-.
-browser
+string
+/
+content_authority_db_browser
 "
 android
 :

@@ -1,6 +1,3 @@
-#
-filter
-substitution
 <
 ?
 xml
@@ -240,7 +237,9 @@ android
 targetPackage
 =
 "
-ANDROID_PACKAGE_NAME
+string
+/
+android_package_name
 "
 android
 :
@@ -314,7 +313,9 @@ android
 targetPackage
 =
 "
-ANDROID_PACKAGE_NAME
+string
+/
+android_package_name
 "
 android
 :
@@ -388,7 +389,9 @@ android
 targetPackage
 =
 "
-ANDROID_PACKAGE_NAME
+string
+/
+android_package_name
 "
 android
 :
@@ -462,7 +465,9 @@ android
 targetPackage
 =
 "
-ANDROID_PACKAGE_NAME
+string
+/
+android_package_name
 "
 android
 :
@@ -536,7 +541,9 @@ android
 targetPackage
 =
 "
-ANDROID_PACKAGE_NAME
+string
+/
+android_package_name
 "
 android
 :
