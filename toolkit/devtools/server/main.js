@@ -2075,9 +2075,8 @@ promises
 openListener
 :
 function
-DS_openListener
 (
-aPortOrPath
+portOrPath
 )
 {
 if
@@ -2176,7 +2175,7 @@ port
 =
 Number
 (
-aPortOrPath
+portOrPath
 )
 ;
 if
@@ -2202,7 +2201,7 @@ file
 =
 nsFile
 (
-aPortOrPath
+portOrPath
 )
 ;
 if
@@ -2268,7 +2267,7 @@ on
 '
 "
 +
-aPortOrPath
+portOrPath
 +
 "
 '
@@ -2297,9 +2296,8 @@ true
 closeListener
 :
 function
-DS_closeListener
 (
-aForce
+force
 )
 {
 if
@@ -2334,7 +2332,7 @@ _socketConnections
 0
 |
 |
-aForce
+force
 )
 {
 this
