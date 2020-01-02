@@ -502,9 +502,6 @@ tag
 private
 :
 struct
-FilePrivate
-;
-struct
 Specification
 ;
 struct

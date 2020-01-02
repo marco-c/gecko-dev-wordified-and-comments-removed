@@ -1213,7 +1213,6 @@ sa
 off_t
 ss
 ;
-register
 register_t
 n
 ;
@@ -1624,7 +1623,6 @@ nlist_type
 )
 ]
 ;
-register
 register_t
 m
 =
