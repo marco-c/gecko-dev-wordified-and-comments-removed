@@ -830,6 +830,14 @@ mFunctionHook
 (
 0
 )
+mWarnedAboutDeprecation
+(
+false
+)
+mDeprecationAcknowledged
+(
+false
+)
 {
 }
 virtual
@@ -954,6 +962,12 @@ nsCOMPtr
 jsdIActivationCallback
 >
 mActivationCallback
+;
+bool
+mWarnedAboutDeprecation
+;
+bool
+mDeprecationAcknowledged
 ;
 }
 ;
