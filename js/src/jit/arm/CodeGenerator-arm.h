@@ -1169,14 +1169,6 @@ guard
 )
 ;
 bool
-visitInterruptCheck
-(
-LInterruptCheck
-*
-lir
-)
-;
-bool
 visitNegI
 (
 LNegI

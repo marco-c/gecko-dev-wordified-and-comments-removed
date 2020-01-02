@@ -3291,11 +3291,6 @@ codegen
 ;
 }
 ;
-extern
-const
-VMFunction
-InterruptCheckInfo
-;
 }
 }
 #
