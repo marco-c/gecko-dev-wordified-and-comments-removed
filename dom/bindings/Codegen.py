@@ -27589,6 +27589,9 @@ n
 "
                 
 "
+binding_detail
+:
+:
 FakeDependentString
 str
 ;
@@ -27659,23 +27662,21 @@ Optional
 nsAString
 >
 "
-        
-else
-:
             
-declType
+holderType
 =
-"
-NonNull
-<
-nsAString
->
-"
-        
-return
-JSToNativeConversionInfo
+CGGeneric
 (
+"
+binding_detail
+:
+:
+FakeDependentString
+"
+)
             
+conversionCode
+=
 (
 "
 %
@@ -27683,7 +27684,7 @@ s
 \
 n
 "
-             
+                              
 "
 {
 declName
@@ -27696,7 +27697,7 @@ holderName
 ;
 "
 %
-             
+                              
 getConversionCode
 (
 "
@@ -27706,6 +27707,39 @@ holderName
 "
 )
 )
+        
+else
+:
+            
+declType
+=
+"
+binding_detail
+:
+:
+FakeDependentString
+"
+            
+holderType
+=
+None
+            
+conversionCode
+=
+getConversionCode
+(
+"
+{
+declName
+}
+"
+)
+        
+return
+JSToNativeConversionInfo
+(
+            
+conversionCode
             
 declType
 =
@@ -27716,12 +27750,7 @@ declType
             
 holderType
 =
-CGGeneric
-(
-"
-FakeDependentString
-"
-)
+holderType
 )
     
 if
@@ -52864,11 +52893,7 @@ True
 body
 =
 "
-mValue
-.
-mString
-.
-Value
+SetAsString
 (
 )
 .
@@ -54677,7 +54702,9 @@ True
 body
 =
 "
-mStringHolder
+SetAsString
+(
+)
 .
 SetData
 (
@@ -61141,6 +61168,9 @@ idDecl
                 
 (
 "
+binding_detail
+:
+:
 FakeDependentString
 %
 s
@@ -89838,6 +89868,21 @@ mozilla
 dom
 /
 BindingDeclarations
+.
+h
+"
+)
+        
+includes
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+BindingUtils
 .
 h
 "
