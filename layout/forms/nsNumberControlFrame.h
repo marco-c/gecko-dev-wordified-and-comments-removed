@@ -229,6 +229,15 @@ eReplacedContainsBlock
 )
 ;
 }
+void
+UpdateForValueChange
+(
+const
+nsAString
+&
+aValue
+)
+;
 HTMLInputElement
 *
 GetAnonTextControl
