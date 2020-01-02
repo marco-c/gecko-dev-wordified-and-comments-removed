@@ -213,3 +213,14 @@ FINAL_LIBRARY
 '
 i18n
 '
+GENERATED_FILES
+=
+[
+'
+charsetalias
+.
+properties
+.
+h
+'
+]

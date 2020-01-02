@@ -63,15 +63,6 @@ config
 rules
 .
 mk
-xmltok
-.
-(
-OBJ_SUFFIX
-)
-:
-moz_extensions
-.
-c
 DEFINES
 +
 =
