@@ -6719,6 +6719,7 @@ baselineFrame
 trace
 (
 trc
+frames
 )
 ;
 break

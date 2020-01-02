@@ -89,6 +89,9 @@ temp
 BaselineFrame
 *
 frame
+CompileInfo
+*
+info
 )
 ;
 class

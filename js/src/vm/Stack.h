@@ -2838,6 +2838,9 @@ trc
 Value
 *
 sp
+jsbytecode
+*
+pc
 )
 ;
 bool

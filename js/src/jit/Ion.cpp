@@ -8215,6 +8215,7 @@ NewBaselineFrameInspector
 (
 temp
 baselineFrame
+info
 )
 ;
 if
