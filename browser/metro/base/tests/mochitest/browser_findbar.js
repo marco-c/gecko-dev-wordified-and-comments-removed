@@ -456,6 +456,7 @@ Promise
 .
 all
 (
+[
 waitForEvent
 (
 Elements
@@ -474,6 +475,7 @@ findbar
 transitionend
 "
 )
+]
 )
 ;
 is
@@ -509,6 +511,7 @@ Promise
 .
 all
 (
+[
 showNavBar
 (
 )
@@ -521,6 +524,7 @@ findbar
 transitionend
 "
 )
+]
 )
 ;
 is
