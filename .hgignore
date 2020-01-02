@@ -316,3 +316,14 @@ devtools
 chrome
 .
 manifest
+#
+Tag
+files
+generated
+by
+GNU
+Global
+GTAGS
+GRTAGS
+GSYMS
+GPATH
