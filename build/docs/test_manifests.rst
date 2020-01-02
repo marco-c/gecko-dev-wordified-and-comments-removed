@@ -61,7 +61,7 @@ flavors
 :
 ref
 :
-manifest_destiny_manifests
+manifestparser_manifests
 and
 :
 ref
@@ -181,10 +181,9 @@ mochitests
 .
 .
 .
-_manifest_destiny_manifests
+_manifestparser_manifests
 :
-Manifest
-Destiny
+ManifestParser
 Manifests
 =
 =
@@ -212,8 +211,7 @@ Manifests
 =
 =
 =
-Manifest
-destiny
+ManifestParser
 manifests
 are
 essentially
@@ -246,14 +244,13 @@ en
 /
 latest
 /
-manifestdestiny
+manifestparser
 .
 html
 >
 _
 for
-manifest
-destiny
+manifestparser
 manifests
 describes
 the
@@ -1144,7 +1141,7 @@ testing
 /
 mozbase
 /
-manifestdestiny
+manifestparser
 /
 manifestparser
 /

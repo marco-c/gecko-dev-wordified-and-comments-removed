@@ -93,7 +93,7 @@ information
 :
 mod
 :
-manifestdestiny
+manifestparser
 -
 -
 -
@@ -161,7 +161,7 @@ manifests
 -
 -
 -
-manifestdestiny
+manifestparser
 lets
 you
 easily
@@ -181,7 +181,7 @@ what
 circumstances
 .
 What
-ManifestDestiny
+manifestparser
 gives
 you
 :
@@ -267,9 +267,9 @@ mozmill
 /
 src
 /
-ManifestDestiny
+manifestparser
 /
-manifestdestiny
+manifestparser
 /
 tests
 /
@@ -313,9 +313,9 @@ mozmill
 /
 src
 /
-ManifestDestiny
+manifestparser
 /
-manifestdestiny
+manifestparser
 /
 tests
 '
@@ -333,9 +333,9 @@ mozmill
 /
 src
 /
-ManifestDestiny
+manifestparser
 /
-manifestdestiny
+manifestparser
 /
 tests
 /
@@ -361,7 +361,7 @@ are
 reserved
 keys
 for
-ManifestDestiny
+manifestparser
 and
 any
 consuming
@@ -1346,7 +1346,7 @@ generic
 integration
 layer
 in
-ManifestDestiny
+manifestparser
 for
 use
 of
@@ -1595,13 +1595,13 @@ org
 /
 automation
 /
-ManifestDestiny
+manifestparser
 /
 file
 /
 tip
 /
-manifestdestiny
+manifestparser
 /
 tests
 /
@@ -1692,7 +1692,7 @@ DEFAULT
 ]
 section
 .
-ManifestDestiny
+manifestparser
 Architecture
 There
 is
@@ -1706,7 +1706,7 @@ layered
 approach
 to
 the
-ManifestDestiny
+manifestparser
 architecture
 depending
 on
@@ -1841,7 +1841,7 @@ tree
 /
 master
 /
-manifestdestiny
+manifestparser
 and
 https
 :
@@ -1859,7 +1859,7 @@ blob
 /
 master
 /
-manifestdestiny
+manifestparser
 /
 manifestparser
 .
@@ -2106,7 +2106,7 @@ usage
 .
 Creating
 Manifests
-ManifestDestiny
+manifestparser
 comes
 with
 a
@@ -2846,7 +2846,7 @@ tests
 firefox
 /
 Tests
-ManifestDestiny
+manifestparser
 includes
 a
 suite
@@ -2869,7 +2869,7 @@ tree
 /
 master
 /
-manifestdestiny
+manifestparsery
 /
 tests
 test_manifest

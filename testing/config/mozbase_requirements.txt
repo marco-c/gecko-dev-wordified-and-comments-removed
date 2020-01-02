@@ -3,7 +3,7 @@
 /
 mozbase
 /
-manifestdestiny
+manifestparser
 .
 .
 /

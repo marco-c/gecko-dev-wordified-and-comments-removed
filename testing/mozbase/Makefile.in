@@ -83,7 +83,7 @@ srcdir
 MOZBASE_PACKAGES
 =
 \
-manifestdestiny
+manifestparser
 \
 mozcrash
 \

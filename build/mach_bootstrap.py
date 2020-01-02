@@ -351,7 +351,7 @@ testing
 /
 mozbase
 /
-manifestdestiny
+manifestparser
 '
     
 '

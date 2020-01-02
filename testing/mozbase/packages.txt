@@ -1,4 +1,4 @@
-manifestdestiny
+manifestparser
 .
 pth
 :
@@ -6,7 +6,7 @@ testing
 /
 mozbase
 /
-manifestdestiny
+manifestparser
 mozb2g
 .
 pth
