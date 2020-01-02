@@ -3660,7 +3660,7 @@ text
 =
 node
 .
-clipboardText
+textContent
 ;
 if
 (
