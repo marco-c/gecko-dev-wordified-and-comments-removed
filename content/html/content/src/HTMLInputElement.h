@@ -2516,6 +2516,16 @@ GetEditor
 (
 )
 ;
+static
+Decimal
+StringToDecimal
+(
+const
+nsAString
+&
+aValue
+)
+;
 protected
 :
 virtual
