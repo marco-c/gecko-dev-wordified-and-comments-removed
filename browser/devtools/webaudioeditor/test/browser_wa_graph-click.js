@@ -158,7 +158,7 @@ is
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 .
@@ -210,7 +210,7 @@ is
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 .
@@ -246,7 +246,7 @@ is
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 .
@@ -292,7 +292,7 @@ is
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 .
@@ -338,7 +338,7 @@ is
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 .

@@ -113,7 +113,7 @@ is
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 .
@@ -202,7 +202,7 @@ ise
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 null
@@ -255,7 +255,7 @@ is
 (
 WebAudioInspectorView
 .
-getCurrentNode
+getCurrentAudioNode
 (
 )
 .
