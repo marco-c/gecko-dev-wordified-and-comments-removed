@@ -2419,7 +2419,7 @@ return
 nullptr
 ;
 }
-nsresult
+void
 nsMathMLmtableOuterFrame
 :
 :
@@ -2916,9 +2916,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 nsIFrame
@@ -3827,7 +3824,7 @@ PresContext
 )
 ;
 }
-nsresult
+void
 nsMathMLmtdInnerFrame
 :
 :
@@ -3858,9 +3855,6 @@ aDesiredSize
 aReflowState
 aStatus
 )
-;
-return
-NS_OK
 ;
 }
 const

@@ -275,7 +275,7 @@ bool
 aCBHeightChanged
 )
 ;
-nsresult
+void
 ReflowAbsoluteFrame
 (
 nsIFrame

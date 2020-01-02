@@ -177,7 +177,7 @@ aShrinkWrap
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

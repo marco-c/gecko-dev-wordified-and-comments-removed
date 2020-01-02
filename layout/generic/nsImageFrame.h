@@ -301,7 +301,7 @@ GetIntrinsicRatio
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

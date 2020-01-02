@@ -397,7 +397,7 @@ aShrinkWrap
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext
@@ -863,7 +863,7 @@ nscoord
 aAvailWidth
 )
 ;
-nsresult
+void
 OuterDoReflowChild
 (
 nsPresContext

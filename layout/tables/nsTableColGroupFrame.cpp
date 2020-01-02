@@ -1832,7 +1832,7 @@ return
 skip
 ;
 }
-nsresult
+void
 nsTableColGroupFrame
 :
 :
@@ -1886,11 +1886,6 @@ for
 frame
 "
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 const
 nsStyleVisibility
@@ -2036,9 +2031,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-rv
 ;
 }
 nsTableColFrame

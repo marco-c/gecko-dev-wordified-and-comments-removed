@@ -168,7 +168,7 @@ aRenderingContext
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

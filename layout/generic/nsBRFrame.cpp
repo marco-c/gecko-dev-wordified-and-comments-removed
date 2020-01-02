@@ -144,7 +144,7 @@ aState
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext
@@ -339,7 +339,7 @@ BRFrame
 )
 {
 }
-nsresult
+void
 BRFrame
 :
 :
@@ -600,9 +600,6 @@ aStatus
 aReflowState
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 void

@@ -500,7 +500,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsSVGForeignObjectFrame
 :
 :
@@ -673,9 +673,6 @@ SetOverflowAreasToDesiredBounds
 aStatus
 =
 NS_FRAME_COMPLETE
-;
-return
-NS_OK
 ;
 }
 void

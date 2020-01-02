@@ -2131,7 +2131,7 @@ ComputedMinHeight
 ;
 }
 }
-nsresult
+void
 nsObjectFrame
 :
 :
@@ -2205,7 +2205,6 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 return
-NS_OK
 ;
 }
 if
@@ -2229,7 +2228,6 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 return
-NS_OK
 ;
 }
 nsRect
@@ -2356,9 +2354,6 @@ aStatus
 aReflowState
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 bool

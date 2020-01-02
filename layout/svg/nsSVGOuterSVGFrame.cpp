@@ -1420,7 +1420,7 @@ aPadding
 )
 ;
 }
-nsresult
+void
 nsSVGOuterSVGFrame
 :
 :
@@ -1954,9 +1954,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

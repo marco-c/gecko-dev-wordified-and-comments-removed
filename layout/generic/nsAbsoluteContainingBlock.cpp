@@ -1414,7 +1414,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 }
 }
 }
-nsresult
+void
 nsAbsoluteContainingBlock
 :
 :
@@ -1817,9 +1817,6 @@ ComputedPhysicalOffsets
 top
 ;
 }
-nsresult
-rv
-=
 aKidFrame
 -
 >
@@ -2388,7 +2385,4 @@ TopLeft
 )
 ;
 }
-return
-rv
-;
 }

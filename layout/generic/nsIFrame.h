@@ -4528,7 +4528,7 @@ aPresContext
 0
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

@@ -10872,7 +10872,7 @@ ResetPosition
 ;
 }
 }
-nsresult
+void
 nsFlexContainerFrame
 :
 :
@@ -10942,7 +10942,6 @@ aStatus
 )
 {
 return
-NS_OK
 ;
 }
 const
@@ -11177,8 +11176,6 @@ IsEmpty
 )
 )
 {
-rv
-=
 DoFlexLayout
 (
 aPresContext
@@ -11192,9 +11189,6 @@ axisTracker
 )
 ;
 }
-return
-rv
-;
 }
 class
 MOZ_STACK_CLASS

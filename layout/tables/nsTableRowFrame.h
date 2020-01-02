@@ -200,7 +200,7 @@ GetFirstCell
 )
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

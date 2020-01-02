@@ -53,7 +53,7 @@ class
 nsPageFrame
 ;
 virtual
-nsresult
+void
 Reflow
 (
 nsPresContext

@@ -6483,7 +6483,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -6519,11 +6519,6 @@ aReflowState
 aDesiredSize
 aStatus
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 aStatus
 =
@@ -6605,8 +6600,6 @@ splitDueToPageBreak
 =
 false
 ;
-rv
-=
 ReflowChildren
 (
 aPresContext
@@ -6839,9 +6832,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-rv
 ;
 }
 bool

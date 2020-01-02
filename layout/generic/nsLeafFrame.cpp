@@ -120,7 +120,7 @@ GetIntrinsicHeight
 )
 ;
 }
-nsresult
+void
 nsLeafFrame
 :
 :
@@ -206,9 +206,6 @@ FinishAndStoreOverflow
 &
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

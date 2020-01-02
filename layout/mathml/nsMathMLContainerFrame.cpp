@@ -3289,7 +3289,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsMathMLContainerFrame
 :
 :
@@ -3567,9 +3567,6 @@ aStatus
 aReflowState
 aDesiredSize
 )
-;
-return
-NS_OK
 ;
 }
 static

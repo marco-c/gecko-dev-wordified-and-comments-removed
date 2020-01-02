@@ -37528,7 +37528,7 @@ mNewlineOffset
 ;
 }
 ;
-nsresult
+void
 nsTextFrame
 :
 :
@@ -37583,7 +37583,6 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 return
-NS_OK
 ;
 }
 ReflowText
@@ -37610,9 +37609,6 @@ aStatus
 aReflowState
 aMetrics
 )
-;
-return
-NS_OK
 ;
 }
 #
