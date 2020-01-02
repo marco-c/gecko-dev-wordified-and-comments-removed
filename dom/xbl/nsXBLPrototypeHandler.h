@@ -774,7 +774,9 @@ key
 ;
 static
 int32_t
-kAccelKey
+AccelKeyMask
+(
+)
 ;
 static
 int32_t
