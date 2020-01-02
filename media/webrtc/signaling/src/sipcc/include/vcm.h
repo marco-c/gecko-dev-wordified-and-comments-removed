@@ -1349,6 +1349,14 @@ int32_t
 max_mbps
 )
 ;
+short
+vcmGetVideoPreferredCodec
+(
+int32_t
+*
+preferred_codec
+)
+;
 #
 ifdef
 __cplusplus
