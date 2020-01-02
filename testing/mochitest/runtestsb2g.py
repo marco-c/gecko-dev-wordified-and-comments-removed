@@ -1434,14 +1434,6 @@ end
 "
 )
         
-self
-.
-message_logger
-.
-finish
-(
-)
-        
 if
 manifest
 is
@@ -2462,6 +2454,14 @@ retVal
 =
 1
     
+mochitest
+.
+message_logger
+.
+finish
+(
+)
+    
 sys
 .
 exit
@@ -2649,10 +2649,8 @@ marionette
 '
 ]
     
-sys
-.
-exit
-(
+retVal
+=
 mochitest
 .
 runTests
@@ -2664,6 +2662,20 @@ mochitest
 .
 startTests
 )
+    
+mochitest
+.
+message_logger
+.
+finish
+(
+)
+    
+sys
+.
+exit
+(
+retVal
 )
 def
 main
