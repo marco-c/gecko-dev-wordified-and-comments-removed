@@ -286,7 +286,7 @@ ordinal
 )
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 The
@@ -317,7 +317,7 @@ assertNotVisible
 (
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -364,7 +364,7 @@ assertVisible
 (
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -417,7 +417,7 @@ getHomeBannerView
 (
 )
 ;
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -476,7 +476,7 @@ assertBannerVisible
 (
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -548,7 +548,7 @@ id
 text
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 The
@@ -734,7 +734,7 @@ int
 panelDirection
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 Swiping

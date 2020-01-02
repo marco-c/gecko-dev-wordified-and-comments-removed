@@ -147,7 +147,7 @@ assertIsEditing
 (
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -173,7 +173,7 @@ assertIsNotEditing
 (
 )
 {
-assertFalse
+fAssertFalse
 (
 "
 The
@@ -203,7 +203,7 @@ String
 expected
 )
 {
-assertEquals
+fAssertEquals
 (
 "
 The
@@ -236,7 +236,7 @@ assertIsEditing
 (
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 The
@@ -685,7 +685,7 @@ String
 url
 )
 {
-assertNotNull
+fAssertNotNull
 (
 "
 url
@@ -708,7 +708,7 @@ getUrlEditText
 (
 )
 ;
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -805,7 +805,7 @@ String
 buttonName
 )
 {
-assertNotNull
+fAssertNotNull
 (
 "
 The
@@ -823,7 +823,7 @@ null
 view
 )
 ;
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -843,7 +843,7 @@ isEnabled
 )
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 The

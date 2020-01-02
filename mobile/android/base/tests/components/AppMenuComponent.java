@@ -247,7 +247,7 @@ assertMenuIsNotOpen
 (
 )
 {
-assertFalse
+fAssertFalse
 (
 "
 Menu
@@ -433,7 +433,7 @@ menuItemView
 null
 )
 {
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -449,7 +449,7 @@ isEnabled
 )
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 The
@@ -543,7 +543,7 @@ getOverflowMenuButtonView
 (
 )
 ;
-assertTrue
+fAssertTrue
 (
 "
 The
@@ -560,7 +560,7 @@ isEnabled
 )
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 The

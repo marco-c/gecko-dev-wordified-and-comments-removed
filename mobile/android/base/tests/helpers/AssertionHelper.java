@@ -83,7 +83,7 @@ getAsserter
 public
 static
 void
-assertArrayEquals
+fAssertArrayEquals
 (
 final
 String
@@ -119,7 +119,7 @@ DIAG_STRING
 public
 static
 void
-assertArrayEquals
+fAssertArrayEquals
 (
 final
 String
@@ -155,7 +155,7 @@ DIAG_STRING
 public
 static
 void
-assertArrayEquals
+fAssertArrayEquals
 (
 final
 String
@@ -191,7 +191,7 @@ DIAG_STRING
 public
 static
 void
-assertArrayEquals
+fAssertArrayEquals
 (
 final
 String
@@ -227,7 +227,7 @@ DIAG_STRING
 public
 static
 void
-assertArrayEquals
+fAssertArrayEquals
 (
 final
 String
@@ -263,7 +263,7 @@ DIAG_STRING
 public
 static
 void
-assertArrayEquals
+fAssertArrayEquals
 (
 final
 String
@@ -299,7 +299,7 @@ DIAG_STRING
 public
 static
 void
-assertEquals
+fAssertEquals
 (
 final
 String
@@ -353,7 +353,7 @@ DIAG_STRING
 public
 static
 void
-assertEquals
+fAssertEquals
 (
 final
 String
@@ -379,7 +379,7 @@ message
 public
 static
 void
-assertEquals
+fAssertEquals
 (
 final
 String
@@ -405,7 +405,7 @@ message
 public
 static
 void
-assertNotEquals
+fAssertNotEquals
 (
 final
 String
@@ -443,7 +443,7 @@ DIAG_STRING
 public
 static
 void
-assertNotEquals
+fAssertNotEquals
 (
 final
 String
@@ -469,7 +469,7 @@ message
 public
 static
 void
-assertNotEquals
+fAssertNotEquals
 (
 final
 String
@@ -495,7 +495,7 @@ message
 public
 static
 void
-assertFalse
+fAssertFalse
 (
 final
 String
@@ -519,7 +519,7 @@ DIAG_STRING
 public
 static
 void
-assertNotNull
+fAssertNotNull
 (
 final
 String
@@ -542,7 +542,7 @@ message
 public
 static
 void
-assertNotSame
+fAssertNotSame
 (
 final
 String
@@ -571,7 +571,7 @@ DIAG_STRING
 public
 static
 void
-assertNull
+fAssertNull
 (
 final
 String
@@ -594,7 +594,7 @@ message
 public
 static
 void
-assertSame
+fAssertSame
 (
 final
 String
@@ -623,7 +623,7 @@ DIAG_STRING
 public
 static
 void
-assertTrue
+fAssertTrue
 (
 final
 String
@@ -646,7 +646,7 @@ DIAG_STRING
 public
 static
 void
-assertIsPixel
+fAssertIsPixel
 (
 final
 String
@@ -680,7 +680,7 @@ message
 public
 static
 void
-assertIsNotPixel
+fAssertIsNotPixel
 (
 final
 String
@@ -714,7 +714,7 @@ message
 public
 static
 void
-fail
+fFail
 (
 final
 String

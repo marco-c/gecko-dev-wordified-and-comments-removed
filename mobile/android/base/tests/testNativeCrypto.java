@@ -462,7 +462,7 @@ c
 dkLen
 )
 ;
-fail
+fFail
 (
 "
 Expected
@@ -662,7 +662,7 @@ sha1
 input
 )
 ;
-assertNotNull
+fAssertNotNull
 (
 "
 Hashed
@@ -781,7 +781,7 @@ sha1
 inputBytes
 )
 ;
-assertArrayEquals
+fAssertArrayEquals
 (
 "
 MessageDigest
@@ -866,7 +866,7 @@ c
 dkLen
 )
 ;
-assertNotNull
+fAssertNotNull
 (
 "
 Hash
@@ -926,7 +926,7 @@ null
 return
 ;
 }
-assertEquals
+fAssertEquals
 (
 "
 Hash
@@ -967,7 +967,7 @@ byte
 key
 )
 {
-assertEquals
+fAssertEquals
 (
 "
 Expected
@@ -998,7 +998,7 @@ hex2Byte
 expectedStr
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 Expected
@@ -1017,7 +1017,7 @@ key
 length
 )
 ;
-assertArrayEquals
+fAssertArrayEquals
 (
 "
 Expected

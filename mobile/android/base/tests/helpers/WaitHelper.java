@@ -261,7 +261,7 @@ message
 .
 "
 ;
-assertTrue
+fAssertTrue
 (
 message
 sSolo
@@ -309,7 +309,7 @@ waitMillis
 .
 "
 ;
-assertTrue
+fAssertTrue
 (
 message
 sSolo
@@ -332,7 +332,7 @@ Runnable
 initiatingAction
 )
 {
-assertNotNull
+fAssertNotNull
 (
 "
 initiatingAction

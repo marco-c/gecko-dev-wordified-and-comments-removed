@@ -180,7 +180,7 @@ String
 url
 )
 {
-assertNotNull
+fAssertNotNull
 (
 "
 url
@@ -224,7 +224,7 @@ String
 url
 )
 {
-assertNotNull
+fAssertNotNull
 (
 "
 url
