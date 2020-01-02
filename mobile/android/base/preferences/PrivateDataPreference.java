@@ -106,10 +106,6 @@ data
 .
 "
 ;
-private
-Context
-mContext
-;
 public
 PrivateDataPreference
 (
@@ -124,10 +120,6 @@ super
 context
 attrs
 )
-;
-mContext
-=
-context
 ;
 }
 Override
