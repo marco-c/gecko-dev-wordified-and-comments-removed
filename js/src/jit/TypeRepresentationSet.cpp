@@ -343,6 +343,8 @@ typeReprAddr
 min
 =
 i
++
+1
 ;
 }
 else
