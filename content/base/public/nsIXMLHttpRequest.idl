@@ -2372,7 +2372,6 @@ mozSystem
 }
 ;
 [
-scriptable
 uuid
 (
 840d0d00
