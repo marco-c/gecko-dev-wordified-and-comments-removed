@@ -783,6 +783,11 @@ aMicrophoneActive
 )
 ;
 void
+ResetStreamIfNeeded
+(
+)
+;
+void
 Drain
 (
 )
