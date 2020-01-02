@@ -265,11 +265,6 @@ BlockingResourceBase
 cpp
 '
 '
-DeadlockDetector
-.
-cpp
-'
-'
 GenericFactory
 .
 cpp
