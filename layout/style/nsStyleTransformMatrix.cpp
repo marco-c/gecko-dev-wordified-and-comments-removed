@@ -47,13 +47,9 @@ gfxMatrix
 .
 h
 "
+using
 namespace
-css
-=
 mozilla
-:
-:
-css
 ;
 namespace
 nsStyleTransformMatrix

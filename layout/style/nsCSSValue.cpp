@@ -111,13 +111,9 @@ nsDeviceContext
 .
 h
 "
+using
 namespace
-css
-=
 mozilla
-:
-:
-css
 ;
 nsCSSValue
 :

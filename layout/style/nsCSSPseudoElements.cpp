@@ -79,7 +79,7 @@ NS_STATIC_ATOM_BUFFER
 name_
 #
 #
-_buffer
+_pseudo_element_buffer
 value_
 )
 #
@@ -114,7 +114,7 @@ NS_STATIC_ATOM
 name_
 #
 #
-_buffer
+_pseudo_element_buffer
 (
 nsIAtom
 *

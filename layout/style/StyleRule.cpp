@@ -165,13 +165,9 @@ nsIDOMCSSStyleDeclaration
 class
 nsIDOMCSSStyleSheet
 ;
+using
 namespace
-css
-=
 mozilla
-:
-:
-css
 ;
 #
 define
