@@ -262,6 +262,7 @@ nsIGlobalObject
 {
 public
 :
+explicit
 TabChildGlobal
 (
 TabChildBase
@@ -643,6 +644,7 @@ nsIDOMEventListener
 {
 public
 :
+explicit
 ContentListener
 (
 TabChild

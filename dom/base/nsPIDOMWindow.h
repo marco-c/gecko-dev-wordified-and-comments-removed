@@ -1864,6 +1864,7 @@ SendAfterRemotePaintIfRequested
 ;
 protected
 :
+explicit
 nsPIDOMWindow
 (
 nsPIDOMWindow
@@ -2112,6 +2113,7 @@ public
 #
 ifdef
 MOZILLA_INTERNAL_API
+explicit
 NS_AUTO_POPUP_STATE_PUSHER
 (
 PopupControlState

@@ -12235,7 +12235,10 @@ aMessage
 )
 data
 cpows
+Principal
+(
 aPrincipal
+)
 aJSONRetVal
 )
 ;
@@ -12249,7 +12252,10 @@ aMessage
 )
 data
 cpows
+Principal
+(
 aPrincipal
+)
 aJSONRetVal
 )
 ;
@@ -12352,7 +12358,10 @@ aMessage
 )
 data
 cpows
+Principal
+(
 aPrincipal
+)
 )
 ;
 }
