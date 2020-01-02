@@ -1801,8 +1801,10 @@ rval
 .
 setInt32
 (
--
-1
+ThreadPool
+:
+:
+MAX_SLICE_ID
 )
 ;
 return
