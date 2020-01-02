@@ -187,6 +187,11 @@ JSSlots
 h
 '
 '
+MozMap
+.
+h
+'
+'
 NonRefcountedDOMObject
 .
 h
