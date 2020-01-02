@@ -5912,6 +5912,16 @@ icon
 onclick
 =
 "
+if
+(
+event
+.
+button
+=
+=
+=
+0
+)
 BookmarkingUI
 .
 onCommand
