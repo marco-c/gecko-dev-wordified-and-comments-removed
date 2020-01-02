@@ -451,7 +451,7 @@ version
 get
 (
 '
-application_code_name
+application_display_name
 '
 )
 '
