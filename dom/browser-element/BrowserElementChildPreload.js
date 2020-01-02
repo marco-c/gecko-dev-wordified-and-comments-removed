@@ -4436,7 +4436,7 @@ nsIDOMWindowUtils
 ;
 utils
 .
-sendMouseEvent
+sendMouseEventToWindow
 (
 json
 .
@@ -4494,7 +4494,7 @@ nsIDOMWindowUtils
 ;
 utils
 .
-sendTouchEvent
+sendTouchEventToWindow
 (
 json
 .
