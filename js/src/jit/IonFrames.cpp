@@ -9234,7 +9234,7 @@ script_
 callee_
 -
 >
-existingScript
+existingScriptForInlinedFunction
 (
 )
 ;
