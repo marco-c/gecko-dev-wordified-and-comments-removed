@@ -769,7 +769,7 @@ null
 ;
 }
 }
-nsresult
+void
 PostHandleEvent
 (
 nsEventChainPostVisitor
@@ -912,7 +912,7 @@ aVisitor
 mItemData
 ;
 }
-nsresult
+void
 nsEventTargetChainItem
 :
 :
@@ -942,9 +942,6 @@ PostHandleEvent
 (
 aVisitor
 )
-;
-return
-NS_OK
 ;
 }
 void
