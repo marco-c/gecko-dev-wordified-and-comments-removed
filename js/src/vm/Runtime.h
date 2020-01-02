@@ -2541,9 +2541,6 @@ Relaxed
 >
 interrupt
 ;
-#
-ifdef
-JS_ION
 mozilla
 :
 :
@@ -2557,8 +2554,6 @@ Relaxed
 >
 interruptPar
 ;
-#
-endif
 bool
 handlingSignal
 ;
@@ -3566,17 +3561,8 @@ void
 data
 ;
 #
-if
-defined
-(
+ifdef
 XP_MACOSX
-)
-&
-&
-defined
-(
-JS_ION
-)
 js
 :
 :

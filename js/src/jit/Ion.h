@@ -5,9 +5,6 @@ jit_Ion_h
 define
 jit_Ion_h
 #
-ifdef
-JS_ION
-#
 include
 "
 mozilla
@@ -850,7 +847,5 @@ invalidate
 ;
 }
 }
-#
-endif
 #
 endif

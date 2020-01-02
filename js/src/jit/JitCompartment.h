@@ -5,9 +5,6 @@ jit_JitCompartment_h
 define
 jit_JitCompartment_h
 #
-ifdef
-JS_ION
-#
 include
 "
 mozilla
@@ -1733,7 +1730,5 @@ WINDOWS_BIG_FRAME_TOUCH_INCREMENT
 endif
 }
 }
-#
-endif
 #
 endif

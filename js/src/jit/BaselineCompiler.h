@@ -5,9 +5,6 @@ jit_BaselineCompiler_h
 define
 jit_BaselineCompiler_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -1227,7 +1224,5 @@ reg
 ;
 }
 }
-#
-endif
 #
 endif

@@ -5,9 +5,6 @@ jit_BaselineHelpers_h
 define
 jit_BaselineHelpers_h
 #
-ifdef
-JS_ION
-#
 if
 defined
 (
@@ -121,7 +118,5 @@ jit
 {
 }
 }
-#
-endif
 #
 endif

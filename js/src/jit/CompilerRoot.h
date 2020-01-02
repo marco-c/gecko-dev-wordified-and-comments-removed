@@ -5,9 +5,6 @@ jit_CompilerRoot_h
 define
 jit_CompilerRoot_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jscntxt
@@ -268,7 +265,5 @@ CompilerRootValue
 ;
 }
 }
-#
-endif
 #
 endif

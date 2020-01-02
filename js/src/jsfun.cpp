@@ -155,9 +155,6 @@ Marking
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -175,8 +172,6 @@ JitFrameIterator
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -521,9 +516,6 @@ argsobj
 return
 false
 ;
-#
-ifdef
-JS_ION
 JSScript
 *
 script
@@ -543,8 +535,6 @@ cx
 script
 )
 ;
-#
-endif
 vp
 .
 setObject

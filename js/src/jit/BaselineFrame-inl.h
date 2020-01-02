@@ -5,9 +5,6 @@ jit_BaselineFrame_inl_h
 define
 jit_BaselineFrame_inl_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -357,7 +354,5 @@ CallObject
 }
 }
 }
-#
-endif
 #
 endif

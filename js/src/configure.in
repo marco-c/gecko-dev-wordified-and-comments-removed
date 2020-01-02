@@ -16433,10 +16433,6 @@ AC_SUBST
 (
 ENABLE_ION
 )
-AC_DEFINE
-(
-JS_ION
-)
 if
 test
 -

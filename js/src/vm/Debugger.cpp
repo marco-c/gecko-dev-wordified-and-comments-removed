@@ -796,9 +796,6 @@ FreeOp
 fop
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 script
@@ -822,8 +819,6 @@ script
 pc
 )
 ;
-#
-endif
 }
 void
 BreakpointSite
@@ -22138,17 +22133,8 @@ isRematerializedFrame
 )
 {
 #
-if
-defined
-(
+ifdef
 DEBUG
-)
-&
-&
-defined
-(
-JS_ION
-)
 jit
 :
 :

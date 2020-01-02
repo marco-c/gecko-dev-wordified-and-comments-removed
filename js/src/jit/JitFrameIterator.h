@@ -5,9 +5,6 @@ jit_JitFrameIterator_h
 define
 jit_JitFrameIterator_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jsfun
@@ -2364,7 +2361,5 @@ MOZ_DELETE
 ;
 }
 }
-#
-endif
 #
 endif

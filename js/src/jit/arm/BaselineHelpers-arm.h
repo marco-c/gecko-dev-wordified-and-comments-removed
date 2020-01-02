@@ -5,9 +5,6 @@ jit_arm_BaselineHelpers_arm_h
 define
 jit_arm_BaselineHelpers_arm_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -1218,7 +1215,5 @@ r0
 }
 }
 }
-#
-endif
 #
 endif

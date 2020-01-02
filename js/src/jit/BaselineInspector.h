@@ -5,9 +5,6 @@ jit_BaselineInspector_h
 define
 jit_BaselineInspector_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -575,7 +572,5 @@ commonSetter
 ;
 }
 }
-#
-endif
 #
 endif

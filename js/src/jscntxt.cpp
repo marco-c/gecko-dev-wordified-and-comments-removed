@@ -185,9 +185,6 @@ Marking
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -196,8 +193,6 @@ Ion
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -4773,9 +4768,6 @@ GCIfNeeded
 cx
 )
 ;
-#
-ifdef
-JS_ION
 rt
 -
 >
@@ -4791,8 +4783,6 @@ AttachFinishedCompilations
 cx
 )
 ;
-#
-endif
 JSInterruptCallback
 cb
 =

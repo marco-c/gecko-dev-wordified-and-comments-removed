@@ -1288,9 +1288,6 @@ scriptp
 )
 ;
 }
-#
-ifdef
-JS_ION
 inline
 bool
 IsAboutToBeFinalized
@@ -1331,8 +1328,6 @@ unsafeGet
 )
 ;
 }
-#
-endif
 inline
 Cell
 *

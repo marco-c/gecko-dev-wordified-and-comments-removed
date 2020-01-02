@@ -4,9 +4,6 @@ jit_ScalarReplacement_h
 #
 define
 jit_ScalarReplacement_h
-#
-ifdef
-JS_ION
 namespace
 js
 {
@@ -32,7 +29,5 @@ graph
 ;
 }
 }
-#
-endif
 #
 endif

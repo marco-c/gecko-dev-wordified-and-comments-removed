@@ -5,9 +5,6 @@ jit_BaselineFrame_h
 define
 jit_BaselineFrame_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -1939,7 +1936,5 @@ FramePointerOffset
 ;
 }
 }
-#
-endif
 #
 endif

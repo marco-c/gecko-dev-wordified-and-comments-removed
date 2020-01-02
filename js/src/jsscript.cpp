@@ -14460,9 +14460,6 @@ destroy
 (
 )
 ;
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -14472,8 +14469,6 @@ fop
 this
 )
 ;
-#
-endif
 destroyScriptCounts
 (
 fop
@@ -18153,9 +18148,6 @@ prior
 newValue
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 hasBaselineScript
@@ -18171,8 +18163,6 @@ this
 nullptr
 )
 ;
-#
-endif
 if
 (
 !
@@ -19096,9 +19086,6 @@ trace
 trc
 )
 ;
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -19108,8 +19095,6 @@ trc
 this
 )
 ;
-#
-endif
 }
 void
 LazyScript
@@ -19551,21 +19536,10 @@ argsHasVarBinding_
 =
 true
 ;
-#
-ifdef
-JS_ION
 needsArgsAnalysis_
 =
 true
 ;
-#
-else
-needsArgsObj_
-=
-true
-;
-#
-endif
 }
 void
 JSScript
@@ -19852,9 +19826,6 @@ needsArgsObj_
 =
 true
 ;
-#
-ifdef
-JS_ION
 if
 (
 script
@@ -19876,8 +19847,6 @@ setNeedsArgsObj
 (
 )
 ;
-#
-endif
 for
 (
 AllFramesIter
@@ -20911,9 +20880,6 @@ updateBaselineOrIonRaw
 (
 )
 {
-#
-ifdef
-JS_ION
 if
 (
 hasIonScript
@@ -21005,8 +20971,6 @@ baselineOrIonSkipArgCheck
 nullptr
 ;
 }
-#
-endif
 }
 bool
 JSScript

@@ -604,9 +604,6 @@ collectToFixedPoint
 trc
 )
 ;
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -624,8 +621,6 @@ get
 trc
 )
 ;
-#
-endif
 freeFromspace
 (
 )

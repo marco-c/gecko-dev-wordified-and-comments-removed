@@ -12306,9 +12306,6 @@ useAsm
 =
 true
 ;
-#
-ifdef
-JS_ION
 bool
 validated
 ;
@@ -12348,8 +12345,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;

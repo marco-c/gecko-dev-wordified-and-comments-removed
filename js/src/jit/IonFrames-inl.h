@@ -5,9 +5,6 @@ jit_IonFrames_inl_h
 define
 jit_IonFrames_inl_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -426,7 +423,5 @@ ParallelExecution
 }
 }
 }
-#
-endif
 #
 endif

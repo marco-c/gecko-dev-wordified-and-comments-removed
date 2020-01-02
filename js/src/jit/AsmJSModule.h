@@ -5,9 +5,6 @@ jit_AsmJSModule_h
 define
 jit_AsmJSModule_h
 #
-ifdef
-JS_ION
-#
 include
 "
 mozilla
@@ -6025,7 +6022,5 @@ class_
 }
 ;
 }
-#
-endif
 #
 endif

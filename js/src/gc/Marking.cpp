@@ -7641,9 +7641,6 @@ JitCode
 code
 )
 {
-#
-ifdef
-JS_ION
 code
 -
 >
@@ -7652,8 +7649,6 @@ trace
 trc
 )
 ;
-#
-endif
 }
 template
 <

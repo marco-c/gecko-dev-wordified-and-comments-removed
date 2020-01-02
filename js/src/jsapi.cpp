@@ -2806,12 +2806,6 @@ init
 return
 false
 ;
-#
-if
-defined
-(
-JS_ION
-)
 if
 (
 !
@@ -2825,8 +2819,6 @@ InitializeIon
 return
 false
 ;
-#
-endif
 if
 (
 !
@@ -9571,9 +9563,6 @@ stackSize
 }
 #
 endif
-#
-ifdef
-JS_ION
 if
 (
 kind
@@ -9658,8 +9647,6 @@ StackLimit
 endif
 }
 }
-#
-endif
 }
 JS_PUBLIC_API
 (
@@ -31064,9 +31051,6 @@ bool
 enabled
 )
 {
-#
-ifdef
-JS_ION
 rt
 -
 >
@@ -31075,8 +31059,6 @@ setParallelParsingEnabled
 enabled
 )
 ;
-#
-endif
 }
 JS_PUBLIC_API
 (
@@ -31091,9 +31073,6 @@ bool
 enabled
 )
 {
-#
-ifdef
-JS_ION
 rt
 -
 >
@@ -31102,8 +31081,6 @@ setOffthreadIonCompilationEnabled
 enabled
 )
 ;
-#
-endif
 }
 JS_PUBLIC_API
 (
@@ -31120,9 +31097,6 @@ uint32_t
 value
 )
 {
-#
-ifdef
-JS_ION
 switch
 (
 opt
@@ -31529,8 +31503,6 @@ default
 break
 ;
 }
-#
-endif
 }
 JS_PUBLIC_API
 (

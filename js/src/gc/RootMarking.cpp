@@ -109,9 +109,6 @@ Marking
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -120,8 +117,6 @@ IonMacroAssembler
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1454,12 +1449,6 @@ if
 JS_STACK_GROWTH_DIRECTION
 <
 0
-&
-&
-defined
-(
-JS_ION
-)
 &
 &
 !
@@ -2924,9 +2913,6 @@ case
 IONMASM
 :
 {
-#
-ifdef
-JS_ION
 static_cast
 <
 js
@@ -2956,8 +2942,6 @@ trace
 trc
 )
 ;
-#
-endif
 return
 ;
 }
@@ -2965,9 +2949,6 @@ case
 IONALLOC
 :
 {
-#
-ifdef
-JS_ION
 static_cast
 <
 js
@@ -2989,8 +2970,6 @@ trace
 trc
 )
 ;
-#
-endif
 return
 ;
 }
@@ -4485,9 +4464,6 @@ MarkWellKnownSymbols
 trc
 )
 ;
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -4499,8 +4475,6 @@ Mark
 trc
 )
 ;
-#
-endif
 }
 }
 for
@@ -4786,9 +4760,6 @@ mainThread
 trc
 )
 ;
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -4802,8 +4773,6 @@ mainThread
 trc
 )
 ;
-#
-endif
 if
 (
 !

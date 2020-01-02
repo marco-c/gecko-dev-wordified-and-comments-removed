@@ -5,9 +5,6 @@ jit_IonMacroAssembler_h
 define
 jit_IonMacroAssembler_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jscompartment
@@ -7918,7 +7915,5 @@ StackAlignment
 }
 }
 }
-#
-endif
 #
 endif

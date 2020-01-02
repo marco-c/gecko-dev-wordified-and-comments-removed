@@ -1249,12 +1249,6 @@ script
 )
 ;
 }
-#
-if
-defined
-(
-JS_ION
-)
 for
 (
 unsigned
@@ -1476,8 +1470,6 @@ n
 }
 }
 }
-#
-endif
 }
 static
 const

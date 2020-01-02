@@ -5,9 +5,6 @@ jit_BaselineJIT_h
 define
 jit_BaselineJIT_h
 #
-ifdef
-JS_ION
-#
 include
 "
 mozilla
@@ -1483,7 +1480,5 @@ script
 ;
 }
 }
-#
-endif
 #
 endif

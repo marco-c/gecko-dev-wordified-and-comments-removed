@@ -5,9 +5,6 @@ jit_RematerializedFrame_h
 define
 jit_RematerializedFrame_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jsfun
@@ -750,7 +747,5 @@ dump
 ;
 }
 }
-#
-endif
 #
 endif

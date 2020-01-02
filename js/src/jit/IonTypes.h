@@ -1049,17 +1049,9 @@ define
 TRACK_SNAPSHOTS
 1
 #
-if
-defined
-(
-JS_ION
-)
-#
 define
 CHECK_OSIPOINT_REGISTERS
 1
-#
-endif
 #
 endif
 enum

@@ -2426,9 +2426,6 @@ source
 "
 )
 ;
-#
-ifdef
-JS_ION
 if
 (
 jitCodeLatin1
@@ -2461,8 +2458,6 @@ TwoByte
 "
 )
 ;
-#
-endif
 }
 bool
 RegExpShared
@@ -2813,9 +2808,6 @@ empty
 return
 false
 ;
-#
-ifdef
-JS_ION
 JS_ASSERT
 (
 !
@@ -2852,8 +2844,6 @@ code
 .
 jitCode
 ;
-#
-endif
 if
 (
 input
@@ -3298,9 +3288,6 @@ return
 result
 ;
 }
-#
-ifdef
-JS_ION
 while
 (
 true
@@ -3488,14 +3475,6 @@ RegExpRunStatus_Success
 break
 ;
 }
-#
-else
-MOZ_CRASH
-(
-)
-;
-#
-endif
 matches
 .
 displace
@@ -4026,9 +4005,6 @@ unsafeGet
 )
 )
 ;
-#
-ifdef
-JS_ION
 if
 (
 keep
@@ -4079,8 +4055,6 @@ unsafeGet
 )
 )
 ;
-#
-endif
 if
 (
 keep

@@ -5,9 +5,6 @@ jit_BaselineFrameInfo_h
 define
 jit_BaselineFrameInfo_h
 #
-ifdef
-JS_ION
-#
 include
 "
 mozilla
@@ -1425,7 +1422,5 @@ endif
 ;
 }
 }
-#
-endif
 #
 endif

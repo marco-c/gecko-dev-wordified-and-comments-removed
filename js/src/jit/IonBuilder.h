@@ -5,9 +5,6 @@ jit_IonBuilder_h
 define
 jit_IonBuilder_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -5057,7 +5054,5 @@ value
 ;
 }
 }
-#
-endif
 #
 endif

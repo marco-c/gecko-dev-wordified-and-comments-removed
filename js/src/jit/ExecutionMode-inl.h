@@ -5,9 +5,6 @@ jit_ExecutionMode_inl_h
 define
 jit_ExecutionMode_inl_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -428,7 +425,5 @@ mode
 }
 }
 }
-#
-endif
 #
 endif

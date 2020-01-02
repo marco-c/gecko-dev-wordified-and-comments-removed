@@ -346,9 +346,6 @@ enabled_
 =
 enabled
 ;
-#
-ifdef
-JS_ION
 jit
 :
 :
@@ -358,8 +355,6 @@ rt
 enabled
 )
 ;
-#
-endif
 }
 const
 char

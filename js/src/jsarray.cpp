@@ -12119,9 +12119,6 @@ return
 true
 ;
 }
-#
-ifdef
-JS_ION
 bool
 js
 :
@@ -12280,8 +12277,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 js
 :

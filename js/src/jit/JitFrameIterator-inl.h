@@ -5,9 +5,6 @@ jit_JitFrameIterator_inl_h
 define
 jit_JitFrameIterator_inl_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -136,7 +133,5 @@ T
 }
 }
 }
-#
-endif
 #
 endif

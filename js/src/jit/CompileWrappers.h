@@ -5,9 +5,6 @@ jit_CompileWrappers_h
 define
 jit_CompileWrappers_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jscntxt
@@ -400,7 +397,5 @@ spsSlowAssertionsEnabled_
 ;
 }
 }
-#
-endif
 #
 endif

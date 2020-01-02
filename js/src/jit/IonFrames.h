@@ -5,9 +5,6 @@ jit_IonFrames_h
 define
 jit_IonFrames_h
 #
-ifdef
-JS_ION
-#
 include
 <
 stdint
@@ -3038,7 +3035,5 @@ token
 ;
 }
 }
-#
-endif
 #
 endif

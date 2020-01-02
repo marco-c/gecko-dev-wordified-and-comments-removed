@@ -5,9 +5,6 @@ jit_BaselineDebugModeOSR_h
 define
 jit_BaselineDebugModeOSR_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -416,7 +413,5 @@ comp
 ;
 }
 }
-#
-endif
 #
 endif

@@ -2361,9 +2361,6 @@ cx
 this
 )
 ;
-#
-ifdef
-JS_ION
 if
 (
 act
@@ -2438,8 +2435,6 @@ isAsmJS
 return
 nullptr
 ;
-#
-endif
 JS_ASSERT
 (
 act

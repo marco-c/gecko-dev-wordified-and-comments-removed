@@ -22,9 +22,6 @@ TypeDecls
 .
 h
 "
-#
-ifdef
-JS_ION
 namespace
 js
 {
@@ -188,7 +185,5 @@ js_JitOptions
 ;
 }
 }
-#
-endif
 #
 endif

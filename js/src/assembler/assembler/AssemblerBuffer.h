@@ -976,9 +976,6 @@ endif
 if
 (
 printer
-#
-ifdef
-JS_ION
 |
 |
 js
@@ -997,8 +994,6 @@ jit
 :
 IonSpew_Codegen
 )
-#
-endif
 )
 {
 char
@@ -1061,9 +1056,6 @@ n
 buf
 )
 ;
-#
-ifdef
-JS_ION
 js
 :
 :
@@ -1086,8 +1078,6 @@ s
 buf
 )
 ;
-#
-endif
 }
 }
 }
@@ -1120,9 +1110,6 @@ printf
 #
 endif
 {
-#
-ifdef
-JS_ION
 if
 (
 js
@@ -1207,8 +1194,6 @@ buf
 )
 ;
 }
-#
-endif
 }
 }
 ;

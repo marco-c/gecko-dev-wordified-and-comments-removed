@@ -5,9 +5,6 @@ jit_x64_BaselineRegisters_x64_h
 define
 jit_x64_BaselineRegisters_x64_h
 #
-ifdef
-JS_ION
-#
 include
 "
 jit
@@ -104,7 +101,5 @@ xmm1
 ;
 }
 }
-#
-endif
 #
 endif
