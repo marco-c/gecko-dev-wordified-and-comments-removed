@@ -83,12 +83,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLAudioElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 using
 HTMLMediaElement
@@ -168,6 +162,12 @@ aRv
 ;
 protected
 :
+virtual
+~
+HTMLAudioElement
+(
+)
+;
 virtual
 JSObject
 *

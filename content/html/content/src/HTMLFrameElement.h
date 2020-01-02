@@ -80,12 +80,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLFrameElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLFRAMEELEMENT
 virtual
@@ -339,6 +333,12 @@ GetContentWindow
 ;
 protected
 :
+virtual
+~
+HTMLFrameElement
+(
+)
+;
 virtual
 JSObject
 *

@@ -108,12 +108,6 @@ dom
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLSharedObjectElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 int32_t
@@ -847,6 +841,12 @@ GetContentDocument
 }
 private
 :
+virtual
+~
+HTMLSharedObjectElement
+(
+)
+;
 void
 StartObjectLoad
 (

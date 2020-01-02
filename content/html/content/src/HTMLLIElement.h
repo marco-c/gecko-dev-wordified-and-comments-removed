@@ -66,12 +66,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLLIElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLLIELEMENT
 virtual
@@ -223,6 +217,12 @@ rv
 }
 protected
 :
+virtual
+~
+HTMLLIElement
+(
+)
+;
 virtual
 JSObject
 *

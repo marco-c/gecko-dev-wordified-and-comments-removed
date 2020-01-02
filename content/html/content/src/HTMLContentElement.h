@@ -55,12 +55,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLContentElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -280,6 +274,12 @@ true
 }
 protected
 :
+virtual
+~
+HTMLContentElement
+(
+)
+;
 virtual
 JSObject
 *

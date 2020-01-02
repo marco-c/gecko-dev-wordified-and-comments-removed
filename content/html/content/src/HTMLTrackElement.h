@@ -125,12 +125,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLTrackElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -533,6 +527,12 @@ DropChannel
 ;
 protected
 :
+virtual
+~
+HTMLTrackElement
+(
+)
+;
 virtual
 JSObject
 *

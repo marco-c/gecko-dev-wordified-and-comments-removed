@@ -66,12 +66,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLParagraphElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLPARAGRAPHELEMENT
 virtual
@@ -164,6 +158,12 @@ rv
 }
 protected
 :
+virtual
+~
+HTMLParagraphElement
+(
+)
+;
 virtual
 JSObject
 *

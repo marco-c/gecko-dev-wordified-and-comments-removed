@@ -72,12 +72,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLHRElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLHRELEMENT
 virtual
@@ -273,6 +267,12 @@ aError
 }
 protected
 :
+virtual
+~
+HTMLHRElement
+(
+)
+;
 virtual
 JSObject
 *

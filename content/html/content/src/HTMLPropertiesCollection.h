@@ -155,6 +155,12 @@ aString
 protected
 :
 virtual
+~
+PropertyStringList
+(
+)
+;
+virtual
 void
 EnsureFresh
 (

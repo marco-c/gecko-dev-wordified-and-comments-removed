@@ -95,12 +95,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLLinkElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -616,6 +610,12 @@ forget
 }
 protected
 :
+virtual
+~
+HTMLLinkElement
+(
+)
+;
 virtual
 already_AddRefed
 <

@@ -78,12 +78,6 @@ aNodeInfo
 )
 ;
 virtual
-~
-HTMLMeterElement
-(
-)
-;
-virtual
 EventStates
 IntrinsicState
 (
@@ -293,6 +287,12 @@ aRv
 }
 protected
 :
+virtual
+~
+HTMLMeterElement
+(
+)
+;
 virtual
 JSObject
 *

@@ -82,12 +82,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLObjectElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 int32_t
@@ -1054,6 +1048,12 @@ nsAString
 text
 )
 MOZ_OVERRIDE
+;
+virtual
+~
+HTMLObjectElement
+(
+)
 ;
 virtual
 JSObject

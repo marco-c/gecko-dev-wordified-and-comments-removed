@@ -66,12 +66,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLHeadingElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLHEADINGELEMENT
 virtual
@@ -137,6 +131,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLHeadingElement
+(
+)
+;
 virtual
 JSObject
 *

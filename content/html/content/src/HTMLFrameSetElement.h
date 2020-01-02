@@ -110,12 +110,6 @@ SetHasWeirdParserInsertionMode
 )
 ;
 }
-virtual
-~
-HTMLFrameSetElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLFrameSetElement
@@ -434,6 +428,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLFrameSetElement
+(
+)
+;
 virtual
 JSObject
 *

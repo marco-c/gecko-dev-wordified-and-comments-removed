@@ -70,12 +70,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLProgressElement
-(
-)
-;
 EventStates
 IntrinsicState
 (
@@ -183,6 +177,12 @@ const
 ;
 protected
 :
+virtual
+~
+HTMLProgressElement
+(
+)
+;
 virtual
 JSObject
 *

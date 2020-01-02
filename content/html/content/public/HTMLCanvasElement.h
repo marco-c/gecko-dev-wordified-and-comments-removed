@@ -155,12 +155,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLCanvasElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLCanvasElement
@@ -737,6 +731,12 @@ aContext
 ;
 protected
 :
+virtual
+~
+HTMLCanvasElement
+(
+)
+;
 virtual
 JSObject
 *

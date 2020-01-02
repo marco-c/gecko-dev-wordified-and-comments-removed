@@ -71,12 +71,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLPictureElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLPICTUREELEMENT
 virtual
@@ -108,6 +102,12 @@ IsPictureEnabled
 ;
 protected
 :
+virtual
+~
+HTMLPictureElement
+(
+)
+;
 virtual
 JSObject
 *

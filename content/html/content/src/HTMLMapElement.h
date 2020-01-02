@@ -147,6 +147,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+~
+HTMLMapElement
+(
+)
+{
+}
 nsRefPtr
 <
 nsContentList

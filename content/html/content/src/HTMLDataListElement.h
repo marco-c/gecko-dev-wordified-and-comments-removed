@@ -64,12 +64,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLDataListElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 nsContentList
 *
@@ -145,6 +139,12 @@ nsGenericHTMLElement
 )
 protected
 :
+virtual
+~
+HTMLDataListElement
+(
+)
+;
 virtual
 JSObject
 *

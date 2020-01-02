@@ -76,12 +76,6 @@ SetHasWeirdParserInsertionMode
 )
 ;
 }
-virtual
-~
-HTMLTableCellElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLTABLECELLELEMENT
 uint32_t
@@ -716,6 +710,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLTableCellElement
+(
+)
+;
 virtual
 JSObject
 *

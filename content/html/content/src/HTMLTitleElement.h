@@ -84,12 +84,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLTitleElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLTITLEELEMENT
 void
@@ -181,6 +175,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLTitleElement
+(
+)
+;
 virtual
 JSObject
 *

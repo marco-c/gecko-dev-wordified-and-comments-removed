@@ -79,12 +79,6 @@ aFromParser
 NOT_FROM_PARSER
 )
 ;
-virtual
-~
-HTMLOutputElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD_
 (
@@ -344,6 +338,12 @@ aError
 ;
 protected
 :
+virtual
+~
+HTMLOutputElement
+(
+)
+;
 enum
 ValueModeFlag
 {

@@ -149,12 +149,6 @@ SetHasWeirdParserInsertionMode
 ;
 }
 }
-virtual
-~
-HTMLSharedElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLBASEELEMENT
 NS_DECL_NSIDOMHTMLQUOTEELEMENT
@@ -884,6 +878,12 @@ aResult
 }
 protected
 :
+virtual
+~
+HTMLSharedElement
+(
+)
+;
 virtual
 JSObject
 *

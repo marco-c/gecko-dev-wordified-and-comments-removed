@@ -73,12 +73,6 @@ false
 )
 {
 }
-virtual
-~
-HTMLLabelElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLLabelElement
@@ -257,6 +251,12 @@ const
 ;
 protected
 :
+virtual
+~
+HTMLLabelElement
+(
+)
+;
 virtual
 JSObject
 *

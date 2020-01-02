@@ -81,12 +81,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLOptionElement
-(
-)
-;
 static
 already_AddRefed
 <
@@ -483,6 +477,12 @@ Index
 ;
 protected
 :
+virtual
+~
+HTMLOptionElement
+(
+)
+;
 virtual
 JSObject
 *

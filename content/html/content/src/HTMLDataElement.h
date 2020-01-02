@@ -65,12 +65,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLDataElement
-(
-)
-;
 void
 GetValue
 (
@@ -156,6 +150,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLDataElement
+(
+)
+;
 virtual
 JSObject
 *

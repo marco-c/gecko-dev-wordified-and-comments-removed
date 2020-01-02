@@ -86,12 +86,6 @@ FromParser
 aFromParser
 )
 ;
-virtual
-~
-HTMLMenuItemElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLMenuItemElement
@@ -416,6 +410,12 @@ aError
 }
 protected
 :
+virtual
+~
+HTMLMenuItemElement
+(
+)
+;
 virtual
 JSObject
 *

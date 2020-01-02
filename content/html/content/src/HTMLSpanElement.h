@@ -93,12 +93,6 @@ aNodeInfo
 {
 }
 virtual
-~
-HTMLSpanElement
-(
-)
-;
-virtual
 nsresult
 Clone
 (
@@ -121,6 +115,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLSpanElement
+(
+)
+;
 virtual
 JSObject
 *

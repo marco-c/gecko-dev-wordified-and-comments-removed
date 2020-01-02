@@ -44,12 +44,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLShadowElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
@@ -161,6 +155,12 @@ mProjectedShadow
 }
 protected
 :
+virtual
+~
+HTMLShadowElement
+(
+)
+;
 virtual
 JSObject
 *

@@ -103,12 +103,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLAreaElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -559,6 +553,12 @@ aResult
 }
 protected
 :
+virtual
+~
+HTMLAreaElement
+(
+)
+;
 virtual
 JSObject
 *

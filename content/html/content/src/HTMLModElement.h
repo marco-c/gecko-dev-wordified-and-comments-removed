@@ -59,12 +59,6 @@ aNodeInfo
 )
 ;
 virtual
-~
-HTMLModElement
-(
-)
-;
-virtual
 nsresult
 Clone
 (
@@ -167,6 +161,14 @@ aRv
 )
 ;
 }
+protected
+:
+virtual
+~
+HTMLModElement
+(
+)
+;
 virtual
 JSObject
 *

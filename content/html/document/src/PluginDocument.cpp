@@ -128,12 +128,6 @@ PluginDocument
 (
 )
 ;
-virtual
-~
-PluginDocument
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPLUGINDOCUMENT
 virtual
@@ -228,6 +222,12 @@ MediaDocument
 )
 protected
 :
+virtual
+~
+PluginDocument
+(
+)
+;
 nsresult
 CreateSyntheticPluginDocument
 (

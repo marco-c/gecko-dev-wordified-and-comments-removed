@@ -321,12 +321,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLMediaElement
-(
-)
-;
 nsresult
 LoadWithChannel
 (
@@ -1692,6 +1686,12 @@ nullptr
 }
 protected
 :
+virtual
+~
+HTMLMediaElement
+(
+)
+;
 class
 MediaLoadListener
 ;

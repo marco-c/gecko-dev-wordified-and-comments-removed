@@ -110,12 +110,6 @@ MOZ_THIS_IN_INITIALIZER_LIST
 )
 {
 }
-virtual
-~
-HTMLAnchorElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
@@ -905,6 +899,12 @@ aResult
 }
 protected
 :
+virtual
+~
+HTMLAnchorElement
+(
+)
+;
 virtual
 void
 GetItemValueText

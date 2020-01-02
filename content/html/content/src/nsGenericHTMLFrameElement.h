@@ -296,6 +296,13 @@ aValue
 protected
 :
 virtual
+~
+nsGenericHTMLFrameElement
+(
+)
+{
+}
+virtual
 mozilla
 :
 :

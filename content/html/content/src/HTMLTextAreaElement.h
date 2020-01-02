@@ -1318,6 +1318,13 @@ GetEditor
 }
 protected
 :
+virtual
+~
+HTMLTextAreaElement
+(
+)
+{
+}
 using
 nsGenericHTMLFormElementWithState
 :

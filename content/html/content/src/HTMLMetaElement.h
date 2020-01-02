@@ -60,12 +60,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLMetaElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLMETAELEMENT
 virtual
@@ -239,6 +233,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLMetaElement
+(
+)
+;
 virtual
 void
 GetItemValueText

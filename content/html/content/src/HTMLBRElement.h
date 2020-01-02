@@ -67,12 +67,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLBRElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLBRELEMENT
 virtual
@@ -189,6 +183,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+HTMLBRElement
+(
+)
+;
 static
 void
 MapAttributesIntoRule

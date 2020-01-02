@@ -77,12 +77,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLSourceElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
@@ -403,6 +397,12 @@ aKeySystem
 }
 protected
 :
+virtual
+~
+HTMLSourceElement
+(
+)
+;
 virtual
 JSObject
 *

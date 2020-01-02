@@ -70,12 +70,6 @@ NodeInfo
 aNodeInfo
 )
 ;
-virtual
-~
-HTMLVideoElement
-(
-)
-;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLVideoElement
@@ -372,6 +366,12 @@ GetVideoPlaybackQuality
 ;
 protected
 :
+virtual
+~
+HTMLVideoElement
+(
+)
+;
 virtual
 JSObject
 *

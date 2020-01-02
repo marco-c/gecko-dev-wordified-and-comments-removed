@@ -69,6 +69,15 @@ mozilla
 namespace
 dom
 {
+HTMLTableSectionElement
+:
+:
+~
+HTMLTableSectionElement
+(
+)
+{
+}
 JSObject
 *
 HTMLTableSectionElement

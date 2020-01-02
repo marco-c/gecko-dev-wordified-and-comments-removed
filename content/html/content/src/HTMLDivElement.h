@@ -66,12 +66,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLDivElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetAlign
@@ -236,6 +230,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLDivElement
+(
+)
+;
 virtual
 JSObject
 *

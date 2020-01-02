@@ -75,12 +75,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLSharedListElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLOLISTELEMENT
 virtual
@@ -312,6 +306,12 @@ rv
 }
 protected
 :
+virtual
+~
+HTMLSharedListElement
+(
+)
+;
 virtual
 JSObject
 *

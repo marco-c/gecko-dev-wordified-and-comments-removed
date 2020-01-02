@@ -151,12 +151,6 @@ aNodeInfo
 )
 {
 }
-virtual
-~
-HTMLBodyElement
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMHTMLBODYELEMENT
 #
@@ -602,6 +596,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLBodyElement
+(
+)
+;
 virtual
 JSObject
 *
