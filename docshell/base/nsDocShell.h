@@ -845,6 +845,9 @@ const
 nsAString
 &
 aSrcdoc
+nsIURI
+*
+baseURI
 )
 ;
 NS_IMETHOD

@@ -118,6 +118,12 @@ nsIDocShell
 >
 mSourceDocShell
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mBaseURI
+;
 }
 ;
 #
