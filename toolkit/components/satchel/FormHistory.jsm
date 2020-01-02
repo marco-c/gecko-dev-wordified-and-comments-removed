@@ -108,7 +108,7 @@ DAY_IN_MS
 const
 MAX_SEARCH_TOKENS
 =
-30
+10
 ;
 const
 NOOP
