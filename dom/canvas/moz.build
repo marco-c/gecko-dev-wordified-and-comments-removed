@@ -296,7 +296,7 @@ WebGLContextGL
 cpp
 '
 '
-WebGLContextLossTimer
+WebGLContextLossHandler
 .
 cpp
 '
