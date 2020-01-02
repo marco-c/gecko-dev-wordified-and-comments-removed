@@ -8774,8 +8774,11 @@ getObjectFlags
 )
 )
 ;
+DebugOnly
+<
 JSObject
 *
+>
 metadata
 =
 shape
