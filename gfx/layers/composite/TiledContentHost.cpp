@@ -1452,6 +1452,15 @@ GetBounds
 (
 )
 ;
+Matrix
+mat
+=
+aTransform
+.
+As2D
+(
+)
+;
 Rect
 quad
 (
@@ -1471,7 +1480,7 @@ height
 ;
 quad
 =
-aTransform
+mat
 .
 TransformBounds
 (
