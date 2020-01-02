@@ -303,6 +303,13 @@ cpp
 '
 bluedroid
 /
+BluetoothInterface
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothOppManager
 .
 cpp
