@@ -205,11 +205,6 @@ r
 ;
 }
 void
-InvalidateOutsideCaret
-(
-)
-;
-void
 UpdateCaretPosition
 (
 )
