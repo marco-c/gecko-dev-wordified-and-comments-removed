@@ -1932,7 +1932,7 @@ out
 types
 :
 :
-TypedObjectAddendum
+TypeTypedObject
 :
 :
 Kind

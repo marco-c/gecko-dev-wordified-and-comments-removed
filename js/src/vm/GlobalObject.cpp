@@ -1216,6 +1216,13 @@ protoType
 return
 nullptr
 ;
+protoType
+-
+>
+interpretedFunction
+=
+functionProto
+;
 script
 -
 >
