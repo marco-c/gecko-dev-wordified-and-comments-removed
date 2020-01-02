@@ -549,7 +549,7 @@ CPPSRCS
 =
 \
 (
-linked_binding_cpp_files
+unified_binding_cpp_files
 )
 \
 (
@@ -2052,6 +2052,10 @@ wildcard
 example
 .
 cpp
+)
+\
+(
+unified_binding_cpp_files
 )
 \
 .
