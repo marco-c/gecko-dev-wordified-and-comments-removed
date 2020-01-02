@@ -20623,7 +20623,7 @@ value
 (
 )
 .
-get
+unbarrieredGet
 (
 )
 .

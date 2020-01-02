@@ -772,6 +772,17 @@ maybeGlobal
 const
 ;
 inline
+js
+:
+:
+GlobalObject
+*
+unsafeUnbarrieredMaybeGlobal
+(
+)
+const
+;
+inline
 void
 initGlobal
 (

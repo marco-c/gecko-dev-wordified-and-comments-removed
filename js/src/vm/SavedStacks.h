@@ -495,8 +495,7 @@ SavedFrame
 Set
 frames
 ;
-JSObject
-*
+ReadBarrieredObject
 savedFrameProto
 ;
 bool

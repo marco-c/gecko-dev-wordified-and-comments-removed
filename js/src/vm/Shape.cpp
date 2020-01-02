@@ -8119,6 +8119,10 @@ e
 front
 (
 )
+.
+unbarrieredGet
+(
+)
 ;
 if
 (
@@ -9810,6 +9814,10 @@ shape
 entry
 .
 shape
+.
+unbarrieredGet
+(
+)
 ;
 JSObject
 *
@@ -9913,6 +9921,10 @@ shape
 entry
 .
 shape
+.
+unbarrieredGet
+(
+)
 |
 |
 proto

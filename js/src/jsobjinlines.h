@@ -3952,7 +3952,7 @@ compartment
 )
 -
 >
-maybeGlobal
+unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
