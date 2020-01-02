@@ -124,6 +124,17 @@ EventHandler
 onadapteradded
 ;
 [
+Throws
+]
+boolean
+isConnected
+(
+unsigned
+short
+aProfile
+)
+;
+[
 NewObject
 Throws
 ]

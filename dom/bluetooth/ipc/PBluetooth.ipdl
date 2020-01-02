@@ -322,14 +322,6 @@ serviceUuid
 }
 ;
 struct
-IsConnectedRequest
-{
-uint16_t
-serviceUuid
-;
-}
-;
-struct
 SendFileRequest
 {
 nsString
@@ -463,8 +455,6 @@ PairedDevicePropertiesRequest
 ConnectRequest
 ;
 DisconnectRequest
-;
-IsConnectedRequest
 ;
 SendFileRequest
 ;
