@@ -97,7 +97,7 @@ webide
 templatesURL
 "
 "
-http
+https
 :
 /
 /
