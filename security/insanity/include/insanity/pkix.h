@@ -35,6 +35,8 @@ CERTCertificate
 cert
 PRTime
 time
+KeyUsages
+requiredKeyUsagesIfPresent
 ScopedCERTCertList
 &
 results
