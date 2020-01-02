@@ -308,7 +308,7 @@ DisconnectFromOwner
 (
 )
 {
-nsDOMEventTargetHelper
+DOMEventTargetHelper
 :
 :
 DisconnectFromOwner
