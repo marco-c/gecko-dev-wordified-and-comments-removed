@@ -248,6 +248,9 @@ createToolbarWithPlacements
 (
 id
 placements
+=
+[
+]
 )
 {
 gAddedToolbars
