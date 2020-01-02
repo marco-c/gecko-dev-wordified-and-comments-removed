@@ -10865,6 +10865,10 @@ BYPASS_LOCAL_CACHE
 (
 mLoadFlags
 )
+&
+&
+!
+mApplicationCache
 )
 cacheEntryOpenFlags
 =
