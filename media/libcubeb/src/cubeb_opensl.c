@@ -2471,6 +2471,12 @@ cubeb_stream
 stm
 )
 {
+bufferqueue_callback
+(
+NULL
+stm
+)
+;
 SLresult
 res
 =
@@ -2513,12 +2519,6 @@ stm
 >
 user_ptr
 CUBEB_STATE_STARTED
-)
-;
-bufferqueue_callback
-(
-NULL
-stm
 )
 ;
 return
