@@ -57234,6 +57234,13 @@ t
 isString
 (
 )
+and
+not
+t
+.
+isByteString
+(
+)
 :
                         
 methods
@@ -57290,7 +57297,9 @@ True
 body
 =
 "
-RawSetAsString
+RawSetAs
+%
+s
 (
 )
 .
@@ -57303,6 +57312,10 @@ aLength
 \
 n
 "
+%
+t
+.
+name
 )
 )
             
@@ -59134,6 +59147,13 @@ t
 isString
 (
 )
+and
+not
+t
+.
+isByteString
+(
+)
 :
                     
 methods
@@ -59190,7 +59210,9 @@ True
 body
 =
 "
-RawSetAsString
+RawSetAs
+%
+s
 (
 )
 .
@@ -59203,6 +59225,10 @@ aLength
 \
 n
 "
+%
+t
+.
+name
 )
 )
             
