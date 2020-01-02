@@ -286,6 +286,8 @@ efoo
 method1
 "
 [
+TEST_PREFIX
++
 "
 foo
 "
@@ -305,6 +307,8 @@ efoo
 method2
 "
 [
+TEST_PREFIX
++
 "
 foo
 "
@@ -324,9 +328,13 @@ efoobar
 method3
 "
 [
+TEST_PREFIX
++
 "
 foo
 "
+TEST_PREFIX
++
 "
 bar
 "
@@ -361,6 +369,8 @@ ebar
 method4
 "
 [
+TEST_PREFIX
++
 "
 bar
 "
@@ -440,9 +450,8 @@ let
 type
 =
 m
-[
-0
-]
+.
+type
 ;
 if
 (
@@ -489,6 +498,13 @@ do_check_array_eq
 m
 .
 sessions
+.
+filter
+(
+TEST_REGEX
+.
+test
+)
 sessions
 )
 ;
@@ -538,7 +554,7 @@ do_check_eq
 m
 .
 reason
-method
+reason
 )
 ;
 continue
