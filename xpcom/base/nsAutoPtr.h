@@ -3240,7 +3240,9 @@ mRawPtr
 (
 aSmartPtr
 .
-mRawPtr
+take
+(
+)
 )
 {
 }
@@ -3365,7 +3367,9 @@ assign_assuming_AddRef
 (
 rhs
 .
-mRawPtr
+take
+(
+)
 )
 ;
 return
