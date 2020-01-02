@@ -469,6 +469,13 @@ this
 protected
 :
 virtual
+~
+nsMathMLElement
+(
+)
+{
+}
+virtual
 JSObject
 *
 WrapNode
