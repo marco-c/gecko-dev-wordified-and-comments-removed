@@ -2863,7 +2863,9 @@ flex
 :
 "
 9
-auto
+main
+-
+size
 "
 "
 _min

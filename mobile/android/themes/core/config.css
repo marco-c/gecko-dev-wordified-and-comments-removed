@@ -311,7 +311,9 @@ flex
 :
 1
 1
-auto
+main
+-
+size
 ;
 }
 #
@@ -1066,7 +1068,9 @@ flex
 :
 1
 1
-auto
+main
+-
+size
 ;
 border
 :
@@ -1260,7 +1264,9 @@ flex
 :
 1
 1
-auto
+main
+-
+size
 ;
 }
 #
@@ -1290,7 +1296,9 @@ flex
 :
 0
 1
-auto
+main
+-
+size
 ;
 float
 :
@@ -1336,7 +1344,9 @@ flex
 :
 1
 1
-auto
+main
+-
+size
 ;
 }
 .
