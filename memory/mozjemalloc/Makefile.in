@@ -56,9 +56,6 @@ MPL
 .
 ifndef
 MOZ_JEMALLOC3
-FORCE_STATIC_LIB
-=
-1
 ifeq
 (
 (

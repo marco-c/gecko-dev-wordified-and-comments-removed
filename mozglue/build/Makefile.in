@@ -101,10 +101,6 @@ OS_TARGET
 FORCE_SHARED_LIB
 =
 1
-else
-FORCE_STATIC_LIB
-=
-1
 endif
 #
 Keep

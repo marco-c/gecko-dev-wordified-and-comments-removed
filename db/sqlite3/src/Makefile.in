@@ -57,12 +57,8 @@ MPL
 SHORT_LIBNAME
 =
 mozsqlt3
-ifdef
+ifndef
 MOZ_FOLD_LIBS
-FORCE_STATIC_LIB
-=
-1
-else
 FORCE_SHARED_LIB
 =
 1
