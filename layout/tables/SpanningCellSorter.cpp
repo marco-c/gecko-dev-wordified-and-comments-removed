@@ -47,9 +47,9 @@ mArray
 ;
 mHashTable
 .
-entryCount
+ops
 =
-0
+nullptr
 ;
 }
 SpanningCellSorter
@@ -64,7 +64,7 @@ if
 (
 mHashTable
 .
-entryCount
+ops
 )
 {
 PL_DHashTableFinish
@@ -75,9 +75,9 @@ mHashTable
 ;
 mHashTable
 .
-entryCount
+ops
 =
-0
+nullptr
 ;
 }
 delete
@@ -305,7 +305,7 @@ if
 !
 mHashTable
 .
-entryCount
+ops
 )
 {
 PL_DHashTableInit
@@ -736,7 +736,7 @@ if
 (
 mHashTable
 .
-entryCount
+ops
 )
 {
 HashTableEntry
@@ -802,6 +802,11 @@ ENUMERATING_HASH
 :
 if
 (
+mHashTable
+.
+ops
+&
+&
 mEnumerationIndex
 <
 mHashTable
