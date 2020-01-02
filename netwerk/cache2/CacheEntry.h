@@ -272,12 +272,6 @@ mURI
 ;
 }
 bool
-IsUsingDiskLocked
-(
-)
-const
-;
-bool
 IsUsingDisk
 (
 )
@@ -947,6 +941,7 @@ nsCString
 mStorageID
 ;
 bool
+const
 mUseDisk
 ;
 bool
