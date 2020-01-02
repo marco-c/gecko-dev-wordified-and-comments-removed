@@ -640,6 +640,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 InputData
 .
 h
