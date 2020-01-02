@@ -915,9 +915,6 @@ mTransformDisplayPortToLayer
 LayerIntRect
 mCriticalDisplayPort
 ;
-LayerRect
-mViewport
-;
 CSSToParentLayerScale
 mResolution
 ;
