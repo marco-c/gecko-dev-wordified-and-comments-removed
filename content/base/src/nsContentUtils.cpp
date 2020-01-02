@@ -2126,13 +2126,6 @@ MOZ_ASSERT
 sSystemPrincipal
 )
 ;
-sXPConnect
--
->
-InitSafeJSContext
-(
-)
-;
 nsresult
 rv
 =
