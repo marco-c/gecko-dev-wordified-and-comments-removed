@@ -3122,16 +3122,6 @@ return
 false
 ;
 }
-RootedValue
-v
-(
-cxArg
-NumberValue
-(
-newLen
-)
-)
-;
 if
 (
 mode
