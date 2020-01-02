@@ -252,7 +252,7 @@ Type
 aType
 nsACString
 &
-result
+aResult
 )
 ;
 private

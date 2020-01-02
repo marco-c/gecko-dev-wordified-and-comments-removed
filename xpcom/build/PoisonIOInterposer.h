@@ -25,7 +25,7 @@ void
 MozillaRegisterDebugFD
 (
 int
-fd
+aFd
 )
 ;
 void
@@ -33,14 +33,14 @@ MozillaRegisterDebugFILE
 (
 FILE
 *
-f
+aFile
 )
 ;
 void
 MozillaUnRegisterDebugFD
 (
 int
-fd
+aFd
 )
 ;
 void
@@ -48,7 +48,7 @@ MozillaUnRegisterDebugFILE
 (
 FILE
 *
-f
+aFile
 )
 ;
 MOZ_END_EXTERN_C

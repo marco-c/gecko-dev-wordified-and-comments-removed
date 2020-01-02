@@ -229,12 +229,12 @@ SHA1Stream
 (
 FILE
 *
-stream
+aStream
 )
 :
 mFile
 (
-stream
+aStream
 )
 {
 MozillaRegisterDebugFILE
