@@ -498,7 +498,7 @@ browserBundle
 GetStringFromName
 (
 "
-downloadRun
+downloadOpen
 "
 )
 ;
@@ -711,7 +711,7 @@ browserBundle
 GetStringFromName
 (
 "
-alertDownloadSave
+alertDownloadSave2
 "
 )
 ;
