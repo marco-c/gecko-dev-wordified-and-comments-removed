@@ -140,6 +140,12 @@ dev
 '
         
 '
+python
+-
+setuptools
+'
+        
+'
 unzip
 '
         
