@@ -12,7 +12,7 @@ nscore
 h
 "
 class
-nsIRunnable
+Task
 ;
 namespace
 mozilla
@@ -36,9 +36,9 @@ StopDBus
 nsresult
 DispatchToDBusThread
 (
-nsIRunnable
+Task
 *
-event
+task
 )
 ;
 RawDBusConnection
