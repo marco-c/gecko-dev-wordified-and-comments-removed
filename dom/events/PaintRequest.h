@@ -1,9 +1,9 @@
 #
 ifndef
-NSPAINTREQUEST_H_
+mozilla_dom_PaintRequest_h_
 #
 define
-NSPAINTREQUEST_H_
+mozilla_dom_PaintRequest_h_
 #
 include
 "
@@ -50,10 +50,8 @@ dom
 class
 DOMRect
 ;
-}
-}
 class
-nsPaintRequest
+PaintRequest
 MOZ_FINAL
 :
 public
@@ -61,19 +59,9 @@ nsIDOMPaintRequest
 public
 nsWrapperCache
 {
-typedef
-mozilla
-:
-:
-dom
-:
-:
-DOMRect
-DOMRect
-;
 public
 :
-nsPaintRequest
+PaintRequest
 (
 nsIDOMEvent
 *
@@ -99,7 +87,7 @@ SetIsDOMBinding
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-nsPaintRequest
+PaintRequest
 )
 NS_DECL_NSIDOMPAINTREQUEST
 virtual
@@ -180,7 +168,7 @@ aRequest
 private
 :
 ~
-nsPaintRequest
+PaintRequest
 (
 )
 {
@@ -200,7 +188,7 @@ mRequest
 }
 ;
 class
-nsPaintRequestList
+PaintRequestList
 MOZ_FINAL
 :
 public
@@ -210,7 +198,7 @@ nsWrapperCache
 {
 public
 :
-nsPaintRequestList
+PaintRequestList
 (
 nsIDOMEvent
 *
@@ -230,7 +218,7 @@ SetIsDOMBinding
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-nsPaintRequestList
+PaintRequestList
 )
 virtual
 JSObject
@@ -265,7 +253,7 @@ mParent
 void
 Append
 (
-nsPaintRequest
+PaintRequest
 *
 aElement
 )
@@ -291,7 +279,7 @@ Length
 )
 ;
 }
-nsPaintRequest
+PaintRequest
 *
 Item
 (
@@ -308,7 +296,7 @@ aIndex
 )
 ;
 }
-nsPaintRequest
+PaintRequest
 *
 IndexedGetter
 (
@@ -345,7 +333,7 @@ nullptr
 private
 :
 ~
-nsPaintRequestList
+PaintRequestList
 (
 )
 {
@@ -354,7 +342,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsPaintRequest
+PaintRequest
 >
 >
 mArray
@@ -367,5 +355,7 @@ mParent
 ;
 }
 ;
+}
+}
 #
 endif

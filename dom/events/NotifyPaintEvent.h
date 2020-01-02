@@ -49,9 +49,6 @@ nsPresContext
 .
 h
 "
-class
-nsPaintRequestList
-;
 namespace
 mozilla
 {
@@ -63,6 +60,9 @@ DOMRect
 ;
 class
 DOMRectList
+;
+class
+PaintRequestList
 ;
 class
 NotifyPaintEvent
@@ -197,7 +197,7 @@ BoundingClientRect
 ;
 already_AddRefed
 <
-nsPaintRequestList
+PaintRequestList
 >
 PaintRequests
 (
