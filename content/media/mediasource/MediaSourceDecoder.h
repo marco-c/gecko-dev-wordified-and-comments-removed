@@ -109,6 +109,9 @@ public
 :
 MediaSourceDecoder
 (
+dom
+:
+:
 HTMLMediaElement
 *
 aElement
@@ -146,6 +149,9 @@ virtual
 nsresult
 GetSeekable
 (
+dom
+:
+:
 TimeRanges
 *
 aSeekable
@@ -155,6 +161,9 @@ MOZ_OVERRIDE
 void
 AttachMediaSource
 (
+dom
+:
+:
 MediaSource
 *
 aMediaSource
@@ -282,6 +291,9 @@ mAudioReader
 ;
 }
 private
+:
+dom
+:
 :
 MediaSource
 *
