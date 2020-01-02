@@ -1349,6 +1349,8 @@ dom
 MediaStreamTrack
 *
 aSelector
+bool
+internalStats
 )
 {
 rv
@@ -1356,6 +1358,7 @@ rv
 GetStats
 (
 aSelector
+internalStats
 )
 ;
 }
@@ -2090,6 +2093,8 @@ GetStats_s
 (
 uint32_t
 trackId
+bool
+internalStats
 DOMHighResTimeStamp
 now
 )
