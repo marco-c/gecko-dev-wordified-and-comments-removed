@@ -37,6 +37,13 @@ Services
 .
 h
 "
+#
+include
+"
+MainThreadUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -46,6 +53,13 @@ hal_impl
 void
 Reboot
 (
+)
+{
+if
+(
+NS_IsMainThread
+(
+)
 )
 {
 nsCOMPtr
@@ -81,6 +95,7 @@ nullptr
 )
 ;
 }
+}
 sync
 (
 )
@@ -94,6 +109,13 @@ RB_AUTOBOOT
 void
 PowerOff
 (
+)
+{
+if
+(
+NS_IsMainThread
+(
+)
 )
 {
 nsCOMPtr
@@ -130,6 +152,7 @@ off
 nullptr
 )
 ;
+}
 }
 sync
 (
