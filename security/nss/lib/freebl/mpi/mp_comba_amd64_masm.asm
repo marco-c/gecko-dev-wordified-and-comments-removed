@@ -44132,6 +44132,8 @@ rsi
 rdx
 push
 rbp
+push
+rbx
 sub
 rsp
 80
@@ -44150,8 +44152,6 @@ rsi
 mov
 r8
 rsi
-push
-rbx
 mov
 rbx
 rsi

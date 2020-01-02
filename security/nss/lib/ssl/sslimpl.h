@@ -1337,6 +1337,12 @@ enableALPN
 :
 1
 ;
+unsigned
+int
+reuseServerECDHEKey
+:
+1
+;
 }
 sslOptions
 ;

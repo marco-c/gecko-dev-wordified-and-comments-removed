@@ -1605,6 +1605,8 @@ HASH_GetHashObject
 HASH_AlgMD5
 )
 ;
+if
+(
 SECITEM_CopyItem
 (
 0
@@ -1615,7 +1617,8 @@ sec
 sendSecret
 writeKey
 )
-;
+|
+|
 SECITEM_CopyItem
 (
 0
@@ -1626,7 +1629,12 @@ sec
 rcvSecret
 readKey
 )
+)
+{
+return
+SECFailure
 ;
+}
 break
 ;
 default

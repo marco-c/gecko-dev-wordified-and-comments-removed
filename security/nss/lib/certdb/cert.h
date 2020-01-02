@@ -2545,6 +2545,7 @@ CERT_DecodeAuthInfoAccessExtension
 PLArenaPool
 *
 reqArena
+const
 SECItem
 *
 encodedExtension
