@@ -7348,16 +7348,6 @@ Sidebar
 <
 !
 ENTITY
-appMenuBookmarks
-.
-label
-"
-Bookmarks
-"
->
-<
-!
-ENTITY
 bookmarksItem
 .
 title
