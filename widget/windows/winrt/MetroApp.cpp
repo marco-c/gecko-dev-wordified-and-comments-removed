@@ -678,6 +678,16 @@ d
 aStatus
 )
 ;
+MetroUtils
+:
+:
+FireObserver
+(
+"
+metro_on_async_tile_created
+"
+)
+;
 return
 S_OK
 ;
