@@ -19739,10 +19739,9 @@ fs
 JSFunctionSpec
 *
 )
-vp
--
->
-toObject
+args
+.
+callee
 (
 )
 .

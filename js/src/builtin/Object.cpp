@@ -326,9 +326,12 @@ pobj
 obj
 )
 {
-vp
--
->
+args
+.
+rval
+(
+)
+.
 setBoolean
 (
 false
