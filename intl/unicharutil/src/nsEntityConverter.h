@@ -70,12 +70,6 @@ nsEntityConverter
 (
 )
 ;
-virtual
-~
-nsEntityConverter
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 ConvertUTF32ToEntity
@@ -158,6 +152,12 @@ mVersionList
 ;
 uint32_t
 mVersionListLength
+;
+virtual
+~
+nsEntityConverter
+(
+)
 ;
 }
 ;

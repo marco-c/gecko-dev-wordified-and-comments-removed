@@ -32,14 +32,14 @@ nsTextToSubURI
 (
 )
 ;
+private
+:
 virtual
 ~
 nsTextToSubURI
 (
 )
 ;
-private
-:
 nsresult
 convertURItoUnicode
 (

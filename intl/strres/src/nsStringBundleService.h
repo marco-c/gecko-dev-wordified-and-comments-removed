@@ -95,12 +95,6 @@ nsStringBundleService
 (
 )
 ;
-virtual
-~
-nsStringBundleService
-(
-)
-;
 nsresult
 Init
 (
@@ -111,6 +105,12 @@ NS_DECL_NSISTRINGBUNDLESERVICE
 NS_DECL_NSIOBSERVER
 private
 :
+virtual
+~
+nsStringBundleService
+(
+)
+;
 nsresult
 getStringBundle
 (

@@ -43,13 +43,6 @@ nsLocale
 void
 )
 ;
-virtual
-~
-nsLocale
-(
-void
-)
-;
 NS_DECL_NSILOCALE
 protected
 :
@@ -110,6 +103,13 @@ fHashtable
 ;
 uint32_t
 fCategoryCount
+;
+virtual
+~
+nsLocale
+(
+void
+)
 ;
 }
 ;

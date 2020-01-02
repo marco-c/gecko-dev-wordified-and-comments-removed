@@ -138,6 +138,8 @@ Truncate
 )
 ;
 }
+private
+:
 virtual
 ~
 nsDateTimeFormatUnix
@@ -145,8 +147,6 @@ nsDateTimeFormatUnix
 )
 {
 }
-private
-:
 NS_IMETHOD
 Initialize
 (

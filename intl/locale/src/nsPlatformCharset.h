@@ -24,12 +24,6 @@ nsPlatformCharset
 (
 )
 ;
-virtual
-~
-nsPlatformCharset
-(
-)
-;
 NS_IMETHOD
 Init
 (
@@ -90,6 +84,12 @@ VerifyCharset
 nsCString
 &
 aCharset
+)
+;
+virtual
+~
+nsPlatformCharset
+(
 )
 ;
 }

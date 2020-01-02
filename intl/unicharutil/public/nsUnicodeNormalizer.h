@@ -46,12 +46,6 @@ nsUnicodeNormalizer
 (
 )
 ;
-virtual
-~
-nsUnicodeNormalizer
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 NormalizeUnicodeNFD
@@ -126,6 +120,14 @@ c1
 uint32_t
 *
 c2
+)
+;
+private
+:
+virtual
+~
+nsUnicodeNormalizer
+(
 )
 ;
 }

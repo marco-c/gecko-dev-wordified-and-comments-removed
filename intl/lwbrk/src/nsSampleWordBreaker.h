@@ -40,12 +40,6 @@ nsSampleWordBreaker
 (
 )
 ;
-virtual
-~
-nsSampleWordBreaker
-(
-)
-;
 bool
 BreakInBetween
 (
@@ -96,6 +90,12 @@ GetClass
 (
 char16_t
 aChar
+)
+;
+virtual
+~
+nsSampleWordBreaker
+(
 )
 ;
 }

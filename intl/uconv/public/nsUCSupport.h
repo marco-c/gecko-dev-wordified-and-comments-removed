@@ -205,12 +205,6 @@ nsBasicDecoderSupport
 )
 ;
 virtual
-~
-nsBasicDecoderSupport
-(
-)
-;
-virtual
 void
 SetInputErrorBehavior
 (
@@ -228,6 +222,12 @@ protected
 :
 int32_t
 mErrBehavior
+;
+virtual
+~
+nsBasicDecoderSupport
+(
+)
 ;
 }
 ;
@@ -571,6 +571,8 @@ nsBasicEncoder
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsBasicEncoder

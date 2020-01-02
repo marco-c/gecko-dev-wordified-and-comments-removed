@@ -34,6 +34,8 @@ nsSemanticUnitScanner
 (
 )
 ;
+private
+:
 virtual
 ~
 nsSemanticUnitScanner

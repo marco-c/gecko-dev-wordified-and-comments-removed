@@ -77,13 +77,6 @@ nsStringBundleTextOverride
 )
 {
 }
-virtual
-~
-nsStringBundleTextOverride
-(
-)
-{
-}
 nsresult
 Init
 (
@@ -99,6 +92,13 @@ nsIPersistentProperties
 >
 mValues
 ;
+virtual
+~
+nsStringBundleTextOverride
+(
+)
+{
+}
 }
 ;
 #

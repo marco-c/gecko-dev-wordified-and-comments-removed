@@ -46,14 +46,14 @@ nsScriptableUnicodeConverter
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsScriptableUnicodeConverter
 (
 )
 ;
-protected
-:
 nsCString
 mCharset
 ;

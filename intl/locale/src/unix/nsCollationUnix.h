@@ -73,13 +73,13 @@ DoRestoreLocale
 (
 )
 ;
-public
-:
+~
 nsCollationUnix
 (
 )
 ;
-~
+public
+:
 nsCollationUnix
 (
 )

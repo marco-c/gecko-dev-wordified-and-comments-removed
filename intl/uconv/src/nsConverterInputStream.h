@@ -142,6 +142,8 @@ nullptr
 )
 {
 }
+private
+:
 virtual
 ~
 nsConverterInputStream
@@ -153,8 +155,6 @@ Close
 )
 ;
 }
-private
-:
 uint32_t
 Fill
 (

@@ -129,12 +129,6 @@ nsSaveAsCharset
 (
 )
 ;
-virtual
-~
-nsSaveAsCharset
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
@@ -173,6 +167,12 @@ aCharset
 ;
 protected
 :
+virtual
+~
+nsSaveAsCharset
+(
+)
+;
 NS_IMETHOD
 DoCharsetConversion
 (
