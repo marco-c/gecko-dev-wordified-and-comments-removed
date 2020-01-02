@@ -138,9 +138,4 @@ PaymentFlowInfo
 .
 js
 '
-'
-PaymentRequestInfo
-.
-js
-'
 ]

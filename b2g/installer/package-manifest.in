@@ -3333,13 +3333,6 @@ BINPATH
 /
 components
 /
-PaymentRequestInfo
-.
-js
-BINPATH
-/
-components
-/
 Payment
 .
 manifest
