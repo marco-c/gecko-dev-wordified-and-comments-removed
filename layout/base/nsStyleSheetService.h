@@ -114,13 +114,11 @@ public
 nsStyleSheetService
 (
 )
-NS_HIDDEN
 ;
 ~
 nsStyleSheetService
 (
 )
-NS_HIDDEN
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTYLESHEETSERVICE

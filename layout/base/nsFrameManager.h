@@ -196,7 +196,6 @@ set
 nsFrameManager
 (
 )
-NS_HIDDEN
 ;
 void
 Destroy

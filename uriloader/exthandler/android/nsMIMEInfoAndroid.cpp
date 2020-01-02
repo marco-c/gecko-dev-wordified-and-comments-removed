@@ -1653,7 +1653,6 @@ static
 const
 nsIID
 kIID
-NS_HIDDEN
 ;
 }
 ;

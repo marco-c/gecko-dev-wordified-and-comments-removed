@@ -280,14 +280,12 @@ aNumBuckets
 =
 16
 )
-NS_HIDDEN
 ;
 ~
 UndisplayedMap
 (
 void
 )
-NS_HIDDEN
 ;
 UndisplayedNode
 *

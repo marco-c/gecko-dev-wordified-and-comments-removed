@@ -132,7 +132,6 @@ private
 nsXMLNameSpaceMap
 (
 )
-NS_HIDDEN
 ;
 nsTArray
 <

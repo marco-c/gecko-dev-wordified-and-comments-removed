@@ -70,7 +70,6 @@ aReflowDepth
 =
 0
 )
-NS_HIDDEN
 ;
 nsBoxLayoutState
 (
@@ -79,7 +78,6 @@ nsBoxLayoutState
 &
 aState
 )
-NS_HIDDEN
 ;
 nsPresContext
 *

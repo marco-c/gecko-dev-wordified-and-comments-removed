@@ -502,7 +502,6 @@ aDocument
 nsPresContextType
 aType
 )
-NS_HIDDEN
 ;
 nsresult
 Init
@@ -4015,7 +4014,6 @@ virtual
 nsPresContext
 (
 )
-NS_HIDDEN
 ;
 enum
 {
@@ -4095,7 +4093,6 @@ aDocument
 nsPresContextType
 aType
 )
-NS_HIDDEN
 ;
 virtual
 ~

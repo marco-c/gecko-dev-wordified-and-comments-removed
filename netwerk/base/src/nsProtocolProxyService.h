@@ -131,7 +131,6 @@ NS_DECL_NSIOBSERVER
 nsProtocolProxyService
 (
 )
-NS_HIDDEN
 ;
 nsresult
 Init
@@ -148,7 +147,6 @@ nsAsyncResolveRequest
 nsProtocolProxyService
 (
 )
-NS_HIDDEN
 ;
 void
 PrefsChanged

@@ -124,7 +124,6 @@ aError
 nsLanguageAtomService
 (
 )
-NS_HIDDEN
 ;
 private
 :
