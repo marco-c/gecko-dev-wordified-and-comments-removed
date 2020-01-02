@@ -1610,7 +1610,6 @@ aManifest
 .
 manifest
 manifestURL
-manifestURL
 )
 ;
 results

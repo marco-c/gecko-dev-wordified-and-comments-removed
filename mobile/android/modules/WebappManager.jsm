@@ -1190,11 +1190,6 @@ aData
 app
 .
 apkPackageName
-aData
-.
-app
-.
-manifestURL
 )
 ;
 }
@@ -1218,7 +1213,6 @@ aProfilePath
 aNewManifest
 aOrigin
 aApkPackageName
-aManifestURL
 )
 {
 sendMessageToJava
@@ -1280,7 +1274,6 @@ ManifestHelper
 (
 aNewManifest
 aOrigin
-aManifestUrl
 )
 ;
 this
@@ -1922,9 +1915,6 @@ origin
 aOldApp
 .
 apkPackageName
-aOldApp
-.
-manifestURL
 )
 ;
 }
