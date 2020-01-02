@@ -447,10 +447,12 @@ int32_t
 aExtraForgetSkippableCalls
 =
 0
-bool
-aManuallyTriggered
-=
-true
+)
+;
+static
+void
+ScheduledCycleCollectNow
+(
 )
 ;
 static

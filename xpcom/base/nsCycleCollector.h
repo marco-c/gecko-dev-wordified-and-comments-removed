@@ -135,11 +135,14 @@ nsCycleCollector_doDeferredDeletion
 void
 nsCycleCollector_collect
 (
-bool
-aManuallyTriggered
 nsICycleCollectorListener
 *
 aManualListener
+)
+;
+void
+nsCycleCollector_scheduledCollect
+(
 )
 ;
 uint32_t
