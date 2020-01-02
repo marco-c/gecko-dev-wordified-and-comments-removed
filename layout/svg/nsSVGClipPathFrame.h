@@ -308,15 +308,8 @@ mFrame
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
-nsIFrame
-*
-mClipParent
-;
-nsAutoPtr
-<
 gfxMatrix
->
-mClipParentMatrix
+mMatrixForChildren
 ;
 bool
 mInUse
