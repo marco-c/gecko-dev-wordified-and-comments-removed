@@ -188,6 +188,12 @@ js
 :
 selfhosted
 ;
+using
+JS
+:
+:
+AutoCheckCannotGC
+;
 static
 void
 selfHosting_ErrorReporter

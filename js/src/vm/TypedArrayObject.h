@@ -889,6 +889,9 @@ id
 return
 false
 ;
+JS
+:
+:
 AutoCheckCannotGC
 nogc
 ;

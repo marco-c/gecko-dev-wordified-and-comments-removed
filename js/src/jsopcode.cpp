@@ -227,6 +227,12 @@ js
 gc
 ;
 using
+JS
+:
+:
+AutoCheckCannotGC
+;
+using
 js
 :
 :

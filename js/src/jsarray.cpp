@@ -288,6 +288,12 @@ mozilla
 :
 PointerRangeSize
 ;
+using
+JS
+:
+:
+AutoCheckCannotGC
+;
 bool
 js
 :

@@ -368,6 +368,12 @@ mozilla
 :
 SafeCast
 ;
+using
+JS
+:
+:
+AutoCheckCannotGC
+;
 typedef
 Handle
 <
