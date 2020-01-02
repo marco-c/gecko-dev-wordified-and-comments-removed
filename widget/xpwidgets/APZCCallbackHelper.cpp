@@ -411,9 +411,7 @@ aFrame
 )
 {
 return
-CSSPoint
-(
-)
+aPoint
 ;
 }
 if
