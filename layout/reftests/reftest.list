@@ -1656,13 +1656,6 @@ only
 run
 on
 B2G
-skip
--
-if
-(
-!
-B2G
-)
 include
 invalidation
 /
