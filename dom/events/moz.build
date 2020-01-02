@@ -141,11 +141,6 @@ nsEventStates
 .
 h
 '
-'
-nsIJSEventListener
-.
-h
-'
 ]
 EXPORTS
 .

@@ -29,6 +29,15 @@ include
 "
 mozilla
 /
+JSEventHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -58,13 +67,6 @@ h
 include
 "
 nsIDOMEventListener
-.
-h
-"
-#
-include
-"
-nsIJSEventListener
 .
 h
 "
@@ -524,7 +526,7 @@ mAllEvents
 EventListenerFlags
 mFlags
 ;
-nsIJSEventListener
+nsJSEventListener
 *
 GetJSListener
 (
@@ -541,7 +543,7 @@ eJSEventListener
 ?
 static_cast
 <
-nsIJSEventListener
+nsJSEventListener
 *
 >
 (
@@ -598,7 +600,7 @@ mListener
 {
 static_cast
 <
-nsIJSEventListener
+nsJSEventListener
 *
 >
 (
