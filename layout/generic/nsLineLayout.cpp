@@ -12617,17 +12617,6 @@ state
 mContainerWidth
 )
 ;
-remainingISize
-=
-availISize
--
-aLine
--
->
-ISize
-(
-)
-;
 break
 ;
 }
