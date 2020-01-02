@@ -1471,12 +1471,16 @@ getSameTypeParentIgnoreBrowserAndAppBoundaries
 ;
 return
 parentDocShell
+?
+parentDocShell
 .
 contentViewer
 .
 DOMDocument
 .
 defaultView
+:
+null
 ;
 }
 else
