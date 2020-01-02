@@ -350,7 +350,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-12
+SEC_ERROR_REVOKED_CERTIFICATE
 )
 true
 )
@@ -374,7 +374,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-18
+SEC_ERROR_BAD_DATABASE
 )
 true
 )
@@ -457,7 +457,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-130
+SEC_ERROR_OCSP_UNAUTHORIZED_RESPONSE
 )
 true
 )
@@ -477,7 +477,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-120
+SEC_ERROR_OCSP_MALFORMED_REQUEST
 )
 true
 )
@@ -497,7 +497,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-121
+SEC_ERROR_OCSP_SERVER_ERROR
 )
 true
 )
@@ -517,7 +517,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-122
+SEC_ERROR_OCSP_TRY_SERVER_LATER
 )
 true
 )
@@ -537,7 +537,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-123
+SEC_ERROR_OCSP_REQUEST_NEEDS_SIG
 )
 true
 )
@@ -557,7 +557,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-124
+SEC_ERROR_OCSP_UNAUTHORIZED_REQUEST
 )
 true
 )
@@ -577,7 +577,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-126
+SEC_ERROR_OCSP_UNKNOWN_CERT
 )
 true
 )
@@ -599,7 +599,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-126
+SEC_ERROR_OCSP_UNKNOWN_CERT
 )
 true
 )
@@ -638,7 +638,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-129
+SEC_ERROR_OCSP_MALFORMED_RESPONSE
 )
 true
 )
@@ -658,7 +658,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-132
+SEC_ERROR_OCSP_OLD_RESPONSE
 )
 true
 )
@@ -682,7 +682,7 @@ com
 "
 getXPCOMStatusFromNSS
 (
-132
+SEC_ERROR_OCSP_OLD_RESPONSE
 )
 true
 )
