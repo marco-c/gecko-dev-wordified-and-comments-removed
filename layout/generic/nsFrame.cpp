@@ -22453,6 +22453,10 @@ nsIFrame
 :
 TryUpdateTransformOnly
 (
+Layer
+*
+*
+aLayerResult
 )
 {
 Layer
@@ -22652,6 +22656,11 @@ SetBaseTransformForNextTransaction
 (
 matrix
 )
+;
+*
+aLayerResult
+=
+layer
 ;
 return
 true

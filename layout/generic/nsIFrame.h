@@ -4565,6 +4565,10 @@ sLayerIsPrerenderedDataKey
 bool
 TryUpdateTransformOnly
 (
+Layer
+*
+*
+aLayerResult
 )
 ;
 bool
