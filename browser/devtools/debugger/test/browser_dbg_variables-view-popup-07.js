@@ -301,9 +301,7 @@ view
 -
 scope
 [
-non
--
-header
+untitled
 ]
 "
 )
@@ -338,9 +336,7 @@ view
 -
 variable
 [
-non
--
-header
+untitled
 ]
 "
 )
