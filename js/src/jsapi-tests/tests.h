@@ -1705,10 +1705,14 @@ cx
 return
 nullptr
 ;
-JS_SetOptions
+ContextOptionsRef
 (
 cx
-JSOPTION_VAROBJFIX
+)
+.
+setVarObjFix
+(
+true
 )
 ;
 JS_SetErrorReporter
