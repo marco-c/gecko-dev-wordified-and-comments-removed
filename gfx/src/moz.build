@@ -118,6 +118,11 @@ EXPORTS
 =
 [
 '
+FilterSupport
+.
+h
+'
+'
 gfxCore
 .
 h
@@ -264,6 +269,11 @@ SOURCES
 +
 =
 [
+'
+FilterSupport
+.
+cpp
+'
 '
 gfxCrashReporterUtils
 .
