@@ -424,9 +424,9 @@ void
 *
 ptr
 =
-JS_AllocateArrayBufferContents
+calloc
 (
-nullptr
+1
 length
 )
 ;
