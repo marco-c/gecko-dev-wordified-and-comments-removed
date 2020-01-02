@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsIClassInfo
 .
 h

@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsIUnicodeEncoder
 .
 h

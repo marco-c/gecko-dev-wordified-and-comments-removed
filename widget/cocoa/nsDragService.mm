@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h

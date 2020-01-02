@@ -565,13 +565,6 @@ h
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsICharsetDetectionObserver
 .
 h

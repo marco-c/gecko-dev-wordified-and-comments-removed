@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsBaseFilePicker
 .
 h
