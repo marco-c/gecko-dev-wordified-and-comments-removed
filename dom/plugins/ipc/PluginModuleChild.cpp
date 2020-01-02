@@ -406,13 +406,13 @@ static
 GetWindowInfoPtr
 sGetWindowInfoPtrStub
 =
-NULL
+nullptr
 ;
 static
 HWND
 sBrowserHwnd
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -487,11 +487,11 @@ ifdef
 OS_WIN
 mNestedEventHook
 (
-NULL
+nullptr
 )
 mGlobalCallWndProcHook
 (
-NULL
+nullptr
 )
 #
 endif
@@ -1143,7 +1143,7 @@ g_object_add_toggle_ref
 (
 object
 undo_bogus_unref
-NULL
+nullptr
 )
 ;
 (
@@ -1158,7 +1158,7 @@ g_object_remove_toggle_ref
 (
 object
 undo_bogus_unref
-NULL
+nullptr
 )
 ;
 }
@@ -1604,7 +1604,7 @@ gtk_check_version
 )
 !
 =
-NULL
+nullptr
 &
 &
 g_object_get_data
@@ -1775,7 +1775,7 @@ PluginModuleChild
 :
 ProcessBrowserEvents
 data
-NULL
+nullptr
 )
 ;
 return
@@ -1872,7 +1872,7 @@ PluginModuleChild
 :
 DetectNestedEventLoop
 this
-NULL
+nullptr
 )
 ;
 #
@@ -1938,7 +1938,7 @@ NS_ABORT_IF_FALSE
 mNestedLoopTimerObject
 =
 =
-NULL
+nullptr
 "
 previous
 timer
@@ -1984,7 +1984,7 @@ NS_ABORT_IF_FALSE
 mNestedLoopTimerObject
 !
 =
-NULL
+nullptr
 "
 nested
 loop
@@ -1999,7 +1999,7 @@ mNestedLoopTimerObject
 ;
 mNestedLoopTimerObject
 =
-NULL
+nullptr
 ;
 }
 #
@@ -2851,7 +2851,7 @@ mUserAgent
 )
 )
 return
-NULL
+nullptr
 ;
 return
 NullableStringGet
@@ -2992,7 +2992,7 @@ d
 >
 actor
 =
-NULL
+nullptr
 ;
 }
 }
@@ -3054,7 +3054,7 @@ NPN_CreateObject
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4335,8 +4335,8 @@ child
 :
 :
 _convertpoint
-NULL
-NULL
+nullptr
+nullptr
 mozilla
 :
 :
@@ -6460,7 +6460,7 @@ PluginScriptableObjectChild
 *
 actor
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8708,7 +8708,7 @@ NPP_Destroy
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 NPObject
@@ -8959,7 +8959,7 @@ DeletingObjectEntry
 *
 doe
 =
-NULL
+nullptr
 ;
 if
 (
@@ -9897,7 +9897,7 @@ nCode
 (
 InSendMessageEx
 (
-NULL
+nullptr
 )
 &
 (
@@ -9980,7 +9980,7 @@ true
 return
 CallNextHookEx
 (
-NULL
+nullptr
 nCode
 wParam
 lParam
@@ -10116,7 +10116,7 @@ true
 return
 CallNextHookEx
 (
-NULL
+nullptr
 nCode
 wParam
 lParam
@@ -10180,7 +10180,7 @@ SetWindowsHookEx
 (
 WH_MSGFILTER
 NestedInputEventHook
-NULL
+nullptr
 GetCurrentThreadId
 (
 )
@@ -10192,7 +10192,7 @@ SetWindowsHookEx
 (
 WH_CALLWNDPROC
 CallWindowProcHook
-NULL
+nullptr
 GetCurrentThreadId
 (
 )
@@ -10229,7 +10229,7 @@ mNestedEventHook
 ;
 mNestedEventHook
 =
-NULL
+nullptr
 ;
 if
 (
@@ -10242,7 +10242,7 @@ mGlobalCallWndProcHook
 ;
 mGlobalCallWndProcHook
 =
-NULL
+nullptr
 ;
 }
 #
@@ -10342,7 +10342,7 @@ if
 profile
 !
 =
-NULL
+nullptr
 )
 {
 *

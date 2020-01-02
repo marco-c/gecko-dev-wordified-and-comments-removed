@@ -1026,7 +1026,7 @@ IsVoid
 )
 )
 return
-NULL
+nullptr
 ;
 return
 str
@@ -2571,7 +2571,7 @@ haveString
 *
 aResult
 =
-NULL
+nullptr
 ;
 return
 true
@@ -2928,7 +2928,7 @@ uint8_t
 *
 data
 =
-NULL
+nullptr
 ;
 if
 (

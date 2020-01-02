@@ -108,7 +108,7 @@ this
 else
 mStream
 =
-NULL
+nullptr
 ;
 }
 bool

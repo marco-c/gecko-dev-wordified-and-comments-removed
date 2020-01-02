@@ -186,7 +186,7 @@ aIsString
 :
 mCanonicalIdentifier
 (
-NULL
+nullptr
 )
 mHashed
 (

@@ -364,7 +364,7 @@ XP_WIN
 :
 OleInitialize
 (
-NULL
+nullptr
 )
 ;
 #

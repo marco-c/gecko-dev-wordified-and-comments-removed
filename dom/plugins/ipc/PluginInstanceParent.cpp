@@ -371,11 +371,11 @@ OS_WIN
 )
 mPluginHWND
 (
-NULL
+nullptr
 )
 mPluginWndProc
 (
-NULL
+nullptr
 )
 mNestedEventState
 (
@@ -422,7 +422,7 @@ mNPP
 >
 pdata
 =
-NULL
+nullptr
 ;
 #
 if
@@ -588,7 +588,7 @@ mFrontSurface
 {
 mFrontSurface
 =
-NULL
+nullptr
 ;
 if
 (
@@ -713,7 +713,7 @@ reachable
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -1783,7 +1783,7 @@ mRemoteImageDataShmem
 ;
 mRemoteImageDataMutex
 =
-NULL
+nullptr
 ;
 }
 }
@@ -3023,7 +3023,7 @@ MacIOSurface
 *
 ioSurface
 =
-NULL
+nullptr
 ;
 if
 (
@@ -7166,7 +7166,7 @@ called
 )
 ;
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -7792,7 +7792,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 texture
@@ -8383,11 +8383,11 @@ kPluginInstanceParentProperty
 ;
 mPluginWndProc
 =
-NULL
+nullptr
 ;
 mPluginHWND
 =
-NULL
+nullptr
 ;
 }
 }

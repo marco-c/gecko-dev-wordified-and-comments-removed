@@ -37,7 +37,7 @@ StreamNotifyParent
 :
 mDestructionFlag
 (
-NULL
+nullptr
 )
 {
 }
@@ -78,7 +78,7 @@ ClearDestructionFlag
 {
 mDestructionFlag
 =
-NULL
+nullptr
 ;
 }
 private

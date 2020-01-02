@@ -1002,7 +1002,7 @@ draw
 .
 context
 =
-NULL
+nullptr
 ;
 if
 (
