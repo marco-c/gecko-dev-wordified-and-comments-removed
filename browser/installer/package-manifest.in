@@ -333,7 +333,7 @@ dependentlibs
 list
 #
 ifdef
-XP_WIN32
+GKMEDIAS_SHARED_LIBRARY
 BINPATH
 /
 DLL_PREFIX
