@@ -1083,13 +1083,6 @@ mozilla
 namespace
 layers
 {
-using
-namespace
-mozilla
-:
-:
-css
-;
 typedef
 mozilla
 :
@@ -1180,6 +1173,9 @@ M_PI
 ;
 StaticAutoPtr
 <
+css
+:
+:
 ComputedTimingFunction
 >
 gComputedTimingFunction
@@ -2010,6 +2006,9 @@ true
 gComputedTimingFunction
 =
 new
+css
+:
+:
 ComputedTimingFunction
 (
 )
