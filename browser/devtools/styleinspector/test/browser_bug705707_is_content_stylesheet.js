@@ -368,6 +368,13 @@ bold
 )
 ;
 }
+executeSoon
+(
+(
+)
+=
+>
+{
 reselectElement
 (
 doc
@@ -459,6 +466,9 @@ removeCurrentTab
 ;
 openXUL
 (
+)
+;
+}
 )
 ;
 }

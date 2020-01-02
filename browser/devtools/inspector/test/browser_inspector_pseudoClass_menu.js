@@ -197,8 +197,16 @@ setNode
 div
 )
 ;
-performTests
+inspector
+.
+once
 (
+"
+inspector
+-
+updated
+"
+performTests
 )
 ;
 }

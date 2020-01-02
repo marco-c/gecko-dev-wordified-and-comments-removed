@@ -366,8 +366,16 @@ updated
 nodeSelected
 )
 ;
-finishUp
+inspector
+.
+once
 (
+"
+inspector
+-
+updated
+"
+finishUp
 )
 ;
 }
