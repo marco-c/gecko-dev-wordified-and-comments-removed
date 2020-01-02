@@ -945,7 +945,7 @@ function
 )
 {
 let
-_panels
+_registeredPanels
 =
 {
 }
@@ -1020,13 +1020,13 @@ for
 let
 id
 in
-_panels
+_registeredPanels
 )
 {
 let
 panel
 =
-_panels
+_registeredPanels
 [
 id
 ]
@@ -1137,7 +1137,7 @@ if
 (
 id
 in
-_panels
+_registeredPanels
 )
 )
 {
@@ -1261,7 +1261,7 @@ panel
 .
 id
 in
-_panels
+_registeredPanels
 )
 {
 throw
@@ -1638,7 +1638,7 @@ type
 ;
 }
 }
-_panels
+_registeredPanels
 [
 panel
 .
@@ -1661,7 +1661,7 @@ id
 )
 ;
 delete
-_panels
+_registeredPanels
 [
 id
 ]
@@ -1693,7 +1693,7 @@ panel
 :
 _panelToJSON
 (
-_panels
+_registeredPanels
 [
 id
 ]
@@ -1757,7 +1757,7 @@ panel
 :
 _panelToJSON
 (
-_panels
+_registeredPanels
 [
 id
 ]
