@@ -341,6 +341,17 @@ Layer
 aLayer
 )
 ;
+gfx
+:
+:
+CompositionOp
+GetEffectiveOperator
+(
+Layer
+*
+aLayer
+)
+;
 }
 }
 #
