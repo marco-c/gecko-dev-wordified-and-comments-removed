@@ -34,17 +34,6 @@ aResult
 0
 ;
 NS_IMETHOD
-GetCalleeWrapper
-(
-nsIXPConnectWrappedNative
-*
-*
-aResult
-)
-=
-0
-;
-NS_IMETHOD
 GetJSContext
 (
 JSContext
