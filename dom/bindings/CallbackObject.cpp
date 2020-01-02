@@ -277,7 +277,7 @@ webIDLCallerPrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;

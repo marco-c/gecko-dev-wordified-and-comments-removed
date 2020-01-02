@@ -1731,7 +1731,7 @@ GetAsSupports
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 nullptr
@@ -1952,7 +1952,7 @@ principal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;

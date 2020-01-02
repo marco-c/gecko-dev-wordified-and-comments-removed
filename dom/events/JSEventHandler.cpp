@@ -590,7 +590,7 @@ isMainThread
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 GetTypedEventHandler
 (

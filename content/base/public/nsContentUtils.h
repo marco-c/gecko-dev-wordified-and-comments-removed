@@ -1160,14 +1160,14 @@ aCSP
 static
 nsIPrincipal
 *
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
 static
 nsIPrincipal
 *
-GetObjectPrincipal
+ObjectPrincipal
 (
 JSObject
 *

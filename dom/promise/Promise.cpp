@@ -4108,7 +4108,7 @@ principal
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 obj
 )

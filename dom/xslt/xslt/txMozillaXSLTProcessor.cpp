@@ -5089,7 +5089,7 @@ Init
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 )

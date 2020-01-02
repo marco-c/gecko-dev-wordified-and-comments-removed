@@ -952,7 +952,7 @@ CreateAboutBlankContentViewer
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 )

@@ -27818,7 +27818,7 @@ GetCurrentJSContext
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 :

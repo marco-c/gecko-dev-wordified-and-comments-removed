@@ -9431,7 +9431,7 @@ newWindowPrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -25871,7 +25871,7 @@ principal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -31834,7 +31834,7 @@ incumbentPrin
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 incumbentGlobal
 )
@@ -31846,7 +31846,7 @@ compartmentPrin
 nsContentUtils
 :
 :
-GetObjectPrincipal
+ObjectPrincipal
 (
 compartmentGlobal
 )
@@ -33908,7 +33908,7 @@ principal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -36669,7 +36669,7 @@ if
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 -
@@ -37585,7 +37585,7 @@ DialogValueHolder
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 aArgument
@@ -49682,7 +49682,7 @@ subjectPrincipal
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 ;
@@ -56633,7 +56633,7 @@ wrapper
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 &
@@ -56675,7 +56675,7 @@ Get
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 aArguments
@@ -56786,7 +56786,7 @@ wrapper
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 &
@@ -56862,7 +56862,7 @@ Get
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 aRetVal
@@ -56967,7 +56967,7 @@ DialogValueHolder
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 returnValue
@@ -57003,7 +57003,7 @@ DialogValueHolder
 nsContentUtils
 :
 :
-GetSubjectPrincipal
+SubjectPrincipal
 (
 )
 aRetVal
