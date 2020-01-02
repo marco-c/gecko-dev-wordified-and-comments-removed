@@ -116,6 +116,10 @@ browser_913972_currentset_overflow
 .
 js
 \
+browser_914863_disabled_help_quit_buttons
+.
+js
+\
 head
 .
 js
