@@ -102,6 +102,13 @@ prerror
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 class
 nsSocketTransport
 ;
@@ -1076,6 +1083,12 @@ mFDref
 ;
 bool
 mFDconnected
+;
+nsRefPtr
+<
+nsSocketTransportService
+>
+mSocketTransportService
 ;
 nsCOMPtr
 <

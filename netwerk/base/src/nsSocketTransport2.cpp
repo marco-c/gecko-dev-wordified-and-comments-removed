@@ -2728,6 +2728,10 @@ mFDconnected
 (
 false
 )
+mSocketTransportService
+(
+gSocketTransportService
+)
 mInput
 (
 MOZ_THIS_IN_INITIALIZER_LIST
@@ -2777,11 +2781,6 @@ n
 "
 this
 )
-)
-;
-NS_ADDREF
-(
-gSocketTransportService
 )
 ;
 mTimeouts
@@ -2858,17 +2857,6 @@ mTypes
 )
 ;
 }
-nsSocketTransportService
-*
-serv
-=
-gSocketTransportService
-;
-NS_RELEASE
-(
-serv
-)
-;
 }
 nsresult
 nsSocketTransport
@@ -3736,7 +3724,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 return
-gSocketTransportService
+mSocketTransportService
 -
 >
 Dispatch
@@ -5057,7 +5045,7 @@ NS_ERROR_CONNECTION_REFUSED
 if
 (
 !
-gSocketTransportService
+mSocketTransportService
 -
 >
 CanAttachSocket
@@ -5087,7 +5075,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 return
-gSocketTransportService
+mSocketTransportService
 -
 >
 NotifyWhenCanAttachSocket
@@ -5107,7 +5095,7 @@ IsInitialized
 {
 rv
 =
-gSocketTransportService
+mSocketTransportService
 -
 >
 AttachSocket
@@ -5265,7 +5253,7 @@ opt
 int32_t
 sndBufferSize
 ;
-gSocketTransportService
+mSocketTransportService
 -
 >
 GetSendBufferSize
@@ -5332,7 +5320,7 @@ opt
 }
 rv
 =
-gSocketTransportService
+mSocketTransportService
 -
 >
 AttachSocket
@@ -6068,7 +6056,7 @@ tryAgain
 bool
 autodialEnabled
 ;
-gSocketTransportService
+mSocketTransportService
 -
 >
 GetAutodialEnabled
@@ -8018,7 +8006,7 @@ NS_AsyncCopy
 &
 mInput
 pipeOut
-gSocketTransportService
+mSocketTransportService
 NS_ASYNCCOPY_VIA_WRITESEGMENTS
 segsize
 )
@@ -8215,7 +8203,7 @@ NS_AsyncCopy
 pipeIn
 &
 mOutput
-gSocketTransportService
+mSocketTransportService
 NS_ASYNCCOPY_VIA_READSEGMENTS
 segsize
 )
@@ -9806,7 +9794,7 @@ enable
 aEnable
 &
 &
-gSocketTransportService
+mSocketTransportService
 -
 >
 IsKeepaliveEnabled
@@ -9958,7 +9946,7 @@ mKeepaliveIdleTimeS
 {
 rv
 =
-gSocketTransportService
+mSocketTransportService
 -
 >
 GetKeepaliveIdleTime
@@ -9998,7 +9986,7 @@ mKeepaliveRetryIntervalS
 {
 rv
 =
-gSocketTransportService
+mSocketTransportService
 -
 >
 GetKeepaliveRetryInterval
@@ -10038,7 +10026,7 @@ mKeepaliveProbeCount
 {
 rv
 =
-gSocketTransportService
+mSocketTransportService
 -
 >
 GetKeepaliveProbeCount
@@ -10268,7 +10256,7 @@ disabled
 mKeepaliveIdleTimeS
 mKeepaliveRetryIntervalS
 mKeepaliveProbeCount
-gSocketTransportService
+mSocketTransportService
 -
 >
 IsKeepaliveEnabled
@@ -10519,7 +10507,7 @@ val
 nsresult
 rv
 =
-gSocketTransportService
+mSocketTransportService
 -
 >
 GetKeepaliveProbeCount
