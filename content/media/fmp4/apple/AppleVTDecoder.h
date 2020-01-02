@@ -222,6 +222,11 @@ DrainReorderedFrames
 (
 )
 ;
+void
+ClearReorderedFrames
+(
+)
+;
 }
 ;
 }
