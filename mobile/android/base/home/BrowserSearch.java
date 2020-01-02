@@ -2443,14 +2443,6 @@ R
 string
 .
 suggestions_prompt
-mSearchEngines
-.
-get
-(
-0
-)
-.
-name
 )
 )
 ;
