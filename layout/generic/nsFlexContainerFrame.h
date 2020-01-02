@@ -267,7 +267,7 @@ aAxisTracker
 )
 ;
 void
-ResolveFlexItemMaxContentSizing
+ResolveAutoFlexBasisAndMinSize
 (
 nsPresContext
 *

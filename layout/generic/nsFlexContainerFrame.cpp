@@ -3508,7 +3508,7 @@ void
 nsFlexContainerFrame
 :
 :
-ResolveFlexItemMaxContentSizing
+ResolveAutoFlexBasisAndMinSize
 (
 nsPresContext
 *
@@ -9866,7 +9866,7 @@ aReflowState
 aAxisTracker
 )
 ;
-ResolveFlexItemMaxContentSizing
+ResolveAutoFlexBasisAndMinSize
 (
 aPresContext
 *
