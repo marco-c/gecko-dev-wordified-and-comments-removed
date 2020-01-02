@@ -1732,9 +1732,7 @@ ToMilliseconds
 0
 |
 |
-mStartTime
-.
-IsNull
+IsFinishedTransition
 (
 )
 )
@@ -1785,9 +1783,7 @@ const
 if
 (
 !
-mStartTime
-.
-IsNull
+IsFinishedTransition
 (
 )
 )
