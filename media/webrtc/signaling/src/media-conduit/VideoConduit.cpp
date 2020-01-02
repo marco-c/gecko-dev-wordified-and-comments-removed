@@ -4644,6 +4644,10 @@ false
 )
 )
 {
+mExternalSendCodecHandle
+=
+encoder
+;
 mExternalSendCodec
 =
 new
@@ -4699,6 +4703,10 @@ decoder
 )
 )
 {
+mExternalRecvCodecHandle
+=
+decoder
+;
 mExternalRecvCodec
 =
 new
