@@ -2146,6 +2146,9 @@ use
 )
 ;
 }
+#
+ifdef
+DEBUG
 size_t
 useCount
 (
@@ -2158,6 +2161,8 @@ defUseCount
 )
 const
 ;
+#
+endif
 bool
 hasOneUse
 (
