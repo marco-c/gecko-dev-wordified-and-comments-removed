@@ -213,16 +213,5 @@ attribute
 long
 debugLevel
 ;
-/
-/
-WebRTC
-AEC
-debugging
-enable
-static
-attribute
-boolean
-aecDebug
-;
 }
 ;
