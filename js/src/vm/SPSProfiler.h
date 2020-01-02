@@ -245,13 +245,13 @@ return
 stack_
 !
 =
-NULL
+nullptr
 &
 &
 size_
 !
 =
-NULL
+nullptr
 ;
 }
 void
@@ -411,7 +411,7 @@ ip
 )
 {
 return
-NULL
+nullptr
 ;
 }
 void
@@ -581,7 +581,7 @@ profiler
 )
 frame
 (
-NULL
+nullptr
 )
 {
 enterInlineFrame
@@ -675,7 +675,7 @@ frame
 script
 !
 =
-NULL
+nullptr
 )
 ;
 frames
@@ -731,14 +731,14 @@ JS_ASSERT_IF
 frame
 !
 =
-NULL
+nullptr
 frame
 -
 >
 script
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT_IF
@@ -746,7 +746,7 @@ JS_ASSERT_IF
 frame
 !
 =
-NULL
+nullptr
 frame
 -
 >
@@ -788,7 +788,7 @@ frame
 >
 script
 =
-NULL
+nullptr
 ;
 frame
 -
@@ -958,7 +958,7 @@ if
 string
 =
 =
-NULL
+nullptr
 )
 return
 false

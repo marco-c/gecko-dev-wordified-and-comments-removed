@@ -754,7 +754,7 @@ cx
 )
 !
 =
-NULL
+nullptr
 ;
 }
 JS_ALWAYS_INLINE
@@ -2229,7 +2229,7 @@ JSStableString
 *
 initial
 =
-NULL
+nullptr
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
@@ -3024,7 +3024,7 @@ str
 )
 chars_
 (
-NULL
+nullptr
 )
 {
 }
@@ -3386,7 +3386,7 @@ chars
 )
 ;
 return
-NULL
+nullptr
 ;
 case
 2
@@ -3424,7 +3424,7 @@ chars
 )
 ;
 return
-NULL
+nullptr
 ;
 case
 3
@@ -3562,11 +3562,11 @@ i
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 private
@@ -3818,7 +3818,7 @@ chars
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ALWAYS_INLINE
@@ -4008,7 +4008,7 @@ chars
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_ALWAYS_INLINE
@@ -4303,7 +4303,7 @@ if
 flat
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -4352,7 +4352,7 @@ if
 flat
 )
 return
-NULL
+nullptr
 ;
 return
 &

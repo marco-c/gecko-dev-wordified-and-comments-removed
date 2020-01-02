@@ -413,7 +413,7 @@ prevsp
 ;
 blockChain_
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1283,7 +1283,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uint8_t
@@ -1310,7 +1310,7 @@ if
 buffer
 )
 return
-NULL
+nullptr
 ;
 frameCount_
 +
@@ -1492,7 +1492,7 @@ if
 buffer
 )
 return
-NULL
+nullptr
 ;
 Value
 *
@@ -2747,7 +2747,7 @@ rt
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 inline

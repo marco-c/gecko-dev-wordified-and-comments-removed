@@ -1700,7 +1700,7 @@ HAS_BLOCKCHAIN
 ?
 blockChain_
 :
-NULL
+nullptr
 ;
 }
 StaticBlockObject
@@ -1849,7 +1849,7 @@ fun
 (
 )
 :
-NULL
+nullptr
 ;
 }
 Value
@@ -2182,7 +2182,7 @@ hasHookData
 ?
 hookData_
 :
-NULL
+nullptr
 ;
 }
 void
@@ -2914,7 +2914,7 @@ return
 fun
 =
 =
-NULL
+nullptr
 ?
 -
 1
@@ -4409,7 +4409,7 @@ return
 activation_
 =
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4705,15 +4705,15 @@ activation
 )
 fp_
 (
-NULL
+nullptr
 )
 pc_
 (
-NULL
+nullptr
 )
 sp_
 (
-NULL
+nullptr
 )
 {
 if
@@ -4825,7 +4825,7 @@ return
 fp_
 =
 =
-NULL
+nullptr
 ;
 }
 }
@@ -5124,7 +5124,7 @@ script
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -5461,7 +5461,7 @@ callee
 (
 )
 :
-NULL
+nullptr
 ;
 }
 size_t
