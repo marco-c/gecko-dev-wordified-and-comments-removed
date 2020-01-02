@@ -658,8 +658,13 @@ this
 )
 ;
 }
+}
+)
+;
+FramerateFront
+.
 plotFPS
-:
+=
 function
 (
 ticks
@@ -840,8 +845,6 @@ return
 timeline
 ;
 }
-}
-)
 ;
 function
 getChromeWin
