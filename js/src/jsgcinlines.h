@@ -176,7 +176,7 @@ const
 if
 (
 !
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )

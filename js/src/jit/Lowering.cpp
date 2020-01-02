@@ -755,7 +755,7 @@ useRegister
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 )
@@ -1263,7 +1263,7 @@ useRegister
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 )
@@ -10034,12 +10034,12 @@ ins
 {
 MDefinition
 *
-slice
+cx
 =
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 ;
@@ -10118,7 +10118,7 @@ LConcatPar
 (
 useFixed
 (
-slice
+cx
 CallTempReg4
 )
 useFixedAtStart
@@ -12832,7 +12832,7 @@ useRegister
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 )
@@ -13309,14 +13309,14 @@ bool
 LIRGenerator
 :
 :
-visitForkJoinSlice
+visitForkJoinContext
 (
-MForkJoinSlice
+MForkJoinContext
 *
 ins
 )
 {
-LForkJoinSlice
+LForkJoinContext
 *
 lir
 =
@@ -13326,7 +13326,7 @@ alloc
 (
 )
 )
-LForkJoinSlice
+LForkJoinContext
 (
 tempFixed
 (
@@ -13370,7 +13370,7 @@ useFixed
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 CallTempReg0
@@ -13524,7 +13524,7 @@ useRegister
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 )
@@ -13589,7 +13589,7 @@ useRegister
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 )
@@ -13637,7 +13637,7 @@ useFixed
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 CallTempReg0
@@ -21340,7 +21340,7 @@ useFixed
 ins
 -
 >
-forkJoinSlice
+forkJoinContext
 (
 )
 CallTempReg0

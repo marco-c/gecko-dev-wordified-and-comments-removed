@@ -23180,9 +23180,9 @@ NativeSet
 ParallelExecution
 >
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 Handle
 <
 JSObject
@@ -24980,7 +24980,7 @@ if
 cxArg
 -
 >
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -24988,7 +24988,7 @@ return
 cxArg
 -
 >
-asForkJoinSlice
+asForkJoinContext
 (
 )
 -
@@ -25072,7 +25072,7 @@ if
 cxArg
 -
 >
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -25080,7 +25080,7 @@ return
 cxArg
 -
 >
-asForkJoinSlice
+asForkJoinContext
 (
 )
 -
@@ -25162,7 +25162,7 @@ if
 cxArg
 -
 >
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -25170,7 +25170,7 @@ return
 cxArg
 -
 >
-asForkJoinSlice
+asForkJoinContext
 (
 )
 -
@@ -26548,9 +26548,9 @@ SetPropertyHelper
 ParallelExecution
 >
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 HandleObject
 obj
 HandleObject

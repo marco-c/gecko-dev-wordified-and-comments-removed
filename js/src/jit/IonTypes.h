@@ -203,10 +203,10 @@ MIRType_Slots
 MIRType_Elements
 MIRType_Pointer
 MIRType_Shape
-MIRType_ForkJoinSlice
+MIRType_ForkJoinContext
 MIRType_Last
 =
-MIRType_ForkJoinSlice
+MIRType_ForkJoinContext
 MIRType_Float32x4
 =
 MIRType_Float32
@@ -601,11 +601,11 @@ Pointer
 "
 ;
 case
-MIRType_ForkJoinSlice
+MIRType_ForkJoinContext
 :
 return
 "
-ForkJoinSlice
+ForkJoinContext
 "
 ;
 default

@@ -380,9 +380,9 @@ JSScript
 *
 GetTopIonJSScript
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 void
 *
 *
@@ -394,7 +394,7 @@ nullptr
 return
 GetTopIonJSScript
 (
-slice
+cx
 -
 >
 perThreadData

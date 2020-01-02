@@ -857,7 +857,7 @@ struct
 ThreadSafeContext
 ;
 struct
-ForkJoinSlice
+ForkJoinContext
 ;
 class
 ExclusiveContext

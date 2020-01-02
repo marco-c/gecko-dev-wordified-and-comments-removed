@@ -86,9 +86,9 @@ JSParallelNative
 js
 :
 :
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 unsigned
 argc
 JS
@@ -156,9 +156,9 @@ JSParallelNativeThreadSafeWrapper
 js
 :
 :
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 unsigned
 argc
 JS

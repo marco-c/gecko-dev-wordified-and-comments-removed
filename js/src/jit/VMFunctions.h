@@ -36,7 +36,7 @@ class
 DeclEnvObject
 ;
 class
-ForkJoinSlice
+ForkJoinContext
 ;
 namespace
 jit
@@ -1883,7 +1883,7 @@ template
 struct
 MatchContext
 <
-ForkJoinSlice
+ForkJoinContext
 *
 >
 {

@@ -2394,7 +2394,7 @@ LDefinition
 GENERAL
 ;
 case
-MIRType_ForkJoinSlice
+MIRType_ForkJoinContext
 :
 return
 LDefinition

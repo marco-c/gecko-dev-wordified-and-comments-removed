@@ -3269,9 +3269,9 @@ static
 bool
 update
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 size_t
 cacheIndex
 HandleObject
@@ -3523,9 +3523,9 @@ static
 bool
 update
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 size_t
 cacheIndex
 HandleObject
@@ -3714,9 +3714,9 @@ static
 bool
 update
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 size_t
 cacheIndex
 HandleObject
@@ -3951,9 +3951,9 @@ static
 bool
 update
 (
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 size_t
 cacheIndex
 HandleObject

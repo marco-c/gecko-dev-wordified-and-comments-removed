@@ -7168,9 +7168,9 @@ _ParallelNativeThreadSafeWrapper
 js
 :
 :
-ForkJoinSlice
+ForkJoinContext
 *
-slice
+cx
 unsigned
 argc
 \
@@ -7190,7 +7190,7 @@ JSParallelNativeThreadSafeWrapper
 serialOp
 >
 (
-slice
+cx
 argc
 vp
 )

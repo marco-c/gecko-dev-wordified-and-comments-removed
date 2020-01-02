@@ -537,7 +537,7 @@ MDefinition
 MIRGraph
 :
 :
-forkJoinSlice
+forkJoinContext
 (
 )
 {
@@ -605,7 +605,7 @@ if
 ins
 -
 >
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -634,11 +634,11 @@ JS_ASSERT
 start
 )
 ;
-MForkJoinSlice
+MForkJoinContext
 *
-slice
+cx
 =
-MForkJoinSlice
+MForkJoinContext
 :
 :
 New
@@ -654,11 +654,11 @@ entry
 insertAfter
 (
 start
-slice
+cx
 )
 ;
 return
-slice
+cx
 ;
 }
 MBasicBlock

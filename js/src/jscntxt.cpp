@@ -1714,7 +1714,7 @@ if
 cxArg
 -
 >
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -1722,7 +1722,7 @@ isForkJoinSlice
 cxArg
 -
 >
-asForkJoinSlice
+asForkJoinContext
 (
 )
 -
@@ -2006,7 +2006,7 @@ if
 cxArg
 -
 >
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -2014,7 +2014,7 @@ isForkJoinSlice
 cxArg
 -
 >
-asForkJoinSlice
+asForkJoinContext
 (
 )
 -
@@ -5048,7 +5048,7 @@ bool
 ThreadSafeContext
 :
 :
-isForkJoinSlice
+isForkJoinContext
 (
 )
 const
@@ -5060,18 +5060,18 @@ contextKind_
 Context_ForkJoin
 ;
 }
-ForkJoinSlice
+ForkJoinContext
 *
 ThreadSafeContext
 :
 :
-asForkJoinSlice
+asForkJoinContext
 (
 )
 {
 JS_ASSERT
 (
-isForkJoinSlice
+isForkJoinContext
 (
 )
 )
@@ -5079,7 +5079,7 @@ isForkJoinSlice
 return
 reinterpret_cast
 <
-ForkJoinSlice
+ForkJoinContext
 *
 >
 (
