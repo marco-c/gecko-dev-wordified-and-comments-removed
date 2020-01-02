@@ -3215,7 +3215,7 @@ case
 NS_SCROLLPORT_EVENT
 :
 case
-NS_UI_EVENT
+eUIEventClass
 :
 return
 NS_NewDOMUIEvent

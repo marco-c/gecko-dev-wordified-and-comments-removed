@@ -90,7 +90,7 @@ EventClassIDType
 NS_EVENT
 eGUIEventClass
 eInputEventClass
-NS_UI_EVENT
+eUIEventClass
 NS_KEY_EVENT
 NS_COMPOSITION_EVENT
 NS_TEXT_EVENT
@@ -3734,7 +3734,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 nullptr
-NS_UI_EVENT
+eUIEventClass
 )
 detail
 (
@@ -3756,7 +3756,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_UI_EVENT
+eUIEventClass
 "
 Duplicate
 (
