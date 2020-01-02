@@ -34,7 +34,6 @@ host
 rawHost
 type
 capability
-perm
 )
 {
 this
@@ -60,12 +59,6 @@ this
 capability
 =
 capability
-;
-this
-.
-perm
-=
-perm
 ;
 }
 var
@@ -646,10 +639,10 @@ _permissions
 i
 ]
 .
-perm
+capability
 =
 =
-aCapability
+capabilityString
 ;
 break
 ;
@@ -2073,9 +2066,6 @@ aPermission
 .
 type
 capabilityString
-aPermission
-.
-capability
 )
 ;
 this
