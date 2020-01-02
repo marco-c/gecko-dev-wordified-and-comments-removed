@@ -9254,7 +9254,7 @@ sidebar
 /
 >
 <
-button
+toolbarbutton
 id
 =
 "
@@ -9263,6 +9263,13 @@ social
 sidebar
 -
 button
+"
+class
+=
+"
+toolbarbutton
+-
+1
 "
 type
 =
@@ -9510,7 +9517,7 @@ menupopup
 >
 <
 /
-button
+toolbarbutton
 >
 <
 /
