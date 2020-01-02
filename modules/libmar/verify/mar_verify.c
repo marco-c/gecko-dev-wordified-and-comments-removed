@@ -2241,6 +2241,7 @@ i
 {
 CryptoX_FreeSignatureHandle
 (
+&
 signatureHandles
 [
 i
