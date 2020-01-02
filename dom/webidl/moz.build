@@ -1545,6 +1545,11 @@ PushManager
 webidl
 '
 '
+RadioNodeList
+.
+webidl
+'
+'
 Range
 .
 webidl

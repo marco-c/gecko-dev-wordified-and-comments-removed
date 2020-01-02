@@ -427,6 +427,11 @@ MediaError
 h
 '
 '
+RadioNodeList
+.
+h
+'
+'
 TextTrackManager
 .
 h
@@ -823,6 +828,11 @@ cpp
 '
 '
 nsTextEditorState
+.
+cpp
+'
+'
+RadioNodeList
 .
 cpp
 '
