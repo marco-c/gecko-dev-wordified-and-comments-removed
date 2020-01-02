@@ -31,6 +31,9 @@ struct
 RuleProcessorData
 ;
 struct
+ElementDependentRuleProcessorData
+;
+struct
 ElementRuleProcessorData
 ;
 struct
@@ -49,6 +52,9 @@ XULTreeRuleProcessorData
 endif
 struct
 StateRuleProcessorData
+;
+struct
+PseudoElementStateRuleProcessorData
 ;
 struct
 AttributeRuleProcessorData
@@ -166,6 +172,17 @@ nsRestyleHint
 HasStateDependentStyle
 (
 StateRuleProcessorData
+*
+aData
+)
+=
+0
+;
+virtual
+nsRestyleHint
+HasStateDependentStyle
+(
+PseudoElementStateRuleProcessorData
 *
 aData
 )
