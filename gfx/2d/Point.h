@@ -88,6 +88,7 @@ units
 >
 Super
 ;
+MOZ_CONSTEXPR
 IntPointTyped
 (
 )
@@ -210,6 +211,7 @@ units
 >
 Super
 ;
+MOZ_CONSTEXPR
 PointTyped
 (
 )
@@ -219,6 +221,7 @@ Super
 )
 {
 }
+MOZ_CONSTEXPR
 PointTyped
 (
 Float
@@ -234,6 +237,7 @@ aY
 )
 {
 }
+MOZ_CONSTEXPR
 PointTyped
 (
 const
@@ -666,6 +670,7 @@ units
 >
 Super
 ;
+MOZ_CONSTEXPR
 SizeTyped
 (
 )
@@ -675,6 +680,7 @@ Super
 )
 {
 }
+MOZ_CONSTEXPR
 SizeTyped
 (
 Float
