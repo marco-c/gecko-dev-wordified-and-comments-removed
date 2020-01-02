@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+_MOZILLA_GFX_DATASURFACEHELPERS_H
+#
+define
+_MOZILLA_GFX_DATASURFACEHELPERS_H
 #
 include
 "
@@ -65,3 +68,5 @@ aSurface
 ;
 }
 }
+#
+endif
