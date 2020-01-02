@@ -150,6 +150,9 @@ regIndex_
 break
 ;
 case
+MIRType_Float32
+:
+case
 MIRType_Double
 :
 current_
@@ -236,6 +239,9 @@ break
 ;
 case
 MIRType_Double
+:
+case
+MIRType_Float32
 :
 if
 (
