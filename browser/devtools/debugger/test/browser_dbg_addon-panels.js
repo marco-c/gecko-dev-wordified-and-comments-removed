@@ -144,9 +144,6 @@ expectedTabs
 =
 [
 "
-options
-"
-"
 webconsole
 "
 "
