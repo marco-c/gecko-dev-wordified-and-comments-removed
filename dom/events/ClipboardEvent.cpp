@@ -21,7 +21,11 @@ h
 #
 include
 "
-nsDOMDataTransfer
+mozilla
+/
+dom
+/
+DataTransfer
 .
 h
 "
@@ -241,7 +245,7 @@ t
 ;
 nsRefPtr
 <
-nsDOMDataTransfer
+DataTransfer
 >
 clipboardData
 ;
@@ -275,7 +279,7 @@ event
 clipboardData
 =
 new
-nsDOMDataTransfer
+DataTransfer
 (
 NS_COPY
 false
@@ -397,7 +401,7 @@ event
 clipboardData
 =
 new
-nsDOMDataTransfer
+DataTransfer
 (
 NS_COPY
 false
@@ -414,7 +418,7 @@ event
 clipboardData
 =
 new
-nsDOMDataTransfer
+DataTransfer
 (
 event
 -

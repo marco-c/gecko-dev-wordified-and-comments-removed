@@ -281,7 +281,11 @@ h
 #
 include
 "
-nsDOMDataTransfer
+mozilla
+/
+dom
+/
+DataTransfer
 .
 h
 "
@@ -322,13 +326,11 @@ HTMLAreaElement
 h
 "
 using
+namespace
 mozilla
 :
 :
 dom
-:
-:
-HTMLAreaElement
 ;
 class
 MOZ_STACK_CLASS
@@ -354,7 +356,7 @@ aIsAltKeyPressed
 nsresult
 Produce
 (
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 bool
@@ -375,7 +377,7 @@ private
 void
 AddString
 (
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 const
@@ -397,7 +399,7 @@ AddStringsToDataTransfer
 nsIContent
 *
 aDragNode
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 )
@@ -557,7 +559,7 @@ nsIContent
 aSelectionTargetNode
 bool
 aIsAltKeyPressed
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 bool
@@ -1398,7 +1400,7 @@ DragDataProducer
 :
 Produce
 (
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 bool
@@ -2880,7 +2882,7 @@ DragDataProducer
 :
 AddString
 (
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 const
@@ -2942,7 +2944,7 @@ AddStringsToDataTransfer
 nsIContent
 *
 aDragNode
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 )

@@ -120,7 +120,11 @@ h
 #
 include
 "
-nsDOMDataTransfer
+mozilla
+/
+dom
+/
+DataTransfer
 .
 h
 "
@@ -305,6 +309,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 nsresult
 NS_NewDomSelection
@@ -2868,7 +2879,7 @@ true
 ;
 nsRefPtr
 <
-nsDOMDataTransfer
+DataTransfer
 >
 clipboardData
 ;
@@ -2898,7 +2909,7 @@ true
 clipboardData
 =
 new
-nsDOMDataTransfer
+DataTransfer
 (
 aType
 aType

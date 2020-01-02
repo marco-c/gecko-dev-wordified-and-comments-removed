@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDOMDataTransfer
-.
-h
-"
-#
-include
-"
 prtime
 .
 h

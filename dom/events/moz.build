@@ -263,6 +263,11 @@ DataContainerEvent
 h
 '
 '
+DataTransfer
+.
+h
+'
+'
 EventTarget
 .
 h
@@ -340,6 +345,11 @@ DataContainerEvent
 cpp
 '
 '
+DataTransfer
+.
+cpp
+'
+'
 EventTarget
 .
 cpp
@@ -351,11 +361,6 @@ cpp
 '
 '
 nsContentEventHandler
-.
-cpp
-'
-'
-nsDOMDataTransfer
 .
 cpp
 '

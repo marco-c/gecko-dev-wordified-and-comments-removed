@@ -444,7 +444,11 @@ h
 #
 include
 "
-nsDOMDataTransfer
+mozilla
+/
+dom
+/
+DataTransfer
 .
 h
 "
@@ -9081,12 +9085,12 @@ KillClickHoldTimer
 }
 nsRefPtr
 <
-nsDOMDataTransfer
+DataTransfer
 >
 dataTransfer
 =
 new
-nsDOMDataTransfer
+DataTransfer
 (
 NS_DRAGDROP_START
 false
@@ -9413,7 +9417,7 @@ aPresContext
 nsIContent
 *
 aSelectionTarget
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 nsISelection
@@ -9690,7 +9694,7 @@ aPresContext
 WidgetDragEvent
 *
 aDragEvent
-nsDOMDataTransfer
+DataTransfer
 *
 aDataTransfer
 nsIContent
