@@ -1132,6 +1132,7 @@ _inputcontext
 updateSelectionContext
 (
 json
+false
 )
 ;
 }
@@ -2185,6 +2186,7 @@ updateSelectionContext
 json
 .
 selectioninfo
+true
 )
 ;
 }
@@ -2405,6 +2407,7 @@ function
 ic_updateSelectionContext
 (
 ctx
+ownAction
 )
 {
 if
@@ -2537,6 +2540,9 @@ selectionEnd
 ctx
 .
 selectionEnd
+ownAction
+:
+ownAction
 }
 )
 ;
@@ -2564,6 +2570,9 @@ afterString
 ctx
 .
 textAfterCursor
+ownAction
+:
+ownAction
 }
 )
 ;
@@ -2595,14 +2604,14 @@ this
 .
 _window
 .
-Event
+CustomEvent
 (
 eventName
 Cu
 .
 cloneInto
 (
-aDetail
+detail
 this
 .
 _window
