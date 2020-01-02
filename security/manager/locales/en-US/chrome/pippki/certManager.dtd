@@ -364,10 +364,12 @@ By
 ENTITY
 certmgr
 .
-validity
+periodofvalidity
 .
 label
 "
+Period
+of
 Validity
 "
 >
@@ -816,9 +818,9 @@ Device
 ENTITY
 certmgr
 .
-issued
+begins
 "
-Issued
+Begins
 On
 "
 >

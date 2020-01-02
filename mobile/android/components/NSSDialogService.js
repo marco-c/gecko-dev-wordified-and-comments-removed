@@ -1083,7 +1083,7 @@ certInfoSection
 "
 certmgr
 .
-validity
+periodofvalidity
 .
 label
 "
@@ -1091,7 +1091,7 @@ label
 "
 certmgr
 .
-issued
+begins
 "
 aCert
 .

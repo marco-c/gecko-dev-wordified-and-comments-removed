@@ -682,7 +682,7 @@ value
 &
 certmgr
 .
-validity
+periodofvalidity
 .
 label
 ;
@@ -708,7 +708,7 @@ value
 &
 certmgr
 .
-issued
+begins
 ;
 "
 /
