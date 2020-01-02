@@ -2424,7 +2424,7 @@ IsForImageVisibility
 presShell
 -
 >
-RebuildImageVisibility
+RebuildImageVisibilityDisplayList
 (
 childItems
 )
