@@ -6979,14 +6979,6 @@ empty
 return
 ;
 }
-if
-(
-mCanceled
-)
-{
-return
-;
-}
 autoUnpin
 .
 Clear
