@@ -712,7 +712,7 @@ generateQI
 [
 Ci
 .
-nsIHttpActivityOberver
+nsIHttpActivityObserver
 Ci
 .
 nsITimerCallback
