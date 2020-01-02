@@ -4069,9 +4069,6 @@ let
 overflowTarget
 =
 areaNode
-&
-&
-areaNode
 .
 getAttribute
 (
