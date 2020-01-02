@@ -356,17 +356,6 @@ getWebIDLCallerPrincipal
 origin
 ;
 }
-convertSVS
-:
-function
-(
-svs
-)
-{
-return
-svs
-;
-}
 }
 ;
 this
