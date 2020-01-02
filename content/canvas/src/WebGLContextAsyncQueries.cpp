@@ -196,7 +196,7 @@ mActiveOcclusionQuery
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -315,7 +315,7 @@ mActiveOcclusionQuery
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )

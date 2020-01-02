@@ -69,7 +69,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 &

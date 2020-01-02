@@ -928,7 +928,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -4090,7 +4090,7 @@ rbInternalFormat
 mGL
 -
 >
-IsGLES2
+IsGLES
 (
 )
 ?

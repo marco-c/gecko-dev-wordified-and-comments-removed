@@ -11275,7 +11275,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -11294,7 +11294,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -11313,7 +11313,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 |
@@ -13989,7 +13989,7 @@ targetShaderSourceLanguage
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 ?
@@ -16631,7 +16631,7 @@ LOCAL_GL_HALF_FLOAT_OES
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -17022,7 +17022,7 @@ type
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
@@ -17033,7 +17033,7 @@ if
 gl
 -
 >
-IsGLES2
+IsGLES
 (
 )
 )
