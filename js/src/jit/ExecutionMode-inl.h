@@ -295,12 +295,6 @@ DefinitePropertiesAnalysis
 return
 true
 ;
-case
-ArgumentsUsageAnalysis
-:
-return
-true
-;
 default
 :
 ;
