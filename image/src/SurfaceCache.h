@@ -358,6 +358,12 @@ ImageKey
 aImageKey
 )
 ;
+static
+void
+DiscardAll
+(
+)
+;
 private
 :
 virtual
