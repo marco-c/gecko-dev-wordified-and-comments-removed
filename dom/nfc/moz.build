@@ -116,6 +116,14 @@ nsNfc
 manifest
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+tests
+'
+]
 FAIL_ON_WARNINGS
 =
 True
