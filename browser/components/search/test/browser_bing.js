@@ -185,7 +185,7 @@ base
 &
 form
 =
-MOZSBR
+MOZCON
 "
 "
 Check
@@ -941,7 +941,7 @@ form
 value
 :
 "
-MOZSBR
+MOZCON
 "
 purpose
 :
