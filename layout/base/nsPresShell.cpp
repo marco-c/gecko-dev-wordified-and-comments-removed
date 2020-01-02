@@ -30474,7 +30474,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 WidgetTouchEvent
@@ -31387,7 +31387,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 retargetEventDoc
@@ -31642,7 +31642,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 nsIDocument
@@ -32021,7 +32021,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 &
 &
 aEvent
@@ -35424,7 +35424,7 @@ aEvent
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 DispatchTouchEvent

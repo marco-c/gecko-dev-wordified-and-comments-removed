@@ -506,7 +506,7 @@ message
 aOther
 .
 widget
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 modifiers
@@ -567,7 +567,7 @@ WidgetInputEvent
 aIsTrusted
 aMessage
 aWidget
-NS_TOUCH_EVENT
+eTouchEventClass
 )
 {
 MOZ_COUNT_CTOR
@@ -611,7 +611,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 "
 Duplicate
 (

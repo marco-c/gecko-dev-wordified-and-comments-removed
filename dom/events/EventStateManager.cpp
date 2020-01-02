@@ -5000,7 +5000,7 @@ AsWheelEvent
 ;
 }
 case
-NS_TOUCH_EVENT
+eTouchEventClass
 :
 {
 *
@@ -5305,7 +5305,7 @@ false
 ;
 }
 case
-NS_TOUCH_EVENT
+eTouchEventClass
 :
 switch
 (
@@ -5403,7 +5403,7 @@ aEvent
 mClass
 !
 =
-NS_TOUCH_EVENT
+eTouchEventClass
 |
 |
 aEvent
