@@ -364,7 +364,7 @@ ViewHiding
 "
 ]
 ;
-const
+let
 kVersion
 =
 0
