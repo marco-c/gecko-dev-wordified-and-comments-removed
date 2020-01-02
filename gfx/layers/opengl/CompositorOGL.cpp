@@ -4272,10 +4272,7 @@ IntSize
 width
 height
 )
-ThebesMatrix
-(
 aTransform
-)
 )
 ;
 mCurrentRenderTarget
@@ -7368,10 +7365,7 @@ MakeCurrent
 CopyToTarget
 (
 mTarget
-ThebesMatrix
-(
 aTransform
-)
 )
 ;
 mGLContext
@@ -7453,7 +7447,10 @@ DrawTarget
 *
 aTarget
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aTransform
 )
@@ -7669,10 +7666,7 @@ Unmap
 Matrix
 glToCairoTransform
 =
-ToMatrix
-(
 aTransform
-)
 ;
 glToCairoTransform
 .

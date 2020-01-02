@@ -223,9 +223,6 @@ gfx3DMatrix
 class
 nsIWidget
 ;
-struct
-gfxMatrix
-;
 namespace
 mozilla
 {
@@ -1288,7 +1285,10 @@ DrawTarget
 *
 aTarget
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aWorldMatrix
 )
