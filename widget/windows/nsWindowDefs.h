@@ -108,6 +108,15 @@ SM_CXPADDEDBORDER
 endif
 #
 ifndef
+SM_MAXIMUMTOUCHES
+#
+define
+SM_MAXIMUMTOUCHES
+95
+#
+endif
+#
+ifndef
 WM_THEMECHANGED
 #
 define
