@@ -261,10 +261,6 @@ Promise
 aPromise
 uint32_t
 aServiceId
-const
-nsAString
-&
-aNumber
 )
 :
 mTelephony
@@ -1131,7 +1127,6 @@ Callback
 this
 promise
 aServiceId
-aNumber
 )
 ;
 nsresult
