@@ -1731,13 +1731,6 @@ uint32_t
 aMsg
 )
 ;
-bool
-DispatchCommandEvent
-(
-uint32_t
-aEventCommand
-)
-;
 void
 RelayMouseEvent
 (
