@@ -13,6 +13,8 @@ tempfile
 import
 threading
 import
+time
+import
 traceback
 here
 =
@@ -959,6 +961,13 @@ status
 except
 :
             
+time
+.
+sleep
+(
+5
+)
+            
 traceback
 .
 print_exc
@@ -995,6 +1004,13 @@ check_for_crashes
 status
 =
 1
+        
+time
+.
+sleep
+(
+5
+)
         
 self
 .
