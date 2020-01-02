@@ -37,9 +37,6 @@ mozilla
 namespace
 gmp
 {
-class
-GMPChild
-;
 void
 InitPlatformAPI
 (

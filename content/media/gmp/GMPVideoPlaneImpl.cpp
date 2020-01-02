@@ -244,7 +244,7 @@ return
 true
 ;
 }
-GMPErr
+GMPVideoErr
 GMPPlaneImpl
 :
 :
@@ -265,7 +265,7 @@ AllocatedSize
 )
 {
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 }
 if
@@ -275,7 +275,7 @@ mHost
 )
 {
 return
-GMPGenericErr
+GMPVideoGenericErr
 ;
 }
 ipc
@@ -297,10 +297,6 @@ SharedMemMgr
 >
 MgrAllocShmem
 (
-GMPSharedMemManager
-:
-:
-kGMPFrameData
 aNewSize
 ipc
 :
@@ -326,7 +322,7 @@ uint8_t
 )
 {
 return
-GMPAllocErr
+GMPVideoAllocErr
 ;
 }
 if
@@ -364,7 +360,7 @@ mBuffer
 new_mem
 ;
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 }
 void
@@ -397,10 +393,6 @@ SharedMemMgr
 >
 MgrDeallocShmem
 (
-GMPSharedMemManager
-:
-:
-kGMPFrameData
 mBuffer
 )
 ;
@@ -415,7 +407,7 @@ Shmem
 )
 ;
 }
-GMPErr
+GMPVideoErr
 GMPPlaneImpl
 :
 :
@@ -447,10 +439,10 @@ aPlaneSize
 )
 {
 return
-GMPGenericErr
+GMPVideoGenericErr
 ;
 }
-GMPErr
+GMPVideoErr
 err
 =
 MaybeResize
@@ -463,7 +455,7 @@ if
 err
 !
 =
-GMPNoErr
+GMPVideoNoErr
 )
 {
 return
@@ -479,10 +471,10 @@ mStride
 aStride
 ;
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 }
-GMPErr
+GMPVideoErr
 GMPPlaneImpl
 :
 :
@@ -508,7 +500,7 @@ GMPPlaneImpl
 aPlane
 )
 ;
-GMPErr
+GMPVideoErr
 err
 =
 MaybeResize
@@ -523,7 +515,7 @@ if
 err
 !
 =
-GMPNoErr
+GMPVideoNoErr
 )
 {
 return
@@ -573,10 +565,10 @@ planeimpl
 mStride
 ;
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 }
-GMPErr
+GMPVideoErr
 GMPPlaneImpl
 :
 :
@@ -592,7 +584,7 @@ uint8_t
 aBuffer
 )
 {
-GMPErr
+GMPVideoErr
 err
 =
 MaybeResize
@@ -605,7 +597,7 @@ if
 err
 !
 =
-GMPNoErr
+GMPVideoNoErr
 )
 {
 return
@@ -641,7 +633,7 @@ mStride
 aStride
 ;
 return
-GMPNoErr
+GMPVideoNoErr
 ;
 }
 void

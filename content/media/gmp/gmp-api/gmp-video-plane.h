@@ -9,6 +9,8 @@ include
 "
 gmp
 -
+video
+-
 errors
 .
 h
@@ -26,7 +28,7 @@ GMPPlane
 public
 :
 virtual
-GMPErr
+GMPVideoErr
 CreateEmptyPlane
 (
 int32_t
@@ -40,7 +42,7 @@ aPlaneSize
 0
 ;
 virtual
-GMPErr
+GMPVideoErr
 Copy
 (
 const
@@ -52,7 +54,7 @@ aPlane
 0
 ;
 virtual
-GMPErr
+GMPVideoErr
 Copy
 (
 int32_t

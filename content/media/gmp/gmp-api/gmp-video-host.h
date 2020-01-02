@@ -9,6 +9,8 @@ include
 "
 gmp
 -
+video
+-
 errors
 .
 h
@@ -56,7 +58,7 @@ GMPVideoHost
 public
 :
 virtual
-GMPErr
+GMPVideoErr
 CreateFrame
 (
 GMPVideoFrameFormat
@@ -70,7 +72,7 @@ aFrame
 0
 ;
 virtual
-GMPErr
+GMPVideoErr
 CreatePlane
 (
 GMPPlane
