@@ -466,6 +466,10 @@ IntPoint
 )
 )
 ;
+mSurface
+=
+nullptr
+;
 }
 return
 ;
