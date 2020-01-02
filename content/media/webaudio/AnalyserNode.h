@@ -83,6 +83,15 @@ aArray
 )
 ;
 void
+GetFloatTimeDomainData
+(
+const
+Float32Array
+&
+aArray
+)
+;
+void
 GetByteTimeDomainData
 (
 const

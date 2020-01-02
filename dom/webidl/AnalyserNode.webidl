@@ -186,6 +186,13 @@ time
 waveform
 data
 void
+getFloatTimeDomainData
+(
+Float32Array
+array
+)
+;
+void
 getByteTimeDomainData
 (
 Uint8Array
