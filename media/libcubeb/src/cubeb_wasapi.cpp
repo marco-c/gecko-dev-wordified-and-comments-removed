@@ -2720,6 +2720,13 @@ nChannels
 return
 ;
 }
+WAVEFORMATEX
+hw_mixformat
+=
+*
+*
+mix_format
+;
 if
 (
 (
@@ -2998,6 +3005,12 @@ hr
 AUDCLNT_E_UNSUPPORTED_FORMAT
 )
 {
+*
+*
+mix_format
+=
+hw_mixformat
+;
 }
 else
 if
