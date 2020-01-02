@@ -710,6 +710,15 @@ data
 =
 CommonUtils
 .
+encodeUTF8
+(
+data
+)
+;
+data
+=
+CommonUtils
+.
 convertString
 (
 data
