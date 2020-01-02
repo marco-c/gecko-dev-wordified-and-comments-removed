@@ -985,7 +985,7 @@ aResult
 AppendLiteral
 (
 "
-var
+-
 -
 "
 )

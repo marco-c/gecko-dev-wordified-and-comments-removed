@@ -25027,7 +25027,7 @@ name
 Substring
 (
 aPropertyName
-4
+CSS_CUSTOM_NAME_PREFIX_LENGTH
 )
 ;
 if

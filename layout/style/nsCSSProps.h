@@ -34,6 +34,10 @@ h
 "
 #
 define
+CSS_CUSTOM_NAME_PREFIX_LENGTH
+2
+#
+define
 VARIANT_KEYWORD
 0x000001
 /
