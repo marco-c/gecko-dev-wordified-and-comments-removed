@@ -10,6 +10,11 @@ mozconfigs
 /
 common
 "
+#
+Use
+sccache
+no_sccache
+=
 .
 topsrcdir
 /
@@ -137,12 +142,6 @@ ac_add_options
 enable
 -
 debug
-ac_add_options
--
--
-with
--
-ccache
 ENABLE_MARIONETTE
 =
 1
