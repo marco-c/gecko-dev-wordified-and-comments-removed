@@ -66,6 +66,7 @@ network
 .
 enabled
 "
+NoInterfaceObject
 ]
 interface
 MozConnection
