@@ -7218,7 +7218,11 @@ isperm
 )
 {
 return
-NS_OK
+SetCertTrustFromString
+(
+newCert
+aTrust
+)
 ;
 }
 nsXPIDLCString
