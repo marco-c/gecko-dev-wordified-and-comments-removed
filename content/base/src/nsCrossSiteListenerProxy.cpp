@@ -415,7 +415,7 @@ spec
 )
 ;
 const
-PRUnichar
+char16_t
 *
 params
 [
