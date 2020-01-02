@@ -4,31 +4,25 @@ strict
 '
 ;
 const
-Cu
-=
-Components
-.
-utils
-;
-const
-Cc
-=
-Components
-.
+{
 classes
-;
-const
+:
+Cc
+utils
+:
+Cu
+interfaces
+:
 Ci
+}
 =
 Components
-.
-interfaces
 ;
 Cu
 .
 import
 (
-"
+'
 resource
 :
 /
@@ -40,7 +34,7 @@ modules
 XPCOMUtils
 .
 jsm
-"
+'
 )
 ;
 XPCOMUtils
@@ -329,6 +323,7 @@ this
 .
 _win
 )
+{
 throw
 new
 Error
@@ -347,6 +342,7 @@ AccessFu
 '
 )
 ;
+}
 this
 .
 _win
@@ -519,6 +515,7 @@ this
 .
 _buildApp
 )
+{
 this
 .
 _buildApp
@@ -534,6 +531,7 @@ appinfo
 ID
 ]
 ;
+}
 return
 this
 .
@@ -552,6 +550,7 @@ this
 .
 _OS
 )
+{
 this
 .
 _OS
@@ -562,6 +561,7 @@ appinfo
 .
 OS
 ;
+}
 return
 this
 .
@@ -580,6 +580,7 @@ this
 .
 _widgetToolkit
 )
+{
 this
 .
 _widgetToolkit
@@ -590,6 +591,7 @@ appinfo
 .
 widgetToolkit
 ;
+}
 return
 this
 .
@@ -608,6 +610,7 @@ this
 .
 _ScriptName
 )
+{
 this
 .
 _ScriptName
@@ -631,6 +634,7 @@ AccessFuContent
 AccessFu
 '
 ;
+}
 return
 this
 .
@@ -806,6 +810,7 @@ MozBuildApp
 b2g
 '
 )
+{
 return
 this
 .
@@ -813,6 +818,7 @@ BrowserApp
 .
 contentBrowser
 ;
+}
 return
 this
 .
@@ -890,9 +896,9 @@ i
 ;
 if
 (
-"
+'
 sendAsyncMessage
-"
+'
 in
 childMM
 )
@@ -2422,8 +2428,10 @@ this
 .
 logLevel
 )
+{
 return
 ;
+}
 let
 args
 =
@@ -3148,8 +3156,10 @@ this
 .
 logLevel
 )
+{
 return
 ;
+}
 this
 .
 _dumpTreeInternal
@@ -3178,7 +3188,7 @@ indentStr
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3191,12 +3201,14 @@ i
 +
 +
 )
+{
 indentStr
 +
 =
 '
 '
 ;
+}
 this
 .
 log
@@ -3227,7 +3239,7 @@ aAccessible
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3242,6 +3254,7 @@ i
 +
 +
 )
+{
 this
 .
 _dumpTreeInternal
@@ -3258,6 +3271,7 @@ aIndent
 1
 )
 ;
+}
 }
 }
 ;
@@ -3337,6 +3351,7 @@ _includeInvisible
 aIncludeInvisible
 ;
 }
+;
 PivotContext
 .
 prototype
@@ -3894,6 +3909,7 @@ _newAncestry
 _traverse
 :
 function
+*
 _traverse
 (
 aAccessible
@@ -4195,6 +4211,7 @@ let
 getHeaders
 =
 function
+*
 getHeaders
 (
 aHeaderCells
@@ -4886,8 +4903,6 @@ function
 observe
 (
 aSubject
-aTopic
-aData
 )
 {
 this
@@ -5099,6 +5114,7 @@ result
 [
 aName
 ]
+=
 =
 =
 undefined
