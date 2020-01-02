@@ -125,7 +125,7 @@ fxaccount_textColorSubdued
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -139,7 +139,7 @@ fxaccount_linkified_textColor
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -153,7 +153,7 @@ fxaccount_linkified_textColorLink
 "
 >
 #
-0096dd
+0095dd
 <
 /
 color
@@ -167,7 +167,7 @@ fxaccount_linkified_textColorLinkSubdued
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -223,7 +223,7 @@ fxaccount_button_background_active
 "
 >
 #
-e66000
+0095dd
 <
 /
 color
@@ -237,21 +237,7 @@ fxaccount_button_background_hit
 "
 >
 #
-fd9500
-<
-/
-color
->
-<
-color
-name
-=
-"
-fxaccount_button_background_loading
-"
->
-#
-424f59
+0088cc
 <
 /
 color
@@ -265,7 +251,7 @@ fxaccount_button_background_inactive
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -307,7 +293,7 @@ fxaccount_input_textColor_inactive
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -321,7 +307,7 @@ fxaccount_input_textColorHint
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -335,7 +321,7 @@ fxaccount_link_textColor
 "
 >
 #
-0096dd
+0095dd
 <
 /
 color
@@ -349,7 +335,7 @@ fxaccount_link_textColor_pressed
 "
 >
 #
-00767d
+0088cc
 <
 /
 color
@@ -363,7 +349,7 @@ fxaccount_link_textColor_inactive
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -377,7 +363,7 @@ fxaccount_input_borderActive
 "
 >
 #
-6a7b86
+0095dd
 <
 /
 color
@@ -391,7 +377,7 @@ fxaccount_input_borderInactive
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -405,7 +391,7 @@ fxaccount_password_show_textcolor
 "
 >
 #
-c0c9d0
+8a9ba8
 <
 /
 color
@@ -447,7 +433,7 @@ fxaccount_password_hide_backgroundcolor
 "
 >
 #
-424f59
+8a9ba8
 <
 /
 color
