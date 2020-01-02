@@ -2731,6 +2731,14 @@ nsIWidget
 widget
 )
 ;
+WidgetMouseEvent
+MakeMouseEvent
+(
+nsIWidget
+*
+widget
+)
+;
 void
 UnionRect
 (
