@@ -14,6 +14,13 @@ nsContainerFrame
 .
 h
 "
+#
+include
+"
+nsIFrameInlines
+.
+h
+"
 class
 nsColumnSetFrame
 :
@@ -188,7 +195,10 @@ nsContainerFrame
 StealFrame
 (
 aChild
-true
+IS_TRUE_OVERFLOW_CONTAINER
+(
+aChild
+)
 )
 ;
 }
