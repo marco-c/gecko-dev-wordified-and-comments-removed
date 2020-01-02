@@ -24,6 +24,10 @@ run_test
 (
 )
 {
+do_get_profile
+(
+)
+;
 if
 (
 !
@@ -61,10 +65,6 @@ different
 return
 ;
 }
-do_get_profile
-(
-)
-;
 asyncOpenCacheEntry
 (
 "
