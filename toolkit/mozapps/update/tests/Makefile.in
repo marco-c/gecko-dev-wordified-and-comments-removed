@@ -256,6 +256,8 @@ unit_aus_update
 head_update
 .
 js
+ifdef
+MOZ_MAINTENANCE_SERVICE
 INSTALL_TARGETS
 +
 =
@@ -300,6 +302,9 @@ unit_aus_update
 head_update
 .
 js
+endif
+#
+MOZ_MAINTENANCE_SERVICE
 ifndef
 MOZ_PROFILE_GENERATE
 ifdef
