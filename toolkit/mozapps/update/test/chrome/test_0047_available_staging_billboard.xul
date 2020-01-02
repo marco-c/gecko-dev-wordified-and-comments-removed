@@ -326,12 +326,12 @@ url
 ;
 setupTimer
 (
-90000
+180000
 )
 ;
 /
 /
-90
+180
 seconds
 gAUS
 .
