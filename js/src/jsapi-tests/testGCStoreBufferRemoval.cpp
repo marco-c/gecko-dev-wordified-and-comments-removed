@@ -115,9 +115,13 @@ cx
 obj
 )
 ;
-{
+typedef
 JSObject
 *
+ObjectPtr
+;
+{
+ObjectPtr
 badObject
 =
 reinterpret_cast
@@ -129,8 +133,7 @@ JSObject
 1
 )
 ;
-JSObject
-*
+ObjectPtr
 punnedPtr
 =
 nullptr
@@ -424,8 +427,7 @@ runtime
 ;
 }
 {
-JSObject
-*
+ObjectPtr
 badObject
 =
 reinterpret_cast
@@ -437,8 +439,7 @@ JSObject
 1
 )
 ;
-JSObject
-*
+ObjectPtr
 punnedPtr
 =
 nullptr
