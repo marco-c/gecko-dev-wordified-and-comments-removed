@@ -1175,11 +1175,6 @@ LegacyQueryInterface
 webidl
 '
 '
-LinkImport
-.
-webidl
-'
-'
 LinkStyle
 .
 webidl
