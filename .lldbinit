@@ -228,3 +228,17 @@ var
 mText
 }
 "
+#
+Dump
+the
+current
+JS
+stack
+.
+command
+alias
+js
+expr
+DumpJSStack
+(
+)
