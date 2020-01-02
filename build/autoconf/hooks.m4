@@ -297,6 +297,13 @@ dump
 _CONFIG_SHELL
 "
 )
+else
+mkdir
+-
+p
+"
+1
+"
 fi
 2
 (
