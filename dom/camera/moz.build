@@ -106,12 +106,16 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-TEST_DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 test
+/
+mochitest
+.
+ini
 '
 ]
 EXPORTS

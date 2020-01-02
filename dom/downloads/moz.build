@@ -101,12 +101,16 @@ MOZ_B2G
 "
 ]
 :
-TEST_DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 tests
+/
+mochitest
+.
+ini
 '
 ]
 PARALLEL_DIRS

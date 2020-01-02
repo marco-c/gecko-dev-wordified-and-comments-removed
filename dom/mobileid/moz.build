@@ -104,11 +104,15 @@ interfaces
 src
 '
 ]
-TEST_DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 test
+/
+mochitest
+.
+ini
 '
 ]
