@@ -587,6 +587,13 @@ Drain
 (
 )
 {
+mCallback
+-
+>
+DrainComplete
+(
+)
+;
 return
 NS_OK
 ;

@@ -477,6 +477,13 @@ ProcessOutput
 (
 )
 ;
+mCallback
+-
+>
+DrainComplete
+(
+)
+;
 }
 nsresult
 WMFMediaDataDecoder

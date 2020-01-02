@@ -233,6 +233,14 @@ InputExhausted
 =
 0
 ;
+virtual
+void
+DrainComplete
+(
+)
+=
+0
+;
 }
 ;
 class
