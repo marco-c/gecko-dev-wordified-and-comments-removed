@@ -196,7 +196,7 @@ JS_THREADSAFE
 )
 skipGCRooters
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -425,7 +425,7 @@ JSFunction
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_FRIEND_API
@@ -566,7 +566,7 @@ Class
 *
 )
 clasp
-NULL
+nullptr
 parent
 SingletonObject
 )
@@ -578,7 +578,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -591,7 +591,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -1013,7 +1013,7 @@ compartment
 >
 principals
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1976,7 +1976,7 @@ done
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1988,7 +1988,7 @@ isFunctionFrame
 )
 )
 return
-NULL
+nullptr
 ;
 RootedFunction
 scriptedCaller
@@ -2149,7 +2149,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -2277,7 +2277,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 }
 JSFunction
@@ -2511,7 +2511,7 @@ ps
 fs
 static_ps
 static_fs
-NULL
+nullptr
 JSFunction
 :
 :
@@ -3197,7 +3197,7 @@ key
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_FRIEND_API
@@ -5251,9 +5251,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -5263,7 +5263,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5275,7 +5275,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -5364,7 +5364,7 @@ void
 *
 gDOMProxyHandlerFamily
 =
-NULL
+nullptr
 ;
 static
 uint32_t
@@ -5468,7 +5468,7 @@ id
 =
 INTERNED_STRING_TO_JSID
 (
-NULL
+nullptr
 atom
 )
 ;

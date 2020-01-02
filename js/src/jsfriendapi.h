@@ -793,12 +793,12 @@ define
 JS_FS_HELP_END
 \
 {
-NULL
-NULL
+nullptr
+nullptr
 0
 0
-NULL
-NULL
+nullptr
+nullptr
 }
 extern
 JS_FRIEND_API
@@ -5200,7 +5200,7 @@ op
 \
 {
 {
-NULL
+nullptr
 }
 0
 0
@@ -5794,7 +5794,7 @@ endType
 ;
 callback
 =
-NULL
+nullptr
 ;
 }
 }

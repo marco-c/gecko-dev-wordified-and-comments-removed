@@ -748,7 +748,7 @@ hasGuessedAtom
 (
 )
 ?
-NULL
+nullptr
 :
 atom_
 .
@@ -776,7 +776,7 @@ hasGuessedAtom
 !
 atom_
 ?
-NULL
+nullptr
 :
 atom_
 -
@@ -826,7 +826,7 @@ JS_ASSERT
 atom_
 =
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -834,7 +834,7 @@ JS_ASSERT
 atom
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -1062,7 +1062,7 @@ self
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -1575,7 +1575,7 @@ isInterpreted
 (
 )
 ?
-NULL
+nullptr
 :
 native
 (
@@ -1619,7 +1619,7 @@ parallelNative
 (
 )
 :
-NULL
+nullptr
 ;
 }
 void

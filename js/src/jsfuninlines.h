@@ -86,7 +86,7 @@ if
 parent
 )
 return
-NULL
+nullptr
 ;
 while
 (
@@ -272,7 +272,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 fun
 -

@@ -457,7 +457,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_FUNCTION_ARGUMENTS_AND_REST
 )
 ;
@@ -475,7 +475,7 @@ JSREPORT_WARNING
 |
 JSREPORT_STRICT
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEPRECATED_USAGE
 js_arguments_str
 )
@@ -789,7 +789,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CALLER_IS_STRICT
 )
 ;
@@ -1173,7 +1173,7 @@ if
 objProto
 )
 return
-NULL
+nullptr
 ;
 const
 Class
@@ -1195,7 +1195,7 @@ NewObjectWithGivenProto
 cx
 clasp
 objProto
-NULL
+nullptr
 SingletonObject
 )
 )
@@ -1206,7 +1206,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 protoVal
@@ -1245,7 +1245,7 @@ JSPROP_PERMANENT
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1291,7 +1291,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1541,7 +1541,7 @@ atom
 )
 =
 =
-NULL
+nullptr
 ?
 cx
 -
@@ -1939,7 +1939,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_SCRIPTED_FUNCTION
 name
 )
@@ -2058,7 +2058,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2099,7 +2099,7 @@ cx
 NullPtr
 (
 )
-NULL
+nullptr
 0
 JSFunction
 :
@@ -2129,11 +2129,11 @@ false
 ;
 atom
 =
-NULL
+nullptr
 ;
 script
 =
-NULL
+nullptr
 ;
 }
 if
@@ -2362,7 +2362,7 @@ JSObject
 *
 cloneProto
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2395,7 +2395,7 @@ if
 cloneProto
 )
 return
-NULL
+nullptr
 ;
 }
 RootedFunction
@@ -2408,7 +2408,7 @@ cx
 NullPtr
 (
 )
-NULL
+nullptr
 0
 JSFunction
 :
@@ -2435,7 +2435,7 @@ if
 clone
 )
 return
-NULL
+nullptr
 ;
 RootedScript
 srcScript
@@ -2468,7 +2468,7 @@ if
 clonedScript
 )
 return
-NULL
+nullptr
 ;
 clone
 -
@@ -2532,7 +2532,7 @@ clone
 )
 )
 return
-NULL
+nullptr
 ;
 RootedScript
 cloneScript
@@ -2932,11 +2932,11 @@ js
 :
 fun_resolve
 JS_ConvertStub
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 fun_hasInstance
-NULL
+nullptr
 fun_trace
 }
 ;
@@ -3029,7 +3029,7 @@ get
 (
 )
 length
-NULL
+nullptr
 )
 ;
 int
@@ -3318,7 +3318,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3483,7 +3483,7 @@ append
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3545,7 +3545,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3591,7 +3591,7 @@ function
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3620,7 +3620,7 @@ atom
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -3681,7 +3681,7 @@ haveSource
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3708,7 +3708,7 @@ if
 srcStr
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -3733,7 +3733,7 @@ if
 src
 )
 return
-NULL
+nullptr
 ;
 StableCharPtr
 chars
@@ -3911,7 +3911,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 BindingVector
 *
@@ -3947,7 +3947,7 @@ localNames
 )
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -4042,7 +4042,7 @@ name
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4062,7 +4062,7 @@ n
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4118,7 +4118,7 @@ bodyEnd
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -4150,7 +4150,7 @@ bodyStart
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4175,7 +4175,7 @@ strict
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -4203,7 +4203,7 @@ n
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4237,7 +4237,7 @@ bodyStart
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -4253,7 +4253,7 @@ src
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4276,7 +4276,7 @@ n
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -4300,7 +4300,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -4340,7 +4340,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4420,7 +4420,7 @@ n
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4456,7 +4456,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -4528,7 +4528,7 @@ n
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -4593,7 +4593,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 js_Function_str
 js_toString_str
@@ -4603,7 +4603,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedFunction
@@ -5567,7 +5567,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_APPLY_ARGS
 js_apply_str
 )
@@ -5619,7 +5619,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TOO_MANY_FUN_APPLY_ARGS
 )
 ;
@@ -6050,7 +6050,7 @@ fun
 >
 initScript
 (
-NULL
+nullptr
 )
 ;
 if
@@ -6922,7 +6922,7 @@ Value
 *
 boundArgs
 =
-NULL
+nullptr
 ;
 unsigned
 argslen
@@ -7125,7 +7125,7 @@ atom
 (
 )
 :
-NULL
+nullptr
 )
 ;
 RootedObject
@@ -7155,7 +7155,7 @@ if
 funobj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7171,7 +7171,7 @@ target
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7195,7 +7195,7 @@ argslen
 )
 )
 return
-NULL
+nullptr
 ;
 return
 funobj
@@ -7223,7 +7223,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_FORMAL
 )
 ;
@@ -7374,7 +7374,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CSP_BLOCKED_FUNCTION
 )
 ;
@@ -7801,7 +7801,7 @@ get
 (
 )
 args_length
-NULL
+nullptr
 )
 ;
 bool
@@ -8203,7 +8203,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8239,7 +8239,7 @@ cx
 NullPtr
 (
 )
-NULL
+nullptr
 0
 JSFunction
 :
@@ -8452,7 +8452,7 @@ nargs
 flags
 parent
 atom
-NULL
+nullptr
 allocKind
 newKind
 )
@@ -8661,7 +8661,7 @@ if
 funobj
 )
 return
-NULL
+nullptr
 ;
 }
 RootedFunction
@@ -8722,7 +8722,7 @@ mutableScript
 .
 init
 (
-NULL
+nullptr
 )
 ;
 fun
@@ -8757,7 +8757,7 @@ fun
 initNative
 (
 native
-NULL
+nullptr
 )
 ;
 }
@@ -8903,7 +8903,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 NewObjectKind
 newKind
@@ -8918,7 +8918,7 @@ JSObject
 *
 cloneProto
 =
-NULL
+nullptr
 ;
 if
 (
@@ -8951,7 +8951,7 @@ if
 cloneProto
 )
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -8981,7 +8981,7 @@ if
 cloneobj
 )
 return
-NULL
+nullptr
 ;
 RootedFunction
 clone
@@ -9290,7 +9290,7 @@ newKindArg
 )
 )
 return
-NULL
+nullptr
 ;
 return
 cloneRoot
@@ -9360,11 +9360,11 @@ else
 {
 gop
 =
-NULL
+nullptr
 ;
 sop
 =
-NULL
+nullptr
 ;
 }
 JSFunction
@@ -9407,7 +9407,7 @@ JSID_TO_ATOM
 id
 )
 :
-NULL
+nullptr
 )
 ;
 fun
@@ -9433,7 +9433,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 funVal
@@ -9467,7 +9467,7 @@ JSFUN_FLAGS_MASK
 )
 )
 return
-NULL
+nullptr
 ;
 return
 fun
@@ -9558,7 +9558,7 @@ getClass
 construct
 !
 =
-NULL
+nullptr
 ;
 }
 void
@@ -9791,7 +9791,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 clasp
 -
@@ -9860,7 +9860,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_METHOD
 funName
 "
@@ -10090,7 +10090,7 @@ getClass
 construct
 !
 =
-NULL
+nullptr
 )
 ;
 }
