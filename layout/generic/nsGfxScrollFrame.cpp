@@ -5521,6 +5521,8 @@ nullptr
 )
 {
 }
+private
+:
 ~
 AsyncScroll
 (
@@ -5531,6 +5533,8 @@ RemoveObserver
 )
 ;
 }
+public
+:
 nsPoint
 PositionAt
 (

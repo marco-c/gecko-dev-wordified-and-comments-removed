@@ -411,6 +411,7 @@ mColor
 ;
 class
 nsStyleGradient
+MOZ_FINAL
 {
 public
 :
@@ -2557,6 +2558,7 @@ aOther
 ;
 class
 nsCSSShadowArray
+MOZ_FINAL
 {
 public
 :
@@ -2638,6 +2640,8 @@ nsCSSShadowItem
 ;
 }
 }
+private
+:
 ~
 nsCSSShadowArray
 (
@@ -2676,6 +2680,8 @@ nsCSSShadowItem
 ;
 }
 }
+public
+:
 uint32_t
 Length
 (
