@@ -154,6 +154,9 @@ CreateFactoryIfNeeded
 nsresult
 UpgradeSchema
 (
+nsIDOMEvent
+*
+aEvent
 )
 ;
 nsresult
@@ -232,6 +235,9 @@ Sequence
 nsString
 >
 mObjectStores
+;
+bool
+mCreatedSchema
 ;
 }
 ;

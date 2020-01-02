@@ -47,6 +47,14 @@ void
 =
 0
 ;
+enum
+RunStatus
+{
+Success
+CreatedSchema
+Error
+}
+;
 virtual
 void
 Run
@@ -54,8 +62,8 @@ Run
 DataStoreDB
 *
 aDb
-bool
-aSuccess
+RunStatus
+aStatus
 )
 =
 0
