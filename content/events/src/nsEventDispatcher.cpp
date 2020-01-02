@@ -3462,13 +3462,11 @@ NS_NewDOMSimpleGestureEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetSimpleGestureEvent
-*
->
-(
 aEvent
+-
+>
+AsSimpleGestureEvent
+(
 )
 )
 ;
