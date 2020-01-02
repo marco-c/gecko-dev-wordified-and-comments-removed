@@ -793,12 +793,12 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS3
 (
 Service
-MemoryMultiReporter
 mozIStorageService
 nsIObserver
+nsIMemoryReporter
 )
 Service
 *

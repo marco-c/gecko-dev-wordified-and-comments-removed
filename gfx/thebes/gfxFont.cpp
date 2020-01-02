@@ -6028,6 +6028,14 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 FontCacheMallocSizeOf
 )
+NS_IMPL_ISUPPORTS1
+(
+gfxFontCache
+:
+:
+MemoryReporter
+nsIMemoryReporter
+)
 NS_IMETHODIMP
 gfxFontCache
 :

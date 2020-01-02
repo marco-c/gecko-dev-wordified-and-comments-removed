@@ -535,10 +535,10 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED0
+NS_IMPL_ISUPPORTS1
 (
 WebGLMemoryTracker
-MemoryMultiReporter
+nsIMemoryReporter
 )
 StaticRefPtr
 <
