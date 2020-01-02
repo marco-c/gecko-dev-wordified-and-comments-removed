@@ -6331,6 +6331,15 @@ forward
 -
 button
 {
+-
+moz
+-
+box
+-
+align
+:
+stretch
+;
 padding
 :
 0
@@ -7435,7 +7444,7 @@ radius
 ;
 margin
 :
-1px
+0
 3px
 ;
 }
