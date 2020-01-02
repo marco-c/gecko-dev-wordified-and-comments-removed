@@ -3835,7 +3835,7 @@ imgMemoryReporter
 (
 )
 ;
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 sMemReporter
 )

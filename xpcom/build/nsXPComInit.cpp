@@ -2605,7 +2605,7 @@ CreateAnonTempFileRemover
 ;
 #
 endif
-NS_RegisterMemoryReporter
+RegisterStrongMemoryReporter
 (
 new
 ICUReporter
