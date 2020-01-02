@@ -137,6 +137,9 @@ Init
 nsIURI
 *
 aRemoteOpenUri
+nsIURI
+*
+aAppUri
 )
 ;
 nsresult
@@ -237,6 +240,12 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+nsCOMPtr
+<
+nsIURI
+>
+mAppURI
 ;
 nsCOMPtr
 <

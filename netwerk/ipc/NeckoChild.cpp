@@ -857,6 +857,9 @@ AllocPRemoteOpenFileChild
 const
 URIParams
 &
+const
+OptionalURIParams
+&
 )
 {
 NS_NOTREACHED

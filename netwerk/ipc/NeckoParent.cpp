@@ -1634,6 +1634,10 @@ const
 URIParams
 &
 aURI
+const
+OptionalURIParams
+&
+aAppURI
 )
 {
 nsCOMPtr
@@ -2204,6 +2208,9 @@ own
 application
 .
 zip
+at
+%
+s
 :
 KILLING
 CHILD
@@ -2212,6 +2219,11 @@ PROCESS
 n
 "
 requestedPath
+.
+get
+(
+)
+mustMatch
 .
 get
 (
@@ -2251,6 +2263,10 @@ const
 URIParams
 &
 aFileURI
+const
+OptionalURIParams
+&
+aAppURI
 )
 {
 return
