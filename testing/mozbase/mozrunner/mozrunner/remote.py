@@ -173,12 +173,18 @@ restore
         
 self
 .
+added_files
+=
+set
+(
+)
+        
+self
+.
 backup_files
 =
 set
 (
-[
-]
 )
     
 def
@@ -243,6 +249,18 @@ remote_path
 self
 .
 backup_files
+.
+add
+(
+remote_path
+)
+        
+else
+:
+            
+self
+.
+added_files
 .
 add
 (
@@ -397,6 +415,23 @@ dm
 .
 remount
 (
+)
+        
+for
+added_file
+in
+self
+.
+added_files
+:
+            
+self
+.
+dm
+.
+removeFile
+(
+added_file
 )
         
 for
