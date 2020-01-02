@@ -15,6 +15,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 .
 h
@@ -577,6 +584,9 @@ address
 =
 (
 Pointer
+)
+(
+uintptr_t
 )
 ptr
 ;
