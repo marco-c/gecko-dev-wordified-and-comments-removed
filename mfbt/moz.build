@@ -254,6 +254,11 @@ MacroArgs
 h
 '
 '
+MacroForEach
+.
+h
+'
+'
 MathAlgorithms
 .
 h
