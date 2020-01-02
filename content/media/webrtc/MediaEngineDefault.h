@@ -196,6 +196,8 @@ bool
 aNoiseOn
 uint32_t
 aNoise
+int32_t
+aPlayoutDelay
 )
 {
 return
@@ -381,6 +383,8 @@ bool
 aNoiseOn
 uint32_t
 aNoise
+int32_t
+aPlayoutDelay
 )
 {
 return
