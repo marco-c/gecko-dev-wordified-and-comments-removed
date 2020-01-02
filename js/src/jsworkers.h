@@ -132,6 +132,15 @@ SystemAllocPolicy
 >
 asmJSFinishedList
 ;
+mozilla
+:
+:
+Atomic
+<
+uint32_t
+>
+asmJSCompilationInProgress
+;
 Vector
 <
 ParseTask
