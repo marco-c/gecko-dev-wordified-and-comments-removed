@@ -706,6 +706,7 @@ CompositingRenderTarget
 GetCurrentRenderTarget
 (
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
