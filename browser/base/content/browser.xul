@@ -11028,7 +11028,7 @@ inc
 svg
 #
 ifndef
-XP_MACOSX
+XP_UNIX
 <
 svg
 :
@@ -11036,6 +11036,8 @@ clipPath
 id
 =
 "
+windows
+-
 keyhole
 -
 forward
@@ -11094,6 +11096,8 @@ clipPath
 id
 =
 "
+windows
+-
 urlbar
 -
 back
@@ -11175,7 +11179,10 @@ svg
 clipPath
 >
 #
-else
+endif
+#
+ifdef
+XP_MACOSX
 <
 svg
 :
