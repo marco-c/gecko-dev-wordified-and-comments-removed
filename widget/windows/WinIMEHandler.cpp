@@ -739,6 +739,9 @@ return
 NS_OK
 ;
 case
+NOTIFY_IME_OF_POSITION_CHANGE
+:
+case
 NOTIFY_IME_OF_COMPOSITION_UPDATE
 :
 nsIMM32Handler
@@ -831,7 +834,10 @@ GetIMEUpdatePreference
 #
 endif
 return
-nsIMEUpdatePreference
+nsIMM32Handler
+:
+:
+GetIMEUpdatePreference
 (
 )
 ;
