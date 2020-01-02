@@ -269,6 +269,17 @@ uint32_t
 latency_ms
 )
 ;
+int
+cubeb_get_preferred_sample_rate
+(
+cubeb
+*
+context
+uint32_t
+*
+rate
+)
+;
 void
 cubeb_destroy
 (
