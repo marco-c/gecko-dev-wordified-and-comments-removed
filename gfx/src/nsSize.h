@@ -40,6 +40,10 @@ nscoord_MAX
 struct
 nsIntSize
 ;
+typedef
+nsIntSize
+gfxIntSize
+;
 struct
 nsSize
 :

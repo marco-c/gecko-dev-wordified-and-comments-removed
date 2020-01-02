@@ -54,10 +54,6 @@ gfxTypes
 .
 h
 "
-typedef
-nsIntSize
-gfxIntSize
-;
 struct
 gfxSize
 :
