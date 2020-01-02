@@ -3361,6 +3361,14 @@ return
 nullptr
 ;
 }
+protoBinding
+-
+>
+SetInheritsStyle
+(
+false
+)
+;
 docInfo
 -
 >
@@ -3390,6 +3398,7 @@ nodeInfo
 forget
 (
 )
+protoBinding
 )
 ;
 SetShadowRoot
@@ -3408,6 +3417,14 @@ nsXBLBinding
 (
 shadowRoot
 protoBinding
+)
+;
+shadowRoot
+-
+>
+SetAssociatedBinding
+(
+xblBinding
 )
 ;
 xblBinding

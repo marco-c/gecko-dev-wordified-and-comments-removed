@@ -263,6 +263,14 @@ GetCurrentDoc
 (
 )
 ;
+ShadowRoot
+*
+oldShadow
+=
+GetShadowRoot
+(
+)
+;
 SVGStyleElementBase
 :
 :
@@ -275,6 +283,7 @@ aNullParent
 UpdateStyleSheetInternal
 (
 oldDoc
+oldShadow
 )
 ;
 }
@@ -360,6 +369,7 @@ type
 {
 UpdateStyleSheetInternal
 (
+nullptr
 nullptr
 true
 )
@@ -461,6 +471,7 @@ type
 {
 UpdateStyleSheetInternal
 (
+nullptr
 nullptr
 true
 )
@@ -675,6 +686,7 @@ aContent
 {
 UpdateStyleSheetInternal
 (
+nullptr
 nullptr
 )
 ;

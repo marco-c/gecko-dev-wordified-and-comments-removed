@@ -202,5 +202,14 @@ attribute
 DOMString
 innerHTML
 ;
+attribute
+boolean
+applyAuthorStyles
+;
+readonly
+attribute
+StyleSheetList
+styleSheets
+;
 }
 ;

@@ -450,6 +450,7 @@ aContent
 UpdateStyleSheetInternal
 (
 nullptr
+nullptr
 )
 ;
 }
@@ -548,6 +549,14 @@ GetCurrentDoc
 (
 )
 ;
+ShadowRoot
+*
+oldShadow
+=
+GetContainingShadow
+(
+)
+;
 nsGenericHTMLElement
 :
 :
@@ -560,6 +569,7 @@ aNullParent
 UpdateStyleSheetInternal
 (
 oldDoc
+oldShadow
 )
 ;
 }
@@ -645,6 +655,7 @@ type
 {
 UpdateStyleSheetInternal
 (
+nullptr
 nullptr
 true
 )
@@ -746,6 +757,7 @@ type
 {
 UpdateStyleSheetInternal
 (
+nullptr
 nullptr
 true
 )
@@ -838,6 +850,7 @@ true
 ;
 UpdateStyleSheetInternal
 (
+nullptr
 nullptr
 )
 ;

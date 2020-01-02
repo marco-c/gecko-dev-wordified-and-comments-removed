@@ -239,6 +239,7 @@ aNullParent
 UpdateStyleSheetInternal
 (
 oldDoc
+nullptr
 )
 ;
 }
@@ -278,6 +279,7 @@ Failed
 {
 UpdateStyleSheetInternal
 (
+nullptr
 nullptr
 true
 )
