@@ -1709,7 +1709,7 @@ globalDO
 =
 dbg
 .
-makeGlobalObjectReference
+addDebuggee
 (
 global
 )
@@ -2106,6 +2106,12 @@ searchString
 )
 ;
 }
+dbg
+.
+removeAllDebuggees
+(
+)
+;
 return
 events
 ;
