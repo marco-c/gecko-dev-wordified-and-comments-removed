@@ -1138,6 +1138,9 @@ resetBranch
 function
 (
 prefBranch
+=
+"
+"
 )
 {
 try
