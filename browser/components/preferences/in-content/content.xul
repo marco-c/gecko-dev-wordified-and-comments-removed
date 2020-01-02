@@ -273,17 +273,6 @@ paneContent
 "
 >
 <
-image
-class
-=
-"
-header
--
-icon
-"
-/
->
-<
 label
 class
 =

@@ -588,17 +588,6 @@ paneApplications
 "
 >
 <
-image
-class
-=
-"
-header
--
-icon
-"
-/
->
-<
 label
 class
 =
