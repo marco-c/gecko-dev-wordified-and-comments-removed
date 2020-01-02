@@ -214,13 +214,8 @@ nullptr
 void
 AttachIOSurface
 (
-mozilla
-:
-:
-RefPtr
-<
 MacIOSurface
->
+*
 aSurface
 )
 ;
