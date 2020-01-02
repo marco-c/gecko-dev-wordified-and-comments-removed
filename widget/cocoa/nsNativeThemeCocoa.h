@@ -314,6 +314,14 @@ nsIFrame
 aRight
 )
 ;
+bool
+IsWindowSheet
+(
+nsIFrame
+*
+aFrame
+)
+;
 void
 DrawFrame
 (
