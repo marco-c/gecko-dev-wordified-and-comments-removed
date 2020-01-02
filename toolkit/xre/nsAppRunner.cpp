@@ -11492,12 +11492,12 @@ kInvalidationHeader
 [
 ]
 =
+NS_LINEBREAK
 "
 InvalidateCaches
 =
 1
 "
-NS_LINEBREAK
 ;
 if
 (
