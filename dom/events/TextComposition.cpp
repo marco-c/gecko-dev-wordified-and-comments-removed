@@ -211,7 +211,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-nsDispatchingCallback
+EventDispatchingCallback
 *
 aCallBack
 )

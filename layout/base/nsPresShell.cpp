@@ -2053,7 +2053,7 @@ MOZ_STACK_CLASS
 nsPresShellEventCB
 :
 public
-nsDispatchingCallback
+EventDispatchingCallback
 {
 public
 :

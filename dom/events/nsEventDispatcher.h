@@ -314,10 +314,9 @@ mEventStatus
 }
 }
 ;
-}
 class
 MOZ_STACK_CLASS
-nsDispatchingCallback
+EventDispatchingCallback
 {
 public
 :
@@ -325,9 +324,6 @@ virtual
 void
 HandleEvent
 (
-mozilla
-:
-:
 EventChainPostVisitor
 &
 aVisitor
@@ -337,6 +333,7 @@ aVisitor
 ;
 }
 ;
+}
 class
 nsEventDispatcher
 {
@@ -368,7 +365,10 @@ nsEventStatus
 aEventStatus
 =
 nullptr
-nsDispatchingCallback
+mozilla
+:
+:
+EventDispatchingCallback
 *
 aCallback
 =

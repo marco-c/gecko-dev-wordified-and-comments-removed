@@ -81,14 +81,14 @@ TextRange
 h
 "
 class
-nsDispatchingCallback
-;
-class
 nsIEditor
 ;
 namespace
 mozilla
 {
+class
+EventDispatchingCallback
+;
 class
 IMEStateManager
 ;
@@ -443,7 +443,7 @@ aEvent
 nsEventStatus
 *
 aStatus
-nsDispatchingCallback
+EventDispatchingCallback
 *
 aCallBack
 )
