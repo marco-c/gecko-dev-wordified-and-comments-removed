@@ -300,6 +300,16 @@ MOZ_ASSERT
 mFD
 )
 ;
+if
+(
+AndroidBridge
+:
+:
+HasEnv
+(
+)
+)
+{
 GeckoAppShell
 :
 :
@@ -307,6 +317,7 @@ EnableNetworkNotifications
 (
 )
 ;
+}
 mFD
 =
 PR_OpenUDPSocket

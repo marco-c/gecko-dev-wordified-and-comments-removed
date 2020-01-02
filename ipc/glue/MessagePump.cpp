@@ -371,6 +371,19 @@ break
 #
 ifdef
 MOZ_WIDGET_ANDROID
+if
+(
+MOZ_LIKELY
+(
+AndroidBridge
+:
+:
+HasEnv
+(
+)
+)
+)
+{
 did_work
 |
 =
@@ -381,6 +394,7 @@ PumpMessageLoop
 (
 )
 ;
+}
 #
 endif
 did_work
