@@ -642,9 +642,10 @@ return
 let
 timer
 =
-{
-__proto__
-:
+Object
+.
+create
+(
 Cc
 [
 "
@@ -664,7 +665,7 @@ Ci
 .
 nsITimer
 )
-}
+)
 ;
 timer
 .
