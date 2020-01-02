@@ -4353,18 +4353,6 @@ i
 ]
 ;
 let
-params
-=
-{
-getAttention
-:
-false
-delayLoad
-:
-true
-}
-;
-let
 bringToFront
 =
 (
@@ -4401,8 +4389,6 @@ index
 .
 url
 bringToFront
-null
-params
 )
 ;
 if
