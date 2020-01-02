@@ -475,6 +475,11 @@ Init
 )
 ;
 void
+Cleanup
+(
+)
+;
+void
 HandleShutdown
 (
 )
