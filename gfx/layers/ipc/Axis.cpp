@@ -110,7 +110,7 @@ gFlingFriction
 =
 0
 .
-006f
+002f
 ;
 static
 float
