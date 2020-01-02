@@ -407,8 +407,10 @@ Release
 )
 ;
 }
+RefPtr
+<
 CompositableForwarder
-*
+>
 mForwarder
 ;
 TextureClientData
@@ -1110,16 +1112,6 @@ if
 actor
 )
 {
-if
-(
-actor
--
->
-GetForwarder
-(
-)
-)
-{
 actor
 -
 >
@@ -1133,7 +1125,6 @@ RemoveTexture
 this
 )
 ;
-}
 actor
 -
 >
