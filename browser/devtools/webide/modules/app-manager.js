@@ -2082,6 +2082,7 @@ this
 selectedProject
 &
 &
+(
 this
 .
 selectedProject
@@ -2092,8 +2093,8 @@ type
 "
 mainProcess
 "
-&
-&
+|
+|
 this
 .
 selectedProject
@@ -2104,6 +2105,7 @@ type
 "
 runtimeApp
 "
+)
 )
 {
 this
