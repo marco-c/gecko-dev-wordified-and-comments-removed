@@ -521,14 +521,6 @@ Direct3D
 #
 endif
 virtual
-void
-NotifyLayersTransaction
-(
-)
-MOZ_OVERRIDE
-{
-}
-virtual
 nsIWidget
 *
 GetWidget
