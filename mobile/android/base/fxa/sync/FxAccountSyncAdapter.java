@@ -1892,12 +1892,6 @@ getSkewInSeconds
 )
 ;
 final
-boolean
-includePayloadVerificationHash
-=
-false
-;
-final
 AuthHeaderProvider
 authHeaderProvider
 =
@@ -1919,7 +1913,7 @@ UTF
 8
 "
 )
-includePayloadVerificationHash
+false
 storageServerSkew
 )
 ;

@@ -896,6 +896,11 @@ reqHMACKey
 ;
 protected
 final
+boolean
+payload
+;
+protected
+final
 SkewHandler
 skewHandler
 ;
@@ -919,6 +924,7 @@ resource
 delegate
 null
 null
+false
 )
 ;
 }
@@ -944,6 +950,9 @@ byte
 [
 ]
 reqHMACKey
+final
+boolean
+authenticatePayload
 )
 {
 super
@@ -968,6 +977,12 @@ this
 tokenId
 =
 tokenId
+;
+this
+.
+payload
+=
+authenticatePayload
 ;
 this
 .
@@ -1002,12 +1017,6 @@ reqHMACKey
 null
 )
 {
-final
-boolean
-includePayloadVerificationHash
-=
-true
-;
 return
 new
 HawkAuthHeaderProvider
@@ -1019,7 +1028,7 @@ byte2Hex
 tokenId
 )
 reqHMACKey
-includePayloadVerificationHash
+payload
 skewHandler
 .
 getSkewInSeconds
@@ -2450,6 +2459,7 @@ resource
 delegate
 tokenId
 reqHMACKey
+false
 )
 {
 Override
@@ -2682,6 +2692,7 @@ resource
 delegate
 tokenId
 reqHMACKey
+false
 )
 {
 Override
@@ -3325,6 +3336,7 @@ resource
 delegate
 tokenId
 reqHMACKey
+false
 )
 {
 Override
@@ -3611,6 +3623,7 @@ resource
 delegate
 tokenId
 reqHMACKey
+false
 )
 {
 Override
@@ -3886,6 +3899,7 @@ resource
 delegate
 tokenId
 reqHMACKey
+true
 )
 {
 Override
@@ -4108,6 +4122,7 @@ resource
 delegate
 tokenId
 reqHMACKey
+false
 )
 {
 Override
