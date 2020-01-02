@@ -805,12 +805,15 @@ arm_version
 '
 ]
 =
+int
+(
 CONFIG
 [
 '
 ARM_ARCH
 '
 ]
+)
 #
 Don
 '
