@@ -78496,8 +78496,6 @@ _topsrcdir
 export
 STLPORT_CPPFLAGS
 export
-STLPORT_LDFLAGS
-export
 STLPORT_LIBS
 export
 JS_STANDALONE
