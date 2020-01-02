@@ -130,6 +130,11 @@ d
 x
 )
 {
+"
+use
+strict
+"
+;
 g
 (
 d
@@ -153,6 +158,11 @@ d
 x
 )
 {
+"
+use
+strict
+"
+;
 for
 (
 var
