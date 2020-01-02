@@ -625,9 +625,16 @@ PROGUARD_PASSES
 =
 1
 else
+ifndef
+MOZILLA_OFFICIAL
+PROGUARD_PASSES
+=
+1
+else
 PROGUARD_PASSES
 =
 6
+endif
 endif
 endif
 #
