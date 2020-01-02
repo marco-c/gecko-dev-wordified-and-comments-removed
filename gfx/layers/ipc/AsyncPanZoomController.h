@@ -632,6 +632,14 @@ RequestContentRepaint
 (
 )
 ;
+void
+ScheduleContentRepaint
+(
+FrameMetrics
+&
+aFrameMetrics
+)
+;
 bool
 DoFling
 (
