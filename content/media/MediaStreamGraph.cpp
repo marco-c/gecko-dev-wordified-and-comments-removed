@@ -105,7 +105,7 @@ h
 #
 include
 "
-AudioChannelCommon
+AudioChannelService
 .
 h
 "
@@ -5191,7 +5191,10 @@ Init
 IdealAudioRate
 (
 )
-AUDIO_CHANNEL_NORMAL
+AudioChannel
+:
+:
+Normal
 AudioStream
 :
 :

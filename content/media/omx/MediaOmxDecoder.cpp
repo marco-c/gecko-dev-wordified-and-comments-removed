@@ -154,9 +154,9 @@ this
 mReader
 -
 >
-SetAudioChannelType
+SetAudioChannel
 (
-GetAudioChannelType
+GetAudioChannel
 (
 )
 )
