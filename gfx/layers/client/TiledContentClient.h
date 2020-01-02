@@ -272,6 +272,10 @@ gfxSharedReadLock
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+gfxSharedReadLock
+)
 virtual
 ~
 gfxSharedReadLock

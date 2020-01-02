@@ -1056,6 +1056,10 @@ ImageContainer
 )
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+ImageContainer
+)
 enum
 {
 DISABLE_ASYNC
