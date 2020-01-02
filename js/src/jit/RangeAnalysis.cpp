@@ -13222,6 +13222,17 @@ loop
 "
 )
 ;
+MOZ_ASSERT
+(
+!
+mir
+-
+>
+compilingAsmJS
+(
+)
+)
+;
 Vector
 <
 MInstruction
