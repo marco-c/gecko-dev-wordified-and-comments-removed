@@ -78,7 +78,7 @@ debugger
 .
 log
 "
-false
+true
 )
 ;
 let
