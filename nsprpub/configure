@@ -24019,13 +24019,6 @@ target
 "
 host
 "
--
-o
--
-n
-"
-CROSS_COMPILE
-"
 ;
 then
 echo
@@ -30321,13 +30314,6 @@ target
 =
 "
 host
-"
--
-o
--
-n
-"
-CROSS_COMPILE
 "
 ;
 then

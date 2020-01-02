@@ -2325,10 +2325,9 @@ PR_Free
 mon
 )
 ;
-PR_SetError
+_PR_MD_MAP_DEFAULT_ERROR
 (
-PR_OPERATION_NOT_SUPPORTED_ERROR
-0
+rv
 )
 ;
 return
