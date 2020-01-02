@@ -10,18 +10,6 @@ head
 js
 '
 ;
-const
-BODY_7BITS
-=
-"
-"
-+
-"
-"
-+
-"
-"
-;
 function
 testReceiving_MultiSIM
 (
@@ -83,7 +71,7 @@ is
 aMessage
 .
 body
-BODY_7BITS
+DUMMY_BODY_7BITS
 "
 Checking
 message
