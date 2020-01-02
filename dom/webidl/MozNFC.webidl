@@ -278,6 +278,9 @@ MozNFC
 :
 EventTarget
 {
+[
+Throws
+]
 MozNFCTag
 getNFCTag
 (
@@ -285,6 +288,9 @@ DOMString
 sessionId
 )
 ;
+[
+Throws
+]
 MozNFCPeer
 getNFCPeer
 (
