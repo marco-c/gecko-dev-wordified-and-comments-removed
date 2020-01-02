@@ -502,6 +502,12 @@ breakpad
 /
 src
 '
+'
+/
+xpcom
+/
+base
+'
 ]
 #
 We

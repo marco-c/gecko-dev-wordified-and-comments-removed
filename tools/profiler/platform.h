@@ -793,6 +793,9 @@ mozilla
 TimeStamp
 timestamp
 ;
+int64_t
+rssMemory
+;
 }
 ;
 class

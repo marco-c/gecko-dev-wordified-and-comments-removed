@@ -3392,6 +3392,9 @@ privacy
 "
 mainthreadio
 "
+"
+memory
+"
 #
 if
 defined
