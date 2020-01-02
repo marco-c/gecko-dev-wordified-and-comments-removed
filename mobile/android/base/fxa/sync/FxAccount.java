@@ -67,7 +67,7 @@ background
 .
 fxa
 .
-FxAccountClient
+FxAccountClient10
 ;
 import
 org
@@ -399,7 +399,7 @@ static
 class
 InnerFxAccountClientRequestDelegate
 implements
-FxAccountClient
+FxAccountClient10
 .
 RequestDelegate
 <
@@ -908,11 +908,11 @@ e
 return
 ;
 }
-FxAccountClient
+FxAccountClient10
 fxAccountClient
 =
 new
-FxAccountClient
+FxAccountClient10
 (
 idpEndpoint
 executor

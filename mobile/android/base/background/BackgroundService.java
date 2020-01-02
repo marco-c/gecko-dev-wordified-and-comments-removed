@@ -195,6 +195,12 @@ service
 )
 ;
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 protected
 boolean
 backgroundDataIsEnabled

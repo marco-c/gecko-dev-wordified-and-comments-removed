@@ -84,6 +84,12 @@ public
 class
 AnnouncementPresenter
 {
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 static
 void

@@ -1104,6 +1104,12 @@ close
 ;
 }
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 static
 void
