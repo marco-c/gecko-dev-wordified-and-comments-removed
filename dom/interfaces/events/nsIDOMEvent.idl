@@ -2227,7 +2227,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsAnimationEvent
+mozilla
+:
+:
+InternalAnimationEvent
 *
 aEvent
 )

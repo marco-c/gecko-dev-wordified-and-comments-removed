@@ -3517,7 +3517,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsAnimationEvent
+InternalAnimationEvent
 *
 >
 (

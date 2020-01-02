@@ -65,7 +65,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsAnimationEvent
+mozilla
+:
+:
+InternalAnimationEvent
 *
 aEvent
 )
@@ -171,7 +174,10 @@ elapsedTime
 }
 private
 :
-nsAnimationEvent
+mozilla
+:
+:
+InternalAnimationEvent
 *
 AnimationEvent
 (
@@ -196,7 +202,10 @@ type
 return
 static_cast
 <
-nsAnimationEvent
+mozilla
+:
+:
+InternalAnimationEvent
 *
 >
 (

@@ -86,7 +86,10 @@ Element
 >
 mElement
 ;
-nsAnimationEvent
+mozilla
+:
+:
+InternalAnimationEvent
 mEvent
 ;
 AnimationEventInfo
