@@ -627,6 +627,16 @@ if
 (
 !
 mTextureHost
+)
+{
+return
+false
+;
+}
+if
+(
+!
+mTextureHost
 -
 >
 Lock
