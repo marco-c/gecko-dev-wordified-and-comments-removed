@@ -54,7 +54,6 @@ int
 src_width
 int
 src_height
-enum
 RotationMode
 mode
 )

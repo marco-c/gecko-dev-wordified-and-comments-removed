@@ -231,10 +231,6 @@ int
 height
 )
 ;
-#
-define
-YToARGB
-I400ToARGB_Reference
 LIBYUV_API
 int
 I400ToARGB_Reference
@@ -599,10 +595,9 @@ src_width
 int
 src_height
 int
-crop_width
+dst_width
 int
-crop_height
-enum
+dst_height
 RotationMode
 rotation
 uint32
