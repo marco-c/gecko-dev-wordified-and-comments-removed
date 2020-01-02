@@ -2459,12 +2459,6 @@ ifDoesntEmulateUndefined
 scratch
 )
 ;
-Assembler
-:
-:
-Condition
-cond
-=
 masm
 .
 branchTestObjectTruthy
@@ -2478,13 +2472,6 @@ ool
 entry
 (
 )
-)
-;
-masm
-.
-j
-(
-cond
 ifEmulatesUndefined
 )
 ;
