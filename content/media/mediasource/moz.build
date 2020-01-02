@@ -127,6 +127,11 @@ MediaSourceDecoder
 cpp
 '
 '
+MediaSourceReader
+.
+cpp
+'
+'
 SourceBuffer
 .
 cpp
