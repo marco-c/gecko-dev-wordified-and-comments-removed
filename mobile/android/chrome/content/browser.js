@@ -26619,7 +26619,7 @@ min
 (
 Math
 .
-floor
+ceil
 (
 rect
 .
@@ -26629,6 +26629,8 @@ rect
 .
 width
 )
+-
+1
 Math
 .
 max
@@ -26653,7 +26655,7 @@ min
 (
 Math
 .
-floor
+ceil
 (
 rect
 .
@@ -26663,6 +26665,8 @@ rect
 .
 height
 )
+-
+1
 Math
 .
 max
