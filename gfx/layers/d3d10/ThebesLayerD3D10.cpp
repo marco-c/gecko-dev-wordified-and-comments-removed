@@ -993,7 +993,10 @@ mValidRegion
 ;
 CreateNewTextures
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 newTextureRect
 .
@@ -1104,7 +1107,10 @@ mTextureOnWhite
 {
 CreateNewTextures
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 newTextureRect
 .
@@ -2254,7 +2260,10 @@ ThebesLayerD3D10
 CreateNewTextures
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 SurfaceMode
