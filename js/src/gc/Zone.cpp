@@ -175,6 +175,10 @@ gcMallocBytes
 gcGrayRoots
 (
 )
+data
+(
+nullptr
+)
 types
 (
 this

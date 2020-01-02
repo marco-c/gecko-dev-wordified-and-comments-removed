@@ -649,6 +649,10 @@ SystemAllocPolicy
 >
 gcGrayRoots
 ;
+void
+*
+data
+;
 Zone
 (
 JSRuntime
