@@ -23,6 +23,9 @@ nsAutoPtr
 h
 "
 class
+nsCString
+;
+class
 nsString
 ;
 namespace
@@ -90,6 +93,17 @@ Promise
 GetPromise
 (
 )
+;
+virtual
+void
+GetPermissionAccessType
+(
+nsCString
+&
+aAccess
+)
+const
+MOZ_OVERRIDE
 ;
 protected
 :

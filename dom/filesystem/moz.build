@@ -157,6 +157,11 @@ FileSystemBase
 cpp
 '
 '
+FileSystemPermissionRequest
+.
+cpp
+'
+'
 FileSystemRequestParent
 .
 cpp
