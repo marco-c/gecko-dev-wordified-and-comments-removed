@@ -95,8 +95,6 @@ ocsp_download_config
 odc
 ocsp_strict_config
 osc
-any_revo_fresh_config
-arfc
 ocsp_get_config
 ogc
 )
@@ -128,13 +126,6 @@ osc
 =
 =
 ocsp_strict
-)
-mRequireRevocationInfo
-(
-arfc
-=
-=
-any_revo_strict
 )
 mOCSPGETEnabled
 (
@@ -1491,14 +1482,6 @@ chainTests
 cert_rev_method_independent_flags
 =
 CERT_REV_MI_TEST_ALL_LOCAL_INFORMATION_FIRST
-|
-(
-mRequireRevocationInfo
-?
-CERT_REV_MI_REQUIRE_SOME_FRESH_INFO_AVAILABLE
-:
-CERT_REV_MI_NO_OVERALL_INFO_REQUIREMENT
-)
 ;
 cvin
 [

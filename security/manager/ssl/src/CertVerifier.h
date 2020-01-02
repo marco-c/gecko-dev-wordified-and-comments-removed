@@ -140,15 +140,6 @@ ocsp_strict
 }
 ;
 enum
-any_revo_fresh_config
-{
-any_revo_relaxed
-=
-0
-any_revo_strict
-}
-;
-enum
 ocsp_get_config
 {
 ocsp_get_disabled
@@ -181,8 +172,6 @@ ocsp_download_config
 odc
 ocsp_strict_config
 osc
-any_revo_fresh_config
-arfc
 ocsp_get_config
 ogc
 )
@@ -207,10 +196,6 @@ mOCSPDownloadEnabled
 const
 bool
 mOCSPStrict
-;
-const
-bool
-mRequireRevocationInfo
 ;
 const
 bool
