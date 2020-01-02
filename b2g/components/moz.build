@@ -131,6 +131,11 @@ ContentPermissionPrompt
 js
 '
 '
+DebuggerServerController
+.
+js
+'
+'
 FilePicker
 .
 js
@@ -193,11 +198,6 @@ EXTRA_COMPONENTS
 +
 =
 [
-'
-OopCommandLine
-.
-js
-'
 '
 SimulatorScreen
 .
