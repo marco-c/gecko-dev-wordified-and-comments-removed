@@ -7303,6 +7303,19 @@ GetSize
 )
 )
 ;
+if
+(
+aBuilder
+-
+>
+GetIgnoreScrollFrame
+(
+)
+=
+=
+rootScrollFrame
+)
+{
 RecordFrameMetrics
 (
 aForFrame
@@ -7338,6 +7351,7 @@ isRoot
 containerParameters
 )
 ;
+}
 if
 (
 usingDisplayport
