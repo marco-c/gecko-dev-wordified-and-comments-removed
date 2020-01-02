@@ -140,6 +140,11 @@ AnimationEvent
 webidl
 '
 '
+AppInfo
+.
+webidl
+'
+'
 AppNotificationServiceOptions
 .
 webidl
