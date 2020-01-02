@@ -70,6 +70,15 @@ include
 "
 mozilla
 /
+Endian
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -853,8 +862,8 @@ GstCaps
 caps
 ;
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 int
 endianness
 =

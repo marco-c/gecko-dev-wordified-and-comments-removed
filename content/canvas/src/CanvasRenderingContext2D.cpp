@@ -420,6 +420,15 @@ include
 "
 mozilla
 /
+Endian
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -18730,8 +18739,8 @@ i
 )
 {
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 uint8_t
 b
 =
@@ -19573,8 +19582,8 @@ src
 +
 ;
 #
-ifdef
-IS_LITTLE_ENDIAN
+if
+MOZ_LITTLE_ENDIAN
 *
 dst
 +
