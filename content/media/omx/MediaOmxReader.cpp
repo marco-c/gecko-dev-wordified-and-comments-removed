@@ -127,9 +127,9 @@ MAX_DROPPED_FRAMES
 #
 define
 MAX_VIDEO_DECODE_SECONDS
-3
-.
 0
+.
+1
 using
 namespace
 mozilla
