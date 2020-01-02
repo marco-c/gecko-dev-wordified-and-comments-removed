@@ -387,9 +387,6 @@ SVGMatrix
 matrix
 )
 ;
-[
-Throws
-]
 Element
 ?
 getElementById
