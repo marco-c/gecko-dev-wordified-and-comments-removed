@@ -85,13 +85,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h
