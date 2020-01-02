@@ -251,14 +251,14 @@ XP_WIN
 #
 include
 <
-Winsock2
+winsock2
 .
 h
 >
 #
 include
 <
-Mstcpip
+mstcpip
 .
 h
 >
