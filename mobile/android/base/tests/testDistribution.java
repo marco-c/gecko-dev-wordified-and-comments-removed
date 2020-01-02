@@ -862,7 +862,7 @@ sendGeckoEvent
 "
 SearchEngines
 :
-Get
+GetVisible
 "
 null
 )
