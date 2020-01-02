@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIDOMGamepad
-.
-h
-"
-#
-include
-"
 nsIVariant
 .
 h
@@ -110,7 +103,7 @@ class
 Gamepad
 :
 public
-nsIDOMGamepad
+nsISupports
 public
 nsWrapperCache
 {
