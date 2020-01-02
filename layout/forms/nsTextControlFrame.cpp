@@ -453,7 +453,7 @@ nsContainerFrame
 (
 aContext
 )
-mUseEditor
+mEditorHasBeenInitialized
 (
 false
 )
@@ -1050,7 +1050,7 @@ EnsureEditorInitialized
 {
 if
 (
-mUseEditor
+mEditorHasBeenInitialized
 )
 return
 NS_OK
@@ -1259,7 +1259,7 @@ IsAlive
 )
 )
 ;
-mUseEditor
+mEditorHasBeenInitialized
 =
 true
 ;
@@ -5125,7 +5125,7 @@ NS_OK
 if
 (
 !
-mUseEditor
+mEditorHasBeenInitialized
 &
 &
 nsGkAtoms
@@ -5768,7 +5768,7 @@ n
 NS_PRECONDITION
 (
 !
-mUseEditor
+mEditorHasBeenInitialized
 "
 Do
 not

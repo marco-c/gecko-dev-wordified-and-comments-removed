@@ -1010,7 +1010,7 @@ TextControlInitializer
 private
 :
 bool
-mUseEditor
+mEditorHasBeenInitialized
 ;
 bool
 mIsProcessing
