@@ -6714,6 +6714,15 @@ sync
 -
 button
 [
+cui
+-
+areatype
+=
+"
+toolbar
+"
+]
+[
 status
 =
 "
@@ -6745,6 +6754,8 @@ throbber
 png
 "
 )
+!
+important
 ;
 -
 moz
