@@ -3028,7 +3028,7 @@ false
 ;
 }
 WidgetMouseEvent
-e
+outEvent
 (
 event
 )
@@ -3038,7 +3038,7 @@ MaybeForwardEventToRenderFrame
 event
 nullptr
 &
-e
+outEvent
 )
 ;
 if
@@ -3047,7 +3047,7 @@ if
 MapEventCoordinatesForChildProcess
 (
 &
-e
+outEvent
 )
 )
 {
@@ -3061,7 +3061,7 @@ PBrowserParent
 :
 SendRealMouseEvent
 (
-e
+outEvent
 )
 ;
 }
@@ -3342,7 +3342,7 @@ false
 ;
 }
 WidgetWheelEvent
-e
+outEvent
 (
 event
 )
@@ -3352,7 +3352,7 @@ MaybeForwardEventToRenderFrame
 event
 nullptr
 &
-e
+outEvent
 )
 ;
 if
@@ -3361,7 +3361,7 @@ if
 MapEventCoordinatesForChildProcess
 (
 &
-e
+outEvent
 )
 )
 {
@@ -3400,7 +3400,7 @@ false
 ;
 }
 WidgetKeyboardEvent
-e
+outEvent
 (
 event
 )
@@ -3410,7 +3410,7 @@ MaybeForwardEventToRenderFrame
 event
 nullptr
 &
-e
+outEvent
 )
 ;
 if
@@ -3419,7 +3419,7 @@ if
 MapEventCoordinatesForChildProcess
 (
 &
-e
+outEvent
 )
 )
 {
@@ -3433,7 +3433,7 @@ PBrowserParent
 :
 SendRealKeyEvent
 (
-e
+outEvent
 )
 ;
 }
@@ -3538,12 +3538,6 @@ this
 mEventCaptureDepth
 ;
 }
-WidgetTouchEvent
-e
-(
-event
-)
-;
 if
 (
 event
@@ -3567,7 +3561,7 @@ for
 int
 i
 =
-e
+event
 .
 touches
 .
@@ -3590,7 +3584,7 @@ i
 if
 (
 !
-e
+event
 .
 touches
 [
@@ -3601,7 +3595,7 @@ i
 mChanged
 )
 {
-e
+event
 .
 touches
 .
@@ -3613,6 +3607,12 @@ i
 }
 }
 }
+WidgetTouchEvent
+outEvent
+(
+event
+)
+;
 ScrollableLayerGuid
 guid
 ;
@@ -3622,7 +3622,7 @@ event
 &
 guid
 &
-e
+outEvent
 )
 ;
 if
@@ -3638,12 +3638,12 @@ MapEventCoordinatesForChildProcess
 (
 mChildProcessOffsetAtTouchStart
 &
-e
+outEvent
 )
 ;
 return
 (
-e
+outEvent
 .
 message
 =
@@ -3656,7 +3656,7 @@ PBrowserParent
 :
 SendRealTouchMoveEvent
 (
-e
+outEvent
 guid
 )
 :
@@ -3665,7 +3665,7 @@ PBrowserParent
 :
 SendRealTouchEvent
 (
-e
+outEvent
 guid
 )
 ;
