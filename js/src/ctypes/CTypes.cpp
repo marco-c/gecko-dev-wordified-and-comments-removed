@@ -4185,7 +4185,6 @@ define
 MSG_DEF
 (
 name
-number
 count
 exception
 format
