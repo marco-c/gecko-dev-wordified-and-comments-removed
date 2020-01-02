@@ -3356,7 +3356,7 @@ aOffset
 mTexture
 -
 >
-DirectUpdate
+DeprecatedDirectUpdate
 (
 surf
 .
