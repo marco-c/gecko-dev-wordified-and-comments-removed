@@ -87,7 +87,6 @@ psm
 #
 ifdef
 PR_LOGGING
-static
 PRLogModuleInfo
 *
 gCertVerifierLog
@@ -769,6 +768,10 @@ KeyUsages
 ku3
 SECOidTag
 eku
+const
+SECItem
+*
+stapledOCSPResponse
 ScopedCERTCertList
 &
 builtChain
@@ -795,6 +798,7 @@ time
 MustBeEndEntity
 ku1
 eku
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -827,6 +831,7 @@ time
 MustBeEndEntity
 ku2
 eku
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -859,6 +864,7 @@ time
 MustBeEndEntity
 ku3
 eku
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -893,9 +899,6 @@ CERTCertificate
 *
 cert
 const
-SECItem
-*
-const
 SECCertificateUsage
 usage
 const
@@ -907,6 +910,10 @@ pinArg
 const
 Flags
 flags
+const
+SECItem
+*
+stapledOCSPResponse
 insanity
 :
 :
@@ -973,6 +980,7 @@ time
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_CLIENT_AUTH
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1003,6 +1011,7 @@ KU_DIGITAL_SIGNATURE
 KU_KEY_ENCIPHERMENT
 KU_KEY_AGREEMENT
 SEC_OID_EXT_KEY_USAGE_SERVER_AUTH
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1032,6 +1041,7 @@ time
 MustBeCA
 KU_KEY_CERT_SIGN
 SEC_OID_EXT_KEY_USAGE_SERVER_AUTH
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1061,6 +1071,7 @@ time
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_EMAIL_PROTECT
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1091,6 +1102,7 @@ KU_KEY_ENCIPHERMENT
 KU_KEY_AGREEMENT
 0
 SEC_OID_EXT_KEY_USAGE_EMAIL_PROTECT
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1120,6 +1132,7 @@ time
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_CODE_SIGN
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1209,6 +1222,7 @@ time
 endEntityOrCA
 keyUsage
 eku
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1247,6 +1261,7 @@ time
 endEntityOrCA
 keyUsage
 eku
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -1280,6 +1295,7 @@ time
 endEntityOrCA
 keyUsage
 eku
+stapledOCSPResponse
 builtChain
 )
 ;
@@ -2408,11 +2424,11 @@ return
 InsanityVerifyCert
 (
 cert
-stapledOCSPResponse
 usage
 time
 pinArg
 flags
+stapledOCSPResponse
 validationChain
 )
 ;

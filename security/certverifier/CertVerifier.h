@@ -267,10 +267,6 @@ CERTCertificate
 *
 cert
 const
-SECItem
-*
-stapledOCSPResponse
-const
 SECCertificateUsage
 usage
 const
@@ -282,6 +278,10 @@ pinArg
 const
 Flags
 flags
+const
+SECItem
+*
+stapledOCSPResponse
 insanity
 :
 :
