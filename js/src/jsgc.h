@@ -2406,6 +2406,11 @@ aheader
 setFirstFreeSpan
 (
 freeList
+-
+>
+getHead
+(
+)
 )
 ;
 freeList
@@ -2512,6 +2517,11 @@ aheader
 setFirstFreeSpan
 (
 freeList
+-
+>
+getHead
+(
+)
 )
 ;
 }
