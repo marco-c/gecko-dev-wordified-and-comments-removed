@@ -11830,6 +11830,7 @@ ifdef
 MOZ_NUWA_PROCESS
 class
 RIDThreadPoolListener
+MOZ_FINAL
 :
 public
 nsIThreadPoolListener
