@@ -12495,7 +12495,7 @@ vscope
 const
 Value
 &
-vname
+voptions
 JSContext
 *
 cx
@@ -12519,10 +12519,10 @@ vscope
 )
 ;
 RootedValue
-rname
+roptions
 (
 cx
-vname
+voptions
 )
 ;
 RootedValue
@@ -12542,7 +12542,7 @@ ExportFunction
 cx
 rfunction
 rscope
-rname
+roptions
 &
 res
 )
