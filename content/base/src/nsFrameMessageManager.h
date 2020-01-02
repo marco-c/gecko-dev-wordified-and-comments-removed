@@ -253,6 +253,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -297,6 +300,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 {
 return
@@ -916,6 +922,9 @@ aCloneData
 CpowHolder
 *
 aCpows
+nsIPrincipal
+*
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -1022,6 +1031,9 @@ JS
 Value
 &
 aObjects
+nsIPrincipal
+*
+aPrincipal
 JSContext
 *
 aCx
@@ -1052,6 +1064,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 void
@@ -1180,6 +1195,9 @@ JS
 Value
 &
 aObjects
+nsIPrincipal
+*
+aPrincipal
 JSContext
 *
 aCx

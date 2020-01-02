@@ -194,6 +194,9 @@ JS
 Value
 &
 aRemote
+nsIPrincipal
+*
+aPrincipal
 JSContext
 *
 aCx
@@ -218,6 +221,7 @@ SendSyncMessage
 aMessageName
 aObject
 aRemote
+aPrincipal
 aCx
 aArgc
 aRetval
@@ -247,6 +251,9 @@ JS
 Value
 &
 aRemote
+nsIPrincipal
+*
+aPrincipal
 JSContext
 *
 aCx
@@ -271,6 +278,7 @@ SendRpcMessage
 aMessageName
 aObject
 aRemote
+aPrincipal
 aCx
 aArgc
 aRetval
@@ -386,6 +394,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -427,7 +438,11 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

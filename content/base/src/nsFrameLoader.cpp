@@ -9681,6 +9681,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 :
 mRuntime
@@ -9704,6 +9707,10 @@ aMessage
 mCpows
 (
 aCpows
+)
+mPrincipal
+(
+aPrincipal
 )
 {
 if
@@ -9917,6 +9924,7 @@ false
 data
 &
 cpows
+mPrincipal
 nullptr
 )
 ;
@@ -9948,6 +9956,12 @@ JSObject
 *
 mCpows
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipal
+;
 }
 ;
 bool
@@ -9976,6 +9990,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 {
 TabParent
@@ -10069,6 +10086,7 @@ aMessage
 )
 data
 cpows
+aPrincipal
 )
 ;
 }
@@ -10091,6 +10109,7 @@ this
 aMessage
 aData
 aCpows
+aPrincipal
 )
 ;
 NS_DispatchToCurrentThread

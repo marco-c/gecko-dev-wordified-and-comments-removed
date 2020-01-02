@@ -361,6 +361,13 @@ h
 #
 include
 "
+PermissionMessageUtils
+.
+h
+"
+#
+include
+"
 StructuredCloneUtils
 .
 h
@@ -1345,6 +1352,7 @@ ReceiveMessage
 (
 CHILD_PROCESS_SHUTDOWN_MESSAGE
 false
+nullptr
 nullptr
 nullptr
 )
@@ -3359,6 +3367,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -3408,6 +3423,7 @@ true
 cloneData
 &
 cpows
+aPrincipal
 aJSONRetVal
 )
 ;
@@ -3433,6 +3449,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -3482,6 +3505,7 @@ true
 cloneData
 &
 cpows
+aPrincipal
 aJSONRetVal
 )
 ;
@@ -3507,6 +3531,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 {
 StructuredCloneData
@@ -3550,6 +3581,7 @@ false
 cloneData
 &
 cpows
+aPrincipal
 nullptr
 )
 ;
@@ -5449,6 +5481,9 @@ aCloneData
 CpowHolder
 *
 aCpows
+nsIPrincipal
+*
+aPrincipal
 InfallibleTArray
 <
 nsString
@@ -5503,6 +5538,7 @@ aMessage
 aSync
 aCloneData
 aCpows
+aPrincipal
 aJSONRetVal
 )
 ;

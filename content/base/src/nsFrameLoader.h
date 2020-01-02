@@ -599,7 +599,11 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

@@ -567,6 +567,8 @@ CpowEntry
 [
 ]
 aCpows
+Principal
+aPrincipal
 )
 ;
 parent
@@ -628,6 +630,8 @@ CpowEntry
 [
 ]
 aCpows
+Principal
+aPrincipal
 )
 returns
 (
@@ -648,6 +652,8 @@ CpowEntry
 [
 ]
 aCpows
+Principal
+aPrincipal
 )
 returns
 (

@@ -445,6 +445,13 @@ h
 #
 endif
 #
+include
+"
+PermissionMessageUtils
+.
+h
+"
+#
 if
 defined
 (
@@ -5069,6 +5076,13 @@ CpowEntry
 >
 &
 aCpows
+const
+IPC
+:
+:
+Principal
+&
+aPrincipal
 )
 {
 nsRefPtr
@@ -5130,6 +5144,7 @@ false
 cloneData
 &
 cpows
+aPrincipal
 nullptr
 )
 ;
