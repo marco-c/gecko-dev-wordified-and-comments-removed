@@ -226,9 +226,17 @@ browser_gcli_completion
 .
 js
 \
+(
 browser_gcli_date
 .
 js
+disabled
+until
+TZ
+bug
+is
+fixed
+)
 \
 browser_gcli_exec
 .
