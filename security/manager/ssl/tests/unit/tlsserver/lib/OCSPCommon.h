@@ -40,6 +40,8 @@ ORTNeedsSig
 ORTUnauthorized
 ORTBadSignature
 ORTSkipResponseBytes
+ORTCriticalExtension
+ORTNoncriticalExtension
 }
 ;
 struct
