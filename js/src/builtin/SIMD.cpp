@@ -6045,7 +6045,6 @@ Name
 Func
 Operands
 Flags
-MIRId
 )
 \
 bool
@@ -6095,7 +6094,6 @@ Name
 Func
 Operands
 Flags
-MIRId
 )
 \
 bool
@@ -6155,7 +6153,6 @@ Name
 Func
 Operands
 Flags
-MIRId
 )
 \
 JS_FN
@@ -6200,7 +6197,6 @@ Name
 Func
 Operands
 Flags
-MIRId
 )
 \
 JS_FN
