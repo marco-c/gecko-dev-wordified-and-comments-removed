@@ -3565,7 +3565,7 @@ transformToScreen
 }
 #
 ifdef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 static
 float
 GetDisplayportCoverage
@@ -3766,7 +3766,7 @@ highPrecisionMultiplier
 ;
 #
 ifdef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 Layer
 *
 primaryScrollable

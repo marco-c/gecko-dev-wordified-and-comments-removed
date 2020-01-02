@@ -3408,7 +3408,7 @@ true
 ;
 #
 ifdef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 mIsFirstPaint
 =
 false

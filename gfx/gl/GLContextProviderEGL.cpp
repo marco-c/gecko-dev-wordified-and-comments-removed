@@ -772,7 +772,7 @@ EGL_NO_SURFACE
 ;
 #
 ifdef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :

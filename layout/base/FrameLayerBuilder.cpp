@@ -6038,7 +6038,7 @@ false
 ;
 #
 ifndef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 bool
 didResetScrollPositionForLayerPixelAlignment
 =
@@ -6285,7 +6285,7 @@ aAnimatedGeometryRoot
 ;
 #
 ifndef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 didResetScrollPositionForLayerPixelAlignment
 =
 true
@@ -6467,7 +6467,7 @@ aAnimatedGeometryRoot
 ;
 #
 ifndef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 didResetScrollPositionForLayerPixelAlignment
 =
 true
@@ -6668,7 +6668,7 @@ matrix
 ;
 #
 ifndef
-MOZ_ANDROID_OMTC
+MOZ_WIDGET_ANDROID
 gfxPoint
 animatedGeometryRootTopLeft
 =
