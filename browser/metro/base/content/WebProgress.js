@@ -553,6 +553,15 @@ update
 (
 )
 ;
+BrowserUI
+.
+updateStartURIAttributes
+(
+aJson
+.
+location
+)
+;
 }
 let
 locationHasChanged
