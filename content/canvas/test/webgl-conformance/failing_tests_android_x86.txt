@@ -12,17 +12,6 @@ environments
 .
 conformance
 /
-extensions
-/
-oes
--
-texture
--
-float
-.
-html
-conformance
-/
 programs
 /
 get
