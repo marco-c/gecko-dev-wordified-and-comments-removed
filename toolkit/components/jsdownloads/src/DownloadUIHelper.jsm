@@ -341,7 +341,7 @@ aParent
 {
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G
 this
 .
 _prompter

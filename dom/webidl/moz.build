@@ -480,6 +480,11 @@ DOMTransaction
 webidl
 '
 '
+Downloads
+.
+webidl
+'
+'
 DragEvent
 .
 webidl
@@ -2748,6 +2753,11 @@ webidl
 '
 '
 DeviceProximityEvent
+.
+webidl
+'
+'
+DownloadEvent
 .
 webidl
 '
