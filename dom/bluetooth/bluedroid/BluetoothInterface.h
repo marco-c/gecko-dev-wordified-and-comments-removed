@@ -588,7 +588,7 @@ BluetoothHandsfreeResultHandler
 aRes
 )
 ;
-bt_status_t
+void
 PhoneStateChange
 (
 int
@@ -603,6 +603,9 @@ char
 aNumber
 bthf_call_addrtype_t
 aType
+BluetoothHandsfreeResultHandler
+*
+aRes
 )
 ;
 protected
