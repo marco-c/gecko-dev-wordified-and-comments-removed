@@ -354,7 +354,7 @@ src
 TEST_URL_ROOT
 +
 '
-browser_inspector_markup_765105_tooltip
+doc_markup_tooltip
 .
 png
 "

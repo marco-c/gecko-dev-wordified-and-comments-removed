@@ -4,7 +4,7 @@ TEST_URL
 TEST_URL_ROOT
 +
 "
-browser_inspector_markup_950732
+doc_markup_pagesize_02
 .
 html
 "

@@ -20,7 +20,7 @@ TEST_URL
 TEST_URL_ROOT
 +
 "
-browser_inspector_markup_subset
+doc_markup_pagesize_01
 .
 html
 "

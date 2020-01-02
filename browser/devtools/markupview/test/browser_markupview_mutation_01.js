@@ -4,7 +4,7 @@ TEST_URL
 TEST_URL_ROOT
 +
 "
-browser_inspector_markup_mutation
+doc_markup_mutation
 .
 html
 "

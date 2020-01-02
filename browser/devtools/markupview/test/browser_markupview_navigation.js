@@ -4,7 +4,7 @@ TEST_URL
 TEST_URL_ROOT
 +
 "
-browser_inspector_markup_navigation
+doc_markup_navigation
 .
 html
 "
