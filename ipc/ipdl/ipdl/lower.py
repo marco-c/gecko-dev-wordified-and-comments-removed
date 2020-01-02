@@ -29797,7 +29797,7 @@ ptype
 name
 (
 )
-actor
+self
 .
 side
 )

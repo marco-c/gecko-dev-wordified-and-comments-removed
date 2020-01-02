@@ -128,10 +128,6 @@ PContent
 ;
 include
 protocol
-PContentBridge
-;
-include
-protocol
 PDocumentRenderer
 ;
 include
@@ -654,8 +650,6 @@ PBrowser
 {
 manager
 PContent
-or
-PContentBridge
 ;
 manages
 PColorPicker
