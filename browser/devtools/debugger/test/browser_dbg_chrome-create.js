@@ -24,7 +24,7 @@ test
 {
 requestLongerTimeout
 (
-4
+5
 )
 ;
 initChromeDebugger
