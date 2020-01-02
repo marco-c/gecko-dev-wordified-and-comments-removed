@@ -5952,26 +5952,23 @@ h
 )
                 
 elif
-t
+f
 .
-isPrimitive
+isEnum
 (
 )
 :
                     
-implheaders
+headers
 .
 add
 (
-"
-mozilla
-/
-dom
-/
-PrimitiveConversions
+CGHeaders
 .
-h
-"
+getDeclarationFilename
+(
+f
+)
 )
     
 map
