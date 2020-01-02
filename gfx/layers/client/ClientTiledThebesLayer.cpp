@@ -279,13 +279,7 @@ TransformTo
 LayerPixel
 >
 (
-gfx
-:
-:
-To3DMatrix
-(
 aTransform
-)
 aParentLayerRect
 )
 ;
