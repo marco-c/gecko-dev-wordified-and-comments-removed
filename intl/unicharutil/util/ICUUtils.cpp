@@ -117,7 +117,7 @@ AddBoolVarCache
 &
 gLocaleNumberGroupingEnabled
 LOCALE_NUMBER_GROUPING_PREF_STR
-true
+false
 )
 ;
 sInitialized
