@@ -755,6 +755,17 @@ endif
 #
 }
 ifdef
+MOZ_NFC
+#
+{
+STATIC_LIBS
++
+=
+moznfc_s
+endif
+#
+}
+ifdef
 MOZ_IPDL_TESTS
 STATIC_LIBS
 +
