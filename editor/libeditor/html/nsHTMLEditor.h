@@ -1286,6 +1286,12 @@ nsIDOMNode
 aNode
 )
 ;
+using
+nsEditor
+:
+:
+DeleteText
+;
 NS_IMETHODIMP
 DeleteText
 (
