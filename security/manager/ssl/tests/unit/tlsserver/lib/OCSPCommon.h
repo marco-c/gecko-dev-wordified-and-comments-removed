@@ -38,6 +38,7 @@ ORTSrverr
 ORTTryLater
 ORTNeedsSig
 ORTUnauthorized
+ORTBadSignature
 }
 ;
 struct

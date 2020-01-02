@@ -184,6 +184,14 @@ unauthorized
 "
 ORTUnauthorized
 }
+{
+"
+bad
+-
+signature
+"
+ORTBadSignature
+}
 }
 ;
 bool
