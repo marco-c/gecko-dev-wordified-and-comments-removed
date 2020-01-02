@@ -1446,7 +1446,7 @@ GetReply
 ;
 }
 return
-false
+true
 ;
 }
 bool
