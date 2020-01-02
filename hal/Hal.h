@@ -495,6 +495,11 @@ GetTimezone
 (
 )
 ;
+int32_t
+GetTimezoneOffset
+(
+)
+;
 void
 RegisterSystemClockChangeObserver
 (

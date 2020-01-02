@@ -673,6 +673,16 @@ nsCString
 aTimezoneSpec
 )
 ;
+sync
+GetTimezoneOffset
+(
+)
+returns
+(
+int32_t
+aTimezoneOffset
+)
+;
 EnableSystemClockChangeNotifications
 (
 )
