@@ -630,11 +630,8 @@ qnp
 QName
 *
 )
-PR_LIST_HEAD
-(
 &
 qNameList
-)
 )
 ;
 }
@@ -767,14 +764,11 @@ rnp
 RName
 *
 )
-PR_LIST_HEAD
-(
 &
 qnp
 -
 >
 rNameList
-)
 )
 ;
 }

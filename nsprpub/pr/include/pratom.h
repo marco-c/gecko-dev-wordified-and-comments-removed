@@ -390,6 +390,12 @@ __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4
 \
 defined
 (
+__aarch64__
+)
+|
+|
+defined
+(
 __alpha
 )
 )

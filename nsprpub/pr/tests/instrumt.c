@@ -268,8 +268,6 @@ rname
 desc
 )
 ;
-tCtr
-=
 PR_GET_COUNTER
 (
 tCtr
