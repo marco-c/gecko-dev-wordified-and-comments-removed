@@ -363,7 +363,7 @@ searchTerms
 /
 >
 <
-MozParam
+Param
 name
 =
 "
@@ -377,7 +377,7 @@ MOZB
 /
 >
 <
-MozParam
+Param
 name
 =
 "
@@ -445,7 +445,7 @@ searchTerms
 /
 >
 <
-MozParam
+Param
 name
 =
 "
@@ -459,7 +459,7 @@ MOZA
 /
 >
 <
-MozParam
+Param
 name
 =
 "
