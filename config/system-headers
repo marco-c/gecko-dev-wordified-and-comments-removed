@@ -4153,11 +4153,8 @@ xlocale
 .
 h
 #
-if
-MOZ_NATIVE_ICU
-=
-=
-1
+ifdef
+MOZ_SHARED_ICU
 unicode
 /
 locid
