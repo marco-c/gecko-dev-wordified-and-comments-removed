@@ -1668,15 +1668,6 @@ ru
 nsGkAtoms
 :
 :
-x_baltic
-"
-lv
-"
-}
-{
-nsGkAtoms
-:
-:
 x_devanagari
 "
 hi

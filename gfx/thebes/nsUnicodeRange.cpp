@@ -59,11 +59,6 @@ ar
 nsGkAtoms
 :
 :
-x_baltic
-&
-nsGkAtoms
-:
-:
 th
 &
 nsGkAtoms

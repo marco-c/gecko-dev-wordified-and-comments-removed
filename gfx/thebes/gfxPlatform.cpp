@@ -1056,11 +1056,6 @@ x
 cyrillic
 "
 "
-x
--
-baltic
-"
-"
 el
 "
 "
@@ -5604,12 +5599,6 @@ kRangeArabic
 :
 return
 eFontPrefLang_Arabic
-;
-case
-kRangeBaltic
-:
-return
-eFontPrefLang_Baltic
 ;
 case
 kRangeThai
