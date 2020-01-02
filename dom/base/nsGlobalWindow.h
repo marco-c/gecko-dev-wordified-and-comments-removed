@@ -1597,12 +1597,14 @@ char
 aEventName
 )
 ;
-virtual
 bool
 DispatchResizeEvent
 (
 const
-nsIntSize
+mozilla
+:
+:
+CSSIntSize
 &
 aSize
 )
