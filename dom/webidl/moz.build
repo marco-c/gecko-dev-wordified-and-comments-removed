@@ -995,11 +995,6 @@ InterAppConnectionRequest
 webidl
 '
 '
-InterAppMessageEvent
-.
-webidl
-'
-'
 InterAppMessagePort
 .
 webidl
@@ -2628,6 +2623,11 @@ webidl
 '
 '
 MediaStreamEvent
+.
+webidl
+'
+'
+MozInterAppMessageEvent
 .
 webidl
 '
