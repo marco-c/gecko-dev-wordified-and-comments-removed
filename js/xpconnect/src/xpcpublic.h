@@ -280,6 +280,15 @@ JSObject
 obj
 )
 ;
+JSObject
+*
+XrayAwareCalleeGlobal
+(
+JSObject
+*
+fun
+)
+;
 }
 namespace
 JS
