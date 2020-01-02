@@ -3540,12 +3540,6 @@ child
 base
 id
 slot
-holder
--
->
-numFixedSlots
-(
-)
 0
 0
 0
