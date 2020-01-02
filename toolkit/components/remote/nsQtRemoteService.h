@@ -37,8 +37,7 @@ nsQtRemoteService
 (
 )
 ;
-private
-:
+virtual
 ~
 nsQtRemoteService
 (
@@ -46,6 +45,8 @@ nsQtRemoteService
 {
 }
 ;
+private
+:
 virtual
 void
 SetDesktopStartupIDOrTimestamp
@@ -70,7 +71,7 @@ friend
 class
 MozQRemoteEventHandlerWidget
 ;
-QWidget
+QWindow
 *
 mServerWindow
 ;

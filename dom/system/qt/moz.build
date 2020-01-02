@@ -147,7 +147,7 @@ SOURCES
 =
 [
 '
-nsHapticFeedback
+QtHapticFeedback
 .
 cpp
 '
