@@ -48,9 +48,6 @@ class
 nsIAtom
 ;
 class
-nsSupportsHashtable
-;
-class
 nsXBLPrototypeResources
 ;
 class

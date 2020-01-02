@@ -32,9 +32,6 @@ class
 nsIAtom
 ;
 class
-nsSupportsHashtable
-;
-class
 nsXBLResourceLoader
 ;
 class

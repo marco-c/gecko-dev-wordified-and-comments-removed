@@ -98,16 +98,10 @@ class
 nsIDocument
 ;
 class
-nsSupportsHashtable
-;
-class
 nsXBLProtoImplField
 ;
 class
 nsXBLBinding
-;
-class
-nsCSSStyleSheet
 ;
 class
 nsXBLPrototypeBinding
