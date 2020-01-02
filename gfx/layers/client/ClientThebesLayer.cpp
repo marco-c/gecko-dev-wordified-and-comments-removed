@@ -229,13 +229,6 @@ phase
 "
 )
 ;
-mContentClient
--
->
-PrepareFrame
-(
-)
-;
 uint32_t
 flags
 =
@@ -647,13 +640,6 @@ mContentClient
 -
 >
 EndPaint
-(
-)
-;
-mContentClient
--
->
-OnTransaction
 (
 )
 ;

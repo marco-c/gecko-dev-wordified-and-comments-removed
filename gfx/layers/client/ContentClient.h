@@ -313,13 +313,6 @@ aReturned
 ;
 virtual
 void
-PrepareFrame
-(
-)
-{
-}
-virtual
-void
 SwapBuffers
 (
 const
@@ -341,8 +334,7 @@ void
 EndPaint
 (
 )
-{
-}
+;
 }
 ;
 class
@@ -1113,7 +1105,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-PrepareFrame
+BeginPaint
 (
 )
 MOZ_OVERRIDE
@@ -1478,6 +1470,13 @@ mUpdateDescriptorOnWhite
 )
 ;
 }
+ContentClientRemote
+:
+:
+EndPaint
+(
+)
+;
 }
 private
 :
