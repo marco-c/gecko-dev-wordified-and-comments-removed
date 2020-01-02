@@ -1076,7 +1076,7 @@ aCallback
 let
 timeout
 =
-100
+1000
 +
 Services
 .
