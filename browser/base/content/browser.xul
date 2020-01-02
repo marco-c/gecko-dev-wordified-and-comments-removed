@@ -2103,6 +2103,11 @@ type
 "
 arrow
 "
+hidden
+=
+"
+true
+"
 noautofocus
 =
 "
@@ -2167,6 +2172,11 @@ id
 =
 "
 UITourHighlightContainer
+"
+hidden
+=
+"
+true
 "
 noautofocus
 =
