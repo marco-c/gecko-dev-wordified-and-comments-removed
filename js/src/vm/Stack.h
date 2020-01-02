@@ -4944,7 +4944,7 @@ jit
 :
 :
 JitFrameIterator
-ionFrames_
+jitFrames_
 ;
 #
 endif
@@ -6026,7 +6026,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -6042,7 +6042,7 @@ script
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 script
 (
@@ -6077,7 +6077,7 @@ isJit
 &
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -6112,7 +6112,7 @@ isJit
 &
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (

@@ -1873,7 +1873,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -1899,7 +1899,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -1908,7 +1908,7 @@ isBaselineJS
 ;
 data_
 .
-ionFrames_
+jitFrames_
 .
 unaliasedForEachActual
 (

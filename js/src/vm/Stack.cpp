@@ -3294,7 +3294,7 @@ isJit
 {
 data_
 .
-ionFrames_
+jitFrames_
 =
 jit
 :
@@ -3311,7 +3311,7 @@ while
 !
 data_
 .
-ionFrames_
+jitFrames_
 .
 isScripted
 (
@@ -3321,7 +3321,7 @@ isScripted
 !
 data_
 .
-ionFrames_
+jitFrames_
 .
 done
 (
@@ -3331,13 +3331,13 @@ done
 +
 data_
 .
-ionFrames_
+jitFrames_
 ;
 if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 done
 (
@@ -3574,7 +3574,7 @@ runtime
 #
 ifdef
 JS_ION
-ionFrames_
+jitFrames_
 (
 (
 uint8_t
@@ -3655,11 +3655,11 @@ activations_
 #
 ifdef
 JS_ION
-ionFrames_
+jitFrames_
 (
 other
 .
-ionFrames_
+jitFrames_
 )
 #
 endif
@@ -3789,7 +3789,7 @@ data_
 cx_
 data_
 .
-ionFrames_
+jitFrames_
 .
 isScripted
 (
@@ -3831,7 +3831,7 @@ data
 cx_
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -3840,7 +3840,7 @@ isIonJS
 &
 data_
 .
-ionFrames_
+jitFrames_
 :
 nullptr
 )
@@ -3870,7 +3870,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -3884,7 +3884,7 @@ resetOn
 &
 data_
 .
-ionFrames_
+jitFrames_
 )
 ;
 data_
@@ -3904,7 +3904,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -3913,7 +3913,7 @@ isBaselineJS
 ;
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineScriptAndPc
 (
@@ -3948,7 +3948,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -3983,14 +3983,14 @@ return
 +
 data_
 .
-ionFrames_
+jitFrames_
 ;
 while
 (
 !
 data_
 .
-ionFrames_
+jitFrames_
 .
 done
 (
@@ -4000,7 +4000,7 @@ done
 !
 data_
 .
-ionFrames_
+jitFrames_
 .
 isScripted
 (
@@ -4010,14 +4010,14 @@ isScripted
 +
 data_
 .
-ionFrames_
+jitFrames_
 ;
 if
 (
 !
 data_
 .
-ionFrames_
+jitFrames_
 .
 done
 (
@@ -4294,7 +4294,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 type
 (
@@ -4458,7 +4458,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isScripted
 (
@@ -4469,7 +4469,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -4478,7 +4478,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 isFunctionFrame
 (
@@ -4557,7 +4557,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -4566,7 +4566,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -4667,7 +4667,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -4676,7 +4676,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -5382,7 +5382,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -5399,7 +5399,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -5409,7 +5409,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 isConstructing
 (
@@ -5478,7 +5478,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -5487,7 +5487,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -5644,7 +5644,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -5660,7 +5660,7 @@ frame
 =
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -5723,7 +5723,7 @@ activations_
 ;
 data_
 .
-ionFrames_
+jitFrames_
 =
 jit
 :
@@ -5740,7 +5740,7 @@ while
 !
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -5749,7 +5749,7 @@ isBaselineJS
 |
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -5762,13 +5762,13 @@ frame
 +
 data_
 .
-ionFrames_
+jitFrames_
 ;
 JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -5780,7 +5780,7 @@ frame
 ;
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineScriptAndPc
 (
@@ -5864,7 +5864,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -5873,7 +5873,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 callee
 (
@@ -5883,7 +5883,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -6042,7 +6042,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -6059,7 +6059,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -6069,7 +6069,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 numActualArgs
 (
@@ -6169,7 +6169,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -6179,7 +6179,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6243,7 +6243,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -6259,7 +6259,7 @@ scopeChain
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6410,7 +6410,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -6420,7 +6420,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6489,7 +6489,7 @@ JS_ASSERT
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -6499,7 +6499,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6629,7 +6629,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -6649,7 +6649,7 @@ thisObject
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6723,7 +6723,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -6732,7 +6732,7 @@ isBaselineJS
 return
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6807,7 +6807,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isBaselineJS
 (
@@ -6816,7 +6816,7 @@ isBaselineJS
 {
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6895,7 +6895,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -6934,7 +6934,7 @@ frame
 =
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
@@ -6950,7 +6950,7 @@ numValueSlots
 -
 data_
 .
-ionFrames_
+jitFrames_
 .
 script
 (
@@ -7056,7 +7056,7 @@ if
 (
 data_
 .
-ionFrames_
+jitFrames_
 .
 isIonJS
 (
@@ -7104,7 +7104,7 @@ index
 =
 data_
 .
-ionFrames_
+jitFrames_
 .
 script
 (
@@ -7119,7 +7119,7 @@ return
 *
 data_
 .
-ionFrames_
+jitFrames_
 .
 baselineFrame
 (
