@@ -1075,6 +1075,11 @@ mLock
 )
 ;
 }
+void
+DidLockGranted
+(
+)
+;
 bool
 GetScreenExtInternal
 (
@@ -1204,6 +1209,11 @@ const
 nsString
 &
 aHTMLInputType
+)
+;
+void
+CreateNativeCaret
+(
 )
 ;
 nsRefPtr
@@ -2405,6 +2415,9 @@ mIsRecordingActionsWithoutLock
 ;
 bool
 mNotifySelectionChange
+;
+bool
+mNativeCaretIsCreated
 ;
 bool
 mIsIMM_IME
