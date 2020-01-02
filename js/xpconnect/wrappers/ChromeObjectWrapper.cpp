@@ -33,6 +33,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+jswrapper
+.
+h
+"
 using
 namespace
 JS
@@ -247,7 +254,10 @@ if
 handler
 -
 >
-ChromeObjectWrapperBase
+js
+:
+:
+CrossCompartmentSecurityWrapper
 :
 :
 getPropertyDescriptor
