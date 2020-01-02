@@ -1103,7 +1103,12 @@ toJSON
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 &
 val
 )

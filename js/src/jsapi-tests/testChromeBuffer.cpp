@@ -136,7 +136,12 @@ funVal
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 args
 .
 rval

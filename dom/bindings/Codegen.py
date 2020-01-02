@@ -88095,7 +88095,12 @@ args
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 "
         
 return

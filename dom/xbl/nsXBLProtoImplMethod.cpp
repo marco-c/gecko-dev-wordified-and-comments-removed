@@ -1619,7 +1619,12 @@ methodVal
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 &
 retval
 )

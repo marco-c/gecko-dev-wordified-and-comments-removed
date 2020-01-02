@@ -8439,7 +8439,12 @@ toString
 JS
 :
 :
-EmptyValueArray
+HandleValueArray
+:
+:
+empty
+(
+)
 &
 toStringResult
 )

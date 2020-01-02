@@ -718,16 +718,6 @@ jschar
 2
 )
 ;
-const
-JS
-:
-:
-HandleValueArray
-JS
-:
-:
-EmptyValueArray
-;
 JS_PUBLIC_API
 (
 int64_t
