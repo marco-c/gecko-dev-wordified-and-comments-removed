@@ -6469,6 +6469,7 @@ build
 )
 ;
 }
+public
 static
 Intent
 getShareIntent
