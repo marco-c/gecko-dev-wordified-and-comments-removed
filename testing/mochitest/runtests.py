@@ -2670,10 +2670,8 @@ testPath
           
 continue
         
-paths
-.
-append
-(
+testob
+=
 {
 '
 path
@@ -2681,6 +2679,37 @@ path
 :
 tp
 }
+        
+if
+test
+.
+has_key
+(
+'
+disabled
+'
+)
+:
+          
+testob
+[
+'
+disabled
+'
+]
+=
+test
+[
+'
+disabled
+'
+]
+        
+paths
+.
+append
+(
+testob
 )
       
 with
