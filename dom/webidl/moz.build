@@ -415,6 +415,11 @@ DeviceStorage
 webidl
 '
 '
+Directory
+.
+webidl
+'
+'
 Document
 .
 webidl
