@@ -2392,6 +2392,15 @@ aCoord
 ;
 }
 static
+void
+MarkDescendantsDirty
+(
+nsIFrame
+*
+aSubtreeRoot
+)
+;
+static
 nsSize
 ComputeSizeWithIntrinsicDimensions
 (
