@@ -59,7 +59,7 @@ uintptr_t
 ;
 bits_per_level
 =
-ffs
+jemalloc_ffs
 (
 pow2_ceil
 (
@@ -79,7 +79,7 @@ void
 ;
 bits_in_leaf
 =
-ffs
+jemalloc_ffs
 (
 pow2_ceil
 (
