@@ -973,6 +973,13 @@ destroy
 )
 ;
 }
+Tabs
+.
+unregisterOnTabsChangedListener
+(
+this
+)
+;
 }
 public
 void
