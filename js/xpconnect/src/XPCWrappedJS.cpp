@@ -1754,11 +1754,6 @@ NS_ADDREF_THIS
 (
 )
 ;
-NS_ADDREF
-(
-aClass
-)
-;
 if
 (
 !
@@ -2015,10 +2010,9 @@ mRoot
 )
 ;
 }
-NS_IF_RELEASE
-(
 mClass
-)
+=
+nullptr
 ;
 if
 (
@@ -2712,6 +2706,10 @@ nsXPCWrappedJSClass
 x
 "
 mClass
+.
+get
+(
+)
 )
 )
 ;

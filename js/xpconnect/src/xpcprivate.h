@@ -10017,8 +10017,10 @@ JSObject
 >
 mJSObj
 ;
+nsRefPtr
+<
 nsXPCWrappedJSClass
-*
+>
 mClass
 ;
 nsXPCWrappedJS
