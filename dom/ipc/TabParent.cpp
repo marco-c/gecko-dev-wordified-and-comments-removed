@@ -3375,7 +3375,7 @@ PBrowserParent
 :
 SendMouseWheelEvent
 (
-event
+outEvent
 )
 ;
 }
