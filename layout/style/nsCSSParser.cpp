@@ -11884,11 +11884,6 @@ true
 )
 )
 {
-REPORT_UNEXPECTED_TOKEN
-(
-PESupportsConditionExpectedCloseParen
-)
-;
 SkipUntil
 (
 '
@@ -11896,8 +11891,12 @@ SkipUntil
 '
 )
 ;
-return
+aConditionMet
+=
 false
+;
+return
+true
 ;
 }
 return
