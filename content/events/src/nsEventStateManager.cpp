@@ -2559,7 +2559,7 @@ GetIgnoreMoveDelayTime
 )
 )
 {
-MayEndTransaction
+EndTransaction
 (
 )
 ;
@@ -2616,7 +2616,7 @@ pt
 )
 )
 {
-MayEndTransaction
+EndTransaction
 (
 )
 ;
