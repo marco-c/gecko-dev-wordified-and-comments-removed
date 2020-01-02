@@ -340,6 +340,7 @@ void
 CheckThread
 (
 )
+const
 {
 NS_ABORT_IF_FALSE
 (
@@ -386,6 +387,7 @@ bool
 CheckThreadInt
 (
 )
+const
 {
 bool
 on
