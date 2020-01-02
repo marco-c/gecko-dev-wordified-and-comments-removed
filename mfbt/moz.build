@@ -209,6 +209,11 @@ Endian
 h
 '
 '
+EnumeratedArray
+.
+h
+'
+'
 EnumSet
 .
 h
