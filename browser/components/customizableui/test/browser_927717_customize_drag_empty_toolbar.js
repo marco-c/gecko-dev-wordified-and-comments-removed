@@ -39,8 +39,8 @@ function
 createToolbarWithPlacements
 (
 kTestToolbarId
-"
-"
+[
+]
 )
 ;
 }
