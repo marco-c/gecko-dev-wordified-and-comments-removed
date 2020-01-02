@@ -187,6 +187,15 @@ NS_IMPL_ISUPPORTS
 NSSErrorsService
 nsINSSErrorsService
 )
+NSSErrorsService
+:
+:
+~
+NSSErrorsService
+(
+)
+{
+}
 nsresult
 NSSErrorsService
 :
