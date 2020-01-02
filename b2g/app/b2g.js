@@ -5214,6 +5214,16 @@ true
 pref
 (
 "
+memory
+.
+system_memory_reporter
+"
+true
+)
+;
+pref
+(
+"
 layout
 .
 imagevisibility

@@ -646,11 +646,6 @@ focus
 )
 ;
 let
-aIsVerbose
-=
-true
-;
-let
 doc
 =
 frame
@@ -675,7 +670,7 @@ verbosity
 .
 checked
 =
-aIsVerbose
+true
 ;
 function
 getFilePath
