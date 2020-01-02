@@ -4802,8 +4802,10 @@ MediaResource
 >
 resource
 =
-new
-MediaSourceResource
+MediaSourceDecoder
+:
+:
+CreateResource
 (
 )
 ;
