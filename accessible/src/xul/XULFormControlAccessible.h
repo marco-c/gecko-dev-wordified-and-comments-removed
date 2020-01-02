@@ -744,6 +744,7 @@ nsFrameSelection
 FrameSelection
 (
 )
+const
 ;
 already_AddRefed
 <

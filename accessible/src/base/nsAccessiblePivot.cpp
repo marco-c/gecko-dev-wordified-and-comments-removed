@@ -1184,6 +1184,8 @@ tempPosition
 HyperTextAccessible
 *
 text
+=
+nullptr
 ;
 if
 (
@@ -1464,7 +1466,7 @@ tempEnd
 text
 -
 >
-GetTextAtOffset
+TextAtOffset
 (
 tempEnd
 endBoundary
@@ -1478,7 +1480,7 @@ unusedText
 text
 -
 >
-GetTextBeforeOffset
+TextBeforeOffset
 (
 tempEnd
 startBoundary
@@ -2037,7 +2039,7 @@ potentialEnd
 text
 -
 >
-GetTextBeforeOffset
+TextBeforeOffset
 (
 tempStart
 startBoundary
@@ -2069,7 +2071,7 @@ else
 text
 -
 >
-GetTextBeforeOffset
+TextBeforeOffset
 (
 tempStart
 -
@@ -2085,7 +2087,7 @@ unusedText
 text
 -
 >
-GetTextAtOffset
+TextAtOffset
 (
 tempStart
 endBoundary

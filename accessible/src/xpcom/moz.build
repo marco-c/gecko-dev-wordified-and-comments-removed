@@ -103,6 +103,11 @@ EXPORTS
 =
 [
 '
+xpcAccessibleHyperText
+.
+h
+'
+'
 xpcAccessibleSelectable
 .
 h
@@ -114,6 +119,11 @@ SOURCES
 [
 '
 nsAccessibleRelation
+.
+cpp
+'
+'
+xpcAccessibleHyperText
 .
 cpp
 '
