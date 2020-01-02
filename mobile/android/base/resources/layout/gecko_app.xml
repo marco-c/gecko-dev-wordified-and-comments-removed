@@ -425,6 +425,15 @@ focusable
 "
 true
 "
+android
+:
+translationY
+=
+"
+dimen
+/
+home_banner_height
+"
 /
 >
 <
