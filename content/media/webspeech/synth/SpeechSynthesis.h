@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechSynthesis_h
+#
+define
+mozilla_dom_SpeechSynthesis_h
 #
 include
 "
@@ -232,3 +235,5 @@ mVoiceCache
 ;
 }
 }
+#
+endif

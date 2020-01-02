@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechStreamListener_h
+#
+define
+mozilla_dom_SpeechStreamListener_h
 #
 include
 "
@@ -106,3 +109,5 @@ mRecognition
 ;
 }
 }
+#
+endif

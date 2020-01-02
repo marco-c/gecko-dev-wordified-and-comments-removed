@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechGrammarList_h
+#
+define
+mozilla_dom_SpeechGrammarList_h
 #
 include
 "
@@ -218,3 +221,5 @@ mParent
 ;
 }
 }
+#
+endif

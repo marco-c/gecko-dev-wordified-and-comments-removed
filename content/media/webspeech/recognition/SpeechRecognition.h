@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechRecognition_h
+#
+define
+mozilla_dom_SpeechRecognition_h
 #
 include
 "
@@ -1162,3 +1165,5 @@ aRec
 ;
 }
 }
+#
+endif

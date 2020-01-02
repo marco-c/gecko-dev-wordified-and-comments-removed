@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+nsPicoService_h
+#
+define
+nsPicoService_h
 #
 include
 "
@@ -242,3 +245,5 @@ sSingleton
 ;
 }
 }
+#
+endif

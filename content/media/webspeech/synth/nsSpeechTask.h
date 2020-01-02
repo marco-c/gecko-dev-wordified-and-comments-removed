@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_nsSpeechTask_h
+#
+define
+mozilla_dom_nsSpeechTask_h
 #
 include
 "
@@ -260,3 +263,5 @@ mIndirectAudio
 ;
 }
 }
+#
+endif

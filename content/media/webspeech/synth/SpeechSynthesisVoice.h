@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechSynthesisVoice_h
+#
+define
+mozilla_dom_SpeechSynthesisVoice_h
 #
 include
 "
@@ -181,3 +184,5 @@ mUri
 ;
 }
 }
+#
+endif

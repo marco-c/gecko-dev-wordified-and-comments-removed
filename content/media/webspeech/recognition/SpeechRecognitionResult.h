@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SpeechRecognitionResult_h
+#
+define
+mozilla_dom_SpeechRecognitionResult_h
 #
 include
 "
@@ -187,3 +190,5 @@ mParent
 ;
 }
 }
+#
+endif
