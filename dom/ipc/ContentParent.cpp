@@ -6649,6 +6649,9 @@ base
 PRIVILEGES_INHERIT
 )
 {
+if
+(
+!
 SendSetProcessPrivileges
 (
 base
@@ -6656,7 +6659,13 @@ base
 :
 PRIVILEGES_INHERIT
 )
+)
+{
+KillHard
+(
+)
 ;
+}
 }
 #
 endif
