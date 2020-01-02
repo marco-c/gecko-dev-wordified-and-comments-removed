@@ -1228,6 +1228,9 @@ show
 (
 false
 message
+ButtonToast
+.
+LENGTH_SHORT
 buttonMessage
 R
 .
