@@ -153,8 +153,6 @@ subprocess
 const
 {
 Promise
-:
-promise
 }
 =
 Cu
@@ -725,7 +723,7 @@ function
 let
 deferred
 =
-promise
+Promise
 .
 defer
 (
@@ -808,7 +806,7 @@ promise
 else
 {
 return
-promise
+Promise
 .
 resolve
 (

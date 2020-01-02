@@ -31,8 +31,6 @@ process
 const
 {
 Promise
-:
-promise
 }
 =
 Cu
@@ -162,7 +160,7 @@ run
 )
 ;
 return
-promise
+Promise
 .
 resolve
 (
@@ -181,7 +179,7 @@ process
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
