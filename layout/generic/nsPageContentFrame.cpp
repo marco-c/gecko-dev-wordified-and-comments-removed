@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsSimplePageSequence
+nsSimplePageSequenceFrame
 .
 h
 "

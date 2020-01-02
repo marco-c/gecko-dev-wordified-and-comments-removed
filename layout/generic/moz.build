@@ -442,7 +442,7 @@ nsSelection
 cpp
 '
 '
-nsSimplePageSequence
+nsSimplePageSequenceFrame
 .
 cpp
 '

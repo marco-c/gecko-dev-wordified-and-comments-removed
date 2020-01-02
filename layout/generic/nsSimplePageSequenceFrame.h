@@ -1,9 +1,9 @@
 #
 ifndef
-nsSimplePageSequence_h___
+nsSimplePageSequenceFrame_h___
 #
 define
-nsSimplePageSequence_h___
+nsSimplePageSequenceFrame_h___
 #
 include
 "

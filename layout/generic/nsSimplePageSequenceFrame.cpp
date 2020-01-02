@@ -1,7 +1,7 @@
 #
 include
 "
-nsSimplePageSequence
+nsSimplePageSequenceFrame
 .
 h
 "
