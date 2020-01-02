@@ -2996,7 +2996,7 @@ act
 act
 -
 >
-prev
+prevAsmJS
 (
 )
 )
