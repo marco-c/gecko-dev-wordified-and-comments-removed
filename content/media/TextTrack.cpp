@@ -384,6 +384,11 @@ AddCue
 aCue
 )
 ;
+if
+(
+mMediaElement
+)
+{
 mMediaElement
 -
 >
@@ -392,6 +397,7 @@ AddCue
 aCue
 )
 ;
+}
 SetDirty
 (
 )
