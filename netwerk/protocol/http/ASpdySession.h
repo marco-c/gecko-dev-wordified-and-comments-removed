@@ -78,7 +78,7 @@ IdleTime
 0
 ;
 virtual
-void
+uint32_t
 ReadTimeoutTick
 (
 PRIntervalTime

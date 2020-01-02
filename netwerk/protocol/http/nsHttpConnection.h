@@ -476,7 +476,7 @@ return
 mReportedSpdy
 ;
 }
-void
+uint32_t
 ReadTimeoutTick
 (
 PRIntervalTime

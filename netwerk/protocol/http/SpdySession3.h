@@ -141,7 +141,7 @@ RoomForMoreStreams
 (
 )
 ;
-void
+uint32_t
 ReadTimeoutTick
 (
 PRIntervalTime

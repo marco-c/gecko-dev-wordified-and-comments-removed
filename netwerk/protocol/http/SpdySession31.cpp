@@ -942,7 +942,7 @@ PR_IntervalNow
 mLastDataReadEpoch
 ;
 }
-void
+uint32_t
 SpdySession31
 :
 :
@@ -1010,6 +1010,7 @@ if
 mPingThreshold
 )
 return
+UINT32_MAX
 ;
 if
 (
@@ -1031,6 +1032,17 @@ mPingSentEpoch
 0
 ;
 return
+PR_IntervalToSeconds
+(
+mPingThreshold
+)
+-
+PR_IntervalToSeconds
+(
+now
+-
+mLastReadEpoch
+)
 ;
 }
 if
@@ -1104,8 +1116,12 @@ Close
 NS_ERROR_NET_TIMEOUT
 )
 ;
+return
+UINT32_MAX
+;
 }
 return
+1
 ;
 }
 LOG
@@ -1163,6 +1179,7 @@ this
 )
 ;
 return
+UINT32_MAX
 ;
 }
 mPingSentEpoch
@@ -1354,6 +1371,9 @@ mShouldGoAway
 true
 ;
 }
+return
+1
+;
 }
 uint32_t
 SpdySession31

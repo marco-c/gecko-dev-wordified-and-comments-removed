@@ -1677,6 +1677,9 @@ mTimeoutTick
 bool
 mTimeoutTickArmed
 ;
+uint32_t
+mTimeoutTickNext
+;
 nsClassHashtable
 <
 nsCStringHashKey
