@@ -2278,6 +2278,10 @@ notifyDataSetChanged
 if
 (
 !
+mSuggestionsEnabled
+&
+&
+!
 suggestionsPrompted
 &
 &
