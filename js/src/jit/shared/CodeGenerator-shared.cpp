@@ -3047,7 +3047,7 @@ scratch
 ;
 masm
 .
-callWithABI
+callWithABINoProfiling
 (
 JS_FUNC_TO_DATA_PTR
 (
