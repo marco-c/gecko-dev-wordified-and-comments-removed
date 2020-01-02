@@ -1043,13 +1043,6 @@ function
 {
 SpecialPowers
 .
-setAllAppsLaunchable
-(
-true
-)
-;
-SpecialPowers
-.
 pushPrefEnv
 (
 {
@@ -1198,15 +1191,6 @@ finish
 )
 ;
 }
-if
-(
-SpecialPowers
-.
-isMainProcess
-(
-)
-)
-{
 SpecialPowers
 .
 Cu
@@ -1228,7 +1212,6 @@ jsm
 "
 )
 ;
-}
 SimpleTest
 .
 waitForExplicitFinish

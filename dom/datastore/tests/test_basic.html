@@ -660,13 +660,6 @@ function
 {
 SpecialPowers
 .
-setAllAppsLaunchable
-(
-true
-)
-;
-SpecialPowers
-.
 setBoolPref
 (
 "
@@ -771,15 +764,6 @@ finish
 )
 ;
 }
-if
-(
-SpecialPowers
-.
-isMainProcess
-(
-)
-)
-{
 SpecialPowers
 .
 Cu
@@ -801,7 +785,6 @@ jsm
 "
 )
 ;
-}
 SimpleTest
 .
 waitForExplicitFinish
