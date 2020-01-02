@@ -184,8 +184,8 @@ mTitle
 nsString
 mColor
 ;
-GdkColor
-mDefaultColor
+nsString
+mInitialColor
 ;
 }
 ;
