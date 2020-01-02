@@ -13858,13 +13858,6 @@ DoGetTextDecoration
 (
 )
 {
-nsROCSSPrimitiveValue
-*
-val
-=
-new
-nsROCSSPrimitiveValue
-;
 const
 nsStyleTextReset
 *
@@ -13916,6 +13909,13 @@ return
 nullptr
 ;
 }
+nsROCSSPrimitiveValue
+*
+val
+=
+new
+nsROCSSPrimitiveValue
+;
 uint8_t
 line
 =
