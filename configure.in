@@ -842,9 +842,11 @@ SQLITE_VERSION
 =
 3
 .
-7
+8
 .
-17
+0
+.
+2
 MSMANIFEST_TOOL
 =
 dnl
