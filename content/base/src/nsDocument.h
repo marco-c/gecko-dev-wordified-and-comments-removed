@@ -6220,6 +6220,9 @@ ImportManager
 >
 mImportManager
 ;
+bool
+mMaybeServiceWorkerControlled
+;
 #
 ifdef
 DEBUG
