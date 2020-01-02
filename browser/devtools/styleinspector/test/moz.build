@@ -93,3 +93,13 @@ MPL
 0
 /
 .
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+browser
+.
+ini
+'
+]
