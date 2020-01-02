@@ -1140,7 +1140,7 @@ function
 TreeView_restoreSelectionSnapshot
 (
 snapshot
-allowNonContigious
+allowNonContiguous
 )
 {
 var
@@ -1287,11 +1287,7 @@ next_level
 }
 if
 (
-allowNonContigious
-=
-=
-=
-true
+allowNonContiguous
 )
 {
 var

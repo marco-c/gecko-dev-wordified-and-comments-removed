@@ -1111,6 +1111,12 @@ _savedSnapshot
 =
 null
 ;
+this
+.
+_allowNonContiguous
+=
+false
+;
 }
 ProfileTreeManager
 .
@@ -1284,7 +1290,7 @@ function
 ProfileTreeManager__restoreSelectionSnapshot
 (
 snapshot
-allowNonContigous
+allowNonContiguous
 )
 {
 return
@@ -1295,7 +1301,7 @@ treeView
 restoreSelectionSnapshot
 (
 snapshot
-allowNonContigous
+allowNonContiguous
 )
 ;
 }
@@ -1739,16 +1745,16 @@ name
 ;
 }
 }
-setAllowNonContigous
+setAllowNonContiguous
 :
 function
-ProfileTreeManager_setAllowNonContigous
+ProfileTreeManager_setAllowNonContiguous
 (
 )
 {
 this
 .
-_allowNonContigous
+_allowNonContiguous
 =
 true
 ;
@@ -1812,7 +1818,7 @@ this
 _savedSnapshot
 this
 .
-_allowNonContigous
+_allowNonContiguous
 )
 ;
 this
@@ -1823,7 +1829,7 @@ old
 ;
 this
 .
-_allowNonContigous
+_allowNonContiguous
 =
 false
 ;
@@ -11139,7 +11145,7 @@ gJavascriptOnly
 {
 gTreeManager
 .
-setAllowNonContigous
+setAllowNonContiguous
 (
 )
 ;
