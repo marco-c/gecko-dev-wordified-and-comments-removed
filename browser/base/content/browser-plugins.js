@@ -4261,6 +4261,12 @@ expireType
 expireTime
 )
 ;
+aPluginInfo
+.
+pluginPermissionType
+=
+expireType
+;
 }
 let
 cwu
