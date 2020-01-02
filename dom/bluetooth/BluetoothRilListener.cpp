@@ -502,6 +502,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 BluetoothHfpManager
@@ -565,6 +569,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 BluetoothHfpManager
