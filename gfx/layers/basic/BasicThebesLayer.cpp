@@ -685,10 +685,10 @@ GetClipExtents
 (
 )
 ;
-AutoMaskData
+AutoMoz2DMaskData
 mask
 ;
-gfxASurface
+SourceSurface
 *
 maskSurface
 =
