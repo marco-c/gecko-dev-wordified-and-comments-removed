@@ -741,6 +741,7 @@ direction
 ;
 [
 GetterThrows
+ChromeOnly
 ]
 readonly
 attribute
