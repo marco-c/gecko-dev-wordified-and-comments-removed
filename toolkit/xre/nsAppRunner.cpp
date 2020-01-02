@@ -11760,6 +11760,9 @@ GdkDisplay
 display
 )
 {
+#
+if
+CLEANUP_MEMORY
 bool
 theme_is_qt
 =
@@ -11836,9 +11839,6 @@ theme_name
 )
 ;
 }
-#
-if
-CLEANUP_MEMORY
 PangoContext
 *
 pangoContext
@@ -11847,8 +11847,6 @@ gdk_pango_context_get
 (
 )
 ;
-#
-endif
 bool
 buggyCairoShutdown
 =
@@ -11880,9 +11878,6 @@ display
 )
 ;
 }
-#
-if
-CLEANUP_MEMORY
 PangoFontMap
 *
 fontmap
@@ -11948,8 +11943,6 @@ FcFini
 (
 )
 ;
-#
-endif
 if
 (
 buggyCairoShutdown
@@ -11966,6 +11959,15 @@ display
 )
 ;
 }
+#
+else
+(
+void
+)
+display
+;
+#
+endif
 }
 #
 endif
