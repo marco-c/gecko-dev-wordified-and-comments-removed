@@ -548,7 +548,6 @@ rearrangeSites
 function
 (
 aSites
-aDraggedSite
 aOptions
 )
 {
@@ -602,7 +601,9 @@ site
 !
 =
 =
-aDraggedSite
+gDrag
+.
+draggedSite
 )
 {
 if

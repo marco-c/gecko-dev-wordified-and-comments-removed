@@ -120,9 +120,6 @@ gUpdater
 .
 updateGrid
 (
-gDrag
-.
-draggedSite
 )
 ;
 }
@@ -400,9 +397,6 @@ gTransformation
 rearrangeSites
 (
 sites
-gDrag
-.
-draggedSite
 {
 unfreeze
 :
