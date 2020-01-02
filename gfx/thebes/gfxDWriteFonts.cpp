@@ -3268,7 +3268,7 @@ wantCairo
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =

@@ -461,7 +461,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -3555,7 +3555,7 @@ if
 result
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -3569,7 +3569,7 @@ DIRECT2D
 result
 -
 >
-GetType
+GetBackendType
 (
 )
 =

@@ -2482,7 +2482,7 @@ MOZ_ASSERT
 drawTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =

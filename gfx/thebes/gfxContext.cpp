@@ -770,7 +770,7 @@ mOriginalDT
 mOriginalDT
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -929,7 +929,7 @@ if
 mDT
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -1053,7 +1053,7 @@ if
 mDT
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -1535,7 +1535,7 @@ GetBackendType
 mDT
 -
 >
-GetType
+GetBackendType
 (
 )
 )

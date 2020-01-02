@@ -2886,7 +2886,7 @@ mBackendType
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 )
@@ -2966,7 +2966,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -3233,7 +3233,7 @@ MOZ_ASSERT
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 !
@@ -3470,7 +3470,7 @@ mBackendType
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 ;
@@ -3768,7 +3768,7 @@ SupportsAzureContentForType
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 )
@@ -4148,7 +4148,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -9241,7 +9241,7 @@ if
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =
@@ -9255,7 +9255,7 @@ CAIRO
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 =

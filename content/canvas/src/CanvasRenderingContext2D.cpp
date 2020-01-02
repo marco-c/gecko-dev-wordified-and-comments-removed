@@ -23102,7 +23102,7 @@ GetBackendType
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 )
@@ -23171,7 +23171,7 @@ GetBackendType
 aTarget
 -
 >
-GetType
+GetBackendType
 (
 )
 )

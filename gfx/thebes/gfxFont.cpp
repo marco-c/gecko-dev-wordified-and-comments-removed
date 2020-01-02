@@ -14180,7 +14180,7 @@ mPathBuilder
 aDT
 -
 >
-GetType
+GetBackendType
 (
 )
 &
@@ -15938,7 +15938,7 @@ mScaledFont
 dt
 -
 >
-GetType
+GetBackendType
 (
 )
 !
