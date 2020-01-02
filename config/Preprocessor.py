@@ -1205,7 +1205,7 @@ options
 .
 output
 '
-w
+wb
 '
 )
     
