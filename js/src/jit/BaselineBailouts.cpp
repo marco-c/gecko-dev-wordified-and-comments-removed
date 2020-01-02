@@ -2542,13 +2542,6 @@ initArgsObjUnchecked
 argsObj
 )
 ;
-blFrame
--
->
-setBlockChainNull
-(
-)
-;
 if
 (
 fun
