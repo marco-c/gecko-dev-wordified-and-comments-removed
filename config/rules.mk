@@ -3519,8 +3519,6 @@ including
 rules
 .
 mk
-ifndef
-SUPPRESS_DEFAULT_RULES
 default
 all
 :
@@ -3547,9 +3545,6 @@ libs
 MAKE
 )
 tools
-endif
-#
-SUPPRESS_DEFAULT_RULES
 ifeq
 (
 (
