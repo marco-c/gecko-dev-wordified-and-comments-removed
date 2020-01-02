@@ -120,7 +120,7 @@ XP_MACOSX
 !
 defined
 (
-ANDROID
+HAVE_ARC4RANDOM
 )
 unsigned
 int
@@ -452,7 +452,7 @@ uuid
 else
 #
 ifndef
-ANDROID
+HAVE_ARC4RANDOM
 setstate
 (
 mState
@@ -477,7 +477,7 @@ bytesLeft
 {
 #
 ifdef
-ANDROID
+HAVE_ARC4RANDOM
 long
 rval
 =
@@ -635,7 +635,7 @@ m3
 ;
 #
 ifndef
-ANDROID
+HAVE_ARC4RANDOM
 setstate
 (
 mSavedState
