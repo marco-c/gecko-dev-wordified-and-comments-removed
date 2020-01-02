@@ -496,7 +496,6 @@ getter_AddRefs
 (
 mCameraThread
 )
-nullptr
 )
 ;
 Init
