@@ -390,6 +390,14 @@ GetFD
 (
 )
 ;
+uint32_t
+GetDataOffset
+(
+nsZipItem
+*
+aItem
+)
+;
 const
 uint8_t
 *
