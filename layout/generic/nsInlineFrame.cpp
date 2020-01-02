@@ -3946,7 +3946,7 @@ width
 skip
 |
 =
-LOGICAL_SIDE_I_START
+eLogicalSideBitsIStart
 ;
 }
 else
@@ -4010,7 +4010,7 @@ width
 skip
 |
 =
-LOGICAL_SIDE_I_END
+eLogicalSideBitsIEnd
 ;
 }
 else
@@ -4033,7 +4033,7 @@ skip
 =
 LogicalSides
 (
-LOGICAL_SIDES_I_BOTH
+eLogicalSideBitsIBoth
 )
 )
 {
@@ -4058,7 +4058,7 @@ FrameIsNonLastInIBSplit
 skip
 |
 =
-LOGICAL_SIDE_I_END
+eLogicalSideBitsIEnd
 ;
 }
 if
@@ -4074,7 +4074,7 @@ FrameIsNonFirstInIBSplit
 skip
 |
 =
-LOGICAL_SIDE_I_START
+eLogicalSideBitsIStart
 ;
 }
 }
