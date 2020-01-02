@@ -10223,7 +10223,10 @@ false
 if
 (
 !
-DefineConstructorAndPrototype
+GlobalObject
+:
+:
+initBuiltinConstructor
 (
 cx
 global
@@ -10232,9 +10235,11 @@ ctor
 iteratorProto
 )
 )
+{
 return
 false
 ;
+}
 }
 RootedObject
 proto
@@ -10693,7 +10698,10 @@ false
 if
 (
 !
-DefineConstructorAndPrototype
+GlobalObject
+:
+:
+initBuiltinConstructor
 (
 cx
 global
