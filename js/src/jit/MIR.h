@@ -12952,6 +12952,11 @@ TempAllocator
 alloc
 )
 ;
+void
+collectRangeInfoPreTrunc
+(
+)
+;
 #
 ifdef
 DEBUG
