@@ -742,6 +742,12 @@ h
 '
         
 '
+RegisterWorkerBindings
+.
+h
+'
+        
+'
 UnionConversions
 .
 h
@@ -761,6 +767,12 @@ GLOBAL_DEFINE_FILES
         
 '
 RegisterBindings
+.
+cpp
+'
+        
+'
+RegisterWorkerBindings
 .
 cpp
 '

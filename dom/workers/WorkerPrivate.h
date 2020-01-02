@@ -3474,6 +3474,7 @@ WorkerAvailable
 (
 JSContext
 *
+aCx
 JSObject
 *
 )
