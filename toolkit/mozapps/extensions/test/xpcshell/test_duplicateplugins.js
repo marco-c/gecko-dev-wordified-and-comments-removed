@@ -666,7 +666,9 @@ setBoolPref
 "
 media
 .
-openh264
+gmp
+-
+gmpopenh264
 .
 providerEnabled
 "
