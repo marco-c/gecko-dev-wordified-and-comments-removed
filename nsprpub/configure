@@ -7803,7 +7803,7 @@ MOD_MINOR_VERSION
 10
 MOD_PATCH_VERSION
 =
-1
+2
 NSPR_MODNAME
 =
 nspr20
@@ -33036,6 +33036,40 @@ PGUPDATE
 "
 if
 test
+"
+MSC_VER
+"
+-
+ge
+"
+1800
+"
+;
+then
+CFLAGS
+=
+"
+CFLAGS
+-
+FS
+"
+PROFILE_GEN_CFLAGS
+=
+"
+PROFILE_GEN_CFLAGS
+-
+Gw
+"
+PROFILE_USE_CFLAGS
+=
+"
+PROFILE_USE_CFLAGS
+-
+Gw
+"
+fi
+if
+test
 -
 z
 "
@@ -34545,7 +34579,7 @@ echo
 "
 configure
 :
-4926
+4932
 :
 checking
 for
@@ -34607,7 +34641,7 @@ ac_ext
 EOF
 #
 line
-4931
+4937
 "
 configure
 "
@@ -34652,7 +34686,7 @@ eval
 echo
 configure
 :
-4936
+4942
 :
 \
 "
@@ -37908,7 +37942,7 @@ echo
 "
 configure
 :
-5495
+5501
 :
 checking
 for
@@ -38002,7 +38036,7 @@ ac_ext
 EOF
 #
 line
-5503
+5509
 "
 configure
 "
@@ -38080,7 +38114,7 @@ eval
 echo
 configure
 :
-5514
+5520
 :
 \
 "
@@ -38243,7 +38277,7 @@ echo
 "
 configure
 :
-5531
+5537
 :
 checking
 for
@@ -38303,7 +38337,7 @@ ac_ext
 EOF
 #
 line
-5536
+5542
 "
 configure
 "
@@ -38346,7 +38380,7 @@ eval
 echo
 configure
 :
-5541
+5547
 :
 \
 "
@@ -38562,7 +38596,7 @@ echo
 "
 configure
 :
-5574
+5580
 :
 checking
 whether
@@ -38636,7 +38670,7 @@ ac_ext
 EOF
 #
 line
-5580
+5586
 "
 configure
 "
@@ -38727,7 +38761,7 @@ ac_ext
 EOF
 #
 line
-5598
+5604
 "
 configure
 "
@@ -38863,7 +38897,7 @@ echo
 "
 configure
 :
-5624
+5630
 :
 checking
 for
@@ -38921,7 +38955,7 @@ ac_ext
 EOF
 #
 line
-5629
+5635
 "
 configure
 "
@@ -39090,7 +39124,7 @@ eval
 echo
 configure
 :
-5652
+5658
 :
 \
 "
@@ -39416,7 +39450,7 @@ echo
 "
 configure
 :
-5704
+5710
 :
 checking
 for
@@ -39809,7 +39843,7 @@ echo
 "
 configure
 :
-5763
+5769
 :
 checking
 for
@@ -40056,7 +40090,7 @@ echo
 "
 configure
 :
-5805
+5811
 :
 checking
 for
@@ -40264,7 +40298,7 @@ echo
 "
 configure
 :
-5827
+5833
 :
 checking
 for
@@ -40472,7 +40506,7 @@ echo
 "
 configure
 :
-5849
+5855
 :
 checking
 for
@@ -40680,7 +40714,7 @@ echo
 "
 configure
 :
-5871
+5877
 :
 checking
 for
@@ -41331,7 +41365,7 @@ echo
 "
 configure
 :
-5989
+5995
 :
 checking
 whether
@@ -41545,7 +41579,7 @@ echo
 "
 configure
 :
-6012
+6018
 :
 checking
 whether
