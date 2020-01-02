@@ -17443,13 +17443,6 @@ GetSystemMetrics
 SM_CXFRAME
 )
 ;
-rect
-.
-bottom
--
-=
-1
-;
 FillRect
 (
 hdc
