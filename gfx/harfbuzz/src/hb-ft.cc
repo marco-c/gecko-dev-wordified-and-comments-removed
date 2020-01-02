@@ -1442,6 +1442,10 @@ hb_font_set_scale
 (
 font
 (
+int
+)
+(
+(
 (
 uint64_t
 )
@@ -1473,6 +1477,11 @@ units_per_EM
 >
 >
 16
+)
+(
+int
+)
+(
 (
 (
 uint64_t
@@ -1505,6 +1514,7 @@ units_per_EM
 >
 >
 16
+)
 )
 ;
 hb_font_set_ppem

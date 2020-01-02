@@ -1285,7 +1285,7 @@ this
 ;
 }
 USHORT
-minorVersion
+version
 ;
 USHORT
 uiNameID
@@ -5130,6 +5130,10 @@ return
 0
 ;
 return
+(
+int
+)
+(
 pixels
 *
 (
@@ -5138,6 +5142,7 @@ int64_t
 scale
 /
 ppem
+)
 ;
 }
 inline

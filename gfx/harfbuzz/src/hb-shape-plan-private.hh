@@ -61,7 +61,7 @@ default_shaper_list
 ;
 hb_face_t
 *
-face
+face_unsafe
 ;
 hb_segment_properties_t
 props
@@ -74,6 +74,14 @@ const
 char
 *
 shaper_name
+;
+hb_feature_t
+*
+user_features
+;
+unsigned
+int
+num_user_features
 ;
 struct
 hb_shaper_data_t

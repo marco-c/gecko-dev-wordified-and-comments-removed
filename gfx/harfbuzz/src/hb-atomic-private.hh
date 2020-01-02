@@ -318,6 +318,9 @@ __ppc64__
 |
 |
 __x86_64__
+|
+|
+__arm64__
 #
 define
 hb_atomic_ptr_cmpexch
