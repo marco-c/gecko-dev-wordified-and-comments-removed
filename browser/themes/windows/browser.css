@@ -12464,8 +12464,11 @@ item
 :
 not
 (
-.
+[
 overflowedItem
+=
+true
+]
 )
 >
 .

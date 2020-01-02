@@ -2200,9 +2200,7 @@ px
 ;
 aAnchor
 .
-classList
-.
-add
+setAttribute
 (
 "
 panel
@@ -2211,6 +2209,7 @@ multiview
 -
 anchor
 "
+true
 )
 ;
 }
@@ -2237,9 +2236,7 @@ this
 .
 anchorElement
 .
-classList
-.
-remove
+removeAttribute
 (
 "
 panel

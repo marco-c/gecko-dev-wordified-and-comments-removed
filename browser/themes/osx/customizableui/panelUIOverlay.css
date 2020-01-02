@@ -25,12 +25,15 @@ resolution
 )
 {
 toolbarbutton
-.
+[
 panel
 -
 multiview
 -
 anchor
+=
+true
+]
 {
 background
 -
