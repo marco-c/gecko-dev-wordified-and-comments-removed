@@ -890,7 +890,12 @@ error
 :
 "
 +
+JSON
+.
+stringify
+(
 err
+)
 +
 "
 \
