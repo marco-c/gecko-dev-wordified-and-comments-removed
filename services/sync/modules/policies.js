@@ -875,7 +875,9 @@ Obs
 add
 (
 "
-tokenserver
+FxA
+:
+hawk
 :
 backoff
 :
@@ -1385,7 +1387,9 @@ break
 ;
 case
 "
-tokenserver
+FxA
+:
+hawk
 :
 backoff
 :
