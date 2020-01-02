@@ -2529,9 +2529,11 @@ isWithinHalfPixel
 (
 a
 b
+desc
 )
 {
-return
+ok
+(
 Math
 .
 abs
@@ -2545,6 +2547,8 @@ b
 0
 .
 5
+desc
+)
 ;
 }
 function
