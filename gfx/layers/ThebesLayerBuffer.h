@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 nsPoint
 .
 h
