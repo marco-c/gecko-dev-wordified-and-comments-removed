@@ -10280,6 +10280,7 @@ options
 .
 originPrincipals
 (
+cx
 )
 ;
 if
@@ -16343,19 +16344,6 @@ cx
 )
 ;
 options
-.
-setPrincipals
-(
-cx
--
->
-compartment
-(
-)
--
->
-principals
-)
 .
 setOriginPrincipals
 (

@@ -301,11 +301,6 @@ setFileAndLine
 __FILE__
 __LINE__
 )
-.
-setPrincipals
-(
-nullptr
-)
 ;
 return
 tryScript
@@ -434,11 +429,6 @@ setFileAndLine
 (
 __FILE__
 __LINE__
-)
-.
-setPrincipals
-(
-nullptr
 )
 ;
 return
@@ -888,11 +878,6 @@ temporary
 file
 "
 1
-)
-.
-setPrincipals
-(
-nullptr
 )
 ;
 return

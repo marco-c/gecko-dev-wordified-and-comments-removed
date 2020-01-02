@@ -52,9 +52,6 @@ HandleObject
 obj
 JSPrincipals
 *
-principals
-JSPrincipals
-*
 originPrincipals
 const
 char
@@ -144,11 +141,6 @@ cx
 )
 ;
 options
-.
-setPrincipals
-(
-principals
-)
 .
 setOriginPrincipals
 (
@@ -430,8 +422,6 @@ script
 =
 createScriptViaXDR
 (
-&
-testPrincipal0
 nullptr
 i
 )
@@ -471,8 +461,6 @@ createScriptViaXDR
 (
 &
 testPrincipal0
-&
-testPrincipal0
 i
 )
 ;
@@ -509,8 +497,6 @@ script
 =
 createScriptViaXDR
 (
-&
-testPrincipal0
 &
 testPrincipal1
 i
@@ -566,9 +552,6 @@ JSScript
 *
 createScriptViaXDR
 (
-JSPrincipals
-*
-prin
 JSPrincipals
 *
 orig
@@ -629,7 +612,6 @@ CompileScriptForPrincipalsVersionOrigin
 (
 cx
 global
-prin
 orig
 src
 strlen

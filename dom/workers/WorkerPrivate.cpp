@@ -22136,14 +22136,6 @@ aCx
 )
 )
 ;
-JSPrincipals
-*
-principal
-=
-GetWorkerPrincipal
-(
-)
-;
 const
 TimeStamp
 now
@@ -22407,11 +22399,6 @@ aCx
 )
 ;
 options
-.
-setPrincipals
-(
-principal
-)
 .
 setFileAndLine
 (

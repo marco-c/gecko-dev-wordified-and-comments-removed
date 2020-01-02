@@ -23131,16 +23131,6 @@ options
 ;
 options
 .
-setPrincipals
-(
-parent
--
->
-principals
-(
-)
-)
-.
 setOriginPrincipals
 (
 parent

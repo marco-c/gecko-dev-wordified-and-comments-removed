@@ -446,11 +446,6 @@ setFileAndLine
 __FILE__
 1
 )
-.
-setPrincipals
-(
-principalsA
-)
 ;
 JS
 :

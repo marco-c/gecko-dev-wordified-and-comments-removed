@@ -3575,17 +3575,6 @@ cx
 ;
 options
 .
-setPrincipals
-(
-nsJSPrincipals
-:
-:
-get
-(
-mSystemPrincipal
-)
-)
-.
 setNoScriptRval
 (
 mReuseLoaderGlobal
