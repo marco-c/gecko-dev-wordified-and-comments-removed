@@ -65,15 +65,6 @@ already_AddRefed
 <
 GLContext
 >
-CreateHeadless
-(
-)
-;
-static
-already_AddRefed
-<
-GLContext
->
 CreateWrappingExisting
 (
 void
