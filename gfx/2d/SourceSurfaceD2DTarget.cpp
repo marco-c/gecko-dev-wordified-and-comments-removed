@@ -1144,6 +1144,10 @@ map
 .
 RowPitch
 ;
+mIsMapped
+=
+true
+;
 return
 true
 ;
@@ -1160,6 +1164,10 @@ MOZ_ASSERT
 (
 mIsMapped
 )
+;
+mIsMapped
+=
+false
 ;
 mTexture
 -
