@@ -1066,9 +1066,6 @@ exclusiveContextGlobal
 PersistentRootedObject
 optionsElement
 ;
-PersistentRootedScript
-optionsIntroductionScript
-;
 JS
 :
 :
