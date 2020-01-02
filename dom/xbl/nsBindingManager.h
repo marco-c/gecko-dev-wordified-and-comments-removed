@@ -554,7 +554,10 @@ nsIContent
 >
 mBoundContentSet
 ;
+nsAutoPtr
+<
 PLDHashTable
+>
 mWrapperTable
 ;
 nsAutoPtr
