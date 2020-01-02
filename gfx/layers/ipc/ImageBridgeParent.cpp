@@ -267,10 +267,6 @@ h
 "
 using
 namespace
-base
-;
-using
-namespace
 mozilla
 :
 :
@@ -606,6 +602,9 @@ aBridge
 Transport
 *
 aTransport
+base
+:
+:
 ProcessHandle
 aOtherProcess
 )
@@ -641,6 +640,9 @@ ProcessId
 aOtherProcess
 )
 {
+base
+:
+:
 ProcessHandle
 processHandle
 ;
