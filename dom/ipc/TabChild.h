@@ -1003,7 +1003,7 @@ TabChild
 >
 Create
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const
@@ -1957,7 +1957,7 @@ nsICachedFileDescriptorListener
 aCallback
 )
 ;
-ContentChild
+nsIContentChild
 *
 Manager
 (
@@ -2188,7 +2188,7 @@ private
 :
 TabChild
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const
@@ -2343,7 +2343,7 @@ mRemoteFrame
 ;
 nsRefPtr
 <
-ContentChild
+nsIContentChild
 >
 mManager
 ;
