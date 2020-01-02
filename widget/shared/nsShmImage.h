@@ -201,6 +201,8 @@ nsShmImage
 aImage
 )
 ;
+private
+:
 ~
 nsShmImage
 (
@@ -243,6 +245,8 @@ mImage
 ;
 }
 }
+public
+:
 already_AddRefed
 <
 gfxASurface
