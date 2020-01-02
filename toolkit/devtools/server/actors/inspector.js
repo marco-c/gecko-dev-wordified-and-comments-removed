@@ -4248,9 +4248,9 @@ function
 {
 this
 .
-_hoveredNode
+_destroyed
 =
-null
+true
 ;
 this
 .
@@ -4261,6 +4261,12 @@ clearPseudoClassLocks
 this
 .
 _activePseudoClassLocks
+=
+null
+;
+this
+.
+_hoveredNode
 =
 null
 ;
@@ -8407,6 +8413,11 @@ if
 this
 .
 actorID
+|
+|
+this
+.
+_destroyed
 )
 {
 return
