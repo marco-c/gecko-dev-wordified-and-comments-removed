@@ -86,7 +86,7 @@ NO_INIT
 ;
 }
 virtual
-void
+status_t
 ChangeState
 (
 MediaDecoder
@@ -96,6 +96,12 @@ PlayState
 aState
 )
 {
+return
+android
+:
+:
+NO_INIT
+;
 }
 virtual
 void
