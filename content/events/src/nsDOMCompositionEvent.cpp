@@ -117,13 +117,11 @@ false
 }
 mData
 =
-static_cast
-<
-WidgetCompositionEvent
-*
->
-(
 mEvent
+-
+>
+AsCompositionEvent
+(
 )
 -
 >

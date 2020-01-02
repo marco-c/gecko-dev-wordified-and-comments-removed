@@ -3264,13 +3264,11 @@ NS_NewDOMCompositionEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetCompositionEvent
-*
->
-(
 aEvent
+-
+>
+AsCompositionEvent
+(
 )
 )
 ;
