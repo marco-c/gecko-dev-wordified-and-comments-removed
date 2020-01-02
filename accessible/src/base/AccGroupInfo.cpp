@@ -936,7 +936,7 @@ ChildCount
 ;
 for
 (
-int32_t
+uint32_t
 idx
 =
 aItem
