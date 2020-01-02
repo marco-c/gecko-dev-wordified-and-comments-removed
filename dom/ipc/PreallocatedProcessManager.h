@@ -105,6 +105,12 @@ aContent
 )
 ;
 static
+bool
+IsNuwaReady
+(
+)
+;
+static
 void
 OnNuwaReady
 (
