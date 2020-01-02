@@ -325,6 +325,11 @@ MobileMessageManager
 h
 '
 '
+SmsFilter
+.
+h
+'
+'
 SmsMessage
 .
 h
@@ -397,6 +402,11 @@ cpp
 '
 '
 MobileMessageThread
+.
+cpp
+'
+'
+SmsFilter
 .
 cpp
 '
