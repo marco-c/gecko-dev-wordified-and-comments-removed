@@ -702,6 +702,15 @@ FrameMetrics
 aFrameMetrics
 )
 ;
+void
+DispatchRepaintRequest
+(
+const
+FrameMetrics
+&
+aFrameMetrics
+)
+;
 bool
 DoFling
 (
@@ -875,6 +884,9 @@ mLastContentPaintMetrics
 ;
 FrameMetrics
 mLastPaintRequestMetrics
+;
+FrameMetrics
+mLastDispatchedPaintMetrics
 ;
 nsTArray
 <
