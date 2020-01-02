@@ -885,6 +885,11 @@ HTMLSelectElement
 webidl
 '
 '
+HTMLShadowElement
+.
+webidl
+'
+'
 HTMLSourceElement
 .
 webidl

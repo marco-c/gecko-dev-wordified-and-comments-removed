@@ -463,6 +463,11 @@ HTML_TAG
 select
 Select
 )
+HTML_TAG
+(
+shadow
+Shadow
+)
 HTML_HTMLELEMENT_TAG
 (
 small
