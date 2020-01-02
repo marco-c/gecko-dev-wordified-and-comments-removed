@@ -1822,7 +1822,7 @@ strings
 are
 interpolated
 into
-fxaccount_create_account_policy_text
+fxaccount_create_account_policy_text2
 ;
 see
 note
@@ -2039,7 +2039,7 @@ hyperlinked
 <
 !
 ENTITY
-fxaccount_create_account_policy_text
+fxaccount_create_account_policy_text2
 '
 By
 proceeding
@@ -2056,7 +2056,7 @@ formatS2
 ;
 of
 Firefox
-online
+cloud
 services
 .
 '
