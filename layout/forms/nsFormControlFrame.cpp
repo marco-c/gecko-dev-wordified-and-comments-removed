@@ -153,7 +153,7 @@ nscoord
 nsFormControlFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 {
@@ -175,7 +175,7 @@ nscoord
 nsFormControlFrame
 :
 :
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 {

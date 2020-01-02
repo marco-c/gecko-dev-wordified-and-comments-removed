@@ -1478,7 +1478,7 @@ autoHeight
 nscoord
 computedHeight
 =
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 oldHeightOfARow
 length
@@ -1721,7 +1721,7 @@ FINISHED
 nscoord
 computedHeight
 =
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 HeightOfARow
 (
@@ -5654,7 +5654,7 @@ nscoord
 nsListControlFrame
 :
 :
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 nscoord
 aHeightOfARow

@@ -959,7 +959,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE
@@ -1011,8 +1011,8 @@ aData
 MOZ_OVERRIDE
 ;
 virtual
-IntrinsicWidthOffsetData
-IntrinsicWidthOffsets
+IntrinsicISizeOffsetData
+IntrinsicISizeOffsets
 (
 nsRenderingContext
 *
@@ -1550,7 +1550,7 @@ aFrame
 static
 void
 *
-DisplayIntrinsicWidthEnter
+DisplayIntrinsicISizeEnter
 (
 nsIFrame
 *
@@ -1609,7 +1609,7 @@ aFrameTreeNode
 ;
 static
 void
-DisplayIntrinsicWidthExit
+DisplayIntrinsicISizeExit
 (
 nsIFrame
 *

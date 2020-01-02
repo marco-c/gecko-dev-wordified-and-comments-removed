@@ -12495,7 +12495,7 @@ GetParent
 a
 -
 >
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -12674,7 +12674,7 @@ get
 kid
 -
 >
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;

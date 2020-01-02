@@ -1126,7 +1126,7 @@ nscoord
 nsFieldSetFrame
 :
 :
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 nsRenderingContext
 *
@@ -1134,7 +1134,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-IntrinsicWidthType
+IntrinsicISizeType
 aType
 )
 {
@@ -1235,7 +1235,7 @@ result
 ;
 result
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 aRenderingContext
 nsLayoutUtils
@@ -1272,7 +1272,7 @@ result
 ;
 result
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 aRenderingContext
 nsLayoutUtils

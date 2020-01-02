@@ -727,7 +727,7 @@ AbsolutelyPositionDropDown
 )
 ;
 nscoord
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 nsRenderingContext
 *
@@ -735,7 +735,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-IntrinsicWidthType
+IntrinsicISizeType
 aType
 )
 ;

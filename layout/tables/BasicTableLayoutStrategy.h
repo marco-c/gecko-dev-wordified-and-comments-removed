@@ -68,7 +68,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE
@@ -95,7 +95,7 @@ BTLS_FINAL_WIDTH
 }
 ;
 void
-ComputeColumnIntrinsicWidths
+ComputeColumnIntrinsicISizes
 (
 nsRenderingContext
 *
@@ -129,7 +129,7 @@ aSpanHasSpecifiedWidth
 )
 ;
 void
-ComputeIntrinsicWidths
+ComputeIntrinsicISizes
 (
 nsRenderingContext
 *

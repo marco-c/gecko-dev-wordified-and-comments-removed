@@ -62,7 +62,7 @@ aComputingSize
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 =

@@ -893,7 +893,7 @@ aFontSizeInflation
 )
 ;
 nscoord
-CalcIntrinsicHeight
+CalcIntrinsicBSize
 (
 nscoord
 aHeightOfARow

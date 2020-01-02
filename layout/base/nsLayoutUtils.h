@@ -2158,7 +2158,7 @@ aFrame
 )
 ;
 enum
-IntrinsicWidthType
+IntrinsicISizeType
 {
 MIN_WIDTH
 PREF_WIDTH
@@ -2181,7 +2181,7 @@ aRenderingContext
 nsIFrame
 *
 aFrame
-IntrinsicWidthType
+IntrinsicISizeType
 aType
 uint32_t
 aFlags

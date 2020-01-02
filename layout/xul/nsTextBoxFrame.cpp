@@ -444,7 +444,7 @@ mNeedsReflowCallback
 false
 )
 {
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -4168,7 +4168,7 @@ void
 nsTextBoxFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -4179,7 +4179,7 @@ true
 nsTextBoxFrameSuper
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;

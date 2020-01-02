@@ -223,7 +223,7 @@ aChildList
 }
 virtual
 void
-IntrinsicWidthsDirty
+IntrinsicISizesDirty
 (
 nsIFrame
 *

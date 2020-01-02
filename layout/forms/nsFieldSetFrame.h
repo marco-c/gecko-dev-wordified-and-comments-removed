@@ -38,7 +38,7 @@ aContext
 )
 ;
 nscoord
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 nsRenderingContext
 *
@@ -46,7 +46,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-IntrinsicWidthType
+IntrinsicISizeType
 )
 ;
 virtual

@@ -51,7 +51,7 @@ result
 ;
 result
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 ;
@@ -81,7 +81,7 @@ result
 ;
 result
 =
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 ;
@@ -115,10 +115,10 @@ aShrinkWrap
 return
 nsSize
 (
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 )
@@ -382,7 +382,7 @@ nscoord
 nsLeafFrame
 :
 :
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 {

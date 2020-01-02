@@ -134,7 +134,7 @@ aSqrOffset
 ;
 virtual
 void
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *

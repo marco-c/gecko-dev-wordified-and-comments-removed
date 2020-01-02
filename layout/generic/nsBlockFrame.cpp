@@ -3109,7 +3109,7 @@ void
 nsBlockFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -3187,7 +3187,7 @@ NS_BLOCK_NEEDS_BIDI_RESOLUTION
 nsBlockFrameSuper
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;

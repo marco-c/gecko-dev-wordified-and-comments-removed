@@ -1578,7 +1578,7 @@ void
 nsMathMLmrootFrame
 :
 :
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *

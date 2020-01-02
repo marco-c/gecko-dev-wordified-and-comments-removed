@@ -4072,7 +4072,7 @@ this
 }
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 =
@@ -4315,7 +4315,7 @@ aData
 0
 ;
 struct
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 {
 nscoord
 hPadding
@@ -4326,7 +4326,7 @@ float
 hPctPadding
 hPctMargin
 ;
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 (
 )
 :
@@ -4359,8 +4359,8 @@ hPctMargin
 }
 ;
 virtual
-IntrinsicWidthOffsetData
-IntrinsicWidthOffsets
+IntrinsicISizeOffsetData
+IntrinsicISizeOffsets
 (
 nsRenderingContext
 *

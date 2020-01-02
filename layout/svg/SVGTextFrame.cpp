@@ -18768,7 +18768,7 @@ UpdateFontSizeScaleFactor
 kid
 -
 >
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;

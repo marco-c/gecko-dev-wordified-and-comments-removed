@@ -146,14 +146,14 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 void
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *

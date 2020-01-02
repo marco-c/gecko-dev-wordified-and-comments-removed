@@ -3922,7 +3922,7 @@ void
 nsMathMLmoFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -3975,7 +3975,7 @@ target
 nsMathMLContainerFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -3984,7 +3984,7 @@ void
 nsMathMLmoFrame
 :
 :
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *
@@ -4047,7 +4047,7 @@ else
 nsMathMLTokenFrame
 :
 :
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 aRenderingContext
 aDesiredSize

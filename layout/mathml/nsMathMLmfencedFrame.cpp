@@ -2222,7 +2222,7 @@ void
 nsMathMLmfencedFrame
 :
 :
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *

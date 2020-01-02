@@ -2707,7 +2707,7 @@ mWidth
 <
 mLeft
 .
-mIntrinsicWidth
+mIntrinsicISize
 "
 clipping
 a
@@ -2799,7 +2799,7 @@ mWidth
 <
 mRight
 .
-mIntrinsicWidth
+mIntrinsicISize
 "
 clipping
 a
@@ -2841,7 +2841,7 @@ mWidth
 =
 mLeft
 .
-mIntrinsicWidth
+mIntrinsicISize
 ;
 mLeft
 .
@@ -2857,7 +2857,7 @@ mWidth
 =
 mRight
 .
-mIntrinsicWidth
+mIntrinsicISize
 ;
 mRight
 .
@@ -3959,7 +3959,7 @@ x
 -
 mLeft
 .
-mIntrinsicWidth
+mIntrinsicISize
 aLine
 -
 >
@@ -3968,7 +3968,7 @@ BStart
 )
 mLeft
 .
-mIntrinsicWidth
+mIntrinsicISize
 aLine
 -
 >
@@ -4068,7 +4068,7 @@ BStart
 )
 mRight
 .
-mIntrinsicWidth
+mIntrinsicISize
 aLine
 -
 >
@@ -4296,7 +4296,7 @@ Length
 )
 ;
 }
-mIntrinsicWidth
+mIntrinsicISize
 =
 mWidth
 ;

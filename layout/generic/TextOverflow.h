@@ -553,7 +553,7 @@ nscoord
 mWidth
 ;
 nscoord
-mIntrinsicWidth
+mIntrinsicISize
 ;
 const
 nsStyleTextOverflowSide

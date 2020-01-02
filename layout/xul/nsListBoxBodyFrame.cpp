@@ -861,7 +861,7 @@ void
 nsListBoxBodyFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -873,7 +873,7 @@ mStringWidth
 nsBoxFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -2405,7 +2405,7 @@ nscoord
 nsListBoxBodyFrame
 :
 :
-ComputeIntrinsicWidth
+ComputeIntrinsicISize
 (
 nsBoxLayoutState
 &

@@ -53,7 +53,7 @@ mTableFrame
 aTableFrame
 )
 {
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
@@ -519,7 +519,7 @@ void
 FixedTableLayoutStrategy
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -1033,13 +1033,13 @@ eStyleUnit_Percent
 nsIFrame
 :
 :
-IntrinsicWidthOffsetData
+IntrinsicISizeOffsetData
 offsets
 =
 cellFrame
 -
 >
-IntrinsicWidthOffsets
+IntrinsicISizeOffsets
 (
 aReflowState
 .

@@ -3637,7 +3637,7 @@ GetWritingMode
 )
 )
 ;
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 aRenderingContext
 desiredSize
@@ -3692,7 +3692,7 @@ GetWritingMode
 )
 )
 ;
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 aRenderingContext
 desiredSize
@@ -3723,7 +3723,7 @@ void
 nsMathMLContainerFrame
 :
 :
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 nsRenderingContext
 *
@@ -3773,7 +3773,7 @@ containerFrame
 containerFrame
 -
 >
-GetIntrinsicWidthMetrics
+GetIntrinsicISizeMetrics
 (
 aRenderingContext
 childDesiredSize

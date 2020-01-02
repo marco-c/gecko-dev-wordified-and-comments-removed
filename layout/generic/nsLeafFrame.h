@@ -200,7 +200,7 @@ nsLeafFrame
 ;
 virtual
 nscoord
-GetIntrinsicWidth
+GetIntrinsicISize
 (
 )
 =
@@ -208,7 +208,7 @@ GetIntrinsicWidth
 ;
 virtual
 nscoord
-GetIntrinsicHeight
+GetIntrinsicBSize
 (
 )
 ;

@@ -34650,7 +34650,7 @@ void
 nsTextFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 {
@@ -34661,7 +34661,7 @@ ClearTextRuns
 nsFrame
 :
 :
-MarkIntrinsicWidthsDirty
+MarkIntrinsicISizesDirty
 (
 )
 ;
