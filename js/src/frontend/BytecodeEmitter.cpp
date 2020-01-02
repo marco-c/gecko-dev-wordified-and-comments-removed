@@ -33059,7 +33059,7 @@ return
 true
 ;
 }
-int32_t
+bool
 frontend
 :
 :
@@ -33071,6 +33071,9 @@ cx
 BytecodeEmitter
 *
 bce
+uint32_t
+*
+out
 )
 {
 JS_ASSERT
@@ -33147,8 +33150,7 @@ firstLine
 0
 )
 return
--
-1
+false
 ;
 bce
 -
@@ -33276,8 +33278,7 @@ delta
 )
 )
 return
--
-1
+false
 ;
 offset
 -
@@ -33317,7 +33318,9 @@ begin
 }
 }
 }
-return
+*
+out
+=
 bce
 -
 >
@@ -33342,6 +33345,9 @@ length
 +
 1
 ;
+return
+true
+;
 }
 void
 frontend
@@ -33355,7 +33361,7 @@ bce
 jssrcnote
 *
 destination
-int32_t
+uint32_t
 nsrcnotes
 )
 {

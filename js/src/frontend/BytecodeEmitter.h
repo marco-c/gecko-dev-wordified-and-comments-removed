@@ -1055,7 +1055,7 @@ ptrdiff_t
 delta
 )
 ;
-int32_t
+bool
 FinishTakingSrcNotes
 (
 ExclusiveContext
@@ -1064,6 +1064,9 @@ cx
 BytecodeEmitter
 *
 bce
+uint32_t
+*
+out
 )
 ;
 void
@@ -1075,7 +1078,7 @@ bce
 jssrcnote
 *
 destination
-int32_t
+uint32_t
 nsrcnotes
 )
 ;
