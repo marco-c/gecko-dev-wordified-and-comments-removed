@@ -51,6 +51,17 @@ mTiles
 )
 ;
 virtual
+bool
+IsTiledDrawTarget
+(
+)
+const
+{
+return
+true
+;
+}
+virtual
 DrawTargetType
 GetType
 (
