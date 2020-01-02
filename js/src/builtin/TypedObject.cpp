@@ -3557,6 +3557,8 @@ GetPropertyNames
 cx
 fields
 JSITER_OWNONLY
+|
+JSITER_SYMBOLS
 &
 ids
 )

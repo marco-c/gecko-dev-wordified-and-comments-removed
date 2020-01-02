@@ -1463,6 +1463,15 @@ props
 j
 ]
 ;
+if
+(
+JSID_IS_SYMBOL
+(
+id
+)
+)
+continue
+;
 AutoWaivePolicy
 policy
 (
@@ -2410,6 +2419,8 @@ target
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
+|
+JSITER_SYMBOLS
 &
 props
 )
@@ -6569,6 +6580,7 @@ AutoIdVector
 &
 props
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -9505,6 +9517,8 @@ props
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
+|
+JSITER_SYMBOLS
 cx
 -
 >

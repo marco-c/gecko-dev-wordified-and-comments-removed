@@ -821,6 +821,8 @@ GetPropertyNames
 cx
 obj
 JSITER_OWNONLY
+|
+JSITER_SYMBOLS
 &
 idv
 )
