@@ -144,9 +144,6 @@ Combined
 TITLE
 Combined
 .
-DISPLAY
-Combined
-.
 BOOKMARK_ID
 Combined
 .
@@ -311,15 +308,6 @@ title
 "
 +
 i
-)
-;
-row
-.
-add
-(
-Combined
-.
-DISPLAY_NORMAL
 )
 ;
 row

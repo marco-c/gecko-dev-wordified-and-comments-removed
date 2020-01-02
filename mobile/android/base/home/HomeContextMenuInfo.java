@@ -83,14 +83,6 @@ false
 ;
 public
 int
-display
-=
-Combined
-.
-DISPLAY_NORMAL
-;
-public
-int
 historyId
 =
 -
