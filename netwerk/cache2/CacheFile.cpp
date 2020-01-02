@@ -3155,6 +3155,10 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+mPreloadWithoutInputStreams
+=
+false
+;
 mOutput
 =
 new
