@@ -121,6 +121,11 @@ B2GAboutRedirector
 js
 '
 '
+B2GAppMigrator
+.
+js
+'
+'
 ContentPermissionPrompt
 .
 js

@@ -4833,6 +4833,13 @@ components
 SystemMessageGlue
 .
 js
+BINPATH
+/
+components
+/
+B2GAppMigrator
+.
+js
 #
 ifndef
 MOZ_WIDGET_GONK
