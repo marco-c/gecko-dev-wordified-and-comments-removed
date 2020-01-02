@@ -169,6 +169,13 @@ namespace
 mozilla
 {
 namespace
+gfx
+{
+class
+DrawTarget
+;
+}
+namespace
 layers
 {
 class
@@ -598,7 +605,10 @@ virtual
 void
 ComposeToTarget
 (
-gfxContext
+gfx
+:
+:
+DrawTarget
 *
 aTarget
 )

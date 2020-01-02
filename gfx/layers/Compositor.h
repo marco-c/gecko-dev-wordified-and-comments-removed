@@ -14,13 +14,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -99,9 +92,6 @@ nsTraceRefcnt
 h
 "
 class
-gfxContext
-;
-class
 nsIWidget
 ;
 struct
@@ -118,6 +108,9 @@ gfx
 {
 class
 Matrix4x4
+;
+class
+DrawTarget
 ;
 }
 namespace
@@ -250,7 +243,10 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -270,7 +266,10 @@ virtual
 void
 SetTargetContext
 (
-gfxContext
+gfx
+:
+:
+DrawTarget
 *
 aTarget
 )
