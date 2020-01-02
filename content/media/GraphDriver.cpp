@@ -2849,6 +2849,9 @@ WaitForNextIteration
 (
 )
 {
+#
+if
+0
 mGraphImpl
 -
 >
@@ -2920,6 +2923,8 @@ Dispatch
 )
 ;
 }
+#
+endif
 }
 void
 AudioCallbackDriver
