@@ -1157,13 +1157,6 @@ NS_MOUSE_SCROLL_EVENT
 )
 NON_IDL_EVENT
 (
-MozBeforeResize
-NS_BEFORERESIZE_EVENT
-EventNameType_None
-NS_EVENT
-)
-NON_IDL_EVENT
-(
 open
 NS_OPEN
 EventNameType_None

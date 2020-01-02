@@ -2711,11 +2711,6 @@ FireResizeEvent
 (
 )
 ;
-void
-FireBeforeResizeEvent
-(
-)
-;
 static
 void
 AsyncResizeEventCallback
