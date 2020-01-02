@@ -1801,6 +1801,13 @@ cpp
 '
 ipc
 /
+CompositorBench
+.
+cpp
+'
+'
+ipc
+/
 CompositorChild
 .
 cpp
