@@ -1342,6 +1342,12 @@ aCharMsg
 )
 const
 ;
+bool
+CanComputeVirtualKeyCodeFromScanCode
+(
+)
+const
+;
 uint8_t
 ComputeVirtualKeyCodeFromScanCode
 (
@@ -1351,6 +1357,14 @@ const
 uint8_t
 ComputeVirtualKeyCodeFromScanCodeEx
 (
+)
+const
+;
+uint16_t
+ComputeScanCodeExFromVirtualKeyCode
+(
+UINT
+aVirtualKeyCode
 )
 const
 ;
@@ -1739,8 +1753,6 @@ ConvertScanCodeToCodeNameIndex
 (
 UINT
 aScanCode
-UINT
-aVirtualKeyCode
 )
 ;
 HKL
