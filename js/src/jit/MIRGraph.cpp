@@ -383,7 +383,7 @@ nullptr
 ;
 if
 (
-exitAccumulator_
+returnAccumulator_
 )
 {
 size_t
@@ -395,7 +395,7 @@ while
 (
 i
 <
-exitAccumulator_
+returnAccumulator_
 -
 >
 length
@@ -407,7 +407,7 @@ if
 (
 (
 *
-exitAccumulator_
+returnAccumulator_
 )
 [
 i
@@ -416,12 +416,12 @@ i
 =
 block
 )
-exitAccumulator_
+returnAccumulator_
 -
 >
 erase
 (
-exitAccumulator_
+returnAccumulator_
 -
 >
 begin
