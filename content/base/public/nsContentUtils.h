@@ -2725,6 +2725,9 @@ MaybeAllowOfflineAppByDefault
 nsIPrincipal
 *
 aPrincipal
+nsIDOMWindow
+*
+aWindow
 )
 ;
 static
