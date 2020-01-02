@@ -2061,9 +2061,11 @@ TelemetryContract
 Method
 .
 ACTIONBAR
-Integer
+getResources
+(
+)
 .
-toString
+getResourceEntryName
 (
 editCancel
 .
