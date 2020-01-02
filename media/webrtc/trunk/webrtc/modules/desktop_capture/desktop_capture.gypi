@@ -597,6 +597,16 @@ sources
 :
 [
 "
+app_capturer_null
+.
+cc
+"
+"
+desktop_device_info_null
+.
+cc
+"
+"
 mouse_cursor_monitor_null
 .
 cc
