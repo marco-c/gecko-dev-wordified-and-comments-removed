@@ -49,7 +49,11 @@ h
 #
 include
 "
-nsDOMDeviceMotionEvent
+mozilla
+/
+dom
+/
+DeviceMotionEvent
 .
 h
 "
