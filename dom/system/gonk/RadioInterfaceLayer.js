@@ -9322,6 +9322,7 @@ id
 message
 .
 threadId
+null
 message
 .
 delivery
@@ -9599,6 +9600,7 @@ id
 message
 .
 threadId
+null
 message
 .
 delivery
@@ -14354,6 +14356,7 @@ id
 sms
 .
 threadId
+null
 DOM_MOBILE_MESSAGE_DELIVERY_SENT
 sms
 .
@@ -14546,6 +14549,7 @@ createSmsMessage
 -
 1
 0
+null
 delivery
 deliveryStatus
 sendingMessage

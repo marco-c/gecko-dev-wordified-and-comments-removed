@@ -142,6 +142,9 @@ mobilemessage
 struct
 SendMmsMessageRequest
 {
+uint32_t
+serviceId
+;
 nsString
 [
 ]
@@ -163,6 +166,9 @@ attachments
 struct
 SendSmsMessageRequest
 {
+uint32_t
+serviceId
+;
 nsString
 number
 ;

@@ -5651,6 +5651,7 @@ id
 aMessageRecord
 .
 threadId
+null
 aMessageRecord
 .
 delivery
@@ -5983,6 +5984,7 @@ id
 aMessageRecord
 .
 threadId
+null
 aMessageRecord
 .
 delivery
