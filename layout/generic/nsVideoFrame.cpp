@@ -130,17 +130,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-dom
-/
-ScriptSettings
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -324,9 +313,6 @@ NS_ENSURE_TRUE
 mPosterImage
 NS_ERROR_OUT_OF_MEMORY
 )
-;
-AutoSystemCaller
-asc
 ;
 nsCOMPtr
 <
