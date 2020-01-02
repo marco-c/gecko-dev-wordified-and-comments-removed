@@ -665,6 +665,13 @@ developer
 -
 button
 "
+"
+social
+-
+share
+-
+button
+"
 ]
 ;
 if
@@ -894,13 +901,6 @@ button
 loop
 -
 call
--
-button
-"
-"
-social
--
-share
 -
 button
 "
