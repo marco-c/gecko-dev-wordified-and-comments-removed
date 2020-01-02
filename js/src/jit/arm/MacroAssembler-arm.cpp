@@ -573,7 +573,14 @@ as_vxfer
 (
 dest
 InvalidReg
+VFPRegister
+(
 src
+)
+.
+singleOverlay
+(
+)
 FloatToCore
 Assembler
 :
