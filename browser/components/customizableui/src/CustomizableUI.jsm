@@ -12478,9 +12478,7 @@ function
 (
 )
 {
-let
-areaProps
-=
+return
 gAreas
 .
 get
@@ -12489,12 +12487,6 @@ aWidget
 .
 currentArea
 )
-;
-return
-areaProps
-&
-&
-areaProps
 .
 get
 (
@@ -12968,9 +12960,7 @@ return
 null
 ;
 }
-let
-areaProps
-=
+return
 gAreas
 .
 get
@@ -12979,12 +12969,6 @@ placement
 .
 area
 )
-;
-return
-areaProps
-&
-&
-areaProps
 .
 get
 (
