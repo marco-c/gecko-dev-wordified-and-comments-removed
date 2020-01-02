@@ -634,7 +634,7 @@ aIndex
 )
 ;
 nsresult
-RemoveChunk
+DeactivateChunk
 (
 CacheFileChunk
 *

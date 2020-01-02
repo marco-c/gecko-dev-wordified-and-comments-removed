@@ -262,6 +262,11 @@ CacheMemoryConsumer
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+bool
+DispatchRelease
+(
+)
+;
 CacheFileChunk
 (
 CacheFile
@@ -563,7 +568,7 @@ bool
 mIsDirty
 ;
 bool
-mRemovingChunk
+mActiveChunk
 ;
 uint32_t
 mDataSize
