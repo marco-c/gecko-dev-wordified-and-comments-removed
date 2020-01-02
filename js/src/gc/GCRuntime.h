@@ -679,6 +679,11 @@ findZoneGroups
 (
 )
 ;
+bool
+findZoneEdgesForWeakMaps
+(
+)
+;
 void
 getNextZoneGroup
 (
