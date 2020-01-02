@@ -5083,6 +5083,11 @@ aHotspotX
 hotSpotY
 :
 aHotspotY
+scaleFactor
+:
+BackingScaleFactor
+(
+)
 ]
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT

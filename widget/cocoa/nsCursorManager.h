@@ -76,6 +76,12 @@ hotSpotY
 uint32_t
 )
 aHotspotY
+scaleFactor
+:
+(
+CGFloat
+)
+scaleFactor
 ;
 +
 (

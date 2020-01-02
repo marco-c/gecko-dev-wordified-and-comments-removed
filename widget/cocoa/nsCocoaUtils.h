@@ -696,6 +696,8 @@ NSImage
 *
 *
 aResult
+CGFloat
+scaleFactor
 )
 ;
 static
