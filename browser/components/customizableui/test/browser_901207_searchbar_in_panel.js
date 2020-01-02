@@ -333,7 +333,7 @@ window
 .
 resizeTo
 (
-390
+380
 window
 .
 outerHeight
