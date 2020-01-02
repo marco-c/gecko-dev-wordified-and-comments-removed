@@ -413,10 +413,6 @@ UpdateUrlbarSearchSplitterState
 (
 )
 ;
-setUrlAndSearchBarWidthForConditionalForwardButton
-(
-)
-;
 if
 (
 gURLBar
