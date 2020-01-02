@@ -6642,9 +6642,11 @@ onblur
 "
 setTimeout
 (
-function
 (
 )
+=
+>
+{
 document
 .
 getElementById
@@ -6662,6 +6664,8 @@ MozUserFocus
 =
 '
 '
+;
+}
 0
 )
 ;
