@@ -10107,6 +10107,9 @@ linkURI
 spec
 :
 null
+this
+.
+target
 )
 ;
 }
@@ -10131,6 +10134,9 @@ linkURI
 .
 spec
 }
+this
+.
+target
 )
 ;
 }
@@ -10160,6 +10166,9 @@ this
 mediaURL
 ]
 }
+this
+.
+target
 )
 ;
 }
@@ -10187,6 +10196,9 @@ this
 .
 mediaURL
 }
+this
+.
+target
 )
 ;
 }
@@ -10217,6 +10229,9 @@ text
 :
 selection
 }
+this
+.
+target
 )
 ;
 }
