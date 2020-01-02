@@ -317,6 +317,11 @@ js
 >
 <
 tabbox
+flex
+=
+"
+1
+"
 >
 <
 tabs
@@ -397,6 +402,11 @@ tabs
 >
 <
 tabpanels
+flex
+=
+"
+1
+"
 >
 <
 vbox

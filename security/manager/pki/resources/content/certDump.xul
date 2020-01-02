@@ -224,6 +224,11 @@ updateCertDump
 )
 ;
 "
+flex
+=
+"
+1
+"
 hidecolumnpicker
 =
 "
@@ -232,6 +237,8 @@ true
 style
 =
 "
+min
+-
 height
 :
 8em
@@ -303,6 +310,8 @@ prettyDumpTree
 style
 =
 "
+min
+-
 height
 :
 15em
@@ -311,6 +320,11 @@ treelines
 =
 "
 true
+"
+flex
+=
+"
+1
 "
 onselect
 =
@@ -397,10 +411,10 @@ multiline
 "
 true
 "
-rows
+flex
 =
 "
-8
+1
 "
 readonly
 =
@@ -410,6 +424,12 @@ true
 style
 =
 "
+min
+-
+height
+:
+11em
+;
 font
 -
 family
