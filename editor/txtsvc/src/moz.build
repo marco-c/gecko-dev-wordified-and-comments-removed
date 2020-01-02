@@ -98,7 +98,7 @@ MODULE
 '
 txtsvc
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

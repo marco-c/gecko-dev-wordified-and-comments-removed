@@ -98,7 +98,7 @@ MODULE
 '
 txmgr
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
