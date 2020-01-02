@@ -2179,7 +2179,6 @@ msg
 ex
 )
 {
-let
 msg
 =
 "
