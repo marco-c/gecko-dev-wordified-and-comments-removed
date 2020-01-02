@@ -13668,13 +13668,6 @@ xreDirectory
 )
 )
 {
-CrashReporter
-:
-:
-OOPInit
-(
-)
-;
 if
 (
 mAppData
