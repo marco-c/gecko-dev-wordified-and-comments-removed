@@ -16987,11 +16987,17 @@ maximum
 <
 len
 )
+{
+setNotGuard
+(
+)
+;
 return
 index
 (
 )
 ;
+}
 }
 return
 this
