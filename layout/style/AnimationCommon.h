@@ -1082,6 +1082,10 @@ mCurrentIteration
 (
 0
 )
+mPhase
+(
+AnimationPhase_Null
+)
 {
 }
 static
@@ -1100,6 +1104,7 @@ mCurrentIteration
 ;
 enum
 {
+AnimationPhase_Null
 AnimationPhase_Before
 AnimationPhase_Active
 AnimationPhase_After
