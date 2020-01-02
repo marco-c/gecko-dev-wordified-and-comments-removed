@@ -1421,6 +1421,9 @@ Browser
 SelectionUpdate
 "
 {
+isInitiatedByAPZC
+:
+true
 }
 )
 ;
