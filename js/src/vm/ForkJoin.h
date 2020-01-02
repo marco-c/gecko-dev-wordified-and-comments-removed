@@ -20,6 +20,15 @@ Ion
 .
 h
 "
+#
+include
+"
+jit
+/
+MIR
+.
+h
+"
 namespace
 js
 {
