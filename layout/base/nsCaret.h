@@ -131,15 +131,6 @@ bool
 inMakeReadonly
 )
 ;
-bool
-GetCaretReadOnly
-(
-)
-{
-return
-mReadOnly
-;
-}
 virtual
 nsIFrame
 *
