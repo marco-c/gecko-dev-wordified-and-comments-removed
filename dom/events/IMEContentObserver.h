@@ -649,9 +649,6 @@ int64_t
 mPreCharacterDataChangeLength
 ;
 bool
-mIsEditorInTransaction
-;
-bool
 mIsSelectionChangeEventPending
 ;
 bool

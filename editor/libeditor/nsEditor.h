@@ -2907,6 +2907,9 @@ mDidPostCreate
 bool
 mDispatchInputEvent
 ;
+bool
+mIsInEditAction
+;
 friend
 bool
 NSCanUnload
