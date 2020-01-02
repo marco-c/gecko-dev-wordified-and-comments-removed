@@ -1659,6 +1659,17 @@ example
 com
 :
 80
+http
+:
+/
+/
+tracking
+.
+example
+.
+com
+:
+80
 #
 Bug
 483437
