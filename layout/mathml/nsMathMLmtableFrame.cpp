@@ -2440,14 +2440,9 @@ nsReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-;
 nsAutoString
 value
 ;
-rv
-=
 nsTableOuterFrame
 :
 :
@@ -2923,7 +2918,7 @@ aDesiredSize
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 nsIFrame
@@ -3853,9 +3848,6 @@ nsReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-=
 nsBlockFrame
 :
 :
@@ -3868,7 +3860,7 @@ aStatus
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 const
