@@ -2542,6 +2542,9 @@ bool
 mTouchEndCancelled
 ;
 bool
+mEndTouchIsClick
+;
+bool
 mIgnoreKeyPressEvent
 ;
 nsRefPtr
