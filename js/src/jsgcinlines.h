@@ -1859,8 +1859,17 @@ asJSContext
 )
 ;
 #
-ifdef
+if
+defined
+(
 JS_GC_ZEAL
+)
+|
+|
+defined
+(
+DEBUG
+)
 JSRuntime
 *
 rt
@@ -1872,8 +1881,6 @@ runtime
 (
 )
 ;
-#
-endif
 JS_ASSERT_IF
 (
 rt
@@ -1926,6 +1933,8 @@ rt
 noGCOrAllocationCheck
 )
 ;
+#
+endif
 JS_OOM_POSSIBLY_FAIL_REPORT
 (
 ncx
