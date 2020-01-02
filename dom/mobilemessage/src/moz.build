@@ -334,11 +334,6 @@ SmsMessage
 .
 h
 '
-'
-SmsSegmentInfo
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -417,11 +412,6 @@ cpp
 '
 '
 SmsMessage
-.
-cpp
-'
-'
-SmsSegmentInfo
 .
 cpp
 '
