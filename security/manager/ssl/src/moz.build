@@ -103,6 +103,11 @@ CryptoTask
 h
 '
 '
+nsCrypto
+.
+h
+'
+'
 nsNSSShutDown
 .
 h

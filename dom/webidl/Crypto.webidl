@@ -145,9 +145,6 @@ Crypto
 #
 ifndef
 MOZ_DISABLE_CRYPTOLEGACY
-interface
-CRMFObject
-;
 [
 NoInterfaceObject
 ]
@@ -168,8 +165,10 @@ enableSmartCardEvents
 ;
 [
 Throws
+NewObject
 ]
 CRMFObject
+?
 generateCRMFRequest
 (
 ByteString

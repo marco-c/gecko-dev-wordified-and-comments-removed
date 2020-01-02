@@ -76,15 +76,6 @@ TreeContentView
 )
 #
 endif
-#
-ifndef
-MOZ_DISABLE_CRYPTOLEGACY
-DOMCI_CLASS
-(
-CRMFObject
-)
-#
-endif
 DOMCI_CLASS
 (
 ChromeWindow
