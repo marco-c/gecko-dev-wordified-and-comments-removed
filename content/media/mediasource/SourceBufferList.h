@@ -227,6 +227,15 @@ Ended
 (
 )
 ;
+void
+Evict
+(
+double
+aStart
+double
+aEnd
+)
+;
 private
 :
 friend
