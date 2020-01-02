@@ -393,7 +393,7 @@ WakeLockRelease
 )
 ;
 void
-WakeLockUpdate
+UpdateScreenWakeLock
 (
 )
 ;
