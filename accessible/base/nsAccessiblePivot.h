@@ -138,6 +138,8 @@ int32_t
 aOldEnd
 PivotMoveReason
 aReason
+bool
+aIsFromUserInput
 )
 ;
 bool
@@ -241,6 +243,8 @@ Accessible
 aPosition
 PivotMoveReason
 aReason
+bool
+aIsFromUserInput
 )
 ;
 Accessible

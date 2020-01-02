@@ -3213,6 +3213,8 @@ int32_t
 aOldEnd
 PivotMoveReason
 aReason
+bool
+aIsFromUserInput
 )
 {
 nsRefPtr
@@ -3229,6 +3231,11 @@ aOldAccessible
 aOldStart
 aOldEnd
 aReason
+aIsFromUserInput
+?
+eFromUserInput
+:
+eNoUserInput
 )
 ;
 nsEventShell
