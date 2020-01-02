@@ -2887,6 +2887,17 @@ html
 #
 bug
 847368
+pref
+(
+layout
+.
+css
+.
+sticky
+.
+enabled
+true
+)
 load
 926728
 .
