@@ -46,9 +46,14 @@ Show
 (
 )
 {
-GeckoAppShell
+AndroidBridge
 :
 :
+Bridge
+(
+)
+-
+>
 ShowInputMethodPicker
 (
 )
