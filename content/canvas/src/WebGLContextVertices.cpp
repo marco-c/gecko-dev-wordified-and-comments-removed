@@ -3406,7 +3406,7 @@ WebGLRectangleObject
 *
 rect
 =
-FramebufferRectangleObject
+CurValidFBRectObject
 (
 )
 ;

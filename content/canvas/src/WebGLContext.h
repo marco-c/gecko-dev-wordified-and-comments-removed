@@ -1084,7 +1084,7 @@ value
 const
 WebGLRectangleObject
 *
-FramebufferRectangleObject
+CurValidFBRectObject
 (
 )
 const
