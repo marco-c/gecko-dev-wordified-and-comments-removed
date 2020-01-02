@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 nsTextFrame
 .
 h
@@ -11794,8 +11787,10 @@ return
 NS_OK
 ;
 }
-static
 void
+nsRange
+:
+:
 CollectClientRects
 (
 nsLayoutUtils
