@@ -362,6 +362,11 @@ nsFrameSetFrame
 cpp
 '
 '
+nsFrameState
+.
+cpp
+'
+'
 nsFrameUtil
 .
 cpp
