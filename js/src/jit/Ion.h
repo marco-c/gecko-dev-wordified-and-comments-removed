@@ -710,17 +710,6 @@ ExecutionMode
 mode
 )
 ;
-uint32_t
-UsesBeforeIonCompile
-(
-JSScript
-*
-script
-jsbytecode
-*
-pc
-)
-;
 void
 PurgeCaches
 (
