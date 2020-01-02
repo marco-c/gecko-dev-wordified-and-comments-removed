@@ -1482,8 +1482,6 @@ mozilla
 .
 org
 /
-b2g
-/
 webapps
 -
 update
@@ -1510,8 +1508,6 @@ WebappsUpdateTimer
 mozilla
 .
 org
-/
-b2g
 /
 webapps
 -
