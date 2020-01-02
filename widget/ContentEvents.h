@@ -379,7 +379,7 @@ WidgetEvent
 (
 aIsTrusted
 aMessage
-NS_FORM_EVENT
+eFormEventClass
 )
 originator
 (
@@ -401,7 +401,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_FORM_EVENT
+eFormEventClass
 "
 Duplicate
 (

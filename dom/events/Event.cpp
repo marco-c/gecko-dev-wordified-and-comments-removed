@@ -3195,7 +3195,7 @@ break
 break
 ;
 case
-NS_FORM_EVENT
+eFormEventClass
 :
 if
 (
