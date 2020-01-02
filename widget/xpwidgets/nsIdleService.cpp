@@ -1555,7 +1555,7 @@ Register
 idle
 observer
 %
-x
+p
 for
 %
 d
@@ -1580,7 +1580,7 @@ Register
 idle
 observer
 %
-x
+p
 for
 %
 d
@@ -1848,7 +1848,7 @@ idleService
 Remove
 observer
 %
-x
+p
 (
 %
 d
@@ -1878,7 +1878,7 @@ IdleService
 Remove
 observer
 %
-x
+p
 (
 %
 d
@@ -1914,7 +1914,7 @@ remove
 idle
 observer
 %
-x
+p
 (
 %
 d
@@ -1942,7 +1942,7 @@ remove
 idle
 observer
 %
-x
+p
 (
 %
 d
@@ -2208,7 +2208,7 @@ timeout
 tell
 observer
 %
-x
+p
 user
 is
 back
@@ -2237,7 +2237,7 @@ timeout
 tell
 observer
 %
-x
+p
 user
 is
 back
@@ -2883,7 +2883,7 @@ callback
 tell
 observer
 %
-x
+p
 user
 is
 idle
@@ -2912,7 +2912,7 @@ callback
 tell
 observer
 %
-x
+p
 user
 is
 idle
@@ -3409,7 +3409,7 @@ reducing
 timeout
 to
 %
-u
+lu
 msec
 from
 now
@@ -3434,7 +3434,7 @@ reducing
 timeout
 to
 %
-u
+lu
 msec
 from
 now
