@@ -2228,8 +2228,6 @@ pJmp32
 +
 =
 origBytes
-+
-pJmp32
 -
 tramp
 ;
