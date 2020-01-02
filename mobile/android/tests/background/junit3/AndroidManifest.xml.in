@@ -157,9 +157,7 @@ android
 label
 =
 "
-string
-/
-app_name
+ANDROID_BACKGROUND_APP_DISPLAYNAME
 "
 >
 <
