@@ -232,9 +232,12 @@ final
 String
 BROWSER_INTENT_CLASS_NAME
 =
-ANDROID_PACKAGE_NAME
-+
 "
+org
+.
+mozilla
+.
+gecko
 .
 App
 "
@@ -454,7 +457,9 @@ final
 String
 TARGET_XPCOM_ABI
 =
+"
 TARGET_XPCOM_ABI
+"
 ;
 public
 static

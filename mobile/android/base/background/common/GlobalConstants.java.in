@@ -225,7 +225,11 @@ String
 BROWSER_INTENT_PACKAGE
 =
 "
-ANDROID_PACKAGE_NAME
+org
+.
+mozilla
+.
+gecko
 "
 ;
 public
