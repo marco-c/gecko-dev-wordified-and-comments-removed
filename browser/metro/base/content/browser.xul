@@ -3796,8 +3796,9 @@ onclick
 "
 SelectionHelperUI
 .
-urlbarClick
+urlbarTextboxClick
 (
+this
 )
 ;
 "
