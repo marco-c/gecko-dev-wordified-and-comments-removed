@@ -3247,13 +3247,11 @@ NS_NewDOMKeyboardEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-WidgetKeyboardEvent
-*
->
-(
 aEvent
+-
+>
+AsKeyboardEvent
+(
 )
 )
 ;

@@ -2918,13 +2918,11 @@ WidgetKeyboardEvent
 *
 oldKeyEvent
 =
-static_cast
-<
-WidgetKeyboardEvent
-*
->
-(
 aEvent
+-
+>
+AsKeyboardEvent
+(
 )
 ;
 WidgetKeyboardEvent

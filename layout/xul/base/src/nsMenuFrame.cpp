@@ -1880,13 +1880,11 @@ WidgetKeyboardEvent
 *
 keyEvent
 =
-static_cast
-<
-WidgetKeyboardEvent
-*
->
-(
 aEvent
+-
+>
+AsKeyboardEvent
+(
 )
 ;
 uint32_t
