@@ -163,6 +163,9 @@ SourceSurface
 *
 GetSurface
 (
+DrawTarget
+*
+aTarget
 )
 MOZ_OVERRIDE
 {
@@ -1504,6 +1507,7 @@ AsSourceBasic
 >
 GetSurface
 (
+dest
 )
 ;
 MOZ_ASSERT
@@ -1672,6 +1676,7 @@ source
 >
 GetSurface
 (
+dest
 )
 texturedEffect
 -

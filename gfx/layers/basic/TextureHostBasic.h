@@ -70,6 +70,12 @@ SourceSurface
 *
 GetSurface
 (
+gfx
+:
+:
+DrawTarget
+*
+aTarget
 )
 =
 0

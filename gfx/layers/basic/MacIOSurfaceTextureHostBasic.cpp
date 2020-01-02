@@ -188,6 +188,12 @@ MacIOSurfaceTextureSourceBasic
 :
 GetSurface
 (
+gfx
+:
+:
+DrawTarget
+*
+aTarget
 )
 {
 if

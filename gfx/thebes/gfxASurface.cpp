@@ -78,6 +78,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxASurface
 .
 h
