@@ -5550,7 +5550,7 @@ i
 +
 )
 {
-PatChar
+jschar
 c
 =
 pat
@@ -5645,7 +5645,7 @@ i
 )
 ;
 }
-TextChar
+jschar
 c
 =
 text
