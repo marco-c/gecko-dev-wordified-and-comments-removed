@@ -390,6 +390,12 @@ ComputeNeededBoxes
 (
 )
 ;
+nsIntRect
+OutputFilterSpaceBounds
+(
+)
+const
+;
 nsresult
 ComputeUserSpaceToFilterSpaceScale
 (
@@ -480,12 +486,6 @@ mFilterSpaceToFrameSpaceInCSSPxTransform
 ;
 gfxMatrix
 mFrameSpaceInCSSPxToFilterSpaceTransform
-;
-gfxRect
-mUserSpaceBounds
-;
-nsIntRect
-mFilterSpaceBounds
 ;
 gfxSize
 mUserSpaceToFilterSpaceScale
