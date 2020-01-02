@@ -524,6 +524,11 @@ SetAntialiasingFlags
 (
 this
 groupContext
+-
+>
+GetDrawTarget
+(
+)
 )
 ;
 aCallback
