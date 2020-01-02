@@ -98,11 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMMobileConnection
-.
-idl
-'
-'
 nsIMobileCellInfo
 .
 idl

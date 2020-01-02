@@ -190,7 +190,7 @@ erasure
 *
 see
 3GPP
-nsIDOMMozMobileCFInfo
+MozMobileConnection
 .
 CALL_FORWARD_ACTION_
 *
@@ -284,7 +284,7 @@ forwarding
 *
 see
 3GPP
-nsIDOMMozMobileCFInfo
+MozMobileConnection
 .
 CALL_FORWARD_REASON_
 *
@@ -386,7 +386,7 @@ one
 of
 the
 *
-nsIDOMMozMobileConnectionInfo
+MozMobileConnection
 .
 ICC_SERVICE_CLASS_
 *

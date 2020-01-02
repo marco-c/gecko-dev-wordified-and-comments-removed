@@ -1275,11 +1275,6 @@ MozMmsMessage
 webidl
 '
 '
-MozMobileConnection
-.
-webidl
-'
-'
 MozNamedAttrMap
 .
 webidl
@@ -2760,6 +2755,11 @@ webidl
 '
 '
 MozMobileCellInfo
+.
+webidl
+'
+'
+MozMobileConnection
 .
 webidl
 '

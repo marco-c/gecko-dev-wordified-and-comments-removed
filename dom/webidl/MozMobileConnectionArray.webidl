@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-MozMobileConnection
-;
-interface
 MozMobileConnectionArray
 {
 getter

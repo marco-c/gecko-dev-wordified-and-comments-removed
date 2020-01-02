@@ -135,7 +135,7 @@ CLIR
 *
 *
 see
-nsIDOMMozMobileConnection
+MozMobileConnection
 .
 CLIR_
 *
