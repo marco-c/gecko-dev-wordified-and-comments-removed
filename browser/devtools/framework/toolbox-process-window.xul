@@ -330,16 +330,6 @@ cmd
 -
 close
 "
-oncommand
-=
-"
-window
-.
-close
-(
-)
-;
-"
 /
 >
 <
