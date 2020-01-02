@@ -105,6 +105,10 @@ protocol
 PCompositable
 ;
 include
+protocol
+PTexture
+;
+include
 ProtocolTypes
 ;
 include
@@ -196,6 +200,9 @@ PCompositable
 ;
 manages
 PGrallocBuffer
+;
+manages
+PTexture
 ;
 parent
 :
@@ -415,6 +422,11 @@ returns
 (
 uint64_t
 id
+)
+;
+async
+PTexture
+(
 )
 ;
 }

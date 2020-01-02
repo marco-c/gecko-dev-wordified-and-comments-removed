@@ -52,13 +52,6 @@ PGrallocBufferParent
 h
 "
 #
-include
-"
-TextureHost
-.
-h
-"
-#
 define
 MOZ_HAVE_SURFACEDESCRIPTORGRALLOC
 #
@@ -78,6 +71,12 @@ MaybeMagicGrallocBufferHandle
 ;
 class
 SurfaceDescriptorGralloc
+;
+class
+TextureHost
+;
+class
+DeprecatedTextureHost
 ;
 struct
 MagicGrallocBufferHandle

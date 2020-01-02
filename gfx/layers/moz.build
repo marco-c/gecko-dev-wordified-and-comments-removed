@@ -1785,6 +1785,13 @@ PLayerTransaction
 .
 ipdl
 '
+'
+ipc
+/
+PTexture
+.
+ipdl
+'
 ]
 MSVC_ENABLE_PGO
 =

@@ -131,6 +131,10 @@ protocol
 PRenderFrame
 ;
 include
+protocol
+PTexture
+;
+include
 "
 mozilla
 /
@@ -251,6 +255,9 @@ PCompositable
 ;
 manages
 PGrallocBuffer
+;
+manages
+PTexture
 ;
 parent
 :
@@ -456,6 +463,11 @@ PCompositable
 (
 TextureInfo
 aTextureInfo
+)
+;
+async
+PTexture
+(
 )
 ;
 /
