@@ -107,9 +107,6 @@ class
 CompositableClient
 ;
 class
-DeprecatedTextureClient
-;
-class
 TextureClient
 ;
 class
