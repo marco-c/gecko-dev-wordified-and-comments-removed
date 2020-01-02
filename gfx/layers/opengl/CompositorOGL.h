@@ -1036,8 +1036,8 @@ gfx
 IntRect
 &
 aRect
-SurfaceInitMode
-aInit
+bool
+aCopyFromSource
 GLuint
 aSourceFrameBuffer
 GLuint

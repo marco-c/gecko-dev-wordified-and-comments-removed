@@ -3389,7 +3389,7 @@ fbo
 CreateFBOWithTexture
 (
 aRect
-aInit
+false
 0
 &
 fbo
@@ -3489,7 +3489,7 @@ aSource
 CreateFBOWithTexture
 (
 aRect
-INIT_MODE_COPY
+true
 sourceSurface
 -
 >
@@ -3508,7 +3508,7 @@ else
 CreateFBOWithTexture
 (
 aRect
-INIT_MODE_COPY
+true
 0
 &
 fbo
@@ -3546,7 +3546,7 @@ aRect
 height
 )
 mFBOTextureTarget
-INIT_MODE_COPY
+INIT_MODE_NONE
 )
 ;
 return
@@ -4176,8 +4176,8 @@ const
 IntRect
 &
 aRect
-SurfaceInitMode
-aInit
+bool
+aCopyFromSource
 GLuint
 aSourceFrameBuffer
 GLuint
@@ -4221,10 +4221,7 @@ tex
 ;
 if
 (
-aInit
-=
-=
-INIT_MODE_COPY
+aCopyFromSource
 )
 {
 GLuint

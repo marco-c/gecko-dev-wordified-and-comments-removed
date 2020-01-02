@@ -1095,14 +1095,6 @@ SurfaceInitMode
 aInit
 )
 {
-MOZ_ASSERT
-(
-aInit
-!
-=
-INIT_MODE_COPY
-)
-;
 RefPtr
 <
 DrawTarget
