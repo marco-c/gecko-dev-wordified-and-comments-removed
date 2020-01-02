@@ -93,13 +93,3 @@ MPL
 0
 /
 .
-WEBRTC_SIGNALLING_TEST_MANIFESTS
-+
-=
-[
-'
-steeplechase
-.
-ini
-'
-]
