@@ -364,6 +364,12 @@ MobileMessageData
 aMessageData
 )
 ;
+NotifyDeletedMessageInfo
+(
+DeletedMessageInfoData
+aDeletedInfo
+)
+;
 parent
 :
 /
