@@ -2814,6 +2814,8 @@ with_SetGenericAttributes
 with_DeleteProperty
 with_DeleteElement
 with_DeleteSpecial
+nullptr
+nullptr
 with_Enumerate
 with_ThisObject
 }
