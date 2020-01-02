@@ -122,6 +122,7 @@ nsIntRegion
 struct
 nsTArrayFallibleResult
 {
+MOZ_IMPLICIT
 nsTArrayFallibleResult
 (
 bool

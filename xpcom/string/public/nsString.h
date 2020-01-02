@@ -364,6 +364,7 @@ NS_LossyConvertUTF16toASCII
 (
 char
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -437,6 +438,7 @@ NS_ConvertASCIItoUTF16
 (
 char16_t
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -558,6 +560,7 @@ NS_ConvertUTF16toUTF8
 (
 char
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -631,6 +634,7 @@ NS_ConvertUTF8toUTF16
 (
 char16_t
 )
+MOZ_DELETE
 ;
 }
 ;

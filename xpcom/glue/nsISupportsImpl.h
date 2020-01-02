@@ -634,6 +634,7 @@ mRefCntAndFlags
 )
 {
 }
+explicit
 nsCycleCollectingAutoRefCnt
 (
 uintptr_t
@@ -984,6 +985,7 @@ mValue
 )
 {
 }
+explicit
 nsAutoRefCnt
 (
 nsrefcnt

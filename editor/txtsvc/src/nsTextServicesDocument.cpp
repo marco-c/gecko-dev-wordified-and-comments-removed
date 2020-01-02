@@ -392,10 +392,6 @@ nsTextServicesDocument
 (
 )
 {
-mRefCnt
-=
-0
-;
 mSelStartIndex
 =
 -
