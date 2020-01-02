@@ -14,3 +14,12 @@ define
 SYMBOL_UNDERSCORE
 #
 endif
+#
+define
+ATTRIBUTE_USED
+__attribute__
+(
+(
+__used__
+)
+)

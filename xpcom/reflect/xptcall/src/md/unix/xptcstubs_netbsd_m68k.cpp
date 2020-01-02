@@ -38,7 +38,6 @@ C
 {
 static
 nsresult
-ATTRIBUTE_USED
 PrepareAndDispatch
 (
 nsXPTCStubBase

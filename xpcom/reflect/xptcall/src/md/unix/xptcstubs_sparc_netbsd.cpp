@@ -22,7 +22,6 @@ extern
 C
 "
 nsresult
-ATTRIBUTE_USED
 PrepareAndDispatch
 (
 nsXPTCStubBase

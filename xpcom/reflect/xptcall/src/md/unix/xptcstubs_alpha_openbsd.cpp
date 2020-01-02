@@ -31,7 +31,12 @@ __asm__
 PrepareAndDispatch
 "
 )
-ATTRIBUTE_USED
+__attribute__
+(
+(
+used
+)
+)
 ;
 static
 nsresult
