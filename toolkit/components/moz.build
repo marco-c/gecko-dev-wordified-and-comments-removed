@@ -246,9 +246,6 @@ workerloader
 '
 workerlz4
 '
-'
-xulstore
-'
 ]
 if
 CONFIG
