@@ -448,6 +448,14 @@ ins
 isTypeBarrier
 (
 )
+|
+|
+ins
+-
+>
+isComputeThis
+(
+)
 )
 continue
 ;
