@@ -951,6 +951,10 @@ FunctionEnvironment
 )
 SAFE_OP
 (
+FilterTypeSet
+)
+SAFE_OP
+(
 TypeBarrier
 )
 SAFE_OP
