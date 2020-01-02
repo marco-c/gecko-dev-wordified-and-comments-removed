@@ -192,6 +192,9 @@ attribute
 IDBDatabase
 db
 ;
+[
+Throws
+]
 readonly
 attribute
 DOMError
