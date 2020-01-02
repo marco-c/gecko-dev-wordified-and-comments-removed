@@ -301,9 +301,7 @@ caps
 screen
 -
 >
-Caps
-(
-)
+mCaps
 ;
 }
 MOZ_ASSERT
@@ -338,7 +336,7 @@ PreserveBuffer
 )
 )
 ;
-SurfaceFactory_GL
+SurfaceFactory
 *
 factory
 =

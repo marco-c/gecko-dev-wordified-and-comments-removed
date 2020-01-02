@@ -188,7 +188,7 @@ namespace
 mozilla
 {
 namespace
-gfx
+gl
 {
 class
 SourceSurface
@@ -3532,7 +3532,7 @@ mTarget
 ;
 RefPtr
 <
-gfx
+gl
 :
 :
 SurfaceStream

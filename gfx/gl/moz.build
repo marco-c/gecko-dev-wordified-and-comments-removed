@@ -367,11 +367,6 @@ SharedSurfaceGL
 h
 '
 '
-SurfaceFactory
-.
-h
-'
-'
 SurfaceStream
 .
 h
@@ -852,11 +847,6 @@ cpp
 '
 '
 SharedSurfaceGL
-.
-cpp
-'
-'
-SurfaceFactory
 .
 cpp
 '

@@ -3935,7 +3935,7 @@ mSkiaGlue
 mozilla
 :
 :
-gfx
+gl
 :
 :
 SurfaceCaps
@@ -3944,7 +3944,7 @@ caps
 mozilla
 :
 :
-gfx
+gl
 :
 :
 SurfaceCaps

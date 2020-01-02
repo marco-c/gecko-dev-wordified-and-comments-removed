@@ -110,7 +110,7 @@ namespace
 mozilla
 {
 namespace
-gfx
+gl
 {
 class
 SharedSurface
