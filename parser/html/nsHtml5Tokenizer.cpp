@@ -32,7 +32,7 @@ h
 #
 include
 "
-nsISupportsImpl
+nsTraceRefcnt
 .
 h
 "
