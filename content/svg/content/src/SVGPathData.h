@@ -87,7 +87,7 @@ class
 gfxPath
 ;
 class
-nsSVGPathDataParser
+nsSVGPathDataParserToInternal
 ;
 struct
 gfxMatrix
@@ -117,7 +117,7 @@ friend
 class
 :
 :
-nsSVGPathDataParser
+nsSVGPathDataParserToInternal
 ;
 typedef
 gfx
