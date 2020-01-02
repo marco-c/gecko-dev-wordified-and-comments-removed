@@ -888,13 +888,6 @@ nsISupports
 aPrincipal
 )
 {
-NS_NOTREACHED
-(
-"
-GetOwner
-"
-)
-;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -910,13 +903,6 @@ nsISupports
 aPrincipal
 )
 {
-NS_NOTREACHED
-(
-"
-SetOwner
-"
-)
-;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
