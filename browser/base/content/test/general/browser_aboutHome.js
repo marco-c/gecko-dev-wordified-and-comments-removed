@@ -635,6 +635,8 @@ function
 (
 )
 {
+return
+;
 if
 (
 navigator
