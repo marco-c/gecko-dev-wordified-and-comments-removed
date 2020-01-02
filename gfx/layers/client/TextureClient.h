@@ -297,14 +297,6 @@ allocator
 0
 ;
 virtual
-void
-ForgetSharedData
-(
-)
-=
-0
-;
-virtual
 ~
 TextureClientData
 (
