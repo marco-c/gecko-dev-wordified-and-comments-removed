@@ -2472,7 +2472,7 @@ toolbar
 "
 >
 <
-vbox
+arrowscrollbox
 id
 =
 "
@@ -2483,6 +2483,11 @@ share
 provider
 -
 buttons
+"
+orient
+=
+"
+vertical
 "
 flex
 =
