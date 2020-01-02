@@ -151,6 +151,14 @@ share
 1
 "
 )
+UNDO
+(
+"
+undo
+.
+1
+"
+)
 UNPIN
 (
 "
@@ -309,6 +317,12 @@ SUGGESTION
 (
 "
 suggestion
+"
+)
+TOAST
+(
+"
+toast
 "
 )
 _TEST1
