@@ -112,6 +112,15 @@ include
 "
 jit
 /
+CompileWrappers
+.
+h
+"
+#
+include
+"
+jit
+/
 MIR
 .
 h
@@ -10788,6 +10797,10 @@ get
 Optimization_AsmJS
 )
 ;
+const
+JitCompileOptions
+options
+;
 mirGen_
 =
 lifo_
@@ -10811,6 +10824,7 @@ compartment
 (
 )
 )
+options
 alloc_
 graph_
 info_

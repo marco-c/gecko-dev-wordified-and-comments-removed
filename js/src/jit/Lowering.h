@@ -252,6 +252,14 @@ block
 )
 ;
 bool
+visitCloneLiteral
+(
+MCloneLiteral
+*
+ins
+)
+;
+bool
 visitParameter
 (
 MParameter

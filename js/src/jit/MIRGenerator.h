@@ -103,6 +103,10 @@ MIRGenerator
 CompileCompartment
 *
 compartment
+const
+JitCompileOptions
+&
+options
 TempAllocator
 *
 alloc
@@ -638,6 +642,12 @@ asmJSPerfSpewer_
 }
 #
 endif
+public
+:
+const
+JitCompileOptions
+options
+;
 }
 ;
 }

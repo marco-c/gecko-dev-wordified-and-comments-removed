@@ -527,6 +527,10 @@ analysisContext
 CompileCompartment
 *
 comp
+const
+JitCompileOptions
+&
+options
 TempAllocator
 *
 temp

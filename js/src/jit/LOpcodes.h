@@ -58,6 +58,11 @@ Value
 \
 _
 (
+CloneLiteral
+)
+\
+_
+(
 Parameter
 )
 \

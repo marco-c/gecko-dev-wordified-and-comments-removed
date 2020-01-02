@@ -586,6 +586,10 @@ SAFE_OP
 (
 Constant
 )
+UNSAFE_OP
+(
+CloneLiteral
+)
 SAFE_OP
 (
 Parameter
