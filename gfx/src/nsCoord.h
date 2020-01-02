@@ -226,6 +226,13 @@ defined
 (
 __GNUC__
 )
+&
+&
+!
+defined
+(
+__clang__
+)
 return
 NS_lroundup30
 (
@@ -276,6 +283,13 @@ _M_IX86
 defined
 (
 __GNUC__
+)
+&
+&
+!
+defined
+(
+__clang__
 )
 return
 NS_lroundup30
