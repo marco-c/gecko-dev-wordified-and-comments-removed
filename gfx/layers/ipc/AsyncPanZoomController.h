@@ -1244,10 +1244,6 @@ aPoint
 }
 private
 :
-const
-uint32_t
-mAPZCId
-;
 ParentLayerRect
 mVisibleRect
 ;
@@ -1256,6 +1252,12 @@ mAncestorTransform
 ;
 gfx3DMatrix
 mCSSTransform
+;
+private
+:
+const
+uint32_t
+mAPZCId
 ;
 ipc
 :
