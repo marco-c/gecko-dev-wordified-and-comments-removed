@@ -7630,6 +7630,15 @@ java
 '
 fxa
 /
+receivers
+/
+FxAccountUpgradeReceiver
+.
+java
+'
+'
+fxa
+/
 sync
 /
 FxAccountGlobalSession
