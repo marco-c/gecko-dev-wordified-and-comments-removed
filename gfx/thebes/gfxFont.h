@@ -5505,7 +5505,7 @@ aRunScript
 )
 ;
 bool
-BypassShapedWordCache
+SpaceMayParticipateInShaping
 (
 int32_t
 aRunScript
