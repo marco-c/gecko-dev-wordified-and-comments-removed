@@ -226,6 +226,11 @@ ErrorResult
 aRv
 )
 ;
+~
+TextTrackCue
+(
+)
+;
 virtual
 JSObject
 *
