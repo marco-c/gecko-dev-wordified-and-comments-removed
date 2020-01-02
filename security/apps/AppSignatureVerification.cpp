@@ -2075,7 +2075,7 @@ nsIZipReader
 *
 *
 aZipReader
-nsIX509Cert3
+nsIX509Cert
 *
 *
 aSignerCert
@@ -2648,7 +2648,7 @@ builtChain
 ;
 nsCOMPtr
 <
-nsIX509Cert3
+nsIX509Cert
 >
 signerCert
 =
@@ -2805,7 +2805,7 @@ mZipReader
 ;
 nsCOMPtr
 <
-nsIX509Cert3
+nsIX509Cert
 >
 mSignerCert
 ;

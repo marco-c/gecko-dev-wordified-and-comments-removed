@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIX509Cert3
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h

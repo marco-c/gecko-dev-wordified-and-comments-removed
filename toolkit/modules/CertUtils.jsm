@@ -644,17 +644,6 @@ Cr
 NS_ERROR_ABORT
 )
 ;
-issuerCert
-=
-issuerCert
-.
-QueryInterface
-(
-Ci
-.
-nsIX509Cert3
-)
-;
 var
 tokenNames
 =

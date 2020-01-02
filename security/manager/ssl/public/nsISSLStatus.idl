@@ -180,7 +180,7 @@ signed
 "
 *
 query
-nsIX509Cert3
+nsIX509Cert
 :
 :
 isSelfSigned
