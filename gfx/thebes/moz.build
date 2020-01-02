@@ -133,11 +133,6 @@ gfxBlur
 h
 '
 '
-gfxCachedTempSurface
-.
-h
-'
-'
 gfxColor
 .
 h
@@ -1193,11 +1188,6 @@ cpp
 '
 '
 gfxBlur
-.
-cpp
-'
-'
-gfxCachedTempSurface
 .
 cpp
 '
