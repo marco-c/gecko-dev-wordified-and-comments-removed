@@ -573,10 +573,6 @@ mActiveTexture
 =
 0
 ;
-mWebGLError
-=
-LOCAL_GL_NO_ERROR
-;
 mPixelStoreFlipY
 =
 false
@@ -5762,9 +5758,9 @@ true
 true
 )
 ;
-mContextLostErrorSet
+mEmitContextLostErrorOnce
 =
-false
+true
 ;
 mAllowRestore
 =

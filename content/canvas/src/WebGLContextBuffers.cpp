@@ -2471,7 +2471,7 @@ if
 sizeChanges
 )
 {
-UpdateWebGLErrorAndClearGLError
+GetAndFlushUnderlyingGLErrors
 (
 )
 ;
@@ -2489,12 +2489,8 @@ usage
 GLenum
 error
 =
-LOCAL_GL_NO_ERROR
-;
-UpdateWebGLErrorAndClearGLError
+GetAndFlushUnderlyingGLErrors
 (
-&
-error
 )
 ;
 return
