@@ -78,6 +78,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+indexedDB
+"
+]
+)
+;
 const
 RIL_MOBILEMESSAGEDATABASESERVICE_CONTRACTID
 =

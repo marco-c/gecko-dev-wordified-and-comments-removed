@@ -187,6 +187,17 @@ js
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+indexedDB
+"
+]
+)
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
