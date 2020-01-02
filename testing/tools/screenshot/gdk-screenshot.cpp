@@ -46,6 +46,15 @@ stdio
 .
 h
 >
+#
+include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
 gboolean
 save_to_stdout
 (
