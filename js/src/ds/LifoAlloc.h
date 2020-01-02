@@ -1719,7 +1719,7 @@ T
 MOZ_ALWAYS_INLINE
 T
 *
-newPod
+pod_malloc
 (
 )
 {

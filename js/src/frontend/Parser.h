@@ -116,6 +116,15 @@ HashSet
 <
 JSAtom
 *
+DefaultHasher
+<
+JSAtom
+*
+>
+LifoAllocPolicy
+<
+Fallible
+>
 >
 FuncStmtSet
 ;
