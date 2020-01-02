@@ -2771,6 +2771,16 @@ FileDescriptor
 aXSocketFd
 )
 ;
+sync
+OpenAnonymousTemporaryFile
+(
+)
+returns
+(
+FileDescriptor
+aFD
+)
+;
 both
 :
 AsyncMessage
