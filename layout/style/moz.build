@@ -216,6 +216,11 @@ nsCSSValue
 h
 '
 '
+nsComputedDOMStylePropertyList
+.
+h
+'
+'
 nsDOMCSSAttrDeclaration
 .
 h
