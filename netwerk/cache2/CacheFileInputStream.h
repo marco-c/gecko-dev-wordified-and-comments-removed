@@ -141,6 +141,13 @@ CacheFileInputStream
 (
 )
 ;
+nsresult
+CloseWithStatusLocked
+(
+nsresult
+aStatus
+)
+;
 void
 ReleaseChunk
 (

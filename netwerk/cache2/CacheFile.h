@@ -573,6 +573,14 @@ PRELOADER
 }
 ;
 nsresult
+DoomLocked
+(
+CacheFileListener
+*
+aCallback
+)
+;
+nsresult
 GetChunk
 (
 uint32_t
