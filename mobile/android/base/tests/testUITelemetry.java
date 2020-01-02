@@ -296,9 +296,6 @@ sendUIEvent
 Event
 .
 _TEST1
-Method
-.
-_TEST1
 )
 ;
 }
