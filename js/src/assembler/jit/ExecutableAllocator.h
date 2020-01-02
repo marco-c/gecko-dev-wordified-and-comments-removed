@@ -321,12 +321,6 @@ m_otherCodeBytes
 ;
 public
 :
-bool
-m_destroy
-;
-size_t
-m_gcNumber
-;
 void
 release
 (
@@ -514,14 +508,6 @@ m_regexpCodeBytes
 0
 )
 m_otherCodeBytes
-(
-0
-)
-m_destroy
-(
-false
-)
-m_gcNumber
 (
 0
 )

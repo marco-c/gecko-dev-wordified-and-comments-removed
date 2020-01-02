@@ -335,11 +335,6 @@ friend
 class
 ThreadPoolWorker
 ;
-JSRuntime
-*
-const
-runtime_
-;
 js
 :
 :
@@ -366,6 +361,11 @@ job_
 #
 ifdef
 DEBUG
+JSRuntime
+*
+const
+runtime_
+;
 mozilla
 :
 :
