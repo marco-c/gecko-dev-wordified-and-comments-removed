@@ -317,6 +317,13 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+void
+RemoveFromCaches
+(
+)
+{
+}
 nsTArray
 <
 nsCOMPtr
@@ -956,6 +963,7 @@ void
 RemoveFromCaches
 (
 )
+MOZ_OVERRIDE
 {
 RemoveFromHashtable
 (
