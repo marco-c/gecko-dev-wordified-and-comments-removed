@@ -2609,7 +2609,7 @@ MarkDirty
 endif
 }
 void
-ReadPixelsIntoDataSourceSurface
+ReadPixelsIntoDataSurface
 (
 GLContext
 *
@@ -4531,7 +4531,7 @@ fDisableVertexAttribArray
 0
 )
 ;
-ReadPixelsIntoDataSourceSurface
+ReadPixelsIntoDataSurface
 (
 mGL
 isurf
