@@ -505,8 +505,9 @@ Rect
 &
 aRect
 )
-{
-}
+=
+0
+;
 virtual
 void
 BeginFrame
