@@ -138,11 +138,6 @@ nsIDOMDataTransfer
 idl
 '
 '
-nsIDOMDeviceOrientationEvent
-.
-idl
-'
-'
 nsIDOMDOMTransactionEvent
 .
 idl

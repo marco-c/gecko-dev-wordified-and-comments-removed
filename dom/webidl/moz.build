@@ -3116,6 +3116,11 @@ DeviceLightEvent
 webidl
 '
 '
+DeviceOrientationEvent
+.
+webidl
+'
+'
 DeviceProximityEvent
 .
 webidl

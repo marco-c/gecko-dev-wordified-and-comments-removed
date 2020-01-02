@@ -113,9 +113,6 @@ CustomEvent
 DOMTransactionEvent
 '
 '
-DeviceOrientationEvent
-'
-'
 StyleRuleChangeEvent
 '
 '
