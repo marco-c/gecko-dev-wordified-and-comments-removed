@@ -64,9 +64,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMMozActivityOptions
-;
-interface
 nsIDOMWindow
 ;
 /
@@ -120,7 +117,7 @@ MozActivity
 /
 activity
 in
-nsIDOMMozActivityOptions
+jsval
 options
 in
 nsIDOMWindow
