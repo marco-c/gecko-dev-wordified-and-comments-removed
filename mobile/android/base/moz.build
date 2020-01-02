@@ -1194,6 +1194,11 @@ GeckoProfileDirectories
 java
 '
 '
+GeckoProfilesProvider
+.
+java
+'
+'
 GeckoScreenOrientation
 .
 java
