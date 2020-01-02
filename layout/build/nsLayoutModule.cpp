@@ -412,6 +412,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 nsFormData
 .
 h
@@ -6884,6 +6891,13 @@ Shutdown
 )
 ;
 xpcModuleDtor
+(
+)
+;
+gfxPlatform
+:
+:
+Shutdown
 (
 )
 ;
