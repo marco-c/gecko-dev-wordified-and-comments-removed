@@ -52,6 +52,9 @@ h
 "
 BEGIN_TELEPHONY_NAMESPACE
 class
+TelephonyIPCProvider
+;
+class
 TelephonyChild
 :
 public
@@ -61,9 +64,9 @@ public
 :
 TelephonyChild
 (
-nsITelephonyListener
+TelephonyIPCProvider
 *
-aListener
+aProvider
 )
 ;
 protected
@@ -73,8 +76,7 @@ virtual
 TelephonyChild
 (
 )
-{
-}
+;
 virtual
 void
 ActorDestroy
@@ -202,11 +204,11 @@ MOZ_OVERRIDE
 ;
 private
 :
-nsCOMPtr
+nsRefPtr
 <
-nsITelephonyListener
+TelephonyIPCProvider
 >
-mListener
+mProvider
 ;
 }
 ;
