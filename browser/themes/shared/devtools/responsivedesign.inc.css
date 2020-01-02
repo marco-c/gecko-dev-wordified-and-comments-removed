@@ -69,6 +69,17 @@ background
 :
 transparent
 ;
+color
+:
+hsl
+(
+210
+30
+%
+85
+%
+)
+;
 margin
 :
 10px

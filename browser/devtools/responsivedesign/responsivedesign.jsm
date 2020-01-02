@@ -1123,7 +1123,7 @@ keypress
 this
 .
 bound_onKeypress
-false
+true
 )
 ;
 this
@@ -1672,7 +1672,7 @@ keypress
 this
 .
 bound_onKeypress
-false
+true
 )
 ;
 this
