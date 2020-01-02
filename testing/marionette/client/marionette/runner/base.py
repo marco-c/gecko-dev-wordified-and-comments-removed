@@ -5473,7 +5473,6 @@ files
                     
 if
 (
-(
 filename
 .
 startswith
@@ -5481,16 +5480,6 @@ startswith
 '
 test_
 '
-)
-or
-filename
-.
-startswith
-(
-'
-browser_
-'
-)
 )
 and
                         
