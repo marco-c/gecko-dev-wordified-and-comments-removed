@@ -255,7 +255,15 @@ browserElement_GetScreenshot
 .
 js
 \
+browserElement_GetScreenshotDppx
+.
+js
+\
 test_browserElement_inproc_GetScreenshot
+.
+html
+\
+test_browserElement_inproc_GetScreenshotDppx
 .
 html
 \
@@ -990,6 +998,10 @@ test_browserElement_oop_Opensearch
 html
 \
 test_browserElement_oop_GetScreenshot
+.
+html
+\
+test_browserElement_oop_GetScreenshotDppx
 .
 html
 \
