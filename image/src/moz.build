@@ -148,6 +148,11 @@ DiscardTracker
 cpp
 '
 '
+DynamicImage
+.
+cpp
+'
+'
 FrameAnimator
 .
 cpp
