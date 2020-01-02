@@ -722,6 +722,8 @@ addActionButton
 (
 Drawable
 drawable
+CharSequence
+label
 )
 {
 final
@@ -782,6 +784,13 @@ button
 setImageDrawable
 (
 drawable
+)
+;
+button
+.
+setContentDescription
+(
+label
 )
 ;
 button

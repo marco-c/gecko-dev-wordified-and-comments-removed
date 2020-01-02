@@ -502,6 +502,17 @@ loadIcon
 (
 packageManager
 )
+dataModel
+.
+getActivity
+(
+i
+)
+.
+loadLabel
+(
+packageManager
+)
 )
 ;
 }
