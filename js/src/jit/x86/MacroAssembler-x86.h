@@ -5893,12 +5893,6 @@ Label
 fail
 )
 {
-const
-uint32_t
-IndefiniteIntegerValue
-=
-0x80000000
-;
 cvttsd2si
 (
 src
@@ -5910,7 +5904,7 @@ cmpl
 dest
 Imm32
 (
-IndefiniteIntegerValue
+1
 )
 )
 ;
@@ -5919,7 +5913,7 @@ j
 Assembler
 :
 :
-Equal
+Overflow
 fail
 )
 ;
@@ -5940,12 +5934,6 @@ Label
 fail
 )
 {
-const
-uint32_t
-IndefiniteIntegerValue
-=
-0x80000000
-;
 cvttss2si
 (
 src
@@ -5957,7 +5945,7 @@ cmpl
 dest
 Imm32
 (
-IndefiniteIntegerValue
+1
 )
 )
 ;
@@ -5966,7 +5954,7 @@ j
 Assembler
 :
 :
-Equal
+Overflow
 fail
 )
 ;
