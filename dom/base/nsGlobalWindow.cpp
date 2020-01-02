@@ -33694,7 +33694,7 @@ const
 nsAString
 &
 aType
-nsIDOMEventListener
+EventListener
 *
 aListener
 bool
