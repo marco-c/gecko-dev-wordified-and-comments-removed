@@ -1468,6 +1468,15 @@ if
 this
 .
 panning
+&
+&
+docShell
+.
+asyncPanZoomEnabled
+=
+=
+=
+false
 )
 {
 evt
