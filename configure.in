@@ -2143,8 +2143,7 @@ MOZ_B2G_BT
 MOZ_B2G_BT_BLUEZ
 =
 1
-fi
-if
+elif
 test
 -
 d
