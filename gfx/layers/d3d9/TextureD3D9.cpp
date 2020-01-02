@@ -1550,10 +1550,6 @@ aSrcOffset
 MOZ_ASSERT
 (
 !
-aDestRegion
-&
-&
-!
 aSrcOffset
 )
 ;
