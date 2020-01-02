@@ -129,7 +129,9 @@ h
 #
 include
 "
-nsEventStateManager
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -2473,7 +2475,7 @@ mNodeInfo
 &
 &
 !
-nsEventStateManager
+EventStateManager
 :
 :
 IsRemoteTarget

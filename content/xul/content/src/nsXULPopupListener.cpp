@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsEventStateManager
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
@@ -156,6 +149,15 @@ h
 include
 "
 nsIObjectLoadingContent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -684,7 +686,7 @@ IsXUL
 )
 &
 &
-nsEventStateManager
+EventStateManager
 :
 :
 IsRemoteTarget
@@ -1251,7 +1253,7 @@ window
 ;
 }
 }
-nsEventStateManager
+EventStateManager
 *
 esm
 =

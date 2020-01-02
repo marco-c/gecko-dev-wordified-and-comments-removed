@@ -1392,7 +1392,7 @@ events
 *
 handled
 in
-nsEventStateManager
+EventStateManager
 :
 :
 HandleCrossProcessEvent

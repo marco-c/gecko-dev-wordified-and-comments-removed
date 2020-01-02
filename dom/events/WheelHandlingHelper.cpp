@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+EventStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h
@@ -43,13 +52,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsEventStateManager
 .
 h
 "
@@ -1747,7 +1749,7 @@ ScrollbarsForWheel
 :
 PrepareToScrollText
 (
-nsEventStateManager
+EventStateManager
 *
 aESM
 nsIFrame
@@ -2037,7 +2039,7 @@ ScrollbarsForWheel
 :
 TemporarilyActivateAllPossibleScrollTargets
 (
-nsEventStateManager
+EventStateManager
 *
 aESM
 nsIFrame
@@ -2119,7 +2121,7 @@ dir
 >
 deltaY
 aEvent
-nsEventStateManager
+EventStateManager
 :
 :
 COMPUTE_DEFAULT_ACTION_TARGET

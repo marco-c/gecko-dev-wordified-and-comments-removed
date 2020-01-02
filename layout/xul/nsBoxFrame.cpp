@@ -180,7 +180,9 @@ h
 #
 include
 "
-nsEventStateManager
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -8124,7 +8126,7 @@ IsEmpty
 )
 return
 ;
-nsEventStateManager
+EventStateManager
 *
 esm
 =

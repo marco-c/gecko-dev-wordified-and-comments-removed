@@ -20,9 +20,6 @@ class
 nsIDOMWindow
 ;
 class
-nsEventStateManager
-;
-class
 nsIFrame
 ;
 class
@@ -31,6 +28,13 @@ nsIPresShell
 class
 nsISupports
 ;
+namespace
+mozilla
+{
+class
+EventStateManager
+;
+}
 class
 inLayoutUtils
 {
@@ -77,7 +81,10 @@ aElement
 )
 ;
 static
-nsEventStateManager
+mozilla
+:
+:
+EventStateManager
 *
 GetEventStateManagerFor
 (

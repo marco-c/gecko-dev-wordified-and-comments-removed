@@ -89,6 +89,15 @@ include
 "
 mozilla
 /
+EventStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Hal
 .
 h
@@ -196,13 +205,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEventStateManager
 .
 h
 "
@@ -2981,7 +2983,7 @@ false
 LayoutDeviceIntPoint
 offset
 =
-nsEventStateManager
+EventStateManager
 :
 :
 GetChildProcessOffset
@@ -3773,7 +3775,7 @@ false
 }
 mChildProcessOffsetAtTouchStart
 =
-nsEventStateManager
+EventStateManager
 :
 :
 GetChildProcessOffset

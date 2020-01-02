@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsEventStateManager
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -97,6 +90,15 @@ mozilla
 dom
 /
 Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -269,7 +271,7 @@ keyEvent
 keyCode
 )
 {
-nsEventStateManager
+EventStateManager
 *
 esm
 =
@@ -458,7 +460,7 @@ NS_EVENT_STATE_HOVER
 )
 )
 {
-nsEventStateManager
+EventStateManager
 *
 esm
 =

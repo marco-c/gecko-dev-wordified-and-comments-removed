@@ -246,9 +246,6 @@ class
 nsIAtom
 ;
 class
-nsEventStateManager
-;
-class
 nsICSSPseudoComparator
 ;
 struct
@@ -293,6 +290,9 @@ nsDeviceContext
 namespace
 mozilla
 {
+class
+EventStateManager
+;
 class
 RestyleManager
 ;
@@ -1536,7 +1536,10 @@ return
 mDeviceContext
 ;
 }
-nsEventStateManager
+mozilla
+:
+:
+EventStateManager
 *
 EventStateManager
 (
@@ -3659,7 +3662,10 @@ mDeviceContext
 ;
 nsRefPtr
 <
-nsEventStateManager
+mozilla
+:
+:
+EventStateManager
 >
 mEventManager
 ;

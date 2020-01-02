@@ -106,7 +106,9 @@ h
 #
 include
 "
-nsEventStateManager
+mozilla
+/
+EventStateManager
 .
 h
 "
@@ -4778,7 +4780,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsEventStateManager
+EventStateManager
 *
 esm
 =

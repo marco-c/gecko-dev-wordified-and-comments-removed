@@ -84,9 +84,6 @@ Attributes
 h
 "
 class
-nsEventStateManager
-;
-class
 nsINode
 ;
 class
@@ -101,6 +98,9 @@ nsILoadContext
 namespace
 mozilla
 {
+class
+EventStateManager
+;
 namespace
 dom
 {
@@ -181,9 +181,10 @@ DataTransfer
 )
 friend
 class
+mozilla
 :
 :
-nsEventStateManager
+EventStateManager
 ;
 protected
 :

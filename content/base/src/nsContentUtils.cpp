@@ -291,6 +291,15 @@ include
 "
 mozilla
 /
+EventStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
@@ -525,13 +534,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsEventStateManager
 .
 h
 "
@@ -26414,7 +26416,7 @@ false
 }
 if
 (
-nsEventStateManager
+EventStateManager
 :
 :
 IsRemoteTarget
@@ -28312,7 +28314,7 @@ return
 sTrustedFullScreenOnly
 |
 |
-nsEventStateManager
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -28899,7 +28901,7 @@ pointerLockedDoc
 =
 do_QueryReferent
 (
-nsEventStateManager
+EventStateManager
 :
 :
 sPointerLockedDoc

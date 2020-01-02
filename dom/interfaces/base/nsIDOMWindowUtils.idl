@@ -3477,7 +3477,7 @@ for
 *
 DOM_DELTA_PIXEL
 event
-nsEventStateManager
+EventStateManager
 will
 *
 dispatch
@@ -3503,7 +3503,7 @@ for
 *
 DOM_DELTA_PIXEL
 event
-nsEventStateManager
+EventStateManager
 will
 *
 dispatch
@@ -10430,7 +10430,7 @@ handled
 *
 This
 calls
-nsEventStateManager
+EventStateManager
 :
 :
 IsHandlingUserInput
