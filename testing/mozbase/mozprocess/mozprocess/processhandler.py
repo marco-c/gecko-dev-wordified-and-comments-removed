@@ -340,6 +340,10 @@ param
 onTimeout
 :
 function
+or
+list
+of
+functions
 to
 be
 called
@@ -355,6 +359,10 @@ param
 onFinish
 :
 function
+or
+list
+of
+functions
 to
 be
 called
@@ -3407,6 +3415,19 @@ list
 processOutputLine
 )
         
+if
+callable
+(
+onTimeout
+)
+:
+            
+onTimeout
+=
+[
+onTimeout
+]
+        
 self
 .
 onTimeoutHandlers
@@ -3415,6 +3436,19 @@ list
 (
 onTimeout
 )
+        
+if
+callable
+(
+onFinish
+)
+:
+            
+onFinish
+=
+[
+onFinish
+]
         
 self
 .
