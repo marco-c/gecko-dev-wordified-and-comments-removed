@@ -56,6 +56,10 @@ SetURI
 aUri
 )
 ;
+DisallowThreadRetargeting
+(
+)
+;
 }
 RtspChannelChild
 :
