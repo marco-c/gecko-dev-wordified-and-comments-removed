@@ -130,14 +130,6 @@ if
 !
 gtk2Widget
 )
-fuzzy
--
-if
-(
-gtk2Widget
-1
-104
-)
 HTTP
 (
 .

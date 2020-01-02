@@ -450,14 +450,6 @@ transform
 ref
 .
 html
-fuzzy
--
-if
-(
-gtk2Widget
-1
-32
-)
 =
 =
 element
