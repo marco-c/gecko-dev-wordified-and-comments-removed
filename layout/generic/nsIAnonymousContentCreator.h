@@ -93,6 +93,12 @@ nsStyleContext
 >
 mStyleContext
 ;
+nsTArray
+<
+ContentInfo
+>
+mChildren
+;
 }
 ;
 virtual
