@@ -683,3 +683,13 @@ load
 large_border_image_width
 .
 html
+load
+border
+-
+image
+-
+visited
+-
+link
+.
+html

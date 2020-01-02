@@ -1899,6 +1899,13 @@ newStyleBorder
 styleBorder
 )
 ;
+newStyleBorder
+.
+TrackImage
+(
+aPresContext
+)
+;
 NS_FOR_CSS_SIDES
 (
 side
@@ -1938,6 +1945,13 @@ aBorderArea
 newStyleBorder
 aStyleContext
 aSkipSides
+)
+;
+newStyleBorder
+.
+UntrackImage
+(
+aPresContext
 )
 ;
 }
