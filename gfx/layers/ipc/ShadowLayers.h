@@ -852,11 +852,6 @@ const
 }
 #
 endif
-bool
-InWorkerThread
-(
-)
-;
 RefPtr
 <
 LayerTransactionChild
