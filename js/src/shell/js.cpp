@@ -27173,7 +27173,10 @@ JSJitInfo
 Getter
 true
 true
-true
+JSJitInfo
+:
+:
+AliasNone
 false
 0
 JSVAL_TYPE_UNKNOWN
@@ -27201,7 +27204,10 @@ JSJitInfo
 Setter
 false
 false
-false
+JSJitInfo
+:
+:
+AliasEverything
 false
 0
 JSVAL_TYPE_UNKNOWN
@@ -27229,7 +27235,10 @@ JSJitInfo
 Method
 false
 false
-false
+JSJitInfo
+:
+:
+AliasEverything
 false
 0
 JSVAL_TYPE_UNKNOWN

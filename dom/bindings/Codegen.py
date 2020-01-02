@@ -45708,9 +45708,9 @@ infoName
 opName
 opType
 infallible
-constant
+movable
                       
-pure
+aliasSet
 hasSlot
 slotIndex
 returnTypes
@@ -45721,6 +45721,24 @@ args
 "
 "
 "
+        
+aliasSet
+is
+a
+JSJitInfo
+:
+:
+AliasSet
+value
+without
+the
+"
+JSJitInfo
+:
+:
+"
+bit
+.
         
 args
 is
@@ -45828,18 +45846,11 @@ toStringBool
 infallible
 )
         
-conststr
+movablestr
 =
 toStringBool
 (
-constant
-)
-        
-purestr
-=
-toStringBool
-(
-pure
+movable
 )
         
 slotStr
@@ -46038,12 +46049,12 @@ n
 s
 /
 *
-isConstant
+isMovable
 .
-Only
+Not
 relevant
 for
-getters
+setters
 .
 *
 /
@@ -46052,11 +46063,14 @@ n
 "
                 
 "
+JSJitInfo
+:
+:
 %
 s
 /
 *
-isPure
+aliasSet
 .
 Not
 relevant
@@ -46174,8 +46188,8 @@ depth
                           
 opType
 failstr
-conststr
-purestr
+movablestr
+aliasSet
 slotStr
                           
 slotIndex
@@ -46301,18 +46315,40 @@ Pure
 "
 )
             
-assert
-(
-getterinfal
-or
-(
-not
+if
 getterconst
-and
-not
+:
+                
+aliasSet
+=
+"
+AliasNone
+"
+            
+elif
 getterpure
-)
-)
+:
+                
+aliasSet
+=
+"
+AliasDOMSets
+"
+            
+else
+:
+                
+aliasSet
+=
+"
+AliasEverything
+"
+            
+movable
+=
+getterpure
+and
+getterinfal
             
 getterinfal
 =
@@ -46410,8 +46446,8 @@ Getter
 "
                                         
 getterinfal
-getterconst
-getterpure
+movable
+aliasSet
                                         
 isInSlot
 slotIndex
@@ -46520,7 +46556,10 @@ Setter
                                              
 False
 False
-False
+"
+AliasEverything
+"
+                                             
 False
 0
                                              
@@ -46721,6 +46760,25 @@ args
 =
 None
             
+if
+args
+:
+                
+aliasSet
+=
+"
+AliasDOMSets
+"
+            
+else
+:
+                
+aliasSet
+=
+"
+AliasEverything
+"
+            
 result
 =
 self
@@ -46735,7 +46793,7 @@ Method
                                         
 methodInfal
 False
-methodPure
+aliasSet
 False
 0
                                         
