@@ -106,13 +106,6 @@ public
 :
 gfxContext
 (
-gfxASurface
-*
-surface
-)
-;
-gfxContext
-(
 mozilla
 :
 :
