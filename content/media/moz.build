@@ -310,6 +310,14 @@ PARALLEL_DIRS
 webspeech
 '
 ]
+PARALLEL_DIRS
++
+=
+[
+'
+eme
+'
+]
 TEST_DIRS
 +
 =
