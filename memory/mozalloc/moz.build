@@ -384,3 +384,12 @@ TEST_TOOL_DIRS
 tests
 '
 ]
+GENERATED_INCLUDES
++
+=
+[
+'
+/
+xpcom
+'
+]
