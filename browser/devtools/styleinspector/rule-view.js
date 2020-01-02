@@ -4956,6 +4956,12 @@ _elementStyle
 )
 {
 return
+promise
+.
+resolve
+(
+null
+)
 ;
 }
 this
@@ -4964,6 +4970,7 @@ _clearRules
 (
 )
 ;
+return
 this
 .
 _populate
