@@ -17,14 +17,14 @@ NS_CreateServicesFromCategory
 const
 char
 *
-aCategory
+category
 nsISupports
 *
-aOrigin
+origin
 const
 char
 *
-aObserverTopic
+observerTopic
 )
 ;
 #

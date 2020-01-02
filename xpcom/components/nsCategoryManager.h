@@ -137,7 +137,7 @@ aEntryName
 char
 *
 *
-aResult
+_retval
 )
 ;
 NS_METHOD
@@ -156,7 +156,7 @@ aReplace
 char
 *
 *
-aResult
+_retval
 PLArenaPool
 *
 aArena
@@ -225,7 +225,7 @@ Enumerate
 nsISimpleEnumerator
 *
 *
-aResult
+_retval
 )
 ;
 static
