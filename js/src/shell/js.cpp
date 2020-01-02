@@ -4348,11 +4348,16 @@ s
 return
 false
 ;
+JSAutoByteString
+bytes
+;
 char
 *
 policy
 =
-JS_EncodeStringToUTF8
+bytes
+.
+encodeUtf8
 (
 cx
 s

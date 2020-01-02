@@ -6724,7 +6724,7 @@ uint64_t
 (
 getReservedSlot
 (
-0
+DATA_SLOT
 )
 .
 toPrivate
