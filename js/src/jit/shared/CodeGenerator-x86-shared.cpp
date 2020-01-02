@@ -11414,9 +11414,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-JS_THREADSAFE
 MacroAssembler
 masm
 (
@@ -12193,13 +12190,6 @@ endif
 return
 code
 ;
-#
-else
-return
-nullptr
-;
-#
-endif
 }
 }
 }

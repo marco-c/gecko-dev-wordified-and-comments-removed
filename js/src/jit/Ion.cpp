@@ -1184,9 +1184,6 @@ bailoutHandler_
 return
 false
 ;
-#
-ifdef
-JS_THREADSAFE
 IonSpew
 (
 IonSpew_Codegen
@@ -1215,8 +1212,6 @@ parallelBailoutHandler_
 return
 false
 ;
-#
-endif
 IonSpew
 (
 IonSpew_Codegen
@@ -1273,9 +1268,6 @@ argumentsRectifier_
 return
 false
 ;
-#
-ifdef
-JS_THREADSAFE
 IonSpew
 (
 IonSpew_Codegen
@@ -1305,8 +1297,6 @@ parallelArgumentsRectifier_
 return
 false
 ;
-#
-endif
 IonSpew
 (
 IonSpew_Codegen
@@ -1839,9 +1829,6 @@ faultingAddress
 return
 false
 ;
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT
 (
 !
@@ -1853,8 +1840,6 @@ currentThreadOwnsInterruptLock
 )
 )
 ;
-#
-endif
 JSRuntime
 :
 :
@@ -2278,9 +2263,6 @@ return
 false
 ;
 }
-#
-ifdef
-JS_THREADSAFE
 if
 (
 !
@@ -2304,8 +2286,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
@@ -2603,9 +2583,6 @@ JSCompartment
 comp
 )
 {
-#
-ifdef
-JS_THREADSAFE
 AutoLockHelperThreadState
 lock
 ;
@@ -2688,8 +2665,6 @@ i
 ;
 }
 }
-#
-endif
 }
 void
 JitRuntime
@@ -8568,9 +8543,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-JS_THREADSAFE
 JitCompartment
 *
 ion
@@ -8851,8 +8823,6 @@ builder
 )
 ;
 }
-#
-endif
 }
 static
 const
@@ -8874,9 +8844,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-JS_THREADSAFE
 return
 cx
 -
@@ -8904,13 +8871,6 @@ CanUseExtraThreads
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 static
 void

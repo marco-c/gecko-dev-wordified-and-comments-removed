@@ -39,17 +39,12 @@ jsatom
 h
 "
 #
-ifdef
-JS_THREADSAFE
-#
 include
 "
 jslock
 .
 h
 "
-#
-endif
 #
 include
 "

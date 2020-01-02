@@ -125,9 +125,6 @@ init
 (
 )
 {
-#
-ifdef
-JS_THREADSAFE
 lock_
 =
 PR_NewLock
@@ -144,8 +141,6 @@ nullptr
 return
 false
 ;
-#
-endif
 return
 true
 ;
@@ -212,9 +207,6 @@ value
 )
 ;
 }
-#
-ifdef
-JS_THREADSAFE
 if
 (
 lock_
@@ -224,8 +216,6 @@ PR_DestroyLock
 lock_
 )
 ;
-#
-endif
 }
 void
 SPSProfiler
