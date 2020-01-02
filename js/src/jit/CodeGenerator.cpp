@@ -29919,7 +29919,7 @@ Imm32
 JSFatInlineString
 :
 :
-MAX_FAT_INLINE_LENGTH
+MAX_LENGTH_TWO_BYTE
 )
 &
 isFatInline
