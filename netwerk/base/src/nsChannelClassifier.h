@@ -93,6 +93,14 @@ bool
 result
 )
 ;
+nsresult
+SetBlockedTrackingContent
+(
+nsIChannel
+*
+channel
+)
+;
 }
 ;
 #
