@@ -88,6 +88,17 @@ util
 .
 Log
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+WebRTCJNITarget
+;
 public
 class
 VideoCaptureDeviceInfoAndroid
@@ -105,6 +116,7 @@ TAG
 WEBRTC
 "
 ;
+WebRTCJNITarget
 public
 class
 AndroidVideoCaptureDevice
@@ -168,6 +180,7 @@ AndroidVideoCaptureDevice
 >
 deviceList
 ;
+WebRTCJNITarget
 public
 static
 VideoCaptureDeviceInfoAndroid
@@ -1063,6 +1076,7 @@ newCaptureCapabilies
 }
 }
 }
+WebRTCJNITarget
 public
 int
 NumberOfDevices
@@ -1077,6 +1091,7 @@ size
 )
 ;
 }
+WebRTCJNITarget
 public
 String
 GetDeviceUniqueName
@@ -1117,6 +1132,7 @@ deviceNumber
 deviceUniqueName
 ;
 }
+WebRTCJNITarget
 public
 CaptureCapabilityAndroid
 [
@@ -1163,6 +1179,7 @@ return
 null
 ;
 }
+WebRTCJNITarget
 public
 int
 GetOrientation
@@ -1203,6 +1220,7 @@ return
 1
 ;
 }
+WebRTCJNITarget
 public
 VideoCaptureAndroid
 AllocateCamera
@@ -1475,6 +1493,7 @@ return
 null
 ;
 }
+WebRTCJNITarget
 private
 Camera
 .

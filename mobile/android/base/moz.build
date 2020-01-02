@@ -218,6 +218,13 @@ RobocopTarget
 .
 java
 '
+'
+mozglue
+/
+WebRTCJNITarget
+.
+java
+'
 ]
 mgjar
 .
