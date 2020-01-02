@@ -1338,15 +1338,6 @@ Listener
 *
 SetEventHandlerInternal
 (
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aScopeGlobal
 nsIAtom
 *
 aName
