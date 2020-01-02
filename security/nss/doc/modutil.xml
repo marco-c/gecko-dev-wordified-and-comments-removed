@@ -8754,7 +8754,6 @@ This
 line
 can
 be
-set
 added
 to
 the
@@ -8775,6 +8774,9 @@ make
 the
 change
 permanent
+for
+the
+user
 .
 <
 /

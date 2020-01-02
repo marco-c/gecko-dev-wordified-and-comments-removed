@@ -1351,6 +1351,7 @@ SECStatus
 p_RSA_PrivateKeyCheck
 )
 (
+const
 RSAPrivateKey
 *
 key
