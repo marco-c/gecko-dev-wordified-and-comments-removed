@@ -2308,6 +2308,8 @@ Stream
 )
 ;
 return
+StreamTimeToDOMTime
+(
 stream
 -
 >
@@ -2320,9 +2322,6 @@ GetCurrentTime
 (
 )
 )
-+
-ExtraCurrentTime
-(
 )
 ;
 }
