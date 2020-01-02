@@ -22,7 +22,7 @@ panelUIOverlay
 inc
 .
 css
-#
+.
 PanelUI
 -
 pageControls
@@ -124,11 +124,7 @@ rect
 #
 PanelUI
 -
-contents
-#
-zoom
--
-out
+zoomOut
 -
 btn
 {
@@ -163,11 +159,7 @@ right
 #
 PanelUI
 -
-contents
-#
-zoom
--
-in
+zoomIn
 -
 btn
 {

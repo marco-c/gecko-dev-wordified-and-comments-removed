@@ -67,12 +67,6 @@ button
 #
 zoom
 -
-reset
--
-button
-#
-zoom
--
 in
 -
 button
