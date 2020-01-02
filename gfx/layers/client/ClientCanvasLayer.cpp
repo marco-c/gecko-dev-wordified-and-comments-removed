@@ -342,8 +342,6 @@ UniquePtr
 SurfaceFactory
 >
 factory
-=
-nullptr
 ;
 if
 (

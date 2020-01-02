@@ -55,6 +55,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
