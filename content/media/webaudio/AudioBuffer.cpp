@@ -288,6 +288,14 @@ WebAudioUtils
 MaxSampleRate
 |
 |
+aNumberOfChannels
+>
+WebAudioUtils
+:
+:
+MaxChannelCount
+|
+|
 !
 aLength
 |
