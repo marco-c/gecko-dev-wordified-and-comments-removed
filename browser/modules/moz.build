@@ -171,11 +171,6 @@ TabCrashReporter
 jsm
 '
 '
-UITour
-.
-jsm
-'
-'
 webappsUI
 .
 jsm
@@ -225,6 +220,11 @@ jsm
 '
 '
 RecentWindow
+.
+jsm
+'
+'
+UITour
 .
 jsm
 '
