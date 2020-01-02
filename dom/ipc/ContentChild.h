@@ -1169,6 +1169,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvBidiKeyboardNotify
+(
+const
+bool
+&
+isLangRTL
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvNotifyVisited
 (
 const

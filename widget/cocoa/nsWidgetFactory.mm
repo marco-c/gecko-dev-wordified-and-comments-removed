@@ -770,6 +770,13 @@ kNS_BIDIKEYBOARD_CID
 false
 NULL
 nsBidiKeyboardConstructor
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1153,6 +1160,13 @@ bidikeyboard
 "
 &
 kNS_BIDIKEYBOARD_CID
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 "
