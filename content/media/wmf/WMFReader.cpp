@@ -38,6 +38,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TimeRanges
@@ -1662,7 +1671,7 @@ MFVideoFormat_NV12
 :
 MFVideoFormat_YV12
 MP4VideoTypes
-NS_ARRAY_LENGTH
+ArrayLength
 (
 MP4VideoTypes
 )
@@ -1849,7 +1858,7 @@ codecs
 *
 aNumCodecs
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 codecs
 )
@@ -1876,7 +1885,7 @@ codecs
 *
 aNumCodecs
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 codecs
 )

@@ -104,6 +104,15 @@ h
 #
 include
 "
+mozilla
+/
+ArrayUtils
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -837,7 +846,10 @@ obj
 "
 onRILMessage
 "
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 argv
 )

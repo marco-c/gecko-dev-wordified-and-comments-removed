@@ -8188,7 +8188,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gCSSSheetTypes
 )
@@ -8461,7 +8461,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gCSSSheetTypes
 )

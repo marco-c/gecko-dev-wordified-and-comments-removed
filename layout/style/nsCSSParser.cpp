@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -29077,7 +29086,7 @@ const
 size_t
 numProps
 =
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 kFlexFlowSubprops
 )
@@ -41540,7 +41549,7 @@ const
 int32_t
 numProps
 =
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 columnIDs
 )
@@ -43853,7 +43862,7 @@ NS_ASSERTION
 (
 maskEastAsian
 [
-NS_ARRAY_LENGTH
+ArrayLength
 (
 maskEastAsian
 )
@@ -43912,7 +43921,7 @@ NS_ASSERTION
 (
 maskLigatures
 [
-NS_ARRAY_LENGTH
+ArrayLength
 (
 maskLigatures
 )
@@ -44025,7 +44034,7 @@ NS_ASSERTION
 (
 maskNumeric
 [
-NS_ARRAY_LENGTH
+ArrayLength
 (
 maskNumeric
 )
@@ -45678,7 +45687,7 @@ eCSSProperty_list_style_image
 nsCSSValue
 values
 [
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 listStyleIDs
 )
@@ -51148,7 +51157,7 @@ const
 uint32_t
 numProps
 =
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 kTransitionProperties
 )
@@ -51468,7 +51477,7 @@ const
 uint32_t
 numProps
 =
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 kAnimationProperties
 )
@@ -52626,7 +52635,7 @@ eCSSKeyword_UNKNOWN
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 kPaintOrderKTable
 )

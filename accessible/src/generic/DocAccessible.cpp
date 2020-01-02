@@ -259,6 +259,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Assertions
 .
 h
@@ -359,7 +368,7 @@ const
 uint32_t
 kRelationAttrsLen
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kRelationAttrs
 )

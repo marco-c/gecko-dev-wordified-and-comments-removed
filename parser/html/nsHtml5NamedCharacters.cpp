@@ -25,14 +25,16 @@ h
 #
 include
 "
-prlog
+mozilla
+/
+ArrayUtils
 .
 h
 "
 #
 include
 "
-nsMemory
+prlog
 .
 h
 "
@@ -254,7 +256,7 @@ DUMMY_FINAL_NAME_VALUE
 ;
 PR_STATIC_ASSERT
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 ALL_NAMES
 )

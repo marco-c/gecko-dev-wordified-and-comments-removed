@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Base64
 .
 h
@@ -2761,7 +2770,7 @@ nullptr
 ;
 PR_STATIC_ASSERT
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 sSurfaceMemoryReporterAttrs
 )
@@ -2853,10 +2862,11 @@ nsISupports
 aClosure
 )
 {
+const
 size_t
 len
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sSurfaceMemoryReporterAttrs
 )

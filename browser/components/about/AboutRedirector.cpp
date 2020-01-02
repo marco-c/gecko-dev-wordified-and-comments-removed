@@ -19,6 +19,15 @@ nsIScriptSecurityManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ArrayUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -661,7 +670,7 @@ const
 int
 kRedirTotal
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kRedirMap
 )

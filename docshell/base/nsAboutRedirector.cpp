@@ -19,6 +19,15 @@ nsAboutProtocolUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ArrayUtils
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsAboutRedirector
@@ -510,7 +519,10 @@ const
 int
 kRedirTotal
 =
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 kRedirMap
 )

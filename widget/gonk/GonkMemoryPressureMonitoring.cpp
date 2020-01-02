@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FileUtils
 .
 h
@@ -500,7 +509,7 @@ pollRv
 poll
 (
 pollfds
-NS_ARRAY_LENGTH
+ArrayLength
 (
 pollfds
 )

@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 Point
@@ -26,13 +35,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsMemory
 .
 h
 "
@@ -632,7 +634,7 @@ t
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 table
 )
@@ -707,7 +709,7 @@ table
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 table
 )

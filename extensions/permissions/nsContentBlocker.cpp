@@ -76,6 +76,15 @@ nsIObjectLoadingContent
 h
 "
 #
+include
+"
+mozilla
+/
+ArrayUtils
+.
+h
+"
+#
 define
 BEHAVIOR_ACCEPT
 nsIPermissionManager
@@ -161,7 +170,7 @@ xslt
 #
 define
 NUMBER_OF_TYPES
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 kTypeString
 )

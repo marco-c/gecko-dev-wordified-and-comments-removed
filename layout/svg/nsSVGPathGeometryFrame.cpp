@@ -85,6 +85,15 @@ h
 #
 include
 "
+mozilla
+/
+ArrayUtils
+.
+h
+"
+#
+include
+"
 SVGAnimatedTransformList
 .
 h
@@ -2070,7 +2079,7 @@ GetMarkerEndFrame
 ;
 PR_STATIC_ASSERT
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 markerFrames
 )
@@ -3142,7 +3151,7 @@ GetMarkerEndFrame
 ;
 PR_STATIC_ASSERT
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 markerFrames
 )

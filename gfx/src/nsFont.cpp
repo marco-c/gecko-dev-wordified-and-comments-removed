@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h
@@ -72,6 +65,15 @@ h
 include
 "
 nscore
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ArrayUtils
 .
 h
 "
@@ -1413,7 +1415,7 @@ y
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 eastAsianDefaults
 )
@@ -1601,7 +1603,7 @@ t
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 ligDefaults
 )
@@ -1771,7 +1773,7 @@ n
 ;
 static_assert
 (
-NS_ARRAY_LENGTH
+MOZ_ARRAY_LENGTH
 (
 numericDefaults
 )
