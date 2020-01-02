@@ -2387,6 +2387,16 @@ pathString
 interface
 Path2D
 {
+void
+addPath
+(
+Path2D
+path
+optional
+SVGMatrix
+transformation
+)
+;
 }
 ;
 Path2D
