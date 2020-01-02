@@ -1177,14 +1177,6 @@ if
 a
 -
 >
-IsFinishedOnGraphThread
-(
-)
-|
-|
-a
--
->
 IsAudioParamStream
 (
 )
@@ -1947,6 +1939,11 @@ outputCount
 if
 (
 mMuted
+|
+|
+IsFinishedOnGraphThread
+(
+)
 )
 {
 for
