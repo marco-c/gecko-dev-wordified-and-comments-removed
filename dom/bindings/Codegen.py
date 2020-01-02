@@ -67738,7 +67738,7 @@ descriptor
 nativeType
 )
 class
-CGDOMJSProxyHandler_getOwnPropertyDescriptor
+CGDOMJSProxyHandler_getOwnPropDescriptor
 (
 ClassMethod
 )
@@ -67802,6 +67802,16 @@ id
 Argument
 (
 '
+bool
+'
+'
+ignoreNamedProps
+'
+)
+                
+Argument
+(
+'
 JS
 :
 :
@@ -67822,7 +67832,7 @@ __init__
 (
 self
 "
-getOwnPropertyDescriptor
+getOwnPropDescriptor
 "
 "
 bool
@@ -68351,6 +68361,17 @@ s
 )
 "
 %
+condition
+            
+condition
+=
+"
+!
+ignoreNamedProps
+&
+&
+"
++
 condition
             
 if
@@ -73111,7 +73132,7 @@ supportsNamedProperties
 methods
 =
 [
-CGDOMJSProxyHandler_getOwnPropertyDescriptor
+CGDOMJSProxyHandler_getOwnPropDescriptor
 (
 descriptor
 )

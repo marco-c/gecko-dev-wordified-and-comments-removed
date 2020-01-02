@@ -236,7 +236,7 @@ bool
 WindowNamedPropertiesHandler
 :
 :
-getOwnPropertyDescriptor
+getOwnPropDescriptor
 (
 JSContext
 *
@@ -258,6 +258,7 @@ Handle
 jsid
 >
 aId
+bool
 JS
 :
 :
