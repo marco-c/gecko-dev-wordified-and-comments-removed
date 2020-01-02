@@ -234,7 +234,7 @@ spsProfiler
 (
 )
 &
-lastPC_
+lastNotInlinedPC_
 )
 osrEntryOffset_
 (
