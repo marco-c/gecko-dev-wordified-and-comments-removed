@@ -14364,7 +14364,7 @@ None
 }
 )
         
-elif
+if
 (
 descriptor
 .
@@ -14374,7 +14374,7 @@ isJSImplemented
 (
 )
 and
-              
+            
 descriptor
 .
 interface
@@ -14385,6 +14385,10 @@ hasInterfaceObject
 )
 :
             
+if
+static
+:
+                
 self
 .
 chrome
@@ -14392,7 +14396,7 @@ chrome
 append
 (
 {
-                
+                    
 "
 name
 "
@@ -14400,7 +14404,7 @@ name
 '
 _create
 '
-                
+                    
 "
 nativeName
 "
@@ -14418,19 +14422,19 @@ descriptor
 .
 name
 )
-                
+                    
 "
 methodInfo
 "
 :
 False
-                
+                    
 "
 length
 "
 :
 2
-                
+                    
 "
 flags
 "
@@ -14438,7 +14442,7 @@ flags
 "
 0
 "
-                
+                    
 "
 condition
 "
@@ -14448,7 +14452,7 @@ MemberCondition
 None
 None
 )
-            
+                
 }
 )
         
