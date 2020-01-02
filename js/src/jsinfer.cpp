@@ -7955,9 +7955,7 @@ false
 ;
 }
 return
-count
->
-0
+true
 ;
 }
 bool
