@@ -9124,7 +9124,11 @@ Point
 x
 y
 )
+Size
+(
 r
+r
+)
 startAngle
 endAngle
 anticlockwise
