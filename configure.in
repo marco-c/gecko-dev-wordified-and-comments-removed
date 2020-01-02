@@ -61965,6 +61965,13 @@ n
 "
 JS_GC_ZEAL
 "
+-
+o
+-
+n
+"
+MOZ_DEBUG
+"
 ;
 then
 AC_DEFINE
