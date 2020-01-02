@@ -2201,6 +2201,9 @@ viewSourceOverlay
 .
 xul
 )
+#
+ifndef
+XP_MACOSX
 *
 content
 /
@@ -2230,6 +2233,8 @@ webrtcIndicator
 .
 js
 )
+#
+endif
 #
 ifdef
 XP_WIN
