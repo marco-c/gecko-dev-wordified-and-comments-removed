@@ -153,10 +153,6 @@ sPNGDecoderAccountingLog
 endif
 #
 define
-MOZ_PNG_MAX_DIMENSION
-1000000L
-#
-define
 WIDTH_OFFSET
 16
 #
