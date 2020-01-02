@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsIScriptGlobalObjectOwner
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h
@@ -405,8 +398,6 @@ nsIDocCharset
 public
 nsIContentViewerContainer
 public
-nsIScriptGlobalObjectOwner
-public
 nsIRefreshURI
 public
 nsIWebProgressListener
@@ -585,13 +576,6 @@ ConvertDocShellLoadInfoToLoadType
 (
 nsDocShellInfoLoadType
 aDocShellLoadType
-)
-;
-virtual
-nsIScriptGlobalObject
-*
-GetScriptGlobalObject
-(
 )
 ;
 NS_IMETHOD
@@ -1972,9 +1956,6 @@ mUseGlobalHistory
 ;
 bool
 mInPrivateBrowsing
-;
-bool
-mDeviceSizeIsPageSize
 ;
 bool
 mFiredUnloadEvent

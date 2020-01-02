@@ -226,11 +226,6 @@ nsIScriptGlobalObject
 h
 '
 '
-nsIScriptGlobalObjectOwner
-.
-h
-'
-'
 nsIScriptNameSpaceManager
 .
 h
