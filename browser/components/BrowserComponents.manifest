@@ -1196,6 +1196,9 @@ e4d3012f721a
 nsBrowserGlue
 .
 js
+#
+ifndef
+MOZ_MULET
 contract
 mozilla
 .
@@ -1219,3 +1222,5 @@ bcd1
 -
 e4d3012f721a
 }
+#
+endif
