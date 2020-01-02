@@ -74,7 +74,7 @@ template
 <
 typename
 >
-class
+struct
 Nullable
 ;
 class
