@@ -3589,7 +3589,7 @@ browser
 /
 content
 /
-WebAppRT
+WebappRT
 .
 js
 "
@@ -3598,13 +3598,13 @@ sandbox
 ;
 window
 .
-WebAppRT
+WebappRT
 =
 sandbox
 .
-WebAppRT
+WebappRT
 ;
-WebAppRT
+WebappRT
 .
 init
 (
@@ -40232,7 +40232,7 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
 Uninstall
 "
@@ -40354,9 +40354,9 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
-PreInstall
+Preinstall
 "
 name
 :
@@ -40566,9 +40566,9 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
-PostInstall
+Postinstall
 "
 name
 :
@@ -41022,7 +41022,7 @@ sendMessageToJava
 type
 :
 "
-WebApps
+Webapps
 :
 Open
 "
