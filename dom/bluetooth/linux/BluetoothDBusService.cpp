@@ -2646,7 +2646,7 @@ char
 *
 property
 =
-NULL
+nullptr
 ;
 uint32_t
 array_type
@@ -4427,7 +4427,7 @@ dbus_connection_send
 (
 conn
 reply
-NULL
+nullptr
 )
 ;
 dbus_message_unref
@@ -4464,7 +4464,7 @@ if
 dbus_message_get_args
 (
 msg
-NULL
+nullptr
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -4669,7 +4669,7 @@ dbus_connection_send
 (
 conn
 reply
-NULL
+nullptr
 )
 ;
 dbus_message_unref
@@ -4703,7 +4703,7 @@ if
 dbus_message_get_args
 (
 msg
-NULL
+nullptr
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -4816,7 +4816,7 @@ if
 dbus_message_get_args
 (
 msg
-NULL
+nullptr
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -4911,7 +4911,7 @@ if
 dbus_message_get_args
 (
 msg
-NULL
+nullptr
 DBUS_TYPE_OBJECT_PATH
 &
 objectPath
@@ -5041,7 +5041,7 @@ dbus_connection_send
 (
 conn
 reply
-NULL
+nullptr
 )
 ;
 dbus_message_unref
@@ -5292,7 +5292,7 @@ GetConnection
 )
 KEY_REMOTE_AGENT
 mAgentVTable
-NULL
+nullptr
 )
 )
 {
@@ -5363,12 +5363,12 @@ DBusObjectPathVTable
 sAgentVTable
 =
 {
-NULL
+nullptr
 AgentEventFilter
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 MOZ_ASSERT
@@ -5622,7 +5622,7 @@ GetConnection
 )
 KEY_LOCAL_AGENT
 aAgentVTable
-NULL
+nullptr
 )
 )
 {
@@ -6101,7 +6101,7 @@ aMsg
 )
 =
 =
-NULL
+nullptr
 )
 {
 BT_WARNING
@@ -7706,8 +7706,8 @@ GetConnection
 (
 )
 EventFilter
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
