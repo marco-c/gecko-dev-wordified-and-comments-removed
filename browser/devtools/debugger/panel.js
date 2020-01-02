@@ -379,7 +379,7 @@ DevToolsUtils
 reportException
 (
 "
-DebuggerPane
+DebuggerPanel
 .
 prototype
 .
