@@ -810,6 +810,14 @@ aShmem
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+IPCOpen
+(
+)
+const
+MOZ_OVERRIDE
+;
 PLayerChild
 *
 ConstructShadowFor

@@ -347,6 +347,17 @@ return
 nullptr
 ;
 }
+virtual
+bool
+IPCOpen
+(
+)
+const
+{
+return
+true
+;
+}
 static
 bool
 IsShmem
