@@ -2939,10 +2939,7 @@ dns
 AsyncResolve
 (
 aHostName
-nsIDNSService
-:
-:
-RESOLVE_PRIORITY_MEDIUM
+0
 helper
 NS_GetCurrentThread
 (
