@@ -20377,7 +20377,7 @@ if
 !
 mImageElementSurface
 .
-mSurface
+mSourceSurface
 )
 return
 false
@@ -20675,7 +20675,7 @@ NS_ASSERTION
 (
 mImageElementSurface
 .
-mSurface
+mSourceSurface
 "
 Surface
 should
@@ -21472,7 +21472,7 @@ NS_ASSERTION
 (
 mImageElementSurface
 .
-mSurface
+mSourceSurface
 "
 Surface
 should
@@ -21493,7 +21493,7 @@ gfxSurfaceDrawable
 (
 mImageElementSurface
 .
-mSurface
+mSourceSurface
 mImageElementSurface
 .
 mSize
