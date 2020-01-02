@@ -963,8 +963,7 @@ TextureHost
 *
 aTexture
 )
-{
-}
+;
 virtual
 void
 RemoveTextureHost
