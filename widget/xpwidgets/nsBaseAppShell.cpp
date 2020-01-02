@@ -83,7 +83,7 @@ mFavorPerf
 )
 mNativeEventPending
 (
-0
+false
 )
 mStarvationDelay
 (
@@ -224,7 +224,7 @@ mNativeEventPending
 .
 exchange
 (
-0
+false
 )
 )
 return
@@ -624,7 +624,7 @@ mNativeEventPending
 .
 exchange
 (
-1
+true
 )
 )
 return
