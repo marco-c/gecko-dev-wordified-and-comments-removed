@@ -9381,7 +9381,7 @@ aEvent
 mClass
 !
 =
-NS_DRAG_EVENT
+eDragEventClass
 &
 &
 aEvent

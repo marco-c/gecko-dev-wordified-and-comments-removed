@@ -670,7 +670,7 @@ aEventType
 )
 {
 case
-NS_DRAG_EVENT
+eDragEventClass
 :
 case
 eMouseEventClass

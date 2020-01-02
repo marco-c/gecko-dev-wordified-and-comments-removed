@@ -11656,7 +11656,7 @@ aEvent
 mClass
 =
 =
-NS_DRAG_EVENT
+eDragEventClass
 "
 wrong
 event
@@ -12475,7 +12475,7 @@ aEvent
 mClass
 =
 =
-NS_DRAG_EVENT
+eDragEventClass
 "
 wrong
 event

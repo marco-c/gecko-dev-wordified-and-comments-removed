@@ -13000,7 +13000,7 @@ aEvent
 mClass
 =
 =
-NS_DRAG_EVENT
+eDragEventClass
 "
 Expected
 a
