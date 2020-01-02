@@ -2133,6 +2133,9 @@ emit
 gutterClick
 "
 line
+ev
+.
+button
 )
 ;
 }

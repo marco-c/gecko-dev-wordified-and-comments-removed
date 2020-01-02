@@ -895,6 +895,7 @@ Sources
 .
 _onCmdAddBreakpoint
 (
+event
 )
 "
 /
@@ -915,6 +916,7 @@ Sources
 .
 _onCmdAddConditionalBreakpoint
 (
+event
 )
 "
 /
