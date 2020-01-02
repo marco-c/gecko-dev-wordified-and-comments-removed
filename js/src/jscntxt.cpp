@@ -5368,15 +5368,6 @@ innermostGenerator_
 nullptr
 )
 {
-#
-ifdef
-DEBUG
-stackIterAssertionEnabled
-=
-true
-;
-#
-endif
 JS_ASSERT
 (
 static_cast

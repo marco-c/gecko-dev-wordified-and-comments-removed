@@ -2071,14 +2071,6 @@ propagatingForcedReturn_
 false
 ;
 }
-#
-ifdef
-DEBUG
-bool
-stackIterAssertionEnabled
-;
-#
-endif
 bool
 runningWithTrustedPrincipals
 (
