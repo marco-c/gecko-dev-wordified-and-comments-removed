@@ -1763,7 +1763,7 @@ type
 "
 HomePanels
 :
-Remove
+Uninstall
 "
 panel
 :

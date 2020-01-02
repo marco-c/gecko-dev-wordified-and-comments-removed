@@ -242,12 +242,12 @@ private
 static
 final
 String
-EVENT_HOMEPANELS_REMOVE
+EVENT_HOMEPANELS_UNINSTALL
 =
 "
 HomePanels
 :
-Remove
+Uninstall
 "
 ;
 private
@@ -276,7 +276,7 @@ private
 enum
 ChangeType
 {
-REMOVE
+UNINSTALL
 INSTALL
 REFRESH
 }
@@ -404,7 +404,7 @@ getEventDispatcher
 .
 registerEventListener
 (
-EVENT_HOMEPANELS_REMOVE
+EVENT_HOMEPANELS_UNINSTALL
 this
 )
 ;
@@ -498,7 +498,7 @@ event
 .
 equals
 (
-EVENT_HOMEPANELS_REMOVE
+EVENT_HOMEPANELS_UNINSTALL
 )
 )
 {
@@ -507,10 +507,10 @@ Log
 d
 (
 LOGTAG
-EVENT_HOMEPANELS_REMOVE
+EVENT_HOMEPANELS_UNINSTALL
 )
 ;
-handlePanelRemove
+handlePanelUninstall
 (
 panelConfig
 )
@@ -612,7 +612,7 @@ scheduleInvalidation
 }
 private
 void
-handlePanelRemove
+handlePanelUninstall
 (
 PanelConfig
 panelConfig
@@ -627,7 +627,7 @@ ConfigChange
 (
 ChangeType
 .
-REMOVE
+UNINSTALL
 panelConfig
 )
 )
@@ -638,7 +638,7 @@ d
 (
 LOGTAG
 "
-handlePanelRemove
+handlePanelUninstall
 :
 "
 +
@@ -872,7 +872,7 @@ type
 )
 {
 case
-REMOVE
+UNINSTALL
 :
 if
 (
