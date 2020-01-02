@@ -186,11 +186,6 @@ FilePickerParent
 h
 '
 '
-nsIContentChild
-.
-h
-'
-'
 nsIContentParent
 .
 h
@@ -289,11 +284,6 @@ cpp
 '
 '
 FilePickerParent
-.
-cpp
-'
-'
-nsIContentChild
 .
 cpp
 '
