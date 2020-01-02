@@ -522,14 +522,6 @@ lir
 )
 ;
 bool
-visitFloatToString
-(
-LFloatToString
-*
-lir
-)
-;
-bool
 visitPrimitiveToString
 (
 LPrimitiveToString
