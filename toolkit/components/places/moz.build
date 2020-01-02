@@ -352,6 +352,11 @@ PlacesDBUtils
 .
 jsm
 '
+'
+PlacesTransactions
+.
+jsm
+'
 ]
 EXTRA_PP_JS_MODULES
 +
