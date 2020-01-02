@@ -1365,7 +1365,7 @@ conditions
 [
 [
 '
-moz_omx_encoder
+moz_webrtc_omx
 =
 =
 1
@@ -1528,7 +1528,7 @@ defines
 :
 [
 '
-MOZ_OMX_ENCODER
+MOZ_WEBRTC_OMX
 '
 ]
 }

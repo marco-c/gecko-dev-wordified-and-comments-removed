@@ -2225,6 +2225,12 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
+#
+if
+ANDROID_VERSION
+>
+=
+18
 nsresult
 OMXVideoEncoder
 :
@@ -2289,6 +2295,8 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
 nsresult
 OMXAudioEncoder
 :

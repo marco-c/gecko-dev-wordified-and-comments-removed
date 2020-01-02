@@ -539,6 +539,12 @@ aInputFlags
 0
 )
 ;
+#
+if
+ANDROID_VERSION
+>
+=
+18
 nsresult
 SetBitrate
 (
@@ -546,6 +552,8 @@ int32_t
 aKbps
 )
 ;
+#
+endif
 nsresult
 GetCodecConfig
 (
