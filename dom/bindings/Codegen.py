@@ -83810,17 +83810,6 @@ webIDLFile
 webIDLFile
 )
         
-bindingHeaders
-[
-"
-nsCxPusher
-.
-h
-"
-]
-=
-dictionaries
-        
 hasNonEmptyDictionaries
 =
 any

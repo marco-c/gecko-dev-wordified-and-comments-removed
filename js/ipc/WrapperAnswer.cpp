@@ -55,13 +55,6 @@ jsfriendapi
 .
 h
 "
-#
-include
-"
-nsCxPusher
-.
-h
-"
 using
 namespace
 JS

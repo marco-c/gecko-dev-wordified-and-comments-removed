@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsCxPusher
-.
-h
-"
-#
-include
-"
 nsNPAPIPlugin
 .
 h
