@@ -490,6 +490,10 @@ OPEN_WRITE_ONLY
 )
 )
 {
+mBuffer
+=
+nullptr
+;
 return
 ;
 }
