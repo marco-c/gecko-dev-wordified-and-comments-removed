@@ -3870,11 +3870,6 @@ nullptr
 ;
 }
 }
-NS_IMPL_ISUPPORTS
-(
-nsRefreshDriver
-nsISupports
-)
 void
 nsRefreshDriver
 :

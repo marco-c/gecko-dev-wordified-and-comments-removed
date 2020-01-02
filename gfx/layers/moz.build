@@ -1082,6 +1082,11 @@ RenderTrace
 h
 '
 '
+TransactionIdAllocator
+.
+h
+'
+'
 YCbCrImageDataSerializer
 .
 h
