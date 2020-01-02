@@ -68,11 +68,6 @@ _run_mach
 self
 args
 provider_file
-=
-None
-entry_point
-=
-None
 context_handler
 =
 None
@@ -116,10 +111,6 @@ populate_context_handler
 =
 context_handler
         
-if
-provider_file
-:
-            
 m
 .
 load_commands_from_file
@@ -135,17 +126,6 @@ self
 provider_dir
 provider_file
 )
-)
-        
-if
-entry_point
-:
-            
-m
-.
-load_commands_from_entry_point
-(
-entry_point
 )
         
 stdout
