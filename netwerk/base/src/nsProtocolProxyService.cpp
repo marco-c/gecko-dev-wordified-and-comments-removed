@@ -4266,6 +4266,17 @@ if
 pi
 &
 &
+(
+pi
+-
+>
+mType
+=
+=
+kProxyType_HTTPS
+)
+&
+&
 !
 mProxyOverTLS
 )
