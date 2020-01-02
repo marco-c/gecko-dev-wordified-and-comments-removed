@@ -11337,6 +11337,9 @@ true
 else
 if
 (
+callerIsContentJS
+&
+&
 mType
 =
 =
