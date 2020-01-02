@@ -300,6 +300,13 @@ using
 namespace
 mozilla
 ;
+typedef
+nsCSSProps
+:
+:
+KTableValue
+KTableValue
+;
 const
 uint32_t
 nsCSSProps
@@ -2300,7 +2307,7 @@ nsCSSValue
 &
 aValue
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -2454,7 +2461,7 @@ nsCSSValue
 &
 aValue
 const
-int32_t
+KTableValue
 aTable
 [
 ]
@@ -2831,7 +2838,7 @@ nsCSSValue
 &
 aValue
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -2846,7 +2853,7 @@ aValue
 int32_t
 aVariantMask
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -2861,7 +2868,7 @@ aValue
 int32_t
 aVariantMask
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -2876,7 +2883,7 @@ aValue
 int32_t
 aVariantMask
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -24803,7 +24810,7 @@ nsCSSValue
 &
 aValue
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -25510,7 +25517,7 @@ aValue
 int32_t
 aVariantMask
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -25685,7 +25692,7 @@ aValue
 int32_t
 aVariantMask
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -25818,7 +25825,7 @@ aValue
 int32_t
 aVariantMask
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -34147,7 +34154,7 @@ return
 false
 ;
 const
-int32_t
+KTableValue
 *
 kwtable
 =
@@ -41730,7 +41737,7 @@ ParseContent
 {
 static
 const
-int32_t
+KTableValue
 kContentListKWs
 [
 ]
@@ -41751,7 +41758,7 @@ eCSSKeyword_UNKNOWN
 ;
 static
 const
-int32_t
+KTableValue
 kContentSolitaryKWs
 [
 ]
@@ -43650,7 +43657,7 @@ nsCSSValue
 &
 aValue
 const
-int32_t
+KTableValue
 aKeywordTable
 [
 ]
@@ -46803,7 +46810,7 @@ bitmasks
 ;
 static
 const
-int32_t
+KTableValue
 kTextDecorationKTable
 [
 ]
@@ -47028,7 +47035,7 @@ nsCSSValue
 &
 aValue
 const
-int32_t
+KTableValue
 aTable
 [
 ]
@@ -52614,7 +52621,7 @@ constants
 ;
 static
 const
-int32_t
+KTableValue
 kPaintOrderKTable
 [
 ]

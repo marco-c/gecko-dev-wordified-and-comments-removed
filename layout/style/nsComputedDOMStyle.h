@@ -229,6 +229,13 @@ nsDOMCSSDeclaration
 {
 public
 :
+typedef
+nsCSSProps
+:
+:
+KTableValue
+KTableValue
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -543,7 +550,7 @@ aAlign
 bool
 aAlignTrue
 const
-int32_t
+KTableValue
 aTable
 [
 ]
@@ -915,7 +922,7 @@ nsStyleBackground
 *
 aCount
 const
-int32_t
+KTableValue
 aTable
 [
 ]
@@ -3773,7 +3780,7 @@ aPercentageBaseGetter
 =
 nullptr
 const
-int32_t
+KTableValue
 aTable
 [
 ]

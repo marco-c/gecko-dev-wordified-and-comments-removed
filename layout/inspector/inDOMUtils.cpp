@@ -2340,7 +2340,10 @@ return
 ;
 }
 const
-int32_t
+nsCSSProps
+:
+:
+KTableValue
 *
 keywordTable
 =
