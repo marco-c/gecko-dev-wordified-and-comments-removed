@@ -774,6 +774,13 @@ cpp
 '
 builtin
 /
+TypedObjectSimple
+.
+cpp
+'
+'
+builtin
+/
 TypeRepresentation
 .
 cpp
