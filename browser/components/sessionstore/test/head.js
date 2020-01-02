@@ -989,7 +989,7 @@ listener
 ;
 }
 let
-timeout
+timeoutID
 =
 setTimeout
 (
@@ -1024,7 +1024,7 @@ removeListener
 ;
 clearTimeout
 (
-timeout
+timeoutID
 )
 ;
 deferred
@@ -1047,7 +1047,7 @@ removeListener
 ;
 clearTimeout
 (
-timeout
+timeoutID
 )
 ;
 }
