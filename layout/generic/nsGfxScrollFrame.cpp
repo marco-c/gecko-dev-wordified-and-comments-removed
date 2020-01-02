@@ -6729,7 +6729,10 @@ nullptr
 )
 mOriginOfLastScroll
 (
-nullptr
+nsGkAtoms
+:
+:
+other
 )
 mScrollGeneration
 (
