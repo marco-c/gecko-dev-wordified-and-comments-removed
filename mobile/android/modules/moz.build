@@ -147,4 +147,9 @@ SharedPreferences
 .
 jsm
 '
+'
+SimpleServiceDiscovery
+.
+jsm
+'
 ]
