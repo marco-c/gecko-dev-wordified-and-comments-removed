@@ -103,6 +103,14 @@ LoadResource
 ;
 private
 :
+enum
+ErrorCodes
+{
+BadSignature
+=
+0
+}
+;
 static
 NS_METHOD
 ParseChunk
