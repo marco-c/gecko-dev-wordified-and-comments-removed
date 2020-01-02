@@ -1540,7 +1540,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_SELECTION_EVENT
+eSelectionEventClass
 )
 mSeqno
 (

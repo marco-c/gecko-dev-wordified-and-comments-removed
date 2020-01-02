@@ -1320,7 +1320,7 @@ mSeqno
 break
 ;
 case
-NS_SELECTION_EVENT
+eSelectionEventClass
 :
 seqno
 =

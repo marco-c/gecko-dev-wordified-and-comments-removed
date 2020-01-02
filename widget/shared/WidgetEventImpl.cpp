@@ -197,7 +197,7 @@ return
 mClass
 =
 =
-NS_SELECTION_EVENT
+eSelectionEventClass
 ;
 }
 bool
@@ -772,7 +772,7 @@ case
 eQueryContentEventClass
 :
 case
-NS_SELECTION_EVENT
+eSelectionEventClass
 :
 case
 NS_CONTENT_COMMAND_EVENT
