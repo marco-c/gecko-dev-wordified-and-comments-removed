@@ -251,7 +251,7 @@ Init
 nsIContent
 *
 aContent
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
