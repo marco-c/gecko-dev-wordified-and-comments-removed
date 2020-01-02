@@ -319,6 +319,15 @@ ins
 ;
 virtual
 bool
+visitSqrtF
+(
+LSqrtF
+*
+ins
+)
+;
+virtual
+bool
 visitAddI
 (
 LAddI

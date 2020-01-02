@@ -483,6 +483,11 @@ SqrtD
 \
 _
 (
+SqrtF
+)
+\
+_
+(
 Atan2D
 )
 \
