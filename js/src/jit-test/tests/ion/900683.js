@@ -104,8 +104,6 @@ for
 (
 var
 i
-=
-0
 of
 '
 y
@@ -145,8 +143,6 @@ for
 (
 var
 next
-=
-0
 of
 ignoreComments
 )

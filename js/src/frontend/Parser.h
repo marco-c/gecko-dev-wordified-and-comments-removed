@@ -1889,8 +1889,8 @@ bool
 forDecl
 bool
 forEach
-bool
-forOf
+ParseNodeKind
+headKind
 )
 ;
 bool

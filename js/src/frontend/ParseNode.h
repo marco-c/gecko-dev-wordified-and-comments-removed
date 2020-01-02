@@ -529,6 +529,11 @@ FORIN
 \
 F
 (
+FOROF
+)
+\
+F
+(
 FORHEAD
 )
 \
