@@ -5800,7 +5800,7 @@ const
 size_t
 TypedArrayLengthSlot
 =
-4
+1
 ;
 }
 #
