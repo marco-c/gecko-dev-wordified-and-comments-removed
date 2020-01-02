@@ -1962,11 +1962,6 @@ try
 let
 value
 =
-"
-"
-;
-value
-=
 gfxInfo
 [
 field
@@ -1977,9 +1972,11 @@ if
 value
 !
 =
+=
 "
 "
 )
+{
 ret
 [
 field
@@ -1987,6 +1984,7 @@ field
 =
 value
 ;
+}
 }
 catch
 (
