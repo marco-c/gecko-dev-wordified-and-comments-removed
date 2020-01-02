@@ -2427,6 +2427,17 @@ usage
 =
 >
 {
+if
+(
+usage
+=
+=
+null
+)
+{
+return
+;
+}
 let
 href
 =
