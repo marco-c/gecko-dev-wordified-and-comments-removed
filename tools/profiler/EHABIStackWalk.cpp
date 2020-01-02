@@ -2268,7 +2268,7 @@ aPC
 mEndPC
 )
 return
-NULL
+nullptr
 ;
 std
 :
@@ -2338,7 +2338,7 @@ compute
 )
 )
 return
-NULL
+nullptr
 ;
 while
 (

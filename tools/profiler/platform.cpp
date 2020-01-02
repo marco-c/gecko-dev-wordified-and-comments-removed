@@ -911,7 +911,7 @@ MOZ_PROFILER_NEW
 )
 !
 =
-NULL
+nullptr
 ;
 bool
 elfhackd
@@ -1252,7 +1252,7 @@ MOZ_PROFILER_VERBOSE
 )
 !
 =
-NULL
+nullptr
 )
 status
 =
@@ -1467,7 +1467,7 @@ char
 *
 *
 )
-NULL
+nullptr
 10
 )
 ;
@@ -1537,7 +1537,7 @@ char
 *
 *
 )
-NULL
+nullptr
 10
 )
 ;
@@ -1600,7 +1600,7 @@ char
 *
 *
 )
-NULL
+nullptr
 10
 )
 ;
@@ -2763,7 +2763,7 @@ const
 char
 *
 )
-NULL
+nullptr
 0
 )
 ;
@@ -2967,7 +2967,7 @@ t
 )
 {
 return
-NULL
+nullptr
 ;
 }
 std
@@ -3031,7 +3031,7 @@ t
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3130,7 +3130,7 @@ power
 "
 #
 endif
-NULL
+nullptr
 }
 ;
 return
@@ -3167,7 +3167,7 @@ stack_key_initialized
 )
 profiler_init
 (
-NULL
+nullptr
 )
 ;
 if
@@ -3550,7 +3550,7 @@ stack_key_initialized
 )
 profiler_init
 (
-NULL
+nullptr
 )
 ;
 TableTicker
@@ -3616,7 +3616,7 @@ tlsTicker
 .
 set
 (
-NULL
+nullptr
 )
 ;
 if
@@ -3639,7 +3639,7 @@ ASSERT
 stack
 !
 =
-NULL
+nullptr
 )
 ;
 stack

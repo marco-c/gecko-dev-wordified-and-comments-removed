@@ -2046,7 +2046,7 @@ lineno
 =
 JS_PCToLineNumber
 (
-NULL
+nullptr
 entry
 .
 script
@@ -2064,7 +2064,7 @@ lineno
 =
 JS_PCToLineNumber
 (
-NULL
+nullptr
 entry
 .
 script
@@ -3613,7 +3613,7 @@ stack_key_initialized
 )
 profiler_init
 (
-NULL
+nullptr
 )
 ;
 SyncProfile
@@ -3650,7 +3650,7 @@ GetPseudoStack
 )
 *
 syncProfile
-NULL
+nullptr
 )
 ;
 syncProfile

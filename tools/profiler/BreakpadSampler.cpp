@@ -553,7 +553,7 @@ lineno
 =
 JS_PCToLineNumber
 (
-NULL
+nullptr
 entry
 .
 script
@@ -571,7 +571,7 @@ lineno
 =
 JS_PCToLineNumber
 (
-NULL
+nullptr
 entry
 .
 script
@@ -1449,7 +1449,7 @@ void
 *
 ucV
 =
-NULL
+nullptr
 ;
 #
 else
@@ -1477,7 +1477,7 @@ releaseFunction
 &
 sampledThreadProfile
 utb
-NULL
+nullptr
 )
 ;
 }

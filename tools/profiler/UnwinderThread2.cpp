@@ -299,7 +299,7 @@ uwt__acquire_empty_buffer
 )
 {
 return
-NULL
+nullptr
 ;
 }
 void
@@ -488,7 +488,7 @@ pthread_create
 (
 &
 unwind_thr
-NULL
+nullptr
 unwind_thr_fn
 (
 void
@@ -534,7 +534,7 @@ r
 pthread_join
 (
 unwind_thr
-NULL
+nullptr
 )
 ;
 MOZ_ALWAYS_TRUE
@@ -1007,7 +1007,7 @@ UnwinderThreadBuffer
 *
 g_buffers
 =
-NULL
+nullptr
 ;
 static
 uint64_t
@@ -1028,7 +1028,7 @@ StackLimit
 *
 g_stackLimits
 =
-NULL
+nullptr
 ;
 static
 size_t
@@ -1464,7 +1464,7 @@ nanosleep
 (
 &
 req
-NULL
+nullptr
 )
 ;
 }
@@ -1543,7 +1543,7 @@ if
 stackTop
 =
 =
-NULL
+nullptr
 )
 {
 n_used
@@ -2211,7 +2211,7 @@ buff
 >
 aProfile
 =
-NULL
+nullptr
 ;
 buff
 -
@@ -2435,7 +2435,7 @@ g_stats_thrUnregd
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -2470,7 +2470,7 @@ if
 g_buffers
 =
 =
-NULL
+nullptr
 )
 {
 spinLock_release
@@ -2486,7 +2486,7 @@ g_stats_noBuffAvail
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 for
@@ -2569,7 +2569,7 @@ buffers
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UnwinderThreadBuffer
@@ -2667,7 +2667,7 @@ haveNativeInfo
 ucV
 !
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3387,7 +3387,7 @@ v
 :
 mmap
 (
-NULL
+nullptr
 sizeof
 (
 ProfEntsPage
@@ -3413,7 +3413,7 @@ v
 :
 mmap
 (
-NULL
+nullptr
 sizeof
 (
 ProfEntsPage
@@ -4220,7 +4220,7 @@ PCandSP
 *
 pairs
 =
-NULL
+nullptr
 ;
 unsigned
 int
@@ -4623,7 +4623,7 @@ PCandSP
 *
 pairs
 =
-NULL
+nullptr
 ;
 unsigned
 int
@@ -5554,7 +5554,7 @@ PCandSP
 *
 pairs
 =
-NULL
+nullptr
 ;
 unsigned
 int
@@ -5699,7 +5699,7 @@ if
 g_buffers
 =
 =
-NULL
+nullptr
 )
 {
 spinLock_release
@@ -5800,7 +5800,7 @@ if
 g_buffers
 =
 =
-NULL
+nullptr
 )
 {
 g_buffers
@@ -6282,7 +6282,7 @@ true
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -6568,7 +6568,7 @@ MemoryRegion
 *
 foo
 =
-NULL
+nullptr
 ;
 using
 std
@@ -7041,7 +7041,7 @@ MOZ_CRASH
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 friend
@@ -7814,7 +7814,7 @@ max_addr_
 )
 {
 return
-NULL
+nullptr
 ;
 }
 long
@@ -7844,7 +7844,7 @@ hi
 )
 {
 return
-NULL
+nullptr
 ;
 }
 long
@@ -7959,10 +7959,10 @@ MOZ_CRASH
 )
 ;
 return
-NULL
+nullptr
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -7984,7 +7984,7 @@ MOZ_CRASH
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -8006,7 +8006,7 @@ MOZ_CRASH
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 const
@@ -8022,7 +8022,7 @@ MOZ_CRASH
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -8031,7 +8031,7 @@ MyCodeModules
 *
 sModules
 =
-NULL
+nullptr
 ;
 google_breakpad
 :
@@ -8040,7 +8040,7 @@ LocalDebugInfoSymbolizer
 *
 sSymbolizer
 =
-NULL
+nullptr
 ;
 static
 void
@@ -8058,7 +8058,7 @@ sSymbolizer
 ;
 sSymbolizer
 =
-NULL
+nullptr
 ;
 }
 if
@@ -8071,7 +8071,7 @@ sModules
 ;
 sModules
 =
-NULL
+nullptr
 ;
 }
 g_stackLimitsUsed
@@ -8089,7 +8089,7 @@ g_buffers
 ;
 g_buffers
 =
-NULL
+nullptr
 ;
 }
 static
@@ -8980,7 +8980,7 @@ google_breakpad
 :
 StackwalkerAMD64
 (
-NULL
+nullptr
 context
 memory
 sModules
@@ -9006,7 +9006,7 @@ google_breakpad
 :
 StackwalkerARM
 (
-NULL
+nullptr
 context
 -
 1
@@ -9034,7 +9034,7 @@ google_breakpad
 :
 StackwalkerX86
 (
-NULL
+nullptr
 context
 memory
 sModules
@@ -9192,7 +9192,7 @@ if
 pairs
 =
 =
-NULL
+nullptr
 )
 {
 *
