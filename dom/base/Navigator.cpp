@@ -6721,17 +6721,6 @@ return
 nullptr
 ;
 }
-NS_ENSURE_TRUE
-(
-mWindow
--
->
-GetDocShell
-(
-)
-nullptr
-)
-;
 mConnection
 =
 new
