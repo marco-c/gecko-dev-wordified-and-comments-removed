@@ -8557,6 +8557,12 @@ conversion
 =
 =
 IntConversion_Any
+|
+|
+conversion
+=
+=
+IntConversion_NumbersOrBoolsOnly
 )
 branchEqualTypeIfNeeded
 (

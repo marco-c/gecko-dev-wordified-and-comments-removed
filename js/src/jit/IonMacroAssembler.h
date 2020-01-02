@@ -6340,6 +6340,7 @@ enum
 IntConversionInputKind
 {
 IntConversion_NumbersOnly
+IntConversion_NumbersOrBoolsOnly
 IntConversion_Any
 }
 ;
