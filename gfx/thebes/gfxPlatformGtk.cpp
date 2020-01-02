@@ -427,6 +427,12 @@ if
 UseXRender
 (
 )
+&
+&
+!
+UseImageOffscreenSurfaces
+(
+)
 )
 {
 Screen
