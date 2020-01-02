@@ -208,6 +208,13 @@ _seenHigh
 =
 true
 ;
+do_send_remote_message
+(
+'
+high_acc_enabled
+'
+)
+;
 }
 }
 _isHigh
