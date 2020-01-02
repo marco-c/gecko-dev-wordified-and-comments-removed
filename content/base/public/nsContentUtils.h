@@ -1117,13 +1117,6 @@ GetDocumentFromCaller
 )
 ;
 static
-nsIDocument
-*
-GetDocumentFromContext
-(
-)
-;
-static
 bool
 InProlog
 (

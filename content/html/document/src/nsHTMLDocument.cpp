@@ -6358,10 +6358,7 @@ nsIDocument
 >
 callerDoc
 =
-nsContentUtils
-:
-:
-GetDocumentFromContext
+GetEntryDocument
 (
 )
 ;

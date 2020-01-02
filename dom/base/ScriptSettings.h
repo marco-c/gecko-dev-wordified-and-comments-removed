@@ -50,6 +50,9 @@ nsGlobalWindow
 class
 nsIScriptContext
 ;
+class
+nsIDocument
+;
 namespace
 mozilla
 {
@@ -155,6 +158,12 @@ DestroyScriptSettings
 nsIGlobalObject
 *
 GetEntryGlobal
+(
+)
+;
+nsIDocument
+*
+GetEntryDocument
 (
 )
 ;
