@@ -75,6 +75,10 @@ int16_t
 aPCM
 uint64_t
 aTimeStamp
+uint32_t
+aChannelCount
+uint32_t
+aSamplesPerSecond
 )
 =
 0

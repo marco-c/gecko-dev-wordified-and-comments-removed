@@ -148,6 +148,10 @@ int16_t
 aPCM
 uint64_t
 aTimeStamp
+uint32_t
+aChannels
+uint32_t
+aRate
 )
 MOZ_OVERRIDE
 ;
