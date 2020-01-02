@@ -394,4 +394,14 @@ type
 -
 limits
 '
+'
+-
+Wno
+-
+unused
+-
+local
+-
+typedefs
+'
 ]
