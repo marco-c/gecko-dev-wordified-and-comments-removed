@@ -20,6 +20,8 @@ h
 "
 enum
 nsStyleUnit
+:
+uint8_t
 {
 eStyleUnit_Null
 =
@@ -764,7 +766,7 @@ aCoord
 ;
 protected
 :
-uint8_t
+nsStyleUnit
 mUnits
 [
 4
@@ -848,7 +850,7 @@ aCoord
 ;
 protected
 :
-uint8_t
+nsStyleUnit
 mUnits
 [
 8
