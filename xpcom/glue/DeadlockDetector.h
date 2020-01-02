@@ -167,17 +167,6 @@ SizeOfExcludingThis
 aMallocSizeOf
 )
 ;
-n
-+
-=
-mResource
--
->
-SizeOfIncludingThis
-(
-aMallocSizeOf
-)
-;
 return
 n
 ;
@@ -513,9 +502,6 @@ Remove
 (
 aResource
 )
-;
-delete
-aResource
 ;
 }
 ResourceAcquisitionArray
