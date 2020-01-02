@@ -18951,13 +18951,10 @@ obj
 "
 Proxy
 "
-OBJECT_TO_JSVAL
-(
 ctor
-)
+0
 JS_PropertyStub
 JS_StrictPropertyStub
-0
 )
 )
 {

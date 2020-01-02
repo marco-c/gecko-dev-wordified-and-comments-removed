@@ -14279,8 +14279,6 @@ obj
 setProto
 "
 v
-nullptr
-nullptr
 attrs
 )
 )
@@ -14312,8 +14310,6 @@ obj
 customIter
 "
 v
-nullptr
-nullptr
 attrs
 )
 )

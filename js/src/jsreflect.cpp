@@ -18308,13 +18308,10 @@ obj
 "
 Reflect
 "
-OBJECT_TO_JSVAL
-(
 Reflect
-)
+0
 JS_PropertyStub
 JS_StrictPropertyStub
-0
 )
 )
 {

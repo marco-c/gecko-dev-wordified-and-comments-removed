@@ -1176,16 +1176,13 @@ c
 -
 >
 name
-INT_TO_JSVAL
-(
 c
 -
 >
 value
-)
+PM_CATTRS
 JS_PropertyStub
 JS_StrictPropertyStub
-PM_CATTRS
 )
 )
 return

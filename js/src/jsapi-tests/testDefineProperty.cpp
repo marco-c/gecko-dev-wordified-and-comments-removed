@@ -110,9 +110,10 @@ obj
 "
 q
 "
-JSVAL_VOID
-nullptr
-nullptr
+JS
+:
+:
+UndefinedHandleValue
 JSPROP_SHARED
 )
 )

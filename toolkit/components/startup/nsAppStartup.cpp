@@ -3139,12 +3139,7 @@ Describe
 (
 ev
 )
-OBJECT_TO_JSVAL
-(
 date
-)
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 ;

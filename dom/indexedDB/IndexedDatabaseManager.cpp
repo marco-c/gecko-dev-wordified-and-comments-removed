@@ -1990,8 +1990,6 @@ aCx
 aGlobal
 IDB_STR
 indexedDB
-nullptr
-nullptr
 JSPROP_ENUMERATE
 )
 ;
