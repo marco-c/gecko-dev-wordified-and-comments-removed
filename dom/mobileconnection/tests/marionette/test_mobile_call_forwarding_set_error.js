@@ -39,12 +39,12 @@ reason
 :
 MozMobileConnection
 .
-CALL_FORWARD_REASON_UNCONDITIONAL
+CALL_FORWARD_REASON_ALL_CALL_FORWARDING
 }
-expectedErrorMsg
+errorMsg
 :
 "
-RequestNotSupported
+GenericFailure
 "
 }
 {
@@ -60,12 +60,12 @@ reason
 :
 MozMobileConnection
 .
-CALL_FORWARD_REASON_MOBILE_BUSY
+CALL_FORWARD_REASON_ALL_CONDITIONAL_CALL_FORWARDING
 }
-expectedErrorMsg
+errorMsg
 :
 "
-RequestNotSupported
+GenericFailure
 "
 }
 {
@@ -83,7 +83,7 @@ MozMobileConnection
 .
 CALL_FORWARD_REASON_MOBILE_BUSY
 }
-expectedErrorMsg
+errorMsg
 :
 "
 InvalidParameter
@@ -102,7 +102,7 @@ MozMobileConnection
 .
 CALL_FORWARD_REASON_MOBILE_BUSY
 }
-expectedErrorMsg
+errorMsg
 :
 "
 InvalidParameter
@@ -121,7 +121,7 @@ reason
 :
 10
 }
-expectedErrorMsg
+errorMsg
 :
 "
 InvalidParameter
@@ -133,7 +133,7 @@ function
 testSetCallForwardingOption
 (
 aOptions
-aExpectedErrorMsg
+aErrorMsg
 )
 {
 log
@@ -181,8 +181,7 @@ resolve
 {
 ok
 (
-!
-aExpectedErrorMsg
+false
 "
 setCallForwardingOption
 success
@@ -201,7 +200,7 @@ is
 aError
 .
 name
-aExpectedErrorMsg
+aErrorMsg
 "
 failed
 to
@@ -271,7 +270,7 @@ data
 options
 data
 .
-expectedErrorMsg
+errorMsg
 )
 )
 ;
