@@ -537,6 +537,16 @@ winLastError
 Const
 .
 ERROR_FILE_NOT_FOUND
+|
+|
+this
+.
+winLastError
+=
+=
+Const
+.
+ERROR_PATH_NOT_FOUND
 ;
 }
 }
