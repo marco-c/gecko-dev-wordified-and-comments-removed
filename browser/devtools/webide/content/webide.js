@@ -1394,6 +1394,13 @@ setTimeout
 =
 >
 {
+let
+busyPromise
+=
+this
+.
+_busyPromise
+;
 this
 .
 unbusy
@@ -1412,9 +1419,7 @@ this
 _busyOperationDescription
 )
 ;
-this
-.
-_busyPromise
+busyPromise
 .
 reject
 (
