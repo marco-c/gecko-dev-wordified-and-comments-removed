@@ -133,7 +133,7 @@ nsIntRegion
 &
 aInvalidateRegion
 const
-gfxSize
+LayerSize
 &
 aResolution
 )
@@ -1139,7 +1139,7 @@ GetResolution
 (
 )
 ;
-gfxSize
+LayerSize
 layerScale
 (
 1
@@ -1163,7 +1163,7 @@ GetFrameResolution
 )
 {
 const
-gfxSize
+LayerSize
 &
 layerResolution
 =
@@ -1174,7 +1174,7 @@ GetFrameResolution
 )
 ;
 const
-gfxSize
+LayerSize
 &
 localResolution
 =

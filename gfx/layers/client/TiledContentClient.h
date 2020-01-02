@@ -61,13 +61,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -442,7 +435,7 @@ mTransformScreenToLayer
 nsIntRect
 mLayerCriticalDisplayPort
 ;
-gfxSize
+LayerSize
 mResolution
 ;
 nsIntRect
@@ -755,7 +748,7 @@ ReadLock
 }
 }
 const
-gfxSize
+LayerSize
 &
 GetFrameResolution
 (
@@ -769,7 +762,7 @@ void
 SetFrameResolution
 (
 const
-gfxSize
+LayerSize
 &
 aResolution
 )
@@ -922,7 +915,7 @@ void
 *
 mCallbackData
 ;
-gfxSize
+LayerSize
 mFrameResolution
 ;
 bool

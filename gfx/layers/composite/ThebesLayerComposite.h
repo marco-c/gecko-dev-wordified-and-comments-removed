@@ -325,7 +325,7 @@ GetDisplayPort
 (
 )
 ;
-gfxSize
+LayerSize
 GetEffectiveResolution
 (
 )

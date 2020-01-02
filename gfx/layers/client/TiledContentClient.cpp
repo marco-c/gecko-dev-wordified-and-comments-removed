@@ -2370,7 +2370,7 @@ CSSPoint
 &
 aScrollOffset
 const
-gfxSize
+LayerSize
 &
 aResolution
 float

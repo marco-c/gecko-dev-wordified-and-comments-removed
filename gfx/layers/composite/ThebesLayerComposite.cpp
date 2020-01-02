@@ -790,7 +790,7 @@ mBuffer
 nullptr
 ;
 }
-gfxSize
+LayerSize
 ThebesLayerComposite
 :
 :
@@ -798,7 +798,7 @@ GetEffectiveResolution
 (
 )
 {
-gfxSize
+LayerSize
 resolution
 (
 1
@@ -884,7 +884,7 @@ GetTransform
 gfxRect
 displayPort
 ;
-gfxSize
+LayerSize
 parentResolution
 =
 GetEffectiveResolution

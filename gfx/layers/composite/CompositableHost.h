@@ -21,13 +21,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h
@@ -166,6 +159,13 @@ nscore
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 gfxImageSurface
 ;
@@ -200,7 +200,7 @@ mValidRegion
 gfxRect
 mDisplayPort
 ;
-gfxSize
+LayerSize
 mEffectiveResolution
 ;
 gfxRect
