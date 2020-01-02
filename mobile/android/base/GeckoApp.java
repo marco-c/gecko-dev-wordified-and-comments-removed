@@ -10232,6 +10232,14 @@ refreshChrome
 )
 ;
 }
+if
+(
+!
+Versions
+.
+feature14Plus
+)
+{
 GeckoAccessibility
 .
 updateAccessibilitySettings
@@ -10239,6 +10247,7 @@ updateAccessibilitySettings
 this
 )
 ;
+}
 if
 (
 mAppStateListeners
