@@ -6273,7 +6273,7 @@ doc
 mGestureDownContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;
@@ -11850,7 +11850,7 @@ doc
 newFocus
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;
@@ -19630,7 +19630,7 @@ aContent
 aContent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 =
