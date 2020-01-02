@@ -129,6 +129,15 @@ BogusTemp
 )
 ;
 }
+bool
+needTempForPostBarrier
+(
+)
+{
+return
+false
+;
+}
 LDefinition
 tempForDispatchCache
 (
