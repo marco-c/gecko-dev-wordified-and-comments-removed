@@ -273,11 +273,6 @@ nsISMimeCert
 idl
 '
 '
-nsISSLCertErrorDialog
-.
-idl
-'
-'
 nsISSLErrorListener
 .
 idl

@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsISSLCertErrorDialog
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -111,8 +104,6 @@ public
 nsIDOMCryptoDialogs
 public
 nsIGeneratingKeypairInfoDialogs
-public
-nsISSLCertErrorDialog
 {
 public
 :
@@ -124,7 +115,6 @@ NS_DECL_NSICERTPICKDIALOGS
 NS_DECL_NSITOKENDIALOGS
 NS_DECL_NSIDOMCRYPTODIALOGS
 NS_DECL_NSIGENERATINGKEYPAIRINFODIALOGS
-NS_DECL_NSISSLCERTERRORDIALOG
 nsNSSDialogs
 (
 )
