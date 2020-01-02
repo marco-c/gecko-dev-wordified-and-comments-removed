@@ -23029,7 +23029,7 @@ numTransitions
 i
 )
 {
-nsTransition
+StyleTransition
 *
 transition
 =

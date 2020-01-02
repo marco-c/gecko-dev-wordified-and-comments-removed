@@ -1034,7 +1034,7 @@ i
 )
 {
 const
-nsTransition
+StyleTransition
 &
 t
 =
@@ -1256,7 +1256,7 @@ i
 )
 {
 const
-nsTransition
+StyleTransition
 &
 t
 =
@@ -1809,7 +1809,7 @@ ConsiderStartingTransition
 nsCSSProperty
 aProperty
 const
-nsTransition
+StyleTransition
 &
 aTransition
 dom
