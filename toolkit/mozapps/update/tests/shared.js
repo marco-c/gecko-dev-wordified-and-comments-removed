@@ -451,6 +451,13 @@ DIR_PATCH
 "
 ;
 const
+DIR_TOBEDELETED
+=
+"
+tobedeleted
+"
+;
+const
 DIR_UPDATES
 =
 "
