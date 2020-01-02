@@ -63,6 +63,9 @@ GLXPbuffer
 struct
 PRLibrary
 ;
+class
+gfxASurface
+;
 namespace
 mozilla
 {
