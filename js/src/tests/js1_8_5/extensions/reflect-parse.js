@@ -2398,12 +2398,7 @@ blockStmt
 [
 funExpr
 (
-ident
-(
-"
-a
-"
-)
+null
 [
 ]
 blockStmt
