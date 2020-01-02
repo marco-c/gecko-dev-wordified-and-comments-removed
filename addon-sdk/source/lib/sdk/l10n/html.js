@@ -266,6 +266,13 @@ document
 ;
 try
 {
+if
+(
+document
+.
+defaultView
+)
+{
 let
 winUtils
 =
@@ -297,6 +304,7 @@ winUtils
 USER_SHEET
 )
 ;
+}
 }
 catch
 (

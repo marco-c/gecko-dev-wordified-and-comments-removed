@@ -1102,16 +1102,6 @@ frame
 setAttribute
 (
 "
-showcaret
-"
-true
-)
-;
-frame
-.
-setAttribute
-(
-"
 autocompleteenabled
 "
 true
