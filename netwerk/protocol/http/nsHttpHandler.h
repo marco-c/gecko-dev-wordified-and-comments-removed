@@ -1443,6 +1443,9 @@ mDoNotTrackEnabled
 uint8_t
 mDoNotTrackValue
 ;
+bool
+mSafeHintEnabled
+;
 uint32_t
 mTelemetryEnabled
 :
