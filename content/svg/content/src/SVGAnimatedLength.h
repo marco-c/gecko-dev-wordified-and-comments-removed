@@ -73,11 +73,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAnimatedLength
-(
-)
-;
 nsSVGElement
 *
 GetParentObject
@@ -117,6 +112,11 @@ AnimVal
 ;
 protected
 :
+~
+SVGAnimatedLength
+(
+)
+;
 nsSVGLength2
 *
 mVal

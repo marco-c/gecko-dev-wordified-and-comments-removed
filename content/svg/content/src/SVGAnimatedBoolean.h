@@ -79,11 +79,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAnimatedBoolean
-(
-)
-;
 nsSVGElement
 *
 GetParentObject
@@ -162,6 +157,11 @@ GetAnimValue
 }
 protected
 :
+~
+SVGAnimatedBoolean
+(
+)
+;
 nsSVGBoolean
 *
 mVal

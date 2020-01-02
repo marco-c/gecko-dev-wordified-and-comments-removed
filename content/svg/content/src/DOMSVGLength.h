@@ -134,6 +134,11 @@ bool
 aAnimVal
 )
 ;
+~
+DOMSVGLength
+(
+)
+;
 public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
@@ -159,11 +164,6 @@ bool
 aIsAnimValItem
 )
 ;
-DOMSVGLength
-(
-)
-;
-~
 DOMSVGLength
 (
 )

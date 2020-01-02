@@ -477,6 +477,11 @@ aFromParser
 )
 )
 ;
+~
+SVGSVGElement
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

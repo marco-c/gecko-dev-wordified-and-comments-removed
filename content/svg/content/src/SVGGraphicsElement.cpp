@@ -68,5 +68,14 @@ aNodeInfo
 )
 {
 }
+SVGGraphicsElement
+:
+:
+~
+SVGGraphicsElement
+(
+)
+{
+}
 }
 }

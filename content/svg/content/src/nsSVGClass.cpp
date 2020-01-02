@@ -133,6 +133,14 @@ aResult
 )
 MOZ_OVERRIDE
 ;
+private
+:
+~
+DOMAnimatedString
+(
+)
+{
+}
 }
 ;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED

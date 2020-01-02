@@ -92,11 +92,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAngle
-(
-)
-;
 nsSVGElement
 *
 GetParentObject
@@ -200,6 +195,11 @@ rv
 ;
 protected
 :
+~
+SVGAngle
+(
+)
+;
 nsSVGAngle
 *
 mVal

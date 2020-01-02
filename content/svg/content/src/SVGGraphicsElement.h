@@ -62,6 +62,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+~
+SVGGraphicsElement
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

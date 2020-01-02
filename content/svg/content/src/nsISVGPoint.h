@@ -175,6 +175,8 @@ GetY
 )
 ;
 }
+protected
+:
 virtual
 ~
 nsISVGPoint
@@ -198,6 +200,8 @@ nullptr
 ;
 }
 }
+public
+:
 virtual
 nsISVGPoint
 *

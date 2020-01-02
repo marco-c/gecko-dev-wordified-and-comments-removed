@@ -80,11 +80,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-SVGAnimatedAngle
-(
-)
-;
 nsSVGElement
 *
 GetParentObject
@@ -124,6 +119,11 @@ AnimVal
 ;
 protected
 :
+~
+SVGAnimatedAngle
+(
+)
+;
 nsSVGAngle
 *
 mVal

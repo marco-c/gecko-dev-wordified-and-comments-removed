@@ -144,11 +144,6 @@ nsSVGTransform
 aMatrix
 )
 ;
-~
-SVGTransform
-(
-)
-;
 SVGTransform
 *
 Clone
@@ -373,6 +368,11 @@ rv
 ;
 protected
 :
+~
+SVGTransform
+(
+)
+;
 friend
 class
 dom

@@ -417,11 +417,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-DOMSVGPreserveAspectRatio
-(
-)
-;
 nsSVGElement
 *
 GetParentObject
@@ -476,6 +471,11 @@ rv
 ;
 protected
 :
+~
+DOMSVGPreserveAspectRatio
+(
+)
+;
 SVGAnimatedPreserveAspectRatio
 *
 mVal
