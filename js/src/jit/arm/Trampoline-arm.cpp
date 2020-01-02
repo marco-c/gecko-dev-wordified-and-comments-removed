@@ -3078,8 +3078,16 @@ masm
 cx
 )
 ;
+{
 Label
 bailout
+;
+AutoForbidPools
+afp
+(
+&
+masm
+)
 ;
 for
 (
@@ -3112,6 +3120,7 @@ bind
 bailout
 )
 ;
+}
 GenerateBailoutThunk
 (
 cx

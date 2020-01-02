@@ -4626,6 +4626,7 @@ offset
 =
 ToggledCallSize
 (
+nullptr
 )
 )
 ;
@@ -4637,6 +4638,9 @@ static
 size_t
 ToggledCallSize
 (
+uint8_t
+*
+code
 )
 {
 return
