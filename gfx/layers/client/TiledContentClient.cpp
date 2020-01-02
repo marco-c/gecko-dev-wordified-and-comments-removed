@@ -1185,6 +1185,15 @@ GetScrollOffset
 (
 )
 ;
+painted
+.
+Inflate
+(
+0
+.
+01f
+)
+;
 CSSRect
 showing
 =
