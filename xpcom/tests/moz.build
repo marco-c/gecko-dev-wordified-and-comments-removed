@@ -373,6 +373,11 @@ TestObserverService
 cpp
 '
 '
+TestPLDHash
+.
+cpp
+'
+'
 TestPipe
 .
 cpp
