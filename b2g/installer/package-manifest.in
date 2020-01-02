@@ -4673,6 +4673,13 @@ components
 InterAppCommUIGlue
 .
 js
+BINPATH
+/
+components
+/
+SystemMessageGlue
+.
+js
 #
 ifndef
 MOZ_WIDGET_GONK
