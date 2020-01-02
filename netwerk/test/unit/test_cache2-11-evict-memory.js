@@ -115,6 +115,10 @@ true
 )
 ;
 }
+!
+newCacheBackEndUsed
+(
+)
 )
 ;
 asyncOpenCacheEntry

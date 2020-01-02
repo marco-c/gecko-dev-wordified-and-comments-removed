@@ -237,6 +237,10 @@ newCacheBackEndUsed
 checkNewBackEnd
 :
 checkOldBackEnd
+!
+newCacheBackEndUsed
+(
+)
 )
 ;
 asyncOpenCacheEntry
