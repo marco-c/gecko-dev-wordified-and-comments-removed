@@ -231,7 +231,6 @@ bp
 MOZ_OVERRIDE
 ;
 static
-const
 ChromeObjectWrapper
 singleton
 ;

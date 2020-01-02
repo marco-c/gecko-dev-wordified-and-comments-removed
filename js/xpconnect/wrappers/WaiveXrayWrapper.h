@@ -269,7 +269,6 @@ protop
 MOZ_OVERRIDE
 ;
 static
-const
 WaiveXrayWrapper
 singleton
 ;

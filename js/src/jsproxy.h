@@ -168,7 +168,6 @@ bool
 hasPrototype
 (
 )
-const
 {
 return
 mHasPrototype
@@ -178,7 +177,6 @@ bool
 hasSecurityPolicy
 (
 )
-const
 {
 return
 mHasSecurityPolicy
@@ -191,7 +189,6 @@ void
 family
 (
 )
-const
 {
 return
 mFamily
@@ -2096,7 +2093,6 @@ NewProxyObject
 JSContext
 *
 cx
-const
 BaseProxyHandler
 *
 handler

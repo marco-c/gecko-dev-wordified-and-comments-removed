@@ -49,7 +49,6 @@ New
 JSContext
 *
 cx
-const
 BaseProxyHandler
 *
 handler
@@ -364,7 +363,6 @@ ProxyObject
 :
 initHandler
 (
-const
 BaseProxyHandler
 *
 handler
@@ -375,14 +373,7 @@ initSlot
 HANDLER_SLOT
 PrivateValue
 (
-const_cast
-<
-BaseProxyHandler
-*
->
-(
 handler
-)
 )
 )
 ;
@@ -466,7 +457,6 @@ ProxyObject
 :
 nuke
 (
-const
 BaseProxyHandler
 *
 handler

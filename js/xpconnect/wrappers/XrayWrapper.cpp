@@ -13145,13 +13145,6 @@ call
 cx
 wrapper
 args
-(
-js
-:
-:
-Wrapper
-&
-)
 Base
 :
 :
@@ -13210,13 +13203,6 @@ construct
 cx
 wrapper
 args
-(
-js
-:
-:
-Wrapper
-&
-)
 Base
 :
 :
@@ -13546,7 +13532,6 @@ true
 template
 <
 >
-const
 PermissiveXrayXPCWN
 PermissiveXrayXPCWN
 :
@@ -13563,7 +13548,6 @@ PermissiveXrayXPCWN
 template
 <
 >
-const
 SecurityXrayXPCWN
 SecurityXrayXPCWN
 :
@@ -13580,7 +13564,6 @@ SecurityXrayXPCWN
 template
 <
 >
-const
 PermissiveXrayDOM
 PermissiveXrayDOM
 :
@@ -13597,7 +13580,6 @@ PermissiveXrayDOM
 template
 <
 >
-const
 SecurityXrayDOM
 SecurityXrayDOM
 :
@@ -13614,7 +13596,6 @@ SecurityXrayDOM
 template
 <
 >
-const
 PermissiveXrayJS
 PermissiveXrayJS
 :
@@ -13631,7 +13612,6 @@ PermissiveXrayJS
 template
 <
 >
-const
 SCSecurityXrayXPCWN
 SCSecurityXrayXPCWN
 :

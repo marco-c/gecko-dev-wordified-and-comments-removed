@@ -2404,7 +2404,6 @@ xpc_map_end
 .
 h
 "
-const
 xpc
 :
 :
@@ -2625,7 +2624,6 @@ rval
 )
 ;
 }
-const
 xpc
 :
 :
