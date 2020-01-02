@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsCRT
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
