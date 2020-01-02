@@ -2460,13 +2460,6 @@ java
 '
 widget
 /
-GeckoViewFlipper
-.
-java
-'
-'
-widget
-/
 IconTabWidget
 .
 java
