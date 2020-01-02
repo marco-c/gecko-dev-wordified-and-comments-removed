@@ -1110,13 +1110,6 @@ aWindow
 )
 ;
 static
-nsPIDOMWindow
-*
-GetWindowFromCaller
-(
-)
-;
-static
 nsIDocument
 *
 GetDocumentFromCaller
