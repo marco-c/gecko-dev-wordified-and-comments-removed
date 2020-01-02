@@ -3133,7 +3133,7 @@ safepoint
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 checkOsiPointRegisters
 )

@@ -7278,7 +7278,7 @@ validateIntervals
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 checkGraphConsistency
 )
@@ -7713,7 +7713,7 @@ validateAllocations
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 checkGraphConsistency
 )
