@@ -1725,6 +1725,13 @@ MIN_WIDTH
 PREF_WIDTH
 }
 ;
+enum
+{
+IGNORE_PADDING
+=
+0x01
+}
+;
 static
 nscoord
 IntrinsicForContainer
@@ -1737,6 +1744,10 @@ nsIFrame
 aFrame
 IntrinsicWidthType
 aType
+uint32_t
+aFlags
+=
+0
 )
 ;
 static
