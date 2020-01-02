@@ -413,17 +413,6 @@ ended
 "
 )
 ;
-this
-.
-session
-.
-unpublish
-(
-this
-.
-publisher
-)
-;
 }
 _connectionDestroyed
 :
