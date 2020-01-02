@@ -100,13 +100,6 @@ mozilla
 gecko
 ;
 import
-android
-.
-app
-.
-Activity
-;
-import
 org
 .
 mozilla

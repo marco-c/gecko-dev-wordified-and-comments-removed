@@ -1674,27 +1674,6 @@ map
 )
 ;
 }
-static
-final
-String
-qualifyColumn
-(
-String
-table
-String
-column
-)
-{
-return
-table
-+
-"
-.
-"
-+
-column
-;
-}
 private
 static
 boolean
@@ -4913,6 +4892,7 @@ return
 cursor
 ;
 }
+private
 int
 updateBookmarkPositions
 (
@@ -5398,6 +5378,7 @@ selectionArgs
 )
 ;
 }
+private
 long
 insertBookmark
 (
@@ -5592,6 +5573,7 @@ values
 )
 ;
 }
+private
 int
 updateOrInsertBookmark
 (
@@ -5649,6 +5631,7 @@ return
 0
 ;
 }
+private
 int
 updateBookmarks
 (
@@ -5805,6 +5788,7 @@ null
 )
 ;
 }
+private
 long
 insertHistory
 (
@@ -5926,6 +5910,7 @@ values
 )
 ;
 }
+private
 int
 updateOrInsertHistory
 (
@@ -6039,6 +6024,7 @@ return
 0
 ;
 }
+private
 int
 updateHistory
 (
@@ -6362,6 +6348,7 @@ pageUrl
 )
 ;
 }
+private
 long
 insertFavicon
 (
@@ -6382,6 +6369,7 @@ values
 )
 ;
 }
+private
 long
 insertFavicon
 (
@@ -6575,6 +6563,7 @@ return
 faviconId
 ;
 }
+private
 int
 updateOrInsertFavicon
 (
@@ -6601,6 +6590,7 @@ true
 )
 ;
 }
+private
 int
 updateExistingFavicon
 (
@@ -6627,6 +6617,7 @@ false
 )
 ;
 }
+private
 int
 updateFavicon
 (
@@ -7223,6 +7214,7 @@ return
 updated
 ;
 }
+private
 int
 deleteHistory
 (
@@ -7428,6 +7420,7 @@ return
 updated
 ;
 }
+private
 int
 deleteBookmarks
 (
@@ -7570,6 +7563,7 @@ return
 updated
 ;
 }
+private
 int
 deleteFavicons
 (
@@ -7616,6 +7610,7 @@ selectionArgs
 )
 ;
 }
+private
 int
 deleteThumbnails
 (
@@ -7662,6 +7657,7 @@ selectionArgs
 )
 ;
 }
+private
 int
 deleteUnusedImages
 (
