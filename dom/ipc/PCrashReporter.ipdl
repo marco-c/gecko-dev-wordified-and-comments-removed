@@ -139,6 +139,7 @@ file_offset
 ;
 }
 ;
+intr
 protocol
 PCrashReporter
 {

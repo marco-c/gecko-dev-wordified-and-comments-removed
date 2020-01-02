@@ -231,7 +231,7 @@ dwPendingType
 mPlugin
 -
 >
-FlushPendingRPCQueue
+FlushPendingInterruptQueue
 (
 )
 ;

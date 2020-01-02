@@ -6,7 +6,7 @@ include
 protocol
 jetpack
 ;
-rpc
+intr
 protocol
 jetpackContent
 {

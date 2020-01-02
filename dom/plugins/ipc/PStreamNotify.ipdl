@@ -113,7 +113,7 @@ mozilla
 namespace
 plugins
 {
-rpc
+intr
 protocol
 PStreamNotify
 {

@@ -128,7 +128,7 @@ mozilla
 namespace
 jsipc
 {
-rpc
+intr
 protocol
 PJavaScript
 {

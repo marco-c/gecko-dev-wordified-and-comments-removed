@@ -4,7 +4,7 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestRacyUndefer
 {
@@ -25,7 +25,7 @@ AwakenRaceWinTwice
 (
 )
 ;
-rpc
+intr
 Race
 (
 )
@@ -37,12 +37,12 @@ __delete__
 ;
 parent
 :
-rpc
+intr
 Spam
 (
 )
 ;
-rpc
+intr
 RaceWinTwice
 (
 )

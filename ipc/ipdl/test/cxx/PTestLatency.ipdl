@@ -4,7 +4,7 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestLatency
 {
@@ -22,7 +22,7 @@ Ping5
 (
 )
 ;
-rpc
+intr
 Rpc
 (
 )
@@ -31,7 +31,7 @@ Spam
 (
 )
 ;
-rpc
+intr
 Synchro
 (
 )
@@ -43,7 +43,7 @@ seqno
 )
 compress
 ;
-rpc
+intr
 Synchro2
 (
 )

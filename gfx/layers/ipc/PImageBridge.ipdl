@@ -190,14 +190,7 @@ script
 .
 *
 /
-/
-*
-FIXME
-:
-sync
-*
-/
-rpc
+intr
 protocol
 PImageBridge
 {

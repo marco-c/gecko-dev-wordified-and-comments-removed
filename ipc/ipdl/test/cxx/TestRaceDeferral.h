@@ -108,8 +108,8 @@ mozilla
 ipc
 :
 :
-RacyRPCPolicy
-MediateRPCRace
+RacyInterruptPolicy
+MediateInterruptRace
 (
 const
 Message
@@ -212,8 +212,8 @@ mozilla
 ipc
 :
 :
-RacyRPCPolicy
-MediateRPCRace
+RacyInterruptPolicy
+MediateInterruptRace
 (
 const
 Message

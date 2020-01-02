@@ -1,13 +1,13 @@
-rpc
+intr
 protocol
-rpcProtocol
+intrProtocol
 {
 /
 /
 sanity
 check
 of
-RPC
+Interrupt
 protocols
 child
 :
@@ -31,8 +31,8 @@ r
 ;
 both
 :
-rpc
-RPCMsg
+intr
+InterruptMsg
 (
 int
 x

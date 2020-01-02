@@ -142,7 +142,7 @@ localService
 ;
 }
 ;
-rpc
+intr
 protocol
 PSpeechSynthesis
 {

@@ -7,7 +7,7 @@ Shmem
 ;
 }
 ;
-rpc
+intr
 protocol
 shmem
 {
@@ -37,8 +37,8 @@ Foo
 g
 )
 ;
-rpc
-RPCMsg
+intr
+InterruptMsg
 (
 Shmem
 s

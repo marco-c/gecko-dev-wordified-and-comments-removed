@@ -78,13 +78,13 @@ child
 s
 crash
 .
-rpc
+intr
 protocol
 PTestCrashCleanup
 {
 child
 :
-rpc
+intr
 DIEDIEDIE
 (
 )

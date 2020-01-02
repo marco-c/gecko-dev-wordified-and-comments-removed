@@ -1,10 +1,10 @@
-rpc
+intr
 protocol
-rpcMessageCompress
+intrMessageCompress
 {
 parent
 :
-rpc
+intr
 foo
 (
 )
@@ -12,7 +12,7 @@ compress
 ;
 child
 :
-rpc
+intr
 bar
 (
 )

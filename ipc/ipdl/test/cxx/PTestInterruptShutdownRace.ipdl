@@ -4,9 +4,9 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
-PTestRPCShutdownRace
+PTestInterruptShutdownRace
 {
 parent
 :
@@ -27,7 +27,7 @@ Start
 (
 )
 ;
-rpc
+intr
 Exit
 (
 )

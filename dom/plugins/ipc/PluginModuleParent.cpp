@@ -6296,7 +6296,7 @@ bool
 PluginModuleParent
 :
 :
-RecvProcessNativeEventsInRPCCall
+RecvProcessNativeEventsInInterruptCall
 (
 )
 {
@@ -6317,7 +6317,7 @@ defined
 (
 OS_WIN
 )
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 (
 )
 ;
@@ -6332,7 +6332,7 @@ NS_NOTREACHED
 PluginModuleParent
 :
 :
-RecvProcessNativeEventsInRPCCall
+RecvProcessNativeEventsInInterruptCall
 not
 implemented
 !
@@ -6349,7 +6349,7 @@ void
 PluginModuleParent
 :
 :
-ProcessRemoteNativeEventsInRPCCall
+ProcessRemoteNativeEventsInInterruptCall
 (
 )
 {
@@ -6362,7 +6362,7 @@ OS_WIN
 unused
 <
 <
-SendProcessNativeEventsInRPCCall
+SendProcessNativeEventsInInterruptCall
 (
 )
 ;
@@ -6376,7 +6376,7 @@ NS_NOTREACHED
 PluginModuleParent
 :
 :
-ProcessRemoteNativeEventsInRPCCall
+ProcessRemoteNativeEventsInInterruptCall
 not
 implemented
 !

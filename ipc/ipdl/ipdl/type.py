@@ -13,13 +13,23 @@ QualifiedId
 State
 StructDecl
 TransitionStmt
+from
+ipdl
+.
+ast
+import
 TypeSpec
 UnionDecl
 UsingStmt
 Visitor
 ASYNC
 SYNC
-RPC
+INTR
+from
+ipdl
+.
+ast
+import
 IN
 OUT
 INOUT
@@ -1198,7 +1208,7 @@ is
 SYNC
     
 def
-isRpc
+isInterrupt
 (
 self
 )
@@ -1208,7 +1218,7 @@ self
 .
 sendSemantics
 is
-RPC
+INTR
     
 def
 isUrgent
@@ -1247,12 +1257,12 @@ isSync
 or
 self
 .
-isRpc
+isInterrupt
 (
 )
     
 def
-talksRpc
+talksInterrupt
 (
 self
 )
@@ -1260,7 +1270,7 @@ self
 return
 self
 .
-isRpc
+isInterrupt
 (
 )
     
@@ -1279,7 +1289,7 @@ isSync
 or
 self
 .
-isRpc
+isInterrupt
 (
 )
 or
@@ -1321,7 +1331,7 @@ isSync
 and
 self
 .
-isRpc
+isInterrupt
 (
 )
 )
@@ -5571,7 +5581,7 @@ _DELETE_MSG
 .
 type
 .
-isRpc
+isInterrupt
 (
 )
         
@@ -9844,13 +9854,13 @@ CALL
 :
 [
 OUT
-RPC
+INTR
 ]
 ANSWER
 :
 [
 IN
-RPC
+INTR
 ]
          
 }
@@ -9902,12 +9912,12 @@ msg
 .
 type
 .
-isRpc
+isInterrupt
 (
 )
             
 or
-RPC
+INTR
 is
 impliedSems
 and
@@ -9919,7 +9929,7 @@ msg
 .
 type
 .
-isRpc
+isInterrupt
 (
 )
 )

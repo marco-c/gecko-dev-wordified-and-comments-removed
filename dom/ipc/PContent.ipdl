@@ -611,7 +611,7 @@ userValue
 ;
 }
 ;
-rpc
+intr
 protocol
 PContent
 {

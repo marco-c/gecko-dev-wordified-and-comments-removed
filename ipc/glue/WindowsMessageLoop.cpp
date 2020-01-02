@@ -2126,12 +2126,12 @@ MessageChannel
 *
 channel
 bool
-rpc
+interrupt
 )
 :
-mRPC
+mInterrupt
 (
-rpc
+interrupt
 )
 mSpinNestedEvents
 (
@@ -2234,7 +2234,7 @@ mChannel
 mTopFrame
 "
 Mismatched
-RPC
+interrupt
 stack
 frames
 "
@@ -2249,7 +2249,7 @@ sStaticTopFrame
 "
 Mismatched
 static
-RPC
+Interrupt
 stack
 frames
 "
@@ -2353,7 +2353,7 @@ Listener
 )
 -
 >
-ProcessRemoteNativeEventsInRPCCall
+ProcessRemoteNativeEventsInInterruptCall
 (
 )
 ;
@@ -2362,7 +2362,7 @@ void
 MessageChannel
 :
 :
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 (
 )
 {
@@ -2380,7 +2380,7 @@ logic
 error
 :
 no
-RPC
+Interrupt
 frame
 "
 )
@@ -2592,7 +2592,7 @@ mTopFrame
 mTopFrame
 -
 >
-mRPC
+mInterrupt
 "
 Top
 frame
@@ -2905,7 +2905,7 @@ bool
 MessageChannel
 :
 :
-WaitForRPCNotify
+WaitForInterruptNotify
 (
 )
 {
@@ -2919,7 +2919,7 @@ AssertCurrentThreadOwns
 if
 (
 !
-RPCStackDepth
+InterruptStackDepth
 (
 )
 )
@@ -2956,7 +2956,7 @@ mTopFrame
 mTopFrame
 -
 >
-mRPC
+mInterrupt
 "
 Top
 frame

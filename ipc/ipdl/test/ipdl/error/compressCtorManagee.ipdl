@@ -2,7 +2,7 @@ include
 protocol
 compressCtor
 ;
-rpc
+intr
 protocol
 compressCtorManagee
 {

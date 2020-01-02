@@ -121,7 +121,7 @@ mozilla
 namespace
 dom
 {
-rpc
+intr
 protocol
 PSpeechSynthesisRequest
 {

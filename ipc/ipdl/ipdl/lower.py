@@ -1733,7 +1733,7 @@ msgtype
 if
 msgtype
 .
-isRpc
+isInterrupt
 (
 )
 or
@@ -1786,7 +1786,7 @@ msgtype
 if
 msgtype
 .
-isRpc
+isInterrupt
 (
 )
 or
@@ -20230,7 +20230,7 @@ talksSync
 or
 ptype
 .
-talksRpc
+talksInterrupt
 (
 )
 :
@@ -20758,14 +20758,14 @@ msgtype
 if
 toplevel
 .
-talksRpc
+talksInterrupt
 (
 )
 :
                 
 self
 .
-rpcSwitch
+interruptSwitch
 =
 StmtSwitch
 (
@@ -20854,14 +20854,14 @@ default
 if
 toplevel
 .
-talksRpc
+talksInterrupt
 (
 )
 :
                 
 self
 .
-rpcSwitch
+interruptSwitch
 .
 addcase
 (
@@ -21323,7 +21323,7 @@ msgVar
 .
 '
 '
-is_rpc
+is_interrupt
 '
 )
 )
@@ -21457,14 +21457,14 @@ if
 not
 toplevel
 .
-talksRpc
+talksInterrupt
 (
 )
 :
           
 self
 .
-rpcSwitch
+interruptSwitch
 =
 None
           
@@ -21530,7 +21530,7 @@ OnCallReceived
 '
 self
 .
-rpcSwitch
+interruptSwitch
                               
 hasReply
 =
@@ -21734,7 +21734,7 @@ talksSync
 or
 toplevel
 .
-talksRpc
+talksInterrupt
 (
 )
 :
@@ -22015,7 +22015,7 @@ MethodDefn
 MethodDecl
 (
 '
-FlushPendingRPCQueue
+FlushPendingInterruptQueue
 '
 ret
 =
@@ -22045,7 +22045,7 @@ THIS
 .
 '
 '
-FlushPendingRPCQueue
+FlushPendingInterruptQueue
 '
 )
 )
@@ -22362,7 +22362,7 @@ isToplevel
 and
 ptype
 .
-talksRpc
+talksInterrupt
 (
 )
 )
@@ -22376,7 +22376,7 @@ MethodDefn
 MethodDecl
 (
 '
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 '
 ret
 =
@@ -22419,7 +22419,7 @@ channelVar
 '
                                        
 '
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 '
 )
 )
@@ -32726,7 +32726,7 @@ ipdl
 .
 ast
 .
-RPC
+INTR
 or
 sems
 is
@@ -32739,7 +32739,7 @@ URGENT
                 
 self
 .
-rpcSwitch
+interruptSwitch
 .
 addcase
 (
@@ -35539,7 +35539,7 @@ decl
 .
 type
 .
-isRpc
+isInterrupt
 (
 )
 :
@@ -35561,7 +35561,7 @@ var
 >
 '
 '
-set_rpc
+set_interrupt
 '
 )
 )

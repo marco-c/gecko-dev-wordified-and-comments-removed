@@ -156,7 +156,7 @@ plugin
 .
 *
 /
-rpc
+intr
 protocol
 PBrowserStream
 {
@@ -224,7 +224,7 @@ __delete__
 ;
 parent
 :
-rpc
+intr
 NPN_RequestRead
 (
 IPCByteRanges

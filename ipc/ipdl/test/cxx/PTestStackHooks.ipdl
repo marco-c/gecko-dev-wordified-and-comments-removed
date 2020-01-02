@@ -4,7 +4,7 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestStackHooks
 {
@@ -49,14 +49,14 @@ Sync
 (
 )
 ;
-rpc
+intr
 Rpc
 (
 )
 ;
 both
 :
-rpc
+intr
 StackFrame
 (
 )

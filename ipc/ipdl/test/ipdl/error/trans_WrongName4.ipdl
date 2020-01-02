@@ -1,10 +1,10 @@
-rpc
+intr
 protocol
 trans_WrongName4
 {
 child
 :
-rpc
+intr
 Msg
 (
 )

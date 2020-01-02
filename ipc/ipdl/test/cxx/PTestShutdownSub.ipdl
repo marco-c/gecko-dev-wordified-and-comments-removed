@@ -1,18 +1,10 @@
 include
 protocol
-"
 PTestShutdown
-.
-ipdl
-"
 ;
 include
 protocol
-"
 PTestShutdownSubsub
-.
-ipdl
-"
 ;
 namespace
 mozilla
@@ -20,7 +12,7 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestShutdownSub
 {
@@ -32,7 +24,7 @@ PTestShutdownSubsub
 ;
 both
 :
-rpc
+intr
 StackFrame
 (
 )

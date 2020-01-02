@@ -164,7 +164,7 @@ PPluginScriptableObject
 ;
 }
 ;
-rpc
+intr
 protocol
 PPluginScriptableObject
 {
@@ -180,7 +180,7 @@ __delete__
 ;
 parent
 :
-rpc
+intr
 NPN_Evaluate
 (
 nsCString
@@ -196,7 +196,7 @@ aSuccess
 ;
 child
 :
-rpc
+intr
 Invalidate
 (
 )
@@ -207,7 +207,7 @@ both
 /
 NPClass
 methods
-rpc
+intr
 HasMethod
 (
 PPluginIdentifier
@@ -219,7 +219,7 @@ bool
 aHasMethod
 )
 ;
-rpc
+intr
 Invoke
 (
 PPluginIdentifier
@@ -237,7 +237,7 @@ bool
 aSuccess
 )
 ;
-rpc
+intr
 InvokeDefault
 (
 Variant
@@ -253,7 +253,7 @@ bool
 aSuccess
 )
 ;
-rpc
+intr
 HasProperty
 (
 PPluginIdentifier
@@ -265,7 +265,7 @@ bool
 aHasProperty
 )
 ;
-rpc
+intr
 SetProperty
 (
 PPluginIdentifier
@@ -279,7 +279,7 @@ bool
 aSuccess
 )
 ;
-rpc
+intr
 RemoveProperty
 (
 PPluginIdentifier
@@ -291,7 +291,7 @@ bool
 aSuccess
 )
 ;
-rpc
+intr
 Enumerate
 (
 )
@@ -305,7 +305,7 @@ bool
 aSuccess
 )
 ;
-rpc
+intr
 Construct
 (
 Variant
@@ -489,7 +489,7 @@ simultaneously
 /
 parent
 :
-rpc
+intr
 GetParentProperty
 (
 PPluginIdentifier
@@ -505,7 +505,7 @@ aSuccess
 ;
 child
 :
-rpc
+intr
 GetChildProperty
 (
 PPluginIdentifier

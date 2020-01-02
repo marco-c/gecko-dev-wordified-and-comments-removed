@@ -4,7 +4,7 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestNestedLoops
 {
@@ -15,7 +15,7 @@ Start
 (
 )
 ;
-rpc
+intr
 R
 (
 )

@@ -4,13 +4,13 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestSyncWakeup
 {
 both
 :
-rpc
+intr
 StackFrame
 (
 )

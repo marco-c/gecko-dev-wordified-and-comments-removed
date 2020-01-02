@@ -374,7 +374,7 @@ mozilla
 namespace
 dom
 {
-rpc
+intr
 protocol
 PBrowser
 {
@@ -451,7 +451,7 @@ RemoteDOMEvent
 aEvent
 )
 ;
-rpc
+intr
 CreateWindow
 (
 )

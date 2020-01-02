@@ -22,7 +22,7 @@ that
 opened
 them
 )
-rpc
+intr
 protocol
 PTestOpensOpened
 {
@@ -32,7 +32,7 @@ Hi
 (
 )
 ;
-rpc
+intr
 HiRpc
 (
 )
@@ -48,7 +48,7 @@ HelloSync
 (
 )
 ;
-rpc
+intr
 HelloRpc
 (
 )

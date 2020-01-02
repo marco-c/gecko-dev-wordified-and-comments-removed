@@ -230,7 +230,7 @@ for
 Bug
 716631
 .
-rpc
+intr
 protocol
 PCompositor
 {

@@ -12,7 +12,7 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestFailedCtorSub
 {

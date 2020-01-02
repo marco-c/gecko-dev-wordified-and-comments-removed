@@ -10061,7 +10061,7 @@ current
 self
 -
 >
-SendProcessNativeEventsInRPCCall
+SendProcessNativeEventsInInterruptCall
 (
 )
 ;
@@ -10251,7 +10251,7 @@ bool
 PluginModuleChild
 :
 :
-RecvProcessNativeEventsInRPCCall
+RecvProcessNativeEventsInInterruptCall
 (
 )
 {
@@ -10272,7 +10272,7 @@ defined
 (
 OS_WIN
 )
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 (
 )
 ;
@@ -10287,7 +10287,7 @@ NS_RUNTIMEABORT
 PluginModuleChild
 :
 :
-RecvProcessNativeEventsInRPCCall
+RecvProcessNativeEventsInInterruptCall
 not
 implemented
 !

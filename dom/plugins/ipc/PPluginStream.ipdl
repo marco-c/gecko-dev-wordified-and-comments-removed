@@ -147,7 +147,7 @@ browser
 .
 *
 /
-rpc
+intr
 protocol
 PPluginStream
 {
@@ -156,7 +156,7 @@ PPluginInstance
 ;
 parent
 :
-rpc
+intr
 NPN_Write
 (
 Buffer
@@ -213,7 +213,7 @@ NPN_Write
 .
 *
 /
-rpc
+intr
 __delete__
 (
 NPReason

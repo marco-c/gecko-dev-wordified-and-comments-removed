@@ -295,7 +295,7 @@ empty
 ;
 }
 void
-FlushPendingRPCQueue
+FlushPendingInterruptQueue
 (
 )
 ;
@@ -373,7 +373,7 @@ MessageChannel
 *
 channel
 bool
-rpc
+interrupt
 )
 ;
 ~
@@ -382,7 +382,7 @@ SyncStackFrame
 )
 ;
 bool
-mRPC
+mInterrupt
 ;
 bool
 mSpinNestedEvents
@@ -464,7 +464,7 @@ sStaticTopFrame
 public
 :
 void
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 (
 )
 ;
@@ -560,7 +560,7 @@ aReply
 )
 ;
 bool
-RPCCall
+InterruptCall
 (
 Message
 *
@@ -582,7 +582,7 @@ aReply
 )
 ;
 bool
-RPCEventOccurred
+InterruptEventOccurred
 (
 )
 ;
@@ -638,7 +638,7 @@ aMsg
 )
 ;
 void
-DispatchRPCMessage
+DispatchInterruptMessage
 (
 const
 Message
@@ -654,7 +654,7 @@ WaitForSyncNotify
 )
 ;
 bool
-WaitForRPCNotify
+WaitForInterruptNotify
 (
 )
 ;
@@ -785,9 +785,9 @@ OUT_MESSAGE
 }
 ;
 struct
-RPCFrame
+InterruptFrame
 {
-RPCFrame
+InterruptFrame
 (
 Direction
 direction
@@ -808,7 +808,7 @@ msg
 {
 }
 bool
-IsRPCIncall
+IsInterruptIncall
 (
 )
 const
@@ -817,7 +817,7 @@ return
 mMsg
 -
 >
-is_rpc
+is_interrupt
 (
 )
 &
@@ -829,7 +829,7 @@ mDirection
 ;
 }
 bool
-IsRPCOutcall
+IsInterruptOutcall
 (
 )
 const
@@ -838,7 +838,7 @@ return
 mMsg
 -
 >
-is_rpc
+is_interrupt
 (
 )
 &
@@ -907,12 +907,12 @@ sems
 mMsg
 -
 >
-is_rpc
+is_interrupt
 (
 )
 ?
 "
-rpc
+intr
 "
 :
 mMsg
@@ -1003,7 +1003,7 @@ mCxxStackFrames
 .
 push_back
 (
-RPCFrame
+InterruptFrame
 (
 direction
 msg
@@ -1011,7 +1011,7 @@ msg
 )
 ;
 const
-RPCFrame
+InterruptFrame
 &
 frame
 =
@@ -1027,7 +1027,7 @@ if
 (
 frame
 .
-IsRPCIncall
+IsInterruptIncall
 (
 )
 )
@@ -1039,12 +1039,12 @@ EnteredCall
 ;
 mThat
 .
-mSawRPCOutMsg
+mSawInterruptOutMsg
 |
 =
 frame
 .
-IsRPCOutcall
+IsInterruptOutcall
 (
 )
 ;
@@ -1065,7 +1065,7 @@ back
 (
 )
 .
-IsRPCIncall
+IsInterruptIncall
 (
 )
 ;
@@ -1178,7 +1178,7 @@ false
 const
 ;
 void
-DumpRPCStack
+DumpInterruptStack
 (
 const
 char
@@ -1194,7 +1194,7 @@ const
 private
 :
 size_t
-RPCStackDepth
+InterruptStackDepth
 (
 )
 const
@@ -1207,7 +1207,7 @@ AssertCurrentThreadOwns
 )
 ;
 return
-mRPCStack
+mInterruptStack
 .
 size
 (
@@ -1253,7 +1253,7 @@ mPendingUrgentReplies
 ;
 }
 bool
-AwaitingRPCReply
+AwaitingInterruptReply
 (
 )
 const
@@ -1267,7 +1267,7 @@ AssertCurrentThreadOwns
 ;
 return
 !
-mRPCStack
+mInterruptStack
 .
 empty
 (
@@ -1683,7 +1683,7 @@ stack
 <
 Message
 >
-mRPCStack
+mInterruptStack
 ;
 size_t
 mRemoteStackDepthGuess
@@ -1693,12 +1693,12 @@ std
 :
 vector
 <
-RPCFrame
+InterruptFrame
 >
 mCxxStackFrames
 ;
 bool
-mSawRPCOutMsg
+mSawInterruptOutMsg
 ;
 MessageMap
 mOutOfTurnReplies

@@ -1,10 +1,10 @@
-rpc
+intr
 protocol
 trans_WrongDirection5
 {
 parent
 :
-rpc
+intr
 Msg
 (
 )

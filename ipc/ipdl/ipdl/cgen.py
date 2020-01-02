@@ -17,7 +17,7 @@ OUT
 INOUT
 ASYNC
 SYNC
-RPC
+INTR
 URGENT
 class
 CodePrinter

@@ -382,7 +382,7 @@ aIdentifier
 )
 ;
 void
-ProcessRemoteNativeEventsInRPCCall
+ProcessRemoteNativeEventsInInterruptCall
 (
 )
 ;
@@ -414,8 +414,8 @@ mozilla
 ipc
 :
 :
-RacyRPCPolicy
-MediateRPCRace
+RacyInterruptPolicy
+MediateInterruptRace
 (
 const
 Message
@@ -509,7 +509,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvProcessNativeEventsInRPCCall
+RecvProcessNativeEventsInInterruptCall
 (
 )
 MOZ_OVERRIDE

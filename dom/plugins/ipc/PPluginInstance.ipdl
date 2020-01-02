@@ -364,7 +364,7 @@ hostPtr
 ;
 }
 ;
-rpc
+intr
 protocol
 PPluginInstance
 {
@@ -391,19 +391,19 @@ PPluginSurface
 ;
 child
 :
-rpc
+intr
 __delete__
 (
 )
 ;
-rpc
+intr
 NPP_SetWindow
 (
 NPRemoteWindow
 window
 )
 ;
-rpc
+intr
 NPP_GetValue_NPPVpluginWantsAllNetworkStreams
 (
 )
@@ -427,7 +427,7 @@ non
 -
 X
 platforms
-rpc
+intr
 NPP_GetValue_NPPVpluginNeedsXEmbed
 (
 )
@@ -439,7 +439,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPP_GetValue_NPPVpluginScriptableNPObject
 (
 )
@@ -452,7 +452,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPP_SetValue_NPNVprivateModeBool
 (
 bool
@@ -464,7 +464,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPP_GetValue_NPPVpluginNativeAccessibleAtkPlugId
 (
 )
@@ -476,7 +476,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPP_HandleEvent
 (
 NPRemoteEvent
@@ -500,7 +500,7 @@ a
 shared
 memory
 buffer
-rpc
+intr
 NPP_HandleEvent_Shmem
 (
 NPRemoteEvent
@@ -525,7 +525,7 @@ we
 need
 an
 iosurface
-rpc
+intr
 NPP_HandleEvent_IOSurface
 (
 NPRemoteEvent
@@ -550,7 +550,7 @@ make
 mediating
 races
 simpler
-rpc
+intr
 Paint
 (
 NPRemoteEvent
@@ -800,7 +800,7 @@ NPP_DidComposite
 (
 )
 ;
-rpc
+intr
 NPP_Destroy
 (
 )
@@ -812,7 +812,7 @@ rv
 ;
 parent
 :
-rpc
+intr
 NPN_GetValue_NPNVWindowNPObject
 (
 )
@@ -825,7 +825,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_GetValue_NPNVPluginElementNPObject
 (
 )
@@ -838,7 +838,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_GetValue_NPNVprivateModeBool
 (
 )
@@ -850,7 +850,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_GetValue_NPNVnetscapeWindow
 (
 )
@@ -862,7 +862,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_GetValue_NPNVdocumentOrigin
 (
 )
@@ -874,7 +874,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_GetValue_DrawingModelSupport
 (
 NPNVariable
@@ -886,7 +886,7 @@ bool
 value
 )
 ;
-rpc
+intr
 NPN_SetValue_NPPVpluginWindow
 (
 bool
@@ -898,7 +898,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_SetValue_NPPVpluginTransparent
 (
 bool
@@ -910,7 +910,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_SetValue_NPPVpluginUsesDOMForCursor
 (
 bool
@@ -922,7 +922,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_SetValue_NPPVpluginDrawingModel
 (
 int
@@ -938,7 +938,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_SetValue_NPPVpluginEventModel
 (
 int
@@ -950,7 +950,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_GetURL
 (
 nsCString
@@ -964,7 +964,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_PostURL
 (
 nsCString
@@ -1016,7 +1016,7 @@ constructors
 .
 *
 /
-rpc
+intr
 PStreamNotify
 (
 nsCString
@@ -1159,19 +1159,19 @@ bool
 transparent
 )
 ;
-rpc
+intr
 NPN_PushPopupsEnabledState
 (
 bool
 aState
 )
 ;
-rpc
+intr
 NPN_PopPopupsEnabledState
 (
 )
 ;
-rpc
+intr
 NPN_GetValueForURL
 (
 NPNURLVariable
@@ -1187,7 +1187,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_SetValueForURL
 (
 NPNURLVariable
@@ -1203,7 +1203,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_GetAuthenticationInfo
 (
 nsCString
@@ -1227,7 +1227,7 @@ NPError
 result
 )
 ;
-rpc
+intr
 NPN_ConvertPoint
 (
 double
@@ -1258,7 +1258,7 @@ RedrawPlugin
 (
 )
 ;
-rpc
+intr
 NPN_InitAsyncSurface
 (
 gfxIntSize
@@ -1350,7 +1350,7 @@ child
 NPP_NewStream
 *
 /
-rpc
+intr
 PBrowserStream
 (
 nsCString
@@ -1384,7 +1384,7 @@ parent
 NPN_NewStream
 *
 /
-rpc
+intr
 PPluginStream
 (
 nsCString
@@ -1400,7 +1400,7 @@ result
 ;
 parent
 :
-rpc
+intr
 PluginFocusChange
 (
 bool
@@ -1409,12 +1409,12 @@ gotFocus
 ;
 child
 :
-rpc
+intr
 SetPluginFocus
 (
 )
 ;
-rpc
+intr
 UpdateWindow
 (
 )

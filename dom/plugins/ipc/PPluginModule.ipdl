@@ -168,7 +168,7 @@ mozilla
 namespace
 plugins
 {
-rpc
+intr
 protocol
 PPluginModule
 {
@@ -307,7 +307,7 @@ lifetime
 of
 the
 current
-RPC
+inerrupt
 frame
 .
 *
@@ -332,7 +332,7 @@ message
 which
 instructs
 the
-RPC
+interrupt
 mechanism
 to
 enter
@@ -345,11 +345,11 @@ loop
 for
 the
 current
-RPC
+interrupt
 call
 .
 async
-ProcessNativeEventsInRPCCall
+ProcessNativeEventsInInterruptCall
 (
 )
 ;
@@ -368,7 +368,7 @@ plugin
 function
 table
 .
-rpc
+intr
 NP_GetEntryPoints
 (
 )
@@ -378,7 +378,7 @@ NPError
 rv
 )
 ;
-rpc
+intr
 NP_Initialize
 (
 uint32_t
@@ -390,7 +390,7 @@ NPError
 rv
 )
 ;
-rpc
+intr
 PPluginInstance
 (
 nsCString
@@ -412,7 +412,7 @@ NPError
 rv
 )
 ;
-rpc
+intr
 NP_Shutdown
 (
 )
@@ -422,7 +422,7 @@ NPError
 rv
 )
 ;
-rpc
+intr
 OptionalFunctionsSupported
 (
 )
@@ -436,7 +436,7 @@ bool
 aGetSitesWithData
 )
 ;
-rpc
+intr
 NPP_ClearSiteData
 (
 nsCString
@@ -452,7 +452,7 @@ NPError
 rv
 )
 ;
-rpc
+intr
 NPP_GetSitesWithData
 (
 )
@@ -497,7 +497,7 @@ uint32_t
 seconds
 )
 ;
-rpc
+intr
 PCrashReporter
 (
 )
@@ -509,7 +509,7 @@ uint32_t
 processType
 )
 ;
-rpc
+intr
 GeckoGetProfile
 (
 )
@@ -638,7 +638,7 @@ FileDescriptor
 aXSocketFd
 )
 ;
-rpc
+intr
 NPN_UserAgent
 (
 )
@@ -648,7 +648,7 @@ nsCString
 userAgent
 )
 ;
-rpc
+intr
 NPN_GetValue_WithBoolReturn
 (
 NPNVariable
@@ -719,7 +719,7 @@ glitches
 can
 occur
 .
-rpc
+intr
 ProcessSomeEvents
 (
 )

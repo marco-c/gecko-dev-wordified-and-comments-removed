@@ -12,7 +12,7 @@ mozilla
 namespace
 _ipdltest
 {
-rpc
+intr
 protocol
 PTestDesc
 {
@@ -21,7 +21,7 @@ PTestDescSub
 ;
 child
 :
-rpc
+intr
 PTestDescSub
 (
 nullable

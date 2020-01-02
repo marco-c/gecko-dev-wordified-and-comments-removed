@@ -264,7 +264,7 @@ right
 ipc
 :
 :
-RacyRPCPolicy
+RacyInterruptPolicy
 MediateRace
 (
 const
@@ -320,7 +320,7 @@ return
 ipc
 :
 :
-RRPParentWins
+RIPParentWins
 ;
 default
 :
@@ -328,7 +328,7 @@ return
 ipc
 :
 :
-RRPChildWins
+RIPChildWins
 ;
 }
 }
