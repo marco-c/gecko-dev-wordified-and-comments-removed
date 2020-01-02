@@ -3752,7 +3752,7 @@ watchdog
 .
 timeoutSecs
 "
-5
+10
 )
 ;
 pref
