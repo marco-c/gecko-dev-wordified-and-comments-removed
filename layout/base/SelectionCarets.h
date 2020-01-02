@@ -193,7 +193,7 @@ GetCaretYCenterPosition
 )
 ;
 void
-SetMouseDownState
+SetSelectionDragState
 (
 bool
 aState

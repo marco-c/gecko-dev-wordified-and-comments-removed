@@ -13006,7 +13006,7 @@ clickCount
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -13172,7 +13172,7 @@ parentContent
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -13345,7 +13345,7 @@ inSelection
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -13366,7 +13366,7 @@ NS_OK
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -13466,7 +13466,7 @@ StartOffset
 fc
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -14165,7 +14165,7 @@ mouseDown
 frameselection
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 ;
@@ -14447,7 +14447,7 @@ NS_ERROR_FAILURE
 aFrameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 true
 )
@@ -14506,7 +14506,7 @@ aParentContentForTableSel
 aFrameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -14554,7 +14554,7 @@ SetDelayedCaretData
 aFrameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
@@ -14710,7 +14710,7 @@ mouseDown
 frameselection
 -
 >
-GetMouseDownState
+GetDragState
 (
 )
 ;
@@ -14920,7 +14920,7 @@ frameSelection
 frameSelection
 -
 >
-SetMouseDownState
+SetDragState
 (
 false
 )
