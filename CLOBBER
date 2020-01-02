@@ -195,7 +195,12 @@ any
 more
 .
 Bug
-978238
+904723
+(
+Array
+.
+from
+)
 needs
 clobber
 because
@@ -205,6 +210,11 @@ to
 js
 .
 msg
+and
+self
+-
+hosted
+code
 (
 see
 bug
