@@ -467,6 +467,12 @@ mScroll
 }
 private
 :
+~
+TextTrackRegion
+(
+)
+{
+}
 nsCOMPtr
 <
 nsISupports

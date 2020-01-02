@@ -753,6 +753,8 @@ aRecognition
 )
 {
 }
+private
+:
 virtual
 ~
 GetUserMediaSuccessCallback
@@ -760,8 +762,6 @@ GetUserMediaSuccessCallback
 )
 {
 }
-private
-:
 nsRefPtr
 <
 SpeechRecognition
@@ -793,6 +793,8 @@ aRecognition
 )
 {
 }
+private
+:
 virtual
 ~
 GetUserMediaErrorCallback
@@ -800,8 +802,6 @@ GetUserMediaErrorCallback
 )
 {
 }
-private
-:
 nsRefPtr
 <
 SpeechRecognition

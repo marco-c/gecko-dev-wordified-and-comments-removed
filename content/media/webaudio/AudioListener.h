@@ -459,6 +459,12 @@ aPannerNode
 ;
 private
 :
+~
+AudioListener
+(
+)
+{
+}
 void
 SendDoubleParameterToStream
 (

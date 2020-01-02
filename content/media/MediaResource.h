@@ -1793,6 +1793,12 @@ nsIInterfaceRequestor
 public
 nsIChannelEventSink
 {
+~
+Listener
+(
+)
+{
+}
 public
 :
 Listener
@@ -1805,12 +1811,6 @@ aResource
 mResource
 (
 aResource
-)
-{
-}
-~
-Listener
-(
 )
 {
 }

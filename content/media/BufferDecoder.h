@@ -48,12 +48,6 @@ MediaResource
 aResource
 )
 ;
-virtual
-~
-BufferDecoder
-(
-)
-;
 NS_DECL_THREADSAFE_ISUPPORTS
 void
 BeginDecoding
@@ -281,6 +275,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+BufferDecoder
+(
+)
+;
 ReentrantMonitor
 mReentrantMonitor
 ;

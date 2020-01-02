@@ -77,12 +77,6 @@ aText
 )
 ;
 virtual
-~
-nsSpeechTask
-(
-)
-;
-virtual
 void
 Pause
 (
@@ -132,6 +126,12 @@ aIndirectAudio
 }
 protected
 :
+virtual
+~
+nsSpeechTask
+(
+)
+;
 virtual
 nsresult
 DispatchStartImpl

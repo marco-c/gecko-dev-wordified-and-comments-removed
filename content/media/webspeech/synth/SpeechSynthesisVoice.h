@@ -83,12 +83,6 @@ nsAString
 aUri
 )
 ;
-virtual
-~
-SpeechSynthesisVoice
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -153,6 +147,12 @@ const
 ;
 private
 :
+virtual
+~
+SpeechSynthesisVoice
+(
+)
+;
 nsCOMPtr
 <
 nsISupports

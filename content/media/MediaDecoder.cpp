@@ -255,6 +255,12 @@ MediaMemoryTracker
 public
 nsIMemoryReporter
 {
+virtual
+~
+MediaMemoryTracker
+(
+)
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
 MOZ_DEFINE_MALLOC_SIZE_OF
@@ -262,12 +268,6 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 MallocSizeOf
 )
 ;
-MediaMemoryTracker
-(
-)
-;
-virtual
-~
 MediaMemoryTracker
 (
 )

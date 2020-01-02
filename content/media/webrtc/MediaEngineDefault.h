@@ -113,11 +113,6 @@ MediaEngineDefaultVideoSource
 (
 )
 ;
-~
-MediaEngineDefaultVideoSource
-(
-)
-;
 virtual
 void
 GetName
@@ -242,6 +237,11 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 protected
 :
+~
+MediaEngineDefaultVideoSource
+(
+)
+;
 friend
 class
 MediaEngineDefault
@@ -300,11 +300,6 @@ MediaEngineAudioSource
 {
 public
 :
-MediaEngineDefaultAudioSource
-(
-)
-;
-~
 MediaEngineDefaultAudioSource
 (
 )
@@ -434,6 +429,11 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 protected
 :
+~
+MediaEngineDefaultAudioSource
+(
+)
+;
 TrackID
 mTrackID
 ;

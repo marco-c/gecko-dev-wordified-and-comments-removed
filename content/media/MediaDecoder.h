@@ -298,12 +298,6 @@ MediaDecoder
 )
 ;
 virtual
-~
-MediaDecoder
-(
-)
-;
-virtual
 void
 ResetConnectionState
 (
@@ -1839,6 +1833,12 @@ aDecoded
 }
 protected
 :
+virtual
+~
+MediaDecoder
+(
+)
+;
 int64_t
 mDecoderPosition
 ;

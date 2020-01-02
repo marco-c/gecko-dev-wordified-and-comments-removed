@@ -112,11 +112,6 @@ aFailureCallback
 nullptr
 )
 ;
-~
-WebAudioDecodeJob
-(
-)
-;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 WebAudioDecodeJob
@@ -242,6 +237,13 @@ FallibleTArray
 ChannelBuffer
 >
 mChannelBuffers
+;
+private
+:
+~
+WebAudioDecodeJob
+(
+)
 ;
 }
 ;

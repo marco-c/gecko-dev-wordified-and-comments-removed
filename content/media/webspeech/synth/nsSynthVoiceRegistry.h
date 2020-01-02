@@ -70,12 +70,6 @@ nsSynthVoiceRegistry
 (
 )
 ;
-virtual
-~
-nsSynthVoiceRegistry
-(
-)
-;
 already_AddRefed
 <
 nsSpeechTask
@@ -192,6 +186,12 @@ Shutdown
 ;
 private
 :
+virtual
+~
+nsSynthVoiceRegistry
+(
+)
+;
 VoiceData
 *
 FindBestMatch

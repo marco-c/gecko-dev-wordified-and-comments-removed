@@ -194,6 +194,15 @@ SetIsDOMBinding
 )
 ;
 }
+TextTrackCueList
+:
+:
+~
+TextTrackCueList
+(
+)
+{
+}
 JSObject
 *
 TextTrackCueList

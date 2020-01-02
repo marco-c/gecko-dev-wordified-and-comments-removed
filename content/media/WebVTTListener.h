@@ -91,11 +91,6 @@ HTMLTrackElement
 aElement
 )
 ;
-~
-WebVTTListener
-(
-)
-;
 nsresult
 LoadResource
 (
@@ -103,6 +98,11 @@ LoadResource
 ;
 private
 :
+~
+WebVTTListener
+(
+)
+;
 enum
 ErrorCodes
 {

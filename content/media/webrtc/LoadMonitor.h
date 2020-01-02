@@ -113,11 +113,6 @@ int
 aLoadUpdateInterval
 )
 ;
-~
-LoadMonitor
-(
-)
-;
 nsresult
 Init
 (
@@ -158,6 +153,11 @@ LoadInfoCollectRunner
 ;
 private
 :
+~
+LoadMonitor
+(
+)
+;
 void
 SetProcessLoad
 (
