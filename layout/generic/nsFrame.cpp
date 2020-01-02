@@ -11033,7 +11033,7 @@ AutoInFixedPosSetter
 buildingInFixedPos
 (
 aBuilder
-isFixedPos
+isInFixedPos
 )
 ;
 nsDisplayListBuilder
