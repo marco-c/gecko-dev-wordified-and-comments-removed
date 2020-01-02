@@ -2907,9 +2907,7 @@ static
 void
 DoCommandCallback
 (
-const
-char
-*
+Command
 aCommand
 void
 *
@@ -3024,6 +3022,19 @@ controllers
 return
 ;
 }
+const
+char
+*
+commandStr
+=
+WidgetKeyboardEvent
+:
+:
+GetCommandStr
+(
+aCommand
+)
+;
 nsCOMPtr
 <
 nsIController
@@ -3035,7 +3046,7 @@ controllers
 >
 GetControllerForCommand
 (
-aCommand
+commandStr
 getter_AddRefs
 (
 controller
@@ -3062,7 +3073,7 @@ controller
 >
 IsCommandEnabled
 (
-aCommand
+commandStr
 &
 commandEnabled
 )
@@ -3082,7 +3093,7 @@ controller
 >
 DoCommand
 (
-aCommand
+commandStr
 )
 ;
 }

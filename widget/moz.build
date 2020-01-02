@@ -605,6 +605,11 @@ BasicEvents
 h
 '
 '
+CommandList
+.
+h
+'
+'
 ContentEvents
 .
 h

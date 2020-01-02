@@ -127,9 +127,7 @@ nsPtrHashKey
 struct
 objc_selector
 >
-const
-char
-*
+CommandInt
 >
 SelectorCommandHashtable
 ;
