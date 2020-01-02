@@ -348,6 +348,10 @@ ByteString
 "
              
 "
+ScalarValueString
+"
+             
+"
 object
 "
              
