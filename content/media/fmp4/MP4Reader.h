@@ -217,6 +217,13 @@ IsWaitingMediaResources
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsresult
+ResetDecode
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 void
@@ -503,6 +510,10 @@ mDrainComplete
 (
 false
 )
+mEOS
+(
+false
+)
 {
 }
 nsRefPtr
@@ -549,6 +560,9 @@ mIsFlushing
 ;
 bool
 mDrainComplete
+;
+bool
+mEOS
 ;
 }
 ;
