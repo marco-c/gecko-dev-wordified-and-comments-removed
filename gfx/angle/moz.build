@@ -821,6 +821,12 @@ CXXFLAGS
 -
 Wno
 -
+attributes
+'
+'
+-
+Wno
+-
 sign
 -
 compare
