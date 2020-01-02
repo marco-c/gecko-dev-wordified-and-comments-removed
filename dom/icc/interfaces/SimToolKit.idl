@@ -2075,6 +2075,15 @@ is
 -
 STK_CMD_OPEN_CHANNEL
 *
+-
+STK_CMD_CLOSE_CHANNEL
+*
+-
+STK_CMD_SEND_DATA
+*
+-
+STK_CMD_RECEIVE_DATA
+*
 options
 is
 MozStkBipMessage
