@@ -1276,7 +1276,7 @@ mir
 (
 )
 ;
-Operand
+Address
 dst
 (
 StackPointer
@@ -1305,7 +1305,7 @@ isConstant
 {
 masm
 .
-mov
+store32
 (
 Imm32
 (
@@ -1341,7 +1341,7 @@ isGeneralReg
 )
 masm
 .
-mov
+storePtr
 (
 ToRegister
 (
@@ -1369,7 +1369,10 @@ arg
 (
 )
 )
+Operand
+(
 dst
+)
 )
 ;
 }

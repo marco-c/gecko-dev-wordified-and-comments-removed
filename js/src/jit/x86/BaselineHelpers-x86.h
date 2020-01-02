@@ -111,9 +111,9 @@ offset
 ;
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -166,9 +166,9 @@ offsetOfFirstMonitorStub
 {
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -307,7 +307,7 @@ masm
 store32
 (
 ebx
-Operand
+Address
 (
 BaselineFrameReg
 BaselineFrame
@@ -518,7 +518,7 @@ masm
 store32
 (
 scratch
-Operand
+Address
 (
 BaselineFrameReg
 BaselineFrame
@@ -875,9 +875,9 @@ BaselineStubReg
 ;
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -1083,9 +1083,9 @@ masm
 {
 masm
 .
-movl
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (

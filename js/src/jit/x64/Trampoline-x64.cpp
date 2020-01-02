@@ -1910,9 +1910,9 @@ r8
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 rsp
 IonRectifierFrameLayout
@@ -1959,9 +1959,9 @@ rcx
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 rsp
 IonRectifierFrameLayout
@@ -2172,9 +2172,9 @@ r9
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 rax
 JSFunction

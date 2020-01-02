@@ -111,9 +111,9 @@ offset
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -166,9 +166,9 @@ offsetOfFirstMonitorStub
 {
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -861,9 +861,9 @@ BaselineStubReg
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 (
@@ -1069,9 +1069,9 @@ masm
 {
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 BaselineStubReg
 ICStub

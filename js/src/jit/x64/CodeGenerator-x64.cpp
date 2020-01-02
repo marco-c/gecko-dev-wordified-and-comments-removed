@@ -326,9 +326,9 @@ frameOffset
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 ToRegister
 (
@@ -805,9 +805,9 @@ Value
 ;
 masm
 .
-movq
+loadPtr
 (
-Operand
+Address
 (
 base
 offset
