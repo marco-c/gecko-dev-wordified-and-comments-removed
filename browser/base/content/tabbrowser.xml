@@ -11560,6 +11560,11 @@ tabs
 [
 i
 ]
+{
+animate
+:
+true
+}
 )
 ;
 closedTabs

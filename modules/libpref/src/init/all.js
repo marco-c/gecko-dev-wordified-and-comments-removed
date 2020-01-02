@@ -1808,6 +1808,7 @@ backends
 "
 "
 direct2d
+cairo
 "
 )
 ;
@@ -38562,6 +38563,18 @@ wap
 -
 profile
 "
+)
+;
+pref
+(
+"
+dom
+.
+mms
+.
+version
+"
+19
 )
 ;
 pref
