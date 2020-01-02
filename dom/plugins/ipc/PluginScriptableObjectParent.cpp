@@ -74,6 +74,13 @@ parent
 ;
 namespace
 {
+typedef
+PluginIdentifierParent
+:
+:
+StackIdentifier
+StackIdentifier
+;
 inline
 void
 ReleaseVariant
@@ -476,9 +483,6 @@ return
 false
 ;
 }
-PluginIdentifierParent
-:
-:
 StackIdentifier
 identifier
 (
@@ -666,9 +670,6 @@ return
 false
 ;
 }
-PluginIdentifierParent
-:
-:
 StackIdentifier
 identifier
 (
@@ -1186,9 +1187,6 @@ return
 false
 ;
 }
-PluginIdentifierParent
-:
-:
 StackIdentifier
 identifier
 (
@@ -1405,9 +1403,6 @@ return
 false
 ;
 }
-PluginIdentifierParent
-:
-:
 StackIdentifier
 identifier
 (
@@ -1625,9 +1620,6 @@ return
 false
 ;
 }
-PluginIdentifierParent
-:
-:
 StackIdentifier
 identifier
 (
@@ -6309,9 +6301,6 @@ return
 false
 ;
 }
-PluginIdentifierParent
-:
-:
 StackIdentifier
 identifier
 (

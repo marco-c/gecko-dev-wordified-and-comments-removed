@@ -1,10 +1,4 @@
 #
-ifndef
-mozilla_dom_TCPSocketParent_h
-#
-define
-mozilla_dom_TCPSocketParent_h
-#
 include
 "
 mozilla
@@ -259,5 +253,3 @@ mIntermediaryObj
 ;
 }
 }
-#
-endif

@@ -144,7 +144,7 @@ UDPSocketParent
 h
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -213,7 +213,7 @@ MobileConnectionArray
 h
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [

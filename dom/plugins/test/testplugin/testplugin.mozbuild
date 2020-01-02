@@ -96,7 +96,7 @@ MPL
 NO_DIST_INSTALL
 =
 True
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -128,7 +128,7 @@ cpp
 '
 ]
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -154,7 +154,7 @@ toolkit
 cocoa
 '
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -175,7 +175,7 @@ toolkit
 gtk2
 '
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -196,7 +196,7 @@ toolkit
 android
 '
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -217,7 +217,7 @@ toolkit
 os2
 '
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -238,7 +238,7 @@ toolkit
 qt
 '
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -259,7 +259,7 @@ toolkit
 windows
 '
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
