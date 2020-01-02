@@ -6028,18 +6028,6 @@ return
 SECFailure
 ;
 }
-if
-(
-protos_len
-=
-=
-0
-)
-{
-goto
-pick_first
-;
-}
 for
 (
 i
@@ -6183,8 +6171,6 @@ i
 ]
 ;
 }
-pick_first
-:
 ss
 -
 >
