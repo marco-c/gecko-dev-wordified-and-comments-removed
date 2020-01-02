@@ -162,7 +162,7 @@ mIDHash
 ;
 }
 ;
-int32_t
+bool
 FindInternal
 (
 const
@@ -173,6 +173,9 @@ const
 CERTCertificate
 *
 aIssuerCert
+size_t
+&
+index
 const
 MutexAutoLock
 &
