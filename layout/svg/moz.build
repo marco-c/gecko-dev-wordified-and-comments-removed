@@ -173,11 +173,6 @@ nsSVGGenericContainerFrame
 cpp
 '
 '
-nsSVGGeometryFrame
-.
-cpp
-'
-'
 nsSVGGFrame
 .
 cpp

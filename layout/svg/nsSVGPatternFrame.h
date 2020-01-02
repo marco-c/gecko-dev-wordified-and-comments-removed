@@ -54,6 +54,9 @@ class
 nsSVGLength2
 ;
 class
+nsSVGPathGeometryFrame
+;
+class
 nsSVGViewBox
 ;
 namespace
@@ -439,7 +442,7 @@ aTarget
 ;
 private
 :
-nsSVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 mSource
 ;

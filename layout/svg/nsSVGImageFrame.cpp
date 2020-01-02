@@ -264,6 +264,7 @@ uint16_t
 GetHitTestFlags
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged

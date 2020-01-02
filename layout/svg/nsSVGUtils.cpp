@@ -222,13 +222,6 @@ h
 #
 include
 "
-nsSVGGeometryFrame
-.
-h
-"
-#
-include
-"
 gfxSVGGlyphs
 .
 h
@@ -1899,7 +1892,7 @@ aTransformRoot
 return
 static_cast
 <
-nsSVGGeometryFrame
+nsSVGPathGeometryFrame
 *
 >
 (

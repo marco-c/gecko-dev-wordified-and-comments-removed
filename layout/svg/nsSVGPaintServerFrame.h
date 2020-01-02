@@ -64,9 +64,6 @@ gfxPattern
 class
 nsStyleContext
 ;
-class
-nsSVGGeometryFrame
-;
 struct
 gfxRect
 ;
