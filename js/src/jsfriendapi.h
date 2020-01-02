@@ -5497,7 +5497,11 @@ jsid
 )
 =
 =
-JS_BYTES_PER_WORD
+sizeof
+(
+void
+*
+)
 )
 ;
 namespace
