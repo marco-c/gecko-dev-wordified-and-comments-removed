@@ -410,6 +410,11 @@ testStructuredClone
 cpp
 '
 '
+testSymbol
+.
+cpp
+'
+'
 testToIntWidth
 .
 cpp

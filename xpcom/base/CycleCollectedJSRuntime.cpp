@@ -2343,6 +2343,9 @@ Object
 String
 "
 "
+Symbol
+"
+"
 Script
 "
 "
