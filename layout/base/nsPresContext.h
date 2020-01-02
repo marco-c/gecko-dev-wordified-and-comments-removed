@@ -282,9 +282,6 @@ class
 nsAnimationManager
 ;
 class
-nsIDOMMediaQueryList
-;
-class
 nsRefreshDriver
 ;
 class

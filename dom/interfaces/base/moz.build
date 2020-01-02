@@ -183,11 +183,6 @@ nsIDOMLocation
 idl
 '
 '
-nsIDOMMediaQueryList
-.
-idl
-'
-'
 nsIDOMModalContentWindow
 .
 idl
