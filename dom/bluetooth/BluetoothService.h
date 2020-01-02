@@ -838,14 +838,6 @@ StopInternal
 0
 ;
 virtual
-bool
-IsEnabledInternal
-(
-)
-=
-0
-;
-virtual
 nsresult
 HandleStartup
 (
