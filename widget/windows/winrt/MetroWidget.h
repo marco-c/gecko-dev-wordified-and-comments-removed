@@ -848,6 +848,14 @@ ChangedDPI
 )
 ;
 virtual
+uint32_t
+GetMaxTouchPoints
+(
+)
+const
+MOZ_OVERRIDE
+;
+virtual
 bool
 IsVisible
 (

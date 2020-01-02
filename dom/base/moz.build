@@ -814,6 +814,12 @@ layout
 /
 xul
 '
+'
+/
+widget
+/
+shared
+'
 ]
 if
 CONFIG

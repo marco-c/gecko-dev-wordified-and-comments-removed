@@ -723,6 +723,13 @@ bool
 aModal
 )
 ;
+virtual
+uint32_t
+GetMaxTouchPoints
+(
+)
+const
+;
 NS_IMETHOD
 SetWindowClass
 (
