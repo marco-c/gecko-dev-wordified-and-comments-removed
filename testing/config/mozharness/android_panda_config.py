@@ -337,13 +337,6 @@ s
 "
 -
 -
-enable
--
-privilege
-"
-"
--
--
 ignore
 -
 window
@@ -473,13 +466,6 @@ app_name
 s
 "
         
-"
--
--
-enable
--
-privilege
-"
 "
 -
 -
