@@ -98,7 +98,7 @@ LIBRARY_NAME
 '
 editline
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
