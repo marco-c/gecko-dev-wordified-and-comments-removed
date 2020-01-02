@@ -1019,6 +1019,9 @@ class
 =
 "
 subviewbutton
+cui
+-
+withicon
 "
 oncommand
 =
@@ -1061,6 +1064,9 @@ class
 =
 "
 subviewbutton
+cui
+-
+withicon
 "
 oncommand
 =
@@ -1085,6 +1091,13 @@ hide
 >
 <
 toolbarseparator
+class
+=
+"
+small
+-
+separator
+"
 /
 >
 <
