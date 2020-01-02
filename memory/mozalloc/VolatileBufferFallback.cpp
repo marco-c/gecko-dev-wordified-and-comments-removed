@@ -139,6 +139,9 @@ defined
 (
 HAVE_POSIX_MEMALIGN
 )
+(
+void
+)
 moz_posix_memalign
 (
 &
