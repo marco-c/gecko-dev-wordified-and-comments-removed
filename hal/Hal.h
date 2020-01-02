@@ -993,6 +993,11 @@ GetTotalSystemMemoryLevel
 (
 )
 ;
+bool
+IsHeadphoneEventFromInputDev
+(
+)
+;
 }
 }
 #

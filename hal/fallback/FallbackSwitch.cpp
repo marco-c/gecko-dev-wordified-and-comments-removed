@@ -57,5 +57,14 @@ aState
 )
 {
 }
+bool
+IsHeadphoneEventFromInputDev
+(
+)
+{
+return
+false
+;
+}
 }
 }
