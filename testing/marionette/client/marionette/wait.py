@@ -126,8 +126,8 @@ for
 an
 element
 on
-the
     
+the
 page
 .
     
@@ -142,7 +142,7 @@ self
 marionette
 timeout
 =
-DEFAULT_TIMEOUT
+None
                  
 interval
 =
@@ -299,8 +299,20 @@ true
 .
 The
 default
-time
+timeout
 is
+the
+timeout
+            
+property
+on
+the
+Marionette
+object
+if
+set
+or
+            
 wait
 .
 DEFAULT_TIMEOUT
@@ -426,6 +438,27 @@ self
 timeout
 =
 timeout
+or
+(
+self
+.
+marionette
+.
+timeout
+and
+                                   
+self
+.
+marionette
+.
+timeout
+/
+1000
+.
+0
+)
+or
+DEFAULT_TIMEOUT
         
 self
 .
@@ -639,8 +672,8 @@ returns
 successfully
 or
 a
-TimeoutException
         
+TimeoutException
 is
 raised
 .
