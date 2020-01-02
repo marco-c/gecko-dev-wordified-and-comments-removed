@@ -5143,7 +5143,7 @@ by
 a
 more
 specific
-reporter
+report
 .
 This
 includes
@@ -7220,7 +7220,7 @@ aNMerged
 +
 "
 memory
-reporters
+reports
 that
 all
 have
