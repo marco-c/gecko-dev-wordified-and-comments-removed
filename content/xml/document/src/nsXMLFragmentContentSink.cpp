@@ -1327,14 +1327,6 @@ mDocShell
 =
 nullptr
 ;
-mDocElement
-=
-nullptr
-;
-mCurrentHead
-=
-nullptr
-;
 if
 (
 mParseError
