@@ -6659,7 +6659,7 @@ if
 addonId
 )
 return
-nullptr
+false
 ;
 }
 return
