@@ -180,6 +180,7 @@ url
 ;
 [
 Throws
+CrossOriginCallable
 ]
 void
 replace

@@ -225,6 +225,9 @@ href
 ;
 [
 Throws
+CrossOriginWritable
+=
+Location
 ]
 attribute
 DOMString
