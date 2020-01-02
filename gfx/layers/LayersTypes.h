@@ -174,10 +174,6 @@ layers
 class
 TextureHost
 ;
-typedef
-uint32_t
-TextureFlags
-;
 #
 undef
 NONE
