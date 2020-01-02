@@ -982,9 +982,6 @@ mBufferedHTTP1Used
 20480
 )
 {
-SpdySession3
-:
-:
 EnsureBuffer
 (
 mBufferedHTTP1

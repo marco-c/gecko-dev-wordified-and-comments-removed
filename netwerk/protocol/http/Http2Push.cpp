@@ -793,9 +793,6 @@ mBufferedHTTP1Used
 20480
 )
 {
-Http2Session
-:
-:
 EnsureBuffer
 (
 mBufferedHTTP1
