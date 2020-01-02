@@ -27412,7 +27412,6 @@ JSJitInfo
 :
 AliasNone
 nullptr
-nullptr
 }
 ;
 static
@@ -27443,7 +27442,6 @@ JSJitInfo
 :
 AliasEverything
 nullptr
-nullptr
 }
 ;
 static
@@ -27473,7 +27471,6 @@ JSJitInfo
 :
 :
 AliasEverything
-nullptr
 nullptr
 }
 ;
