@@ -27,6 +27,17 @@ include
 "
 mozilla
 /
+layers
+/
+APZCTreeManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -143,9 +154,6 @@ PCompositorParent
 ;
 class
 ViewTransform
-;
-class
-APZCTreeManager
 ;
 class
 AsyncPanZoomAnimation
