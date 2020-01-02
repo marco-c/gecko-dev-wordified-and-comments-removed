@@ -209,7 +209,7 @@ frame
 endif
 static_assert
 (
-NS_STYLE_CLEAR_LAST_VALUE
+NS_STYLE_CLEAR_MAX
 <
 =
 15
