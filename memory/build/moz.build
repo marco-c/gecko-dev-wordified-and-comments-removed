@@ -131,7 +131,7 @@ replace_malloc
 h
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -154,7 +154,7 @@ MOZ_JEMALLOC3
 '
 ]
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -172,7 +172,7 @@ MOZ_REPLACE_MALLOC
 '
 ]
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
