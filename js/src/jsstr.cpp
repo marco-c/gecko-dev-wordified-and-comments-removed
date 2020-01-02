@@ -6421,7 +6421,7 @@ pat
 if
 defined
 (
-XP_DARWIN
+XP_MACOSX
 )
 |
 |
