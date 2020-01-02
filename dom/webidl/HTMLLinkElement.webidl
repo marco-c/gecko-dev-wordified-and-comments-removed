@@ -301,6 +301,10 @@ HTMLLinkElement
 implements
 LinkStyle
 ;
+HTMLLinkElement
+implements
+LinkImport
+;
 /
 /
 http
