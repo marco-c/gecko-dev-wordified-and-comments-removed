@@ -4476,6 +4476,9 @@ LINE_GRAPH_REGION_BACKGROUND_COLOR
 regionStripesColor
 :
 LINE_GRAPH_REGION_STRIPES_COLOR
+minDistanceBetweenPoints
+:
+LINE_GRAPH_MIN_SQUARED_DISTANCE_BETWEEN_POINTS
 buildGraphImage
 :
 function
@@ -4829,7 +4832,9 @@ if
 (
 distance
 >
-LINE_GRAPH_MIN_SQUARED_DISTANCE_BETWEEN_POINTS
+this
+.
+minDistanceBetweenPoints
 )
 {
 ctx
