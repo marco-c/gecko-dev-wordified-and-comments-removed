@@ -9314,6 +9314,14 @@ aForce
 }
 virtual
 bool
+Init
+(
+)
+=
+0
+;
+virtual
+bool
 SetupLookupFunction
 (
 )

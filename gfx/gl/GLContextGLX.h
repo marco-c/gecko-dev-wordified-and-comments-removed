@@ -129,6 +129,7 @@ bool
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -234,6 +235,9 @@ nsRefPtr
 gfxXlibSurface
 >
 mPixmap
+;
+bool
+mOwnsContext
 ;
 }
 ;
