@@ -292,6 +292,11 @@ nsNetStrings
 cpp
 '
 '
+nsNetUtil
+.
+cpp
+'
+'
 nsNetworkZonePolicy
 .
 cpp

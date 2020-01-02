@@ -5162,7 +5162,7 @@ continue
 if
 (
 !
-IsValidHTTPToken
+NS_IsValidHTTPToken
 (
 token
 )
@@ -13162,7 +13162,7 @@ OPENED
 if
 (
 !
-IsValidHTTPToken
+NS_IsValidHTTPToken
 (
 header
 )
