@@ -2920,6 +2920,14 @@ aRect
 return
 ;
 }
+ScopedGLState
+scopedScissorTestState
+(
+mGLContext
+LOCAL_GL_SCISSOR_TEST
+true
+)
+;
 ScopedScissorRect
 autoScissorRect
 (

@@ -4261,10 +4261,6 @@ mLayerComposited
 (
 false
 )
-mClearFB
-(
-false
-)
 {
 }
 LayerComposite
