@@ -6856,7 +6856,9 @@ void
 *
 p
 size_t
-nbytes
+oldBytes
+size_t
+newBytes
 )
 ;
 extern
