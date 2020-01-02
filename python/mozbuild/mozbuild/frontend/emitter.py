@@ -1379,6 +1379,9 @@ m
 .
 active_tests
 (
+disabled
+=
+False
 *
 *
 self
