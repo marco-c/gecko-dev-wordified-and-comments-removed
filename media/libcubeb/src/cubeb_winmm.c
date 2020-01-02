@@ -3294,5 +3294,7 @@ winmm_stream_get_position
 winmm_stream_get_latency
 winmm_stream_set_volume
 winmm_stream_set_panning
+NULL
+NULL
 }
 ;
