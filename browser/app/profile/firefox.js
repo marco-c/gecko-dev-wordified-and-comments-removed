@@ -10437,7 +10437,7 @@ filter
 .
 networkinfo
 "
-true
+false
 )
 ;
 pref
@@ -10521,7 +10521,7 @@ filter
 .
 jswarn
 "
-true
+false
 )
 ;
 pref
