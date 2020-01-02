@@ -1957,7 +1957,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-presContext
 tail
 parent
 newParent

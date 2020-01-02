@@ -4494,8 +4494,6 @@ aContRowFrame
 ;
 PushChildren
 (
-&
-aPresContext
 *
 aContRowFrame
 &
@@ -6353,7 +6351,6 @@ nextRow
 {
 PushChildren
 (
-aPresContext
 nextRow
 lastRowThisPage
 )
@@ -6409,7 +6406,6 @@ nextRow
 {
 PushChildren
 (
-aPresContext
 nextRow
 rowFrame
 )
@@ -6556,7 +6552,6 @@ true
 }
 MoveOverflowToChildList
 (
-aPresContext
 )
 ;
 bool

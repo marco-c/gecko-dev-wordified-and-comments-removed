@@ -2945,9 +2945,6 @@ rv
 =
 CreateNextInFlow
 (
-PresContext
-(
-)
 child
 kidNextInFlow
 )
@@ -3134,9 +3131,6 @@ NotEmpty
 {
 SetOverflowFrames
 (
-PresContext
-(
-)
 continuationColumns
 )
 ;
@@ -3610,7 +3604,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-presContext
 *
 overflows
 prev

@@ -7770,7 +7770,6 @@ AvailableWidth
 ;
 MoveOverflowToChildList
 (
-aPresContext
 )
 ;
 bool
@@ -8788,9 +8787,6 @@ GetPrevSibling
 }
 ReparentFrameViewList
 (
-PresContext
-(
-)
 frames
 this
 nextInFlow
@@ -8813,9 +8809,6 @@ else
 {
 SetOverflowFrames
 (
-PresContext
-(
-)
 frames
 )
 ;

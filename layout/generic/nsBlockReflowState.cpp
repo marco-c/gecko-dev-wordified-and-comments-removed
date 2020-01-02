@@ -2075,7 +2075,6 @@ floatParent
 >
 StealFrame
 (
-mPresContext
 aFloat
 )
 ;
@@ -3853,7 +3852,6 @@ mBlock
 >
 StealFrame
 (
-mPresContext
 aFloat
 )
 ;

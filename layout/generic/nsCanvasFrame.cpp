@@ -2497,7 +2497,6 @@ nsContainerFrame
 :
 ReparentFrameViewList
 (
-aPresContext
 *
 overflow
 prevCanvasFrame
@@ -2785,7 +2784,6 @@ this
 ;
 SetOverflowFrames
 (
-aPresContext
 nsFrameList
 (
 nextFrame

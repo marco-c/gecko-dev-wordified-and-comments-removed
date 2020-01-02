@@ -424,12 +424,6 @@ GetParent
 >
 DeleteNextInFlowChild
 (
-aOldFrame
--
->
-PresContext
-(
-)
 nif
 false
 )
@@ -498,7 +492,6 @@ kidFrame
 nsOverflowContinuationTracker
 tracker
 (
-aPresContext
 aDelegatingFrame
 true
 )
@@ -675,7 +668,6 @@ GetParent
 >
 DeleteNextInFlowChild
 (
-aPresContext
 nextFrame
 true
 )
