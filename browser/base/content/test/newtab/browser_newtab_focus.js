@@ -20,7 +20,7 @@ tabfocus
 let
 FOCUS_COUNT
 =
-28
+30
 ;
 yield
 setLinks
