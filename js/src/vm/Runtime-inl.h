@@ -397,6 +397,17 @@ cx
 obj
 )
 ;
+js
+:
+:
+gc
+:
+:
+TraceCreateObject
+(
+obj
+)
+;
 return
 obj
 ;
