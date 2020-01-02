@@ -165,7 +165,7 @@ MemoryReport
 aChildReports
 )
 ;
-nsresult
+void
 FinishReporting
 (
 )
