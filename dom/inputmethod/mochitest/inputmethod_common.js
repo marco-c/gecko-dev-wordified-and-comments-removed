@@ -10,6 +10,12 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 let
 appInfo
 =
