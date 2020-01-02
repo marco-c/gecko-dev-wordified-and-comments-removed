@@ -4199,12 +4199,6 @@ None
         
 self
 .
-baseurl
-=
-None
-        
-self
-.
 marionette
 =
 None
@@ -4715,9 +4709,26 @@ def
 start_httpd
 (
 self
+need_external_ip
 )
 :
         
+host
+=
+"
+127
+.
+0
+.
+0
+.
+1
+"
+        
+if
+need_external_ip
+:
+            
 host
 =
 moznetwork
@@ -4779,6 +4790,8 @@ start
         
 self
 .
+marionette
+.
 baseurl
 =
 '
@@ -4821,6 +4834,8 @@ s
 %
 self
 .
+marionette
+.
 baseurl
 )
     
@@ -4830,16 +4845,6 @@ start_marionette
 self
 )
 :
-        
-assert
-(
-self
-.
-baseurl
-is
-not
-None
-)
         
 if
 self
@@ -4920,12 +4925,6 @@ profile
 self
 .
 profile
-                                         
-baseurl
-=
-self
-.
-baseurl
                                          
 timeout
 =
@@ -5063,12 +5062,6 @@ self
 .
 homedir
                                              
-baseurl
-=
-self
-.
-baseurl
-                                             
 logcat_dir
 =
 self
@@ -5119,12 +5112,6 @@ int
 (
 port
 )
-                                             
-baseurl
-=
-self
-.
-baseurl
                                              
 timeout
 =
@@ -5183,12 +5170,6 @@ homedir
 self
 .
 homedir
-                                         
-baseurl
-=
-self
-.
-baseurl
                                          
 noWindow
 =
@@ -5524,24 +5505,9 @@ utcnow
 (
 )
         
-if
-not
-self
-.
-httpd
-:
-            
-print
-"
-starting
-httpd
-"
-            
-self
-.
-start_httpd
-(
-)
+need_external_ip
+=
+True
         
 if
 not
@@ -5585,6 +5551,46 @@ _capabilities
 self
 .
 capabilities
+            
+if
+self
+.
+_capabilities
+[
+'
+device
+'
+]
+=
+=
+"
+desktop
+"
+:
+                
+need_external_ip
+=
+False
+        
+if
+not
+self
+.
+httpd
+:
+            
+print
+"
+starting
+httpd
+"
+            
+self
+.
+start_httpd
+(
+need_external_ip
+)
         
 for
 test
