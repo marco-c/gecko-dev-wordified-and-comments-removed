@@ -35,7 +35,12 @@ from
 .
 config
 import
+(
+    
+HOST_FINGERPRINTS
+    
 MercurialConfig
+)
 INITIAL_MESSAGE
 =
 '
@@ -1913,6 +1918,9 @@ branch
 msg
             
 update_mercurial_repo
+hostfingerprints
+=
+HOST_FINGERPRINTS
 )
     
 def
@@ -1950,6 +1958,11 @@ dest
 branch
 msg
 fn
+*
+args
+*
+*
+kwargs
 )
 :
         
@@ -1976,6 +1989,11 @@ binary
 url
 dest
 branch
+*
+args
+*
+*
+kwargs
 )
         
 finally
