@@ -254,8 +254,14 @@ aTiledDescriptor
 virtual
 PTextureChild
 *
-CreateEmptyTextureChild
+CreateTexture
 (
+const
+SurfaceDescriptor
+&
+aSharedData
+TextureFlags
+aFlags
 )
 =
 0

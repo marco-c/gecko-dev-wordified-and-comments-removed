@@ -266,6 +266,14 @@ PTextureParent
 *
 AllocPTextureParent
 (
+const
+SurfaceDescriptor
+&
+aSharedData
+const
+TextureFlags
+&
+aFlags
 )
 MOZ_OVERRIDE
 ;

@@ -468,6 +468,10 @@ aTextureInfo
 async
 PTexture
 (
+SurfaceDescriptor
+aSharedData
+uint32_t
+aTextureFlags
 )
 ;
 /

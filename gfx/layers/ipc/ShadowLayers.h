@@ -252,8 +252,14 @@ aCompositable
 virtual
 PTextureChild
 *
-CreateEmptyTextureChild
+CreateTexture
 (
+const
+SurfaceDescriptor
+&
+aSharedData
+TextureFlags
+aFlags
 )
 MOZ_OVERRIDE
 ;

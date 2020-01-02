@@ -3506,6 +3506,14 @@ LayerTransactionParent
 :
 AllocPTextureParent
 (
+const
+SurfaceDescriptor
+&
+aSharedData
+const
+TextureFlags
+&
+aFlags
 )
 {
 return
@@ -3515,6 +3523,8 @@ TextureHost
 CreateIPDLActor
 (
 this
+aSharedData
+aFlags
 )
 ;
 }
