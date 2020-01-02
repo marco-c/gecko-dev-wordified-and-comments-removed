@@ -1848,12 +1848,6 @@ false
 ;
 }
 }
-RootedValue
-rval
-(
-cx
-)
-;
 if
 (
 !
@@ -1863,10 +1857,6 @@ read
 (
 cx
 val
-.
-address
-(
-)
 &
 gForwarderStructuredCloneCallbacks
 &
@@ -8344,11 +8334,8 @@ JS_StructuredClone
 (
 cx
 metadataArg
+&
 metadata
-.
-address
-(
-)
 nullptr
 nullptr
 )

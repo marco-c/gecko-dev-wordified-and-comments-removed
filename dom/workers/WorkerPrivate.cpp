@@ -11039,11 +11039,8 @@ buffer
 read
 (
 cx
+&
 data
-.
-address
-(
-)
 WorkerStructuredCloneCallbacks
 (
 true
