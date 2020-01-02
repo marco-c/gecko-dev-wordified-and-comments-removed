@@ -486,12 +486,6 @@ mSandboxEnabled
 aSandboxEnabled
 ;
 }
-static
-void
-CacheGreDir
-(
-)
-;
 protected
 :
 GeckoProcessType
@@ -650,6 +644,12 @@ GetPathToBinary
 FilePath
 &
 exePath
+)
+;
+static
+void
+CacheGreDir
+(
 )
 ;
 std

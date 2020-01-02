@@ -435,13 +435,6 @@ PROCESS_TYPE_IPDLUNITTEST
 =
 3
 ;
-const
-unsigned
-long
-PROCESS_TYPE_GMPLUGIN
-=
-4
-;
 /
 *
 *
