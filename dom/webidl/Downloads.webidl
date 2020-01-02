@@ -473,6 +473,7 @@ failed
 readonly
 attribute
 DOMError
+?
 error
 ;
 /
