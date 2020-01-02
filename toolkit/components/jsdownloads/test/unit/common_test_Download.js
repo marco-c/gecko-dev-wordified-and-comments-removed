@@ -6462,6 +6462,9 @@ path
 launcherPath
 :
 launcherPath
+launchWhenSucceeded
+:
+true
 }
 )
 ;
@@ -6544,6 +6547,9 @@ txt
 launcherPath
 :
 launcherPath
+launchWhenSucceeded
+:
+true
 }
 )
 ;
@@ -6554,7 +6560,7 @@ download
 )
 ;
 }
-do_check_false
+do_check_true
 (
 download
 .
