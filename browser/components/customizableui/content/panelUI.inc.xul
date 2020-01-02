@@ -1094,6 +1094,11 @@ id
 "
 panelMenu_bookmarksMenu
 "
+flex
+=
+"
+1
+"
 orient
 =
 "
