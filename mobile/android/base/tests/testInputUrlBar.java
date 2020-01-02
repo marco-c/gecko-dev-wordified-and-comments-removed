@@ -80,14 +80,14 @@ mActions
 sendKeys
 (
 "
-ab
+zy
 "
 )
 ;
 assertUrlBarText
 (
 "
-ab
+zy
 "
 )
 ;
@@ -103,7 +103,7 @@ cd
 assertUrlBarText
 (
 "
-abcd
+zycd
 "
 )
 ;
@@ -140,7 +140,7 @@ sendKeys
 assertUrlBarText
 (
 "
-abcd
+zycd
 "
 )
 ;
@@ -156,7 +156,7 @@ ef
 assertUrlBarText
 (
 "
-abefcd
+zyefcd
 "
 )
 ;
@@ -183,7 +183,7 @@ gh
 assertUrlBarText
 (
 "
-abefcghd
+zyefcghd
 "
 )
 ;
@@ -229,7 +229,7 @@ op
 assertUrlBarText
 (
 "
-abopefcghd
+zyopefcghd
 "
 )
 ;
@@ -270,7 +270,7 @@ qr
 assertUrlBarText
 (
 "
-abopefqrhd
+zyopefqrhd
 "
 )
 ;
@@ -311,7 +311,7 @@ st
 assertUrlBarText
 (
 "
-abstefqrhd
+zystefqrhd
 "
 )
 ;
