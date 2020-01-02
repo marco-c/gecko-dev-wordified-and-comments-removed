@@ -3689,6 +3689,7 @@ vp
 MOZ_OVERRIDE
 ;
 static
+const
 nsOuterWindowProxy
 singleton
 ;
@@ -5393,6 +5394,7 @@ id
 )
 ;
 }
+const
 nsOuterWindowProxy
 nsOuterWindowProxy
 :
@@ -5438,6 +5440,7 @@ wrapper
 MOZ_OVERRIDE
 ;
 static
+const
 nsChromeOuterWindowProxy
 singleton
 ;
@@ -5482,6 +5485,7 @@ ChromeWindow
 "
 ;
 }
+const
 nsChromeOuterWindowProxy
 nsChromeOuterWindowProxy
 :

@@ -110,6 +110,7 @@ mozilla
 namespace
 xpc
 {
+const
 Wrapper
 XrayWaiver
 (
@@ -119,6 +120,7 @@ WrapperFactory
 WAIVE_XRAY_WRAPPER_FLAG
 )
 ;
+const
 WaiveXrayWrapper
 WaiveXrayWrapper
 :
@@ -1197,6 +1199,7 @@ DEBUG_CheckUnwrapSafety
 (
 HandleObject
 obj
+const
 js
 :
 :
@@ -1302,6 +1305,7 @@ target
 #
 endif
 static
+const
 Wrapper
 *
 SelectWrapper
@@ -1706,6 +1710,7 @@ flags
 &
 WAIVE_XRAY_WRAPPER_FLAG
 ;
+const
 Wrapper
 *
 wrapper
