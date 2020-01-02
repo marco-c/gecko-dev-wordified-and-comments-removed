@@ -184,6 +184,12 @@ weight
 int16_t
 stretch
 ;
+uint8_t
+kerning
+;
+uint8_t
+synthesis
+;
 nscoord
 size
 ;
@@ -210,12 +216,6 @@ fontFeatureSettings
 ;
 nsString
 languageOverride
-;
-uint8_t
-kerning
-;
-uint8_t
-synthesis
 ;
 nsFont
 (
