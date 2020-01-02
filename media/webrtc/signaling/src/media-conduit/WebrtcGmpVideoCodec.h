@@ -122,8 +122,7 @@ virtual
 WebrtcGmpVideoEncoder
 (
 )
-{
-}
+;
 virtual
 const
 uint64_t
@@ -146,6 +145,13 @@ ParentID
 ;
 }
 virtual
+void
+Terminated
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 int32_t
 InitEncode
 (
@@ -161,6 +167,7 @@ aNumberOfCores
 uint32_t
 aMaxPayloadSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -194,6 +201,7 @@ VideoFrameType
 *
 aFrameTypes
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -213,6 +221,7 @@ int32_t
 Release
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -360,7 +369,7 @@ WebrtcGmpVideoDecoder
 public
 WebrtcVideoDecoder
 public
-GMPVideoDecoderCallback
+GMPVideoDecoderCallbackProxy
 {
 public
 :
@@ -373,8 +382,7 @@ virtual
 WebrtcGmpVideoDecoder
 (
 )
-{
-}
+;
 virtual
 const
 uint64_t
@@ -396,6 +404,12 @@ ParentID
 0
 ;
 }
+virtual
+void
+Terminated
+(
+)
+;
 virtual
 int32_t
 InitDecode

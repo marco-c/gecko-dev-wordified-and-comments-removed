@@ -341,6 +341,11 @@ plane
 h
 '
 '
+GMPCallbackBase
+.
+h
+'
+'
 GMPChild
 .
 h

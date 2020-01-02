@@ -499,7 +499,7 @@ i
 ]
 -
 >
-DecodingComplete
+Shutdown
 (
 )
 ;
@@ -532,7 +532,7 @@ i
 ]
 -
 >
-EncodingComplete
+Shutdown
 (
 )
 ;
@@ -1127,6 +1127,11 @@ GMPVideoDecoderParent
 pvdp
 )
 ;
+NS_ADDREF
+(
+vdp
+)
+;
 *
 aGMPVD
 =
@@ -1208,6 +1213,11 @@ GMPVideoEncoderParent
 >
 (
 pvep
+)
+;
+NS_ADDREF
+(
+vep
 )
 ;
 *
