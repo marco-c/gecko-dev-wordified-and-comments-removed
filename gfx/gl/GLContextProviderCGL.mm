@@ -158,7 +158,7 @@ h
 #
 include
 "
-gfxPlatform
+gfxPrefs
 .
 h
 "
@@ -722,10 +722,10 @@ swapInt
 GLint
 swapInt
 =
-gfxPlatform
+gfxPrefs
 :
 :
-GetPrefLayoutFrameRate
+LayoutFrameRate
 (
 )
 =
