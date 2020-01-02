@@ -22184,7 +22184,7 @@ void
 *
 funptr
 =
-NULL
+nullptr
 ;
 switch
 (

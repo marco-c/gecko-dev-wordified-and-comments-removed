@@ -1558,7 +1558,7 @@ toObject
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject

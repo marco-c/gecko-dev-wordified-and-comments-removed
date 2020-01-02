@@ -3447,7 +3447,7 @@ return
 cx
 ;
 return
-NULL
+nullptr
 ;
 }
 JSAtomState

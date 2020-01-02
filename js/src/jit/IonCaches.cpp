@@ -4481,7 +4481,7 @@ Label
 *
 failures
 =
-NULL
+nullptr
 )
 {
 JS_ASSERT

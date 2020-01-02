@@ -619,7 +619,7 @@ if
 cx
 )
 return
-NULL
+nullptr
 ;
 ContextOptionsRef
 (

@@ -8537,7 +8537,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 }
 else

@@ -1602,7 +1602,7 @@ bool
 *
 padded
 =
-NULL
+nullptr
 )
 ;
 inline
@@ -4020,7 +4020,7 @@ JSContext
 *
 maybecx
 =
-NULL
+nullptr
 )
 ;
 TypeObject
@@ -4057,7 +4057,7 @@ HeapTypeSetKey
 :
 object_
 (
-NULL
+nullptr
 )
 id_
 (
@@ -4065,7 +4065,7 @@ JSID_EMPTY
 )
 maybeTypes_
 (
-NULL
+nullptr
 )
 {
 }
