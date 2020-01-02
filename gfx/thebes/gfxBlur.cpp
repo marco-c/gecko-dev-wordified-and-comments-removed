@@ -346,6 +346,9 @@ mData
 blurDataSize
 )
 ;
+mozilla
+:
+:
 RefPtr
 <
 DrawTarget
@@ -560,6 +563,9 @@ contexts
 return
 ;
 }
+mozilla
+:
+:
 RefPtr
 <
 SourceSurface
