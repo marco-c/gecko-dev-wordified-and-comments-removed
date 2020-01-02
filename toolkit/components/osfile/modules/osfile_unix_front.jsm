@@ -3663,6 +3663,9 @@ function
 (
 path
 options
+=
+{
+}
 )
 {
 let

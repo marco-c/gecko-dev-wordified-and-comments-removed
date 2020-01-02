@@ -3725,6 +3725,9 @@ function
 (
 path
 options
+=
+{
+}
 )
 {
 let
