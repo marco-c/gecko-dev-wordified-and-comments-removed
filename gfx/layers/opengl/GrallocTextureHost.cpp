@@ -630,6 +630,9 @@ mCompositor
 >
 GetTemporaryTexture
 (
+GetTextureTarget
+(
+)
 LOCAL_GL_TEXTURE0
 )
 ;

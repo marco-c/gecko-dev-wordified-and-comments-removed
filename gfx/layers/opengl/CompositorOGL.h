@@ -309,7 +309,9 @@ GLuint
 GetTexture
 (
 GLenum
-aUnit
+aTarget
+GLenum
+aEnum
 )
 =
 0
@@ -342,6 +344,10 @@ GLContext
 aGL
 )
 :
+mTextureTarget
+(
+0
+)
 mGL
 (
 aGL
@@ -376,6 +382,8 @@ GLuint
 GetTexture
 (
 GLenum
+aTarget
+GLenum
 aUnit
 )
 MOZ_OVERRIDE
@@ -394,6 +402,9 @@ void
 DestroyTextures
 (
 )
+;
+GLenum
+mTextureTarget
 ;
 nsTArray
 <
@@ -430,6 +441,10 @@ GLContext
 aGL
 )
 :
+mTextureTarget
+(
+0
+)
 mGL
 (
 aGL
@@ -464,6 +479,8 @@ GLuint
 GetTexture
 (
 GLenum
+aTarget
+GLenum
 aUnit
 )
 MOZ_OVERRIDE
@@ -481,6 +498,9 @@ void
 DestroyTextures
 (
 )
+;
+GLenum
+mTextureTarget
 ;
 RefPtr
 <
@@ -979,9 +999,6 @@ OGL
 }
 #
 endif
-/
-/
-MOZ_DUMP_PAINTING
 virtual
 LayersBackend
 GetBackendType
@@ -1057,6 +1074,8 @@ R8G8B8A8
 GLuint
 GetTemporaryTexture
 (
+GLenum
+aTarget
 GLenum
 aUnit
 )
