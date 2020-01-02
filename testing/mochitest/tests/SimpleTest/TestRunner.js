@@ -430,7 +430,10 @@ data
 .
 message
 =
+String
+(
 message
+)
 ;
 }
 if
@@ -514,7 +517,10 @@ data
 .
 message
 =
+String
+(
 message
+)
 ;
 }
 if
