@@ -17,7 +17,7 @@ XP_WIN
 #
 include
 <
-winsock
+winsock2
 .
 h
 >

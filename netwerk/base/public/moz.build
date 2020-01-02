@@ -378,6 +378,11 @@ nsINetworkProperties
 idl
 '
 '
+nsINetworkZonePolicy
+.
+idl
+'
+'
 nsINSSErrorsService
 .
 idl
