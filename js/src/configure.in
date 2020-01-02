@@ -35668,6 +35668,9 @@ threads
 ]
 JS_THREADSAFE
 =
+JS_THREADSAFE
+=
+1
 )
 if
 test
