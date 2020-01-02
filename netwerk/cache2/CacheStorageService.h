@@ -719,6 +719,14 @@ CacheEntryHandle
 aResult
 )
 ;
+void
+ForcedValidEntriesPrune
+(
+TimeStamp
+&
+now
+)
+;
 static
 CacheStorageService
 *
