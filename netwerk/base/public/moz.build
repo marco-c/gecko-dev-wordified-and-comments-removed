@@ -608,6 +608,11 @@ nsIUDPSocket
 idl
 '
 '
+nsIUDPSocketFilter
+.
+idl
+'
+'
 nsIUnicharStreamLoader
 .
 idl

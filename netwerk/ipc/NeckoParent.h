@@ -432,6 +432,10 @@ const
 uint16_t
 &
 aPort
+const
+nsCString
+&
+aFilter
 )
 ;
 virtual
@@ -448,6 +452,10 @@ const
 uint16_t
 &
 aPort
+const
+nsCString
+&
+aFilter
 )
 ;
 virtual

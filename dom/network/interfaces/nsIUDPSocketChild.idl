@@ -149,6 +149,10 @@ attribute
 AUTF8String
 localAddress
 ;
+attribute
+AUTF8String
+filterName
+;
 /
 /
 Tell
