@@ -913,7 +913,6 @@ MediaDecoderStateMachine
 HasFutureAudio
 (
 )
-const
 {
 AssertCurrentThreadInMonitor
 (
@@ -953,9 +952,6 @@ LOW_AUDIO_USECS
 mPlaybackRate
 |
 |
-mReader
--
->
 AudioQueue
 (
 )
@@ -973,7 +969,6 @@ MediaDecoderStateMachine
 HaveNextFrameData
 (
 )
-const
 {
 AssertCurrentThreadInMonitor
 (
@@ -1000,9 +995,6 @@ HasVideo
 )
 |
 |
-mReader
--
->
 VideoQueue
 (
 )
@@ -1053,9 +1045,6 @@ AssertCurrentThreadInMonitor
 int64_t
 audioDecoded
 =
-mReader
--
->
 AudioQueue
 (
 )
@@ -1690,9 +1679,6 @@ HasAudio
 )
 |
 |
-mReader
--
->
 AudioQueue
 (
 )
@@ -1712,9 +1698,6 @@ HasVideo
 )
 |
 |
-mReader
--
->
 VideoQueue
 (
 )
@@ -1880,9 +1863,6 @@ AudioData
 >
 audio
 ;
-mReader
--
->
 AudioQueue
 (
 )
@@ -1956,9 +1936,6 @@ output
 }
 if
 (
-mReader
--
->
 AudioQueue
 (
 )
@@ -2045,9 +2022,6 @@ VideoData
 >
 video
 ;
-mReader
--
->
 VideoQueue
 (
 )
@@ -2331,9 +2305,6 @@ output
 }
 if
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -2457,9 +2428,6 @@ AudioData
 *
 a
 =
-mReader
--
->
 AudioQueue
 (
 )
@@ -2503,9 +2471,6 @@ GetEndTime
 )
 ;
 delete
-mReader
--
->
 AudioQueue
 (
 )
@@ -2590,9 +2555,6 @@ AssertCurrentThreadInMonitor
 ;
 if
 (
-mReader
--
->
 AudioQueue
 (
 )
@@ -2715,9 +2677,6 @@ static_cast
 uint32_t
 >
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -2925,9 +2884,6 @@ static_cast
 uint32_t
 >
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -3004,9 +2960,6 @@ static_cast
 uint32_t
 >
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -3110,9 +3063,6 @@ if
 mIsVideoDecoding
 )
 {
-mReader
--
->
 VideoQueue
 (
 )
@@ -3371,9 +3321,6 @@ if
 mIsAudioDecoding
 )
 {
-mReader
--
->
 AudioQueue
 (
 )
@@ -3453,9 +3400,6 @@ return
 MOZ_ASSERT
 (
 !
-mReader
--
->
 AudioQueue
 (
 )
@@ -3472,9 +3416,6 @@ mIsAudioDecoding
 MOZ_ASSERT
 (
 !
-mReader
--
->
 VideoQueue
 (
 )
@@ -4047,9 +3988,6 @@ DECODER_STATE_BUFFERING
 |
 |
 (
-mReader
--
->
 AudioQueue
 (
 )
@@ -4063,9 +4001,6 @@ GetSize
 &
 &
 !
-mReader
--
->
 AudioQueue
 (
 )
@@ -4120,9 +4055,6 @@ DECODER_STATE_SHUTDOWN
 mStopAudioThread
 |
 |
-mReader
--
->
 AudioQueue
 (
 )
@@ -4299,9 +4231,6 @@ AudioLoop
 }
 NS_ASSERTION
 (
-mReader
--
->
 AudioQueue
 (
 )
@@ -4325,9 +4254,6 @@ AudioData
 *
 s
 =
-mReader
--
->
 AudioQueue
 (
 )
@@ -4570,9 +4496,6 @@ GetReentrantMonitor
 ;
 if
 (
-mReader
--
->
 AudioQueue
 (
 )
@@ -4933,9 +4856,6 @@ AudioData
 >
 audio
 (
-mReader
--
->
 AudioQueue
 (
 )
@@ -6640,9 +6560,6 @@ HasVideo
 &
 &
 !
-mReader
--
->
 VideoQueue
 (
 )
@@ -6659,9 +6576,6 @@ HasAudio
 &
 &
 !
-mReader
--
->
 AudioQueue
 (
 )
@@ -7522,9 +7436,6 @@ lld
 GetDecodedAudioDuration
 (
 )
-mReader
--
->
 VideoQueue
 (
 )
@@ -8375,7 +8286,6 @@ MediaDecoderStateMachine
 AudioDecodedUsecs
 (
 )
-const
 {
 NS_ASSERTION
 (
@@ -8420,9 +8330,6 @@ GetMediaTime
 return
 pushed
 +
-mReader
--
->
 AudioQueue
 (
 )
@@ -8441,7 +8348,6 @@ HasLowDecodedData
 int64_t
 aAudioUsecs
 )
-const
 {
 AssertCurrentThreadInMonitor
 (
@@ -8456,9 +8362,6 @@ HasAudio
 &
 &
 !
-mReader
--
->
 AudioQueue
 (
 )
@@ -8483,9 +8386,6 @@ HasVideo
 &
 &
 !
-mReader
--
->
 VideoQueue
 (
 )
@@ -8500,9 +8400,6 @@ static_cast
 uint32_t
 >
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -8524,7 +8421,6 @@ MediaDecoderStateMachine
 HasLowUndecodedData
 (
 )
-const
 {
 return
 HasLowUndecodedData
@@ -8542,7 +8438,6 @@ HasLowUndecodedData
 double
 aUsecs
 )
-const
 {
 AssertCurrentThreadInMonitor
 (
@@ -9242,9 +9137,6 @@ DispatchAudioDecodeTaskIfNeeded
 )
 )
 ;
-mReader
--
->
 AudioQueue
 (
 )
@@ -9280,9 +9172,6 @@ DispatchVideoDecodeTaskIfNeeded
 )
 )
 ;
-mReader
--
->
 VideoQueue
 (
 )
@@ -9648,9 +9537,6 @@ AudioData
 *
 audio
 =
-mReader
--
->
 AudioQueue
 (
 )
@@ -10221,9 +10107,6 @@ return
 NS_OK
 ;
 }
-mReader
--
->
 AudioQueue
 (
 )
@@ -10232,9 +10115,6 @@ ClearListeners
 (
 )
 ;
-mReader
--
->
 VideoQueue
 (
 )
@@ -10768,9 +10648,6 @@ DECODER_STATE_COMPLETED
 {
 if
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -11544,9 +11421,6 @@ droppedFrames
 endif
 if
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -11562,9 +11436,6 @@ VideoData
 *
 frame
 =
-mReader
--
->
 VideoQueue
 (
 )
@@ -11652,9 +11523,6 @@ droppedFrames
 }
 #
 endif
-mReader
--
->
 VideoQueue
 (
 )
@@ -11687,9 +11555,6 @@ mOffset
 ;
 if
 (
-mReader
--
->
 VideoQueue
 (
 )
@@ -11705,9 +11570,6 @@ break
 ;
 frame
 =
-mReader
--
->
 VideoQueue
 (
 )
@@ -11824,9 +11686,6 @@ if
 currentFrame
 )
 {
-mReader
--
->
 VideoQueue
 (
 )
