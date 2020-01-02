@@ -6820,6 +6820,12 @@ AKEYCODE_ASSIST
 return
 NS_VK_HELP
 ;
+case
+AKEYCODE_BUTTON_A
+:
+return
+NS_VK_RETURN
+;
 default
 :
 ALOG

@@ -118,3 +118,15 @@ xpcshell
 ini
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+mochitest
+/
+mochitest
+.
+ini
+'
+]
