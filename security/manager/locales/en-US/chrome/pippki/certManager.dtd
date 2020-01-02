@@ -465,9 +465,11 @@ certmgr
 .
 certdetail
 .
-sha1fingerprint
+sha256fingerprint
 "
-SHA1
+SHA
+-
+256
 Fingerprint
 "
 >
@@ -478,9 +480,9 @@ certmgr
 .
 certdetail
 .
-md5fingerprint
+sha1fingerprint
 "
-MD5
+SHA1
 Fingerprint
 "
 >

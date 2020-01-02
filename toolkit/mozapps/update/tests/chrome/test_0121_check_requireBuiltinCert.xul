@@ -294,7 +294,7 @@ organizationalUnit
 sha1Fingerprint
 "
 "
-md5Fingerprint
+sha256Fingerprint
 "
 "
 tokenName

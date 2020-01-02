@@ -559,11 +559,11 @@ NS_IMETHODIMP
 nsNSSCertificateFakeTransport
 :
 :
-GetSha1Fingerprint
+GetSha256Fingerprint
 (
 nsAString
 &
-_sha1Fingerprint
+aSha256Fingerprint
 )
 {
 NS_NOTREACHED
@@ -584,11 +584,11 @@ NS_IMETHODIMP
 nsNSSCertificateFakeTransport
 :
 :
-GetMd5Fingerprint
+GetSha1Fingerprint
 (
 nsAString
 &
-_md5Fingerprint
+aSha1Fingerprint
 )
 {
 NS_NOTREACHED
