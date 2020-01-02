@@ -1231,6 +1231,18 @@ isinstance
 entry
 ManifestChrome
 )
+and
+\
+                
+not
+urlparse
+(
+entry
+.
+relpath
+)
+.
+scheme
 :
             
 chromepath
