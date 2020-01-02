@@ -427,11 +427,6 @@ last
 ;
 public
 :
-FreeSpan
-(
-)
-{
-}
 void
 initBoundsUnchecked
 (
@@ -775,6 +770,8 @@ return
 false
 ;
 }
+private
+:
 void
 checkSpan
 (
