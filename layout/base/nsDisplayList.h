@@ -5496,7 +5496,7 @@ aOutput
 )
 MOZ_OVERRIDE
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "

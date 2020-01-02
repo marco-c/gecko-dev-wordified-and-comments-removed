@@ -1040,13 +1040,13 @@ aOutput
 )
 ;
 }
-fputc
+fprintf_stderr
 (
-'
+aOutput
+"
 \
 n
-'
-aOutput
+"
 )
 ;
 if

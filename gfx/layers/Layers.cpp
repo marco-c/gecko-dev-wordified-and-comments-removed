@@ -8276,13 +8276,13 @@ ul
 )
 ;
 }
-fputc
+fprintf_stderr
 (
-'
+file
+"
 \
 n
-'
-file
+"
 )
 ;
 }
