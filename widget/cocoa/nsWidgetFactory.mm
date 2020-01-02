@@ -357,6 +357,9 @@ GetInstance
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
+mozilla
+:
+:
 OSXNotificationCenter
 Init
 )
