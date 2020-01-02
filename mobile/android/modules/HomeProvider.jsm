@@ -140,7 +140,7 @@ items
 "
 +
 "
-id
+_id
 INTEGER
 PRIMARY
 KEY
@@ -335,6 +335,14 @@ execute
 SQL
 .
 createItemsTable
+)
+;
+yield
+db
+.
+setSchemaVersion
+(
+SCHEMA_VERSION
 )
 ;
 }
