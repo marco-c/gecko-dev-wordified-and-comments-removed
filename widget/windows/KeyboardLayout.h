@@ -966,6 +966,9 @@ mDOMKeyCode
 KeyNameIndex
 mKeyNameIndex
 ;
+CodeNameIndex
+mCodeNameIndex
+;
 ModifierKeyState
 mModKeyState
 ;
@@ -1729,6 +1732,16 @@ uint8_t
 aVirtualKey
 )
 const
+;
+static
+CodeNameIndex
+ConvertScanCodeToCodeNameIndex
+(
+UINT
+aScanCode
+UINT
+aVirtualKeyCode
+)
 ;
 HKL
 GetLayout
