@@ -224,6 +224,7 @@ WCC_autocomplete
 aString
 aCursor
 aOnResponse
+aFrameActor
 )
 {
 let
@@ -246,6 +247,9 @@ aString
 cursor
 :
 aCursor
+frameActor
+:
+aFrameActor
 }
 ;
 this
