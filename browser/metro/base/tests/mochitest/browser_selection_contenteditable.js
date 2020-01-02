@@ -161,7 +161,7 @@ sendElementTap
 (
 gWindow
 div
-287
+284
 )
 ;
 yield
