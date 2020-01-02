@@ -4931,12 +4931,6 @@ return
 mSupportsComponentAlphaChildren
 ;
 }
-protected
-:
-friend
-class
-ReadbackProcessor
-;
 static
 bool
 HasOpaqueAncestorLayer
@@ -4945,6 +4939,12 @@ Layer
 *
 aLayer
 )
+;
+protected
+:
+friend
+class
+ReadbackProcessor
 ;
 void
 DidInsertChild
