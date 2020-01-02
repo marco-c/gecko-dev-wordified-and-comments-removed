@@ -17321,6 +17321,17 @@ ContainerParameters
 aContainerParameters
 )
 {
+ContainerParameters
+newContainerParameters
+=
+aContainerParameters
+;
+newContainerParameters
+.
+mDisableSubpixelAntialiasingInDescendants
+=
+true
+;
 nsRefPtr
 <
 Layer
@@ -17342,7 +17353,7 @@ aManager
 mFrame
 this
 mList
-aContainerParameters
+newContainerParameters
 nullptr
 )
 ;
