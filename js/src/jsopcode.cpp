@@ -7641,7 +7641,6 @@ if
 (
 offset
 <
-=
 checkNote
 -
 >
