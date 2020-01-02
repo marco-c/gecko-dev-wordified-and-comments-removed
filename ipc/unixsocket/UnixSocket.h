@@ -294,6 +294,16 @@ aFd
 0
 ;
 virtual
+bool
+SetUpListenSocket
+(
+int
+aFd
+)
+=
+0
+;
+virtual
 void
 GetSocketAddr
 (

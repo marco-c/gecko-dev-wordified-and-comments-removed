@@ -107,6 +107,15 @@ aFd
 MOZ_OVERRIDE
 ;
 virtual
+bool
+SetUpListenSocket
+(
+int
+aFd
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 GetSocketAddr
 (
