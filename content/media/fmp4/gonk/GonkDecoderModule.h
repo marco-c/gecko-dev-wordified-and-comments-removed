@@ -88,7 +88,7 @@ already_AddRefed
 <
 MediaDataDecoder
 >
-CreateAudioDecoder
+CreateAACDecoder
 (
 const
 mp4_demuxer

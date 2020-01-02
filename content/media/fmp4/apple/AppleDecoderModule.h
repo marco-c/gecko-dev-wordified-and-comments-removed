@@ -83,7 +83,7 @@ already_AddRefed
 <
 MediaDataDecoder
 >
-CreateAudioDecoder
+CreateAACDecoder
 (
 const
 mp4_demuxer
@@ -98,17 +98,6 @@ aAudioTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
-)
-MOZ_OVERRIDE
-;
-virtual
-bool
-SupportsAudioMimeType
-(
-const
-char
-*
-aMimeType
 )
 MOZ_OVERRIDE
 ;

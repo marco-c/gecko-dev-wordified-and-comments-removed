@@ -114,7 +114,7 @@ h
 #
 include
 "
-EMEAudioDecoder
+EMEAACDecoder
 .
 h
 "
@@ -917,7 +917,7 @@ MediaDataDecoder
 EMEDecoderModule
 :
 :
-CreateAudioDecoder
+CreateAACDecoder
 (
 const
 AudioDecoderConfig
@@ -943,7 +943,7 @@ MediaDataDecoder
 decoder
 (
 new
-EMEAudioDecoder
+EMEAACDecoder
 (
 mProxy
 aConfig
@@ -969,7 +969,7 @@ decoder
 mPDM
 -
 >
-CreateAudioDecoder
+CreateAACDecoder
 (
 aConfig
 aAudioTaskQueue
