@@ -2090,6 +2090,9 @@ gForwarderStructuredCloneCallbacks
 CloneNonReflectorsRead
 CloneNonReflectorsWrite
 nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static
