@@ -1996,6 +1996,8 @@ Settings
 ACTION_SYNC_SETTINGS
 )
 ;
+try
+{
 context
 .
 startActivity
@@ -2003,6 +2005,17 @@ startActivity
 intent
 )
 ;
+}
+catch
+(
+ActivityNotFoundException
+ex
+)
+{
+return
+null
+;
+}
 return
 intent
 ;
