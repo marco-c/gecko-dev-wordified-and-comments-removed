@@ -266,7 +266,6 @@ TESTFLAGS
 )
 <
 compile
-binaries
 libs
 export
 tools
@@ -289,11 +288,17 @@ PLUGIN
 )
 check
 :
+libs
+:
+binaries
+binaries
+:
+all
+touch
 .
 PHONY
 :
 compile
-binaries
 libs
 export
 tools
