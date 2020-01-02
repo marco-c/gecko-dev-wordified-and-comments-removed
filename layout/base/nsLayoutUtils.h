@@ -3162,7 +3162,7 @@ SFE_NO_COLORSPACE_CONVERSION
 <
 <
 2
-SFE_PREFER_NO_PREMULTIPLY_ALPHA
+SFE_NO_PREMULTIPLY_ALPHA
 =
 1
 <
@@ -3241,9 +3241,6 @@ mIsStillLoading
 ;
 bool
 mCORSUsed
-;
-bool
-mIsPremultiplied
 ;
 }
 ;

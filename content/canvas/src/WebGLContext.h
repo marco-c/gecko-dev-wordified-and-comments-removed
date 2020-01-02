@@ -5735,7 +5735,7 @@ flags
 nsLayoutUtils
 :
 :
-SFE_PREFER_NO_PREMULTIPLY_ALPHA
+SFE_NO_PREMULTIPLY_ALPHA
 ;
 return
 nsLayoutUtils
