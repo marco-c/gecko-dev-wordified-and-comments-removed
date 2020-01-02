@@ -7646,7 +7646,6 @@ addToReadingList
 ;
 }
 }
-}
 Override
 public
 void
