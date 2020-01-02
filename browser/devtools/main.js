@@ -862,6 +862,9 @@ options
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 bgTheme
 :
 "
@@ -997,6 +1000,9 @@ webconsole
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 url
 :
 "
@@ -1192,6 +1198,9 @@ inspector
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 url
 :
 "
@@ -1368,6 +1377,9 @@ debugger
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 highlightedicon
 :
 "
@@ -1529,6 +1541,9 @@ styleeditor
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 url
 :
 "
@@ -1651,6 +1666,9 @@ styleeditor
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 url
 :
 "
@@ -1797,6 +1815,9 @@ profiler
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 url
 :
 "
@@ -1959,6 +1980,9 @@ network
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 url
 :
 "
@@ -2084,6 +2108,9 @@ scratchpad
 .
 svg
 "
+invertIconForLightTheme
+:
+true
 url
 :
 "
