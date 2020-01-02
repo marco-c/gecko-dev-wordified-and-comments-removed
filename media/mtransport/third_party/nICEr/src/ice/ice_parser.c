@@ -1518,6 +1518,11 @@ R_BAD_DATA
 }
 #
 endif
+nr_ice_candidate_compute_codeword
+(
+cand
+)
+;
 *
 candp
 =

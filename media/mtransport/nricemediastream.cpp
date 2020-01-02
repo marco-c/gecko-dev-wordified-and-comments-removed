@@ -329,6 +329,15 @@ type
 =
 type
 ;
+out
+-
+>
+codeword
+=
+candc
+.
+codeword
+;
 return
 true
 ;
