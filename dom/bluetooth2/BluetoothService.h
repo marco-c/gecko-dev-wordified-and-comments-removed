@@ -412,7 +412,7 @@ aManager
 0
 ;
 virtual
-bool
+void
 SetPinCodeInternal
 (
 const
@@ -431,7 +431,7 @@ aRunnable
 0
 ;
 virtual
-bool
+void
 SetPasskeyInternal
 (
 const
@@ -448,7 +448,7 @@ aRunnable
 0
 ;
 virtual
-bool
+void
 SetPairingConfirmationInternal
 (
 const
