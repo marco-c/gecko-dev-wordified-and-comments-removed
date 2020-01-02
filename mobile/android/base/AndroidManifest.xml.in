@@ -2468,15 +2468,6 @@ BrowserProvider
 "
 android
 :
-label
-=
-"
-string
-/
-sync_configure_engines_title_bookmarks
-"
-android
-:
 authorities
 =
 "
