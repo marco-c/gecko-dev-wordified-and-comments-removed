@@ -108,19 +108,21 @@ Git
     
 git
 clone
-git
+https
 :
 /
 /
-github
+git
 .
-com
-/
 mozilla
+.
+org
 /
-mozilla
+integration
+/
+gecko
 -
-central
+dev
 .
 git
 '
