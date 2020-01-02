@@ -225,8 +225,6 @@ HTMLAnchorElement
 :
 HTMLElement
 {
-stringifier
-;
 [
 SetterThrows
 ]

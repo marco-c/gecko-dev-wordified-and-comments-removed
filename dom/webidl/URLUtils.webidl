@@ -258,5 +258,15 @@ attribute
 DOMString
 hash
 ;
+/
+/
+Bug
+824857
+should
+remove
+this
+.
+stringifier
+;
 }
 ;

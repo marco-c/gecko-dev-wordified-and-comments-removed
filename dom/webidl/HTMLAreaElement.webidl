@@ -226,8 +226,6 @@ HTMLAreaElement
 :
 HTMLElement
 {
-stringifier
-;
 [
 SetterThrows
 ]
