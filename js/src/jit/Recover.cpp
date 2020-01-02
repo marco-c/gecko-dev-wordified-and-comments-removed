@@ -125,7 +125,7 @@ writer
 )
 const
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 This
@@ -135,6 +135,9 @@ not
 serializable
 "
 )
+;
+return
+false
 ;
 }
 void
@@ -249,7 +252,7 @@ Recover_Invalid
 :
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -674,7 +677,7 @@ iter
 )
 const
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 This
@@ -4059,7 +4062,7 @@ true
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown
@@ -4068,6 +4071,9 @@ function
 .
 "
 )
+;
+return
+false
 ;
 }
 }

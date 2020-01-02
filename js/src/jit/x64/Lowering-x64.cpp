@@ -994,7 +994,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -1062,7 +1062,7 @@ MStoreTypedArrayElementStatic
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI

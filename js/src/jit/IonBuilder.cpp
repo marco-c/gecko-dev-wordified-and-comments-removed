@@ -7385,7 +7385,7 @@ sn
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown
@@ -7419,7 +7419,7 @@ pc
 case
 JSOP_IFNE
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 we
@@ -8526,7 +8526,7 @@ pc
 case
 JSOP_LOOPHEAD
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 JSOP_LOOPHEAD
@@ -9279,7 +9279,7 @@ state
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown
@@ -12906,7 +12906,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -13185,7 +13185,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -13333,7 +13333,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 JSOP_LOOPHEAD
@@ -17814,7 +17814,7 @@ break
 }
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -18290,7 +18290,11 @@ break
 ;
 default
 :
-MOZ_CRASH
+def
+=
+nullptr
+;
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown
@@ -18739,7 +18743,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -19062,7 +19066,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -20861,7 +20865,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unhandled
@@ -33050,7 +33054,7 @@ types
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -34532,7 +34536,7 @@ type
 :
 UnsizedArray
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unsized
@@ -34545,7 +34549,7 @@ types
 )
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -38005,7 +38009,7 @@ default
 break
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown
@@ -38303,7 +38307,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown
@@ -38762,7 +38766,7 @@ elemSize
 )
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -40027,7 +40031,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown
@@ -44264,7 +44268,7 @@ type
 :
 UnsizedArray
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Field
@@ -44276,7 +44280,7 @@ type
 )
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -47321,7 +47325,7 @@ fieldPrediction
 )
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unknown

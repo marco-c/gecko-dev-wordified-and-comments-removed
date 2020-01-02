@@ -2056,7 +2056,7 @@ Address
 dest
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -2075,7 +2075,7 @@ Register
 dest
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -6100,7 +6100,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -6170,7 +6170,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI

@@ -2674,7 +2674,7 @@ uint32_t
 frameClass
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 x64
@@ -2733,7 +2733,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 No
@@ -3309,7 +3309,7 @@ VMFunction
 :
 DoubleByRef
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -3419,7 +3419,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unknown

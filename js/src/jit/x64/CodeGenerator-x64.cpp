@@ -214,7 +214,7 @@ frameSize
 )
 const
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 x64
@@ -562,7 +562,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Given
@@ -685,7 +685,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Given
@@ -1366,7 +1366,7 @@ LLoadTypedArrayElementStatic
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -1385,7 +1385,7 @@ LStoreTypedArrayElementStatic
 ins
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 NYI
@@ -1703,7 +1703,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -2007,7 +2007,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -2165,7 +2165,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected

@@ -2356,7 +2356,7 @@ break
 case
 MIRType_None
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Asking
@@ -2415,7 +2415,7 @@ break
 case
 MIRType_None
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Asking

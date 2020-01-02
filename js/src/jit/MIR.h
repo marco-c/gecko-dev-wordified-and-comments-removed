@@ -10432,7 +10432,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Given
@@ -17736,7 +17736,7 @@ getIdentity
 (
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 not
@@ -18126,7 +18126,7 @@ getIdentity
 (
 )
 {
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 not

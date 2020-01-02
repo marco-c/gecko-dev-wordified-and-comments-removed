@@ -2088,7 +2088,7 @@ return
 MIRType_None
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2201,7 +2201,7 @@ void
 "
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -2393,7 +2393,7 @@ AsmJSModule
 Return_Double
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -2439,7 +2439,7 @@ return
 MIRType_Float32
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -2650,7 +2650,7 @@ return
 MIRType_Float32
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 VarType
@@ -2695,7 +2695,7 @@ return
 AsmJS_FRound
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 VarType
@@ -2872,7 +2872,7 @@ isFloat
 )
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -3625,7 +3625,7 @@ default
 :
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -8653,7 +8653,7 @@ OutOfRangeInt
 :
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -9298,7 +9298,7 @@ return
 false
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -17127,7 +17127,7 @@ default
 break
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -20345,7 +20345,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unexpected
@@ -23881,7 +23881,7 @@ return
 true
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 return
@@ -24319,7 +24319,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 unexpected
@@ -26296,7 +26296,7 @@ return
 false
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Bad
@@ -28094,7 +28094,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 not
@@ -28536,7 +28536,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 not
@@ -37598,6 +37598,8 @@ dstAddr
 )
 ;
 }
+break
+;
 }
 }
 }
@@ -38250,7 +38252,7 @@ RetType
 :
 Float
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Float32
@@ -38264,6 +38266,8 @@ a
 FFI
 "
 )
+;
+break
 ;
 }
 masm
@@ -39529,7 +39533,7 @@ RetType
 :
 Float
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Float
@@ -39543,6 +39547,8 @@ a
 FFI
 "
 )
+;
+break
 ;
 }
 Label
@@ -39980,7 +39986,7 @@ break
 ;
 default
 :
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Unsupported

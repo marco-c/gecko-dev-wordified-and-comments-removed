@@ -5360,7 +5360,7 @@ return
 i
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 Invalid
@@ -5500,7 +5500,7 @@ return
 ;
 }
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 predecessor
@@ -5724,7 +5724,7 @@ ptr
 return
 ;
 }
-MOZ_CRASH
+MOZ_ASSUME_UNREACHABLE
 (
 "
 predecessor
