@@ -219,10 +219,13 @@ x
 for
 x
 in
+sorted
+(
 root
 .
 deps
 (
+)
 )
 )
     
