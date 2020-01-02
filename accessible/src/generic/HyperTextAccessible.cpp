@@ -5266,13 +5266,6 @@ TakeFocus
 (
 )
 ;
-SetSelectionBoundsAt
-(
-0
-aStartPos
-aEndPos
-)
-;
 Selection
 *
 domSel
@@ -5320,6 +5313,13 @@ GetRangeAt
 (
 idx
 )
+)
+;
+SetSelectionBoundsAt
+(
+0
+aStartPos
+aEndPos
 )
 ;
 if
