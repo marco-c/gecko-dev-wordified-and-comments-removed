@@ -125,6 +125,11 @@ WEBIDL_FILES
 =
 [
 '
+AbstractWorker
+.
+webidl
+'
+'
 AnalyserNode
 .
 webidl
@@ -1880,6 +1885,11 @@ SettingsManager
 webidl
 '
 '
+SharedWorker
+.
+webidl
+'
+'
 SimpleGestureEvent
 .
 webidl
@@ -2076,6 +2086,11 @@ webidl
 '
 '
 WorkerLocation
+.
+webidl
+'
+'
+WorkerMessagePort
 .
 webidl
 '
@@ -2633,6 +2648,11 @@ webidl
 '
 '
 DeviceProximityEvent
+.
+webidl
+'
+'
+ErrorEvent
 .
 webidl
 '
