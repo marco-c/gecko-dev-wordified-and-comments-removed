@@ -827,8 +827,6 @@ STATIC_LIBS
 \
 xpcom_core
 \
-ucvutil_s
-\
 chromium_s
 \
 snappy_s
