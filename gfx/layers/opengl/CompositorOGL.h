@@ -1219,10 +1219,6 @@ GLuint
 >
 mTextures
 ;
-static
-bool
-sDrawFPS
-;
 GLint
 mHeight
 ;
