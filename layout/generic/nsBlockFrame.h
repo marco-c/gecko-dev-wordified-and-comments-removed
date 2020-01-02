@@ -69,10 +69,10 @@ nsBulletFrame
 class
 nsFirstLineFrame
 ;
-#
-define
-nsBlockFrameSuper
+typedef
 nsContainerFrame
+nsBlockFrameSuper
+;
 class
 nsBlockFrame
 :

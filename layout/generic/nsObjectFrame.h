@@ -95,10 +95,10 @@ LayerManager
 ;
 }
 }
-#
-define
-nsObjectFrameSuper
+typedef
 nsFrame
+nsObjectFrameSuper
+;
 class
 nsObjectFrame
 :

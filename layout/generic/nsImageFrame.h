@@ -162,10 +162,10 @@ mFrame
 ;
 }
 ;
-#
-define
-ImageFrameSuper
+typedef
 nsSplittableFrame
+ImageFrameSuper
+;
 class
 nsImageFrame
 :
