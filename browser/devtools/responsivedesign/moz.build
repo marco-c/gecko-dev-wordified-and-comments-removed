@@ -66,6 +66,11 @@ commands
 .
 js
 '
+'
+responsivedesign
+.
+jsm
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
