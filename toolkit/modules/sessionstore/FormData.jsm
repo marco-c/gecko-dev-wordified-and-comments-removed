@@ -444,12 +444,14 @@ generatedCount
 ;
 while
 (
+(
 node
 =
 formNodes
 .
 iterateNext
 (
+)
 )
 )
 {

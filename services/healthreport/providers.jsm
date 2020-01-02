@@ -4037,7 +4037,7 @@ getAllAddons
 function
 onAllAddons
 (
-addons
+allAddons
 )
 {
 let
@@ -4057,7 +4057,7 @@ this
 .
 _createDataStructure
 (
-addons
+allAddons
 )
 ;
 addonsField

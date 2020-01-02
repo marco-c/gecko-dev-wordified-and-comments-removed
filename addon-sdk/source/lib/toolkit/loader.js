@@ -2546,11 +2546,13 @@ resolvedPath
 ;
 if
 (
+(
 resolvedPath
 =
 loadAsFile
 (
 fullId
+)
 )
 )
 return
@@ -2563,11 +2565,13 @@ resolvedPath
 else
 if
 (
+(
 resolvedPath
 =
 loadAsDirectory
 (
 fullId
+)
 )
 )
 return
@@ -2626,6 +2630,7 @@ i
 {
 if
 (
+(
 resolvedPath
 =
 loadAsFile
@@ -2634,6 +2639,7 @@ dirs
 [
 i
 ]
+)
 )
 )
 return
@@ -2645,6 +2651,7 @@ resolvedPath
 ;
 if
 (
+(
 resolvedPath
 =
 loadAsDirectory
@@ -2653,6 +2660,7 @@ dirs
 [
 i
 ]
+)
 )
 )
 return
@@ -2768,11 +2776,13 @@ main
 ;
 if
 (
+(
 found
 =
 loadAsFile
 (
 tmpPath
+)
 )
 )
 return
