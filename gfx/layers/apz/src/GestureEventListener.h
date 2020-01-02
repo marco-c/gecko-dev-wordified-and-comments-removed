@@ -146,11 +146,6 @@ TriggerSingleTapConfirmedEvent
 (
 )
 ;
-bool
-MoveDistanceIsLarge
-(
-)
-;
 void
 SetState
 (

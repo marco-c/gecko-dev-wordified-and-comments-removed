@@ -213,6 +213,12 @@ aThread
 )
 ;
 static
+void
+DestroyBridge
+(
+)
+;
+static
 bool
 IsCreated
 (
@@ -743,11 +749,6 @@ SendPendingAsyncMessge
 (
 )
 ;
-void
-MarkShutDown
-(
-)
-;
 protected
 :
 ImageBridgeChild
@@ -774,9 +775,6 @@ aUnsafe
 CompositableTransaction
 *
 mTxn
-;
-bool
-mShuttingDown
 ;
 }
 ;

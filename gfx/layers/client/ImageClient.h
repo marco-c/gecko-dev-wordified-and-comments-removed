@@ -240,16 +240,7 @@ aAsyncTransactionTracker
 }
 virtual
 void
-RemoveTexture
-(
-TextureClient
-*
-aTexture
-)
-MOZ_OVERRIDE
-;
-void
-RemoveTextureWithTracker
+RemoveTextureFromCompositable
 (
 TextureClient
 *
