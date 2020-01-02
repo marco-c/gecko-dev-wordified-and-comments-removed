@@ -154,10 +154,6 @@ usesBeforeCompilePar
 =
 1
 ;
-profileInlineFrames
-=
-false
-;
 }
 bool
 JitOptions

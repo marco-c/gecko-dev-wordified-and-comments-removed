@@ -49259,11 +49259,6 @@ if
 (
 !
 inlinedFunction
-|
-|
-js_JitOptions
-.
-profileInlineFrames
 )
 {
 saveLive
@@ -49383,11 +49378,6 @@ if
 (
 !
 inlinedFunction
-|
-|
-js_JitOptions
-.
-profileInlineFrames
 )
 {
 saveLive

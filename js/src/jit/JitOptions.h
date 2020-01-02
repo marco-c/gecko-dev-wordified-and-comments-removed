@@ -176,9 +176,6 @@ smallFunctionMaxBytecodeLength_
 uint32_t
 usesBeforeCompilePar
 ;
-bool
-profileInlineFrames
-;
 JitOptions
 (
 )

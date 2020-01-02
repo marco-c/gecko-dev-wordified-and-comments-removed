@@ -3171,12 +3171,6 @@ frames
 more
 (
 )
-&
-&
-!
-js_JitOptions
-.
-profileInlineFrames
 )
 popSPSFrame
 =
