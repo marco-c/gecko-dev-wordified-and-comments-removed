@@ -704,7 +704,7 @@ initialAllocatedLen
 {
 data
 =
-NULL
+nullptr
 ;
 len
 =

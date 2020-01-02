@@ -49,6 +49,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -386,7 +395,7 @@ sigaction
 SIGSYS
 &
 act
-NULL
+nullptr
 )
 <
 0
@@ -419,7 +428,7 @@ sigprocmask
 SIG_UNBLOCK
 &
 mask
-NULL
+nullptr
 )
 )
 {
