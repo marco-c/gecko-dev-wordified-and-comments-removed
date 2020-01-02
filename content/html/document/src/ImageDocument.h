@@ -167,6 +167,16 @@ mResizeImageByDefault
 )
 ;
 }
+void
+AddDecodedClass
+(
+)
+;
+void
+RemoveDecodedClass
+(
+)
+;
 virtual
 JSObject
 *
