@@ -103,6 +103,11 @@ EXPORTS
 =
 [
 '
+ia2Accessible
+.
+h
+'
+'
 ia2AccessibleAction
 .
 h
@@ -142,6 +147,11 @@ CPP_SOURCES
 +
 =
 [
+'
+ia2Accessible
+.
+cpp
+'
 '
 ia2AccessibleAction
 .
