@@ -50,13 +50,6 @@ dom
 namespace
 mozilla
 {
-static
-const
-int
-AUDIO_NODE_STREAM_TRACK_ID
-=
-1
-;
 AudioNodeStream
 :
 :
@@ -1921,7 +1914,7 @@ FinishOutput
 }
 EnsureTrack
 (
-AUDIO_NODE_STREAM_TRACK_ID
+AUDIO_TRACK
 mSampleRate
 )
 ;
@@ -2146,7 +2139,13 @@ mDisabledTrackIDs
 .
 Contains
 (
-AUDIO_NODE_STREAM_TRACK_ID
+static_cast
+<
+TrackID
+>
+(
+AUDIO_TRACK
+)
 )
 )
 {
@@ -2204,7 +2203,7 @@ track
 =
 EnsureTrack
 (
-AUDIO_NODE_STREAM_TRACK_ID
+AUDIO_TRACK
 mSampleRate
 )
 ;
@@ -2320,7 +2319,7 @@ NotifyQueuedTrackChanges
 Graph
 (
 )
-AUDIO_NODE_STREAM_TRACK_ID
+AUDIO_TRACK
 mSampleRate
 segment
 -
@@ -2345,7 +2344,7 @@ GetCurrentPosition
 return
 EnsureTrack
 (
-AUDIO_NODE_STREAM_TRACK_ID
+AUDIO_TRACK
 mSampleRate
 )
 -
@@ -2390,7 +2389,7 @@ track
 =
 EnsureTrack
 (
-AUDIO_NODE_STREAM_TRACK_ID
+AUDIO_TRACK
 mSampleRate
 )
 ;
@@ -2445,7 +2444,7 @@ NotifyQueuedTrackChanges
 Graph
 (
 )
-AUDIO_NODE_STREAM_TRACK_ID
+AUDIO_TRACK
 mSampleRate
 track
 -
