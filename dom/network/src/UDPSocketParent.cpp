@@ -226,6 +226,7 @@ default
 :
 MOZ_ASSERT
 (
+false
 "
 Unexpected
 address
