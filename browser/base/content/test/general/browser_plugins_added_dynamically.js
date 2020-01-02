@@ -481,7 +481,7 @@ popupNotification
 .
 options
 .
-centerActions
+pluginData
 .
 values
 (
@@ -1022,7 +1022,7 @@ popupNotification
 .
 options
 .
-centerActions
+pluginData
 .
 size
 1
