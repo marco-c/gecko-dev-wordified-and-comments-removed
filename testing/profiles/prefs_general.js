@@ -1384,6 +1384,16 @@ count
 user_pref
 (
 "
+pbackground
+.
+testing
+"
+true
+)
+;
+user_pref
+(
+"
 browser
 .
 webapps
