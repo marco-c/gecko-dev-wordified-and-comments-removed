@@ -270,6 +270,8 @@ child
 :
 OnStartRequest
 (
+nsresult
+aChannelStatus
 int64_t
 aContentLength
 nsCString
@@ -284,6 +286,8 @@ aURI
 ;
 OnDataAvailable
 (
+nsresult
+channelStatus
 nsCString
 data
 uint64_t
@@ -295,7 +299,7 @@ count
 OnStopRequest
 (
 nsresult
-statusCode
+channelStatus
 )
 ;
 FailedAsyncOpen

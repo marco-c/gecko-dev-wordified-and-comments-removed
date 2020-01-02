@@ -1350,6 +1350,7 @@ mIPCClosed
 !
 SendOnStartRequest
 (
+mStatus
 contentLength
 contentType
 lastModified
@@ -1566,6 +1567,7 @@ mIPCClosed
 !
 SendOnDataAvailable
 (
+mStatus
 data
 aOffset
 aCount

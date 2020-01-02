@@ -221,6 +221,10 @@ bool
 RecvOnStartRequest
 (
 const
+nsresult
+&
+aChannelStatus
+const
 int64_t
 &
 aContentLength
@@ -247,6 +251,10 @@ bool
 RecvOnDataAvailable
 (
 const
+nsresult
+&
+channelStatus
+const
 nsCString
 &
 data
@@ -267,7 +275,7 @@ RecvOnStopRequest
 const
 nsresult
 &
-statusCode
+channelStatus
 )
 MOZ_OVERRIDE
 ;
@@ -303,6 +311,10 @@ void
 DoOnStartRequest
 (
 const
+nsresult
+&
+aChannelStatus
+const
 int64_t
 &
 aContentLength
@@ -327,6 +339,10 @@ aURI
 void
 DoOnDataAvailable
 (
+const
+nsresult
+&
+channelStatus
 const
 nsCString
 &
