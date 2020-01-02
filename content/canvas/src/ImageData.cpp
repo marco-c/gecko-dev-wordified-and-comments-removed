@@ -185,15 +185,10 @@ return
 nullptr
 ;
 }
-JS
+js
 :
 :
-Rooted
-<
-JSObject
-*
->
-obj
+AssertSameCompartment
 (
 aGlobal
 .
@@ -221,7 +216,6 @@ aGlobal
 GetContext
 (
 )
-obj
 length
 .
 value
