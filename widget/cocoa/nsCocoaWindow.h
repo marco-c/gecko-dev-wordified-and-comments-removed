@@ -364,17 +364,6 @@ BOOL
 )
 bottomCornerRounded
 ;
-+
-(
-Class
-)
-frameViewClassForStyleMask
-:
-(
-NSUInteger
-)
-styleMask
-;
 end
 interface
 PopupWindow
