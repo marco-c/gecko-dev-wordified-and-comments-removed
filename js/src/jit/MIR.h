@@ -32844,6 +32844,10 @@ globalDataOffset_
 (
 globalDataOffset
 )
+isConstant_
+(
+isConstant
+)
 {
 JS_ASSERT
 (
@@ -32871,6 +32875,9 @@ setMovable
 }
 unsigned
 globalDataOffset_
+;
+bool
+isConstant_
 ;
 public
 :
@@ -32928,6 +32935,15 @@ getAliasSet
 const
 {
 return
+isConstant_
+?
+AliasSet
+:
+:
+None
+(
+)
+:
 AliasSet
 :
 :
