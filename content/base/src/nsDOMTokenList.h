@@ -97,6 +97,11 @@ nsIAtom
 aAttrAtom
 )
 ;
+void
+DropReference
+(
+)
+;
 virtual
 JSObject
 *
@@ -364,10 +369,8 @@ GetParsedAttr
 (
 )
 ;
-nsCOMPtr
-<
 Element
->
+*
 mElement
 ;
 nsCOMPtr
