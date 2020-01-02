@@ -4347,6 +4347,13 @@ changeList
 ;
 }
 else
+if
+(
+aRestyleHint
+&
+~
+eRestyle_LaterSiblings
+)
 {
 FrameConstructor
 (
