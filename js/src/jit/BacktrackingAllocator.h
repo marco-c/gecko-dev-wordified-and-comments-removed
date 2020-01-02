@@ -900,7 +900,7 @@ dumpRegisterGroups
 )
 ;
 void
-dumpLiveness
+dumpFixedRanges
 (
 )
 ;
