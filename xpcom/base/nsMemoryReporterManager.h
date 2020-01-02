@@ -163,7 +163,7 @@ HandleChildReports
 const
 uint32_t
 &
-generation
+aGeneration
 const
 InfallibleTArray
 <

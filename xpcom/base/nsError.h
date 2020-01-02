@@ -406,7 +406,7 @@ uint32_t
 NS_FAILED_impl
 (
 nsresult
-_nsresult
+aErr
 )
 {
 return
@@ -415,7 +415,7 @@ static_cast
 uint32_t
 >
 (
-_nsresult
+aErr
 )
 &
 0x80000000
@@ -645,13 +645,13 @@ uint16_t
 NS_ERROR_GET_CODE
 (
 nsresult
-err
+aErr
 )
 {
 return
 uint32_t
 (
-err
+aErr
 )
 &
 0xffff
@@ -662,7 +662,7 @@ uint16_t
 NS_ERROR_GET_MODULE
 (
 nsresult
-err
+aErr
 )
 {
 return
@@ -670,7 +670,7 @@ return
 (
 uint32_t
 (
-err
+aErr
 )
 >
 >
@@ -688,13 +688,13 @@ bool
 NS_ERROR_GET_SEVERITY
 (
 nsresult
-err
+aErr
 )
 {
 return
 uint32_t
 (
-err
+aErr
 )
 >
 >

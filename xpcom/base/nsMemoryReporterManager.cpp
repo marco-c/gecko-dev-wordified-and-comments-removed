@@ -1098,11 +1098,15 @@ struct
 kinfo_vmentry
 *
 vmmap
+;
+struct
+kinfo_vmentry
 *
 kve
 ;
 if
 (
+!
 (
 vmmap
 =
@@ -1115,9 +1119,6 @@ getpid
 cnt
 )
 )
-=
-=
-nullptr
 )
 {
 return

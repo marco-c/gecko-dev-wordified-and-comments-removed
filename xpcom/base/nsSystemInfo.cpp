@@ -896,9 +896,11 @@ rv
 )
 )
 )
+{
 return
 rv
 ;
+}
 }
 else
 {
@@ -1141,9 +1143,11 @@ rv
 )
 )
 )
+{
 return
 rv
 ;
+}
 }
 #
 ifdef
@@ -1202,9 +1206,11 @@ rv
 )
 )
 )
+{
 return
 rv
 ;
+}
 }
 nsAutoCString
 hddModel
@@ -1432,9 +1438,11 @@ rv
 )
 )
 )
+{
 return
 rv
 ;
+}
 }
 #
 endif
@@ -1485,6 +1493,7 @@ MODEL
 str
 )
 )
+{
 SetPropertyAsAString
 (
 NS_LITERAL_STRING
@@ -1496,6 +1505,7 @@ device
 str
 )
 ;
+}
 if
 (
 mozilla
@@ -1524,6 +1534,7 @@ MANUFACTURER
 str
 )
 )
+{
 SetPropertyAsAString
 (
 NS_LITERAL_STRING
@@ -1535,6 +1546,7 @@ manufacturer
 str
 )
 ;
+}
 if
 (
 mozilla
@@ -1564,6 +1576,7 @@ RELEASE
 str
 )
 )
+{
 SetPropertyAsAString
 (
 NS_LITERAL_STRING
@@ -1575,6 +1588,7 @@ release_version
 str
 )
 ;
+}
 int32_t
 version
 ;
@@ -1609,10 +1623,12 @@ SDK_INT
 version
 )
 )
+{
 version
 =
 0
 ;
+}
 android_sdk_version
 =
 version
@@ -1651,6 +1667,7 @@ HARDWARE
 str
 )
 )
+{
 SetPropertyAsAString
 (
 NS_LITERAL_STRING
@@ -1662,6 +1679,7 @@ hardware
 str
 )
 ;
+}
 bool
 isTablet
 =
@@ -1816,6 +1834,7 @@ tablet
 "
 )
 )
+{
 SetPropertyAsBool
 (
 NS_LITERAL_STRING
@@ -1827,6 +1846,7 @@ tablet
 true
 )
 ;
+}
 }
 nsAutoString
 str

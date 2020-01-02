@@ -40,7 +40,7 @@ Create
 (
 nsISupports
 *
-outer
+aOuter
 const
 nsIID
 &

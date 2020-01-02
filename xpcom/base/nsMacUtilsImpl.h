@@ -56,7 +56,7 @@ GetArchString
 (
 nsAString
 &
-archString
+aArchString
 )
 ;
 nsString

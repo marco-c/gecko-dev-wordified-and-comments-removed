@@ -45,7 +45,7 @@ nsConsoleMessage
 const
 char16_t
 *
-message
+aMessage
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS

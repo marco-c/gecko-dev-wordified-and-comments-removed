@@ -216,13 +216,10 @@ if
 sShutdownObservers
 )
 {
-ShutdownObserver
-*
-observer
-;
 while
 (
-(
+ShutdownObserver
+*
 observer
 =
 sShutdownObservers
@@ -230,7 +227,6 @@ sShutdownObservers
 >
 popFirst
 (
-)
 )
 )
 {

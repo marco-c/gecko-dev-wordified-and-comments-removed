@@ -121,9 +121,9 @@ LogMessageWithMode
 (
 nsIConsoleMessage
 *
-message
+aMessage
 OutputMode
-outputMode
+aOutputMode
 )
 ;
 typedef
