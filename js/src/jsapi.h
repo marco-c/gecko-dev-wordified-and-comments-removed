@@ -13403,7 +13403,7 @@ namespace
 JS
 {
 class
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 ReadOnlyCompileOptions
 )
@@ -13655,7 +13655,7 @@ MOZ_DELETE
 }
 ;
 class
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 OwningCompileOptions
 )
@@ -14021,7 +14021,7 @@ this
 ;
 class
 MOZ_STACK_CLASS
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 CompileOptions
 )
