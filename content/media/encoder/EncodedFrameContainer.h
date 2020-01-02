@@ -99,7 +99,7 @@ mDuration
 )
 mFrameType
 (
-UNKNOW
+UNKNOWN
 )
 {
 }
@@ -112,7 +112,7 @@ B_FRAME
 AUDIO_FRAME
 AAC_CSD
 AVC_CSD
-UNKNOW
+UNKNOWN
 }
 ;
 nsresult
@@ -153,7 +153,7 @@ if
 mFrameType
 !
 =
-UNKNOW
+UNKNOWN
 )
 {
 mFrameData
@@ -165,7 +165,7 @@ aData
 ;
 mFrameType
 =
-UNKNOW
+UNKNOWN
 ;
 return
 NS_OK

@@ -563,8 +563,14 @@ ISOControl
 :
 ISOControl
 (
+uint32_t
+aMuxingType
 )
 :
+mMuxingType
+(
+aMuxingType
+)
 mAudioFragmentBuffer
 (
 nullptr

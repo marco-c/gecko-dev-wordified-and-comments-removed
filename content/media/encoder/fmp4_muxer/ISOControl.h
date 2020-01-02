@@ -228,6 +228,8 @@ public
 :
 ISOControl
 (
+uint32_t
+aMuxingType
 )
 ;
 ~
@@ -450,6 +452,15 @@ uint32_t
 aType
 )
 ;
+uint32_t
+GetMuxingType
+(
+)
+{
+return
+mMuxingType
+;
+}
 nsresult
 SetMetadata
 (
@@ -513,6 +524,9 @@ nsresult
 FlushBuf
 (
 )
+;
+uint32_t
+mMuxingType
 ;
 FragmentBuffer
 *
