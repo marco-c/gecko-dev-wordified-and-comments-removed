@@ -84,7 +84,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_CONTENT_COMMAND_EVENT
+eContentCommandEventClass
 )
 mOnlyEnabledCheck
 (

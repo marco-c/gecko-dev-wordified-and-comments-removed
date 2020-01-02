@@ -3217,7 +3217,7 @@ wheelEvent
 break
 ;
 case
-NS_CONTENT_COMMAND_EVENT
+eContentCommandEventClass
 :
 {
 WidgetContentCommandEvent
