@@ -47,7 +47,7 @@ h
 #
 include
 "
-DelayProcessor
+DelayBuffer
 .
 h
 "
@@ -142,7 +142,7 @@ mDelay
 .
 f
 )
-mProcessor
+mBuffer
 (
 aMaxDelayFrames
 WebAudioUtils
@@ -316,9 +316,9 @@ IsNull
 (
 )
 ?
-mProcessor
+mBuffer
 .
-BufferChannelCount
+ChannelCount
 (
 )
 :
@@ -384,7 +384,7 @@ forget
 }
 mLeftOverData
 =
-mProcessor
+mBuffer
 .
 MaxDelayFrames
 (
@@ -419,7 +419,7 @@ mLeftOverData
 =
 INT32_MIN
 ;
-mProcessor
+mBuffer
 .
 Reset
 (
@@ -710,7 +710,7 @@ delayFrames
 :
 delayFrames
 ;
-mProcessor
+mBuffer
 .
 Process
 (
@@ -799,7 +799,7 @@ counter
 delayAtTickClamped
 ;
 }
-mProcessor
+mBuffer
 .
 Process
 (
@@ -823,8 +823,8 @@ mDestination
 AudioParamTimeline
 mDelay
 ;
-DelayProcessor
-mProcessor
+DelayBuffer
+mBuffer
 ;
 int32_t
 mLeftOverData

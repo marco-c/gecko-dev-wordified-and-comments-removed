@@ -358,12 +358,12 @@ ConvolverNode
 cpp
 '
 '
-DelayNode
+DelayBuffer
 .
 cpp
 '
 '
-DelayProcessor
+DelayNode
 .
 cpp
 '
