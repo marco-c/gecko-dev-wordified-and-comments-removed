@@ -1076,10 +1076,8 @@ EnsureInitialized
 ;
 aAdapterRAM
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 return
@@ -1122,10 +1120,8 @@ EnsureInitialized
 ;
 aAdapterDriver
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 return
@@ -1218,10 +1214,8 @@ EnsureInitialized
 ;
 aAdapterDriverDate
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 return

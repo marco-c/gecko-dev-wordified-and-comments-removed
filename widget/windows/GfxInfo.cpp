@@ -2789,10 +2789,8 @@ mHasDualGPU
 {
 aAdapterRAM
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 }
@@ -2893,10 +2891,8 @@ mHasDualGPU
 {
 aAdapterDriver
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 }

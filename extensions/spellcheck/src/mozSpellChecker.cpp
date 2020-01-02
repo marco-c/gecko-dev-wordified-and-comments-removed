@@ -1537,10 +1537,8 @@ mSpellCheckingEngine
 {
 aDictionary
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 return

@@ -563,10 +563,8 @@ MOZ_SOURCE_UNKNOWN
 :
 aPointerType
 .
-AssignLiteral
+Truncate
 (
-"
-"
 )
 ;
 break
