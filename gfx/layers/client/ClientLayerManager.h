@@ -882,13 +882,6 @@ aMixBlendModes
 aMixBlendModes
 ;
 }
-virtual
-bool
-AreComponentAlphaLayersEnabled
-(
-)
-MOZ_OVERRIDE
-;
 void
 LogTestDataForCurrentPaint
 (
