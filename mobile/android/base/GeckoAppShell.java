@@ -69,6 +69,17 @@ gecko
 .
 mozglue
 .
+JNITarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
 generatorannotations
 .
 OptionalGeneratedParameter
@@ -4705,6 +4716,7 @@ index
 )
 ;
 }
+JNITarget
 static
 public
 int

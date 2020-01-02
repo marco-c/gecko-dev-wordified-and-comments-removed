@@ -36,6 +36,17 @@ gecko
 .
 mozglue
 .
+JNITarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
 generatorannotations
 .
 GeneratorOptions
@@ -167,6 +178,7 @@ nio
 .
 ByteBuffer
 ;
+JNITarget
 public
 class
 GeckoEvent
@@ -181,6 +193,7 @@ LOGTAG
 GeckoEvent
 "
 ;
+JNITarget
 private
 enum
 NativeGeckoEvent
@@ -388,6 +401,7 @@ value
 ;
 }
 }
+JNITarget
 public
 enum
 ImeAction

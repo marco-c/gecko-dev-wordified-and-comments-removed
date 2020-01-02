@@ -193,6 +193,13 @@ java
 '
 mozglue
 /
+JNITarget
+.
+java
+'
+'
+mozglue
+/
 NativeReference
 .
 java

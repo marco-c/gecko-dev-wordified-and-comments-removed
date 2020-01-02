@@ -45,6 +45,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+JNITarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 setup
@@ -4060,6 +4071,7 @@ LOADURL_NEW_TAB
 )
 ;
 }
+JNITarget
 public
 static
 int

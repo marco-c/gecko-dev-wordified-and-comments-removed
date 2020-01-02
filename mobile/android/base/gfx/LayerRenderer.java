@@ -163,6 +163,17 @@ util
 Log
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+JNITarget
+;
+import
 java
 .
 nio
@@ -2512,6 +2523,7 @@ return
 scissorRect
 ;
 }
+JNITarget
 public
 void
 beginDrawing
@@ -2954,6 +2966,7 @@ GL_DEPTH_BUFFER_BIT
 )
 ;
 }
+JNITarget
 public
 void
 drawBackground
@@ -3080,6 +3093,7 @@ mPageContext
 )
 ;
 }
+JNITarget
 public
 void
 drawForeground
@@ -3327,6 +3341,7 @@ mScreenContext
 ;
 }
 }
+JNITarget
 public
 void
 endDrawing
