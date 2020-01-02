@@ -381,10 +381,6 @@ String
 audience
 String
 issuer
-long
-issuedAt
-long
-durationInMilliseconds
 )
 throws
 NonObjectJSONException
@@ -392,6 +388,14 @@ IOException
 ParseException
 GeneralSecurityException
 {
+final
+long
+expiresAt
+=
+JSONWebTokenUtils
+.
+DEFAULT_FUTURE_EXPIRES_AT_IN_MILLISECONDS
+;
 String
 assertion
 =
@@ -407,8 +411,8 @@ getPrivate
 certificate
 audience
 issuer
-issuedAt
-durationInMilliseconds
+null
+expiresAt
 )
 ;
 if
