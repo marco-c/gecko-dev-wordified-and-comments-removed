@@ -1759,6 +1759,9 @@ bool
 mTemporarilyUseBasicLayerManager
 ;
 bool
+mRequireOffMainThreadCompositing
+;
+bool
 mUseAttachedEvents
 ;
 bool

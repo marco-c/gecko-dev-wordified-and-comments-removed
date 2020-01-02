@@ -162,6 +162,10 @@ mMouseTransparent
 (
 false
 )
+mRequireOffMainThreadCompositing
+(
+false
+)
 {
 }
 nsWindowType
@@ -204,6 +208,9 @@ mSupportTranslucency
 ;
 bool
 mMouseTransparent
+;
+bool
+mRequireOffMainThreadCompositing
 ;
 }
 ;

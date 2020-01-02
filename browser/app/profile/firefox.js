@@ -8040,12 +8040,6 @@ defined
 (
 NIGHTLY_BUILD
 )
-&
-&
-defined
-(
-XP_MACOSX
-)
 pref
 (
 "
