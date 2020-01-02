@@ -221,7 +221,7 @@ in
 s
 "
 %
-directory
+transport_dir
         
 raise
 else
