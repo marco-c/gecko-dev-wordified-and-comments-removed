@@ -2919,7 +2919,7 @@ size
 =
 Type
 .
-stat_size_t
+off_t
 .
 importFromC
 (
