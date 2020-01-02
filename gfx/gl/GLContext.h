@@ -258,9 +258,6 @@ GLReadTexImageHelper
 class
 SharedSurface_GL
 ;
-class
-GLDrawRectHelper
-;
 }
 namespace
 layers
@@ -9884,12 +9881,6 @@ GLReadTexImageHelper
 >
 mReadTexImageHelper
 ;
-ScopedDeletePtr
-<
-GLDrawRectHelper
->
-mDrawRectHelper
-;
 public
 :
 GLBlitHelper
@@ -9907,12 +9898,6 @@ BlitTextureImageHelper
 GLReadTexImageHelper
 *
 ReadTexImageHelper
-(
-)
-;
-GLDrawRectHelper
-*
-DrawRectHelper
 (
 )
 ;
