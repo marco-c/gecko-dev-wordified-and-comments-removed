@@ -367,6 +367,11 @@ alltabs
 -
 button
 "
+"
+tabs
+-
+closebutton
+"
 ]
 "
 PersonalToolbar

@@ -975,6 +975,11 @@ alltabs
 -
 button
 "
+"
+tabs
+-
+closebutton
+"
 ]
 defaultCollapsed
 :

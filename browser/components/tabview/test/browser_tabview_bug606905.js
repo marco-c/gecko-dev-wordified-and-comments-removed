@@ -162,6 +162,7 @@ closebuttons
 "
 )
 "
+alltabs
 "
 "
 Show
