@@ -595,6 +595,14 @@ key
 "
 )
 ;
+key
+=
+key
+.
+toUpperCase
+(
+)
+;
 }
 return
 elemString
