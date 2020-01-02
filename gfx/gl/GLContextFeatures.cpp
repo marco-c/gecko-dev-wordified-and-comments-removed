@@ -200,7 +200,7 @@ Extensions_End
 "
 draw_range_elements
 "
-200
+120
 300
 {
 GLContext
