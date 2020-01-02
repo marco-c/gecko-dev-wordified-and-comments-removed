@@ -620,7 +620,7 @@ if
 MOZ_UNLIKELY
 (
 !
-ptr
+newptr
 &
 &
 size
