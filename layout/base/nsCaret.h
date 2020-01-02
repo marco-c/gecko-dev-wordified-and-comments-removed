@@ -435,8 +435,8 @@ nsITimer
 >
 mBlinkTimer
 ;
-uint32_t
-mBlinkRate
+bool
+mIsBlinking
 ;
 bool
 mVisible
