@@ -56,7 +56,7 @@ mozilla
 widget
 ;
 const
-PRUnichar
+wchar_t
 nsUXThemeData
 :
 :

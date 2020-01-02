@@ -125,7 +125,7 @@ EventID
 }
 }
 const
-PRUnichar
+wchar_t
 *
 kTaskbarButtonEventId
 =
@@ -319,7 +319,7 @@ nullptr
 )
 ;
 const
-PRUnichar
+wchar_t
 *
 const
 kWindowClass

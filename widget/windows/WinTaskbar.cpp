@@ -192,7 +192,7 @@ shellapi
 h
 >
 const
-PRUnichar
+wchar_t
 kShellLibraryName
 [
 ]
@@ -1224,7 +1224,7 @@ MAX_PATH
 )
 )
 {
-PRUnichar
+wchar_t
 *
 slash
 =
@@ -1253,7 +1253,7 @@ slash
 0
 '
 ;
-PRUnichar
+wchar_t
 buf
 [
 256

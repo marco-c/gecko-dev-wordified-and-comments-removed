@@ -200,7 +200,7 @@ public
 :
 static
 const
-PRUnichar
+wchar_t
 kThemeLibraryName
 [
 ]

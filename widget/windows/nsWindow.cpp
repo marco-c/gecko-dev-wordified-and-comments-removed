@@ -1000,7 +1000,7 @@ sHasBogusPopupsDropShadowOnMultiMonitor
 TRI_UNKNOWN
 ;
 const
-PRUnichar
+wchar_t
 *
 kOOPPPluginFocusEventId
 =
@@ -7612,7 +7612,7 @@ Invalidate
 }
 static
 const
-PRUnichar
+wchar_t
 kManageWindowInfoProperty
 [
 ]
@@ -16086,7 +16086,7 @@ ISMEX_SEND
 ISMEX_SEND
 )
 {
-PRUnichar
+wchar_t
 szClass
 [
 10

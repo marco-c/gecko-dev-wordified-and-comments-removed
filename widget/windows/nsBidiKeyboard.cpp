@@ -133,7 +133,7 @@ result
 return
 result
 ;
-PRUnichar
+wchar_t
 currentLocaleName
 [
 KL_NAMELENGTH
@@ -142,6 +142,8 @@ KL_NAMELENGTH
 wcsncpy
 (
 currentLocaleName
+char16ptr_t
+(
 (
 aLevel
 &
@@ -151,6 +153,7 @@ aLevel
 mRTLKeyboard
 :
 mLTRKeyboard
+)
 KL_NAMELENGTH
 )
 ;
@@ -486,7 +489,7 @@ buf
 HKL
 locale
 ;
-PRUnichar
+wchar_t
 localeName
 [
 KL_NAMELENGTH

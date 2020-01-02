@@ -1636,7 +1636,7 @@ nsIJumpListShortcut
 >
 &
 aShortcut
-PRUnichar
+wchar_t
 *
 aPath
 bool
@@ -1866,7 +1866,7 @@ rv
 rv
 )
 ;
-PRUnichar
+wchar_t
 buf
 [
 MAX_PATH
@@ -1879,10 +1879,6 @@ pLink
 >
 GetPath
 (
-(
-LPWSTR
-)
-&
 buf
 MAX_PATH
 nullptr
@@ -1952,10 +1948,6 @@ pLink
 >
 GetArguments
 (
-(
-LPWSTR
-)
-&
 buf
 MAX_PATH
 )
@@ -2064,10 +2056,6 @@ pLink
 >
 GetIconLocation
 (
-(
-LPWSTR
-)
-&
 buf
 MAX_PATH
 &

@@ -91,7 +91,7 @@ gWindowsLog
 #
 endif
 const
-PRUnichar
+wchar_t
 nsWinGesture
 :
 :

@@ -763,7 +763,7 @@ mDisplayName
 )
 )
 ;
-PRUnichar
+wchar_t
 *
 buffer
 ;

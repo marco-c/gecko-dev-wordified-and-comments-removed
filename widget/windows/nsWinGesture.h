@@ -1033,7 +1033,7 @@ sLibraryHandle
 ;
 static
 const
-PRUnichar
+wchar_t
 kGestureLibraryName
 [
 ]

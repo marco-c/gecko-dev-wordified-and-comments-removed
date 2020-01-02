@@ -285,7 +285,6 @@ Modifiers
 aRemovingModifiers
 )
 ;
-MOZ_ALWAYS_INLINE
 void
 Set
 (
@@ -302,14 +301,12 @@ aInputEvent
 )
 const
 ;
-MOZ_ALWAYS_INLINE
 bool
 IsShift
 (
 )
 const
 ;
-MOZ_ALWAYS_INLINE
 bool
 IsControl
 (

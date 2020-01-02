@@ -2272,13 +2272,13 @@ nullptr
 0
 )
 ;
-PRUnichar
+wchar_t
 *
 buffer
 =
 reinterpret_cast
 <
-PRUnichar
+wchar_t
 *
 >
 (
@@ -2295,7 +2295,7 @@ fileNameLen
 *
 sizeof
 (
-PRUnichar
+wchar_t
 )
 )
 )
