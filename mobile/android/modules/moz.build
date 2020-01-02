@@ -108,6 +108,11 @@ ContactService
 jsm
 '
 '
+DownloadNotifications
+.
+jsm
+'
+'
 HelperApps
 .
 jsm
