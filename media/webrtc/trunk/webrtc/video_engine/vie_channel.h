@@ -249,6 +249,8 @@ VCMDecoderTimingCallback
 public
 VCMPacketRequestCallback
 public
+VCMReceiveStateCallback
+public
 RtcpFeedback
 public
 RtpFeedback
@@ -1276,6 +1278,14 @@ uint16_t
 sequence_numbers
 uint16_t
 length
+)
+;
+virtual
+void
+ReceiveStateChange
+(
+VideoReceiveState
+state
 )
 ;
 int32_t

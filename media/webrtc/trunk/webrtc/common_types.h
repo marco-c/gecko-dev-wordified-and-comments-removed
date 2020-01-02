@@ -1261,6 +1261,17 @@ kVideoUnknown
 }
 ;
 enum
+VideoReceiveState
+{
+kReceiveStateInitial
+kReceiveStateNormal
+kReceiveStatePreemptiveNACK
+kReceiveStateWaitingKey
+kReceiveStateDecodingWithErrors
+kReceiveStateNoIncoming
+}
+;
+enum
 {
 kConfigParameterSize
 =
