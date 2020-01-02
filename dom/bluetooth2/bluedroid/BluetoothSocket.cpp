@@ -2813,7 +2813,7 @@ NotifyDisconnect
 ;
 }
 class
-ConnectResultHandler
+ConnectSocketResultHandler
 MOZ_FINAL
 :
 public
@@ -2821,7 +2821,7 @@ BluetoothSocketResultHandler
 {
 public
 :
-ConnectResultHandler
+ConnectSocketResultHandler
 (
 DroidSocketImpl
 *
@@ -3013,7 +3013,7 @@ BTSOCK_FLAG_AUTH
 mAuth
 )
 new
-ConnectResultHandler
+ConnectSocketResultHandler
 (
 mImpl
 )
