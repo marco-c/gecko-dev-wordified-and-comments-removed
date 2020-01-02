@@ -2036,7 +2036,6 @@ i
 +
 )
 {
-const
 LabelPatch
 &
 v
@@ -2052,6 +2051,16 @@ JS_ASSERT
 v
 .
 label
+)
+;
+v
+.
+patchOffset
+.
+fixup
+(
+&
+masm
 )
 ;
 Assembler
