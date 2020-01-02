@@ -294,6 +294,11 @@ RangedPtr
 h
 '
 '
+RefCountType
+.
+h
+'
+'
 ReentrancyGuard
 .
 h
