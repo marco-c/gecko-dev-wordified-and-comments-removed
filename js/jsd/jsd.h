@@ -2547,7 +2547,7 @@ jsd_CreateLock
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 _jsd_global_lock
 )
@@ -2568,7 +2568,7 @@ JSD_UNLOCK
 \
 JS_BEGIN_MACRO
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 _jsd_global_lock
 )

@@ -74,7 +74,7 @@ js
 const
 volatile
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 sp
 =
@@ -100,7 +100,7 @@ line
 const
 volatile
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 js
@@ -120,7 +120,7 @@ script
 const
 volatile
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 (
@@ -164,7 +164,7 @@ aLine
 )
 volatile
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 js

@@ -170,12 +170,12 @@ void
 arg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 he
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 he
 -
@@ -183,7 +183,7 @@ he
 value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 (
@@ -433,7 +433,7 @@ if
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
