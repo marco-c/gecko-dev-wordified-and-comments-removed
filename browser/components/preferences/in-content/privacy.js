@@ -1266,14 +1266,6 @@ checked
 '
 )
 ;
-document
-.
-documentElement
-.
-acceptDialog
-(
-)
-;
 let
 appStartup
 =
