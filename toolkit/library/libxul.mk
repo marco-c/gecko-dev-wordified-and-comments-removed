@@ -777,7 +777,7 @@ endif
 WINNT
 ifdef
 MOZ_ENABLE_QT
-LIBS
+OS_LIBS
 +
 =
 (
@@ -796,7 +796,7 @@ MOZ_WIDGET_TOOLKIT
 )
 ifdef
 MOZ_GSTREAMER
-LIBS
+OS_LIBS
 +
 =
 (
