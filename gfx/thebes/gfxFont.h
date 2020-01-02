@@ -5126,12 +5126,6 @@ gfxFloat
 xHeight
 ;
 gfxFloat
-superscriptOffset
-;
-gfxFloat
-subscriptOffset
-;
-gfxFloat
 strikeoutSize
 ;
 gfxFloat
