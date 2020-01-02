@@ -4756,10 +4756,8 @@ n
 "
 )
 ;
-free
-(
+delete
 instanceData
-)
 ;
 return
 NPERR_GENERIC_ERROR
