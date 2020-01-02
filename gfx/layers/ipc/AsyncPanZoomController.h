@@ -809,7 +809,7 @@ const
 ScreenPoint
 &
 aPoint
-CSSIntPoint
+CSSPoint
 *
 aOut
 )

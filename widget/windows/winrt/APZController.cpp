@@ -957,7 +957,7 @@ APZController
 HandleDoubleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -976,7 +976,7 @@ APZController
 HandleSingleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -995,7 +995,7 @@ APZController
 HandleLongTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -1014,7 +1014,7 @@ APZController
 HandleLongTapUp
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t

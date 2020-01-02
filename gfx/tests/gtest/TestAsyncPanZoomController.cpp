@@ -319,7 +319,7 @@ HandleDoubleTap
 void
 (
 const
-CSSIntPoint
+CSSPoint
 &
 int32_t
 const
@@ -334,7 +334,7 @@ HandleSingleTap
 void
 (
 const
-CSSIntPoint
+CSSPoint
 &
 int32_t
 const
@@ -349,7 +349,7 @@ HandleLongTap
 void
 (
 const
-CSSIntPoint
+CSSPoint
 &
 int32_t
 const
@@ -364,7 +364,7 @@ HandleLongTapUp
 void
 (
 const
-CSSIntPoint
+CSSPoint
 &
 int32_t
 const
@@ -4165,7 +4165,7 @@ EXPECT_CALL
 mcc
 HandleSingleTap
 (
-CSSIntPoint
+CSSPoint
 (
 10
 10
@@ -4335,7 +4335,7 @@ EXPECT_CALL
 mcc
 HandleSingleTap
 (
-CSSIntPoint
+CSSPoint
 (
 10
 10
@@ -4549,7 +4549,7 @@ EXPECT_CALL
 mcc
 HandleLongTap
 (
-CSSIntPoint
+CSSPoint
 (
 10
 10
@@ -4597,7 +4597,7 @@ EXPECT_CALL
 mcc
 HandleLongTapUp
 (
-CSSIntPoint
+CSSPoint
 (
 10
 10
@@ -4924,7 +4924,7 @@ EXPECT_CALL
 mcc
 HandleLongTap
 (
-CSSIntPoint
+CSSPoint
 (
 touchX
 touchStartY

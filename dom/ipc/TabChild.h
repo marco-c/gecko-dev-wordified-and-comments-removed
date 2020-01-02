@@ -925,7 +925,7 @@ bool
 RecvHandleDoubleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -946,7 +946,7 @@ bool
 RecvHandleSingleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -967,7 +967,7 @@ bool
 RecvHandleLongTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -988,7 +988,7 @@ bool
 RecvHandleLongTapUp
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const

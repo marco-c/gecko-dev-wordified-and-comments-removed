@@ -897,7 +897,7 @@ void
 HandleDoubleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -912,7 +912,7 @@ void
 HandleSingleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -927,7 +927,7 @@ void
 HandleLongTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -942,7 +942,7 @@ void
 HandleLongTapUp
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 int32_t
@@ -1086,7 +1086,7 @@ bool
 SendHandleSingleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -1099,7 +1099,7 @@ bool
 SendHandleLongTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -1112,7 +1112,7 @@ bool
 SendHandleLongTapUp
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -1125,7 +1125,7 @@ bool
 SendHandleDoubleTap
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 const
@@ -1649,11 +1649,11 @@ TryCacheDPIAndScale
 (
 )
 ;
-CSSIntPoint
+CSSPoint
 AdjustTapToChildWidget
 (
 const
-CSSIntPoint
+CSSPoint
 &
 aPoint
 )

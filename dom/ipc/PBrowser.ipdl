@@ -553,7 +553,7 @@ using
 mozilla
 :
 :
-CSSIntPoint
+CSSPoint
 from
 "
 Units
@@ -2505,7 +2505,7 @@ to
 /
 HandleDoubleTap
 (
-CSSIntPoint
+CSSPoint
 point
 ScrollableLayerGuid
 aGuid
@@ -2562,7 +2562,7 @@ point
 /
 HandleSingleTap
 (
-CSSIntPoint
+CSSPoint
 point
 ScrollableLayerGuid
 aGuid
@@ -2613,7 +2613,7 @@ point
 /
 HandleLongTap
 (
-CSSIntPoint
+CSSPoint
 point
 ScrollableLayerGuid
 aGuid
@@ -2687,7 +2687,7 @@ events
 /
 HandleLongTapUp
 (
-CSSIntPoint
+CSSPoint
 point
 ScrollableLayerGuid
 aGuid
