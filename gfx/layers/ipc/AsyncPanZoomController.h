@@ -331,6 +331,14 @@ InputData
 aEvent
 )
 ;
+void
+GetGuid
+(
+ScrollableLayerGuid
+*
+aGuidOut
+)
+;
 bool
 Matches
 (
