@@ -125,11 +125,6 @@ crashmonitor
 .
 manifest
 '
-]
-EXTRA_PP_COMPONENTS
-+
-=
-[
 '
 nsCrashMonitor
 .
