@@ -1148,7 +1148,7 @@ nsISupportsWeakReference
 ;
 actualSizeLabel
 .
-value
+textContent
 =
 prefStrBundle
 .
@@ -1281,7 +1281,7 @@ sizeStrings
 ;
 actualSizeLabel
 .
-value
+textContent
 =
 sizeStr
 ;

@@ -244,7 +244,7 @@ loginError
 ;
 label
 .
-value
+textContent
 =
 Weave
 .
@@ -1064,7 +1064,7 @@ accountName
 "
 )
 .
-value
+textContent
 =
 Weave
 .
