@@ -50,7 +50,6 @@ enum
 ENCODE_METADDATA
 ENCODE_TRACK
 ENCODE_DONE
-ENCODE_ERROR
 }
 ;
 MediaEncoder
@@ -193,18 +192,6 @@ NotifyCancel
 )
 ;
 }
-}
-bool
-HasError
-(
-)
-{
-return
-mState
-=
-=
-ENCODE_ERROR
-;
 }
 private
 :
