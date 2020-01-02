@@ -133,6 +133,11 @@ FxAccountsCommon
 .
 js
 '
+'
+FxAccountsOAuthClient
+.
+jsm
+'
 ]
 #
 For
