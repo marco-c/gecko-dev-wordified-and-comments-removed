@@ -981,15 +981,6 @@ SECFailure
 )
 ;
 }
-PORT_Assert
-(
-candidates
-.
-get
-(
-)
-)
-;
 if
 (
 !
