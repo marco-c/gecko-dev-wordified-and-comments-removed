@@ -1209,6 +1209,11 @@ uint32_t
 quote
 )
 ;
+template
+<
+typename
+CharT
+>
 extern
 size_t
 PutEscapedStringImpl
@@ -1222,7 +1227,7 @@ FILE
 *
 fp
 const
-jschar
+CharT
 *
 chars
 size_t
