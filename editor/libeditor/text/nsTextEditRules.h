@@ -126,6 +126,15 @@ aEditor
 )
 ;
 NS_IMETHOD
+SetInitialValue
+(
+const
+nsAString
+&
+aValue
+)
+;
+NS_IMETHOD
 DetachEditor
 (
 )

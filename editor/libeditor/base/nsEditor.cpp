@@ -1074,6 +1074,10 @@ nsISelectionController
 aSelCon
 uint32_t
 aFlags
+const
+nsAString
+&
+aValue
 )
 {
 NS_PRECONDITION

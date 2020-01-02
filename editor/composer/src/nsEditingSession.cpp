@@ -1687,6 +1687,9 @@ domDoc
 nullptr
 nullptr
 mEditorFlags
+EmptyString
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
