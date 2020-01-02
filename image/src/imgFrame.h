@@ -282,13 +282,13 @@ GetPaletteData
 const
 ;
 int32_t
-GetTimeout
+GetRawTimeout
 (
 )
 const
 ;
 void
-SetTimeout
+SetRawTimeout
 (
 int32_t
 aTimeout

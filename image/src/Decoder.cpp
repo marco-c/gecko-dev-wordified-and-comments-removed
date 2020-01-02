@@ -1305,7 +1305,7 @@ aDisposalMethod
 mCurrentFrame
 -
 >
-SetTimeout
+SetRawTimeout
 (
 aTimeout
 )

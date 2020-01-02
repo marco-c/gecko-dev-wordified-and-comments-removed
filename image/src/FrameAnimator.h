@@ -155,13 +155,6 @@ ResetAnimation
 )
 ;
 void
-SetLoopCount
-(
-int32_t
-aLoopCount
-)
-;
-void
 SetAnimationMode
 (
 uint16_t
@@ -214,7 +207,7 @@ const
 ;
 private
 :
-uint32_t
+int32_t
 GetSingleLoopTime
 (
 )
@@ -251,7 +244,7 @@ uint32_t
 mCurrentAnimationFrameIndex
 ;
 int32_t
-mLoopCount
+mLoopCounter
 ;
 FrameBlender
 &
