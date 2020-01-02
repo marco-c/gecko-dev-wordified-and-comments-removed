@@ -97,6 +97,9 @@ nsIPrincipal
 class
 nsIXPConnectJSObjectHolder
 ;
+class
+ComponentLoaderInfo
+;
 #
 define
 MOZJSCOMPONENTLOADER_CID
@@ -271,12 +274,12 @@ aRealFile
 nsresult
 ObjectForLocation
 (
+ComponentLoaderInfo
+&
+aInfo
 nsIFile
 *
 aComponentFile
-nsIURI
-*
-aComponent
 JS
 :
 :

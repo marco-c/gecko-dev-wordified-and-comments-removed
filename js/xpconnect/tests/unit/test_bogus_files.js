@@ -156,7 +156,7 @@ jsm
 "
 true
 "
-NS_ERROR_ILLEGAL_VALUE
+NS_ERROR_NOT_AVAILABLE
 "
 )
 ;
