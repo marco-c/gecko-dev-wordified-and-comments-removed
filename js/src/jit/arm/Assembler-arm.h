@@ -609,6 +609,13 @@ Double
 static
 MOZ_CONSTEXPR_VAR
 FloatRegister
+ReturnSimdReg
+=
+InvalidFloatReg
+;
+static
+MOZ_CONSTEXPR_VAR
+FloatRegister
 ScratchFloat32Reg
 =
 {
@@ -637,6 +644,13 @@ VFPRegister
 :
 Double
 }
+;
+static
+MOZ_CONSTEXPR_VAR
+FloatRegister
+ScratchSimdReg
+=
+InvalidFloatReg
 ;
 static
 MOZ_CONSTEXPR_VAR
