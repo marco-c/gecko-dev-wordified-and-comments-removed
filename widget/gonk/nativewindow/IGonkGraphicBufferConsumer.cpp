@@ -73,13 +73,11 @@ h
 >
 #
 include
-<
-gui
-/
-IGraphicBufferConsumer
+"
+IGonkGraphicBufferConsumer
 .
 h
->
+"
 #
 include
 <
@@ -110,7 +108,7 @@ h
 namespace
 android
 {
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -156,6 +154,12 @@ mTransformToDisplayInverse
 (
 false
 )
+mSurfaceDescriptor
+(
+SurfaceDescriptor
+(
+)
+)
 {
 mCrop
 .
@@ -165,7 +169,7 @@ makeInvalid
 ;
 }
 size_t
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -234,7 +238,7 @@ c
 ;
 }
 size_t
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -324,7 +328,7 @@ getPodSize
 ;
 }
 size_t
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -383,7 +387,7 @@ c
 ;
 }
 status_t
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -671,7 +675,7 @@ NO_ERROR
 ;
 }
 status_t
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -965,17 +969,17 @@ DUMP
 }
 ;
 class
-BpGraphicBufferConsumer
+BpGonkGraphicBufferConsumer
 :
 public
 BpInterface
 <
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 >
 {
 public
 :
-BpGraphicBufferConsumer
+BpGonkGraphicBufferConsumer
 (
 const
 sp
@@ -988,7 +992,7 @@ impl
 :
 BpInterface
 <
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 >
 (
 impl
@@ -1014,7 +1018,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1116,7 +1120,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1205,7 +1209,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1282,7 +1286,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1343,7 +1347,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1414,7 +1418,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1488,7 +1492,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1553,7 +1557,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1613,7 +1617,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1682,7 +1686,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1727,7 +1731,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1794,7 +1798,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1861,7 +1865,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1934,7 +1938,7 @@ data
 .
 writeInterfaceToken
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 getInterfaceDescriptor
@@ -1988,18 +1992,18 @@ readString8
 ;
 IMPLEMENT_META_INTERFACE
 (
-GraphicBufferConsumer
+GonkGraphicBufferConsumer
 "
 android
 .
 gui
 .
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 "
 )
 ;
 status_t
-BnGraphicBufferConsumer
+BnGonkGraphicBufferConsumer
 :
 :
 onTransact
@@ -2028,7 +2032,7 @@ ACQUIRE_BUFFER
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2093,7 +2097,7 @@ RELEASE_BUFFER
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2177,7 +2181,7 @@ CONSUMER_CONNECT
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2238,7 +2242,7 @@ CONSUMER_DISCONNECT
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2270,7 +2274,7 @@ GET_RELEASED_BUFFERS
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2315,7 +2319,7 @@ SET_DEFAULT_BUFFER_SIZE
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2367,7 +2371,7 @@ SET_DEFAULT_MAX_BUFFER_COUNT
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2409,7 +2413,7 @@ DISABLE_ASYNC_BUFFER
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2441,7 +2445,7 @@ SET_MAX_ACQUIRED_BUFFER_COUNT
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2483,7 +2487,7 @@ SET_CONSUMER_NAME
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2509,7 +2513,7 @@ SET_DEFAULT_BUFFER_FORMAT
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2551,7 +2555,7 @@ SET_CONSUMER_USAGE_BITS
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2593,7 +2597,7 @@ SET_TRANSFORM_HINT
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2635,7 +2639,7 @@ DUMP
 {
 CHECK_INTERFACE
 (
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 data
 reply
 )
@@ -2660,7 +2664,7 @@ readString8
 ;
 static_cast
 <
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 *
 >
 (
