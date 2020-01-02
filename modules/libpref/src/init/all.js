@@ -24970,6 +24970,9 @@ th
 Fira
 Sans
 OT
+Noto
+Sans
+Thai
 Droid
 Sans
 Thai
