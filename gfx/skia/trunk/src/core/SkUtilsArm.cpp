@@ -45,6 +45,13 @@ h
 >
 #
 if
+!
+defined
+(
+USE_ANDROID_NDK_CPU_FEATURES
+)
+#
+if
 defined
 (
 SK_BUILD_FOR_ANDROID
@@ -59,6 +66,8 @@ else
 define
 USE_ANDROID_NDK_CPU_FEATURES
 0
+#
+endif
 #
 endif
 #
