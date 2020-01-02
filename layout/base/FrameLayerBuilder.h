@@ -197,6 +197,10 @@ mDisableSubpixelAntialiasingInDescendants
 (
 false
 )
+mInLowPrecisionDisplayPort
+(
+false
+)
 {
 }
 ContainerLayerParameters
@@ -228,6 +232,10 @@ mInActiveTransformedSubtree
 false
 )
 mDisableSubpixelAntialiasingInDescendants
+(
+false
+)
+mInLowPrecisionDisplayPort
 (
 false
 )
@@ -282,6 +290,12 @@ mDisableSubpixelAntialiasingInDescendants
 aParent
 .
 mDisableSubpixelAntialiasingInDescendants
+)
+mInLowPrecisionDisplayPort
+(
+aParent
+.
+mInLowPrecisionDisplayPort
 )
 {
 }
@@ -304,6 +318,9 @@ mInActiveTransformedSubtree
 ;
 bool
 mDisableSubpixelAntialiasingInDescendants
+;
+bool
+mInLowPrecisionDisplayPort
 ;
 bool
 AllowResidualTranslation
