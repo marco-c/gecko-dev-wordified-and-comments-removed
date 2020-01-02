@@ -93,6 +93,11 @@ NewArray
 \
 _
 (
+ArraySplice
+)
+\
+_
+(
 NewObject
 )
 \

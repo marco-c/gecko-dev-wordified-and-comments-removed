@@ -548,6 +548,14 @@ apply
 )
 ;
 bool
+visitArraySplice
+(
+MArraySplice
+*
+splice
+)
+;
+bool
 visitBail
 (
 MBail
