@@ -9550,7 +9550,7 @@ aTransformList
 const
 gfxPoint3D
 &
-aToMozOrigin
+aToTransformOrigin
 const
 gfxPoint3D
 &
@@ -9567,9 +9567,9 @@ mTransformList
 (
 aTransformList
 )
-mToMozOrigin
+mToTransformOrigin
 (
-aToMozOrigin
+aToTransformOrigin
 )
 mToPerspectiveOrigin
 (
@@ -9593,7 +9593,7 @@ mTransformList
 ;
 const
 gfxPoint3D
-mToMozOrigin
+mToTransformOrigin
 ;
 const
 gfxPoint3D
