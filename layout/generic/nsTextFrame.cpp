@@ -36849,7 +36849,7 @@ SetNextInFlow
 nullptr
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 parent
 =
