@@ -864,9 +864,6 @@ mIsLocked
 bool
 mNeedsClear
 ;
-bool
-mLockRect
-;
 }
 ;
 class
