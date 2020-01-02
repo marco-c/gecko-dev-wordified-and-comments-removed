@@ -356,11 +356,11 @@ ToBoolean
 (
 regs
 .
-sp
-[
+stackHandleAt
+(
 -
 1
-]
+)
 )
 ;
 }
