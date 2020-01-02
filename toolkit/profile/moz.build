@@ -142,8 +142,6 @@ profile
 /
 dirserviceprovider
 /
-src
-/
 nsProfileLock
 .
 cpp
@@ -174,8 +172,6 @@ xre
 profile
 /
 dirserviceprovider
-/
-src
 '
 ]
 FAIL_ON_WARNINGS
