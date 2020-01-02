@@ -253,6 +253,11 @@ MOZ_COUNT_DTOR
 WMFVideoOutputSource
 )
 ;
+DeleteOnMainThread
+(
+mDXVA2Manager
+)
+;
 }
 class
 CreateDXVAManagerEvent
