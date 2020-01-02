@@ -5,6 +5,10 @@ SkUserConfig_DEFINED
 define
 SkUserConfig_DEFINED
 #
+define
+SK_ENABLE_INST_COUNT
+0
+#
 ifdef
 SK_DEBUG
 #
