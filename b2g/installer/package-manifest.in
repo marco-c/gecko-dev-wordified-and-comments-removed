@@ -4680,7 +4680,7 @@ BINPATH
 /
 components
 /
-DataStoreImpl
+DataStoreService
 .
 js
 BINPATH
