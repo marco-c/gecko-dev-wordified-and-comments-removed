@@ -4063,12 +4063,6 @@ atomsCompartment
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-initialized_
-)
-;
 for
 (
 uint32_t
@@ -4398,10 +4392,6 @@ morphAtomizedStringIntoPermanentAtom
 ;
 }
 }
-initialized_
-=
-true
-;
 return
 true
 ;

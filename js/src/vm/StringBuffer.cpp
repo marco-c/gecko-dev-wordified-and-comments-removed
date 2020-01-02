@@ -365,7 +365,7 @@ JSFlatString
 *
 str
 =
-NewStringDontDeflate
+NewString
 <
 CanGC
 >

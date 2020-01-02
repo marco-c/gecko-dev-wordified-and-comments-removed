@@ -4693,9 +4693,6 @@ NUM_SMALL_CHARS
 NUM_SMALL_CHARS
 ]
 ;
-bool
-initialized_
-;
 public
 :
 static
@@ -4737,16 +4734,6 @@ PodZero
 (
 this
 )
-;
-}
-bool
-initialized
-(
-)
-const
-{
-return
-initialized_
 ;
 }
 bool
