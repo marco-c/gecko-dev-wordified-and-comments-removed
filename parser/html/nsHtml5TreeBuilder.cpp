@@ -9190,6 +9190,10 @@ errSelfClosing
 }
 if
 (
+!
+mBuilder
+&
+&
 attributes
 !
 =
