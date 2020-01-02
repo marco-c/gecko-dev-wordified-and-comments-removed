@@ -1510,6 +1510,10 @@ name
 =
 =
 SETTINGS_DEBUG_ENABLED
+&
+&
+!
+gLoggingEnabled
 )
 {
 gLoggingEnabled
