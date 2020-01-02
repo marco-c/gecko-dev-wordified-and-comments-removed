@@ -4439,6 +4439,7 @@ code
 ;
 if
 (
+!
 rAlias
 .
 allocations
@@ -4450,7 +4451,8 @@ range
 existing
 )
 )
-{
+continue
+;
 if
 (
 existing
@@ -4494,14 +4496,6 @@ weight
 lu
 ]
 "
-existing
-.
-range
--
->
-toString
-(
-)
 rAlias
 .
 reg
@@ -4620,7 +4614,6 @@ true
 return
 true
 ;
-}
 }
 }
 IonSpew
