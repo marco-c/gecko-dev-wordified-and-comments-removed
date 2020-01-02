@@ -1262,6 +1262,11 @@ Authenticate
 "
 HomePanels
 :
+RefreshView
+"
+"
+HomePanels
+:
 Installed
 "
 "

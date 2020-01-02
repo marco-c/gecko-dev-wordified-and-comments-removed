@@ -1566,6 +1566,16 @@ getContext
 (
 )
 view
+mPanelConfig
+.
+getId
+(
+)
+viewConfig
+.
+getIndex
+(
+)
 )
 ;
 }
