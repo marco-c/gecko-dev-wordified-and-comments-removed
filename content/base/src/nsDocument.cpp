@@ -6941,9 +6941,6 @@ dom
 NodeInfo
 >
 nullNodeInfo
-(
-nullptr
-)
 ;
 nsIDocument
 :
