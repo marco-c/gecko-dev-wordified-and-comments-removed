@@ -1796,6 +1796,8 @@ aFilter
 UDPSocketParent
 *
 p
+=
+nullptr
 ;
 nsAutoCString
 contractId
