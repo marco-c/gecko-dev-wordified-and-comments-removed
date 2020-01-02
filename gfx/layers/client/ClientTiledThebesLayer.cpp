@@ -826,8 +826,9 @@ scale
 )
 )
 ;
-gfx3DMatrix
-transformToCompBounds
+mPaintData
+.
+mTransformToCompBounds
 =
 GetTransformToAncestorsParentLayer
 (
@@ -841,7 +842,9 @@ mCompositionBounds
 =
 ApplyParentLayerToLayerTransform
 (
-transformToCompBounds
+mPaintData
+.
+mTransformToCompBounds
 .
 Inverse
 (
