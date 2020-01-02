@@ -344,6 +344,7 @@ SafeMutex
 {
 public
 :
+explicit
 SafeMutex
 (
 const
@@ -827,6 +828,7 @@ false
 )
 {
 }
+explicit
 KnownModule
 (
 const
@@ -852,6 +854,7 @@ false
 )
 {
 }
+explicit
 KnownModule
 (
 mozilla

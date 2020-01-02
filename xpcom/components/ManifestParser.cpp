@@ -610,6 +610,7 @@ namespace
 struct
 AutoPR_smprintf_free
 {
+explicit
 AutoPR_smprintf_free
 (
 char

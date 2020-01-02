@@ -62,6 +62,7 @@ FileLocation
 (
 )
 ;
+explicit
 FileLocation
 (
 nsIFile
