@@ -379,12 +379,6 @@ URLSearchParamsUpdated
 )
 MOZ_OVERRIDE
 ;
-void
-URLSearchParamsNeedsUpdates
-(
-)
-MOZ_OVERRIDE
-;
 protected
 :
 virtual
@@ -441,6 +435,11 @@ return
 mCachedURI
 ;
 }
+void
+UpdateURLSearchParams
+(
+)
+;
 void
 Unlink
 (
