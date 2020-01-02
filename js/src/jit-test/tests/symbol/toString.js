@@ -1,5 +1,11 @@
 var
+N
+=
+10
 obj
+hits
+=
+0
 ;
 for
 (
@@ -10,7 +16,7 @@ i
 ;
 i
 <
-10
+N
 ;
 i
 +
@@ -35,5 +41,15 @@ catch
 exc
 )
 {
+hits
++
++
+;
 }
 }
+assertEq
+(
+hits
+N
+)
+;

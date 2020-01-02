@@ -4561,6 +4561,13 @@ elem
 isObject
 (
 )
+|
+|
+elem
+.
+isSymbol
+(
+)
 )
 {
 break
