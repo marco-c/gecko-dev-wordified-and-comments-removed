@@ -1541,7 +1541,7 @@ feedback
 <
 !
 ENTITY
-pref_search_set_default
+pref_dialog_set_default
 "
 Set
 as
@@ -1551,7 +1551,7 @@ default
 <
 !
 ENTITY
-pref_search_default
+pref_dialog_default
 "
 Default
 "
@@ -1559,7 +1559,7 @@ Default
 <
 !
 ENTITY
-pref_search_remove
+pref_dialog_remove
 "
 Remove
 "

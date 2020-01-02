@@ -303,6 +303,7 @@ String
 [
 ]
 {
+LABEL_SET_AS_DEFAULT
 res
 .
 getString
@@ -311,17 +312,7 @@ R
 .
 string
 .
-pref_search_set_default
-)
-res
-.
-getString
-(
-R
-.
-string
-.
-pref_search_remove
+pref_dialog_remove
 )
 }
 ;
