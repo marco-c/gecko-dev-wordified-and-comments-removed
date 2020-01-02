@@ -142,12 +142,7 @@ mozbuild
 .
 util
 import
-(
-    
-ReadOnlyDefaultDict
-    
 ReadOnlyDict
-)
 class
 SandboxDerivedValue
 (

@@ -1031,15 +1031,15 @@ CONFIG
 =
 ReadOnlyDefaultDict
 (
+lambda
+:
+None
+                
 self
 .
 config
 .
 substs_unicode
-                
-global_default
-=
-None
 )
             
 var

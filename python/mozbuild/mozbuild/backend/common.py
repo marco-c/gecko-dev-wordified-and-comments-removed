@@ -51,11 +51,9 @@ XPIDLFile
 WebIDLFile
 )
 from
-.
-.
-util
+collections
 import
-DefaultOnReadDict
+defaultdict
 class
 XPIDLManager
 (
@@ -910,14 +908,9 @@ self
 .
 tests_by_path
 =
-DefaultOnReadDict
+defaultdict
 (
-{
-}
-global_default
-=
-[
-]
+list
 )
     
 def
