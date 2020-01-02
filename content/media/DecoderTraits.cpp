@@ -680,7 +680,7 @@ const
 const
 gWebMCodecs
 [
-4
+5
 ]
 =
 {
@@ -694,6 +694,9 @@ vp8
 "
 "
 vorbis
+"
+"
+opus
 "
 nullptr
 }
