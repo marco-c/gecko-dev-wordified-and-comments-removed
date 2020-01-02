@@ -924,6 +924,12 @@ ss
 return
 nullptr
 ;
+ScriptSourceHolder
+ssHolder
+(
+ss
+)
+;
 if
 (
 options

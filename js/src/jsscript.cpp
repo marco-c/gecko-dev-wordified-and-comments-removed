@@ -3877,6 +3877,12 @@ ss
 return
 false
 ;
+ScriptSourceHolder
+ssHolder
+(
+ss
+)
+;
 CompileOptions
 options
 (
