@@ -620,7 +620,7 @@ baab
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -632,7 +632,7 @@ baab
 setOperand
 (
 1
-useRegisterOrConstant
+useRegisterOrConstantAtStart
 (
 rhs
 )
