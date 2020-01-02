@@ -379,7 +379,10 @@ Length
 outSamples
 )
 ;
-speex_resampler_process_float
+WebAudioUtils
+:
+:
+SpeexResamplerProcess
 (
 mUpSampler
 aChannel
@@ -458,7 +461,10 @@ Length
 inSamples
 )
 ;
-speex_resampler_process_float
+WebAudioUtils
+:
+:
+SpeexResamplerProcess
 (
 mDownSampler
 aChannel
