@@ -3947,16 +3947,6 @@ False
 return
 True
         
-tu
-.
-cxxIncludes
-=
-builtinHeaderIncludes
-+
-tu
-.
-cxxIncludes
-        
 if
 not
 runpass

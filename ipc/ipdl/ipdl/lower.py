@@ -31,6 +31,7 @@ Actor
 ActorType
 ProcessGraph
 TypeVisitor
+builtinHeaderIncludes
 EMIT_LOGGING_CODE
 =
 (
@@ -9789,6 +9790,19 @@ addthing
 Whitespace
 .
 NL
+)
+        
+for
+inc
+in
+builtinHeaderIncludes
+:
+            
+self
+.
+visitCxxInclude
+(
+inc
 )
         
 ipdl
