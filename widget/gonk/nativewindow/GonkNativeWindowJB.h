@@ -155,6 +155,13 @@ NO_BUFFER_AVAILABLE
 ;
 GonkNativeWindow
 (
+int
+bufferCount
+=
+GonkBufferQueue
+:
+:
+MIN_UNDEQUEUED_BUFFERS
 )
 ;
 virtual

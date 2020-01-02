@@ -814,6 +814,10 @@ mNativeWindow
 new
 GonkNativeWindow
 (
+GonkCameraHardware
+:
+:
+MIN_UNDEQUEUED_BUFFERS
 )
 ;
 mCamera
