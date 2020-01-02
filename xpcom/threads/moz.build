@@ -293,6 +293,12 @@ LOCAL_INCLUDES
 /
 build
 '
+'
+/
+caps
+/
+include
+'
 ]
 FAIL_ON_WARNINGS
 =
