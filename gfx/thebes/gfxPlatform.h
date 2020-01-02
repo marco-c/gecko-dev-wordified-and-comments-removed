@@ -1638,6 +1638,12 @@ sizeOfBit
 )
 ;
 }
+bool
+PreferMemoryOverShmem
+(
+)
+const
+;
 mozilla
 :
 :
@@ -2044,6 +2050,9 @@ gfx
 DrawEventRecorder
 >
 mRecorder
+;
+bool
+mLayersPreferMemoryOverShmem
 ;
 mozilla
 :
