@@ -131,18 +131,6 @@ catch
 memory
 errors
 .
-See
-bug
-764192
-for
-details
-on
-what
-#
-MOZ_TEMP_INVESTIGATION
-is
-for
-.
 ifeq
 (
 (
@@ -159,8 +147,6 @@ DEFINES
 =
 -
 DMOZ_JEMALLOC_HARD_ASSERTS
--
-DMOZ_TEMP_INVESTIGATION
 endif
 DEFINES
 +
