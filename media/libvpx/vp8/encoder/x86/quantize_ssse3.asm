@@ -112,6 +112,7 @@ sym
 (
 vp8_fast_quantize_b_ssse3
 )
+PRIVATE
 sym
 (
 vp8_fast_quantize_b_ssse3

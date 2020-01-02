@@ -62,6 +62,12 @@ BLOCKD
 d
 int
 pitch
+unsigned
+char
+*
+base_pre
+int
+pre_stride
 vp8_subpix_fn_t
 sppf
 )

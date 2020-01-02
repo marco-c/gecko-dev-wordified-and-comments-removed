@@ -19,13 +19,6 @@ gcc
 -
 disable
 -
-vp8
--
-encoder
--
--
-disable
--
 examples
 -
 -

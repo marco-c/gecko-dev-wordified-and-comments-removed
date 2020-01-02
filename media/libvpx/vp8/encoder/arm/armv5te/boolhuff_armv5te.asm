@@ -243,13 +243,6 @@ r0
 vp8_writer_range
 ]
 str
-r12
-[
-r0
-#
-vp8_writer_value
-]
-str
 r2
 [
 r0

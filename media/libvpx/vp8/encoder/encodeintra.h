@@ -27,9 +27,6 @@ use_dc_pred
 void
 vp8_encode_intra16x16mby
 (
-const
-VP8_ENCODER_RTCD
-*
 MACROBLOCK
 *
 x
@@ -38,9 +35,6 @@ x
 void
 vp8_encode_intra16x16mbuv
 (
-const
-VP8_ENCODER_RTCD
-*
 MACROBLOCK
 *
 x
@@ -49,9 +43,6 @@ x
 void
 vp8_encode_intra4x4mby
 (
-const
-VP8_ENCODER_RTCD
-*
 MACROBLOCK
 *
 mb
@@ -60,10 +51,6 @@ mb
 void
 vp8_encode_intra4x4block
 (
-const
-VP8_ENCODER_RTCD
-*
-rtcd
 MACROBLOCK
 *
 x

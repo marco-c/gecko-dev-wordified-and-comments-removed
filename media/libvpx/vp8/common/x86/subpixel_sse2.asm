@@ -382,6 +382,7 @@ sym
 (
 vp8_filter_block1d8_h6_sse2
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d8_h6_sse2
@@ -1192,6 +1193,7 @@ sym
 (
 vp8_filter_block1d16_h6_sse2
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d16_h6_sse2
@@ -2346,6 +2348,7 @@ sym
 (
 vp8_filter_block1d8_v6_sse2
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d8_v6_sse2
@@ -2891,6 +2894,7 @@ sym
 (
 vp8_filter_block1d16_v6_sse2
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d16_v6_sse2
@@ -3416,6 +3420,7 @@ sym
 (
 vp8_filter_block1d8_h6_only_sse2
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d8_h6_only_sse2
@@ -4004,6 +4009,7 @@ sym
 (
 vp8_filter_block1d16_h6_only_sse2
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d16_h6_only_sse2
@@ -4980,6 +4986,7 @@ sym
 (
 vp8_filter_block1d8_v6_only_sse2
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d8_v6_only_sse2
@@ -5326,6 +5333,7 @@ sym
 (
 vp8_unpack_block1d16_h6_sse2
 )
+PRIVATE
 sym
 (
 vp8_unpack_block1d16_h6_sse2
@@ -5582,6 +5590,7 @@ sym
 (
 vp8_bilinear_predict16x16_sse2
 )
+PRIVATE
 sym
 (
 vp8_bilinear_predict16x16_sse2
@@ -6676,6 +6685,7 @@ sym
 (
 vp8_bilinear_predict8x8_sse2
 )
+PRIVATE
 sym
 (
 vp8_bilinear_predict8x8_sse2

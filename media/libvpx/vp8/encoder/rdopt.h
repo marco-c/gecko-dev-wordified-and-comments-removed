@@ -299,6 +299,9 @@ vp8_initialize_rd_consts
 VP8_COMP
 *
 cpi
+MACROBLOCK
+*
+x
 int
 Qvalue
 )
@@ -332,9 +335,6 @@ extern
 void
 vp8_rd_pick_intra_mode
 (
-VP8_COMP
-*
-cpi
 MACROBLOCK
 *
 x
@@ -436,7 +436,7 @@ cpi
 >
 ref_frame_flags
 &
-VP8_LAST_FLAG
+VP8_LAST_FRAME
 )
 get_plane_pointers
 (
@@ -470,7 +470,7 @@ cpi
 >
 ref_frame_flags
 &
-VP8_GOLD_FLAG
+VP8_GOLD_FRAME
 )
 get_plane_pointers
 (
@@ -504,7 +504,7 @@ cpi
 >
 ref_frame_flags
 &
-VP8_ALT_FLAG
+VP8_ALTR_FRAME
 )
 get_plane_pointers
 (
@@ -568,7 +568,7 @@ cpi
 >
 ref_frame_flags
 &
-VP8_LAST_FLAG
+VP8_LAST_FRAME
 )
 ref_frame_map
 [
@@ -586,7 +586,7 @@ cpi
 >
 ref_frame_flags
 &
-VP8_GOLD_FLAG
+VP8_GOLD_FRAME
 )
 ref_frame_map
 [
@@ -604,7 +604,7 @@ cpi
 >
 ref_frame_flags
 &
-VP8_ALT_FLAG
+VP8_ALTR_FRAME
 )
 ref_frame_map
 [

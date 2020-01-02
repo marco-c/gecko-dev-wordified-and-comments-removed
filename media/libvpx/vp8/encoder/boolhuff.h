@@ -35,10 +35,6 @@ unsigned
 int
 range
 ;
-unsigned
-int
-value
-;
 int
 count
 ;

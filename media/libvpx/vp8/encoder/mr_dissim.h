@@ -29,5 +29,14 @@ VP8_COMP
 cpi
 )
 ;
+extern
+void
+vp8_store_drop_frame_info
+(
+VP8_COMP
+*
+cpi
+)
+;
 #
 endif

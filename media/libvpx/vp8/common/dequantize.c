@@ -8,7 +8,7 @@ h
 #
 include
 "
-dequantize
+vpx_rtcd
 .
 h
 "
@@ -19,7 +19,7 @@ vp8
 /
 common
 /
-idct
+blockd
 .
 h
 "

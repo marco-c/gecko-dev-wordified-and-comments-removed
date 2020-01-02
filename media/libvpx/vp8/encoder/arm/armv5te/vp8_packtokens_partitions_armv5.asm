@@ -481,13 +481,6 @@ r2
 [
 r0
 #
-vp8_writer_value
-]
-str
-r2
-[
-r0
-#
 vp8_writer_pos
 ]
 str

@@ -331,13 +331,6 @@ range
 br
 -
 >
-value
-=
-0
-;
-br
--
->
 count
 =
 -

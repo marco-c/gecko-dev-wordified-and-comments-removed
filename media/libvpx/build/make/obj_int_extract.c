@@ -3480,7 +3480,7 @@ strcmp
 sectionname
 "
 .
-data
+rdata
 "
 )
 )

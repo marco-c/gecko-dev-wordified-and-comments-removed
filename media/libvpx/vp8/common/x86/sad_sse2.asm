@@ -119,6 +119,7 @@ sym
 (
 vp8_sad16x16_wmt
 )
+PRIVATE
 sym
 (
 vp8_sad16x16_wmt
@@ -367,13 +368,14 @@ int
 ref_stride
 ;
 int
-max_err
+max_sad
 )
 global
 sym
 (
 vp8_sad8x16_wmt
 )
+PRIVATE
 sym
 (
 vp8_sad8x16_wmt
@@ -464,7 +466,7 @@ arg
 (
 4
 )
-jg
+ja
 .
 x8x16sad_wmt_early_exit
 movq
@@ -581,6 +583,7 @@ sym
 (
 vp8_sad8x8_wmt
 )
+PRIVATE
 sym
 (
 vp8_sad8x8_wmt
@@ -662,7 +665,7 @@ arg
 (
 4
 )
-jg
+ja
 .
 x8x8sad_wmt_early_exit
 movq
@@ -747,6 +750,7 @@ sym
 (
 vp8_sad4x4_wmt
 )
+PRIVATE
 sym
 (
 vp8_sad4x4_wmt
@@ -946,6 +950,7 @@ sym
 (
 vp8_sad16x8_wmt
 )
+PRIVATE
 sym
 (
 vp8_sad16x8_wmt
@@ -1027,7 +1032,7 @@ arg
 (
 4
 )
-jg
+ja
 .
 x16x8sad_wmt_early_exit
 movq
@@ -1199,6 +1204,7 @@ sym
 (
 vp8_copy32xn_sse2
 )
+PRIVATE
 sym
 (
 vp8_copy32xn_sse2

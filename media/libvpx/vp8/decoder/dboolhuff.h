@@ -186,11 +186,16 @@ CHAR_BIT
 \
 x
 =
+(
+int
+)
+(
 shift
 +
 CHAR_BIT
 -
 bits_left
+)
 ;
 \
 loop_end

@@ -17,7 +17,7 @@ vpx_mem
 h
 "
 void
-vp8cx_horizontal_line_4_5_scale_c
+vp8_horizontal_line_4_5_scale_c
 (
 const
 unsigned
@@ -374,7 +374,7 @@ a
 ;
 }
 void
-vp8cx_vertical_band_4_5_scale_c
+vp8_vertical_band_4_5_scale_c
 (
 unsigned
 char
@@ -577,7 +577,7 @@ des
 }
 }
 void
-vp8cx_last_vertical_band_4_5_scale_c
+vp8_last_vertical_band_4_5_scale_c
 (
 unsigned
 char
@@ -756,7 +756,7 @@ des
 }
 }
 void
-vp8cx_horizontal_line_2_3_scale_c
+vp8_horizontal_line_2_3_scale_c
 (
 const
 unsigned
@@ -988,7 +988,7 @@ b
 ;
 }
 void
-vp8cx_vertical_band_2_3_scale_c
+vp8_vertical_band_2_3_scale_c
 (
 unsigned
 char
@@ -1118,7 +1118,7 @@ des
 }
 }
 void
-vp8cx_last_vertical_band_2_3_scale_c
+vp8_last_vertical_band_2_3_scale_c
 (
 unsigned
 char
@@ -1225,7 +1225,7 @@ des
 }
 }
 void
-vp8cx_horizontal_line_3_5_scale_c
+vp8_horizontal_line_3_5_scale_c
 (
 const
 unsigned
@@ -1575,7 +1575,7 @@ c
 ;
 }
 void
-vp8cx_vertical_band_3_5_scale_c
+vp8_vertical_band_3_5_scale_c
 (
 unsigned
 char
@@ -1770,7 +1770,7 @@ des
 }
 }
 void
-vp8cx_last_vertical_band_3_5_scale_c
+vp8_last_vertical_band_3_5_scale_c
 (
 unsigned
 char
@@ -1943,7 +1943,7 @@ des
 }
 }
 void
-vp8cx_horizontal_line_3_4_scale_c
+vp8_horizontal_line_3_4_scale_c
 (
 const
 unsigned
@@ -2233,7 +2233,7 @@ c
 ;
 }
 void
-vp8cx_vertical_band_3_4_scale_c
+vp8_vertical_band_3_4_scale_c
 (
 unsigned
 char
@@ -2396,7 +2396,7 @@ des
 }
 }
 void
-vp8cx_last_vertical_band_3_4_scale_c
+vp8_last_vertical_band_3_4_scale_c
 (
 unsigned
 char
@@ -2537,7 +2537,7 @@ des
 }
 }
 void
-vp8cx_horizontal_line_1_2_scale_c
+vp8_horizontal_line_1_2_scale_c
 (
 const
 unsigned
@@ -2698,7 +2698,7 @@ a
 ;
 }
 void
-vp8cx_vertical_band_1_2_scale_c
+vp8_vertical_band_1_2_scale_c
 (
 unsigned
 char
@@ -2788,7 +2788,7 @@ des
 }
 }
 void
-vp8cx_last_vertical_band_1_2_scale_c
+vp8_last_vertical_band_1_2_scale_c
 (
 unsigned
 char
@@ -2845,7 +2845,7 @@ des
 }
 }
 void
-vp8cx_horizontal_line_5_4_scale_c
+vp8_horizontal_line_5_4_scale_c
 (
 const
 unsigned
@@ -3048,7 +3048,7 @@ des
 }
 }
 void
-vp8cx_vertical_band_5_4_scale_c
+vp8_vertical_band_5_4_scale_c
 (
 unsigned
 char
@@ -3263,7 +3263,7 @@ des
 }
 }
 void
-vp8cx_horizontal_line_5_3_scale_c
+vp8_horizontal_line_5_3_scale_c
 (
 const
 unsigned
@@ -3441,7 +3441,7 @@ des
 }
 }
 void
-vp8cx_vertical_band_5_3_scale_c
+vp8_vertical_band_5_3_scale_c
 (
 unsigned
 char
@@ -3628,7 +3628,7 @@ des
 }
 }
 void
-vp8cx_horizontal_line_2_1_scale_c
+vp8_horizontal_line_2_1_scale_c
 (
 const
 unsigned
@@ -3724,7 +3724,7 @@ des
 }
 }
 void
-vp8cx_vertical_band_2_1_scale_c
+vp8_vertical_band_2_1_scale_c
 (
 unsigned
 char
@@ -3764,7 +3764,7 @@ dest_width
 ;
 }
 void
-vp8cx_vertical_band_2_1_scale_i_c
+vp8_vertical_band_2_1_scale_i_c
 (
 unsigned
 char

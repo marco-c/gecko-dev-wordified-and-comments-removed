@@ -111,6 +111,7 @@ sym
 (
 vp8_regular_quantize_b_sse2
 )
+PRIVATE
 sym
 (
 vp8_regular_quantize_b_sse2
@@ -1027,6 +1028,7 @@ sym
 (
 vp8_fast_quantize_b_sse2
 )
+PRIVATE
 sym
 (
 vp8_fast_quantize_b_sse2

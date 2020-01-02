@@ -104,6 +104,15 @@ int
 drain
 )
 ;
+#
+define
+PEEK_FORWARD
+1
+#
+define
+PEEK_BACKWARD
+-
+1
 struct
 lookahead_entry
 *
@@ -116,6 +125,8 @@ ctx
 unsigned
 int
 index
+int
+direction
 )
 ;
 unsigned

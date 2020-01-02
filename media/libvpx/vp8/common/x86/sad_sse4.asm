@@ -680,6 +680,7 @@ sym
 (
 vp8_sad16x16x8_sse4
 )
+PRIVATE
 sym
 (
 vp8_sad16x16x8_sse4
@@ -812,6 +813,7 @@ sym
 (
 vp8_sad16x8x8_sse4
 )
+PRIVATE
 sym
 (
 vp8_sad16x8x8_sse4
@@ -936,6 +938,7 @@ sym
 (
 vp8_sad8x8x8_sse4
 )
+PRIVATE
 sym
 (
 vp8_sad8x8x8_sse4
@@ -1060,6 +1063,7 @@ sym
 (
 vp8_sad8x16x8_sse4
 )
+PRIVATE
 sym
 (
 vp8_sad8x16x8_sse4
@@ -1192,6 +1196,7 @@ sym
 (
 vp8_sad4x4x8_sse4
 )
+PRIVATE
 sym
 (
 vp8_sad4x4x8_sse4

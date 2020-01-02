@@ -119,6 +119,7 @@ sym
 (
 vp8_copy_mem8x8_mmx
 )
+PRIVATE
 sym
 (
 vp8_copy_mem8x8_mmx
@@ -373,6 +374,7 @@ sym
 (
 vp8_copy_mem8x4_mmx
 )
+PRIVATE
 sym
 (
 vp8_copy_mem8x4_mmx
@@ -543,6 +545,7 @@ sym
 (
 vp8_copy_mem16x16_mmx
 )
+PRIVATE
 sym
 (
 vp8_copy_mem16x16_mmx

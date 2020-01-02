@@ -130,6 +130,7 @@ sym
 (
 vp8_loop_filter_horizontal_edge_mmx
 )
+PRIVATE
 sym
 (
 vp8_loop_filter_horizontal_edge_mmx
@@ -1512,6 +1513,7 @@ sym
 (
 vp8_loop_filter_vertical_edge_mmx
 )
+PRIVATE
 sym
 (
 vp8_loop_filter_vertical_edge_mmx
@@ -3880,6 +3882,7 @@ sym
 (
 vp8_mbloop_filter_horizontal_edge_mmx
 )
+PRIVATE
 sym
 (
 vp8_mbloop_filter_horizontal_edge_mmx
@@ -5777,6 +5780,7 @@ sym
 (
 vp8_mbloop_filter_vertical_edge_mmx
 )
+PRIVATE
 sym
 (
 vp8_mbloop_filter_vertical_edge_mmx
@@ -8988,6 +8992,7 @@ sym
 (
 vp8_loop_filter_simple_horizontal_edge_mmx
 )
+PRIVATE
 sym
 (
 vp8_loop_filter_simple_horizontal_edge_mmx
@@ -9692,6 +9697,7 @@ sym
 (
 vp8_loop_filter_simple_vertical_edge_mmx
 )
+PRIVATE
 sym
 (
 vp8_loop_filter_simple_vertical_edge_mmx

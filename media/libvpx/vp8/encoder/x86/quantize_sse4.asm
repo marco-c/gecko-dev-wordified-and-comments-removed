@@ -111,6 +111,7 @@ sym
 (
 vp8_regular_quantize_b_sse4
 )
+PRIVATE
 sym
 (
 vp8_regular_quantize_b_sse4

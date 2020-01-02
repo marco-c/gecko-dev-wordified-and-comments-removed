@@ -27,6 +27,7 @@ MV
 ;
 typedef
 union
+int_mv
 {
 uint32_t
 as_int

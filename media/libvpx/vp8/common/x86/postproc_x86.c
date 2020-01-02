@@ -32,4 +32,9 @@ __rand
 ;
 }
 #
+else
+int
+vp8_unused
+;
+#
 endif

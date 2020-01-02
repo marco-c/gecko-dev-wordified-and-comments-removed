@@ -711,7 +711,7 @@ VFilter
 ;
 }
 void
-vp8_sixtap_predict_c
+vp8_sixtap_predict4x4_c
 (
 unsigned
 char

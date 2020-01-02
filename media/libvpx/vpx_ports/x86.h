@@ -917,6 +917,10 @@ else
 if
 ARCH_X86_64
 return
+(
+unsigned
+int
+)
 __rdtsc
 (
 )

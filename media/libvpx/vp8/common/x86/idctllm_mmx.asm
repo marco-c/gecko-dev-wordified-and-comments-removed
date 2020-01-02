@@ -473,6 +473,7 @@ sym
 (
 vp8_short_idct4x4llm_mmx
 )
+PRIVATE
 sym
 (
 vp8_short_idct4x4llm_mmx
@@ -1270,6 +1271,7 @@ sym
 (
 vp8_dc_only_idct_add_mmx
 )
+PRIVATE
 sym
 (
 vp8_dc_only_idct_add_mmx

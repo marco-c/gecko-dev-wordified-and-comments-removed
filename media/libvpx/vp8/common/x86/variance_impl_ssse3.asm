@@ -176,6 +176,7 @@ sym
 (
 vp8_filter_block2d_bil_var_ssse3
 )
+PRIVATE
 sym
 (
 vp8_filter_block2d_bil_var_ssse3

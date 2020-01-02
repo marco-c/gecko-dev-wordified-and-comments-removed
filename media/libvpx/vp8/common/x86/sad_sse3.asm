@@ -132,7 +132,7 @@ arg
 )
 %
 define
-max_err
+max_sad
 arg
 (
 4
@@ -242,7 +242,7 @@ xmm_stack_space
 ]
 %
 define
-max_err
+max_sad
 [
 rsp
 +
@@ -302,7 +302,7 @@ result_ptr
 r8
 %
 define
-max_err
+max_sad
 r8
 %
 define
@@ -341,7 +341,7 @@ define
 result_ptr
 %
 define
-max_err
+max_sad
 %
 define
 height
@@ -1731,6 +1731,7 @@ sym
 (
 vp8_sad16x16x3_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad16x16x3_sse3
@@ -1870,6 +1871,7 @@ sym
 (
 vp8_sad16x8x3_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad16x8x3_sse3
@@ -1985,6 +1987,7 @@ sym
 (
 vp8_sad8x16x3_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad8x16x3_sse3
@@ -2089,6 +2092,7 @@ sym
 (
 vp8_sad8x8x3_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad8x8x3_sse3
@@ -2169,6 +2173,7 @@ sym
 (
 vp8_sad4x4x3_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad4x4x3_sse3
@@ -2430,7 +2435,7 @@ int
 ref_stride
 ;
 int
-max_err
+max_sad
 )
 ;
 %
@@ -2442,6 +2447,7 @@ sym
 (
 vp8_sad16x16_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad16x16_sse3
@@ -2630,6 +2636,7 @@ sym
 (
 vp8_copy32xn_sse3
 )
+PRIVATE
 sym
 (
 vp8_copy32xn_sse3
@@ -2937,6 +2944,7 @@ sym
 (
 vp8_sad16x16x4d_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad16x16x4d_sse3
@@ -3124,6 +3132,7 @@ sym
 (
 vp8_sad16x8x4d_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad16x8x4d_sse3
@@ -3276,6 +3285,7 @@ sym
 (
 vp8_sad8x16x4d_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad8x16x4d_sse3
@@ -3414,6 +3424,7 @@ sym
 (
 vp8_sad8x8x4d_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad8x8x4d_sse3
@@ -3516,6 +3527,7 @@ sym
 (
 vp8_sad4x4x4d_sse3
 )
+PRIVATE
 sym
 (
 vp8_sad4x4x4d_sse3

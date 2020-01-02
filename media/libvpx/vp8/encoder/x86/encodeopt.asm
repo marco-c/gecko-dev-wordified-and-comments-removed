@@ -108,6 +108,7 @@ sym
 (
 vp8_block_error_xmm
 )
+PRIVATE
 sym
 (
 vp8_block_error_xmm
@@ -236,6 +237,7 @@ sym
 (
 vp8_block_error_mmx
 )
+PRIVATE
 sym
 (
 vp8_block_error_mmx
@@ -425,6 +427,7 @@ sym
 (
 vp8_mbblock_error_mmx_impl
 )
+PRIVATE
 sym
 (
 vp8_mbblock_error_mmx_impl
@@ -633,6 +636,7 @@ sym
 (
 vp8_mbblock_error_xmm_impl
 )
+PRIVATE
 sym
 (
 vp8_mbblock_error_xmm_impl
@@ -808,6 +812,7 @@ sym
 (
 vp8_mbuverror_mmx_impl
 )
+PRIVATE
 sym
 (
 vp8_mbuverror_mmx_impl
@@ -945,6 +950,7 @@ sym
 (
 vp8_mbuverror_xmm_impl
 )
+PRIVATE
 sym
 (
 vp8_mbuverror_xmm_impl

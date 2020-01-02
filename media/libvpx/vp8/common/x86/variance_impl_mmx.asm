@@ -106,6 +106,7 @@ sym
 (
 vp8_get_mb_ss_mmx
 )
+PRIVATE
 sym
 (
 vp8_get_mb_ss_mmx
@@ -296,6 +297,7 @@ sym
 (
 vp8_get8x8var_mmx
 )
+PRIVATE
 sym
 (
 vp8_get8x8var_mmx
@@ -1776,6 +1778,7 @@ sym
 (
 vp8_get4x4var_mmx
 )
+PRIVATE
 sym
 (
 vp8_get4x4var_mmx
@@ -2396,6 +2399,7 @@ sym
 (
 vp8_get4x4sse_cs_mmx
 )
+PRIVATE
 sym
 (
 vp8_get4x4sse_cs_mmx
@@ -2863,6 +2867,7 @@ sym
 (
 vp8_filter_block2d_bil4x4_var_mmx
 )
+PRIVATE
 sym
 (
 vp8_filter_block2d_bil4x4_var_mmx
@@ -3357,6 +3362,7 @@ sym
 (
 vp8_filter_block2d_bil_var_mmx
 )
+PRIVATE
 sym
 (
 vp8_filter_block2d_bil_var_mmx

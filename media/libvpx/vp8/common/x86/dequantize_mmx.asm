@@ -111,6 +111,7 @@ sym
 (
 vp8_dequantize_b_impl_mmx
 )
+PRIVATE
 sym
 (
 vp8_dequantize_b_impl_mmx
@@ -307,6 +308,7 @@ sym
 (
 vp8_dequant_idct_add_mmx
 )
+PRIVATE
 sym
 (
 vp8_dequant_idct_add_mmx

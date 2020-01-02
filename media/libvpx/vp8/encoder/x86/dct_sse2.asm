@@ -250,6 +250,7 @@ sym
 (
 vp8_short_fdct4x4_sse2
 )
+PRIVATE
 sym
 (
 vp8_short_fdct4x4_sse2
@@ -1149,6 +1150,7 @@ sym
 (
 vp8_short_fdct8x4_sse2
 )
+PRIVATE
 sym
 (
 vp8_short_fdct8x4_sse2

@@ -100,6 +100,7 @@ sym
 (
 vpx_reset_mmx_state
 )
+PRIVATE
 sym
 (
 vpx_reset_mmx_state
@@ -116,6 +117,7 @@ sym
 (
 vpx_winx64_fldcw
 )
+PRIVATE
 sym
 (
 vpx_winx64_fldcw
@@ -146,6 +148,7 @@ sym
 (
 vpx_winx64_fstcw
 )
+PRIVATE
 sym
 (
 vpx_winx64_fstcw

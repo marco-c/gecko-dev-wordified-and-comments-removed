@@ -120,6 +120,7 @@ sym
 (
 vp8_subtract_b_mmx_impl
 )
+PRIVATE
 sym
 (
 vp8_subtract_b_mmx_impl
@@ -366,6 +367,7 @@ sym
 (
 vp8_subtract_mby_mmx
 )
+PRIVATE
 sym
 (
 vp8_subtract_mby_mmx
@@ -607,6 +609,7 @@ sym
 (
 vp8_subtract_mbuv_mmx
 )
+PRIVATE
 sym
 (
 vp8_subtract_mbuv_mmx

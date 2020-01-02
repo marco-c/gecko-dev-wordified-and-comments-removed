@@ -1786,6 +1786,8 @@ vp8_mv_update_probs
 cpi
 -
 >
+mb
+.
 MVcount
 [
 0
@@ -1819,6 +1821,8 @@ vp8_mv_update_probs
 cpi
 -
 >
+mb
+.
 MVcount
 [
 1

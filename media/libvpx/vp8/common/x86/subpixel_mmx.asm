@@ -151,6 +151,7 @@ sym
 (
 vp8_filter_block1d_h6_mmx
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d_h6_mmx
@@ -710,6 +711,7 @@ sym
 (
 vp8_filter_block1dc_v6_mmx
 )
+PRIVATE
 sym
 (
 vp8_filter_block1dc_v6_mmx
@@ -1232,6 +1234,7 @@ sym
 (
 vp8_bilinear_predict8x8_mmx
 )
+PRIVATE
 sym
 (
 vp8_bilinear_predict8x8_mmx
@@ -1883,6 +1886,7 @@ sym
 (
 vp8_bilinear_predict8x4_mmx
 )
+PRIVATE
 sym
 (
 vp8_bilinear_predict8x4_mmx
@@ -2520,6 +2524,7 @@ sym
 (
 vp8_bilinear_predict4x4_mmx
 )
+PRIVATE
 sym
 (
 vp8_bilinear_predict4x4_mmx

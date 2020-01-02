@@ -246,16 +246,6 @@ range
 ;
 DEFINE
 (
-vp8_writer_value
-offsetof
-(
-vp8_writer
-value
-)
-)
-;
-DEFINE
-(
 vp8_writer_count
 offsetof
 (
@@ -503,7 +493,7 @@ mb_rows
 END
 #
 if
-HAVE_ARMV5TE
+HAVE_EDSP
 ct_assert
 (
 TOKENEXTRA_SZ

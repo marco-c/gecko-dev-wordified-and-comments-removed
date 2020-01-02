@@ -390,6 +390,7 @@ sym
 (
 vp8_filter_block1d8_h6_ssse3
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d8_h6_ssse3
@@ -941,6 +942,7 @@ sym
 (
 vp8_filter_block1d16_h6_ssse3
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d16_h6_ssse3
@@ -1336,6 +1338,7 @@ sym
 (
 vp8_filter_block1d4_h6_ssse3
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d4_h6_ssse3
@@ -1591,6 +1594,7 @@ rdi
 pop
 rsi
 RESTORE_GOT
+RESTORE_XMM
 UNSHADOW_ARGS
 pop
 rbp
@@ -1820,6 +1824,7 @@ sym
 (
 vp8_filter_block1d16_v6_ssse3
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d16_v6_ssse3
@@ -2661,6 +2666,7 @@ sym
 (
 vp8_filter_block1d8_v6_ssse3
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d8_v6_ssse3
@@ -3226,6 +3232,7 @@ sym
 (
 vp8_filter_block1d4_v6_ssse3
 )
+PRIVATE
 sym
 (
 vp8_filter_block1d4_v6_ssse3
@@ -3785,6 +3792,7 @@ sym
 (
 vp8_bilinear_predict16x16_ssse3
 )
+PRIVATE
 sym
 (
 vp8_bilinear_predict16x16_ssse3
@@ -5027,6 +5035,7 @@ sym
 (
 vp8_bilinear_predict8x8_ssse3
 )
+PRIVATE
 sym
 (
 vp8_bilinear_predict8x8_ssse3

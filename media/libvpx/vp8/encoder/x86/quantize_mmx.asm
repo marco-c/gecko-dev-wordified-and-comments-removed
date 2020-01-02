@@ -130,6 +130,7 @@ sym
 (
 vp8_fast_quantize_b_impl_mmx
 )
+PRIVATE
 sym
 (
 vp8_fast_quantize_b_impl_mmx

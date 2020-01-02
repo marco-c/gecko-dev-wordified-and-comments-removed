@@ -128,6 +128,7 @@ sym
 (
 vp8_idct_dequant_0_2x_sse2
 )
+PRIVATE
 sym
 (
 vp8_idct_dequant_0_2x_sse2
@@ -417,6 +418,7 @@ sym
 (
 vp8_idct_dequant_full_2x_sse2
 )
+PRIVATE
 sym
 (
 vp8_idct_dequant_full_2x_sse2
@@ -1637,6 +1639,7 @@ sym
 (
 vp8_idct_dequant_dc_0_2x_sse2
 )
+PRIVATE
 sym
 (
 vp8_idct_dequant_dc_0_2x_sse2
@@ -1958,6 +1961,7 @@ sym
 (
 vp8_idct_dequant_dc_full_2x_sse2
 )
+PRIVATE
 sym
 (
 vp8_idct_dequant_dc_full_2x_sse2

@@ -91,7 +91,6 @@ i
 val
 )
 )
-;
 #
 define
 BEGIN
@@ -117,11 +116,11 @@ DEFINE
 sym
 val
 )
+const
 int
 sym
 =
 val
-;
 #
 define
 BEGIN

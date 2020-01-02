@@ -85,7 +85,7 @@ tree
 ;
 EXPORT
 |
-vp8_sixtap_predict_neon
+vp8_sixtap_predict4x4_neon
 |
 ARM
 REQUIRE8
@@ -224,7 +224,7 @@ lr
 int
 dst_pitch
 |
-vp8_sixtap_predict_neon
+vp8_sixtap_predict4x4_neon
 |
 PROC
 push

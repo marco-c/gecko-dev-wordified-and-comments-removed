@@ -110,6 +110,7 @@ sym
 (
 vp8_short_walsh4x4_sse2
 )
+PRIVATE
 sym
 (
 vp8_short_walsh4x4_sse2

@@ -830,6 +830,7 @@ sym
 (
 vp8_loop_filter_bh_y_sse2
 )
+PRIVATE
 sym
 (
 vp8_loop_filter_bh_y_sse2
@@ -884,6 +885,8 @@ rbp
 mov
 rbp
 rsp
+SAVE_XMM
+11
 push
 r12
 push
@@ -1375,6 +1378,7 @@ pop
 r13
 pop
 r12
+RESTORE_XMM
 pop
 rbp
 %
@@ -1415,6 +1419,7 @@ sym
 (
 vp8_loop_filter_bv_y_sse2
 )
+PRIVATE
 sym
 (
 vp8_loop_filter_bv_y_sse2

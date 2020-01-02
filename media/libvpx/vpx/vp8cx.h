@@ -236,15 +236,6 @@ vpx_scaling_mode_t
 typedef
 enum
 {
-VP8_BEST_QUALITY_ENCODING
-VP8_GOOD_QUALITY_ENCODING
-VP8_REAL_TIME_ENCODING
-}
-vp8e_encoding_mode
-;
-typedef
-enum
-{
 VP8_ONE_TOKENPARTITION
 =
 0
@@ -333,7 +324,7 @@ int
 VPX_CTRL_USE_TYPE
 (
 VP8E_SET_TOKEN_PARTITIONS
-vp8e_token_partitions
+int
 )
 VPX_CTRL_USE_TYPE
 (
@@ -356,7 +347,7 @@ int
 VPX_CTRL_USE_TYPE
 (
 VP8E_SET_TUNING
-vp8e_tuning
+int
 )
 VPX_CTRL_USE_TYPE
 (

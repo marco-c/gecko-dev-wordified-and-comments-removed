@@ -110,6 +110,7 @@ sym
 (
 vp8_short_fdct4x4_mmx
 )
+PRIVATE
 sym
 (
 vp8_short_fdct4x4_mmx
