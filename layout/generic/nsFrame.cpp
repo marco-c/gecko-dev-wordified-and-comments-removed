@@ -8598,7 +8598,7 @@ WillComputePluginGeometry
 nsLayoutUtils
 :
 :
-HasAnimationsForCompositor
+HasAnimations
 (
 mContent
 eCSSProperty_opacity
