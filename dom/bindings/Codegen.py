@@ -159,7 +159,6 @@ Binding
 "
 arg
 )
-;
 def
 isTypeCopyConstructible
 (
@@ -203,6 +202,7 @@ isUnion
 (
 )
 and
+             
 CGUnionStruct
 .
 isUnionCopyConstructible
@@ -238,18 +238,17 @@ desc
 :
     
 return
+(
 desc
 .
 concrete
 and
-\
-           
+            
 desc
 .
 wrapperCache
 and
-\
-           
+            
 not
 desc
 .
@@ -260,6 +259,7 @@ getExtendedAttribute
 "
 Global
 "
+)
 )
 class
 CGThing
@@ -317,9 +317,7 @@ file
 "
         
 assert
-(
 False
-)
     
 def
 define
@@ -343,9 +341,7 @@ file
 "
         
 assert
-(
 False
-)
     
 def
 deps
@@ -369,9 +365,7 @@ file
 "
         
 assert
-(
 False
-)
 class
 CGStringTable
 (
@@ -1749,7 +1743,8 @@ enumerateHook
 JS_EnumerateStub
 "
         
-return
+template
+=
 "
 "
 "
@@ -1868,6 +1863,9 @@ s
 "
 "
 "
+        
+return
+template
 %
 (
 self
@@ -1879,9 +1877,9 @@ interface
 identifier
 .
 name
-       
+                           
 classFlags
-       
+                           
 ADDPROPERTY_HOOK_NAME
 if
 wantsAddProperty
@@ -1894,13 +1892,13 @@ else
 '
 JS_PropertyStub
 '
-       
+                           
 enumerateHook
 newResolveHook
 FINALIZE_HOOK_NAME
 callHook
 traceHook
-       
+                           
 CGIndenter
 (
 CGGeneric
@@ -2034,7 +2032,8 @@ else
 nullptr
 '
         
-return
+template
+=
 "
 "
 "
@@ -2085,6 +2084,9 @@ s
 "
 "
 "
+        
+return
+template
 %
 (
 self
@@ -2096,7 +2098,7 @@ interface
 identifier
 .
 name
-       
+                           
 "
 |
 "
@@ -2105,9 +2107,9 @@ join
 (
 flags
 )
-       
+                           
 callHook
-       
+                           
 CGIndenter
 (
 CGGeneric
@@ -2772,7 +2774,8 @@ properties
 /
 "
         
-return
+template
+=
 "
 "
 "
@@ -2894,6 +2897,9 @@ s
 "
 "
 "
+        
+return
+template
 %
 (
 self
@@ -2906,14 +2912,14 @@ identifier
 .
 name
 slotCount
-       
+                           
 NativePropertyHooks
 (
 self
 .
 descriptor
 )
-       
+                           
 self
 .
 descriptor
@@ -2923,7 +2929,7 @@ interface
 identifier
 .
 name
-       
+                           
 prototypeID
 depth
 )
@@ -3129,7 +3135,8 @@ namedConstructors
 )
 )
         
-return
+template
+=
 "
 "
 "
@@ -3265,11 +3272,14 @@ s
 "
 "
 "
+        
+return
+template
 %
 (
 slotCount
 ctorname
-       
+                           
 hasinstance
 ctorname
 NativePropertyHooks
@@ -3278,7 +3288,7 @@ self
 .
 descriptor
 )
-       
+                           
 self
 .
 descriptor
@@ -3288,7 +3298,7 @@ interface
 identifier
 .
 name
-       
+                           
 prototypeID
 depth
 )
@@ -4265,7 +4275,7 @@ CGIfWrapper
 ifTrue
 condition
 )
-                 
+                
 CGWrapper
 (
 CGIndenter
@@ -4661,7 +4671,7 @@ getDescriptorProvider
 (
 True
 )
-        
+    
 ]
 def
 getAllTypes
@@ -5581,7 +5591,6 @@ prefix
 h
 "
 )
-;
         
 for
 desc
@@ -7772,9 +7781,7 @@ self
 :
         
 assert
-(
 False
-)
 class
 CGAbstractStaticMethod
 (
@@ -7986,9 +7993,7 @@ self
 :
         
 assert
-(
 False
-)
 class
 CGGetJSClassMethod
 (
@@ -8410,7 +8415,7 @@ self
 ;
 "
 %
-        
+                 
 (
 descriptor
 .
@@ -9267,11 +9272,8 @@ bug
 "
 )
         
-return
-string
-.
-Template
-(
+template
+=
 "
 "
 "
@@ -9419,13 +9421,19 @@ toObject
 "
 "
 "
+        
+return
+string
+.
+Template
+(
+template
 )
 .
 substitute
 (
-    
 {
-        
+            
 '
 descriptorName
 '
@@ -9435,7 +9443,7 @@ self
 descriptor
 .
 name
-    
+        
 }
 )
 class
@@ -9732,6 +9740,7 @@ namedConstructors
 .
 append
 (
+                
 CGGeneric
 (
 "
@@ -9753,6 +9762,7 @@ i
 }
 "
 %
+                          
 (
 n
 .
@@ -10420,7 +10430,6 @@ return
 header
 +
 hasInstanceCode
-;
 def
 isChromeOnly
 (
@@ -11052,17 +11061,15 @@ return
 None
         
 assert
-(
 len
 (
 attr
 )
-is
+=
+=
 1
-)
         
 assert
-(
 attr
 [
 0
@@ -11070,7 +11077,6 @@ attr
 is
 not
 None
-)
         
 return
 attr
@@ -11259,15 +11265,13 @@ specTemplate
 "
         
 assert
-(
 len
 (
 array
 )
-is
-not
+!
+=
 0
-)
         
 lastCondition
 =
@@ -11361,7 +11365,6 @@ prefableSpecs
 )
 )
 )
-                    
 )
             
 prefableSpecs
@@ -11465,7 +11468,6 @@ nullptr
 }
 "
 )
-;
         
 specType
 =
@@ -12109,6 +12111,7 @@ regular
 append
 (
 {
+                    
 "
 name
 "
@@ -12116,19 +12119,19 @@ name
 '
 QueryInterface
 '
-                                     
+                    
 "
 methodInfo
 "
 :
 False
-                                     
+                    
 "
 length
 "
 :
 1
-                                     
+                    
 "
 flags
 "
@@ -12136,7 +12139,7 @@ flags
 "
 0
 "
-                                     
+                    
 "
 condition
 "
@@ -12146,6 +12149,7 @@ MemberCondition
 None
 condition
 )
+                
 }
 )
                 
@@ -12154,6 +12158,7 @@ continue
 method
 =
 {
+                
 "
 name
 "
@@ -12163,7 +12168,7 @@ m
 identifier
 .
 name
-                       
+                
 "
 methodInfo
 "
@@ -12174,7 +12179,7 @@ m
 isStatic
 (
 )
-                       
+                
 "
 length
 "
@@ -12183,7 +12188,7 @@ methodLength
 (
 m
 )
-                       
+                
 "
 flags
 "
@@ -12191,7 +12196,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                       
+                
 "
 condition
 "
@@ -12202,7 +12207,7 @@ getControllingCondition
 (
 m
 )
-                       
+                
 "
 allowCrossOriginThis
 "
@@ -12215,7 +12220,7 @@ getExtendedAttribute
 CrossOriginCallable
 "
 )
-                       
+                
 "
 returnsPromise
 "
@@ -12225,7 +12230,7 @@ m
 returnsPromise
 (
 )
-                       
+            
 }
             
 if
@@ -12284,6 +12289,7 @@ regular
 append
 (
 {
+                
 "
 name
 "
@@ -12291,13 +12297,13 @@ name
 "
 iterator
 "
-                                 
+                
 "
 methodInfo
 "
 :
 False
-                                 
+                
 "
 selfHostedName
 "
@@ -12305,13 +12311,13 @@ selfHostedName
 "
 ArrayValues
 "
-                                 
+                
 "
 length
 "
 :
 0
-                                 
+                
 "
 flags
 "
@@ -12319,7 +12325,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                                 
+                
 "
 condition
 "
@@ -12329,6 +12335,7 @@ MemberCondition
 None
 None
 )
+            
 }
 )
         
@@ -12355,6 +12362,7 @@ stringifier
 toStringDesc
 =
 {
+                    
 "
 name
 "
@@ -12362,7 +12370,7 @@ name
 "
 toString
 "
-                                 
+                    
 "
 nativeName
 "
@@ -12372,13 +12380,13 @@ stringifier
 identifier
 .
 name
-                                 
+                    
 "
 length
 "
 :
 0
-                                 
+                    
 "
 flags
 "
@@ -12386,7 +12394,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                                 
+                    
 "
 condition
 "
@@ -12397,6 +12405,7 @@ getControllingCondition
 (
 stringifier
 )
+                
 }
                 
 if
@@ -12445,6 +12454,7 @@ jsonifier
 toJSONDesc
 =
 {
+                    
 "
 name
 "
@@ -12452,7 +12462,7 @@ name
 "
 toJSON
 "
-                               
+                    
 "
 nativeName
 "
@@ -12462,13 +12472,13 @@ jsonifier
 identifier
 .
 name
-                               
+                    
 "
 length
 "
 :
 0
-                               
+                    
 "
 flags
 "
@@ -12476,7 +12486,7 @@ flags
 "
 JSPROP_ENUMERATE
 "
-                               
+                    
 "
 condition
 "
@@ -12487,6 +12497,7 @@ getControllingCondition
 (
 jsonifier
 )
+                
 }
                 
 if
@@ -12545,6 +12556,7 @@ chrome
 append
 (
 {
+                
 "
 name
 "
@@ -12552,7 +12564,7 @@ name
 '
 _create
 '
-                                
+                
 "
 nativeName
 "
@@ -12566,24 +12578,23 @@ s
 _Create
 "
 %
-                                               
 descriptor
 .
 name
 )
-                                
+                
 "
 methodInfo
 "
 :
 False
-                                
+                
 "
 length
 "
 :
 2
-                                
+                
 "
 flags
 "
@@ -12591,7 +12602,7 @@ flags
 "
 0
 "
-                                
+                
 "
 condition
 "
@@ -12601,6 +12612,7 @@ MemberCondition
 None
 None
 )
+            
 }
 )
         
@@ -12765,7 +12777,6 @@ selfHostedName
 "
 nullptr
 "
-;
                 
 accessor
 =
@@ -14005,7 +14016,7 @@ methods
 "
 attrs
 "
-                 
+                
 "
 unforgeableAttrs
 "
@@ -14236,7 +14247,6 @@ props
 (
 props
 %
-                             
 {
 '
 name
@@ -15660,6 +15670,7 @@ nullptr
 call
 =
 (
+            
 "
 dom
 :
@@ -15672,7 +15683,7 @@ parentProto
 \
 n
 "
-                
+            
 "
 %
 s
@@ -15681,7 +15692,7 @@ s
 \
 n
 "
-                
+            
 "
 constructorProto
 %
@@ -15695,35 +15706,35 @@ s
 \
 n
 "
-                
+            
 "
 %
 s
 \
 n
 "
-                
+            
 "
 %
 s
 \
 n
 "
-                
+            
 "
 %
 s
 \
 n
 "
-                
+            
 "
 %
 s
 \
 n
 "
-                
+            
 "
 %
 s
@@ -15733,24 +15744,24 @@ aDefineOnGlobal
 "
 %
 (
-            
+                
 protoClass
 protoCache
-            
+                
 interfaceClass
 constructHookHolder
 constructArgs
-            
+                
 namedConstructors
-            
+                
 interfaceCache
-            
+                
 domClass
-            
+                
 properties
-            
+                
 chromeProperties
-            
+                
 '
 "
 '
@@ -17748,7 +17759,7 @@ nullptr
 pre
 =
 (
-            
+                
 "
 /
 /
@@ -17765,7 +17776,7 @@ handed
 \
 n
 "
-            
+                
 "
 /
 /
@@ -17787,7 +17798,7 @@ if
 \
 n
 "
-            
+                
 "
 /
 /
@@ -17809,7 +17820,7 @@ the
 \
 n
 "
-            
+                
 "
 /
 /
@@ -18091,8 +18102,7 @@ CGIndenter
 (
 CGGeneric
 (
-            
-(
+        
 "
 if
 (
@@ -18108,12 +18118,12 @@ aObject
 \
 n
 "
-             
+        
 "
 %
 s
 "
-             
+        
 "
 return
 nullptr
@@ -18121,13 +18131,12 @@ nullptr
 \
 n
 "
-             
+        
 "
 }
 "
 %
 clearWrapper
-)
 )
 )
 .
@@ -18641,6 +18650,7 @@ JSObject
 *
 '
 args
+                                  
 inline
 =
 True
@@ -19916,14 +19926,14 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 "
 %
 s
 \
 n
 "
-                
+            
 "
 obj
 =
@@ -19937,7 +19947,7 @@ GetWrapper
 \
 n
 "
-                
+            
 "
 if
 (
@@ -19948,7 +19958,7 @@ obj
 \
 n
 "
-                
+            
 "
 return
 %
@@ -19957,18 +19967,18 @@ s
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 %
 s
 "
-                
+            
 "
 js
 :
@@ -19987,12 +19997,12 @@ UndefinedValue
 )
 ;
 "
-                
+            
 "
 %
 s
 "
-                
+            
 %
 (
 declObj
@@ -20001,7 +20011,7 @@ saveMember
 slotIndex
 regetMember
 )
-                
+        
 )
 )
 .
@@ -20938,6 +20948,7 @@ self
 substitution
 =
 {
+            
 "
 type
 "
@@ -20945,7 +20956,7 @@ type
 descriptor
 .
 nativeType
-                              
+            
 "
 protoID
 "
@@ -20962,13 +20973,13 @@ id
 descriptor
 .
 name
-                              
+            
 "
 target
 "
 :
 target
-                              
+            
 "
 codeOnFailure
 "
@@ -20984,7 +20995,7 @@ codeOnFailure
 define
 (
 )
-                              
+            
 "
 exceptionCode
 "
@@ -21001,6 +21012,7 @@ exceptionCode
 define
 (
 )
+        
 }
         
 if
@@ -21703,6 +21715,7 @@ string
 .
 Template
 (
+            
 "
 "
 "
@@ -21750,6 +21763,7 @@ codeOnFailure
 "
 "
 "
+        
 )
 .
 substitute
@@ -22544,7 +22558,6 @@ value
 )
     
 assert
-(
 tag
 =
 =
@@ -22553,7 +22566,6 @@ IDLType
 Tags
 .
 bool
-)
     
 return
 toStringBool
@@ -23368,24 +23380,20 @@ JSToNativeConversionInfo
 "
     
 assert
-(
 defaultValue
 is
 None
 or
 not
 isOptional
-)
     
 assert
-(
 not
 isDefinitelyObject
 or
 defaultValue
 is
 None
-)
     
 assert
 not
@@ -23934,11 +23942,9 @@ else
 :
                 
 assert
-(
 defaultValue
 is
 None
-)
         
 return
 templateBody
@@ -24205,7 +24211,6 @@ type
 nullable
 (
 )
-;
         
 if
 nullable
@@ -24393,7 +24398,6 @@ declName
         
 templateBody
 =
-(
 "
 "
 "
@@ -24545,14 +24549,18 @@ slotPtr
 "
 "
 "
+        
+templateBody
 %
+=
 (
+            
 exceptionCodeIndented
 .
 define
 (
 )
-       
+            
 CGIndenter
 (
 CGGeneric
@@ -24564,11 +24572,11 @@ notSequence
 define
 (
 )
-       
+            
 sequenceType
-       
+            
 arrayRef
-       
+            
 CGIndenter
 (
 exceptionCodeIndented
@@ -24577,7 +24585,7 @@ exceptionCodeIndented
 define
 (
 )
-       
+            
 elementInfo
 .
 declType
@@ -24585,7 +24593,7 @@ declType
 define
 (
 )
-       
+            
 CGIndenter
 (
 exceptionCodeIndented
@@ -24594,14 +24602,13 @@ exceptionCodeIndented
 define
 (
 )
-       
+            
 elementInfo
 .
 declType
 .
 define
 (
-)
 )
 )
         
@@ -24612,7 +24619,7 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 string
 .
 Template
@@ -24624,9 +24631,8 @@ template
 .
 substitute
 (
-                    
 {
-                        
+                
 "
 val
 "
@@ -24634,7 +24640,7 @@ val
 "
 temp
 "
-                        
+                
 "
 mutableVal
 "
@@ -24643,7 +24649,7 @@ mutableVal
 &
 temp
 "
-                        
+                
 "
 declName
 "
@@ -24651,7 +24657,7 @@ declName
 "
 slot
 "
-                        
+                
 "
 holderName
 "
@@ -24659,9 +24665,8 @@ holderName
 "
 tempHolder
 "
-                        
+            
 }
-                    
 )
 )
 )
@@ -24778,7 +24783,6 @@ type
 nullable
 (
 )
-;
         
 if
 nullable
@@ -24906,6 +24910,7 @@ interfaceObject
 .
 append
 (
+                    
 CGGeneric
 (
 "
@@ -24936,6 +24941,7 @@ tryNext
 tryNext
 "
 %
+                              
 (
 unionArgumentObj
 name
@@ -24964,6 +24970,7 @@ interfaceObject
 n
 "
 )
+                                        
 pre
 =
 "
@@ -25142,7 +25149,6 @@ argObj
 )
 "
 )
-;
             
 names
 .
@@ -27106,7 +27112,6 @@ s
 %
 name
 )
-;
             
 else
 :
@@ -27266,7 +27271,7 @@ in
 s
 "
 %
-                             
+                            
 (
 descriptor
 .
@@ -27275,7 +27280,7 @@ interface
 identifier
 .
 name
-                              
+                             
 sourceDescription
 )
 )
@@ -27406,9 +27411,9 @@ str
 (
 CastableObjectUnwrapper
 (
-                        
+                    
 descriptor
-                        
+                    
 "
 &
 {
@@ -27419,13 +27424,13 @@ toObject
 (
 )
 "
-                        
+                    
 "
 {
 declName
 }
 "
-                        
+                    
 failureCode
 )
 )
@@ -27440,9 +27445,9 @@ str
 (
 FailureFatalCastableObjectUnwrapper
 (
-                        
+                    
 descriptor
-                        
+                    
 "
 &
 {
@@ -27453,17 +27458,17 @@ toObject
 (
 )
 "
-                        
+                    
 "
 {
 declName
 }
 "
-                        
+                    
 exceptionCode
-                        
+                    
 isCallbackReturnValue
-                        
+                    
 firstCap
 (
 sourceDescription
@@ -27647,7 +27652,7 @@ templateBody
 \
 n
 "
-                
+                             
 "
 MOZ_ASSERT
 (
@@ -28890,12 +28895,13 @@ n
 "
 %
 {
+                
 "
 enumtype
 "
 :
 enumName
-                      
+                
 "
 values
 "
@@ -28909,7 +28915,7 @@ Values
 "
 +
 ENUM_ENTRY_VARIABLE_NAME
-       
+                
 "
 invalidEnumValueFatal
 "
@@ -28918,13 +28924,13 @@ toStringBool
 (
 invalidEnumValueFatal
 )
-  
+                
 "
 handleInvalidEnumValueCode
 "
 :
 handleInvalidEnumValueCode
-               
+                
 "
 exceptionCode
 "
@@ -28937,13 +28943,13 @@ exceptionCodeIndented
 define
 (
 )
-                     
+                
 "
 enumLoc
 "
 :
 enumLoc
-           
+                
 "
 sourceDescription
 "
@@ -28952,7 +28958,7 @@ firstCap
 (
 sourceDescription
 )
-                    
+            
 }
 )
         
@@ -29199,7 +29205,6 @@ s
 %
 name
 )
-;
         
 else
 :
@@ -29554,25 +29559,15 @@ declArgs
 None
         
 if
-(
 isMember
-=
-=
+in
+(
 "
 Variadic
 "
-or
-isMember
-=
-=
 "
 Sequence
 "
-or
-            
-isMember
-=
-=
 "
 Dictionary
 "
@@ -30109,7 +30104,6 @@ RootedDictionary
 "
 declType
 )
-;
             
 declArgs
 =
@@ -30917,17 +30911,18 @@ template
 =
 CGIfElseWrapper
 (
+            
 "
 {
 haveValue
 }
 "
-                                   
+            
 CGGeneric
 (
 template
 )
-                                   
+            
 CGGeneric
 (
 "
@@ -30941,7 +30936,6 @@ s
 %
 (
 writeLoc
-                                                           
 defaultStr
 )
 )
@@ -31122,7 +31116,6 @@ count
 !
 "
 )
-;
     
 def
 getArgsCGThing
@@ -31414,7 +31407,7 @@ conversion
 =
 CGGeneric
 (
-            
+        
 string
 .
 Template
@@ -31426,7 +31419,6 @@ substitute
 (
 replacements
 )
-            
 )
     
 if
@@ -31556,11 +31548,11 @@ conversion
 =
 CGList
 (
-            
 [
+            
 CGGeneric
 (
-                    
+                
 string
 .
 Template
@@ -31578,29 +31570,27 @@ haveValue
 .
 substitute
 (
-                        
 replacements
-                        
 )
 )
-             
+            
 declConstruct
-             
+            
 holderConstruct
-             
+            
 CGIndenter
 (
 conversion
 )
-             
+            
 CGGeneric
 (
 "
 }
 "
 )
+        
 ]
-            
 "
 \
 n
@@ -32029,7 +32019,7 @@ length
 (
 )
 "
-            
+        
 }
         
 self
@@ -32075,7 +32065,7 @@ obj
 "
 obj
 "
-            
+        
 }
         
 self
@@ -32100,7 +32090,6 @@ index
 }
 ]
 "
-            
 )
 .
 substitute
@@ -32648,7 +32637,7 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 string
 .
 Template
@@ -32660,21 +32649,20 @@ template
 .
 substitute
 (
-                    
 {
-                        
+                
 "
 val
 "
 :
 val
-                        
+                
 "
 mutableVal
 "
 :
 val
-                        
+                
 "
 declName
 "
@@ -32682,7 +32670,7 @@ declName
 "
 slot
 "
-                        
+                
 "
 holderName
 "
@@ -32690,7 +32678,7 @@ holderName
 "
 tempHolder
 "
-                        
+                
 "
 obj
 "
@@ -32701,9 +32689,8 @@ replacer
 obj
 "
 ]
-                        
+            
 }
-                    
 )
 )
 4
@@ -33500,15 +33487,14 @@ s
 \
 n
 "
-+
-                
-tail
-)
 %
 (
 setter
 value
 )
+)
++
+tail
     
 def
 wrapAndSetPtr
@@ -33844,9 +33830,8 @@ obj
 "
 returnArray
 "
-                
-}
             
+}
 )
         
 sequenceWrapLevel
@@ -33869,9 +33854,8 @@ define
 (
 )
         
-return
-(
-(
+template
+=
 "
 "
 "
@@ -34021,11 +34005,15 @@ s
   
 }
 }
-\
-n
+%
+s
 "
 "
 "
+        
+code
+=
+template
 %
 (
 result
@@ -34034,14 +34022,14 @@ exceptionCodeIndented
 define
 (
 )
-          
+                           
 index
 index
 index
-          
+                           
 innerTemplate
 index
-          
+                           
 CGIndenter
 (
 exceptionCodeIndented
@@ -34051,10 +34039,7 @@ exceptionCodeIndented
 define
 (
 )
-)
-)
-+
-                
+                           
 setObject
 (
 "
@@ -34062,6 +34047,11 @@ setObject
 returnArray
 "
 )
+)
+        
+return
+(
+code
 False
 )
     
@@ -34605,9 +34595,8 @@ resultLoc
 =
 result
         
-conversion
+conversionTemplate
 =
-(
 "
 "
 "
@@ -34701,18 +34690,24 @@ s
 "
 "
 "
+        
+conversion
+=
+conversionTemplate
 %
 {
+            
 "
 result
 "
 :
 resultLoc
-        
+            
 "
 strings
 "
 :
+(
 type
 .
 unroll
@@ -34731,8 +34726,10 @@ Values
 :
 "
 +
+                        
 ENUM_ENTRY_VARIABLE_NAME
-        
+)
+            
 "
 exceptionCode
 "
@@ -34745,9 +34742,12 @@ exceptionCodeIndented
 define
 (
 )
-}
-+
         
+}
+        
+conversion
++
+=
 CGIndenter
 (
 CGGeneric
@@ -34765,13 +34765,11 @@ define
 (
 )
 +
-                      
 "
 \
 n
 }
 "
-)
         
 if
 type
@@ -36076,7 +36074,6 @@ descriptorProvider
 result
 '
 None
-\
                                   
 memberReturnsNewObject
 (
@@ -36364,7 +36361,7 @@ dictionary
 members
 )
 or
-        
+            
 (
 dictionary
 .
@@ -36707,7 +36704,7 @@ descriptorProvider
 .
 getDescriptor
 (
-            
+                
 returnType
 .
 unroll
@@ -37527,14 +37524,15 @@ extendedAttributes
 (
 result
 resultOutParam
-         
 resultRooter
 resultArgs
 )
 =
+\
+            
 getRetvalDeclarationForType
 (
-            
+                
 returnType
 descriptorProvider
 resultAlreadyAddRefed
@@ -37731,7 +37729,6 @@ isCallback
 )
 )
 and
-                 
 not
 a
 .
@@ -38868,7 +38865,7 @@ memberWrap
 =
 wrapTypeIntoCurrentCompartment
 (
-               
+                
 member
 "
 %
@@ -39907,7 +39904,7 @@ append
 (
 CGGeneric
 (
-                    
+                
 "
 bool
 objIsXray
@@ -39937,7 +39934,7 @@ append
 (
 CGIfWrapper
 (
-                        
+                    
 CGGeneric
 (
 "
@@ -39951,7 +39948,7 @@ obj
 ;
 "
 )
-                        
+                    
 "
 objIsXray
 "
@@ -39995,8 +39992,8 @@ lenientFloatCode
 =
 lenientFloatCode
 )
-for
                          
+for
 i
 in
 range
@@ -40172,7 +40169,7 @@ append
 (
 CGCallGenerator
 (
-                    
+            
 self
 .
 getErrorReport
@@ -40186,7 +40183,7 @@ isFallible
 )
 else
 None
-                    
+            
 self
 .
 getArguments
@@ -40194,13 +40191,13 @@ getArguments
 )
 argsPre
 returnType
-                    
+            
 self
 .
 extendedAttributes
 descriptor
 nativeMethodName
-                    
+            
 static
 argsPost
 =
@@ -40382,6 +40379,7 @@ None
 resultTemplateValues
 =
 {
+            
 '
 jsvalRef
 '
@@ -40393,7 +40391,7 @@ rval
 (
 )
 '
-                                 
+            
 '
 jsvalHandle
 '
@@ -40405,19 +40403,19 @@ rval
 (
 )
 '
-                                 
+            
 '
 returnsNewObject
 '
 :
 returnsNewObject
-                                 
+            
 '
 successCode
 '
 :
 successCode
-                                 
+            
 '
 obj
 '
@@ -40431,7 +40429,7 @@ else
 "
 obj
 "
-                                 
+        
 }
         
 try
@@ -41123,7 +41121,6 @@ post
 "
 )
 )
-;
         
 if
 default
@@ -41169,11 +41166,8 @@ break
 n
 }
 "
-                        
 )
-                    
 )
-                
 )
         
 self
@@ -41362,7 +41356,6 @@ CGIndenter
 bodyList
 )
 )
-;
         
 self
 .
@@ -42067,10 +42060,10 @@ possibleSignatures
 [
 i
 ]
-                                             
+                                            
 i
 descriptor
-                                             
+                                            
 argDesc
 %
 (
@@ -42079,10 +42072,10 @@ i
 1
 )
 )
+                        
 for
 i
 in
-                         
 range
 (
 0
@@ -42280,13 +42273,12 @@ d
 "
 %
 distinguishingIndex
-                        
+                    
 }
                     
 checkForValue
 =
 argIsOptional
-                    
 )
                 
 caseBody
@@ -42299,7 +42291,6 @@ testCode
 indent
 )
 )
-;
                 
 caseBody
 .
@@ -42307,7 +42298,7 @@ append
 (
 CGIndenter
 (
-                        
+                    
 getPerSignatureCall
 (
 signature
@@ -42315,7 +42306,7 @@ distinguishingIndex
 +
 1
 )
-                        
+                    
 indent
 )
 )
@@ -42973,7 +42964,6 @@ do
 )
 )
 )
-;
                     
 tryCall
 (
@@ -43257,7 +43247,7 @@ append
 (
 CGGeneric
 (
-                  
+                    
 '
 return
 ThrowErrorMessage
@@ -43279,8 +43269,8 @@ s
 )
 ;
 '
-                  
 %
+                    
 (
 distinguishingIndex
 +
@@ -44407,7 +44397,7 @@ getThis
 CGList
 (
 [
-                
+            
 CGGeneric
 (
 self
@@ -44424,11 +44414,11 @@ callArgs
 "
 else
 None
-                
+            
 self
 .
 getThisObj
-                
+            
 CGGeneric
 (
 "
@@ -44445,7 +44435,7 @@ descriptor
 .
 nativeType
 )
-                
+        
 ]
 "
 \
@@ -44462,11 +44452,11 @@ str
 (
 CastableObjectUnwrapper
 (
-                        
+                
 self
 .
 descriptor
-                        
+                
 "
 obj
 "
@@ -44476,7 +44466,7 @@ self
 self
 .
 unwrapFailureCode
-                        
+                
 allowCrossOriginObj
 =
 self
@@ -44490,20 +44480,23 @@ return
 CGList
 (
 [
+            
 CGIndenter
 (
 getThis
 )
+            
 CGIndenter
 (
 unwrapThis
 )
-                        
+            
 self
 .
 generate_code
 (
 )
+        
 ]
 "
 \
@@ -44523,9 +44516,7 @@ self
 :
         
 assert
-(
 False
-)
 class
 CGAbstractStaticBindingMethod
 (
@@ -44722,7 +44713,6 @@ CGIndenter
 (
 unwrap
 )
-                        
 self
 .
 generate_code
@@ -44749,9 +44739,7 @@ self
 :
         
 assert
-(
 False
-)
 def
 MakeNativeName
 (
@@ -45606,7 +45594,7 @@ interface
 .
 members
 :
-          
+            
 if
 m
 .
@@ -45629,7 +45617,7 @@ isSerializable
 (
 )
 :
-              
+                
 ret
 +
 =
@@ -45646,7 +45634,7 @@ temp
 \
 n
 '
-                      
+                        
 '
 JS
 :
@@ -45666,7 +45654,7 @@ cx
 \
 n
 '
-                      
+                        
 '
 if
 (
@@ -45689,7 +45677,7 @@ temp
 \
 n
 '
-                      
+                        
 '
 return
 false
@@ -45697,13 +45685,13 @@ false
 \
 n
 '
-                      
+                        
 '
 }
 \
 n
 '
-                      
+                        
 '
 if
 (
@@ -45726,7 +45714,7 @@ JSPROP_ENUMERATE
 \
 n
 '
-                      
+                        
 '
 return
 false
@@ -45734,13 +45722,13 @@ false
 \
 n
 '
-                      
+                        
 '
 }
 \
 n
 '
-                      
+                        
 '
 }
 \
@@ -46125,7 +46113,7 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 "
 JS
 :
@@ -46142,7 +46130,7 @@ cx
 \
 n
 "
-                
+            
 "
 if
 (
@@ -46163,7 +46151,7 @@ desc
 \
 n
 "
-                
+            
 "
 return
 false
@@ -46171,13 +46159,13 @@ false
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 if
 (
@@ -46192,7 +46180,7 @@ object
 \
 n
 "
-                
+            
 "
 return
 true
@@ -46200,13 +46188,13 @@ true
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 /
 /
@@ -46225,7 +46213,7 @@ call
 \
 n
 "
-                
+            
 "
 /
 /
@@ -46246,7 +46234,7 @@ also
 \
 n
 "
-                
+            
 "
 /
 /
@@ -46256,7 +46244,7 @@ it
 \
 n
 "
-                
+            
 "
 if
 (
@@ -46275,7 +46263,7 @@ isUndefined
 \
 n
 "
-                
+            
 "
 !
 JS_DefinePropertyById
@@ -46291,7 +46279,7 @@ value
 \
 n
 "
-                
+            
 "
 desc
 .
@@ -46306,7 +46294,7 @@ setter
 \
 n
 "
-                
+            
 "
 desc
 .
@@ -46319,7 +46307,7 @@ attributes
 \
 n
 "
-                
+            
 "
 return
 false
@@ -46327,13 +46315,13 @@ false
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 objp
 .
@@ -46345,7 +46333,7 @@ obj
 \
 n
 "
-                
+            
 "
 return
 true
@@ -46382,7 +46370,7 @@ CGIndenter
 (
 CGGeneric
 (
-                    
+                
 "
 if
 (
@@ -46400,7 +46388,7 @@ objp
 \
 n
 "
-                    
+                
 "
 return
 false
@@ -46408,13 +46396,13 @@ false
 \
 n
 "
-                    
+                
 "
 }
 \
 n
 "
-                    
+                
 "
 if
 (
@@ -46424,7 +46412,7 @@ objp
 \
 n
 "
-                    
+                
 "
 return
 true
@@ -46432,7 +46420,7 @@ true
 \
 n
 "
-                    
+                
 "
 }
 \
@@ -46572,7 +46560,7 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 "
 nsAutoTArray
 <
@@ -46584,7 +46572,7 @@ names
 \
 n
 "
-                
+            
 "
 ErrorResult
 rv
@@ -46592,7 +46580,7 @@ rv
 \
 n
 "
-                
+            
 "
 self
 -
@@ -46607,7 +46595,7 @@ rv
 \
 n
 "
-                
+            
 "
 rv
 .
@@ -46618,7 +46606,7 @@ WouldReportJSException
 \
 n
 "
-                
+            
 "
 if
 (
@@ -46632,7 +46620,7 @@ Failed
 \
 n
 "
-                
+            
 '
 return
 ThrowMethodFailedWithDetails
@@ -46651,13 +46639,13 @@ enumerate
 \
 n
 '
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 JS
 :
@@ -46677,7 +46665,7 @@ cx
 \
 n
 "
-                
+            
 "
 for
 (
@@ -46702,7 +46690,7 @@ i
 \
 n
 "
-                
+            
 "
 if
 (
@@ -46735,7 +46723,7 @@ dummy
 \
 n
 "
-                
+            
 "
 return
 false
@@ -46743,19 +46731,19 @@ false
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 return
 true
@@ -46792,7 +46780,7 @@ CGIndenter
 (
 CGGeneric
 (
-                    
+                
 "
 if
 (
@@ -46807,7 +46795,7 @@ obj
 \
 n
 "
-                    
+                
 "
 return
 false
@@ -46815,7 +46803,7 @@ false
 \
 n
 "
-                    
+                
 "
 }
 \
@@ -46888,6 +46876,7 @@ keywords
 frozenset
 (
 [
+        
 '
 alignas
 '
@@ -46918,7 +46907,7 @@ bitor
 '
 bool
 '
-    
+        
 '
 break
 '
@@ -46946,10 +46935,10 @@ compl
 '
 const
 '
+        
 '
 constexpr
 '
-    
 '
 const_cast
 '
@@ -46971,6 +46960,7 @@ do
 '
 double
 '
+        
 '
 dynamic_cast
 '
@@ -46980,7 +46970,6 @@ else
 '
 enum
 '
-    
 '
 explicit
 '
@@ -46999,6 +46988,7 @@ final
 '
 float
 '
+        
 '
 for
 '
@@ -47014,7 +47004,6 @@ if
 '
 inline
 '
-    
 '
 int
 '
@@ -47030,6 +47019,7 @@ namespace
 '
 new
 '
+        
 '
 noexcept
 '
@@ -47045,7 +47035,6 @@ nullptr
 '
 operator
 '
-    
 '
 or
 '
@@ -47058,6 +47047,7 @@ override
 '
 private
 '
+        
 '
 protected
 '
@@ -47073,13 +47063,13 @@ reinterpret_cast
 '
 return
 '
-    
 '
 short
 '
 '
 signed
 '
+        
 '
 sizeof
 '
@@ -47101,10 +47091,10 @@ switch
 '
 template
 '
-    
 '
 this
 '
+        
 '
 thread_local
 '
@@ -47129,10 +47119,10 @@ typename
 '
 union
 '
+        
 '
 unsigned
 '
-    
 '
 using
 '
@@ -47176,7 +47166,7 @@ CppKeywords
 .
 keywords
 :
-          
+            
 name
 =
 '
@@ -47685,6 +47675,7 @@ name
 args
 =
 [
+            
 Argument
 (
 '
@@ -47695,7 +47686,7 @@ JSContext
 cx
 '
 )
-                 
+            
 Argument
 (
 '
@@ -47712,7 +47703,7 @@ JSObject
 obj
 '
 )
-                 
+            
 Argument
 (
 '
@@ -47728,7 +47719,7 @@ nativeType
 self
 '
 )
-                 
+            
 Argument
 (
 '
@@ -47738,6 +47729,7 @@ JSJitGetterCallArgs
 args
 '
 )
+        
 ]
         
 CGAbstractStaticMethod
@@ -48621,7 +48613,7 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 "
 if
 (
@@ -48638,7 +48630,7 @@ length
 \
 n
 "
-                
+            
 '
 return
 ThrowErrorMessage
@@ -48656,13 +48648,13 @@ setter
 \
 n
 '
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 const
 JSJitInfo
@@ -48681,7 +48673,7 @@ calleev
 \
 n
 "
-                
+            
 "
 MOZ_ASSERT
 (
@@ -48702,7 +48694,7 @@ Setter
 \
 n
 "
-                
+            
 "
 JSJitSetterOp
 setter
@@ -48715,7 +48707,7 @@ setter
 \
 n
 "
-                
+            
 "
 if
 (
@@ -48735,7 +48727,7 @@ args
 \
 n
 "
-                
+            
 "
 return
 false
@@ -48743,13 +48735,13 @@ false
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 args
 .
@@ -48765,7 +48757,7 @@ JSVAL_VOID
 \
 n
 "
-                
+            
 "
 return
 true
@@ -48860,7 +48852,7 @@ JSContext
 cx
 '
 )
-                 
+                
 Argument
 (
 '
@@ -48877,7 +48869,7 @@ JSObject
 obj
 '
 )
-                 
+                
 Argument
 (
 '
@@ -48893,7 +48885,7 @@ nativeType
 self
 '
 )
-                 
+                
 Argument
 (
 '
@@ -50386,7 +50378,6 @@ self
 .
 member
 )
-;
             
 else
 :
@@ -50994,7 +50985,6 @@ t
 unroll
 (
 )
-;
             
 if
 u
@@ -51515,7 +51505,6 @@ t
 unroll
 (
 )
-;
             
 type
 =
@@ -52276,7 +52265,8 @@ nEnumStrings
 )
 )
         
-return
+pattern
+=
 "
 "
 "
@@ -52297,9 +52287,13 @@ s
 "
 "
 "
+        
+return
+pattern
 %
 (
 enumName
+                          
 "
 \
 n
@@ -52319,7 +52313,7 @@ values
 )
 )
 )
-       
+                          
 enumName
 )
 +
@@ -52336,7 +52330,7 @@ self
 )
 :
         
-strings
+pattern
 =
 "
 "
@@ -52367,6 +52361,10 @@ nullptr
 "
 "
 "
+        
+strings
+=
+pattern
 %
 (
 ENUM_ENTRY_VARIABLE_NAME
@@ -52375,7 +52373,7 @@ self
 nEnumStrings
 (
 )
-       
+                             
 "
 \
 n
@@ -52383,7 +52381,6 @@ n
 .
 join
 (
-[
 '
 {
 "
@@ -52406,6 +52403,7 @@ val
 '
 }
 '
+                                            
 for
 val
 in
@@ -52416,7 +52414,6 @@ enum
 values
 (
 )
-]
 )
 )
         
@@ -52525,7 +52522,6 @@ type
 nullable
 (
 )
-;
         
 if
 nullable
@@ -53402,9 +53398,8 @@ template
 .
 substitute
 (
-            
 {
-                
+            
 "
 val
 "
@@ -53412,7 +53407,7 @@ val
 "
 value
 "
-                
+            
 "
 mutableVal
 "
@@ -53420,7 +53415,7 @@ mutableVal
 "
 pvalue
 "
-                
+            
 "
 declName
 "
@@ -53428,7 +53423,7 @@ declName
 "
 memberSlot
 "
-                
+            
 "
 holderName
 "
@@ -53442,9 +53437,8 @@ name
 "
 Holder
 "
-                
+        
 }
-            
 )
         
 jsConversion
@@ -53521,7 +53515,7 @@ n
 \
 n
 "
-                                      
+                                       
 "
 return
 true
@@ -53542,7 +53536,7 @@ name
 "
 bool
 "
-                              
+                             
 [
 Argument
 (
@@ -53554,7 +53548,7 @@ JSContext
 cx
 "
 )
-                               
+                              
 Argument
 (
 "
@@ -53573,7 +53567,7 @@ Value
 value
 "
 )
-                               
+                              
 Argument
 (
 "
@@ -53592,7 +53586,7 @@ Value
 pvalue
 "
 )
-                               
+                              
 Argument
 (
 "
@@ -53604,17 +53598,17 @@ tryNext
 "
 )
 ]
-                              
+                             
 inline
 =
 not
 ownsMembers
-                              
+                             
 bodyInHeader
 =
 not
 ownsMembers
-                              
+                             
 body
 =
 jsConversion
@@ -53626,31 +53620,31 @@ define
     
 return
 {
-                
+        
 "
 name
 "
 :
 name
-                
+        
 "
 structType
 "
 :
 structType
-                
+        
 "
 externalType
 "
 :
 externalType
-                
+        
 "
 setter
 "
 :
 setter
-                
+        
 "
 holderType
 "
@@ -53668,13 +53662,13 @@ conversionInfo
 holderType
 else
 None
-                
+        
 "
 ctorArgs
 "
 :
 ctorArgs
-                
+        
 "
 ctorArgList
 "
@@ -53696,36 +53690,8 @@ ctorNeedsCx
 else
 [
 ]
-                
-}
-def
-mapTemplate
-(
-template
-templateVarArray
-)
-:
     
-return
-map
-(
-lambda
-v
-:
-string
-.
-Template
-(
-template
-)
-.
-substitute
-(
-v
-)
-               
-templateVarArray
-)
+}
 class
 CGUnionStruct
 (
@@ -54216,6 +54182,7 @@ string
 .
 Template
 (
+                    
 "
 if
 (
@@ -54231,7 +54198,7 @@ name
 \
 n
 "
-                                     
+                    
 "
 return
 mValue
@@ -54248,20 +54215,20 @@ Value
 \
 n
 "
-                                     
+                    
 "
 }
 \
 n
 "
-                                     
+                    
 "
 %
 s
 \
 n
 "
-                                     
+                    
 "
 mType
 =
@@ -54273,7 +54240,7 @@ name
 \
 n
 "
-                                     
+                    
 "
 return
 mValue
@@ -54291,6 +54258,7 @@ ctorArgs
 )
 ;
 "
+                
 )
 .
 substitute
@@ -54492,7 +54460,7 @@ SetStringData
 "
 void
 "
-                                
+                                        
 [
 Argument
 (
@@ -54508,7 +54476,7 @@ char_type
 aData
 "
 )
-                                 
+                                         
 Argument
 (
 "
@@ -54522,14 +54490,14 @@ aLength
 "
 )
 ]
-                                
+                                        
 inline
 =
 True
 bodyInHeader
 =
 True
-                                
+                                        
 body
 =
 "
@@ -54553,6 +54521,7 @@ string
 .
 Template
 (
+                
 '
 MOZ_ASSERT
 (
@@ -54572,7 +54541,7 @@ type
 \
 n
 '
-                                   
+                
 '
 mValue
 .
@@ -54588,13 +54557,14 @@ Destroy
 \
 n
 '
-                                   
+                
 '
 mType
 =
 eUninitialized
 ;
 '
+            
 )
 .
 substitute
@@ -54651,6 +54621,7 @@ string
 .
 Template
 (
+                
 "
 return
 mType
@@ -54836,6 +54807,7 @@ unionValues
 .
 append
 (
+                
 string
 .
 Template
@@ -54847,9 +54819,6 @@ UnionMember
 structType
 }
 >
-"
-                                               
-"
 m
 {
 name
@@ -54883,6 +54852,7 @@ toJSValCases
 .
 append
 (
+                
 CGCase
 (
 "
@@ -54895,7 +54865,7 @@ vars
 name
 "
 ]
-                                       
+                       
 self
 .
 getConversionToJS
@@ -54910,6 +54880,7 @@ destructorCases
 .
 append
 (
+                
 CGCase
 (
 "
@@ -54922,7 +54893,7 @@ vars
 name
 "
 ]
-                                          
+                       
 CGGeneric
 (
 "
@@ -54933,7 +54904,6 @@ s
 )
 ;
 "
-                                                     
 %
 vars
 [
@@ -55268,16 +55238,20 @@ methods
 .
 append
 (
+            
 ClassMethod
 (
+                
 "
 ToJSVal
 "
+                
 "
 bool
 "
+                
 [
-                                   
+                    
 Argument
 (
 "
@@ -55288,7 +55262,7 @@ JSContext
 cx
 "
 )
-                                   
+                    
 Argument
 (
 "
@@ -55305,7 +55279,7 @@ JSObject
 scopeObj
 "
 )
-                                   
+                    
 Argument
 (
 "
@@ -55324,8 +55298,9 @@ Value
 rval
 "
 )
-        
+                
 ]
+                
 body
 =
 CGSwitch
@@ -55334,7 +55309,7 @@ CGSwitch
 mType
 "
 toJSValCases
-                         
+                              
 default
 =
 CGGeneric
@@ -55350,6 +55325,7 @@ false
 define
 (
 )
+                
 const
 =
 True
@@ -55519,7 +55495,7 @@ append
 (
 ClassMethod
 (
-                        
+                    
 "
 operator
 =
@@ -55527,7 +55503,7 @@ operator
 "
 void
 "
-                        
+                    
 [
 Argument
 (
@@ -55544,7 +55520,7 @@ aOther
 "
 )
 ]
-                        
+                    
 body
 =
 CGSwitch
@@ -55797,7 +55773,7 @@ typedArraysAreStructs
 "
 :
 True
-                
+            
 }
 )
         
@@ -56235,6 +56211,7 @@ string
 .
 Template
 (
+                    
 "
 MOZ_ASSERT
 (
@@ -56251,7 +56228,7 @@ eUninitialized
 \
 n
 "
-                                     
+                    
 "
 mUnion
 .
@@ -56267,7 +56244,7 @@ name
 \
 n
 "
-                                     
+                    
 "
 return
 mUnion
@@ -56287,6 +56264,7 @@ ctorArgs
 )
 ;
 "
+                
 )
 .
 substitute
@@ -56357,6 +56335,7 @@ methods
 .
 append
 (
+                        
 ClassMethod
 (
 "
@@ -56365,7 +56344,7 @@ SetStringData
 "
 void
 "
-                                     
+                                    
 [
 Argument
 (
@@ -56381,7 +56360,7 @@ char_type
 aData
 "
 )
-                                      
+                                     
 Argument
 (
 "
@@ -56395,14 +56374,14 @@ aLength
 "
 )
 ]
-                                     
+                                    
 inline
 =
 True
 bodyInHeader
 =
 True
-                                     
+                                    
 body
 =
 "
@@ -56501,10 +56480,8 @@ self
         
 return
 "
-"
-"
-"
-"
+\
+n
 "
 class
 ClassItem
@@ -56908,6 +56885,7 @@ cgClass
         
 templateClause
 =
+(
 '
 template
 <
@@ -56927,8 +56905,7 @@ self
 .
 templateArgs
 )
-\
-                         
+                          
 if
 self
 .
@@ -56940,6 +56917,7 @@ templateArgs
 else
 '
 '
+)
         
 args
 =
@@ -57007,7 +56985,7 @@ n
         
 else
 :
-           
+            
 body
 =
 '
@@ -57019,6 +56997,7 @@ string
 .
 Template
 (
+            
 "
 {
 templateClause
@@ -57032,7 +57011,7 @@ returnType
 %
 s
 "
-                               
+            
 "
 {
 name
@@ -57055,7 +57034,7 @@ body
 s
 "
 %
-                               
+            
 (
 self
 .
@@ -57064,19 +57043,19 @@ self
 .
 breakAfterSelf
 )
-                               
+        
 )
 .
 substitute
 (
 {
-                
+            
 '
 templateClause
 '
 :
 templateClause
-                
+            
 '
 decorators
 '
@@ -57087,7 +57066,7 @@ getDecorators
 (
 True
 )
-                
+            
 '
 returnType
 '
@@ -57095,7 +57074,7 @@ returnType
 self
 .
 returnType
-                
+            
 '
 name
 '
@@ -57103,7 +57082,7 @@ name
 self
 .
 name
-                
+            
 '
 const
 '
@@ -57118,7 +57097,7 @@ const
 else
 '
 '
-                
+            
 '
 override
 '
@@ -57133,19 +57112,19 @@ override
 else
 '
 '
-                
+            
 '
 args
 '
 :
 args
-                
+            
 '
 body
 '
 :
 body
-                
+        
 }
 )
     
@@ -57327,12 +57306,13 @@ body
 substitute
 (
 {
+            
 '
 templateClause
 '
 :
 templateClause
-                  
+            
 '
 decorators
 '
@@ -57343,7 +57323,7 @@ getDecorators
 (
 False
 )
-                  
+            
 '
 returnType
 '
@@ -57351,7 +57331,7 @@ returnType
 self
 .
 returnType
-                  
+            
 '
 className
 '
@@ -57361,7 +57341,7 @@ cgClass
 getNameString
 (
 )
-                  
+            
 '
 name
 '
@@ -57369,13 +57349,13 @@ name
 self
 .
 name
-                  
+            
 '
 args
 '
 :
 args
-                  
+            
 '
 const
 '
@@ -57390,12 +57370,13 @@ const
 else
 '
 '
-                  
+            
 '
 body
 '
 :
 body
+        
 }
 )
 class
@@ -57508,8 +57489,7 @@ string
 .
 Template
 (
-"
-"
+            
 "
 using
 {
@@ -57521,14 +57501,16 @@ baseClass
 name
 }
 ;
+\
+n
 "
-"
-"
+        
 )
 .
 substitute
 (
 {
+            
 '
 baseClass
 '
@@ -57536,7 +57518,7 @@ baseClass
 self
 .
 baseClass
-                  
+            
 '
 name
 '
@@ -57544,6 +57526,7 @@ name
 self
 .
 name
+        
 }
 )
     
@@ -57998,7 +57981,6 @@ self
 getBody
 (
 )
-;
             
 body
 =
@@ -58073,8 +58055,7 @@ string
 .
 Template
 (
-"
-"
+            
 "
 {
 decorators
@@ -58090,14 +58071,16 @@ args
 {
 body
 }
+\
+n
 "
-"
-"
+        
 )
 .
 substitute
 (
 {
+            
 '
 decorators
 '
@@ -58108,7 +58091,7 @@ getDecorators
 (
 True
 )
-                  
+            
 '
 className
 '
@@ -58118,18 +58101,19 @@ cgClass
 getNameString
 (
 )
-                  
+            
 '
 args
 '
 :
 args
-                  
+            
 '
 body
 '
 :
 body
+        
 }
 )
     
@@ -58265,6 +58249,7 @@ body
 substitute
 (
 {
+            
 '
 decorators
 '
@@ -58275,7 +58260,7 @@ getDecorators
 (
 False
 )
-                  
+            
 '
 className
 '
@@ -58285,13 +58270,13 @@ cgClass
 getNameString
 (
 )
-                  
+            
 '
 args
 '
 :
 args
-                  
+            
 '
 initializationList
 '
@@ -58302,12 +58287,13 @@ getInitializationList
 (
 cgClass
 )
-                  
+            
 '
 body
 '
 :
 body
+        
 }
 )
 class
@@ -58577,7 +58563,6 @@ self
 getBody
 (
 )
-;
             
 body
 =
@@ -58645,8 +58630,7 @@ string
 .
 Template
 (
-"
-"
+            
 "
 {
 decorators
@@ -58660,14 +58644,16 @@ className
 {
 body
 }
+\
+n
 "
-"
-"
+        
 )
 .
 substitute
 (
 {
+            
 '
 decorators
 '
@@ -58678,7 +58664,7 @@ getDecorators
 (
 True
 )
-                  
+            
 '
 className
 '
@@ -58688,12 +58674,13 @@ cgClass
 getNameString
 (
 )
-                  
+            
 '
 body
 '
 :
 body
+        
 }
 )
     
@@ -58802,6 +58789,7 @@ body
 substitute
 (
 {
+            
 '
 decorators
 '
@@ -58812,7 +58800,7 @@ getDecorators
 (
 False
 )
-                  
+            
 '
 className
 '
@@ -58822,12 +58810,13 @@ cgClass
 getNameString
 (
 )
-                  
+            
 '
 body
 '
 :
 body
+        
 }
 )
 class
@@ -58863,7 +58852,6 @@ self
 type
 =
 type
-;
         
 self
 .
@@ -58996,7 +58984,7 @@ cgClass
 getNameString
 (
 )
-                                      
+                                   
 self
 .
 name
@@ -59613,11 +59601,8 @@ templateSpecialization
 :
             
 className
-=
-className
 +
-\
-                
+=
 '
 <
 %
@@ -59635,9 +59620,9 @@ str
 (
 a
 )
+                                             
 for
 a
-                                    
 in
 self
 .
@@ -59697,12 +59682,14 @@ templateSpecialization
             
 result
 =
+(
 result
 +
 self
 .
 indent
 +
+                      
 '
 template
 <
@@ -59712,9 +59699,8 @@ s
 \
 n
 '
-\
-                     
 %
+                      
 '
 '
 .
@@ -59730,6 +59716,7 @@ a
 in
 templateArgs
 ]
+)
 )
         
 type
@@ -60736,8 +60723,6 @@ self
         
 return
 "
-"
-"
 return
 js
 :
@@ -60757,8 +60742,8 @@ desc
 flags
 )
 ;
-"
-"
+\
+n
 "
 class
 CGResolveOwnPropertyViaNewresolve
@@ -60926,13 +60911,13 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 "
 {
 \
 n
 "
-                
+            
 "
 /
 /
@@ -60952,7 +60937,7 @@ the
 \
 n
 "
-                
+            
 "
 /
 /
@@ -60969,7 +60954,7 @@ to
 \
 n
 "
-                
+            
 "
 /
 /
@@ -60985,7 +60970,7 @@ and
 \
 n
 "
-                
+            
 "
 /
 /
@@ -61004,7 +60989,7 @@ flag
 \
 n
 "
-                
+            
 "
 /
 /
@@ -61021,7 +61006,7 @@ deletes
 \
 n
 "
-                
+            
 "
 /
 /
@@ -61030,7 +61015,7 @@ them
 \
 n
 "
-                
+            
 "
 JSAutoCompartment
 ac
@@ -61042,7 +61027,7 @@ obj
 \
 n
 "
-                
+            
 "
 JS
 :
@@ -61059,7 +61044,7 @@ cx
 \
 n
 "
-                
+            
 "
 if
 (
@@ -61080,7 +61065,7 @@ objDesc
 \
 n
 "
-                
+            
 "
 return
 false
@@ -61088,13 +61073,13 @@ false
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 /
 /
@@ -61113,7 +61098,7 @@ call
 \
 n
 "
-                
+            
 "
 /
 /
@@ -61132,7 +61117,7 @@ t
 \
 n
 "
-                
+            
 "
 /
 /
@@ -61145,7 +61130,7 @@ it
 \
 n
 "
-                
+            
 "
 if
 (
@@ -61159,7 +61144,7 @@ object
 \
 n
 "
-                
+            
 "
 !
 objDesc
@@ -61176,7 +61161,7 @@ isUndefined
 \
 n
 "
-                
+            
 "
 !
 JS_DefinePropertyById
@@ -61192,7 +61177,7 @@ value
 \
 n
 "
-                
+            
 "
 objDesc
 .
@@ -61207,7 +61192,7 @@ setter
 \
 n
 "
-                
+            
 "
 objDesc
 .
@@ -61220,7 +61205,7 @@ attributes
 \
 n
 "
-                
+            
 "
 return
 false
@@ -61228,19 +61213,19 @@ false
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
-                
+            
 "
 return
 self
@@ -61360,8 +61345,6 @@ self
         
 return
 "
-"
-"
 return
 js
 :
@@ -61379,8 +61362,8 @@ wrapper
 props
 )
 ;
-"
-"
+\
+n
 "
 class
 CGEnumerateOwnPropertiesViaGetOwnPropertyNames
@@ -61519,7 +61502,7 @@ CGIndenter
 (
 CGGeneric
 (
-                
+            
 "
 nsAutoTArray
 <
@@ -61531,7 +61514,7 @@ names
 \
 n
 "
-                
+            
 "
 ErrorResult
 rv
@@ -61539,7 +61522,7 @@ rv
 \
 n
 "
-                
+            
 "
 self
 -
@@ -61554,7 +61537,7 @@ rv
 \
 n
 "
-                
+            
 "
 rv
 .
@@ -61565,7 +61548,7 @@ WouldReportJSException
 \
 n
 "
-                
+            
 "
 if
 (
@@ -61579,7 +61562,7 @@ Failed
 \
 n
 "
-                
+            
 '
 return
 ThrowMethodFailedWithDetails
@@ -61598,13 +61581,13 @@ enumerate
 \
 n
 '
-                
+            
 "
 }
 \
 n
 "
-                
+            
 '
 /
 /
@@ -61626,7 +61609,7 @@ if
 \
 n
 '
-                
+            
 "
 /
 /
@@ -61636,7 +61619,7 @@ true
 \
 n
 "
-                
+            
 "
 return
 AppendNamedPropertyIds
@@ -61956,7 +61939,6 @@ self
 checkFound
 =
 checkFound
-;
         
 nativeName
 =
@@ -67570,7 +67552,7 @@ hasUnforgeable
 \
 n
 "
-                 
+                
 "
 if
 (
@@ -67590,7 +67572,7 @@ hasUnforgeable
 \
 n
 "
-                 
+                
 "
 return
 false
@@ -67598,13 +67580,13 @@ false
 \
 n
 "
-                 
+                
 "
 }
 \
 n
 "
-                 
+                
 "
 if
 (
@@ -67614,7 +67596,7 @@ hasUnforgeable
 \
 n
 "
-                 
+                
 "
 return
 JS_ForwardGetPropertyTo
@@ -67631,7 +67613,7 @@ vp
 \
 n
 "
-                 
+                
 "
 }
 "
@@ -68899,7 +68881,6 @@ n
 define
 (
 )
-;
 class
 CGDOMJSProxyHandler_getInstance
 (
@@ -69350,7 +69331,7 @@ owned
 '
 and
 (
-           
+                
 descriptor
 .
 interface
@@ -69359,7 +69340,7 @@ hasChildInterfaces
 (
 )
 or
-           
+                
 descriptor
 .
 interface
@@ -69367,7 +69348,7 @@ interface
 parent
 )
 :
-           
+            
 raise
 TypeError
 (
@@ -69514,7 +69495,6 @@ queryInterface
 continue
             
 if
-(
 m
 .
 isMethod
@@ -69532,7 +69512,6 @@ operations
 Jsonifier
 '
 ]
-)
 :
                 
 hasJsonifier
@@ -69760,7 +69739,6 @@ m
 .
 location
 )
-;
                 
 if
 m
@@ -70161,6 +70139,7 @@ jsonifierMethod
 if
 hasMethod
 :
+            
 cgThings
 .
 append
@@ -70195,6 +70174,7 @@ True
 if
 hasGetter
 :
+            
 cgThings
 .
 append
@@ -70208,6 +70188,7 @@ descriptor
 if
 hasLenientGetter
 :
+            
 cgThings
 .
 append
@@ -70215,7 +70196,6 @@ append
 CGGenericGetter
 (
 descriptor
-                                                             
 lenientThis
 =
 True
@@ -70246,6 +70226,7 @@ True
 if
 hasSetter
 :
+            
 cgThings
 .
 append
@@ -70259,6 +70240,7 @@ descriptor
 if
 hasLenientSetter
 :
+            
 cgThings
 .
 append
@@ -70266,7 +70248,6 @@ append
 CGGenericSetter
 (
 descriptor
-                                                             
 lenientThis
 =
 True
@@ -71163,23 +71144,11 @@ descriptor
 )
         
 if
-(
-len
-(
 crossOriginGetters
-)
 or
-len
-(
 crossOriginSetters
-)
 or
-            
-len
-(
 crossOriginMethods
-)
-)
 :
             
 cgThings
@@ -71639,31 +71608,31 @@ member
              
 getJSToNativeConversionInfo
 (
-                            
+                 
 member
 .
 type
-                            
+                 
 descriptorProvider
-                            
+                 
 isEnforceRange
 =
 member
 .
 enforceRange
-                            
+                 
 isClamp
 =
 member
 .
 clamp
-                            
+                 
 isMember
 =
 "
 Dictionary
 "
-                            
+                 
 isOptional
 =
 (
@@ -71672,13 +71641,13 @@ member
 .
 defaultValue
 )
-                            
+                 
 defaultValue
 =
 member
 .
 defaultValue
-                            
+                 
 sourceDescription
 =
 (
@@ -71693,14 +71662,13 @@ of
 s
 "
 %
-                                               
+                                    
 (
 member
 .
 identifier
 .
 name
-                                                
 dictionary
 .
 identifier
@@ -72077,8 +72045,8 @@ initIdText
 .
 substitute
 (
-              
 {
+                
 "
 dictName
 "
@@ -72091,6 +72059,7 @@ self
 .
 dictionary
 )
+            
 }
 )
         
@@ -72495,14 +72464,15 @@ self
 return
 ClassMethod
 (
+            
 "
 Init
 "
 "
 bool
 "
+            
 [
-                
 Argument
 (
 '
@@ -72514,8 +72484,8 @@ nsAString
 aJSON
 '
 )
-            
 ]
+            
 body
 =
 (
@@ -72596,7 +72566,6 @@ json
 )
 ;
 "
-            
 )
 )
     
@@ -72685,7 +72654,7 @@ initIdText
 .
 substitute
 (
-              
+                
 {
 "
 dictName
@@ -73063,7 +73032,6 @@ idinit
 reverse
 (
 )
-;
         
 idinit
 =
@@ -73144,7 +73112,7 @@ True
 body
 =
 (
-           
+            
 "
 MOZ_ASSERT
 (
@@ -73164,14 +73132,14 @@ atomsCache
 \
 n
 "
-           
+            
 "
 %
 s
 \
 n
 "
-           
+            
 "
 return
 true
@@ -73399,7 +73367,7 @@ append
 (
 CGGeneric
 (
-                    
+                
 "
 %
 s
@@ -73413,7 +73381,7 @@ aOther
 ;
 "
 %
-                    
+                
 self
 .
 makeClassName
@@ -73576,8 +73544,8 @@ operator
 "
 void
 "
+            
 [
-                
 Argument
 (
 "
@@ -73595,12 +73563,11 @@ self
 .
 dictionary
 )
-                         
+                      
 "
 aOther
 "
 )
-                
 ]
             
 body
@@ -73785,7 +73752,7 @@ Fast
 subclass
 '
 )
-            
+        
 ]
         
 methods
@@ -73949,7 +73916,7 @@ struct
 CGClass
 (
 selfName
-            
+                         
 bases
 =
 [
@@ -73962,23 +73929,23 @@ base
 )
 )
 ]
-            
+                         
 members
 =
 members
-            
+                         
 constructors
 =
 ctors
-            
+                         
 methods
 =
 methods
-            
+                         
 isStruct
 =
 True
-            
+                         
 disallowCopyConstruction
 =
 disallowCopyConstruction
@@ -74034,7 +74001,6 @@ the
 parent
 constructor
 "
-            
 )
         
 fastStruct
@@ -74046,7 +74012,7 @@ Fast
 "
 +
 selfName
-            
+                             
 bases
 =
 [
@@ -74055,13 +74021,13 @@ ClassBase
 selfName
 )
 ]
-            
+                             
 constructors
 =
 [
 fastDictionaryCtor
 ]
-            
+                             
 isStruct
 =
 True
@@ -74082,7 +74048,6 @@ build
 binding_detail
 '
 ]
-                                         
 fastStruct
 )
 ]
@@ -74239,6 +74204,7 @@ memberInfo
 replacements
 =
 {
+            
 "
 val
 "
@@ -74250,7 +74216,7 @@ ref
 (
 )
 "
-                         
+            
 "
 mutableVal
 "
@@ -74263,7 +74229,7 @@ ref
 (
 )
 "
-                         
+            
 "
 declName
 "
@@ -74278,7 +74244,7 @@ identifier
 .
 name
 )
-                         
+            
 "
 holderName
 "
@@ -74286,6 +74252,7 @@ holderName
 "
 holder
 "
+        
 }
         
 assert
@@ -74369,7 +74336,6 @@ identifier
 .
 name
 )
-;
         
 propGet
 =
@@ -74443,7 +74409,7 @@ propGet
 "
 :
 propGet
-            
+        
 }
         
 conversion
@@ -74490,14 +74456,11 @@ defaultValue
 conversion
 +
 =
-(
-                
 "
 {
 convert
 }
 "
-)
         
 else
 :
@@ -74596,7 +74559,6 @@ substitute
 (
 conversionReplacements
 )
-            
 )
     
 def
@@ -74863,7 +74825,7 @@ s
 \
 n
 "
-                                 
+                                
 "
 return
 false
@@ -74871,13 +74833,13 @@ false
 \
 n
 "
-                                 
+                                
 "
 }
 \
 n
 "
-                                 
+                                
 "
 break
 ;
@@ -75080,7 +75042,6 @@ type
 member
 .
 type
-;
         
 assert
 typeNeedsRooting
@@ -75413,7 +75374,7 @@ else
 :
             
 assert
-0
+False
         
 if
 not
@@ -75659,7 +75620,6 @@ deps
 set
 (
 )
-;
         
 if
 dictionary
@@ -75800,7 +75760,7 @@ _defineMacro
 self
 )
 :
-       
+        
 return
 "
 "
@@ -77487,7 +77447,6 @@ members
 iface
 ]
 )
-;
         
 bindingHeaders
 [
@@ -78482,6 +78441,7 @@ include
 declareIncludes
 =
 [
+            
 '
 mozilla
 /
@@ -78491,7 +78451,7 @@ BindingDeclarations
 .
 h
 '
-                          
+            
 '
 mozilla
 /
@@ -78501,7 +78461,7 @@ Nullable
 .
 h
 '
-                          
+            
 '
 mozilla
 /
@@ -78509,13 +78469,13 @@ ErrorResult
 .
 h
 '
-                          
+            
 '
 jspubtd
 .
 h
 '
-                          
+            
 '
 js
 /
@@ -78523,7 +78483,7 @@ RootingAPI
 .
 h
 '
-                          
+        
 ]
         
 if
@@ -79333,7 +79293,6 @@ unroll
 )
 .
 inner
-;
             
 nativeType
 =
@@ -83174,8 +83133,8 @@ classImpl
 .
 substitute
 (
-            
 {
+            
 "
 ifaceName
 "
@@ -83185,7 +83144,7 @@ self
 descriptor
 .
 name
-              
+            
 "
 nativeType
 "
@@ -83198,7 +83157,7 @@ self
 .
 descriptor
 )
-              
+            
 "
 parentType
 "
@@ -83218,9 +83177,8 @@ parentIface
 else
 "
 "
-              
+        
 }
-            
 )
     
 staticmethod
@@ -83354,7 +83312,6 @@ self
 .
 root
 )
-;
         
 self
 .
@@ -83404,13 +83361,13 @@ nsWrapperCache
 .
 h
 "
-                                
+                               
 "
 nsCycleCollectionParticipant
 .
 h
 "
-                                
+                               
 "
 mozilla
 /
@@ -83418,7 +83375,7 @@ Attributes
 .
 h
 "
-                                
+                               
 "
 mozilla
 /
@@ -83437,7 +83394,7 @@ h
 "
 %
 interfaceName
-                                
+                               
 (
 "
 mozilla
@@ -83448,7 +83405,7 @@ dom
 s
 "
 %
-                                 
+                                
 CGHeaders
 .
 getDeclarationFilename
@@ -83458,7 +83415,7 @@ descriptor
 interface
 )
 )
-                                
+                               
 "
 nsContentUtils
 .
@@ -83471,7 +83428,6 @@ self
 .
 root
 )
-;
         
 self
 .
@@ -85108,12 +85064,13 @@ parentClass
 \
 n
 "
+            
 )
 .
 substitute
 (
-                
 {
+                
 "
 ifaceName
 "
@@ -85123,12 +85080,13 @@ self
 descriptor
 .
 name
-                  
+                
 "
 parentClass
 "
 :
 parentClass
+            
 }
 )
         
@@ -85370,11 +85328,13 @@ NS_INTERFACE_MAP_END
 \
 n
 "
+            
 )
 .
 substitute
 (
 {
+                
 "
 ifaceName
 "
@@ -85384,6 +85344,7 @@ self
 descriptor
 .
 name
+            
 }
 )
         
@@ -85509,6 +85470,8 @@ None
 baseConstructors
 =
 [
+            
+(
 "
 mImpl
 (
@@ -85528,13 +85491,15 @@ nullptr
 )
 "
 %
+             
 jsImplName
 (
 descriptor
 .
 name
 )
-                          
+)
+            
 "
 mParent
 (
@@ -86370,12 +86335,13 @@ rval
 )
 ;
 "
+        
 )
 .
 substitute
 (
 {
-                
+            
 "
 ifaceName
 "
@@ -86389,7 +86355,7 @@ interface
 identifier
 .
 name
-                
+            
 "
 implName
 "
@@ -86399,7 +86365,7 @@ self
 descriptor
 .
 name
-                
+        
 }
 )
 def
@@ -86709,6 +86675,7 @@ JSObject
 aCallback
 "
 )
+             
 Argument
 (
 "
@@ -86751,7 +86718,7 @@ aIncumbentGlobal
 self
 .
 baseName
-                
+            
 ]
             
 body
@@ -87140,12 +87107,13 @@ callArgs
 )
 ;
 "
+        
 )
 .
 substitute
 (
 {
-                
+            
 "
 errorReturn
 "
@@ -87155,7 +87123,7 @@ method
 getDefaultRetval
 (
 )
-                
+            
 "
 callArgs
 "
@@ -87167,7 +87135,7 @@ join
 (
 argnamesWithThis
 )
-                
+            
 "
 methodName
 "
@@ -87175,7 +87143,7 @@ methodName
 method
 .
 name
-                
+        
 }
 )
         
@@ -87201,12 +87169,13 @@ callArgs
 )
 ;
 "
+        
 )
 .
 substitute
 (
 {
-                
+            
 "
 errorReturn
 "
@@ -87216,7 +87185,7 @@ method
 getDefaultRetval
 (
 )
-                
+            
 "
 callArgs
 "
@@ -87228,7 +87197,7 @@ join
 (
 argnamesWithoutThis
 )
-                
+            
 "
 methodName
 "
@@ -87236,7 +87205,7 @@ methodName
 method
 .
 name
-                
+        
 }
 )
         
@@ -87367,7 +87336,7 @@ self
             
 ClassConstructor
 (
-            
+                
 [
 Argument
 (
@@ -87380,32 +87349,30 @@ aOther
 "
 )
 ]
-            
+                
 bodyInHeader
 =
 True
-            
+                
 visibility
 =
 "
 public
 "
-            
+                
 explicit
 =
 True
-            
+                
 baseConstructors
 =
 [
-                
 "
 CallbackFunction
 (
 aOther
 )
 "
-                
 ]
 )
 ]
@@ -87823,7 +87790,6 @@ self
 argCountStr
 =
 (
-                    
 "
 (
 %
@@ -87840,11 +87806,11 @@ Length
 )
 "
 %
+                                    
 (
 self
 .
 argCount
-                                                
 lastArg
 .
 identifier
@@ -87945,7 +87911,7 @@ NS_ERROR_UNEXPECTED
 \
 n
 "
-                            
+                              
 "
 return
 %
@@ -88040,7 +88006,7 @@ self
 getCallSetup
 (
 )
-            
+        
 }
         
 if
@@ -88133,7 +88099,7 @@ n
 \
 n
 "
-                
+            
 )
 .
 substitute
@@ -88253,7 +88219,7 @@ obj
 "
 nullptr
 "
-            
+        
 }
         
 if
@@ -88410,7 +88376,6 @@ argConversions
 reverse
 (
 )
-;
         
 argConversions
 =
@@ -88716,7 +88681,7 @@ exceptionCode
 self
 .
 exceptionCode
-                    
+                
 }
 )
         
@@ -89286,18 +89251,19 @@ n
 \
 n
 "
+        
 )
 .
 substitute
 (
 {
-                
+            
 "
 callSetup
 "
 :
 callSetup
-                
+            
 "
 errorReturn
 "
@@ -89307,7 +89273,7 @@ self
 getDefaultRetval
 (
 )
-                
+        
 }
 )
     
@@ -89334,7 +89300,6 @@ self
 .
 argCountStr
 )
-;
     
 staticmethod
     
@@ -89511,6 +89476,7 @@ sig
 name
 descriptorProvider
 needThisHandling
+                 
 rethrowContentException
 =
 False
@@ -89684,6 +89650,7 @@ string
 .
 Template
 (
+            
 "
 {
 declCallable
@@ -89692,7 +89659,7 @@ declCallable
 declThis
 }
 "
-                
+            
 "
 if
 (
@@ -89713,7 +89680,7 @@ callable
 \
 n
 "
-                
+            
 "
 {
 args
@@ -89726,7 +89693,7 @@ rval
 \
 n
 "
-                
+            
 "
 aRv
 .
@@ -89738,7 +89705,7 @@ NS_ERROR_UNEXPECTED
 \
 n
 "
-                
+            
 "
 return
 {
@@ -89748,12 +89715,13 @@ errorReturn
 \
 n
 "
-                
+            
 "
 }
 \
 n
 "
+        
 )
 .
 substitute
@@ -90108,7 +90076,7 @@ methodName
 self
 .
 methodName
-            
+        
 }
         
 getCallableFromProp
@@ -90117,7 +90085,7 @@ string
 .
 Template
 (
-                
+            
 '
 if
 (
@@ -90138,7 +90106,7 @@ callable
 \
 n
 '
-                
+            
 '
 aRv
 .
@@ -90150,7 +90118,7 @@ NS_ERROR_UNEXPECTED
 \
 n
 '
-                
+            
 '
 return
 {
@@ -90160,12 +90128,13 @@ errorReturn
 \
 n
 '
-                
+            
 '
 }
 \
 n
 '
+        
 )
 .
 substitute
@@ -90661,7 +90630,7 @@ self
 .
 attrName
 )
-            
+        
 }
         
 return
@@ -90738,13 +90707,13 @@ n
 \
 n
 '
+        
 )
 .
 substitute
 (
 replacements
 )
-;
 class
 CallbackSetter
 (
@@ -90863,7 +90832,7 @@ handleAt
 0
 )
 "
-            
+        
 }
         
 return
@@ -91199,15 +91168,15 @@ CGWrapper
 CGClass
 (
 structName
-                
+                                              
 bases
 =
 None
-                
+                                              
 isStruct
 =
 True
-                
+                                              
 members
 =
 classMembers
@@ -91263,7 +91232,7 @@ CGClass
 "
 PerThreadAtomCache
 "
-            
+                                       
 bases
 =
 [
@@ -91276,11 +91245,12 @@ structName
 in
 structNames
 ]
-            
+                                       
 isStruct
 =
 True
 )
+                               
 post
 =
 '
@@ -91314,7 +91284,7 @@ mozilla
 dom
 '
 ]
-                                  
+                                 
 CGWrapper
 (
 structs
@@ -91756,7 +91726,6 @@ prototypes
 "
 )
 )
-;
         
 idEnum
 =
@@ -91899,7 +91868,6 @@ long
 "
 )
 )
-;
         
 constructors
 =
@@ -92090,7 +92058,7 @@ mozilla
 dom
 '
 ]
-                                        
+                                       
 CGList
 (
 traitsDecls
@@ -93070,7 +93038,6 @@ memberName
 "
 ;
 "
-;
         
 if
 type
@@ -93144,7 +93111,6 @@ memberName
             
 return
 ret
-;
         
 if
 type
@@ -93188,7 +93154,6 @@ memberName
             
 return
 ret
-;
         
 if
 type
@@ -94027,7 +93992,6 @@ forget
 )
 ;
 "
-            
 )
         
 self
@@ -94047,7 +94011,7 @@ substitute
 (
             
 {
-              
+                
 "
 nativeType
 "
@@ -94069,7 +94033,7 @@ split
 -
 1
 ]
-              
+                
 "
 eventType
 "
@@ -94082,7 +94046,7 @@ args
 ]
 .
 name
-              
+                
 "
 eventInit
 "
@@ -94095,13 +94059,13 @@ args
 ]
 .
 name
-              
+                
 "
 members
 "
 :
 members
-              
+                
 "
 holdJS
 "
@@ -94225,7 +94189,6 @@ args
 .
 name
 )
-            
 )
         
 if
@@ -94573,7 +94536,6 @@ unroll
 )
 .
 inner
-;
                     
 nativeType
 =
@@ -94942,7 +94904,7 @@ substitute
 (
             
 {
-              
+                
 "
 nativeType
 "
@@ -94964,7 +94926,7 @@ split
 -
 1
 ]
-              
+                
 "
 parentType
 "
@@ -95162,7 +95124,7 @@ identifier
 name
 )
 +
-                          
+                           
 "
 )
 \
@@ -95501,7 +95463,6 @@ identifier
 .
 name
 )
-;
                 
 if
 m
@@ -95629,7 +95590,7 @@ parentType
 "
 Event
 "
-                 
+                      
 else
 "
 aOwner
@@ -95777,8 +95738,8 @@ classImpl
 .
 substitute
 (
-            
 {
+            
 "
 ifaceName
 "
@@ -95788,19 +95749,19 @@ self
 descriptor
 .
 name
-              
+            
 "
 nativeType
 "
 :
 nativeType
-              
+            
 "
 ctorParams
 "
 :
 ctorParams
-              
+            
 "
 parentType
 "
@@ -95808,7 +95769,7 @@ parentType
 self
 .
 parentType
-              
+            
 "
 traverse
 "
@@ -95818,7 +95779,7 @@ self
 implTraverse
 (
 )
-              
+            
 "
 unlink
 "
@@ -95828,7 +95789,7 @@ self
 implUnlink
 (
 )
-              
+            
 "
 trace
 "
@@ -95838,14 +95799,14 @@ self
 implTrace
 (
 )
-              
+            
 "
 dropJS
 "
 :
 dropJS
+        
 }
-            
 )
 +
 CGBindingImplClass
@@ -95982,6 +95943,7 @@ descriptor
 ]
                               
 [
+                                  
 config
 .
 getDescriptor
@@ -95991,7 +95953,7 @@ False
 )
 .
 headerFile
-                                
+                                  
 "
 mozilla
 /
@@ -95999,7 +95961,7 @@ Attributes
 .
 h
 "
-                                
+                                  
 "
 mozilla
 /
@@ -96007,7 +95969,7 @@ ErrorResult
 .
 h
 "
-                                
+                                  
 "
 mozilla
 /
@@ -96020,7 +95982,7 @@ h
 "
 %
 interfaceName
-                                
+                                  
 '
 mozilla
 /
@@ -96034,6 +95996,7 @@ h
 ]
                               
 [
+                                  
 "
 %
 s
@@ -96042,7 +96005,7 @@ h
 "
 %
 interfaceName
-                                
+                                  
 "
 js
 /
@@ -96050,7 +96013,7 @@ GCAPI
 .
 h
 "
-                                
+                                  
 '
 mozilla
 /
@@ -96060,7 +96023,7 @@ Nullable
 .
 h
 '
-                                
+                                  
 '
 nsDOMQS
 .
@@ -96068,13 +96031,13 @@ h
 '
                               
 ]
+                              
 "
 "
 self
 .
 root
 )
-;
         
 self
 .
