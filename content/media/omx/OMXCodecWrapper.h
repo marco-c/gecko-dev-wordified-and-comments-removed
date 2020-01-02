@@ -583,6 +583,11 @@ uint8_t
 aOutputBuf
 )
 ;
+nsresult
+RequestIDRFrame
+(
+)
+;
 protected
 :
 virtual
