@@ -6256,6 +6256,8 @@ nsIThreadInternal
 aThread
 uint32_t
 aRecursionDepth
+bool
+aEventWasProcessed
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -6341,6 +6343,7 @@ AfterProcessNextEvent
 (
 aThread
 aRecursionDepth
+aEventWasProcessed
 )
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT

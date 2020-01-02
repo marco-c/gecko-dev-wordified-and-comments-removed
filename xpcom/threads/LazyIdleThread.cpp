@@ -1963,6 +1963,8 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 uint32_t
+bool
+aEventWasProcessed
 )
 {
 bool
@@ -1975,6 +1977,11 @@ lock
 mMutex
 )
 ;
+if
+(
+aEventWasProcessed
+)
+{
 MOZ_ASSERT
 (
 mPendingEventCount
@@ -1992,6 +1999,7 @@ methods
 -
 mPendingEventCount
 ;
+}
 if
 (
 mThreadIsShuttingDown

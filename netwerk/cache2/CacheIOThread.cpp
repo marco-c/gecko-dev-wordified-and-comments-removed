@@ -1075,6 +1075,8 @@ nsIThreadInternal
 thread
 uint32_t
 recursionDepth
+bool
+eventWasProcessed
 )
 {
 return

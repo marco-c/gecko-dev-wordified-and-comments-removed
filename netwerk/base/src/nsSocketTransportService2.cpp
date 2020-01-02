@@ -2809,6 +2809,8 @@ nsIThreadInternal
 thread
 uint32_t
 depth
+bool
+eventWasProcessed
 )
 {
 return

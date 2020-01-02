@@ -229,6 +229,8 @@ nsIThreadInternal
 aThread
 uint32_t
 aRecursionDepth
+bool
+aEventWasProcessed
 )
 ;
 void
