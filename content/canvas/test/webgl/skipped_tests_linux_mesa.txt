@@ -46,6 +46,17 @@ B3
 html
 conformance
 /
+more
+/
+conformance
+/
+quickCheckAPI
+-
+B4
+.
+html
+conformance
+/
 reading
 /
 read
