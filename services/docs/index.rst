@@ -97,9 +97,10 @@ team
 and
 thus
 includes
-Firefox
-Health
-Report
+:
+ref
+:
+healthreport
 .
 This
 team
@@ -121,5 +122,4 @@ maxdepth
 :
 1
 metrics
-healthreport
 datareporting
