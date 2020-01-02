@@ -61,7 +61,7 @@ m
 set
 (
 )
-undefined
+m
 )
 ;
 assertEq
