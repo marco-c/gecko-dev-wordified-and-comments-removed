@@ -1716,9 +1716,7 @@ script
 function
 (
 )
-hasPushedSPSFrame
-(
-)
+this
 )
 ;
 if
