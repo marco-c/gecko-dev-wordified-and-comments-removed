@@ -4302,9 +4302,11 @@ json_static_methods
 return
 nullptr
 ;
-MarkStandardClassInitializedNoProto
-(
 global
+-
+>
+markStandardClassInitializedNoProto
+(
 &
 JSONClass
 )

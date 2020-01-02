@@ -9950,9 +9950,11 @@ return
 nullptr
 ;
 }
-MarkStandardClassInitializedNoProto
-(
 global
+-
+>
+markStandardClassInitializedNoProto
+(
 &
 IntlClass
 )
@@ -10013,7 +10015,7 @@ false
 global
 -
 >
-setReservedSlot
+setConstructor
 (
 JSProto_Intl
 ObjectValue
