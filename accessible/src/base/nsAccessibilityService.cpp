@@ -4352,7 +4352,7 @@ if
 aNode
 -
 >
-IsInDoc
+GetCrossShadowCurrentDoc
 (
 )
 )
