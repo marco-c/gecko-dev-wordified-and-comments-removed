@@ -133,6 +133,16 @@ aGlobalObject
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+WillIgnoreCharsetOverride
+(
+)
+{
+return
+true
+;
+}
 protected
 :
 void
