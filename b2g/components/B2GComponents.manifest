@@ -827,6 +827,9 @@ update
 interval
 86400
 #
+ifdef
+MOZ_SERVICES_FXACCOUNTS
+#
 FxAccountsUIGlue
 .
 js
@@ -870,6 +873,8 @@ b65d
 -
 3549e101228c
 }
+#
+endif
 #
 HelperAppDialog
 .
