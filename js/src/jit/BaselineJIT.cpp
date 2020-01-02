@@ -5238,7 +5238,7 @@ for
 jit
 :
 :
-IonFrameIterator
+JitFrameIterator
 iter
 (
 activation

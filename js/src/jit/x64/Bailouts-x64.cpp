@@ -163,7 +163,7 @@ BailoutStack
 bailout
 )
 :
-IonFrameIterator
+JitFrameIterator
 (
 activations
 )
@@ -250,7 +250,7 @@ InvalidationBailoutStack
 bailout
 )
 :
-IonFrameIterator
+JitFrameIterator
 (
 activations
 )

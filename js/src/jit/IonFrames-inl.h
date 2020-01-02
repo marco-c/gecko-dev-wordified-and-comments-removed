@@ -21,7 +21,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 .
 h
 "
@@ -48,7 +48,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 -
 inl
 .
@@ -97,7 +97,7 @@ endif
 inline
 uint8_t
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 returnAddress
@@ -126,7 +126,7 @@ returnAddress
 }
 inline
 size_t
-IonFrameIterator
+JitFrameIterator
 :
 :
 prevFrameLocalSize
@@ -155,7 +155,7 @@ prevFrameLocalSize
 }
 inline
 FrameType
-IonFrameIterator
+JitFrameIterator
 :
 :
 prevType
@@ -184,7 +184,7 @@ prevType
 }
 inline
 bool
-IonFrameIterator
+JitFrameIterator
 :
 :
 isFakeExitFrame
@@ -246,7 +246,7 @@ res
 inline
 IonExitFrameLayout
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 exitFrame
@@ -292,7 +292,7 @@ JSContext
 cx
 )
 {
-IonFrameIterator
+JitFrameIterator
 iter
 (
 cx

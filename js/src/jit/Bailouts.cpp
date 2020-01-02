@@ -73,7 +73,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 -
 inl
 .
@@ -257,7 +257,7 @@ frames
 }
 else
 {
-IonFrameIterator
+JitFrameIterator
 :
 :
 dump
@@ -850,12 +850,12 @@ JitActivationIterator
 &
 activations
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
 :
-IonFrameIterator
+JitFrameIterator
 (
 activations
 )

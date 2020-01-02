@@ -16,7 +16,7 @@ include
 "
 jit
 /
-IonFrameIterator
+IonFrames
 .
 h
 "
@@ -25,7 +25,7 @@ include
 "
 jit
 /
-IonFrames
+JitFrameIterator
 .
 h
 "
@@ -96,7 +96,7 @@ class
 IonBailoutIterator
 :
 public
-IonFrameIterator
+JitFrameIterator
 {
 MachineState
 machine_
@@ -142,7 +142,7 @@ JitActivationIterator
 &
 activations
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 )
@@ -204,7 +204,7 @@ return
 topIonScript_
 ;
 return
-IonFrameIterator
+JitFrameIterator
 :
 :
 ionScript

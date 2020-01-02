@@ -1,9 +1,9 @@
 #
 ifndef
-jit_IonFrameIterator_inl_h
+jit_JitFrameIterator_inl_h
 #
 define
-jit_IonFrameIterator_inl_h
+jit_JitFrameIterator_inl_h
 #
 ifdef
 JS_ION
@@ -12,7 +12,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 .
 h
 "
@@ -106,7 +106,7 @@ findNextFrame
 inline
 BaselineFrame
 *
-IonFrameIterator
+JitFrameIterator
 :
 :
 baselineFrame

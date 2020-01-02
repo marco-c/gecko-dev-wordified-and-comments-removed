@@ -162,7 +162,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 .
 h
 "

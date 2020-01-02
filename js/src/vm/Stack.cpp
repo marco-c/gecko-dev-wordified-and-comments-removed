@@ -80,7 +80,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 -
 inl
 .
@@ -3299,7 +3299,7 @@ ionFrames_
 jit
 :
 :
-IonFrameIterator
+JitFrameIterator
 (
 data_
 .
@@ -3697,7 +3697,7 @@ js
 jit
 :
 :
-IonFrameIterator
+JitFrameIterator
 *
 )
 nullptr
@@ -3747,7 +3747,7 @@ js
 jit
 :
 :
-IonFrameIterator
+JitFrameIterator
 *
 )
 nullptr
@@ -5728,7 +5728,7 @@ ionFrames_
 jit
 :
 :
-IonFrameIterator
+JitFrameIterator
 (
 data_
 .

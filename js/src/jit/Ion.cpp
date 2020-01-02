@@ -12794,7 +12794,7 @@ frameno
 ;
 for
 (
-IonFrameIterator
+JitFrameIterator
 it
 (
 ionTop

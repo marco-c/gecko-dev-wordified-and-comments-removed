@@ -1,9 +1,9 @@
 #
 ifndef
-jit_IonFrameIterator_h
+jit_JitFrameIterator_h
 #
 define
-jit_IonFrameIterator_h
+jit_JitFrameIterator_h
 #
 ifdef
 JS_ION
@@ -98,7 +98,7 @@ class
 JitActivation
 ;
 class
-IonFrameIterator
+JitFrameIterator
 {
 protected
 :
@@ -141,7 +141,7 @@ const
 public
 :
 explicit
-IonFrameIterator
+JitFrameIterator
 (
 uint8_t
 *
@@ -181,7 +181,7 @@ mode
 {
 }
 explicit
-IonFrameIterator
+JitFrameIterator
 (
 JSContext
 *
@@ -189,7 +189,7 @@ cx
 )
 ;
 explicit
-IonFrameIterator
+JitFrameIterator
 (
 const
 ActivationIterator
@@ -198,7 +198,7 @@ activations
 )
 ;
 explicit
-IonFrameIterator
+JitFrameIterator
 (
 IonJSFrameLayout
 *
@@ -538,7 +538,7 @@ type_
 JitFrame_Entry
 ;
 }
-IonFrameIterator
+JitFrameIterator
 &
 operator
 +
@@ -1094,7 +1094,7 @@ machine
 SnapshotIterator
 (
 const
-IonFrameIterator
+JitFrameIterator
 &
 iter
 )
@@ -1361,7 +1361,7 @@ class
 InlineFrameIteratorMaybeGC
 {
 const
-IonFrameIterator
+JitFrameIterator
 *
 frame_
 ;
@@ -1440,7 +1440,7 @@ JSContext
 *
 cx
 const
-IonFrameIterator
+JitFrameIterator
 *
 iter
 )
@@ -1466,7 +1466,7 @@ JSRuntime
 *
 rt
 const
-IonFrameIterator
+JitFrameIterator
 *
 iter
 )
@@ -2127,13 +2127,13 @@ void
 resetOn
 (
 const
-IonFrameIterator
+JitFrameIterator
 *
 iter
 )
 ;
 const
-IonFrameIterator
+JitFrameIterator
 &
 frame
 (

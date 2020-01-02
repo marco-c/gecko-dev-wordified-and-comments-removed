@@ -33,7 +33,7 @@ include
 "
 jit
 /
-IonFrameIterator
+JitFrameIterator
 .
 h
 "
@@ -821,7 +821,7 @@ ExecutionMode
 mode
 )
 {
-IonFrameIterator
+JitFrameIterator
 iter
 (
 ionTop

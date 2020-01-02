@@ -143,7 +143,7 @@ trace
 JSTracer
 *
 trc
-IonFrameIterator
+JitFrameIterator
 &
 frameIterator
 )
@@ -1074,7 +1074,7 @@ debugMode
 )
 )
 {
-IonFrameIterator
+JitFrameIterator
 iter
 (
 cx
