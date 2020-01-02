@@ -275,6 +275,11 @@ testIntTypesABI
 cpp
 '
 '
+testJitSlot
+.
+cpp
+'
+'
 testJSEvaluateScript
 .
 cpp
