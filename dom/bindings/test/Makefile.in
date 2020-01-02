@@ -412,10 +412,6 @@ test_defineProperty
 .
 html
 \
-file_document_location_set_via_xray
-.
-html
-\
 (
 NULL
 )
@@ -429,10 +425,6 @@ html
 test_bug707564
 -
 chrome
-.
-html
-\
-test_document_location_set_via_xray
 .
 html
 \

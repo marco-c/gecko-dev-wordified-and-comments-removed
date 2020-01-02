@@ -123,13 +123,8 @@ C
 +
 +
 .
-[
-Global
-]
 interface
 DummyInterface
-:
-EventTarget
 {
 readonly
 attribute
