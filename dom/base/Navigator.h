@@ -1074,6 +1074,17 @@ JSObject
 aGlobal
 )
 ;
+static
+bool
+HasWifiManagerSupport
+(
+JSContext
+*
+JSObject
+*
+aGlobal
+)
+;
 #
 endif
 #
