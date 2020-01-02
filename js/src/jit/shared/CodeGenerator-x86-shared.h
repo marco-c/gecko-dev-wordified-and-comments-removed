@@ -663,6 +663,15 @@ comp
 ;
 virtual
 bool
+visitNotF
+(
+LNotF
+*
+comp
+)
+;
+virtual
+bool
 visitMathD
 (
 LMathD
