@@ -213,13 +213,6 @@ InlineMinISizeData
 aData
 )
 {
-aData
--
->
-lineContainer
-=
-this
-;
 for
 (
 nsFrameList
@@ -279,13 +272,6 @@ InlinePrefISizeData
 aData
 )
 {
-aData
--
->
-lineContainer
-=
-this
-;
 for
 (
 nsFrameList
