@@ -51,6 +51,9 @@ EPSILON
 0001f
 ;
 class
+FrameMetrics
+;
+class
 AsyncPanZoomController
 ;
 class
@@ -308,6 +311,14 @@ nsTArray
 float
 >
 mVelocityQueue
+;
+const
+FrameMetrics
+&
+GetFrameMetrics
+(
+)
+const
 ;
 }
 ;
