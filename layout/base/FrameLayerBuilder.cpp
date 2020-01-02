@@ -5610,6 +5610,13 @@ InvalidateRegion
 invalidate
 )
 ;
+aLayer
+-
+>
+SetInvalidRectToVisibleRegion
+(
+)
+;
 ResetScrollPositionForLayerPixelAlignment
 (
 aAnimatedGeometryRoot
