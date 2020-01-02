@@ -7540,11 +7540,6 @@ FindScrollableFrameFor
 aViewId
 )
 ;
-if
-(
-sf
-)
-{
 nsIScrollbarOwner
 *
 scrollbarOwner
@@ -7566,7 +7561,6 @@ ScrollbarActivityStarted
 (
 )
 ;
-}
 }
 return
 true
@@ -7596,11 +7590,6 @@ FindScrollableFrameFor
 aViewId
 )
 ;
-if
-(
-sf
-)
-{
 nsIScrollbarOwner
 *
 scrollbarOwner
@@ -7622,7 +7611,6 @@ ScrollbarActivityStopped
 (
 )
 ;
-}
 }
 return
 true

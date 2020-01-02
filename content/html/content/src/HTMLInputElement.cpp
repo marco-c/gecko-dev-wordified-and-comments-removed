@@ -21253,11 +21253,6 @@ GetFormControlFrame
 true
 )
 ;
-if
-(
-formControlFrame
-)
-{
 nsITextControlFrame
 *
 textControlFrame
@@ -21372,7 +21367,6 @@ PostDOMEvent
 (
 )
 ;
-}
 }
 }
 }
@@ -22523,11 +22517,6 @@ int32_t
 aSelectionEnd
 )
 {
-nsresult
-rv
-=
-NS_ERROR_FAILURE
-;
 nsIFormControlFrame
 *
 formControlFrame
@@ -22537,11 +22526,6 @@ GetFormControlFrame
 true
 )
 ;
-if
-(
-formControlFrame
-)
-{
 nsITextControlFrame
 *
 textControlFrame
@@ -22555,8 +22539,8 @@ if
 (
 textControlFrame
 )
-rv
-=
+{
+return
 textControlFrame
 -
 >
@@ -22568,7 +22552,7 @@ aSelectionEnd
 ;
 }
 return
-rv
+NS_ERROR_FAILURE
 ;
 }
 static
@@ -22691,11 +22675,6 @@ GetFormControlFrame
 true
 )
 ;
-if
-(
-formControlFrame
-)
-{
 nsITextControlFrame
 *
 textControlFrame
@@ -22743,7 +22722,6 @@ dir
 aDirection
 )
 ;
-}
 }
 }
 if
@@ -23029,11 +23007,6 @@ GetFormControlFrame
 true
 )
 ;
-if
-(
-formControlFrame
-)
-{
 nsITextControlFrame
 *
 textControlFrame
@@ -23047,6 +23020,7 @@ if
 (
 textControlFrame
 )
+{
 textControlFrame
 -
 >

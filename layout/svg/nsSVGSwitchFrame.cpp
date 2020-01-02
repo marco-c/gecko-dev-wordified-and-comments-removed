@@ -529,11 +529,6 @@ GetActiveChildFrame
 (
 )
 ;
-if
-(
-kid
-)
-{
 nsISVGChildFrame
 *
 svgFrame
@@ -558,7 +553,6 @@ aPoint
 )
 ;
 }
-}
 return
 nullptr
 ;
@@ -582,11 +576,6 @@ GetActiveChildFrame
 (
 )
 ;
-if
-(
-kid
-)
-{
 nsISVGChildFrame
 *
 child
@@ -610,7 +599,6 @@ GetCoveredRegion
 (
 )
 ;
-}
 }
 return
 rect
@@ -730,11 +718,6 @@ GetActiveChildFrame
 (
 )
 ;
-if
-(
-child
-)
-{
 nsISVGChildFrame
 *
 svgChild
@@ -789,7 +772,6 @@ overflowRects
 child
 )
 ;
-}
 }
 if
 (
@@ -850,11 +832,6 @@ GetActiveChildFrame
 (
 )
 ;
-if
-(
-kid
-)
-{
 nsISVGChildFrame
 *
 svgKid
@@ -929,7 +906,6 @@ transform
 aFlags
 )
 ;
-}
 }
 return
 SVGBBox
