@@ -4721,11 +4721,13 @@ bool
 JS
 :
 :
-CreateTypeError
+CreateError
 (
 JSContext
 *
 cx
+JSExnType
+type
 HandleString
 stack
 HandleString
@@ -4785,7 +4787,7 @@ ErrorObject
 create
 (
 cx
-JSEXN_TYPEERR
+type
 stack
 fileName
 lineNumber
