@@ -66,6 +66,15 @@ include
 "
 mozilla
 /
+unused
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentChild
@@ -1944,6 +1953,9 @@ transport
 "
 )
 ;
+unused
+<
+<
 mTransport
 .
 forget
@@ -5135,6 +5147,9 @@ actor
 "
 )
 ;
+unused
+<
+<
 mActor
 .
 forget
@@ -5697,6 +5712,9 @@ return
 NS_OK
 ;
 }
+unused
+<
+<
 parentActor
 .
 forget

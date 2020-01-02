@@ -283,6 +283,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsEventListenerManager
 .
 h
@@ -49071,6 +49080,9 @@ return
 rv
 ;
 }
+unused
+<
+<
 copy
 .
 forget

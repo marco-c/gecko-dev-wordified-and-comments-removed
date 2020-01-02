@@ -254,6 +254,15 @@ MouseEvents
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -3479,6 +3488,9 @@ resize
 )
 )
 {
+unused
+<
+<
 resize
 .
 forget
