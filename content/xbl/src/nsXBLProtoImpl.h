@@ -40,9 +40,6 @@ nsXBLBinding
 h
 "
 class
-nsIXPConnectJSObjectHolder
-;
-class
 nsXBLPrototypeBinding
 ;
 class
@@ -112,6 +109,8 @@ nsXBLBinding
 aBinding
 )
 ;
+private
+:
 nsresult
 InitTargetObjects
 (
@@ -121,10 +120,6 @@ aBinding
 nsIContent
 *
 aBoundElement
-nsIXPConnectJSObjectHolder
-*
-*
-aScriptObjectHolder
 JS
 :
 :
@@ -139,6 +134,8 @@ bool
 aTargetIsNew
 )
 ;
+public
+:
 nsresult
 CompilePrototypeMembers
 (
