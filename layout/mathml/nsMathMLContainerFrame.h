@@ -300,7 +300,7 @@ aStatus
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 WillReflow
 (
 nsPresContext
@@ -317,7 +317,6 @@ flags
 ~
 NS_MATHML_ERROR
 ;
-return
 nsContainerFrame
 :
 :

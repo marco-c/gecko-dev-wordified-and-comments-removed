@@ -19888,7 +19888,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsFrame
 :
 :
@@ -19946,9 +19946,6 @@ mState
 |
 =
 NS_FRAME_IN_REFLOW
-;
-return
-NS_OK
 ;
 }
 void
