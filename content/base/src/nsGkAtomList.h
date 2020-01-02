@@ -7696,6 +7696,13 @@ type
 )
 GK_ATOM
 (
+typemustmatch
+"
+typemustmatch
+"
+)
+GK_ATOM
+(
 u
 "
 u

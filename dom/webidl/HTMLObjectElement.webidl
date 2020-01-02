@@ -239,8 +239,10 @@ attribute
 DOMString
 type
 ;
-/
-/
+[
+Pure
+SetterThrows
+]
 attribute
 boolean
 typeMustMatch
