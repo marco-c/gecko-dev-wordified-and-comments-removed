@@ -6574,7 +6574,7 @@ PROFILER_LABEL
 CompositorOGL
 "
 "
-BeginFrame
+EndFrame
 "
 )
 ;
