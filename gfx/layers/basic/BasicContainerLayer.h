@@ -360,6 +360,17 @@ aReadback
 )
 MOZ_OVERRIDE
 ;
+virtual
+int32_t
+GetMaxLayerSize
+(
+)
+MOZ_OVERRIDE
+{
+return
+4096
+;
+}
 protected
 :
 BasicLayerManager
