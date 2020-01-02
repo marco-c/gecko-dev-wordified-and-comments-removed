@@ -12,6 +12,8 @@ import
 parse
 import
 os
+import
+unittest
 from
 mozbuild
 .
@@ -40,6 +42,19 @@ TestVisualStudioBackend
 BackendTester
 )
 :
+    
+unittest
+.
+skip
+(
+'
+Failing
+inconsistently
+in
+automation
+.
+'
+)
     
 def
 test_basic
