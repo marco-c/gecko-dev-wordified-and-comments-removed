@@ -303,6 +303,7 @@ gfx
 :
 DrawTarget
 *
+&
 aReturned
 )
 =
@@ -486,6 +487,7 @@ gfx
 :
 DrawTarget
 *
+&
 aReturned
 )
 MOZ_OVERRIDE
@@ -746,6 +748,7 @@ gfx
 :
 DrawTarget
 *
+&
 aReturned
 )
 MOZ_OVERRIDE
@@ -1164,6 +1167,7 @@ gfx
 :
 DrawTarget
 *
+&
 aReturned
 )
 MOZ_OVERRIDE
@@ -1924,6 +1928,7 @@ gfx
 :
 DrawTarget
 *
+&
 aReturned
 )
 MOZ_OVERRIDE
