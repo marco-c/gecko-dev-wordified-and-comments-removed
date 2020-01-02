@@ -142,7 +142,7 @@ openAboutHomeTab
 (
 AboutHomeTabs
 .
-MOST_RECENT
+HISTORY
 )
 ;
 final
@@ -152,7 +152,7 @@ hList
 findListViewWithTag
 (
 "
-most_recent
+history
 "
 )
 ;

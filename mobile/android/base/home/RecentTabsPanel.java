@@ -582,7 +582,7 @@ setTag
 (
 HomePager
 .
-LIST_TAG_LAST_TABS
+LIST_TAG_RECENT_TABS
 )
 ;
 mList

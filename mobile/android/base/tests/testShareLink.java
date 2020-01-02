@@ -749,7 +749,7 @@ openAboutHomeTab
 (
 AboutHomeTabs
 .
-MOST_RECENT
+HISTORY
 )
 ;
 ListView
@@ -758,7 +758,7 @@ mostRecentList
 findListViewWithTag
 (
 "
-most_recent
+history
 "
 )
 ;
