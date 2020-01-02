@@ -374,11 +374,6 @@ SOURCES
 =
 [
 '
-moc_NestedLoopTimer
-.
-cpp
-'
-'
 NestedLoopTimer
 .
 cpp
