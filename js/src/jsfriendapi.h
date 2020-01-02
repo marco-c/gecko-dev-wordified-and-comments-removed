@@ -979,6 +979,14 @@ JSObject
 obj
 )
 ;
+typedef
+enum
+{
+CollectNurseryBeforeDump
+IgnoreNurseryObjects
+}
+DumpHeapNurseryBehaviour
+;
 extern
 JS_FRIEND_API
 (
@@ -992,6 +1000,8 @@ rt
 FILE
 *
 fp
+DumpHeapNurseryBehaviour
+nurseryBehaviour
 )
 ;
 #
