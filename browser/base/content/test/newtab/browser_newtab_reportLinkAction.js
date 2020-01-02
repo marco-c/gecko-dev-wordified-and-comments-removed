@@ -333,6 +333,11 @@ getContentWindow
 )
 )
 ;
+yield
+whenPagesUpdated
+(
+)
+;
 let
 blockedSite
 =
