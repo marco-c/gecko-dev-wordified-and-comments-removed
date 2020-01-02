@@ -558,6 +558,7 @@ chromeMask
 initialWidth
 initialHeight
 true
+nullptr
 getter_AddRefs
 (
 newWindow
@@ -598,6 +599,7 @@ chromeMask
 initialWidth
 initialHeight
 true
+nullptr
 getter_AddRefs
 (
 newWindow
@@ -717,6 +719,9 @@ int32_t
 aInitialWidth
 int32_t
 aInitialHeight
+nsITabParent
+*
+aOpeningTab
 nsIXULWindow
 *
 *
@@ -753,6 +758,7 @@ aChromeMask
 aInitialWidth
 aInitialHeight
 false
+aOpeningTab
 &
 newWindow
 )
@@ -1863,6 +1869,9 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
+nsITabParent
+*
+aOpeningTab
 nsWebShellWindow
 *
 *
@@ -2467,6 +2476,7 @@ aUrl
 aInitialWidth
 aInitialHeight
 aIsHiddenWindow
+aOpeningTab
 widgetInitData
 )
 ;

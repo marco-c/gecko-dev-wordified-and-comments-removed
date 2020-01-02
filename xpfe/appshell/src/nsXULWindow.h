@@ -144,6 +144,13 @@ nsIWidgetListener
 .
 h
 "
+#
+include
+"
+nsITabParent
+.
+h
+"
 namespace
 mozilla
 {
@@ -425,6 +432,9 @@ CreateNewChromeWindow
 (
 int32_t
 aChromeFlags
+nsITabParent
+*
+aOpeningTab
 nsIXULWindow
 *
 *
@@ -436,6 +446,9 @@ CreateNewContentWindow
 (
 int32_t
 aChromeFlags
+nsITabParent
+*
+aOpeningTab
 nsIXULWindow
 *
 *

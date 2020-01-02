@@ -49420,6 +49420,7 @@ options_ptr
 true
 aDialog
 aNavigate
+nullptr
 argv
 getter_AddRefs
 (
@@ -49467,6 +49468,7 @@ options_ptr
 false
 aDialog
 aNavigate
+nullptr
 aExtraArgument
 getter_AddRefs
 (

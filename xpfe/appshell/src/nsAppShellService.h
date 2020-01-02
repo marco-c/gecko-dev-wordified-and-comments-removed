@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsITabParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -121,6 +128,9 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
+nsITabParent
+*
+aOpeningTab
 nsWebShellWindow
 *
 *

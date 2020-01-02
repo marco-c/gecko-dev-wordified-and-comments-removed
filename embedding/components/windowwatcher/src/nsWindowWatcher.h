@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsITabParent
+.
+h
+"
+#
+include
+"
 nsPIWindowWatcher
 .
 h
@@ -238,6 +245,9 @@ bool
 aDialog
 bool
 aNavigate
+nsITabParent
+*
+aOpeningTab
 nsIArray
 *
 argv

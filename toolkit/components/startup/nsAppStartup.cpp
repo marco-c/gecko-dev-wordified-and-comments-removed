@@ -2301,6 +2301,7 @@ aParent
 aChromeFlags
 0
 0
+nullptr
 &
 cancel
 _retval
@@ -2323,6 +2324,9 @@ aContextFlags
 nsIURI
 *
 aURI
+nsITabParent
+*
+aOpeningTab
 bool
 *
 aCancel
@@ -2428,6 +2432,7 @@ xulParent
 CreateNewWindow
 (
 aChromeFlags
+aOpeningTab
 getter_AddRefs
 (
 newWindow
@@ -2494,6 +2499,7 @@ nsIAppShellService
 :
 :
 SIZE_TO_CONTENT
+aOpeningTab
 getter_AddRefs
 (
 newWindow

@@ -48,6 +48,13 @@ nsIWidgetListener
 .
 h
 "
+#
+include
+"
+nsITabParent
+.
+h
+"
 class
 nsIURI
 ;
@@ -98,6 +105,9 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
+nsITabParent
+*
+aOpeningTab
 nsWidgetInitData
 &
 widgetInitData
