@@ -16,6 +16,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 Task
 .
 spawn
