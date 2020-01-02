@@ -97,6 +97,8 @@ gre
 /
 modules
 /
+addons
+/
 AddonRepository
 .
 jsm

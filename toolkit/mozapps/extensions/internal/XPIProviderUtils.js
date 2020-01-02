@@ -105,6 +105,8 @@ gre
 /
 modules
 /
+addons
+/
 AddonRepository
 .
 jsm
@@ -248,6 +250,8 @@ resource
 gre
 /
 modules
+/
+addons
 /
 AddonLogging
 .
