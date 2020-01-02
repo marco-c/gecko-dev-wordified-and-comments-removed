@@ -2881,7 +2881,6 @@ GetNewOrUsed
 (
 jsobj
 aIID
-nullptr
 &
 wrapper
 )

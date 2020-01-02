@@ -5117,7 +5117,6 @@ GetNewOrUsed
 src
 *
 iid
-aOuter
 &
 wrapper
 )
@@ -5142,6 +5141,18 @@ rv
 wrapper
 )
 {
+if
+(
+aOuter
+)
+wrapper
+-
+>
+SetAggregatedNativeObject
+(
+aOuter
+)
+;
 rv
 =
 aOuter
@@ -5814,7 +5825,6 @@ NS_GET_IID
 (
 nsIException
 )
-nullptr
 &
 jswrapper
 )
