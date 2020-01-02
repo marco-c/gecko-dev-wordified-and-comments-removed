@@ -6126,14 +6126,12 @@ aDeletingEmptyFrames
 ;
 }
 }
-#
-ifdef
-DEBUG
+DebugOnly
+<
 nsresult
+>
 rv
 =
-#
-endif
 StealFrame
 (
 aPresContext
