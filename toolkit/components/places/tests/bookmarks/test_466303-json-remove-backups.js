@@ -16,7 +16,7 @@ getBackupFolder
 )
 ;
 let
-htmlPath
+oldJsonPath
 =
 OS
 .
@@ -34,12 +34,12 @@ bookmarks
 -
 01
 .
-html
+json
 "
 )
 ;
 let
-htmlFile
+oldJsonFile
 =
 yield
 OS
@@ -48,7 +48,7 @@ File
 .
 open
 (
-htmlPath
+oldJsonPath
 {
 truncate
 :
@@ -56,7 +56,7 @@ true
 }
 )
 ;
-htmlFile
+oldJsonFile
 .
 close
 (
@@ -71,7 +71,7 @@ File
 .
 exists
 (
-htmlPath
+oldJsonPath
 )
 )
 ;
@@ -243,7 +243,7 @@ File
 .
 exists
 (
-htmlPath
+oldJsonPath
 )
 )
 ;
