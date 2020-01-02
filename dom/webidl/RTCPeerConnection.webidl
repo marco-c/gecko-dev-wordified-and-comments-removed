@@ -842,5 +842,16 @@ RTCPeerConnectionErrorCallback
 errorCallback
 )
 ;
+void
+getLogs
+(
+DOMString
+pattern
+RTCLogCallback
+callback
+RTCPeerConnectionErrorCallback
+errorCallback
+)
+;
 }
 ;
