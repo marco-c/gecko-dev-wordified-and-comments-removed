@@ -594,6 +594,6 @@ cert_pinning
 .
 enforcement_level
 "
-0
+1
 )
 ;
