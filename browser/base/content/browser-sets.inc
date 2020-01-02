@@ -1736,6 +1736,11 @@ toggleSidebar
 )
 ;
 "
+hidden
+=
+"
+true
+"
 /
 >
 <
