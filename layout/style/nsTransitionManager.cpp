@@ -409,7 +409,7 @@ nsTransitionManager
 :
 AddElementCollection
 (
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 aCollection
 )
@@ -678,7 +678,7 @@ AsElement
 )
 ;
 }
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 collection
 =
@@ -1196,7 +1196,7 @@ property
 }
 }
 }
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 &
 animations
 =
@@ -1454,7 +1454,7 @@ css
 :
 AnimValuesStyleRule
 ;
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 &
 animations
 =
@@ -1634,7 +1634,7 @@ dom
 Element
 *
 aElement
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 &
 aElementTransitions
@@ -1833,7 +1833,7 @@ if
 aElementTransitions
 )
 {
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 &
 animations
 =
@@ -2027,7 +2027,7 @@ if
 haveCurrentTransition
 )
 {
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 &
 animations
 =
@@ -2455,7 +2455,7 @@ return
 ;
 }
 }
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 &
 animations
 =
@@ -2621,7 +2621,7 @@ aProperty
 )
 ;
 }
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 nsTransitionManager
 :
@@ -2754,13 +2754,13 @@ return
 nullptr
 ;
 }
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 collection
 =
 static_cast
 <
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 >
 (
@@ -2785,7 +2785,7 @@ aCreateIfNeeded
 collection
 =
 new
-ElementAnimationCollection
+AnimationPlayerCollection
 (
 aElement
 propName
@@ -2814,7 +2814,7 @@ SetProperty
 propName
 collection
 &
-ElementAnimationCollection
+AnimationPlayerCollection
 :
 :
 PropertyDtor
@@ -2889,7 +2889,7 @@ Type
 aPseudoType
 )
 {
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 collection
 =
@@ -3391,13 +3391,13 @@ next
 mElementCollections
 )
 {
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 collection
 =
 static_cast
 <
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 >
 (
@@ -3425,7 +3425,7 @@ collection
 >
 CanPerformOnCompositorThread
 (
-ElementAnimationCollection
+AnimationPlayerCollection
 :
 :
 CanAnimateFlags

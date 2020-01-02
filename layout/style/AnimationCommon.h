@@ -145,7 +145,7 @@ class
 RestyleTracker
 ;
 struct
-ElementAnimationCollection
+AnimationPlayerCollection
 ;
 namespace
 css
@@ -306,13 +306,13 @@ struct
 mozilla
 :
 :
-ElementAnimationCollection
+AnimationPlayerCollection
 ;
 virtual
 void
 AddElementCollection
 (
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 aCollection
 )
@@ -333,7 +333,7 @@ RemoveAllElementCollections
 )
 ;
 static
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 GetAnimationsForCompositor
 (
@@ -505,7 +505,7 @@ dom
 AnimationPlayer
 >
 >
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 ;
 enum
 EnsureStyleRuleFlags
@@ -515,12 +515,12 @@ EnsureStyleRule_IsNotThrottled
 }
 ;
 struct
-ElementAnimationCollection
+AnimationPlayerCollection
 :
 public
 PRCList
 {
-ElementAnimationCollection
+AnimationPlayerCollection
 (
 dom
 :
@@ -576,7 +576,7 @@ endif
 {
 MOZ_COUNT_CTOR
 (
-ElementAnimationCollection
+AnimationPlayerCollection
 )
 ;
 PR_INIT_CLIST
@@ -586,7 +586,7 @@ this
 ;
 }
 ~
-ElementAnimationCollection
+AnimationPlayerCollection
 (
 )
 {
@@ -606,7 +606,7 @@ dtor
 ;
 MOZ_COUNT_DTOR
 (
-ElementAnimationCollection
+AnimationPlayerCollection
 )
 ;
 PR_REMOVE_LINK
@@ -966,7 +966,7 @@ mManager
 mozilla
 :
 :
-ElementAnimationPtrArray
+AnimationPlayerPtrArray
 mAnimations
 ;
 nsRefPtr

@@ -182,11 +182,11 @@ typedef
 mozilla
 :
 :
-ElementAnimationCollection
-ElementAnimationCollection
+AnimationPlayerCollection
+AnimationPlayerCollection
 ;
 static
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 GetTransitions
 (
@@ -198,7 +198,7 @@ aContent
 return
 static_cast
 <
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 >
 (
@@ -258,7 +258,7 @@ false
 ;
 }
 static
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 GetAnimationsForCompositor
 (
@@ -417,7 +417,7 @@ FlushFlags
 aFlags
 )
 ;
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 GetElementTransitions
 (
@@ -452,7 +452,7 @@ virtual
 void
 AddElementCollection
 (
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 aCollection
 )
@@ -481,7 +481,7 @@ dom
 Element
 *
 aElement
-ElementAnimationCollection
+AnimationPlayerCollection
 *
 &
 aElementTransitions
