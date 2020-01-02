@@ -7757,6 +7757,12 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
+this
+.
+_radioOffAfterDataDisconnected
+=
+true
+;
 return
 ;
 }
@@ -9953,7 +9959,7 @@ GECKO_NETWORK_STATE_UNKNOWN
 &
 this
 .
-_changingRadioPower
+_radioOffAfterDataDisconnected
 )
 {
 let
@@ -10043,6 +10049,12 @@ off
 .
 "
 )
+;
+this
+.
+_radioOffAfterDataDisconnected
+=
+false
 ;
 this
 .
@@ -11331,6 +11343,9 @@ _radioEnabled
 :
 null
 _changingRadioPower
+:
+false
+_radioOffAfterDataDisconnected
 :
 false
 dataCallSettings
