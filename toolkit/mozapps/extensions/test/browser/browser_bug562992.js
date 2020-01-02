@@ -119,9 +119,8 @@ function
 (
 )
 {
-executeSoon
-(
 run_next_test
+(
 )
 ;
 }
@@ -249,9 +248,8 @@ found
 "
 )
 ;
-executeSoon
-(
 run_next_test
+(
 )
 ;
 }
