@@ -618,6 +618,7 @@ sessionToken
 2
 *
 32
+true
 )
 ;
 }
