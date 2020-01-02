@@ -821,6 +821,7 @@ global
 aBoundElement
 &
 v
+false
 )
 ;
 NS_ENSURE_SUCCESS

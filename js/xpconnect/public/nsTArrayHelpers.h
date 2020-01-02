@@ -195,7 +195,6 @@ global
 obj
 &
 wrappedVal
-true
 )
 ;
 NS_ENSURE_SUCCESS

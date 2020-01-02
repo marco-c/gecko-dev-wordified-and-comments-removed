@@ -6531,7 +6531,6 @@ aObject
 native
 &
 prop_val
-true
 )
 ;
 if

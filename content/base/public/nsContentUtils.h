@@ -3117,10 +3117,6 @@ JS
 Value
 >
 vp
-bool
-aAllowWrapping
-=
-false
 )
 {
 return
@@ -3132,7 +3128,7 @@ native
 nullptr
 aIID
 vp
-aAllowWrapping
+true
 )
 ;
 }
@@ -3170,7 +3166,7 @@ vp
 bool
 aAllowWrapping
 =
-false
+true
 )
 {
 return
@@ -3223,7 +3219,7 @@ vp
 bool
 aAllowWrapping
 =
-false
+true
 )
 {
 return
