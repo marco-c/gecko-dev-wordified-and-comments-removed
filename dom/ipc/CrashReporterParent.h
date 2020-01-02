@@ -274,6 +274,16 @@ MOZ_OVERRIDE
 #
 ifdef
 MOZ_CRASHREPORTER
+void
+NotifyCrashService
+(
+)
+;
+#
+endif
+#
+ifdef
+MOZ_CRASHREPORTER
 AnnotationTable
 mNotes
 ;
