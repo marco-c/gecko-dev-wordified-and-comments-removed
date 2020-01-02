@@ -30,10 +30,7 @@ bool
 IsAcceptableThis
 )
 (
-Handle
-<
-Value
->
+HandleValue
 v
 )
 ;

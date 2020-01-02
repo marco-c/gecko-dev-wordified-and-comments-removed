@@ -8335,10 +8335,7 @@ extern
 JS_PUBLIC_DATA
 (
 const
-Handle
-<
-Value
->
+HandleValue
 )
 NullHandleValue
 ;
@@ -8346,10 +8343,7 @@ extern
 JS_PUBLIC_DATA
 (
 const
-Handle
-<
-Value
->
+HandleValue
 )
 UndefinedHandleValue
 ;
