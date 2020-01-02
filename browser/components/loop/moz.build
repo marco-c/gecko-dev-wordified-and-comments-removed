@@ -138,6 +138,16 @@ loop
 =
 [
 '
+LoopContacts
+.
+jsm
+'
+'
+LoopStorage
+.
+jsm
+'
+'
 MozLoopAPI
 .
 jsm
