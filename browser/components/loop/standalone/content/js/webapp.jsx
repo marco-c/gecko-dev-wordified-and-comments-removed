@@ -1915,12 +1915,11 @@ audio
 -
 video
 "
+function
 (
 err
 sessionData
 )
-=
->
 {
 if
 (
@@ -2025,6 +2024,11 @@ sessionData
 )
 ;
 }
+.
+bind
+(
+this
+)
 )
 ;
 }
