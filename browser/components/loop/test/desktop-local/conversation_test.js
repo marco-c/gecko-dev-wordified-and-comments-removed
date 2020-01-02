@@ -121,6 +121,14 @@ models
 .
 ConversationModel
 (
+{
+}
+{
+sdk
+:
+{
+}
+}
 )
 ;
 }

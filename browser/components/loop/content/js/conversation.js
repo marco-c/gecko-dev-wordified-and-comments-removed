@@ -438,6 +438,13 @@ models
 .
 ConversationModel
 (
+{
+}
+{
+sdk
+:
+OT
+}
 )
 notifier
 :
