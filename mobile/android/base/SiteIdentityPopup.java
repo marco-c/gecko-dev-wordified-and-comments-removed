@@ -19,6 +19,17 @@ ArrowPopup
 import
 org
 .
+mozilla
+.
+gecko
+.
+widget
+.
+DoorHanger
+;
+import
+org
+.
 json
 .
 JSONException
