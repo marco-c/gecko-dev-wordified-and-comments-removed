@@ -279,6 +279,16 @@ AutoJSAPI
 "
 )
 ;
+MOZ_ASSERT_IF
+(
+NS_IsMainThread
+(
+)
+CxPusherIsStackTop
+(
+)
+)
+;
 return
 mCx
 ;
@@ -287,6 +297,7 @@ bool
 CxPusherIsStackTop
 (
 )
+const
 {
 return
 mCxPusher

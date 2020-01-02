@@ -615,6 +615,7 @@ AutoCxPusher
 IsStackTop
 (
 )
+const
 {
 uint32_t
 currentDepth

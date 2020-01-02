@@ -80,6 +80,7 @@ bool
 IsStackTop
 (
 )
+const
 ;
 private
 :
