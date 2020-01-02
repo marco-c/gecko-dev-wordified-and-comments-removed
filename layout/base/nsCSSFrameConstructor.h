@@ -4287,10 +4287,12 @@ SetNeedLayoutFlush
 )
 ;
 }
-static
 void
 SetAsUndisplayedContent
 (
+nsFrameConstructorState
+&
+aState
 FrameConstructionItemList
 &
 aList
