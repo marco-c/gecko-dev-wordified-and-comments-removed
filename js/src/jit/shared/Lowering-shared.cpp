@@ -1111,6 +1111,8 @@ ins
 MInstruction
 *
 mir
+BailoutKind
+kind
 )
 {
 JS_ASSERT
@@ -1168,7 +1170,7 @@ buildSnapshot
 (
 ins
 mrp
-Bailout_Normal
+kind
 )
 ;
 if

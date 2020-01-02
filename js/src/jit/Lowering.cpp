@@ -3067,6 +3067,7 @@ getSingleTarget
 assignSnapshot
 (
 lir
+Bailout_NonJSFunctionCallee
 )
 )
 return
@@ -3129,6 +3130,12 @@ return
 assignSnapshot
 (
 lir
+bail
+-
+>
+bailoutKind
+(
+)
 )
 &
 &
@@ -3392,6 +3399,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_DynamicNameNotFound
 )
 &
 &
@@ -3542,6 +3550,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_StringArgumentsEval
 )
 &
 &
@@ -7116,7 +7125,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_OverflowInvalidate
 )
 )
 return
@@ -7352,6 +7361,7 @@ if
 assignSnapshot
 (
 lir
+Bailout_Round
 )
 )
 return
@@ -7394,6 +7404,7 @@ if
 assignSnapshot
 (
 lir
+Bailout_Round
 )
 )
 return
@@ -7478,6 +7489,7 @@ if
 assignSnapshot
 (
 lir
+Bailout_Round
 )
 )
 return
@@ -7520,6 +7532,7 @@ if
 assignSnapshot
 (
 lir
+Bailout_Round
 )
 )
 return
@@ -7607,6 +7620,7 @@ if
 assignSnapshot
 (
 lir
+Bailout_Round
 )
 )
 return
@@ -7652,6 +7666,7 @@ if
 assignSnapshot
 (
 lir
+Bailout_Round
 )
 )
 return
@@ -7863,6 +7878,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Overflow
 )
 )
 return
@@ -8849,7 +8865,7 @@ fallible
 assignSnapshot
 (
 lir
-Bailout_BaselineInfo
+Bailout_OverflowInvalidate
 )
 )
 return
@@ -9096,6 +9112,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Overflow
 )
 )
 return
@@ -10613,6 +10630,7 @@ if
 assignSnapshot
 (
 lir
+Bailout_InitialState
 )
 )
 return
@@ -10986,6 +11004,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_NonPrimitiveInput
 )
 &
 &
@@ -11234,6 +11253,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_NonPrimitiveInput
 )
 &
 &
@@ -11467,6 +11487,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_NonPrimitiveInput
 )
 &
 &
@@ -11542,6 +11563,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_PrecisionLoss
 )
 &
 &
@@ -11578,6 +11600,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_PrecisionLoss
 )
 &
 &
@@ -11702,6 +11725,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_NonPrimitiveInput
 )
 &
 &
@@ -12091,6 +12115,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_NonPrimitiveInput
 )
 )
 return
@@ -14387,6 +14412,7 @@ if
 assignSnapshot
 (
 bail
+Bailout_Inevitable
 )
 )
 return
@@ -14475,6 +14501,7 @@ if
 assignSnapshot
 (
 barrier
+Bailout_TypeBarrierV
 )
 )
 return
@@ -14587,6 +14614,7 @@ if
 assignSnapshot
 (
 barrier
+Bailout_TypeBarrierO
 )
 )
 return
@@ -14727,7 +14755,7 @@ return
 assignSnapshot
 (
 lir
-Bailout_Normal
+Bailout_MonitorTypes
 )
 &
 &
@@ -15876,7 +15904,7 @@ if
 assignSnapshot
 (
 chk
-Bailout_BoundsCheck
+Bailout_Neutered
 )
 )
 return
@@ -16373,6 +16401,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Hole
 )
 )
 return
@@ -16453,6 +16482,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Hole
 )
 )
 return
@@ -16601,6 +16631,7 @@ needsNegativeIntCheck
 assignSnapshot
 (
 lir
+Bailout_NegativeIndex
 )
 )
 return
@@ -16738,6 +16769,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Hole
 )
 )
 return
@@ -16820,6 +16852,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Hole
 )
 )
 return
@@ -17762,6 +17795,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Overflow
 )
 )
 return
@@ -17908,6 +17942,7 @@ return
 assignSnapshot
 (
 lir
+Bailout_NonPrimitiveInput
 )
 &
 &
@@ -18055,6 +18090,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_Overflow
 )
 )
 return
@@ -18123,6 +18159,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BoundsCheck
 )
 )
 return
@@ -19844,6 +19881,7 @@ return
 assignSnapshot
 (
 guard
+Bailout_ObjectIdentityOrTypeGuard
 )
 &
 &
@@ -19912,6 +19950,7 @@ return
 assignSnapshot
 (
 guard
+Bailout_ObjectIdentityOrTypeGuard
 )
 &
 &

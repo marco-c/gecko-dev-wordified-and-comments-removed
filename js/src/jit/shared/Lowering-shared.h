@@ -799,8 +799,6 @@ LInstruction
 ins
 BailoutKind
 kind
-=
-Bailout_Normal
 )
 ;
 bool
@@ -812,6 +810,10 @@ ins
 MInstruction
 *
 mir
+BailoutKind
+kind
+=
+Bailout_DuringVMCall
 )
 ;
 public
