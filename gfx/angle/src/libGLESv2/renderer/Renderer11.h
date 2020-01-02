@@ -1479,6 +1479,13 @@ unordered_map
 <
 DXGI_FORMAT
 MultisampleSupportInfo
+std
+:
+:
+hash
+<
+int
+>
 >
 MultisampleSupportMap
 ;
