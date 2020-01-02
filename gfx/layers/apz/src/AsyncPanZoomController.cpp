@@ -10428,10 +10428,6 @@ if
 scrollOffsetUpdated
 )
 {
-CancelAnimation
-(
-)
-;
 APZC_LOG
 (
 "
@@ -10493,6 +10489,10 @@ mFrameMetrics
 CopyScrollInfoFrom
 (
 aLayerMetrics
+)
+;
+CancelAnimation
+(
 )
 ;
 mLastDispatchedPaintMetrics
