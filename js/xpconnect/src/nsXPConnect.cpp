@@ -1899,12 +1899,14 @@ return
 ;
 MOZ_ASSERT
 (
-JS_GetOptions
+ContextOptionsRef
 (
 cx
 )
-&
-JSOPTION_TYPE_INFERENCE
+.
+typeInference
+(
+)
 )
 ;
 }
