@@ -158,13 +158,6 @@ aSeekable
 )
 MOZ_OVERRIDE
 ;
-virtual
-double
-GetDuration
-(
-)
-MOZ_OVERRIDE
-;
 void
 AttachMediaSource
 (

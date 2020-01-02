@@ -346,15 +346,6 @@ return
 mDecoder
 ;
 }
-void
-NotifyEvicted
-(
-double
-aStart
-double
-aEnd
-)
-;
 private
 :
 explicit
