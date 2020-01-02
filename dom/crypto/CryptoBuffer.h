@@ -57,6 +57,16 @@ uint8_t
 Assign
 (
 const
+CryptoBuffer
+&
+aData
+)
+;
+uint8_t
+*
+Assign
+(
+const
 uint8_t
 *
 aData
