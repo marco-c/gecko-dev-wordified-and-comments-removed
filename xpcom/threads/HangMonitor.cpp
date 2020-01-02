@@ -153,6 +153,9 @@ hangmonitor
 timeout
 "
 ;
+#
+ifdef
+REPORT_CHROME_HANGS
 const
 char
 kTelemetryPrefName
@@ -167,6 +170,8 @@ telemetry
 enabled
 "
 ;
+#
+endif
 Monitor
 *
 gMonitor
