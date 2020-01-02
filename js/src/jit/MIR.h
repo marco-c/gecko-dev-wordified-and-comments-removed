@@ -1446,7 +1446,7 @@ computeRange
 }
 virtual
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 {
@@ -8872,7 +8872,7 @@ fp
 const
 ;
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -14810,7 +14810,7 @@ None
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -16399,7 +16399,7 @@ truncate
 )
 ;
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -20949,7 +20949,7 @@ this
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -21409,7 +21409,7 @@ fallible_
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -21850,7 +21850,7 @@ Element
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
@@ -32221,7 +32221,7 @@ needsNegativeIntCheck_
 ;
 }
 void
-collectRangeInfo
+collectRangeInfoPreTrunc
 (
 )
 ;
