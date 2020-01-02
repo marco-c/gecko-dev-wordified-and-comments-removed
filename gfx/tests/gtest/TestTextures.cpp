@@ -88,6 +88,12 @@ mozilla
 :
 layers
 ;
+namespace
+mozilla
+{
+namespace
+layers
+{
 void
 SetupSurface
 (
@@ -1375,6 +1381,8 @@ Unlock
 (
 )
 ;
+}
+}
 }
 TEST
 (
