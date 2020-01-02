@@ -442,12 +442,6 @@ aLastMessage
 )
 ;
 static
-void
-WaitForMessage
-(
-)
-;
-static
 bool
 GetRegistryKey
 (
