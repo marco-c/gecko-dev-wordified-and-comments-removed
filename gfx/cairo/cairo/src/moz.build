@@ -761,9 +761,6 @@ LIBRARY_NAME
 '
 mozcairo
 '
-LIBXUL_LIBRARY
-=
-True
 SOURCES
 +
 =
