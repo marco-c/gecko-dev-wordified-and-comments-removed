@@ -15265,14 +15265,6 @@ NS_OK
 }
 if
 (
-!
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-&
-&
 sDocument_id
 =
 =
