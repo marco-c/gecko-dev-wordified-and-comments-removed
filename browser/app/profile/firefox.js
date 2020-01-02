@@ -7049,9 +7049,6 @@ site
 "
 )
 ;
-#
-ifndef
-MOZILLA_OFFICIAL
 pref
 (
 "
@@ -7088,8 +7085,6 @@ GOOGLE_API_KEY
 "
 )
 ;
-#
-endif
 #
 ifdef
 MOZILLA_OFFICIAL
@@ -7165,6 +7160,9 @@ shavar
 "
 )
 ;
+#
+ifdef
+XP_WIN
 pref
 (
 "
@@ -7181,6 +7179,8 @@ digest256
 "
 )
 ;
+#
+endif
 #
 endif
 pref
