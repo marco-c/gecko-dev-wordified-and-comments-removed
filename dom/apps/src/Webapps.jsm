@@ -13844,9 +13844,10 @@ aData
 isPackage
 &
 &
+!
 aData
 .
-autoInstall
+requestID
 )
 {
 this
