@@ -1140,7 +1140,7 @@ nsStyleSet
 eTransitionSheet
 )
 {
-ElementTransitions
+CommonElementAnimationData
 *
 et
 =
