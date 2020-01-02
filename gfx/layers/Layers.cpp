@@ -5787,6 +5787,16 @@ break
 mUseIntermediateSurface
 =
 useIntermediateSurface
+&
+&
+!
+GetEffectiveVisibleRegion
+(
+)
+.
+IsEmpty
+(
+)
 ;
 if
 (
