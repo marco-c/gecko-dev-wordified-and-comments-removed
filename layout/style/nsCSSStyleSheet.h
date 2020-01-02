@@ -1354,7 +1354,7 @@ ClearRuleCascades
 (
 )
 ;
-nsresult
+void
 WillDirty
 (
 )
