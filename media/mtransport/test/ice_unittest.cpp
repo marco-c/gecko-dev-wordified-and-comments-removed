@@ -219,6 +219,12 @@ stream_added
 =
 false
 ;
+static
+int
+kDefaultTimeout
+=
+7000
+;
 const
 std
 :
@@ -5262,7 +5268,7 @@ peer_
 gathering_complete
 (
 )
-10000
+kDefaultTimeout
 )
 ;
 }
@@ -5608,7 +5614,7 @@ p1_
 gathering_complete
 (
 )
-10000
+kDefaultTimeout
 )
 ;
 if
@@ -5632,7 +5638,7 @@ p2_
 gathering_complete
 (
 )
-10000
+kDefaultTimeout
 )
 ;
 if
@@ -5820,7 +5826,7 @@ ready_ct
 =
 =
 1
-5000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -5839,7 +5845,7 @@ p2_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 p1_
@@ -6013,7 +6019,7 @@ ready_ct
 =
 =
 expected_streams
-5000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -6032,7 +6038,7 @@ p2_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 }
@@ -6049,7 +6055,7 @@ p1_
 gathering_complete
 (
 )
-10000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -6060,7 +6066,7 @@ p2_
 gathering_complete
 (
 )
-10000
+kDefaultTimeout
 )
 ;
 }
@@ -6124,7 +6130,7 @@ is_ready
 (
 stream
 )
-5000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -6136,7 +6142,7 @@ is_ready
 (
 stream
 )
-5000
+kDefaultTimeout
 )
 ;
 }
@@ -6249,7 +6255,7 @@ PR_Sleep
 (
 PR_MillisecondsToInterval
 (
-5000
+kDefaultTimeout
 )
 )
 ;
@@ -8092,7 +8098,7 @@ p1_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -8103,7 +8109,7 @@ p2_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 WaitForGather
@@ -8530,7 +8536,7 @@ p1_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -8541,7 +8547,7 @@ p2_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 }
@@ -8616,7 +8622,7 @@ p1_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -8627,7 +8633,7 @@ p2_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 }
@@ -8712,7 +8718,7 @@ p1_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 ASSERT_TRUE_WAIT
@@ -8723,7 +8729,7 @@ p2_
 ice_complete
 (
 )
-5000
+kDefaultTimeout
 )
 ;
 }

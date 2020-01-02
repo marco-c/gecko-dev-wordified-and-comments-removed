@@ -2084,7 +2084,7 @@ client
 .
 maximum_transmits
 "
-4
+5
 )
 ;
 NR_reg_set_uint4
