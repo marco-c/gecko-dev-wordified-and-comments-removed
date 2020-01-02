@@ -298,6 +298,13 @@ layout_height
 "
 fill_parent
 "
+android
+:
+visibility
+=
+"
+gone
+"
 >
 <
 ViewStub
