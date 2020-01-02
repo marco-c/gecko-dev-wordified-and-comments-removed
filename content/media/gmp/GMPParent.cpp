@@ -68,6 +68,15 @@ mozIGeckoMediaPluginService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 namespace
 mozilla
 {
@@ -548,6 +557,9 @@ NS_GetCurrentThread
 )
 )
 ;
+unused
+<
+<
 NS_WARN_IF
 (
 !
