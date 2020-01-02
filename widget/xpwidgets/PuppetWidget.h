@@ -529,6 +529,7 @@ nsIMEUpdatePreference
 GetIMEUpdatePreference
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCursor
@@ -703,7 +704,7 @@ gfxASurface
 mSurface
 ;
 nsIMEUpdatePreference
-mIMEPreference
+mIMEPreferenceOfParent
 ;
 bool
 mIMEComposing
