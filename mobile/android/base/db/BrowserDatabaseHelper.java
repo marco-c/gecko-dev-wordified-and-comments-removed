@@ -14139,6 +14139,17 @@ SDK_INT
 11
 )
 {
+if
+(
+Build
+.
+VERSION
+.
+SDK_INT
+<
+16
+)
+{
 db
 .
 enableWriteAheadLogging
@@ -14152,6 +14163,7 @@ setLockingEnabled
 false
 )
 ;
+}
 }
 else
 {
