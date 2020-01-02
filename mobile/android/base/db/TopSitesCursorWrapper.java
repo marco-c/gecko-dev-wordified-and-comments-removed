@@ -186,12 +186,6 @@ TopSites
 DISPLAY
 TopSites
 .
-IMAGE_URL
-TopSites
-.
-BG_COLOR
-TopSites
-.
 TYPE
 }
 ;
