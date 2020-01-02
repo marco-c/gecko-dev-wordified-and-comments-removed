@@ -2200,15 +2200,6 @@ aSampleRate
 0
 )
 ;
-int64_t
-GetCurrentGraphUpdateIndex
-(
-)
-{
-return
-mGraphUpdatesSent
-;
-}
 bool
 IsNonRealtime
 (
@@ -2248,7 +2239,7 @@ MediaStreamGraph
 (
 )
 :
-mGraphUpdatesSent
+mNextGraphUpdateIndex
 (
 1
 )
@@ -2280,7 +2271,7 @@ nsIRunnable
 mPendingUpdateRunnables
 ;
 int64_t
-mGraphUpdatesSent
+mNextGraphUpdateIndex
 ;
 }
 ;

@@ -8434,11 +8434,11 @@ block
 >
 mGraphUpdateIndex
 =
-mGraphUpdatesSent
+mNextGraphUpdateIndex
 ;
 +
 +
-mGraphUpdatesSent
+mNextGraphUpdateIndex
 ;
 EnsureNextIterationLocked
 (
