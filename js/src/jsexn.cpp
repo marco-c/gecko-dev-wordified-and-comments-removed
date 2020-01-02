@@ -4441,7 +4441,7 @@ cx
 exn
 )
 ;
-js_ReportErrorAgain
+CallErrorReporter
 (
 cx
 bytes

@@ -2673,13 +2673,8 @@ bool
 reportWarnings
 )
 ;
-}
-extern
-JS_FRIEND_API
-(
 void
-)
-js_ReportErrorAgain
+CallErrorReporter
 (
 JSContext
 *
@@ -2693,6 +2688,7 @@ JSErrorReport
 report
 )
 ;
+}
 extern
 void
 js_ReportIsNotDefined
