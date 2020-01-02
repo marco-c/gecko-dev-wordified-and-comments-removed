@@ -18,9 +18,6 @@ nsSVGNumber2
 .
 h
 "
-class
-nsSVGFELightingElement
-;
 nsresult
 NS_NewSVGFESpotLightElement
 (
@@ -42,7 +39,7 @@ namespace
 dom
 {
 typedef
-SVGFEUnstyledElement
+SVGFELightElement
 SVGFESpotLightElementBase
 ;
 class
@@ -115,6 +112,16 @@ MOZ_OVERRIDE
 ;
 public
 :
+virtual
+AttributeMap
+ComputeLightAttributes
+(
+nsSVGFilterInstance
+*
+aInstance
+)
+MOZ_OVERRIDE
+;
 virtual
 bool
 AttributeAffectsRendering
