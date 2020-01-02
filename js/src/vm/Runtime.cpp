@@ -788,6 +788,10 @@ nullptr
 )
 #
 endif
+scriptAndCountsVector
+(
+nullptr
+)
 NaNValue
 (
 DoubleNaNValue
