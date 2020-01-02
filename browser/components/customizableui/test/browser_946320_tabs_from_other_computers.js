@@ -354,6 +354,14 @@ resetBranch
 "
 )
 ;
+Services
+.
+logins
+.
+removeAllLogins
+(
+)
+;
 let
 hiddenPanelPromise
 =
