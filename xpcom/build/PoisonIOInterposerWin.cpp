@@ -717,7 +717,7 @@ WCHAR
 :
 0
 ;
-nsDependentString
+nsDependentSubstring
 filename
 (
 buf
@@ -1067,7 +1067,7 @@ WCHAR
 :
 0
 ;
-nsDependentString
+nsDependentSubstring
 filename
 (
 buf
