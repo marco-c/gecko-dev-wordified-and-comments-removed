@@ -157,3 +157,8 @@ elfhack
 cpp
 '
 ]
+HOST_PROGRAM
+=
+'
+elfhack
+'

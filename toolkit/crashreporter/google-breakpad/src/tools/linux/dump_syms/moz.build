@@ -103,3 +103,8 @@ dump_syms
 cc
 '
 ]
+HOST_PROGRAM
+=
+'
+dump_syms
+'

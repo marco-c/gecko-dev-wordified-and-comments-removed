@@ -171,3 +171,8 @@ pathsub
 c
 '
 ]
+HOST_PROGRAM
+=
+'
+nsinstall_real
+'

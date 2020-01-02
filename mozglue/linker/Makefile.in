@@ -55,9 +55,6 @@ MPL
 .
 STL_FLAGS
 =
-HOST_PROGRAM
-=
-szip
 HOST_LIBS
 =
 -

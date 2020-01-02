@@ -1733,12 +1733,6 @@ VPX_OIE_FORMAT
 =
 gas
 endif
-HOST_PROGRAM
-=
-host_obj_int_extract
-(
-HOST_BIN_SUFFIX
-)
 CSRCS
 +
 =

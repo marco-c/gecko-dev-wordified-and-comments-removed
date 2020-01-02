@@ -320,12 +320,6 @@ in
 Mozilla
 distributions
 .
-HOST_PROGRAM
-=
-mbsdiff
-(
-BIN_SUFFIX
-)
 ifdef
 MOZ_NATIVE_BZ2
 HOST_LIBS

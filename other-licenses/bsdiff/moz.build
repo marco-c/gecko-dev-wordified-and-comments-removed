@@ -103,3 +103,8 @@ bsdiff
 c
 '
 ]
+HOST_PROGRAM
+=
+'
+mbsdiff
+'

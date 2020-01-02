@@ -118,12 +118,6 @@ a
 Mozilla
 distribution
 .
-HOST_PROGRAM
-=
-mar
-(
-HOST_BIN_SUFFIX
-)
 #
 Don
 '
