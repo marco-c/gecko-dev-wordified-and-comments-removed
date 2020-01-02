@@ -304,6 +304,17 @@ URI
 spec
 )
 ;
+req
+.
+cancel
+(
+Components
+.
+results
+.
+NS_ERROR_FAILURE
+)
+;
 executeSoon
 (
 nextTest
@@ -311,6 +322,7 @@ nextTest
 ;
 }
 }
+;
 gBrowser
 .
 addProgressListener
