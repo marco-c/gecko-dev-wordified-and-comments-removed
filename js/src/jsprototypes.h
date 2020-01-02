@@ -276,7 +276,7 @@ real
 (
 Error
 11
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
@@ -287,7 +287,7 @@ real
 (
 InternalError
 12
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
@@ -298,7 +298,7 @@ real
 (
 EvalError
 13
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
@@ -309,7 +309,7 @@ real
 (
 RangeError
 14
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
@@ -320,7 +320,7 @@ real
 (
 ReferenceError
 15
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
@@ -331,7 +331,7 @@ real
 (
 SyntaxError
 16
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
@@ -342,7 +342,7 @@ real
 (
 TypeError
 17
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
@@ -353,7 +353,7 @@ real
 (
 URIError
 18
-js_InitExceptionClasses
+js_InitViaClassSpec
 OCLASP
 (
 Error
