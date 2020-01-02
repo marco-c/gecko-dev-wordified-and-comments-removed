@@ -12201,6 +12201,11 @@ BaseProxyHandler
 :
 :
 SET
+|
+BaseProxyHandler
+:
+:
+GET_PROPERTY_DESCRIPTOR
 )
 ;
 RootedObject
@@ -12792,6 +12797,11 @@ BaseProxyHandler
 :
 :
 SET
+|
+BaseProxyHandler
+:
+:
+GET_PROPERTY_DESCRIPTOR
 )
 ;
 RootedObject

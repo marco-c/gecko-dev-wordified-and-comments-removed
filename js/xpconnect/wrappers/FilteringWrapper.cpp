@@ -426,6 +426,11 @@ BaseProxyHandler
 :
 :
 SET
+|
+BaseProxyHandler
+:
+:
+GET_PROPERTY_DESCRIPTOR
 )
 ;
 if
@@ -507,6 +512,11 @@ BaseProxyHandler
 :
 :
 SET
+|
+BaseProxyHandler
+:
+:
+GET_PROPERTY_DESCRIPTOR
 )
 ;
 if

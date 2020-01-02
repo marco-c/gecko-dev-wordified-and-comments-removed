@@ -2211,6 +2211,8 @@ id
 GET
 |
 SET
+|
+GET_PROPERTY_DESCRIPTOR
 )
 ;
 JS_ASSERT
@@ -2279,6 +2281,8 @@ id
 GET
 |
 SET
+|
+GET_PROPERTY_DESCRIPTOR
 )
 ;
 RootedObject
@@ -11948,7 +11952,7 @@ id
 BaseProxyHandler
 :
 :
-GET
+GET_PROPERTY_DESCRIPTOR
 true
 )
 ;
@@ -12160,7 +12164,7 @@ id
 BaseProxyHandler
 :
 :
-GET
+GET_PROPERTY_DESCRIPTOR
 true
 )
 ;
