@@ -541,7 +541,6 @@ v
 .
 isMagic
 (
-JS_FORWARD_TO_CALL_OBJECT
 )
 )
 ;
@@ -593,7 +592,6 @@ lhs
 .
 isMagic
 (
-JS_FORWARD_TO_CALL_OBJECT
 )
 )
 ;
