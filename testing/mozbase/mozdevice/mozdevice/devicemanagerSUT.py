@@ -3,6 +3,8 @@ datetime
 import
 mozlog
 import
+moznetwork
+import
 select
 import
 socket
@@ -23,7 +25,6 @@ devicemanager
 import
 DeviceManager
 DMError
-NetworkTools
 _pop_last_line
 import
 errno
@@ -5505,17 +5506,11 @@ not
 ipAddr
 :
                 
-nettools
-=
-NetworkTools
-(
-)
-                
 ipAddr
 =
-nettools
+moznetwork
 .
-getLanIp
+get_ip
 (
 )
             
@@ -6242,17 +6237,11 @@ not
 ipAddr
 :
                 
-nettools
-=
-NetworkTools
-(
-)
-                
 ipAddr
 =
-nettools
+moznetwork
 .
-getLanIp
+get_ip
 (
 )
             

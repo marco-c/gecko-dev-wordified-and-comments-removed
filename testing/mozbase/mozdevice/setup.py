@@ -29,6 +29,15 @@ mozfile
 '
 mozlog
 '
+        
+'
+moznetwork
+>
+=
+0
+.
+24
+'
        
 ]
 setup

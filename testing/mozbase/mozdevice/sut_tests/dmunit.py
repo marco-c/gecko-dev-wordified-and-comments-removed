@@ -148,14 +148,6 @@ DMError
         
 self
 .
-nettools
-=
-devicemanager
-.
-NetworkTools
-        
-self
-.
 _setUp
 (
 )

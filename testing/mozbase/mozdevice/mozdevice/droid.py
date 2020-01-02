@@ -1,6 +1,8 @@
 import
 StringIO
 import
+moznetwork
+import
 re
 import
 threading
@@ -13,7 +15,6 @@ from
 devicemanager
 import
 ZeroconfListener
-NetworkTools
 from
 devicemanagerADB
 import
@@ -1147,25 +1148,15 @@ timeout
 "
 "
     
-nt
-=
-NetworkTools
-(
-)
-    
-local_ip
-=
-nt
-.
-getLanIp
-(
-)
-    
 zc
 =
 Zeroconf
 (
-local_ip
+moznetwork
+.
+get_ip
+(
+)
 )
     
 evt
