@@ -612,7 +612,14 @@ aIndex
 )
 ;
 bool
-ShouldKeepChunk
+ShouldCacheChunk
+(
+uint32_t
+aIndex
+)
+;
+bool
+MustKeepCachedChunk
 (
 uint32_t
 aIndex
@@ -800,7 +807,7 @@ aClosure
 ;
 static
 PLDHashOperator
-CleanUpPreloadedChunks
+CleanUpCachedChunks
 (
 const
 uint32_t
@@ -865,6 +872,9 @@ mWritingMetadata
 ;
 bool
 mPreloadWithoutInputStreams
+;
+uint32_t
+mPreloadChunkCount
 ;
 nsresult
 mStatus
