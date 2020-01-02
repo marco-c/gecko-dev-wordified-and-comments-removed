@@ -287,13 +287,6 @@ class
 IOInterposer
 MOZ_FINAL
 {
-static
-IOInterposeObserver
-:
-:
-Operation
-sObservedOperations
-;
 IOInterposer
 (
 )
@@ -301,7 +294,7 @@ IOInterposer
 public
 :
 static
-void
+bool
 Init
 (
 )
@@ -377,6 +370,12 @@ bool
 aIsMainThread
 =
 false
+)
+;
+static
+void
+UnregisterCurrentThread
+(
 )
 ;
 }
