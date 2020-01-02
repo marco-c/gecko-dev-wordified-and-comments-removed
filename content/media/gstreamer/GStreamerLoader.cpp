@@ -20,6 +20,15 @@ GStreamerLoader
 h
 "
 #
+include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
+#
 define
 LIBGSTREAMER
 0
