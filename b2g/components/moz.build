@@ -229,6 +229,11 @@ ErrorPage
 jsm
 '
 '
+FxAccountsMgmtService
+.
+jsm
+'
+'
 SignInToWebsite
 .
 jsm
