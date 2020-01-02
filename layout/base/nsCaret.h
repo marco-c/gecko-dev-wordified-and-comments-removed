@@ -417,11 +417,6 @@ nscoord
 aBidiIndicatorSize
 )
 ;
-bool
-MustDrawCaret
-(
-)
-;
 void
 DrawCaret
 (
