@@ -920,7 +920,7 @@ if
 reg0
 -
 >
-isDouble
+isFloatReg
 (
 )
 !
@@ -928,7 +928,7 @@ isDouble
 reg1
 -
 >
-isDouble
+isFloatReg
 (
 )
 )
@@ -3597,7 +3597,7 @@ registers
 ]
 ]
 .
-isDouble
+isFloatReg
 (
 )
 )
@@ -3892,7 +3892,7 @@ if
 reg
 -
 >
-isDouble
+isFloatReg
 (
 )
 !
@@ -5214,7 +5214,7 @@ if
 reg
 -
 >
-isDouble
+isFloatReg
 (
 )
 )
