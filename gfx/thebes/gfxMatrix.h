@@ -25,9 +25,11 @@ gfxRect
 .
 h
 "
-struct
+class
 gfxMatrix
 {
+public
+:
 double
 _11
 ;
@@ -46,8 +48,6 @@ _31
 double
 _32
 ;
-public
-:
 gfxMatrix
 (
 )

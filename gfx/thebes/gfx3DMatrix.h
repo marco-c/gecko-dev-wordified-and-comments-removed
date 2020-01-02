@@ -32,7 +32,7 @@ gfxQuad
 .
 h
 >
-struct
+class
 gfxMatrix
 ;
 class
