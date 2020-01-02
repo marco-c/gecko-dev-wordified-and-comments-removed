@@ -3481,7 +3481,7 @@ oncommand
 "
 gSyncUI
 .
-openAccountsPage
+openSetup
 (
 )
 "
