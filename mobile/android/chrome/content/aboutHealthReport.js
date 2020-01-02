@@ -130,9 +130,8 @@ Response
 let
 sharedPrefs
 =
+new
 SharedPreferences
-.
-forApp
 (
 )
 ;
