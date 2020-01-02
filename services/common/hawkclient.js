@@ -95,7 +95,7 @@ services
 -
 common
 /
-rest
+hawkrequest
 .
 js
 "
