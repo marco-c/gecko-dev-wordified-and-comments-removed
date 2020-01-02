@@ -282,12 +282,6 @@ ErrorResult
 aRv
 )
 ;
-JSContext
-*
-GetJSContext
-(
-)
-;
 void
 SetActor
 (
