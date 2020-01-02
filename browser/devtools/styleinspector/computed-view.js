@@ -1706,7 +1706,7 @@ url
 =
 node
 .
-textContent
+href
 ;
 }
 else

@@ -4955,7 +4955,7 @@ url
 :
 node
 .
-textContent
+href
 enabled
 :
 prop
