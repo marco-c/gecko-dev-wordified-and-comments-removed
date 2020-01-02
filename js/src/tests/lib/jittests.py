@@ -2723,6 +2723,10 @@ stdout
 "
 +
 line
+.
+strip
+(
+)
 )
     
 for
@@ -2730,7 +2734,7 @@ line
 in
 res
 .
-out
+err
 .
 split
 (
@@ -2751,6 +2755,10 @@ stderr
 "
 +
 line
+.
+strip
+(
+)
 )
 def
 wrap_parallel_run_test
