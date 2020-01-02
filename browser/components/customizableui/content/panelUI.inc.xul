@@ -415,10 +415,11 @@ History
 '
 )
 ;
-PanelUI
+CustomizableUI
 .
-hide
+hidePanelForNode
 (
+this
 )
 ;
 "
