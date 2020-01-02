@@ -569,12 +569,6 @@ MaxNumberOfChannels
 )
 ;
 static
-void
-InitPreferredSampleRate
-(
-)
-;
-static
 int
 PreferredSampleRate
 (
