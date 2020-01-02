@@ -5745,6 +5745,13 @@ then
 =
 >
 {
+if
+(
+this
+.
+_elementStyle
+)
+{
 this
 .
 _elementStyle
@@ -5764,6 +5771,7 @@ _changed
 ;
 }
 ;
+}
 }
 )
 .
