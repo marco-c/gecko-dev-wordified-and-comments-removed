@@ -6938,6 +6938,9 @@ auto
 while
 (
 true
+&
+&
+target
 )
 {
 let
