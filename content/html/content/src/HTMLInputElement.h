@@ -1194,11 +1194,6 @@ nsIFilePicker
 filePicker
 )
 ;
-int32_t
-GetFilterFromAccept
-(
-)
-;
 void
 UpdateValidityUIBits
 (
