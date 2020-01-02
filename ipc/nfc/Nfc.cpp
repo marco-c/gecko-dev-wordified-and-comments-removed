@@ -1373,6 +1373,11 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+sNfcConsumer
+)
+{
 sNfcConsumer
 -
 >
@@ -1391,6 +1396,7 @@ sNfcConsumer
 =
 nullptr
 ;
+}
 }
 void
 NfcConsumer
