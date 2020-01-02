@@ -57,6 +57,7 @@ JSObject
 >
 aProxy
 )
+const
 MOZ_OVERRIDE
 {
 JS_ReportErrorNumber
@@ -104,6 +105,7 @@ JSPropertyDescriptor
 >
 aDesc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -139,6 +141,7 @@ JSPropertyDescriptor
 >
 aDesc
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -166,6 +169,7 @@ AutoIdVector
 &
 aProps
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -196,6 +200,7 @@ bool
 *
 aBp
 )
+const
 MOZ_OVERRIDE
 ;
 virtual
@@ -218,6 +223,7 @@ bool
 *
 aIsExtensible
 )
+const
 MOZ_OVERRIDE
 {
 *
@@ -248,6 +254,7 @@ JSObject
 >
 aProxy
 )
+const
 MOZ_OVERRIDE
 {
 return

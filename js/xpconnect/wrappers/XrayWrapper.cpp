@@ -844,6 +844,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -1156,6 +1157,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -1230,6 +1232,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -1254,6 +1257,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -1432,6 +1436,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -1525,6 +1530,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -1549,6 +1555,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -1676,6 +1683,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -1765,6 +1773,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -1854,6 +1863,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -2676,6 +2686,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -7636,6 +7647,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -8069,6 +8081,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -8833,6 +8846,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -8981,6 +8995,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -9200,6 +9215,7 @@ resolveOwnProperty
 JSContext
 *
 cx
+const
 Wrapper
 &
 jsWrapper
@@ -9720,6 +9736,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -9867,6 +9884,7 @@ JS
 CallArgs
 &
 args
+const
 js
 :
 :
@@ -11087,6 +11105,7 @@ bool
 *
 extensible
 )
+const
 {
 *
 extensible
@@ -11120,6 +11139,7 @@ cx
 HandleObject
 wrapper
 )
+const
 {
 JS_ReportErrorNumber
 (
@@ -11166,6 +11186,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 assertEnteredPolicy
 (
@@ -11749,6 +11770,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 assertEnteredPolicy
 (
@@ -12195,6 +12217,7 @@ JSPropertyDescriptor
 >
 desc
 )
+const
 {
 assertEnteredPolicy
 (
@@ -12494,6 +12517,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 assertEnteredPolicy
 (
@@ -12546,6 +12570,7 @@ bool
 *
 bp
 )
+const
 {
 assertEnteredPolicy
 (
@@ -12653,6 +12678,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 assertEnteredPolicy
 (
@@ -12799,6 +12825,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 return
 enumerate
@@ -12839,6 +12866,7 @@ id
 MutableHandleValue
 vp
 )
+const
 {
 return
 js
@@ -12895,6 +12923,7 @@ strict
 MutableHandleValue
 vp
 )
+const
 {
 return
 Traits
@@ -12946,6 +12975,7 @@ bool
 *
 bp
 )
+const
 {
 return
 js
@@ -12991,6 +13021,7 @@ bool
 *
 bp
 )
+const
 {
 return
 js
@@ -13034,6 +13065,7 @@ AutoIdVector
 &
 props
 )
+const
 {
 return
 js
@@ -13077,6 +13109,7 @@ flags
 MutableHandleValue
 vp
 )
+const
 {
 return
 js
@@ -13124,6 +13157,7 @@ CallArgs
 &
 args
 )
+const
 {
 assertEnteredPolicy
 (
@@ -13145,13 +13179,6 @@ call
 cx
 wrapper
 args
-(
-js
-:
-:
-Wrapper
-&
-)
 Base
 :
 :
@@ -13189,6 +13216,7 @@ CallArgs
 &
 args
 )
+const
 {
 assertEnteredPolicy
 (
@@ -13210,13 +13238,6 @@ construct
 cx
 wrapper
 args
-(
-js
-:
-:
-Wrapper
-&
-)
 Base
 :
 :
@@ -13251,6 +13272,7 @@ hint
 MutableHandleValue
 vp
 )
+const
 {
 return
 js
@@ -13296,6 +13318,7 @@ JS
 MutableHandleObject
 protop
 )
+const
 {
 if
 (
@@ -13444,6 +13467,7 @@ bool
 *
 bp
 )
+const
 {
 if
 (
