@@ -1626,8 +1626,11 @@ JS_ASSERT
 (
 !
 comp
--
->
+.
+ref
+(
+)
+.
 done
 (
 )
