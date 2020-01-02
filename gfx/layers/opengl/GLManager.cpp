@@ -210,6 +210,13 @@ BindAndDrawQuad
 ShaderProgramOGL
 *
 aProg
+const
+gfx
+:
+:
+Rect
+&
+aRect
 )
 MOZ_OVERRIDE
 {
@@ -219,6 +226,7 @@ mImpl
 BindAndDrawQuad
 (
 aProg
+aRect
 )
 ;
 }

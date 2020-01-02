@@ -110,6 +110,13 @@ BindAndDrawQuad
 ShaderProgramOGL
 *
 aProg
+const
+gfx
+:
+:
+Rect
+&
+aRect
 )
 =
 0

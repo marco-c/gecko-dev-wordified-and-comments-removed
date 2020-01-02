@@ -1357,6 +1357,13 @@ BindAndDrawQuad
 ShaderProgramOGL
 *
 aProg
+const
+gfx
+:
+:
+Rect
+&
+aRect
 )
 ;
 void
@@ -1365,6 +1372,13 @@ BindAndDrawQuadWithTextureRect
 ShaderProgramOGL
 *
 aProg
+const
+gfx
+:
+:
+Rect
+&
+aRect
 const
 gfx3DMatrix
 &
