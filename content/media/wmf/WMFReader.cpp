@@ -3059,6 +3059,7 @@ forget
 (
 )
 mAudioChannels
+mAudioRate
 )
 )
 ;

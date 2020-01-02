@@ -180,6 +180,8 @@ AudioDataValue
 aData
 uint32_t
 aChannels
+uint32_t
+aRate
 )
 :
 MediaData
@@ -196,6 +198,10 @@ aFrames
 mChannels
 (
 aChannels
+)
+mRate
+(
+aRate
 )
 mAudioData
 (
@@ -239,6 +245,10 @@ mFrames
 const
 uint32_t
 mChannels
+;
+const
+uint32_t
+mRate
 ;
 nsRefPtr
 <

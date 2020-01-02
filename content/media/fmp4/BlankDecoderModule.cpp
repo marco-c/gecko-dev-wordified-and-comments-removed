@@ -881,6 +881,7 @@ value
 )
 samples
 mChannelCount
+mSampleRate
 )
 ;
 }
