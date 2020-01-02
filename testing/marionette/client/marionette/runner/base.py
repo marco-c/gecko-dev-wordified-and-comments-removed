@@ -4816,6 +4816,12 @@ timeout
 self
 .
 timeout
+                                             
+device_serial
+=
+self
+.
+device_serial
 )
             
 else
@@ -4849,6 +4855,12 @@ timeout
 self
 .
 timeout
+                                             
+device_serial
+=
+self
+.
+device_serial
 )
         
 elif
@@ -4937,6 +4949,12 @@ sdcard
 self
 .
 sdcard
+                                         
+device_serial
+=
+self
+.
+device_serial
 )
         
 else
