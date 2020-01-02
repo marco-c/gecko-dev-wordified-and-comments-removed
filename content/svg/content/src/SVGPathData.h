@@ -573,14 +573,14 @@ mData
 }
 ;
 class
-SVGPathDataAndOwner
+SVGPathDataAndInfo
 :
 public
 SVGPathData
 {
 public
 :
-SVGPathDataAndOwner
+SVGPathDataAndInfo
 (
 nsSVGElement
 *
@@ -665,7 +665,7 @@ nsresult
 CopyFrom
 (
 const
-SVGPathDataAndOwner
+SVGPathDataAndInfo
 &
 rhs
 )
