@@ -892,7 +892,6 @@ obj
 id
 &
 found
-0
 )
 )
 return
@@ -926,7 +925,6 @@ obj
 id
 &
 found
-0
 )
 )
 return
@@ -959,7 +957,6 @@ obj
 id
 &
 found
-0
 )
 )
 return
@@ -1022,7 +1019,6 @@ obj
 id
 &
 found
-0
 )
 )
 return

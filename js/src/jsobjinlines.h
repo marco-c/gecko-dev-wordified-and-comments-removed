@@ -3442,8 +3442,6 @@ id
 bool
 *
 foundp
-unsigned
-flags
 )
 {
 JS
@@ -3462,13 +3460,6 @@ RootedShape
 prop
 (
 cx
-)
-;
-JSAutoResolveFlags
-rf
-(
-cx
-flags
 )
 ;
 if

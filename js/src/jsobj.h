@@ -3921,10 +3921,6 @@ id
 bool
 *
 foundp
-unsigned
-flags
-=
-0
 )
 ;
 static
