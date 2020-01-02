@@ -13991,7 +13991,9 @@ if
 gfxUtils
 :
 :
-sDumpPaintList
+DumpPaintList
+(
+)
 |
 |
 gfxUtils
@@ -14385,7 +14387,9 @@ if
 gfxUtils
 :
 :
-sDumpPaintList
+DumpPaintList
+(
+)
 |
 |
 gfxUtils

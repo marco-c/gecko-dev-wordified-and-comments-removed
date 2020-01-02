@@ -538,7 +538,9 @@ aDT
 ;
 static
 bool
-sDumpPaintList
+DumpPaintList
+(
+)
 ;
 static
 bool
