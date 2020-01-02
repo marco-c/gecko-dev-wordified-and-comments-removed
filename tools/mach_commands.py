@@ -3093,12 +3093,6 @@ clang_format_diff
 -
 p1
 "
-"
--
-style
-=
-Mozilla
-"
 ]
         
 if
