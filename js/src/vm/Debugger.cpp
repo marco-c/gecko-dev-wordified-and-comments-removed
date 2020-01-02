@@ -13544,6 +13544,15 @@ script
 selfHosted
 (
 )
+|
+|
+!
+script
+-
+>
+code
+(
+)
 )
 return
 ;
