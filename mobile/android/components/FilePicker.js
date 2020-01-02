@@ -1106,12 +1106,7 @@ androidBridge
 .
 handleGeckoMessage
 (
-JSON
-.
-stringify
-(
 aMsg
-)
 )
 ;
 }

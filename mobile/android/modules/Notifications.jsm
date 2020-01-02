@@ -744,12 +744,7 @@ androidBridge
 .
 handleGeckoMessage
 (
-JSON
-.
-stringify
-(
 msg
-)
 )
 ;
 return
@@ -786,12 +781,7 @@ androidBridge
 .
 handleGeckoMessage
 (
-JSON
-.
-stringify
-(
 msg
-)
 )
 ;
 }
