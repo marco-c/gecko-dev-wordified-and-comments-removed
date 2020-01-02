@@ -340,9 +340,7 @@ x20NT
 x206
 \
 .
-[
-12
-]
+1
 /
 .
 test
@@ -368,15 +366,6 @@ html
 ref
 .
 html
-#
-Mac
-page
-shadow
-drawing
-;
-Windows
-bug
-791480
 =
 =
 820496
