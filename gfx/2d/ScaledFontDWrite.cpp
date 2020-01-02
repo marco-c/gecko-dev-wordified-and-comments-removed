@@ -1298,6 +1298,9 @@ aBuffer
 PathBuilder
 *
 aBuilder
+const
+Matrix
+*
 )
 {
 PathBuilderD2D

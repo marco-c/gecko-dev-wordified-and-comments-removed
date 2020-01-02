@@ -106,6 +106,10 @@ aBuffer
 PathBuilder
 *
 aBuilder
+const
+Matrix
+*
+aTransformHint
 )
 ;
 virtual

@@ -10962,6 +10962,16 @@ EnsurePathBuilder
 (
 )
 ;
+Matrix
+mat
+=
+aDT
+-
+>
+GetTransform
+(
+)
+;
 aFont
 -
 >
@@ -10972,6 +10982,8 @@ aThebesContext
 -
 >
 mPathBuilder
+&
+mat
 )
 ;
 }

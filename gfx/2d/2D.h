@@ -1261,6 +1261,12 @@ aBuffer
 PathBuilder
 *
 aBuilder
+const
+Matrix
+*
+aTransformHint
+=
+nullptr
 )
 =
 0
