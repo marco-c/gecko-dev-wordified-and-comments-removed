@@ -16866,6 +16866,14 @@ test
 "
 GNU_CC
 "
+-
+a
+"
+OS_TARGET
+"
+!
+=
+WINNT
 ;
 then
 AC_DEFINE
