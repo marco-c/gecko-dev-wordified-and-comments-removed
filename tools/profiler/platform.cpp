@@ -3119,6 +3119,17 @@ privacy
 "
 mainthreadio
 "
+#
+if
+defined
+(
+XP_WIN
+)
+"
+power
+"
+#
+endif
 NULL
 }
 ;

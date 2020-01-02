@@ -395,6 +395,11 @@ SOURCES
 =
 [
 '
+IntelPowerGadget
+.
+cpp
+'
+'
 platform
 -
 win32
