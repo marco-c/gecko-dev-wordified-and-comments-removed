@@ -872,7 +872,7 @@ aFrameItems
 ;
 nsIFrame
 *
-ConstructTableRow
+ConstructTableRowOrRowGroup
 (
 nsFrameConstructorState
 &
