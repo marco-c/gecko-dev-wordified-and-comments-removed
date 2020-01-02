@@ -1334,12 +1334,7 @@ mInfo
 *
 aTags
 =
-mDemuxer
--
->
-GetTags
-(
-)
+nullptr
 ;
 return
 NS_OK
