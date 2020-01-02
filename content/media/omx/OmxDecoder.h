@@ -768,7 +768,7 @@ ReleaseDecoder
 (
 )
 ;
-void
+bool
 NotifyDataArrived
 (
 const
