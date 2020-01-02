@@ -14,6 +14,7 @@ h
 "
 static
 nsresult
+ATTRIBUTE_USED
 PrepareAndDispatch
 (
 nsXPTCStubBase

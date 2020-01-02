@@ -41,6 +41,12 @@ extern
 C
 "
 nsresult
+__attribute__
+(
+(
+__used__
+)
+)
 PrepareAndDispatch
 (
 nsXPTCStubBase
