@@ -534,7 +534,9 @@ false
 this
 )
 ;
-AsyncShutdown
+OS
+.
+File
 .
 profileBeforeChange
 .
@@ -560,6 +562,13 @@ CrashMonitorInternal
 profileBeforeChangeDeferred
 .
 promise
+(
+)
+=
+>
+this
+.
+checkpoints
 )
 ;
 CrashMonitorInternal
