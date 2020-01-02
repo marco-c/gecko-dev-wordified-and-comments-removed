@@ -53,12 +53,6 @@ float
 sampFactor
 ;
 short
-autoOnOff
-;
-short
-activity
-;
-short
 skewMode
 ;
 int
@@ -95,7 +89,7 @@ int
 timeForDelayChange
 ;
 int
-ECstartup
+startup_phase
 ;
 int
 checkBuffSize
@@ -146,6 +140,9 @@ far_pre_buf
 ;
 int
 lastError
+;
+int
+farend_started
 ;
 AecCore
 *
