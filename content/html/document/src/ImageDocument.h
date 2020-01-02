@@ -327,11 +327,6 @@ GetZoomLevel
 (
 )
 ;
-void
-UpdateSizeFromLayout
-(
-)
-;
 enum
 eModeClasses
 {
