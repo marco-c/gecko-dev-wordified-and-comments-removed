@@ -1029,6 +1029,14 @@ lir
 )
 ;
 bool
+visitSetArrayLength
+(
+LSetArrayLength
+*
+lir
+)
+;
+bool
 visitTypedArrayLength
 (
 LTypedArrayLength

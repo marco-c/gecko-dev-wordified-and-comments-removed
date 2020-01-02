@@ -1151,6 +1151,14 @@ ins
 )
 ;
 bool
+visitSetArrayLength
+(
+MSetArrayLength
+*
+ins
+)
+;
+bool
 visitTypedArrayLength
 (
 MTypedArrayLength

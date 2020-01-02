@@ -1143,6 +1143,11 @@ ArrayLength
 \
 _
 (
+SetArrayLength
+)
+\
+_
+(
 TypedArrayLength
 )
 \

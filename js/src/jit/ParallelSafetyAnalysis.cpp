@@ -1014,6 +1014,11 @@ SAFE_OP
 (
 ArrayLength
 )
+WRITE_GUARDED_OP
+(
+SetArrayLength
+elements
+)
 SAFE_OP
 (
 TypedArrayLength
