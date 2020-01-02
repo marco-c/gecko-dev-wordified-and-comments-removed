@@ -3648,7 +3648,9 @@ GetIonContext
 compartment
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 )
 jump
 (

@@ -5848,7 +5848,9 @@ compartment
 )
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 )
 &
 &
@@ -5896,7 +5898,7 @@ compartment
 )
 -
 >
-objectMetadataCallback
+callObjectMetadataCallback
 (
 cx
 pmetadata

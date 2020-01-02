@@ -7157,7 +7157,9 @@ compartment
 )
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 &
 &
 (
@@ -7517,7 +7519,9 @@ compartment
 )
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 )
 {
 if
@@ -7836,7 +7840,9 @@ compartment
 )
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 )
 {
 if

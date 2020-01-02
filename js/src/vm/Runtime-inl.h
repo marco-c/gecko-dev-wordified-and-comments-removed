@@ -198,7 +198,9 @@ compartment
 )
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 )
 ;
 JS_ASSERT

@@ -15062,7 +15062,9 @@ compartment
 )
 -
 >
-objectMetadataCallback
+hasObjectMetadataCallback
+(
+)
 &
 &
 cache
