@@ -14,7 +14,9 @@ h
 #
 include
 "
-nscore
+mozilla
+/
+Attributes
 .
 h
 "

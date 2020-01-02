@@ -7,7 +7,7 @@ nsContentCreatorFunctions_h__
 #
 include
 "
-nscore
+nsError
 .
 h
 "

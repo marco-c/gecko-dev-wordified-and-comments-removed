@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

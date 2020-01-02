@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLAudioElement
 .
 h
@@ -49,6 +42,9 @@ TypedArray
 .
 h
 "
+class
+nsITimer
+;
 typedef
 uint16_t
 nsMediaNetworkState

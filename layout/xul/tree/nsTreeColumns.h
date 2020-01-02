@@ -55,6 +55,13 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsTreeBodyFrame
 ;
