@@ -1560,6 +1560,10 @@ GetWrapperCache
 aObject
 )
 )
+mUseXBLScope
+(
+false
+)
 {
 }
 template
@@ -1603,6 +1607,10 @@ get
 )
 )
 )
+mUseXBLScope
+(
+false
+)
 {
 }
 ParentObject
@@ -1623,6 +1631,10 @@ mWrapperCache
 (
 aCache
 )
+mUseXBLScope
+(
+false
+)
 {
 }
 nsISupports
@@ -1634,6 +1646,9 @@ nsWrapperCache
 *
 const
 mWrapperCache
+;
+bool
+mUseXBLScope
 ;
 }
 ;

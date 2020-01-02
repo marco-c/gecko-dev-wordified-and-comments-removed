@@ -2580,8 +2580,13 @@ ErrorResult
 rv
 )
 ;
-nsINode
-*
+mozilla
+:
+:
+dom
+:
+:
+ParentObject
 GetParentObject
 (
 )
@@ -2601,7 +2606,10 @@ parent
 )
 {
 return
+GetParentObjectInternal
+(
 parent
+)
 ;
 }
 return
