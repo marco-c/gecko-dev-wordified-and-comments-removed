@@ -20,6 +20,14 @@ SpeechSynthesis
 h
 "
 #
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
+#
 undef
 LOG
 #

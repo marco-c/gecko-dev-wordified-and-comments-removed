@@ -44,6 +44,14 @@ mozilla
 {
 #
 ifdef
+LOG
+#
+undef
+LOG
+#
+endif
+#
+ifdef
 PR_LOGGING
 extern
 PRLogModuleInfo

@@ -128,7 +128,7 @@ TrackMetadataBase
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -161,7 +161,7 @@ OpusTrackEncoder
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
