@@ -1315,11 +1315,6 @@ name
 else
 :
         
-print
-tu
-.
-filetype
-        
 assert
 tu
 .
