@@ -1604,9 +1604,7 @@ runtime
 )
 -
 >
-gc
-.
-helperThread
+gcHelperThread
 .
 waitBackgroundSweepEnd
 (
@@ -6579,9 +6577,7 @@ runtime
 )
 -
 >
-gc
-.
-isNeeded
+gcIsNeeded
 )
 ;
 if

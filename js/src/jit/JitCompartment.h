@@ -1623,9 +1623,7 @@ MAX_PARALLEL_AGE
 rt
 -
 >
-gc
-.
-shouldCleanUpEverything
+gcShouldCleanUpEverything
 ;
 }
 #

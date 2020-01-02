@@ -2832,9 +2832,7 @@ runtime
 )
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putWholeCell
 (
@@ -2918,9 +2916,7 @@ runtime
 )
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putWholeCell
 (
@@ -3639,9 +3635,7 @@ obj
 rt
 -
 >
-gc
-.
-storeBuffer
+gcStoreBuffer
 .
 putWholeCell
 (

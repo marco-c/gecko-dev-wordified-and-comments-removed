@@ -390,9 +390,7 @@ isShutdown
 rt
 -
 >
-gc
-.
-verifyPreData
+gcVerifyPreData
 ;
 restartPostVerifier
 =
@@ -403,9 +401,7 @@ isShutdown
 rt
 -
 >
-gc
-.
-verifyPostData
+gcVerifyPostData
 &
 &
 JS
@@ -421,9 +417,7 @@ if
 rt
 -
 >
-gc
-.
-verifyPreData
+gcVerifyPreData
 )
 EndVerifyPreBarriers
 (
@@ -435,9 +429,7 @@ if
 rt
 -
 >
-gc
-.
-verifyPostData
+gcVerifyPostData
 )
 EndVerifyPostBarriers
 (
