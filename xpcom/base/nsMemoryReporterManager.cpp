@@ -108,6 +108,12 @@ defined
 (
 __FreeBSD__
 )
+|
+|
+defined
+(
+XP_MACOSX
+)
 #
 include
 "
@@ -4278,6 +4284,12 @@ XP_LINUX
 defined
 (
 __FreeBSD__
+)
+|
+|
+defined
+(
+XP_MACOSX
 )
 nsMemoryInfoDumper
 :
