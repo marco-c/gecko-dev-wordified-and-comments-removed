@@ -460,7 +460,7 @@ installAppFromOwnOrigin
 next
 )
 {
-confirmNextInstall
+confirmNextPopup
 (
 )
 ;
@@ -890,6 +890,10 @@ uninstall
 next
 )
 {
+confirmNextPopup
+(
+)
+;
 navigator
 .
 mozApps
@@ -908,6 +912,10 @@ onUninstallApp1
 (
 )
 {
+confirmNextPopup
+(
+)
+;
 navigator
 .
 mozApps

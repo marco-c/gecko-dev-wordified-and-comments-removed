@@ -737,7 +737,7 @@ Applications
 )
 ;
 }
-confirmNextInstall
+confirmNextPopup
 (
 )
 ;
@@ -920,7 +920,7 @@ fails
 "
 )
 ;
-confirmNextInstall
+confirmNextPopup
 (
 )
 ;

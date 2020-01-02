@@ -100,7 +100,7 @@ next
 ;
 }
 function
-confirmNextInstall
+confirmNextPopup
 (
 )
 {
@@ -112,7 +112,7 @@ SpecialPowers
 Ci
 ;
 var
-popupPanel
+popupNotifications
 =
 SpecialPowers
 .
@@ -151,6 +151,11 @@ ownerDocument
 defaultView
 .
 PopupNotifications
+;
+var
+popupPanel
+=
+popupNotifications
 .
 panel
 ;
@@ -185,6 +190,12 @@ childNodes
 button
 .
 doCommand
+(
+)
+;
+popupNotifications
+.
+_dismiss
 (
 )
 ;

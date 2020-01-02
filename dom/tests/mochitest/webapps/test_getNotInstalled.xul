@@ -730,7 +730,7 @@ installApp
 next
 )
 {
-confirmNextInstall
+confirmNextPopup
 (
 )
 ;
@@ -762,6 +762,7 @@ next
 )
 ;
 }
+;
 }
 /
 /
@@ -1096,6 +1097,10 @@ uninstallApp
 next
 )
 {
+confirmNextPopup
+(
+)
+;
 window
 .
 navigator

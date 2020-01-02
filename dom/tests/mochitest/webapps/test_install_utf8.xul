@@ -296,7 +296,7 @@ utf8
 webapp
 "
 ;
-confirmNextInstall
+confirmNextPopup
 (
 )
 ;
@@ -359,6 +359,10 @@ manifest
 .
 description
 "
+)
+;
+confirmNextPopup
+(
 )
 ;
 navigator

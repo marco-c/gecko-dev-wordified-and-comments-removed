@@ -418,7 +418,7 @@ fuzzySpan
 =
 250
 ;
-confirmNextInstall
+confirmNextPopup
 (
 )
 ;
@@ -749,6 +749,10 @@ uninstall
 next
 )
 {
+confirmNextPopup
+(
+)
+;
 navigator
 .
 mozApps

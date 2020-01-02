@@ -3594,7 +3594,7 @@ available
 ;
 }
 function
-confirmNextInstall
+confirmNextPopup
 (
 )
 {

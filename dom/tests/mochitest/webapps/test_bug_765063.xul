@@ -461,7 +461,7 @@ confirm
 the
 install
 .
-confirmNextInstall
+confirmNextPopup
 (
 )
 ;
