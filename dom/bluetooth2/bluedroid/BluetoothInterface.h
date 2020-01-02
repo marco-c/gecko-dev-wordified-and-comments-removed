@@ -490,7 +490,7 @@ BluetoothHandsfreeResultHandler
 aRes
 )
 ;
-bt_status_t
+void
 DeviceStatusNotification
 (
 bthf_network_state_t
@@ -501,6 +501,9 @@ int
 aSignal
 int
 aBattChg
+BluetoothHandsfreeResultHandler
+*
+aRes
 )
 ;
 bt_status_t
