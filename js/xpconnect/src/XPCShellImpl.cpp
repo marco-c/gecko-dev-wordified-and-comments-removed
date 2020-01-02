@@ -6074,8 +6074,11 @@ e
 '
 :
 {
-jsval
+RootedValue
 rval
+(
+cx
+)
 ;
 if
 (
@@ -6114,8 +6117,11 @@ i
 e
 "
 1
-&
 rval
+.
+address
+(
+)
 )
 ;
 isInteractive

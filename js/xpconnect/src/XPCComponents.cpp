@@ -14242,8 +14242,11 @@ isObject
 )
 )
 {
-Value
+RootedValue
 ignored
+(
+aCx
+)
 ;
 if
 (
@@ -14259,8 +14262,11 @@ globalVal
 address
 (
 )
-&
 ignored
+.
+address
+(
+)
 )
 )
 return
