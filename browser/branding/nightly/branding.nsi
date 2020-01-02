@@ -122,7 +122,7 @@ modified
 define
 BrandFullNameInternal
 "
-UX
+Nightly
 "
 !
 define
