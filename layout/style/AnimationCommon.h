@@ -1634,7 +1634,6 @@ nsIFrame
 aFrame
 )
 ;
-virtual
 bool
 CanPerformOnCompositorThread
 (
@@ -1642,8 +1641,6 @@ CanAnimateFlags
 aFlags
 )
 const
-=
-0
 ;
 bool
 HasAnimationOfProperty

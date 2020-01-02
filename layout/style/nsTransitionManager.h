@@ -143,16 +143,6 @@ TimeStamp
 aNow
 )
 ;
-virtual
-bool
-CanPerformOnCompositorThread
-(
-CanAnimateFlags
-aFlags
-)
-const
-MOZ_OVERRIDE
-;
 }
 ;
 class
