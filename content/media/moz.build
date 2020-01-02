@@ -604,11 +604,6 @@ AudioSegment
 cpp
 '
 '
-AudioSink
-.
-cpp
-'
-'
 AudioStream
 .
 cpp
