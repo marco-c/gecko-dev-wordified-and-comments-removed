@@ -774,6 +774,14 @@ dataOffset
 #
 ifdef
 CHECK_OSIPOINT_REGISTERS
+void
+resetOsiPointRegs
+(
+LSafepoint
+*
+safepoint
+)
+;
 bool
 shouldVerifyOsiPointRegs
 (
