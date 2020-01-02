@@ -350,15 +350,9 @@ public
 :
 CallSetup
 (
-JS
-:
-:
-Handle
-<
-JSObject
+CallbackObject
 *
->
-aCallable
+aCallback
 ErrorResult
 &
 aRv
