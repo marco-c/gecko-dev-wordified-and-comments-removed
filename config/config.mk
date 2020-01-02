@@ -1498,6 +1498,7 @@ LIB_SUFFIX
 ifdef
 _MSC_VER
 CC_WRAPPER
+?
 =
 (
 call
@@ -1505,6 +1506,7 @@ py_action
 cl
 )
 CXX_WRAPPER
+?
 =
 (
 call
