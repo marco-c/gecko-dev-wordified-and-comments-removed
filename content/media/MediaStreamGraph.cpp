@@ -10410,6 +10410,14 @@ mDelta
 ;
 }
 ;
+if
+(
+mMainThreadDestroyed
+)
+{
+return
+;
+}
 GraphImpl
 (
 )
