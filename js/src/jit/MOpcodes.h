@@ -494,11 +494,6 @@ Start
 \
 _
 (
-PcOffset
-)
-\
-_
-(
 OsrEntry
 )
 \
