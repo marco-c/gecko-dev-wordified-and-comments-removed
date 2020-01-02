@@ -137,6 +137,11 @@ dom
 =
 [
 '
+PointerEvent
+.
+h
+'
+'
 Touch
 .
 h
@@ -345,6 +350,11 @@ cpp
 '
 '
 nsPrivateTextRange
+.
+cpp
+'
+'
+PointerEvent
 .
 cpp
 '
