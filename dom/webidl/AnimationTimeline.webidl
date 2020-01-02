@@ -165,8 +165,6 @@ enabled
 interface
 AnimationTimeline
 {
-/
-/
 readonly
 attribute
 double
