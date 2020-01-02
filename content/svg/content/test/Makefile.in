@@ -301,10 +301,6 @@ test_selectSubString
 .
 xhtml
 \
-test_selectSubString2
-.
-xhtml
-\
 selectSubString
 -
 helper
