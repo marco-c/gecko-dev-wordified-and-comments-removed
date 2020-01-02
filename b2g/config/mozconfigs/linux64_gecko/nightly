@@ -155,7 +155,9 @@ as
 errors
 #
 Use
-ccache
+sccache
+no_sccache
+=
 .
 "
 topsrcdir

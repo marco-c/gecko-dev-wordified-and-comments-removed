@@ -1,6 +1,9 @@
 no_tooltool
 =
 1
+no_sccache
+=
+1
 ac_add_options
 -
 -
