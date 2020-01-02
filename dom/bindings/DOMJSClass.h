@@ -377,7 +377,7 @@ staticMethodIds
 const
 JSFunctionSpec
 *
-staticMethodsSpecs
+staticMethodSpecs
 ;
 const
 Prefable
@@ -413,7 +413,7 @@ methodIds
 const
 JSFunctionSpec
 *
-methodsSpecs
+methodSpecs
 ;
 const
 Prefable

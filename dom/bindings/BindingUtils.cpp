@@ -5576,7 +5576,7 @@ methodIds
 const
 JSFunctionSpec
 *
-methodsSpecs
+methodSpecs
 JS
 :
 :
@@ -5632,7 +5632,7 @@ method
 >
 specs
 -
-methodsSpecs
+methodSpecs
 ;
 for
 (
@@ -5666,7 +5666,7 @@ JSFunctionSpec
 &
 methodSpec
 =
-methodsSpecs
+methodSpecs
 [
 i
 ]
@@ -6084,7 +6084,7 @@ methodIds
 const
 JSFunctionSpec
 *
-methodsSpecs
+methodSpecs
 ;
 if
 (
@@ -6108,12 +6108,12 @@ nativeProperties
 >
 staticMethodIds
 ;
-methodsSpecs
+methodSpecs
 =
 nativeProperties
 -
 >
-staticMethodsSpecs
+staticMethodSpecs
 ;
 }
 else
@@ -6132,12 +6132,12 @@ nativeProperties
 >
 methodIds
 ;
-methodsSpecs
+methodSpecs
 =
 nativeProperties
 -
 >
-methodsSpecs
+methodSpecs
 ;
 }
 if
@@ -6156,7 +6156,7 @@ obj
 id
 methods
 methodIds
-methodsSpecs
+methodSpecs
 desc
 )
 )
@@ -7282,7 +7282,7 @@ staticMethodIds
 nativeProperties
 -
 >
-staticMethodsSpecs
+staticMethodSpecs
 flags
 props
 )
@@ -7320,7 +7320,7 @@ methodIds
 nativeProperties
 -
 >
-methodsSpecs
+methodSpecs
 flags
 props
 )
