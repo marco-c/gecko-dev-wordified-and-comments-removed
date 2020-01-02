@@ -7735,6 +7735,11 @@ uninstallAddon
 EXPERIMENT1_ID
 )
 ;
+yield
+experiments
+.
+_mainTask
+;
 Assert
 .
 ok
