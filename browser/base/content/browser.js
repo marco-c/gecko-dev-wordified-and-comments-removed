@@ -6140,12 +6140,6 @@ SetClickAndHoldHandlers
 (
 )
 ;
-if
-(
-!
-gMultiProcessBrowser
-)
-{
 let
 NP
 =
@@ -6178,7 +6172,6 @@ trackBrowserWindow
 window
 )
 ;
-}
 PlacesToolbarHelper
 .
 init
