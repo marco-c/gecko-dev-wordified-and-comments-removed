@@ -367,7 +367,7 @@ false
 var
 DEBUG_AUS_TEST
 =
-false
+true
 ;
 #
 include
