@@ -1247,6 +1247,17 @@ dstKind
 )
 ;
 void
+forwardTypedArrayPointers
+(
+JSObject
+*
+dst
+JSObject
+*
+src
+)
+;
+void
 setSlotsForwardingPointer
 (
 HeapSlot
