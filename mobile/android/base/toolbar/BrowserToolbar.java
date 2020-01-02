@@ -2395,9 +2395,14 @@ START
 updateProgressVisibility
 (
 tab
-0
+Tab
+.
+LOAD_PROGRESS_INIT
 )
 ;
+case
+ADDED
+:
 case
 LOCATION_CHANGE
 :
