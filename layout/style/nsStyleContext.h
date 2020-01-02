@@ -873,6 +873,12 @@ int32_t
 aIndent
 )
 ;
+static
+void
+AssertStyleStructMaxDifferenceValid
+(
+)
+;
 #
 endif
 protected
