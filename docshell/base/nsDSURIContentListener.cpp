@@ -428,6 +428,11 @@ Cancel
 rv
 )
 ;
+*
+aAbortProcess
+=
+true
+;
 return
 NS_OK
 ;
@@ -440,8 +445,13 @@ rv
 )
 )
 {
+*
+aContentHandler
+=
+nullptr
+;
 return
-NS_OK
+rv
 ;
 }
 if
