@@ -282,6 +282,16 @@ fling_stopped_threshold
 pref
 (
 "
+apzc
+.
+axis_lock_mode
+"
+1
+)
+;
+pref
+(
+"
 intl
 .
 enable_tsf_support
