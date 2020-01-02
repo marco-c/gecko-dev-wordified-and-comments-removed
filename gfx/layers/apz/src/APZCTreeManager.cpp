@@ -801,17 +801,6 @@ GetTransform
 (
 )
 ;
-ContainerLayer
-*
-container
-=
-aLayer
--
->
-AsContainerLayer
-(
-)
-;
 AsyncPanZoomController
 *
 apzc
@@ -834,11 +823,6 @@ Name
 t
 '
 ;
-if
-(
-container
-)
-{
 const
 FrameMetrics
 &
@@ -893,7 +877,7 @@ get
 {
 apzc
 =
-container
+aLayer
 -
 >
 GetAsyncPanZoomController
@@ -1516,7 +1500,7 @@ GetZoomConstraints
 }
 }
 }
-container
+aLayer
 -
 >
 SetAsyncPanZoomController
@@ -1524,7 +1508,6 @@ SetAsyncPanZoomController
 apzc
 )
 ;
-}
 mApzcTreeLog
 <
 <
