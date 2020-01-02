@@ -2525,6 +2525,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+SurfaceMemoryReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

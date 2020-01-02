@@ -34,6 +34,12 @@ MOZ_FINAL
 public
 nsIFontEnumerator
 {
+~
+nsThebesFontEnumerator
+(
+)
+{
+}
 public
 :
 nsThebesFontEnumerator

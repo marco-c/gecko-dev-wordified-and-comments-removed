@@ -885,6 +885,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+gfxFontListPrefObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

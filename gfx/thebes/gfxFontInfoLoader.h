@@ -537,6 +537,8 @@ aLoader
 )
 {
 }
+protected
+:
 virtual
 ~
 ShutdownObserver
@@ -544,8 +546,6 @@ ShutdownObserver
 )
 {
 }
-protected
-:
 gfxFontInfoLoader
 *
 mLoader
