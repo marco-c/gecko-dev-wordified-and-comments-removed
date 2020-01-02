@@ -53,6 +53,15 @@ RequiredDefines
 h
 "
 #
+include
+"
+mozilla
+/
+Char16
+.
+h
+"
+#
 endif
 /
 *
