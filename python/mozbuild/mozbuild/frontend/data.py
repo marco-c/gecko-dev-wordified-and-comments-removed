@@ -386,6 +386,14 @@ sandbox
 OBJDIR
 '
 ]
+        
+self
+.
+config
+=
+sandbox
+.
+config
 class
 DirectoryTraversal
 (

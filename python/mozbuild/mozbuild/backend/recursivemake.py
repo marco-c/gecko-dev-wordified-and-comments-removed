@@ -2124,12 +2124,9 @@ srcdir
 obj
 .
 objdir
-self
-.
-get_environment
-(
 obj
-)
+.
+config
 )
         
 backend_file
@@ -4831,6 +4828,14 @@ environment
 .
 topobjdir
                 
+obj
+.
+config
+=
+bf
+.
+environment
+                
 self
 .
 _create_makefile
@@ -6865,6 +6870,14 @@ environment
 .
 topobjdir
         
+obj
+.
+config
+=
+self
+.
+environment
+        
 self
 .
 _create_makefile
@@ -7870,6 +7883,10 @@ topsrcdir
             
 '
 topobjdir
+'
+            
+'
+config
 '
         
 )

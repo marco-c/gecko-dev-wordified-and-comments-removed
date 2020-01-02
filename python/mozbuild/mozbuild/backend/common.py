@@ -1101,6 +1101,14 @@ _webidls
 WebIDLCollection
 (
 )
+        
+self
+.
+_configs
+=
+set
+(
+)
     
 def
 consume_object
@@ -1109,6 +1117,17 @@ self
 obj
 )
 :
+        
+self
+.
+_configs
+.
+add
+(
+obj
+.
+config
+)
         
 if
 isinstance
@@ -1498,6 +1517,25 @@ self
 _webidls
 )
         
+for
+config
+in
+self
+.
+_configs
+:
+            
+self
+.
+backend_input_files
+.
+add
+(
+config
+.
+source
+)
+        
 path
 =
 mozpath
@@ -1810,9 +1848,9 @@ name
 if
 name
 in
-self
+obj
 .
-environment
+config
 .
 defines
 :
@@ -1847,9 +1885,9 @@ value
 +
 str
 (
-self
+obj
 .
-environment
+config
 .
 defines
 [
@@ -1934,9 +1972,9 @@ name
 +
 str
 (
-self
+obj
 .
-environment
+config
 .
 defines
 [

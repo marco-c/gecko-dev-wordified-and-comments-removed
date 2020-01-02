@@ -4832,6 +4832,9 @@ self
 read_mozbuild
 (
 path
+self
+.
+config
 read_tiers
 =
 True
@@ -5003,6 +5006,9 @@ self
 read_mozbuild
 (
 path
+self
+.
+config
 descend
 =
 False
@@ -5024,13 +5030,14 @@ read_mozbuild
 (
 self
 path
+config
 read_tiers
 =
 False
+            
 filesystem_absolute
 =
 False
-            
 descend
 =
 True
@@ -5278,6 +5285,7 @@ self
 _read_mozbuild
 (
 path
+config
 read_tiers
 =
 read_tiers
@@ -5285,10 +5293,10 @@ read_tiers
 filesystem_absolute
 =
 filesystem_absolute
+                
 descend
 =
 descend
-                
 metadata
 =
 metadata
@@ -5457,10 +5465,11 @@ _read_mozbuild
 (
 self
 path
+config
 read_tiers
 filesystem_absolute
-descend
             
+descend
 metadata
 )
 :
@@ -5566,8 +5575,6 @@ sandbox
 =
 MozbuildSandbox
 (
-self
-.
 config
 path
 metadata
@@ -5800,7 +5807,7 @@ TOOL_DIRS
 ]
         
 if
-self
+sandbox
 .
 config
 .
@@ -6023,7 +6030,7 @@ gyp_sandbox
 in
 read_from_gyp
 (
-self
+sandbox
 .
 config
                                              
@@ -6423,7 +6430,7 @@ not
 is_read_allowed
 (
 child_path
-self
+sandbox
 .
 config
 )
@@ -6466,13 +6473,17 @@ self
 read_mozbuild
 (
 child_path
+sandbox
+.
+config
+                
 read_tiers
 =
 False
-                
 filesystem_absolute
 =
 True
+                
 metadata
 =
 child_metadata
