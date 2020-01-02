@@ -579,6 +579,13 @@ addScope
 .
 addItem
 (
+"
+"
+{
+enumerable
+:
+true
+}
 )
 .
 populate
