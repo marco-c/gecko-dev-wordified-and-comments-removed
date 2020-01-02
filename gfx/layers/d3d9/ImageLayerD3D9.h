@@ -97,7 +97,10 @@ IDirect3DTexture9
 >
 GetAsTexture
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 )

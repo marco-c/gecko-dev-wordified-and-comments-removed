@@ -107,7 +107,7 @@ data
 int
 stride
 const
-gfxIntSize
+IntSize
 &
 aSize
 )
@@ -221,7 +221,7 @@ gfxASurface
 *
 aSurface
 const
-gfxIntSize
+IntSize
 &
 aSize
 )
@@ -337,7 +337,10 @@ imageSurface
 new
 gfxImageSurface
 (
+ThebesIntSize
+(
 aSize
+)
 gfxImageFormatARGB32
 )
 ;
@@ -2491,7 +2494,10 @@ ImageLayerD3D10
 :
 GetAsTexture
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 *
 aSize
 )
