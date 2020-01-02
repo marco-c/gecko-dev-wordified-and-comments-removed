@@ -89,6 +89,10 @@ outbytes
 (
 0
 )
+initialized
+(
+false
+)
 {
 JS_ASSERT
 (
@@ -152,6 +156,11 @@ Compressor
 (
 )
 {
+if
+(
+initialized
+)
+{
 int
 ret
 =
@@ -197,6 +206,7 @@ zs
 avail_out
 )
 ;
+}
 }
 }
 bool
@@ -247,6 +257,10 @@ return
 false
 ;
 }
+initialized
+=
+true
+;
 return
 true
 ;
