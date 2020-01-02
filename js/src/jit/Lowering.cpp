@@ -12920,14 +12920,14 @@ bool
 LIRGenerator
 :
 :
-visitGuardThreadLocalObject
+visitGuardThreadExclusive
 (
-MGuardThreadLocalObject
+MGuardThreadExclusive
 *
 ins
 )
 {
-LGuardThreadLocalObject
+LGuardThreadExclusive
 *
 lir
 =
@@ -12937,7 +12937,7 @@ alloc
 (
 )
 )
-LGuardThreadLocalObject
+LGuardThreadExclusive
 (
 useFixed
 (

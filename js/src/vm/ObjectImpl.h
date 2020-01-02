@@ -7124,7 +7124,7 @@ shadowZone
 this
 -
 >
-shadowZone
+shadowZoneFromAnyThread
 (
 )
 ;

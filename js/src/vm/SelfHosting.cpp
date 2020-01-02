@@ -3568,6 +3568,17 @@ intrinsic_ParallelTestsShouldPass
 0
 0
 )
+JS_FNINFO
+(
+"
+SetForkJoinTargetRegion
+"
+intrinsic_SetForkJoinTargetRegion
+&
+intrinsic_SetForkJoinTargetRegionInfo
+2
+0
+)
 JS_FN
 (
 "

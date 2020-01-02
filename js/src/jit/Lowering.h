@@ -1036,9 +1036,9 @@ ins
 )
 ;
 bool
-visitGuardThreadLocalObject
+visitGuardThreadExclusive
 (
-MGuardThreadLocalObject
+MGuardThreadExclusive
 *
 ins
 )

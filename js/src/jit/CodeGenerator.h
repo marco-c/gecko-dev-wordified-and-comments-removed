@@ -1458,9 +1458,9 @@ lir
 )
 ;
 bool
-visitGuardThreadLocalObject
+visitGuardThreadExclusive
 (
-LGuardThreadLocalObject
+LGuardThreadExclusive
 *
 lir
 )

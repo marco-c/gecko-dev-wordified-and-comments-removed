@@ -8697,9 +8697,9 @@ bool
 CodeGenerator
 :
 :
-visitGuardThreadLocalObject
+visitGuardThreadExclusive
 (
-LGuardThreadLocalObject
+LGuardThreadExclusive
 *
 lir
 )
@@ -8781,7 +8781,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-IsThreadLocalObject
+ParallelWriteGuard
 )
 )
 ;

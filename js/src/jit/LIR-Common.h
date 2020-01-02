@@ -19720,7 +19720,7 @@ toRestPar
 }
 ;
 class
-LGuardThreadLocalObject
+LGuardThreadExclusive
 :
 public
 LCallInstructionHelper
@@ -19734,10 +19734,10 @@ public
 :
 LIR_HEADER
 (
-GuardThreadLocalObject
+GuardThreadExclusive
 )
 ;
-LGuardThreadLocalObject
+LGuardThreadExclusive
 (
 const
 LAllocation

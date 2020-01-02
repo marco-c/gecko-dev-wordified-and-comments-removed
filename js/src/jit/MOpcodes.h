@@ -1009,7 +1009,7 @@ ForkJoinSlice
 \
 _
 (
-GuardThreadLocalObject
+GuardThreadExclusive
 )
 \
 _
