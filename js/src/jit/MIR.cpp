@@ -15835,8 +15835,6 @@ if
 call
 -
 >
-operands_
-.
 init
 (
 alloc
