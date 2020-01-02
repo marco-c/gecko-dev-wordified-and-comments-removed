@@ -13252,8 +13252,10 @@ xpc_ForcePropertyResolve
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 jsid
 id
