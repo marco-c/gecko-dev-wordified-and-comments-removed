@@ -49,7 +49,7 @@ pm
 =
 Services
 .
-permissions
+perms
 ;
 let
 now
@@ -306,7 +306,7 @@ pm
 =
 Services
 .
-permissions
+perms
 ;
 this
 .
@@ -641,7 +641,7 @@ do_count_enumerator
 (
 Services
 .
-permissions
+perms
 .
 enumerator
 )

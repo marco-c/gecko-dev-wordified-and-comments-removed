@@ -49,7 +49,7 @@ pm
 =
 Services
 .
-permissions
+perms
 ;
 let
 permURI

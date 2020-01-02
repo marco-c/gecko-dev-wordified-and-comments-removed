@@ -60,7 +60,7 @@ pm
 =
 Services
 .
-permissions
+perms
 ;
 let
 perm

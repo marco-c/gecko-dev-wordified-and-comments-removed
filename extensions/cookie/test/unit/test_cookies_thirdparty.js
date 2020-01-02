@@ -461,7 +461,7 @@ ALLOW_FIRST_PARTY_ONLY
 ;
 Services
 .
-permissions
+perms
 .
 add
 (
@@ -756,7 +756,7 @@ LIMIT_THIRD_PARTY
 ;
 Services
 .
-permissions
+perms
 .
 add
 (

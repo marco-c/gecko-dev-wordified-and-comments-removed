@@ -30,7 +30,7 @@ pm
 =
 Services
 .
-permissions
+perms
 ;
 let
 principal
