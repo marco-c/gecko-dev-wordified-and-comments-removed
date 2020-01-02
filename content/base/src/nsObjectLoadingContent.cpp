@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsCxPusher
-.
-h
-"
-#
-include
-"
 nsDocShellCID
 .
 h
