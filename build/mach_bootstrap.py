@@ -1147,6 +1147,12 @@ context
 state_dir
 =
 state_dir
+        
+context
+.
+topdir
+=
+topsrcdir
     
 mach
 =
@@ -1156,7 +1162,11 @@ main
 .
 Mach
 (
-topsrcdir
+os
+.
+getcwd
+(
+)
 )
     
 mach

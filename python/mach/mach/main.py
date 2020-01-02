@@ -1671,11 +1671,6 @@ context
 =
 CommandContext
 (
-topdir
-=
-self
-.
-cwd
 cwd
 =
 self
