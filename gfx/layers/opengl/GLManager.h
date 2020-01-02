@@ -116,14 +116,7 @@ gfx
 :
 Rect
 &
-aLayerRect
-const
-gfx
-:
-:
-Rect
-&
-aTextureRect
+aRect
 )
 =
 0

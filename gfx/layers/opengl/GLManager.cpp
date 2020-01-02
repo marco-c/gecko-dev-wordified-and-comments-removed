@@ -216,14 +216,7 @@ gfx
 :
 Rect
 &
-aLayerRect
-const
-gfx
-:
-:
-Rect
-&
-aTextureRect
+aRect
 )
 MOZ_OVERRIDE
 {
@@ -233,8 +226,7 @@ mImpl
 BindAndDrawQuad
 (
 aProg
-aLayerRect
-aTextureRect
+aRect
 )
 ;
 }

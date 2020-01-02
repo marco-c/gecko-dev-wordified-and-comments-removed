@@ -56,6 +56,13 @@ h
 #
 include
 "
+VBOArena
+.
+h
+"
+#
+include
+"
 prio
 .
 h
