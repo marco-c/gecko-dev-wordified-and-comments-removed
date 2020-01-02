@@ -4611,7 +4611,7 @@ CustomizableUI
 TYPE_TOOLBAR
 )
 {
-areaNode
+aAreaNode
 .
 setAttribute
 (
