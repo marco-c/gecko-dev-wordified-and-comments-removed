@@ -831,6 +831,14 @@ talos_options
 -
 noChrome
 "
+"
+-
+-
+tppagecycles
+"
+"
+10
+"
 ]
 }
 "
