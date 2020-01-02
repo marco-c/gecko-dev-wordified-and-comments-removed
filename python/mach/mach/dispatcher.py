@@ -568,6 +568,9 @@ self
 _handle_main_help
 (
 parser
+namespace
+.
+verbose
 )
             
 sys
@@ -650,6 +653,9 @@ self
 _handle_main_help
 (
 parser
+namespace
+.
+verbose
 )
                 
 sys
@@ -884,6 +890,7 @@ _handle_main_help
 (
 self
 parser
+verbose
 )
 :
         
@@ -1149,12 +1156,19 @@ title
 description
 )
             
+if
+verbose
+=
+=
+True
+:
+                
 for
 c
 in
 disabled_commands
 :
-                
+                    
 group
 .
 add_argument
@@ -1173,7 +1187,7 @@ c
 description
 '
 ]
-                    
+                                       
 action
 =
 '
