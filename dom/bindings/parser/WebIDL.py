@@ -4782,6 +4782,14 @@ return
 not
 self
 .
+isJSImplemented
+(
+)
+and
+            
+not
+self
+.
 parent
 and
             
