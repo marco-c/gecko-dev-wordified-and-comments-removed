@@ -192,15 +192,11 @@ toolbar
 "
 ]
 )
-:
-not
-(
 [
 overflowedItem
 =
 true
 ]
-)
 )
 %
 define
