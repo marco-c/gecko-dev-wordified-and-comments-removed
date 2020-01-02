@@ -118,7 +118,7 @@ NSQ_sample_pair
 ]
 ;
 static
-inline
+OPUS_INLINE
 void
 silk_nsq_del_dec_scale_states
 (
@@ -179,7 +179,7 @@ decisionDelay
 )
 ;
 static
-inline
+OPUS_INLINE
 void
 silk_noise_shape_quantizer_del_dec
 (
@@ -1710,7 +1710,7 @@ RESTORE_STACK
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_noise_shape_quantizer_del_dec
 (
@@ -4103,7 +4103,7 @@ RESTORE_STACK
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_nsq_del_dec_scale_states
 (

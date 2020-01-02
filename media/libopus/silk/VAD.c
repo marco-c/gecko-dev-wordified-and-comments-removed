@@ -25,7 +25,7 @@ stack_alloc
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_VAD_GetNoiseLevels
 (
@@ -1323,7 +1323,7 @@ ret
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_VAD_GetNoiseLevels
 (

@@ -18,6 +18,20 @@ h
 endif
 #
 include
+"
+opus_types
+.
+h
+"
+#
+include
+"
+opus_defines
+.
+h
+"
+#
+include
 <
 string
 .
@@ -41,7 +55,7 @@ h
 ifndef
 OVERRIDE_OPUS_ALLOC
 static
-inline
+OPUS_INLINE
 void
 *
 opus_alloc
@@ -63,7 +77,7 @@ endif
 ifndef
 OVERRIDE_OPUS_ALLOC_SCRATCH
 static
-inline
+OPUS_INLINE
 void
 *
 opus_alloc_scratch
@@ -85,7 +99,7 @@ endif
 ifndef
 OVERRIDE_OPUS_FREE
 static
-inline
+OPUS_INLINE
 void
 opus_free
 (

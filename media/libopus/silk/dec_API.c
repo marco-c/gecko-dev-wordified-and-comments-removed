@@ -1933,7 +1933,7 @@ nChannelsAPI
 *
 nSamplesOut
 :
-0
+ALLOC_NONE
 opus_int16
 )
 ;

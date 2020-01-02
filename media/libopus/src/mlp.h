@@ -23,7 +23,7 @@ int
 topo
 ;
 const
-opus_val16
+float
 *
 weights
 ;
@@ -38,10 +38,10 @@ MLP
 *
 m
 const
-opus_val16
+float
 *
 in
-opus_val16
+float
 *
 out
 )

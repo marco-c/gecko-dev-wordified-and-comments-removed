@@ -17,6 +17,20 @@ h
 #
 endif
 #
+include
+"
+opus_types
+.
+h
+"
+#
+include
+"
+opus_defines
+.
+h
+"
+#
 define
 silk_SMULWB
 (
@@ -663,7 +677,7 @@ ecintrin
 h
 "
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_CLZ16
 (
@@ -686,7 +700,7 @@ in16
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_CLZ32
 (
@@ -807,7 +821,7 @@ column
 endif
 #
 ifdef
-ARMv4_ASM
+OPUS_ARM_INLINE_ASM
 #
 include
 "
@@ -821,7 +835,7 @@ h
 endif
 #
 ifdef
-ARMv5E_ASM
+OPUS_ARM_INLINE_EDSP
 #
 include
 "

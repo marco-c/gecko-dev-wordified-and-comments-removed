@@ -295,7 +295,7 @@ endif
 ifndef
 DISABLE_FLOAT_API
 static
-inline
+OPUS_INLINE
 opus_int16
 FLOAT2INT16
 (

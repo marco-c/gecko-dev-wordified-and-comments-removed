@@ -8,7 +8,7 @@ SILK_MACROS_ARMv4_H
 undef
 silk_SMULWB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWB_armv4
 (
@@ -129,7 +129,7 @@ c
 undef
 silk_SMULWT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWT_armv4
 (
@@ -250,7 +250,7 @@ c
 undef
 silk_SMULWW
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWW_armv4
 (
@@ -358,7 +358,7 @@ b
 undef
 silk_SMLAWW
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWW_armv4
 (

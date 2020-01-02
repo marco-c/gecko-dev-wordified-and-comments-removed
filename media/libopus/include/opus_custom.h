@@ -44,7 +44,7 @@ OPUS_BUILD
 define
 OPUS_CUSTOM_EXPORT_STATIC
 static
-inline
+OPUS_INLINE
 #
 else
 #
@@ -123,7 +123,10 @@ OPUS_ARG_NONNULL
 1
 )
 ;
-OPUS_CUSTOM_EXPORT_STATIC
+#
+ifdef
+CUSTOM_MODES
+OPUS_CUSTOM_EXPORT
 int
 opus_custom_encoder_init
 (
@@ -146,6 +149,8 @@ OPUS_ARG_NONNULL
 2
 )
 ;
+#
+endif
 #
 endif
 OPUS_CUSTOM_EXPORT

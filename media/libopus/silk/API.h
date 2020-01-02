@@ -85,6 +85,8 @@ silk_InitEncoder
 void
 *
 encState
+int
+arch
 silk_EncControlStruct
 *
 encStatus

@@ -25,7 +25,7 @@ stack_alloc
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_CNG_exc
 (

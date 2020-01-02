@@ -8,7 +8,7 @@ SILK_MACROS_ARMv5E_H
 undef
 silk_SMULWB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWB_armv5e
 (
@@ -89,7 +89,7 @@ b
 undef
 silk_SMLAWB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWB_armv5e
 (
@@ -182,7 +182,7 @@ c
 undef
 silk_SMULWT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWT_armv5e
 (
@@ -263,7 +263,7 @@ b
 undef
 silk_SMLAWT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWT_armv5e
 (
@@ -356,7 +356,7 @@ c
 undef
 silk_SMULBB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULBB_armv5e
 (
@@ -438,7 +438,7 @@ b
 undef
 silk_SMLABB
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLABB_armv5e
 (
@@ -532,7 +532,7 @@ c
 undef
 silk_SMULBT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULBT_armv5e
 (
@@ -613,7 +613,7 @@ b
 undef
 silk_SMLABT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLABT_armv5e
 (
@@ -706,7 +706,7 @@ c
 undef
 silk_ADD_SAT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_SAT32_armv5e
 (
@@ -788,7 +788,7 @@ b
 undef
 silk_SUB_SAT32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB_SAT32_armv5e
 (
@@ -869,7 +869,7 @@ b
 undef
 silk_CLZ16
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_CLZ16_armv5
 (
@@ -942,7 +942,7 @@ in16
 undef
 silk_CLZ32
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_CLZ32_armv5
 (

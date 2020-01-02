@@ -32,7 +32,7 @@ tuning_parameters
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FIX
 (
@@ -873,7 +873,7 @@ RESTORE_STACK
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FIX
 (

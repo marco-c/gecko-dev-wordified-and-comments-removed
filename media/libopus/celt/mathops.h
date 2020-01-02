@@ -70,7 +70,7 @@ _val
 ifndef
 OVERRIDE_CELT_MAXABS16
 static
-inline
+OPUS_INLINE
 opus_val32
 celt_maxabs16
 (
@@ -157,7 +157,7 @@ OVERRIDE_CELT_MAXABS32
 ifdef
 FIXED_POINT
 static
-inline
+OPUS_INLINE
 opus_val32
 celt_maxabs32
 (
@@ -377,7 +377,7 @@ b
 ifdef
 FLOAT_APPROX
 static
-inline
+OPUS_INLINE
 float
 celt_log2
 (
@@ -480,7 +480,7 @@ frac
 ;
 }
 static
-inline
+OPUS_INLINE
 float
 celt_exp2
 (
@@ -645,7 +645,7 @@ h
 ifndef
 OVERRIDE_CELT_ILOG2
 static
-inline
+OPUS_INLINE
 opus_int16
 celt_ilog2
 (
@@ -683,7 +683,7 @@ x
 #
 endif
 static
-inline
+OPUS_INLINE
 opus_int16
 celt_zlog2
 (
@@ -727,7 +727,7 @@ x
 )
 ;
 static
-inline
+OPUS_INLINE
 opus_val16
 celt_log2
 (
@@ -890,7 +890,7 @@ define
 D3
 10204
 static
-inline
+OPUS_INLINE
 opus_val32
 celt_exp2_frac
 (
@@ -938,7 +938,7 @@ frac
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_val32
 celt_exp2
 (
@@ -1062,7 +1062,7 @@ define
 M4
 4936
 static
-inline
+OPUS_INLINE
 opus_val16
 celt_atan01
 (
@@ -1115,7 +1115,7 @@ M3
 undef
 M4
 static
-inline
+OPUS_INLINE
 opus_val16
 celt_atan2p
 (

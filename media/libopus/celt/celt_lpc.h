@@ -95,6 +95,8 @@ int
 lag
 int
 n
+int
+arch
 )
 ;
 #

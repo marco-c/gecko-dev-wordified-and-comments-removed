@@ -721,7 +721,7 @@ while
 if
 defined
 (
-ARMv4_ASM
+OPUS_ARM_INLINE_ASM
 )
 #
 include
@@ -738,7 +738,7 @@ endif
 if
 defined
 (
-ARMv5E_ASM
+OPUS_ARM_INLINE_EDSP
 )
 #
 include

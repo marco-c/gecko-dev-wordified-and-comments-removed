@@ -18,7 +18,7 @@ main
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_NLSF_residual_dequant
 (

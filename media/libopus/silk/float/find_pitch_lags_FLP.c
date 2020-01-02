@@ -49,6 +49,8 @@ silk_float
 x
 [
 ]
+int
+arch
 )
 {
 opus_int
@@ -565,6 +567,7 @@ psEnc
 sCmn
 .
 nb_subfr
+arch
 )
 =
 =

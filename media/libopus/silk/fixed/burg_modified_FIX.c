@@ -114,6 +114,8 @@ nb_subfr
 const
 opus_int
 D
+int
+arch
 )
 {
 opus_int
@@ -459,6 +461,7 @@ subfr_length
 -
 D
 D
+arch
 )
 ;
 for

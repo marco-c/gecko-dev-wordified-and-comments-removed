@@ -12,6 +12,13 @@ opus_types
 h
 "
 #
+include
+"
+opus_defines
+.
+h
+"
+#
 ifndef
 FIXED_POINT
 #
@@ -285,7 +292,7 @@ noreturn
 #
 endif
 static
-inline
+OPUS_INLINE
 void
 _silk_fatal
 (

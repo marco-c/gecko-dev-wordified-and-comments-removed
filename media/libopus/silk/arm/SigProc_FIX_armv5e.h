@@ -8,7 +8,7 @@ SILK_SIGPROC_FIX_ARMv5E_H
 undef
 silk_SMULTT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULTT_armv5e
 (
@@ -90,7 +90,7 @@ b
 undef
 silk_SMLATT
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLATT_armv5e
 (

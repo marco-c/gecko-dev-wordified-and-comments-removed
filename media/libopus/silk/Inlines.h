@@ -15,7 +15,7 @@ C
 #
 endif
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_CLZ64
 (
@@ -68,7 +68,7 @@ in_upper
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_CLZ_FRAC
 (
@@ -110,7 +110,7 @@ lzeros
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SQRT_APPROX
 (
@@ -191,7 +191,7 @@ y
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_DIV32_varQ
 (
@@ -373,7 +373,7 @@ return
 }
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_INVERSE32_varQ
 (

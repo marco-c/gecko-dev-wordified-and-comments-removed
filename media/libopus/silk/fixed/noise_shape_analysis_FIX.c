@@ -32,7 +32,7 @@ tuning_parameters
 h
 "
 static
-inline
+OPUS_INLINE
 opus_int32
 warped_gain
 (
@@ -122,7 +122,7 @@ gain_Q24
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 limit_warped_coefs
 (
@@ -823,6 +823,8 @@ const
 opus_int16
 *
 x
+int
+arch
 )
 {
 silk_shape_state_FIX
@@ -1713,6 +1715,7 @@ sCmn
 shapingLPCOrder
 +
 1
+arch
 )
 ;
 }

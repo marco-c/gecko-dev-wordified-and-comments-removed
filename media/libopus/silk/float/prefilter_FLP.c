@@ -25,7 +25,7 @@ tuning_parameters
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FLP
 (
@@ -788,7 +788,7 @@ nb_subfr
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_prefilt_FLP
 (

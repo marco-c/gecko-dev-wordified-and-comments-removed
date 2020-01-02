@@ -29,7 +29,7 @@ define
 QA
 16
 static
-inline
+OPUS_INLINE
 void
 silk_NLSF2A_find_poly
 (

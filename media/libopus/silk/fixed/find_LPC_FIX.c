@@ -140,6 +140,10 @@ psEncC
 -
 >
 predictLPCOrder
+psEncC
+-
+>
+arch
 )
 ;
 if
@@ -191,6 +195,10 @@ psEncC
 -
 >
 predictLPCOrder
+psEncC
+-
+>
+arch
 )
 ;
 shift

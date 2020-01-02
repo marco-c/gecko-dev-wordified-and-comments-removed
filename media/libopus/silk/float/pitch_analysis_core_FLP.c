@@ -70,6 +70,8 @@ opus_int
 nb_subfr
 opus_int
 complexity
+int
+arch
 )
 ;
 static
@@ -138,6 +140,8 @@ complexity
 const
 opus_int
 nb_subfr
+int
+arch
 )
 {
 opus_int
@@ -795,6 +799,7 @@ max_lag_4kHz
 min_lag_4kHz
 +
 1
+arch
 )
 ;
 cross_corr
@@ -2118,6 +2123,7 @@ start_lag
 sf_length
 nb_subfr
 complexity
+arch
 )
 ;
 silk_P_Ana_calc_energy_st3
@@ -2585,14 +2591,14 @@ opus_int
 nb_subfr
 opus_int
 complexity
+int
+arch
 )
 {
 const
 silk_float
 *
 target_ptr
-*
-basis_ptr
 ;
 opus_int
 i
@@ -2810,6 +2816,7 @@ lag_high
 lag_low
 +
 1
+arch
 )
 ;
 for
@@ -2828,16 +2835,6 @@ j
 +
 )
 {
-basis_ptr
-=
-target_ptr
--
-(
-start_lag
-+
-j
-)
-;
 silk_assert
 (
 lag_counter

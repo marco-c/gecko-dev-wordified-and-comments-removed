@@ -1587,6 +1587,8 @@ int
 lag
 int
 n
+int
+arch
 )
 {
 opus_val32
@@ -1929,6 +1931,7 @@ fastN
 lag
 +
 1
+arch
 )
 ;
 for

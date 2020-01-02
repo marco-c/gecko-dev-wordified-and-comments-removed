@@ -18,7 +18,7 @@ main
 h
 "
 static
-inline
+OPUS_INLINE
 void
 combine_pulses
 (
@@ -76,7 +76,7 @@ k
 }
 }
 static
-inline
+OPUS_INLINE
 void
 encode_split
 (
@@ -120,7 +120,7 @@ p
 }
 }
 static
-inline
+OPUS_INLINE
 void
 decode_split
 (

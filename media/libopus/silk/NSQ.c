@@ -25,7 +25,7 @@ stack_alloc
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_nsq_scale_states
 (
@@ -77,7 +77,7 @@ signal_type
 )
 ;
 static
-inline
+OPUS_INLINE
 void
 silk_noise_shape_quantizer
 (
@@ -801,7 +801,7 @@ RESTORE_STACK
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_noise_shape_quantizer
 (
@@ -2206,7 +2206,7 @@ opus_int32
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_nsq_scale_states
 (

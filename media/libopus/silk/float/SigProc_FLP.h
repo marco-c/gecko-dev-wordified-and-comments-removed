@@ -159,6 +159,8 @@ complexity
 const
 opus_int
 nb_subfr
+int
+arch
 )
 ;
 void
@@ -334,7 +336,7 @@ a
 )
 )
 static
-inline
+OPUS_INLINE
 silk_float
 silk_sigmoid
 (
@@ -366,7 +368,7 @@ x
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_float2int
 (
@@ -385,7 +387,7 @@ x
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_float2short_array
 (
@@ -443,7 +445,7 @@ k
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_short2float_array
 (
@@ -495,7 +497,7 @@ k
 }
 }
 static
-inline
+OPUS_INLINE
 silk_float
 silk_log2
 (

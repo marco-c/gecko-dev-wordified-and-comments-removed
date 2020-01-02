@@ -52,7 +52,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_ADD16_
 (
@@ -152,7 +152,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD32_
 (
@@ -252,7 +252,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_ADD64_
 (
@@ -360,7 +360,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_SUB16_
 (
@@ -460,7 +460,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB32_
 (
@@ -560,7 +560,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SUB64_
 (
@@ -668,7 +668,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_ADD_SAT16_
 (
@@ -790,7 +790,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_SAT32_
 (
@@ -978,7 +978,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_ADD_SAT64_
 (
@@ -1256,7 +1256,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_SUB_SAT16_
 (
@@ -1378,7 +1378,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB_SAT32_
 (
@@ -1564,7 +1564,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SUB_SAT64_
 (
@@ -1840,7 +1840,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_MUL_
 (
@@ -1954,7 +1954,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_MUL_uint_
 (
@@ -2065,7 +2065,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_MLA_
 (
@@ -2188,7 +2188,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_MLA_uint_
 (
@@ -2307,7 +2307,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWB_
 (
@@ -2459,7 +2459,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWB_
 (
@@ -2582,7 +2582,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWT_
 (
@@ -2730,7 +2730,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWT_
 (
@@ -2892,7 +2892,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_SMULL_
 (
@@ -3043,7 +3043,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLABB_
 (
@@ -3182,7 +3182,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLABT_
 (
@@ -3322,7 +3322,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLATT_
 (
@@ -3455,7 +3455,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMULWW_
 (
@@ -3650,7 +3650,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SMLAWW_
 (
@@ -3834,7 +3834,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_DIV32_
 (
@@ -3923,7 +3923,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_DIV32_16_
 (
@@ -4036,7 +4036,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int8
 silk_LSHIFT8_
 (
@@ -4169,7 +4169,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_LSHIFT16_
 (
@@ -4302,7 +4302,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_LSHIFT32_
 (
@@ -4435,7 +4435,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_LSHIFT64_
 (
@@ -4571,7 +4571,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_LSHIFT_ovflw_
 (
@@ -4670,7 +4670,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_LSHIFT_uint_
 (
@@ -4787,7 +4787,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int8
 silk_RSHIFT8_
 (
@@ -4886,7 +4886,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_RSHIFT16_
 (
@@ -4985,7 +4985,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_RSHIFT32_
 (
@@ -5084,7 +5084,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_RSHIFT64_
 (
@@ -5191,7 +5191,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_RSHIFT_uint_
 (
@@ -5293,7 +5293,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 int
 silk_ADD_LSHIFT_
 (
@@ -5437,7 +5437,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_LSHIFT32_
 (
@@ -5581,7 +5581,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_ADD_LSHIFT_uint_
 (
@@ -5725,7 +5725,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 int
 silk_ADD_RSHIFT_
 (
@@ -5869,7 +5869,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ADD_RSHIFT32_
 (
@@ -6013,7 +6013,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_uint32
 silk_ADD_RSHIFT_uint_
 (
@@ -6157,7 +6157,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB_LSHIFT32_
 (
@@ -6301,7 +6301,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_SUB_RSHIFT32_
 (
@@ -6441,7 +6441,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_RSHIFT_ROUND_
 (
@@ -6611,7 +6611,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_RSHIFT_ROUND64_
 (
@@ -6749,7 +6749,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_abs_int64_
 (
@@ -6848,7 +6848,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_abs_int32_
 (
@@ -6929,7 +6929,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int8
 silk_CHECK_FIT8_
 (
@@ -7026,7 +7026,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_CHECK_FIT16_
 (
@@ -7123,7 +7123,7 @@ __FILE__
 __LINE__
 )
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_CHECK_FIT32_
 (

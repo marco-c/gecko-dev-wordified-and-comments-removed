@@ -463,6 +463,9 @@ MAX_NB_SUBFR
 opus_int8
 *
 periodicity_index
+opus_int32
+*
+sum_gain_dB_Q7
 const
 opus_int32
 W_Q18
@@ -491,6 +494,9 @@ ind
 opus_int32
 *
 rate_dist_Q14
+opus_int
+*
+gain_Q7
 const
 opus_int16
 *
@@ -506,10 +512,17 @@ cb_Q7
 const
 opus_uint8
 *
+cb_gain_Q7
+const
+opus_uint8
+*
 cl_Q5
 const
 opus_int
 mu_Q9
+const
+opus_int32
+max_gain_Q7
 opus_int
 L
 )

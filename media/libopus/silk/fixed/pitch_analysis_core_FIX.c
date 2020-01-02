@@ -175,6 +175,8 @@ opus_int
 nb_subfr
 opus_int
 complexity
+int
+arch
 )
 ;
 static
@@ -236,6 +238,8 @@ complexity
 const
 opus_int
 nb_subfr
+int
+arch
 )
 {
 VARDECL
@@ -847,6 +851,7 @@ MAX_LAG_4KHZ
 MIN_LAG_4KHZ
 +
 1
+arch
 )
 ;
 cross_corr
@@ -2447,7 +2452,7 @@ shift
 ?
 frame_length
 :
-0
+ALLOC_NONE
 opus_int16
 )
 ;
@@ -2729,6 +2734,7 @@ start_lag
 sf_length
 nb_subfr
 complexity
+arch
 )
 ;
 silk_P_Ana_calc_energy_st3
@@ -3163,6 +3169,8 @@ opus_int
 nb_subfr
 opus_int
 complexity
+int
+arch
 )
 {
 const
@@ -3402,6 +3410,7 @@ lag_high
 lag_low
 +
 1
+arch
 )
 ;
 for

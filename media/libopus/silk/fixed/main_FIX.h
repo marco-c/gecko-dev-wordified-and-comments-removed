@@ -123,6 +123,8 @@ silk_init_encoder
 silk_encoder_state_Fxx
 *
 psEnc
+int
+arch
 )
 ;
 opus_int
@@ -186,6 +188,8 @@ const
 opus_int16
 *
 x
+int
+arch
 )
 ;
 void
@@ -243,6 +247,8 @@ opus_int16
 x
 [
 ]
+int
+arch
 )
 ;
 void

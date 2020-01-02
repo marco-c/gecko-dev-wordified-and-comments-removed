@@ -48,7 +48,7 @@ define
 MAX_ITERATIONS_A2NLSF_FIX
 30
 static
-inline
+OPUS_INLINE
 void
 silk_A2NLSF_trans_poly
 (
@@ -129,7 +129,7 @@ k
 }
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_A2NLSF_eval_poly
 (
@@ -202,7 +202,7 @@ y32
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_A2NLSF_init
 (

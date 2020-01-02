@@ -118,6 +118,8 @@ silk_init_encoder
 silk_encoder_state_FLP
 *
 psEnc
+int
+arch
 )
 ;
 opus_int
@@ -235,6 +237,8 @@ silk_float
 x
 [
 ]
+int
+arch
 )
 ;
 void
@@ -451,6 +455,9 @@ MAX_NB_SUBFR
 opus_int8
 *
 periodicity_index
+opus_int32
+*
+sum_log_gain_Q7
 const
 silk_float
 W

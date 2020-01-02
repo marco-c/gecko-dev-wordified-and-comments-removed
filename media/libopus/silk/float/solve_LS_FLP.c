@@ -25,7 +25,7 @@ tuning_parameters
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_LDL_FLP
 (
@@ -43,7 +43,7 @@ Dinv
 )
 ;
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithLowerTriangularWdiagOnes_FLP
 (
@@ -63,7 +63,7 @@ x
 )
 ;
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithUpperTriangularFromLowerWdiagOnes_FLP
 (
@@ -210,7 +210,7 @@ x
 ;
 }
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithUpperTriangularFromLowerWdiagOnes_FLP
 (
@@ -325,7 +325,7 @@ temp
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_SolveWithLowerTriangularWdiagOnes_FLP
 (
@@ -433,7 +433,7 @@ temp
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LDL_FLP
 (

@@ -25,7 +25,7 @@ main_FLP
 h
 "
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter16_FLP
 (
@@ -276,7 +276,7 @@ LPC_pred
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter12_FLP
 (
@@ -483,7 +483,7 @@ LPC_pred
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter10_FLP
 (
@@ -668,7 +668,7 @@ LPC_pred
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter8_FLP
 (
@@ -831,7 +831,7 @@ LPC_pred
 }
 }
 static
-inline
+OPUS_INLINE
 void
 silk_LPC_analysis_filter6_FLP
 (

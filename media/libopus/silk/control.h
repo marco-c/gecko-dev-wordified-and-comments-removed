@@ -84,6 +84,9 @@ toMono
 opus_int
 opusCanSwitch
 ;
+opus_int
+reducedDependency
+;
 opus_int32
 internalSampleRate
 ;

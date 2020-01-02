@@ -43,6 +43,8 @@ inputDataSize
 const
 opus_int
 correlationCount
+int
+arch
 )
 {
 opus_int
@@ -69,6 +71,7 @@ corrCount
 -
 1
 inputDataSize
+arch
 )
 ;
 }

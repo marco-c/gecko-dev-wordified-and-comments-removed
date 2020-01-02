@@ -887,6 +887,9 @@ MAX_NB_SUBFR
 opus_int8
 *
 periodicity_index
+opus_int32
+*
+sum_log_gain_Q7
 const
 silk_float
 W
@@ -1012,6 +1015,7 @@ silk_quant_LTP_gains
 B_Q14
 cbk_index
 periodicity_index
+sum_log_gain_Q7
 W_Q18
 mu_Q10
 lowComplexity

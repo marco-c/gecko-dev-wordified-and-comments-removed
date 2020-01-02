@@ -25,7 +25,7 @@ stack_alloc
 h
 "
 static
-inline
+OPUS_INLINE
 opus_int
 combine_and_check
 (

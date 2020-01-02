@@ -8,7 +8,7 @@ SILK_SIGPROC_FIX_ARMv4_H
 undef
 silk_MLA
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_MLA_armv4
 (

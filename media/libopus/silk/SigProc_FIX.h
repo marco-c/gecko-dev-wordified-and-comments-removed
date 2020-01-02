@@ -392,6 +392,8 @@ inputDataSize
 const
 opus_int
 correlationCount
+int
+arch
 )
 ;
 void
@@ -449,6 +451,8 @@ complexity
 const
 opus_int
 nb_subfr
+int
+arch
 )
 ;
 void
@@ -585,6 +589,8 @@ nb_subfr
 const
 opus_int
 D
+int
+arch
 )
 ;
 void
@@ -672,7 +678,7 @@ len
 )
 ;
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_ROR32
 (
@@ -2732,7 +2738,7 @@ Q
 )
 )
 static
-inline
+OPUS_INLINE
 opus_int
 silk_min_int
 (
@@ -2765,7 +2771,7 @@ b
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_min_16
 (
@@ -2798,7 +2804,7 @@ b
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_min_32
 (
@@ -2831,7 +2837,7 @@ b
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_min_64
 (
@@ -2864,7 +2870,7 @@ b
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int
 silk_max_int
 (
@@ -2897,7 +2903,7 @@ b
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int16
 silk_max_16
 (
@@ -2930,7 +2936,7 @@ b
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int32
 silk_max_32
 (
@@ -2963,7 +2969,7 @@ b
 ;
 }
 static
-inline
+OPUS_INLINE
 opus_int64
 silk_max_64
 (
@@ -3321,7 +3327,7 @@ h
 "
 #
 ifdef
-ARMv4_ASM
+OPUS_ARM_INLINE_ASM
 #
 include
 "
@@ -3335,7 +3341,7 @@ h
 endif
 #
 ifdef
-ARMv5E_ASM
+OPUS_ARM_INLINE_EDSP
 #
 include
 "

@@ -1,6 +1,6 @@
 static
 const
-opus_val16
+float
 tansig_table
 [
 201

@@ -49,6 +49,8 @@ opus_int16
 x
 [
 ]
+int
+arch
 )
 {
 opus_int
@@ -319,6 +321,7 @@ sCmn
 pitchEstimationLPCOrder
 +
 1
+arch
 )
 ;
 auto_corr
@@ -658,6 +661,12 @@ psEnc
 sCmn
 .
 nb_subfr
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 =
 =

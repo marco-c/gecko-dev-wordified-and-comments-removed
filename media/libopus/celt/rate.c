@@ -1472,7 +1472,7 @@ define
 ALLOC_STEPS
 6
 static
-inline
+OPUS_INLINE
 int
 interp_bits2pulses
 (

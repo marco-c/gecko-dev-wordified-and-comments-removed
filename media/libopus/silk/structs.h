@@ -504,6 +504,9 @@ LTPQuantLowComplexity
 opus_int
 mu_LTP_Q9
 ;
+opus_int32
+sum_log_gain_Q7
+;
 opus_int
 NLSF_MSVQ_Survivors
 ;
@@ -572,6 +575,9 @@ pulses
 [
 MAX_FRAME_LENGTH
 ]
+;
+int
+arch
 ;
 opus_int16
 inputBuf

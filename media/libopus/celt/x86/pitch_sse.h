@@ -22,7 +22,7 @@ h
 define
 OVERRIDE_XCORR_KERNEL
 static
-inline
+OPUS_INLINE
 void
 xcorr_kernel
 (
@@ -301,7 +301,7 @@ xsum2
 define
 OVERRIDE_DUAL_INNER_PROD
 static
-inline
+OPUS_INLINE
 void
 dual_inner_prod
 (
@@ -533,7 +533,7 @@ i
 define
 OVERRIDE_COMB_FILTER_CONST
 static
-inline
+OPUS_INLINE
 void
 comb_filter_const
 (

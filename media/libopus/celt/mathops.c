@@ -523,7 +523,7 @@ L4
 -
 626
 static
-inline
+OPUS_INLINE
 opus_val16
 _celt_cos_pi_2
 (

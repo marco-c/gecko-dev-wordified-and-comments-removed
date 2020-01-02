@@ -74,6 +74,12 @@ MU_LTP_QUANT_WB
 02f
 #
 define
+MAX_SUM_LOG_GAIN_DB
+250
+.
+0f
+#
+define
 VARIABLE_HP_SMTH_COEF1
 0
 .

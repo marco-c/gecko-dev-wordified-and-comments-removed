@@ -8,7 +8,7 @@ FIXED_ARMv4_H
 undef
 MULT16_32_Q16
 static
-inline
+OPUS_INLINE
 opus_val32
 MULT16_32_Q16_armv4
 (
@@ -107,7 +107,7 @@ b
 undef
 MULT16_32_Q15
 static
-inline
+OPUS_INLINE
 opus_val32
 MULT16_32_Q15_armv4
 (

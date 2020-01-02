@@ -32,7 +32,7 @@ stack_alloc
 h
 "
 static
-inline
+OPUS_INLINE
 opus_int16
 *
 silk_resampler_private_IIR_FIR_INTERPOL
