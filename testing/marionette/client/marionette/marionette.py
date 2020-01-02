@@ -4157,10 +4157,6 @@ timeout
 )
 :
             
-sock
-=
-None
-            
 try
 :
                 
@@ -4201,6 +4197,27 @@ recv
 16
 )
                 
+sock
+.
+close
+(
+)
+                
+if
+'
+:
+'
+in
+data
+:
+                    
+time
+.
+sleep
+(
+5
+)
+                    
 return
 True
             
@@ -4212,24 +4229,10 @@ error
                 
 pass
             
-finally
-:
-                
-if
-sock
-:
-                    
-sock
-.
-close
-(
-)
-            
 time
 .
 sleep
 (
-.
 1
 )
         
