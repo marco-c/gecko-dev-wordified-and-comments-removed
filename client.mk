@@ -3237,6 +3237,7 @@ OBJDIR
 config
 .
 status
++
 (
 MOZ_MAKE
 )
@@ -3305,6 +3306,7 @@ OBJDIR
 config
 .
 status
++
 (
 MOZ_MAKE
 )
