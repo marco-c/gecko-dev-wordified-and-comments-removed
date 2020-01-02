@@ -166,6 +166,15 @@ EXTRA_DSO_LDOPTS
 +
 =
 (
+filter
+-
+L
+%
+(
+MOZ_GTK3_LIBS
+)
+)
+(
 call
 no_as_needed
 -
