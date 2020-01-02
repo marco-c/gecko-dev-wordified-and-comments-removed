@@ -333,6 +333,11 @@ init
 (
 )
 {
+if
+(
+!
+storage_
+)
 storage_
 =
 js_new
@@ -341,6 +346,10 @@ LifoAlloc
 >
 (
 LifoAllocBlockSize
+)
+;
+clear
+(
 )
 ;
 return
@@ -625,6 +634,11 @@ init
 (
 )
 {
+if
+(
+!
+storage_
+)
 storage_
 =
 js_new
@@ -633,6 +647,10 @@ LifoAlloc
 >
 (
 LifoAllocBlockSize
+)
+;
+clear
+(
 )
 ;
 return
