@@ -171,6 +171,14 @@ SupportsWeakPtr
 imgRequestProxy
 >
 {
+protected
+:
+virtual
+~
+imgRequestProxy
+(
+)
+;
 public
 :
 MOZ_DECLARE_REFCOUNTED_TYPENAME
@@ -192,12 +200,6 @@ NS_DECL_IMGIREQUEST
 NS_DECL_NSIREQUEST
 NS_DECL_NSISUPPORTSPRIORITY
 NS_DECL_NSISECURITYINFOPROVIDER
-imgRequestProxy
-(
-)
-;
-virtual
-~
 imgRequestProxy
 (
 )

@@ -78,12 +78,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_IMGICONTAINER
-virtual
-~
-VectorImage
-(
-)
-;
 nsresult
 Init
 (
@@ -233,6 +227,12 @@ ImageURL
 aURI
 =
 nullptr
+)
+;
+virtual
+~
+VectorImage
+(
 )
 ;
 virtual

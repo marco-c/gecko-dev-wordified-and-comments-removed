@@ -64,13 +64,6 @@ public
 :
 NS_DECL_ISUPPORTS
 virtual
-~
-OrientedImage
-(
-)
-{
-}
-virtual
 nsIntRect
 FrameRect
 (
@@ -212,6 +205,13 @@ aImage
 mOrientation
 (
 aOrientation
+)
+{
+}
+virtual
+~
+OrientedImage
+(
 )
 {
 }

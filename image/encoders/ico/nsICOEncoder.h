@@ -111,11 +111,6 @@ nsICOEncoder
 (
 )
 ;
-~
-nsICOEncoder
-(
-)
-;
 uint32_t
 GetRealWidth
 (
@@ -160,6 +155,11 @@ mHeight
 }
 protected
 :
+~
+nsICOEncoder
+(
+)
+;
 nsresult
 ParseOptions
 (

@@ -243,6 +243,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+imgMemoryReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -3687,6 +3693,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+imgCacheObserver
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -75,12 +75,6 @@ nsIconChannel
 )
 {
 }
-~
-nsIconChannel
-(
-)
-{
-}
 static
 void
 Shutdown
@@ -97,6 +91,12 @@ aURI
 ;
 private
 :
+~
+nsIconChannel
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIChannel

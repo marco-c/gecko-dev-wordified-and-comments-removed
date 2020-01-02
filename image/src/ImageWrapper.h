@@ -37,13 +37,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_IMGICONTAINER
 virtual
-~
-ImageWrapper
-(
-)
-{
-}
-virtual
 nsresult
 Init
 (
@@ -282,6 +275,13 @@ image
 "
 )
 ;
+}
+virtual
+~
+ImageWrapper
+(
+)
+{
 }
 Image
 *

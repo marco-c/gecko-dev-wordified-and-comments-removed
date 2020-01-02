@@ -145,6 +145,12 @@ nsIInterfaceRequestor
 public
 nsIAsyncVerifyRedirectCallback
 {
+virtual
+~
+imgRequest
+(
+)
+;
 public
 :
 typedef
@@ -162,12 +168,6 @@ imgRequest
 imgLoader
 *
 aLoader
-)
-;
-virtual
-~
-imgRequest
-(
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
