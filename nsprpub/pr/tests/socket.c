@@ -1656,7 +1656,7 @@ void
 )
 start
 arg
-0
+STACK_SIZE_PARAM_IS_A_RESERVATION
 &
 tid
 )
