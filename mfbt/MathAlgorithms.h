@@ -1041,7 +1041,7 @@ hi
 )
 ;
 return
-32
+32u
 +
 CountLeadingZeroes32
 (
@@ -1116,7 +1116,7 @@ lo
 )
 ;
 return
-32
+32u
 +
 CountTrailingZeroes32
 (
@@ -1495,9 +1495,9 @@ t
 =
 1
 ?
-0
+0u
 :
-32
+32u
 -
 CountLeadingZeroes32
 (
@@ -1640,7 +1640,7 @@ t
 )
 {
 return
-31
+31u
 -
 CountLeadingZeroes32
 (
@@ -1676,7 +1676,7 @@ t
 )
 {
 return
-63
+63u
 -
 CountLeadingZeroes64
 (
