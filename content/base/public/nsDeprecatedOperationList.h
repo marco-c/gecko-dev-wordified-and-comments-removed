@@ -126,3 +126,7 @@ DEPRECATED_OPERATION
 (
 UnsafeImportNode
 )
+DEPRECATED_OPERATION
+(
+Window_Content
+)
