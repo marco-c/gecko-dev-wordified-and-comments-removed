@@ -7,6 +7,10 @@ const
 INITIAL_VALUE
 =
 "
+browser_broadcast
+.
+js
+-
 initial
 -
 value
