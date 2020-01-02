@@ -59,7 +59,9 @@ public
 :
 AsyncColorChooser
 (
-DWORD
+const
+nsAString
+&
 aInitialColor
 nsIWidget
 *
@@ -77,7 +79,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-DWORD
+nsString
 mInitialColor
 ;
 nsCOMPtr
@@ -142,7 +144,7 @@ aCallback
 ;
 protected
 :
-DWORD
+nsString
 mInitialColor
 ;
 nsCOMPtr
