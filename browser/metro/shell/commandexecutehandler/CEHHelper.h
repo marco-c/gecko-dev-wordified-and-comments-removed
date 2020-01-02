@@ -54,6 +54,10 @@ shlobj
 .
 h
 >
+#
+define
+SHOW_CONSOLE
+1
 extern
 HANDLE
 sCon
