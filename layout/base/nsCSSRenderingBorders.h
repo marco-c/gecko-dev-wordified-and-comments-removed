@@ -159,8 +159,6 @@ nsBorderColors
 const
 *
 aCompositeColors
-int
-aSkipSides
 nscolor
 aBackgroundColor
 )
@@ -212,9 +210,6 @@ mCompositeColors
 ;
 int32_t
 mAUPP
-;
-int
-mSkipSides
 ;
 nscolor
 mBackgroundColor
