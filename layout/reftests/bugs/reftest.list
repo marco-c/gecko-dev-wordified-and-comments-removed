@@ -22382,6 +22382,12 @@ xhtml
 ref
 .
 xhtml
+skip
+-
+if
+(
+B2G
+)
 =
 =
 501627
@@ -22396,6 +22402,9 @@ html
 ref
 .
 html
+#
+Bug
+989165
 =
 =
 502288
@@ -26217,6 +26226,12 @@ html
 ref
 .
 html
+random
+-
+if
+(
+B2G
+)
 =
 =
 605138
@@ -26231,6 +26246,9 @@ html
 ref
 .
 html
+#
+Bug
+988758
 =
 =
 605157
