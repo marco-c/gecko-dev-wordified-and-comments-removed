@@ -522,14 +522,14 @@ hdcSrc
 =
 CreateCompatibleDC
 (
-NULL
+nullptr
 )
 ;
 void
 *
 lpBits
 =
-NULL
+nullptr
 ;
 if
 (
@@ -560,7 +560,7 @@ void
 )
 &
 lpBits
-NULL
+nullptr
 0
 )
 ;
@@ -730,7 +730,7 @@ psdi
 hbmpDragImage
 !
 =
-NULL
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1040,7 +1040,7 @@ SUCCEEDED
 CoCreateInstance
 (
 CLSID_DragDropHelper
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IDragSourceHelper
 (
@@ -1630,7 +1630,7 @@ DragQueryFileW
 (
 hdrop
 0xFFFFFFFF
-NULL
+nullptr
 0
 )
 ;

@@ -9666,7 +9666,7 @@ keyboardLayoutListCount
 GetKeyboardLayoutList
 (
 0
-NULL
+nullptr
 )
 ;
 NS_ASSERTION
@@ -9765,7 +9765,7 @@ if
 loadedLayout
 =
 =
-NULL
+nullptr
 )
 {
 if

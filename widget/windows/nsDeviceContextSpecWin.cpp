@@ -840,7 +840,7 @@ nullptr
 ;
 mDevMode
 =
-NULL
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -868,7 +868,7 @@ nullptr
 ;
 SetDevMode
 (
-NULL
+nullptr
 )
 ;
 nsCOMPtr
@@ -909,7 +909,7 @@ psWin
 >
 SetDevMode
 (
-NULL
+nullptr
 )
 ;
 }
@@ -985,7 +985,7 @@ dwNumItems
 LPPRINTER_INFO_2W
 lpInfo
 =
-NULL
+nullptr
 ;
 if
 (
@@ -994,9 +994,9 @@ if
 EnumPrintersW
 (
 aWhichPrinters
-NULL
+nullptr
 2
-NULL
+nullptr
 0
 &
 dwSizeNeeded
@@ -1036,7 +1036,7 @@ if
 EnumPrintersW
 (
 PRINTER_ENUM_LOCAL
-NULL
+nullptr
 2
 (
 LPBYTE
@@ -2575,7 +2575,7 @@ CreateDCW
 (
 mDriverName
 mDeviceName
-NULL
+nullptr
 mDevMode
 )
 ;
@@ -3295,7 +3295,7 @@ rv
 HANDLE
 hPrinter
 =
-NULL
+nullptr
 ;
 BOOL
 status
@@ -3312,7 +3312,7 @@ aName
 )
 &
 hPrinter
-NULL
+nullptr
 )
 ;
 if
@@ -3333,7 +3333,7 @@ dwNeeded
 :
 DocumentPropertiesW
 (
-NULL
+nullptr
 hPrinter
 const_cast
 <
@@ -3343,8 +3343,8 @@ wchar_t
 (
 aName
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;
@@ -3378,7 +3378,7 @@ dwRet
 =
 DocumentPropertiesW
 (
-NULL
+nullptr
 hPrinter
 const_cast
 <
@@ -3389,7 +3389,7 @@ wchar_t
 aName
 )
 pDevMode
-NULL
+nullptr
 DM_OUT_BUFFER
 )
 ;
@@ -3416,7 +3416,7 @@ dwRet
 :
 DocumentPropertiesW
 (
-NULL
+nullptr
 hPrinter
 const_cast
 <

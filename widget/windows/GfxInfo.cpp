@@ -745,7 +745,7 @@ RegQueryValueExW
 (
 key
 keyName
-NULL
+nullptr
 &
 resultType
 (
@@ -823,7 +823,7 @@ RegQueryValueExW
 (
 key
 keyName
-NULL
+nullptr
 &
 resultType
 (
@@ -1216,7 +1216,7 @@ while
 (
 EnumDisplayDevicesW
 (
-NULL
+nullptr
 deviceIndex
 &
 displayDevice
@@ -1460,13 +1460,13 @@ devinfo
 =
 SetupDiGetClassDevsW
 (
-NULL
+nullptr
 mDeviceID
 .
 get
 (
 )
-NULL
+nullptr
 DIGCF_PRESENT
 |
 DIGCF_PROFILE
@@ -1554,7 +1554,7 @@ devinfo
 &
 devinfoData
 SPDRP_DRIVER
-NULL
+nullptr
 (
 PBYTE
 )
@@ -1563,7 +1563,7 @@ sizeof
 (
 value
 )
-NULL
+nullptr
 )
 )
 {
@@ -1618,8 +1618,8 @@ L
 "
 DriverVersion
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -1675,8 +1675,8 @@ L
 "
 DriverDate
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -1821,8 +1821,8 @@ SetupDiGetClassDevsW
 (
 &
 GUID_DISPLAY_DEVICE_ARRIVAL
-NULL
-NULL
+nullptr
+nullptr
 DIGCF_PRESENT
 |
 DIGCF_INTERFACEDEVICE
@@ -1926,7 +1926,7 @@ devinfo
 &
 devinfoData
 SPDRP_DRIVER
-NULL
+nullptr
 (
 PBYTE
 )
@@ -1935,7 +1935,7 @@ sizeof
 (
 value
 )
-NULL
+nullptr
 )
 )
 {
@@ -1990,8 +1990,8 @@ L
 "
 MatchingDeviceId
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -2135,8 +2135,8 @@ L
 "
 DriverVersion
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -2181,8 +2181,8 @@ L
 "
 DriverDate
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -2228,8 +2228,8 @@ L
 Device
 Description
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -2262,8 +2262,8 @@ L
 "
 DriverDesc
 "
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )

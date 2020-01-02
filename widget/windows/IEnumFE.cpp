@@ -89,7 +89,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -120,7 +120,7 @@ if
 ppv
 =
 =
-NULL
+nullptr
 )
 return
 E_NOINTERFACE

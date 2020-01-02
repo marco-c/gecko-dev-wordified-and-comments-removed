@@ -315,7 +315,7 @@ module
 =
 GetModuleHandle
 (
-NULL
+nullptr
 )
 ;
 const
@@ -377,13 +377,13 @@ wc
 .
 hIcon
 =
-NULL
+nullptr
 ;
 wc
 .
 hCursor
 =
-NULL
+nullptr
 ;
 wc
 .
@@ -392,7 +392,7 @@ hbrBackground
 (
 HBRUSH
 )
-NULL
+nullptr
 ;
 wc
 .
@@ -401,7 +401,7 @@ lpszMenuName
 (
 LPCWSTR
 )
-NULL
+nullptr
 ;
 wc
 .
@@ -432,10 +432,10 @@ EventWindow
 0
 10
 10
-NULL
-NULL
+nullptr
+nullptr
 module
-NULL
+nullptr
 )
 ;
 NS_ENSURE_STATE
@@ -655,7 +655,7 @@ PeekMessage
 (
 &
 msg
-NULL
+nullptr
 MOZ_WM_MOUSEWHEEL_FIRST
 MOZ_WM_MOUSEWHEEL_LAST
 PM_REMOVE
@@ -697,7 +697,7 @@ PeekMessage
 (
 &
 msg
-NULL
+nullptr
 0
 0
 PM_REMOVE

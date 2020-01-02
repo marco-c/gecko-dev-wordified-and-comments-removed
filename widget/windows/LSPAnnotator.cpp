@@ -192,8 +192,8 @@ SOCKET_ERROR
 =
 WSCEnumProtocols
 (
-NULL
-NULL
+nullptr
+nullptr
 &
 size
 &
@@ -262,7 +262,7 @@ n
 =
 WSCEnumProtocols
 (
-NULL
+nullptr
 providers
 &
 size

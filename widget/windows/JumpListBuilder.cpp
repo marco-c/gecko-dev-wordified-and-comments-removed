@@ -215,13 +215,13 @@ false
 :
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 CoCreateInstance
 (
 CLSID_DestinationList
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_ICustomDestinationList
 getter_AddRefs
@@ -1053,7 +1053,7 @@ hr
 CoCreateInstance
 (
 CLSID_EnumerableObjectCollection
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IObjectCollection
 getter_AddRefs
@@ -1358,7 +1358,7 @@ hr
 CoCreateInstance
 (
 CLSID_EnumerableObjectCollection
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IObjectCollection
 getter_AddRefs

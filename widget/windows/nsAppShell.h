@@ -54,7 +54,7 @@ nsAppShell
 :
 mEventWnd
 (
-NULL
+nullptr
 )
 mNativeCallbackPending
 (
