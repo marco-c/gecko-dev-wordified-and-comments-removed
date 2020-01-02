@@ -1316,7 +1316,7 @@ R
 .
 drawable
 .
-fxaccount_icon
+icon
 )
 .
 create
