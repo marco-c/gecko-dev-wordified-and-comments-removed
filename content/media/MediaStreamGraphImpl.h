@@ -924,6 +924,14 @@ mAudioStreamSizes
 bool
 mNeedsMemoryReport
 ;
+#
+ifdef
+DEBUG
+bool
+mCanRunMessagesSynchronously
+;
+#
+endif
 }
 ;
 }
