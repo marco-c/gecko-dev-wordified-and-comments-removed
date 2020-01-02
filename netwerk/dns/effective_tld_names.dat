@@ -1883,7 +1883,7 @@ dpn
 html
 /
 /
-Updated
+Submitted
 by
 registry
 <
@@ -6950,7 +6950,7 @@ jpdomain
 html
 /
 /
-Updated
+Submitted
 by
 registry
 <
@@ -27058,6 +27058,9 @@ k12
 hi
 .
 us
+Bug
+614565
+-
 Hawaii
 has
 a
@@ -27066,9 +27069,6 @@ state
 wide
 DOE
 login
-:
-bug
-614565
 k12
 .
 ia
@@ -27229,12 +27229,22 @@ us
 Bug
 934131
 -
-South
-Dakota
-has
-a
-centralized
-hosting
+Removed
+at
+request
+of
+James
+Booze
+<
+James
+.
+Booze
+k12
+.
+sd
+.
+us
+>
 k12
 .
 tn
@@ -31295,7 +31305,7 @@ cloudfront
 /
 /
 /
-Requested
+Submitted
 by
 Donavan
 Miller
@@ -31334,7 +31344,7 @@ ec2
 /
 /
 /
-Requested
+Submitted
 by
 Osman
 Surkatty
@@ -31502,7 +31512,7 @@ elasticbeanstalk
 /
 /
 /
-Requested
+Submitted
 by
 Adam
 Stein
@@ -31541,7 +31551,7 @@ elasticloadbalancing
 /
 /
 /
-Requested
+Submitted
 by
 Scott
 Vidmar
@@ -31580,7 +31590,7 @@ s3
 /
 /
 /
-Requested
+Submitted
 by
 Courtney
 Eckhardt
@@ -31829,7 +31839,7 @@ com
 BetaInABox
 /
 /
-Requested
+Submitted
 by
 adrian
 betainabox
@@ -31862,7 +31872,7 @@ names
 domains
 /
 /
-Requested
+Submitted
 by
 registry
 <
@@ -31994,7 +32004,7 @@ com
 /
 /
 /
-Requested
+Submitted
 by
 Tobias
 Wilken
@@ -32061,7 +32071,7 @@ io
 /
 /
 /
-Requested
+Submitted
 by
 Jonathan
 Rudenberg
@@ -32095,7 +32105,7 @@ com
 /
 /
 /
-Requested
+Submitted
 by
 Andrew
 Farmer
@@ -33565,7 +33575,7 @@ com
 /
 /
 /
-Requested
+Submitted
 by
 Vladimir
 Vuksan
@@ -33622,7 +33632,7 @@ Inc
 .
 /
 /
-Requested
+Submitted
 by
 Ben
 Toews
@@ -33647,7 +33657,7 @@ Inc
 .
 /
 /
-Requested
+Submitted
 by
 Zoltan
 Egresi
@@ -33672,7 +33682,7 @@ Inc
 .
 /
 /
-Requested
+Submitted
 by
 Eduardo
 Vela
@@ -33851,7 +33861,7 @@ com
 /
 /
 /
-Requested
+Submitted
 by
 Tom
 Maher
@@ -33879,7 +33889,7 @@ iki
 fi
 /
 /
-Requested
+Submitted
 by
 Hannu
 Aronsson
@@ -33957,7 +33967,7 @@ nyc
 mn
 /
 /
-Requested
+Submitted
 by
 Matthew
 Brown
@@ -33987,7 +33997,7 @@ A
 .
 /
 /
-Requested
+Submitted
 by
 Yngve
 Pettersen
@@ -34025,7 +34035,7 @@ com
 /
 /
 /
-Requested
+Submitted
 by
 Tim
 Kramer
@@ -34063,7 +34073,7 @@ at
 /
 /
 /
-Requested
+Submitted
 by
 registry
 <
@@ -34096,7 +34106,7 @@ net
 /
 /
 /
-Requested
+Submitted
 by
 registry
 <
