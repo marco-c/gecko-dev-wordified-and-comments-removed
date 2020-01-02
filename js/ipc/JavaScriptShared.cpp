@@ -49,10 +49,10 @@ mozilla
 :
 jsipc
 ;
-ObjectStore
+IdToObjectMap
 :
 :
-ObjectStore
+IdToObjectMap
 (
 )
 :
@@ -65,7 +65,7 @@ SystemAllocPolicy
 {
 }
 bool
-ObjectStore
+IdToObjectMap
 :
 :
 init
@@ -82,7 +82,7 @@ init
 ;
 }
 void
-ObjectStore
+IdToObjectMap
 :
 :
 trace
@@ -94,7 +94,7 @@ trc
 {
 for
 (
-ObjectTable
+Table
 :
 :
 Range
@@ -182,7 +182,7 @@ prior
 }
 JSObject
 *
-ObjectStore
+IdToObjectMap
 :
 :
 find
@@ -191,7 +191,7 @@ ObjectId
 id
 )
 {
-ObjectTable
+Table
 :
 :
 Ptr
@@ -222,7 +222,7 @@ value
 ;
 }
 bool
-ObjectStore
+IdToObjectMap
 :
 :
 add
@@ -245,7 +245,7 @@ obj
 ;
 }
 void
-ObjectStore
+IdToObjectMap
 :
 :
 remove
@@ -262,10 +262,10 @@ id
 )
 ;
 }
-ObjectIdCache
+ObjectToIdMap
 :
 :
-ObjectIdCache
+ObjectToIdMap
 (
 )
 :
@@ -275,11 +275,11 @@ nullptr
 )
 {
 }
-ObjectIdCache
+ObjectToIdMap
 :
 :
 ~
-ObjectIdCache
+ObjectToIdMap
 (
 )
 {
@@ -293,7 +293,7 @@ dom
 :
 AddForDeferredFinalization
 <
-ObjectIdTable
+Table
 nsAutoPtr
 >
 (
@@ -307,7 +307,7 @@ nullptr
 }
 }
 bool
-ObjectIdCache
+ObjectToIdMap
 :
 :
 init
@@ -323,7 +323,7 @@ table_
 table_
 =
 new
-ObjectIdTable
+Table
 (
 SystemAllocPolicy
 (
@@ -344,7 +344,7 @@ init
 ;
 }
 void
-ObjectIdCache
+ObjectToIdMap
 :
 :
 trace
@@ -356,7 +356,7 @@ trc
 {
 for
 (
-ObjectIdTable
+Table
 :
 :
 Range
@@ -429,7 +429,7 @@ key
 }
 }
 ObjectId
-ObjectIdCache
+ObjectToIdMap
 :
 :
 find
@@ -439,7 +439,7 @@ JSObject
 obj
 )
 {
-ObjectIdTable
+Table
 :
 :
 Ptr
@@ -471,7 +471,7 @@ value
 ;
 }
 bool
-ObjectIdCache
+ObjectToIdMap
 :
 :
 add
@@ -514,7 +514,7 @@ true
 ;
 }
 void
-ObjectIdCache
+ObjectToIdMap
 :
 :
 keyMarkCallback
@@ -530,13 +530,13 @@ void
 data
 )
 {
-ObjectIdTable
+Table
 *
 table
 =
 static_cast
 <
-ObjectIdTable
+Table
 *
 >
 (
@@ -574,7 +574,7 @@ key
 ;
 }
 void
-ObjectIdCache
+ObjectToIdMap
 :
 :
 remove
