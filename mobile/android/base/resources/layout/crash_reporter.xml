@@ -590,6 +590,8 @@ mozilla
 .
 gecko
 .
+widget
+.
 ClickableWhenDisabledEditText
 android
 :

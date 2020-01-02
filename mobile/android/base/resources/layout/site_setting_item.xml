@@ -24,6 +24,8 @@ mozilla
 .
 gecko
 .
+widget
+.
 CheckableLinearLayout
 xmlns
 :
@@ -360,6 +362,8 @@ org
 mozilla
 .
 gecko
+.
+widget
 .
 CheckableLinearLayout
 >

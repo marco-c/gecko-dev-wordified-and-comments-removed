@@ -188,6 +188,8 @@ mozilla
 .
 gecko
 .
+widget
+.
 FlowLayout
 android
 :
@@ -272,6 +274,8 @@ org
 mozilla
 .
 gecko
+.
+widget
 .
 FlowLayout
 >

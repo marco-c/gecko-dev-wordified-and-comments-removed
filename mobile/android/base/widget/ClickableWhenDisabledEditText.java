@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+widget
 ;
 import
 android
