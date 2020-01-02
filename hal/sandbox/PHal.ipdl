@@ -893,6 +893,14 @@ SwitchState
 aState
 )
 ;
+NotifySwitchStateFromInputDevice
+(
+SwitchDevice
+aDevice
+SwitchState
+aState
+)
+;
 FactoryReset
 (
 )

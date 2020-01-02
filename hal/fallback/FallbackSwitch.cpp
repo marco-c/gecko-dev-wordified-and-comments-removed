@@ -47,5 +47,15 @@ return
 SWITCH_STATE_UNKNOWN
 ;
 }
+void
+NotifySwitchStateFromInputDevice
+(
+SwitchDevice
+aDevice
+SwitchState
+aState
+)
+{
+}
 }
 }
