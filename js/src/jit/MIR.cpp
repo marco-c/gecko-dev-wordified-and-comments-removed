@@ -8568,9 +8568,12 @@ const
 {
 if
 (
-isTruncated
+truncateKind
 (
 )
+>
+=
+IndirectTruncate
 )
 return
 false
@@ -8609,9 +8612,12 @@ const
 {
 if
 (
-isTruncated
+truncateKind
 (
 )
+>
+=
+IndirectTruncate
 )
 return
 false
