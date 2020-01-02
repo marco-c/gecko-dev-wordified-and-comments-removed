@@ -1016,6 +1016,11 @@ OnFaviconLoadedListener
 java
 '
 '
+FilePicker
+.
+java
+'
+'
 FilePickerResultHandler
 .
 java

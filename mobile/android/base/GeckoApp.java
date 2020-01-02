@@ -5906,9 +5906,7 @@ path
 )
 )
 ;
-GeckoAppShell
-.
-sActivityHelper
+ActivityHandlerHelper
 .
 startIntentForActivity
 (
@@ -12927,9 +12925,7 @@ data
 if
 (
 !
-GeckoAppShell
-.
-sActivityHelper
+ActivityHandlerHelper
 .
 handleActivityResult
 (

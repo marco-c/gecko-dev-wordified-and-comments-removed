@@ -14,6 +14,15 @@ mozilla
 .
 gecko
 .
+ActivityHandlerHelper
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 AppConstants
 ;
 import
@@ -1516,9 +1525,7 @@ archive
 "
 )
 ;
-GeckoAppShell
-.
-sActivityHelper
+ActivityHandlerHelper
 .
 startIntentForActivity
 (

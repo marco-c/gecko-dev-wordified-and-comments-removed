@@ -1218,16 +1218,6 @@ volatile
 boolean
 mLocationHighAccuracy
 ;
-public
-static
-ActivityHandlerHelper
-sActivityHelper
-=
-new
-ActivityHandlerHelper
-(
-)
-;
 static
 NotificationClient
 sNotificationClient
