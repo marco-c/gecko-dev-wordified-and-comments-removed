@@ -362,17 +362,6 @@ ShadowableLayer
 aRef
 )
 ;
-virtual
-void
-DestroyedThebesBuffer
-(
-const
-SurfaceDescriptor
-&
-aBackBufferToDestroy
-)
-MOZ_OVERRIDE
-;
 void
 Mutated
 (
