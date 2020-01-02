@@ -2329,9 +2329,6 @@ enabled
 false
 )
 ;
-#
-ifdef
-XP_WIN
 pref
 (
 "
@@ -2344,6 +2341,9 @@ families_per_slice
 3
 )
 ;
+#
+ifdef
+XP_WIN
 pref
 (
 "
@@ -2370,18 +2370,6 @@ interval
 ;
 #
 else
-pref
-(
-"
-gfx
-.
-font_loader
-.
-families_per_slice
-"
-3
-)
-;
 pref
 (
 "
@@ -19279,7 +19267,7 @@ enabled
 )
 ;
 #
-WINNT
+XP_WIN
 #
 endif
 #
