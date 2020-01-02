@@ -223,7 +223,7 @@ h
 endif
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G
 #
 include
 "
@@ -3486,9 +3486,9 @@ mDeviceChosen
 (
 false
 )
-mBackendChosen
+mBackend
 (
-false
+nullptr
 )
 mManager
 (
@@ -3558,10 +3558,6 @@ mDeviceChosen
 (
 false
 )
-mBackendChosen
-(
-true
-)
 mBackend
 (
 aBackend
@@ -3582,15 +3578,6 @@ GetUserMediaRunnable
 (
 )
 {
-if
-(
-mBackendChosen
-)
-{
-delete
-mBackend
-;
-}
 }
 NS_IMETHOD
 Run
@@ -3617,7 +3604,7 @@ thread
 if
 (
 !
-mBackendChosen
+mBackend
 )
 {
 mBackend
@@ -4369,9 +4356,6 @@ mPrefs
 ;
 bool
 mDeviceChosen
-;
-bool
-mBackendChosen
 ;
 MediaEngine
 *
@@ -5552,7 +5536,7 @@ Get
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G
 (
 void
 )
