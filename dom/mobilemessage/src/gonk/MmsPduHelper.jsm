@@ -3024,6 +3024,7 @@ encode
 (
 data
 str
+true
 )
 ;
 }
