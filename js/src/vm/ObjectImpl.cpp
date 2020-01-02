@@ -2016,9 +2016,13 @@ ifdef
 JSGC_GENERATIONAL
 if
 (
-!
-isTenured
+IsInsideNursery
 (
+GetGCThingRuntime
+(
+this
+)
+this
 )
 )
 return
