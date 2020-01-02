@@ -619,16 +619,6 @@ aManager
 }
 virtual
 void
-PostRender
-(
-LayerManager
-*
-aManager
-)
-{
-}
-virtual
-void
 DrawWindowUnderlay
 (
 LayerManager
