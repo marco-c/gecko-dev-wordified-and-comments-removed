@@ -31,6 +31,9 @@ browser
 .
 inc
 %
+filter
+substitution
+%
 define
 fgTabTexture
 linear
