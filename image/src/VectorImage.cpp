@@ -1647,7 +1647,7 @@ WindowsMallocSizeOf
 doc
 -
 >
-DocAddSizeOfExcludingThis
+DocAddSizeOfIncludingThis
 (
 &
 windowSizes
