@@ -3188,13 +3188,11 @@ NS_NewDOMMutationEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-InternalMutationEvent
-*
->
-(
 aEvent
+-
+>
+AsMutationEvent
+(
 )
 )
 ;
