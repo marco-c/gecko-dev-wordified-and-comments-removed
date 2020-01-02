@@ -14395,7 +14395,12 @@ function
 (
 )
 {
+SpecialPowers
+.
+wrap
+(
 window
+)
 .
 back
 (
