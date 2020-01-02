@@ -43,17 +43,12 @@ Preferences
 h
 "
 #
-ifdef
-MOZ_OGG
-#
 include
 "
 OggWriter
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_OPUS
@@ -588,9 +583,6 @@ VIDEO_MP4
 }
 #
 endif
-#
-ifdef
-MOZ_OGG
 else
 if
 (
@@ -664,8 +656,6 @@ AUDIO_OGG
 )
 ;
 }
-#
-endif
 else
 {
 LOG

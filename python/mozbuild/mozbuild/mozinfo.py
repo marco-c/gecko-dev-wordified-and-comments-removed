@@ -603,17 +603,7 @@ ogg
 '
 ]
 =
-bool
-(
-substs
-.
-get
-(
-'
-MOZ_OGG
-'
-)
-)
+True
     
 d
 [

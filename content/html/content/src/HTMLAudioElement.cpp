@@ -877,16 +877,11 @@ webm
 "
 #
 endif
-#
-ifdef
-MOZ_OGG
 "
 audio
 /
 ogg
 "
-#
-endif
 #
 ifdef
 MOZ_WAVE
@@ -908,9 +903,6 @@ q
 .
 9
 "
-#
-ifdef
-MOZ_OGG
 "
 application
 /
@@ -922,8 +914,6 @@ q
 .
 7
 "
-#
-endif
 "
 video
 /

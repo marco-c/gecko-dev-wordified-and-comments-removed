@@ -575,16 +575,11 @@ webm
 "
 #
 endif
-#
-ifdef
-MOZ_OGG
 "
 video
 /
 ogg
 "
-#
-endif
 "
 video
 /
@@ -596,9 +591,6 @@ q
 .
 9
 "
-#
-ifdef
-MOZ_OGG
 "
 application
 /
@@ -610,8 +602,6 @@ q
 .
 7
 "
-#
-endif
 "
 audio
 /

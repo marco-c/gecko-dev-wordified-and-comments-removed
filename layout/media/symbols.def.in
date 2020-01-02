@@ -215,9 +215,6 @@ cubeb_stream_init
 cubeb_stream_start
 cubeb_stream_stop
 cubeb_stream_get_latency
-#
-ifdef
-MOZ_OGG
 th_comment_clear
 th_comment_init
 th_decode_alloc
@@ -231,8 +228,6 @@ th_info_init
 th_packet_isheader
 th_packet_iskeyframe
 th_setup_free
-#
-endif
 #
 ifdef
 MOZ_OPUS

@@ -7248,9 +7248,6 @@ enabled
 }
 #
 endif
-#
-ifdef
-MOZ_OGG
 bool
 MediaDecoder
 :
@@ -7309,8 +7306,6 @@ enabled
 )
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_WAVE
