@@ -549,6 +549,14 @@ Security
 <
 !
 ENTITY
+edit_mode_cancel
+"
+Cancel
+"
+>
+<
+!
+ENTITY
 close_tab
 "
 Close
