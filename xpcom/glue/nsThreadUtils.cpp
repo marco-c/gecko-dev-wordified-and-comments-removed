@@ -1339,6 +1339,9 @@ name
 }
 else
 {
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 PR_SetCurrentThreadName
 (
 name
@@ -1348,6 +1351,8 @@ BeginReading
 )
 )
 ;
+#
+endif
 }
 }
 nsAutoLowPriorityIO
