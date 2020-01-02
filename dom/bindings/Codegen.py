@@ -25568,6 +25568,9 @@ nullable
             
 if
 isOptional
+and
+not
+isMember
 :
                 
 holderArgs
@@ -26077,8 +26080,12 @@ dealWithOptional
 =
 isOptional
 and
+(
 not
 nullable
+or
+isMember
+)
 )
     
 if

@@ -5541,6 +5541,14 @@ long
 ?
 nullableEventInitOrLong
 ;
+(
+Node
+or
+long
+)
+?
+nullableNodeOrLong
+;
 /
 /
 CustomEventInit
