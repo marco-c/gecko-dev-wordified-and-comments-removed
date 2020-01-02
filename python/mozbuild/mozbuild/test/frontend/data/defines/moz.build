@@ -66,5 +66,10 @@ VALUE
 '
 :
 value
+'
+QUX
+'
+:
+False
 }
 )
