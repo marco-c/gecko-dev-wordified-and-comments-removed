@@ -184,7 +184,7 @@ const
 bool
 allOfKind
 (
-TypeDescr
+type
 :
 :
 Kind
@@ -220,7 +220,7 @@ Class
 knownClass
 )
 ;
-TypeDescr
+type
 :
 :
 Kind

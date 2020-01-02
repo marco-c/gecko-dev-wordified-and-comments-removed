@@ -8846,7 +8846,7 @@ kind
 )
 !
 =
-TypeDescr
+type
 :
 :
 Scalar
