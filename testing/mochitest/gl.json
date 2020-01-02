@@ -12,9 +12,13 @@ canvas
 test
 /
 webgl
+-
+conformance
 "
 :
 "
+bug
+865443
 "
 }
 "
