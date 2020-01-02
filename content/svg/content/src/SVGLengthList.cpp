@@ -216,9 +216,6 @@ nsCharSeparatedTokenizer
 SEPARATOR_OPTIONAL
 )
 ;
-nsAutoCString
-str
-;
 while
 (
 tokenizer
