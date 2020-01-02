@@ -156,6 +156,12 @@ button
 characterencoding
 -
 button
+#
+email
+-
+link
+-
+button
 %
 define
 inAnyPanel
