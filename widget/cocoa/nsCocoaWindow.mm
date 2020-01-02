@@ -3930,7 +3930,7 @@ mWindow
 (
 [
 mWindow
-isVisible
+isVisibleOrBeingShown
 ]
 |
 |
