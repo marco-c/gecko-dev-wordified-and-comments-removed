@@ -132,6 +132,11 @@ BackgroundParent
 h
 '
 '
+BackgroundUtils
+.
+h
+'
+'
 BrowserProcessSubThread
 .
 h
@@ -537,6 +542,11 @@ BackgroundImpl
 cpp
 '
 '
+BackgroundUtils
+.
+cpp
+'
+'
 BrowserProcessSubThread
 .
 cpp
@@ -684,6 +694,11 @@ ipdlh
 PBackground
 .
 ipdl
+'
+'
+PBackgroundSharedTypes
+.
+ipdlh
 '
 '
 PBackgroundTest
