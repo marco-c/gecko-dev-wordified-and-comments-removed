@@ -169,12 +169,6 @@ config
 config
 .
 mk
-VPATH
-+
-=
-(
-srcdir
-)
 #
 Tree
 to

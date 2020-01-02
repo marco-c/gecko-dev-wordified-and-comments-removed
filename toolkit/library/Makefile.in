@@ -129,15 +129,6 @@ MAKE_FRAMEWORK
 =
 1
 endif
-VPATH
-+
-=
-(
-topsrcdir
-)
-/
-build
-/
 ifdef
 MOZ_CONTENT_SANDBOX
 ifeq

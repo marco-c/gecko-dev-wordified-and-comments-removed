@@ -87,14 +87,6 @@ code
 USE_STATIC_LIBS
 =
 1
-VPATH
-+
-=
-(
-topsrcdir
-)
-/
-build
 ifeq
 (
 (

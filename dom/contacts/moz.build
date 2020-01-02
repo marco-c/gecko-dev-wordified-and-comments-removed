@@ -146,6 +146,8 @@ EXTRA_JS_MODULES
 =
 [
 '
+fallback
+/
 ContactDB
 .
 jsm
@@ -169,6 +171,8 @@ EXTRA_JS_MODULES
 =
 [
 '
+fallback
+/
 ContactService
 .
 jsm

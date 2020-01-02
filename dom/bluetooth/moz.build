@@ -439,6 +439,14 @@ FINAL_LIBRARY
 '
 gklayout
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+ipc
+'
+]
 EXPORTS
 .
 mozilla

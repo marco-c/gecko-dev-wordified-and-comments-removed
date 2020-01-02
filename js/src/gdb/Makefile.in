@@ -64,12 +64,6 @@ MPL
 0
 /
 .
-VPATH
-=
-srcdir
-srcdir
-/
-tests
 LIBS
 =
 (

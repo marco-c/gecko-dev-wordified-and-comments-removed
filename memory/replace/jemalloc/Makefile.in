@@ -104,16 +104,6 @@ include
 /
 msvc_compat
 endif
-VPATH
-+
-=
-(
-topsrcdir
-)
-/
-memory
-/
-build
 MOZ_GLUE_LDFLAGS
 =
 #
