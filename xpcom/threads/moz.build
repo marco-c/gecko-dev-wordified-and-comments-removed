@@ -190,6 +190,11 @@ mozilla
 =
 [
 '
+BackgroundHangMonitor
+.
+h
+'
+'
 HangMonitor
 .
 h
@@ -209,6 +214,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+BackgroundHangMonitor
+.
+cpp
+'
 '
 HangMonitor
 .
