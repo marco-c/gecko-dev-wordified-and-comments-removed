@@ -1257,7 +1257,7 @@ JS_UNLIKELY
 (
 vp
 .
-isUndefined
+isPrimitive
 (
 )
 )
@@ -18289,7 +18289,7 @@ JS_UNLIKELY
 (
 vp
 .
-isUndefined
+isPrimitive
 (
 )
 )
