@@ -308,6 +308,9 @@ LifoAlloc
 *
 storage_
 ;
+size_t
+usedAtLastCompact_
+;
 explicit
 MonoTypeBuffer
 (
@@ -316,6 +319,10 @@ MonoTypeBuffer
 storage_
 (
 nullptr
+)
+usedAtLastCompact_
+(
+0
 )
 {
 }
@@ -394,6 +401,10 @@ freeAll
 (
 )
 ;
+usedAtLastCompact_
+=
+0
+;
 }
 bool
 isAboutToOverflow
@@ -432,6 +443,14 @@ owner
 virtual
 void
 compact
+(
+StoreBuffer
+*
+owner
+)
+;
+void
+maybeCompact
 (
 StoreBuffer
 *
