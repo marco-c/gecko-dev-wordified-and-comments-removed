@@ -1345,13 +1345,13 @@ url
 "
 stun
 :
-23
+stun
 .
-21
+services
 .
-150
+mozilla
 .
-121
+com
 \
 "
 }
@@ -1636,7 +1636,7 @@ true
 pref
 (
 "
-apz
+apzc
 .
 axis_lock_mode
 "
