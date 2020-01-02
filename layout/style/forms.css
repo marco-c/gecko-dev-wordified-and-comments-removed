@@ -4640,6 +4640,12 @@ read
 -
 write
 ;
+text
+-
+align
+:
+inherit
+;
 flex
 :
 1
