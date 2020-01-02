@@ -172,6 +172,11 @@ sur
 private
 :
 void
+Reset
+(
+)
+;
+void
 Prepare
 (
 buffer_handle_t
@@ -271,6 +276,9 @@ LayerComposite
 *
 >
 mHwcLayerMap
+;
+bool
+mPrepared
 ;
 }
 ;
