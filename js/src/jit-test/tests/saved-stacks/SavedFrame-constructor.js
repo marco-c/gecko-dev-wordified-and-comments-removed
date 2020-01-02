@@ -1,0 +1,9 @@
+assertEq
+(
+typeof
+SavedFrame
+"
+undefined
+"
+)
+;
