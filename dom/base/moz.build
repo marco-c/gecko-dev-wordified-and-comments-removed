@@ -732,9 +732,14 @@ if
 CONFIG
 [
 '
-MOZ_B2G_RIL
+MOZ_WIDGET_TOOLKIT
 '
 ]
+=
+=
+'
+gonk
+'
 :
 LOCAL_INCLUDES
 +
