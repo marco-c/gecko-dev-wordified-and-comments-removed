@@ -238,6 +238,11 @@ gfxPointH3D
 h
 '
 '
+gfxPrefs
+.
+h
+'
+'
 gfxQuad
 .
 h
@@ -1154,6 +1159,11 @@ Uses
 FORCE_PR_LOG
 '
 gfxPlatformFontList
+.
+cpp
+'
+'
+gfxPrefs
 .
 cpp
 '
