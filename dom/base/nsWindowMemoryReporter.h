@@ -189,6 +189,12 @@ Other
 mPropertyTablesSize
 )
 \
+macro
+(
+Other
+mProtoIfaceCacheSize
+)
+\
 public
 :
 nsWindowSizes
