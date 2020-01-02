@@ -815,6 +815,10 @@ SetTargetContext
 aTarget
 )
 ;
+mTarget
+=
+aTarget
+;
 }
 bool
 LayerManagerComposite
@@ -1070,6 +1074,10 @@ SetTargetContext
 (
 nullptr
 )
+;
+mTarget
+=
+nullptr
 ;
 #
 ifdef
@@ -2206,6 +2214,10 @@ GetComposer2D
 ;
 if
 (
+!
+mTarget
+&
+&
 composer2D
 &
 &

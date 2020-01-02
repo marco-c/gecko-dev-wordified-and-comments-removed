@@ -876,6 +876,15 @@ LayerProperties
 >
 mClonedLayerTreeProperties
 ;
+RefPtr
+<
+gfx
+:
+:
+DrawTarget
+>
+mTarget
+;
 gfx
 :
 :
