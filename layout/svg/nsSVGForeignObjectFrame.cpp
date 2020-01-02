@@ -2179,7 +2179,7 @@ nsSVGForeignObjectFrame
 GetBBoxContribution
 (
 const
-gfxMatrix
+Matrix
 &
 aToBBoxUserspace
 uint32_t
@@ -2269,7 +2269,10 @@ aToBBoxUserspace
 .
 TransformBounds
 (
-gfxRect
+gfx
+:
+:
+Rect
 (
 0
 .

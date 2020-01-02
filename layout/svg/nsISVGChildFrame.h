@@ -25,9 +25,6 @@ class
 nsRenderingContext
 ;
 struct
-gfxMatrix
-;
-struct
 nsPoint
 ;
 class
@@ -196,7 +193,13 @@ SVGBBox
 GetBBoxContribution
 (
 const
-gfxMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
 &
 aToBBoxUserspace
 uint32_t

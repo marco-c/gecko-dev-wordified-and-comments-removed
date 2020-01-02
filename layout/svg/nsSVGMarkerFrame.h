@@ -319,7 +319,13 @@ SVGBBox
 GetMarkBBoxContribution
 (
 const
-gfxMatrix
+mozilla
+:
+:
+gfx
+:
+:
+Matrix
 &
 aToBBoxUserspace
 uint32_t

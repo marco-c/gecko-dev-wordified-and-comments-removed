@@ -1707,7 +1707,7 @@ nsSVGDisplayContainerFrame
 GetBBoxContribution
 (
 const
-gfxMatrix
+Matrix
 &
 aToBBoxUserspace
 uint32_t
@@ -1749,7 +1749,13 @@ svgKid
 gfxMatrix
 transform
 =
+gfx
+:
+:
+ThebesMatrix
+(
 aToBBoxUserspace
+)
 ;
 nsIContent
 *
@@ -1786,7 +1792,7 @@ content
 >
 PrependLocalTransformsTo
 (
-aToBBoxUserspace
+transform
 )
 ;
 }
@@ -1799,7 +1805,13 @@ svgKid
 >
 GetBBoxContribution
 (
+gfx
+:
+:
+ToMatrix
+(
 transform
+)
 aFlags
 )
 )

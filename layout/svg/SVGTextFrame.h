@@ -982,7 +982,7 @@ SVGBBox
 GetBBoxContribution
 (
 const
-gfxMatrix
+Matrix
 &
 aToBBoxUserspace
 uint32_t

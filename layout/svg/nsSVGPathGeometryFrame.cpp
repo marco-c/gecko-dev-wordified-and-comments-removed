@@ -1411,7 +1411,10 @@ height
 -
 6
 ;
-gfxMatrix
+gfx
+:
+:
+Matrix
 scaling
 ;
 if
@@ -1681,7 +1684,7 @@ nsSVGPathGeometryFrame
 GetBBoxContribution
 (
 const
-gfxMatrix
+Matrix
 &
 aToBBoxUserspace
 uint32_t
@@ -1729,7 +1732,10 @@ ScreenReferenceSurface
 GeneratePath
 (
 tmpCtx
+ThebesMatrix
+(
 aToBBoxUserspace
+)
 )
 ;
 tmpCtx
@@ -1891,7 +1897,10 @@ PathExtentsToMaxStrokeExtents
 (
 pathExtents
 this
+ThebesMatrix
+(
 aToBBoxUserspace
+)
 )
 )
 ;
