@@ -959,6 +959,9 @@ CompileError
 >
 errors
 ;
+bool
+overRecursed
+;
 ParseTask
 (
 ExclusiveContext
