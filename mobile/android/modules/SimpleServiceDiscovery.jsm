@@ -1206,7 +1206,6 @@ function
 findAppForService
 (
 aService
-aApp
 )
 {
 if
@@ -1254,7 +1253,6 @@ target
 factory
 (
 aService
-aApp
 )
 ;
 }

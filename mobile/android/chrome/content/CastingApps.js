@@ -43,7 +43,6 @@ ecp
 function
 (
 aService
-aApp
 )
 {
 Cu
@@ -70,9 +69,6 @@ new
 RokuApp
 (
 aService
-"
-FirefoxTest
-"
 )
 ;
 }
@@ -1807,11 +1803,6 @@ SimpleServiceDiscovery
 findAppForService
 (
 aService
-"
-video
--
-sharing
-"
 )
 ;
 if
