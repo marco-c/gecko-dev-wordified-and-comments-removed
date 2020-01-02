@@ -446,9 +446,7 @@ operator
 =
 =
 (
-const
 FloatRegister
-&
 other
 )
 const
@@ -467,9 +465,7 @@ operator
 !
 =
 (
-const
 FloatRegister
-&
 other
 )
 const

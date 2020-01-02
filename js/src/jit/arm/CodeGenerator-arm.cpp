@@ -7339,9 +7339,7 @@ CodeGeneratorARM
 :
 emitRoundDouble
 (
-const
 FloatRegister
-&
 src
 Register
 dest

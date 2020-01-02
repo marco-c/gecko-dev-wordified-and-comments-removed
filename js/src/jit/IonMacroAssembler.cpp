@@ -1782,9 +1782,7 @@ storeToTypedFloatArray
 (
 int
 arrayType
-const
 FloatRegister
-&
 value
 const
 BaseIndex
@@ -1810,9 +1808,7 @@ storeToTypedFloatArray
 (
 int
 arrayType
-const
 FloatRegister
-&
 value
 const
 Address

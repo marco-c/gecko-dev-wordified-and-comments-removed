@@ -463,9 +463,7 @@ static
 RValueAllocation
 Double
 (
-const
 FloatRegister
-&
 reg
 )
 {
@@ -484,9 +482,7 @@ static
 RValueAllocation
 Float32
 (
-const
 FloatRegister
-&
 reg
 )
 {

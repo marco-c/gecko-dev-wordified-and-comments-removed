@@ -1155,9 +1155,7 @@ OutOfLineCode
 *
 oolTruncateDouble
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -1166,9 +1164,7 @@ dest
 bool
 emitTruncateDouble
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -1177,9 +1173,7 @@ dest
 bool
 emitTruncateFloat32
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -1549,9 +1543,7 @@ reg
 void
 storeFloatResultTo
 (
-const
 FloatRegister
-&
 reg
 )
 {
@@ -2563,9 +2555,7 @@ public
 :
 StoreFloatRegisterTo
 (
-const
 FloatRegister
-&
 out
 )
 :

@@ -93,9 +93,7 @@ code
 explicit
 MoveOperand
 (
-const
 FloatRegister
-&
 reg
 )
 :

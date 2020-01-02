@@ -401,9 +401,7 @@ generateOutOfLineCode
 void
 emitRoundDouble
 (
-const
 FloatRegister
-&
 src
 Register
 dest

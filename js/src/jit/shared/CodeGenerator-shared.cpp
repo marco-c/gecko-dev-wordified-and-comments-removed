@@ -3728,9 +3728,7 @@ CodeGeneratorShared
 :
 oolTruncateDouble
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -3773,9 +3771,7 @@ CodeGeneratorShared
 :
 emitTruncateDouble
 (
-const
 FloatRegister
-&
 src
 Register
 dest
@@ -3835,9 +3831,7 @@ CodeGeneratorShared
 :
 emitTruncateFloat32
 (
-const
 FloatRegister
-&
 src
 Register
 dest
