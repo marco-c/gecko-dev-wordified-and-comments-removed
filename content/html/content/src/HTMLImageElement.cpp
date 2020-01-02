@@ -397,6 +397,12 @@ longdesc
 NS_IMPL_STRING_ATTR
 (
 HTMLImageElement
+Sizes
+sizes
+)
+NS_IMPL_STRING_ATTR
+(
+HTMLImageElement
 Lowsrc
 lowsrc
 )
