@@ -85,6 +85,14 @@ return
 false
 ;
 }
+virtual
+JSObject
+*
+defaultScope
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 bool

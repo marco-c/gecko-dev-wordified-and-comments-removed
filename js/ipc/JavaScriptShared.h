@@ -653,6 +653,15 @@ isParent
 =
 0
 ;
+virtual
+JSObject
+*
+defaultScope
+(
+)
+=
+0
+;
 protected
 :
 JSRuntime

@@ -2068,10 +2068,7 @@ JSAutoCompartment
 ac
 (
 cx
-xpc
-:
-:
-PrivilegedJunkScope
+defaultScope
 (
 )
 )
