@@ -1674,11 +1674,14 @@ reader
         
 expected_defines
 =
+dict
+(
 reader
 .
 config
 .
 defines
+)
         
 expected_defines
 .
