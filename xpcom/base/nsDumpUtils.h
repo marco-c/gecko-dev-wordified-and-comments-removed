@@ -309,7 +309,7 @@ FifoCallback
 const
 nsCString
 &
-inputStr
+aInputStr
 )
 ;
 struct
@@ -441,7 +441,7 @@ PipeCallback
 (
 const
 uint8_t
-recvSig
+aRecvSig
 )
 ;
 struct

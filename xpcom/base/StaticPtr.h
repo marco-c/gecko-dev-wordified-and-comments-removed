@@ -145,7 +145,7 @@ StaticAutoPtr
 T
 >
 &
-other
+aOther
 )
 ;
 #

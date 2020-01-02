@@ -51,10 +51,10 @@ DeferredFinalizeAppendFunction
 (
 void
 *
-pointers
+aPointers
 void
 *
-thing
+aThing
 )
 ;
 typedef
@@ -65,10 +65,10 @@ DeferredFinalizeFunction
 )
 (
 uint32_t
-slice
+aSlice
 void
 *
-data
+aData
 )
 ;
 }

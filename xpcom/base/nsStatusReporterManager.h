@@ -34,10 +34,10 @@ nsStatusReporter
 (
 nsACString
 &
-process
+aProcess
 nsACString
 &
-desc
+aDesc
 )
 ;
 virtual
