@@ -327,7 +327,7 @@ nullptr
 ;
 ElementAnimationCollection
 *
-animations
+collection
 =
 static_cast
 <
@@ -347,11 +347,11 @@ aElementProperty
 if
 (
 !
-animations
+collection
 |
 |
 !
-animations
+collection
 -
 >
 HasAnimationOfProperty
@@ -361,7 +361,7 @@ aProperty
 |
 |
 !
-animations
+collection
 -
 >
 CanPerformOnCompositorThread
@@ -386,7 +386,7 @@ nsLayoutUtils
 :
 GetStyleFrame
 (
-animations
+collection
 -
 >
 mElement
@@ -436,7 +436,7 @@ eCSSProperty_transform
 }
 }
 return
-animations
+collection
 ;
 }
 NS_IMPL_ISUPPORTS
@@ -1051,7 +1051,7 @@ eAnimationSheet
 {
 ElementAnimationCollection
 *
-ea
+collection
 =
 mPresContext
 -
@@ -1075,7 +1075,7 @@ false
 ;
 NS_ASSERTION
 (
-ea
+collection
 "
 Rule
 has
@@ -1098,7 +1098,7 @@ AnimationManager
 >
 UpdateStyleAndEvents
 (
-ea
+collection
 mPresContext
 -
 >
@@ -1117,7 +1117,7 @@ curRule
 .
 mRule
 =
-ea
+collection
 -
 >
 mStyleRule
@@ -1139,7 +1139,7 @@ eTransitionSheet
 {
 ElementAnimationCollection
 *
-et
+collection
 =
 mPresContext
 -
@@ -1163,7 +1163,7 @@ false
 ;
 NS_ASSERTION
 (
-et
+collection
 "
 Rule
 has
@@ -1176,7 +1176,7 @@ manager
 "
 )
 ;
-et
+collection
 -
 >
 EnsureStyleRuleFor
@@ -1199,7 +1199,7 @@ curRule
 .
 mRule
 =
-et
+collection
 -
 >
 mStyleRule
@@ -3686,7 +3686,7 @@ aData
 {
 ElementAnimationCollection
 *
-data
+collection
 =
 static_cast
 <
@@ -3703,7 +3703,7 @@ DEBUG
 NS_ABORT_IF_FALSE
 (
 !
-data
+collection
 -
 >
 mCalledPropertyDtor
@@ -3717,7 +3717,7 @@ twice
 "
 )
 ;
-data
+collection
 -
 >
 mCalledPropertyDtor
@@ -3727,7 +3727,7 @@ true
 #
 endif
 delete
-data
+collection
 ;
 }
 void
