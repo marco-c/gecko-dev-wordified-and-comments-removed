@@ -467,9 +467,9 @@ value
 =
 "
 &
-syncCustomize
+syncCustomizeUnix
 .
-subTitleUnix
+description
 ;
 "
 #
@@ -480,7 +480,7 @@ value
 &
 syncCustomize
 .
-subTitle
+description
 ;
 "
 #
