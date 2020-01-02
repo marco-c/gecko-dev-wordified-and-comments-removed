@@ -433,6 +433,13 @@ index
 )
 continue
 ;
+allocator
+.
+releaseIndex
+(
+index
+)
+;
 String
 targetProcessName
 =
