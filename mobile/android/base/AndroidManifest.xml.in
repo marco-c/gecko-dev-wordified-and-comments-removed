@@ -942,6 +942,13 @@ MOZ_DEBUG
 )
 android
 :
+allowBackup
+=
+"
+true
+"
+android
+:
 debuggable
 =
 "
@@ -950,6 +957,13 @@ true
 >
 #
 else
+android
+:
+allowBackup
+=
+"
+false
+"
 android
 :
 debuggable
