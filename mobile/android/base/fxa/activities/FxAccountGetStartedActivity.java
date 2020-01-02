@@ -239,12 +239,12 @@ R
 .
 string
 .
-fxaccount_old_firefox
+fxaccount_getting_started_old_firefox
 R
 .
 string
 .
-fxaccount_link_old_firefox
+fxaccount_getting_started_link_old_firefox
 )
 ;
 View
@@ -311,6 +311,7 @@ CHILD_REQUEST_CODE
 )
 ;
 }
+Override
 public
 void
 onResume
