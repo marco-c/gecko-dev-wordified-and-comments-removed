@@ -13034,9 +13034,11 @@ JS_ValueToObject
 (
 cx
 args
-[
+.
+get
+(
 0
-]
+)
 &
 vobj
 )
