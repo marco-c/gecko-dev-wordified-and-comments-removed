@@ -364,6 +364,11 @@ SplayTree
 h
 '
 '
+TaggedAnonymousMemory
+.
+h
+'
+'
 TemplateLib
 .
 h
@@ -543,6 +548,11 @@ cpp
 '
 '
 SHA1
+.
+cpp
+'
+'
+TaggedAnonymousMemory
 .
 cpp
 '
