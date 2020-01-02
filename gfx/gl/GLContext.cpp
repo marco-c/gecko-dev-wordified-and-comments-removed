@@ -1055,9 +1055,9 @@ false
 #
 ifdef
 DEBUG
-mGLError
+mIsInLocalErrorCheck
 (
-LOCAL_GL_NO_ERROR
+false
 )
 #
 endif
