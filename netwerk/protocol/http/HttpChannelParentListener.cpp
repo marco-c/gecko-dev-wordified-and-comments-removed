@@ -731,6 +731,11 @@ it
 "
 )
 ;
+if
+(
+activeRedirectingChannel
+)
+{
 activeRedirectingChannel
 -
 >
@@ -739,6 +744,14 @@ CompleteRedirect
 succeeded
 )
 ;
+}
+else
+{
+succeeded
+=
+false
+;
+}
 if
 (
 succeeded

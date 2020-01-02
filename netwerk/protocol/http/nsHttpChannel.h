@@ -1521,6 +1521,11 @@ mIsPartialRequest
 :
 1
 ;
+uint32_t
+mHasAutoRedirectVetoNotifier
+:
+1
+;
 nsTArray
 <
 nsContinueRedirectionFunc
