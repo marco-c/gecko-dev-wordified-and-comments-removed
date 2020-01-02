@@ -580,6 +580,9 @@ int
 mConnectionState
 ;
 int
+mPrevConnectionState
+;
+int
 mAudioState
 ;
 int
