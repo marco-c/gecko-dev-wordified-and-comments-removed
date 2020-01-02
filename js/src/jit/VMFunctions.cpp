@@ -535,7 +535,7 @@ true
 }
 JSObject
 *
-NewGCThing
+NewGCObject
 (
 JSContext
 *
@@ -545,8 +545,6 @@ gc
 :
 AllocKind
 allocKind
-size_t
-thingSize
 gc
 :
 :
@@ -555,18 +553,13 @@ initialHeap
 )
 {
 return
-gc
-:
-:
-NewGCThing
+js_NewGCObject
 <
-JSObject
 CanGC
 >
 (
 cx
 allocKind
-thingSize
 initialHeap
 )
 ;
