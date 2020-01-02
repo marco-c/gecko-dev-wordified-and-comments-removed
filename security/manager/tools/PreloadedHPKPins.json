@@ -1412,7 +1412,7 @@ mozilla
 test_mode
 "
 :
-true
+false
 "
 id
 "
@@ -1447,7 +1447,7 @@ mozilla
 test_mode
 "
 :
-true
+false
 "
 id
 "
