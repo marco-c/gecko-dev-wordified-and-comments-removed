@@ -258,7 +258,7 @@ ShadowRoot
 *
 oldShadow
 =
-GetShadowRoot
+GetContainingShadow
 (
 )
 ;
