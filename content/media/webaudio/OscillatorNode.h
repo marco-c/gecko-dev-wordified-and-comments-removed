@@ -509,12 +509,6 @@ AudioParam
 >
 mDetune
 ;
-SelfReference
-<
-OscillatorNode
->
-mPlayingRef
-;
 bool
 mStartCalled
 ;
