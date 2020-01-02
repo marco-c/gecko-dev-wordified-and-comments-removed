@@ -2782,7 +2782,10 @@ hasPrefetch
 =
 linkTypes
 &
-PREFETCH
+nsStyleLinkElement
+:
+:
+ePREFETCH
 ;
 if
 (
@@ -2792,7 +2795,10 @@ hasPrefetch
 (
 linkTypes
 &
-NEXT
+nsStyleLinkElement
+:
+:
+eNEXT
 )
 )
 {
@@ -2835,7 +2841,10 @@ if
 (
 linkTypes
 &
-DNS_PREFETCH
+nsStyleLinkElement
+:
+:
+eDNS_PREFETCH
 )
 {
 nsAutoString

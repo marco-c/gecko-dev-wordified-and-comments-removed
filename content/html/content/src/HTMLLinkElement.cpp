@@ -1051,7 +1051,10 @@ dropSheet
 (
 linkTypes
 &
-STYLESHEET
+nsStyleLinkElement
+:
+:
+eSTYLESHEET
 )
 ;
 }
@@ -1484,7 +1487,10 @@ if
 (
 linkTypes
 &
-STYLESHEET
+nsStyleLinkElement
+:
+:
+eSTYLESHEET
 )
 )
 {
@@ -1521,7 +1527,10 @@ if
 (
 linkTypes
 &
-ALTERNATE
+nsStyleLinkElement
+:
+:
+eALTERNATE
 )
 {
 if

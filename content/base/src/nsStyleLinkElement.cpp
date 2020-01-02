@@ -402,6 +402,7 @@ mLineNumber
 aLineNumber
 ;
 }
+static
 uint32_t
 ToLinkMask
 (
@@ -423,7 +424,10 @@ prefetch
 )
 )
 return
-PREFETCH
+nsStyleLinkElement
+:
+:
+ePREFETCH
 ;
 else
 if
@@ -440,7 +444,10 @@ prefetch
 )
 )
 return
-DNS_PREFETCH
+nsStyleLinkElement
+:
+:
+eDNS_PREFETCH
 ;
 else
 if
@@ -455,7 +462,10 @@ stylesheet
 )
 )
 return
-STYLESHEET
+nsStyleLinkElement
+:
+:
+eSTYLESHEET
 ;
 else
 if
@@ -470,7 +480,10 @@ next
 )
 )
 return
-NEXT
+nsStyleLinkElement
+:
+:
+eNEXT
 ;
 else
 if
@@ -485,7 +498,10 @@ alternate
 )
 )
 return
-ALTERNATE
+nsStyleLinkElement
+:
+:
+eALTERNATE
 ;
 else
 return
