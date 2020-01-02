@@ -2531,7 +2531,7 @@ nsCocoaUtils
 :
 InitPluginEvent
 (
-nsPluginEvent
+WidgetPluginEvent
 &
 aPluginEvent
 NPCocoaEvent

@@ -16764,7 +16764,7 @@ mGeckoChild
 )
 return
 ;
-nsPluginEvent
+WidgetPluginEvent
 pluginEvent
 (
 true
@@ -30761,7 +30761,7 @@ mPluginEventModel
 NPEventModelCocoa
 )
 {
-nsPluginEvent
+WidgetPluginEvent
 pluginEvent
 (
 true

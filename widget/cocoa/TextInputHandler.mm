@@ -22822,7 +22822,7 @@ NPNSString
 )
 text
 ;
-nsPluginEvent
+WidgetPluginEvent
 pluginEvent
 (
 true
@@ -23605,7 +23605,7 @@ to
 the
 plugin
 .
-nsPluginEvent
+WidgetPluginEvent
 pluginEvent
 (
 true
@@ -23789,7 +23789,7 @@ to
 the
 plugin
 .
-nsPluginEvent
+WidgetPluginEvent
 pluginEvent
 (
 true
@@ -24307,7 +24307,7 @@ NPNSString
 )
 aString
 ;
-nsPluginEvent
+WidgetPluginEvent
 pluginEvent
 (
 true

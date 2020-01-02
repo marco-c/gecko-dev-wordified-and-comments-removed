@@ -15884,7 +15884,7 @@ mSentInitialTopLevelWindowEvent
 =
 true
 ;
-nsPluginEvent
+WidgetPluginEvent
 pluginEvent
 (
 true
