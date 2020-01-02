@@ -240,6 +240,11 @@ testGCOutOfMemory
 cpp
 '
 '
+testGCStoreBufferRemoval
+.
+cpp
+'
+'
 testHashTable
 .
 cpp
