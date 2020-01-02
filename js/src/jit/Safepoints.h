@@ -196,7 +196,7 @@ uint32_t
 currentSlotChunk_
 ;
 uint32_t
-currentSlotChunkNumber_
+nextSlotChunkNumber_
 ;
 uint32_t
 osiCallPointOffset_
