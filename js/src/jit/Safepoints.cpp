@@ -570,6 +570,7 @@ rawLength
 (
 )
 ;
+const
 uint32_t
 *
 words
