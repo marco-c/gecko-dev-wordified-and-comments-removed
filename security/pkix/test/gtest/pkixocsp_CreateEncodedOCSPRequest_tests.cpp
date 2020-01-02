@@ -53,7 +53,7 @@ pkix
 test
 ;
 class
-pkix_ocsp_request_tests
+pkixocsp_CreateEncodedOCSPRequest
 :
 public
 NSSTest
@@ -316,7 +316,7 @@ SECSuccess
 ;
 TEST_F
 (
-pkix_ocsp_request_tests
+pkixocsp_CreateEncodedOCSPRequest
 ChildCertLongSerialNumberTest
 )
 {
@@ -375,7 +375,7 @@ PR_GetError
 }
 TEST_F
 (
-pkix_ocsp_request_tests
+pkixocsp_CreateEncodedOCSPRequest
 LongestSupportedSerialNumberTest
 )
 {

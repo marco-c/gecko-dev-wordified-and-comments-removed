@@ -730,7 +730,7 @@ get
 }
 ;
 class
-pkix_cert_chain_length
+pkixbuild
 :
 public
 NSSTest
@@ -775,14 +775,14 @@ trustDomain
 }
 ;
 TestTrustDomain
-pkix_cert_chain_length
+pkixbuild
 :
 :
 trustDomain
 ;
 TEST_F
 (
-pkix_cert_chain_length
+pkixbuild
 MaxAcceptableCertChainLength
 )
 {
@@ -905,7 +905,7 @@ results
 }
 TEST_F
 (
-pkix_cert_chain_length
+pkixbuild
 BeyondMaxAcceptableCertChainLength
 )
 {

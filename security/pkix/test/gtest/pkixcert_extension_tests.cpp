@@ -342,7 +342,7 @@ SECSuccess
 }
 ;
 class
-pkix_cert_extensions
+pkixcert_extension
 :
 public
 NSSTest
@@ -372,14 +372,14 @@ trustDomain
 }
 ;
 TrustEverythingTrustDomain
-pkix_cert_extensions
+pkixcert_extension
 :
 :
 trustDomain
 ;
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 UnknownCriticalExtension
 )
 {
@@ -520,7 +520,7 @@ results
 }
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 UnknownNonCriticalExtension
 )
 {
@@ -657,7 +657,7 @@ results
 }
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 WrongOIDCriticalExtension
 )
 {
@@ -790,7 +790,7 @@ results
 }
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 CriticalAIAExtension
 )
 {
@@ -922,7 +922,7 @@ results
 }
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 UnknownCriticalCEExtension
 )
 {
@@ -1051,7 +1051,7 @@ results
 }
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 KnownCriticalCEExtension
 )
 {
@@ -1182,7 +1182,7 @@ results
 }
 TEST_F
 (
-pkix_cert_extensions
+pkixcert_extension
 DuplicateSubjectAltName
 )
 {
