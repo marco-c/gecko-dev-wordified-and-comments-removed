@@ -479,7 +479,7 @@ if
 !
 jsapi
 .
-InitUsingWin
+Init
 (
 mAdapterPtr
 -
@@ -1328,7 +1328,7 @@ if
 !
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
@@ -1440,7 +1440,7 @@ if
 !
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (

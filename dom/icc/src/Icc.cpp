@@ -210,7 +210,7 @@ NS_WARN_IF
 !
 jsapi
 .
-InitWithLegacyErrorReportingUsingWin
+InitWithLegacyErrorReporting
 (
 GetOwner
 (

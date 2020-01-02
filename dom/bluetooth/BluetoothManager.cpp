@@ -324,7 +324,7 @@ if
 !
 jsapi
 .
-InitUsingWin
+Init
 (
 mManagerPtr
 -

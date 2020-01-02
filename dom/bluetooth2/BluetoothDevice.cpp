@@ -594,7 +594,7 @@ if
 !
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
@@ -706,7 +706,7 @@ if
 !
 jsapi
 .
-InitUsingWin
+Init
 (
 GetOwner
 (
