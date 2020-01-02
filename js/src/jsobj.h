@@ -87,7 +87,7 @@ namespace
 js
 {
 class
-AutoPropDescVector
+AutoPropDescArrayRooter
 ;
 struct
 GCMarker
@@ -7104,7 +7104,7 @@ checkAccessors
 AutoIdVector
 *
 ids
-AutoPropDescVector
+AutoPropDescArrayRooter
 *
 descs
 )
