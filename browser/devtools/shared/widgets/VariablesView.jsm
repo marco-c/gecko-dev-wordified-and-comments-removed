@@ -6847,9 +6847,6 @@ null
 _fetched
 :
 false
-_retrieved
-:
-false
 _committed
 :
 false
