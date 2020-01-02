@@ -189,12 +189,6 @@ DidPaintWindow
 ;
 virtual
 void
-DidCompositeWindow
-(
-)
-;
-virtual
-void
 RequestRepaint
 (
 )
