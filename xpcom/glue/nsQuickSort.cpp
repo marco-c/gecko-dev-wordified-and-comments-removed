@@ -130,7 +130,6 @@ TYPE
 )
 ;
 \
-register
 TYPE
 *
 pi
@@ -144,7 +143,6 @@ parmi
 )
 ;
 \
-register
 TYPE
 *
 pj
@@ -161,7 +159,6 @@ parmj
 do
 {
 \
-register
 TYPE
 t
 =

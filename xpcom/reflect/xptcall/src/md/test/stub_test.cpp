@@ -901,7 +901,6 @@ n
 \
 {
 \
-register
 void
 *
 method
@@ -909,7 +908,6 @@ method
 PrepareAndDispatch
 ;
 \
-register
 nsresult
 result
 ;

@@ -750,13 +750,11 @@ nsXPTCVariant
 params
 )
 {
-register
 vtable_func
 *
 vtable
 func
 ;
-register
 int
 base_size
 =

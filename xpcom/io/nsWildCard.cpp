@@ -245,7 +245,6 @@ T
 stop2
 )
 {
-register
 int
 x
 ;
@@ -819,11 +818,9 @@ T
 dest
 )
 {
-register
 int
 sx
 ;
-register
 T
 cc
 ;
@@ -1010,7 +1007,6 @@ int
 level
 )
 {
-register
 int
 sx
 ;
@@ -1348,11 +1344,9 @@ int
 level
 )
 {
-register
 int
 x
 ;
-register
 int
 y
 ;
