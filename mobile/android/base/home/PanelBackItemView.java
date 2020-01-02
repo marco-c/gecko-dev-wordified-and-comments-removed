@@ -180,7 +180,7 @@ folder_up
 }
 else
 {
-Picasso
+ImageLoader
 .
 with
 (

@@ -172,6 +172,15 @@ src
 /
 tests
 /
+TestImageDownloader
+.
+java
+'
+'
+src
+/
+tests
+/
 TestJarReader
 .
 java

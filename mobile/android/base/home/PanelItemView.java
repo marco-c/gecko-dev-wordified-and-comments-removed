@@ -438,7 +438,7 @@ if
 hasImageUrl
 )
 {
-Picasso
+ImageLoader
 .
 with
 (

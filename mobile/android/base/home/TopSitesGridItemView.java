@@ -616,7 +616,7 @@ Favicons
 NOT_LOADING
 )
 ;
-Picasso
+ImageLoader
 .
 with
 (
@@ -804,7 +804,7 @@ Favicons
 NOT_LOADING
 )
 ;
-Picasso
+ImageLoader
 .
 with
 (
@@ -922,7 +922,7 @@ cancelFaviconLoad
 mLoadId
 )
 ;
-Picasso
+ImageLoader
 .
 with
 (
@@ -988,7 +988,7 @@ mThumbnailSet
 =
 true
 ;
-Picasso
+ImageLoader
 .
 with
 (
