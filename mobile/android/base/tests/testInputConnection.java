@@ -538,7 +538,7 @@ foobar
 6
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 Can
@@ -559,7 +559,7 @@ getTextBeforeCursor
 )
 )
 ;
-assertEquals
+fAssertEquals
 (
 "
 Can
