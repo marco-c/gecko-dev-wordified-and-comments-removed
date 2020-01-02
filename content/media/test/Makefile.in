@@ -824,6 +824,10 @@ test_bug895091
 .
 html
 \
+test_bug883173
+.
+html
+\
 (
 NULL
 )
@@ -1479,6 +1483,10 @@ region
 vtt
 \
 long
+.
+vtt
+\
+bug883173
 .
 vtt
 \
