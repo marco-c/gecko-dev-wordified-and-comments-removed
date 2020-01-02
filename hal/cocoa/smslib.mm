@@ -2518,6 +2518,9 @@ to
 read
 .
 #
+undef
+LOG
+#
 define
 LOG
 (

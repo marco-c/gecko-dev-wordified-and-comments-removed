@@ -1216,7 +1216,7 @@ WindowsGamepadService
 :
 mThreadExitEvent
 (
-CreateEvent
+CreateEventW
 (
 nullptr
 FALSE
@@ -1226,7 +1226,7 @@ nullptr
 )
 mThreadRescanEvent
 (
-CreateEvent
+CreateEventW
 (
 nullptr
 FALSE
@@ -1831,7 +1831,7 @@ gamepad
 .
 event
 =
-CreateEvent
+CreateEventW
 (
 nullptr
 FALSE
