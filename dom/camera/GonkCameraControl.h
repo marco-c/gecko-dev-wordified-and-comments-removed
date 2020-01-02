@@ -839,6 +839,9 @@ GonkRecorder
 >
 mRecorder
 ;
+ReentrantMonitor
+mRecorderMonitor
+;
 nsRefPtr
 <
 GonkRecorderProfileManager
