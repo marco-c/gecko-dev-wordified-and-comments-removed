@@ -2044,6 +2044,13 @@ Restarter
 "
 android
 :
+noHistory
+=
+"
+true
+"
+android
+:
 theme
 =
 "
