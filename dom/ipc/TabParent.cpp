@@ -2667,7 +2667,7 @@ TabParent
 UpdateDimensions
 (
 const
-nsIntRect
+nsRect
 &
 rect
 const
@@ -3243,6 +3243,9 @@ aPrincipal
 )
 {
 return
+nsContentPermissionUtils
+:
+:
 CreateContentPermissionRequestParent
 (
 aRequests
