@@ -1161,6 +1161,13 @@ n
 rv
 )
 ;
+cameraHardware
+-
+>
+Close
+(
+)
+;
 return
 nullptr
 ;
