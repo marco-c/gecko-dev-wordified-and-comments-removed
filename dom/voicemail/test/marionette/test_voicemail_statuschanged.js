@@ -511,9 +511,8 @@ is
 status
 .
 messageCount
-status
-.
-MESSAGE_COUNT_UNKNOWN
+-
+1
 )
 ;
 is
