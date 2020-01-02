@@ -661,6 +661,13 @@ aMallocSizeOf
 this
 )
 ;
+{
+PRAutoLock
+_
+(
+mLock
+)
+;
 n
 +
 =
@@ -672,6 +679,7 @@ SizeOfEntryExcludingThis
 aMallocSizeOf
 )
 ;
+}
 return
 n
 ;
