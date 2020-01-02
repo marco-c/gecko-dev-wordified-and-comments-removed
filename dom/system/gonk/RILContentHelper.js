@@ -3024,9 +3024,12 @@ clientId
 ]
 ;
 }
-get
-iccInfo
+getIccInfo
+:
+function
+getIccInfo
 (
+clientId
 )
 {
 let
@@ -3036,7 +3039,7 @@ this
 .
 getRilContext
 (
-0
+clientId
 )
 ;
 return
@@ -3048,9 +3051,12 @@ context
 iccInfo
 ;
 }
-get
-cardState
+getCardState
+:
+function
+getIccInfo
 (
+clientId
 )
 {
 let
@@ -3060,7 +3066,7 @@ this
 .
 getRilContext
 (
-0
+clientId
 )
 ;
 return
@@ -4068,6 +4074,7 @@ getCardLockState
 function
 getCardLockState
 (
+clientId
 window
 lockType
 )
@@ -4142,7 +4149,7 @@ GetCardLockState
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -4165,6 +4172,7 @@ unlockCardLock
 function
 unlockCardLock
 (
+clientId
 window
 info
 )
@@ -4242,7 +4250,7 @@ UnlockCardLock
 {
 clientId
 :
-0
+clientId
 data
 :
 info
@@ -4258,6 +4266,7 @@ setCardLock
 function
 setCardLock
 (
+clientId
 window
 info
 )
@@ -4335,7 +4344,7 @@ SetCardLock
 {
 clientId
 :
-0
+clientId
 data
 :
 info
@@ -4351,6 +4360,7 @@ getCardLockRetryCount
 function
 getCardLockRetryCount
 (
+clientId
 window
 lockType
 )
@@ -4416,7 +4426,7 @@ GetCardLockRetryCount
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -4636,6 +4646,7 @@ sendStkResponse
 function
 sendStkResponse
 (
+clientId
 window
 command
 response
@@ -4686,7 +4697,7 @@ SendStkResponse
 {
 clientId
 :
-0
+clientId
 data
 :
 response
@@ -4699,6 +4710,7 @@ sendStkMenuSelection
 function
 sendStkMenuSelection
 (
+clientId
 window
 itemIdentifier
 helpRequested
@@ -4743,7 +4755,7 @@ SendStkMenuSelection
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -4763,6 +4775,7 @@ sendStkTimerExpiration
 function
 sendStkTimerExpiration
 (
+clientId
 window
 timer
 )
@@ -4806,7 +4819,7 @@ SendStkTimerExpiration
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -4823,6 +4836,7 @@ sendStkEventDownload
 function
 sendStkEventDownload
 (
+clientId
 window
 event
 )
@@ -4866,7 +4880,7 @@ SendStkEventDownload
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -4883,6 +4897,7 @@ iccOpenChannel
 function
 iccOpenChannel
 (
+clientId
 window
 aid
 )
@@ -4948,7 +4963,7 @@ IccOpenChannel
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -4971,6 +4986,7 @@ iccExchangeAPDU
 function
 iccExchangeAPDU
 (
+clientId
 window
 channel
 apdu
@@ -5037,7 +5053,7 @@ IccExchangeAPDU
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -5063,6 +5079,7 @@ iccCloseChannel
 function
 iccCloseChannel
 (
+clientId
 window
 channel
 )
@@ -5128,7 +5145,7 @@ IccCloseChannel
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -5151,6 +5168,7 @@ readContacts
 function
 readContacts
 (
+clientId
 window
 contactType
 )
@@ -5225,7 +5243,7 @@ ReadIccContacts
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -5248,6 +5266,7 @@ updateContact
 function
 updateContact
 (
+clientId
 window
 contactType
 contact
@@ -5496,7 +5515,7 @@ UpdateIccContact
 {
 clientId
 :
-0
+clientId
 data
 :
 {
@@ -7238,6 +7257,7 @@ registerIccMsg
 function
 registerIccMsg
 (
+clientId
 listener
 )
 {
@@ -7259,7 +7279,7 @@ registerListener
 "
 _iccListeners
 "
-0
+clientId
 listener
 )
 ;
@@ -7280,6 +7300,7 @@ unregisterIccMsg
 function
 unregisterIccMsg
 (
+clientId
 listener
 )
 {
@@ -7290,7 +7311,7 @@ unregisterListener
 "
 _iccListeners
 "
-0
+clientId
 listener
 )
 ;
