@@ -74,9 +74,6 @@ t1
 '
 foo_static
 '
-static
-=
-True
 )
 add_tier_dir
 (
@@ -95,7 +92,4 @@ t3
 '
 baz
 '
-static
-=
-True
 )

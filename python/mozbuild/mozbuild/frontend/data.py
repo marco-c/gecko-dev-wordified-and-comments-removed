@@ -541,10 +541,6 @@ test_dirs
 '
 tier_dirs
 '
-        
-'
-tier_static_dirs
-'
     
 )
     
@@ -581,14 +577,6 @@ test_dirs
 self
 .
 tier_dirs
-=
-OrderedDict
-(
-)
-        
-self
-.
-tier_static_dirs
 =
 OrderedDict
 (

@@ -4026,13 +4026,6 @@ tier_
 (
 tier
 )
-_staticdirs
-)
-(
-tier_
-(
-tier
-)
 _dirs
 )
 )
