@@ -240,7 +240,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+bool
 >
 sDiscardRunnablePending
 ;
@@ -272,7 +272,7 @@ sNodeListMutex
 static
 Atomic
 <
-uint32_t
+bool
 >
 sShutdown
 ;
