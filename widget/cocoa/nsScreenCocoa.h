@@ -41,6 +41,14 @@ nsScreenCocoa
 )
 ;
 NS_IMETHOD
+GetId
+(
+uint32_t
+*
+outId
+)
+;
+NS_IMETHOD
 GetRect
 (
 int32_t
@@ -152,6 +160,9 @@ BackingScaleFactor
 NSScreen
 *
 mScreen
+;
+uint32_t
+mId
 ;
 }
 ;

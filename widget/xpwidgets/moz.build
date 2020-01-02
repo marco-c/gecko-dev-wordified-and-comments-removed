@@ -233,6 +233,11 @@ nsPrintSettingsImpl
 cpp
 '
 '
+nsScreenManagerProxy
+.
+cpp
+'
+'
 nsTransferable
 .
 cpp
@@ -244,6 +249,11 @@ cpp
 '
 '
 PuppetWidget
+.
+cpp
+'
+'
+ScreenProxy
 .
 cpp
 '
