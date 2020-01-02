@@ -6411,16 +6411,6 @@ Defaults
 <
 !
 ENTITY
-customizeMode
-.
-done
-"
-Done
-"
->
-<
-!
-ENTITY
 social
 .
 chatBar
