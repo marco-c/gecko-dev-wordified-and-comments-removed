@@ -60,7 +60,7 @@ location
 =
 r2
 .
-location
+rect
         
 self
 .

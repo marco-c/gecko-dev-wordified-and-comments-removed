@@ -1166,7 +1166,7 @@ x
 =
 button
 .
-location
+rect
 [
 '
 x
@@ -1175,7 +1175,7 @@ x
 +
 button
 .
-size
+rect
 [
 '
 width
@@ -1190,7 +1190,7 @@ y
 =
 button
 .
-location
+rect
 [
 '
 y
@@ -1199,7 +1199,7 @@ y
 +
 button
 .
-size
+rect
 [
 '
 height

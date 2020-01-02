@@ -60,7 +60,7 @@ size
 =
 shrinko
 .
-size
+rect
         
 self
 .
@@ -308,7 +308,7 @@ size
 =
 shrinko
 .
-size
+rect
         
 self
 .
