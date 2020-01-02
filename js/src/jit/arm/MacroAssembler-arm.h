@@ -2942,6 +2942,9 @@ usedIntSlots_
 uint32_t
 usedFloatSlots_
 ;
+bool
+usedFloat32_
+;
 uint32_t
 padding_
 ;
