@@ -9281,6 +9281,10 @@ guardTypeSet
 (
 valReg
 propTypes
+BarrierKind
+:
+:
+TypeSet
 scratchReg
 &
 barrierFailure
@@ -12006,6 +12010,10 @@ guardTypeSet
 (
 valReg
 propTypes
+BarrierKind
+:
+:
+TypeSet
 scratchReg
 &
 failuresPopObject
