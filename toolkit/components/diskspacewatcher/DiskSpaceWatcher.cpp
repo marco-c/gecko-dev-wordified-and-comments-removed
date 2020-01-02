@@ -694,6 +694,9 @@ kDiskSpaceWatcherCategories
 ]
 =
 {
+#
+ifdef
+MOZ_WIDGET_GONK
 {
 "
 profile
@@ -710,6 +713,8 @@ Service
 "
 DISKSPACEWATCHER_CONTRACTID
 }
+#
+endif
 {
 nullptr
 }
