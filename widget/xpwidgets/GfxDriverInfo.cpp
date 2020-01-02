@@ -935,6 +935,16 @@ APPEND_DEVICE
 break
 ;
 case
+Nvidia310M
+:
+APPEND_DEVICE
+(
+0x0A70
+)
+;
+break
+;
+case
 DeviceFamilyMax
 :
 NS_WARNING
