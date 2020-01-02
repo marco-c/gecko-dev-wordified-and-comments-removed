@@ -2715,7 +2715,7 @@ return
 mCount
 ;
 }
-nsTouchEvent
+WidgetTouchEvent
 MakeTouchEvent
 (
 nsIWidget

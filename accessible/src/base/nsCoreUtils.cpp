@@ -738,7 +738,7 @@ PrefEnabled
 )
 return
 ;
-nsTouchEvent
+WidgetTouchEvent
 event
 (
 true

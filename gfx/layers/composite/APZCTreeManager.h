@@ -614,7 +614,7 @@ AsyncPanZoomController
 GetTouchInputBlockAPZC
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 ScreenPoint
@@ -625,10 +625,10 @@ nsEventStatus
 ProcessTouchEvent
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 touchEvent
-nsTouchEvent
+WidgetTouchEvent
 *
 aOutEvent
 )

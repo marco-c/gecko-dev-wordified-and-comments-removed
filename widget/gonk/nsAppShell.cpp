@@ -693,7 +693,7 @@ addDOMTouch
 UserInputData
 &
 data
-nsTouchEvent
+WidgetTouchEvent
 &
 event
 int
@@ -855,7 +855,7 @@ NS_TOUCH_CANCEL
 break
 ;
 }
-nsTouchEvent
+WidgetTouchEvent
 event
 (
 true

@@ -4604,7 +4604,7 @@ aResizeEvent
 mPoints
 ;
 }
-nsTouchEvent
+WidgetTouchEvent
 AndroidGeckoEvent
 :
 :
@@ -4726,7 +4726,7 @@ break
 ;
 }
 }
-nsTouchEvent
+WidgetTouchEvent
 event
 (
 true

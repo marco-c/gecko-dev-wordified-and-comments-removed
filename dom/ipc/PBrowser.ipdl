@@ -330,7 +330,10 @@ using
 nsTextEvent
 ;
 using
-nsTouchEvent
+mozilla
+:
+:
+WidgetTouchEvent
 ;
 using
 RemoteDOMEvent
@@ -2268,7 +2271,7 @@ event
 ;
 RealTouchEvent
 (
-nsTouchEvent
+WidgetTouchEvent
 event
 )
 ;
@@ -2293,7 +2296,7 @@ them
 .
 RealTouchMoveEvent
 (
-nsTouchEvent
+WidgetTouchEvent
 event
 )
 compress

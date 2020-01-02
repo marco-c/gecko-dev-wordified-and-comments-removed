@@ -23700,13 +23700,13 @@ pInputs
 )
 )
 {
-nsTouchEvent
+WidgetTouchEvent
 *
 touchEventToSend
 =
 nullptr
 ;
-nsTouchEvent
+WidgetTouchEvent
 *
 touchEndEventToSend
 =
@@ -23759,7 +23759,7 @@ touchEventToSend
 touchEventToSend
 =
 new
-nsTouchEvent
+WidgetTouchEvent
 (
 true
 NS_TOUCH_MOVE
@@ -23841,7 +23841,7 @@ touchEndEventToSend
 touchEndEventToSend
 =
 new
-nsTouchEvent
+WidgetTouchEvent
 (
 true
 NS_TOUCH_END

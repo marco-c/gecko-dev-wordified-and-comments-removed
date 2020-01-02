@@ -304,12 +304,5 @@ mozilla
 WidgetSimpleGestureEvent
 nsSimpleGestureEvent
 ;
-typedef
-mozilla
-:
-:
-WidgetTouchEvent
-nsTouchEvent
-;
 #
 endif

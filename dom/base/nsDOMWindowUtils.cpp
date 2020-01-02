@@ -4213,7 +4213,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsTouchEvent
+WidgetTouchEvent
 event
 (
 true

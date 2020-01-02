@@ -789,7 +789,7 @@ mTouchCancelSent
 void
 InitTouchEventTouchList
 (
-nsTouchEvent
+WidgetTouchEvent
 *
 aEvent
 )
@@ -870,7 +870,7 @@ aEvent
 void
 DispatchAsyncTouchEventIgnoreStatus
 (
-nsTouchEvent
+WidgetTouchEvent
 *
 aEvent
 )
@@ -878,7 +878,7 @@ aEvent
 void
 DispatchAsyncTouchEventWithCallback
 (
-nsTouchEvent
+WidgetTouchEvent
 *
 aEvent
 void

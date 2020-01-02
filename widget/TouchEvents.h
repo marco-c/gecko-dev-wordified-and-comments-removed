@@ -404,7 +404,7 @@ void
 AssignTouchEventData
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aEvent
 bool
@@ -434,13 +434,6 @@ mozilla
 :
 WidgetSimpleGestureEvent
 nsSimpleGestureEvent
-;
-typedef
-mozilla
-:
-:
-WidgetTouchEvent
-nsTouchEvent
 ;
 #
 endif

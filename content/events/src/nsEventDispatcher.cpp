@@ -3479,7 +3479,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsTouchEvent
+WidgetTouchEvent
 *
 >
 (

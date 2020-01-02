@@ -271,7 +271,7 @@ MultiTouchInput
 MultiTouchInput
 (
 const
-nsTouchEvent
+WidgetTouchEvent
 &
 aTouchEvent
 )
