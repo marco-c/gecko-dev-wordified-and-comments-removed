@@ -175,11 +175,6 @@ TestTextures
 .
 cpp
 '
-'
-TestBufferRotation
-.
-cpp
-'
 ]
 #
 Because

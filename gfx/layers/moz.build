@@ -1233,11 +1233,6 @@ BasicThebesLayer
 cpp
 '
 '
-BufferUnrotate
-.
-cpp
-'
-'
 client
 /
 CanvasClient
