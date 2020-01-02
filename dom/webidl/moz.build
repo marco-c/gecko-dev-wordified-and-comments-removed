@@ -465,6 +465,11 @@ DOMParser
 webidl
 '
 '
+DOMPoint
+.
+webidl
+'
+'
 DOMRect
 .
 webidl
