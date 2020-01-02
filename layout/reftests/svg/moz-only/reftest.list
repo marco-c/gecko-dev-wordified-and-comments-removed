@@ -283,6 +283,12 @@ if
 (
 B2G
 )
+random
+-
+if
+(
+d2d
+)
 =
 =
 feImage
@@ -309,6 +315,12 @@ skip
 if
 (
 B2G
+)
+random
+-
+if
+(
+d2d
 )
 =
 =

@@ -145,6 +145,17 @@ height
 100
 %
 "
+style
+=
+"
+color
+-
+interpolation
+-
+filters
+:
+sRGB
+"
 >
 <
 feConvolveMatrix
