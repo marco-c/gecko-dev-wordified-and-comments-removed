@@ -6005,6 +6005,11 @@ unsigned
 long
 length
 ;
+legacycaller
+void
+(
+)
+;
 }
 ;
 interface

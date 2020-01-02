@@ -1981,6 +1981,25 @@ self
 )
 :
         
+callHook
+=
+LEGACYCALLER_HOOK_NAME
+if
+self
+.
+descriptor
+.
+operations
+[
+"
+LegacyCaller
+"
+]
+else
+'
+nullptr
+'
+        
 return
 "
 "
@@ -2009,7 +2028,8 @@ slots
                   
 JSCLASS_IS_DOMJSCLASS
                   
-nullptr
+%
+s
 /
 *
 call
@@ -2041,6 +2061,8 @@ interface
 identifier
 .
 name
+       
+callHook
        
 CGIndenter
 (
