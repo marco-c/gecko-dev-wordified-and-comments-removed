@@ -2501,7 +2501,7 @@ if
 !
 this
 .
-browser
+window
 )
 {
 return
@@ -2555,7 +2555,7 @@ if
 !
 this
 .
-browser
+window
 )
 {
 return
