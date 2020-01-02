@@ -19,6 +19,15 @@ nsIClipboard
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ContentEvents
+.
+h
+"
 nsDOMClipboardEvent
 :
 :

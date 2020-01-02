@@ -14,13 +14,4 @@ BasicEvents
 h
 "
 #
-include
-"
-mozilla
-/
-ContentEvents
-.
-h
-"
-#
 endif

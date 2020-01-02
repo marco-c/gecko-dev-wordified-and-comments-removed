@@ -102,6 +102,15 @@ include
 "
 mozilla
 /
+ContentEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEvents
 .
 h

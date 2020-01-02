@@ -12,6 +12,15 @@ prtime
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ContentEvents
+.
+h
+"
 using
 namespace
 mozilla
