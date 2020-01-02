@@ -46,7 +46,7 @@ h
 #
 include
 "
-MediaDecoderReader
+MediaOmxCommonReader
 .
 h
 "
@@ -82,7 +82,7 @@ class
 MediaCodecReader
 :
 public
-MediaDecoderReader
+MediaOmxCommonReader
 {
 public
 :
@@ -906,6 +906,9 @@ mAudioTrack
 ;
 VideoTrack
 mVideoTrack
+;
+AudioTrack
+mAudioOffloadTrack
 ;
 android
 :
