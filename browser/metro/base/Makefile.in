@@ -63,9 +63,6 @@ config
 config
 .
 mk
-DIST_SUBDIR
-=
-metro
 DEFINES
 +
 =

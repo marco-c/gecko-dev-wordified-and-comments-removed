@@ -86,17 +86,6 @@ config
 config
 .
 mk
-#
-We
-want
-this
-exe
-in
-dist
-/
-bin
-DIST_SUBDIR
-=
 OS_LIBS
 =
 \

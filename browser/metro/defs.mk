@@ -1,6 +1,3 @@
-DIST_SUBDIR
-=
-metro
 XPI_ROOT_APPID
 =
 {

@@ -130,3 +130,8 @@ xpcshell
 ini
 '
 ]
+DIST_SUBDIR
+=
+'
+metro
+'

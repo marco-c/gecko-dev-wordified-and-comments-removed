@@ -57,6 +57,10 @@ STANDALONE_MAKEFILE
 :
 =
 1
+DIST_SUBDIR
+:
+=
+browser
 include
 (
 topsrcdir

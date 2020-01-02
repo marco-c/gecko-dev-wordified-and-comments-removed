@@ -1,6 +1,3 @@
-DIST_SUBDIR
-=
-browser
 XPI_ROOT_APPID
 =
 (

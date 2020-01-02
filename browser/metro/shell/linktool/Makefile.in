@@ -66,11 +66,6 @@ config
 config
 .
 mk
-DIST_SUBDIR
-=
-metro
-/
-install
 OS_LIBS
 =
 \

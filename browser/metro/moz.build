@@ -137,3 +137,8 @@ DIRS
 shell
 '
 ]
+DIST_SUBDIR
+=
+'
+metro
+'
