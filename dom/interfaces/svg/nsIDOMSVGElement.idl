@@ -123,10 +123,6 @@ nsIDOMSVGElement
 :
 nsIDOMElement
 {
-attribute
-DOMString
-id
-;
 /
 /
 raises
@@ -143,6 +139,12 @@ attribute
 nsIDOMSVGElement
 viewportElement
 ;
+[
+binaryname
+(
+SVGClassName
+)
+]
 readonly
 attribute
 nsISupports

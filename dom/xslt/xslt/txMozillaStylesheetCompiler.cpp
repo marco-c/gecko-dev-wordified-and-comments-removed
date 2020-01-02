@@ -545,8 +545,6 @@ char16_t
 aAtts
 uint32_t
 aAttsCount
-int32_t
-aIndex
 uint32_t
 aLineNumber
 )
@@ -578,7 +576,6 @@ aAtts
 aAttsCount
 /
 2
-aIndex
 )
 ;
 if

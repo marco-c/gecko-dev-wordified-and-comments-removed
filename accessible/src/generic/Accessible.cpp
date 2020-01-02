@@ -7321,15 +7321,8 @@ if
 mContent
 -
 >
-HasAttr
+HasID
 (
-kNameSpaceID_None
-mContent
--
->
-GetIDAttributeName
-(
-)
 )
 )
 {

@@ -132,10 +132,6 @@ nsIDOMXULElement
 :
 nsIDOMElement
 {
-attribute
-DOMString
-className
-;
 /
 /
 Layout

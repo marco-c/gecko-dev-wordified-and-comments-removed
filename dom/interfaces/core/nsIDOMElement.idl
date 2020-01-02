@@ -183,6 +183,14 @@ attribute
 DOMString
 tagName
 ;
+attribute
+DOMString
+id
+;
+attribute
+DOMString
+className
+;
 /
 *
 *

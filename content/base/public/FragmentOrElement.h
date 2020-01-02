@@ -756,16 +756,6 @@ SaveSubtreeState
 )
 MOZ_OVERRIDE
 ;
-virtual
-const
-nsAttrValue
-*
-DoGetClasses
-(
-)
-const
-MOZ_OVERRIDE
-;
 NS_IMETHOD
 WalkContentStyleRules
 (
