@@ -35643,6 +35643,8 @@ pref
 memory_info_dumper
 .
 watch_fifo
+.
+enabled
 "
 false
 )
