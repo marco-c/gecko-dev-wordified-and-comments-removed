@@ -1789,10 +1789,8 @@ formattedName
 "
 %
 s
-(
 %
 s
-)
 "
 [
 currentName
