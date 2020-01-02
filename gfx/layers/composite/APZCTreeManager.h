@@ -400,6 +400,18 @@ aOutTargetGuid
 )
 ;
 void
+TransformCoordinateToGecko
+(
+const
+ScreenIntPoint
+&
+aPoint
+LayoutDeviceIntPoint
+*
+aOutTransformedPoint
+)
+;
+void
 UpdateCompositionBounds
 (
 const
@@ -486,7 +498,7 @@ bool
 HitTestAPZC
 (
 const
-ScreenPoint
+ScreenIntPoint
 &
 aPoint
 )

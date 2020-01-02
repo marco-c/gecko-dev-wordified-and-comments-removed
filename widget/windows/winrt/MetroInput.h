@@ -744,6 +744,14 @@ aRefPointOut
 )
 ;
 void
+TransformTouchEvent
+(
+WidgetTouchEvent
+*
+aEvent
+)
+;
+void
 OnPointerNonTouch
 (
 IPointerPoint
