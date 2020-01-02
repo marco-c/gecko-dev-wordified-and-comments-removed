@@ -31,7 +31,7 @@ zips
 /
 talos
 .
-7674ffd4b494
+b4907f0b27d3
 .
 zip
 "
@@ -71,7 +71,7 @@ talos_revision
 "
 :
 "
-7674ffd4b494
+b4907f0b27d3
 "
 }
 "
@@ -209,6 +209,12 @@ ts_paint
 "
 "
 tpaint
+"
+"
+sessionrestore
+"
+"
+sessionrestore_no_auto_restore
 "
 ]
 }
