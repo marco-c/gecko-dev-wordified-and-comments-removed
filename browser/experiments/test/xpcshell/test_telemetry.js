@@ -706,7 +706,7 @@ gReporter
 .
 getJSONPayload
 (
-true
+false
 )
 ;
 do_register_cleanup
