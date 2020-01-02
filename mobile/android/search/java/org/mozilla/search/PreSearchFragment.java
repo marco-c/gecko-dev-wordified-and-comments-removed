@@ -645,14 +645,6 @@ return
 startBounds
 ;
 }
-Override
-public
-void
-onAnimationEnd
-(
-)
-{
-}
 }
 )
 ;

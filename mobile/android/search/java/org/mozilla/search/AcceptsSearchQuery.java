@@ -17,6 +17,13 @@ interface
 AcceptsSearchQuery
 {
 void
+onSuggest
+(
+String
+query
+)
+;
+void
 onSearch
 (
 String
@@ -39,12 +46,6 @@ SuggestionAnimation
 public
 Rect
 getStartBounds
-(
-)
-;
-public
-void
-onAnimationEnd
 (
 )
 ;
