@@ -256,11 +256,6 @@ nsScriptSecurityManager
 (
 )
 ;
-bool
-SubjectIsPrivileged
-(
-)
-;
 static
 bool
 ContentSecurityPolicyPermitsJSAction

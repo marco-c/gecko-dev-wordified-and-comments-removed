@@ -95,12 +95,6 @@ obj
 )
 ;
 static
-bool
-callerIsChrome
-(
-)
-;
-static
 nsIPrincipal
 *
 getPrincipal
