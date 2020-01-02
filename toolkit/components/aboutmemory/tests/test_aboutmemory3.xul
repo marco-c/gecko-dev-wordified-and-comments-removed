@@ -2651,6 +2651,11 @@ blah
 (
 0xNNN
 )
+pid
+NNN
+pid
+=
+NNN
 \
 n
 \
@@ -3415,6 +3420,11 @@ blah
 (
 0xNNN
 )
+pid
+NNN
+pid
+=
+NNN
 \
 n
 \
