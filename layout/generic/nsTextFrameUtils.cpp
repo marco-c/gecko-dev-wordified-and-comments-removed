@@ -45,10 +45,6 @@ include
 <
 algorithm
 >
-#
-define
-UNICODE_ZWSP
-0x200B
 static
 bool
 IsDiscardable
