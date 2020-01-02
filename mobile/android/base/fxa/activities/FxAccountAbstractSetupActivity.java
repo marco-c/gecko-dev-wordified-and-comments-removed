@@ -1254,7 +1254,7 @@ tokenServerURI
 =
 FxAccountConstants
 .
-DEFAULT_TOKEN_SERVER_URI
+DEFAULT_TOKEN_SERVER_ENDPOINT
 ;
 byte
 [

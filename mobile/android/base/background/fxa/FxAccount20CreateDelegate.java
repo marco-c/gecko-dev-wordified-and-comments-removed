@@ -185,6 +185,11 @@ authPW
 )
 )
 ;
+if
+(
+preVerified
+)
+{
 body
 .
 put
@@ -195,6 +200,7 @@ preVerified
 preVerified
 )
 ;
+}
 return
 body
 ;

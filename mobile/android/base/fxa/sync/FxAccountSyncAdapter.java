@@ -2019,6 +2019,8 @@ getCertificateDurationInMilliseconds
 )
 {
 return
+12
+*
 60
 *
 60

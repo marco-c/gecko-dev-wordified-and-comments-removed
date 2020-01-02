@@ -1009,7 +1009,7 @@ serverURI
 =
 FxAccountConstants
 .
-DEFAULT_IDP_ENDPOINT
+DEFAULT_AUTH_SERVER_ENDPOINT
 ;
 Executor
 executor

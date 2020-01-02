@@ -339,17 +339,6 @@ protected
 static
 final
 String
-VERSION_FRAGMENT
-=
-"
-v1
-/
-"
-;
-protected
-static
-final
-String
 ACCEPT_HEADER
 =
 "
@@ -562,7 +551,6 @@ this
 .
 serverURI
 =
-(
 serverURI
 .
 endsWith
@@ -579,9 +567,6 @@ serverURI
 "
 /
 "
-)
-+
-VERSION_FRAGMENT
 ;
 if
 (
