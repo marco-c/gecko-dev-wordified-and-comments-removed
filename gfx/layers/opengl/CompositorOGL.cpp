@@ -4501,9 +4501,16 @@ LOCAL_GL_RGBA
 aRect
 .
 x
+FlipY
+(
 aRect
 .
 y
++
+aRect
+.
+height
+)
 aRect
 .
 width
