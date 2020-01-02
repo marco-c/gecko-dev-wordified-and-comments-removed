@@ -70,3 +70,13 @@ proxy
 false
 )
 ;
+assertEq
+(
+Symbol
+(
+)
+in
+proxy
+false
+)
+;
