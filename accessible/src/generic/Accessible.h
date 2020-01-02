@@ -2244,16 +2244,6 @@ nsAString
 aStringOut
 )
 ;
-Accessible
-*
-GetFirstAvailableAccessible
-(
-nsINode
-*
-aStartNode
-)
-const
-;
 void
 DoCommand
 (
