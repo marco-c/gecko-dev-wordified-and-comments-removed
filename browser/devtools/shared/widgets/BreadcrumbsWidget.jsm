@@ -561,6 +561,13 @@ if
 this
 .
 _selectedItem
+&
+&
+this
+.
+_list
+.
+ensureElementIsVisible
 )
 {
 this

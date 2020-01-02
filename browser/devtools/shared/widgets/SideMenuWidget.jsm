@@ -1035,6 +1035,18 @@ Ci
 nsIScrollBoxObject
 )
 ;
+if
+(
+boxObject
+.
+ensureElementIsVisible
+&
+&
+boxObject
+.
+scrollBy
+)
+{
 boxObject
 .
 ensureElementIsVisible
@@ -1053,6 +1065,7 @@ clientWidth
 0
 )
 ;
+}
 }
 showEmptyGroups
 :
