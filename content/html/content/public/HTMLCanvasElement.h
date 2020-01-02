@@ -308,9 +308,16 @@ aRv
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
 Value
+>
 params
-=
+(
+aCx
 aParams
 .
 WasPassed
@@ -328,6 +335,7 @@ JS
 :
 UndefinedValue
 (
+)
 )
 ;
 aRv
