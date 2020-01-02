@@ -1287,7 +1287,7 @@ if
 str
 -
 >
-zone
+zoneFromAnyThread
 (
 )
 =
@@ -1311,6 +1311,14 @@ isAtom
 {
 JS_ASSERT
 (
+str
+-
+>
+isPermanentAtom
+(
+)
+|
+|
 cx
 -
 >
