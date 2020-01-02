@@ -146,6 +146,17 @@ int
 fd
 )
 ;
+virtual
+int
+GetPrevFBAcquireFd
+(
+)
+{
+return
+-
+1
+;
+}
 private
 :
 hw_module_t

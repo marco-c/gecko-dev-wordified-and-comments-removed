@@ -153,6 +153,9 @@ class
 ISurfaceAllocator
 ;
 class
+Layer
+;
+class
 NewTextureSource
 ;
 class
@@ -635,6 +638,16 @@ EndFrame
 =
 0
 ;
+virtual
+void
+SetFBAcquireFence
+(
+Layer
+*
+aLayer
+)
+{
+}
 virtual
 void
 EndFrameForExternalComposition

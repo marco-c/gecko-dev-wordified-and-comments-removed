@@ -1261,6 +1261,17 @@ GrallocTextureHost
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+widget
+/
+gonk
+'
+]
 SOURCES
 +
 =

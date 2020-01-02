@@ -2517,7 +2517,9 @@ acquireFenceFd
 fbsurface
 -
 >
-lastFenceFD
+GetPrevFBAcquireFd
+(
+)
 ;
 }
 }
@@ -2677,7 +2679,9 @@ acquireFenceFd
 fbsurface
 -
 >
-lastFenceFD
+GetPrevFBAcquireFd
+(
+)
 ;
 }
 else
@@ -2795,7 +2799,9 @@ lastHandle
 fbsurface
 -
 >
-lastFenceFD
+GetPrevFBAcquireFd
+(
+)
 )
 ;
 }
