@@ -118,13 +118,5 @@ LOCAL_INCLUDES
 '
 .
 .
-/
-setup
-'
-'
-.
-.
-/
-webBrowser
 '
 ]
