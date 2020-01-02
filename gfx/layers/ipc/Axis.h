@@ -112,8 +112,6 @@ aDisplacement
 float
 &
 aOverscrollAmountOut
-bool
-aScrollingDisabled
 )
 ;
 float

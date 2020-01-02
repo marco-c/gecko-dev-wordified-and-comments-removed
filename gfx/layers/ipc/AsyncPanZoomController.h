@@ -804,16 +804,6 @@ PanZoomState
 mState
 )
 ;
-bool
-AllowZoom
-(
-)
-;
-bool
-AllowDoubleTapZoom
-(
-)
-;
 enum
 AxisLockMode
 {
