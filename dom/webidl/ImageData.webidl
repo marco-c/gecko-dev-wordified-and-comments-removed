@@ -189,6 +189,7 @@ height
 ;
 [
 Constant
+StoreInSlot
 ]
 readonly
 attribute

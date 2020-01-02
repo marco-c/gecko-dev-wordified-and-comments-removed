@@ -147,14 +147,6 @@ Data
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
 )
 const
 {
