@@ -674,3 +674,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+places
+.
+database
+.
+growthIncrementKiB
+"
+0
+)
+;
