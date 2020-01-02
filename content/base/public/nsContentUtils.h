@@ -544,16 +544,6 @@ Init
 )
 ;
 static
-JSContext
-*
-GetContextFromDocument
-(
-nsIDocument
-*
-aDocument
-)
-;
-static
 bool
 IsCallerChrome
 (
