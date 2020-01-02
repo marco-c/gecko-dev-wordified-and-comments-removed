@@ -919,6 +919,9 @@ scopeChain
 PersistentRootedObject
 exclusiveContextGlobal
 ;
+PersistentRootedObject
+optionsElement
+;
 JS
 :
 :
@@ -994,6 +997,11 @@ activate
 JSRuntime
 *
 rt
+)
+;
+void
+finish
+(
 )
 ;
 ~
