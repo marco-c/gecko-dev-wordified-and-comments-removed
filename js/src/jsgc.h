@@ -236,6 +236,16 @@ emptyCount
 ;
 }
 inline
+bool
+wantBackgroundAllocation
+(
+JSRuntime
+*
+rt
+)
+const
+;
+inline
 Chunk
 *
 get
