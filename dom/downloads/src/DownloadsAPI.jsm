@@ -116,6 +116,9 @@ debug
 aStr
 )
 {
+#
+ifdef
+MOZ_DEBUG
 dump
 (
 "
@@ -136,6 +139,8 @@ n
 "
 )
 ;
+#
+endif
 }
 function
 sendPromiseMessage
