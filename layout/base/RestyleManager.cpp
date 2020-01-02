@@ -363,6 +363,8 @@ nsChangeHint_RepaintFrame
 nsChangeHint_SyncFrameView
 |
 nsChangeHint_UpdateOpacityLayer
+|
+nsChangeHint_SchedulePaint
 )
 )
 "
@@ -756,6 +758,8 @@ nsChangeHint_RepaintFrame
 nsChangeHint_SyncFrameView
 |
 nsChangeHint_UpdateOpacityLayer
+|
+nsChangeHint_SchedulePaint
 )
 )
 )
@@ -1110,6 +1114,18 @@ eCSSProperty_transform
 )
 ;
 }
+}
+if
+(
+aChange
+&
+nsChangeHint_SchedulePaint
+)
+{
+needInvalidatingPaint
+=
+true
+;
 }
 aFrame
 -
@@ -3360,6 +3376,8 @@ nsChangeHint_UpdateOpacityLayer
 nsChangeHint_UpdateTransformLayer
 |
 nsChangeHint_ChildrenOnlyTransform
+|
+nsChangeHint_SchedulePaint
 )
 )
 {

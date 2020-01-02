@@ -71,6 +71,9 @@ nsChangeHint_BorderStyleNoneChange
 nsChangeHint_UpdateTextPath
 =
 0x40000
+nsChangeHint_SchedulePaint
+=
+0x80000
 }
 ;
 inline
@@ -415,6 +418,9 @@ nsChangeHint
 nsChangeHint_RepaintFrame
 |
 nsChangeHint_SyncFrameView
+|
+\
+nsChangeHint_SchedulePaint
 )
 #
 define
