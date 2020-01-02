@@ -25077,17 +25077,6 @@ result
 0
 ]
 ;
-this
-.
-iccInfo
-.
-min
-=
-result
-[
-3
-]
-;
 ICCUtilsHelper
 .
 handleICCInfoChange

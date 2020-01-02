@@ -1075,9 +1075,6 @@ nsIDOMMozCdmaIccInfo
 mdn
 :
 null
-min
-:
-null
 }
 ;
 function
