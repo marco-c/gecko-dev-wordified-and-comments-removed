@@ -64,6 +64,9 @@ class
 SVGIRect
 ;
 class
+SVGBoundingBoxOptions
+;
+class
 SVGTransformableElement
 :
 public
@@ -137,6 +140,10 @@ SVGIRect
 >
 GetBBox
 (
+const
+SVGBoundingBoxOptions
+&
+aOptions
 ErrorResult
 &
 rv
