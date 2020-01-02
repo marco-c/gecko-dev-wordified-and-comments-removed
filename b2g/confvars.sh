@@ -242,3 +242,13 @@ MOZ_SERVICES_FXACCOUNTS
 MOZ_BUNDLED_FONTS
 =
 1
+#
+Enable
+exact
+rooting
+on
+b2g
+.
+JSGC_USE_EXACT_ROOTING
+=
+1
