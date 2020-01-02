@@ -7045,8 +7045,8 @@ isArrow
 )
 )
 {
-return
-ReportIsNotFunction
+RootedValue
+v
 (
 cx
 ObjectValue
@@ -7054,6 +7054,13 @@ ObjectValue
 *
 fun
 )
+)
+;
+return
+ReportIsNotFunction
+(
+cx
+v
 -
 1
 CONSTRUCT

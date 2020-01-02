@@ -6196,12 +6196,10 @@ js_ReportIsNotFunction
 JSContext
 *
 cx
-const
 JS
 :
 :
-Value
-&
+HandleValue
 v
 )
 {

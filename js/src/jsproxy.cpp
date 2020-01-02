@@ -1767,7 +1767,8 @@ n
 "
 )
 ;
-ReportIsNotFunction
+RootedValue
+v
 (
 cx
 ObjectValue
@@ -1775,6 +1776,12 @@ ObjectValue
 *
 proxy
 )
+)
+;
+ReportIsNotFunction
+(
+cx
+v
 )
 ;
 return
