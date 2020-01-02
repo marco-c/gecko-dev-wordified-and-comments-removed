@@ -1048,9 +1048,6 @@ mutable
 ReentrantMonitor
 mMonitor
 ;
-bool
-mTouchActionPropertyEnabled
-;
 PanZoomState
 mState
 ;
