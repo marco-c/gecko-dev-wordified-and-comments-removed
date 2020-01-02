@@ -4855,6 +4855,13 @@ BINPATH
 /
 components
 /
+MobileIdentityUIGlue
+.
+js
+BINPATH
+/
+components
+/
 dom_mobileidentity
 .
 xpt

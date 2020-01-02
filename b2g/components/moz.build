@@ -146,6 +146,11 @@ MailtoProtocolHandler
 js
 '
 '
+MobileIdentityUIGlue
+.
+js
+'
+'
 PaymentGlue
 .
 js
@@ -253,6 +258,11 @@ EXTRA_JS_MODULES
 [
 '
 AlertsHelper
+.
+jsm
+'
+'
+ContentRequestHelper
 .
 jsm
 '
