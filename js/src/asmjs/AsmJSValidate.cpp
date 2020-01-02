@@ -36454,6 +36454,17 @@ IntArgReg1
 GlobalReg
 )
 ;
+masm
+.
+addPtr
+(
+Imm32
+(
+AsmJSGlobalRegBias
+)
+GlobalReg
+)
+;
 #
 endif
 #
@@ -38271,6 +38282,8 @@ Address
 (
 GlobalReg
 globalDataOffset
+-
+AsmJSGlobalRegBias
 )
 callee
 )

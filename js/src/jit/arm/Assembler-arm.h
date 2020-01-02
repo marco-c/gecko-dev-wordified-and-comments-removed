@@ -694,6 +694,13 @@ Int
 }
 ;
 static
+const
+int32_t
+AsmJSGlobalRegBias
+=
+1024
+;
+static
 MOZ_CONSTEXPR_VAR
 Register
 AsmJSIonExitRegCallee
