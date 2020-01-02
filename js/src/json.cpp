@@ -4228,12 +4228,13 @@ GlobalObject
 if
 (
 !
-global
--
->
+GlobalObject
+:
+:
 getOrCreateBooleanPrototype
 (
 cx
+global
 )
 )
 return
