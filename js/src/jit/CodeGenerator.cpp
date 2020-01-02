@@ -45880,15 +45880,11 @@ res
 )
 {
 return
-IsDelegate
+IsDelegateOfObject
 (
 cx
 protoObj
-ObjectValue
-(
-*
 obj
-)
 res
 )
 ;
