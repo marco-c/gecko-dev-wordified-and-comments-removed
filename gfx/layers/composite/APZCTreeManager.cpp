@@ -1669,6 +1669,15 @@ mCachedTransformToApzcForInputBlock
 transformToApzc
 ;
 }
+else
+{
+mCachedTransformToApzcForInputBlock
+=
+gfx3DMatrix
+(
+)
+;
+}
 }
 else
 if
