@@ -135,6 +135,11 @@ mozilla
 namespace
 layers
 {
+NS_IMPL_ISUPPORTS1
+(
+GfxMemoryImageReporter
+nsIMemoryReporter
+)
 mozilla
 :
 :

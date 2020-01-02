@@ -4200,6 +4200,14 @@ ghostEnumData
 )
 ;
 }
+NS_IMPL_ISUPPORTS1
+(
+nsWindowMemoryReporter
+:
+:
+GhostWindowsReporter
+nsIMemoryReporter
+)
 int64_t
 nsWindowMemoryReporter
 :

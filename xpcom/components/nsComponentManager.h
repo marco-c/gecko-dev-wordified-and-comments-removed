@@ -490,11 +490,6 @@ nsComponentManagerImpl
 MOZ_FINAL
 :
 public
-mozilla
-:
-:
-MemoryUniReporter
-public
 nsIComponentManager
 public
 nsIServiceManager
@@ -504,6 +499,8 @@ public
 nsIComponentRegistrar
 public
 nsIInterfaceRequestor
+public
+nsIMemoryReporter
 {
 public
 :
@@ -511,6 +508,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICOMPONENTMANAGER
 NS_DECL_NSICOMPONENTREGISTRAR
+NS_DECL_NSIMEMORYREPORTER
 static
 nsresult
 Create
@@ -1258,12 +1256,6 @@ nsTArray
 PendingServiceInfo
 >
 mPendingServices
-;
-int64_t
-Amount
-(
-)
-MOZ_OVERRIDE
 ;
 size_t
 SizeOfIncludingThis

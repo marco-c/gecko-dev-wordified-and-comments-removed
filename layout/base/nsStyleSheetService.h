@@ -105,12 +105,9 @@ nsStyleSheetService
 MOZ_FINAL
 :
 public
-mozilla
-:
-:
-MemoryUniReporter
-public
 nsIStyleSheetService
+public
+nsIMemoryReporter
 {
 public
 :
@@ -127,6 +124,7 @@ NS_HIDDEN
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTYLESHEETSERVICE
+NS_DECL_NSIMEMORYREPORTER
 NS_HIDDEN_
 (
 nsresult
@@ -208,12 +206,6 @@ static
 nsStyleSheetService
 *
 gInstance
-;
-int64_t
-Amount
-(
-)
-MOZ_OVERRIDE
 ;
 private
 :
