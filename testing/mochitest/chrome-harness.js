@@ -2207,6 +2207,7 @@ readConfig
 ;
 for
 (
+var
 p
 in
 params
