@@ -68,6 +68,14 @@ DisconnectFromGraph
 (
 )
 ;
+if
+(
+tmp
+-
+>
+mContext
+)
+{
 tmp
 -
 >
@@ -80,6 +88,7 @@ UpdateNodeCount
 1
 )
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mContext
