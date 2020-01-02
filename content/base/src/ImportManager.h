@@ -269,12 +269,6 @@ mURI
 ;
 nsCOMPtr
 <
-nsIChannel
->
-mChannel
-;
-nsCOMPtr
-<
 nsIStreamListener
 >
 mParserStreamListener
