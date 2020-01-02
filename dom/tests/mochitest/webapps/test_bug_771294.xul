@@ -283,8 +283,11 @@ waitForExplicitFinish
 (
 )
 ;
-makeAllAppsLaunchable
+SpecialPowers
+.
+setAllAppsLaunchable
 (
+true
 )
 ;
 Cu
