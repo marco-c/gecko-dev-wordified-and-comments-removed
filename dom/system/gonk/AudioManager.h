@@ -160,10 +160,7 @@ mCurrentStreamVolumeTbl
 AUDIO_STREAM_CNT
 ]
 ;
-android
-:
-:
-status_t
+nsresult
 SetStreamVolumeIndex
 (
 int32_t
@@ -172,10 +169,7 @@ int32_t
 aIndex
 )
 ;
-android
-:
-:
-status_t
+nsresult
 GetStreamVolumeIndex
 (
 int32_t
