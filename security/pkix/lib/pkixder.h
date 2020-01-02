@@ -6,11 +6,6 @@ define
 mozilla_pkix__pkixder_h
 #
 include
-<
-cassert
->
-#
-include
 "
 pkix
 /

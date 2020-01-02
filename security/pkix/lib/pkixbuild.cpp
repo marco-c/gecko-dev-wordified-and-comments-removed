@@ -312,7 +312,8 @@ result
 Success
 )
 {
-PR_NOT_REACHED
+return
+NotReached
 (
 "
 RecordResult
@@ -322,13 +323,11 @@ finding
 a
 chain
 "
-)
-;
-return
 Result
 :
 :
 FATAL_ERROR_INVALID_STATE
+)
 ;
 }
 if
@@ -887,7 +886,8 @@ rv
 Success
 )
 {
-PR_NOT_REACHED
+return
+NotReached
 (
 "
 NonOwningDERArray
@@ -897,10 +897,8 @@ SetItem
 failed
 .
 "
-)
-;
-return
 rv
+)
 ;
 }
 }
