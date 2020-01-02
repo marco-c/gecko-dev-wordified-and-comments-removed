@@ -124,6 +124,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+DocShellCapabilities
+.
+jsm
+'
+'
 DocumentUtils
 .
 jsm
