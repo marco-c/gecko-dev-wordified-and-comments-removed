@@ -272,6 +272,16 @@ Navigator
 :
 HasNFCSupport
 "
+CheckPermissions
+=
+"
+nfc
+-
+read
+nfc
+-
+write
+"
 ]
 interface
 MozNFC
