@@ -686,6 +686,17 @@ catch
 e
 )
 {
+if
+(
+detail
+.
+type
+!
+=
+=
+kDesktopNotificationShow
+)
+{
 gSystemMessenger
 .
 sendMessage
@@ -770,6 +781,7 @@ null
 )
 )
 ;
+}
 }
 }
 if

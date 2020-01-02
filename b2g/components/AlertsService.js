@@ -244,6 +244,13 @@ close
 "
 ;
 const
+kTopicAlertShow
+=
+"
+alertshow
+"
+;
+const
 kTopicAlertFinished
 =
 "
@@ -670,6 +677,15 @@ data
 target
 )
 {
+if
+(
+topic
+!
+=
+=
+kTopicAlertShow
+)
+{
 gSystemMessenger
 .
 sendMessage
@@ -757,6 +773,7 @@ null
 )
 )
 ;
+}
 }
 }
 if
