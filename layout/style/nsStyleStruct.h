@@ -4937,12 +4937,6 @@ GridTemplateAreasValue
 mGridTemplateAreas
 ;
 nsStyleGridLine
-mGridAutoPositionColumn
-;
-nsStyleGridLine
-mGridAutoPositionRow
-;
-nsStyleGridLine
 mGridColumnStart
 ;
 nsStyleGridLine

@@ -405,11 +405,6 @@ GridAutoFlow
 )
 COMPUTED_STYLE_PROP
 (
-grid_auto_position
-GridAutoPosition
-)
-COMPUTED_STYLE_PROP
-(
 grid_auto_rows
 GridAutoRows
 )
