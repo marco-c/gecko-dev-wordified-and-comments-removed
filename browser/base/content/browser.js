@@ -5898,6 +5898,12 @@ init
 (
 )
 ;
+FullZoom
+.
+init
+(
+)
+;
 PanelUI
 .
 init
@@ -6156,12 +6162,6 @@ false
 )
 )
 SetClickAndHoldHandlers
-(
-)
-;
-FullZoom
-.
-init
 (
 )
 ;
