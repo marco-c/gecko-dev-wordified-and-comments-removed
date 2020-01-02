@@ -336,6 +336,13 @@ nsIClipboard
 h
 "
 #
+include
+"
+nsIFrameInlines
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #

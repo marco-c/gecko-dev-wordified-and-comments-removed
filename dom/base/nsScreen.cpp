@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h

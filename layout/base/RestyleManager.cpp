@@ -174,6 +174,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+nsIFrameInlines
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

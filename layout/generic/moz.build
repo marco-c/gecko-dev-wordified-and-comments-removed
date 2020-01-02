@@ -171,6 +171,11 @@ nsIFrame
 h
 '
 '
+nsIFrameInlines
+.
+h
+'
+'
 nsIFrameUtil
 .
 h

@@ -251,6 +251,13 @@ TextOverflow
 h
 "
 #
+include
+"
+nsIFrameInlines
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #

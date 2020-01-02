@@ -40,6 +40,13 @@ nsRenderingContext
 .
 h
 "
+#
+include
+"
+nsIFrameInlines
+.
+h
+"
 nsIFrame
 *
 NS_NewPlaceholderFrame

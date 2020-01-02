@@ -69,7 +69,7 @@ h
 #
 include
 "
-nsIFrame
+nsIFrameInlines
 .
 h
 "
