@@ -4656,6 +4656,16 @@ DisplayPortMarginsPropertyData
 >
 )
 ;
+if
+(
+gfxPrefs
+:
+:
+AsyncPanZoomEnabled
+(
+)
+)
+{
 nsIFrame
 *
 rootScrollFrame
@@ -4691,6 +4701,7 @@ SetIgnoreViewportScrolling
 true
 )
 ;
+}
 }
 if
 (
