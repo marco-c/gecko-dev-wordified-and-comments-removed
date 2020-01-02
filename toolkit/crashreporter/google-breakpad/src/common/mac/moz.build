@@ -193,6 +193,14 @@ srcs
 in
 both
 .
+if
+CONFIG
+[
+'
+MOZ_CRASHREPORTER
+'
+]
+:
 HOST_SOURCES
 +
 =
