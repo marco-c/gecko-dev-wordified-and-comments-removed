@@ -1662,6 +1662,8 @@ DisplayItemClip
 :
 AddOffsetAndComputeDifference
 (
+uint32_t
+aStart
 const
 nsPoint
 &
@@ -1674,6 +1676,8 @@ const
 DisplayItemClip
 &
 aOther
+uint32_t
+aOtherStart
 const
 nsRect
 &
@@ -1691,6 +1695,12 @@ mHaveClipRect
 aOther
 .
 mHaveClipRect
+|
+|
+aStart
+!
+=
+aOtherStart
 |
 |
 mRoundedClipRects
@@ -1760,7 +1770,7 @@ for
 uint32_t
 i
 =
-0
+aStart
 ;
 i
 <

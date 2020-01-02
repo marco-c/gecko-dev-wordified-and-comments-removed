@@ -382,6 +382,8 @@ RemoveRoundedCorners
 void
 AddOffsetAndComputeDifference
 (
+uint32_t
+aStart
 const
 nsPoint
 &
@@ -394,6 +396,8 @@ const
 DisplayItemClip
 &
 aOther
+uint32_t
+aOtherStart
 const
 nsRect
 &

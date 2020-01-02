@@ -759,11 +759,13 @@ aCallback
 )
 ;
 void
-SaveLastPaintOffset
+SavePreviousDataForLayer
 (
 ThebesLayer
 *
 aLayer
+uint32_t
+aClipCount
 )
 ;
 nsIntPoint
@@ -1285,6 +1287,10 @@ mContainerLayerFrame
 (
 nullptr
 )
+mLastCommonClipCount
+(
+0
+)
 mContainerLayerGeneration
 (
 0
@@ -1349,6 +1355,9 @@ mContainerLayerFrame
 ;
 nsIntPoint
 mLastPaintOffset
+;
+uint32_t
+mLastCommonClipCount
 ;
 uint32_t
 mContainerLayerGeneration
