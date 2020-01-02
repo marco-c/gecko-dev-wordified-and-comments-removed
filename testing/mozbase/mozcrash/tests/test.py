@@ -1877,6 +1877,9 @@ check_for_java_exception
 self
 .
 test_log
+quiet
+=
+True
 )
 )
        
@@ -1962,6 +1965,9 @@ mozcrash
 check_for_java_exception
 (
 fatal_log
+quiet
+=
+True
 )
 )
        
@@ -2029,6 +2035,9 @@ mozcrash
 check_for_java_exception
 (
 truncated_log
+quiet
+=
+True
 )
 )
        
@@ -2120,6 +2129,9 @@ mozcrash
 check_for_java_exception
 (
 passable_log
+quiet
+=
+True
 )
 )
 if

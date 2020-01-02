@@ -1083,6 +1083,9 @@ def
 check_for_java_exception
 (
 logcat
+quiet
+=
+False
 )
 :
     
@@ -1150,6 +1153,28 @@ a
 list
 of
 strings
+.
+    
+If
+quiet
+is
+set
+no
+PROCESS
+-
+CRASH
+message
+will
+be
+printed
+to
+stdout
+if
+a
+    
+crash
+is
+detected
 .
     
 Returns
@@ -1307,6 +1332,11 @@ group
 1
 )
                 
+if
+not
+quiet
+:
+                    
 print
 "
 PROCESS
