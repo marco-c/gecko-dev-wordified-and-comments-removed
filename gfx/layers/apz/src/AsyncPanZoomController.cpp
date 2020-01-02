@@ -1990,7 +1990,9 @@ aDelta
 )
 MOZ_OVERRIDE
 {
-return
+bool
+continueX
+=
 mApzc
 .
 mX
@@ -1999,8 +2001,10 @@ SampleSnapBack
 (
 aDelta
 )
-|
-|
+;
+bool
+continueY
+=
 mApzc
 .
 mY
@@ -2009,6 +2013,12 @@ SampleSnapBack
 (
 aDelta
 )
+;
+return
+continueX
+|
+|
+continueY
 ;
 }
 private
