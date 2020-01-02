@@ -53,16 +53,6 @@ MPL
 0
 /
 .
-OS_LIBS
-+
-=
-(
-call
-EXPAND_LIBNAME
-comctl32
-ws2_32
-shell32
-)
 MOZ_WINCONSOLE
 =
 1

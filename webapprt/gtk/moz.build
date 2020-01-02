@@ -173,3 +173,12 @@ CONFIG
 TK_CFLAGS
 '
 ]
+OS_LIBS
++
+=
+CONFIG
+[
+'
+TK_LIBS
+'
+]

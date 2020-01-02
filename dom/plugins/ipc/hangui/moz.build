@@ -178,3 +178,11 @@ HangUIDlg
 .
 rc
 '
+OS_LIBS
++
+=
+[
+'
+comctl32
+'
+]

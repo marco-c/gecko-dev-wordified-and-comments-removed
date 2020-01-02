@@ -336,7 +336,7 @@ AppleVTLinker
 cpp
 '
 ]
-LDFLAGS
+OS_LIBS
 +
 =
 [

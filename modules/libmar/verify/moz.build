@@ -155,7 +155,7 @@ MacVerifyCrypto
 cpp
 '
 ]
-LDFLAGS
+OS_LIBS
 +
 =
 [

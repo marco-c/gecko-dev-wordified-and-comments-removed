@@ -82,16 +82,6 @@ MOZ_GLUE_LDFLAGS
 =
 MOZ_GLUE_PROGRAM_LDFLAGS
 =
-OS_LIBS
-+
-=
-(
-call
-EXPAND_LIBNAME
-comctl32
-ws2_32
-shell32
-)
 ifndef
 MOZ_WINCONSOLE
 ifdef

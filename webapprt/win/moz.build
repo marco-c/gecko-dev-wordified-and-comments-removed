@@ -317,3 +317,11 @@ xpcomglue_staticruntime
 DISABLE_STL_WRAPPING
 =
 True
+OS_LIBS
++
+=
+[
+'
+shell32
+'
+]

@@ -182,3 +182,11 @@ chromium
 DISABLE_STL_WRAPPING
 =
 True
+OS_LIBS
++
+=
+[
+'
+dbghelp
+'
+]

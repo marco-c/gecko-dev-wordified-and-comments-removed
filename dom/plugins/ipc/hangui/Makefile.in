@@ -53,14 +53,6 @@ MPL
 0
 /
 .
-OS_LIBS
-+
-=
-(
-call
-EXPAND_LIBNAME
-comctl32
-)
 MOZ_GLUE_LDFLAGS
 =
 include

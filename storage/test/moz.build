@@ -271,3 +271,12 @@ USE_LIBS
 mozsqlite3
 '
 ]
+OS_LIBS
++
+=
+CONFIG
+[
+'
+SQLITE_LIBS
+'
+]

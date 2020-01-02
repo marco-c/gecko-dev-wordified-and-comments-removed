@@ -259,6 +259,14 @@ def
 DISABLE_STL_WRAPPING
 =
 True
+OS_LIBS
++
+=
+[
+'
+version
+'
+]
 if
 CONFIG
 [

@@ -126,7 +126,7 @@ mm
 FORCE_SHARED_LIB
 =
 True
-EXTRA_DSO_LDOPTS
+OS_LIBS
 +
 =
 [
