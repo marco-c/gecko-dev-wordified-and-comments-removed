@@ -323,13 +323,7 @@ UpdateRemoteWindow
 int32_t
 delta
 )
-{
-mRemoteWindow
-+
-=
-delta
 ;
-}
 int64_t
 RemoteWindow
 (

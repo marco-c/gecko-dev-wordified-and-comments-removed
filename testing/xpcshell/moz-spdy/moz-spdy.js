@@ -1245,6 +1245,9 @@ ca
 pem
 '
 )
+windowSize
+:
+16000000
 }
 ;
 spdy
