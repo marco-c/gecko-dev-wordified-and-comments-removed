@@ -8324,8 +8324,10 @@ NS_OK
 }
 private
 :
+nsRefPtr
+<
 MediaStreamGraphImpl
-*
+>
 mGraph
 ;
 }
@@ -8383,8 +8385,10 @@ NS_OK
 }
 private
 :
+nsRefPtr
+<
 MediaStreamGraphImpl
-*
+>
 mGraph
 ;
 bool
