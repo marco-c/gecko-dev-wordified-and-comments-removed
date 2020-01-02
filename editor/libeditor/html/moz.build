@@ -249,6 +249,10 @@ tables
 layout
 /
 xul
+/
+base
+/
+src
 '
 ]
 FINAL_LIBRARY

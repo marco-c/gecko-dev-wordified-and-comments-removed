@@ -688,5 +688,9 @@ tables
 .
 /
 xul
+/
+base
+/
+src
 '
 ]

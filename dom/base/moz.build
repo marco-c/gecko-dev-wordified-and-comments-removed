@@ -797,6 +797,10 @@ style
 layout
 /
 xul
+/
+base
+/
+src
 '
 ]
 if

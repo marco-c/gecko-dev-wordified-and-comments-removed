@@ -208,10 +208,6 @@ LOCAL_INCLUDES
 '
 .
 .
-'
-'
-.
-.
 /
 .
 .
@@ -235,5 +231,13 @@ generic
 .
 /
 style
+'
+'
+.
+.
+/
+base
+/
+src
 '
 ]

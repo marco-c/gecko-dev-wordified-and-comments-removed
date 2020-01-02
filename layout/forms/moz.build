@@ -330,5 +330,9 @@ generic
 .
 /
 xul
+/
+base
+/
+src
 '
 ]
