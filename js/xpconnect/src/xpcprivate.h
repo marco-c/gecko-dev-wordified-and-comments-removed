@@ -9017,7 +9017,10 @@ depth
 public
 :
 static
-nsresult
+already_AddRefed
+<
+nsXPCWrappedJSClass
+>
 GetNewOrUsed
 (
 JSContext
@@ -9025,10 +9028,6 @@ JSContext
 cx
 REFNSIID
 aIID
-nsXPCWrappedJSClass
-*
-*
-clazz
 )
 ;
 REFNSIID
