@@ -2459,9 +2459,9 @@ runtime
 >
 gc
 .
-alwaysPreserveCode
-=
-true
+setAlwaysPreserveCode
+(
+)
 ;
 args
 .

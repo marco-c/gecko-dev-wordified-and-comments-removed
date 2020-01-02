@@ -4046,7 +4046,12 @@ TIME_START
 markRuntime
 )
 ;
-MarkRuntime
+rt
+-
+>
+gc
+.
+markRuntime
 (
 &
 trc

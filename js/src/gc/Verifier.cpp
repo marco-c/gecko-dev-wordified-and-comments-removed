@@ -868,7 +868,12 @@ incrementalState
 =
 MARK_ROOTS
 ;
-MarkRuntime
+rt
+-
+>
+gc
+.
+markRuntime
 (
 trc
 )

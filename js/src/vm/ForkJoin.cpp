@@ -1606,8 +1606,6 @@ runtime
 >
 gc
 .
-helperThread
-.
 waitBackgroundSweepEnd
 (
 )
