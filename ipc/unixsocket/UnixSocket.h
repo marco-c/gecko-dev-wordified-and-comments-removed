@@ -42,7 +42,7 @@ h
 >
 #
 ifdef
-MOZ_B2G_BT_BLUEZ
+MOZ_B2G_BT
 #
 include
 <
@@ -134,7 +134,7 @@ in6
 ;
 #
 ifdef
-MOZ_B2G_BT_BLUEZ
+MOZ_B2G_BT
 sockaddr_sco
 sco
 ;

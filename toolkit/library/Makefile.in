@@ -617,7 +617,7 @@ endif
 #
 }
 ifdef
-MOZ_B2G_BT_BLUEZ
+MOZ_B2G_BT
 #
 {
 STATIC_LIBS
