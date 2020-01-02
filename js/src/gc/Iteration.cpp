@@ -683,12 +683,6 @@ isHeapBusy
 )
 )
 ;
-AutoPauseWorkersForTracing
-pause
-(
-rt
-)
-;
 AutoTraceSession
 session
 (
