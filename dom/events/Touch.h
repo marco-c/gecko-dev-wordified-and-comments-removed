@@ -25,6 +25,15 @@ h
 #
 include
 "
+mozilla
+/
+MouseEvents
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -63,6 +72,8 @@ public
 nsISupports
 public
 nsWrapperCache
+public
+WidgetPointerHelper
 {
 public
 :

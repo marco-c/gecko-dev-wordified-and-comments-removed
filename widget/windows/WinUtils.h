@@ -620,6 +620,14 @@ GetMouseInputSource
 )
 ;
 static
+bool
+GetIsMouseFromTouch
+(
+uint32_t
+aEventType
+)
+;
+static
 HRESULT
 SHCreateItemFromParsingName
 (
