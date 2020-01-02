@@ -302,11 +302,8 @@ const
 {
 return
 mCxPusher
-.
-ref
-(
-)
-.
+-
+>
 IsStackTop
 (
 )

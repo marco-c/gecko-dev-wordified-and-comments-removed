@@ -881,14 +881,14 @@ aGlobal
 ;
 mCxPusher
 .
-construct
+emplace
 (
 mCx
 )
 ;
 mAutoNullableCompartment
 .
-construct
+emplace
 (
 mCx
 global
@@ -899,7 +899,7 @@ else
 {
 mAutoNullableCompartment
 .
-construct
+emplace
 (
 mCx
 aGlobal
@@ -1451,7 +1451,7 @@ aIsMainThread
 {
 mCxPusher
 .
-construct
+emplace
 (
 static_cast
 <

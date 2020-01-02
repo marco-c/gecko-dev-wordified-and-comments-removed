@@ -1017,7 +1017,7 @@ reportUncaught
 {
 dontReport
 .
-construct
+emplace
 (
 aCx
 )

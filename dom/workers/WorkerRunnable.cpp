@@ -381,7 +381,7 @@ global
 {
 ac
 .
-construct
+emplace
 (
 aCx
 global
@@ -1149,7 +1149,7 @@ globalObject
 {
 aes
 .
-construct
+emplace
 (
 globalObject
 isMainThread
@@ -1165,11 +1165,8 @@ GetCurrentThreadJSContext
 cx
 =
 aes
-.
-ref
-(
-)
-.
+-
+>
 cx
 (
 )
@@ -1214,7 +1211,7 @@ GetWrapper
 {
 ac
 .
-construct
+emplace
 (
 cx
 mWorkerPrivate
@@ -1240,11 +1237,8 @@ if
 targetIsWorkerThread
 &
 &
+!
 aes
-.
-empty
-(
-)
 &
 &
 mWorkerPrivate
@@ -1257,7 +1251,7 @@ GlobalScope
 {
 aes
 .
-construct
+emplace
 (
 mWorkerPrivate
 -
@@ -1274,11 +1268,8 @@ GetCurrentThreadJSContext
 cx
 =
 aes
-.
-ref
-(
-)
-.
+-
+>
 cx
 (
 )

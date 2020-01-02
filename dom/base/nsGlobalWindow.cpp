@@ -50226,7 +50226,7 @@ true
 ;
 closeUnblocker
 .
-construct
+emplace
 (
 this
 )
@@ -50400,7 +50400,7 @@ aContentModal
 {
 nojsapi
 .
-construct
+emplace
 (
 )
 ;
