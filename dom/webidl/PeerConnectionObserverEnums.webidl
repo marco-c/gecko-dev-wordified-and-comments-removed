@@ -117,7 +117,10 @@ None
 ReadyState
 "
 "
-IceState
+IceConnectionState
+"
+"
+IceGatheringState
 "
 "
 SdpState

@@ -503,8 +503,13 @@ remoteDescription
 ;
 readonly
 attribute
-PCImplIceState
-iceState
+PCImplIceConnectionState
+iceConnectionState
+;
+readonly
+attribute
+PCImplIceGatheringState
+iceGatheringState
 ;
 readonly
 attribute
