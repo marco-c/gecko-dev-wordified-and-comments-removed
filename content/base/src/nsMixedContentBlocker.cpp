@@ -902,6 +902,9 @@ TYPE_OBJECT_SUBREQUEST
 case
 TYPE_PING
 :
+case
+TYPE_BEACON
+:
 classification
 =
 eMixedDisplay
