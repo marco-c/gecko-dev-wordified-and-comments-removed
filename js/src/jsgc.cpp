@@ -7604,7 +7604,7 @@ else
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 JSRuntime
 *
 rt
@@ -20015,7 +20015,7 @@ exclusiveThreadsPresent
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 AutoLockWorkerThreadState
 lock
 (
@@ -20083,7 +20083,7 @@ exclusiveThreadsPresent
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 AutoLockWorkerThreadState
 lock
 (
