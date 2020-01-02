@@ -903,7 +903,7 @@ fd
 0
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -933,7 +933,7 @@ O_NONBLOCK
 1
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1172,7 +1172,7 @@ mode
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -2055,7 +2055,7 @@ true
 }
 else
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2268,7 +2268,7 @@ msg_flags
 MSG_CTRUNC
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2406,7 +2406,7 @@ Channel
 kReadBufferSize
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2664,7 +2664,7 @@ if
 error
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -3266,7 +3266,7 @@ FileDescriptorSet
 MAX_DESCRIPTORS_PER_MESSAGE
 )
 {
-LOG
+CHROMIUM_LOG
 (
 FATAL
 )
@@ -3529,7 +3529,7 @@ errno
 EAGAIN
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

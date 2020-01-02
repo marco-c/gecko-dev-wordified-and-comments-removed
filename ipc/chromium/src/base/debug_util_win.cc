@@ -482,7 +482,7 @@ if
 initialized_
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -528,7 +528,7 @@ if
 initialized_
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

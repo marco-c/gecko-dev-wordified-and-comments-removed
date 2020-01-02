@@ -1301,7 +1301,7 @@ NULL
 0
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1462,7 +1462,7 @@ errno
 ENOMEM
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1552,7 +1552,7 @@ if
 done
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1780,7 +1780,7 @@ NULL
 0
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1832,7 +1832,7 @@ NULL
 0
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1902,7 +1902,7 @@ string
 npos
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

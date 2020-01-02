@@ -200,7 +200,7 @@ Map
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

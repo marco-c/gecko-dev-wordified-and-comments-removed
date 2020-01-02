@@ -134,7 +134,7 @@ self
 ]
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

@@ -324,7 +324,7 @@ WaitForChildExit
 }
 else
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

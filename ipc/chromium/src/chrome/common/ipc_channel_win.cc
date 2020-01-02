@@ -248,7 +248,7 @@ mode
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1030,7 +1030,7 @@ pipe_
 INVALID_HANDLE_VALUE
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1519,7 +1519,7 @@ return
 true
 ;
 }
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1603,7 +1603,7 @@ clear
 (
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1880,7 +1880,7 @@ GetLastError
 (
 )
 ;
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -2060,7 +2060,7 @@ return
 true
 ;
 }
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

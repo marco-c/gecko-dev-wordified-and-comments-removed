@@ -68,7 +68,7 @@ size
 )
 return
 ;
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )

@@ -55,10 +55,10 @@ h
 "
 #
 ifdef
-LOG
+CHROMIUM_LOG
 #
 undef
-LOG
+CHROMIUM_LOG
 #
 endif
 #
@@ -78,7 +78,7 @@ h
 >
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -98,7 +98,7 @@ args
 else
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -943,7 +943,7 @@ if
 msg
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 Could
@@ -973,7 +973,7 @@ aArgs
 )
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 Could

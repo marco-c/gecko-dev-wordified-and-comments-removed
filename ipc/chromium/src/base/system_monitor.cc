@@ -206,7 +206,7 @@ NotifyPowerStateChange
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 INFO
 )
@@ -259,7 +259,7 @@ NotifySuspend
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 INFO
 )
@@ -292,7 +292,7 @@ NotifyResume
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 INFO
 )

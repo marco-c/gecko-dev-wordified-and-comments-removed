@@ -1270,7 +1270,7 @@ result
 1
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

@@ -43,7 +43,7 @@ h
 >
 #
 undef
-LOG
+CHROMIUM_LOG
 #
 if
 defined
@@ -61,7 +61,7 @@ h
 >
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -80,7 +80,7 @@ args
 else
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -1617,7 +1617,7 @@ OnConnectSuccess
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 RIL
@@ -1644,7 +1644,7 @@ OnConnectError
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 RIL
@@ -1675,7 +1675,7 @@ OnDisconnect
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 RIL

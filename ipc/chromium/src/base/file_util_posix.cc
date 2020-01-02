@@ -802,7 +802,7 @@ if
 fts
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )
@@ -1083,7 +1083,7 @@ FTS_SL
 case
 FTS_SLNONE
 :
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1110,7 +1110,7 @@ continue
 case
 FTS_DEFAULT
 :
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1185,7 +1185,7 @@ if
 error
 )
 {
-LOG
+CHROMIUM_LOG
 (
 ERROR
 )

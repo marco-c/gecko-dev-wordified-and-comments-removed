@@ -1641,7 +1641,7 @@ file
 INVALID_HANDLE_VALUE
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1736,7 +1736,7 @@ if
 result
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )
@@ -1784,7 +1784,7 @@ FormatLastWin32Error
 }
 else
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )

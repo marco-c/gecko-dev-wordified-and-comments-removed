@@ -652,7 +652,7 @@ i
 0
 )
 {
-LOG
+CHROMIUM_LOG
 (
 WARNING
 )

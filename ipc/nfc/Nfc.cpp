@@ -36,7 +36,7 @@ h
 >
 #
 undef
-LOG
+CHROMIUM_LOG
 #
 if
 (
@@ -62,7 +62,7 @@ h
 >
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -81,7 +81,7 @@ args
 else
 #
 define
-LOG
+CHROMIUM_LOG
 (
 args
 .
@@ -1402,7 +1402,7 @@ OnConnectSuccess
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 NFC
@@ -1424,7 +1424,7 @@ OnConnectError
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 NFC
@@ -1450,7 +1450,7 @@ OnDisconnect
 (
 )
 {
-LOG
+CHROMIUM_LOG
 (
 "
 NFC
