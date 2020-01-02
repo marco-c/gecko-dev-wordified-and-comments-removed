@@ -329,6 +329,10 @@ Object
 ]
 mAutoCompleteSpans
 ;
+private
+boolean
+mDiscardAutoCompleteResult
+;
 public
 ToolbarEditText
 (
@@ -809,6 +813,14 @@ String
 result
 )
 {
+if
+(
+mDiscardAutoCompleteResult
+)
+{
+return
+;
+}
 if
 (
 !
@@ -1719,6 +1731,11 @@ false
 mAutoCompletePrefixLength
 =
 textLength
+;
+mDiscardAutoCompleteResult
+=
+!
+doAutocomplete
 ;
 if
 (
