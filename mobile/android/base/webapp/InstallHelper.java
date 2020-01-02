@@ -428,7 +428,7 @@ message
 put
 (
 "
-manifestUrl
+manifestURL
 "
 mApkResources
 .
