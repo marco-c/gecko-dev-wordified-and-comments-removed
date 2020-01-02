@@ -663,10 +663,6 @@ browser_bug598923
 .
 js
 \
-browser_bug599325
-.
-js
-\
 browser_bug609700
 .
 js
@@ -780,10 +776,6 @@ browser_bug839103
 js
 \
 browser_canonizeURL
-.
-js
-\
-browser_customize
 .
 js
 \

@@ -105,12 +105,12 @@ type
 {
 case
 "
-CustomizationStart
+customizationstarting
 "
 :
 this
 .
-_customizationStart
+_customizationStarting
 (
 )
 ;
@@ -118,12 +118,12 @@ break
 ;
 case
 "
-CustomizationEnd
+customizationending
 "
 :
 this
 .
-_customizationEnd
+_customizationEnding
 (
 aEvent
 .
@@ -134,7 +134,7 @@ break
 ;
 }
 }
-_customizationStart
+_customizationStarting
 :
 function
 (
@@ -265,7 +265,7 @@ false
 )
 ;
 }
-_customizationEnd
+_customizationEnding
 :
 function
 (
