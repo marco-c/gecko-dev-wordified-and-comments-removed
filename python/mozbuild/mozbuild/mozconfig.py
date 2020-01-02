@@ -1313,16 +1313,7 @@ path
 topobjdir
 '
 :
-os
-.
-environ
-.
-get
-(
-'
-MOZ_OBJDIR
-'
-)
+None
             
 '
 configure_args
