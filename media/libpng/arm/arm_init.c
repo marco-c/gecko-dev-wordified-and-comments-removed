@@ -35,13 +35,13 @@ ifdef
 __ANDROID__
 #
 include
-<
-cpu
+"
+MOZ_PNG_cpu
 -
 features
 .
 h
->
+"
 static
 int
 png_have_neon
