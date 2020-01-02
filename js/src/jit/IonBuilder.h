@@ -2034,7 +2034,7 @@ typedObj
 PropertyName
 *
 name
-int32_t
+size_t
 *
 fieldOffset
 TypedObjectPrediction

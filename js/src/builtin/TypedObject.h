@@ -1436,7 +1436,7 @@ index
 )
 const
 ;
-int32_t
+size_t
 fieldOffset
 (
 size_t
