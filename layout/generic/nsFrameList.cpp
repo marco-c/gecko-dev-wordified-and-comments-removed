@@ -607,7 +607,7 @@ nsFrameList
 :
 InsertFrames
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsIFrame
@@ -1508,7 +1508,7 @@ nsFrameList
 :
 ApplySetParent
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 )
@@ -1550,14 +1550,7 @@ f
 >
 SetParent
 (
-static_cast
-<
-nsContainerFrame
-*
->
-(
 aParent
-)
 )
 ;
 }
