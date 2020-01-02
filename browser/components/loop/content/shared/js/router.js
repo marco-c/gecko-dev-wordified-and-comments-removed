@@ -505,17 +505,6 @@ function
 {
 this
 .
-_notifier
-.
-warnL10n
-(
-"
-call_has_ended
-"
-)
-;
-this
-.
 endCall
 (
 )
