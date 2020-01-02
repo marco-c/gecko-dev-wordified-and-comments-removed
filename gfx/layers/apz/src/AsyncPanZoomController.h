@@ -989,9 +989,6 @@ mZoomConstraints
 TimeStamp
 mLastSampleTime
 ;
-uint32_t
-mLastEventTime
-;
 ParentLayerPoint
 mLastZoomFocus
 ;
