@@ -1582,7 +1582,7 @@ ignoreCase
 const
 {
 return
-getSlot
+getFixedSlot
 (
 IGNORE_CASE_FLAG_SLOT
 )
@@ -1599,7 +1599,7 @@ global
 const
 {
 return
-getSlot
+getFixedSlot
 (
 GLOBAL_FLAG_SLOT
 )
@@ -1616,7 +1616,7 @@ multiline
 const
 {
 return
-getSlot
+getFixedSlot
 (
 MULTILINE_FLAG_SLOT
 )
@@ -1633,7 +1633,7 @@ sticky
 const
 {
 return
-getSlot
+getFixedSlot
 (
 STICKY_FLAG_SLOT
 )

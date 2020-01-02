@@ -174,7 +174,9 @@ pc
 script_
 -
 >
-code
+getCode
+(
+)
 ]
 .
 initialized
@@ -188,7 +190,9 @@ pc
 script_
 -
 >
-code
+getCode
+(
+)
 ]
 ;
 }
@@ -210,7 +214,9 @@ pc
 script_
 -
 >
-code
+getCode
+(
+)
 ]
 .
 initialized
@@ -224,7 +230,9 @@ pc
 script_
 -
 >
-code
+getCode
+(
+)
 ]
 ;
 return

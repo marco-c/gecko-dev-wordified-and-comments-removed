@@ -4565,9 +4565,6 @@ nargs
 =
 info
 .
-fun
--
->
 nargs
 ;
 u
@@ -11676,7 +11673,9 @@ JS_ASSERT
 target
 -
 >
-nargs
+getNargs
+(
+)
 <
 =
 call
@@ -12870,7 +12869,9 @@ getSingleTarget
 )
 -
 >
-nargs
+getNargs
+(
+)
 )
 )
 ;
@@ -17943,6 +17944,12 @@ mir
 >
 templateObject
 (
+)
+;
+AutoUnprotectCell
+unprotect
+(
+templateObj
 )
 ;
 OutOfLineCode
@@ -34512,7 +34519,9 @@ script
 )
 -
 >
-lineno
+getLineno
+(
+)
 )
 ;
 if
@@ -39765,7 +39774,9 @@ script
 )
 -
 >
-strict
+getStrict
+(
+)
 )
 return
 callVM
@@ -39888,7 +39899,9 @@ script
 )
 -
 >
-strict
+getStrict
+(
+)
 )
 return
 callVM

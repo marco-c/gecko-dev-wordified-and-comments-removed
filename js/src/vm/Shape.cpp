@@ -969,7 +969,7 @@ shape
 shape
 -
 >
-propid
+propidRaw
 (
 )
 =

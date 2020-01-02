@@ -284,6 +284,12 @@ thing
 #
 ifdef
 JSGC_INCREMENTAL
+AutoUnprotectCell
+unprotect
+(
+thing
+)
+;
 JS
 :
 :
