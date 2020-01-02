@@ -629,7 +629,7 @@ BulletIsEmpty
 const
 ;
 void
-GetBulletText
+GetSpokenBulletText
 (
 nsAString
 &

@@ -1223,6 +1223,14 @@ CancelAllPendingReflows
 0
 ;
 virtual
+void
+NotifyCounterStylesAreDirty
+(
+)
+=
+0
+;
+virtual
 nsresult
 RecreateFramesFor
 (

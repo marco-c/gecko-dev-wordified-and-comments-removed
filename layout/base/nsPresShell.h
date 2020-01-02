@@ -690,6 +690,12 @@ aEvent
 MOZ_OVERRIDE
 ;
 virtual
+void
+NotifyCounterStylesAreDirty
+(
+)
+;
+virtual
 nsresult
 ReconstructFrames
 (

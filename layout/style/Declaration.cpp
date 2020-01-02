@@ -4130,7 +4130,7 @@ if
 (
 AppendValueToString
 (
-eCSSProperty_list_style_type
+eCSSProperty_list_style_position
 aValue
 aSerialization
 )
@@ -4152,7 +4152,7 @@ if
 (
 AppendValueToString
 (
-eCSSProperty_list_style_position
+eCSSProperty_list_style_image
 aValue
 aSerialization
 )
@@ -4172,7 +4172,7 @@ char16_t
 }
 AppendValueToString
 (
-eCSSProperty_list_style_image
+eCSSProperty_list_style_type
 aValue
 aSerialization
 )

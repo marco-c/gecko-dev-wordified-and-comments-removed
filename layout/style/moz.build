@@ -121,6 +121,11 @@ AnimationCommon
 h
 '
 '
+CounterStyleManager
+.
+h
+'
+'
 nsAnimationManager
 .
 h

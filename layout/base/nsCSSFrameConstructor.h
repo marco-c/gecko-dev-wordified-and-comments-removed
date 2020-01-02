@@ -474,6 +474,11 @@ RecalcQuotesAndCounters
 )
 ;
 void
+NotifyCounterStylesAreDirty
+(
+)
+;
+void
 WillDestroyFrameTree
 (
 )
