@@ -1363,7 +1363,15 @@ T
 class
 TypedRegisterSet
 {
-uint32_t
+typedef
+typename
+T
+:
+:
+SetType
+SetType
+;
+SetType
 bits_
 ;
 public
@@ -1372,7 +1380,7 @@ explicit
 MOZ_CONSTEXPR
 TypedRegisterSet
 (
-uint32_t
+SetType
 bits
 )
 :
@@ -1530,7 +1538,7 @@ in
 )
 {
 const
-uint32_t
+SetType
 allocatableVolatile
 =
 T
@@ -1632,7 +1640,10 @@ return
 bits_
 &
 (
+SetType
+(
 1
+)
 <
 <
 reg
@@ -1655,7 +1666,10 @@ bits_
 |
 =
 (
+SetType
+(
 1
+)
 <
 <
 reg
@@ -1808,7 +1822,10 @@ bits_
 =
 ~
 (
+SetType
+(
 1
+)
 <
 <
 reg
@@ -2299,7 +2316,7 @@ bits_
 0
 ;
 }
-uint32_t
+SetType
 bits
 (
 )

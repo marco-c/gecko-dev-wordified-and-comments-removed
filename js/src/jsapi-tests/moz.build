@@ -473,6 +473,11 @@ testJitFoldsTo
 cpp
 '
 '
+testJitMoveEmitterCycles
+.
+cpp
+'
+'
 testJitRValueAlloc
 .
 cpp

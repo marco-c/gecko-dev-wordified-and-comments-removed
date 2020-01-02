@@ -34,7 +34,7 @@ CodeGenerator
 class
 MoveEmitterARM
 {
-bool
+uint32_t
 inCycle_
 ;
 MacroAssemblerARMCompat
@@ -74,6 +74,10 @@ tempFloatReg
 Operand
 cycleSlot
 (
+uint32_t
+slot
+uint32_t
+subslot
 )
 const
 ;
@@ -150,6 +154,8 @@ MoveOp
 :
 Type
 type
+uint32_t
+slot
 )
 ;
 void
@@ -168,6 +174,8 @@ MoveOp
 :
 Type
 type
+uint32_t
+slot
 )
 ;
 void

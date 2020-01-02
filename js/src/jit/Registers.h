@@ -129,6 +129,13 @@ Codes
 Code
 Code
 ;
+typedef
+Codes
+:
+:
+SetType
+SetType
+;
 Code
 code_
 ;

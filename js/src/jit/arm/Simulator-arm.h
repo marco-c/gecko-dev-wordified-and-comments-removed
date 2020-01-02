@@ -1172,6 +1172,9 @@ static
 int64_t
 StopSimAt
 ;
+bool
+skipCalleeSavedRegsCheck
+;
 static
 void
 *
