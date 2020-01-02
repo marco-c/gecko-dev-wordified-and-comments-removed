@@ -163,17 +163,6 @@ code
 USE_STATIC_LIBS
 =
 1
-#
-Need
-to
-custom
-install
-OMX
-media
-plugin
-NO_INSTALL
-=
-1
 include
 (
 topsrcdir

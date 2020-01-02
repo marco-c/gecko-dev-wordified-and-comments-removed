@@ -90,15 +90,6 @@ code
 USE_STATIC_LIBS
 =
 1
-#
-Need
-to
-custom
-install
-plugins
-NO_INSTALL
-=
-1
 VPATH
 +
 =

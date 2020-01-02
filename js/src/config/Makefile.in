@@ -148,15 +148,6 @@ config
 .
 mk
 #
-Do
-not
-install
-util
-programs
-NO_INSTALL
-=
-1
-#
 Force
 wrap
 zlib

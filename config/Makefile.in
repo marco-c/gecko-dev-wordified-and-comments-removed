@@ -193,15 +193,6 @@ config
 config
 .
 mk
-#
-Do
-not
-install
-util
-programs
-NO_INSTALL
-=
-1
 ifneq
 (
 WINNT
