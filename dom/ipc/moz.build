@@ -622,6 +622,12 @@ xpcom
 /
 base
 '
+'
+/
+xpcom
+/
+threads
+'
 ]
 DEFINES
 [
