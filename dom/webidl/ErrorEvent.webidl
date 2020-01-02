@@ -126,7 +126,7 @@ readonly
 attribute
 unsigned
 long
-column
+colno
 ;
 readonly
 attribute
@@ -160,7 +160,7 @@ lineno
 ;
 unsigned
 long
-column
+colno
 =
 0
 ;
