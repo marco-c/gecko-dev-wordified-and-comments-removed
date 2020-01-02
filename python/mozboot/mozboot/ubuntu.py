@@ -83,6 +83,12 @@ releases
         
 self
 .
+_update_package_manager
+(
+)
+        
+self
+.
 apt_install
 (
 '

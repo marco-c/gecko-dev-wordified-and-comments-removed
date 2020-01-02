@@ -242,7 +242,18 @@ self
 )
 :
         
-print
+self
+.
+run_as_root
+(
+[
 '
-lala
+apt
+-
+get
 '
+'
+update
+'
+]
+)
