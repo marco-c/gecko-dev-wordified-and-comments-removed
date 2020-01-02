@@ -25812,7 +25812,7 @@ family
 mUserFontSet
 -
 >
-GetFamily
+LookupFamily
 (
 aName
 )
