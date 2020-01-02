@@ -502,7 +502,6 @@ Flags
 >
 mFlags
 ;
-private
 static
 final
 String
@@ -512,7 +511,6 @@ JSON_KEY_TYPE
 type
 "
 ;
-private
 static
 final
 String
@@ -522,7 +520,6 @@ JSON_KEY_TITLE
 title
 "
 ;
-private
 static
 final
 String
@@ -532,7 +529,6 @@ JSON_KEY_ID
 id
 "
 ;
-private
 static
 final
 String
@@ -542,7 +538,6 @@ JSON_KEY_LAYOUT
 layout
 "
 ;
-private
 static
 final
 String
@@ -552,7 +547,6 @@ JSON_KEY_VIEWS
 views
 "
 ;
-private
 static
 final
 String
@@ -562,7 +556,6 @@ JSON_KEY_AUTH_CONFIG
 authConfig
 "
 ;
-private
 static
 final
 String
@@ -572,7 +565,6 @@ JSON_KEY_DEFAULT
 default
 "
 ;
-private
 static
 final
 String
@@ -3007,7 +2999,6 @@ Flags
 >
 mFlags
 ;
-private
 static
 final
 String
@@ -3017,7 +3008,6 @@ JSON_KEY_TYPE
 type
 "
 ;
-private
 static
 final
 String
@@ -3027,7 +3017,6 @@ JSON_KEY_DATASET
 dataset
 "
 ;
-private
 static
 final
 String
@@ -3037,7 +3026,6 @@ JSON_KEY_ITEM_TYPE
 itemType
 "
 ;
-private
 static
 final
 String
@@ -3047,7 +3035,6 @@ JSON_KEY_ITEM_HANDLER
 itemHandler
 "
 ;
-private
 static
 final
 String
@@ -3057,7 +3044,6 @@ JSON_KEY_BACK_IMAGE_URL
 backImageUrl
 "
 ;
-private
 static
 final
 String
@@ -3067,7 +3053,6 @@ JSON_KEY_FILTER
 filter
 "
 ;
-private
 static
 final
 String
@@ -3077,7 +3062,6 @@ JSON_KEY_EMPTY
 empty
 "
 ;
-private
 static
 final
 String
@@ -4071,7 +4055,6 @@ final
 String
 mImageUrl
 ;
-private
 static
 final
 String
@@ -4081,7 +4064,6 @@ JSON_KEY_TEXT
 text
 "
 ;
-private
 static
 final
 String
@@ -4364,7 +4346,6 @@ final
 String
 mImageUrl
 ;
-private
 static
 final
 String
@@ -4374,7 +4355,6 @@ JSON_KEY_MESSAGE_TEXT
 messageText
 "
 ;
-private
 static
 final
 String
@@ -4384,7 +4364,6 @@ JSON_KEY_BUTTON_TEXT
 buttonText
 "
 ;
-private
 static
 final
 String
