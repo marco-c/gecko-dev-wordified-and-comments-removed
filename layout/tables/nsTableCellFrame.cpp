@@ -3777,7 +3777,7 @@ cellSpacing
 firstTableInFlow
 -
 >
-GetCellSpacingX
+GetCellSpacingY
 (
 )
 ;
