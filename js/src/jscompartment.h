@@ -893,14 +893,6 @@ sweepInitialShapeTable
 (
 )
 ;
-void
-markAllInitialShapeTableEntries
-(
-JSTracer
-*
-trc
-)
-;
 js
 :
 :
