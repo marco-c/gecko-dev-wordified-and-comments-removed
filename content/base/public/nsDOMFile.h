@@ -1837,6 +1837,7 @@ nsDOMMemoryFileDataOwnerMemoryReporter
 ;
 class
 DataOwner
+MOZ_FINAL
 :
 public
 mozilla
@@ -1913,6 +1914,8 @@ this
 )
 ;
 }
+private
+:
 ~
 DataOwner
 (
@@ -1952,6 +1955,8 @@ mData
 )
 ;
 }
+public
+:
 static
 void
 EnsureMemoryReporterRegistered
