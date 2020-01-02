@@ -18997,6 +18997,8 @@ callWithABIPre
 uint32_t
 *
 stackAdjust
+bool
+callFromAsmJS
 )
 {
 JS_ASSERT
@@ -19071,6 +19073,17 @@ intptr_t
 ;
 #
 endif
+uint32_t
+alignmentAtPrologue
+=
+(
+callFromAsmJS
+)
+?
+AlignmentAtPrologue
+:
+0
+;
 if
 (
 !
@@ -19087,6 +19100,8 @@ framePushed_
 +
 *
 stackAdjust
++
+alignmentAtPrologue
 StackAlignment
 )
 ;
@@ -19700,6 +19715,7 @@ callWithABIPre
 (
 &
 stackAdjust
+true
 )
 ;
 call

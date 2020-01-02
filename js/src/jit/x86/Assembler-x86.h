@@ -689,13 +689,6 @@ void
 *
 )
 ;
-static
-const
-uint32_t
-AlignmentMidPrologue
-=
-AlignmentAtPrologue
-;
 struct
 ImmTag
 :

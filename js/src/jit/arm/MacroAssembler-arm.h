@@ -3465,6 +3465,12 @@ currentOffset
 (
 )
 framePushed_
++
+sizeof
+(
+void
+*
+)
 )
 )
 ;
@@ -9690,6 +9696,10 @@ callWithABIPre
 uint32_t
 *
 stackAdjust
+bool
+callFromAsmJS
+=
+false
 )
 ;
 void
