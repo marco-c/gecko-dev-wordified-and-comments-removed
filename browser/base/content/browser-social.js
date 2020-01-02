@@ -1108,6 +1108,9 @@ function
 SocialUI_activationHandler
 (
 e
+aBypassUserEnable
+=
+false
 )
 {
 let
@@ -1167,6 +1170,10 @@ return
 ;
 if
 (
+!
+aBypassUserEnable
+&
+&
 targetDoc
 .
 defaultView
@@ -1384,6 +1391,7 @@ tab
 )
 ;
 }
+aBypassUserEnable
 )
 ;
 }
