@@ -12843,7 +12843,7 @@ nsIDOMWindowUtils
 ;
 windowUtils
 .
-preventFurtherDialogs
+disableDialogs
 (
 )
 ;

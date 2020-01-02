@@ -260,7 +260,7 @@ Ci
 nsIDOMWindowUtils
 )
 .
-preventFurtherDialogs
+disableDialogs
 (
 )
 ;
