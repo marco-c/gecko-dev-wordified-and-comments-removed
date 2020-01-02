@@ -20,7 +20,6 @@ let
 {
 gFront
 ShadersEditorsView
-EVENTS
 }
 =
 panel
@@ -33,11 +32,6 @@ target
 )
 ;
 yield
-promise
-.
-all
-(
-[
 once
 (
 gFront
@@ -46,17 +40,6 @@ program
 -
 linked
 "
-)
-once
-(
-panel
-.
-panelWin
-EVENTS
-.
-SOURCES_SHOWN
-)
-]
 )
 ;
 let
