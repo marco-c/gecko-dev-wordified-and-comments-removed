@@ -115,6 +115,15 @@ mozilla
 .
 gecko
 .
+SuggestClient
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 Tab
 ;
 import

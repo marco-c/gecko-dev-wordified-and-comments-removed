@@ -46,9 +46,7 @@ mozilla
 .
 gecko
 .
-home
-.
-BrowserSearch
+SuggestClient
 ;
 import
 org
@@ -59,7 +57,7 @@ gecko
 .
 home
 .
-SuggestClient
+BrowserSearch
 ;
 import
 android

@@ -2181,13 +2181,6 @@ java
 '
 home
 /
-SuggestClient
-.
-java
-'
-'
-home
-/
 TabMenuStrip
 .
 java
@@ -2664,6 +2657,11 @@ java
 sqlite
 /
 SQLiteBridgeException
+.
+java
+'
+'
+SuggestClient
 .
 java
 '
