@@ -505,6 +505,14 @@ dll
 ALL_VERSIONS
 }
 {
+"
+spvc32
+.
+dll
+"
+ALL_VERSIONS
+}
+{
 nullptr
 0
 }
