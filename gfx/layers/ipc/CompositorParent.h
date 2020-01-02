@@ -657,17 +657,6 @@ ProcessId
 aOtherProcess
 )
 ;
-static
-void
-StartUpWithExistingThread
-(
-MessageLoop
-*
-aMsgLoop
-PlatformThreadId
-aThreadID
-)
-;
 struct
 LayerTreeState
 {
