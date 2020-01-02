@@ -2902,6 +2902,15 @@ aWrapper
 id
 )
 ;
+aWrapper
+.
+remove
+(
+)
+;
+return
+null
+;
 }
 if
 (
