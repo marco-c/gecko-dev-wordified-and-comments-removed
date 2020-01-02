@@ -119,6 +119,11 @@ PromiseNativeHandler
 .
 h
 '
+'
+PromiseWorkerProxy
+.
+h
+'
 ]
 SOURCES
 +

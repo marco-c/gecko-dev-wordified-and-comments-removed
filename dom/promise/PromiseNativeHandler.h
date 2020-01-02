@@ -37,6 +37,9 @@ virtual
 void
 ResolvedCallback
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -56,6 +59,9 @@ virtual
 void
 RejectedCallback
 (
+JSContext
+*
+aCx
 JS
 :
 :
