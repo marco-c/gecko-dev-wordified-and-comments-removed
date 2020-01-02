@@ -157,6 +157,15 @@ aMessage
 MOZ_OVERRIDE
 ;
 virtual
+void
+FieldSetDisabledChanged
+(
+bool
+aNotify
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 PreHandleEvent
 (
@@ -241,6 +250,11 @@ DoneCreatingElement
 (
 )
 MOZ_OVERRIDE
+;
+void
+UpdateBarredFromConstraintValidation
+(
+)
 ;
 EventStates
 IntrinsicState
