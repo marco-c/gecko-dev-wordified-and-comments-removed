@@ -38627,9 +38627,13 @@ deltaZ
 ;
 aMouseEvent
 .
-pluginEvent
-=
+mPluginEvent
+.
+Copy
+(
+*
 cocoaEvent
+)
 ;
 }
 BOOL

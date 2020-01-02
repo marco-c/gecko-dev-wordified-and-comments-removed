@@ -5067,13 +5067,13 @@ nativeScanCode
 ;
 aEvent
 .
-pluginEvent
-=
+mPluginEvent
+.
+Copy
 (
-void
 *
-)
 aQEvent
+)
 ;
 }
 nsEventStatus

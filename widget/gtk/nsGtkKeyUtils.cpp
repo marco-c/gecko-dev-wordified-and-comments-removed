@@ -4615,13 +4615,13 @@ aGdkKeyEvent
 }
 aKeyEvent
 .
-pluginEvent
-=
+mPluginEvent
+.
+Copy
 (
-void
 *
-)
 aGdkKeyEvent
+)
 ;
 aKeyEvent
 .
