@@ -3286,6 +3286,17 @@ selector
 }
 }
 }
+if
+(
+ele
+.
+parentNode
+!
+=
+=
+document
+)
+{
 index
 =
 positionInNodeList
@@ -3329,6 +3340,7 @@ index
 )
 '
 ;
+}
 return
 selector
 ;
