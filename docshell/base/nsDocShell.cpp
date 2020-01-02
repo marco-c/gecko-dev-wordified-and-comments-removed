@@ -12202,7 +12202,10 @@ mTreeOwner
 {
 mCanExecuteScripts
 =
-false
+mCanExecuteScripts
+&
+&
+mAllowJavascript
 ;
 }
 else
