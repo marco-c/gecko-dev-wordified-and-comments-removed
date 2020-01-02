@@ -756,10 +756,6 @@ blob
 "
 :
 blob
-.
-slice
-(
-)
 }
 ;
 return
