@@ -248,11 +248,6 @@ nsSVGSwitchFrame
 cpp
 '
 '
-nsSVGTextContainerFrame
-.
-cpp
-'
-'
 nsSVGTextFrame2
 .
 cpp

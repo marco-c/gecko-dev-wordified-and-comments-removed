@@ -546,13 +546,6 @@ nsStyleContext
 aContext
 )
 ;
-#
-include
-"
-nsSVGTextContainerFrame
-.
-h
-"
 nsIFrame
 *
 NS_NewSVGOuterSVGFrame

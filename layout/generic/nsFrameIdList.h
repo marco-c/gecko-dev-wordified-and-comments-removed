@@ -600,10 +600,6 @@ nsSVGSwitchFrame
 )
 FRAME_ID
 (
-nsSVGTextContainerFrame
-)
-FRAME_ID
-(
 nsSVGTextFrame2
 )
 FRAME_ID
