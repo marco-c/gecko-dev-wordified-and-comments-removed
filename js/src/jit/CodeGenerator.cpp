@@ -48517,9 +48517,9 @@ bool
 CodeGenerator
 :
 :
-visitFunctionBoundary
+visitProfilerStackOp
 (
-LFunctionBoundary
+LProfilerStackOp
 *
 lir
 )
@@ -48565,10 +48565,10 @@ type
 )
 {
 case
-MFunctionBoundary
+MProfilerStackOp
 :
 :
-Inline_Enter
+InlineEnter
 :
 if
 (
@@ -48630,7 +48630,7 @@ return
 false
 ;
 case
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 Enter
@@ -48730,10 +48730,10 @@ inlinedFunction
 )
 ;
 case
-MFunctionBoundary
+MProfilerStackOp
 :
 :
-Inline_Exit
+InlineExit
 :
 sps_
 .
@@ -48754,7 +48754,7 @@ return
 true
 ;
 case
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 Exit
@@ -48846,7 +48846,7 @@ MOZ_ASSUME_UNREACHABLE
 (
 "
 invalid
-LFunctionBoundary
+LProfilerStackOp
 type
 "
 )

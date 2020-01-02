@@ -2006,9 +2006,9 @@ ins
 )
 ;
 bool
-visitFunctionBoundary
+visitProfilerStackOp
 (
-LFunctionBoundary
+LProfilerStackOp
 *
 lir
 )

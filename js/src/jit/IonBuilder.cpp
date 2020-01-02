@@ -3748,7 +3748,7 @@ current
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -3759,7 +3759,7 @@ alloc
 script
 (
 )
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 Enter
@@ -4392,7 +4392,7 @@ predecessor
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -4403,10 +4403,10 @@ alloc
 script
 (
 )
-MFunctionBoundary
+MProfilerStackOp
 :
 :
-Inline_Enter
+InlineEnter
 inliningDepth_
 )
 )
@@ -17712,7 +17712,7 @@ current
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -17723,7 +17723,7 @@ alloc
 script
 (
 )
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 Exit
@@ -19331,7 +19331,7 @@ returnBlock
 >
 add
 (
-MFunctionBoundary
+MProfilerStackOp
 :
 :
 New
@@ -19340,10 +19340,10 @@ alloc
 (
 )
 nullptr
-MFunctionBoundary
+MProfilerStackOp
 :
 :
-Inline_Exit
+InlineExit
 )
 )
 ;

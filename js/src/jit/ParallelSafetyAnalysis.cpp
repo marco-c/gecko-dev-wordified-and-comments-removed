@@ -1322,7 +1322,7 @@ CallInstanceOf
 )
 UNSAFE_OP
 (
-FunctionBoundary
+ProfilerStackOp
 )
 UNSAFE_OP
 (
