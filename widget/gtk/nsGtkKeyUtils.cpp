@@ -2323,7 +2323,7 @@ KeymapWrapper
 :
 InitInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aInputEvent
 guint

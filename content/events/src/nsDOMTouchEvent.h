@@ -410,7 +410,10 @@ AltKey
 return
 static_cast
 <
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 >
 (
@@ -431,7 +434,10 @@ MetaKey
 return
 static_cast
 <
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 >
 (
@@ -452,7 +458,10 @@ CtrlKey
 return
 static_cast
 <
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 >
 (
@@ -473,7 +482,10 @@ ShiftKey
 return
 static_cast
 <
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 >
 (

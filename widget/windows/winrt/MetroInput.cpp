@@ -4795,7 +4795,7 @@ MetroInput
 :
 DispatchAsyncEventIgnoreStatus
 (
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )

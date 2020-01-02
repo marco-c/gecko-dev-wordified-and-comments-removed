@@ -53,7 +53,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 aEvent
 )
@@ -255,7 +258,10 @@ aSourceEvent
 }
 protected
 :
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 Event
 (
@@ -264,7 +270,10 @@ Event
 return
 static_cast
 <
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 >
 (

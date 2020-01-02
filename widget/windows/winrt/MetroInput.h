@@ -862,7 +862,7 @@ mTokenRightTapped
 void
 DispatchAsyncEventIgnoreStatus
 (
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )

@@ -2046,7 +2046,7 @@ MOZ_CRASH
 mEvent
 must
 be
-nsInputEvent
+WidgetInputEvent
 or
 derived
 class
@@ -2054,13 +2054,13 @@ class
 )
 ;
 }
-nsInputEvent
+WidgetInputEvent
 *
 inputEvent
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

@@ -2574,7 +2574,7 @@ nsCocoaUtils
 :
 InitInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aInputEvent
 NSEvent
@@ -2625,7 +2625,7 @@ nsCocoaUtils
 :
 InitInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aInputEvent
 NSUInteger

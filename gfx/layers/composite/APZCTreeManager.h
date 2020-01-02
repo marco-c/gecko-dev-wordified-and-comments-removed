@@ -351,10 +351,10 @@ nsEventStatus
 ReceiveInputEvent
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )
@@ -362,7 +362,7 @@ aOutEvent
 nsEventStatus
 ReceiveInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
 )
@@ -649,10 +649,10 @@ nsEventStatus
 ProcessEvent
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 inputEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )

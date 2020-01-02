@@ -1610,7 +1610,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 aEvent
 )
@@ -1661,7 +1664,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 aEvent
 )
@@ -1991,7 +1997,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 aEvent
 )

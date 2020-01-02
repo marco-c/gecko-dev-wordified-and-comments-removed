@@ -813,7 +813,7 @@ aVisitor
 mPresContext
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

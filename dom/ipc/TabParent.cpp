@@ -6990,10 +6990,10 @@ TabParent
 MaybeForwardEventToRenderFrame
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 aEvent
-nsInputEvent
+WidgetInputEvent
 *
 aOutEvent
 )

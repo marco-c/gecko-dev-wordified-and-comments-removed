@@ -884,7 +884,7 @@ aMouseEvent
 toGeckoEvent
 :
 (
-nsInputEvent
+WidgetInputEvent
 *
 )
 outGeckoEvent
@@ -28303,7 +28303,7 @@ aMouseEvent
 toGeckoEvent
 :
 (
-nsInputEvent
+WidgetInputEvent
 *
 )
 outGeckoEvent

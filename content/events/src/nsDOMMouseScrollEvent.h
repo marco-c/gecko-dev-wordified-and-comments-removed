@@ -53,7 +53,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+mozilla
+:
+:
+WidgetInputEvent
 *
 aEvent
 )

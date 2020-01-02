@@ -381,7 +381,7 @@ EnsureAltGr
 void
 InitInputEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aInputEvent
 )
@@ -560,7 +560,7 @@ MODIFIER_ALTGRAPH
 void
 InitMouseEvent
 (
-nsInputEvent
+WidgetInputEvent
 &
 aMouseEvent
 )

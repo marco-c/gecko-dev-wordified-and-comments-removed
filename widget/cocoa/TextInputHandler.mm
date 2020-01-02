@@ -25429,13 +25429,13 @@ message
 NS_KEY_PRESS
 )
 {
-nsInputEvent
+WidgetInputEvent
 &
 inputEvent
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 &
 >
 (

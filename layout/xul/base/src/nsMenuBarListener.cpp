@@ -1071,13 +1071,13 @@ modifiers
 =
 0
 ;
-nsInputEvent
+WidgetInputEvent
 *
 inputEvent
 =
 static_cast
 <
-nsInputEvent
+WidgetInputEvent
 *
 >
 (

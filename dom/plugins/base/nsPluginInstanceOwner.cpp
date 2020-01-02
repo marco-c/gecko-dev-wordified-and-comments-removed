@@ -9267,7 +9267,7 @@ int
 XInputEventState
 (
 const
-nsInputEvent
+WidgetInputEvent
 &
 anEvent
 )

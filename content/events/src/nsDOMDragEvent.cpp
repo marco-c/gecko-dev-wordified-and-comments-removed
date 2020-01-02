@@ -35,6 +35,10 @@ MouseEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMDragEvent
 :
 :
@@ -52,7 +56,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsInputEvent
+WidgetInputEvent
 *
 aEvent
 )
