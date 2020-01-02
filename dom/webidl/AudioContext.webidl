@@ -168,6 +168,11 @@ void
 ;
 [
 Constructor
+Constructor
+(
+AudioChannel
+audioChannelType
+)
 ]
 interface
 AudioContext
