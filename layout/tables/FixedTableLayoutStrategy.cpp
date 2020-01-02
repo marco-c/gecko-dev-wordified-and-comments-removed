@@ -411,7 +411,7 @@ cellFrame
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 if
@@ -1012,7 +1012,7 @@ cellFrame
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 }

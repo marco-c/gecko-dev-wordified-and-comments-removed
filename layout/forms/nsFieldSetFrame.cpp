@@ -1241,7 +1241,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 return
@@ -1278,7 +1278,7 @@ aRenderingContext
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 return
@@ -1598,7 +1598,7 @@ inner
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 <
 =
@@ -1638,7 +1638,7 @@ legend
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 <
 =

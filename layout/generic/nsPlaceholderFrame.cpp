@@ -218,7 +218,7 @@ mOutOfFlowFrame
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 aData
@@ -280,7 +280,7 @@ mOutOfFlowFrame
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 aData

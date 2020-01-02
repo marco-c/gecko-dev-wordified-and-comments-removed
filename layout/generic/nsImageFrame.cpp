@@ -9919,7 +9919,7 @@ this
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 aData

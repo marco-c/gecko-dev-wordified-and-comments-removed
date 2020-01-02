@@ -3464,7 +3464,7 @@ inner
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 return
@@ -3515,7 +3515,7 @@ inner
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 return

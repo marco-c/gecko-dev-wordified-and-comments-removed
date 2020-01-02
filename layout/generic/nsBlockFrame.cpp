@@ -3576,7 +3576,7 @@ mFirstChild
 nsLayoutUtils
 :
 :
-MIN_WIDTH
+MIN_ISIZE
 )
 ;
 data
@@ -4074,7 +4074,7 @@ mFirstChild
 nsLayoutUtils
 :
 :
-PREF_WIDTH
+PREF_ISIZE
 )
 ;
 data
