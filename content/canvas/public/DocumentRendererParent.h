@@ -78,10 +78,7 @@ void
 DrawToCanvas
 (
 const
-gfx
-:
-:
-IntSize
+nsIntSize
 &
 renderedSize
 const
@@ -95,10 +92,7 @@ bool
 Recv__delete__
 (
 const
-gfx
-:
-:
-IntSize
+nsIntSize
 &
 renderedSize
 const
