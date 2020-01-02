@@ -66,6 +66,17 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ShadowRoot
+.
+h
+"
 class
 nsIDOMAttr
 ;

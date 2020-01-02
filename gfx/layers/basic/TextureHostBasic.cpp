@@ -6,12 +6,17 @@ TextureHostBasic
 h
 "
 #
+ifdef
+XP_MACOSX
+#
 include
 "
 MacIOSurfaceTextureHostBasic
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
