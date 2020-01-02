@@ -177,9 +177,8 @@ removeTestListener
 this
 )
 ;
-executeSoon
-(
 aCallback
+(
 )
 ;
 }
