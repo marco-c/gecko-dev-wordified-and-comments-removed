@@ -313,6 +313,7 @@ accuracy
 void
 RequestSettingValue
 (
+const
 char
 *
 aKey
