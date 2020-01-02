@@ -2696,6 +2696,9 @@ experiments
 .
 disableExperiment
 (
+"
+foo
+"
 )
 ;
 list
@@ -4585,6 +4588,9 @@ experiments
 .
 disableExperiment
 (
+"
+foo
+"
 )
 ;
 Assert
@@ -8621,6 +8627,8 @@ present
 ;
 let
 failed
+=
+false
 ;
 try
 {
