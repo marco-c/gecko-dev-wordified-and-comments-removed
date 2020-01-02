@@ -146,6 +146,11 @@ TabCrashReporter
 jsm
 '
 '
+UITour
+.
+jsm
+'
+'
 offlineAppCache
 .
 jsm
