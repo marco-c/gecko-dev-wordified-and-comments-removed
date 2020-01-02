@@ -199,7 +199,8 @@ long
 version
 SECOidTag
 signature
-long
+SECItem
+*
 serialNumber
 const
 SECItem
