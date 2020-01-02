@@ -90,11 +90,6 @@ aResult
 const
 MOZ_OVERRIDE
 ;
-nsresult
-Init
-(
-)
-;
 DocumentFragment
 *
 Content
