@@ -470,12 +470,6 @@ MediaEngineDefault
 )
 {
 }
-~
-MediaEngineDefault
-(
-)
-{
-}
 virtual
 void
 EnumerateVideoDevices
@@ -506,6 +500,12 @@ MediaEngineAudioSource
 ;
 private
 :
+~
+MediaEngineDefault
+(
+)
+{
+}
 Mutex
 mMutex
 ;
