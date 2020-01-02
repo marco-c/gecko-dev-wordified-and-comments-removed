@@ -1532,16 +1532,11 @@ debuggerStatement
 (
 )
 ;
-#
-if
-JS_HAS_BLOCK_SCOPE
 Node
 letStatement
 (
 )
 ;
-#
-endif
 Node
 expressionStatement
 (

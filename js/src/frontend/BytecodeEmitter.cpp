@@ -11166,9 +11166,6 @@ pn
 >
 pn_right
 ;
-#
-if
-JS_HAS_BLOCK_SCOPE
 uint32_t
 blockObjCount
 =
@@ -11239,8 +11236,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -11257,9 +11252,6 @@ pn_left
 return
 false
 ;
-#
-if
-JS_HAS_BLOCK_SCOPE
 if
 (
 pn2
@@ -11316,8 +11308,6 @@ return
 false
 ;
 }
-#
-endif
 top
 =
 bce
@@ -11327,21 +11317,6 @@ offset
 (
 )
 ;
-#
-if
-!
-JS_HAS_BLOCK_SCOPE
-PushStatementBCE
-(
-bce
-&
-stmtInfo
-STMT_SWITCH
-top
-)
-;
-#
-else
 if
 (
 pn2
@@ -11388,8 +11363,6 @@ expr
 )
 ;
 }
-#
-endif
 uint32_t
 caseCount
 =
@@ -12753,9 +12726,6 @@ bce
 return
 false
 ;
-#
-if
-JS_HAS_BLOCK_SCOPE
 if
 (
 pn
@@ -12775,8 +12745,6 @@ JSOP_LEAVEBLOCK
 blockObjCount
 )
 ;
-#
-endif
 return
 true
 ;
@@ -19564,9 +19532,6 @@ bce
 )
 ;
 }
-#
-if
-JS_HAS_BLOCK_SCOPE
 MOZ_NEVER_INLINE
 static
 bool
@@ -19872,8 +19837,6 @@ bce
 )
 ;
 }
-#
-endif
 MOZ_NEVER_INLINE
 static
 bool
@@ -31495,9 +31458,6 @@ pn
 ;
 break
 ;
-#
-if
-JS_HAS_BLOCK_SCOPE
 case
 PNK_LET
 :
@@ -31528,8 +31488,6 @@ InitializeVars
 ;
 break
 ;
-#
-endif
 case
 PNK_ARRAYPUSH
 :

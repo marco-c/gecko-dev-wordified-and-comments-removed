@@ -15555,9 +15555,6 @@ stmt
 )
 ;
 }
-#
-if
-JS_HAS_BLOCK_SCOPE
 struct
 AddLetDecl
 {
@@ -16119,8 +16116,6 @@ return
 pnlet
 ;
 }
-#
-endif
 template
 <
 typename
@@ -16958,9 +16953,6 @@ return
 pn
 ;
 }
-#
-if
-JS_HAS_BLOCK_SCOPE
 template
 <
 >
@@ -17528,8 +17520,6 @@ SyntaxParseHandler
 NodeFailure
 ;
 }
-#
-endif
 template
 <
 typename
@@ -18496,9 +18486,6 @@ PNK_CONST
 )
 ;
 }
-#
-if
-JS_HAS_BLOCK_SCOPE
 else
 if
 (
@@ -18581,8 +18568,6 @@ DontHoistVars
 ;
 }
 }
-#
-endif
 else
 {
 pn1
@@ -19392,9 +19377,6 @@ null
 (
 )
 ;
-#
-if
-JS_HAS_BLOCK_SCOPE
 if
 (
 blockObj
@@ -19405,8 +19387,6 @@ tokenStream
 pc
 )
 ;
-#
-endif
 PopStatementPC
 (
 tokenStream
@@ -19727,9 +19707,6 @@ simpleForDecl
 )
 ;
 }
-#
-if
-JS_HAS_BLOCK_SCOPE
 else
 if
 (
@@ -19758,8 +19735,6 @@ null
 )
 ;
 }
-#
-endif
 else
 {
 lhsNode
@@ -23046,9 +23021,6 @@ return
 pn
 ;
 }
-#
-if
-JS_HAS_BLOCK_SCOPE
 case
 TOK_LET
 :
@@ -23057,8 +23029,6 @@ letStatement
 (
 )
 ;
-#
-endif
 case
 TOK_SEMI
 :
@@ -31542,9 +31512,6 @@ objectLiteral
 (
 )
 ;
-#
-if
-JS_HAS_BLOCK_SCOPE
 case
 TOK_LET
 :
@@ -31554,8 +31521,6 @@ letBlock
 LetExpresion
 )
 ;
-#
-endif
 case
 TOK_LP
 :

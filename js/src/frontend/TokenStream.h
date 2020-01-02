@@ -325,9 +325,6 @@ TokenKind
 tt
 )
 {
-#
-if
-JS_HAS_BLOCK_SCOPE
 return
 tt
 =
@@ -340,16 +337,6 @@ tt
 =
 TOK_LET
 ;
-#
-else
-return
-tt
-=
-=
-TOK_VAR
-;
-#
-endif
 }
 struct
 TokenPos
