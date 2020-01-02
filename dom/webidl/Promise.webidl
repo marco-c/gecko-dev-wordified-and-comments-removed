@@ -299,6 +299,7 @@ static
 Promise
 resolve
 (
+optional
 any
 value
 )
@@ -311,6 +312,7 @@ static
 Promise
 reject
 (
+optional
 any
 value
 )

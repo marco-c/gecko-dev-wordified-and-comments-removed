@@ -717,6 +717,7 @@ forEach
 (
 RTCStatsReportCallback
 callbackFn
+optional
 any
 thisArg
 )

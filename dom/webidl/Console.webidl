@@ -223,6 +223,7 @@ data
 void
 time
 (
+optional
 any
 time
 )
@@ -230,6 +231,7 @@ time
 void
 timeEnd
 (
+optional
 any
 time
 )

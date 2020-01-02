@@ -722,8 +722,6 @@ seq
 optional
 any
 any2
-=
-null
 optional
 object
 obj3
@@ -2838,6 +2836,14 @@ any
 .
 .
 .
+arg
+)
+;
+void
+passOptionalAny
+(
+optional
+any
 arg
 )
 ;

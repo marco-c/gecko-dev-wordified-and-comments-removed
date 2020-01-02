@@ -224,6 +224,7 @@ type
 =
 "
 "
+optional
 any
 encoderOptions
 )
@@ -242,6 +243,7 @@ type
 =
 "
 "
+optional
 any
 encoderOptions
 )

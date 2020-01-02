@@ -203,6 +203,7 @@ put
 (
 any
 value
+optional
 any
 key
 )
@@ -215,6 +216,7 @@ add
 (
 any
 value
+optional
 any
 key
 )
@@ -253,6 +255,7 @@ Throws
 IDBRequest
 openCursor
 (
+optional
 any
 range
 optional
@@ -348,6 +351,7 @@ Throws
 IDBRequest
 count
 (
+optional
 any
 key
 )
@@ -378,6 +382,7 @@ Throws
 IDBRequest
 mozGetAll
 (
+optional
 any
 key
 optional
@@ -401,6 +406,7 @@ Throws
 IDBRequest
 getAll
 (
+optional
 any
 key
 optional
@@ -424,6 +430,7 @@ Throws
 IDBRequest
 getAllKeys
 (
+optional
 any
 key
 optional
@@ -447,6 +454,7 @@ Throws
 IDBRequest
 openKeyCursor
 (
+optional
 any
 range
 optional
