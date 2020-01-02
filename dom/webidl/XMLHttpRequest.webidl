@@ -676,6 +676,7 @@ Mozilla
 specific
 stuff
 [
+ChromeOnly
 SetterThrows
 =
 Workers
