@@ -8398,17 +8398,6 @@ appmenu
 title
 ;
 "
-oncommand
-=
-"
-PanelUI
-.
-toggle
-(
-event
-)
-;
-"
 /
 >
 <
