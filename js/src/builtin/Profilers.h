@@ -13,7 +13,7 @@ h
 "
 #
 ifdef
-XP_WIN
+_MSC_VER
 typedef
 int
 pid_t

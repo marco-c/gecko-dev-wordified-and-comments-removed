@@ -418,10 +418,6 @@ ucstr
 JS_NewUCStringCopyN
 (
 cx
-(
-jschar
-*
-)
 result
 .
 get

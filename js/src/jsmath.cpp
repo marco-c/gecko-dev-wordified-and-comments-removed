@@ -1,15 +1,4 @@
 #
-if
-defined
-(
-XP_WIN
-)
-#
-define
-_CRT_RAND_S
-#
-endif
-#
 include
 "
 jsmath
