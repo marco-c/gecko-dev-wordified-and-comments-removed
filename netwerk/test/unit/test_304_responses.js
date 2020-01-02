@@ -515,6 +515,12 @@ n
 ;
 cacheEntry
 .
+metaDataReady
+(
+)
+;
+cacheEntry
+.
 close
 (
 )
