@@ -3549,7 +3549,7 @@ generated
 add_android_eclipse_library_project
 (
 '
-FennecGeneratedResources
+FennecResourcesGenerated
 '
 )
 generated
@@ -3563,7 +3563,9 @@ mozilla
 .
 fennec
 .
-generatedresources
+resources
+.
+generated
 '
 generated
 .
@@ -3580,7 +3582,7 @@ branding
 add_android_eclipse_library_project
 (
 '
-FennecBrandingResources
+FennecResourcesBranding
 '
 )
 branding
@@ -3594,7 +3596,9 @@ mozilla
 .
 fennec
 .
-brandingresources
+resources
+.
+branding
 '
 branding
 .
@@ -4025,7 +4029,7 @@ crashreporter
 add_android_eclipse_library_project
 (
 '
-FennecCrashReporterResources
+FennecResourcesCrashReporter
 '
 )
 crashreporter
@@ -4039,7 +4043,9 @@ mozilla
 .
 fennec
 .
-crashreporterresources
+resources
+.
+crashreporter
 '
 crashreporter
 .
