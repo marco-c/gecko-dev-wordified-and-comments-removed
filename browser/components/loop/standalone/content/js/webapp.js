@@ -14,7 +14,7 @@ webapp
 (
 function
 (
-TB
+OT
 webl10n
 )
 {
@@ -692,7 +692,7 @@ ConversationView
 {
 sdk
 :
-TB
+OT
 model
 :
 this
@@ -782,7 +782,7 @@ WebappRouter
 jQuery
 window
 .
-TB
+OT
 document
 .
 webL10n
