@@ -13576,7 +13576,7 @@ p
 ]
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -13593,7 +13593,7 @@ p
 ]
 ;
 }
-Error
+TypeError
 )
 ;
 }
