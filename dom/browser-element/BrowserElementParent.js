@@ -241,7 +241,7 @@ browser
 -
 frame
 -
-shown
+pending
 '
 true
 )
@@ -328,10 +328,11 @@ _createBrowserElementParent
 (
 frameLoader
 false
+false
 )
 ;
 }
-_observeRemoteBrowserFrameShown
+_observeRemoteBrowserFramePending
 :
 function
 (
@@ -356,6 +357,7 @@ _createBrowserElementParent
 (
 frameLoader
 true
+true
 )
 ;
 }
@@ -365,6 +367,7 @@ function
 (
 frameLoader
 hasRemoteFrame
+isPendingFrame
 )
 {
 let
@@ -394,6 +397,7 @@ create
 (
 frameLoader
 hasRemoteFrame
+isPendingFrame
 )
 )
 ;
@@ -455,12 +459,12 @@ browser
 -
 frame
 -
-shown
+pending
 '
 :
 this
 .
-_observeRemoteBrowserFrameShown
+_observeRemoteBrowserFramePending
 (
 subject
 )

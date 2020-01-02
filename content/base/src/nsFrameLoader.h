@@ -1205,6 +1205,9 @@ mRenderMode
 uint32_t
 mEventMode
 ;
+bool
+mPendingFrameSent
+;
 }
 ;
 #
