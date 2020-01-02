@@ -335,6 +335,11 @@ MessagePortList
 h
 '
 '
+Navigator
+.
+h
+'
+'
 ScreenOrientation
 .
 h

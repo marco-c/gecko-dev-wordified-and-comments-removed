@@ -2630,10 +2630,6 @@ files
 INCLUDES
 =
 \
-(
-LOCAL_INCLUDES
-)
-\
 -
 I
 (
@@ -2643,6 +2639,10 @@ srcdir
 -
 I
 .
+\
+(
+LOCAL_INCLUDES
+)
 \
 -
 I
