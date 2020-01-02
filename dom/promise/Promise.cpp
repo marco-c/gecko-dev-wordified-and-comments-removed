@@ -680,7 +680,7 @@ aCx
 )
 -
 >
-IsChromeWorker
+UsesSystemPrincipal
 (
 )
 ;
