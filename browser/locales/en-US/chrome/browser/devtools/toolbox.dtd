@@ -200,6 +200,16 @@ key
 >
 <
 !
+ENTITY
+toolboxReload
+.
+key
+"
+r
+"
+>
+<
+!
 -
 -
 LOCALIZATION
