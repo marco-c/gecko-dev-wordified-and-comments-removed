@@ -270,6 +270,10 @@ mAnimationGeneration
 (
 0
 )
+mReframingStyleContexts
+(
+nullptr
+)
 mPendingRestyles
 (
 ELEMENT_HAS_PENDING_RESTYLE
