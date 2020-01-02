@@ -3588,7 +3588,7 @@ transformToApzc
 )
 ;
 }
-void
+bool
 APZCTreeManager
 :
 :
@@ -3631,6 +3631,7 @@ length
 )
 {
 return
+false
 ;
 }
 next
@@ -3648,8 +3649,11 @@ next
 =
 nullptr
 )
+{
 return
+false
 ;
+}
 if
 (
 next
@@ -3668,6 +3672,7 @@ aEndPoint
 )
 ;
 }
+return
 next
 -
 >

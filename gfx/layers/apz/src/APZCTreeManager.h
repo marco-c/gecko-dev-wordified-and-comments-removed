@@ -368,7 +368,7 @@ TouchBehaviorFlags
 aValues
 )
 ;
-void
+bool
 DispatchScroll
 (
 AsyncPanZoomController

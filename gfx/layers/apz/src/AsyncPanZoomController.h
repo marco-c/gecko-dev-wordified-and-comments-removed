@@ -593,6 +593,11 @@ ScheduleComposite
 (
 )
 ;
+void
+ScheduleCompositeAndMaybeRepaint
+(
+)
+;
 float
 PanDistance
 (
@@ -1202,7 +1207,7 @@ return
 mScrollParentId
 ;
 }
-void
+bool
 AttemptScroll
 (
 const
@@ -1232,7 +1237,7 @@ FrameMetrics
 ViewID
 mScrollParentId
 ;
-void
+bool
 CallDispatchScroll
 (
 const
@@ -1245,6 +1250,15 @@ ScreenPoint
 aEndPoint
 uint32_t
 aOverscrollHandoffChainIndex
+)
+;
+bool
+OverscrollBy
+(
+const
+CSSPoint
+&
+aOverscroll
 )
 ;
 public
