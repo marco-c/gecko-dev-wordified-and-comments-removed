@@ -4265,6 +4265,12 @@ defined
 (
 JS_CODEGEN_ARM
 )
+|
+|
+defined
+(
+JS_CODEGEN_MIPS
+)
 explicit
 AsmJSHeapAccess
 (
