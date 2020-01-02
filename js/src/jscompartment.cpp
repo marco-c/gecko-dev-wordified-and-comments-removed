@@ -328,10 +328,6 @@ compartmentStats
 (
 nullptr
 )
-jitCompartment_
-(
-nullptr
-)
 scheduledForDestruction
 (
 false
@@ -339,6 +335,10 @@ false
 maybeAlive
 (
 true
+)
+jitCompartment_
+(
+nullptr
 )
 {
 runtime_
