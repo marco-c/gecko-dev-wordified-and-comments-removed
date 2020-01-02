@@ -3772,6 +3772,17 @@ endswith
 js
 "
 )
+and
+not
+filename
+.
+endswith
+(
+"
+.
+json
+"
+)
 :
           
 filename
@@ -3782,6 +3793,18 @@ filename
 js
 "
         
+if
+filename
+.
+endswith
+(
+"
+.
+js
+"
+)
+:
+          
 basename
 =
 filename
@@ -3789,6 +3812,27 @@ filename
 :
 -
 3
+]
+        
+if
+filename
+.
+endswith
+(
+"
+.
+json
+"
+)
+:
+          
+basename
+=
+filename
+[
+:
+-
+5
 ]
         
 pkg

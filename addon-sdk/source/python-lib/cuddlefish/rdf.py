@@ -828,6 +828,13 @@ target_cfg
 get
 (
 '
+title
+'
+target_cfg
+.
+get
+(
+'
 fullName
 '
 target_cfg
@@ -836,6 +843,7 @@ target_cfg
 name
 '
 ]
+)
 )
 )
     

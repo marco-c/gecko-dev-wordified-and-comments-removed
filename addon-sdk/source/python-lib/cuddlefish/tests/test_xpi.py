@@ -2479,17 +2479,6 @@ addon
 -
 sdk
 /
-data
-/
-"
-                    
-"
-resources
-/
-addon
--
-sdk
-/
 lib
 /
 "

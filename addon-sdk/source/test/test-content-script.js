@@ -84,13 +84,11 @@ testURI
 require
 (
 "
-sdk
+.
 /
-self
+fixtures
 "
 )
-.
-data
 .
 url
 (

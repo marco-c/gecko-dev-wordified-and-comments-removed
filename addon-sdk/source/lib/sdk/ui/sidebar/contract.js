@@ -81,6 +81,9 @@ is
 '
 string
 '
+'
+undefined
+'
 ]
 ok
 :
@@ -194,6 +197,7 @@ must
 be
 a
 valid
+local
 URI
 .
 '

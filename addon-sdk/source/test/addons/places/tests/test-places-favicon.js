@@ -102,6 +102,7 @@ require
 (
 '
 .
+.
 /
 favicon
 -
@@ -149,6 +150,7 @@ resetPlaces
 require
 (
 '
+.
 .
 /
 places
@@ -1215,15 +1217,3 @@ done
 )
 ;
 }
-require
-(
-"
-test
-"
-)
-.
-run
-(
-exports
-)
-;

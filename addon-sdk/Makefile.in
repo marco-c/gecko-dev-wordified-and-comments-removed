@@ -131,10 +131,6 @@ bin
 \
 source
 /
-data
-\
-source
-/
 python
 -
 lib

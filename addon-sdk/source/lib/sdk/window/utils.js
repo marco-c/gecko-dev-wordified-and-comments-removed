@@ -1387,6 +1387,13 @@ nsIDOMWindow
 ;
 if
 (
+!
+window
+.
+closed
+&
+&
+(
 options
 .
 includePrivate
@@ -1396,6 +1403,7 @@ includePrivate
 isWindowPrivate
 (
 window
+)
 )
 )
 {
