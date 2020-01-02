@@ -60,7 +60,9 @@ VARIANT_COLOR
 /
 /
 C
-eCSSUnit_RGBAColor
+eCSSUnit_
+*
+Color
 eCSSUnit_Ident
 (
 e

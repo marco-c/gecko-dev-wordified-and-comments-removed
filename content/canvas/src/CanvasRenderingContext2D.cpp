@@ -2862,12 +2862,9 @@ if
 (
 value
 .
-GetUnit
+IsNumericColorUnit
 (
 )
-=
-=
-eCSSUnit_RGBAColor
 )
 {
 *
