@@ -880,6 +880,15 @@ setImageDrawable
 d
 )
 ;
+mIconView
+.
+setVisibility
+(
+View
+.
+VISIBLE
+)
+;
 }
 }
 }
