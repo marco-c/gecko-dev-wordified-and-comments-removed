@@ -361,14 +361,6 @@ aBackendData
 }
 virtual
 void
-OnActorDestroy
-(
-)
-{
-}
-;
-virtual
-void
 SetCompositor
 (
 Compositor
