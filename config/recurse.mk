@@ -781,13 +781,9 @@ CURRENT_DIRS
 CURRENT_TIER
 )
 :
-+
 (
-MAKE
-)
--
-C
-*
+call
+SUBMAKE
 (
 if
 (
@@ -810,6 +806,8 @@ _staticdirs
 (
 CURRENT_TIER
 )
+)
+*
 )
 #
 Ensure
