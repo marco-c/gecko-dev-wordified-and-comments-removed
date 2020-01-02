@@ -289,8 +289,6 @@ devtools
 /
 debugger
 /
-debugger
--
 panel
 "
 )
