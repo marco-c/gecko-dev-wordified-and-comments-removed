@@ -347,7 +347,7 @@ mozilla
 :
 dom
 ;
-PR_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -360,6 +360,14 @@ sizeof
 (
 nullptr
 )
+"
+nullptr
+should
+be
+the
+correct
+size
+"
 )
 ;
 nsresult
