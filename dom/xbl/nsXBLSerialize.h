@@ -45,7 +45,7 @@ XBLBindingSerializeDetails
 #
 define
 XBLBinding_Serialize_Version
-0x00000003
+0x00000004
 #
 define
 XBLBinding_Serialize_IsFirstBinding
@@ -58,6 +58,10 @@ XBLBinding_Serialize_InheritStyle
 define
 XBLBinding_Serialize_ChromeOnlyContent
 4
+#
+define
+XBLBinding_Serialize_BindToUntrustedContent
+8
 #
 define
 XBLBinding_Serialize_NoMoreBindings
