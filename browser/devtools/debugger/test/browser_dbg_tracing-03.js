@@ -378,7 +378,7 @@ getCursor
 )
 .
 line
-19
+18
 "
 The
 editor
