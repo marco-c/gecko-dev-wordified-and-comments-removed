@@ -6422,15 +6422,11 @@ nsIntRect
 bool
 isVisible
 =
-false
-;
 caret
 -
 >
-GetCaretVisible
+IsVisible
 (
-&
-isVisible
 )
 ;
 if

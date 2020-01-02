@@ -3271,7 +3271,7 @@ EraseCaret
 mCaret
 -
 >
-SetCaretVisible
+SetVisible
 (
 false
 )

@@ -9801,15 +9801,11 @@ NS_OK
 bool
 caretVisible
 =
-false
-;
 caret
 -
 >
-GetCaretVisible
+IsVisible
 (
-&
-caretVisible
 )
 ;
 if
