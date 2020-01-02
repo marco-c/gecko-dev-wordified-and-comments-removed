@@ -5196,6 +5196,30 @@ d
 )
 :
         
+dep
+weak
+=
+d
+        
+if
+weak
+:
+            
+depfinished
+=
+self
+.
+_weakdepfinishedparallel
+        
+else
+:
+            
+depfinished
+=
+self
+.
+_depfinishedparallel
+        
 if
 self
 .
@@ -5214,11 +5238,6 @@ else
 :
             
 dep
-weak
-=
-d
-            
-dep
 .
 make
 (
@@ -5228,15 +5247,7 @@ makefile
 self
 .
 targetstack
-weak
-and
-self
-.
-_weakdepfinishedparallel
-or
-self
-.
-_depfinishedparallel
+depfinished
 )
     
 def
