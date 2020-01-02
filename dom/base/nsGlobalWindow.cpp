@@ -40665,7 +40665,7 @@ get
 )
 ;
 }
-nsIDOMLocation
+nsLocation
 *
 nsGlobalWindow
 :

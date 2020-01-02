@@ -3085,7 +3085,7 @@ ErrorResult
 aError
 )
 ;
-nsIDOMLocation
+nsLocation
 *
 GetLocation
 (

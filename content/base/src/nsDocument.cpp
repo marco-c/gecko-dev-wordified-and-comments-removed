@@ -1479,6 +1479,13 @@ nsWindowMemoryReporter
 .
 h
 "
+#
+include
+"
+nsLocation
+.
+h
+"
 using
 namespace
 mozilla
@@ -28585,7 +28592,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMLocation
+nsLocation
 >
 nsIDocument
 :
@@ -28637,6 +28644,13 @@ return
 loc
 .
 forget
+(
+)
+.
+downcast
+<
+nsLocation
+>
 (
 )
 ;

@@ -271,6 +271,9 @@ class
 nsIVariant
 ;
 class
+nsLocation
+;
+class
 nsViewManager
 ;
 class
@@ -5309,7 +5312,7 @@ aInputEncoding
 ;
 already_AddRefed
 <
-nsIDOMLocation
+nsLocation
 >
 GetLocation
 (
