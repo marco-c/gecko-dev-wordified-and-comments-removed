@@ -427,7 +427,7 @@ size
 .
 height
 =
-CGBitmapContextGetWidth
+CGBitmapContextGetHeight
 (
 cgc
 )
