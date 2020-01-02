@@ -299,11 +299,6 @@ class
 BackgroundHangThread
 :
 public
-RefCounted
-<
-BackgroundHangThread
->
-public
 LinkedListElement
 <
 BackgroundHangThread
@@ -336,6 +331,11 @@ BackgroundHangThread
 &
 )
 ;
+~
+BackgroundHangThread
+(
+)
+;
 const
 RefPtr
 <
@@ -350,7 +350,7 @@ mThreadID
 ;
 public
 :
-MOZ_DECLARE_REFCOUNTED_TYPENAME
+NS_INLINE_DECL_REFCOUNTING
 (
 BackgroundHangThread
 )
@@ -427,11 +427,6 @@ uint32_t
 aTimeoutMs
 uint32_t
 aMaxTimeoutMs
-)
-;
-~
-BackgroundHangThread
-(
 )
 ;
 void
