@@ -48,10 +48,6 @@ const
 char
 *
 objname
-uint64_t
-aCompartmentAddress
-=
-0
 )
 =
 0
