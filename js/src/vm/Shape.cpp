@@ -2268,10 +2268,7 @@ JSGC_COMPACTING
 js
 :
 :
-gc
-:
-:
-AutoSuppressGC
+AutoDisableCompactingGC
 nogc
 (
 zone
