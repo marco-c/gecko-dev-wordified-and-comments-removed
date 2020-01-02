@@ -246,10 +246,6 @@ int
 aFd
 )
 :
-mFd
-(
-aFd
-)
 mShouldObserve
 (
 sIsEnabled
@@ -316,10 +312,6 @@ size_t
 aCount
 )
 :
-mFd
-(
-aFd
-)
 mShouldObserve
 (
 sIsEnabled
@@ -412,9 +404,6 @@ this
 }
 private
 :
-int
-mFd
-;
 bool
 mShouldObserve
 ;
