@@ -594,6 +594,13 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 WebGLFramebuffer
 )
 bool
+HasCompletePlanes
+(
+GLbitfield
+mask
+)
+;
+bool
 CheckAndInitializeAttachments
 (
 )
