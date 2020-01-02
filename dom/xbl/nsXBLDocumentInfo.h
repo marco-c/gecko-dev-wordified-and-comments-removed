@@ -52,9 +52,6 @@ class
 nsXBLPrototypeBinding
 ;
 class
-nsObjectHashtable
-;
-class
 nsXBLDocGlobalObject
 ;
 class
@@ -235,8 +232,14 @@ mScriptAccess
 bool
 mIsChrome
 ;
-nsObjectHashtable
-*
+nsAutoPtr
+<
+nsClassHashtable
+<
+nsCStringHashKey
+nsXBLPrototypeBinding
+>
+>
 mBindingTable
 ;
 nsXBLPrototypeBinding
