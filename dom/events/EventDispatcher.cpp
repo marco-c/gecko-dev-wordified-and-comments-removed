@@ -3334,7 +3334,7 @@ AsMouseScrollEvent
 )
 ;
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 return
 NS_NewDOMWheelEvent

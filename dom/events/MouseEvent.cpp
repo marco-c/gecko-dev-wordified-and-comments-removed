@@ -285,7 +285,7 @@ case
 eMouseScrollEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 case
 eDragEventClass
@@ -516,7 +516,7 @@ case
 eMouseScrollEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 case
 eDragEventClass
@@ -703,7 +703,7 @@ case
 eMouseScrollEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 case
 eDragEventClass
@@ -902,7 +902,7 @@ case
 eMouseScrollEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 case
 eDragEventClass
@@ -1001,7 +1001,7 @@ case
 eMouseScrollEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 case
 eDragEventClass
@@ -1108,7 +1108,7 @@ case
 eMouseScrollEventClass
 :
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 case
 eDragEventClass

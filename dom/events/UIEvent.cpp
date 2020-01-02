@@ -551,7 +551,7 @@ mEvent
 mClass
 !
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 &
 &
 mEvent
@@ -1256,7 +1256,7 @@ mEvent
 mClass
 !
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 &
 &
 mEvent

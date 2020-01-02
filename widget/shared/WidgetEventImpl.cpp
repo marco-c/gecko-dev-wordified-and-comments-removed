@@ -722,7 +722,7 @@ WidgetMouseEvent
 eReal
 ;
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 {
 const

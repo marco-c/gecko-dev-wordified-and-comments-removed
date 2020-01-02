@@ -3155,7 +3155,7 @@ mClass
 )
 {
 case
-NS_WHEEL_EVENT
+eWheelEventClass
 :
 {
 WidgetWheelEvent

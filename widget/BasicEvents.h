@@ -100,7 +100,7 @@ eEditorInputEventClass
 eMouseEventClass
 eDragEventClass
 eMouseScrollEventClass
-NS_WHEEL_EVENT
+eWheelEventClass
 NS_POINTER_EVENT
 NS_GESTURENOTIFY_EVENT
 NS_SIMPLE_GESTURE_EVENT

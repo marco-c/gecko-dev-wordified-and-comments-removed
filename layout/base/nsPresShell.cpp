@@ -31290,7 +31290,7 @@ aEvent
 mClass
 =
 =
-NS_WHEEL_EVENT
+eWheelEventClass
 ?
 GetCapturingContent
 (
