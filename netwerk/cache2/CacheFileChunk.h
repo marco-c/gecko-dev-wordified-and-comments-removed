@@ -50,11 +50,15 @@ net
 #
 define
 kChunkSize
-16384
+(
+256
+*
+1024
+)
 #
 define
 kEmptyChunkHash
-0xA8CA
+0x1826
 class
 CacheFileChunk
 ;
