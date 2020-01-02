@@ -53,6 +53,8 @@ options
 require
 (
 "
+sdk
+/
 test
 /
 options

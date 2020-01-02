@@ -407,11 +407,10 @@ unpinned
 )
 ;
 for
-each
 (
 let
 tab
-in
+of
 getTabs
 (
 this
@@ -521,11 +520,10 @@ _destroyWindowTabTracker
 )
 {
 for
-each
 (
 let
 tab
-in
+of
 this
 .
 tabs

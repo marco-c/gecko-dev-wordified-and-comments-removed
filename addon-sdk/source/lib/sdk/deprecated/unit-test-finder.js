@@ -1157,11 +1157,10 @@ testInProcess
 )
 {
 for
-each
 (
 let
 name
-in
+of
 Object
 .
 keys

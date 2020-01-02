@@ -398,11 +398,10 @@ arguments
 )
 ;
 for
-each
 (
 let
 listener
-in
+of
 listeners
 )
 {

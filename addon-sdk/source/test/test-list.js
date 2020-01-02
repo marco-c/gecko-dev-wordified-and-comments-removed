@@ -103,11 +103,10 @@ count
 0
 ;
 for
-each
 (
 let
 ele
-in
+of
 list
 )
 {
@@ -262,11 +261,10 @@ count
 0
 ;
 for
-each
 (
 let
 ele
-in
+of
 list2
 )
 {

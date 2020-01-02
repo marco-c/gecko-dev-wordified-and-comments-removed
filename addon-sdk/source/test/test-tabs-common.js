@@ -240,11 +240,10 @@ count2
 0
 ;
 for
-each
 (
 let
 window
-in
+of
 browserWindows
 )
 {
@@ -258,11 +257,10 @@ tabs
 length
 ;
 for
-each
 (
 let
 tab
-in
+of
 window
 .
 tabs

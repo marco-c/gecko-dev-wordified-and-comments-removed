@@ -1540,11 +1540,10 @@ window
 )
 {
 for
-each
 (
 let
 view
-in
+of
 this
 .
 _views
@@ -1580,11 +1579,10 @@ window
 )
 {
 for
-each
 (
 let
 view
-in
+of
 this
 .
 _views

@@ -782,11 +782,10 @@ chromeWindow
 )
 {
 for
-each
 (
 let
 window
-in
+of
 windows
 )
 {

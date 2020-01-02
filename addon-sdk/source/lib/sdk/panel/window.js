@@ -156,11 +156,10 @@ anchorWindow
 document
 ;
 for
-each
 (
 let
 enumWindow
-in
+of
 windows
 )
 {

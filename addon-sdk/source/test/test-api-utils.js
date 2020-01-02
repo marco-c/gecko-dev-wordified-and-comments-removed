@@ -1866,11 +1866,10 @@ keysValsGen
 )
 {
 for
-each
 (
 let
 keyVal
-in
+of
 keysVals
 )
 yield
