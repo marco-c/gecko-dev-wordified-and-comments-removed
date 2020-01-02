@@ -4378,6 +4378,7 @@ new
 OnErrorEventHandlerNonNull
 (
 boundHandler
+nullptr
 )
 ;
 listener
@@ -4419,6 +4420,7 @@ new
 OnBeforeUnloadEventHandlerNonNull
 (
 boundHandler
+nullptr
 )
 ;
 listener
@@ -4442,6 +4444,7 @@ new
 EventHandlerNonNull
 (
 boundHandler
+nullptr
 )
 ;
 listener

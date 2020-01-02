@@ -1658,6 +1658,9 @@ new
 Function
 (
 funobj
+GetIncumbentGlobal
+(
+)
 )
 ;
 uint32_t
