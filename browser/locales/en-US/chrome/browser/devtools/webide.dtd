@@ -149,9 +149,9 @@ App
 <
 !
 ENTITY
-projectMenu_selectApp_accessley
+projectMenu_selectApp_accesskey
 "
-S
+O
 "
 >
 <
