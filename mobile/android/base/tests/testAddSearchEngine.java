@@ -107,6 +107,7 @@ ADD_SEARCHENGINE_OPTION_TEXT
 =
 "
 Add
+as
 Search
 Engine
 "

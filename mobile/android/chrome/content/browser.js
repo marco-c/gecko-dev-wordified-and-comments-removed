@@ -38486,7 +38486,7 @@ GetStringFromName
 "
 contextmenu
 .
-addSearchEngine
+addSearchEngine2
 "
 )
 icon
@@ -39665,7 +39665,7 @@ GetStringFromName
 "
 contextmenu
 .
-addSearchEngine
+addSearchEngine2
 "
 )
 ;
