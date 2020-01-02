@@ -6257,6 +6257,10 @@ _sidebar
 null
 ;
 }
+scratchpadTargets
+=
+null
+;
 this
 .
 webConsoleClient

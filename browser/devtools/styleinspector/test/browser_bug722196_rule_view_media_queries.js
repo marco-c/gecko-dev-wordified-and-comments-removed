@@ -3,8 +3,6 @@ doc
 ;
 let
 inspector
-=
-null
 ;
 const
 TEST_URI
@@ -313,6 +311,8 @@ finishUp
 )
 {
 doc
+=
+inspector
 =
 null
 ;

@@ -4482,6 +4482,7 @@ _elt
 ;
 for
 (
+let
 [
 key
 container
