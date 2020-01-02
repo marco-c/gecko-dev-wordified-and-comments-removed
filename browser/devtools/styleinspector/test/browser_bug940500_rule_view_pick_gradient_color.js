@@ -596,8 +596,8 @@ cPicker
 1
 ]
 )
-.
-then
+;
+executeSoon
 (
 (
 )
@@ -741,7 +741,6 @@ colorPicker
 newRgba
 )
 {
-return
 colorPicker
 .
 spectrum
