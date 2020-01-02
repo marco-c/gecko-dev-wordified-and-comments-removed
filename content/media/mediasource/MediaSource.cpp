@@ -1449,7 +1449,7 @@ char
 const
 gMediaSourceTypes
 [
-5
+6
 ]
 =
 {
@@ -1472,6 +1472,11 @@ mp4
 audio
 /
 mp4
+"
+"
+audio
+/
+mpeg
 "
 nullptr
 }
