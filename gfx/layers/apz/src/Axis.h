@@ -152,16 +152,6 @@ mAxisLocked
 aAxisLocked
 ;
 }
-Overscroll
-GetOverscroll
-(
-)
-;
-float
-GetExcess
-(
-)
-;
 float
 GetVelocity
 (
