@@ -1558,6 +1558,8 @@ beginBatchUpdate
 (
 )
 ;
+try
+{
 for
 (
 let
@@ -1758,12 +1760,16 @@ removedId
 )
 ;
 }
+}
+finally
+{
 CustomizableUI
 .
 endBatchUpdate
 (
 )
 ;
+}
 ]
 ]
 >
