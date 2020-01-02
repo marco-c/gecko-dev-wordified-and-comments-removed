@@ -269,9 +269,6 @@ aListStyleType
 nsString
 &
 aResult
-bool
-&
-aSuppressPadding
 )
 ;
 void
@@ -435,12 +432,6 @@ mIntrinsicSize
 ;
 int32_t
 mOrdinal
-;
-bool
-mTextIsRTL
-;
-bool
-mSuppressPadding
 ;
 private
 :
