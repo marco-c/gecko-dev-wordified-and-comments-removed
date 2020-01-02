@@ -140,11 +140,6 @@ GetOverscroll
 )
 const
 ;
-void
-StartSnapBack
-(
-)
-;
 bool
 SampleSnapBack
 (
