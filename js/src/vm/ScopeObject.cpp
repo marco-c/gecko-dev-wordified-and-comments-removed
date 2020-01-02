@@ -8537,6 +8537,9 @@ DebugScopes
 MissingScopesRef
 :
 public
+gc
+:
+:
 BufferableRef
 {
 MissingScopeMap
