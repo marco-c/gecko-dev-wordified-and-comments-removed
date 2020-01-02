@@ -1077,6 +1077,16 @@ mParent
 ;
 }
 }
+void
+MakeRoot
+(
+)
+{
+mParent
+=
+nullptr
+;
+}
 AsyncPanZoomController
 *
 GetLastChild
