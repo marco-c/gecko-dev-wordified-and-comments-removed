@@ -5445,7 +5445,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -5501,7 +5501,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -5546,7 +5546,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -5593,7 +5593,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -5639,7 +5639,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security

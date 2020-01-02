@@ -1654,7 +1654,7 @@ if
 (
 token
 .
-Equals
+EqualsLiteral
 (
 "
 to

@@ -1474,7 +1474,7 @@ if
 !
 aRootName
 .
-Equals
+EqualsLiteral
 (
 "
 places

@@ -4461,7 +4461,7 @@ fetchedWithHTTPGetOrEquiv
 =
 method
 .
-Equals
+EqualsLiteral
 (
 "
 GET

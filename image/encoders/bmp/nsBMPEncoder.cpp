@@ -1084,7 +1084,7 @@ nameValuePair
 1
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 3
@@ -1106,7 +1106,7 @@ nameValuePair
 1
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 5
@@ -1152,7 +1152,7 @@ nameValuePair
 1
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 24
@@ -1174,7 +1174,7 @@ nameValuePair
 1
 ]
 .
-Equals
+EqualsLiteral
 (
 "
 32

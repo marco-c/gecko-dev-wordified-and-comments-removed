@@ -1616,7 +1616,7 @@ if
 (
 aMimeType
 .
-Equals
+EqualsLiteral
 (
 "
 text

@@ -1766,7 +1766,7 @@ if
 (
 cHardware
 .
-Equals
+EqualsLiteral
 (
 "
 antares
@@ -1776,7 +1776,7 @@ antares
 |
 cHardware
 .
-Equals
+EqualsLiteral
 (
 "
 harmony
@@ -1786,7 +1786,7 @@ harmony
 |
 cHardware
 .
-Equals
+EqualsLiteral
 (
 "
 picasso
@@ -1796,7 +1796,7 @@ picasso
 |
 cHardware
 .
-Equals
+EqualsLiteral
 (
 "
 picasso_e
@@ -1806,7 +1806,7 @@ picasso_e
 |
 cHardware
 .
-Equals
+EqualsLiteral
 (
 "
 ventana
@@ -1816,7 +1816,7 @@ ventana
 |
 cHardware
 .
-Equals
+EqualsLiteral
 (
 "
 rk30board
@@ -2801,7 +2801,7 @@ if
 (
 cHardware
 .
-Equals
+EqualsLiteral
 (
 "
 hammerhead

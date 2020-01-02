@@ -7034,7 +7034,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7050,7 +7050,7 @@ min
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7077,7 +7077,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7119,7 +7119,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7165,7 +7165,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7202,7 +7202,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7239,7 +7239,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7276,7 +7276,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7290,7 +7290,7 @@ enabled
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7304,7 +7304,7 @@ enabled
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7318,7 +7318,7 @@ require
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7332,7 +7332,7 @@ enabled
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7346,7 +7346,7 @@ require
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7362,7 +7362,7 @@ enabled
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7376,7 +7376,7 @@ enable_ocsp_stapling
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7388,7 +7388,7 @@ use_mozillapkix_verification
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7400,7 +7400,7 @@ use_libpkix_verification
 |
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 security
@@ -7430,7 +7430,7 @@ if
 (
 prefName
 .
-Equals
+EqualsLiteral
 (
 "
 network

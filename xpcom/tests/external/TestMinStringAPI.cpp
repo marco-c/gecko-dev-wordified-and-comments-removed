@@ -2257,7 +2257,7 @@ if
 !
 test
 .
-Equals
+EqualsLiteral
 (
 "
 Heo
@@ -2286,7 +2286,7 @@ if
 !
 test
 .
-Equals
+EqualsLiteral
 (
 "
 HelloWorld
@@ -2391,7 +2391,7 @@ if
 !
 test1
 .
-Equals
+EqualsLiteral
 (
 "
 Testing
@@ -2409,7 +2409,7 @@ if
 !
 test2
 .
-Equals
+EqualsLiteral
 (
 "
 Testing
@@ -2431,7 +2431,7 @@ if
 !
 test3
 .
-Equals
+EqualsLiteral
 (
 "
 \

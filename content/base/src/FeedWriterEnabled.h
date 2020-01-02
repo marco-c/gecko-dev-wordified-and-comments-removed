@@ -169,7 +169,7 @@ spec
 return
 spec
 .
-Equals
+EqualsLiteral
 (
 "
 about

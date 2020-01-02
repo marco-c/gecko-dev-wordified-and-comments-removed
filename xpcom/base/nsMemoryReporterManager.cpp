@@ -6220,7 +6220,7 @@ if
 (
 aPath
 .
-Equals
+EqualsLiteral
 (
 "
 heap
