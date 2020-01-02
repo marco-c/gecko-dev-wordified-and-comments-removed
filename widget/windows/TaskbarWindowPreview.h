@@ -62,6 +62,12 @@ nsITaskbarOverlayIconController
 public
 nsSupportsWeakReference
 {
+virtual
+~
+TaskbarWindowPreview
+(
+)
+;
 public
 :
 TaskbarWindowPreview
@@ -77,12 +83,6 @@ aHWND
 nsIDocShell
 *
 aShell
-)
-;
-virtual
-~
-TaskbarWindowPreview
-(
 )
 ;
 NS_DECL_ISUPPORTS
