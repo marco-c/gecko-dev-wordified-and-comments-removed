@@ -8,6 +8,17 @@ gecko
 util
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 java
 .
 util
@@ -440,6 +451,7 @@ THROW
 )
 ;
 }
+RobocopTarget
 public
 static
 void
