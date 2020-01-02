@@ -163,13 +163,12 @@ nsIDeviceContextSpec
 aDevSpec
 )
 ;
-nsresult
+already_AddRefed
+<
+nsRenderingContext
+>
 CreateRenderingContext
 (
-nsRenderingContext
-*
-&
-aContext
 )
 ;
 static
