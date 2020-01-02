@@ -6160,7 +6160,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

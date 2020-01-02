@@ -544,7 +544,7 @@ docElement
 mContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
