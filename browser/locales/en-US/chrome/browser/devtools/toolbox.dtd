@@ -831,7 +831,9 @@ label4
 Enable
 chrome
 and
-addon
+add
+-
+on
 debugging
 "
 >
@@ -861,12 +863,14 @@ browser
 context
 and
 debug
-addons
+add
+-
+ons
 from
 the
 Add
 -
-On
+ons
 Manager
 "
 >
