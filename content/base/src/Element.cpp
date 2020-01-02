@@ -14344,12 +14344,6 @@ GetContentType
 contentType
 )
 ;
-bool
-tryToCacheEncoder
-=
-!
-aIncludeSelf
-;
 nsCOMPtr
 <
 nsIDocumentEncoder
@@ -14420,10 +14414,6 @@ application
 xml
 "
 )
-;
-tryToCacheEncoder
-=
-false
 ;
 }
 NS_ENSURE_TRUE_VOID
@@ -14562,7 +14552,8 @@ rv
 ;
 if
 (
-tryToCacheEncoder
+!
+aIncludeSelf
 )
 {
 doc
