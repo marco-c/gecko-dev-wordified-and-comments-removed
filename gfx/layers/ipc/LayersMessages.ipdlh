@@ -1055,6 +1055,15 @@ stickyScrollRangeOuter
 LayerRect
 stickyScrollRangeInner
 ;
+bool
+isScrollbar
+;
+uint64_t
+scrollbarTargetContainerId
+;
+uint32_t
+scrollbarDirection
+;
 nullable
 PLayer
 maskLayer
