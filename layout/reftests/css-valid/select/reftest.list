@@ -172,6 +172,9 @@ fails
 if
 (
 Android
+|
+|
+B2G
 )
 needs
 -
@@ -199,6 +202,9 @@ fails
 if
 (
 Android
+|
+|
+B2G
 )
 needs
 -

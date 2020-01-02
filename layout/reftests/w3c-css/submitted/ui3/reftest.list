@@ -258,6 +258,12 @@ box
 ref
 .
 xht
+fails
+-
+if
+(
+B2G
+)
 random
 -
 if

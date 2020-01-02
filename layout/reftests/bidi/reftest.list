@@ -2514,6 +2514,12 @@ xul
 ref
 .
 xul
+fails
+-
+if
+(
+B2G
+)
 =
 =
 922530
@@ -2528,6 +2534,9 @@ html
 ref
 .
 html
+#
+B2G
+kerning
 =
 =
 922550

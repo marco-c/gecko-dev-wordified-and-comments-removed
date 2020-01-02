@@ -819,12 +819,10 @@ fails
 -
 if
 (
-!
-gtk2Widget
-&
-&
-!
-Android
+winWidget
+|
+|
+cocoaWidget
 )
 =
 =

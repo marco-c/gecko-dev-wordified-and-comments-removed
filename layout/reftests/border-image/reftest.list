@@ -307,6 +307,9 @@ fails
 if
 (
 Android
+|
+|
+B2G
 )
 =
 =
@@ -327,6 +330,10 @@ ref
 .
 html
 #
+Android
+/
+B2G
+:
 very
 different
 scaling
@@ -341,6 +348,9 @@ fails
 if
 (
 Android
+|
+|
+B2G
 )
 =
 =
@@ -361,6 +371,10 @@ ref
 .
 html
 #
+Android
+/
+B2G
+:
 very
 different
 scaling

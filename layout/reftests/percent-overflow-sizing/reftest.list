@@ -314,6 +314,12 @@ fails
 -
 if
 (
+B2G
+)
+fails
+-
+if
+(
 Android
 &
 &

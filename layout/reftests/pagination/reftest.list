@@ -1470,6 +1470,12 @@ avoid
 ref
 .
 html
+fails
+-
+if
+(
+B2G
+)
 =
 =
 combobox
@@ -1492,3 +1498,13 @@ inside
 ref
 .
 html
+#
+reftest
+-
+print
+doesn
+'
+t
+work
+on
+B2G

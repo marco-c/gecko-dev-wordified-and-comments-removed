@@ -359,6 +359,9 @@ fails
 if
 (
 Android
+|
+|
+B2G
 )
 needs
 -
@@ -388,9 +391,12 @@ html
 #
 different
 foreground
+selection
 color
 on
 Android
+/
+B2G
 needs
 -
 focus
@@ -421,6 +427,9 @@ fails
 if
 (
 Android
+|
+|
+B2G
 )
 needs
 -
@@ -450,9 +459,12 @@ html
 #
 different
 foreground
+selection
 color
 on
 Android
+/
+B2G
 #
 bug
 692744
