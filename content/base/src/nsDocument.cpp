@@ -10968,6 +10968,12 @@ rv
 )
 ;
 }
+if
+(
+!
+mLoadedAsData
+)
+{
 nsresult
 rv
 =
@@ -10982,6 +10988,7 @@ rv
 rv
 )
 ;
+}
 return
 NS_OK
 ;
