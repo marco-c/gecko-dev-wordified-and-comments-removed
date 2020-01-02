@@ -1743,7 +1743,7 @@ testTimeout
 (
 self
 test_file
-processPID
+proc
 )
 :
         
@@ -1790,7 +1790,9 @@ Automation
 .
 killAndGetStackNoScreenshot
 (
-processPID
+proc
+.
+pid
 self
 .
 appPath
@@ -4322,8 +4324,6 @@ testTimeout
 (
 name
 proc
-.
-pid
 )
 )
             
