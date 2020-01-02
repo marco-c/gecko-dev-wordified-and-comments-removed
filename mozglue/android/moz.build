@@ -113,6 +113,11 @@ APKOpen
 cpp
 '
 '
+NativeCrypto
+.
+cpp
+'
+'
 nsGeckoUtils
 .
 cpp
@@ -121,6 +126,11 @@ cpp
 NSSBridge
 .
 cpp
+'
+'
+pbkdf2_sha256
+.
+c
 '
 '
 SQLiteBridge
