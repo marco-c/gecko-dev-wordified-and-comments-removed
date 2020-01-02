@@ -1144,7 +1144,9 @@ obj
 rt
 -
 >
-gcStoreBuffer
+gc
+.
+storeBuffer
 .
 putWholeCell
 (

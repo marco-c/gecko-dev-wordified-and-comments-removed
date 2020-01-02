@@ -17107,7 +17107,9 @@ runtime
 )
 -
 >
-gcDisableStrictProxyCheckingCount
+gc
+.
+disableStrictProxyCheckingCount
 &
 &
 proxy
