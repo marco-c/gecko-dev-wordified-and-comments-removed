@@ -23434,6 +23434,9 @@ else
 sequenceClass
 =
 "
+binding_detail
+:
+:
 AutoSequence
 "
         
@@ -28976,7 +28979,7 @@ isCallbackReturnValue
 typeName
 =
 "
-dictionary_detail
+binding_detail
 :
 :
 Fast
@@ -31511,6 +31514,9 @@ seqType
 CGTemplatedType
 (
 "
+binding_detail
+:
+:
 AutoSequence
 "
                                               
@@ -72205,7 +72211,7 @@ build
 (
 [
 '
-dictionary_detail
+binding_detail
 '
 ]
                                          
