@@ -1187,8 +1187,6 @@ Remove
 "
 id
 :
-panel
-.
 id
 }
 )
