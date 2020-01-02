@@ -1380,6 +1380,9 @@ False
 install_extension
 =
 None
+*
+*
+kwargs
 )
 :
         
@@ -2178,6 +2181,24 @@ topsrcdir
 install_extension
 )
 ]
+        
+for
+k
+v
+in
+kwargs
+.
+iteritems
+(
+)
+:
+            
+setattr
+(
+options
+k
+v
+)
         
 if
 test_path
