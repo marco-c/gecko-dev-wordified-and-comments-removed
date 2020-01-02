@@ -3462,9 +3462,9 @@ translateX
 (
 0
 )
-scale
+translateY
 (
-1
+0
 )
 ;
 transition
@@ -3571,10 +3571,9 @@ translateX
 (
 150px
 )
-scale
+translateY
 (
-.
-9
+25px
 )
 ;
 }
