@@ -156,7 +156,6 @@ function
 toggleNFC
 (
 enabled
-callback
 )
 {
 let
@@ -204,16 +203,6 @@ function
 (
 )
 {
-if
-(
-callback
-)
-{
-callback
-(
-)
-;
-}
 deferred
 .
 resolve
