@@ -72,7 +72,9 @@ mozilla
 .
 gecko
 .
-Distribution
+db
+.
+BrowserContract
 ;
 import
 org
@@ -81,9 +83,9 @@ mozilla
 .
 gecko
 .
-db
+distribution
 .
-BrowserContract
+Distribution
 ;
 import
 org
