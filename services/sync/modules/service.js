@@ -3729,6 +3729,7 @@ this
 .
 _remoteSetup
 (
+test
 )
 )
 {
