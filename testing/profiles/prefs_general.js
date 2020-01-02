@@ -1721,3 +1721,15 @@ dummy
 '
 )
 ;
+user_pref
+(
+'
+apz
+.
+test
+.
+logging_enabled
+'
+true
+)
+;

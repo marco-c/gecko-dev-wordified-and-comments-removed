@@ -33067,7 +33067,7 @@ void
 nsLayoutUtils
 :
 :
-LogTestDataForPaint
+DoLogTestDataForPaint
 (
 nsIPresShell
 *
