@@ -114,9 +114,8 @@ HandleObject
 regexp
 HandleString
 input
-Value
-*
-vp
+MutableHandleValue
+output
 )
 ;
 extern

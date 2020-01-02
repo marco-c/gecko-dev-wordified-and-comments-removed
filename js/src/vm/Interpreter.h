@@ -1283,8 +1283,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-Value
-*
+MutableHandleValue
 res
 )
 ;
@@ -1298,8 +1297,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-Value
-*
+MutableHandleValue
 res
 )
 ;
@@ -1313,8 +1311,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-Value
-*
+MutableHandleValue
 res
 )
 ;
@@ -1328,8 +1325,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-Value
-*
+MutableHandleValue
 res
 )
 ;
@@ -1343,8 +1339,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-Value
-*
+MutableHandleValue
 res
 )
 ;
@@ -1358,8 +1353,7 @@ MutableHandleValue
 lhs
 MutableHandleValue
 rhs
-Value
-*
+MutableHandleValue
 res
 )
 ;
