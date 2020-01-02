@@ -567,13 +567,13 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
-*
-aReflowState
-const
 nsHTMLReflowMetrics
 &
 aDesiredSize
+const
+nsHTMLReflowState
+*
+aReflowState
 nscoord
 aX
 nscoord

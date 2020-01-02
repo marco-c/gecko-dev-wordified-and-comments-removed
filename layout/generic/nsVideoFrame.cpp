@@ -1755,9 +1755,9 @@ FinishReflowChild
 (
 imageFrame
 aPresContext
+kidDesiredSize
 &
 kidReflowState
-kidDesiredSize
 posterTopLeft
 .
 x
@@ -2028,9 +2028,9 @@ FinishReflowChild
 (
 child
 aPresContext
+kidDesiredSize
 &
 kidReflowState
-kidDesiredSize
 mBorderPadding
 .
 left

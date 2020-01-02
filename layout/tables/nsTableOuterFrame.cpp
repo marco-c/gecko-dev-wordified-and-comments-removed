@@ -4776,8 +4776,8 @@ FirstChild
 (
 )
 aPresContext
-captionRS
 captionMet
+captionRS
 captionOrigin
 .
 x
@@ -4816,8 +4816,8 @@ InnerTableFrame
 (
 )
 aPresContext
-innerRS
 innerMet
+innerRS
 innerOrigin
 .
 x

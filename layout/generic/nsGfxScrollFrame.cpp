@@ -2263,10 +2263,10 @@ mHelper
 .
 mScrolledFrame
 presContext
-&
-kidReflowState
 *
 aMetrics
+&
+kidReflowState
 0
 0
 NS_FRAME_NO_MOVE_FRAME

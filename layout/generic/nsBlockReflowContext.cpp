@@ -1762,9 +1762,9 @@ FinishReflowChild
 (
 mFrame
 mPresContext
+mMetrics
 &
 aReflowState
-mMetrics
 position
 .
 x

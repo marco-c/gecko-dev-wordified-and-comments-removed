@@ -2417,9 +2417,9 @@ FinishReflowChild
 (
 aKid
 aPresContext
+desiredSize
 &
 kidReflowState
-desiredSize
 xOffset
 yOffset
 0

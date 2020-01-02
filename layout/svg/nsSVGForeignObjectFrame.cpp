@@ -2727,9 +2727,9 @@ FinishReflowChild
 (
 kid
 presContext
+desiredSize
 &
 reflowState
-desiredSize
 0
 0
 NS_FRAME_NO_MOVE_FRAME

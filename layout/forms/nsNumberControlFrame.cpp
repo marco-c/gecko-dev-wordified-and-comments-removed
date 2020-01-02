@@ -756,9 +756,9 @@ FinishReflowChild
 (
 aOuterWrapperFrame
 aPresContext
+aWrappersDesiredSize
 &
 wrapperReflowState
-aWrappersDesiredSize
 xoffset
 yoffset
 0
