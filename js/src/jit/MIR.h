@@ -22585,6 +22585,16 @@ loadDoubles_
 loadDoubles
 )
 {
+if
+(
+needsHoleCheck
+)
+{
+setGuard
+(
+)
+;
+}
 setResultType
 (
 MIRType_Value
