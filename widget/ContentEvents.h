@@ -503,7 +503,7 @@ WidgetEvent
 (
 aIsTrusted
 aMessage
-NS_CLIPBOARD_EVENT
+eClipboardEventClass
 )
 {
 }
@@ -521,7 +521,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_CLIPBOARD_EVENT
+eClipboardEventClass
 "
 Duplicate
 (

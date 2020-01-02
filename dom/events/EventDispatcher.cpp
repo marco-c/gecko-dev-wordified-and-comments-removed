@@ -3402,7 +3402,7 @@ AsTextEvent
 )
 ;
 case
-NS_CLIPBOARD_EVENT
+eClipboardEventClass
 :
 return
 NS_NewDOMClipboardEvent
