@@ -637,6 +637,15 @@ html
 ref
 .
 svg
+skip
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 mask

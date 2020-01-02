@@ -2266,6 +2266,7 @@ skip
 -
 if
 (
+(
 Android
 &
 &
@@ -2273,6 +2274,15 @@ AndroidVersion
 =
 =
 17
+)
+|
+|
+(
+B2G
+&
+&
+browserIsRemote
+)
 )
 =
 =
