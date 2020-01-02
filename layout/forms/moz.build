@@ -146,6 +146,11 @@ nsButtonFrameRenderer
 cpp
 '
 '
+nsColorControlFrame
+.
+cpp
+'
+'
 nsComboboxControlFrame
 .
 cpp

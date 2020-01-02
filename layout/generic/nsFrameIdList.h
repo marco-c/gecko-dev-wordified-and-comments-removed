@@ -36,6 +36,10 @@ nsCanvasFrame
 )
 FRAME_ID
 (
+nsColorControlFrame
+)
+FRAME_ID
+(
 nsColumnSetFrame
 )
 FRAME_ID

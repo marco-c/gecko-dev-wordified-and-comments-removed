@@ -220,3 +220,17 @@ placeholder
 "
 0
 )
+CSS_PSEUDO_ELEMENT
+(
+mozColorSwatch
+"
+:
+-
+moz
+-
+color
+-
+swatch
+"
+CSS_PSEUDO_ELEMENT_SUPPORTS_STYLE_ATTRIBUTE
+)

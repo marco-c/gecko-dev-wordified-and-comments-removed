@@ -64,3 +64,9 @@ hidden
 reftest
 .
 list
+include
+color
+/
+reftest
+.
+list
