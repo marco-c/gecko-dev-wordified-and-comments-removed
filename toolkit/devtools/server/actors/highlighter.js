@@ -2051,6 +2051,7 @@ this
 .
 currentNodeObserver
 =
+new
 win
 .
 MutationObserver

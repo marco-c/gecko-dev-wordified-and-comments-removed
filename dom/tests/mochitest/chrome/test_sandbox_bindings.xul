@@ -1262,6 +1262,7 @@ object
 XrayWrapper
 "
 +
+new
 XMLHttpRequest
 (
 )
@@ -1367,6 +1368,7 @@ object
 XrayWrapper
 "
 +
+new
 XMLHttpRequest
 (
 )
@@ -1627,6 +1629,7 @@ sandbox
 var
 xhr
 =
+new
 win
 .
 XMLHttpRequest
@@ -1645,6 +1648,7 @@ object
 XrayWrapper
 "
 +
+new
 XMLHttpRequest
 (
 )

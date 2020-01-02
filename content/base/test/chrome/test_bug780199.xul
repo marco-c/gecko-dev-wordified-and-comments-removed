@@ -386,6 +386,7 @@ b
 var
 m
 =
+new
 MutationObserver
 (
 callback

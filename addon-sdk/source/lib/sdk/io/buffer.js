@@ -263,6 +263,7 @@ utf8
 return
 Uint8Array
 (
+new
 TextEncoder
 (
 encoding
@@ -364,6 +365,7 @@ false
 ;
 try
 {
+new
 TextDecoder
 (
 encoding
@@ -397,6 +399,7 @@ utf8
 )
 =
 >
+new
 TextEncoder
 (
 encoding
@@ -783,6 +786,7 @@ end
 )
 ;
 return
+new
 TextDecoder
 (
 encoding
@@ -1340,6 +1344,7 @@ offset
 let
 buffer
 =
+new
 TextEncoder
 (
 encoding

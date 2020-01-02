@@ -6,6 +6,7 @@ strict
 let
 xhr
 =
+new
 XMLHttpRequest
 (
 )

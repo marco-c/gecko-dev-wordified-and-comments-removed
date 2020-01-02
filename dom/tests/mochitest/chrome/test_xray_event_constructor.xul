@@ -326,12 +326,14 @@ e
 =
 new
 (
+(
 "
 t
 "
 )
 .
 contentWindow
+)
 .
 Event
 (

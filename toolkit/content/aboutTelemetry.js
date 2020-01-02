@@ -1987,6 +1987,7 @@ this
 .
 symbolRequest
 =
+new
 XMLHttpRequest
 (
 )
