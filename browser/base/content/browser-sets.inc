@@ -1865,6 +1865,7 @@ PanelUI
 .
 toggle
 (
+event
 )
 ;
 "
