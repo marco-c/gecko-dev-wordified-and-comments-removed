@@ -3205,7 +3205,7 @@ browser_frames
 .
 useAsyncPanZoom
 "
-false
+true
 )
 ;
 pref
