@@ -623,6 +623,15 @@ bool
 aFound
 )
 ;
+bool
+NameIsEnumerable
+(
+const
+nsAString
+&
+aName
+)
+;
 nsTreeColumn
 *
 GetNamedColumn

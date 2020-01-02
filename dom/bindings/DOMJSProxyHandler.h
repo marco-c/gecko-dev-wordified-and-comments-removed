@@ -856,6 +856,10 @@ JSObject
 obj
 bool
 readonly
+bool
+enumerable
+=
+true
 )
 {
 desc
@@ -881,7 +885,13 @@ JSPROP_READONLY
 0
 )
 |
+(
+enumerable
+?
 JSPROP_ENUMERATE
+:
+0
+)
 )
 ;
 desc
@@ -921,6 +931,10 @@ Value
 v
 bool
 readonly
+bool
+enumerable
+=
+true
 )
 {
 desc
@@ -939,6 +953,7 @@ FillPropertyDescriptor
 desc
 obj
 readonly
+enumerable
 )
 ;
 }

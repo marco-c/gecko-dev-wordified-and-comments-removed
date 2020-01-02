@@ -762,6 +762,15 @@ ErrorResult
 rv
 )
 ;
+bool
+NameIsEnumerable
+(
+const
+nsAString
+&
+aName
+)
+;
 void
 GetSupportedNames
 (
