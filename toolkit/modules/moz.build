@@ -159,6 +159,11 @@ AsyncShutdown
 jsm
 '
 '
+BrowserUtils
+.
+jsm
+'
+'
 CharsetMenu
 .
 jsm
