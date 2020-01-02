@@ -416,6 +416,10 @@ radius
 .
 5px
 ;
+color
+:
+inherit
+;
 }
 #
 searchText
@@ -632,6 +636,10 @@ hsla
 .
 2
 )
+;
+color
+:
+inherit
 ;
 cursor
 :
