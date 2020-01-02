@@ -269,6 +269,13 @@ Mutex
 *
 sNodeListMutex
 ;
+static
+Atomic
+<
+uint32_t
+>
+sShutdown
+;
 }
 ;
 }
