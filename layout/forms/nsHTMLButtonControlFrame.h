@@ -190,6 +190,9 @@ aStyleContext
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+DEBUG
 virtual
 void
 AppendFrames
@@ -229,6 +232,8 @@ aOldFrame
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 #
 ifdef
 ACCESSIBILITY

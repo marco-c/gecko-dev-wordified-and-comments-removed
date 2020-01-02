@@ -1493,6 +1493,9 @@ aStyleContext
 )
 ;
 }
+#
+ifdef
+DEBUG
 void
 nsHTMLButtonControlFrame
 :
@@ -1506,7 +1509,7 @@ nsFrameList
 aFrameList
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 unsupported
@@ -1531,7 +1534,7 @@ nsFrameList
 aFrameList
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 unsupported
@@ -1553,7 +1556,7 @@ nsIFrame
 aOldFrame
 )
 {
-NS_NOTREACHED
+MOZ_CRASH
 (
 "
 unsupported
@@ -1562,3 +1565,5 @@ operation
 )
 ;
 }
+#
+endif
