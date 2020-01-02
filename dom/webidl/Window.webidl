@@ -648,6 +648,11 @@ target
 "
 _blank
 "
+[
+TreatNullAs
+=
+EmptyString
+]
 optional
 DOMString
 features
@@ -680,6 +685,11 @@ target
 =
 "
 "
+[
+TreatNullAs
+=
+EmptyString
+]
 optional
 DOMString
 features
