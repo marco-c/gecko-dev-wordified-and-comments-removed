@@ -698,6 +698,9 @@ function
 addTestGlobal
 (
 aName
+aServer
+=
+DebuggerServer
 )
 {
 let
@@ -708,7 +711,7 @@ testGlobal
 aName
 )
 ;
-DebuggerServer
+aServer
 .
 addTestGlobal
 (
@@ -900,9 +903,12 @@ aThreadClient
 function
 initTestDebuggerServer
 (
+aServer
+=
+DebuggerServer
 )
 {
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -917,7 +923,7 @@ script
 "
 )
 ;
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -930,7 +936,7 @@ testactors
 "
 )
 ;
-DebuggerServer
+aServer
 .
 init
 (
@@ -948,9 +954,12 @@ true
 function
 initTestTracerServer
 (
+aServer
+=
+DebuggerServer
 )
 {
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -965,7 +974,7 @@ script
 "
 )
 ;
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -978,7 +987,7 @@ testactors
 "
 )
 ;
-DebuggerServer
+aServer
 .
 registerModule
 (
@@ -993,7 +1002,7 @@ tracer
 "
 )
 ;
-DebuggerServer
+aServer
 .
 init
 (
