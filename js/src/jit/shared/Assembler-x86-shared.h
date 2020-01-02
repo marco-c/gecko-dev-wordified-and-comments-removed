@@ -7770,7 +7770,7 @@ popa
 #
 endif
 void
-movzxbl
+movzbl
 (
 const
 Register

@@ -2954,7 +2954,7 @@ Register
 dest
 )
 {
-movzxbl
+movzbl
 (
 source
 dest
@@ -3007,7 +3007,7 @@ cond
 dest
 )
 ;
-movzxbl
+movzbl
 (
 dest
 dest
