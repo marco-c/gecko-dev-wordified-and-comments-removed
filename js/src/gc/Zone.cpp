@@ -597,7 +597,7 @@ isGCSweeping
 ;
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 this
@@ -878,7 +878,7 @@ ifdef
 DEBUG
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 this
@@ -956,7 +956,7 @@ this
 ;
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 this

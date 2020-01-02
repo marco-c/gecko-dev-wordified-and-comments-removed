@@ -11356,7 +11356,7 @@ for
 gc
 :
 :
-CellIter
+ZoneCellIter
 i
 (
 cx
@@ -11480,7 +11480,7 @@ for
 gc
 :
 :
-CellIter
+ZoneCellIter
 i
 (
 cx
@@ -11680,7 +11680,7 @@ for
 gc
 :
 :
-CellIter
+ZoneCellIter
 i
 (
 compartment
@@ -11753,7 +11753,7 @@ for
 gc
 :
 :
-CellIter
+ZoneCellIter
 i
 (
 compartment
@@ -22592,7 +22592,7 @@ PHASE_DISCARD_TI
 ;
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone
@@ -22827,7 +22827,7 @@ for
 gc
 :
 :
-CellIterUnderGC
+ZoneCellIterUnderGC
 iter
 (
 zone
@@ -23056,7 +23056,7 @@ for
 gc
 :
 :
-CellIterUnderGC
+ZoneCellIterUnderGC
 iter
 (
 zone

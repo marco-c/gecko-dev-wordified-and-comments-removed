@@ -2239,7 +2239,7 @@ kind
 {
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 cells
 (
 zone

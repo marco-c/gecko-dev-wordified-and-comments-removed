@@ -4550,7 +4550,7 @@ isHeapMinorCollecting
 {
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone

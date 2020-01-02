@@ -268,7 +268,7 @@ thingSize
 ;
 for
 (
-CellIterUnderGC
+ArenaCellIterUnderGC
 iter
 (
 aheader
@@ -546,7 +546,7 @@ compartment
 {
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 compartment
@@ -636,7 +636,7 @@ next
 {
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone
@@ -740,7 +740,7 @@ finalizeKind
 {
 for
 (
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone

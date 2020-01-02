@@ -2620,7 +2620,7 @@ for
 gc
 :
 :
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone
@@ -6134,7 +6134,7 @@ for
 gc
 :
 :
-CellIterUnderGC
+ZoneCellIterUnderGC
 i
 (
 zone
@@ -15907,7 +15907,7 @@ for
 gc
 :
 :
-CellIter
+ZoneCellIter
 i
 (
 zone
