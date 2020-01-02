@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 var
 gTestFuncs
 =
@@ -555,7 +560,7 @@ specified
 "
 )
 ;
-simpleTest
+SimpleTest
 .
 finish
 (
@@ -977,7 +982,6 @@ Ready
 '
 function
 (
-aMessage
 )
 {
 aMessageManager
