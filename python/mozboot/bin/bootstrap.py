@@ -109,14 +109,6 @@ py
 '
 mozboot
 /
-mint
-.
-py
-'
-    
-'
-mozboot
-/
 openbsd
 .
 py

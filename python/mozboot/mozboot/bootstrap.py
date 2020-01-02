@@ -39,12 +39,6 @@ GentooBootstrapper
 from
 mozboot
 .
-mint
-import
-MintBootstrapper
-from
-mozboot
-.
 osx
 import
 OSXBootstrapper
@@ -263,9 +257,25 @@ LinuxMint
 )
 :
                 
+if
+dist_id
+=
+=
+'
+debian
+'
+:
+                    
 cls
 =
-MintBootstrapper
+DebianBootstrapper
+                
+else
+:
+                    
+cls
+=
+UbuntuBootstrapper
             
 elif
 distro
