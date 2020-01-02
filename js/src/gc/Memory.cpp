@@ -509,7 +509,7 @@ if
 (
 retainedAddr
 )
-unmapPages
+UnmapPages
 (
 retainedAddr
 retainedSize
@@ -534,7 +534,7 @@ alignment
 return
 p
 ;
-unmapPages
+UnmapPages
 (
 p
 size
@@ -636,7 +636,7 @@ p
 alignment
 )
 ;
-unmapPages
+UnmapPages
 (
 p
 reserveSize
@@ -740,7 +740,7 @@ tempMaps
 attempt
 ]
 )
-unmapPages
+UnmapPages
 (
 tempMaps
 [
@@ -783,7 +783,7 @@ alignment
 )
 )
 {
-unmapPages
+UnmapPages
 (
 p
 size
@@ -803,7 +803,7 @@ attempt
 =
 0
 )
-unmapPages
+UnmapPages
 (
 tempMaps
 [
@@ -888,7 +888,7 @@ offset
 )
 break
 ;
-unmapPages
+UnmapPages
 (
 address
 size
@@ -976,7 +976,7 @@ size
 if
 (
 !
-decommitEnabled
+DecommitEnabled
 (
 )
 )
