@@ -262,7 +262,7 @@ updateIon
 const
 bool
 *
-AddressOfNeedsBarrier
+addressOfNeedsBarrier
 (
 )
 const
