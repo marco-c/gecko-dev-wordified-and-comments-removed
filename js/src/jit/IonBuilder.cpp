@@ -166,14 +166,14 @@ h
 #
 include
 "
-jsscriptinlines
+jsopcodeinlines
 .
 h
 "
 #
 include
 "
-jsopcodeinlines
+jsscriptinlines
 .
 h
 "
