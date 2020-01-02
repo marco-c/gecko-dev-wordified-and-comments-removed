@@ -568,6 +568,11 @@ SOURCES
 =
 [
 '
+MacIOSurface
+.
+cpp
+'
+'
 QuartzSupport
 .
 mm
