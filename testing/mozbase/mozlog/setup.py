@@ -11,9 +11,9 @@ mozlog
 PACKAGE_VERSION
 =
 '
-1
+2
 .
-9
+0
 '
 setup
 (
