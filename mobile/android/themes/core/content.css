@@ -2318,6 +2318,12 @@ input
 :
 not
 (
+:
+focus
+)
+:
+not
+(
 [
 disabled
 ]
@@ -2335,6 +2341,12 @@ disabled
 :
 active
 textarea
+:
+not
+(
+:
+focus
+)
 :
 not
 (
