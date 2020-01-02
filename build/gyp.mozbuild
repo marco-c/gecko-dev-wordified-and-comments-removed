@@ -344,6 +344,7 @@ files
 in
 current
 directory
+#
 '
 aec_debug_dump
 '
