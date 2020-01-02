@@ -150,23 +150,6 @@ parser
 "
 )
 ;
-const
-{
-PrefObserver
-PREF_ORIG_SOURCES
-}
-=
-require
-(
-"
-devtools
-/
-styleeditor
-/
-utils
-"
-)
-;
 Cu
 .
 import
@@ -250,6 +233,23 @@ only
 .
 xul
 "
+;
+const
+{
+PrefObserver
+PREF_ORIG_SOURCES
+}
+=
+require
+(
+"
+devtools
+/
+styleeditor
+/
+utils
+"
+)
 ;
 const
 CSS_LINE_RE
@@ -844,6 +844,7 @@ null
 _changed
 :
 function
+ElementStyle_changed
 (
 )
 {
@@ -865,6 +866,7 @@ onChanged
 populate
 :
 function
+ElementStyle_populate
 (
 )
 {
@@ -1007,6 +1009,7 @@ populated
 _sortRulesForPseudoElement
 :
 function
+ElementStyle_sortRulesForPseudoElement
 (
 )
 {
@@ -1057,6 +1060,7 @@ z
 _maybeAddRule
 :
 function
+ElementStyle_maybeAddRule
 (
 aOptions
 )
@@ -1206,6 +1210,7 @@ true
 markOverriddenAll
 :
 function
+ElementStyle_markOverriddenAll
 (
 )
 {
@@ -1235,6 +1240,7 @@ pseudo
 markOverridden
 :
 function
+ElementStyle_markOverridden
 (
 pseudo
 =
@@ -1476,6 +1482,7 @@ updateEditor
 _updatePropertyOverridden
 :
 function
+ElementStyle_updatePropertyOverridden
 (
 aProp
 )
@@ -1991,6 +1998,7 @@ null
 getOriginalSourceString
 :
 function
+Rule_getOriginalSourceString
 (
 )
 {
@@ -2068,6 +2076,7 @@ string
 matches
 :
 function
+Rule_matches
 (
 aOptions
 )
@@ -2087,6 +2096,7 @@ rule
 createProperty
 :
 function
+Rule_createProperty
 (
 aName
 aValue
@@ -2162,6 +2172,7 @@ prop
 applyProperties
 :
 function
+Rule_applyProperties
 (
 aModifications
 aName
@@ -2534,6 +2545,7 @@ promise
 setPropertyName
 :
 function
+Rule_setPropertyName
 (
 aProperty
 aName
@@ -2591,6 +2603,7 @@ aName
 setPropertyValue
 :
 function
+Rule_setPropertyValue
 (
 aProperty
 aValue
@@ -2646,6 +2659,7 @@ name
 setPropertyEnabled
 :
 function
+Rule_enableProperty
 (
 aProperty
 aValue
@@ -2699,6 +2713,7 @@ modifications
 removeProperty
 :
 function
+Rule_removeProperty
 (
 aProperty
 )
@@ -2754,6 +2769,7 @@ modifications
 _getTextProperties
 :
 function
+Rule_getTextProperties
 (
 )
 {
@@ -2865,6 +2881,7 @@ textProps
 _getDisabledProperties
 :
 function
+Rule_getDisabledProperties
 (
 )
 {
@@ -2974,6 +2991,7 @@ textProps
 refresh
 :
 function
+Rule_refresh
 (
 aOptions
 )
@@ -3106,6 +3124,7 @@ populate
 _updateTextProperty
 :
 function
+Rule__updateTextProperty
 (
 aNewProp
 )
@@ -3301,6 +3320,7 @@ false
 editClosestTextProperty
 :
 function
+Rule__editClosestTextProperty
 (
 aTextProperty
 )
@@ -3474,6 +3494,7 @@ prototype
 updateEditor
 :
 function
+TextProperty_updateEditor
 (
 )
 {
@@ -3497,6 +3518,7 @@ update
 updateComputed
 :
 function
+TextProperty_updateComputed
 (
 )
 {
@@ -3626,6 +3648,7 @@ prop
 set
 :
 function
+TextProperty_set
 (
 aOther
 )
@@ -3702,6 +3725,7 @@ updateEditor
 setValue
 :
 function
+TextProperty_setValue
 (
 aValue
 aPriority
@@ -3728,6 +3752,7 @@ updateEditor
 setName
 :
 function
+TextProperty_setName
 (
 aName
 )
@@ -3752,6 +3777,7 @@ updateEditor
 setEnabled
 :
 function
+TextProperty_setEnabled
 (
 aValue
 )
@@ -3776,6 +3802,7 @@ updateEditor
 remove
 :
 function
+TextProperty_remove
 (
 )
 {
@@ -4074,7 +4101,7 @@ this
 element
 this
 .
-_onTooltipTargetHover
+_buildTooltipContent
 .
 bind
 (
@@ -4352,7 +4379,7 @@ _contextmenu
 )
 ;
 }
-_onTooltipTargetHover
+_buildTooltipContent
 :
 function
 (
@@ -4421,15 +4448,6 @@ hasTooltip
 true
 ;
 }
-if
-(
-this
-.
-inspector
-.
-hasUrlToImageDataResolver
-)
-{
 let
 isImageHref
 =
@@ -4475,30 +4493,11 @@ parentNode
 .
 textProperty
 ;
-let
-maxDim
-=
-Services
+this
 .
-prefs
+previewTooltip
 .
-getIntPref
-(
-"
-devtools
-.
-inspector
-.
-imagePreviewTooltipSize
-"
-)
-;
-let
-uri
-=
-CssLogic
-.
-getBackgroundImageUriFromProperty
+setCssBackgroundImageContent
 (
 property
 .
@@ -4512,33 +4511,16 @@ domRule
 href
 )
 ;
-this
-.
-previewTooltip
-.
-setRelativeImageContent
-(
-uri
-this
-.
-inspector
-.
-inspector
-maxDim
-)
-.
-then
-(
 def
 .
 resolve
+(
 )
 ;
 hasTooltip
 =
 true
 ;
-}
 }
 if
 (
@@ -4558,15 +4540,6 @@ this
 colorPicker
 .
 hide
-(
-)
-;
-}
-else
-{
-def
-.
-reject
 (
 )
 ;
@@ -5234,6 +5207,7 @@ updateSourceLink
 destroy
 :
 function
+CssRuleView_destroy
 (
 )
 {
@@ -5492,6 +5466,7 @@ destroy
 highlight
 :
 function
+CssRuleView_highlight
 (
 aElement
 )
@@ -5628,6 +5603,7 @@ error
 nodeChanged
 :
 function
+CssRuleView_nodeChanged
 (
 )
 {
@@ -5758,6 +5734,7 @@ promiseWarn
 _showEmpty
 :
 function
+CssRuleView_showEmpty
 (
 )
 {
@@ -5813,6 +5790,7 @@ empty
 _clearRules
 :
 function
+CssRuleView_clearRules
 (
 )
 {
@@ -5845,6 +5823,7 @@ lastChild
 clear
 :
 function
+CssRuleView_clear
 (
 )
 {
@@ -5886,6 +5865,7 @@ hide
 _changed
 :
 function
+CssRuleView_changed
 (
 )
 {
@@ -6181,6 +6161,7 @@ baseClassName
 _createEditors
 :
 function
+CssRuleView_createEditors
 (
 )
 {
@@ -6615,6 +6596,7 @@ prototype
 _create
 :
 function
+RuleEditor_create
 (
 )
 {
@@ -7297,6 +7279,7 @@ string
 populate
 :
 function
+RuleEditor_populate
 (
 )
 {
@@ -7519,6 +7502,7 @@ element
 addProperty
 :
 function
+RuleEditor_addProperty
 (
 aName
 aValue
@@ -7591,6 +7575,7 @@ prop
 addProperties
 :
 function
+RuleEditor_addProperties
 (
 aProperties
 aSiblingProp
@@ -7686,6 +7671,7 @@ newProperty
 newProperty
 :
 function
+RuleEditor_newProperty
 (
 )
 {
@@ -7842,6 +7828,7 @@ false
 _onNewProperty
 :
 function
+RuleEditor__onNewProperty
 (
 aValue
 aCommit
@@ -7914,6 +7901,7 @@ blur
 _newPropertyDestroy
 :
 function
+RuleEditor__newPropertyDestroy
 (
 )
 {
@@ -8247,6 +8235,7 @@ isShown
 _create
 :
 function
+TextPropertyEditor_create
 (
 )
 {
@@ -8948,6 +8937,7 @@ uri
 update
 :
 function
+TextPropertyEditor_update
 (
 )
 {
@@ -9396,6 +9386,7 @@ _updateComputed
 _onStartEditing
 :
 function
+TextPropertyEditor_onStartEditing
 (
 )
 {
@@ -9429,6 +9420,7 @@ value
 _updateComputed
 :
 function
+TextPropertyEditor_updateComputed
 (
 )
 {
@@ -9693,6 +9685,7 @@ hidden
 _onEnableClicked
 :
 function
+TextPropertyEditor_onEnableClicked
 (
 aEvent
 )
@@ -9764,6 +9757,7 @@ stopPropagation
 _onExpandClicked
 :
 function
+TextPropertyEditor_onExpandClicked
 (
 aEvent
 )
@@ -9840,6 +9834,7 @@ stopPropagation
 _onNameDone
 :
 function
+TextPropertyEditor_onNameDone
 (
 aValue
 aCommit
@@ -9960,6 +9955,7 @@ aValue
 remove
 :
 function
+TextPropertyEditor_remove
 (
 )
 {
@@ -10048,6 +10044,7 @@ remove
 _onValueDone
 :
 function
+PropertyEditor_onValueDone
 (
 aValue
 aCommit
@@ -10221,6 +10218,7 @@ remove
 _getValueAndExtraProperties
 :
 function
+PropetyEditor_getValueAndExtraProperties
 (
 aValue
 )
@@ -10367,6 +10365,7 @@ firstValue
 _applyNewValue
 :
 function
+PropetyEditor_applyNewValue
 (
 aValue
 )
@@ -10453,6 +10452,7 @@ priority
 _livePreview
 :
 function
+TextPropertyEditor_livePreview
 (
 aValue
 )
@@ -10499,6 +10499,7 @@ priority
 isValid
 :
 function
+TextPropertyEditor_isValid
 (
 aValue
 )
