@@ -6293,7 +6293,7 @@ id
 ;
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 JSID_IS_INT
 (
@@ -6315,7 +6315,7 @@ id
 ;
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 JSID_IS_OBJECT
 (

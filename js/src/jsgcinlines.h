@@ -895,7 +895,7 @@ break
 ;
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 span
 -

@@ -933,7 +933,7 @@ thingSize
 else
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 thing
 =

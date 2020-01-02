@@ -2825,7 +2825,7 @@ expect
 )
 ;
 return
-JS_LIKELY
+MOZ_LIKELY
 (
 userbuf
 .

@@ -2300,7 +2300,7 @@ true
 }
 if
 (
-JS_LIKELY
+MOZ_LIKELY
 (
 !
 obj
