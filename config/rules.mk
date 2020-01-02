@@ -4857,7 +4857,7 @@ STLPORT_LIBS
 )
 (
 call
-CHECK_STDCXX
+CHECK_BINARY
 )
 endif
 #
@@ -5381,7 +5381,7 @@ STLPORT_LIBS
 )
 (
 call
-CHECK_STDCXX
+CHECK_BINARY
 )
 endif
 #
@@ -6191,7 +6191,7 @@ endif
 DTRACE_LIB_DEPENDENT
 (
 call
-CHECK_STDCXX
+CHECK_BINARY
 )
 ifeq
 (
