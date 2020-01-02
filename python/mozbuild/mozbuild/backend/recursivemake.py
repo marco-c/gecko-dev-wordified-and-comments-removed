@@ -4918,6 +4918,22 @@ test_dirs
 )
 )
             
+if
+self
+.
+environment
+.
+substs
+.
+get
+(
+'
+ENABLE_TESTS
+'
+False
+)
+:
+                
 self
 .
 _traversal
@@ -4927,7 +4943,7 @@ add
 backend_file
 .
 relobjdir
-                                
+                                    
 tests
 =
 relativize
