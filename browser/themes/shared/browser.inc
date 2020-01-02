@@ -173,7 +173,7 @@ any
 not
 (
 [
-customizableui
+cui
 -
 areatype
 =

@@ -4459,7 +4459,7 @@ align
 "
 center
 "
-customizableui
+cui
 -
 areatype
 =
@@ -4685,7 +4685,7 @@ tab
 -
 tooltip
 "
-customizableui
+cui
 -
 areatype
 =
@@ -4819,7 +4819,7 @@ onDragExit
 event
 )
 "
-customizableui
+cui
 -
 areatype
 =
@@ -4938,7 +4938,7 @@ Browser
 :
 ToggleTabView
 "
-customizableui
+cui
 -
 areatype
 =
@@ -5009,7 +5009,7 @@ closeTab
 label
 ;
 "
-customizableui
+cui
 -
 areatype
 =
@@ -5383,7 +5383,7 @@ removable
 "
 false
 "
-customizableui
+cui
 -
 areatype
 =
@@ -6802,7 +6802,7 @@ wide
 -
 item
 "
-customizableui
+cui
 -
 areatype
 =
@@ -6899,7 +6899,7 @@ webrtcIndicatorButton
 tooltip
 ;
 "
-customizableui
+cui
 -
 areatype
 =
@@ -7057,7 +7057,7 @@ event
 )
 ;
 "
-customizableui
+cui
 -
 areatype
 =
@@ -7776,7 +7776,7 @@ removable
 "
 true
 "
-customizableui
+cui
 -
 areatype
 =
@@ -7883,7 +7883,7 @@ event
 )
 ;
 "
-customizableui
+cui
 -
 areatype
 =
@@ -7952,7 +7952,7 @@ sharePageCmd
 label
 ;
 "
-customizableui
+cui
 -
 areatype
 =
@@ -8017,7 +8017,7 @@ overflows
 "
 false
 "
-customizableui
+cui
 -
 areatype
 =
@@ -8828,7 +8828,7 @@ bookmarksToolbarItem
 label
 ;
 "
-customizableui
+cui
 -
 areatype
 =

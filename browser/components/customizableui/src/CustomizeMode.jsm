@@ -6885,7 +6885,7 @@ const
 kAreaType
 =
 "
-customizableui
+cui
 -
 areatype
 "
