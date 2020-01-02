@@ -1,10 +1,4 @@
 #
-ifndef
-nsPrefBranch_h
-#
-define
-nsPrefBranch_h
-#
 include
 "
 nsCOMPtr
@@ -679,7 +673,7 @@ aObserver
 )
 ;
 static
-void
+nsresult
 NotifyObserver
 (
 const
@@ -947,5 +941,3 @@ mRelativeToKey
 ;
 }
 ;
-#
-endif

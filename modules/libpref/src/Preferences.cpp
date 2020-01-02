@@ -7519,7 +7519,7 @@ NS_OK
 ;
 }
 static
-void
+int
 BoolVarChanged
 (
 const
@@ -7567,6 +7567,9 @@ cache
 >
 defaultValueBool
 )
+;
+return
+0
 ;
 }
 nsresult
@@ -7648,7 +7651,7 @@ data
 ;
 }
 static
-void
+int
 IntVarChanged
 (
 const
@@ -7696,6 +7699,9 @@ cache
 >
 defaultValueInt
 )
+;
+return
+0
 ;
 }
 nsresult
@@ -7780,7 +7786,7 @@ data
 ;
 }
 static
-void
+int
 UintVarChanged
 (
 const
@@ -7828,6 +7834,9 @@ cache
 >
 defaultValueUint
 )
+;
+return
+0
 ;
 }
 nsresult
@@ -7912,7 +7921,7 @@ data
 ;
 }
 static
-void
+int
 FloatVarChanged
 (
 const
@@ -7960,6 +7969,9 @@ cache
 >
 defaultValueFloat
 )
+;
+return
+0
 ;
 }
 nsresult

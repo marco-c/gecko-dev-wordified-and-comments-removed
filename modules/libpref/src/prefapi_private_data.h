@@ -1,10 +1,4 @@
 #
-ifndef
-prefapi_private_data_h
-#
-define
-prefapi_private_data_h
-#
 include
 "
 mozilla
@@ -154,5 +148,3 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
-#
-endif
