@@ -4086,7 +4086,6 @@ msg
 "
 Unexpected
 packet
-from
 "
 +
 this
@@ -4096,9 +4095,12 @@ actorID
 "
 "
 +
-packet
+JSON
 .
-type
+stringify
+(
+packet
+)
 ;
 let
 err
