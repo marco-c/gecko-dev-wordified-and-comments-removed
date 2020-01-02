@@ -628,11 +628,13 @@ Layer
 aLayer
 uint64_t
 aLayersId
+const
 gfx
 :
 :
 Matrix4x4
-aTransform
+&
+aAncestorTransform
 AsyncPanZoomController
 *
 aParent
