@@ -7161,6 +7161,12 @@ CustomizationHandler
 false
 )
 ;
+gCustomizeMode
+.
+init
+(
+)
+;
 try
 {
 const
@@ -7696,6 +7702,12 @@ AddonsMgrListener
 )
 ;
 SocialUI
+.
+uninit
+(
+)
+;
+gCustomizeMode
 .
 uninit
 (
