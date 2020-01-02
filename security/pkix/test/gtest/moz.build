@@ -137,6 +137,11 @@ pkixder_universal_types_tests
 .
 cpp
 '
+'
+pkixgtest
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
