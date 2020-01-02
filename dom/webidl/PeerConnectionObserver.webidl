@@ -277,7 +277,7 @@ state
 *
 Changes
 to
-MediaStreams
+MediaStreamTracks
 *
 /
 void
@@ -295,6 +295,8 @@ onRemoveStream
 void
 onAddTrack
 (
+MediaStreamTrack
+track
 )
 ;
 void

@@ -147,11 +147,6 @@ rtpsender
 ;
 1
 "
-Constructor
-(
-MediaStreamTrack
-track
-)
 ]
 interface
 RTCRtpSender

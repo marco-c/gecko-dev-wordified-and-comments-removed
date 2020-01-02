@@ -242,6 +242,14 @@ getVideoTracks
 (
 )
 ;
+sequence
+<
+MediaStreamTrack
+>
+getTracks
+(
+)
+;
 /
 /
 MediaStreamTrack

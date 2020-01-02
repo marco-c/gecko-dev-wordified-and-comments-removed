@@ -147,11 +147,6 @@ rtpreceiver
 ;
 1
 "
-Constructor
-(
-MediaStreamTrack
-track
-)
 ]
 interface
 RTCRtpReceiver
