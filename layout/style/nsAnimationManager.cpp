@@ -1459,6 +1459,13 @@ ToMilliseconds
 0
 .
 0
+|
+|
+mStartTime
+.
+IsNull
+(
+)
 )
 {
 return
