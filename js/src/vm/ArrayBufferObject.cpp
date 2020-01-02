@@ -1319,13 +1319,6 @@ sizeof
 ObjectElements
 )
 ;
-JS_ASSERT
-(
-size
->
-nbytes
-)
-;
 ObjectElements
 *
 newheader
