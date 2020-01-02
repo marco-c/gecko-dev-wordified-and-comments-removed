@@ -1340,6 +1340,11 @@ FlushRepaintForOverscrollHandoff
 (
 )
 ;
+bool
+SnapBackIfOverscrolled
+(
+)
+;
 private
 :
 FrameMetrics
@@ -1361,6 +1366,11 @@ ScreenPoint
 aEndPoint
 uint32_t
 aOverscrollHandoffChainIndex
+)
+;
+void
+CallSnapBackOverscrolledApzc
+(
 )
 ;
 bool
