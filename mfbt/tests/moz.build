@@ -173,6 +173,11 @@ TestMacroForEach
 cpp
 '
 '
+TestPair
+.
+cpp
+'
+'
 TestRollingMean
 .
 cpp
