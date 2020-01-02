@@ -1895,7 +1895,7 @@ _target
 )
 ;
 }
-toString
+stringify
 :
 function
 (
