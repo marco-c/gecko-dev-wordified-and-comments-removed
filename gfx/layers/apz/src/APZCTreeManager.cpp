@@ -4674,6 +4674,9 @@ inOverscrolledApzc
 if
 (
 target
+|
+|
+inOverscrolledApzc
 )
 {
 break
