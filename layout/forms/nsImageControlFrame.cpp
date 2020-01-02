@@ -115,7 +115,7 @@ MOZ_OVERRIDE
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -489,7 +489,7 @@ nsGkAtoms
 imageControlFrame
 ;
 }
-void
+nsresult
 nsImageControlFrame
 :
 :

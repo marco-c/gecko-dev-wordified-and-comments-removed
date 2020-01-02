@@ -284,7 +284,7 @@ aLists
 #
 endif
 }
-void
+nsresult
 nsMathMLSelectedFrame
 :
 :
@@ -305,6 +305,11 @@ nsReflowStatus
 aStatus
 )
 {
+nsresult
+rv
+=
+NS_OK
+;
 aStatus
 =
 NS_FRAME_COMPLETE
@@ -369,6 +374,8 @@ childFrame
 availSize
 )
 ;
+rv
+=
 ReflowChild
 (
 childFrame
@@ -409,6 +416,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+rv
 ;
 }
 nsresult

@@ -437,7 +437,7 @@ aOldFrame
 )
 ;
 }
-void
+nsresult
 nsAbsoluteContainingBlock
 :
 :
@@ -768,6 +768,9 @@ NS_MergeReflowStatusInto
 aReflowStatus
 reflowStatus
 )
+;
+return
+NS_OK
 ;
 }
 static
@@ -1411,7 +1414,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 }
 }
 }
-void
+nsresult
 nsAbsoluteContainingBlock
 :
 :
@@ -1814,6 +1817,9 @@ ComputedPhysicalOffsets
 top
 ;
 }
+nsresult
+rv
+=
 aKidFrame
 -
 >
@@ -2382,4 +2388,7 @@ TopLeft
 )
 ;
 }
+return
+rv
+;
 }

@@ -1420,7 +1420,7 @@ aPadding
 )
 ;
 }
-void
+nsresult
 nsSVGOuterSVGFrame
 :
 :
@@ -1955,8 +1955,11 @@ aReflowState
 aDesiredSize
 )
 ;
+return
+NS_OK
+;
 }
-void
+nsresult
 nsSVGOuterSVGFrame
 :
 :
@@ -1973,6 +1976,9 @@ nsDidReflowStatus
 aStatus
 )
 {
+nsresult
+rv
+=
 nsSVGOuterSVGFrameBase
 :
 :
@@ -1997,6 +2003,9 @@ SynthesizeMouseMove
 (
 false
 )
+;
+return
+rv
 ;
 }
 bool

@@ -1683,7 +1683,7 @@ mFrame
 ;
 }
 ;
-void
+nsresult
 nsComboboxControlFrame
 :
 :
@@ -1716,6 +1716,7 @@ mDropdownFrame
 )
 {
 return
+NS_OK
 ;
 }
 nsSize
@@ -1882,6 +1883,9 @@ aReflowState
 nsReflowStatus
 ignoredStatus
 ;
+nsresult
+rv
+=
 ReflowChild
 (
 mDropdownFrame
@@ -1913,6 +1917,9 @@ rect
 y
 flags
 )
+;
+return
+rv
 ;
 }
 nsPoint
@@ -3341,7 +3348,7 @@ return
 prefWidth
 ;
 }
-void
+nsresult
 nsComboboxControlFrame
 :
 :
@@ -3397,6 +3404,7 @@ it
 )
 ;
 return
+NS_ERROR_UNEXPECTED
 ;
 }
 int32_t
@@ -3613,6 +3621,9 @@ ComputedWidth
 -
 buttonWidth
 ;
+nsresult
+rv
+=
 nsBlockFrame
 :
 :
@@ -3622,6 +3633,12 @@ aPresContext
 aDesiredSize
 aReflowState
 aStatus
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsRect
@@ -3777,6 +3794,9 @@ aStatus
 NS_FRAME_COMPLETE
 ;
 }
+return
+rv
+;
 }
 nsIAtom
 *
@@ -5038,7 +5058,7 @@ eReplacedContainsBlock
 ;
 }
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -5104,7 +5124,7 @@ nsGkAtoms
 comboboxDisplayFrame
 ;
 }
-void
+nsresult
 nsComboboxDisplayFrame
 :
 :

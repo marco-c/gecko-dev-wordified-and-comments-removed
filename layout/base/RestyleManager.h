@@ -480,7 +480,7 @@ bool
 aRestyleDescendants
 )
 ;
-void
+nsresult
 StyleChangeReflow
 (
 nsIFrame

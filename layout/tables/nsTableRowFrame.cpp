@@ -3712,7 +3712,7 @@ height
 )
 ;
 }
-void
+nsresult
 nsTableRowFrame
 :
 :
@@ -3760,6 +3760,11 @@ aTableFrame
 IsBorderCollapse
 (
 )
+;
+nsresult
+rv
+=
+NS_OK
 ;
 nscoord
 cellSpacingX
@@ -4316,6 +4321,8 @@ kidReflowState
 nsReflowStatus
 status
 ;
+rv
+=
 ReflowChild
 (
 kidFrame
@@ -4906,8 +4913,11 @@ FinishAndStoreOverflow
 aDesiredSize
 )
 ;
+return
+rv
+;
 }
-void
+nsresult
 nsTableRowFrame
 :
 :
@@ -4943,6 +4953,11 @@ aReflowState
 aDesiredSize
 aStatus
 )
+;
+nsresult
+rv
+=
+NS_OK
 ;
 nsTableFrame
 *
@@ -5005,6 +5020,8 @@ InitHasCellWithStyleHeight
 tableFrame
 )
 ;
+rv
+=
 ReflowChildren
 (
 aPresContext
@@ -5107,6 +5124,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+rv
 ;
 }
 nscoord

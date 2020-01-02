@@ -494,7 +494,7 @@ aShrinkWrap
 )
 MOZ_OVERRIDE
 ;
-void
+nsresult
 ReflowChild
 (
 nsIFrame
@@ -527,7 +527,7 @@ nullptr
 )
 ;
 static
-void
+nsresult
 FinishReflowChild
 (
 nsIFrame
@@ -565,7 +565,7 @@ friend
 class
 nsOverflowContinuationTracker
 ;
-void
+nsresult
 ReflowOverflowContainerChildren
 (
 nsPresContext

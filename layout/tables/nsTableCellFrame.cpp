@@ -3872,7 +3872,7 @@ return
 computedHeight
 ;
 }
-void
+nsresult
 nsTableCellFrame
 :
 :
@@ -4666,6 +4666,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+NS_OK
 ;
 }
 NS_QUERYFRAME_HEAD

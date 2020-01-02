@@ -79,7 +79,7 @@ aLists
 )
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

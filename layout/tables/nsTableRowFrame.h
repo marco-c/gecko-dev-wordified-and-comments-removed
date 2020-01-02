@@ -200,7 +200,7 @@ GetFirstCell
 )
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -699,7 +699,7 @@ aKidMargin
 )
 const
 ;
-void
+nsresult
 ReflowChildren
 (
 nsPresContext

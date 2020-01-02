@@ -4517,7 +4517,7 @@ aXMost
 )
 ;
 virtual
-void
+nsresult
 WillReflow
 (
 nsPresContext
@@ -4528,7 +4528,7 @@ aPresContext
 0
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -4549,7 +4549,7 @@ aStatus
 0
 ;
 virtual
-void
+nsresult
 DidReflow
 (
 nsPresContext

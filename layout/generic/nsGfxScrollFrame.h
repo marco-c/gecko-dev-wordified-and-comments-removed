@@ -1556,6 +1556,9 @@ bool
 aAssumeHScroll
 bool
 aForce
+nsresult
+*
+aResult
 )
 ;
 bool
@@ -1566,7 +1569,7 @@ ScrollReflowState
 aState
 )
 ;
-void
+nsresult
 ReflowScrolledFrame
 (
 ScrollReflowState
@@ -1583,7 +1586,7 @@ bool
 aFirstPass
 )
 ;
-void
+nsresult
 ReflowContents
 (
 ScrollReflowState
@@ -1689,7 +1692,7 @@ IsCollapsed
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

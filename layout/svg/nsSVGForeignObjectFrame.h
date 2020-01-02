@@ -152,7 +152,7 @@ GetContentInsertionFrame
 ;
 }
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

@@ -183,7 +183,7 @@ aRenderingContext
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -219,7 +219,7 @@ aPrevInFlow
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 DidReflow
 (
 nsPresContext
@@ -908,7 +908,7 @@ int32_t
 aIndex
 )
 ;
-void
+nsresult
 ReflowAsDropdown
 (
 nsPresContext

@@ -245,7 +245,7 @@ aBoxLayoutState
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

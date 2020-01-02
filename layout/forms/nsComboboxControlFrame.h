@@ -227,7 +227,7 @@ aRenderingContext
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -701,7 +701,7 @@ friend
 class
 nsResizeDropdownAtFinalPosition
 ;
-void
+nsresult
 ReflowDropdown
 (
 nsPresContext

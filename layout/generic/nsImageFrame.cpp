@@ -3416,7 +3416,7 @@ return
 mIntrinsicRatio
 ;
 }
-void
+nsresult
 nsImageFrame
 :
 :
@@ -4047,6 +4047,9 @@ aStatus
 aReflowState
 aMetrics
 )
+;
+return
+NS_OK
 ;
 }
 bool

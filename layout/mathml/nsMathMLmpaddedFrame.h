@@ -64,7 +64,7 @@ TransmitAutomaticDataForMrowLikeElement
 ;
 }
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

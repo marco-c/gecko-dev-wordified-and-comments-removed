@@ -48,7 +48,7 @@ aContext
 {
 }
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

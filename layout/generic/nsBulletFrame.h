@@ -193,7 +193,7 @@ MOZ_OVERRIDE
 #
 endif
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext

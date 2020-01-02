@@ -1221,7 +1221,7 @@ amount
 ;
 }
 }
-void
+nsresult
 nsMathMLmpaddedFrame
 :
 :
@@ -1246,6 +1246,9 @@ ProcessAttributes
 (
 )
 ;
+nsresult
+rv
+=
 nsMathMLContainerFrame
 :
 :
@@ -1256,6 +1259,9 @@ aDesiredSize
 aReflowState
 aStatus
 )
+;
+return
+rv
 ;
 }
 nsresult

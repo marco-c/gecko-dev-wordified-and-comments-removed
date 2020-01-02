@@ -2419,7 +2419,7 @@ return
 nullptr
 ;
 }
-void
+nsresult
 nsMathMLmtableOuterFrame
 :
 :
@@ -2440,9 +2440,14 @@ nsReflowStatus
 aStatus
 )
 {
+nsresult
+rv
+;
 nsAutoString
 value
 ;
+rv
+=
 nsTableOuterFrame
 :
 :
@@ -2916,6 +2921,9 @@ aStatus
 aReflowState
 aDesiredSize
 )
+;
+return
+rv
 ;
 }
 nsIFrame
@@ -3824,7 +3832,7 @@ PresContext
 )
 ;
 }
-void
+nsresult
 nsMathMLmtdInnerFrame
 :
 :
@@ -3845,6 +3853,9 @@ nsReflowStatus
 aStatus
 )
 {
+nsresult
+rv
+=
 nsBlockFrame
 :
 :
@@ -3855,6 +3866,9 @@ aDesiredSize
 aReflowState
 aStatus
 )
+;
+return
+rv
 ;
 }
 const

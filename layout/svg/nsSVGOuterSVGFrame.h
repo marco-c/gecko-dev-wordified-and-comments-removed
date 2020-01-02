@@ -172,7 +172,7 @@ aFlags
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -192,7 +192,7 @@ aStatus
 MOZ_OVERRIDE
 ;
 virtual
-void
+nsresult
 DidReflow
 (
 nsPresContext

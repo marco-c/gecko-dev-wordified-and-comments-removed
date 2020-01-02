@@ -197,7 +197,7 @@ IsZeroBSize
 (
 )
 ;
-void
+nsresult
 ReflowFrame
 (
 nsIFrame

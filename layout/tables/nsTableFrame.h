@@ -1042,7 +1042,7 @@ aWidthInCB
 )
 ;
 virtual
-void
+nsresult
 Reflow
 (
 nsPresContext
@@ -1061,7 +1061,7 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-void
+nsresult
 ReflowTable
 (
 nsHTMLReflowMetrics
@@ -1553,7 +1553,7 @@ nscoord
 aDesiredHeight
 )
 ;
-void
+nsresult
 ReflowChildren
 (
 nsTableReflowState

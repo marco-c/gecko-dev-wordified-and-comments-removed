@@ -4237,7 +4237,7 @@ aRunWasFeasible
 feasible
 ;
 }
-void
+nsresult
 nsColumnSetFrame
 :
 :
@@ -4491,6 +4491,9 @@ is
 unconstrained
 "
 )
+;
+return
+NS_OK
 ;
 }
 void

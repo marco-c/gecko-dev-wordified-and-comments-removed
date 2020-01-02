@@ -587,7 +587,7 @@ aShrinkWrap
 )
 ;
 }
-void
+nsresult
 nsLeafBoxFrame
 :
 :
@@ -1321,6 +1321,9 @@ n
 }
 #
 endif
+return
+NS_OK
+;
 }
 #
 ifdef
