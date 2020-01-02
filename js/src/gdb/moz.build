@@ -143,6 +143,15 @@ tests
 /
 test
 -
+JSSymbol
+.
+cpp
+'
+'
+tests
+/
+test
+-
 jsval
 .
 cpp
