@@ -685,12 +685,12 @@ mImageMap
 }
 virtual
 void
-AddInlineMinWidth
+AddInlineMinISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlineMinWidthData
+InlineMinISizeData
 *
 aData
 )

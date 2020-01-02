@@ -2601,7 +2601,7 @@ tentHeight
 ;
 static
 nscoord
-PrefWidthFromInline
+PrefISizeFromInline
 (
 nsIFrame
 *
@@ -2613,7 +2613,7 @@ aRenderingContext
 ;
 static
 nscoord
-MinWidthFromInline
+MinISizeFromInline
 (
 nsIFrame
 *

@@ -465,12 +465,12 @@ aMaxSize
 )
 ;
 void
-DoInlineIntrinsicWidth
+DoInlineIntrinsicISize
 (
 nsRenderingContext
 *
 aRenderingContext
-InlineIntrinsicWidthData
+InlineIntrinsicISizeData
 *
 aData
 nsLayoutUtils
