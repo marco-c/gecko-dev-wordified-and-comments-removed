@@ -188,6 +188,14 @@ svg
 lime
 .
 svg
+fuzzy
+-
+if
+(
+winWidget
+1
+3
+)
 =
 =
 skew
@@ -202,6 +210,9 @@ skew
 ref
 .
 svg
+#
+bug
+983671
 =
 =
 translate
