@@ -250,6 +250,9 @@ ResetConnectionState
 =
 0
 ;
+#
+ifdef
+MOZ_EME
 virtual
 void
 DispatchNeedKey
@@ -269,6 +272,8 @@ aInitDataType
 =
 0
 ;
+#
+endif
 }
 ;
 }

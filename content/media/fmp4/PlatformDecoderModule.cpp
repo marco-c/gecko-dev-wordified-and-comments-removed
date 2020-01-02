@@ -51,6 +51,9 @@ Preferences
 h
 "
 #
+ifdef
+MOZ_EME
+#
 include
 "
 EMEDecoderModule
@@ -66,6 +69,8 @@ CDMProxy
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -296,6 +301,9 @@ forget
 )
 ;
 }
+#
+ifdef
+MOZ_EME
 PlatformDecoderModule
 *
 PlatformDecoderModule
@@ -414,6 +422,8 @@ CreateTaskQueue
 )
 ;
 }
+#
+endif
 PlatformDecoderModule
 *
 PlatformDecoderModule

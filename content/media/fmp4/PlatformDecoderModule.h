@@ -110,6 +110,9 @@ Create
 (
 )
 ;
+#
+ifdef
+MOZ_EME
 static
 PlatformDecoderModule
 *
@@ -127,6 +130,8 @@ MediaTaskQueue
 aTaskQueue
 )
 ;
+#
+endif
 virtual
 nsresult
 Shutdown

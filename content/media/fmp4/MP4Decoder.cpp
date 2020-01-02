@@ -29,6 +29,9 @@ Preferences
 h
 "
 #
+ifdef
+MOZ_EME
+#
 include
 "
 mozilla
@@ -37,6 +40,8 @@ CDMProxy
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -118,6 +123,9 @@ this
 )
 ;
 }
+#
+ifdef
+MOZ_EME
 nsresult
 MP4Decoder
 :
@@ -190,6 +198,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 bool
 MP4Decoder
 :
