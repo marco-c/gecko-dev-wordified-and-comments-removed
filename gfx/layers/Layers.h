@@ -5407,6 +5407,10 @@ mSize
 0
 0
 )
+mHasAlpha
+(
+false
+)
 mIsGLAlphaPremult
 (
 false
@@ -5448,6 +5452,9 @@ mTexID
 ;
 nsIntSize
 mSize
+;
+bool
+mHasAlpha
 ;
 bool
 mIsGLAlphaPremult
