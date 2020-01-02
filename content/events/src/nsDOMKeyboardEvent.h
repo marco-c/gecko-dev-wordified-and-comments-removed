@@ -147,6 +147,11 @@ aKey
 )
 ;
 }
+bool
+Repeat
+(
+)
+;
 uint32_t
 CharCode
 (

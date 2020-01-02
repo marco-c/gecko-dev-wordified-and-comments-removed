@@ -188,6 +188,11 @@ location
 ;
 readonly
 attribute
+boolean
+repeat
+;
+readonly
+attribute
 DOMString
 key
 ;

@@ -241,7 +241,11 @@ DOM_KEY_LOCATION_STANDARD
 )
 isChar
 (
-0
+false
+)
+mIsRepeat
+(
+false
 )
 mKeyNameIndex
 (
@@ -277,6 +281,9 @@ alternativeCharCodes
 ;
 bool
 isChar
+;
+bool
+mIsRepeat
 ;
 KeyNameIndex
 mKeyNameIndex
@@ -420,6 +427,12 @@ isChar
 aEvent
 .
 isChar
+;
+mIsRepeat
+=
+aEvent
+.
+mIsRepeat
 ;
 mKeyNameIndex
 =
