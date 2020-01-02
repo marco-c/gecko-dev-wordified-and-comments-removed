@@ -3561,6 +3561,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineToInteger
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineDump
 (
 CallInfo
