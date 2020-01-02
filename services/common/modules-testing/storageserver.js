@@ -82,13 +82,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -339,7 +339,7 @@ this
 .
 _log
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -1291,7 +1291,7 @@ this
 .
 _log
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -4298,7 +4298,7 @@ this
 .
 _log
 =
-Log
+Log4Moz
 .
 repository
 .

@@ -120,7 +120,7 @@ Trace
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -135,13 +135,13 @@ AddonsReconciler
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
 Trace
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -156,7 +156,7 @@ AddonsReconciler
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .

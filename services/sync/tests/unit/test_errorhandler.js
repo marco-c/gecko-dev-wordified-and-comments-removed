@@ -399,7 +399,7 @@ Trace
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -414,13 +414,13 @@ Service
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
 Trace
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -435,13 +435,13 @@ SyncScheduler
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
 Trace
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -456,7 +456,7 @@ ErrorHandler
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
@@ -9693,7 +9693,7 @@ catapult
 let
 log
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -9996,7 +9996,7 @@ false
 let
 log
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -10215,7 +10215,7 @@ false
 let
 log
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -10469,7 +10469,7 @@ catapult
 let
 log
 =
-Log
+Log4Moz
 .
 repository
 .

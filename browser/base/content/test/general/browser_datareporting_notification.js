@@ -379,13 +379,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 ns
 )
@@ -394,7 +394,7 @@ rootLogger
 =
 ns
 .
-Log
+Log4Moz
 .
 repository
 .
@@ -405,7 +405,7 @@ dumpAppender
 new
 ns
 .
-Log
+Log4Moz
 .
 DumpAppender
 (
@@ -417,7 +417,7 @@ level
 =
 ns
 .
-Log
+Log4Moz
 .
 Level
 .

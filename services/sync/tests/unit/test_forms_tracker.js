@@ -7,13 +7,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -128,7 +128,7 @@ tracker
 changedIDs
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -137,7 +137,7 @@ rootLogger
 addAppender
 (
 new
-Log
+Log4Moz
 .
 DumpAppender
 (

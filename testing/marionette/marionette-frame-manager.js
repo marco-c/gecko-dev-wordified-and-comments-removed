@@ -82,7 +82,7 @@ services
 -
 common
 /
-Log
+log4moz
 .
 js
 "
@@ -91,7 +91,7 @@ js
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .

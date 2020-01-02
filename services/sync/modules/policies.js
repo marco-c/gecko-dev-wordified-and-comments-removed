@@ -38,13 +38,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -154,7 +154,7 @@ prototype
 {
 _log
 :
-Log
+Log4Moz
 .
 repository
 .
@@ -495,7 +495,7 @@ _log
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 [
@@ -3086,7 +3086,7 @@ this
 .
 _log
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -3105,7 +3105,7 @@ _log
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 [
@@ -3136,7 +3136,7 @@ false
 let
 root
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -3151,7 +3151,7 @@ root
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 [
@@ -3173,7 +3173,7 @@ let
 formatter
 =
 new
-Log
+Log4Moz
 .
 BasicFormatter
 (
@@ -3183,7 +3183,7 @@ let
 capp
 =
 new
-Log
+Log4Moz
 .
 ConsoleAppender
 (
@@ -3194,7 +3194,7 @@ capp
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 [
@@ -3225,7 +3225,7 @@ let
 dapp
 =
 new
-Log
+Log4Moz
 .
 DumpAppender
 (
@@ -3236,7 +3236,7 @@ dapp
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 [
@@ -3271,7 +3271,7 @@ this
 _logAppender
 =
 new
-Log
+Log4Moz
 .
 StorageStreamAppender
 (
@@ -3282,7 +3282,7 @@ fapp
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 [

@@ -1,12 +1,3 @@
-const
-{
-utils
-:
-Cu
-}
-=
-Components
-;
 Cu
 .
 import
@@ -54,13 +45,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -113,7 +104,7 @@ MockAppender
 formatter
 )
 {
-Log
+Log4Moz
 .
 Appender
 .
@@ -138,7 +129,7 @@ prototype
 {
 __proto__
 :
-Log
+Log4Moz
 .
 Appender
 .
@@ -183,7 +174,7 @@ test_Logger
 let
 log
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -203,7 +194,7 @@ new
 MockAppender
 (
 new
-Log
+Log4Moz
 .
 BasicFormatter
 (
@@ -214,7 +205,7 @@ log
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
@@ -224,7 +215,7 @@ appender
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
@@ -325,7 +316,7 @@ test_Logger_parent
 let
 grandparentLog
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -339,7 +330,7 @@ grandparent
 let
 childLog
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -369,7 +360,7 @@ grandparent
 let
 parentLog
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -403,7 +394,7 @@ new
 MockAppender
 (
 new
-Log
+Log4Moz
 .
 BasicFormatter
 (
@@ -414,7 +405,7 @@ gpAppender
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
@@ -438,7 +429,7 @@ test
 "
 )
 ;
-Log
+Log4Moz
 .
 repository
 .
@@ -640,7 +631,7 @@ new
 MockAppender
 (
 new
-Log
+Log4Moz
 .
 StructuredFormatter
 (
@@ -650,7 +641,7 @@ StructuredFormatter
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -674,7 +665,7 @@ logger
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
@@ -721,7 +712,7 @@ ERROR
 source_file
 :
 "
-test_Log
+test_log4moz
 .
 js
 "
@@ -748,7 +739,7 @@ test_message
 source_file
 :
 "
-test_Log
+test_log4moz
 .
 js
 "
@@ -855,7 +846,7 @@ source_file
 "
 :
 "
-test_Log
+test_log4moz
 .
 js
 "
@@ -940,7 +931,7 @@ source_file
 "
 :
 "
-test_Log
+test_log4moz
 .
 js
 "
@@ -1137,7 +1128,7 @@ new
 MockAppender
 (
 new
-Log
+Log4Moz
 .
 StructuredFormatter
 (
@@ -1147,7 +1138,7 @@ StructuredFormatter
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -1191,7 +1182,7 @@ logger
 .
 level
 =
-Log
+Log4Moz
 .
 Level
 .
@@ -1233,7 +1224,7 @@ test_message
 source_file
 :
 "
-test_Log
+test_log4moz
 .
 js
 "
@@ -1290,7 +1281,7 @@ let
 appender
 =
 new
-Log
+Log4Moz
 .
 StorageStreamAppender
 (
@@ -1310,7 +1301,7 @@ null
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -1549,7 +1540,7 @@ do_get_profile
 .
 path
 "
-test_Log
+test_log4moz
 "
 )
 ;
@@ -1585,7 +1576,7 @@ let
 appender
 =
 new
-Log
+Log4Moz
 .
 FileAppender
 (
@@ -1596,7 +1587,7 @@ testFormatter
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
@@ -1949,7 +1940,7 @@ do_get_profile
 .
 path
 "
-test_Log
+test_log4moz
 "
 )
 ;
@@ -1972,7 +1963,7 @@ let
 appender
 =
 new
-Log
+Log4Moz
 .
 BoundedFileAppender
 (
@@ -1984,7 +1975,7 @@ testFormatter
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .

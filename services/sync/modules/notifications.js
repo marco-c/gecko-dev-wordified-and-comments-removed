@@ -70,13 +70,13 @@ resource
 :
 /
 /
-gre
+services
+-
+common
 /
-modules
-/
-Log
+log4moz
 .
-jsm
+js
 "
 )
 ;
@@ -462,7 +462,7 @@ e
 let
 logger
 =
-Log
+Log4Moz
 .
 repository
 .
