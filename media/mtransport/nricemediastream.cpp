@@ -1205,15 +1205,6 @@ active
 =
 p1
 ;
-pair
-.
-codeword
-=
-p1
--
->
-codeword
-;
 if
 (
 !

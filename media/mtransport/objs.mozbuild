@@ -137,11 +137,6 @@ nrinterfaceprioritizer
 cpp
 '
 '
-rlogringbuffer
-.
-cpp
-'
-'
 transportflow
 .
 cpp

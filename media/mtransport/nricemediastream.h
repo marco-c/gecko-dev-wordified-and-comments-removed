@@ -136,12 +136,6 @@ local
 NrIceCandidate
 remote
 ;
-std
-:
-:
-string
-codeword
-;
 }
 ;
 class
