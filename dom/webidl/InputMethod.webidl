@@ -110,6 +110,14 @@ NavigatorProperty
 "
 mozInputMethod
 "
+Func
+=
+"
+Navigator
+:
+:
+HasInputMethodSupport
+"
 Pref
 =
 "
