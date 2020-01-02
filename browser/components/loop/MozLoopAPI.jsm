@@ -119,7 +119,7 @@ let
 api
 =
 {
-loopServer
+serverUrl
 :
 {
 enumerable
@@ -128,10 +128,7 @@ true
 configurable
 :
 true
-writable
-:
-false
-value
+get
 :
 function
 (
@@ -153,7 +150,7 @@ server
 ;
 }
 }
-getLocale
+locale
 :
 {
 enumerable
@@ -162,10 +159,7 @@ true
 configurable
 :
 true
-writable
-:
-false
-value
+get
 :
 function
 (
@@ -189,7 +183,7 @@ configurable
 true
 writable
 :
-false
+true
 value
 :
 function
