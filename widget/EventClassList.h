@@ -130,6 +130,16 @@ AnimationEvent
 )
 NS_EVENT_CLASS
 (
+Internal
+SVGZoomEvent
+)
+NS_EVENT_CLASS
+(
+Internal
+SMILTimeEvent
+)
+NS_EVENT_CLASS
+(
 Widget
 CommandEvent
 )

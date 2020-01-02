@@ -3441,7 +3441,7 @@ aPresContext
 aEvent
 -
 >
-AsGUIEvent
+AsSVGZoomEvent
 (
 )
 )
@@ -3456,6 +3456,11 @@ aDOMEvent
 aOwner
 aPresContext
 aEvent
+-
+>
+AsSMILTimeEvent
+(
+)
 )
 ;
 case
