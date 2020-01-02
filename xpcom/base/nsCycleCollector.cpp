@@ -314,7 +314,7 @@ mLogAll
 PR_GetEnv
 (
 "
-XPCOM_CC_LOG_ALL
+MOZ_CC_LOG_ALL
 "
 )
 !
@@ -326,7 +326,7 @@ mLogShutdown
 PR_GetEnv
 (
 "
-XPCOM_CC_LOG_SHUTDOWN
+MOZ_CC_LOG_SHUTDOWN
 "
 )
 !
@@ -338,7 +338,7 @@ mAllTracesAtShutdown
 PR_GetEnv
 (
 "
-XPCOM_CC_ALL_TRACES_AT_SHUTDOWN
+MOZ_CC_ALL_TRACES_AT_SHUTDOWN
 "
 )
 !
@@ -13786,7 +13786,7 @@ if
 PR_GetEnv
 (
 "
-XPCOM_CC_RUN_DURING_SHUTDOWN
+MOZ_CC_RUN_DURING_SHUTDOWN
 "
 )
 )
