@@ -1693,6 +1693,9 @@ DIRECTORY_FRECENCY
 lastVisitDate
 :
 1
+directoryIndex
+:
+0
 }
 ]
 ;
@@ -1759,6 +1762,9 @@ DIRECTORY_FRECENCY
 lastVisitDate
 :
 2
+directoryIndex
+:
+0
 }
 {
 url
@@ -1783,6 +1789,9 @@ frecency
 :
 DIRECTORY_FRECENCY
 lastVisitDate
+:
+1
+directoryIndex
 :
 1
 }
@@ -1862,6 +1871,9 @@ DIRECTORY_FRECENCY
 lastVisitDate
 :
 1
+directoryIndex
+:
+0
 }
 ]
 ;
