@@ -5293,6 +5293,15 @@ id
 )
 return
 ;
+aNode
+.
+removeAttribute
+(
+"
+disabled
+"
+)
+;
 if
 (
 aPrevArea
