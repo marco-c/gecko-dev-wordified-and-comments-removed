@@ -150,13 +150,6 @@ machines
 o
 /
 #
-Bug
-928390
-requires
-a
-clobber
-because
-of
-bug
-939416
+Australis
+landing
 .
