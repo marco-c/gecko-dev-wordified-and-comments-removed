@@ -123,6 +123,15 @@ h
 #
 include
 "
+gc
+/
+Heap
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject
