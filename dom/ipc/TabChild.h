@@ -1141,6 +1141,10 @@ const
 nsString
 &
 aURL
+const
+bool
+&
+aRunInGlobalScope
 )
 ;
 virtual

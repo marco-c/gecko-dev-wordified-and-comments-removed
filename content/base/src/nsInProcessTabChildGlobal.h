@@ -557,6 +557,8 @@ const
 nsAString
 &
 aURL
+bool
+aRunInGlobalScope
 )
 ;
 void
