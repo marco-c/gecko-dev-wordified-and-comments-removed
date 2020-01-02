@@ -112,6 +112,8 @@ aDisplacement
 float
 &
 aOverscrollAmountOut
+bool
+aScrollingDisabled
 )
 ;
 float
@@ -141,15 +143,15 @@ Scrollable
 )
 ;
 void
-SetScrollingDisabled
+SetAxisLocked
 (
 bool
-aDisabled
+aAxisLocked
 )
 {
-mScrollingDisabled
+mAxisLocked
 =
-aDisabled
+aAxisLocked
 ;
 }
 Overscroll
@@ -293,7 +295,7 @@ int32_t
 mAcceleration
 ;
 bool
-mScrollingDisabled
+mAxisLocked
 ;
 AsyncPanZoomController
 *
