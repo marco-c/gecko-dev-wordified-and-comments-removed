@@ -146,11 +146,6 @@ DataStore
 jsm
 '
 '
-DataStoreChangeNotifier
-.
-jsm
-'
-'
 DataStoreDB
 .
 jsm
