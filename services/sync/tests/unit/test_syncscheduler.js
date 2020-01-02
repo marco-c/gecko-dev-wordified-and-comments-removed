@@ -1016,6 +1016,8 @@ get
 "
 scheduler
 .
+sync11
+.
 singleDeviceInterval
 "
 )
@@ -1111,6 +1113,8 @@ set
 (
 "
 scheduler
+.
+sync11
 .
 singleDeviceInterval
 "
