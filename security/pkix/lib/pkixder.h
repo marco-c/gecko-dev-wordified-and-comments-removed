@@ -1968,6 +1968,7 @@ extensionHandler
 (
 extnID
 extnValue
+critical
 understood
 )
 ;

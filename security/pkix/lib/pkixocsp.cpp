@@ -434,6 +434,8 @@ extnID
 Input
 extnValue
 bool
+critical
+bool
 &
 understood
 )
@@ -3059,6 +3061,7 @@ ExtensionNotUnderstood
 Reader
 &
 Input
+bool
 bool
 &
 understood

@@ -346,6 +346,9 @@ nameConstraints
 Input
 subjectAltName
 ;
+Input
+criticalNetscapeCertificateType
+;
 Result
 RememberExtension
 (
@@ -356,6 +359,8 @@ const
 Input
 &
 extnValue
+bool
+critical
 bool
 &
 understood
