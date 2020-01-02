@@ -1283,6 +1283,7 @@ Register
 proxy
 Register
 scratch
+const
 void
 *
 handlerp

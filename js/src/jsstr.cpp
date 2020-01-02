@@ -473,6 +473,7 @@ argc
 vp
 )
 ;
+static
 const
 char
 digits

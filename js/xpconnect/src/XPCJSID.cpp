@@ -631,6 +631,7 @@ GetInvalidIID
 const
 {
 static
+const
 nsID
 invalid
 =

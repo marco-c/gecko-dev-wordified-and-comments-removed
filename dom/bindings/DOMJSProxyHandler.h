@@ -76,10 +76,12 @@ struct
 Prefable
 ;
 extern
-int
+const
+char
 HandlerFamily
 ;
 inline
+const
 void
 *
 ProxyFamily
@@ -197,6 +199,7 @@ public
 :
 BaseDOMProxyHandler
 (
+const
 void
 *
 aProxyFamily

@@ -5629,9 +5629,11 @@ Hardware
 )
 )
 {
+static
 const
 char
 *
+const
 blacklist
 [
 ]
@@ -5675,6 +5677,7 @@ for
 const
 char
 *
+const
 *
 hw
 =

@@ -444,7 +444,6 @@ mozilla
 :
 Maybe
 ;
-typedef
 enum
 JSShellExitCode
 {
@@ -461,8 +460,8 @@ EXITCODE_TIMEOUT
 =
 6
 }
-JSShellExitCode
 ;
+static
 size_t
 gStackChunkSize
 =
@@ -489,6 +488,7 @@ defined
 XP_WIN
 )
 )
+static
 size_t
 gMaxStackSize
 =
@@ -505,6 +505,7 @@ size_t
 ;
 #
 else
+static
 size_t
 gMaxStackSize
 =
@@ -701,27 +702,32 @@ NULL
 ;
 #
 endif
+static
 int
 gExitCode
 =
 0
 ;
+static
 bool
 gQuitting
 =
 false
 ;
+static
 bool
 gGotError
 =
 false
 ;
+static
 FILE
 *
 gErrFile
 =
 NULL
 ;
+static
 FILE
 *
 gOutFile
@@ -763,7 +769,6 @@ false
 ;
 #
 endif
-typedef
 enum
 JSShellErrNum
 {
@@ -793,7 +798,6 @@ undef
 MSG_DEF
 JSShellErr_Limit
 }
-JSShellErrNum
 ;
 static
 JSContext
@@ -2855,11 +2859,6 @@ return
 0
 ;
 }
-extern
-const
-JSClass
-global_class
-;
 static
 bool
 Version
@@ -23687,6 +23686,8 @@ return
 true
 ;
 }
+static
+const
 JSErrorFormatString
 jsShell_ErrorFormatString
 [
@@ -24562,6 +24563,7 @@ true
 #
 endif
 }
+static
 const
 JSClass
 global_class
@@ -25332,6 +25334,7 @@ return
 true
 ;
 }
+static
 const
 JSJitInfo
 dom_x_getterinfo
@@ -25353,6 +25356,7 @@ true
 true
 }
 ;
+static
 const
 JSJitInfo
 dom_x_setterinfo
@@ -25374,6 +25378,7 @@ false
 false
 }
 ;
+static
 const
 JSJitInfo
 doFoo_methodinfo
@@ -28397,6 +28402,7 @@ gExitCode
 EXIT_SUCCESS
 ;
 }
+static
 int
 Shell
 (
@@ -28628,6 +28634,8 @@ defaultOut
 ;
 }
 }
+static
+const
 JSPrincipals
 shellTrustedPrincipals
 =
@@ -28635,6 +28643,7 @@ shellTrustedPrincipals
 1
 }
 ;
+static
 bool
 CheckObjectAccess
 (
@@ -28655,6 +28664,7 @@ return
 true
 ;
 }
+static
 const
 JSSecurityCallbacks
 securityCallbacks
