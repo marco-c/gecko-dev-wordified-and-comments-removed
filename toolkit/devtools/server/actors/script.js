@@ -2032,6 +2032,8 @@ false
 ;
 if
 (
+dumpn
+.
 wantLogging
 )
 {
