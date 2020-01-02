@@ -153,12 +153,6 @@ usage
 )
 ;
 yield
-checkPageReport
-(
-usage
-)
-;
-yield
 helpers
 .
 closeToolbar
