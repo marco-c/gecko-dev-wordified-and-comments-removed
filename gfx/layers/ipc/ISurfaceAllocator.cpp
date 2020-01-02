@@ -627,6 +627,17 @@ return
 }
 if
 (
+!
+IPCOpen
+(
+)
+)
+{
+return
+;
+}
+if
+(
 PlatformDestroySharedSurface
 (
 aSurface
