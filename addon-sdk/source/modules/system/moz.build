@@ -102,6 +102,11 @@ system
 =
 [
 '
+Startup
+.
+js
+'
+'
 XulApp
 .
 js
