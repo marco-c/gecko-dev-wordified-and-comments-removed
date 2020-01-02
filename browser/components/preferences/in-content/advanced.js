@@ -1012,7 +1012,7 @@ mozilla
 connectionmanager
 "
 "
-model
+modal
 =
 yes
 "
@@ -1841,7 +1841,7 @@ Browser
 Permissions
 "
 "
-model
+modal
 =
 yes
 "
@@ -3589,7 +3589,7 @@ mozilla
 certmanager
 "
 "
-model
+modal
 =
 yes
 "
@@ -3626,7 +3626,7 @@ mozilla
 crlmanager
 "
 "
-model
+modal
 =
 yes
 "
@@ -3661,7 +3661,7 @@ mozilla
 devicemanager
 "
 "
-model
+modal
 =
 yes
 "

@@ -1914,7 +1914,7 @@ Browser
 Permissions
 "
 "
-model
+modal
 =
 yes
 "
@@ -1952,7 +1952,7 @@ Browser
 Cookies
 "
 "
-model
+modal
 =
 yes
 "
@@ -1984,7 +1984,7 @@ sanitize
 xul
 "
 "
-model
+modal
 =
 yes
 "

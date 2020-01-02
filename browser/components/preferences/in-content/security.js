@@ -188,7 +188,7 @@ Browser
 Permissions
 "
 "
-model
+modal
 =
 yes
 "
@@ -323,7 +323,7 @@ Toolkit
 PasswordManagerExceptions
 "
 "
-model
+modal
 =
 yes
 "
