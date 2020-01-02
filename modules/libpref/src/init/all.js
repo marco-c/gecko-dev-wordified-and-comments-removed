@@ -4970,7 +4970,7 @@ options
 .
 ion
 .
-parallel_compilation
+offthread_compilation
 "
 true
 )
