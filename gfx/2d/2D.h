@@ -177,6 +177,7 @@ mFont
 struct
 DrawOptions
 {
+explicit
 DrawOptions
 (
 Float
@@ -229,6 +230,7 @@ mAntialiasMode
 struct
 StrokeOptions
 {
+explicit
 StrokeOptions
 (
 Float
@@ -350,6 +352,7 @@ mLineCap
 struct
 DrawSurfaceOptions
 {
+explicit
 DrawSurfaceOptions
 (
 Filter
@@ -464,6 +467,7 @@ Pattern
 {
 public
 :
+explicit
 ColorPattern
 (
 const

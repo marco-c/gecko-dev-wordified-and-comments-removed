@@ -538,6 +538,7 @@ _a
 )
 {
 }
+MOZ_IMPLICIT
 gfxRGBA
 (
 uint32_t

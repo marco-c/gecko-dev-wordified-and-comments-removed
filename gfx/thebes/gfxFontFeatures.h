@@ -448,6 +448,7 @@ FeatureValueHashKey
 *
 KeyTypePointer
 ;
+explicit
 FeatureValueHashEntry
 (
 KeyTypePointer

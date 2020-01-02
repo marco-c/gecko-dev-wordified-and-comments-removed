@@ -107,6 +107,7 @@ gfxContext
 )
 public
 :
+explicit
 gfxContext
 (
 mozilla
@@ -1728,6 +1729,7 @@ nullptr
 )
 {
 }
+explicit
 gfxContextAutoSaveRestore
 (
 gfxContext
@@ -1898,6 +1900,7 @@ nullptr
 )
 {
 }
+explicit
 gfxContextPathAutoSaveRestore
 (
 gfxContext
@@ -2039,6 +2042,7 @@ nullptr
 )
 {
 }
+explicit
 gfxContextMatrixAutoSaveRestore
 (
 gfxContext

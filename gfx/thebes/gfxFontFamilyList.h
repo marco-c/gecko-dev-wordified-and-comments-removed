@@ -82,6 +82,7 @@ eFamily_named
 )
 {
 }
+explicit
 FontFamilyName
 (
 const
@@ -112,6 +113,7 @@ mName
 aFamilyName
 ;
 }
+explicit
 FontFamilyName
 (
 FontFamilyType
@@ -650,6 +652,7 @@ eFamily_none
 )
 {
 }
+explicit
 FontFamilyList
 (
 FontFamilyType
