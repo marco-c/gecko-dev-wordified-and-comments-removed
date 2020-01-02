@@ -983,7 +983,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
@@ -1469,7 +1469,7 @@ m_pattern
 .
 m_body
 =
-js_new
+newOrCrash
 <
 PatternDisjunction
 >
@@ -1526,7 +1526,7 @@ m_pattern
 .
 m_body
 =
-js_new
+newOrCrash
 <
 PatternDisjunction
 >
@@ -2103,7 +2103,7 @@ PatternDisjunction
 *
 parenthesesDisjunction
 =
-js_new
+newOrCrash
 <
 PatternDisjunction
 >
@@ -2163,7 +2163,7 @@ PatternDisjunction
 *
 parenthesesDisjunction
 =
-js_new
+newOrCrash
 <
 PatternDisjunction
 >
@@ -2632,7 +2632,7 @@ newDisjunction
 {
 newDisjunction
 =
-js_new
+newOrCrash
 <
 PatternDisjunction
 >

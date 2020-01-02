@@ -946,7 +946,7 @@ PatternAlternative
 *
 alternative
 =
-js_new
+newOrCrash
 <
 PatternAlternative
 >

@@ -131108,7 +131108,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
@@ -131143,7 +131143,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
@@ -131206,7 +131206,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
@@ -131267,7 +131267,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
@@ -131418,7 +131418,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
@@ -131623,7 +131623,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
@@ -131726,7 +131726,7 @@ CharacterClass
 *
 characterClass
 =
-js_new
+newOrCrash
 <
 CharacterClass
 >
