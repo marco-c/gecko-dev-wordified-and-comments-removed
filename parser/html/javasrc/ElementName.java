@@ -1338,7 +1338,7 @@ rb
 "
 TreeBuilder
 .
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 |
 OPTIONAL_END_TAG
 )
@@ -1360,7 +1360,7 @@ rp
 "
 TreeBuilder
 .
-RB_OR_RP_OR_RTC
+RT_OR_RP
 |
 OPTIONAL_END_TAG
 )
@@ -1382,7 +1382,7 @@ rt
 "
 TreeBuilder
 .
-RT
+RT_OR_RP
 |
 OPTIONAL_END_TAG
 )
@@ -2176,7 +2176,7 @@ rtc
 "
 TreeBuilder
 .
-RB_OR_RP_OR_RTC
+RB_OR_RTC
 |
 OPTIONAL_END_TAG
 )
