@@ -362,16 +362,6 @@ return
 false
 ;
 }
-virtual
-bool
-KillChild
-(
-)
-{
-return
-false
-;
-}
 protected
 :
 bool

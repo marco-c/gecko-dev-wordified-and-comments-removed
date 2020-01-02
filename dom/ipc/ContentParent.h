@@ -599,13 +599,6 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-virtual
-bool
-KillChild
-(
-)
-MOZ_OVERRIDE
-;
 void
 NotifyTabDestroying
 (
