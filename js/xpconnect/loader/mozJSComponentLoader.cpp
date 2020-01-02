@@ -4077,8 +4077,6 @@ if
 mReuseLoaderGlobal
 )
 {
-script
-=
 Compile
 (
 cx
@@ -4086,13 +4084,13 @@ obj
 options
 buf
 fileSize32
+&
+script
 )
 ;
 }
 else
 {
-function
-=
 CompileFunction
 (
 cx
@@ -4103,6 +4101,8 @@ nullptr
 nullptr
 buf
 fileSize32
+&
+function
 )
 ;
 }
@@ -4458,8 +4458,6 @@ if
 mReuseLoaderGlobal
 )
 {
-script
-=
 Compile
 (
 cx
@@ -4467,13 +4465,13 @@ obj
 options
 buf
 bytesRead
+&
+script
 )
 ;
 }
 else
 {
-function
-=
 CompileFunction
 (
 cx
@@ -4484,6 +4482,8 @@ nullptr
 nullptr
 buf
 bytesRead
+&
+function
 )
 ;
 }

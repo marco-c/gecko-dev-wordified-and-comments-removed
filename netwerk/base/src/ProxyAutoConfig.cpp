@@ -4152,6 +4152,11 @@ JSScript
 script
 (
 cx
+)
+;
+if
+(
+!
 JS_CompileScript
 (
 cx
@@ -4167,13 +4172,9 @@ Length
 (
 )
 options
-)
-)
-;
-if
-(
-!
+&
 script
+)
 |
 |
 !

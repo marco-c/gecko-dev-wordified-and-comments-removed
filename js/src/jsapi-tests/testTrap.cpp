@@ -178,6 +178,10 @@ RootedScript
 script
 (
 cx
+)
+;
+CHECK
+(
 JS_CompileScript
 (
 cx
@@ -188,6 +192,8 @@ strlen
 source
 )
 options
+&
+script
 )
 )
 ;

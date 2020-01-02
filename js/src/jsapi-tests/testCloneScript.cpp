@@ -146,9 +146,14 @@ cx
 A
 )
 ;
-JSFunction
-*
+JS
+:
+:
+RootedFunction
 fun
+(
+cx
+)
 ;
 JS
 :
@@ -169,8 +174,6 @@ __FILE__
 ;
 CHECK
 (
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -186,6 +189,8 @@ strlen
 source
 )
 options
+&
+fun
 )
 )
 ;
@@ -461,6 +466,8 @@ RootedFunction
 fun
 (
 cx
+)
+;
 JS_CompileFunction
 (
 cx
@@ -482,7 +489,8 @@ strlen
 source
 )
 options
-)
+&
+fun
 )
 ;
 CHECK

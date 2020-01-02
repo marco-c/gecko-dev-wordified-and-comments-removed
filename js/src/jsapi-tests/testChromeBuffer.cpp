@@ -314,8 +314,6 @@ setFileAndLine
 ;
 CHECK
 (
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -332,6 +330,8 @@ strlen
 bytes
 )
 options
+&
+fun
 )
 )
 ;
@@ -478,8 +478,6 @@ setFileAndLine
 ;
 CHECK
 (
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -496,6 +494,8 @@ strlen
 bytes
 )
 options
+&
+fun
 )
 )
 ;
@@ -642,8 +642,6 @@ setFileAndLine
 ;
 CHECK
 (
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -660,6 +658,8 @@ strlen
 bytes
 )
 options
+&
+fun
 )
 )
 ;
@@ -764,8 +764,6 @@ setFileAndLine
 ;
 CHECK
 (
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -782,6 +780,8 @@ strlen
 bytes
 )
 options
+&
+fun
 )
 )
 ;
@@ -912,8 +912,6 @@ setFileAndLine
 ;
 CHECK
 (
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -929,6 +927,8 @@ strlen
 bytes
 )
 options
+&
+fun
 )
 )
 ;
@@ -1038,8 +1038,6 @@ setFileAndLine
 ;
 CHECK
 (
-fun
-=
 JS_CompileFunction
 (
 cx
@@ -1056,6 +1054,8 @@ strlen
 bytes
 )
 options
+&
+fun
 )
 )
 ;
