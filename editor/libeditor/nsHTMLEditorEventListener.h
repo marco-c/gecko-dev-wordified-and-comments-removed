@@ -71,7 +71,7 @@ virtual
 nsresult
 MouseDown
 (
-nsIDOMEvent
+nsIDOMMouseEvent
 *
 aMouseEvent
 )
@@ -81,7 +81,7 @@ virtual
 nsresult
 MouseUp
 (
-nsIDOMEvent
+nsIDOMMouseEvent
 *
 aMouseEvent
 )
@@ -91,7 +91,7 @@ virtual
 nsresult
 MouseClick
 (
-nsIDOMEvent
+nsIDOMMouseEvent
 *
 aMouseEvent
 )
