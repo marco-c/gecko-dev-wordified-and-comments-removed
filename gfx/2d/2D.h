@@ -2511,6 +2511,16 @@ SurfaceFormat
 aFormat
 )
 ;
+static
+void
+SetGlobalSkiaCacheLimits
+(
+int
+aCount
+int
+aSizeInBytes
+)
+;
 #
 endif
 #

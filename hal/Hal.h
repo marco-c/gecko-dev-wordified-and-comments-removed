@@ -976,6 +976,11 @@ StopDiskSpaceWatcher
 (
 )
 ;
+uint32_t
+GetTotalSystemMemory
+(
+)
+;
 }
 }
 #
