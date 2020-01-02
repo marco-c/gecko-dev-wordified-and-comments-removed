@@ -3716,6 +3716,11 @@ urlbar
 emptytext
 ;
 "
+tabscrolling
+=
+"
+true
+"
 onclick
 =
 "
