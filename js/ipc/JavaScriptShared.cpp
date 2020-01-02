@@ -907,7 +907,7 @@ id
 if
 (
 !
-makeId
+toId
 (
 cx
 obj
@@ -1092,7 +1092,7 @@ JSObject
 *
 obj
 =
-unwrap
+fromId
 (
 cx
 id
@@ -1727,7 +1727,7 @@ false
 if
 (
 !
-makeId
+toId
 (
 cx
 desc
@@ -1790,7 +1790,7 @@ getterObject
 if
 (
 !
-makeId
+toId
 (
 cx
 getter
@@ -1883,7 +1883,7 @@ setterObject
 if
 (
 !
-makeId
+toId
 (
 cx
 setter
@@ -2089,7 +2089,7 @@ cx
 if
 (
 !
-unwrap
+fromId
 (
 cx
 in
@@ -2158,7 +2158,7 @@ cx
 if
 (
 !
-unwrap
+fromId
 (
 cx
 in
@@ -2261,7 +2261,7 @@ cx
 if
 (
 !
-unwrap
+fromId
 (
 cx
 in

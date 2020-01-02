@@ -2625,7 +2625,7 @@ bool
 JavaScriptParent
 :
 :
-makeId
+toId
 (
 JSContext
 *
@@ -2836,7 +2836,7 @@ JSObject
 JavaScriptParent
 :
 :
-unwrap
+fromId
 (
 JSContext
 *

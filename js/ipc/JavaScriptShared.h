@@ -486,7 +486,7 @@ id
 ;
 virtual
 bool
-makeId
+toId
 (
 JSContext
 *
@@ -504,7 +504,7 @@ idp
 virtual
 JSObject
 *
-unwrap
+fromId
 (
 JSContext
 *
@@ -516,7 +516,7 @@ id
 0
 ;
 bool
-unwrap
+fromId
 (
 JSContext
 *
@@ -555,7 +555,7 @@ objp
 .
 set
 (
-unwrap
+fromId
 (
 cx
 id
