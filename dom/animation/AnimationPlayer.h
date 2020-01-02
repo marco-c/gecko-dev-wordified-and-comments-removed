@@ -422,7 +422,7 @@ GetSource
 const
 {
 return
-nullptr
+mSource
 ;
 }
 AnimationTimeline
@@ -447,6 +447,14 @@ CurrentTime
 (
 )
 const
+;
+void
+SetSource
+(
+Animation
+*
+aSource
+)
 ;
 virtual
 ElementPropertyTransition
@@ -773,6 +781,12 @@ nsRefPtr
 AnimationTimeline
 >
 mTimeline
+;
+nsRefPtr
+<
+Animation
+>
+mSource
 ;
 }
 ;
