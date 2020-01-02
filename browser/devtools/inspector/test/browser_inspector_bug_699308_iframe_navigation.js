@@ -352,10 +352,6 @@ finish
 )
 ;
 }
-waitForExplicitFinish
-(
-)
-;
 gBrowser
 .
 selectedTab

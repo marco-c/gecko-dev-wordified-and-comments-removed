@@ -976,10 +976,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 gBrowser
 .
 selectedTab

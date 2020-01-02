@@ -3,10 +3,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 ignoreAllUncaughtExceptions
 (
 )

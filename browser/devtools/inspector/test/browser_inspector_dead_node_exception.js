@@ -8,10 +8,6 @@ contentTab
 contentDoc
 inspector
 ;
-waitForExplicitFinish
-(
-)
-;
 contentTab
 =
 gBrowser

@@ -45,10 +45,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 const
 URL_1
 =

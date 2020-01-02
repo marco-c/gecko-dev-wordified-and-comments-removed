@@ -15,10 +15,6 @@ clipboard
 "
 )
 ;
-waitForExplicitFinish
-(
-)
-;
 let
 doc
 ;

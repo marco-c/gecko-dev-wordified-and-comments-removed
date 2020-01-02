@@ -29,10 +29,6 @@ jsm
 }
 )
 ;
-waitForExplicitFinish
-(
-)
-;
 gBrowser
 .
 selectedTab

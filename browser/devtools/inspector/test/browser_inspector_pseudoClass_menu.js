@@ -57,10 +57,6 @@ menu
 let
 inspector
 ;
-waitForExplicitFinish
-(
-)
-;
 ignoreAllUncaughtExceptions
 (
 )

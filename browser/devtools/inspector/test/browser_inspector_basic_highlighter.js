@@ -3,10 +3,6 @@ use
 strict
 "
 ;
-waitForExplicitFinish
-(
-)
-;
 let
 test
 =

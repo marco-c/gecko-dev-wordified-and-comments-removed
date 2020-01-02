@@ -7,10 +7,6 @@ let
 inspector
 toolbox
 ;
-waitForExplicitFinish
-(
-)
-;
 gBrowser
 .
 selectedTab
