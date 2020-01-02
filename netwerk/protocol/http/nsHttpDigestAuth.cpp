@@ -2501,6 +2501,20 @@ uint16_t
 qop
 )
 {
+if
+(
+strlen
+(
+challenge
+)
+>
+16000000
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
 const
 char
 *
@@ -2568,7 +2582,7 @@ p
 )
 break
 ;
-int16_t
+int32_t
 nameStart
 =
 (
@@ -2615,7 +2629,7 @@ p
 return
 NS_ERROR_INVALID_ARG
 ;
-int16_t
+int32_t
 nameLength
 =
 (
@@ -2690,7 +2704,7 @@ quoted
 true
 ;
 }
-int16_t
+int32_t
 valueStart
 =
 (
@@ -2699,7 +2713,7 @@ p
 challenge
 )
 ;
-int16_t
+int32_t
 valueLength
 =
 0
@@ -3130,7 +3144,7 @@ qop
 0
 )
 {
-int16_t
+int32_t
 ipos
 =
 valueStart
@@ -3180,7 +3194,7 @@ ipos
 +
 +
 ;
-int16_t
+int32_t
 algostart
 =
 ipos
