@@ -230,6 +230,10 @@ txLoadedDocumentEntry
 (
 8
 )
+mSourceDocument
+(
+nullptr
+)
 {
 }
 ~
@@ -237,7 +241,7 @@ txLoadedDocumentsHash
 (
 )
 ;
-nsresult
+void
 init
 (
 txXPathNode
