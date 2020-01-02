@@ -1683,9 +1683,14 @@ mOwner
 SharedBufferManagerParent
 :
 :
-DropGrallocBuffer
+GetInstance
 (
 owner
+)
+-
+>
+DropGrallocBuffer
+(
 mGrallocHandle
 )
 ;
