@@ -106,15 +106,6 @@ UpdateSurface
 (
 )
 ;
-RefPtr
-<
-gfx
-:
-:
-SourceSurface
->
-mSurface
-;
 nsRefPtr
 <
 GLContext
