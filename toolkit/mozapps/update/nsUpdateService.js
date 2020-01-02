@@ -1389,11 +1389,6 @@ null
 #
 ifdef
 MOZ_B2G
-var
-gVolumeMountLock
-=
-null
-;
 XPCOMUtils
 .
 defineLazyGetter
