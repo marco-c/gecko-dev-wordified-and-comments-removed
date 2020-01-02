@@ -1043,6 +1043,11 @@ libutil
 .
 h
 >
+#
+include
+<
+algorithm
+>
 static
 nsresult
 GetKinfoVmentrySelf
