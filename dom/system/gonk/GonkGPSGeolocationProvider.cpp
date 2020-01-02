@@ -1386,6 +1386,7 @@ ss
 >
 CreateLock
 (
+nullptr
 getter_AddRefs
 (
 lock
