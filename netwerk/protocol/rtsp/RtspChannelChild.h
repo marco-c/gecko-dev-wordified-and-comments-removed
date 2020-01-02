@@ -1,9 +1,9 @@
 #
 ifndef
-RtspChannel_h
+RtspChannelChild_h
 #
 define
-RtspChannel_h
+RtspChannelChild_h
 #
 include
 "
@@ -18,7 +18,7 @@ namespace
 net
 {
 class
-RtspChannel
+RtspChannelChild
 :
 public
 nsBaseChannel
@@ -26,13 +26,13 @@ nsBaseChannel
 public
 :
 NS_DECL_ISUPPORTS
-RtspChannel
+RtspChannelChild
 (
 )
 {
 }
 ~
-RtspChannel
+RtspChannelChild
 (
 )
 {

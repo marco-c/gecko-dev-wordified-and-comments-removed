@@ -105,7 +105,7 @@ RTSPSource
 h
 '
 '
-RtspChannel
+RtspChannelChild
 .
 h
 '
@@ -163,7 +163,7 @@ RtspMetaData
 cpp
 '
 '
-RtspChannel
+RtspChannelChild
 .
 cpp
 '
