@@ -178,7 +178,6 @@ mTextTracks
 >
 RemoveTextTrack
 (
-*
 aTextTrack
 )
 ;

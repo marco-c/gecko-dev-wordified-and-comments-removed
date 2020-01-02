@@ -177,7 +177,7 @@ void
 RemoveTextTrack
 (
 TextTrack
-&
+*
 aTrack
 )
 ;
