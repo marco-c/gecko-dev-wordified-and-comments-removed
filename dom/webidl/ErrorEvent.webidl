@@ -128,6 +128,11 @@ unsigned
 long
 column
 ;
+readonly
+attribute
+any
+error
+;
 }
 ;
 dictionary
@@ -158,6 +163,11 @@ long
 column
 =
 0
+;
+any
+error
+=
+null
 ;
 }
 ;

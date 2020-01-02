@@ -252,6 +252,9 @@ optional
 unsigned
 long
 column
+optional
+any
+error
 )
 ;
 typedef
