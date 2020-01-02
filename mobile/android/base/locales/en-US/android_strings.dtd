@@ -1108,15 +1108,6 @@ Panels
 <
 !
 ENTITY
-pref_home_add_panel
-"
-Add
-panel
-"
->
-<
-!
-ENTITY
 home_add_panel_title
 "
 Add
