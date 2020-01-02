@@ -5707,11 +5707,15 @@ aApp
 aIsForBrowser
 +
 aIsForPreallocated
-+
-aIsNuwaProcess
 <
 =
 1
+)
+;
+MOZ_ASSERT_IF
+(
+aIsNuwaProcess
+aIsForPreallocated
 )
 ;
 if
