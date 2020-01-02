@@ -33,13 +33,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 SurfaceStream
 .
 h
@@ -1224,9 +1217,6 @@ GetSurfaceMode
 )
 =
 =
-Layer
-:
-:
 SURFACE_OPAQUE
 ?
 GFX_CONTENT_COLOR

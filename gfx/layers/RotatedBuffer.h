@@ -108,13 +108,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 LayersTypes
 .
 h
@@ -143,6 +136,9 @@ DeprecatedTextureClient
 ;
 class
 TextureClient
+;
+class
+ThebesLayer
 ;
 class
 RotatedBuffer
@@ -564,9 +560,6 @@ PaintState
 :
 mMode
 (
-Layer
-:
-:
 SURFACE_NONE
 )
 mDidSelfCopy
@@ -581,9 +574,6 @@ mRegionToDraw
 nsIntRegion
 mRegionToInvalidate
 ;
-Layer
-:
-:
 SurfaceMode
 mMode
 ;

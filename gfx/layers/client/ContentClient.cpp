@@ -19,13 +19,6 @@ h
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 gfxColor
 .
 h
@@ -4247,9 +4240,6 @@ GFX_CONTENT_COLOR
 :
 GFX_CONTENT_COLOR_ALPHA
 ;
-Layer
-:
-:
 SurfaceMode
 mode
 ;
@@ -4394,9 +4384,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -4436,9 +4423,6 @@ SupportsComponentAlphaChildren
 {
 mode
 =
-Layer
-:
-:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -4491,9 +4475,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_OPAQUE
 )
 {
@@ -4503,9 +4484,6 @@ GFX_CONTENT_COLOR_ALPHA
 ;
 mode
 =
-Layer
-:
-:
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
@@ -4530,9 +4508,6 @@ contentType
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 !
@@ -4736,9 +4711,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -5029,9 +5001,6 @@ mHasBuffer
 mode
 !
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 |
 |
@@ -5055,9 +5024,6 @@ if
 mode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
@@ -5212,9 +5178,6 @@ aPaintState
 mMode
 =
 =
-Layer
-:
-:
 SURFACE_COMPONENT_ALPHA
 )
 {
