@@ -373,9 +373,6 @@ true
 ;
 }
 bool
-js
-:
-:
 intrinsic_ToString
 (
 JSContext

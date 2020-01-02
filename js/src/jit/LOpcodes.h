@@ -708,7 +708,7 @@ DoubleToString
 \
 _
 (
-ValueToString
+PrimitiveToString
 )
 \
 _
