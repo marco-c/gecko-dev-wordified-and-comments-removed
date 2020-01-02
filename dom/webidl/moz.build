@@ -2770,6 +2770,11 @@ ErrorEvent
 webidl
 '
 '
+IccChangeEvent
+.
+webidl
+'
+'
 MediaStreamEvent
 .
 webidl
