@@ -538,7 +538,7 @@ kind
 LAllocation
 :
 :
-DOUBLE_SLOT
+STACK_SLOT
 ;
 return
 alloc
