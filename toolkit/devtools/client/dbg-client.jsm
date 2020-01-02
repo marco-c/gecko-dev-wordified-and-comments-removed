@@ -411,7 +411,6 @@ aProto
 addListener
 =
 function
-EV_addListener
 (
 aName
 aListener
@@ -476,7 +475,6 @@ aProto
 addOneTimeListener
 =
 function
-EV_addOneTimeListener
 (
 aName
 aListener
@@ -527,7 +525,6 @@ aProto
 removeListener
 =
 function
-EV_removeListener
 (
 aName
 aListener
@@ -589,7 +586,6 @@ aProto
 _getListeners
 =
 function
-EV_getListeners
 (
 aName
 )
@@ -637,7 +633,6 @@ aProto
 notify
 =
 function
-EV_notify
 (
 )
 {
@@ -969,7 +964,6 @@ this
 DebuggerClient
 =
 function
-DebuggerClient
 (
 aTransport
 )
@@ -1133,7 +1127,6 @@ DebuggerClient
 requester
 =
 function
-DC_requester
 (
 aPacketSkeleton
 {
@@ -1469,7 +1462,6 @@ DebuggerClient
 Argument
 =
 function
-DCP
 (
 aPosition
 )
@@ -1491,7 +1483,6 @@ prototype
 getArgument
 =
 function
-DCP_getArgument
 (
 aParams
 )
@@ -1544,7 +1535,6 @@ prototype
 connect
 :
 function
-DC_connect
 (
 aOnConnected
 )
@@ -1597,7 +1587,6 @@ ready
 close
 :
 function
-DC_close
 (
 aOnClosed
 )
@@ -1805,7 +1794,6 @@ aOnResponse
 attachTab
 :
 function
-DC_attachTab
 (
 aTabActor
 aOnResponse
@@ -1885,7 +1873,6 @@ tabClient
 attachConsole
 :
 function
-DC_attachConsole
 (
 aConsoleActor
 aListeners
@@ -1963,7 +1950,6 @@ consoleClient
 attachThread
 :
 function
-DC_attachThread
 (
 aThreadActor
 aOnResponse
@@ -2048,7 +2034,6 @@ threadClient
 attachTracer
 :
 function
-DC_attachTracer
 (
 aTraceActor
 aOnResponse
@@ -2214,7 +2199,6 @@ RELEASE
 request
 :
 function
-DC_request
 (
 aRequest
 aOnResponse
@@ -2318,7 +2302,6 @@ _sendRequests
 _sendRequests
 :
 function
-DC_sendRequests
 (
 )
 {
@@ -2439,7 +2422,6 @@ aHandler
 onPacket
 :
 function
-DC_onPacket
 (
 aPacket
 aIgnoreCompatibility
@@ -2740,11 +2722,9 @@ _sendRequests
 )
 ;
 }
-function
-(
 ex
-)
-{
+=
+>
 DevToolsUtils
 .
 reportException
@@ -2755,15 +2735,12 @@ handler
 "
 ex
 )
-;
-}
 )
 ;
 }
 onClosed
 :
 function
-DC_onClosed
 (
 aStatus
 )
@@ -3008,7 +2985,6 @@ prototype
 supportsFeature
 :
 function
-PC_supportsFeature
 (
 aFeatureName
 )
@@ -3027,7 +3003,6 @@ promise
 rejectFeature
 :
 function
-PC_rejectFeature
 (
 aFeatureName
 )
@@ -3048,7 +3023,6 @@ false
 onPacket
 :
 function
-PC_onPacket
 (
 aPacket
 )
@@ -3072,7 +3046,6 @@ aPacket
 _detectFeatures
 :
 function
-PC__detectFeatures
 (
 aPacket
 )
@@ -3220,7 +3193,6 @@ ex
 _shimPacket
 :
 function
-PC__shimPacket
 (
 aPacket
 )
@@ -3483,7 +3455,6 @@ SSProto
 onPacketTest
 =
 function
-SS_onPacketTest
 (
 aPacket
 )
@@ -3517,7 +3488,6 @@ SSProto
 translatePacket
 =
 function
-SS_translatePacket
 (
 aPacket
 aReplacePacket
@@ -4041,7 +4011,6 @@ _transport
 _assertPaused
 :
 function
-TC_assertPaused
 (
 aCommand
 )
@@ -4204,7 +4173,6 @@ RESUME
 resume
 :
 function
-TC_resume
 (
 aOnResponse
 )
@@ -4221,7 +4189,6 @@ aOnResponse
 stepOver
 :
 function
-TC_stepOver
 (
 aOnResponse
 )
@@ -4244,7 +4211,6 @@ aOnResponse
 stepIn
 :
 function
-TC_stepIn
 (
 aOnResponse
 )
@@ -4267,7 +4233,6 @@ aOnResponse
 stepOut
 :
 function
-TC_stepOut
 (
 aOnResponse
 )
@@ -4311,7 +4276,6 @@ INTERRUPT
 pauseOnExceptions
 :
 function
-TC_pauseOnExceptions
 (
 aPauseOnExceptions
 aIgnoreCaughtExceptions
@@ -4613,7 +4577,6 @@ THREADDETACH
 setBreakpoint
 :
 function
-TC_setBreakpoint
 (
 aLocation
 aOnResponse
@@ -4623,7 +4586,6 @@ let
 doSetBreakpoint
 =
 function
-_doSetBreakpoint
 (
 aCallback
 )
@@ -4856,7 +4818,6 @@ EVENTLISTENERS
 getSources
 :
 function
-TC_getSources
 (
 aOnResponse
 )
@@ -5051,7 +5012,6 @@ aOnResponse
 _doInterrupted
 :
 function
-TC_doInterrupted
 (
 aAction
 aError
@@ -5115,7 +5075,6 @@ this
 _clearScripts
 :
 function
-TC_clearScripts
 (
 )
 {
@@ -5245,7 +5204,6 @@ oldest
 fillFrames
 :
 function
-TC_fillFrames
 (
 aTotal
 )
@@ -5340,7 +5298,6 @@ true
 _clearFrames
 :
 function
-TC_clearFrames
 (
 )
 {
@@ -5376,7 +5333,6 @@ framescleared
 pauseGrip
 :
 function
-TC_pauseGrip
 (
 aGrip
 )
@@ -5433,7 +5389,6 @@ client
 _longString
 :
 function
-TC__longString
 (
 aGrip
 aGripCacheName
@@ -5494,7 +5449,6 @@ client
 pauseLongString
 :
 function
-TC_pauseLongString
 (
 aGrip
 )
@@ -5514,7 +5468,6 @@ _pauseGrips
 threadLongString
 :
 function
-TC_threadLongString
 (
 aGrip
 )
@@ -5534,7 +5487,6 @@ _threadGrips
 _clearObjectClients
 :
 function
-TC_clearGrips
 (
 aGripCacheName
 )
@@ -5570,7 +5522,6 @@ aGripCacheName
 _clearPauseGrips
 :
 function
-TC_clearPauseGrips
 (
 )
 {
@@ -5587,7 +5538,6 @@ _pauseGrips
 _clearThreadGrips
 :
 function
-TC_clearPauseGrips
 (
 )
 {
@@ -5604,7 +5554,6 @@ _threadGrips
 _onThreadState
 :
 function
-TC_onThreadState
 (
 aPacket
 )
@@ -5688,7 +5637,6 @@ aForm
 source
 :
 function
-TC_source
 (
 aForm
 )
@@ -6795,7 +6743,6 @@ aResponse
 source
 :
 function
-SC_source
 (
 aCallback
 )
@@ -6843,7 +6790,6 @@ aCallback
 prettyPrint
 :
 function
-SC_prettyPrint
 (
 aIndent
 aCallback
@@ -6931,7 +6877,6 @@ aCallback
 disablePrettyPrint
 :
 function
-SC_disablePrettyPrint
 (
 aCallback
 )
@@ -7015,7 +6960,6 @@ aCallback
 _onSourceResponse
 :
 function
-SC__onSourceResponse
 (
 aResponse
 aCallback
@@ -7352,7 +7296,6 @@ this
 debuggerSocketConnect
 =
 function
-debuggerSocketConnect
 (
 aHost
 aPort
