@@ -18453,7 +18453,7 @@ scrolled
 )
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -18521,9 +18521,6 @@ FinishBuildingScrollFrame
 aNewFrame
 aScrolledFrame
 )
-;
-return
-NS_OK
 ;
 }
 const

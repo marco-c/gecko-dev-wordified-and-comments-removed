@@ -3609,7 +3609,7 @@ PropagateScrollToViewport
 (
 )
 ;
-nsresult
+void
 BuildScrollFrame
 (
 nsFrameConstructorState
