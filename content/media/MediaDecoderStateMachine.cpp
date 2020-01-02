@@ -3430,6 +3430,12 @@ mState
 =
 =
 DECODER_STATE_SEEKING
+|
+|
+mState
+=
+=
+DECODER_STATE_COMPLETED
 )
 {
 return
