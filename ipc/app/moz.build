@@ -154,8 +154,6 @@ mozalloc
 '
 '
 xul
--
-shared
 '
 ]
 include

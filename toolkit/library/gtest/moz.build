@@ -109,6 +109,16 @@ bin
 /
 gtest
 '
+USE_LIBS
++
+=
+[
+'
+static
+:
+xul
+'
+]
 include
 (
 '

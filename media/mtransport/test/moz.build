@@ -744,8 +744,6 @@ xpcomglue_s
 '
 '
 xul
--
-shared
 '
 ]
 if
