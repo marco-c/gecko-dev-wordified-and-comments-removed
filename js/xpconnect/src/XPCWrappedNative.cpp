@@ -10001,8 +10001,15 @@ val
 .
 p
 =
-new
-nsAutoString
+nsXPConnect
+:
+:
+GetRuntimeInstance
+(
+)
+-
+>
+NewShortLivedString
 (
 )
 ;
