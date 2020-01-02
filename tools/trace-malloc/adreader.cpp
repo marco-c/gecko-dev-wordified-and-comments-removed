@@ -326,14 +326,12 @@ data_mem_size
 ;
 for
 (
-unsigned
-long
+size_t
 *
 cur_data
 =
 (
-unsigned
-long
+size_t
 *
 )
 data
@@ -341,8 +339,7 @@ data
 cur_data_end
 =
 (
-unsigned
-long
+size_t
 *
 )
 (
@@ -372,7 +369,7 @@ fscanf
 in
 "
 %
-lX
+zX
 \
 n
 "
