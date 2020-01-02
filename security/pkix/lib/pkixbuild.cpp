@@ -9,11 +9,6 @@ h
 "
 #
 include
-<
-limits
->
-#
-include
 "
 pkixcheck
 .
@@ -43,7 +38,7 @@ const
 BackCert
 &
 subject
-PRTime
+Time
 time
 KeyUsage
 requiredKeyUsageIfPresent
@@ -105,7 +100,7 @@ const
 BackCert
 &
 subject
-PRTime
+Time
 time
 KeyPurposeId
 requiredEKUIfPresent
@@ -195,7 +190,7 @@ BackCert
 subject
 ;
 const
-PRTime
+Time
 time
 ;
 const
@@ -750,7 +745,7 @@ const
 BackCert
 &
 subject
-PRTime
+Time
 time
 KeyUsage
 requiredKeyUsageIfPresent
@@ -1078,7 +1073,7 @@ TrustDomain
 trustDomain
 Input
 certDER
-PRTime
+Time
 time
 EndEntityOrCA
 endEntityOrCA

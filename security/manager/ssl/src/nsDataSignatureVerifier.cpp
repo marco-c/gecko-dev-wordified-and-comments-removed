@@ -1159,7 +1159,7 @@ VerifyCert
 (
 cert
 certificateUsageObjectSigner
-PR_Now
+Now
 (
 )
 pinArg

@@ -257,7 +257,13 @@ const
 PRTime
 ONE_DAY
 ;
-PRTime
+mozilla
+:
+:
+pkix
+:
+:
+Time
 YMDHMS
 (
 int16_t

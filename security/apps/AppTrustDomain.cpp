@@ -440,8 +440,7 @@ encodedIssuerName
 IssuerChecker
 &
 checker
-PRTime
-time
+Time
 )
 {
 MOZ_ASSERT
@@ -888,8 +887,7 @@ EndEntityOrCA
 const
 CertID
 &
-PRTime
-time
+Time
 const
 Input
 *

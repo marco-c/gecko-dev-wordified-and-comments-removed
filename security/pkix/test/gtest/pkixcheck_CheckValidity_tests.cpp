@@ -52,7 +52,7 @@ CheckValidity
 const
 Input
 encodedValidity
-PRTime
+Time
 time
 )
 ;
@@ -60,7 +60,7 @@ time
 }
 static
 const
-PRTime
+Time
 PAST_TIME
 (
 YMDHMS
@@ -227,7 +227,7 @@ Z
 /
 static
 const
-PRTime
+Time
 NOW
 (
 YMDHMS
@@ -391,7 +391,7 @@ Z
 /
 static
 const
-PRTime
+Time
 FUTURE_TIME
 (
 YMDHMS

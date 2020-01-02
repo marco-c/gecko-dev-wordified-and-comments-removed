@@ -573,7 +573,7 @@ encodedIssuerName
 IssuerChecker
 &
 checker
-PRTime
+Time
 time
 )
 {
@@ -596,8 +596,8 @@ CERT_GetDefaultCertDB
 )
 &
 encodedIssuerNameSECItem
-time
-true
+0
+false
 )
 )
 ;
@@ -729,7 +729,7 @@ EndEntityOrCA
 const
 CertID
 &
-PRTime
+Time
 const
 Input
 *

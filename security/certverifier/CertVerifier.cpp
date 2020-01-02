@@ -383,7 +383,7 @@ SECCertificateUsage
 usage
 ;
 const
-PRTime
+Time
 time
 ;
 }
@@ -732,7 +732,7 @@ TrustDomain
 trustDomain
 Input
 certDER
-PRTime
+Time
 time
 KeyUsage
 ku1
@@ -859,7 +859,7 @@ CERTCertificate
 cert
 SECCertificateUsage
 usage
-PRTime
+Time
 time
 void
 *
@@ -1830,7 +1830,7 @@ const
 SECItem
 *
 stapledOCSPResponse
-PRTime
+Time
 time
 void
 *

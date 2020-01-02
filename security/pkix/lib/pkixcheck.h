@@ -32,7 +32,7 @@ const
 BackCert
 &
 cert
-PRTime
+Time
 time
 KeyUsage
 requiredKeyUsageIfPresent

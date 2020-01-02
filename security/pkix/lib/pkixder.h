@@ -22,13 +22,6 @@ pkixtypes
 .
 h
 "
-#
-include
-"
-prtime
-.
-h
-"
 namespace
 mozilla
 {
@@ -1075,7 +1068,7 @@ Reader
 input
 uint8_t
 tag
-PRTime
+Time
 &
 time
 )
@@ -1088,7 +1081,7 @@ GeneralizedTime
 Reader
 &
 input
-PRTime
+Time
 &
 time
 )
@@ -1112,7 +1105,7 @@ TimeChoice
 Reader
 &
 input
-PRTime
+Time
 &
 time
 )

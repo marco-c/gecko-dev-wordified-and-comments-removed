@@ -2026,7 +2026,7 @@ BuildCertChain
 (
 trustDomain
 certDER
-PR_Now
+Now
 (
 )
 EndEntityOrCA

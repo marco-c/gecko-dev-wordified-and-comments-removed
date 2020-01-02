@@ -146,6 +146,13 @@ pkixocsp
 .
 cpp
 '
+'
+lib
+/
+pkixtime
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
