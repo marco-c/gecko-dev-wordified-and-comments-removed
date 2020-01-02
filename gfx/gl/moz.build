@@ -474,7 +474,7 @@ EXPORTS
 =
 [
 '
-GLContextSkia
+SkiaGLGlue
 .
 h
 '
@@ -484,7 +484,7 @@ UNIFIED_SOURCES
 =
 [
 '
-GLContextSkia
+SkiaGLGlue
 .
 cpp
 '

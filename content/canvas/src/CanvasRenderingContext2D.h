@@ -184,6 +184,9 @@ gfx
 class
 SourceSurface
 ;
+class
+SurfaceStream
+;
 }
 namespace
 dom
@@ -2937,9 +2940,6 @@ CurrentState
 font
 ;
 }
-#
-if
-USE_SKIA_GPU
 static
 std
 :
@@ -2981,8 +2981,6 @@ context
 bool
 mForceSoftware
 ;
-#
-endif
 int32_t
 mWidth
 mHeight
@@ -3026,6 +3024,15 @@ gfx
 DrawTarget
 >
 mTarget
+;
+RefPtr
+<
+gfx
+:
+:
+SurfaceStream
+>
+mStream
 ;
 bool
 mIsEntireFrameInvalid
