@@ -11507,11 +11507,12 @@ SetIsOpaque
 if
 (
 !
-mContainerLayer
--
->
-GetParent
+nsLayoutUtils
+:
+:
+GetCrossDocParentFrame
 (
+mContainerFrame
 )
 )
 {
