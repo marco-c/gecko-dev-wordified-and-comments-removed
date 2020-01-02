@@ -145,10 +145,6 @@ const
 nsACString
 &
 aTable
-const
-nsACString
-&
-aServerMAC
 )
 ;
 nsresult
@@ -166,10 +162,6 @@ const
 nsACString
 &
 aTable
-const
-nsACString
-&
-aServerMAC
 )
 ;
 nsresult
@@ -198,9 +190,6 @@ mUpdateUrl
 nsCString
 mStreamTable
 ;
-nsCString
-mServerMAC
-;
 nsCOMPtr
 <
 nsIChannel
@@ -227,9 +216,6 @@ mUrl
 ;
 nsCString
 mTable
-;
-nsCString
-mServerMAC
 ;
 }
 ;

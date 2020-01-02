@@ -221,14 +221,6 @@ PROT_XMLFetcher
 ;
 modScope
 .
-PROT_UrlCryptoKeyManager
-=
-jslib
-.
-PROT_UrlCryptoKeyManager
-;
-modScope
-.
 RequestBackoff
 =
 jslib
