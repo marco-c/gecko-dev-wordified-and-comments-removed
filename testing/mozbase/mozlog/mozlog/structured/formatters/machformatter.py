@@ -1982,7 +1982,8 @@ component
 )
 :
             
-return
+rv
+=
 "
 "
 .
@@ -2005,7 +2006,11 @@ message
 ]
 )
         
-return
+else
+:
+            
+rv
+=
 "
 %
 s
@@ -2022,6 +2027,34 @@ message
 "
 ]
 )
+        
+if
+"
+stack
+"
+in
+data
+:
+            
+rv
++
+=
+"
+\
+n
+%
+s
+"
+%
+data
+[
+"
+stack
+"
+]
+        
+return
+rv
     
 def
 _get_subtest_data
