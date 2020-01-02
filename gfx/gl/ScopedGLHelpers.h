@@ -223,7 +223,10 @@ ScopedBindFramebuffer
 protected
 :
 GLuint
-mOldFB
+mOldReadFB
+;
+GLuint
+mOldDrawFB
 ;
 private
 :
