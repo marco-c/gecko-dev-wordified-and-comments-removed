@@ -449,7 +449,7 @@ setTimeout
 >
 foundOrTimedout
 (
-true
+null
 )
 2000
 )
@@ -459,12 +459,16 @@ foundOrTimedout
 =
 function
 (
-timedOut
+aData
 )
 {
 if
 (
-timedOut
+aData
+=
+=
+=
+null
 )
 info
 (
