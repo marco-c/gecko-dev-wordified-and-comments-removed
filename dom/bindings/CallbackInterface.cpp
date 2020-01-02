@@ -72,7 +72,9 @@ if
 JS_GetProperty
 (
 cx
-mCallback
+CallbackPreserveColor
+(
+)
 aPropName
 aCallable
 )

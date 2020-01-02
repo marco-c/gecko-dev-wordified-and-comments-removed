@@ -80,7 +80,11 @@ isObject
 )
 )
 ;
-JS_GetProperty
+JS
+:
+:
+RootedObject
+obj
 (
 cx
 &
@@ -89,6 +93,12 @@ v
 toObject
 (
 )
+)
+;
+JS_GetProperty
+(
+cx
+obj
 "
 stack
 "
