@@ -10,15 +10,6 @@ h
 #
 include
 "
-VideoToolbox
-/
-Videotoolbox
-.
-h
-"
-#
-include
-"
 AppleUtils
 .
 h
@@ -1903,11 +1894,6 @@ kCFTypeDictionaryKeyCallBacks
 kCFTypeDictionaryValueCallBacks
 )
 ;
-#
-if
-MAC_OS_X_VERSION_MAX_ALLOWED
-<
-1090
 AutoCFRelease
 <
 CFStringRef
@@ -1923,8 +1909,6 @@ EnableHardwareAcceleratedVideoDecoder
 kCFStringEncodingUTF8
 )
 ;
-#
-endif
 CFDictionarySetValue
 (
 spec
