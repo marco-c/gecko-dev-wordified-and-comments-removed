@@ -130,6 +130,11 @@ AbstractWorker
 webidl
 '
 '
+ActivityRequestHandler
+.
+webidl
+'
+'
 AnalyserNode
 .
 webidl

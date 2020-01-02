@@ -107,11 +107,6 @@ nsIActivityUIGlue
 .
 idl
 '
-'
-nsIDOMActivityRequestHandler
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
