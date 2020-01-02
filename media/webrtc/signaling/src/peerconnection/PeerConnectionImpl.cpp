@@ -4670,6 +4670,16 @@ do_QueryReferent
 aRawPtr
 )
 ;
+if
+(
+!
+tmp
+)
+{
+return
+nullptr
+;
+}
 nsRefPtr
 <
 nsSupportsWeakReference
