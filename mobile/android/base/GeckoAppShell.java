@@ -11247,6 +11247,16 @@ getContext
 (
 )
 {
+if
+(
+sContextGetter
+=
+=
+null
+)
+return
+null
+;
 return
 sContextGetter
 .
