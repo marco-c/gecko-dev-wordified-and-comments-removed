@@ -10124,10 +10124,7 @@ store32
 (
 Imm32
 (
-ProfileEntry
-:
-:
-NullPCOffset
+0
 )
 Address
 (

@@ -5765,7 +5765,10 @@ store32
 (
 Imm32
 (
-0
+ProfileEntry
+:
+:
+FRAME_LABEL_COPY
 )
 Address
 (
@@ -5909,7 +5912,10 @@ store32
 (
 Imm32
 (
-0
+ProfileEntry
+:
+:
+FRAME_LABEL_COPY
 )
 Address
 (
