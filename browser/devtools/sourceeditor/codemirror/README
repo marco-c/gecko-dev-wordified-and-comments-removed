@@ -284,6 +284,10 @@ closebrackets
 .
 js
 *
+trailingspace
+.
+js
+*
 search
 /
 match
