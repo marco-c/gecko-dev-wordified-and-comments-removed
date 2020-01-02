@@ -262,8 +262,9 @@ virtual
 void
 RemoveTextureHost
 (
-uint64_t
-aTextureID
+TextureHost
+*
+aTexture
 )
 MOZ_OVERRIDE
 ;
