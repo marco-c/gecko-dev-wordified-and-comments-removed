@@ -1917,6 +1917,15 @@ MOZ_ASSERT
 mFrontClient
 )
 ;
+if
+(
+!
+mFrontClient
+)
+{
+return
+;
+}
 MOZ_LAYERS_LOG
 (
 (
