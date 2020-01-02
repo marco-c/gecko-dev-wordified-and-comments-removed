@@ -1278,7 +1278,9 @@ slice
 return
 false
 ;
-return
+*
+res
+=
 CompareChars
 (
 leftInspector
@@ -1303,8 +1305,10 @@ right
 length
 (
 )
-res
 )
+;
+return
+true
 ;
 }
 static

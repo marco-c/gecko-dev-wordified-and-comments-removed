@@ -364,7 +364,7 @@ enclosingScope
 const
 {
 return
-getReservedSlot
+getFixedSlot
 (
 SCOPE_CHAIN_SLOT
 )
@@ -559,7 +559,7 @@ const
 {
 JS_ASSERT
 (
-getReservedSlot
+getFixedSlot
 (
 CALLEE_SLOT
 )
@@ -571,7 +571,7 @@ isObjectOrNull
 ;
 JS_ASSERT_IF
 (
-getReservedSlot
+getFixedSlot
 (
 CALLEE_SLOT
 )
@@ -579,7 +579,7 @@ CALLEE_SLOT
 isObject
 (
 )
-getReservedSlot
+getFixedSlot
 (
 CALLEE_SLOT
 )
@@ -597,7 +597,7 @@ JSFunction
 )
 ;
 return
-getReservedSlot
+getFixedSlot
 (
 CALLEE_SLOT
 )
@@ -615,7 +615,7 @@ callee
 const
 {
 return
-getReservedSlot
+getFixedSlot
 (
 CALLEE_SLOT
 )
@@ -955,7 +955,7 @@ slotCount
 const
 {
 return
-propertyCount
+propertyCountForCompilation
 (
 )
 ;
@@ -1099,7 +1099,7 @@ enclosingStaticScope
 const
 {
 return
-getReservedSlot
+getFixedSlot
 (
 SCOPE_CHAIN_SLOT
 )
@@ -1169,9 +1169,9 @@ needsClone
 {
 return
 !
-slotValue
+getFixedSlot
 (
-0
+RESERVED_SLOTS
 )
 .
 isFalse

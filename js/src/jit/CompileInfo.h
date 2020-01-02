@@ -33,9 +33,6 @@ StartArgSlot
 JSScript
 *
 script
-JSFunction
-*
-fun
 )
 {
 return
@@ -71,7 +68,6 @@ return
 StartArgSlot
 (
 script
-fun
 )
 +
 (
@@ -179,7 +175,6 @@ nimplicit_
 StartArgSlot
 (
 script
-fun
 )
 +
 (
@@ -833,9 +828,6 @@ return
 StartArgSlot
 (
 script
-(
-)
-fun
 (
 )
 )

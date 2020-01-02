@@ -4358,6 +4358,11 @@ getDenseInitializedLength
 {
 JS_ASSERT
 (
+getClass
+(
+)
+-
+>
 isNative
 (
 )
@@ -4379,6 +4384,11 @@ getDenseCapacity
 {
 JS_ASSERT
 (
+getClass
+(
+)
+-
+>
 isNative
 (
 )
@@ -5076,6 +5086,12 @@ numFixedSlots
 )
 ;
 }
+uint32_t
+numFixedSlotsForCompilation
+(
+)
+const
+;
 bool
 hasSingletonType
 (
@@ -5934,7 +5950,7 @@ MOZ_ASSERT
 (
 slot
 <
-numFixedSlots
+numFixedSlotsForCompilation
 (
 )
 )
@@ -6364,7 +6380,7 @@ MOZ_ASSERT
 nfixed
 =
 =
-numFixedSlots
+numFixedSlotsForCompilation
 (
 )
 )
