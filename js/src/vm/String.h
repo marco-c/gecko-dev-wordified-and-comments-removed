@@ -174,8 +174,16 @@ jschar
 struct
 Data
 {
+union
+{
 size_t
 lengthAndFlags
+;
+uintptr_t
+flattenData
+;
+}
+u0
 ;
 union
 {
@@ -221,18 +229,6 @@ externalFinalizer
 ;
 }
 u2
-;
-union
-{
-JSString
-*
-parent
-;
-size_t
-reserved
-;
-}
-u3
 ;
 }
 s
@@ -559,6 +555,8 @@ const
 return
 d
 .
+u0
+.
 lengthAndFlags
 >
 >
@@ -574,6 +572,8 @@ const
 {
 return
 d
+.
+u0
 .
 lengthAndFlags
 <
@@ -777,6 +777,8 @@ return
 (
 d
 .
+u0
+.
 lengthAndFlags
 &
 FLAGS_MASK
@@ -861,6 +863,8 @@ const
 return
 (
 d
+.
+u0
 .
 lengthAndFlags
 &
@@ -948,6 +952,8 @@ const
 return
 (
 d
+.
+u0
 .
 lengthAndFlags
 &
@@ -1086,6 +1092,8 @@ return
 (
 d
 .
+u0
+.
 lengthAndFlags
 &
 FLAGS_MASK
@@ -1105,6 +1113,8 @@ const
 return
 d
 .
+u0
+.
 lengthAndFlags
 &
 ATOM_BIT
@@ -1120,6 +1130,8 @@ const
 return
 (
 d
+.
+u0
 .
 lengthAndFlags
 &
@@ -1179,6 +1191,8 @@ UNDEPENDED_FLAGS
 return
 d
 .
+u0
+.
 lengthAndFlags
 &
 HAS_BASE_BIT
@@ -1234,6 +1248,8 @@ offsetof
 (
 JSString
 d
+.
+u0
 .
 lengthAndFlags
 )
@@ -2139,6 +2155,8 @@ morphAtomizedStringIntoAtom
 {
 d
 .
+u0
+.
 lengthAndFlags
 =
 buildLengthAndFlags
@@ -2164,6 +2182,8 @@ morphAtomizedStringIntoPermanentAtom
 )
 {
 d
+.
+u0
 .
 lengthAndFlags
 =
@@ -2738,6 +2758,8 @@ const
 return
 d
 .
+u0
+.
 lengthAndFlags
 &
 PERMANENT_BIT
@@ -2750,6 +2772,8 @@ morphIntoPermanentAtom
 )
 {
 d
+.
+u0
 .
 lengthAndFlags
 =
