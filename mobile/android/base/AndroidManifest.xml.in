@@ -2700,7 +2700,7 @@ services
 /
 manifests
 /
-SyncAndroidManifest_activities
+HealthReportAndroidManifest_activities
 .
 xml
 .
@@ -2714,7 +2714,7 @@ services
 /
 manifests
 /
-HealthReportAndroidManifest_activities
+SyncAndroidManifest_activities
 .
 xml
 .
