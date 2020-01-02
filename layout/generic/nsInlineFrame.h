@@ -325,7 +325,7 @@ DrainSelfOverflowList
 MOZ_OVERRIDE
 ;
 bool
-IsLeftMost
+IsFirst
 (
 )
 const
@@ -346,7 +346,7 @@ GetStateBits
 (
 )
 &
-NS_INLINE_FRAME_BIDI_VISUAL_IS_LEFT_MOST
+NS_INLINE_FRAME_BIDI_VISUAL_IS_FIRST
 )
 :
 (
@@ -358,7 +358,7 @@ GetPrevInFlow
 ;
 }
 bool
-IsRightMost
+IsLast
 (
 )
 const
@@ -379,7 +379,7 @@ GetStateBits
 (
 )
 &
-NS_INLINE_FRAME_BIDI_VISUAL_IS_RIGHT_MOST
+NS_INLINE_FRAME_BIDI_VISUAL_IS_LAST
 )
 :
 (
@@ -456,7 +456,7 @@ aContext
 }
 virtual
 int
-GetSkipSides
+GetLogicalSkipSides
 (
 const
 nsHTMLReflowState
