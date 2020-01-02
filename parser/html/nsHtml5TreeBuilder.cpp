@@ -102,6 +102,13 @@ h
 #
 include
 "
+nsHtml5PendingNotification
+.
+h
+"
+#
+include
+"
 nsHtml5StateSnapshot
 .
 h
