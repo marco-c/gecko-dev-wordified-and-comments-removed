@@ -1337,11 +1337,11 @@ while
 (
 stack
 .
-currentId
+size
 (
 )
 >
-0
+1
 )
 stopEvent
 (
@@ -1462,7 +1462,7 @@ treeOffset
 =
 tree
 .
-currentId
+lastEntryId
 (
 )
 ;
@@ -1657,11 +1657,11 @@ while
 (
 stack
 .
-currentId
+size
 (
 )
 >
-0
+1
 )
 stopEvent
 (
@@ -3165,7 +3165,7 @@ parentId
 =
 stack
 .
-currentId
+lastEntryId
 (
 )
 ;
@@ -3314,7 +3314,7 @@ treeId
 =
 tree
 .
-currentId
+lastEntryId
 (
 )
 +
@@ -3360,7 +3360,7 @@ lastChildId
 )
 tree
 .
-nextId
+size
 (
 )
 +
@@ -3432,7 +3432,7 @@ setTreeId
 (
 tree
 .
-currentId
+lastEntryId
 (
 )
 +
@@ -3459,7 +3459,7 @@ setLastChildId
 (
 tree
 .
-currentId
+lastEntryId
 (
 )
 +
@@ -3487,11 +3487,11 @@ if
 (
 stack
 .
-currentId
+size
 (
 )
 >
-0
+1
 )
 {
 TreeEntry
@@ -3501,7 +3501,7 @@ MOZ_ASSERT_IF
 (
 stack
 .
-current
+lastEntry
 (
 )
 .
@@ -3512,7 +3512,7 @@ getTreeEntry
 (
 stack
 .
-current
+lastEntry
 (
 )
 .
@@ -3528,7 +3528,7 @@ MOZ_ASSERT_IF
 (
 stack
 .
-current
+lastEntry
 (
 )
 .
@@ -3570,7 +3570,7 @@ enabled
 &
 stack
 .
-current
+lastEntry
 (
 )
 .
@@ -3597,7 +3597,7 @@ updateStop
 (
 stack
 .
-current
+lastEntry
 (
 )
 .
@@ -3641,12 +3641,12 @@ if
 (
 stack
 .
-currentId
+size
 (
 )
 =
 =
-0
+1
 )
 {
 if
