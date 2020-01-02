@@ -432,13 +432,6 @@ edx
 static
 MOZ_CONSTEXPR_VAR
 Register
-CallTempReg6
-=
-ebp
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 CallTempNonArgRegs
 [
 ]

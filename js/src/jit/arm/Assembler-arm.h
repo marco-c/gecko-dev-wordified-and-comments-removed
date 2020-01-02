@@ -390,13 +390,6 @@ r1
 static
 MOZ_CONSTEXPR_VAR
 Register
-CallTempReg6
-=
-r2
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 IntArgReg0
 =
 r0
