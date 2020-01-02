@@ -437,6 +437,10 @@ mLayerManager
 (
 nullptr
 )
+mCrossProcessParent
+(
+nullptr
+)
 {
 }
 typedef
@@ -4842,6 +4846,15 @@ aId
 mLayerManager
 )
 {
+sIndirectLayerTrees
+[
+aId
+]
+.
+mCrossProcessParent
+=
+this
+;
 LayerManagerComposite
 *
 lm
