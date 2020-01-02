@@ -1188,7 +1188,7 @@ mHandle
 mozilla_sampler_call_enter
 (
 aDefault
-nullptr
+this
 false
 line
 )
