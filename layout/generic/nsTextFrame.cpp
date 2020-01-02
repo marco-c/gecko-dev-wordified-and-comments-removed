@@ -8368,25 +8368,12 @@ GetReferenceRenderingContext
 nsTextFrame
 *
 aTextFrame
-nsRenderingContext
-*
-aRC
 )
 {
 nsRefPtr
 <
 nsRenderingContext
 >
-tmp
-=
-aRC
-;
-if
-(
-!
-tmp
-)
-{
 tmp
 =
 aTextFrame
@@ -8414,7 +8401,6 @@ tmp
 return
 nullptr
 ;
-}
 nsRefPtr
 <
 gfxContext
@@ -8471,7 +8457,6 @@ ctx
 GetReferenceRenderingContext
 (
 aTextFrame
-nullptr
 )
 ;
 }
@@ -12935,7 +12920,6 @@ ctx
 GetReferenceRenderingContext
 (
 this
-nullptr
 )
 ;
 }
@@ -14512,7 +14496,6 @@ GetReferenceRenderingContext
 GetFrame
 (
 )
-nullptr
 )
 ;
 }
