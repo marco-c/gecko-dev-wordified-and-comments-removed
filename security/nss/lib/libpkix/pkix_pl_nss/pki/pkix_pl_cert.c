@@ -9827,6 +9827,8 @@ cert
 PKIX_PL_CertNameConstraints
 *
 nameConstraints
+PKIX_Boolean
+treatCommonNameAsDNSName
 void
 *
 plContext
@@ -9913,7 +9915,7 @@ cert
 >
 nssCert
 arena
-PR_TRUE
+treatCommonNameAsDNSName
 )
 ;
 PKIX_CHECK

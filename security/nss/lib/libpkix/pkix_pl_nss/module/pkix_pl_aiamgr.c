@@ -10,6 +10,9 @@ PKIX_PL_HashTable
 *
 aiaConnectionCache
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_Error
 *
 PKIX_PL_LdapClient_InitiateRequest
@@ -134,6 +137,8 @@ LDAPCLIENT
 )
 ;
 }
+#
+endif
 static
 PKIX_Error
 *
@@ -230,6 +235,9 @@ aiaMgr
 results
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_DECREF
 (
 aiaMgr
@@ -240,6 +248,8 @@ client
 ldapClient
 )
 ;
+#
+endif
 cleanup
 :
 PKIX_RETURN
@@ -314,6 +324,9 @@ AIAMGR
 )
 ;
 }
+#
+ifndef
+NSS_PKIX_NO_LDAP
 static
 PKIX_Error
 *
@@ -492,6 +505,8 @@ AIAMGR
 )
 ;
 }
+#
+endif
 PKIX_Error
 *
 pkix_pl_AIAMgr_GetHTTPCerts
@@ -1316,6 +1331,9 @@ AIAMGR
 )
 ;
 }
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_Error
 *
 pkix_pl_AIAMgr_GetLDAPCerts
@@ -1683,6 +1701,8 @@ AIAMGR
 )
 ;
 }
+#
+endif
 PKIX_Error
 *
 PKIX_PL_AIAMgr_Create
@@ -2129,6 +2149,9 @@ plContext
 PKIX_AIAMGRGETHTTPCERTSFAILED
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 }
 else
 if
@@ -2154,6 +2177,8 @@ plContext
 PKIX_AIAMGRGETLDAPCERTSFAILED
 )
 ;
+#
+endif
 }
 else
 {
@@ -2298,6 +2323,9 @@ aiaMgr
 results
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_DECREF
 (
 aiaMgr
@@ -2308,6 +2336,8 @@ client
 ldapClient
 )
 ;
+#
+endif
 }
 PKIX_DECREF
 (

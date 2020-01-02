@@ -17,6 +17,9 @@ seccomon
 .
 h
 "
+#
+ifndef
+XP_WIN
 static
 size_t
 rng_systemFromNoise
@@ -29,6 +32,8 @@ size_t
 maxLen
 )
 ;
+#
+endif
 #
 if
 defined
@@ -74,6 +79,9 @@ c
 "
 #
 endif
+#
+ifndef
+XP_WIN
 static
 size_t
 rng_systemFromNoise
@@ -132,3 +140,5 @@ return
 retBytes
 ;
 }
+#
+endif

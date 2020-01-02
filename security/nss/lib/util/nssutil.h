@@ -22,9 +22,7 @@ NSSUTIL_VERSION
 "
 3
 .
-15
-.
-5
+16
 Beta
 "
 #
@@ -34,11 +32,11 @@ NSSUTIL_VMAJOR
 #
 define
 NSSUTIL_VMINOR
-15
+16
 #
 define
 NSSUTIL_VPATCH
-5
+0
 #
 define
 NSSUTIL_VBUILD

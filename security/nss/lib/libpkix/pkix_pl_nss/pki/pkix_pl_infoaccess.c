@@ -1270,6 +1270,9 @@ n
 "
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 if
 (
 PORT_Strncmp
@@ -1292,6 +1295,8 @@ PKIX_INFOACCESS_LOCATION_LDAP
 ;
 }
 else
+#
+endif
 if
 (
 PORT_Strncmp
@@ -1338,6 +1343,9 @@ INFOACCESS
 )
 ;
 }
+#
+ifndef
+NSS_PKIX_NO_LDAP
 static
 PKIX_Error
 *
@@ -2625,3 +2633,5 @@ INFOACCESS
 )
 ;
 }
+#
+endif

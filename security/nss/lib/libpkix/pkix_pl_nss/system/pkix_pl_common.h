@@ -145,12 +145,17 @@ pkix_pl_string
 h
 "
 #
+ifndef
+NSS_PKIX_NO_LDAP
+#
 include
 "
 pkix_pl_ldapt
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -313,6 +318,9 @@ pkix_pl_socket
 h
 "
 #
+ifndef
+NSS_PKIX_NO_LDAP
+#
 include
 "
 pkix_pl_ldapcertstore
@@ -333,6 +341,8 @@ pkix_pl_ldapresponse
 .
 h
 "
+#
+endif
 #
 include
 "

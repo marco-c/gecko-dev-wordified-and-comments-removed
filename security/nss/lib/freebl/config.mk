@@ -403,12 +403,12 @@ OS_LIBS
 +
 =
 -
-lshell32
+ladvapi32
 else
 OS_LIBS
 +
 =
-shell32
+advapi32
 .
 lib
 endif

@@ -47,10 +47,15 @@ results
 ;
 union
 {
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_PL_LdapClient
 *
 ldapClient
 ;
+#
+endif
 struct
 {
 const
@@ -85,6 +90,9 @@ void
 plContext
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_Error
 *
 PKIX_PL_LdapClient_InitiateRequest
@@ -128,6 +136,8 @@ void
 plContext
 )
 ;
+#
+endif
 #
 ifdef
 __cplusplus

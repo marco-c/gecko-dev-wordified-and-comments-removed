@@ -57,9 +57,6 @@ RSA_BLOCK_AFTER_PAD_OCTET
 typedef
 enum
 {
-RSA_BlockUnused
-=
-0
 RSA_BlockPrivate
 =
 1
@@ -69,7 +66,6 @@ RSA_BlockPublic
 RSA_BlockRaw
 =
 4
-RSA_BlockTotal
 }
 RSA_BlockType
 ;

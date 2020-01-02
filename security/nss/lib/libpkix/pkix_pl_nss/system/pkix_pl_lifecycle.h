@@ -159,6 +159,9 @@ pkix_pl_colcertstore
 h
 "
 #
+ifndef
+NSS_PKIX_NO_LDAP
+#
 include
 "
 pkix_pl_ldapcertstore
@@ -186,6 +189,8 @@ pkix_pl_ldapresponse
 .
 h
 "
+#
+endif
 #
 include
 "

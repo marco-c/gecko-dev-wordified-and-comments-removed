@@ -931,6 +931,7 @@ PKIX_PL_Cert_CheckNameConstraints
 (
 cert
 nameConstraints
+PKIX_FALSE
 plContext
 )
 PKIX_CERTCHECKNAMECONSTRAINTSFAILED

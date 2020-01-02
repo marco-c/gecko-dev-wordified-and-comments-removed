@@ -50,6 +50,9 @@ void
 plContext
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 PKIX_Error
 *
 PKIX_PL_LdapDefaultClient_Create
@@ -108,6 +111,8 @@ void
 plContext
 )
 ;
+#
+endif
 PKIX_Error
 *
 PKIX_PL_NssContext_Create

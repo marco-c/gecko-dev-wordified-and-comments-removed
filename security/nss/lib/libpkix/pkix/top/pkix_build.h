@@ -12,12 +12,17 @@ pkix_tools
 h
 "
 #
+ifndef
+NSS_PKIX_NO_LDAP
+#
 include
 "
 pkix_pl_ldapt
 .
 h
 "
+#
+endif
 #
 include
 "

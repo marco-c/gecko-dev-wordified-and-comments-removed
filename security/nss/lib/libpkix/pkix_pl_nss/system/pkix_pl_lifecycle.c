@@ -676,6 +676,9 @@ pkix_NameConstraintsCheckerState_RegisterSelf
 plContext
 )
 ;
+#
+ifndef
+NSS_PKIX_NO_LDAP
 pkix_pl_LdapRequest_RegisterSelf
 (
 plContext
@@ -691,6 +694,8 @@ pkix_pl_LdapDefaultClient_RegisterSelf
 plContext
 )
 ;
+#
+endif
 pkix_pl_Socket_RegisterSelf
 (
 plContext

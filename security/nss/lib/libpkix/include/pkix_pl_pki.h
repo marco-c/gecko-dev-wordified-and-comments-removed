@@ -569,6 +569,8 @@ cert
 PKIX_PL_CertNameConstraints
 *
 nameConstraints
+PKIX_Boolean
+treatCommonNameAsDNSName
 void
 *
 plContext
@@ -854,9 +856,14 @@ define
 PKIX_INFOACCESS_LOCATION_HTTP
 1
 #
+ifndef
+NSS_PKIX_NO_LDAP
+#
 define
 PKIX_INFOACCESS_LOCATION_LDAP
 2
+#
+endif
 PKIX_Error
 *
 PKIX_PL_InfoAccess_GetMethod
