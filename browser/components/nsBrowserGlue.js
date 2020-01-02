@@ -6719,7 +6719,7 @@ BG__migrateUI
 const
 UI_VERSION
 =
-14
+15
 ;
 const
 BROWSER_DOCURL
@@ -8193,7 +8193,7 @@ if
 (
 currentUIVersion
 <
-13
+14
 )
 {
 let
@@ -8342,7 +8342,7 @@ if
 (
 currentUIVersion
 <
-14
+15
 )
 {
 let
