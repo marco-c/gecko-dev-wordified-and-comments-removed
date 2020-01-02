@@ -3648,7 +3648,7 @@ RootedObject
 obj
 (
 cx
-NewObjectWithClassProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -4968,7 +4968,7 @@ RootedObject
 obj
 (
 cx
-NewObjectWithClassProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -5258,7 +5258,11 @@ DefineSimpleTypeObject
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+GlobalObject
+*
+>
 global
 HandleObject
 module
@@ -5279,10 +5283,12 @@ RootedObject
 funcProto
 (
 cx
-JS_GetFunctionPrototype
+global
+-
+>
+getOrCreateFunctionPrototype
 (
 cx
-global
 )
 )
 ;
@@ -5295,7 +5301,7 @@ RootedObject
 numFun
 (
 cx
-NewObjectWithClassProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -6504,7 +6510,7 @@ RootedObject
 module
 (
 cx
-NewObjectWithClassProto
+NewObjectWithGivenProto
 (
 cx
 &
