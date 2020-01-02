@@ -2,6 +2,9 @@ skip
 -
 if
 (
+Android
+|
+|
 B2G
 )
 load
@@ -10,6 +13,11 @@ load
 timescale
 .
 html
+#
+bug
+1048628
+for
+Android
 skip
 -
 if
