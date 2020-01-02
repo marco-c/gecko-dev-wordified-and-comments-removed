@@ -268,15 +268,10 @@ ICEntry
 vecEntry
 =
 icEntries_
-[
-icEntries_
 .
-length
+back
 (
 )
--
-1
-]
 ;
 vecEntry
 .

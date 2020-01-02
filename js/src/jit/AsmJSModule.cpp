@@ -2424,15 +2424,13 @@ name
 JS_ASSERT_IF
 (
 name
+!
 name
 -
 >
-length
+empty
 (
 )
-!
-=
-0
 )
 ;
 if

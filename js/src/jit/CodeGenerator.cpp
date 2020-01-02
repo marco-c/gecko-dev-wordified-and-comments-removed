@@ -36310,14 +36310,12 @@ ionScript
 ;
 if
 (
+!
 callTargets
 .
-length
+empty
 (
 )
-!
-=
-0
 )
 ionScript
 -

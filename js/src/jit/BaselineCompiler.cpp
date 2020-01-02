@@ -3410,15 +3410,10 @@ PCMappingEntry
 entry
 =
 pcMappingEntries_
-[
-pcMappingEntries_
 .
-length
+back
 (
 )
--
-1
-]
 ;
 JS_ASSERT
 (
