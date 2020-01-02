@@ -5698,6 +5698,9 @@ sources
 map
 .
 sourceRoot
+|
+|
+undefined
 )
 ;
 }

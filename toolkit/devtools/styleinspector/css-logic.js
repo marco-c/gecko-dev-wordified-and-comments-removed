@@ -2245,11 +2245,13 @@ aElement
 ;
 while
 (
+(
 temp
 =
 temp
 .
 previousElementSibling
+)
 )
 {
 priorSiblings
@@ -4096,6 +4098,9 @@ this
 )
 ;
 }
+return
+false
+;
 }
 return
 Array

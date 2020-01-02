@@ -1896,6 +1896,12 @@ _gripDepth
 =
 0
 ;
+this
+.
+_threadLifetimePool
+=
+null
+;
 }
 ThreadActor
 .
@@ -19327,6 +19333,9 @@ createValueGrip
 desc
 .
 get
+|
+|
+undefined
 )
 ;
 descForm
@@ -19342,6 +19351,9 @@ createValueGrip
 desc
 .
 set
+|
+|
+undefined
 )
 ;
 }

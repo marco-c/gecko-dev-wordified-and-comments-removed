@@ -309,6 +309,9 @@ _actors
 [
 aActorID
 ]
+|
+|
+undefined
 ;
 }
 has
