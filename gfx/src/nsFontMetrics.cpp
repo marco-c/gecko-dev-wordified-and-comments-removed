@@ -638,7 +638,7 @@ CreateFontGroup
 (
 aFont
 .
-name
+fontlist
 &
 style
 aUserFontSet

@@ -1163,12 +1163,12 @@ smoothing
 (
 aFont1
 .
-name
+fontlist
 =
 =
 aFont2
 .
-name
+fontlist
 )
 &
 &

@@ -11348,7 +11348,7 @@ fontStyle
 >
 mFont
 .
-name
+fontlist
 &
 style
 c
@@ -14793,13 +14793,9 @@ GetPlatform
 >
 CreateFontGroup
 (
-NS_LITERAL_STRING
+FontFamilyList
 (
-"
-sans
--
-serif
-"
+eFamily_sans_serif
 )
 &
 style

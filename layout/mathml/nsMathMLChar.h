@@ -650,7 +650,10 @@ nsGlyphCode
 &
 aGlyphCode
 const
-nsAString
+mozilla
+:
+:
+FontFamilyList
 &
 aDefaultFamily
 nsFont
