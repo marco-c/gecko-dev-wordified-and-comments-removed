@@ -4436,6 +4436,15 @@ menu
 button
 "
 ]
+:
+not
+(
+[
+overflowedItem
+=
+true
+]
+)
 {
 padding
 :

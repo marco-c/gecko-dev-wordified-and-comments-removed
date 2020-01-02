@@ -6877,6 +6877,14 @@ list
 toolbarbutton
 -
 1
+:
+not
+(
+.
+toolbarbutton
+-
+combined
+)
 >
 .
 toolbarbutton
