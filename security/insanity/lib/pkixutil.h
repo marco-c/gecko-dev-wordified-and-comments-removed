@@ -158,6 +158,10 @@ encodedBasicConstraints
 (
 nullptr
 )
+encodedExtendedKeyUsage
+(
+nullptr
+)
 encodedKeyUsage
 (
 nullptr
@@ -181,6 +185,11 @@ const
 SECItem
 *
 encodedBasicConstraints
+;
+const
+SECItem
+*
+encodedExtendedKeyUsage
 ;
 const
 SECItem

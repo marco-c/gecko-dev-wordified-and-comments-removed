@@ -37,6 +37,8 @@ PRTime
 time
 KeyUsages
 requiredKeyUsagesIfPresent
+SECOidTag
+requiredEKUIfPresent
 ScopedCERTCertList
 &
 results

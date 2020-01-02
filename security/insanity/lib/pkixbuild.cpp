@@ -205,6 +205,16 @@ dummyEncodedAuthorityKeyIdentifier
 ;
 break
 ;
+case
+37
+:
+out
+=
+&
+encodedExtendedKeyUsage
+;
+break
+;
 }
 }
 else
@@ -437,6 +447,8 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
+SECOidTag
+requiredEKUIfPresent
 unsigned
 int
 subCACount
@@ -459,6 +471,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
+SECOidTag
+requiredEKUIfPresent
 CERTCertificate
 *
 potentialIssuerCertToDup
@@ -660,6 +674,7 @@ potentialIssuer
 time
 MustBeCA
 KU_KEY_CERT_SIGN
+requiredEKUIfPresent
 newSubCACount
 results
 )
@@ -729,6 +744,8 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
+SECOidTag
+requiredEKUIfPresent
 unsigned
 int
 subCACount
@@ -857,6 +874,7 @@ TrustDomain
 :
 TrustAnchor
 requiredKeyUsagesIfPresent
+requiredEKUIfPresent
 subCACount
 )
 ;
@@ -1006,6 +1024,7 @@ trustDomain
 subject
 time
 endEntityOrCA
+requiredEKUIfPresent
 n
 -
 >
@@ -1069,6 +1088,8 @@ PRTime
 time
 KeyUsages
 requiredKeyUsagesIfPresent
+SECOidTag
+requiredEKUIfPresent
 ScopedCERTCertList
 &
 results
@@ -1132,6 +1153,7 @@ ee
 time
 MustBeEndEntity
 requiredKeyUsagesIfPresent
+requiredEKUIfPresent
 0
 results
 )
