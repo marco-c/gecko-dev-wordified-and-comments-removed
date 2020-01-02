@@ -1289,9 +1289,10 @@ ocspResponder
 .
 stop
 (
-run_next_test
+function
+(
 )
-;
+{
 let
 failingOcspResponder
 =
@@ -1378,6 +1379,9 @@ failingOcspResponder
 stop
 (
 run_next_test
+)
+;
+}
 )
 ;
 }
