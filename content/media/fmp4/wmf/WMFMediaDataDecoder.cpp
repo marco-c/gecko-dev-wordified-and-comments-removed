@@ -80,9 +80,9 @@ WMFMediaDataDecoder
 :
 WMFMediaDataDecoder
 (
-WMFOutputSource
+MFTManager
 *
-aSource
+aMFTManager
 MediaTaskQueue
 *
 aTaskQueue
@@ -99,9 +99,9 @@ mCallback
 (
 aCallback
 )
-mSource
+mMFTManager
 (
-aSource
+aMFTManager
 )
 {
 MOZ_COUNT_CTOR
@@ -134,7 +134,7 @@ Init
 {
 mDecoder
 =
-mSource
+mMFTManager
 -
 >
 Init
@@ -237,7 +237,7 @@ aSample
 HRESULT
 hr
 =
-mSource
+mMFTManager
 -
 >
 Input
@@ -256,7 +256,7 @@ hr
 NS_WARNING
 (
 "
-WMFOutputSource
+MFTManager
 rejected
 sample
 "
@@ -309,7 +309,7 @@ SUCCEEDED
 (
 hr
 =
-mSource
+mMFTManager
 -
 >
 Output

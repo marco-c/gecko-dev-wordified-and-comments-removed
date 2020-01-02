@@ -49,13 +49,13 @@ namespace
 mozilla
 {
 class
-WMFOutputSource
+MFTManager
 {
 public
 :
 virtual
 ~
-WMFOutputSource
+MFTManager
 (
 )
 {
@@ -113,7 +113,7 @@ public
 :
 WMFMediaDataDecoder
 (
-WMFOutputSource
+MFTManager
 *
 aOutputSource
 MediaTaskQueue
@@ -210,9 +210,9 @@ mDecoder
 ;
 nsAutoPtr
 <
-WMFOutputSource
+MFTManager
 >
-mSource
+mMFTManager
 ;
 int64_t
 mLastStreamOffset

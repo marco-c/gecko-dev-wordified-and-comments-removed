@@ -165,7 +165,7 @@ h
 '
 wmf
 /
-WMFAudioOutputSource
+WMFAudioMFTManager
 .
 h
 '
@@ -186,7 +186,7 @@ h
 '
 wmf
 /
-WMFVideoOutputSource
+WMFVideoMFTManager
 .
 h
 '
@@ -205,7 +205,7 @@ cpp
 '
 wmf
 /
-WMFAudioOutputSource
+WMFAudioMFTManager
 .
 cpp
 '
@@ -226,7 +226,7 @@ cpp
 '
 wmf
 /
-WMFVideoOutputSource
+WMFVideoMFTManager
 .
 cpp
 '
