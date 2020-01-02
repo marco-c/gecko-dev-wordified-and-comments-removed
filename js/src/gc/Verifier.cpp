@@ -4126,6 +4126,8 @@ nullptr
 #
 endif
 }
+#
+endif
 void
 js
 :
@@ -4177,5 +4179,3 @@ MOZ_CRASH
 )
 ;
 }
-#
-endif
