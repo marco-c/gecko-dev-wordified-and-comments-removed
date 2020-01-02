@@ -234,6 +234,16 @@ common
 mac
 '
 ]
+LDFLAGS
++
+=
+[
+'
+-
+framework
+Cocoa
+'
+]
 elif
 CONFIG
 [

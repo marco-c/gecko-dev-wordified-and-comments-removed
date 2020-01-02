@@ -154,12 +154,6 @@ OS_ARCH
 )
 Darwin
 )
-OS_LIBS
-+
-=
--
-framework
-Cocoa
 LIBS
 +
 =
