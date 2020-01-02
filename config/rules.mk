@@ -5587,17 +5587,6 @@ RM
 (
 REAL_LIBRARY
 )
-(
-EXPORT_LIBRARY
-:
-%
-=
-%
-/
-(
-REAL_LIBRARY
-)
-)
 )
 (
 EXPAND_LIBS_GEN

@@ -146,9 +146,6 @@ TestWebMWriter
 cpp
 '
 ]
-EXPORT_LIBRARY
-=
-True
 include
 (
 '

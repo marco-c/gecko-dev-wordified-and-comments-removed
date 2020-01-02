@@ -98,9 +98,6 @@ LIBRARY_NAME
 '
 sandboxbroker
 '
-EXPORT_LIBRARY
-=
-True
 SOURCES
 +
 =

@@ -407,10 +407,12 @@ call
 EXPAND_LIBNAME_PATH
 gkmedias
 (
-DIST
+DEPTH
 )
 /
-lib
+layout
+/
+media
 )
 ifdef
 MOZ_WEBRTC

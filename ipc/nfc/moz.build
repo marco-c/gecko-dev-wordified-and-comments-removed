@@ -93,9 +93,6 @@ Nfc
 cpp
 '
 ]
-EXPORT_LIBRARY
-=
-True
 include
 (
 '

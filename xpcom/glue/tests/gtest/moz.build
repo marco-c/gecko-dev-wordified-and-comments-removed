@@ -127,9 +127,6 @@ LIBRARY_NAME
 '
 xpcom_glue_gtest
 '
-EXPORT_LIBRARY
-=
-True
 FINAL_LIBRARY
 =
 '

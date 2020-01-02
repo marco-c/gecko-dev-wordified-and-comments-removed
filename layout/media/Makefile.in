@@ -54,13 +54,6 @@ MPL
 0
 /
 .
-EXPORT_LIBRARY
-=
-(
-DIST
-)
-/
-lib
 ifeq
 (
 WINNT
