@@ -8996,6 +8996,11 @@ removable
 "
 true
 "
+hidden
+=
+"
+true
+"
 command
 =
 "
