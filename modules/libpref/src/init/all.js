@@ -25286,10 +25286,10 @@ list
 Hiragino
 Kaku
 Gothic
-Pro
+ProN
 Hiragino
 Mincho
-Pro
+ProN
 STSong
 "
 )
