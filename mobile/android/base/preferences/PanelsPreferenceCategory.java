@@ -362,6 +362,16 @@ configState
 )
 {
 final
+boolean
+isRemovable
+=
+panelConfig
+.
+isDynamic
+(
+)
+;
+final
 PanelsPreference
 pref
 =
@@ -374,6 +384,7 @@ getContext
 PanelsPreferenceCategory
 .
 this
+isRemovable
 )
 ;
 pref
