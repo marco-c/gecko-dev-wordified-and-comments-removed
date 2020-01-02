@@ -258,6 +258,8 @@ head_update
 js
 ifdef
 MOZ_MAINTENANCE_SERVICE
+ifndef
+HAVE_64BIT_BUILD
 INSTALL_TARGETS
 +
 =
@@ -302,6 +304,9 @@ unit_aus_update
 head_update
 .
 js
+endif
+#
+HAVE_64BIT_BUILD
 endif
 #
 MOZ_MAINTENANCE_SERVICE
