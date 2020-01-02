@@ -1,4 +1,10 @@
 #
+ifndef
+nsSMILRepeatCount_h
+#
+define
+nsSMILRepeatCount_h
+#
 include
 "
 nsDebug
@@ -192,3 +198,5 @@ mCount
 ;
 }
 ;
+#
+endif
