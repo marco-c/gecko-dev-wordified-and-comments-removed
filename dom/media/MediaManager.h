@@ -1505,10 +1505,6 @@ uint64_t
 aWindowId
 =
 0
-bool
-aFake
-=
-false
 )
 ;
 StreamListeners
@@ -1764,7 +1760,7 @@ sSingleton
 ;
 #
 ifdef
-MOZ_B2G_CAMERA
+MOZ_WIDGET_GONK
 nsRefPtr
 <
 nsDOMCameraManager
