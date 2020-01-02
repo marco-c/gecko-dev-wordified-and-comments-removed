@@ -10475,7 +10475,7 @@ Vector
 types
 :
 :
-TypeNewScript
+NewScriptAddendum
 :
 :
 Initializer
@@ -10964,7 +10964,7 @@ script
 types
 :
 :
-TypeNewScript
+NewScriptAddendum
 :
 :
 Initializer
@@ -10973,7 +10973,7 @@ entry
 types
 :
 :
-TypeNewScript
+NewScriptAddendum
 :
 :
 Initializer
@@ -11032,7 +11032,7 @@ script
 types
 :
 :
-TypeNewScript
+NewScriptAddendum
 :
 :
 Initializer
@@ -11041,7 +11041,7 @@ entry
 types
 :
 :
-TypeNewScript
+NewScriptAddendum
 :
 :
 Initializer
@@ -11285,7 +11285,7 @@ Vector
 types
 :
 :
-TypeNewScript
+NewScriptAddendum
 :
 :
 Initializer
