@@ -309,6 +309,13 @@ stdarg
 .
 h
 >
+#
+include
+<
+stdio
+.
+h
+>
 MOZ_MEMORY_API
 int
 vasprintf_impl
