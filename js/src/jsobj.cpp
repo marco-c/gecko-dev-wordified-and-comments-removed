@@ -6096,12 +6096,6 @@ getChild
 (
 cx
 last
-obj
--
->
-numFixedSlots
-(
-)
 child
 )
 ;
