@@ -6992,6 +6992,13 @@ oldScope
 wrapper
 )
 {
+JSAutoCompartment
+ac
+(
+cx
+wrapper
+)
+;
 rv
 =
 mozilla

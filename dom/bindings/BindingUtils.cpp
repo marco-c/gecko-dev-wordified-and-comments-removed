@@ -8981,6 +8981,15 @@ JSObject
 aObjArg
 )
 {
+js
+:
+:
+AssertSameCompartment
+(
+aCx
+aObjArg
+)
+;
 JS_CHECK_RECURSION
 (
 aCx

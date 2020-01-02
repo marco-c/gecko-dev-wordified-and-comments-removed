@@ -2854,6 +2854,13 @@ wrapper
 )
 )
 {
+JSAutoCompartment
+ac
+(
+cx
+wrapper
+)
+;
 rv
 =
 ReparentWrapper
