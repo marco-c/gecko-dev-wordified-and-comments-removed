@@ -158,6 +158,11 @@ TestTypeTraits
 cpp
 '
 '
+TestTypedEnum
+.
+cpp
+'
+'
 TestWeakPtr
 .
 cpp
