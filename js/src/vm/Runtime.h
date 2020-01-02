@@ -1207,6 +1207,11 @@ pentry
 )
 ;
 }
+template
+<
+AllowGC
+allowGC
+>
 inline
 JSObject
 *
