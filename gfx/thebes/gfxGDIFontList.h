@@ -1332,6 +1332,16 @@ CreateFontInfoData
 (
 )
 ;
+#
+ifdef
+MOZ_BUNDLED_FONTS
+void
+ActivateBundledFonts
+(
+)
+;
+#
+endif
 typedef
 nsRefPtrHashtable
 <
