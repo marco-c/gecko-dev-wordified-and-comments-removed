@@ -124,7 +124,7 @@ this
 .
 SETTINGSDB_VERSION
 =
-2
+3
 ;
 this
 .
