@@ -151,6 +151,13 @@ h
 #
 include
 "
+MediaEngineTabVideoSource
+.
+h
+"
+#
+include
+"
 webrtc
 /
 voice_engine
@@ -1696,6 +1703,12 @@ nsStringHashKey
 MediaEngineWebRTCAudioSource
 >
 mAudioSources
+;
+nsRefPtr
+<
+MediaEngineTabVideoSource
+>
+mTabVideoSource
 ;
 }
 ;
