@@ -401,7 +401,7 @@ bug
 .
 leak
 :
-sdp_build_attr_
+sdp_build_
 leak
 :
 VcmSIPCCBinding
@@ -411,6 +411,12 @@ CandidateReady
 leak
 :
 fsmdef_ev_foundcandidate
+leak
+:
+create_timecard
+leak
+:
+stamp_timecard
 #
 #
 #
