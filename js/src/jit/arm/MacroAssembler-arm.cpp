@@ -20761,6 +20761,12 @@ bail
 Signed
 )
 ;
+ma_b
+(
+bail
+Zero
+)
+;
 bind
 (
 &
@@ -20999,6 +21005,12 @@ ma_b
 (
 bail
 Signed
+)
+;
+ma_b
+(
+bail
+Zero
 )
 ;
 bind
