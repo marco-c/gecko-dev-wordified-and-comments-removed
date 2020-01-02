@@ -1190,10 +1190,10 @@ mAllHeadersSent
 =
 1
 ;
-nsAutoCString
+nsCString
 hostHeader
 ;
-nsAutoCString
+nsCString
 hashkey
 ;
 mTransaction
@@ -1797,6 +1797,9 @@ numFrames
 *
 8
 ;
+Http2Session
+:
+:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -2427,6 +2430,9 @@ get
 +
 mTxInlineFrameUsed
 ;
+Http2Session
+:
+:
 EnsureBuffer
 (
 mTxInlineFrame
@@ -2597,6 +2603,9 @@ get
 +
 mTxInlineFrameUsed
 ;
+Http2Session
+:
+:
 EnsureBuffer
 (
 mTxInlineFrame

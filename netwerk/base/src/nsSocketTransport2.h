@@ -488,11 +488,6 @@ nsSocketTransport
 (
 )
 ;
-void
-CleanupTypes
-(
-)
-;
 private
 :
 enum
@@ -887,9 +882,6 @@ mProxyTransparent
 ;
 bool
 mProxyTransparentResolvesHost
-;
-bool
-mHttpsProxy
 ;
 uint32_t
 mConnectionFlags

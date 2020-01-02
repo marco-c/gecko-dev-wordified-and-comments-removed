@@ -564,15 +564,6 @@ return
 mBypassCacheLockThreshold
 ;
 }
-uint32_t
-MaxConnectionsPerOrigin
-(
-)
-{
-return
-mMaxPersistentConnectionsPerServer
-;
-}
 bool
 UseRequestTokenBucket
 (
@@ -1017,7 +1008,7 @@ nsCString
 host
 int32_t
 port
-nsACString
+nsCString
 &
 hostLine
 )
