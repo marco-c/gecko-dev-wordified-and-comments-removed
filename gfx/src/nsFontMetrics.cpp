@@ -607,6 +607,12 @@ IsPrinterSurface
 )
 aFont
 .
+variant
+=
+=
+NS_STYLE_FONT_VARIANT_SMALL_CAPS
+aFont
+.
 languageOverride
 )
 ;

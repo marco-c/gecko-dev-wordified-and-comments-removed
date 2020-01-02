@@ -305,6 +305,8 @@ bool
 aSystemFont
 bool
 aPrinterFont
+bool
+aSmallCaps
 const
 nsString
 &
@@ -370,6 +372,11 @@ printerFont
 ;
 bool
 useGrayscaleAntialiasing
+:
+1
+;
+bool
+smallCaps
 :
 1
 ;
@@ -545,6 +552,16 @@ style
 other
 .
 style
+)
+&
+&
+(
+smallCaps
+=
+=
+other
+.
+smallCaps
 )
 &
 &

@@ -29514,6 +29514,10 @@ useGrayscaleAntialiasing
 (
 false
 )
+smallCaps
+(
+false
+)
 style
 (
 NS_FONT_STYLE_NORMAL
@@ -29542,6 +29546,8 @@ bool
 aSystemFont
 bool
 aPrinterFont
+bool
+aSmallCaps
 const
 nsString
 &
@@ -29586,6 +29592,10 @@ aPrinterFont
 useGrayscaleAntialiasing
 (
 false
+)
+smallCaps
+(
+aSmallCaps
 )
 style
 (
@@ -29774,6 +29784,12 @@ useGrayscaleAntialiasing
 aStyle
 .
 useGrayscaleAntialiasing
+)
+smallCaps
+(
+aStyle
+.
+smallCaps
 )
 style
 (
