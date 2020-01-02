@@ -37,7 +37,7 @@ core
 const
 {
 method
-chain
+chainable
 }
 =
 require
@@ -92,7 +92,7 @@ options
 }
 on
 :
-chain
+chainable
 (
 method
 (
@@ -101,7 +101,7 @@ on
 )
 once
 :
-chain
+chainable
 (
 method
 (
