@@ -166,6 +166,13 @@ nscore
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 gfxImageSurface
 ;
@@ -197,7 +204,7 @@ mVisibleRegion
 nsIntRegion
 mValidRegion
 ;
-gfxSize
+CSSToScreenScale
 mEffectiveResolution
 ;
 }

@@ -477,7 +477,7 @@ nsIntRegion
 &
 aInvalidateRegion
 const
-gfxSize
+CSSToScreenScale
 &
 aResolution
 )
@@ -495,7 +495,7 @@ TiledTexture
 ;
 }
 const
-gfxSize
+CSSToScreenScale
 &
 GetFrameResolution
 (
@@ -627,7 +627,7 @@ BasicTiledLayerBuffer
 *
 mMainMemoryTiledBuffer
 ;
-gfxSize
+CSSToScreenScale
 mFrameResolution
 ;
 }

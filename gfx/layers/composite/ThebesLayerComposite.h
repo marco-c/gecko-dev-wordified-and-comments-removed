@@ -311,7 +311,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-gfxSize
+CSSToScreenScale
 GetEffectiveResolution
 (
 )
