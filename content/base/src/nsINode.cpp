@@ -3789,7 +3789,7 @@ node2
 this
 ;
 const
-Attr
+nsIAttribute
 *
 attr1
 =
@@ -3814,7 +3814,7 @@ attr1
 static_cast
 <
 const
-Attr
+nsIAttribute
 *
 >
 (
@@ -3829,7 +3829,7 @@ elem
 attr1
 -
 >
-GetElement
+GetContent
 (
 )
 ;
@@ -3866,14 +3866,14 @@ eATTRIBUTE
 )
 {
 const
-Attr
+nsIAttribute
 *
 attr2
 =
 static_cast
 <
 const
-Attr
+nsIAttribute
 *
 >
 (
@@ -3888,7 +3888,7 @@ elem
 attr2
 -
 >
-GetElement
+GetContent
 (
 )
 ;
