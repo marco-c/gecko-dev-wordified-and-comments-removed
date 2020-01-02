@@ -22,7 +22,7 @@ class
 nsIDOMDOMRequest
 ;
 class
-nsIDOMWindow
+nsPIDOMWindow
 ;
 namespace
 mozilla
@@ -59,7 +59,7 @@ DOMRequest
 >
 FirePropertyAlreadySet
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aOwner
 ErrorResult
@@ -79,7 +79,7 @@ DOMRequest
 >
 SetProperty
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aOwner
 const

@@ -73,7 +73,7 @@ BluetoothPropertyContainer
 :
 FirePropertyAlreadySet
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aOwner
 ErrorResult
@@ -164,7 +164,7 @@ BluetoothPropertyContainer
 :
 SetProperty
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aOwner
 const

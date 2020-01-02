@@ -25,7 +25,7 @@ public
 :
 DOMFileRequest
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )

@@ -66,7 +66,7 @@ DOMRequest
 )
 DOMCursor
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 nsICursorContinueCallback

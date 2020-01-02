@@ -55,7 +55,7 @@ DOMCursor
 :
 DOMCursor
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 nsICursorContinueCallback

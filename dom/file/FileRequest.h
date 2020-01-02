@@ -61,7 +61,7 @@ FileRequest
 >
 Create
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aOwner
 LockedFile
@@ -109,7 +109,7 @@ protected
 :
 FileRequest
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )

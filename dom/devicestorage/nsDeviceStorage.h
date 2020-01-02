@@ -851,7 +851,7 @@ MOZ_OVERRIDE
 ;
 nsDOMDeviceStorageCursor
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 nsIPrincipal

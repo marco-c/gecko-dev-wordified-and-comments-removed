@@ -267,7 +267,7 @@ mBlob
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 mWindow
 ;

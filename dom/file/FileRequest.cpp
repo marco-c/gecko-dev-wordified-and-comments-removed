@@ -67,7 +67,7 @@ FileRequest
 :
 FileRequest
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 )
@@ -120,7 +120,7 @@ FileRequest
 :
 Create
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aOwner
 LockedFile

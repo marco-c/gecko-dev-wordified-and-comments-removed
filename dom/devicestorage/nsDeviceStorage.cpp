@@ -7699,7 +7699,7 @@ nsDOMDeviceStorageCursor
 :
 nsDOMDeviceStorageCursor
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aWindow
 nsIPrincipal
