@@ -531,7 +531,6 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 HTMLTrackElement
 nsGenericHTMLElement
 mTrack
-mChannel
 mMediaParent
 mListener
 )
@@ -1690,6 +1689,19 @@ aName
 false
 false
 )
+;
+}
+void
+HTMLTrackElement
+:
+:
+DropChannel
+(
+)
+{
+mChannel
+=
+nullptr
 ;
 }
 }
