@@ -169,11 +169,6 @@ bindings
 =
 [
 '
-Console
-.
-h
-'
-'
 FileReaderSync
 .
 h
@@ -225,11 +220,6 @@ SOURCES
 [
 '
 ChromeWorkerScope
-.
-cpp
-'
-'
-Console
 .
 cpp
 '

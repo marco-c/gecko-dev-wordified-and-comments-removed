@@ -185,7 +185,7 @@ Replaceable
 ]
 readonly
 attribute
-WorkerConsole
+Console
 console
 ;
 readonly

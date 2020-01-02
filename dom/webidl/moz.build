@@ -2225,11 +2225,6 @@ Worker
 webidl
 '
 '
-WorkerConsole
-.
-webidl
-'
-'
 WorkerGlobalScope
 .
 webidl

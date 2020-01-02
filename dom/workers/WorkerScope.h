@@ -25,6 +25,9 @@ namespace
 dom
 {
 class
+Console
+;
+class
 Function
 ;
 }
@@ -32,9 +35,6 @@ Function
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerPrivate
-;
-class
-WorkerConsole
 ;
 class
 WorkerLocation
@@ -52,7 +52,7 @@ nsIGlobalObject
 {
 nsRefPtr
 <
-WorkerConsole
+Console
 >
 mConsole
 ;
@@ -164,9 +164,11 @@ forget
 )
 ;
 }
-WorkerConsole
-*
+already_AddRefed
+<
 Console
+>
+GetConsole
 (
 )
 ;
