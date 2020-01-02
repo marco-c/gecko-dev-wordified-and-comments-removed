@@ -8246,6 +8246,11 @@ database
 "
 )
 ;
+if
+(
+ownerDoc
+)
+{
 ownerDoc
 -
 >
@@ -8253,6 +8258,7 @@ DisallowBFCaching
 (
 )
 ;
+}
 continue
 ;
 }
