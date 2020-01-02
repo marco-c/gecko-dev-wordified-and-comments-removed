@@ -80,6 +80,8 @@ DirectoryTraversal
     
 Exports
     
+ExternalLibrary
+    
 GeneratedInclude
     
 HostLibrary
@@ -8948,6 +8950,15 @@ obj
 linked_libraries
 :
             
+if
+not
+isinstance
+(
+lib
+ExternalLibrary
+)
+:
+                
 self
 .
 _compile_graph
@@ -8957,7 +8968,7 @@ build_target
 .
 add
 (
-                
+                    
 self
 .
 _build_target_for_obj

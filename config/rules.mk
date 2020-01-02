@@ -3395,6 +3395,8 @@ STATIC_LIBS_DEPS
 :
 =
 (
+wildcard
+(
 addsuffix
 .
 (
@@ -3402,6 +3404,7 @@ LIBS_DESC_SUFFIX
 )
 (
 STATIC_LIBS
+)
 )
 )
 #
