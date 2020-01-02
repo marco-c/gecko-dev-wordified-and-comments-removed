@@ -160,6 +160,10 @@ PRemoteOpenFile
 ;
 include
 protocol
+PDNSRequest
+;
+include
+protocol
 PBlob
 ;
 /
@@ -302,6 +306,9 @@ manages
 PUDPSocket
 ;
 manages
+PDNSRequest
+;
+manages
 PRemoteOpenFile
 ;
 manages
@@ -368,6 +375,14 @@ uint16_t
 port
 nsCString
 filter
+)
+;
+PDNSRequest
+(
+nsCString
+hostName
+uint32_t
+flags
 )
 ;
 PRemoteOpenFile
