@@ -254,6 +254,10 @@ boolean
 pauseOnExit
 ;
 attribute
+DOMString
+regionId
+;
+attribute
 DirectionSetting
 vertical
 ;
