@@ -52,6 +52,13 @@ Atomics
 h
 "
 #
+include
+"
+nsAutoPtr
+.
+h
+"
+#
 endif
 namespace
 IPC
@@ -192,6 +199,8 @@ defined
 (
 OS_LINUX
 )
+nsRefPtr
+<
 mozilla
 :
 :
@@ -199,7 +208,7 @@ ipc
 :
 :
 SharedMemoryBasic
-*
+>
 mSharedBuffer
 ;
 pthread_mutex_t

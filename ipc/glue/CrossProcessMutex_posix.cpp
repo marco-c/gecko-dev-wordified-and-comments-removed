@@ -125,10 +125,6 @@ char
 *
 )
 :
-mSharedBuffer
-(
-nullptr
-)
 mMutex
 (
 nullptr
@@ -260,10 +256,6 @@ CrossProcessMutexHandle
 aHandle
 )
 :
-mSharedBuffer
-(
-nullptr
-)
 mMutex
 (
 nullptr
@@ -438,9 +430,6 @@ mMutex
 )
 ;
 }
-delete
-mSharedBuffer
-;
 MOZ_COUNT_DTOR
 (
 CrossProcessMutex
