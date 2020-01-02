@@ -9136,6 +9136,13 @@ tooltip
 aHTMLTooltip
 "
 "
+context
+"
+:
+"
+contentAreaContextMenu
+"
+"
 style
 "
 :
