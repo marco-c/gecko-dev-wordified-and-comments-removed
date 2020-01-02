@@ -17,6 +17,10 @@ machformatter
 import
 MachFormatter
 MachTerminalFormatter
+from
+tbplformatter
+import
+TbplFormatter
 def
 JSONFormatter
 (
