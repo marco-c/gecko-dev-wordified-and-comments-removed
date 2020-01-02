@@ -107,6 +107,9 @@ mListener
 nsWeakPtr
 mWindow
 ;
+uint32_t
+mClientId
+;
 bool
 CheckPermission
 (
