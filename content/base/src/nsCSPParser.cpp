@@ -1027,7 +1027,7 @@ params
 ]
 =
 {
-mCurValue
+mCurToken
 .
 get
 (
@@ -1041,7 +1041,7 @@ nsIScriptError
 :
 warningFlag
 "
-policyURIParseError
+couldntParsePort
 "
 params
 ArrayLength
@@ -1617,7 +1617,7 @@ params
 ]
 =
 {
-mCurValue
+mCurToken
 .
 get
 (
@@ -1631,7 +1631,7 @@ nsIScriptError
 :
 warningFlag
 "
-policyURIParseError
+couldntParseInvalidHost
 "
 params
 ArrayLength
@@ -1662,7 +1662,7 @@ params
 ]
 =
 {
-mCurValue
+mCurToken
 .
 get
 (
@@ -1676,7 +1676,7 @@ nsIScriptError
 :
 warningFlag
 "
-policyURIParseError
+couldntParseInvalidHost
 "
 params
 ArrayLength
@@ -1705,7 +1705,7 @@ params
 ]
 =
 {
-mCurValue
+mCurToken
 .
 get
 (
@@ -1719,7 +1719,7 @@ nsIScriptError
 :
 warningFlag
 "
-policyURIParseError
+couldntParseInvalidHost
 "
 params
 ArrayLength
@@ -1758,7 +1758,7 @@ params
 ]
 =
 {
-mCurValue
+mCurToken
 .
 get
 (
@@ -1865,7 +1865,7 @@ params
 ]
 =
 {
-mCurValue
+mCurToken
 .
 get
 (
@@ -1879,7 +1879,7 @@ nsIScriptError
 :
 warningFlag
 "
-policyURIParseError
+couldntParseInvalidSource
 "
 params
 ArrayLength
