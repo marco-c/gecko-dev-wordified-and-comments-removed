@@ -586,7 +586,7 @@ Check
 reports
 .
 let
-vsizes
+residents
 =
 {
 }
@@ -680,7 +680,7 @@ aPath
 =
 =
 "
-vsize
+resident
 "
 )
 {
@@ -705,13 +705,13 @@ aAmount
 *
 1000
 "
-vsize
+resident
 is
 reasonable
 "
 )
 ;
-vsizes
+residents
 [
 aProcess
 ]
@@ -770,7 +770,7 @@ Object
 .
 keys
 (
-vsizes
+residents
 )
 ;
 ok
@@ -785,7 +785,7 @@ numRemotes
 1
 "
 correct
-vsize
+resident
 count
 "
 )
