@@ -275,13 +275,8 @@ valueSpan
 .
 textContent
 "
-rgba
-(
-0
-0
-0
-1
-)
+#
+000
 "
 "
 The

@@ -928,13 +928,15 @@ textContent
 "
 url
 (
-'
+\
+"
 images
 /
 arrow
 .
 gif
-'
+\
+"
 )
 !
 important

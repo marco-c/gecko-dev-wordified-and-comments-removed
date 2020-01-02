@@ -1645,7 +1645,8 @@ _appendTextNode
 "
 url
 (
-'
+\
+"
 "
 )
 ;
@@ -1703,7 +1704,8 @@ this
 _appendTextNode
 (
 "
-'
+\
+"
 )
 "
 )
@@ -1718,13 +1720,15 @@ _appendTextNode
 "
 url
 (
-'
+\
+"
 "
 +
 url
 +
 "
-'
+\
+"
 )
 "
 )

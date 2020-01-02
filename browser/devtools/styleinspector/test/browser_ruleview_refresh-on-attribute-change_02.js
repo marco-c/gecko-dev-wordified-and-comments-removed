@@ -1214,7 +1214,8 @@ set
 "
 url
 (
-'
+\
+"
 chrome
 :
 /
@@ -1228,7 +1229,8 @@ about
 logo
 .
 png
-'
+\
+"
 )
 repeat
 scroll

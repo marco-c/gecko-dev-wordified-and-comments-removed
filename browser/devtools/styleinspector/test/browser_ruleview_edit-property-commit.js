@@ -52,8 +52,7 @@ modifiers
 expected
 :
 "
-#
-F00
+red
 "
 }
 {
