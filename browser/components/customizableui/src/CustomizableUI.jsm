@@ -4048,13 +4048,10 @@ id
 }
 return
 [
-i
-for
-(
-i
-of
+.
+.
+.
 widgets
-)
 ]
 ;
 }
