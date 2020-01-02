@@ -351,16 +351,6 @@ TextEncoder
 )
 ;
 const
-PERMS_FILE
-=
-0644
-;
-const
-PERMS_DIRECTORY
-=
-0755
-;
-const
 MODE_RDONLY
 =
 0x01
@@ -3180,6 +3170,8 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
+FileUtils
+.
 PERMS_FILE
 )
 ;
@@ -5402,6 +5394,8 @@ this
 .
 _file
 MODE_RDONLY
+FileUtils
+.
 PERMS_FILE
 false
 )
@@ -11809,6 +11803,8 @@ MODE_WRONLY
 |
 MODE_TRUNCATE
 )
+FileUtils
+.
 PERMS_FILE
 0
 )
@@ -16512,6 +16508,8 @@ init
 (
 aFile
 MODE_RDONLY
+FileUtils
+.
 PERMS_FILE
 0
 )
