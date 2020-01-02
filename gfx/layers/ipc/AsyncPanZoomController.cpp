@@ -1772,6 +1772,13 @@ mTreeManager
 (
 aTreeManager
 )
+mScrollParentId
+(
+FrameMetrics
+:
+:
+NULL_SCROLL_ID
+)
 mAPZCId
 (
 sAsyncPanZoomControllerCount
