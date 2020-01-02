@@ -1270,6 +1270,11 @@ MutationObserver
 webidl
 '
 '
+NativeOSFileInternals
+.
+webidl
+'
+'
 NetDashboard
 .
 webidl

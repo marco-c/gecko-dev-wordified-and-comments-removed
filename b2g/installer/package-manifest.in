@@ -1685,6 +1685,13 @@ BINPATH
 /
 components
 /
+toolkit_osfile
+.
+xpt
+BINPATH
+/
+components
+/
 toolkitprofile
 .
 xpt
