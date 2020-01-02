@@ -632,24 +632,31 @@ idl
 xpidl_module
 )
         
-if
-sandbox
-[
+for
+symbol
+in
+(
 '
 CPP_SOURCES
 '
-]
+'
+CSRCS
+'
+)
 :
             
 for
 src
 in
+(
 sandbox
 [
-'
-CPP_SOURCES
-'
+symbol
 ]
+or
+[
+]
+)
 :
                 
 if
@@ -695,7 +702,8 @@ doesn
 t
 exist
 in
-CPP_SOURCES
+%
+s
 (
 %
 s
@@ -707,6 +715,7 @@ s
                         
 %
 (
+symbol
 src
 sandbox
 [
