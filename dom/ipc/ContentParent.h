@@ -1629,6 +1629,10 @@ virtual
 bool
 RecvEmptyClipboard
 (
+const
+int32_t
+&
+whichClipboard
 )
 MOZ_OVERRIDE
 ;
@@ -1636,6 +1640,10 @@ virtual
 bool
 RecvClipboardHasText
 (
+const
+int32_t
+&
+whichClipboard
 bool
 *
 hasText
