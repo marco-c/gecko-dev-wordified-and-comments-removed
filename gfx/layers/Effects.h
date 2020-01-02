@@ -271,7 +271,6 @@ gfx
 Filter
 mFilter
 ;
-;
 }
 ;
 struct
