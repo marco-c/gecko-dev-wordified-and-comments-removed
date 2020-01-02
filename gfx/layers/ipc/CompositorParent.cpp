@@ -722,7 +722,7 @@ options
 .
 permanent_hang_timeout
 =
-8192
+2048
 ;
 if
 (
