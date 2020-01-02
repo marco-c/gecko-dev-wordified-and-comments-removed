@@ -55,10 +55,6 @@ mozbuild
 .
 sphinx
 '
-    
-'
-javasphinx
-'
 ]
 templates_path
 =
