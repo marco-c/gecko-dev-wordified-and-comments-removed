@@ -3545,6 +3545,11 @@ GetPrimaryFrame
 (
 )
 ;
+if
+(
+frame
+)
+{
 bool
 isRoot
 =
@@ -3592,11 +3597,6 @@ isRoot
 true
 ;
 }
-if
-(
-frame
-)
-{
 nsPresContext
 *
 presContext
