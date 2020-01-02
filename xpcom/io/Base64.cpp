@@ -1156,6 +1156,14 @@ state
 buffer
 )
 ;
+if
+(
+aDest
+.
+Length
+(
+)
+)
 *
 aDest
 .

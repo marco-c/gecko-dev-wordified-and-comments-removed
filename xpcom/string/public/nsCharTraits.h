@@ -321,6 +321,7 @@ incompatible_char_type
 static
 char_type
 *
+const
 sEmptyBuffer
 ;
 static
@@ -1258,6 +1259,7 @@ incompatible_char_type
 static
 char_type
 *
+const
 sEmptyBuffer
 ;
 static
