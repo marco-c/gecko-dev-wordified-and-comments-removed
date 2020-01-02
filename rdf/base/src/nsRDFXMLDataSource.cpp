@@ -1427,11 +1427,9 @@ RDFXMLDataSourceImpl
 void
 )
 {
-nsresult
-rv
-;
-rv
-=
+(
+void
+)
 gRDFService
 -
 >
@@ -1440,8 +1438,9 @@ UnregisterDataSource
 this
 )
 ;
-rv
-=
+(
+void
+)
 Flush
 (
 )
