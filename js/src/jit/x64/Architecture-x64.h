@@ -53,6 +53,13 @@ ShadowStackSpace
 ;
 #
 endif
+static
+const
+uint32_t
+MaxAliasedRegisters
+=
+1
+;
 class
 Registers
 {
