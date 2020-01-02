@@ -738,11 +738,6 @@ tag
 listener
 .
 tag
-timestamp
-:
-listener
-.
-timestamp
 }
 Services
 .
@@ -987,7 +982,6 @@ uid
 bidi
 lang
 manifestURL
-timestamp
 )
 {
 function
@@ -1033,9 +1027,6 @@ appIcon
 manifestURL
 :
 manifestURL
-timestamp
-:
-timestamp
 }
 )
 ;
@@ -1282,14 +1273,6 @@ tag
 |
 |
 undefined
-timestamp
-:
-details
-.
-timestamp
-|
-|
-undefined
 }
 ;
 this
@@ -1331,9 +1314,6 @@ lang
 details
 .
 manifestURL
-details
-.
-timestamp
 )
 ;
 }

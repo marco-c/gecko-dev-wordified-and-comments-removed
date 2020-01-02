@@ -98,16 +98,6 @@ EXTRA_COMPONENTS
 =
 [
 '
-ChromeNotifications
-.
-js
-'
-'
-ChromeNotifications
-.
-manifest
-'
-'
 NotificationStorage
 .
 js
