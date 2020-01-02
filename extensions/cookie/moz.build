@@ -121,7 +121,7 @@ MODULE
 '
 cookie
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

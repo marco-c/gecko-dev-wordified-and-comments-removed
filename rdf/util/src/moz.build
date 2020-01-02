@@ -114,7 +114,7 @@ objs
 mozbuild
 '
 )
-CPP_SOURCES
+SOURCES
 +
 =
 rdf_util_src_cppsrcs

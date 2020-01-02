@@ -116,7 +116,7 @@ MODULE
 '
 alerts
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

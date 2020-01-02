@@ -322,7 +322,7 @@ nsLocalFileOS2
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -355,7 +355,7 @@ nsLocalFileWin
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -377,7 +377,7 @@ nsLocalFileUnix
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -504,7 +504,7 @@ Base64
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -632,7 +632,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

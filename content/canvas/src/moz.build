@@ -137,7 +137,7 @@ TextMetrics
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -185,7 +185,7 @@ MOZ_WEBGL
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -412,7 +412,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

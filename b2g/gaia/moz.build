@@ -114,7 +114,7 @@ OS_ARCH
 WINNT
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

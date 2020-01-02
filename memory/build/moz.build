@@ -136,7 +136,7 @@ replace_malloc
 h
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -159,7 +159,7 @@ MOZ_JEMALLOC3
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -177,7 +177,7 @@ MOZ_REPLACE_MALLOC
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [

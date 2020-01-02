@@ -106,7 +106,7 @@ PROGRAM
 '
 jprof
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

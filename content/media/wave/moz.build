@@ -113,7 +113,7 @@ WaveReader
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

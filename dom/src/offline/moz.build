@@ -108,7 +108,7 @@ nsDOMOfflineResourceList
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

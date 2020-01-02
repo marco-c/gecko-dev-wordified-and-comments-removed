@@ -103,7 +103,7 @@ PROGRAM
 '
 ipdlunittest
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

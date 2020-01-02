@@ -98,7 +98,7 @@ MODULE
 '
 faststartupqt
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -293,7 +293,7 @@ WaveShaperNode
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

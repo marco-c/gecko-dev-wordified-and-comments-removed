@@ -114,7 +114,7 @@ stdc
 +
 compat
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -143,7 +143,7 @@ host_stdc
 +
 compat
 '
-HOST_CPPSRCS
+HOST_SOURCES
 +
 =
 [

@@ -152,7 +152,7 @@ DNS
 h
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -172,7 +172,7 @@ race
 c
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

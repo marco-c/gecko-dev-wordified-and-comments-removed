@@ -106,7 +106,7 @@ MODULE
 '
 jsctypes
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

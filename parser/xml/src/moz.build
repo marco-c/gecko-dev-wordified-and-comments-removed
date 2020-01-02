@@ -118,7 +118,7 @@ nsSAXXMLReader
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

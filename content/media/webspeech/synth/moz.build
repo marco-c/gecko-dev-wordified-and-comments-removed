@@ -165,7 +165,7 @@ SpeechSynthesisVoice
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 js
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

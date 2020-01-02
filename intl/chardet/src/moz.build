@@ -98,7 +98,7 @@ MODULE
 '
 chardet
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

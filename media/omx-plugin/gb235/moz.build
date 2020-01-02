@@ -101,7 +101,7 @@ omxplugingb235
 NO_DIST_INSTALL
 =
 True
-CPP_SOURCES
+SOURCES
 +
 =
 [

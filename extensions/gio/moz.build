@@ -98,7 +98,7 @@ MODULE
 '
 nkgio
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

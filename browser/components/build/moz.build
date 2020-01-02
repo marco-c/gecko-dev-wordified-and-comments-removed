@@ -108,7 +108,7 @@ nsBrowserCompsCID
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

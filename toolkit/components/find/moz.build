@@ -108,7 +108,7 @@ MODULE
 '
 mozfind
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

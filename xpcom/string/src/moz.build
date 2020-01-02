@@ -98,7 +98,7 @@ MODULE
 '
 string
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -178,7 +178,7 @@ INTEL_ARCHITECTURE
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

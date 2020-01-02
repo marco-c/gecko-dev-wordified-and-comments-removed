@@ -98,7 +98,7 @@ MODULE
 '
 mozglue
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -133,7 +133,7 @@ LIBRARY_NAME
 '
 linker
 '
-HOST_CPPSRCS
+HOST_SOURCES
 +
 =
 [

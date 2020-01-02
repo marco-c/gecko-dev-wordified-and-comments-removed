@@ -98,7 +98,7 @@ MODULE
 '
 necko
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -162,7 +162,7 @@ ftp
 -
 1
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -190,7 +190,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

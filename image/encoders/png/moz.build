@@ -98,7 +98,7 @@ MODULE
 '
 imgpnge
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 txmgr
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -142,7 +142,7 @@ AlarmHalService
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

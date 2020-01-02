@@ -154,7 +154,7 @@ randtable
 c
 '
 ]
-HOST_CSRCS
+HOST_SOURCES
 +
 =
 csrcs
@@ -168,7 +168,7 @@ LIBRARY_NAME
 '
 bz2
 '
-CSRCS
+SOURCES
 +
 =
 [

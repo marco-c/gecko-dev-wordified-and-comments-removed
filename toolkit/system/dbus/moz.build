@@ -98,7 +98,7 @@ MODULE
 '
 dbus
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

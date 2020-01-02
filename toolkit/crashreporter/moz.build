@@ -456,7 +456,7 @@ DIRS
 injector
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -494,7 +494,7 @@ nsExceptionHandler
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -517,7 +517,7 @@ OS_ARCH
 Darwin
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

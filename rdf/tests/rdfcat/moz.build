@@ -98,7 +98,7 @@ PROGRAM
 '
 rdfcat
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 neckosystem_s
 '
-CMMSRCS
+SOURCES
 +
 =
 [

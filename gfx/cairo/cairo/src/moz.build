@@ -199,7 +199,7 @@ MOZ_ENABLE_DWRITE_FONT
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -221,7 +221,7 @@ MOZ_ENABLE_D2D_SURFACE
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -341,7 +341,7 @@ beos
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -449,7 +449,7 @@ qt
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -524,7 +524,7 @@ mozcairo
 LIBXUL_LIBRARY
 =
 True
-CSRCS
+SOURCES
 +
 =
 [

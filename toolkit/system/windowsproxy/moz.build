@@ -98,7 +98,7 @@ MODULE
 '
 windowsproxy
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 webbrowserpersist
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

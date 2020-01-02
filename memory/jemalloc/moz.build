@@ -98,7 +98,7 @@ MODULE
 '
 jemalloc
 '
-CSRCS
+SOURCES
 +
 =
 [
@@ -341,7 +341,7 @@ MOZ_REPLACE_MALLOC
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [

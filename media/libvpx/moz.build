@@ -269,7 +269,7 @@ VPX_NEED_OBJ_INT_EXTRACT
 '
 ]
 :
-HOST_CSRCS
+HOST_SOURCES
 +
 =
 [
@@ -288,7 +288,7 @@ LIBRARY_NAME
 '
 vpx
 '
-CSRCS
+SOURCES
 +
 =
 [

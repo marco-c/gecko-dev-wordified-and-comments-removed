@@ -119,7 +119,7 @@ GNU_CXX
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -134,7 +134,7 @@ xptcstubs_x86_64_gnu
 cpp
 '
 ]
-ASFILES
+SOURCES
 +
 =
 [
@@ -146,7 +146,7 @@ s
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -161,7 +161,7 @@ xptcstubs_x86_64
 cpp
 '
 ]
-ASFILES
+SOURCES
 +
 =
 [
@@ -186,7 +186,7 @@ GNU_CXX
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -203,7 +203,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 htmlparser
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

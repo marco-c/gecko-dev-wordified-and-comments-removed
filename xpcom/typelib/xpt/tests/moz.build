@@ -108,7 +108,7 @@ PrimitiveTest
 SimpleTypeLib
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [

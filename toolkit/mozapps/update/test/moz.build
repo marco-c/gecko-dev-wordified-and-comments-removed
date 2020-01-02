@@ -124,7 +124,7 @@ TestAUSHelper
 TestAUSReadStrings
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

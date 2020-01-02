@@ -98,7 +98,7 @@ MODULE
 '
 embedcomponents
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -118,7 +118,7 @@ LIBRARY_NAME
 '
 printingui_s
 '
-CMMSRCS
+SOURCES
 +
 =
 [

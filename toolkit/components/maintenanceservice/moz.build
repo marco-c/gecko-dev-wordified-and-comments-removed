@@ -98,7 +98,7 @@ PROGRAM
 '
 maintenanceservice
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

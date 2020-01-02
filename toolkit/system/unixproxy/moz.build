@@ -106,7 +106,7 @@ MOZ_ENABLE_LIBPROXY
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -118,7 +118,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

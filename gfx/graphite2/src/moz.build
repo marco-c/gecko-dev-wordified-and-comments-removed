@@ -196,7 +196,7 @@ GNU_CC
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -208,7 +208,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -235,7 +235,7 @@ except
 _machine
 .
 cpp
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 lwbrk
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -126,7 +126,7 @@ MOZ_WIDGET_GTK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -149,7 +149,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -172,7 +172,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -184,7 +184,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -194,7 +194,7 @@ nsRuleBreaker
 cpp
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [

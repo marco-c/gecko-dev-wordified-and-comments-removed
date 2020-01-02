@@ -98,7 +98,7 @@ PROGRAM
 '
 ssltunnel
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

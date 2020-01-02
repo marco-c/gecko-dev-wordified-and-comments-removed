@@ -144,7 +144,7 @@ StartupCacheUtils
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

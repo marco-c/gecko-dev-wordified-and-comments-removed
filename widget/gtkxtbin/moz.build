@@ -124,7 +124,7 @@ MOZ_ENABLE_GTK2
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [

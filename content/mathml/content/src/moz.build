@@ -98,7 +98,7 @@ MODULE
 '
 content
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

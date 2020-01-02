@@ -116,7 +116,7 @@ nsITableCellLayout
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

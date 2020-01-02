@@ -106,7 +106,7 @@ MODULE
 '
 layout
 '
-HOST_CPPSRCS
+HOST_SOURCES
 +
 =
 [

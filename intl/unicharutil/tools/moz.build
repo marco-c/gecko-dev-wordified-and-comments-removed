@@ -103,7 +103,7 @@ PROGRAM
 '
 ucgendat
 '
-CSRCS
+SOURCES
 +
 =
 [

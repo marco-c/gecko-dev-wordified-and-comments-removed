@@ -113,7 +113,7 @@ GfxInfoCollector
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -246,7 +246,7 @@ MOZ_X11
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -276,7 +276,7 @@ windows
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -321,7 +321,7 @@ gonk
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -357,7 +357,7 @@ cocoa
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

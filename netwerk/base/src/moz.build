@@ -142,7 +142,7 @@ DashboardTypes
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -440,7 +440,7 @@ MOZ_WIDGET_TOOLKIT
 os2
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -463,7 +463,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -496,7 +496,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -508,7 +508,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -526,7 +526,7 @@ MOZ_ENABLE_QTNETWORK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -194,7 +194,7 @@ HAVE_ARM_NEON
 '
 ]
 :
-SSRCS
+SOURCES
 +
 =
 [
@@ -231,7 +231,7 @@ HAVE_ARM_SIMD
 '
 ]
 :
-SSRCS
+SOURCES
 +
 =
 [
@@ -263,7 +263,7 @@ S
 LIBXUL_LIBRARY
 =
 True
-CSRCS
+SOURCES
 +
 =
 [

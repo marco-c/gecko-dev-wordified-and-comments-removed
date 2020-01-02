@@ -113,7 +113,7 @@ nsFontFaceList
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -166,7 +166,7 @@ MOZ_XUL
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

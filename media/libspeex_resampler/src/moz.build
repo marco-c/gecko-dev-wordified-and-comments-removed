@@ -120,7 +120,7 @@ speex_types
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -135,7 +135,7 @@ LIBRARY_NAME
 '
 speex_resampler
 '
-CSRCS
+SOURCES
 +
 =
 [

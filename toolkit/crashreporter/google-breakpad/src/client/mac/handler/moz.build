@@ -98,7 +98,7 @@ MODULE
 '
 handler
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

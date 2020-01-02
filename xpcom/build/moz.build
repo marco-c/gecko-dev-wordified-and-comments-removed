@@ -195,7 +195,7 @@ perfprobe
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -228,7 +228,7 @@ OS_ARCH
 Darwin
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -245,7 +245,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -268,15 +268,15 @@ objs
 mozbuild
 '
 )
-CPP_SOURCES
+SOURCES
 +
 =
 xpcom_gluens_src_cppsrcs
-CPP_SOURCES
+SOURCES
 +
 =
 xpcom_glue_src_cppsrcs
-CPP_SOURCES
+SOURCES
 +
 =
 [

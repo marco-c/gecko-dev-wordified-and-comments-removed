@@ -239,7 +239,7 @@ Transport_win
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -280,7 +280,7 @@ Transport_posix
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -358,7 +358,7 @@ SharedMemoryBasic_android
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -397,7 +397,7 @@ OS_ARCH
 Linux
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -409,7 +409,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -431,7 +431,7 @@ IPCMessageUtils
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

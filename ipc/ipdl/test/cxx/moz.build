@@ -140,7 +140,7 @@ IPDLUnitTestUtils
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

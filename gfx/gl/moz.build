@@ -406,7 +406,7 @@ WGLLibrary
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -439,7 +439,7 @@ GLContextSkia
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -462,7 +462,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -490,7 +490,7 @@ gl_provider
 CGL
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [
@@ -516,7 +516,7 @@ SharedSurfaceIO
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -528,7 +528,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -542,7 +542,7 @@ cpp
 %
 gl_provider
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 rdf
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

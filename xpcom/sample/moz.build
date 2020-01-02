@@ -201,7 +201,7 @@ into
 a
 library
 .
-CPP_SOURCES
+SOURCES
 +
 =
 [

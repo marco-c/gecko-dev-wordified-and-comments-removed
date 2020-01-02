@@ -98,7 +98,7 @@ MODULE
 '
 browser
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

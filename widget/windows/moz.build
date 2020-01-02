@@ -156,7 +156,7 @@ AudioSession
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -379,7 +379,7 @@ MOZ_CRASHREPORTER
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -397,7 +397,7 @@ NS_PRINTING
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -425,7 +425,7 @@ NS_ENABLE_TSF
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -156,7 +156,7 @@ updatehelper
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -176,7 +176,7 @@ updatehelper
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

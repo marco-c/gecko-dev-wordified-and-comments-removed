@@ -195,7 +195,7 @@ compiler
 /
 preprocessor
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -287,7 +287,7 @@ src
 /
 compiler
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -452,7 +452,7 @@ compiler
 /
 depgraph
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -499,7 +499,7 @@ compiler
 /
 timing
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -536,7 +536,7 @@ third_party
 /
 compiler
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -568,7 +568,7 @@ third_party
 /
 murmurhash
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -606,7 +606,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -622,7 +622,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -653,7 +653,7 @@ src
 /
 compiler
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

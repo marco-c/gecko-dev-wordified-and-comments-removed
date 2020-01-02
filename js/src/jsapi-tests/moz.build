@@ -100,7 +100,7 @@ jsapi
 -
 tests
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -116,7 +116,7 @@ MODULE
 '
 identity
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

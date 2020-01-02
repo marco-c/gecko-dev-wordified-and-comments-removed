@@ -98,7 +98,7 @@ MODULE
 '
 accessibility
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

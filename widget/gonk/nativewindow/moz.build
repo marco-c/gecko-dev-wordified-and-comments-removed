@@ -286,7 +286,7 @@ in
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -324,7 +324,7 @@ ANDROID_VERSION
 15
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

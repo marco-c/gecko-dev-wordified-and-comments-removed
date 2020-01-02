@@ -469,7 +469,7 @@ WindowsVersion
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -592,7 +592,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -615,7 +615,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -625,7 +625,7 @@ nsCrashOnException
 cpp
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [

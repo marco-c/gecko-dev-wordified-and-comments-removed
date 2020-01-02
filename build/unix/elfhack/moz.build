@@ -104,7 +104,7 @@ DIRS
 inject
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -132,7 +132,7 @@ CROSS_COMPILE
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -142,7 +142,7 @@ dummy
 c
 '
 ]
-HOST_CPPSRCS
+HOST_SOURCES
 +
 =
 [

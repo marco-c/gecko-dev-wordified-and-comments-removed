@@ -128,7 +128,7 @@ nsMimeTypes
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

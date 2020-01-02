@@ -98,7 +98,7 @@ MODULE
 '
 find
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

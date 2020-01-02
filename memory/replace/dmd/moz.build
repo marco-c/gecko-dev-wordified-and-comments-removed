@@ -108,7 +108,7 @@ DMD
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -152,7 +152,7 @@ DMD
 cpp
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [

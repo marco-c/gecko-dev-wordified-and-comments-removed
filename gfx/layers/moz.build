@@ -328,7 +328,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -388,7 +388,7 @@ TextureD3D9
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -520,7 +520,7 @@ ShadowLayerUtilsD3D10
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -983,7 +983,7 @@ ShadowLayerUtilsX11
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1024,7 +1024,7 @@ GLManager
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1106,7 +1106,7 @@ ShadowLayerUtilsGralloc
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1137,7 +1137,7 @@ GrallocTextureHost
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ PROGRAM
 '
 CommandExecuteHandler
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

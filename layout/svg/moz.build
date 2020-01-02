@@ -133,7 +133,7 @@ SVGImageContext
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

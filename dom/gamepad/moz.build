@@ -117,7 +117,7 @@ GamepadService
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 =
 [
 '

@@ -98,7 +98,7 @@ PROGRAM
 '
 linktool
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

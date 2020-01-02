@@ -107,7 +107,7 @@ PROGRAM
 '
 spacetrace
 '
-CSRCS
+SOURCES
 +
 =
 [
@@ -145,7 +145,7 @@ leakstats
 tmstats
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -162,7 +162,7 @@ s
 in
 simple_c_sources
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -202,7 +202,7 @@ bloatblame
 leaksoup
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

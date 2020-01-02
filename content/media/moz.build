@@ -574,7 +574,7 @@ VideoStreamTrack
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -787,7 +787,7 @@ BUILD_ARM_NEON
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

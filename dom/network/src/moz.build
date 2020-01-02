@@ -134,7 +134,7 @@ Types
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -172,7 +172,7 @@ MOZ_B2G_RIL
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

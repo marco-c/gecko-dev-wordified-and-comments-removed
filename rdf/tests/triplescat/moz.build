@@ -98,7 +98,7 @@ PROGRAM
 '
 triplescat
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 embedcomponents
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

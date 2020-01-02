@@ -123,7 +123,7 @@ MODULE
 '
 layout
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

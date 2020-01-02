@@ -114,7 +114,7 @@ MODULE
 '
 widget
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

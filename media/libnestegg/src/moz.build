@@ -98,7 +98,7 @@ MODULE
 '
 nestegg
 '
-CSRCS
+SOURCES
 +
 =
 [

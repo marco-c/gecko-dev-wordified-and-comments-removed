@@ -122,7 +122,7 @@ FMRadioRequestParent
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

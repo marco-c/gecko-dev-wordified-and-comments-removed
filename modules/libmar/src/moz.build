@@ -113,7 +113,7 @@ mar_cmdline
 h
 '
 ]
-HOST_CSRCS
+HOST_SOURCES
 +
 =
 [
@@ -143,7 +143,7 @@ LIBRARY_NAME
 '
 mar
 '
-CSRCS
+SOURCES
 +
 =
 [

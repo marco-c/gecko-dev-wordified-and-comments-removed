@@ -262,7 +262,7 @@ nsVolumeService
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -367,7 +367,7 @@ xpcshell
 ini
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

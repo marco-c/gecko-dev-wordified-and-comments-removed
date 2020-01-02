@@ -117,7 +117,7 @@ MOZ_JEMALLOC3
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [

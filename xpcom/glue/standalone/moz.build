@@ -157,11 +157,11 @@ objs
 mozbuild
 '
 )
-CPP_SOURCES
+SOURCES
 +
 =
 xpcom_glue_src_cppsrcs
-CPP_SOURCES
+SOURCES
 +
 =
 [

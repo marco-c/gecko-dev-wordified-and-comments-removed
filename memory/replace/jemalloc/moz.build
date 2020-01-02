@@ -101,7 +101,7 @@ memory
 NO_DIST_INSTALL
 =
 True
-CSRCS
+SOURCES
 +
 =
 [
@@ -179,7 +179,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-CSRCS
+SOURCES
 +
 =
 [

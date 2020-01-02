@@ -122,7 +122,7 @@ RawDBusConnection
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

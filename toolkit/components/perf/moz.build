@@ -98,7 +98,7 @@ MODULE
 '
 jsperf
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

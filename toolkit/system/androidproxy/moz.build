@@ -98,7 +98,7 @@ MODULE
 '
 androidproxy
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

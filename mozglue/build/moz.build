@@ -208,7 +208,7 @@ go
 here
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -231,7 +231,7 @@ OS_TARGET
 Android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -293,7 +293,7 @@ x86
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -316,7 +316,7 @@ CPU_ARCH
 arm
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -334,7 +334,7 @@ MOZ_ASAN
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -362,7 +362,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CSRCS
+SOURCES
 +
 =
 [

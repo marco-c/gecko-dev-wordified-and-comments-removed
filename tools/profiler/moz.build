@@ -182,7 +182,7 @@ Profiler
 jsm
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -289,7 +289,7 @@ Linux
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -323,7 +323,7 @@ CPU_ARCH
 arm
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -346,7 +346,7 @@ OS_TARGET
 Darwin
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -367,7 +367,7 @@ macos
 cc
 '
 ]
-CMMSRCS
+SOURCES
 +
 =
 [
@@ -390,7 +390,7 @@ OS_TARGET
 WINNT
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

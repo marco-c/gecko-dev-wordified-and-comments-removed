@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 imgiconmac_s
 '
-CMMSRCS
+SOURCES
 +
 =
 [

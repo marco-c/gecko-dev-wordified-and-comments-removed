@@ -108,7 +108,7 @@ sources
 OCSPStaplingServer
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

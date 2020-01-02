@@ -128,7 +128,7 @@ the
 CA
 certificate
 list
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -151,7 +151,7 @@ OS_ARCH
 WINNT
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -174,7 +174,7 @@ OS_ARCH
 Darwin
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -197,7 +197,7 @@ OS_ARCH
 SunOS
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -220,7 +220,7 @@ MOZ_ENABLE_GTK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -253,7 +253,7 @@ OS_ARCH
 Darwin
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

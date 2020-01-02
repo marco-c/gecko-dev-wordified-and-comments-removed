@@ -111,7 +111,7 @@ PROGRAM
 '
 signmar
 '
-CSRCS
+SOURCES
 =
 [
 '
@@ -120,7 +120,7 @@ mar
 c
 '
 ]
-HOST_CSRCS
+HOST_SOURCES
 +
 =
-CSRCS
+SOURCES

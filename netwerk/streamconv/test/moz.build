@@ -103,7 +103,7 @@ PROGRAM
 '
 TestStreamConv
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

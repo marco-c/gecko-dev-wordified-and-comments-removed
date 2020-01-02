@@ -116,7 +116,7 @@ nsQtKeyUtils
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -249,7 +249,7 @@ MOZ_ENABLE_CONTENTMANAGER
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -272,7 +272,7 @@ MOZ_ENABLE_QTMOBILITY
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

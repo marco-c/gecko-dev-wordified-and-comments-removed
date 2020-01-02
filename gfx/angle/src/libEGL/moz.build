@@ -115,7 +115,7 @@ src
 /
 common
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -148,7 +148,7 @@ cpp
 src
 /
 libEGL
-CPP_SOURCES
+SOURCES
 +
 =
 [

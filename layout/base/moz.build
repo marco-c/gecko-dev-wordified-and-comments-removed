@@ -119,7 +119,7 @@ IBMBIDI
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -142,7 +142,7 @@ MOZ_DEBUG
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -344,7 +344,7 @@ PaintTracker
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

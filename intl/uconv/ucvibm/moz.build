@@ -108,7 +108,7 @@ nsUCvIBMCID
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -131,7 +131,7 @@ OS_ARCH
 OS2
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

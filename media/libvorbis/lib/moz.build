@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 vorbis
 '
-CSRCS
+SOURCES
 +
 =
 [

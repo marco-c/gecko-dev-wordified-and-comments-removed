@@ -250,7 +250,7 @@ X11Util
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -260,7 +260,7 @@ X11Util
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

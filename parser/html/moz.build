@@ -283,7 +283,7 @@ nsParserUtils
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

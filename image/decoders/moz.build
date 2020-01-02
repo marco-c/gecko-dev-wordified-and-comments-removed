@@ -266,7 +266,7 @@ MODULE
 '
 imgdecoders
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -317,7 +317,7 @@ True
 LIBXUL_LIBRARY
 =
 True
-CSRCS
+SOURCES
 +
 =
 [

@@ -112,7 +112,7 @@ True
 MSVC_ENABLE_PGO
 =
 True
-CPP_SOURCES
+SOURCES
 +
 =
 [

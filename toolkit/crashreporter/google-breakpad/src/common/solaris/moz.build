@@ -98,7 +98,7 @@ MODULE
 '
 breakpad_solaris_common
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -141,7 +141,7 @@ it
 depends
 on
 libcurl
-HOST_CPPSRCS
+HOST_SOURCES
 +
 =
 [

@@ -100,7 +100,7 @@ gdb
 -
 tests
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

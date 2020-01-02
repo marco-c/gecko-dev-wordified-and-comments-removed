@@ -98,7 +98,7 @@ MODULE
 '
 xultmpl
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -98,7 +98,7 @@ MODULE
 '
 minidump_file_writer
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

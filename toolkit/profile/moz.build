@@ -131,7 +131,7 @@ MODULE
 '
 xulapp
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -150,7 +150,7 @@ nsProfileLock
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

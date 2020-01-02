@@ -98,7 +98,7 @@ MODULE
 '
 browser_feeds
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -111,7 +111,7 @@ OS_ARCH
 Darwin
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -159,7 +159,7 @@ CPU_ARCH
 x86
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -219,7 +219,7 @@ OS_TEST
 x86_64
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -253,7 +253,7 @@ find
 -
 1
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -304,7 +304,7 @@ ia64
 -
 1
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -344,7 +344,7 @@ OS_TEST
 x86_64
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -385,7 +385,7 @@ OS_TEST
 x86
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -413,7 +413,7 @@ OS_TEST
 arm
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -441,7 +441,7 @@ OS_TEST
 sh
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -490,7 +490,7 @@ GNU_CC
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -507,7 +507,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -549,7 +549,7 @@ GNU_CC
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -566,7 +566,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -614,7 +614,7 @@ NetBSD
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -642,7 +642,7 @@ OS_ARCH
 OpenBSD
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -697,7 +697,7 @@ OS_ARCH
 Linux
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -725,7 +725,7 @@ OS_ARCH
 NetBSD
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -765,7 +765,7 @@ OS_ARCH
 OpenBSD
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -821,7 +821,7 @@ OS_TEST
 ia64
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -838,7 +838,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -898,7 +898,7 @@ GNU_CXX
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -983,7 +983,7 @@ x68k
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1024,7 +1024,7 @@ OS_TEST
 m68k
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1077,7 +1077,7 @@ mips64
 -
 1
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1094,7 +1094,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1130,7 +1130,7 @@ HAVE_64BIT_OS
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1147,7 +1147,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1192,7 +1192,7 @@ FreeBSD
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1237,7 +1237,7 @@ FreeBSD
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1291,7 +1291,7 @@ OS_ARCH
 NetBSD
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1331,7 +1331,7 @@ OS_TEST
 powerpc
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1377,7 +1377,7 @@ sparc
 -
 1
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1417,7 +1417,7 @@ OS_TEST
 sparc
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1457,7 +1457,7 @@ OS_TEST
 sparc
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1497,7 +1497,7 @@ OS_TEST
 sparc64
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1551,7 +1551,7 @@ HAVE_64BIT_OS
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1568,7 +1568,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1609,7 +1609,7 @@ OS_TEST
 s390
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1637,7 +1637,7 @@ OS_TEST
 s390x
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

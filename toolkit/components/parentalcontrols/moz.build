@@ -137,7 +137,7 @@ LIBRARY_NAME
 '
 parentalcontrols_s
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

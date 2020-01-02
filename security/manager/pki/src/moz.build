@@ -98,7 +98,7 @@ MODULE
 '
 pippki
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

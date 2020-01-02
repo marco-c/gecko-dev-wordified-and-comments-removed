@@ -193,7 +193,7 @@ nativewindow
 #
 libui
 files
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -299,7 +299,7 @@ cpp
 '
 ]
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

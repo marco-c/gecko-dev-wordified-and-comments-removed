@@ -98,7 +98,7 @@ MODULE
 '
 cubeb
 '
-CSRCS
+SOURCES
 +
 =
 [
@@ -116,7 +116,7 @@ MOZ_ALSA
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -134,7 +134,7 @@ MOZ_PULSEAUDIO
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -157,7 +157,7 @@ OS_ARCH
 OpenBSD
 '
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -180,7 +180,7 @@ OS_TARGET
 Darwin
 '
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -203,7 +203,7 @@ OS_TARGET
 WINNT
 '
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -213,7 +213,7 @@ cubeb_winmm
 c
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -236,7 +236,7 @@ OS_TARGET
 Android
 '
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -259,7 +259,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CSRCS
+SOURCES
 +
 =
 [

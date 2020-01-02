@@ -182,7 +182,7 @@ TelephonyFactory
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

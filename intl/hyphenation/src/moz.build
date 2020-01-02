@@ -98,7 +98,7 @@ MODULE
 '
 hyphenation
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -126,7 +126,7 @@ hyphenation_s
 LIBXUL_LIBRARY
 =
 True
-CSRCS
+SOURCES
 +
 =
 [

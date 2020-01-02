@@ -156,7 +156,7 @@ SharedDIBWin
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -171,7 +171,7 @@ SharedDIBWin
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

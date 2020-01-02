@@ -98,7 +98,7 @@ MODULE
 '
 crash_generation
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

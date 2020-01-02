@@ -115,7 +115,7 @@ xpcshell
 ini
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

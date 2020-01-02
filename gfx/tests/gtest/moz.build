@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 gfxtest
 '
-GTEST_CPP_SOURCES
+GTEST_SOURCES
 +
 =
 [
@@ -211,7 +211,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-GTEST_CPP_SOURCES
+GTEST_SOURCES
 +
 =
 [
@@ -254,7 +254,7 @@ cpp
 '
 ]
 ]
-GTEST_CPP_SOURCES
+GTEST_SOURCES
 +
 =
 [

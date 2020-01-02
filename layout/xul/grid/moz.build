@@ -148,7 +148,7 @@ nsIGridPart
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -108,7 +108,7 @@ mozStorageCID
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

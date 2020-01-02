@@ -103,7 +103,7 @@ MODULE
 '
 necko
 '
-CSRCS
+SOURCES
 +
 =
 [

@@ -118,7 +118,7 @@ TrackEncoder
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -151,7 +151,7 @@ OpusTrackEncoder
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

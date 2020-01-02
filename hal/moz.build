@@ -155,7 +155,7 @@ TEST_DIRS
 tests
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -195,7 +195,7 @@ MOZ_GAMEPAD_BACKEND
 stub
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -220,7 +220,7 @@ MOZ_GAMEPAD_BACKEND
 cocoa
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -245,7 +245,7 @@ MOZ_GAMEPAD_BACKEND
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -270,7 +270,7 @@ MOZ_GAMEPAD_BACKEND
 linux
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -295,7 +295,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -348,7 +348,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -422,7 +422,7 @@ OS_TARGET
 Linux
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -477,7 +477,7 @@ MOZ_ENABLE_DBUS
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -491,7 +491,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -516,7 +516,7 @@ OS_TARGET
 WINNT
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -583,7 +583,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -653,7 +653,7 @@ DragonFly
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -708,7 +708,7 @@ MOZ_ENABLE_DBUS
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -722,7 +722,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -736,7 +736,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -812,7 +812,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -902,7 +902,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -927,7 +927,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

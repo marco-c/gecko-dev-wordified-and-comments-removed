@@ -108,7 +108,7 @@ nsTraceMalloc
 h
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -118,7 +118,7 @@ nsTraceMalloc
 c
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -141,7 +141,7 @@ OS_ARCH
 WINNT
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

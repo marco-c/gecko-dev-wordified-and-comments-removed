@@ -118,7 +118,7 @@ pngconf
 h
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -222,7 +222,7 @@ MOZ_PNG_ARM_NEON
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -242,7 +242,7 @@ MOZ_PNG_ARM_NEON
 '
 ]
 :
-SSRCS
+SOURCES
 +
 =
 [

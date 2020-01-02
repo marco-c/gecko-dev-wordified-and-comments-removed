@@ -98,7 +98,7 @@ MODULE
 '
 pref
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

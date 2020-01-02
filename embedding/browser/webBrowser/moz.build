@@ -221,7 +221,7 @@ nsCTooltipTextProvider
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

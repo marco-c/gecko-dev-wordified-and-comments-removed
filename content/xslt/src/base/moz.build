@@ -98,7 +98,7 @@ MODULE
 '
 transformiix
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

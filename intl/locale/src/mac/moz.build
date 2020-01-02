@@ -98,7 +98,7 @@ MODULE
 '
 locale
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

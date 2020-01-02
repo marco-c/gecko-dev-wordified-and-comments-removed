@@ -149,7 +149,7 @@ LIBJPEG_TURBO_X64_ASM
 '
 ]
 :
-ASFILES
+SOURCES
 +
 =
 [
@@ -297,7 +297,7 @@ LIBJPEG_TURBO_X86_ASM
 '
 ]
 :
-ASFILES
+SOURCES
 +
 =
 [
@@ -533,7 +533,7 @@ jsimdcpu
 asm
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -701,7 +701,7 @@ support
 for
 writing
 JPEGs
-CSRCS
+SOURCES
 +
 =
 [
@@ -789,7 +789,7 @@ LIBJPEG_TURBO_ARM_ASM
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -801,7 +801,7 @@ jsimd_arm
 c
 '
 ]
-SSRCS
+SOURCES
 +
 =
 [
@@ -821,7 +821,7 @@ LIBJPEG_TURBO_X64_ASM
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -841,7 +841,7 @@ LIBJPEG_TURBO_X86_ASM
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -860,7 +860,7 @@ No
 SIMD
 support
 ?
-CSRCS
+SOURCES
 +
 =
 [

@@ -116,7 +116,7 @@ nsMediaSniffer
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -131,7 +131,7 @@ nsMediaSnifferModule
 cpp
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [

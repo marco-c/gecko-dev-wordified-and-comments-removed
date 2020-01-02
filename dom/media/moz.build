@@ -175,7 +175,7 @@ MediaManager
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -225,7 +225,7 @@ MediaPermissionGonk
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

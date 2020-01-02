@@ -98,7 +98,7 @@ MODULE
 '
 finalizationwitness
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

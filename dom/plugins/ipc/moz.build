@@ -309,7 +309,7 @@ PluginSurfaceParent
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -369,7 +369,7 @@ MOZ_ENABLE_QT
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -384,7 +384,7 @@ NestedLoopTimer
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -492,7 +492,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

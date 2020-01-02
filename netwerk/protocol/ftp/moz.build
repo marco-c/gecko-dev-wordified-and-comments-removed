@@ -142,7 +142,7 @@ FTPChannelParent
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

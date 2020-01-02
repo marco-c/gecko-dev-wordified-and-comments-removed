@@ -112,7 +112,7 @@ LIBRARY_NAME
 '
 dummyvccorlib
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

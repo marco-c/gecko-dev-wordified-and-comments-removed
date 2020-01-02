@@ -109,7 +109,7 @@ objs
 mozbuild
 '
 )
-CPP_SOURCES
+SOURCES
 +
 =
 mtransport_cppsrcs

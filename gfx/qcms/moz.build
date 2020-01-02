@@ -121,7 +121,7 @@ mozqcms
 LIBXUL_LIBRARY
 =
 True
-CSRCS
+SOURCES
 +
 =
 [

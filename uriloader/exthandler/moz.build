@@ -356,7 +356,7 @@ ExternalHelperAppParent
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -404,7 +404,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [
@@ -432,7 +432,7 @@ mm
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -453,7 +453,7 @@ MOZ_ENABLE_GTK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -485,7 +485,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -531,7 +531,7 @@ MOZ_WIDGET_TOOLKIT
 qt
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -563,7 +563,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -588,7 +588,7 @@ MOZ_WIDGET_TOOLKIT
 os2
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -608,7 +608,7 @@ MOZ_ENABLE_DBUS
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -626,7 +626,7 @@ MOZ_ENABLE_MEEGOTOUCHSHARE
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -646,7 +646,7 @@ MOZ_ENABLE_CONTENTACTION
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

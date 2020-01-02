@@ -98,7 +98,7 @@ MODULE
 '
 imgicon
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

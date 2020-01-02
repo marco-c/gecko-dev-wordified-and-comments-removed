@@ -98,7 +98,7 @@ MODULE
 '
 universalchardet_s
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -312,7 +312,7 @@ package_info
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

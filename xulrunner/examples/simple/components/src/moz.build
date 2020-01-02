@@ -98,7 +98,7 @@ MODULE
 '
 simple
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

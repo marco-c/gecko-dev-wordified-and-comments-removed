@@ -241,7 +241,7 @@ QuartzSupport
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -279,7 +279,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -317,7 +317,7 @@ MOZ_ENABLE_DIRECT2D1_1
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -345,7 +345,7 @@ MOZ_ENABLE_SKIA
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -363,7 +363,7 @@ MOZ_ENABLE_SKIA
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -440,7 +440,7 @@ _MSC_VER
 1400
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -455,7 +455,7 @@ ImageScalingSSE2
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -553,7 +553,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

@@ -110,7 +110,7 @@ xpcshell
 ini
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -157,5 +157,5 @@ bin_suffix
 for
 fyl
 in
-CPP_SOURCES
+SOURCES
 ]

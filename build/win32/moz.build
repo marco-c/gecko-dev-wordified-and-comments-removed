@@ -142,7 +142,7 @@ PROGRAM
 '
 crashinject
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -141,7 +141,7 @@ MODULE
 '
 autocomplete
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

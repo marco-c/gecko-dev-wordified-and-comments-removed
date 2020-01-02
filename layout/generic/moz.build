@@ -257,7 +257,7 @@ FrameChildList
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -500,7 +500,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

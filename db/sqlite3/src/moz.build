@@ -113,7 +113,7 @@ LIBRARY_NAME
 '
 mozsqlite3
 '
-CSRCS
+SOURCES
 +
 =
 [

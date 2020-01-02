@@ -127,7 +127,7 @@ DataChannelProtocol
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

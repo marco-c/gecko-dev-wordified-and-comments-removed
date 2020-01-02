@@ -1392,7 +1392,7 @@ SkTypeface_mac
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1491,7 +1491,7 @@ SkTypeface_win
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1565,7 +1565,7 @@ SkTypeface_cairo
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1644,7 +1644,7 @@ NetBSD
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1660,7 +1660,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1687,7 +1687,7 @@ MOZ_WIDGET_TOOLKIT
 qt
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1748,7 +1748,7 @@ SkTypeface_cairo
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1844,7 +1844,7 @@ SkTypeface_cairo
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1961,7 +1961,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1983,7 +1983,7 @@ INTEL_ARCHITECTURE
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -2041,7 +2041,7 @@ HAVE_TOOLCHAIN_SUPPORT_MSSSE3
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -2075,7 +2075,7 @@ GNU_CC
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -2109,7 +2109,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -2149,7 +2149,7 @@ MOZ_ENABLE_SKIA_GPU
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -2951,7 +2951,7 @@ SkGrTexturePixelRef
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -4775,7 +4775,7 @@ GNU_CC
 '
 ]
 :
-SSRCS
+SOURCES
 +
 =
 [

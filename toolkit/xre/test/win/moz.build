@@ -108,7 +108,7 @@ TestDllInterceptor
 TestXREMakeCommandLineWin
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

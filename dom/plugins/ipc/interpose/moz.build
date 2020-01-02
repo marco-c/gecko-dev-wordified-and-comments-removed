@@ -98,7 +98,7 @@ LIBRARY_NAME
 '
 plugin_child_interpose
 '
-CMMSRCS
+SOURCES
 +
 =
 [
@@ -113,7 +113,7 @@ mm
 LIBRARY_NAME
 )
 ]
-CMMSRCS
+SOURCES
 +
 =
 [

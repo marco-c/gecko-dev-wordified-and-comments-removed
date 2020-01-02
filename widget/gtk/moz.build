@@ -138,7 +138,7 @@ nsIImageToPixbuf
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -236,7 +236,7 @@ MOZ_X11
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -254,7 +254,7 @@ NS_PRINTING
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -302,7 +302,7 @@ MOZ_X11
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -320,7 +320,7 @@ cpp
 FAIL_ON_WARNINGS
 =
 True
-CSRCS
+SOURCES
 +
 =
 [
@@ -341,7 +341,7 @@ ACCESSIBILITY
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -359,7 +359,7 @@ MOZ_ENABLE_GTK2
 '
 ]
 :
-CSRCS
+SOURCES
 +
 =
 [
@@ -371,7 +371,7 @@ c
 ]
 else
 :
-CSRCS
+SOURCES
 +
 =
 [

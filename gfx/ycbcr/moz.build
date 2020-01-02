@@ -123,7 +123,7 @@ yuv_row
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -156,7 +156,7 @@ INTEL_ARCHITECTURE
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -198,7 +198,7 @@ OS_TEST
 x86_64
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -210,7 +210,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -266,7 +266,7 @@ built
 -
 in
 functions
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -278,7 +278,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -290,7 +290,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -332,7 +332,7 @@ OpenBSD
 '
 )
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -344,7 +344,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -374,7 +374,7 @@ HAVE_ARM_NEON
 '
 ]
 :
-ASFILES
+SOURCES
 +
 =
 [
@@ -384,7 +384,7 @@ yuv_row_arm
 s
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

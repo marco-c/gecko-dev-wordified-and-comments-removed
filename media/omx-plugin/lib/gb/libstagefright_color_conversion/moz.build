@@ -114,7 +114,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

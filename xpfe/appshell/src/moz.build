@@ -106,7 +106,7 @@ MODULE
 '
 appshell
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

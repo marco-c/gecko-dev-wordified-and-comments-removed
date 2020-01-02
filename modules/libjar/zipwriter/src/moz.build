@@ -98,7 +98,7 @@ MODULE
 '
 zipwriter
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

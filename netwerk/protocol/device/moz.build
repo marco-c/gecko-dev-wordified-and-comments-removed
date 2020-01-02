@@ -125,7 +125,7 @@ CameraStreamImpl
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -140,7 +140,7 @@ CameraStreamImpl
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

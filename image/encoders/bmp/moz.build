@@ -98,7 +98,7 @@ MODULE
 '
 imgbmpe
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

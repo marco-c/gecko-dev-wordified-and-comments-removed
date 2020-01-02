@@ -144,7 +144,7 @@ objs
 mozbuild
 '
 )
-CPP_SOURCES
+SOURCES
 +
 =
 intl_unicharutil_util_cppsrcs

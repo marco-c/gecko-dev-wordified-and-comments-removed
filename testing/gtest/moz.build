@@ -647,7 +647,7 @@ port
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -686,7 +686,7 @@ LIBRARY_NAME
 '
 gtest
 '
-GTEST_CPP_SOURCES
+GTEST_SOURCES
 +
 =
 [

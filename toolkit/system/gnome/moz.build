@@ -98,7 +98,7 @@ MODULE
 '
 mozgnome
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -116,7 +116,7 @@ MOZ_ENABLE_GCONF
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -134,7 +134,7 @@ MOZ_ENABLE_GNOMEVFS
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -152,7 +152,7 @@ MOZ_ENABLE_GIO
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

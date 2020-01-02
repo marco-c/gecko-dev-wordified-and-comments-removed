@@ -159,7 +159,7 @@ GonkCameraControl
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -207,7 +207,7 @@ MOZ_B2G_CAMERA
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -244,7 +244,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

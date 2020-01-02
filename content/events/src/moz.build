@@ -169,7 +169,7 @@ SpeechRecognitionError
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -377,7 +377,7 @@ MOZ_WEBSPEECH
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

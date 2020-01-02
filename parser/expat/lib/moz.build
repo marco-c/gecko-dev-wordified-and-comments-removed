@@ -118,7 +118,7 @@ LIBRARY_NAME
 '
 mozexpat_s
 '
-CSRCS
+SOURCES
 +
 =
 [

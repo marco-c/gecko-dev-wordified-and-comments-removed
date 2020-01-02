@@ -128,7 +128,7 @@ DirectShowUtils
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -204,7 +204,7 @@ MOZ_WEBRTC
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

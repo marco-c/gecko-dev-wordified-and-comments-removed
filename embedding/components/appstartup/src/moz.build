@@ -108,7 +108,7 @@ nsIAppStartupNotifier
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

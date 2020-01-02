@@ -98,7 +98,7 @@ PROGRAM
 '
 updater
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -137,7 +137,7 @@ WINNT
 have_progressui
 =
 1
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -168,7 +168,7 @@ MOZ_ENABLE_GTK
 have_progressui
 =
 1
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -210,7 +210,7 @@ gonk
 have_progressui
 =
 1
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -231,7 +231,7 @@ have_progressui
 =
 0
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -254,7 +254,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [

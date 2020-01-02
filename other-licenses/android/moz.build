@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 android
 '
-CSRCS
+SOURCES
 +
 =
 [

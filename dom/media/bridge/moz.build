@@ -108,7 +108,7 @@ MODULE
 '
 peerconnection
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

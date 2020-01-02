@@ -103,7 +103,7 @@ PROGRAM
 '
 winEmbed
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

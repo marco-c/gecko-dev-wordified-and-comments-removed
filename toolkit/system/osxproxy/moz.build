@@ -98,7 +98,7 @@ MODULE
 '
 osxproxy
 '
-CMMSRCS
+SOURCES
 +
 =
 [

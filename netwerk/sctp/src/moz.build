@@ -117,7 +117,7 @@ usrsctp
 h
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -300,7 +300,7 @@ OS_TARGET
 Android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

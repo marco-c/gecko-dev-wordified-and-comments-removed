@@ -62,7 +62,8 @@ MODULE
 '
 module_name
 '
-ASFILES
+SOURCES
++
 =
 [
 '
@@ -149,7 +150,8 @@ foo
 cpp
 '
 ]
-GTEST_C_SOURCES
+GTEST_SOURCES
++
 =
 [
 '
@@ -163,7 +165,8 @@ test2
 c
 '
 ]
-GTEST_CMM_SOURCES
+GTEST_SOURCES
++
 =
 [
 '
@@ -177,7 +180,8 @@ test2
 mm
 '
 ]
-GTEST_CPP_SOURCES
+GTEST_SOURCES
++
 =
 [
 '
@@ -191,7 +195,8 @@ test2
 cpp
 '
 ]
-HOST_CPPSRCS
+HOST_SOURCES
++
 =
 [
 '
@@ -205,7 +210,8 @@ foo
 cpp
 '
 ]
-HOST_CSRCS
+HOST_SOURCES
++
 =
 [
 '
@@ -304,7 +310,7 @@ foo
 x
 '
 ]
-CSRCS
+SOURCES
 +
 =
 [
@@ -319,7 +325,8 @@ foo
 c
 '
 ]
-CMMSRCS
+SOURCES
++
 =
 [
 '
@@ -333,7 +340,8 @@ foo
 mm
 '
 ]
-SSRCS
+SOURCES
++
 =
 [
 '

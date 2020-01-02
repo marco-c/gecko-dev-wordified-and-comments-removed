@@ -111,7 +111,7 @@ HOST_LIBRARY_NAME
 '
 host_breakpad_dwarf_s
 '
-HOST_CPPSRCS
+HOST_SOURCES
 +
 =
 [

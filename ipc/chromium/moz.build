@@ -242,7 +242,7 @@ else
 os_linux
 =
 1
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -734,7 +734,7 @@ cc
 if
 os_win
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1040,7 +1040,7 @@ cc
 if
 os_posix
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1271,7 +1271,7 @@ OS_TARGET
 Android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1288,7 +1288,7 @@ cc
 if
 os_macosx
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1360,7 +1360,7 @@ transport_dib_mac
 cc
 '
 ]
-CMMSRCS
+SOURCES
 +
 =
 [
@@ -1489,7 +1489,7 @@ mm
 if
 os_linux
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1556,7 +1556,7 @@ MOZ_WIDGET_GTK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1578,7 +1578,7 @@ MOZ_ENABLE_QT
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1604,7 +1604,7 @@ cc
 if
 os_bsd
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1640,7 +1640,7 @@ OS_ARCH
 GNU_kFreeBSD
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1656,7 +1656,7 @@ cc
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1678,7 +1678,7 @@ MOZ_WIDGET_GTK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1700,7 +1700,7 @@ MOZ_ENABLE_QT
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1731,7 +1731,7 @@ _MSC_VER
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -1793,7 +1793,7 @@ mips
 -
 1
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -219,7 +219,7 @@ throw_msvc
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -234,7 +234,7 @@ msvc_throw_wrapper
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -200,7 +200,7 @@ Logging
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -328,7 +328,7 @@ cpp
 if
 a11y_log
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

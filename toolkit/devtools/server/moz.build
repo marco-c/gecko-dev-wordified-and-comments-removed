@@ -116,7 +116,7 @@ MODULE
 '
 jsinspector
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

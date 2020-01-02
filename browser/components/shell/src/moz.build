@@ -111,7 +111,7 @@ OS_ARCH
 WINNT
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -134,7 +134,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -152,7 +152,7 @@ MOZ_WIDGET_GTK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -163,7 +163,7 @@ cpp
 '
 ]
 if
-CPP_SOURCES
+SOURCES
 :
 LIBRARY_NAME
 =

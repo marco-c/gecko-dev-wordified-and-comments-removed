@@ -98,7 +98,7 @@ MODULE
 '
 intl
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

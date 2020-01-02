@@ -132,7 +132,7 @@ LIBRARY_NAME
 '
 accessibility_toolkit_s
 '
-CMMSRCS
+SOURCES
 +
 =
 [

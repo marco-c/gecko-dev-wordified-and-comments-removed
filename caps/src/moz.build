@@ -98,7 +98,7 @@ MODULE
 '
 caps
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -101,7 +101,7 @@ memory
 NO_DIST_INSTALL
 =
 True
-CSRCS
+SOURCES
 +
 =
 [

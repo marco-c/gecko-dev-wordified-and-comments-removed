@@ -113,7 +113,7 @@ nsGeoPositionIPCSerialiser
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

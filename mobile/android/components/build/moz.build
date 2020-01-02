@@ -118,7 +118,7 @@ nsBrowserComponents
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -141,7 +141,7 @@ MOZ_ANDROID_HISTORY
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

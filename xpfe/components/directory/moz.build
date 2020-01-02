@@ -113,7 +113,7 @@ MODULE
 '
 appcomps
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

@@ -112,7 +112,7 @@ DOMStorageIPC
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

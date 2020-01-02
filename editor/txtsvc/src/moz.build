@@ -98,7 +98,7 @@ MODULE
 '
 txtsvc
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

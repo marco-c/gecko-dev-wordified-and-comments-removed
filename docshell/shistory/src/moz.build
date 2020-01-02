@@ -108,7 +108,7 @@ nsSHEntryShared
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

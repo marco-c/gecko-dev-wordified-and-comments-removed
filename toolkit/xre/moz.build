@@ -180,7 +180,7 @@ nsWindowsDllInterceptor
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -218,7 +218,7 @@ MacQuirks
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -228,7 +228,7 @@ nsCommandLineServiceMac
 cpp
 '
 ]
-CMMSRCS
+SOURCES
 +
 =
 [
@@ -276,7 +276,7 @@ nsQAppInstance
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -309,7 +309,7 @@ MOZ_WIDGET_TOOLKIT
 os2
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -327,7 +327,7 @@ MOZ_ENABLE_GTK
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -339,7 +339,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -357,7 +357,7 @@ MOZ_X11
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -380,7 +380,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -390,7 +390,7 @@ nsAndroidStartup
 cpp
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -448,7 +448,7 @@ MOZ_GL_DEFAULT_PROVIDER
 GLX
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -466,7 +466,7 @@ MOZ_INSTRUMENT_EVENT_LOOP
 '
 ]
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -497,7 +497,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

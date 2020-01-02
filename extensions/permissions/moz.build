@@ -98,7 +98,7 @@ MODULE
 '
 permissions
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

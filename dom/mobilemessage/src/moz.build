@@ -177,7 +177,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -276,7 +276,7 @@ MobileMessageDatabaseService
 manifest
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -290,7 +290,7 @@ cpp
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -350,7 +350,7 @@ SmsSegmentInfo
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

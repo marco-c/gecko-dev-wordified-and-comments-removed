@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 theora
 '
-CSRCS
+SOURCES
 +
 =
 [

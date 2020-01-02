@@ -142,7 +142,7 @@ xpcshell
 ini
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -170,7 +170,7 @@ MOZ_WIDGET_TOOLKIT
 os2
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -193,7 +193,7 @@ OS_ARCH
 WINNT
 '
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [
@@ -216,7 +216,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-CMMSRCS
+SOURCES
 +
 =
 [
@@ -228,7 +228,7 @@ mm
 ]
 else
 :
-CPP_SOURCES
+SOURCES
 +
 =
 [

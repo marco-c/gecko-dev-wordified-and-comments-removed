@@ -113,7 +113,7 @@ MODULE
 '
 necko
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

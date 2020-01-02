@@ -175,7 +175,7 @@ ModuleUtils
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

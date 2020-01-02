@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 verifymar
 '
-CSRCS
+SOURCES
 +
 =
 [

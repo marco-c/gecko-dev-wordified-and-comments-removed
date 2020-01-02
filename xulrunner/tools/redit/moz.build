@@ -116,7 +116,7 @@ PROGRAM
 '
 redit
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [

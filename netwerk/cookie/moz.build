@@ -189,7 +189,7 @@ CookieServiceParent
 h
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

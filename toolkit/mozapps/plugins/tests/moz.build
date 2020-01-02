@@ -108,7 +108,7 @@ BadPlugin
 GoodPlugin
 '
 ]
-CPP_SOURCES
+SOURCES
 +
 =
 [

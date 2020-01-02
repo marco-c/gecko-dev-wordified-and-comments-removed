@@ -127,7 +127,7 @@ services
 -
 crypto
 '
-CPP_SOURCES
+SOURCES
 +
 =
 [
