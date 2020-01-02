@@ -10892,10 +10892,10 @@ command_id
 )
 ;
 }
-screenShot
+takeScreenshot
 :
 function
-MDA_saveScreenshot
+MDA_takeScreenshot
 (
 aRequest
 )
@@ -10915,7 +10915,7 @@ this
 sendAsync
 (
 "
-screenShot
+takeScreenshot
 "
 {
 id
@@ -12349,6 +12349,15 @@ prototype
 .
 setTestName
 "
+takeScreenshot
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+takeScreenshot
+"
 screenShot
 "
 :
@@ -12356,7 +12365,7 @@ MarionetteServerConnection
 .
 prototype
 .
-screenShot
+takeScreenshot
 "
 addCookie
 "
