@@ -2958,6 +2958,13 @@ GST_BUFFER_TIMESTAMP
 buffer
 )
 ;
+{
+ReentrantMonitorAutoEnter
+mon
+(
+mGstThreadsMonitor
+)
+;
 timestamp
 =
 gst_segment_to_stream_time
@@ -2968,6 +2975,7 @@ GST_FORMAT_TIME
 timestamp
 )
 ;
+}
 timestamp
 =
 GST_TIME_AS_USECONDS
