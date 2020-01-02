@@ -866,6 +866,14 @@ discardEntry
 true
 )
 ;
+void
+discardIgnoreOperands
+(
+MInstruction
+*
+ins
+)
+;
 MPhiIterator
 discardPhiAt
 (
