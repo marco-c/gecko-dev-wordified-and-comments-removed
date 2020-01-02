@@ -8376,12 +8376,6 @@ function
 ;
 if
 (
-emitterMode
-!
-=
-LazyFunction
-&
-&
 !
 parent
 )

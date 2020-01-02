@@ -4166,15 +4166,6 @@ baselineScript
 this
 )
 ;
-if
-(
-!
-debugMode
-(
-)
-)
-return
-;
 SrcNoteLineScanner
 scanner
 (
