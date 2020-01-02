@@ -1971,6 +1971,13 @@ BINPATH
 /
 components
 /
+ConsoleAPIStorage
+.
+js
+BINPATH
+/
+components
+/
 BrowserElementParent
 .
 manifest
