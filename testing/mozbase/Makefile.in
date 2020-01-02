@@ -53,17 +53,6 @@ MPL
 0
 /
 .
-PYTHON_UNIT_TESTS
-:
-=
-\
-test
-.
-py
-\
-(
-NULL
-)
 include
 (
 topsrcdir

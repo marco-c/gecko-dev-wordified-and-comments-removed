@@ -93,3 +93,13 @@ MPL
 0
 /
 .
+PYTHON_UNIT_TESTS
++
+=
+[
+'
+runtests
+.
+py
+'
+]

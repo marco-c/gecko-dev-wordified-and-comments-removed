@@ -94,9 +94,3 @@ INSTALL_TARGETS
 +
 =
 XPT_TOOL
-PYTHON_UNIT_TESTS
-:
-=
-runtests
-.
-py
