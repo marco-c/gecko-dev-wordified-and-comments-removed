@@ -196,13 +196,6 @@ h
 #
 include
 "
-gfxFont
-.
-h
-"
-#
-include
-"
 nsRenderingContext
 .
 h
@@ -469,6 +462,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -620,13 +620,6 @@ false
 ;
 #
 endif
-typedef
-gfxPattern
-:
-:
-GraphicsFilter
-GraphicsFilter
-;
 typedef
 FrameMetrics
 :
@@ -19195,7 +19188,7 @@ aForFrame
 GraphicsFilter
 defaultFilter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_GOOD
@@ -19255,7 +19248,7 @@ case
 NS_STYLE_IMAGE_RENDERING_OPTIMIZESPEED
 :
 return
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_FAST
@@ -19264,7 +19257,7 @@ case
 NS_STYLE_IMAGE_RENDERING_OPTIMIZEQUALITY
 :
 return
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_BEST
@@ -19273,7 +19266,7 @@ case
 NS_STYLE_IMAGE_RENDERING_CRISPEDGES
 :
 return
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -20958,7 +20951,7 @@ UseBackgroundNearestFiltering
 {
 aGraphicsFilter
 =
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
@@ -23564,7 +23557,7 @@ aElement
 RenderContextsExternal
 (
 ctx
-gfxPattern
+GraphicsFilter
 :
 :
 FILTER_NEAREST
