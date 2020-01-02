@@ -192,10 +192,6 @@ stop
 )
 )
 ;
-disableCertificateChecks
-(
-)
-;
 Services
 .
 prefs

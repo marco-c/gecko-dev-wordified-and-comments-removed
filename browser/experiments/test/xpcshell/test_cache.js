@@ -302,10 +302,6 @@ stop
 )
 )
 ;
-disableCertificateChecks
-(
-)
-;
 Services
 .
 prefs
