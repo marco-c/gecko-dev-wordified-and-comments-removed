@@ -3387,6 +3387,9 @@ Interface
 "
 IFoo
 "
+scriptable
+=
+True
 )
 )
         
@@ -3411,6 +3414,9 @@ Interface
 "
 IBar
 "
+scriptable
+=
+True
 )
 )
         
@@ -3507,6 +3513,9 @@ iid
 -
 aabbccddeeff
 "
+scriptable
+=
+True
 )
 )
         
@@ -3544,6 +3553,9 @@ iid
 -
 aabbccddeeff
 "
+scriptable
+=
+True
 )
 )
         
@@ -3903,6 +3915,9 @@ iid
 -
 aabbccddeeff
 "
+scriptable
+=
+True
 )
 )
         
@@ -4055,6 +4070,9 @@ iid
 -
 aabbccddeeff
 "
+scriptable
+=
+True
 )
 )
         
@@ -4275,6 +4293,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -4471,6 +4492,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -4713,6 +4737,9 @@ True
 parent
 =
 pi
+scriptable
+=
+True
 )
 )
         
@@ -4788,6 +4815,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -5022,6 +5052,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -5086,6 +5119,9 @@ True
 parent
 =
 pi
+scriptable
+=
+True
 )
 )
         
@@ -5367,6 +5403,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -5442,6 +5481,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -5713,6 +5755,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -5802,6 +5847,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -6144,6 +6192,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -6199,6 +6250,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -6456,6 +6510,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -6570,6 +6627,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -6953,6 +7013,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
@@ -7008,6 +7071,9 @@ methods
 [
 m
 ]
+scriptable
+=
+True
 )
 )
         
