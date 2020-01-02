@@ -11587,6 +11587,16 @@ function
 iccStatus
 )
 {
+if
+(
+this
+.
+_waitingRadioTech
+)
+{
+return
+;
+}
 this
 .
 iccStatus
