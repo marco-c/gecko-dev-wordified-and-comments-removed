@@ -1035,7 +1035,9 @@ GetFrameMetrics
 (
 )
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 ;
 return
 GetPointOffset

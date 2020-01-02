@@ -3519,7 +3519,9 @@ RoundedToInt
 (
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 *
 geckoZoom
 )
@@ -3642,7 +3644,9 @@ userScroll
 =
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 *
 userZoom
 ;
@@ -3701,7 +3705,9 @@ geckoScroll
 =
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 *
 geckoZoom
 ;

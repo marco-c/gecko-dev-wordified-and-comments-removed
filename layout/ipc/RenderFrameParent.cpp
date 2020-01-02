@@ -2077,7 +2077,9 @@ NSIntPixelsToAppUnits
 (
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 .
 x
 auPerCSSPixel
@@ -2088,7 +2090,9 @@ NSIntPixelsToAppUnits
 (
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 .
 y
 auPerCSSPixel

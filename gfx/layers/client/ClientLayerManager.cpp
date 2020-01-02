@@ -2581,7 +2581,9 @@ metricsDisplayPort
 +
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 )
 *
 paintScale

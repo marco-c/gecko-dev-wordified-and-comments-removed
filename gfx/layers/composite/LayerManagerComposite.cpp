@@ -3438,7 +3438,9 @@ x
 -
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 .
 x
 metrics
@@ -3449,7 +3451,9 @@ y
 -
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 .
 y
 metrics

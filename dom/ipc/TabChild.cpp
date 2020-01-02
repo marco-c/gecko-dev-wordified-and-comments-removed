@@ -1657,12 +1657,13 @@ LayoutDeviceToParentLayerScale
 ;
 mLastRootMetrics
 .
-mScrollOffset
-=
+SetScrollOffset
+(
 CSSPoint
 (
 0
 0
+)
 )
 ;
 }
@@ -6502,7 +6503,9 @@ NS_lround
 (
 newMetrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 .
 x
 )
@@ -6526,7 +6529,9 @@ NS_lround
 (
 newMetrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 .
 y
 )

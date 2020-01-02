@@ -1708,7 +1708,9 @@ mScrollOffset
 =
 metrics
 .
-mScrollOffset
+GetScrollOffset
+(
+)
 *
 metrics
 .
