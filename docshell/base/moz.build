@@ -243,11 +243,6 @@ nsILinkHandler
 h
 '
 '
-nsIScrollObserver
-.
-h
-'
-'
 nsIWebShellServices
 .
 h
