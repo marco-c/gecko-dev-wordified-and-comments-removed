@@ -28293,9 +28293,13 @@ else
 NSS_LIBS
 =
 '
+-
+L
 (
-LIBS_DIR
+LIBXUL_DIST
 )
+/
+lib
 '
 "
 -

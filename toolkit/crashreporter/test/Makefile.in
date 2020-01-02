@@ -58,9 +58,6 @@ EXTRA_DSO_LDOPTS
 +
 =
 (
-LIBS_DIR
-)
-(
 MOZ_COMPONENT_LIBS
 )
 (

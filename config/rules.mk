@@ -4772,9 +4772,6 @@ LDFLAGS
 WRAP_LDFLAGS
 )
 (
-LIBS_DIR
-)
-(
 LIBS
 )
 (
@@ -5297,9 +5294,6 @@ LDFLAGS
 )
 (
 WRAP_LDFLAGS
-)
-(
-LIBS_DIR
 )
 (
 LIBS

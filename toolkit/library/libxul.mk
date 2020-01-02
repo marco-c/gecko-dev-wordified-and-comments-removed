@@ -282,10 +282,6 @@ EXTRA_DSO_LDOPTS
 =
 \
 (
-LIBS_DIR
-)
-\
-(
 MOZ_JS_LIBS
 )
 \
@@ -604,12 +600,6 @@ strmiids
 msdmo
 )
 endif
-EXTRA_DSO_LDOPTS
-+
-=
-(
-LIBS_DIR
-)
 EXTRA_DSO_LDOPTS
 +
 =

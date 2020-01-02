@@ -73,10 +73,6 @@ LIB_SUFFIX
 )
 \
 (
-LIBS_DIR
-)
-\
-(
 MOZ_COMPONENT_LIBS
 )
 \
