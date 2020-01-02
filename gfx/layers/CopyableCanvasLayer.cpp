@@ -131,7 +131,7 @@ h
 #
 include
 "
-LayerUtils
+gfxUtils
 .
 h
 "
@@ -669,7 +669,10 @@ if
 needsPremult
 )
 {
-PremultiplySurface
+gfxUtils
+:
+:
+PremultiplyDataSurface
 (
 data
 )
@@ -777,7 +780,10 @@ if
 needsPremult
 )
 {
-PremultiplySurface
+gfxUtils
+:
+:
+PremultiplyDataSurface
 (
 data
 )
