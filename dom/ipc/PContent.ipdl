@@ -219,10 +219,6 @@ protocol
 PJavaScript
 ;
 include
-protocol
-PRemoteSpellcheckEngine
-;
-include
 DOMTypes
 ;
 include
@@ -1009,9 +1005,6 @@ PTestShell
 ;
 manages
 PJavaScript
-;
-manages
-PRemoteSpellcheckEngine
 ;
 both
 :
@@ -1904,11 +1897,6 @@ id
 ;
 async
 PJavaScript
-(
-)
-;
-sync
-PRemoteSpellcheckEngine
 (
 )
 ;

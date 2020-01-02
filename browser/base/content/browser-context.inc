@@ -3749,7 +3749,6 @@ InlineSpellCheckerUI
 .
 toggleEnabled
 (
-window
 )
 ;
 "
