@@ -277,6 +277,12 @@ Message
 aReply
 )
 ;
+bool
+CanSend
+(
+)
+const
+;
 void
 SetReplyTimeoutMs
 (
