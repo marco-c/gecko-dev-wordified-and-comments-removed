@@ -212,6 +212,14 @@ ProcessThread
 module_process_thread
 )
 ;
+void
+SetLoadManager
+(
+CPULoadStateCallbackInvoker
+*
+load_manager
+)
+;
 int
 CreateChannel
 (
@@ -441,6 +449,10 @@ const
 Config
 &
 config_
+;
+CPULoadStateCallbackInvoker
+*
+load_manager_
 ;
 }
 ;

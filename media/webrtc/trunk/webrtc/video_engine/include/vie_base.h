@@ -255,6 +255,17 @@ observer
 0
 ;
 virtual
+void
+SetLoadManager
+(
+CPULoadStateCallbackInvoker
+*
+load_manager
+)
+=
+0
+;
+virtual
 int
 ConnectAudioChannel
 (

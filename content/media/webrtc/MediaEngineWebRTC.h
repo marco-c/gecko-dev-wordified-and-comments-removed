@@ -144,13 +144,6 @@ h
 #
 include
 "
-LoadMonitor
-.
-h
-"
-#
-include
-"
 MediaEngineWrapper
 .
 h
@@ -1608,12 +1601,6 @@ nsStringHashKey
 MediaEngineWebRTCAudioSource
 >
 mAudioSources
-;
-nsRefPtr
-<
-LoadMonitor
->
-mLoadMonitor
 ;
 }
 ;
