@@ -287,6 +287,11 @@ GetPresShell
 (
 )
 ;
+void
+ReleaseStrongMemberVariables
+(
+)
+;
 nsString
 mTypeAheadBuffer
 ;
@@ -298,6 +303,9 @@ mStartLinksOnlyPref
 ;
 bool
 mCaretBrowsingOn
+;
+bool
+mDidAddObservers
 ;
 nsCOMPtr
 <
