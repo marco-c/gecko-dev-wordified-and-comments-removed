@@ -7592,6 +7592,7 @@ eCSSProperty_animation_delay
 eCSSProperty_animation_direction
 eCSSProperty_animation_fill_mode
 eCSSProperty_animation_iteration_count
+eCSSProperty_animation_play_state
 eCSSProperty_animation_name
 eCSSProperty_UNKNOWN
 }
