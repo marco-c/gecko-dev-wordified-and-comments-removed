@@ -178,6 +178,9 @@ textfield
 padding
 :
 1px
+0
+1px
+0
 ;
 border
 :
@@ -434,11 +437,6 @@ border
 inset
 ThreeDFace
 ;
-padding
-:
-0px
-1px
-;
 background
 -
 color
@@ -626,7 +624,8 @@ important
 ;
 padding
 :
-inherit
+0px
+1px
 !
 important
 ;
