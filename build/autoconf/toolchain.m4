@@ -267,16 +267,6 @@ s
 /
 g
 '
-echo
-"
-CC_VERSION
-"
-echo
-"
-CXX_VERSION
-"
-ecit
-1
 if
 test
 "
