@@ -2072,10 +2072,6 @@ aInvalidRegion
 intRect
 )
 ;
-invalidRegionSafe
-=
-intRect
-;
 nsIntRect
 invalidRect
 =
