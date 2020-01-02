@@ -367,6 +367,15 @@ GetSegmentInfoForTextRequest
 aRequest
 )
 ;
+bool
+DoRequest
+(
+const
+GetSmscAddressRequest
+&
+aRequest
+)
+;
 nsresult
 SendReply
 (
