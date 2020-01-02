@@ -1383,12 +1383,6 @@ GetLowPrecisionResolution
 ;
 static
 bool
-UseReusableTileStore
-(
-)
-;
-static
-bool
 OffMainThreadCompositingEnabled
 (
 )
