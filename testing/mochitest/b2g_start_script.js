@@ -1014,7 +1014,13 @@ manager
 .
 associate
 (
+new
+window
+.
+MozWifiNetwork
+(
 wifiSettings
+)
 )
 ;
 }
