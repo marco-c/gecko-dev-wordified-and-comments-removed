@@ -3591,11 +3591,13 @@ sDirs
 crashes
 ;
 }
+else
+{
+return
+;
+}
 if
 (
-f
-&
-&
 sDirs
 -
 >
