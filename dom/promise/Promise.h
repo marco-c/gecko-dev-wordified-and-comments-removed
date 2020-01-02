@@ -134,6 +134,9 @@ class
 PromiseNativeHandler
 ;
 class
+PromiseDebugging
+;
+class
 Promise
 ;
 class
@@ -642,6 +645,10 @@ aRunnable
 ;
 private
 :
+friend
+class
+PromiseDebugging
+;
 enum
 PromiseState
 {

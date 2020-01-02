@@ -115,6 +115,11 @@ Promise
 h
 '
 '
+PromiseDebugging
+.
+h
+'
+'
 PromiseNativeHandler
 .
 h
@@ -125,7 +130,7 @@ PromiseWorkerProxy
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -136,6 +141,11 @@ cpp
 '
 '
 PromiseCallback
+.
+cpp
+'
+'
+PromiseDebugging
 .
 cpp
 '
