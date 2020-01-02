@@ -7347,6 +7347,12 @@ inMouseDownEvent
 mFlags
 .
 mIsTrusted
+|
+|
+IsRemoteTarget
+(
+mGestureDownContent
+)
 )
 return
 ;
