@@ -319,7 +319,7 @@ label
 =
 "
 New
-OOP
+e10s
 Window
 "
 hidden
@@ -347,9 +347,9 @@ label
 =
 "
 New
-In
+Non
 -
-process
+e10s
 Window
 "
 hidden
