@@ -167,7 +167,7 @@ speex
 patch
 patch
 -
-p1
+p3
 <
 sse
 -
