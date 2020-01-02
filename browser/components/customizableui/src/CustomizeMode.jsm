@@ -3921,6 +3921,19 @@ function
 (
 )
 {
+if
+(
+this
+.
+_customizing
+&
+&
+!
+this
+.
+_transitioning
+)
+{
 item
 .
 hidden
@@ -3933,6 +3946,7 @@ _showPanelCustomizationPlaceholders
 (
 )
 ;
+}
 }
 .
 bind
