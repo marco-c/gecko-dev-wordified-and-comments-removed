@@ -262,6 +262,11 @@ freetype2
 static
 =
 True
+trigger
+=
+'
+FT2_LIBS
+'
 )
 add_tier_dir
 (

@@ -195,6 +195,7 @@ PROGRAMS_TARGET
 =
 binaries
 libs
+target
 INSTALL_TARGETS
 +
 =
@@ -235,6 +236,7 @@ DIST_LIBRARY_TARGET
 =
 binaries
 libs
+target
 INSTALL_TARGETS
 +
 =
@@ -265,6 +267,7 @@ SHARED_LIBRARY_TARGET
 =
 binaries
 libs
+target
 INSTALL_TARGETS
 +
 =
@@ -308,6 +311,7 @@ IMPORT_LIB_TARGET
 =
 binaries
 libs
+target
 ifdef
 IMPORT_LIB_FILES
 INSTALL_TARGETS
@@ -356,6 +360,7 @@ HOST_PROGRAMS_TARGET
 =
 binaries
 libs
+host
 INSTALL_TARGETS
 +
 =
@@ -382,6 +387,7 @@ HOST_LIBRARY_TARGET
 =
 binaries
 libs
+host
 INSTALL_TARGETS
 +
 =

@@ -1777,6 +1777,12 @@ DIST
 )
 /
 bin
+NSS_DIST_DLL_TARGET
+:
+=
+binaries
+libs
+target
 INSTALL_TARGETS
 +
 =
@@ -1888,6 +1894,12 @@ DIST
 sdk
 /
 lib
+NSS_SDK_LIB_TARGET
+:
+=
+binaries
+libs
+target
 INSTALL_TARGETS
 +
 =
@@ -3074,7 +3086,7 @@ NSS_DIRS
 )
 )
 )
-libs
+target
 :
 :
 (
