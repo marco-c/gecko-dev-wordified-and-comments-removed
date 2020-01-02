@@ -2531,6 +2531,11 @@ aDownload
 target
 .
 path
+{
+unixMode
+:
+0o666
+}
 )
 ;
 }
