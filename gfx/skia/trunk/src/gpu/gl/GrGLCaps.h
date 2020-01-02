@@ -32,6 +32,9 @@ SkTDArray
 .
 h
 "
+#
+undef
+interface
 class
 GrGLContextInfo
 ;
