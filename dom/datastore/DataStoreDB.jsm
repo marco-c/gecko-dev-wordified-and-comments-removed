@@ -102,6 +102,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+indexedDB
+"
+]
+)
+;
 XPCOMUtils
 .
 defineLazyServiceGetter
