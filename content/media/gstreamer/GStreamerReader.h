@@ -147,6 +147,13 @@ GStreamerReader
 public
 MediaDecoderReader
 {
+typedef
+gfx
+:
+:
+IntRect
+IntRect
+;
 public
 :
 GStreamerReader
@@ -650,7 +657,7 @@ mAudioAppSink
 GstVideoFormat
 mFormat
 ;
-nsIntRect
+IntRect
 mPicture
 ;
 int

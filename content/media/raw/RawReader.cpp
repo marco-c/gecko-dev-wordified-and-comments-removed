@@ -40,6 +40,13 @@ nsISeekableStream
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 using
 namespace
 mozilla
@@ -1201,7 +1208,10 @@ b
 1
 -
 1
+ToIntRect
+(
 mPicture
+)
 )
 ;
 if
