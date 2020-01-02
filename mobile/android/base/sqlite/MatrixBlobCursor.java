@@ -8,6 +8,19 @@ gecko
 sqlite
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+generatorannotations
+.
+WrapElementForJNI
+;
+import
 android
 .
 database
@@ -65,6 +78,7 @@ final
 int
 columnCount
 ;
+WrapElementForJNI
 public
 MatrixBlobCursor
 (
@@ -115,6 +129,7 @@ initialCapacity
 ]
 ;
 }
+WrapElementForJNI
 public
 MatrixBlobCursor
 (
@@ -265,6 +280,7 @@ endIndex
 )
 ;
 }
+WrapElementForJNI
 public
 void
 addRow
@@ -339,6 +355,7 @@ columnCount
 )
 ;
 }
+WrapElementForJNI
 public
 void
 addRow
@@ -481,6 +498,7 @@ rowCount
 +
 ;
 }
+WrapElementForJNI
 private
 void
 addRow
