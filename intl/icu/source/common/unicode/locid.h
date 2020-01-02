@@ -59,12 +59,6 @@ strenum
 h
 "
 U_NAMESPACE_BEGIN
-void
-U_CALLCONV
-locale_available_init
-(
-)
-;
 class
 U_COMMON_API
 Locale
@@ -512,6 +506,9 @@ status
 )
 const
 ;
+#
+ifndef
+U_HIDE_DRAFT_API
 void
 setKeywordValue
 (
@@ -528,6 +525,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 const
 char
 *
@@ -852,12 +851,6 @@ char
 UErrorCode
 &
 status
-)
-;
-friend
-void
-locale_available_init
-(
 )
 ;
 }

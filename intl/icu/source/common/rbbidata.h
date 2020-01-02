@@ -76,13 +76,6 @@ h
 #
 include
 "
-umutex
-.
-h
-"
-#
-include
-"
 utrie
 .
 h
@@ -396,7 +389,7 @@ fTrie
 ;
 private
 :
-u_atomic_int32_t
+int32_t
 fRefCount
 ;
 UDataMemory

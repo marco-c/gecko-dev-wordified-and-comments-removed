@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,14 +213,6 @@ xml
 *
 pt_CV
 {
-%
-%
-Parent
-{
-"
-pt_PT
-"
-}
 Version
 {
 "
@@ -228,9 +220,9 @@ Version
 .
 0
 .
-90
+75
 .
-61
+60
 "
 }
 zoneStrings

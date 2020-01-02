@@ -441,6 +441,10 @@ dest
 ;
 }
 }
+UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
+(
+IDNA
+)
 class
 UTS46
 :

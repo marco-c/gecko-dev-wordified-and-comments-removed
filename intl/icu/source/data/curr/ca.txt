@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -272,6 +272,7 @@ afgan
 s
 (
 1927
+-
 2002
 )
 "
@@ -298,6 +299,7 @@ alban
 s
 (
 1946
+-
 1965
 )
 "
@@ -358,6 +360,7 @@ angol
 s
 (
 1977
+-
 1991
 )
 "
@@ -374,6 +377,7 @@ angol
 s
 (
 1990
+-
 2000
 )
 "
@@ -390,6 +394,7 @@ s
 reajustat
 (
 1995
+-
 1999
 )
 "
@@ -415,6 +420,7 @@ ley
 argent
 (
 1970
+-
 1983
 )
 "
@@ -429,6 +435,7 @@ peso
 argent
 (
 1981
+-
 1970
 )
 "
@@ -443,6 +450,7 @@ peso
 argent
 (
 1983
+-
 1985
 )
 "
@@ -503,6 +511,7 @@ azerbaidjan
 s
 (
 1993
+-
 2006
 )
 "
@@ -532,6 +541,7 @@ i
 Hercegovina
 (
 1992
+-
 1994
 )
 "
@@ -566,6 +576,7 @@ i
 Hercegovina
 (
 1994
+-
 1997
 )
 "
@@ -676,6 +687,7 @@ b
 lgar
 (
 1879
+-
 1952
 )
 "
@@ -747,6 +759,7 @@ boliviano
 bolivi
 (
 1863
+-
 1963
 )
 "
@@ -782,6 +795,7 @@ novo
 brasiler
 (
 1967
+-
 1986
 )
 "
@@ -806,6 +820,7 @@ cruzeiro
 brasiler
 (
 1990
+-
 1993
 )
 "
@@ -909,6 +924,7 @@ bielor
 s
 (
 1994
+-
 1999
 )
 "
@@ -1027,6 +1043,7 @@ CNY
 "
 "
 iuan
+renmimbi
 xin
 s
 "
@@ -1425,6 +1442,7 @@ ghan
 s
 (
 1979
+-
 2007
 )
 "
@@ -1828,6 +1846,7 @@ sud
 core
 (
 1953
+-
 1962
 )
 "
@@ -2120,6 +2139,7 @@ denar
 macedoni
 (
 1992
+-
 1993
 )
 "
@@ -2253,6 +2273,7 @@ plata
 mexic
 (
 1861
+-
 1992
 )
 "
@@ -2517,6 +2538,7 @@ polon
 s
 (
 1950
+-
 1995
 )
 "
@@ -2617,6 +2639,7 @@ ruble
 rus
 (
 1991
+-
 1998
 )
 "
@@ -2638,7 +2661,7 @@ SAR
 SAR
 "
 "
-rial
+riyal
 saudita
 "
 }
@@ -2800,19 +2823,6 @@ de
 Surinam
 "
 }
-SSP
-{
-"
-SSP
-"
-"
-lliura
-del
-Sudan
-del
-Sud
-"
-}
 STD
 {
 "
@@ -2912,6 +2922,7 @@ manat
 turcman
 (
 1993
+-
 2009
 )
 "
@@ -2968,6 +2979,7 @@ lira
 turca
 (
 1922
+-
 2005
 )
 "
@@ -3057,6 +3069,7 @@ ugand
 s
 (
 1966
+-
 1987
 )
 "
@@ -3076,6 +3089,7 @@ s
 USD
 {
 "
+US
 "
 "
 d
@@ -3143,6 +3157,7 @@ peso
 uruguai
 (
 1975
+-
 1993
 )
 "
@@ -3179,6 +3194,7 @@ vene
 ol
 (
 1871
+-
 2008
 )
 "
@@ -3214,6 +3230,7 @@ dong
 vietnamita
 (
 1978
+-
 1985
 )
 "
@@ -3242,7 +3259,7 @@ samo
 XAF
 {
 "
-FCFA
+XAF
 "
 "
 franc
@@ -3407,7 +3424,7 @@ ladi
 XPF
 {
 "
-CFPF
+XPF
 "
 "
 franc
@@ -3454,6 +3471,10 @@ XXX
 "
 moneda
 desconeguda
+/
+no
+v
+lida
 "
 }
 YDD
@@ -3520,6 +3541,7 @@ iugoslau
 reformat
 (
 1992
+-
 1993
 )
 "
@@ -3555,20 +3577,6 @@ ZMK
 {
 "
 ZMK
-"
-"
-kwacha
-zambi
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
 "
 "
 kwacha
@@ -3610,6 +3618,7 @@ zimbabu
 s
 (
 1980
+-
 2008
 )
 "
@@ -3697,6 +3706,7 @@ afgan
 s
 (
 1927
+-
 2002
 )
 "
@@ -3708,6 +3718,7 @@ afganis
 afganesos
 (
 1927
+-
 2002
 )
 "
@@ -3741,6 +3752,7 @@ alban
 s
 (
 1946
+-
 1965
 )
 "
@@ -3752,6 +3764,7 @@ lek
 albanesos
 (
 1946
+-
 1965
 )
 "
@@ -3843,6 +3856,7 @@ angol
 s
 (
 1977
+-
 1991
 )
 "
@@ -3854,6 +3868,7 @@ kwanzas
 angolesos
 (
 1977
+-
 1991
 )
 "
@@ -3870,6 +3885,7 @@ angol
 s
 (
 1990
+-
 2000
 )
 "
@@ -3882,6 +3898,7 @@ kwanzas
 angolesos
 (
 1990
+-
 2000
 )
 "
@@ -3898,6 +3915,7 @@ s
 reajustat
 (
 1995
+-
 1999
 )
 "
@@ -3909,6 +3927,7 @@ kwanzas
 angolesos
 (
 1995
+-
 1999
 )
 "
@@ -3941,6 +3960,7 @@ ley
 argent
 (
 1970
+-
 1983
 )
 "
@@ -3953,6 +3973,7 @@ ley
 argentins
 (
 1970
+-
 1983
 )
 "
@@ -3988,6 +4009,7 @@ peso
 argent
 (
 1983
+-
 1985
 )
 "
@@ -3999,6 +4021,7 @@ pesos
 argentins
 (
 1983
+-
 1985
 )
 "
@@ -4092,6 +4115,7 @@ azerbaidjan
 s
 (
 1993
+-
 2006
 )
 "
@@ -4103,6 +4127,7 @@ manats
 azerbaidjanesos
 (
 1993
+-
 2006
 )
 "
@@ -4139,6 +4164,7 @@ i
 Hercegovina
 (
 1992
+-
 1994
 )
 "
@@ -4154,6 +4180,7 @@ i
 Hercegovina
 (
 1992
+-
 1994
 )
 "
@@ -4200,6 +4227,7 @@ i
 Hercegovina
 (
 1994
+-
 1997
 )
 "
@@ -4216,6 +4244,7 @@ i
 Hercegovina
 (
 1994
+-
 1997
 )
 "
@@ -4397,6 +4426,7 @@ b
 lgar
 (
 1879
+-
 1952
 )
 "
@@ -4409,6 +4439,7 @@ b
 lgars
 (
 1879
+-
 1952
 )
 "
@@ -4522,6 +4553,7 @@ boliviano
 bolivi
 (
 1863
+-
 1963
 )
 "
@@ -4533,6 +4565,7 @@ bolivianos
 bolivians
 (
 1863
+-
 1963
 )
 "
@@ -4582,6 +4615,7 @@ novo
 brasiler
 (
 1967
+-
 1986
 )
 "
@@ -4594,6 +4628,7 @@ novos
 brasilers
 (
 1967
+-
 1986
 )
 "
@@ -4625,6 +4660,7 @@ cruzeiro
 brasiler
 (
 1990
+-
 1993
 )
 "
@@ -4636,6 +4672,7 @@ cruzeiros
 brasilers
 (
 1990
+-
 1993
 )
 "
@@ -4802,6 +4839,7 @@ bielor
 s
 (
 1994
+-
 1999
 )
 "
@@ -4814,6 +4852,7 @@ rubles
 bielorussos
 (
 1994
+-
 1999
 )
 "
@@ -5698,6 +5737,7 @@ ghan
 s
 (
 1979
+-
 2007
 )
 "
@@ -5709,6 +5749,7 @@ cedis
 ghanesos
 (
 1979
+-
 2007
 )
 "
@@ -6887,6 +6928,7 @@ denar
 macedoni
 (
 1992
+-
 1993
 )
 "
@@ -6898,6 +6940,7 @@ denari
 macedonis
 (
 1992
+-
 1993
 )
 "
@@ -7115,6 +7158,7 @@ plata
 mexic
 (
 1861
+-
 1992
 )
 "
@@ -7128,6 +7172,7 @@ plata
 mexicans
 (
 1861
+-
 1992
 )
 "
@@ -7569,6 +7614,7 @@ polon
 s
 (
 1950
+-
 1995
 )
 "
@@ -7580,6 +7626,7 @@ zlote
 polonesos
 (
 1950
+-
 1995
 )
 "
@@ -7634,7 +7681,7 @@ Qatar
 other
 {
 "
-rials
+riyals
 de
 Qatar
 "
@@ -7740,6 +7787,7 @@ ruble
 rus
 (
 1991
+-
 1998
 )
 "
@@ -7751,6 +7799,7 @@ rubles
 russos
 (
 1991
+-
 1998
 )
 "
@@ -7779,14 +7828,14 @@ SAR
 one
 {
 "
-rial
+riyal
 saudita
 "
 }
 other
 {
 "
-rials
+riyals
 saudites
 "
 }
@@ -8250,6 +8299,7 @@ manat
 turcman
 (
 1993
+-
 2009
 )
 "
@@ -8261,6 +8311,7 @@ manats
 turcmans
 (
 1993
+-
 2009
 )
 "
@@ -8347,6 +8398,7 @@ lira
 turca
 (
 1922
+-
 2005
 )
 "
@@ -8358,6 +8410,7 @@ lires
 turques
 (
 1922
+-
 2005
 )
 "
@@ -8501,6 +8554,7 @@ ugand
 s
 (
 1966
+-
 1987
 )
 "
@@ -8513,6 +8567,7 @@ lings
 ugandesos
 (
 1966
+-
 1987
 )
 "
@@ -8657,6 +8712,7 @@ peso
 uruguai
 (
 1975
+-
 1993
 )
 "
@@ -8668,6 +8724,7 @@ pesos
 uruguaians
 (
 1975
+-
 1993
 )
 "
@@ -8718,6 +8775,7 @@ vene
 ol
 (
 1871
+-
 2008
 )
 "
@@ -8731,6 +8789,7 @@ vene
 olans
 (
 1871
+-
 2008
 )
 "
@@ -8783,6 +8842,7 @@ dong
 vietnamita
 (
 1978
+-
 1985
 )
 "
@@ -8794,6 +8854,7 @@ dongs
 vietnamites
 (
 1978
+-
 1985
 )
 "
@@ -9198,21 +9259,23 @@ XXX
 one
 {
 "
-(
-unitat
-monet
-ria
+moneda
 desconeguda
-)
+/
+no
+v
+lida
 "
 }
 other
 {
 "
-(
-moneda
-desconeguda
-)
+monedes
+desconegudes
+/
+no
+v
+lides
 "
 }
 }
@@ -9381,31 +9444,6 @@ one
 "
 kwacha
 zambi
-(
-1968
-2012
-)
-"
-}
-other
-{
-"
-kwacha
-zambians
-(
-1968
-2012
-)
-"
-}
-}
-ZMW
-{
-one
-{
-"
-kwacha
-zambi
 "
 }
 other
@@ -9465,6 +9503,7 @@ zimbabu
 s
 (
 1980
+-
 2008
 )
 "
@@ -9477,6 +9516,7 @@ lars
 zimbabuesos
 (
 1980
+-
 2008
 )
 "
@@ -9567,9 +9607,9 @@ Version
 .
 0
 .
-92
+78
 .
-87
+32
 "
 }
 }

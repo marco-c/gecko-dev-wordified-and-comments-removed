@@ -1,13 +1,6 @@
 #
 include
 "
-uposixdefs
-.
-h
-"
-#
-include
-"
 unicode
 /
 putil

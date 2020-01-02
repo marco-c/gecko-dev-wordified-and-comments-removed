@@ -87,7 +87,7 @@ C
 )
 2010
 -
-2013
+2012
 International
 Business
 Machines
@@ -192,9 +192,9 @@ nofallback
 DataVersion
 {
 "
-52
+50
 .
-0
+1
 .
 1
 .
@@ -204,9 +204,9 @@ DataVersion
 ICUVersion
 {
 "
-52
+50
 .
-0
+1
 .
 1
 .

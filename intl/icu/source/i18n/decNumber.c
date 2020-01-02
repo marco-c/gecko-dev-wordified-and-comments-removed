@@ -30163,6 +30163,12 @@ DECDPUN
 U_ASSERT
 (
 cut
+>
+=
+0
+&
+&
+cut
 <
 =
 4

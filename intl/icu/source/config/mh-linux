@@ -21,7 +21,7 @@ c
 )
 1999
 -
-2013
+2012
 International
 Business
 Machines
@@ -75,9 +75,6 @@ DEFS
 )
 (
 CPPFLAGS
-)
-(
-CXXFLAGS
 )
 #
 #

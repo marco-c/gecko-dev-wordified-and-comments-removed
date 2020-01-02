@@ -20,17 +20,12 @@ UCONFIG_NO_FORMATTING
 enum
 UDisplayContextType
 {
-#
-ifndef
-U_HIDE_DRAFT_API
 UDISPCTX_TYPE_DIALECT_HANDLING
 =
 0
 UDISPCTX_TYPE_CAPITALIZATION
 =
 1
-#
-endif
 }
 ;
 typedef
@@ -41,9 +36,6 @@ UDisplayContextType
 enum
 UDisplayContext
 {
-#
-ifndef
-U_HIDE_DRAFT_API
 UDISPCTX_STANDARD_NAMES
 =
 (
@@ -114,8 +106,6 @@ UDISPCTX_TYPE_CAPITALIZATION
 )
 +
 4
-#
-endif
 }
 ;
 typedef

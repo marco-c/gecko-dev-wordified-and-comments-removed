@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,14 +213,6 @@ xml
 *
 en_BW
 {
-%
-%
-Parent
-{
-"
-en_001
-"
-}
 Currencies
 {
 BWP
@@ -241,9 +233,9 @@ Version
 .
 0
 .
-92
+74
 .
-80
+64
 "
 }
 }

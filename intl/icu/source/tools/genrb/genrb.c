@@ -1886,6 +1886,12 @@ value
 }
 initParser
 (
+options
+[
+NO_COLLATION_RULES
+]
+.
+doesOccur
 )
 ;
 if
@@ -3464,12 +3470,6 @@ inputDir
 outputDir
 !
 omitBinaryCollation
-options
-[
-NO_COLLATION_RULES
-]
-.
-doesOccur
 status
 )
 ;

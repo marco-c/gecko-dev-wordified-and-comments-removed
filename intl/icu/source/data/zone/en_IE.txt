@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,14 +213,6 @@ xml
 *
 en_IE
 {
-%
-%
-Parent
-{
-"
-en_GB
-"
-}
 Version
 {
 "
@@ -228,9 +220,9 @@ Version
 .
 0
 .
-92
+78
 .
-80
+47
 "
 }
 zoneStrings

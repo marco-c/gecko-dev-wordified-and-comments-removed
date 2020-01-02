@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,14 +213,6 @@ xml
 *
 es_NI
 {
-%
-%
-Parent
-{
-"
-es_419
-"
-}
 Currencies
 {
 NIO
@@ -243,9 +235,9 @@ Version
 .
 0
 .
-90
+74
 .
-61
+64
 "
 }
 }

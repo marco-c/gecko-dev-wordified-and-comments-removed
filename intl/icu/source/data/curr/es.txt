@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -272,6 +272,7 @@ AFA
 afgani
 (
 1927
+-
 2002
 )
 "
@@ -279,7 +280,7 @@ afgani
 AFN
 {
 "
-AFN
+Af
 "
 "
 afgani
@@ -310,7 +311,8 @@ armenio
 ANG
 {
 "
-ANG
+NAf
+.
 "
 "
 flor
@@ -324,7 +326,7 @@ Neerlandesas
 AOA
 {
 "
-AOA
+Kz
 "
 "
 kwanza
@@ -343,6 +345,7 @@ angole
 o
 (
 1977
+-
 1990
 )
 "
@@ -359,6 +362,7 @@ angole
 o
 (
 1990
+-
 2000
 )
 "
@@ -375,6 +379,7 @@ angole
 o
 (
 1995
+-
 1999
 )
 "
@@ -399,6 +404,7 @@ peso
 argentino
 (
 1983
+-
 1985
 )
 "
@@ -438,7 +444,8 @@ australiano
 AWG
 {
 "
-AWG
+Afl
+.
 "
 "
 flor
@@ -457,6 +464,7 @@ manat
 azer
 (
 1993
+-
 2006
 )
 "
@@ -464,7 +472,8 @@ azer
 AZN
 {
 "
-AZN
+man
+.
 "
 "
 manat
@@ -572,9 +581,9 @@ BGN
 BGN
 "
 "
-lev
+leva
 b
-lgaro
+lgara
 "
 }
 BHD
@@ -664,6 +673,7 @@ brasile
 o
 (
 1967
+-
 1986
 )
 "
@@ -690,6 +700,7 @@ brasile
 o
 (
 1990
+-
 1993
 )
 "
@@ -783,6 +794,7 @@ rublo
 bielorruso
 (
 1994
+-
 1999
 )
 "
@@ -886,7 +898,7 @@ chileno
 CNY
 {
 "
-CNY
+CN
 "
 "
 yuan
@@ -1234,7 +1246,6 @@ s
 GBP
 {
 "
-GBP
 "
 "
 libra
@@ -1275,6 +1286,7 @@ ghan
 s
 (
 1979
+-
 2007
 )
 "
@@ -1404,7 +1416,7 @@ s
 HKD
 {
 "
-HKD
+HK
 "
 "
 d
@@ -1500,7 +1512,6 @@ israel
 ILS
 {
 "
-ILS
 "
 "
 nuevo
@@ -1511,7 +1522,6 @@ israel
 INR
 {
 "
-INR
 "
 "
 rupia
@@ -1583,7 +1593,7 @@ jordano
 JPY
 {
 "
-JPY
+JP
 "
 "
 yen
@@ -1646,7 +1656,6 @@ norcoreano
 KRW
 {
 "
-KRW
 "
 "
 won
@@ -1834,8 +1843,7 @@ MAD
 MAD
 "
 "
-d
-rham
+dirham
 marroqu
 "
 }
@@ -2015,6 +2023,7 @@ plata
 mexicano
 (
 1861
+-
 1992
 )
 "
@@ -2113,6 +2122,7 @@ nicarag
 ense
 (
 1988
+-
 1991
 )
 "
@@ -2279,6 +2289,7 @@ zloty
 polaco
 (
 1950
+-
 1995
 )
 "
@@ -2377,6 +2388,7 @@ rublo
 ruso
 (
 1991
+-
 1998
 )
 "
@@ -2669,6 +2681,7 @@ manat
 turcomano
 (
 1993
+-
 2009
 )
 "
@@ -2724,6 +2737,7 @@ lira
 turca
 (
 1922
+-
 2005
 )
 "
@@ -2755,7 +2769,7 @@ Tobago
 TWD
 {
 "
-TWD
+NT
 "
 "
 nuevo
@@ -2808,6 +2822,7 @@ ugand
 s
 (
 1966
+-
 1987
 )
 "
@@ -2827,6 +2842,7 @@ s
 USD
 {
 "
+US
 "
 "
 d
@@ -2889,6 +2905,7 @@ peso
 uruguayo
 (
 1975
+-
 1993
 )
 "
@@ -2909,7 +2926,7 @@ UZS
 UZS
 "
 "
-som
+sum
 uzbeko
 "
 }
@@ -2924,6 +2941,7 @@ var
 venezolano
 (
 1871
+-
 2008
 )
 "
@@ -3113,7 +3131,7 @@ s
 XOF
 {
 "
-XOF
+CFA
 "
 "
 franco
@@ -3133,7 +3151,7 @@ paladio
 XPF
 {
 "
-XPF
+CFPF
 "
 "
 franco
@@ -3266,20 +3284,6 @@ ZMK
 "
 kwacha
 zambiano
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
-"
-"
-kwacha
-zambiano
 "
 }
 ZRN
@@ -3353,8 +3357,7 @@ AED
 one
 {
 "
-d
-rham
+dirham
 de
 los
 Emiratos
@@ -3365,8 +3368,7 @@ Unidos
 other
 {
 "
-d
-rhams
+dirhams
 de
 los
 Emiratos
@@ -5816,16 +5818,14 @@ MAD
 one
 {
 "
-d
-rham
+dirham
 marroqu
 "
 }
 other
 {
 "
-d
-rhams
+dirhams
 marroqu
 es
 "
@@ -6238,6 +6238,7 @@ nicarag
 ense
 (
 1988
+-
 1991
 )
 "
@@ -6251,6 +6252,7 @@ nicarag
 enses
 (
 1988
+-
 1991
 )
 "
@@ -6711,7 +6713,7 @@ SAR
 one
 {
 "
-rial
+riyal
 saud
 "
 }
@@ -7138,6 +7140,7 @@ manat
 turcomano
 (
 1993
+-
 2009
 )
 "
@@ -7149,6 +7152,7 @@ manats
 turcomanos
 (
 1993
+-
 2009
 )
 "
@@ -7216,6 +7220,7 @@ lira
 turca
 (
 1922
+-
 2005
 )
 "
@@ -7227,6 +7232,7 @@ liras
 turcas
 (
 1922
+-
 2005
 )
 "
@@ -7534,6 +7540,7 @@ var
 venezolano
 (
 1871
+-
 2008
 )
 "
@@ -7546,6 +7553,7 @@ vares
 venezolanos
 (
 1871
+-
 2008
 )
 "
@@ -7998,31 +8006,6 @@ one
 "
 kwacha
 zambiano
-(
-1968
-2012
-)
-"
-}
-other
-{
-"
-kwachas
-zambianos
-(
-1968
-2012
-)
-"
-}
-}
-ZMW
-{
-one
-{
-"
-kwacha
-zambiano
 "
 }
 other
@@ -8066,9 +8049,9 @@ Version
 .
 0
 .
-92
+78
 .
-87
+32
 "
 }
 }

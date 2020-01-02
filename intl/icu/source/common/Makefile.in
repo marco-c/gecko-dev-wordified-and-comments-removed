@@ -85,7 +85,7 @@ C
 )
 1999
 -
-2013
+2012
 International
 Business
 Machines
@@ -925,9 +925,6 @@ o
 uscript
 .
 o
-uscript_props
-.
-o
 usc_impl
 .
 o
@@ -1073,6 +1070,9 @@ cwchar
 .
 o
 wintz
+.
+o
+mutex
 .
 o
 dtintrv

@@ -992,7 +992,6 @@ NumberingSystem
 getRadix
 (
 )
-const
 {
 return
 radix
@@ -1005,7 +1004,6 @@ NumberingSystem
 getDescription
 (
 )
-const
 {
 return
 desc
@@ -1020,7 +1018,6 @@ NumberingSystem
 getName
 (
 )
-const
 {
 return
 name

@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,14 +213,6 @@ xml
 *
 es_PE
 {
-%
-%
-Parent
-{
-"
-es_419
-"
-}
 Currencies
 {
 PEN
@@ -244,9 +236,9 @@ Version
 .
 0
 .
-90
+74
 .
-61
+65
 "
 }
 }

@@ -10,13 +10,13 @@ ucln_imp
 h
 "
 int
-uprv_dummyFunction_TU
+dummyFunction
 (
 void
 )
 ;
 int
-uprv_dummyFunction_TU
+dummyFunction
 (
 void
 )

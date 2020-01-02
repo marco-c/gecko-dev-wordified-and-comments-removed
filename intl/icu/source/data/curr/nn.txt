@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -267,6 +267,7 @@ AFA
 afghani
 (
 1927
+-
 2002
 )
 "
@@ -330,6 +331,7 @@ angolsk
 kwanza
 (
 1977
+-
 1990
 )
 "
@@ -345,6 +347,7 @@ ny
 kwanza
 (
 1990
+-
 2000
 )
 "
@@ -360,6 +363,7 @@ kwanza
 reajustado
 (
 1995
+-
 1999
 )
 "
@@ -384,6 +388,7 @@ argentinsk
 peso
 (
 1983
+-
 1985
 )
 "
@@ -633,6 +638,7 @@ cruzeiro
 novo
 (
 1967
+-
 1986
 )
 "
@@ -657,6 +663,7 @@ brasiliansk
 cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -743,6 +750,7 @@ ny
 rubel
 (
 1994
+-
 1999
 )
 "
@@ -1072,6 +1080,7 @@ spansk
 peseta
 (
 A
+-
 konto
 )
 "
@@ -1200,6 +1209,7 @@ ghanesisk
 cedi
 (
 1979
+-
 2007
 )
 "
@@ -1902,6 +1912,7 @@ s
 lvpeso
 (
 1861
+-
 1992
 )
 "
@@ -2145,6 +2156,7 @@ polsk
 zloty
 (
 1950
+-
 1995
 )
 "
@@ -2240,6 +2252,7 @@ russisk
 rubel
 (
 1991
+-
 1998
 )
 "
@@ -2612,6 +2625,7 @@ ugandisk
 shilling
 (
 1966
+-
 1987
 )
 "
@@ -2687,6 +2701,7 @@ uruguayansk
 peso
 (
 1975
+-
 1993
 )
 "
@@ -2721,6 +2736,7 @@ venezuelansk
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -3051,20 +3067,6 @@ ZMK
 {
 "
 ZMK
-"
-"
-zambisk
-kwacha
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
 "
 "
 zambisk
@@ -3660,6 +3662,7 @@ spansk
 peseta
 (
 A
+-
 konto
 )
 "
@@ -3671,6 +3674,7 @@ spanske
 peseta
 (
 A
+-
 konto
 )
 "
@@ -6298,6 +6302,7 @@ venezuelansk
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -6309,6 +6314,7 @@ venezuelanske
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -6842,9 +6848,9 @@ Version
 .
 0
 .
-92
+78
 .
-87
+30
 "
 }
 }

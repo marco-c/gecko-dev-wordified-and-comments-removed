@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,14 +213,6 @@ xml
 *
 es_US
 {
-%
-%
-Parent
-{
-"
-es_419
-"
-}
 Currencies
 {
 JPY
@@ -251,9 +243,9 @@ Version
 .
 0
 .
-92
+74
 .
-80
+64
 "
 }
 }

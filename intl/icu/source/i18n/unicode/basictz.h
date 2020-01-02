@@ -75,7 +75,6 @@ TimeZoneTransition
 &
 result
 )
-const
 =
 0
 ;
@@ -91,7 +90,6 @@ TimeZoneTransition
 &
 result
 )
-const
 =
 0
 ;
@@ -99,7 +97,6 @@ virtual
 UBool
 hasEquivalentTransitions
 (
-const
 BasicTimeZone
 &
 tz
@@ -113,7 +110,6 @@ UErrorCode
 &
 ec
 )
-const
 ;
 virtual
 int32_t
@@ -123,7 +119,6 @@ UErrorCode
 &
 status
 )
-const
 =
 0
 ;
@@ -149,7 +144,6 @@ UErrorCode
 &
 status
 )
-const
 =
 0
 ;
@@ -175,7 +169,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 #
 ifndef
@@ -218,7 +211,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 protected
 :
@@ -274,7 +266,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 }
 ;

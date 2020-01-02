@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,6 +213,13 @@ xml
 *
 es_PH
 {
+PaperSize
+:
+intvector
+{
+279
+216
+}
 Version
 {
 "
@@ -220,9 +227,9 @@ Version
 .
 0
 .
-90
+74
 .
-61
+65
 "
 }
 }

@@ -63,7 +63,10 @@ UNormalizer2
 if
 !
 UCONFIG_NO_NORMALIZATION
-U_STABLE
+#
+ifndef
+U_HIDE_DRAFT_API
+U_DRAFT
 const
 UNormalizer2
 *
@@ -75,7 +78,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DRAFT
 const
 UNormalizer2
 *
@@ -87,7 +90,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DRAFT
 const
 UNormalizer2
 *
@@ -99,7 +102,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DRAFT
 const
 UNormalizer2
 *
@@ -111,7 +114,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DRAFT
 const
 UNormalizer2
 *
@@ -123,6 +126,8 @@ UErrorCode
 pErrorCode
 )
 ;
+#
+endif
 U_STABLE
 const
 UNormalizer2
@@ -288,7 +293,10 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+#
+ifndef
+U_HIDE_DRAFT_API
+U_DRAFT
 int32_t
 U_EXPORT2
 unorm2_getRawDecomposition
@@ -309,7 +317,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_STABLE
+U_DRAFT
 UChar32
 U_EXPORT2
 unorm2_composePair
@@ -324,7 +332,7 @@ UChar32
 b
 )
 ;
-U_STABLE
+U_DRAFT
 uint8_t
 U_EXPORT2
 unorm2_getCombiningClass
@@ -337,6 +345,8 @@ UChar32
 c
 )
 ;
+#
+endif
 U_STABLE
 UBool
 U_EXPORT2

@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -241,7 +241,7 @@ Currencies
 ADP
 {
 "
-ADP
+A
 "
 "
 peseta
@@ -277,7 +277,7 @@ afghani
 AFN
 {
 "
-AFN
+Af
 "
 "
 afghani
@@ -322,7 +322,9 @@ nien
 ANG
 {
 "
-ANG
+f
+.
+NA
 "
 "
 florin
@@ -349,6 +351,7 @@ kwanza
 angolais
 (
 1977
+-
 1990
 )
 "
@@ -364,6 +367,7 @@ kwanza
 angolais
 (
 1990
+-
 2000
 )
 "
@@ -380,6 +384,7 @@ r
 ajust
 (
 1995
+-
 1999
 )
 "
@@ -404,6 +409,7 @@ peso
 argentin
 (
 1983
+-
 1985
 )
 "
@@ -411,7 +417,7 @@ argentin
 ARS
 {
 "
-AR
+ARS
 "
 "
 peso
@@ -459,6 +465,7 @@ az
 ri
 (
 1993
+-
 2006
 )
 "
@@ -487,7 +494,7 @@ bosniaque
 BAM
 {
 "
-BAM
+KM
 "
 "
 mark
@@ -508,7 +515,7 @@ barbadien
 BDT
 {
 "
-BDT
+Tk
 "
 "
 taka
@@ -571,6 +578,7 @@ BGN
 BGN
 "
 "
+nouveau
 lev
 bulgare
 "
@@ -599,7 +607,7 @@ burundais
 BMD
 {
 "
-BM
+BMD
 "
 "
 dollar
@@ -727,7 +735,7 @@ cruzeiro
 BSD
 {
 "
-BS
+BSD
 "
 "
 dollar
@@ -777,6 +785,7 @@ bi
 lorusse
 (
 1994
+-
 1999
 )
 "
@@ -795,7 +804,7 @@ lorusse
 BZD
 {
 "
-BZ
+BZD
 "
 "
 dollar
@@ -869,7 +878,7 @@ chilienne
 CLP
 {
 "
-CL
+CLP
 "
 "
 peso
@@ -890,7 +899,7 @@ chinois
 COP
 {
 "
-CO
+COP
 "
 "
 peso
@@ -972,7 +981,7 @@ cubain
 CVE
 {
 "
-CV
+CVE
 "
 "
 escudo
@@ -1025,7 +1034,7 @@ allemand
 DJF
 {
 "
-DJF
+FDj
 "
 "
 franc
@@ -1092,7 +1101,7 @@ UVC
 EEK
 {
 "
-EEK
+krE
 "
 "
 couronne
@@ -1102,7 +1111,7 @@ estonienne
 EGP
 {
 "
-EG
+EGP
 "
 "
 livre
@@ -1151,7 +1160,6 @@ convertible
 ESP
 {
 "
-ESP
 "
 "
 peseta
@@ -1199,7 +1207,7 @@ fidjien
 FKP
 {
 "
-FK
+FKP
 "
 "
 livre
@@ -1221,7 +1229,7 @@ ais
 GBP
 {
 "
-GB
+UK
 "
 "
 livre
@@ -1277,7 +1285,7 @@ en
 GIP
 {
 "
-GI
+GIP
 "
 "
 livre
@@ -1454,7 +1462,7 @@ hongrois
 IDR
 {
 "
-IDR
+Rp
 "
 "
 roupie
@@ -1661,7 +1669,7 @@ dollar
 des
 les
 Ca
-mans
+manes
 "
 }
 KZT
@@ -1687,7 +1695,7 @@ loatien
 LBP
 {
 "
-LB
+LBP
 "
 "
 livre
@@ -1697,7 +1705,7 @@ libanaise
 LKR
 {
 "
-LKR
+RsSL
 "
 "
 roupie
@@ -1707,7 +1715,7 @@ srilankaise
 LRD
 {
 "
-LR
+LRD
 "
 "
 dollar
@@ -1804,7 +1812,7 @@ LYD
 "
 "
 dinar
-libyen
+lybien
 "
 }
 MAD
@@ -1881,7 +1889,7 @@ malien
 MMK
 {
 "
-MMK
+KMm
 "
 "
 kyat
@@ -1891,7 +1899,7 @@ myanmarais
 MNT
 {
 "
-MNT
+Tug
 "
 "
 tugrik
@@ -1951,7 +1959,7 @@ mauricienne
 MVR
 {
 "
-MVR
+Rf
 "
 "
 rufiyaa
@@ -1971,7 +1979,7 @@ malawite
 MXN
 {
 "
-MX
+MEX
 "
 "
 peso
@@ -2012,7 +2020,7 @@ UDI
 MYR
 {
 "
-MYR
+RM
 "
 "
 ringgit
@@ -2052,7 +2060,7 @@ mozambicain
 NAD
 {
 "
-NA
+NAD
 "
 "
 dollar
@@ -2116,7 +2124,7 @@ gienne
 NPR
 {
 "
-NPR
+RsNP
 "
 "
 roupie
@@ -2222,7 +2230,7 @@ philippin
 PKR
 {
 "
-PKR
+RsPK
 "
 "
 roupie
@@ -2248,6 +2256,7 @@ PLZ
 zloty
 (
 1950
+-
 1995
 )
 "
@@ -2404,7 +2413,7 @@ soudanais
 SDG
 {
 "
-SD
+SDG
 "
 "
 livre
@@ -2450,7 +2459,7 @@ Singapour
 SHP
 {
 "
-SH
+SHP
 "
 "
 livre
@@ -2509,7 +2518,7 @@ somalien
 SRD
 {
 "
-SR
+SRD
 "
 "
 dollar
@@ -2529,7 +2538,7 @@ surinamais
 SSP
 {
 "
-SS
+SSP
 "
 "
 livre
@@ -2563,7 +2572,7 @@ tique
 SVC
 {
 "
-SVC
+SV
 "
 "
 col
@@ -2657,7 +2666,7 @@ tunisien
 TOP
 {
 "
-TOP
+T
 "
 "
 pa
@@ -2685,6 +2694,7 @@ livre
 turque
 (
 1844
+-
 2005
 )
 "
@@ -2702,17 +2712,22 @@ turque
 TTD
 {
 "
-TT
+TTD
 "
 "
 dollar
-trinidadien
+de
+Trinit
+-
+et
+-
+Tobago
 "
 }
 TWD
 {
 "
-TW
+NT
 "
 "
 nouveau
@@ -2760,6 +2775,7 @@ shilling
 ougandais
 (
 1966
+-
 1987
 )
 "
@@ -2855,7 +2871,7 @@ uruguayen
 UYU
 {
 "
-UY
+UYU
 "
 "
 peso
@@ -2885,6 +2901,7 @@ zu
 lien
 (
 1871
+-
 2008
 )
 "
@@ -2915,7 +2932,7 @@ vietnamien
 VUV
 {
 "
-VUV
+VT
 "
 "
 vatu
@@ -3254,20 +3271,6 @@ ZMK
 "
 kwacha
 zambien
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
-"
-"
-kwacha
-zambien
 "
 }
 ZRN
@@ -3298,7 +3301,7 @@ rois
 ZWD
 {
 "
-ZWD
+Z
 "
 "
 dollar
@@ -3913,6 +3916,7 @@ BGN
 one
 {
 "
+nouveau
 lev
 bulgare
 "
@@ -3920,6 +3924,7 @@ bulgare
 other
 {
 "
+nouveaux
 levs
 bulgares
 "
@@ -5028,7 +5033,7 @@ other
 {
 "
 dollars
-fidjiens
+fidjien
 "
 }
 }
@@ -5558,7 +5563,7 @@ other
 nouveaux
 shekels
 isra
-liens
+lien
 "
 }
 }
@@ -5844,7 +5849,7 @@ dollar
 des
 les
 Ca
-mans
+manes
 "
 }
 other
@@ -5854,7 +5859,7 @@ dollars
 des
 les
 Ca
-mans
+manes
 "
 }
 }
@@ -6091,14 +6096,14 @@ one
 {
 "
 dinar
-libyen
+lybien
 "
 }
 other
 {
 "
 dinars
-libyens
+lybien
 "
 }
 }
@@ -7495,7 +7500,7 @@ swazi
 other
 {
 "
-lilangenis
+emalangeni
 swazis
 "
 }
@@ -7513,7 +7518,7 @@ landais
 other
 {
 "
-bahts
+baths
 tha
 landais
 "
@@ -7666,6 +7671,7 @@ livres
 turques
 (
 1844
+-
 2005
 )
 "
@@ -8024,6 +8030,7 @@ zu
 lien
 (
 1871
+-
 2008
 )
 "
@@ -8038,6 +8045,7 @@ zu
 lien
 (
 1871
+-
 2008
 )
 "
@@ -8058,11 +8066,11 @@ lien
 other
 {
 "
-bolivars
+bolivar
 v
 n
 zu
-liens
+lien
 "
 }
 }
@@ -8226,6 +8234,7 @@ europ
 enne
 (
 UME
+-
 6
 )
 "
@@ -8241,6 +8250,7 @@ europ
 ennes
 (
 UME
+-
 6
 )
 "
@@ -8259,6 +8269,7 @@ europ
 enne
 (
 UEC
+-
 9
 )
 "
@@ -8275,6 +8286,7 @@ europ
 ennes
 (
 UEC
+-
 9
 )
 "
@@ -8293,6 +8305,7 @@ europ
 enne
 (
 UEC
+-
 17
 )
 "
@@ -8309,6 +8322,7 @@ europ
 ennes
 (
 UEC
+-
 17
 )
 "
@@ -8726,31 +8740,6 @@ one
 "
 kwacha
 zambien
-(
-1968
-2012
-)
-"
-}
-other
-{
-"
-kwachas
-zambiens
-(
-1968
-2012
-)
-"
-}
-}
-ZMW
-{
-one
-{
-"
-kwacha
-zambien
 "
 }
 other
@@ -8907,9 +8896,9 @@ Version
 .
 0
 .
-93
+78
 .
-10
+30
 "
 }
 }

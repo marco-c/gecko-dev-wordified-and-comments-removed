@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -213,14 +213,6 @@ xml
 *
 en_NZ
 {
-%
-%
-Parent
-{
-"
-en_GB
-"
-}
 Currencies
 {
 NZD
@@ -251,9 +243,9 @@ Version
 .
 0
 .
-90
+78
 .
-61
+47
 "
 }
 }

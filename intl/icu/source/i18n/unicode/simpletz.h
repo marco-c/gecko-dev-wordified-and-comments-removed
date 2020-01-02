@@ -521,7 +521,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 virtual
 int32_t
@@ -608,7 +607,6 @@ TimeZoneTransition
 &
 result
 )
-const
 ;
 virtual
 UBool
@@ -622,7 +620,6 @@ TimeZoneTransition
 &
 result
 )
-const
 ;
 virtual
 int32_t
@@ -632,7 +629,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 virtual
 void
@@ -656,7 +652,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 public
 :
@@ -822,15 +817,6 @@ endMode
 ;
 int32_t
 dstSavings
-;
-void
-checkTransitionRules
-(
-UErrorCode
-&
-status
-)
-const
 ;
 void
 initTransitionRules

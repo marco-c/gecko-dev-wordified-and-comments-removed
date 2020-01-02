@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -218,6 +218,7 @@ Currencies
 BAM
 {
 "
+.
 "
 "
 "
@@ -230,9 +231,9 @@ Version
 .
 0
 .
-90
+45
 .
-61
+82
 "
 }
 }

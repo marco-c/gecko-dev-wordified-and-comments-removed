@@ -138,12 +138,15 @@ paraLevel
 ;
 if
 (
+NO_CONTEXT_RTL
+(
 dirProps
 [
 start
 -
 1
 ]
+)
 =
 =
 B
@@ -166,9 +169,7 @@ start
 0
 &
 &
-DIRPROP_FLAG
-(
-PURE_DIRPROP
+DIRPROP_FLAG_NC
 (
 dirProps
 [
@@ -176,7 +177,6 @@ start
 -
 1
 ]
-)
 )
 &
 MASK_WS

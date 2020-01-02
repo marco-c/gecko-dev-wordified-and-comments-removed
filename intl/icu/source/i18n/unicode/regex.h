@@ -94,9 +94,6 @@ class
 UVector64
 ;
 #
-ifndef
-U_HIDE_INTERNAL_API
-#
 ifdef
 REGEX_DEBUG
 U_INTERNAL
@@ -121,8 +118,6 @@ RegexPatternDump
 (
 pat
 )
-#
-endif
 #
 endif
 class

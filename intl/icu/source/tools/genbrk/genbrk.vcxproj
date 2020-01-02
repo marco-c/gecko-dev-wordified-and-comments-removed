@@ -1472,7 +1472,7 @@ FunctionLevelLinking
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions
@@ -1851,7 +1851,7 @@ BufferSecurityCheck
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions
@@ -2256,7 +2256,7 @@ FunctionLevelLinking
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions
@@ -2638,7 +2638,7 @@ BufferSecurityCheck
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions

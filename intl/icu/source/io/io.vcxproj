@@ -1467,7 +1467,7 @@ FunctionLevelLinking
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions
@@ -1621,7 +1621,7 @@ OutputFile
 \
 bin
 \
-icuio52
+icuio50
 .
 dll
 <
@@ -1881,7 +1881,7 @@ BufferSecurityCheck
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions
@@ -2051,7 +2051,7 @@ OutputFile
 \
 bin
 \
-icuio52d
+icuio50d
 .
 dll
 <
@@ -2305,7 +2305,7 @@ FunctionLevelLinking
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions
@@ -2459,7 +2459,7 @@ OutputFile
 \
 bin64
 \
-icuio52
+icuio50
 .
 dll
 <
@@ -2714,7 +2714,7 @@ BufferSecurityCheck
 <
 DisableLanguageExtensions
 >
-false
+true
 <
 /
 DisableLanguageExtensions
@@ -2884,7 +2884,7 @@ OutputFile
 \
 bin64
 \
-icuio52d
+icuio50d
 .
 dll
 <

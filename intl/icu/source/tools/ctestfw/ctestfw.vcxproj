@@ -1636,7 +1636,7 @@ OutputFile
 \
 bin
 \
-icutest52
+icutest50
 .
 dll
 <
@@ -2075,7 +2075,7 @@ OutputFile
 \
 bin
 \
-icutest52d
+icutest50d
 .
 dll
 <
@@ -2492,7 +2492,7 @@ OutputFile
 \
 bin64
 \
-icutest52
+icutest50
 .
 dll
 <
@@ -2926,7 +2926,7 @@ OutputFile
 \
 bin64
 \
-icutest52d
+icutest50d
 .
 dll
 <

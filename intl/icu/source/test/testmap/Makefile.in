@@ -17,7 +17,7 @@ c
 )
 2003
 -
-2012
+2011
 International
 Business
 Machines
@@ -116,12 +116,6 @@ top_srcdir
 )
 /
 i18n
-(
-SHAREDLIBCPPFLAGS
-)
-(
-SHAREDLIBCFLAGS
-)
 #
 CFLAGS
 +
@@ -367,12 +361,6 @@ OUTOPT
 ^
 (
 LIBS
-)
-(
-CFLAGS
-)
-(
-SHAREDLIBCFLAGS
 )
 (
 POST_BUILD_STEP

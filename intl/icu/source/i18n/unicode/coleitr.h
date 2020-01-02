@@ -235,7 +235,7 @@ getStaticClassID
 (
 )
 ;
-private
+protected
 :
 friend
 class
@@ -283,6 +283,8 @@ CollationElementIterator
 other
 )
 ;
+private
+:
 CollationElementIterator
 (
 )

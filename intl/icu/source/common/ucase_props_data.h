@@ -24,7 +24,7 @@ ucase_props_dataVersion
 =
 {
 6
-3
+2
 0
 0
 }
@@ -4453,7 +4453,7 @@ ucase_props_trieIndex
 0x64
 0x64
 0
-4
+0
 0
 0
 0
@@ -5951,7 +5951,7 @@ ucase_props_trieIndex
 4
 4
 4
-4
+0
 0
 0
 0
@@ -6080,7 +6080,7 @@ ucase_props_trieIndex
 0x64
 0
 0
-4
+0
 0
 0
 0
@@ -7099,10 +7099,10 @@ ucase_props_trieIndex
 4
 4
 0
-4
-4
-4
-4
+0
+0
+0
+0
 4
 4
 4

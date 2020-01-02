@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -270,6 +270,7 @@ Afghan
 Afghani
 (
 1927
+-
 2002
 )
 "
@@ -294,6 +295,7 @@ Albanian
 Lek
 (
 1946
+-
 1965
 )
 "
@@ -349,6 +351,7 @@ Angolan
 Kwanza
 (
 1977
+-
 1991
 )
 "
@@ -364,6 +367,7 @@ New
 Kwanza
 (
 1990
+-
 2000
 )
 "
@@ -379,6 +383,7 @@ Readjusted
 Kwanza
 (
 1995
+-
 1999
 )
 "
@@ -404,6 +409,7 @@ Peso
 Ley
 (
 1970
+-
 1983
 )
 "
@@ -418,6 +424,7 @@ Argentine
 Peso
 (
 1881
+-
 1970
 )
 "
@@ -432,6 +439,7 @@ Argentine
 Peso
 (
 1983
+-
 1985
 )
 "
@@ -486,6 +494,7 @@ Azerbaijani
 Manat
 (
 1993
+-
 2006
 )
 "
@@ -512,6 +521,7 @@ Herzegovina
 Dinar
 (
 1992
+-
 1994
 )
 "
@@ -542,6 +552,7 @@ New
 Dinar
 (
 1994
+-
 1997
 )
 "
@@ -644,6 +655,7 @@ Bulgarian
 Lev
 (
 1879
+-
 1952
 )
 "
@@ -708,6 +720,7 @@ Bolivian
 Boliviano
 (
 1863
+-
 1963
 )
 "
@@ -743,6 +756,7 @@ New
 Cruzeiro
 (
 1967
+-
 1986
 )
 "
@@ -757,6 +771,7 @@ Brazilian
 Cruzado
 (
 1986
+-
 1989
 )
 "
@@ -771,6 +786,7 @@ Brazilian
 Cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -796,6 +812,7 @@ New
 Cruzado
 (
 1989
+-
 1990
 )
 "
@@ -810,6 +827,7 @@ Brazilian
 Cruzeiro
 (
 1993
+-
 1994
 )
 "
@@ -824,6 +842,7 @@ Brazilian
 Cruzeiro
 (
 1942
+-
 1967
 )
 "
@@ -879,6 +898,7 @@ New
 Ruble
 (
 1994
+-
 1999
 )
 "
@@ -1055,6 +1075,7 @@ Serbian
 Dinar
 (
 2002
+-
 2006
 )
 "
@@ -1375,6 +1396,7 @@ Ghanaian
 Cedi
 (
 1979
+-
 2007
 )
 "
@@ -1594,6 +1616,7 @@ Israeli
 Sheqel
 (
 1980
+-
 1985
 )
 "
@@ -1648,6 +1671,7 @@ Kr
 na
 (
 1918
+-
 1981
 )
 "
@@ -1764,6 +1788,7 @@ Korean
 Hwan
 (
 1953
+-
 1962
 )
 "
@@ -1779,6 +1804,7 @@ Korean
 Won
 (
 1945
+-
 1953
 )
 "
@@ -2047,6 +2073,7 @@ Macedonian
 Denar
 (
 1992
+-
 1993
 )
 "
@@ -2067,7 +2094,7 @@ MMK
 MMK
 "
 "
-Myanmar
+Myanma
 Kyat
 "
 }
@@ -2182,6 +2209,7 @@ Silver
 Peso
 (
 1861
+-
 1992
 )
 "
@@ -2227,6 +2255,7 @@ Mozambican
 Metical
 (
 1980
+-
 2006
 )
 "
@@ -2272,6 +2301,7 @@ C
 rdoba
 (
 1988
+-
 1991
 )
 "
@@ -2379,6 +2409,7 @@ Peruvian
 Sol
 (
 1863
+-
 1965
 )
 "
@@ -2435,6 +2466,7 @@ Polish
 Zloty
 (
 1950
+-
 1995
 )
 "
@@ -2489,6 +2521,7 @@ Romanian
 Leu
 (
 1952
+-
 2006
 )
 "
@@ -2533,6 +2566,7 @@ Russian
 Ruble
 (
 1991
+-
 1998
 )
 "
@@ -2588,6 +2622,7 @@ Sudanese
 Dinar
 (
 1992
+-
 2007
 )
 "
@@ -2612,6 +2647,7 @@ Sudanese
 Pound
 (
 1957
+-
 1998
 )
 "
@@ -2814,6 +2850,7 @@ Turkmenistani
 Manat
 (
 1993
+-
 2009
 )
 "
@@ -2869,6 +2906,7 @@ Turkish
 Lira
 (
 1922
+-
 2005
 )
 "
@@ -2946,6 +2984,7 @@ Ugandan
 Shilling
 (
 1966
+-
 1987
 )
 "
@@ -3021,6 +3060,7 @@ Uruguayan
 Peso
 (
 1975
+-
 1993
 )
 "
@@ -3056,6 +3096,7 @@ Bol
 var
 (
 1871
+-
 2008
 )
 "
@@ -3090,6 +3131,7 @@ Vietnamese
 Dong
 (
 1978
+-
 1985
 )
 "
@@ -3373,6 +3415,7 @@ Hard
 Dinar
 (
 1966
+-
 1990
 )
 "
@@ -3388,6 +3431,7 @@ New
 Dinar
 (
 1994
+-
 2002
 )
 "
@@ -3403,6 +3447,7 @@ Convertible
 Dinar
 (
 1990
+-
 1992
 )
 "
@@ -3418,6 +3463,7 @@ Reformed
 Dinar
 (
 1992
+-
 1993
 )
 "
@@ -3455,20 +3501,6 @@ ZMK
 "
 Zambian
 Kwacha
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
-"
-"
-Zambian
-Kwacha
 "
 }
 ZRN
@@ -3482,6 +3514,7 @@ New
 Zaire
 (
 1993
+-
 1998
 )
 "
@@ -3496,6 +3529,7 @@ Zairean
 Zaire
 (
 1971
+-
 1993
 )
 "
@@ -3510,6 +3544,7 @@ Zimbabwean
 Dollar
 (
 1980
+-
 2008
 )
 "
@@ -3586,6 +3621,7 @@ Afghan
 afghani
 (
 1927
+-
 2002
 )
 "
@@ -3597,6 +3633,7 @@ Afghan
 afghanis
 (
 1927
+-
 2002
 )
 "
@@ -3628,6 +3665,7 @@ Albanian
 lek
 (
 1946
+-
 1965
 )
 "
@@ -3639,6 +3677,7 @@ Albanian
 lek
 (
 1946
+-
 1965
 )
 "
@@ -3723,6 +3762,7 @@ Angolan
 kwanza
 (
 1977
+-
 1991
 )
 "
@@ -3734,6 +3774,7 @@ Angolan
 kwanzas
 (
 1977
+-
 1991
 )
 "
@@ -3749,6 +3790,7 @@ new
 kwanza
 (
 1990
+-
 2000
 )
 "
@@ -3761,6 +3803,7 @@ new
 kwanzas
 (
 1990
+-
 2000
 )
 "
@@ -3776,6 +3819,7 @@ readjusted
 kwanza
 (
 1995
+-
 1999
 )
 "
@@ -3788,6 +3832,7 @@ readjusted
 kwanzas
 (
 1995
+-
 1999
 )
 "
@@ -3820,6 +3865,7 @@ peso
 ley
 (
 1970
+-
 1983
 )
 "
@@ -3832,6 +3878,7 @@ pesos
 ley
 (
 1970
+-
 1983
 )
 "
@@ -3846,6 +3893,7 @@ Argentine
 peso
 (
 1881
+-
 1970
 )
 "
@@ -3857,6 +3905,7 @@ Argentine
 pesos
 (
 1881
+-
 1970
 )
 "
@@ -3871,6 +3920,7 @@ Argentine
 peso
 (
 1983
+-
 1985
 )
 "
@@ -3882,6 +3932,7 @@ Argentine
 pesos
 (
 1983
+-
 1985
 )
 "
@@ -3964,6 +4015,7 @@ Azerbaijani
 manat
 (
 1993
+-
 2006
 )
 "
@@ -3975,6 +4027,7 @@ Azerbaijani
 manats
 (
 1993
+-
 2006
 )
 "
@@ -4008,6 +4061,7 @@ Herzegovina
 dinar
 (
 1992
+-
 1994
 )
 "
@@ -4021,6 +4075,7 @@ Herzegovina
 dinars
 (
 1992
+-
 1994
 )
 "
@@ -4061,6 +4116,7 @@ new
 dinar
 (
 1994
+-
 1997
 )
 "
@@ -4075,6 +4131,7 @@ new
 dinars
 (
 1994
+-
 1997
 )
 "
@@ -4241,6 +4298,7 @@ Bulgarian
 lev
 (
 1879
+-
 1952
 )
 "
@@ -4252,6 +4310,7 @@ Bulgarian
 leva
 (
 1879
+-
 1952
 )
 "
@@ -4351,6 +4410,7 @@ Bolivian
 boliviano
 (
 1863
+-
 1963
 )
 "
@@ -4362,6 +4422,7 @@ Bolivian
 bolivianos
 (
 1863
+-
 1963
 )
 "
@@ -4411,6 +4472,7 @@ new
 cruzeiro
 (
 1967
+-
 1986
 )
 "
@@ -4423,6 +4485,7 @@ new
 cruzeiros
 (
 1967
+-
 1986
 )
 "
@@ -4437,6 +4500,7 @@ Brazilian
 cruzado
 (
 1986
+-
 1989
 )
 "
@@ -4448,6 +4512,7 @@ Brazilian
 cruzados
 (
 1986
+-
 1989
 )
 "
@@ -4462,6 +4527,7 @@ Brazilian
 cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -4473,6 +4539,7 @@ Brazilian
 cruzeiros
 (
 1990
+-
 1993
 )
 "
@@ -4505,6 +4572,7 @@ new
 cruzado
 (
 1989
+-
 1990
 )
 "
@@ -4517,6 +4585,7 @@ new
 cruzados
 (
 1989
+-
 1990
 )
 "
@@ -4531,6 +4600,7 @@ Brazilian
 cruzeiro
 (
 1993
+-
 1994
 )
 "
@@ -4542,6 +4612,7 @@ Brazilian
 cruzeiros
 (
 1993
+-
 1994
 )
 "
@@ -4556,6 +4627,7 @@ Brazilian
 cruzeiro
 (
 1942
+-
 1967
 )
 "
@@ -4567,6 +4639,7 @@ Brazilian
 cruzeiros
 (
 1942
+-
 1967
 )
 "
@@ -4650,6 +4723,7 @@ new
 ruble
 (
 1994
+-
 1999
 )
 "
@@ -4662,6 +4736,7 @@ new
 rubles
 (
 1994
+-
 1999
 )
 "
@@ -4955,6 +5030,7 @@ Serbian
 dinar
 (
 2002
+-
 2006
 )
 "
@@ -4966,6 +5042,7 @@ Serbian
 dinars
 (
 2002
+-
 2006
 )
 "
@@ -5509,6 +5586,7 @@ Ghanaian
 cedi
 (
 1979
+-
 2007
 )
 "
@@ -5520,6 +5598,7 @@ Ghanaian
 cedis
 (
 1979
+-
 2007
 )
 "
@@ -5884,6 +5963,7 @@ Israeli
 sheqel
 (
 1980
+-
 1985
 )
 "
@@ -5895,6 +5975,7 @@ Israeli
 sheqels
 (
 1980
+-
 1985
 )
 "
@@ -5980,6 +6061,7 @@ kr
 na
 (
 1918
+-
 1981
 )
 "
@@ -5992,6 +6074,7 @@ kr
 nur
 (
 1918
+-
 1981
 )
 "
@@ -6181,6 +6264,7 @@ Korean
 hwan
 (
 1953
+-
 1962
 )
 "
@@ -6193,6 +6277,7 @@ Korean
 hwan
 (
 1953
+-
 1962
 )
 "
@@ -6208,6 +6293,7 @@ Korean
 won
 (
 1945
+-
 1953
 )
 "
@@ -6220,6 +6306,7 @@ Korean
 won
 (
 1945
+-
 1953
 )
 "
@@ -6669,6 +6756,7 @@ Macedonian
 denar
 (
 1992
+-
 1993
 )
 "
@@ -6680,6 +6768,7 @@ Macedonian
 denari
 (
 1992
+-
 1993
 )
 "
@@ -6707,14 +6796,14 @@ MMK
 one
 {
 "
-Myanmar
+Myanma
 kyat
 "
 }
 other
 {
 "
-Myanmar
+Myanma
 kyats
 "
 }
@@ -6899,6 +6988,7 @@ silver
 peso
 (
 1861
+-
 1992
 )
 "
@@ -6911,6 +7001,7 @@ silver
 pesos
 (
 1861
+-
 1992
 )
 "
@@ -6978,6 +7069,7 @@ Mozambican
 metical
 (
 1980
+-
 2006
 )
 "
@@ -6989,6 +7081,7 @@ Mozambican
 meticals
 (
 1980
+-
 2006
 )
 "
@@ -7055,6 +7148,7 @@ c
 rdoba
 (
 1988
+-
 1991
 )
 "
@@ -7067,6 +7161,7 @@ c
 rdobas
 (
 1988
+-
 1991
 )
 "
@@ -7240,6 +7335,7 @@ Peruvian
 sol
 (
 1863
+-
 1965
 )
 "
@@ -7251,6 +7347,7 @@ Peruvian
 soles
 (
 1863
+-
 1965
 )
 "
@@ -7428,6 +7525,7 @@ Romanian
 leu
 (
 1952
+-
 2006
 )
 "
@@ -7439,6 +7537,7 @@ Romanian
 Lei
 (
 1952
+-
 2006
 )
 "
@@ -7504,6 +7603,7 @@ Russian
 ruble
 (
 1991
+-
 1998
 )
 "
@@ -7515,6 +7615,7 @@ Russian
 rubles
 (
 1991
+-
 1998
 )
 "
@@ -7599,6 +7700,7 @@ Sudanese
 dinar
 (
 1992
+-
 2007
 )
 "
@@ -7610,6 +7712,7 @@ Sudanese
 dinars
 (
 1992
+-
 2007
 )
 "
@@ -7641,6 +7744,7 @@ Sudanese
 pound
 (
 1957
+-
 1998
 )
 "
@@ -7652,6 +7756,7 @@ Sudanese
 pounds
 (
 1957
+-
 1998
 )
 "
@@ -7989,6 +8094,7 @@ Turkmenistani
 manat
 (
 1993
+-
 2009
 )
 "
@@ -8000,6 +8106,7 @@ Turkmenistani
 manat
 (
 1993
+-
 2009
 )
 "
@@ -8084,6 +8191,7 @@ Turkish
 lira
 (
 1922
+-
 2005
 )
 "
@@ -8095,6 +8203,7 @@ Turkish
 Lira
 (
 1922
+-
 2005
 )
 "
@@ -8217,6 +8326,7 @@ Ugandan
 shilling
 (
 1966
+-
 1987
 )
 "
@@ -8228,6 +8338,7 @@ Ugandan
 shillings
 (
 1966
+-
 1987
 )
 "
@@ -8351,6 +8462,7 @@ Uruguayan
 peso
 (
 1975
+-
 1993
 )
 "
@@ -8362,6 +8474,7 @@ Uruguayan
 pesos
 (
 1975
+-
 1993
 )
 "
@@ -8411,6 +8524,7 @@ bol
 var
 (
 1871
+-
 2008
 )
 "
@@ -8423,6 +8537,7 @@ bol
 vars
 (
 1871
+-
 2008
 )
 "
@@ -8473,6 +8588,7 @@ Vietnamese
 dong
 (
 1978
+-
 1985
 )
 "
@@ -8484,6 +8600,7 @@ Vietnamese
 dong
 (
 1978
+-
 1985
 )
 "
@@ -8992,6 +9109,7 @@ hard
 dinar
 (
 1966
+-
 1990
 )
 "
@@ -9004,6 +9122,7 @@ hard
 dinars
 (
 1966
+-
 1990
 )
 "
@@ -9019,6 +9138,7 @@ new
 dinar
 (
 1994
+-
 2002
 )
 "
@@ -9031,6 +9151,7 @@ new
 dinars
 (
 1994
+-
 2002
 )
 "
@@ -9046,6 +9167,7 @@ convertible
 dinar
 (
 1990
+-
 1992
 )
 "
@@ -9058,6 +9180,7 @@ convertible
 dinars
 (
 1990
+-
 1992
 )
 "
@@ -9073,6 +9196,7 @@ reformed
 dinar
 (
 1992
+-
 1993
 )
 "
@@ -9085,6 +9209,7 @@ reformed
 dinars
 (
 1992
+-
 1993
 )
 "
@@ -9141,31 +9266,6 @@ one
 "
 Zambian
 kwacha
-(
-1968
-2012
-)
-"
-}
-other
-{
-"
-Zambian
-kwachas
-(
-1968
-2012
-)
-"
-}
-}
-ZMW
-{
-one
-{
-"
-Zambian
-kwacha
 "
 }
 other
@@ -9186,6 +9286,7 @@ new
 zaire
 (
 1993
+-
 1998
 )
 "
@@ -9198,6 +9299,7 @@ new
 zaires
 (
 1993
+-
 1998
 )
 "
@@ -9212,6 +9314,7 @@ Zairean
 zaire
 (
 1971
+-
 1993
 )
 "
@@ -9223,6 +9326,7 @@ Zairean
 zaires
 (
 1971
+-
 1993
 )
 "
@@ -9237,6 +9341,7 @@ Zimbabwean
 dollar
 (
 1980
+-
 2008
 )
 "
@@ -9248,6 +9353,7 @@ Zimbabwean
 dollars
 (
 1980
+-
 2008
 )
 "
@@ -9332,9 +9438,9 @@ Version
 .
 0
 .
-92
+78
 .
-87
+36
 "
 }
 }

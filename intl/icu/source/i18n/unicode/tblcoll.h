@@ -367,9 +367,6 @@ info
 )
 const
 ;
-#
-ifndef
-U_HIDE_DEPRECATED_API
 int32_t
 getMaxExpansion
 (
@@ -378,8 +375,6 @@ order
 )
 const
 ;
-#
-endif
 virtual
 UClassID
 getDynamicClassID
@@ -396,9 +391,6 @@ getStaticClassID
 void
 )
 ;
-#
-ifndef
-U_HIDE_DEPRECATED_API
 uint8_t
 *
 cloneRuleData
@@ -411,8 +403,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 int32_t
 cloneBinary
 (

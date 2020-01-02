@@ -152,7 +152,10 @@ ec
 ;
 #
 endif
-U_STABLE
+#
+ifndef
+U_HIDE_DRAFT_API
+U_DRAFT
 UEnumeration
 *
 U_EXPORT2
@@ -172,7 +175,9 @@ UErrorCode
 ec
 )
 ;
-U_STABLE
+#
+endif
+U_DRAFT
 UEnumeration
 *
 U_EXPORT2

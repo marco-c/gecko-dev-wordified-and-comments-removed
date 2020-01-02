@@ -266,7 +266,6 @@ TimeZoneTransition
 &
 result
 )
-const
 ;
 virtual
 UBool
@@ -280,7 +279,6 @@ TimeZoneTransition
 &
 result
 )
-const
 ;
 virtual
 int32_t
@@ -290,7 +288,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 virtual
 void
@@ -314,7 +311,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 virtual
 void
@@ -336,7 +332,6 @@ UErrorCode
 &
 status
 )
-const
 ;
 private
 :
@@ -471,15 +466,6 @@ dstOffset
 UErrorCode
 &
 ec
-)
-const
-;
-void
-completeConst
-(
-UErrorCode
-&
-status
 )
 const
 ;

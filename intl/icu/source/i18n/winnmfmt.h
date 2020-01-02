@@ -245,9 +245,6 @@ const
 UBool
 fCurrency
 ;
-Locale
-fLocale
-;
 int32_t
 fLCID
 ;

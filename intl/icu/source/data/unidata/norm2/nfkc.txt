@@ -5,7 +5,7 @@ C
 )
 1999
 -
-2013
+2012
 International
 Business
 Machines
@@ -92,7 +92,7 @@ txt
 Unicode
 6
 .
-3
+2
 .
 0
 00A0

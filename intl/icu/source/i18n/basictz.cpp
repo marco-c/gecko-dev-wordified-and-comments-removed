@@ -119,7 +119,6 @@ BasicTimeZone
 :
 hasEquivalentTransitions
 (
-const
 BasicTimeZone
 &
 tz
@@ -133,7 +132,6 @@ UErrorCode
 &
 status
 )
-const
 {
 if
 (
@@ -859,7 +857,6 @@ UErrorCode
 &
 status
 )
-const
 {
 initial
 =
@@ -1905,7 +1902,6 @@ UErrorCode
 &
 status
 )
-const
 {
 if
 (
@@ -3345,7 +3341,6 @@ UErrorCode
 &
 status
 )
-const
 {
 if
 (

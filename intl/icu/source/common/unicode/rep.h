@@ -120,7 +120,6 @@ const
 ;
 protected
 :
-inline
 Replaceable
 (
 )
@@ -158,15 +157,6 @@ const
 ;
 }
 ;
-inline
-Replaceable
-:
-:
-Replaceable
-(
-)
-{
-}
 inline
 int32_t
 Replaceable

@@ -255,6 +255,15 @@ errorCode
 )
 const
 ;
+private
+:
+virtual
+UClassID
+getDynamicClassID
+(
+)
+const
+;
 }
 ;
 class

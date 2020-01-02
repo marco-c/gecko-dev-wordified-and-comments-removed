@@ -250,4 +250,8 @@ return
 scratch
 ;
 }
+UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
+(
+Appendable
+)
 U_NAMESPACE_END

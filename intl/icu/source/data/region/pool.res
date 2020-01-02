@@ -1,6 +1,5 @@
 '
 ResB
-%
 Version
 Countries
 001
@@ -285,17 +284,12 @@ VN
 VU
 WF
 WS
-XK
 YE
 YT
 ZA
 ZM
 ZW
 ZZ
-CountriesShort
-%
-%
-Parent
 %
 %
 ALIAS

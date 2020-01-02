@@ -1902,6 +1902,10 @@ Node
 right
 ;
 }
+UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
+(
+StringTrieBuilder
+)
 UBool
 StringTrieBuilder
 :
@@ -1981,6 +1985,13 @@ return
 edgeNumber
 ;
 }
+UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
+(
+StringTrieBuilder
+:
+:
+Node
+)
 UBool
 StringTrieBuilder
 :

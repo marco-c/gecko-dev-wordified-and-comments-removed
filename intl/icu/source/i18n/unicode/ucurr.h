@@ -295,7 +295,10 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+#
+ifndef
+U_HIDE_DRAFT_API
+U_DRAFT
 int32_t
 U_EXPORT2
 ucurr_getNumericCode
@@ -306,6 +309,8 @@ UChar
 currency
 )
 ;
+#
+endif
 #
 endif
 #

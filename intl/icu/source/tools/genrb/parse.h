@@ -32,6 +32,8 @@ U_CDECL_BEGIN
 void
 initParser
 (
+UBool
+omitCollationRules
 )
 ;
 struct
@@ -51,9 +53,7 @@ char
 *
 outputDir
 UBool
-makeBinaryCollation
-UBool
-omitCollationRules
+omitBinaryCollation
 UErrorCode
 *
 status

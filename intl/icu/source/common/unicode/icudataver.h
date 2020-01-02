@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+ifndef
+U_HIDE_DRAFT_API
+#
 define
 U_ICU_VERSION_BUNDLE
 "
@@ -25,7 +28,7 @@ U_ICU_DATA_KEY
 "
 DataVersion
 "
-U_STABLE
+U_DRAFT
 void
 U_EXPORT2
 u_getDataVersion
@@ -37,5 +40,7 @@ UErrorCode
 status
 )
 ;
+#
+endif
 #
 endif

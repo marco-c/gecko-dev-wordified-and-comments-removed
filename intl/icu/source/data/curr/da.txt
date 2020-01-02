@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -272,6 +272,7 @@ Afghansk
 afghani
 (
 1927
+-
 2002
 )
 "
@@ -312,10 +313,11 @@ ANG
 ANG
 "
 "
-Nederlandske
+Gylden
+fra
+De
+Hollandske
 Antiller
--
-gylden
 "
 }
 AOA
@@ -338,6 +340,7 @@ Angolansk
 kwanza
 (
 1977
+-
 1990
 )
 "
@@ -353,6 +356,7 @@ nye
 kwanza
 (
 1990
+-
 2000
 )
 "
@@ -367,6 +371,7 @@ Angolansk
 kwanza
 (
 1995
+-
 1999
 )
 "
@@ -391,6 +396,7 @@ Argentinsk
 peso
 (
 1983
+-
 1985
 )
 "
@@ -445,6 +451,7 @@ Aserbajdsjansk
 manat
 (
 1993
+-
 2006
 )
 "
@@ -642,6 +649,7 @@ cruzeiro
 novo
 (
 1967
+-
 1986
 )
 "
@@ -656,6 +664,7 @@ Brasiliansk
 cruzado
 (
 1986
+-
 1989
 )
 "
@@ -670,6 +679,7 @@ Brasiliansk
 cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -695,6 +705,7 @@ cruzado
 novo
 (
 1989
+-
 1990
 )
 "
@@ -709,6 +720,7 @@ Brasiliansk
 cruzeiro
 (
 1993
+-
 1994
 )
 "
@@ -763,6 +775,7 @@ Hviderussisk
 rubel
 (
 1994
+-
 1999
 )
 "
@@ -875,8 +888,7 @@ CRC
 "
 "
 Costaricansk
-col
-n
+colon
 "
 }
 CSD
@@ -889,6 +901,7 @@ Serbisk
 dinar
 (
 2002
+-
 2006
 )
 "
@@ -1065,6 +1078,7 @@ Spansk
 peseta
 (
 A
+-
 konto
 )
 "
@@ -1193,6 +1207,7 @@ Ghanesisk
 cedi
 (
 1979
+-
 2007
 )
 "
@@ -1563,8 +1578,10 @@ KYD
 KYD
 "
 "
-Caymansk
-dollar
+Dollar
+fra
+Cayman
+erne
 "
 }
 KZT
@@ -1634,7 +1651,7 @@ LTL
 "
 "
 Litauisk
-litas
+lita
 "
 }
 LTT
@@ -1890,6 +1907,7 @@ silver
 peso
 (
 1861
+-
 1992
 )
 "
@@ -1924,6 +1942,7 @@ Mozambiquisk
 metical
 (
 1980
+-
 2006
 )
 "
@@ -1968,6 +1987,7 @@ Nicaraguansk
 cordoba
 (
 1988
+-
 1991
 )
 "
@@ -2060,8 +2080,8 @@ PEN
 "
 "
 Peruviansk
-nuevo
 sol
+nuevo
 "
 }
 PES
@@ -2074,6 +2094,7 @@ Peruviansk
 sol
 (
 1863
+-
 1965
 )
 "
@@ -2128,6 +2149,7 @@ Polsk
 zloty
 (
 1950
+-
 1995
 )
 "
@@ -2173,6 +2195,7 @@ nsk
 leu
 (
 1952
+-
 2006
 )
 "
@@ -2218,6 +2241,7 @@ Russisk
 rubel
 (
 1991
+-
 1998
 )
 "
@@ -2238,7 +2262,7 @@ SAR
 SAR
 "
 "
-Saudiarabisk
+Saudisk
 riyal
 "
 }
@@ -2272,6 +2296,7 @@ Sudansk
 dinar
 (
 1992
+-
 2007
 )
 "
@@ -2296,6 +2321,7 @@ Sudansk
 pund
 (
 1957
+-
 1998
 )
 "
@@ -2495,6 +2521,7 @@ Turkmensk
 manat
 (
 1993
+-
 2009
 )
 "
@@ -2551,6 +2578,7 @@ Tyrkisk
 lire
 (
 1922
+-
 2005
 )
 "
@@ -2562,7 +2590,7 @@ TRY
 "
 "
 Tyrkisk
-lira
+lire
 "
 }
 TTD
@@ -2629,6 +2657,7 @@ Ugandisk
 shilling
 (
 1966
+-
 1987
 )
 "
@@ -2691,6 +2720,7 @@ Uruguayansk
 peso
 (
 1975
+-
 1993
 )
 "
@@ -2725,6 +2755,7 @@ Venezuelansk
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -2774,12 +2805,10 @@ XAF
 FCFA
 "
 "
+Beninsk
 CFA
 -
 franc
-(
-BEAC
-)
 "
 }
 XAG
@@ -2971,6 +3000,7 @@ hard
 dinar
 (
 1966
+-
 1990
 )
 "
@@ -2986,6 +3016,7 @@ noviy
 dinar
 (
 1994
+-
 2002
 )
 "
@@ -3001,6 +3032,7 @@ konvertibel
 dinar
 (
 1990
+-
 1992
 )
 "
@@ -3036,20 +3068,6 @@ ZMK
 "
 Zambisk
 kwacha
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
-"
-"
-Zambisk
-kwacha
 "
 }
 ZRN
@@ -3063,6 +3081,7 @@ zairisk
 zaire
 (
 1993
+-
 1998
 )
 "
@@ -3077,6 +3096,7 @@ Zairisk
 zaire
 (
 1971
+-
 1993
 )
 "
@@ -3091,6 +3111,7 @@ Zimbabwisk
 dollar
 (
 1980
+-
 2008
 )
 "
@@ -3169,6 +3190,7 @@ Afghansk
 afghani
 (
 1927
+-
 2002
 )
 "
@@ -3180,6 +3202,7 @@ Afghanske
 afghani
 (
 1927
+-
 2002
 )
 "
@@ -3241,19 +3264,21 @@ ANG
 one
 {
 "
-Nederlandske
+Gylden
+fra
+De
+Hollandske
 Antiller
--
-gylden
 "
 }
 other
 {
 "
-Nederlandske
+Gylden
+fra
+De
+Hollandske
 Antiller
--
-gylden
 "
 }
 }
@@ -3283,6 +3308,7 @@ Angolansk
 kwanza
 (
 1977
+-
 1990
 )
 "
@@ -3294,6 +3320,7 @@ Angolanske
 kwanza
 (
 1977
+-
 1990
 )
 "
@@ -3309,6 +3336,7 @@ nye
 kwanza
 (
 1990
+-
 2000
 )
 "
@@ -3321,6 +3349,7 @@ nye
 kwanza
 (
 1990
+-
 2000
 )
 "
@@ -3335,6 +3364,7 @@ Angolansk
 kwanza
 (
 1995
+-
 1999
 )
 "
@@ -3346,6 +3376,7 @@ Angolanske
 kwanza
 (
 1995
+-
 1999
 )
 "
@@ -3377,6 +3408,7 @@ Argentinsk
 pesos
 (
 1983
+-
 1985
 )
 "
@@ -3388,6 +3420,7 @@ Argentinske
 pesos
 (
 1983
+-
 1985
 )
 "
@@ -3470,6 +3503,7 @@ Aserbajdsjansk
 manat
 (
 1993
+-
 2006
 )
 "
@@ -3481,6 +3515,7 @@ Aserbajdsjanske
 manat
 (
 1993
+-
 2006
 )
 "
@@ -3809,6 +3844,7 @@ cruzeiro
 novo
 (
 1967
+-
 1986
 )
 "
@@ -3821,6 +3857,7 @@ cruzeiro
 novo
 (
 1967
+-
 1986
 )
 "
@@ -3835,6 +3872,7 @@ Brasiliansk
 cruzado
 (
 1986
+-
 1989
 )
 "
@@ -3846,6 +3884,7 @@ Brasilianske
 cruzado
 (
 1986
+-
 1989
 )
 "
@@ -3860,6 +3899,7 @@ Brasiliansk
 cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -3871,6 +3911,7 @@ Brasilianske
 cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -3903,6 +3944,7 @@ cruzado
 novo
 (
 1989
+-
 1990
 )
 "
@@ -3915,6 +3957,7 @@ cruzado
 novo
 (
 1989
+-
 1990
 )
 "
@@ -3929,6 +3972,7 @@ Brasiliansk
 cruzeiro
 (
 1993
+-
 1994
 )
 "
@@ -3940,6 +3984,7 @@ Brasilianske
 cruzeiro
 (
 1993
+-
 1994
 )
 "
@@ -4022,6 +4067,7 @@ Hviderussisk
 rubel
 (
 1994
+-
 1999
 )
 "
@@ -4033,6 +4079,7 @@ Hviderussiske
 rubler
 (
 1994
+-
 1999
 )
 "
@@ -4214,16 +4261,14 @@ one
 {
 "
 Costaricansk
-col
-n
+colon
 "
 }
 other
 {
 "
 Costaricanske
-col
-n
+colon
 "
 }
 }
@@ -4236,6 +4281,7 @@ Serbisk
 dinar
 (
 2002
+-
 2006
 )
 "
@@ -4247,6 +4293,7 @@ Serbiske
 dinar
 (
 2002
+-
 2006
 )
 "
@@ -4537,6 +4584,7 @@ Spansk
 peseta
 (
 A
+-
 konto
 )
 "
@@ -4548,6 +4596,7 @@ Spanske
 peseta
 (
 A
+-
 konto
 )
 "
@@ -4761,6 +4810,7 @@ Ghanesisk
 cedi
 (
 1979
+-
 2007
 )
 "
@@ -4772,6 +4822,7 @@ Ghanesiske
 cedi
 (
 1979
+-
 2007
 )
 "
@@ -5406,15 +5457,19 @@ KYD
 one
 {
 "
-Caymansk
-dollar
+Dollar
+fra
+Cayman
+erne
 "
 }
 other
 {
 "
-Caymansk
-dollar
+Dollar
+fra
+Cayman
+erne
 "
 }
 }
@@ -5526,14 +5581,14 @@ one
 {
 "
 Litauisk
-litas
+lita
 "
 }
 other
 {
 "
 Litauiske
-litai
+lita
 "
 }
 }
@@ -5622,7 +5677,7 @@ other
 {
 "
 Lettiske
-lats
+lat
 "
 }
 }
@@ -5959,6 +6014,7 @@ silver
 peso
 (
 1861
+-
 1992
 )
 "
@@ -5971,6 +6027,7 @@ silver
 peso
 (
 1861
+-
 1992
 )
 "
@@ -6019,6 +6076,7 @@ Mozambiquisk
 metical
 (
 1980
+-
 2006
 )
 "
@@ -6030,6 +6088,7 @@ Mozambiquiske
 metical
 (
 1980
+-
 2006
 )
 "
@@ -6095,6 +6154,7 @@ Nicaraguansk
 cordoba
 (
 1988
+-
 1991
 )
 "
@@ -6106,6 +6166,7 @@ Nicaraguanske
 cordoba
 (
 1988
+-
 1991
 )
 "
@@ -6255,16 +6316,16 @@ one
 {
 "
 Peruviansk
-nuevo
 sol
+nuevo
 "
 }
 other
 {
 "
 Peruvianske
-nuevos
-soles
+sol
+nuevo
 "
 }
 }
@@ -6277,6 +6338,7 @@ Peruviansk
 sol
 (
 1863
+-
 1965
 )
 "
@@ -6288,6 +6350,7 @@ Peruvianske
 sol
 (
 1863
+-
 1965
 )
 "
@@ -6316,7 +6379,7 @@ one
 {
 "
 Filippinsk
-peso
+pesos
 "
 }
 other
@@ -6370,6 +6433,7 @@ Polsk
 zloty
 (
 1950
+-
 1995
 )
 "
@@ -6381,6 +6445,7 @@ Polske
 zloty
 (
 1950
+-
 1995
 )
 "
@@ -6447,6 +6512,7 @@ nsk
 leu
 (
 1952
+-
 2006
 )
 "
@@ -6459,6 +6525,7 @@ nske
 leu
 (
 1952
+-
 2006
 )
 "
@@ -6526,6 +6593,7 @@ Russisk
 rubel
 (
 1991
+-
 1998
 )
 "
@@ -6537,6 +6605,7 @@ Russiske
 rubler
 (
 1991
+-
 1998
 )
 "
@@ -6564,14 +6633,14 @@ SAR
 one
 {
 "
-Saudiarabisk
+Saudisk
 riyal
 "
 }
 other
 {
 "
-Saudiarabiske
+Saudiske
 riyal
 "
 }
@@ -6619,6 +6688,7 @@ Sudansk
 dinar
 (
 1992
+-
 2007
 )
 "
@@ -6630,6 +6700,7 @@ Sudanske
 dinar
 (
 1992
+-
 2007
 )
 "
@@ -6661,6 +6732,7 @@ Sudanske
 pund
 (
 1957
+-
 1998
 )
 "
@@ -6672,6 +6744,7 @@ Sudanske
 pund
 (
 1957
+-
 1998
 )
 "
@@ -7004,6 +7077,7 @@ Turkmensk
 manat
 (
 1993
+-
 2009
 )
 "
@@ -7015,6 +7089,7 @@ Turkmenske
 manat
 (
 1993
+-
 2009
 )
 "
@@ -7101,6 +7176,7 @@ Tyrkisk
 lire
 (
 1922
+-
 2005
 )
 "
@@ -7112,6 +7188,7 @@ Tyrkiske
 lire
 (
 1922
+-
 2005
 )
 "
@@ -7236,6 +7313,7 @@ Ugandisk
 shilling
 (
 1966
+-
 1987
 )
 "
@@ -7247,6 +7325,7 @@ Ugandiske
 shilling
 (
 1966
+-
 1987
 )
 "
@@ -7347,6 +7426,7 @@ Uruguayansk
 peso
 (
 1975
+-
 1993
 )
 "
@@ -7358,6 +7438,7 @@ Uruguayanske
 peso
 (
 1975
+-
 1993
 )
 "
@@ -7406,6 +7487,7 @@ Venezuelansk
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -7417,6 +7499,7 @@ Venezuelanske
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -7504,12 +7587,10 @@ franc
 other
 {
 "
+Beninske
 CFA
 -
 franc
-(
-BEAC
-)
 "
 }
 }
@@ -7628,19 +7709,15 @@ XXX
 one
 {
 "
-(
 ukendt
 valuta
-)
 "
 }
 other
 {
 "
-(
 ukendt
 valuta
-)
 "
 }
 }
@@ -7688,6 +7765,7 @@ hard
 dinar
 (
 1966
+-
 1990
 )
 "
@@ -7700,6 +7778,7 @@ hard
 dinar
 (
 1966
+-
 1990
 )
 "
@@ -7715,6 +7794,7 @@ noviy
 dinar
 (
 1994
+-
 2002
 )
 "
@@ -7727,6 +7807,7 @@ noviy
 dinar
 (
 1994
+-
 2002
 )
 "
@@ -7742,6 +7823,7 @@ konvertibel
 dinar
 (
 1990
+-
 1992
 )
 "
@@ -7754,6 +7836,7 @@ konvertibel
 dinar
 (
 1990
+-
 1992
 )
 "
@@ -7806,31 +7889,6 @@ one
 "
 Zambisk
 kwacha
-(
-1968
-2012
-)
-"
-}
-other
-{
-"
-Zambiske
-kwacha
-(
-1968
-2012
-)
-"
-}
-}
-ZMW
-{
-one
-{
-"
-Zambisk
-kwacha
 "
 }
 other
@@ -7851,6 +7909,7 @@ zairisk
 zaire
 (
 1993
+-
 1998
 )
 "
@@ -7863,6 +7922,7 @@ zairiske
 zaire
 (
 1993
+-
 1998
 )
 "
@@ -7877,6 +7937,7 @@ Zairisk
 zaire
 (
 1971
+-
 1993
 )
 "
@@ -7888,6 +7949,7 @@ Zairiske
 zaire
 (
 1971
+-
 1993
 )
 "
@@ -7902,6 +7964,7 @@ Zimbabwisk
 dollar
 (
 1980
+-
 2008
 )
 "
@@ -7913,6 +7976,7 @@ Zimbabwiske
 dollar
 (
 1980
+-
 2008
 )
 "
@@ -7997,9 +8061,9 @@ Version
 .
 0
 .
-92
+78
 .
-87
+39
 "
 }
 }

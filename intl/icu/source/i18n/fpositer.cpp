@@ -35,6 +35,10 @@ uvectr32
 h
 "
 U_NAMESPACE_BEGIN
+UOBJECT_DEFINE_NO_RTTI_IMPLEMENTATION
+(
+FieldPositionIterator
+)
 FieldPositionIterator
 :
 :

@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -227,7 +227,7 @@ latn
 {
 patterns
 {
-accountingFormat
+currencyFormat
 {
 "
 #
@@ -245,17 +245,6 @@ accountingFormat
 .
 00
 )
-"
-}
-currencyFormat
-{
-"
-#
-#
-#
-0
-.
-00
 "
 }
 }
@@ -282,9 +271,9 @@ Version
 .
 0
 .
-92
+74
 .
-87
+64
 "
 }
 }

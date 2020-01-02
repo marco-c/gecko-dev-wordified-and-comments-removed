@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -267,6 +267,7 @@ AFA
 Afghani
 (
 1927
+-
 2002
 )
 "
@@ -331,6 +332,7 @@ Angolanische
 Kwanza
 (
 1977
+-
 1990
 )
 "
@@ -376,6 +378,7 @@ Argentinische
 Peso
 (
 1983
+-
 1985
 )
 "
@@ -430,6 +433,7 @@ Aserbeidschanische
 Manat
 (
 1993
+-
 2006
 )
 "
@@ -537,6 +541,7 @@ BGL
 Lew
 (
 1962
+-
 1999
 )
 "
@@ -635,6 +640,7 @@ Cruzeiro
 Novo
 (
 1967
+-
 1986
 )
 "
@@ -659,6 +665,7 @@ Brasilianische
 Cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -1083,6 +1090,7 @@ Schpanischi
 Peseeta
 (
 A
+-
 Kontene
 )
 "
@@ -1919,6 +1927,7 @@ Silber
 Peso
 (
 1861
+-
 1992
 )
 "
@@ -2156,6 +2165,7 @@ PLZ
 Zloty
 (
 1950
+-
 1995
 )
 "
@@ -2654,6 +2664,7 @@ Uganda
 Schilling
 (
 1966
+-
 1987
 )
 "
@@ -2720,6 +2731,7 @@ ie
 Peso
 (
 1975
+-
 1993
 )
 "
@@ -2754,6 +2766,7 @@ VEB
 Bolivar
 (
 1871
+-
 2008
 )
 "
@@ -3051,6 +3064,7 @@ Jugoslawische
 Dinar
 (
 1966
+-
 1990
 )
 "
@@ -3092,19 +3106,6 @@ ZMK
 {
 "
 ZMK
-"
-"
-Kwacha
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
 "
 "
 Kwacha
@@ -3186,6 +3187,7 @@ one
 Afghani
 (
 1927
+-
 2002
 )
 "
@@ -3196,6 +3198,7 @@ other
 Afghani
 (
 1927
+-
 2002
 )
 "
@@ -3255,6 +3258,7 @@ Angolanischi
 Kwanza
 (
 1977
+-
 1990
 )
 "
@@ -3266,6 +3270,7 @@ Angolanischi
 Kwanza
 (
 1977
+-
 1990
 )
 "
@@ -3333,6 +3338,7 @@ Argentinischi
 Peso
 (
 1983
+-
 1985
 )
 "
@@ -3344,6 +3350,7 @@ Argentinischi
 Peso
 (
 1983
+-
 1985
 )
 "
@@ -3426,6 +3433,7 @@ Aserbaidschanischi
 Manat
 (
 1993
+-
 2006
 )
 "
@@ -3437,6 +3445,7 @@ Aserbaidschanischi
 Manat
 (
 1993
+-
 2006
 )
 "
@@ -3591,6 +3600,7 @@ one
 Lewa
 (
 1962
+-
 1999
 )
 "
@@ -3601,6 +3611,7 @@ other
 Lewa
 (
 1962
+-
 1999
 )
 "
@@ -3758,6 +3769,7 @@ Cruzeiro
 Novo
 (
 1967
+-
 1986
 )
 "
@@ -3770,6 +3782,7 @@ Cruzeiro
 Novo
 (
 1967
+-
 1986
 )
 "
@@ -3801,6 +3814,7 @@ Brasilianischi
 Cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -3812,6 +3826,7 @@ Brasilianischi
 Cruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -4460,6 +4475,7 @@ Schpanischi
 Peseete
 (
 A
+-
 Kontene
 )
 "
@@ -4471,6 +4487,7 @@ Schpanischi
 Peseete
 (
 A
+-
 Kontene
 )
 "
@@ -6303,6 +6320,7 @@ one
 Zloty
 (
 1950
+-
 1995
 )
 "
@@ -6313,6 +6331,7 @@ other
 Zloty
 (
 1950
+-
 1995
 )
 "
@@ -7018,6 +7037,7 @@ rkischi
 Liira
 (
 1922
+-
 2005
 )
 "
@@ -7030,6 +7050,7 @@ rkischi
 Liire
 (
 1922
+-
 2005
 )
 "
@@ -7169,6 +7190,7 @@ Uganda
 Schilling
 (
 1966
+-
 1987
 )
 "
@@ -7181,6 +7203,7 @@ Uganda
 Schilling
 (
 1966
+-
 1987
 )
 "
@@ -7291,6 +7314,7 @@ ii
 Pesos
 (
 1975
+-
 1993
 )
 "
@@ -7304,6 +7328,7 @@ ii
 Pesos
 (
 1975
+-
 1993
 )
 "
@@ -7353,6 +7378,7 @@ one
 Bolivar
 (
 1871
+-
 2008
 )
 "
@@ -7363,6 +7389,7 @@ other
 Bolivar
 (
 1871
+-
 2008
 )
 "
@@ -7855,6 +7882,7 @@ Jugoslawischi
 Dinar
 (
 1966
+-
 1990
 )
 "
@@ -7866,6 +7894,7 @@ Jugoslawischi
 Dinar
 (
 1966
+-
 1990
 )
 "
@@ -7929,29 +7958,6 @@ Rand
 }
 }
 ZMK
-{
-one
-{
-"
-Kwacha
-(
-1968
-2012
-)
-"
-}
-other
-{
-"
-Kwacha
-(
-1968
-2012
-)
-"
-}
-}
-ZMW
 {
 one
 {
@@ -8052,9 +8058,9 @@ Version
 .
 0
 .
-92
+78
 .
-87
+47
 "
 }
 }

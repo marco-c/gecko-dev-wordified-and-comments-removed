@@ -63,7 +63,7 @@ UErrorCode
 status
 )
 ;
-U_STABLE
+U_DRAFT
 UGender
 U_EXPORT2
 ugender_getListGender

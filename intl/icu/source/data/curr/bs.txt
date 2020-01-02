@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2013
+2012
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-common
+xml
 /
 main
 /
@@ -270,6 +270,7 @@ Avganistanski
 avgani
 (
 1927
+-
 2002
 )
 "
@@ -294,6 +295,7 @@ Albanski
 lek
 (
 1946
+-
 1965
 )
 "
@@ -349,6 +351,7 @@ Angolijska
 kvanza
 (
 1977
+-
 1991
 )
 "
@@ -364,6 +367,7 @@ nova
 kvanza
 (
 1990
+-
 2000
 )
 "
@@ -379,6 +383,7 @@ kvanza
 reajustado
 (
 1995
+-
 1999
 )
 "
@@ -403,6 +408,7 @@ Argentinski
 pezo
 (
 1983
+-
 1985
 )
 "
@@ -458,6 +464,7 @@ anski
 manat
 (
 1993
+-
 2006
 )
 "
@@ -588,6 +595,7 @@ Bugarski
 lev
 (
 1879
+-
 1952
 )
 "
@@ -652,6 +660,7 @@ Bolivijski
 boliviano
 (
 1863
+-
 1963
 )
 "
@@ -687,6 +696,7 @@ kruzeiro
 novo
 (
 1967
+-
 1986
 )
 "
@@ -701,6 +711,7 @@ Brazilski
 kruzado
 (
 1986
+-
 1989
 )
 "
@@ -715,6 +726,7 @@ Brazilski
 kruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -740,6 +752,7 @@ kruzado
 novo
 (
 1989
+-
 1990
 )
 "
@@ -754,6 +767,7 @@ Brazilski
 kruzeiro
 (
 1993
+-
 1994
 )
 "
@@ -768,6 +782,7 @@ Brazilski
 kruzeiro
 (
 1942
+-
 1967
 )
 "
@@ -823,6 +838,7 @@ nova
 rublja
 (
 1994
+-
 1999
 )
 "
@@ -960,6 +976,7 @@ Srpski
 dinar
 (
 2002
+-
 2006
 )
 "
@@ -1282,6 +1299,7 @@ Ganijski
 cedi
 (
 1979
+-
 2007
 )
 "
@@ -1665,6 +1683,7 @@ korejski
 hvan
 (
 1953
+-
 1962
 )
 "
@@ -1682,6 +1701,7 @@ korejski
 Von
 (
 1945
+-
 1953
 )
 "
@@ -1935,6 +1955,7 @@ Makedonski
 denar
 (
 1992
+-
 1993
 )
 "
@@ -2066,6 +2087,7 @@ srebrno
 pezo
 (
 1861
+-
 1992
 )
 "
@@ -2112,6 +2134,7 @@ Mozambijski
 metikal
 (
 1980
+-
 2006
 )
 "
@@ -2157,6 +2180,7 @@ ka
 kordoba
 (
 1988
+-
 1991
 )
 "
@@ -2264,6 +2288,7 @@ Peruvijski
 sol
 (
 1863
+-
 1965
 )
 "
@@ -2320,6 +2345,7 @@ Poljski
 zloti
 (
 1950
+-
 1995
 )
 "
@@ -2374,6 +2400,7 @@ Rumunski
 leu
 (
 1952
+-
 2006
 )
 "
@@ -2419,6 +2446,7 @@ Ruska
 rublja
 (
 1991
+-
 1998
 )
 "
@@ -2475,6 +2503,7 @@ Sudanski
 dinar
 (
 1992
+-
 2007
 )
 "
@@ -2499,6 +2528,7 @@ Sudanska
 funta
 (
 1957
+-
 1998
 )
 "
@@ -2690,6 +2720,7 @@ Turkmenistanski
 manat
 (
 1993
+-
 2009
 )
 "
@@ -2747,6 +2778,7 @@ Turska
 lira
 (
 1922
+-
 2005
 )
 "
@@ -2824,6 +2856,7 @@ Ugandijski
 iling
 (
 1966
+-
 1987
 )
 "
@@ -2901,6 +2934,7 @@ Urugvajski
 pezo
 (
 1975
+-
 1993
 )
 "
@@ -2935,6 +2969,7 @@ Venecuelanski
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -2968,6 +3003,7 @@ Vijetnamski
 dong
 (
 1978
+-
 1985
 )
 "
@@ -3293,21 +3329,6 @@ ZMK
 Zambijska
 kva
 a
-(
-1968
-2012
-)
-"
-}
-ZMW
-{
-"
-ZMW
-"
-"
-Zambijska
-kva
-a
 "
 }
 ZRN
@@ -3321,6 +3342,7 @@ novi
 zair
 (
 1993
+-
 1998
 )
 "
@@ -3335,6 +3357,7 @@ Zairski
 zair
 (
 1971
+-
 1993
 )
 "
@@ -3349,6 +3372,7 @@ Zimbabvejski
 dolar
 (
 1980
+-
 2008
 )
 "
@@ -3453,6 +3477,7 @@ Avganistanska
 avgana
 (
 1927
+-
 2002
 )
 "
@@ -3464,6 +3489,7 @@ Avganistanskih
 avgana
 (
 1927
+-
 2002
 )
 "
@@ -3475,6 +3501,7 @@ Avganistanski
 avgan
 (
 1927
+-
 2002
 )
 "
@@ -3486,6 +3513,7 @@ Avganistanski
 avgan
 (
 1927
+-
 2002
 )
 "
@@ -3531,6 +3559,7 @@ Albanska
 leka
 (
 1946
+-
 1965
 )
 "
@@ -3542,6 +3571,7 @@ Albanskih
 leka
 (
 1946
+-
 1965
 )
 "
@@ -3553,6 +3583,7 @@ albanski
 lek
 (
 1946
+-
 1965
 )
 "
@@ -3564,6 +3595,7 @@ albanski
 lek
 (
 1946
+-
 1965
 )
 "
@@ -3702,6 +3734,7 @@ Angolijske
 kvanze
 (
 1977
+-
 1991
 )
 "
@@ -3713,6 +3746,7 @@ Angolijskih
 kvanzi
 (
 1977
+-
 1991
 )
 "
@@ -3724,6 +3758,7 @@ Angolijska
 kvanza
 (
 1977
+-
 1991
 )
 "
@@ -3735,6 +3770,7 @@ Angolijskih
 kvanzi
 (
 1977
+-
 1991
 )
 "
@@ -3750,6 +3786,7 @@ nove
 kvanze
 (
 1990
+-
 2000
 )
 "
@@ -3762,6 +3799,7 @@ novih
 kvanzi
 (
 1990
+-
 2000
 )
 "
@@ -3774,6 +3812,7 @@ nova
 kvanza
 (
 1990
+-
 2000
 )
 "
@@ -3786,6 +3825,7 @@ novi
 kvanze
 (
 1990
+-
 2000
 )
 "
@@ -3802,6 +3842,7 @@ rea
 ustado
 (
 1995
+-
 1999
 )
 "
@@ -3815,6 +3856,7 @@ rea
 ustado
 (
 1995
+-
 1999
 )
 "
@@ -3828,6 +3870,7 @@ rea
 ustado
 (
 1995
+-
 1999
 )
 "
@@ -3841,6 +3884,7 @@ rea
 ustado
 (
 1995
+-
 1999
 )
 "
@@ -3886,6 +3930,7 @@ argentinska
 pezosa
 (
 1983
+-
 1985
 )
 "
@@ -3897,6 +3942,7 @@ argentinskih
 pezosa
 (
 1983
+-
 1985
 )
 "
@@ -3908,6 +3954,7 @@ argentinski
 pezo
 (
 1983
+-
 1985
 )
 "
@@ -3919,6 +3966,7 @@ argentinskih
 pezosa
 (
 1983
+-
 1985
 )
 "
@@ -4058,6 +4106,7 @@ anska
 manata
 (
 1993
+-
 2006
 )
 "
@@ -4070,6 +4119,7 @@ anskih
 manata
 (
 1993
+-
 2006
 )
 "
@@ -4082,6 +4132,7 @@ anski
 manat
 (
 1993
+-
 2006
 )
 "
@@ -4094,6 +4145,7 @@ anskih
 manata
 (
 1993
+-
 2006
 )
 "
@@ -4486,6 +4538,7 @@ Bugarska
 leva
 (
 1879
+-
 1952
 )
 "
@@ -4497,6 +4550,7 @@ Bugarskih
 leva
 (
 1879
+-
 1952
 )
 "
@@ -4508,6 +4562,7 @@ bugarski
 lev
 (
 1879
+-
 1952
 )
 "
@@ -4519,6 +4574,7 @@ Bugarskih
 leva
 (
 1879
+-
 1952
 )
 "
@@ -4688,6 +4744,7 @@ bolivijska
 boliviana
 (
 1863
+-
 1963
 )
 "
@@ -4699,6 +4756,7 @@ bolivijskih
 boliviana
 (
 1863
+-
 1963
 )
 "
@@ -4710,6 +4768,7 @@ bolivijski
 boliviano
 (
 1863
+-
 1963
 )
 "
@@ -4721,6 +4780,7 @@ bolivijskih
 boliviana
 (
 1863
+-
 1963
 )
 "
@@ -4798,6 +4858,7 @@ nova
 kruzeira
 (
 1967
+-
 1986
 )
 "
@@ -4810,6 +4871,7 @@ novih
 kruzeira
 (
 1967
+-
 1986
 )
 "
@@ -4822,6 +4884,7 @@ novi
 kruzeiro
 (
 1967
+-
 1986
 )
 "
@@ -4834,6 +4897,7 @@ novih
 kruzeira
 (
 1967
+-
 1986
 )
 "
@@ -4848,6 +4912,7 @@ brazilska
 kruzadosa
 (
 1986
+-
 1989
 )
 "
@@ -4859,6 +4924,7 @@ brazilskih
 kruzadosa
 (
 1986
+-
 1989
 )
 "
@@ -4870,6 +4936,7 @@ brazilskih
 kruzado
 (
 1986
+-
 1989
 )
 "
@@ -4881,6 +4948,7 @@ brazilskih
 kruzadosa
 (
 1986
+-
 1989
 )
 "
@@ -4895,6 +4963,7 @@ brazilska
 kruzeira
 (
 1990
+-
 1993
 )
 "
@@ -4906,6 +4975,7 @@ brazilskih
 kruzeira
 (
 1990
+-
 1993
 )
 "
@@ -4917,6 +4987,7 @@ brazilski
 kruzeiro
 (
 1990
+-
 1993
 )
 "
@@ -4928,6 +4999,7 @@ brazilskih
 kruzeira
 (
 1990
+-
 1993
 )
 "
@@ -4974,6 +5046,7 @@ nova
 kruzada
 (
 1989
+-
 1990
 )
 "
@@ -4986,6 +5059,7 @@ novih
 kruzada
 (
 1989
+-
 1990
 )
 "
@@ -4998,6 +5072,7 @@ novi
 kruzado
 (
 1989
+-
 1990
 )
 "
@@ -5010,6 +5085,7 @@ novih
 kruzada
 (
 1989
+-
 1990
 )
 "
@@ -5024,6 +5100,7 @@ brazilijska
 kruzeira
 (
 1993
+-
 1994
 )
 "
@@ -5035,6 +5112,7 @@ brazilskih
 kruzeira
 (
 1993
+-
 1994
 )
 "
@@ -5046,6 +5124,7 @@ brazilski
 kruzeiro
 (
 1993
+-
 1994
 )
 "
@@ -5057,6 +5136,7 @@ brazilskih
 kruzeira
 (
 1993
+-
 1994
 )
 "
@@ -5071,6 +5151,7 @@ brazilijska
 kruzeira
 (
 1942
+-
 1967
 )
 "
@@ -5082,6 +5163,7 @@ brazilskih
 kruzeira
 (
 1942
+-
 1967
 )
 "
@@ -5093,6 +5175,7 @@ brazilski
 kruzeiro
 (
 1942
+-
 1967
 )
 "
@@ -5104,6 +5187,7 @@ brazilskih
 kruzeira
 (
 1942
+-
 1967
 )
 "
@@ -5243,6 +5327,7 @@ nove
 rublje
 (
 1994
+-
 1999
 )
 "
@@ -5255,6 +5340,7 @@ novih
 rublji
 (
 1994
+-
 1999
 )
 "
@@ -5267,6 +5353,7 @@ nova
 rublja
 (
 1994
+-
 1999
 )
 "
@@ -5279,6 +5366,7 @@ novih
 rublji
 (
 1994
+-
 1999
 )
 "
@@ -5673,6 +5761,7 @@ srpska
 dinara
 (
 2002
+-
 2006
 )
 "
@@ -5684,6 +5773,7 @@ srpskih
 dinara
 (
 2002
+-
 2006
 )
 "
@@ -5695,6 +5785,7 @@ srpski
 dinar
 (
 2002
+-
 2006
 )
 "
@@ -5706,6 +5797,7 @@ srpskih
 dinara
 (
 2002
+-
 2006
 )
 "
@@ -6692,6 +6784,7 @@ ganska
 ceda
 (
 1979
+-
 2007
 )
 "
@@ -6703,6 +6796,7 @@ ganskih
 ceda
 (
 1979
+-
 2007
 )
 "
@@ -6714,6 +6808,7 @@ ganski
 ced
 (
 1979
+-
 2007
 )
 "
@@ -6725,6 +6820,7 @@ ganskih
 ceda
 (
 1979
+-
 2007
 )
 "
@@ -7933,6 +8029,7 @@ korejska
 hvana
 (
 1953
+-
 1962
 )
 "
@@ -7947,6 +8044,7 @@ korejskih
 hvana
 (
 1953
+-
 1962
 )
 "
@@ -7961,6 +8059,7 @@ korejski
 hvan
 (
 1953
+-
 1962
 )
 "
@@ -7975,6 +8074,7 @@ korejski
 hvana
 (
 1953
+-
 1962
 )
 "
@@ -7992,6 +8092,7 @@ korejska
 vona
 (
 1945
+-
 1953
 )
 "
@@ -8006,6 +8107,7 @@ korejskih
 vona
 (
 1945
+-
 1953
 )
 "
@@ -8020,6 +8122,7 @@ korejski
 von
 (
 1945
+-
 1953
 )
 "
@@ -8034,6 +8137,7 @@ korejski
 von
 (
 1945
+-
 1953
 )
 "
@@ -8801,6 +8905,7 @@ makedonska
 denara
 (
 1992
+-
 1993
 )
 "
@@ -8812,6 +8917,7 @@ makedonskih
 denara
 (
 1992
+-
 1993
 )
 "
@@ -8823,6 +8929,7 @@ makedonski
 denar
 (
 1992
+-
 1993
 )
 "
@@ -8834,6 +8941,7 @@ makedonskih
 dinara
 (
 1992
+-
 1993
 )
 "
@@ -9211,6 +9319,7 @@ srebrna
 pezosa
 (
 1861
+-
 1992
 )
 "
@@ -9224,6 +9333,7 @@ srebrnih
 pezosa
 (
 1861
+-
 1992
 )
 "
@@ -9237,6 +9347,7 @@ srebrni
 pezos
 (
 1861
+-
 1992
 )
 "
@@ -9250,6 +9361,7 @@ srebrni
 pezos
 (
 1861
+-
 1992
 )
 "
@@ -9381,6 +9493,7 @@ mozambijska
 metikala
 (
 1980
+-
 2006
 )
 "
@@ -9392,6 +9505,7 @@ mozambijskih
 metikala
 (
 1980
+-
 2006
 )
 "
@@ -9403,6 +9517,7 @@ mozambijski
 metikal
 (
 1980
+-
 2006
 )
 "
@@ -9414,6 +9529,7 @@ mozambijski
 metikal
 (
 1980
+-
 2006
 )
 "
@@ -9521,6 +9637,7 @@ nikaragvanske
 kordobe
 (
 1988
+-
 1991
 )
 "
@@ -9532,6 +9649,7 @@ nikaragvanskih
 kordoba
 (
 1988
+-
 1991
 )
 "
@@ -9543,6 +9661,7 @@ nikaragvanska
 kordoba
 (
 1988
+-
 1991
 )
 "
@@ -9554,6 +9673,7 @@ nikaragvanska
 kordoba
 (
 1988
+-
 1991
 )
 "
@@ -9855,6 +9975,7 @@ peruanska
 sola
 (
 1863
+-
 1965
 )
 "
@@ -9866,6 +9987,7 @@ peruanskih
 sola
 (
 1863
+-
 1965
 )
 "
@@ -9877,6 +9999,7 @@ peruanski
 sol
 (
 1863
+-
 1965
 )
 "
@@ -9888,6 +10011,7 @@ peruanski
 sol
 (
 1863
+-
 1965
 )
 "
@@ -10034,6 +10158,7 @@ poljske
 zlote
 (
 1950
+-
 1995
 )
 "
@@ -10045,6 +10170,7 @@ poljskih
 zlota
 (
 1950
+-
 1995
 )
 "
@@ -10056,6 +10182,7 @@ poljski
 zlot
 (
 1950
+-
 1995
 )
 "
@@ -10067,6 +10194,7 @@ poljski
 zlot
 (
 1950
+-
 1995
 )
 "
@@ -10205,6 +10333,7 @@ rumunska
 leua
 (
 1952
+-
 2006
 )
 "
@@ -10216,6 +10345,7 @@ rumunskih
 leua
 (
 1952
+-
 2006
 )
 "
@@ -10227,6 +10357,7 @@ rumunski
 leu
 (
 1952
+-
 2006
 )
 "
@@ -10238,6 +10369,7 @@ rumunskih
 leua
 (
 1952
+-
 2006
 )
 "
@@ -10345,6 +10477,7 @@ ruske
 rublje
 (
 1991
+-
 1998
 )
 "
@@ -10356,6 +10489,7 @@ ruskih
 rublji
 (
 1991
+-
 1998
 )
 "
@@ -10367,6 +10501,7 @@ ruska
 rublja
 (
 1991
+-
 1998
 )
 "
@@ -10378,6 +10513,7 @@ ruskih
 rublji
 (
 1991
+-
 1998
 )
 "
@@ -10520,6 +10656,7 @@ sudanska
 dinara
 (
 1992
+-
 2007
 )
 "
@@ -10531,6 +10668,7 @@ sudanskih
 dinara
 (
 1992
+-
 2007
 )
 "
@@ -10542,6 +10680,7 @@ sudanski
 dinar
 (
 1992
+-
 2007
 )
 "
@@ -10553,6 +10692,7 @@ sudanski
 dinar
 (
 1992
+-
 2007
 )
 "
@@ -10598,6 +10738,7 @@ sudanske
 funte
 (
 1957
+-
 1998
 )
 "
@@ -10609,6 +10750,7 @@ sudanskih
 funti
 (
 1957
+-
 1998
 )
 "
@@ -10620,6 +10762,7 @@ sudanska
 funta
 (
 1957
+-
 1998
 )
 "
@@ -10631,6 +10774,7 @@ sudanska
 funta
 (
 1957
+-
 1998
 )
 "
@@ -11212,6 +11356,7 @@ turkmenistanska
 manata
 (
 1993
+-
 2009
 )
 "
@@ -11223,6 +11368,7 @@ turkmenistanskih
 manata
 (
 1993
+-
 2009
 )
 "
@@ -11234,6 +11380,7 @@ turkmenistanski
 manat
 (
 1993
+-
 2009
 )
 "
@@ -11245,6 +11392,7 @@ turkmenistanski
 manat
 (
 1993
+-
 2009
 )
 "
@@ -11395,6 +11543,7 @@ turske
 lire
 (
 1922
+-
 2005
 )
 "
@@ -11406,6 +11555,7 @@ turskih
 lira
 (
 1922
+-
 2005
 )
 "
@@ -11417,6 +11567,7 @@ turska
 lira
 (
 1922
+-
 2005
 )
 "
@@ -11428,6 +11579,7 @@ turkskih
 lira
 (
 1922
+-
 2005
 )
 "
@@ -11636,6 +11788,7 @@ ugandska
 ilinga
 (
 1966
+-
 1987
 )
 "
@@ -11647,6 +11800,7 @@ ugandskih
 ilinga
 (
 1966
+-
 1987
 )
 "
@@ -11658,6 +11812,7 @@ ugandski
 iling
 (
 1966
+-
 1987
 )
 "
@@ -11669,6 +11824,7 @@ ugandski
 iling
 (
 1966
+-
 1987
 )
 "
@@ -11898,6 +12054,7 @@ urugvajska
 pezosa
 (
 1975
+-
 1993
 )
 "
@@ -11909,6 +12066,7 @@ urugvajskih
 pezosa
 (
 1975
+-
 1993
 )
 "
@@ -11920,6 +12078,7 @@ urugvajski
 pezos
 (
 1975
+-
 1993
 )
 "
@@ -11931,6 +12090,7 @@ urugvajski
 pezos
 (
 1975
+-
 1993
 )
 "
@@ -12007,6 +12167,7 @@ venecuelska
 bolivara
 (
 1871
+-
 2008
 )
 "
@@ -12018,6 +12179,7 @@ venecuelskih
 bolivara
 (
 1871
+-
 2008
 )
 "
@@ -12029,6 +12191,7 @@ venecuelski
 bolivar
 (
 1871
+-
 2008
 )
 "
@@ -12040,6 +12203,7 @@ venecuelskih
 bolivara
 (
 1871
+-
 2008
 )
 "
@@ -12116,6 +12280,7 @@ vijetnamska
 donga
 (
 1978
+-
 1985
 )
 "
@@ -12127,6 +12292,7 @@ vijetnamskih
 donga
 (
 1978
+-
 1985
 )
 "
@@ -12138,6 +12304,7 @@ vijetnamski
 dong
 (
 1978
+-
 1985
 )
 "
@@ -12149,6 +12316,7 @@ vijetnamski
 dong
 (
 1978
+-
 1985
 )
 "
@@ -13162,57 +13330,6 @@ few
 zambijske
 kva
 e
-(
-1968
-2012
-)
-"
-}
-many
-{
-"
-zambijskih
-kva
-a
-(
-1968
-2012
-)
-"
-}
-one
-{
-"
-zambijska
-kva
-a
-(
-1968
-2012
-)
-"
-}
-other
-{
-"
-zambijske
-kva
-e
-(
-1968
-2012
-)
-"
-}
-}
-ZMW
-{
-few
-{
-"
-zambijske
-kva
-e
 "
 }
 many
@@ -13250,6 +13367,7 @@ nova
 zaira
 (
 1993
+-
 1998
 )
 "
@@ -13262,6 +13380,7 @@ novih
 zaira
 (
 1993
+-
 1998
 )
 "
@@ -13274,6 +13393,7 @@ novi
 zair
 (
 1993
+-
 1998
 )
 "
@@ -13286,6 +13406,7 @@ novih
 zaira
 (
 1993
+-
 1998
 )
 "
@@ -13300,6 +13421,7 @@ zairska
 zaira
 (
 1971
+-
 1993
 )
 "
@@ -13311,6 +13433,7 @@ zairskih
 zaira
 (
 1971
+-
 1993
 )
 "
@@ -13322,6 +13445,7 @@ zairski
 zair
 (
 1971
+-
 1993
 )
 "
@@ -13333,6 +13457,7 @@ zairskih
 zaira
 (
 1971
+-
 1993
 )
 "
@@ -13347,6 +13472,7 @@ zimbabvejska
 dolara
 (
 1980
+-
 2008
 )
 "
@@ -13358,6 +13484,7 @@ zimbabvejskih
 dolara
 (
 1980
+-
 2008
 )
 "
@@ -13369,6 +13496,7 @@ zimbabvejski
 dolar
 (
 1980
+-
 2008
 )
 "
@@ -13380,6 +13508,7 @@ zimbabvejski
 dolari
 (
 1980
+-
 2008
 )
 "
@@ -13479,9 +13608,9 @@ Version
 .
 0
 .
-92
-.
 78
+.
+38
 "
 }
 }

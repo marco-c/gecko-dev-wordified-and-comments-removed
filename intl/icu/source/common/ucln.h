@@ -73,5 +73,17 @@ ECleanupLibraryType
 type
 )
 ;
+U_CFUNC
+UBool
+ucln_mutexedInit
+(
+initFunc
+*
+func
+UErrorCode
+*
+status
+)
+;
 #
 endif

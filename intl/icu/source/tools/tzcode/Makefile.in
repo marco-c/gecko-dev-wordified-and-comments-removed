@@ -7,7 +7,7 @@ c
 )
 2006
 -
-2012
+2010
 IBM
 and
 others
@@ -889,11 +889,6 @@ TZDATA
 tar
 xf
 -
--
--
-exclude
-=
-Makefile
 touch
 yearistype
 :
@@ -1117,11 +1112,6 @@ TZDATA
 tar
 tf
 -
--
--
-exclude
-=
-Makefile
 |
 grep
 -
