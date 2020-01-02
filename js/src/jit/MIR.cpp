@@ -15428,6 +15428,13 @@ clasp
 isNative
 (
 )
+&
+&
+!
+IsTypedArrayClass
+(
+clasp
+)
 ;
 }
 bool

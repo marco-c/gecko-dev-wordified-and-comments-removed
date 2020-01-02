@@ -10390,6 +10390,12 @@ clasp
 ops
 .
 getGeneric
+|
+|
+IsTypedArrayClass
+(
+clasp
+)
 ;
 }
 static
