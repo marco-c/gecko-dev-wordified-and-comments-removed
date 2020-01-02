@@ -6870,6 +6870,17 @@ ExclusiveContext
 cx
 )
 {
+if
+(
+module
+.
+numFunctionCounts
+(
+)
+)
+return
+false
+;
 MachineId
 machineId
 ;
