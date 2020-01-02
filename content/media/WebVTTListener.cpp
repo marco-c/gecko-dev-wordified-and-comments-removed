@@ -451,6 +451,13 @@ nsresult
 aStatus
 )
 {
+mParserWrapper
+-
+>
+Flush
+(
+)
+;
 if
 (
 mElement
@@ -479,13 +486,6 @@ Loaded
 )
 ;
 }
-mParserWrapper
--
->
-Flush
-(
-)
-;
 return
 NS_OK
 ;
