@@ -733,14 +733,14 @@ MOZ_CONSTEXPR_VAR
 Register
 JSReturnReg_Type
 =
-v1
+a3
 ;
 static
 MOZ_CONSTEXPR_VAR
 Register
 JSReturnReg_Data
 =
-v0
+a2
 ;
 static
 MOZ_CONSTEXPR_VAR
@@ -879,7 +879,7 @@ MOZ_CONSTEXPR_VAR
 Register
 AsmJSIonExitRegD2
 =
-a2
+t0
 ;
 static
 MOZ_CONSTEXPR_VAR
