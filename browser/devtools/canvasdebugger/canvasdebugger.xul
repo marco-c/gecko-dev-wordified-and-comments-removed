@@ -542,6 +542,15 @@ debugging
 -
 pane
 "
+class
+=
+"
+devtools
+-
+main
+-
+content
+"
 flex
 =
 "

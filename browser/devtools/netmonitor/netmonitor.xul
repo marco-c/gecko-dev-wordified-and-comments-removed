@@ -783,6 +783,15 @@ flex
 "
 1
 "
+class
+=
+"
+devtools
+-
+main
+-
+content
+"
 >
 <
 toolbar
