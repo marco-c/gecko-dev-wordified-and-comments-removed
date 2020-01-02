@@ -36623,17 +36623,6 @@ i
 +
 )
 {
-ionScriptLabels_
-[
-i
-]
-.
-fixup
-(
-&
-masm
-)
-;
 Assembler
 :
 :
