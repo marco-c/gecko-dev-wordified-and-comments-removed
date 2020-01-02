@@ -31,16 +31,10 @@ Init
 Result
 rv
 ;
-der
-:
-:
 Input
 tbsCertificate
 ;
 {
-der
-:
-:
 Input
 input
 ;
@@ -70,9 +64,6 @@ return
 rv
 ;
 }
-der
-:
-:
 Input
 certificate
 ;
@@ -526,9 +517,6 @@ BackCert
 :
 RememberExtension
 (
-der
-:
-:
 Input
 &
 extnID
@@ -850,9 +838,6 @@ len
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_EXTENSION_VALUE_INVALID
@@ -871,9 +856,6 @@ len
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_EXTENSION_VALUE_INVALID

@@ -7,15 +7,6 @@ mozilla_pkix__pkixutil_h
 #
 include
 "
-pkix
-/
-Result
-.
-h
-"
-#
-include
-"
 pkixder
 .
 h
@@ -407,9 +398,6 @@ subjectAltName
 Result
 RememberExtension
 (
-der
-:
-:
 Input
 &
 extnID
@@ -514,7 +502,6 @@ MAX_LENGTH
 return
 Fail
 (
-RecoverableError
 SEC_ERROR_INVALID_ARGS
 )
 ;

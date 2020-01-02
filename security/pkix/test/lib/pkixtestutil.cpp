@@ -641,9 +641,6 @@ MaxSequenceItems
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_INVALID_ARGS
@@ -663,9 +660,6 @@ len
 )
 {
 return
-der
-:
-:
 Fail
 (
 SEC_ERROR_INVALID_ARGS
