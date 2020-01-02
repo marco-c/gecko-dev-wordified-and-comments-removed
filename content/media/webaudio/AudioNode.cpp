@@ -39,6 +39,13 @@ AudioParam
 .
 h
 "
+#
+include
+"
+nsIObserverService
+.
+h
+"
 namespace
 mozilla
 {
