@@ -673,11 +673,11 @@ GlobalEventHandlers
 ;
 HTMLElement
 implements
-TouchEventHandlers
+NodeEventHandlers
 ;
 HTMLElement
 implements
-OnErrorEventHandlerForNodes
+TouchEventHandlers
 ;
 interface
 HTMLUnknownElement

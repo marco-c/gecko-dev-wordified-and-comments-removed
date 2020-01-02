@@ -138,9 +138,3 @@ DOMHighResTimeStamp
 time
 )
 ;
-/
-/
-Window
-implements
-OnErrorEventHandlerForWindow
-;
