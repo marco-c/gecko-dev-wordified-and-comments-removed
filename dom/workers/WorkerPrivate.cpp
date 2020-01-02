@@ -1437,7 +1437,7 @@ aTag
 DOMWORKER_SCTAG_FILE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aData
@@ -1461,7 +1461,7 @@ file
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 file
 )
@@ -1543,7 +1543,7 @@ aTag
 DOMWORKER_SCTAG_BLOB
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aData
@@ -1567,7 +1567,7 @@ blob
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 blob
 )
@@ -1649,7 +1649,7 @@ aTag
 SCTAG_DOM_IMAGEDATA
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aData
@@ -2154,7 +2154,7 @@ aTag
 DOMWORKER_SCTAG_FILE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aData
@@ -2178,7 +2178,7 @@ file
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 file
 )
@@ -2328,7 +2328,7 @@ aTag
 DOMWORKER_SCTAG_BLOB
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aData
@@ -2352,7 +2352,7 @@ blob
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 blob
 )
