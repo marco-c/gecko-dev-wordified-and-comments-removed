@@ -1094,6 +1094,15 @@ close_edit_mode_selector
 "
 android
 :
+background
+=
+"
+drawable
+/
+action_bar_button
+"
+android
+:
 paddingLeft
 =
 "
