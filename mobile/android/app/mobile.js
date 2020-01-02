@@ -99,7 +99,7 @@ tabs
 .
 expireTime
 "
-3600
+900
 )
 ;
 pref
