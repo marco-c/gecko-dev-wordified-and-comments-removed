@@ -65,17 +65,3 @@ srcdir
 .
 /
 build
-EXTRA_DSO_LDOPTS
-=
-\
-(
-XPCOM_GLUE_LDOPTS
-)
-\
-(
-NSPR_LIBS
-)
-\
-(
-NULL
-)
