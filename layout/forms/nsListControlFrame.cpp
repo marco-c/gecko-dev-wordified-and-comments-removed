@@ -8116,13 +8116,6 @@ IsInDropDownMode
 )
 )
 {
-aKeyEvent
--
->
-PreventDefault
-(
-)
-;
 if
 (
 mComboboxFrame
@@ -8133,6 +8126,13 @@ IsDroppedDown
 )
 )
 {
+aKeyEvent
+-
+>
+PreventDefault
+(
+)
+;
 nsWeakFrame
 weakFrame
 (
