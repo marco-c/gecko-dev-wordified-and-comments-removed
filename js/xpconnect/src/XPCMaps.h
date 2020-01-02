@@ -2875,7 +2875,10 @@ MOZ_ASSERT
 xpc
 :
 :
-GetCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 key
 )

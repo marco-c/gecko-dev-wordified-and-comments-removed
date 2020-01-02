@@ -1609,7 +1609,10 @@ OMIT_COMPONENTS_OBJECT
 if
 (
 !
-GetCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 aGlobal
 )
@@ -2808,7 +2811,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 aScope
 )
@@ -2932,7 +2935,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 aScope
 )
@@ -2941,7 +2944,7 @@ XPCWrappedNativeScope
 *
 scope2
 =
-GetObjectScope
+ObjectScope
 (
 aNewParent
 )
@@ -3088,7 +3091,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 aScope
 )
@@ -3639,7 +3642,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 aScope
 )
@@ -5395,7 +5398,10 @@ MOZ_ASSERT
 global
 )
 ;
-EnsureCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 global
 )
@@ -5423,7 +5429,10 @@ MOZ_ASSERT
 global
 )
 ;
-EnsureCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 global
 )

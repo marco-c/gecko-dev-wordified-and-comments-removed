@@ -9140,7 +9140,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 obj
 )
@@ -12680,7 +12680,10 @@ GetObjectCompartment
 scopeObj
 )
 ;
-EnsureCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 scopeObj
 )
@@ -12770,7 +12773,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 scopeObj
 )
@@ -12834,7 +12837,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 scopeObj
 )

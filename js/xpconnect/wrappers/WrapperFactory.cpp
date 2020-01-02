@@ -207,7 +207,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 obj
 )
@@ -286,7 +286,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 obj
 )
@@ -1719,7 +1719,10 @@ CompartmentPrivate
 *
 targetdata
 =
-EnsureCompartmentPrivate
+CompartmentPrivate
+:
+:
+Get
 (
 target
 )
@@ -2289,7 +2292,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-GetObjectScope
+ObjectScope
 (
 oldWaiver
 )
@@ -2424,17 +2427,6 @@ JS_IsGlobalObject
 obj
 )
 )
-;
-if
-(
-!
-MaybeGetObjectScope
-(
-obj
-)
-)
-return
-nullptr
 ;
 MOZ_ASSERT
 (

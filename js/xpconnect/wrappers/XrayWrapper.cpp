@@ -985,7 +985,7 @@ obj
 )
 {
 return
-GetObjectScope
+ObjectScope
 (
 obj
 )
@@ -1010,7 +1010,7 @@ chain
 )
 {
 return
-GetObjectScope
+ObjectScope
 (
 obj
 )
@@ -11619,13 +11619,10 @@ object
 )
 &
 &
-EnsureCompartmentPrivate
+ObjectScope
 (
 wrapper
 )
--
->
-scope
 -
 >
 IsContentXBLScope
