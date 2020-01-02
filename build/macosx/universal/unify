@@ -9834,6 +9834,9 @@ magicErrMsg
 )
 )
 {
+main
+:
+:
 complain
 (
 1
@@ -9949,6 +9952,9 @@ path
 .
 !
 ;
+main
+:
+:
 complain
 (
 1
@@ -10046,6 +10052,9 @@ path
 .
 !
 ;
+main
+:
+:
 complain
 (
 1
