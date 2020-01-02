@@ -2712,7 +2712,7 @@ mClass
 )
 {
 case
-NS_EVENT
+eBasicEventClass
 :
 if
 (

@@ -16386,7 +16386,7 @@ mapping
 mStructType
 ;
 return
-NS_EVENT
+eBasicEventClass
 ;
 }
 nsIAtom
@@ -16559,7 +16559,7 @@ mapping
 .
 mStructType
 =
-NS_EVENT_NULL
+eBasicEventClass
 ;
 sStringEventTable
 -

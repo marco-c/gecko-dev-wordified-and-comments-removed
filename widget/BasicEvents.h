@@ -87,7 +87,7 @@ MOZ_ENUM_TYPE
 EventClassIDType
 )
 {
-NS_EVENT
+eBasicEventClass
 eGUIEventClass
 eInputEventClass
 eUIEventClass
@@ -2299,7 +2299,7 @@ aMessage
 :
 mClass
 (
-NS_EVENT
+eBasicEventClass
 )
 message
 (
@@ -2407,7 +2407,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_EVENT
+eBasicEventClass
 "
 Duplicate
 (
