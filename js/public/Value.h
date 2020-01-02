@@ -1433,6 +1433,13 @@ JSString
 *
 str
 ;
+JS
+:
+:
+Symbol
+*
+sym
+;
 JSObject
 *
 obj
