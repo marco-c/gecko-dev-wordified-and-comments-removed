@@ -111,7 +111,7 @@ nsIXULContextMenuBuilder
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 xul

@@ -108,7 +108,7 @@ nsILayoutRegressionTester
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 layout_debug

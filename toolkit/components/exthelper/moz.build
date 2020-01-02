@@ -103,7 +103,7 @@ extIApplication
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 exthelper

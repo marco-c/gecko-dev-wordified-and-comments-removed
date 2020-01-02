@@ -123,7 +123,7 @@ nsIUTF8ConverterService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 uconv

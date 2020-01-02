@@ -126,7 +126,7 @@ nsIInputListAutoComplete
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 satchel

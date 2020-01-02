@@ -113,7 +113,7 @@ nsIMIMEService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 mimetype

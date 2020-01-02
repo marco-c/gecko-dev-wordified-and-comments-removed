@@ -103,7 +103,7 @@ IPeerConnection
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 peerconnection

@@ -136,7 +136,7 @@ nsIXULDocument
 h
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 xuldoc

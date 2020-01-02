@@ -108,7 +108,7 @@ nsIPKIParamBlock
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 pippki

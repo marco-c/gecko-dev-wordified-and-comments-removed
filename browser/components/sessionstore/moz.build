@@ -116,7 +116,7 @@ nsISessionStore
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 sessionstore

@@ -108,7 +108,7 @@ nsIWebBrowserPersist
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 webbrowserpersist

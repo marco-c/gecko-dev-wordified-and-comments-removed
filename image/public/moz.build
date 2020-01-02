@@ -148,7 +148,7 @@ imgITools
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 imglib2

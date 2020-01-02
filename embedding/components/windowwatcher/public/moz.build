@@ -133,7 +133,7 @@ nsPIWindowWatcher
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 windowwatcher

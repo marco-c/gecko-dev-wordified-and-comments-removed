@@ -136,7 +136,7 @@ nsIUrlListManager
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 url

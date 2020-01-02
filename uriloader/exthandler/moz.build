@@ -146,7 +146,7 @@ nsIHelperAppLauncherDialog
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 exthandler

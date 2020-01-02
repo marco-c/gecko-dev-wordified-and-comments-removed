@@ -108,7 +108,7 @@ nsIExtendedExpatSink
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 htmlparser

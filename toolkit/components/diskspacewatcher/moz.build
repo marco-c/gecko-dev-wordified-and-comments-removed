@@ -118,7 +118,7 @@ XPIDL_MODULE
 '
 diskspacewatcher
 '
-MODULE
+XPIDL_MODULE
 =
 '
 toolkitcomps

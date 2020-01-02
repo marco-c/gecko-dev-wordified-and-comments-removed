@@ -119,7 +119,7 @@ nsINavHistoryService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 places

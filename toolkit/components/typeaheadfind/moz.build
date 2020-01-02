@@ -103,7 +103,7 @@ nsITypeAheadFind
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 fastfind

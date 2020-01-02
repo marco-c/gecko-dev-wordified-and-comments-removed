@@ -142,7 +142,7 @@ nsIZipReader
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 jar

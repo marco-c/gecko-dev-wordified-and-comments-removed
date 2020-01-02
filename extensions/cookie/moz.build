@@ -116,7 +116,7 @@ nsICookiePromptService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 cookie

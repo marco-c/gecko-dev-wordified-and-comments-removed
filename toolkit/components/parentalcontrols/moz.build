@@ -103,7 +103,7 @@ nsIParentalControlsService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 parentalcontrols

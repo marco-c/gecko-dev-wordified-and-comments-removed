@@ -103,7 +103,7 @@ IJSDebugger
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 jsdebugger

@@ -105,7 +105,7 @@ nsIRecoveryService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 hal

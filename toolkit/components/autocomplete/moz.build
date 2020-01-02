@@ -136,7 +136,7 @@ nsIAutoCompleteSimpleResult
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 autocomplete

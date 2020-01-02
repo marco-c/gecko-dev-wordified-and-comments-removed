@@ -131,7 +131,7 @@ windows
 LIBXUL_LIBRARY
 =
 True
-MODULE
+XPIDL_MODULE
 =
 '
 filepicker

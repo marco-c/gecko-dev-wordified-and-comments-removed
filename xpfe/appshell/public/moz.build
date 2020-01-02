@@ -128,7 +128,7 @@ nsIXULWindow
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 appshell

@@ -118,7 +118,7 @@ nsISSLStatusProvider
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 pipboot

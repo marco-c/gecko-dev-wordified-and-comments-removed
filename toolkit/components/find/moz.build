@@ -103,7 +103,7 @@ nsIFindService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 mozfind

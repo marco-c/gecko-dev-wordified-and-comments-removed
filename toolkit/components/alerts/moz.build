@@ -111,7 +111,7 @@ nsIAlertsService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 alerts

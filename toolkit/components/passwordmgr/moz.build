@@ -136,7 +136,7 @@ nsILoginMetaInfo
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 loginmgr

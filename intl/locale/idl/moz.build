@@ -118,7 +118,7 @@ nsIScriptableDateFormat
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 locale

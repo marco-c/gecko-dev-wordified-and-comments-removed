@@ -131,7 +131,7 @@ nsISiteSpecificUserAgent
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 dom

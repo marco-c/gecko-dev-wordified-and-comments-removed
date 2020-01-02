@@ -111,7 +111,7 @@ nsICaptivePortalDetector
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 captivedetect

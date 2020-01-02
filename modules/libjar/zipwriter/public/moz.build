@@ -103,7 +103,7 @@ nsIZipWriter
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 zipwriter

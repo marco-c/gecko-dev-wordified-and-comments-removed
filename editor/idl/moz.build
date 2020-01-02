@@ -188,7 +188,7 @@ nsPIEditorTransaction
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 editor

@@ -134,7 +134,7 @@ nsIWinAppHelper
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 xulapp

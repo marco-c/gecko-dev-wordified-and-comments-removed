@@ -103,7 +103,7 @@ fuelIApplication
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 fuel

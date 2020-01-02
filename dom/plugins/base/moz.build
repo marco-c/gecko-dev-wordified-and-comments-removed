@@ -159,7 +159,7 @@ nspluginroot
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 plugin

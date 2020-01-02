@@ -120,7 +120,7 @@ nsIStartupCache
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 startupcache

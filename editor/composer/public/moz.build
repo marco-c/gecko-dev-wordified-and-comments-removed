@@ -103,7 +103,7 @@ nsIEditingSession
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 composer

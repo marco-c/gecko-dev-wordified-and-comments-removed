@@ -103,7 +103,7 @@ nsIBrowserProfileMigrator
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 migration

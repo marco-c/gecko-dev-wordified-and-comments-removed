@@ -131,7 +131,7 @@ nsIDownloadProgressListener
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 downloads

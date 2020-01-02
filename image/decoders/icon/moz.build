@@ -103,7 +103,7 @@ nsIIconURI
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 imgicon

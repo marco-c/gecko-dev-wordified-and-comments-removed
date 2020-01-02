@@ -133,7 +133,7 @@ nsISHTransaction
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 shistory

@@ -103,7 +103,7 @@ nsIShellService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 browsercomps

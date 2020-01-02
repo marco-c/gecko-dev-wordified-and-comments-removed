@@ -569,7 +569,7 @@ nsIWinMetroUtils
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 widget

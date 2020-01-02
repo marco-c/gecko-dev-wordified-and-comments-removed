@@ -128,7 +128,7 @@ nsIRelativeFilePref
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 pref

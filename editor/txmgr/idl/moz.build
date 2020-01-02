@@ -118,7 +118,7 @@ nsITransactionManager
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 txmgr

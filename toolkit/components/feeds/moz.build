@@ -156,7 +156,7 @@ nsIFeedTextConstruct
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 feeds

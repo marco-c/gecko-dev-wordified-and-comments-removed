@@ -103,7 +103,7 @@ nsISimpleTest
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 simple

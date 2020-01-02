@@ -103,7 +103,7 @@ SessionStore
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 MobileComponents

@@ -681,7 +681,7 @@ nsIBrowserSearchService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 necko

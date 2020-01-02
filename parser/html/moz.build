@@ -108,7 +108,7 @@ nsIScriptableUnescapeHTML
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 html5

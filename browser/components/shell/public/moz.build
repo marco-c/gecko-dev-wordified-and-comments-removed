@@ -149,7 +149,7 @@ nsIMacShellService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 shellservice

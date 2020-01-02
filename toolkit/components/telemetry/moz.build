@@ -116,7 +116,7 @@ nsITelemetryPing
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 telemetry

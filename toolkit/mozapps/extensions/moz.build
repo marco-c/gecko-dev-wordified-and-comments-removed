@@ -126,7 +126,7 @@ amIWebInstallListener
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 extensions

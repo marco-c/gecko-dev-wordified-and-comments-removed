@@ -118,7 +118,7 @@ nsIWindowProvider
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 embed_base

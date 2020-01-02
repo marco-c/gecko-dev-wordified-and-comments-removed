@@ -103,7 +103,7 @@ nsISemanticUnitScanner
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 lwbrk

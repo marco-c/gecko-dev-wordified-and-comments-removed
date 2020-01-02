@@ -103,7 +103,7 @@ nsIHttpServer
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 test_necko

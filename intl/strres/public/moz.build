@@ -108,7 +108,7 @@ nsIStringBundleOverride
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 intl

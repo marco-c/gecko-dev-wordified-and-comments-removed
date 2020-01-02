@@ -128,7 +128,7 @@ nsPICommandUpdater
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 commandhandler

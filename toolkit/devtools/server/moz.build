@@ -111,7 +111,7 @@ nsIJSInspector
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 jsinspector

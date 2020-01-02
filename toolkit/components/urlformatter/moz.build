@@ -111,7 +111,7 @@ nsIURLFormatter
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 urlformatter

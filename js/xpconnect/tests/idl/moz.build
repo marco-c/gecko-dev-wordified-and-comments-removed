@@ -118,7 +118,7 @@ xpctest_params
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 xpctest

@@ -118,7 +118,7 @@ nsISecurityCheckedComponent
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 caps

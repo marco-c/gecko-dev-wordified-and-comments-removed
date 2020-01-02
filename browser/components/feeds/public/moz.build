@@ -113,7 +113,7 @@ nsIWebContentConverterRegistrar
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 browser

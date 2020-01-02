@@ -208,7 +208,7 @@ DIRS
 updater
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 update

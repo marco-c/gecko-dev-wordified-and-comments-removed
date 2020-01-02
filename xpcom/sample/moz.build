@@ -162,7 +162,7 @@ idl
 '
 ]
 #
-MODULE
+XPIDL_MODULE
 specifies
 where
 header
@@ -182,7 +182,7 @@ dist
 include
 /
 xpcomsample
-MODULE
+XPIDL_MODULE
 =
 '
 xpcomsample

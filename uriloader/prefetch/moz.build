@@ -108,7 +108,7 @@ nsIPrefetchService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 prefetch

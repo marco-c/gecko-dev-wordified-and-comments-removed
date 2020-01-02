@@ -128,7 +128,7 @@ nsIXULTemplateRuleFilter
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 xultmpl

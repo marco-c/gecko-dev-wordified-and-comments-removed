@@ -108,7 +108,7 @@ nsIReadConfig
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 autoconfig

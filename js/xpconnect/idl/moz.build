@@ -163,7 +163,7 @@ xpcjsid
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 xpconnect

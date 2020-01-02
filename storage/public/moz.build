@@ -203,7 +203,7 @@ mozIStorageValueArray
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 storage

@@ -103,7 +103,7 @@ nsIProfileUnlocker
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 profile

@@ -208,7 +208,7 @@ rdfITripleVisitor
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 rdf

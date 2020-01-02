@@ -111,7 +111,7 @@ nsIIdentityCryptoService
 idl
 '
 ]
-MODULE
+XPIDL_MODULE
 =
 '
 identity
