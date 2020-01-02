@@ -14681,6 +14681,13 @@ set
 vp
 )
 ;
+newDesc
+.
+setAttributes
+(
+JSPROP_ENUMERATE
+)
+;
 return
 handler
 -
