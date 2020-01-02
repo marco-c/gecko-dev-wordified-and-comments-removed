@@ -171,14 +171,6 @@ src
 /
 content
 /
-xbl
-/
-src
-'
-'
-/
-content
-/
 xml
 /
 document
@@ -216,6 +208,12 @@ base
 dom
 /
 base
+'
+'
+/
+dom
+/
+xbl
 '
 '
 /

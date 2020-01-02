@@ -912,14 +912,6 @@ media
 /
 content
 /
-xbl
-/
-src
-'
-'
-/
-content
-/
 xul
 /
 content
@@ -931,6 +923,12 @@ src
 dom
 /
 base
+'
+'
+/
+dom
+/
+xbl
 '
 '
 /

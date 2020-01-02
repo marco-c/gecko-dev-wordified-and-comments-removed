@@ -128,9 +128,6 @@ xml
 '
 xul
 '
-'
-xbl
-'
 ]
 TEST_TOOL_DIRS
 +

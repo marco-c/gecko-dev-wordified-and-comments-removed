@@ -762,6 +762,12 @@ storage
 time
 '
 '
+.
+.
+/
+xbl
+'
+'
 /
 content
 /
@@ -784,14 +790,6 @@ content
 html
 /
 document
-/
-src
-'
-'
-/
-content
-/
-xbl
 /
 src
 '

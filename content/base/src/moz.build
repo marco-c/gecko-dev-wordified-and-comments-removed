@@ -1002,14 +1002,6 @@ src
 /
 content
 /
-xbl
-/
-src
-'
-'
-/
-content
-/
 xml
 /
 content
@@ -1069,6 +1061,12 @@ ipc
 dom
 /
 workers
+'
+'
+/
+dom
+/
+xbl
 '
 '
 /

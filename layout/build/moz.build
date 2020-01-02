@@ -294,14 +294,6 @@ src
 /
 content
 /
-xbl
-/
-src
-'
-'
-/
-content
-/
 xul
 /
 content
@@ -415,6 +407,12 @@ storage
 dom
 /
 telephony
+'
+'
+/
+dom
+/
+xbl
 '
 '
 /

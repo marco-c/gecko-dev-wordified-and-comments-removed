@@ -121,7 +121,7 @@ server
 /
 tests
 /
-content
+dom
 /
 xbl
 /

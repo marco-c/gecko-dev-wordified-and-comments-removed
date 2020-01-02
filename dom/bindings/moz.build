@@ -308,14 +308,6 @@ src
 /
 content
 /
-xbl
-/
-src
-'
-'
-/
-content
-/
 xml
 /
 content
@@ -391,6 +383,12 @@ geolocation
 dom
 /
 workers
+'
+'
+/
+dom
+/
+xbl
 '
 '
 /
