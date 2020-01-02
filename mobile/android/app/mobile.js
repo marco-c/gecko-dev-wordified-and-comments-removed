@@ -584,7 +584,7 @@ alive
 .
 timeout
 "
-600
+109
 )
 ;
 pref

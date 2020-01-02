@@ -567,7 +567,7 @@ alive
 .
 timeout
 "
-600
+109
 )
 ;
 pref
@@ -622,18 +622,6 @@ per
 proxy
 "
 20
-)
-;
-pref
-(
-"
-network
-.
-cookie
-.
-cookieBehavior
-"
-0
 )
 ;
 pref
