@@ -148,6 +148,10 @@ mIsComposing
 (
 false
 )
+mIsEditorHandlingEvent
+(
+false
+)
 {
 }
 void
@@ -680,6 +684,10 @@ IsComposing
 (
 )
 ;
+mIsEditorHandlingEvent
+=
+true
+;
 MOZ_ASSERT
 (
 mLastData
@@ -726,6 +734,10 @@ EditorDidHandleTextEvent
 mString
 =
 mLastData
+;
+mIsEditorHandlingEvent
+=
+false
 ;
 }
 void

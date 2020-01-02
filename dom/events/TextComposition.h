@@ -236,6 +236,16 @@ return
 mIsComposing
 ;
 }
+bool
+IsEditorHandlingEvent
+(
+)
+const
+{
+return
+mIsEditorHandlingEvent
+;
+}
 void
 StartHandlingComposition
 (
@@ -354,6 +364,9 @@ mIsSynthesizedForTests
 ;
 bool
 mIsComposing
+;
+bool
+mIsEditorHandlingEvent
 ;
 TextComposition
 (

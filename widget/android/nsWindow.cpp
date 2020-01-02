@@ -11001,9 +11001,8 @@ GetIMEUpdatePreference
 (
 )
 {
-int8_t
-notifications
-=
+return
+nsIMEUpdatePreference
 (
 nsIMEUpdatePreference
 :
@@ -11014,12 +11013,6 @@ nsIMEUpdatePreference
 :
 :
 NOTIFY_TEXT_CHANGE
-)
-;
-return
-nsIMEUpdatePreference
-(
-notifications
 )
 ;
 }

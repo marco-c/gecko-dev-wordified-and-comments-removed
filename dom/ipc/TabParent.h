@@ -554,6 +554,10 @@ const
 uint32_t
 &
 aNewEnd
+const
+bool
+&
+aCausedByComposition
 )
 MOZ_OVERRIDE
 ;
@@ -592,6 +596,10 @@ const
 uint32_t
 &
 aFocus
+const
+bool
+&
+aCausedByComposition
 )
 MOZ_OVERRIDE
 ;
