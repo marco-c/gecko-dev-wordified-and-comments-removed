@@ -1036,7 +1036,6 @@ Binding
 NativeType
 >
 (
-cx
 obj
 value
 )
@@ -1056,9 +1055,6 @@ MOZ_ALWAYS_INLINE
 nsresult
 UnwrapObject
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

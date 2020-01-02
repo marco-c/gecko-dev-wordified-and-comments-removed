@@ -132,7 +132,6 @@ Binding_workers
 NativeType
 >
 (
-cx
 obj
 value
 )

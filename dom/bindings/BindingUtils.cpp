@@ -9604,7 +9604,6 @@ HTMLEmbedElement
 HTMLSharedObjectElement
 >
 (
-aCx
 aObj
 htmlobject
 )
@@ -9631,7 +9630,6 @@ HTMLAppletElement
 HTMLSharedObjectElement
 >
 (
-aCx
 aObj
 htmlobject
 )
