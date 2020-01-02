@@ -332,7 +332,7 @@ EventTarget
 Touch
 :
 :
-Target
+GetTarget
 (
 )
 const

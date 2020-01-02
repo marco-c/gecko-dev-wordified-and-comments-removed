@@ -198,7 +198,7 @@ mIdentifier
 }
 EventTarget
 *
-Target
+GetTarget
 (
 )
 const
