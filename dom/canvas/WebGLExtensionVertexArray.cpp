@@ -112,7 +112,7 @@ mIsLost
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 createVertexArrayOES
@@ -122,7 +122,7 @@ is
 lost
 .
 Returning
-NULL
+null
 .
 "
 )
@@ -159,7 +159,7 @@ return
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 deleteVertexArrayOES
@@ -199,7 +199,7 @@ mIsLost
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 isVertexArrayOES
@@ -247,7 +247,7 @@ return
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 bindVertexArrayOES

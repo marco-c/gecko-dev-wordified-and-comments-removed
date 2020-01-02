@@ -103,7 +103,7 @@ return
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 drawArraysInstancedANGLE
@@ -153,7 +153,7 @@ return
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 drawElementsInstancedANGLE
@@ -198,7 +198,7 @@ return
 mContext
 -
 >
-ErrorInvalidOperation
+GenerateWarning
 (
 "
 vertexAttribDivisorANGLE
