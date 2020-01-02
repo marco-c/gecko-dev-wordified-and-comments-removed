@@ -336,7 +336,7 @@ nsresult
 BluetoothServiceChildProcess
 :
 :
-GetDefaultAdapterPathInternal
+GetAdaptersInternal
 (
 BluetoothReplyRunnable
 *
@@ -346,7 +346,7 @@ aRunnable
 SendRequest
 (
 aRunnable
-DefaultAdapterPathRequest
+GetAdaptersRequest
 (
 )
 )

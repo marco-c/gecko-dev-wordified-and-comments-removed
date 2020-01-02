@@ -92,7 +92,7 @@ MOZ_OVERRIDE
 ;
 virtual
 nsresult
-GetDefaultAdapterPathInternal
+GetAdaptersInternal
 (
 BluetoothReplyRunnable
 *

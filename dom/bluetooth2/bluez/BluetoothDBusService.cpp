@@ -10457,7 +10457,7 @@ nsresult
 BluetoothDBusService
 :
 :
-GetDefaultAdapterPathInternal
+GetAdaptersInternal
 (
 BluetoothReplyRunnable
 *

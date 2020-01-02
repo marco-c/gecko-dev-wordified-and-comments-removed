@@ -67,7 +67,7 @@ StopInternal
 ;
 virtual
 nsresult
-GetDefaultAdapterPathInternal
+GetAdaptersInternal
 (
 BluetoothReplyRunnable
 *

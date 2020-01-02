@@ -251,7 +251,7 @@ forget
 }
 virtual
 nsresult
-GetDefaultAdapterPathInternal
+GetAdaptersInternal
 (
 BluetoothReplyRunnable
 *

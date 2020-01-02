@@ -185,7 +185,7 @@ types
 *
 /
 struct
-DefaultAdapterPathRequest
+GetAdaptersRequest
 {
 }
 ;
@@ -426,7 +426,7 @@ playStatus
 union
 Request
 {
-DefaultAdapterPathRequest
+GetAdaptersRequest
 ;
 SetPropertyRequest
 ;

@@ -608,7 +608,7 @@ case
 Request
 :
 :
-TDefaultAdapterPathRequest
+TGetAdaptersRequest
 :
 return
 actor
@@ -618,7 +618,7 @@ DoRequest
 (
 aRequest
 .
-get_DefaultAdapterPathRequest
+get_GetAdaptersRequest
 (
 )
 )
@@ -1307,7 +1307,7 @@ BluetoothRequestParent
 DoRequest
 (
 const
-DefaultAdapterPathRequest
+GetAdaptersRequest
 &
 aRequest
 )
@@ -1325,7 +1325,7 @@ mRequestType
 Request
 :
 :
-TDefaultAdapterPathRequest
+TGetAdaptersRequest
 )
 ;
 nsresult
@@ -1334,7 +1334,7 @@ rv
 mService
 -
 >
-GetDefaultAdapterPathInternal
+GetAdaptersInternal
 (
 mReplyRunnable
 .
