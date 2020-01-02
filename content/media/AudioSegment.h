@@ -810,9 +810,14 @@ IsNull
 c
 .
 mDuration
-*
 =
+(
+c
+.
+mDuration
+*
 aOutRate
+)
 /
 aInRate
 ;
