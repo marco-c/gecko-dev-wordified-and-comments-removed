@@ -1472,6 +1472,14 @@ ins
 )
 ;
 bool
+visitGuardShapePolymorphic
+(
+MGuardShapePolymorphic
+*
+ins
+)
+;
+bool
 visitAssertRange
 (
 MAssertRange

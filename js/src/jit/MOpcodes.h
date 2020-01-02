@@ -609,6 +609,11 @@ GuardShape
 \
 _
 (
+GuardShapePolymorphic
+)
+\
+_
+(
 GuardObjectType
 )
 \
