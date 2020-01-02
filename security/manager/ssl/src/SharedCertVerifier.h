@@ -77,6 +77,8 @@ ocsp_strict_config
 osc
 ocsp_get_config
 ogc
+pinning_enforcement_config
+pinningEnforcementLevel
 )
 :
 mozilla
@@ -98,6 +100,7 @@ endif
 odc
 osc
 ogc
+pinningEnforcementLevel
 )
 {
 }

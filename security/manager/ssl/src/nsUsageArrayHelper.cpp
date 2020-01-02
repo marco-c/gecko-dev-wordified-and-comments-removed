@@ -374,9 +374,9 @@ certVerifier
 VerifyCert
 (
 mCert
-nullptr
 aCertUsage
 time
+nullptr
 nullptr
 flags
 )
