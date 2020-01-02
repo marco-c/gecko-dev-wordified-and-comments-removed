@@ -6805,9 +6805,9 @@ text
 -
 combine
 -
-horizontal
-text_combine_horizontal
-TextCombineHorizontal
+upright
+text_combine_upright
+TextCombineUpright
 CSS_PROPERTY_PARSE_VALUE
 |
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
@@ -6823,11 +6823,11 @@ text
 enabled
 "
 0
-kTextCombineHorizontalKTable
+kTextCombineUprightKTable
 offsetof
 (
 nsStyleText
-mTextCombineHorizontal
+mTextCombineUpright
 )
 eStyleAnimType_EnumU8
 )

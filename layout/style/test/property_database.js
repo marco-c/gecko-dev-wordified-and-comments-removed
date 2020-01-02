@@ -47199,14 +47199,14 @@ text
 -
 combine
 -
-horizontal
+upright
 "
 :
 {
 domProp
 :
 "
-textCombineHorizontal
+textCombineUpright
 "
 inherited
 :

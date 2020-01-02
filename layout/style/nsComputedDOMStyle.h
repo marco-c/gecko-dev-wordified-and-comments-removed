@@ -2522,7 +2522,7 @@ dom
 :
 CSSValue
 *
-DoGetTextCombineHorizontal
+DoGetTextCombineUpright
 (
 )
 ;

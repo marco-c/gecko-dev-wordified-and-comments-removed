@@ -2650,7 +2650,7 @@ kTextAlignLastKTable
 static
 const
 KTableValue
-kTextCombineHorizontalKTable
+kTextCombineUprightKTable
 [
 ]
 ;
