@@ -4,6 +4,13 @@ once
 #
 include
 "
+APZController
+.
+h
+"
+#
+include
+"
 keyboardlayout
 .
 h
@@ -215,6 +222,8 @@ RuntimeClass
 <
 IInspectable
 >
+public
+APZPendingResponseFlusher
 {
 InspectableClass
 (
@@ -666,6 +675,11 @@ const
 Point
 &
 aPoint
+)
+;
+void
+FlushPendingContentResponse
+(
 )
 ;
 static
