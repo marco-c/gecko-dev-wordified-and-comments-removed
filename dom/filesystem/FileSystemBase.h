@@ -19,9 +19,6 @@ nsString
 h
 "
 class
-nsIDOMFile
-;
-class
 nsPIDOMWindow
 ;
 namespace
@@ -32,6 +29,9 @@ dom
 {
 class
 Directory
+;
+class
+DOMFileImpl
 ;
 class
 FileSystemBase
@@ -146,7 +146,7 @@ virtual
 bool
 GetRealPath
 (
-nsIDOMFile
+DOMFileImpl
 *
 aFile
 nsAString
