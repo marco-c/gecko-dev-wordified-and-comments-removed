@@ -2369,7 +2369,7 @@ arch
 "
 architecture
 "
-isWOW64
+isWow64
 :
 "
 isWow64
@@ -2603,6 +2603,12 @@ value
 1
 :
 0
+;
+method
+=
+"
+setLastNumeric
+"
 ;
 break
 ;
