@@ -11142,7 +11142,7 @@ editor
 .
 tabsize
 "
-2
+4
 )
 ;
 pref
