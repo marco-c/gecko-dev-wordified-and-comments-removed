@@ -1,3 +1,5 @@
+debugger
+;
 var
 a
 =
