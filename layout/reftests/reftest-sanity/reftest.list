@@ -493,6 +493,9 @@ skip
 if
 (
 B2G
+|
+|
+B2GDT
 )
 fails
 -
@@ -869,6 +872,9 @@ skip
 if
 (
 B2G
+|
+|
+B2GDT
 )
 =
 =
@@ -896,6 +902,9 @@ skip
 if
 (
 B2G
+|
+|
+B2GDT
 )
 =
 =
@@ -921,6 +930,9 @@ skip
 if
 (
 B2G
+|
+|
+B2GDT
 )
 !
 =
