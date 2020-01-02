@@ -149,15 +149,9 @@ SCCACHE_DISABLE
 -
 a
 -
-f
+z
 "
-topsrcdir
-/
-sccache
-/
-sccache
-.
-py
+no_tooltool
 "
 ;
 then
