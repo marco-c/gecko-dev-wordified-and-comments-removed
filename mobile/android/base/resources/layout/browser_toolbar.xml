@@ -948,6 +948,15 @@ edit_mode_cancel
 "
 android
 :
+background
+=
+"
+drawable
+/
+action_bar_button
+"
+android
+:
 visibility
 =
 "
