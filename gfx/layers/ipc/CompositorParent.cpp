@@ -2989,6 +2989,7 @@ LayerManagerComposite
 new
 CompositorD3D9
 (
+this
 mWidget
 )
 )

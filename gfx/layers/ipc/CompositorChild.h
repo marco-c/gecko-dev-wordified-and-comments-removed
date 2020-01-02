@@ -84,7 +84,7 @@ namespace
 layers
 {
 class
-LayerManager
+ClientLayerManager
 ;
 class
 CompositorParent
@@ -103,7 +103,7 @@ public
 :
 CompositorChild
 (
-LayerManager
+ClientLayerManager
 *
 aLayerManager
 )
@@ -151,6 +151,13 @@ sCompositor
 nullptr
 ;
 }
+virtual
+bool
+RecvInvalidateAll
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
@@ -201,7 +208,7 @@ private
 :
 nsRefPtr
 <
-LayerManager
+ClientLayerManager
 >
 mLayerManager
 ;

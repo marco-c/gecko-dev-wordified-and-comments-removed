@@ -3526,7 +3526,7 @@ GetIPCChannel
 (
 )
 ;
-LayerManager
+ClientLayerManager
 *
 lm
 =

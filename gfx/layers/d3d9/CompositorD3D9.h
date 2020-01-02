@@ -63,6 +63,9 @@ public
 :
 CompositorD3D9
 (
+PCompositorParent
+*
+aParent
 nsIWidget
 *
 aWidget
@@ -498,11 +501,15 @@ const
 {
 return
 mDeviceManager
+?
+mDeviceManager
 -
 >
 device
 (
 )
+:
+nullptr
 ;
 }
 virtual

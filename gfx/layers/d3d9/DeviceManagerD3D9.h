@@ -515,6 +515,11 @@ aFind
 ;
 #
 endif
+bool
+VerifyReadyForRendering
+(
+)
+;
 static
 uint32_t
 sMaskQuadRegister
@@ -527,11 +532,6 @@ SwapChainD3D9
 ;
 ~
 DeviceManagerD3D9
-(
-)
-;
-bool
-VerifyReadyForRendering
 (
 )
 ;

@@ -147,6 +147,12 @@ DataTextureSource
 class
 CompositingRenderTarget
 ;
+class
+PCompositorParent
+;
+class
+LayerManagerComposite
+;
 enum
 SurfaceInitMode
 {
@@ -167,6 +173,11 @@ public
 :
 Compositor
 (
+PCompositorParent
+*
+aParent
+=
+nullptr
 )
 :
 mCompositorID
@@ -176,6 +187,10 @@ mCompositorID
 mDiagnosticTypes
 (
 DIAGNOSTIC_NONE
+)
+mParent
+(
+aParent
 )
 {
 MOZ_COUNT_CTOR
@@ -783,6 +798,10 @@ sBackend
 ;
 DiagnosticTypes
 mDiagnosticTypes
+;
+PCompositorParent
+*
+mParent
 ;
 size_t
 mPixelsPerFrame
