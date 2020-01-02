@@ -11219,7 +11219,7 @@ styleeditor
 .
 showMediaSidebar
 "
-false
+true
 )
 ;
 pref
