@@ -152,6 +152,16 @@ bool
 aFound
 )
 ;
+TextTrack
+*
+operator
+[
+]
+(
+uint32_t
+aIndex
+)
+;
 already_AddRefed
 <
 TextTrack
