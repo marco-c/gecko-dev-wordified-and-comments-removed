@@ -107,6 +107,7 @@ assertParallelExecSucceeds
 (
 function
 (
+m
 )
 points
 .
