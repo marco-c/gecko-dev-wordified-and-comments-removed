@@ -3637,6 +3637,14 @@ linker
 masm
 )
 ;
+AutoFlushICache
+afc
+(
+"
+BaselineDebugModeOSRHandler
+"
+)
+;
 JitCode
 *
 code

@@ -24687,7 +24687,6 @@ jit
 PurgeCaches
 (
 script
-zone
 )
 ;
 }

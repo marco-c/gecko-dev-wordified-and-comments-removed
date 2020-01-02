@@ -762,12 +762,6 @@ PurgeCaches
 JSScript
 *
 script
-JS
-:
-:
-Zone
-*
-zone
 )
 ;
 size_t

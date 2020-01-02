@@ -42535,6 +42535,15 @@ statement
 "
 )
 ;
+AutoFlushICache
+afc
+(
+"
+CheckModule
+"
+true
+)
+;
 ScopedJSDeletePtr
 <
 AsmJSModule

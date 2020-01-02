@@ -570,6 +570,14 @@ linker
 masm
 )
 ;
+AutoFlushICache
+afc
+(
+"
+Baseline
+"
+)
+;
 JitCode
 *
 code

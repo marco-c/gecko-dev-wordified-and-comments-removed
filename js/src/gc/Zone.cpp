@@ -1070,7 +1070,6 @@ parallelIonScript
 >
 purgeCaches
 (
-this
 )
 ;
 script
