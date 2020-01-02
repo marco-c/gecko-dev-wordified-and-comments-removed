@@ -121,6 +121,9 @@ maxdepth
 build
 -
 overview
+supported
+-
+configurations
 Mozconfig
 Files
 <
