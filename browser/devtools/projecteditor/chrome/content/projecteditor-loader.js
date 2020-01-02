@@ -131,6 +131,8 @@ SAMPLE_NAME
 "
 DevTools
 Content
+Application
+Name
 "
 ;
 const
@@ -162,7 +164,7 @@ devtools
 /
 tool
 -
-options
+debugger
 .
 svg
 "
@@ -538,6 +540,11 @@ SAMPLE_ICON
 projectOverviewURL
 :
 SAMPLE_PROJECT_URL
+validationStatus
+:
+"
+valid
+"
 }
 )
 .
