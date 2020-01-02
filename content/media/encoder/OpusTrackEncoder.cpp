@@ -1055,6 +1055,9 @@ IsNull
 )
 )
 {
+AudioTrackEncoder
+:
+:
 InterleaveTrackData
 (
 chunk

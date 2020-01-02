@@ -516,7 +516,7 @@ aDuration
 aChunk
 .
 mVolume
-mChannels
+aOutputChannels
 aOutput
 )
 ;
@@ -539,7 +539,7 @@ aDuration
 aChunk
 .
 mVolume
-mChannels
+aOutputChannels
 aOutput
 )
 ;
