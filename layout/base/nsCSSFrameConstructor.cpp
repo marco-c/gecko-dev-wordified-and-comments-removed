@@ -1873,7 +1873,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_SPECIAL
+NS_FRAME_PART_OF_IBSPLIT
 )
 !
 =
@@ -2176,7 +2176,7 @@ aFrame
 >
 AddStateBits
 (
-NS_FRAME_IS_SPECIAL
+NS_FRAME_PART_OF_IBSPLIT
 )
 ;
 if

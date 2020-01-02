@@ -503,7 +503,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_SPECIAL
+NS_FRAME_PART_OF_IBSPLIT
 )
 {
 bool
@@ -3988,7 +3988,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_SPECIAL
+NS_FRAME_PART_OF_IBSPLIT
 )
 {
 bool
