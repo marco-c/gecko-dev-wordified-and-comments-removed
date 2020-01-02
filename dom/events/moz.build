@@ -273,6 +273,11 @@ FocusEvent
 h
 '
 '
+InputEvent
+.
+h
+'
+'
 KeyboardEvent
 .
 h
@@ -476,6 +481,11 @@ cpp
 '
 '
 IMEStateManager
+.
+cpp
+'
+'
+InputEvent
 .
 cpp
 '

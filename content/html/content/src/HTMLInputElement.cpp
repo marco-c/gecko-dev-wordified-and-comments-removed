@@ -14377,7 +14377,7 @@ mEvent
 message
 =
 =
-NS_FORM_INPUT
+NS_EDITOR_INPUT
 )
 {
 nsAutoString

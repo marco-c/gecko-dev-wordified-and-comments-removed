@@ -45,6 +45,11 @@ SelectionEvent
 )
 NS_EVENT_CLASS
 (
+Internal
+EditorInputEvent
+)
+NS_EVENT_CLASS
+(
 Widget
 MouseEventBase
 )
