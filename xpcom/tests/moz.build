@@ -149,6 +149,9 @@ static
 checker
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
 EXPORTS
 .
 testing
