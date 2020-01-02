@@ -375,6 +375,11 @@ function
 (
 )
 {
+ignoreAllUncaughtExceptions
+(
+true
+)
+;
 gBrowser
 .
 removeProgressListener
@@ -581,6 +586,11 @@ nextTest
 (
 )
 {
+ignoreAllUncaughtExceptions
+(
+false
+)
+;
 if
 (
 gTests
