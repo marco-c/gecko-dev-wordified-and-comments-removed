@@ -48,14 +48,10 @@ testMap
 var
 p
 =
-new
-ParallelArray
-(
 range
 (
 0
 2048
-)
 )
 ;
 assertParallelExecWillBail
@@ -65,7 +61,7 @@ m
 >
 p
 .
-map
+mapPar
 (
 kernel
 m

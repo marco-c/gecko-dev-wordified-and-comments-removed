@@ -4043,16 +4043,6 @@ srcdir
 /
 builtin
 /
-ParallelArray
-.
-js
-\
-(
-srcdir
-)
-/
-builtin
-/
 String
 .
 js

@@ -83,11 +83,6 @@ Goto
 \
 _
 (
-NewParallelArray
-)
-\
-_
-(
 NewArray
 )
 \

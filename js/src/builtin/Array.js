@@ -2440,6 +2440,9 @@ ITEM_KIND_KEY
 ;
 }
 #
+ifdef
+ENABLE_PARALLEL_JS
+#
 define
 TRY_PARALLEL
 (
@@ -2809,9 +2812,6 @@ return
 info
 ;
 }
-#
-ifdef
-ENABLE_PARALLEL_JS
 function
 ArrayMapPar
 (
