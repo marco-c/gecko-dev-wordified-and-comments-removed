@@ -3057,10 +3057,10 @@ FRAME_FIRST
 0
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
 (
-rv
-rv
+imgFrame
+NS_ERROR_FAILURE
 )
 ;
 nsRefPtr
