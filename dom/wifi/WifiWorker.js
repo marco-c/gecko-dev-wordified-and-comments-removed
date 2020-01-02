@@ -5916,6 +5916,8 @@ var
 lines
 =
 reply
+?
+reply
 .
 split
 (
@@ -5924,14 +5926,15 @@ split
 n
 "
 )
+:
+0
 ;
 if
 (
 lines
 .
 length
-=
-=
+<
 =
 1
 )
