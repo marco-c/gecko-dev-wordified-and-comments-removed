@@ -19655,6 +19655,9 @@ AutoGCSession
 :
 AutoTraceSession
 {
+AutoPauseWorkersForTracing
+pause
+;
 public
 :
 explicit
@@ -19698,10 +19701,6 @@ rt
 -
 >
 heapState
-)
-pause
-(
-rt
 )
 {
 JS_ASSERT
@@ -19780,6 +19779,10 @@ AutoTraceSession
 (
 rt
 MajorCollecting
+)
+pause
+(
+rt
 )
 {
 runtime
@@ -22967,6 +22970,10 @@ rt
 )
 :
 finish
+(
+rt
+)
+pause
 (
 rt
 )
