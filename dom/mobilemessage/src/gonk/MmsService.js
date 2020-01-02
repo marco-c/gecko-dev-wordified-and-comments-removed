@@ -6349,9 +6349,7 @@ status
 "
 ]
 =
-MMS
-.
-MMS_PDU_READ_STATUS_READ
+true
 ;
 this
 .
