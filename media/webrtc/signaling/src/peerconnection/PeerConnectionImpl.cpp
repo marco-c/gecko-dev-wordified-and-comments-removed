@@ -2413,6 +2413,10 @@ mIdentity
 (
 nullptr
 )
+mPrivacyRequested
+(
+false
+)
 mSTSThread
 (
 nullptr
