@@ -904,6 +904,12 @@ get
 ;
 if
 (
+aHandle
+!
+=
+kInvalidProcessHandle
+&
+&
 !
 base
 :
