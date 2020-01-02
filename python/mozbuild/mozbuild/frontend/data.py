@@ -2165,6 +2165,10 @@ manifest_relpath
 '
         
 '
+manifest_obj_relpath
+'
+        
+'
 dupe_manifest
 '
     
@@ -2239,6 +2243,12 @@ install_prefix
 self
 .
 manifest_relpath
+=
+relpath
+        
+self
+.
+manifest_obj_relpath
 =
 relpath
         

@@ -7631,7 +7631,7 @@ add
 (
 obj
 .
-manifest_relpath
+manifest_obj_relpath
 )
     
 def
