@@ -394,7 +394,7 @@ text
 indexOf
 (
 "
-browser
+webconsole
 .
 xul
 "
