@@ -83,6 +83,14 @@ NavigatorProperty
 "
 mozNfc
 "
+Func
+=
+"
+Navigator
+:
+:
+HasNfcSupport
+"
 ]
 interface
 MozNfc
