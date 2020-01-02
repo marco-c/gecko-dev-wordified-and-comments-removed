@@ -5674,6 +5674,12 @@ onError
 aOnError
 )
 ;
+MediaStreamConstraints
+c
+(
+aConstraints
+)
+;
 #
 if
 !
@@ -5904,12 +5910,6 @@ listeners
 AppendElement
 (
 listener
-)
-;
-MediaStreamConstraints
-c
-(
-aConstraints
 )
 ;
 if
