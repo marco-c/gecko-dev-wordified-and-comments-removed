@@ -417,10 +417,15 @@ view
 String
 url
 =
+TopSitesPage
+.
+decodeUserEnteredUrl
+(
 row
 .
 getUrl
 (
+)
 )
 ;
 if
