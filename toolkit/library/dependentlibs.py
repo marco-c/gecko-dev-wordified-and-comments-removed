@@ -713,7 +713,7 @@ dep
 startswith
 (
 "
-icudt
+icu
 "
 )
 :
