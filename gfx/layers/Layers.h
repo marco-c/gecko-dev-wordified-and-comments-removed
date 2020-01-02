@@ -635,6 +635,12 @@ END_NO_COMPOSITE
 <
 <
 1
+END_NO_REMOTE_COMPOSITE
+=
+1
+<
+<
+2
 }
 ;
 FrameLayerBuilder
@@ -715,6 +721,13 @@ END_DEFAULT
 =
 0
 ;
+virtual
+void
+Composite
+(
+)
+{
+}
 virtual
 bool
 HasShadowManagerInternal

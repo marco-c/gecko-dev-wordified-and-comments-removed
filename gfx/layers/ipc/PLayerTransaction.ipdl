@@ -504,6 +504,8 @@ TargetConfig
 targetConfig
 bool
 isFirstPaint
+bool
+scheduleComposite
 )
 returns
 (
@@ -570,6 +572,8 @@ TargetConfig
 targetConfig
 bool
 isFirstPaint
+bool
+scheduleComposite
 )
 ;
 /

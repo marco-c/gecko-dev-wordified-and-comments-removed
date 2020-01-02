@@ -3765,7 +3765,9 @@ TargetConfig
 &
 aTargetConfig
 bool
-isFirstPaint
+aIsFirstPaint
+bool
+aScheduleComposite
 )
 {
 BuildViewMap

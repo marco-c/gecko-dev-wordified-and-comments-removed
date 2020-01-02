@@ -281,7 +281,9 @@ TargetConfig
 &
 aTargetConfig
 bool
-isFirstPaint
+aIsFirstPaint
+bool
+aScheduleComposite
 )
 MOZ_OVERRIDE
 ;
