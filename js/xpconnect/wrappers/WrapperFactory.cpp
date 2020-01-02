@@ -2778,13 +2778,10 @@ obj
 if
 (
 !
-EnsureCompartmentPrivate
+MaybeGetObjectScope
 (
 obj
 )
--
->
-scope
 )
 return
 nullptr
