@@ -318,6 +318,11 @@ nullptr
 ;
 }
 }
+void
+StartScan
+(
+)
+;
 nsCOMArray
 <
 nsWifiAccessPoint
