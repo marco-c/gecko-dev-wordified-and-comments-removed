@@ -240,9 +240,6 @@ true
 storageInspectorReadOnly
 :
 true
-conditionalBreakpoints
-:
-true
 }
 }
 ;
