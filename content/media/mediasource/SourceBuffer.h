@@ -394,13 +394,6 @@ double
 aEnd
 )
 ;
-bool
-ContainsTime
-(
-double
-aTime
-)
-;
 double
 GetBufferedStart
 (

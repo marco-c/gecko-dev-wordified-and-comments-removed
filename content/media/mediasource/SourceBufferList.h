@@ -222,13 +222,6 @@ double
 aEnd
 )
 ;
-bool
-AllContainsTime
-(
-double
-aTime
-)
-;
 double
 GetHighestBufferedEndTime
 (

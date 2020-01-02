@@ -266,6 +266,13 @@ mDiscarded
 true
 ;
 }
+bool
+ContainsTime
+(
+double
+aTime
+)
+;
 private
 :
 MediaSourceDecoder
