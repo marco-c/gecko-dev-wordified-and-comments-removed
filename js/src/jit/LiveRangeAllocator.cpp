@@ -223,7 +223,7 @@ toString
 break
 ;
 case
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 :
 n
 =
@@ -3641,7 +3641,7 @@ i
 )
 -
 >
-isPreset
+isFixed
 (
 )
 &
@@ -3780,7 +3780,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 def
@@ -4097,7 +4097,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 {
 if
@@ -4239,7 +4239,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 {
 AnyRegister
@@ -4893,7 +4893,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 *

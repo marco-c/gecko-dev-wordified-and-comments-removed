@@ -1955,7 +1955,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 cursor
 +

@@ -255,7 +255,7 @@ param
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 )
 return

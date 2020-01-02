@@ -57,7 +57,7 @@ Kind
 NONE
 REGISTER
 FIXED
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 }
 ;
 Requirement
@@ -93,7 +93,7 @@ FIXED
 kind
 !
 =
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 )
 ;
 }
@@ -125,7 +125,7 @@ FIXED
 kind
 !
 =
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 )
 ;
 }
@@ -214,7 +214,7 @@ at
 :
 kind_
 (
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 )
 allocation_
 (
@@ -285,7 +285,7 @@ kind
 )
 =
 =
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 )
 ;
 return
@@ -338,7 +338,7 @@ kind
 Requirement
 :
 :
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 )
 ;
 if
@@ -676,7 +676,7 @@ case
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 :
 if
 (
@@ -709,7 +709,7 @@ case
 LDefinition
 :
 :
-PRESET
+FIXED
 :
 return
 alloc
@@ -1567,7 +1567,7 @@ kind
 Requirement
 :
 :
-SAME_AS_OTHER
+MUST_REUSE_INPUT
 )
 ;
 requirement_

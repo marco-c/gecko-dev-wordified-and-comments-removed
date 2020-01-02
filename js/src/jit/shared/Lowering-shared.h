@@ -430,7 +430,7 @@ policy
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 )
 ;
 inline
@@ -523,7 +523,7 @@ policy
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 )
 ;
 inline
@@ -597,7 +597,7 @@ policy
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 )
 ;
 template

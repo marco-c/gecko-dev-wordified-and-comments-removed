@@ -1564,7 +1564,7 @@ def
 )
 -
 >
-isPreset
+isFixed
 (
 )
 &
@@ -2433,7 +2433,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 !
@@ -3615,7 +3615,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 )
 {
 if
@@ -3633,7 +3633,7 @@ IonSpew_RegAlloc
 Requirement
 %
 s
-preset
+fixed
 by
 definition
 "
@@ -6765,7 +6765,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 !
@@ -8836,7 +8836,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 reg
@@ -9093,7 +9093,7 @@ policy
 LDefinition
 :
 :
-PRESET
+FIXED
 &
 &
 reg

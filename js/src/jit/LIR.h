@@ -1800,8 +1800,8 @@ public
 enum
 Policy
 {
-DEFAULT
-PRESET
+REGISTER
+FIXED
 MUST_REUSE_INPUT
 PASSTHROUGH
 }
@@ -1881,7 +1881,7 @@ type
 Policy
 policy
 =
-DEFAULT
+REGISTER
 )
 {
 set
@@ -1900,7 +1900,7 @@ type
 Policy
 policy
 =
-DEFAULT
+REGISTER
 )
 {
 set
@@ -1930,7 +1930,7 @@ set
 (
 0
 type
-PRESET
+FIXED
 )
 ;
 }
@@ -1955,7 +1955,7 @@ set
 (
 index
 type
-PRESET
+FIXED
 )
 ;
 }
@@ -2097,7 +2097,7 @@ output_
 ;
 }
 bool
-isPreset
+isFixed
 (
 )
 const
@@ -2108,7 +2108,7 @@ policy
 )
 =
 =
-PRESET
+FIXED
 ;
 }
 bool
@@ -2118,7 +2118,7 @@ isBogusTemp
 const
 {
 return
-isPreset
+isFixed
 (
 )
 &
@@ -2204,7 +2204,7 @@ POLICY_SHIFT
 bits_
 |
 =
-PRESET
+FIXED
 <
 <
 POLICY_SHIFT

@@ -992,7 +992,7 @@ type
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 )
 )
 ;
@@ -1068,7 +1068,7 @@ type
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 )
 )
 ;
@@ -1129,7 +1129,7 @@ type
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 )
 )
 ;
@@ -1205,7 +1205,7 @@ type
 LDefinition
 :
 :
-DEFAULT
+REGISTER
 )
 )
 ;
