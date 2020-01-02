@@ -386,7 +386,7 @@ in
 DOMString
 contactType
 in
-nsIDOMContact
+nsISupports
 contact
 in
 DOMString

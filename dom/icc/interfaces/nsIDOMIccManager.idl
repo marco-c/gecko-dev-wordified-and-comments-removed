@@ -2860,7 +2860,7 @@ in
 DOMString
 contactType
 in
-nsIDOMContact
+nsISupports
 contact
 [
 optional

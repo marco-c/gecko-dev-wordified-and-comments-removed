@@ -340,6 +340,11 @@ CompositionEvent
 webidl
 '
 '
+Contacts
+.
+webidl
+'
+'
 ConvolverNode
 .
 webidl

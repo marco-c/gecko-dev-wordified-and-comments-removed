@@ -969,13 +969,6 @@ BINPATH
 /
 components
 /
-dom_contacts
-.
-xpt
-BINPATH
-/
-components
-/
 dom_alarm
 .
 xpt
