@@ -151,7 +151,7 @@ o
 /
 #
 Bug
-915002
+872934
 -
 Clobber
 needed
@@ -159,9 +159,12 @@ for
 webidl
 updates
 for
-AppNotificationServiceOptions
+style
+sheet
+change
+events
 .
-One
-more
-time
+Again
+and
+again
 .
