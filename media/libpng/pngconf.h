@@ -614,6 +614,12 @@ defined
 (
 __clang__
 )
+&
+&
+defined
+(
+__has_attribute
+)
 #
 if
 !

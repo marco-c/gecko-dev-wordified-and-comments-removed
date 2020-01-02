@@ -842,6 +842,9 @@ crc_bytes
 if
 (
 need_crc
+!
+=
+0
 )
 {
 crc
@@ -1048,6 +1051,9 @@ warn
 if
 (
 warn
+!
+=
+0
 )
 png_chunk_warning
 (
@@ -2004,6 +2010,9 @@ newlength
 if
 (
 terminate
+!
+=
+0
 )
 text
 [
@@ -5610,8 +5619,10 @@ profiles
 ;
 if
 (
-!
 finished
+=
+=
+0
 )
 png_crc_finish
 (
@@ -10510,6 +10521,9 @@ prefix_length
 if
 (
 compressed
+!
+=
+0
 )
 text
 .
@@ -13100,13 +13114,13 @@ B_MASK
 d
 s
 )
-S_MASK
+B_MASK
 (
 3
 d
 s
 )
-S_MASK
+B_MASK
 (
 5
 d
@@ -13540,6 +13554,9 @@ offset
 if
 (
 display
+!
+=
+0
 )
 {
 bytes_to_copy
@@ -17228,9 +17245,6 @@ png_structrp
 png_ptr
 )
 {
-#
-ifdef
-PNG_READ_INTERLACING_SUPPORTED
 static
 PNG_CONST
 png_byte
@@ -17303,8 +17317,6 @@ png_pass_yinc
 2
 }
 ;
-#
-endif
 png_debug
 (
 1
@@ -17335,9 +17347,6 @@ num_rows
 )
 return
 ;
-#
-ifdef
-PNG_READ_INTERLACING_SUPPORTED
 if
 (
 png_ptr
@@ -17515,8 +17524,6 @@ pass
 return
 ;
 }
-#
-endif
 png_read_finish_IDAT
 (
 png_ptr
@@ -17532,9 +17539,6 @@ png_structrp
 png_ptr
 )
 {
-#
-ifdef
-PNG_READ_INTERLACING_SUPPORTED
 static
 PNG_CONST
 png_byte
@@ -17607,8 +17611,6 @@ png_pass_yinc
 2
 }
 ;
-#
-endif
 int
 max_pixel_depth
 ;
@@ -17634,9 +17636,6 @@ png_ptr
 ;
 #
 endif
-#
-ifdef
-PNG_READ_INTERLACING_SUPPORTED
 if
 (
 png_ptr
@@ -17737,8 +17736,6 @@ pass
 ;
 }
 else
-#
-endif
 {
 png_ptr
 -

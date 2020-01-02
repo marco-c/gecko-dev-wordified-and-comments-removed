@@ -3782,12 +3782,12 @@ pass
 ;
 if
 (
-!
-(
 row_info
 .
 width
-)
+=
+=
+0
 )
 {
 png_write_finish_row
@@ -8961,6 +8961,9 @@ PNG_FILTER_TYPE_BASE
 if
 (
 write_16bit
+!
+=
+0
 )
 {
 png_set_gAMA_fixed
@@ -9034,6 +9037,9 @@ info_ptr
 if
 (
 write_16bit
+!
+=
+0
 )
 {
 PNG_CONST
@@ -9211,6 +9217,9 @@ row_stride
 if
 (
 linear
+!
+=
+0
 )
 row_bytes
 *
@@ -9341,6 +9350,9 @@ row
 if
 (
 write_16bit
+!
+=
+0
 )
 result
 =
@@ -9376,8 +9388,10 @@ row
 ;
 if
 (
-!
 result
+=
+=
+0
 )
 return
 0

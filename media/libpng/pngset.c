@@ -3137,8 +3137,10 @@ info_ptr
 ;
 if
 (
-!
 result
+=
+=
+0
 )
 return
 ;
@@ -3337,6 +3339,9 @@ num_text
 if
 (
 ret
+!
+=
+0
 )
 png_error
 (
@@ -4171,6 +4176,9 @@ key_len
 if
 (
 text_length
+!
+=
+0
 )
 memcpy
 (
@@ -6874,6 +6882,9 @@ return
 if
 (
 keep
+!
+=
+0
 )
 {
 new_list
@@ -7251,6 +7262,9 @@ row_pointers
 if
 (
 row_pointers
+!
+=
+NULL
 )
 info_ptr
 -
@@ -7550,6 +7564,9 @@ user_chunk_cache_max
 if
 (
 png_ptr
+!
+=
+NULL
 )
 png_ptr
 -
@@ -7572,6 +7589,9 @@ user_chunk_malloc_max
 if
 (
 png_ptr
+!
+=
+NULL
 )
 png_ptr
 -
@@ -7608,6 +7628,9 @@ png_set_benign_errors
 if
 (
 allowed
+!
+=
+0
 )
 png_ptr
 -

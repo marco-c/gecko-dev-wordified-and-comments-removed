@@ -7023,6 +7023,9 @@ P_LINEAR
 if
 (
 convert_to_Y
+!
+=
+0
 )
 {
 png_uint_32
@@ -13253,6 +13256,9 @@ component
 if
 (
 preserve_alpha
+!
+=
+0
 )
 outrow
 [
@@ -13484,6 +13490,9 @@ input_gamma_default
 if
 (
 linear
+!
+=
+0
 )
 {
 if
@@ -13520,6 +13529,9 @@ PNG_DEFAULT_sRGB
 if
 (
 do_local_background
+!
+=
+0
 )
 {
 png_fixed_point
@@ -13617,6 +13629,9 @@ PNG_FORMAT_FLAG_ALPHA
 if
 (
 do_local_background
+!
+=
+0
 )
 do_local_background
 =
@@ -13626,6 +13641,9 @@ else
 if
 (
 linear
+!
+=
+0
 )
 png_set_strip_alpha
 (
@@ -13735,6 +13753,9 @@ where
 if
 (
 linear
+!
+=
+0
 )
 filler
 =
@@ -13881,6 +13902,9 @@ endif
 if
 (
 linear
+!
+=
+0
 )
 {
 PNG_CONST
@@ -13907,6 +13931,9 @@ png_ptr
 if
 (
 change
+!
+=
+0
 )
 png_error
 (
@@ -13927,8 +13954,10 @@ png_ptr
 ;
 if
 (
-!
 do_local_compose
+=
+=
+0
 &
 &
 do_local_background
@@ -13981,8 +14010,10 @@ PNG_COLOR_MASK_ALPHA
 {
 if
 (
-!
 do_local_compose
+=
+=
+0
 )
 {
 if
@@ -14013,6 +14044,9 @@ else
 if
 (
 do_local_compose
+!
+=
+0
 )
 png_error
 (
@@ -14191,6 +14225,9 @@ row_stride
 if
 (
 linear
+!
+=
+0
 )
 row_bytes
 *
@@ -14259,6 +14296,9 @@ row_bytes
 if
 (
 do_local_compose
+!
+=
+0
 )
 {
 int

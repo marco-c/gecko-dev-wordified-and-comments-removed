@@ -1,9 +1,6 @@
 #
 ifndef
-MOZPNGCONF_H
-#
-define
-MOZPNGCONF_H
+PNGLCONF_H
 #
 define
 PNGLCONF_H
@@ -79,6 +76,14 @@ PNG_Z_DEFAULT_NOFILTER_STRATEGY
 define
 PNG_Z_DEFAULT_STRATEGY
 1
+#
+define
+PNG_sRGB_PROFILE_CHECKS
+-
+1
+#
+define
+PNG_SET_OPTION_SUPPORTED
 #
 ifdef
 _MSC_VER
@@ -1323,6 +1328,10 @@ MOZ_PNG_set_mem_fn
 define
 png_set_oFFs
 MOZ_PNG_set_oFFs
+#
+define
+png_set_option
+MOZ_PNG_set_option
 #
 define
 png_set_packing
