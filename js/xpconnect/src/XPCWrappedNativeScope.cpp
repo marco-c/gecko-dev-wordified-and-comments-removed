@@ -198,6 +198,12 @@ aGlobal
 =
 &
 SafeJSContextGlobalClass
+|
+|
+IsSandbox
+(
+aGlobal
+)
 )
 return
 false
