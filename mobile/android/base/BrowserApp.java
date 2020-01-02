@@ -8821,6 +8821,18 @@ inflate
 (
 )
 ;
+if
+(
+!
+getProfile
+(
+)
+.
+inGuestMode
+(
+)
+)
+{
 final
 HomeBanner
 homeBanner
@@ -8880,6 +8892,7 @@ homeBanner
 }
 )
 ;
+}
 }
 mHomePagerContainer
 .
