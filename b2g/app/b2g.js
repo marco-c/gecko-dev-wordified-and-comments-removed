@@ -6348,7 +6348,7 @@ overscroll
 .
 enabled
 "
-false
+true
 )
 ;
 pref
