@@ -362,6 +362,13 @@ Release
 :
 true
 "
+nsIGlobalObject
+.
+GetGlobalJSObject
+"
+:
+true
+"
 nsAXPCNativeCallContext
 .
 GetJSContext
