@@ -68,6 +68,12 @@ BASE_FRAME_SIZE
 0
 #
 endif
+#
+undef
+min
+#
+undef
+max
 class
 CharacterClassConstructor
 {

@@ -215,7 +215,7 @@ vbp
 ;
 __asm
 {
-Label
+MyLabel
 :
 mov
 [
@@ -232,7 +232,7 @@ esp
 mov
 eax
 [
-Label
+MyLabel
 ]
 ;
 mov

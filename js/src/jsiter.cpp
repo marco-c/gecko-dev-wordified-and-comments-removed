@@ -1817,6 +1817,9 @@ JSMSG_BAD_TRAP_RETURN_VALUE
 -
 1
 val
+js
+:
+:
 NullPtr
 (
 )
@@ -8482,6 +8485,9 @@ cx
 JSMSG_BAD_GENERATOR_SEND
 JSDVG_SEARCH_STACK
 val
+js
+:
+:
 NullPtr
 (
 )
@@ -8699,6 +8705,9 @@ cx
 JSMSG_BAD_GENERATOR_SEND
 JSDVG_SEARCH_STACK
 val
+js
+:
+:
 NullPtr
 (
 )

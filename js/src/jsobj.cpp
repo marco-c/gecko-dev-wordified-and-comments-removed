@@ -22435,6 +22435,9 @@ flags
 JSMSG_UNDEFINED_PROP
 JSDVG_IGNORE_STACK
 val
+js
+:
+:
 NullPtr
 (
 )
@@ -23856,6 +23859,9 @@ report
 JSMSG_READ_ONLY
 JSDVG_IGNORE_STACK
 val
+js
+:
+:
 NullPtr
 (
 )
@@ -23945,6 +23951,9 @@ report
 JSMSG_CANT_DELETE
 JSDVG_IGNORE_STACK
 val
+js
+:
+:
 NullPtr
 (
 )
@@ -24033,6 +24042,9 @@ report
 JSMSG_OBJECT_NOT_EXTENSIBLE
 JSDVG_IGNORE_STACK
 val
+js
+:
+:
 NullPtr
 (
 )

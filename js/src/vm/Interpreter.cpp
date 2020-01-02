@@ -9157,6 +9157,9 @@ JSMSG_IN_NOT_OBJECT
 -
 1
 rref
+js
+:
+:
 NullPtr
 (
 )
@@ -16808,6 +16811,9 @@ JSMSG_BAD_INSTANCEOF_RHS
 -
 1
 rref
+js
+:
+:
 NullPtr
 (
 )
@@ -17494,6 +17500,9 @@ cx
 JSMSG_BAD_GENERATOR_YIELD
 JSDVG_SEARCH_STACK
 val
+js
+:
+:
 NullPtr
 (
 )

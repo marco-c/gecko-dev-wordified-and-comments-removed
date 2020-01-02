@@ -2771,6 +2771,9 @@ JSMSG_BAD_PROTOTYPE
 -
 1
 val
+js
+:
+:
 NullPtr
 (
 )
@@ -7238,6 +7241,9 @@ cx
 NewFunction
 (
 cx
+js
+:
+:
 NullPtr
 (
 )
@@ -8339,6 +8345,9 @@ cx
 NewFunctionWithProto
 (
 cx
+js
+:
+:
 NullPtr
 (
 )

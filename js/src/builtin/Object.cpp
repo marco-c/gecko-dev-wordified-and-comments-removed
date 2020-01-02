@@ -1776,8 +1776,8 @@ JS_OLD_GETTER_SETTER_METHODS
 enum
 DefineType
 {
-Getter
-Setter
+GetterAccessor
+SetterAccessor
 }
 ;
 template
@@ -1850,7 +1850,7 @@ JSMSG_BAD_GETTER_OR_SETTER
 Type
 =
 =
-Getter
+GetterAccessor
 ?
 js_getter_str
 :
@@ -1977,7 +1977,7 @@ acc
 Type
 =
 =
-Getter
+GetterAccessor
 )
 ?
 names
@@ -2097,7 +2097,7 @@ vp
 return
 DefineAccessor
 <
-Getter
+GetterAccessor
 >
 (
 cx
@@ -2128,7 +2128,7 @@ vp
 return
 DefineAccessor
 <
-Setter
+SetterAccessor
 >
 (
 cx

@@ -3122,6 +3122,9 @@ JSScript
 Create
 (
 cx
+js
+:
+:
 NullPtr
 (
 )
@@ -3167,6 +3170,9 @@ fn
 pn_funbox
 script
 false
+js
+:
+:
 NullPtr
 (
 )
