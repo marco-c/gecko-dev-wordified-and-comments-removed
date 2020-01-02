@@ -65,6 +65,10 @@ protocol
 PContent
 ;
 include
+protocol
+PContentBridge
+;
+include
 DOMTypes
 ;
 namespace
@@ -87,6 +91,8 @@ PBlob
 {
 manager
 PContent
+or
+PContentBridge
 ;
 manages
 PBlobStream
