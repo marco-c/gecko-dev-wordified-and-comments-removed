@@ -155,7 +155,7 @@ mBits
 (
 (
 (
-uint32_t
+uint64_t
 )
 aPseudoType
 )
@@ -171,7 +171,7 @@ mRefCnt
 static_assert
 (
 (
-UINT32_MAX
+UINT64_MAX
 >
 >
 NS_STYLE_CONTEXT_TYPE_SHIFT
@@ -191,7 +191,7 @@ longer
 fit
 in
 a
-uint32_t
+uint64_t
 "
 )
 ;
@@ -1282,12 +1282,18 @@ mBits
 &
 =
 ~
+static_cast
+<
+uint64_t
+>
+(
 nsCachedStyleData
 :
 :
 GetBitForSID
 (
 aSID
+)
 )
 ;
 return

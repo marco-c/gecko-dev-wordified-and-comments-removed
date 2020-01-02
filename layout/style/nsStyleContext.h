@@ -692,7 +692,7 @@ void
 AddStyleBit
 (
 const
-uint32_t
+uint64_t
 &
 aBit
 )
@@ -1196,7 +1196,7 @@ mCachedResetData
 nsInheritedStyleData
 mCachedInheritedData
 ;
-uint32_t
+uint64_t
 mBits
 ;
 uint32_t
