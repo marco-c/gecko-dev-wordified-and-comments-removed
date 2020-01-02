@@ -240,9 +240,7 @@ __init__
 self
 logLevel
 =
-mozlog
-.
-ERROR
+None
 deviceRoot
 =
 None
@@ -291,6 +289,13 @@ mozdevice
 "
 )
                 
+if
+logLevel
+is
+not
+None
+:
+                    
 self
 .
 _logger
