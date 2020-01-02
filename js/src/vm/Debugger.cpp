@@ -17738,10 +17738,10 @@ found
 if
 (
 !
-JSObject
+js
 :
 :
-hasProperty
+HasOwnProperty
 (
 cx
 result
