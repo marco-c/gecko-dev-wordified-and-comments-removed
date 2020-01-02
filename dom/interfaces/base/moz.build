@@ -228,11 +228,6 @@ nsIQueryContentEventResult
 idl
 '
 '
-nsIServiceWorkerManager
-.
-idl
-'
-'
 nsIStructuredCloneContainer
 .
 idl
