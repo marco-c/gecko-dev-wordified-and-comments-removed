@@ -633,6 +633,17 @@ opened
 <
 !
 ENTITY
+new_private_tab_opened
+"
+New
+private
+tab
+opened
+"
+>
+<
+!
+ENTITY
 settings
 "
 Settings

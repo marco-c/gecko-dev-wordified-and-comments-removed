@@ -4626,7 +4626,7 @@ show
 )
 ;
 }
-protected
+public
 ButtonToast
 getButtonToast
 (
