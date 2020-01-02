@@ -1629,9 +1629,6 @@ stdin
 ;
 }
 else
-#
-ifdef
-HAVE_ISATTY
 if
 (
 !
@@ -1643,8 +1640,6 @@ file
 )
 )
 )
-#
-endif
 {
 int
 ch
@@ -2317,17 +2312,12 @@ Init
 nsresult
 rv
 ;
-#
-ifdef
-HAVE_SETBUF
 setbuf
 (
 stdout
 0
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsIJSRuntimeService
