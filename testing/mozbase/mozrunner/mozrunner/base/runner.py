@@ -1043,14 +1043,6 @@ minidumps
 '
 )
         
-test_name
-=
-test_name
-or
-self
-.
-last_test
-        
 crashed
 =
 False
