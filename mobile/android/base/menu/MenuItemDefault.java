@@ -316,6 +316,10 @@ drawable
 .
 menu_item_state
 )
+.
+mutate
+(
+)
 ;
 mState
 .
