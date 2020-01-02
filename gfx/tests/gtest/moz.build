@@ -243,6 +243,11 @@ TestBase
 cpp
 '
 '
+TestBugs
+.
+cpp
+'
+'
 TestPoint
 .
 cpp
