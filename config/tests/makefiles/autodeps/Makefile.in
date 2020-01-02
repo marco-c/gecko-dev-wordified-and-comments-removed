@@ -130,9 +130,6 @@ NULL
 )
 export
 MAKE
-export
-.
-PYMAKE
 #
 #
 -
