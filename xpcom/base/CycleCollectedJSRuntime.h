@@ -314,7 +314,9 @@ JSRuntime
 *
 aParentRuntime
 uint32_t
-aMaxbytes
+aMaxBytes
+uint32_t
+aMaxNurseryBytes
 )
 ;
 virtual

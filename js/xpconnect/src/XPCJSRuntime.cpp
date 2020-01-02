@@ -15775,6 +15775,10 @@ JS
 :
 :
 DefaultHeapMaxBytes
+JS
+:
+:
+DefaultNurseryBytes
 )
 mJSContextStack
 (
