@@ -129,7 +129,7 @@ SparseArray
 ;
 public
 class
-PanelManager
+PanelInfoManager
 implements
 GeckoEventListener
 {
@@ -140,7 +140,7 @@ String
 LOGTAG
 =
 "
-GeckoPanelManager
+GeckoPanelInfoManager
 "
 ;
 public

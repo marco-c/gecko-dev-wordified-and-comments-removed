@@ -195,7 +195,7 @@ gecko
 .
 home
 .
-PanelManager
+PanelInfoManager
 .
 RequestCallback
 ;
@@ -208,7 +208,7 @@ gecko
 .
 home
 .
-PanelManager
+PanelInfoManager
 .
 PanelInfo
 ;
@@ -390,15 +390,15 @@ requestAvailablePanels
 )
 {
 final
-PanelManager
-panelManager
+PanelInfoManager
+pm
 =
 new
-PanelManager
+PanelInfoManager
 (
 )
 ;
-panelManager
+pm
 .
 requestAvailablePanels
 (

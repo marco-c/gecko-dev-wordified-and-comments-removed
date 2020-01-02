@@ -110,7 +110,7 @@ gecko
 .
 home
 .
-PanelManager
+PanelInfoManager
 .
 PanelInfo
 ;
@@ -123,7 +123,7 @@ gecko
 .
 home
 .
-PanelManager
+PanelInfoManager
 .
 RequestCallback
 ;
@@ -1471,11 +1471,11 @@ PanelInfo
 )
 ;
 final
-PanelManager
+PanelInfoManager
 pm
 =
 new
-PanelManager
+PanelInfoManager
 (
 )
 ;
