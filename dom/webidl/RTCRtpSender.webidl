@@ -156,5 +156,16 @@ attribute
 MediaStreamTrack
 track
 ;
+void
+replaceTrack
+(
+MediaStreamTrack
+track
+VoidFunction
+successCallback
+RTCPeerConnectionErrorCallback
+failureCallback
+)
+;
 }
 ;
