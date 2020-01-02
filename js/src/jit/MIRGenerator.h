@@ -352,7 +352,7 @@ cancel
 {
 cancelBuild_
 =
-1
+true
 ;
 }
 bool
@@ -612,7 +612,7 @@ mozilla
 :
 Atomic
 <
-uint32_t
+bool
 mozilla
 :
 :
