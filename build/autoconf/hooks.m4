@@ -375,6 +375,7 @@ cd
 moz_config_dir
 "
 ;
+eval
 PYTHON
 _topsrcdir
 /
@@ -387,6 +388,7 @@ dump
 "
 _CONFIG_SHELL
 "
+ac_configure_args
 )
 else
 mkdir
