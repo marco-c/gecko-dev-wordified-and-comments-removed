@@ -482,6 +482,7 @@ carryOver
 ;
 while
 (
+(
 ptr
 =
 strstr
@@ -490,6 +491,7 @@ ptr
 "
 Private
 "
+)
 )
 )
 {
