@@ -6743,6 +6743,17 @@ IsConnected
 return
 ;
 }
+if
+(
+aCallIndex
+=
+=
+UINT32_MAX
+)
+{
+return
+;
+}
 while
 (
 aCallIndex
