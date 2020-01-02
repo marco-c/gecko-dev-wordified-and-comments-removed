@@ -105,9 +105,7 @@ customization
 -
 header
 "
-value
-=
-"
+>
 &
 customizeMode
 .
@@ -115,8 +113,9 @@ menuAndToolbars
 .
 header
 ;
-"
+<
 /
+label
 >
 <
 vbox
