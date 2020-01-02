@@ -124,6 +124,14 @@ SuccessResponse
 }
 ;
 struct
+FileDescriptorResponse
+{
+FileDescriptor
+fileDescriptor
+;
+}
+;
+struct
 BlobResponse
 {
 PBlob
@@ -196,6 +204,8 @@ DeviceStorageResponseValue
 ErrorResponse
 ;
 SuccessResponse
+;
+FileDescriptorResponse
 ;
 BlobResponse
 ;
