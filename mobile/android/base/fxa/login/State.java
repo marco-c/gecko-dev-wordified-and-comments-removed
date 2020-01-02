@@ -57,7 +57,7 @@ final
 long
 CURRENT_VERSION
 =
-1L
+2L
 ;
 public
 enum
