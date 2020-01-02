@@ -18,6 +18,11 @@ ArrayBuffer
 4096
 )
 ;
+setIonAssertGraphCoherency
+(
+false
+)
+;
 assertAsmLinkFail
 (
 asmCompile
