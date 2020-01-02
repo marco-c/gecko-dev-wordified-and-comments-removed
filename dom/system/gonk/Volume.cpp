@@ -203,11 +203,6 @@ mState
 )
 )
 ;
-if
-(
-mIsSharing
-)
-{
 mEventObserverList
 .
 Broadcast
@@ -215,7 +210,6 @@ Broadcast
 this
 )
 ;
-}
 }
 void
 Volume
