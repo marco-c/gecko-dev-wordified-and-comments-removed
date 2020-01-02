@@ -28,7 +28,7 @@ url
 "
 about
 :
-blank
+robots
 "
 }
 ]
@@ -91,7 +91,7 @@ url
 "
 about
 :
-blank
+robots
 "
 "
 groupID
@@ -125,7 +125,7 @@ url
 "
 about
 :
-blank
+robots
 "
 }
 ]
@@ -188,7 +188,7 @@ url
 "
 about
 :
-blank
+robots
 "
 "
 groupID
