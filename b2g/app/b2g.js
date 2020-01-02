@@ -6417,6 +6417,16 @@ enabled
 true
 )
 ;
+pref
+(
+"
+touchcaret
+.
+enabled
+"
+false
+)
+;
 #
 ifdef
 MOZ_SERVICES_FXACCOUNTS

@@ -4369,6 +4369,17 @@ HasTouchEventListeners
 ;
 }
 }
+metrics
+.
+mMayHaveTouchCaret
+=
+presShell
+-
+>
+MayHaveTouchCaret
+(
+)
+;
 }
 LayoutDeviceToParentLayerScale
 layoutToParentLayerScale

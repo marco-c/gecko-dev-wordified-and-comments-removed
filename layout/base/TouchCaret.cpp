@@ -500,6 +500,14 @@ CancelExpirationTimer
 (
 )
 ;
+presShell
+-
+>
+SetMayHaveTouchCaret
+(
+mVisible
+)
+;
 }
 nsRect
 TouchCaret

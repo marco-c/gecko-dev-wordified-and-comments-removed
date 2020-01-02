@@ -311,6 +311,10 @@ mMayHaveTouchListeners
 (
 false
 )
+mMayHaveTouchCaret
+(
+false
+)
 mIsRoot
 (
 false
@@ -483,6 +487,14 @@ mMayHaveTouchListeners
 aOther
 .
 mMayHaveTouchListeners
+&
+&
+mMayHaveTouchCaret
+=
+=
+aOther
+.
+mMayHaveTouchCaret
 &
 &
 mPresShellId
@@ -973,6 +985,9 @@ mDevPixelsPerCSSPixel
 ;
 bool
 mMayHaveTouchListeners
+;
+bool
+mMayHaveTouchCaret
 ;
 bool
 mIsRoot
