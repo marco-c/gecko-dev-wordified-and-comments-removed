@@ -627,6 +627,11 @@ kBeforeBlock
 kBlockEnd
 }
 ;
+void
+InitFields
+(
+)
+;
 nsresult
 WillInsert
 (

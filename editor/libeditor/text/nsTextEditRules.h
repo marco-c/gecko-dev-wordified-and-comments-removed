@@ -247,6 +247,11 @@ aLength
 ;
 protected
 :
+void
+InitFields
+(
+)
+;
 nsresult
 WillInsertText
 (

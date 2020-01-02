@@ -1996,12 +1996,12 @@ InitRules
 (
 )
 {
-MOZ_ASSERT
+if
 (
 !
 mRules
 )
-;
+{
 mRules
 =
 new
@@ -2009,6 +2009,7 @@ nsHTMLEditRules
 (
 )
 ;
+}
 return
 mRules
 -

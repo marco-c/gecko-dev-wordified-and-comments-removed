@@ -618,10 +618,6 @@ DetachEditor
 (
 )
 ;
-mRules
-=
-nullptr
-;
 }
 {
 nsAutoEditInitRulesTrigger
@@ -1517,12 +1513,12 @@ InitRules
 (
 )
 {
-MOZ_ASSERT
+if
 (
 !
 mRules
 )
-;
+{
 mRules
 =
 new
@@ -1530,6 +1526,7 @@ nsTextEditRules
 (
 )
 ;
+}
 return
 mRules
 -
