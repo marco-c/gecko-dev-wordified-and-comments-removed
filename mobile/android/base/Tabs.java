@@ -396,6 +396,15 @@ PERSIST_TABS_AFTER_MILLISECONDS
 *
 5
 ;
+public
+static
+final
+int
+INVALID_TAB_ID
+=
+-
+1
+;
 private
 static
 AtomicInteger
