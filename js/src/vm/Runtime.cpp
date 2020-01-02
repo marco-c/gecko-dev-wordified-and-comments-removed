@@ -1250,6 +1250,12 @@ PodArrayZero
 nativeStackQuota
 )
 ;
+PodZero
+(
+&
+asmJSCacheOps
+)
+;
 #
 if
 JS_STACK_GROWTH_DIRECTION
