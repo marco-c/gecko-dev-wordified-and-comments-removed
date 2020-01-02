@@ -389,6 +389,17 @@ partial
 interface
 HTMLLinkElement
 {
+[
+Pref
+=
+"
+dom
+.
+webcomponents
+.
+enabled
+"
+]
 readonly
 attribute
 Document
