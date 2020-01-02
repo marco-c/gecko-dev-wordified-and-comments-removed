@@ -218,6 +218,12 @@ true
 }
 )
 ;
+eval
+(
+'
+'
+)
+;
 for
 (
 let
@@ -714,6 +720,10 @@ removed
 finishTest
 (
 )
+;
+objectStore
+=
+null
 ;
 yield
 undefined

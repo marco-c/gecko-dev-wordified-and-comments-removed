@@ -218,6 +218,12 @@ onsuccess
 =
 continueToNextStep
 ;
+eval
+(
+'
+'
+)
+;
 for
 (
 let
@@ -841,6 +847,12 @@ continueToNextStep
 ;
 yield
 undefined
+;
+objectStore
+=
+index
+=
+null
 ;
 }
 }
