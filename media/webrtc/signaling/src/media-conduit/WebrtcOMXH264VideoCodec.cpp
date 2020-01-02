@@ -3993,6 +3993,13 @@ ToMilliseconds
 if
 (
 (
+timeSinceLastIDR
+>
+3000
+)
+|
+|
+(
 mBitRateKbps
 <
 (
