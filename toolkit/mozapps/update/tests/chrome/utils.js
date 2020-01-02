@@ -352,7 +352,7 @@ REL_PATH_DATA
 var
 gTestTimeout
 =
-45000
+240000
 ;
 var
 gTimeoutTimer

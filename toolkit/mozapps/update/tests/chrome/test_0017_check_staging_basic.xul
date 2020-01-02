@@ -299,15 +299,6 @@ setUpdateURLOverride
 url
 )
 ;
-setupTimer
-(
-180000
-)
-;
-/
-/
-180
-seconds
 gUP
 .
 checkForUpdates
