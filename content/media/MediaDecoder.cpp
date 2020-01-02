@@ -5417,6 +5417,15 @@ UpdatePlaybackRate
 (
 )
 ;
+SetInfinite
+(
+mDuration
+=
+=
+-
+1
+)
+;
 if
 (
 mOwner
