@@ -468,6 +468,11 @@ UNIFIED_SOURCES
 =
 [
 '
+testJitFoldsTo
+.
+cpp
+'
+'
 testJitRValueAlloc
 .
 cpp
