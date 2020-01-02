@@ -10481,7 +10481,7 @@ webide
 .
 enabled
 "
-false
+true
 )
 ;
 pref
