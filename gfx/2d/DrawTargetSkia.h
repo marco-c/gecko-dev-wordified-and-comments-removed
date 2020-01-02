@@ -649,7 +649,7 @@ aFormat
 #
 ifdef
 USE_SKIA_GPU
-void
+bool
 InitWithGrContext
 (
 GrContext
