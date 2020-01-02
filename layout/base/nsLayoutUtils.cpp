@@ -24829,6 +24829,9 @@ DrawImageInternal
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -24884,7 +24887,7 @@ FLAG_CLAMP
 int32_t
 appUnitsPerDevPixel
 =
-aRenderingContext
+aPresContext
 -
 >
 AppUnitsPerDevPixel
@@ -24985,6 +24988,9 @@ DrawPixelSnapped
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 gfxDrawable
 *
 aDrawable
@@ -25011,7 +25017,7 @@ aDirty
 int32_t
 appUnitsPerDevPixel
 =
-aRenderingContext
+aPresContext
 -
 >
 AppUnitsPerDevPixel
@@ -25211,6 +25217,9 @@ DrawSingleUnscaledImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -25359,6 +25368,7 @@ return
 DrawImageInternal
 (
 aRenderingContext
+aPresContext
 aImage
 aGraphicsFilter
 dest
@@ -25385,6 +25395,9 @@ DrawSingleImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -25432,7 +25445,7 @@ TYPE_VECTOR
 nscoord
 appUnitsPerDevPx
 =
-aRenderingContext
+aPresContext
 -
 >
 AppUnitsPerDevPixel
@@ -25577,6 +25590,7 @@ return
 DrawImageInternal
 (
 aRenderingContext
+aPresContext
 aImage
 aGraphicsFilter
 dest
@@ -25711,6 +25725,9 @@ DrawBackgroundImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -25779,6 +25796,7 @@ return
 DrawImageInternal
 (
 aRenderingContext
+aPresContext
 aImage
 aGraphicsFilter
 aDest
@@ -25800,6 +25818,9 @@ DrawImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -25987,6 +26008,7 @@ return
 DrawImageInternal
 (
 aRenderingContext
+aPresContext
 aImage
 aGraphicsFilter
 aDest

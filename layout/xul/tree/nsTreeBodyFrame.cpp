@@ -15701,6 +15701,7 @@ DrawSingleUnscaledImage
 (
 &
 aRenderingContext
+aPresContext
 image
 GraphicsFilter
 :
@@ -16198,6 +16199,7 @@ DrawImage
 (
 &
 aRenderingContext
+aPresContext
 image
 nsLayoutUtils
 :
@@ -17109,6 +17111,7 @@ DrawSingleUnscaledImage
 (
 &
 aRenderingContext
+aPresContext
 image
 GraphicsFilter
 :
@@ -17441,6 +17444,7 @@ DrawImage
 (
 &
 aRenderingContext
+aPresContext
 image
 nsLayoutUtils
 :
@@ -17580,6 +17584,7 @@ DrawImage
 (
 &
 aRenderingContext
+aPresContext
 image
 nsLayoutUtils
 :

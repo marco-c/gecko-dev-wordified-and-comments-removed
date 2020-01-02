@@ -5292,7 +5292,12 @@ nsNativeThemeGTK
 :
 GetWidgetBorder
 (
-aContext
+aFrame
+-
+>
+PresContext
+(
+)
 -
 >
 DeviceContext

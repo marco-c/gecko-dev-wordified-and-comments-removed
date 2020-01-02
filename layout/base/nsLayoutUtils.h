@@ -2883,6 +2883,9 @@ DrawBackgroundImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -2919,6 +2922,9 @@ DrawImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -2963,6 +2969,9 @@ DrawPixelSnapped
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 gfxDrawable
 *
 aDrawable
@@ -2993,6 +3002,9 @@ DrawSingleUnscaledImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage
@@ -3023,6 +3035,9 @@ DrawSingleImage
 nsRenderingContext
 *
 aRenderingContext
+nsPresContext
+*
+aPresContext
 imgIContainer
 *
 aImage

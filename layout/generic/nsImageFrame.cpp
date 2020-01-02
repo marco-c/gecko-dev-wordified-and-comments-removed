@@ -5388,6 +5388,9 @@ DrawSingleImage
 (
 &
 aRenderingContext
+PresContext
+(
+)
 imgCon
 nsLayoutUtils
 :
@@ -6622,6 +6625,9 @@ DrawSingleImage
 (
 &
 aRenderingContext
+PresContext
+(
+)
 aImage
 nsLayoutUtils
 :

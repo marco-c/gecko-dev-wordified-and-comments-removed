@@ -6440,7 +6440,12 @@ p2a
 =
 gfxFloat
 (
-aContext
+aFrame
+-
+>
+PresContext
+(
+)
 -
 >
 AppUnitsPerDevPixel
@@ -16012,7 +16017,12 @@ p2a
 =
 gfxFloat
 (
-aContext
+aFrame
+-
+>
+PresContext
+(
+)
 -
 >
 AppUnitsPerDevPixel
