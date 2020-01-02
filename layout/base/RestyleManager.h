@@ -330,6 +330,11 @@ EndProcessingRestyles
 )
 ;
 void
+UpdateOnlyAnimationStyles
+(
+)
+;
+void
 RebuildAllStyleData
 (
 nsChangeHint
