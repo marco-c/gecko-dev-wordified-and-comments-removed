@@ -1423,14 +1423,14 @@ StaticAutoPtr
 <
 Monitor
 >
-sGetPropertyMonitor
+sStopBluetoothMonitor
 ;
 static
 StaticAutoPtr
 <
 Monitor
 >
-sStopBluetoothMonitor
+sGetPropertyMonitor
 ;
 typedef
 void
