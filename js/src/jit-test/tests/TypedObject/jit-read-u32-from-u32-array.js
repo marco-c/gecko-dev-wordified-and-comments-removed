@@ -17,14 +17,12 @@ quit
 var
 Vec3u32Type
 =
-new
-TypedObject
-.
-ArrayType
-(
 TypedObject
 .
 uint32
+.
+array
+(
 3
 )
 ;

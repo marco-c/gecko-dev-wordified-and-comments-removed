@@ -58,10 +58,10 @@ summary
 var
 Array
 =
-new
-ArrayType
-(
 int32x4
+.
+array
+(
 3
 )
 ;

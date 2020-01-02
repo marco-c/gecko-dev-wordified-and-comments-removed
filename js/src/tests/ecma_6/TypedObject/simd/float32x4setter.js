@@ -44,10 +44,10 @@ summary
 var
 Array
 =
-new
-ArrayType
-(
 float32x4
+.
+array
+(
 3
 )
 ;

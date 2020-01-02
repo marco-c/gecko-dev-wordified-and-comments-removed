@@ -46,6 +46,10 @@ new
 ArrayType
 (
 float32
+)
+.
+dimension
+(
 3
 )
 ;
@@ -72,6 +76,10 @@ new
 ArrayType
 (
 Line
+)
+.
+dimension
+(
 3
 )
 ;

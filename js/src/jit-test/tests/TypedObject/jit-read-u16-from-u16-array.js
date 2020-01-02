@@ -17,14 +17,12 @@ quit
 var
 Vec3u16Type
 =
-new
-TypedObject
-.
-ArrayType
-(
 TypedObject
 .
 uint16
+.
+array
+(
 3
 )
 ;

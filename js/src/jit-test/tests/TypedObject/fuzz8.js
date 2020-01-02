@@ -16,14 +16,12 @@ Error
 (
 )
 ;
-new
-TypedObject
-.
-ArrayType
-(
 TypedObject
 .
 uint8
+.
+array
+(
 .
 0000000009
 )

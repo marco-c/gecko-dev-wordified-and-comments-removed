@@ -14,6 +14,18 @@ quit
 (
 )
 ;
+setJitCompilerOption
+(
+"
+ion
+.
+usecount
+.
+trigger
+"
+30
+)
+;
 var
 PointType2
 =
@@ -106,7 +118,7 @@ foo
 var
 N
 =
-30000
+100
 ;
 var
 points
