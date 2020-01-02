@@ -108,6 +108,11 @@ DIRS
 '
 bridge
 '
+'
+gmp
+-
+plugin
+'
 ]
 LOCAL_INCLUDES
 +
