@@ -47,6 +47,8 @@ ORTDelegatedIncluded
 ORTDelegatedIncludedLast
 ORTDelegatedMissing
 ORTDelegatedMissingMultiple
+ORTLongValidityAlmostExpired
+ORTAncientAlmostExpired
 }
 ;
 struct
