@@ -168,6 +168,11 @@ AndroidJNIWrapper
 cpp
 '
 '
+APZCCallbackHandler
+.
+cpp
+'
+'
 GeneratedJNIWrappers
 .
 cpp
