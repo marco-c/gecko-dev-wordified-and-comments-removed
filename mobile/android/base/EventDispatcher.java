@@ -30,17 +30,6 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 EventCallback
@@ -1111,7 +1100,6 @@ e
 ;
 }
 }
-RobocopTarget
 Deprecated
 public
 static
