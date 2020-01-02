@@ -675,7 +675,7 @@ input
 )
 ;
 }
-void
+bool
 GetSECItem
 (
 SECItemType
@@ -728,6 +728,9 @@ input
 mark
 .
 mMark
+;
+return
+true
 ;
 }
 private
