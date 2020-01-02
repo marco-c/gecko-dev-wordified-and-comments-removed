@@ -979,6 +979,12 @@ mBackupStreamIn
 bool
 mHasConnected
 ;
+bool
+mPrimaryConnectedOK
+;
+bool
+mBackupConnectedOK
+;
 }
 ;
 friend
