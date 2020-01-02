@@ -228,6 +228,12 @@ nsIURI
 >
 mOriginalURI
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mBaseURI
+;
 nsCString
 mContentType
 ;
