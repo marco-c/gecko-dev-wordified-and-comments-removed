@@ -13469,13 +13469,13 @@ timer
 =
 null
 ;
-this
+self
 .
 wantScanResults
 .
 splice
 (
-this
+self
 .
 wantScanResults
 .
