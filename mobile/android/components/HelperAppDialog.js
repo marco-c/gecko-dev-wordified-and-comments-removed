@@ -750,6 +750,9 @@ drawable
 /
 icon
 "
+selected
+:
+true
 launch
 :
 function
