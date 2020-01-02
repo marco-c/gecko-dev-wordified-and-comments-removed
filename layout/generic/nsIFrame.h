@@ -4517,7 +4517,7 @@ aXMost
 )
 ;
 virtual
-nsresult
+void
 WillReflow
 (
 nsPresContext
