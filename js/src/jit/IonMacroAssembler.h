@@ -1797,6 +1797,17 @@ dest
 )
 ;
 void
+loadStringChar
+(
+Register
+str
+Register
+index
+Register
+output
+)
+;
+void
 branchIfRope
 (
 Register
