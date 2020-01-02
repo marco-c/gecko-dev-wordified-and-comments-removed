@@ -127,7 +127,7 @@ WEBVTT_AUTO
 ;
 mAlign
 =
-TextTrackCueAlign
+AlignSetting
 :
 :
 Middle
