@@ -48814,10 +48814,6 @@ False
 args
 =
 None
-                
-movable
-=
-False
             
 else
 :
@@ -48828,29 +48824,6 @@ sigs
 [
 0
 ]
-                
-hasInfallibleImpl
-=
-"
-infallible
-"
-in
-self
-.
-descriptor
-.
-getExtendedAttributes
-(
-self
-.
-member
-)
-                
-movable
-=
-methodPure
-and
-hasInfallibleImpl
                 
 if
 (
@@ -48892,7 +48865,20 @@ else
                     
 methodInfal
 =
-hasInfallibleImpl
+"
+infallible
+"
+in
+self
+.
+descriptor
+.
+getExtendedAttributes
+(
+self
+.
+member
+)
                 
 if
 methodPure
@@ -48914,9 +48900,6 @@ None
             
 if
 args
-is
-not
-None
 :
                 
 aliasSet
@@ -48947,7 +48930,7 @@ Method
 "
                                         
 methodInfal
-movable
+False
 aliasSet
 False
 "
