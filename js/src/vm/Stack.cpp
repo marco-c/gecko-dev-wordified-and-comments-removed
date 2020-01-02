@@ -3233,12 +3233,6 @@ securityCallbacks
 subsumes
 )
 {
-JS
-:
-:
-AutoSuppressGCAnalysis
-nogc
-;
 if
 (
 !
