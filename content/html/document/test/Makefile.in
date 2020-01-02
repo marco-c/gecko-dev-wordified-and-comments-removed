@@ -212,12 +212,6 @@ inserted
 .
 html
 \
-test_document
-.
-watch
-.
-html
-\
 (
 filter
 disabled

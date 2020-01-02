@@ -18321,8 +18321,6 @@ ArrayBufferObject
 :
 :
 obj_deleteSpecial
-nullptr
-nullptr
 ArrayBufferObject
 :
 :
@@ -19403,16 +19401,6 @@ Object
 :
 :
 obj_deleteSpecial
-\
-nullptr
-nullptr
-/
-*
-watch
-/
-unwatch
-*
-/
 \
 _typedArray
 #

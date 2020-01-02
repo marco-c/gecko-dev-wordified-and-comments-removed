@@ -9735,8 +9735,6 @@ TypedDatum
 :
 :
 obj_deleteSpecial
-nullptr
-nullptr
 TypedDatum
 :
 :
@@ -10089,8 +10087,6 @@ TypedDatum
 :
 :
 obj_deleteSpecial
-nullptr
-nullptr
 TypedDatum
 :
 :
