@@ -2319,6 +2319,17 @@ getLocale
 (
 )
 {
+const
+PREF_SELECTED_LOCALE
+=
+"
+general
+.
+useragent
+.
+locale
+"
+;
 try
 {
 let
