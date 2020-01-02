@@ -30002,9 +30002,8 @@ BytecodeIsPopped
 pc
 )
 )
-needsBarrier
-=
-false
+return
+true
 ;
 if
 (
