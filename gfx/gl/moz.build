@@ -799,6 +799,11 @@ SurfaceStream
 cpp
 '
 '
+SurfaceTypes
+.
+cpp
+'
+'
 TextureGarbageBin
 .
 cpp
