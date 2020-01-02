@@ -11142,9 +11142,13 @@ share
 GeckoActionProvider
 provider
 =
-new
 GeckoActionProvider
+.
+getForType
 (
+GeckoActionProvider
+.
+DEFAULT_MIME_TYPE
 this
 )
 ;
