@@ -1370,6 +1370,14 @@ AdjustPushedPriority
 mSession
 -
 >
+MaybeDecrementConcurrent
+(
+this
+)
+;
+mSession
+-
+>
 ConnectPushedStream
 (
 this
