@@ -2650,9 +2650,7 @@ isFloat32Load
 )
 {
 }
-const
 AnyRegister
-&
 dest
 (
 )

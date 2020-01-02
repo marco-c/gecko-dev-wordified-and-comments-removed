@@ -225,9 +225,7 @@ operator
 =
 =
 (
-const
 AnyRegister
-&
 other
 )
 const
@@ -246,9 +244,7 @@ operator
 !
 =
 (
-const
 AnyRegister
-&
 other
 )
 const
@@ -631,9 +627,7 @@ addr
 )
 ;
 }
-const
 AnyRegister
-&
 dataTyped
 (
 )
@@ -2486,9 +2480,7 @@ reg
 void
 add
 (
-const
 AnyRegister
-&
 any
 )
 {
@@ -2653,9 +2645,7 @@ reg
 void
 addUnchecked
 (
-const
 AnyRegister
-&
 any
 )
 {
@@ -2787,9 +2777,7 @@ endif
 void
 take
 (
-const
 AnyRegister
-&
 reg
 )
 {
