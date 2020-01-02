@@ -7009,10 +7009,12 @@ request
 .
 SetMethod
 (
-nsHttp
-:
-:
-Connect
+NS_LITERAL_CSTRING
+(
+"
+CONNECT
+"
+)
 )
 ;
 request

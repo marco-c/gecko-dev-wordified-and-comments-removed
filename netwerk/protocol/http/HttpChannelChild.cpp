@@ -3074,7 +3074,7 @@ Set_Cookie
 bool
 rewriteToGET
 =
-nsHttp
+HttpBaseChannel
 :
 :
 ShouldRewriteRedirectToGET
@@ -3087,7 +3087,7 @@ Status
 )
 mRequestHead
 .
-Method
+ParsedMethod
 (
 )
 )

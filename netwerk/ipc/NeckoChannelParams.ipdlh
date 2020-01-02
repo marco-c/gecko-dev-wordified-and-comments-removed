@@ -408,7 +408,7 @@ loadFlags
 RequestHeaderTuples
 requestHeaders
 ;
-nsHttpAtom
+nsCString
 requestMethod
 ;
 OptionalInputStreamParams

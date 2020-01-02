@@ -1255,7 +1255,10 @@ static
 bool
 HasQueryString
 (
-nsHttpAtom
+nsHttpRequestHead
+:
+:
+ParsedMethodType
 method
 nsIURI
 *
