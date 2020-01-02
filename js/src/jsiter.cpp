@@ -7672,7 +7672,7 @@ gc
 .
 storeBuffer
 .
-putWholeCell
+putWholeCellFromMainThread
 (
 gen
 -
