@@ -826,6 +826,14 @@ Log
 <
 !
 ENTITY
+btnConsoleReflows
+"
+Reflows
+"
+>
+<
+!
+ENTITY
 filterOutput
 .
 placeholder
