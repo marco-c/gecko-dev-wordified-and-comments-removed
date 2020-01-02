@@ -5063,9 +5063,6 @@ gTelephonyProvider
 .
 notifyCallStateChanged
 (
-this
-.
-clientId
 message
 .
 call
@@ -5082,9 +5079,6 @@ gTelephonyProvider
 .
 notifyCallDisconnected
 (
-this
-.
-clientId
 message
 .
 call
@@ -5117,9 +5111,6 @@ gTelephonyProvider
 .
 notifyCdmaCallWaiting
 (
-this
-.
-clientId
 message
 .
 number
@@ -5136,9 +5127,6 @@ gTelephonyProvider
 .
 notifyCallError
 (
-this
-.
-clientId
 message
 .
 callIndex
@@ -5158,9 +5146,6 @@ gTelephonyProvider
 .
 notifySupplementaryService
 (
-this
-.
-clientId
 message
 .
 callIndex

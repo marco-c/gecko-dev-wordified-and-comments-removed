@@ -98,10 +98,6 @@ TelephonyChild
 RecvNotifyCallError
 (
 const
-uint32_t
-&
-aClientId
-const
 int32_t
 &
 aCallIndex
@@ -121,7 +117,6 @@ mListener
 >
 NotifyError
 (
-aClientId
 aCallIndex
 aError
 )
@@ -136,10 +131,6 @@ TelephonyChild
 :
 RecvNotifyCallStateChanged
 (
-const
-uint32_t
-&
-aClientId
 const
 IPCCallStateData
 &
@@ -156,7 +147,6 @@ mListener
 >
 CallStateChanged
 (
-aClientId
 aData
 .
 callIndex
@@ -205,10 +195,6 @@ TelephonyChild
 RecvNotifyCdmaCallWaiting
 (
 const
-uint32_t
-&
-aClientId
-const
 nsString
 &
 aNumber
@@ -224,7 +210,6 @@ mListener
 >
 NotifyCdmaCallWaiting
 (
-aClientId
 aNumber
 )
 ;
@@ -268,10 +253,6 @@ TelephonyChild
 RecvNotifySupplementaryService
 (
 const
-uint32_t
-&
-aClientId
-const
 int32_t
 &
 aCallIndex
@@ -291,7 +272,6 @@ mListener
 >
 SupplementaryServiceNotification
 (
-aClientId
 aCallIndex
 aNotification
 )
@@ -367,10 +347,6 @@ TelephonyRequestChild
 RecvNotifyEnumerateCallState
 (
 const
-uint32_t
-&
-aClientId
-const
 IPCCallStateData
 &
 aData
@@ -386,7 +362,6 @@ mListener
 >
 EnumerateCallState
 (
-aClientId
 aData
 .
 callIndex

@@ -346,8 +346,6 @@ TelephonyListener
 CallStateChanged
 (
 uint32_t
-aServiceId
-uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -402,8 +400,6 @@ TelephonyListener
 EnumerateCallState
 (
 uint32_t
-aServiceId
-uint32_t
 aCallIndex
 uint16_t
 aCallState
@@ -457,8 +453,6 @@ TelephonyListener
 :
 NotifyError
 (
-uint32_t
-aServiceId
 int32_t
 aCallIndex
 const
@@ -568,8 +562,6 @@ TelephonyListener
 :
 SupplementaryServiceNotification
 (
-uint32_t
-aServiceId
 int32_t
 aCallIndex
 uint16_t
@@ -586,8 +578,6 @@ TelephonyListener
 :
 NotifyCdmaCallWaiting
 (
-uint32_t
-aServiceId
 const
 nsAString
 &
