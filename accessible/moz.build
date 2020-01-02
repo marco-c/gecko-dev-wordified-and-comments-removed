@@ -204,5 +204,7 @@ TEST_DIRS
 [
 '
 tests
+/
+mochitest
 '
 ]
