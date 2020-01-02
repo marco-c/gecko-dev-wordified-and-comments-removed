@@ -1345,7 +1345,9 @@ base
 /
 test
 /
-test_bug548193
+csp
+/
+test_csp_report
 .
 html
 "
@@ -3520,7 +3522,9 @@ base
 /
 test
 /
-test_bug650386_redirect_301
+csp
+/
+test_301_redirect
 .
 html
 "
@@ -3534,7 +3538,9 @@ base
 /
 test
 /
-test_bug650386_redirect_302
+csp
+/
+test_302_redirect
 .
 html
 "
@@ -3548,7 +3554,9 @@ base
 /
 test
 /
-test_bug650386_redirect_303
+csp
+/
+test_303_redirect
 .
 html
 "
@@ -3562,7 +3570,9 @@ base
 /
 test
 /
-test_bug650386_redirect_307
+csp
+/
+test_307_redirect
 .
 html
 "
@@ -3576,7 +3586,9 @@ base
 /
 test
 /
-test_bug717511
+csp
+/
+test_multi_policy_injection_bypass
 .
 html
 "
