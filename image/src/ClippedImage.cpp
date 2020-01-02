@@ -1089,10 +1089,10 @@ imageRect
 imageRect
 imageRect
 imageRect
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+B8G8R8A8
 GraphicsFilter
 :
 :
@@ -1473,10 +1473,10 @@ subimage
 sourceRect
 imageRect
 aFill
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+B8G8R8A8
 aFilter
 )
 ;
