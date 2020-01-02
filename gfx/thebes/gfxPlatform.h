@@ -637,7 +637,7 @@ IntSize
 aSize
 )
 ;
-virtual
+static
 mozilla
 :
 :
