@@ -192,7 +192,7 @@ browser
 =
 sidebar
 .
-firstChild
+lastChild
 ;
 function
 checkShown
