@@ -577,7 +577,14 @@ self
 .
 state_dir
 =
+os
+.
+path
+.
+normpath
+(
 state_dir
+)
         
 self
 .
@@ -589,6 +596,8 @@ path
 .
 join
 (
+self
+.
 state_dir
 '
 mercurial
@@ -608,6 +617,8 @@ path
 .
 join
 (
+self
+.
 state_dir
 '
 version
