@@ -393,9 +393,14 @@ MOZ_WIDGET_ANDROID
 did_work
 |
 =
-GeckoAppShell
+AndroidBridge
 :
 :
+Bridge
+(
+)
+-
+>
 PumpMessageLoop
 (
 )

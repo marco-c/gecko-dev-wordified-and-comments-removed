@@ -418,9 +418,14 @@ Close
 (
 )
 {
-GeckoAppShell
+AndroidBridge
 :
 :
+Bridge
+(
+)
+-
+>
 CloseCamera
 (
 )

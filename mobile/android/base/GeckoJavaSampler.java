@@ -28,9 +28,7 @@ gecko
 .
 mozglue
 .
-generatorannotations
-.
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 ;
 import
 java
@@ -717,7 +715,7 @@ null
 ;
 }
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
@@ -786,7 +784,7 @@ aSampleId
 )
 ;
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
@@ -883,7 +881,7 @@ return
 0
 ;
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
@@ -979,7 +977,7 @@ return
 null
 ;
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
@@ -1048,7 +1046,7 @@ start
 ;
 }
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
@@ -1081,7 +1079,7 @@ true
 ;
 }
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
@@ -1114,7 +1112,7 @@ false
 ;
 }
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
