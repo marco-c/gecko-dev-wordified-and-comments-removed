@@ -6664,7 +6664,7 @@ mCurrentTab
 )
 ;
 var
-backForwardContainer
+forwardButtonContainer
 =
 document
 .
@@ -6673,16 +6673,16 @@ getElementById
 "
 urlbar
 -
-container
+wrapper
 "
 )
 ;
 if
 (
-backForwardContainer
+forwardButtonContainer
 )
 {
-backForwardContainer
+forwardButtonContainer
 .
 setAttribute
 (
@@ -6716,7 +6716,7 @@ MozAfterPaint
 removeSwitchingtabsAttr
 )
 ;
-backForwardContainer
+forwardButtonContainer
 .
 removeAttribute
 (
