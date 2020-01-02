@@ -159,13 +159,6 @@ optional
 SpeechSynthesisEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 Pref
 =
 "

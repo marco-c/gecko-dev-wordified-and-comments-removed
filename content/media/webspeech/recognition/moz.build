@@ -70,11 +70,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMSpeechRecognitionEvent
-.
-idl
-'
-'
 nsISpeechRecognitionService
 .
 idl

@@ -114,13 +114,6 @@ optional
 SpeechRecognitionEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 SpeechRecognitionEvent

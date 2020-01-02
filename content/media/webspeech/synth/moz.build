@@ -92,11 +92,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMSpeechSynthesisEvent
-.
-idl
-'
-'
 nsISpeechService
 .
 idl
