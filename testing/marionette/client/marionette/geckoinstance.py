@@ -363,6 +363,12 @@ apps
 =
 {
 '
+b2g
+'
+:
+B2GDesktopInstance
+        
+'
 b2gdesktop
 '
 :
