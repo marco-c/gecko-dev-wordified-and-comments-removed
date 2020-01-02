@@ -364,7 +364,7 @@ loaded
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1272,7 +1272,7 @@ loaded
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -2953,7 +2953,7 @@ loaded
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return

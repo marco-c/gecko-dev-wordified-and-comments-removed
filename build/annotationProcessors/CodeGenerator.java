@@ -564,7 +564,7 @@ n
 +
 "
 return
-NULL
+nullptr
 ;
 \
 n
@@ -2469,7 +2469,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 \
@@ -2864,7 +2864,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 \
@@ -3002,7 +3002,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 \
@@ -3031,7 +3031,7 @@ env
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 \

@@ -532,7 +532,7 @@ jstring
 returnValue
 =
 '
-NULL
+nullptr
 '
                 
 elif
