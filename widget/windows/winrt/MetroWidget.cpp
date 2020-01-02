@@ -6931,8 +6931,6 @@ this
 mInputContext
 .
 mIMEState
-.
-mEnabled
 )
 ;
 case
@@ -6949,8 +6947,6 @@ this
 mInputContext
 .
 mIMEState
-.
-mEnabled
 )
 ;
 case
