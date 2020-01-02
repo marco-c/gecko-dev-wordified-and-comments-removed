@@ -75,7 +75,7 @@ TimerThread
 :
 mInitInProgress
 (
-0
+false
 )
 mInitialized
 (
@@ -318,11 +318,11 @@ mInitInProgress
 .
 exchange
 (
-1
+true
 )
 =
 =
-0
+false
 )
 {
 nsresult

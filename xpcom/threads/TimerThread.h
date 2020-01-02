@@ -204,7 +204,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+bool
 >
 mInitInProgress
 ;

@@ -444,14 +444,14 @@ NS_ERROR_FAILURE
 ;
 }
 }
-int32_t
+bool
 lastVal
 =
 sIsFlushing
 .
 exchange
 (
-1
+true
 )
 ;
 if
@@ -646,7 +646,7 @@ aReason
 }
 sIsFlushing
 =
-0
+false
 ;
 return
 NS_OK
@@ -723,7 +723,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+bool
 >
 nsMemoryImpl
 :

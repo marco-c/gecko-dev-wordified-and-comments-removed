@@ -139,7 +139,7 @@ mozilla
 :
 Atomic
 <
-int32_t
+bool
 >
 sIsFlushing
 ;
