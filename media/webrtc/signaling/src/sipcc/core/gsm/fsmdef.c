@@ -3375,6 +3375,13 @@ NULL
 dcb
 -
 >
+peer_ice_lite
+=
+FALSE
+;
+dcb
+-
+>
 ice_default_candidate_addr
 [
 0

@@ -741,6 +741,9 @@ char
 *
 ice_pwd
 ;
+boolean
+peer_ice_lite
+;
 char
 ice_default_candidate_addr
 [

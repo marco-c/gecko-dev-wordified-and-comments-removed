@@ -732,6 +732,8 @@ ufrag
 char
 *
 pwd
+cc_boolean
+icelite
 )
 ;
 short

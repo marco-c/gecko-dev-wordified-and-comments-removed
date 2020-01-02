@@ -733,6 +733,11 @@ Controlling
 controlling
 )
 ;
+Controlling
+GetControlling
+(
+)
+;
 nsresult
 SetStunServers
 (
