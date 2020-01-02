@@ -6665,13 +6665,6 @@ DebuggerServer
 globalActorFactories
 .
 deviceActor
-preferenceActor
-:
-DebuggerServer
-.
-globalActorFactories
-.
-preferenceActor
 }
 :
 DebuggerServer
