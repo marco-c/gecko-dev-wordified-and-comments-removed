@@ -12243,6 +12243,7 @@ name
 return
 "
 {
+{
 JS_CAST_NATIVE_TO
 (
 %
@@ -12251,6 +12252,7 @@ JSPropertyOp
 )
 %
 s
+}
 }
 "
 %
@@ -12389,6 +12391,7 @@ name
 return
 "
 {
+{
 JS_CAST_NATIVE_TO
 (
 %
@@ -12397,6 +12400,7 @@ JSStrictPropertyOp
 )
 %
 s
+}
 }
 "
 %

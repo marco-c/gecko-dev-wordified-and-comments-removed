@@ -4957,6 +4957,8 @@ attrSpec
 .
 getter
 .
+propertyOp
+.
 op
 0
 0
@@ -4979,6 +4981,8 @@ fun
 attrSpec
 .
 getter
+.
+propertyOp
 .
 info
 )
@@ -5014,6 +5018,8 @@ attrSpec
 .
 setter
 .
+propertyOp
+.
 op
 )
 {
@@ -5028,6 +5034,8 @@ JSNative
 attrSpec
 .
 setter
+.
+propertyOp
 .
 op
 1
@@ -5050,6 +5058,8 @@ fun
 attrSpec
 .
 setter
+.
+propertyOp
 .
 info
 )
