@@ -1300,11 +1300,6 @@ MimeTypeArray
 webidl
 '
 '
-MobileMessageManager
-.
-webidl
-'
-'
 MouseEvent
 .
 webidl
@@ -1321,6 +1316,11 @@ webidl
 '
 '
 MozMmsMessage
+.
+webidl
+'
+'
+MozMobileMessageManager
 .
 webidl
 '
@@ -2441,11 +2441,6 @@ webidl
 '
 '
 XPathEvaluator
-.
-webidl
-'
-'
-XPathResult
 .
 webidl
 '
