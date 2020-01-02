@@ -146,11 +146,6 @@ nsIJSEventListener
 .
 h
 '
-'
-nsVKList
-.
-h
-'
 ]
 EXPORTS
 .
@@ -200,6 +195,11 @@ h
 '
 '
 KeyNameList
+.
+h
+'
+'
+VirtualKeyCodeList
 .
 h
 '

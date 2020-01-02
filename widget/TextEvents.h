@@ -107,7 +107,9 @@ enum
 #
 include
 "
-nsVKList
+mozilla
+/
+VirtualKeyCodeList
 .
 h
 "

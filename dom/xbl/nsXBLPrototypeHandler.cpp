@@ -3026,7 +3026,9 @@ aDOMKeyCode
 #
 include
 "
-nsVKList
+mozilla
+/
+VirtualKeyCodeList
 .
 h
 "
