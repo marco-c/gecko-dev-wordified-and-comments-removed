@@ -9868,6 +9868,17 @@ size_t
 bufsize
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
+;
 virtual
 ~
 nsXPCWrappedJS

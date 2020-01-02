@@ -342,6 +342,17 @@ mallocSizeOf
 )
 const
 ;
+size_t
+SizeOfWrappedJS
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
+;
 private
 :
 JSObject2WrappedJSMap
