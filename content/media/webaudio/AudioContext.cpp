@@ -2420,12 +2420,6 @@ Mute
 )
 ;
 }
-mDecoder
-.
-Shutdown
-(
-)
-;
 mActiveNodes
 .
 Clear
