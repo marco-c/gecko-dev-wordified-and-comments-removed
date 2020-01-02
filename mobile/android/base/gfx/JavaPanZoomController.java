@@ -6308,19 +6308,6 @@ MotionEvent
 motionEvent
 )
 {
-if
-(
-mTarget
-.
-getZoomConstraints
-(
-)
-.
-getAllowDoubleTapZoom
-(
-)
-)
-{
 sendPointToGecko
 (
 "
@@ -6331,7 +6318,6 @@ DoubleTap
 motionEvent
 )
 ;
-}
 return
 true
 ;
