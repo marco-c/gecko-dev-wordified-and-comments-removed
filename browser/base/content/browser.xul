@@ -7276,6 +7276,11 @@ pack
 "
 end
 "
+skipintoolbarset
+=
+"
+true
+"
 >
 <
 toolbarbutton
