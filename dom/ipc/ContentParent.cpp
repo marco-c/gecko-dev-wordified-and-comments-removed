@@ -3838,7 +3838,7 @@ reuse_parent_app
 )
 {
 nsAutoString
-parentAppURL
+parentAppManifestURL
 ;
 aFrameElement
 -
@@ -3850,11 +3850,11 @@ nsGkAtoms
 :
 :
 parentapp
-parentAppURL
+parentAppManifestURL
 )
 ;
 nsAdoptingString
-systemAppURL
+systemAppManifestURL
 =
 Preferences
 :
@@ -3864,7 +3864,7 @@ GetString
 "
 browser
 .
-homescreenURL
+manifestURL
 "
 )
 ;
@@ -3882,7 +3882,7 @@ APPS_SERVICE_CONTRACTID
 if
 (
 !
-parentAppURL
+parentAppManifestURL
 .
 IsEmpty
 (
@@ -3890,11 +3890,11 @@ IsEmpty
 &
 &
 !
-parentAppURL
+parentAppManifestURL
 .
 Equals
 (
-systemAppURL
+systemAppManifestURL
 )
 &
 &
@@ -3918,7 +3918,7 @@ appsService
 >
 GetAppByManifestURL
 (
-parentAppURL
+parentAppManifestURL
 getter_AddRefs
 (
 parentApp
@@ -4008,7 +4008,7 @@ sAppContentParents
 >
 Get
 (
-parentAppURL
+parentAppManifestURL
 )
 ;
 }
