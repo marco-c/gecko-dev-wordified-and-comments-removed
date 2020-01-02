@@ -130,7 +130,7 @@ TextEncoder
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -144,11 +144,6 @@ FallbackEncoding
 .
 cpp
 '
-]
-UNIFIED_SOURCES
-+
-=
-[
 '
 TextDecoder
 .
