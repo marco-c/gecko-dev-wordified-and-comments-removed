@@ -15218,6 +15218,11 @@ instanceof
 Ci
 .
 nsIDOMWindow
+&
+&
+aRawObj
+.
+location
 )
 {
 url
@@ -15669,6 +15674,11 @@ instanceof
 Ci
 .
 nsIDOMDocument
+&
+&
+aRawObj
+.
+location
 )
 {
 preview
