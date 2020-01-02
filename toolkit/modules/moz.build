@@ -159,11 +159,6 @@ AsyncShutdown
 jsm
 '
 '
-BinarySearch
-.
-jsm
-'
-'
 BrowserUtils
 .
 jsm
