@@ -211,12 +211,4 @@ xpconnect
 /
 src
 '
-'
-/
-js
-/
-xpconnect
-/
-wrappers
-'
 ]

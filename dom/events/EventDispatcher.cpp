@@ -188,17 +188,6 @@ include
 "
 mozilla
 /
-ipc
-/
-MessageChannel
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MiscEvents
 .
 h

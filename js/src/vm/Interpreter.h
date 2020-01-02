@@ -458,10 +458,8 @@ GeneratorState
 this
 ;
 }
-JS
-:
-:
-HandleScript
+JSScript
+*
 script
 (
 )
