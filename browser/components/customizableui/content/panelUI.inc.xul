@@ -244,6 +244,10 @@ toggle
 /
 >
 <
+toolbarseparator
+/
+>
+<
 toolbarbutton
 id
 =
@@ -288,6 +292,10 @@ parentNode
 )
 ;
 "
+/
+>
+<
+toolbarseparator
 /
 >
 <
