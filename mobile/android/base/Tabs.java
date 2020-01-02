@@ -2412,7 +2412,6 @@ Tabs
 TabEvents
 .
 START
-showProgress
 )
 ;
 }
