@@ -26633,7 +26633,7 @@ unaryExpr
 ;
 }
 class
-CompExprTransplanter
+LegacyCompExprTransplanter
 {
 ParseNode
 *
@@ -26668,7 +26668,7 @@ visitedImplicitArguments
 ;
 public
 :
-CompExprTransplanter
+LegacyCompExprTransplanter
 (
 ParseNode
 *
@@ -26950,7 +26950,7 @@ true
 ;
 }
 bool
-CompExprTransplanter
+LegacyCompExprTransplanter
 :
 :
 transplant
@@ -27802,7 +27802,7 @@ ParseHandler
 >
 static
 unsigned
-ComprehensionHeadBlockScopeDepth
+LegacyComprehensionHeadBlockScopeDepth
 (
 ParseContext
 <
@@ -27843,7 +27843,7 @@ FullParseHandler
 >
 :
 :
-comprehensionTail
+legacyComprehensionTail
 (
 ParseNode
 *
@@ -28075,7 +28075,7 @@ pn
 >
 pn_expr
 ;
-CompExprTransplanter
+LegacyCompExprTransplanter
 transplanter
 (
 bodyStmt
@@ -28904,7 +28904,7 @@ FullParseHandler
 >
 :
 :
-arrayComprehension
+legacyArrayComprehension
 (
 ParseNode
 *
@@ -29000,7 +29000,7 @@ ParseNode
 *
 comp
 =
-comprehensionTail
+legacyComprehensionTail
 (
 arrayPush
 array
@@ -29009,7 +29009,7 @@ array
 pn_blockid
 NotGenerator
 nullptr
-ComprehensionHeadBlockScopeDepth
+LegacyComprehensionHeadBlockScopeDepth
 (
 pc
 )
@@ -29078,7 +29078,7 @@ SyntaxParseHandler
 >
 :
 :
-arrayComprehension
+legacyArrayComprehension
 (
 Node
 array
@@ -29108,7 +29108,7 @@ FullParseHandler
 >
 :
 :
-generatorExpr
+legacyGeneratorExpr
 (
 ParseNode
 *
@@ -29418,7 +29418,7 @@ ParseNode
 *
 body
 =
-comprehensionTail
+legacyComprehensionTail
 (
 yieldStmt
 outerpc
@@ -29429,7 +29429,7 @@ blockid
 )
 LegacyGenerator
 outerpc
-ComprehensionHeadBlockScopeDepth
+LegacyComprehensionHeadBlockScopeDepth
 (
 outerpc
 )
@@ -29575,7 +29575,7 @@ SyntaxParseHandler
 >
 :
 :
-generatorExpr
+legacyGeneratorExpr
 (
 Node
 kid
@@ -29912,7 +29912,7 @@ false
 }
 argNode
 =
-generatorExpr
+legacyGeneratorExpr
 (
 argNode
 )
@@ -31374,7 +31374,7 @@ TOK_FOR
 missingTrailingComma
 )
 return
-arrayComprehension
+legacyArrayComprehension
 (
 literal
 )
@@ -33212,7 +33212,7 @@ null
 }
 pn
 =
-generatorExpr
+legacyGeneratorExpr
 (
 pn
 )
