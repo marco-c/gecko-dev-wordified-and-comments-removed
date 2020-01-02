@@ -7012,10 +7012,14 @@ GlobalObject
 (
 )
 .
-markStandardClassInitializedNoProto
+setConstructor
 (
-&
-MathClass
+JSProto_Math
+ObjectValue
+(
+*
+Math
+)
 )
 ;
 return

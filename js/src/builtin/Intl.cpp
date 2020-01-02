@@ -9991,10 +9991,14 @@ nullptr
 global
 -
 >
-markStandardClassInitializedNoProto
+setConstructor
 (
-&
-IntlClass
+JSProto_Intl
+ObjectValue
+(
+*
+Intl
+)
 )
 ;
 return

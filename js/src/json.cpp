@@ -4301,10 +4301,14 @@ nullptr
 global
 -
 >
-markStandardClassInitializedNoProto
+setConstructor
 (
-&
-JSONClass
+JSProto_JSON
+ObjectValue
+(
+*
+JSON
+)
 )
 ;
 return
