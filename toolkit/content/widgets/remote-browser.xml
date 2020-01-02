@@ -1742,6 +1742,9 @@ initPopup
 this
 .
 autoCompletePopup
+!
+=
+null
 ;
 return
 result
