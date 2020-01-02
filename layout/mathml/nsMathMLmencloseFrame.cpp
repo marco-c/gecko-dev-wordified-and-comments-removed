@@ -682,12 +682,12 @@ value
 ;
 if
 (
-GetAttribute
-(
 mContent
-mPresentationData
-.
-mstyle
+-
+>
+GetAttr
+(
+kNameSpaceID_None
 nsGkAtoms
 :
 :

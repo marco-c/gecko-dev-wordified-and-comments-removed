@@ -2434,10 +2434,12 @@ tableAlign
 =
 eAlign_axis
 ;
-GetAttribute
-(
 mContent
-nullptr
+-
+>
+GetAttr
+(
+kNameSpaceID_None
 nsGkAtoms
 :
 :
