@@ -3559,7 +3559,7 @@ thingKind
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 hasAvailableArenas
@@ -6134,7 +6134,7 @@ setAsFullyUsed
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 zone
 -
@@ -6290,7 +6290,7 @@ nullptr
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 zone
 -
@@ -7523,7 +7523,7 @@ for
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 runGC
 )

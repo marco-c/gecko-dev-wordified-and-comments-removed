@@ -643,7 +643,7 @@ nullptr
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 newBump
 <

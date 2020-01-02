@@ -543,7 +543,7 @@ length
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 length
 >

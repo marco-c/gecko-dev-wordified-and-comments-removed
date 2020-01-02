@@ -1717,7 +1717,7 @@ getRawChar
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 maybeEOL
 [
@@ -4671,7 +4671,7 @@ retry
 :
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 userbuf
@@ -4724,7 +4724,7 @@ EOF
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 c
 >

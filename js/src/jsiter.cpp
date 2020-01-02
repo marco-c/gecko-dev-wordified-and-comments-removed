@@ -477,7 +477,7 @@ props
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 pobj
@@ -556,7 +556,7 @@ id
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 !

@@ -1254,7 +1254,7 @@ op
 JSOP_CALLPROP
 &
 &
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 vp
 .
@@ -2210,7 +2210,7 @@ getClass
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 clasp
 !
@@ -2228,7 +2228,7 @@ if
 JS_HAS_NO_SUCH_METHOD
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 clasp
 =
@@ -5156,7 +5156,7 @@ isExceptionPending
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -7704,7 +7704,7 @@ blockDepth
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 REGS
 .
@@ -7846,7 +7846,7 @@ entryFrame
 }
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -9306,7 +9306,7 @@ SCRIPT_STOP
 endif
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -14199,7 +14199,7 @@ error
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -17869,7 +17869,7 @@ pc
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -18346,7 +18346,7 @@ exit
 :
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 cx
 -
@@ -18639,7 +18639,7 @@ if
 JS_HAS_NO_SUCH_METHOD
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 vp
 .

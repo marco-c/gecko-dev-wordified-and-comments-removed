@@ -10957,7 +10957,7 @@ cx
 ;
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 arrType

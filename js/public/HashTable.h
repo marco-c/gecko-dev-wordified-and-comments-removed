@@ -5289,7 +5289,7 @@ true
 {
 if
 (
-JS_UNLIKELY
+MOZ_UNLIKELY
 (
 entry
 -
