@@ -185,11 +185,6 @@ WebappManager
 .
 jsm
 '
-'
-webrtcUI
-.
-jsm
-'
 ]
 if
 CONFIG
@@ -258,6 +253,11 @@ jsm
 '
 '
 UITour
+.
+jsm
+'
+'
+webrtcUI
 .
 jsm
 '
