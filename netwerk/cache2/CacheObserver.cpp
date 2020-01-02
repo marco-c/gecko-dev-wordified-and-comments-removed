@@ -113,7 +113,7 @@ uint32_t
 const
 kDefaultUseNewCache
 =
-0
+1
 ;
 uint32_t
 CacheObserver
