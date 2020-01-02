@@ -6,6 +6,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+JNITarget
+;
+import
 android
 .
 content
@@ -1344,6 +1355,7 @@ return
 1
 ;
 }
+JNITarget
 public
 static
 int
@@ -1360,6 +1372,7 @@ MCC
 )
 ;
 }
+JNITarget
 public
 static
 int
