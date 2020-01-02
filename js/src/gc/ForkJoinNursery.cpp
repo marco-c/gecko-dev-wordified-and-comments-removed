@@ -76,6 +76,17 @@ h
 #
 include
 "
+vm
+/
+ObjectImpl
+-
+inl
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h
