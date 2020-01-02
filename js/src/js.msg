@@ -6666,7 +6666,7 @@ MSG_DEF
 (
 JSMSG_SETPROTOTYPEOF_FAIL
 382
-0
+1
 JSEXN_TYPEERR
 "
 [
@@ -6675,6 +6675,10 @@ SetPrototypeOf
 ]
 ]
 failed
+on
+{
+0
+}
 "
 )
 MSG_DEF

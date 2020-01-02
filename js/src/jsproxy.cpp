@@ -2027,6 +2027,10 @@ cx
 js_GetErrorMessage
 nullptr
 JSMSG_SETPROTOTYPEOF_FAIL
+"
+incompatible
+Proxy
+"
 )
 ;
 return
