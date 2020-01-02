@@ -117,6 +117,11 @@ WMFReader
 .
 h
 '
+'
+WMFUtils
+.
+h
+'
 ]
 SOURCES
 +
