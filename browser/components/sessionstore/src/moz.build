@@ -184,6 +184,16 @@ SessionWorker
 js
 '
 '
+TabAttributes
+.
+jsm
+'
+'
+TabState
+.
+jsm
+'
+'
 TabStateCache
 .
 jsm
