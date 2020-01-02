@@ -89,6 +89,7 @@ FMRadio
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIAUDIOCHANNELAGENTCALLBACK
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
 nsDOMEventTargetHelper
@@ -273,13 +274,6 @@ antennaavailablechange
 IMPL_EVENT_HANDLER
 (
 frequencychange
-)
-;
-NS_IMETHOD
-CanPlayChanged
-(
-int32_t
-aCanPlay
 )
 ;
 NS_IMETHOD
