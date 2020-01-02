@@ -248,6 +248,11 @@ ClipboardEvent
 h
 '
 '
+CommandEvent
+.
+h
+'
+'
 EventTarget
 .
 h
@@ -310,6 +315,11 @@ ClipboardEvent
 cpp
 '
 '
+CommandEvent
+.
+cpp
+'
+'
 EventTarget
 .
 cpp
@@ -321,11 +331,6 @@ cpp
 '
 '
 nsContentEventHandler
-.
-cpp
-'
-'
-nsDOMCommandEvent
 .
 cpp
 '
