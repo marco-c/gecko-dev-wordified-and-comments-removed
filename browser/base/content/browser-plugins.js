@@ -2388,7 +2388,7 @@ function
 aEvent
 )
 {
-openURL
+openUILinkIn
 (
 Services
 .
@@ -2404,6 +2404,9 @@ update
 url
 "
 )
+"
+tab
+"
 )
 ;
 }
