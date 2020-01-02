@@ -911,6 +911,7 @@ PROFILER_LABEL
 (
 name_space
 info
+category
 )
 MOZ_PLATFORM_TRACING
 (
@@ -936,6 +937,7 @@ name_space
 :
 "
 info
+category
 __LINE__
 )
 #
@@ -944,6 +946,7 @@ PROFILER_LABEL_PRINTF
 (
 name_space
 info
+category
 .
 .
 .
@@ -972,6 +975,7 @@ name_space
 :
 "
 info
+category
 __LINE__
 __VA_ARGS__
 )
@@ -1031,6 +1035,7 @@ PROFILER_MAIN_THREAD_LABEL
 (
 name_space
 info
+category
 )
 MOZ_ASSERT
 (
@@ -1065,6 +1070,7 @@ name_space
 :
 "
 info
+category
 __LINE__
 )
 #
@@ -1073,6 +1079,7 @@ PROFILER_MAIN_THREAD_LABEL_PRINTF
 (
 name_space
 info
+category
 .
 .
 .
@@ -1110,6 +1117,7 @@ name_space
 :
 "
 info
+category
 __LINE__
 __VA_ARGS__
 )
@@ -1202,6 +1210,14 @@ const
 char
 *
 aInfo
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+aCategory
 uint32_t
 line
 )
@@ -1211,6 +1227,7 @@ mHandle
 mozilla_sampler_call_enter
 (
 aInfo
+aCategory
 this
 false
 line
@@ -1254,7 +1271,15 @@ SamplerStackFramePrintfRAII
 const
 char
 *
-aDefault
+aInfo
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+aCategory
 uint32_t
 line
 const
@@ -1315,7 +1340,7 @@ s
 %
 s
 "
-aDefault
+aInfo
 buff
 )
 ;
@@ -1343,7 +1368,7 @@ s
 %
 s
 "
-aDefault
+aInfo
 buff
 )
 ;
@@ -1354,6 +1379,7 @@ mHandle
 mozilla_sampler_call_enter
 (
 mDest
+aCategory
 this
 true
 line
@@ -1371,7 +1397,8 @@ mHandle
 =
 mozilla_sampler_call_enter
 (
-aDefault
+aInfo
+aCategory
 this
 false
 line
@@ -1438,6 +1465,14 @@ const
 char
 *
 aInfo
+js
+:
+:
+ProfileEntry
+:
+:
+Category
+aCategory
 void
 *
 aFrameAddress
@@ -1481,6 +1516,7 @@ stack
 push
 (
 aInfo
+aCategory
 aFrameAddress
 aCopy
 line
