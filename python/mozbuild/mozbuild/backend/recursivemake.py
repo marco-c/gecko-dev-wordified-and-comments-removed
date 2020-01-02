@@ -4239,10 +4239,8 @@ managed_count
 =
 1
         
-ipdls
+ipdl_dir
 =
-FileAvoidWrite
-(
 os
 .
 path
@@ -4254,13 +4252,25 @@ self
 environment
 .
 topobjdir
-            
 '
 ipc
 '
 '
 ipdl
 '
+)
+        
+ipdls
+=
+FileAvoidWrite
+(
+os
+.
+path
+.
+join
+(
+ipdl_dir
 '
 ipdlsrcs
 .
@@ -4395,6 +4405,8 @@ files
         
 ipdl_cppsrcs
 =
+list
+(
 itertools
 .
 chain
@@ -4411,28 +4423,27 @@ in
 sorted_ipdl_sources
 ]
 )
+)
         
-mk
+self
 .
-add_statement
+_add_unified_build_rules
 (
+mk
+ipdl_cppsrcs
+ipdl_dir
+                                      
+unified_prefix
+=
+'
+UnifiedProtocols
+'
+                                      
+unified_files_makefile_variable
+=
 '
 CPPSRCS
-:
-=
-%
-s
-\
-n
 '
-%
-'
-'
-.
-join
-(
-ipdl_cppsrcs
-)
 )
         
 mk
@@ -4483,6 +4494,9 @@ mk
 dump
 (
 ipdls
+removal_guard
+=
+False
 )
         
 self
