@@ -321,10 +321,6 @@ RegisterForSleepWakeNotifcations
 (
 )
 ;
-RegisterForAllProcessMouseEvents
-(
-)
-;
 }
 nsToolkit
 :
