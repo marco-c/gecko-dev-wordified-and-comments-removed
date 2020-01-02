@@ -86,6 +86,11 @@ uint32_t
 *
 )
 ;
+void
+ReleaseData
+(
+)
+;
 nsCOMPtr
 <
 nsIStreamLoaderObserver
