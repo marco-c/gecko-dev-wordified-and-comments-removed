@@ -314,6 +314,7 @@ subconfigure
 .
 py
 adjust
+ac_sub_configure
 )
 ]
 )
