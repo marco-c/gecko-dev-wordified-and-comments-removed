@@ -3728,6 +3728,9 @@ vp
 )
 {
 JSONParser
+<
+jschar
+>
 parser
 (
 cx

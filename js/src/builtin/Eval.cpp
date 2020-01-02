@@ -793,6 +793,9 @@ chars
 )
 ;
 JSONParser
+<
+jschar
+>
 parser
 (
 cx
