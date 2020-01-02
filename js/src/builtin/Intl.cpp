@@ -402,7 +402,6 @@ static
 int32_t
 ucol_countAvailable
 (
-void
 )
 {
 MOZ_CRASH
@@ -632,7 +631,6 @@ static
 int32_t
 unum_countAvailable
 (
-void
 )
 {
 MOZ_CRASH
@@ -1216,7 +1214,6 @@ static
 int32_t
 udat_countAvailable
 (
-void
 )
 {
 MOZ_CRASH
@@ -1612,7 +1609,6 @@ int32_t
 CountAvailable
 )
 (
-void
 )
 ;
 typedef
