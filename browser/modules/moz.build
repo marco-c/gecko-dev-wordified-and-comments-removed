@@ -126,6 +126,11 @@ ContentLinkHandler
 jsm
 '
 '
+ContentSearch
+.
+jsm
+'
+'
 CustomizationTabPreloader
 .
 jsm
