@@ -111,7 +111,7 @@ out
 messages
 with
 action
-:
+of
 log
 and
 a
