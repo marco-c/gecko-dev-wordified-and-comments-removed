@@ -274,13 +274,6 @@ nsXBLMaybeCompiled
 UncompiledT
 >
 >
-:
-public
-GCMethods
-<
-JSObject
-*
->
 {
 typedef
 struct
