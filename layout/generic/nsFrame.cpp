@@ -38897,7 +38897,6 @@ Release
 )
 ;
 }
-+
 void
 nsIFrame
 :
