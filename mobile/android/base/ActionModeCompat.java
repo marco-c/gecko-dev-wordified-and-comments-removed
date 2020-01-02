@@ -17,6 +17,17 @@ widget
 GeckoPopupMenu
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+menu
+.
+GeckoMenuItem
+;
+import
 android
 .
 view
@@ -350,6 +361,9 @@ item
 {
 showTooltip
 (
+(
+GeckoMenuItem
+)
 item
 )
 ;
@@ -377,7 +391,7 @@ private
 void
 showTooltip
 (
-MenuItem
+GeckoMenuItem
 item
 )
 {
