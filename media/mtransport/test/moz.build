@@ -123,6 +123,11 @@ CPP_UNIT_TESTS
 =
 [
 '
+buffered_stun_socket_unittest
+.
+cpp
+'
+'
 ice_unittest
 .
 cpp

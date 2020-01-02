@@ -204,11 +204,15 @@ nr_socket_vtbl
 nr_socket_turn_vtbl
 =
 {
+1
 nr_socket_turn_destroy
 nr_socket_turn_sendto
 nr_socket_turn_recvfrom
 nr_socket_turn_getfd
 nr_socket_turn_getaddr
+0
+0
+0
 nr_socket_turn_close
 }
 ;
