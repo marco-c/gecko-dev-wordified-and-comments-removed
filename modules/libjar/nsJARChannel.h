@@ -224,6 +224,14 @@ uint64_t
 aProgress
 )
 ;
+nsresult
+SetRemoteNSPRFileDesc
+(
+PRFileDesc
+*
+fd
+)
+;
 #
 if
 defined
