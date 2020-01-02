@@ -1057,6 +1057,12 @@ enable_lazy_trace_alloc
 '
 :
 0
+'
+include_ndk_cpu_features
+%
+'
+:
+0
 }
 {
 #
@@ -1152,6 +1158,12 @@ include_internal_video_render
 '
 :
 1
+'
+include_ndk_cpu_features
+%
+'
+:
+0
 }
 ]
 [
