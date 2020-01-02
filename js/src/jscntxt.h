@@ -2203,6 +2203,7 @@ propagatingForcedReturn_
 false
 ;
 }
+inline
 bool
 runningWithTrustedPrincipals
 (
