@@ -164,3 +164,11 @@ True
 DISABLE_STL_WRAPPING
 =
 True
+TEST_TOOL_DIRS
++
+=
+[
+'
+tests
+'
+]
