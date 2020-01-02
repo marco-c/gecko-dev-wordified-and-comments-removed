@@ -12768,8 +12768,6 @@ GlobalProperties
 {
 GlobalProperties
 (
-bool
-aPromise
 )
 {
 mozilla
@@ -13091,10 +13089,6 @@ false
 discardSource
 (
 false
-)
-globalProperties
-(
-true
 )
 metadata
 (
