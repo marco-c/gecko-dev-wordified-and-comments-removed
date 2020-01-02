@@ -188,7 +188,7 @@ uint32_t
 mOldColor
 ;
 int32_t
-mCurrentFrame
+mCurrentFrameIndex
 ;
 uint8_t
 mCurrentPass
