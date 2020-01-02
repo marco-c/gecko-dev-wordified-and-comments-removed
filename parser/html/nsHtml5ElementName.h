@@ -1658,6 +1658,11 @@ ELT_PATTERN
 static
 nsHtml5ElementName
 *
+ELT_PICTURE
+;
+static
+nsHtml5ElementName
+*
 ELT_PRODUCT
 ;
 static

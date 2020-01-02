@@ -6751,6 +6751,13 @@ polygon
 )
 HTML5_ATOM
 (
+picture
+"
+picture
+"
+)
+HTML5_ATOM
+(
 product
 "
 product
