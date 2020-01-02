@@ -4016,6 +4016,12 @@ aGroupTarget
 GetDrawTarget
 (
 )
+aGroupTarget
+-
+>
+GetDeviceOffset
+(
+)
 aPaintContext
 .
 mLayer

@@ -223,6 +223,13 @@ Paint
 DrawTarget
 *
 aDT
+const
+gfx
+:
+:
+Point
+&
+aDeviceOffset
 Layer
 *
 aMaskLayer
@@ -288,6 +295,13 @@ Paint
 DrawTarget
 *
 aDT
+const
+gfx
+:
+:
+Point
+&
+aDeviceOffset
 Layer
 *
 aMaskLayer
@@ -393,6 +407,7 @@ return
 FillRectWithMask
 (
 aDT
+aDeviceOffset
 Rect
 (
 0

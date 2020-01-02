@@ -92,6 +92,10 @@ Paint
 DrawTarget
 *
 aDT
+const
+Point
+&
+aDeviceOffset
 Layer
 *
 aMaskLayer
@@ -185,6 +189,7 @@ newTransform
 FillRectWithMask
 (
 aDT
+aDeviceOffset
 Rect
 (
 0

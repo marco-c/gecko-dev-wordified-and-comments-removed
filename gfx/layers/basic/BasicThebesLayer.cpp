@@ -695,6 +695,9 @@ if
 GetMaskData
 (
 aMaskLayer
+Point
+(
+)
 &
 mask
 )
