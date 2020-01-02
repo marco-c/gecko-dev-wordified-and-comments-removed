@@ -305,6 +305,16 @@ attribute
 long
 itemType
 ;
+[
+noscript
+notxpcom
+nostdcall
+]
+long
+ItemType
+(
+)
+;
 /
 *
 Parent
