@@ -6899,7 +6899,7 @@ mChannelState
 =
 ChannelError
 ;
-PostErrorNotifyTask
+NotifyMaybeChannelError
 (
 )
 ;
