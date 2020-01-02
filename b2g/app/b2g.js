@@ -5906,13 +5906,3 @@ enable
 true
 )
 ;
-pref
-(
-"
-browser
-.
-autofocus
-"
-false
-)
-;
