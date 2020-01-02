@@ -3751,11 +3751,10 @@ http
 :
 /
 /
-codespeak
-.
-net
-/
 pypy
+.
+org
+/
 "
 )
     

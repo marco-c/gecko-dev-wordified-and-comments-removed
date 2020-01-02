@@ -19,12 +19,7 @@ include
 virtualenv_support
 *
 .
-egg
-*
-.
-tar
-.
-gz
+whl
 recursive
 -
 include
