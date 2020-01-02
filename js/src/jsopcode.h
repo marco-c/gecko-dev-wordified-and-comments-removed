@@ -1923,6 +1923,9 @@ pc
 uint32_t
 *
 depth
+bool
+*
+reachablePC
 )
 ;
 #
