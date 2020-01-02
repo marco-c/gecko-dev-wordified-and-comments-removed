@@ -6849,6 +6849,12 @@ if
 (
 !
 listener
+|
+|
+!
+handler
+.
+type
 )
 {
 continue
