@@ -24,6 +24,8 @@ MathMLTextRunFactory
 nsTransformingTextRunFactory
 *
 aInnerTransformingTextRunFactory
+uint32_t
+aFlags
 uint8_t
 aSSTYScriptLevel
 )
@@ -31,6 +33,10 @@ aSSTYScriptLevel
 mInnerTransformingTextRunFactory
 (
 aInnerTransformingTextRunFactory
+)
+mFlags
+(
+aFlags
 )
 mSSTYScriptLevel
 (
@@ -51,6 +57,16 @@ aRefContext
 )
 MOZ_OVERRIDE
 ;
+enum
+{
+MATH_FONT_STYLING_NORMAL
+=
+0x1
+MATH_FONT_WEIGHT_BOLD
+=
+0x2
+}
+;
 protected
 :
 nsAutoPtr
@@ -58,6 +74,9 @@ nsAutoPtr
 nsTransformingTextRunFactory
 >
 mInnerTransformingTextRunFactory
+;
+uint32_t
+mFlags
 ;
 uint8_t
 mSSTYScriptLevel
