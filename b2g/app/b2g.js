@@ -5854,7 +5854,7 @@ apz
 .
 pan_repaint_interval
 "
-40
+16
 )
 ;
 pref
