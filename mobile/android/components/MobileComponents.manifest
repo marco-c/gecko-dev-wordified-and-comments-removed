@@ -1430,11 +1430,13 @@ a3d6
 dffe2f1e76dd
 }
 category
-profile
+browser
 -
-after
+delayed
 -
-change
+startup
+-
+finished
 Snippets
 mozilla
 .
