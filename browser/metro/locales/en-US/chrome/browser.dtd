@@ -605,6 +605,16 @@ Column
 >
 <
 !
+ENTITY
+consoleFollowCheckbox
+.
+label
+"
+Follow
+"
+>
+<
+!
 -
 -
 TEXT
