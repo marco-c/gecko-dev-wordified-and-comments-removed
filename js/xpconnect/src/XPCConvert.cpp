@@ -4602,14 +4602,6 @@ GetFlatJSObject
 (
 )
 ;
-jsval
-v
-=
-OBJECT_TO_JSVAL
-(
-flat
-)
-;
 if
 (
 !
@@ -4618,9 +4610,9 @@ allowNativeWrapper
 {
 d
 .
-set
+setObjectOrNull
 (
-v
+flat
 )
 ;
 if
