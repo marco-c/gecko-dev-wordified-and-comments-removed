@@ -1959,7 +1959,7 @@ return
 threadData
 -
 >
-runtimeFromMainThread
+runtimeIfOnOwnerThread
 (
 )
 ;
