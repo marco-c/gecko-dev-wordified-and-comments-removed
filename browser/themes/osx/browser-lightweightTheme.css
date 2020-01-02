@@ -1,11 +1,8 @@
 %
 include
-windowsShared
+shared
 .
 inc
-%
-filter
-substitution
 #
 tabbrowser
 -

@@ -85,3 +85,7 @@ rgba
 4px
 toolbarHighlight
 )
+%
+define
+fgTabTextureLWT
+fgTabTexture
