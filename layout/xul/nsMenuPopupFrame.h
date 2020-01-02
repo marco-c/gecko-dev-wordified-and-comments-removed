@@ -890,6 +890,8 @@ const
 nsRect
 &
 aRootScreenRect
+nsPopupLevel
+aPopupLevel
 )
 ;
 void
