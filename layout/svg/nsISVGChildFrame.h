@@ -135,7 +135,7 @@ nsIFrame
 GetFrameForPoint
 (
 const
-nsPoint
+gfxPoint
 &
 aPoint
 )
