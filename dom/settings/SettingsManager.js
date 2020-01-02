@@ -241,9 +241,9 @@ obj
 )
 {
 return
-ObjectWrapper
+Cu
 .
-wrap
+cloneInto
 (
 obj
 this
@@ -1838,9 +1838,9 @@ obj
 )
 {
 return
-ObjectWrapper
+Cu
 .
-wrap
+cloneInto
 (
 obj
 this
