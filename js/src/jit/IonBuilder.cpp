@@ -1433,6 +1433,14 @@ script
 hasBaselineScript
 (
 )
+&
+&
+script
+-
+>
+canBaselineCompile
+(
+)
 )
 {
 MethodStatus
