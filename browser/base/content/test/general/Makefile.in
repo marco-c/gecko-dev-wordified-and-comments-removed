@@ -296,6 +296,10 @@ pluginCrashCommentAndURL
 .
 html
 \
+browser_CTP_crashreporting
+.
+js
+\
 (
 NULL
 )
