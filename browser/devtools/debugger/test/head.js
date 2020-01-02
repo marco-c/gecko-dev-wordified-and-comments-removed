@@ -3448,9 +3448,7 @@ aUrl
 then
 (
 (
-{
-actor
-}
+addonActor
 )
 =
 >
@@ -3464,7 +3462,14 @@ form
 {
 addonActor
 :
+addonActor
+.
 actor
+title
+:
+addonActor
+.
+name
 }
 client
 :

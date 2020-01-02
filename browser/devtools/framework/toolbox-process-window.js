@@ -309,6 +309,11 @@ addonActor
 addonActor
 .
 actor
+title
+:
+addonActor
+.
+name
 }
 )
 ;
