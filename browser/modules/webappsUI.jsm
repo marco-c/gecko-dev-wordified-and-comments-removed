@@ -725,7 +725,6 @@ confirmInstall
 (
 aData
 localDir
-null
 (
 aManifest
 )
