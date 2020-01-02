@@ -477,6 +477,15 @@ forget
 )
 ;
 }
+MediaSource
+:
+:
+~
+MediaSource
+(
+)
+{
+}
 SourceBufferList
 *
 MediaSource
