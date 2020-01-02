@@ -4,6 +4,15 @@ nsGridCell_h___
 #
 define
 nsGridCell_h___
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsBoxLayoutState
 ;
@@ -15,6 +24,7 @@ nsIFrame
 ;
 class
 nsGridCell
+MOZ_FINAL
 {
 public
 :
@@ -22,7 +32,6 @@ nsGridCell
 (
 )
 ;
-virtual
 ~
 nsGridCell
 (
