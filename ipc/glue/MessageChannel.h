@@ -195,6 +195,7 @@ ipc
 Transport
 Transport
 ;
+explicit
 MessageChannel
 (
 MessageListener
@@ -1188,6 +1189,7 @@ RefCountedTask
 {
 public
 :
+explicit
 RefCountedTask
 (
 CancelableTask
@@ -1260,6 +1262,7 @@ Task
 {
 public
 :
+explicit
 DequeueTask
 (
 RefCountedTask
@@ -1358,6 +1361,7 @@ AutoEnterPendingReply
 {
 public
 :
+explicit
 AutoEnterPendingReply
 (
 size_t
@@ -1410,6 +1414,7 @@ AutoEnterRPCTransaction
 {
 public
 :
+explicit
 AutoEnterRPCTransaction
 (
 MessageChannel

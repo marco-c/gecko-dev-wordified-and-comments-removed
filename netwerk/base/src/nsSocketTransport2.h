@@ -146,6 +146,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
+explicit
 nsSocketInputStream
 (
 nsSocketTransport
@@ -234,6 +235,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIOUTPUTSTREAM
 NS_DECL_NSIASYNCOUTPUTSTREAM
+explicit
 nsSocketOutputStream
 (
 nsSocketTransport
@@ -545,6 +547,7 @@ mozilla
 MutexAutoLock
 MutexAutoLock
 ;
+explicit
 PRFileDescAutoLock
 (
 nsSocketTransport
@@ -717,6 +720,7 @@ LockedPRFileDesc
 {
 public
 :
+explicit
 LockedPRFileDesc
 (
 nsSocketTransport

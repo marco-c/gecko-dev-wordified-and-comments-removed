@@ -78,6 +78,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICANCELABLE
+explicit
 TokenBucketCancelable
 (
 class

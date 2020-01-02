@@ -586,6 +586,7 @@ NetAddrElement
 {
 public
 :
+explicit
 NetAddrElement
 (
 const

@@ -51,6 +51,7 @@ nsIURI
 *
 KeyTypePointer
 ;
+explicit
 nsURIHashKey
 (
 const

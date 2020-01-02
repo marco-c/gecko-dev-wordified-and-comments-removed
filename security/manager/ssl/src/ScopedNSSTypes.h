@@ -820,6 +820,7 @@ SECItem
 {
 public
 :
+explicit
 ScopedAutoSECItem
 (
 uint32_t

@@ -543,6 +543,7 @@ nsConnectionEntry
 {
 public
 :
+explicit
 nsConnectionEntry
 (
 nsHttpConnectionInfo
@@ -778,6 +779,7 @@ NS_DECL_NSAHTTPCONNECTION
 (
 mConn
 )
+explicit
 nsConnectionHandle
 (
 nsHttpConnection

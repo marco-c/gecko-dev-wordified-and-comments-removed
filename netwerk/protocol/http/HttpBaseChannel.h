@@ -1653,6 +1653,7 @@ HttpAsyncAborter
 {
 public
 :
+explicit
 HttpAsyncAborter
 (
 T

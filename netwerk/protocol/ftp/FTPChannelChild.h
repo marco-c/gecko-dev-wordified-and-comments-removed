@@ -147,6 +147,7 @@ Resume
 (
 )
 ;
+explicit
 FTPChannelChild
 (
 nsIURI

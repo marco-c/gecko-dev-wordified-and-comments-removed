@@ -6766,6 +6766,7 @@ nsRunnable
 {
 public
 :
+explicit
 ThunkPRClose
 (
 PRFileDesc
