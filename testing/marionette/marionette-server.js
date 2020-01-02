@@ -5895,10 +5895,10 @@ command_id
 )
 ;
 }
-getCurrentWindowHandle
+getWindowHandle
 :
 function
-MDA_getCurrentWindowHandle
+MDA_getWindowHandle
 (
 )
 {
@@ -12214,6 +12214,15 @@ prototype
 .
 refresh
 "
+getWindowHandle
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+getWindowHandle
+"
 getCurrentWindowHandle
 "
 :
@@ -12221,7 +12230,7 @@ MarionetteServerConnection
 .
 prototype
 .
-getCurrentWindowHandle
+getWindowHandle
 "
 getWindow
 "
@@ -12230,7 +12239,7 @@ MarionetteServerConnection
 .
 prototype
 .
-getCurrentWindowHandle
+getWindowHandle
 "
 getCurrentWindowHandles
 "
