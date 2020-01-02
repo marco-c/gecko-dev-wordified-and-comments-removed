@@ -3596,9 +3596,6 @@ discardUses
 (
 )
 ;
-#
-ifdef
-DEBUG
 MResumePointIterator
 iter
 =
@@ -3637,8 +3634,6 @@ removeAt
 iter
 )
 ;
-#
-endif
 }
 void
 MBasicBlock
