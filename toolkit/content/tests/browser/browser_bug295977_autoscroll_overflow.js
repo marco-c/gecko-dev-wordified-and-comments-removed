@@ -1964,7 +1964,7 @@ if
 (
 timeCompensation
 <
-1
+5
 )
 {
 window
