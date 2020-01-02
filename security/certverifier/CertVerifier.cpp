@@ -768,6 +768,8 @@ KeyUsages
 ku3
 SECOidTag
 eku
+SECOidTag
+requiredPolicy
 const
 SECItem
 *
@@ -798,6 +800,7 @@ time
 MustBeEndEntity
 ku1
 eku
+requiredPolicy
 stapledOCSPResponse
 builtChain
 )
@@ -831,6 +834,7 @@ time
 MustBeEndEntity
 ku2
 eku
+requiredPolicy
 stapledOCSPResponse
 builtChain
 )
@@ -864,6 +868,7 @@ time
 MustBeEndEntity
 ku3
 eku
+requiredPolicy
 stapledOCSPResponse
 builtChain
 )
@@ -980,6 +985,7 @@ time
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_CLIENT_AUTH
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1011,6 +1017,7 @@ KU_DIGITAL_SIGNATURE
 KU_KEY_ENCIPHERMENT
 KU_KEY_AGREEMENT
 SEC_OID_EXT_KEY_USAGE_SERVER_AUTH
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1041,6 +1048,7 @@ time
 MustBeCA
 KU_KEY_CERT_SIGN
 SEC_OID_EXT_KEY_USAGE_SERVER_AUTH
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1071,6 +1079,7 @@ time
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_EMAIL_PROTECT
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1102,6 +1111,7 @@ KU_KEY_ENCIPHERMENT
 KU_KEY_AGREEMENT
 0
 SEC_OID_EXT_KEY_USAGE_EMAIL_PROTECT
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1132,6 +1142,7 @@ time
 MustBeEndEntity
 KU_DIGITAL_SIGNATURE
 SEC_OID_EXT_KEY_USAGE_CODE_SIGN
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1222,6 +1233,7 @@ time
 endEntityOrCA
 keyUsage
 eku
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1261,6 +1273,7 @@ time
 endEntityOrCA
 keyUsage
 eku
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )
@@ -1295,6 +1308,7 @@ time
 endEntityOrCA
 keyUsage
 eku
+SEC_OID_X509_ANY_POLICY
 stapledOCSPResponse
 builtChain
 )

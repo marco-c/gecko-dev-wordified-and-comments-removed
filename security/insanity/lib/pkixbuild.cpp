@@ -223,6 +223,16 @@ encodedNameConstraints
 break
 ;
 case
+32
+:
+out
+=
+&
+encodedCertificatePolicies
+;
+break
+;
+case
 35
 :
 out
@@ -476,6 +486,8 @@ KeyUsages
 requiredKeyUsagesIfPresent
 SECOidTag
 requiredEKUIfPresent
+SECOidTag
+requiredPolicy
 const
 SECItem
 *
@@ -504,6 +516,8 @@ EndEntityOrCA
 endEntityOrCA
 SECOidTag
 requiredEKUIfPresent
+SECOidTag
+requiredPolicy
 CERTCertificate
 *
 potentialIssuerCertToDup
@@ -709,6 +723,7 @@ time
 MustBeCA
 KU_KEY_CERT_SIGN
 requiredEKUIfPresent
+requiredPolicy
 nullptr
 newSubCACount
 results
@@ -781,6 +796,8 @@ KeyUsages
 requiredKeyUsagesIfPresent
 SECOidTag
 requiredEKUIfPresent
+SECOidTag
+requiredPolicy
 const
 SECItem
 *
@@ -838,6 +855,7 @@ time
 endEntityOrCA
 requiredKeyUsagesIfPresent
 requiredEKUIfPresent
+requiredPolicy
 subCACount
 &
 trustLevel
@@ -1026,6 +1044,7 @@ subject
 time
 endEntityOrCA
 requiredEKUIfPresent
+requiredPolicy
 n
 -
 >
@@ -1234,6 +1253,8 @@ KeyUsages
 requiredKeyUsagesIfPresent
 SECOidTag
 requiredEKUIfPresent
+SECOidTag
+requiredPolicy
 const
 SECItem
 *
@@ -1330,6 +1351,7 @@ time
 endEntityOrCA
 requiredKeyUsagesIfPresent
 requiredEKUIfPresent
+requiredPolicy
 stapledOCSPResponse
 0
 results

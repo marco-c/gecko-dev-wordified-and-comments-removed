@@ -116,6 +116,8 @@ GetCertTrust
 (
 EndEntityOrCA
 endEntityOrCA
+SECOidTag
+policy
 const
 CERTCertificate
 *

@@ -469,6 +469,8 @@ GetCertTrust
 (
 EndEntityOrCA
 endEntityOrCA
+SECOidTag
+policy
 const
 CERTCertificate
 *
@@ -478,6 +480,14 @@ TrustLevel
 trustLevel
 )
 {
+MOZ_ASSERT
+(
+policy
+=
+=
+SEC_OID_X509_ANY_POLICY
+)
+;
 MOZ_ASSERT
 (
 candidateCert
@@ -501,6 +511,12 @@ candidateCert
 |
 !
 trustLevel
+|
+|
+policy
+!
+=
+SEC_OID_X509_ANY_POLICY
 )
 {
 PR_SetError
