@@ -1511,6 +1511,11 @@ aBody
 )
 ;
 }
+bool
+IsDeniedCrossSiteRequest
+(
+)
+;
 public
 :
 void
@@ -1764,6 +1769,14 @@ aRv
 void
 Abort
 (
+)
+;
+void
+GetResponseURL
+(
+nsAString
+&
+aUrl
 )
 ;
 uint32_t

@@ -580,6 +580,11 @@ abort
 /
 /
 response
+readonly
+attribute
+DOMString
+responseURL
+;
 [
 Throws
 =
