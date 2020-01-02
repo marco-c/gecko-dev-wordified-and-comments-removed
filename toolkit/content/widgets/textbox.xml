@@ -4928,6 +4928,7 @@ spellCheckerUI
 .
 toggleEnabled
 (
+window
 )
 ;
 "
