@@ -1187,7 +1187,7 @@ this
 .
 nfcObject
 .
-token
+session
 !
 =
 sessionToken
