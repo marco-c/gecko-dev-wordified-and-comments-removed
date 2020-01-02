@@ -76,3 +76,9 @@ mozrunner
 mozbase
 /
 moztest
+.
+.
+/
+mozbase
+/
+mozversion
