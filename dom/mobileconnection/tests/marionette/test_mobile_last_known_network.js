@@ -37,6 +37,8 @@ lastKnownHomeNetwork
 310
 -
 260
+-
+Android
 "
 )
 ;
