@@ -2675,6 +2675,11 @@ SmartCardEvent
 webidl
 '
 '
+StorageEvent
+.
+webidl
+'
+'
 StyleRuleChangeEvent
 .
 webidl
@@ -3151,11 +3156,6 @@ RTCPeerConnectionIdentityEvent
 webidl
 '
 '
-StorageEvent
-.
-webidl
-'
-'
 TrackEvent
 .
 webidl
@@ -3213,6 +3213,11 @@ GENERATED_EVENTS_WEBIDL_FILES
 [
 '
 BluetoothDeviceEvent
+.
+webidl
+'
+'
+BluetoothDiscoveryStateChangedEvent
 .
 webidl
 '
