@@ -3509,17 +3509,11 @@ eStyleAnimType_Shadow
 )
 CSS_PROP_POSITION
 (
--
-moz
--
 box
 -
 sizing
 box_sizing
-CSS_PROP_DOMPROP_PREFIXED
-(
 BoxSizing
-)
 CSS_PROPERTY_PARSE_VALUE
 "
 "
