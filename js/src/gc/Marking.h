@@ -103,7 +103,7 @@ base
 JSTracer
 *
 trc
-EncapsulatedPtr
+BarrieredPtr
 <
 type
 >
@@ -239,7 +239,7 @@ base
 #
 Marked
 (
-EncapsulatedPtr
+BarrieredPtr
 <
 type
 >
@@ -273,7 +273,7 @@ base
 #
 AboutToBeFinalized
 (
-EncapsulatedPtr
+BarrieredPtr
 <
 type
 >
@@ -281,6 +281,7 @@ type
 thingp
 )
 ;
+\
 DeclMarker
 (
 BaseShape
@@ -460,7 +461,7 @@ MarkId
 JSTracer
 *
 trc
-EncapsulatedId
+BarrieredId
 *
 id
 const
@@ -539,7 +540,7 @@ MarkValue
 JSTracer
 *
 trc
-EncapsulatedValue
+BarrieredValue
 *
 v
 const
@@ -556,7 +557,7 @@ JSTracer
 trc
 size_t
 len
-EncapsulatedValue
+BarrieredValue
 *
 vec
 const
@@ -878,7 +879,7 @@ Mark
 JSTracer
 *
 trc
-EncapsulatedValue
+BarrieredValue
 *
 v
 const
@@ -902,7 +903,7 @@ Mark
 JSTracer
 *
 trc
-EncapsulatedPtrObject
+BarrieredPtrObject
 *
 o
 const
@@ -926,7 +927,7 @@ Mark
 JSTracer
 *
 trc
-EncapsulatedPtrScript
+BarrieredPtrScript
 *
 o
 const
@@ -1045,7 +1046,7 @@ inline
 bool
 IsMarked
 (
-EncapsulatedValue
+BarrieredValue
 *
 v
 )
@@ -1079,7 +1080,7 @@ inline
 bool
 IsMarked
 (
-EncapsulatedPtrObject
+BarrieredPtrObject
 *
 objp
 )
@@ -1095,7 +1096,7 @@ inline
 bool
 IsMarked
 (
-EncapsulatedPtrScript
+BarrieredPtrScript
 *
 scriptp
 )
@@ -1111,7 +1112,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
-EncapsulatedValue
+BarrieredValue
 *
 v
 )
@@ -1145,7 +1146,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
-EncapsulatedPtrObject
+BarrieredPtrObject
 *
 objp
 )
@@ -1161,7 +1162,7 @@ inline
 bool
 IsAboutToBeFinalized
 (
-EncapsulatedPtrScript
+BarrieredPtrScript
 *
 scriptp
 )

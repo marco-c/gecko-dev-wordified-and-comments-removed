@@ -986,7 +986,7 @@ Mark
 JSTracer
 *
 trc
-EncapsulatedPtr
+BarrieredPtr
 <
 T
 >
@@ -1463,7 +1463,7 @@ base
 JSTracer
 *
 trc
-EncapsulatedPtr
+BarrieredPtr
 <
 type
 >
@@ -1753,7 +1753,7 @@ base
 #
 Marked
 (
-EncapsulatedPtr
+BarrieredPtr
 <
 type
 >
@@ -1822,7 +1822,7 @@ base
 #
 AboutToBeFinalized
 (
-EncapsulatedPtr
+BarrieredPtr
 <
 type
 >
@@ -2435,7 +2435,7 @@ MarkId
 JSTracer
 *
 trc
-EncapsulatedId
+BarrieredId
 *
 id
 const
@@ -2767,7 +2767,7 @@ MarkValue
 JSTracer
 *
 trc
-EncapsulatedValue
+BarrieredValue
 *
 v
 const
@@ -2964,7 +2964,7 @@ JSTracer
 trc
 size_t
 len
-EncapsulatedValue
+BarrieredValue
 *
 vec
 const
@@ -4568,7 +4568,7 @@ base
 )
 ;
 const
-EncapsulatedId
+BarrieredId
 &
 id
 =
