@@ -655,6 +655,11 @@ aData
 )
 ;
 void
+Tick
+(
+)
+;
+void
 EnsureStyleRuleFor
 (
 TimeStamp

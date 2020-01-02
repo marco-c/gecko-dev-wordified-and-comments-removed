@@ -456,6 +456,11 @@ Animation
 aSource
 )
 ;
+void
+Tick
+(
+)
+;
 virtual
 ElementPropertyTransition
 *
