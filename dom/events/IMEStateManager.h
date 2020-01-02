@@ -88,6 +88,12 @@ public
 :
 static
 void
+Init
+(
+)
+;
+static
+void
 Shutdown
 (
 )
@@ -342,7 +348,7 @@ CreateIMEContentObserver
 ;
 static
 void
-DestroyTextStateManager
+DestroyIMEContentObserver
 (
 )
 ;

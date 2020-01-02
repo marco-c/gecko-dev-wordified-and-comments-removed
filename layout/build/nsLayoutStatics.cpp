@@ -1543,6 +1543,13 @@ Initialize
 (
 )
 ;
+IMEStateManager
+:
+:
+Init
+(
+)
+;
 return
 NS_OK
 ;
