@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 "
@@ -324,7 +324,7 @@ mInitialized
 class
 GLStrings
 ;
-ScopedDeletePtr
+UniquePtr
 <
 GLStrings
 >
