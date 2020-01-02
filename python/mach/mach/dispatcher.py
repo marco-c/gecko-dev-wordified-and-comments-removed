@@ -1032,6 +1032,14 @@ store_true
         
 if
 disabled_commands
+and
+'
+disabled
+'
+in
+r
+.
+categories
 :
             
 title
