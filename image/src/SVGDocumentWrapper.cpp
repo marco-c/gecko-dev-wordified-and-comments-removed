@@ -171,6 +171,9 @@ nsMimeTypes
 .
 h
 "
+#
+undef
+GetCurrentTime
 using
 namespace
 mozilla

@@ -80,6 +80,9 @@ service
 ;
 1
 "
+#
+undef
+GetCurrentTime
 namespace
 mozilla
 {

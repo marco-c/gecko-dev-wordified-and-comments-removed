@@ -1,4 +1,10 @@
 #
+ifndef
+ImageMetadata_h___
+#
+define
+ImageMetadata_h___
+#
 include
 <
 stdint
@@ -253,3 +259,5 @@ mIsNonPremultiplied
 ;
 }
 }
+#
+endif

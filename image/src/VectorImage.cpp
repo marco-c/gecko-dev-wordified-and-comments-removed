@@ -153,6 +153,9 @@ SurfaceCache
 .
 h
 "
+#
+undef
+GetCurrentTime
 namespace
 mozilla
 {
