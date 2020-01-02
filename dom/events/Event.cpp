@@ -2203,15 +2203,6 @@ mIsMainThreadEvent
 mEvent
 -
 >
-typeString
-.
-Truncate
-(
-)
-;
-mEvent
--
->
 userType
 =
 nsContentUtils
