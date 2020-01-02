@@ -4426,7 +4426,7 @@ dom
 .
 window_experimental_bindings
 "
-false
+true
 )
 ;
 #
