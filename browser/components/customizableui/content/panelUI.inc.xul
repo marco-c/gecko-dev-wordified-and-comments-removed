@@ -510,6 +510,11 @@ class
 "
 subviewbutton
 "
+key
+=
+"
+key_gotoHistory
+"
 oncommand
 =
 "
@@ -919,6 +924,11 @@ class
 =
 "
 subviewbutton
+"
+key
+=
+"
+viewBookmarksSidebarKb
 "
 oncommand
 =

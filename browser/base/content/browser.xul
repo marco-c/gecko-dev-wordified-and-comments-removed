@@ -8422,6 +8422,11 @@ toolbar
 -
 additional
 "
+key
+=
+"
+key_openDownloads
+"
 oncommand
 =
 "
@@ -8577,6 +8582,11 @@ onDragExit
 (
 event
 )
+"
+key
+=
+"
+goHome
 "
 onclick
 =
