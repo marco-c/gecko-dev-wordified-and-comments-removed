@@ -32582,7 +32582,7 @@ mozilla
 .
 com
 /
-update
+downloads
 ?
 client
 =
