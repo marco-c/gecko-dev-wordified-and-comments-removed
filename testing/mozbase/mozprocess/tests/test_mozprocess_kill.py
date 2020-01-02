@@ -137,6 +137,14 @@ returncode
 p
 .
 didTimeout
+                              
+expectedfail
+=
+(
+'
+returncode
+'
+)
 )
     
 def
@@ -231,6 +239,14 @@ returncode
 p
 .
 didTimeout
+                              
+expectedfail
+=
+(
+'
+returncode
+'
+)
 )
     
 def
@@ -340,6 +356,14 @@ returncode
 p
 .
 didTimeout
+                              
+expectedfail
+=
+(
+'
+returncode
+'
+)
 )
     
 def
@@ -434,6 +458,14 @@ returncode
 p
 .
 didTimeout
+                              
+expectedfail
+=
+(
+'
+returncode
+'
+)
 )
 if
 __name__

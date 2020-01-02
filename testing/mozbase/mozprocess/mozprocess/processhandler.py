@@ -715,6 +715,9 @@ def
 kill
 (
 self
+sig
+=
+None
 )
 :
             
@@ -836,14 +839,17 @@ OSError
 (
 err
 )
-                
-else
-:
-                    
-pass
             
 else
 :
+                
+sig
+=
+sig
+or
+signal
+.
+SIGKILL
                 
 if
 not
@@ -862,9 +868,7 @@ killpg
 self
 .
 pid
-signal
-.
-SIGKILL
+sig
 )
                     
 except
@@ -926,31 +930,15 @@ kill
 self
 .
 pid
-signal
-.
-SIGKILL
+sig
 )
                 
-if
-self
-.
-returncode
-is
-None
-:
-                    
 self
 .
 returncode
 =
-subprocess
-.
-Popen
-.
-_internal_poll
-(
-self
-)
+-
+sig
             
 self
 .
@@ -3648,6 +3636,9 @@ def
 kill
 (
 self
+sig
+=
+None
 )
 :
         
@@ -3733,6 +3724,28 @@ the
 process
 .
         
+:
+param
+sig
+:
+Signal
+used
+to
+kill
+the
+process
+defaults
+to
+SIGKILL
+                    
+(
+has
+no
+effect
+on
+Windows
+)
+        
 "
 "
 "
@@ -3747,6 +3760,9 @@ proc
 .
 kill
 (
+sig
+=
+sig
 )
         
 except

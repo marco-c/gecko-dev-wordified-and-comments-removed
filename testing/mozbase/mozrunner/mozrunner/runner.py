@@ -1,6 +1,4 @@
 import
-os
-import
 subprocess
 import
 traceback
@@ -213,6 +211,8 @@ symbols_path
 =
 symbols_path
     
+abstractmethod
+    
 def
 start
 (
@@ -397,13 +397,35 @@ process
 exited
         
 returns
+-
+<
+signal
+>
+if
+the
+process
+was
+killed
+(
+Unix
+only
+)
+        
+returns
 None
-otherwise
+if
+the
+process
+is
+still
+running
 .
         
-If
+:
+param
 timeout
-is
+:
+if
 not
 None
 will
@@ -412,7 +434,7 @@ after
 timeout
 seconds
 .
-        
+                        
 Use
 is_running
 (
@@ -423,14 +445,15 @@ whether
 or
 not
 a
+                        
 timeout
 occured
 .
-        
 Timeout
 is
 ignored
 if
+                        
 interactive
 was
 set
@@ -486,6 +509,18 @@ wait
 (
 timeout
 )
+                
+if
+not
+self
+.
+process_handler
+:
+                    
+return
+self
+.
+returncode
                 
 self
 .
@@ -579,6 +614,9 @@ def
 stop
 (
 self
+sig
+=
+None
 )
 :
         
@@ -589,6 +627,29 @@ self
 Kill
 the
 process
+        
+:
+param
+sig
+:
+Signal
+used
+to
+kill
+the
+process
+defaults
+to
+SIGKILL
+                    
+(
+has
+no
+effect
+on
+Windows
+)
+.
         
 "
 "
@@ -606,10 +667,17 @@ return
         
 self
 .
+returncode
+=
+self
+.
 process_handler
 .
 kill
 (
+sig
+=
+sig
 )
         
 self
@@ -665,36 +733,11 @@ check_for_crashes
 (
 self
 dump_directory
-=
-None
 test_name
 =
 None
 )
 :
-        
-if
-not
-dump_directory
-:
-            
-dump_directory
-=
-os
-.
-path
-.
-join
-(
-self
-.
-profile
-.
-profile
-'
-minidumps
-'
-)
         
 crashed
 =

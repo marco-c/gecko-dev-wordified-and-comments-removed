@@ -158,6 +158,14 @@ returncode
 p
 .
 didTimeout
+                              
+expectedfail
+=
+(
+'
+returncode
+'
+)
 )
 if
 __name__
