@@ -15563,6 +15563,31 @@ aGlobal
 )
 "
             
+elif
+self
+.
+descriptor
+.
+interface
+.
+getExtendedAttribute
+(
+"
+ExceptionClass
+"
+)
+:
+                
+getParentProto
+=
+"
+aCx
+JS_GetErrorPrototype
+(
+aCx
+)
+"
+            
 else
 :
                 
