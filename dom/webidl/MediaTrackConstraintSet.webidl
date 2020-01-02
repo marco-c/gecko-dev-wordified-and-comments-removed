@@ -124,6 +124,9 @@ enum
 SupportedVideoConstraints
 {
 "
+other
+"
+"
 facingMode
 "
 "
@@ -141,7 +144,7 @@ enum
 SupportedAudioConstraints
 {
 "
-dummy
+other
 "
 }
 ;

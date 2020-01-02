@@ -112,6 +112,11 @@ MediaEngineDefault
 .
 h
 '
+'
+MediaTrackConstraints
+.
+h
+'
 ]
 if
 CONFIG
