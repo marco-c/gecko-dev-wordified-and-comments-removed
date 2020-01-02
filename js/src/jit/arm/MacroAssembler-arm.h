@@ -2577,8 +2577,7 @@ reg
 void
 ma_call
 (
-void
-*
+ImmPtr
 dest
 )
 ;
@@ -3196,8 +3195,6 @@ HARDCODED
 ma_call
 (
 imm
-.
-value
 )
 ;
 }
@@ -3256,11 +3253,8 @@ L_LDR
 ;
 ma_movPatchable
 (
-Imm32
+ImmPtr
 (
-(
-int
-)
 c
 -
 >
@@ -3334,11 +3328,8 @@ L_LDR
 ;
 ma_movPatchable
 (
-Imm32
+ImmPtr
 (
-(
-int
-)
 c
 -
 >
