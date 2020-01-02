@@ -4165,7 +4165,7 @@ video
 .
 enabled
 "
-true
+false
 )
 ;
 pref
