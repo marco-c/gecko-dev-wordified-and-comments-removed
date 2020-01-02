@@ -944,6 +944,15 @@ aDisplayState
 ;
 }
 bool
+HasBeenReset
+(
+)
+{
+return
+mReset
+;
+}
+bool
 operator
 =
 =
