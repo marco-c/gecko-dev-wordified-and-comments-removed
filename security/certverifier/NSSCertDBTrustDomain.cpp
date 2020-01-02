@@ -1196,7 +1196,7 @@ NSSCertDBTrustDomain
 VerifySignedData
 (
 const
-CERTSignedData
+SignedDataWithSignature
 &
 signedData
 const

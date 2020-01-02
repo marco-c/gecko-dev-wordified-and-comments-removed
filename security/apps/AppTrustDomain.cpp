@@ -757,7 +757,7 @@ AppTrustDomain
 VerifySignedData
 (
 const
-CERTSignedData
+SignedDataWithSignature
 &
 signedData
 const

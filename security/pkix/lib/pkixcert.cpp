@@ -229,7 +229,7 @@ SECFailure
 )
 ;
 }
-SECAlgorithmID
+SignatureAlgorithm
 signature
 ;
 if
@@ -237,7 +237,7 @@ if
 der
 :
 :
-AlgorithmIdentifier
+SignatureAlgorithmIdentifier
 (
 tbsCertificate
 signature
