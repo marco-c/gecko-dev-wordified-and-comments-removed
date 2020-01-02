@@ -129,12 +129,6 @@ RTCPeerConnectionIdentityEventInit
 :
 EventInit
 {
-RTCIdentityAssertion
-?
-peerIdentity
-=
-null
-;
 DOMString
 ?
 assertion
@@ -169,12 +163,6 @@ RTCPeerConnectionIdentityEvent
 :
 Event
 {
-readonly
-attribute
-RTCIdentityAssertion
-?
-peerIdentity
-;
 readonly
 attribute
 DOMString
