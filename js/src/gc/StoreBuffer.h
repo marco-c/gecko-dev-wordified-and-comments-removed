@@ -333,6 +333,11 @@ init
 (
 )
 {
+if
+(
+!
+storage_
+)
 storage_
 =
 js_new
@@ -625,6 +630,11 @@ init
 (
 )
 {
+if
+(
+!
+storage_
+)
 storage_
 =
 js_new
