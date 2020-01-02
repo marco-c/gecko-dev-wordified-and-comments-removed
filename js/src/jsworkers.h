@@ -173,7 +173,7 @@ GlobalWorkerThreadState
 (
 )
 ;
-bool
+void
 ensureInitialized
 (
 )
@@ -706,7 +706,7 @@ threadLoop
 ;
 #
 endif
-bool
+void
 EnsureWorkerThreadsInitialized
 (
 ExclusiveContext
