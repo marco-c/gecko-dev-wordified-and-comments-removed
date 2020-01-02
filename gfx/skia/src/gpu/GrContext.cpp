@@ -594,6 +594,13 @@ GrContext
 (
 )
 {
+this
+-
+>
+flush
+(
+)
+;
 for
 (
 int
@@ -634,13 +641,6 @@ fInfo
 )
 ;
 }
-this
--
->
-flush
-(
-)
-;
 fGpu
 -
 >
