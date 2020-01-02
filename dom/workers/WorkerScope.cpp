@@ -192,12 +192,11 @@ WorkerGlobalScope
 (
 )
 {
-mozilla
-:
-:
-DropJSObjects
+mWorkerPrivate
+-
+>
+AssertIsOnWorkerThread
 (
-this
 )
 ;
 }
