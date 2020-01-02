@@ -440,6 +440,17 @@ xml
 )
 \
 (
+wildcard
+(
+TESTPATH
+)
+/
+*
+.
+swf
+)
+\
+(
 NULL
 )
 GARBAGE
