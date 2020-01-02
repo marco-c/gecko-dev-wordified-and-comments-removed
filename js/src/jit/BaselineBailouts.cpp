@@ -6791,12 +6791,9 @@ JSContext
 *
 cx
 =
-GetIonContext
+GetJSContextFromJitCode
 (
 )
--
->
-cx
 ;
 js
 :

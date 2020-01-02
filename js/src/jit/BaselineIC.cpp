@@ -4116,6 +4116,13 @@ stubCode
 return
 stubCode
 ;
+IonContext
+ictx
+(
+cx
+nullptr
+)
+;
 MacroAssembler
 masm
 ;
