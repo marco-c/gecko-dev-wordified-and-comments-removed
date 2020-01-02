@@ -71,6 +71,10 @@ NSS_LIBS
 )
 \
 (
+MOZ_WEBRTC_X11_LIBS
+)
+\
+(
 REALTIME_LIBS
 )
 \
