@@ -1366,6 +1366,15 @@ true
 ;
 break
 ;
+case
+JSOP_PUSHBLOCKSCOPE
+:
+localsAliasStack_
+=
+true
+;
+break
+;
 default
 :
 break
