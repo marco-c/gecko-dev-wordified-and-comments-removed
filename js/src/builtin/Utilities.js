@@ -235,6 +235,13 @@ Object
 getPrototypeOf
 ;
 var
+std_Object_getOwnPropertyDescriptor
+=
+Object
+.
+getOwnPropertyDescriptor
+;
+var
 std_RegExp_test
 =
 RegExp

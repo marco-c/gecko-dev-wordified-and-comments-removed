@@ -6732,6 +6732,17 @@ object_static_selfhosted_methods
 ]
 =
 {
+JS_SELF_HOSTED_FN
+(
+"
+assign
+"
+"
+ObjectStaticAssign
+"
+2
+0
+)
 JS_FS_END
 }
 ;
