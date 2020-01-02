@@ -7183,17 +7183,6 @@ with
 ENTITY
 mixedContentBlocked
 .
-helplink
-"
-Learn
-more
-"
->
-<
-!
-ENTITY
-mixedContentBlocked
-.
 moreinfo
 "
 Most
