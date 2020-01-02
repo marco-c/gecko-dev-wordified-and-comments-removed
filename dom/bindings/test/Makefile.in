@@ -126,10 +126,6 @@ include
 mozilla
 /
 dom
--
-I
-.
-.
 #
 Include
 rules

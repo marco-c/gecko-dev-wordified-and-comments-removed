@@ -211,6 +211,15 @@ TestExampleInterface
 TestExampleProxyInterface
 '
 ]
+GENERATED_INCLUDES
++
+=
+[
+'
+.
+.
+'
+]
 LOCAL_INCLUDES
 +
 =

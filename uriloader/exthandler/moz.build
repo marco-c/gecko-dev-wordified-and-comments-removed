@@ -169,6 +169,14 @@ osdir
 '
 win
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+win
+'
+]
 elif
 CONFIG
 [
