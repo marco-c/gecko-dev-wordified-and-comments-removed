@@ -76,6 +76,10 @@ MediaEngine
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+MediaEngine
+)
 virtual
 ~
 MediaEngine
