@@ -8740,12 +8740,6 @@ nsChangeHint_ClearAncestorIntrinsics
 uint8_t
 mLayoutStrategy
 ;
-uint8_t
-mFrame
-;
-uint8_t
-mRules
-;
 int32_t
 mSpan
 ;
