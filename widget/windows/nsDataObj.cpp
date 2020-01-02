@@ -143,13 +143,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceDefs
 .
 h

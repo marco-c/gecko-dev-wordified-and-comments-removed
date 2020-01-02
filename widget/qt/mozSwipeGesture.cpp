@@ -18,13 +18,6 @@ QGraphicsWidget
 #
 include
 <
-prtypes
-.
-h
->
-#
-include
-<
 nsIDOMSimpleGestureEvent
 .
 h

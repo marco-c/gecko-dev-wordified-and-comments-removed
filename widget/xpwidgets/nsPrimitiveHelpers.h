@@ -7,13 +7,6 @@ nsPrimitiveHelpers_h___
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

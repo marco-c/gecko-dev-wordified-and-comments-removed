@@ -18,13 +18,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsCUPSShim
 ;
