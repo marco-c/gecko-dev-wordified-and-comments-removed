@@ -412,11 +412,16 @@ void
 SpeechStreamListener
 :
 :
-NotifyFinished
+NotifyEvent
 (
 MediaStreamGraph
 *
 aGraph
+MediaStreamListener
+:
+:
+MediaStreamGraphEvent
+event
 )
 {
 }
