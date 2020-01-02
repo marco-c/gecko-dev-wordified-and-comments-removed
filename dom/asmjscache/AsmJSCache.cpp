@@ -6179,6 +6179,12 @@ quota
 :
 Client
 {
+~
+Client
+(
+)
+{
+}
 public
 :
 NS_IMETHOD_

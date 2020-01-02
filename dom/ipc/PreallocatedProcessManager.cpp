@@ -265,6 +265,12 @@ PreallocatedProcessManagerImpl
 (
 )
 ;
+~
+PreallocatedProcessManagerImpl
+(
+)
+{
+}
 DISALLOW_EVIL_CONSTRUCTORS
 (
 PreallocatedProcessManagerImpl

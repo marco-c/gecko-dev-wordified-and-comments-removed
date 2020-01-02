@@ -4320,6 +4320,12 @@ MOZ_FINAL
 public
 mozIStorageFunction
 {
+~
+CompressDataBlobsFunction
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -5708,6 +5714,12 @@ MOZ_FINAL
 public
 mozIStorageFunction
 {
+~
+EncodeKeysFunction
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -653,6 +653,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
 protected
 :
+~
+ContentListener
+(
+)
+{
+}
 TabChild
 *
 mTabChild
@@ -778,6 +784,12 @@ aWidget
 ;
 protected
 :
+~
+TabChildBase
+(
+)
+{
+}
 CSSSize
 GetPageSize
 (

@@ -572,6 +572,12 @@ aFileId
 ;
 private
 :
+~
+AsyncDeleteFileRunnable
+(
+)
+{
+}
 nsRefPtr
 <
 FileManager
@@ -689,6 +695,12 @@ aResult
 ;
 private
 :
+~
+GetFileReferencesHelper
+(
+)
+{
+}
 PersistenceType
 mPersistenceType
 ;

@@ -193,6 +193,12 @@ aFinishRunnable
 ;
 private
 :
+~
+TransactionQueue
+(
+)
+{
+}
 mozilla
 :
 :

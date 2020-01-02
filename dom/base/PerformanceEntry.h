@@ -32,6 +32,14 @@ nsISupports
 public
 nsWrapperCache
 {
+protected
+:
+virtual
+~
+PerformanceEntry
+(
+)
+;
 public
 :
 PerformanceEntry
@@ -39,12 +47,6 @@ PerformanceEntry
 nsPerformance
 *
 aPerformance
-)
-;
-virtual
-~
-PerformanceEntry
-(
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

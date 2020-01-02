@@ -127,6 +127,12 @@ aCursor
 ;
 private
 :
+~
+DataStoreCursor
+(
+)
+{
+}
 nsRefPtr
 <
 DataStoreCursorImpl

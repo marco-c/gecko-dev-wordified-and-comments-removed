@@ -143,6 +143,12 @@ aTime
 ;
 private
 :
+~
+TimeManager
+(
+)
+{
+}
 nsCOMPtr
 <
 nsPIDOMWindow

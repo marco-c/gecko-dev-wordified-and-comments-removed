@@ -96,13 +96,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
-virtual
-~
-DOMStorageObserver
-(
-)
-{
-}
 static
 nsresult
 Init
@@ -161,6 +154,13 @@ EmptyCString
 ;
 private
 :
+virtual
+~
+DOMStorageObserver
+(
+)
+{
+}
 static
 DOMStorageObserver
 *

@@ -867,6 +867,13 @@ DOMStorageCacheHolder
 public
 nsITimerCallback
 {
+virtual
+~
+DOMStorageCacheHolder
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_IMETHODIMP
 Notify
@@ -883,13 +890,6 @@ nullptr
 return
 NS_OK
 ;
-}
-virtual
-~
-DOMStorageCacheHolder
-(
-)
-{
 }
 nsRefPtr
 <

@@ -59,11 +59,6 @@ nsQueryContentEventResult
 (
 )
 ;
-~
-nsQueryContentEventResult
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIQUERYCONTENTEVENTRESULT
 void
@@ -83,6 +78,11 @@ aEvent
 ;
 protected
 :
+~
+nsQueryContentEventResult
+(
+)
+;
 uint32_t
 mEventID
 ;

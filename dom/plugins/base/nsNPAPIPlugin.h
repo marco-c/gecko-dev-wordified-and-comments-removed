@@ -147,12 +147,6 @@ nsNPAPIPlugin
 (
 )
 ;
-virtual
-~
-nsNPAPIPlugin
-(
-)
-;
 NS_DECL_ISUPPORTS
 static
 nsresult
@@ -244,6 +238,12 @@ aRetainedPeer
 ;
 protected
 :
+virtual
+~
+nsNPAPIPlugin
+(
+)
+;
 NPPluginFuncs
 mPluginFuncs
 ;

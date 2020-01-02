@@ -23,9 +23,8 @@ PromiseNativeHandler
 public
 nsISupports
 {
-public
+protected
 :
-NS_DECL_ISUPPORTS
 virtual
 ~
 PromiseNativeHandler
@@ -33,6 +32,9 @@ PromiseNativeHandler
 )
 {
 }
+public
+:
+NS_DECL_ISUPPORTS
 virtual
 void
 ResolvedCallback

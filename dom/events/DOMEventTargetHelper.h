@@ -200,12 +200,6 @@ SetIsDOMBinding
 )
 ;
 }
-virtual
-~
-DOMEventTargetHelper
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
@@ -630,6 +624,12 @@ nullptr
 }
 protected
 :
+virtual
+~
+DOMEventTargetHelper
+(
+)
+;
 nsresult
 WantsUntrusted
 (

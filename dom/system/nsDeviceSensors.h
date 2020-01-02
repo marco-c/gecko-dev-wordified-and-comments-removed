@@ -138,12 +138,6 @@ nsDeviceSensors
 (
 )
 ;
-virtual
-~
-nsDeviceSensors
-(
-)
-;
 void
 Notify
 (
@@ -161,6 +155,12 @@ aSensorData
 ;
 private
 :
+virtual
+~
+nsDeviceSensors
+(
+)
+;
 nsTArray
 <
 nsTArray

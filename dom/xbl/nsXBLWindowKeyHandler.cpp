@@ -308,6 +308,8 @@ false
 )
 {
 }
+protected
+:
 virtual
 ~
 nsXBLSpecialDocInfo

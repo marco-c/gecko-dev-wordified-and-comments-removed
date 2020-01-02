@@ -137,11 +137,6 @@ nsXBLPrototypeBinding
 aProtoBinding
 )
 ;
-~
-nsXBLBinding
-(
-)
-;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 nsXBLBinding
@@ -252,6 +247,11 @@ aName
 ;
 protected
 :
+~
+nsXBLBinding
+(
+)
+;
 bool
 LookupMemberInternal
 (

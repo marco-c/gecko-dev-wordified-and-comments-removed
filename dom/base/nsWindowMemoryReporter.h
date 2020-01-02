@@ -372,11 +372,6 @@ Init
 (
 )
 ;
-~
-nsWindowMemoryReporter
-(
-)
-;
 #
 ifdef
 DEBUG
@@ -390,6 +385,11 @@ UnlinkGhostWindows
 endif
 private
 :
+~
+nsWindowMemoryReporter
+(
+)
+;
 class
 GhostWindowsReporter
 MOZ_FINAL
@@ -397,6 +397,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+GhostWindowsReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

@@ -194,6 +194,12 @@ const
 ;
 private
 :
+~
+SmsMessage
+(
+)
+{
+}
 SmsMessage
 (
 )

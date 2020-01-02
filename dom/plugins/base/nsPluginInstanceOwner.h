@@ -163,12 +163,6 @@ nsPluginInstanceOwner
 (
 )
 ;
-virtual
-~
-nsPluginInstanceOwner
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGININSTANCEOWNER
 NS_DECL_NSIPRIVACYTRANSITIONOBSERVER
@@ -1018,6 +1012,12 @@ view
 endif
 private
 :
+virtual
+~
+nsPluginInstanceOwner
+(
+)
+;
 bool
 IsUpToDate
 (

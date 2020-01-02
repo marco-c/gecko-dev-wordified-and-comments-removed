@@ -133,12 +133,6 @@ nsIScriptGlobalObject
 aGlobalObject
 )
 ;
-virtual
-~
-nsJSContext
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -536,6 +530,12 @@ nullptr
 }
 protected
 :
+virtual
+~
+nsJSContext
+(
+)
+;
 nsresult
 ConvertSupportsTojsvals
 (

@@ -3232,6 +3232,8 @@ this
 )
 ;
 }
+private
+:
 ~
 CountdownHolder
 (
@@ -3246,6 +3248,8 @@ this
 )
 ;
 }
+public
+:
 void
 SetValue
 (
@@ -3545,12 +3549,6 @@ aHolder
 )
 ;
 }
-~
-AllResolveHandler
-(
-)
-{
-}
 void
 ResolvedCallback
 (
@@ -3622,6 +3620,12 @@ handler
 }
 private
 :
+~
+AllResolveHandler
+(
+)
+{
+}
 nsRefPtr
 <
 CountdownHolder

@@ -106,6 +106,12 @@ quota
 StoragePrivilege
 StoragePrivilege
 ;
+~
+OpenDatabaseHelper
+(
+)
+{
+}
 public
 :
 OpenDatabaseHelper

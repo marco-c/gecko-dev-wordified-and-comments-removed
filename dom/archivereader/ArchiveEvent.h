@@ -53,12 +53,6 @@ ArchiveItem
 (
 )
 ;
-virtual
-~
-ArchiveItem
-(
-)
-;
 nsCString
 GetType
 (
@@ -98,6 +92,12 @@ aArchiveReader
 ;
 protected
 :
+virtual
+~
+ArchiveItem
+(
+)
+;
 nsCString
 mType
 ;

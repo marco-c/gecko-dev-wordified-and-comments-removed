@@ -158,12 +158,6 @@ nsJSProtocolHandler
 (
 )
 ;
-virtual
-~
-nsJSProtocolHandler
-(
-)
-;
 static
 nsresult
 Create
@@ -186,6 +180,12 @@ Init
 ;
 protected
 :
+virtual
+~
+nsJSProtocolHandler
+(
+)
+;
 nsresult
 EnsureUTF8Spec
 (

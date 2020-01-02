@@ -299,6 +299,12 @@ const
 ;
 protected
 :
+~
+TouchList
+(
+)
+{
+}
 nsCOMPtr
 <
 nsISupports

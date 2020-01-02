@@ -608,13 +608,6 @@ aOnError
 )
 {
 }
-virtual
-~
-CameraPermissionRequest
-(
-)
-{
-}
 bool
 Recv__delete__
 (
@@ -643,6 +636,13 @@ Release
 }
 protected
 :
+virtual
+~
+CameraPermissionRequest
+(
+)
+{
+}
 nsresult
 DispatchCallback
 (

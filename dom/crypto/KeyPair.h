@@ -102,12 +102,6 @@ SetIsDOMBinding
 )
 ;
 }
-~
-KeyPair
-(
-)
-{
-}
 nsIGlobalObject
 *
 GetParentObject
@@ -154,6 +148,12 @@ mPrivateKey
 }
 private
 :
+~
+KeyPair
+(
+)
+{
+}
 nsRefPtr
 <
 nsIGlobalObject

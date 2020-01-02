@@ -82,6 +82,11 @@ MOZ_FINAL
 public
 nsIDOMXPathEvaluator
 {
+~
+XPathEvaluator
+(
+)
+;
 public
 :
 XPathEvaluator

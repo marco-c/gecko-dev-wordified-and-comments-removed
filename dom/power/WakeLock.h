@@ -94,12 +94,6 @@ WakeLock
 (
 )
 ;
-virtual
-~
-WakeLock
-(
-)
-;
 nsresult
 Init
 (
@@ -160,6 +154,12 @@ aRv
 ;
 private
 :
+virtual
+~
+WakeLock
+(
+)
+;
 void
 DoUnlock
 (

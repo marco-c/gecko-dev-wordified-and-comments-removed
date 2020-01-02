@@ -7568,6 +7568,12 @@ pmp
 }
 private
 :
+~
+PluginProfilerObserver
+(
+)
+{
+}
 PluginModuleParent
 *
 mPmp

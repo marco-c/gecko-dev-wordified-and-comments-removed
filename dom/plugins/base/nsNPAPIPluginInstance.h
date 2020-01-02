@@ -1004,12 +1004,6 @@ nsNPAPIPluginInstance
 (
 )
 ;
-virtual
-~
-nsNPAPIPluginInstance
-(
-)
-;
 void
 Destroy
 (
@@ -1324,6 +1318,12 @@ gInUnsafePluginCalls
 }
 protected
 :
+virtual
+~
+nsNPAPIPluginInstance
+(
+)
+;
 nsresult
 GetTagType
 (

@@ -76,6 +76,12 @@ nsISupports
 public
 nsWrapperCache
 {
+~
+MessagePortList
+(
+)
+{
+}
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

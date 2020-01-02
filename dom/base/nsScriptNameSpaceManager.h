@@ -204,12 +204,6 @@ nsScriptNameSpaceManager
 (
 )
 ;
-virtual
-~
-nsScriptNameSpaceManager
-(
-)
-;
 nsresult
 Init
 (
@@ -551,6 +545,12 @@ aMallocSizeOf
 ;
 private
 :
+virtual
+~
+nsScriptNameSpaceManager
+(
+)
+;
 nsGlobalNameStruct
 *
 AddToHash

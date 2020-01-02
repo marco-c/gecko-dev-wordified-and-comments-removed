@@ -4387,6 +4387,15 @@ false
 )
 {
 }
+txTransformNotifier
+:
+:
+~
+txTransformNotifier
+(
+)
+{
+}
 NS_IMPL_ISUPPORTS
 (
 txTransformNotifier

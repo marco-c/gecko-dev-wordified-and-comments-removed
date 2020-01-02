@@ -156,6 +156,12 @@ mData
 }
 private
 :
+~
+MobileMessageThread
+(
+)
+{
+}
 MobileMessageThread
 (
 )

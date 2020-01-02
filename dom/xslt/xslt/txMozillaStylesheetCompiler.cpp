@@ -475,6 +475,12 @@ mCheckedForXML
 ;
 protected
 :
+~
+txStylesheetSink
+(
+)
+{
+}
 txStylesheetSink
 (
 )

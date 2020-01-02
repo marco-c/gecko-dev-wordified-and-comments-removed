@@ -164,12 +164,6 @@ aArgsAreUTF8
 false
 )
 ;
-virtual
-~
-nsPluginTag
-(
-)
-;
 void
 TryUnloadPlugin
 (
@@ -320,6 +314,12 @@ InvalidateBlocklistState
 ;
 private
 :
+virtual
+~
+nsPluginTag
+(
+)
+;
 nsCString
 mNiceFileName
 ;

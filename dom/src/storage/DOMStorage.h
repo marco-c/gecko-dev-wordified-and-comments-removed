@@ -170,11 +170,6 @@ bool
 aIsPrivate
 )
 ;
-~
-DOMStorage
-(
-)
-;
 static
 bool
 CanUseStorage
@@ -208,6 +203,11 @@ mIsSessionOnly
 }
 private
 :
+~
+DOMStorage
+(
+)
+;
 friend
 class
 DOMStorageManager

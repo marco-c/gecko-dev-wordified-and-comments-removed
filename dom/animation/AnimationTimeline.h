@@ -78,13 +78,6 @@ SetIsDOMBinding
 )
 ;
 }
-virtual
-~
-AnimationTimeline
-(
-)
-{
-}
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 AnimationTimeline
@@ -126,6 +119,13 @@ const
 ;
 protected
 :
+virtual
+~
+AnimationTimeline
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIDocument

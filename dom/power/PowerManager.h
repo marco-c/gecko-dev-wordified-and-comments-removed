@@ -242,6 +242,12 @@ aAllowed
 ;
 private
 :
+~
+PowerManager
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIDOMWindow

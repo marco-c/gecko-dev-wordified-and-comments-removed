@@ -337,6 +337,12 @@ MOZ_FINAL
 public
 nsIDOMRequestService
 {
+~
+DOMRequestService
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

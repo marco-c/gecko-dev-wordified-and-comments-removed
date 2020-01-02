@@ -727,13 +727,6 @@ aCallback
 )
 {
 }
-virtual
-~
-NotificationPermissionRequest
-(
-)
-{
-}
 bool
 Recv__delete__
 (
@@ -762,6 +755,13 @@ Release
 }
 protected
 :
+virtual
+~
+NotificationPermissionRequest
+(
+)
+{
+}
 nsresult
 CallCallback
 (
@@ -818,6 +818,8 @@ aNotification
 )
 {
 }
+protected
+:
 virtual
 ~
 NotificationObserver
@@ -825,8 +827,6 @@ NotificationObserver
 )
 {
 }
-protected
-:
 nsRefPtr
 <
 Notification
@@ -871,6 +871,8 @@ aAction
 )
 {
 }
+protected
+:
 virtual
 ~
 NotificationTask
@@ -878,8 +880,6 @@ NotificationTask
 )
 {
 }
-protected
-:
 nsRefPtr
 <
 Notification

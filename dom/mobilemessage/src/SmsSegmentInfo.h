@@ -84,6 +84,12 @@ const
 ;
 private
 :
+~
+SmsSegmentInfo
+(
+)
+{
+}
 mobilemessage
 :
 :

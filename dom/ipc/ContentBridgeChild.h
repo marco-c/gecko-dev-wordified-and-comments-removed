@@ -51,12 +51,6 @@ aTransport
 )
 ;
 NS_DECL_ISUPPORTS
-virtual
-~
-ContentBridgeChild
-(
-)
-;
 static
 ContentBridgeChild
 *
@@ -170,6 +164,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+ContentBridgeChild
+(
+)
+;
 virtual
 PBrowserChild
 *

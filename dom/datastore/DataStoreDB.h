@@ -99,11 +99,6 @@ nsAString
 aName
 )
 ;
-~
-DataStoreDB
-(
-)
-;
 nsresult
 Open
 (
@@ -146,6 +141,11 @@ aEvent
 ;
 private
 :
+~
+DataStoreDB
+(
+)
+;
 nsresult
 CreateFactoryIfNeeded
 (

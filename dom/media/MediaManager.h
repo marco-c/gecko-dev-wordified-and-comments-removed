@@ -1714,6 +1714,8 @@ MediaEngineAudioSource
 source
 )
 ;
+protected
+:
 virtual
 ~
 MediaDevice
@@ -1721,8 +1723,6 @@ MediaDevice
 )
 {
 }
-protected
-:
 MediaDevice
 (
 MediaEngineSource

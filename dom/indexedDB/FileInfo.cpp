@@ -35,6 +35,12 @@ MOZ_FINAL
 public
 nsIRunnable
 {
+~
+CleanupFileRunnable
+(
+)
+{
+}
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

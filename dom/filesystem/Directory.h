@@ -134,11 +134,6 @@ nsAString
 aPath
 )
 ;
-~
-Directory
-(
-)
-;
 nsPIDOMWindow
 *
 GetParentObject
@@ -239,6 +234,11 @@ const
 ;
 private
 :
+~
+Directory
+(
+)
+;
 static
 bool
 IsValidRelativePath

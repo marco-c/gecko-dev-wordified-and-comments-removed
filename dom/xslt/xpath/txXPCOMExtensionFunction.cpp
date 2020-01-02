@@ -150,6 +150,12 @@ nullptr
 }
 private
 :
+~
+txFunctionEvaluationContext
+(
+)
+{
+}
 txIEvalContext
 *
 mContext

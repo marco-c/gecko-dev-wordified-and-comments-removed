@@ -203,6 +203,12 @@ layout
 ScrollingBehavior
 ScrollingBehavior
 ;
+virtual
+~
+TabParent
+(
+)
+;
 public
 :
 NS_DECL_NSITABPARENT
@@ -217,12 +223,6 @@ TabContext
 aContext
 uint32_t
 aChromeFlags
-)
-;
-virtual
-~
-TabParent
-(
 )
 ;
 Element

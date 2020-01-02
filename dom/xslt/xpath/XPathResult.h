@@ -186,6 +186,11 @@ nsStubMutationObserver
 public
 nsWrapperCache
 {
+~
+XPathResult
+(
+)
+;
 public
 :
 XPathResult
@@ -201,11 +206,6 @@ const
 XPathResult
 &
 aResult
-)
-;
-~
-XPathResult
-(
 )
 ;
 enum

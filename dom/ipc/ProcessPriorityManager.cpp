@@ -851,6 +851,11 @@ nsITimerCallback
 public
 nsSupportsWeakReference
 {
+~
+ParticularProcessPriorityManager
+(
+)
+;
 public
 :
 ParticularProcessPriorityManager
@@ -858,11 +863,6 @@ ParticularProcessPriorityManager
 ContentParent
 *
 aContentParent
-)
-;
-~
-ParticularProcessPriorityManager
-(
 )
 ;
 NS_DECL_ISUPPORTS

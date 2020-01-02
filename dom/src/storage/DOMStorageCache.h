@@ -106,13 +106,6 @@ void
 )
 ;
 virtual
-~
-DOMStorageCacheBridge
-(
-)
-{
-}
-virtual
 const
 nsCString
 &
@@ -175,6 +168,13 @@ LoadWait
 ;
 protected
 :
+virtual
+~
+DOMStorageCacheBridge
+(
+)
+{
+}
 ThreadSafeAutoRefCnt
 mRefCnt
 ;

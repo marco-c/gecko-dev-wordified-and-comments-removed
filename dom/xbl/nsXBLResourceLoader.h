@@ -126,12 +126,6 @@ nsXBLPrototypeResources
 aResources
 )
 ;
-virtual
-~
-nsXBLResourceLoader
-(
-)
-;
 void
 NotifyBoundElements
 (
@@ -175,6 +169,14 @@ nsCOMArray
 nsIContent
 >
 mBoundElements
+;
+protected
+:
+virtual
+~
+nsXBLResourceLoader
+(
+)
 ;
 }
 ;

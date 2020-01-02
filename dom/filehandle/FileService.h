@@ -275,6 +275,11 @@ FileHandle
 aFileHandle
 )
 ;
+~
+FileHandleQueue
+(
+)
+;
 nsresult
 ProcessQueue
 (

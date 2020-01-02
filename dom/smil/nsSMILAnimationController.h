@@ -117,11 +117,6 @@ nsIDocument
 aDoc
 )
 ;
-~
-nsSMILAnimationController
-(
-)
-;
 void
 Disconnect
 (
@@ -324,6 +319,11 @@ Count
 }
 protected
 :
+~
+nsSMILAnimationController
+(
+)
+;
 typedef
 nsPtrHashKey
 <
