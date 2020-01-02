@@ -3616,9 +3616,12 @@ ExprLiteral
 .
 NULL
 =
-ExprLiteral
-.
-ZERO
+ExprVar
+(
+'
+nullptr
+'
+)
 ExprLiteral
 .
 TRUE

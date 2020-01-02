@@ -23641,7 +23641,7 @@ otherprocess
 =
 ExprLiteral
 .
-NULL
+ZERO
             
 isparent
 =
