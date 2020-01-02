@@ -417,6 +417,10 @@ IMPL_EVENT_HANDLER
 (
 readerror
 )
+IMPL_EVENT_HANDLER
+(
+deleted
+)
 private
 :
 ~
@@ -479,6 +483,14 @@ aEventName
 nsISupports
 *
 aMsg
+)
+;
+nsresult
+DispatchTrustedDeletedEventToSelf
+(
+nsISupports
+*
+aDeletedInfo
 )
 ;
 nsresult
