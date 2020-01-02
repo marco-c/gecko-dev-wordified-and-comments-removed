@@ -598,6 +598,13 @@ h
 "
 #
 include
+"
+nsXMLHttpRequest
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -3653,6 +3660,9 @@ bool
 aPermitUnload
 )
 {
+AutoDontWarnAboutSyncXHR
+disableSyncXHRWarning
+;
 *
 aPermitUnload
 =
@@ -4548,6 +4558,9 @@ bool
 aIsUnload
 )
 {
+AutoDontWarnAboutSyncXHR
+disableSyncXHRWarning
+;
 mHidden
 =
 true

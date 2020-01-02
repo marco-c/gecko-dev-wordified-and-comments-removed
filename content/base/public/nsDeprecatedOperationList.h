@@ -118,3 +118,7 @@ DEPRECATED_OPERATION
 (
 Window_Content
 )
+DEPRECATED_OPERATION
+(
+SyncXMLHttpRequest
+)
