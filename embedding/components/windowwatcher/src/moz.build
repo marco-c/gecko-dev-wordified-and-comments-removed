@@ -108,6 +108,16 @@ nsWindowWatcher
 cpp
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsWindowWatcher
+.
+h
+'
+]
 if
 CONFIG
 [
