@@ -63,7 +63,7 @@ TextView
 ;
 public
 class
-FxAccountCreateSuccessActivity
+FxAccountVerifiedAccountActivity
 extends
 Activity
 {
@@ -73,7 +73,7 @@ final
 String
 LOG_TAG
 =
-FxAccountCreateSuccessActivity
+FxAccountVerifiedAccountActivity
 .
 class
 .
@@ -211,7 +211,7 @@ R
 .
 layout
 .
-fxaccount_create_success
+fxaccount_account_verified
 )
 ;
 emailText
