@@ -1918,9 +1918,10 @@ Context
 context
 )
 {
-super
+this
 (
 context
+null
 )
 ;
 }
@@ -1937,6 +1938,13 @@ super
 (
 context
 attrs
+)
+;
+setWeightSum
+(
+3
+.
+0f
 )
 ;
 }
