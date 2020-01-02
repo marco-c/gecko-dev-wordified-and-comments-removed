@@ -117,6 +117,9 @@ h
 class
 gfx3DMatrix
 ;
+class
+nsIntRegion
+;
 namespace
 mozilla
 {
@@ -644,6 +647,10 @@ AsyncPanZoomController
 >
 *
 aApzcsToDestroy
+const
+nsIntRegion
+&
+aObscured
 )
 ;
 private
