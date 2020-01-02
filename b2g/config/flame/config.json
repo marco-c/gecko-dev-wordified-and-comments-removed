@@ -201,6 +201,9 @@ git
 "
 libxml2
 "
+"
+dosfstools
+"
 ]
 "
 mock_files
