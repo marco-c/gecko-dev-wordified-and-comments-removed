@@ -18818,6 +18818,15 @@ history
 .
 entries
 ;
+if
+(
+"
+index
+"
+in
+history
+)
+{
 tabData
 .
 index
@@ -18826,6 +18835,7 @@ history
 .
 index
 ;
+}
 if
 (
 Object
