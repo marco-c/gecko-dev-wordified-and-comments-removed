@@ -482,6 +482,15 @@ aForce
 false
 )
 ;
+static
+void
+OnUpdateComposition
+(
+nsWindow
+*
+aWindow
+)
+;
 protected
 :
 static
