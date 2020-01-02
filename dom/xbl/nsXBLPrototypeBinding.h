@@ -101,6 +101,7 @@ nsXBLProtoImplField
 ;
 class
 nsXBLPrototypeBinding
+MOZ_FINAL
 {
 public
 :

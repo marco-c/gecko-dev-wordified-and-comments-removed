@@ -110,6 +110,7 @@ nsAnonymousContentList
 ;
 class
 nsXBLBinding
+MOZ_FINAL
 {
 public
 :
