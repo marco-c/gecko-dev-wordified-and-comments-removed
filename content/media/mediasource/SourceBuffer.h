@@ -450,6 +450,11 @@ InitNewDecoder
 )
 ;
 void
+DiscardDecoder
+(
+)
+;
+void
 StartUpdating
 (
 )
@@ -527,7 +532,7 @@ bool
 mUpdating
 ;
 bool
-mDecoderInit
+mDecoderInitialized
 ;
 }
 ;
