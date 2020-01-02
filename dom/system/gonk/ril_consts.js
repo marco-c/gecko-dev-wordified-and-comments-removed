@@ -12221,6 +12221,14 @@ disabled
 ;
 this
 .
+GECKO_CARDSTATE_UNINITIALIZED
+=
+"
+uninitialized
+"
+;
+this
+.
 GECKO_CARDSTATE_UNDETECTED
 =
 null
