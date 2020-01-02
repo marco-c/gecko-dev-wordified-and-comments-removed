@@ -571,7 +571,10 @@ nsCSSValue
 :
 nsCSSValue
 (
-FontFamilyList
+css
+:
+:
+FontFamilyListRefCnt
 *
 aValue
 )
@@ -2967,7 +2970,10 @@ nsCSSValue
 :
 SetFontFamilyListValue
 (
-FontFamilyList
+css
+:
+:
+FontFamilyListRefCnt
 *
 aValue
 )
