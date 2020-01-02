@@ -4408,6 +4408,16 @@ showHideScrollbars
 pref
 (
 "
+ui
+.
+useOverlayScrollbars
+"
+1
+)
+;
+pref
+(
+"
 dom
 .
 ipc
