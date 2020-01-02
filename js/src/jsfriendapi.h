@@ -2554,7 +2554,7 @@ js
 :
 Class
 *
-clasp
+clasp_
 ;
 JSObject
 *
