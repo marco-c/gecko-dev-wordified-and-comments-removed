@@ -189,14 +189,14 @@ android
 paddingTop
 =
 "
-5dip
+15dip
 "
 android
 :
 paddingBottom
 =
 "
-5dip
+15dip
 "
 android
 :
