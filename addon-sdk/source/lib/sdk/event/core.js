@@ -91,6 +91,12 @@ w
 )
 /
 ;
+exports
+.
+EVENT_TYPE_PATTERN
+=
+EVENT_TYPE_PATTERN
+;
 const
 observers
 =
@@ -623,6 +629,13 @@ toLowerCase
 (
 )
 ;
+if
+(
+!
+type
+)
+return
+;
 let
 listener
 =
@@ -633,9 +646,6 @@ key
 ;
 if
 (
-type
-&
-&
 typeof
 (
 listener

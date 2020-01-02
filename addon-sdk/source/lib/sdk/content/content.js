@@ -40,6 +40,9 @@ require
 (
 '
 .
+.
+/
+deprecated
 /
 symbiont
 '

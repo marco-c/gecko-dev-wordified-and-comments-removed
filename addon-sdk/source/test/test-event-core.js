@@ -10,7 +10,6 @@ once
 off
 emit
 count
-amass
 }
 =
 require

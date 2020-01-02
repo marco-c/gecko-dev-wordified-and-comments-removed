@@ -35,7 +35,7 @@ timers
 ;
 const
 {
-notify
+emit
 }
 =
 require
@@ -43,11 +43,9 @@ require
 "
 sdk
 /
-deprecated
+system
 /
-observer
--
-service
+events
 "
 )
 ;
@@ -1110,7 +1108,7 @@ done
 }
 )
 ;
-notify
+emit
 (
 (
 id
@@ -1120,9 +1118,15 @@ id
 cmdPressed
 "
 )
+{
+subject
+:
 "
 "
+data
+:
 name
+}
 )
 ;
 }
