@@ -987,14 +987,10 @@ mTextureInfo
 .
 mTextureFlags
 =
-(
 aFlags
 &
 ~
 TEXTURE_DEALLOCATE_CLIENT
-)
-|
-TEXTURE_DEALLOCATE_DEFERRED
 ;
 if
 (
