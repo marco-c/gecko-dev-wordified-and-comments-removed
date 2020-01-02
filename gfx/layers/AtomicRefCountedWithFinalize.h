@@ -87,6 +87,11 @@ mRefCount
 0
 )
 ;
+RecycleCallback
+recycleCallback
+=
+mRecycleCallback
+;
 int
 currCount
 =
@@ -155,7 +160,7 @@ if
 currCount
 &
 &
-mRecycleCallback
+recycleCallback
 )
 {
 T
@@ -171,7 +176,7 @@ T
 this
 )
 ;
-mRecycleCallback
+recycleCallback
 (
 derived
 mClosure
