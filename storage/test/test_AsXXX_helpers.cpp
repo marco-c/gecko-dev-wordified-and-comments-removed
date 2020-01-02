@@ -34,6 +34,15 @@ Spinner
 )
 {
 }
+protected
+:
+virtual
+~
+Spinner
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
