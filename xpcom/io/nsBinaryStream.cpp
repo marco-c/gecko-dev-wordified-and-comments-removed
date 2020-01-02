@@ -3197,7 +3197,6 @@ aResult
 ;
 }
 NS_IMETHODIMP
-+
 nsBinaryInputStream
 :
 :
