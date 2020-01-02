@@ -313,6 +313,9 @@ NotReadableError
 LockedFileInactiveError
 =
 0
+OperationError
+=
+0
 }
 ;
 #

@@ -375,6 +375,11 @@ StructuredCloneTags
 h
 '
 '
+SubtleCrypto
+.
+h
+'
+'
 URL
 .
 h
@@ -561,6 +566,11 @@ cpp
 '
 '
 ScriptSettings
+.
+cpp
+'
+'
+SubtleCrypto
 .
 cpp
 '
