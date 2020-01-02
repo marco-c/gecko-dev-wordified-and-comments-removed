@@ -5037,6 +5037,8 @@ frame
 GetChildAt
 (
 childIdx
++
++
 )
 -
 >
@@ -5065,10 +5067,6 @@ child
 continue
 ;
 }
-childIdx
-+
-+
-;
 int32_t
 nextOffset
 =
