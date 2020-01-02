@@ -2863,6 +2863,14 @@ mForceSoftware
 (
 false
 )
+mWidth
+(
+300
+)
+mHeight
+(
+150
+)
 mZero
 (
 false
