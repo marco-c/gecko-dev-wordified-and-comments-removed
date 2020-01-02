@@ -222,6 +222,9 @@ mMaxLayerCount
 bool
 mColorFill
 ;
+bool
+mRBSwapSupport
+;
 std
 :
 :
