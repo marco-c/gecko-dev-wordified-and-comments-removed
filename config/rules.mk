@@ -3508,14 +3508,11 @@ MAKE
 )
 export
 ifdef
-MOZ_PSEUDO_DERECURSE
-ifdef
 COMPILE_ENVIRONMENT
 (
 MAKE
 )
 compile
-endif
 endif
 (
 MAKE

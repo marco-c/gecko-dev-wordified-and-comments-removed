@@ -161,13 +161,6 @@ C
 +
 files
 .
-Only
-applies
-to
-builds
-with
-MOZ_PSEUDO_DERECURSE
-.
 libs
 Build
 the
@@ -290,13 +283,6 @@ C
 +
 +
 code
-.
-Only
-applies
-to
-builds
-with
-MOZ_PSEUDO_DERECURSE
 .
 install
 -
