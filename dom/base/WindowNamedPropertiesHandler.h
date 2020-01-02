@@ -149,7 +149,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-getOwnPropertyNames
+ownPropNames
 (
 JSContext
 *
@@ -163,6 +163,8 @@ JSObject
 *
 >
 aProxy
+unsigned
+flags
 JS
 :
 :

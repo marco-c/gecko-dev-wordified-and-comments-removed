@@ -169,6 +169,7 @@ aName
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString

@@ -7199,6 +7199,7 @@ nsAString
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -7249,6 +7250,7 @@ nsAString
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -7342,6 +7344,7 @@ Length
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -7454,6 +7457,7 @@ nsAString
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -7545,6 +7549,7 @@ TestIndexedSetterInterface
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -7650,6 +7655,7 @@ Length
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -7869,6 +7875,7 @@ nsAString
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -7955,6 +7962,7 @@ MOZ_DELETE
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -8062,6 +8070,7 @@ MOZ_DELETE
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString

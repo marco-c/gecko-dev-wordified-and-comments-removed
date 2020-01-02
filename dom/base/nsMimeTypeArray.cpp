@@ -668,6 +668,7 @@ nsMimeTypeArray
 :
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString

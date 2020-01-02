@@ -960,6 +960,7 @@ nsPluginArray
 :
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
@@ -1842,6 +1843,7 @@ nsPluginElement
 :
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString

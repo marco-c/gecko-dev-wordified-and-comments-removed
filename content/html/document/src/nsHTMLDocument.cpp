@@ -9728,6 +9728,7 @@ nsHTMLDocument
 :
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString

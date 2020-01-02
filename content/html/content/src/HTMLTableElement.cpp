@@ -77,6 +77,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+jsfriendapi
+.
+h
+"
 NS_IMPL_NS_NEW_HTML_ELEMENT
 (
 Table
@@ -151,6 +158,8 @@ virtual
 void
 GetSupportedNames
 (
+unsigned
+aFlags
 nsTArray
 <
 nsString
@@ -158,6 +167,7 @@ nsString
 &
 aNames
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ParentDestroyed
@@ -877,6 +887,8 @@ TableRowsCollection
 :
 GetSupportedNames
 (
+unsigned
+aFlags
 nsTArray
 <
 nsString
@@ -885,6 +897,19 @@ nsString
 aNames
 )
 {
+if
+(
+!
+(
+aFlags
+&
+JSITER_HIDDEN
+)
+)
+{
+return
+;
+}
 DO_FOR_EACH_ROWGROUP
 (
 nsTArray
@@ -914,6 +939,7 @@ coll
 >
 GetSupportedNames
 (
+aFlags
 names
 )
 ;

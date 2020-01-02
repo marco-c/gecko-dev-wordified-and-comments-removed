@@ -581,6 +581,7 @@ aError
 void
 GetSupportedNames
 (
+unsigned
 nsTArray
 <
 nsString
