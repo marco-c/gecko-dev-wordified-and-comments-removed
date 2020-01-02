@@ -15138,6 +15138,18 @@ nonce
 bool
 inhibit
 )
+#
+if
+defined
+(
+JS_CODEGEN_ARM
+)
+|
+|
+defined
+(
+JS_CODEGEN_MIPS
+)
 :
 start_
 (
@@ -15155,6 +15167,8 @@ inhibit_
 (
 inhibit
 )
+#
+endif
 {
 #
 if
