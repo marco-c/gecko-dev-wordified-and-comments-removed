@@ -285,6 +285,11 @@ GetCurrentAsyncTransform
 (
 )
 ;
+gfx3DMatrix
+GetNontransientAsyncTransform
+(
+)
+;
 static
 const
 CSSRect
