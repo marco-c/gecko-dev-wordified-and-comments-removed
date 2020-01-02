@@ -303,6 +303,13 @@ aContentBoxMainSize
 nscoord
 aAvailableHeightForContent
 const
+nsTArray
+<
+StrutInfo
+>
+&
+aStruts
+const
 FlexboxAxisTracker
 &
 aAxisTracker
