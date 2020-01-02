@@ -238,6 +238,13 @@ ShadowLayersManager
 h
 '
 '
+ipc
+/
+ThreadSafeRefcountingWithMainThreadDestruction
+.
+h
+'
+'
 Layers
 .
 h
