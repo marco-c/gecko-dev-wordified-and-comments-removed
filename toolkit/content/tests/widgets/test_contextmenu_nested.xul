@@ -851,6 +851,12 @@ mousemove
 }
 )
 ;
+setTimeout
+(
+function
+(
+)
+{
 synthesizeMouse
 (
 (
@@ -867,6 +873,10 @@ type
 mousemove
 "
 }
+)
+;
+}
+1000
 )
 ;
 }
