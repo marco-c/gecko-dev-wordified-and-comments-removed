@@ -1695,7 +1695,7 @@ now
 (
 )
 +
-ASSERTION_LIFETIME
+ASSERTION_USE_PERIOD
 ;
 return
 currentState
@@ -2399,6 +2399,9 @@ let
 options
 =
 {
+duration
+:
+ASSERTION_LIFETIME
 localtimeOffsetMsec
 :
 this

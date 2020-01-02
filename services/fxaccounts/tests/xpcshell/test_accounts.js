@@ -2351,7 +2351,7 @@ do_check_eq
 exp
 now
 +
-TWO_MINUTES_MS
+ASSERTION_LIFETIME
 )
 ;
 fxa
@@ -2557,7 +2557,7 @@ do_check_eq
 exp
 now
 +
-TWO_MINUTES_MS
+ASSERTION_LIFETIME
 )
 ;
 now
@@ -2770,7 +2770,7 @@ do_check_eq
 exp
 now
 +
-TWO_MINUTES_MS
+ASSERTION_LIFETIME
 )
 ;
 _
