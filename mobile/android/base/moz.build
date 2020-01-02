@@ -535,6 +535,13 @@ java
 '
 util
 /
+RawResource
+.
+java
+'
+'
+util
+/
 StringUtils
 .
 java
