@@ -11491,7 +11491,7 @@ aCx
 )
 -
 >
-IsChromeWorker
+UsesSystemPrincipal
 (
 )
 ;
