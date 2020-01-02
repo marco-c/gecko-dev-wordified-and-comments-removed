@@ -1509,9 +1509,9 @@ origin
 reflectors
 '
 /
-denied
-|
-insecure
+unsupported
+value
+type
 /
 )
 ;
