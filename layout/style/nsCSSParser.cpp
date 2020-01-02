@@ -51185,7 +51185,7 @@ GetUnit
 )
 =
 =
-eCSSUnit_Color
+eCSSUnit_RGBAColor
 |
 |
 xOrColor
