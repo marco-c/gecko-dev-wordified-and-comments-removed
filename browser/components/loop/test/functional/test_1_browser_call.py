@@ -506,10 +506,11 @@ find_element
 By
 .
 CLASS_NAME
+                                                   
 "
 btn
 -
-success
+accept
 "
 )
         
@@ -658,7 +659,7 @@ CLASS_NAME
 "
 btn
 -
-success
+accept
 "
 )
         
