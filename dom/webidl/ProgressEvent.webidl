@@ -100,6 +100,13 @@ optional
 ProgressEventInit
 eventInitDict
 )
+HeaderFile
+=
+"
+GeneratedEventClasses
+.
+h
+"
 ]
 interface
 ProgressEvent

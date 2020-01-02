@@ -3156,11 +3156,6 @@ MozStkCommandEvent
 webidl
 '
 '
-ProgressEvent
-.
-webidl
-'
-'
 RTCDataChannelEvent
 .
 webidl
