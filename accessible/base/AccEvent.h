@@ -815,6 +815,7 @@ AccEvent
 {
 public
 :
+explicit
 AccReorderEvent
 (
 Accessible
@@ -1463,6 +1464,7 @@ downcast_accEvent
 {
 public
 :
+explicit
 downcast_accEvent
 (
 AccEvent

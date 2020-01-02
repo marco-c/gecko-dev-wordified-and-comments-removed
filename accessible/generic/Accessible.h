@@ -229,6 +229,7 @@ index_t
 {
 public
 :
+MOZ_IMPLICIT
 index_t
 (
 int32_t
