@@ -205,8 +205,6 @@ const
 mPseudoStack
 ;
 #
-endif
-#
 ifdef
 MOZ_THREADSTACKHELPER_NATIVE
 class
@@ -230,6 +228,8 @@ mMaxStackSize
 size_t
 mMaxBufferSize
 ;
+#
+endif
 bool
 PrepareStackBuffer
 (
