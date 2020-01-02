@@ -22048,7 +22048,7 @@ cyclesToAdd
 }
 if
 (
-timesWrapped
+cyclesToAdd
 >
 0
 )
@@ -22063,7 +22063,7 @@ FromMilliseconds
 (
 kEventTimeRange
 *
-timesWrapped
+cyclesToAdd
 )
 ;
 }
