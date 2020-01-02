@@ -4387,6 +4387,7 @@ ops
 )
 {
 static
+const
 PLDHashTableOps
 ops
 =

@@ -1506,6 +1506,7 @@ Init
 )
 {
 static
+const
 PLDHashTableOps
 hash_table_ops
 =
