@@ -799,7 +799,7 @@ sharedLongDesc
 <
 !
 ENTITY
-protocolNotFound
+unknownProtocolFound
 .
 title
 "
@@ -814,7 +814,7 @@ understood
 <
 !
 ENTITY
-protocolNotFound
+unknownProtocolFound
 .
 longDesc
 "
