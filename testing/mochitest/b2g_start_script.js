@@ -526,12 +526,6 @@ SpecialPowersObserver
 (
 )
 ;
-specialPowersObserver
-.
-init
-(
-)
-;
 let
 mm
 =
@@ -547,6 +541,13 @@ nsIFrameLoaderOwner
 frameLoader
 .
 messageManager
+;
+specialPowersObserver
+.
+init
+(
+mm
+)
 ;
 mm
 .
