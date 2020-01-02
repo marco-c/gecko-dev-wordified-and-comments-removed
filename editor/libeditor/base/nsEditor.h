@@ -238,9 +238,6 @@ class
 nsIPresShell
 ;
 class
-nsIPrivateTextRangeList
-;
-class
 nsISelection
 ;
 class
@@ -2666,12 +2663,6 @@ dom
 Element
 >
 mRootElement
-;
-nsCOMPtr
-<
-nsIPrivateTextRangeList
->
-mIMETextRangeList
 ;
 nsCOMPtr
 <
