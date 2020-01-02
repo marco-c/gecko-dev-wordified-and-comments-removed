@@ -314,6 +314,10 @@ allocate
 bytes
 )
 ;
+if
+(
+p
+)
 memset
 (
 p
