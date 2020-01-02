@@ -343,6 +343,21 @@ to
 exit
 .
         
+Returns
+the
+process
+return
+code
+if
+the
+process
+exited
+        
+returns
+None
+otherwise
+.
+        
 If
 timeout
 is
@@ -406,6 +421,8 @@ Popen
 )
 :
             
+return_code
+=
 self
 .
 process_handler
@@ -426,7 +443,8 @@ wait
 timeout
 )
             
-if
+return_code
+=
 self
 .
 process_handler
@@ -436,17 +454,22 @@ proc
 poll
 (
 )
+            
+if
+return_code
 is
+not
 None
 :
                 
-return
-        
 self
 .
 process_handler
 =
 None
+        
+return
+return_code
     
 def
 is_running
