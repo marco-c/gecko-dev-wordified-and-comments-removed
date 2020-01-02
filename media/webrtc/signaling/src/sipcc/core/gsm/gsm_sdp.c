@@ -15346,6 +15346,9 @@ codec
 case
 RTP_VP8
 :
+case
+RTP_I420
+:
 fb_types
 &
 =
