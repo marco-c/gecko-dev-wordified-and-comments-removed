@@ -1674,7 +1674,6 @@ typename
 T
 >
 inline
-const
 bool
 TypeIsFloatingPoint
 (
@@ -1688,7 +1687,6 @@ template
 <
 >
 inline
-const
 bool
 TypeIsFloatingPoint
 <
@@ -1705,7 +1703,6 @@ template
 <
 >
 inline
-const
 bool
 TypeIsFloatingPoint
 <
@@ -1724,7 +1721,6 @@ typename
 T
 >
 inline
-const
 bool
 TypeIsUnsigned
 (
@@ -1738,7 +1734,6 @@ template
 <
 >
 inline
-const
 bool
 TypeIsUnsigned
 <
@@ -1755,7 +1750,6 @@ template
 <
 >
 inline
-const
 bool
 TypeIsUnsigned
 <
@@ -1772,7 +1766,6 @@ template
 <
 >
 inline
-const
 bool
 TypeIsUnsigned
 <

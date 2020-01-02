@@ -500,20 +500,6 @@ FRAMETYPE_BITS
 ;
 static
 const
-uintptr_t
-FRAMETYPE_MASK
-=
-(
-1
-<
-<
-FRAMETYPE_BITS
-)
--
-1
-;
-static
-const
 uint32_t
 NO_FRAME_SIZE_CLASS_ID
 =
@@ -1519,7 +1505,6 @@ public
 static
 JitCode
 *
-const
 BareToken
 (
 )
@@ -1766,7 +1751,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -1874,7 +1858,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -2023,7 +2006,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -2160,7 +2142,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )
@@ -2299,7 +2280,6 @@ public
 static
 JitCode
 *
-const
 GetterToken
 (
 )
@@ -2315,7 +2295,6 @@ JitCode
 static
 JitCode
 *
-const
 SetterToken
 (
 )
@@ -2436,7 +2415,6 @@ public
 static
 JitCode
 *
-const
 Token
 (
 )

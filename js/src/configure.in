@@ -9571,6 +9571,15 @@ MOZ_C_SUPPORTS_WARNING
 (
 -
 W
+type
+-
+limits
+ac_c_has_wtype_limits
+)
+MOZ_C_SUPPORTS_WARNING
+(
+-
+W
 empty
 -
 body

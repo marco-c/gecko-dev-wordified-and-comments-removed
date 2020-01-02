@@ -724,7 +724,6 @@ NativeType
 >
 static
 inline
-const
 int
 TypeIDOfType
 (
@@ -734,7 +733,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -754,7 +752,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -774,7 +771,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -794,7 +790,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -814,7 +809,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -834,7 +828,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -854,7 +847,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -874,7 +866,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -894,7 +885,6 @@ template
 <
 >
 inline
-const
 int
 TypeIDOfType
 <
@@ -955,7 +945,6 @@ NativeType
 ThisTypedArrayObject
 ;
 static
-const
 int
 ArrayTypeID
 (
@@ -971,7 +960,6 @@ NativeType
 ;
 }
 static
-const
 bool
 ArrayTypeIsUnsigned
 (
@@ -987,7 +975,6 @@ NativeType
 ;
 }
 static
-const
 bool
 ArrayTypeIsFloatingPoint
 (
