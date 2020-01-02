@@ -840,7 +840,7 @@ returnAddress
 )
 =
 =
-NULL
+nullptr
 )
 ;
 BaselineScript

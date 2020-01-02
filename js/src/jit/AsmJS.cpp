@@ -1210,7 +1210,7 @@ asPropertyName
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1747,7 +1747,7 @@ TOK_CONST
 *
 var
 =
-NULL
+nullptr
 ;
 return
 true
@@ -5730,7 +5730,7 @@ maybeFunction
 )
 moduleFunctionName_
 (
-NULL
+nullptr
 )
 globals_
 (
@@ -5758,7 +5758,7 @@ cx
 )
 errorString_
 (
-NULL
+nullptr
 )
 errorOffset_
 (
@@ -6491,7 +6491,7 @@ return
 errorString_
 !
 =
-NULL
+nullptr
 ;
 }
 const
@@ -6566,7 +6566,7 @@ p
 value
 ;
 return
-NULL
+nullptr
 ;
 }
 Func
@@ -6628,7 +6628,7 @@ funcIndex
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 unsigned
@@ -9594,23 +9594,23 @@ cx
 )
 alloc_
 (
-NULL
+nullptr
 )
 graph_
 (
-NULL
+nullptr
 )
 info_
 (
-NULL
+nullptr
 )
 mirGen_
 (
-NULL
+nullptr
 )
 curBlock_
 (
-NULL
+nullptr
 )
 loopStack_
 (
@@ -9953,7 +9953,7 @@ JS_ASSERT
 curBlock_
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -10223,7 +10223,7 @@ if
 !
 newBlock
 (
-NULL
+nullptr
 &
 curBlock_
 fn_
@@ -10521,7 +10521,7 @@ p
 value
 ;
 return
-NULL
+nullptr
 ;
 }
 MDefinition
@@ -10540,7 +10540,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 return
 curBlock_
@@ -10585,7 +10585,7 @@ name
 )
 )
 return
-NULL
+nullptr
 ;
 return
 m_
@@ -10612,7 +10612,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -10667,7 +10667,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 T
 *
@@ -10715,7 +10715,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 T
 *
@@ -10765,7 +10765,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 T
 *
@@ -10817,7 +10817,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 T
 *
@@ -10870,7 +10870,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 MMul
 *
@@ -10922,7 +10922,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 T
 *
@@ -10969,7 +10969,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 T
 *
@@ -11020,7 +11020,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 MCompare
 *
@@ -11109,7 +11109,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 MAsmJSLoadHeap
 *
@@ -11233,7 +11233,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -11915,7 +11915,7 @@ curBlock_
 *
 def
 =
-NULL
+nullptr
 ;
 return
 true
@@ -12056,7 +12056,7 @@ curBlock_
 *
 def
 =
-NULL
+nullptr
 ;
 return
 true
@@ -12194,7 +12194,7 @@ curBlock_
 *
 def
 =
-NULL
+nullptr
 ;
 return
 true
@@ -12333,7 +12333,7 @@ ins
 ;
 curBlock_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -12369,7 +12369,7 @@ ins
 ;
 curBlock_
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -12403,12 +12403,12 @@ curBlock_
 *
 thenBlock
 =
-NULL
+nullptr
 ;
 *
 elseBlock
 =
-NULL
+nullptr
 ;
 return
 true
@@ -12813,7 +12813,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -12911,7 +12911,7 @@ curBlock_
 *
 loopEntry
 =
-NULL
+nullptr
 ;
 return
 true
@@ -13030,7 +13030,7 @@ curBlock_
 *
 afterLoop
 =
-NULL
+nullptr
 ;
 return
 true
@@ -13095,7 +13095,7 @@ value
 *
 afterLoop
 =
-NULL
+nullptr
 ;
 curBlock_
 -
@@ -13524,7 +13524,7 @@ false
 ;
 curBlock_
 =
-NULL
+nullptr
 ;
 }
 else
@@ -13837,7 +13837,7 @@ curBlock_
 *
 switchBlock
 =
-NULL
+nullptr
 ;
 return
 true
@@ -13866,7 +13866,7 @@ curBlock_
 ;
 curBlock_
 =
-NULL
+nullptr
 ;
 return
 true
@@ -13896,7 +13896,7 @@ switchBlock
 *
 next
 =
-NULL
+nullptr
 ;
 return
 true
@@ -14185,7 +14185,7 @@ JS_ASSERT
 mirGen_
 !
 =
-NULL
+nullptr
 )
 ;
 MIRGenerator
@@ -14196,7 +14196,7 @@ mirGen_
 ;
 mirGen_
 =
-NULL
+nullptr
 ;
 return
 mirGen
@@ -14767,7 +14767,7 @@ false
 ;
 curBlock_
 =
-NULL
+nullptr
 ;
 return
 true
@@ -15296,7 +15296,7 @@ NextNode
 arg1
 )
 :
-NULL
+nullptr
 ;
 ParseNode
 *
@@ -15309,7 +15309,7 @@ NextNode
 arg2
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -15340,7 +15340,7 @@ PropertyName
 *
 arg1Name
 =
-NULL
+nullptr
 ;
 if
 (
@@ -15373,7 +15373,7 @@ PropertyName
 *
 arg2Name
 =
-NULL
+nullptr
 ;
 if
 (
@@ -15406,7 +15406,7 @@ PropertyName
 *
 arg3Name
 =
-NULL
+nullptr
 ;
 if
 (
@@ -15632,7 +15632,7 @@ ParseNode
 *
 coercedExpr
 =
-NULL
+nullptr
 )
 {
 switch
@@ -16150,7 +16150,7 @@ bufArg
 )
 !
 =
-NULL
+nullptr
 )
 return
 m
@@ -24412,7 +24412,7 @@ unsigned
 *
 numAddOrSubOut
 =
-NULL
+nullptr
 )
 {
 JS_CHECK_RECURSION
@@ -26538,7 +26538,7 @@ LabelVector
 *
 maybeLabels
 =
-NULL
+nullptr
 )
 ;
 static
@@ -27870,7 +27870,7 @@ stmt
 )
 !
 =
-NULL
+nullptr
 )
 return
 f
@@ -29216,7 +29216,7 @@ cx
 NullPtr
 (
 )
-NULL
+nullptr
 0
 JSFunction
 :
@@ -29575,7 +29575,7 @@ ParseNode
 *
 lastNonEmptyStmt
 =
-NULL
+nullptr
 ;
 for
 (
@@ -29882,7 +29882,7 @@ m
 .
 fail
 (
-NULL
+nullptr
 "
 internal
 codegen
@@ -30155,7 +30155,7 @@ m
 .
 failName
 (
-NULL
+nullptr
 "
 missing
 definition
@@ -30608,7 +30608,7 @@ CONSUMER
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -30891,7 +30891,7 @@ AsmJSParallelTask
 *
 task
 =
-NULL
+nullptr
 ;
 if
 (
@@ -30992,7 +30992,7 @@ AsmJSParallelTask
 *
 ignored
 =
-NULL
+nullptr
 ;
 if
 (
@@ -31643,7 +31643,7 @@ Signature
 *
 firstSig
 =
-NULL
+nullptr
 ;
 for
 (
@@ -32069,7 +32069,7 @@ m
 addExportedFunction
 (
 func
-NULL
+nullptr
 )
 ;
 }
@@ -32330,7 +32330,7 @@ m
 .
 fail
 (
-NULL
+nullptr
 "
 expecting
 return
@@ -32343,7 +32343,7 @@ m
 .
 fail
 (
-NULL
+nullptr
 "
 invalid
 asm
@@ -36286,7 +36286,7 @@ Label
 *
 maybeDebugBreakpoint
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -38163,7 +38163,7 @@ m
 .
 fail
 (
-NULL
+nullptr
 "
 top
 -

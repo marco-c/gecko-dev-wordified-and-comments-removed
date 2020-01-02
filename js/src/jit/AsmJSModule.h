@@ -1892,7 +1892,7 @@ JS_ASSERT
 scriptSource_
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1988,7 +1988,7 @@ Global
 :
 :
 Variable
-NULL
+nullptr
 )
 ;
 g

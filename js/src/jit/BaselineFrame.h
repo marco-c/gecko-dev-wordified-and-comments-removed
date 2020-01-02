@@ -384,7 +384,7 @@ fun
 (
 )
 :
-NULL
+nullptr
 ;
 }
 JSFunction
@@ -991,7 +991,7 @@ hasBlockChain
 ?
 blockChain_
 :
-NULL
+nullptr
 ;
 }
 void
@@ -1028,7 +1028,7 @@ hasBlockChain
 ;
 blockChain_
 =
-NULL
+nullptr
 ;
 }
 StaticBlockObject
@@ -1289,7 +1289,7 @@ hasHookData
 ?
 hookData_
 :
-NULL
+nullptr
 ;
 }
 void

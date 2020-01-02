@@ -1919,7 +1919,7 @@ if
 threadData
 )
 return
-NULL
+nullptr
 ;
 return
 threadData
@@ -1953,7 +1953,7 @@ if
 threadData
 )
 return
-NULL
+nullptr
 ;
 return
 threadData
@@ -2431,7 +2431,7 @@ numHeapAccesses
 0
 )
 return
-NULL
+nullptr
 ;
 size_t
 low
@@ -2569,7 +2569,7 @@ high
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -5721,7 +5721,7 @@ MACH_PORT_NULL
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 AsmJSMachExceptionHandler
@@ -5737,7 +5737,7 @@ false
 )
 thread_
 (
-NULL
+nullptr
 )
 port_
 (
@@ -5808,7 +5808,7 @@ if
 thread_
 !
 =
-NULL
+nullptr
 )
 {
 mach_msg_header_t
@@ -5914,12 +5914,12 @@ MOZ_CRASH
 pthread_join
 (
 thread_
-NULL
+nullptr
 )
 ;
 thread_
 =
-NULL
+nullptr
 ;
 }
 if
@@ -6033,7 +6033,7 @@ pthread_create
 (
 &
 thread_
-NULL
+nullptr
 AsmJSMachExceptionHandlerThread
 rt
 )
@@ -6467,7 +6467,7 @@ sigaction
 signum
 &
 sPrevHandler
-NULL
+nullptr
 )
 ;
 else

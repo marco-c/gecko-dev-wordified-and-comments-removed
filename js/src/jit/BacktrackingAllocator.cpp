@@ -273,7 +273,7 @@ LBlock
 *
 backedge
 =
-NULL
+nullptr
 ;
 for
 (
@@ -2685,7 +2685,7 @@ false
 ;
 conflict
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3013,7 +3013,7 @@ false
 ;
 conflict
 =
-NULL
+nullptr
 ;
 for
 (
@@ -3065,7 +3065,7 @@ success
 {
 conflict
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -3583,7 +3583,7 @@ LiveInterval
 *
 conflicting
 =
-NULL
+nullptr
 ;
 for
 (
@@ -4555,7 +4555,7 @@ LiveInterval
 *
 addInterval
 =
-NULL
+nullptr
 ;
 for
 (
@@ -9467,7 +9467,7 @@ Range
 *
 hotRange
 =
-NULL
+nullptr
 ;
 for
 (
@@ -9614,11 +9614,11 @@ LiveInterval
 *
 preInterval
 =
-NULL
+nullptr
 *
 postInterval
 =
-NULL
+nullptr
 ;
 Vector
 <
