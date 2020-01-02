@@ -2908,6 +2908,15 @@ function
 aSnippetsMap
 )
 {
+aSnippetsMap
+=
+Cu
+.
+waiveXrays
+(
+aSnippetsMap
+)
+;
 info
 (
 "

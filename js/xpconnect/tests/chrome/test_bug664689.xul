@@ -315,7 +315,12 @@ Object
 .
 getOwnPropertyDescriptor
 (
+Cu
+.
+waiveXrays
+(
 contentObj
+)
 "
 foo
 "

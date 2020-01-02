@@ -338,6 +338,15 @@ function
 return
 x
 ;
+x
+=
+Cu
+.
+waiveXrays
+(
+x
+)
+;
 var
 rval
 =

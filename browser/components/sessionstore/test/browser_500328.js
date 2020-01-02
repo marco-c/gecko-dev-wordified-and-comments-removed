@@ -206,9 +206,14 @@ popStateCount
 ;
 is
 (
+Cu
+.
+waiveXrays
+(
 aEvent
 .
 state
+)
 .
 obj3
 .
