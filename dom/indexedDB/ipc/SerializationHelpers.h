@@ -1633,7 +1633,7 @@ aResult
 >
 data
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1851,7 +1851,7 @@ aResult
 >
 data
 =
-NULL
+nullptr
 ;
 }
 if

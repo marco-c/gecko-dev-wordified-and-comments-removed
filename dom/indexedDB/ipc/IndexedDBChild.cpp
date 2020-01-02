@@ -219,7 +219,7 @@ get
 >
 SetTransaction
 (
-NULL
+nullptr
 )
 ;
 return
@@ -254,7 +254,7 @@ get
 >
 SetTransaction
 (
-NULL
+nullptr
 )
 ;
 AsyncConnectionHelper
@@ -435,7 +435,7 @@ IDBDatabase
 *
 >
 (
-NULL
+nullptr
 )
 aRequest
 )
@@ -809,7 +809,7 @@ IndexedDBChild
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -818,7 +818,7 @@ ifdef
 DEBUG
 mFactory
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -938,7 +938,7 @@ aVersion
 :
 mDatabase
 (
-NULL
+nullptr
 )
 mName
 (
@@ -1348,8 +1348,8 @@ forget
 aDBInfo
 .
 origin
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -1424,7 +1424,7 @@ IndexedDBDatabaseChild
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -1433,7 +1433,7 @@ ifdef
 DEBUG
 mDatabase
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -1721,7 +1721,7 @@ openHelper
 new
 IPCOpenDatabaseHelper
 (
-NULL
+nullptr
 request
 )
 ;
@@ -2321,7 +2321,7 @@ IndexedDBTransactionChild
 :
 mTransaction
 (
-NULL
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -2603,7 +2603,7 @@ IndexedDBTransactionChild
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2612,7 +2612,7 @@ ifdef
 DEBUG
 mTransaction
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -3004,7 +3004,7 @@ IndexedDBObjectStoreChild
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -3013,7 +3013,7 @@ ifdef
 DEBUG
 mObjectStore
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -3626,7 +3626,7 @@ IndexedDBIndexChild
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -3635,7 +3635,7 @@ ifdef
 DEBUG
 mIndex
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -4017,7 +4017,7 @@ IndexedDBCursorChild
 :
 mCursor
 (
-NULL
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -4177,7 +4177,7 @@ IndexedDBCursorChild
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -4186,7 +4186,7 @@ ifdef
 DEBUG
 mCursor
 =
-NULL
+nullptr
 ;
 #
 endif

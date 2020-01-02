@@ -265,7 +265,7 @@ AsyncConnectionHelper
 :
 SetCurrentTransaction
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2381,7 +2381,7 @@ IndexedDBDatabaseParent
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -3046,7 +3046,7 @@ IndexedDBTransactionParent
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -3898,7 +3898,7 @@ IndexedDBCursorParent
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -4154,7 +4154,7 @@ IndexedDBObjectStoreParent
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -5232,7 +5232,7 @@ IndexedDBIndexParent
 *
 >
 (
-NULL
+nullptr
 )
 )
 ;
@@ -5627,7 +5627,7 @@ mRequest
 >
 SetActor
 (
-NULL
+nullptr
 )
 ;
 }
