@@ -455,14 +455,6 @@ aIconUri
 )
 ;
 }
-aItem
-.
-iconSrc
-=
-aIconUri
-.
-spec
-;
 let
 faviconURL
 =
@@ -478,6 +470,12 @@ aIconUri
 )
 .
 spec
+;
+aItem
+.
+iconSrc
+=
+faviconURL
 ;
 let
 xpFaviconURI
