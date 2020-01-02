@@ -13686,10 +13686,7 @@ cx
 ;
 }
 }
-NS_EXPORT_
-(
 bool
-)
 xpc_LocalizeRuntime
 (
 JSRuntime
@@ -13697,10 +13694,7 @@ JSRuntime
 rt
 )
 ;
-NS_EXPORT_
-(
 void
-)
 xpc_DelocalizeRuntime
 (
 JSRuntime

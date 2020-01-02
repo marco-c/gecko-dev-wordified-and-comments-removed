@@ -61,7 +61,6 @@ aAllowNull
 false
 )
 ;
-NS_EXPORT
 ~
 AutoCxPusher
 (
@@ -132,12 +131,6 @@ nsCxPusher
 {
 public
 :
-NS_EXPORT
-~
-nsCxPusher
-(
-)
-;
 bool
 Push
 (
@@ -166,10 +159,7 @@ EventTarget
 aCurrentTarget
 )
 ;
-NS_EXPORT_
-(
 void
-)
 Push
 (
 JSContext
@@ -182,10 +172,7 @@ PushNull
 (
 )
 ;
-NS_EXPORT_
-(
 void
-)
 Pop
 (
 )

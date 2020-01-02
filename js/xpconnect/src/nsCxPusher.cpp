@@ -59,16 +59,6 @@ mozilla
 :
 DebugOnly
 ;
-NS_EXPORT
-nsCxPusher
-:
-:
-~
-nsCxPusher
-(
-)
-{
-}
 bool
 nsCxPusher
 :
@@ -297,10 +287,7 @@ aCurrentTarget
 )
 ;
 }
-NS_EXPORT_
-(
 void
-)
 nsCxPusher
 :
 :
@@ -343,10 +330,7 @@ true
 )
 ;
 }
-NS_EXPORT_
-(
 void
-)
 nsCxPusher
 :
 :
@@ -515,7 +499,6 @@ compartmentObject
 ;
 }
 }
-NS_EXPORT
 AutoCxPusher
 :
 :

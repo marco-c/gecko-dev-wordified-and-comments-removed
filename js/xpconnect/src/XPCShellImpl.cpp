@@ -6596,7 +6596,7 @@ EXITCODE_RUNTIME_ERROR
 xpc
 :
 :
-SystemErrorReporterExternal
+SystemErrorReporter
 (
 cx
 message

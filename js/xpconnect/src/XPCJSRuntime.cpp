@@ -5217,10 +5217,7 @@ aCategory
 )
 ;
 }
-NS_EXPORT_
-(
 void
-)
 xpc
 :
 :

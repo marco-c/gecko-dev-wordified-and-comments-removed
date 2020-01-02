@@ -154,7 +154,6 @@ mGlobal
 ;
 }
 ;
-NS_EXPORT
 nsresult
 NS_NewBackstagePass
 (

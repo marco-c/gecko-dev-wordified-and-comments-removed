@@ -1079,10 +1079,7 @@ mThread
 endif
 }
 ;
-NS_EXPORT_
-(
 bool
-)
 xpc_LocalizeRuntime
 (
 JSRuntime
@@ -1201,10 +1198,7 @@ get
 )
 ;
 }
-NS_EXPORT_
-(
 void
-)
 xpc_DelocalizeRuntime
 (
 JSRuntime
