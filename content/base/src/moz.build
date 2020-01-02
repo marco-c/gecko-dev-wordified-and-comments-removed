@@ -452,6 +452,11 @@ DOMPoint
 h
 '
 '
+DOMQuad
+.
+h
+'
+'
 DOMRect
 .
 h
@@ -538,6 +543,11 @@ cpp
 '
 '
 DOMPoint
+.
+cpp
+'
+'
+DOMQuad
 .
 cpp
 '
