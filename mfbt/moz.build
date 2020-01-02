@@ -369,6 +369,11 @@ ThreadLocal
 h
 '
 '
+ToString
+.
+h
+'
+'
 TypedEnum
 .
 h
