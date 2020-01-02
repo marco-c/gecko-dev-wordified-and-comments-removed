@@ -64,6 +64,9 @@ nsISupports
 idl
 "
 interface
+nsIDocShell
+;
+interface
 nsIDOMDocument
 ;
 interface
@@ -202,7 +205,7 @@ aBounds
 )
 ;
 attribute
-nsISupports
+nsIDocShell
 container
 ;
 void

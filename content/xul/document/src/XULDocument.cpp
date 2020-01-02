@@ -101,7 +101,7 @@ h
 #
 include
 "
-nsIDocShell
+nsDocShell
 .
 h
 "
@@ -18658,8 +18658,6 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 ir
-=
-do_QueryReferent
 (
 mDocumentContainer
 )
