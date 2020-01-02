@@ -47,7 +47,7 @@ public
 :
 enum
 {
-ENCODE_HEADER
+ENCODE_METADDATA
 ENCODE_TRACK
 ENCODE_DONE
 }
@@ -90,7 +90,7 @@ mState
 MediaEncoder
 :
 :
-ENCODE_HEADER
+ENCODE_METADDATA
 )
 mShutdown
 (
