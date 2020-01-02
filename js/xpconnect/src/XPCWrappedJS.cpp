@@ -1740,7 +1740,7 @@ if
 rt
 -
 >
-GetThreadRunningGC
+GCIsRunning
 (
 )
 )
