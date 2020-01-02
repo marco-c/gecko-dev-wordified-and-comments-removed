@@ -1,7 +1,4 @@
 #
-define
-FORCE_PR_LOG
-#
 include
 "
 mozilla
