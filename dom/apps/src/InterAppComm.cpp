@@ -57,8 +57,14 @@ EnabledForScope
 (
 JSContext
 *
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aObj
 )
 {
