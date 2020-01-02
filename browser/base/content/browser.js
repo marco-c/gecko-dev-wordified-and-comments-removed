@@ -18512,7 +18512,7 @@ aLocationURI
 ;
 BookmarkingUI
 .
-updateStarState
+onLocationChange
 (
 )
 ;
