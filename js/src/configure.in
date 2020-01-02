@@ -32693,8 +32693,6 @@ dummy
 hello
 .
 c
-fi
-fi
 dnl
 Make
 sure
@@ -32716,7 +32714,7 @@ to
 prevent
 it
 from
-breking
+breaking
 silently
 on
 dnl
@@ -32737,6 +32735,8 @@ AC_SUBST
 (
 NONASCII
 )
+fi
+fi
 dnl
 =
 =
