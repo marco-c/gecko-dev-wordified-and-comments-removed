@@ -110,7 +110,7 @@ accountType
 "
 string
 /
-moz_android_shared_account_type
+moz_android_shared_fxaccount_type
 "
 android
 :
