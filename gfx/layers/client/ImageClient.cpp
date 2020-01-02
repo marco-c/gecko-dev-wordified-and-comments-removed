@@ -558,8 +558,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mFrontBuffer
 )
 ;
@@ -593,8 +594,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mFrontBuffer
 )
 ;
@@ -613,8 +615,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mBackBuffer
 )
 ;
@@ -731,8 +734,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mFrontBuffer
 )
 ;
@@ -852,8 +856,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mFrontBuffer
 )
 ;
@@ -1150,8 +1155,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mFrontBuffer
 )
 ;
@@ -1305,8 +1311,9 @@ GetForwarder
 )
 -
 >
-HoldUntilTransaction
+RemoveTextureFromCompositable
 (
+this
 mFrontBuffer
 )
 ;

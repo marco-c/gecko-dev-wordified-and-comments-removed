@@ -256,6 +256,16 @@ aTexture
 MOZ_OVERRIDE
 ;
 virtual
+void
+RemoveTextureHost
+(
+TextureHost
+*
+aTexture
+)
+MOZ_OVERRIDE
+;
+virtual
 TextureHost
 *
 GetAsTextureHost
