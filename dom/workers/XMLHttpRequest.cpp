@@ -4235,9 +4235,11 @@ mResponseResult
 {
 if
 (
-JSVAL_IS_UNIVERSAL
-(
+!
 response
+.
+isGCThing
+(
 )
 )
 {
