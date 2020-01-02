@@ -216,7 +216,7 @@ nsCTooltipTextProvider
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
