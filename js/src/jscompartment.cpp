@@ -1324,7 +1324,7 @@ nogc
 ;
 copy
 =
-NewStringCopyN
+NewStringCopyNDontDeflate
 <
 NoGC
 >
@@ -1401,7 +1401,7 @@ get
 len
 )
 :
-NewStringCopyN
+NewStringCopyNDontDeflate
 <
 CanGC
 >
