@@ -899,6 +899,14 @@ getSupportedFocusModes
 if
 (
 focusModeList
+!
+=
+null
+)
+{
+if
+(
+focusModeList
 .
 contains
 (
@@ -921,6 +929,7 @@ Parameters
 FOCUS_MODE_CONTINUOUS_VIDEO
 )
 ;
+}
 }
 parameters
 .
