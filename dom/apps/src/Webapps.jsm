@@ -7634,7 +7634,7 @@ ManifestHelper
 aJSON
 app
 .
-manifestURL
+installOrigin
 )
 ;
 this
@@ -9267,9 +9267,6 @@ new
 ManifestHelper
 (
 manifest
-aData
-.
-manifestURL
 )
 ;
 debug
