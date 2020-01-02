@@ -12723,8 +12723,8 @@ clipSet
 )
 {
 autoSR
-=
-gfxContextAutoSaveRestore
+.
+Restore
 (
 )
 ;
