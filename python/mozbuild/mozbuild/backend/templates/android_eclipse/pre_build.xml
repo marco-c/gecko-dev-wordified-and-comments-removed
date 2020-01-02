@@ -617,7 +617,7 @@ target
 name
 =
 "
-compile
+pre_build
 "
 depends
 =

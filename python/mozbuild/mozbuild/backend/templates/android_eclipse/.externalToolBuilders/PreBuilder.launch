@@ -57,7 +57,7 @@ ATTR_ANT_AUTO_TARGETS
 value
 =
 "
-compile
+pre_build
 "
 /
 >
@@ -79,7 +79,7 @@ ATTR_ANT_MANUAL_TARGETS
 value
 =
 "
-compile
+pre_build
 "
 /
 >
@@ -315,7 +315,7 @@ workspace_loc
 /
 IDE_PROJECT_NAME
 /
-build
+pre_build
 .
 xml
 }
