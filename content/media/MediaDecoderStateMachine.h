@@ -770,9 +770,11 @@ HasLowUndecodedData
 )
 const
 ;
-int64_t
-GetUndecodedData
+bool
+HasLowUndecodedData
 (
+double
+aUsecs
 )
 const
 ;
