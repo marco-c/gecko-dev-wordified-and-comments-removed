@@ -1,10 +1,7 @@
-const
-ROOT
-=
-getRootDirectory
-(
-gTestPath
-)
+"
+use
+strict
+"
 ;
 const
 URL
