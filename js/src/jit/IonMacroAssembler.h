@@ -3396,8 +3396,6 @@ branchTestNeedsBarrier
 (
 Condition
 cond
-Register
-scratch
 Label
 *
 label
@@ -3433,9 +3431,8 @@ zone
 (
 )
 ;
-movePtr
-(
-ImmPtr
+AbsoluteAddress
+needsBarrierAddr
 (
 zone
 -
@@ -3443,15 +3440,6 @@ zone
 addressOfNeedsBarrier
 (
 )
-)
-scratch
-)
-;
-Address
-needsBarrierAddr
-(
-scratch
-0
 )
 ;
 branchTest32

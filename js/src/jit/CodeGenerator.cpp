@@ -34252,7 +34252,6 @@ Assembler
 :
 :
 NonZero
-lengthTemp
 ool
 -
 >
@@ -36135,7 +36134,6 @@ Assembler
 :
 :
 Zero
-temp1
 &
 noBarrier
 )
