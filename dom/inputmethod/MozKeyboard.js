@@ -296,7 +296,9 @@ testExactPermissionFromPrincipal
 (
 principal
 "
-keyboard
+inputmethod
+-
+manage
 "
 )
 ;
