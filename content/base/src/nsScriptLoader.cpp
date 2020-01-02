@@ -5389,7 +5389,7 @@ mDocument
 {
 masterScriptUpdater
 .
-construct
+emplace
 (
 master
 -
