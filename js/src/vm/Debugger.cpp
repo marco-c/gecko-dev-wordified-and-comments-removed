@@ -8813,6 +8813,14 @@ getNext
 (
 )
 )
+{
+if
+(
+s
+-
+>
+frame
+)
 MarkObject
 (
 trc
@@ -8828,6 +8836,7 @@ SavedFrame
 "
 )
 ;
+}
 scripts
 .
 trace
