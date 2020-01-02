@@ -368,3 +368,5 @@ tempfile
 CompositorD3D11Shaders
 .
 h
+rm
+tempfile
