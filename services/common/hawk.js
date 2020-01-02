@@ -120,8 +120,11 @@ jsm
 "
 )
 ;
-function
+this
+.
 HawkClient
+=
+function
 (
 host
 )
@@ -139,6 +142,8 @@ _localtimeOffsetMsec
 0
 ;
 }
+this
+.
 HawkClient
 .
 prototype
