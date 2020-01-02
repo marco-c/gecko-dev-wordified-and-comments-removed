@@ -3059,9 +3059,12 @@ nameCount
 ;
 allNames
 .
-AssignASCII
+Assign
+(
+NS_ConvertUTF8toUTF16
 (
 certName
+)
 )
 ;
 PORT_Free
