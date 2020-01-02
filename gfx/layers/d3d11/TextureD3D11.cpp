@@ -660,7 +660,7 @@ MOZ_ASSERT
 mDrawTarget
 -
 >
-refcount
+refCount
 (
 )
 =
