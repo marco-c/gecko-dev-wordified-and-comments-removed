@@ -3289,6 +3289,12 @@ GetDataSurface
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+dataSurface
+NS_ERROR_FAILURE
+)
+;
 mappedOK
 =
 dataSurface
