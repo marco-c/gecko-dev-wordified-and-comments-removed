@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGLength
-;
-interface
 SVGAnimatedLength
 {
 [

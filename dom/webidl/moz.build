@@ -1875,6 +1875,11 @@ SVGImageElement
 webidl
 '
 '
+SVGLength
+.
+webidl
+'
+'
 SVGLengthList
 .
 webidl
