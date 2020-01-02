@@ -744,6 +744,13 @@ mode
 ~
 PNG_HAVE_CHUNK_HEADER
 ;
+png_ptr
+-
+>
+process_mode
+=
+PNG_READ_IDAT_MODE
+;
 return
 ;
 }
@@ -1176,6 +1183,13 @@ mode
 |
 =
 PNG_HAVE_IDAT
+;
+png_ptr
+-
+>
+process_mode
+=
+PNG_READ_IDAT_MODE
 ;
 if
 (
