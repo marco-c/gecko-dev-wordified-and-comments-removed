@@ -20,11 +20,6 @@ do_test_pending
 (
 )
 ;
-do_register_cleanup
-(
-end_test
-)
-;
 adjustGeneralPaths
 (
 )
