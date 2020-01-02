@@ -67,13 +67,6 @@ h
 #
 include
 "
-nsGenericHTMLElement
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

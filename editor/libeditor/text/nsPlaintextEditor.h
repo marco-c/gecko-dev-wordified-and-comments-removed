@@ -370,13 +370,7 @@ aKeyEvent
 virtual
 already_AddRefed
 <
-mozilla
-:
-:
-dom
-:
-:
-EventTarget
+nsIDOMEventTarget
 >
 GetDOMEventTarget
 (

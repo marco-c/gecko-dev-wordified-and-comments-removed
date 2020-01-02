@@ -2095,11 +2095,6 @@ Window
 webidl
 '
 '
-Worker
-.
-webidl
-'
-'
 WorkerLocation
 .
 webidl
