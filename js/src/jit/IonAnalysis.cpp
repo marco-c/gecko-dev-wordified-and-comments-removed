@@ -13489,10 +13489,16 @@ use
 toInstruction
 (
 )
+use
+-
+>
+indexOf
+(
 uses
 .
-index
+use
 (
+)
 )
 &
 argumentsContentsObserved
