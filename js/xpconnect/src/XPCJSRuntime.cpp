@@ -379,6 +379,9 @@ __exposedProps__
 "
 eval
 "
+"
+controllers
+"
 }
 ;
 struct

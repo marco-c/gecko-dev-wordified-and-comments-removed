@@ -2226,6 +2226,7 @@ in
 nsIDOMChromeWindow
 ?
 [
+ChromeOnly
 Replaceable
 Throws
 ]
