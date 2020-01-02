@@ -709,6 +709,16 @@ CallSiteObject
 callSiteObject
 "
 )
+ASTDEF
+(
+AST_COMPUTED_NAME
+"
+ComputedName
+"
+"
+computedName
+"
+)
 /
 *
 AST_LIMIT
