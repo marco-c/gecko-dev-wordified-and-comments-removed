@@ -10171,7 +10171,7 @@ R
 .
 string
 .
-contacts_account_chooser_dialog_title
+contacts_account_chooser_dialog_title2
 )
 )
 .
