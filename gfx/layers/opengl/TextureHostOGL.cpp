@@ -1802,7 +1802,10 @@ gl
 nullptr
 ;
 }
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 SharedTextureSourceOGL
 :
 :
@@ -1840,7 +1843,10 @@ details
 )
 ;
 return
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 (
 )
 ;
@@ -3971,7 +3977,10 @@ LOCAL_GL_TEXTURE_2D
 )
 ;
 }
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 SharedDeprecatedTextureHostOGL
 :
 :
