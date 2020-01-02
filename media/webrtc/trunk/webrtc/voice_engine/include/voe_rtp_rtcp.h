@@ -451,6 +451,14 @@ int
 playoutTimestamp
 unsigned
 int
+&
+sendPacketCount
+unsigned
+int
+&
+sendOctetCount
+unsigned
+int
 *
 jitter
 =
@@ -459,6 +467,12 @@ unsigned
 short
 *
 fractionLost
+=
+NULL
+unsigned
+int
+*
+cumulativeLost
 =
 NULL
 )

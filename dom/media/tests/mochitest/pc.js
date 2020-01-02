@@ -5006,6 +5006,14 @@ stats
 key
 ]
 ;
+if
+(
+!
+res
+.
+isRemote
+)
+{
 counters
 [
 res
@@ -5025,6 +5033,7 @@ type
 +
 1
 ;
+}
 }
 }
 var
@@ -5042,6 +5051,14 @@ function
 res
 )
 {
+if
+(
+!
+res
+.
+isRemote
+)
+{
 counters2
 [
 res
@@ -5061,6 +5078,7 @@ type
 +
 1
 ;
+}
 }
 )
 ;
