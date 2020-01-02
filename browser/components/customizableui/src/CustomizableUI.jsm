@@ -9165,6 +9165,16 @@ aWidgetId
 window
 )
 ;
+if
+(
+!
+node
+)
+{
+return
+true
+;
+}
 return
 node
 .
