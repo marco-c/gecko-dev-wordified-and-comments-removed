@@ -2477,6 +2477,7 @@ aName
 {
 if
 (
+!
 aName
 )
 {
