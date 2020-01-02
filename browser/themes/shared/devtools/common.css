@@ -75,6 +75,12 @@ appearance
 :
 none
 ;
+background
+-
+image
+:
+none
+;
 border
 -
 top
@@ -124,6 +130,12 @@ splitter
 moz
 -
 appearance
+:
+none
+;
+background
+-
+image
 :
 none
 ;
