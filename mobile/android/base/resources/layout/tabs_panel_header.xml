@@ -342,6 +342,13 @@ drawable
 /
 action_bar_button
 "
+android
+:
+visibility
+=
+"
+gone
+"
 /
 >
 <
