@@ -11022,7 +11022,7 @@ inc
 svg
 #
 ifndef
-XP_UNIX
+XP_MACOSX
 <
 svg
 :
@@ -11030,8 +11030,6 @@ clipPath
 id
 =
 "
-windows
--
 keyhole
 -
 forward
@@ -11090,8 +11088,6 @@ clipPath
 id
 =
 "
-windows
--
 urlbar
 -
 back
@@ -11173,10 +11169,7 @@ svg
 clipPath
 >
 #
-endif
-#
-ifdef
-XP_MACOSX
+else
 <
 svg
 :
