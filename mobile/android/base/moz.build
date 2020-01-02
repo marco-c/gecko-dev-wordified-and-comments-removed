@@ -1046,6 +1046,13 @@ TabsProvider
 java
 '
 '
+db
+/
+TopSitesCursorWrapper
+.
+java
+'
+'
 Distribution
 .
 java
