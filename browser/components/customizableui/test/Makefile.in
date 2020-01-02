@@ -121,6 +121,10 @@ browser_892955_isWidgetRemovable_for_removed_widgets
 .
 js
 \
+browser_892956_destroyWidget_defaultPlacements
+.
+js
+\
 head
 .
 js
