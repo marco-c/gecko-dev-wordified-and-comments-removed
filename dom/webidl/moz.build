@@ -3001,6 +3001,11 @@ MozNFCTag
 .
 webidl
 '
+'
+NfcOptions
+.
+webidl
+'
 ]
 if
 CONFIG
