@@ -29721,7 +29721,7 @@ true
 #
 endif
 }
-void
+bool
 nsContentUtils
 :
 :
@@ -29743,6 +29743,7 @@ Truncate
 (
 )
 ;
+return
 AppendNodeTextContent
 (
 aNode

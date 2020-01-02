@@ -2341,7 +2341,7 @@ aTryReuse
 )
 ;
 static
-void
+bool
 GetNodeTextContent
 (
 nsINode
@@ -2353,6 +2353,7 @@ nsAString
 &
 aResult
 )
+NS_WARN_UNUSED_RESULT
 ;
 static
 bool
