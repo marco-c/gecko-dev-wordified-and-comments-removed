@@ -3836,7 +3836,7 @@ aPseudoType
 aRuleNode
 aFlags
 &
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 )
 ;
 if
@@ -3858,7 +3858,7 @@ aPseudoType
 aVisitedRuleNode
 aFlags
 &
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 )
 ;
 if
@@ -6199,13 +6199,13 @@ if
 (
 aTreeMatchContext
 .
-mSkippingFlexOrGridItemStyleFixup
+mSkippingParentDisplayBasedStyleFixup
 )
 {
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 return
@@ -7085,7 +7085,7 @@ else
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 return
@@ -7407,7 +7407,7 @@ else
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 nsRefPtr
@@ -9407,7 +9407,7 @@ IsRootOfAnonymousSubtree
 flags
 |
 =
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 ;
 }
 return

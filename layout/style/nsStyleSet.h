@@ -1217,7 +1217,7 @@ eDoAnimation
 <
 <
 2
-eSkipFlexOrGridItemStyleFixup
+eSkipParentDisplayBasedStyleFixup
 =
 1
 <

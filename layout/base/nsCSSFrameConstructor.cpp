@@ -16523,8 +16523,8 @@ items
 TreeMatchContext
 :
 :
-AutoFlexOrGridItemStyleFixupSkipper
-flexOrGridItemStyleFixupSkipper
+AutoParentDisplayBasedStyleFixupSkipper
+parentDisplayBasedStyleFixupSkipper
 (
 aState
 .
@@ -38722,8 +38722,8 @@ styleContext
 TreeMatchContext
 :
 :
-AutoFlexOrGridItemStyleFixupSkipper
-flexOrGridItemStyleFixupSkipper
+AutoParentDisplayBasedStyleFixupSkipper
+parentDisplayBasedStyleFixupSkipper
 (
 aState
 .
