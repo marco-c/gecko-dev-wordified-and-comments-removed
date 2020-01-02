@@ -267,6 +267,8 @@ warning
 256
 ]
 ;
+:
+:
 snprintf
 (
 warning

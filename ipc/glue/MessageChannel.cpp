@@ -34,6 +34,9 @@ nsTraceRefcnt
 .
 h
 "
+#
+undef
+compress
 using
 namespace
 mozilla
