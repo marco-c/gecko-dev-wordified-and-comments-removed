@@ -614,8 +614,9 @@ tooltip
 "
 Log
 CSS
-parsing
 errors
+and
+warnings
 "
 >
 <
