@@ -5459,6 +5459,17 @@ case
 NS_QUERY_TEXT_RECT
 :
 {
+if
+(
+RemoteQueryContentEvent
+(
+aEvent
+)
+)
+{
+break
+;
+}
 nsContentEventHandler
 handler
 (
