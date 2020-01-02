@@ -4475,7 +4475,6 @@ cx
 obj
 obj
 shape
-0
 &
 v
 )
