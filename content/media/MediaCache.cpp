@@ -7265,6 +7265,13 @@ RemoveElement
 aStream
 )
 ;
+gMediaCache
+-
+>
+QueueUpdate
+(
+)
+;
 }
 void
 MediaCache
