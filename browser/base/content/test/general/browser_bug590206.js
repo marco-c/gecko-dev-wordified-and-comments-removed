@@ -367,7 +367,7 @@ getIdentityMode
 (
 )
 "
-chromeUI
+unknownIdentity
 "
 "
 Identity
@@ -411,7 +411,7 @@ getIdentityMode
 (
 )
 "
-chromeUI
+unknownIdentity
 "
 "
 Identity
