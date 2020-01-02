@@ -8492,6 +8492,13 @@ val
 colorSwatchClass
 :
 swatchClass
+colorClass
+:
+"
+ruleview
+-
+color
+"
 defaultColorType
 :
 !
