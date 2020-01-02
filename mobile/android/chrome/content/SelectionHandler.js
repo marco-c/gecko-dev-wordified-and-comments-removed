@@ -1894,8 +1894,9 @@ end
 )
 SelectionHandler
 .
-_updateMenu
+attachCaret
 (
+aElement
 )
 ;
 }
@@ -1945,12 +1946,6 @@ function
 SelectionHandler
 .
 copySelection
-(
-)
-;
-SelectionHandler
-.
-_updateMenu
 (
 )
 ;
@@ -2068,12 +2063,6 @@ function
 SelectionHandler
 .
 shareSelection
-(
-)
-;
-SelectionHandler
-.
-_closeSelection
 (
 )
 ;
