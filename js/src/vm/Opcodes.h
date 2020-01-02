@@ -111,6 +111,7 @@ NULL
 JOF_BYTE
 )
 \
+\
 macro
 (
 JSOP_ENTERWITH
@@ -124,6 +125,7 @@ NULL
 0
 JOF_OBJECT
 )
+\
 \
 macro
 (
@@ -154,6 +156,7 @@ NULL
 JOF_BYTE
 )
 \
+\
 macro
 (
 JSOP_GOTO
@@ -167,6 +170,7 @@ NULL
 0
 JOF_JUMP
 )
+\
 \
 macro
 (
@@ -183,6 +187,7 @@ JOF_JUMP
 |
 JOF_DETECTING
 )
+\
 \
 macro
 (
@@ -1252,6 +1257,7 @@ js_true_str
 JOF_BYTE
 )
 \
+\
 macro
 (
 JSOP_OR
@@ -1269,6 +1275,7 @@ JOF_DETECTING
 |
 JOF_LEFTASSOC
 )
+\
 \
 macro
 (
@@ -1406,6 +1413,7 @@ NULL
 JOF_UINT8
 )
 \
+\
 macro
 (
 JSOP_MOREITER
@@ -1419,6 +1427,7 @@ NULL
 2
 JOF_BYTE
 )
+\
 \
 macro
 (
@@ -1437,6 +1446,7 @@ next
 1
 JOF_BYTE
 )
+\
 \
 macro
 (
@@ -2049,6 +2059,7 @@ JOF_DETECTING
 \
 \
 \
+\
 macro
 (
 JSOP_THROW
@@ -2126,6 +2137,7 @@ NULL
 JOF_JUMP
 )
 \
+\
 macro
 (
 JSOP_RETSUB
@@ -2139,6 +2151,7 @@ NULL
 0
 JOF_BYTE
 )
+\
 \
 \
 \
@@ -2188,6 +2201,7 @@ NULL
 JOF_BYTE
 )
 \
+\
 macro
 (
 JSOP_CASE
@@ -2201,6 +2215,7 @@ NULL
 1
 JOF_JUMP
 )
+\
 \
 macro
 (
@@ -2407,6 +2422,7 @@ NULL
 0
 JOF_BYTE
 )
+\
 \
 macro
 (
