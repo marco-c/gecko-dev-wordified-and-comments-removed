@@ -2649,7 +2649,7 @@ charsEnd
 ;
 Rooted
 <
-JSStableString
+JSFlatString
 *
 >
 src
@@ -2849,10 +2849,6 @@ src
 -
 >
 chars
-(
-)
-.
-get
 (
 )
 end

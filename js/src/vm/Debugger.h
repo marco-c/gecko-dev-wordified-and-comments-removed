@@ -3122,7 +3122,7 @@ HandleValue
 thisv
 AbstractFramePtr
 frame
-StableCharPtr
+ConstTwoByteChars
 chars
 unsigned
 length

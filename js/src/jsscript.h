@@ -1344,7 +1344,7 @@ AutoSuppressPurge
 asp
 )
 ;
-JSStableString
+JSFlatString
 *
 substring
 (

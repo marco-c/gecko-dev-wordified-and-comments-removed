@@ -38,7 +38,7 @@ class
 Latin1CharsZ
 ;
 class
-StableCharPtr
+ConstTwoByteChars
 ;
 class
 TwoByteChars
@@ -203,7 +203,7 @@ using
 JS
 :
 :
-StableCharPtr
+ConstTwoByteChars
 ;
 using
 JS

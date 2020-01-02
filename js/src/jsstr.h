@@ -72,9 +72,6 @@ JSFlatString
 class
 JSLinearString
 ;
-class
-JSStableString
-;
 namespace
 js
 {
@@ -482,7 +479,7 @@ AllowGC
 allowGC
 >
 extern
-JSStableString
+JSFlatString
 *
 js_NewString
 (

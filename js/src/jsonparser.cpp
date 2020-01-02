@@ -385,7 +385,7 @@ uint32_t
 line
 )
 {
-StableCharPtr
+ConstTwoByteChars
 ptr
 =
 begin

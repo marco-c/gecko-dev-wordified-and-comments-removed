@@ -849,7 +849,7 @@ if
 message
 -
 >
-ensureStable
+ensureFlat
 (
 cx
 )
@@ -864,15 +864,11 @@ ucmessage
 message
 -
 >
-asStable
+asFlat
 (
 )
 .
 chars
-(
-)
-.
-get
 (
 )
 ;

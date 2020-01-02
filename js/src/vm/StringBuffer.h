@@ -189,7 +189,7 @@ const
 JS
 :
 :
-CharPtr
+ConstCharPtr
 chars
 size_t
 len
@@ -360,7 +360,7 @@ const
 JS
 :
 :
-CharPtr
+ConstCharPtr
 chars
 size_t
 len
