@@ -598,12 +598,6 @@ size
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-result
-nullptr
-)
-;
 uint32_t
 i
 ;
