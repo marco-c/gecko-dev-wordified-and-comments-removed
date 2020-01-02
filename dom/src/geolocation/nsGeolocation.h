@@ -342,10 +342,12 @@ SetDisconnectTimer
 )
 ;
 void
-SetHigherAccuracy
+UpdateAccuracy
 (
 bool
-aEnable
+aForceHigh
+=
+false
 )
 ;
 bool
