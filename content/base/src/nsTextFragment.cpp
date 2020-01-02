@@ -2014,7 +2014,7 @@ utf32Char
 )
 |
 |
-IS_BIDI_CONTROL_CHAR
+IsBidiControl
 (
 utf32Char
 )

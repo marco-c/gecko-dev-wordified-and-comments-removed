@@ -20579,6 +20579,7 @@ true
 return
 (
 (
+(
 ch
 &
 0xFF00
@@ -20605,12 +20606,13 @@ ch
 =
 =
 0x2029
+)
+)
 |
 |
-IS_BIDI_CONTROL_CHAR
+IsBidiControl
 (
 ch
-)
 )
 )
 ;
@@ -26220,6 +26222,10 @@ ZWNJ
 define
 ZWJ
 0x200D
+#
+define
+ALM
+0x061C
 static
 inline
 bool
@@ -26249,6 +26255,12 @@ aChar
 =
 =
 ZWJ
+|
+|
+aChar
+=
+=
+ALM
 ;
 }
 void
