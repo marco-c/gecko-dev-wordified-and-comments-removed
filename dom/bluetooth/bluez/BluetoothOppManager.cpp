@@ -6170,6 +6170,10 @@ if
 ProcessNextBatch
 (
 )
+&
+&
+!
+mIsServer
 )
 {
 Listen
