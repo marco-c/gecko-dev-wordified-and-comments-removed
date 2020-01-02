@@ -2924,10 +2924,7 @@ nsStyleContext
 aToContext
 )
 {
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 fromValue
 toValue
 dummyValue
@@ -2953,7 +2950,7 @@ toValue
 |
 |
 !
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 Interpolate

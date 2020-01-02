@@ -84,10 +84,10 @@ return
 this
 ;
 }
-nsStyleAnimation
+mozilla
 :
 :
-Value
+StyleAnimationValue
 mStartForReversingTest
 ;
 double

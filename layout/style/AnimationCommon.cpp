@@ -583,10 +583,7 @@ aProperty
 nsStyleContext
 *
 aStyleContext
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 &
 aComputedValue
 )
@@ -594,7 +591,7 @@ aComputedValue
 bool
 result
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 ExtractComputedValue
@@ -621,7 +618,7 @@ GetUnit
 )
 =
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_Enumerated
@@ -640,7 +637,7 @@ aComputedValue
 GetIntValue
 (
 )
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_Visibility
@@ -1474,7 +1471,7 @@ ok
 =
 #
 endif
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 UncomputeValue
@@ -1592,7 +1589,7 @@ i
 nsAutoString
 value
 ;
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 UncomputeValue
@@ -4379,10 +4376,7 @@ GetValue
 positionInSegment
 )
 ;
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 *
 val
 =
@@ -4404,7 +4398,7 @@ result
 =
 #
 endif
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 Interpolate

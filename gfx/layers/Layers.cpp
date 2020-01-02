@@ -1158,7 +1158,7 @@ radians
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1209,7 +1209,7 @@ radians
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1260,7 +1260,7 @@ radians
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1311,7 +1311,7 @@ radians
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1410,7 +1410,7 @@ radians
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1487,7 +1487,7 @@ TScale
 {
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1583,7 +1583,7 @@ TTranslation
 {
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1695,7 +1695,7 @@ x
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1746,7 +1746,7 @@ y
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1781,7 +1781,7 @@ TSkew
 {
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -1852,7 +1852,7 @@ TTransformMatrix
 {
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -2166,7 +2166,7 @@ value
 ;
 arr
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 AppendTransformFunction
@@ -2555,10 +2555,7 @@ ctf
 }
 InfallibleTArray
 <
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 >
 &
 startValues
@@ -2570,10 +2567,7 @@ mStartValues
 ;
 InfallibleTArray
 <
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 >
 &
 endValues
@@ -2627,10 +2621,7 @@ segments
 j
 ]
 ;
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 *
 startValue
 =
@@ -2640,10 +2631,7 @@ AppendElement
 (
 )
 ;
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 *
 endValue
 =

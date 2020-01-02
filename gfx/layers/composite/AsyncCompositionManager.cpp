@@ -1762,16 +1762,10 @@ aPortion
 Animation
 &
 aAnimation
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 &
 aStart
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 &
 aEnd
 Animatable
@@ -1779,10 +1773,7 @@ Animatable
 aValue
 )
 {
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 interpolatedValue
 ;
 NS_ASSERTION
@@ -1808,7 +1799,7 @@ GetUnit
 )
 =
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_None
@@ -1821,7 +1812,7 @@ GetUnit
 )
 =
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 eUnit_None
@@ -1833,7 +1824,7 @@ unit
 "
 )
 ;
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 Interpolate

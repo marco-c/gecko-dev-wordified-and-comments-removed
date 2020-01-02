@@ -1410,10 +1410,7 @@ list
 "
 )
 ;
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 currentValue
 ;
 do
@@ -1916,10 +1913,7 @@ ElementPropertyTransition
 (
 )
 ;
-nsStyleAnimation
-:
-:
-Value
+StyleAnimationValue
 startValue
 endValue
 dummyValue
@@ -1959,7 +1953,7 @@ haveValues
 haveChange
 &
 &
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 Interpolate

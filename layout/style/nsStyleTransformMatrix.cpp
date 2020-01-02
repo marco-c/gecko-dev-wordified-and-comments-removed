@@ -914,7 +914,7 @@ GetPercentValue
 ;
 aMatrix
 =
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 InterpolateTransformMatrix

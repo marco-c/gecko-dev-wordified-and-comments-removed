@@ -9544,7 +9544,7 @@ aY
 Method
 for
 testing
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 ComputeDistance
@@ -9562,7 +9562,7 @@ as
 reported
 by
 *
-nsStyleAnimation
+StyleAnimationValue
 :
 :
 ComputeDistance
