@@ -308,6 +308,11 @@ nsWindowMap
 mm
 '
 '
+OSXNotificationCenter
+.
+mm
+'
+'
 WidgetTraceEvent
 .
 mm
