@@ -244,6 +244,17 @@ aOtherNullable
 )
 ;
 }
+operator
+bool
+(
+)
+const
+{
+return
+!
+mIsNull
+;
+}
 template
 <
 typename
