@@ -1226,7 +1226,7 @@ double
 aValue
 )
 {
-DeviceLightEventInitInitializer
+DeviceLightEventInit
 init
 ;
 init
@@ -1313,7 +1313,7 @@ double
 aMax
 )
 {
-DeviceProximityEventInitInitializer
+DeviceProximityEventInit
 init
 ;
 init
@@ -1436,7 +1436,7 @@ bool
 aNear
 )
 {
-UserProximityEventInitInitializer
+UserProximityEventInit
 init
 ;
 init

@@ -2722,7 +2722,7 @@ nsTArray
 <
 Nullable
 <
-MutationObservingInfoInitializer
+MutationObservingInfo
 >
 >
 &
@@ -2760,7 +2760,7 @@ Count
 i
 )
 {
-MutationObservingInfoInitializer
+MutationObservingInfo
 &
 info
 =
