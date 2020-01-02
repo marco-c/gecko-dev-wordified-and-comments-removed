@@ -419,7 +419,7 @@ typeRepr
 )
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -664,7 +664,7 @@ length_
 )
 entries_
 (
-NULL
+nullptr
 )
 {
 }

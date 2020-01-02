@@ -517,9 +517,9 @@ bailoutRecord
 setCause
 (
 ParallelBailoutOverRecursed
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 return
@@ -641,7 +641,7 @@ JSObject
 ED_OK
 )
 return
-NULL
+nullptr
 ;
 return
 args
@@ -679,7 +679,7 @@ array
 parExtendDenseElements
 (
 slice
-NULL
+nullptr
 length
 )
 ;
@@ -694,7 +694,7 @@ JSObject
 ED_OK
 )
 return
-NULL
+nullptr
 ;
 return
 array
@@ -2477,7 +2477,7 @@ JS_ASSERT
 outermostScript
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -2485,7 +2485,7 @@ JS_ASSERT
 currentScript
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -2656,7 +2656,7 @@ bailoutRecord
 addTrace
 (
 currentScript
-NULL
+nullptr
 )
 ;
 }

@@ -400,7 +400,7 @@ VMFunction
 :
 wrapped
 (
-NULL
+nullptr
 )
 explicitArgs
 (
@@ -3030,7 +3030,7 @@ IonScript
 *
 ionScript
 =
-NULL
+nullptr
 )
 :
 cx_

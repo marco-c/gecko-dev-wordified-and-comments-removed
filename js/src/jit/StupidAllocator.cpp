@@ -215,7 +215,7 @@ appendN
 LDefinition
 *
 )
-NULL
+nullptr
 graph
 .
 numVirtualRegisters
@@ -1508,7 +1508,7 @@ LMoveGroup
 *
 group
 =
-NULL
+nullptr
 ;
 MBasicBlock
 *

@@ -369,7 +369,7 @@ osrBlock_
 )
 osrBlock_
 =
-NULL
+nullptr
 ;
 if
 (
@@ -540,7 +540,7 @@ MInstruction
 *
 start
 =
-NULL
+nullptr
 ;
 for
 (
@@ -657,7 +657,7 @@ JS_ASSERT
 entryPc
 !
 =
-NULL
+nullptr
 )
 ;
 MBasicBlock
@@ -684,7 +684,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -700,7 +700,7 @@ pred
 )
 )
 return
-NULL
+nullptr
 ;
 return
 block
@@ -755,7 +755,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -765,13 +765,13 @@ block
 >
 inherit
 (
-NULL
+nullptr
 pred
 popped
 )
 )
 return
-NULL
+nullptr
 ;
 return
 block
@@ -839,7 +839,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -853,7 +853,7 @@ pred
 )
 )
 return
-NULL
+nullptr
 ;
 return
 block
@@ -887,7 +887,7 @@ MBasicBlock
 New
 (
 graph
-NULL
+nullptr
 info
 pred
 entryPc
@@ -927,7 +927,7 @@ MBasicBlock
 New
 (
 graph
-NULL
+nullptr
 info
 pred
 pred
@@ -1013,7 +1013,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1027,7 +1027,7 @@ pred
 )
 )
 return
-NULL
+nullptr
 ;
 block
 -
@@ -1073,7 +1073,7 @@ MBasicBlock
 (
 graph
 info
-NULL
+nullptr
 kind
 )
 ;
@@ -1088,7 +1088,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1241,7 +1241,7 @@ pred
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1288,7 +1288,7 @@ firstStackSlot
 )
 lastIns_
 (
-NULL
+nullptr
 )
 pc_
 (
@@ -1296,19 +1296,19 @@ pc
 )
 lir_
 (
-NULL
+nullptr
 )
 start_
 (
-NULL
+nullptr
 )
 entryResumePoint_
 (
-NULL
+nullptr
 )
 successorWithPhis_
 (
-NULL
+nullptr
 )
 positionInPhiSuccessor_
 (
@@ -1328,7 +1328,7 @@ false
 )
 immediateDominator_
 (
-NULL
+nullptr
 )
 numDominated_
 (
@@ -1336,7 +1336,7 @@ numDominated_
 )
 loopHeader_
 (
-NULL
+nullptr
 )
 trackedPc_
 (
@@ -1579,7 +1579,7 @@ callerResumePoint
 (
 )
 :
-NULL
+nullptr
 ;
 entryResumePoint_
 =
@@ -1852,7 +1852,7 @@ JS_ASSERT
 pred
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -2946,7 +2946,7 @@ lastIns_
 ;
 lastIns_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3370,7 +3370,7 @@ iter
 }
 lastIns_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3475,7 +3475,7 @@ pred
 >
 setSuccessorWithPhis
 (
-NULL
+nullptr
 0
 )
 ;
@@ -3903,7 +3903,7 @@ pred
 >
 setSuccessorWithPhis
 (
-NULL
+nullptr
 0
 )
 ;
@@ -5164,7 +5164,7 @@ clearDominatorInfo
 {
 setImmediateDominator
 (
-NULL
+nullptr
 )
 ;
 immediatelyDominated_
@@ -5686,7 +5686,7 @@ numPredecessors
 1
 )
 return
-NULL
+nullptr
 ;
 MBasicBlock
 *
@@ -5707,7 +5707,7 @@ getPredecessor
 )
 )
 return
-NULL
+nullptr
 ;
 MInstruction
 *
@@ -5789,7 +5789,7 @@ ifFalse
 this
 )
 return
-NULL
+nullptr
 ;
 *
 pdirection
@@ -5815,7 +5815,7 @@ test
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void

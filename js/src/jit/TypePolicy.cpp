@@ -584,7 +584,7 @@ MInstruction
 *
 replace
 =
-NULL
+nullptr
 ;
 if
 (

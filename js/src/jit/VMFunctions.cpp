@@ -178,7 +178,7 @@ true
 ;
 functions
 =
-NULL
+nullptr
 ;
 }
 this
@@ -787,8 +787,8 @@ cx
 obj
 id
 rval
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -1274,7 +1274,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -1351,7 +1351,7 @@ NewDenseAllocatedArray
 (
 cx
 count
-NULL
+nullptr
 newKind
 )
 )
@@ -1362,7 +1362,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1468,7 +1468,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1599,7 +1599,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -1999,7 +1999,7 @@ ArrayObject
 (
 )
 :
-NULL
+nullptr
 )
 ;
 if
@@ -2022,7 +2022,7 @@ arrRes
 )
 )
 return
-NULL
+nullptr
 ;
 return
 arrRes
@@ -2071,7 +2071,7 @@ argv
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -2458,7 +2458,7 @@ if
 slots
 )
 return
-NULL
+nullptr
 ;
 for
 (
@@ -3057,17 +3057,17 @@ Shape
 *
 shape
 =
-NULL
+nullptr
 ;
 JSObject
 *
 scope
 =
-NULL
+nullptr
 *
 pobj
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3822,7 +3822,7 @@ length
 )
 )
 return
-NULL
+nullptr
 ;
 arrRes
 -
@@ -3883,7 +3883,7 @@ NewDenseCopiedArray
 cx
 length
 rest
-NULL
+nullptr
 newKind
 )
 ;

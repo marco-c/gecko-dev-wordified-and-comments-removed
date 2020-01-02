@@ -321,7 +321,7 @@ script
 )
 =
 =
-NULL
+nullptr
 ;
 }
 uint32_t

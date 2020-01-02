@@ -371,11 +371,11 @@ number
 )
 classNext
 (
-NULL
+nullptr
 )
 classPrev
 (
-NULL
+nullptr
 )
 {
 }

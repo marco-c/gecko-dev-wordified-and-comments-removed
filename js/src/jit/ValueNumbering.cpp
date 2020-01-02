@@ -1590,7 +1590,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 dom
 =
@@ -2195,7 +2195,7 @@ if
 valueNumber_
 =
 =
-NULL
+nullptr
 )
 return
 0
@@ -2288,7 +2288,7 @@ classNext
 vncheck
 !
 =
-NULL
+nullptr
 ;
 vncheck
 =
@@ -2352,7 +2352,7 @@ vncheck
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -2423,7 +2423,7 @@ defdata
 classPrev
 =
 =
-NULL
+nullptr
 )
 ;
 if
@@ -2434,7 +2434,7 @@ defdata
 classNext
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -2505,7 +2505,7 @@ valueNumberData
 >
 classNext
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -2521,7 +2521,7 @@ def
 tmp
 !
 =
-NULL
+nullptr
 ;
 tmp
 =
@@ -2581,7 +2581,7 @@ newdata
 >
 classPrev
 =
-NULL
+nullptr
 ;
 IonSpew
 (
@@ -2614,7 +2614,7 @@ newRep
 tmp
 !
 =
-NULL
+nullptr
 ;
 tmp
 =
@@ -2768,14 +2768,14 @@ defdata
 >
 classPrev
 =
-NULL
+nullptr
 ;
 defdata
 -
 >
 classNext
 =
-NULL
+nullptr
 ;
 }
 }

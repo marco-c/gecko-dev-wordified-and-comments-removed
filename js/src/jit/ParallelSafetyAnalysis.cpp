@@ -503,7 +503,7 @@ false
 )
 slice_
 (
-NULL
+nullptr
 )
 {
 }
@@ -1440,7 +1440,7 @@ MInstruction
 *
 instr
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1716,7 +1716,7 @@ MConstant
 *
 udef
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1802,7 +1802,7 @@ JS_ASSERT
 udef
 =
 =
-NULL
+nullptr
 )
 ;
 udef
@@ -2050,7 +2050,7 @@ pred
 >
 setSuccessorWithPhis
 (
-NULL
+nullptr
 0
 )
 ;
@@ -2375,7 +2375,7 @@ ins
 function
 (
 )
-NULL
+nullptr
 )
 )
 ;

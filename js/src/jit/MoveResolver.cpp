@@ -188,7 +188,7 @@ other
 }
 }
 return
-NULL
+nullptr
 ;
 }
 bool

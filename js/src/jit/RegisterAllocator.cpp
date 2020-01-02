@@ -69,7 +69,7 @@ appendN
 LDefinition
 *
 )
-NULL
+nullptr
 graph
 .
 numVirtualRegisters
