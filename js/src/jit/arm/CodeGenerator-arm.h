@@ -1206,6 +1206,8 @@ OutOfLineCodeBase
 CodeGeneratorARM
 >
 {
+protected
+:
 LSnapshot
 *
 snapshot_

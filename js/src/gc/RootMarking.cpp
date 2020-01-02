@@ -1465,6 +1465,13 @@ defined
 (
 JS_ION
 )
+&
+&
+!
+defined
+(
+JS_ARM_SIMULATOR
+)
 for
 (
 jit

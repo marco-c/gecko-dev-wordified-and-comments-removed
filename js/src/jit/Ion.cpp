@@ -191,6 +191,15 @@ include
 "
 jit
 /
+JitCommon
+.
+h
+"
+#
+include
+"
+jit
+/
 JitCompartment
 .
 h
@@ -11008,8 +11017,9 @@ jitRuntime
 )
 )
 ;
-enter
+CALL_GENERATED_CODE
 (
+enter
 data
 .
 jitcode
@@ -11785,8 +11795,9 @@ cx
 RESOLVE_INFER
 )
 ;
-enter
+CALL_GENERATED_CODE
 (
+enter
 jitcode
 args
 .

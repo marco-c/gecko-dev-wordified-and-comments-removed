@@ -4606,14 +4606,6 @@ invalid
 }
 ;
 class
-FloatOp
-{
-uint32_t
-data
-;
-}
-;
-class
 Operand
 {
 public

@@ -89,6 +89,15 @@ h
 "
 #
 endif
+#
+include
+"
+jit
+/
+JitCommon
+.
+h
+"
 namespace
 JSC
 {
@@ -607,8 +616,9 @@ executableAddress
 return
 MatchResult
 (
-fn
+CALL_GENERATED_YARR_CODE4
 (
+fn
 input
 start
 length
@@ -693,8 +703,9 @@ executableAddress
 return
 MatchResult
 (
-fn
+CALL_GENERATED_YARR_CODE3
 (
+fn
 input
 start
 length

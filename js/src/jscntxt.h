@@ -1009,6 +1009,14 @@ kind
 ]
 ;
 }
+void
+*
+stackLimitAddressForJitCode
+(
+StackKind
+kind
+)
+;
 size_t
 gcSystemPageSize
 (

@@ -347,7 +347,7 @@ C
 "
 {
 extern
-int
+int64_t
 __aeabi_idivmod
 (
 int

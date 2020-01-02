@@ -55,6 +55,15 @@ h
 #
 include
 "
+jit
+/
+JitCommon
+.
+h
+"
+#
+include
+"
 vm
 /
 Interpreter
@@ -621,8 +630,9 @@ cx
 )
 )
 ;
-enter
+CALL_GENERATED_CODE
 (
+enter
 data
 .
 jitcode
@@ -641,6 +651,10 @@ calleeToken
 data
 .
 scopeChain
+.
+get
+(
+)
 data
 .
 osrNumStackValues
