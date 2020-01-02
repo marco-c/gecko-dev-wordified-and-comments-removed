@@ -108,11 +108,6 @@ SVGAttrValueWrapper
 h
 '
 '
-SVGPreserveAspectRatio
-.
-h
-'
-'
 SVGStringList
 .
 h
