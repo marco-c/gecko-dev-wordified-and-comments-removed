@@ -215,6 +215,11 @@ testFindSCCs
 cpp
 '
 '
+testFreshGlobalEvalRedefinition
+.
+cpp
+'
+'
 testFuncCallback
 .
 cpp
