@@ -3911,6 +3911,13 @@ download
 -
 progress
 "
+class
+=
+"
+appbar
+-
+primary
+"
 oncommand
 =
 "
