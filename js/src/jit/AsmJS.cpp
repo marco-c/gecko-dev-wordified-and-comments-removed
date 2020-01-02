@@ -24522,7 +24522,7 @@ AsmJSImm_SinD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24539,7 +24539,7 @@ AsmJSImm_CosD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24556,7 +24556,7 @@ AsmJSImm_TanD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24573,7 +24573,7 @@ AsmJSImm_ASinD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24590,7 +24590,7 @@ AsmJSImm_ACosD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24607,7 +24607,7 @@ AsmJSImm_ATanD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24624,7 +24624,7 @@ AsmJSImm_ExpD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24641,7 +24641,7 @@ AsmJSImm_LogD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24658,7 +24658,7 @@ AsmJSImm_PowD
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24675,7 +24675,7 @@ AsmJSImm_ATan2D
 ;
 floatCallee
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 ;
 break
 ;
@@ -24705,7 +24705,7 @@ Float
 floatCallee
 =
 =
-AsmJSImm_Invalid
+AsmJSImm_Limit
 )
 return
 f
