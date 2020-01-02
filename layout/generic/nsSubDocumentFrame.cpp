@@ -1817,6 +1817,14 @@ if
 subdocRootFrame
 )
 {
+aBuilder
+-
+>
+SetAncestorHasTouchEventHandler
+(
+false
+)
+;
 subdocRootFrame
 -
 >
