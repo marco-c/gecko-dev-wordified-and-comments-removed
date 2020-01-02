@@ -16,10 +16,10 @@ h
 namespace
 stagefright
 {
-struct
+class
 DataSource
 ;
-struct
+class
 String8
 ;
 struct

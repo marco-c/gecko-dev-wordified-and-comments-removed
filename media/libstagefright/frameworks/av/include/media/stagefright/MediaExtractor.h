@@ -19,7 +19,7 @@ stagefright
 class
 DataSource
 ;
-class
+struct
 MediaSource
 ;
 class
