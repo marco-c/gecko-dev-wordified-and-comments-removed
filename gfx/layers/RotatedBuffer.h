@@ -239,6 +239,9 @@ aOperator
 gfx
 :
 :
+CompositionOp
+:
+:
 OP_OVER
 gfx
 :

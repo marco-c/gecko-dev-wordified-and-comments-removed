@@ -40,7 +40,10 @@ h
 static_assert
 (
 (
+int
+(
 NS_SIDE_TOP
+)
 =
 =
 0
@@ -48,7 +51,10 @@ NS_SIDE_TOP
 &
 &
 (
+int
+(
 NS_SIDE_RIGHT
+)
 =
 =
 1
@@ -56,7 +62,10 @@ NS_SIDE_RIGHT
 &
 &
 (
+int
+(
 NS_SIDE_BOTTOM
+)
 =
 =
 2
@@ -64,7 +73,10 @@ NS_SIDE_BOTTOM
 &
 &
 (
+int
+(
 NS_SIDE_LEFT
+)
 =
 =
 3

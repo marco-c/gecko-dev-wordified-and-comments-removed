@@ -287,6 +287,9 @@ CopyToBuilder
 FillRule
 aFillRule
 =
+FillRule
+:
+:
 FILL_WINDING
 )
 const
@@ -305,6 +308,9 @@ aTransform
 FillRule
 aFillRule
 =
+FillRule
+:
+:
 FILL_WINDING
 )
 const

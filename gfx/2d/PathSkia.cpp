@@ -124,6 +124,9 @@ if
 mFillRule
 =
 =
+FillRule
+:
+:
 FILL_WINDING
 )
 {

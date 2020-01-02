@@ -215,10 +215,13 @@ hash
 AddToHash
 (
 hash
+int
+(
 aKey
 -
 >
 mExtend
+)
 )
 ;
 for

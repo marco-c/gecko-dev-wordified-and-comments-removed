@@ -324,6 +324,9 @@ GetFillRule
 FillRule
 fillRule
 =
+FillRule
+:
+:
 FILL_WINDING
 ;
 nsRefPtr
@@ -395,6 +398,9 @@ NS_STYLE_FILL_RULE_EVENODD
 {
 fillRule
 =
+FillRule
+:
+:
 FILL_EVEN_ODD
 ;
 }

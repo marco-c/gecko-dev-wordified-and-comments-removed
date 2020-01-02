@@ -9684,7 +9684,10 @@ surfaces
 Optimize
 drawing
 of
-EXTEND_REPEAT
+ExtendMode
+:
+:
+REPEAT
 patterns
 for
 OS
@@ -30410,7 +30413,10 @@ using
 cairo_mask
 *
 Fix
-EXTEND_REFLECT
+ExtendMode
+:
+:
+REFLECT
 and
 EXTEND_PAD
 to

@@ -644,7 +644,10 @@ transform
 gfx
 :
 :
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 clipRect
 &
 visibleRegion

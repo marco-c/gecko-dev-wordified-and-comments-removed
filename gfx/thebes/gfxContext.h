@@ -1269,6 +1269,9 @@ mozilla
 gfx
 :
 :
+CompositionOp
+:
+:
 OP_OVER
 )
 opIsClear
@@ -1296,6 +1299,9 @@ mozilla
 gfx
 :
 :
+FillRule
+:
+:
 FILL_WINDING
 )
 aaMode
@@ -1306,7 +1312,10 @@ mozilla
 gfx
 :
 :
-AA_SUBPIXEL
+AntialiasMode
+:
+:
+SUBPIXEL
 )
 patternTransformChanged
 (

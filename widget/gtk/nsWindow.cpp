@@ -9311,6 +9311,9 @@ DrawOptions
 1
 .
 0
+CompositionOp
+:
+:
 OP_SOURCE
 )
 )

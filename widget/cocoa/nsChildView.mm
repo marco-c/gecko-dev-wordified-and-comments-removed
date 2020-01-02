@@ -13946,6 +13946,9 @@ DrawOptions
 gfx
 :
 :
+CompositionOp
+:
+:
 OP_SOURCE
 )
 )
@@ -15661,6 +15664,9 @@ DrawOptions
 gfx
 :
 :
+CompositionOp
+:
+:
 OP_SOURCE
 )
 )
@@ -15830,6 +15836,9 @@ DrawOptions
 .
 0
 gfx
+:
+:
+CompositionOp
 :
 :
 OP_SOURCE

@@ -555,6 +555,9 @@ CreatePathBuilder
 FillRule
 aFillRule
 =
+FillRule
+:
+:
 FILL_WINDING
 )
 const
@@ -574,7 +577,10 @@ aNumStops
 ExtendMode
 aExtendMode
 =
-EXTEND_CLAMP
+ExtendMode
+:
+:
+CLAMP
 )
 const
 ;

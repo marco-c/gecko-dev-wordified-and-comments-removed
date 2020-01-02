@@ -567,7 +567,10 @@ mozilla
 gfx
 :
 :
-EXTEND_REPEAT
+ExtendMode
+:
+:
+REPEAT
 :
 mozilla
 :
@@ -575,7 +578,10 @@ mozilla
 gfx
 :
 :
-EXTEND_CLAMP
+ExtendMode
+:
+:
+CLAMP
 )
 ;
 }

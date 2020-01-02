@@ -435,6 +435,9 @@ new
 PathCG
 (
 path
+FillRule
+:
+:
 FILL_WINDING
 )
 ;

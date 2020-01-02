@@ -122,7 +122,10 @@ GetType
 )
 !
 =
-PATTERN_SURFACE
+PatternType
+:
+:
+SURFACE
 )
 {
 mA

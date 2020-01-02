@@ -174,7 +174,7 @@ return
 1
 <
 <
-int
+uint8_t
 (
 b
 )

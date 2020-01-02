@@ -1467,6 +1467,9 @@ if
 aFillRule
 =
 =
+FillRule
+:
+:
 FILL_WINDING
 )
 {

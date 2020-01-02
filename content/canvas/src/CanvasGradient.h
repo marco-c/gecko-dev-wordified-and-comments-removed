@@ -177,7 +177,10 @@ mRawStops
 gfx
 :
 :
-EXTEND_CLAMP
+ExtendMode
+:
+:
+CLAMP
 )
 ;
 return

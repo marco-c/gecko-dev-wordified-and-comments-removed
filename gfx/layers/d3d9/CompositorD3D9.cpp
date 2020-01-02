@@ -1521,7 +1521,10 @@ get
 ;
 SetSamplerForFilter
 (
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 )
 ;
 Rect
@@ -3303,7 +3306,10 @@ aFilter
 )
 {
 case
-FILTER_LINEAR
+Filter
+:
+:
+LINEAR
 :
 device
 (
@@ -3332,7 +3338,10 @@ D3DTEXF_LINEAR
 return
 ;
 case
-FILTER_POINT
+Filter
+:
+:
+POINT
 :
 device
 (
