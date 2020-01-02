@@ -1012,8 +1012,9 @@ cx
 ScopeIter
 &
 si
-uint32_t
-stackDepth
+jsbytecode
+*
+pc
 )
 ;
 extern
