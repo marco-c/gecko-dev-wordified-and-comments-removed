@@ -385,12 +385,14 @@ peerconnection
 .
 .
 /
-.
-.
+trunk
+/
+third_party
 /
 libyuv
 /
 include
+/
 '
 '
 .
