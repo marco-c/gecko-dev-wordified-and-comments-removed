@@ -295,6 +295,15 @@ mozilla
 com
 *
 )
+if
+test
+-
+z
+"
+MOZ_PGO
+"
+;
+then
 bucket
 =
 mozilla
@@ -312,6 +321,7 @@ east
 1
 -
 prod
+fi
 ;
 ;
 b2g
@@ -325,6 +335,15 @@ mozilla
 com
 *
 )
+if
+test
+-
+z
+"
+MOZ_PGO
+"
+;
+then
 bucket
 =
 mozilla
@@ -342,6 +361,7 @@ west
 2
 -
 prod
+fi
 ;
 ;
 esac
