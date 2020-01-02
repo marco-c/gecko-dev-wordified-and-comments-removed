@@ -789,6 +789,12 @@ sContextList
 nullptr
 ;
 static
+bool
+sIncrementalCC
+=
+false
+;
+static
 nsScriptNameSpaceManager
 *
 gNameSpaceManager
