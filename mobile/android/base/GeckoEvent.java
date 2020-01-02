@@ -65,6 +65,17 @@ generatorannotations
 WrapEntireClassForJNI
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 android
 .
 content
@@ -3101,6 +3112,7 @@ return
 event
 ;
 }
+RobocopTarget
 public
 static
 GeckoEvent
