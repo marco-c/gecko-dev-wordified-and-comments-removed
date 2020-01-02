@@ -2775,7 +2775,7 @@ final
 String
 DEFAULT_SORT_ORDER
 =
-_ID
+DATE_MODIFIED
 +
 "
 DESC
