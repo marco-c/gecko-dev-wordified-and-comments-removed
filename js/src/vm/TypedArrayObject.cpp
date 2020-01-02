@@ -4751,6 +4751,13 @@ v
 isUndefined
 (
 )
+|
+|
+v
+.
+isSymbol
+(
+)
 ;
 }
 static
@@ -4836,6 +4843,13 @@ MOZ_ASSERT
 v
 .
 isUndefined
+(
+)
+|
+|
+v
+.
+isSymbol
 (
 )
 )
