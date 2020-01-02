@@ -357,6 +357,11 @@ aTrack
 )
 ;
 void
+UpdateIndex
+(
+)
+;
+void
 NotifyResourcesStatusChanged
 (
 )
