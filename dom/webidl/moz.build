@@ -2965,6 +2965,11 @@ MozWifiP2pStatusChangeEvent
 webidl
 '
 '
+MozWifiStationInfoEvent
+.
+webidl
+'
+'
 MozWifiStatusChangeEvent
 .
 webidl

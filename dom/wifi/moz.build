@@ -108,6 +108,11 @@ nsIDOMMozWifiP2pStatusChangeEvent
 idl
 '
 '
+nsIDOMMozWifiStationInfoEvent
+.
+idl
+'
+'
 nsIDOMMozWifiStatusChangeEvent
 .
 idl
@@ -216,6 +221,11 @@ SOURCES
 [
 '
 WifiCertService
+.
+cpp
+'
+'
+WifiHotspotUtils
 .
 cpp
 '
