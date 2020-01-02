@@ -320,6 +320,11 @@ WebGLExtensionElementIndexUint
 cpp
 '
 '
+WebGLExtensionFragDepth
+.
+cpp
+'
+'
 WebGLExtensionInstancedArrays
 .
 cpp

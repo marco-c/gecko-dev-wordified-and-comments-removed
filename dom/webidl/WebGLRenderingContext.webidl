@@ -4745,6 +4745,14 @@ WebGLExtensionElementIndexUint
 NoInterfaceObject
 ]
 interface
+WebGLExtensionFragDepth
+{
+}
+;
+[
+NoInterfaceObject
+]
+interface
 WebGLExtensionLoseContext
 {
 void

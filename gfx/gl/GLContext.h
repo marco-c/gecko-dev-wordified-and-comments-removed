@@ -285,6 +285,7 @@ draw_instanced
 element_index_uint
 ES2_compatibility
 ES3_compatibility
+frag_depth
 framebuffer_blit
 framebuffer_multisample
 framebuffer_object
@@ -986,6 +987,7 @@ ARB_framebuffer_sRGB
 EXT_framebuffer_sRGB
 KHR_debug
 ARB_half_float_pixel
+EXT_frag_depth
 Extensions_Max
 Extensions_End
 }

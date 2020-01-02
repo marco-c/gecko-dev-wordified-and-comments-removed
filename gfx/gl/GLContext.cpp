@@ -486,6 +486,9 @@ GL_KHR_debug
 "
 GL_ARB_half_float_pixel
 "
+"
+GL_EXT_frag_depth
+"
 nullptr
 }
 ;

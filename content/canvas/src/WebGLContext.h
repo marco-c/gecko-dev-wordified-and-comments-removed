@@ -5109,6 +5109,7 @@ ContextLostAwaitingRestore
 enum
 WebGLExtensionID
 {
+EXT_frag_depth
 EXT_sRGB
 EXT_texture_filter_anisotropic
 OES_element_index_uint
