@@ -259,10 +259,6 @@ Matrix4x4
 &
 aTransform
 const
-Point
-&
-aOffset
-const
 Filter
 &
 aFilter
@@ -979,7 +975,6 @@ aClipRect
 aEffectChain
 aOpacity
 aTransform
-aOffset
 )
 ;
 if
@@ -1014,7 +1009,6 @@ diagnostics
 rect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -1100,7 +1094,6 @@ diagnostics
 aVisibleRegion
 aClipRect
 aTransform
-aOffset
 )
 ;
 }

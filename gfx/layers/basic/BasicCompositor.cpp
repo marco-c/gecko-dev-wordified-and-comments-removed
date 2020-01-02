@@ -1615,13 +1615,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-gfx
-:
-:
-Point
-&
-aOffset
 )
 {
 DrawTarget

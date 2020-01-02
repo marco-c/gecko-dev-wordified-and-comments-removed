@@ -357,13 +357,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-gfx
-:
-:
-Point
-&
-aOffset
 )
 MOZ_OVERRIDE
 ;

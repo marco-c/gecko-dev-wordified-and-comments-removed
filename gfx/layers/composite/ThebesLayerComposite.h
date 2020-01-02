@@ -179,10 +179,6 @@ void
 RenderLayer
 (
 const
-nsIntPoint
-&
-aOffset
-const
 nsIntRect
 &
 aClipRect

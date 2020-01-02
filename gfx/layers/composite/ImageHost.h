@@ -224,13 +224,6 @@ const
 gfx
 :
 :
-Point
-&
-aOffset
-const
-gfx
-:
-:
 Filter
 &
 aFilter
@@ -470,13 +463,6 @@ gfx
 Matrix4x4
 &
 aTransform
-const
-gfx
-:
-:
-Point
-&
-aOffset
 const
 gfx
 :

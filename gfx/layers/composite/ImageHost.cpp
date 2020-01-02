@@ -231,13 +231,6 @@ const
 gfx
 :
 :
-Point
-&
-aOffset
-const
-gfx
-:
-:
 Filter
 &
 aFilter
@@ -567,7 +560,6 @@ aClipRect
 aEffectChain
 aOpacity
 aTransform
-aOffset
 )
 ;
 GetCompositor
@@ -583,7 +575,6 @@ DIAGNOSTIC_BIGIMAGE
 rect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -615,7 +606,6 @@ DIAGNOSTIC_IMAGE
 gfxPictureRect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -785,7 +775,6 @@ aClipRect
 aEffectChain
 aOpacity
 aTransform
-aOffset
 )
 ;
 GetCompositor
@@ -799,7 +788,6 @@ DIAGNOSTIC_IMAGE
 rect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -1289,13 +1277,6 @@ const
 gfx
 :
 :
-Point
-&
-aOffset
-const
-gfx
-:
-:
 Filter
 &
 aFilter
@@ -1488,7 +1469,6 @@ aClipRect
 aEffectChain
 aOpacity
 aTransform
-aOffset
 )
 ;
 GetCompositor
@@ -1504,7 +1484,6 @@ DIAGNOSTIC_BIGIMAGE
 rect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
@@ -1698,7 +1677,6 @@ aClipRect
 aEffectChain
 aOpacity
 aTransform
-aOffset
 )
 ;
 GetCompositor
@@ -1712,7 +1690,6 @@ DIAGNOSTIC_IMAGE
 rect
 aClipRect
 aTransform
-aOffset
 )
 ;
 }
