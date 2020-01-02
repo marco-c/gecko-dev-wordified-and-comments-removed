@@ -21126,7 +21126,7 @@ voidptr_t
 size
 =
 =
-8
+4
 )
 {
 do_check_throws
