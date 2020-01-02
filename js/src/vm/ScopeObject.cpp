@@ -2083,7 +2083,7 @@ FINALIZE_KIND
 gc
 :
 :
-DefaultHeap
+TenuredHeap
 shape
 type
 )
