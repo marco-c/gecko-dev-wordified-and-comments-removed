@@ -1335,7 +1335,7 @@ RecvCrashPluginNow
 (
 )
 {
-abort
+MOZ_CRASH
 (
 )
 ;
