@@ -408,6 +408,17 @@ computedview
 "
 )
 ;
+inspector
+.
+emit
+(
+"
+layout
+-
+change
+"
+)
+;
 }
 )
 ;

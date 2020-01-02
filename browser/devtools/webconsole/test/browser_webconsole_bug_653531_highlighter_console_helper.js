@@ -767,9 +767,14 @@ updated
 "
 )
 ;
-executeSoon
+gBrowser
+.
+removeCurrentTab
 (
+)
+;
 finishTest
+(
 )
 ;
 }
