@@ -1771,17 +1771,6 @@ HandleObject
 handler
 )
 ;
-void
-clearTraps
-(
-js
-:
-:
-FreeOp
-*
-fop
-)
-;
 private
 :
 void

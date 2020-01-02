@@ -425,11 +425,6 @@ testToIntWidth
 cpp
 '
 '
-testTrap
-.
-cpp
-'
-'
 testTypedArrays
 .
 cpp
