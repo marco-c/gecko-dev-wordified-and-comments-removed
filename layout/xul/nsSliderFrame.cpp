@@ -1256,8 +1256,12 @@ nsIFrame
 *
 thumb
 =
+nsBox
+:
+:
 GetChildBox
 (
+this
 )
 ;
 if
@@ -1350,8 +1354,12 @@ nsIFrame
 *
 thumbBox
 =
+nsBox
+:
+:
 GetChildBox
 (
+this
 )
 ;
 if
