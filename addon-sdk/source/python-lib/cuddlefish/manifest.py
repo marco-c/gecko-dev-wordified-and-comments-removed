@@ -1979,18 +1979,6 @@ me
 js_filename
     
 def
-get_all_test_modules
-(
-self
-)
-:
-        
-return
-self
-.
-test_modules
-    
-def
 get_harness_options_manifest
 (
 self

@@ -1768,7 +1768,6 @@ path
 join
 (
 tests_path
-                                  
 "
 addons
 "

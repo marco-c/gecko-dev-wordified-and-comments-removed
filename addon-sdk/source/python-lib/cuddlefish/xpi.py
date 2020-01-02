@@ -159,11 +159,6 @@ hgignore
 .
 DS_Store
 "
-"
-install
-.
-rdf
-"
                      
 "
 application
@@ -171,6 +166,16 @@ application
 ini
 "
 xpi_path
+]
+    
+IGNORED_TOP_LVL_FILES
+=
+[
+"
+install
+.
+rdf
+"
 ]
     
 files_to_copy
@@ -547,6 +552,24 @@ walk
 template_root_dir
 )
 :
+        
+if
+template_root_dir
+=
+=
+dirpath
+:
+            
+filenames
+=
+list
+(
+filter_filenames
+(
+filenames
+IGNORED_TOP_LVL_FILES
+)
+)
         
 filenames
 =

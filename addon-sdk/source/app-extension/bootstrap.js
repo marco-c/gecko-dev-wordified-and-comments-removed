@@ -1376,11 +1376,6 @@ options
 '
 :
 {
-allTestModules
-:
-options
-.
-allTestModules
 iterations
 :
 options

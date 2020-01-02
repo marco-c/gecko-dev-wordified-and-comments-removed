@@ -222,15 +222,6 @@ function
 aInstall
 )
 {
-console
-.
-log
-(
-"
-failed
-"
-)
-;
 aInstall
 .
 removeListener
@@ -509,6 +500,9 @@ appDisabled
 ;
 }
 ;
+const
+getAddon
+=
 function
 getAddon
 (
@@ -550,3 +544,9 @@ return
 promise
 ;
 }
+exports
+.
+getAddon
+=
+getAddon
+;

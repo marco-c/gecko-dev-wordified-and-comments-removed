@@ -3516,11 +3516,32 @@ outfile
 )
 :
             
+try
+:
+                
 os
 .
 remove
 (
 outfile
+)
+            
+except
+Exception
+e
+:
+                
+print
+"
+Error
+Cleaning
+up
+:
+"
++
+str
+(
+e
 )
     
 atexit
