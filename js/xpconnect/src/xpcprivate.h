@@ -13368,8 +13368,8 @@ nsAString
 &
 source
 const
-nsACString
-&
+char
+*
 filename
 int32_t
 lineNo
