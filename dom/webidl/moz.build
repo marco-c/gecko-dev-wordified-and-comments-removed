@@ -2769,6 +2769,11 @@ MozMobileConnectionArray
 webidl
 '
 '
+MozMobileConnectionInfo
+.
+webidl
+'
+'
 MozMobileNetworkInfo
 .
 webidl
