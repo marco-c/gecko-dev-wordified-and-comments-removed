@@ -37,6 +37,9 @@ linear
 -
 gradient
 (
+transparent
+transparent
+2px
 hsla
 (
 0
@@ -48,6 +51,7 @@ hsla
 .
 6
 )
+2px
 hsla
 (
 0
@@ -59,7 +63,7 @@ hsla
 .
 6
 )
-0px
+3px
 hsl
 (
 0
@@ -68,7 +72,7 @@ hsl
 99
 %
 )
-1px
+3px
 hsl
 (
 0
@@ -115,13 +119,7 @@ toolbarColorLWT
 %
 define
 fgTabBackgroundMiddle
-linear
--
-gradient
-(
-transparent
-transparent
-)
+fgTabTexture
 %
 define
 hudButton

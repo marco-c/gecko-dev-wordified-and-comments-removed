@@ -80,7 +80,6 @@ fgTabTexture
 %
 define
 fgTabBackgroundMiddle
-fgTabTexture
 linear
 -
 gradient
