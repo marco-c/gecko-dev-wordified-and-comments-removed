@@ -197,8 +197,8 @@ NotifyCdmaCallWaiting
 (
 uint32_t
 aClientId
-nsString
-aNumber
+IPCCdmaWaitingCallData
+aData
 )
 ;
 NotifyConferenceCallStateChanged
