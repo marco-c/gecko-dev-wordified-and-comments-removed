@@ -929,15 +929,6 @@ GetPercentValue
 nsGenericHTMLElement
 :
 :
-MapScrollingAttributeInto
-(
-aAttributes
-aData
-)
-;
-nsGenericHTMLElement
-:
-:
 MapImageAlignAttributeInto
 (
 aAttributes
@@ -1015,7 +1006,6 @@ map
 =
 {
 attributes
-sScrollingAttributeMap
 sImageAlignAttributeMap
 sCommonAttributeMap
 }
@@ -1162,7 +1152,7 @@ GetSandboxFlags
 ;
 }
 return
-nsGenericHTMLElement
+nsGenericHTMLFrameElement
 :
 :
 AfterSetAttr

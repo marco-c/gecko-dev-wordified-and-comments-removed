@@ -3323,13 +3323,6 @@ sBackgroundColorAttributeMap
 ]
 ;
 static
-const
-MappedAttributeEntry
-sScrollingAttributeMap
-[
-]
-;
-static
 void
 MapImageAlignAttributeInto
 (
