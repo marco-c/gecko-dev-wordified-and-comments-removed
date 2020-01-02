@@ -10457,7 +10457,7 @@ mir
 )
 -
 >
-isDOMFunction
+isCallDOMNative
 (
 )
 )

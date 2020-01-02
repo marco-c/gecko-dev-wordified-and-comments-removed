@@ -2959,7 +2959,7 @@ if
 ins
 -
 >
-isDOMFunction
+isCallDOMNative
 (
 )
 )
