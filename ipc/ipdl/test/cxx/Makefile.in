@@ -72,12 +72,6 @@ IPDLTESTSRCS
 cpp
 =
 )
-CPPSRCS
-+
-=
-IPDLUnitTests
-.
-cpp
 EXTRA_PROTOCOLS
 =
 \

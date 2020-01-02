@@ -118,6 +118,16 @@ xpcAccessibleTableCell
 cpp
 '
 ]
+GENERATED_SOURCES
++
+=
+[
+'
+xpcAccEvents
+.
+cpp
+'
+]
 LIBRARY_NAME
 =
 '

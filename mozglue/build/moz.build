@@ -267,6 +267,16 @@ Nuwa
 h
 '
 ]
+SOURCES
++
+=
+[
+'
+Nuwa
+.
+cpp
+'
+]
 EXPORTS
 .
 mozilla
