@@ -263,7 +263,7 @@ then
 CPP
 =
 "
-cl
+CC
 -
 E
 -
@@ -283,7 +283,7 @@ then
 CXXCPP
 =
 "
-cl
+CXX
 -
 TP
 -
