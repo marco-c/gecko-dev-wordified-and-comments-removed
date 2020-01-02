@@ -1981,6 +1981,40 @@ self
 )
 :
         
+flags
+=
+[
+"
+JSCLASS_IS_DOMJSCLASS
+"
+]
+        
+if
+self
+.
+descriptor
+.
+interface
+.
+identifier
+.
+name
+=
+=
+"
+HTMLAllCollection
+"
+:
+            
+flags
+.
+append
+(
+"
+JSCLASS_EMULATES_UNDEFINED
+"
+)
+        
 callHook
 =
 LEGACYCALLER_HOOK_NAME
@@ -2026,7 +2060,8 @@ slots
 *
 /
                   
-JSCLASS_IS_DOMJSCLASS
+%
+s
                   
 %
 s
@@ -2061,6 +2096,15 @@ interface
 identifier
 .
 name
+       
+"
+|
+"
+.
+join
+(
+flags
+)
        
 callHook
        
