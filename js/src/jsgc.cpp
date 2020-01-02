@@ -4890,6 +4890,9 @@ uint32_t
 maxbytes
 )
 {
+#
+ifdef
+JS_THREADSAFE
 lock
 =
 PR_NewLock
@@ -4904,6 +4907,8 @@ lock
 return
 false
 ;
+#
+endif
 if
 (
 !
