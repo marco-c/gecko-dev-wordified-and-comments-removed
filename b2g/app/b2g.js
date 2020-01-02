@@ -4229,7 +4229,7 @@ video
 .
 enabled
 "
-false
+true
 )
 ;
 pref
