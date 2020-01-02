@@ -3741,6 +3741,7 @@ return
 event
 ;
 }
+RobocopTarget
 public
 static
 GeckoEvent
@@ -3781,6 +3782,7 @@ return
 event
 ;
 }
+RobocopTarget
 public
 static
 GeckoEvent
@@ -3821,6 +3823,7 @@ return
 event
 ;
 }
+RobocopTarget
 public
 static
 GeckoEvent
