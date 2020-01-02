@@ -192,10 +192,7 @@ buffer
 char
 *
 )
-nsMemory
-:
-:
-Alloc
+moz_malloc
 (
 count
 +
