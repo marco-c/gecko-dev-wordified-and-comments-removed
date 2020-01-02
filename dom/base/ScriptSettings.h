@@ -53,12 +53,6 @@ DestroyScriptSettings
 (
 )
 ;
-nsIGlobalObject
-*
-GetIncumbentGlobal
-(
-)
-;
 class
 ScriptSettingsStack
 ;
@@ -281,12 +275,6 @@ dom
 :
 ScriptSettingsStackEntry
 mEntry
-;
-JS
-:
-:
-AutoHideScriptedCaller
-mCallerOverride
 ;
 }
 ;
