@@ -3717,7 +3717,7 @@ rt
 >
 parentRuntime
 :
-nullptr
+rt
 ;
 }
 JS_PUBLIC_API
