@@ -705,11 +705,6 @@ break
 ;
 default
 :
-MOZ_ASSERT
-(
-false
-)
-;
 break
 ;
 }
