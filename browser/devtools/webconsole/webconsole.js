@@ -14341,7 +14341,8 @@ function
 JST__variablesViewEvaluate
 (
 aOptions
-aString
+aVar
+aValue
 )
 {
 let
@@ -14371,6 +14372,17 @@ updater
 )
 ;
 let
+string
+=
+aVar
+.
+evaluationMacro
+(
+aVar
+aValue
+)
+;
+let
 evalOptions
 =
 {
@@ -14392,7 +14404,7 @@ this
 .
 requestEvaluation
 (
-aString
+string
 evalOptions
 )
 .
