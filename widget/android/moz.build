@@ -137,6 +137,11 @@ GeneratedJNIWrappers
 .
 h
 '
+'
+GfxInfo
+.
+h
+'
 ]
 SOURCES
 +

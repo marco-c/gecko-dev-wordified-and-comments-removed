@@ -108,6 +108,16 @@ APZCCallbackHelper
 h
 '
 '
+GfxDriverInfo
+.
+h
+'
+'
+GfxInfoBase
+.
+h
+'
+'
 GfxInfoCollector
 .
 h
