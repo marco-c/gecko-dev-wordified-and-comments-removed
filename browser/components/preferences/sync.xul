@@ -1891,7 +1891,7 @@ end
 >
 <
 button
-onclick
+oncommand
 =
 "
 gSyncPane
@@ -1994,7 +1994,7 @@ end
 >
 <
 button
-onclick
+oncommand
 =
 "
 gSyncPane
@@ -2142,7 +2142,7 @@ end
 >
 <
 button
-onclick
+oncommand
 =
 "
 gSyncPane
