@@ -14969,6 +14969,14 @@ FINALIZE_OBJECT0
 )
 )
 ;
+if
+(
+!
+shape
+)
+return
+nullptr
+;
 RootedObject
 arrayProto
 (
