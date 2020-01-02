@@ -557,6 +557,15 @@ encode
 source
 )
 ]
+{
+type
+:
+"
+application
+/
+javascript
+"
+}
 )
 ;
 objectURL
