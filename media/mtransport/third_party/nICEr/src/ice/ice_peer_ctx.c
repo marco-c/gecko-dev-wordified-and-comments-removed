@@ -1854,6 +1854,13 @@ R_FAILED
 )
 ;
 }
+pctx
+-
+>
+state
+=
+NR_ICE_PEER_STATE_PAIRED
+;
 stream
 =
 STAILQ_FIRST
@@ -1898,13 +1905,6 @@ entry
 )
 ;
 }
-pctx
--
->
-state
-=
-NR_ICE_PEER_STATE_PAIRED
-;
 _status
 =
 0
