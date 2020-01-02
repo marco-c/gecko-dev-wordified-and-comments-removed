@@ -4801,6 +4801,7 @@ metrics
 .
 ISize
 (
+lineWM
 )
 ;
 pfd
@@ -4817,6 +4818,7 @@ metrics
 .
 BSize
 (
+lineWM
 )
 ;
 aFrame
