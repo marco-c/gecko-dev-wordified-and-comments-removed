@@ -446,6 +446,12 @@ util
 .
 jar
 \
+squareup
+-
+picasso
+.
+jar
+\
 sync
 -
 thirdparty
