@@ -3868,7 +3868,15 @@ if
 marginsData
 -
 >
-mAlignment
+mAlignmentX
+>
+0
+|
+|
+marginsData
+-
+>
+mAlignmentY
 >
 0
 )
@@ -3918,7 +3926,7 @@ left
 marginsData
 -
 >
-mAlignment
+mAlignmentX
 *
 floor
 (
@@ -3929,7 +3937,7 @@ x
 marginsData
 -
 >
-mAlignment
+mAlignmentX
 )
 ;
 float
@@ -3938,7 +3946,7 @@ top
 marginsData
 -
 >
-mAlignment
+mAlignmentY
 *
 floor
 (
@@ -3949,7 +3957,7 @@ y
 marginsData
 -
 >
-mAlignment
+mAlignmentY
 )
 ;
 float
@@ -3958,7 +3966,7 @@ right
 marginsData
 -
 >
-mAlignment
+mAlignmentX
 *
 ceil
 (
@@ -3971,7 +3979,7 @@ XMost
 marginsData
 -
 >
-mAlignment
+mAlignmentX
 )
 ;
 float
@@ -3980,7 +3988,7 @@ bottom
 marginsData
 -
 >
-mAlignment
+mAlignmentY
 *
 ceil
 (
@@ -3993,7 +4001,7 @@ YMost
 marginsData
 -
 >
-mAlignment
+mAlignmentY
 )
 ;
 rect

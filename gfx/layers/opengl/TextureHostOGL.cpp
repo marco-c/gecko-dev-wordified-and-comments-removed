@@ -71,13 +71,6 @@ h
 #
 include
 "
-TiledLayerBuffer
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h
@@ -86,6 +79,13 @@ h
 include
 "
 gfxImageSurface
+.
+h
+"
+#
+include
+"
+gfxPrefs
 .
 h
 "
