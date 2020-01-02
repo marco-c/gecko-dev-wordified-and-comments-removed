@@ -567,7 +567,9 @@ SunOS
 solaris
 '
 '
-GNU_kFreeBSD
+GNU
+/
+kFreeBSD
 '
 :
 '
