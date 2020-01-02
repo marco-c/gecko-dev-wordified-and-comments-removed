@@ -1969,13 +1969,6 @@ java
 '
 toolbar
 /
-BrowserToolbarBackground
-.
-java
-'
-'
-toolbar
-/
 CanvasDelegate
 .
 java

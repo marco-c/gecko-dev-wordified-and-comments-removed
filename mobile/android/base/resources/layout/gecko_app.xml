@@ -628,6 +628,15 @@ focusable
 "
 true
 "
+android
+:
+background
+=
+"
+drawable
+/
+url_bar_bg
+"
 /
 >
 <
