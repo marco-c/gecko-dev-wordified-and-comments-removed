@@ -597,6 +597,8 @@ HasVideo
 )
 {
 int32_t
+displayWidth
+displayHeight
 width
 height
 ;
@@ -605,6 +607,10 @@ mOmxDecoder
 >
 GetVideoParameters
 (
+&
+displayWidth
+&
+displayHeight
 &
 width
 &
@@ -623,8 +629,8 @@ height
 nsIntSize
 displaySize
 (
-width
-height
+displayWidth
+displayHeight
 )
 ;
 nsIntSize
