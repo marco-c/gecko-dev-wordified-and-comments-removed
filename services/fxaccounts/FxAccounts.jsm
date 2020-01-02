@@ -738,6 +738,7 @@ defer
 (
 )
 ;
+return
 this
 .
 fetchAndUnwrapKeys
