@@ -266,6 +266,13 @@ aScope
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+DisconnectFromOwner
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 BluetoothDevice
