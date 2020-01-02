@@ -154,6 +154,13 @@ wmcodecdsp
 h
 >
 #
+include
+<
+codecapi
+.
+h
+>
+#
 ifndef
 CLSID_CMSAACDecMFT
 extern
