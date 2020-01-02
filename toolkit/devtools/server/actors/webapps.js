@@ -1386,6 +1386,9 @@ manifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 )
 ;
@@ -4060,6 +4063,7 @@ jsonManifest
 app
 .
 origin
+manifestURL
 )
 ;
 let

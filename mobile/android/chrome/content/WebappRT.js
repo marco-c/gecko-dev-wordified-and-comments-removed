@@ -562,6 +562,9 @@ manifest
 app
 .
 origin
+app
+.
+manifestURL
 )
 ;
 if

@@ -911,7 +911,7 @@ function
 isSystemMessagePermittedToRegister
 (
 aSysMsgName
-aOrigin
+aManifestURL
 aManifest
 )
 {
@@ -935,11 +935,11 @@ aSysMsgName
 "
 +
 "
-aOrigin
+aManifestURL
 :
 "
 +
-aOrigin
+aManifestURL
 +
 "
 "
@@ -1076,7 +1076,8 @@ new
 ManifestHelper
 (
 aManifest
-aOrigin
+aManifestURL
+aManifestURL
 )
 ;
 for
@@ -1140,7 +1141,7 @@ app
 '
 "
 +
-aOrigin
+aManifestURL
 +
 "
 '
@@ -1221,7 +1222,7 @@ app
 '
 "
 +
-aOrigin
+aManifestURL
 +
 "
 '
