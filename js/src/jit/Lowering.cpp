@@ -16515,6 +16515,9 @@ type
 )
 {
 case
+MIRType_Boolean
+:
+case
 MIRType_Int32
 :
 lir
