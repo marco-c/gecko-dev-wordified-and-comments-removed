@@ -824,3 +824,9 @@ SpecialPowersManager
 (
 )
 ;
+this
+.
+SpecialPowers
+=
+SpecialPowers
+;
