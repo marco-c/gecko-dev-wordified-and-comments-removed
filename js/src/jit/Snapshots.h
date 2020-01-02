@@ -526,9 +526,7 @@ Typed
 (
 JSValueType
 type
-const
 Register
-&
 reg
 )
 {
@@ -628,13 +626,9 @@ static
 RValueAllocation
 Untyped
 (
-const
 Register
-&
 type
-const
 Register
-&
 payload
 )
 {
@@ -657,9 +651,7 @@ static
 RValueAllocation
 Untyped
 (
-const
 Register
-&
 type
 int32_t
 payloadStackOffset
@@ -686,9 +678,7 @@ Untyped
 (
 int32_t
 typeStackOffset
-const
 Register
-&
 payload
 )
 {
@@ -742,9 +732,7 @@ static
 RValueAllocation
 Untyped
 (
-const
 Register
-&
 reg
 )
 {

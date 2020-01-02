@@ -7720,9 +7720,7 @@ Condition
 cond_
 LoadType
 lt
-const
 Register
-&
 destReg_
 )
 {

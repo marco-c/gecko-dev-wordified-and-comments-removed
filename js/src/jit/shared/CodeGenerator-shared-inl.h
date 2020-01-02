@@ -550,13 +550,9 @@ inline
 ValueOperand
 GetTempValue
 (
-const
 Register
-&
 type
-const
 Register
-&
 payload
 )
 {

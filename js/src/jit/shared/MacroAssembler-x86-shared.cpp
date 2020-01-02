@@ -600,9 +600,7 @@ MacroAssemblerX86Shared
 :
 buildFakeExitFrame
 (
-const
 Register
-&
 scratch
 uint32_t
 *
@@ -787,9 +785,7 @@ const
 FloatRegister
 &
 reg
-const
 Register
-&
 scratch
 Label
 *
@@ -883,9 +879,7 @@ const
 FloatRegister
 &
 reg
-const
 Register
-&
 scratch
 Label
 *

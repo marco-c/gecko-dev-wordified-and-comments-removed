@@ -3732,9 +3732,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -3779,9 +3777,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -3843,9 +3839,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 )
 {

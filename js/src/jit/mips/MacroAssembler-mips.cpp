@@ -163,9 +163,7 @@ MacroAssemblerMIPS
 :
 convertInt32ToDouble
 (
-const
 Register
-&
 src
 const
 FloatRegister
@@ -225,9 +223,7 @@ MacroAssemblerMIPS
 :
 convertUInt32ToDouble
 (
-const
 Register
-&
 src
 const
 FloatRegister
@@ -287,9 +283,7 @@ MacroAssemblerMIPS
 :
 convertUInt32ToFloat32
 (
-const
 Register
-&
 src
 const
 FloatRegister
@@ -381,9 +375,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 Label
 *
@@ -431,9 +423,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 Label
 *
@@ -533,9 +523,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 Label
 *
@@ -658,9 +646,7 @@ const
 FloatRegister
 &
 src
-const
 Register
-&
 dest
 Label
 *
@@ -704,9 +690,7 @@ MacroAssemblerMIPS
 :
 convertInt32ToFloat32
 (
-const
 Register
-&
 src
 const
 FloatRegister
@@ -1002,9 +986,7 @@ MacroAssemblerMIPS
 :
 ma_li
 (
-const
 Register
-&
 dest
 AbsoluteLabel
 *
@@ -2870,9 +2852,7 @@ MacroAssemblerMIPS
 :
 ma_load
 (
-const
 Register
-&
 dest
 Address
 address
@@ -3053,9 +3033,7 @@ MacroAssemblerMIPS
 :
 ma_load
 (
-const
 Register
-&
 dest
 const
 BaseIndex
@@ -3094,9 +3072,7 @@ MacroAssemblerMIPS
 :
 ma_store
 (
-const
 Register
-&
 data
 Address
 address
@@ -3247,9 +3223,7 @@ MacroAssemblerMIPS
 :
 ma_store
 (
-const
 Register
-&
 data
 const
 BaseIndex
@@ -6307,9 +6281,7 @@ MacroAssemblerMIPSCompat
 :
 buildFakeExitFrame
 (
-const
 Register
-&
 scratch
 uint32_t
 *
@@ -6604,9 +6576,7 @@ MacroAssemblerMIPSCompat
 :
 callIon
 (
-const
 Register
-&
 callee
 )
 {
@@ -7610,9 +7580,7 @@ const
 Imm32
 &
 imm
-const
 Register
-&
 dest
 )
 {
@@ -7629,13 +7597,9 @@ MacroAssemblerMIPSCompat
 :
 move32
 (
-const
 Register
-&
 src
-const
 Register
-&
 dest
 )
 {
@@ -7652,13 +7616,9 @@ MacroAssemblerMIPSCompat
 :
 movePtr
 (
-const
 Register
-&
 src
-const
 Register
-&
 dest
 )
 {
@@ -7679,9 +7639,7 @@ const
 ImmWord
 &
 imm
-const
 Register
-&
 dest
 )
 {
@@ -7707,9 +7665,7 @@ const
 ImmGCPtr
 &
 imm
-const
 Register
-&
 dest
 )
 {
@@ -7730,9 +7686,7 @@ const
 ImmPtr
 &
 imm
-const
 Register
-&
 dest
 )
 {
@@ -7761,9 +7715,7 @@ const
 AsmJSImmPtr
 &
 imm
-const
 Register
-&
 dest
 )
 {
@@ -7785,9 +7737,7 @@ const
 Address
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -7810,9 +7760,7 @@ const
 BaseIndex
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -7835,9 +7783,7 @@ const
 Address
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -7860,9 +7806,7 @@ const
 BaseIndex
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -7885,9 +7829,7 @@ const
 Address
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -7910,9 +7852,7 @@ const
 BaseIndex
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -7935,9 +7875,7 @@ const
 Address
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -7960,9 +7898,7 @@ const
 BaseIndex
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -7985,9 +7921,7 @@ const
 Address
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -8008,9 +7942,7 @@ const
 BaseIndex
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -8032,9 +7964,7 @@ const
 AbsoluteAddress
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -8070,9 +8000,7 @@ const
 Address
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -8093,9 +8021,7 @@ const
 BaseIndex
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -8116,9 +8042,7 @@ const
 AbsoluteAddress
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -8154,9 +8078,7 @@ const
 AsmJSAbsoluteAddress
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -8194,9 +8116,7 @@ const
 Address
 &
 address
-const
 Register
-&
 dest
 )
 {
@@ -8427,9 +8347,7 @@ MacroAssemblerMIPSCompat
 :
 store8
 (
-const
 Register
-&
 src
 const
 Address
@@ -8475,9 +8393,7 @@ MacroAssemblerMIPSCompat
 :
 store8
 (
-const
 Register
-&
 src
 const
 BaseIndex
@@ -8529,9 +8445,7 @@ MacroAssemblerMIPSCompat
 :
 store16
 (
-const
 Register
-&
 src
 const
 Address
@@ -8577,9 +8491,7 @@ MacroAssemblerMIPSCompat
 :
 store16
 (
-const
 Register
-&
 src
 const
 BaseIndex
@@ -8601,9 +8513,7 @@ MacroAssemblerMIPSCompat
 :
 store32
 (
-const
 Register
-&
 src
 const
 AbsoluteAddress
@@ -8624,9 +8534,7 @@ MacroAssemblerMIPSCompat
 :
 store32
 (
-const
 Register
-&
 src
 const
 Address
@@ -8700,9 +8608,7 @@ MacroAssemblerMIPSCompat
 :
 store32
 (
-const
 Register
-&
 src
 const
 BaseIndex
@@ -8833,9 +8739,7 @@ MacroAssemblerMIPSCompat
 :
 storePtr
 (
-const
 Register
-&
 src
 const
 AbsoluteAddress
@@ -9050,9 +8954,7 @@ MacroAssemblerMIPSCompat
 :
 subPtr
 (
-const
 Register
-&
 src
 const
 Address
@@ -9413,9 +9315,7 @@ branchTestPrimitive
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -9518,9 +9418,7 @@ branchTestInt32
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -9712,9 +9610,7 @@ branchTestBoolean
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -9880,9 +9776,7 @@ branchTestDouble
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -10099,9 +9993,7 @@ branchTestNull
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -10266,9 +10158,7 @@ branchTestObject
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -10387,9 +10277,7 @@ branchTestString
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -10526,9 +10414,7 @@ branchTestUndefined
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -10742,9 +10628,7 @@ branchTestNumber
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -10821,9 +10705,7 @@ branchTestMagic
 (
 Condition
 cond
-const
 Register
-&
 tag
 Label
 *
@@ -11177,9 +11059,7 @@ const
 ValueOperand
 &
 operand
-const
 Register
-&
 dest
 )
 {
@@ -11204,9 +11084,7 @@ const
 Address
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -11237,9 +11115,7 @@ const
 ValueOperand
 &
 operand
-const
 Register
-&
 dest
 )
 {
@@ -11264,9 +11140,7 @@ const
 Address
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -11403,9 +11277,7 @@ const
 ValueOperand
 &
 operand
-const
 Register
-&
 dest
 )
 {
@@ -11430,9 +11302,7 @@ const
 Address
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -11463,9 +11333,7 @@ const
 ValueOperand
 &
 src
-const
 Register
-&
 dest
 )
 {
@@ -11665,9 +11533,7 @@ boxNonDouble
 (
 JSValueType
 type
-const
 Register
-&
 src
 const
 ValueOperand
@@ -13730,9 +13596,7 @@ MacroAssemblerMIPSCompat
 :
 linkParallelExitFrame
 (
-const
 Register
-&
 pt
 )
 {
@@ -14046,9 +13910,7 @@ setupUnalignedABICall
 (
 uint32_t
 args
-const
 Register
-&
 scratch
 )
 {
@@ -14667,9 +14529,7 @@ MacroAssemblerMIPSCompat
 :
 passABIArg
 (
-const
 Register
-&
 reg
 )
 {
