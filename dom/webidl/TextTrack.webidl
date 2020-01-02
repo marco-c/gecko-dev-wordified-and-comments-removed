@@ -216,7 +216,7 @@ activeCues
 ;
 readonly
 attribute
-TextTrackRegionList
+VTTRegionList
 ?
 regions
 ;
@@ -247,14 +247,14 @@ Throws
 void
 removeRegion
 (
-TextTrackRegion
+VTTRegion
 region
 )
 ;
 void
 addRegion
 (
-TextTrackRegion
+VTTRegion
 region
 )
 ;

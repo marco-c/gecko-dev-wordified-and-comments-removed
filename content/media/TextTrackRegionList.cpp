@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-TextTrackRegionListBinding
+VTTRegionListBinding
 .
 h
 "
@@ -83,7 +83,7 @@ aScope
 )
 {
 return
-TextTrackRegionListBinding
+VTTRegionListBinding
 :
 :
 Wrap

@@ -144,7 +144,7 @@ enabled
 "
 ]
 interface
-TextTrackRegion
+VTTRegion
 {
 readonly
 attribute

@@ -143,7 +143,7 @@ enabled
 "
 ]
 interface
-TextTrackRegionList
+VTTRegionList
 {
 readonly
 attribute
@@ -152,14 +152,14 @@ long
 length
 ;
 getter
-TextTrackRegion
+VTTRegion
 (
 unsigned
 long
 index
 )
 ;
-TextTrackRegion
+VTTRegion
 ?
 getRegionById
 (
