@@ -146,6 +146,9 @@ Blob
 ;
 [
 Constructor
+Exposed
+=
+Worker
 ]
 interface
 FileReaderSync

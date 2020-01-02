@@ -111,6 +111,12 @@ MPL
 /
 [
 ChromeOnly
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Console

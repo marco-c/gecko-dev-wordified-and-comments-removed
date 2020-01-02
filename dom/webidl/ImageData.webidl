@@ -188,6 +188,12 @@ unsigned
 long
 sh
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 ImageData

@@ -170,6 +170,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Worker
+]
 interface
 WorkerGlobalScope
 :

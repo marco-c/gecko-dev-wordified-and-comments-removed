@@ -167,6 +167,12 @@ Navigator
 HasDataStoreSupport
 "
 ChromeConstructor
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 DataStore
@@ -473,6 +479,12 @@ datastore
 enabled
 "
 ChromeConstructor
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 DataStoreCursor

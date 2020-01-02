@@ -143,6 +143,12 @@ apply
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 XMLHttpRequestEventTarget

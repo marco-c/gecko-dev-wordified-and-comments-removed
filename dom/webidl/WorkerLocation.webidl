@@ -153,6 +153,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Worker
+]
 interface
 WorkerLocation
 {

@@ -226,6 +226,12 @@ about
 blank
 "
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 URL

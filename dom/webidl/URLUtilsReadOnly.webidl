@@ -200,6 +200,12 @@ owfa
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 URLUtilsReadOnly

@@ -194,6 +194,9 @@ serviceWorkers
 .
 enabled
 "
+Exposed
+=
+ServiceWorker
 ]
 interface
 ServiceWorkerGlobalScope

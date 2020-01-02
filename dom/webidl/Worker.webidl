@@ -185,6 +185,12 @@ WorkerPrivate
 :
 WorkerAvailable
 "
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Worker
@@ -245,6 +251,12 @@ ChromeWorkerPrivate
 :
 WorkerAvailable
 "
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 ChromeWorker

@@ -162,6 +162,12 @@ StackFrame
 ;
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 ExceptionMembers
@@ -558,6 +564,12 @@ exceptions
 .
 [
 ExceptionClass
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 DOMException

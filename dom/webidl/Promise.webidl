@@ -209,6 +209,12 @@ Constructor
 PromiseInit
 init
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 /
 /

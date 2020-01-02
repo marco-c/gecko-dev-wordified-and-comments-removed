@@ -158,6 +158,12 @@ utf
 8
 "
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 TextEncoder

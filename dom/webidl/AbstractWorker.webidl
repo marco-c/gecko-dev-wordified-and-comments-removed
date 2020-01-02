@@ -93,6 +93,12 @@ MPL
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 AbstractWorker

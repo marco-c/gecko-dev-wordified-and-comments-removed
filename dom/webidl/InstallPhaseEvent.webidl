@@ -174,6 +174,12 @@ workers
 :
 ServiceWorkerEventsVisible
 "
+Exposed
+=
+(
+ServiceWorker
+Window
+)
 ]
 interface
 InstallPhaseEvent

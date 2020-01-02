@@ -200,6 +200,12 @@ owfa
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 URLUtilsNoSearchParams
@@ -336,6 +342,12 @@ stringifier
 ;
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 URLUtils

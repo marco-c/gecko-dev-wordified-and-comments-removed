@@ -136,6 +136,12 @@ optional
 MessageEventInit
 eventInitDict
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 MessageEvent

@@ -953,6 +953,12 @@ work
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 WindowTimers
@@ -1089,6 +1095,12 @@ work
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 WindowBase64

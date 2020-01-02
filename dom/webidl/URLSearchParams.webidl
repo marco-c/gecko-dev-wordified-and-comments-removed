@@ -213,6 +213,12 @@ Constructor
 URLSearchParams
 init
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 URLSearchParams

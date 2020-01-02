@@ -94,6 +94,12 @@ MPL
 [
 NoInterfaceObject
 ArrayClass
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 MessagePortList

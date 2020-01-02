@@ -194,6 +194,9 @@ SharedWorkerGlobalScope
 :
 Visible
 "
+Exposed
+=
+SharedWorker
 ]
 interface
 SharedWorkerGlobalScope

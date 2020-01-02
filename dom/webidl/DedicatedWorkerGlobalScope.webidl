@@ -194,6 +194,9 @@ DedicatedWorkerGlobalScope
 :
 Visible
 "
+Exposed
+=
+DedicatedWorker
 ]
 interface
 DedicatedWorkerGlobalScope

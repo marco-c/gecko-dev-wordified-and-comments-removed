@@ -126,6 +126,14 @@ channel
 messaging
 *
 /
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 MessagePort
 :

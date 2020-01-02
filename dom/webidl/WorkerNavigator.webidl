@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+[
+Exposed
+=
+Worker
+]
 interface
 WorkerNavigator
 {

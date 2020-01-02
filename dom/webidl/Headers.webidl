@@ -188,14 +188,12 @@ optional
 HeadersInit
 init
 )
-/
-/
-FIXME
-:
 Exposed
 =
+(
 Window
 Worker
+)
 Func
 =
 "

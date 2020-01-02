@@ -356,6 +356,12 @@ Constructor
 DOMString
 ignored
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 XMLHttpRequest
@@ -662,6 +668,9 @@ responseText
 Throws
 =
 MainThread
+Exposed
+=
+Window
 ]
 readonly
 attribute
