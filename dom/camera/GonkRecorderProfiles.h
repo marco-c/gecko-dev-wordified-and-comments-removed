@@ -59,7 +59,7 @@ n
 ;
 \
 return
-NS_ERROR_INVALID_ARG
+NS_ERROR_NOT_AVAILABLE
 ;
 \
 }
@@ -329,17 +329,6 @@ char
 aProfileName
 )
 const
-;
-nsresult
-ConfigureRecorder
-(
-android
-:
-:
-GonkRecorder
-*
-aRecorder
-)
 ;
 protected
 :
