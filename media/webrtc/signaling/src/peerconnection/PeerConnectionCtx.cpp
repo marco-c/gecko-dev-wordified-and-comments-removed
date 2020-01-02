@@ -1161,7 +1161,7 @@ gInstance
 ;
 gInstance
 =
-NULL
+nullptr
 ;
 }
 }

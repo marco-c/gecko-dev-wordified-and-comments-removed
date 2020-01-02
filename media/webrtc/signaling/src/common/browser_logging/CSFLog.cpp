@@ -111,7 +111,7 @@ PRLogModuleInfo
 *
 gLogModuleInfo
 =
-NULL
+nullptr
 ;
 PRLogModuleInfo
 *
@@ -124,7 +124,7 @@ if
 gLogModuleInfo
 =
 =
-NULL
+nullptr
 )
 gLogModuleInfo
 =
@@ -144,7 +144,7 @@ PRLogModuleInfo
 *
 gWebRTCLogModuleInfo
 =
-NULL
+nullptr
 ;
 int
 gWebrtcTraceLoggingOn
@@ -162,7 +162,7 @@ if
 gWebRTCLogModuleInfo
 =
 =
-NULL
+nullptr
 )
 gWebRTCLogModuleInfo
 =

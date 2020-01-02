@@ -99,7 +99,7 @@ if
 cprThreadPtr
 !
 =
-NULL
+nullptr
 )
 {
 CWinThread
@@ -124,7 +124,7 @@ if
 pCWinThread
 !
 =
-NULL
+nullptr
 )
 {
 returnCode
@@ -241,7 +241,7 @@ if
 cprThreadPtr
 !
 =
-NULL
+nullptr
 )
 {
 CWinThread
@@ -266,7 +266,7 @@ if
 pCWinThread
 !
 =
-NULL
+nullptr
 )
 {
 returnCode
@@ -403,7 +403,7 @@ if
 threadPtr
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -411,7 +411,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 threadPtr
@@ -450,7 +450,7 @@ u
 handlePtr
 !
 =
-NULL
+nullptr
 )
 {
 PostThreadMessage
@@ -527,7 +527,7 @@ threadPtr
 ;
 threadPtr
 =
-NULL
+nullptr
 ;
 }
 }
@@ -599,7 +599,7 @@ if
 cprThreadPtr
 !
 =
-NULL
+nullptr
 )
 {
 CWinThread
@@ -640,7 +640,7 @@ if
 pCWinThread
 !
 =
-NULL
+nullptr
 )
 {
 result

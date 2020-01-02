@@ -496,7 +496,7 @@ mOtherDirection
 >
 mOtherDirection
 =
-NULL
+nullptr
 ;
 mOtherDirection
 -

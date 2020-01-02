@@ -118,7 +118,7 @@ res
 )
 )
 return
-NULL
+nullptr
 ;
 RefPtr
 <
@@ -149,7 +149,7 @@ specified
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -172,7 +172,7 @@ length
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 srtp_policy_t
@@ -277,7 +277,7 @@ suite
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 policy
@@ -327,7 +327,7 @@ policy
 .
 ekt
 =
-NULL
+nullptr
 ;
 policy
 .
@@ -345,7 +345,7 @@ policy
 .
 next
 =
-NULL
+nullptr
 ;
 err_status_t
 r
@@ -381,7 +381,7 @@ session
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return

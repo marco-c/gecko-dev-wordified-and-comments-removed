@@ -229,7 +229,7 @@ it
 >
 NotifyPull
 (
-NULL
+nullptr
 mozilla
 :
 :
@@ -508,7 +508,7 @@ it
 >
 NotifyQueuedTrackChanges
 (
-NULL
+nullptr
 0
 16000
 0

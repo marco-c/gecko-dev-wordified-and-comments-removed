@@ -345,7 +345,7 @@ if
 image_a
 !
 =
-NULL
+nullptr
 )
 {
 sstrncpy
@@ -363,7 +363,7 @@ if
 image_b
 !
 =
-NULL
+nullptr
 )
 {
 sstrncpy
@@ -398,7 +398,7 @@ if
 phrase
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -998,7 +998,7 @@ if
 a
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1012,7 +1012,7 @@ if
 b
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1026,7 +1026,7 @@ if
 c
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -1040,7 +1040,7 @@ if
 name
 !
 =
-NULL
+nullptr
 )
 {
 sstrncpy

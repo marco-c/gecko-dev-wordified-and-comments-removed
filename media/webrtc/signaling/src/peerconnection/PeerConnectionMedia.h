@@ -1149,7 +1149,7 @@ LocalSourceStreamInfo
 {
 mMediaStream
 =
-NULL
+nullptr
 ;
 }
 DOMMediaStream
@@ -1461,7 +1461,7 @@ size
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1637,7 +1637,7 @@ end
 )
 )
 return
-NULL
+nullptr
 ;
 return
 mTransportFlows
@@ -1750,7 +1750,7 @@ end
 )
 )
 return
-NULL
+nullptr
 ;
 return
 mConduits

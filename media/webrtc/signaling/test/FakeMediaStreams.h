@@ -346,7 +346,7 @@ AsSourceStream
 )
 {
 return
-NULL
+nullptr
 ;
 }
 virtual
@@ -447,7 +447,7 @@ Detach
 {
 mStream
 =
-NULL
+nullptr
 ;
 }
 int

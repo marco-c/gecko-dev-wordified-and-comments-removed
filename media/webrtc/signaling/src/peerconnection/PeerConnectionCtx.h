@@ -370,11 +370,11 @@ Idle
 )
 mCCM
 (
-NULL
+nullptr
 )
 mDevice
 (
-NULL
+nullptr
 )
 {
 }

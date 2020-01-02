@@ -966,7 +966,7 @@ MediaStreamTable
 *
 streams
 =
-NULL
+nullptr
 ;
 streams
 =
@@ -2253,15 +2253,15 @@ nullptr
 )
 mIdentity
 (
-NULL
+nullptr
 )
 mSTSThread
 (
-NULL
+nullptr
 )
 mMedia
 (
-NULL
+nullptr
 )
 mNumAudioStreams
 (

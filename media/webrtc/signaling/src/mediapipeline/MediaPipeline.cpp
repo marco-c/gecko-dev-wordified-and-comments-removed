@@ -587,11 +587,11 @@ Detach
 ;
 rtp_transport_
 =
-NULL
+nullptr
 ;
 rtcp_transport_
 =
-NULL
+nullptr
 ;
 }
 void

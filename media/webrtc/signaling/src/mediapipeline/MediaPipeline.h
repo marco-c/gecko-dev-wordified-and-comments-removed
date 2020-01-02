@@ -449,7 +449,7 @@ Detach
 {
 pipeline_
 =
-NULL
+nullptr
 ;
 }
 MediaPipeline
@@ -1889,7 +1889,7 @@ Detach
 {
 pipeline_
 =
-NULL
+nullptr
 ;
 }
 virtual

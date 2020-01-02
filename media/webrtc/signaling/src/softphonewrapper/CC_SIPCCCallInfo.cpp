@@ -1417,7 +1417,7 @@ if
 pMediaData
 !
 =
-NULL
+nullptr
 )
 {
 return

@@ -47,7 +47,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -114,7 +114,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -175,7 +175,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -225,7 +225,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -279,7 +279,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -341,7 +341,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -398,7 +398,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -445,7 +445,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -494,7 +494,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return
@@ -541,7 +541,7 @@ if
 _realAudioControl
 !
 =
-NULL
+nullptr
 )
 {
 return

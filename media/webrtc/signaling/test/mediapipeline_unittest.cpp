@@ -201,15 +201,15 @@ TransportInfo
 :
 flow_
 (
-NULL
+nullptr
 )
 prsock_
 (
-NULL
+nullptr
 )
 dtls_
 (
-NULL
+nullptr
 )
 {
 }
@@ -438,7 +438,7 @@ Stop
 {
 flow_
 =
-NULL
+nullptr
 ;
 }
 mozilla
@@ -490,7 +490,7 @@ AudioSessionConduit
 :
 Create
 (
-NULL
+nullptr
 )
 )
 audio_
@@ -759,7 +759,7 @@ StopInt
 ;
 audio_pipeline_
 =
-NULL
+nullptr
 ;
 PR_Sleep
 (
@@ -911,7 +911,7 @@ mozilla
 MediaPipelineTransmit
 (
 test_pc
-NULL
+nullptr
 test_utils
 -
 >
@@ -1141,7 +1141,7 @@ mozilla
 MediaPipelineReceiveAudio
 (
 test_pc
-NULL
+nullptr
 test_utils
 -
 >
@@ -1249,7 +1249,7 @@ rtp_fds_
 1
 ]
 =
-NULL
+nullptr
 ;
 rtcp_fds_
 [
@@ -1261,7 +1261,7 @@ rtcp_fds_
 1
 ]
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1639,7 +1639,7 @@ MtransportTestUtils
 ;
 NSS_NoDB_Init
 (
-NULL
+nullptr
 )
 ;
 NSS_SetDomesticPolicy
