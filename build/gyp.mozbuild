@@ -265,6 +265,17 @@ HAVE_X86_AVX2
 else
 1
 #
+don
+'
+t
+use
+openssl
+'
+use_openssl
+'
+:
+0
+#
 saves
 4MB
 when

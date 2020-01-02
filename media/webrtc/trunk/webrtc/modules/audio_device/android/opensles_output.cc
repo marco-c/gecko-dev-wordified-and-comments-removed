@@ -1,4 +1,7 @@
 #
+ifdef
+WEBRTC_ANDROID_OPENSLES_OUTPUT
+#
 include
 "
 webrtc
@@ -2687,3 +2690,5 @@ playing_
 ;
 }
 }
+#
+endif
