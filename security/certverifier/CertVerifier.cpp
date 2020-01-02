@@ -758,6 +758,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -792,6 +795,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -826,6 +832,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -1095,6 +1104,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -1320,6 +1332,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -1364,6 +1379,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -1408,6 +1426,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -1451,6 +1472,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -1496,6 +1520,9 @@ BuildCertChain
 (
 trustDomain
 cert
+-
+>
+derCert
 time
 EndEntityOrCA
 :
@@ -1618,6 +1645,9 @@ BuildCertChain
 (
 sslTrust
 cert
+-
+>
+derCert
 time
 endEntityOrCA
 keyUsage
@@ -1662,6 +1692,9 @@ BuildCertChain
 (
 emailTrust
 cert
+-
+>
+derCert
 time
 endEntityOrCA
 keyUsage
@@ -1706,6 +1739,9 @@ BuildCertChain
 (
 objectSigningTrust
 cert
+-
+>
+derCert
 time
 endEntityOrCA
 keyUsage

@@ -114,6 +114,13 @@ cpp
 '
 lib
 /
+pkixcert
+.
+cpp
+'
+'
+lib
+/
 pkixcheck
 .
 cpp

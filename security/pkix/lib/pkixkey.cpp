@@ -65,7 +65,7 @@ VerifySignedData
 (
 const
 CERTSignedData
-*
+&
 sd
 const
 SECItem
@@ -80,12 +80,7 @@ if
 (
 !
 sd
-|
-|
-!
-sd
--
->
+.
 data
 .
 data
@@ -93,8 +88,7 @@ data
 |
 !
 sd
--
->
+.
 signatureAlgorithm
 .
 algorithm
@@ -104,8 +98,7 @@ data
 |
 !
 sd
--
->
+.
 signature
 .
 data
@@ -134,8 +127,7 @@ SECFailure
 if
 (
 sd
--
->
+.
 data
 .
 len
@@ -175,8 +167,7 @@ SECItem
 sig
 =
 sd
--
->
+.
 signature
 ;
 DER_ConvertBitString
@@ -244,8 +235,7 @@ if
 VFY_VerifyDataWithAlgorithmID
 (
 sd
--
->
+.
 data
 .
 data
@@ -255,8 +245,7 @@ int
 >
 (
 sd
--
->
+.
 data
 .
 len
@@ -270,8 +259,7 @@ get
 sig
 &
 sd
--
->
+.
 signatureAlgorithm
 &
 hashAlg

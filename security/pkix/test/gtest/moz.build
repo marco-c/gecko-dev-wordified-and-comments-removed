@@ -128,7 +128,7 @@ pkixcheck_CheckKeyUsage_tests
 cpp
 '
 '
-pkixcheck_CheckTimes_tests
+pkixcheck_CheckValidity_tests
 .
 cpp
 '

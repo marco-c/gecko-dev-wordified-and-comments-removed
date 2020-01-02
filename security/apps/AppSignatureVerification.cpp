@@ -1979,6 +1979,9 @@ BuildCertChain
 (
 trustDomain
 signerCert
+-
+>
+derCert
 PR_Now
 (
 )
