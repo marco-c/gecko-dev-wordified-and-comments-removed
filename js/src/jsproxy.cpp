@@ -215,6 +215,8 @@ HandleObject
 proxy
 HandleId
 id
+Action
+act
 )
 {
 if
@@ -241,6 +243,10 @@ construct
 (
 id
 )
+;
+enteredAction
+=
+act
 ;
 prev
 =
@@ -336,6 +342,11 @@ JSObject
 proxy
 jsid
 id
+BaseProxyHandler
+:
+:
+Action
+act
 )
 {
 MOZ_ASSERT
@@ -416,6 +427,24 @@ get
 =
 =
 id
+)
+;
+MOZ_ASSERT
+(
+cx
+-
+>
+runtime
+(
+)
+-
+>
+enteredPolicy
+-
+>
+enteredAction
+&
+act
 )
 ;
 }
@@ -507,6 +536,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
 )
 ;
 Rooted
@@ -572,6 +602,9 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
+|
+SET
 )
 ;
 Rooted
@@ -638,6 +671,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
 )
 ;
 Rooted
@@ -863,6 +897,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+SET
 )
 ;
 Rooted
@@ -1402,6 +1437,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 JS_ASSERT
@@ -1493,6 +1529,10 @@ policy
 cx
 proxy
 id
+BaseProxyHandler
+:
+:
+GET
 )
 ;
 if
@@ -1581,6 +1621,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 AutoIdVector
@@ -1895,6 +1936,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 RootedValue
@@ -2118,6 +2160,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 return
@@ -2162,6 +2205,9 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
+|
+SET
 )
 ;
 JS_ASSERT
@@ -2315,6 +2361,9 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
+|
+SET
 )
 ;
 RootedObject
@@ -2372,6 +2421,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+SET
 )
 ;
 RootedObject
@@ -2474,6 +2524,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 RootedObject
@@ -2531,6 +2582,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+SET
 )
 ;
 RootedObject
@@ -2583,6 +2635,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 JS_ASSERT
@@ -2645,6 +2698,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+CALL
 )
 ;
 RootedValue
@@ -2716,6 +2770,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+CALL
 )
 ;
 RootedValue
@@ -2866,6 +2921,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 bool
@@ -3075,6 +3131,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 RootedObject
@@ -3128,6 +3185,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 RootedObject
@@ -3261,6 +3319,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
 )
 ;
 JS_ASSERT
@@ -3342,6 +3401,9 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
+|
+SET
 )
 ;
 RootedObject
@@ -3430,6 +3492,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+GET
 )
 ;
 RootedObject
@@ -3491,6 +3554,7 @@ assertEnteredPolicy
 cx
 proxy
 id
+SET
 )
 ;
 RootedObject
@@ -3548,6 +3612,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 RootedObject
@@ -3602,6 +3667,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 JS_ASSERT
@@ -6322,6 +6388,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+CALL
 )
 ;
 RootedObject
@@ -6446,6 +6513,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+CALL
 )
 ;
 RootedObject
@@ -6598,6 +6666,7 @@ assertEnteredPolicy
 cx
 proxy
 JSID_VOID
+GET
 )
 ;
 if
