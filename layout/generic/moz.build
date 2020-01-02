@@ -131,6 +131,16 @@ nsFrameSelection
 h
 '
 '
+nsFrameState
+.
+h
+'
+'
+nsFrameStateBits
+.
+h
+'
+'
 nsHTMLParts
 .
 h

@@ -118,13 +118,6 @@ ScrollbarActivity
 ;
 }
 }
-#
-define
-NS_SCROLLFRAME_INVALIDATE_CONTENTS_ON_SCROLL
-NS_FRAME_STATE_BIT
-(
-20
-)
 namespace
 mozilla
 {

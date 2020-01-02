@@ -316,7 +316,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-uint32_t
+nsFrameState
 aFlags
 )
 ;
@@ -350,7 +350,10 @@ NS_NewMathMLmathBlockFrame
 (
 aPresShell
 aContext
+nsFrameState
+(
 0
+)
 )
 ;
 }

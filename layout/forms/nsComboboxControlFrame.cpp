@@ -373,7 +373,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-uint32_t
+nsFrameState
 aStateFlags
 )
 {
