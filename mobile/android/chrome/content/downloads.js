@@ -534,6 +534,11 @@ cookie
 aDownload
 .
 guid
+when
+:
+aDownload
+.
+startTime
 }
 ;
 if
