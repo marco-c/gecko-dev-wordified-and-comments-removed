@@ -929,6 +929,13 @@ mNetworkState
 ;
 }
 void
+ResetConnectionState
+(
+)
+MOZ_FINAL
+MOZ_OVERRIDE
+;
+void
 SetPreload
 (
 const

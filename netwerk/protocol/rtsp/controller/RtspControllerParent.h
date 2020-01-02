@@ -168,6 +168,9 @@ nsIStreamingProtocolController
 >
 mController
 ;
+uint32_t
+mTotalTracks
+;
 }
 ;
 }

@@ -2979,7 +2979,7 @@ mListener
 OnDisconnected
 (
 0
-NS_ERROR_NOT_CONNECTED
+NS_ERROR_NET_TIMEOUT
 )
 ;
 }
@@ -2990,6 +2990,12 @@ NULL
 mVideoTrack
 =
 NULL
+;
+mTracks
+.
+clear
+(
+)
 ;
 }
 void
