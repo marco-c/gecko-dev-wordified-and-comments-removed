@@ -2054,6 +2054,14 @@ lir
 )
 ;
 bool
+visitHasClass
+(
+LHasClass
+*
+lir
+)
+;
+bool
 visitAsmJSCall
 (
 LAsmJSCall

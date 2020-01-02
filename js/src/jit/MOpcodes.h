@@ -909,6 +909,11 @@ HaveSameClass
 \
 _
 (
+HasClass
+)
+\
+_
+(
 AsmJSNeg
 )
 \

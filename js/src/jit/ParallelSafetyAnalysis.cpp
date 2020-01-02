@@ -1348,6 +1348,10 @@ SAFE_OP
 (
 HaveSameClass
 )
+SAFE_OP
+(
+HasClass
+)
 UNSAFE_OP
 (
 EffectiveAddress
