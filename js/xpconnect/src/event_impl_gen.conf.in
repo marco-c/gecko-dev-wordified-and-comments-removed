@@ -122,9 +122,6 @@ DOMTransactionEvent
 PopStateEvent
 '
 '
-CloseEvent
-'
-'
 DeviceOrientationEvent
 '
 '

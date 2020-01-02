@@ -3101,6 +3101,11 @@ CFStateChangeEvent
 webidl
 '
 '
+CloseEvent
+.
+webidl
+'
+'
 DataErrorEvent
 .
 webidl

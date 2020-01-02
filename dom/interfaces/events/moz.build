@@ -113,11 +113,6 @@ nsIDOMClipboardEvent
 idl
 '
 '
-nsIDOMCloseEvent
-.
-idl
-'
-'
 nsIDOMCommandEvent
 .
 idl
