@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 re
 from
@@ -989,11 +993,7 @@ show_output
 :
                     
 print
->
->
-self
-.
-fp
+(
 '
 #
 #
@@ -1024,6 +1024,12 @@ output
 .
 dt
 )
+file
+=
+self
+.
+fp
+)
                 
 if
 self
@@ -1034,16 +1040,18 @@ show_cmd
 :
                     
 print
->
->
-self
-.
-fp
+(
 escape_cmdline
 (
 output
 .
 cmd
+)
+file
+=
+self
+.
+fp
 )
                 
 if
@@ -1692,10 +1700,13 @@ label
 '
 '
 :
+                
 continue
             
 print
+(
 label
+)
             
 for
 path
@@ -1704,12 +1715,14 @@ paths
 :
                 
 print
+(
 '
 %
 s
 '
 %
 path
+)
         
 if
 self
@@ -1766,10 +1779,12 @@ REGRESSIONS
 :
                           
 print
->
->
-failure_file
+(
 path
+file
+=
+failure_file
+)
                   
 if
 '
@@ -1795,10 +1810,12 @@ TIMEOUTS
 :
                           
 print
->
->
-failure_file
+(
 path
+file
+=
+failure_file
+)
               
 failure_file
 .
@@ -1834,21 +1851,25 @@ all_passed
 :
             
 print
+(
 '
 PASS
 '
 +
 suffix
+)
         
 else
 :
             
 print
+(
 '
 FAIL
 '
 +
 suffix
+)
     
 def
 all_passed
@@ -1968,4 +1989,6 @@ TIMEOUT
 '
         
 print
+(
 result
+)

@@ -20,6 +20,10 @@ details
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 sys
@@ -1905,6 +1909,7 @@ w
         
 except
 IOError
+as
 ex
 :
             
@@ -2576,11 +2581,13 @@ test_list
 :
         
 print
+(
 '
 no
 tests
 selected
 '
+)
         
 return
 1
@@ -2669,9 +2676,11 @@ show_cmd
 :
             
 print
+(
 list2cmdline
 (
 cmd
+)
 )
         
 if
