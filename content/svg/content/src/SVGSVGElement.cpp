@@ -1788,7 +1788,7 @@ SVGTransform
 (
 matrix
 .
-Matrix
+GetMatrix
 (
 )
 )

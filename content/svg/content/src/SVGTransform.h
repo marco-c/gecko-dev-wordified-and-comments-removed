@@ -298,7 +298,7 @@ dom
 :
 SVGMatrix
 *
-Matrix
+GetMatrix
 (
 )
 ;
@@ -413,7 +413,7 @@ Transform
 (
 )
 .
-Matrix
+GetMatrix
 (
 )
 ;

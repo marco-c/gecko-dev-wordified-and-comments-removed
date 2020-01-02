@@ -617,7 +617,7 @@ SVGMatrix
 SVGTransform
 :
 :
-Matrix
+GetMatrix
 (
 )
 {
@@ -719,7 +719,7 @@ SetMatrix
 (
 aMatrix
 .
-Matrix
+GetMatrix
 (
 )
 )

@@ -1343,7 +1343,7 @@ SVGTransform
 (
 matrix
 .
-Matrix
+GetMatrix
 (
 )
 )

@@ -476,7 +476,7 @@ pt
 =
 matrix
 .
-Matrix
+GetMatrix
 (
 )
 .

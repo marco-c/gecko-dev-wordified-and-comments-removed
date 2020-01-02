@@ -894,7 +894,7 @@ mx
 =
 aTransform
 .
-Matrix
+GetMatrix
 (
 )
 ;
@@ -1002,7 +1002,7 @@ mx
 =
 aTransform
 .
-Matrix
+GetMatrix
 (
 )
 ;
@@ -1050,7 +1050,7 @@ mx
 =
 aTransform
 .
-Matrix
+GetMatrix
 (
 )
 ;

@@ -149,7 +149,7 @@ return
 gfxMatrix
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -198,7 +198,7 @@ return
 gfxMatrix
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -247,7 +247,7 @@ return
 gfxMatrix
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -296,7 +296,7 @@ return
 gfxMatrix
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -345,7 +345,7 @@ return
 gfxMatrix
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -394,7 +394,7 @@ return
 gfxMatrix
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -435,11 +435,11 @@ SVGMatrix
 (
 aMatrix
 .
-Matrix
+GetMatrix
 (
 )
 *
-Matrix
+GetMatrix
 (
 )
 )
@@ -468,7 +468,7 @@ rv
 {
 if
 (
-Matrix
+GetMatrix
 (
 )
 .
@@ -499,7 +499,7 @@ SVGMatrix
 (
 gfxMatrix
 (
-Matrix
+GetMatrix
 (
 )
 )
@@ -543,7 +543,7 @@ SVGMatrix
 (
 gfxMatrix
 (
-Matrix
+GetMatrix
 (
 )
 )
@@ -613,7 +613,7 @@ SVGMatrix
 (
 gfxMatrix
 (
-Matrix
+GetMatrix
 (
 )
 )
@@ -657,7 +657,7 @@ SVGMatrix
 (
 gfxMatrix
 (
-Matrix
+GetMatrix
 (
 )
 )
@@ -736,7 +736,7 @@ SVGMatrix
 (
 gfxMatrix
 (
-Matrix
+GetMatrix
 (
 )
 )
@@ -775,7 +775,7 @@ gfxMatrix
 &
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -837,7 +837,7 @@ gfxMatrix
 &
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -934,7 +934,7 @@ gfxMatrix
 &
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
@@ -1054,7 +1054,7 @@ gfxMatrix
 &
 mx
 =
-Matrix
+GetMatrix
 (
 )
 ;
