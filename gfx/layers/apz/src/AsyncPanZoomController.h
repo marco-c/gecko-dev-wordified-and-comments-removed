@@ -1135,7 +1135,7 @@ mPanGestureState
 public
 :
 bool
-TakeOverFling
+AttemptFling
 (
 ScreenPoint
 aVelocity
@@ -1147,6 +1147,8 @@ OverscrollHandoffChain
 >
 &
 aOverscrollHandoffChain
+bool
+aHandoff
 )
 ;
 private
@@ -1197,6 +1199,8 @@ OverscrollHandoffChain
 >
 &
 aOverscrollHandoffChain
+bool
+aHandoff
 bool
 aAllowOverscroll
 )

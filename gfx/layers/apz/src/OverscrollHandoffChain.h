@@ -260,6 +260,16 @@ aIndex
 )
 const
 ;
+uint32_t
+IndexOf
+(
+const
+AsyncPanZoomController
+*
+aApzc
+)
+const
+;
 void
 FlushRepaints
 (
