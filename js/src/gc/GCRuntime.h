@@ -167,16 +167,6 @@ Chunk
 chunk
 )
 ;
-void
-expireAndFree
-(
-JSRuntime
-*
-rt
-bool
-releaseAll
-)
-;
 class
 Enum
 {
@@ -1761,6 +1751,8 @@ Chunk
 *
 expireChunkPool
 (
+bool
+shrinkBuffers
 bool
 releaseAll
 )
