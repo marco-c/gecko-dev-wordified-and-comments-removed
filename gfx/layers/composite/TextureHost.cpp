@@ -3685,6 +3685,16 @@ SwapConsumer
 (
 )
 ;
+if
+(
+!
+abstractSurf
+)
+{
+return
+false
+;
+}
 bool
 compositorSupportsShSurfType
 =
