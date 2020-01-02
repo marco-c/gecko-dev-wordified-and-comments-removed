@@ -403,8 +403,8 @@ cmd
 =
 "
 nfc
-ntf
-rf_intf_activated
+nci
+rf_intf_activated_ntf
 "
 +
 re

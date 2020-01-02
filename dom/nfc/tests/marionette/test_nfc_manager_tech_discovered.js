@@ -113,8 +113,8 @@ cmd
 =
 '
 nfc
-ntf
-rf_intf_activated
+nci
+rf_intf_activated_ntf
 '
 +
 re
@@ -185,8 +185,8 @@ cmd
 =
 '
 nfc
-ntf
-rf_discover
+nci
+rf_discover_ntf
 '
 +
 re
