@@ -306,6 +306,14 @@ webapprt
 .
 rc
 '
+USE_LIBS
++
+=
+[
+'
+xpcomglue_staticruntime
+'
+]
 DISABLE_STL_WRAPPING
 =
 True

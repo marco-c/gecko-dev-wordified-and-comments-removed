@@ -238,3 +238,13 @@ GENERATED_INCLUDES
 .
 '
 ]
+USE_LIBS
++
+=
+[
+'
+static
+:
+js
+'
+]

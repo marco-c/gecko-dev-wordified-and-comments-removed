@@ -66,9 +66,5 @@ NSS_LIBS
 )
 \
 (
-MOZALLOC_LIB
-)
-\
-(
 NULL
 )

@@ -138,6 +138,14 @@ LOCAL_INCLUDES
 linker
 '
 ]
+USE_LIBS
++
+=
+[
+'
+linker
+'
+]
 DISABLE_STL_WRAPPING
 =
 True

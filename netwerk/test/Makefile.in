@@ -65,10 +65,8 @@ MPL
 /
 .
 LIBS
++
 =
-(
-XPCOM_LIBS
-)
 \
 (
 NSPR_LIBS

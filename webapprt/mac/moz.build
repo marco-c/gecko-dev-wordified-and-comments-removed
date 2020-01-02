@@ -150,6 +150,14 @@ xpcom
 build
 '
 ]
+USE_LIBS
++
+=
+[
+'
+xpcomglue
+'
+]
 DISABLE_STL_WRAPPING
 =
 True

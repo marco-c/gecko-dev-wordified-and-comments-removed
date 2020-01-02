@@ -162,3 +162,11 @@ WIN32_EXE_LDFLAGS
 municode
 '
 ]
+USE_LIBS
++
+=
+[
+'
+xpcomglue
+'
+]

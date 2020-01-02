@@ -127,6 +127,14 @@ True
 SDK_LIBRARY
 =
 True
+USE_LIBS
++
+=
+[
+'
+mozsqlite3
+'
+]
 if
 CONFIG
 [

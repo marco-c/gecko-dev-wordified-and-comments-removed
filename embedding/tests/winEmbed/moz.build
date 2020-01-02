@@ -243,3 +243,14 @@ HEAP
 DISABLE_STL_WRAPPING
 =
 True
+USE_LIBS
++
+=
+[
+'
+profdirserviceprovidersa_s
+'
+'
+xpcomglue
+'
+]

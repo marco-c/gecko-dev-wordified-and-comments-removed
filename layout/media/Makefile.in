@@ -62,10 +62,8 @@ OS_TARGET
 )
 )
 EXTRA_DSO_LDOPTS
++
 =
-(
-MOZALLOC_LIB
-)
 (
 NSPR_LIBS
 )

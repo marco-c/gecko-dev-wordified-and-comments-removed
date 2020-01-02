@@ -122,17 +122,6 @@ Cocoa
 TK_LIBS
 )
 endif
-LIBS
-+
-=
-\
-(
-XPCOM_STANDALONE_GLUE_LDOPTS
-)
-\
-(
-NULL
-)
 ifndef
 MOZ_WINCONSOLE
 ifdef

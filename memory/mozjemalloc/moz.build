@@ -125,6 +125,11 @@ c
 LIBRARY_NAME
 =
 '
+mozjemalloc
+'
+STATIC_LIBRARY_NAME
+=
+'
 jemalloc
 '
 FORCE_STATIC_LIB

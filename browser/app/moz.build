@@ -362,6 +362,14 @@ HEAP
 0x40000
 '
 ]
+USE_LIBS
++
+=
+[
+'
+xpcomglue
+'
+]
 DISABLE_STL_WRAPPING
 =
 True
