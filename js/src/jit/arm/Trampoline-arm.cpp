@@ -2079,14 +2079,6 @@ r1
 ;
 masm
 .
-clearCalleeTag
-(
-r1
-mode
-)
-;
-masm
-.
 ma_ldrh
 (
 EDtrAddr
@@ -2337,10 +2329,9 @@ r0
 ;
 masm
 .
-pushCalleeToken
+ma_push
 (
 r1
-mode
 )
 ;
 masm

@@ -1903,14 +1903,6 @@ rax
 ;
 masm
 .
-clearCalleeTag
-(
-rax
-mode
-)
-;
-masm
-.
 movzwl
 (
 Operand
@@ -2133,10 +2125,9 @@ rdx
 ;
 masm
 .
-pushCalleeToken
+push
 (
 rax
-mode
 )
 ;
 masm

@@ -822,13 +822,6 @@ IonFrameIterator
 iter
 (
 cx
--
->
-mainThread
-(
-)
-.
-ionTop
 )
 ;
 JS_ASSERT

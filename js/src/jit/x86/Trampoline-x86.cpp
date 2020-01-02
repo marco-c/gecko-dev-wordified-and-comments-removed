@@ -1623,14 +1623,6 @@ eax
 ;
 masm
 .
-clearCalleeTag
-(
-eax
-mode
-)
-;
-masm
-.
 movzwl
 (
 Operand
@@ -1906,10 +1898,9 @@ edx
 ;
 masm
 .
-pushCalleeToken
+push
 (
 eax
-mode
 )
 ;
 masm
