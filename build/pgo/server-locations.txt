@@ -925,6 +925,16 @@ com
 80
 privileged
 noxul
+http
+:
+/
+/
+example
+.
+net
+:
+80
+privileged
 https
 :
 /
