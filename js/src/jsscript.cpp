@@ -168,6 +168,15 @@ include
 "
 vm
 /
+Compression
+.
+h
+"
+#
+include
+"
+vm
+/
 Debugger
 .
 h
@@ -7313,7 +7322,7 @@ bool
 SourceCompressionTask
 :
 :
-compress
+work
 (
 )
 {

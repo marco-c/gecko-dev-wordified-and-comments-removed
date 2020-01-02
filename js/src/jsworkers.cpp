@@ -4215,7 +4215,7 @@ if
 compressionTask
 -
 >
-compress
+work
 (
 )
 )
