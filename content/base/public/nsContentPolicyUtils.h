@@ -314,11 +314,6 @@ CASE_RETURN
 TYPE_XSLT
 )
 ;
-CASE_RETURN
-(
-TYPE_BEACON
-)
-;
 default
 :
 return
