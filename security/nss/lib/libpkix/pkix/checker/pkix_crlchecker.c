@@ -359,11 +359,6 @@ state
 NULL
 ;
 PKIX_UInt32
-reasonCode
-=
-0
-;
-PKIX_UInt32
 crlStoreIndex
 =
 0
@@ -505,8 +500,7 @@ date
 :
 NULL
 PKIX_FALSE
-&
-reasonCode
+pReasonCode
 &
 revStatus
 plContext
@@ -631,11 +625,6 @@ pkix_CrlChecker
 state
 =
 NULL
-;
-PKIX_UInt32
-reasonCode
-=
-0
 ;
 PKIX_UInt32
 crlStoreIndex
@@ -1003,8 +992,7 @@ cert
 issuer
 date
 PKIX_TRUE
-&
-reasonCode
+pReasonCode
 &
 revStatus
 plContext

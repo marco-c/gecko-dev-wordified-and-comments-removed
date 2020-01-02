@@ -15000,9 +15000,6 @@ static
 PRBool
 ocsp_CertIDsMatch
 (
-CERTCertDBHandle
-*
-handle
 CERTOCSPCertID
 *
 requestCertID
@@ -15237,7 +15234,7 @@ SEC_ERROR_INVALID_ALGORITHM
 )
 ;
 return
-SECFailure
+PR_FALSE
 ;
 }
 if
@@ -15357,7 +15354,6 @@ if
 (
 ocsp_CertIDsMatch
 (
-handle
 certID
 single
 -
