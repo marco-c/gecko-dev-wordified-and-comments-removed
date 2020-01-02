@@ -8585,7 +8585,7 @@ RanOutOfMemory
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 false
 "
@@ -9172,7 +9172,7 @@ if
 failed
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 false
 "
@@ -9235,7 +9235,7 @@ if
 failed
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 false
 "
