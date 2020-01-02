@@ -119,11 +119,6 @@ gfx
 h
 '
 '
-BaseCoord
-.
-h
-'
-'
 BaseMargin
 .
 h
@@ -160,11 +155,6 @@ h
 '
 '
 BorrowedContext
-.
-h
-'
-'
-Coord
 .
 h
 '

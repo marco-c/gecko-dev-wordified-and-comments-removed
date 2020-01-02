@@ -60,7 +60,7 @@ aOrigin
 .
 x
 +
-cosf
+cos
 (
 aStartAngle
 )
@@ -72,7 +72,7 @@ aOrigin
 .
 y
 +
-sinf
+sin
 (
 aStartAngle
 )
@@ -340,7 +340,7 @@ aOrigin
 .
 x
 +
-cosf
+cos
 (
 currentStartAngle
 )
@@ -352,7 +352,7 @@ aOrigin
 .
 y
 +
-sinf
+sin
 (
 currentStartAngle
 )
@@ -369,7 +369,7 @@ aOrigin
 .
 x
 +
-cosf
+cos
 (
 currentEndAngle
 )
@@ -381,7 +381,7 @@ aOrigin
 .
 y
 +
-sinf
+sin
 (
 currentEndAngle
 )

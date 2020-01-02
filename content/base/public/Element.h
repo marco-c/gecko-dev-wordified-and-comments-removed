@@ -2466,8 +2466,6 @@ GetScrollPositionCSSPixels
 )
 .
 y
-.
-value
 :
 0
 ;
@@ -2537,8 +2535,6 @@ GetScrollPositionCSSPixels
 )
 .
 x
-.
-value
 :
 0
 ;
