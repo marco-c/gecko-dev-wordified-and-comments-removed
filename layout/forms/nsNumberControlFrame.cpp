@@ -164,6 +164,10 @@ nsContainerFrame
 (
 aContext
 )
+mHandlingInputEvent
+(
+false
+)
 {
 }
 void
@@ -1240,6 +1244,14 @@ nsAString
 aValue
 )
 {
+if
+(
+mHandlingInputEvent
+)
+{
+return
+;
+}
 HTMLInputElement
 :
 :
