@@ -6,6 +6,11 @@ define
 mozilla_pkix__pkixder_h
 #
 include
+<
+cassert
+>
+#
+include
 "
 pkix
 /
@@ -140,7 +145,7 @@ uint8_t
 expectedLength
 )
 {
-PR_ASSERT
+assert
 (
 (
 expectedTag
@@ -152,7 +157,7 @@ expectedTag
 0x1F
 )
 ;
-PR_ASSERT
+assert
 (
 expectedLength
 <

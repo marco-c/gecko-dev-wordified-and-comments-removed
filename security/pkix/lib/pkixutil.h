@@ -535,7 +535,7 @@ int
 year
 )
 {
-PR_ASSERT
+assert
 (
 year
 >
@@ -543,7 +543,7 @@ year
 1
 )
 ;
-PR_ASSERT
+assert
 (
 year
 <
