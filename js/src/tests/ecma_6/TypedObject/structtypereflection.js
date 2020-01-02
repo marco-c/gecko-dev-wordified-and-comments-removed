@@ -160,6 +160,7 @@ toSource
 (
 )
 "
+new
 StructType
 (
 {
