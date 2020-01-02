@@ -17,7 +17,7 @@ deps
 [
 '
 httplib2
->
+=
 =
 0
 .
@@ -28,7 +28,7 @@ httplib2
         
 '
 mozfile
->
+=
 =
 1
 .
@@ -37,7 +37,7 @@ mozfile
         
 '
 mozhttpd
->
+=
 =
 0
 .
@@ -46,7 +46,7 @@ mozhttpd
         
 '
 mozinfo
->
+=
 =
 0
 .
@@ -55,25 +55,25 @@ mozinfo
         
 '
 mozinstall
->
+=
 =
 1
 .
-9
+10
 '
         
 '
 mozprocess
->
+=
 =
 0
 .
-18
+19
 '
         
 '
 mozprofile
->
+=
 =
 0
 .
@@ -82,11 +82,11 @@ mozprofile
         
 '
 mozrunner
->
 =
-5
+=
+6
 .
-35
+0
 '
         
 '
