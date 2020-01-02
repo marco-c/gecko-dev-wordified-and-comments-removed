@@ -35,6 +35,7 @@ osfile
 jsm
 "
 )
+;
 function
 run_test
 (
