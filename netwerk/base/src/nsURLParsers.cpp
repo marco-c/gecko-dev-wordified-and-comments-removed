@@ -658,6 +658,7 @@ authorityLen
 |
 pathLen
 )
+{
 ParseAfterScheme
 (
 spec
@@ -680,6 +681,7 @@ path
 offset
 )
 ;
+}
 }
 return
 NS_OK
