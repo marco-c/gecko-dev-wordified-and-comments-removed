@@ -2355,6 +2355,15 @@ ShutdownLayersIPC
 (
 )
 {
+if
+(
+!
+gPlatform
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 !
