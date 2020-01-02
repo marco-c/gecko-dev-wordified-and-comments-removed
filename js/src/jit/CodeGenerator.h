@@ -2868,9 +2868,6 @@ FloatRegister
 temp
 )
 ;
-#
-ifdef
-DEBUG
 Vector
 <
 CodeOffsetLabel
@@ -2879,6 +2876,9 @@ IonAllocPolicy
 >
 ionScriptLabels_
 ;
+#
+ifdef
+DEBUG
 bool
 branchIfInvalidated
 (
