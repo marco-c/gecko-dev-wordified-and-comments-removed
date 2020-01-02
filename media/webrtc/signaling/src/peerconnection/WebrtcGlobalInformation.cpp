@@ -1189,6 +1189,11 @@ bool
 aEnable
 )
 {
+StartWebRtcLog
+(
+sLastSetLevel
+)
+;
 webrtc
 :
 :
