@@ -6531,7 +6531,7 @@ null
 "
 )
 ;
-nsIContentParent
+ContentParent
 *
 contentParent
 =
@@ -8597,7 +8597,7 @@ null
 "
 )
 ;
-nsIContentParent
+ContentParent
 *
 contentParent
 =
@@ -12137,7 +12137,7 @@ null
 "
 )
 ;
-nsIContentParent
+ContentParent
 *
 contentParent
 =

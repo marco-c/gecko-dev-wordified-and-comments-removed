@@ -139,7 +139,7 @@ namespace
 dom
 {
 class
-nsIContentParent
+ContentParent
 ;
 namespace
 quota
@@ -245,7 +245,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 )
@@ -490,7 +490,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 GetContentParent
 (
@@ -842,7 +842,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 mContentParent
 ;

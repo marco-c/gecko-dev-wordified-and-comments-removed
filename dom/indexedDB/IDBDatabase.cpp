@@ -48,7 +48,7 @@ mozilla
 /
 dom
 /
-nsIContentParent
+ContentParent
 .
 h
 "
@@ -242,7 +242,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 ;
 using
 mozilla
@@ -726,7 +726,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 )

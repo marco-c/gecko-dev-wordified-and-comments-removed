@@ -62,7 +62,7 @@ namespace
 dom
 {
 class
-nsIContentParent
+ContentParent
 ;
 }
 }
@@ -137,7 +137,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 StoragePrivilege
@@ -517,7 +517,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 mContentParent
 ;

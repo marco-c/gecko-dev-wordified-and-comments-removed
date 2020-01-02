@@ -7717,6 +7717,11 @@ aASCIIOrigin
 Manager
 (
 )
+-
+>
+AsContentParent
+(
+)
 getter_AddRefs
 (
 factory
