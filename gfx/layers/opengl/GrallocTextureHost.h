@@ -422,6 +422,17 @@ GrallocTextureHostOGL
 "
 ;
 }
+virtual
+void
+ForgetBufferActor
+(
+)
+{
+mGrallocActor
+=
+nullptr
+;
+}
 private
 :
 GrallocBufferActor

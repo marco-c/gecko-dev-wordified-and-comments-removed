@@ -948,6 +948,13 @@ OnShutdown
 {
 }
 virtual
+void
+ForgetBufferActor
+(
+)
+{
+}
+virtual
 const
 char
 *
