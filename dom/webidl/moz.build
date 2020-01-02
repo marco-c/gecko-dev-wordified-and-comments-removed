@@ -695,6 +695,11 @@ GetUserMediaRequest
 webidl
 '
 '
+Headers
+.
+webidl
+'
+'
 History
 .
 webidl
