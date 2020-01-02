@@ -75,6 +75,11 @@ nfc
 -
 manager
 "
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 interface
 MozNFCManager
@@ -281,6 +286,11 @@ read
 nfc
 -
 write
+"
+AvailableIn
+=
+"
+CertifiedApps
 "
 ]
 interface

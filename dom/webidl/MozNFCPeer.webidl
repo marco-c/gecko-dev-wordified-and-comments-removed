@@ -114,6 +114,11 @@ NFCPeer
 ;
 1
 "
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 interface
 MozNFCPeer

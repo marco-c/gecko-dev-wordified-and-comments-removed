@@ -152,6 +152,11 @@ NFCTag
 ;
 1
 "
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 interface
 MozNFCTag
