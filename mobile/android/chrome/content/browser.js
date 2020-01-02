@@ -21682,6 +21682,15 @@ catch
 e
 )
 {
+success
+=
+aRequest
+.
+status
+=
+=
+0
+;
 }
 let
 restoring
