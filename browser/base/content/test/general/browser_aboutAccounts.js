@@ -119,6 +119,8 @@ content
 /
 test
 /
+general
+/
 accounts_testRemoteCommands
 .
 html
