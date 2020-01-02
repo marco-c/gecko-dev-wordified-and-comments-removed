@@ -142,7 +142,7 @@ equals
 (
 Ci
 .
-nsICacheEntryOpenCallback
+nsICacheListener
 )
 )
 {

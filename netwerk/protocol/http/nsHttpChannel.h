@@ -116,6 +116,9 @@ class
 nsDNSPrefetch
 ;
 class
+nsICacheEntryDescriptor
+;
+class
 nsICancelable
 ;
 class
