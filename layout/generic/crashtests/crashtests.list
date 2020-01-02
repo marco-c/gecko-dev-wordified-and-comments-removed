@@ -2984,6 +2984,12 @@ load
 777838
 .
 html
+skip
+-
+if
+(
+Android
+)
 load
 784600
 .
