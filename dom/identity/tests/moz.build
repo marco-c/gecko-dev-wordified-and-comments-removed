@@ -93,3 +93,15 @@ MPL
 0
 /
 .
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+'
+mochitest
+/
+chrome
+.
+ini
+'
+]
