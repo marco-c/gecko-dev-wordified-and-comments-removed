@@ -2486,7 +2486,16 @@ if
 (
 mPresShell
 )
+{
+nsRefPtr
+<
+PresShell
+>
+shell
+=
 mPresShell
+;
+shell
 -
 >
 ProcessSynthMouseMoveEvent
@@ -2494,6 +2503,7 @@ ProcessSynthMouseMoveEvent
 mFromScroll
 )
 ;
+}
 }
 private
 :
