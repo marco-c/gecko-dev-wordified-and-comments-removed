@@ -212,6 +212,15 @@ JSContext
 aCx
 )
 ;
+void
+mozilla_sampler_save_profile_to_file
+(
+const
+char
+*
+aFilename
+)
+;
 const
 char
 *

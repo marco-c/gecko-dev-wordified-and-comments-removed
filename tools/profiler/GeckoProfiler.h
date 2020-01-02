@@ -343,6 +343,17 @@ nullptr
 }
 static
 inline
+void
+profiler_save_profile_to_file
+(
+char
+*
+aFilename
+)
+{
+}
+static
+inline
 char
 *
 *

@@ -175,12 +175,7 @@ BreakpadSampler
 cpp
 '
 '
-JSCustomObjectBuilder
-.
-cpp
-'
-'
-JSObjectBuilder
+JSStreamWriter
 .
 cpp
 '
