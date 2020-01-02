@@ -1903,6 +1903,12 @@ WebAudioDecodeJob
 UnknownContent
 )
 ;
+JS_free
+(
+nullptr
+aBuffer
+)
+;
 NS_DispatchToMainThread
 (
 event
@@ -1938,6 +1944,12 @@ WebAudioDecodeJob
 :
 :
 UnknownError
+)
+;
+JS_free
+(
+nullptr
+aBuffer
 )
 ;
 NS_DispatchToMainThread
