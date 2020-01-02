@@ -503,11 +503,9 @@ mMask
 )
 ;
 }
+static
 nsPoint
-nsSVGIntegrationUtils
-:
-:
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 nsIFrame
 *
@@ -782,7 +780,7 @@ nullptr
 nsRect
 (
 )
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 firstFrame
 )
@@ -891,9 +889,9 @@ aPreEffectsOverflowRect
 ;
 }
 nsPoint
-firstFrameToUserSpace
+firstFrameToBoundingBox
 =
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 firstFrame
 )
@@ -911,7 +909,7 @@ GetPreEffectsVisualOverflowUnion
 firstFrame
 aFrame
 aPreEffectsOverflowRect
-firstFrameToUserSpace
+firstFrameToBoundingBox
 )
 aFrame
 -
@@ -957,7 +955,7 @@ GetOffsetTo
 firstFrame
 )
 +
-firstFrameToUserSpace
+firstFrameToBoundingBox
 )
 ;
 }
@@ -1090,7 +1088,7 @@ appUnitsPerDevPixel
 ;
 }
 nsPoint
-toUserSpace
+toBoundingBox
 =
 aFrame
 -
@@ -1100,12 +1098,12 @@ GetOffsetTo
 firstFrame
 )
 +
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 firstFrame
 )
 ;
-toUserSpace
+toBoundingBox
 -
 =
 aToReferenceFrame
@@ -1120,7 +1118,7 @@ ToAppUnits
 appUnitsPerDevPixel
 )
 +
-toUserSpace
+toBoundingBox
 ;
 nsRect
 result
@@ -1134,7 +1132,7 @@ firstFrame
 preEffectsRect
 )
 -
-toUserSpace
+toBoundingBox
 ;
 return
 result
@@ -1214,7 +1212,7 @@ GetOffsetTo
 firstFrame
 )
 +
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 firstFrame
 )
@@ -1303,7 +1301,7 @@ GetOffsetTo
 firstFrame
 )
 +
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 firstFrame
 )
@@ -1774,7 +1772,7 @@ gfx
 nsPoint
 firstFrameOffset
 =
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 firstFrame
 )
@@ -2573,10 +2571,7 @@ AppUnitsPerDevPixel
 nsPoint
 offset
 =
-nsSVGIntegrationUtils
-:
-:
-GetOffsetToUserSpace
+GetOffsetToBoundingBox
 (
 mFrame
 )
