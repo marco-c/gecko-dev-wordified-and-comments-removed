@@ -137,6 +137,11 @@ nsITCPSocketParent
 .
 idl
 '
+'
+nsIUDPSocketChild
+.
+idl
+'
 ]
 if
 CONFIG

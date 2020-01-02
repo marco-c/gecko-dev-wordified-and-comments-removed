@@ -152,6 +152,10 @@ PTCPServerSocket
 ;
 include
 protocol
+PUDPSocket
+;
+include
+protocol
 PRemoteOpenFile
 ;
 include
@@ -295,6 +299,9 @@ manages
 PTCPServerSocket
 ;
 manages
+PUDPSocket
+;
+manages
 PRemoteOpenFile
 ;
 manages
@@ -351,6 +358,14 @@ uint16_t
 backlog
 nsString
 binaryType
+)
+;
+PUDPSocket
+(
+nsCString
+host
+uint16_t
+port
 )
 ;
 PRemoteOpenFile
