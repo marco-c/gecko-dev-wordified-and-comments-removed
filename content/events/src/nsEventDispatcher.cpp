@@ -3401,13 +3401,11 @@ NS_NewDOMClipboardEvent
 aDOMEvent
 aOwner
 aPresContext
-static_cast
-<
-InternalClipboardEvent
-*
->
-(
 aEvent
+-
+>
+AsClipboardEvent
+(
 )
 )
 ;
