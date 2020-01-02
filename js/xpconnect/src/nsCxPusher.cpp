@@ -662,6 +662,12 @@ aSafe
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 {
+JS
+:
+:
+AutoAssertNoGC
+nogc
+;
 MOZ_ASSERT
 (
 !

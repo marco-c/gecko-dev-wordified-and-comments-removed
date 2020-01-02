@@ -11568,6 +11568,12 @@ cx
 }
 JSContext
 *
+InitSafeJSContext
+(
+)
+;
+JSContext
+*
 GetSafeJSContext
 (
 )

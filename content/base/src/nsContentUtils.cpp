@@ -2089,6 +2089,13 @@ NS_ADDREF
 sSecurityManager
 )
 ;
+sXPConnect
+-
+>
+InitSafeJSContext
+(
+)
+;
 rv
 =
 CallGetService
