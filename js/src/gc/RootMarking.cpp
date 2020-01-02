@@ -1605,10 +1605,17 @@ JS_STACK_GROWTH_DIRECTION
 0
 stackMin
 =
+reinterpret_cast
+<
+uintptr_t
+*
+>
+(
 rt
 -
 >
 nativeStackBase
+)
 ;
 stackEnd
 =
