@@ -2792,6 +2792,7 @@ entryPc
 }
 else
 {
+const
 char
 *
 entryFunction
