@@ -8587,6 +8587,17 @@ options
 )
 :
     
+if
+options
+.
+gmp_path
+:
+      
+return
+options
+.
+gmp_path
+    
 gmp_path
 =
 os
