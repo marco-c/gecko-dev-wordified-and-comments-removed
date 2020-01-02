@@ -982,7 +982,8 @@ H
 )
 FOURCC_ANY
 =
-0xFFFFFFFF
+-
+1
 }
 ;
 enum
