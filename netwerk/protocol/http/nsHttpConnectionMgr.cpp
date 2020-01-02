@@ -2736,10 +2736,6 @@ mSpdyPreferred
 =
 true
 ;
-preferred
-=
-ent
-;
 }
 }
 else
