@@ -3729,7 +3729,12 @@ if
 startProp
 )
 return
+Promise
+.
+resolve
+(
 finalList
+)
 ;
 let
 length
