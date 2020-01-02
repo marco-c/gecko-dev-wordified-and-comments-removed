@@ -111,11 +111,6 @@ event
 )
 ;
 "
-observes
-=
-"
-isImage
-"
 >
 <
 menupopup
