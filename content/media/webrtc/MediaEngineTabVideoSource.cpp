@@ -669,7 +669,7 @@ MOZ_UTF16
 &
 getUserMedia
 .
-videoDevice
+videoSource
 .
 tabShare
 ;
