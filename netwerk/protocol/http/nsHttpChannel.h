@@ -1343,15 +1343,6 @@ nsISupports
 >
 mCachedSecurityInfo
 ;
-mozilla
-:
-:
-Telemetry
-:
-:
-ID
-mCacheEntryDeviceTelemetryID
-;
 uint32_t
 mPostID
 ;
