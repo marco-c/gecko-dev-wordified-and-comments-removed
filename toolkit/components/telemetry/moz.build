@@ -193,6 +193,11 @@ ThirdPartyCookieProbe
 .
 jsm
 '
+'
+UITelemetry
+.
+jsm
+'
 ]
 EXTRA_PP_JS_MODULES
 +
@@ -200,11 +205,6 @@ EXTRA_PP_JS_MODULES
 [
 '
 TelemetryPing
-.
-jsm
-'
-'
-UITelemetry
 .
 jsm
 '
