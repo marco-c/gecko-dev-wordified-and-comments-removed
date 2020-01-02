@@ -328,6 +328,11 @@ exception
 "
 error
 "
+assert
+:
+"
+error
+"
 warn
 :
 "

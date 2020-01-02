@@ -796,6 +796,9 @@ SEVERITY_ERROR
 exception
 :
 SEVERITY_ERROR
+assert
+:
+SEVERITY_ERROR
 warn
 :
 SEVERITY_WARNING
@@ -4884,6 +4887,11 @@ error
 case
 "
 exception
+"
+:
+case
+"
+assert
 "
 :
 case
