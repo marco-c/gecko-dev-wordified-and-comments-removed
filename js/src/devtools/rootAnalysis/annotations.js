@@ -891,6 +891,17 @@ NS_DebugBreak
 :
 true
 "
+PrefHashEntry
+*
+pref_HashTableLookup
+(
+void
+*
+)
+"
+:
+true
+"
 void
 js
 :
