@@ -1091,16 +1091,6 @@ self
 )
 :
         
-if
-self
-.
-_is_windows
-(
-)
-:
-            
-return
-        
 self
 .
 resources
