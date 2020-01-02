@@ -443,7 +443,6 @@ void
 ReportPermaHang
 (
 )
-const
 ;
 void
 NotifyActivity
@@ -801,6 +800,13 @@ currentThread
 mWaiting
 =
 true
+;
+currentThread
+-
+>
+mHanging
+=
+false
 ;
 currentThread
 -
@@ -1269,8 +1275,12 @@ BackgroundHangThread
 ReportPermaHang
 (
 )
-const
 {
+ReportHang
+(
+mMaxTimeout
+)
+;
 }
 MOZ_ALWAYS_INLINE
 void
