@@ -6519,8 +6519,10 @@ maybeLock
 #
 ifdef
 JS_THREADSAFE
-volatile
-uintptr_t
+ArenaLists
+:
+:
+BackgroundFinalizeState
 *
 bfs
 =
@@ -24455,8 +24457,10 @@ AllocKind
 thingKind
 )
 {
-volatile
-uintptr_t
+ArenaLists
+:
+:
+BackgroundFinalizeState
 *
 bfs
 =
