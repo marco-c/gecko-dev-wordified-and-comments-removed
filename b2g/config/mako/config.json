@@ -475,7 +475,7 @@ gecko_l10n_root
 "
 :
 "
-http
+https
 :
 /
 /
@@ -511,7 +511,7 @@ root
 "
 :
 "
-http
+https
 :
 /
 /
