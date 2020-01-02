@@ -1470,7 +1470,7 @@ m
 ;
 }
 void
-CheckAndSetProjectionMatrix
+DelayedSetProjectionMatrix
 (
 const
 gfx
@@ -1481,13 +1481,6 @@ Matrix4x4
 aMatrix
 )
 {
-if
-(
-mProfile
-.
-mHasMatrixProj
-)
-{
 mIsProjectionMatrixStale
 =
 true
@@ -1496,7 +1489,6 @@ mProjectionMatrix
 =
 aMatrix
 ;
-}
 }
 void
 SetProjectionMatrix

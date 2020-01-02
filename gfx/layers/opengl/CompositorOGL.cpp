@@ -3512,7 +3512,7 @@ mask
 ]
 -
 >
-CheckAndSetProjectionMatrix
+DelayedSetProjectionMatrix
 (
 aMatrix
 )
