@@ -1841,6 +1841,8 @@ char
 hostname
 bool
 saveIntermediatesInPermanentDatabase
+Flags
+flags
 ScopedCERTCertList
 *
 builtChain
@@ -1925,7 +1927,7 @@ certificateUsageSSLServer
 time
 pinarg
 hostname
-0
+flags
 stapledOCSPResponse
 &
 builtChainTemp
