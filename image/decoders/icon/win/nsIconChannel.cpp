@@ -959,7 +959,7 @@ aFile
 return
 shellResult
 ;
-PRUnichar
+wchar_t
 fileNativePath
 [
 MAX_PATH
@@ -1016,7 +1016,7 @@ hr
 )
 )
 {
-PRUnichar
+wchar_t
 specialNativePath
 [
 MAX_PATH

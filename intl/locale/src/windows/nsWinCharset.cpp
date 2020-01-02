@@ -300,7 +300,7 @@ return
 rv
 ;
 }
-PRUnichar
+wchar_t
 acp_name
 [
 6

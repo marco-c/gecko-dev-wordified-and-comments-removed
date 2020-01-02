@@ -730,10 +730,6 @@ jsMsgStr
 JS_NewUCStringCopyZ
 (
 cx
-(
-jschar
-*
-)
 unicodeMsg
 .
 get

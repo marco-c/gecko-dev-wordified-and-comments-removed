@@ -75,7 +75,7 @@ mozilla
 a11y
 ;
 const
-PRUnichar
+wchar_t
 *
 kPropNameTabContent
 =

@@ -2318,12 +2318,10 @@ mFieldText
 ?
 mFieldText
 :
-EmptyString
+MOZ_UTF16
 (
-)
-.
-get
-(
+"
+"
 )
 )
 ;
