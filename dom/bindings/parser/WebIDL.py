@@ -32547,14 +32547,7 @@ yacc
 NullLogger
 (
 )
-                                
-picklefile
-=
-'
-WebIDLGrammar
-.
-pkl
-'
+                            
 )
         
 self
