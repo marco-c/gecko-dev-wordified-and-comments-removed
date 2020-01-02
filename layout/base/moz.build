@@ -487,6 +487,11 @@ StackArena
 .
 cpp
 '
+'
+TouchCaret
+.
+cpp
+'
 ]
 #
 nsDocumentViewer
