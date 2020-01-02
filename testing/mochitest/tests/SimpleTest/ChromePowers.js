@@ -443,9 +443,10 @@ _receiveMessageAPI
 aMessage
 )
 ;
-break
-;
 }
+return
+undefined
+;
 }
 ;
 ChromePowers
