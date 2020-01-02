@@ -124,9 +124,6 @@ checkAliasing
 JSScript
 *
 script
-StaticBlockObject
-*
-maybeBlock
 unsigned
 i
 )

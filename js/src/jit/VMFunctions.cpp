@@ -4447,7 +4447,7 @@ status
 }
 }
 bool
-EnterBlock
+PushBlockScope
 (
 JSContext
 *
@@ -4475,7 +4475,7 @@ block
 ;
 }
 bool
-LeaveBlock
+PopBlockScope
 (
 JSContext
 *
