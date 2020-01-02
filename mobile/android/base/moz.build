@@ -897,6 +897,11 @@ AppNotificationClient
 java
 '
 '
+Assert
+.
+java
+'
+'
 BaseGeckoInterface
 .
 java
