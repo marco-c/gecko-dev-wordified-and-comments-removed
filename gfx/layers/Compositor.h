@@ -569,14 +569,14 @@ aTransform
 }
 virtual
 void
-clearFBRect
+ClearRect
 (
 const
 gfx
 :
 :
 Rect
-*
+&
 aRect
 )
 {
