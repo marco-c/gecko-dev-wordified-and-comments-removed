@@ -1541,6 +1541,17 @@ tileLayerDescriptor
 }
 ;
 struct
+OpUseOverlaySource
+{
+PCompositable
+compositable
+;
+OverlaySource
+overlay
+;
+}
+;
+struct
 OpCreatedIncrementalTexture
 {
 PCompositable
@@ -1812,6 +1823,8 @@ OpUpdateTexture
 OpUseTexture
 ;
 OpUseComponentAlphaTextures
+;
+OpUseOverlaySource
 ;
 }
 ;
