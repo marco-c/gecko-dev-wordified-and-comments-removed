@@ -2992,16 +2992,6 @@ Wrapper
 }
 virtual
 bool
-isOuterWindow
-(
-)
-{
-return
-true
-;
-}
-virtual
-bool
 finalizeInBackground
 (
 JS

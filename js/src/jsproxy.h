@@ -228,16 +228,6 @@ mFamily
 }
 virtual
 bool
-isOuterWindow
-(
-)
-{
-return
-false
-;
-}
-virtual
-bool
 finalizeInBackground
 (
 Value
