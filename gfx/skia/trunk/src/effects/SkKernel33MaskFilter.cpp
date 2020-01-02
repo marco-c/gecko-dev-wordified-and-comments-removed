@@ -548,8 +548,8 @@ readInt
 ;
 }
 #
-ifdef
-SK_DEVELOPER
+ifndef
+SK_IGNORE_TO_STRING
 void
 SkKernel33ProcMaskFilter
 :
@@ -786,8 +786,8 @@ readInt
 ;
 }
 #
-ifdef
-SK_DEVELOPER
+ifndef
+SK_IGNORE_TO_STRING
 void
 SkKernel33MaskFilter
 :

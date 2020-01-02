@@ -597,11 +597,6 @@ deepCopyTo
 (
 &
 fBitmap
-prev
-.
-config
-(
-)
 )
 ;
 }

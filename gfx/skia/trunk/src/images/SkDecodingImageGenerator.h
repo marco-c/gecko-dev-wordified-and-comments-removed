@@ -217,13 +217,6 @@ const
 bool
 fDitherImage
 ;
-const
-SkBitmap
-:
-:
-Config
-fRequestedConfig
-;
 SkDecodingImageGenerator
 (
 SkData
@@ -240,11 +233,6 @@ int
 sampleSize
 bool
 ditherImage
-SkBitmap
-:
-:
-Config
-requestedConfig
 )
 ;
 static

@@ -355,7 +355,7 @@ effectKey
 ;
 }
 virtual
-GLEffect
+GrGLEffect
 *
 createGLInstance
 (

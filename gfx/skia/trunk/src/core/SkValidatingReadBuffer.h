@@ -393,9 +393,6 @@ ptr
 )
 ;
 }
-SkReader32
-fReader
-;
 bool
 fError
 ;

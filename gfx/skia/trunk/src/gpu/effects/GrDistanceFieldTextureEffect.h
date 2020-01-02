@@ -41,6 +41,10 @@ const
 GrTextureParams
 &
 p
+const
+SkISize
+&
+s
 )
 {
 AutoEffectUnref
@@ -52,6 +56,7 @@ GrDistanceFieldTextureEffect
 (
 tex
 p
+s
 )
 )
 )
@@ -80,7 +85,7 @@ Name
 {
 return
 "
-Texture
+DistanceFieldTexture
 "
 ;
 }
@@ -98,6 +103,18 @@ validFlags
 const
 SK_OVERRIDE
 ;
+const
+SkSize
+&
+getSize
+(
+)
+const
+{
+return
+fSize
+;
+}
 typedef
 GrGLDistanceFieldTextureEffect
 GLEffect
@@ -123,6 +140,10 @@ const
 GrTextureParams
 &
 params
+const
+SkISize
+&
+textureSize
 )
 ;
 virtual
@@ -139,6 +160,9 @@ SK_OVERRIDE
 ;
 GrTextureAccess
 fTextureAccess
+;
+SkSize
+fSize
 ;
 GR_DECLARE_EFFECT_TEST
 ;

@@ -1562,6 +1562,17 @@ fPathRenderingSupport
 fFixedFunctionSupport
 )
 ;
+fGpuTracingSupport
+=
+ctxInfo
+.
+hasExtension
+(
+"
+GL_EXT_debug_marker
+"
+)
+;
 fDstReadInShaderSupport
 =
 kNone_FBFetchType

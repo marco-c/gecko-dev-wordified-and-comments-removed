@@ -302,6 +302,13 @@ h
 #
 include
 "
+SkPictureImageFilter
+.
+h
+"
+#
+include
+"
 SkPixelXorXfermode
 .
 h
@@ -474,6 +481,10 @@ SkPath2DPathEffect
 SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
 (
 SkPerlinNoiseShader
+)
+SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
+(
+SkPictureImageFilter
 )
 SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
 (

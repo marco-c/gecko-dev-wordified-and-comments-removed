@@ -267,6 +267,13 @@ SkBitmap
 Config
 )
 ;
+GrPixelConfig
+SkImageInfo2GrPixelConfig
+(
+SkColorType
+SkAlphaType
+)
+;
 bool
 GrPixelConfig2ColorType
 (

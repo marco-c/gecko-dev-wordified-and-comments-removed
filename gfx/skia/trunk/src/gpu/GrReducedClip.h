@@ -32,6 +32,7 @@ kAllIn_InitialState
 kAllOut_InitialState
 }
 ;
+SK_API
 void
 ReduceClipStack
 (

@@ -1348,11 +1348,6 @@ deepCopyTo
 (
 &
 copiedBitmap
-originalBitmap
-.
-config
-(
-)
 )
 )
 {

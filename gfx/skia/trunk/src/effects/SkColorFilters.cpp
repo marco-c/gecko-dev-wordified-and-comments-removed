@@ -388,8 +388,8 @@ i
 }
 }
 #
-ifdef
-SK_DEVELOPER
+ifndef
+SK_IGNORE_TO_STRING
 virtual
 void
 toString
@@ -3052,12 +3052,12 @@ add
 )
 ;
 return
-SkNEW_ARGS
-(
 SkColorMatrixFilter
+:
+:
+Create
 (
 matrix
-)
 )
 ;
 }

@@ -1059,6 +1059,11 @@ return
 true
 ;
 }
+protected
+:
+SkReader32
+fReader
+;
 private
 :
 bool
@@ -1075,9 +1080,6 @@ elementSize
 ;
 uint32_t
 fFlags
-;
-SkReader32
-fReader
 ;
 void
 *

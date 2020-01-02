@@ -686,6 +686,15 @@ bounds
 )
 const
 ;
+bool
+findMaxCurvature
+(
+SkScalar
+*
+t
+)
+const
+;
 }
 ;
 #

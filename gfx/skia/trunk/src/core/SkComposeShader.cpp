@@ -848,8 +848,8 @@ count
 }
 }
 #
-ifdef
-SK_DEVELOPER
+ifndef
+SK_IGNORE_TO_STRING
 void
 SkComposeShader
 :

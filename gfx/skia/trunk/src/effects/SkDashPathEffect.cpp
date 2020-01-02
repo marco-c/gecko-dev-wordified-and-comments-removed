@@ -2762,12 +2762,6 @@ getFactory
 const
 {
 return
-fInitialDashLength
-<
-0
-?
-NULL
-:
 CreateProc
 ;
 }
@@ -2783,14 +2777,6 @@ buffer
 )
 const
 {
-SkASSERT
-(
-fInitialDashLength
->
-=
-0
-)
-;
 this
 -
 >

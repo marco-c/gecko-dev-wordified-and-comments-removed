@@ -266,10 +266,7 @@ copyTo
 (
 &
 copyBitmap
-SkBitmap
-:
-:
-kARGB_8888_Config
+kPMColor_SkColorType
 )
 )
 {

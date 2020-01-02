@@ -698,7 +698,7 @@ copyTo
 dst
 src
 .
-config
+colorType
 (
 )
 )

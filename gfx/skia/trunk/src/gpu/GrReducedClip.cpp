@@ -276,6 +276,7 @@ kAllIn_InitialState
 return
 ;
 }
+}
 *
 initialState
 =
@@ -338,7 +339,6 @@ requiresAA
 =
 doAA
 ;
-}
 }
 }
 else

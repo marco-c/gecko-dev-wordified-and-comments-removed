@@ -3081,11 +3081,6 @@ deepCopyTo
 (
 &
 fBitmap
-bitmap
-.
-config
-(
-)
 )
 ;
 fBitmap

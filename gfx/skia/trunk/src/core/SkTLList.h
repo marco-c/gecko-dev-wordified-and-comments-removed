@@ -1192,6 +1192,8 @@ SkTLList
 list
 IterStart
 start
+=
+kHead_IterStart
 )
 {
 INHERITED
@@ -1216,6 +1218,8 @@ SkTLList
 list
 IterStart
 start
+=
+kHead_IterStart
 )
 {
 return

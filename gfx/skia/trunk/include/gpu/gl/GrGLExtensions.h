@@ -29,6 +29,7 @@ struct
 GrGLInterface
 ;
 class
+SK_API
 GrGLExtensions
 {
 public
@@ -134,6 +135,15 @@ const
 ;
 bool
 remove
+(
+const
+char
+[
+]
+)
+;
+void
+add
 (
 const
 char

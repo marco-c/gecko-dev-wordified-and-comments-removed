@@ -82,9 +82,12 @@ SkBitmap
 &
 src
 const
-SkMatrix
+SkImageFilter
+:
+:
+Context
 &
-ctm
+ctx
 SkBitmap
 *
 dst
@@ -133,7 +136,7 @@ filterImage
 (
 proxy
 src
-ctm
+ctx
 &
 source
 &
@@ -148,7 +151,11 @@ false
 SkRect
 dstRect
 ;
+ctx
+.
 ctm
+(
+)
 .
 mapRect
 (
@@ -219,7 +226,11 @@ false
 SkRect
 srcRect
 ;
+ctx
+.
 ctm
+(
+)
 .
 mapRect
 (

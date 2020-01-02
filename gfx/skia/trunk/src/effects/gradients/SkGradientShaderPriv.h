@@ -501,7 +501,7 @@ SkWriteBuffer
 const
 SK_OVERRIDE
 ;
-SK_DEVELOPER_TO_STRING
+SK_TO_STRING_OVERRIDE
 (
 )
 SkUnitMapper

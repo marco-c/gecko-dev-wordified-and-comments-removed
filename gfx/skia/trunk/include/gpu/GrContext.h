@@ -485,6 +485,16 @@ getMaxSampleCount
 )
 const
 ;
+int
+getRecommendedSampleCount
+(
+GrPixelConfig
+config
+SkScalar
+dpi
+)
+const
+;
 GrTexture
 *
 wrapBackendTexture

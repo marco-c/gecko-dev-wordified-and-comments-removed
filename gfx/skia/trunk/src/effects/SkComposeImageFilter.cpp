@@ -49,9 +49,9 @@ SkBitmap
 &
 src
 const
-SkMatrix
+Context
 &
-ctm
+ctx
 SkBitmap
 *
 result
@@ -117,7 +117,7 @@ filterImage
 (
 proxy
 src
-ctm
+ctx
 result
 offset
 )
@@ -134,7 +134,7 @@ filterImage
 (
 proxy
 src
-ctm
+ctx
 &
 tmp
 offset
@@ -148,7 +148,7 @@ filterImage
 (
 proxy
 tmp
-ctm
+ctx
 result
 offset
 )

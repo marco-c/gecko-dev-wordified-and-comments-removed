@@ -105,8 +105,10 @@ NULL
 ;
 else
 return
-new
 SkDiscretePathEffect
+:
+:
+Create
 (
 segLength
 deviation

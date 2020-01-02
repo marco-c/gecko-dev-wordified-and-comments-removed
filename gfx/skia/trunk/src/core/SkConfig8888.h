@@ -1,4 +1,10 @@
 #
+ifndef
+SkConfig8888_DEFINED
+#
+define
+SkConfig8888_DEFINED
+#
 include
 "
 SkCanvas
@@ -269,3 +275,5 @@ h
 ;
 }
 }
+#
+endif

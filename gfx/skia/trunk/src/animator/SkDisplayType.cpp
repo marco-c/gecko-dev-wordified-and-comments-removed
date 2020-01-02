@@ -1719,6 +1719,8 @@ matchPtr
 {
 int
 infoCount
+=
+0
 ;
 const
 SkMemberInfo

@@ -114,7 +114,7 @@ SkBitmap
 &
 src
 const
-SkMatrix
+Context
 &
 SkBitmap
 *
