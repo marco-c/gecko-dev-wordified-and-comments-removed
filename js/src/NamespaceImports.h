@@ -93,6 +93,14 @@ T
 class
 AutoHashSetRooter
 ;
+template
+<
+typename
+T
+>
+class
+RootedGeneric
+;
 class
 MOZ_STACK_CLASS
 SourceBufferHolder
@@ -289,6 +297,12 @@ JS
 :
 :
 AutoVectorRooter
+;
+using
+JS
+:
+:
+RootedGeneric
 ;
 using
 JS
