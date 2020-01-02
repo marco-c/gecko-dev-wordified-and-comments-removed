@@ -348,6 +348,13 @@ compatible_version
 .
 1
 "
+"
+4
+.
+10
+.
+2
+"
 PR_VERSION
 }
 ;
@@ -420,7 +427,7 @@ incompatible_version
 .
 10
 .
-3
+4
 "
 "
 4
