@@ -244,6 +244,11 @@ ShutdownThreads
 )
 ;
 void
+Init
+(
+)
+;
+void
 RunThread
 (
 )
