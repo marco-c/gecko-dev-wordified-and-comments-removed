@@ -843,6 +843,16 @@ aLRU
 )
 ;
 void
+SetCurrentThreadPriority
+(
+hal
+:
+:
+ThreadPriority
+aThreadPriority
+)
+;
+void
 RegisterFMRadioObserver
 (
 hal
