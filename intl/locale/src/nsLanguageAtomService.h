@@ -127,7 +127,6 @@ nsLanguageAtomService
 ;
 private
 :
-NS_HIDDEN
 ~
 nsLanguageAtomService
 (

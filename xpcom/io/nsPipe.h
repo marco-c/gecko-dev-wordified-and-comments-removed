@@ -55,7 +55,6 @@ b3ae97a7c758
 \
 }
 nsresult
-NS_HIDDEN
 nsPipeConstructor
 (
 nsISupports
