@@ -781,9 +781,6 @@ void
 )
 {
 delete
-mResources
-;
-delete
 mImplementation
 ;
 MOZ_COUNT_DTOR
@@ -976,14 +973,6 @@ nsXBLPrototypeResources
 (
 this
 )
-;
-if
-(
-!
-mResources
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 mResources

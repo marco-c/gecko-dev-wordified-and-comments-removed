@@ -980,8 +980,10 @@ mKeyHandlersRegistered
 bool
 mChromeOnlyContent
 ;
+nsAutoPtr
+<
 nsXBLPrototypeResources
-*
+>
 mResources
 ;
 nsXBLDocumentInfo
