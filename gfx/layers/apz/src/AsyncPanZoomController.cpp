@@ -10543,11 +10543,14 @@ mCumulativeResolution
 ;
 mFrameMetrics
 .
-mHasScrollgrab
-=
+SetHasScrollgrab
+(
 aLayerMetrics
 .
-mHasScrollgrab
+GetHasScrollgrab
+(
+)
+)
 ;
 if
 (

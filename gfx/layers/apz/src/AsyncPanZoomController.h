@@ -455,7 +455,9 @@ const
 return
 mFrameMetrics
 .
-mHasScrollgrab
+GetHasScrollgrab
+(
+)
 ;
 }
 bool
