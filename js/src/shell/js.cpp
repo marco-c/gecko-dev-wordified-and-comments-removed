@@ -29996,7 +29996,12 @@ JS_InitClass
 (
 cx
 glob
-nullptr
+js
+:
+:
+NullPtr
+(
+)
 &
 dom_class
 dom_constructor

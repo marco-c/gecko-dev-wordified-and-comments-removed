@@ -412,7 +412,12 @@ JS_InitClass
 (
 cx
 global
-nullptr
+js
+:
+:
+NullPtr
+(
+)
 &
 ptestClass
 Prof
