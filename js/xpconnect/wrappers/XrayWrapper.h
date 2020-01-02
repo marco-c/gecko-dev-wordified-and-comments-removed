@@ -1,4 +1,10 @@
 #
+ifndef
+__XrayWrapper_h__
+#
+define
+__XrayWrapper_h__
+#
 include
 "
 mozilla
@@ -1326,3 +1332,5 @@ mXrayShadowing
 }
 ;
 }
+#
+endif
