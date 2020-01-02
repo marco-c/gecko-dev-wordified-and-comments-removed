@@ -1673,12 +1673,13 @@ script_
 -
 >
 lineno
-pc_
--
 script_
 -
 >
-code
+pcToOffset
+(
+pc_
+)
 attachKind
 CacheName
 (

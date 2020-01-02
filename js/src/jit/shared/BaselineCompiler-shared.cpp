@@ -70,6 +70,8 @@ script
 -
 >
 code
+(
+)
 )
 ionCompileable_
 (
@@ -540,12 +542,13 @@ BaselineFrameReg
 ICEntry
 entry
 (
-pc
--
 script
 -
 >
-code
+pcToOffset
+(
+pc
+)
 false
 )
 ;

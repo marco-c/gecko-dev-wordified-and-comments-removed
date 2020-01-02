@@ -6571,12 +6571,13 @@ nuses
 GetUseCount
 (
 script_
-pc
--
 script_
 -
 >
-code
+pcToOffset
+(
+pc
+)
 )
 ;
 for
@@ -19320,6 +19321,8 @@ script
 -
 >
 length
+(
+)
 <
 =
 js_IonOptions
@@ -19555,6 +19558,8 @@ script
 -
 >
 length
+(
+)
 >
 =
 js_IonOptions
@@ -19602,6 +19607,8 @@ targetScript
 -
 >
 length
+(
+)
 >
 js_IonOptions
 .
@@ -19852,6 +19859,8 @@ nonLazyScript
 -
 >
 length
+(
+)
 ;
 if
 (

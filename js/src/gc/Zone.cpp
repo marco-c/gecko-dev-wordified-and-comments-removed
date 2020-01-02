@@ -888,6 +888,8 @@ script
 -
 >
 length
+(
+)
 ;
 i
 +
@@ -906,9 +908,10 @@ getBreakpointSite
 script
 -
 >
-code
-+
+offsetToPC
+(
 i
+)
 )
 ;
 if

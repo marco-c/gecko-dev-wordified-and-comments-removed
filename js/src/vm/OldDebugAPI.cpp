@@ -2038,12 +2038,9 @@ return
 script
 -
 >
-code
-+
-script
--
->
-length
+codeEnd
+(
+)
 ;
 }
 JS_PUBLIC_API
@@ -2084,6 +2081,8 @@ script
 -
 >
 length
+(
+)
 >
 maxLines
 ?
@@ -2093,6 +2092,8 @@ script
 -
 >
 length
+(
+)
 )
 ;
 unsigned
@@ -2274,9 +2275,10 @@ i
 script
 -
 >
-code
-+
+offsetToPC
+(
 offset
+)
 ;
 if
 (

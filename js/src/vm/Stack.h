@@ -3289,6 +3289,8 @@ script
 -
 >
 code
+(
+)
 ;
 sp
 =

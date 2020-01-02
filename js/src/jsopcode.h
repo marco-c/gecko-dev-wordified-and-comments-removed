@@ -3304,16 +3304,10 @@ pc
 return
 pc
 +
-js_CodeSpec
-[
-JSOp
+GetBytecodeLength
 (
-*
 pc
 )
-]
-.
-length
 ;
 }
 }
