@@ -301,13 +301,11 @@ history
 .
 state
 ;
-ok
+is
 (
 sel
-=
-=
 "
-applications
+paneApplications
 "
 "
 Specified
