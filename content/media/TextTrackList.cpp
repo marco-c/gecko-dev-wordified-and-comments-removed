@@ -313,6 +313,14 @@ addtrack
 )
 )
 ;
+track
+-
+>
+SetTextTrackList
+(
+this
+)
+;
 }
 return
 track
