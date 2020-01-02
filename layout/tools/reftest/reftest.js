@@ -7538,6 +7538,9 @@ ex
 }
 #
 endif
+/
+/
+XP_MACOSX
 return
 true
 ;

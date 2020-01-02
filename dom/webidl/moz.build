@@ -490,6 +490,11 @@ DOMImplementation
 webidl
 '
 '
+DOMMatrix
+.
+webidl
+'
+'
 DOMMobileMessageError
 .
 webidl
