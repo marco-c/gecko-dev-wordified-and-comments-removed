@@ -715,6 +715,17 @@ header
 )
 ;
 bool
+inheritPhisFromBackedge
+(
+MBasicBlock
+*
+backedge
+bool
+*
+hadTypeChange
+)
+;
+bool
 specializePhis
 (
 )
