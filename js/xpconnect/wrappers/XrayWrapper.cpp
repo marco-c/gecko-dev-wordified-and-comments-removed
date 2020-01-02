@@ -8036,7 +8036,6 @@ MutableHandleValue
 vp
 )
 {
-const
 js
 :
 :
@@ -9619,7 +9618,6 @@ obj
 )
 )
 {
-const
 DOMProxyHandler
 *
 handler
@@ -10409,7 +10407,6 @@ desc
 cx
 )
 ;
-const
 Wrapper
 *
 handler

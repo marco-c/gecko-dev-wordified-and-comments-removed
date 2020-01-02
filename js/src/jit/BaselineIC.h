@@ -18602,7 +18602,6 @@ protected
 HeapPtrShape
 shape_
 ;
-const
 BaseProxyHandler
 *
 proxyHandler_
@@ -18637,7 +18636,6 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
-const
 BaseProxyHandler
 *
 proxyHandler
@@ -18835,7 +18833,6 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
-const
 BaseProxyHandler
 *
 proxyHandler
@@ -18888,7 +18885,6 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
-const
 BaseProxyHandler
 *
 proxyHandler
@@ -18981,7 +18977,6 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
-const
 BaseProxyHandler
 *
 proxyHandler
@@ -19045,7 +19040,6 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
-const
 BaseProxyHandler
 *
 proxyHandler
@@ -19282,7 +19276,6 @@ protected
 HeapPtrShape
 shape_
 ;
-const
 BaseProxyHandler
 *
 proxyHandler_
@@ -19303,7 +19296,6 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
-const
 BaseProxyHandler
 *
 proxyHandler
@@ -19332,7 +19324,6 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
-const
 BaseProxyHandler
 *
 proxyHandler
@@ -25327,7 +25318,6 @@ ProxyObject
 return
 false
 ;
-const
 BaseProxyHandler
 *
 handler

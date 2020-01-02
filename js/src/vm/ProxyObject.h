@@ -138,7 +138,6 @@ toObjectOrNull
 )
 ;
 }
-const
 BaseProxyHandler
 *
 handler
@@ -148,7 +147,6 @@ handler
 return
 static_cast
 <
-const
 BaseProxyHandler
 *
 >
