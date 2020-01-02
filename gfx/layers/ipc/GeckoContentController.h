@@ -220,7 +220,6 @@ int8_t
 TransformBegin
 TransformEnd
 StartTouch
-StartPanning
 APZStateChangeSentinel
 MOZ_END_NESTED_ENUM_CLASS
 (
