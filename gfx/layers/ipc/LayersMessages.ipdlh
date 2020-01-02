@@ -1264,6 +1264,9 @@ inheritedXScale
 float
 inheritedYScale
 ;
+LayerColor
+backgroundColor
+;
 }
 ;
 struct
