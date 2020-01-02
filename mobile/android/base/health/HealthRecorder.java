@@ -26,6 +26,12 @@ interface
 HealthRecorder
 {
 public
+boolean
+isEnabled
+(
+)
+;
+public
 void
 setCurrentSession
 (

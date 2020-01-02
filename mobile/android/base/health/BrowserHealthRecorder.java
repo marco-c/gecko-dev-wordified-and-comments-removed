@@ -769,6 +769,16 @@ e
 }
 }
 public
+boolean
+isEnabled
+(
+)
+{
+return
+true
+;
+}
+public
 synchronized
 void
 close

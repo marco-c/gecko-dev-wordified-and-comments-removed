@@ -12010,6 +12010,13 @@ rec
 !
 =
 null
+&
+&
+rec
+.
+isEnabled
+(
+)
 )
 {
 ThreadUtils
@@ -15579,6 +15586,7 @@ osLocale
 final
 String
 appLocale
+final
 SessionInformation
 previousSession
 )
