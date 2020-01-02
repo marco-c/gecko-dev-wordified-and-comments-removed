@@ -238,8 +238,6 @@ LOCAL_INCLUDES
 editor
 /
 libeditor
-/
-base
 '
 ]
 #
