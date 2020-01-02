@@ -40344,6 +40344,13 @@ nsresult
 aRv
 )
 {
+MOZ_ASSERT
+(
+IsInnerWindow
+(
+)
+)
+;
 *
 aRv
 =
@@ -40351,12 +40358,6 @@ NS_ERROR_UNEXPECTED
 ;
 NS_ENSURE_TRUE
 (
-!
-IsInnerWindow
-(
-)
-|
-|
 IsCurrentInnerWindow
 (
 )
