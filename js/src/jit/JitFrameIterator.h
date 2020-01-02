@@ -1111,6 +1111,11 @@ nextFrame
 (
 )
 ;
+void
+settleOnFrame
+(
+)
+;
 inline
 bool
 moreFrames
