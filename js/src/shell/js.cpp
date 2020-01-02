@@ -671,21 +671,21 @@ PRLock
 *
 gWatchdogLock
 =
-NULL
+nullptr
 ;
 static
 PRCondVar
 *
 gWatchdogWakeup
 =
-NULL
+nullptr
 ;
 static
 PRThread
 *
 gWatchdogThread
 =
-NULL
+nullptr
 ;
 static
 bool
@@ -704,7 +704,7 @@ PRCondVar
 *
 gSleepWakeup
 =
-NULL
+nullptr
 ;
 #
 else
@@ -713,7 +713,7 @@ JSRuntime
 *
 gRuntime
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -740,14 +740,14 @@ FILE
 *
 gErrFile
 =
-NULL
+nullptr
 ;
 static
 FILE
 *
 gOutFile
 =
-NULL
+nullptr
 ;
 static
 bool
@@ -1166,7 +1166,7 @@ if
 linep
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1246,7 +1246,7 @@ if
 buffer
 )
 return
-NULL
+nullptr
 ;
 char
 *
@@ -1350,7 +1350,7 @@ buffer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 buffer
@@ -1385,7 +1385,7 @@ buffer
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1419,7 +1419,7 @@ if
 linear
 )
 return
-NULL
+nullptr
 ;
 return
 TwoByteCharsToNewUTF8CharsZ
@@ -1459,7 +1459,7 @@ if
 gTimedOut
 )
 return
-NULL
+nullptr
 ;
 JSShellContextData
 *
@@ -1484,7 +1484,7 @@ if
 data
 )
 return
-NULL
+nullptr
 ;
 data
 -
@@ -1579,10 +1579,10 @@ if
 JS_CallFunctionValue
 (
 cx
-NULL
+nullptr
 gTimeoutFunc
 0
-NULL
+nullptr
 returnedValue
 .
 address
@@ -1938,7 +1938,7 @@ JS_ExecuteScript
 cx
 obj
 script
-NULL
+nullptr
 )
 )
 {
@@ -2577,7 +2577,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_CANT_OPEN
 filename
 strerror
@@ -2747,7 +2747,7 @@ msg
 =
 JS_sprintf_append
 (
-NULL
+nullptr
 "
 unknown
 option
@@ -3029,7 +3029,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 version
@@ -3092,7 +3092,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-NULL
+nullptr
 )
 ;
 return
@@ -3126,7 +3126,7 @@ if
 filename
 )
 return
-NULL
+nullptr
 ;
 const
 char
@@ -3276,7 +3276,7 @@ filename
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3343,10 +3343,10 @@ script
 filename
 (
 )
-NULL
+nullptr
 buffer
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 #
@@ -3379,7 +3379,7 @@ PATH_MAX
 '
 )
 return
-NULL
+nullptr
 ;
 memmove
 (
@@ -3418,7 +3418,7 @@ if
 cwd
 )
 return
-NULL
+nullptr
 ;
 }
 size_t
@@ -3472,7 +3472,7 @@ PATH_MAX
 '
 )
 return
-NULL
+nullptr
 ;
 return
 JS_NewStringCopyZ
@@ -3624,7 +3624,7 @@ optset
 ;
 names
 =
-NULL
+nullptr
 ;
 found
 =
@@ -3855,7 +3855,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 load
@@ -3970,7 +3970,7 @@ filename
 ptr
 (
 )
-NULL
+nullptr
 )
 )
 {
@@ -4082,11 +4082,11 @@ AutoNewContext
 :
 oldcx
 (
-NULL
+nullptr
 )
 newcx
 (
-NULL
+nullptr
 )
 {
 }
@@ -4374,7 +4374,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 args
 .
 length
@@ -4434,7 +4434,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 evaluate
@@ -4499,7 +4499,7 @@ RootedObject
 global
 (
 cx
-NULL
+nullptr
 )
 ;
 bool
@@ -4760,7 +4760,7 @@ v
 {
 fileName
 =
-NULL
+nullptr
 ;
 }
 else
@@ -5009,7 +5009,7 @@ JSVAL_IS_PRIMITIVE
 v
 )
 ?
-NULL
+nullptr
 :
 JSVAL_TO_OBJECT
 (
@@ -5064,7 +5064,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 \
@@ -5815,7 +5815,7 @@ errno
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -6019,7 +6019,7 @@ gExitCode
 EXITCODE_RUNTIME_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 str
@@ -6109,7 +6109,7 @@ errno
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -6204,7 +6204,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 char
 *
@@ -6284,7 +6284,7 @@ read
 ;
 obj
 =
-NULL
+nullptr
 ;
 }
 }
@@ -6337,7 +6337,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 run
@@ -6418,7 +6418,7 @@ jschar
 *
 ucbuf
 =
-NULL
+nullptr
 ;
 size_t
 buflen
@@ -6532,7 +6532,7 @@ JS_ExecuteScript
 cx
 thisobj
 script
-NULL
+nullptr
 )
 )
 return
@@ -6754,7 +6754,7 @@ cx
 ;
 tmp
 =
-NULL
+nullptr
 ;
 }
 if
@@ -7475,7 +7475,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 (
 args
 .
@@ -7593,7 +7593,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_ASSERT_EQ_FAILED
 actual
 expected
@@ -7628,7 +7628,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_ASSERT_EQ_FAILED_MSG
 actual
 expected
@@ -7673,7 +7673,7 @@ JSFunction
 *
 funp
 =
-NULL
+nullptr
 )
 {
 RootedValue
@@ -7700,7 +7700,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 while
 (
@@ -7770,12 +7770,12 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_SCRIPTS_ONLY
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSScript
@@ -7796,7 +7796,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7864,7 +7864,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_NOT_ENOUGH_ARGS
 "
 setDebug
@@ -8286,7 +8286,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_TRAP_USAGE
 )
 ;
@@ -8375,7 +8375,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_TRAP_USAGE
 )
 ;
@@ -8479,8 +8479,8 @@ script
 code
 +
 i
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 args
@@ -8575,7 +8575,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_NOT_ENOUGH_ARGS
 "
 setDebuggerHandler
@@ -8676,7 +8676,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_NOT_ENOUGH_ARGS
 "
 setThrowHook
@@ -8789,7 +8789,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_LINE2PC_USAGE
 )
 ;
@@ -11483,7 +11483,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_FILE_SCRIPTS_ONLY
 )
 ;
@@ -11516,7 +11516,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_CANT_OPEN
 script
 -
@@ -11760,7 +11760,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_UNEXPECTED_EOF
 script
 -
@@ -11926,7 +11926,7 @@ char
 *
 fileName
 =
-NULL
+nullptr
 ;
 JSAutoByteString
 fileNameBytes
@@ -12074,7 +12074,7 @@ depth
 }
 startThing
 =
-NULL
+nullptr
 ;
 startTraceKind
 =
@@ -12147,7 +12147,7 @@ not_traceable_arg
 }
 thingToFind
 =
-NULL
+nullptr
 ;
 if
 (
@@ -12208,7 +12208,7 @@ not_traceable_arg
 }
 thingToIgnore
 =
-NULL
+nullptr
 ;
 if
 (
@@ -12727,7 +12727,7 @@ args
 ]
 )
 ?
-NULL
+nullptr
 :
 &
 args
@@ -12894,7 +12894,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 function
@@ -13074,7 +13074,7 @@ JS_NewArrayObject
 (
 cx
 0
-NULL
+nullptr
 )
 )
 ;
@@ -13180,9 +13180,9 @@ pdobj
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -13652,7 +13652,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -13704,7 +13704,7 @@ JS_NewGlobalObject
 cx
 &
 sandbox_class
-NULL
+nullptr
 JS
 :
 :
@@ -13718,7 +13718,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 {
 JSAutoCompartment
@@ -13742,7 +13742,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 value
@@ -13768,7 +13768,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 }
 JS_FireOnNewGlobalObject
@@ -13796,7 +13796,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -14323,7 +14323,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NEED_DEBUG_MODE
 )
 ;
@@ -14666,7 +14666,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 if
@@ -15276,14 +15276,14 @@ RootedObject
 referent
 (
 cx
-NULL
+nullptr
 )
 ;
 RootedObject
 proto
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -15667,7 +15667,7 @@ thread
 {
 gWatchdogThread
 =
-NULL
+nullptr
 ;
 PR_NotifyCondVar
 (
@@ -16091,9 +16091,9 @@ gTimerHandle
 {
 DeleteTimerQueueTimer
 (
-NULL
+nullptr
 gTimerHandle
-NULL
+nullptr
 )
 ;
 gTimerHandle
@@ -16113,7 +16113,7 @@ CreateTimerQueueTimer
 (
 &
 gTimerHandle
-NULL
+nullptr
 (
 WAITORTIMERCALLBACK
 )
@@ -16163,7 +16163,7 @@ alarm
 signal
 (
 SIGALRM
-NULL
+nullptr
 )
 ;
 }
@@ -16777,7 +16777,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 compile
@@ -16977,7 +16977,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 parse
@@ -17105,8 +17105,8 @@ JS_GetStringLength
 scriptContents
 )
 true
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 ParseNode
@@ -17117,7 +17117,7 @@ parser
 .
 parse
 (
-NULL
+nullptr
 )
 ;
 if
@@ -17206,7 +17206,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 parse
@@ -17349,8 +17349,8 @@ options
 chars
 length
 false
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 bool
@@ -17360,7 +17360,7 @@ parser
 .
 parse
 (
-NULL
+nullptr
 )
 ;
 if
@@ -17572,7 +17572,7 @@ source
 ;
 source
 =
-NULL
+nullptr
 ;
 state
 =
@@ -17655,7 +17655,7 @@ state
 IDLE
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -17693,7 +17693,7 @@ source
 ;
 source
 =
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -17708,7 +17708,7 @@ token
 ;
 token
 =
-NULL
+nullptr
 ;
 state
 =
@@ -17798,7 +17798,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 offThreadCompileScript
@@ -18022,7 +18022,7 @@ options
 chars
 length
 OffThreadCompileScriptCallback
-NULL
+nullptr
 )
 )
 {
@@ -18185,7 +18185,7 @@ char
 *
 ptr
 =
-NULL
+nullptr
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
@@ -18294,7 +18294,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 args
 .
 length
@@ -18355,7 +18355,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 snarf
@@ -18650,7 +18650,7 @@ fp
 )
 =
 =
-NULL
+nullptr
 )
 {
 JS_ReportError
@@ -18732,7 +18732,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 redirect
@@ -18892,7 +18892,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 system
@@ -19191,7 +19191,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-NULL
+nullptr
 )
 )
 {
@@ -19292,7 +19292,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-NULL
+nullptr
 )
 |
 |
@@ -19579,7 +19579,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 wrapWithProto
@@ -19702,8 +19702,8 @@ v
 datap
 &
 nbytes
-NULL
-NULL
+nullptr
+nullptr
 UndefinedValue
 (
 )
@@ -19879,7 +19879,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 deserialize
@@ -19926,7 +19926,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 deserialize
@@ -19961,7 +19961,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_BAD_ALIGNMENT
 )
 ;
@@ -19997,8 +19997,8 @@ v
 address
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
@@ -20274,7 +20274,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 enableStackWalkingAssertion
@@ -20390,8 +20390,8 @@ JS_NewObject
 cx
 &
 cls
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -20464,7 +20464,7 @@ JS_ReportErrorNumber
 (
 cx
 my_GetErrorMessage
-NULL
+nullptr
 JSSMSG_INVALID_ARGS
 "
 getSelfHostedValue
@@ -20555,11 +20555,11 @@ ShellSourceHook
 :
 rt
 (
-NULL
+nullptr
 )
 fun
 (
-NULL
+nullptr
 )
 {
 }
@@ -21059,7 +21059,7 @@ toObject
 (
 )
 0
-NULL
+nullptr
 args
 .
 rval
@@ -24986,7 +24986,7 @@ errorNumber
 JSShellErr_Limit
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -25639,7 +25639,7 @@ comp
 =
 strtok
 (
-NULL
+nullptr
 "
 :
 "
@@ -25759,7 +25759,7 @@ ok
 fun
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -25816,7 +25816,7 @@ JSResolveOp
 )
 global_resolve
 JS_ConvertStub
-NULL
+nullptr
 }
 ;
 static
@@ -26095,7 +26095,7 @@ evp
 )
 !
 =
-NULL
+nullptr
 ;
 evp
 +
@@ -26151,8 +26151,8 @@ STRING_TO_JSVAL
 (
 valstr
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -26278,8 +26278,8 @@ STRING_TO_JSVAL
 (
 valstr
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -26667,7 +26667,7 @@ dom_x_setterinfo
 }
 }
 {
-NULL
+nullptr
 0
 0
 JSOP_NULLWRAPPER
@@ -26719,12 +26719,12 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 JSCLASS_NO_INTERNAL_MEMBERS
 }
 ;
@@ -27308,7 +27308,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_PROTOTYPE
 "
 FakeDOMObject
@@ -27334,7 +27334,7 @@ protov
 toObject
 (
 )
-NULL
+nullptr
 )
 )
 ;
@@ -27456,7 +27456,7 @@ if
 cx
 )
 return
-NULL
+nullptr
 ;
 JSShellContextData
 *
@@ -27479,7 +27479,7 @@ false
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JS_SetContextPrivate
@@ -27561,7 +27561,7 @@ cx
 JS_SetContextPrivate
 (
 cx
-NULL
+nullptr
 )
 ;
 free
@@ -27610,7 +27610,7 @@ JS_NewGlobalObject
 cx
 &
 global_class
-NULL
+nullptr
 JS
 :
 :
@@ -27625,7 +27625,7 @@ if
 glob
 )
 return
-NULL
+nullptr
 ;
 {
 JSAutoCompartment
@@ -27648,7 +27648,7 @@ glob
 )
 )
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -27665,7 +27665,7 @@ glob
 )
 )
 return
-NULL
+nullptr
 ;
 #
 endif
@@ -27679,7 +27679,7 @@ glob
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27691,7 +27691,7 @@ glob
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27706,7 +27706,7 @@ glob
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27728,7 +27728,7 @@ glob
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -27744,7 +27744,7 @@ glob
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -27761,7 +27761,7 @@ fuzzing_unsafe_functions
 )
 )
 return
-NULL
+nullptr
 ;
 static
 const
@@ -27795,15 +27795,15 @@ JS_InitClass
 (
 cx
 glob
-NULL
+nullptr
 &
 dom_class
 dom_constructor
 0
 dom_props
 dom_methods
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -27813,7 +27813,7 @@ if
 domProto
 )
 return
-NULL
+nullptr
 ;
 InitDOMObject
 (
@@ -27878,7 +27878,7 @@ JS_NewArrayObject
 (
 cx
 0
-NULL
+nullptr
 )
 ;
 if
@@ -27903,8 +27903,8 @@ OBJECT_TO_JSVAL
 (
 scriptArgs
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )
@@ -27972,8 +27972,8 @@ STRING_TO_JSVAL
 (
 str
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -29412,7 +29412,7 @@ Process
 (
 cx
 obj
-NULL
+nullptr
 true
 )
 ;
@@ -29621,7 +29621,7 @@ Process
 (
 cx
 obj
-NULL
+nullptr
 true
 )
 ;
@@ -29763,7 +29763,7 @@ environment
 "
 &
 env_class
-NULL
+nullptr
 0
 )
 ;
@@ -29902,7 +29902,7 @@ securityCallbacks
 =
 {
 CheckObjectAccess
-NULL
+nullptr
 }
 ;
 static
@@ -30024,7 +30024,7 @@ PR_NewThreadPrivateIndex
 (
 &
 gStackBaseThreadIndex
-NULL
+nullptr
 )
 |
 |

@@ -1211,7 +1211,7 @@ unsigned
 *
 flagsp
 =
-NULL
+nullptr
 )
 ;
 JS_FRIEND_API

@@ -623,7 +623,7 @@ wrappedObject
 obj
 )
 :
-NULL
+nullptr
 ;
 }
 bool
@@ -2077,7 +2077,7 @@ clear
 {
 obj
 =
-NULL
+nullptr
 ;
 }
 private
@@ -3209,7 +3209,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3234,7 +3234,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 return
 str
@@ -3545,7 +3545,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNWRAP_DENIED
 )
 ;
@@ -3588,7 +3588,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNWRAP_DENIED
 )
 ;
@@ -3630,7 +3630,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNWRAP_DENIED
 )
 ;
@@ -3805,13 +3805,13 @@ getCharsZ
 cx
 )
 :
-NULL
+nullptr
 ;
 JS_ReportErrorNumberUC
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_ACCESSOR_DEF_DENIED
 prop
 )
@@ -3909,7 +3909,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -3943,7 +3943,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -3977,7 +3977,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4009,7 +4009,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4037,7 +4037,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4067,7 +4067,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4095,7 +4095,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4124,7 +4124,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4153,7 +4153,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4182,7 +4182,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4212,7 +4212,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4239,7 +4239,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4285,7 +4285,7 @@ indent
 )
 {
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -4308,7 +4308,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4337,7 +4337,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4371,7 +4371,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEAD_OBJECT
 )
 ;
@@ -4398,7 +4398,7 @@ protop
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -4452,7 +4452,7 @@ JS
 :
 :
 NullHandleValue
-NULL
+nullptr
 parent
 options
 )
