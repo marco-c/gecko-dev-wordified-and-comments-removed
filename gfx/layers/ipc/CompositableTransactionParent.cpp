@@ -394,6 +394,9 @@ GetCompositableHost
 (
 )
 ;
+bool
+success
+=
 compositable
 -
 >
@@ -417,6 +420,16 @@ bufferRect
 )
 )
 ;
+if
+(
+!
+success
+)
+{
+return
+false
+;
+}
 break
 ;
 }
