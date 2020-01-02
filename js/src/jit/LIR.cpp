@@ -2195,7 +2195,7 @@ fp
 }
 fprintf
 (
-stderr
+fp
 "
 \
 n
