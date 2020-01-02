@@ -113,12 +113,7 @@ CPP_SOURCES
 =
 [
 '
-nsEUCTWToUnicode
-.
-cpp
-'
-'
-nsUnicodeToEUCTW
+UnifiedUCVTW2
 .
 cpp
 '

@@ -56,13 +56,6 @@ nsIConverterInputStream
 nsIUnicharInputStream
 nsIUnicharLineInputStream
 )
-static
-NS_DEFINE_CID
-(
-kCharsetConverterManagerCID
-NS_ICHARSETCONVERTERMANAGER_CID
-)
-;
 NS_IMETHODIMP
 nsConverterInputStream
 :
@@ -82,6 +75,13 @@ PRUnichar
 aReplacementChar
 )
 {
+static
+NS_DEFINE_CID
+(
+kCharsetConverterManagerCID
+NS_ICHARSETCONVERTERMANAGER_CID
+)
+;
 if
 (
 !
