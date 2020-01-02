@@ -13171,6 +13171,9 @@ __init__
 (
 self
 fortype
+unqualifiedTypedefs
+=
+False
 )
 :
         
@@ -13204,6 +13207,12 @@ self
 fortype
 =
 fortype
+        
+self
+.
+unqualifiedTypedefs
+=
+unqualifiedTypedefs
     
 def
 maybeTypedef
@@ -13219,6 +13228,10 @@ fqname
 !
 =
 name
+or
+self
+.
+unqualifiedTypedefs
 :
             
 self
