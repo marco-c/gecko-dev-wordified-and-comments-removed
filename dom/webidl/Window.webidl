@@ -316,9 +316,6 @@ interface
 ApplicationCache
 ;
 interface
-MediaQueryList
-;
-interface
 MozFrameRequestCallback
 ;
 interface
@@ -1382,6 +1379,7 @@ Window
 /
 [
 Throws
+NewObject
 ]
 MediaQueryList
 matchMedia
@@ -1392,6 +1390,7 @@ query
 ;
 [
 Throws
+NewObject
 ]
 MediaQueryList
 ?

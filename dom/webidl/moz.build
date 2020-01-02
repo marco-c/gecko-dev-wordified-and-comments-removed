@@ -1105,6 +1105,11 @@ MediaList
 webidl
 '
 '
+MediaQueryList
+.
+webidl
+'
+'
 MediaRecorder
 .
 webidl
