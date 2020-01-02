@@ -70,8 +70,10 @@ aFlags
 )
 ;
 }
+already_AddRefed
+<
 imgStatusTracker
-&
+>
 ImageWrapper
 :
 :

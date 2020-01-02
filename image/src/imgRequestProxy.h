@@ -463,8 +463,10 @@ true
 )
 ;
 }
+already_AddRefed
+<
 imgStatusTracker
-&
+>
 GetStatusTracker
 (
 )

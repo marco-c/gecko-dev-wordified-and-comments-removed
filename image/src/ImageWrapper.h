@@ -57,8 +57,10 @@ aFlags
 MOZ_OVERRIDE
 ;
 virtual
+already_AddRefed
+<
 imgStatusTracker
-&
+>
 GetStatusTracker
 (
 )

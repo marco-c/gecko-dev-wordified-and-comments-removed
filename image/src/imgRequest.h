@@ -333,8 +333,10 @@ forget
 )
 ;
 }
+already_AddRefed
+<
 imgStatusTracker
-&
+>
 GetStatusTracker
 (
 )
