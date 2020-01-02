@@ -181,6 +181,11 @@ mPullEnabled
 mStop
 )
 {
+mDesiredTime
++
+=
+100
+;
 for
 (
 std
@@ -216,11 +221,6 @@ end
 it
 )
 {
-mDesiredTime
-+
-=
-10
-;
 (
 *
 it
