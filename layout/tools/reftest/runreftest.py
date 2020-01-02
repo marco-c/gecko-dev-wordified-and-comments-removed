@@ -1345,6 +1345,19 @@ strip
 )
 )
     
+prefs
+[
+'
+gfx
+.
+color_management
+.
+force_srgb
+'
+]
+=
+True
+    
 addons
 =
 [
