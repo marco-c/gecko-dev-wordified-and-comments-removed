@@ -1405,6 +1405,14 @@ lir
 )
 ;
 bool
+visitStringSplit
+(
+LStringSplit
+*
+lir
+)
+;
+bool
 visitFunctionEnvironment
 (
 LFunctionEnvironment
