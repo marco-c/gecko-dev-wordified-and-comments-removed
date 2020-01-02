@@ -8942,7 +8942,7 @@ Wl
 -
 h
 (
-notdir
+DSO_SONAME
 )
 -
 o
@@ -8967,7 +8967,7 @@ Wl
 -
 h
 (
-notdir
+DSO_SONAME
 )
 -
 o
@@ -9693,7 +9693,7 @@ DSO_LDOPTS
 -
 h
 (
-notdir
+DSO_SONAME
 )
 -
 o
@@ -9710,7 +9710,7 @@ DSO_LDOPTS
 -
 h
 (
-notdir
+DSO_SONAME
 )
 -
 o
@@ -14581,7 +14581,7 @@ Wl
 -
 soname
 (
-notdir
+DSO_SONAME
 )
 -
 o
@@ -14606,7 +14606,7 @@ Wl
 -
 soname
 (
-notdir
+DSO_SONAME
 )
 -
 o
@@ -15028,7 +15028,7 @@ DSO_LDOPTS
 -
 h
 (
-notdir
+DSO_SONAME
 )
 -
 o
@@ -15051,7 +15051,7 @@ DSO_LDOPTS
 -
 h
 (
-notdir
+DSO_SONAME
 )
 -
 o
