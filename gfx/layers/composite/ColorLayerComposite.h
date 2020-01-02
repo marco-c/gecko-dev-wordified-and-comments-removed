@@ -156,6 +156,16 @@ MOZ_OVERRIDE
 {
 }
 ;
+virtual
+void
+GenEffectChain
+(
+EffectChain
+&
+aEffect
+)
+MOZ_OVERRIDE
+;
 CompositableHost
 *
 GetCompositableHost

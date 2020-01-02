@@ -1103,6 +1103,16 @@ EffectChain
 aEffectChain
 )
 ;
+virtual
+void
+GenEffectChain
+(
+EffectChain
+&
+aEffect
+)
+{
+}
 void
 SetShadowVisibleRegion
 (
