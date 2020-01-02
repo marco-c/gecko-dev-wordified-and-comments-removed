@@ -7252,7 +7252,7 @@ IsCalcUnit
 )
 |
 |
-mRadiusX
+mRadiusY
 .
 IsCalcUnit
 (
