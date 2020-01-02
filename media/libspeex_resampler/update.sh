@@ -211,3 +211,16 @@ p3
 hugemem
 .
 patch
+patch
+-
+p3
+<
+remove
+-
+empty
+-
+asm
+-
+clobber
+.
+patch
