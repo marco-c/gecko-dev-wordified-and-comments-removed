@@ -140,11 +140,11 @@ aWhichClipboard
 ;
 private
 :
-int
-mChangeCountGeneral
+int32_t
+mCachedClipboard
 ;
-int
-mChangeCountFind
+int32_t
+mChangeCount
 ;
 }
 ;
