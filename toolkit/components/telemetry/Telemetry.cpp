@@ -2133,10 +2133,10 @@ bucketCount
 uint32_t
 histogramType
 ;
-uint16_t
+uint32_t
 id_offset
 ;
-uint16_t
+uint32_t
 comment_offset
 ;
 bool

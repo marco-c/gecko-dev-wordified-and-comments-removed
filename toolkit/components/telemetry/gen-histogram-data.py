@@ -541,7 +541,7 @@ s
 )
 <
 =
-UINT16_MAX
+UINT32_MAX
 "
 %
 strtab_name
