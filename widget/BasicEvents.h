@@ -108,7 +108,7 @@ eTouchEventClass
 eScrollPortEventClass
 eScrollAreaEventClass
 eFormEventClass
-NS_FOCUS_EVENT
+eFocusEventClass
 NS_CLIPBOARD_EVENT
 NS_TRANSITION_EVENT
 NS_ANIMATION_EVENT
