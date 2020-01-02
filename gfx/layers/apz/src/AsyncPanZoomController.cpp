@@ -476,6 +476,13 @@ ENABLE_APZC_LOGGING
 if
 ENABLE_APZC_LOGGING
 #
+include
+"
+LayersLogging
+.
+h
+"
+#
 define
 APZC_LOG
 (
