@@ -82,13 +82,6 @@ true
 )
 ;
 let
-siteName
-=
-"
-newtab_background_captures
-"
-;
-let
 url
 =
 "
@@ -100,10 +93,7 @@ example
 .
 com
 /
-#
 "
-+
-siteName
 ;
 let
 path
@@ -168,7 +158,10 @@ err
 yield
 setLinks
 (
-siteName
+"
+-
+1
+"
 )
 ;
 let
