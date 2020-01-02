@@ -339,3 +339,17 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+general
+.
+useragent
+.
+updates
+.
+enabled
+"
+false
+)
+;

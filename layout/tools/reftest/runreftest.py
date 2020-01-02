@@ -1357,6 +1357,21 @@ enabled
 =
 False
     
+prefs
+[
+'
+general
+.
+useragent
+.
+updates
+.
+enabled
+'
+]
+=
+False
+    
 if
 options
 .
