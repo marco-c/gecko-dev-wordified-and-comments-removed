@@ -148,12 +148,6 @@ if
 (
 cocoaWidget
 )
-fails
--
-if
-(
-B2G
-)
 =
 =
 tree
