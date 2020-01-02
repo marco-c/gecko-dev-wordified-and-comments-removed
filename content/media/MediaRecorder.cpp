@@ -1807,7 +1807,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-BlobEventInitInitializer
+BlobEventInit
 init
 ;
 init

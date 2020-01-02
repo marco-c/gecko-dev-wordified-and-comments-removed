@@ -1085,7 +1085,7 @@ gamepadbuttonup
 "
 )
 ;
-GamepadButtonEventInitInitializer
+GamepadButtonEventInit
 init
 ;
 init
@@ -1379,7 +1379,7 @@ double
 aValue
 )
 {
-GamepadAxisMoveEventInitInitializer
+GamepadAxisMoveEventInit
 init
 ;
 init
@@ -1745,7 +1745,7 @@ gamepaddisconnected
 "
 )
 ;
-GamepadEventInitInitializer
+GamepadEventInit
 init
 ;
 init

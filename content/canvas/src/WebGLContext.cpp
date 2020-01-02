@@ -4264,7 +4264,7 @@ Nullable
 dom
 :
 :
-WebGLContextAttributesInitializer
+WebGLContextAttributes
 >
 &
 retval

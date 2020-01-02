@@ -328,9 +328,6 @@ ImageData
 struct
 WebGLContextAttributes
 ;
-struct
-WebGLContextAttributesInitializer
-;
 template
 <
 typename
@@ -1190,7 +1187,7 @@ Nullable
 dom
 :
 :
-WebGLContextAttributesInitializer
+WebGLContextAttributes
 >
 &
 retval
