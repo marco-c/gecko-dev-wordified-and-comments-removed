@@ -2394,9 +2394,6 @@ limit
 24
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
 pref
 (
 "
@@ -2433,8 +2430,6 @@ safetyY
 120
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_SAFE_BROWSING
