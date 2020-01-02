@@ -12920,14 +12920,14 @@ defineAs
 ;
 class
 MOZ_STACK_CLASS
-ExportOptions
+ExportFunctionOptions
 :
 public
 OptionsBase
 {
 public
 :
-ExportOptions
+ExportFunctionOptions
 (
 JSContext
 *
