@@ -341,11 +341,12 @@ aFrameMetrics
 {
 CSSRect
 compositionBounds
-=
+(
 aFrameMetrics
 .
 CalculateCompositedRectInCssPixels
 (
+)
 )
 ;
 aFrameMetrics
@@ -598,6 +599,8 @@ return
 CSSSize
 scrollPort
 =
+CSSSize
+(
 aMetrics
 .
 CalculateCompositedRectInCssPixels
@@ -606,6 +609,7 @@ CalculateCompositedRectInCssPixels
 .
 Size
 (
+)
 )
 ;
 aUtils
@@ -676,12 +680,6 @@ mScrollOffset
 =
 actualScrollOffset
 ;
-mozilla
-:
-:
-layers
-:
-:
 ParentLayerToLayerScale
 presShellResolution
 =

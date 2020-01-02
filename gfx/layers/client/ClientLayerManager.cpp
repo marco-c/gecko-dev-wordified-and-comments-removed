@@ -2407,10 +2407,10 @@ ProgressiveUpdateCallback
 (
 bool
 aHasPendingNewThebesContent
-ScreenRect
+ParentLayerRect
 &
 aCompositionBounds
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aZoom
 bool

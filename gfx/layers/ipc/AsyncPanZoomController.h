@@ -832,6 +832,20 @@ GetAxisLockMode
 (
 )
 ;
+ParentLayerPoint
+ToParentLayerCoords
+(
+const
+ScreenPoint
+&
+aPoint
+)
+;
+void
+UpdateTransformScale
+(
+)
+;
 uint64_t
 mLayersId
 ;
@@ -929,7 +943,7 @@ mLastSampleTime
 uint32_t
 mLastEventTime
 ;
-ScreenPoint
+ParentLayerPoint
 mLastZoomFocus
 ;
 PanZoomState
@@ -1145,7 +1159,7 @@ void
 SetLayerHitTestData
 (
 const
-ScreenRect
+ParentLayerRect
 &
 aRect
 const
@@ -1169,6 +1183,10 @@ aTransformToLayer
 mCSSTransform
 =
 aTransformForLayer
+;
+UpdateTransformScale
+(
+)
 ;
 }
 gfx3DMatrix
@@ -1195,7 +1213,7 @@ bool
 VisibleRegionContains
 (
 const
-ScreenPoint
+ParentLayerPoint
 &
 aPoint
 )
@@ -1216,7 +1234,7 @@ const
 uint32_t
 mAPZCId
 ;
-ScreenRect
+ParentLayerRect
 mVisibleRect
 ;
 gfx3DMatrix

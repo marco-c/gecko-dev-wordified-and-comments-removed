@@ -873,7 +873,7 @@ ScreenPoint
 mLastScrollOffset
 ;
 gfx3DMatrix
-mTransformScreenToLayout
+mTransformParentLayerToLayout
 ;
 nsIntRect
 mLayoutCriticalDisplayPort
@@ -923,10 +923,10 @@ bool
 aHasPendingNewThebesContent
 bool
 aLowPrecision
-ScreenRect
+ParentLayerRect
 &
 aCompositionBounds
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aZoom
 )
@@ -937,10 +937,10 @@ FindFallbackContentFrameMetrics
 ContainerLayer
 *
 aLayer
-ScreenRect
+ParentLayerRect
 &
 aCompositionBounds
-CSSToScreenScale
+CSSToParentLayerScale
 &
 aZoom
 )

@@ -730,7 +730,7 @@ fm
 .
 mCompositionBounds
 =
-ScreenIntRect
+ParentLayerIntRect
 (
 0
 0
@@ -1837,7 +1837,7 @@ fm
 .
 mCompositionBounds
 =
-ScreenIntRect
+ParentLayerIntRect
 (
 200
 200
@@ -2136,7 +2136,7 @@ fm
 .
 mCompositionBounds
 =
-ScreenIntRect
+ParentLayerIntRect
 (
 200
 200
@@ -2381,7 +2381,7 @@ fm
 .
 mCompositionBounds
 =
-ScreenIntRect
+ParentLayerIntRect
 (
 0
 0
@@ -2829,7 +2829,7 @@ metrics
 .
 mCompositionBounds
 =
-ScreenIntRect
+ParentLayerIntRect
 (
 0
 0
@@ -5516,7 +5516,7 @@ metrics
 .
 mCompositionBounds
 =
-ScreenIntRect
+ParentLayerIntRect
 (
 layerBound
 .
