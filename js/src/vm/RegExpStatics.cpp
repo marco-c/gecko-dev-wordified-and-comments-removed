@@ -151,7 +151,7 @@ RegExpStatics
 :
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 GlobalObject
@@ -235,8 +235,19 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+cx
+-
+>
+global
+(
+)
+-
+>
+hasRegExpStatics
+(
+)
 this
 =
 =
@@ -250,6 +261,7 @@ global
 >
 getRegExpStatics
 (
+cx
 )
 )
 ;

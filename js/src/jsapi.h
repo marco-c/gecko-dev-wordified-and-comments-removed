@@ -18174,7 +18174,7 @@ flags
 extern
 JS_PUBLIC_API
 (
-void
+bool
 )
 JS_SetRegExpInput
 (
@@ -18198,7 +18198,7 @@ multiline
 extern
 JS_PUBLIC_API
 (
-void
+bool
 )
 JS_ClearRegExpStatics
 (
