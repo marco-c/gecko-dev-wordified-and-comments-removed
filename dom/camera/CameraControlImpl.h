@@ -280,6 +280,13 @@ CameraError
 aError
 )
 ;
+void
+OnAutoFocusMoving
+(
+bool
+aIsMoving
+)
+;
 protected
 :
 void

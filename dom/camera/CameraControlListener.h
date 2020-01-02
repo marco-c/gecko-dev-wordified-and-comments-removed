@@ -204,6 +204,15 @@ aAutoFocusSucceeded
 }
 virtual
 void
+OnAutoFocusMoving
+(
+bool
+aIsMoving
+)
+{
+}
+virtual
+void
 OnTakePictureComplete
 (
 uint8_t

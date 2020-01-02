@@ -872,6 +872,16 @@ aSuccess
 )
 ;
 void
+OnAutoFocusMoving
+(
+nsGonkCameraControl
+*
+gc
+bool
+aIsMoving
+)
+;
+void
 OnNewPreviewFrame
 (
 nsGonkCameraControl
