@@ -9283,7 +9283,7 @@ bool
 Navigator
 :
 :
-HasNfcSupport
+HasNFCSupport
 (
 JSContext
 *
@@ -9368,7 +9368,7 @@ bool
 Navigator
 :
 :
-HasNfcPeerSupport
+HasNFCPeerSupport
 (
 JSContext
 *
@@ -9407,7 +9407,7 @@ bool
 Navigator
 :
 :
-HasNfcManagerSupport
+HasNFCManagerSupport
 (
 JSContext
 *

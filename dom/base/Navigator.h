@@ -1171,7 +1171,7 @@ ifdef
 MOZ_NFC
 static
 bool
-HasNfcSupport
+HasNFCSupport
 (
 JSContext
 *
@@ -1182,7 +1182,7 @@ aGlobal
 ;
 static
 bool
-HasNfcPeerSupport
+HasNFCPeerSupport
 (
 JSContext
 *
@@ -1193,7 +1193,7 @@ aGlobal
 ;
 static
 bool
-HasNfcManagerSupport
+HasNFCManagerSupport
 (
 JSContext
 *

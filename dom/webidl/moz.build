@@ -2782,7 +2782,7 @@ MozNDEFRecord
 webidl
 '
 '
-MozNfc
+MozNFC
 .
 webidl
 '

@@ -74,11 +74,11 @@ Func
 Navigator
 :
 :
-HasNfcManagerSupport
+HasNFCManagerSupport
 "
 ]
 interface
-MozNfcManager
+MozNFCManager
 {
 /
 *
@@ -271,11 +271,11 @@ Func
 Navigator
 :
 :
-HasNfcSupport
+HasNFCSupport
 "
 ]
 interface
-MozNfc
+MozNFC
 :
 EventTarget
 {
@@ -300,7 +300,7 @@ Func
 Navigator
 :
 :
-HasNfcPeerSupport
+HasNFCPeerSupport
 "
 ]
 attribute
@@ -314,7 +314,7 @@ Func
 Navigator
 :
 :
-HasNfcPeerSupport
+HasNFCPeerSupport
 "
 ]
 attribute
@@ -329,7 +329,7 @@ Mozilla
 Only
 partial
 interface
-MozNfc
+MozNFC
 {
 [
 ChromeOnly
@@ -353,7 +353,7 @@ aType
 ;
 }
 ;
-MozNfc
+MozNFC
 implements
-MozNfcManager
+MozNFCManager
 ;
