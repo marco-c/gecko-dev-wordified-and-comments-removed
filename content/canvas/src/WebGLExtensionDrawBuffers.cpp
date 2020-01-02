@@ -143,7 +143,7 @@ GLint
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 )
 ;

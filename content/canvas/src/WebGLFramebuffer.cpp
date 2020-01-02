@@ -1223,7 +1223,7 @@ LOCAL_GL_COLOR_ATTACHMENT0
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 )
 {
@@ -1325,7 +1325,7 @@ LOCAL_GL_COLOR_ATTACHMENT0
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 )
 {
@@ -3474,7 +3474,7 @@ colorAttachmentsMask
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 ]
 =
 {
@@ -3489,7 +3489,7 @@ colorAttachmentCount
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 ;
 for
@@ -3867,7 +3867,7 @@ colorAttachmentId
 WebGLContext
 :
 :
-sMaxColorAttachments
+kMaxColorAttachments
 )
 ;
 size_t
