@@ -5318,6 +5318,9 @@ label
 ;
 }
 }
+#
+ifndef
+JS_CODEGEN_MIPS
 void
 CodeGeneratorShared
 :
@@ -5419,6 +5422,8 @@ label
 ;
 }
 }
+#
+endif
 size_t
 CodeGeneratorShared
 :
