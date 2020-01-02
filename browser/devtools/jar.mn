@@ -209,7 +209,7 @@ projecteditor
 -
 test
 .
-html
+xul
 (
 projecteditor
 /
@@ -221,7 +221,7 @@ projecteditor
 -
 test
 .
-html
+xul
 )
 content
 /

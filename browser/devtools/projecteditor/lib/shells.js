@@ -167,9 +167,6 @@ constructor
 (
 this
 .
-doc
-this
-.
 host
 )
 ;

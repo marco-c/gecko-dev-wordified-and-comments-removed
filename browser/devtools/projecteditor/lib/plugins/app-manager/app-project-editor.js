@@ -70,7 +70,6 @@ initialize
 :
 function
 (
-document
 host
 )
 {

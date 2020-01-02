@@ -88,6 +88,7 @@ host
 .
 addCommand
 (
+this
 {
 id
 :
@@ -108,14 +109,11 @@ createMenuItem
 {
 parent
 :
-"
-#
-directory
--
-menu
--
-popup
-"
+this
+.
+host
+.
+contextMenuPopup
 label
 :
 getLocalizedString

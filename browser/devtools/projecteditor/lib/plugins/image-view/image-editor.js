@@ -67,7 +67,6 @@ initialize
 :
 function
 (
-document
 )
 {
 ItchEditor
