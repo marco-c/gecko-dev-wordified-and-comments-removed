@@ -1259,6 +1259,15 @@ boolean
 }
 }
 }
+experiments
+:
+{
+type
+:
+"
+array
+"
+}
 }
 }
 ;
