@@ -214,6 +214,13 @@ other_time
 0
 .
 0
+        
+self
+.
+file_diffs
+=
+{
+}
     
 property
     
@@ -1534,6 +1541,9 @@ fh
 FileAvoidWrite
 (
 path
+capture_diff
+=
+True
 )
         
 else
@@ -1644,6 +1654,27 @@ updated_count
 +
 =
 1
+            
+if
+fh
+.
+diff
+:
+                
+self
+.
+summary
+.
+file_diffs
+[
+fh
+.
+name
+]
+=
+fh
+.
+diff
         
 else
 :
