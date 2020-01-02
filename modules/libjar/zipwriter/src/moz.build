@@ -98,7 +98,7 @@ MODULE
 '
 zipwriter
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
