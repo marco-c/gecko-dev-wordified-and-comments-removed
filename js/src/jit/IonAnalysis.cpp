@@ -481,7 +481,7 @@ if
 ins
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 )
@@ -931,7 +931,7 @@ if
 phi
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 )
@@ -1227,14 +1227,14 @@ if
 phi
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 )
 first
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;

@@ -1236,7 +1236,7 @@ thisArg
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -1574,7 +1574,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -2048,7 +2048,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -2455,7 +2455,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3137,7 +3137,7 @@ ArrayObject
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3331,7 +3331,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3517,7 +3517,7 @@ MIRType_Int32
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3554,7 +3554,7 @@ MIRType_Int32
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3614,7 +3614,7 @@ MIRType_Double
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3744,7 +3744,7 @@ MIRType_Int32
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3781,7 +3781,7 @@ MIRType_Double
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3911,7 +3911,7 @@ MIRType_Int32
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -3948,7 +3948,7 @@ MIRType_Int32
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -4008,7 +4008,7 @@ MIRType_Double
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -4140,7 +4140,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -4285,7 +4285,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -4436,7 +4436,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -4612,7 +4612,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -5200,7 +5200,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -5334,7 +5334,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -5582,7 +5582,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -5745,7 +5745,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -5956,7 +5956,7 @@ StringObject
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -6218,7 +6218,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -6385,7 +6385,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -6561,7 +6561,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -6727,7 +6727,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -6981,7 +6981,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -7183,7 +7183,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -7436,7 +7436,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -7829,7 +7829,7 @@ ParallelExecution
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -8114,7 +8114,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -8298,7 +8298,7 @@ toPrivateUint32
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -8511,7 +8511,7 @@ toPrivateUint32
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -8767,7 +8767,7 @@ InliningStatus_Inlined
 }
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -8978,7 +8978,7 @@ isCallable
 }
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -9134,7 +9134,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -9177,7 +9177,7 @@ callInfo
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -9250,7 +9250,7 @@ callInfo
 {
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;

@@ -4707,7 +4707,7 @@ MIRType_Null
 value
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -4755,7 +4755,7 @@ MIRType_Undefined
 value
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;

@@ -4156,7 +4156,7 @@ setIterator
 phi
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -6953,7 +6953,7 @@ i
 ]
 -
 >
-isFolded
+isImplicitlyUsed
 (
 )
 |
@@ -18504,7 +18504,7 @@ pc
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -20506,7 +20506,7 @@ fun
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -21358,7 +21358,7 @@ current
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -21450,7 +21450,7 @@ fun
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -21794,7 +21794,7 @@ constraints
 funcDef
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -23642,7 +23642,7 @@ calleeDepth
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -24045,7 +24045,7 @@ calleeDepth
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -24142,7 +24142,7 @@ pop
 vp
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -24286,7 +24286,7 @@ pop
 vp
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -24861,7 +24861,7 @@ target
 fun
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -25720,7 +25720,7 @@ thisArg
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -26236,7 +26236,7 @@ false
 ;
 callInfo
 .
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -26247,7 +26247,7 @@ fun
 )
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -31187,7 +31187,7 @@ JSVAL_TYPE_UNDEFINED
 def
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -31214,7 +31214,7 @@ JSVAL_TYPE_NULL
 def
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -34045,14 +34045,14 @@ true
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
 index
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -34510,7 +34510,7 @@ argsObjAliasesFormals
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -34695,7 +34695,7 @@ true
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -34767,7 +34767,7 @@ toInt32
 index
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -35613,7 +35613,7 @@ length
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -35755,7 +35755,7 @@ constraints
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -36925,14 +36925,14 @@ true
 object
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
 index
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -38833,7 +38833,7 @@ pop
 args
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -41723,7 +41723,7 @@ else
 obj
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -47483,7 +47483,7 @@ scopeChainSlot
 scope
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
@@ -48660,7 +48660,7 @@ break
 rhs
 -
 >
-setFoldedUnchecked
+setImplicitlyUsedUnchecked
 (
 )
 ;
