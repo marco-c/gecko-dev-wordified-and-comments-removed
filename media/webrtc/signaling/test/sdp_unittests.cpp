@@ -172,6 +172,12 @@ PeerConnectionCtx
 InitializeGlobal
 (
 gThread
+test_utils
+-
+>
+sts_target
+(
+)
 )
 ;
 }

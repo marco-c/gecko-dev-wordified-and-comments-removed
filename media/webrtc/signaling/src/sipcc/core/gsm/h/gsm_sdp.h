@@ -788,5 +788,14 @@ char
 ice_attrib
 )
 ;
+extern
+void
+gsmsdp_clean_candidate_list
+(
+fsmdef_dcb_t
+*
+dcb
+)
+;
 #
 endif

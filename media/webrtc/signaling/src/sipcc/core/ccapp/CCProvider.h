@@ -380,6 +380,9 @@ cc_media_constraints_t
 *
 cc_constraints
 ;
+string_t
+candidate
+;
 Timecard
 *
 timecard
