@@ -183,6 +183,15 @@ Scoped
 .
 h
 "
+#
+ifdef
+DEBUG
+#
+define
+MOZ_ENABLE_GL_TRACKING
+1
+#
+endif
 class
 nsIntRegion
 ;
@@ -1453,7 +1462,7 @@ undef
 AFTER_GL_CALL
 #
 ifdef
-DEBUG
+MOZ_ENABLE_GL_TRACKING
 #
 ifndef
 MOZ_FUNCTION_NAME
@@ -8744,7 +8753,7 @@ false
 ;
 #
 ifdef
-DEBUG
+MOZ_ENABLE_GL_TRACKING
 static
 void
 StaticInit
@@ -8772,7 +8781,7 @@ false
 {
 #
 ifdef
-DEBUG
+MOZ_ENABLE_GL_TRACKING
 PR_SetThreadPrivate
 (
 sCurrentGLContextTLS
@@ -11517,7 +11526,7 @@ undef
 ASSERT_SYMBOL_PRESENT
 #
 ifdef
-DEBUG
+MOZ_ENABLE_GL_TRACKING
 void
 CreatedProgram
 (
