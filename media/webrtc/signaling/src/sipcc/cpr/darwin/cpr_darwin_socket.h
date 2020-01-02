@@ -76,14 +76,6 @@ define
 SOL_UDP
 IPPROTO_UDP
 #
-ifdef
-CPR_USE_SOCKETPAIR
-#
-undef
-CPR_USE_SOCKETPAIR
-#
-endif
-#
 define
 SUPPORT_CONNECT_CONST
 const
