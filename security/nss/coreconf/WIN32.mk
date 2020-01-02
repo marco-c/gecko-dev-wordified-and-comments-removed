@@ -308,7 +308,7 @@ _CC_VMINOR
 _MSC_VER_6
 =
 1200
-_MSC_VER_GTE18
+_MSC_VER_GE_18
 :
 =
 (
@@ -1165,7 +1165,7 @@ we4715
 ifeq
 (
 (
-_MSC_VER_GTE18
+_MSC_VER_GE_18
 )
 1
 )
