@@ -11516,10 +11516,10 @@ nsIAtom
 *
 *
 *
-nsGenericHTMLElement
+Element
 :
 :
-PropertiesToTraverseAndUnlink
+HTMLSVGPropertiesToTraverseAndUnlink
 (
 )
 {
@@ -11548,10 +11548,7 @@ nsIAtom
 *
 props
 =
-nsGenericHTMLElement
-:
-:
-PropertiesToTraverseAndUnlink
+HTMLSVGPropertiesToTraverseAndUnlink
 (
 )
 ;

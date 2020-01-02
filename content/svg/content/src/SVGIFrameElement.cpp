@@ -723,10 +723,8 @@ srcdoc
 )
 ;
 }
-already_AddRefed
-<
 nsDOMSettableTokenList
->
+*
 SVGIFrameElement
 :
 :
