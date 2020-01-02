@@ -396,11 +396,6 @@ mLeftOverData
 INT32_MIN
 )
 {
-mLeftOverData
--
-=
-WEBAUDIO_BLOCK_SIZE
-;
 if
 (
 mLeftOverData
@@ -439,6 +434,11 @@ refchanged
 )
 ;
 }
+mLeftOverData
+-
+=
+WEBAUDIO_BLOCK_SIZE
+;
 }
 AllocateAudioBlock
 (
