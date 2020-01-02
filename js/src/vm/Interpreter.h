@@ -30,6 +30,9 @@ h
 namespace
 js
 {
+class
+ScopeIter
+;
 extern
 JSTrapStatus
 ScriptDebugPrologue
@@ -39,6 +42,9 @@ JSContext
 cx
 AbstractFramePtr
 frame
+jsbytecode
+*
+pc
 )
 ;
 extern
@@ -50,6 +56,9 @@ JSContext
 cx
 AbstractFramePtr
 frame
+jsbytecode
+*
+pc
 bool
 ok
 )
@@ -1004,8 +1013,9 @@ UnwindScope
 JSContext
 *
 cx
-AbstractFramePtr
-frame
+ScopeIter
+&
+si
 uint32_t
 stackDepth
 )

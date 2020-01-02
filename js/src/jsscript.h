@@ -177,6 +177,9 @@ Shape
 class
 WatchpointMap
 ;
+class
+StaticBlockObject
+;
 namespace
 analyze
 {
@@ -4345,7 +4348,10 @@ index
 ]
 ;
 }
-JSObject
+js
+:
+:
+StaticBlockObject
 *
 getBlockScope
 (

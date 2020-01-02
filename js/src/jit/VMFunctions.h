@@ -3627,6 +3627,9 @@ cx
 BaselineFrame
 *
 frame
+jsbytecode
+*
+pc
 bool
 *
 mustReturn
@@ -3641,6 +3644,9 @@ cx
 BaselineFrame
 *
 frame
+jsbytecode
+*
+pc
 bool
 ok
 )
@@ -3769,6 +3775,9 @@ cx
 BaselineFrame
 *
 frame
+jsbytecode
+*
+pc
 )
 ;
 bool
