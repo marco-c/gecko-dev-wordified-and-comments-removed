@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

@@ -197,13 +197,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h

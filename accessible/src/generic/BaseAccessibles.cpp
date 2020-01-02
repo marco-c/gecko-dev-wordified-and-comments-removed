@@ -59,13 +59,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h

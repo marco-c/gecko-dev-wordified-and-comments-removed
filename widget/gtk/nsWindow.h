@@ -66,13 +66,6 @@ h
 "
 #
 include
-"
-nsGUIEvent
-.
-h
-"
-#
-include
 <
 gdk
 /

@@ -82,13 +82,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMKeyEvent
 .
 h

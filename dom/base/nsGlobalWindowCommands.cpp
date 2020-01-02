@@ -152,7 +152,9 @@ h
 #
 include
 "
-nsGUIEvent
+mozilla
+/
+Attributes
 .
 h
 "
@@ -161,7 +163,7 @@ include
 "
 mozilla
 /
-Attributes
+BasicEvents
 .
 h
 "

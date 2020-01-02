@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+BasicEvents
+.
+h
+"
+#
 ifdef
 MOZ_B2G
 #
@@ -28,13 +37,6 @@ CreateEvent
 include
 "
 nsISupports
-.
-h
-"
-#
-include
-"
-nsGUIEvent
 .
 h
 "

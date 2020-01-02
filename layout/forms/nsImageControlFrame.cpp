@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

@@ -584,11 +584,6 @@ InputData
 h
 '
 '
-nsGUIEvent
-.
-h
-'
-'
 nsIDeviceContextSpec
 .
 h

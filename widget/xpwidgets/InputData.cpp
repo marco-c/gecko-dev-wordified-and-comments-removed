@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

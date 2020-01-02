@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsMenuBarFrame
 .
 h

@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsCaret
 .
 h

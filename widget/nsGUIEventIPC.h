@@ -69,13 +69,6 @@ TouchEvents
 .
 h
 "
-#
-include
-"
-nsGUIEvent
-.
-h
-"
 namespace
 IPC
 {

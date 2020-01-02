@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h

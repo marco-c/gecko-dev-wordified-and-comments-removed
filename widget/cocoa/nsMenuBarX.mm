@@ -184,13 +184,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsObjCExceptions
 .
 h

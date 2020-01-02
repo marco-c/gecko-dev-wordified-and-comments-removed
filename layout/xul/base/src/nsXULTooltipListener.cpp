@@ -97,13 +97,6 @@ endif
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

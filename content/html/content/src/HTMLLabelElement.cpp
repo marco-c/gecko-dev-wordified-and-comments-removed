@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MouseEvents

@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIComboboxControlFrame
 .
 h

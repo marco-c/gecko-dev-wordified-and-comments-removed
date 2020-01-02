@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIRootBox
 .
 h

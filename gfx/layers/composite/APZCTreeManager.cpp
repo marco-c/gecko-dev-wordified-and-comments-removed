@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsPoint
 .
 h

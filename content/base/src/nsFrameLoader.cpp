@@ -241,13 +241,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsEventDispatcher
 .
 h

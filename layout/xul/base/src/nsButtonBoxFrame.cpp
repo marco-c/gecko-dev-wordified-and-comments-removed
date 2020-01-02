@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsEventStateManager
 .
 h

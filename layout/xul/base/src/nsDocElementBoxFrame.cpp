@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h

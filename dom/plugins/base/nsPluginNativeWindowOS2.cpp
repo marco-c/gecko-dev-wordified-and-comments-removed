@@ -18,13 +18,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsPluginNativeWindow
 .
 h

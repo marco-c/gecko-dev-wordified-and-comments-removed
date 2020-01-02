@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -51,13 +44,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsGUIEvent
 .
 h
 "

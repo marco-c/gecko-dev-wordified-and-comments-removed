@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h

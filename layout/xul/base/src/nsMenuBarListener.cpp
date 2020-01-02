@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

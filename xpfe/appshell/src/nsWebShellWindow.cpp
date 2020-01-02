@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h

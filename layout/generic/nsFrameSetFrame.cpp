@@ -96,13 +96,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsRenderingContext
 .
 h
