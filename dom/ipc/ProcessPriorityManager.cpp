@@ -201,6 +201,10 @@ LOG
 #
 endif
 #
+define
+ENABLE_LOGGING
+1
+#
 if
 defined
 (
