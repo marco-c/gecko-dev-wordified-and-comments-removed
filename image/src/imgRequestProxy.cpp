@@ -1,6 +1,13 @@
 #
 include
 "
+ImageLogging
+.
+h
+"
+#
+include
+"
 imgRequestProxy
 .
 h
@@ -30,13 +37,6 @@ h
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-ImageLogging
 .
 h
 "

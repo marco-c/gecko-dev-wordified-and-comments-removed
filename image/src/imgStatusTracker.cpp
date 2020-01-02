@@ -1,6 +1,13 @@
 #
 include
 "
+ImageLogging
+.
+h
+"
+#
+include
+"
 imgStatusTracker
 .
 h
@@ -30,13 +37,6 @@ h
 include
 "
 Image
-.
-h
-"
-#
-include
-"
-ImageLogging
 .
 h
 "

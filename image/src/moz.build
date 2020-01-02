@@ -103,6 +103,11 @@ ImageOps
 h
 '
 '
+ImageRegion
+.
+h
+'
+'
 imgLoader
 .
 h

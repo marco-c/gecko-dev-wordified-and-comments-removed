@@ -1678,6 +1678,13 @@ TYPE_VECTOR
 SVGImageContext
 context
 (
+nsIntSize
+(
+width
+height
+)
+Some
+(
 imgElem
 -
 >
@@ -1685,6 +1692,7 @@ mPreserveAspectRatio
 .
 GetAnimValue
 (
+)
 )
 )
 ;
