@@ -188,6 +188,11 @@ nsClipboardPrivacyHandler
 cpp
 '
 '
+nsContentProcessWidgetFactory
+.
+cpp
+'
+'
 nsFilePickerProxy
 .
 cpp
