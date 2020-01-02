@@ -129,6 +129,9 @@ format
 "
 )
 ;
+return
+DXGI_FORMAT_UNKNOWN
+;
 }
 }
 static
