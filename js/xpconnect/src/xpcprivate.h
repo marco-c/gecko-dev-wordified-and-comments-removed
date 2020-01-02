@@ -4052,7 +4052,7 @@ rt
 )
 ;
 void
-TraceSelf
+TraceInside
 (
 JSTracer
 *
@@ -7300,7 +7300,7 @@ GetScope
 )
 -
 >
-TraceSelf
+TraceInside
 (
 trc
 )
@@ -8655,7 +8655,7 @@ GetScope
 )
 -
 >
-TraceSelf
+TraceInside
 (
 trc
 )
