@@ -2949,6 +2949,8 @@ IonScript
 *
 ion
 HandleObject
+scopeChain
+HandleObject
 obj
 HandleObject
 holder
