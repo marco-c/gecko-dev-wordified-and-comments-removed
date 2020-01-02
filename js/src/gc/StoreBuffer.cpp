@@ -746,7 +746,7 @@ init
 (
 )
 )
-MOZ_CRASH
+CrashAtUnhandlableOOM
 (
 "
 RelocatableMonoTypeBuffer
@@ -828,7 +828,7 @@ location
 )
 )
 )
-MOZ_CRASH
+CrashAtUnhandlableOOM
 (
 "
 RelocatableMonoTypeBuffer
