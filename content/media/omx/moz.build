@@ -280,6 +280,11 @@ EXPORTS
 =
 [
 '
+MediaCodecDecoder
+.
+h
+'
+'
 MediaCodecProxy
 .
 h
@@ -296,6 +301,11 @@ SOURCES
 [
 '
 I420ColorConverterHelper
+.
+cpp
+'
+'
+MediaCodecDecoder
 .
 cpp
 '
