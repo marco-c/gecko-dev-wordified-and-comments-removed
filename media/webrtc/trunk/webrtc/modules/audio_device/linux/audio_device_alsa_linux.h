@@ -990,9 +990,6 @@ bool
 _recording
 ;
 bool
-_firstRecord
-;
-bool
 _playing
 ;
 bool
