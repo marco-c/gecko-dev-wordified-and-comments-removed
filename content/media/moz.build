@@ -748,11 +748,6 @@ MediaDecoderStateMachine
 cpp
 '
 '
-MediaDecoderStateMachineScheduler
-.
-cpp
-'
-'
 MediaRecorder
 .
 cpp
