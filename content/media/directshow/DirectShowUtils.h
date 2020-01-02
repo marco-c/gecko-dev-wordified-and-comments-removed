@@ -63,10 +63,10 @@ mEvent
 =
 CreateEvent
 (
-NULL
+nullptr
 FALSE
 FALSE
-NULL
+nullptr
 )
 ;
 }

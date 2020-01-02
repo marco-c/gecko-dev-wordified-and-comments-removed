@@ -1405,7 +1405,7 @@ mVorbisInfo
 .
 codec_setup
 =
-NULL
+nullptr
 ;
 mVorbisSerial
 =

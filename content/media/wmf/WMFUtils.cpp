@@ -961,7 +961,7 @@ IMFActivate
 *
 ppActivate
 =
-NULL
+nullptr
 ;
 hr
 =
@@ -1227,7 +1227,7 @@ mfplat
 .
 dll
 "
-NULL
+nullptr
 }
 {
 L
@@ -1236,7 +1236,7 @@ mfreadwrite
 .
 dll
 "
-NULL
+nullptr
 }
 {
 L
@@ -1245,7 +1245,7 @@ propsys
 .
 dll
 "
-NULL
+nullptr
 }
 {
 L
@@ -1254,7 +1254,7 @@ mf
 .
 dll
 "
-NULL
+nullptr
 }
 {
 L
@@ -1263,7 +1263,7 @@ dxva2
 .
 dll
 "
-NULL
+nullptr
 }
 }
 ;
@@ -1495,7 +1495,7 @@ i
 .
 handle
 =
-NULL
+nullptr
 ;
 }
 sDLLsLoaded

@@ -136,7 +136,7 @@ aInterface
 *
 aInterface
 =
-NULL
+nullptr
 ;
 return
 E_NOINTERFACE

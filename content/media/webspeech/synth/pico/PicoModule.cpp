@@ -93,11 +93,11 @@ kCIDs
 &
 kPICOSERVICE_CID
 true
-NULL
+nullptr
 nsPicoServiceConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -121,7 +121,7 @@ PICOSERVICE_CONTRACTID
 kPICOSERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -155,7 +155,7 @@ Synth
 PICOSERVICE_CONTRACTID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -192,8 +192,8 @@ kVersion
 kCIDs
 kContracts
 kCategories
-NULL
-NULL
+nullptr
+nullptr
 UnloadPicoModule
 }
 ;

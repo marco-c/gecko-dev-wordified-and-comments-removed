@@ -973,7 +973,7 @@ byteRange
 Length
 (
 )
-NULL
+nullptr
 10
 )
 ;

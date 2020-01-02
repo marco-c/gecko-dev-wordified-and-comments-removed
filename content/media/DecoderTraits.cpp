@@ -2082,7 +2082,7 @@ GetMediaPluginHost
 FindDecoder
 (
 aType
-NULL
+nullptr
 )
 )
 {

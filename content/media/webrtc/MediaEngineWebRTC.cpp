@@ -1150,7 +1150,7 @@ VoEBase
 *
 ptrVoEBase
 =
-NULL
+nullptr
 ;
 webrtc
 :
@@ -1159,7 +1159,7 @@ VoEHardware
 *
 ptrVoEHw
 =
-NULL
+nullptr
 ;
 MutexAutoLock
 lock
@@ -1218,7 +1218,7 @@ AttachCurrentThread
 (
 &
 env
-NULL
+nullptr
 )
 ;
 if
@@ -1749,11 +1749,11 @@ mVoiceEngine
 }
 mVideoEngine
 =
-NULL
+nullptr
 ;
 mVoiceEngine
 =
-NULL
+nullptr
 ;
 }
 }

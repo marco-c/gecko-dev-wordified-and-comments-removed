@@ -1119,7 +1119,7 @@ source
 "
 &
 source
-NULL
+nullptr
 )
 ;
 reader

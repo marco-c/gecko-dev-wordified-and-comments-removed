@@ -652,7 +652,7 @@ Cancel
 ;
 mTimer
 =
-NULL
+nullptr
 ;
 aSource
 -
@@ -1654,7 +1654,7 @@ Cancel
 ;
 mTimer
 =
-NULL
+nullptr
 ;
 aSource
 -

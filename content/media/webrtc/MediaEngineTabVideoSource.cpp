@@ -338,7 +338,7 @@ mVideoSource
 >
 mTimer
 =
-NULL
+nullptr
 ;
 }
 return

@@ -63,7 +63,7 @@ p
 p
 )
 =
-NULL
+nullptr
 ;
 }
 DEFINE_GUID

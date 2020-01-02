@@ -2122,7 +2122,7 @@ mSnapshotPath
 ;
 mSnapshotPath
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -2169,7 +2169,7 @@ mSnapshotPath
 ;
 mSnapshotPath
 =
-NULL
+nullptr
 ;
 NS_ENSURE_SUCCESS
 (
@@ -2254,7 +2254,7 @@ if
 mVideoEngine
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2278,7 +2278,7 @@ if
 mViEBase
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2315,13 +2315,13 @@ if
 mViECapture
 =
 =
-NULL
+nullptr
 |
 |
 mViERender
 =
 =
-NULL
+nullptr
 )
 {
 return

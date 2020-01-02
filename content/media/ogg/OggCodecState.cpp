@@ -1675,7 +1675,7 @@ if
 mCtx
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -4245,7 +4245,7 @@ mCoupledStreams
 )
 mDecoder
 (
-NULL
+nullptr
 )
 mSkip
 (
@@ -4295,7 +4295,7 @@ mDecoder
 ;
 mDecoder
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4433,7 +4433,7 @@ NS_ASSERTION
 mDecoder
 =
 =
-NULL
+nullptr
 "
 leaking
 OpusDecoder

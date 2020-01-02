@@ -1327,7 +1327,7 @@ hr
 allocator
 =
 =
-NULL
+nullptr
 )
 )
 {
@@ -1588,7 +1588,7 @@ this
 *
 aOutSample
 =
-NULL
+nullptr
 ;
 *
 aOutDwUser
@@ -2451,7 +2451,7 @@ mOutputPin
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }

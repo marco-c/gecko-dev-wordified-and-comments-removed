@@ -188,7 +188,7 @@ GST_IS_MOZ_VIDEO_BUFFER
 (
 self
 )
-NULL
+nullptr
 )
 ;
 copy
@@ -380,7 +380,7 @@ GST_IS_MOZ_VIDEO_BUFFER
 (
 self
 )
-NULL
+nullptr
 )
 ;
 return

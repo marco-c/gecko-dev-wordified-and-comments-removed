@@ -111,7 +111,7 @@ aContentType
 )
 mPlugin
 (
-NULL
+nullptr
 )
 mHasAudio
 (
@@ -133,7 +133,7 @@ mAudioSeekTimeUs
 )
 mLastVideoFrame
 (
-NULL
+nullptr
 )
 {
 }
@@ -495,7 +495,7 @@ mLastVideoFrame
 ;
 mLastVideoFrame
 =
-NULL
+nullptr
 ;
 }
 if
@@ -515,7 +515,7 @@ mPlugin
 ;
 mPlugin
 =
-NULL
+nullptr
 ;
 }
 return
@@ -571,7 +571,7 @@ mLastVideoFrame
 ;
 mLastVideoFrame
 =
-NULL
+nullptr
 ;
 }
 ImageBufferCallback
@@ -667,7 +667,7 @@ mLastVideoFrame
 ;
 mLastVideoFrame
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1417,7 +1417,7 @@ mLastVideoFrame
 ;
 mLastVideoFrame
 =
-NULL
+nullptr
 ;
 continue
 ;

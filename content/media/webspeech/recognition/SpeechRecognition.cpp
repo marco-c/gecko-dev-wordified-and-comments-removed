@@ -1879,7 +1879,7 @@ NS_LITERAL_STRING
 NOT_IMPLEMENTED
 "
 )
-NULL
+nullptr
 )
 ;
 domEvent

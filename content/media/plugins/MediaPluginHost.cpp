@@ -201,11 +201,11 @@ Decoder
 :
 mResource
 (
-NULL
+nullptr
 )
 mPrivate
 (
-NULL
+nullptr
 )
 {
 }
@@ -1117,7 +1117,7 @@ PRLibrary
 *
 lib
 =
-NULL
+nullptr
 ;
 if
 (
