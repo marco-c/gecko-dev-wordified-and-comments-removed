@@ -36,13 +36,6 @@ nsCSSPseudoElements
 .
 h
 "
-#
-include
-"
-nsAnimationManager
-.
-h
-"
 class
 nsStyleContext
 ;
@@ -62,6 +55,12 @@ struct
 ElementPropertyTransition
 :
 public
+mozilla
+:
+:
+css
+:
+:
 ElementAnimation
 {
 nsStyleAnimation
