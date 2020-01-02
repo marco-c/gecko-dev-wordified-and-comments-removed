@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 Ci
 =
@@ -939,6 +944,7 @@ ExposedPropsWaiver
 ;
 }
 ;
+var
 ExposedPropsWaiver
 =
 Proxy
@@ -1948,6 +1954,7 @@ SpecialPowersCallbackWrapper
 (
 )
 {
+var
 args
 =
 Array
@@ -1979,6 +1986,7 @@ wrapCallbackObject
 obj
 )
 {
+var
 wrapper
 =
 {
@@ -7933,7 +7941,9 @@ isDebugBuild
 )
 {
 delete
-this
+SpecialPowersAPI
+.
+prototype
 .
 isDebugBuild
 ;
@@ -7963,7 +7973,9 @@ nsIDebug2
 )
 ;
 return
-this
+SpecialPowersAPI
+.
+prototype
 .
 isDebugBuild
 =
