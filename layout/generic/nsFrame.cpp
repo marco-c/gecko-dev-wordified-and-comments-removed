@@ -31862,7 +31862,7 @@ stop_at_punctuation
 )
 {
 return
-false
+aWhitespaceAfter
 ;
 }
 if
