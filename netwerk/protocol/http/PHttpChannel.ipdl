@@ -670,6 +670,8 @@ NetAddr
 selfAddr
 NetAddr
 peerAddr
+int16_t
+redirectCount
 )
 ;
 /
