@@ -6304,10 +6304,13 @@ transformedCompositionBounds
 GetCompositorSideCompositionBounds
 (
 scrollAncestor
+To3DMatrix
+(
 aPaintData
 -
 >
 mTransformToCompBounds
+)
 viewTransform
 )
 ;
