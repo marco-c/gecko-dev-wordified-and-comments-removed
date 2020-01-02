@@ -1048,8 +1048,8 @@ maxErrors
 )
 ;
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+RELEASE_BUILD
 pref
 (
 "
@@ -1356,8 +1356,8 @@ true
 )
 ;
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+RELEASE_BUILD
 pref
 (
 "
