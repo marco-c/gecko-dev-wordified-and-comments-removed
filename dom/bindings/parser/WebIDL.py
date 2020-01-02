@@ -11921,6 +11921,8 @@ all
 (
 m
 .
+type
+.
 isSerializable
 (
 )
