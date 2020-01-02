@@ -70,8 +70,14 @@ SDK_INT
 <
 15
 )
+{
+blockForGeckoReady
+(
+)
+;
 return
 ;
+}
 JSONObject
 jsonPref
 =
