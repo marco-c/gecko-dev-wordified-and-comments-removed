@@ -2050,7 +2050,7 @@ mChar
 {
 nsCOMPtr
 <
-Text
+nsIContent
 >
 startNodeText
 endNodeText
@@ -7165,7 +7165,7 @@ aNode
 ;
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 node
 (
@@ -7243,7 +7243,7 @@ aNode
 ;
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
 node
 (
@@ -7873,14 +7873,14 @@ nsINode
 aNode
 int32_t
 aOffset
-Text
+nsIContent
 *
 *
 outStartNode
 int32_t
 *
 outStartOffset
-Text
+nsIContent
 *
 *
 outEndNode
@@ -7918,7 +7918,7 @@ outEndOffset
 ;
 nsCOMPtr
 <
-Text
+nsIContent
 >
 start
 (
@@ -7930,7 +7930,7 @@ outStartDOMNode
 ;
 nsCOMPtr
 <
-Text
+nsIContent
 >
 end
 (
@@ -9362,7 +9362,7 @@ rightCheck
 {
 nsCOMPtr
 <
-Text
+nsIContent
 >
 startNode
 endNode
