@@ -7,6 +7,9 @@ __all__
 content
 '
 '
+general
+'
+'
 layout
 '
 '
