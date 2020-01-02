@@ -57,7 +57,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
