@@ -470,6 +470,11 @@ mFrameMetrics
 mHasScrollgrab
 ;
 }
+void
+FlushRepaintForOverscrollHandoff
+(
+)
+;
 protected
 :
 nsEventStatus
