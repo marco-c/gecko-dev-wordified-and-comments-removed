@@ -281,7 +281,7 @@ in
 '
 )
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -319,7 +319,7 @@ ANDROID_VERSION
 15
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

@@ -197,10 +197,6 @@ LAYER_COUNT_INCREMENTS
 5
 using
 namespace
-android
-;
-using
-namespace
 mozilla
 :
 :
