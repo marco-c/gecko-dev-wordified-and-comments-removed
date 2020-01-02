@@ -459,7 +459,7 @@ window
 .
 gBrowser
 .
-updateBrowserRemoteness
+updateBrowserRemotenessByURL
 (
 browser
 url
