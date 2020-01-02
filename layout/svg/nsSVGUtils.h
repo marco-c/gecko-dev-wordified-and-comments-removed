@@ -921,6 +921,15 @@ eBBoxIncludeFillGeometry
 )
 ;
 static
+gfxPoint
+FrameSpaceInCSSPxToUserSpaceOffset
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 gfxRect
 GetRelativeRect
 (
