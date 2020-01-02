@@ -1233,6 +1233,14 @@ ins
 )
 ;
 bool
+visitMathFunctionF
+(
+LMathFunctionF
+*
+ins
+)
+;
+bool
 visitModD
 (
 LModD

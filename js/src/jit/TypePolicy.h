@@ -429,7 +429,7 @@ unsigned
 Op
 >
 class
-RuntimePolicy
+FloatingPointPolicy
 :
 public
 TypePolicy
