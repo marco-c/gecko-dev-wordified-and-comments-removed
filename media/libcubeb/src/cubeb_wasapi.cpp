@@ -110,7 +110,7 @@ h
 >
 #
 if
-0
+1
 #
 define
 LOG
@@ -4310,6 +4310,7 @@ wasapi_stream_get_position
 wasapi_stream_get_latency
 wasapi_stream_set_volume
 wasapi_stream_set_panning
+NULL
 NULL
 NULL
 }
