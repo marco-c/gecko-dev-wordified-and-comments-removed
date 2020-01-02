@@ -592,6 +592,10 @@ INIT_ATTS_VERSION
 define
 INIT_BLOCK_SIZE
 (
+(
+int
+)
+(
 1024
 -
 (
@@ -604,6 +608,7 @@ s
 sizeof
 (
 XML_Char
+)
 )
 )
 )
