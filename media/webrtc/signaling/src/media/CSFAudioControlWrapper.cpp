@@ -583,8 +583,5 @@ AudioControlWrapper
 (
 )
 {
-delete
-_realAudioControl
-;
 }
 }
