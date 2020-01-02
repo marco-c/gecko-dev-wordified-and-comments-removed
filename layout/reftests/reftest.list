@@ -1176,6 +1176,15 @@ reftest
 list
 #
 inline
+layout
+include
+inline
+/
+reftest
+.
+list
+#
+inline
 borders
 and
 padding
