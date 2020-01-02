@@ -3980,6 +3980,9 @@ glGetIntegerv_mozilla
 )
 )
 {
+delete
+i
+;
 return
 nullptr
 ;
