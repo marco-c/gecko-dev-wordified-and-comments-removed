@@ -1331,7 +1331,7 @@ function
 isSystemMessagePermittedToSend
 (
 aSysMsgName
-aPageURI
+aPageURL
 aManifestURL
 )
 {
@@ -1355,11 +1355,11 @@ aSysMsgName
 "
 +
 "
-aPageURI
+aPageURL
 :
 "
 +
-aPageURI
+aPageURL
 +
 "
 "
@@ -1404,7 +1404,7 @@ io
 .
 newURI
 (
-aPageURI
+aPageURL
 null
 null
 )

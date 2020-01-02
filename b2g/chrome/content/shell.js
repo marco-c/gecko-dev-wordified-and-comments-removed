@@ -3600,7 +3600,7 @@ url
 :
 msg
 .
-uri
+pageURL
 manifestURL
 :
 msg
