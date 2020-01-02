@@ -6996,7 +6996,7 @@ NewObjectWithClassProto
 cx
 &
 MathClass
-NULL
+nullptr
 obj
 SingletonObject
 )
@@ -7008,7 +7008,7 @@ if
 Math
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7029,7 +7029,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -7043,7 +7043,7 @@ math_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7056,7 +7056,7 @@ math_constants
 )
 )
 return
-NULL
+nullptr
 ;
 MarkStandardClassInitializedNoProto
 (

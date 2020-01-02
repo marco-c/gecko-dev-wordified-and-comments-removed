@@ -341,11 +341,11 @@ next_
 ;
 next_
 =
-NULL
+nullptr
 ;
 prev_
 =
-NULL
+nullptr
 ;
 }
 static

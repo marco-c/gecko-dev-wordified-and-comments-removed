@@ -514,12 +514,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INACTIVE
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -599,12 +599,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_NONNULL_OBJECT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1352,7 +1352,7 @@ object
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -1600,7 +1600,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 method
 "
@@ -1659,7 +1659,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
 "
@@ -1800,7 +1800,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_NONNULL_OBJECT
 )
 ;
@@ -2225,7 +2225,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INVALID_DESCRIPTOR
 )
 ;
@@ -2444,7 +2444,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 bytes
 .
@@ -2507,8 +2507,8 @@ val
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -2531,7 +2531,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 )
 ;
@@ -2916,7 +2916,7 @@ CanGC
 >
 (
 cx
-NULL
+nullptr
 obj
 id
 &
@@ -6687,7 +6687,7 @@ JSObject
 *
 metadata
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6700,7 +6700,7 @@ metadata
 )
 )
 return
-NULL
+nullptr
 ;
 RootedShape
 shape
@@ -6732,7 +6732,7 @@ if
 shape
 )
 return
-NULL
+nullptr
 ;
 gc
 :
@@ -6768,7 +6768,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6798,7 +6798,7 @@ nobj
 )
 )
 return
-NULL
+nullptr
 ;
 obj
 =
@@ -6835,7 +6835,7 @@ shouldBeJSContext
 )
 )
 return
-NULL
+nullptr
 ;
 JSRuntime
 *
@@ -7250,7 +7250,7 @@ getNewType
 (
 clasp
 proto
-NULL
+nullptr
 )
 ;
 if
@@ -7259,7 +7259,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7307,7 +7307,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7590,7 +7590,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 types
 :
@@ -7618,7 +7618,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -7640,7 +7640,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7905,7 +7905,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -8110,7 +8110,7 @@ if
 res
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -8167,7 +8167,7 @@ JSID_VOID
 )
 )
 return
-NULL
+nullptr
 ;
 }
 Shape
@@ -8266,8 +8266,8 @@ cx
 res
 id
 undefinedValue
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 0
 0
@@ -8276,7 +8276,7 @@ DNP_SKIP_TYPE
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -8343,7 +8343,7 @@ protov
 )
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -8361,7 +8361,7 @@ toObjectOrNull
 (
 )
 :
-NULL
+nullptr
 ;
 JSObject
 *
@@ -8460,7 +8460,7 @@ if
 res
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 metadata
@@ -8519,7 +8519,7 @@ metadata
 )
 )
 return
-NULL
+nullptr
 ;
 return
 res
@@ -8615,7 +8615,7 @@ if
 type
 )
 return
-NULL
+nullptr
 ;
 res
 =
@@ -8710,7 +8710,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 TypeScript
 :
@@ -8782,7 +8782,7 @@ protov
 )
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -8808,7 +8808,7 @@ toObject
 else
 proto
 =
-NULL
+nullptr
 ;
 NewObjectKind
 newKind
@@ -10107,12 +10107,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -10139,7 +10139,7 @@ if
 clone
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -10186,12 +10186,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CLONE_OBJECT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -10243,7 +10243,7 @@ clone
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -10448,11 +10448,11 @@ cx
 )
 newaslots
 (
-NULL
+nullptr
 )
 newbslots
 (
-NULL
+nullptr
 )
 {
 }
@@ -11513,7 +11513,7 @@ getPrivate
 (
 )
 :
-NULL
+nullptr
 ;
 void
 *
@@ -11533,7 +11533,7 @@ getPrivate
 (
 )
 :
-NULL
+nullptr
 ;
 char
 tmp
@@ -11722,13 +11722,13 @@ reserved
 .
 newaslots
 =
-NULL
+nullptr
 ;
 reserved
 .
 newbslots
 =
-NULL
+nullptr
 ;
 }
 #
@@ -12402,7 +12402,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 ctor
@@ -12838,7 +12838,7 @@ key
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -13072,7 +13072,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 JSProtoKey
 key
@@ -13105,7 +13105,7 @@ protoProto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -14159,7 +14159,7 @@ obj
 >
 slots
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -15660,7 +15660,7 @@ JS_ASSERT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -15886,7 +15886,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CYCLIC_VALUE
 js_proto_str
 )
@@ -16090,7 +16090,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -16192,7 +16192,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -16203,7 +16203,7 @@ RootedObject
 cobj
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -17124,7 +17124,7 @@ enclosingScope
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -17223,7 +17223,7 @@ id
 )
 )
 return
-NULL
+nullptr
 ;
 Shape
 *
@@ -17754,8 +17754,8 @@ addProperty
 cx
 self
 id
-NULL
-NULL
+nullptr
+nullptr
 slot
 attrs
 0
@@ -17818,8 +17818,8 @@ addProperty
 cx
 self
 id
-NULL
-NULL
+nullptr
+nullptr
 slot
 attrs
 0
@@ -18943,7 +18943,7 @@ else
 {
 shape
 =
-NULL
+nullptr
 ;
 }
 }
@@ -18951,7 +18951,7 @@ else
 {
 shape
 =
-NULL
+nullptr
 ;
 }
 }
@@ -19206,7 +19206,7 @@ propp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 if
@@ -19249,7 +19249,7 @@ RootedObject
 obj2
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -19412,7 +19412,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -19678,14 +19678,14 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 propp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 *
@@ -19960,14 +19960,14 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 propp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -20378,21 +20378,21 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 pobjp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 propp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -20819,14 +20819,14 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 propp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -20856,7 +20856,7 @@ JSObject
 *
 outer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -20919,7 +20919,7 @@ propp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -21861,7 +21861,7 @@ jsbytecode
 *
 pc
 =
-NULL
+nullptr
 ;
 RootedScript
 script
@@ -22062,8 +22062,8 @@ val
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 {
@@ -22489,12 +22489,12 @@ proto
 *
 objp
 =
-NULL
+nullptr
 ;
 *
 propp
 =
-NULL
+nullptr
 ;
 return
 true
@@ -23186,7 +23186,7 @@ cx
 >
 currentScript
 (
-NULL
+nullptr
 JSContext
 :
 :
@@ -23246,7 +23246,7 @@ JSREPORT_STRICT
 JSREPORT_STRICT_MODE_ERROR
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNDECLARED_VAR
 bytes
 .
@@ -23378,7 +23378,7 @@ JSREPORT_STRICT
 |
 JSREPORT_STRICT_MODE_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNDECLARED_VAR
 bytes
 .
@@ -23424,8 +23424,8 @@ val
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -23465,8 +23465,8 @@ val
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -23505,8 +23505,8 @@ val
 NullPtr
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -23859,7 +23859,7 @@ true
 }
 shape
 =
-NULL
+nullptr
 ;
 }
 }
@@ -23975,7 +23975,7 @@ obj
 )
 shape
 =
-NULL
+nullptr
 ;
 }
 else
@@ -24211,7 +24211,7 @@ JSPROP_ENUMERATE
 }
 shape
 =
-NULL
+nullptr
 ;
 }
 }
@@ -25328,7 +25328,7 @@ obj
 )
 vp
 0
-NULL
+nullptr
 vp
 )
 ;
@@ -25784,7 +25784,7 @@ else
 {
 str
 =
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -26484,7 +26484,7 @@ toObject
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -26691,7 +26691,7 @@ toObject
 (
 )
 :
-NULL
+nullptr
 )
 ;
 return
@@ -26862,7 +26862,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CONVERT_TO
 val
 .
@@ -26884,7 +26884,7 @@ object
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 return
@@ -27006,7 +27006,7 @@ else
 {
 shape
 =
-NULL
+nullptr
 ;
 }
 if
@@ -27020,7 +27020,7 @@ char
 *
 slotname
 =
-NULL
+nullptr
 ;
 if
 (
@@ -27219,7 +27219,7 @@ JSREPORT_WARNING
 |
 JSREPORT_STRICT
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_GETTER_ONLY
 )
 ;
@@ -27247,7 +27247,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_GETTER_ONLY
 )
 ;

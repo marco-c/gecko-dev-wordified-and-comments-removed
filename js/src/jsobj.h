@@ -895,7 +895,7 @@ HeapSlot
 *
 extantSlots
 =
-NULL
+nullptr
 )
 ;
 static
@@ -1447,7 +1447,7 @@ return
 slots
 !
 =
-NULL
+nullptr
 ;
 }
 protected
@@ -6395,7 +6395,7 @@ Class
 *
 clasp
 =
-NULL
+nullptr
 )
 ;
 extern
@@ -7340,7 +7340,7 @@ Class
 *
 clasp
 =
-NULL
+nullptr
 )
 ;
 namespace
