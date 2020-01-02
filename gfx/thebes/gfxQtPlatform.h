@@ -47,9 +47,6 @@ h
 #
 endif
 class
-gfxImageSurface
-;
-class
 gfxFontconfigUtils
 ;
 class

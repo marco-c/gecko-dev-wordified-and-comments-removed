@@ -273,13 +273,6 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-gfxImageSurface
-.
-h
-"
 using
 namespace
 mozilla

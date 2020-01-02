@@ -128,13 +128,6 @@ imgIContainer
 .
 h
 "
-#
-include
-"
-gfxImageSurface
-.
-h
-"
 using
 namespace
 mozilla
