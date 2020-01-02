@@ -310,6 +310,7 @@ while
 (
 aLacing
 >
+=
 255
 )
 {
