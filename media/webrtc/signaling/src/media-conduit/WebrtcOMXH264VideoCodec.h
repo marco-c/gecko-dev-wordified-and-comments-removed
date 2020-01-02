@@ -73,6 +73,10 @@ WebrtcOMXDecoder
 class
 OMXOutputDrain
 ;
+#
+define
+WEBRTC_OMX_H264_MIN_DECODE_BUFFERS
+10
 class
 WebrtcOMXH264VideoEncoder
 :
