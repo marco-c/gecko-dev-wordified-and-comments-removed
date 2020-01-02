@@ -1326,7 +1326,7 @@ as_string
 )
 ABORT
 (
-r
+R_NO_MEMORY
 )
 ;
 nr_ice_candidate_compute_codeword
