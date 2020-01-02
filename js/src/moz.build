@@ -1790,14 +1790,14 @@ cpp
 '
 jit
 /
-IonOptions
+IonSpewer
 .
 cpp
 '
 '
 jit
 /
-IonSpewer
+JitOptions
 .
 cpp
 '

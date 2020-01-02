@@ -53,7 +53,7 @@ include
 "
 jit
 /
-IonOptions
+JitOptions
 .
 h
 "
@@ -688,7 +688,7 @@ SNAPSHOT_MAX_NARGS
 |
 nargs
 >
-js_IonOptions
+js_JitOptions
 .
 maxStackArgs
 )

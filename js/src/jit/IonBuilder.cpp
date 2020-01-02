@@ -9960,7 +9960,7 @@ body
 ;
 if
 (
-js_IonOptions
+js_JitOptions
 .
 limitScriptSize
 )
@@ -16908,7 +16908,7 @@ JSOP_TRY
 if
 (
 !
-js_IonOptions
+js_JitOptions
 .
 compileTryCatch
 )
@@ -19540,7 +19540,7 @@ shouldInline
 {
 if
 (
-js_IonOptions
+js_JitOptions
 .
 isSmallFunction
 (
