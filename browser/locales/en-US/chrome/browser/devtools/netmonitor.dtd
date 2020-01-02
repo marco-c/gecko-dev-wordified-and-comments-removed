@@ -226,7 +226,7 @@ netmonitorUI
 .
 toolbar
 .
-status
+status2
 )
 :
 This
@@ -257,7 +257,7 @@ netmonitorUI
 .
 toolbar
 .
-status
+status2
 "
 "
 >
