@@ -1529,16 +1529,6 @@ GetAudioRtpCount
 ;
 ASSERT_GE
 (
-p2_
-.
-GetAudioRtpCount
-(
-)
-40
-)
-;
-ASSERT_GE
-(
 p1_
 .
 GetAudioRtcpCount
