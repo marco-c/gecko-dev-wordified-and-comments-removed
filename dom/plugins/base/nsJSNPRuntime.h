@@ -146,8 +146,14 @@ NPObject
 {
 public
 :
+JS
+:
+:
+PersistentRooted
+<
 JSObject
 *
+>
 mJSObj
 ;
 const
