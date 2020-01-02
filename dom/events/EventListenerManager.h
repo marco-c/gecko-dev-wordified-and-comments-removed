@@ -1185,15 +1185,6 @@ mMayHavePaintEventListener
 ;
 }
 bool
-MayHaveAudioAvailableEventListener
-(
-)
-{
-return
-mMayHaveAudioAvailableEventListener
-;
-}
-bool
 MayHaveTouchEventListener
 (
 )
@@ -1736,11 +1727,6 @@ mMayHaveSystemGroupListeners
 1
 ;
 uint32_t
-mMayHaveAudioAvailableEventListener
-:
-1
-;
-uint32_t
 mMayHaveTouchEventListener
 :
 1
@@ -1768,7 +1754,7 @@ mIsMainThreadELM
 uint32_t
 mNoListenerForEvent
 :
-22
+23
 ;
 nsAutoTObserverArray
 <

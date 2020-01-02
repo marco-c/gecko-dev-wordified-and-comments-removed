@@ -320,11 +320,6 @@ AbstractMediaDecoder
 h
 '
 '
-AudioAvailableEventManager
-.
-h
-'
-'
 AudioChannelFormat
 .
 h
@@ -588,11 +583,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-AudioAvailableEventManager
-.
-cpp
-'
 '
 AudioChannelFormat
 .

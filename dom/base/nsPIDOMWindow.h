@@ -1417,14 +1417,6 @@ aRequireTrust
 =
 0
 ;
-virtual
-void
-SetHasAudioAvailableEventListeners
-(
-)
-=
-0
-;
 bool
 HasMouseEnterLeaveEventListeners
 (

@@ -1911,12 +1911,6 @@ AreDialogsEnabled
 (
 )
 ;
-virtual
-void
-SetHasAudioAvailableEventListeners
-(
-)
-;
 nsIScriptContext
 *
 GetContextInternal

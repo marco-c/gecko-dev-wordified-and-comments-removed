@@ -213,11 +213,6 @@ nsIDOMMutationEvent
 idl
 '
 '
-nsIDOMNotifyAudioAvailableEvent
-.
-idl
-'
-'
 nsIDOMNotifyPaintEvent
 .
 idl

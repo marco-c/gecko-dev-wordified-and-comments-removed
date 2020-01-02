@@ -298,11 +298,6 @@ MutationEvent
 h
 '
 '
-NotifyAudioAvailableEvent
-.
-h
-'
-'
 NotifyPaintEvent
 .
 h
@@ -506,11 +501,6 @@ cpp
 '
 '
 MutationEvent
-.
-cpp
-'
-'
-NotifyAudioAvailableEvent
 .
 cpp
 '

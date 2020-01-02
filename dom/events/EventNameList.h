@@ -1407,13 +1407,6 @@ NS_SMIL_TIME_EVENT
 )
 NON_IDL_EVENT
 (
-MozAudioAvailable
-NS_MOZAUDIOAVAILABLE
-EventNameType_None
-NS_EVENT
-)
-NON_IDL_EVENT
-(
 MozAfterPaint
 NS_AFTERPAINT
 EventNameType_None
