@@ -9218,6 +9218,9 @@ bool
 isActive
 )
 {
+unused
+<
+<
 SendSetIsDocShellActive
 (
 isActive
