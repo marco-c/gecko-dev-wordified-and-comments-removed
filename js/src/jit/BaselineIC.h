@@ -3611,12 +3611,12 @@ return
 script
 -
 >
-compartment
+zone
 (
 )
 -
 >
-jitCompartment
+jitZone
 (
 )
 -

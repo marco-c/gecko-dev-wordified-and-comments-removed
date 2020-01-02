@@ -881,9 +881,6 @@ regexpCompartment
 size_t
 *
 debuggeesSet
-size_t
-*
-baselineStubsOptimized
 )
 ;
 js
