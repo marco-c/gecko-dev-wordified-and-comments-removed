@@ -103,6 +103,11 @@ SOURCES
 =
 [
 '
+nssgtest
+.
+cpp
+'
+'
 pkixder_input_tests
 .
 cpp
