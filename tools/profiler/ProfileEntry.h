@@ -42,6 +42,13 @@ h
 class
 ThreadProfile
 ;
+#
+pragma
+pack
+(
+push
+1
+)
 class
 ProfileEntry
 {
@@ -255,6 +262,12 @@ mTagName
 ;
 }
 ;
+#
+pragma
+pack
+(
+pop
+)
 typedef
 void
 (
