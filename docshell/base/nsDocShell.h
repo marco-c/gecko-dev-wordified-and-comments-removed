@@ -2183,12 +2183,6 @@ nsWeakPtr
 >
 mReflowObservers
 ;
-nsTObserverArray
-<
-nsWeakPtr
->
-mScrollObservers
-;
 nsCString
 mOriginalUriString
 ;
