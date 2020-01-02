@@ -3004,7 +3004,7 @@ Not
 safepoint
 -
 >
-tempRegs
+clobberedRegs
 (
 )
 )
