@@ -1808,14 +1808,9 @@ filter
 substitution
 %
 define
-smw_selectionTextColor
-#
-f5f7fa
-%
-define
 smw_marginDark
 #
-222426
+000
 %
 define
 smw_marginLight
@@ -2453,7 +2448,8 @@ color
 ;
 color
 :
-smw_selectionTextColor
+#
+f5f7fa
 ;
 }
 .
@@ -2480,7 +2476,8 @@ color
 ;
 color
 :
-smw_selectionTextColor
+#
+f5f7fa
 ;
 }
 .
@@ -3199,7 +3196,8 @@ transparent
 ;
 color
 :
-smw_selectionTextColor
+#
+f5f7fa
 ;
 }
 .
@@ -3237,7 +3235,8 @@ transparent
 ;
 color
 :
-smw_selectionTextColor
+#
+f5f7fa
 ;
 }
 .
