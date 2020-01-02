@@ -63,6 +63,10 @@ browser_google
 .
 js
 \
+browser_google_behavior
+.
+js
+\
 (
 NULL
 )
