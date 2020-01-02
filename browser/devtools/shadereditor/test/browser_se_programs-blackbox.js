@@ -567,7 +567,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -633,7 +633,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -810,7 +810,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -843,7 +843,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -876,7 +876,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -909,7 +909,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -934,7 +934,7 @@ blackboxed
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onShaderMouseEnter
 (
 {
 target
@@ -971,7 +971,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1004,7 +1004,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1037,7 +1037,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1070,7 +1070,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1099,7 +1099,7 @@ blackboxed
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onShaderMouseLeave
 (
 {
 target
@@ -1114,7 +1114,7 @@ panel
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onShaderMouseEnter
 (
 {
 target
@@ -1151,7 +1151,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1184,7 +1184,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1217,7 +1217,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1250,7 +1250,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1279,7 +1279,7 @@ blackboxed
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onShaderMouseLeave
 (
 {
 target
@@ -1316,7 +1316,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1349,7 +1349,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1382,7 +1382,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1415,7 +1415,7 @@ b
 0
 a
 :
-255
+0
 }
 true
 "
@@ -1699,7 +1699,7 @@ unblackboxed
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onShaderMouseEnter
 (
 {
 target
@@ -1860,7 +1860,7 @@ highlighted
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onShaderMouseLeave
 (
 {
 target
@@ -1875,7 +1875,7 @@ panel
 ;
 ShadersListView
 .
-_onProgramMouseEnter
+_onShaderMouseEnter
 (
 {
 target
@@ -2036,7 +2036,7 @@ highlighted
 ;
 ShadersListView
 .
-_onProgramMouseLeave
+_onShaderMouseLeave
 (
 {
 target
