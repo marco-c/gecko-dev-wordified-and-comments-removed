@@ -1808,6 +1808,7 @@ cx
 global
 (
 )
+TenuredObject
 )
 ;
 if

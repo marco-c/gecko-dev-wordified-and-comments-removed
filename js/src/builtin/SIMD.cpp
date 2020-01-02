@@ -1304,6 +1304,7 @@ X4TypeDescr
 cx
 funcProto
 global
+TenuredObject
 )
 ;
 if
