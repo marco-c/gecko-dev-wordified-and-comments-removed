@@ -184,6 +184,11 @@ TabStateCache
 jsm
 '
 '
+TextAndScrollData
+.
+jsm
+'
+'
 XPathGenerator
 .
 jsm
