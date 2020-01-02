@@ -139,7 +139,7 @@ panelWin
 ]
 )
 ;
-ok
+is
 (
 panelWin
 .
