@@ -2497,7 +2497,13 @@ void
 *
 >
 (
+NativeEndian
+:
+:
+swapFromLittleEndian
+(
 u
+)
 )
 ;
 return
