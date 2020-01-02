@@ -6300,6 +6300,12 @@ StorageEvent
 >
 &
 aEvent
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 ;
 nsDOMWindowList
