@@ -17,13 +17,6 @@ Context
 import
 android
 .
-text
-.
-SpannableString
-;
-import
-android
-.
 view
 .
 LayoutInflater
