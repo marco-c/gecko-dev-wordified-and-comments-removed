@@ -913,7 +913,7 @@ js
 types
 :
 :
-TypeObjectSet
+TypeObjectWithNewScriptSet
 newTypeObjects
 ;
 js
@@ -922,7 +922,7 @@ js
 types
 :
 :
-TypeObjectSet
+TypeObjectWithNewScriptSet
 lazyTypeObjects
 ;
 void
@@ -934,7 +934,7 @@ js
 types
 :
 :
-TypeObjectSet
+TypeObjectWithNewScriptSet
 &
 table
 )
