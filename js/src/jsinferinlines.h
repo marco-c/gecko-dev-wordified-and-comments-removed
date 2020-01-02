@@ -1497,6 +1497,8 @@ id
 )
 )
 {
+MOZ_ASSERT
+(
 obj
 -
 >
@@ -1505,9 +1507,9 @@ type
 )
 -
 >
-markUnknown
+unknownProperties
 (
-cx
+)
 )
 ;
 return
