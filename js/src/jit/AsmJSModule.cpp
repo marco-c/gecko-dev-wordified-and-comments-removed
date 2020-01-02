@@ -8,6 +8,13 @@ AsmJSModule
 h
 "
 #
+include
+<
+errno
+.
+h
+>
+#
 ifndef
 XP_WIN
 #
@@ -577,6 +584,12 @@ totalBytes
 =
 =
 0
+|
+|
+errno
+=
+=
+ENOMEM
 )
 ;
 #
