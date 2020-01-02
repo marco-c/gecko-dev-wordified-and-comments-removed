@@ -63,6 +63,13 @@ bucket
 if
 test
 -
+z
+"
+SCCACHE_DISABLE
+"
+-
+a
+-
 f
 "
 topsrcdir
