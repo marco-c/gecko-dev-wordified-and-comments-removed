@@ -1268,7 +1268,7 @@ hr
 :
 OleInitialize
 (
-NULL
+nullptr
 )
 )
 {

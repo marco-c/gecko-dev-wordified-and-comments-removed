@@ -1845,7 +1845,7 @@ sinfo
 .
 hwnd
 =
-NULL
+nullptr
 ;
 sinfo
 .

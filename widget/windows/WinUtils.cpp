@@ -249,7 +249,7 @@ WinUtils
 :
 sCreateItemFromParsingName
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -260,7 +260,7 @@ WinUtils
 :
 sGetKnownFolderPath
 =
-NULL
+nullptr
 ;
 static
 const
@@ -280,7 +280,7 @@ static
 HMODULE
 sShellDll
 =
-NULL
+nullptr
 ;
 static
 const
@@ -300,7 +300,7 @@ static
 HMODULE
 sDwmDll
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -311,7 +311,7 @@ WinUtils
 :
 dwmExtendFrameIntoClientAreaPtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -322,7 +322,7 @@ WinUtils
 :
 dwmIsCompositionEnabledPtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -333,7 +333,7 @@ WinUtils
 :
 dwmSetIconicThumbnailPtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -344,7 +344,7 @@ WinUtils
 :
 dwmSetIconicLivePreviewBitmapPtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -355,7 +355,7 @@ WinUtils
 :
 dwmGetWindowAttributePtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -366,7 +366,7 @@ WinUtils
 :
 dwmSetWindowAttributePtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -377,7 +377,7 @@ WinUtils
 :
 dwmInvalidateIconicBitmapsPtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -388,7 +388,7 @@ WinUtils
 :
 dwmDwmDefWindowProcPtr
 =
-NULL
+nullptr
 ;
 WinUtils
 :
@@ -399,7 +399,7 @@ WinUtils
 :
 dwmGetCompositionTimingInfoPtr
 =
-NULL
+nullptr
 ;
 void
 WinUtils
@@ -916,7 +916,7 @@ result
 MsgWaitForMultipleObjectsEx
 (
 0
-NULL
+nullptr
 INFINITE
 QS_ALLINPUT
 MWMO_INPUTAVAILABLE
@@ -974,7 +974,7 @@ PeekMessage
 (
 &
 msg
-NULL
+nullptr
 WM_MOUSEFIRST
 WM_MOUSELAST
 PM_NOREMOVE
@@ -1093,7 +1093,7 @@ RegQueryValueExW
 (
 key
 aValueName
-NULL
+nullptr
 &
 type
 (
@@ -1283,7 +1283,7 @@ aWnd
 HWND
 topWnd
 =
-NULL
+nullptr
 ;
 while
 (
@@ -1575,8 +1575,8 @@ monitorCount
 ;
 EnumDisplayMonitors
 (
-NULL
-NULL
+nullptr
+nullptr
 AddMonitor
 (
 LPARAM
@@ -1684,7 +1684,7 @@ wnd
 }
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -1792,7 +1792,7 @@ aPointInScreen
 )
 {
 return
-NULL
+nullptr
 ;
 }
 HWND
@@ -1952,7 +1952,7 @@ info
 .
 mOutWnd
 =
-NULL
+nullptr
 ;
 EnumWindows
 (
@@ -2568,7 +2568,7 @@ channel
 AsyncOpen
 (
 listener
-NULL
+nullptr
 )
 ;
 return
@@ -4550,7 +4550,7 @@ false
 LPWSTR
 str
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4627,7 +4627,7 @@ GetRegionData
 (
 aRgn
 0
-NULL
+nullptr
 )
 ;
 nsAutoTArray

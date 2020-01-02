@@ -237,7 +237,7 @@ if
 baseWindow
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -270,7 +270,7 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 :
-NULL
+nullptr
 ;
 }
 HWND
@@ -304,7 +304,7 @@ if
 window
 )
 return
-NULL
+nullptr
 ;
 return
 GetHWNDFromDocShell
@@ -858,7 +858,7 @@ true
 :
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 HRESULT
@@ -869,7 +869,7 @@ hr
 CoCreateInstance
 (
 CLSID_TaskbarList
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_ITaskbarList4
 (
@@ -1209,7 +1209,7 @@ if
 (
 GetModuleFileNameW
 (
-NULL
+nullptr
 path
 MAX_PATH
 )

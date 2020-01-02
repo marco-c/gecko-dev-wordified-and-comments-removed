@@ -377,7 +377,7 @@ fmt
 va_list
 args
 =
-NULL
+nullptr
 ;
 if
 (
@@ -505,8 +505,8 @@ utf8
 len
 +
 1
-NULL
-NULL
+nullptr
+nullptr
 )
 >
 0
@@ -588,7 +588,7 @@ fmt
 va_list
 args
 =
-NULL
+nullptr
 ;
 if
 (

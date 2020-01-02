@@ -397,7 +397,7 @@ MetroWidget
 :
 sICoreHwnd
 =
-NULL
+nullptr
 ;
 namespace
 mozilla
@@ -872,7 +872,7 @@ PeekMessage
 (
 &
 msg
-NULL
+nullptr
 0
 0
 PM_REMOVE
@@ -980,11 +980,11 @@ eTransparencyOpaque
 )
 mWnd
 (
-NULL
+nullptr
 )
 mMetroWndProc
 (
-NULL
+nullptr
 )
 mTempBasicLayerInUse
 (
@@ -1547,7 +1547,7 @@ nullptr
 ;
 mWnd
 =
-NULL
+nullptr
 ;
 return
 NS_OK
@@ -4102,7 +4102,7 @@ mMetroWndProc
 ;
 mMetroWndProc
 =
-NULL
+nullptr
 ;
 }
 RemovePropW
