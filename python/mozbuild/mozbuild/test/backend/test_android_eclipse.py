@@ -328,29 +328,12 @@ classpath
                   
 '
 .
-externalToolBuilders
-'
-                  
-'
-.
 project
 '
                   
 '
 .
 settings
-'
-                  
-'
-pre_build
-.
-xml
-'
-                  
-'
-post_build
-.
-xml
 '
                   
 '
