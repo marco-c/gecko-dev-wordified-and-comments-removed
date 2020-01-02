@@ -341,7 +341,7 @@ ScreenPoint
 aStartPoint
 ScreenPoint
 aEndPoint
-int
+uint32_t
 aOverscrollHandoffChainIndex
 )
 ;
