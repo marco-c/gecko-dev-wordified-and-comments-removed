@@ -43,5 +43,10 @@ Android
 )
 ;
 }
+[
+"
+mobilenetwork
+"
+]
 )
 ;
