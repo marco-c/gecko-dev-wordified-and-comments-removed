@@ -444,6 +444,10 @@ JSContext
 cx
 MutableHandleSavedFrame
 frame
+unsigned
+maxFrameCount
+=
+0
 )
 ;
 void
@@ -505,6 +509,10 @@ ScriptFrameIter
 iter
 MutableHandleSavedFrame
 frame
+unsigned
+maxFrameCount
+=
+0
 )
 ;
 SavedFrame
