@@ -614,7 +614,7 @@ MIRType_Float32
 {
 masm
 .
-convertFloatToDouble
+convertFloat32ToDouble
 (
 reg
 ScratchFloatReg
@@ -4727,7 +4727,7 @@ op
 ;
 masm
 .
-loadFloat
+loadFloat32
 (
 op
 ReturnFloatReg
@@ -6052,7 +6052,7 @@ esp
 ;
 masm
 .
-storeFloat
+storeFloat32
 (
 input
 Operand

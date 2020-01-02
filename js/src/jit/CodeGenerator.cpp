@@ -1812,7 +1812,7 @@ output
 ;
 masm
 .
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 output
 output
@@ -1882,7 +1882,7 @@ lir
 {
 masm
 .
-convertFloatToDouble
+convertFloat32ToDouble
 (
 ToFloatRegister
 (
@@ -1921,7 +1921,7 @@ lir
 {
 masm
 .
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 ToFloatRegister
 (
@@ -37083,7 +37083,7 @@ MIRType_Float32
 )
 masm
 .
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 resultReg
 resultReg
@@ -49155,7 +49155,7 @@ range
 ;
 masm
 .
-convertFloatToDouble
+convertFloat32ToDouble
 (
 input
 input
@@ -49173,7 +49173,7 @@ temp
 ;
 masm
 .
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 input
 input

@@ -35984,7 +35984,7 @@ Float
 :
 masm
 .
-convertFloatToDouble
+convertFloat32ToDouble
 (
 ReturnFloatReg
 ReturnFloatReg

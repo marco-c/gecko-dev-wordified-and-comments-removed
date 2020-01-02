@@ -7651,7 +7651,7 @@ MIRType_Float32
 {
 masm
 .
-convertFloatToDouble
+convertFloat32ToDouble
 (
 reg
 ScratchFloatReg
@@ -12097,7 +12097,7 @@ size
 {
 masm
 .
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 NANReg
 dst

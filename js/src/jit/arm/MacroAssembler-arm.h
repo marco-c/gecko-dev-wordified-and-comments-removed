@@ -202,7 +202,7 @@ dest
 )
 ;
 void
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 const
 FloatRegister
@@ -275,7 +275,7 @@ true
 )
 ;
 void
-convertFloatToDouble
+convertFloat32ToDouble
 (
 const
 FloatRegister
@@ -8286,7 +8286,7 @@ dest
 )
 ;
 void
-loadFloat
+loadFloat32
 (
 const
 Address
@@ -8299,7 +8299,7 @@ dest
 )
 ;
 void
-loadFloat
+loadFloat32
 (
 const
 BaseIndex
@@ -8620,7 +8620,7 @@ dest
 ;
 }
 void
-storeFloat
+storeFloat32
 (
 FloatRegister
 src
@@ -8646,7 +8646,7 @@ addr
 ;
 }
 void
-storeFloat
+storeFloat32
 (
 FloatRegister
 src
@@ -9715,7 +9715,7 @@ Imm8
 ;
 }
 void
-moveFloat
+moveFloat32
 (
 FloatRegister
 src

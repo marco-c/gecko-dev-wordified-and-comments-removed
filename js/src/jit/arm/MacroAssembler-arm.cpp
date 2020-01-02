@@ -348,7 +348,7 @@ void
 MacroAssemblerARM
 :
 :
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 const
 FloatRegister
@@ -675,7 +675,7 @@ void
 MacroAssemblerARM
 :
 :
-convertFloatToDouble
+convertFloat32ToDouble
 (
 const
 FloatRegister
@@ -10355,7 +10355,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-loadFloat
+loadFloat32
 (
 const
 Address
@@ -10388,7 +10388,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-loadFloat
+loadFloat32
 (
 const
 BaseIndex

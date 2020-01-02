@@ -2361,7 +2361,7 @@ allowFloat32Optimizations
 {
 masm
 .
-storeFloat
+storeFloat32
 (
 value
 dest
@@ -2384,7 +2384,7 @@ value
 endif
 masm
 .
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 value
 ScratchFloatReg
@@ -2392,7 +2392,7 @@ ScratchFloatReg
 ;
 masm
 .
-storeFloat
+storeFloat32
 (
 ScratchFloatReg
 dest
@@ -2712,7 +2712,7 @@ allowFloat32Optimizations
 )
 )
 {
-loadFloat
+loadFloat32
 (
 src
 dest
@@ -3072,7 +3072,7 @@ allowFloat32Optimizations
 (
 )
 )
-convertFloatToDouble
+convertFloat32ToDouble
 (
 ScratchFloatReg
 ScratchFloatReg
@@ -7588,7 +7588,7 @@ outputType
 =
 MIRType_Float32
 )
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 output
 output
@@ -8166,7 +8166,7 @@ if
 outputIsDouble
 )
 {
-convertFloatToDouble
+convertFloat32ToDouble
 (
 src
 .
@@ -8198,7 +8198,7 @@ fpu
 =
 output
 )
-moveFloat
+moveFloat32
 (
 src
 .
@@ -8255,7 +8255,7 @@ output
 }
 else
 {
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 src
 .
@@ -9299,7 +9299,7 @@ break
 case
 MIRType_Float32
 :
-convertFloatToDouble
+convertFloat32ToDouble
 (
 src
 .

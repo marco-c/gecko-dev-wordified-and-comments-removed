@@ -29971,7 +29971,7 @@ TYPE_FLOAT32
 {
 masm
 .
-convertDoubleToFloat
+convertDoubleToFloat32
 (
 FloatReg0
 ScratchFloatReg
