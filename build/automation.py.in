@@ -6262,6 +6262,9 @@ False
 hide_subtests
 =
 None
+screenshotOnFail
+=
+False
 )
 :
 "
