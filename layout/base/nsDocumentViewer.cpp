@@ -505,6 +505,9 @@ nsISimpleEnumerator
 .
 h
 "
+#
+ifdef
+DEBUG
 static
 const
 char
@@ -526,6 +529,8 @@ service
 1
 "
 ;
+#
+endif
 #
 include
 "
