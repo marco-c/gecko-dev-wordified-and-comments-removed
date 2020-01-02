@@ -121,6 +121,8 @@ AsmJSMathBuiltin_abs
 AsmJSMathBuiltin_atan2
 AsmJSMathBuiltin_imul
 AsmJSMathBuiltin_fround
+AsmJSMathBuiltin_min
+AsmJSMathBuiltin_max
 }
 ;
 struct
