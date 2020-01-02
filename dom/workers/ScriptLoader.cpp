@@ -3142,6 +3142,11 @@ get
 )
 1
 )
+.
+setNoScriptRval
+(
+true
+)
 ;
 JS
 :
