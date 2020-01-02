@@ -98,9 +98,6 @@ MODULE
 '
 omxplugingb235
 '
-NO_DIST_INSTALL
-=
-True
 SOURCES
 +
 =

@@ -98,9 +98,6 @@ MODULE
 '
 omxpluginfroyo
 '
-NO_DIST_INSTALL
-=
-True
 SOURCES
 +
 =

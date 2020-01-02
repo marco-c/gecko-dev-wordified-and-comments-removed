@@ -169,9 +169,6 @@ MODULE
 '
 omxplugin
 '
-NO_DIST_INSTALL
-=
-True
 SOURCES
 +
 =
