@@ -1314,6 +1314,7 @@ options
 GetWorkerPrincipal
 (
 )
+true
 )
 ;
 }
@@ -1494,6 +1495,7 @@ options
 GetWorkerPrincipal
 (
 )
+true
 )
 ;
 }
