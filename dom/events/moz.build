@@ -708,6 +708,12 @@ storage
 '
 '
 /
+dom
+/
+workers
+'
+'
+/
 js
 /
 xpconnect
