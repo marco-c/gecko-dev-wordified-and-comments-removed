@@ -1105,7 +1105,8 @@ case
 GeckoProcessType_Default
 :
 {
-nsAutoPtr
+{
+nsRefPtr
 <
 WakeLockListener
 >
@@ -1156,6 +1157,7 @@ ShutdownWakeLock
 wakeLock
 )
 ;
+}
 nsCOMPtr
 <
 nsIAppStartup
