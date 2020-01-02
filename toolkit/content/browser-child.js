@@ -422,6 +422,12 @@ spec
 "
 "
 ;
+json
+.
+flags
+=
+aFlags
+;
 if
 (
 json

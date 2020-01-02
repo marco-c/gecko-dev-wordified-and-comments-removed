@@ -830,6 +830,13 @@ json
 location
 )
 ;
+let
+flags
+=
+json
+.
+flags
+;
 if
 (
 json
@@ -913,6 +920,7 @@ onLocationChange
 webProgress
 request
 location
+flags
 )
 ;
 break
