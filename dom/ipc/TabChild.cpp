@@ -8099,6 +8099,13 @@ nsIPresShell
 :
 :
 gPreventMouseEvents
+|
+|
+aEvent
+.
+mFlags
+.
+mMultipleActionsPrevented
 )
 {
 return
@@ -8563,6 +8570,13 @@ nsIPresShell
 :
 :
 gPreventMouseEvents
+|
+|
+localEvent
+.
+mFlags
+.
+mMultipleActionsPrevented
 )
 ;
 }
@@ -8571,7 +8585,7 @@ else
 {
 UpdateTapState
 (
-aEvent
+localEvent
 status
 )
 ;
