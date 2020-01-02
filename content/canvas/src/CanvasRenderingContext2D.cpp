@@ -8193,7 +8193,7 @@ void
 CanvasRenderingContext2D
 :
 :
-DrawSystemFocusRing
+DrawFocusIfNeeded
 (
 mozilla
 :

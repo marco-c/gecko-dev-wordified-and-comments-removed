@@ -6465,10 +6465,10 @@ needs
 focus
 =
 =
-drawSystemFocusRing
+drawFocusIfNeeded
 .
 html
-drawSystemFocusRing
+drawFocusIfNeeded
 -
 ref
 .

@@ -326,7 +326,7 @@ p
 Canvas
 test
 :
-drawSystemFocusRing
+drawFocusIfNeeded
 <
 /
 p
@@ -482,7 +482,7 @@ true
 ;
 }
 function
-test_drawSystemFocusRing_canvas
+test_drawFocusIfNeeded_canvas
 (
 )
 {
@@ -570,7 +570,7 @@ rect
 ;
 ctx
 .
-drawSystemFocusRing
+drawFocusIfNeeded
 (
 b1
 )
@@ -637,7 +637,7 @@ rect
 ;
 ctx
 .
-drawSystemFocusRing
+drawFocusIfNeeded
 (
 b2
 )
@@ -654,7 +654,7 @@ rect
 ;
 ctx
 .
-drawSystemFocusRing
+drawFocusIfNeeded
 (
 b2
 )
@@ -727,7 +727,7 @@ rect
 ;
 ctx
 .
-drawSystemFocusRing
+drawFocusIfNeeded
 (
 b1
 )
@@ -804,7 +804,7 @@ test_drawCustomFocusRing_canvas
 }
 try
 {
-test_drawSystemFocusRing_canvas
+test_drawFocusIfNeeded_canvas
 (
 )
 ;
@@ -826,7 +826,7 @@ exception
 thrown
 in
 :
-test_drawSystemFocusRing_canvas
+test_drawFocusIfNeeded_canvas
 "
 )
 ;

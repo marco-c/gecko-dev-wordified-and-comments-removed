@@ -669,7 +669,7 @@ enabled
 "
 ]
 void
-drawSystemFocusRing
+drawFocusIfNeeded
 (
 Element
 element
