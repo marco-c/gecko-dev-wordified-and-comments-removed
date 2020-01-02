@@ -2615,6 +2615,7 @@ arguments
 /
 [
 Throws
+ChromeOnly
 ]
 WindowProxy
 ?
