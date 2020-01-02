@@ -76,7 +76,7 @@ ReadbackManagerD3D11
 (
 )
 ;
-friend
+static
 DWORD
 WINAPI
 StartTaskThread
