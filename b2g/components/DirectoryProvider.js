@@ -561,6 +561,9 @@ getUpdateDir
 (
 persistent
 UPDATES_DIR
+2
+.
+1
 )
 ;
 }
@@ -579,6 +582,9 @@ getUpdateDir
 (
 persistent
 FOTA_DIR
+1
+.
+1
 )
 ;
 }
@@ -1042,6 +1048,7 @@ dp_getUpdateDir
 (
 persistent
 subdir
+multiple
 )
 {
 let
@@ -1139,7 +1146,7 @@ selectedPatch
 .
 size
 *
-2
+multiple
 ;
 let
 updateDir
