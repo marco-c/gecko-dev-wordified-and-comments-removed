@@ -257,7 +257,7 @@ counts
 [
 2
 ]
-8
+7
 )
 ;
 do_check_eq
@@ -290,7 +290,7 @@ counts
 [
 5
 ]
-0
+1
 )
 ;
 do_check_eq
@@ -525,7 +525,7 @@ nsICertOverrideService
 ERROR_UNTRUSTED
 getXPCOMStatusFromNSS
 (
-SEC_ERROR_UNKNOWN_ISSUER
+SEC_ERROR_EXPIRED_ISSUER_CERTIFICATE
 )
 )
 ;

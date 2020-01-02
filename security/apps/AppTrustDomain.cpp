@@ -481,8 +481,8 @@ CERT_GetDefaultCertDB
 )
 &
 encodedIssuerNameSECItem
-time
-true
+0
+false
 )
 )
 ;
