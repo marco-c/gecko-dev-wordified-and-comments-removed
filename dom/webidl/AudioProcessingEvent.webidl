@@ -160,11 +160,17 @@ attribute
 double
 playbackTime
 ;
+[
+Throws
+]
 readonly
 attribute
 AudioBuffer
 inputBuffer
 ;
+[
+Throws
+]
 readonly
 attribute
 AudioBuffer
