@@ -153,8 +153,6 @@ nonRepudiation
 keyEncipherment
 dataEncipherment
 keyAgreement
-certSigning
-crlSigning
 "
 "
 certSigning
