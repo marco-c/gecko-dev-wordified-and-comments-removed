@@ -2049,7 +2049,7 @@ mozilla
 /
 dom
 /
-MozNamedAttrMapBinding
+NamedNodeMapBinding
 .
 h
 "
@@ -2934,9 +2934,10 @@ DEFINE_SHIM
 (
 MutationEvent
 )
-DEFINE_SHIM
+DEFINE_SHIM_WITH_CUSTOM_INTERFACE
 (
-MozNamedAttrMap
+nsIDOMMozNamedAttrMap
+NamedNodeMap
 )
 DEFINE_SHIM
 (

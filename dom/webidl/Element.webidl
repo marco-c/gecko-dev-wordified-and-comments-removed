@@ -284,7 +284,7 @@ SameObject
 ]
 readonly
 attribute
-MozNamedAttrMap
+NamedNodeMap
 attributes
 ;
 [

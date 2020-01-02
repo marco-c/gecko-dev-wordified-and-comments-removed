@@ -255,7 +255,7 @@ MimeTypeArray
 implements
 LegacyQueryInterface
 ;
-MozNamedAttrMap
+NamedNodeMap
 implements
 LegacyQueryInterface
 ;
