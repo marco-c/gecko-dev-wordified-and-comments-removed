@@ -257,6 +257,9 @@ data
 int16_t
 hashShift
 ;
+uint16_t
+recursionLevel
+;
 uint32_t
 entrySize
 ;
