@@ -10373,6 +10373,10 @@ memory
 return
 nullptr
 ;
+if
+(
+length
+)
 elementTypeRepr
 -
 >
