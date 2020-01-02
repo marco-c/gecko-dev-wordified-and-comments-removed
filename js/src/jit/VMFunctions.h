@@ -3100,8 +3100,13 @@ CheckOverRecursedWithExtra
 JSContext
 *
 cx
+BaselineFrame
+*
+frame
 uint32_t
 extra
+uint32_t
+earlyCheck
 )
 ;
 bool
