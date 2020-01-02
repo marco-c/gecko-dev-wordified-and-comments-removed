@@ -105,6 +105,16 @@ ok
 "
 )
 ;
+check
+(
+Symbol
+(
+"
+ok
+"
+)
+)
+;
 var
 g
 =

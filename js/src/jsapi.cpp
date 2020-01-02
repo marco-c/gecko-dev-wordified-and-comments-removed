@@ -258,6 +258,15 @@ RegExp
 h
 "
 #
+include
+"
+builtin
+/
+SymbolObject
+.
+h
+"
+#
 ifdef
 ENABLE_BINARYDATA
 #

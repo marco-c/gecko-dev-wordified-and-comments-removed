@@ -800,6 +800,13 @@ cpp
 '
 builtin
 /
+SymbolObject
+.
+cpp
+'
+'
+builtin
+/
 TestingFunctions
 .
 cpp
