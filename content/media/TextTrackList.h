@@ -109,13 +109,6 @@ Length
 ;
 }
 void
-Update
-(
-double
-aTime
-)
-;
-void
 GetAllActiveCues
 (
 nsTArray

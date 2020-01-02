@@ -235,6 +235,16 @@ text
 )
 ;
 }
+processCues
+:
+function
+(
+window
+cues
+overlay
+)
+{
+}
 classDescription
 :
 "
