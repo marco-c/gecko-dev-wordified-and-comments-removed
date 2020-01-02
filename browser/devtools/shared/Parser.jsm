@@ -1598,6 +1598,14 @@ parentType
 "
 ContinueStatement
 "
+|
+|
+parentType
+=
+=
+"
+BreakStatement
+"
 )
 {
 let
