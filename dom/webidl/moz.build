@@ -1235,7 +1235,17 @@ MozMmsMessage
 webidl
 '
 '
+MozMobileConnection
+.
+webidl
+'
+'
 MozNamedAttrMap
+.
+webidl
+'
+'
+MozNetworkStats
 .
 webidl
 '

@@ -112,11 +112,6 @@ nsIIccProvider
 .
 idl
 '
-'
-SimToolKit
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

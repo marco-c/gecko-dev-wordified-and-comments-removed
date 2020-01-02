@@ -280,13 +280,6 @@ h
 #
 include
 "
-DictionaryHelpers
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
