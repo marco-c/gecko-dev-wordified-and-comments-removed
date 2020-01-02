@@ -305,7 +305,7 @@ CheckedUint32
 mInputIndex
 ;
 bool
-mEndOfStream
+mInputEndOfStream
 ;
 int64_t
 mSeekTimeUs
