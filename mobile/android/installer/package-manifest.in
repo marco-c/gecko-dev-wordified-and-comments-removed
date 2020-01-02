@@ -1435,6 +1435,13 @@ BINPATH
 /
 components
 /
+toolkit_finalizationwitness
+.
+xpt
+BINPATH
+/
+components
+/
 toolkitprofile
 .
 xpt
