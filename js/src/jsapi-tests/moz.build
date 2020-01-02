@@ -245,6 +245,11 @@ testGCFinalizeCallback
 cpp
 '
 '
+testGCHeapPostBarriers
+.
+cpp
+'
+'
 testGCOutOfMemory
 .
 cpp
