@@ -217,12 +217,6 @@ EventTarget
 ?
 relatedTarget
 ;
-readonly
-attribute
-DOMString
-?
-region
-;
 /
 /
 Deprecated

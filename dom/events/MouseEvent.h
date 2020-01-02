@@ -170,14 +170,6 @@ GetRelatedTarget
 )
 ;
 void
-GetRegion
-(
-nsAString
-&
-aRegion
-)
-;
-void
 InitMouseEvent
 (
 const
