@@ -315,14 +315,14 @@ aWidgetId
 {
 gSeenWidgets
 .
-remove
+delete
 (
 aWidgetId
 )
 ;
 gWideWidgets
 .
-remove
+delete
 (
 aWidgetId
 )

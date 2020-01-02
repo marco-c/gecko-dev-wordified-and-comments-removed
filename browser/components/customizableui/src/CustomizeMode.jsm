@@ -3622,6 +3622,13 @@ _removePanelCustomizationPlaceholders
 )
 ;
 }
+if
+(
+aNodeToChange
+.
+parentNode
+)
+{
 this
 .
 unwrapToolbarItem
@@ -3631,6 +3638,7 @@ aNodeToChange
 parentNode
 )
 ;
+}
 if
 (
 aSecondaryNode
