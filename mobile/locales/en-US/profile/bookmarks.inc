@@ -213,7 +213,6 @@ mozilla
 .
 org
 /
-mobile
 #
 define
 bookmarks_support
