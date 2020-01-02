@@ -4899,6 +4899,10 @@ AsmJSActivation
 *
 prevAsmJS_
 ;
+AsmJSActivation
+*
+prevAsmJSForModule_
+;
 void
 *
 errorRejoinSP_
