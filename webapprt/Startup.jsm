@@ -606,9 +606,7 @@ applyUpdate
 yield
 WebappRT
 .
-loadConfig
-(
-)
+configPromise
 ;
 let
 appData
