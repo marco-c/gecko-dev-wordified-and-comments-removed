@@ -374,15 +374,6 @@ this
 ;
 if
 (
-!
-CheckPermission
-(
-"
-mobilenetwork
-"
-)
-&
-&
 CheckPermission
 (
 "
