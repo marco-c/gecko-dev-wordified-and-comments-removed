@@ -2301,3 +2301,17 @@ openmax
 '
 ]
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+apz
+/
+test
+/
+mochitest
+.
+ini
+'
+]
