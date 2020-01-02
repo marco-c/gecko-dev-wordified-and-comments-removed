@@ -15010,6 +15010,16 @@ aRawObj
 {
 if
 (
+obj
+.
+class
+=
+=
+"
+Object
+"
+|
+|
 !
 aRawObj
 |
