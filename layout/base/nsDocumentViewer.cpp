@@ -3222,6 +3222,14 @@ false
 ;
 event
 .
+mFlags
+.
+mCancelable
+=
+false
+;
+event
+.
 target
 =
 mDocument
