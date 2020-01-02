@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsDataHashtable
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h
@@ -141,13 +134,6 @@ nsCOMPtr
 nsIURI
 >
 mSelfURI
-;
-nsDataHashtable
-<
-nsCStringHashKey
-int16_t
->
-mShouldLoadCache
 ;
 }
 ;
