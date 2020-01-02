@@ -1710,6 +1710,15 @@ DrawTarget
 {
 }
 virtual
+DrawTargetType
+GetType
+(
+)
+const
+=
+0
+;
+virtual
 BackendType
 GetBackendType
 (

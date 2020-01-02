@@ -99,6 +99,14 @@ DrawTargetSkia
 )
 ;
 virtual
+DrawTargetType
+GetType
+(
+)
+const
+MOZ_OVERRIDE
+;
+virtual
 BackendType
 GetBackendType
 (
