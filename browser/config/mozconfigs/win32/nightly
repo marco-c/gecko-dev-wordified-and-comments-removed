@@ -52,6 +52,16 @@ build
 /
 mozconfig
 .
+cache
+"
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
 common
 .
 override
