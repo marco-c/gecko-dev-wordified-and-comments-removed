@@ -799,7 +799,14 @@ java
 audio_root
 +
 '
-WebRTCAudioDevice
+WebRtcAudioRecord
+.
+java
+'
+audio_root
++
+'
+WebRtcAudioTrack
 .
 java
 '

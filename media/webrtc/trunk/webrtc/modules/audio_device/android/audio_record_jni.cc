@@ -3037,7 +3037,7 @@ return
 1
 ;
 }
-_samplingFreqin
+_samplingFreqIn
 =
 samplesPerSec
 ;
