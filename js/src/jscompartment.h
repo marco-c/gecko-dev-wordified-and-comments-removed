@@ -2522,6 +2522,9 @@ class
 AutoWrapperRooter
 :
 private
+JS
+:
+:
 AutoGCRooter
 {
 public
@@ -2535,6 +2538,9 @@ WrapperValue
 v
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
+:
+JS
+:
 :
 AutoGCRooter
 (
@@ -2570,6 +2576,9 @@ toObjectOrNull
 }
 friend
 void
+JS
+:
+:
 AutoGCRooter
 :
 :

@@ -626,6 +626,12 @@ mozilla
 PodZero
 ;
 using
+JS
+:
+:
+AutoGCRooter
+;
+using
 js
 :
 :

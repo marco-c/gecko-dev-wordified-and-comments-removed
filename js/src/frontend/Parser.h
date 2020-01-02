@@ -893,6 +893,9 @@ class
 Parser
 :
 private
+JS
+:
+:
 AutoGCRooter
 public
 StrictModeGetter
@@ -1163,6 +1166,9 @@ MarkParser
 JSTracer
 *
 trc
+JS
+:
+:
 AutoGCRooter
 *
 parser

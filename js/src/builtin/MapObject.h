@@ -189,6 +189,9 @@ class
 AutoHashableValueRooter
 :
 private
+JS
+:
+:
 AutoGCRooter
 {
 public
@@ -201,6 +204,9 @@ JSContext
 cx
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
+:
+JS
+:
 :
 AutoGCRooter
 (
@@ -258,6 +264,9 @@ get
 }
 friend
 void
+JS
+:
+:
 AutoGCRooter
 :
 :

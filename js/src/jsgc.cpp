@@ -358,6 +358,12 @@ mozilla
 :
 Swap
 ;
+using
+JS
+:
+:
+AutoGCRooter
+;
 static
 const
 uint64_t

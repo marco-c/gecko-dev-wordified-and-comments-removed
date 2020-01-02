@@ -174,6 +174,9 @@ class
 AutoRooter
 :
 public
+JS
+:
+:
 AutoGCRooter
 {
 MacroAssembler
@@ -191,6 +194,9 @@ MacroAssembler
 *
 masm
 )
+:
+JS
+:
 :
 AutoGCRooter
 (

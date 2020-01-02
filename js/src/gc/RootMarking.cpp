@@ -171,6 +171,12 @@ mozilla
 :
 ArrayEnd
 ;
+using
+JS
+:
+:
+AutoGCRooter
+;
 typedef
 RootedValueMap
 :
@@ -3183,9 +3189,6 @@ next
 {
 for
 (
-js
-:
-:
 AutoGCRooter
 *
 gcr
@@ -3254,9 +3257,6 @@ next
 {
 for
 (
-js
-:
-:
 AutoGCRooter
 *
 gcr

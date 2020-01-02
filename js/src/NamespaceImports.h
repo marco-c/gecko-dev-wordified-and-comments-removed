@@ -61,12 +61,6 @@ AutoValueVector
 class
 AutoIdArray
 ;
-class
-JS_PUBLIC_API
-(
-AutoGCRooter
-)
-;
 template
 <
 typename
@@ -267,12 +261,6 @@ JS
 :
 :
 AutoIdArray
-;
-using
-JS
-:
-:
-AutoGCRooter
 ;
 using
 JS

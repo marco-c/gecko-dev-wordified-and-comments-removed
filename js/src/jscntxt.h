@@ -3086,6 +3086,9 @@ class
 AutoArrayRooter
 :
 private
+JS
+:
+:
 AutoGCRooter
 {
 public
@@ -3102,6 +3105,9 @@ Value
 vec
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
+:
+JS
+:
 :
 AutoGCRooter
 (
@@ -3329,6 +3335,9 @@ i
 }
 friend
 void
+JS
+:
+:
 AutoGCRooter
 :
 :

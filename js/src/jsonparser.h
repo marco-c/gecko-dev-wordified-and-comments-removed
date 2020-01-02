@@ -16,6 +16,13 @@ h
 #
 include
 "
+jspubtd
+.
+h
+"
+#
+include
+"
 ds
 /
 IdValuePair
@@ -39,6 +46,9 @@ MOZ_STACK_CLASS
 JSONParser
 :
 private
+JS
+:
+:
 AutoGCRooter
 {
 public
