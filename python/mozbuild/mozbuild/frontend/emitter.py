@@ -738,6 +738,12 @@ varmap
 dict
 (
             
+ANDROID_RESFILES
+=
+'
+ANDROID_RESFILES
+'
+            
 ASFILES
 =
 '
