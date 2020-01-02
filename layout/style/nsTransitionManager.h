@@ -124,13 +124,8 @@ double
 mReversePortion
 ;
 double
-ValuePortionFor
+CurrentValuePortion
 (
-mozilla
-:
-:
-TimeStamp
-aRefreshTime
 )
 const
 ;
