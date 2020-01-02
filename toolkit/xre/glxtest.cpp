@@ -1232,8 +1232,10 @@ pfd
 ]
 )
 ;
-return
-true
+exit
+(
+0
+)
 ;
 }
 close
