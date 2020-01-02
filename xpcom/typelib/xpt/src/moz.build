@@ -145,3 +145,6 @@ xpcom
 base
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
