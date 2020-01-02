@@ -16724,6 +16724,14 @@ return
 status
 ;
 }
+if
+(
+_cairo_operator_bounded_by_mask
+(
+op
+)
+)
+{
 _cairo_box_round_to_rectangle
 (
 &
@@ -16758,6 +16766,7 @@ mask
 return
 CAIRO_STATUS_SUCCESS
 ;
+}
 if
 (
 antialias
