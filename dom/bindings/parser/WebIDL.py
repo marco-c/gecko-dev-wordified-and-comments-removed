@@ -5960,6 +5960,14 @@ identifier
 "
 ChromeOnly
 "
+or
+                  
+identifier
+=
+=
+"
+LegacyEventInit
+"
 )
 :
                 
