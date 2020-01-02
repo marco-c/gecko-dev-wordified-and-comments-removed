@@ -89,11 +89,11 @@ aShell
 )
 mProxyWindow
 (
-NULL
+nullptr
 )
 mIcon
 (
-NULL
+nullptr
 )
 mRegistered
 (
@@ -140,7 +140,7 @@ mIcon
 ;
 mIcon
 =
-NULL
+nullptr
 ;
 }
 if
@@ -182,7 +182,7 @@ else
 {
 mWnd
 =
-NULL
+nullptr
 ;
 }
 }
@@ -235,7 +235,7 @@ active
 ?
 mProxyWindow
 :
-NULL
+nullptr
 mWnd
 0
 )
@@ -368,7 +368,7 @@ icon
 HICON
 hIcon
 =
-NULL
+nullptr
 ;
 if
 (
@@ -987,7 +987,7 @@ module
 =
 GetModuleHandle
 (
-NULL
+nullptr
 )
 ;
 if
@@ -1036,13 +1036,13 @@ wc
 .
 hIcon
 =
-NULL
+nullptr
 ;
 wc
 .
 hCursor
 =
-NULL
+nullptr
 ;
 wc
 .
@@ -1051,7 +1051,7 @@ hbrBackground
 (
 HBRUSH
 )
-NULL
+nullptr
 ;
 wc
 .
@@ -1060,7 +1060,7 @@ lpszMenuName
 (
 LPCWSTR
 )
-NULL
+nullptr
 ;
 wc
 .
@@ -1091,8 +1091,8 @@ WS_SYSMENU
 0
 200
 60
-NULL
-NULL
+nullptr
+nullptr
 module
 this
 )
@@ -1212,7 +1212,7 @@ NS_ERROR_FAILURE
 ;
 mProxyWindow
 =
-NULL
+nullptr
 ;
 return
 NS_OK
@@ -1554,7 +1554,7 @@ preview
 HWND
 hNext
 =
-NULL
+nullptr
 ;
 if
 (

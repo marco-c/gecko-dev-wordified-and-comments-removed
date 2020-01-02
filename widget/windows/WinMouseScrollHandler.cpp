@@ -5563,7 +5563,7 @@ return
 wcstol
 (
 p
-NULL
+nullptr
 10
 )
 ;
@@ -6542,7 +6542,7 @@ majorVersion
 wcstol
 (
 buf
-NULL
+nullptr
 10
 )
 ;
@@ -6576,7 +6576,7 @@ wcstol
 p
 +
 1
-NULL
+nullptr
 10
 )
 ;

@@ -424,7 +424,7 @@ else
 *
 img
 =
-NULL
+nullptr
 ;
 return
 NS_OK
@@ -512,7 +512,7 @@ Button
 .
 hIcon
 =
-NULL
+nullptr
 ;
 }
 return

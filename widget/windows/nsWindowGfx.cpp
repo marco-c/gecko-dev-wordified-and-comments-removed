@@ -339,7 +339,7 @@ if
 paintRgn
 !
 =
-NULL
+nullptr
 )
 {
 int
@@ -372,7 +372,7 @@ pt
 :
 MapWindowPoints
 (
-NULL
+nullptr
 mWnd
 &
 pt
@@ -755,7 +755,7 @@ window
 ValidateRect
 (
 mWnd
-NULL
+nullptr
 )
 ;
 return
@@ -884,12 +884,12 @@ WIDGET_DEBUG_OUTPUT
 HRGN
 debugPaintFlashRegion
 =
-NULL
+nullptr
 ;
 HDC
 debugPaintFlashDC
 =
-NULL
+nullptr
 ;
 if
 (
@@ -987,7 +987,7 @@ else
 bool
 forceRepaint
 =
-NULL
+nullptr
 !
 =
 aDC
@@ -2729,7 +2729,7 @@ aNestingLevel
 GetUpdateRect
 (
 mWnd
-NULL
+nullptr
 false
 )
 )
@@ -3284,7 +3284,7 @@ if
 outData
 )
 return
-NULL
+nullptr
 ;
 int32_t
 *
@@ -3409,7 +3409,7 @@ dc
 :
 GetDC
 (
-NULL
+nullptr
 )
 ;
 if
@@ -3557,7 +3557,7 @@ DIB_RGB_COLORS
 :
 ReleaseDC
 (
-NULL
+nullptr
 dc
 )
 ;
@@ -3743,7 +3743,7 @@ DIB_RGB_COLORS
 :
 ReleaseDC
 (
-NULL
+nullptr
 dc
 )
 ;

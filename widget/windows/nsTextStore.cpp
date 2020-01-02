@@ -247,7 +247,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -503,7 +503,7 @@ nsTextStore
 :
 sTsfThreadMgr
 =
-NULL
+nullptr
 ;
 ITfMessagePump
 *
@@ -512,7 +512,7 @@ nsTextStore
 :
 sMessagePump
 =
-NULL
+nullptr
 ;
 ITfKeystrokeMgr
 *
@@ -521,7 +521,7 @@ nsTextStore
 :
 sKeystrokeMgr
 =
-NULL
+nullptr
 ;
 ITfDisplayAttributeMgr
 *
@@ -530,7 +530,7 @@ nsTextStore
 :
 sDisplayAttrMgr
 =
-NULL
+nullptr
 ;
 ITfCategoryMgr
 *
@@ -539,7 +539,7 @@ nsTextStore
 :
 sCategoryMgr
 =
-NULL
+nullptr
 ;
 ITfDocumentMgr
 *
@@ -548,7 +548,7 @@ nsTextStore
 :
 sTsfDisabledDocumentMgr
 =
-NULL
+nullptr
 ;
 ITfContext
 *
@@ -557,7 +557,7 @@ nsTextStore
 :
 sTsfDisabledContext
 =
-NULL
+nullptr
 ;
 DWORD
 nsTextStore
@@ -574,7 +574,7 @@ nsTextStore
 :
 sTsfTextStore
 =
-NULL
+nullptr
 ;
 UINT
 nsTextStore
@@ -2612,7 +2612,7 @@ hr
 ;
 mDocumentMgr
 =
-NULL
+nullptr
 ;
 return
 false
@@ -2671,11 +2671,11 @@ hr
 ;
 mContext
 =
-NULL
+nullptr
 ;
 mDocumentMgr
 =
-NULL
+nullptr
 ;
 return
 false
@@ -2821,7 +2821,7 @@ msg
 }
 mContext
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2838,12 +2838,12 @@ TF_POPF_ALL
 ;
 mDocumentMgr
 =
-NULL
+nullptr
 ;
 }
 mSink
 =
-NULL
+nullptr
 ;
 mWidget
 =
@@ -2893,7 +2893,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3578,7 +3578,7 @@ CONNECT_E_NOCONNECTION
 }
 mSink
 =
-NULL
+nullptr
 ;
 mSinkMask
 =
@@ -7853,7 +7853,7 @@ getter_AddRefs
 (
 info
 )
-NULL
+nullptr
 )
 ;
 if
@@ -9049,7 +9049,7 @@ getter_AddRefs
 (
 range
 )
-NULL
+nullptr
 )
 &
 &
@@ -17811,7 +17811,7 @@ mWidget
 GetWindowHandle
 (
 )
-NULL
+nullptr
 getter_AddRefs
 (
 prevFocusedDocumentMgr
@@ -18956,7 +18956,7 @@ services
 >
 TerminateComposition
 (
-NULL
+nullptr
 )
 ;
 }
@@ -19066,7 +19066,7 @@ aCompartment
 )
 !
 =
-NULL
+nullptr
 ;
 }
 void
@@ -19822,7 +19822,7 @@ SUCCEEDED
 CoCreateInstance
 (
 CLSID_TF_ThreadMgr
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_ITfThreadMgr
 reinterpret_cast
@@ -20118,7 +20118,7 @@ hr
 CoCreateInstance
 (
 CLSID_TF_DisplayAttributeMgr
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_ITfDisplayAttributeMgr
 reinterpret_cast
@@ -20224,7 +20224,7 @@ hr
 CoCreateInstance
 (
 CLSID_TF_CategoryMgr
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_ITfCategoryMgr
 reinterpret_cast
@@ -20366,7 +20366,7 @@ CreateContext
 (
 sTsfClientId
 0
-NULL
+nullptr
 &
 sTsfDisabledContext
 &
@@ -21611,7 +21611,7 @@ hr
 CoCreateInstance
 (
 CLSID_TF_InputProcessorProfiles
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_ITfInputProcessorProfiles
 getter_AddRefs

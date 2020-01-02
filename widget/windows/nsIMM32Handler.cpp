@@ -4854,7 +4854,7 @@ get
 (
 )
 GCS_COMPCLAUSE
-NULL
+nullptr
 0
 )
 ;
@@ -5128,7 +5128,7 @@ get
 (
 )
 len
-NULL
+nullptr
 0
 )
 ;
@@ -5191,7 +5191,7 @@ get
 (
 )
 GCS_COMPATTR
-NULL
+nullptr
 0
 )
 ;
@@ -5315,7 +5315,7 @@ get
 (
 )
 GCS_CURSORPOS
-NULL
+nullptr
 0
 )
 ;
@@ -8062,7 +8062,7 @@ get
 (
 )
 aIndex
-NULL
+nullptr
 0
 )
 ;
@@ -8432,10 +8432,10 @@ aStr
 Length
 (
 )
-NULL
+nullptr
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -8514,8 +8514,8 @@ BeginWriting
 (
 )
 len
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return

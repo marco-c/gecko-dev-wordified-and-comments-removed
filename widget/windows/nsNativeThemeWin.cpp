@@ -625,7 +625,7 @@ hdc
 MENU_POPUPCHECK
 MCB_NORMAL
 TMT_CONTENTMARGINS
-NULL
+nullptr
 &
 checkboxContent
 )
@@ -653,7 +653,7 @@ theme
 hdc
 MENU_POPUPCHECK
 MC_CHECKMARKNORMAL
-NULL
+nullptr
 TS_TRUE
 &
 checkboxSize
@@ -768,7 +768,7 @@ hdc
 MENU_POPUPCHECKBACKGROUND
 MCB_NORMAL
 TMT_SIZINGMARGINS
-NULL
+nullptr
 &
 checkboxBGSizing
 )
@@ -780,7 +780,7 @@ hdc
 MENU_POPUPCHECKBACKGROUND
 MCB_NORMAL
 TMT_CONTENTMARGINS
-NULL
+nullptr
 &
 checkboxBGContent
 )
@@ -902,7 +902,7 @@ theme
 hdc
 MENU_POPUPGUTTER
 0
-NULL
+nullptr
 TS_TRUE
 &
 gutterSize
@@ -927,7 +927,7 @@ theme
 hdc
 MENU_POPUPITEM
 MPI_NORMAL
-NULL
+nullptr
 TS_TRUE
 &
 itemSize
@@ -1000,7 +1000,7 @@ hdc
 MENU_POPUPCHECKBACKGROUND
 MCB_NORMAL
 TMT_CONTENTMARGINS
-NULL
+nullptr
 &
 margins
 )
@@ -1284,7 +1284,7 @@ RECT
 *
 newCRectPtr
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3098,7 +3098,7 @@ WinUtils
 :
 VISTA_VERSION
 ?
-NULL
+nullptr
 :
 nsUXThemeData
 :
@@ -3461,7 +3461,7 @@ eUXWindowFrame
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 int32_t
@@ -7498,7 +7498,7 @@ theme
 hdc
 MENU_POPUPBORDERS
 0
-NULL
+nullptr
 TS_TRUE
 &
 borderSize
@@ -7998,7 +7998,7 @@ hdc
 SelectClipRgn
 (
 hdc
-NULL
+nullptr
 )
 ;
 :
@@ -8029,7 +8029,7 @@ y
 widgetRect
 .
 top
-NULL
+nullptr
 )
 ;
 if
@@ -8093,7 +8093,7 @@ PS_ALTERNATE
 &
 lb
 0
-NULL
+nullptr
 )
 ;
 :
@@ -8127,7 +8127,7 @@ widgetRect
 bottom
 -
 1
-NULL
+nullptr
 )
 ;
 :
@@ -8172,7 +8172,7 @@ right
 widgetRect
 .
 top
-NULL
+nullptr
 )
 ;
 :
@@ -8301,7 +8301,7 @@ RP_BAND
 widgetRect
 EDGE_ETCHED
 BF_TOP
-NULL
+nullptr
 )
 ;
 }
@@ -8348,7 +8348,7 @@ theme
 hdc
 gripPart
 state
-NULL
+nullptr
 TS_TRUE
 &
 gripSize
@@ -8365,7 +8365,7 @@ hdc
 part
 state
 TMT_CONTENTMARGINS
-NULL
+nullptr
 &
 thumbMgns
 )
@@ -8990,7 +8990,7 @@ res
 GetThemeBackgroundContentRect
 (
 theme
-NULL
+nullptr
 part
 state
 &
@@ -9368,10 +9368,10 @@ popupSize
 GetThemePartSize
 (
 theme
-NULL
+nullptr
 MENU_POPUPBORDERS
 0
-NULL
+nullptr
 TS_TRUE
 &
 popupSize
@@ -9611,7 +9611,7 @@ size
 GetGutterSize
 (
 theme
-NULL
+nullptr
 )
 )
 ;
@@ -9636,7 +9636,7 @@ size
 GetGutterSize
 (
 theme
-NULL
+nullptr
 )
 )
 ;
@@ -10036,7 +10036,7 @@ gutterSize
 GetGutterSize
 (
 theme
-NULL
+nullptr
 )
 )
 ;
@@ -10080,7 +10080,7 @@ boxSize
 GetGutterSize
 (
 theme
-NULL
+nullptr
 )
 )
 ;
@@ -10764,7 +10764,7 @@ theme
 hdc
 part
 state
-NULL
+nullptr
 sizeReq
 &
 sz
@@ -11292,7 +11292,7 @@ false
 HANDLE
 theme
 =
-NULL
+nullptr
 ;
 if
 (
@@ -15486,7 +15486,7 @@ checkW
 checkH
 1
 1
-NULL
+nullptr
 )
 ;
 if
@@ -15861,7 +15861,7 @@ y
 rc
 .
 top
-NULL
+nullptr
 )
 ;
 HBRUSH
@@ -16294,7 +16294,7 @@ y
 widgetRect
 .
 top
-NULL
+nullptr
 )
 ;
 int32_t

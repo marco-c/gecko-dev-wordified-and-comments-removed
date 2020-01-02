@@ -3470,7 +3470,7 @@ stg
 .
 pUnkForRelease
 =
-NULL
+nullptr
 ;
 if
 (
