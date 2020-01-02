@@ -1913,24 +1913,6 @@ IDE_PROJECT_FILTERED_RESOURCES
 '
 '
         
-defines
-[
-'
-ANDROID_TARGET_SDK
-'
-]
-=
-self
-.
-environment
-.
-substs
-[
-'
-ANDROID_TARGET_SDK
-'
-]
-        
 copier
 =
 FileCopier
