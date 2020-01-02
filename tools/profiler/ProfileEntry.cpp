@@ -2071,7 +2071,15 @@ for
 int
 readPos
 =
+(
 mWritePos
++
+mEntrySize
+-
+1
+)
+%
+mEntrySize
 ;
 readPos
 !
