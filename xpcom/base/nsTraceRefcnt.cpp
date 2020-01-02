@@ -954,6 +954,8 @@ char
 aPtr
 )
 {
+:
+:
 free
 (
 aPtr
