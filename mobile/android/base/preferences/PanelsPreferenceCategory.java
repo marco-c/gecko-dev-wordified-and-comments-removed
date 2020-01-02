@@ -415,6 +415,16 @@ configState
 )
 {
 final
+boolean
+isRemovable
+=
+panelConfig
+.
+isDynamic
+(
+)
+;
+final
 String
 panelId
 =
@@ -449,6 +459,7 @@ getContext
 PanelsPreferenceCategory
 .
 this
+isRemovable
 index
 animate
 )
