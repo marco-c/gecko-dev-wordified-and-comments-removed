@@ -1541,6 +1541,13 @@ components
 necko_viewsource
 .
 xpt
+BINPATH
+/
+components
+/
+necko_websocket
+.
+xpt
 #
 ifdef
 NECKO_WIFI
