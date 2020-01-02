@@ -2633,6 +2633,14 @@ bool
 sCreateNativeCaretForATOK
 ;
 static
+bool
+sDoNotReturnNoLayoutErrorToFreeChangJie
+;
+static
+bool
+sDoNotReturnNoLayoutErrorToEasyChangjei
+;
+static
 UINT
 sFlushTIPInputMessage
 ;
