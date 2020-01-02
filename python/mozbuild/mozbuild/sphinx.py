@@ -204,7 +204,6 @@ variable_reference
 v
 st_type
 in_type
-default
 doc
 tier
 )
@@ -285,17 +284,6 @@ s
 in_type
 .
 __name__
-        
-'
-:
-Default
-Value
-:
-%
-s
-'
-%
-default
         
 '
 '

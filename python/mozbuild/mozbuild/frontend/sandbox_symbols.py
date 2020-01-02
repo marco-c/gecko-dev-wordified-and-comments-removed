@@ -79,43 +79,57 @@ HierarchicalStringList
     
 StrictOrderingOnAppendList
 )
-def
-compute_final_target
+from
+.
+sandbox
+import
+SandboxDerivedValue
+from
+types
+import
+StringTypes
+class
+FinalTargetValue
 (
-variables
+SandboxDerivedValue
+unicode
 )
 :
     
-"
-"
-"
-Convert
-the
-default
+def
+__new__
+(
+cls
+sandbox
 value
-for
-FINAL_TARGET
+=
 "
 "
-"
-    
-basedir
+)
+:
+        
+if
+not
+value
+:
+            
+value
 =
 '
 dist
 /
 '
-    
+            
 if
-variables
+sandbox
 [
 '
 XPI_NAME
 '
 ]
 :
-        
-basedir
+                
+value
 +
 =
 '
@@ -125,48 +139,54 @@ stage
 /
 '
 +
-variables
+sandbox
 [
 '
 XPI_NAME
 '
 ]
-    
+            
 else
 :
-        
-basedir
+                
+value
 +
 =
 '
 bin
 '
-    
+            
 if
-variables
+sandbox
 [
 '
 DIST_SUBDIR
 '
 ]
 :
-        
-basedir
+                
+value
 +
 =
 '
 /
 '
 +
-variables
+sandbox
 [
 '
 DIST_SUBDIR
 '
 ]
-    
+        
 return
-basedir
+unicode
+.
+__new__
+(
+cls
+value
+)
 VARIABLES
 =
 {
@@ -178,8 +198,6 @@ ANDROID_GENERATED_RESFILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -252,8 +270,6 @@ ANDROID_RESFILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -302,8 +318,6 @@ SOURCES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -355,8 +369,6 @@ GENERATED_SOURCES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -410,7 +422,6 @@ FILES_PER_UNIFIED_FILE
 (
 int
 int
-None
         
 "
 "
@@ -444,8 +455,6 @@ UNIFIED_SOURCES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -518,8 +527,6 @@ GENERATED_UNIFIED_SOURCES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -596,8 +603,6 @@ GENERATED_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -655,9 +660,6 @@ DEFINES
 (
 OrderedDict
 dict
-OrderedDict
-(
-)
         
 "
 "
@@ -871,8 +873,6 @@ DIRS
 (
 list
 list
-[
-]
         
 "
 "
@@ -995,7 +995,6 @@ EXPORT_LIBRARY
 (
 bool
 bool
-False
         
 "
 "
@@ -1023,8 +1022,6 @@ EXTRA_COMPONENTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1070,8 +1067,6 @@ EXTRA_JS_MODULES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1127,8 +1122,6 @@ EXTRA_PP_JS_MODULES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1186,8 +1179,6 @@ EXTRA_PP_COMPONENTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1238,8 +1229,6 @@ FINAL_LIBRARY
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -1300,8 +1289,6 @@ CPP_UNIT_TESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1359,7 +1346,6 @@ FAIL_ON_WARNINGS
 (
 bool
 bool
-False
         
 "
 "
@@ -1385,7 +1371,6 @@ FORCE_SHARED_LIB
 (
 bool
 bool
-False
         
 "
 "
@@ -1415,7 +1400,6 @@ FORCE_STATIC_LIB
 (
 bool
 bool
-False
         
 "
 "
@@ -1445,8 +1429,6 @@ GENERATED_INCLUDES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1482,8 +1464,6 @@ HOST_SOURCES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1533,7 +1513,6 @@ IS_COMPONENT
 (
 bool
 bool
-False
         
 "
 "
@@ -1562,8 +1541,6 @@ PARALLEL_DIRS
 (
 list
 list
-[
-]
         
 "
 "
@@ -1635,8 +1612,6 @@ HOST_LIBRARY_NAME
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -1666,8 +1641,6 @@ JAVA_JAR_TARGETS
 (
 dict
 dict
-{
-}
         
 "
 "
@@ -1716,8 +1689,6 @@ JS_MODULES_PATH
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -1785,8 +1756,6 @@ LIBRARY_NAME
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -1858,8 +1827,6 @@ LIBS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1895,7 +1862,6 @@ LIBXUL_LIBRARY
 (
 bool
 bool
-False
         
 "
 "
@@ -1931,8 +1897,6 @@ LOCAL_INCLUDES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -1963,7 +1927,6 @@ MSVC_ENABLE_PGO
 (
 bool
 bool
-False
         
 "
 "
@@ -1993,7 +1956,6 @@ NO_VISIBILITY_FLAGS
 (
 bool
 bool
-False
         
 "
 "
@@ -2021,8 +1983,6 @@ OS_LIBS
 (
 list
 list
-[
-]
         
 "
 "
@@ -2058,8 +2018,6 @@ SDK_LIBRARY
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -2103,8 +2061,6 @@ SIMPLE_PROGRAMS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -2188,8 +2144,6 @@ HOST_SIMPLE_PROGRAMS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -2275,8 +2229,6 @@ TOOL_DIRS
 (
 list
 list
-[
-]
         
 "
 "
@@ -2336,8 +2288,6 @@ TEST_DIRS
 (
 list
 list
-[
-]
         
 "
 "
@@ -2397,8 +2347,6 @@ TEST_TOOL_DIRS
 (
 list
 list
-[
-]
         
 "
 "
@@ -2427,9 +2375,6 @@ TIERS
 (
 OrderedDict
 dict
-OrderedDict
-(
-)
         
 "
 "
@@ -2597,8 +2542,6 @@ EXTERNAL_MAKE_DIRS
 (
 list
 list
-[
-]
         
 "
 "
@@ -2664,8 +2607,6 @@ PARALLEL_EXTERNAL_MAKE_DIRS
 (
 list
 list
-[
-]
         
 "
 "
@@ -2689,8 +2630,6 @@ CONFIGURE_SUBST_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -2786,8 +2725,6 @@ CONFIGURE_DEFINE_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -2849,9 +2786,6 @@ EXPORTS
 (
 HierarchicalStringList
 list
-HierarchicalStringList
-(
-)
         
 "
 "
@@ -3006,8 +2940,6 @@ PROGRAM
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -3062,8 +2994,6 @@ HOST_PROGRAM
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -3119,7 +3049,6 @@ NO_DIST_INSTALL
 (
 bool
 bool
-False
         
 "
 "
@@ -3169,8 +3098,6 @@ XPIDL_SOURCES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3229,8 +3156,6 @@ XPIDL_MODULE
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -3286,8 +3211,6 @@ IPDL_SOURCES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3330,8 +3253,6 @@ WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3371,8 +3292,6 @@ GENERATED_EVENTS_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3415,8 +3334,6 @@ TEST_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
          
 "
 "
@@ -3462,8 +3379,6 @@ GENERATED_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
          
 "
 "
@@ -3499,8 +3414,6 @@ PREPROCESSED_TEST_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
          
 "
 "
@@ -3549,8 +3462,6 @@ PREPROCESSED_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-[
-]
          
 "
 "
@@ -3587,8 +3498,6 @@ A11Y_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3615,8 +3524,6 @@ BROWSER_CHROME_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3644,8 +3551,6 @@ METRO_CHROME_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3674,8 +3579,6 @@ MOCHITEST_CHROME_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3703,8 +3606,6 @@ MOCHITEST_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3731,8 +3632,6 @@ MOCHITEST_WEBAPPRT_CHROME_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3761,8 +3660,6 @@ WEBRTC_SIGNALLING_TEST_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3790,8 +3687,6 @@ XPCSHELL_TESTS_MANIFESTS
 (
 StrictOrderingOnAppendList
 list
-[
-]
         
 "
 "
@@ -3818,8 +3713,6 @@ XPI_NAME
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -3878,8 +3771,6 @@ DIST_SUBDIR
 (
 unicode
 unicode
-"
-"
         
 "
 "
@@ -3941,9 +3832,8 @@ FINAL_TARGET
 '
 :
 (
+FinalTargetValue
 unicode
-unicode
-compute_final_target
         
 "
 "
