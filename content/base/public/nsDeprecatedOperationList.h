@@ -122,3 +122,7 @@ DEPRECATED_OPERATION
 (
 DataContainerEvent
 )
+DEPRECATED_OPERATION
+(
+SendAsBinary
+)
