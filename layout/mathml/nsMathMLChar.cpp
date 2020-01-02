@@ -149,6 +149,15 @@ mozilla
 static
 const
 float
+kMaxScaleFactor
+=
+20
+.
+0
+;
+static
+const
+float
 kLargeOpFactor
 =
 float
@@ -6922,6 +6931,12 @@ isVertical
 float
 scale
 =
+std
+:
+:
+min
+(
+kMaxScaleFactor
 float
 (
 aContainerSize
@@ -6941,6 +6956,7 @@ ascent
 aDesiredStretchSize
 .
 descent
+)
 )
 ;
 if
@@ -6989,6 +7005,12 @@ else
 float
 scale
 =
+std
+:
+:
+min
+(
+kMaxScaleFactor
 float
 (
 aContainerSize
@@ -7008,6 +7030,7 @@ rightBearing
 aDesiredStretchSize
 .
 leftBearing
+)
 )
 ;
 if
