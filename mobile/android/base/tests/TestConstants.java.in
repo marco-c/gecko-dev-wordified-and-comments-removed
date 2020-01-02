@@ -98,6 +98,8 @@ org
 mozilla
 .
 gecko
+.
+tests
 ;
 public
 class
