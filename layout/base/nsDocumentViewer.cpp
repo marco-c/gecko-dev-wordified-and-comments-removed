@@ -1965,11 +1965,6 @@ nsDocShell
 (
 aContainer
 )
--
->
-asWeakPtr
-(
-)
 ;
 if
 (
@@ -5610,11 +5605,6 @@ nsDocShell
 >
 (
 aShell
-)
--
->
-asWeakPtr
-(
 )
 ;
 presShell

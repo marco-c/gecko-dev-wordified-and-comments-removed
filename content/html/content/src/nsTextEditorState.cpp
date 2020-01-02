@@ -3872,11 +3872,8 @@ aCurrentValue
 :
 mState
 (
+&
 aState
-.
-asWeakPtr
-(
-)
 )
 mOwnerContent
 (

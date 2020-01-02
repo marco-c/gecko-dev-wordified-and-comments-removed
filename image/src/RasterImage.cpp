@@ -814,11 +814,6 @@ height
 weakImage
 =
 aImage
--
->
-asWeakPtr
-(
-)
 ;
 srcRect
 =
@@ -3933,11 +3928,6 @@ CanForciblyDiscardAndRedecode
 mImageContainerCache
 =
 mImageContainer
--
->
-asWeakPtr
-(
-)
 ;
 mImageContainer
 =

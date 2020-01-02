@@ -1869,11 +1869,8 @@ aContainer
 {
 mContainer
 =
+&
 aContainer
-.
-asWeakPtr
-(
-)
 ;
 }
 NS_IMETHOD

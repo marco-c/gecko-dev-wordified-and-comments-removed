@@ -8004,11 +8004,6 @@ twice
 mOwner
 =
 aOwner
--
->
-asWeakPtr
-(
-)
 ;
 }
 bool
