@@ -445,6 +445,15 @@ onSuccess
 data
 )
 {
+if
+(
+data
+.
+length
+>
+0
+)
+{
 this
 .
 notifications
@@ -456,6 +465,7 @@ parse
 data
 )
 ;
+}
 if
 (
 this

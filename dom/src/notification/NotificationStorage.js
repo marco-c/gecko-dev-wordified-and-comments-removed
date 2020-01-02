@@ -835,11 +835,16 @@ e
 ;
 }
 case
-kMessageNotificationSaveOk
+kMessageNotificationSaveKo
 :
 case
-kMessageNotificationDeleteOk
+kMessageNotificationDeleteKo
 :
+if
+(
+DEBUG
+)
+{
 debug
 (
 "
@@ -867,6 +872,7 @@ data
 errorMsg
 )
 ;
+}
 break
 ;
 default
