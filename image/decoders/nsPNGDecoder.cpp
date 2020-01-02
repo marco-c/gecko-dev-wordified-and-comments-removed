@@ -3456,6 +3456,9 @@ r
 }
 }
 }
+#
+ifdef
+PNG_APNG_SUPPORTED
 void
 nsPNGDecoder
 :
@@ -3468,9 +3471,6 @@ png_uint_32
 frame_num
 )
 {
-#
-ifdef
-PNG_APNG_SUPPORTED
 png_uint_32
 x_offset
 y_offset
@@ -3585,9 +3585,9 @@ png_ptr
 )
 ;
 }
+}
 #
 endif
-}
 void
 nsPNGDecoder
 :
