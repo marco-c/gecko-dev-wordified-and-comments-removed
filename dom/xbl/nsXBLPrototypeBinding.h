@@ -425,15 +425,6 @@ Handle
 JSObject
 *
 >
-aGlobal
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
 aScriptObject
 JS
 :

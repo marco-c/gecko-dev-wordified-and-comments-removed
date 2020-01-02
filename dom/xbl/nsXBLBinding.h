@@ -488,15 +488,6 @@ Handle
 JSObject
 *
 >
-global
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
 obj
 const
 nsAFlatCString
