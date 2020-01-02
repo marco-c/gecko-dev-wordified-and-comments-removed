@@ -1935,9 +1935,6 @@ constructor
 "
 toString
 "
-"
-toJSON
-"
 ]
 and
             
