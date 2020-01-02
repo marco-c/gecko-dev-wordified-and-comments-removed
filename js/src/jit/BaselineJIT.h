@@ -1272,6 +1272,14 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_CODEGEN_NONE
+return
+false
+;
+#
+else
 return
 cx
 -
@@ -1289,6 +1297,8 @@ baseline
 (
 )
 ;
+#
+endif
 }
 MethodStatus
 CanEnterBaselineMethod
