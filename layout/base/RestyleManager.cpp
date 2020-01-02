@@ -13277,6 +13277,12 @@ ContentRemoved
 (
 presShell
 content
+-
+>
+GetParent
+(
+)
+content
 )
 ;
 uint32_t
