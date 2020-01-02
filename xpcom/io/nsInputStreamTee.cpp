@@ -1528,3 +1528,6 @@ nullptr
 )
 ;
 }
+#
+undef
+LOG
