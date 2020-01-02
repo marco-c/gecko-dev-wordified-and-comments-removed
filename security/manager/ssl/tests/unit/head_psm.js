@@ -2053,6 +2053,11 @@ run
 (
 false
 [
+"
+sql
+:
+"
++
 certDir
 .
 path
@@ -2161,6 +2166,11 @@ argArray
 .
 push
 (
+"
+sql
+:
+"
++
 nssDBlocation
 )
 ;
