@@ -419,6 +419,11 @@ ClearOnShutdown
 h
 '
 '
+CountingAllocatorBase
+.
+h
+'
+'
 CycleCollectedJSRuntime
 .
 h

@@ -30,6 +30,15 @@ include
 "
 mozilla
 /
+CountingAllocatorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
