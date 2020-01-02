@@ -10103,16 +10103,6 @@ selectpopup
 "
 ContentSelectDropdown
 "
-onclick
-=
-"
-contentAreaClick
-(
-event
-false
-)
-;
-"
 /
 >
 <
