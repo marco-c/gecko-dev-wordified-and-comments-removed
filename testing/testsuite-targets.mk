@@ -4679,6 +4679,12 @@ PKG_STAGE
 /
 cppunittests
 endif
+ifeq
+(
+(
+MOZ_DISABLE_STARTUPCACHE
+)
+)
 (
 NSINSTALL
 )
@@ -4717,6 +4723,7 @@ PKG_STAGE
 )
 /
 cppunittests
+endif
 ifdef
 STRIP_CPP_TESTS
 (
