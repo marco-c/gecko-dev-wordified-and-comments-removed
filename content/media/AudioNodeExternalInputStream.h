@@ -18,6 +18,15 @@ AudioNodeStream
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Atomics
+.
+h
+"
 typedef
 struct
 SpeexResamplerState_
@@ -147,6 +156,11 @@ Track
 aTrack
 GraphTime
 aFrom
+)
+;
+bool
+IsEnabled
+(
 )
 ;
 }
