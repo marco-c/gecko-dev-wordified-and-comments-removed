@@ -88,6 +88,17 @@ HomePager
 OnUrlOpenListener
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+StringUtils
+;
+import
 android
 .
 content
@@ -439,7 +450,7 @@ view
 String
 url
 =
-HomeFragment
+StringUtils
 .
 decodeUserEnteredUrl
 (
