@@ -35087,9 +35087,6 @@ ObjectPolicy
 0
 >
 {
-bool
-hasValue_
-;
 MPostWriteBarrier
 (
 MDefinition
@@ -35104,10 +35101,6 @@ MBinaryInstruction
 (
 obj
 value
-)
-hasValue_
-(
-true
 )
 {
 setGuard
@@ -35171,16 +35164,6 @@ getOperand
 (
 0
 )
-;
-}
-bool
-hasValue
-(
-)
-const
-{
-return
-hasValue_
 ;
 }
 MDefinition

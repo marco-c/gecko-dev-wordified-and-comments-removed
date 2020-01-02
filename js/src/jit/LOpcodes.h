@@ -868,11 +868,6 @@ PostWriteBarrierV
 \
 _
 (
-PostWriteBarrierAllSlots
-)
-\
-_
-(
 InitializedLength
 )
 \
