@@ -812,6 +812,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 }
