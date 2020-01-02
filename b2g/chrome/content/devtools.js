@@ -720,7 +720,7 @@ display
 ;
 this
 .
-_target
+_targets
 .
 delete
 (
