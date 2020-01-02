@@ -666,7 +666,7 @@ nsHTMLEditor
 aHTMLEd
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 *
 aSplitNode
