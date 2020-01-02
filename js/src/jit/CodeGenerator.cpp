@@ -2614,12 +2614,6 @@ splitTagForTest
 value
 )
 ;
-Assembler
-:
-:
-Condition
-cond
-;
 masm
 .
 branchTestUndefined
