@@ -7621,13 +7621,6 @@ conditions
 [
 [
 '
-OS
-=
-=
-"
-win
-"
-and
 "
 <
 !
