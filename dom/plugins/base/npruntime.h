@@ -328,7 +328,7 @@ value
 .
 objectValue
 =
-nullptr
+NULL
 ;
 \
 NP_END_MACRO
@@ -358,7 +358,7 @@ value
 .
 objectValue
 =
-nullptr
+NULL
 ;
 \
 NP_END_MACRO
