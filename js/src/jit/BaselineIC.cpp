@@ -55789,6 +55789,7 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
+const
 BaseProxyHandler
 *
 proxyHandler
@@ -56139,6 +56140,7 @@ ICStub
 firstMonitorStub
 HandleShape
 shape
+const
 BaseProxyHandler
 *
 proxyHandler
