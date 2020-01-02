@@ -188,14 +188,6 @@ aMap
 )
 MOZ_OVERRIDE
 ;
-nsIContent
-*
-GetContent
-(
-)
-const
-MOZ_OVERRIDE
-;
 Element
 *
 GetElement
@@ -394,7 +386,7 @@ GetNameSpaceElement
 )
 {
 return
-GetContentInternal
+GetElement
 (
 )
 ;
@@ -415,13 +407,6 @@ nsIContent
 *
 aContent
 )
-;
-Element
-*
-GetContentInternal
-(
-)
-const
 ;
 nsString
 mValue
