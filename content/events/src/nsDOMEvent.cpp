@@ -2912,13 +2912,11 @@ InternalFormEvent
 *
 oldFormEvent
 =
-static_cast
-<
-InternalFormEvent
-*
->
-(
 mEvent
+-
+>
+AsFormEvent
+(
 )
 ;
 InternalFormEvent
