@@ -488,8 +488,10 @@ SheetLoadData
 *
 mNext
 ;
+nsRefPtr
+<
 SheetLoadData
-*
+>
 mParentData
 ;
 uint32_t
@@ -911,10 +913,6 @@ mNext
 (
 nullptr
 )
-mParentData
-(
-nullptr
-)
 mPendingChildren
 (
 0
@@ -1100,11 +1098,6 @@ if
 mParentData
 )
 {
-NS_ADDREF
-(
-mParentData
-)
-;
 mSyncLoad
 =
 mParentData
@@ -1216,10 +1209,6 @@ mNext
 (
 nullptr
 )
-mParentData
-(
-nullptr
-)
 mPendingChildren
 (
 0
@@ -1318,11 +1307,6 @@ SheetLoadData
 (
 )
 {
-NS_IF_RELEASE
-(
-mParentData
-)
-;
 NS_IF_RELEASE
 (
 mNext
