@@ -1688,7 +1688,7 @@ GetYStride
 (
 )
 size
-D3DFMT_L8
+D3DFMT_A8
 1
 )
 ;
@@ -1711,7 +1711,7 @@ GetCbCrStride
 (
 )
 gfxCbCrSize
-D3DFMT_L8
+D3DFMT_A8
 1
 )
 ;
@@ -1734,7 +1734,7 @@ GetCbCrStride
 (
 )
 gfxCbCrSize
-D3DFMT_L8
+D3DFMT_A8
 1
 )
 ;

@@ -1355,7 +1355,7 @@ aVertex
 vTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1373,7 +1373,7 @@ aVertex
 vTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1391,7 +1391,7 @@ aVertex
 vTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1814,7 +1814,7 @@ aVertex
 vTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1832,7 +1832,7 @@ aVertex
 vTexCoords
 )
 .
-r
+a
 -
 0
 .
@@ -1850,7 +1850,7 @@ aVertex
 vTexCoords
 )
 .
-r
+a
 -
 0
 .

@@ -812,7 +812,7 @@ mYSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_DEFAULT
 getter_AddRefs
 (
@@ -854,7 +854,7 @@ mCbCrSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_DEFAULT
 getter_AddRefs
 (
@@ -897,7 +897,7 @@ mCbCrSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_DEFAULT
 getter_AddRefs
 (
@@ -940,7 +940,7 @@ mYSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_SYSTEMMEM
 getter_AddRefs
 (
@@ -980,7 +980,7 @@ mCbCrSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_SYSTEMMEM
 getter_AddRefs
 (
@@ -1020,7 +1020,7 @@ mCbCrSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_SYSTEMMEM
 getter_AddRefs
 (
@@ -1164,7 +1164,7 @@ mYSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_MANAGED
 getter_AddRefs
 (
@@ -1204,7 +1204,7 @@ mCbCrSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_MANAGED
 getter_AddRefs
 (
@@ -1245,7 +1245,7 @@ mCbCrSize
 height
 1
 0
-D3DFMT_L8
+D3DFMT_A8
 D3DPOOL_MANAGED
 getter_AddRefs
 (
