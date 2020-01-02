@@ -740,6 +740,15 @@ return
 tmp
 ;
 }
+LRecoverInfo
+*
+buildRecover
+(
+MResumePoint
+*
+rp
+)
+;
 LSnapshot
 *
 buildSnapshot
