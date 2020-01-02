@@ -67,7 +67,6 @@ interface
 nsIDOMWindow
 ;
 [
-scriptable
 uuid
 (
 194b55d9
@@ -309,7 +308,6 @@ channel
 *
 /
 [
-scriptable
 uuid
 (
 2b0222a5
