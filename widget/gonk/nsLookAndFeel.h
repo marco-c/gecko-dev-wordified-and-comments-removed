@@ -57,6 +57,17 @@ aResult
 )
 ;
 virtual
+nsresult
+GetFloatImpl
+(
+FloatID
+aID
+float
+&
+aResult
+)
+;
+virtual
 bool
 GetEchoPasswordImpl
 (
