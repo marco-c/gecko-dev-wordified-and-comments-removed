@@ -9945,6 +9945,9 @@ size_t
 size
 )
 {
+size_t
+trailsize
+;
 void
 *
 ret
@@ -9972,7 +9975,6 @@ leadsize
 size
 )
 ;
-size_t
 trailsize
 =
 alloc_size

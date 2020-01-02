@@ -325,6 +325,15 @@ va_list
 ap
 )
 {
+char
+*
+ptr
+*
+_ptr
+;
+int
+ret
+;
 if
 (
 str
@@ -344,8 +353,6 @@ return
 1
 ;
 }
-char
-*
 ptr
 =
 (
@@ -375,7 +382,6 @@ return
 1
 ;
 }
-int
 ret
 =
 vsnprintf
@@ -408,8 +414,6 @@ return
 1
 ;
 }
-char
-*
 _ptr
 =
 realloc_impl
@@ -469,6 +473,9 @@ fmt
 .
 )
 {
+int
+ret
+;
 va_list
 ap
 ;
@@ -478,7 +485,6 @@ ap
 fmt
 )
 ;
-int
 ret
 =
 vasprintf_impl
