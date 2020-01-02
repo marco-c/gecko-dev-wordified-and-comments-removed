@@ -138,6 +138,14 @@ GeckoMenuItem
 item
 )
 ;
+public
+void
+setShowIcon
+(
+boolean
+show
+)
+;
 }
 public
 static

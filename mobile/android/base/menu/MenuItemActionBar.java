@@ -291,4 +291,14 @@ enabled
 )
 ;
 }
+Override
+public
+void
+setShowIcon
+(
+boolean
+show
+)
+{
+}
 }
