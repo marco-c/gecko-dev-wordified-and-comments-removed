@@ -1,14 +1,14 @@
 #
 include
 "
-nsUCConstructors
+nsISO88599ToUnicode
 .
 h
 "
 #
 include
 "
-nsISO88599ToUnicode
+nsCP1254ToUnicode
 .
 h
 "

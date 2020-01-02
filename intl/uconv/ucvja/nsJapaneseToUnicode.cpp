@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIServiceManager
+nsServiceManagerUtils
 .
 h
 "

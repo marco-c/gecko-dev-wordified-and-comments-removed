@@ -1,13 +1,6 @@
 #
 include
 "
-nsUCConstructors
-.
-h
-"
-#
-include
-"
 nsUTF16ToUnicode
 .
 h
@@ -19,13 +12,6 @@ nsCharTraits
 .
 h
 "
-#
-include
-<
-string
-.
-h
->
 enum
 {
 STATE_NORMAL

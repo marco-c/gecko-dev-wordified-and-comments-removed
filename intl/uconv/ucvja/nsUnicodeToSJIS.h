@@ -7,10 +7,13 @@ nsUnicodeToSJIS_h___
 #
 include
 "
-nsISupports
+nsID
 .
 h
 "
+class
+nsISupports
+;
 nsresult
 nsUnicodeToSJISConstructor
 (

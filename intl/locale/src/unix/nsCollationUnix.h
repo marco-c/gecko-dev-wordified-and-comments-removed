@@ -34,6 +34,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsCollationUnix
 MOZ_FINAL

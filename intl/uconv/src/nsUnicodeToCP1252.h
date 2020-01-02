@@ -7,10 +7,13 @@ nsUnicodeToCP1252_h___
 #
 include
 "
-nsISupports
+nsID
 .
 h
 "
+class
+nsISupports
+;
 #
 define
 NS_UNICODETOCP1252_CID

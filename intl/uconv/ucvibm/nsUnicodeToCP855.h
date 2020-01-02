@@ -7,10 +7,13 @@ nsUnicodeToCP855_h___
 #
 include
 "
-nsISupports
+nsID
 .
 h
 "
+class
+nsISupports
+;
 nsresult
 nsUnicodeToCP855Constructor
 (

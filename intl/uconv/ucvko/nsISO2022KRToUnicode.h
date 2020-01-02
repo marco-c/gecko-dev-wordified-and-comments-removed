@@ -7,13 +7,6 @@ nsISO2022KRToUnicode_h__
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 nsUCSupport
 .
 h

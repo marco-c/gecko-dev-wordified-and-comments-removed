@@ -7,10 +7,13 @@ nsCP949ToUnicode_h___
 #
 include
 "
-nsISupports
+nsID
 .
 h
 "
+class
+nsISupports
+;
 nsresult
 nsCP949ToUnicodeConstructor
 (

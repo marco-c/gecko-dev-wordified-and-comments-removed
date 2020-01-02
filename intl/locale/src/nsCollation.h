@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -34,6 +27,9 @@ Attributes
 .
 h
 "
+class
+nsIUnicodeEncoder
+;
 class
 nsCollationFactory
 MOZ_FINAL

@@ -27,13 +27,6 @@ nsTArray
 h
 "
 #
-include
-"
-nsUnicharUtils
-.
-h
-"
-#
 define
 MAX_CLASSES
 12

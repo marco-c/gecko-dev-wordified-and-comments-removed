@@ -14,6 +14,13 @@ Attributes
 h
 "
 #
+include
+"
+nsIUnicodeEncoder
+.
+h
+"
+#
 define
 NS_UNICODETOUTF8_CID
 \

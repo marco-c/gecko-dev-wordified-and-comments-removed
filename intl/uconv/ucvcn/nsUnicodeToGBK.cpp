@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsUnicharUtils
+nsCharTraits
 .
 h
 "

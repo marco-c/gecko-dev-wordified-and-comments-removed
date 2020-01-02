@@ -7,10 +7,13 @@ nsUnicodeToISO88591_h___
 #
 include
 "
-nsISupports
+nsID
 .
 h
 "
+class
+nsISupports
+;
 #
 define
 NS_UNICODETOISO88591_CID

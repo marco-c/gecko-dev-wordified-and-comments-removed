@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsUCVJADll
 .
 h

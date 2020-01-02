@@ -12,6 +12,13 @@ nsCRT
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 nsresult
 nsUConvPropertySearch
 :

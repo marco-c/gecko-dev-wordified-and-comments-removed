@@ -7,13 +7,6 @@ __nsScriptableUConv_h_
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsIScriptableUConv
 .
 h

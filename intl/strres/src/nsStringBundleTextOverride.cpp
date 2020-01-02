@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsEscape
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

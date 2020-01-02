@@ -1,13 +1,6 @@
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsUCSupport
 .
 h
@@ -25,6 +18,13 @@ include
 mozilla
 /
 SSE
+.
+h
+"
+#
+include
+"
+nsCharTraits
 .
 h
 "

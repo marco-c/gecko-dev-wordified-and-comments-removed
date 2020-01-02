@@ -7,7 +7,7 @@ nsUnicodeEncodeHelper_h__
 #
 include
 "
-nsIUnicodeEncoder
+nsError
 .
 h
 "

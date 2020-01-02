@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIUnicodeDecoder
-.
-h
-"
-#
-include
-"
 nsUnicodeDecodeHelper
 .
 h

@@ -7,10 +7,13 @@ nsUnicodeToJISx0201_h___
 #
 include
 "
-nsISupports
+nsID
 .
 h
 "
+class
+nsISupports
+;
 nsresult
 nsUnicodeToJISx0201Constructor
 (
