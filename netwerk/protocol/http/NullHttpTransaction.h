@@ -90,6 +90,9 @@ mStatus
 uint32_t
 mCaps
 ;
+uint32_t
+mCapsToClear
+;
 nsRefPtr
 <
 nsAHttpConnection

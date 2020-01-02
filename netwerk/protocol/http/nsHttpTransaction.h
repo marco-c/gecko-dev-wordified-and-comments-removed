@@ -744,6 +744,9 @@ mRestartCount
 uint32_t
 mCaps
 ;
+uint32_t
+mCapsToClear
+;
 enum
 Classifier
 mClassification

@@ -12456,6 +12456,15 @@ return
 0
 ;
 }
+void
+SpdySession3
+:
+:
+SetDNSWasRefreshed
+(
+)
+{
+}
 uint64_t
 SpdySession3
 :

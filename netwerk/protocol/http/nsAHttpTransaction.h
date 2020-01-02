@@ -126,6 +126,14 @@ Caps
 0
 ;
 virtual
+void
+SetDNSWasRefreshed
+(
+)
+=
+0
+;
+virtual
 uint64_t
 Available
 (
@@ -354,6 +362,12 @@ Status
 \
 uint32_t
 Caps
+(
+)
+;
+\
+void
+SetDNSWasRefreshed
 (
 )
 ;
