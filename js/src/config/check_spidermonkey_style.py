@@ -324,6 +324,14 @@ h
 '
     
 '
+machine
+/
+endian
+.
+h
+'
+    
+'
 winbase
 .
 h
