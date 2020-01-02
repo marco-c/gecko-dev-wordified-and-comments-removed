@@ -456,7 +456,10 @@ const
 ExceptionHandling
 mExceptionHandling
 ;
-uint32_t
+JS
+:
+:
+ContextOptions
 mSavedJSContextOptions
 ;
 const
