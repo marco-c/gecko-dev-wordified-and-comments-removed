@@ -2395,6 +2395,14 @@ CleanupMetroBrowserHandlerValues
 {
 DELEGATE_EXECUTE_HANDLER_ID
 }
+\
+"
+FirefoxURL
+"
+\
+"
+FirefoxHTML
+"
 {
 AddMetroBrowserHandlerValues
 }
