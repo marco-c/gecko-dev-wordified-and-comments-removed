@@ -2756,7 +2756,7 @@ verifyHomePagerHidden
 {
 final
 View
-homePagerView
+homePagerContainer
 =
 mSolo
 .
@@ -2766,7 +2766,7 @@ R
 .
 id
 .
-home_pager
+home_pager_container
 )
 ;
 boolean
@@ -2787,7 +2787,7 @@ isSatisfied
 )
 {
 return
-homePagerView
+homePagerContainer
 .
 getVisibility
 (
