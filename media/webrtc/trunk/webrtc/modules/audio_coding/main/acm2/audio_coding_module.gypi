@@ -286,6 +286,16 @@ acm_dtmf_playout
 h
 '
 '
+acm_g722
+.
+cc
+'
+'
+acm_g722
+.
+h
+'
+'
 acm_g729
 .
 cc

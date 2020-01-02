@@ -2149,6 +2149,11 @@ codecMask
 =
 VCM_CODEC_RESOURCE_OPUS
 ;
+codecMask
+|
+=
+VCM_CODEC_RESOURCE_G722
+;
 mCCM
 -
 >

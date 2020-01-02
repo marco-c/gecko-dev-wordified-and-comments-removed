@@ -397,7 +397,7 @@ include_opus
 include_g722
 '
 :
-0
+1
 '
 include_ilbc
 '
