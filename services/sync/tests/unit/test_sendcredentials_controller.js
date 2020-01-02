@@ -102,6 +102,10 @@ run_test
 (
 )
 {
+ensureLegacyIdentityManager
+(
+)
+;
 setBasicCredentials
 (
 "

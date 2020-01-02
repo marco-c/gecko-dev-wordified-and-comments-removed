@@ -503,6 +503,10 @@ wiped
 "
 )
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 Service
 .
 identity

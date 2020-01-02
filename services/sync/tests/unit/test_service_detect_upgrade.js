@@ -482,6 +482,10 @@ handler
 }
 )
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 try
 {
 _

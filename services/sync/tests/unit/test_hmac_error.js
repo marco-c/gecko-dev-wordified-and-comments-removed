@@ -154,6 +154,10 @@ hmacErrorCount
 =
 0
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 setBasicCredentials
 (
 "
