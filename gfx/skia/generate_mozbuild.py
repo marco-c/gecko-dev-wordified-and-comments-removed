@@ -554,12 +554,19 @@ gonk
 or
 \
    
+(
 CONFIG
 [
 '
-MOZ_WIDGET_QT
+MOZ_WIDGET_TOOLKIT
 '
 ]
+=
+=
+'
+qt
+'
+)
 or
 \
    
@@ -2361,9 +2368,14 @@ if
 CONFIG
 [
 '
-MOZ_WIDGET_QT
+MOZ_WIDGET_TOOLKIT
 '
 ]
+=
+=
+'
+qt
+'
 :
 \
 n
