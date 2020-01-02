@@ -960,7 +960,7 @@ eOutsideUserSelectAll
 ;
 already_AddRefed
 <
-nsIDOMNode
+nsINode
 >
 GetWSBoundingParent
 (
@@ -991,7 +991,7 @@ aType
 nsresult
 PrependNodeToList
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
@@ -999,7 +999,7 @@ aNode
 nsresult
 AppendNodeToList
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
