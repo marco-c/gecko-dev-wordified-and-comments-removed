@@ -1659,6 +1659,8 @@ int32_t
 a1
 bool
 a2
+bool
+a3
 )
 ;
 ThumbnailHelper

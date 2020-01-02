@@ -135,6 +135,14 @@ THUMBNAIL_ASPECT_RATIO
 .
 571f
 ;
+public
+static
+enum
+CachePolicy
+{
+STORE
+NO_STORE
+}
 private
 static
 ThumbnailHelper
@@ -293,6 +301,9 @@ tab
 updateThumbnail
 (
 null
+CachePolicy
+.
+NO_STORE
 )
 ;
 return
@@ -363,6 +374,9 @@ setTabThumbnail
 tab
 null
 thumbnail
+CachePolicy
+.
+STORE
 )
 ;
 }
@@ -742,6 +756,8 @@ int
 tabId
 boolean
 success
+boolean
+shouldStore
 )
 {
 Tab
@@ -784,6 +800,15 @@ handleThumbnailData
 (
 tab
 data
+shouldStore
+?
+CachePolicy
+.
+STORE
+:
+CachePolicy
+.
+NO_STORE
 )
 ;
 }
@@ -891,6 +916,8 @@ Tab
 tab
 ByteBuffer
 data
+CachePolicy
+cachePolicy
 )
 {
 Log
@@ -947,6 +974,7 @@ processThumbnailData
 (
 tab
 data
+cachePolicy
 )
 ;
 }
@@ -959,6 +987,8 @@ Tab
 tab
 ByteBuffer
 data
+CachePolicy
+cachePolicy
 )
 {
 Bitmap
@@ -991,6 +1021,7 @@ setTabThumbnail
 tab
 b
 null
+cachePolicy
 )
 ;
 }
@@ -1006,6 +1037,8 @@ byte
 [
 ]
 compressed
+CachePolicy
+cachePolicy
 )
 {
 if
@@ -1064,6 +1097,7 @@ tab
 updateThumbnail
 (
 bitmap
+cachePolicy
 )
 ;
 }
