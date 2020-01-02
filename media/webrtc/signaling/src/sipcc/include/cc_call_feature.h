@@ -104,9 +104,9 @@ CC_CallFeature_CreateOffer
 (
 cc_call_handle_t
 call_handle
-cc_media_constraints_t
+cc_media_options_t
 *
-constraints
+options
 Timecard
 *
 tc
@@ -117,9 +117,6 @@ CC_CallFeature_CreateAnswer
 (
 cc_call_handle_t
 call_handle
-cc_media_constraints_t
-*
-constraints
 Timecard
 *
 tc
@@ -177,9 +174,6 @@ cc_media_track_id_t
 id
 cc_media_type_t
 media_type
-cc_media_constraints_t
-*
-constraints
 )
 ;
 cc_return_t

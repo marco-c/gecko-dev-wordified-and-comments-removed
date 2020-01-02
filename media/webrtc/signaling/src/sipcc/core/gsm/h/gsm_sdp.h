@@ -678,14 +678,14 @@ level
 )
 ;
 void
-gsmsdp_process_cap_constraints
+gsmsdp_process_cap_options
 (
 fsmdef_dcb_t
 *
 dcb
-cc_media_constraints_t
+cc_media_options_t
 *
-constraints
+options
 )
 ;
 cc_causes_t

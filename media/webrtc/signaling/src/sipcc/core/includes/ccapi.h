@@ -2076,10 +2076,6 @@ track_id
 cc_media_type_t
 media_type
 ;
-cc_media_constraints_t
-*
-constraints
-;
 }
 cc_feature_data_track_t
 ;
@@ -2109,9 +2105,9 @@ typedef
 struct
 cc_feature_session_t_
 {
-cc_media_constraints_t
+cc_media_options_t
 *
-constraints
+options
 ;
 }
 cc_feature_session_t

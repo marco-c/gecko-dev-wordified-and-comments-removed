@@ -170,9 +170,9 @@ media_type
 cc_level_t
 level
 ;
-cc_media_constraints_t
+cc_media_options_t
 *
-constraints
+options
 ;
 Timecard
 *

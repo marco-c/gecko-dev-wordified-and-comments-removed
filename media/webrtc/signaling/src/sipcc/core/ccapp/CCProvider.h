@@ -376,9 +376,9 @@ unsigned
 int
 media_stream_id
 ;
-cc_media_constraints_t
+cc_media_options_t
 *
-cc_constraints
+cc_options
 ;
 string_t
 candidate

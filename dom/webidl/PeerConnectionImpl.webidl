@@ -224,8 +224,8 @@ void
 createOffer
 (
 optional
-MediaConstraintsInternal
-constraints
+RTCOfferOptions
+options
 )
 ;
 [
@@ -234,9 +234,6 @@ Throws
 void
 createAnswer
 (
-optional
-MediaConstraintsInternal
-constraints
 )
 ;
 [
@@ -319,9 +316,6 @@ addStream
 (
 MediaStream
 stream
-optional
-MediaConstraintsInternal
-constraints
 )
 ;
 [

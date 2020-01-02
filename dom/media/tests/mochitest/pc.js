@@ -3220,12 +3220,12 @@ PeerConnectionTest
 .
 prototype
 .
-setOfferConstraints
+setOfferOptions
 =
 function
-PCT_setOfferConstraints
+PCT_setOfferOptions
 (
-constraints
+options
 )
 {
 if
@@ -3238,9 +3238,9 @@ this
 .
 pcLocal
 .
-offerConstraints
+offerOptions
 =
-constraints
+options
 ;
 }
 ;
@@ -5395,7 +5395,7 @@ constraints
 ;
 this
 .
-offerConstraints
+offerOptions
 =
 {
 }
@@ -6519,7 +6519,7 @@ generateErrorCallback
 )
 this
 .
-offerConstraints
+offerOptions
 )
 ;
 }

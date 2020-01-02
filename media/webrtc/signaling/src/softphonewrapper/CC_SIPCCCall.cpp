@@ -2420,9 +2420,9 @@ CC_SIPCCCall
 :
 createOffer
 (
-cc_media_constraints_t
+cc_media_options_t
 *
-constraints
+options
 Timecard
 *
 tc
@@ -2431,7 +2431,7 @@ tc
 CCAPI_CreateOffer
 (
 callHandle
-constraints
+options
 tc
 )
 ;
@@ -2442,9 +2442,6 @@ CC_SIPCCCall
 :
 createAnswer
 (
-cc_media_constraints_t
-*
-constraints
 Timecard
 *
 tc
@@ -2453,7 +2450,6 @@ tc
 CCAPI_CreateAnswer
 (
 callHandle
-constraints
 tc
 )
 ;
@@ -2592,9 +2588,6 @@ cc_media_track_id_t
 track_id
 cc_media_type_t
 media_type
-cc_media_constraints_t
-*
-constraints
 )
 {
 CCAPI_AddStream
@@ -2603,7 +2596,6 @@ callHandle
 stream_id
 track_id
 media_type
-constraints
 )
 ;
 }
