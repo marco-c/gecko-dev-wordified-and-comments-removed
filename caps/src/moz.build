@@ -128,11 +128,6 @@ nsScriptSecurityManager
 cpp
 '
 '
-nsSecurityManagerFactory
-.
-cpp
-'
-'
 nsSystemPrincipal
 .
 cpp
