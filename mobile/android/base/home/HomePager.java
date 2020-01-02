@@ -668,6 +668,16 @@ bookmarks_title
 )
 )
 ;
+if
+(
+!
+HardwareUtils
+.
+isLowMemoryPlatform
+(
+)
+)
+{
 adapter
 .
 addTab
@@ -696,6 +706,7 @@ reading_list_title
 )
 )
 ;
+}
 adapter
 .
 addTab
