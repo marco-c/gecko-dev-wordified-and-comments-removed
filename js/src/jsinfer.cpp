@@ -19916,7 +19916,7 @@ isObject
 )
 &
 &
-hasNursery
+isJSContext
 (
 )
 &
