@@ -34,9 +34,7 @@ gecko
 .
 mozglue
 .
-generatorannotations
-.
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 ;
 import
 org
@@ -377,7 +375,7 @@ getOverScrollMode
 (
 )
 ;
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
@@ -424,7 +422,7 @@ resolution
 )
 ;
 }
-WrapElementForJNI
+GeneratableAndroidBridgeTarget
 (
 allowMultithread
 =
