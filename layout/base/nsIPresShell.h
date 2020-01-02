@@ -3042,6 +3042,11 @@ InvalidatePresShellIfHidden
 (
 )
 ;
+void
+CancelInvalidatePresShellIfHidden
+(
+)
+;
 virtual
 void
 ScheduleImageVisibilityUpdate
