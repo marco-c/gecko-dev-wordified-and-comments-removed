@@ -792,6 +792,10 @@ test_texttrackcue
 .
 html
 \
+test_texttrackregion
+.
+html
+\
 test_timeupdate_small_files
 .
 html
@@ -1467,6 +1471,10 @@ id3tags
 mp3
 \
 basic
+.
+vtt
+\
+region
 .
 vtt
 \
