@@ -822,10 +822,6 @@ TextureFlags
 aFlags
 )
 :
-mRefCount
-(
-0
-)
 mActor
 (
 nullptr
