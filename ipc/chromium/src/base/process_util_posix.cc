@@ -1302,7 +1302,7 @@ child_exited
 *
 child_exited
 =
-false
+true
 ;
 return
 false

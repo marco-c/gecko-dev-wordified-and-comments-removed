@@ -442,6 +442,11 @@ Join
 )
 ;
 void
+SetAlreadyDead
+(
+)
+;
+void
 SetSandboxEnabled
 (
 bool
