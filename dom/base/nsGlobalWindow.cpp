@@ -10528,6 +10528,13 @@ Push
 cx
 )
 ;
+JS_CHECK_RECURSION
+(
+cx
+return
+NS_ERROR_FAILURE
+)
+;
 nsCOMPtr
 <
 WindowStateHolder

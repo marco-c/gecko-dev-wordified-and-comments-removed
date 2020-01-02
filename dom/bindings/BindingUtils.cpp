@@ -8744,6 +8744,13 @@ JSObject
 aObjArg
 )
 {
+JS_CHECK_RECURSION
+(
+aCx
+return
+NS_ERROR_FAILURE
+)
+;
 JS
 :
 :

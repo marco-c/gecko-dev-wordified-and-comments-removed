@@ -4740,6 +4740,13 @@ aCOMObj
 AutoJSContext
 cx
 ;
+JS_CHECK_RECURSION
+(
+cx
+return
+NS_ERROR_FAILURE
+)
+;
 XPCNativeInterface
 *
 iface
