@@ -278,8 +278,6 @@ getStats
 MediaStreamTrack
 ?
 selector
-boolean
-internalStats
 )
 ;
 /
