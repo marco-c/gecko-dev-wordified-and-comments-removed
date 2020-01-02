@@ -2757,6 +2757,7 @@ icc
 >
 GetIccInfo
 (
+0
 getter_AddRefs
 (
 iccInfo

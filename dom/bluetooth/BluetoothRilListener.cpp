@@ -775,6 +775,7 @@ provider
 >
 RegisterIccMsg
 (
+0
 mIccListener
 )
 ;
@@ -818,6 +819,7 @@ provider
 >
 UnregisterIccMsg
 (
+0
 mIccListener
 )
 ;
