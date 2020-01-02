@@ -411,7 +411,7 @@ media
 .
 cache_size
 "
-100
+1000
 )
 ;
 user_pref
