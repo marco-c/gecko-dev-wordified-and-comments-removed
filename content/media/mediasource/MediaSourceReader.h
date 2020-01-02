@@ -278,6 +278,16 @@ double
 aTime
 )
 ;
+void
+Ended
+(
+)
+;
+bool
+IsEnded
+(
+)
+;
 private
 :
 enum
@@ -348,6 +358,9 @@ nsRefPtr
 MediaDecoderReader
 >
 mVideoReader
+;
+bool
+mEnded
 ;
 }
 ;

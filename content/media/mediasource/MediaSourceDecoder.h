@@ -166,6 +166,11 @@ aType
 )
 ;
 void
+Ended
+(
+)
+;
+void
 SetMediaSourceDuration
 (
 double
