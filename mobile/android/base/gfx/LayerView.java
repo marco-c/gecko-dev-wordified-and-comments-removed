@@ -942,7 +942,7 @@ true
 }
 public
 void
-show
+showSurface
 (
 )
 {
@@ -958,7 +958,7 @@ VISIBLE
 }
 public
 void
-hide
+hideSurface
 (
 )
 {
