@@ -35,6 +35,13 @@ MediaEngineWrapper
 h
 "
 #
+include
+"
+CodecStatistics
+.
+h
+"
+#
 undef
 FF
 #
@@ -1079,6 +1086,12 @@ nsAutoPtr
 VideoCodecConfig
 >
 mExternalRecvCodec
+;
+nsAutoPtr
+<
+VideoCodecStatistics
+>
+mVideoCodecStat
 ;
 }
 ;
