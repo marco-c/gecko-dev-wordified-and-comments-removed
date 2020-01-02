@@ -175,7 +175,7 @@ __FreeBSD__
 &
 __FreeBSD_version
 <
-1000000
+902000
 int
 sctp6_input
 __P
@@ -244,7 +244,7 @@ __FreeBSD__
 &
 __FreeBSD_version
 <
-1000000
+902000
 int
 sctp6_output
 __P
