@@ -298,6 +298,16 @@ uint64_t
 aEndTime
 )
 ;
+bool
+GetOffsetForTime
+(
+uint64_t
+aTime
+int64_t
+*
+aOffset
+)
+;
 private
 :
 ~
