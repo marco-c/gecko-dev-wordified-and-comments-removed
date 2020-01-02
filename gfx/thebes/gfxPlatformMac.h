@@ -289,11 +289,6 @@ char
 aFontList
 )
 ;
-int32_t
-OSXVersion
-(
-)
-;
 bool
 UseAcceleratedCanvas
 (
