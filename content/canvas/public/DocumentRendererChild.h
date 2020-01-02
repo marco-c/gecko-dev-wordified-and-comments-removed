@@ -67,7 +67,10 @@ nsRect
 &
 documentRect
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 transform
 const
