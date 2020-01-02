@@ -762,17 +762,6 @@ Log
 ;
 #
 endif
-profiler_tracing
-(
-"
-Paint
-"
-"
-Rasterize
-"
-TRACING_INTERVAL_START
-)
-;
 NS_ASSERTION
 (
 InConstruction
