@@ -750,7 +750,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -1832,6 +1832,18 @@ browser
 shell
 .
 checkDefaultBrowser
+"
+true
+)
+;
+pref
+(
+"
+browser
+.
+shell
+.
+shortcutFavicons
 "
 true
 )
@@ -6754,7 +6766,7 @@ warning
 infoURL
 "
 "
-http
+https
 :
 /
 /
@@ -6762,7 +6774,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -7619,7 +7631,7 @@ support
 baseURL
 "
 "
-http
+https
 :
 /
 /
