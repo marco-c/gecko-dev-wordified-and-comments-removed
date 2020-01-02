@@ -90,7 +90,6 @@ void
 handle
 )
 ;
-inline
 void
 mozilla_sampler_add_marker
 (
