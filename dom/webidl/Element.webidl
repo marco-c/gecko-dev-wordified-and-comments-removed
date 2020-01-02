@@ -309,6 +309,9 @@ DOMString
 name
 )
 ;
+[
+Pure
+]
 DOMString
 ?
 getAttributeNS
@@ -370,6 +373,9 @@ DOMString
 localName
 )
 ;
+[
+Pure
+]
 boolean
 hasAttribute
 (
@@ -377,6 +383,9 @@ DOMString
 name
 )
 ;
+[
+Pure
+]
 boolean
 hasAttributeNS
 (
@@ -387,6 +396,9 @@ DOMString
 localName
 )
 ;
+[
+Pure
+]
 HTMLCollection
 getElementsByTagName
 (
@@ -407,6 +419,9 @@ DOMString
 localName
 )
 ;
+[
+Pure
+]
 HTMLCollection
 getElementsByClassName
 (
@@ -550,6 +565,9 @@ fontSizeInflation
 Mozilla
 specific
 stuff
+[
+Pure
+]
 attribute
 EventHandler
 onwheel

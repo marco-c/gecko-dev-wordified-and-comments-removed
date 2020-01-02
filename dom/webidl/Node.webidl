@@ -311,6 +311,9 @@ Element
 ?
 parentElement
 ;
+[
+Pure
+]
 boolean
 hasChildNodes
 (
@@ -446,6 +449,9 @@ boolean
 deep
 )
 ;
+[
+Pure
+]
 boolean
 isEqualNode
 (
@@ -499,6 +505,9 @@ DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC
 /
 /
 historical
+[
+Pure
+]
 unsigned
 short
 compareDocumentPosition
@@ -507,6 +516,9 @@ Node
 other
 )
 ;
+[
+Pure
+]
 boolean
 contains
 (
@@ -515,6 +527,9 @@ Node
 other
 )
 ;
+[
+Pure
+]
 DOMString
 ?
 lookupPrefix
@@ -524,6 +539,9 @@ DOMString
 namespace
 )
 ;
+[
+Pure
+]
 DOMString
 ?
 lookupNamespaceURI
@@ -533,6 +551,9 @@ DOMString
 prefix
 )
 ;
+[
+Pure
+]
 boolean
 isDefaultNamespace
 (
@@ -608,6 +629,9 @@ DOMString
 ?
 localName
 ;
+[
+Pure
+]
 boolean
 hasAttributes
 (
