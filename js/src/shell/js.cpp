@@ -6279,15 +6279,6 @@ JS_DecodeScript
 cx
 loadBuffer
 loadLength
-cx
--
->
-compartment
-(
-)
--
->
-principals
 options
 .
 originPrincipals

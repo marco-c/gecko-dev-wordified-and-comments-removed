@@ -31678,9 +31678,6 @@ uint32_t
 length
 JSPrincipals
 *
-principals
-JSPrincipals
-*
 originPrincipals
 )
 {
@@ -31690,7 +31687,6 @@ decoder
 cx
 data
 length
-principals
 originPrincipals
 )
 ;
@@ -31736,9 +31732,6 @@ uint32_t
 length
 JSPrincipals
 *
-principals
-JSPrincipals
-*
 originPrincipals
 )
 {
@@ -31748,7 +31741,6 @@ decoder
 cx
 data
 length
-principals
 originPrincipals
 )
 ;

@@ -233,12 +233,6 @@ nbytes
 script
 -
 >
-principals
-(
-)
-script
--
->
 originPrincipals
 (
 )
@@ -346,12 +340,6 @@ JS_DecodeInterpretedFunction
 cx
 memory
 nbytes
-script
--
->
-principals
-(
-)
 script
 -
 >

@@ -387,10 +387,6 @@ protected
 :
 JSPrincipals
 *
-principals_
-;
-JSPrincipals
-*
 originPrincipals_
 ;
 XDRState
@@ -403,10 +399,6 @@ cx
 buf
 (
 cx
-)
-principals_
-(
-nullptr
 )
 originPrincipals_
 (
@@ -1205,9 +1197,6 @@ void
 data
 uint32_t
 length
-JSPrincipals
-*
-principals
 JSPrincipals
 *
 originPrincipals

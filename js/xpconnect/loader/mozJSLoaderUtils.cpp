@@ -121,13 +121,6 @@ JS_DecodeScript
 cx
 buf
 len
-nsJSPrincipals
-:
-:
-get
-(
-systemPrincipal
-)
 nullptr
 )
 )
