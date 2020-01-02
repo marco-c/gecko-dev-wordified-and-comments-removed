@@ -2297,6 +2297,14 @@ get
 )
 )
 ;
+mStream
+-
+>
+AddMainThreadListener
+(
+this
+)
+;
 }
 OscillatorNode
 :
