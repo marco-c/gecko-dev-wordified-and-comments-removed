@@ -248,6 +248,9 @@ mManager
 int64_t
 mLastStreamOffset
 ;
+bool
+mSignaledEOS
+;
 }
 ;
 }
