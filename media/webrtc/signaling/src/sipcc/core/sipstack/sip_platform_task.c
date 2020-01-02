@@ -1226,6 +1226,13 @@ while
 TRUE
 )
 {
+sip_process_int_msg
+(
+)
+;
+#
+if
+0
 sip_read_fds
 =
 read_fds
@@ -1566,6 +1573,8 @@ pending_operations
 }
 }
 }
+#
+endif
 }
 }
 void
@@ -1592,6 +1601,9 @@ cpr_socket_t
 s
 )
 {
+#
+if
+0
 if
 (
 s
@@ -1619,6 +1631,8 @@ s
 )
 ;
 }
+#
+endif
 }
 void
 sip_platform_task_reset_listen_socket
@@ -1644,6 +1658,9 @@ cpr_socket_t
 s
 )
 {
+#
+if
+0
 if
 (
 s
@@ -1660,4 +1677,6 @@ read_fds
 )
 ;
 }
+#
+endif
 }
