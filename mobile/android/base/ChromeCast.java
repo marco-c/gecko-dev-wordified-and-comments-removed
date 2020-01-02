@@ -481,11 +481,6 @@ MediaStatus
 IDLE_REASON_FINISHED
 )
 {
-stop
-(
-null
-)
-;
 GeckoAppShell
 .
 sendEventToGecko
