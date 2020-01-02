@@ -449,10 +449,8 @@ Length
 i
 )
 {
-nsRefPtr
-<
 Icc
->
+*
 icc
 =
 mIccListeners
@@ -485,10 +483,8 @@ GetIccId
 }
 }
 }
-already_AddRefed
-<
-nsISupports
->
+Icc
+*
 IccManager
 :
 :
@@ -532,10 +528,8 @@ Length
 i
 )
 {
-nsRefPtr
-<
 Icc
->
+*
 icc
 =
 mIccListeners
@@ -566,10 +560,6 @@ GetIccId
 {
 return
 icc
-.
-forget
-(
-)
 ;
 }
 }

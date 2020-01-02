@@ -1403,7 +1403,8 @@ detail
 .
 *
 /
-nsISupports
+MozIcc
+?
 getIccById
 (
 DOMString
