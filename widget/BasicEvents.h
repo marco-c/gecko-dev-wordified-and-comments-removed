@@ -111,7 +111,7 @@ eFormEventClass
 eFocusEventClass
 eClipboardEventClass
 eTransitionEventClass
-NS_ANIMATION_EVENT
+eAnimationEventClass
 NS_SVGZOOM_EVENT
 NS_SMIL_TIME_EVENT
 NS_COMMAND_EVENT
