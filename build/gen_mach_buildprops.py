@@ -95,6 +95,22 @@ filename
 )
 :
     
+if
+not
+os
+.
+path
+.
+exists
+(
+filename
+)
+:
+        
+return
+{
+}
+    
 (
 complete_mar_hash
 complete_mar_size

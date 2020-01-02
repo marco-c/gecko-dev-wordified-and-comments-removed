@@ -1830,6 +1830,10 @@ pretty
 -
 package
 :
+unset
+MOZ_SIGN_CMD
+&
+&
 (
 MAKE
 )
@@ -1851,6 +1855,10 @@ package
 -
 tests
 :
+unset
+MOZ_SIGN_CMD
+&
+&
 (
 MAKE
 )
@@ -1874,6 +1882,10 @@ l10n
 -
 check
 :
+unset
+MOZ_SIGN_CMD
+&
+&
 (
 MAKE
 )
@@ -1897,6 +1909,10 @@ update
 -
 packaging
 :
+unset
+MOZ_SIGN_CMD
+&
+&
 (
 MAKE
 )
@@ -1920,6 +1936,10 @@ pretty
 -
 installer
 :
+unset
+MOZ_SIGN_CMD
+&
+&
 (
 MAKE
 )
