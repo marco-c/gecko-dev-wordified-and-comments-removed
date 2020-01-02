@@ -116,17 +116,6 @@ include
 protocol
 PCompositor
 ;
-include
-"
-mozilla
-/
-layers
-/
-CompositorTypes
-.
-h
-"
-;
 namespace
 mozilla
 {
