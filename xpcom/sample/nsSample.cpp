@@ -76,6 +76,7 @@ if
 (
 mValue
 )
+{
 nsMemory
 :
 :
@@ -84,6 +85,7 @@ Free
 mValue
 )
 ;
+}
 }
 NS_IMPL_CLASSINFO
 (
@@ -126,9 +128,11 @@ if
 !
 aValue
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 if
 (
 mValue
@@ -161,9 +165,11 @@ if
 *
 aValue
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 }
 else
 {
@@ -206,9 +212,11 @@ if
 !
 aValue
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 if
 (
 mValue
@@ -317,9 +325,11 @@ if
 !
 aPrefix
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 printf
 (
 "

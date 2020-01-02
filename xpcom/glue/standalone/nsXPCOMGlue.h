@@ -39,7 +39,7 @@ XPCOMGlueStartup
 const
 char
 *
-xpcomFile
+aXPCOMFile
 )
 ;
 typedef
@@ -78,7 +78,7 @@ XPCOMGlueLoadXULFunctions
 const
 nsDynamicFunctionLoad
 *
-symbols
+aSymbols
 )
 ;
 #

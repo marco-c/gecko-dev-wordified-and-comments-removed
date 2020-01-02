@@ -69,7 +69,6 @@ sample
 int
 main
 (
-void
 )
 {
 nsresult
