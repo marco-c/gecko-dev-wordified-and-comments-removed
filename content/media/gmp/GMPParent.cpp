@@ -537,7 +537,7 @@ mState
 GMPStateNotLoaded
 )
 ;
-nsAutoString
+nsAutoCString
 path
 ;
 if
@@ -547,7 +547,7 @@ NS_FAILED
 mDirectory
 -
 >
-GetPath
+GetNativePath
 (
 path
 )
@@ -597,10 +597,7 @@ mProcess
 new
 GMPProcessParent
 (
-NS_ConvertUTF16toUTF8
-(
 path
-)
 .
 get
 (
