@@ -281,13 +281,7 @@ mtransport
 '
 FAIL_ON_WARNINGS
 =
-not
-CONFIG
-[
-'
-_MSC_VER
-'
-]
+True
 LOCAL_INCLUDES
 =
 [
