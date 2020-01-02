@@ -6771,8 +6771,7 @@ return
 true
 ;
 }
-namespace
-{
+static
 inline
 bool
 CompareStringValues
@@ -7240,6 +7239,8 @@ return
 true
 ;
 }
+namespace
+{
 struct
 SortComparatorStrings
 {
@@ -7736,6 +7737,7 @@ elementIndex
 ;
 }
 ;
+static
 bool
 ComparatorNumericLeftMinusRight
 (
@@ -7770,6 +7772,7 @@ return
 true
 ;
 }
+static
 bool
 ComparatorNumericRightMinusLeft
 (
@@ -7836,6 +7839,7 @@ ComparatorNumericLeftMinusRight
 ComparatorNumericRightMinusLeft
 }
 ;
+static
 bool
 ComparatorInt32LeftMinusRight
 (
@@ -7874,6 +7878,7 @@ return
 true
 ;
 }
+static
 bool
 ComparatorInt32RightMinusLeft
 (
@@ -7955,6 +7960,8 @@ Match_LeftMinusRight
 Match_RightMinusLeft
 }
 ;
+}
+static
 ComparatorMatchResult
 MatchNumericComparator
 (
@@ -8378,6 +8385,7 @@ return
 true
 ;
 }
+static
 bool
 SortLexicographically
 (
@@ -8553,6 +8561,7 @@ vec
 )
 ;
 }
+static
 bool
 SortNumerically
 (
@@ -8708,7 +8717,6 @@ comp
 vec
 )
 ;
-}
 }
 bool
 js
