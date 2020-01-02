@@ -1019,9 +1019,6 @@ PrepareLaunch
 {
 #
 ifdef
-GMP_CRASHREPORTER_READY
-#
-ifdef
 MOZ_CRASHREPORTER
 if
 (
@@ -1041,8 +1038,6 @@ OOPInit
 )
 ;
 }
-#
-endif
 #
 endif
 #
