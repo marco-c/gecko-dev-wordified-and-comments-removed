@@ -300,7 +300,10 @@ Element
 nsIDOMCSSStyleSheet
 '
 '
-nsCSSStyleSheet
+mozilla
+:
+:
+CSSStyleSheet
 '
 '
 nsIStyleSheet

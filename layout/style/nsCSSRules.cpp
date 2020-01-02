@@ -26,6 +26,15 @@ include
 "
 mozilla
 /
+CSSStyleSheet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -70,13 +79,6 @@ h
 include
 "
 nsCSSProps
-.
-h
-"
-#
-include
-"
-nsCSSStyleSheet
 .
 h
 "
@@ -319,7 +321,7 @@ mozilla
 namespace
 css
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 Rule
 :
@@ -342,7 +344,7 @@ mSheet
 return
 reinterpret_cast
 <
-nsCSSStyleSheet
+CSSStyleSheet
 *
 >
 (
@@ -398,7 +400,7 @@ Rule
 :
 SetStyleSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -564,7 +566,7 @@ aGroupRule
 )
 ;
 virtual
-nsCSSStyleSheet
+CSSStyleSheet
 *
 GetParentObject
 (
@@ -640,7 +642,7 @@ GroupRuleRuleList
 )
 {
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 GroupRuleRuleList
 :
@@ -1226,7 +1228,7 @@ mChildSheet
 {
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 sheet
 =
@@ -1474,7 +1476,7 @@ ImportRule
 :
 SetSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -1973,12 +1975,12 @@ void
 aSheet
 )
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 )
 aSheet
@@ -2150,7 +2152,7 @@ GroupRule
 :
 SetStyleSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -2303,7 +2305,7 @@ AppendObject
 aRule
 )
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -2762,7 +2764,7 @@ uint32_t
 _retval
 )
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -2837,7 +2839,7 @@ uint32_t
 aIndex
 )
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -3057,7 +3059,7 @@ MediaRule
 :
 SetStyleSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -9627,7 +9629,7 @@ SwapElements
 mKeys
 )
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -9749,7 +9751,7 @@ mDeclaration
 aDeclaration
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -10270,7 +10272,7 @@ mName
 =
 aName
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -10388,7 +10390,7 @@ AppendStyleRule
 rule
 )
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -10578,7 +10580,7 @@ RemoveObjectAt
 index
 )
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -11497,7 +11499,7 @@ mDeclaration
 aDeclaration
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -12733,7 +12735,7 @@ mName
 =
 name
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -12944,7 +12946,7 @@ mGeneration
 +
 +
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -14023,7 +14025,7 @@ parser
 nsCSSValue
 value
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =

@@ -63,6 +63,9 @@ nsMediaQueryResultCacheKey
 namespace
 mozilla
 {
+class
+CSSStyleSheet
+;
 namespace
 css
 {
@@ -107,7 +110,7 @@ virtual
 void
 SetStyleSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )

@@ -11656,7 +11656,7 @@ rv
 ;
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 sheet
 ;

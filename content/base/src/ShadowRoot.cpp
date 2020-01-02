@@ -587,7 +587,7 @@ ShadowRoot
 :
 InsertSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 nsIContent
@@ -746,7 +746,7 @@ ShadowRoot
 :
 RemoveSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -2995,7 +2995,7 @@ ShadowRootStyleSheetList
 )
 ;
 }
-nsCSSStyleSheet
+CSSStyleSheet
 *
 ShadowRootStyleSheetList
 :

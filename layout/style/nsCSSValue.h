@@ -117,9 +117,6 @@ class
 imgRequestProxy
 ;
 class
-nsCSSStyleSheet
-;
-class
 nsIDocument
 ;
 class
@@ -139,6 +136,13 @@ T
 class
 nsPtrHashKey
 ;
+namespace
+mozilla
+{
+class
+CSSStyleSheet
+;
+}
 #
 define
 NS_CSS_DELETE_LIST_MEMBER
@@ -5931,7 +5935,10 @@ nsIPrincipal
 >
 mSheetPrincipal
 ;
-nsCSSStyleSheet
+mozilla
+:
+:
+CSSStyleSheet
 *
 mSheet
 ;

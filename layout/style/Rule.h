@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+CSSStyleSheet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -24,13 +33,6 @@ h
 include
 "
 nsIDOMCSSRule
-.
-h
-"
-#
-include
-"
-nsCSSStyleSheet
 .
 h
 "
@@ -179,7 +181,7 @@ const
 =
 0
 ;
-nsCSSStyleSheet
+CSSStyleSheet
 *
 GetStyleSheet
 (
@@ -200,7 +202,7 @@ GetDocument
 )
 const
 {
-nsCSSStyleSheet
+CSSStyleSheet
 *
 sheet
 =
@@ -225,7 +227,7 @@ virtual
 void
 SetStyleSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
