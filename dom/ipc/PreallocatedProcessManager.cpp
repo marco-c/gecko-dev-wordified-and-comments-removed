@@ -810,17 +810,10 @@ AppendElement
 aRequest
 )
 ;
-if
-(
-!
-mPreallocateAppProcessTask
-)
-{
 DelayedNuwaFork
 (
 )
 ;
-}
 }
 void
 PreallocatedProcessManagerImpl
