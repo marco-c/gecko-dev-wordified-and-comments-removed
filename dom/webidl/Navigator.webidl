@@ -1120,6 +1120,16 @@ onactive
 #
 ifdef
 MOZ_B2G
+dictionary
+MobileIdOptions
+{
+boolean
+forceSelection
+=
+false
+;
+}
+;
 [
 NoInterfaceObject
 ]
@@ -1174,6 +1184,9 @@ HasMobileIdSupport
 Promise
 getMobileIdAssertion
 (
+optional
+MobileIdOptions
+options
 )
 ;
 }
