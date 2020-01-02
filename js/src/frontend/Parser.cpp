@@ -8722,6 +8722,13 @@ pn
 >
 setOp
 (
+kind
+=
+=
+Arrow
+?
+JSOP_LAMBDA_ARROW
+:
 JSOP_LAMBDA
 )
 ;

@@ -276,6 +276,11 @@ JSOP_LAMBDA
 \
 _
 (
+JSOP_LAMBDA_ARROW
+)
+\
+_
+(
 JSOP_BITOR
 )
 \
