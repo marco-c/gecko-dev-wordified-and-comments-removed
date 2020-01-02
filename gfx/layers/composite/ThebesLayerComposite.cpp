@@ -819,7 +819,9 @@ if
 (
 metrics
 .
-mScrollId
+GetScrollId
+(
+)
 !
 =
 FrameMetrics

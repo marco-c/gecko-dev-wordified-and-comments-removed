@@ -443,7 +443,9 @@ GetDOMTargets
 (
 mFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 subDocument
 targetContent
 )
@@ -589,7 +591,9 @@ mDisplayPort
 "
 mFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 mFrameMetrics
 .
 mDisplayPort
@@ -850,7 +854,9 @@ I64d
 "
 aFrameMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 #

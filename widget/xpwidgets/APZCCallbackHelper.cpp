@@ -588,7 +588,9 @@ if
 (
 aMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 =
 =
 FrameMetrics
@@ -640,7 +642,9 @@ FindScrollableFrameFor
 (
 aMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 bool
@@ -739,7 +743,9 @@ FindContentFor
 (
 aMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 if
@@ -824,7 +830,9 @@ if
 (
 aMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 =
 =
 FrameMetrics
@@ -867,7 +875,9 @@ FindScrollableFrameFor
 (
 aMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 bool
@@ -1356,7 +1366,9 @@ FindContentFor
 (
 aApzcMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 if

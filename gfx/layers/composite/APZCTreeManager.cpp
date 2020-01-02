@@ -1009,7 +1009,9 @@ GetFrameMetrics
 (
 )
 .
-mScrollId
+GetScrollId
+(
+)
 )
 ;
 apzc

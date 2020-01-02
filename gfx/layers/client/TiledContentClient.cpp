@@ -774,7 +774,9 @@ LookupCompositorFrameMetrics
 (
 contentMetrics
 .
-mScrollId
+GetScrollId
+(
+)
 compositorMetrics
 )
 )
