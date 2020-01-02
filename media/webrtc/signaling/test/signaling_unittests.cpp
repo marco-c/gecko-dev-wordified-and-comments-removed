@@ -27297,12 +27297,17 @@ char
 argv
 )
 {
+#
+ifdef
+ANDROID
 CHECK_ENVIRONMENT_FLAG
 (
 "
 MOZ_WEBRTC_TESTS
 "
 )
+#
+endif
 if
 (
 isatty
