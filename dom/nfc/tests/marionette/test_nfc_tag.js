@@ -272,6 +272,8 @@ then
 )
 =
 >
+emulator
+.
 setTagData
 (
 re
@@ -294,6 +296,8 @@ then
 )
 =
 >
+emulator
+.
 activateRE
 (
 re
