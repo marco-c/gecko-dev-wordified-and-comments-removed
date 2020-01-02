@@ -262,9 +262,12 @@ Name
 ENTITY
 device
 .
-app
+plain
 "
-App
+Plain
+(
+default
+)
 "
 >
 <
