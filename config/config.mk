@@ -3862,10 +3862,10 @@ else
 NSINSTALL
 =
 (
-DIST
+DEPTH
 )
 /
-bin
+config
 /
 nsinstall
 (

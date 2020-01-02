@@ -2833,7 +2833,10 @@ NSINSTALL
 =
 '
 (
+abspath
+(
 NSINSTALL
+)
 )
 '
 endif
