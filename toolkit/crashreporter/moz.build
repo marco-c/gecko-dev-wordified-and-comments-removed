@@ -532,11 +532,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-CrashReports
-.
-jsm
-'
-'
 CrashSubmit
 .
 jsm
