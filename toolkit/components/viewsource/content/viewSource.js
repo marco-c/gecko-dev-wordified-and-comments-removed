@@ -516,14 +516,6 @@ arrayArgComponents
 1
 ]
 ;
-gBrowser
-.
-markupDocumentViewer
-.
-defaultCharacterSet
-=
-charset
-;
 }
 }
 }
