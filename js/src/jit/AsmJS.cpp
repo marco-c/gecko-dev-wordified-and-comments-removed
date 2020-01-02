@@ -3163,6 +3163,9 @@ Vector
 VarType
 8
 LifoAllocPolicy
+<
+Fallible
+>
 >
 VarTypeVector
 ;

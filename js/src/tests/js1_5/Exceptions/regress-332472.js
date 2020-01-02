@@ -28,12 +28,7 @@ actual
 var
 expect
 =
-'
-SyntaxError
-:
-invalid
-quantifier
-'
+true
 ;
 printBugNumber
 (
@@ -96,9 +91,8 @@ ex
 actual
 =
 ex
-+
-'
-'
+instanceof
+SyntaxError
 ;
 }
 reportCompare

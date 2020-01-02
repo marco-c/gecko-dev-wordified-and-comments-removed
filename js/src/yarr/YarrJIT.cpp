@@ -38,7 +38,7 @@ h
 "
 #
 if
-ENABLE_YARR_JIT
+JS_ION
 using
 namespace
 WTF

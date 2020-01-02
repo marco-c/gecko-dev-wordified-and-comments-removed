@@ -30,6 +30,9 @@ obj
 namespace
 js
 {
+class
+MatchConduit
+;
 enum
 RegExpStaticsUpdate
 {

@@ -32245,6 +32245,7 @@ length
 flags
 &
 tokenStream
+alloc
 )
 ;
 if

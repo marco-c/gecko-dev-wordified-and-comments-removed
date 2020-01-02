@@ -18,6 +18,15 @@ include
 "
 builtin
 /
+RegExp
+.
+h
+"
+#
+include
+"
+builtin
+/
 TypedObject
 .
 h

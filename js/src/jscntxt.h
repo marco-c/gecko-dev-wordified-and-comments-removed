@@ -395,9 +395,6 @@ class
 ForkJoinContext
 ;
 class
-RegExpCompartment
-;
-class
 RegExpStatics
 ;
 namespace
@@ -4021,15 +4018,6 @@ AutoLockForExclusiveAccess
 endif
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
-;
-void
-CrashAtUnhandlableOOM
-(
-const
-char
-*
-reason
-)
 ;
 }
 #
