@@ -300,7 +300,6 @@ s1
 new
 S1
 (
-1
 [
 rabbit
 ]
