@@ -212,6 +212,7 @@ CommonAnimationManager
 {
 public
 :
+explicit
 nsAnimationManager
 (
 nsPresContext

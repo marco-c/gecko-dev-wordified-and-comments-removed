@@ -167,6 +167,7 @@ nsAutoRetainCocoaObject
 {
 public
 :
+explicit
 nsAutoRetainCocoaObject
 (
 id

@@ -139,6 +139,7 @@ nsTransformingTextRunFactory
 {
 public
 :
+explicit
 nsCaseTransformTextRunFactory
 (
 nsTransformingTextRunFactory

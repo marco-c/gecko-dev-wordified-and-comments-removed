@@ -414,6 +414,7 @@ mTouches
 )
 ;
 }
+explicit
 MultiTouchInput
 (
 const
@@ -431,6 +432,7 @@ aWidget
 )
 const
 ;
+explicit
 MultiTouchInput
 (
 const

@@ -167,6 +167,7 @@ nsARefreshObserver
 {
 public
 :
+explicit
 CommonAnimationManager
 (
 nsPresContext
