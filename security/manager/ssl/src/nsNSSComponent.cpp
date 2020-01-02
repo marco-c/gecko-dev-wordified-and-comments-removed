@@ -4568,7 +4568,6 @@ idl
 "
 )
 ;
-{
 MutexAutoLock
 lock
 (
@@ -4732,6 +4731,7 @@ if
 (
 profilePathWin
 )
+{
 rv
 =
 profilePathWin
@@ -4742,6 +4742,7 @@ GetNativeCanonicalPath
 profileStr
 )
 ;
+}
 #
 else
 rv
@@ -5198,7 +5199,6 @@ n
 )
 )
 ;
-}
 return
 NS_OK
 ;
