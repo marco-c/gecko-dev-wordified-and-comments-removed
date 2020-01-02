@@ -14218,6 +14218,9 @@ adoptedNode
 bool
 donatedNode
 ;
+Scriptability
+scriptability
+;
 XPCWrappedNativeScope
 *
 scope

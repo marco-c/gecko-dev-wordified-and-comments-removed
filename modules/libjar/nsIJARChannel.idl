@@ -100,6 +100,7 @@ idl
 "
 [
 scriptable
+builtinclass
 uuid
 (
 6e6cc56d
@@ -170,6 +171,9 @@ channel
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
