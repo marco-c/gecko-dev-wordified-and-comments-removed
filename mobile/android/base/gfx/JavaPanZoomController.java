@@ -6272,7 +6272,7 @@ getZoomConstraints
 (
 )
 .
-getAllowZoom
+getAllowDoubleTapZoom
 (
 )
 )
@@ -6309,7 +6309,7 @@ getZoomConstraints
 (
 )
 .
-getAllowZoom
+getAllowDoubleTapZoom
 (
 )
 )
@@ -6346,7 +6346,7 @@ getZoomConstraints
 (
 )
 .
-getAllowZoom
+getAllowDoubleTapZoom
 (
 )
 )
