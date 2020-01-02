@@ -9,7 +9,7 @@ Vendor
 Mozilla
 Name
 =
-MetroFirefox
+MOZ_APP_BASENAME
 UAName
 =
 Firefox

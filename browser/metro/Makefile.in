@@ -131,6 +131,12 @@ DGRE_BUILDID
 (
 GRE_BUILDID
 )
+-
+DMOZ_APP_BASENAME
+=
+(
+MOZ_APP_BASENAME
+)
 #
 '
 application
