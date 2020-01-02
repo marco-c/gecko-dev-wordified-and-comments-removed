@@ -5603,7 +5603,7 @@ this
 )
 )
 ;
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true
@@ -5938,7 +5938,7 @@ this
 )
 )
 ;
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

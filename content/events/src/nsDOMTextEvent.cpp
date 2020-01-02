@@ -28,6 +28,10 @@ TextEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMTextEvent
 :
 :
@@ -45,7 +49,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTextEvent
+WidgetTextEvent
 *
 aEvent
 )
@@ -59,7 +63,7 @@ aEvent
 aEvent
 :
 new
-nsTextEvent
+WidgetTextEvent
 (
 false
 0
@@ -109,13 +113,13 @@ PR_Now
 )
 ;
 }
-nsTextEvent
+WidgetTextEvent
 *
 te
 =
 static_cast
 <
-nsTextEvent
+WidgetTextEvent
 *
 >
 (
@@ -306,7 +310,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsTextEvent
+WidgetTextEvent
 *
 aEvent
 )

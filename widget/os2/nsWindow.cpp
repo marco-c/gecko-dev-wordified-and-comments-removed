@@ -9286,7 +9286,7 @@ update
 )
 ;
 }
-nsTextEvent
+WidgetTextEvent
 text
 (
 true
@@ -10044,7 +10044,7 @@ newRange
 ;
 }
 }
-nsTextEvent
+WidgetTextEvent
 text
 (
 true

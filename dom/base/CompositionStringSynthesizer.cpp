@@ -637,7 +637,7 @@ mCaret
 )
 ;
 }
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

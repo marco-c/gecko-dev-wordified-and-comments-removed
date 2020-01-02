@@ -4949,13 +4949,13 @@ case
 NS_TEXT_TEXT
 :
 {
-nsTextEvent
+WidgetTextEvent
 *
 textEvent
 =
 static_cast
 <
-nsTextEvent
+WidgetTextEvent
 *
 >
 (

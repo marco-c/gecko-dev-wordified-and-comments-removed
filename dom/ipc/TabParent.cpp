@@ -4421,7 +4421,7 @@ TabParent
 :
 SendTextEvent
 (
-nsTextEvent
+WidgetTextEvent
 &
 event
 )

@@ -8727,12 +8727,12 @@ TabChild
 RecvTextEvent
 (
 const
-nsTextEvent
+WidgetTextEvent
 &
 event
 )
 {
-nsTextEvent
+WidgetTextEvent
 localEvent
 (
 event
@@ -8748,7 +8748,7 @@ IPC
 :
 ParamTraits
 <
-nsTextEvent
+WidgetTextEvent
 >
 :
 :

@@ -12475,7 +12475,7 @@ status
 }
 else
 {
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

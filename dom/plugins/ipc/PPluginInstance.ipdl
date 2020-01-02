@@ -223,9 +223,6 @@ SurfaceDescriptorX11
 using
 nsIntRect
 ;
-using
-nsTextEvent
-;
 namespace
 mozilla
 {

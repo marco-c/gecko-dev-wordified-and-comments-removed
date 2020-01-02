@@ -3139,7 +3139,7 @@ mIMEComposingText
 =
 static_cast
 <
-nsTextEvent
+WidgetTextEvent
 *
 >
 (
@@ -7998,7 +7998,7 @@ case
 AKEY_EVENT_ACTION_MULTIPLE
 :
 {
-nsTextEvent
+WidgetTextEvent
 event
 (
 true
@@ -8413,7 +8413,7 @@ textMask
 mIMEMaskTextUpdate
 )
 ;
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true
@@ -8878,7 +8878,7 @@ event
 ;
 }
 {
-nsTextEvent
+WidgetTextEvent
 event
 (
 true
@@ -9315,7 +9315,7 @@ RemoveIMEComposition
 (
 )
 ;
-nsTextEvent
+WidgetTextEvent
 event
 (
 true
@@ -9845,7 +9845,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

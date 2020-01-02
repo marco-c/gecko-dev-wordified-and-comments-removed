@@ -16673,7 +16673,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

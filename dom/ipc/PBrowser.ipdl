@@ -330,7 +330,10 @@ using
 nsSelectionEvent
 ;
 using
-nsTextEvent
+mozilla
+:
+:
+WidgetTextEvent
 ;
 using
 mozilla
@@ -2336,7 +2339,7 @@ event
 ;
 TextEvent
 (
-nsTextEvent
+WidgetTextEvent
 event
 )
 ;

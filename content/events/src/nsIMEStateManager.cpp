@@ -2646,7 +2646,7 @@ IsEmpty
 )
 )
 {
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true
@@ -2833,7 +2833,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true

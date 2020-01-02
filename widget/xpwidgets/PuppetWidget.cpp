@@ -1216,7 +1216,7 @@ mIMELastReceivedSeqno
 =
 static_cast
 <
-nsTextEvent
+WidgetTextEvent
 *
 >
 (
@@ -1473,7 +1473,7 @@ endif
 nsEventStatus
 status
 ;
-nsTextEvent
+WidgetTextEvent
 textEvent
 (
 true
