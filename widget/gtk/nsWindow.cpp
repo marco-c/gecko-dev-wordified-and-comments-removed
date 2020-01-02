@@ -8123,16 +8123,6 @@ clientLayers
 &
 &
 mCompositorParent
-&
-&
-!
-gdk_screen_is_composited
-(
-gdk_window_get_screen
-(
-mGdkWindow
-)
-)
 )
 {
 clientLayers
