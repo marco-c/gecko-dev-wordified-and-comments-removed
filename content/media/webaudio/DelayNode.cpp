@@ -365,7 +365,7 @@ mLeftOverData
 =
 mProcessor
 .
-CurrentDelayFrames
+MaxDelayFrames
 (
 )
 -
