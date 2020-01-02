@@ -2382,8 +2382,14 @@ ex
 }
 nextTest
 :
+this
+.
+Task
+.
+async
+(
 function
-Tester_nextTest
+*
 (
 )
 {
@@ -2427,6 +2433,7 @@ shift
 ;
 try
 {
+yield
 func
 .
 apply
@@ -3712,6 +3719,7 @@ this
 )
 ;
 }
+)
 execTest
 :
 function
