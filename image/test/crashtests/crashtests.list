@@ -334,3 +334,16 @@ png
 hassize
 .
 ico
+#
+Bug
+856615
+#
+Asserts
+in
+the
+debug
+build
+load
+856616
+.
+gif
