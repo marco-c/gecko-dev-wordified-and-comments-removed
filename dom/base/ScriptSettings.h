@@ -201,6 +201,9 @@ true
 ;
 class
 AutoEntryScript
+:
+protected
+ScriptSettingsStackEntry
 {
 public
 :
@@ -236,12 +239,6 @@ ScriptSettingsStack
 &
 mStack
 ;
-dom
-:
-:
-ScriptSettingsStackEntry
-mEntry
-;
 mozilla
 :
 :
@@ -264,6 +261,9 @@ mAc
 ;
 class
 AutoIncumbentScript
+:
+protected
+ScriptSettingsStackEntry
 {
 public
 :
@@ -287,12 +287,6 @@ dom
 ScriptSettingsStack
 &
 mStack
-;
-dom
-:
-:
-ScriptSettingsStackEntry
-mEntry
 ;
 JS
 :
