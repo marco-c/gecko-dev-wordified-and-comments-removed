@@ -263,10 +263,6 @@ int
 buf
 uint64_t
 frameNumber
-EGLDisplay
-display
-EGLSyncKHR
-fence
 const
 sp
 <

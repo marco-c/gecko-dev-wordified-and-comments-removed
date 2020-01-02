@@ -41,7 +41,7 @@ h
 #
 include
 "
-GonkBufferQueue
+GonkBufferQueueJB
 .
 h
 "

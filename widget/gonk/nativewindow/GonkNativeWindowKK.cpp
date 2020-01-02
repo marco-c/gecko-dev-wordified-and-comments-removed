@@ -447,8 +447,6 @@ mBuf
 item
 .
 mGraphicBuffer
-EGL_NO_DISPLAY
-EGL_NO_SYNC_KHR
 )
 ;
 if
@@ -725,8 +723,6 @@ aIndex
 ]
 .
 mGraphicBuffer
-EGL_NO_DISPLAY
-EGL_NO_SYNC_KHR
 )
 ;
 if
