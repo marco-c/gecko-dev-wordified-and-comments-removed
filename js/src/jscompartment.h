@@ -547,9 +547,6 @@ class
 AutoDebugModeInvalidation
 ;
 class
-ArrayBufferObject
-;
-class
 DebugScopes
 ;
 class
