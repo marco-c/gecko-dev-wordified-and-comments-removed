@@ -661,6 +661,8 @@ class
 TabChildBase
 :
 public
+nsISupports
+public
 nsFrameScriptExecutor
 public
 ipc
@@ -674,6 +676,11 @@ TabChildBase
 (
 )
 ;
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+TabChildBase
+)
 virtual
 nsIWebNavigation
 *
