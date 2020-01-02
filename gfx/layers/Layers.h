@@ -5069,6 +5069,16 @@ aTransformToSurface
 )
 ;
 void
+DefaultComputeSupportsComponentAlphaChildren
+(
+bool
+*
+aNeedsSurfaceCopy
+=
+nullptr
+)
+;
+void
 ComputeEffectiveTransformsForChildren
 (
 const
