@@ -75,6 +75,13 @@ EXTRA_JS_MODULES
 =
 [
 '
+debugger
+-
+commands
+.
+js
+'
+'
 panel
 .
 js

@@ -117,6 +117,13 @@ EXTRA_JS_MODULES
 '
 scratchpad
 -
+commands
+.
+js
+'
+'
+scratchpad
+-
 panel
 .
 js
