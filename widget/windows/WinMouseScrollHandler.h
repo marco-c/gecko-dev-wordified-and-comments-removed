@@ -21,7 +21,9 @@ h
 #
 include
 "
-nsEvent
+mozilla
+/
+Assertions
 .
 h
 "
@@ -30,7 +32,7 @@ include
 "
 mozilla
 /
-Assertions
+EventForwards
 .
 h
 "

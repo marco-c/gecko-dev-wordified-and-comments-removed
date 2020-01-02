@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h

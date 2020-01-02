@@ -120,6 +120,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -308,9 +317,6 @@ h
 "
 class
 gfxContext
-;
-class
-nsPaintEvent
 ;
 extern
 uint8_t

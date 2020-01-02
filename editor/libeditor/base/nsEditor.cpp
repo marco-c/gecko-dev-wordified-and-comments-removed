@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

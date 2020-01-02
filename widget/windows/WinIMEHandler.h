@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

@@ -7,13 +7,6 @@ nsIPrivateTextEvent_h__
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

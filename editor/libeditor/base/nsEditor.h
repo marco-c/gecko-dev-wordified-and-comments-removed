@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypedEnum
 .
 h
@@ -251,9 +260,6 @@ nsITransaction
 ;
 class
 nsIWidget
-;
-class
-nsKeyEvent
 ;
 class
 nsRange

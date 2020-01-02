@@ -7,7 +7,9 @@ __nsQtKeyUtils_h__
 #
 include
 "
-nsEvent
+mozilla
+/
+EventForwards
 .
 h
 "

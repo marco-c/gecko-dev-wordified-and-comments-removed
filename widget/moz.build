@@ -584,11 +584,6 @@ InputData
 h
 '
 '
-nsEvent
-.
-h
-'
-'
 nsGUIEvent
 .
 h
@@ -640,6 +635,11 @@ mozilla
 +
 =
 [
+'
+EventForwards
+.
+h
+'
 '
 LookAndFeel
 .

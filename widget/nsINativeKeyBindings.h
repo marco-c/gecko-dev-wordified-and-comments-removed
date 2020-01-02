@@ -14,7 +14,9 @@ h
 #
 include
 "
-nsEvent
+mozilla
+/
+EventForwards
 .
 h
 "

@@ -113,9 +113,6 @@ ITfCategoryMgr
 class
 nsWindow
 ;
-class
-nsTextEvent
-;
 #
 ifdef
 MOZ_METRO

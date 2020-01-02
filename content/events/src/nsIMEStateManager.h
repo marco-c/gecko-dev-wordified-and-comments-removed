@@ -7,7 +7,9 @@ nsIMEStateManager_h__
 #
 include
 "
-nsEvent
+mozilla
+/
+EventForwards
 .
 h
 "

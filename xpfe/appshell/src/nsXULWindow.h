@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsIXULBrowserWindow
 .
 h
@@ -134,6 +127,13 @@ h
 include
 "
 nsIWeakReference
+.
+h
+"
+#
+include
+"
+nsIWidgetListener
 .
 h
 "

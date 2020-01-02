@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

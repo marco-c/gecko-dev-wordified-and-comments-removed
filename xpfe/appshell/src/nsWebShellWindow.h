@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsEvent
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h

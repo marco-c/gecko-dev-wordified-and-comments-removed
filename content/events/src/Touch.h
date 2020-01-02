@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -36,9 +45,6 @@ h
 "
 class
 nsPresContext
-;
-class
-nsEvent
 ;
 namespace
 mozilla
