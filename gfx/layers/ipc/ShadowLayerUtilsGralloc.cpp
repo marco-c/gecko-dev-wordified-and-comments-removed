@@ -818,10 +818,10 @@ format
 ;
 }
 return
-gfxImageFormat
+android
 :
 :
-ARGB32
+PIXEL_FORMAT_RGBA_8888
 ;
 }
 static
