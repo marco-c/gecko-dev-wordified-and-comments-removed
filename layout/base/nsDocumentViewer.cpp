@@ -3714,6 +3714,8 @@ window
 ;
 bool
 dialogsWereEnabled
+=
+false
 ;
 utils
 -
