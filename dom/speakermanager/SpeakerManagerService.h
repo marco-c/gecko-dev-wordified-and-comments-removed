@@ -76,6 +76,13 @@ GetSpeakerManagerService
 (
 )
 ;
+static
+SpeakerManagerService
+*
+GetOrCreateSpeakerManagerService
+(
+)
+;
 virtual
 void
 ForceSpeaker

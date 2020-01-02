@@ -47,6 +47,13 @@ GetSpeakerManagerService
 )
 ;
 static
+SpeakerManagerService
+*
+GetOrCreateSpeakerManagerService
+(
+)
+;
+static
 void
 Shutdown
 (
