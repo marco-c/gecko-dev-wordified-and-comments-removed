@@ -1060,6 +1060,12 @@ mUseXBLScope
 IsInAnonymousSubtree
 (
 )
+&
+&
+!
+IsAnonymousContentInSVGUseSubtree
+(
+)
 ;
 return
 p
@@ -2274,6 +2280,12 @@ endif
 }
 bool
 IsInAnonymousSubtree
+(
+)
+const
+;
+bool
+IsAnonymousContentInSVGUseSubtree
 (
 )
 const
