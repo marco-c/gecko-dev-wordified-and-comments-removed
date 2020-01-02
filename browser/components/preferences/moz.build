@@ -103,6 +103,14 @@ in
 content
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+tests
+'
+]
 BROWSER_CHROME_MANIFESTS
 +
 =
