@@ -154,10 +154,8 @@ ValueToCallable
 JSContext
 *
 cx
-const
-Value
-&
-vp
+HandleValue
+v
 int
 numToSkip
 =
