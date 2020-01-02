@@ -166,7 +166,7 @@ gMediaStreamGraphLog
 ;
 #
 define
-LOG
+STREAM_LOG
 (
 type
 msg
@@ -181,7 +181,7 @@ msg
 else
 #
 define
-LOG
+STREAM_LOG
 (
 type
 msg
@@ -222,7 +222,7 @@ thread
 "
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -294,7 +294,7 @@ mFinished
 )
 return
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -354,7 +354,7 @@ MediaStream
 aStream
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -443,7 +443,7 @@ RemoveElement
 aStream
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -629,7 +629,7 @@ aDesiredUpToTime
 mStateComputedTime
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -708,7 +708,7 @@ Length
 0
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_ERROR
 (
@@ -1013,7 +1013,7 @@ forget
 (
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -1149,7 +1149,7 @@ GetSegment
 (
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -2069,7 +2069,7 @@ mCurrentTimeStamp
 =
 now
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -2124,7 +2124,7 @@ mCurrentTime
 +
 MEDIA_GRAPH_TARGET_PERIOD_MS
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -2163,7 +2163,7 @@ mStateComputedTime
 nextCurrentTime
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_WARNING
 (
@@ -2207,7 +2207,7 @@ backwards
 "
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -2487,7 +2487,7 @@ stream
 )
 ;
 }
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -2698,7 +2698,7 @@ bufferEnd
 mCurrentTime
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_ERROR
 (
@@ -2777,7 +2777,7 @@ bufferEnd
 aTime
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -2830,7 +2830,7 @@ aTime
 )
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -3610,7 +3610,7 @@ blockingDecisionsWillChange
 =
 false
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -3763,7 +3763,7 @@ true
 ;
 }
 }
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -4283,7 +4283,7 @@ endTime
 aTime
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -4319,7 +4319,7 @@ continue
 }
 else
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -4417,7 +4417,7 @@ if
 explicitBlock
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -5253,7 +5253,7 @@ endTicks
 startTicks
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -5398,7 +5398,7 @@ ApplyVolume
 volume
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -5759,7 +5759,7 @@ mLastPlayedVideoFrame
 )
 return
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -7318,7 +7318,7 @@ if
 finalUpdate
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -7422,7 +7422,7 @@ timeoutMS
 )
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -7485,7 +7485,7 @@ Wait
 timeout
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 +
@@ -7706,7 +7706,7 @@ thread
 "
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -7763,7 +7763,7 @@ thread
 "
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -8448,7 +8448,7 @@ IsEmpty
 )
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -11696,7 +11696,7 @@ Init
 (
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (
@@ -12669,7 +12669,7 @@ MediaStreamGraphImpl
 true
 )
 ;
-LOG
+STREAM_LOG
 (
 PR_LOG_DEBUG
 (

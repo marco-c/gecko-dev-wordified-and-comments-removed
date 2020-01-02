@@ -30,7 +30,7 @@ gMediaStreamGraphLog
 ;
 #
 define
-LOG
+STREAM_LOG
 (
 type
 msg
@@ -45,7 +45,7 @@ msg
 else
 #
 define
-LOG
+STREAM_LOG
 (
 type
 msg
@@ -64,7 +64,7 @@ DumpTrackInfo
 )
 const
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_ALWAYS
 (
@@ -118,7 +118,7 @@ IsEnded
 )
 )
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_ALWAYS
 (
@@ -146,7 +146,7 @@ GetID
 }
 else
 {
-LOG
+STREAM_LOG
 (
 PR_LOG_ALWAYS
 (
