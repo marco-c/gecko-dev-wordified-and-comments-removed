@@ -5298,11 +5298,6 @@ CanMoveResizeWindows
 (
 )
 ;
-bool
-GetBlurSuppression
-(
-)
-;
 mozilla
 :
 :
