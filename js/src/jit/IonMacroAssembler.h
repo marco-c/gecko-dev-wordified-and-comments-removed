@@ -5464,7 +5464,14 @@ storePtr
 (
 ImmPtr
 (
-nullptr
+(
+void
+*
+)
+ProfileEntry
+:
+:
+SCRIPT_OPT_STACKPOINTER
 )
 Address
 (
