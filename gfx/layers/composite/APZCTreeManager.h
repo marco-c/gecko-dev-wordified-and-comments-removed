@@ -694,6 +694,9 @@ AsyncPanZoomController
 >
 mApzcForInputBlock
 ;
+uint32_t
+mTouchCount
+;
 gfx3DMatrix
 mCachedTransformToApzcForInputBlock
 ;
