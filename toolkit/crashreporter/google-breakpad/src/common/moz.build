@@ -118,7 +118,7 @@ DIRS
 dwarf
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -127,11 +127,6 @@ convert_UTF
 .
 c
 '
-]
-SOURCES
-+
-=
-[
 '
 logging
 .
@@ -171,7 +166,7 @@ OS_TARGET
 WINNT
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -245,7 +240,7 @@ OS_ARCH
 Linux
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -293,7 +288,7 @@ OS_TARGET
 WINNT
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -431,7 +426,7 @@ OS_ARCH
 Darwin
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -456,6 +451,16 @@ OS_TARGET
 Android
 '
 :
+#
+We
+don
+'
+t
+support
+unifying
+assembly
+files
+.
 SOURCES
 +
 =

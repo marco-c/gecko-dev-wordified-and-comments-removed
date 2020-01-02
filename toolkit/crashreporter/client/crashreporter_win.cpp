@@ -167,6 +167,12 @@ MAX_EMAIL_LENGTH
 define
 WM_UPLOADCOMPLETE
 WM_APP
+#
+undef
+min
+#
+undef
+max
 using
 std
 :

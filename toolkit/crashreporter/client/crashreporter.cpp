@@ -146,7 +146,7 @@ nullptr
 ;
 static
 string
-gDumpFile
+gReporterDumpFile
 ;
 static
 string
@@ -1648,7 +1648,7 @@ noDelete
 if
 (
 !
-gDumpFile
+gReporterDumpFile
 .
 empty
 (
@@ -1656,7 +1656,7 @@ empty
 )
 UIDeleteFile
 (
-gDumpFile
+gReporterDumpFile
 )
 ;
 if
@@ -1709,7 +1709,7 @@ else
 string
 directory
 =
-gDumpFile
+gReporterDumpFile
 ;
 int
 slashpos
@@ -2225,7 +2225,7 @@ argc
 1
 )
 {
-gDumpFile
+gReporterDumpFile
 =
 argv
 [
@@ -2235,7 +2235,7 @@ argv
 }
 if
 (
-gDumpFile
+gReporterDumpFile
 .
 empty
 (
@@ -2253,7 +2253,7 @@ gExtraFile
 =
 GetExtraDataFilename
 (
-gDumpFile
+gReporterDumpFile
 )
 ;
 if
@@ -2550,7 +2550,7 @@ if
 !
 UIFileExists
 (
-gDumpFile
+gReporterDumpFile
 )
 )
 {
@@ -2583,7 +2583,7 @@ if
 MoveCrashData
 (
 pendingDir
-gDumpFile
+gReporterDumpFile
 gExtraFile
 )
 )
@@ -2892,7 +2892,7 @@ if
 !
 UIShowCrashUI
 (
-gDumpFile
+gReporterDumpFile
 queryParameters
 sendURL
 restartArgs

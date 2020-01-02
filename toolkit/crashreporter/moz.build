@@ -456,7 +456,7 @@ DIRS
 injector
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -489,7 +489,7 @@ nsExceptionHandler
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -512,7 +512,7 @@ OS_ARCH
 Darwin
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
