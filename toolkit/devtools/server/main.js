@@ -1977,17 +1977,9 @@ Ci
 {
 this
 .
-addActors
+registerModule
 (
 "
-resource
-:
-/
-/
-gre
-/
-modules
-/
 devtools
 /
 server
@@ -1995,8 +1987,6 @@ server
 actors
 /
 profiler
-.
-js
 "
 )
 ;

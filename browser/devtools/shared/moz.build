@@ -175,6 +175,13 @@ devtools
 '
 widgets
 /
+AbstractTreeItem
+.
+jsm
+'
+'
+widgets
+/
 BreadcrumbsWidget
 .
 jsm

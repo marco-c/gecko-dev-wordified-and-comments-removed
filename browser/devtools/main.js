@@ -424,6 +424,8 @@ profiler
 panel
 "
 )
+.
+ProfilerPanel
 )
 ;
 loader
@@ -2399,7 +2401,7 @@ l10n
 "
 profiler
 .
-label
+label2
 "
 profilerStrings
 )
@@ -2410,7 +2412,7 @@ l10n
 "
 profiler
 .
-panelLabel
+panelLabel2
 "
 profilerStrings
 )
@@ -2428,15 +2430,6 @@ profilerStrings
 inMenu
 :
 true
-commands
-:
-"
-devtools
-/
-profiler
-/
-commands
-"
 isTargetSupported
 :
 function
