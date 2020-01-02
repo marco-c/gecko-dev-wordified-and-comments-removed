@@ -713,7 +713,7 @@ JSOpToCondition
 comp
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -8298,7 +8298,7 @@ JSOpToDoubleCondition
 comp
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -8391,7 +8391,7 @@ JSOpToDoubleCondition
 comp
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -8679,7 +8679,7 @@ mir
 lir
 -
 >
-mir
+cmpMir
 (
 )
 ;
@@ -9117,7 +9117,7 @@ mir
 lir
 -
 >
-mir
+cmpMir
 (
 )
 ;

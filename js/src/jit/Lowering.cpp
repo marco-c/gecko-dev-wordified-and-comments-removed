@@ -638,6 +638,7 @@ if
 add
 (
 lir
+ins
 )
 )
 return
@@ -4455,6 +4456,7 @@ alloc
 )
 LEmulatesUndefinedAndBranch
 (
+comp
 useRegister
 (
 left
@@ -4470,7 +4472,7 @@ return
 add
 (
 lir
-comp
+test
 )
 ;
 }
@@ -4534,6 +4536,7 @@ alloc
 )
 LIsNullOrLikeUndefinedAndBranch
 (
+comp
 ifTrue
 ifFalse
 tmp
@@ -4560,7 +4563,7 @@ return
 add
 (
 lir
-comp
+test
 )
 ;
 }
@@ -4626,6 +4629,7 @@ alloc
 )
 LCompareBAndBranch
 (
+comp
 rhs
 ifTrue
 ifFalse
@@ -4651,7 +4655,7 @@ return
 add
 (
 lir
-comp
+test
 )
 ;
 }
@@ -4771,6 +4775,7 @@ alloc
 )
 LCompareAndBranch
 (
+comp
 op
 lhs
 rhs
@@ -4782,7 +4787,7 @@ return
 add
 (
 lir
-comp
+test
 )
 ;
 }
@@ -4824,6 +4829,7 @@ alloc
 )
 LCompareDAndBranch
 (
+comp
 lhs
 rhs
 ifTrue
@@ -4834,7 +4840,7 @@ return
 add
 (
 lir
-comp
+test
 )
 ;
 }
@@ -4876,6 +4882,7 @@ alloc
 )
 LCompareFAndBranch
 (
+comp
 lhs
 rhs
 ifTrue
@@ -4886,7 +4893,7 @@ return
 add
 (
 lir
-comp
+test
 )
 ;
 }
@@ -4918,6 +4925,7 @@ alloc
 )
 LCompareVAndBranch
 (
+comp
 ifTrue
 ifFalse
 )
@@ -4958,7 +4966,7 @@ return
 add
 (
 lir
-comp
+test
 )
 ;
 }
@@ -12986,6 +12994,7 @@ return
 add
 (
 lir
+ins
 )
 &
 &
@@ -13016,6 +13025,7 @@ return
 add
 (
 lir
+ins
 )
 &
 &

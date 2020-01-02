@@ -25015,7 +25015,7 @@ op
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25033,7 +25033,7 @@ compareType
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25154,7 +25154,7 @@ MOZ_ASSERT
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25175,7 +25175,7 @@ MIRType_Object
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25209,7 +25209,7 @@ if
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25744,7 +25744,7 @@ MOZ_ASSERT
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25763,7 +25763,7 @@ Compare_Undefined
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25784,7 +25784,7 @@ MOZ_ASSERT
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
@@ -25813,7 +25813,7 @@ op
 lir
 -
 >
-mir
+cmpMir
 (
 )
 -
