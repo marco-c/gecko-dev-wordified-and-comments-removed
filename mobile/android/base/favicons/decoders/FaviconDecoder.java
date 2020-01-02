@@ -23,15 +23,6 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 gfx
 .
 BitmapUtils
@@ -329,7 +320,7 @@ length
 ;
 result
 .
-mHasMultipleBitmaps
+mIsICO
 =
 false
 ;

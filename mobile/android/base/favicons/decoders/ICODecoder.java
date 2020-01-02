@@ -1120,13 +1120,9 @@ mLen
 ;
 result
 .
-mHasMultipleBitmaps
+mIsICO
 =
-mIconDirectory
-.
-length
->
-1
+true
 ;
 return
 result

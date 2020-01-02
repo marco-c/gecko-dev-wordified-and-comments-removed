@@ -63,7 +63,7 @@ int
 mLength
 ;
 boolean
-mHasMultipleBitmaps
+mIsICO
 ;
 Iterator
 <
@@ -143,7 +143,7 @@ normalised
 if
 (
 !
-mHasMultipleBitmaps
+mIsICO
 )
 {
 Bitmap
