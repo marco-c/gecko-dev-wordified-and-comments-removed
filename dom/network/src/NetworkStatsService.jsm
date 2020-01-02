@@ -1922,6 +1922,8 @@ push
 aCallback
 )
 ;
+return
+;
 }
 this
 .
