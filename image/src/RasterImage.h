@@ -1735,6 +1735,11 @@ CanForciblyDiscard
 )
 ;
 bool
+CanForciblyDiscardAndRedecode
+(
+)
+;
+bool
 DiscardingActive
 (
 )
