@@ -129,13 +129,6 @@ XPCSHELL_TESTS_MANIFESTS
 test
 /
 xpcshell
-.
-ini
-'
-'
-test
-/
-xpcshell
 /
 xpcshell
 .
