@@ -34,6 +34,17 @@ BrowserContract
 ExpirePriority
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 android
 .
 content
@@ -192,6 +203,7 @@ invalidateCachedState
 (
 )
 ;
+RobocopTarget
 public
 Cursor
 filter
@@ -252,6 +264,7 @@ int
 visits
 )
 ;
+RobocopTarget
 public
 Cursor
 getAllVisitedHistory
@@ -290,6 +303,7 @@ int
 id
 )
 ;
+RobocopTarget
 public
 void
 removeHistoryEntry
@@ -308,6 +322,7 @@ ContentResolver
 cr
 )
 ;
+RobocopTarget
 public
 Cursor
 getBookmarksInFolder
@@ -336,6 +351,7 @@ ContentResolver
 cr
 )
 ;
+RobocopTarget
 public
 boolean
 isBookmark
@@ -366,6 +382,7 @@ String
 keyword
 )
 ;
+RobocopTarget
 public
 void
 addBookmark
@@ -388,6 +405,7 @@ int
 id
 )
 ;
+RobocopTarget
 public
 void
 removeBookmarksWithURL
@@ -398,6 +416,7 @@ String
 uri
 )
 ;
+RobocopTarget
 public
 void
 updateBookmark
@@ -482,6 +501,7 @@ BitmapDrawable
 thumbnail
 )
 ;
+RobocopTarget
 public
 byte
 [
@@ -507,6 +527,7 @@ String
 urls
 )
 ;
+RobocopTarget
 public
 void
 removeThumbnails
@@ -587,6 +608,7 @@ int
 limit
 )
 ;
+RobocopTarget
 public
 Cursor
 getBookmarkForUrl
@@ -637,6 +659,7 @@ invalidateCachedState
 )
 ;
 }
+RobocopTarget
 public
 static
 Cursor
@@ -802,6 +825,7 @@ visits
 ;
 }
 }
+RobocopTarget
 public
 static
 Cursor
@@ -909,6 +933,7 @@ id
 )
 ;
 }
+RobocopTarget
 public
 static
 void
@@ -929,6 +954,7 @@ url
 )
 ;
 }
+RobocopTarget
 public
 static
 void
@@ -946,6 +972,7 @@ cr
 )
 ;
 }
+RobocopTarget
 public
 static
 Cursor
@@ -1027,6 +1054,7 @@ cr
 )
 ;
 }
+RobocopTarget
 public
 static
 boolean
@@ -1122,6 +1150,7 @@ id
 )
 ;
 }
+RobocopTarget
 public
 static
 void
@@ -1142,6 +1171,7 @@ uri
 )
 ;
 }
+RobocopTarget
 public
 static
 void
@@ -1305,6 +1335,7 @@ thumbnail
 )
 ;
 }
+RobocopTarget
 public
 static
 byte
@@ -1352,6 +1383,7 @@ urls
 )
 ;
 }
+RobocopTarget
 public
 static
 void
@@ -1533,6 +1565,7 @@ limit
 )
 ;
 }
+RobocopTarget
 public
 static
 Cursor

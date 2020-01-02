@@ -51,6 +51,17 @@ util
 Log
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 java
 .
 io
@@ -504,6 +515,7 @@ getPath
 )
 ;
 }
+RobocopTarget
 public
 static
 InputStream

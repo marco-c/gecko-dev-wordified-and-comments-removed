@@ -211,6 +211,13 @@ NativeZip
 .
 java
 '
+'
+mozglue
+/
+RobocopTarget
+.
+java
+'
 ]
 mgjar
 .

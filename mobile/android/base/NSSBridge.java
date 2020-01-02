@@ -23,6 +23,17 @@ content
 .
 Context
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
 public
 class
 NSSBridge
@@ -61,6 +72,7 @@ String
 aValue
 )
 ;
+RobocopTarget
 static
 public
 String
@@ -117,6 +129,7 @@ aValue
 )
 ;
 }
+RobocopTarget
 static
 public
 String
@@ -157,6 +170,7 @@ aValue
 )
 ;
 }
+RobocopTarget
 static
 public
 String
@@ -213,6 +227,7 @@ aValue
 )
 ;
 }
+RobocopTarget
 static
 public
 String

@@ -23,6 +23,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 GeckoEventListener
@@ -44,13 +55,6 @@ org
 json
 .
 JSONObject
-;
-import
-android
-.
-content
-.
-Intent
 ;
 import
 android
@@ -144,6 +148,7 @@ LOGTAG
 GeckoThread
 "
 ;
+RobocopTarget
 public
 enum
 LaunchState
@@ -993,6 +998,7 @@ sendPendingEventsToGecko
 ;
 }
 }
+RobocopTarget
 public
 static
 boolean

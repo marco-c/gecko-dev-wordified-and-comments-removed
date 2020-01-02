@@ -6,13 +6,6 @@ mozilla
 gecko
 ;
 import
-android
-.
-content
-.
-Context
-;
-import
 org
 .
 mozilla
@@ -65,7 +58,7 @@ gecko
 .
 mozglue
 .
-RobocopJNITarget
+RobocopTarget
 ;
 import
 org
@@ -124,6 +117,7 @@ util
 .
 List
 ;
+RobocopTarget
 public
 class
 RobocopAPI

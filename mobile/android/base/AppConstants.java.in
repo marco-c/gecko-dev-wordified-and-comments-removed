@@ -99,6 +99,17 @@ mozilla
 .
 gecko
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
 /
 *
 *
@@ -173,6 +184,7 @@ Gecko
 .
 *
 /
+RobocopTarget
 public
 class
 AppConstants

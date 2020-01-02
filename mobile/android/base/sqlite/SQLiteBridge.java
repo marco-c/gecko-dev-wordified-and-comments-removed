@@ -54,6 +54,17 @@ util
 Log
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 java
 .
 util
@@ -519,6 +530,7 @@ selectionArgs
 )
 ;
 }
+RobocopTarget
 public
 Cursor
 rawQuery

@@ -56,6 +56,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 setup
@@ -1871,6 +1882,7 @@ Tabs
 )
 ;
 }
+RobocopTarget
 public
 static
 Tabs
@@ -3458,6 +3470,7 @@ tabId
 )
 ;
 }
+RobocopTarget
 public
 Tab
 loadUrl

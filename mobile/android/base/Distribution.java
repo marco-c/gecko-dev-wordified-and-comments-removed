@@ -12,6 +12,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils
@@ -464,6 +475,7 @@ about
 ;
 }
 }
+RobocopTarget
 public
 static
 void

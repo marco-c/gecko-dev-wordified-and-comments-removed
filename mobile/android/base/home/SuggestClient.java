@@ -59,6 +59,17 @@ util
 Log
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 java
 .
 io
@@ -205,6 +216,7 @@ mCheckNetwork
 true
 ;
 }
+RobocopTarget
 public
 SuggestClient
 (
