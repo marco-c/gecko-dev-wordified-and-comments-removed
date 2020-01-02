@@ -6,6 +6,11 @@ define
 WEBRTC_MODULES_DESKTOP_CAPTURE_MAIN_SOURCE_DESKTOP_CAPTURE_IMPL_H_
 #
 include
+<
+string
+>
+#
+include
 "
 webrtc
 /
@@ -956,8 +961,10 @@ capture_time
 int32_t
 _id
 ;
-char
-*
+std
+:
+:
+string
 _deviceUniqueId
 ;
 CriticalSectionWrapper
