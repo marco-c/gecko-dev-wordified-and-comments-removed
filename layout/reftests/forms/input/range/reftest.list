@@ -85,7 +85,7 @@ dynamic
 type
 changes
 :
-fails
+random
 -
 if
 (
@@ -128,7 +128,7 @@ unthemed
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -453,7 +453,7 @@ B2G
 1
 1
 )
-fails
+random
 -
 if
 (

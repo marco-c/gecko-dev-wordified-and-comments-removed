@@ -106,15 +106,14 @@ random
 if
 (
 Android
-)
-random
--
-if
+|
+|
 (
 B2G
 &
 &
 browserIsRemote
+)
 )
 =
 =
@@ -268,7 +267,7 @@ box
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -523,7 +522,7 @@ box
 ref
 .
 svg
-fails
+random
 -
 if
 (

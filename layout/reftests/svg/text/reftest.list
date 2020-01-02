@@ -458,7 +458,7 @@ rtl
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -1485,7 +1485,7 @@ end
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -3030,7 +3030,7 @@ svg
 #
 Bug
 885316
-fails
+random
 -
 if
 (

@@ -48,12 +48,7 @@ if
 Android
 |
 |
-(
 B2G
-&
-&
-browserIsRemote
-)
 )
 skip
 -
@@ -89,12 +84,7 @@ if
 Android
 |
 |
-(
 B2G
-&
-&
-browserIsRemote
-)
 )
 fails
 -

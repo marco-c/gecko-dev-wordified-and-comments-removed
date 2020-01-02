@@ -167,7 +167,7 @@ fuzzy
 12
 27
 )
-fails
+random
 -
 if
 (
@@ -230,7 +230,7 @@ svg
 #
 bug
 983671
-fails
+random
 -
 if
 (
@@ -262,7 +262,7 @@ OSX
 .
 6
 )
-fails
+random
 -
 if
 (
@@ -283,7 +283,7 @@ svg
 lime
 .
 svg
-fails
+random
 -
 if
 (

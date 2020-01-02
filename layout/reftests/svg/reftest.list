@@ -875,7 +875,7 @@ assertions
 bug
 886080
 )
-fails
+random
 -
 if
 (
@@ -1140,7 +1140,7 @@ svg
 pass
 .
 svg
-fails
+random
 -
 if
 (
@@ -1698,7 +1698,7 @@ textPath
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -1725,7 +1725,7 @@ textPath
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -1830,7 +1830,7 @@ svg
 pass
 .
 svg
-fails
+random
 -
 if
 (
@@ -1851,7 +1851,7 @@ svg
 pass
 .
 svg
-fails
+random
 -
 if
 (
@@ -3515,7 +3515,7 @@ stroke
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -4222,7 +4222,7 @@ svg
 pass
 .
 svg
-fails
+random
 -
 if
 (
@@ -4339,7 +4339,7 @@ invalid
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -4366,7 +4366,7 @@ live
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -4393,7 +4393,7 @@ live
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -4811,7 +4811,7 @@ svg
 pass
 .
 svg
-fails
+random
 -
 if
 (
@@ -4842,7 +4842,7 @@ percentage
 ref
 .
 svg
-fails
+random
 -
 if
 (
@@ -4873,7 +4873,7 @@ percentage
 ref
 .
 svg
-fails
+random
 -
 if
 (

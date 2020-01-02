@@ -15,7 +15,7 @@ fuzzy
 11
 4
 )
-fails
+random
 -
 if
 (
@@ -349,7 +349,7 @@ fuzzy
 11
 4
 )
-fails
+random
 -
 if
 (

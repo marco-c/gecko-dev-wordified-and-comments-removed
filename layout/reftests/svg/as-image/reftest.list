@@ -103,7 +103,7 @@ background
 area
 getting
 resized
-fails
+random
 -
 if
 (
@@ -126,7 +126,7 @@ lime100x100
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -149,7 +149,7 @@ lime100x100
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -172,7 +172,7 @@ lime100x100
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -529,7 +529,7 @@ AndroidVersion
 =
 10
 )
-fails
+random
 -
 if
 (
@@ -605,7 +605,7 @@ lime100x100
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -837,7 +837,7 @@ complex
 img
 >
 tests
-fails
+random
 -
 if
 (
