@@ -242,6 +242,16 @@ attribute
 DOMString
 adapterDeviceID2
 ;
+readonly
+attribute
+DOMString
+adapterSubsysID
+;
+readonly
+attribute
+DOMString
+adapterSubsysID2
+;
 /
 *
 *
