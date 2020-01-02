@@ -80,6 +80,9 @@ stdout
 stderr
 env
 cwd
+timeout
+=
+None
 )
 :
         
@@ -98,6 +101,9 @@ stdout
 stderr
 env
 cwd
+timeout
+=
+timeout
 )
             
 self
@@ -933,9 +939,7 @@ add_option
 "
 -
 -
-logcat
--
-dir
+logdir
 "
 action
 =
@@ -951,7 +955,7 @@ string
 dest
 =
 "
-logcat_dir
+logdir
 "
                         
 help
@@ -960,8 +964,7 @@ help
 directory
 to
 store
-logcat
-dump
+log
 files
 "
 )
@@ -969,7 +972,7 @@ files
 defaults
 [
 "
-logcat_dir
+logdir
 "
 ]
 =
@@ -1138,7 +1141,7 @@ path
 if
 options
 .
-logcat_dir
+logdir
 and
 not
 options
@@ -1162,9 +1165,7 @@ you
 specify
 -
 -
-logcat
--
-dir
+logdir
 "
 )
         
@@ -1251,19 +1252,19 @@ geckoPath
 if
 options
 .
-logcat_dir
+logdir
 :
             
 kwargs
 [
 '
-logcat_dir
+logdir
 '
 ]
 =
 options
 .
-logcat_dir
+logdir
         
 if
 options

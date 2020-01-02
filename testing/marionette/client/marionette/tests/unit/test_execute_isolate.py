@@ -4,7 +4,7 @@ import
 MarionetteTestCase
 skip_if_b2g
 from
-marionette
+errors
 import
 JavascriptException
 MarionetteException

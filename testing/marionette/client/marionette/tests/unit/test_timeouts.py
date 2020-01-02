@@ -9,7 +9,7 @@ marionette
 import
 HTMLElement
 from
-marionette
+errors
 import
 NoSuchElementException
 JavascriptException
