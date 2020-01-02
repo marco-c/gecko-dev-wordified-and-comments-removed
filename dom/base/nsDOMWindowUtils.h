@@ -124,6 +124,8 @@ aToWindow
 bool
 *
 aPreventDefault
+bool
+aIsSynthesized
 )
 ;
 NS_IMETHOD

@@ -348,6 +348,14 @@ attribute
 boolean
 multipleActionsPrevented
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+isSynthesized
+;
 boolean
 getPreventDefault
 (
