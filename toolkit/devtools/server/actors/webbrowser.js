@@ -254,6 +254,12 @@ getNext
 ;
 }
 }
+exports
+.
+allAppShellDOMWindows
+=
+allAppShellDOMWindows
+;
 function
 appShellDOMWindowType
 (
