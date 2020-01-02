@@ -93,3 +93,13 @@ MPL
 0
 /
 .
+A11Y_MANIFESTS
++
+=
+[
+'
+a11y
+.
+ini
+'
+]

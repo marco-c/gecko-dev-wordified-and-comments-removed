@@ -54,17 +54,3 @@ MPL
 0
 /
 .
-MOCHITEST_A11Y_FILES
-=
-\
-test_browserui
-.
-xul
-\
-test_general
-.
-html
-\
-(
-NULL
-)
