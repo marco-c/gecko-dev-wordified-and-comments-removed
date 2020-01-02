@@ -534,7 +534,10 @@ of
 -
 bounds
 index
+:
 "
++
+index
 )
 ;
 var
@@ -1069,6 +1072,13 @@ length
 )
 break
 ;
+if
+(
+length
+>
+0
+)
+{
 var
 tempPtr
 =
@@ -1126,6 +1136,7 @@ offset
 =
 size
 ;
+}
 }
 return
 ;
