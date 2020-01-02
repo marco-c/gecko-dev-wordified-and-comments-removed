@@ -50,4 +50,12 @@ mach
 version
 =
 VERSION
+    
+tests_require
+=
+[
+'
+mock
+'
+]
 )
