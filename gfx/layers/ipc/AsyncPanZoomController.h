@@ -466,12 +466,6 @@ mTestAsyncScrollOffset
 aPoint
 ;
 }
-bool
-IsPannable
-(
-)
-const
-;
 protected
 :
 ~
