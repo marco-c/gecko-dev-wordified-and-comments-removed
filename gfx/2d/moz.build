@@ -209,6 +209,11 @@ ScaleFactor
 h
 '
 '
+SourceSurfaceCairo
+.
+h
+'
+'
 Tools
 .
 h
