@@ -274,6 +274,11 @@ Maybe
 h
 '
 '
+MaybeOneOf
+.
+h
+'
+'
 MemoryChecking
 .
 h
