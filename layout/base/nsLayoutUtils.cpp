@@ -1945,7 +1945,7 @@ animIdx
 mozilla
 :
 :
-StyleAnimation
+ElementAnimation
 *
 anim
 =

@@ -934,9 +934,9 @@ mSegments
 }
 ;
 struct
-StyleAnimation
+ElementAnimation
 {
-StyleAnimation
+ElementAnimation
 (
 )
 :
@@ -1145,7 +1145,7 @@ mProperties
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
-StyleAnimation
+ElementAnimation
 )
 }
 ;
@@ -1154,10 +1154,10 @@ InfallibleTArray
 <
 nsRefPtr
 <
-StyleAnimation
+ElementAnimation
 >
 >
-StyleAnimationPtrArray
+ElementAnimationPtrArray
 ;
 namespace
 css

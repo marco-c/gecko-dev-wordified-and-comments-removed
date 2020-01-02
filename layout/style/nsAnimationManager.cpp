@@ -240,7 +240,7 @@ double
 aIterationCount
 uint32_t
 aDirection
-StyleAnimation
+ElementAnimation
 *
 aAnimation
 ElementAnimations
@@ -302,7 +302,7 @@ aAnimation
 mLastNotification
 !
 =
-StyleAnimation
+ElementAnimation
 :
 :
 LAST_NOTIFICATION_END
@@ -313,7 +313,7 @@ aAnimation
 >
 mLastNotification
 =
-StyleAnimation
+ElementAnimation
 :
 :
 LAST_NOTIFICATION_END
@@ -627,7 +627,7 @@ aAnimation
 mLastNotification
 =
 =
-StyleAnimation
+ElementAnimation
 :
 :
 LAST_NOTIFICATION_NONE
@@ -730,7 +730,7 @@ animIdx
 ;
 )
 {
-StyleAnimation
+ElementAnimation
 *
 anim
 =
@@ -832,7 +832,7 @@ anim
 mLastNotification
 =
 =
-StyleAnimation
+ElementAnimation
 :
 :
 LAST_NOTIFICATION_END
@@ -906,7 +906,7 @@ animIdx
 ;
 )
 {
-StyleAnimation
+ElementAnimation
 *
 anim
 =
@@ -1479,7 +1479,7 @@ animIdx
 )
 {
 const
-StyleAnimation
+ElementAnimation
 *
 anim
 =
@@ -1658,7 +1658,7 @@ animIdx
 )
 {
 const
-StyleAnimation
+ElementAnimation
 *
 anim
 =
@@ -1764,7 +1764,7 @@ animIdx
 )
 {
 const
-StyleAnimation
+ElementAnimation
 *
 anim
 =
@@ -2537,7 +2537,7 @@ return
 nullptr
 ;
 }
-StyleAnimationPtrArray
+ElementAnimationPtrArray
 newAnimations
 ;
 BuildAnimations
@@ -2655,7 +2655,7 @@ newIdx
 {
 nsRefPtr
 <
-StyleAnimation
+ElementAnimation
 >
 newAnim
 =
@@ -2665,7 +2665,7 @@ newIdx
 ]
 ;
 const
-StyleAnimation
+ElementAnimation
 *
 oldAnim
 =
@@ -2695,7 +2695,7 @@ oldIdx
 )
 {
 const
-StyleAnimation
+ElementAnimation
 *
 a
 =
@@ -3333,7 +3333,7 @@ BuildAnimations
 nsStyleContext
 *
 aStyleContext
-StyleAnimationPtrArray
+ElementAnimationPtrArray
 &
 aAnimations
 )
@@ -3420,7 +3420,7 @@ animIdx
 ;
 nsRefPtr
 <
-StyleAnimation
+ElementAnimation
 >
 dest
 =
@@ -3430,7 +3430,7 @@ aAnimations
 AppendElement
 (
 new
-StyleAnimation
+ElementAnimation
 (
 )
 )
