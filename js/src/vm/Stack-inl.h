@@ -2018,7 +2018,7 @@ frame
 endif
 }
 inline
-Value
+HandleValue
 AbstractFramePtr
 :
 :
@@ -2047,7 +2047,6 @@ returnValue
 ifdef
 JS_ION
 return
-*
 asBaselineFrame
 (
 )
