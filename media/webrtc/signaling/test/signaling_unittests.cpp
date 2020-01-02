@@ -6025,7 +6025,7 @@ CloseSendStreams
 {
 static_cast
 <
-Fake_AudioStreamSource
+Fake_MediaStream
 *
 >
 (

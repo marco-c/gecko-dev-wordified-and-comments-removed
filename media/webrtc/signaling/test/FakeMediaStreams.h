@@ -371,6 +371,13 @@ NS_OK
 }
 virtual
 void
+StopStream
+(
+)
+{
+}
+virtual
+void
 Periodic
 (
 )
@@ -801,6 +808,7 @@ aListener
 )
 {
 }
+virtual
 void
 StopStream
 (
