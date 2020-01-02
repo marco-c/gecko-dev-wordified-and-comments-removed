@@ -2157,7 +2157,7 @@ false
 if
 (
 !
-js_NewbornArrayPush
+NewbornArrayPush
 (
 cx
 arr
