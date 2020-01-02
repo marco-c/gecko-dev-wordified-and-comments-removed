@@ -2118,10 +2118,10 @@ type
 "
 arrow
 "
-level
+noautofocus
 =
 "
-top
+true
 "
 context
 =
