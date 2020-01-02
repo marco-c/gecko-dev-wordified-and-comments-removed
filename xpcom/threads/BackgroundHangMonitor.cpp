@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BackgroundHangMonitor
 .
 h

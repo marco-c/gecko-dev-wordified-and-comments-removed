@@ -177,6 +177,11 @@ Array
 h
 '
 '
+ArrayUtils
+.
+h
+'
+'
 Assertions
 .
 h
@@ -390,11 +395,6 @@ h
 '
 '
 TypeTraits
-.
-h
-'
-'
-Util
 .
 h
 '

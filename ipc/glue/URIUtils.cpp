@@ -17,7 +17,7 @@ include
 "
 mozilla
 /
-Assertions
+ArrayUtils
 .
 h
 "
@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-Util
+Assertions
 .
 h
 "

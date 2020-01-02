@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-Util
+ArrayUtils
 .
 h
 "

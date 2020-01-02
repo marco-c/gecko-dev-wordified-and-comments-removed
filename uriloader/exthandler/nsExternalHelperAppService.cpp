@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-Base64
+ArrayUtils
 .
 h
 "
@@ -29,7 +29,7 @@ include
 "
 mozilla
 /
-Util
+Base64
 .
 h
 "

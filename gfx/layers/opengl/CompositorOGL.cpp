@@ -143,7 +143,7 @@ include
 "
 mozilla
 /
-Preferences
+ArrayUtils
 .
 h
 "
@@ -152,7 +152,7 @@ include
 "
 mozilla
 /
-Util
+Preferences
 .
 h
 "

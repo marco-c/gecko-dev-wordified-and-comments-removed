@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-DebugOnly
+ArrayUtils
 .
 h
 "
@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-Util
+DebugOnly
 .
 h
 "

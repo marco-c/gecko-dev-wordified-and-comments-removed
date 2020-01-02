@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-FloatingPoint
+ArrayUtils
 .
 h
 "
@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-Util
+FloatingPoint
 .
 h
 "
