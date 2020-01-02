@@ -125,7 +125,7 @@ require
 "
 devtools
 /
-shared
+toolkit
 /
 event
 -
