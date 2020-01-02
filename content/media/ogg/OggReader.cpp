@@ -7088,10 +7088,7 @@ res
 }
 }
 return
-DecodeToTarget
-(
-aTarget
-)
+NS_OK
 ;
 }
 static

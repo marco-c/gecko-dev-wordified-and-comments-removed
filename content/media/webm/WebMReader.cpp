@@ -5364,10 +5364,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-DecodeToTarget
-(
-aTarget
-)
+NS_OK
 ;
 }
 nsresult

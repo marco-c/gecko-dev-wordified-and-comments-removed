@@ -1913,10 +1913,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-DecodeToTarget
-(
-aTargetUs
-)
+NS_OK
 ;
 }
 void
