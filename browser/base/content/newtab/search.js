@@ -798,6 +798,11 @@ logo2xURI
 engine
 .
 logoURI
+|
+|
+engine
+.
+logo2xURI
 ;
 if
 (
