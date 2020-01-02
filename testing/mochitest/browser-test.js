@@ -3142,7 +3142,7 @@ aCallback
 {
 Cu
 .
-schedulePreciseGC
+schedulePreciseShrinkingGC
 (
 (
 )
