@@ -285,7 +285,7 @@ RLogRingBuffer
 ;
 r_log_set_extra_destination
 (
-LOG_DEBUG
+LOG_INFO
 &
 ringbuffer_vlog
 )
@@ -318,7 +318,7 @@ DestroyInstance
 {
 r_log_set_extra_destination
 (
-LOG_DEBUG
+LOG_INFO
 nullptr
 )
 ;

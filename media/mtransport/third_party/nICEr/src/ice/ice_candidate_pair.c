@@ -2219,7 +2219,7 @@ _status
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -
@@ -2609,7 +2609,7 @@ _status
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -
@@ -2887,7 +2887,7 @@ restart_nominated_cb_timer
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -
@@ -3059,7 +3059,7 @@ restart_controlled_cb_timer
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -

@@ -222,7 +222,7 @@ TestBasicFilter
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test
 "
@@ -278,7 +278,7 @@ TestBasicFilterContent
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test
 "
@@ -336,7 +336,7 @@ TestFilterAnyFrontMatch
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test
 "
@@ -422,7 +422,7 @@ TestFilterAnyBackMatch
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test
 "
@@ -508,7 +508,7 @@ TestFilterAnyBothMatch
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test
 "
@@ -594,7 +594,7 @@ TestFilterAnyNeitherMatch
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test
 "
@@ -678,7 +678,7 @@ TestAllMatch
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -687,7 +687,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -740,7 +740,7 @@ TestOrder
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -749,7 +749,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -816,7 +816,7 @@ TestNoMatch
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -825,7 +825,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -881,7 +881,7 @@ TestSubstringFilter
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -890,7 +890,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -958,7 +958,7 @@ TestFilterLimit
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -967,7 +967,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -976,7 +976,7 @@ Test2
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test3
 "
@@ -985,7 +985,7 @@ Test3
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test4
 "
@@ -994,7 +994,7 @@ Test4
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test5
 "
@@ -1003,7 +1003,7 @@ Test5
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test6
 "
@@ -1083,7 +1083,7 @@ TestFilterAnyLimit
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 TestOne
 "
@@ -1092,7 +1092,7 @@ TestOne
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 TestTwo
 "
@@ -1101,7 +1101,7 @@ TestTwo
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 TestThree
 "
@@ -1110,7 +1110,7 @@ TestThree
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 TestFour
 "
@@ -1119,7 +1119,7 @@ TestFour
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 TestFive
 "
@@ -1128,7 +1128,7 @@ TestFive
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 TestSix
 "
@@ -1267,7 +1267,7 @@ SetLogLimit
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -1276,7 +1276,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -1285,7 +1285,7 @@ Test2
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test3
 "
@@ -1294,7 +1294,7 @@ Test3
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test4
 "
@@ -1303,7 +1303,7 @@ Test4
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test5
 "
@@ -1312,7 +1312,7 @@ Test5
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test6
 "
@@ -1389,7 +1389,7 @@ TestLimitBulkDiscard
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -1398,7 +1398,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -1407,7 +1407,7 @@ Test2
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test3
 "
@@ -1416,7 +1416,7 @@ Test3
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test4
 "
@@ -1425,7 +1425,7 @@ Test4
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test5
 "
@@ -1434,7 +1434,7 @@ Test5
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test6
 "
@@ -1537,7 +1537,7 @@ SetLogLimit
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -1546,7 +1546,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -1555,7 +1555,7 @@ Test2
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test3
 "
@@ -1564,7 +1564,7 @@ Test3
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test4
 "
@@ -1573,7 +1573,7 @@ Test4
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test5
 "
@@ -1582,7 +1582,7 @@ Test5
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test6
 "
@@ -1672,7 +1672,7 @@ TestClear
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -1681,7 +1681,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -1690,7 +1690,7 @@ Test2
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test3
 "
@@ -1699,7 +1699,7 @@ Test3
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test4
 "
@@ -1708,7 +1708,7 @@ Test4
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test5
 "
@@ -1717,7 +1717,7 @@ Test5
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test6
 "
@@ -1796,7 +1796,7 @@ TestReInit
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test1
 "
@@ -1805,7 +1805,7 @@ Test1
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test2
 "
@@ -1814,7 +1814,7 @@ Test2
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test3
 "
@@ -1823,7 +1823,7 @@ Test3
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test4
 "
@@ -1832,7 +1832,7 @@ Test4
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test5
 "
@@ -1841,7 +1841,7 @@ Test5
 r_log
 (
 NR_LOG_TEST
-LOG_DEBUG
+LOG_INFO
 "
 Test6
 "
