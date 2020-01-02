@@ -4181,6 +4181,11 @@ ruleview
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 ruleview
@@ -12788,6 +12793,11 @@ ruleview
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 ruleview
