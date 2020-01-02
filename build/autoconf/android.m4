@@ -1017,7 +1017,7 @@ CPPFLAGS
 =
 "
 -
-isystem
+idirafter
 android_platform
 /
 usr
@@ -1067,7 +1067,7 @@ ASFLAGS
 =
 "
 -
-isystem
+idirafter
 android_platform
 /
 usr
@@ -1773,7 +1773,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 _topsrcdir
 /
 build
@@ -1782,7 +1782,7 @@ stlport
 /
 stlport
 -
-I
+isystem
 android_ndk
 /
 sources
