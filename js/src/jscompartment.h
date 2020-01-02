@@ -934,7 +934,8 @@ defined
 (
 JSGC_GENERATIONAL
 )
-and
+&
+&
 defined
 (
 JS_GC_ZEAL
