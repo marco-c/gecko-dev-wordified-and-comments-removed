@@ -120,6 +120,11 @@ osfile_async_worker
 js
 '
 '
+osfile_native
+.
+jsm
+'
+'
 osfile_shared_allthreads
 .
 jsm
