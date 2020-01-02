@@ -729,6 +729,9 @@ break
 case
 BUFFER_TILED
 :
+case
+BUFFER_SIMPLE_TILED
+:
 result
 =
 new
