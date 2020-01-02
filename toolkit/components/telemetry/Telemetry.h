@@ -439,10 +439,14 @@ void
 RecordChromeHang
 (
 uint32_t
-duration
+aDuration
 ProcessedStack
 &
 aStack
+int32_t
+aSystemUptime
+int32_t
+aFirefoxUptime
 )
 ;
 #
