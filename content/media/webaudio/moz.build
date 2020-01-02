@@ -164,6 +164,11 @@ AudioContext
 h
 '
 '
+AudioEventTimeline
+.
+h
+'
+'
 AudioNodeEngine
 .
 h

@@ -381,11 +381,6 @@ AudioCompactor
 h
 '
 '
-AudioEventTimeline
-.
-h
-'
-'
 AudioMixer
 .
 h
