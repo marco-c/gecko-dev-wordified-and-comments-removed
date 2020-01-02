@@ -2791,7 +2791,7 @@ cx
 ;
 }
 static
-void
+bool
 AsmJSHandleExecutionInterrupt
 (
 )
@@ -2812,6 +2812,7 @@ cx
 (
 )
 ;
+return
 HandleExecutionInterrupt
 (
 cx
@@ -8706,7 +8707,7 @@ cursor
 ;
 }
 class
-AutoUnprotectCodeForClone
+AutoUnprotectCode
 {
 JSRuntime
 *
@@ -8729,7 +8730,7 @@ protectedBefore_
 ;
 public
 :
-AutoUnprotectCodeForClone
+AutoUnprotectCode
 (
 JSContext
 *
@@ -8780,7 +8781,7 @@ rt_
 ;
 }
 ~
-AutoUnprotectCodeForClone
+AutoUnprotectCode
 (
 )
 {
@@ -8816,8 +8817,8 @@ moduleOut
 )
 const
 {
-AutoUnprotectCodeForClone
-cloneGuard
+AutoUnprotectCode
+auc
 (
 cx
 *
@@ -9085,6 +9086,9 @@ setProfilingEnabled
 (
 bool
 enabled
+JSContext
+*
+cx
 )
 {
 JS_ASSERT
@@ -9116,6 +9120,14 @@ setProfilingEnabled
 ;
 setAutoFlushICacheRange
 (
+)
+;
+AutoUnprotectCode
+auc
+(
+cx
+*
+this
 )
 ;
 for
