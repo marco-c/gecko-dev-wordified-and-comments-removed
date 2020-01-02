@@ -949,7 +949,6 @@ nsStyleUtil
 :
 CSPAllowsInlineStyle
 (
-nullptr
 NodePrincipal
 (
 )

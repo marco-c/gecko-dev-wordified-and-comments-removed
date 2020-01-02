@@ -293,9 +293,6 @@ static
 bool
 CSPAllowsInlineStyle
 (
-nsIContent
-*
-aContent
 nsIPrincipal
 *
 aPrincipal

@@ -6686,9 +6686,6 @@ fileName
 )
 scriptSample
 lineNum
-EmptyString
-(
-)
 )
 ;
 }

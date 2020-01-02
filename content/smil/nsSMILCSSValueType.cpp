@@ -1962,7 +1962,6 @@ nsStyleUtil
 :
 CSPAllowsInlineStyle
 (
-nullptr
 doc
 -
 >
