@@ -83,7 +83,7 @@ h
 "
 #
 ifdef
-MOZ_LOGGING
+PR_LOGGING
 extern
 PRLogModuleInfo
 *
