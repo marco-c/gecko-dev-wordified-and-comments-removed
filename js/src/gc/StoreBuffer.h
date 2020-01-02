@@ -81,9 +81,6 @@ namespace
 gc
 {
 class
-AccumulateEdgesTracer
-;
-class
 BufferableRef
 {
 public
