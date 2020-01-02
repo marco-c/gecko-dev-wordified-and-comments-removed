@@ -397,6 +397,9 @@ __init__
 (
 self
 methodName
+*
+*
+kwargs
 )
 :
         
@@ -422,6 +425,22 @@ self
 duration
 =
 0
+        
+self
+.
+expected
+=
+kwargs
+.
+pop
+(
+'
+expected
+'
+'
+pass
+'
+)
     
 def
 _addSkip
@@ -687,6 +706,44 @@ else
 try
 :
                     
+if
+self
+.
+expected
+=
+=
+'
+fail
+'
+:
+                        
+try
+:
+                            
+testMethod
+(
+)
+                        
+except
+Exception
+:
+                            
+raise
+_ExpectedFailure
+(
+sys
+.
+exc_info
+(
+)
+)
+                        
+raise
+_UnexpectedSuccess
+                    
+else
+:
+                        
 testMethod
 (
 )
@@ -2412,6 +2469,9 @@ suite
 testloader
 marionette
 testvars
+*
+*
+kwargs
 )
 :
         
