@@ -8649,6 +8649,9 @@ Webapps
 UpdateState
 "
 {
+error
+:
+null
 app
 :
 {
@@ -14640,13 +14643,6 @@ function
 aData
 )
 {
-let
-manifestCache
-=
-this
-.
-_manifestCache
-;
 return
 Task
 .
@@ -14675,7 +14671,9 @@ id
 if
 (
 !
-manifestCache
+this
+.
+_manifestCache
 [
 id
 ]
@@ -14753,7 +14751,9 @@ of
 fileNames
 )
 {
-manifestCache
+this
+.
+_manifestCache
 [
 id
 ]
@@ -14778,7 +14778,9 @@ fileName
 ;
 if
 (
-manifestCache
+this
+.
+_manifestCache
 [
 id
 ]
@@ -14793,7 +14795,9 @@ elem
 .
 manifest
 =
-manifestCache
+this
+.
+_manifestCache
 [
 id
 ]
@@ -14992,6 +14996,9 @@ Webapps
 UpdateState
 "
 {
+error
+:
+null
 app
 :
 oldApp
