@@ -13,6 +13,7 @@ xptiprivate
 h
 "
 nsresult
+ATTRIBUTE_USED
 PrepareAndDispatch
 (
 nsXPTCStubBase

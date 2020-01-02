@@ -60,6 +60,7 @@ DONT_DROP_OR_WARN
 ;
 static
 nsresult
+ATTRIBUTE_USED
 PrepareAndDispatch
 (
 nsXPTCStubBase
