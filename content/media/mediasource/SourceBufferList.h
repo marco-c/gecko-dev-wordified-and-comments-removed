@@ -230,7 +230,7 @@ aEnd
 )
 ;
 bool
-ContainsTime
+AllContainsTime
 (
 double
 aTime
