@@ -337,7 +337,7 @@ R
 .
 layout
 .
-home_banner
+home_banner_content
 this
 )
 ;
