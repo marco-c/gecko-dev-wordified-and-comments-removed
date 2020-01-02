@@ -1303,7 +1303,7 @@ mSeqno
 break
 ;
 case
-NS_TEXT_EVENT
+eTextEventClass
 :
 seqno
 =

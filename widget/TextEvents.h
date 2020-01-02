@@ -662,7 +662,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_TEXT_EVENT
+eTextEventClass
 )
 mSeqno
 (
@@ -688,7 +688,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_TEXT_EVENT
+eTextEventClass
 "
 Duplicate
 (

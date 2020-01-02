@@ -463,7 +463,7 @@ aEvent
 mClass
 !
 =
-NS_TEXT_EVENT
+eTextEventClass
 )
 {
 return

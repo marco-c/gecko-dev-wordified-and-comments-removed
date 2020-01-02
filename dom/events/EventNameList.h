@@ -1180,7 +1180,7 @@ NON_IDL_EVENT
 text
 NS_TEXT_TEXT
 EventNameType_XUL
-NS_TEXT_EVENT
+eTextEventClass
 )
 NON_IDL_EVENT
 (
