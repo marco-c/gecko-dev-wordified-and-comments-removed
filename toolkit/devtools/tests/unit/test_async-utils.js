@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-const
+let
 {
 Promise
 }
@@ -48,6 +48,13 @@ jsm
 "
 {
 }
+)
+;
+Object
+.
+freeze
+(
+Promise
 )
 ;
 const

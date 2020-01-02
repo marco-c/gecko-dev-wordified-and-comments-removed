@@ -98,7 +98,7 @@ indexedDB
 ]
 )
 ;
-const
+let
 {
 STORE_NAME
 SAVED_GETALL_STORE_NAME
@@ -109,6 +109,13 @@ Promise
 }
 =
 imports
+;
+Object
+.
+freeze
+(
+imports
+)
 ;
 let
 DEBUG
