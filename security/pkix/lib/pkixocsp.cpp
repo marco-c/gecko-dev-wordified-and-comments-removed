@@ -146,6 +146,8 @@ CERTCertificate
 issuerCert
 PRTime
 time
+uint16_t
+maxLifetimeInDays
 PRTime
 *
 thisUpdate
@@ -169,6 +171,10 @@ issuerCert
 time
 (
 time
+)
+maxLifetimeInDays
+(
+maxLifetimeInDays
 )
 certStatus
 (
@@ -225,6 +231,10 @@ issuerCert
 const
 PRTime
 time
+;
+const
+uint16_t
+maxLifetimeInDays
 ;
 CertStatus
 certStatus
@@ -1299,6 +1309,8 @@ CERTCertificate
 issuerCert
 PRTime
 time
+uint16_t
+maxOCSPLifetimeInDays
 const
 SECItem
 *
@@ -1403,6 +1415,7 @@ cert
 *
 issuerCert
 time
+maxOCSPLifetimeInDays
 thisUpdate
 validThrough
 )
@@ -2796,15 +2809,13 @@ der
 Failure
 ;
 }
-static
 const
 PRTime
-OLDEST_ACCEPTABLE
+maxLifetime
 =
-INT64_C
-(
-10
-)
+context
+.
+maxLifetimeInDays
 *
 ONE_DAY
 ;
@@ -2951,7 +2962,7 @@ nextUpdate
 thisUpdate
 <
 =
-OLDEST_ACCEPTABLE
+maxLifetime
 )
 {
 notAfter
@@ -2965,7 +2976,7 @@ notAfter
 =
 thisUpdate
 +
-OLDEST_ACCEPTABLE
+maxLifetime
 ;
 }
 }
