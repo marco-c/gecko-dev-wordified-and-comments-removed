@@ -177,13 +177,6 @@ top
 (
 )
 ;
-textureClient
--
->
-WaitForBufferOwnership
-(
-)
-;
 mTextureClients
 .
 pop
