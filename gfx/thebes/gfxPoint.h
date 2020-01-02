@@ -108,6 +108,7 @@ aHeight
 )
 {
 }
+MOZ_IMPLICIT
 gfxSize
 (
 const
@@ -183,6 +184,7 @@ aY
 )
 {
 }
+MOZ_IMPLICIT
 gfxPoint
 (
 const

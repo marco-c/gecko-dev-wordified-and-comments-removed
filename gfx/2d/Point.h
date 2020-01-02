@@ -325,6 +325,7 @@ aY
 {
 }
 MOZ_CONSTEXPR
+MOZ_IMPLICIT
 PointTyped
 (
 const
