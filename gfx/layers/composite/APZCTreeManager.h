@@ -519,8 +519,6 @@ const
 WidgetTouchEvent
 &
 aEvent
-ScreenPoint
-aPoint
 )
 ;
 nsEventStatus
