@@ -13760,6 +13760,13 @@ protoChainDepth
 )
 const
 {
+MOZ_ASSERT
+(
+extra_
+<
+MAX_PROTO_CHAIN_DEPTH
+)
+;
 return
 extra_
 ;
