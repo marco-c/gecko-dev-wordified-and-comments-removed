@@ -8741,7 +8741,7 @@ static
 bool
 sPreventBottomToTopChildOrdering
 =
-false
+true
 ;
 if
 (
