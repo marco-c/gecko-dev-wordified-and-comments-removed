@@ -824,12 +824,9 @@ extern
 bool
 StringHasPattern
 (
-const
-jschar
+JSLinearString
 *
 text
-uint32_t
-textlen
 const
 jschar
 *
