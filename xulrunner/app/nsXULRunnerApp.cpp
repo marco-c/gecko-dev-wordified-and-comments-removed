@@ -189,7 +189,7 @@ XP_WIN
 !
 MOZ_WINCONSOLE
 )
-char16_t
+wchar_t
 msg
 [
 2048
