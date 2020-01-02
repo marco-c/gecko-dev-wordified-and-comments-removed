@@ -92,11 +92,6 @@ ShapedButton
 private
 final
 Path
-mPath
-;
-private
-final
-Path
 mBorderPath
 ;
 private
@@ -169,13 +164,6 @@ Paint
 Style
 .
 STROKE
-)
-;
-mPath
-=
-new
-Path
-(
 )
 ;
 mBorderPath

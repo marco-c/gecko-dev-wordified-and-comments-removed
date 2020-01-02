@@ -2818,6 +2818,13 @@ java
 '
 toolbar
 /
+PhoneTabsButton
+.
+java
+'
+'
+toolbar
+/
 ShapedButton
 .
 java
@@ -2833,6 +2840,13 @@ java
 toolbar
 /
 TabCounter
+.
+java
+'
+'
+toolbar
+/
+TabletTabsButton
 .
 java
 '
