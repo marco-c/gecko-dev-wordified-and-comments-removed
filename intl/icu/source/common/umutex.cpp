@@ -113,6 +113,12 @@ U_PLATFORM
 =
 U_PF_CYGWIN
 )
+|
+|
+defined
+(
+__clang__
+)
 (
 LONG
 volatile
