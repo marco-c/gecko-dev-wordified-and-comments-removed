@@ -341,6 +341,18 @@ test
 )
 {
 return
+(
+isBookmarked
+)
+?
+mDatabaseHelper
+.
+isBookmark
+(
+BOOKMARK_URL
+)
+:
+!
 mDatabaseHelper
 .
 isBookmark
@@ -358,7 +370,7 @@ mAsserter
 is
 (
 bookmarked
-isBookmarked
+true
 BOOKMARK_URL
 +
 "
@@ -366,7 +378,7 @@ was
 "
 +
 (
-bookmarked
+isBookmarked
 ?
 "
 added
