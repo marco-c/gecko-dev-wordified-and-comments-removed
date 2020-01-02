@@ -2147,6 +2147,11 @@ UnblockIntercepts
 }
 }
 ;
+template
+<
+class
+Writer
+>
 class
 LocationService
 {
@@ -2614,6 +2619,7 @@ library
 =
 nullptr
 ;
+typename
 StringTable
 :
 :
@@ -2916,6 +2922,7 @@ aMallocSizeOf
 ;
 for
 (
+typename
 StringTable
 :
 :
@@ -3037,6 +3044,13 @@ mNumCacheMisses
 ;
 }
 }
+;
+typedef
+LocationService
+<
+Writer
+>
+DMDLocationService
 ;
 class
 StackTrace
@@ -3166,7 +3180,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -3434,7 +3448,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -5872,7 +5886,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 uint32_t
@@ -5993,7 +6007,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 uint32_t
@@ -7792,7 +7806,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 int
@@ -8447,7 +8461,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -8726,7 +8740,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -9362,7 +9376,7 @@ const
 Writer
 &
 aWriter
-LocationService
+DMDLocationService
 *
 aLocService
 )
@@ -9819,7 +9833,7 @@ n
 "
 )
 ;
-LocationService
+DMDLocationService
 *
 locService
 =
@@ -9828,7 +9842,7 @@ InfallibleAllocPolicy
 :
 new_
 <
-LocationService
+DMDLocationService
 >
 (
 )
