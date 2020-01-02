@@ -215,6 +215,12 @@ unsigned
 long
 packetsLost
 ;
+long
+mozAvSyncDelay
+;
+long
+mozJitterBufferDelay
+;
 }
 ;
 dictionary
