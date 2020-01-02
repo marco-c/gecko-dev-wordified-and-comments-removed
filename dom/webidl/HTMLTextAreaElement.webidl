@@ -405,8 +405,9 @@ attribute
 DOMString
 selectionDirection
 ;
-/
-/
+[
+Throws
+]
 void
 setRangeText
 (
@@ -414,8 +415,9 @@ DOMString
 replacement
 )
 ;
-/
-/
+[
+Throws
+]
 void
 setRangeText
 (
@@ -430,6 +432,10 @@ end
 optional
 SelectionMode
 selectionMode
+=
+"
+preserve
+"
 )
 ;
 [
