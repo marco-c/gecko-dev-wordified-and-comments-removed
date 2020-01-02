@@ -18,16 +18,6 @@ chrome
 )
 ;
 const
-Debugger
-=
-require
-(
-"
-Debugger
-"
-)
-;
-const
 {
 DebuggerServer
 ActorPool

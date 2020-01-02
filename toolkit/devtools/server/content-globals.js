@@ -275,6 +275,12 @@ aInnerWindowID
 ]
 ;
 }
+if
+(
+!
+isWorker
+)
+{
 Services
 .
 obs
@@ -320,3 +326,4 @@ destroyed
 false
 )
 ;
+}
