@@ -2325,6 +2325,17 @@ Site
 <
 !
 ENTITY
+contextmenu_add_search_engine
+"
+Add
+a
+Search
+Engine
+"
+>
+<
+!
+ENTITY
 pref_titlebar_mode
 "
 Title
