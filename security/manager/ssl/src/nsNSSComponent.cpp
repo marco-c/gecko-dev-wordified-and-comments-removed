@@ -8897,9 +8897,6 @@ false
 )
 ;
 }
-bool
-cipherEnabled
-;
 for
 (
 const
