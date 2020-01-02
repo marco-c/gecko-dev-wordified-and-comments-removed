@@ -7149,12 +7149,6 @@ SVGContentUtils
 :
 CoordToFloat
 (
-aFrame
--
->
-PresContext
-(
-)
 ctx
 style
 -
@@ -7404,17 +7398,6 @@ StyleSVG
 (
 )
 ;
-nsPresContext
-*
-presContext
-=
-aFrame
--
->
-PresContext
-(
-)
-;
 nsIContent
 *
 content
@@ -7651,7 +7634,6 @@ SVGContentUtils
 :
 CoordToFloat
 (
-presContext
 ctx
 dasharray
 [
@@ -7719,7 +7701,6 @@ SVGContentUtils
 :
 CoordToFloat
 (
-presContext
 ctx
 style
 -

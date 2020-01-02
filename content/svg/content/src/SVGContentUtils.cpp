@@ -3096,9 +3096,6 @@ SVGContentUtils
 :
 CoordToFloat
 (
-nsPresContext
-*
-aPresContext
 nsSVGElement
 *
 aContent
