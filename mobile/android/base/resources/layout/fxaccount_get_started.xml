@@ -221,7 +221,7 @@ contentDescription
 "
 string
 /
-fxaccount_empty_contentDescription
+fxaccount_intro_contentDescription
 "
 android
 :
@@ -347,7 +347,7 @@ contentDescription
 "
 string
 /
-fxaccount_empty_contentDescription
+fxaccount_icon_contentDescription
 "
 /
 >

@@ -193,7 +193,7 @@ contentDescription
 "
 string
 /
-fxaccount_empty_contentDescription
+fxaccount_checkbox_contentDescription
 "
 android
 :
@@ -300,7 +300,7 @@ contentDescription
 "
 string
 /
-fxaccount_empty_contentDescription
+fxaccount_icon_contentDescription
 "
 /
 >
