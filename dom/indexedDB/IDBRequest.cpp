@@ -1203,7 +1203,7 @@ lineNo
 )
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 Failed
