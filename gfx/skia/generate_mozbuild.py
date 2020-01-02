@@ -959,6 +959,10 @@ _neon
 '
     
 '
+SkThreadUtils_pthread_
+'
+    
+'
 SkImage_Codec
 '
     
