@@ -458,7 +458,7 @@ R
 .
 dimen
 .
-prompt_service_min_list_item_height
+menu_item_row_height
 )
 )
 ;

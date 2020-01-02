@@ -171,6 +171,15 @@ id
 /
 tabs
 "
+style
+=
+"
+style
+/
+TabInput
+.
+TabWidget
+"
 android
 :
 layout_width

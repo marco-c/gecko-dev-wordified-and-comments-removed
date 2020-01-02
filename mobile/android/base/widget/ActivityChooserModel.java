@@ -1194,11 +1194,8 @@ PersistHistoryAsyncTask
 (
 )
 .
-executeOnExecutor
+execute
 (
-AsyncTask
-.
-SERIAL_EXECUTOR
 new
 ArrayList
 <
