@@ -3470,7 +3470,7 @@ AsCommandEvent
 )
 ;
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 return
 NS_NewDOMSimpleGestureEvent

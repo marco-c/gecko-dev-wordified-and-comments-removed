@@ -1498,7 +1498,7 @@ case
 eDragEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 InitMouseEvent
 (
@@ -1556,7 +1556,7 @@ aMouseEvent
 mClass
 =
 =
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 "
 called
 with

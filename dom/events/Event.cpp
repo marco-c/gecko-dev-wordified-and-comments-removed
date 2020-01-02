@@ -603,7 +603,7 @@ case
 eWheelEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 case
 ePointerEventClass
@@ -797,7 +797,7 @@ case
 eWheelEventClass
 :
 case
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 :
 case
 ePointerEventClass
@@ -3434,7 +3434,7 @@ aEvent
 mClass
 !
 =
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 )
 )
 {
@@ -3734,7 +3734,7 @@ aEvent
 mClass
 !
 =
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 )
 |
 |

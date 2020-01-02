@@ -247,7 +247,7 @@ WidgetMouseEventBase
 aIsTrusted
 aMessage
 aWidget
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 )
 allowedDirections
 (
@@ -290,7 +290,7 @@ message
 aOther
 .
 widget
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 )
 allowedDirections
 (
@@ -330,7 +330,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 "
 Duplicate
 (

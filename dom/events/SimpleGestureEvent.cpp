@@ -72,7 +72,7 @@ mEvent
 mClass
 =
 =
-NS_SIMPLE_GESTURE_EVENT
+eSimpleGestureEventClass
 "
 event
 type
