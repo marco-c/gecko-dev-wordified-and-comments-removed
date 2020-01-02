@@ -2665,6 +2665,9 @@ window
 this
 .
 window
+loadFromCache
+:
+true
 charset
 :
 this
