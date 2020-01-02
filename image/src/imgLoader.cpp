@@ -1359,7 +1359,7 @@ mSize
 bool
 mUsed
 ;
-nsAutoCString
+nsCString
 mURI
 ;
 }
