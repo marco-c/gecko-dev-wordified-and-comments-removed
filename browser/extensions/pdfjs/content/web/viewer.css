@@ -5743,6 +5743,13 @@ toolbarField
 .
 pageNumber
 {
+-
+moz
+-
+appearance
+:
+textfield
+;
 min
 -
 width
