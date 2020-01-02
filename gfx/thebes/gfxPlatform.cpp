@@ -1196,7 +1196,7 @@ deprecated
 -
 textures
 "
-false
+true
 )
 &
 &
