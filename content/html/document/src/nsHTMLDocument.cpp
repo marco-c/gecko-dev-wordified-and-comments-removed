@@ -196,7 +196,7 @@ h
 #
 include
 "
-nsIDocShell
+nsDocShell
 .
 h
 "
@@ -6044,8 +6044,6 @@ nsCOMPtr
 nsIDocShell
 >
 shell
-=
-do_QueryReferent
 (
 mDocumentContainer
 )

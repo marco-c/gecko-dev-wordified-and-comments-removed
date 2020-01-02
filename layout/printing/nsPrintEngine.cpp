@@ -1330,7 +1330,7 @@ Initialize
 nsIDocumentViewerPrint
 *
 aDocViewerPrint
-nsIWeakReference
+nsIDocShell
 *
 aContainer
 nsIDocument
@@ -1364,7 +1364,10 @@ aDocViewerPrint
 ;
 mContainer
 =
+do_GetWeakReference
+(
 aContainer
+)
 ;
 mDocument
 =

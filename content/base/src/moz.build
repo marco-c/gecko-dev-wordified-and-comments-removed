@@ -1048,6 +1048,12 @@ src
 '
 '
 /
+docshell
+/
+base
+'
+'
+/
 dom
 /
 base

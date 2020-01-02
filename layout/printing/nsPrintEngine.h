@@ -284,7 +284,7 @@ Initialize
 nsIDocumentViewerPrint
 *
 aDocViewerPrint
-nsIWeakReference
+nsIDocShell
 *
 aContainer
 nsIDocument
