@@ -128,7 +128,7 @@ Length
 ;
 }
 void
-GetAllActiveCues
+UpdateAndGetShowingCues
 (
 nsTArray
 <
