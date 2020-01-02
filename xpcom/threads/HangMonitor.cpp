@@ -137,9 +137,6 @@ timeout
 ;
 #
 ifdef
-REPORT_CHROME_HANGS
-#
-ifdef
 MOZ_TELEMETRY_ON_BY_DEFAULT
 const
 char
@@ -171,8 +168,6 @@ telemetry
 enabled
 "
 ;
-#
-endif
 #
 endif
 Monitor

@@ -159,6 +159,13 @@ _gdb_sleep_duration
 =
 300
 ;
+static
+const
+int
+kClientChannelFd
+=
+3
+;
 #
 if
 defined
@@ -203,13 +210,6 @@ defined
 (
 CRAWL_STACK_ON_SIGSEGV
 )
-static
-const
-int
-kClientChannelFd
-=
-3
-;
 #
 include
 <

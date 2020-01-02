@@ -734,6 +734,13 @@ __BIG_ENDIAN__
 static
 const
 CFStringEncoding
+kMediumStringEncoding
+=
+kCFStringEncodingUTF16BE
+;
+static
+const
+CFStringEncoding
 kWideStringEncoding
 =
 kCFStringEncodingUTF32BE
@@ -744,6 +751,13 @@ defined
 (
 __LITTLE_ENDIAN__
 )
+static
+const
+CFStringEncoding
+kMediumStringEncoding
+=
+kCFStringEncodingUTF16LE
+;
 static
 const
 CFStringEncoding

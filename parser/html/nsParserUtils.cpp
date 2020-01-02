@@ -271,6 +271,13 @@ nsParserUtils
 nsIScriptableUnescapeHTML
 nsIParserUtils
 )
+static
+NS_DEFINE_CID
+(
+kCParserCID
+NS_PARSER_CID
+)
+;
 NS_IMETHODIMP
 nsParserUtils
 :
