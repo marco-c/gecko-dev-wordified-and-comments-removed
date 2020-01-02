@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -364,8 +371,10 @@ nsINodeInfo
 *
 mDocumentNodeInfo
 ;
+nsRefPtr
+<
 nsBindingManager
-*
+>
 mBindingManager
 ;
 }
