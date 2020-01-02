@@ -16447,6 +16447,14 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
 if
 (
+!
+[
+self
+window
+]
+|
+|
+(
 [
 [
 self
@@ -16473,6 +16481,7 @@ window
 ]
 isVisibleOrBeingShown
 ]
+)
 )
 {
 /
