@@ -8325,6 +8325,16 @@ pError
 nullptr
 )
 ;
+XPCWrappedNativeTearOff
+*
+FindTearOff
+(
+const
+nsIID
+&
+iid
+)
+;
 void
 Mark
 (
