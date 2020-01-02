@@ -148,7 +148,7 @@ prototype
 {
 state
 :
-CALL_STATE_DIALING
+CALL_STATE_ACTIVE
 toa
 :
 0
