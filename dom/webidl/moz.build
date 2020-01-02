@@ -2935,6 +2935,11 @@ MozSpeakerManager
 webidl
 '
 '
+MozWifiCapabilities
+.
+webidl
+'
+'
 MozWifiConnectionInfoEvent
 .
 webidl
