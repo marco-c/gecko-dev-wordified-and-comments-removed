@@ -1711,11 +1711,8 @@ aSinkIdentity
 )
 ;
 bool
-AnyLocalStreamIsolated
+AnyLocalStreamHasPeerIdentity
 (
-nsIPrincipal
-*
-scriptPrincipal
 )
 const
 ;
