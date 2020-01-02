@@ -2646,6 +2646,11 @@ NNNN
 NNNNNNNNNNNN
 }
 0xNNN
+-
+blah
+(
+0xNNN
+)
 \
 n
 \
@@ -3405,6 +3410,11 @@ NNNN
 NNNNNNNNNNNN
 }
 0xNNN
+-
+blah
+(
+0xNNN
+)
 \
 n
 \
