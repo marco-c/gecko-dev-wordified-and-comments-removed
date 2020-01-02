@@ -70,7 +70,7 @@ AudioDataValue
 *
 aBuffer
 uint32_t
-aSamples
+aFrames
 bool
 aOverran
 int
