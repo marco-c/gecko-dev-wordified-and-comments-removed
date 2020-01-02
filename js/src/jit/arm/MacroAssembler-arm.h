@@ -2095,7 +2095,7 @@ VFPRegister
 r
 )
 ;
-void
+BufferOffset
 ma_b
 (
 Label
