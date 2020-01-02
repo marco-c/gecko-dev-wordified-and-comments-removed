@@ -3300,9 +3300,7 @@ GetTheme
 >
 GetMinimumWidgetSize
 (
-childRS
-.
-rendContext
+aPresContext
 aChildFrame
 disp
 -

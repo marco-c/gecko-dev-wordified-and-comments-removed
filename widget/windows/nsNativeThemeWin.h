@@ -160,9 +160,9 @@ aOverflowRect
 NS_IMETHOD
 GetMinimumWidgetSize
 (
-nsRenderingContext
+nsPresContext
 *
-aContext
+aPresContext
 nsIFrame
 *
 aFrame
@@ -367,9 +367,9 @@ aResult
 nsresult
 ClassicGetMinimumWidgetSize
 (
-nsRenderingContext
+nsPresContext
 *
-aContext
+aPresContext
 nsIFrame
 *
 aFrame

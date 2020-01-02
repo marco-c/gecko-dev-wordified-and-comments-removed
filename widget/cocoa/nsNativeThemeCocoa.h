@@ -167,9 +167,9 @@ aOverflowRect
 NS_IMETHOD
 GetMinimumWidgetSize
 (
-nsRenderingContext
+nsPresContext
 *
-aContext
+aPresContext
 nsIFrame
 *
 aFrame

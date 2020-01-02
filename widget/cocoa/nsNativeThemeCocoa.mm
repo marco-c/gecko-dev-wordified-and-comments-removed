@@ -17878,9 +17878,9 @@ nsNativeThemeCocoa
 :
 GetMinimumWidgetSize
 (
-nsRenderingContext
+nsPresContext
 *
-aContext
+aPresContext
 nsIFrame
 *
 aFrame
@@ -19380,12 +19380,7 @@ if
 (
 IsHiDPIContext
 (
-aFrame
--
->
-PresContext
-(
-)
+aPresContext
 )
 )
 {
