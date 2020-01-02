@@ -239,7 +239,10 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -248,7 +251,10 @@ return
 aSize
 <
 =
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 MAX_TEXTURE_SIZE
 MAX_TEXTURE_SIZE
@@ -328,7 +334,10 @@ gfxASurface
 CreateOptimalSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 gfxImageFormat
@@ -343,7 +352,10 @@ gfxASurface
 CreateOptimalMaskSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -362,9 +374,6 @@ DrawTarget
 CreateDrawTarget
 (
 const
-mozilla
-:
-:
 gfx
 :
 :

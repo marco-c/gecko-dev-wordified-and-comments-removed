@@ -1153,7 +1153,7 @@ ImageLayerAttributes
 GraphicsFilterType
 filter
 ;
-gfxIntSize
+IntSize
 scaleToSize
 ;
 ScaleMode

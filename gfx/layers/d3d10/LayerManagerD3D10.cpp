@@ -1973,7 +1973,7 @@ LayerManagerD3D10
 CreateOptimalSurface
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 gfxImageFormat
@@ -2175,7 +2175,7 @@ LayerManagerD3D10
 CreateOptimalMaskSurface
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 )

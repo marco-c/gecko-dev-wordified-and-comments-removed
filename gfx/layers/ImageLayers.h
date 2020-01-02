@@ -21,7 +21,11 @@ h
 #
 include
 "
-gfxPoint
+mozilla
+/
+gfx
+/
+BaseSize
 .
 h
 "
@@ -32,7 +36,7 @@ mozilla
 /
 gfx
 /
-BaseSize
+Point
 .
 h
 "
@@ -138,7 +142,10 @@ void
 SetScaleToSize
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 ScaleMode
@@ -193,7 +200,10 @@ mFilter
 ;
 }
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 GetScaleToSize
 (
@@ -313,7 +323,10 @@ mContainer
 GraphicsFilter
 mFilter
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mScaleToSize
 ;
 ScaleMode

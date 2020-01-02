@@ -564,7 +564,10 @@ LayerManager
 CreateOptimalSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 gfxImageFormat
@@ -582,7 +585,13 @@ GetPlatform
 >
 CreateOffscreenSurface
 (
+gfx
+:
+:
+ThebesIntSize
+(
 aSize
+)
 gfxASurface
 :
 :
@@ -603,7 +612,10 @@ LayerManager
 CreateOptimalMaskSurface
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )

@@ -184,7 +184,10 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )
@@ -211,7 +214,10 @@ return
 aSize
 <
 =
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 maxSize
 maxSize
