@@ -311,6 +311,9 @@ lib
 (
 libname
 )
+(
+MOZ_ICU_DBG_SUFFIX
+)
 .
 lib
 ;
