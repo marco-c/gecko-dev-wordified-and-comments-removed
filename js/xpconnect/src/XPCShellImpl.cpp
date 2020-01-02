@@ -1970,10 +1970,12 @@ gExitCode
 JS_ConvertArguments
 (
 cx
-argc
-JS_ARGV
+JS
+:
+:
+CallArgsFromVp
 (
-cx
+argc
 vp
 )
 "
