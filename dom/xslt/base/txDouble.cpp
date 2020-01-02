@@ -476,6 +476,9 @@ mozilla
 :
 :
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;

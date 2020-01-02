@@ -359,6 +359,9 @@ Closed
 {
 return
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -925,6 +928,9 @@ nullptr
 mDuration
 =
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -968,6 +974,9 @@ aWindow
 mDuration
 (
 UnspecifiedNaN
+<
+double
+>
 (
 )
 )

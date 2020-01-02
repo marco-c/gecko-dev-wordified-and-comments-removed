@@ -20263,6 +20263,13 @@ unrestricted_float
 )
 :
         
+typeName
+=
+builtinNames
+[
+t
+]
+        
 if
 v
 =
@@ -20281,9 +20288,15 @@ mozilla
 :
 :
 PositiveInfinity
+<
+%
+s
+>
 (
 )
 "
+%
+typeName
         
 if
 v
@@ -20304,9 +20317,15 @@ mozilla
 :
 :
 NegativeInfinity
+<
+%
+s
+>
 (
 )
 "
+%
+typeName
         
 if
 math
@@ -20323,9 +20342,15 @@ mozilla
 :
 :
 UnspecifiedNaN
+<
+%
+s
+>
 (
 )
 "
+%
+typeName
     
 return
 "

@@ -2932,6 +2932,9 @@ recycler
 getNumberResult
 (
 UnspecifiedNaN
+<
+double
+>
 (
 )
 aResult
@@ -2955,6 +2958,9 @@ mozilla
 :
 :
 NegativeInfinity
+<
+double
+>
 (
 )
 :
@@ -2962,6 +2968,9 @@ mozilla
 :
 :
 PositiveInfinity
+<
+double
+>
 (
 )
 ;
@@ -3034,6 +3043,9 @@ val
 res
 =
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -3182,6 +3194,9 @@ mozilla
 :
 :
 NegativeInfinity
+<
+double
+>
 (
 )
 :
@@ -3189,6 +3204,9 @@ mozilla
 :
 :
 PositiveInfinity
+<
+double
+>
 (
 )
 ;

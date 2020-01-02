@@ -684,6 +684,9 @@ rv
 )
 return
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -710,6 +713,9 @@ error
 )
 ?
 UnspecifiedNaN
+<
+double
+>
 (
 )
 :

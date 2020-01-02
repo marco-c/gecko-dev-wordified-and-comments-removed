@@ -7901,6 +7901,9 @@ const
 {
 return
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -14153,6 +14156,9 @@ eNoValue
 )
 return
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -14174,6 +14180,9 @@ attrValue
 )
 return
 UnspecifiedNaN
+<
+double
+>
 (
 )
 ;
@@ -14200,6 +14209,9 @@ error
 )
 ?
 UnspecifiedNaN
+<
+double
+>
 (
 )
 :
