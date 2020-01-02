@@ -77,6 +77,8 @@ import
 mozinfo
 import
 mozlog
+import
+moznetwork
 SCRIPT_DIR
 =
 os
@@ -1204,9 +1206,9 @@ options
 .
 remoteWebServer
 =
-automation
+moznetwork
 .
-getLanIp
+get_ip
 (
 )
             

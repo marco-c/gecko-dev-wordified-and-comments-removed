@@ -53,6 +53,8 @@ import
 devicemanager
 import
 droid
+import
+moznetwork
 from
 remoteautomation
 import
@@ -412,9 +414,9 @@ remoteWebServer
 "
 ]
 =
-automation
+moznetwork
 .
-getLanIp
+get_ip
 (
 )
         

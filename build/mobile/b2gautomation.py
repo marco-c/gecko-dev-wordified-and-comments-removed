@@ -21,10 +21,6 @@ automation
 import
 Automation
 from
-devicemanager
-import
-NetworkTools
-from
 mozprocess
 import
 ProcessHandlerMixin
@@ -722,26 +718,6 @@ extraArgs
 return
 app
 args
-    
-def
-getLanIp
-(
-self
-)
-:
-        
-nettools
-=
-NetworkTools
-(
-)
-        
-return
-nettools
-.
-getLanIp
-(
-)
     
 def
 waitForFinish

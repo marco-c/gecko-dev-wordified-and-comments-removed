@@ -58,6 +58,8 @@ from
 marionette
 import
 Marionette
+import
+moznetwork
 class
 B2GOptions
 (
@@ -1289,11 +1291,9 @@ options
 .
 remoteWebServer
 =
-self
+moznetwork
 .
-automation
-.
-getLanIp
+get_ip
 (
 )
             
