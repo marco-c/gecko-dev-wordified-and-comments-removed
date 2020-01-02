@@ -234,6 +234,15 @@ core
 '
 )
 ;
+require
+(
+'
+sdk
+/
+windows
+'
+)
+;
 const
 {
 BUILTIN_SIDEBAR_MENUITEMS

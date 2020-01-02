@@ -964,6 +964,13 @@ deferred
 promise
 ;
 }
+module
+.
+exports
+=
+{
+}
+;
 require
 (
 '

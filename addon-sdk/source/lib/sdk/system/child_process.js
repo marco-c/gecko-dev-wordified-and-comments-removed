@@ -1110,9 +1110,7 @@ timeout
 0
 maxBuffer
 :
-200
-*
-1024
+204800
 killSignal
 :
 '

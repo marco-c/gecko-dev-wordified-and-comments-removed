@@ -42,6 +42,12 @@ cuddlefish
 prefs
 import
 DEFAULT_FENNEC_PREFS
+from
+cuddlefish
+.
+prefs
+import
+DEFAULT_NO_CONNECTIONS_PREFS
 CLEANUP_ADB
 =
 re
@@ -163,18 +169,10 @@ n
 )
 RUN_TIMEOUT
 =
-1
-.
-5
-*
-60
-*
-60
+5400
 OUTPUT_TIMEOUT
 =
-60
-*
-5
+300
 def
 follow_file
 (
@@ -2835,6 +2833,10 @@ pkgdir
 enable_e10s
 =
 False
+            
+no_connections
+=
+False
 )
 :
     
@@ -2884,6 +2886,17 @@ preferences
 dict
 (
 DEFAULT_COMMON_PREFS
+)
+    
+if
+no_connections
+:
+      
+preferences
+.
+update
+(
+DEFAULT_NO_CONNECTIONS_PREFS
 )
     
 if
@@ -3339,6 +3352,21 @@ os
 .
 environ
 )
+    
+if
+no_connections
+:
+      
+env
+[
+'
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+'
+]
+=
+'
+1
+'
     
 env
 [
