@@ -5556,9 +5556,6 @@ GetRawScriptsSize
 (
 )
 ;
-#
-ifdef
-USE_ZLIB
 const
 unsigned
 char
@@ -5628,17 +5625,6 @@ return
 false
 ;
 }
-#
-else
-const
-char
-*
-src
-=
-rawSources
-;
-#
-endif
 ok
 =
 Evaluate
