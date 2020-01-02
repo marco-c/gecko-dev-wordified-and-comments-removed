@@ -159,13 +159,6 @@ _gdb_sleep_duration
 =
 300
 ;
-static
-const
-int
-kClientChannelFd
-=
-3
-;
 #
 if
 defined
@@ -231,6 +224,13 @@ nsStackWalk
 .
 h
 "
+static
+const
+int
+kClientChannelFd
+=
+3
+;
 extern
 "
 C

@@ -177,3 +177,6 @@ libeditor
 base
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

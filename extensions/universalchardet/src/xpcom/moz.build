@@ -129,3 +129,6 @@ LOCAL_INCLUDES
 base
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
