@@ -85,6 +85,8 @@ require
 (
 "
 acorn
+/
+acorn
 "
 )
 ;
