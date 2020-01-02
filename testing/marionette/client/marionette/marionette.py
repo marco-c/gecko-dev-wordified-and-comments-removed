@@ -355,7 +355,7 @@ getElementAttribute
 '
 value
 '
-element
+id
 =
 self
 .
@@ -385,7 +385,7 @@ clickElement
 '
 ok
 '
-element
+id
 =
 self
 .
@@ -485,7 +485,7 @@ singleTap
 '
 ok
 '
-element
+id
 =
 self
 .
@@ -541,7 +541,7 @@ getElementText
 '
 value
 '
-element
+id
 =
 self
 .
@@ -677,7 +677,7 @@ sendKeysToElement
 '
 ok
 '
-element
+id
 =
 self
 .
@@ -723,7 +723,7 @@ clearElement
 '
 ok
 '
-element
+id
 =
 self
 .
@@ -767,7 +767,7 @@ isElementSelected
 '
 value
 '
-element
+id
 =
 self
 .
@@ -811,7 +811,7 @@ isElementEnabled
 '
 value
 '
-element
+id
 =
 self
 .
@@ -855,7 +855,7 @@ isElementDisplayed
 '
 value
 '
-element
+id
 =
 self
 .
@@ -902,7 +902,7 @@ getElementSize
 '
 value
 '
-element
+id
 =
 self
 .
@@ -947,7 +947,7 @@ getElementTagName
 '
 value
 '
-element
+id
 =
 self
 .
@@ -996,7 +996,7 @@ getElementPosition
 '
 value
 '
-element
+id
 =
 self
 .
@@ -1057,7 +1057,7 @@ getElementValueOfCssProperty
 value
 '
                                              
-element
+id
 =
 self
 .
@@ -3990,7 +3990,7 @@ message
 =
 {
 '
-type
+name
 '
 :
 command
@@ -4005,7 +4005,7 @@ session
 message
 [
 '
-session
+sessionId
 '
 ]
 =
@@ -4018,11 +4018,13 @@ kwargs
 :
             
 message
-.
-update
-(
+[
+'
+parameters
+'
+]
+=
 kwargs
-)
         
 try
 :
@@ -4229,7 +4231,7 @@ send
 (
 {
 "
-type
+name
 "
 :
 "
@@ -5343,7 +5345,7 @@ setScriptTimeout
 '
 ok
 '
-value
+ms
 =
 timeout
 )
@@ -5468,7 +5470,7 @@ setSearchTimeout
 '
 ok
 '
-value
+ms
 =
 timeout
 )
@@ -5917,7 +5919,7 @@ switchToWindow
 '
 ok
 '
-value
+name
 =
 window_id
 )
@@ -6178,7 +6180,7 @@ switchToFrame
 '
 ok
 '
-value
+id
 =
 frame
 focus
@@ -6356,7 +6358,7 @@ goUrl
 '
 ok
 '
-value
+url
 =
 url
 )
@@ -6409,7 +6411,7 @@ timeouts
 '
 ok
 '
-timeoutType
+type
 =
 timeout_type
 ms
@@ -6855,7 +6857,7 @@ executeJSScript
 value
 '
                                       
-value
+script
 =
 script
                                       
@@ -7479,7 +7481,7 @@ executeScript
 value
 '
                                       
-value
+script
 =
 script
                                       
@@ -7875,7 +7877,7 @@ executeAsyncScript
 value
 '
                                       
-value
+script
 =
 script
                                       
@@ -9578,7 +9580,7 @@ screenShot
 '
 value
 '
-element
+id
 =
 element
 highlights
