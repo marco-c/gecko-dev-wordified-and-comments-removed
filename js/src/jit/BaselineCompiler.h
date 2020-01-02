@@ -984,6 +984,10 @@ emitInterruptCheck
 bool
 emitUseCountIncrement
 (
+bool
+allowOsr
+=
+true
 )
 ;
 bool

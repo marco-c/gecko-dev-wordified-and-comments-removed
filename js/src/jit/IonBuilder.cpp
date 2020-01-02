@@ -28396,14 +28396,10 @@ loopEntry
 {
 JS_ASSERT
 (
+LoopEntryCanIonOsr
 (
-JSOp
-)
-*
 loopEntry
-=
-=
-JSOP_LOOPENTRY
+)
 )
 ;
 JS_ASSERT
