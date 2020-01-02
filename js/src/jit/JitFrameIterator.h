@@ -2020,6 +2020,7 @@ script
 (
 )
 unreadablePlaceholder
+silentFailure
 )
 ;
 }
