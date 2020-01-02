@@ -2750,7 +2750,7 @@ void
 JSCompartment
 :
 :
-mark
+markRoots
 (
 JSTracer
 *

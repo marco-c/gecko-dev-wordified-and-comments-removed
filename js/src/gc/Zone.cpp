@@ -114,10 +114,6 @@ allocator
 (
 this
 )
-hold
-(
-false
-)
 ionUsingBarriers_
 (
 false
