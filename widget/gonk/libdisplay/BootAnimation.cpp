@@ -2591,7 +2591,7 @@ height
 buf
 -
 >
-width
+stride
 =
 =
 frame
