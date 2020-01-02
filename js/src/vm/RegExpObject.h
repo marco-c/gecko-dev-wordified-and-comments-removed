@@ -163,9 +163,8 @@ getOrCreate
 bool
 getOrCreateClone
 (
-RegExpObject
-*
-proto
+HandleTypeObject
+type
 )
 ;
 public
