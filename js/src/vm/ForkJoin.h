@@ -105,6 +105,16 @@ ForkJoinActivation
 (
 )
 ;
+bool
+isProfiling
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 class
