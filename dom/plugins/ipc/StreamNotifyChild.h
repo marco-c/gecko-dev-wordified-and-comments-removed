@@ -116,6 +116,7 @@ int32_t
 &
 status
 )
+MOZ_OVERRIDE
 ;
 void
 SetAssociatedStream

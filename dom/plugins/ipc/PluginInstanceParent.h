@@ -229,6 +229,7 @@ PPluginScriptableObjectParent
 AllocPPluginScriptableObjectParent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -248,6 +249,7 @@ PPluginScriptableObjectParent
 *
 aObject
 )
+MOZ_OVERRIDE
 ;
 virtual
 PBrowserStreamParent
@@ -288,6 +290,7 @@ uint16_t
 *
 stype
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -297,6 +300,7 @@ PBrowserStreamParent
 *
 stream
 )
+MOZ_OVERRIDE
 ;
 virtual
 PPluginStreamParent
@@ -315,6 +319,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -324,6 +329,7 @@ PPluginStreamParent
 *
 stream
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -336,6 +342,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -349,6 +356,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -362,6 +370,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -374,6 +383,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -387,6 +397,7 @@ bool
 *
 value
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -399,6 +410,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -412,6 +424,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -425,6 +438,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -438,6 +452,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -457,6 +472,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -470,6 +486,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -487,6 +504,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -512,6 +530,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 PStreamNotifyParent
@@ -542,6 +561,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -584,6 +604,7 @@ PStreamNotifyParent
 *
 notifyData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -594,6 +615,7 @@ NPRect
 &
 rect
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -611,6 +633,7 @@ SurfaceDescriptor
 *
 prevSurface
 )
+MOZ_OVERRIDE
 ;
 virtual
 PPluginSurfaceParent
@@ -630,6 +653,7 @@ bool
 &
 transparent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -639,6 +663,7 @@ PPluginSurfaceParent
 *
 s
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -649,12 +674,14 @@ bool
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 AnswerNPN_PopPopupsEnabledState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -794,12 +821,14 @@ bool
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvRedrawPlugin
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -817,6 +846,7 @@ DXGISharedSurfaceHandle
 &
 aHandle
 )
+MOZ_OVERRIDE
 ;
 NPError
 NPP_SetWindow
@@ -983,6 +1013,7 @@ bool
 &
 gotFocus
 )
+MOZ_OVERRIDE
 ;
 nsresult
 AsyncSetWindow

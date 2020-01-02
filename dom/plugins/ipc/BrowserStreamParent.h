@@ -92,6 +92,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -102,12 +103,14 @@ NPReason
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvStreamDestroyed
 (
 )
+MOZ_OVERRIDE
 ;
 int32_t
 WriteReady

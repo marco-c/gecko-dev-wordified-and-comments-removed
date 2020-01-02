@@ -139,6 +139,7 @@ uint32_t
 &
 newsize
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -149,6 +150,7 @@ nsCString
 &
 fname
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -159,12 +161,14 @@ NPReason
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 Recv__delete__
 (
 )
+MOZ_OVERRIDE
 ;
 void
 EnsureCorrectInstance

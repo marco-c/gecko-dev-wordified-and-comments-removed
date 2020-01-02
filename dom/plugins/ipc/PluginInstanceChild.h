@@ -288,6 +288,7 @@ NPRemoteWindow
 &
 window
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -300,6 +301,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -312,6 +314,7 @@ NPError
 *
 rv
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -325,6 +328,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -337,6 +341,7 @@ NPError
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -350,6 +355,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -363,6 +369,7 @@ int16_t
 *
 handled
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -382,6 +389,7 @@ Shmem
 *
 rtnmem
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -399,6 +407,7 @@ int16_t
 *
 handled
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -413,6 +422,7 @@ NPRemoteWindow
 &
 aWindow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -445,6 +455,7 @@ const
 bool
 &
 )
+MOZ_OVERRIDE
 {
 return
 new
@@ -461,6 +472,7 @@ PPluginSurfaceChild
 *
 s
 )
+MOZ_OVERRIDE
 {
 delete
 s
@@ -524,6 +536,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 PPluginScriptableObjectChild
@@ -531,6 +544,7 @@ PPluginScriptableObjectChild
 AllocPPluginScriptableObjectChild
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -540,6 +554,7 @@ PPluginScriptableObjectChild
 *
 aObject
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -590,6 +605,7 @@ uint16_t
 *
 stype
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -632,6 +648,7 @@ uint16_t
 *
 stype
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -641,6 +658,7 @@ PBrowserStreamChild
 *
 stream
 )
+MOZ_OVERRIDE
 ;
 virtual
 PPluginStreamChild
@@ -659,6 +677,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -668,6 +687,7 @@ PPluginStreamChild
 *
 stream
 )
+MOZ_OVERRIDE
 ;
 virtual
 PStreamNotifyChild
@@ -698,6 +718,7 @@ NPError
 *
 result
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -714,18 +735,21 @@ bool
 AnswerSetPluginFocus
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 AnswerUpdateWindow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvNPP_DidComposite
 (
 )
+MOZ_OVERRIDE
 ;
 #
 if
