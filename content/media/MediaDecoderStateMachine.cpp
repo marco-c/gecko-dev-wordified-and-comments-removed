@@ -11854,6 +11854,7 @@ StartBuffering
 ;
 ScheduleStateMachine
 (
+USECS_PER_S
 )
 ;
 return
