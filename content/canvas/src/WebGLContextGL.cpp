@@ -7107,6 +7107,8 @@ LOCAL_GL_LINEAR
 )
 ;
 }
+break
+;
 case
 LOCAL_GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE
 :
@@ -7139,8 +7141,7 @@ rv
 )
 ;
 }
-default
-:
+}
 ErrorInvalidEnumInfo
 (
 "
@@ -7159,7 +7160,6 @@ NullValue
 (
 )
 ;
-}
 }
 else
 if
@@ -7243,6 +7243,8 @@ LOCAL_GL_LINEAR
 )
 ;
 }
+break
+;
 case
 LOCAL_GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE
 :
@@ -7325,8 +7327,7 @@ face
 )
 ;
 }
-default
-:
+}
 ErrorInvalidEnumInfo
 (
 "
@@ -7345,7 +7346,6 @@ NullValue
 (
 )
 ;
-}
 }
 else
 {
