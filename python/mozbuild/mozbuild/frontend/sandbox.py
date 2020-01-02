@@ -614,6 +614,12 @@ sorted
 '
 :
 alphabetical_sorted
+        
+'
+int
+'
+:
+int
     
 }
 )
