@@ -2178,6 +2178,10 @@ TouchActionEnabled
 (
 )
 )
+mState
+(
+NOTHING
+)
 mContentResponseTimeoutTask
 (
 nullptr
@@ -2210,10 +2214,6 @@ mLastSampleTime
 GetFrameTime
 (
 )
-)
-mState
-(
-NOTHING
 )
 mLastAsyncScrollTime
 (
