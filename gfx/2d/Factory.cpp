@@ -193,8 +193,18 @@ CheckedInt
 h
 "
 #
-ifdef
+if
+defined
+(
+DEBUG
+)
+|
+|
+defined
+(
 PR_LOGGING
+)
+GFX2D_API
 PRLogModuleInfo
 *
 GetGFX2DLog
@@ -735,6 +745,7 @@ mozilla
 namespace
 gfx
 {
+GFX2D_API
 int
 sGfxLogLevel
 =
