@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LinkedList
 .
 h
@@ -2231,6 +2240,7 @@ removeActiveCompilation
 )
 ;
 class
+MOZ_STACK_CLASS
 AutoEnterRuntime
 {
 PerThreadData
