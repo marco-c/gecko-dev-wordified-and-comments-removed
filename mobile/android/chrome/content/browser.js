@@ -19722,13 +19722,6 @@ aEvent
 .
 originalTarget
 ;
-LoginManagerContent
-.
-onContentLoaded
-(
-aEvent
-)
-;
 if
 (
 target
