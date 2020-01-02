@@ -240,7 +240,7 @@ double
 aIterationCount
 uint32_t
 aDirection
-ElementAnimation
+StyleAnimation
 *
 aAnimation
 ElementAnimations
@@ -302,7 +302,7 @@ aAnimation
 mLastNotification
 !
 =
-ElementAnimation
+StyleAnimation
 :
 :
 LAST_NOTIFICATION_END
@@ -313,7 +313,7 @@ aAnimation
 >
 mLastNotification
 =
-ElementAnimation
+StyleAnimation
 :
 :
 LAST_NOTIFICATION_END
@@ -627,7 +627,7 @@ aAnimation
 mLastNotification
 =
 =
-ElementAnimation
+StyleAnimation
 :
 :
 LAST_NOTIFICATION_NONE
@@ -730,7 +730,7 @@ animIdx
 ;
 )
 {
-ElementAnimation
+StyleAnimation
 &
 anim
 =
@@ -823,7 +823,7 @@ anim
 mLastNotification
 =
 =
-ElementAnimation
+StyleAnimation
 :
 :
 LAST_NOTIFICATION_END
@@ -897,7 +897,7 @@ animIdx
 ;
 )
 {
-ElementAnimation
+StyleAnimation
 &
 anim
 =
@@ -1463,7 +1463,7 @@ animIdx
 )
 {
 const
-ElementAnimation
+StyleAnimation
 &
 anim
 =
@@ -1641,7 +1641,7 @@ animIdx
 )
 {
 const
-ElementAnimation
+StyleAnimation
 &
 anim
 =
@@ -1744,7 +1744,7 @@ animIdx
 )
 {
 const
-ElementAnimation
+StyleAnimation
 &
 anim
 =
@@ -2516,7 +2516,7 @@ nullptr
 }
 InfallibleTArray
 <
-ElementAnimation
+StyleAnimation
 >
 newAnimations
 ;
@@ -2633,7 +2633,7 @@ newEnd
 newIdx
 )
 {
-ElementAnimation
+StyleAnimation
 *
 newAnim
 =
@@ -2644,7 +2644,7 @@ newIdx
 ]
 ;
 const
-ElementAnimation
+StyleAnimation
 *
 oldAnim
 =
@@ -2674,7 +2674,7 @@ oldIdx
 )
 {
 const
-ElementAnimation
+StyleAnimation
 *
 a
 =
@@ -3315,7 +3315,7 @@ nsStyleContext
 aStyleContext
 InfallibleTArray
 <
-ElementAnimation
+StyleAnimation
 >
 &
 aAnimations
@@ -3401,7 +3401,7 @@ mAnimations
 animIdx
 ]
 ;
-ElementAnimation
+StyleAnimation
 &
 aDest
 =

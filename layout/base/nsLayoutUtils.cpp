@@ -1892,7 +1892,10 @@ animIdx
 ;
 )
 {
-ElementAnimation
+mozilla
+:
+:
+StyleAnimation
 &
 anim
 =

@@ -122,11 +122,13 @@ nsStyleChangeList
 h
 "
 using
-namespace
 mozilla
 :
 :
 layers
+:
+:
+Layer
 ;
 namespace
 mozilla
@@ -1680,8 +1682,9 @@ aPortion
 ;
 }
 }
+}
 bool
-ElementAnimation
+StyleAnimation
 :
 :
 IsRunningAt
@@ -1746,7 +1749,7 @@ mIterationCount
 ;
 }
 bool
-ElementAnimation
+StyleAnimation
 :
 :
 HasAnimationOfProperty
@@ -1802,6 +1805,9 @@ return
 false
 ;
 }
+namespace
+css
+{
 bool
 CommonElementAnimationData
 :

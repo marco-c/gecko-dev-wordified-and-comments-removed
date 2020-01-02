@@ -58,10 +58,7 @@ public
 mozilla
 :
 :
-css
-:
-:
-ElementAnimation
+StyleAnimation
 {
 nsStyleAnimation
 :

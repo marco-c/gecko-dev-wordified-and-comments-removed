@@ -893,6 +893,7 @@ mSteps
 ;
 }
 ;
+}
 struct
 AnimationPropertySegment
 {
@@ -933,9 +934,9 @@ mSegments
 }
 ;
 struct
-ElementAnimation
+StyleAnimation
 {
-ElementAnimation
+StyleAnimation
 (
 )
 :
@@ -1144,6 +1145,9 @@ mProperties
 ;
 }
 ;
+namespace
+css
+{
 struct
 CommonElementAnimationData
 :

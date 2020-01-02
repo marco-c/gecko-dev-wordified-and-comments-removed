@@ -2022,7 +2022,10 @@ nsIFrame
 aFrame
 nsCSSProperty
 aProperty
-ElementAnimation
+mozilla
+:
+:
+StyleAnimation
 *
 ea
 Layer
@@ -2094,6 +2097,12 @@ AppUnitsPerCSSPixel
 (
 )
 ;
+mozilla
+:
+:
+layers
+:
+:
 Animation
 *
 animation
@@ -2561,7 +2570,10 @@ animIdx
 +
 )
 {
-ElementAnimation
+mozilla
+:
+:
+StyleAnimation
 *
 anim
 =
