@@ -1068,6 +1068,9 @@ nsString
 >
 mBookmarkToKeywordHash
 ;
+bool
+mBookmarkToKeywordHashInitialized
+;
 nsresult
 UpdateKeywordsHashForRemovedBookmark
 (
