@@ -770,6 +770,7 @@ json
 .
 isTopLevel
 )
+{
 this
 .
 _browser
@@ -780,6 +781,17 @@ objects
 .
 contentWindow
 ;
+this
+.
+_browser
+.
+_documentContentType
+=
+json
+.
+documentContentType
+;
+}
 switch
 (
 aMessage
