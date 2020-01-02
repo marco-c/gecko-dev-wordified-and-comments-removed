@@ -1168,11 +1168,11 @@ aApp
 manifest
 :
 manifest
-id
+manifestURL
 :
 aApp
 .
-id
+manifestURL
 }
 )
 ;
