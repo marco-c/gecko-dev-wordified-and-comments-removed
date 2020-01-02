@@ -131,6 +131,9 @@ IsWebGL2
 &
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 ANGLE_instanced_arrays
 )
 &
@@ -854,6 +857,9 @@ LOCAL_GL_UNSIGNED_INT
 &
 IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
 OES_element_index_uint
 )
 )
