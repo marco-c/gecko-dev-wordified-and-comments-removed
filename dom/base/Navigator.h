@@ -1212,6 +1212,17 @@ JSObject
 aGlobal
 )
 ;
+static
+bool
+HasInputMethodSupport
+(
+JSContext
+*
+JSObject
+*
+aGlobal
+)
+;
 nsPIDOMWindow
 *
 GetParentObject
