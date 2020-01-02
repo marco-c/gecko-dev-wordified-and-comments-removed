@@ -620,6 +620,9 @@ jit
 :
 :
 UpdateJitActivationsForMinorGC
+<
+ForkJoinNursery
+>
 (
 TlsPerThreadData
 .
