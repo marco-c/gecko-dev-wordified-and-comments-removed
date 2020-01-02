@@ -4467,17 +4467,6 @@ aBoundingFrame
 =
 canvasFrame
 ;
-nsPresContext
-*
-presContext
-=
-mDoc
--
->
-PresContext
-(
-)
-;
 aTotalBounds
 =
 *
