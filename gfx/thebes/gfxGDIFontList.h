@@ -1323,6 +1323,15 @@ LPARAM
 lParam
 )
 ;
+virtual
+already_AddRefed
+<
+FontInfoData
+>
+CreateFontInfoData
+(
+)
+;
 typedef
 nsRefPtrHashtable
 <
