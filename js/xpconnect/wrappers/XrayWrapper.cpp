@@ -1688,7 +1688,7 @@ desc
 )
 MOZ_OVERRIDE
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 resolveNativeProperty
