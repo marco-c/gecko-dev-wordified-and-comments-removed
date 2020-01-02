@@ -201,10 +201,10 @@ aInputImages
 return
 FilterPrimitiveDescription
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eTile
+Tile
 )
 ;
 }

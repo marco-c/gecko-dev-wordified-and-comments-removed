@@ -580,10 +580,10 @@ fY
 return
 FilterPrimitiveDescription
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eNone
+Empty
 )
 ;
 }
@@ -638,10 +638,10 @@ TopLeft
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eTurbulence
+Turbulence
 )
 ;
 descr

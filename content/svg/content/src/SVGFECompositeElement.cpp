@@ -510,10 +510,10 @@ aInputImages
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eComposite
+Composite
 )
 ;
 uint32_t

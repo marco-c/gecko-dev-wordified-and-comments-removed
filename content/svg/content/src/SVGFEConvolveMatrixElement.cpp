@@ -709,10 +709,10 @@ const
 FilterPrimitiveDescription
 failureDescription
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eNone
+Empty
 )
 ;
 const
@@ -1101,10 +1101,10 @@ KERNEL_UNIT_LENGTH
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eConvolveMatrix
+ConvolveMatrix
 )
 ;
 AttributeMap

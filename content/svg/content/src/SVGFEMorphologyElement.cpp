@@ -475,10 +475,10 @@ aInstance
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eMorphology
+Morphology
 )
 ;
 descr

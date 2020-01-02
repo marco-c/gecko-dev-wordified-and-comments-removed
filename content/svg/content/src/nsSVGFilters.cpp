@@ -2185,10 +2185,10 @@ frame
 return
 FilterPrimitiveDescription
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eNone
+Empty
 )
 ;
 }

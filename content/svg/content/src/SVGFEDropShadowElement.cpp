@@ -411,10 +411,10 @@ stdY
 return
 FilterPrimitiveDescription
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eNone
+Empty
 )
 ;
 }
@@ -462,10 +462,10 @@ DY
 FilterPrimitiveDescription
 descr
 (
-FilterPrimitiveDescription
+PrimitiveType
 :
 :
-eDropShadow
+DropShadow
 )
 ;
 descr
