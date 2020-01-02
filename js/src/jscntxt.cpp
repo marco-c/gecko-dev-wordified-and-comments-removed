@@ -5526,6 +5526,14 @@ restoreFrameChain
 (
 )
 {
+JS_ASSERT
+(
+enterCompartmentDepth_
+=
+=
+0
+)
+;
 SavedFrameChain
 sfc
 =
