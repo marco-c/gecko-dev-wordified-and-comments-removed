@@ -103,10 +103,6 @@ LIBXUL_LIBS
 )
 \
 (
-MOZ_JS_LIBS
-)
-\
-(
 NSPR_LIBS
 )
 \

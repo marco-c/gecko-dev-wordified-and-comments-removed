@@ -96,10 +96,6 @@ MOZ_COMPONENT_LIBS
 )
 \
 (
-MOZ_JS_LIBS
-)
-\
-(
 NULL
 )
 DEFINES
