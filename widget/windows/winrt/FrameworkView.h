@@ -1228,6 +1228,11 @@ ProcessLaunchArguments
 )
 ;
 void
+UpdateBounds
+(
+)
+;
+void
 CreatePrintControl
 (
 IPrintDocumentPackageTarget
