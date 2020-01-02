@@ -1154,7 +1154,7 @@ forms
 .
 color
 "
-false
+true
 )
 ;
 pref

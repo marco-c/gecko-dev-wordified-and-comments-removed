@@ -123,6 +123,11 @@ BlocklistPrompt
 js
 '
 '
+ColorPicker
+.
+js
+'
+'
 ContentDispatchChooser
 .
 js

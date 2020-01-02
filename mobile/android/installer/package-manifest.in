@@ -3421,6 +3421,13 @@ BINPATH
 /
 components
 /
+ColorPicker
+.
+js
+BINPATH
+/
+components
+/
 ContentDispatchChooser
 .
 js
