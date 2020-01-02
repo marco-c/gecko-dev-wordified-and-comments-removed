@@ -39,6 +39,9 @@ undef
 nsTDependentSubstring_CharT
 #
 undef
+nsTLiteralString_CharT
+#
+undef
 nsTXPIDLString_CharT
 #
 undef

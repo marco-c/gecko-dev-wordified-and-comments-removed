@@ -188,6 +188,11 @@ nsTDependentSubstring
 h
 '
 '
+nsTLiteralString
+.
+h
+'
+'
 nsTPromiseFlatString
 .
 h

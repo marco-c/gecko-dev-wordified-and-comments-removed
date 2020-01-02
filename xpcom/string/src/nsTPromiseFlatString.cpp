@@ -52,7 +52,15 @@ Length
 ;
 mFlags
 =
+str
+.
+mFlags
+&
+(
 F_TERMINATED
+|
+F_LITERAL
+)
 ;
 }
 else

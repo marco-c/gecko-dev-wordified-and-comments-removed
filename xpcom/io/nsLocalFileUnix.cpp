@@ -8118,7 +8118,7 @@ this
 type
 )
 ;
-nsDependentCString
+nsAutoCString
 fileUri
 =
 NS_LITERAL_CSTRING
@@ -8130,13 +8130,8 @@ file
 /
 "
 )
-;
-fileUri
-.
-Append
-(
++
 mPath
-)
 ;
 return
 GeckoAppShell

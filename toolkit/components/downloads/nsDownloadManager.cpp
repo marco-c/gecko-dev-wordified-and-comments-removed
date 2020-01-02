@@ -5188,11 +5188,9 @@ method
 "
 )
 ;
-nsDependentCString
-query
-=
-NS_LITERAL_CSTRING
+NS_NAMED_LITERAL_CSTRING
 (
+query
 "
 SELECT
 id
