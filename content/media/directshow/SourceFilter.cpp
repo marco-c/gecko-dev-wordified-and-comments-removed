@@ -77,7 +77,7 @@ GetDirectShowLog
 ;
 #
 define
-LOG
+DIRECTSHOW_LOG
 (
 .
 .
@@ -97,7 +97,7 @@ __VA_ARGS__
 else
 #
 define
-LOG
+DIRECTSHOW_LOG
 (
 .
 .
@@ -709,7 +709,7 @@ MOZ_COUNT_CTOR
 OutputPin
 )
 ;
-LOG
+DIRECTSHOW_LOG
 (
 "
 OutputPin
@@ -735,7 +735,7 @@ MOZ_COUNT_DTOR
 OutputPin
 )
 ;
-LOG
+DIRECTSHOW_LOG
 (
 "
 OutputPin
@@ -930,7 +930,7 @@ formattype
 )
 )
 {
-LOG
+DIRECTSHOW_LOG
 (
 "
 OutputPin
@@ -998,7 +998,7 @@ return
 S_OK
 ;
 }
-LOG
+DIRECTSHOW_LOG
 (
 "
 OutputPin
@@ -1980,7 +1980,7 @@ aBuffer
 E_POINTER
 )
 ;
-LOG
+DIRECTSHOW_LOG
 (
 "
 OutputPin
@@ -2203,7 +2203,7 @@ GetCachedDataEnd
 )
 ;
 }
-LOG
+DIRECTSHOW_LOG
 (
 "
 OutputPin
@@ -2356,7 +2356,7 @@ subtype
 =
 aSubType
 ;
-LOG
+DIRECTSHOW_LOG
 (
 "
 SourceFilter
@@ -2392,7 +2392,7 @@ MOZ_COUNT_DTOR
 SourceFilter
 )
 ;
-LOG
+DIRECTSHOW_LOG
 (
 "
 SourceFilter
@@ -2484,7 +2484,7 @@ int64_t
 aMP3Offset
 )
 {
-LOG
+DIRECTSHOW_LOG
 (
 "
 SourceFilter
