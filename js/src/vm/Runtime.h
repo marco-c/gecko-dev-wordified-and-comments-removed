@@ -3528,9 +3528,6 @@ assertOnScriptEntryHook_
 ;
 #
 endif
-JSDebugHooks
-debugHooks
-;
 bool
 debugMode
 ;

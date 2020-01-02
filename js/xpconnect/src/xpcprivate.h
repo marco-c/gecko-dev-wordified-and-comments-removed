@@ -11351,15 +11351,6 @@ char
 text
 )
 ;
-extern
-bool
-xpc_InstallJSDebuggerKeywordHandler
-(
-JSRuntime
-*
-rt
-)
-;
 class
 nsScriptError
 :

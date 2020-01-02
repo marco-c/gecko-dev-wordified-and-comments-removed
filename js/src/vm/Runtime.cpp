@@ -999,12 +999,6 @@ JS_INIT_CLIST
 onNewGlobalObjectWatchers
 )
 ;
-PodZero
-(
-&
-debugHooks
-)
-;
 PodArrayZero
 (
 nativeStackQuota
