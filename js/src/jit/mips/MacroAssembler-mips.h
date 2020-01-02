@@ -1955,6 +1955,9 @@ uint32_t
 passedArgs_
 ;
 uint32_t
+passedArgTypes_
+;
+uint32_t
 usedArgSlots_
 ;
 MoveOp
