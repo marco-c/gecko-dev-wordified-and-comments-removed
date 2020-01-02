@@ -2051,12 +2051,9 @@ IOKit
 \
 -
 F
-/
-System
-/
-Library
-/
-PrivateFrameworks
+(
+MACOS_PRIVATE_FRAMEWORKS_DIR
+)
 -
 framework
 CoreUI
