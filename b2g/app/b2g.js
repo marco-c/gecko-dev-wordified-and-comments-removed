@@ -1374,6 +1374,18 @@ pref
 "
 geo
 .
+cell
+.
+scan
+"
+true
+)
+;
+pref
+(
+"
+geo
+.
 wifi
 .
 uri
@@ -1398,7 +1410,7 @@ geolocate
 key
 =
 %
-MOZILLA_API_KEY
+MOZ_MOZILLA_API_KEY
 %
 "
 )
