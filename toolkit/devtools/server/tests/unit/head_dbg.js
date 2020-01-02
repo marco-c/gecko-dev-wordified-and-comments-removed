@@ -248,6 +248,9 @@ throw
 ex
 }
 }
+return
+undefined
+;
 }
 function
 scriptErrorFlagsToKind
