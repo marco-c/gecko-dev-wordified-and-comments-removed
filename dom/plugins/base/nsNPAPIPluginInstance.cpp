@@ -2375,12 +2375,7 @@ NS_OK
 ;
 #
 if
-(
 MOZ_WIDGET_GTK
-=
-=
-2
-)
 if
 (
 !
