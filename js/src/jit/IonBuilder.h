@@ -2712,6 +2712,11 @@ jsop_initelem_getter_setter
 )
 ;
 bool
+jsop_mutateproto
+(
+)
+;
+bool
 jsop_initprop
 (
 PropertyName
