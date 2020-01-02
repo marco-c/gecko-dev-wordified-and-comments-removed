@@ -262,7 +262,7 @@ plugins
 namespace
 parent
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -274,6 +274,16 @@ sizeof
 (
 jsid
 )
+"
+NPIdentifier
+must
+be
+binary
+compatible
+with
+jsid
+.
+"
 )
 ;
 inline
