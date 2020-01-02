@@ -1341,6 +1341,16 @@ tab_thumbnail_default
 )
 ;
 }
+if
+(
+row
+.
+thumbnailWrapper
+!
+=
+null
+)
+{
 row
 .
 thumbnailWrapper
@@ -1354,6 +1364,7 @@ isRecording
 )
 )
 ;
+}
 row
 .
 title
