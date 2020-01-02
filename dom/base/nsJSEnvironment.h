@@ -453,8 +453,6 @@ static
 void
 ScheduledCycleCollectNow
 (
-int64_t
-aSliceTime
 )
 ;
 static
@@ -520,12 +518,6 @@ MaybePokeCC
 static
 void
 KillCCTimer
-(
-)
-;
-static
-void
-KillICCTimer
 (
 )
 ;
