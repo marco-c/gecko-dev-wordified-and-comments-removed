@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+asserts
+.
+js
+"
+)
+;
 var
 target
 =
@@ -59,8 +70,12 @@ args
 ;
 }
 }
-assertEq
+assertThrowsInstanceOf
 (
+function
+(
+)
+{
 new
 (
 new
@@ -74,6 +89,7 @@ handler
 2
 3
 )
-undefined
+}
+TypeError
 )
 ;
