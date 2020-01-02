@@ -568,6 +568,14 @@ unsigned
 channelConfiguration
 )
 {
+bits
+-
+>
+getBits
+(
+1
+)
+;
 unsigned
 dependsOnCoreCoder
 =
