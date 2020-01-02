@@ -449,7 +449,7 @@ window
 .
 gEditItemOverlay
 .
-onNamePickerChange
+onNamePickerBlur
 (
 )
 ;
