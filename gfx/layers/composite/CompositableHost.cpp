@@ -890,9 +890,12 @@ CompositableHost
 :
 DumpTextureHost
 (
-FILE
-*
-aFile
+std
+:
+:
+stringstream
+&
+aStream
 TextureHost
 *
 aTexture
@@ -1011,10 +1014,6 @@ surf
 >
 DumpAsDataURL
 (
-aFile
-?
-aFile
-:
 stderr
 )
 ;

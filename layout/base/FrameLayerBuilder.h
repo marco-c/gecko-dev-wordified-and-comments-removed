@@ -580,11 +580,12 @@ DumpRetainedLayerTree
 LayerManager
 *
 aManager
-FILE
-*
-aFile
-=
-stdout
+std
+:
+:
+stringstream
+&
+aStream
 bool
 aDumpHtml
 =

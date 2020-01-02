@@ -1028,9 +1028,12 @@ virtual
 void
 PrintInfo
 (
-nsACString
+std
+:
+:
+stringstream
 &
-aTo
+aStream
 const
 char
 *
