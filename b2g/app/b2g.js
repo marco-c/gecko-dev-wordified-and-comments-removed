@@ -6020,6 +6020,16 @@ true
 pref
 (
 "
+apz
+.
+axis_lock_mode
+"
+2
+)
+;
+pref
+(
+"
 gfx
 .
 canvas
