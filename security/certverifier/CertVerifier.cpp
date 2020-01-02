@@ -222,6 +222,9 @@ certverifier
 #
 endif
 }
+#
+if
+0
 static
 SECStatus
 insertErrorIntoVerifyLog
@@ -377,6 +380,8 @@ return
 SECSuccess
 ;
 }
+#
+endif
 static
 SECStatus
 ClassicVerifyCert
