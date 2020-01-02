@@ -787,7 +787,7 @@ SetAsString
 (
 )
 .
-SetData
+Rebind
 (
 errorMsg
 .

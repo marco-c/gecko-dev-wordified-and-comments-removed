@@ -30554,8 +30554,9 @@ defaultCode
 %
 s
 .
-SetNull
+SetIsVoid
 (
+true
 )
 "
 %
@@ -30574,7 +30575,7 @@ defaultValue
 %
 s
 .
-SetData
+Rebind
 "
 %
 varName
@@ -59773,7 +59774,7 @@ s
 (
 )
 .
-SetData
+Rebind
 (
 aData
 aLength
@@ -65970,7 +65971,7 @@ idName
 argName
 }
 .
-SetData
+Rebind
 (
 js
 :
