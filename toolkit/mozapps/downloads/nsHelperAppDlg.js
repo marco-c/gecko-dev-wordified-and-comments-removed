@@ -401,6 +401,12 @@ null
 ;
 this
 .
+mReason
+=
+null
+;
+this
+.
 chosenApp
 =
 null
@@ -537,6 +543,12 @@ this
 mContext
 =
 aContext
+;
+this
+.
+mReason
+=
+aReason
 ;
 const
 nsITimer
