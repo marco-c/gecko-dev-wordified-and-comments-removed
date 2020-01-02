@@ -147,6 +147,13 @@ javascript
 src
 =
 "
+chrome
+:
+/
+/
+mochikit
+/
+content
 /
 tests
 /
