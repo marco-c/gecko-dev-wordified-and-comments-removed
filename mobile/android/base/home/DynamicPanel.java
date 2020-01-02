@@ -103,7 +103,7 @@ gecko
 .
 util
 .
-UiAsyncTask
+UIAsyncTask
 ;
 import
 android
@@ -261,10 +261,10 @@ PanelAuthCache
 mPanelAuthCache
 ;
 private
-UiAsyncTask
+UIAsyncTask
+.
+WithoutParams
 <
-Void
-Void
 Boolean
 >
 mAuthStateTask
@@ -487,7 +487,6 @@ mAuthStateTask
 .
 cancel
 (
-true
 )
 ;
 mAuthStateTask
@@ -552,10 +551,10 @@ requiresAuth
 mAuthStateTask
 =
 new
-UiAsyncTask
+UIAsyncTask
+.
+WithoutParams
 <
-Void
-Void
 Boolean
 >
 (
@@ -572,11 +571,6 @@ synchronized
 Boolean
 doInBackground
 (
-Void
-.
-.
-.
-params
 )
 {
 return

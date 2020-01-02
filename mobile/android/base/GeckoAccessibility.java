@@ -89,7 +89,7 @@ gecko
 .
 util
 .
-UiAsyncTask
+UIAsyncTask
 ;
 import
 android
@@ -354,10 +354,10 @@ context
 )
 {
 new
-UiAsyncTask
+UIAsyncTask
+.
+WithoutParams
 <
-Void
-Void
 Void
 >
 (
@@ -373,11 +373,6 @@ public
 Void
 doInBackground
 (
-Void
-.
-.
-.
-args
 )
 {
 JSONObject

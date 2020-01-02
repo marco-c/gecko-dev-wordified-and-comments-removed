@@ -36,7 +36,7 @@ gecko
 .
 util
 .
-UiAsyncTask
+UIAsyncTask
 ;
 import
 org
@@ -396,10 +396,10 @@ return
 ;
 (
 new
-UiAsyncTask
+UIAsyncTask
+.
+WithoutParams
 <
-Void
-Void
 List
 <
 RemoteTab
@@ -421,11 +421,6 @@ RemoteTab
 >
 doInBackground
 (
-Void
-.
-.
-.
-unused
 )
 {
 Uri
