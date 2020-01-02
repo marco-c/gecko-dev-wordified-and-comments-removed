@@ -1355,6 +1355,13 @@ errResult
 bool
 IsCTypesGlobal
 (
+HandleValue
+v
+)
+;
+bool
+IsCTypesGlobal
+(
 JSObject
 *
 obj
