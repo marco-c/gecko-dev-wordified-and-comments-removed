@@ -485,7 +485,7 @@ BaseProxyHandler
 {
 MOZ_RELEASE_ASSERT
 (
-jsIsShutDown
+JS_IsShutDown
 (
 )
 "
