@@ -27162,6 +27162,7 @@ false
 0
 JSVAL_TYPE_UNKNOWN
 nullptr
+nullptr
 }
 ;
 static
@@ -27189,6 +27190,7 @@ false
 0
 JSVAL_TYPE_UNKNOWN
 nullptr
+nullptr
 }
 ;
 static
@@ -27215,6 +27217,7 @@ false
 false
 0
 JSVAL_TYPE_UNKNOWN
+nullptr
 nullptr
 }
 ;

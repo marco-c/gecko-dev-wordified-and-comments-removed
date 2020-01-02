@@ -298,6 +298,9 @@ attribute
 MozNamedAttrMap
 attributes
 ;
+[
+Pure
+]
 DOMString
 ?
 getAttribute
