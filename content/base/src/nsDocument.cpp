@@ -23878,7 +23878,7 @@ bool
 nsDocument
 :
 :
-IsRegisterElementEnabled
+IsWebComponentsEnabled
 (
 JSContext
 *

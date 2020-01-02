@@ -5600,7 +5600,7 @@ rv
 ;
 static
 bool
-IsRegisterElementEnabled
+IsWebComponentsEnabled
 (
 JSContext
 *

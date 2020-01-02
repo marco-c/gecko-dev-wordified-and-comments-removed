@@ -2810,6 +2810,12 @@ nsStyleLinkElement
 ParseLinkTypes
 (
 relVal
+aContent
+-
+>
+NodePrincipal
+(
+)
 )
 ;
 bool

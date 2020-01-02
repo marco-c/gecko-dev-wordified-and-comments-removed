@@ -1782,7 +1782,7 @@ Func
 nsDocument
 :
 :
-IsRegisterElementEnabled
+IsWebComponentsEnabled
 "
 ]
 object
