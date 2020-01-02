@@ -5832,6 +5832,17 @@ num_parseInt
 2
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+isSafeInteger
+"
+"
+Number_isSafeInteger
+"
+1
+0
+)
 JS_FS_END
 }
 ;
