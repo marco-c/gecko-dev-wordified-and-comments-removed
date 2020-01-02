@@ -137,13 +137,3 @@ DIRS
 shell
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-base
-/
-tests
-'
-]
