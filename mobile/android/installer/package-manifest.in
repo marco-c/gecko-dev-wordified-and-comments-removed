@@ -1074,13 +1074,6 @@ BINPATH
 /
 components
 /
-jsdservice
-.
-xpt
-BINPATH
-/
-components
-/
 jsdebugger
 .
 xpt
