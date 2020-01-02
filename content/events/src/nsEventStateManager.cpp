@@ -800,7 +800,7 @@ NS_ABORT_IF_FALSE
 aEvent
 -
 >
-IsMouseDerivedEvent
+AsMouseEvent
 (
 )
 "

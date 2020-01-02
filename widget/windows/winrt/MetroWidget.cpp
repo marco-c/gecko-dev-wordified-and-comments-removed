@@ -5418,7 +5418,7 @@ if
 event
 -
 >
-IsInputDerivedEvent
+AsInputEvent
 (
 )
 )
