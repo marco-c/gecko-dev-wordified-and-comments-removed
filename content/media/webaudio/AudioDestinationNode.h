@@ -53,6 +53,9 @@ class
 AudioContext
 ;
 class
+EventProxyHandler
+;
+class
 AudioDestinationNode
 :
 public
@@ -220,6 +223,11 @@ bool
 aIsOnlyNode
 )
 ;
+void
+CreateAudioChannelAgent
+(
+)
+;
 virtual
 const
 char
@@ -280,11 +288,6 @@ aValue
 )
 ;
 void
-CreateAudioChannelAgent
-(
-)
-;
-void
 SetCanPlay
 (
 bool
@@ -315,6 +318,12 @@ nsCOMPtr
 nsIAudioChannelAgent
 >
 mAudioChannelAgent
+;
+nsRefPtr
+<
+EventProxyHandler
+>
+mEventProxyHelper
 ;
 AudioChannel
 mAudioChannel

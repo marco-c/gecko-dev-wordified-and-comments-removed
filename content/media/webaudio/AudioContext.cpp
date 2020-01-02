@@ -461,6 +461,13 @@ aSampleRate
 mDestination
 -
 >
+CreateAudioChannelAgent
+(
+)
+;
+mDestination
+-
+>
 SetIsOnlyNodeForContext
 (
 true
