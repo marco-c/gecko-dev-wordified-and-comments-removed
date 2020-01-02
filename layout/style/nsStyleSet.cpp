@@ -7289,7 +7289,6 @@ flags
 =
 eIsLink
 ;
-}
 if
 (
 aOldStyleContext
@@ -7305,6 +7304,7 @@ flags
 =
 eIsVisitedLink
 ;
+}
 }
 return
 GetContext
