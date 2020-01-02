@@ -246,7 +246,7 @@ nsIDOMWindow
 >
 mWindowSource
 ;
-nsCOMPtr
+nsRefPtr
 <
 mozilla
 :
