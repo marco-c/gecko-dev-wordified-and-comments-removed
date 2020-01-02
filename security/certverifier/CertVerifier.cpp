@@ -45,6 +45,13 @@ h
 #
 include
 "
+ocsp
+.
+h
+"
+#
+include
+"
 secerr
 .
 h
@@ -529,6 +536,10 @@ VerifyCert
 CERTCertificate
 *
 cert
+const
+SECItem
+*
+stapledOCSPResponse
 const
 SECCertificateUsage
 usage
@@ -1922,6 +1933,10 @@ VerifySSLServerCert
 CERTCertificate
 *
 peerCert
+const
+SECItem
+*
+stapledOCSPResponse
 PRTime
 time
 void
@@ -2019,6 +2034,7 @@ rv
 VerifyCert
 (
 peerCert
+stapledOCSPResponse
 certificateUsageSSLServer
 time
 pinarg

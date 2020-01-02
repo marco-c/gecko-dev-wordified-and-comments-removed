@@ -418,6 +418,7 @@ certVerifier
 VerifyCert
 (
 mCert
+nullptr
 aCertUsage
 time
 nullptr

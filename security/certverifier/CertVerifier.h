@@ -53,6 +53,10 @@ CERTCertificate
 *
 cert
 const
+SECItem
+*
+stapledOCSPResponse
+const
 SECCertificateUsage
 usage
 const
@@ -95,6 +99,10 @@ VerifySSLServerCert
 CERTCertificate
 *
 peerCert
+const
+SECItem
+*
+stapledOCSPResponse
 PRTime
 time
 void

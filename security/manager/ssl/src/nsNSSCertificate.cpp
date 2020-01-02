@@ -4025,6 +4025,7 @@ mCert
 get
 (
 )
+nullptr
 certificateUsageSSLServer
 PR_Now
 (
@@ -4135,6 +4136,7 @@ mCert
 get
 (
 )
+nullptr
 usage
 PR_Now
 (
@@ -6972,6 +6974,7 @@ mCert
 get
 (
 )
+nullptr
 certificateUsageSSLServer
 PR_Now
 (
