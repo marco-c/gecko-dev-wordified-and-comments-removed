@@ -1044,7 +1044,7 @@ window
 .
 PanelUI
 .
-setMainView
+replaceMainView
 (
 window
 .
