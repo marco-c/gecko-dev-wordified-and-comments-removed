@@ -76,6 +76,9 @@ active_streams
 int
 waiting_pairs
 ;
+UCHAR
+checks_started
+;
 void
 *
 done_cb_timer
@@ -214,6 +217,17 @@ nr_ice_peer_ctx
 pctx
 int
 allow_non_first
+)
+;
+void
+nr_ice_peer_ctx_stream_started_checks
+(
+nr_ice_peer_ctx
+*
+pctx
+nr_ice_media_stream
+*
+stream
 )
 ;
 int

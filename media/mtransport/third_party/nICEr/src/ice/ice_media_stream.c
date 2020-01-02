@@ -1882,6 +1882,12 @@ stream
 )
 ;
 }
+nr_ice_peer_ctx_stream_started_checks
+(
+pctx
+stream
+)
+;
 _status
 =
 0
