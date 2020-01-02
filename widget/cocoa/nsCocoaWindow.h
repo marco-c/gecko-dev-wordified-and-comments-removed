@@ -1669,6 +1669,9 @@ mIsAnimationSuppressed
 bool
 mInReportMoveEvent
 ;
+bool
+mInResize
+;
 int32_t
 mNumModalDescendents
 ;
