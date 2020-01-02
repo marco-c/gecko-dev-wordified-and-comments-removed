@@ -22947,7 +22947,7 @@ layer
 }
 static
 nsRect
-ComputeOutlineAndEffectsRect
+ComputeEffectsRect
 (
 nsIFrame
 *
@@ -32970,7 +32970,7 @@ VisualOverflow
 (
 )
 =
-ComputeOutlineAndEffectsRect
+ComputeEffectsRect
 (
 this
 aOverflowAreas
