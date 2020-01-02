@@ -261,6 +261,13 @@ SEC_ERROR_BASE
 18
 ;
 const
+SEC_ERROR_UNTRUSTED_ISSUER
+=
+SEC_ERROR_BASE
++
+20
+;
+const
 SEC_ERROR_OCSP_MALFORMED_REQUEST
 =
 SEC_ERROR_BASE
@@ -389,6 +396,11 @@ const
 certificateUsageAnyCA
 =
 0x0800
+;
+const
+NO_FLAGS
+=
+0
 ;
 function
 readFile
