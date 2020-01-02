@@ -47,6 +47,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 CeilingLog2
@@ -58,6 +59,7 @@ i
 0
 )
 ;
+}
 for
 (
 uint32_t
@@ -74,6 +76,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 CeilingLog2
@@ -85,6 +88,7 @@ i
 1
 )
 ;
+}
 for
 (
 uint32_t
@@ -101,6 +105,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 CeilingLog2
@@ -112,6 +117,7 @@ i
 2
 )
 ;
+}
 for
 (
 uint32_t
@@ -128,6 +134,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 CeilingLog2
@@ -139,6 +146,7 @@ i
 3
 )
 ;
+}
 for
 (
 uint32_t
@@ -155,6 +163,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 CeilingLog2
@@ -166,6 +175,7 @@ i
 4
 )
 ;
+}
 }
 static
 void
@@ -189,6 +199,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 FloorLog2
@@ -200,6 +211,7 @@ i
 0
 )
 ;
+}
 for
 (
 uint32_t
@@ -216,6 +228,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 FloorLog2
@@ -227,6 +240,7 @@ i
 1
 )
 ;
+}
 for
 (
 uint32_t
@@ -243,6 +257,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 FloorLog2
@@ -254,6 +269,7 @@ i
 2
 )
 ;
+}
 for
 (
 uint32_t
@@ -270,6 +286,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 FloorLog2
@@ -281,6 +298,7 @@ i
 3
 )
 ;
+}
 for
 (
 uint32_t
@@ -297,6 +315,7 @@ i
 +
 +
 )
+{
 MOZ_RELEASE_ASSERT
 (
 FloorLog2
@@ -308,6 +327,7 @@ i
 4
 )
 ;
+}
 }
 static
 void

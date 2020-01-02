@@ -323,7 +323,7 @@ struct
 NonEmpty
 {
 char
-c
+mC
 ;
 NonEmpty
 (
@@ -387,12 +387,12 @@ A
 B
 (
 int
-i
+aI
 )
 :
 A
 (
-i
+aI
 )
 {
 }
@@ -430,12 +430,12 @@ EmptyClass
 OtherEmpty
 (
 int
-i
+aI
 )
 :
 EmptyClass
 (
-i
+aI
 )
 {
 }
@@ -446,4 +446,7 @@ main
 (
 )
 {
+return
+0
+;
 }

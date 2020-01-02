@@ -35,7 +35,7 @@ MOZ_DECLARE_REFCOUNTED_TYPENAME
 C
 )
 int
-num
+mNum
 ;
 void
 act
@@ -94,7 +94,7 @@ weak
 weak
 -
 >
-num
+mNum
 =
 17
 ;
@@ -161,7 +161,7 @@ MOZ_DECLARE_REFCOUNTED_TYPENAME
 A
 )
 int
-data
+mData
 ;
 }
 ;
@@ -187,7 +187,7 @@ A
 a
 -
 >
-data
+mData
 =
 5
 ;
@@ -223,7 +223,7 @@ MOZ_RELEASE_ASSERT
 ptr
 -
 >
-data
+mData
 =
 =
 5
@@ -247,7 +247,7 @@ MOZ_RELEASE_ASSERT
 ptr
 -
 >
-data
+mData
 =
 =
 5

@@ -783,7 +783,7 @@ union
 U1
 {
 int
-x
+mX
 ;
 }
 ;
@@ -1057,7 +1057,7 @@ struct
 NE1
 {
 int
-x
+mX
 ;
 }
 ;
@@ -3705,5 +3705,8 @@ TestIsBaseOf
 TestIsConvertible
 (
 )
+;
+return
+0
 ;
 }

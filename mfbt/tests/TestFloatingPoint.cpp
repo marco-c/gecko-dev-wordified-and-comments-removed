@@ -110,6 +110,16 @@ mozilla
 :
 UnspecifiedNaN
 ;
+#
+define
+A
+(
+a
+)
+MOZ_RELEASE_ASSERT
+(
+a
+)
 template
 <
 typename
@@ -120,26 +130,26 @@ void
 ShouldBeIdentical
 (
 T
-d1
+aD1
 T
-d2
+aD2
 )
 {
-MOZ_RELEASE_ASSERT
+A
 (
 NumbersAreIdentical
 (
-d1
-d2
+aD1
+aD2
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumbersAreIdentical
 (
-d2
-d1
+aD2
+aD1
 )
 )
 ;
@@ -154,28 +164,28 @@ void
 ShouldNotBeIdentical
 (
 T
-d1
+aD1
 T
-d2
+aD2
 )
 {
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumbersAreIdentical
 (
-d1
-d2
+aD1
+aD2
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumbersAreIdentical
 (
-d2
-d1
+aD2
+aD1
 )
 )
 ;
@@ -1979,7 +1989,7 @@ TestDoubleExponentComponent
 (
 )
 {
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2002,7 +2012,7 @@ kExponentBias
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2026,7 +2036,7 @@ kExponentBias
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2040,7 +2050,7 @@ ExponentComponent
 3
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2054,7 +2064,7 @@ ExponentComponent
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2067,7 +2077,7 @@ ExponentComponent
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2080,7 +2090,7 @@ ExponentComponent
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2093,7 +2103,7 @@ ExponentComponent
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2106,7 +2116,7 @@ ExponentComponent
 2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2130,7 +2140,7 @@ kExponentBias
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2154,7 +2164,7 @@ kExponentBias
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2185,7 +2195,7 @@ TestFloatExponentComponent
 (
 )
 {
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2208,7 +2218,7 @@ kExponentBias
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2232,7 +2242,7 @@ kExponentBias
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2246,7 +2256,7 @@ ExponentComponent
 3
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2260,7 +2270,7 @@ ExponentComponent
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2273,7 +2283,7 @@ ExponentComponent
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2286,7 +2296,7 @@ ExponentComponent
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2299,7 +2309,7 @@ ExponentComponent
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2312,7 +2322,7 @@ ExponentComponent
 2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2336,7 +2346,7 @@ kExponentBias
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2360,7 +2370,7 @@ kExponentBias
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 ExponentComponent
 (
@@ -2406,7 +2416,7 @@ TestDoublesPredicates
 (
 )
 {
-MOZ_RELEASE_ASSERT
+A
 (
 IsNaN
 (
@@ -2419,7 +2429,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNaN
 (
@@ -2435,7 +2445,7 @@ double
 )
 ;
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNaN
 (
@@ -2450,7 +2460,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -2461,7 +2471,7 @@ IsNaN
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -2473,7 +2483,7 @@ IsNaN
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -2484,7 +2494,7 @@ IsNaN
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -2498,7 +2508,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -2512,7 +2522,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsInfinite
 (
@@ -2525,7 +2535,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsInfinite
 (
@@ -2538,7 +2548,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -2552,7 +2562,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -2563,7 +2573,7 @@ IsInfinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -2575,7 +2585,7 @@ IsInfinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -2586,7 +2596,7 @@ IsInfinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsFinite
@@ -2600,7 +2610,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsFinite
@@ -2614,7 +2624,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsFinite
@@ -2628,7 +2638,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsFinite
 (
@@ -2638,7 +2648,7 @@ IsFinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsFinite
 (
@@ -2649,7 +2659,7 @@ IsFinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsFinite
 (
@@ -2659,7 +2669,7 @@ IsFinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegative
@@ -2673,7 +2683,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegative
 (
@@ -2686,7 +2696,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegative
 (
@@ -2697,7 +2707,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegative
@@ -2708,7 +2718,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegative
 (
@@ -2719,7 +2729,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegative
@@ -2730,7 +2740,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2744,7 +2754,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2758,7 +2768,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2775,7 +2785,7 @@ double
 )
 ;
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2791,7 +2801,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2808,7 +2818,7 @@ double
 )
 ;
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2824,7 +2834,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2838,7 +2848,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegativeZero
 (
@@ -2849,7 +2859,7 @@ IsNegativeZero
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2860,7 +2870,7 @@ IsNegativeZero
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2872,7 +2882,7 @@ IsNegativeZero
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -2886,7 +2896,7 @@ IsNegativeZero
 int32_t
 i
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberIsInt32
 (
@@ -2898,7 +2908,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -2906,7 +2916,7 @@ i
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -2920,7 +2930,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -2932,7 +2942,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -2940,7 +2950,7 @@ i
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -2953,7 +2963,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -2961,7 +2971,7 @@ i
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberIsInt32
 (
@@ -2974,7 +2984,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -2982,7 +2992,7 @@ i
 INT32_MIN
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberIsInt32
 (
@@ -2995,7 +3005,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3003,7 +3013,7 @@ i
 INT32_MAX
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -3016,7 +3026,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3024,7 +3034,7 @@ i
 INT32_MIN
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -3037,7 +3047,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3045,7 +3055,7 @@ i
 INT32_MAX
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3058,7 +3068,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3076,7 +3086,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3094,7 +3104,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3110,7 +3120,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3126,7 +3136,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3142,7 +3152,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -3155,7 +3165,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -3173,7 +3183,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -3191,7 +3201,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -3207,7 +3217,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -3223,7 +3233,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -3246,7 +3256,7 @@ TestFloatsPredicates
 (
 )
 {
-MOZ_RELEASE_ASSERT
+A
 (
 IsNaN
 (
@@ -3259,7 +3269,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNaN
 (
@@ -3275,7 +3285,7 @@ float
 )
 ;
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNaN
 (
@@ -3290,7 +3300,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -3301,7 +3311,7 @@ IsNaN
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -3313,7 +3323,7 @@ IsNaN
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -3324,7 +3334,7 @@ IsNaN
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -3338,7 +3348,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNaN
@@ -3352,7 +3362,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsInfinite
 (
@@ -3365,7 +3375,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsInfinite
 (
@@ -3378,7 +3388,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -3392,7 +3402,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -3403,7 +3413,7 @@ IsInfinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -3415,7 +3425,7 @@ IsInfinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsInfinite
@@ -3426,7 +3436,7 @@ IsInfinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsFinite
@@ -3440,7 +3450,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsFinite
@@ -3454,7 +3464,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsFinite
@@ -3468,7 +3478,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsFinite
 (
@@ -3478,7 +3488,7 @@ IsFinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsFinite
 (
@@ -3489,7 +3499,7 @@ IsFinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsFinite
 (
@@ -3499,7 +3509,7 @@ IsFinite
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegative
@@ -3513,7 +3523,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegative
 (
@@ -3526,7 +3536,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegative
 (
@@ -3537,7 +3547,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegative
@@ -3548,7 +3558,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegative
 (
@@ -3559,7 +3569,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegative
@@ -3570,7 +3580,7 @@ IsNegative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3584,7 +3594,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3598,7 +3608,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3615,7 +3625,7 @@ float
 )
 ;
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3631,7 +3641,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3648,7 +3658,7 @@ float
 )
 ;
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3664,7 +3674,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3678,7 +3688,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 IsNegativeZero
 (
@@ -3689,7 +3699,7 @@ IsNegativeZero
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3700,7 +3710,7 @@ IsNegativeZero
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3712,7 +3722,7 @@ IsNegativeZero
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 IsNegativeZero
@@ -3732,7 +3742,7 @@ BIG
 =
 2097151
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberIsInt32
 (
@@ -3744,7 +3754,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3752,7 +3762,7 @@ i
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3766,7 +3776,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -3778,7 +3788,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3786,7 +3796,7 @@ i
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -3799,7 +3809,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3807,7 +3817,7 @@ i
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberIsInt32
 (
@@ -3820,7 +3830,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3828,7 +3838,7 @@ i
 INT32_MIN
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberIsInt32
 (
@@ -3841,7 +3851,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3849,7 +3859,7 @@ i
 BIG
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -3862,7 +3872,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3870,7 +3880,7 @@ i
 INT32_MIN
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 NumberEqualsInt32
 (
@@ -3883,7 +3893,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 i
 =
@@ -3891,7 +3901,7 @@ i
 BIG
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3904,7 +3914,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3922,7 +3932,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3938,7 +3948,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3954,7 +3964,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberIsInt32
@@ -3970,7 +3980,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -3983,7 +3993,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -4001,7 +4011,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -4017,7 +4027,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -4033,7 +4043,7 @@ i
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 NumberEqualsInt32
@@ -4108,7 +4118,7 @@ epsilon
 .
 0f
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4123,7 +4133,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4138,7 +4148,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4153,7 +4163,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4168,7 +4178,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4184,7 +4194,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4200,7 +4210,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4215,7 +4225,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4230,7 +4240,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4246,7 +4256,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4265,7 +4275,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4284,7 +4294,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4304,7 +4314,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4322,7 +4332,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4341,7 +4351,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4369,7 +4379,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4398,7 +4408,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4418,7 +4428,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4439,7 +4449,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4454,7 +4464,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4469,7 +4479,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4484,7 +4494,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4500,7 +4510,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4516,7 +4526,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4532,7 +4542,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4553,7 +4563,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4575,7 +4585,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4602,7 +4612,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4630,7 +4640,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4649,7 +4659,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4670,7 +4680,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4698,7 +4708,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4727,7 +4737,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4743,7 +4753,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4771,7 +4781,7 @@ oneThird
 .
 0f
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4786,7 +4796,7 @@ oneThird
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -4801,7 +4811,7 @@ oneThird
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4825,7 +4835,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -4849,7 +4859,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4873,7 +4883,7 @@ float
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -4941,7 +4951,7 @@ epsilon
 .
 0
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4956,7 +4966,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4971,7 +4981,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -4986,7 +4996,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5001,7 +5011,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5017,7 +5027,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5033,7 +5043,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5048,7 +5058,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5063,7 +5073,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5079,7 +5089,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5098,7 +5108,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5117,7 +5127,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5137,7 +5147,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5155,7 +5165,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5174,7 +5184,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5202,7 +5212,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5231,7 +5241,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5251,7 +5261,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5272,7 +5282,7 @@ FuzzyEqualsAdditive
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5287,7 +5297,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5302,7 +5312,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5317,7 +5327,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5333,7 +5343,7 @@ epsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5349,7 +5359,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5365,7 +5375,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5386,7 +5396,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5408,7 +5418,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5435,7 +5445,7 @@ lessThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5463,7 +5473,7 @@ moreThanEpsilon
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5482,7 +5492,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5503,7 +5513,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5531,7 +5541,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5560,7 +5570,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5576,7 +5586,7 @@ FuzzyEqualsMultiplicative
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5604,7 +5614,7 @@ oneThird
 .
 0
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsAdditive
 (
@@ -5619,7 +5629,7 @@ oneThird
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 FuzzyEqualsMultiplicative
 (
@@ -5634,7 +5644,7 @@ oneThird
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5658,7 +5668,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsAdditive
@@ -5682,7 +5692,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5706,7 +5716,7 @@ double
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 FuzzyEqualsMultiplicative
@@ -5746,6 +5756,9 @@ TestDoublesAreApproximatelyEqual
 )
 ;
 }
+#
+undef
+A
 int
 main
 (
@@ -5766,5 +5779,8 @@ TestPredicates
 TestAreApproximatelyEqual
 (
 )
+;
+return
+0
 ;
 }

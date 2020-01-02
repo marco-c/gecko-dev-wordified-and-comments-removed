@@ -25,7 +25,7 @@ SHA1Sum
 static
 unsigned
 int
-testV
+gTestV
 [
 1024
 ]
@@ -1082,11 +1082,11 @@ uint8_t
 *
 >
 (
-testV
+gTestV
 )
 sizeof
 (
-testV
+gTestV
 )
 )
 ;

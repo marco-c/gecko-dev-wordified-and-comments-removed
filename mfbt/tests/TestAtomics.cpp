@@ -53,6 +53,18 @@ mozilla
 :
 SequentiallyConsistent
 ;
+#
+define
+A
+(
+a
+b
+)
+MOZ_RELEASE_ASSERT
+(
+a
+b
+)
 template
 <
 typename
@@ -76,7 +88,7 @@ atomic
 5
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -91,7 +103,7 @@ initialize
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 +
 +
@@ -111,7 +123,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 +
@@ -133,7 +145,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -153,7 +165,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 -
 -
@@ -170,7 +182,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 -
@@ -189,7 +201,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -221,7 +233,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -240,7 +252,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -272,7 +284,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -291,7 +303,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -322,7 +334,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -338,7 +350,7 @@ failed
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -369,7 +381,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -388,7 +400,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -420,7 +432,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -439,7 +451,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -471,7 +483,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -490,7 +502,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -522,7 +534,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -541,7 +553,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -573,7 +585,7 @@ T
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -592,7 +604,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -628,7 +640,7 @@ exchange
 42
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -646,7 +658,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -683,7 +695,7 @@ compareExchange
 2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 boolResult
@@ -697,7 +709,7 @@ false
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -728,7 +740,7 @@ compareExchange
 42
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 boolResult
 "
@@ -740,7 +752,7 @@ succeeded
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -793,7 +805,7 @@ atomic
 array1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -808,7 +820,7 @@ initialize
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 +
 +
@@ -827,7 +839,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 +
@@ -848,7 +860,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -867,7 +879,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 -
 -
@@ -886,7 +898,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 -
@@ -907,7 +919,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -937,7 +949,7 @@ atomic
 2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -955,7 +967,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -983,7 +995,7 @@ atomic
 1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1001,7 +1013,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -1028,7 +1040,7 @@ atomic
 array1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1043,7 +1055,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -1074,7 +1086,7 @@ exchange
 array1
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1089,7 +1101,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -1126,7 +1138,7 @@ array1
 2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 boolResult
@@ -1140,7 +1152,7 @@ false
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1170,7 +1182,7 @@ array1
 3
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 boolResult
 "
@@ -1182,7 +1194,7 @@ succeeded
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1242,7 +1254,7 @@ atomic
 EnumType_2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1268,7 +1280,7 @@ atomic
 EnumType_3
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1281,7 +1293,7 @@ failed
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -1310,7 +1322,7 @@ exchange
 EnumType_2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1325,7 +1337,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -1356,7 +1368,7 @@ EnumType_0
 EnumType_2
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 boolResult
@@ -1370,7 +1382,7 @@ false
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1398,7 +1410,7 @@ EnumType_1
 EnumType_3
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 boolResult
 "
@@ -1410,7 +1422,7 @@ succeeded
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1451,7 +1463,7 @@ atomic
 false
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1477,7 +1489,7 @@ atomic
 true
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1490,7 +1502,7 @@ failed
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -1519,7 +1531,7 @@ exchange
 true
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1534,7 +1546,7 @@ work
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 result
 =
@@ -1565,7 +1577,7 @@ true
 false
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 !
 boolResult
@@ -1579,7 +1591,7 @@ false
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1607,7 +1619,7 @@ false
 true
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 boolResult
 "
@@ -1619,7 +1631,7 @@ succeeded
 "
 )
 ;
-MOZ_RELEASE_ASSERT
+A
 (
 atomic
 =
@@ -1767,6 +1779,9 @@ Relaxed
 )
 ;
 }
+#
+undef
+A
 int
 main
 (
@@ -1837,5 +1852,8 @@ TestEnum
 TestBool
 (
 )
+;
+return
+0
 ;
 }

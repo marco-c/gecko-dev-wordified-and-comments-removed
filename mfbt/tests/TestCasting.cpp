@@ -1007,4 +1007,7 @@ TestToSmallerSize
 (
 )
 ;
+return
+0
+;
 }

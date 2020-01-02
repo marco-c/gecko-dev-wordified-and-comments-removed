@@ -467,7 +467,7 @@ struct
 Base
 {
 int
-x
+mX
 ;
 }
 ;
