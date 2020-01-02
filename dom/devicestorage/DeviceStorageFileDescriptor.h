@@ -38,6 +38,14 @@ ipc
 FileDescriptor
 mFileDescriptor
 ;
+private
+:
+~
+DeviceStorageFileDescriptor
+(
+)
+{
+}
 }
 ;
 #

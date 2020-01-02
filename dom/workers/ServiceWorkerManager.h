@@ -173,6 +173,14 @@ aScriptSpec
 class
 ServiceWorkerRegistration
 {
+private
+:
+~
+ServiceWorkerRegistration
+(
+)
+{
+}
 public
 :
 NS_INLINE_DECL_REFCOUNTING
