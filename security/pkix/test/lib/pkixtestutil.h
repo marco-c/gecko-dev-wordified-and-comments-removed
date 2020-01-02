@@ -305,7 +305,7 @@ char
 cn
 )
 ;
-SECStatus
+Result
 TamperOnce
 (
 SECItem

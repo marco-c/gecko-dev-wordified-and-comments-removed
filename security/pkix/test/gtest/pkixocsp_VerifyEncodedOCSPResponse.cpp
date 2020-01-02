@@ -2420,8 +2420,9 @@ UnsafeMapInputToSECItem
 response
 )
 ;
-ASSERT_SECSuccess
+ASSERT_EQ
 (
+Success
 TamperOnce
 (
 responseSECItem
