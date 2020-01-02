@@ -1233,6 +1233,10 @@ HandleInputEvent
 touchEvent
 )
 ;
+mState
+=
+GESTURE_NONE
+;
 }
 rv
 =
