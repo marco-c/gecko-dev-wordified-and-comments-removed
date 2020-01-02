@@ -667,11 +667,11 @@ setMetadata
 (
 DOMString
 id
-optional
 Date
+?
 published
-optional
 Date
+?
 updated
 )
 ;
