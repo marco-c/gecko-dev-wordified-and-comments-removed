@@ -325,6 +325,15 @@ extraFile
 )
 ;
 bool
+WriteScreenShotToFile
+(
+const
+nsAString
+&
+id
+)
+;
+bool
 AppendExtraData
 (
 const
