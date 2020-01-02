@@ -271,16 +271,12 @@ imageSurf
 )
 ;
 }
-dataSurf
-=
+return
 new
 DataSourceSurfaceWrapper
 (
 dataSurf
 )
-;
-return
-dataSurf
 ;
 }
 cairo_surface_t

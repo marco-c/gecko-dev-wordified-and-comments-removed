@@ -431,6 +431,10 @@ mPathOps
 ;
 return
 recording
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
@@ -617,6 +621,10 @@ newPathOp
 }
 return
 recording
+.
+forget
+(
+)
 ;
 }
 }

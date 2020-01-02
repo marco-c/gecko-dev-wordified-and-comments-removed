@@ -293,6 +293,10 @@ mTexture
 ;
 return
 dataSurf
+.
+forget
+(
+)
 ;
 }
 void

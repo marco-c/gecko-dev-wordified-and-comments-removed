@@ -646,6 +646,10 @@ ctx
 }
 return
 newPath
+.
+forget
+(
+)
 ;
 }
 #

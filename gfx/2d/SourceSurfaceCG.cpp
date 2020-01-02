@@ -128,16 +128,12 @@ DataSourceSurfaceCG
 mImage
 )
 ;
-dataSurf
-=
+return
 new
 DataSourceSurfaceWrapper
 (
 dataSurf
 )
-;
-return
-dataSurf
 ;
 }
 static

@@ -450,8 +450,6 @@ return
 ret
 ;
 }
-else
-{
 return
 ScaledFontBase
 :
@@ -462,7 +460,6 @@ aBuffer
 aTarget
 )
 ;
-}
 }
 void
 ScaledFontMac

@@ -598,6 +598,10 @@ alpha
 }
 return
 target
+.
+forget
+(
+)
 ;
 }
 TemporaryRef
