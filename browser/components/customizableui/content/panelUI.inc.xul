@@ -195,6 +195,11 @@ appMenuCustomize
 label
 ;
 "
+tabindex
+=
+"
+0
+"
 oncommand
 =
 "
@@ -262,6 +267,11 @@ helpMenu
 label
 ;
 "
+tabindex
+=
+"
+0
+"
 oncommand
 =
 "
@@ -320,6 +330,11 @@ id
 "
 appMenuClearRecentHistory
 "
+tabindex
+=
+"
+0
+"
 label
 =
 "
@@ -346,6 +361,11 @@ id
 =
 "
 appMenuRestoreLastSession
+"
+tabindex
+=
+"
+0
 "
 label
 =
