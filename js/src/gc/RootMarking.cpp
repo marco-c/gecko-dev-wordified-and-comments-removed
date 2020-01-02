@@ -3988,6 +3988,7 @@ CompartmentsIter
 c
 (
 rt
+SkipAtoms
 )
 ;
 !
@@ -4468,6 +4469,7 @@ ZonesIter
 zone
 (
 rt
+SkipAtoms
 )
 ;
 !
@@ -4639,6 +4641,7 @@ CompartmentsIter
 c
 (
 rt
+SkipAtoms
 )
 ;
 !
@@ -4781,6 +4784,7 @@ CompartmentsIter
 c
 (
 rt
+SkipAtoms
 )
 ;
 !

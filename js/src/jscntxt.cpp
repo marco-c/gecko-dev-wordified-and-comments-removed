@@ -1312,6 +1312,7 @@ CompartmentsIter
 c
 (
 rt
+SkipAtoms
 )
 ;
 !

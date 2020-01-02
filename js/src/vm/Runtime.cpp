@@ -1725,6 +1725,7 @@ CompartmentsIter
 comp
 (
 this
+SkipAtoms
 )
 ;
 !
@@ -1779,6 +1780,7 @@ CompartmentsIter
 comp
 (
 this
+SkipAtoms
 )
 ;
 !
@@ -3088,6 +3090,7 @@ ZonesIter
 zone
 (
 this
+WithAtoms
 )
 ;
 !

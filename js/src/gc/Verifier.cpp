@@ -63,6 +63,13 @@ h
 #
 include
 "
+jscntxtinlines
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h
@@ -1132,6 +1139,7 @@ CompartmentsIter
 c
 (
 rt
+SkipAtoms
 )
 ;
 !
@@ -1167,6 +1175,7 @@ AutoCopyFreeListToArenas
 copy
 (
 rt
+WithAtoms
 )
 ;
 ConservativeGCData
@@ -2059,10 +2068,17 @@ gcreason
 API
 )
 ;
+AutoLockForExclusiveAccess
+lock
+(
+rt
+)
+;
 AutoPrepareForTracing
 prep
 (
 rt
+WithAtoms
 )
 ;
 if
@@ -2444,6 +2460,7 @@ ZonesIter
 zone
 (
 rt
+WithAtoms
 )
 ;
 !
@@ -2770,6 +2787,7 @@ AutoPrepareForTracing
 prep
 (
 rt
+SkipAtoms
 )
 ;
 VerifyPreTracer
@@ -2803,6 +2821,7 @@ ZonesIter
 zone
 (
 rt
+WithAtoms
 )
 ;
 !
@@ -3516,6 +3535,7 @@ AutoPrepareForTracing
 prep
 (
 rt
+SkipAtoms
 )
 ;
 VerifyPostTracer

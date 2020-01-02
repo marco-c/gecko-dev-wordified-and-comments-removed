@@ -7331,6 +7331,7 @@ CompartmentsIter
 c
 (
 rt
+SkipAtoms
 )
 ;
 !
@@ -10176,6 +10177,7 @@ cx
 runtime
 (
 )
+SkipAtoms
 )
 ;
 !
@@ -13601,6 +13603,7 @@ cx
 runtime
 (
 )
+SkipAtoms
 )
 ;
 !
