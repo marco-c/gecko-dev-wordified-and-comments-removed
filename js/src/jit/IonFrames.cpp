@@ -5025,7 +5025,7 @@ prevFp
 }
 static
 void
-MarkIonExitFrame
+MarkJitExitFrame
 (
 JSTracer
 *
@@ -6295,7 +6295,7 @@ type
 case
 IonFrame_Exit
 :
-MarkIonExitFrame
+MarkJitExitFrame
 (
 trc
 frames
