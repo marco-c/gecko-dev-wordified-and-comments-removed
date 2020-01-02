@@ -459,17 +459,3 @@ B2G
 timeouts
 bug
 920338
-test
--
-pref
-(
-media
-.
-mediasource
-.
-enabled
-true
-)
-926665
-.
-html
