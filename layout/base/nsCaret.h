@@ -327,6 +327,11 @@ SchedulePaint
 )
 ;
 void
+CheckSelectionLanguageChange
+(
+)
+;
+void
 KillTimer
 (
 )
@@ -504,9 +509,6 @@ mShowDuringSelection
 ;
 bool
 mIgnoreUserModify
-;
-bool
-mKeyboardRTL
 ;
 uint8_t
 mLastBidiLevel
