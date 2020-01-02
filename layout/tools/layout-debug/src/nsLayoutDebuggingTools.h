@@ -1,4 +1,10 @@
 #
+ifndef
+nsLayoutDebuggingTools_h
+#
+define
+nsLayoutDebuggingTools_h
+#
 include
 "
 nsILayoutDebuggingTools
@@ -107,3 +113,5 @@ mReflowCounts
 ;
 }
 ;
+#
+endif
