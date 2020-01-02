@@ -1578,7 +1578,6 @@ Set
 {
 return
 (
-(
 SetInTable
 -
 >
@@ -1625,7 +1624,6 @@ GetInterfaceAt
 =
 =
 Addition
-)
 )
 ;
 }

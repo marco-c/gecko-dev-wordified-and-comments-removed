@@ -340,7 +340,6 @@ typedMem
 )
 ;
 return
-(
 typedMem
 >
 =
@@ -356,7 +355,6 @@ cx
 -
 >
 targetRegionEnd
-)
 ;
 }
 bool

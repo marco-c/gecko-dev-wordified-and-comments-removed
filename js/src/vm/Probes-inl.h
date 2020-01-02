@@ -86,7 +86,6 @@ cx
 )
 {
 return
-(
 cx
 -
 >
@@ -103,7 +102,6 @@ cx
 >
 =
 JITREPORT_GRANULARITY_FUNCTION
-)
 ;
 }
 inline

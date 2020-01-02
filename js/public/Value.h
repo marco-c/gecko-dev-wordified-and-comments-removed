@@ -8765,7 +8765,6 @@ i
 )
 {
 return
-(
 i
 <
 =
@@ -8785,7 +8784,6 @@ DOUBLE_TO_JSVAL
 double
 )
 i
-)
 )
 ;
 }

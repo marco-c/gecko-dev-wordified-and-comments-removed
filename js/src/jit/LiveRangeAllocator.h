@@ -2695,7 +2695,6 @@ vreg
 ifdef
 JS_NUNBOX32
 return
-(
 vreg
 -
 >
@@ -2722,7 +2721,6 @@ LDefinition
 :
 :
 PAYLOAD
-)
 ;
 #
 else

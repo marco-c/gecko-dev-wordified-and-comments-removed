@@ -30108,7 +30108,6 @@ isByteArray
 const
 {
 return
-(
 arrayType_
 =
 =
@@ -30134,7 +30133,6 @@ Scalar
 :
 :
 Uint8Clamped
-)
 ;
 }
 bool
@@ -30144,7 +30142,6 @@ isFloatArray
 const
 {
 return
-(
 arrayType_
 =
 =
@@ -30161,7 +30158,6 @@ Scalar
 :
 :
 Float64
-)
 ;
 }
 TypePolicy
@@ -30498,7 +30494,6 @@ isByteArray
 const
 {
 return
-(
 arrayType_
 =
 =
@@ -30524,7 +30519,6 @@ Scalar
 :
 :
 Uint8Clamped
-)
 ;
 }
 bool
@@ -30534,7 +30528,6 @@ isFloatArray
 const
 {
 return
-(
 arrayType_
 =
 =
@@ -30551,7 +30544,6 @@ Scalar
 :
 :
 Float64
-)
 ;
 }
 TypePolicy
@@ -30794,7 +30786,6 @@ isFloatArray
 const
 {
 return
-(
 viewType
 (
 )
@@ -30815,7 +30806,6 @@ Scalar
 :
 :
 Float64
-)
 ;
 }
 void
