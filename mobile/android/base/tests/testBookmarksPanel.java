@@ -87,6 +87,10 @@ data
 =
 null
 ;
+initializeProfile
+(
+)
+;
 mDatabaseHelper
 .
 addOrUpdateMobileBookmark
