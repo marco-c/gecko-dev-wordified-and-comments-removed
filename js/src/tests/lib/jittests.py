@@ -2828,6 +2828,17 @@ Queue
 (
 )
     
+total_tests
+=
+len
+(
+tests
+)
+*
+options
+.
+repeat
+    
 result_process_return_queue
 =
 queue_manager
@@ -2851,10 +2862,7 @@ async_test_result_queue
 result_process_return_queue
                                    
 notify_queue
-len
-(
-tests
-)
+total_tests
 options
 )
 )
@@ -2953,10 +2961,7 @@ min
 options
 .
 max_jobs
-len
-(
-tests
-)
+total_tests
 )
 )
 :
@@ -2980,12 +2985,21 @@ if
 (
 testcnt
 <
+total_tests
+)
+:
+                
+test
+=
+tests
+[
+testcnt
+%
 len
 (
 tests
 )
-)
-:
+]
                 
 worker_process
 =
@@ -2997,10 +3011,7 @@ wrap_parallel_run_test
 args
 =
 (
-tests
-[
-testcnt
-]
+test
 prefix
 async_test_result_queue
 options
@@ -4027,11 +4038,23 @@ options
 :
     
 for
+i
+in
+xrange
+(
+0
+options
+.
+repeat
+)
+:
+        
+for
 test
 in
 tests
 :
-        
+            
 yield
 run_test
 (
@@ -4066,6 +4089,10 @@ len
 (
 tests
 )
+*
+options
+.
+repeat
 options
 )
     
@@ -4082,11 +4109,23 @@ options
 :
     
 for
+i
+in
+xrange
+(
+0
+options
+.
+repeat
+)
+:
+        
+for
 test
 in
 tests
 :
-        
+            
 yield
 run_test_remote
 (
@@ -4541,6 +4580,10 @@ len
 (
 tests
 )
+*
+options
+.
+repeat
 options
 )
     
