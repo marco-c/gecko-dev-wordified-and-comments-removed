@@ -207,6 +207,10 @@ browser_bug765105_background_image_tooltip
 .
 js
 \
+browser_bug889638_rule_view_color_picker
+.
+js
+\
 head
 .
 js
