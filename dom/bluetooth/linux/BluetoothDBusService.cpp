@@ -11970,9 +11970,6 @@ IsConnected
 )
 ;
 }
-#
-ifdef
-MOZ_B2G_RIL
 void
 BluetoothDBusService
 :
@@ -12120,8 +12117,6 @@ EmptyString
 )
 ;
 }
-#
-endif
 class
 OnUpdateSdpRecordsRunnable
 :
