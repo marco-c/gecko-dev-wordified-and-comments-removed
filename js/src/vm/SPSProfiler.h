@@ -1327,6 +1327,9 @@ enabled
 return
 true
 ;
+#
+ifdef
+JS_ION
 if
 (
 !
@@ -1341,6 +1344,8 @@ js_JitOptions
 profileInlineFrames
 )
 {
+#
+endif
 const
 char
 *
@@ -1380,7 +1385,12 @@ script
 scratch
 )
 ;
+#
+ifdef
+JS_ION
 }
+#
+endif
 setPushed
 (
 script
@@ -1416,6 +1426,9 @@ enabled
 )
 return
 ;
+#
+ifdef
+JS_ION
 if
 (
 !
@@ -1429,6 +1442,8 @@ js_JitOptions
 .
 profileInlineFrames
 )
+#
+endif
 masm
 .
 spsUpdatePCIdx
@@ -1503,6 +1518,9 @@ frame
 >
 script
 ;
+#
+ifdef
+JS_ION
 if
 (
 !
@@ -1557,6 +1575,11 @@ script
 ;
 }
 }
+#
+endif
+#
+ifdef
+JS_ION
 if
 (
 !
@@ -1570,6 +1593,8 @@ js_JitOptions
 .
 profileInlineFrames
 )
+#
+endif
 masm
 .
 spsUpdatePCIdx
@@ -1635,6 +1660,7 @@ frame
 >
 skipNext
 )
+{
 frame
 -
 >
@@ -1642,7 +1668,12 @@ skipNext
 =
 false
 ;
+}
 else
+{
+#
+ifdef
+JS_ION
 if
 (
 !
@@ -1656,6 +1687,8 @@ js_JitOptions
 .
 profileInlineFrames
 )
+#
+endif
 masm
 .
 spsUpdatePCIdx
@@ -1668,6 +1701,7 @@ NullPCIndex
 scratch
 )
 ;
+}
 }
 void
 pop
@@ -1709,6 +1743,9 @@ frame
 script
 )
 ;
+#
+ifdef
+JS_ION
 if
 (
 !
@@ -1722,6 +1759,8 @@ js_JitOptions
 .
 profileInlineFrames
 )
+#
+endif
 masm
 .
 spsPopFrame
