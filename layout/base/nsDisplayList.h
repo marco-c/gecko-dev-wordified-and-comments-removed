@@ -7420,6 +7420,10 @@ mOverrideZIndex
 (
 0
 )
+mHasZIndexOverride
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -7813,9 +7817,7 @@ MOZ_OVERRIDE
 {
 return
 (
-mOverrideZIndex
->
-0
+mHasZIndexOverride
 )
 ?
 mOverrideZIndex
@@ -7835,6 +7837,10 @@ int32_t
 aZIndex
 )
 {
+mHasZIndexOverride
+=
+true
+;
 mOverrideZIndex
 =
 aZIndex
@@ -7954,6 +7960,9 @@ mBounds
 ;
 int32_t
 mOverrideZIndex
+;
+bool
+mHasZIndexOverride
 ;
 }
 ;
