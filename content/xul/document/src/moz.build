@@ -121,11 +121,6 @@ CPP_SOURCES
 =
 [
 '
-XULDocument
-.
-cpp
-'
-'
 nsXULCommandDispatcher
 .
 cpp
@@ -142,6 +137,11 @@ cpp
 '
 '
 nsXULPrototypeDocument
+.
+cpp
+'
+'
+XULDocument
 .
 cpp
 '

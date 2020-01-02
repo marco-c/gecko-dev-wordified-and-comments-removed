@@ -123,12 +123,12 @@ nsIRDFDelegateFactory
 idl
 '
 '
-nsIRDFInMemoryDataSource
+nsIRDFInferDataSource
 .
 idl
 '
 '
-nsIRDFInferDataSource
+nsIRDFInMemoryDataSource
 .
 idl
 '

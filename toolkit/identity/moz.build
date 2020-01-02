@@ -163,6 +163,11 @@ IdentityUtils
 jsm
 '
 '
+jwcrypto
+.
+jsm
+'
+'
 LogUtils
 .
 jsm
@@ -179,11 +184,6 @@ jsm
 '
 '
 Sandbox
-.
-jsm
-'
-'
-jwcrypto
 .
 jsm
 '

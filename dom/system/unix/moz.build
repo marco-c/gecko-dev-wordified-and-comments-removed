@@ -111,12 +111,12 @@ CPP_SOURCES
 =
 [
 '
-QTMLocationProvider
+moc_QTMLocationProvider
 .
 cpp
 '
 '
-moc_QTMLocationProvider
+QTMLocationProvider
 .
 cpp
 '

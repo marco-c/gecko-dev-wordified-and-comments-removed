@@ -131,11 +131,6 @@ FixedTableLayoutStrategy
 cpp
 '
 '
-SpanningCellSorter
-.
-cpp
-'
-'
 nsCellMap
 .
 cpp
@@ -177,6 +172,11 @@ cpp
 '
 '
 nsTableRowGroupFrame
+.
+cpp
+'
+'
+SpanningCellSorter
 .
 cpp
 '

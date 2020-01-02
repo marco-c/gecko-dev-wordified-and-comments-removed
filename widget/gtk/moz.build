@@ -143,11 +143,6 @@ CPP_SOURCES
 =
 [
 '
-WidgetTraceEvent
-.
-cpp
-'
-'
 nsAppShell
 .
 cpp
@@ -227,6 +222,11 @@ nsWindow
 .
 cpp
 '
+'
+WidgetTraceEvent
+.
+cpp
+'
 ]
 if
 CONFIG
@@ -269,11 +269,6 @@ nsDeviceContextSpecG
 cpp
 '
 '
-nsPSPrinters
-.
-cpp
-'
-'
 nsPaperPS
 .
 cpp
@@ -290,6 +285,11 @@ cpp
 '
 '
 nsPrintSettingsGTK
+.
+cpp
+'
+'
+nsPSPrinters
 .
 cpp
 '

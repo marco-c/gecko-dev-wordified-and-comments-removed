@@ -268,12 +268,12 @@ mozilla
 =
 [
 '
-SSE
+arm
 .
 h
 '
 '
-arm
+SSE
 .
 h
 '

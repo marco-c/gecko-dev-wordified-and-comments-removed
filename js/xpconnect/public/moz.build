@@ -103,7 +103,7 @@ EXPORTS
 =
 [
 '
-SandboxPrivate
+nsAutoJSValHolder
 .
 h
 '
@@ -113,12 +113,12 @@ nsAXPCNativeCallContext
 h
 '
 '
-nsAutoJSValHolder
+nsTArrayHelpers
 .
 h
 '
 '
-nsTArrayHelpers
+SandboxPrivate
 .
 h
 '

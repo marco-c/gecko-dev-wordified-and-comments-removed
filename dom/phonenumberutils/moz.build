@@ -121,6 +121,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+mcc_iso3166_table
+.
+jsm
+'
+'
 PhoneNumber
 .
 jsm
@@ -132,11 +137,6 @@ jsm
 '
 '
 PhoneNumberNormalizer
-.
-jsm
-'
-'
-mcc_iso3166_table
 .
 jsm
 '

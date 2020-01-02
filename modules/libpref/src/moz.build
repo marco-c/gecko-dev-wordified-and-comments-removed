@@ -103,11 +103,6 @@ CPP_SOURCES
 =
 [
 '
-Preferences
-.
-cpp
-'
-'
 nsPrefBranch
 .
 cpp
@@ -119,6 +114,11 @@ cpp
 '
 '
 prefapi
+.
+cpp
+'
+'
+Preferences
 .
 cpp
 '

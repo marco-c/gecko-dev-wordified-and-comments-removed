@@ -374,12 +374,12 @@ CPP_SOURCES
 =
 [
 '
-NestedLoopTimer
+moc_NestedLoopTimer
 .
 cpp
 '
 '
-moc_NestedLoopTimer
+NestedLoopTimer
 .
 cpp
 '

@@ -103,11 +103,6 @@ EXPORTS
 =
 [
 '
-MPAPI
-.
-h
-'
-'
 MediaPluginDecoder
 .
 h
@@ -124,6 +119,11 @@ h
 '
 '
 MediaResourceServer
+.
+h
+'
+'
+MPAPI
 .
 h
 '

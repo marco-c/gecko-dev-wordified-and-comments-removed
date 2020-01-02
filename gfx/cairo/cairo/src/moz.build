@@ -258,6 +258,8 @@ cairo
 cairo
 -
 os2
+-
+private
 .
 h
 '
@@ -265,8 +267,6 @@ h
 cairo
 -
 os2
--
-private
 .
 h
 '

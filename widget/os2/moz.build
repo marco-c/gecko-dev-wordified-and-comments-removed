@@ -148,12 +148,12 @@ nsOS2Uni
 cpp
 '
 '
-nsPrintOS2
+nsPrintOptionsOS2
 .
 cpp
 '
 '
-nsPrintOptionsOS2
+nsPrintOS2
 .
 cpp
 '

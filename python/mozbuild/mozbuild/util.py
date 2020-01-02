@@ -1467,6 +1467,16 @@ srtd
 sorted
 (
 l
+key
+=
+lambda
+x
+:
+x
+.
+lower
+(
+)
 )
         
 if

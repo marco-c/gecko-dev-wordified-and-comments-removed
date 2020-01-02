@@ -187,6 +187,11 @@ BrowserStartup
 js
 '
 '
+components
+.
+manifest
+'
+'
 DirectoryProvider
 .
 js
@@ -205,10 +210,5 @@ js
 Sidebar
 .
 js
-'
-'
-components
-.
-manifest
 '
 ]

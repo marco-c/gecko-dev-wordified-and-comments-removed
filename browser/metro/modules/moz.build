@@ -98,6 +98,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+colorUtils
+.
+jsm
+'
+'
 ContentUtil
 .
 jsm
@@ -109,11 +114,6 @@ jsm
 '
 '
 View
-.
-jsm
-'
-'
-colorUtils
 .
 jsm
 '

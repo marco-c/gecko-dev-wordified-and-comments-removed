@@ -149,6 +149,11 @@ CallbackObject
 h
 '
 '
+Date
+.
+h
+'
+'
 DOMJSClass
 .
 h
@@ -160,11 +165,6 @@ h
 '
 '
 DOMString
-.
-h
-'
-'
-Date
 .
 h
 '

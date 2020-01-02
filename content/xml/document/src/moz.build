@@ -117,11 +117,6 @@ CPP_SOURCES
 =
 [
 '
-XMLDocument
-.
-cpp
-'
-'
 nsXMLContentSink
 .
 cpp
@@ -133,6 +128,11 @@ cpp
 '
 '
 nsXMLPrettyPrinter
+.
+cpp
+'
+'
+XMLDocument
 .
 cpp
 '

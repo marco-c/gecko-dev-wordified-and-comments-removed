@@ -133,11 +133,6 @@ nsIContentURIGrouper
 idl
 '
 '
-nsIDOMCRMFObject
-.
-idl
-'
-'
 nsIDOMChromeWindow
 .
 idl
@@ -154,6 +149,11 @@ idl
 '
 '
 nsIDOMConstructor
+.
+idl
+'
+'
+nsIDOMCRMFObject
 .
 idl
 '

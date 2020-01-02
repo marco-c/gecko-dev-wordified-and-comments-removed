@@ -179,12 +179,12 @@ net
 =
 [
 '
-CookieServiceParent
+CookieServiceChild
 .
 h
 '
 '
-CookieServiceChild
+CookieServiceParent
 .
 h
 '

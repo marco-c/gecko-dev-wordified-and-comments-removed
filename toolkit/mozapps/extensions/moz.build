@@ -116,12 +116,12 @@ amIInstallTrigger
 idl
 '
 '
-amIWebInstallListener
+amIWebInstaller
 .
 idl
 '
 '
-amIWebInstaller
+amIWebInstallListener
 .
 idl
 '

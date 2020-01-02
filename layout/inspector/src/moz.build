@@ -123,12 +123,12 @@ inCSSValueSearch
 cpp
 '
 '
-inDOMUtils
+inDeepTreeWalker
 .
 cpp
 '
 '
-inDeepTreeWalker
+inDOMUtils
 .
 cpp
 '

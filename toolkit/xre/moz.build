@@ -400,11 +400,6 @@ CreateAppData
 cpp
 '
 '
-ProfileReset
-.
-cpp
-'
-'
 nsAppRunner
 .
 cpp
@@ -431,6 +426,11 @@ cpp
 '
 '
 nsXREDirProvider
+.
+cpp
+'
+'
+ProfileReset
 .
 cpp
 '

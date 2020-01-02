@@ -103,12 +103,12 @@ EXPORTS
 =
 [
 '
-ANPKeyCodes
+android_npapi
 .
 h
 '
 '
-android_npapi
+ANPKeyCodes
 .
 h
 '

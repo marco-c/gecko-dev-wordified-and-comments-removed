@@ -147,12 +147,12 @@ CPP_SOURCES
 =
 [
 '
-StartupTimeline
+nsAppStartup
 .
 cpp
 '
 '
-nsAppStartup
+StartupTimeline
 .
 cpp
 '

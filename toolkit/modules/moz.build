@@ -111,6 +111,11 @@ AsyncShutdown
 jsm
 '
 '
+debug
+.
+js
+'
+'
 DeferredTask
 .
 jsm
@@ -279,11 +284,6 @@ jsm
 Timer
 .
 jsm
-'
-'
-debug
-.
-js
 '
 ]
 EXTRA_PP_JS_MODULES

@@ -168,11 +168,6 @@ LookupCache
 cpp
 '
 '
-ProtocolParser
-.
-cpp
-'
-'
 nsCheckSummedOutputStream
 .
 cpp
@@ -199,6 +194,11 @@ cpp
 '
 '
 nsUrlClassifierUtils
+.
+cpp
+'
+'
+ProtocolParser
 .
 cpp
 '

@@ -103,12 +103,12 @@ EXPORTS
 =
 [
 '
-nsAString
+nsAlgorithm
 .
 h
 '
 '
-nsAlgorithm
+nsAString
 .
 h
 '

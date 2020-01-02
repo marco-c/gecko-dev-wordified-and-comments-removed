@@ -141,12 +141,12 @@ CPP_SOURCES
 =
 [
 '
-SQLFunctions
+nsDownloadManager
 .
 cpp
 '
 '
-nsDownloadManager
+SQLFunctions
 .
 cpp
 '

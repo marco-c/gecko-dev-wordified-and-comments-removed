@@ -123,12 +123,12 @@ nsSHEntryShared
 cpp
 '
 '
-nsSHTransaction
+nsSHistory
 .
 cpp
 '
 '
-nsSHistory
+nsSHTransaction
 .
 cpp
 '

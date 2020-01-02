@@ -124,12 +124,12 @@ EXPORTS
 =
 [
 '
-PCOMContentPermissionRequestChild
+nsICachedFileDescriptorListener
 .
 h
 '
 '
-nsICachedFileDescriptorListener
+PCOMContentPermissionRequestChild
 .
 h
 '

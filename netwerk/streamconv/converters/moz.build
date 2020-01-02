@@ -167,12 +167,12 @@ CPP_SOURCES
 =
 [
 '
-ParseFTPList
+nsFTPDirListingConv
 .
 cpp
 '
 '
-nsFTPDirListingConv
+ParseFTPList
 .
 cpp
 '

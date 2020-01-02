@@ -103,12 +103,12 @@ CPP_SOURCES
 =
 [
 '
-PicoModule
+nsPicoService
 .
 cpp
 '
 '
-nsPicoService
+PicoModule
 .
 cpp
 '

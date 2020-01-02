@@ -243,12 +243,12 @@ CPP_SOURCES
 =
 [
 '
-OSFileConstants
+nsDeviceSensors
 .
 cpp
 '
 '
-nsDeviceSensors
+OSFileConstants
 .
 cpp
 '

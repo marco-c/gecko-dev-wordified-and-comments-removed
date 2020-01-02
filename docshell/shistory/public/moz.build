@@ -113,11 +113,6 @@ nsISHEntry
 idl
 '
 '
-nsISHTransaction
-.
-idl
-'
-'
 nsISHistory
 .
 idl
@@ -129,6 +124,11 @@ idl
 '
 '
 nsISHistoryListener
+.
+idl
+'
+'
+nsISHTransaction
 .
 idl
 '

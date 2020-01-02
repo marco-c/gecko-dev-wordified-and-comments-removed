@@ -195,11 +195,6 @@ gonk_addrs
 cpp
 '
 ]
-mtransport_lcppsrcs
-.
-sort
-(
-)
 mtransport_cppsrcs
 =
 [
@@ -222,5 +217,8 @@ s
 for
 s
 in
+sorted
+(
 mtransport_lcppsrcs
+)
 ]

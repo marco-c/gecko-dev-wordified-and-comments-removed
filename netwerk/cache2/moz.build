@@ -183,12 +183,12 @@ CacheFileChunk
 cpp
 '
 '
-CacheFileIOManager
+CacheFileInputStream
 .
 cpp
 '
 '
-CacheFileInputStream
+CacheFileIOManager
 .
 cpp
 '

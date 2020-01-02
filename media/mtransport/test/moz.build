@@ -128,11 +128,6 @@ CPP_UNIT_TESTS
 =
 [
 '
-TestSyncRunnable
-.
-cpp
-'
-'
 ice_unittest
 .
 cpp
@@ -149,6 +144,11 @@ cpp
 '
 '
 sockettransportservice_unittest
+.
+cpp
+'
+'
+TestSyncRunnable
 .
 cpp
 '

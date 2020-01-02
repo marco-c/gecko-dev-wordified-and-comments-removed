@@ -247,6 +247,11 @@ ForceDiscreteGPUHelperCGL
 h
 '
 '
+GfxTexturesReporter
+.
+h
+'
+'
 GLConsts
 .
 h
@@ -303,11 +308,6 @@ h
 '
 '
 GLTypes
-.
-h
-'
-'
-GfxTexturesReporter
 .
 h
 '
@@ -547,6 +547,11 @@ CPP_SOURCES
 =
 [
 '
+GfxTexturesReporter
+.
+cpp
+'
+'
 GLContext
 .
 cpp
@@ -583,11 +588,6 @@ cpp
 '
 '
 GLTextureImage
-.
-cpp
-'
-'
-GfxTexturesReporter
 .
 cpp
 '

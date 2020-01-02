@@ -124,6 +124,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+_SessionFile
+.
+jsm
+'
+'
 DocShellCapabilities
 .
 jsm
@@ -190,11 +195,6 @@ jsm
 '
 '
 XPathGenerator
-.
-jsm
-'
-'
-_SessionFile
 .
 jsm
 '

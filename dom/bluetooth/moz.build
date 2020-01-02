@@ -290,11 +290,6 @@ BluetoothUuid
 cpp
 '
 '
-ObexBase
-.
-cpp
-'
-'
 ipc
 /
 BluetoothChild
@@ -312,6 +307,11 @@ cpp
 ipc
 /
 BluetoothServiceChildProcess
+.
+cpp
+'
+'
+ObexBase
 .
 cpp
 '

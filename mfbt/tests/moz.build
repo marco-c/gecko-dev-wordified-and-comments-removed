@@ -153,12 +153,12 @@ TestSHA1
 cpp
 '
 '
-TestTypeTraits
+TestTypedEnum
 .
 cpp
 '
 '
-TestTypedEnum
+TestTypeTraits
 .
 cpp
 '

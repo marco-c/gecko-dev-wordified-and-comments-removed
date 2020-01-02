@@ -98,6 +98,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDOMCounter
+.
+idl
+'
+'
 nsIDOMCSSCharsetRule
 .
 idl
@@ -189,11 +194,6 @@ idl
 '
 '
 nsIDOMCSSValueList
-.
-idl
-'
-'
-nsIDOMCounter
 .
 idl
 '

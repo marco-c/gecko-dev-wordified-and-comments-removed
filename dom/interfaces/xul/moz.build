@@ -148,12 +148,12 @@ nsIDOMXULImageElement
 idl
 '
 '
-nsIDOMXULLabelElement
+nsIDOMXULLabeledControlEl
 .
 idl
 '
 '
-nsIDOMXULLabeledControlEl
+nsIDOMXULLabelElement
 .
 idl
 '

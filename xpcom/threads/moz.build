@@ -225,11 +225,6 @@ LazyIdleThread
 cpp
 '
 '
-TimerThread
-.
-cpp
-'
-'
 nsEnvironment
 .
 cpp
@@ -266,6 +261,11 @@ cpp
 '
 '
 nsTimerImpl
+.
+cpp
+'
+'
+TimerThread
 .
 cpp
 '

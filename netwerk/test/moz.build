@@ -212,10 +212,10 @@ TestStandardURL
 TestStreamLoader
 '
 '
-TestURLParser
-'
-'
 TestUpload
+'
+'
+TestURLParser
 '
 '
 urltest

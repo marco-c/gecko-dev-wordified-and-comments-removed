@@ -120,11 +120,6 @@ nsProfileLock
 cpp
 '
 ]
-modules_profiledirservice_src_lcsrcs
-.
-sort
-(
-)
 modules_profiledirservice_src_csrcs
 =
 [
@@ -150,5 +145,8 @@ s
 for
 s
 in
+sorted
+(
 modules_profiledirservice_src_lcsrcs
+)
 ]

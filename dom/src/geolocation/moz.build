@@ -118,12 +118,12 @@ CPP_SOURCES
 =
 [
 '
-nsGeoPosition
+nsGeolocation
 .
 cpp
 '
 '
-nsGeolocation
+nsGeoPosition
 .
 cpp
 '
