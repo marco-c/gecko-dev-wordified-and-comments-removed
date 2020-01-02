@@ -1688,7 +1688,7 @@ nsBlockReflowState
 aState
 )
 ;
-nsresult
+void
 ReflowDirtyLines
 (
 nsBlockReflowState

@@ -9322,7 +9322,7 @@ GetChildCount
 #
 endif
 }
-nsresult
+void
 nsBlockFrame
 :
 :
@@ -9333,11 +9333,6 @@ nsBlockReflowState
 aState
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 bool
 keepGoing
 =
@@ -11964,9 +11959,6 @@ mReflowStatus
 }
 #
 endif
-return
-rv
-;
 }
 static
 void
