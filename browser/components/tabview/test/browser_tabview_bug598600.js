@@ -31,6 +31,11 @@ Ci
 nsISessionStore
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 waitForExplicitFinish
 (
 )
