@@ -96,6 +96,10 @@ CustomizableUI
 .
 jsm
 \
+CustomizeMode
+.
+jsm
+\
 openLocationLastURL
 .
 jsm
@@ -135,10 +139,6 @@ EXTRA_PP_JS_MODULES
 =
 \
 AboutHomeUtils
-.
-jsm
-\
-CustomizeMode
 .
 jsm
 \
