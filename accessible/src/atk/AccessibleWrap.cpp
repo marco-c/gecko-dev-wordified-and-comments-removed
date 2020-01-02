@@ -2484,6 +2484,7 @@ aAtkObj
 role
 ;
 }
+static
 AtkAttributeSet
 *
 ConvertToAtkAttributeSet
