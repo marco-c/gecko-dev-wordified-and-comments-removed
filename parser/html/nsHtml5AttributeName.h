@@ -1850,11 +1850,6 @@ ATTR_FONT_SIZE
 static
 nsHtml5AttributeName
 *
-ATTR_KEYSYSTEM
-;
-static
-nsHtml5AttributeName
-*
 ATTR_KEYPOINTS
 ;
 static
