@@ -131,6 +131,11 @@ EXPORTS
 =
 [
 '
+LoadMonitor
+.
+h
+'
+'
 MediaEngineWebRTC
 .
 h
@@ -140,6 +145,11 @@ SOURCES
 +
 =
 [
+'
+LoadMonitor
+.
+cpp
+'
 '
 MediaEngineTabVideoSource
 .
