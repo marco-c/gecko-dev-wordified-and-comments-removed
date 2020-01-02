@@ -485,6 +485,12 @@ yScale
 }
 else
 {
+emHeight
+=
+ftMetrics
+.
+y_ppem
+;
 const
 TT_Header
 *
@@ -515,12 +521,6 @@ head
 -
 >
 Units_Per_EM
-;
-emHeight
-=
-ftMetrics
-.
-y_ppem
 ;
 yScale
 =
