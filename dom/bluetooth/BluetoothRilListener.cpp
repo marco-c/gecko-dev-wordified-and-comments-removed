@@ -305,6 +305,18 @@ return
 NS_OK
 ;
 }
+NS_IMETHODIMP
+MobileConnectionListener
+:
+:
+NotifyIccChanged
+(
+)
+{
+return
+NS_OK
+;
+}
 class
 TelephonyListener
 :
@@ -849,6 +861,7 @@ provider
 >
 RegisterMobileConnectionMsg
 (
+0
 mMobileConnectionListener
 )
 ;
@@ -892,6 +905,7 @@ provider
 >
 UnregisterMobileConnectionMsg
 (
+0
 mMobileConnectionListener
 )
 ;
