@@ -191,9 +191,6 @@ static
 nsresult
 PaintFilteredFrame
 (
-nsSVGFilterFrame
-*
-aFilterFrame
 nsRenderingContext
 *
 aContext
@@ -218,9 +215,6 @@ static
 nsRect
 GetPostFilterDirtyArea
 (
-nsSVGFilterFrame
-*
-aFilterFrame
 nsIFrame
 *
 aFilteredFrame
@@ -234,9 +228,6 @@ static
 nsRect
 GetPreFilterNeededArea
 (
-nsSVGFilterFrame
-*
-aFilterFrame
 nsIFrame
 *
 aFilteredFrame
@@ -250,9 +241,6 @@ static
 nsRect
 GetPostFilterBounds
 (
-nsSVGFilterFrame
-*
-aFilterFrame
 nsIFrame
 *
 aFilteredFrame
@@ -275,9 +263,6 @@ nsSVGFilterInstance
 nsIFrame
 *
 aTargetFrame
-nsSVGFilterFrame
-*
-aFilterFrame
 nsSVGFilterPaintCallback
 *
 aPaintCallback
@@ -558,6 +543,12 @@ DrawTarget
 aTargetDT
 )
 ;
+nsSVGFilterFrame
+*
+GetFilterFrame
+(
+)
+;
 nsresult
 BuildPrimitives
 (
@@ -651,6 +642,13 @@ nsIFrame
 *
 mTargetFrame
 ;
+const
+nsTArray
+<
+nsStyleFilter
+>
+mFilters
+;
 nsSVGFilterPaintCallback
 *
 mPaintCallback
@@ -665,6 +663,10 @@ dom
 SVGFilterElement
 *
 mFilterElement
+;
+nsSVGFilterFrame
+*
+mFilterFrame
 ;
 gfxRect
 mTargetBBox
