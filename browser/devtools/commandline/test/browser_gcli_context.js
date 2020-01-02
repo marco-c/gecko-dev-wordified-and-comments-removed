@@ -422,9 +422,11 @@ options
 .
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 tsn
@@ -853,9 +855,11 @@ options
 .
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 tsn

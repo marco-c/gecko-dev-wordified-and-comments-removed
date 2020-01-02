@@ -1226,7 +1226,6 @@ output
 :
 [
 /
-^
 GCLI
 is
 an

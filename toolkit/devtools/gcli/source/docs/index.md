@@ -1118,7 +1118,7 @@ gcli
 {
 gcli
 .
-addCommand
+add
 (
 .
 .
@@ -1130,6 +1130,10 @@ addCommand
 Register
 custom
 commands
+/
+types
+/
+etc
 gcli
 .
 createTerminal

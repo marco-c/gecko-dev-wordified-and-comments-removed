@@ -242,9 +242,11 @@ options
 .
 requisition
 .
-canon
+system
 .
-getCommand
+commands
+.
+get
 (
 '
 tsg
@@ -1852,7 +1854,7 @@ skipIf
 :
 options
 .
-isRemote
+isNoDom
 setup
 :
 '

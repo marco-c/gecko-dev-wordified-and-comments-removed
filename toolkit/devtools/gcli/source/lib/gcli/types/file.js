@@ -307,6 +307,7 @@ fileparser
 .
 parse
 (
+context
 arg
 .
 text

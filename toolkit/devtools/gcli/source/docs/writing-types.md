@@ -428,7 +428,7 @@ are
 all
 declared
 by
-canon
+commands
 .
 js
 .

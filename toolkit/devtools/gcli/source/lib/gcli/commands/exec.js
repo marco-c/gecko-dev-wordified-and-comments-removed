@@ -301,6 +301,7 @@ host
 .
 spawn
 (
+context
 spawnSpec
 )
 .

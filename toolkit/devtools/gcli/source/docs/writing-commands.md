@@ -442,8 +442,9 @@ command
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -505,6 +506,7 @@ name
 ;
 }
 }
+]
 )
 ;
 This
@@ -708,8 +710,9 @@ this
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -730,6 +733,7 @@ greetDesc
 .
 .
 }
+]
 )
 ;
 #
@@ -763,8 +767,9 @@ description
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -824,6 +829,7 @@ gk
 .
 .
 }
+]
 )
 ;
 Each
@@ -913,8 +919,9 @@ file
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -936,6 +943,7 @@ demoGreetingDesc
 .
 .
 }
+]
 )
 ;
 For
@@ -1053,8 +1061,9 @@ parameter
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -1124,6 +1133,7 @@ name
 ;
 }
 }
+]
 )
 ;
 Now
@@ -1220,8 +1230,9 @@ parameter
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -1256,6 +1267,7 @@ string
 .
 .
 }
+]
 )
 ;
 This
@@ -1367,8 +1379,9 @@ command
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -1407,6 +1420,7 @@ number
 .
 .
 }
+]
 )
 ;
 Parameters
@@ -1643,8 +1657,9 @@ using
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -1689,6 +1704,7 @@ defaultValue
 .
 .
 }
+]
 )
 ;
 Would
@@ -1819,8 +1835,9 @@ example
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -1895,6 +1912,7 @@ en
 .
 .
 }
+]
 )
 ;
 GCLI
@@ -2036,8 +2054,9 @@ number
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -2083,6 +2102,7 @@ max
 .
 .
 }
+]
 )
 ;
 You
@@ -2181,8 +2201,9 @@ follows
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -2249,6 +2270,7 @@ function
 .
 .
 }
+]
 )
 ;
 Several
@@ -2298,8 +2320,9 @@ example
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -2379,6 +2402,7 @@ join
 ;
 }
 }
+]
 )
 ;
 This
@@ -2546,8 +2570,9 @@ function
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -2563,12 +2588,6 @@ manipulate
 archives
 '
 }
-)
-;
-gcli
-.
-addCommand
-(
 {
 name
 :
@@ -2600,12 +2619,6 @@ context
 .
 .
 }
-)
-;
-gcli
-.
-addCommand
-(
 {
 name
 :
@@ -2637,6 +2650,7 @@ context
 .
 .
 }
+]
 )
 ;
 #
@@ -2682,8 +2696,9 @@ group
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -2713,6 +2728,7 @@ true
 .
 .
 }
+]
 )
 ;
 The
@@ -2732,8 +2748,9 @@ group
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -2765,6 +2782,7 @@ Advanced
 .
 .
 }
+]
 )
 ;
 An
@@ -2802,8 +2820,9 @@ follows
 :
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -2877,6 +2896,7 @@ boolean
 .
 .
 }
+]
 )
 ;
 This
@@ -3402,8 +3422,9 @@ used
 .
 gcli
 .
-addCommand
+addItems
 (
+[
 {
 name
 :
@@ -3464,6 +3485,7 @@ message
 ;
 }
 }
+]
 )
 ;
 The

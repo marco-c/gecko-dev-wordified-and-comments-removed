@@ -4216,7 +4216,7 @@ Types
 .
 prototype
 .
-addType
+add
 =
 function
 (
@@ -4408,7 +4408,7 @@ Types
 .
 prototype
 .
-removeType
+remove
 =
 function
 (
@@ -4676,13 +4676,4 @@ return
 newType
 ;
 }
-;
-exports
-.
-centralTypes
-=
-new
-Types
-(
-)
 ;
