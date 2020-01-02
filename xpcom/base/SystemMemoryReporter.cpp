@@ -3184,6 +3184,11 @@ SCNu64
 size
 )
 ;
+fclose
+(
+sizeFile
+)
+;
 if
 (
 NS_WARN_IF
@@ -3198,11 +3203,6 @@ scanned
 continue
 ;
 }
-fclose
-(
-sizeFile
-)
-;
 uint64_t
 freeSize
 =
