@@ -1729,15 +1729,6 @@ f
 static
 const
 float
-FontStride
-=
-4
-.
-f
-;
-static
-const
-float
 FontScaleX
 =
 2
