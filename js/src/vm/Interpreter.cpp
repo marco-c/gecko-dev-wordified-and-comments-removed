@@ -4392,7 +4392,7 @@ else
 {
 obj
 =
-ToObject
+js_ValueToNonNullObject
 (
 cx
 val

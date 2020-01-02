@@ -5550,7 +5550,7 @@ RootedObject
 pairobj
 (
 cx
-ToObject
+js_ValueToNonNullObject
 (
 cx
 iter

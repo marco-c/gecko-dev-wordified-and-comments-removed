@@ -5268,7 +5268,7 @@ else
 {
 obj
 =
-ToObject
+js_ValueToNonNullObject
 (
 cx
 vp
