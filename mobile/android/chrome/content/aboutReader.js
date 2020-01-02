@@ -737,7 +737,7 @@ GetStringFromName
 "
 aboutReader
 .
-fontTypeCharis
+fontTypeSerif
 "
 )
 value
@@ -764,7 +764,7 @@ GetStringFromName
 "
 aboutReader
 .
-fontTypeOpenSans
+fontTypeSansSerif
 "
 )
 value
