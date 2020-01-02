@@ -9468,6 +9468,7 @@ MOZ_ASSERT
 (
 aSize
 >
+=
 0
 )
 ;
