@@ -526,6 +526,9 @@ mAppendMode
 bool
 mUpdating
 ;
+bool
+mDecoderInit
+;
 }
 ;
 }
