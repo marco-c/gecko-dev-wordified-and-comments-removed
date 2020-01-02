@@ -71,11 +71,6 @@ WheelEvent
 NS_EVENT_CLASS
 (
 Widget
-PointerEvent
-)
-NS_EVENT_CLASS
-(
-Widget
 GestureNotifyEvent
 )
 NS_EVENT_CLASS
