@@ -1765,12 +1765,6 @@ MUnbox
 :
 :
 TypeBarrier
-ins
--
->
-bailoutKind
-(
-)
 )
 ;
 ins

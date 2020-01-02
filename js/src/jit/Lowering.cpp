@@ -6264,6 +6264,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -7462,6 +7463,7 @@ fallible
 assignSnapshot
 (
 lir
+Bailout_BaselineInfo
 )
 )
 return
@@ -11619,12 +11621,6 @@ if
 assignSnapshot
 (
 bail
-ins
--
->
-bailoutKind
-(
-)
 )
 )
 return
@@ -11708,12 +11704,6 @@ if
 assignSnapshot
 (
 barrier
-ins
--
->
-bailoutKind
-(
-)
 )
 )
 return
@@ -11807,12 +11797,6 @@ if
 assignSnapshot
 (
 barrier
-ins
--
->
-bailoutKind
-(
-)
 )
 )
 return
@@ -15845,7 +15829,7 @@ return
 assignSnapshot
 (
 lir
-Bailout_CachedShapeGuard
+Bailout_ShapeGuard
 )
 &
 &
@@ -15905,7 +15889,7 @@ return
 assignSnapshot
 (
 lir
-Bailout_CachedShapeGuard
+Bailout_ShapeGuard
 )
 &
 &
@@ -16009,7 +15993,7 @@ return
 assignSnapshot
 (
 lir
-Bailout_CachedShapeGuard
+Bailout_ShapeGuard
 )
 &
 &
@@ -16070,7 +16054,7 @@ return
 assignSnapshot
 (
 lir
-Bailout_CachedShapeGuard
+Bailout_ShapeGuard
 )
 &
 &
