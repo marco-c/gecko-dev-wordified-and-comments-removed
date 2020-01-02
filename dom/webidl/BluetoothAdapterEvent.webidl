@@ -92,13 +92,10 @@ MPL
 *
 /
 [
-Func
+CheckPermissions
 =
 "
-Navigator
-:
-:
-HasBluetoothSupport
+bluetooth
 "
 Constructor
 (

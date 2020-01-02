@@ -105,14 +105,6 @@ Shutdown
 )
 ;
 static
-bool
-CheckPermission
-(
-nsPIDOMWindow
-*
-)
-;
-static
 already_AddRefed
 <
 PowerManager

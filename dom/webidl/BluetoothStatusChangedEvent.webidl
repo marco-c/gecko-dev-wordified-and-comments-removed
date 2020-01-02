@@ -100,13 +100,10 @@ optional
 BluetoothStatusChangedEventInit
 eventInitDict
 )
-Func
+CheckPermissions
 =
 "
-Navigator
-:
-:
-HasBluetoothSupport
+bluetooth
 "
 ]
 interface

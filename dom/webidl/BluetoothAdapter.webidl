@@ -281,13 +281,10 @@ playStatus
 }
 ;
 [
-Func
+CheckPermissions
 =
 "
-Navigator
-:
-:
-HasBluetoothSupport
+bluetooth
 "
 ]
 interface
