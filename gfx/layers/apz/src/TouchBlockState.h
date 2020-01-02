@@ -83,6 +83,11 @@ IsDefaultPrevented
 const
 ;
 void
+DisallowSingleTap
+(
+)
+;
+bool
 SetSingleTapOccurred
 (
 )
@@ -167,6 +172,9 @@ mContentResponded
 ;
 bool
 mContentResponseTimerExpired
+;
+bool
+mSingleTapDisallowed
 ;
 bool
 mSingleTapOccurred

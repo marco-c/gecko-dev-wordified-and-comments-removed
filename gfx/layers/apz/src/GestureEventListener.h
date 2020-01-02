@@ -86,11 +86,6 @@ MultiTouchInput
 aEvent
 )
 ;
-void
-CancelSingleTouchDown
-(
-)
-;
 int32_t
 GetLastTouchIdentifier
 (
