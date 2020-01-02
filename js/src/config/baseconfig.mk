@@ -43,6 +43,19 @@ DIST
 TOP_DIST
 )
 else
+ifeq
+(
+.
+(
+DEPTH
+)
+)
+DIST
+=
+(
+TOP_DIST
+)
+else
 DIST
 =
 (
@@ -52,6 +65,7 @@ DEPTH
 (
 TOP_DIST
 )
+endif
 endif
 #
 We
