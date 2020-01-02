@@ -84,5 +84,11 @@ false
 defineLazyPrototypeGetter
 :
 defineLazyPrototypeGetter
+getProperty
+:
+getProperty
+hasSafeGetter
+:
+hasSafeGetter
 }
 ;
