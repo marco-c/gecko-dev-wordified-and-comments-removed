@@ -226,7 +226,7 @@ false
 ;
 this
 .
-_shiftBrowserDeck
+shiftBrowserDeck
 (
 0
 )
@@ -1067,7 +1067,7 @@ aNewState
 {
 this
 .
-_shiftBrowserDeck
+shiftBrowserDeck
 (
 0
 )
@@ -1134,7 +1134,7 @@ isKeyboardOpened
 {
 this
 .
-_shiftBrowserDeck
+shiftBrowserDeck
 (
 0
 )
@@ -1144,7 +1144,7 @@ return
 }
 this
 .
-_shiftBrowserDeck
+shiftBrowserDeck
 (
 aJsonMsg
 .
@@ -1362,10 +1362,9 @@ viewstate
 ;
 }
 }
-_shiftBrowserDeck
+shiftBrowserDeck
 :
 function
-_shiftBrowserDeck
 (
 aAmount
 )

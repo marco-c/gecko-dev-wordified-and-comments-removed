@@ -1195,16 +1195,6 @@ true
 pref
 (
 "
-findhelper
-.
-autozoom
-"
-true
-)
-;
-pref
-(
-"
 layout
 .
 spellcheckDefault
