@@ -543,6 +543,8 @@ nsIPrincipal
 principal
 bool
 initStandardClasses
+bool
+fireOnNewGlobalHook
 JS
 :
 :
@@ -976,6 +978,10 @@ rv
 rv
 )
 ;
+if
+(
+fireOnNewGlobalHook
+)
 JS_FireOnNewGlobalObject
 (
 cx

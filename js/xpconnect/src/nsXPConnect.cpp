@@ -2049,6 +2049,15 @@ nsIXPConnect
 :
 :
 INIT_JS_STANDARD_CLASSES
+!
+(
+aFlags
+&
+nsIXPConnect
+:
+:
+DONT_FIRE_ONNEWGLOBALHOOK
+)
 aOptions
 getter_AddRefs
 (
