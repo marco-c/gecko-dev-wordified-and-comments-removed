@@ -192,12 +192,6 @@ nsCrypto
 (
 )
 ;
-virtual
-~
-nsCrypto
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMCRYPTO
 virtual
@@ -363,6 +357,14 @@ ErrorResult
 aRv
 )
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+nsCrypto
+(
+)
 ;
 private
 :

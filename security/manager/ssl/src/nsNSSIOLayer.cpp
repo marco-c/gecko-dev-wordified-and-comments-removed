@@ -484,6 +484,15 @@ max
 0
 ;
 }
+nsNSSSocketInfo
+:
+:
+~
+nsNSSSocketInfo
+(
+)
+{
+}
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsNSSSocketInfo
