@@ -525,11 +525,6 @@ StringHelper
 FEEDBACK_LABEL
 }
 {
-StringHelper
-.
-PRODUCT_ANNOUNCEMENTS_LABEL
-}
-{
 "
 Data
 choices

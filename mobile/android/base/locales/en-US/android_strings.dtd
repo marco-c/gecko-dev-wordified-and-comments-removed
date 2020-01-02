@@ -1880,16 +1880,6 @@ password
 <
 !
 ENTITY
-pref_show_product_announcements
-"
-Show
-product
-announcements
-"
->
-<
-!
-ENTITY
 pref_sync
 "
 Sync
