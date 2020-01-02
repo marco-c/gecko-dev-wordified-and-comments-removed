@@ -6196,7 +6196,7 @@ mImportManager
 #
 ifdef
 DEBUG
-protected
+public
 :
 bool
 mWillReparent
