@@ -4851,6 +4851,17 @@ null
 )
 ;
 let
+updatedFrame
+=
+waitForDebuggerEvents
+(
+aPanel
+events
+.
+FETCHED_SCOPES
+)
+;
+let
 {
 left
 top
@@ -4879,6 +4890,7 @@ all
 [
 popupShown
 fetchedProperties
+updatedFrame
 ]
 )
 .
