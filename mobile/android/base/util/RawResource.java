@@ -59,7 +59,7 @@ RawResource
 public
 static
 String
-get
+getAsString
 (
 Context
 context

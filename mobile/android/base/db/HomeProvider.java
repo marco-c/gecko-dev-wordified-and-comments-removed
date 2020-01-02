@@ -416,7 +416,7 @@ jsonString
 =
 RawResource
 .
-get
+getAsString
 (
 getContext
 (

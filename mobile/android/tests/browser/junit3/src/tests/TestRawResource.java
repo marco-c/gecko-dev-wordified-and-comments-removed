@@ -207,7 +207,7 @@ result
 =
 RawResource
 .
-get
+getAsString
 (
 context
 RAW_RESOURCE_ID
