@@ -3702,9 +3702,7 @@ found
 {
 filename_str
 =
-"
-filename
-"
+js_fileName_str
 ;
 if
 (
@@ -4029,7 +4027,9 @@ char
 *
 filename_str
 =
-js_fileName_str
+"
+filename
+"
 ;
 JSAutoByteString
 filename
