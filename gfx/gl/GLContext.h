@@ -9028,11 +9028,6 @@ GLContextEGL
 )
 ;
 }
-bool
-CanReadSRGBFromFBOTexture
-(
-)
-;
 static
 void
 PlatformStartup
