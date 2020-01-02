@@ -128,7 +128,7 @@ MOZ_OVERRIDE
 nsresult
 ReadMetadata
 (
-VideoInfo
+MediaInfo
 *
 aInfo
 MetadataTags

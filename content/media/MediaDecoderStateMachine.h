@@ -327,7 +327,9 @@ AssertCurrentThreadIn
 return
 mInfo
 .
-mHasAudio
+HasAudio
+(
+)
 ;
 }
 bool
@@ -350,7 +352,9 @@ AssertCurrentThreadIn
 return
 mInfo
 .
-mHasVideo
+HasVideo
+(
+)
 ;
 }
 bool
@@ -1212,7 +1216,7 @@ mRequestedNewDecodeThread
 AudioAvailableEventManager
 mEventManager
 ;
-VideoInfo
+MediaInfo
 mInfo
 ;
 mozilla

@@ -191,7 +191,7 @@ virtual
 nsresult
 ReadMetadata
 (
-VideoInfo
+MediaInfo
 *
 aInfo
 MetadataTags
@@ -237,7 +237,9 @@ HasAudio
 return
 mInfo
 .
-mHasAudio
+HasAudio
+(
+)
 ;
 }
 virtual
@@ -249,7 +251,9 @@ HasVideo
 return
 mInfo
 .
-mHasVideo
+HasVideo
+(
+)
 ;
 }
 private
