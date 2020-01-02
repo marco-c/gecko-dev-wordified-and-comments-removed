@@ -53,17 +53,3 @@ MPL
 0
 /
 .
-MOCHITEST_CHROME_FILES
-=
-\
-file_stringencoding
-.
-jsm
-\
-test_stringencoding
-.
-xul
-\
-(
-NULL
-)

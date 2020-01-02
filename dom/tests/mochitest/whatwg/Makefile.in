@@ -268,13 +268,3 @@ html
 (
 NULL
 )
-MOCHITEST_CHROME_FILES
-=
-\
-test_postMessage_chrome
-.
-html
-\
-(
-NULL
-)
