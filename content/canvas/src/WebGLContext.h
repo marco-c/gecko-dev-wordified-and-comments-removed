@@ -995,6 +995,16 @@ GLenum
 error
 )
 ;
+static
+const
+char
+*
+EnumName
+(
+GLenum
+glenum
+)
+;
 bool
 IsTextureFormatCompressed
 (

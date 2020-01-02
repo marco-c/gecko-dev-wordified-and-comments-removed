@@ -215,6 +215,12 @@ uint32_t
 out_upperBound
 )
 ;
+bool
+IsElementArrayUsedWithMultipleTypes
+(
+)
+const
+;
 WebGLContext
 *
 GetParentObject

@@ -153,6 +153,12 @@ aMallocSizeOf
 )
 const
 ;
+bool
+BeenUsedWithMultipleTypes
+(
+)
+const
+;
 private
 :
 template
