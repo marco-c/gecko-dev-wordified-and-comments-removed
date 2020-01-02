@@ -301,7 +301,9 @@ messageManager
 addMessageListener
 (
 "
-scroll
+Browser
+:
+ContentScroll
 "
 this
 )
@@ -342,7 +344,9 @@ messageManager
 removeMessageListener
 (
 "
-scroll
+Browser
+:
+ContentScroll
 "
 this
 )
@@ -582,7 +586,7 @@ sendAsyncMessage
 "
 Content
 :
-SetCacheViewport
+SetDisplayPort
 "
 {
 scrollX
@@ -803,7 +807,9 @@ name
 {
 case
 "
-scroll
+Browser
+:
+ContentScroll
 "
 :
 {

@@ -3134,7 +3134,7 @@ addMessageListener
 "
 Content
 :
-SetCacheViewport
+SetDisplayPort
 "
 this
 )
@@ -3380,7 +3380,7 @@ case
 "
 Content
 :
-SetCacheViewport
+SetDisplayPort
 "
 :
 {
@@ -3792,7 +3792,7 @@ scroll
 {
 this
 .
-sendScroll
+notifyChromeAboutContentScroll
 (
 aEvent
 .
@@ -3891,10 +3891,9 @@ break
 }
 }
 }
-sendScroll
+notifyChromeAboutContentScroll
 :
 function
-sendScroll
 (
 target
 )
@@ -4060,7 +4059,9 @@ element
 sendSyncMessage
 (
 "
-scroll
+Browser
+:
+ContentScroll
 "
 {
 presShellId
