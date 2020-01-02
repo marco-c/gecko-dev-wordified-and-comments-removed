@@ -1005,7 +1005,7 @@ sock
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_WARNING
 "
 ICE
 (
@@ -1603,7 +1603,7 @@ cand
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_WARNING
 "
 ICE
 (
@@ -2181,7 +2181,7 @@ attr
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_INFO
 "
 ICE
 -
@@ -2232,7 +2232,7 @@ tiebreaker
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_INFO
 "
 ICE
 -
@@ -2277,7 +2277,7 @@ else
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 -
@@ -2333,7 +2333,7 @@ attr
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_INFO
 "
 ICE
 -
@@ -2384,7 +2384,7 @@ tiebreaker
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_INFO
 "
 ICE
 -
@@ -2429,7 +2429,7 @@ else
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 -
@@ -2918,7 +2918,7 @@ attr
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 -
@@ -3101,7 +3101,7 @@ found_invalid
 r_log
 (
 LOG_ICE
-LOG_WARNING
+LOG_INFO
 "
 ICE
 -
@@ -3270,7 +3270,7 @@ controlling
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 -
@@ -4679,7 +4679,7 @@ codeword
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 -

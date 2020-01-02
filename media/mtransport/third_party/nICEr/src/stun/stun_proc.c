@@ -192,7 +192,7 @@ length
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Not
 a
@@ -240,7 +240,7 @@ NR_CLASS_REQUEST
 r_log
 (
 NR_LOG_STUN
-LOG_NOTICE
+LOG_WARNING
 "
 Illegal
 message
@@ -299,7 +299,7 @@ NR_CLASS_ERROR_RESPONSE
 r_log
 (
 NR_LOG_STUN
-LOG_NOTICE
+LOG_WARNING
 "
 Illegal
 message
@@ -349,7 +349,7 @@ type
 r_log
 (
 NR_LOG_STUN
-LOG_NOTICE
+LOG_WARNING
 "
 Inconsistent
 message
@@ -453,7 +453,7 @@ valid
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Invalid
 fingerprint
@@ -491,7 +491,7 @@ NDEBUG
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 Missing
 Magic
@@ -800,7 +800,7 @@ NR_STUN_ATTR_MAPPED_ADDRESS
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 Missing
 XOR
@@ -879,7 +879,7 @@ attr
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 Missing
 ERROR
@@ -952,7 +952,7 @@ NR_STUN_ATTR_ALTERNATE_SERVER
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 Missing
 ALTERNATE
@@ -981,7 +981,7 @@ NR_STUN_ATTR_MESSAGE_INTEGRITY
 r_log
 (
 NR_LOG_STUN
-LOG_ERR
+LOG_WARNING
 "
 Missing
 MESSAGE
@@ -1284,7 +1284,7 @@ attr
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Missing
 MESSAGE
@@ -1315,7 +1315,7 @@ valid
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Bad
 MESSAGE
@@ -2020,7 +2020,7 @@ else
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Missing
 REALM
@@ -2086,7 +2086,7 @@ else
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Missing
 NONCE
@@ -2126,7 +2126,7 @@ valid
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Bad
 MESSAGE

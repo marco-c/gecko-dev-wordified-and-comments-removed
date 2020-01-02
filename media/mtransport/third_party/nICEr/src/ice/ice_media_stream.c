@@ -698,7 +698,7 @@ attrct
 r_log
 (
 LOG_ICE
-LOG_WARNING
+LOG_ERR
 "
 ICE
 -
@@ -1505,7 +1505,7 @@ NR_ICE_MEDIA_STREAM_CHECKS_COMPLETED
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_ERR
 "
 ICE
 -
@@ -1515,6 +1515,9 @@ PEER
 s
 )
 :
+(
+bug
+)
 bogus
 state
 for
@@ -1722,7 +1725,7 @@ else
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_WARNING
 "
 ICE
 -

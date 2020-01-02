@@ -3781,7 +3781,7 @@ valid
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Invalid
 FINGERPRINT
@@ -6949,7 +6949,7 @@ attr_info
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Unrecognized
 attribute
@@ -8033,7 +8033,7 @@ comprehension_optional_unknown_attributes
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_INFO
 "
 Unrecognized
 attribute
@@ -8219,7 +8219,7 @@ NR_STUN_ATTR_XOR_MAPPED_ADDRESS
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_INFO
 "
 Translating
 obsolete
@@ -8394,7 +8394,7 @@ u
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_WARNING
 "
 Failed
 pedantic

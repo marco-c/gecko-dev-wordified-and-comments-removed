@@ -781,7 +781,7 @@ username_attribute
 r_log
 (
 NR_LOG_STUN
-LOG_NOTICE
+LOG_WARNING
 "
 STUN
 -
@@ -1277,7 +1277,7 @@ NR_CLASS_INDICATION
 r_log
 (
 NR_LOG_STUN
-LOG_NOTICE
+LOG_WARNING
 "
 STUN
 -
@@ -1682,7 +1682,7 @@ clnt
 r_log
 (
 NR_LOG_STUN
-LOG_WARNING
+LOG_ERR
 "
 STUN
 -
@@ -2171,7 +2171,7 @@ attr
 r_log
 (
 NR_LOG_STUN
-LOG_NOTICE
+LOG_WARNING
 "
 STUN
 -
@@ -2307,7 +2307,7 @@ default_client
 r_log
 (
 NR_LOG_STUN
-LOG_DEBUG
+LOG_NOTICE
 "
 STUN
 -
@@ -2351,7 +2351,7 @@ clnt
 r_log
 (
 NR_LOG_STUN
-LOG_NOTICE
+LOG_WARNING
 "
 STUN
 -

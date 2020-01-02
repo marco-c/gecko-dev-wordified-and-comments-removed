@@ -398,7 +398,7 @@ a_priority
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_INFO
 "
 ICE
 (
@@ -1141,7 +1141,7 @@ number
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_INFO
 "
 ICE
 -
@@ -1266,7 +1266,7 @@ NR_TRANSPORT_ADDR_CMP_MODE_ALL
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_WARNING
 "
 ICE
 -
@@ -1366,7 +1366,7 @@ NR_TRANSPORT_ADDR_CMP_MODE_ALL
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_WARNING
 "
 ICE
 -
@@ -1453,7 +1453,7 @@ as_string
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 -

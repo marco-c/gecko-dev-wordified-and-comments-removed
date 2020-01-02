@@ -847,7 +847,7 @@ i
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 (
@@ -917,7 +917,7 @@ i
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 (
@@ -956,7 +956,7 @@ else
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 (
@@ -1157,7 +1157,7 @@ comp
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 Peer
 answered
@@ -1190,7 +1190,7 @@ NR_ICE_COMPONENT_DISABLED
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 Peer
 offered
@@ -1225,7 +1225,7 @@ NR_ICE_COMPONENT_DISABLED
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 Peer
 offered
@@ -1353,7 +1353,7 @@ pstream
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 (
@@ -1444,7 +1444,7 @@ needs_pairing
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_DEBUG
 "
 ICE
 (
@@ -1772,7 +1772,7 @@ _status
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_DEBUG
 "
 ICE
 (
@@ -1833,7 +1833,7 @@ received
 no
 media
 stream
-attribributes
+attributes
 "
 pctx
 -

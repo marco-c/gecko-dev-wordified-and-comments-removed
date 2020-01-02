@@ -666,7 +666,7 @@ SOCK_DGRAM
 r_log
 (
 NR_LOG_STUN
-LOG_WARNING
+LOG_ERR
 "
 unable
 to

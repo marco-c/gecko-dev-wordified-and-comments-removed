@@ -187,7 +187,7 @@ addr
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 (
@@ -557,7 +557,7 @@ processed_indication
 r_log
 (
 LOG_ICE
-LOG_ERR
+LOG_WARNING
 "
 ICE
 (
@@ -743,7 +743,7 @@ else
 r_log
 (
 LOG_ICE
-LOG_DEBUG
+LOG_NOTICE
 "
 ICE
 (
