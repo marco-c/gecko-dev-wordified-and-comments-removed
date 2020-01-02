@@ -95,6 +95,15 @@ SVG
 nullptr
 "
 )
+    
+(
+"
+Variables
+"
+"
+nullptr
+"
+)
 ]
 ]
 +
