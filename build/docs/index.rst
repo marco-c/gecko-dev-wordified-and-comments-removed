@@ -92,6 +92,7 @@ jar
 -
 manifests
 visualstudio
+androideclipse
 mozbuild
 =
 =
