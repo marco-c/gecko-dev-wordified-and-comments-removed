@@ -412,7 +412,7 @@ nsIDOMKeyEvent
 DOM_VK_ESCAPE
 ;
 const
-ENTER_KEYCODE
+RETURN_KEYCODE
 =
 Ci
 .
@@ -3236,7 +3236,7 @@ closeOnKeys
 :
 [
 ESCAPE_KEYCODE
-ENTER_KEYCODE
+RETURN_KEYCODE
 ]
 noAutoFocus
 :
@@ -3278,7 +3278,7 @@ code
 =
 =
 =
-ENTER_KEYCODE
+RETURN_KEYCODE
 )
 {
 this

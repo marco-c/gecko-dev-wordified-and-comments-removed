@@ -7305,16 +7305,6 @@ keyCode
 =
 aEvent
 .
-DOM_VK_ENTER
-&
-&
-aEvent
-.
-keyCode
-!
-=
-aEvent
-.
 DOM_VK_RETURN
 )
 {
