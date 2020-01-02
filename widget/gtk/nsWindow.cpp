@@ -19754,7 +19754,12 @@ ShouldRollupOnMouseWheelEvent
 ;
 retVal
 =
-true
+rollupListener
+-
+>
+ShouldConsumeOnMouseWheelEvent
+(
+)
 ;
 }
 uint32_t
