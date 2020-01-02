@@ -153,6 +153,16 @@ id
 =
 0
 ;
+virtual
+bool
+BringSelectedWindowToFront
+(
+)
+{
+return
+true
+;
+}
 }
 ;
 }
