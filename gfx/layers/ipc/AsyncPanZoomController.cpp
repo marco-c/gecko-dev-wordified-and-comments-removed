@@ -8169,6 +8169,17 @@ mLastDispatchedPaintMetrics
 =
 aLayerMetrics
 ;
+}
+}
+if
+(
+aLayerMetrics
+.
+GetScrollOffsetUpdated
+(
+)
+)
+{
 nsRefPtr
 <
 GeckoContentController
@@ -8199,7 +8210,6 @@ GetScrollGeneration
 )
 )
 ;
-}
 }
 }
 if
