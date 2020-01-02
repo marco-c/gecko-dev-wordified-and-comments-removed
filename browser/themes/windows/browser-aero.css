@@ -1998,6 +1998,17 @@ index
 ;
 }
 #
+main
+-
+window
+:
+not
+(
+[
+customizing
+]
+)
+#
 navigator
 -
 toolbox
