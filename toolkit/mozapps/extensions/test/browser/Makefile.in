@@ -214,6 +214,10 @@ browser_list
 .
 js
 \
+browser_metadataTimeout
+.
+js
+\
 browser_searching
 .
 js

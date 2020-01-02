@@ -34,6 +34,11 @@ hotfix
 id
 "
 ;
+const
+METADATA_TIMEOUT
+=
+30000
+;
 Components
 .
 utils
@@ -783,6 +788,7 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 )
 ;
 }
+METADATA_TIMEOUT
 )
 ;
 }
