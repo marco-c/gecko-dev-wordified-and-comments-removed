@@ -8216,9 +8216,11 @@ TempAllocator
 alloc
 )
 {
-static_assert
+MOZ_ASSERT
 (
-SNAPSHOT_MAX_NARGS
+js_JitOptions
+.
+maxStackArgs
 <
 =
 UINT32_MAX
@@ -8240,7 +8242,9 @@ NewUInt32Range
 (
 alloc
 0
-SNAPSHOT_MAX_NARGS
+js_JitOptions
+.
+maxStackArgs
 )
 )
 ;
