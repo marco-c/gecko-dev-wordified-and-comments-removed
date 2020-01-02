@@ -332,6 +332,14 @@ ins
 )
 ;
 bool
+visitNewRunOnceCallObject
+(
+MNewRunOnceCallObject
+*
+ins
+)
+;
+bool
 visitNewStringObject
 (
 MNewStringObject

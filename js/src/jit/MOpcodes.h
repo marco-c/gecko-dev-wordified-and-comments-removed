@@ -414,6 +414,11 @@ NewCallObject
 \
 _
 (
+NewRunOnceCallObject
+)
+\
+_
+(
 NewStringObject
 )
 \

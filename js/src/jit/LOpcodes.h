@@ -113,6 +113,11 @@ NewCallObject
 \
 _
 (
+NewSingletonCallObject
+)
+\
+_
+(
 NewStringObject
 )
 \
