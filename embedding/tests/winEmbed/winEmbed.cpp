@@ -4276,8 +4276,9 @@ chrome
 return
 NS_ERROR_FAILURE
 ;
-CallQueryInterface
-(
+*
+aNewWindow
+=
 static_cast
 <
 nsIWebBrowserChrome
@@ -4285,8 +4286,6 @@ nsIWebBrowserChrome
 >
 (
 chrome
-)
-aNewWindow
 )
 ;
 NS_ADDREF
