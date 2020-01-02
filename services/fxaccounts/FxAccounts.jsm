@@ -318,6 +318,7 @@ whenVerified
 "
 ]
 ;
+let
 AccountState
 =
 function
