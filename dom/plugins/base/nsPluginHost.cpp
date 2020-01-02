@@ -12018,6 +12018,9 @@ mCachedPlugins
 tag
 ;
 }
+#
+ifndef
+MOZ_WIDGET_ANDROID
 if
 (
 hasInvalidPlugins
@@ -12144,6 +12147,8 @@ invalidTag
 ;
 }
 }
+#
+endif
 Preferences
 :
 :
