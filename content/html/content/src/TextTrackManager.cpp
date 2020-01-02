@@ -306,9 +306,10 @@ return
 true
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_3
+NS_IMPL_CYCLE_COLLECTION_4
 (
 TextTrackManager
+mMediaElement
 mTextTracks
 mPendingTextTracks
 mNewCues

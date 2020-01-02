@@ -223,8 +223,10 @@ PopulatePendingList
 (
 )
 ;
+nsRefPtr
+<
 HTMLMediaElement
-*
+>
 mMediaElement
 ;
 private
