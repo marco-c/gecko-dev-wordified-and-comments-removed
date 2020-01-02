@@ -1063,7 +1063,9 @@ tabindex
 "
 >
 <
-a
+xul
+:
+label
 class
 =
 "
@@ -1076,12 +1078,7 @@ tabindex
 "
 0
 "
-href
-=
-"
-#
-"
-title
+tooltiptext
 =
 "
 &
@@ -1102,7 +1099,9 @@ accesskey
 >
 <
 /
-a
+xul
+:
+label
 >
 <
 hgroup
@@ -1217,7 +1216,9 @@ spacer
 h3
 >
 <
-a
+xul
+:
+label
 class
 =
 "
@@ -1225,7 +1226,7 @@ stylesheet
 -
 saveButton
 "
-title
+tooltiptext
 =
 "
 &
@@ -1251,7 +1252,9 @@ label
 ;
 <
 /
-a
+xul
+:
+label
 >
 <
 /
