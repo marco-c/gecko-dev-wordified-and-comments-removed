@@ -556,6 +556,7 @@ desc
 value
 =
 wrapped
+;
 this
 .
 _emitter
@@ -660,10 +661,9 @@ in
 desc
 )
 {
+let
 [
-desc
-.
-value
+unwrapped
 path
 ]
 =
@@ -677,6 +677,12 @@ desc
 .
 value
 )
+;
+desc
+.
+value
+=
+unwrapped
 ;
 Object
 .
