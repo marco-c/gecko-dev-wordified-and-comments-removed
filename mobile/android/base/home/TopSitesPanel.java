@@ -1670,7 +1670,7 @@ TelemetryContract
 .
 Event
 .
-TOP_SITES_PIN
+PIN
 )
 ;
 return
@@ -1749,7 +1749,7 @@ TelemetryContract
 .
 Event
 .
-TOP_SITES_UNPIN
+UNPIN
 )
 ;
 return
@@ -1791,7 +1791,7 @@ TelemetryContract
 .
 Event
 .
-TOP_SITES_EDIT
+EDIT
 )
 ;
 return
