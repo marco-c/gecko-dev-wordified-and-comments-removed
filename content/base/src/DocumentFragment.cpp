@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsINameSpaceManager
-.
-h
-"
-#
-include
-"
 nsINodeInfo
 .
 h
