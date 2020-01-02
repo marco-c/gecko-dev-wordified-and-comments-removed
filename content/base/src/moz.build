@@ -616,7 +616,17 @@ nsCrossSiteListenerProxy
 cpp
 '
 '
+nsCSPParser
+.
+cpp
+'
+'
 nsCSPService
+.
+cpp
+'
+'
+nsCSPUtils
 .
 cpp
 '
