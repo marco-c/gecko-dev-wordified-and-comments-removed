@@ -47,13 +47,6 @@ style
 /
 AppTheme
 "
-android
-:
-screenOrientation
-=
-"
-portrait
-"
 >
 <
 intent
