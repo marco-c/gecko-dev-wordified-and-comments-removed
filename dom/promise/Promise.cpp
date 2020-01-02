@@ -85,6 +85,13 @@ h
 #
 include
 "
+WorkerRunnable
+.
+h
+"
+#
+include
+"
 nsJSPrincipals
 .
 h
@@ -222,9 +229,7 @@ aPromise
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThread
-UnchangedBusyCount
-SkipWhenClearing
+WorkerThreadUnchangedBusyCount
 )
 mPromise
 (
@@ -603,9 +608,7 @@ aState
 WorkerRunnable
 (
 aWorkerPrivate
-WorkerThread
-UnchangedBusyCount
-SkipWhenClearing
+WorkerThreadUnchangedBusyCount
 )
 PromiseResolverMixin
 (

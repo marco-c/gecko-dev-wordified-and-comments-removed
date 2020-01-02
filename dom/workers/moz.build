@@ -119,6 +119,11 @@ WorkerPrivate
 h
 '
 '
+WorkerRunnable
+.
+h
+'
+'
 WorkerScope
 .
 h
@@ -279,6 +284,11 @@ WorkerPrivate
 cpp
 '
 '
+WorkerRunnable
+.
+cpp
+'
+'
 WorkerScope
 .
 cpp
@@ -337,6 +347,12 @@ src
 xpcom
 /
 build
+'
+'
+/
+xpcom
+/
+threads
 '
 ]
 include
