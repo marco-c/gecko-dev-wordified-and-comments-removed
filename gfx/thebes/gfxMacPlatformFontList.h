@@ -429,6 +429,16 @@ CreateFontInfoData
 (
 )
 ;
+#
+ifdef
+MOZ_BUNDLED_FONTS
+void
+ActivateBundledFonts
+(
+)
+;
+#
+endif
 enum
 {
 kATSGenerationInitial
