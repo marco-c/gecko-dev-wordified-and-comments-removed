@@ -1040,6 +1040,10 @@ mType
 =
 type
 ;
+refreshDrawableState
+(
+)
+;
 int
 pinResourceId
 =
@@ -1120,10 +1124,6 @@ home_top_sites_add
 )
 ;
 }
-refreshDrawableState
-(
-)
-;
 }
 public
 void
