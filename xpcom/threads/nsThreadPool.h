@@ -125,6 +125,9 @@ mIdleThreadTimeout
 uint32_t
 mIdleCount
 ;
+uint32_t
+mStackSize
+;
 nsCOMPtr
 <
 nsIThreadPoolListener
