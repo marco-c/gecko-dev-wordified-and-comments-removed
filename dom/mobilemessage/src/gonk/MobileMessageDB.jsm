@@ -3595,7 +3595,7 @@ senderOrReceiver
 ;
 self
 .
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 (
 participantStore
 number
@@ -7595,7 +7595,7 @@ participantRecord
 }
 ;
 }
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 :
 function
 (
@@ -7613,7 +7613,7 @@ DEBUG
 debug
 (
 "
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 (
 "
 +
@@ -7703,7 +7703,7 @@ DEBUG
 debug
 (
 "
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 :
 allPossibleAddresses
 =
@@ -7782,7 +7782,7 @@ DEBUG
 debug
 (
 "
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 :
 got
 "
@@ -7987,7 +7987,7 @@ DEBUG
 debug
 (
 "
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 :
 match
 "
@@ -8180,7 +8180,7 @@ return
 }
 self
 .
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 (
 aParticipantStore
 aAddresses
@@ -8870,7 +8870,7 @@ this
 ;
 this
 .
-findParticipantRecordByAddress
+findParticipantRecordByPlmnAddress
 (
 aParticipantStore
 aMessageRecord
