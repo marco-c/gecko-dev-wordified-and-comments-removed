@@ -2261,6 +2261,7 @@ animation
 direction
 (
 )
+NS_STYLE_ANIMATION_FILL_MODE_BOTH
 )
 ;
 NS_ABORT_IF_FALSE
