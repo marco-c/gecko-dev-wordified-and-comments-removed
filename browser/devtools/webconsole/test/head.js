@@ -1359,6 +1359,8 @@ outputNode
 =
 cs
 =
+hudBox
+=
 null
 ;
 dumpConsoles

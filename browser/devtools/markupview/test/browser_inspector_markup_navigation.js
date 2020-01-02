@@ -862,10 +862,10 @@ then
 >
 executeSoon
 (
-function
-BIMNT_newNode
 (
 )
+=
+>
 {
 let
 node
