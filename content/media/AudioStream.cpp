@@ -4131,7 +4131,10 @@ cubeb
 )
 ;
 }
-LogLatency
+mLatencyLog
+-
+>
+Log
 (
 AsyncLatencyLogger
 :
@@ -4151,7 +4154,10 @@ Length
 mOutRate
 )
 ;
-LogLatency
+mLatencyLog
+-
+>
+Log
 (
 AsyncLatencyLogger
 :

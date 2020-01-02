@@ -43,6 +43,13 @@ nsIRunnable
 .
 h
 "
+#
+include
+"
+Latency
+.
+h
+"
 namespace
 mozilla
 {
@@ -804,6 +811,12 @@ mNonRealtimeProcessing
 ;
 bool
 mStreamOrderDirty
+;
+nsRefPtr
+<
+AsyncLatencyLogger
+>
+mLatencyLog
 ;
 }
 ;

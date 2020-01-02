@@ -12194,6 +12194,15 @@ mStreamOrderDirty
 (
 false
 )
+mLatencyLog
+(
+AsyncLatencyLogger
+:
+:
+Get
+(
+)
+)
 {
 #
 ifdef
