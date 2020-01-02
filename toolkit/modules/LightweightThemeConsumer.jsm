@@ -474,6 +474,7 @@ if
 !
 aData
 )
+{
 aData
 =
 {
@@ -501,6 +502,15 @@ _lastData
 =
 aData
 ;
+}
+else
+{
+this
+.
+_lastData
+=
+aData
+;
 aData
 =
 LightweightThemeImageOptimizer
@@ -515,6 +525,7 @@ _win
 screen
 )
 ;
+}
 var
 root
 =

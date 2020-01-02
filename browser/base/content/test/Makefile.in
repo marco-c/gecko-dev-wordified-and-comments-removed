@@ -1410,6 +1410,10 @@ offlineQuotaNotification
 .
 cacheManifest
 \
+browser_addKeywordSearch
+.
+js
+\
 (
 NULL
 )
