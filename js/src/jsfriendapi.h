@@ -1896,17 +1896,6 @@ obj
 ;
 JS_FRIEND_API
 (
-bool
-)
-IsOriginalScriptFunction
-(
-JSFunction
-*
-fun
-)
-;
-JS_FRIEND_API
-(
 JSScript
 *
 )

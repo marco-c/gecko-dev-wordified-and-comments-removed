@@ -4644,12 +4644,6 @@ return
 enclosingScopeOrOriginalFunction_
 ;
 }
-bool
-enclosingScriptsCompiledSuccessfully
-(
-)
-const
-;
 private
 :
 bool
