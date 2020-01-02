@@ -1752,7 +1752,9 @@ PERMISSION_NO_SESSION
 .
 indexOf
 (
-aPerm
+type
+.
+access
 )
 <
 0
