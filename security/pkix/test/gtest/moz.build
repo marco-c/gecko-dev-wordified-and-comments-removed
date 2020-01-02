@@ -165,6 +165,11 @@ pkixocsp_CreateEncodedOCSPRequest_tests
 .
 cpp
 '
+'
+pkixocsp_VerifyEncodedOCSPResponse
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
