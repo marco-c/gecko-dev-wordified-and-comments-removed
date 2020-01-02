@@ -3217,9 +3217,7 @@ test
             
 if
 not
-m
-.
-tests
+filtered
 :
                 
 process_support_files
