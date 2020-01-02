@@ -105,6 +105,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+AddonLogging
+.
+jsm
+'
+'
 AddonRepository
 .
 jsm

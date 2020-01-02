@@ -118,13 +118,6 @@ TIMEOUT_MS
 =
 900000
 ;
-const
-gProfD
-=
-do_get_profile
-(
-)
-;
 Components
 .
 utils
@@ -6551,6 +6544,13 @@ WinRegFactory
 )
 ;
 }
+const
+gProfD
+=
+do_get_profile
+(
+)
+;
 const
 EXTENSIONS_DB
 =
