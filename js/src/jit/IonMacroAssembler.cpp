@@ -7103,8 +7103,9 @@ char
 output
 )
 {
-printf
+fprintf
 (
+stderr
 "
 %
 s
@@ -7213,8 +7214,9 @@ output
 value
 )
 ;
-printf
+fprintf
 (
+stderr
 "
 %
 s
