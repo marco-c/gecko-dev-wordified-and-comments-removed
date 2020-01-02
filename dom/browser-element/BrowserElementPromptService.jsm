@@ -2010,7 +2010,7 @@ channel
 try
 {
 let
-frame
+context
 =
 channel
 .
@@ -2022,6 +2022,11 @@ Ci
 .
 nsILoadContext
 )
+;
+let
+frame
+=
+context
 .
 topFrameElement
 ;
@@ -2030,9 +2035,15 @@ if
 !
 frame
 )
+{
 return
-false
+!
+!
+context
+.
+nestedFrameId
 ;
+}
 if
 (
 !
