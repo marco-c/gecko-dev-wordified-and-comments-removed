@@ -110,17 +110,6 @@ aContext
 )
 {
 }
-#
-ifdef
-DEBUG
-void
-SanityCheckAnonymousGridItems
-(
-)
-const
-;
-#
-endif
 }
 ;
 #
