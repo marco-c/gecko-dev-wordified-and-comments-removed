@@ -723,7 +723,7 @@ NS_IsMainThread
 )
 ;
 double
-highestEnd
+highestEndTime
 =
 0
 ;
@@ -747,14 +747,14 @@ Length
 i
 )
 {
-highestEnd
+highestEndTime
 =
 std
 :
 :
 max
 (
-highestEnd
+highestEndTime
 mSourceBuffers
 [
 i
@@ -768,7 +768,7 @@ GetBufferedEnd
 ;
 }
 return
-highestEnd
+highestEndTime
 ;
 }
 void

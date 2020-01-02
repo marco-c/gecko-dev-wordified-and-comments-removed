@@ -50,7 +50,7 @@ SubBufferDecoder
 MediaResource
 *
 aResource
-MediaSourceDecoder
+AbstractMediaDecoder
 *
 aParentDecoder
 )
@@ -275,7 +275,7 @@ aTime
 ;
 private
 :
-MediaSourceDecoder
+AbstractMediaDecoder
 *
 mParentDecoder
 ;

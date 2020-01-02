@@ -8,7 +8,7 @@ h
 #
 include
 "
-MediaSourceDecoder
+AbstractMediaDecoder
 .
 h
 "

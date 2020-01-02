@@ -996,6 +996,7 @@ aLength
 int64_t
 aOffset
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

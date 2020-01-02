@@ -132,6 +132,11 @@ MediaSourceReader
 cpp
 '
 '
+MediaSourceUtils
+.
+cpp
+'
+'
 SourceBuffer
 .
 cpp

@@ -234,9 +234,6 @@ const
 nsACString
 &
 aType
-MediaSourceDecoder
-*
-aParentDecoder
 )
 ;
 void
