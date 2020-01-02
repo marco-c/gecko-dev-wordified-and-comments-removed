@@ -795,8 +795,6 @@ existing
 HandleObject
 obj
 HandleObject
-wrappedProto
-HandleObject
 parent
 unsigned
 flags
@@ -827,17 +825,6 @@ getClass
 ext
 .
 innerObject
-)
-;
-JS_ASSERT
-(
-wrappedProto
-=
-=
-TaggedProto
-:
-:
-LazyProto
 )
 ;
 return

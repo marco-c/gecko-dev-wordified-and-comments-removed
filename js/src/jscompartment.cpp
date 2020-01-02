@@ -1998,16 +1998,6 @@ true
 ;
 }
 RootedObject
-proto
-(
-cx
-TaggedProto
-:
-:
-LazyProto
-)
-;
-RootedObject
 existing
 (
 cx
@@ -2086,7 +2076,6 @@ wrap
 cx
 existing
 obj
-proto
 global
 flags
 )

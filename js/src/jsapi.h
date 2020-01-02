@@ -3103,11 +3103,6 @@ JS
 :
 :
 HandleObject
-proto
-JS
-:
-:
-HandleObject
 parent
 unsigned
 flags
