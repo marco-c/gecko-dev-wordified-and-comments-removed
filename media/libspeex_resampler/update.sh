@@ -153,6 +153,15 @@ patch
 -
 p1
 <
+outside
+-
+speex
+.
+patch
+patch
+-
+p1
+<
 sse
 -
 detect
