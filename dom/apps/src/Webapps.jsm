@@ -4218,12 +4218,6 @@ manifestURI
 connection
 .
 description
-AppsUtils
-.
-getAppManifestStatus
-(
-manifest
-)
 connection
 .
 rules

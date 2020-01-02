@@ -2797,11 +2797,6 @@ outerWindowID
 this
 .
 _id
-appStatus
-:
-this
-.
-_appStatus
 requestID
 :
 this
