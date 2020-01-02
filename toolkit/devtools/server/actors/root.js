@@ -250,6 +250,9 @@ true
 urlToImageDataResolver
 :
 true
+networkMonitor
+:
+true
 }
 }
 ;

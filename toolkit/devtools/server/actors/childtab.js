@@ -25,6 +25,14 @@ _chromeGlobal
 =
 chromeGlobal
 ;
+this
+.
+traits
+.
+reconfigure
+=
+false
+;
 }
 ContentActor
 .
