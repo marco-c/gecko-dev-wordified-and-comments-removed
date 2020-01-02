@@ -713,8 +713,6 @@ ShadowLayersManager
 aLayersManager
 uint64_t
 aId
-ProcessId
-aOtherProcess
 )
 :
 mLayerManager
@@ -728,10 +726,6 @@ aLayersManager
 mId
 (
 aId
-)
-mChildProcessId
-(
-aOtherProcess
 )
 mDestroyed
 (
@@ -1047,6 +1041,10 @@ rotation
 )
 ;
 }
+DeprecatedClearPrevFenceHandles
+(
+)
+;
 EditReplyVector
 replyv
 ;

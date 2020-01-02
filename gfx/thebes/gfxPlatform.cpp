@@ -1548,7 +1548,7 @@ gGfxPlatformPrefsLock
 "
 )
 ;
-AsyncTransactionTrackersHolder
+AsyncTransactionTracker
 :
 :
 Initialize
