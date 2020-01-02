@@ -247,6 +247,11 @@ Touch
 .
 h
 '
+'
+WheelEvent
+.
+h
+'
 ]
 if
 CONFIG
@@ -274,11 +279,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-DOMWheelEvent
-.
-cpp
-'
 '
 EventTarget
 .
@@ -446,6 +446,11 @@ cpp
 '
 '
 Touch
+.
+cpp
+'
+'
+WheelEvent
 .
 cpp
 '
