@@ -76,6 +76,9 @@ MPL
 0
 /
 .
+#
+define
+MAC_NON_BROWSER_WINDOW
 <
 ?
 xml
