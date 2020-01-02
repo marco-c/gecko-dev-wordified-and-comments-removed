@@ -192,6 +192,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+AutoCompleteE10S
+.
+jsm
+'
+'
 nsFormAutoCompleteResult
 .
 jsm
