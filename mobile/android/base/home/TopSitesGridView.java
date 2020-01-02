@@ -429,7 +429,7 @@ id
 )
 {
 TopSitesGridItemView
-row
+item
 =
 (
 TopSitesGridItemView
@@ -443,7 +443,7 @@ HomeFragment
 .
 decodeUserEnteredUrl
 (
-row
+item
 .
 getUrl
 (
