@@ -259,3 +259,12 @@ args
 0
 ]
 )
+def
+delayloadfn
+(
+args
+)
+:
+    
+import
+delayload
