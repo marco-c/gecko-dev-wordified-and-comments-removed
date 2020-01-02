@@ -3525,6 +3525,11 @@ flex
 "
 1
 "
+minSlots
+=
+"
+1
+"
 seltype
 =
 "
