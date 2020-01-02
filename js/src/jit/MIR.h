@@ -15186,6 +15186,7 @@ Sign
 Trunc
 Cbrt
 Floor
+Ceil
 Round
 }
 ;
@@ -15464,6 +15465,12 @@ function_
 =
 =
 Floor
+|
+|
+function_
+=
+=
+Ceil
 ;
 }
 void

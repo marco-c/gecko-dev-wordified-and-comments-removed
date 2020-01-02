@@ -2953,6 +2953,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineMathCeil
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineMathRound
 (
 CallInfo
