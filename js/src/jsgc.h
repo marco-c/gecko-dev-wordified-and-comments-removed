@@ -5182,7 +5182,7 @@ ZealStackRootingValue
 ;
 const
 int
-ZealStackRootingValue__2
+ZealGenerationalGCValue
 =
 7
 ;
