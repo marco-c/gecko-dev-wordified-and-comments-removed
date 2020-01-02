@@ -309,8 +309,16 @@ struct
 nsIntRect
 ;
 using
-namespace
 base
+:
+:
+Thread
+;
+using
+base
+:
+:
+ProcessHandle
 ;
 using
 namespace
