@@ -89,6 +89,15 @@ waitForExplicitFinish
 (
 )
 ;
+setTestPluginEnabledState
+(
+Ci
+.
+nsIPluginTag
+.
+STATE_ENABLED
+)
+;
 let
 env
 =
