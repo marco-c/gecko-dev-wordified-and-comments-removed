@@ -295,6 +295,10 @@ ImageLayerAttributes
 (
 mFilter
 mScaleToSize
+.
+ToUnknownSize
+(
+)
 mScaleMode
 )
 ;

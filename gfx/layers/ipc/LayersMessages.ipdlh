@@ -286,6 +286,15 @@ layers
 :
 DiagnosticTypes
 ;
+using
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
+;
 namespace
 mozilla
 {
@@ -1009,7 +1018,7 @@ ImageLayerAttributes
 GraphicsFilterType
 filter
 ;
-gfxIntSize
+IntSize
 scaleToSize
 ;
 ScaleMode

@@ -6791,7 +6791,10 @@ ceil
 scaleFactor
 )
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 (
 window
