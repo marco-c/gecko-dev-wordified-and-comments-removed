@@ -629,6 +629,11 @@ while
 DebuggerServer
 .
 xpcInspector
+&
+&
+DebuggerServer
+.
+xpcInspector
 .
 eventLoopNestLevel
 >
