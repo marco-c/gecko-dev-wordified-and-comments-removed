@@ -66,8 +66,6 @@ Program
     
 ReaderSummary
     
-SandboxWrapped
-    
 TestWebIDLFile
     
 TestManifest
@@ -1380,33 +1378,6 @@ path
                     
 yield
 obj
-        
-for
-name
-jar
-in
-sandbox
-.
-get
-(
-'
-JAVA_JAR_TARGETS
-'
-{
-}
-)
-.
-items
-(
-)
-:
-            
-yield
-SandboxWrapped
-(
-sandbox
-jar
-)
     
 def
 _process_test_manifest
