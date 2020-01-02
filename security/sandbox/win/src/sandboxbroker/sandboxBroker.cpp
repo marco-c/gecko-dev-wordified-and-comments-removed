@@ -106,6 +106,7 @@ nullptr
 ;
 }
 }
+}
 mPolicy
 =
 sBrokerService
@@ -115,7 +116,6 @@ CreatePolicy
 (
 )
 ;
-}
 }
 bool
 SandboxBroker
