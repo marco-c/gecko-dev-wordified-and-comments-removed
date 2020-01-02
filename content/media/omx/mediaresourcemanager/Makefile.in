@@ -63,16 +63,9 @@ config
 rules
 .
 mk
-INCLUDES
+CXXFLAGS
 +
 =
-\
--
-I
-(
-srcdir
-)
-/
 \
 -
 I

@@ -139,3 +139,16 @@ config
 mozbuild
 '
 )
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+content
+/
+base
+/
+src
+'
+]

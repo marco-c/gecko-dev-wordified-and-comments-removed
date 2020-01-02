@@ -63,7 +63,8 @@ config
 rules
 .
 mk
-LOCAL_INCLUDES
+CXXFLAGS
++
 =
 \
 (

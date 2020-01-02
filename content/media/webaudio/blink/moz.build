@@ -211,3 +211,16 @@ config
 mozbuild
 '
 )
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+content
+/
+media
+/
+webaudio
+'
+]
