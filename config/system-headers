@@ -4024,6 +4024,11 @@ vpx
 vp8dx
 .
 h
+vpx_mem
+/
+vpx_mem
+.
+h
 #
 endif
 #
@@ -4052,6 +4057,11 @@ h
 vpx
 /
 vp8dx
+.
+h
+vpx_mem
+/
+vpx_mem
 .
 h
 vorbis
