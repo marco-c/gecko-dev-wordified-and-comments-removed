@@ -844,7 +844,7 @@ copyData
 (
 JSContext
 *
-maybecx
+cx
 )
 ;
 bool
@@ -852,7 +852,7 @@ ensureNonInline
 (
 JSContext
 *
-maybecx
+cx
 )
 ;
 uint32_t
@@ -876,7 +876,7 @@ getTransferableContents
 (
 JSContext
 *
-maybecx
+cx
 bool
 *
 callerOwns
@@ -918,7 +918,7 @@ neuter
 (
 JSContext
 *
-maybecx
+cx
 )
 ;
 bool

@@ -306,8 +306,9 @@ uint8_t
 *
 data
 =
-JS_GetArrayBufferData
+JS_GetStableArrayBufferData
 (
+cx
 obj
 )
 ;
@@ -538,8 +539,9 @@ dst
 ;
 data
 =
-JS_GetArrayBufferData
+JS_GetStableArrayBufferData
 (
+cx
 obj
 )
 ;
@@ -579,8 +581,9 @@ size
 ;
 data
 =
-JS_GetArrayBufferData
+JS_GetStableArrayBufferData
 (
+cx
 dst
 )
 ;
