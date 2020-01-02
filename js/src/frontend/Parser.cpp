@@ -20090,6 +20090,17 @@ null
 }
 pn3
 =
+(
+headKind
+=
+=
+PNK_FOROF
+)
+?
+assignExpr
+(
+)
+:
 expr
 (
 )
