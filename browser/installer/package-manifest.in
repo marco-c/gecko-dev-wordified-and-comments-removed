@@ -2182,6 +2182,15 @@ ExperimentsService
 js
 BINPATH
 /
+browser
+/
+components
+/
+translation
+.
+manifest
+BINPATH
+/
 components
 /
 Downloads
