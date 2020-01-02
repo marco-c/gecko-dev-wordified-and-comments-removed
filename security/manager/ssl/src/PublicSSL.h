@@ -25,6 +25,13 @@ StopSSLServerCertVerificationThreads
 (
 )
 ;
+void
+ConfigureMD5
+(
+bool
+enabled
+)
+;
 nsresult
 InitializeCipherSuite
 (
