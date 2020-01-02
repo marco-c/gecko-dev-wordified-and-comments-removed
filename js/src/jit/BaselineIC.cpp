@@ -42620,10 +42620,12 @@ if
 (
 args
 .
-hasDefined
+length
 (
-1
 )
+!
+=
+1
 )
 count
 =
@@ -42638,10 +42640,12 @@ if
 (
 args
 .
-hasDefined
+length
 (
-0
 )
+=
+=
+1
 &
 &
 args
@@ -42663,6 +42667,7 @@ toInt32
 (
 )
 >
+=
 0
 )
 count
