@@ -10598,6 +10598,17 @@ GetMainAxis
 (
 )
 )
+&
+&
+NS_STYLE_FLEX_WRAP_NOWRAP
+=
+=
+StylePosition
+(
+)
+-
+>
+mFlexWrap
 )
 {
 minWidth
