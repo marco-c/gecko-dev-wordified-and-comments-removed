@@ -1159,7 +1159,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CSP_BLOCKED_EVAL
 )
 ;
@@ -1428,7 +1428,7 @@ script
 (
 )
 :
-NULL
+nullptr
 )
 ;
 EvalJSONResult
@@ -1716,7 +1716,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CSP_BLOCKED_EVAL
 )
 ;
@@ -2062,7 +2062,7 @@ NullFramePtr
 (
 )
 global
-NULL
+nullptr
 )
 ;
 }

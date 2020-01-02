@@ -1601,8 +1601,8 @@ JSObject
 :
 :
 class_
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -2080,7 +2080,7 @@ ptr_
 ;
 ptr_
 =
-NULL
+nullptr
 ;
 return
 tmp
@@ -2455,7 +2455,7 @@ setReservedSlot
 UCOLLATOR_SLOT
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2717,7 +2717,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 proto
@@ -2745,7 +2745,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2758,7 +2758,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2771,7 +2771,7 @@ collator_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2784,7 +2784,7 @@ collator_methods
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 getter
@@ -2819,7 +2819,7 @@ getter
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 undefinedValue
@@ -2859,13 +2859,13 @@ toObject
 (
 )
 )
-NULL
+nullptr
 JSPROP_GETTER
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -2906,7 +2906,7 @@ options
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 ctorValue
@@ -2945,7 +2945,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3000,7 +3000,7 @@ setReservedSlot
 UCOLLATOR_SLOT
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -3201,7 +3201,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -3241,7 +3241,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -3296,7 +3296,7 @@ collation
 uenum_next
 (
 values
-NULL
+nullptr
 &
 status
 )
@@ -3313,7 +3313,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -3510,7 +3510,7 @@ internals
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3536,7 +3536,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 JSAutoByteString
 locale
@@ -3555,7 +3555,7 @@ if
 locale
 )
 return
-NULL
+nullptr
 ;
 UColAttributeValue
 uStrength
@@ -3611,7 +3611,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 JSAutoByteString
 usage
@@ -3630,7 +3630,7 @@ if
 usage
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3797,7 +3797,7 @@ if
 newLocale
 )
 return
-NULL
+nullptr
 ;
 memcpy
 (
@@ -3870,7 +3870,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 JSAutoByteString
 sensitivity
@@ -3889,7 +3889,7 @@ if
 sensitivity
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3987,7 +3987,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4025,7 +4025,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4071,7 +4071,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4100,7 +4100,7 @@ if
 caseFirst
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4179,12 +4179,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ucol_setAttribute
@@ -4258,12 +4258,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -5066,7 +5066,7 @@ setReservedSlot
 UNUMBER_FORMAT_SLOT
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -5328,7 +5328,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 proto
@@ -5356,7 +5356,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5369,7 +5369,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5382,7 +5382,7 @@ numberFormat_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5395,7 +5395,7 @@ numberFormat_methods
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 getter
@@ -5430,7 +5430,7 @@ getter
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 undefinedValue
@@ -5470,13 +5470,13 @@ toObject
 (
 )
 )
-NULL
+nullptr
 JSPROP_GETTER
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -5517,7 +5517,7 @@ options
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 ctorValue
@@ -5556,7 +5556,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -5611,7 +5611,7 @@ setReservedSlot
 UNUMBER_FORMAT_SLOT
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -5816,7 +5816,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -5909,7 +5909,7 @@ internals
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5935,7 +5935,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 JSAutoByteString
 locale
@@ -5954,7 +5954,7 @@ if
 locale
 )
 return
-NULL
+nullptr
 ;
 UNumberFormatStyle
 uStyle
@@ -5966,7 +5966,7 @@ UChar
 *
 uCurrency
 =
-NULL
+nullptr
 ;
 uint32_t
 uMinimumIntegerDigits
@@ -6038,7 +6038,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 JSAutoByteString
 style
@@ -6057,7 +6057,7 @@ if
 style
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6094,7 +6094,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 currency
 =
@@ -6140,7 +6140,7 @@ if
 uCurrency
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6166,7 +6166,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 JSAutoByteString
 currencyDisplay
@@ -6185,7 +6185,7 @@ if
 currencyDisplay
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6310,7 +6310,7 @@ hasP
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6342,7 +6342,7 @@ value
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uMinimumSignificantDigits
@@ -6381,7 +6381,7 @@ value
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uMaximumSignificantDigits
@@ -6423,7 +6423,7 @@ value
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uMinimumIntegerDigits
@@ -6462,7 +6462,7 @@ value
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uMinimumFractionDigits
@@ -6501,7 +6501,7 @@ value
 )
 {
 return
-NULL
+nullptr
 ;
 }
 uMaximumFractionDigits
@@ -6540,7 +6540,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 uUseGrouping
 =
@@ -6562,7 +6562,7 @@ nf
 unum_open
 (
 uStyle
-NULL
+nullptr
 0
 icuLocale
 (
@@ -6572,7 +6572,7 @@ ptr
 (
 )
 )
-NULL
+nullptr
 &
 status
 )
@@ -6589,12 +6589,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ScopedICUObject
@@ -6634,12 +6634,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -6786,7 +6786,7 @@ begin
 (
 )
 INITIAL_STRING_BUFFER_SIZE
-NULL
+nullptr
 &
 status
 )
@@ -6826,7 +6826,7 @@ begin
 (
 )
 size
-NULL
+nullptr
 &
 status
 )
@@ -6844,7 +6844,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -7488,7 +7488,7 @@ setReservedSlot
 UDATE_FORMAT_SLOT
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -7750,7 +7750,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 proto
@@ -7778,7 +7778,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7791,7 +7791,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7804,7 +7804,7 @@ dateTimeFormat_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7817,7 +7817,7 @@ dateTimeFormat_methods
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 getter
@@ -7852,7 +7852,7 @@ getter
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 undefinedValue
@@ -7892,13 +7892,13 @@ toObject
 (
 )
 )
-NULL
+nullptr
 JSPROP_GETTER
 )
 )
 {
 return
-NULL
+nullptr
 ;
 }
 RootedValue
@@ -7939,7 +7939,7 @@ options
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 ctorValue
@@ -7978,7 +7978,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -8033,7 +8033,7 @@ setReservedSlot
 UDATE_FORMAT_SLOT
 PrivateValue
 (
-NULL
+nullptr
 )
 )
 ;
@@ -8299,7 +8299,7 @@ cal
 =
 ucal_open
 (
-NULL
+nullptr
 0
 locale
 .
@@ -8335,7 +8335,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -8430,7 +8430,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -8470,7 +8470,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -8495,7 +8495,7 @@ calendar
 uenum_next
 (
 values
-NULL
+nullptr
 &
 status
 )
@@ -8512,7 +8512,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -8749,7 +8749,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -8775,7 +8775,7 @@ udatpg_getBestPattern
 gen
 skeleton
 skeletonLen
-NULL
+nullptr
 0
 &
 status
@@ -8799,7 +8799,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -8872,7 +8872,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -8950,7 +8950,7 @@ internals
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -8977,7 +8977,7 @@ value
 )
 {
 return
-NULL
+nullptr
 ;
 }
 JSAutoByteString
@@ -8997,14 +8997,14 @@ if
 locale
 )
 return
-NULL
+nullptr
 ;
 const
 UChar
 *
 uTimeZone
 =
-NULL
+nullptr
 ;
 uint32_t
 uTimeZoneLength
@@ -9016,7 +9016,7 @@ UChar
 *
 uPattern
 =
-NULL
+nullptr
 ;
 uint32_t
 uPatternLength
@@ -9075,7 +9075,7 @@ hasP
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -9106,7 +9106,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -9136,7 +9136,7 @@ if
 uTimeZone
 )
 return
-NULL
+nullptr
 ;
 uTimeZoneLength
 =
@@ -9171,7 +9171,7 @@ value
 )
 )
 return
-NULL
+nullptr
 ;
 uPattern
 =
@@ -9191,7 +9191,7 @@ if
 uPattern
 )
 return
-NULL
+nullptr
 ;
 uPatternLength
 =
@@ -9241,12 +9241,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 UCalendar
@@ -9306,7 +9306,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DATE_NOT_FINITE
 )
 ;
@@ -9351,7 +9351,7 @@ begin
 (
 )
 INITIAL_STRING_BUFFER_SIZE
-NULL
+nullptr
 &
 status
 )
@@ -9391,7 +9391,7 @@ begin
 (
 )
 size
-NULL
+nullptr
 &
 status
 )
@@ -9409,7 +9409,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INTERNAL_INTL_ERROR
 )
 ;
@@ -9839,7 +9839,7 @@ if
 Intl
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 IntlValue
@@ -9878,7 +9878,7 @@ JS_StrictPropertyStub
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -9892,7 +9892,7 @@ intl_static_methods
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -9927,7 +9927,7 @@ global
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -9940,7 +9940,7 @@ global
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -9953,7 +9953,7 @@ global
 )
 )
 return
-NULL
+nullptr
 ;
 }
 MarkStandardClassInitializedNoProto

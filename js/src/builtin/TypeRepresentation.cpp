@@ -108,10 +108,10 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 obj_finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 obj_trace
 }
 ;
@@ -1005,7 +1005,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
@@ -1071,7 +1071,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
@@ -1104,7 +1104,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
@@ -1181,7 +1181,7 @@ this
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -1226,7 +1226,7 @@ this
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ownerObject
@@ -1341,7 +1341,7 @@ if
 ptr
 )
 return
-NULL
+nullptr
 ;
 new
 (
@@ -1415,12 +1415,12 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_TOO_BIG
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 ArrayTypeRepresentation
@@ -1487,7 +1487,7 @@ if
 ptr
 )
 return
-NULL
+nullptr
 ;
 new
 (
@@ -1601,7 +1601,7 @@ typeReprOwners
 )
 )
 return
-NULL
+nullptr
 ;
 TypeRepresentationHash
 :
@@ -2415,7 +2415,7 @@ i
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool

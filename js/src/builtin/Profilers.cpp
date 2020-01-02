@@ -184,7 +184,7 @@ char
 *
 profileName
 =
-NULL
+nullptr
 )
 {
 bool
@@ -197,7 +197,7 @@ char
 *
 profiler
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -733,7 +733,7 @@ cx
 )
 mBytes
 (
-NULL
+nullptr
 )
 {
 if
@@ -886,7 +886,7 @@ setBoolean
 (
 JS_StartProfiling
 (
-NULL
+nullptr
 )
 )
 ;
@@ -978,7 +978,7 @@ setBoolean
 (
 JS_StopProfiling
 (
-NULL
+nullptr
 )
 )
 ;
@@ -1070,7 +1070,7 @@ setBoolean
 (
 JS_PauseProfilers
 (
-NULL
+nullptr
 )
 )
 ;
@@ -1162,7 +1162,7 @@ setBoolean
 (
 JS_ResumeProfilers
 (
-NULL
+nullptr
 )
 )
 ;
@@ -1251,8 +1251,8 @@ ret
 =
 JS_DumpProfile
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -1296,7 +1296,7 @@ JS_DumpProfile
 filename
 .
 mBytes
-NULL
+nullptr
 )
 ;
 }
@@ -1530,7 +1530,7 @@ setBoolean
 (
 js_DumpCallgrind
 (
-NULL
+nullptr
 )
 )
 ;
@@ -2167,7 +2167,7 @@ tok
 =
 strtok_r
 (
-NULL
+nullptr
 "
 "
 &
@@ -2183,7 +2183,7 @@ append
 char
 *
 )
-NULL
+nullptr
 )
 ;
 execvp
@@ -2326,7 +2326,7 @@ n
 waitpid
 (
 perfPid
-NULL
+nullptr
 WNOHANG
 )
 ;
@@ -2336,7 +2336,7 @@ else
 waitpid
 (
 perfPid
-NULL
+nullptr
 0
 )
 ;

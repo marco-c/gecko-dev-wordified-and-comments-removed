@@ -874,7 +874,7 @@ oldLen
 )
 )
 return
-NULL
+nullptr
 ;
 sb
 .
@@ -904,7 +904,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 }
 if
@@ -927,7 +927,7 @@ it
 )
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1098,7 +1098,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NEWREGEXP_FLAGGED
 )
 ;
@@ -1378,7 +1378,7 @@ RegExpShared
 checkSyntax
 (
 cx
-NULL
+nullptr
 escapedSourceStr
 )
 )
@@ -2645,14 +2645,14 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 proto
 -
 >
 setPrivate
 (
-NULL
+nullptr
 )
 ;
 HandlePropertyName
@@ -2698,7 +2698,7 @@ RegExpFlag
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2707,12 +2707,12 @@ DefinePropertiesAndBrand
 (
 cx
 proto
-NULL
+nullptr
 regexp_methods
 )
 )
 return
-NULL
+nullptr
 ;
 RootedFunction
 ctor
@@ -2746,7 +2746,7 @@ if
 ctor
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2759,7 +2759,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2772,7 +2772,7 @@ regexp_static_props
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2787,7 +2787,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 proto
@@ -2878,7 +2878,7 @@ getRegExpStatics
 (
 )
 :
-NULL
+nullptr
 ;
 Rooted
 <

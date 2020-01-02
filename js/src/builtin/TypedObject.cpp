@@ -244,7 +244,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_CONVERT_TO
 InformalValueTypeName
 (
@@ -458,7 +458,7 @@ isObject
 )
 )
 return
-NULL
+nullptr
 ;
 return
 &
@@ -1041,7 +1041,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Type
@@ -1078,7 +1078,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 Type
@@ -1127,7 +1127,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_NOT_TYPE_OBJECT
 )
 ;
@@ -1233,9 +1233,9 @@ JS_ResolveStub
 \
 JS_ConvertStub
 \
-NULL
+nullptr
 \
-NULL
+nullptr
 \
 NumericType
 <
@@ -1246,11 +1246,11 @@ type_
 :
 call
 \
-NULL
+nullptr
 \
-NULL
+nullptr
 \
-NULL
+nullptr
 \
 }
 const
@@ -2109,7 +2109,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 args
 .
@@ -2354,7 +2354,7 @@ complexTypePrototypeVal
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -2401,7 +2401,7 @@ complexTypePrototypePrototypeVal
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 prototypeObj
@@ -2415,7 +2415,7 @@ JSObject
 :
 :
 class_
-NULL
+nullptr
 global
 )
 )
@@ -2452,7 +2452,7 @@ proto
 )
 )
 return
-NULL
+nullptr
 ;
 return
 prototypeObj
@@ -2485,15 +2485,15 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 BinaryBlock
 :
 :
 construct
-NULL
+nullptr
 }
 ;
 static
@@ -2870,7 +2870,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 update
@@ -2920,7 +2920,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Data
@@ -3150,7 +3150,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 repeat
@@ -3200,7 +3200,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 ArrayType
@@ -3340,7 +3340,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 ArrayType
@@ -3459,7 +3459,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 subarray
@@ -3495,7 +3495,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_SUBARRAY_INTEGER_ARG
 "
 1
@@ -3626,7 +3626,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_SUBARRAY_INTEGER_ARG
 "
 2
@@ -3897,7 +3897,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 fill
@@ -3948,7 +3948,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 ArrayType
@@ -4151,8 +4151,8 @@ names
 .
 byteLength
 typeByteLength
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -4195,8 +4195,8 @@ names
 .
 byteAlignment
 typeByteAlignment
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -4231,8 +4231,8 @@ names
 .
 variable
 variable
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -4306,7 +4306,7 @@ if
 typeReprObj
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 obj
@@ -4329,7 +4329,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -4374,15 +4374,15 @@ names
 .
 elementType
 elementTypeVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -4422,15 +4422,15 @@ names
 .
 length
 lengthVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4443,7 +4443,7 @@ typeReprObj
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 prototypeObj
@@ -4462,7 +4462,7 @@ if
 prototypeObj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -4475,7 +4475,7 @@ prototypeObj
 )
 )
 return
-NULL
+nullptr
 ;
 JSFunction
 *
@@ -4499,7 +4499,7 @@ if
 fillFun
 )
 return
-NULL
+nullptr
 ;
 SetFunctionNativeReserved
 (
@@ -4555,7 +4555,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_FUNCTION
 "
 ArrayType
@@ -4616,7 +4616,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
@@ -4664,7 +4664,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
@@ -4689,7 +4689,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
@@ -4720,7 +4720,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
@@ -4794,15 +4794,15 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 BinaryBlock
 :
 :
 construct
-NULL
+nullptr
 }
 ;
 static
@@ -5439,8 +5439,8 @@ names
 .
 fieldNames
 fieldNamesVecValue
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5461,8 +5461,8 @@ JSObject
 :
 :
 class_
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -5478,8 +5478,8 @@ JSObject
 :
 :
 class_
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -5550,8 +5550,8 @@ cx
 fieldOffsets
 fieldId
 offset
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5577,8 +5577,8 @@ handleAt
 (
 i
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5618,8 +5618,8 @@ names
 .
 fieldOffsets
 fieldOffsetsValue
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5658,8 +5658,8 @@ names
 .
 fieldTypes
 fieldTypesValue
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_PERMANENT
@@ -5709,7 +5709,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5725,7 +5725,7 @@ fields
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 fieldsProto
@@ -5748,7 +5748,7 @@ fieldsProto
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 typeReprObj
@@ -5771,7 +5771,7 @@ typeReprObj
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 prototypeObj
@@ -5790,7 +5790,7 @@ if
 prototypeObj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5803,7 +5803,7 @@ prototypeObj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -5849,7 +5849,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_FUNCTION
 "
 StructType
@@ -5949,7 +5949,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_STRUCTTYPE_BAD_ARGS
 )
 ;
@@ -6014,7 +6014,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 StructType
@@ -6719,7 +6719,7 @@ if
 TypeObject
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6732,7 +6732,7 @@ TypeObject
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 DataObject
@@ -6753,7 +6753,7 @@ if
 DataObject
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 DataProtoVal
@@ -6785,7 +6785,7 @@ DataProtoVal
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 DataProto
@@ -6805,7 +6805,7 @@ if
 DataProto
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 prototypeObj
@@ -6819,7 +6819,7 @@ JSObject
 :
 :
 class_
-NULL
+nullptr
 global
 )
 )
@@ -6830,7 +6830,7 @@ if
 prototypeObj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6843,7 +6843,7 @@ prototypeObj
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6858,7 +6858,7 @@ prototypeObj
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6871,7 +6871,7 @@ DataObject
 )
 )
 return
-NULL
+nullptr
 ;
 proto
 .
@@ -6887,8 +6887,8 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
+nullptr
+nullptr
 global
 )
 )
@@ -6904,7 +6904,7 @@ prototypePrototypeObj
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -6917,7 +6917,7 @@ DataProto
 )
 )
 return
-NULL
+nullptr
 ;
 protoProto
 .
@@ -7288,8 +7288,8 @@ cx
 protoProto
 forEachId
 forEachFunVal
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )
@@ -7662,7 +7662,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 #
 define
@@ -7689,7 +7689,7 @@ name_
 )
 \
 return
-NULL
+nullptr
 ;
 JS_FOR_EACH_SCALAR_TYPE_REPR
 (
@@ -7708,7 +7708,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -7720,7 +7720,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 return
 global
@@ -7766,10 +7766,10 @@ BinaryBlock
 :
 :
 obj_finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 BinaryBlock
 :
 :
@@ -7868,7 +7868,7 @@ BinaryBlock
 :
 :
 obj_enumerate
-NULL
+nullptr
 }
 }
 ;
@@ -7979,7 +7979,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 typeReprStr
 )
@@ -8169,7 +8169,7 @@ protoVal
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 obj
@@ -8186,7 +8186,7 @@ protoVal
 toObject
 (
 )
-NULL
+nullptr
 )
 )
 ;
@@ -8262,7 +8262,7 @@ typeRepr
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -8311,7 +8311,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 TypeRepresentation
 *
@@ -8348,7 +8348,7 @@ if
 memory
 )
 return
-NULL
+nullptr
 ;
 memset
 (
@@ -8453,7 +8453,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 obj
 -
@@ -8812,14 +8812,14 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 propp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -8978,7 +8978,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 errorNumber
 propName
 )
@@ -9943,7 +9943,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_REDEFINE_ARRAY_LENGTH
 )
 ;
@@ -10159,7 +10159,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_TYPEDOBJECT_BINARYARRAY_BAD_INDEX
 )
 ;
@@ -10396,7 +10396,7 @@ id
 )
 !
 =
-NULL
+nullptr
 )
 {
 *
@@ -10556,7 +10556,7 @@ id
 )
 !
 =
-NULL
+nullptr
 ;
 }
 return

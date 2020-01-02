@@ -114,7 +114,7 @@ RootedObject
 obj
 (
 cx
-NULL
+nullptr
 )
 ;
 if
@@ -529,7 +529,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -574,7 +574,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -589,7 +589,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 RootedValue
 v0
@@ -656,7 +656,7 @@ idv
 )
 )
 return
-NULL
+nullptr
 ;
 bool
 comma
@@ -723,7 +723,7 @@ shape
 )
 )
 return
-NULL
+nullptr
 ;
 int
 valcnt
@@ -880,7 +880,7 @@ gsop
 .
 set
 (
-NULL
+nullptr
 )
 ;
 if
@@ -902,7 +902,7 @@ val
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -935,7 +935,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -960,7 +960,7 @@ if
 idstr
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1027,7 +1027,7 @@ cx
 )
 )
 return
-NULL
+nullptr
 ;
 }
 for
@@ -1085,7 +1085,7 @@ if
 valstr
 )
 return
-NULL
+nullptr
 ;
 const
 jschar
@@ -1106,7 +1106,7 @@ if
 vchars
 )
 return
-NULL
+nullptr
 ;
 size_t
 vlength
@@ -1243,7 +1243,7 @@ j
 .
 set
 (
-NULL
+nullptr
 )
 ;
 vchars
@@ -1267,7 +1267,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 comma
 =
@@ -1304,7 +1304,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1317,7 +1317,7 @@ idstr
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1340,7 +1340,7 @@ j
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1354,7 +1354,7 @@ vlength
 )
 )
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1371,7 +1371,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -1389,7 +1389,7 @@ append
 )
 )
 return
-NULL
+nullptr
 ;
 return
 buf
@@ -1471,7 +1471,7 @@ append
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1710,7 +1710,7 @@ callMethod
 cx
 id
 0
-NULL
+nullptr
 args
 .
 rval
@@ -1856,7 +1856,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_GETTER_OR_SETTER
 Type
 =
@@ -2771,7 +2771,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
 "
@@ -3276,8 +3276,8 @@ JS_ClearWatchPoint
 cx
 obj
 id
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -3719,7 +3719,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 Object
@@ -3793,7 +3793,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 bytes
 "
@@ -3885,7 +3885,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_NONNULL_OBJECT
 )
 ;
@@ -4796,7 +4796,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 "
 Object

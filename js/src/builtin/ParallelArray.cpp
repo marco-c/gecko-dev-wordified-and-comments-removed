@@ -456,7 +456,7 @@ ctorValue
 )
 )
 return
-NULL
+nullptr
 ;
 JS_ASSERT
 (
@@ -545,7 +545,7 @@ if
 result
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -557,7 +557,7 @@ result
 )
 )
 return
-NULL
+nullptr
 ;
 return
 result
@@ -954,7 +954,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 ctorNames
 [
@@ -1014,7 +1014,7 @@ if
 proto
 )
 return
-NULL
+nullptr
 ;
 JSProtoKey
 key
@@ -1064,7 +1064,7 @@ DefinePropertiesAndBrand
 (
 cx
 proto
-NULL
+nullptr
 methods
 )
 |
@@ -1081,7 +1081,7 @@ proto
 )
 {
 return
-NULL
+nullptr
 ;
 }
 {
@@ -1115,7 +1115,7 @@ if
 atom
 )
 return
-NULL
+nullptr
 ;
 Rooted
 <
@@ -1159,7 +1159,7 @@ lengthValue
 )
 )
 return
-NULL
+nullptr
 ;
 RootedObject
 lengthGetter
@@ -1179,7 +1179,7 @@ if
 lengthGetter
 )
 return
-NULL
+nullptr
 ;
 RootedId
 lengthId
@@ -1234,7 +1234,7 @@ get
 (
 )
 )
-NULL
+nullptr
 flags
 0
 0
@@ -1242,7 +1242,7 @@ flags
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
