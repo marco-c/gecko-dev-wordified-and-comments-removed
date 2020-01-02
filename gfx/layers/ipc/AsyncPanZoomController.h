@@ -719,7 +719,7 @@ GetFrameMetrics
 )
 ;
 void
-TimeoutTouchListeners
+TimeoutContentResponse
 (
 )
 ;
@@ -743,7 +743,7 @@ CROSS_SLIDING_X
 CROSS_SLIDING_Y
 PINCHING
 ANIMATING_ZOOM
-WAITING_LISTENERS
+WAITING_CONTENT_RESPONSE
 }
 ;
 TouchBehaviorFlags
@@ -751,6 +751,11 @@ GetTouchBehavior
 (
 uint32_t
 touchIndex
+)
+;
+void
+CheckContentResponse
+(
 )
 ;
 void
@@ -874,7 +879,7 @@ mTouchQueue
 ;
 CancelableTask
 *
-mTouchListenerTimeoutTask
+mContentResponseTimeoutTask
 ;
 AxisX
 mX
@@ -921,6 +926,15 @@ nsTArray
 TouchBehaviorFlags
 >
 mAllowedTouchBehaviors
+;
+bool
+mAllowedTouchBehaviorSet
+;
+bool
+mPreventDefault
+;
+bool
+mPreventDefaultSet
 ;
 RefPtr
 <
