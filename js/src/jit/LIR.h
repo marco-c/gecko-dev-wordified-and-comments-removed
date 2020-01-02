@@ -1917,6 +1917,7 @@ Type
 GENERAL
 OBJECT
 SLOTS
+FLOAT32
 DOUBLE
 #
 ifdef
@@ -2381,6 +2382,12 @@ OBJECT
 case
 MIRType_Double
 :
+return
+LDefinition
+:
+:
+DOUBLE
+;
 case
 MIRType_Float32
 :
@@ -2388,7 +2395,7 @@ return
 LDefinition
 :
 :
-DOUBLE
+FLOAT32
 ;
 #
 if

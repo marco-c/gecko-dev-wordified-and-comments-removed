@@ -1033,6 +1033,9 @@ o
 "
 f
 "
+"
+d
+"
 #
 ifdef
 JS_NUNBOX32
@@ -1040,7 +1043,7 @@ JS_NUNBOX32
 t
 "
 "
-d
+p
 "
 #
 elif
