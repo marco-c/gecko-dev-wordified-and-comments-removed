@@ -2258,6 +2258,17 @@ TimeStamp
 aTime
 )
 {
+if
+(
+HadRecentRefresh
+(
+aTime
+)
+)
+{
+return
+;
+}
 EvaluateAnimation
 (
 )
