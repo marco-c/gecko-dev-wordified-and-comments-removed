@@ -5002,8 +5002,7 @@ CTFontCreateWithName
 CFSTR
 (
 "
-Lucida
-Grande
+LucidaGrande
 "
 )
 12
