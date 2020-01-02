@@ -148,7 +148,7 @@ name
 uint8_t
 style
 ;
-uint8_t
+bool
 systemFont
 ;
 uint8_t
