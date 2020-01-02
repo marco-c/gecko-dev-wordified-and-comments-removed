@@ -1306,8 +1306,6 @@ bool
 aliases
 (
 FloatRegister
-const
-&
 other
 )
 const
@@ -1325,6 +1323,7 @@ uint32_t
 numAliased
 (
 )
+const
 {
 return
 1
@@ -1371,6 +1370,7 @@ uint32_t
 size
 (
 )
+const
 {
 return
 sizeof
