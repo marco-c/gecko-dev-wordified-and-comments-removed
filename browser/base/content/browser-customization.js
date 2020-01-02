@@ -240,7 +240,7 @@ customizeStart
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 customizeStart
 (
@@ -370,7 +370,7 @@ customizeDone
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 customizeDone
 (
@@ -411,7 +411,7 @@ asyncUpdateUI
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 updateStarState
 (
