@@ -266,6 +266,16 @@ nsWifiScannerWin
 .
 cpp
 '
+'
+win_wifiScanner
+.
+cpp
+'
+'
+win_wlanLibrary
+.
+cpp
+'
 ]
 elif
 CONFIG
