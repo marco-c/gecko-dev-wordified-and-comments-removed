@@ -2335,7 +2335,7 @@ mFileListLength
 )
 mCanceled
 (
-0
+false
 )
 {
 }
@@ -2627,7 +2627,7 @@ nullptr
 ;
 mCanceled
 =
-1
+true
 ;
 }
 uint32_t
@@ -2680,7 +2680,7 @@ mozilla
 :
 Atomic
 <
-uint32_t
+bool
 >
 mCanceled
 ;
