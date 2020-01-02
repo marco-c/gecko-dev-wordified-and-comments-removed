@@ -13547,9 +13547,8 @@ RootedValue
 v
 (
 cx
-ObjectValue
+ObjectOrNullValue
 (
-*
 proto
 )
 )
