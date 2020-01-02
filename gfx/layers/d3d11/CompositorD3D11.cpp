@@ -4741,17 +4741,6 @@ D3D11_MAP_READ
 map
 )
 ;
-destSurf
--
->
-LockRect
-(
-&
-rect
-NULL
-D3DLOCK_READONLY
-)
-;
 RefPtr
 <
 DataSourceSurface
