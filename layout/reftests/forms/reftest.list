@@ -56,15 +56,6 @@ reftest
 .
 list
 #
-fieldset
-element
-include
-fieldset
-/
-reftest
-.
-list
-#
 placeholder
 include
 placeholder
