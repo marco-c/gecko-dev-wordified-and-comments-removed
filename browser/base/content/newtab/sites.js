@@ -539,6 +539,11 @@ Site_refreshThumbnail
 let
 link
 =
+gAllPages
+.
+enhanced
+&
+&
 DirectoryLinksProvider
 .
 getEnhancedLink
