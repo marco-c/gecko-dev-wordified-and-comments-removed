@@ -565,7 +565,7 @@ friend
 class
 nsOverflowContinuationTracker
 ;
-nsresult
+void
 ReflowOverflowContainerChildren
 (
 nsPresContext

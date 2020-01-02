@@ -4515,7 +4515,7 @@ FINISHED
 )
 ;
 }
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -4741,7 +4741,6 @@ overflowContainers
 )
 {
 return
-NS_OK
 ;
 }
 nsOverflowContinuationTracker
@@ -5088,12 +5087,17 @@ StealFrame
 nif
 )
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 rv
-rv
 )
+)
+{
+return
 ;
+}
 }
 tracker
 .
@@ -5148,9 +5152,6 @@ frame
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsContainerFrame
