@@ -1517,7 +1517,7 @@ mozilla
 test_mode
 "
 :
-true
+false
 }
 {
 "
@@ -1547,7 +1547,7 @@ mozilla
 test_mode
 "
 :
-true
+false
 }
 {
 "
@@ -1577,7 +1577,7 @@ mozilla
 test_mode
 "
 :
-true
+false
 }
 {
 "
