@@ -150,6 +150,8 @@ namespace
 class
 Destructor
 {
+private
+:
 ~
 Destructor
 (
