@@ -1470,13 +1470,6 @@ java
 '
 home
 /
-HomeAdapter
-.
-java
-'
-'
-home
-/
 HomeBanner
 .
 java
