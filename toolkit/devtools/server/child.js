@@ -14,6 +14,13 @@ function
 )
 {
 let
+Cu
+=
+Components
+.
+utils
+;
+let
 {
 devtools
 }
