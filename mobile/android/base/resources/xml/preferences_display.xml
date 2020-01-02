@@ -267,7 +267,16 @@ title
 "
 string
 /
-pref_scroll_title_bar
+pref_scroll_title_bar2
+"
+android
+:
+summary
+=
+"
+string
+/
+pref_scroll_title_bar_summary
 "
 /
 >
