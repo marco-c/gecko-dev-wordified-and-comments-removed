@@ -202,13 +202,3 @@ PARALLEL_DIRS
 sync
 '
 ]
-SPHINX_TREES
-[
-'
-services
-'
-]
-=
-'
-docs
-'
