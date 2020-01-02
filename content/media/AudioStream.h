@@ -909,6 +909,11 @@ aLatencyRequest
 )
 ;
 void
+AudioInitTaskFinished
+(
+)
+;
+void
 CheckForStart
 (
 )
@@ -1301,6 +1306,9 @@ mMicrophoneActive
 ;
 bool
 mShouldDropFrames
+;
+bool
+mPendingAudioInitTask
 ;
 static
 StaticMutex
