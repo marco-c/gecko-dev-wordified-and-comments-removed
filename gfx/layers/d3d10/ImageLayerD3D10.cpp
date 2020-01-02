@@ -2602,7 +2602,7 @@ gfxASurface
 RemoteDXGITextureImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 {

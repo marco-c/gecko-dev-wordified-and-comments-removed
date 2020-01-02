@@ -254,7 +254,7 @@ already_AddRefed
 <
 gfxASurface
 >
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;
@@ -628,7 +628,7 @@ gfxASurface
 BasicPlanarYCbCrImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 {
@@ -680,7 +680,7 @@ return
 PlanarYCbCrImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 ;

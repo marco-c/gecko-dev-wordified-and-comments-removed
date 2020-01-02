@@ -1107,7 +1107,7 @@ gfxASurface
 GrallocImage
 :
 :
-GetAsSurface
+DeprecatedGetAsSurface
 (
 )
 {
