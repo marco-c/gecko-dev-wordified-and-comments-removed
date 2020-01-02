@@ -2251,6 +2251,7 @@ content
 ForEach
 DestructuringForIn
 LegacyGenerator
+ExpressionClosure
 "
 }
 "

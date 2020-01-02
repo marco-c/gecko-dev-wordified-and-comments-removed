@@ -984,6 +984,11 @@ sawDeprecatedLegacyGenerator
 :
 1
 ;
+bool
+sawDeprecatedExpressionClosure
+:
+1
+;
 typedef
 typename
 ParseHandler
