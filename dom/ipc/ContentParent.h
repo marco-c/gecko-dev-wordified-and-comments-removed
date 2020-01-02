@@ -1319,14 +1319,6 @@ const
 uint32_t
 &
 generation
-const
-bool
-&
-minimizeMemoryUsage
-const
-nsString
-&
-aDMDDumpIdent
 )
 MOZ_OVERRIDE
 ;

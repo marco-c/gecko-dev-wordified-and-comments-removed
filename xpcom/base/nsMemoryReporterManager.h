@@ -292,11 +292,6 @@ bool
 aStrongRef
 )
 ;
-nsresult
-StartGettingReports
-(
-)
-;
 static
 void
 TimeoutCallback
@@ -314,7 +309,7 @@ const
 uint32_t
 kTimeoutLengthMS
 =
-50000
+5000
 ;
 mozilla
 :
@@ -389,9 +384,6 @@ nsISupports
 >
 mFinishReportingData
 ;
-nsString
-mDMDDumpIdent
-;
 GetReportsState
 (
 uint32_t
@@ -413,10 +405,6 @@ aFinishReporting
 nsISupports
 *
 aFinishReportingData
-const
-nsAString
-&
-aDMDDumpIdent
 )
 :
 mGeneration
@@ -450,10 +438,6 @@ aFinishReporting
 mFinishReportingData
 (
 aFinishReportingData
-)
-mDMDDumpIdent
-(
-aDMDDumpIdent
 )
 {
 }
