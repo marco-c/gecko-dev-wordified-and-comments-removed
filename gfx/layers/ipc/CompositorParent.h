@@ -610,6 +610,11 @@ uint64_t
 aId
 )
 ;
+float
+ComputeRenderIntegrity
+(
+)
+;
 static
 void
 SetTimeAndSampleAnimations

@@ -11388,7 +11388,7 @@ nsChildView
 :
 PreRender
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 )
@@ -11530,7 +11530,7 @@ nsChildView
 :
 PostRender
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 )
@@ -11607,7 +11607,7 @@ nsChildView
 :
 DrawWindowOverlay
 (
-LayerManager
+LayerManagerComposite
 *
 aManager
 nsIntRect
