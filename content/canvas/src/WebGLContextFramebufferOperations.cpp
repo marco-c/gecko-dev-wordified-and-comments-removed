@@ -646,6 +646,14 @@ GLenum
 buffers
 )
 {
+if
+(
+IsContextLost
+(
+)
+)
+return
+;
 const
 size_t
 buffersLength
