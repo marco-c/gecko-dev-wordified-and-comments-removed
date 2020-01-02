@@ -2919,7 +2919,8 @@ inlineParallelArrayTail
 CallInfo
 &
 callInfo
-HandleFunction
+JSFunction
+*
 target
 MDefinition
 *
