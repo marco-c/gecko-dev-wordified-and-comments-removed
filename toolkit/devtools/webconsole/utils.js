@@ -3691,6 +3691,12 @@ aName
 let
 result
 =
+undefined
+;
+try
+{
+result
+=
 aObj
 .
 getVariable
@@ -3698,6 +3704,13 @@ getVariable
 aName
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 return
 result
 =
