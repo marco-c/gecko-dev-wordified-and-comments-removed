@@ -6396,6 +6396,12 @@ pluginDumpID
 let
 browserDumpID
 =
+null
+;
+try
+{
+browserDumpID
+=
 propBag
 .
 getPropertyAsAString
@@ -6405,6 +6411,13 @@ browserDumpID
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 pluginName
 =
 this
