@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsIAddonInterposition
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
