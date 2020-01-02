@@ -1481,6 +1481,16 @@ md
 )
 :
         
+if
+md
+.
+decl
+.
+pure
+:
+            
+return
+        
 self
 .
 printdent
