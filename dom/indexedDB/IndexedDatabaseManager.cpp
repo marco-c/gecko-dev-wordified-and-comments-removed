@@ -1416,8 +1416,17 @@ errorName
 )
 ;
 }
+ThreadsafeAutoJSContext
+cx
+;
+RootedDictionary
+<
 ErrorEventInit
+>
 init
+(
+cx
+)
 ;
 request
 -
