@@ -1026,6 +1026,13 @@ function
 yield
 this
 .
+depopulatePalette
+(
+)
+;
+yield
+this
+.
 _doTransition
 (
 false
@@ -1070,13 +1077,6 @@ parentNode
 selectedPanel
 =
 browser
-;
-yield
-this
-.
-depopulatePalette
-(
-)
 ;
 window
 .
