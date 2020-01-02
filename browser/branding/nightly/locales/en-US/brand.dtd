@@ -64,7 +64,7 @@ MPL
 ENTITY
 brandShortName
 "
-Nightly
+UX
 "
 >
 <
@@ -72,7 +72,7 @@ Nightly
 ENTITY
 brandFullName
 "
-Nightly
+UX
 "
 >
 <
