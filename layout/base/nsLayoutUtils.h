@@ -752,7 +752,7 @@ nullptr
 static
 nsIFrame
 *
-GetActiveScrolledRootFor
+GetAnimatedGeometryRootFor
 (
 nsIFrame
 *
@@ -761,12 +761,14 @@ const
 nsIFrame
 *
 aStopAtAncestor
+=
+nullptr
 )
 ;
 static
 nsIFrame
 *
-GetActiveScrolledRootFor
+GetAnimatedGeometryRootFor
 (
 nsDisplayItem
 *
@@ -774,11 +776,6 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
-bool
-*
-aShouldFixToViewport
-=
-nullptr
 )
 ;
 static
@@ -788,7 +785,7 @@ IsScrolledByRootContentDocumentDisplayportScrolling
 const
 nsIFrame
 *
-aActiveScrolledRoot
+aAnimatedGeometryRoot
 nsDisplayListBuilder
 *
 aBuilder
