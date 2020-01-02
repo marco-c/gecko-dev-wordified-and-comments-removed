@@ -130,7 +130,7 @@ MOZ_IS_MSVC
 if
 MOZ_MSVC_VERSION_AT_LEAST
 (
-11
+12
 )
 #
 define
