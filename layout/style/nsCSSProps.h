@@ -884,6 +884,15 @@ CSS_PROPERTY_APPLIES_TO_PAGE_RULE
 <
 19
 )
+#
+define
+CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
+(
+1
+<
+<
+20
+)
 enum
 nsStyleAnimType
 {
