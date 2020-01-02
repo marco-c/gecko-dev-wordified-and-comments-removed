@@ -289,6 +289,17 @@ false
 ;
 }
 virtual
+nsHttpTransaction
+*
+QueryHttpTransaction
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
 nsILoadGroupConnectionInfo
 *
 LoadGroupConnectionInfo
