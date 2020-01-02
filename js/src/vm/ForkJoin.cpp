@@ -4780,7 +4780,7 @@ RedLight
 if
 (
 !
-HandleExecutionInterrupt
+CheckForInterrupt
 (
 cx_
 )

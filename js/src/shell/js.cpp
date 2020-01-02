@@ -1490,7 +1490,6 @@ c_str
 struct
 JSShellContextData
 {
-volatile
 int64_t
 startTime
 ;
