@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+let
+chromeGlobal
+=
+this
+;
 (
 function
 (
@@ -159,7 +164,7 @@ DebuggerServer
 ContentActor
 (
 conn
-content
+chromeGlobal
 )
 ;
 let

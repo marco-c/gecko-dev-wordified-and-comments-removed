@@ -920,7 +920,7 @@ window
 :
 actor
 .
-browser
+chromeEventHandler
 ;
 }
 _startPickerListeners
