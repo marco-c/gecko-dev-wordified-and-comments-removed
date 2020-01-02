@@ -145,7 +145,7 @@ bytes
 private
 :
 friend
-int
+void
 DiscardTimeoutChangedCallback
 (
 const

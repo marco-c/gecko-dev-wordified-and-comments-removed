@@ -3258,7 +3258,7 @@ aPrefName
 static
 NS_HIDDEN_
 (
-int
+void
 )
 PrefChangedCallback
 (

@@ -1456,7 +1456,7 @@ return
 gPlatform
 ;
 }
-int
+void
 RecordingPrefChanged
 (
 const
@@ -1546,7 +1546,6 @@ tmpFile
 )
 {
 return
-0
 ;
 }
 fileName
@@ -1589,7 +1588,6 @@ rv
 )
 )
 return
-0
 ;
 rv
 =
@@ -1609,7 +1607,6 @@ rv
 )
 )
 return
-0
 ;
 }
 gPlatform
@@ -1669,9 +1666,6 @@ nullptr
 )
 ;
 }
-return
-0
-;
 }
 void
 gfxPlatform

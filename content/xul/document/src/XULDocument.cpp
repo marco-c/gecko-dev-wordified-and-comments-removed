@@ -18955,7 +18955,7 @@ NS_DOCUMENT_STATE_RTL_LOCALE
 )
 ;
 }
-int
+void
 XULDocument
 :
 :
@@ -18993,9 +18993,6 @@ ResetDocumentDirection
 )
 ;
 }
-return
-0
-;
 }
 int
 XULDocument

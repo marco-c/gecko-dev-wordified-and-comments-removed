@@ -1180,7 +1180,7 @@ return
 result
 ;
 }
-int
+void
 LoadJSContextOptions
 (
 const
@@ -1217,7 +1217,6 @@ gRuntimeServiceDuringInit
 )
 {
 return
-0
 ;
 }
 const
@@ -1270,7 +1269,6 @@ PREF_JIT_HARDENING
 )
 {
 return
-0
 ;
 }
 #
@@ -1297,7 +1295,6 @@ PREF_GCZEAL
 )
 {
 return
-0
 ;
 }
 #
@@ -1607,14 +1604,11 @@ UpdateAllWorkerJSContextOptions
 )
 ;
 }
-return
-0
-;
 }
 #
 ifdef
 JS_GC_ZEAL
-int
+void
 LoadGCZealOptions
 (
 const
@@ -1650,7 +1644,6 @@ gRuntimeServiceDuringInit
 )
 {
 return
-0
 ;
 }
 int32_t
@@ -1741,9 +1734,6 @@ UpdateAllWorkerGCZeal
 )
 ;
 }
-return
-0
-;
 }
 #
 endif
@@ -1879,7 +1869,7 @@ aValue
 ;
 }
 }
-int
+void
 LoadJSGCMemoryOptions
 (
 const
@@ -1916,7 +1906,6 @@ gRuntimeServiceDuringInit
 )
 {
 return
-0
 ;
 }
 NS_NAMED_LITERAL_CSTRING
@@ -1999,7 +1988,6 @@ name
 )
 ;
 return
-0
 ;
 }
 #
@@ -2705,11 +2693,8 @@ get
 #
 endif
 }
-return
-0
-;
 }
-int
+void
 LoadJITHardeningOption
 (
 const
@@ -2745,7 +2730,6 @@ gRuntimeServiceDuringInit
 )
 {
 return
-0
 ;
 }
 bool
@@ -2782,9 +2766,6 @@ value
 )
 ;
 }
-return
-0
-;
 }
 void
 ErrorReporter
@@ -10349,7 +10330,7 @@ return
 NS_OK
 ;
 }
-int
+void
 RuntimeService
 :
 :
@@ -10490,7 +10471,4 @@ key
 )
 ;
 }
-return
-0
-;
 }

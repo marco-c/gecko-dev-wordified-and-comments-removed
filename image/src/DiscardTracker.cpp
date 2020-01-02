@@ -189,7 +189,7 @@ return
 NS_OK
 ;
 }
-int
+void
 DiscardTimeoutChangedCallback
 (
 const
@@ -207,9 +207,6 @@ DiscardTracker
 ReloadTimeout
 (
 )
-;
-return
-0
 ;
 }
 nsresult

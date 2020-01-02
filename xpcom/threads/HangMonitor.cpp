@@ -227,7 +227,7 @@ MAX_CALL_STACK_PCS
 ;
 #
 endif
-int
+void
 PrefChanged
 (
 const
@@ -309,9 +309,6 @@ Notify
 )
 ;
 }
-return
-0
-;
 }
 void
 Crash

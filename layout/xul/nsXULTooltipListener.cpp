@@ -1116,7 +1116,7 @@ return
 NS_OK
 ;
 }
-int
+void
 nsXULTooltipListener
 :
 :
@@ -1147,9 +1147,6 @@ toolbar_tips
 "
 sShowTooltips
 )
-;
-return
-0
 ;
 }
 bool

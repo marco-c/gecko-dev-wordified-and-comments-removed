@@ -4285,9 +4285,6 @@ domain
 0
 )
 {
-nsresult
-rv2
-=
 (
 *
 node
@@ -4302,17 +4299,6 @@ node
 >
 data
 )
-;
-if
-(
-NS_FAILED
-(
-rv2
-)
-)
-rv
-=
-rv2
 ;
 }
 }

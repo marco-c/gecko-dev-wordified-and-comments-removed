@@ -725,7 +725,7 @@ aPreservesPitch
 private
 :
 static
-int
+void
 PrefChanged
 (
 const

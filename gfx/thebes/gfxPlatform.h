@@ -1932,7 +1932,7 @@ CreateCMSOutputProfile
 )
 ;
 friend
-int
+void
 RecordingPrefChanged
 (
 const

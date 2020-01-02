@@ -245,7 +245,7 @@ true
 }
 }
 static
-int
+void
 DisableXULCacheChangedCallback
 (
 const
@@ -282,9 +282,6 @@ cache
 Flush
 (
 )
-;
-return
-0
 ;
 }
 nsXULPrototypeCache
@@ -1952,7 +1949,7 @@ NS_OK
 ;
 }
 static
-int
+void
 CachePrefChangedCallback
 (
 const
@@ -2012,9 +2009,6 @@ AbortCaching
 )
 ;
 }
-return
-0
-;
 }
 nsresult
 nsXULPrototypeCache

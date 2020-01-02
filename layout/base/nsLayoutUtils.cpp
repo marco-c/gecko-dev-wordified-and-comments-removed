@@ -758,7 +758,7 @@ sContentMap
 ;
 }
 static
-int
+void
 StickyEnabledPrefChangeCallback
 (
 const
@@ -884,12 +884,9 @@ eCSSKeyword_sticky
 :
 eCSSKeyword_UNKNOWN
 ;
-return
-0
-;
 }
 static
-int
+void
 TextAlignTrueEnabledPrefChangeCallback
 (
 const
@@ -1028,9 +1025,6 @@ isTextAlignTrueEnabled
 eCSSKeyword_true
 :
 eCSSKeyword_UNKNOWN
-;
-return
-0
 ;
 }
 template

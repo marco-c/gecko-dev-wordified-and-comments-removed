@@ -102,7 +102,7 @@ nsAdoptingCString
 ifndef
 have_PrefChangedFunc_typedef
 typedef
-int
+void
 (
 *
 PrefChangedFunc

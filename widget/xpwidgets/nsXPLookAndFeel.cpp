@@ -1753,7 +1753,7 @@ thecolor
 ;
 }
 }
-int
+void
 nsXPLookAndFeel
 :
 :
@@ -1821,7 +1821,6 @@ i
 )
 ;
 return
-0
 ;
 }
 }
@@ -1868,7 +1867,6 @@ i
 )
 ;
 return
-0
 ;
 }
 }
@@ -1913,13 +1911,9 @@ i
 )
 ;
 return
-0
 ;
 }
 }
-return
-0
-;
 }
 void
 nsXPLookAndFeel

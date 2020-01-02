@@ -825,7 +825,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame
 )
-int
+void
 nsHTMLFramesetFrame
 :
 :
@@ -965,9 +965,6 @@ MODIFICATION
 )
 ;
 }
-return
-0
-;
 }
 void
 nsHTMLFramesetFrame

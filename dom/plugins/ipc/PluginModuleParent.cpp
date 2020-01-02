@@ -1361,7 +1361,7 @@ timeoutMs
 )
 ;
 }
-int
+void
 PluginModuleParent
 :
 :
@@ -1516,9 +1516,6 @@ timeoutSecs
 )
 ;
 }
-return
-0
-;
 }
 void
 PluginModuleParent

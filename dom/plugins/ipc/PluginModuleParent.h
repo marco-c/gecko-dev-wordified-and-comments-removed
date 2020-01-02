@@ -1269,7 +1269,7 @@ aChildTimeout
 )
 ;
 static
-int
+void
 TimeoutChanged
 (
 const

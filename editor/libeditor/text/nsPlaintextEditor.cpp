@@ -662,7 +662,7 @@ sCaretStylePref
 1
 ;
 static
-int
+void
 EditorPrefsChangedCallback
 (
 const
@@ -776,9 +776,6 @@ else
 #
 endif
 }
-return
-0
-;
 }
 void
 nsPlaintextEditor
