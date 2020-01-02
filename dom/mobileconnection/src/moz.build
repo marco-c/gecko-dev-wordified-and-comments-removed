@@ -98,8 +98,6 @@ EXPORTS
 mozilla
 .
 dom
-.
-network
 +
 =
 [
