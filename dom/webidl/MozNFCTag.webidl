@@ -162,11 +162,6 @@ interface
 MozNFCTag
 {
 DOMRequest
-getDetailsNDEF
-(
-)
-;
-DOMRequest
 readNDEF
 (
 )
