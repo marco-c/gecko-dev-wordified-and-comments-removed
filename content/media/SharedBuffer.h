@@ -39,6 +39,8 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 ThreadSharedObject
 )
+protected
+:
 virtual
 ~
 ThreadSharedObject

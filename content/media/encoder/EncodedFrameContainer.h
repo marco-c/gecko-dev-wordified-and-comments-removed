@@ -78,6 +78,7 @@ mEncodedFrames
 ;
 class
 EncodedFrame
+MOZ_FINAL
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -264,6 +265,12 @@ aFrameType
 }
 private
 :
+~
+EncodedFrame
+(
+)
+{
+}
 nsTArray
 <
 uint8_t
