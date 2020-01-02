@@ -710,7 +710,7 @@ native
 js
 :
 :
-math_sin
+math_sinh
 )
 return
 inlineMathFunction
@@ -730,7 +730,7 @@ native
 js
 :
 :
-math_tan
+math_tanh
 )
 return
 inlineMathFunction
@@ -770,7 +770,7 @@ native
 js
 :
 :
-math_asin
+math_asinh
 )
 return
 inlineMathFunction
@@ -790,7 +790,7 @@ native
 js
 :
 :
-math_atan
+math_atanh
 )
 return
 inlineMathFunction
