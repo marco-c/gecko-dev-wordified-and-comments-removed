@@ -6792,6 +6792,10 @@ server
 s
 /
 dummy
+-
+gmp
+-
+manager
 .
 xml
 "
