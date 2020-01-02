@@ -356,11 +356,6 @@ PContentDialog
 ipdl
 '
 '
-PContentPermission
-.
-ipdlh
-'
-'
 PContentPermissionRequest
 .
 ipdl
