@@ -45,7 +45,7 @@ CHECK
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -150,7 +150,7 @@ hasProp
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
