@@ -12390,6 +12390,15 @@ prototype
 .
 takeScreenshot
 "
+screenshot
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+takeScreenshot
+"
 addCookie
 "
 :
