@@ -632,7 +632,7 @@ obj
 static
 void
 *
-createMappedArrayBuffer
+createMappedContents
 (
 int
 fd
