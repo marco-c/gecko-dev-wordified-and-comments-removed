@@ -1518,6 +1518,11 @@ letStatement
 )
 ;
 Node
+importDeclaration
+(
+)
+;
+Node
 expressionStatement
 (
 )
