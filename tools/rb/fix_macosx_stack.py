@@ -478,9 +478,12 @@ usr
 /
 bin
 /
-atos
+xcrun
 '
 [
+'
+atos
+'
 '
 -
 arch
@@ -656,7 +659,9 @@ compile
 [
 0
 -
-9A
+9a
+-
+fA
 -
 F
 ]
