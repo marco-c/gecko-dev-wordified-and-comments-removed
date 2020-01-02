@@ -2667,13 +2667,11 @@ WidgetMouseScrollEvent
 *
 oldMouseScrollEvent
 =
-static_cast
-<
-WidgetMouseScrollEvent
-*
->
-(
 mEvent
+-
+>
+AsMouseScrollEvent
+(
 )
 ;
 WidgetMouseScrollEvent
