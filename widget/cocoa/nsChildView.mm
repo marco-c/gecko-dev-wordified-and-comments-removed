@@ -35424,6 +35424,11 @@ of
 that
 patch
 .
+#
+if
+(
+0
+)
 if
 (
 type
@@ -35449,6 +35454,8 @@ y
 5
 ;
 }
+#
+endif
 NSUInteger
 clickCount
 =

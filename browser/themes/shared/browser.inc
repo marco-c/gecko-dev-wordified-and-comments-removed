@@ -25,10 +25,6 @@ downloads
 -
 button
 #
-downloads
--
-indicator
-#
 bookmarks
 -
 menu

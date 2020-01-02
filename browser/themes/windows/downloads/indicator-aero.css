@@ -1,14 +1,3 @@
-%
-define
-WINDOWS_AERO
-%
-include
-indicator
-.
-css
-%
-undef
-WINDOWS_AERO
 media
 (
 -
@@ -35,7 +24,7 @@ TabsToolbar
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -79,7 +68,7 @@ menubar
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -92,7 +81,7 @@ TabsToolbar
 #
 downloads
 -
-indicator
+button
 :
 not
 (
