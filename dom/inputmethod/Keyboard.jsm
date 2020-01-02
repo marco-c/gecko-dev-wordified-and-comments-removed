@@ -148,6 +148,9 @@ _messageNames
 :
 [
 '
+RemoveFocus
+'
+'
 SetSelectionRange
 '
 '
