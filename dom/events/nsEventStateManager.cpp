@@ -97,6 +97,13 @@ h
 #
 include
 "
+ContentEventHandler
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -112,13 +119,6 @@ h
 include
 "
 nsFocusManager
-.
-h
-"
-#
-include
-"
-nsContentEventHandler
 .
 h
 "
@@ -5425,9 +5425,11 @@ RemoteQueryContentEvent
 aEvent
 )
 )
+{
 break
 ;
-nsContentEventHandler
+}
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5463,7 +5465,7 @@ aEvent
 break
 ;
 }
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5499,7 +5501,7 @@ aEvent
 break
 ;
 }
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5524,7 +5526,7 @@ case
 NS_QUERY_EDITOR_RECT
 :
 {
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5549,7 +5551,7 @@ case
 NS_QUERY_CONTENT_STATE
 :
 {
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5574,7 +5576,7 @@ case
 NS_QUERY_SELECTION_AS_TRANSFERABLE
 :
 {
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5599,7 +5601,7 @@ case
 NS_QUERY_CHARACTER_AT_POINT
 :
 {
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5624,7 +5626,7 @@ case
 NS_QUERY_DOM_WIDGET_HITTEST
 :
 {
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -5681,6 +5683,7 @@ SendSelectionEvent
 selectionEvent
 )
 )
+{
 selectionEvent
 -
 >
@@ -5688,10 +5691,11 @@ mSucceeded
 =
 true
 ;
+}
 break
 ;
 }
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext
@@ -23229,7 +23233,7 @@ aEvent
 return
 ;
 }
-nsContentEventHandler
+ContentEventHandler
 handler
 (
 mPresContext

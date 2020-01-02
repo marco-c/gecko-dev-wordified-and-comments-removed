@@ -405,6 +405,11 @@ CompositionEvent
 cpp
 '
 '
+ContentEventHandler
+.
+cpp
+'
+'
 DataContainerEvent
 .
 cpp
@@ -486,11 +491,6 @@ cpp
 '
 '
 nsAsyncDOMEvent
-.
-cpp
-'
-'
-nsContentEventHandler
 .
 cpp
 '
