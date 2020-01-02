@@ -17521,6 +17521,17 @@ length
 )
 )
 ;
+js
+:
+:
+gc
+:
+:
+TraceTypeNewScript
+(
+type
+)
+;
 #
 endif
 }
