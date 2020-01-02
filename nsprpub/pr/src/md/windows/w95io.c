@@ -267,8 +267,6 @@ WAIT_OBJECT_0
 return
 PR_SUCCESS
 ;
-break
-;
 case
 WAIT_TIMEOUT
 :
@@ -353,14 +351,10 @@ WAIT_OBJECT_0
 return
 PR_SUCCESS
 ;
-break
-;
 default
 :
 return
 PR_FAILURE
-;
-break
 ;
 }
 }
