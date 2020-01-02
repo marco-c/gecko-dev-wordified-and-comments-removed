@@ -108,6 +108,9 @@ profile
 app_args
 =
 None
+symbols_path
+=
+None
 )
 :
         
@@ -149,6 +152,12 @@ self
 runner
 =
 None
+        
+self
+.
+symbols_path
+=
+symbols_path
     
 def
 start
@@ -249,6 +258,39 @@ self
 gecko_log
 )
         
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+env
+.
+update
+(
+{
+'
+MOZ_CRASHREPORTER
+'
+:
+'
+1
+'
+                     
+'
+MOZ_CRASHREPORTER_NO_REPORT
+'
+:
+'
+1
+'
+}
+)
+        
 self
 .
 runner
@@ -287,6 +329,16 @@ self
 .
 app_args
             
+env
+=
+env
+            
+symbols_path
+=
+self
+.
+symbols_path
+            
 kp_kwargs
 =
 {
@@ -316,6 +368,22 @@ self
 runner
 .
 start
+(
+)
+    
+def
+check_for_crashes
+(
+self
+)
+:
+        
+return
+self
+.
+runner
+.
+check_for_crashes
 (
 )
     

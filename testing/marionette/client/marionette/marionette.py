@@ -3670,9 +3670,13 @@ profile
 self
 .
 profile
+                                           
 app_args
 =
 app_args
+symbols_path
+=
+symbols_path
 )
             
 self
@@ -5180,7 +5184,19 @@ self
 instance
 :
             
-pass
+if
+self
+.
+instance
+.
+check_for_crashes
+(
+)
+:
+                
+crashed
+=
+True
         
 if
 returncode
