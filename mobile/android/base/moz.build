@@ -3682,6 +3682,15 @@ ANDROID_GENERATED_RESFILES
 '
 res
 /
+raw
+/
+suggestedsites
+.
+json
+'
+'
+res
+/
 values
 /
 strings
