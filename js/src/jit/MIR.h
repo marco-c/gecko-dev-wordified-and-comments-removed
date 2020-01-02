@@ -5158,6 +5158,15 @@ ins
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+;
 }
 ;
 class
