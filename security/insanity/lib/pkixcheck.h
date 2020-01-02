@@ -45,6 +45,8 @@ EndEntityOrCA
 endEntityOrCA
 bool
 isTrustAnchor
+KeyUsages
+requiredKeyUsagesIfPresent
 unsigned
 int
 depth
