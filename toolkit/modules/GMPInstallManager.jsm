@@ -4848,10 +4848,10 @@ set
 (
 GMPPrefs
 .
-KEY_ADDON_PATH
-installToDirPath
+KEY_ADDON_VERSION
+gmpAddon
 .
-path
+version
 gmpAddon
 .
 id
@@ -4863,10 +4863,10 @@ set
 (
 GMPPrefs
 .
-KEY_ADDON_VERSION
-gmpAddon
+KEY_ADDON_PATH
+installToDirPath
 .
-version
+path
 gmpAddon
 .
 id
