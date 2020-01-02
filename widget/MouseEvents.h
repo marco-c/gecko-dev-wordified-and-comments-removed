@@ -99,6 +99,9 @@ tiltX
 uint32_t
 tiltY
 ;
+bool
+retargetedByPointerCapture
+;
 WidgetPointerHelper
 (
 )
@@ -118,6 +121,10 @@ tiltX
 tiltY
 (
 0
+)
+retargetedByPointerCapture
+(
+false
 )
 {
 }
@@ -153,6 +160,12 @@ tiltY
 aEvent
 .
 tiltY
+;
+retargetedByPointerCapture
+=
+aEvent
+.
+retargetedByPointerCapture
 ;
 }
 }
