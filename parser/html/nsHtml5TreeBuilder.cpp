@@ -17848,12 +17848,6 @@ headPointer
 ;
 MOZ_ASSERT
 (
-!
-fragment
-)
-;
-MOZ_ASSERT
-(
 mode
 =
 =
