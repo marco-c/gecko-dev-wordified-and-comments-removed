@@ -202,6 +202,11 @@ allocator
 mAllocator
 =
 allocator
+-
+>
+asWeakPtr
+(
+)
 ;
 }
 SharedSurface_Gralloc
@@ -647,6 +652,11 @@ desc
 mDesc
 )
 ;
+if
+(
+mAllocator
+)
+{
 mAllocator
 -
 >
@@ -656,6 +666,7 @@ DestroySharedSurface
 desc
 )
 ;
+}
 }
 void
 SharedSurface_Gralloc
