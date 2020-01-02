@@ -1011,6 +1011,7 @@ HasTelephonySupport
 (
 JSContext
 *
+cx
 JSObject
 *
 aGlobal
@@ -1183,6 +1184,7 @@ HasDataStoreSupport
 (
 JSContext
 *
+cx
 JSObject
 *
 aGlobal
