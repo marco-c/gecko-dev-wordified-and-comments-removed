@@ -25700,12 +25700,6 @@ html
 notref
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 619117
