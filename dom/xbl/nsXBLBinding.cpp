@@ -3917,6 +3917,11 @@ bool
 aNew
 )
 {
+MOZ_ASSERT
+(
+obj
+)
+;
 nsAutoCString
 className
 (
@@ -3972,11 +3977,6 @@ c
 =
 nullptr
 ;
-if
-(
-obj
-)
-{
 if
 (
 !
@@ -4163,7 +4163,6 @@ Append
 buf
 )
 ;
-}
 }
 }
 JS
