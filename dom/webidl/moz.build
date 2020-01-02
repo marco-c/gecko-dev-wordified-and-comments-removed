@@ -490,6 +490,11 @@ DOMImplementation
 webidl
 '
 '
+DOMMobileMessageError
+.
+webidl
+'
+'
 DOMParser
 .
 webidl
@@ -1166,6 +1171,11 @@ webidl
 '
 '
 LegacyQueryInterface
+.
+webidl
+'
+'
+LinkImport
 .
 webidl
 '
