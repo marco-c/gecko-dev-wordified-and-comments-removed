@@ -21029,7 +21029,7 @@ if
 (
 rhsType
 .
-isFloat
+isMaybeFloat
 (
 )
 )
@@ -21070,6 +21070,7 @@ a
 subtype
 of
 float
+?
 or
 double
 ?
