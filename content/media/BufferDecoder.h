@@ -98,7 +98,6 @@ GetResource
 (
 )
 const
-MOZ_FINAL
 MOZ_OVERRIDE
 ;
 void
@@ -273,7 +272,7 @@ GetOwner
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
-private
+protected
 :
 ReentrantMonitor
 mReentrantMonitor
