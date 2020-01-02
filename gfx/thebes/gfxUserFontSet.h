@@ -1068,7 +1068,17 @@ aKey
 {
 uint32_t
 principalHash
+=
+0
 ;
+if
+(
+aKey
+-
+>
+mPrincipal
+)
+{
 aKey
 -
 >
@@ -1081,6 +1091,7 @@ GetHashValue
 principalHash
 )
 ;
+}
 return
 mozilla
 :
