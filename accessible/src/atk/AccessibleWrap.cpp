@@ -3848,6 +3848,11 @@ rootAccWrap
 mActivated
 )
 {
+atk_focus_tracker_notify
+(
+atkObj
+)
+;
 atk_object_notify_state_change
 (
 atkObj
@@ -4646,6 +4651,11 @@ nsIAccessibleEvent
 :
 EVENT_MENUPOPUP_START
 :
+atk_focus_tracker_notify
+(
+atkObj
+)
+;
 atk_object_notify_state_change
 (
 atkObj
