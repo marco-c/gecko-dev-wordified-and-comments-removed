@@ -1326,15 +1326,6 @@ cur
 >
 isKind
 (
-PNK_MODULE
-)
-|
-|
-cur
--
->
-isKind
-(
 PNK_FUNCTION
 )
 )
