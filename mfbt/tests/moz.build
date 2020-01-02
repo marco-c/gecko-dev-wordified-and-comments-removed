@@ -123,6 +123,11 @@ TestCheckedInt
 cpp
 '
 '
+TestCountPopulation
+.
+cpp
+'
+'
 TestCountZeroes
 .
 cpp
