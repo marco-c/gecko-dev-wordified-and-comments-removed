@@ -731,9 +731,6 @@ SourceSurfaceSkia
 *
 mSnapshot
 ;
-bool
-mSoftClipping
-;
 }
 ;
 }
