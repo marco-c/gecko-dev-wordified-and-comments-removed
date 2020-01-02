@@ -703,9 +703,6 @@ const
 char
 *
 hostname
-const
-PRTime
-time
 bool
 enforceTestMode
 )
@@ -1163,9 +1160,6 @@ const
 CERTCertList
 *
 certList
-const
-PRTime
-time
 bool
 enforceTestMode
 )
@@ -1400,7 +1394,6 @@ CheckPinsForHostname
 (
 certList
 hostName
-time
 enforceTestMode
 )
 )
@@ -1494,7 +1487,6 @@ return
 CheckChainAgainstAllNames
 (
 certList
-time
 enforceTestMode
 )
 ;
@@ -1504,7 +1496,6 @@ CheckPinsForHostname
 (
 certList
 hostname
-time
 enforceTestMode
 )
 ;
