@@ -6330,3 +6330,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+dom
+.
+mapped_arraybuffer
+.
+enabled
+"
+true
+)
+;
