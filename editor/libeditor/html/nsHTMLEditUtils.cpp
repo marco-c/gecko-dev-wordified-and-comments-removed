@@ -3029,6 +3029,14 @@ GROUP_COLGROUP_CONTENT
 )
 ELEM
 (
+content
+true
+false
+GROUP_NONE
+GROUP_INLINE_ELEMENT
+)
+ELEM
+(
 data
 true
 false

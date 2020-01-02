@@ -159,6 +159,11 @@ kNone
 false
 }
 {
+eHTMLTag_content
+kNone
+false
+}
+{
 eHTMLTag_data
 kPhrase
 false

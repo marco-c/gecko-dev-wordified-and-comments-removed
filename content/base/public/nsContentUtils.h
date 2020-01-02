@@ -3934,6 +3934,16 @@ DOMWindowDumpEnabled
 (
 )
 ;
+static
+bool
+IsContentInsertionPoint
+(
+const
+nsIContent
+*
+aContent
+)
+;
 private
 :
 static

@@ -650,6 +650,11 @@ HTMLCollection
 webidl
 '
 '
+HTMLContentElement
+.
+webidl
+'
+'
 HTMLDataElement
 .
 webidl

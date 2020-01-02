@@ -119,6 +119,11 @@ TableCol
 )
 HTML_TAG
 (
+content
+Content
+)
+HTML_TAG
+(
 data
 Data
 )
