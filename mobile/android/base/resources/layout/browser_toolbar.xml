@@ -894,10 +894,6 @@ horizontal
 "
 >
 <
-view
-class
-=
-"
 org
 .
 mozilla
@@ -905,7 +901,6 @@ mozilla
 gecko
 .
 CustomEditText
-"
 android
 :
 id
