@@ -501,6 +501,10 @@ aIsBookmarkFolder
 int32_t
 *
 aIndex
+const
+nsACString
+&
+aGUID
 int64_t
 *
 aNewFolder
@@ -968,6 +972,9 @@ mTitle
 true
 &
 mIndex
+EmptyCString
+(
+)
 &
 newFolder
 )
