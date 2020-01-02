@@ -225,7 +225,7 @@ SetTextStyle
 )
 ;
 void
-ForceTrimChildTextFrames
+MarkTextFramesAsTokenMathML
 (
 )
 ;
