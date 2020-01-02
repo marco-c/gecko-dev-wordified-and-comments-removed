@@ -4131,11 +4131,6 @@ GetMaxTextureSize
 )
 ;
 }
-bool
-MayResample
-(
-)
-;
 protected
 :
 Layer
@@ -4198,6 +4193,11 @@ gfx
 Matrix
 *
 aResidualTransform
+)
+;
+bool
+MayResample
+(
 )
 ;
 LayerManager
