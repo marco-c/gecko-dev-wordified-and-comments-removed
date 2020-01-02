@@ -27,12 +27,6 @@ androideabi
 ac_add_options
 -
 -
-enable
--
-updater
-ac_add_options
--
--
 with
 -
 branding
@@ -44,6 +38,12 @@ android
 branding
 /
 beta
+ac_add_options
+-
+-
+enable
+-
+updater
 export
 MOZILLA_OFFICIAL
 =
