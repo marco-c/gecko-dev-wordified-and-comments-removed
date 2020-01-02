@@ -430,7 +430,7 @@ else
 :
 cx_
 (
-NULL
+nullptr
 )
 #
 endif
@@ -512,7 +512,7 @@ return
 current
 !
 =
-NULL
+nullptr
 ;
 #
 else
@@ -862,7 +862,7 @@ ThreadPrivateIndex
 #
 else
 return
-NULL
+nullptr
 ;
 #
 endif

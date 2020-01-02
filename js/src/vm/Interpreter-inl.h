@@ -533,7 +533,7 @@ NullPtr
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 inline
@@ -1546,7 +1546,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_REDECLARED_VAR
 (
 oldAttrs
@@ -2637,8 +2637,8 @@ cx
 obj
 id
 val
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -2781,8 +2781,8 @@ cx
 obj
 index
 val
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -2808,7 +2808,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SPREAD_TOO_LARGE
 )
 ;
@@ -3619,7 +3619,7 @@ construct
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 class
@@ -3851,7 +3851,7 @@ jit
 TempAllocator
 *
 )
-NULL
+nullptr
 )
 ;
 JS_ASSERT

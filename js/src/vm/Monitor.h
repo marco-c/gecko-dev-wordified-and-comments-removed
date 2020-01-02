@@ -73,11 +73,11 @@ Monitor
 :
 lock_
 (
-NULL
+nullptr
 )
 condVar_
 (
-NULL
+nullptr
 )
 {
 }

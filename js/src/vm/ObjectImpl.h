@@ -4375,7 +4375,7 @@ Shape
 *
 newShape
 =
-NULL
+nullptr
 )
 ;
 enum
@@ -4511,7 +4511,7 @@ slotsStart
 *
 slotsEnd
 =
-NULL
+nullptr
 ;
 }
 else
@@ -4577,7 +4577,7 @@ fixedStart
 *
 fixedEnd
 =
-NULL
+nullptr
 ;
 *
 slotsStart
@@ -4902,7 +4902,7 @@ Shape
 *
 newShape
 =
-NULL
+nullptr
 )
 {
 return
@@ -5165,7 +5165,7 @@ id
 )
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -5187,7 +5187,7 @@ name
 )
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -5277,7 +5277,7 @@ id
 )
 !
 =
-NULL
+nullptr
 ;
 }
 bool

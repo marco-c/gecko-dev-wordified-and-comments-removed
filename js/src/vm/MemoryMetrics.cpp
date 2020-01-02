@@ -236,7 +236,7 @@ l
 >
 copyNonPureChars
 (
-NULL
+nullptr
 ownedChars
 )
 )
@@ -347,7 +347,7 @@ k
 >
 copyNonPureChars
 (
-NULL
+nullptr
 ownedChars1
 )
 )
@@ -404,7 +404,7 @@ l
 >
 copyNonPureChars
 (
-NULL
+nullptr
 ownedChars2
 )
 )
@@ -557,7 +557,7 @@ str
 >
 copyNonPureChars
 (
-NULL
+nullptr
 ownedChars
 )
 )
@@ -670,7 +670,7 @@ info
 >
 buffer
 =
-NULL
+nullptr
 ;
 }
 NotableStringInfo
@@ -2661,7 +2661,7 @@ comp
 >
 compartmentStats
 =
-NULL
+nullptr
 ;
 size_t
 numDirtyChunks

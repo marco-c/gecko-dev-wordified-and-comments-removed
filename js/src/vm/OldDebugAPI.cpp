@@ -1079,7 +1079,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NEED_DEBUG_MODE
 )
 ;
@@ -1305,7 +1305,7 @@ handlerp
 *
 handlerp
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1643,7 +1643,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_WATCH_PROP
 )
 ;
@@ -1720,7 +1720,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_WATCH
 obj
 -
@@ -2426,7 +2426,7 @@ bindings
 )
 )
 return
-NULL
+nullptr
 ;
 LifoAlloc
 &
@@ -2491,7 +2491,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 *
@@ -2686,7 +2686,7 @@ isNative
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2990,7 +2990,7 @@ sourceMapURL
 (
 )
 :
-NULL
+nullptr
 ;
 }
 JS_PUBLIC_API
@@ -3452,7 +3452,7 @@ JSPropertyDesc
 *
 pd
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3564,7 +3564,7 @@ i
 ]
 .
 id
-NULL
+nullptr
 )
 )
 goto
@@ -3598,7 +3598,7 @@ i
 ]
 .
 value
-NULL
+nullptr
 )
 )
 goto
@@ -3701,7 +3701,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CANT_DESCRIBE_PROPS
 clasp
 -
@@ -3750,7 +3750,7 @@ pda
 >
 array
 =
-NULL
+nullptr
 ;
 return
 true
@@ -3864,7 +3864,7 @@ i
 ]
 .
 id
-NULL
+nullptr
 )
 )
 goto
@@ -3883,7 +3883,7 @@ i
 ]
 .
 value
-NULL
+nullptr
 )
 )
 goto
@@ -3948,7 +3948,7 @@ i
 ]
 .
 alias
-NULL
+nullptr
 )
 )
 goto
@@ -4136,7 +4136,7 @@ pda
 >
 array
 =
-NULL
+nullptr
 ;
 pda
 -
@@ -5404,7 +5404,7 @@ desc
 )
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -5443,7 +5443,7 @@ if
 desc
 )
 return
-NULL
+nullptr
 ;
 desc
 -
@@ -5588,7 +5588,7 @@ descArray_
 .
 array
 =
-NULL
+nullptr
 ;
 }
 JSPropertyDescArray
@@ -5651,7 +5651,7 @@ if
 str
 )
 return
-NULL
+nullptr
 ;
 const
 char
@@ -5672,7 +5672,7 @@ if
 buf
 )
 return
-NULL
+nullptr
 ;
 const
 char
@@ -6089,7 +6089,7 @@ char
 *
 name
 =
-NULL
+nullptr
 ;
 bool
 hasName
@@ -6393,7 +6393,7 @@ char
 *
 value
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6858,7 +6858,7 @@ char
 *
 str
 =
-NULL
+nullptr
 ;
 if
 (
@@ -7334,7 +7334,7 @@ isFunctionFrame
 )
 )
 return
-NULL
+nullptr
 ;
 JSObject
 *
@@ -7394,7 +7394,7 @@ enclosingScope
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 JSFunction
