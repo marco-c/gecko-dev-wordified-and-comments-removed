@@ -120,13 +120,6 @@ image
 image
 "
 }
-extData
-:
-{
-weaveLastUsed
-:
-1
-}
 }
 )
 ;

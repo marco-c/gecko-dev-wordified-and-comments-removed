@@ -542,13 +542,6 @@ image
 image
 "
 }
-extData
-:
-{
-weaveLastUsed
-:
-1
-}
 }
 ]
 }
@@ -1716,13 +1709,6 @@ image
 "
 image
 "
-}
-extData
-:
-{
-weaveLastUsed
-:
-1
 }
 }
 ]
