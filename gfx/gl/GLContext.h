@@ -1060,6 +1060,8 @@ char
 *
 exts
 =
+:
+:
 strdup
 (
 extStr
