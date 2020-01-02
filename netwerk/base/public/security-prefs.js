@@ -667,3 +667,17 @@ require
 false
 )
 ;
+pref
+(
+"
+security
+.
+OCSP
+.
+GET
+.
+enabled
+"
+false
+)
+;
