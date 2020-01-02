@@ -4870,7 +4870,11 @@ if
 (
 MOZ_UNLIKELY
 (
+PR_LOG_TEST
+(
 log
+PR_LOG_DEBUG
+)
 )
 )
 {
@@ -24862,7 +24866,11 @@ if
 (
 MOZ_UNLIKELY
 (
+PR_LOG_TEST
+(
 log
+PR_LOG_WARNING
+)
 )
 )
 {
@@ -25125,7 +25133,11 @@ if
 (
 MOZ_UNLIKELY
 (
+PR_LOG_TEST
+(
 log
+PR_LOG_WARNING
+)
 )
 )
 {
