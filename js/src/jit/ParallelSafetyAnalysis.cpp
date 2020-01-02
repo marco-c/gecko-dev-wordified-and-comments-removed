@@ -1278,6 +1278,10 @@ RegExpExec
 )
 UNSAFE_OP
 (
+RegExpReplace
+)
+UNSAFE_OP
+(
 CallInstanceOf
 )
 UNSAFE_OP

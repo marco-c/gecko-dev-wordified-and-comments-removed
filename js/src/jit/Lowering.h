@@ -940,6 +940,14 @@ ins
 )
 ;
 bool
+visitRegExpReplace
+(
+MRegExpReplace
+*
+ins
+)
+;
+bool
 visitLambda
 (
 MLambda

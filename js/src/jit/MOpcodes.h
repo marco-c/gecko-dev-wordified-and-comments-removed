@@ -464,6 +464,11 @@ RegExpTest
 \
 _
 (
+RegExpReplace
+)
+\
+_
+(
 Lambda
 )
 \

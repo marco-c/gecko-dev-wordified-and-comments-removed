@@ -3088,6 +3088,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineStrReplaceRegExp
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineRegExpExec
 (
 CallInfo
