@@ -75,11 +75,6 @@ inputBus
 AudioChunk
 *
 outputBus
-mozilla
-:
-:
-TrackTicks
-framesToProcess
 )
 ;
 void
