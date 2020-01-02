@@ -2665,7 +2665,7 @@ y
 ;
 }
 Sub
-ClampRect
+ForceInside
 (
 const
 Sub
@@ -2733,6 +2733,8 @@ rect
 XMost
 (
 )
+aRect
+.
 XMost
 (
 )
@@ -2756,6 +2758,8 @@ rect
 YMost
 (
 )
+aRect
+.
 YMost
 (
 )
