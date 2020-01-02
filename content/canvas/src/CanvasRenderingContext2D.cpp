@@ -5069,11 +5069,11 @@ nsIInputStream
 aStream
 )
 {
+nsAutoArrayPtr
+<
 uint8_t
-*
+>
 imageBuffer
-=
-nullptr
 ;
 int32_t
 format
@@ -5082,8 +5082,10 @@ format
 ;
 GetImageBuffer
 (
-&
+getter_Transfers
+(
 imageBuffer
+)
 &
 format
 )
