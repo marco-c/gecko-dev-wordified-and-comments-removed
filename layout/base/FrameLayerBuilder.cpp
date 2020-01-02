@@ -15958,6 +15958,14 @@ AreComponentAlphaLayersEnabled
 )
 &
 &
+containerLayer
+-
+>
+HasMultipleChildren
+(
+)
+&
+&
 !
 stateFlags
 )
