@@ -35,6 +35,8 @@ CERTCertificate
 cert
 PRTime
 time
+EndEntityOrCA
+endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
 SECOidTag

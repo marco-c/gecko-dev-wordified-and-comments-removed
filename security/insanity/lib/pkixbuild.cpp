@@ -1086,6 +1086,8 @@ CERTCertificate
 certToDup
 PRTime
 time
+EndEntityOrCA
+endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
 SECOidTag
@@ -1117,7 +1119,7 @@ SECFailure
 ;
 }
 BackCert
-ee
+cert
 (
 certToDup
 nullptr
@@ -1126,7 +1128,7 @@ nullptr
 Result
 rv
 =
-ee
+cert
 .
 Init
 (
@@ -1149,9 +1151,9 @@ rv
 BuildForward
 (
 trustDomain
-ee
+cert
 time
-MustBeEndEntity
+endEntityOrCA
 requiredKeyUsagesIfPresent
 requiredEKUIfPresent
 0
@@ -1178,7 +1180,7 @@ if
 (
 CheckTimes
 (
-ee
+cert
 .
 GetNSSCert
 (
