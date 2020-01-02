@@ -1521,6 +1521,9 @@ Value
 UnbarrieredObjectValueMap
 ;
 typedef
+gc
+:
+:
 HashKeyRef
 <
 UnbarrieredObjectValueMap
