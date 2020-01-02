@@ -445,9 +445,15 @@ MOZ_WEBM_ENCODER
 Enable
 exact
 rooting
+and
+generational
+GC
 on
 desktop
 .
 JSGC_USE_EXACT_ROOTING
+=
+1
+JSGC_GENERATIONAL
 =
 1
