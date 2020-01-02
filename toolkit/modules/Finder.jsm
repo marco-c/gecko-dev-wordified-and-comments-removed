@@ -1713,6 +1713,13 @@ doc
 .
 documentElement
 ;
+if
+(
+!
+body
+)
+return
+;
 let
 searchRange
 =
