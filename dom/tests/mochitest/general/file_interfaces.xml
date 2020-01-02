@@ -94,11 +94,11 @@ win
 ok
 ;
 var
-legacyMozPrefixedInterfaces
+excludedNames
 =
 win
 .
-legacyMozPrefixedInterfaces
+excludedNames
 ;
 var
 createInterfaceMap
