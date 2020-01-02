@@ -32,7 +32,7 @@ include
 "
 jit
 /
-AsmJSLink
+AsmJSFrameIterator
 .
 h
 "
