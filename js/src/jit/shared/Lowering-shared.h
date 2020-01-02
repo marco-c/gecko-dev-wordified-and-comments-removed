@@ -220,6 +220,17 @@ reg
 )
 ;
 inline
+LUse
+useFixedAtStart
+(
+MDefinition
+*
+mir
+Register
+reg
+)
+;
+inline
 LAllocation
 useOrConstant
 (

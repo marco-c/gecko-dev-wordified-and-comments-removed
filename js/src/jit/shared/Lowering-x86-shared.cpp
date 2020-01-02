@@ -1389,7 +1389,7 @@ lir
 new
 LUDivOrMod
 (
-useFixed
+useFixedAtStart
 (
 mod
 -
@@ -1410,11 +1410,9 @@ getOperand
 1
 )
 )
-LDefinition
-:
-:
-BogusTemp
+tempFixed
 (
+eax
 )
 )
 ;
