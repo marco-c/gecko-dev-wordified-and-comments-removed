@@ -4508,6 +4508,17 @@ next
 (
 )
 )
+{
+if
+(
+!
+alloc
+-
+>
+isBogus
+(
+)
+)
 fprintf
 (
 stderr
@@ -4526,6 +4537,7 @@ toString
 )
 )
 ;
+}
 fprintf
 (
 stderr

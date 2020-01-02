@@ -16456,16 +16456,6 @@ object
 )
 )
 ;
-else
-object
-=
-LConstantIndex
-:
-:
-Bogus
-(
-)
-;
 LInArray
 *
 lir
