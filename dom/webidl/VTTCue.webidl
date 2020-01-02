@@ -276,6 +276,13 @@ position
 SetterThrows
 ]
 attribute
+AlignSetting
+positionAlign
+;
+[
+SetterThrows
+]
+attribute
 long
 size
 ;
