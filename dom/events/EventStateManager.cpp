@@ -15328,6 +15328,16 @@ buttons
 event
 -
 >
+pressure
+=
+aMouseEvent
+-
+>
+pressure
+;
+event
+-
+>
 pluginEvent
 =
 aMouseEvent
