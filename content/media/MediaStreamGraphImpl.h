@@ -201,6 +201,7 @@ bool
 aRealtime
 )
 ;
+virtual
 ~
 MediaStreamGraphImpl
 (

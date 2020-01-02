@@ -2250,6 +2250,7 @@ MediaStreamGraph
 )
 ;
 }
+virtual
 ~
 MediaStreamGraph
 (
