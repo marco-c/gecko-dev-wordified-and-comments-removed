@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
