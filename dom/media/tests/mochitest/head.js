@@ -399,6 +399,18 @@ onSuccess
 onError
 )
 {
+if
+(
+!
+(
+"
+fake
+"
+in
+constraints
+)
+)
+{
 constraints
 [
 "
@@ -408,6 +420,7 @@ fake
 =
 FAKE_ENABLED
 ;
+}
 info
 (
 "
