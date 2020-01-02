@@ -5452,6 +5452,17 @@ GetID
 (
 )
 ;
+audioOutputStream
+-
+>
+mStream
+-
+>
+SetMicrophoneActive
+(
+mMixer
+)
+;
 LogLatency
 (
 AsyncLatencyLogger
