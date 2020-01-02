@@ -3290,7 +3290,7 @@ EVENT
 name_
 _id
 _type
-_struct
+_class
 )
 \
 {
@@ -3303,7 +3303,7 @@ on
 name_
 _id
 _type
-_struct
+_class
 }
 #
 define
@@ -3504,7 +3504,7 @@ EVENT
 name_
 _id
 _type
-_struct
+_class
 )
 #
 define
@@ -3513,7 +3513,7 @@ TOUCH_EVENT
 name_
 _id
 _type
-_struct
+_class
 )
 \
 {
@@ -3526,7 +3526,7 @@ on
 name_
 _id
 _type
-_struct
+_class
 }
 #
 include
@@ -16353,11 +16353,14 @@ return
 NS_USER_DEFINED_EVENT
 ;
 }
-uint32_t
+mozilla
+:
+:
+EventClassID
 nsContentUtils
 :
 :
-GetEventCategory
+GetEventClassID
 (
 const
 nsAString
@@ -16383,7 +16386,7 @@ mapping
 return
 mapping
 .
-mStructType
+mEventClassID
 ;
 return
 eBasicEventClass
@@ -16400,8 +16403,11 @@ const
 nsAString
 &
 aName
-uint32_t
-aEventStruct
+mozilla
+:
+:
+EventClassID
+aEventClassID
 uint32_t
 *
 aEventID
@@ -16428,10 +16434,10 @@ aEventID
 =
 mapping
 .
-mStructType
+mEventClassID
 =
 =
-aEventStruct
+aEventClassID
 ?
 mapping
 .
@@ -16557,7 +16563,7 @@ EventNameType_None
 ;
 mapping
 .
-mStructType
+mEventClassID
 =
 eBasicEventClass
 ;
