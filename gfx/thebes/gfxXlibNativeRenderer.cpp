@@ -2810,7 +2810,12 @@ native
 .
 mSurface
 =
-tempXlibSurface
+paintSurface
+-
+>
+CairoSurface
+(
+)
 ;
 native
 .
