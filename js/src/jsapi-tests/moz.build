@@ -410,11 +410,6 @@ testTypedArrays
 cpp
 '
 '
-testUncaughtError
-.
-cpp
-'
-'
 testUTF8
 .
 cpp
