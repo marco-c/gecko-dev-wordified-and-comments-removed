@@ -91,7 +91,7 @@ disconnected
 "
 wps
 -
-timeout
+timedout
 "
 "
 wps
