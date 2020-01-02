@@ -79,5 +79,3 @@ A11Y_LOG
 =
 1
 endif
-export
-A11Y_LOG
