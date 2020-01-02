@@ -223,9 +223,11 @@ link
 gDocument
 .
 nodePrincipal
-rels
-.
+"
 feed
+"
+in
+rels
 )
 ;
 if
