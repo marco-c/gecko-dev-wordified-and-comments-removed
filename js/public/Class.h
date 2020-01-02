@@ -2202,6 +2202,7 @@ c
 enum
 ESClassValue
 {
+ESClass_Object
 ESClass_Array
 ESClass_Number
 ESClass_String
