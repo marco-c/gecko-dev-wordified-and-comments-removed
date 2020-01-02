@@ -774,7 +774,7 @@ return
 rv
 ;
 }
-void
+NS_IMETHODIMP
 HTMLStyleElement
 :
 :
@@ -783,9 +783,6 @@ GetInnerHTML
 nsAString
 &
 aInnerHTML
-ErrorResult
-&
-aError
 )
 {
 nsContentUtils
@@ -797,6 +794,9 @@ this
 false
 aInnerHTML
 )
+;
+return
+NS_OK
 ;
 }
 void

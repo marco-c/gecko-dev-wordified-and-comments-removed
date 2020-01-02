@@ -926,7 +926,7 @@ aNotify
 )
 ;
 }
-void
+NS_IMETHODIMP
 HTMLScriptElement
 :
 :
@@ -935,9 +935,6 @@ GetInnerHTML
 nsAString
 &
 aInnerHTML
-ErrorResult
-&
-aError
 )
 {
 nsContentUtils
@@ -949,6 +946,9 @@ this
 false
 aInnerHTML
 )
+;
+return
+NS_OK
 ;
 }
 void

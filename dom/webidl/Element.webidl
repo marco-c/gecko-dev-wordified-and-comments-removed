@@ -1215,7 +1215,8 @@ interface
 Element
 {
 [
-Throws
+Pure
+SetterThrows
 TreatNullAs
 =
 EmptyString
@@ -1225,7 +1226,8 @@ DOMString
 innerHTML
 ;
 [
-Throws
+Pure
+SetterThrows
 TreatNullAs
 =
 EmptyString
