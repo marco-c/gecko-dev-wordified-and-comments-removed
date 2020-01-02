@@ -3784,7 +3784,9 @@ NS_UNCONSTRAINEDSIZE
 )
 reflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 =
 availableSpaceOnLine
 ;
@@ -3795,7 +3797,9 @@ mMargin
 =
 reflowState
 .
-mComputedMargin
+ComputedPhysicalMargin
+(
+)
 ;
 pfd
 -
@@ -3804,7 +3808,9 @@ mBorderPadding
 =
 reflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 ;
 pfd
 -
@@ -3840,7 +3846,9 @@ mOffsets
 =
 reflowState
 .
-mComputedOffsets
+ComputedPhysicalOffsets
+(
+)
 ;
 }
 ApplyStartMargin
@@ -5235,7 +5243,9 @@ NS_UNCONSTRAINEDSIZE
 =
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 "
 have
 unconstrained
@@ -5276,7 +5286,9 @@ ComputedWidth
 {
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 -
 =
 ltr

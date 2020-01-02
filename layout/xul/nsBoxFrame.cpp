@@ -2619,7 +2619,9 @@ AW
 "
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 )
 ;
 printSize
@@ -2629,7 +2631,9 @@ AH
 "
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 )
 ;
 printSize
@@ -2707,7 +2711,9 @@ m
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 ;
 nsSize
 prefSize
@@ -2815,7 +2821,9 @@ verticalBorderPadding
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 TopBottom
 (

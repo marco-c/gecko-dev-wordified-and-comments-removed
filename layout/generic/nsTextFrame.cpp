@@ -37484,7 +37484,9 @@ aReflowState
 mLineLayout
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 aReflowState
 .
 rendContext

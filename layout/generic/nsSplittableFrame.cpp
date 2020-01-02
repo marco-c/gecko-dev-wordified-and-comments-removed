@@ -1116,7 +1116,9 @@ height
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 top
 ;
@@ -1207,7 +1209,9 @@ NS_UNCONSTRAINEDSIZE
 aReflowState
 -
 >
-availableHeight
+AvailableHeight
+(
+)
 )
 {
 nscoord
@@ -1229,7 +1233,9 @@ effectiveCH
 aReflowState
 -
 >
-availableHeight
+AvailableHeight
+(
+)
 )
 {
 skip

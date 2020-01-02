@@ -2203,7 +2203,9 @@ bp
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 TopBottom
 (

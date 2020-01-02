@@ -2966,7 +2966,9 @@ width
 =
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 ;
 aDesiredSize
 .
@@ -2974,7 +2976,9 @@ height
 =
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 ;
 }
 else
@@ -3486,7 +3490,9 @@ width
 -
 reflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 LeftRight
 (
@@ -3510,7 +3516,9 @@ height
 -
 reflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 .
 TopBottom
 (
@@ -4034,7 +4042,9 @@ width
 =
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 )
 ?
 aDesiredSize
@@ -4043,7 +4053,9 @@ width
 :
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 ;
 nscoord
 height
@@ -4056,7 +4068,9 @@ height
 =
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 )
 ?
 aDesiredSize
@@ -4065,7 +4079,9 @@ height
 :
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 ;
 bool
 firstTime

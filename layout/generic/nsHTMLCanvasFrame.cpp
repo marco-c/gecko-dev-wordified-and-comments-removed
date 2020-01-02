@@ -757,10 +757,14 @@ d
 "
 aReflowState
 .
-availableWidth
+AvailableWidth
+(
+)
 aReflowState
 .
-availableHeight
+AvailableHeight
+(
+)
 )
 )
 ;
@@ -806,7 +810,9 @@ mBorderPadding
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 ;
 aMetrics
 .

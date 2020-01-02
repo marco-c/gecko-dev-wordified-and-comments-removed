@@ -6860,7 +6860,9 @@ borderPadding
 =
 aReflowState
 .
-mComputedBorderPadding
+ComputedPhysicalBorderPadding
+(
+)
 ;
 if
 (
