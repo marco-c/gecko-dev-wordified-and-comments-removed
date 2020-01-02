@@ -19343,6 +19343,15 @@ fun
 isInterpretedLazy
 (
 )
+&
+&
+!
+fun
+-
+>
+isSelfHostedBuiltin
+(
+)
 )
 fun
 =
