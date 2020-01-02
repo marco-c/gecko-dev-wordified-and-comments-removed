@@ -2453,6 +2453,12 @@ MDefinition
 obj
 )
 ;
+MDefinition
+*
+getCallee
+(
+)
+;
 bool
 jsop_add
 (

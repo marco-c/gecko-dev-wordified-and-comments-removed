@@ -1078,6 +1078,14 @@ lir
 )
 ;
 bool
+visitLoadArrowThis
+(
+LLoadArrowThis
+*
+lir
+)
+;
+bool
 visitArrayLength
 (
 LArrayLength

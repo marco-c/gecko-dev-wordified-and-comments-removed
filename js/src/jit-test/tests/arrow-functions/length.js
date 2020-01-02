@@ -89,7 +89,7 @@ arr
 )
 .
 length
-1
+0
 )
 ;
 assertEq
@@ -109,6 +109,6 @@ b
 )
 .
 length
-2
+0
 )
 ;

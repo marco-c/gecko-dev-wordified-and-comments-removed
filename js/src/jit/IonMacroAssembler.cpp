@@ -9897,6 +9897,11 @@ IS_FUN_PROTO
 JSFunction
 :
 :
+ARROW
+|
+JSFunction
+:
+:
 SELF_HOSTED
 )
 <
