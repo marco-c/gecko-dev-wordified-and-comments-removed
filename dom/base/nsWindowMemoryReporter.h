@@ -333,6 +333,12 @@ ons
 )
 {
 }
+static
+int64_t
+DistinguishedAmount
+(
+)
+;
 private
 :
 int64_t
@@ -340,7 +346,13 @@ Amount
 (
 )
 MOZ_OVERRIDE
+{
+return
+DistinguishedAmount
+(
+)
 ;
+}
 }
 ;
 nsWindowMemoryReporter
