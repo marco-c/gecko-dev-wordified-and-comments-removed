@@ -3764,6 +3764,7 @@ function
 {
 if
 (
+!
 _timer
 )
 {
