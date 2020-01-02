@@ -613,7 +613,17 @@ DrawEventRecorder
 cpp
 '
 '
+DrawTarget
+.
+cpp
+'
+'
 DrawTargetCairo
+.
+cpp
+'
+'
+DrawTargetCapture
 .
 cpp
 '

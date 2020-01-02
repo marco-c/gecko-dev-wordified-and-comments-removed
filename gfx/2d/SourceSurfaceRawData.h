@@ -132,6 +132,12 @@ bool
 aOwnData
 )
 ;
+virtual
+void
+GuaranteePersistance
+(
+)
+;
 private
 :
 uint8_t
