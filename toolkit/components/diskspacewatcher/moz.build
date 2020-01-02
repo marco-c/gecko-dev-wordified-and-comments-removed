@@ -140,3 +140,6 @@ LIBRARY_NAME
 '
 diskspacewatcher
 '
+EXPORT_LIBRARY
+=
+True

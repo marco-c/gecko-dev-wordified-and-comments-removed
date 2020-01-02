@@ -641,3 +641,6 @@ LIBRARY_NAME
 '
 gl
 '
+EXPORT_LIBRARY
+=
+True

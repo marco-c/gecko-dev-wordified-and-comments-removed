@@ -167,3 +167,6 @@ LIBRARY_NAME
 '
 cookie
 '
+EXPORT_LIBRARY
+=
+True

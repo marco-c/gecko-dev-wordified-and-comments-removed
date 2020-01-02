@@ -119,3 +119,6 @@ LIBRARY_NAME
 '
 domsystemwindows_s
 '
+EXPORT_LIBRARY
+=
+True

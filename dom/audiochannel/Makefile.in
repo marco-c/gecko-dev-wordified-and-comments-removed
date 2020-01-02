@@ -124,9 +124,6 @@ under
 the
 License
 .
-EXPORT_LIBRARY
-=
-1
 include
 (
 topsrcdir

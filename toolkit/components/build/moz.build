@@ -126,3 +126,6 @@ LIBRARY_NAME
 '
 toolkitcomps
 '
+EXPORT_LIBRARY
+=
+True

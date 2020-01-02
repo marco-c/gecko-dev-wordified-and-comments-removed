@@ -124,3 +124,6 @@ LIBRARY_NAME
 '
 domsystemandroid_s
 '
+EXPORT_LIBRARY
+=
+True

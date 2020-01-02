@@ -209,3 +209,6 @@ LIBRARY_NAME
 '
 ipcshell_s
 '
+EXPORT_LIBRARY
+=
+True

@@ -321,3 +321,6 @@ LIBRARY_NAME
 '
 domsystem_s
 '
+EXPORT_LIBRARY
+=
+True

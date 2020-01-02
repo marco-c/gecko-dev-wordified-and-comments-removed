@@ -146,3 +146,6 @@ skia_npapi
 LIBXUL_LIBRARY
 =
 True
+EXPORT_LIBRARY
+=
+True

@@ -193,3 +193,6 @@ LIBRARY_NAME
 '
 domwifi_s
 '
+EXPORT_LIBRARY
+=
+True

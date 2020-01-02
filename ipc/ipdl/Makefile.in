@@ -92,9 +92,6 @@ cxx
 .
 pyc
 )
-EXPORT_LIBRARY
-=
-1
 #
 This
 file

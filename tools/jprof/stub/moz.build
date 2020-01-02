@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 jprof
 '
+EXPORT_LIBRARY
+=
+True

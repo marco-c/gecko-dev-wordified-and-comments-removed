@@ -150,3 +150,6 @@ LIBRARY_NAME
 '
 mozdbus_s
 '
+EXPORT_LIBRARY
+=
+True

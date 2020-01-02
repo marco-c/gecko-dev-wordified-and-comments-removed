@@ -538,3 +538,6 @@ LIBRARY_NAME
 '
 mozipc_s
 '
+EXPORT_LIBRARY
+=
+True

@@ -322,3 +322,6 @@ LIBRARY_NAME
 '
 xpcom_core
 '
+EXPORT_LIBRARY
+=
+True

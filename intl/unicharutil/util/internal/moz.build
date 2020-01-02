@@ -118,3 +118,6 @@ LIBRARY_NAME
 '
 unicharutil_s
 '
+EXPORT_LIBRARY
+=
+True

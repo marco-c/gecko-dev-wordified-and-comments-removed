@@ -259,3 +259,6 @@ LIBRARY_NAME
 '
 gkconwebspeechsynth_s
 '
+EXPORT_LIBRARY
+=
+True

@@ -244,3 +244,6 @@ LIBRARY_NAME
 '
 widget_android
 '
+EXPORT_LIBRARY
+=
+True

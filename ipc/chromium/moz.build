@@ -1759,3 +1759,6 @@ LIBRARY_NAME
 '
 chromium_s
 '
+EXPORT_LIBRARY
+=
+True

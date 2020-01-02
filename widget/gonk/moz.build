@@ -372,3 +372,6 @@ LIBRARY_NAME
 '
 widget_gonk
 '
+EXPORT_LIBRARY
+=
+True

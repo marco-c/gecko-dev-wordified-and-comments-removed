@@ -568,3 +568,6 @@ LIBRARY_NAME
 '
 domplugins_s
 '
+EXPORT_LIBRARY
+=
+True

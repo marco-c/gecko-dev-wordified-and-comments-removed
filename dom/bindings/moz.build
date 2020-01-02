@@ -228,3 +228,6 @@ LIBRARY_NAME
 '
 dombindings_s
 '
+EXPORT_LIBRARY
+=
+True

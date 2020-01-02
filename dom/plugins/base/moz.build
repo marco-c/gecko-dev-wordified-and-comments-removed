@@ -539,3 +539,6 @@ LIBRARY_NAME
 '
 gkplugin
 '
+EXPORT_LIBRARY
+=
+True

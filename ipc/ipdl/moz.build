@@ -122,3 +122,6 @@ LIBRARY_NAME
 '
 mozipdlgen_s
 '
+EXPORT_LIBRARY
+=
+True

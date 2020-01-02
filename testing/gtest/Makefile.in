@@ -116,9 +116,6 @@ src
 (
 NULL
 )
-EXPORT_LIBRARY
-=
-1
 LOCAL_INCLUDES
 +
 =

@@ -207,3 +207,6 @@ True
 MSVC_ENABLE_PGO
 =
 True
+EXPORT_LIBRARY
+=
+True

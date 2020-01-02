@@ -132,3 +132,6 @@ LIBRARY_NAME
 '
 domsystemunix_s
 '
+EXPORT_LIBRARY
+=
+True

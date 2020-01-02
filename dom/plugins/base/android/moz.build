@@ -184,3 +184,6 @@ LIBRARY_NAME
 '
 gkpluginandroid_s
 '
+EXPORT_LIBRARY
+=
+True

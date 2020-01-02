@@ -144,3 +144,6 @@ LIBRARY_NAME
 '
 jsipc_s
 '
+EXPORT_LIBRARY
+=
+True

@@ -364,3 +364,6 @@ ComplexTextInputPanel
 mm
 '
 ]
+EXPORT_LIBRARY
+=
+True

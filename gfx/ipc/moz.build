@@ -189,3 +189,6 @@ LIBRARY_NAME
 '
 gfxipc_s
 '
+EXPORT_LIBRARY
+=
+True

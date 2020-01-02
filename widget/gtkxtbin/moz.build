@@ -134,3 +134,6 @@ gtk2xtbin
 c
 '
 ]
+EXPORT_LIBRARY
+=
+True
