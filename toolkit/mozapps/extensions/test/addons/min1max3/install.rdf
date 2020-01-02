@@ -80,7 +80,7 @@ em
 :
 id
 >
-bug542391_3
+min1max3
 tests
 .
 mozilla
@@ -148,7 +148,7 @@ em
 :
 maxVersion
 >
-2
+3
 <
 /
 em
@@ -180,9 +180,10 @@ em
 :
 name
 >
-Bug
-542391
 Test
+minVersion
+1
+maxVersion
 3
 <
 /

@@ -321,7 +321,7 @@ minVersion
 maxVersion
 :
 "
-1
+2
 "
 }
 ]
@@ -335,6 +335,10 @@ Addon
 }
 profileDir
 )
+;
+gExpectedURL
+=
+URI_EXTENSION_SELECT_DIALOG
 ;
 startupManager
 (
@@ -352,6 +356,12 @@ PREF_SHOWN_SELECTION_UI
 )
 )
 ;
+do_check_eq
+(
+gExpectedURL
+URI_EXTENSION_SELECT_DIALOG
+)
+;
 Services
 .
 prefs
@@ -360,10 +370,6 @@ clearUserPref
 (
 PREF_SHOWN_SELECTION_UI
 )
-;
-gExpectedURL
-=
-URI_EXTENSION_SELECT_DIALOG
 ;
 restartManager
 (
