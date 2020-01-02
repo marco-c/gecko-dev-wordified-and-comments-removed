@@ -1216,6 +1216,11 @@ UNIFIED_SOURCES
 =
 [
 '
+CJKCompatSVS
+.
+cpp
+'
+'
 gfx3DMatrix
 .
 cpp
