@@ -977,12 +977,6 @@ CompositableBackendSpecificData
 >
 mBackendData
 ;
-RefPtr
-<
-TextureHost
->
-mFirstTexture
-;
 bool
 mAttached
 ;

@@ -322,11 +322,6 @@ OnActorDestroy
 ;
 protected
 :
-uint64_t
-NextTextureID
-(
-)
-;
 CompositableChild
 *
 mCompositableChild
