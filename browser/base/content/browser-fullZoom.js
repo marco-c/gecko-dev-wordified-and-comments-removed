@@ -873,6 +873,12 @@ aIsTabSwitch
 aBrowser
 )
 {
+if
+(
+gMultiProcessBrowser
+)
+return
+;
 let
 browser
 =
@@ -1723,6 +1729,11 @@ outerID
 this
 .
 token
+&
+&
+browser
+.
+docShell
 ;
 }
 }
