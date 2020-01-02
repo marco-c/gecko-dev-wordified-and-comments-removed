@@ -98,3 +98,13 @@ MODULE
 '
 osfile
 '
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+'
+chrome
+.
+ini
+'
+]

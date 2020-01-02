@@ -53,13 +53,3 @@ MPL
 0
 /
 .
-MOCHITEST_CHROME_FILES
-=
-\
-test_aboutCrashed
-.
-xul
-\
-(
-NULL
-)
