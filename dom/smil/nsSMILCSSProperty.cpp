@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsStyleAnimation
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

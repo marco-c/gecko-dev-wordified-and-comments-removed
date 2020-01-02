@@ -1,9 +1,9 @@
 #
 ifndef
-nsStyleAnimation_h_
+mozilla_StyleAnimationValue_h_
 #
 define
-nsStyleAnimation_h_
+mozilla_StyleAnimationValue_h_
 #
 include
 "

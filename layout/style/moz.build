@@ -301,11 +301,6 @@ nsRuleWalker
 h
 '
 '
-nsStyleAnimation
-.
-h
-'
-'
 nsStyleConsts
 .
 h
@@ -374,6 +369,11 @@ h
 '
 '
 CSSVariableValues
+.
+h
+'
+'
+StyleAnimationValue
 .
 h
 '
@@ -656,11 +656,6 @@ nsRuleNode
 cpp
 '
 '
-nsStyleAnimation
-.
-cpp
-'
-'
 nsStyleContext
 .
 cpp
@@ -692,6 +687,11 @@ cpp
 '
 '
 nsTransitionManager
+.
+cpp
+'
+'
+StyleAnimationValue
 .
 cpp
 '
