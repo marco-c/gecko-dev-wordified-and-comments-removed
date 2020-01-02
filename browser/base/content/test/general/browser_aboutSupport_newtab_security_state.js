@@ -34,7 +34,7 @@ false
 skipAnimation
 :
 true
-disableMCB
+allowMixedContent
 :
 false
 }

@@ -6335,7 +6335,7 @@ doc
 documentURIObject
 ;
 var
-persistDisableMCBInChildTab
+persistAllowMixedContentInChildTab
 =
 false
 ;
@@ -6382,7 +6382,7 @@ targetURI
 false
 )
 ;
-persistDisableMCBInChildTab
+persistAllowMixedContentInChildTab
 =
 true
 ;
@@ -6411,9 +6411,9 @@ characterSet
 referrerURI
 :
 referrerURI
-disableMCB
+allowMixedContent
 :
-persistDisableMCBInChildTab
+persistAllowMixedContentInChildTab
 }
 )
 ;

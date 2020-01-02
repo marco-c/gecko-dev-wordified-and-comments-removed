@@ -894,11 +894,11 @@ params
 relatedToCurrent
 ;
 var
-aDisableMCB
+aAllowMixedContent
 =
 params
 .
-disableMCB
+allowMixedContent
 ;
 var
 aInBackground
@@ -1593,9 +1593,9 @@ aRelatedToCurrent
 skipAnimation
 :
 aSkipTabAnimation
-disableMCB
+allowMixedContent
 :
-aDisableMCB
+aAllowMixedContent
 }
 )
 ;

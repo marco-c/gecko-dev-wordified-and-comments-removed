@@ -6750,6 +6750,7 @@ mCurrentBrowser
 .
 updateBlockedPopups
 (
+false
 )
 ;
 /
@@ -8523,7 +8524,7 @@ var
 aRelatedToCurrent
 ;
 var
-aDisableMCB
+aAllowMixedContent
 ;
 var
 aSkipAnimation
@@ -8613,11 +8614,11 @@ params
 .
 relatedToCurrent
 ;
-aDisableMCB
+aAllowMixedContent
 =
 params
 .
-disableMCB
+allowMixedContent
 ;
 aSkipAnimation
 =
@@ -8697,9 +8698,9 @@ aRelatedToCurrent
 skipAnimation
 :
 aSkipAnimation
-disableMCB
+allowMixedContent
 :
-aDisableMCB
+aAllowMixedContent
 }
 )
 ;
@@ -9734,7 +9735,7 @@ var
 aSkipAnimation
 ;
 var
-aDisableMCB
+aAllowMixedContent
 ;
 if
 (
@@ -9827,11 +9828,11 @@ params
 .
 skipAnimation
 ;
-aDisableMCB
+aAllowMixedContent
 =
 params
 .
-disableMCB
+allowMixedContent
 ;
 }
 /
@@ -11190,7 +11191,7 @@ LOAD_FLAGS_FROM_EXTERNAL
 ;
 if
 (
-aDisableMCB
+aAllowMixedContent
 )
 flags
 |
