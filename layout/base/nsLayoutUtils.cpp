@@ -13143,6 +13143,14 @@ ifdef
 MOZ_WIDGET_GONK
 if
 (
+aBuilder
+-
+>
+IsPaintingToWindow
+(
+)
+&
+&
 WantSubAPZC
 (
 )
