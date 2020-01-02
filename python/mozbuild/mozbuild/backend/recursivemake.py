@@ -2991,6 +2991,51 @@ None
             
 return
 current
+[
+]
+subdirs
+.
+parallel
++
+\
+                
+subdirs
+.
+static
++
+subdirs
+.
+dirs
++
+subdirs
+.
+tests
+        
+def
+tools_filter
+(
+current
+subdirs
+)
+:
+            
+if
+current
+in
+self
+.
+_may_skip
+[
+tier
+]
+:
+                
+current
+=
+None
+            
+return
+current
 subdirs
 .
 parallel
@@ -3007,6 +3052,10 @@ dirs
 subdirs
 .
 tests
++
+subdirs
+.
+tools
         
 filters
 =
@@ -3040,7 +3089,7 @@ libs_filter
 tools
 '
 :
-parallel_filter
+tools_filter
         
 }
         
