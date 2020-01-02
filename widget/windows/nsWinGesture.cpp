@@ -2483,7 +2483,7 @@ SCROLL_SYNCHRONOUSLY
 ;
 aWheelEvent
 .
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 =
 true
 ;

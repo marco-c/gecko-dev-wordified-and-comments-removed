@@ -1287,7 +1287,7 @@ isMomentum
 (
 false
 )
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 (
 false
 )
@@ -1401,7 +1401,7 @@ bool
 isMomentum
 ;
 bool
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 ;
 int32_t
 lineOrPageDeltaX
@@ -1576,11 +1576,11 @@ aEvent
 .
 isMomentum
 ;
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 =
 aEvent
 .
-mIsNoLineOrPageDelta
+isPixelOnlyDevice
 ;
 lineOrPageDeltaX
 =
