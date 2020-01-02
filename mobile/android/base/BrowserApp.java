@@ -12899,11 +12899,10 @@ doRestart
 args
 )
 ;
-System
+GeckoAppShell
 .
-exit
+systemExit
 (
-0
 )
 ;
 }
