@@ -163,6 +163,17 @@ Promise
 (
 )
 ;
+static
+bool
+EnabledForScope
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 void
 MaybeResolve
 (
