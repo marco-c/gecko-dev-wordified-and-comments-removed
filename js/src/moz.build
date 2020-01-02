@@ -756,6 +756,11 @@ Memory
 cpp
 '
 '
+MemoryMetrics
+.
+cpp
+'
+'
 Module
 .
 cpp
@@ -1077,11 +1082,6 @@ cpp
 '
 '
 jsmath
-.
-cpp
-'
-'
-jsmemorymetrics
 .
 cpp
 '
