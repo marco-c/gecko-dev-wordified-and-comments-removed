@@ -14427,6 +14427,13 @@ allowZoom
 )
 ;
 }
+else
+{
+allowZoom
+=
+true
+;
+}
 const
 nsCSSValue
 *
@@ -16852,6 +16859,9 @@ aPresContext
 IsChrome
 (
 )
+&
+&
+allowZoom
 )
 {
 fontSize
