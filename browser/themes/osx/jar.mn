@@ -2736,6 +2736,7 @@ feedIcon16
 .
 png
 )
+*
 skin
 /
 classic
@@ -2790,6 +2791,11 @@ controls
 .
 png
 (
+.
+.
+/
+shared
+/
 newtab
 /
 controls
