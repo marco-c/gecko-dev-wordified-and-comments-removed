@@ -288,7 +288,7 @@ fd
 MemTotal
 :
 %
-lu
+llu
 kB
 "
 &
