@@ -11622,7 +11622,7 @@ else
 \
 maybeFakeParentData
 .
-construct
+emplace
 ctorargs_
 ;
 \
@@ -11630,7 +11630,7 @@ parentdata_
 =
 maybeFakeParentData
 .
-addr
+ptr
 (
 )
 ;
@@ -12132,7 +12132,7 @@ else
 \
 maybeFakeParentData
 .
-construct
+emplace
 ctorargs_
 ;
 \
@@ -12140,7 +12140,7 @@ parentdata_
 =
 maybeFakeParentData
 .
-addr
+ptr
 (
 )
 ;

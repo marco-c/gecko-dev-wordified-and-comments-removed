@@ -1697,7 +1697,7 @@ legend
 {
 legendReflowState
 .
-construct
+emplace
 (
 aPresContext
 aReflowState
@@ -1722,11 +1722,8 @@ ReflowChild
 legend
 aPresContext
 legendDesiredSize
+*
 legendReflowState
-.
-ref
-(
-)
 0
 0
 NS_FRAME_NO_MOVE_FRAME
@@ -1891,10 +1888,9 @@ FinishReflowChild
 legend
 aPresContext
 legendDesiredSize
-&
 legendReflowState
 .
-ref
+ptr
 (
 )
 0
@@ -2418,11 +2414,8 @@ TopLeft
 )
 ;
 legendReflowState
-.
-ref
-(
-)
-.
+-
+>
 ApplyRelativePositioning
 (
 &
