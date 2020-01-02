@@ -888,13 +888,6 @@ Stride
 0
 ;
 virtual
-void
-MarkDirty
-(
-)
-{
-}
-virtual
 bool
 Map
 (
