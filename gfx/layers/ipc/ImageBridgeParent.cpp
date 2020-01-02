@@ -331,6 +331,12 @@ sMainLoop
 =
 nullptr
 ;
+CompositorThreadHolder
+*
+GetCompositorThreadHolder
+(
+)
+;
 ImageBridgeParent
 :
 :
@@ -357,6 +363,12 @@ aTransport
 mChildProcessId
 (
 aChildProcessId
+)
+mCompositorThreadHolder
+(
+GetCompositorThreadHolder
+(
+)
 )
 {
 MOZ_ASSERT
@@ -1433,6 +1445,10 @@ DeferredDestroy
 (
 )
 {
+mCompositorThreadHolder
+=
+nullptr
+;
 mSelfRef
 =
 nullptr

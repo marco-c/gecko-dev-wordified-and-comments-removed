@@ -28,6 +28,13 @@ h
 #
 include
 "
+CompositorParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -594,6 +601,12 @@ static
 MessageLoop
 *
 sMainLoop
+;
+nsRefPtr
+<
+CompositorThreadHolder
+>
+mCompositorThreadHolder
 ;
 }
 ;
