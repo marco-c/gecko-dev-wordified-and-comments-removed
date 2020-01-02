@@ -44,9 +44,6 @@ GRE_MILESTONE
 [
 XRE
 ]
-EnableExtensionManager
-=
-0
 EnableProfileMigrator
 =
 0

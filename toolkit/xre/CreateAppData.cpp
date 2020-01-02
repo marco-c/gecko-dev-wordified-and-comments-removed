@@ -606,15 +606,6 @@ EnableProfileMigrator
 NS_XRE_ENABLE_PROFILE_MIGRATOR
 }
 {
-"
-XRE
-"
-"
-EnableExtensionManager
-"
-NS_XRE_ENABLE_EXTENSION_MANAGER
-}
-{
 nullptr
 }
 }
