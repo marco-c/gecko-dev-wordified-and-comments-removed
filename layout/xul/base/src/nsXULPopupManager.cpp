@@ -10919,7 +10919,7 @@ SelectMenu
 false
 )
 ;
-nsAutoHandlingUserInputStatePusher
+AutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mUserInput
