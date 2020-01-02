@@ -3018,6 +3018,7 @@ d
 new
 BitmapDrawable
 (
+res
 Bitmap
 .
 createScaledBitmap

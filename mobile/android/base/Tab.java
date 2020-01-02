@@ -935,6 +935,11 @@ mThumbnail
 new
 BitmapDrawable
 (
+mAppContext
+.
+getResources
+(
+)
 b
 )
 ;
