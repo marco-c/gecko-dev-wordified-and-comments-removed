@@ -16076,6 +16076,11 @@ mOverrideZIndex
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+nsDisplayWrapList
+)
+;
 mList
 .
 AppendToTop
@@ -16248,6 +16253,11 @@ mOverrideZIndex
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+nsDisplayWrapList
+)
+;
 mList
 .
 AppendToTop
@@ -16371,6 +16381,11 @@ mList
 .
 DeleteAll
 (
+)
+;
+MOZ_COUNT_DTOR
+(
+nsDisplayWrapList
 )
 ;
 }
