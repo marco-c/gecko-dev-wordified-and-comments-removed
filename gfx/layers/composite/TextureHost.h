@@ -746,8 +746,6 @@ const
 nsIntRegion
 *
 aRegion
-=
-nullptr
 )
 {
 }
@@ -986,8 +984,6 @@ const
 nsIntRegion
 *
 aRegion
-=
-nullptr
 )
 MOZ_OVERRIDE
 ;
