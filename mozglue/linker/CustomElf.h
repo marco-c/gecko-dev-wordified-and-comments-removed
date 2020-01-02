@@ -210,6 +210,10 @@ initialized
 (
 false
 )
+has_text_relocs
+(
+false
+)
 {
 }
 void
@@ -482,6 +486,9 @@ fini_array
 ;
 bool
 initialized
+;
+bool
+has_text_relocs
 ;
 #
 ifdef
