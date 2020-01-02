@@ -1929,10 +1929,6 @@ no
 "
 )
 }
-export_assertions
-(
-)
-;
 ok
 (
 true
