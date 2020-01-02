@@ -143,7 +143,7 @@ prettifyShortcut
 function
 (
 aElemKey
-aAllowCloverleaf
+aNoCloverLeaf
 )
 {
 let
@@ -192,8 +192,7 @@ Darwin
 {
 if
 (
-!
-aAllowCloverleaf
+aNoCloverLeaf
 )
 {
 elemString

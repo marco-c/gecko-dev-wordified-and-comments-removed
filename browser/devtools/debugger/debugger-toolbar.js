@@ -230,7 +230,6 @@ getElementById
 resumeKey
 "
 )
-true
 )
 ;
 let
@@ -248,7 +247,6 @@ getElementById
 stepOverKey
 "
 )
-true
 )
 ;
 let
@@ -266,7 +264,6 @@ getElementById
 stepInKey
 "
 )
-true
 )
 ;
 let
@@ -284,7 +281,6 @@ getElementById
 stepOutKey
 "
 )
-true
 )
 ;
 this
@@ -3301,7 +3297,6 @@ getElementById
 fileSearchKey
 "
 )
-true
 )
 ;
 this
@@ -3320,7 +3315,6 @@ getElementById
 globalSearchKey
 "
 )
-true
 )
 ;
 this
@@ -3339,7 +3333,6 @@ getElementById
 functionSearchKey
 "
 )
-true
 )
 ;
 this
@@ -3358,7 +3351,6 @@ getElementById
 tokenSearchKey
 "
 )
-true
 )
 ;
 this
@@ -3377,7 +3369,6 @@ getElementById
 lineSearchKey
 "
 )
-true
 )
 ;
 this
@@ -3396,7 +3387,6 @@ getElementById
 variableSearchKey
 "
 )
-true
 )
 ;
 this
