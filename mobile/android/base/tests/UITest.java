@@ -649,6 +649,9 @@ dumpLog
 (
 final
 String
+logtag
+final
+String
 message
 )
 {
@@ -656,6 +659,12 @@ mAsserter
 .
 dumpLog
 (
+logtag
++
+"
+:
+"
++
 message
 )
 ;
@@ -665,6 +674,9 @@ public
 void
 dumpLog
 (
+final
+String
+logtag
 final
 String
 message
@@ -677,6 +689,12 @@ mAsserter
 .
 dumpLog
 (
+logtag
++
+"
+:
+"
++
 message
 t
 )

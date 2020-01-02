@@ -128,6 +128,9 @@ dumpLog
 (
 final
 String
+logtag
+final
+String
 message
 )
 ;
@@ -135,6 +138,9 @@ public
 void
 dumpLog
 (
+final
+String
+logtag
 final
 String
 message

@@ -128,6 +128,20 @@ AboutHomeComponent
 extends
 BaseComponent
 {
+private
+static
+final
+String
+LOGTAG
+=
+AboutHomeComponent
+.
+class
+.
+getSimpleName
+(
+)
+;
 public
 enum
 PageType
@@ -325,6 +339,7 @@ mTestContext
 .
 dumpLog
 (
+LOGTAG
 "
 Swiping
 to
@@ -358,6 +373,7 @@ mTestContext
 .
 dumpLog
 (
+LOGTAG
 "
 Swiping
 to
