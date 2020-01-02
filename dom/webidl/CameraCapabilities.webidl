@@ -300,5 +300,17 @@ attribute
 any
 recorderProfiles
 ;
+[
+Constant
+Cached
+]
+readonly
+attribute
+sequence
+<
+DOMString
+>
+isoModes
+;
 }
 ;
