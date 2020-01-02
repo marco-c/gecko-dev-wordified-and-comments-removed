@@ -550,10 +550,10 @@ return
 encodedRecords
 ;
 }
-setSessionToken
+checkSessionToken
 :
 function
-setSessionToken
+checkSessionToken
 (
 sessionToken
 )
@@ -596,7 +596,7 @@ sendSyncMessage
 "
 NFC
 :
-SetSessionToken
+CheckSessionToken
 "
 {
 sessionToken
