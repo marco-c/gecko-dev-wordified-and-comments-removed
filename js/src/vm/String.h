@@ -4039,10 +4039,6 @@ JSString
 namespace
 js
 {
-extern
-bool
-EnableLatin1Strings
-;
 class
 ScopedThreadSafeStringInspector
 {
