@@ -307,18 +307,11 @@ static
 Promise
 resolve
 (
+optional
 any
 value
 )
 ;
-/
-/
-same
-as
-any
-(
-value
-)
 [
 NewObject
 Throws
@@ -341,6 +334,7 @@ static
 Promise
 reject
 (
+optional
 any
 value
 )
@@ -353,9 +347,11 @@ then
 (
 optional
 AnyCallback
+?
 fulfillCallback
 optional
 AnyCallback
+?
 rejectCallback
 )
 ;
@@ -367,6 +363,7 @@ catch
 (
 optional
 AnyCallback
+?
 rejectCallback
 )
 ;

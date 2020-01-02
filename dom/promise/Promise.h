@@ -270,6 +270,9 @@ aGlobal
 JSContext
 *
 aCx
+const
+Optional
+<
 JS
 :
 :
@@ -280,6 +283,8 @@ JS
 :
 Value
 >
+>
+&
 aValue
 ErrorResult
 &
@@ -300,6 +305,9 @@ aGlobal
 JSContext
 *
 aCx
+const
+Optional
+<
 JS
 :
 :
@@ -310,6 +318,8 @@ JS
 :
 Value
 >
+>
+&
 aValue
 ErrorResult
 &
@@ -325,7 +335,7 @@ Then
 const
 Optional
 <
-OwningNonNull
+nsRefPtr
 <
 AnyCallback
 >
@@ -335,7 +345,7 @@ aResolveCallback
 const
 Optional
 <
-OwningNonNull
+nsRefPtr
 <
 AnyCallback
 >
@@ -353,7 +363,7 @@ Catch
 const
 Optional
 <
-OwningNonNull
+nsRefPtr
 <
 AnyCallback
 >
