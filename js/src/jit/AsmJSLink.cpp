@@ -844,7 +844,7 @@ AsmJSMathBuiltin_ceil
 :
 native
 =
-js_math_ceil
+math_ceil
 ;
 break
 ;
@@ -853,7 +853,7 @@ AsmJSMathBuiltin_floor
 :
 native
 =
-js_math_floor
+math_floor
 ;
 break
 ;
