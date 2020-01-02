@@ -116,7 +116,7 @@ customize
 -
 context
 -
-addToPanel
+moveToPanel
 "
 true
 ]
@@ -305,7 +305,7 @@ customize
 -
 context
 -
-addToPanel
+moveToPanel
 "
 false
 ]
@@ -747,7 +747,7 @@ customize
 -
 context
 -
-addToToolbar
+moveToToolbar
 "
 true
 ]
@@ -912,7 +912,7 @@ customize
 -
 context
 -
-addToPanel
+moveToPanel
 "
 true
 ]
@@ -1208,7 +1208,7 @@ customize
 -
 context
 -
-addToToolbar
+moveToToolbar
 "
 true
 ]
@@ -1377,7 +1377,7 @@ customize
 -
 context
 -
-addToToolbar
+moveToToolbar
 "
 true
 ]
@@ -1659,7 +1659,7 @@ customize
 -
 context
 -
-addToPanel
+moveToPanel
 "
 true
 ]

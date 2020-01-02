@@ -2462,7 +2462,7 @@ label
 &
 customizeMenu
 .
-addToPanel
+moveToPanel
 .
 label
 ;
@@ -2474,7 +2474,7 @@ customize
 -
 context
 -
-addToPanel
+moveToPanel
 "
 /
 >

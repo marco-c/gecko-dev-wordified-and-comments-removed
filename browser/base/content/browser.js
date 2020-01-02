@@ -22056,7 +22056,7 @@ false
 }
 }
 let
-addToPanel
+moveToPanel
 =
 popup
 .
@@ -22068,7 +22068,7 @@ customize
 -
 context
 -
-addToPanel
+moveToPanel
 "
 )
 ;
@@ -22092,7 +22092,7 @@ removeFromToolbar
 if
 (
 !
-addToPanel
+moveToPanel
 |
 |
 !
@@ -22223,7 +22223,7 @@ if
 movable
 )
 {
-addToPanel
+moveToPanel
 .
 removeAttribute
 (
@@ -22244,7 +22244,7 @@ disabled
 }
 else
 {
-addToPanel
+moveToPanel
 .
 setAttribute
 (
