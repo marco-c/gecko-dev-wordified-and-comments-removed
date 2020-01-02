@@ -4745,14 +4745,6 @@ rtl
 %
 ifdef
 MOZ_SUITE
-%
-define
-AUTOCOMPLETE_OLD_STYLE
-%
-endif
-%
-ifdef
-AUTOCOMPLETE_OLD_STYLE
 textbox
 [
 type
