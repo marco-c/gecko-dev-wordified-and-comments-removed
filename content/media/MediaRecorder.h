@@ -59,6 +59,10 @@ nsDOMEventTargetHelper
 class
 Session
 ;
+friend
+class
+CreateAndDispatchBlobEventRunnable
+;
 public
 :
 MediaRecorder
@@ -242,11 +246,11 @@ MOZ_DELETE
 nsresult
 CreateAndDispatchBlobEvent
 (
-const
 already_AddRefed
 <
 nsIDOMBlob
 >
+&
 &
 aBlob
 )

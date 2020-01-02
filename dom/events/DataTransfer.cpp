@@ -1542,9 +1542,9 @@ nsISupports
 aTypes
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsISupports
+DOMStringList
 >
 types
 =
@@ -2428,9 +2428,9 @@ aTypes
 ErrorResult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsISupports
+DOMStringList
 >
 types
 =

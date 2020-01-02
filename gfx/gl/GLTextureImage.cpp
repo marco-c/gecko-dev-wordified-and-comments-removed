@@ -3164,10 +3164,6 @@ ReplaceElementAt
 (
 i
 teximg
-.
-forget
-(
-)
 )
 ;
 else
@@ -3177,10 +3173,6 @@ InsertElementAt
 (
 i
 teximg
-.
-forget
-(
-)
 )
 ;
 i

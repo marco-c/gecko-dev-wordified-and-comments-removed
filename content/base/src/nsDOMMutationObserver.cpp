@@ -3308,10 +3308,6 @@ AppendElement
 )
 =
 current
-.
-forget
-(
-)
 ;
 current
 .

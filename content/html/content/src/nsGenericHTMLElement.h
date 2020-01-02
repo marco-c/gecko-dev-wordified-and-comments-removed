@@ -198,6 +198,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 :
@@ -4620,6 +4621,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 ;
@@ -5025,6 +5027,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 ;
@@ -6041,6 +6044,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 \
 mozilla
@@ -6084,6 +6089,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 \
 mozilla
@@ -6109,7 +6116,13 @@ NOT_FROM_PARSER
 return
 NS_NewHTMLSharedElement
 (
+mozilla
+:
+:
+Move
+(
 aNodeInfo
+)
 aFromParser
 )
 ;
@@ -6137,6 +6150,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 \
 mozilla
@@ -6194,6 +6209,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 \
 mozilla
@@ -6239,6 +6256,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 mozilla
 :

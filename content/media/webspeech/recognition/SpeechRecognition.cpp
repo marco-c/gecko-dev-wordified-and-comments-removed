@@ -3160,7 +3160,7 @@ uint32_t
 aSampleCount
 nsTArray
 <
-already_AddRefed
+nsRefPtr
 <
 SharedBuffer
 >
@@ -3227,10 +3227,6 @@ aResult
 AppendElement
 (
 chunk
-.
-forget
-(
-)
 )
 ;
 chunkStart
@@ -3252,7 +3248,7 @@ CreateAudioSegment
 (
 nsTArray
 <
-already_AddRefed
+nsRefPtr
 <
 SharedBuffer
 >
@@ -3427,7 +3423,7 @@ Data
 ;
 nsAutoTArray
 <
-already_AddRefed
+nsRefPtr
 <
 SharedBuffer
 >
@@ -3464,11 +3460,11 @@ chunksToSend
 AppendElement
 (
 mAudioSamplesBuffer
-.
-forget
-(
 )
-)
+;
+mAudioSamplesBuffer
+=
+nullptr
 ;
 mBufferedSamples
 =

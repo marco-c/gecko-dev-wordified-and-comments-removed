@@ -456,6 +456,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 FromParser
 aFromParser
 )
@@ -468,6 +470,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -951,6 +955,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -1155,6 +1161,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -1217,7 +1225,10 @@ result
 =
 cb
 (
+Move
+(
 aNodeInfo
+)
 aFromParser
 )
 ;

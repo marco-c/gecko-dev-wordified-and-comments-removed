@@ -35,6 +35,7 @@ already_AddRefed
 <
 Image
 >
+&
 aImage
 const
 gfxIntSize
@@ -170,6 +171,8 @@ already_AddRefed
 <
 Image
 >
+&
+&
 aImage
 TrackTicks
 aDuration

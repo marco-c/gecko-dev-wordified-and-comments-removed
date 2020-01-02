@@ -106,6 +106,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 bool
 aNsAware

@@ -63,6 +63,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -122,6 +124,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 :

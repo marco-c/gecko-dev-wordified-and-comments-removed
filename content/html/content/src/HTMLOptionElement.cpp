@@ -176,6 +176,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 :
@@ -1387,7 +1388,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+already_AddRefed
 <
 nsINodeInfo
 >
@@ -1425,10 +1426,6 @@ new
 HTMLOptionElement
 (
 nodeInfo
-.
-forget
-(
-)
 )
 ;
 if

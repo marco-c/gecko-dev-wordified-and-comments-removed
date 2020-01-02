@@ -40,6 +40,10 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
+NS_IMPL_ISUPPORTS0
+(
+TransportFlow
+)
 TransportFlow
 :
 :

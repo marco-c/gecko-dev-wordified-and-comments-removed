@@ -81,6 +81,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 mozilla
 :
@@ -103,6 +105,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 )
 ;
@@ -148,6 +152,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 )
 )
@@ -158,6 +164,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 ;

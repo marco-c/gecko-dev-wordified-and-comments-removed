@@ -54,6 +54,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 const
 nsAString
@@ -63,7 +65,10 @@ aData
 :
 ProcessingInstruction
 (
+Move
+(
 aNodeInfo
+)
 aData
 )
 {

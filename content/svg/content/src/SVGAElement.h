@@ -40,6 +40,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 )
 ;
@@ -70,6 +72,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 ;
@@ -88,6 +91,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 )
 )

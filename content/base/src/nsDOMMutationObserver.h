@@ -1545,6 +1545,8 @@ already_AddRefed
 <
 nsPIDOMWindow
 >
+&
+&
 aOwner
 mozilla
 :

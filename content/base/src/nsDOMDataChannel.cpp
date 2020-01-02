@@ -309,6 +309,7 @@ mozilla
 :
 DataChannel
 >
+&
 aDataChannel
 nsPIDOMWindow
 *
@@ -2246,6 +2247,8 @@ mozilla
 :
 DataChannel
 >
+&
+&
 aDataChannel
 nsPIDOMWindow
 *

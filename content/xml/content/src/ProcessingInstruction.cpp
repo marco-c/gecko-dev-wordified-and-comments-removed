@@ -219,6 +219,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 const
 nsAString
@@ -228,7 +230,10 @@ aData
 :
 nsGenericDOMDataNode
 (
+Move
+(
 aNodeInfo
+)
 )
 {
 NS_ABORT_IF_FALSE

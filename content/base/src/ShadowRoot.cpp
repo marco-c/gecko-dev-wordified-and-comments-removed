@@ -304,6 +304,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 nsXBLPrototypeBinding
 *

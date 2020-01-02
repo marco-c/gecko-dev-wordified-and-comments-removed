@@ -2547,6 +2547,8 @@ already_AddRefed
 <
 nsISupports
 >
+&
+&
 aIdentity
 XPCWrappedNativeProto
 *
@@ -2623,6 +2625,8 @@ already_AddRefed
 <
 nsISupports
 >
+&
+&
 aIdentity
 XPCWrappedNativeScope
 *

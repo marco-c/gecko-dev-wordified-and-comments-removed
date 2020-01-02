@@ -6450,6 +6450,8 @@ already_AddRefed
 <
 nsIXPCScriptable
 >
+&
+&
 s
 )
 {
@@ -6631,6 +6633,8 @@ already_AddRefed
 <
 nsIXPCScriptable
 >
+&
+&
 callback
 XPCNativeScriptableFlags
 flags
@@ -6706,6 +6710,8 @@ already_AddRefed
 <
 nsIXPCScriptable
 >
+&
+&
 callback
 )
 {
@@ -8583,6 +8589,8 @@ already_AddRefed
 <
 nsISupports
 >
+&
+&
 aIdentity
 XPCWrappedNativeProto
 *
@@ -8595,6 +8603,8 @@ already_AddRefed
 <
 nsISupports
 >
+&
+&
 aIdentity
 XPCWrappedNativeScope
 *

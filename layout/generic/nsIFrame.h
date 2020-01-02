@@ -6164,6 +6164,14 @@ nsIPresShell
 shell
 )
 {
+nsWeakPtr
+weakShell
+=
+do_GetWeakReference
+(
+shell
+)
+;
 PaintedPresShellList
 (
 )
@@ -6171,10 +6179,7 @@ PaintedPresShellList
 >
 AppendElement
 (
-do_GetWeakReference
-(
-shell
-)
+weakShell
 )
 ;
 }

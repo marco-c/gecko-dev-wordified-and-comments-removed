@@ -1033,6 +1033,8 @@ already_AddRefed
 <
 SharedBuffer
 >
+&
+&
 aBuffer
 size_t
 aBufferSize
@@ -1345,7 +1347,13 @@ else
 {
 DispatchSynthDataRunnable
 (
+already_AddRefed
+<
+SharedBuffer
+>
+(
 nullptr
+)
 0
 )
 ;
@@ -1466,6 +1474,8 @@ already_AddRefed
 <
 SharedBuffer
 >
+&
+&
 aBuffer
 size_t
 aBufferSize
@@ -1486,6 +1496,7 @@ already_AddRefed
 <
 SharedBuffer
 >
+&
 aBuffer
 size_t
 aBufferSize

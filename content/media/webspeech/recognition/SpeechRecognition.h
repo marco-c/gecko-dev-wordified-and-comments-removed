@@ -587,7 +587,7 @@ uint32_t
 aSampleCount
 nsTArray
 <
-already_AddRefed
+nsRefPtr
 <
 SharedBuffer
 >
@@ -602,7 +602,7 @@ CreateAudioSegment
 (
 nsTArray
 <
-already_AddRefed
+nsRefPtr
 <
 SharedBuffer
 >

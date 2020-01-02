@@ -715,6 +715,8 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
+&
 aNodeInfo
 FromParser
 aFromParser

@@ -248,6 +248,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
+&
 aNodeInfo
 )
 :
@@ -2097,7 +2098,7 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+already_AddRefed
 <
 nsINodeInfo
 >
@@ -2135,10 +2136,6 @@ new
 HTMLImageElement
 (
 nodeInfo
-.
-forget
-(
-)
 )
 ;
 if

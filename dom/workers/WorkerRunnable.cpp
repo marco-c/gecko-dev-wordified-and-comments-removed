@@ -1283,6 +1283,8 @@ already_AddRefed
 <
 nsIEventTarget
 >
+&
+&
 aSyncLoopTarget
 )
 :
@@ -1396,6 +1398,8 @@ already_AddRefed
 <
 nsIEventTarget
 >
+&
+&
 aSyncLoopTarget
 bool
 aResult
@@ -1404,7 +1408,10 @@ aResult
 WorkerSyncRunnable
 (
 aWorkerPrivate
+Move
+(
 aSyncLoopTarget
+)
 )
 mResult
 (

@@ -1830,6 +1830,8 @@ already_AddRefed
 <
 ChildImpl
 >
+&
+&
 aActor
 )
 :
@@ -1900,6 +1902,8 @@ already_AddRefed
 <
 ChildImpl
 >
+&
+&
 aActor
 Transport
 *
@@ -1910,7 +1914,10 @@ aProcessHandle
 :
 CreateCallbackRunnable
 (
+Move
+(
 aActor
+)
 )
 mTransport
 (
@@ -1998,6 +2005,8 @@ already_AddRefed
 <
 ChildImpl
 >
+&
+&
 aChildActor
 already_AddRefed
 <
@@ -2011,7 +2020,10 @@ aParentMessageLoop
 :
 CreateCallbackRunnable
 (
+Move
+(
 aChildActor
+)
 )
 mParentActor
 (
