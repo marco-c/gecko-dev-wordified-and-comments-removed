@@ -3449,6 +3449,13 @@ variables
 -
 tabpanel
 "
+class
+=
+"
+theme
+-
+body
+"
 >
 <
 vbox
@@ -3498,6 +3505,13 @@ id
 events
 -
 tabpanel
+"
+class
+=
+"
+theme
+-
+body
 "
 >
 <
