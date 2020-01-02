@@ -73,7 +73,6 @@ h
 "
 class
 nsThread
-MOZ_FINAL
 :
 public
 nsIThreadInternal
@@ -152,7 +151,7 @@ nsIThreadObserver
 aObserver
 )
 ;
-private
+protected
 :
 static
 nsIThreadObserver
@@ -173,6 +172,7 @@ friend
 class
 nsThreadShutdownEvent
 ;
+virtual
 ~
 nsThread
 (
