@@ -403,6 +403,11 @@ include
 search
 .
 js
+#
+include
+customize
+.
+js
 gPage
 .
 init
