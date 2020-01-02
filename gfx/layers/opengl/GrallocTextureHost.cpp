@@ -1561,10 +1561,13 @@ IsValid
 )
 )
 {
-uint32_t
+LayerRenderStateFlags
 flags
 =
-0
+LayerRenderStateFlags
+:
+:
+LAYER_RENDER_STATE_DEFAULT
 ;
 if
 (
