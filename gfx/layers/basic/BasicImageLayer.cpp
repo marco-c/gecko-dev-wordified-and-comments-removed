@@ -277,9 +277,6 @@ gfxASurface
 *
 *
 aSurface
-SurfaceDescriptor
-*
-aDescriptor
 )
 ;
 virtual
@@ -651,9 +648,6 @@ gfxASurface
 *
 *
 aSurface
-SurfaceDescriptor
-*
-aDescriptor
 )
 {
 if

@@ -278,9 +278,6 @@ gfxASurface
 *
 *
 aSurface
-SurfaceDescriptor
-*
-aDescriptor
 )
 {
 return
