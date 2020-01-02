@@ -77,6 +77,11 @@ return
 mScx
 ;
 }
+bool
+IsStackTop
+(
+)
+;
 private
 :
 mozilla
@@ -102,6 +107,9 @@ nsCOMPtr
 nsIScriptContext
 >
 mScx
+;
+uint32_t
+mStackDepthAfterPush
 ;
 #
 ifdef
