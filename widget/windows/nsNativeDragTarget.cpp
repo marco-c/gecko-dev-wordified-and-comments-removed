@@ -94,6 +94,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 widget
@@ -587,7 +591,7 @@ aPT
 nsEventStatus
 status
 ;
-nsDragEvent
+WidgetDragEvent
 event
 (
 true

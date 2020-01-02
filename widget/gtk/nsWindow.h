@@ -1614,7 +1614,10 @@ mTransparencyBitmap
 void
 InitDragEvent
 (
-nsDragEvent
+mozilla
+:
+:
+WidgetDragEvent
 &
 aEvent
 )

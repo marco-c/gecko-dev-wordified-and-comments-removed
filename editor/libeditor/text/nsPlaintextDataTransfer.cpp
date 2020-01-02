@@ -942,13 +942,13 @@ NS_ERROR_FAILURE
 )
 ;
 }
-nsDragEvent
+WidgetDragEvent
 *
 dragEventInternal
 =
 static_cast
 <
-nsDragEvent
+WidgetDragEvent
 *
 >
 (

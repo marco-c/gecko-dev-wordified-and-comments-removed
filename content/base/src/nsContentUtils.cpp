@@ -22572,7 +22572,7 @@ nsContentUtils
 :
 SetDataTransferInEvent
 (
-nsDragEvent
+WidgetDragEvent
 *
 aDragEvent
 )
@@ -23018,7 +23018,7 @@ CheckForSubFrameDrop
 nsIDragSession
 *
 aDragSession
-nsDragEvent
+WidgetDragEvent
 *
 aDropEvent
 )

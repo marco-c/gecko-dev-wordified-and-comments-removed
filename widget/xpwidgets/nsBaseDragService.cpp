@@ -1271,7 +1271,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsDragEvent
+WidgetDragEvent
 event
 (
 true

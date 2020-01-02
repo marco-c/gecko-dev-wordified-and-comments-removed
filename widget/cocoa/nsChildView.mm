@@ -31745,7 +31745,7 @@ set
 up
 gecko
 event
-nsDragEvent
+WidgetDragEvent
 geckoEvent
 (
 true

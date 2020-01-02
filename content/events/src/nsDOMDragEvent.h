@@ -221,7 +221,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsDragEvent
+mozilla
+:
+:
+WidgetDragEvent
 *
 aEvent
 )

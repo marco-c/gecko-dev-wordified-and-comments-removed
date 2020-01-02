@@ -12289,7 +12289,7 @@ uint32_t
 aMsg
 )
 {
-nsDragEvent
+WidgetDragEvent
 event
 (
 true

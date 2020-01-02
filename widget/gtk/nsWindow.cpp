@@ -13392,7 +13392,7 @@ guint
 aTime
 )
 {
-nsDragEvent
+WidgetDragEvent
 event
 (
 true
@@ -22939,7 +22939,7 @@ nsWindow
 :
 InitDragEvent
 (
-nsDragEvent
+WidgetDragEvent
 &
 aEvent
 )
