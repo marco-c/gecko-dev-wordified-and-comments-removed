@@ -2903,7 +2903,7 @@ INFO
 require_unix_environment
 '
 :
-True
+False
             
 '
 ensure_exit_code
