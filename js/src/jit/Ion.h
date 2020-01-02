@@ -184,6 +184,7 @@ baselineUsesBeforeCompile
 0
 ;
 }
+MOZ_CONSTEXPR
 IonOptions
 (
 )
