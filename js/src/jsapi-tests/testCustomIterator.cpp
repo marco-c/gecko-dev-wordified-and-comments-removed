@@ -342,11 +342,8 @@ n
 j
 ;
 "
+&
 result
-.
-address
-(
-)
 )
 ;
 CHECK

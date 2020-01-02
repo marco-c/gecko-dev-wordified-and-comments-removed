@@ -627,11 +627,8 @@ cx
 EVAL
 (
 funcode
+&
 v
-.
-address
-(
-)
 )
 ;
 EVAL
@@ -640,11 +637,8 @@ CALL_CODES
 [
 ArgCount
 ]
+&
 v
-.
-address
-(
-)
 )
 ;
 Rooted

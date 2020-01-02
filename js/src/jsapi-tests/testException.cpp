@@ -28,11 +28,8 @@ EVAL
 "
 ReferenceError
 "
+&
 fun
-.
-address
-(
-)
 )
 ;
 CHECK

@@ -34,11 +34,8 @@ EVAL
 /
 0
 "
+&
 v1
-.
-address
-(
-)
 )
 ;
 CHECK_SAME
@@ -59,11 +56,8 @@ no
 '
 )
 "
+&
 v2
-.
-address
-(
-)
 )
 ;
 CHECK_SAME

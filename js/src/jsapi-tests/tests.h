@@ -541,8 +541,10 @@ char
 filename
 int
 lineno
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 )
 ;

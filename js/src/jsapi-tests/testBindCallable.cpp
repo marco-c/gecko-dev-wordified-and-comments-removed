@@ -34,11 +34,8 @@ somename
 }
 )
 "
+&
 v
-.
-address
-(
-)
 )
 ;
 CHECK
@@ -75,11 +72,8 @@ somename
 }
 )
 "
+&
 func
-.
-address
-(
-)
 )
 ;
 CHECK

@@ -238,11 +238,8 @@ push
 )
 ;
 "
+&
 root
-.
-address
-(
-)
 )
 ;
 CHECK_EQUAL
