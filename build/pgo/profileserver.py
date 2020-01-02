@@ -451,8 +451,6 @@ interactive
 interactive
 )
     
-status
-=
 runner
 .
 wait
@@ -463,24 +461,6 @@ httpd
 .
 stop
 (
-)
-    
-if
-status
-!
-=
-0
-:
-        
-status
-=
-1
-    
-sys
-.
-exit
-(
-status
 )
   
 finally
