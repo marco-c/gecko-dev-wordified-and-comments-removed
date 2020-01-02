@@ -134,16 +134,3 @@ I
 CFLAGS
 )
 )
-%
--
-noinit
-.
-(
-OBJ_SUFFIX
-)
-:
-DEFINES
-+
-=
--
-DNOINIT
