@@ -133,12 +133,6 @@ defined
 (
 LINUX
 )
-|
-|
-defined
-(
-XP_MACOSX
-)
 #
 include
 <
@@ -774,12 +768,6 @@ ANDROID
 defined
 (
 LINUX
-)
-|
-|
-defined
-(
-XP_MACOSX
 )
 mTicksPerInterval
 =
