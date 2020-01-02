@@ -3177,7 +3177,7 @@ fp
 "
 block
 %
-d
+u
 "
 getSuccessor
 (
