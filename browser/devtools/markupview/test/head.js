@@ -114,6 +114,12 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 gDevTools
 .
 testing
