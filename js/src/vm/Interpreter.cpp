@@ -4489,9 +4489,11 @@ return
 JSTYPE_BOOLEAN
 ;
 }
-static
 bool
-EnterWith
+js
+:
+:
+EnterWithOperation
 (
 JSContext
 *
@@ -9129,7 +9131,7 @@ pc
 if
 (
 !
-EnterWith
+EnterWithOperation
 (
 cx
 REGS

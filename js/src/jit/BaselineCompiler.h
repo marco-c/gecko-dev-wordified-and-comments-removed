@@ -111,6 +111,16 @@ JSOP_POPNV
 \
 _
 (
+JSOP_ENTERWITH
+)
+\
+_
+(
+JSOP_LEAVEWITH
+)
+\
+_
+(
 JSOP_DUP
 )
 \
