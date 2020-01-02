@@ -8031,13 +8031,15 @@ deliveryStatus
 ;
 gMobileMessageDatabaseService
 .
-setMessageDeliveryStatusByEnvelopeId
+setMessageDeliveryByEnvelopeId
 (
 envelopeId
 address
+null
 deliveryStatus
 (
 function
+notifySetDeliveryResult
 (
 aRv
 aDomMessage
