@@ -2028,16 +2028,6 @@ IsScrollingActive
 )
 )
 ;
-nsDisplayListBuilder
-:
-:
-AutoInFixedPosSetter
-buildingInFixedPos
-(
-aBuilder
-false
-)
-;
 nsDisplayList
 childItems
 ;
