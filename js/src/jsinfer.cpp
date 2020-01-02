@@ -18944,13 +18944,11 @@ prior
 =
 proto
 ;
-JS_SET_TRACING_LOCATION
-(
 trc
+-
+>
+setTracingLocation
 (
-void
-*
-)
 &
 *
 prior

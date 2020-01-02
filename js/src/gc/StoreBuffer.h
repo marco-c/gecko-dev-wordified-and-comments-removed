@@ -68,9 +68,9 @@ h
 #
 include
 "
-js
+gc
 /
-MemoryMetrics
+Tracer
 .
 h
 "
@@ -79,7 +79,7 @@ include
 "
 js
 /
-Tracer
+MemoryMetrics
 .
 h
 "
@@ -207,13 +207,11 @@ p
 )
 return
 ;
-JS_SET_TRACING_LOCATION
-(
 trc
+-
+>
+setTracingLocation
 (
-void
-*
-)
 &
 *
 p

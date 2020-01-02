@@ -11631,9 +11631,11 @@ JSTracer
 trc
 )
 {
-JS_SET_TRACING_DETAILS
-(
 trc
+-
+>
+setTracingDetails
+(
 GetTraceName
 this
 0
@@ -11687,6 +11689,8 @@ trc
 -
 >
 debugPrintArg
+(
+)
 )
 ;
 }

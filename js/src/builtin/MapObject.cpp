@@ -3652,9 +3652,11 @@ hv
 this
 )
 ;
-JS_SET_TRACING_LOCATION
-(
 trc
+-
+>
+setTracingLocation
+(
 (
 void
 *

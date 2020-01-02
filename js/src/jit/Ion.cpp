@@ -2572,6 +2572,8 @@ trc
 -
 >
 runtime
+(
+)
 -
 >
 isHeapMinorCollecting
@@ -2587,6 +2589,8 @@ trc
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -2673,6 +2677,8 @@ trc
 -
 >
 runtime
+(
+)
 -
 >
 isHeapMinorCollecting
@@ -2695,6 +2701,8 @@ trc
 -
 >
 runtime
+(
+)
 -
 >
 jitRuntime
@@ -2789,6 +2797,8 @@ trc
 -
 >
 runtime
+(
+)
 script
 true
 )

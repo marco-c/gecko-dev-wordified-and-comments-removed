@@ -127,6 +127,15 @@ include
 "
 js
 /
+TracingAPI
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
@@ -191,9 +200,6 @@ nsInterfaceHashtable
 .
 h
 "
-struct
-JSTracer
-;
 struct
 PRLogModuleInfo
 ;

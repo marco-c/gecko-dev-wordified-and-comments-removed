@@ -132,6 +132,15 @@ include
 "
 js
 /
+TracingAPI
+.
+h
+"
+#
+include
+"
+js
+/
 Utility
 .
 h
@@ -154,9 +163,6 @@ Vector
 .
 h
 "
-struct
-JSTracer
-;
 namespace
 JS
 {

@@ -275,7 +275,7 @@ JSStructuredCloneReader
 struct
 JSStructuredCloneWriter
 ;
-struct
+class
 JSTracer
 ;
 class

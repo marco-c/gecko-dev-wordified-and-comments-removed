@@ -7,6 +7,15 @@ nsXULPrototypeDocument_h__
 #
 include
 "
+js
+/
+TracingAPI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -75,9 +84,6 @@ nsXULPrototypePI
 ;
 class
 nsXULPDGlobalObject
-;
-struct
-JSTracer
 ;
 namespace
 mozilla
