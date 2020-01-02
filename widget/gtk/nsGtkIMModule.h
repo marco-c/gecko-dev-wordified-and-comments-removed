@@ -462,6 +462,10 @@ nsGtkIMModule
 sLastFocusedModule
 ;
 static
+bool
+sUseSimpleContext
+;
+static
 gboolean
 OnRetrieveSurroundingCallback
 (
