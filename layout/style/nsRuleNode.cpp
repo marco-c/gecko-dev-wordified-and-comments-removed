@@ -16707,6 +16707,12 @@ if
 fontSize
 >
 0
+&
+&
+aFont
+-
+>
+mAllowZoom
 )
 {
 nscoord
