@@ -295,6 +295,11 @@ testLooselyEqual
 cpp
 '
 '
+testMappedArrayBuffer
+.
+cpp
+'
+'
 testNewObject
 .
 cpp
