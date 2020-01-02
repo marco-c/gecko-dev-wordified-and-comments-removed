@@ -636,6 +636,11 @@ DrawTargetRecording
 cpp
 '
 '
+DrawTargetTiled
+.
+cpp
+'
+'
 Factory
 .
 cpp
