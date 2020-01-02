@@ -233,11 +233,6 @@ nsIRecentBadCertsService
 idl
 '
 '
-nsISignatureVerifier
-.
-idl
-'
-'
 nsISSLErrorListener
 .
 idl
