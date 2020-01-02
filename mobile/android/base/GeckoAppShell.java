@@ -1055,13 +1055,6 @@ sVibrationEndTime
 ;
 private
 static
-int
-sDefaultSensorHint
-=
-100
-;
-private
-static
 Sensor
 gAccelerometerSensor
 ;
@@ -3475,7 +3468,9 @@ getSensorEventListener
 (
 )
 gOrientationSensor
-sDefaultSensorHint
+SensorManager
+.
+SENSOR_DELAY_GAME
 )
 ;
 break
@@ -3520,7 +3515,9 @@ getSensorEventListener
 (
 )
 gAccelerometerSensor
-sDefaultSensorHint
+SensorManager
+.
+SENSOR_DELAY_GAME
 )
 ;
 break
@@ -3657,7 +3654,9 @@ getSensorEventListener
 (
 )
 gLinearAccelerometerSensor
-sDefaultSensorHint
+SensorManager
+.
+SENSOR_DELAY_GAME
 )
 ;
 break
@@ -3702,7 +3701,9 @@ getSensorEventListener
 (
 )
 gGyroscopeSensor
-sDefaultSensorHint
+SensorManager
+.
+SENSOR_DELAY_GAME
 )
 ;
 break
