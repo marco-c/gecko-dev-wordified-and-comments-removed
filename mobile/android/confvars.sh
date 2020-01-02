@@ -289,11 +289,15 @@ libraries
 MOZ_NATIVE_DEVICES
 =
 #
-Enable
+Don
+'
+t
+enable
 the
 Search
 Activity
 .
+#
 MOZ_ANDROID_SEARCH_ACTIVITY
 =
 1
