@@ -3093,6 +3093,12 @@ mZoom
 =
 defaultZoom
 ;
+metrics
+.
+mScrollId
+=
+viewId
+;
 }
 metrics
 .
