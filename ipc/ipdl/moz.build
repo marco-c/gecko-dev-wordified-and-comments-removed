@@ -132,3 +132,16 @@ FINAL_LIBRARY
 '
 xul
 '
+GENERATED_INCLUDES
++
+=
+[
+'
+/
+ipc
+/
+ipdl
+/
+_ipdlheaders
+'
+]
