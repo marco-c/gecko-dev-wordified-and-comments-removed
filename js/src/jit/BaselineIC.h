@@ -19509,6 +19509,14 @@ cx
 )
 )
 ;
+if
+(
+!
+type
+)
+return
+nullptr
+;
 RootedShape
 newShape
 (
