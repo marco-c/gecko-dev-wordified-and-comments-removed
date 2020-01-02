@@ -45,6 +45,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 HardwareUtils
@@ -213,6 +224,7 @@ private
 Decor
 mDecor
 ;
+RobocopTarget
 public
 enum
 Page

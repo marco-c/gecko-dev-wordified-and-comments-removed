@@ -126,6 +126,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 EventDispatcher
@@ -13257,6 +13268,7 @@ aListId
 ;
 }
 WrapElementForJNI
+RobocopTarget
 public
 static
 boolean

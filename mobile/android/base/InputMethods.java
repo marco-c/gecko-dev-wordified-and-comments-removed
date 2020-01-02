@@ -6,6 +6,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+mozglue
+.
+RobocopTarget
+;
+import
 android
 .
 content
@@ -520,6 +531,7 @@ inputMethod
 )
 ;
 }
+RobocopTarget
 public
 static
 boolean
