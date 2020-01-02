@@ -367,6 +367,10 @@ ok
 ;
 #
 endif
+Clear
+(
+)
+;
 }
 bool
 MessageChannel
