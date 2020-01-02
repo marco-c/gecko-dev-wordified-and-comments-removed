@@ -192,15 +192,6 @@ nsXMLBinding
 aBinding
 )
 ;
-private
-:
-~
-nsXMLBindingSet
-(
-)
-{
-}
-;
 }
 ;
 class
