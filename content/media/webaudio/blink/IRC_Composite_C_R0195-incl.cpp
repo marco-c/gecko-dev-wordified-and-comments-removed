@@ -84060,8 +84060,8 @@ irc_composite_c_r0195_p090
 }
 }
 ;
-const
 struct
+Elevation
 {
 const
 int16_t
@@ -84077,6 +84077,9 @@ int
 count
 ;
 }
+;
+const
+Elevation
 irc_composite_c_r0195
 [
 ]
