@@ -231,9 +231,6 @@ features
 :
 [
 '
-jank
-'
-'
 js
 '
 ]

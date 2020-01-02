@@ -230,6 +230,11 @@ TableTicker
 cpp
 '
 '
+ThreadResponsiveness
+.
+cpp
+'
+'
 UnwinderThread2
 .
 cpp
