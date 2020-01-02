@@ -101,6 +101,10 @@ nsIProtocolHandler
 {
 public
 :
+nsHostObjectProtocolHandler
+(
+)
+;
 virtual
 ~
 nsHostObjectProtocolHandler
