@@ -534,6 +534,11 @@ FunctionEnvironment
 \
 _
 (
+FilterTypeSet
+)
+\
+_
+(
 TypeBarrier
 )
 \
