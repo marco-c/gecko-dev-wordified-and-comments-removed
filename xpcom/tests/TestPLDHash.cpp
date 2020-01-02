@@ -257,7 +257,7 @@ PL_DHASH_MAX_SIZE
 PL_DHASH_MAX_SIZE
 >
 >
-2
+5
 )
 ;
 }
