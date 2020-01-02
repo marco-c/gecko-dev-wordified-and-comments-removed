@@ -246,6 +246,15 @@ nsCycleCollectionTraversalCallback
 aCallback
 )
 ;
+private
+:
+static
+void
+Init
+(
+void
+)
+;
 }
 ;
 class
