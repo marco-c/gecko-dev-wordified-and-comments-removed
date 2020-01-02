@@ -2511,7 +2511,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
-CertVerifier
+SharedCertVerifier
 >
 certVerifier
 (
@@ -3427,7 +3427,7 @@ proofOfLock
 {
 RefPtr
 <
-CertVerifier
+SharedCertVerifier
 >
 certVerifier
 (
@@ -6044,7 +6044,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 RefPtr
 <
-CertVerifier
+SharedCertVerifier
 >
 certVerifier
 (
@@ -7554,7 +7554,7 @@ GetCert
 ;
 RefPtr
 <
-CertVerifier
+SharedCertVerifier
 >
 certVerifier
 (
