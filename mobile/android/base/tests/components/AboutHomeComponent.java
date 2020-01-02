@@ -245,14 +245,7 @@ page
 is
 "
 +
-Page
-.
-values
-(
-)
-[
-expectedPageIndex
-]
+expectedPage
 expectedPageIndex
 getHomePagerView
 (
