@@ -99,6 +99,8 @@ event
 #
 ifdef
 OMIT_ACCESSKEYS
+#
+expand
 onpopupshowing
 =
 "
@@ -107,11 +109,16 @@ CharsetMenu
 build
 (
 event
+'
+__ID_PREFIX__
+'
 )
 ;
 "
 #
 else
+#
+expand
 onpopupshowing
 =
 "
@@ -120,6 +127,9 @@ CharsetMenu
 build
 (
 event
+'
+__ID_PREFIX__
+'
 true
 )
 ;

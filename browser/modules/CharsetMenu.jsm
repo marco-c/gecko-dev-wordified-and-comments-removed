@@ -292,7 +292,13 @@ function
 BuildCharsetMenu
 (
 event
+idPrefix
+=
+"
+"
 showAccessKeys
+=
+false
 )
 {
 let
@@ -444,6 +450,8 @@ setAttribute
 "
 id
 "
+idPrefix
++
 "
 charset
 .
