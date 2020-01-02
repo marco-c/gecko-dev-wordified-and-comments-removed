@@ -1895,6 +1895,7 @@ GetAnimatedGeometryRootFor
 (
 aContainerItem
 aBuilder
+aManager
 )
 :
 mContainerReferenceFrame
@@ -1911,7 +1912,7 @@ aContainerItem
 >
 ShouldFixToViewport
 (
-aBuilder
+aManager
 )
 "
 Container
@@ -11101,6 +11102,7 @@ GetAnimatedGeometryRootFor
 (
 item
 mBuilder
+mManager
 )
 ;
 return
@@ -12097,6 +12099,7 @@ GetAnimatedGeometryRootFor
 (
 item
 mBuilder
+mManager
 )
 ;
 }
@@ -12148,7 +12151,7 @@ item
 >
 ShouldFixToViewport
 (
-mBuilder
+mManager
 )
 ;
 if

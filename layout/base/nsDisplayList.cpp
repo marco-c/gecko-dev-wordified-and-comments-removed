@@ -16638,6 +16638,7 @@ GetAnimatedGeometryRootFor
 (
 i
 aBuilder
+aManager
 )
 !
 =
@@ -17723,6 +17724,7 @@ GetAnimatedGeometryRootFor
 (
 this
 aBuilder
+aManager
 )
 )
 ;

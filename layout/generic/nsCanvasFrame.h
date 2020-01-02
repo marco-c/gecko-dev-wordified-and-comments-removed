@@ -924,9 +924,9 @@ virtual
 bool
 ShouldFixToViewport
 (
-nsDisplayListBuilder
+LayerManager
 *
-aBuilder
+aManager
 )
 MOZ_OVERRIDE
 {
