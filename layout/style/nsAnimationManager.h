@@ -358,6 +358,9 @@ css
 CommonElementAnimationData
 *
 aEA
+mozilla
+:
+:
 TimeStamp
 aRefreshTime
 EventArray
