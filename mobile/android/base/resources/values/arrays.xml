@@ -720,7 +720,7 @@ item
 >
 string
 /
-pref_private_data_history
+pref_private_data_history2
 <
 /
 item
@@ -730,7 +730,7 @@ item
 >
 string
 /
-pref_private_data_downloadFiles
+pref_private_data_downloadFiles2
 <
 /
 item
@@ -898,7 +898,7 @@ private
 .
 data
 .
-history_downloads
+history
 <
 /
 item

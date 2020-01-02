@@ -437,13 +437,10 @@ data
 "
 "
 Browsing
-&
-download
 history
 "
 "
-Downloaded
-files
+Downloads
 "
 "
 Form
