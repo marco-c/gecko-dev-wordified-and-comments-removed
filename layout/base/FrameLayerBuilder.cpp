@@ -18987,12 +18987,6 @@ data
 ;
 data
 .
-mDeprecatedSurface
-=
-nullptr
-;
-data
-.
 mSize
 =
 surfaceSizeInt

@@ -146,16 +146,6 @@ GetBuffer
 MOZ_OVERRIDE
 ;
 virtual
-already_AddRefed
-<
-gfxASurface
->
-DeprecatedGetAsSurface
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 TemporaryRef
 <
 gfx

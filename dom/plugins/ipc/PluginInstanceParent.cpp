@@ -2798,12 +2798,6 @@ cairoData
 ;
 cairoData
 .
-mDeprecatedSurface
-=
-surface
-;
-cairoData
-.
 mSize
 =
 surface

@@ -221,14 +221,6 @@ REMOTE_IMAGE_DXGI_TEXTURE
 )
 {
 }
-already_AddRefed
-<
-gfxASurface
->
-DeprecatedGetAsSurface
-(
-)
-;
 virtual
 TemporaryRef
 <
