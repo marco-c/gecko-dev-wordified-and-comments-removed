@@ -1574,7 +1574,7 @@ return
 &
 FilteringWrapper
 <
-SecurityXrayDOM
+CrossOriginXrayWrapper
 CrossOriginAccessiblePropertiesOnly
 >
 :
