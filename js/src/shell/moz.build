@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+if
+CONFIG
+[
+'
+JS_SHELL_NAME
+'
+]
+:
 PROGRAM
 =
 CONFIG

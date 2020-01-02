@@ -497,6 +497,16 @@ py
 '
 tools
 /
+docs
+/
+mach_commands
+.
+py
+'
+    
+'
+tools
+/
 mercurial
 /
 mach_commands

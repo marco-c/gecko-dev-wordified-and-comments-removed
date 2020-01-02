@@ -93,6 +93,16 @@ MPL
 0
 /
 .
+SPHINX_TREES
+[
+'
+build
+'
+]
+=
+'
+docs
+'
 if
 CONFIG
 [

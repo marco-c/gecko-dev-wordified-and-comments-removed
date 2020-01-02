@@ -262,6 +262,13 @@ elif
 CONFIG
 [
 '
+ANDROID_VERSION
+'
+]
+and
+CONFIG
+[
+'
 COMPILE_ENVIRONMENT
 '
 ]
