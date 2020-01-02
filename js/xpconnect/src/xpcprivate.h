@@ -3700,13 +3700,6 @@ getElement
 nullptr
 /
 *
-getElementIfPresent
-*
-/
-\
-nullptr
-/
-*
 getSpecial
 *
 /
@@ -3869,13 +3862,6 @@ nullptr
 /
 *
 getElement
-*
-/
-\
-nullptr
-/
-*
-getElementIfPresent
 *
 /
 \
