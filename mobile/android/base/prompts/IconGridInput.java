@@ -572,6 +572,16 @@ mSelected
 =
 position
 ;
+notifyListeners
+(
+Integer
+.
+toString
+(
+position
+)
+)
+;
 }
 Override
 public
