@@ -1508,9 +1508,7 @@ iface
 cStats
 -
 >
-objectsExtra
-.
-private_
+objectsPrivate
 +
 =
 opv
