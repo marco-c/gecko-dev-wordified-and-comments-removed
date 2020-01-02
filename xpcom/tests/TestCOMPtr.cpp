@@ -616,8 +616,9 @@ aIID
 .
 Equals
 (
-GetIID
+NS_GET_IID
 (
+IFoo
 )
 )
 )
@@ -1043,8 +1044,9 @@ aIID
 .
 Equals
 (
-GetIID
+NS_GET_IID
 (
+IBar
 )
 )
 )

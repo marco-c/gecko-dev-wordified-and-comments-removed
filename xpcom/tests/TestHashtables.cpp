@@ -1540,8 +1540,9 @@ aIID
 .
 Equals
 (
-GetIID
+NS_GET_IID
 (
+IFoo
 )
 )
 )
