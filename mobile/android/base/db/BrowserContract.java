@@ -2980,16 +2980,6 @@ public
 static
 final
 String
-DISPLAY
-=
-"
-display
-"
-;
-public
-static
-final
-String
 TYPE
 =
 "
