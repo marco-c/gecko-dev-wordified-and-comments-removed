@@ -267,6 +267,11 @@ GLContext
 h
 '
 '
+GLContextEGL
+.
+h
+'
+'
 GLContextProvider
 .
 h
