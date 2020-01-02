@@ -1422,7 +1422,7 @@ geolocate
 key
 =
 %
-MOZ_MOZILLA_API_KEY
+MOZILLA_API_KEY
 %
 "
 )
