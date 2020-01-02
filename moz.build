@@ -154,9 +154,6 @@ build
 probes
 '
 '
-mfbt
-'
-'
 python
 '
 ]
@@ -170,6 +167,17 @@ LIBXUL_SDK
 '
 ]
 :
+add_tier_dir
+(
+'
+base
+'
+[
+'
+mfbt
+'
+]
+)
 if
 CONFIG
 [
