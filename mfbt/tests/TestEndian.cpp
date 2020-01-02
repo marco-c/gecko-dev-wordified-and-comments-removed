@@ -2560,7 +2560,10 @@ buffer
 [
 0
 ]
+int16_t
+(
 0xf2f1
+)
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -2597,7 +2600,10 @@ buffer
 [
 0
 ]
+int16_t
+(
 0xf1f2
+)
 )
 ;
 MOZ_RELEASE_ASSERT
