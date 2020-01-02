@@ -579,6 +579,14 @@ DOMString
 ?
 key
 ;
+void
+init
+(
+optional
+ContactProperties
+properties
+)
+;
 [
 ChromeOnly
 ]
