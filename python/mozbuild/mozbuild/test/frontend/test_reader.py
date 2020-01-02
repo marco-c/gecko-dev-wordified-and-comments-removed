@@ -1987,7 +1987,7 @@ foobar
 foobar
 '
 '
-bazbar
+foobar
 '
 ]
 )

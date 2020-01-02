@@ -1085,7 +1085,7 @@ func
 0
 ]
 )
-        
+            
 extra_vars
 =
 self
@@ -1101,7 +1101,7 @@ dict
 (
 )
 )
-        
+            
 self
 .
 _globals
