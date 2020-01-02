@@ -767,6 +767,15 @@ JSTracer
 trc
 )
 ;
+JSCompartment
+*
+TopmostIonActivationCompartment
+(
+JSRuntime
+*
+rt
+)
+;
 #
 ifdef
 JSGC_GENERATIONAL
