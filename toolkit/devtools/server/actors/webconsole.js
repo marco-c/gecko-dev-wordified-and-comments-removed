@@ -295,6 +295,12 @@ Map
 ;
 this
 .
+_gripDepth
+=
+0
+;
+this
+.
 _onObserverNotification
 =
 this
@@ -368,6 +374,9 @@ prototype
 =
 {
 dbg
+:
+null
+_gripDepth
 :
 null
 _actorPool

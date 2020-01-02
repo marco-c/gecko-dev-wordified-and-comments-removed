@@ -93,5 +93,8 @@ getProperty
 hasSafeGetter
 :
 hasSafeGetter
+isSafeJSObject
+:
+isSafeJSObject
 }
 ;
