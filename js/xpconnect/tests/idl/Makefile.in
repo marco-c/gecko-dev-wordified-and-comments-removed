@@ -89,10 +89,8 @@ xpidl
 xpt
 /
 (
-MODULE
+XPT_NAME
 )
-.
-xpt
 (
 INSTALL
 )

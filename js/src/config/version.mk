@@ -190,17 +190,6 @@ DEBUG
 1
 endif
 ifdef
-MODULE
-_RC_STRING
-+
-=
--
-MODNAME
-(
-MODULE
-)
-endif
-ifdef
 PROGRAM
 _RC_STRING
 +
