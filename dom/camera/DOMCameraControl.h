@@ -530,6 +530,11 @@ ErrorResult
 aRv
 )
 ;
+int32_t
+SensorAngle
+(
+)
+;
 already_AddRefed
 <
 nsICameraShutterCallback
