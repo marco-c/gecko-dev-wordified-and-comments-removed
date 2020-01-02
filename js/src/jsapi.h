@@ -19191,7 +19191,7 @@ JS_PUBLIC_API
 (
 void
 )
-JS_SetParallelIonCompilationEnabled
+JS_SetOffthreadIonCompilationEnabled
 (
 JSRuntime
 *
@@ -19253,9 +19253,9 @@ enable
 \
 Register
 (
-PARALLEL_COMPILATION_ENABLE
+OFFTHREAD_COMPILATION_ENABLE
 "
-parallel
+offthread
 -
 compilation
 .

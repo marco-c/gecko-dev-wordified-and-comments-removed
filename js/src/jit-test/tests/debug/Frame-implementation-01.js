@@ -223,7 +223,7 @@ baseline
 }
 ]
 [
-Opts_Ion2NoParallelCompilation
+Opts_Ion2NoOffthreadCompilation
 function
 (
 f

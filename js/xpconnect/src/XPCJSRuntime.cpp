@@ -6479,7 +6479,7 @@ parallel_parsing
 )
 ;
 bool
-parallelIonCompilation
+offthreadIonCompilation
 =
 Preferences
 :
@@ -6490,7 +6490,7 @@ JS_OPTIONS_DOT_STR
 "
 ion
 .
-parallel_compilation
+offthread_compilation
 "
 )
 ;
@@ -6573,10 +6573,10 @@ rt
 parallelParsing
 )
 ;
-JS_SetParallelIonCompilationEnabled
+JS_SetOffthreadIonCompilationEnabled
 (
 rt
-parallelIonCompilation
+offthreadIonCompilation
 )
 ;
 JS_SetGlobalJitCompilerOption
