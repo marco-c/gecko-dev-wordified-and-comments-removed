@@ -342,7 +342,7 @@ void
 *
 aClosure
 =
-NULL
+nullptr
 )
 ;
 void
@@ -359,7 +359,7 @@ void
 *
 aClosure
 =
-NULL
+nullptr
 )
 ;
 nsHashtable
@@ -617,7 +617,7 @@ void
 *
 aClosure
 =
-NULL
+nullptr
 )
 {
 nsHashtable

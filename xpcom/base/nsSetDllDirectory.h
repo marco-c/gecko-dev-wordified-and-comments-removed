@@ -58,7 +58,7 @@ L
 "
 PATH
 "
-NULL
+nullptr
 0
 )
 ;
@@ -100,7 +100,7 @@ bufferSize
 ExpandEnvironmentStringsW
 (
 originalPath
-NULL
+nullptr
 0
 )
 ;

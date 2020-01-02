@@ -112,11 +112,11 @@ NativeLoadData
 :
 module
 (
-NULL
+nullptr
 )
 library
 (
-NULL
+nullptr
 )
 {
 }

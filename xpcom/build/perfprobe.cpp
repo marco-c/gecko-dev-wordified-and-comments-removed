@@ -899,8 +899,8 @@ LPGUID
 mApplicationUID
 probesCount
 probes
-NULL
-NULL
+nullptr
+nullptr
 &
 mRegistrationHandle
 )

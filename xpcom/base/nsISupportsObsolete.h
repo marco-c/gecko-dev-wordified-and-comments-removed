@@ -517,7 +517,7 @@ _iface
 \
 if
 (
-NULL
+nullptr
 !
 =
 (

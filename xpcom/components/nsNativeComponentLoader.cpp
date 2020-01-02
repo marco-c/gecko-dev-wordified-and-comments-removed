@@ -276,7 +276,7 @@ file
 )
 mResult
 (
-NULL
+nullptr
 )
 {
 }
@@ -357,7 +357,7 @@ JARs
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr
@@ -438,7 +438,7 @@ nsIHashable
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 nsAutoCString
@@ -615,7 +615,7 @@ errorMsg
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 #
@@ -770,7 +770,7 @@ library
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 data
@@ -864,7 +864,7 @@ library
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 mLibraries

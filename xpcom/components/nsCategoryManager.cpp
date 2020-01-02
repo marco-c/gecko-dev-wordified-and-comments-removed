@@ -906,7 +906,7 @@ _retval
 *
 _retval
 =
-NULL
+nullptr
 ;
 MutexAutoLock
 lock
@@ -2242,7 +2242,7 @@ aOldValue
 *
 aOldValue
 =
-NULL
+nullptr
 ;
 CategoryNode
 *

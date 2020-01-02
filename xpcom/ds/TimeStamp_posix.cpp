@@ -1204,7 +1204,7 @@ mibLen
 proc
 &
 bufferSize
-NULL
+nullptr
 0
 )
 ;

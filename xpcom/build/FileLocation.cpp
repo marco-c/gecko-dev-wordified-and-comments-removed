@@ -338,7 +338,7 @@ file
 {
 mBaseZip
 =
-NULL
+nullptr
 ;
 mBaseFile
 =
@@ -368,7 +368,7 @@ path
 {
 mBaseZip
 =
-NULL
+nullptr
 ;
 mBaseFile
 =
@@ -400,7 +400,7 @@ zip
 ;
 mBaseFile
 =
-NULL
+nullptr
 ;
 mPath
 =

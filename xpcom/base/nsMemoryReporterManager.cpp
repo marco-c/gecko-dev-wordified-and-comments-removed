@@ -871,7 +871,7 @@ miblen
 aProc
 &
 size
-NULL
+nullptr
 0
 )
 )
@@ -1055,7 +1055,7 @@ prxmap_t
 *
 prmapp
 =
-NULL
+nullptr
 ;
 if
 (

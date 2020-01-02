@@ -283,7 +283,7 @@ XPCOM_CC_LOG_ALL
 )
 !
 =
-NULL
+nullptr
 )
 mLogShutdown
 (
@@ -295,7 +295,7 @@ XPCOM_CC_LOG_SHUTDOWN
 )
 !
 =
-NULL
+nullptr
 )
 mAllTracesAtShutdown
 (
@@ -307,7 +307,7 @@ XPCOM_CC_ALL_TRACES_AT_SHUTDOWN
 )
 !
 =
-NULL
+nullptr
 )
 {
 }

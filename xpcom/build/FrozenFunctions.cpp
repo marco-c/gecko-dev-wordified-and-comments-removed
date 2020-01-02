@@ -136,7 +136,7 @@ NS_CStringContainerInit2
 NS_StringGetMutableData
 &
 NS_CStringGetMutableData
-NULL
+nullptr
 &
 NS_DebugBreak
 &

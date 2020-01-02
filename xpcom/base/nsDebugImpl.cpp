@@ -322,7 +322,7 @@ char
 *
 sMultiprocessDescription
 =
-NULL
+nullptr
 ;
 static
 Atomic
@@ -655,7 +655,7 @@ mibSize
 info
 &
 infoSize
-NULL
+nullptr
 0
 )
 )
@@ -2112,7 +2112,7 @@ MAX_PATH
 )
 &
 &
-NULL
+nullptr
 !
 =
 (
@@ -2129,7 +2129,7 @@ executable
 )
 &
 &
-NULL
+nullptr
 !
 =
 wcscpy
@@ -2160,14 +2160,14 @@ executable
 LPWSTR
 )
 msgCopy
-NULL
-NULL
+nullptr
+nullptr
 false
 DETACHED_PROCESS
 |
 NORMAL_PRIORITY_CLASS
-NULL
-NULL
+nullptr
+nullptr
 &
 si
 &

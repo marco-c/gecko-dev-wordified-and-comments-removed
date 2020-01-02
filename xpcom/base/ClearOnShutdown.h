@@ -103,7 +103,7 @@ mPtr
 *
 mPtr
 =
-NULL
+nullptr
 ;
 }
 }

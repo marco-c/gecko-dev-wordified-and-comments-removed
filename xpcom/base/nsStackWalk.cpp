@@ -287,7 +287,7 @@ info
 dli_sname
 =
 =
-NULL
+nullptr
 |
 |
 strcmp
@@ -569,7 +569,7 @@ gCriticalAddress
 mAddr
 !
 =
-NULL
+nullptr
 )
 ;
 MOZ_ASSERT
@@ -915,7 +915,7 @@ FORMAT_MESSAGE_ALLOCATE_BUFFER
 FORMAT_MESSAGE_FROM_SYSTEM
 |
 FORMAT_MESSAGE_IGNORE_INSERTS
-NULL
+nullptr
 lastErr
 MAKELANGID
 (
@@ -928,7 +928,7 @@ LPSTR
 &
 lpMsgBuf
 0
-NULL
+nullptr
 )
 ;
 fprintf
@@ -996,10 +996,10 @@ readyEvent
 :
 CreateEvent
 (
-NULL
+nullptr
 FALSE
 FALSE
-NULL
+nullptr
 )
 ;
 unsigned
@@ -1014,7 +1014,7 @@ HANDLE
 )
 _beginthreadex
 (
-NULL
+nullptr
 0
 WalkStackThread
 (
@@ -1036,7 +1036,7 @@ if
 hStackWalkThread
 =
 =
-NULL
+nullptr
 )
 {
 PrintError
@@ -1427,7 +1427,7 @@ myThread
 frame64
 &
 context
-NULL
+nullptr
 SymFunctionTableAccess64
 SymGetModuleBase64
 0
@@ -1652,7 +1652,7 @@ PeekMessage
 (
 &
 msg
-NULL
+nullptr
 WM_USER
 WM_USER
 PM_NOREMOVE
@@ -1879,7 +1879,7 @@ static
 HANDLE
 myProcess
 =
-NULL
+nullptr
 ;
 HANDLE
 myThread
@@ -2259,10 +2259,10 @@ eventStart
 :
 CreateEvent
 (
-NULL
+nullptr
 FALSE
 FALSE
-NULL
+nullptr
 )
 ;
 data
@@ -2273,10 +2273,10 @@ eventEnd
 :
 CreateEvent
 (
-NULL
+nullptr
 FALSE
 FALSE
-NULL
+nullptr
 )
 ;
 :
@@ -2625,12 +2625,12 @@ SymLoadModule64
 GetCurrentProcess
 (
 )
-NULL
+nullptr
 (
 PSTR
 )
 aModuleName
-NULL
+nullptr
 aModuleBase
 aModuleSize
 )
@@ -2901,7 +2901,7 @@ SymInitialize
 GetCurrentProcess
 (
 )
-NULL
+nullptr
 TRUE
 )
 ;
@@ -3951,7 +3951,7 @@ RTLD_LAZY
 )
 !
 =
-NULL
+nullptr
 )
 {
 demf
@@ -4217,7 +4217,7 @@ ptr
 >
 next
 =
-NULL
+nullptr
 ;
 ptr
 -
@@ -4357,7 +4357,7 @@ fp
 -
 >
 fr_savpc
-NULL
+nullptr
 usrarg
 )
 !
@@ -5410,7 +5410,7 @@ callback
 )
 (
 pc
-NULL
+nullptr
 info
 -
 >

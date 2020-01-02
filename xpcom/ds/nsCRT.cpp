@@ -294,7 +294,7 @@ str
 =
 result
 ?
-NULL
+nullptr
 :
 result
 ;
@@ -546,7 +546,7 @@ haystackLen
 )
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -608,7 +608,7 @@ i
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 int64_t

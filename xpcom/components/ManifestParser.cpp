@@ -270,7 +270,7 @@ nsComponentManagerImpl
 :
 :
 ManifestManifest
-NULL
+nullptr
 }
 {
 "
@@ -288,7 +288,7 @@ nsComponentManagerImpl
 :
 :
 ManifestBinaryComponent
-NULL
+nullptr
 }
 {
 "
@@ -304,7 +304,7 @@ nsComponentManagerImpl
 :
 :
 ManifestXPT
-NULL
+nullptr
 }
 {
 "
@@ -320,7 +320,7 @@ nsComponentManagerImpl
 :
 :
 ManifestComponent
-NULL
+nullptr
 }
 {
 "
@@ -336,7 +336,7 @@ nsComponentManagerImpl
 :
 :
 ManifestContract
-NULL
+nullptr
 true
 }
 {
@@ -353,7 +353,7 @@ nsComponentManagerImpl
 :
 :
 ManifestCategory
-NULL
+nullptr
 }
 {
 "
@@ -364,7 +364,7 @@ true
 true
 true
 true
-NULL
+nullptr
 &
 nsChromeRegistry
 :
@@ -380,7 +380,7 @@ true
 true
 true
 false
-NULL
+nullptr
 &
 nsChromeRegistry
 :
@@ -396,7 +396,7 @@ false
 true
 true
 false
-NULL
+nullptr
 &
 nsChromeRegistry
 :
@@ -412,7 +412,7 @@ true
 true
 false
 false
-NULL
+nullptr
 &
 nsChromeRegistry
 :
@@ -428,7 +428,7 @@ false
 true
 false
 false
-NULL
+nullptr
 &
 nsChromeRegistry
 :
@@ -444,7 +444,7 @@ true
 true
 true
 false
-NULL
+nullptr
 &
 nsChromeRegistry
 :
@@ -460,7 +460,7 @@ true
 true
 false
 false
-NULL
+nullptr
 &
 nsChromeRegistry
 :
@@ -2318,7 +2318,7 @@ ManifestDirective
 *
 directive
 =
-NULL
+nullptr
 ;
 for
 (
@@ -2631,7 +2631,7 @@ false
 ;
 while
 (
-NULL
+nullptr
 !
 =
 (

@@ -47,7 +47,7 @@ Void
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -99,7 +99,7 @@ Void
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -150,7 +150,7 @@ nsSimpleRef
 :
 mRawRef
 (
-NULL
+nullptr
 )
 {
 }
@@ -176,7 +176,7 @@ return
 mRawRef
 !
 =
-NULL
+nullptr
 &
 &
 mRawRef
@@ -210,7 +210,7 @@ if
 aRawRef
 !
 =
-NULL
+nullptr
 &
 &
 aRawRef
@@ -253,7 +253,7 @@ Void
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static

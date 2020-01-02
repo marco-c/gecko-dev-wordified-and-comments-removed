@@ -843,7 +843,7 @@ aFile
 :
 mModule
 (
-NULL
+nullptr
 )
 mFile
 (
@@ -851,7 +851,7 @@ aFile
 )
 mLoader
 (
-NULL
+nullptr
 )
 mLoaded
 (
