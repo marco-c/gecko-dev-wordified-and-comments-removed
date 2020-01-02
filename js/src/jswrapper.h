@@ -1275,6 +1275,14 @@ cx
 JSObject
 *
 parent
+const
+ProxyOptions
+&
+options
+=
+ProxyOptions
+(
+)
 )
 ;
 void
