@@ -1986,7 +1986,7 @@ if
 aInitData
 -
 >
-mIsDragPopup
+mMouseTransparent
 )
 {
 [

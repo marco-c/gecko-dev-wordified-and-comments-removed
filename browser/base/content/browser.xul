@@ -2291,6 +2291,11 @@ consumeoutsideclicks
 "
 false
 "
+mousethrough
+=
+"
+always
+"
 >
 <
 box

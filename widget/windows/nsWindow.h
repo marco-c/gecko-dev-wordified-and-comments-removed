@@ -2506,6 +2506,9 @@ mTaskbarPreview
 bool
 mHasTaskbarIconBeenCreated
 ;
+bool
+mMouseTransparent
+;
 TimeStamp
 mLastPaintEndTime
 ;

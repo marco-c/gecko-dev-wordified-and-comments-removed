@@ -158,6 +158,10 @@ mSupportTranslucency
 (
 false
 )
+mMouseTransparent
+(
+false
+)
 {
 }
 nsWindowType
@@ -197,6 +201,9 @@ mIsAnimationSuppressed
 ;
 bool
 mSupportTranslucency
+;
+bool
+mMouseTransparent
 ;
 }
 ;
