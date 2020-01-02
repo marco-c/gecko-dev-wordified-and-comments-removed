@@ -1206,7 +1206,7 @@ blobSet
 uint32_t
 length
 ;
-JS_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 JS_GetArrayLength
 (
