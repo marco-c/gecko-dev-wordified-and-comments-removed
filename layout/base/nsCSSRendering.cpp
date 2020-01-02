@@ -1544,13 +1544,6 @@ InlineBackgroundData
 (
 )
 ;
-nsCSSBorderRenderer
-:
-:
-Init
-(
-)
-;
 }
 void
 nsCSSRendering
@@ -1566,13 +1559,6 @@ gInlineBGData
 gInlineBGData
 =
 nullptr
-;
-nsCSSBorderRenderer
-:
-:
-Shutdown
-(
-)
 ;
 }
 static
