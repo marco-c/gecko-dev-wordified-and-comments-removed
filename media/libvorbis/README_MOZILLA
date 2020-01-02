@@ -101,17 +101,3 @@ other
 Mozilla
 libraries
 .
-alloca
-.
-diff
--
-Bug
-469639
--
-Failed
-to
-build
-firefox
-trunk
-on
-OpenSolaris
