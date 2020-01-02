@@ -524,7 +524,7 @@ protected
 :
 virtual
 void
-ElementDataRemoved
+ElementCollectionRemoved
 (
 )
 MOZ_OVERRIDE
@@ -536,7 +536,7 @@ CheckNeedsRefresh
 }
 virtual
 void
-AddElementData
+AddElementCollection
 (
 mozilla
 :

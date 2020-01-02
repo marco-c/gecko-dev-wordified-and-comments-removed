@@ -529,7 +529,7 @@ if
 PR_CLIST_IS_EMPTY
 (
 &
-mElementData
+mElementCollections
 )
 )
 {
@@ -572,7 +572,7 @@ void
 nsTransitionManager
 :
 :
-ElementDataRemoved
+ElementCollectionRemoved
 (
 )
 {
@@ -581,7 +581,7 @@ if
 PR_CLIST_IS_EMPTY
 (
 &
-mElementData
+mElementCollections
 )
 )
 {
@@ -605,11 +605,11 @@ void
 nsTransitionManager
 :
 :
-AddElementData
+AddElementCollection
 (
 ElementAnimationCollection
 *
-aData
+aCollection
 )
 {
 if
@@ -617,7 +617,7 @@ if
 PR_CLIST_IS_EMPTY
 (
 &
-mElementData
+mElementCollections
 )
 )
 {
@@ -644,9 +644,9 @@ Flush_Style
 }
 PR_INSERT_BEFORE
 (
-aData
+aCollection
 &
-mElementData
+mElementCollections
 )
 ;
 }
@@ -2827,7 +2827,7 @@ aCreateIfNeeded
 PR_CLIST_IS_EMPTY
 (
 &
-mElementData
+mElementCollections
 )
 )
 {
@@ -3038,7 +3038,7 @@ SetMayHaveAnimations
 )
 ;
 }
-AddElementData
+AddElementCollection
 (
 collection
 )
@@ -3485,7 +3485,7 @@ GetPresShell
 )
 )
 {
-RemoveAllElementData
+RemoveAllElementCollections
 (
 )
 ;
@@ -3513,7 +3513,7 @@ if
 PR_CLIST_IS_EMPTY
 (
 &
-mElementData
+mElementCollections
 )
 )
 {
@@ -3554,7 +3554,7 @@ next
 PR_LIST_HEAD
 (
 &
-mElementData
+mElementCollections
 )
 ;
 while
@@ -3563,7 +3563,7 @@ next
 !
 =
 &
-mElementData
+mElementCollections
 )
 {
 ElementAnimationCollection
