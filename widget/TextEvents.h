@@ -253,6 +253,10 @@ mIsRepeat
 (
 false
 )
+mIsComposing
+(
+false
+)
 mKeyNameIndex
 (
 mozilla
@@ -351,6 +355,9 @@ isChar
 ;
 bool
 mIsRepeat
+;
+bool
+mIsComposing
 ;
 KeyNameIndex
 mKeyNameIndex
@@ -471,6 +478,12 @@ mIsRepeat
 aEvent
 .
 mIsRepeat
+;
+mIsComposing
+=
+aEvent
+.
+mIsComposing
 ;
 mKeyNameIndex
 =

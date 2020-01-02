@@ -193,6 +193,11 @@ repeat
 ;
 readonly
 attribute
+boolean
+isComposing
+;
+readonly
+attribute
 DOMString
 key
 ;
