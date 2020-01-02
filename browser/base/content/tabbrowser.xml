@@ -10778,15 +10778,6 @@ emptyTabTitle
 )
 ;
 }
-else
-{
-t
-.
-label
-=
-aURI
-;
-}
 this
 .
 tabContainer
