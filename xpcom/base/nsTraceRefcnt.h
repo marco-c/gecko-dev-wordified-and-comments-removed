@@ -25,12 +25,6 @@ public
 :
 static
 void
-Startup
-(
-)
-;
-static
-void
 Shutdown
 (
 )

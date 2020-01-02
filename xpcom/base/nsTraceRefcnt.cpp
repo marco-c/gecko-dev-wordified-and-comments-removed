@@ -6672,15 +6672,6 @@ void
 nsTraceRefcnt
 :
 :
-Startup
-(
-)
-{
-}
-void
-nsTraceRefcnt
-:
-:
 Shutdown
 (
 )
