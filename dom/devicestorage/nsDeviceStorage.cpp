@@ -6335,7 +6335,11 @@ JSVAL_NULL
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 scopeObj
 (
 cx
