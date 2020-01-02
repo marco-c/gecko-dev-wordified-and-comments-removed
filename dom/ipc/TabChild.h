@@ -2320,6 +2320,12 @@ Init
 (
 )
 ;
+class
+DelayedFireSingleTapEvent
+;
+class
+DelayedFireContextMenuEvent
+;
 void
 NotifyTabContextUpdated
 (
@@ -2484,8 +2490,10 @@ mGestureDownPoint
 int32_t
 mActivePointerId
 ;
-CancelableTask
-*
+nsCOMPtr
+<
+nsITimer
+>
 mTapHoldTimer
 ;
 bool
@@ -2552,6 +2560,9 @@ mHasValidInnerSize
 ;
 uint64_t
 mUniqueId
+;
+bool
+mDestroyed
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
