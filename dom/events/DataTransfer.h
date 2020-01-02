@@ -781,15 +781,6 @@ aResult
 ;
 protected
 :
-nsIPrincipal
-*
-GetCurrentPrincipal
-(
-nsresult
-*
-rv
-)
-;
 void
 GetRealFormat
 (
