@@ -6035,7 +6035,7 @@ Filter
 POINT
 &
 &
-textureTransform
+aTransform
 .
 Is2DIntegerTranslation
 (
