@@ -90,6 +90,11 @@ return
 1
 ;
 "
+exposeToUntrustedContent
+=
+"
+true
+"
 /
 >
 <

@@ -70,6 +70,11 @@ name
 "
 testMethod
 "
+exposeToUntrustedContent
+=
+"
+true
+"
 >
 <
 body
@@ -106,6 +111,11 @@ Components
 return
 3
 ;
+"
+exposeToUntrustedContent
+=
+"
+true
 "
 /
 >
