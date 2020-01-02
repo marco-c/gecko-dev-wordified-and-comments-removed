@@ -6618,9 +6618,6 @@ AutoIdVector
 props
 )
 ;
-namespace
-binding_detail
-{
 struct
 FakeDependentString
 {
@@ -6933,7 +6930,6 @@ match
 ;
 }
 ;
-}
 enum
 StringificationBehavior
 {
@@ -6976,9 +6972,6 @@ StringificationBehavior
 nullBehavior
 StringificationBehavior
 undefinedBehavior
-binding_detail
-:
-:
 FakeDependentString
 &
 result
@@ -7229,9 +7222,6 @@ T
 seq
 )
 ;
-namespace
-binding_detail
-{
 template
 <
 typename
@@ -7291,7 +7281,6 @@ this
 }
 }
 ;
-}
 template
 <
 typename

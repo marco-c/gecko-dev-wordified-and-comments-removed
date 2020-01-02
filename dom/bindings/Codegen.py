@@ -23434,9 +23434,6 @@ else
 sequenceClass
 =
 "
-binding_detail
-:
-:
 AutoSequence
 "
         
@@ -27589,9 +27586,6 @@ n
 "
                 
 "
-binding_detail
-:
-:
 FakeDependentString
 str
 ;
@@ -27662,21 +27656,23 @@ Optional
 nsAString
 >
 "
+        
+else
+:
             
-holderType
+declType
 =
-CGGeneric
+"
+NonNull
+<
+nsAString
+>
+"
+        
+return
+JSToNativeConversionInfo
 (
-"
-binding_detail
-:
-:
-FakeDependentString
-"
-)
             
-conversionCode
-=
 (
 "
 %
@@ -27684,7 +27680,7 @@ s
 \
 n
 "
-                              
+             
 "
 {
 declName
@@ -27697,7 +27693,7 @@ holderName
 ;
 "
 %
-                              
+             
 getConversionCode
 (
 "
@@ -27707,39 +27703,6 @@ holderName
 "
 )
 )
-        
-else
-:
-            
-declType
-=
-"
-binding_detail
-:
-:
-FakeDependentString
-"
-            
-holderType
-=
-None
-            
-conversionCode
-=
-getConversionCode
-(
-"
-{
-declName
-}
-"
-)
-        
-return
-JSToNativeConversionInfo
-(
-            
-conversionCode
             
 declType
 =
@@ -27750,7 +27713,12 @@ declType
             
 holderType
 =
-holderType
+CGGeneric
+(
+"
+FakeDependentString
+"
+)
 )
     
 if
@@ -29008,7 +28976,7 @@ isCallbackReturnValue
 typeName
 =
 "
-binding_detail
+dictionary_detail
 :
 :
 Fast
@@ -31543,9 +31511,6 @@ seqType
 CGTemplatedType
 (
 "
-binding_detail
-:
-:
 AutoSequence
 "
                                               
@@ -52893,7 +52858,11 @@ True
 body
 =
 "
-SetAsString
+mValue
+.
+mString
+.
+Value
 (
 )
 .
@@ -54702,9 +54671,7 @@ True
 body
 =
 "
-SetAsString
-(
-)
+mStringHolder
 .
 SetData
 (
@@ -61168,9 +61135,6 @@ idDecl
                 
 (
 "
-binding_detail
-:
-:
 FakeDependentString
 %
 s
@@ -72241,7 +72205,7 @@ build
 (
 [
 '
-binding_detail
+dictionary_detail
 '
 ]
                                          
@@ -89868,21 +89832,6 @@ mozilla
 dom
 /
 BindingDeclarations
-.
-h
-"
-)
-        
-includes
-.
-add
-(
-"
-mozilla
-/
-dom
-/
-BindingUtils
 .
 h
 "
