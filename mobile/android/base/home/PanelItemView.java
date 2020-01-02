@@ -419,15 +419,6 @@ load
 imageUrl
 )
 .
-error
-(
-R
-.
-drawable
-.
-favicon
-)
-.
 into
 (
 mImage
