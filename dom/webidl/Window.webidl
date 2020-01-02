@@ -575,6 +575,8 @@ unsigned
 long
 length
 ;
+/
+/
 [
 Unforgeable
 Throws
@@ -583,6 +585,17 @@ CrossOriginReadable
 readonly
 attribute
 WindowProxy
+top
+;
+[
+Unforgeable
+Throws
+CrossOriginReadable
+]
+readonly
+attribute
+WindowProxy
+?
 top
 ;
 [
