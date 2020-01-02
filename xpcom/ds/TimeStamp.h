@@ -215,6 +215,19 @@ aMicroseconds
 )
 ;
 }
+static
+TimeDuration
+Forever
+(
+)
+{
+return
+FromTicks
+(
+INT64_MAX
+)
+;
+}
 TimeDuration
 operator
 +
@@ -460,6 +473,7 @@ TimeDuration
 &
 aOther
 )
+const
 {
 return
 static_cast
