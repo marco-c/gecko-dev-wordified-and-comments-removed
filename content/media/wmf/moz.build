@@ -98,6 +98,11 @@ EXPORTS
 =
 [
 '
+DXVA2Manager
+.
+h
+'
+'
 WMF
 .
 h

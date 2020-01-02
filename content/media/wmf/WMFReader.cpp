@@ -1774,6 +1774,17 @@ if
 mIsMP3Enabled
 )
 {
+GUID
+aacOrMp3
+=
+MFMPEG4Format_Base
+;
+aacOrMp3
+.
+Data1
+=
+0x6D703461
+;
 static
 const
 GUID
@@ -1784,6 +1795,7 @@ codecs
 {
 MFAudioFormat_AAC
 MFAudioFormat_MP3
+aacOrMp3
 }
 ;
 *
