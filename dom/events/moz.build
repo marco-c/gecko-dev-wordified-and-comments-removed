@@ -485,11 +485,6 @@ nsDOMEventTargetHelper
 cpp
 '
 '
-nsDOMTextEvent
-.
-cpp
-'
-'
 nsEventDispatcher
 .
 cpp

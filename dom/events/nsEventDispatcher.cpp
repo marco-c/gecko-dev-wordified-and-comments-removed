@@ -3305,7 +3305,7 @@ case
 NS_TEXT_EVENT
 :
 return
-NS_NewDOMTextEvent
+NS_NewDOMUIEvent
 (
 aDOMEvent
 aOwner
@@ -3671,7 +3671,7 @@ textevents
 )
 )
 return
-NS_NewDOMTextEvent
+NS_NewDOMUIEvent
 (
 aDOMEvent
 aOwner
