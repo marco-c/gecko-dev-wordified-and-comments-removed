@@ -85,14 +85,5 @@ static
 bool
 sCSPEnabled
 ;
-private
-:
-nsDataHashtable
-<
-nsCStringHashKey
-uint16_t
->
-mAppStatusCache
-;
 }
 ;
