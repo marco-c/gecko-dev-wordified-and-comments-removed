@@ -53,6 +53,9 @@ nsPrintfCString
 h
 "
 class
+gfxASurface
+;
+class
 gfxDrawable
 ;
 class
@@ -455,6 +458,15 @@ char
 aDestBuffer
 int32_t
 aStride
+)
+;
+static
+void
+ClearThebesSurface
+(
+gfxASurface
+*
+aSurface
 )
 ;
 static
