@@ -1032,6 +1032,16 @@ id
 "
 advancedPrefs
 "
+handleCtrlTab
+=
+"
+false
+"
+handleCtrlPageUpDown
+=
+"
+false
+"
 flex
 =
 "
