@@ -197,7 +197,6 @@ const
 nsAString
 &
 aValue
-const
 char16_t
 aEscapeChar
 nsAString
@@ -356,7 +355,6 @@ const
 nsAString
 &
 aValue
-const
 char16_t
 aEscapeChar
 \
