@@ -7354,7 +7354,7 @@ aFamilyName
 {
 nsAutoTArray
 <
-char16_t
+wchar_t
 32
 >
 famName
