@@ -397,6 +397,11 @@ MediaByteRange
 aByteRanges
 )
 ;
+bool
+ReachedEnd
+(
+)
+;
 void
 ParseMoov
 (
