@@ -84,6 +84,10 @@ aTimestamp
 const
 nsString
 &
+aLastMessageSubject
+const
+nsString
+&
 aBody
 const
 uint64_t
@@ -124,6 +128,10 @@ JS
 Value
 &
 aTimestamp
+const
+nsAString
+&
+aLastMessageSubject
 const
 nsAString
 &
