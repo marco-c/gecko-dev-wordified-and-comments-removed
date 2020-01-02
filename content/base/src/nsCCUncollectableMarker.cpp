@@ -2534,12 +2534,4 @@ closure
 )
 ;
 }
-nsContentUtils
-:
-:
-TraceSafeJSContext
-(
-aTrc
-)
-;
 }

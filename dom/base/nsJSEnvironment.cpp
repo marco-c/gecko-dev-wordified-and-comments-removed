@@ -3382,11 +3382,6 @@ setPrivateIsNSISupports
 (
 true
 )
-.
-setNoDefaultCompartmentObject
-(
-true
-)
 ;
 Preferences
 :

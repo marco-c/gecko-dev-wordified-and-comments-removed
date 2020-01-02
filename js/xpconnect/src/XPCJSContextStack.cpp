@@ -516,16 +516,6 @@ MOZ_CRASH
 (
 )
 ;
-ContextOptionsRef
-(
-mSafeJSContext
-)
-.
-setNoDefaultCompartmentObject
-(
-true
-)
-;
 JS_SetErrorReporter
 (
 mSafeJSContext

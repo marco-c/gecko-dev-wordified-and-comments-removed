@@ -624,14 +624,6 @@ global
 )
 )
 ;
-cx
--
->
-setDefaultCompartmentObjectIfUnset
-(
-self
-)
-;
 JS_ASSERT
 (
 !

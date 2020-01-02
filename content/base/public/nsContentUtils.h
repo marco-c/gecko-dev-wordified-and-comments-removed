@@ -3038,15 +3038,6 @@ GetSameOriginChecker
 )
 ;
 static
-void
-TraceSafeJSContext
-(
-JSTracer
-*
-aTrc
-)
-;
-static
 nsresult
 GetASCIIOrigin
 (
