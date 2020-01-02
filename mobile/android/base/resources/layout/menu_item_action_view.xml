@@ -187,9 +187,7 @@ android
 layout_width
 =
 "
-dimen
-/
-menu_item_action_icon
+0dip
 "
 android
 :
