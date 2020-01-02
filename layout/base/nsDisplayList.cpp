@@ -373,8 +373,6 @@ aPresContext
 nsRect
 &
 aBounds
-float
-aAppUnitsPerPixel
 InfallibleTArray
 <
 TransformFunction
@@ -942,7 +940,6 @@ aBounds
 Width
 (
 )
-aAppUnitsPerPixel
 )
 ;
 aFunctions
@@ -987,7 +984,6 @@ aBounds
 Height
 (
 )
-aAppUnitsPerPixel
 )
 ;
 aFunctions
@@ -1028,7 +1024,6 @@ aContext
 aPresContext
 canStoreInRuleTree
 0
-aAppUnitsPerPixel
 )
 ;
 aFunctions
@@ -1073,7 +1068,6 @@ aBounds
 Width
 (
 )
-aAppUnitsPerPixel
 )
 ;
 double
@@ -1116,7 +1110,6 @@ aBounds
 Height
 (
 )
-aAppUnitsPerPixel
 )
 ;
 }
@@ -1162,7 +1155,6 @@ aBounds
 Width
 (
 )
-aAppUnitsPerPixel
 )
 ;
 double
@@ -1188,7 +1180,6 @@ aBounds
 Height
 (
 )
-aAppUnitsPerPixel
 )
 ;
 double
@@ -1210,7 +1201,6 @@ aContext
 aPresContext
 canStoreInRuleTree
 0
-aAppUnitsPerPixel
 )
 ;
 aFunctions
@@ -1834,7 +1824,6 @@ aContext
 aPresContext
 canStoreInRuleTree
 aBounds
-aAppUnitsPerPixel
 )
 ;
 gfx
@@ -2085,16 +2074,6 @@ nsDisplayTransform
 GetFrameBoundsForTransform
 (
 aFrame
-)
-;
-float
-scale
-=
-nsDeviceContext
-:
-:
-AppUnitsPerCSSPixel
-(
 )
 ;
 mozilla
@@ -2366,7 +2345,6 @@ mHead
 styleContext
 presContext
 bounds
-scale
 animSegment
 -
 >
@@ -2399,7 +2377,6 @@ mHead
 styleContext
 presContext
 bounds
-scale
 animSegment
 -
 >
