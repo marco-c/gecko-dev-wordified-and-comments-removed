@@ -2291,6 +2291,8 @@ TypedObject
 |
 idx
 <
+uint32_t
+(
 arrobj
 -
 >
@@ -2303,6 +2305,7 @@ TypedObject
 .
 length
 (
+)
 )
 )
 ;
