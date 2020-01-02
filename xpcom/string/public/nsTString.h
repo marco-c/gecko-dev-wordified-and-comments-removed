@@ -1104,6 +1104,14 @@ null
 -
 terminated
 strings
+.
+You
+are
+probably
+looking
+for
+nsTDependentSubstring
+.
 "
 )
 ;
