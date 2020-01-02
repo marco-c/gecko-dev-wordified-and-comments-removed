@@ -177,11 +177,7 @@ aFlags
 0
 )
 MOZ_OVERRIDE
-{
-return
-nullptr
 ;
-}
 virtual
 bool
 CanUseCanvasLayerForSize
