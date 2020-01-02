@@ -1067,7 +1067,6 @@ uint32_t
 aEndRenderedOffset
 )
 ;
-virtual
 already_AddRefed
 <
 nsFrameSelection
