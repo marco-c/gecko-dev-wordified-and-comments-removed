@@ -91,12 +91,6 @@ mobileconnection
 {
 }
 "
-mozBluetooth
-"
-:
-{
-}
-"
 bluetooth
 "
 :
@@ -166,12 +160,6 @@ geolocation
 wifi
 -
 manage
-"
-:
-{
-}
-"
-wifi
 "
 :
 {
