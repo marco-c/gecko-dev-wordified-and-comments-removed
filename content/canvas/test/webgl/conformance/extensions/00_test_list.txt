@@ -52,6 +52,15 @@ compressed
 -
 texture
 -
+etc1
+.
+html
+webgl
+-
+compressed
+-
+texture
+-
 s3tc
 .
 html
