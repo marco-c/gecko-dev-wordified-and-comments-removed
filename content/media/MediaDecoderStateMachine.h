@@ -96,10 +96,11 @@ GetCurrentTime
 endif
 class
 MediaDecoderStateMachine
-:
-public
-nsRunnable
 {
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+MediaDecoderStateMachine
+)
 public
 :
 typedef
@@ -302,12 +303,6 @@ void
 StartBuffering
 (
 )
-;
-NS_IMETHOD
-Run
-(
-)
-MOZ_OVERRIDE
 ;
 bool
 HasAudio
