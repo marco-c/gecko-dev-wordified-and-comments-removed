@@ -261,7 +261,7 @@ useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
-SEC_ERROR_INVALID_ARGS
+0
 certificateUsageVerifyCA
 )
 ;
@@ -339,7 +339,7 @@ useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
-SEC_ERROR_INVALID_ARGS
+0
 certificateUsageVerifyCA
 )
 ;
@@ -457,7 +457,7 @@ useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
-SEC_ERROR_INVALID_ARGS
+0
 certificateUsageVerifyCA
 )
 ;
@@ -539,7 +539,7 @@ useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
-SEC_ERROR_INVALID_ARGS
+0
 certificateUsageVerifyCA
 )
 ;
@@ -632,7 +632,7 @@ useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
-SEC_ERROR_INVALID_ARGS
+0
 certificateUsageVerifyCA
 )
 ;
@@ -718,7 +718,7 @@ useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
-SEC_ERROR_INVALID_ARGS
+0
 certificateUsageVerifyCA
 )
 ;
@@ -819,7 +819,7 @@ useMozillaPKIX
 ?
 SEC_ERROR_CA_CERT_INVALID
 :
-SEC_ERROR_INVALID_ARGS
+0
 certificateUsageVerifyCA
 )
 ;
