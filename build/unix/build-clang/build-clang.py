@@ -183,7 +183,7 @@ make
 "
 "
 -
-j8
+j4
 "
 ]
 +
@@ -316,6 +316,7 @@ build_one_stage
 env
 stage_dir
 llvm_source_dir
+gcc_toolchain_dir
 )
 :
     
@@ -329,6 +330,7 @@ build_one_stage_aux
 (
 stage_dir
 llvm_source_dir
+gcc_toolchain_dir
 )
     
 with_env
@@ -632,6 +634,7 @@ build_one_stage_aux
 (
 stage_dir
 llvm_source_dir
+gcc_toolchain_dir
 )
 :
     
@@ -743,18 +746,22 @@ gcc
 -
 toolchain
 =
-/
-tools
-/
-gcc
+%
+s
+"
+%
+gcc_toolchain_dir
+                      
+"
 -
-4
-.
-7
-.
-3
 -
-0moz1
+disable
+-
+compiler
+-
+version
+-
+checks
 "
 ]
     
@@ -833,6 +840,23 @@ source_dir
 compiler
 -
 rt
+"
+    
+gcc_dir
+=
+"
+/
+tools
+/
+gcc
+-
+4
+.
+7
+.
+3
+-
+0moz1
 "
     
 if
@@ -1189,9 +1213,9 @@ libstdc
         
 cc
 =
+gcc_dir
++
 "
-/
-usr
 /
 bin
 /
@@ -1200,9 +1224,9 @@ gcc
         
 cxx
 =
+gcc_dir
++
 "
-/
-usr
 /
 bin
 /
@@ -1210,6 +1234,74 @@ g
 +
 +
 "
+    
+if
+os
+.
+environ
+.
+has_key
+(
+'
+LD_LIBRARY_PATH
+'
+)
+:
+        
+os
+.
+environ
+[
+'
+LD_LIBRARY_PATH
+'
+]
+=
+'
+%
+s
+/
+lib64
+/
+:
+%
+s
+'
+%
+(
+gcc_dir
+os
+.
+environ
+[
+'
+LD_LIBRARY_PATH
+'
+]
+)
+;
+    
+else
+:
+        
+os
+.
+environ
+[
+'
+LD_LIBRARY_PATH
+'
+]
+=
+'
+%
+s
+/
+lib64
+/
+'
+%
+gcc_dir
     
 build_one_stage
 (
@@ -1227,6 +1319,7 @@ cxx
 }
 stage1_dir
 llvm_source_dir
+gcc_dir
 )
     
 stage2_dir
@@ -1281,6 +1374,7 @@ extra_cxxflags
         
 stage2_dir
 llvm_source_dir
+gcc_dir
 )
     
 build_tar_package

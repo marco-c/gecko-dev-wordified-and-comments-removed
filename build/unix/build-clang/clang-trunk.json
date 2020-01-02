@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-185949
+200213
 "
 "
 llvm_repo
@@ -119,6 +119,8 @@ sse
 on
 -
 linux
+-
+trunk
 .
 patch
 "
@@ -145,6 +147,8 @@ sse
 on
 -
 linux
+-
+trunk
 .
 patch
 "
