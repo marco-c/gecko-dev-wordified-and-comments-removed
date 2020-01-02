@@ -109,6 +109,17 @@ MPL
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+archivereader
+.
+enabled
+"
+]
 interface
 ArchiveRequest
 :
