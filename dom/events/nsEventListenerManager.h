@@ -1316,6 +1316,15 @@ return
 mMayHaveMouseEnterLeaveEventListener
 ;
 }
+bool
+MayHavePointerEnterLeaveEventListener
+(
+)
+{
+return
+mMayHavePointerEnterLeaveEventListener
+;
+}
 size_t
 SizeOfIncludingThis
 (
@@ -1942,6 +1951,11 @@ mMayHaveMouseEnterLeaveEventListener
 1
 ;
 uint32_t
+mMayHavePointerEnterLeaveEventListener
+:
+1
+;
+uint32_t
 mClearingListeners
 :
 1
@@ -1954,7 +1968,7 @@ mIsMainThreadELM
 uint32_t
 mNoListenerForEvent
 :
-23
+22
 ;
 nsAutoTObserverArray
 <
