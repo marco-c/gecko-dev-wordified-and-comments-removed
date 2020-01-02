@@ -7269,3 +7269,15 @@ checkIntervalSecs
 3600
 )
 ;
+pref
+(
+"
+device
+.
+storage
+.
+enabled
+"
+true
+)
+;
