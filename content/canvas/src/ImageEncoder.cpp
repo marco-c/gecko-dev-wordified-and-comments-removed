@@ -145,12 +145,14 @@ mFailed
 {
 nsRefPtr
 <
-nsDOMMemoryFile
+DOMFile
 >
 blob
 =
-new
-nsDOMMemoryFile
+DOMFile
+:
+:
+CreateMemoryFile
 (
 mImgData
 mImgSize

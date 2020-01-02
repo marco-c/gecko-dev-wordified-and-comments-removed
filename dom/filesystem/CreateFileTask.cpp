@@ -1229,8 +1229,10 @@ NS_ERROR_FAILURE
 }
 mTargetFile
 =
-new
-nsDOMFileFile
+DOMFile
+:
+:
+CreateFromFile
 (
 file
 )
@@ -1303,8 +1305,10 @@ NS_ERROR_DOM_FILESYSTEM_UNKNOWN_ERR
 }
 mTargetFile
 =
-new
-nsDOMFileFile
+DOMFile
+:
+:
+CreateFromFile
 (
 file
 )

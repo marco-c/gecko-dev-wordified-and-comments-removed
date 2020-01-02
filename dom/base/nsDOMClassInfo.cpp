@@ -1640,7 +1640,7 @@ kConstructorFuncMap
 NS_DEFINE_CONSTRUCTOR_FUNC_DATA
 (
 Blob
-nsDOMMultipartFile
+DOMMultipartFileImpl
 :
 :
 NewBlob
@@ -1648,7 +1648,7 @@ NewBlob
 NS_DEFINE_CONSTRUCTOR_FUNC_DATA
 (
 File
-nsDOMMultipartFile
+DOMMultipartFileImpl
 :
 :
 NewFile

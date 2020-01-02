@@ -656,8 +656,10 @@ nsIDOMFile
 >
 domfile
 =
-new
-nsDOMFileFile
+DOMFile
+:
+:
+CreateFromFile
 (
 file
 )
@@ -702,8 +704,10 @@ nsIDOMFile
 >
 domfile
 =
-new
-nsDOMFileFile
+DOMFile
+:
+:
+CreateFromFile
 (
 file
 )

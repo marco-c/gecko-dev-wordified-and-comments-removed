@@ -1253,8 +1253,10 @@ nsIDOMBlob
 >
 picture
 =
-new
-nsDOMMemoryFile
+DOMFile
+:
+:
+CreateMemoryFile
 (
 static_cast
 <

@@ -1978,13 +1978,13 @@ element
 location
 )
 ;
-nsDOMFileBase
+DOMFile
 *
 file
 =
 static_cast
 <
-nsDOMFileBase
+DOMFile
 *
 >
 (

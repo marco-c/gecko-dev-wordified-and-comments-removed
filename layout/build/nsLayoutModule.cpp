@@ -2593,7 +2593,7 @@ MAKE_CTOR
 (
 CreateDOMBlob
 nsISupports
-nsDOMMultipartFile
+DOMMultipartFileImpl
 :
 :
 NewBlob
@@ -2602,7 +2602,7 @@ MAKE_CTOR
 (
 CreateDOMFile
 nsISupports
-nsDOMMultipartFile
+DOMMultipartFileImpl
 :
 :
 NewFile

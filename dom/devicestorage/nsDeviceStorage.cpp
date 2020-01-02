@@ -7711,7 +7711,10 @@ nsIDOMBlob
 blob
 =
 new
-nsDOMFileFile
+DOMFile
+(
+new
+DOMFileImplFile
 (
 fullPath
 aFile
@@ -7730,6 +7733,7 @@ aFile
 -
 >
 mLastModifiedDate
+)
 )
 ;
 return

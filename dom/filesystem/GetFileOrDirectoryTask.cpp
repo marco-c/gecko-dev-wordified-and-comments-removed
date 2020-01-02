@@ -823,8 +823,10 @@ NS_ERROR_DOM_SECURITY_ERR
 }
 mTargetFile
 =
-new
-nsDOMFileFile
+DOMFile
+:
+:
+CreateFromFile
 (
 file
 )
