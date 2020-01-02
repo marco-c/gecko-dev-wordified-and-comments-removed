@@ -222,12 +222,6 @@ virtual
 bool
 HasChildrenOnlyTransform
 (
-mozilla
-:
-:
-gfx
-:
-:
 Matrix
 *
 aTransform

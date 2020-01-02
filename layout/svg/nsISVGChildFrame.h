@@ -193,12 +193,6 @@ SVGBBox
 GetBBoxContribution
 (
 const
-mozilla
-:
-:
-gfx
-:
-:
 Matrix
 &
 aToBBoxUserspace

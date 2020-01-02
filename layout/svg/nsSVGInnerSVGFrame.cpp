@@ -1382,17 +1382,11 @@ aTransform
 *
 aTransform
 =
-gfx
-:
-:
-ToMatrix
-(
 content
 -
 >
 GetViewBoxTransform
 (
-)
 )
 ;
 }

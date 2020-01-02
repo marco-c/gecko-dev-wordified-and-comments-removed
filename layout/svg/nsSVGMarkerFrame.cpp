@@ -364,7 +364,7 @@ mAutoAngle
 mIsStart
 )
 ;
-gfxMatrix
+Matrix
 viewBoxTM
 =
 content
@@ -375,10 +375,10 @@ GetViewBoxTransform
 )
 ;
 return
-viewBoxTM
-*
 ThebesMatrix
 (
+viewBoxTM
+*
 markerTM
 )
 *
@@ -834,7 +834,7 @@ mAutoAngle
 mIsStart
 )
 ;
-gfxMatrix
+Matrix
 viewBoxTM
 =
 content
@@ -847,10 +847,7 @@ GetViewBoxTransform
 Matrix
 tm
 =
-ToMatrix
-(
 viewBoxTM
-)
 *
 markerTM
 *
