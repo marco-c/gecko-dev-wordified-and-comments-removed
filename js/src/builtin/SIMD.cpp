@@ -2380,7 +2380,7 @@ JSObject
 js
 :
 :
-Create
+CreateSimd
 (
 JSContext
 *
@@ -2516,7 +2516,7 @@ JSObject
 js
 :
 :
-Create
+CreateSimd
 <
 Float32x4
 >
@@ -2538,7 +2538,7 @@ JSObject
 js
 :
 :
-Create
+CreateSimd
 <
 Int32x4
 >
@@ -3911,7 +3911,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Out
 >
@@ -4257,7 +4257,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 V
 >
@@ -4766,7 +4766,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 V
 >
@@ -4955,7 +4955,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Int32x4
 >
@@ -5125,7 +5125,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Vret
 >
@@ -5247,7 +5247,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Vret
 >
@@ -5375,7 +5375,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Vret
 >
@@ -5534,7 +5534,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Vret
 >
@@ -5703,7 +5703,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Int32x4
 >
@@ -5949,7 +5949,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Float32x4
 >
@@ -6289,7 +6289,7 @@ RootedObject
 obj
 (
 cx
-Create
+CreateSimd
 <
 Float32x4
 >

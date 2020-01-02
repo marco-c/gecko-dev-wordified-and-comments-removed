@@ -1390,7 +1390,7 @@ V
 >
 JSObject
 *
-Create
+CreateSimd
 (
 JSContext
 *
