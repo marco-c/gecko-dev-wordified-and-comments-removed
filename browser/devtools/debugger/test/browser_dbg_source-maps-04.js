@@ -17,8 +17,6 @@ EXAMPLE_URL
 "
 code_math_bogus_map
 .
-min
-.
 js
 "
 ;
@@ -291,8 +289,7 @@ selectedValue
 indexOf
 (
 "
-.
-min
+code_math_bogus_map
 .
 js
 "

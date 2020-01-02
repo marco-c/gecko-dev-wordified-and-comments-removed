@@ -948,6 +948,9 @@ attachThread
 useSourceMaps
 :
 true
+autoBlackBox
+:
+true
 }
 onAttach
 )
