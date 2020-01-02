@@ -17538,7 +17538,7 @@ outOfBounds
 ;
 Label
 markElem
-storeElem
+postBarrier
 ;
 masm
 .
@@ -17638,7 +17638,7 @@ masm
 jump
 (
 &
-storeElem
+postBarrier
 )
 ;
 }
@@ -17674,6 +17674,14 @@ MIRType_Value
 )
 ;
 }
+masm
+.
+bind
+(
+&
+postBarrier
+)
+;
 Register
 postBarrierScratch
 =
@@ -17705,14 +17713,6 @@ offsetOfElements
 )
 )
 elements
-)
-;
-masm
-.
-bind
-(
-&
-storeElem
 )
 ;
 masm
