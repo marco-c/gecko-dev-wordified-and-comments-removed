@@ -87,12 +87,6 @@ nsMenuGroupOwnerX
 (
 )
 ;
-virtual
-~
-nsMenuGroupOwnerX
-(
-)
-;
 nsresult
 Create
 (
@@ -147,6 +141,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIMUTATIONOBSERVER
 protected
 :
+virtual
+~
+nsMenuGroupOwnerX
+(
+)
+;
 nsChangeObserver
 *
 LookupContentChangeObserver

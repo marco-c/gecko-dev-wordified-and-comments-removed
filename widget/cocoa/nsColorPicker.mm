@@ -571,6 +571,15 @@ sColorPanelWrapper
 =
 nullptr
 ;
+nsColorPicker
+:
+:
+~
+nsColorPicker
+(
+)
+{
+}
 NS_IMETHODIMP
 nsColorPicker
 :

@@ -79,12 +79,6 @@ OSXNotificationCenter
 (
 )
 ;
-virtual
-~
-OSXNotificationCenter
-(
-)
-;
 nsresult
 Init
 (
@@ -112,6 +106,14 @@ ShowPendingNotification
 OSXNotificationInfo
 *
 osxni
+)
+;
+protected
+:
+virtual
+~
+OSXNotificationCenter
+(
 )
 ;
 private

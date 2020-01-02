@@ -370,6 +370,12 @@ NS_DECL_ISUPPORTS
 ;
 private
 :
+~
+MacWakeLockListener
+(
+)
+{
+}
 IOPMAssertionID
 mAssertionID
 =

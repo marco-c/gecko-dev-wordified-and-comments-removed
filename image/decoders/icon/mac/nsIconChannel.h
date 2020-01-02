@@ -99,12 +99,6 @@ nsIconChannel
 (
 )
 ;
-virtual
-~
-nsIconChannel
-(
-)
-;
 nsresult
 Init
 (
@@ -115,6 +109,12 @@ uri
 ;
 protected
 :
+virtual
+~
+nsIconChannel
+(
+)
+;
 nsCOMPtr
 <
 nsIURI

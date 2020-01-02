@@ -39,12 +39,6 @@ nsStandaloneNativeMenu
 (
 )
 ;
-virtual
-~
-nsStandaloneNativeMenu
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTANDALONENATIVEMENU
 nsMenuObjectTypeX
@@ -90,6 +84,12 @@ mMenu
 }
 protected
 :
+virtual
+~
+nsStandaloneNativeMenu
+(
+)
+;
 nsMenuX
 *
 mMenu

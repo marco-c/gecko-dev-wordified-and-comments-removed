@@ -64,12 +64,6 @@ nsFilePicker
 (
 )
 ;
-virtual
-~
-nsFilePicker
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 GetDefaultString
@@ -176,6 +170,12 @@ GetFilterList
 ;
 protected
 :
+virtual
+~
+nsFilePicker
+(
+)
+;
 virtual
 void
 InitNative

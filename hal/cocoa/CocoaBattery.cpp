@@ -419,6 +419,14 @@ nsIObserver
 {
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
+private
+:
+~
+SingletonDestroyer
+(
+)
+{
+}
 }
 ;
 NS_IMPL_ISUPPORTS
