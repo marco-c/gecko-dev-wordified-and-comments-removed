@@ -25056,9 +25056,9 @@ RefreshCompartmentPrincipal
 (
 )
 {
-FORWARD_TO_INNER
+MOZ_ASSERT
 (
-RefreshCompartmentPrincipal
+IsInnerWindow
 (
 )
 )
