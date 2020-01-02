@@ -66,7 +66,7 @@ prefs
 setBoolPref
 (
 PREF_APP_UPDATE_SERVICE_ENABLED
-true
+false
 )
 ;
 }
@@ -391,7 +391,7 @@ activeUpdate
 state
 !
 =
-STATE_APPLIED_PLATFORM
+STATE_APPLIED
 )
 {
 if
@@ -454,7 +454,7 @@ if
 state
 !
 =
-STATE_APPLIED_PLATFORM
+STATE_APPLIED
 )
 {
 if
@@ -483,7 +483,7 @@ to
 equal
 "
 +
-STATE_APPLIED_PLATFORM
+STATE_APPLIED
 +
 "
 "

@@ -1194,9 +1194,7 @@ output
 -
 s
 "
-"
-40
-"
+HELPER_SLEEP_TIMEOUT
 lockFileRelPath
 ]
 ;
