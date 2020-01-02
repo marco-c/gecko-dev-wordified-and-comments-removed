@@ -3091,14 +3091,11 @@ url
 {
 setState
 (
-shouldShowProgress
-(
-url
-)
+showProgress
 ?
-STATE_SUCCESS
-:
 STATE_LOADING
+:
+STATE_SUCCESS
 )
 ;
 updateIdentityData
