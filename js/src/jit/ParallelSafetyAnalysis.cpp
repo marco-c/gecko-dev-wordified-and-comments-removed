@@ -3284,6 +3284,14 @@ discardLastIns
 block
 -
 >
+add
+(
+bail
+)
+;
+block
+-
+>
 end
 (
 MUnreachable
