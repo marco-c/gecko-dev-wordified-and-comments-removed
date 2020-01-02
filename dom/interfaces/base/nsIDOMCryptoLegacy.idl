@@ -99,9 +99,6 @@ domstubs
 idl
 "
 interface
-nsIDOMCRMFObject
-;
-interface
 nsIDOMWindow
 ;
 [

@@ -153,11 +153,6 @@ nsIDOMConstructor
 idl
 '
 '
-nsIDOMCRMFObject
-.
-idl
-'
-'
 nsIDOMGlobalObjectConstructor
 .
 idl

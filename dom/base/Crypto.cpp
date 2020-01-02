@@ -587,8 +587,6 @@ aVersion
 )
 {
 }
-already_AddRefed
-<
 mozilla
 :
 :
@@ -596,7 +594,7 @@ dom
 :
 :
 CRMFObject
->
+*
 Crypto
 :
 :
