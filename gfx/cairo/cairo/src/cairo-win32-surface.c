@@ -183,7 +183,7 @@ h
 #
 include
 <
-D3D9
+d3d9
 .
 h
 >

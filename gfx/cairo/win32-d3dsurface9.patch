@@ -675,7 +675,7 @@ h
 #
 include
 <
-D3D9
+d3d9
 .
 h
 >
@@ -2620,6 +2620,7 @@ h
 cairo_win32_surface_create_with_ddb
 (
 HDC
+hdc
 cairo_format_t
 format
 int
@@ -2675,8 +2676,12 @@ surface
 16
 +
 142
-20
-cairo_dwrite_scaled_font_get_force_GDI_c
+21
+cairo_dwrite_scaled_font_get_force_GDI_classic
+(
+cairo_scaled_font_t
+*
+dwrite_scale
 void
 cairo_dwrite_set_cleartype_params
 (
@@ -2704,6 +2709,10 @@ endif
 CAIRO_HAS_DWRITE_FONT
 *
 /
++
+struct
+IDirect3DSurface9
+;
 +
 cairo_public
 cairo_surface_t

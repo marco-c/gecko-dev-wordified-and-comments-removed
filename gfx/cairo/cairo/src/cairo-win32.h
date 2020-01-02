@@ -307,6 +307,9 @@ cairo_dwrite_get_cleartype_rendering_mode
 ;
 #
 endif
+struct
+IDirect3DSurface9
+;
 cairo_public
 cairo_surface_t
 *
