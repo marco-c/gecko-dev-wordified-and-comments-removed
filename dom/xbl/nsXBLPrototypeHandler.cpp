@@ -1538,9 +1538,9 @@ handlerCallback
 ;
 nsCOMPtr
 <
-nsJSEventListener
+JSEventHandler
 >
-eventListener
+jsEventHandler
 ;
 rv
 =
@@ -1551,7 +1551,7 @@ onEventAtom
 typedHandler
 getter_AddRefs
 (
-eventListener
+jsEventHandler
 )
 )
 ;
@@ -1561,7 +1561,7 @@ rv
 rv
 )
 ;
-eventListener
+jsEventHandler
 -
 >
 HandleEvent
@@ -1569,7 +1569,7 @@ HandleEvent
 aEvent
 )
 ;
-eventListener
+jsEventHandler
 -
 >
 Disconnect

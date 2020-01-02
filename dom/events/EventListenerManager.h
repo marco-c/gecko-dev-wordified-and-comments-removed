@@ -526,9 +526,9 @@ mAllEvents
 EventListenerFlags
 mFlags
 ;
-nsJSEventListener
+JSEventHandler
 *
-GetJSListener
+GetJSEventHandler
 (
 )
 const
@@ -543,7 +543,7 @@ eJSEventListener
 ?
 static_cast
 <
-nsJSEventListener
+JSEventHandler
 *
 >
 (
@@ -600,7 +600,7 @@ mListener
 {
 static_cast
 <
-nsJSEventListener
+JSEventHandler
 *
 >
 (

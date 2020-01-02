@@ -380,9 +380,9 @@ true
 }
 nsCOMPtr
 <
-nsJSEventListener
+JSEventHandler
 >
-jsl
+jsHandler
 =
 do_QueryInterface
 (
@@ -391,10 +391,10 @@ mListener
 ;
 if
 (
-jsl
+jsHandler
 &
 &
-jsl
+jsHandler
 -
 >
 GetTypedEventHandler
@@ -416,7 +416,7 @@ JSObject
 >
 handler
 =
-jsl
+jsHandler
 -
 >
 GetTypedEventHandler
