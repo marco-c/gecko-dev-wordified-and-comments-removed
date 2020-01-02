@@ -524,11 +524,11 @@ h
 endif
 #
 ifdef
-MOZ_MEDIA_PLUGINS
+MOZ_ANDROID_OMX
 #
 include
 "
-MediaPluginHost
+AndroidMediaPluginHost
 .
 h
 "
@@ -1869,8 +1869,8 @@ Shutdown
 ;
 #
 ifdef
-MOZ_MEDIA_PLUGINS
-MediaPluginHost
+MOZ_ANDROID_OMX
+AndroidMediaPluginHost
 :
 :
 Shutdown

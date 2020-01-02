@@ -208,7 +208,7 @@ if
 CONFIG
 [
 '
-MOZ_MEDIA_PLUGINS
+MOZ_ANDROID_OMX
 '
 ]
 :
@@ -217,7 +217,7 @@ PARALLEL_DIRS
 =
 [
 '
-plugins
+android
 '
 ]
 if

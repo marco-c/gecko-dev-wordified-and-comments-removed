@@ -3,11 +3,11 @@ if
 !
 defined
 (
-MediaPluginReader_h_
+AndroidMediaReader_h_
 )
 #
 define
-MediaPluginReader_h_
+AndroidMediaReader_h_
 #
 include
 "
@@ -87,7 +87,7 @@ TimeRanges
 ;
 }
 class
-MediaPluginReader
+AndroidMediaReader
 :
 public
 MediaDecoderReader
@@ -128,7 +128,7 @@ mLastVideoFrame
 ;
 public
 :
-MediaPluginReader
+AndroidMediaReader
 (
 AbstractMediaDecoder
 *

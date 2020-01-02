@@ -3,11 +3,11 @@ if
 !
 defined
 (
-MediaResourceServer_h_
+AndroidMediaResourceServer_h_
 )
 #
 define
-MediaResourceServer_h_
+AndroidMediaResourceServer_h_
 #
 include
 <
@@ -34,7 +34,7 @@ class
 MediaResource
 ;
 class
-MediaResourceServer
+AndroidMediaResourceServer
 :
 public
 nsRunnable
@@ -73,7 +73,7 @@ ResourceMap
 ResourceMap
 mResources
 ;
-MediaResourceServer
+AndroidMediaResourceServer
 (
 )
 ;
@@ -95,7 +95,7 @@ public
 static
 already_AddRefed
 <
-MediaResourceServer
+AndroidMediaResourceServer
 >
 Start
 (
