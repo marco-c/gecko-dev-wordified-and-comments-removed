@@ -2988,7 +2988,6 @@ GetOwnerNode
 (
 )
 ;
-return
 parser
 .
 ParseMediaList
@@ -2999,6 +2998,9 @@ nullptr
 this
 htmlMode
 )
+;
+return
+NS_OK
 ;
 }
 bool

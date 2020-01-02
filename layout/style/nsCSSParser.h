@@ -318,7 +318,7 @@ aIsSVGMode
 false
 )
 ;
-nsresult
+void
 ParseMediaList
 (
 const
