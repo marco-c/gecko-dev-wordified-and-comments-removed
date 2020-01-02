@@ -448,6 +448,13 @@ codegen
 .
 pp
 :
+codegen
+.
+done
+codegen
+.
+done
+:
 (
 codegen_dependencies
 )
