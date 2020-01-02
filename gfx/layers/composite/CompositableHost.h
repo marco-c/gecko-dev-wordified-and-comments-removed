@@ -364,6 +364,8 @@ void
 OnActorDestroy
 (
 )
+=
+0
 ;
 virtual
 void
@@ -584,7 +586,7 @@ nullptr
 virtual
 TextureHost
 *
-GetAsTextureHost
+GetTextureHost
 (
 )
 {
@@ -969,9 +971,8 @@ virtual
 void
 RemoveTextureHost
 (
-TextureHost
-*
-aTexture
+uint64_t
+aTextureID
 )
 ;
 TextureHost
