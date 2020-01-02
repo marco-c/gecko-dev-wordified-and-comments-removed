@@ -3354,6 +3354,14 @@ debugTrapHandler
 cx
 )
 ;
+if
+(
+!
+handler
+)
+return
+false
+;
 mozilla
 :
 :
