@@ -364,6 +364,11 @@ gfx
 :
 IntSize
 aSize
+gfx
+:
+:
+BackendType
+aMoz2DBackend
 TextureFlags
 aFlags
 )
@@ -378,6 +383,7 @@ SurfaceFormat
 :
 :
 UNKNOWN
+aMoz2DBackend
 aFlags
 )
 mAllocator
@@ -414,6 +420,11 @@ gfx
 :
 SurfaceFormat
 aFormat
+gfx
+:
+:
+BackendType
+aMoz2DBackend
 TextureFlags
 aFlags
 )
@@ -422,6 +433,7 @@ BufferTextureClient
 (
 aCompositable
 aFormat
+aMoz2DBackend
 aFlags
 )
 mAllocator
@@ -452,6 +464,11 @@ gfx
 :
 SurfaceFormat
 aFormat
+gfx
+:
+:
+BackendType
+aMoz2DBackend
 TextureFlags
 aFlags
 )
@@ -460,6 +477,7 @@ BufferTextureClient
 (
 nullptr
 aFormat
+aMoz2DBackend
 aFlags
 )
 mAllocator
