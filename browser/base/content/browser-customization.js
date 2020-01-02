@@ -267,6 +267,12 @@ uninit
 (
 )
 ;
+CombinedBackForward
+.
+uninit
+(
+)
+;
 PlacesToolbarHelper
 .
 customizeStart
@@ -404,6 +410,12 @@ customizeDone
 )
 ;
 CombinedStopReload
+.
+init
+(
+)
+;
+CombinedBackForward
 .
 init
 (
