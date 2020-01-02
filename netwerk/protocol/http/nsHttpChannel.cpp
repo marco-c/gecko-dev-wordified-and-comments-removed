@@ -8635,7 +8635,7 @@ contentLength
 )
 )
 return
-NS_OK
+NS_ERROR_NOT_RESUMABLE
 ;
 nsresult
 rv
@@ -11761,6 +11761,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+mIsPartialRequest
 ;
 if
 (

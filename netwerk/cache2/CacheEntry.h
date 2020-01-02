@@ -776,6 +776,11 @@ StoreFrecency
 (
 )
 ;
+void
+DoomFile
+(
+)
+;
 already_AddRefed
 <
 CacheEntryHandle
@@ -963,7 +968,7 @@ FRECENCYUPDATE
 static
 uint32_t
 const
-DOOM
+CALLBACKS
 =
 1
 <
@@ -973,7 +978,7 @@ DOOM
 static
 uint32_t
 const
-CALLBACKS
+UNREGISTER
 =
 1
 <
