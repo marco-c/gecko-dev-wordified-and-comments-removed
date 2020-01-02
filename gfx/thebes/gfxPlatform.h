@@ -1452,6 +1452,12 @@ GetPrefLayersScrollGraph
 ;
 static
 bool
+GetPrefLayersEnableTiles
+(
+)
+;
+static
+bool
 OffMainThreadCompositionRequired
 (
 )
