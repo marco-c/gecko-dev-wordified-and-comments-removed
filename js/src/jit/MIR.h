@@ -32591,10 +32591,6 @@ vt
 false
 )
 {
-setMovable
-(
-)
-;
 if
 (
 vt
