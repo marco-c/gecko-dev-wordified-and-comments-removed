@@ -250,6 +250,7 @@ fixed
 test_network_events
 .
 html
+\
 MOCHITEST_CHROME_FILES
 =
 \
