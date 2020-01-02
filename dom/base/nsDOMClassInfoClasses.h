@@ -238,10 +238,6 @@ MozIccManager
 endif
 DOMCI_CLASS
 (
-CameraCapabilities
-)
-DOMCI_CLASS
-(
 LockedFile
 )
 DOMCI_CLASS
