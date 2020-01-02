@@ -55,7 +55,7 @@ exception_type
 int32_t
 exception_code
 ;
-int32_t
+int64_t
 exception_subcode
 ;
 }
