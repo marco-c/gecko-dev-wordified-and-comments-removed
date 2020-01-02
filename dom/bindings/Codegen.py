@@ -28283,6 +28283,12 @@ type
 .
 inner
         
+isOwningUnion
+=
+isMember
+or
+isCallbackReturnValue
+        
 unionArgumentObj
 =
 "
@@ -28291,7 +28297,7 @@ declName
 }
 "
 if
-isMember
+isOwningUnion
 else
 "
 {
@@ -28313,7 +28319,7 @@ SetValue
 )
 "
 if
-isMember
+isOwningUnion
 else
 "
 .
@@ -29876,7 +29882,7 @@ CGUnionStruct
 unionTypeDecl
 (
 type
-isMember
+isOwningUnion
 )
         
 argumentTypeName
@@ -30026,7 +30032,7 @@ typeName
 )
         
 if
-isMember
+isOwningUnion
 :
             
 holderType
@@ -30077,7 +30083,7 @@ if
 isOptional
 and
 not
-isMember
+isOwningUnion
 :
                 
 holderArgs
@@ -30203,6 +30209,38 @@ declName
 "
             
 constructHolder
+=
+None
+        
+if
+not
+isMember
+and
+isCallbackReturnValue
+:
+            
+declType
+=
+CGWrapper
+(
+declType
+post
+=
+"
+&
+"
+)
+            
+declArgs
+=
+"
+aRetVal
+"
+        
+else
+:
+            
+declArgs
 =
 None
         
@@ -30516,7 +30554,7 @@ isDictionary
             
 if
 not
-isMember
+isOwningUnion
 and
 typeNeedsRooting
 (
@@ -30643,6 +30681,10 @@ declType
 =
 declType
                                         
+declArgs
+=
+declArgs
+                                        
 holderType
 =
 holderType
@@ -30659,7 +30701,7 @@ and
 not
 nullable
 or
-isMember
+isOwningUnion
 )
 )
     

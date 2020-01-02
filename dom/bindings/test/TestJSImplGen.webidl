@@ -4459,8 +4459,6 @@ long
 arg
 )
 ;
-/
-/
 (
 CanvasPattern
 or
@@ -4470,8 +4468,6 @@ receiveUnion
 (
 )
 ;
-/
-/
 (
 object
 or
@@ -4481,8 +4477,6 @@ receiveUnion2
 (
 )
 ;
-/
-/
 (
 CanvasPattern
 ?
@@ -4493,8 +4487,6 @@ receiveUnionContainingNull
 (
 )
 ;
-/
-/
 (
 CanvasPattern
 or
@@ -4505,8 +4497,6 @@ receiveNullableUnion
 (
 )
 ;
-/
-/
 (
 object
 or
@@ -4517,8 +4507,6 @@ receiveNullableUnion2
 (
 )
 ;
-/
-/
 attribute
 (
 CanvasPattern
@@ -4527,8 +4515,6 @@ CanvasGradient
 )
 writableUnion
 ;
-/
-/
 attribute
 (
 CanvasPattern
@@ -4538,8 +4524,6 @@ CanvasGradient
 )
 writableUnionContainingNull
 ;
-/
-/
 attribute
 (
 CanvasPattern
