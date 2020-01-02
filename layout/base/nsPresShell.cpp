@@ -31675,6 +31675,12 @@ UnlockPointer
 )
 ;
 }
+nsWeakFrame
+weakFrame
+(
+frame
+)
+;
 {
 nsAutoScriptBlocker
 scriptBlocker
@@ -31696,6 +31702,16 @@ nullptr
 )
 ;
 }
+if
+(
+!
+weakFrame
+.
+IsAlive
+(
+)
+)
+{
 frame
 =
 GetNearestFrameContainingPresShell
@@ -31703,6 +31719,7 @@ GetNearestFrameContainingPresShell
 this
 )
 ;
+}
 }
 NS_WARN_IF_FALSE
 (
