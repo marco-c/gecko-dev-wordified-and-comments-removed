@@ -113,6 +113,12 @@ operation
 "
 "
 ;
+DOMString
+owner
+=
+"
+"
+;
 }
 ;
 [
@@ -152,6 +158,11 @@ readonly
 attribute
 DOMString
 operation
+;
+readonly
+attribute
+DOMString
+owner
 ;
 }
 ;
