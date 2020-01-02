@@ -5261,7 +5261,7 @@ aNode
 aNode
 -
 >
-IsInDoc
+GetCrossShadowCurrentDoc
 (
 )
 )
