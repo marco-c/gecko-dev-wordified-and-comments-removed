@@ -328,12 +328,13 @@ jsdval
 )
 {
 return
-JSVAL_IS_NUMBER
-(
 jsdval
 -
 >
 val
+.
+isNumber
+(
 )
 ;
 }

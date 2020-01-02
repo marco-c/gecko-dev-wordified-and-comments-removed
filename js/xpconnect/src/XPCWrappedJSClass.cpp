@@ -1098,9 +1098,10 @@ cx
 else
 if
 (
-JSVAL_IS_NUMBER
-(
 jsexception
+.
+isNumber
+(
 )
 )
 {

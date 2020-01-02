@@ -5907,9 +5907,10 @@ address
 }
 if
 (
-JSVAL_IS_NUMBER
-(
 s
+.
+isNumber
+(
 )
 )
 {
