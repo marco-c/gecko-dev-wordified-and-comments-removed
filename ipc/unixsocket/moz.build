@@ -102,6 +102,11 @@ ipc
 =
 [
 '
+SocketBase
+.
+h
+'
+'
 UnixSocket
 .
 h
@@ -111,6 +116,11 @@ SOURCES
 +
 =
 [
+'
+SocketBase
+.
+cpp
+'
 '
 UnixSocket
 .
