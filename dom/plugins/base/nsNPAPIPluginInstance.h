@@ -1421,7 +1421,7 @@ PluginEventRunnable
 ;
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
 PluginEventRunnable
 >

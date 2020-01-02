@@ -427,7 +427,7 @@ mNumPendingUpdateCurrentDictionary
 uint32_t
 mDisabledAsyncToken
 ;
-nsRefPtr
+nsCOMPtr
 <
 InitEditorSpellCheckCallback
 >

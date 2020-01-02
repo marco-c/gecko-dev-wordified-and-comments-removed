@@ -461,7 +461,7 @@ mSpec
 ;
 }
 ;
-nsRefPtr
+nsCOMPtr
 <
 EventListener
 >

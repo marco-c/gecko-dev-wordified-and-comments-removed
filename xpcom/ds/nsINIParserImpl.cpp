@@ -96,7 +96,7 @@ aResult
 =
 nullptr
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsINIParserImpl
 >

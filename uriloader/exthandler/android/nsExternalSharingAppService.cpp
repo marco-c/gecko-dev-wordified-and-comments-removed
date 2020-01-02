@@ -277,9 +277,11 @@ array
 QueryElementAt
 (
 i
-NS_GET_IID
-(
 nsISharingHandlerApp
+:
+:
+GetIID
+(
 )
 (
 void

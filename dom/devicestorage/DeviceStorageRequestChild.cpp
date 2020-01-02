@@ -968,7 +968,7 @@ dsf
 )
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
 ContinueCursorEvent
 >

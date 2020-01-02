@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -247,7 +240,7 @@ int32_t
 aEndOffset
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsFindContentIterator
 >

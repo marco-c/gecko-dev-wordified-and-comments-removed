@@ -623,9 +623,8 @@ aIID
 .
 Equals
 (
-NS_GET_IID
+GetIID
 (
-Foo
 )
 )
 )
@@ -1051,9 +1050,8 @@ aIID
 .
 Equals
 (
-NS_GET_IID
+GetIID
 (
-Bar
 )
 )
 )

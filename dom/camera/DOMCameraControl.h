@@ -1130,7 +1130,7 @@ CameraCapabilities
 >
 mCapabilities
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1139,7 +1139,7 @@ GetCameraCallback
 >
 mGetCameraOnSuccessCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1148,7 +1148,7 @@ CameraErrorCallback
 >
 mGetCameraOnErrorCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1157,7 +1157,7 @@ CameraAutoFocusCallback
 >
 mAutoFocusOnSuccessCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1166,7 +1166,7 @@ CameraErrorCallback
 >
 mAutoFocusOnErrorCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1175,7 +1175,7 @@ CameraTakePictureCallback
 >
 mTakePictureOnSuccessCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1184,7 +1184,7 @@ CameraErrorCallback
 >
 mTakePictureOnErrorCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1193,7 +1193,7 @@ CameraStartRecordingCallback
 >
 mStartRecordingOnSuccessCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1202,7 +1202,7 @@ CameraErrorCallback
 >
 mStartRecordingOnErrorCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1211,7 +1211,7 @@ CameraReleaseCallback
 >
 mReleaseOnSuccessCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1220,7 +1220,7 @@ CameraErrorCallback
 >
 mReleaseOnErrorCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1229,7 +1229,7 @@ CameraSetConfigurationCallback
 >
 mSetConfigurationOnSuccessCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1238,7 +1238,7 @@ CameraErrorCallback
 >
 mSetConfigurationOnErrorCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1247,7 +1247,7 @@ CameraShutterCallback
 >
 mOnShutterCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1256,7 +1256,7 @@ CameraClosedCallback
 >
 mOnClosedCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :
@@ -1265,7 +1265,7 @@ CameraRecorderStateChange
 >
 mOnRecorderStateChangeCb
 ;
-nsRefPtr
+nsCOMPtr
 <
 dom
 :

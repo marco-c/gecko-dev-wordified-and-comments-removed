@@ -296,7 +296,7 @@ mContentHandler
 return
 NS_OK
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsSAXAttributes
 >

@@ -7,13 +7,6 @@ _NSNSSCALLBACKS_H_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -375,7 +368,7 @@ mPostContentType
 PRIntervalTime
 mTimeoutInterval
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsHTTPListener
 >

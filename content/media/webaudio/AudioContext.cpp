@@ -2028,7 +2028,7 @@ Length
 contentType
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 DecodeErrorCallback
 >

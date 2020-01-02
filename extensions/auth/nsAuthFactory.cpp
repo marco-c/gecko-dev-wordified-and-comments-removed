@@ -15,13 +15,6 @@ nsAuth
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 define
 NS_HTTPNEGOTIATEAUTH_CID
 \
@@ -474,7 +467,7 @@ outer
 return
 NS_ERROR_NO_AGGREGATION
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsAuthSambaNTLM
 >

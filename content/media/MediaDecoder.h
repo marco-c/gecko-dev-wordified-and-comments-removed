@@ -1801,7 +1801,7 @@ mMediaSeekable
 bool
 mSameOriginMedia
 ;
-nsRefPtr
+nsCOMPtr
 <
 MediaDecoderStateMachine
 >

@@ -8297,7 +8297,7 @@ mBufSize
 int32_t
 mBufPos
 ;
-nsRefPtr
+nsCOMPtr
 <
 CacheHash
 >
