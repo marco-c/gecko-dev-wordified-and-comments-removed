@@ -14441,6 +14441,8 @@ toObjectOrNull
 FileHandle
 *
 fileHandle
+=
+nullptr
 ;
 if
 (
