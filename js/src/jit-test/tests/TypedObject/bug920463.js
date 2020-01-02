@@ -10,9 +10,7 @@ TypedObject
 "
 )
 )
-throw
-new
-TypeError
+quit
 (
 )
 ;
