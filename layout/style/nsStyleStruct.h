@@ -5217,6 +5217,16 @@ mTextAlign
 uint8_t
 mTextAlignLast
 ;
+bool
+mTextAlignTrue
+:
+1
+;
+bool
+mTextAlignLastTrue
+:
+1
+;
 uint8_t
 mTextTransform
 ;
