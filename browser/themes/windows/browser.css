@@ -5623,6 +5623,17 @@ none
 ;
 }
 #
+main
+-
+window
+:
+not
+(
+[
+customizing
+]
+)
+#
 back
 -
 button
