@@ -11348,6 +11348,6 @@ uiCustomization
 .
 debug
 "
-true
+false
 )
 ;
