@@ -165,6 +165,11 @@ enabled
 interface
 AnimationPlayer
 {
+readonly
+attribute
+AnimationTimeline
+timeline
+;
 [
 Pure
 ]
