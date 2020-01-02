@@ -1429,14 +1429,6 @@ maybeGetMathCache
 (
 )
 ;
-if
-(
-!
-cache
-)
-return
-InliningStatus_NotInlined
-;
 callInfo
 .
 fun
