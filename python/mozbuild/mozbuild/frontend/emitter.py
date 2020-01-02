@@ -1527,6 +1527,15 @@ CPPSRCS
                 
 '
 .
+cxx
+'
+:
+'
+CPPSRCS
+'
+                
+'
+.
 S
 '
 :
@@ -1575,6 +1584,15 @@ cpp
 '
 HOST_CPPSRCS
 '
+                
+'
+.
+cxx
+'
+:
+'
+HOST_CPPSRCS
+'
             
 }
             
@@ -1612,6 +1630,15 @@ UNIFIED_CPPSRCS
 '
 .
 cpp
+'
+:
+'
+UNIFIED_CPPSRCS
+'
+                
+'
+.
+cxx
 '
 :
 '
