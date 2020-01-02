@@ -3001,8 +3001,6 @@ include
 !
 (
 state
-.
-value
 &
 Ci
 .
