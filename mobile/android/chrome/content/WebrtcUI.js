@@ -1258,7 +1258,7 @@ GetStringFromName
 "
 getUserMedia
 .
-videoSource
+videoDevice
 .
 none
 "
@@ -1271,7 +1271,7 @@ _addDevicesToOptions
 (
 videoDevices
 "
-videoSource
+videoDevice
 "
 options
 extraItems
