@@ -7021,6 +7021,13 @@ then
 =
 >
 {
+if
+(
+this
+.
+_pickerButton
+)
+{
 this
 .
 _pickerButton
@@ -7042,6 +7049,7 @@ _pickerButton
 =
 null
 ;
+}
 }
 )
 )
