@@ -270,6 +270,11 @@ arm_neon
 :
 0
 '
+arm_neon_optional
+'
+:
+1
+'
 moz_widget_toolkit_gonk
 '
 :
@@ -644,6 +649,14 @@ gyp_vars
 [
 '
 armv7
+'
+]
+=
+0
+gyp_vars
+[
+'
+arm_neon_optional
 '
 ]
 =
