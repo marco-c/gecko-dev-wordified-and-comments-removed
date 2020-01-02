@@ -3892,6 +3892,9 @@ class
 GlobalObject
 ;
 class
+ScriptSourceObject
+;
+class
 Shape
 ;
 class
