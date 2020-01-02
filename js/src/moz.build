@@ -1157,6 +1157,13 @@ cpp
 '
 vm
 /
+DebuggerMemory
+.
+cpp
+'
+'
+vm
+/
 ErrorObject
 .
 cpp
