@@ -758,6 +758,10 @@ FreeBSD
 NetBSD
 |
 OpenBSD
+|
+GNU
+/
+kFreeBSD
 )
 ICU_LIB_NAMES
 =
