@@ -188,7 +188,7 @@ gcSystemAllocGranularity
 return
 VirtualAlloc
 (
-NULL
+nullptr
 size
 MEM_COMMIT
 |
@@ -201,7 +201,7 @@ void
 *
 p
 =
-NULL
+nullptr
 ;
 while
 (
@@ -213,7 +213,7 @@ p
 =
 VirtualAlloc
 (
-NULL
+nullptr
 size
 *
 2
@@ -227,7 +227,7 @@ if
 p
 )
 return
-NULL
+nullptr
 ;
 void
 *
@@ -623,7 +623,7 @@ recursions
 OS2_MAX_RECURSIONS
 )
 return
-NULL
+nullptr
 ;
 void
 *
@@ -1238,7 +1238,7 @@ p
 MAP_FAILED
 )
 return
-NULL
+nullptr
 ;
 return
 p
@@ -1527,7 +1527,7 @@ else
 return
 mmap
 (
-NULL
+nullptr
 length
 prot
 flags
@@ -1645,7 +1645,7 @@ region
 MAP_FAILED
 )
 return
-NULL
+nullptr
 ;
 return
 region
@@ -1688,7 +1688,7 @@ region
 MAP_FAILED
 )
 return
-NULL
+nullptr
 ;
 uintptr_t
 regionEnd

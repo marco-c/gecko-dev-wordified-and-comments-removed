@@ -1267,7 +1267,7 @@ toGCThing
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 inline

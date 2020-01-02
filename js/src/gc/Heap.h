@@ -937,7 +937,7 @@ thing
 else
 {
 return
-NULL
+nullptr
 ;
 }
 checkSpan

@@ -193,7 +193,7 @@ Safe
 return
 IncrementalSafety
 (
-NULL
+nullptr
 )
 ;
 }
@@ -242,7 +242,7 @@ return
 reason_
 =
 =
-NULL
+nullptr
 ?
 &
 IncrementalSafety

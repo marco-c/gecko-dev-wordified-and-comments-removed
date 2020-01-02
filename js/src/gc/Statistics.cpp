@@ -563,7 +563,7 @@ if
 buf
 )
 return
-NULL
+nullptr
 ;
 size_t
 nchars
@@ -603,7 +603,7 @@ buf
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 InflateStringToBuffer
@@ -640,7 +640,7 @@ if
 oom_
 )
 return
-NULL
+nullptr
 ;
 buf_
 .
@@ -1549,7 +1549,7 @@ PHASE_NO_PARENT
 }
 {
 PHASE_LIMIT
-NULL
+nullptr
 PHASE_NO_PARENT
 }
 }
@@ -1836,7 +1836,7 @@ ss
 .
 beginObject
 (
-NULL
+nullptr
 )
 ;
 if
@@ -2284,7 +2284,7 @@ ss
 .
 beginObject
 (
-NULL
+nullptr
 )
 ;
 ss
@@ -2663,7 +2663,7 @@ PRMJ_Now
 )
 fp
 (
-NULL
+nullptr
 )
 fullFormat
 (
@@ -2687,7 +2687,7 @@ compartmentCount
 )
 nonincrementalReason
 (
-NULL
+nullptr
 )
 preBytes
 (
@@ -2739,7 +2739,7 @@ none
 {
 fp
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -3088,7 +3088,7 @@ clearAndFree
 ;
 nonincrementalReason
 =
-NULL
+nullptr
 ;
 preBytes
 =

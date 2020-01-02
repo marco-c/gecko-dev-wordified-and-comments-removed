@@ -1077,7 +1077,7 @@ status
 CGCT_VALID
 )
 return
-NULL
+nullptr
 ;
 return
 thing

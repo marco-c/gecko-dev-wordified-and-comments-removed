@@ -316,7 +316,7 @@ reason
 )
 resetReason
 (
-NULL
+nullptr
 )
 start
 (

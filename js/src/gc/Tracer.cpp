@@ -603,7 +603,7 @@ char
 *
 name
 =
-NULL
+nullptr
 ;
 size_t
 n

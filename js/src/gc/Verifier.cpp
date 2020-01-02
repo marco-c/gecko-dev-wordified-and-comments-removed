@@ -1318,7 +1318,7 @@ void
 *
 firstScanned
 =
-NULL
+nullptr
 ;
 for
 (
@@ -1630,7 +1630,7 @@ VerifyPreTracer
 :
 root
 (
-NULL
+nullptr
 )
 {
 }
@@ -1786,7 +1786,7 @@ trc
 >
 debugPrinter
 ?
-NULL
+nullptr
 :
 (
 char
@@ -1896,7 +1896,7 @@ trc
 term
 ;
 return
-NULL
+nullptr
 ;
 }
 node
@@ -1937,7 +1937,7 @@ node
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -2244,7 +2244,7 @@ curnode
 MakeNode
 (
 trc
-NULL
+nullptr
 JSGCTraceKind
 (
 0
@@ -2502,7 +2502,7 @@ rt
 >
 gcVerifyPreData
 =
-NULL
+nullptr
 ;
 }
 static
@@ -2648,7 +2648,7 @@ i
 .
 thing
 =
-NULL
+nullptr
 ;
 return
 ;
@@ -2877,7 +2877,7 @@ rt
 >
 gcVerifyPreData
 =
-NULL
+nullptr
 ;
 rt
 -
@@ -3244,7 +3244,7 @@ trc
 realLocation
 !
 =
-NULL
+nullptr
 ?
 (
 void
@@ -3447,7 +3447,7 @@ trc
 realLocation
 !
 =
-NULL
+nullptr
 ?
 (
 void
@@ -3662,7 +3662,7 @@ rt
 >
 gcVerifyPostData
 =
-NULL
+nullptr
 ;
 #
 endif
@@ -4002,7 +4002,7 @@ rt
 >
 gcVerifyPreData
 =
-NULL
+nullptr
 ;
 }
 #
@@ -4034,7 +4034,7 @@ rt
 >
 gcVerifyPostData
 =
-NULL
+nullptr
 ;
 }
 #

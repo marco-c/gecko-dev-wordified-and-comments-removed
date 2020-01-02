@@ -1227,7 +1227,7 @@ toGCThing
 (
 )
 :
-NULL
+nullptr
 ;
 }
 void
