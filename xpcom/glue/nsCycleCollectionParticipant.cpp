@@ -87,7 +87,10 @@ aScriptThing
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsXPCOMCycleCollectionParticipant
 :
 :
@@ -116,11 +119,11 @@ NS_ADDREF
 s
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsXPCOMCycleCollectionParticipant
 :
 :
@@ -148,9 +151,6 @@ NS_RELEASE
 (
 s
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP_
