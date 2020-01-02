@@ -345,11 +345,15 @@ aSend
 void
 HandleIccInfoChanged
 (
+uint32_t
+aClientId
 )
 ;
 void
 HandleVoiceConnectionChanged
 (
+uint32_t
+aClientId
 )
 ;
 void
