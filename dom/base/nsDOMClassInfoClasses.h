@@ -112,6 +112,10 @@ XPathNSResolver
 )
 DOMCI_CLASS
 (
+XPathResult
+)
+DOMCI_CLASS
+(
 Storage
 )
 DOMCI_CLASS
@@ -125,10 +129,6 @@ File
 DOMCI_CLASS
 (
 ModalContentWindow
-)
-DOMCI_CLASS
-(
-MozMobileMessageManager
 )
 DOMCI_CLASS
 (
