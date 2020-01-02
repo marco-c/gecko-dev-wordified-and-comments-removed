@@ -197,6 +197,10 @@ mHasScrollgrab
 (
 false
 )
+mUpdateScrollOffset
+(
+false
+)
 {
 }
 bool
@@ -324,6 +328,14 @@ mIsRoot
 aOther
 .
 mIsRoot
+&
+&
+mUpdateScrollOffset
+=
+=
+aOther
+.
+mUpdateScrollOffset
 ;
 }
 bool
@@ -633,6 +645,9 @@ mIsRoot
 ;
 bool
 mHasScrollgrab
+;
+bool
+mUpdateScrollOffset
 ;
 }
 ;

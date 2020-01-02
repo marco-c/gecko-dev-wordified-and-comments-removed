@@ -434,6 +434,13 @@ mozapptype
 )
 GK_ATOM
 (
+apz
+"
+apz
+"
+)
+GK_ATOM
+(
 archive
 "
 archive
