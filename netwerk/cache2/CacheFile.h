@@ -350,7 +350,6 @@ const
 char
 *
 aKey
-const
 char
 *
 *
