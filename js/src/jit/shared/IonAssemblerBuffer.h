@@ -1243,14 +1243,10 @@ if
 !
 tmp
 )
-{
 m_oom
 =
 true
 ;
-return
-;
-}
 bufferSize
 +
 =
