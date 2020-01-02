@@ -2233,6 +2233,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvGetSystemMemory
+(
+const
+uint64_t
+&
+getterId
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvBroadcastVolume
 (
 const

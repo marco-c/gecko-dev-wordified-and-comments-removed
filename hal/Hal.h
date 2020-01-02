@@ -1009,6 +1009,11 @@ GetTotalSystemMemory
 (
 )
 ;
+uint32_t
+GetTotalSystemMemoryLevel
+(
+)
+;
 }
 }
 #
