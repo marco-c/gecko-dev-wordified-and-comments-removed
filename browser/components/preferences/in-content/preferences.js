@@ -211,6 +211,13 @@ value
 )
 )
 ;
+gotoPref
+(
+"
+paneGeneral
+"
+)
+;
 }
 function
 selectCategory

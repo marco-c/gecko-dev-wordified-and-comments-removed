@@ -759,6 +759,11 @@ class
 "
 header
 "
+hidden
+=
+"
+true
+"
 data
 -
 category
@@ -822,6 +827,11 @@ category
 =
 "
 paneGeneral
+"
+hidden
+=
+"
+true
 "
 >
 <
@@ -1306,6 +1316,11 @@ category
 "
 paneGeneral
 "
+hidden
+=
+"
+true
+"
 >
 <
 caption
@@ -1603,6 +1618,11 @@ category
 =
 "
 paneGeneral
+"
+hidden
+=
+"
+true
 "
 >
 <
