@@ -7098,9 +7098,9 @@ home
 .
 sync
 .
-wifiOnly
+updateMode
 "
-false
+0
 )
 ;
 pref
