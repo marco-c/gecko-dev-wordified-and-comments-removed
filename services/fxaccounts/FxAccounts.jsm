@@ -3401,6 +3401,7 @@ notifyObservers
 function
 (
 topic
+data
 )
 {
 log
@@ -3424,7 +3425,7 @@ notifyObservers
 (
 null
 topic
-null
+data
 )
 ;
 }
@@ -3627,6 +3628,14 @@ currentState
 whenVerifiedDeferred
 ;
 }
+this
+.
+notifyObservers
+(
+ON_FXA_UPDATE_NOTIFICATION
+ONVERIFIED_NOTIFICATION
+)
+;
 }
 )
 ;

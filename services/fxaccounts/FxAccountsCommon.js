@@ -431,6 +431,16 @@ onlogout
 ;
 this
 .
+ON_FXA_UPDATE_NOTIFICATION
+=
+"
+fxaccounts
+:
+update
+"
+;
+this
+.
 UI_REQUEST_SIGN_IN_FLOW
 =
 "
