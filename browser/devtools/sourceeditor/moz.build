@@ -115,6 +115,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+debugger
+.
+js
+'
+'
 editor
 .
 js

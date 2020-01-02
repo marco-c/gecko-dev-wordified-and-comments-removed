@@ -272,7 +272,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "
@@ -423,7 +423,7 @@ is
 (
 gEditor
 .
-getSelectedText
+getSelection
 (
 )
 "

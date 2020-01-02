@@ -697,8 +697,7 @@ gEditor
 getDebugLocation
 (
 )
--
-1
+null
 "
 Editor
 debugger

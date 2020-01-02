@@ -635,7 +635,7 @@ debuggerView
 .
 editor
 .
-getCaretPosition
+getCursor
 (
 )
 .

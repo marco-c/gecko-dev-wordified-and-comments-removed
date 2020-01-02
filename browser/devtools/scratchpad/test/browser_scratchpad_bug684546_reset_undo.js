@@ -592,7 +592,7 @@ gScratchpad
 .
 editor
 .
-posFromIndex
+getPosition
 (
 gScratchpad
 .
@@ -802,7 +802,7 @@ gScratchpad
 .
 editor
 .
-posFromIndex
+getPosition
 (
 gScratchpad
 .

@@ -225,7 +225,7 @@ openPopup
 (
 gEditor
 .
-editorElement
+container
 "
 overlap
 "

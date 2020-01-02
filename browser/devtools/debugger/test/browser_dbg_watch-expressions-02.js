@@ -28,7 +28,6 @@ gPanel
 gDebugger
 ;
 let
-gEditor
 gWatch
 gVariables
 ;
@@ -66,14 +65,6 @@ gDebugger
 gPanel
 .
 panelWin
-;
-gEditor
-=
-gDebugger
-.
-DebuggerView
-.
-editor
 ;
 gWatch
 =

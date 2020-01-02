@@ -152,7 +152,7 @@ view
 .
 editor
 .
-getCaretPosition
+getCursor
 (
 )
 .
@@ -173,9 +173,16 @@ view
 .
 editor
 .
-setCaretPosition
+setCursor
 (
+{
+line
+:
 1
+ch
+:
+1
+}
 )
 ;
 gDevTools
@@ -214,7 +221,7 @@ view
 .
 editor
 .
-getCaretPosition
+getCursor
 (
 )
 .
