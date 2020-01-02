@@ -875,12 +875,6 @@ init
 (
 )
 ;
-PdfJs
-.
-init
-(
-)
-;
 }
 catch
 (
