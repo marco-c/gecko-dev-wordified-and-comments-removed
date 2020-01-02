@@ -6415,7 +6415,12 @@ name
 *
 ids
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 ;
 +
 +

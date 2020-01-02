@@ -18687,7 +18687,12 @@ isEmptyShape
 *
 idp
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 ;
 }
 else
@@ -18778,7 +18783,12 @@ i
 *
 idp
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 ;
 }
 else

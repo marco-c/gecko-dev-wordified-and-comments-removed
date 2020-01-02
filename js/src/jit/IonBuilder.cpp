@@ -27723,7 +27723,12 @@ initializer
 >
 property
 (
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 )
 ;
 if
@@ -38415,7 +38420,12 @@ propertyNeedsBarrier
 constraints
 (
 )
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 )
 )
 store

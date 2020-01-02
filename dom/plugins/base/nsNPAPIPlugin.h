@@ -494,7 +494,12 @@ NPIdentifier_VOID
 (
 JSIdToNPIdentifier
 (
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 )
 )
 NPObject

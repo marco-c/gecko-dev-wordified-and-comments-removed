@@ -1066,7 +1066,12 @@ if
 id
 =
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 )
 return
 false
@@ -1548,7 +1553,12 @@ if
 id
 =
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 )
 return
 true

@@ -4517,7 +4517,12 @@ nullptr
 )
 id_
 (
-JSID_EMPTY
+jsid
+:
+:
+emptyId
+(
+)
 )
 maybeTypes_
 (

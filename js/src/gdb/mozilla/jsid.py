@@ -234,7 +234,12 @@ TYPE_VOID
             
 return
 "
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 "
         
 elif

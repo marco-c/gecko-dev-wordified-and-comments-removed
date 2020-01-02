@@ -800,7 +800,12 @@ bp
 id
 =
 =
-JSID_VOID
+jsid
+:
+:
+voidId
+(
+)
 )
 return
 false
