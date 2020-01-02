@@ -28896,13 +28896,6 @@ pn_kid
 =
 kid
 ;
-pn
--
->
-pn_hidden
-=
-true
-;
 ParseNode
 *
 genfn
