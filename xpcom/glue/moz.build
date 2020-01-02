@@ -436,6 +436,11 @@ DeadlockDetector
 h
 '
 '
+EnumeratedArrayCycleCollection
+.
+h
+'
+'
 FileUtils
 .
 h
