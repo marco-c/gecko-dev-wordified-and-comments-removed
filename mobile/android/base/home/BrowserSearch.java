@@ -1405,7 +1405,7 @@ TextUtils
 .
 isEmpty
 (
-mSearchTerm
+searchTerm
 )
 )
 {
