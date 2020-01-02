@@ -1349,14 +1349,6 @@ AsmJSNeg
 )
 UNSAFE_OP
 (
-AsmJSUDiv
-)
-UNSAFE_OP
-(
-AsmJSUMod
-)
-UNSAFE_OP
-(
 AsmJSLoadHeap
 )
 UNSAFE_OP
