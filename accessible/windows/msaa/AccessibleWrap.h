@@ -108,13 +108,6 @@ aDoc
 )
 {
 }
-virtual
-~
-AccessibleWrap
-(
-)
-{
-}
 NS_DECL_ISUPPORTS_INHERITED
 public
 :
@@ -551,6 +544,13 @@ aXPAccessible
 ;
 protected
 :
+virtual
+~
+AccessibleWrap
+(
+)
+{
+}
 static
 ITypeInfo
 *

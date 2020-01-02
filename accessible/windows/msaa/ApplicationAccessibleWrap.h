@@ -32,6 +32,12 @@ ApplicationAccessible
 public
 IAccessibleApplication
 {
+~
+ApplicationAccessibleWrap
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS_INHERITED

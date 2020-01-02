@@ -39,6 +39,12 @@ XULTreeGridAccessible
 public
 ia2AccessibleTable
 {
+~
+XULTreeGridAccessibleWrap
+(
+)
+{
+}
 public
 :
 XULTreeGridAccessibleWrap
@@ -85,6 +91,12 @@ XULTreeGridCellAccessible
 public
 ia2AccessibleTableCell
 {
+~
+XULTreeGridCellAccessibleWrap
+(
+)
+{
+}
 public
 :
 XULTreeGridCellAccessibleWrap

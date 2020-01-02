@@ -53,6 +53,14 @@ aDoc
 }
 DECL_IUNKNOWN_INHERITED
 NS_DECL_ISUPPORTS_INHERITED
+protected
+:
+~
+ImageAccessibleWrap
+(
+)
+{
+}
 }
 ;
 }

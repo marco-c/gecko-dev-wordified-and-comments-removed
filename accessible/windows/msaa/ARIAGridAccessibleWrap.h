@@ -39,6 +39,12 @@ ARIAGridAccessible
 public
 ia2AccessibleTable
 {
+~
+ARIAGridAccessibleWrap
+(
+)
+{
+}
 public
 :
 ARIAGridAccessibleWrap
@@ -81,6 +87,12 @@ ARIAGridCellAccessible
 public
 ia2AccessibleTableCell
 {
+~
+ARIAGridCellAccessibleWrap
+(
+)
+{
+}
 public
 :
 ARIAGridCellAccessibleWrap

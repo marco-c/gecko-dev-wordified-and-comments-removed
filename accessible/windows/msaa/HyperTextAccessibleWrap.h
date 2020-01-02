@@ -96,6 +96,12 @@ aEvent
 ;
 protected
 :
+~
+HyperTextAccessibleWrap
+(
+)
+{
+}
 virtual
 nsresult
 GetModifiedText
