@@ -692,14 +692,9 @@ return
 }
 this
 .
-loadView
+loadReactComponent
 (
-new
-loop
-.
-shared
-.
-views
+sharedViews
 .
 ConversationView
 (
