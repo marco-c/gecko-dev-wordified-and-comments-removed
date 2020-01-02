@@ -5107,6 +5107,14 @@ WebGLExtensionTextureFloatLinear
 NoInterfaceObject
 ]
 interface
+WebGLExtensionShaderTextureLod
+{
+}
+;
+[
+NoInterfaceObject
+]
+interface
 WebGLExtensionTextureHalfFloat
 {
 const

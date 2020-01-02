@@ -410,6 +410,11 @@ WebGLExtensionLoseContext
 cpp
 '
 '
+WebGLExtensionShaderTextureLod
+.
+cpp
+'
+'
 WebGLExtensionSRGB
 .
 cpp

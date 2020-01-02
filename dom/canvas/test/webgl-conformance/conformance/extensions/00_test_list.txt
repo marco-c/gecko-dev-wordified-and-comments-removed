@@ -86,3 +86,12 @@ ext
 sRGB
 .
 html
+ext
+-
+shader
+-
+texture
+-
+lod
+.
+html
