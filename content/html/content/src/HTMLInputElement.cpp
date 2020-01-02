@@ -4985,6 +4985,10 @@ mPickerRunning
 (
 false
 )
+mSelectionCached
+(
+true
+)
 {
 mInputData
 .
