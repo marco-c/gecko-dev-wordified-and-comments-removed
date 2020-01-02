@@ -168,6 +168,11 @@ const
 nsresult
 ReadCMAP
 (
+FontInfoData
+*
+aFontInfoData
+=
+nullptr
 )
 ;
 bool
@@ -415,6 +420,15 @@ return
 true
 ;
 }
+virtual
+already_AddRefed
+<
+FontInfoData
+>
+CreateFontInfoData
+(
+)
+;
 enum
 {
 kATSGenerationInitial

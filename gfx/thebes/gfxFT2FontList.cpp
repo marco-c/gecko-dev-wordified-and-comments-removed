@@ -2054,6 +2054,9 @@ FT2FontEntry
 :
 ReadCMAP
 (
+FontInfoData
+*
+aFontInfoData
 )
 {
 if

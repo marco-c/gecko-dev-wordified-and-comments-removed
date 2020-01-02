@@ -295,6 +295,11 @@ mLogFont
 nsresult
 ReadCMAP
 (
+FontInfoData
+*
+aFontInfoData
+=
+nullptr
 )
 ;
 virtual
@@ -1138,6 +1143,11 @@ virtual
 void
 FindStyleVariations
 (
+FontInfoData
+*
+aFontInfoData
+=
+nullptr
 )
 ;
 private
