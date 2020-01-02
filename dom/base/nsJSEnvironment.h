@@ -402,6 +402,12 @@ aResults
 ;
 static
 void
+RunNextCollectorTimer
+(
+)
+;
+static
+void
 PokeGC
 (
 JS
