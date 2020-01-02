@@ -1429,8 +1429,12 @@ LOCAL_GL_MAX
 :
 if
 (
-IsWebGL2
+IsExtensionEnabled
 (
+WebGLExtensionID
+:
+:
+EXT_blend_minmax
 )
 )
 {
