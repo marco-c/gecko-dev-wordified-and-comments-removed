@@ -11284,3 +11284,15 @@ propagate_gesture_events_through_content
 false
 )
 ;
+pref
+(
+"
+browser
+.
+uiCustomization
+.
+debug
+"
+true
+)
+;
