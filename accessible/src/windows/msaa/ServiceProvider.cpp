@@ -70,13 +70,6 @@ nsIDocShell
 .
 h
 "
-#
-include
-"
-ISimpleDOMNode_i
-.
-c
-"
 namespace
 mozilla
 {
