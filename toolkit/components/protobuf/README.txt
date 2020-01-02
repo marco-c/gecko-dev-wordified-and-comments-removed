@@ -157,3 +157,16 @@ from
 revision
 r512
 )
+vs2013
+.
+patch
+Additional
+changes
+to
+support
+VS2013
+missed
+from
+revision
+r512
+.

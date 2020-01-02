@@ -7,6 +7,11 @@ GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_INL_H__
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 >
 #
