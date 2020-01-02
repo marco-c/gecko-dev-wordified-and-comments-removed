@@ -341,6 +341,9 @@ SECItem
 encodedResponse
 EncodedResponseSource
 responseSource
+bool
+&
+expired
 )
 ;
 const

@@ -26,7 +26,9 @@ ORTNull
 0
 ORTGood
 ORTRevoked
+ORTRevokedOld
 ORTUnknown
+ORTUnknownOld
 ORTGoodOtherCert
 ORTGoodOtherCA
 ORTExpired

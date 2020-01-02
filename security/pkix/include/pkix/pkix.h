@@ -109,6 +109,9 @@ const
 SECItem
 *
 encodedResponse
+bool
+&
+expired
 PRTime
 *
 thisUpdate
