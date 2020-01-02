@@ -3506,7 +3506,14 @@ menuPanelWidth
 ;
 height
 :
-auto
+calc
+(
+2
+.
+2em
++
+4px
+)
 ;
 max
 -
