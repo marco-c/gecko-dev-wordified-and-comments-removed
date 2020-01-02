@@ -3653,7 +3653,7 @@ unregisterEventListener
 "
 TextSelection
 :
-IMECompositions
+DraggingHandle
 "
 this
 )
@@ -3687,7 +3687,7 @@ registerEventListener
 "
 TextSelection
 :
-IMECompositions
+DraggingHandle
 "
 this
 )
@@ -6235,7 +6235,7 @@ if
 "
 TextSelection
 :
-IMECompositions
+DraggingHandle
 "
 .
 equals
@@ -6254,7 +6254,7 @@ message
 optBoolean
 (
 "
-suppress
+dragging
 "
 false
 )
