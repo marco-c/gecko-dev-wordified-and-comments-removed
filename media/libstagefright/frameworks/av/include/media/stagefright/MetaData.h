@@ -48,7 +48,7 @@ String8
 h
 >
 namespace
-android
+stagefright
 {
 enum
 {
@@ -127,6 +127,11 @@ kKeySampleRate
 =
 '
 srte
+'
+kKeySampleSize
+=
+'
+ssiz
 '
 kKeyFrameRate
 =

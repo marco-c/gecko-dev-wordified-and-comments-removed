@@ -74,7 +74,7 @@ ctype
 h
 >
 namespace
-android
+stagefright
 {
 static
 SharedBuffer

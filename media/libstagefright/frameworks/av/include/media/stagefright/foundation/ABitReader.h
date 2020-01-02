@@ -34,7 +34,7 @@ stdint
 h
 >
 namespace
-android
+stagefright
 {
 struct
 ABitReader

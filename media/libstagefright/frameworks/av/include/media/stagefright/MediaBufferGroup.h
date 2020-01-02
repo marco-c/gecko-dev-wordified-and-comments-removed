@@ -34,7 +34,7 @@ threads
 h
 >
 namespace
-android
+stagefright
 {
 class
 MediaBuffer

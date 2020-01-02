@@ -47,7 +47,7 @@ C
 {
 }
 namespace
-android
+stagefright
 {
 class
 String8

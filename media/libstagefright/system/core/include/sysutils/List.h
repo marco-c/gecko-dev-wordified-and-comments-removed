@@ -19,7 +19,7 @@ stdint
 h
 >
 namespace
-android
+stagefright
 {
 namespace
 sysutils

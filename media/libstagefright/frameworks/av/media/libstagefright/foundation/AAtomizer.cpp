@@ -15,7 +15,7 @@ AAtomizer
 h
 "
 namespace
-android
+stagefright
 {
 AAtomizer
 AAtomizer

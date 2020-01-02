@@ -101,7 +101,7 @@ atomics
 h
 >
 namespace
-android
+stagefright
 {
 MediaBuffer
 :

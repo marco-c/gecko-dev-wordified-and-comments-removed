@@ -27,7 +27,7 @@ AMessage
 h
 "
 namespace
-android
+stagefright
 {
 ABuffer
 :

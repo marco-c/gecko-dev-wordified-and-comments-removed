@@ -26,7 +26,7 @@ h
 ifdef
 __cplusplus
 namespace
-android
+stagefright
 {
 class
 LogIfSlow
@@ -90,7 +90,7 @@ timeoutMillis
 message
 )
 \
-android
+stagefright
 :
 :
 LogIfSlow

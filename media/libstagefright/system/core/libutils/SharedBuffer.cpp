@@ -31,7 +31,7 @@ Atomic
 h
 >
 namespace
-android
+stagefright
 {
 SharedBuffer
 *

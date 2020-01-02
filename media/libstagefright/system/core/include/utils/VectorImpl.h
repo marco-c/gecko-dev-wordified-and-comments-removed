@@ -37,7 +37,7 @@ Errors
 h
 >
 namespace
-android
+stagefright
 {
 class
 VectorImpl

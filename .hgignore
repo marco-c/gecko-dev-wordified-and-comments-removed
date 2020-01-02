@@ -317,6 +317,17 @@ chrome
 .
 manifest
 #
+git
+checkout
+of
+libstagefright
+^
+media
+/
+libstagefright
+/
+android
+#
 Tag
 files
 generated

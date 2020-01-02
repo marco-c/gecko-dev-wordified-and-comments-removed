@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -149,7 +152,7 @@ AudioParameter
 h
 >
 namespace
-android
+stagefright
 {
 uint16_t
 U16_AT
@@ -407,6 +410,9 @@ x
 )
 ;
 }
+#
+if
+0
 status_t
 convertMetaDataToMessage
 (
@@ -4102,4 +4108,9 @@ info
 )
 ;
 }
+#
+endif
 }
+#
+undef
+LOG_TAG

@@ -43,7 +43,7 @@ Vector
 h
 >
 namespace
-android
+stagefright
 {
 class
 MediaBuffer

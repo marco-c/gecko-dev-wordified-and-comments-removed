@@ -62,7 +62,7 @@ VectorImpl
 h
 >
 namespace
-android
+stagefright
 {
 const
 size_t

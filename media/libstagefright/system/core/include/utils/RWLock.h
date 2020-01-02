@@ -54,7 +54,7 @@ ThreadDefs
 h
 >
 namespace
-android
+stagefright
 {
 #
 if

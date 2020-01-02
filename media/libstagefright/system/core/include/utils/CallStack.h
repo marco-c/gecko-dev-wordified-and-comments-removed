@@ -39,7 +39,7 @@ backtrace
 h
 >
 namespace
-android
+stagefright
 {
 class
 CallStack

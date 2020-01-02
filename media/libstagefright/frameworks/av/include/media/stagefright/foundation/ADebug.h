@@ -47,7 +47,7 @@ Log
 h
 >
 namespace
-android
+stagefright
 {
 #
 define

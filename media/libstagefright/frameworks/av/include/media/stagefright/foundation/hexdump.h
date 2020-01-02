@@ -14,7 +14,7 @@ types
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AString

@@ -56,7 +56,7 @@ TypeHelpers
 h
 "
 namespace
-android
+stagefright
 {
 namespace
 tinyutils

@@ -27,7 +27,7 @@ RefBase
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AMessage

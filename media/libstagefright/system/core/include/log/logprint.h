@@ -32,13 +32,6 @@ event_tag_map
 h
 >
 #
-include
-<
-pthread
-.
-h
->
-#
 ifdef
 __cplusplus
 extern

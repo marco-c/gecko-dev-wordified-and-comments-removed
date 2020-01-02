@@ -50,7 +50,7 @@ threads
 h
 >
 namespace
-android
+stagefright
 {
 class
 DataSource

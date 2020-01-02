@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -76,7 +79,7 @@ SampleTable
 h
 "
 namespace
-android
+stagefright
 {
 SampleIterator
 :
@@ -1323,3 +1326,6 @@ OK
 ;
 }
 }
+#
+undef
+LOG_TAG

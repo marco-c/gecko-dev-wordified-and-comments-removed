@@ -21,7 +21,7 @@ errno
 h
 >
 namespace
-android
+stagefright
 {
 namespace
 tinyutils

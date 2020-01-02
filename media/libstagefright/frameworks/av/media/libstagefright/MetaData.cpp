@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -78,7 +81,7 @@ MetaData
 h
 >
 namespace
-android
+stagefright
 {
 MetaData
 :
@@ -1809,3 +1812,6 @@ string
 }
 }
 }
+#
+undef
+LOG_TAG

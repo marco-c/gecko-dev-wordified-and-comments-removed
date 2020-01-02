@@ -23,7 +23,7 @@ MediaErrors
 h
 >
 namespace
-android
+stagefright
 {
 class
 ESDS

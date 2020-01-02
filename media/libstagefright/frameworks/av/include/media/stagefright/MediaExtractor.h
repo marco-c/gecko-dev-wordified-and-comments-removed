@@ -14,7 +14,7 @@ RefBase
 h
 >
 namespace
-android
+stagefright
 {
 class
 DataSource
@@ -109,6 +109,8 @@ MetaData
 getMetaData
 (
 )
+=
+0
 ;
 enum
 Flags
@@ -133,6 +135,8 @@ flags
 (
 )
 const
+=
+0
 ;
 void
 setDrmFlag

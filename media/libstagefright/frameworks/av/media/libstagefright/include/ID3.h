@@ -14,7 +14,7 @@ RefBase
 h
 >
 namespace
-android
+stagefright
 {
 struct
 DataSource

@@ -1,5 +1,5 @@
 namespace
-android
+stagefright
 {
 extern
 void

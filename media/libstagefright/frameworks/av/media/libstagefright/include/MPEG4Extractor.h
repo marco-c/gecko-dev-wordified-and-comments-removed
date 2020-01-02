@@ -74,7 +74,7 @@ String8
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AMessage

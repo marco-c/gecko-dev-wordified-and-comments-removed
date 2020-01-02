@@ -10,7 +10,7 @@ MediaDefs
 h
 >
 namespace
-android
+stagefright
 {
 const
 char

@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -30,7 +33,7 @@ string
 h
 >
 namespace
-android
+stagefright
 {
 ESDS
 :
@@ -817,3 +820,6 @@ OK
 ;
 }
 }
+#
+undef
+LOG_TAG

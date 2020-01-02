@@ -37,7 +37,7 @@ stdlib
 h
 >
 namespace
-android
+stagefright
 {
 template
 <

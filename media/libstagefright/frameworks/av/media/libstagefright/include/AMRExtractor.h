@@ -25,7 +25,7 @@ MediaExtractor
 h
 >
 namespace
-android
+stagefright
 {
 struct
 AMessage

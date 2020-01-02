@@ -1,4 +1,7 @@
 #
+undef
+LOG_TAG
+#
 define
 LOG_TAG
 "
@@ -76,7 +79,7 @@ Utils
 h
 >
 namespace
-android
+stagefright
 {
 const
 uint32_t
@@ -3337,3 +3340,6 @@ sampleIndex
 ;
 }
 }
+#
+undef
+LOG_TAG

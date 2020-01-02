@@ -21,7 +21,7 @@ types
 h
 >
 namespace
-android
+stagefright
 {
 #
 ifdef

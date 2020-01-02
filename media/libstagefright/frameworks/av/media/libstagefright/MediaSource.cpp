@@ -10,7 +10,7 @@ MediaSource
 h
 >
 namespace
-android
+stagefright
 {
 MediaSource
 :

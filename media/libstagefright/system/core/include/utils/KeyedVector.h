@@ -64,7 +64,7 @@ Errors
 h
 >
 namespace
-android
+stagefright
 {
 template
 <

@@ -5,7 +5,7 @@ MEDIA_DEFS_H_
 define
 MEDIA_DEFS_H_
 namespace
-android
+stagefright
 {
 extern
 const
