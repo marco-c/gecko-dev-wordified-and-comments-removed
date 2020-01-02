@@ -859,6 +859,9 @@ profileDir
 function
 makeDir
 (
+create
+=
+true
 )
 {
 return
@@ -893,6 +896,16 @@ DUMMY_DIR_COUNT
 +
 )
 ;
+if
+(
+!
+create
+)
+{
+return
+path
+;
+}
 dump
 (
 "
@@ -969,6 +982,7 @@ storeD
 yield
 makeDir
 (
+false
 )
 ;
 let
