@@ -885,6 +885,17 @@ targetpath
 )
 :
           
+if
+sys
+.
+platform
+=
+=
+"
+win32
+"
+:
+            
 os
 .
 chmod
