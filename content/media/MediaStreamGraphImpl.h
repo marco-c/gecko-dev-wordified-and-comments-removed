@@ -50,6 +50,15 @@ Latency
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -60,6 +69,9 @@ T
 >
 class
 LinkedList
+;
+class
+AudioMixer
 ;
 static
 const
@@ -508,7 +520,7 @@ MediaStream
 aStream
 )
 ;
-void
+TrackTicks
 PlayAudio
 (
 MediaStream
@@ -768,6 +780,12 @@ nsRefPtr
 AsyncLatencyLogger
 >
 mLatencyLog
+;
+nsAutoPtr
+<
+AudioMixer
+>
+mMixer
 ;
 }
 ;
