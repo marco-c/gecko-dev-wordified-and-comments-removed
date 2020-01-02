@@ -3635,6 +3635,17 @@ ForgetSharedData
 mTextureHost
 -
 >
+ClearRecycleCallback
+(
+)
+;
+mWaitForClientRecycle
+=
+nullptr
+;
+mTextureHost
+-
+>
 mActor
 =
 nullptr

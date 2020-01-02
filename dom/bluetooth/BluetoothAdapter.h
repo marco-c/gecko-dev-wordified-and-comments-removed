@@ -132,6 +132,13 @@ aValue
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+DisconnectFromOwner
+(
+)
+MOZ_OVERRIDE
+;
 void
 GetAddress
 (

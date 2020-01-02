@@ -2992,6 +2992,13 @@ mIsVideoPrerolling
 mIsVideoDecoding
 &
 &
+GetClock
+(
+)
+>
+mVideoFrameEndTime
+&
+&
 (
 static_cast
 <
