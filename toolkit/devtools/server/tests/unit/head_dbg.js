@@ -926,7 +926,7 @@ aClient
 aTitle
 function
 (
-aResponse
+aTabResponse
 aTabClient
 )
 {
@@ -942,6 +942,7 @@ aCallback
 aResponse
 aTabClient
 aThreadClient
+aTabResponse
 )
 ;
 }
