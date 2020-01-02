@@ -124,7 +124,7 @@ attribute
 DOMString
 callID
 ;
-MediaStreamConstraintsInternal
+MediaStreamConstraints
 getConstraints
 (
 )
