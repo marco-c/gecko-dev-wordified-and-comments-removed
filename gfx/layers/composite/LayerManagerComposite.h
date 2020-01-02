@@ -928,6 +928,9 @@ TextRenderer
 >
 mTextRenderer
 ;
+bool
+mGeometryChanged
+;
 }
 ;
 class
