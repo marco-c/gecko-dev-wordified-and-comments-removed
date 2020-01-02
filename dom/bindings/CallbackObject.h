@@ -477,6 +477,10 @@ JSCompartment
 aCompartment
 =
 nullptr
+bool
+aIsJSImplementedWebIDL
+=
+false
 )
 ;
 ~
