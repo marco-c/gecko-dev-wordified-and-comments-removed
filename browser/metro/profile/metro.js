@@ -3629,6 +3629,9 @@ toolbar_tips
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -3673,6 +3676,8 @@ alwaysAskBeforeHandling
 false
 )
 ;
+#
+endif
 #
 ifdef
 NIGHTLY_BUILD

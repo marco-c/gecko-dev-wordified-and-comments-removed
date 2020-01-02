@@ -302,6 +302,8 @@ manifest
 endif
 ifdef
 MOZ_METRO
+ifdef
+NIGHTLY_BUILD
 (
 DIST
 )
@@ -416,8 +418,6 @@ pdfjs
 manifest
 '
 )
-ifdef
-NIGHTLY_BUILD
 (
 DIST
 )
