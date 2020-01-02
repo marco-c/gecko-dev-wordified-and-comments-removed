@@ -321,9 +321,6 @@ MozFrameRequestCallback
 interface
 nsIDOMCrypto
 ;
-interface
-Pkcs11
-;
 typedef
 any
 Transferable
@@ -2208,12 +2205,6 @@ void
 sizeToContent
 (
 )
-;
-readonly
-attribute
-Pkcs11
-?
-pkcs11
 ;
 /
 /

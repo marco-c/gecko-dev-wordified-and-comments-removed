@@ -4358,16 +4358,6 @@ ErrorResult
 aError
 )
 ;
-nsIDOMPkcs11
-*
-GetPkcs11
-(
-)
-{
-return
-nullptr
-;
-}
 nsIControllers
 *
 GetControllers

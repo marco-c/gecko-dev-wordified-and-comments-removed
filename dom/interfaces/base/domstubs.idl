@@ -300,9 +300,6 @@ Crypto
 interface
 nsIDOMCrypto
 ;
-interface
-nsIDOMPkcs11
-;
 /
 /
 Used

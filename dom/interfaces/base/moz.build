@@ -188,11 +188,6 @@ nsIDOMNavigator
 idl
 '
 '
-nsIDOMPkcs11
-.
-idl
-'
-'
 nsIDOMScreen
 .
 idl
