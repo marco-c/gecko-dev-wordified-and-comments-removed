@@ -695,7 +695,7 @@ RequestContentRepaint
 )
 ;
 void
-ScheduleContentRepaint
+RequestContentRepaint
 (
 FrameMetrics
 &
