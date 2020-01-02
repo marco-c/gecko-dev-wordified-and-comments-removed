@@ -8702,10 +8702,6 @@ mAutoplayEnabled
 (
 true
 )
-mStatsShowing
-(
-false
-)
 mPaused
 (
 true
@@ -8713,6 +8709,10 @@ true
 mMuted
 (
 0
+)
+mStatsShowing
+(
+false
 )
 mAudioCaptured
 (
