@@ -681,6 +681,13 @@ macro
 (
 _
 _
+nurseryHugeSlots
+)
+\
+macro
+(
+_
+_
 storeBufferVals
 )
 \
