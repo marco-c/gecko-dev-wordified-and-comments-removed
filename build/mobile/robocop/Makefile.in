@@ -393,14 +393,6 @@ robocop_autophone
 ini
 \
 (
-TESTPATH
-)
-/
-robocop_x86
-.
-ini
-\
-(
 NULL
 )
 robocop
