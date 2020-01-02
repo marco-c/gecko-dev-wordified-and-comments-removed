@@ -973,6 +973,10 @@ mBlockScripts
 (
 false
 )
+mFlags
+(
+REQUIRE_DEFAULT
+)
 {
 MOZ_COUNT_CTOR
 (
