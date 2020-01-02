@@ -928,7 +928,7 @@ ifdef
 OS_WIN
 mEvent
 =
-CreateEvent
+CreateEventW
 (
 nullptr
 TRUE

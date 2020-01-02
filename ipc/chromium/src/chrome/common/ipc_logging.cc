@@ -389,7 +389,7 @@ base
 :
 WaitableEvent
 (
-CreateEvent
+CreateEventW
 (
 NULL
 TRUE
@@ -421,7 +421,7 @@ base
 :
 WaitableEvent
 (
-CreateEvent
+CreateEventW
 (
 NULL
 TRUE
