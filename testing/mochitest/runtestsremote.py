@@ -5314,6 +5314,23 @@ false
 '
 )
         
+options
+.
+extraPrefs
+.
+append
+(
+'
+browser
+.
+snippets
+.
+enabled
+=
+false
+'
+)
+        
 if
 (
 options
