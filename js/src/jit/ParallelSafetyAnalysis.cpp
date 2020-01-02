@@ -1306,6 +1306,10 @@ AsmJSUnsignedToDouble
 )
 UNSAFE_OP
 (
+AsmJSUnsignedToFloat32
+)
+UNSAFE_OP
+(
 AsmJSNeg
 )
 UNSAFE_OP

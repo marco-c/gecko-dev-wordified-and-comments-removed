@@ -354,6 +354,14 @@ lir
 )
 ;
 bool
+visitAsmJSUInt32ToFloat32
+(
+LAsmJSUInt32ToFloat32
+*
+lir
+)
+;
+bool
 visitTruncateDToInt32
 (
 LTruncateDToInt32
