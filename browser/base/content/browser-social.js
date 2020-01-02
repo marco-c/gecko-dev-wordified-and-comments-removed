@@ -3257,6 +3257,13 @@ this
 .
 shareButton
 ;
+if
+(
+!
+shareButton
+)
+return
+;
 shareButton
 .
 hidden
