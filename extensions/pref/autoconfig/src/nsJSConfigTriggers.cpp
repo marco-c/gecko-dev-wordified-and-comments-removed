@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIXPCSecurityManager
-.
-h
-"
-#
-include
-"
 nsIXPConnect
 .
 h
