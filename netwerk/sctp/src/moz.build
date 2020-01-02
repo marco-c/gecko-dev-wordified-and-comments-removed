@@ -156,13 +156,6 @@ c
 '
 netinet
 /
-sctp_hashdriver
-.
-c
-'
-'
-netinet
-/
 sctp_indata
 .
 c
@@ -367,9 +360,6 @@ in
 (
 '
 SCTP_SIMPLE_ALLOCATOR
-'
-'
-USE_SCTP_SHA1
 '
 '
 SCTP_PROCESS_LEVEL_LOCKS
