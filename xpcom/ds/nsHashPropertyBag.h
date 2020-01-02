@@ -70,13 +70,6 @@ mPropertyHash
 ;
 }
 ;
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
-NS_VISIBILITY_HIDDEN
 extern
 "
 C
