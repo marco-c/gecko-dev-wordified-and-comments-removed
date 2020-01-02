@@ -6599,6 +6599,9 @@ Init
 (
 )
 ;
+this
+-
+>
 AppendElements
 (
 aOther
