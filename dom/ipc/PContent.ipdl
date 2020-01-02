@@ -1232,11 +1232,6 @@ BlobConstructorParams
 params
 )
 ;
-async
-PJavaScript
-(
-)
-;
 PFileDescriptorSet
 (
 FileDescriptor
@@ -1759,6 +1754,11 @@ returns
 (
 bool
 isOffline
+)
+;
+async
+PJavaScript
+(
 )
 ;
 PDeviceStorageRequest
