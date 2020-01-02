@@ -168,6 +168,9 @@ __init__
 self
 command
 verb
+suggested_commands
+=
+None
 )
 :
         
@@ -189,6 +192,15 @@ self
 verb
 =
 verb
+        
+self
+.
+suggested_commands
+=
+suggested_commands
+or
+[
+]
 class
 UnrecognizedArgumentError
 (
