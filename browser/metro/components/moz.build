@@ -139,6 +139,11 @@ ContentPermissionPrompt
 js
 '
 '
+DebuggerServerController
+.
+js
+'
+'
 DirectoryProvider
 .
 js
