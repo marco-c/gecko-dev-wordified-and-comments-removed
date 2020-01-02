@@ -289,8 +289,12 @@ src
 .
 .
 /
-dom
+content
 /
 svg
+/
+content
+/
+src
 '
 ]

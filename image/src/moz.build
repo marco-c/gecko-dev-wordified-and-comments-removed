@@ -328,9 +328,13 @@ src
 '
 '
 /
-dom
+content
 /
 svg
+/
+content
+/
+src
 '
 #
 We

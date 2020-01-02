@@ -251,9 +251,6 @@ fmradio
 asmjscache
 '
 '
-mathml
-'
-'
 media
 '
 '
@@ -303,9 +300,6 @@ ipc
 indexedDB
 '
 '
-svg
-'
-'
 system
 '
 '
@@ -340,9 +334,6 @@ webidl
 '
 '
 xbl
-'
-'
-xml
 '
 '
 xslt
