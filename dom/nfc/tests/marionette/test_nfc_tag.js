@@ -40,6 +40,11 @@ T3T_RE_INDEX
 =
 4
 ;
+const
+T4T_RE_INDEX
+=
+5
+;
 function
 testUrlTagDiscover
 (
@@ -343,6 +348,17 @@ T3T_RE_INDEX
 )
 ;
 }
+function
+testUrlT4TDiscover
+(
+)
+{
+testUrlTagDiscover
+(
+T4T_RE_INDEX
+)
+;
+}
 let
 tests
 =
@@ -350,6 +366,7 @@ tests
 testUrlT1TDiscover
 testUrlT2TDiscover
 testUrlT3TDiscover
+testUrlT4TDiscover
 ]
 ;
 SpecialPowers
