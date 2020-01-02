@@ -8720,6 +8720,17 @@ checkInitialShapesTableAfterMovingGC
 (
 )
 {
+if
+(
+!
+initialShapes
+.
+initialized
+(
+)
+)
+return
+;
 JS
 :
 :
