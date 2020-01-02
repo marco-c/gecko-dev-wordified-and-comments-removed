@@ -351,11 +351,6 @@ UNIFIED_SOURCES
 =
 [
 '
-ExternalHelperAppChild
-.
-cpp
-'
-'
 ExternalHelperAppParent
 .
 cpp
@@ -392,6 +387,11 @@ SOURCES
 +
 =
 [
+'
+ExternalHelperAppChild
+.
+cpp
+'
 '
 nsExternalHelperAppService
 .

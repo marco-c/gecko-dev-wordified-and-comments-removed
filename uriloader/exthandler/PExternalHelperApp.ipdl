@@ -60,6 +60,10 @@ include
 protocol
 PContent
 ;
+include
+protocol
+PChannelDiverter
+;
 namespace
 mozilla
 {
@@ -94,6 +98,12 @@ OnStopRequest
 (
 nsresult
 code
+)
+;
+DivertToParentUsing
+(
+PChannelDiverter
+diverter
 )
 ;
 child

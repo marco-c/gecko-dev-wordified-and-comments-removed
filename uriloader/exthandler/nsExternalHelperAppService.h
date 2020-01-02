@@ -491,6 +491,14 @@ nsExternalAppHandler
 (
 )
 ;
+void
+DidDivertRequest
+(
+nsIRequest
+*
+request
+)
+;
 protected
 :
 nsCOMPtr
