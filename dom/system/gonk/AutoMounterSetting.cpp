@@ -1174,10 +1174,7 @@ JSString
 *
 jsKey
 =
-JS
-:
-:
-ToString
+JS_ValueToString
 (
 cx
 key

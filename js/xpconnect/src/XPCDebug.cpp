@@ -531,7 +531,7 @@ nullptr
 (
 str
 =
-ToString
+JS_ValueToString
 (
 cx
 rval

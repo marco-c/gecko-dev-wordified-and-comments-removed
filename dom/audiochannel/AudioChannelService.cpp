@@ -2841,10 +2841,7 @@ JSString
 jsKey
 (
 cx
-JS
-:
-:
-ToString
+JS_ValueToString
 (
 cx
 key

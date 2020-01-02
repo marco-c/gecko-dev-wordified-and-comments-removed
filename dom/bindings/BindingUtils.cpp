@@ -11291,10 +11291,7 @@ true
 }
 s
 =
-JS
-:
-:
-ToString
+JS_ValueToString
 (
 cx
 v

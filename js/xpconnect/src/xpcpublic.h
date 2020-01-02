@@ -540,7 +540,7 @@ mString
 public
 :
 static
-bool
+jsval
 ReadableToJSVal
 (
 JSContext
@@ -554,11 +554,6 @@ nsStringBuffer
 *
 *
 sharedBuffer
-JS
-:
-:
-MutableHandleValue
-vp
 )
 ;
 static
