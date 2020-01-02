@@ -383,11 +383,11 @@ sMutex
 if
 (
 sPreferredSampleRate
-!
+=
 =
 0
-|
-|
+&
+&
 cubeb_get_preferred_sample_rate
 (
 GetCubebContextUnlocked
