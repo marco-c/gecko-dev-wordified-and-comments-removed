@@ -1978,6 +1978,11 @@ MutableHandleValue
 rval
 )
 ;
+bool
+isThrowingOutOfMemory
+(
+)
+;
 void
 setPendingException
 (
