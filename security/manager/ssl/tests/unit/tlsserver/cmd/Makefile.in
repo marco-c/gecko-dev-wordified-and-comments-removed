@@ -107,12 +107,12 @@ MOZALLOC_LIB
 .
 .
 /
-insanity
+pkix
 /
 (
 LIB_PREFIX
 )
-insanitypkix
+mozillapkix
 .
 (
 LIB_SUFFIX
@@ -136,7 +136,7 @@ LIB_SUFFIX
 .
 .
 /
-insanity
+pkix
 /
 test
 /

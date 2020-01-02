@@ -1,9 +1,9 @@
 #
 ifndef
-insanity_pkix__pkix_h
+mozilla_pkix__pkix_h
 #
 define
-insanity_pkix__pkix_h
+mozilla_pkix__pkix_h
 #
 include
 "
@@ -19,7 +19,7 @@ prtime
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix

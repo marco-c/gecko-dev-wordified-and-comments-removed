@@ -1,9 +1,9 @@
 #
 ifndef
-insanity__pkixcheck_h
+mozilla_pkix__pkixcheck_h
 #
 define
-insanity__pkixcheck_h
+mozilla_pkix__pkixcheck_h
 #
 include
 "
@@ -19,7 +19,7 @@ certt
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix

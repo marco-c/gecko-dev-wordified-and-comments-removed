@@ -30111,7 +30111,7 @@ ms
 "
 }
 "
-SSL_SUCCESFUL_CERT_VALIDATION_TIME_INSANITY
+SSL_SUCCESFUL_CERT_VALIDATION_TIME_MOZILLAPKIX
 "
 :
 {
@@ -30159,7 +30159,10 @@ successful
 cert
 verification
 in
-insanity
+mozilla
+:
+:
+pkix
 mode
 (
 ms
@@ -30281,7 +30284,7 @@ ms
 "
 }
 "
-SSL_INITIAL_FAILED_CERT_VALIDATION_TIME_INSANITY
+SSL_INITIAL_FAILED_CERT_VALIDATION_TIME_MOZILLAPKIX
 "
 :
 {
@@ -30330,7 +30333,10 @@ failed
 cert
 verification
 in
-insanity
+mozilla
+:
+:
+pkix
 mode
 (
 ms

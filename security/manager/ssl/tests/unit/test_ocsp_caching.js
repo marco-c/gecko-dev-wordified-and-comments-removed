@@ -289,7 +289,7 @@ run_next_test
 function
 add_tests_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_test
@@ -307,9 +307,9 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 run_next_test
@@ -599,7 +599,7 @@ run_next_test
 if
 (
 !
-useInsanity
+useMozillaPKIX
 )
 {
 add_connection_test

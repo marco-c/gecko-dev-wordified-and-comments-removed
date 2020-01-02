@@ -131,7 +131,7 @@ LOCAL_INCLUDES
 .
 .
 /
-insanity
+pkix
 /
 include
 '
@@ -154,7 +154,7 @@ include
 .
 .
 /
-insanity
+pkix
 /
 test
 /

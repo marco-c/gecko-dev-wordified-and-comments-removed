@@ -7,7 +7,7 @@ mozilla_psm__NSSCertDBTrustDomain_h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -119,7 +119,7 @@ void
 SaveIntermediateCerts
 (
 const
-insanity
+mozilla
 :
 :
 pkix
@@ -134,7 +134,7 @@ class
 NSSCertDBTrustDomain
 :
 public
-insanity
+mozilla
 :
 :
 pkix
@@ -188,7 +188,7 @@ SECItem
 encodedIssuerName
 PRTime
 time
-insanity
+mozilla
 :
 :
 pkix
@@ -203,7 +203,7 @@ virtual
 SECStatus
 GetCertTrust
 (
-insanity
+mozilla
 :
 :
 pkix
@@ -240,7 +240,7 @@ virtual
 SECStatus
 CheckRevocation
 (
-insanity
+mozilla
 :
 :
 pkix

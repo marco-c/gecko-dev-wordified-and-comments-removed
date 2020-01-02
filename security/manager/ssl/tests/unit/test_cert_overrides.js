@@ -422,7 +422,7 @@ run_next_test
 function
 add_tests_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_test
@@ -440,9 +440,9 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 run_next_test
@@ -454,17 +454,17 @@ run_next_test
 ;
 add_simple_tests
 (
-useInsanity
+useMozillaPKIX
 )
 ;
 add_combo_tests
 (
-useInsanity
+useMozillaPKIX
 )
 ;
 add_distrust_tests
 (
-useInsanity
+useMozillaPKIX
 )
 ;
 add_test
@@ -498,7 +498,7 @@ run_next_test
 function
 add_simple_tests
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_cert_override_test
@@ -537,7 +537,7 @@ nsICertOverrideService
 ERROR_UNTRUSTED
 getXPCOMStatusFromNSS
 (
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -581,7 +581,7 @@ nsICertOverrideService
 ERROR_UNTRUSTED
 getXPCOMStatusFromNSS
 (
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -647,7 +647,7 @@ nsICertOverrideService
 ERROR_UNTRUSTED
 getXPCOMStatusFromNSS
 (
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -657,7 +657,7 @@ SEC_ERROR_CA_CERT_INVALID
 ;
 if
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_connection_test
@@ -727,7 +727,7 @@ SEC_ERROR_INADEQUATE_KEY_USAGE
 function
 add_combo_tests
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_cert_override_test
@@ -782,7 +782,7 @@ nsICertOverrideService
 ERROR_UNTRUSTED
 getXPCOMStatusFromNSS
 (
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -814,7 +814,7 @@ nsICertOverrideService
 ERROR_TIME
 getXPCOMStatusFromNSS
 (
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -854,7 +854,7 @@ nsICertOverrideService
 ERROR_TIME
 getXPCOMStatusFromNSS
 (
-useInsanity
+useMozillaPKIX
 ?
 SEC_ERROR_UNKNOWN_ISSUER
 :
@@ -894,7 +894,7 @@ SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 function
 add_distrust_tests
 (
-useInsanity
+useMozillaPKIX
 )
 {
 add_connection_test
@@ -933,7 +933,7 @@ getXPCOMStatusFromNSS
 (
 SEC_ERROR_UNTRUSTED_CERT
 )
-useInsanity
+useMozillaPKIX
 ?
 getXPCOMStatusFromNSS
 (
@@ -969,7 +969,7 @@ getXPCOMStatusFromNSS
 (
 SEC_ERROR_UNTRUSTED_ISSUER
 )
-useInsanity
+useMozillaPKIX
 ?
 getXPCOMStatusFromNSS
 (

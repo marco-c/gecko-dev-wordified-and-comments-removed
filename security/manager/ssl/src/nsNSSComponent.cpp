@@ -4154,7 +4154,7 @@ GetBool
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
 false
 )
@@ -4165,7 +4165,7 @@ certVerifierImplementation
 CertVerifier
 :
 :
-insanity
+mozillapkix
 ;
 }
 else
@@ -4275,7 +4275,7 @@ certVerifierImplementation
 CertVerifier
 :
 :
-insanity
+mozillapkix
 )
 {
 CERT_OCSPCacheSettings
@@ -7125,7 +7125,7 @@ Equals
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
 )
 |

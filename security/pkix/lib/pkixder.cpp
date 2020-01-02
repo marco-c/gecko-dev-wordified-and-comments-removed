@@ -6,7 +6,10 @@ pkixder
 h
 "
 namespace
-insanity
+mozilla
+{
+namespace
+pkix
 {
 namespace
 der
@@ -224,6 +227,7 @@ SEC_ERROR_BAD_DER
 return
 Success
 ;
+}
 }
 }
 }

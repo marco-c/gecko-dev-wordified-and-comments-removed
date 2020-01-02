@@ -1,13 +1,13 @@
 #
 ifndef
-insanity_test__pkixtestutils_h
+mozilla_pkix_test__pkixtestutils_h
 #
 define
-insanity_test__pkixtestutils_h
+mozilla_pkix_test__pkixtestutils_h
 #
 include
 "
-insanity
+pkix
 /
 ScopedPtr
 .
@@ -16,7 +16,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -30,7 +30,10 @@ seccomon
 h
 "
 namespace
-insanity
+mozilla
+{
+namespace
+pkix
 {
 namespace
 test
@@ -129,6 +132,7 @@ OCSPResponseContext
 context
 )
 ;
+}
 }
 }
 #

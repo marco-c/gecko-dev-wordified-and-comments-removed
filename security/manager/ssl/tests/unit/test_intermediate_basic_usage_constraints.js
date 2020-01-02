@@ -184,7 +184,7 @@ value
 function
 run_test_in_mode
 (
-useInsanity
+useMozillaPKIX
 )
 {
 Services
@@ -196,15 +196,15 @@ setBoolPref
 "
 security
 .
-use_insanity_verification
+use_mozillapkix_verification
 "
-useInsanity
+useMozillaPKIX
 )
 ;
 let
 ee_usage1
 =
-useInsanity
+useMozillaPKIX
 ?
 '
 Client
@@ -224,7 +224,7 @@ Encrypt
 let
 ca_usage1
 =
-useInsanity
+useMozillaPKIX
 ?
 "
 SSL
@@ -416,7 +416,7 @@ limited
 depth
 "
 ]
-useInsanity
+useMozillaPKIX
 ?
 "
 "
@@ -526,7 +526,7 @@ no
 eku
 "
 ]
-useInsanity
+useMozillaPKIX
 ?
 "
 "

@@ -43,7 +43,7 @@ namespace
 psm
 {
 void
-Insanity_PK11_DestroyContext_true
+MozillaPKIX_PK11_DestroyContext_true
 (
 PK11Context
 *
@@ -58,7 +58,7 @@ true
 ;
 }
 typedef
-insanity
+mozilla
 :
 :
 pkix
@@ -67,7 +67,7 @@ pkix
 ScopedPtr
 <
 PK11Context
-Insanity_PK11_DestroyContext_true
+MozillaPKIX_PK11_DestroyContext_true
 >
 ScopedPK11Context
 ;
@@ -494,7 +494,7 @@ PR_LOG_DEBUG
 )
 )
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -523,7 +523,7 @@ subject
 )
 )
 ;
-insanity
+mozilla
 :
 :
 pkix

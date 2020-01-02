@@ -1,9 +1,9 @@
 #
 ifndef
-insanity_pkix__nullptr_h
+mozilla_pkix__nullptr_h
 #
 define
-insanity_pkix__nullptr_h
+mozilla_pkix__nullptr_h
 #
 if
 defined

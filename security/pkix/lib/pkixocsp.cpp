@@ -6,7 +6,7 @@ limits
 #
 include
 "
-insanity
+pkix
 /
 bind
 .
@@ -15,7 +15,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -82,7 +82,7 @@ class
 #
 endif
 namespace
-insanity
+mozilla
 {
 namespace
 pkix

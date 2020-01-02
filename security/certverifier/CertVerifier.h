@@ -7,7 +7,7 @@ mozilla_psm__CertVerifier_h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -70,7 +70,7 @@ Flags
 flags
 =
 0
-insanity
+mozilla
 :
 :
 pkix
@@ -116,7 +116,7 @@ bool
 saveIntermediatesInPermanentDatabase
 =
 false
-insanity
+mozilla
 :
 :
 pkix
@@ -148,7 +148,7 @@ libpkix
 1
 #
 endif
-insanity
+mozillapkix
 =
 2
 }
@@ -280,7 +280,7 @@ mOCSPGETEnabled
 private
 :
 SECStatus
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 (
 CERTCertificate
 *
@@ -301,7 +301,7 @@ const
 SECItem
 *
 stapledOCSPResponse
-insanity
+mozilla
 :
 :
 pkix

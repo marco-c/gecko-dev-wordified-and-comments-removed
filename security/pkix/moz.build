@@ -164,7 +164,7 @@ True
 LIBRARY_NAME
 =
 '
-insanitypkix
+mozillapkix
 '
 FINAL_LIBRARY
 =

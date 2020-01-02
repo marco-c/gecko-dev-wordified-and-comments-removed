@@ -55,7 +55,10 @@ secder
 h
 "
 namespace
-insanity
+mozilla
+{
+namespace
+pkix
 {
 namespace
 test
@@ -2679,6 +2682,7 @@ PR_Abort
 return
 nullptr
 ;
+}
 }
 }
 }

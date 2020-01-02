@@ -7,7 +7,7 @@ mozilla_psm_AppsTrustDomain_h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -38,7 +38,7 @@ AppTrustDomain
 MOZ_FINAL
 :
 public
-insanity
+mozilla
 :
 :
 pkix
@@ -65,7 +65,7 @@ trustedRoot
 SECStatus
 GetCertTrust
 (
-insanity
+mozilla
 :
 :
 pkix
@@ -94,7 +94,7 @@ SECItem
 encodedIssuerName
 PRTime
 time
-insanity
+mozilla
 :
 :
 pkix
@@ -123,7 +123,7 @@ MOZ_OVERRIDE
 SECStatus
 CheckRevocation
 (
-insanity
+mozilla
 :
 :
 pkix
@@ -152,7 +152,7 @@ void
 *
 mPinArg
 ;
-insanity
+mozilla
 :
 :
 pkix

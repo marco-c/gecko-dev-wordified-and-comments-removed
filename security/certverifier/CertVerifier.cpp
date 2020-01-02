@@ -15,7 +15,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -72,7 +72,7 @@ h
 "
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -898,7 +898,7 @@ SECStatus
 CertVerifier
 :
 :
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 (
 CERTCertificate
 *
@@ -919,7 +919,7 @@ const
 SECItem
 *
 stapledOCSPResponse
-insanity
+mozilla
 :
 :
 pkix
@@ -941,7 +941,7 @@ PR_LOG_DEBUG
 "
 Top
 of
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 \
 n
 "
@@ -1059,7 +1059,7 @@ FetchOCSPForDVHardFail
 SECStatus
 rv
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -1388,7 +1388,7 @@ case
 certificateUsageStatusResponder
 :
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -1397,7 +1397,7 @@ pkix
 EndEntityOrCA
 endEntityOrCA
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -1627,11 +1627,11 @@ if
 mImplementation
 =
 =
-insanity
+mozillapkix
 )
 {
 return
-InsanityVerifyCert
+MozillaPKIXVerifyCert
 (
 cert
 usage
@@ -3155,7 +3155,7 @@ char
 hostname
 bool
 saveIntermediatesInPermanentDatabase
-insanity
+mozilla
 :
 :
 pkix

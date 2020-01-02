@@ -17,7 +17,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -167,7 +167,7 @@ h
 "
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -1877,7 +1877,7 @@ const
 SECItem
 &
 detachedDigest
-insanity
+mozilla
 :
 :
 pkix
@@ -1888,7 +1888,7 @@ ScopedCERTCertList
 builtChain
 )
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -2036,7 +2036,7 @@ return
 NS_ERROR_CMS_VERIFY_BAD_DIGEST
 ;
 }
-insanity
+mozilla
 :
 :
 pkix
@@ -2088,7 +2088,7 @@ i
 i
 )
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -2491,7 +2491,7 @@ type
 =
 siBuffer
 ;
-insanity
+mozilla
 :
 :
 pkix

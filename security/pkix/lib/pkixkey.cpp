@@ -1,7 +1,7 @@
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -48,7 +48,7 @@ secerr
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix

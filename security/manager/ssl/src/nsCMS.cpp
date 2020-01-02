@@ -15,7 +15,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -2281,7 +2281,7 @@ nssRecipientCert
 return
 NS_ERROR_FAILURE
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -2563,7 +2563,7 @@ i
 +
 )
 {
-insanity
+mozilla
 :
 :
 pkix
@@ -2751,7 +2751,7 @@ NSSCMSSignerInfo
 *
 signerinfo
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -2760,7 +2760,7 @@ pkix
 ScopedCERTCertificate
 scert
 ;
-insanity
+mozilla
 :
 :
 pkix

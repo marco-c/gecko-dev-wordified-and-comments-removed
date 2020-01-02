@@ -8,7 +8,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -7844,7 +7844,7 @@ char
 *
 caNameStrings
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -7856,7 +7856,7 @@ cert
 ScopedSECKEYPrivateKey
 privKey
 ;
-insanity
+mozilla
 :
 :
 pkix

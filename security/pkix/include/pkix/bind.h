@@ -1,9 +1,9 @@
 #
 ifndef
-insanity_pkix__bind_h
+mozilla_pkix__bind_h
 #
 define
-insanity_pkix__bind_h
+mozilla_pkix__bind_h
 #
 ifdef
 _MSC_VER
@@ -42,7 +42,10 @@ default
 #
 endif
 namespace
-insanity
+mozilla
+{
+namespace
+pkix
 {
 #
 ifdef
@@ -419,6 +422,7 @@ b2
 }
 #
 endif
+}
 }
 #
 endif

@@ -1,13 +1,13 @@
 #
 ifndef
-insanity_pkix__pkixtypes_h
+mozilla_pkix__pkixtypes_h
 #
 define
-insanity_pkix__pkixtypes_h
+mozilla_pkix__pkixtypes_h
 #
 include
 "
-insanity
+pkix
 /
 ScopedPtr
 .
@@ -35,7 +35,7 @@ keyhi
 h
 "
 namespace
-insanity
+mozilla
 {
 namespace
 pkix

@@ -98,7 +98,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -214,7 +214,7 @@ derLen
 ;
 private
 :
-insanity
+mozilla
 :
 :
 pkix
@@ -337,7 +337,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIX509CERTLIST
 nsNSSCertList
 (
-insanity
+mozilla
 :
 :
 pkix
@@ -389,7 +389,7 @@ destructorSafeDestroyNSSReference
 (
 )
 ;
-insanity
+mozilla
 :
 :
 pkix
@@ -460,7 +460,7 @@ destructorSafeDestroyNSSReference
 (
 )
 ;
-insanity
+mozilla
 :
 :
 pkix

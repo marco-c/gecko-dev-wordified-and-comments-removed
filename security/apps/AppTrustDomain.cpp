@@ -24,7 +24,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -113,7 +113,7 @@ inc
 "
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -385,7 +385,7 @@ SECItem
 encodedIssuerName
 PRTime
 time
-insanity
+mozilla
 :
 :
 pkix
@@ -655,7 +655,7 @@ cert
 return
 :
 :
-insanity
+mozilla
 :
 :
 pkix

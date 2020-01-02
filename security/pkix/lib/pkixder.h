@@ -1,13 +1,13 @@
 #
 ifndef
-insanity_pkix__pkixder_h
+mozilla_pkix__pkixder_h
 #
 define
-insanity_pkix__pkixder_h
+mozilla_pkix__pkixder_h
 #
 include
 "
-insanity
+pkix
 /
 nullptr
 .
@@ -56,7 +56,10 @@ stdint
 h
 "
 namespace
-insanity
+mozilla
+{
+namespace
+pkix
 {
 namespace
 der
@@ -1890,6 +1893,7 @@ SEC_ERROR_BAD_DER
 return
 Success
 ;
+}
 }
 }
 }

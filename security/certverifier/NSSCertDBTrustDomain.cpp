@@ -29,7 +29,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkix
 .
@@ -102,7 +102,7 @@ h
 "
 using
 namespace
-insanity
+mozilla
 :
 :
 pkix
@@ -207,7 +207,7 @@ SECItem
 encodedIssuerName
 PRTime
 time
-insanity
+mozilla
 :
 :
 pkix
@@ -449,7 +449,7 @@ cert
 return
 :
 :
-insanity
+mozilla
 :
 :
 pkix
@@ -469,7 +469,7 @@ NSSCertDBTrustDomain
 :
 CheckRevocation
 (
-insanity
+mozilla
 :
 :
 pkix

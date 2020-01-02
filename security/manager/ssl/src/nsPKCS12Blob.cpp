@@ -8,7 +8,7 @@ h
 #
 include
 "
-insanity
+pkix
 /
 pkixtypes
 .
@@ -1169,7 +1169,7 @@ certs
 i
 ]
 ;
-insanity
+mozilla
 :
 :
 pkix
