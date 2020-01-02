@@ -138,6 +138,8 @@ import
 os
 import
 shutil
+import
+mozfile
 APP_STATUS_NOT_INSTALLED
 =
 0
@@ -1349,20 +1351,9 @@ name
 ]
 )
             
-if
-os
+mozfile
 .
-path
-.
-isdir
-(
-manifest_dir
-)
-:
-                
-shutil
-.
-rmtree
+remove
 (
 manifest_dir
 )
@@ -1747,22 +1738,11 @@ if
 self
 .
 _installed_apps
-and
-os
-.
-path
-.
-isdir
-(
-self
-.
-webapps_dir
-)
 :
             
-shutil
+mozfile
 .
-rmtree
+remove
 (
 self
 .
@@ -1794,9 +1774,9 @@ self
 webapps_dir
 )
             
-shutil
+mozfile
 .
-rmtree
+remove
 (
 self
 .

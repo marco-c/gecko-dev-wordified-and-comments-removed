@@ -111,6 +111,8 @@ mozsystemmonitor
 \
 moztest
 \
+mozversion
+\
 (
 NULL
 )

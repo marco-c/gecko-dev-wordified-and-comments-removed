@@ -6,15 +6,15 @@ import
 setup
 PACKAGE_NAME
 =
-"
+'
 mozrunner
-"
+'
 PACKAGE_VERSION
 =
 '
 5
 .
-27
+34
 '
 desc
 =
@@ -48,7 +48,7 @@ mozcrash
 =
 0
 .
-10
+11
 '
         
 '
@@ -57,7 +57,16 @@ mozdevice
 =
 0
 .
-28
+30
+'
+        
+'
+mozfile
+>
+=
+1
+.
+0
 '
         
 '
@@ -75,7 +84,7 @@ mozlog
 =
 1
 .
-3
+5
 '
         
 '
@@ -84,7 +93,7 @@ mozprocess
 =
 0
 .
-13
+17
 '
         
 '
@@ -93,7 +102,7 @@ mozprofile
 =
 0
 .
-16
+18
 '
        
 ]

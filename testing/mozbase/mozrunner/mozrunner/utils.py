@@ -1,7 +1,7 @@
 "
 "
 "
-utility
+Utility
 functions
 for
 mozrunner
