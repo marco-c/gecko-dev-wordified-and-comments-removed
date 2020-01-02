@@ -294,14 +294,14 @@ mozilla
 namespace
 widget
 {
+#
+ifdef
+MOZ_PLACES
 NS_IMPL_ISUPPORTS
 (
 myDownloadObserver
 nsIDownloadObserver
 )
-#
-ifdef
-MOZ_PLACES
 NS_IMPL_ISUPPORTS
 (
 AsyncFaviconDataReady
