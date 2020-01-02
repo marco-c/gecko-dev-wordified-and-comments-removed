@@ -318,6 +318,9 @@ nsViewportInfo
 class
 nsWrapperCache
 ;
+class
+nsAttrValue
+;
 struct
 JSPropertyDescriptor
 ;
@@ -1823,9 +1826,9 @@ uint32_t
 ParseSandboxAttributeToFlags
 (
 const
-nsAString
-&
-aSandboxAttr
+nsAttrValue
+*
+sandboxAttr
 )
 ;
 private
@@ -2722,9 +2725,6 @@ MaybeAllowOfflineAppByDefault
 nsIPrincipal
 *
 aPrincipal
-nsIDOMWindow
-*
-aWindow
 )
 ;
 static
