@@ -70,7 +70,7 @@ operator
 (
 void
 *
-anObject
+aObject
 )
 {
 delete
@@ -80,7 +80,7 @@ T
 *
 >
 (
-anObject
+aObject
 )
 ;
 return
