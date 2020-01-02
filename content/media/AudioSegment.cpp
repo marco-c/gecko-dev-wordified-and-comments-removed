@@ -1162,6 +1162,9 @@ mTimeStamp
 if
 (
 aMixer
+&
+&
+offset
 )
 {
 aMixer
