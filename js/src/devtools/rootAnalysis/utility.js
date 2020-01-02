@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+var
+internalMarker
+=
+"
+*
+INTERNAL
+*
+"
+;
 function
 assert
 (
