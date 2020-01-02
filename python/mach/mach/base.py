@@ -298,6 +298,10 @@ conditions
 '
         
 '
+parser
+'
+        
+'
 arguments
 '
     
@@ -321,6 +325,9 @@ allow_all_arguments
 =
 False
 conditions
+=
+None
+parser
 =
 None
 arguments
@@ -377,6 +384,12 @@ conditions
 or
 [
 ]
+        
+self
+.
+parser
+=
+parser
         
 self
 .
