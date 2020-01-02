@@ -132,7 +132,7 @@ AudioDecoderConfig
 aConfig
 MediaTaskQueue
 *
-aAudioTaskQueue
+anAudioTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -144,7 +144,7 @@ aConfig
 )
 mTaskQueue
 (
-aAudioTaskQueue
+anAudioTaskQueue
 )
 mCallback
 (

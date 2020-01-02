@@ -190,7 +190,7 @@ operator
 (
 void
 *
-aObject
+anObject
 )
 {
 delete
@@ -200,7 +200,7 @@ ResourceItem
 *
 >
 (
-aObject
+anObject
 )
 ;
 return
