@@ -284,6 +284,7 @@ ScrollMode
 {
 INSTANT
 SMOOTH
+SMOOTH_MSD
 NORMAL
 }
 ;
@@ -313,6 +314,16 @@ const
 CSSIntPoint
 &
 aScrollPosition
+nsIScrollableFrame
+:
+:
+ScrollMode
+aMode
+=
+nsIScrollableFrame
+:
+:
+INSTANT
 )
 =
 0
