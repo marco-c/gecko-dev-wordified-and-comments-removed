@@ -1711,6 +1711,8 @@ outArrayOfNodes
 nsresult
 GetNodesFromPoint
 (
+:
+:
 DOMPoint
 point
 EditAction
