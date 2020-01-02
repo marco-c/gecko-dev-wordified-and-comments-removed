@@ -58,11 +58,7 @@ GNU_AS
 ifeq
 (
 (
-findstring
-arm
-(
-OS_TEST
-)
+CPU_ARCH
 )
 arm
 )

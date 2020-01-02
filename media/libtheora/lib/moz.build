@@ -167,7 +167,7 @@ if
 CONFIG
 [
 '
-OS_TEST
+CPU_ARCH
 '
 ]
 =
