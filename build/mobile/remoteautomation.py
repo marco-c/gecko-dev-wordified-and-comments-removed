@@ -218,6 +218,9 @@ None
 crashreporter
 =
 True
+debugger
+=
+False
 )
 :
         
@@ -260,6 +263,9 @@ MOZ_HIDE_RESULTS_TABLE
         
 if
 crashreporter
+and
+not
+debugger
 :
             
 env

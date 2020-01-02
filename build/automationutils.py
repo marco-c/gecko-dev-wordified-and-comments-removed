@@ -2852,6 +2852,9 @@ None
 crashreporter
 =
 True
+debugger
+=
+False
 )
 :
   
@@ -3043,6 +3046,9 @@ NS_TRACE_MALLOC_DISABLE_STACKS
   
 if
 crashreporter
+and
+not
+debugger
 :
     
 env

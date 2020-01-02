@@ -4399,6 +4399,9 @@ buildBrowserEnv
 (
 self
 options
+debugger
+=
+False
 )
 :
         
@@ -4410,6 +4413,9 @@ buildBrowserEnv
 (
 self
 options
+debugger
+=
+debugger
 )
         
 self
