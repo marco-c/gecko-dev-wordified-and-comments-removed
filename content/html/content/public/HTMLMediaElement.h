@@ -1411,7 +1411,6 @@ TextTrackList
 TextTracks
 (
 )
-const
 ;
 already_AddRefed
 <
@@ -1439,12 +1438,9 @@ TextTrack
 aTextTrack
 )
 {
-if
+GetOrCreateTextTrackManager
 (
-mTextTrackManager
 )
-{
-mTextTrackManager
 -
 >
 AddTextTrack
@@ -1452,7 +1448,6 @@ AddTextTrack
 aTextTrack
 )
 ;
-}
 }
 void
 RemoveTextTrack
@@ -2049,6 +2044,12 @@ UpdateAudioChannelPlayingState
 ;
 void
 PopulatePendingTextTrackList
+(
+)
+;
+TextTrackManager
+*
+GetOrCreateTextTrackManager
 (
 )
 ;
