@@ -1425,9 +1425,6 @@ eStyleAnimType_None
 )
 #
 ifndef
-CSS_PROP_LIST_ONLY_COMPONENTS_OF_ALL_SHORTHAND
-#
-ifndef
 CSS_PROP_LIST_EXCLUDE_INTERNAL
 CSS_PROP_FONT
 (
@@ -1454,8 +1451,6 @@ kFontKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-#
-endif
 #
 endif
 CSS_PROP_SHORTHAND
