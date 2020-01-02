@@ -603,8 +603,7 @@ Throws
 CrossOriginReadable
 ]
 attribute
-WindowProxy
-?
+any
 opener
 ;
 /
