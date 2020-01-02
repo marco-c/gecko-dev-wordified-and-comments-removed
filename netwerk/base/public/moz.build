@@ -463,6 +463,11 @@ nsIRedirectChannelRegistrar
 idl
 '
 '
+nsIRedirectHistory
+.
+idl
+'
+'
 nsIRedirectResultListener
 .
 idl
