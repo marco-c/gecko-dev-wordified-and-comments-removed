@@ -605,7 +605,7 @@ toPanelConfig
 (
 )
 ;
-HomeConfigInvalidator
+HomePanelsManager
 .
 getInstance
 (

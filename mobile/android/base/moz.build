@@ -1744,13 +1744,6 @@ java
 '
 home
 /
-HomeConfigInvalidator
-.
-java
-'
-'
-home
-/
 HomeConfigLoader
 .
 java
@@ -1801,6 +1794,13 @@ java
 home
 /
 HomePanelPicker
+.
+java
+'
+'
+home
+/
+HomePanelsManager
 .
 java
 '
