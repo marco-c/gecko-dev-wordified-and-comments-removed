@@ -473,10 +473,6 @@ dkLen
 )
 ;
 }
-run_next_test
-(
-)
-;
 }
 )
 ;
@@ -863,10 +859,6 @@ SHA256
 )
 ;
 }
-run_next_test
-(
-)
-;
 }
 )
 ;

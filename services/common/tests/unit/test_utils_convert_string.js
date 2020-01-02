@@ -493,10 +493,6 @@ TEST_STR
 )
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
@@ -516,10 +512,6 @@ hexAsString
 (
 TEST_HEX
 )
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -566,10 +558,6 @@ bytes
 )
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
@@ -601,10 +589,6 @@ bytes
 )
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
@@ -634,10 +618,6 @@ TEST_STR
 )
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
@@ -664,10 +644,6 @@ TEST_STR
 )
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
@@ -692,10 +668,6 @@ hexAsString
 TEST_HEX
 )
 )
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -725,10 +697,6 @@ TEST_BYTES
 )
 )
 )
-)
-;
-run_next_test
-(
 )
 ;
 }
