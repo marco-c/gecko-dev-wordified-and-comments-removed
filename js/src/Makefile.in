@@ -2640,6 +2640,16 @@ embedjs
 py
 \
 (
+srcdir
+)
+/
+builtin
+/
+TypedObjectConstants
+.
+h
+\
+(
 NULL
 )
 SELFHOSTED_DEFINES
