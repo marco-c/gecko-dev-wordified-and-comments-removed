@@ -214,11 +214,6 @@ ons
 -
 button
 "
-"
-developer
--
-button
-"
 ]
 "
 nav
