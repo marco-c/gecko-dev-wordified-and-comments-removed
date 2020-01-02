@@ -4819,6 +4819,13 @@ hasEnteredExitFrame
 )
 )
 {
+exitCodePatch_
+.
+fixup
+(
+this
+)
+;
 patchDataWithValueCheck
 (
 CodeLocationLabel
