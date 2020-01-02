@@ -3027,9 +3027,6 @@ aStreamListener
 )
 ;
 }
-nsresult
-rv
-;
 nsAutoString
 fileName
 ;
@@ -3187,6 +3184,9 @@ url
 nsAutoCString
 query
 ;
+nsresult
+rv
+;
 bool
 isHTTP
 isHTTPS
@@ -3212,10 +3212,12 @@ NS_FAILED
 rv
 )
 )
+{
 isHTTP
 =
 false
 ;
+}
 rv
 =
 uri
@@ -3237,10 +3239,12 @@ NS_FAILED
 rv
 )
 )
+{
 isHTTPS
 =
 false
 ;
+}
 if
 (
 isHTTP
@@ -3248,6 +3252,7 @@ isHTTP
 |
 isHTTPS
 )
+{
 url
 -
 >
@@ -3256,6 +3261,7 @@ GetQuery
 query
 )
 ;
+}
 allowURLExt
 =
 query
@@ -3322,6 +3328,7 @@ if
 (
 isAttachment
 )
+{
 reason
 =
 nsIHelperAppLauncherDialog
@@ -3329,6 +3336,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_SERVERREQUEST
 ;
+}
 }
 LOG
 (
@@ -3527,6 +3535,7 @@ if
 (
 channel
 )
+{
 channel
 -
 >
@@ -3535,6 +3544,7 @@ SetContentType
 mimeType
 )
 ;
+}
 if
 (
 reason
@@ -3545,6 +3555,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_CANTHANDLE
 )
+{
 reason
 =
 nsIHelperAppLauncherDialog
@@ -3552,6 +3563,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_TYPESNIFFED
 ;
+}
 }
 else
 {
@@ -3597,9 +3609,11 @@ if
 !
 mimeInfo
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 *
 aStreamListener
 =
@@ -3637,9 +3651,11 @@ if
 !
 handler
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 NS_ADDREF
 (
 *
