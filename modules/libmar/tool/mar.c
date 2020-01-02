@@ -1299,11 +1299,16 @@ argv
 ]
 =
 =
+(
+char
+)
+(
 '
 0
 '
 +
 certCount
+)
 |
 |
 argv
