@@ -4,6 +4,7 @@ is
 from
 the
 Speex
+DSP
 library
 (
 http
@@ -16,14 +17,16 @@ xiph
 .
 org
 /
-speex
+?
+p
+=
+speexdsp
 .
 git
-/
 )
 from
 commit
-a6d05eb5
+bbe7e099
 .
 It
 consists

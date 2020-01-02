@@ -173,7 +173,7 @@ hidden
 DEFINES
 [
 '
-SPX_RESAMPLE_EXPORT
+EXPORT
 '
 ]
 =
