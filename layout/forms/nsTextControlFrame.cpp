@@ -2766,7 +2766,7 @@ caretSelection
 caret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 ;
@@ -2892,7 +2892,7 @@ event
 caret
 -
 >
-SetCaretDOMSelection
+SetSelection
 (
 ourSel
 )

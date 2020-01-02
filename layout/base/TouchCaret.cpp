@@ -1755,7 +1755,7 @@ aSel
 caret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 )

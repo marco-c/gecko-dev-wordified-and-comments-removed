@@ -10553,7 +10553,7 @@ selection
 aCaret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 ;

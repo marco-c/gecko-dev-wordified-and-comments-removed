@@ -9977,7 +9977,7 @@ true
 caret
 -
 >
-SetCaretDOMSelection
+SetSelection
 (
 domSelection
 )

@@ -3854,7 +3854,7 @@ domSelection
 caret
 -
 >
-GetCaretDOMSelection
+GetSelection
 (
 )
 ;

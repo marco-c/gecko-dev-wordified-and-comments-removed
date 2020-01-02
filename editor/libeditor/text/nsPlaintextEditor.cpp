@@ -4009,7 +4009,7 @@ caretP
 caretP
 -
 >
-SetCaretDOMSelection
+SetSelection
 (
 selection
 )
