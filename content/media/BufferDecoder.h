@@ -63,6 +63,7 @@ nsIThread
 aDecodeThread
 )
 ;
+virtual
 ReentrantMonitor
 &
 GetReentrantMonitor
@@ -70,6 +71,7 @@ GetReentrantMonitor
 )
 MOZ_OVERRIDE
 ;
+virtual
 bool
 IsShutdown
 (
@@ -78,6 +80,7 @@ const
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 bool
 OnStateMachineThread
 (
@@ -85,6 +88,7 @@ OnStateMachineThread
 const
 MOZ_OVERRIDE
 ;
+virtual
 bool
 OnDecodeThread
 (
@@ -92,6 +96,7 @@ OnDecodeThread
 const
 MOZ_OVERRIDE
 ;
+virtual
 MediaResource
 *
 GetResource
@@ -100,6 +105,7 @@ GetResource
 const
 MOZ_OVERRIDE
 ;
+virtual
 void
 NotifyBytesConsumed
 (
@@ -111,6 +117,7 @@ aOffset
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 void
 NotifyDecodedFrames
 (
@@ -122,6 +129,7 @@ aDecoded
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 int64_t
 GetEndMediaTime
 (
@@ -130,6 +138,7 @@ const
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 int64_t
 GetMediaDuration
 (
@@ -137,6 +146,7 @@ GetMediaDuration
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetMediaDuration
 (
@@ -145,6 +155,7 @@ aDuration
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 UpdateEstimatedMediaDuration
 (
@@ -153,6 +164,7 @@ aDuration
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetMediaSeekable
 (
@@ -161,6 +173,7 @@ aMediaSeekable
 )
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetTransportSeekable
 (
@@ -169,6 +182,7 @@ aTransportSeekable
 )
 MOZ_OVERRIDE
 ;
+virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer
@@ -177,6 +191,7 @@ GetVideoFrameContainer
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 layers
 :
 :
@@ -187,6 +202,7 @@ GetImageContainer
 )
 MOZ_OVERRIDE
 ;
+virtual
 bool
 IsTransportSeekable
 (
@@ -194,6 +210,7 @@ IsTransportSeekable
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 bool
 IsMediaSeekable
 (
@@ -201,6 +218,7 @@ IsMediaSeekable
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 void
 MetadataLoaded
 (
@@ -219,6 +237,7 @@ aTags
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 void
 QueueMetadata
 (
@@ -239,6 +258,7 @@ aTags
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 void
 SetMediaEndTime
 (
@@ -248,6 +268,7 @@ aTime
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 void
 UpdatePlaybackPosition
 (
@@ -257,6 +278,7 @@ aTime
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 void
 OnReadMetadataCompleted
 (
@@ -264,6 +286,7 @@ OnReadMetadataCompleted
 MOZ_FINAL
 MOZ_OVERRIDE
 ;
+virtual
 MediaDecoderOwner
 *
 GetOwner
