@@ -879,6 +879,14 @@ mChunkCount
 bool
 mAllocatedNewFrame
 ;
+private
+:
+~
+DecodeRequest
+(
+)
+{
+}
 }
 ;
 class
