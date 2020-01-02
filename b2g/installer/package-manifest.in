@@ -836,13 +836,6 @@ components
 dom_wappush
 .
 xpt
-BINPATH
-/
-components
-/
-dom_mobileconnection
-.
-xpt
 #
 endif
 #
