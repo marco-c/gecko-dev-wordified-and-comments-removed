@@ -15181,6 +15181,10 @@ for
 let
 keyValuePair
 of
+Cu
+.
+waiveXrays
+(
 Map
 .
 prototype
@@ -15192,6 +15196,7 @@ call
 raw
 )
 )
+)
 {
 let
 key
@@ -15200,12 +15205,7 @@ Cu
 .
 unwaiveXrays
 (
-Cu
-.
-waiveXrays
-(
 keyValuePair
-)
 [
 0
 ]
@@ -15218,12 +15218,7 @@ Cu
 .
 unwaiveXrays
 (
-Cu
-.
-waiveXrays
-(
 keyValuePair
-)
 [
 1
 ]
