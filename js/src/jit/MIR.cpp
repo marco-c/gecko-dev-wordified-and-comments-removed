@@ -17989,6 +17989,9 @@ TempAllocator
 alloc
 )
 {
+return
+this
+;
 MDefinition
 *
 arr
