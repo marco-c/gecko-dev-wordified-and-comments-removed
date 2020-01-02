@@ -169,17 +169,6 @@ True
 SDK_LIBRARY
 =
 True
-LOCAL_INCLUDES
-+
-=
-[
-'
-.
-.
-/
-src
-'
-]
 USE_STATIC_LIBS
 =
 True

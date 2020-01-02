@@ -357,12 +357,6 @@ canvas
 /
 dom
 /
-file
-'
-'
-/
-dom
-/
 indexedDB
 '
 '

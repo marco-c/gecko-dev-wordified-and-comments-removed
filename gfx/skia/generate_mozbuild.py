@@ -463,14 +463,6 @@ trunk
 /
 include
 /
-lazy
-'
-    
-'
-trunk
-/
-include
-/
 pathops
 '
     
@@ -600,16 +592,6 @@ trunk
 src
 /
 utils
-'
-    
-'
-trunk
-/
-src
-/
-utils
-/
-android
 '
     
 '

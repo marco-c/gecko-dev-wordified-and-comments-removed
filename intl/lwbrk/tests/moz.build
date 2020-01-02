@@ -119,17 +119,6 @@ t
 in
 CPP_UNIT_TESTS
 )
-LOCAL_INCLUDES
-+
-=
-[
-'
-.
-.
-/
-public
-'
-]
 USE_LIBS
 +
 =
