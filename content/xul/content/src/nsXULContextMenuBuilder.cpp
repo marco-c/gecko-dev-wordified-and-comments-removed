@@ -40,6 +40,13 @@ nsXULContextMenuBuilder
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 using
 namespace
 mozilla

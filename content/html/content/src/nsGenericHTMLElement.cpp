@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIContentViewer
 .
 h

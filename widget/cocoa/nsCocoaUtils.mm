@@ -187,6 +187,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MiscEvents

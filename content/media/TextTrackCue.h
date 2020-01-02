@@ -56,6 +56,13 @@ StaticPtr
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 namespace
 mozilla
 {

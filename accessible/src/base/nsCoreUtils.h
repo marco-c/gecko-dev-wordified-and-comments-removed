@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h

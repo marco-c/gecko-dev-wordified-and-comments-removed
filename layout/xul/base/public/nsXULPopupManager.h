@@ -123,6 +123,9 @@ nsIDOMKeyEvent
 class
 nsIDocShellTreeItem
 ;
+class
+nsPIDOMWindow
+;
 enum
 CloseMenuMode
 {

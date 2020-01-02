@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsINodeInfo
 .
 h

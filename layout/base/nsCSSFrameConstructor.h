@@ -62,6 +62,13 @@ nsFrameManager
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 struct
 nsFrameItems
 ;

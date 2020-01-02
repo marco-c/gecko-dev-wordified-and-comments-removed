@@ -201,6 +201,13 @@ nsXULSortService
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 static
 NS_DEFINE_CID
 (

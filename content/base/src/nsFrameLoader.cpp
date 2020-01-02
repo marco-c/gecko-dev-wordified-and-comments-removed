@@ -59,7 +59,7 @@ h
 #
 include
 "
-nsIContent
+nsIContentInlines
 .
 h
 "

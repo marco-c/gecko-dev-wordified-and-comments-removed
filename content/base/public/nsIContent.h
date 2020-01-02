@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsIDocument
+nsINode
 .
 h
 "
@@ -546,18 +546,7 @@ IsInHTMLDocument
 (
 )
 const
-{
-return
-OwnerDoc
-(
-)
--
->
-IsHTML
-(
-)
 ;
-}
 inline
 int32_t
 GetNameSpaceID

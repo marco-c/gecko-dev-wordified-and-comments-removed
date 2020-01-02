@@ -126,6 +126,9 @@ class
 nsIPrincipal
 ;
 class
+nsCSSStyleSheet
+;
+class
 nsBindingManager
 MOZ_FINAL
 :

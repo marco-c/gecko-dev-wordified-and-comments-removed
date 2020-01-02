@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIDOMElement
 .
 h
