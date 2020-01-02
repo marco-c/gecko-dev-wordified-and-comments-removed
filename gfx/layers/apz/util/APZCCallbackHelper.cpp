@@ -1109,7 +1109,7 @@ AppUnitsPerCSSPixel
 nsLayoutUtils
 :
 :
-SetDisplayPortBase
+SetDisplayPortBaseIfNotSet
 (
 content
 base
@@ -1423,7 +1423,7 @@ AppUnitsPerCSSPixel
 nsLayoutUtils
 :
 :
-SetDisplayPortBase
+SetDisplayPortBaseIfNotSet
 (
 aContent
 base
