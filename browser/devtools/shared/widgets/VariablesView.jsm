@@ -7686,6 +7686,14 @@ this
 _valueString
 )
 ;
+this
+.
+_separatorLabel
+.
+hidden
+=
+false
+;
 }
 setOverridden
 :
@@ -8060,8 +8068,6 @@ setAttribute
 value
 "
 this
-.
-ownerView
 .
 separatorStr
 +
