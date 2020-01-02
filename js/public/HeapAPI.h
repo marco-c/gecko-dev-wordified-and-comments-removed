@@ -197,13 +197,13 @@ GRAY
 1
 ;
 const
-uintptr_t
+uint32_t
 ChunkLocationNursery
 =
 0
 ;
 const
-uintptr_t
+uint32_t
 ChunkLocationTenuredHeap
 =
 1
