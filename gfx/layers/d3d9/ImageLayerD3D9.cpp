@@ -56,6 +56,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 yuv_convert
 .
 h
