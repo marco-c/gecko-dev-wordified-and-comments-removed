@@ -87,6 +87,15 @@ csf_common
 .
 h
 "
+#
+include
+"
+base
+/
+platform_thread
+.
+h
+"
 extern
 "
 C

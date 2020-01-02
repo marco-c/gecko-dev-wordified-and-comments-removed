@@ -854,6 +854,13 @@ defined
 (
 WEBRTC_CHROMIUM_BUILD
 )
+&
+&
+!
+defined
+(
+WEBRTC_GONK
+)
 int
 VideoEngine
 :

@@ -26,6 +26,13 @@ defined
 (
 WEBRTC_CHROMIUM_BUILD
 )
+&
+&
+!
+defined
+(
+MOZ_WIDGET_GONK
+)
 #
 include
 <
@@ -156,6 +163,13 @@ ANDROID
 defined
 (
 WEBRTC_CHROMIUM_BUILD
+)
+&
+&
+!
+defined
+(
+MOZ_WIDGET_GONK
 )
 static
 int

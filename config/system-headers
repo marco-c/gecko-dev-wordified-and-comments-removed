@@ -1235,9 +1235,6 @@ h
 ConditionalMacros
 .
 h
-config
-.
-h
 conio
 .
 h

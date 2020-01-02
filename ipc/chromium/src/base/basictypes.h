@@ -440,6 +440,13 @@ return
 f
 ;
 }
+#
+if
+!
+defined
+(
+COMPILE_ASSERT
+)
 template
 <
 bool
@@ -449,9 +456,6 @@ CompileAssert
 {
 }
 ;
-#
-undef
-COMPILE_ASSERT
 #
 define
 COMPILE_ASSERT
@@ -482,6 +486,8 @@ expr
 -
 1
 ]
+#
+endif
 typedef
 uint32_t
 MetatagId

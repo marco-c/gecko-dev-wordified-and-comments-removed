@@ -828,6 +828,7 @@ cc
 ]
 [
 '
+(
 <
 (
 toolkit_uses_gtk
@@ -843,6 +844,14 @@ nacl_untrusted_build
 =
 =
 1
+)
+and
+(
+build_with_mozilla
+=
+=
+0
+)
 '
 {
 '
