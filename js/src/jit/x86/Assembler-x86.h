@@ -3114,9 +3114,7 @@ currentOffset
 CodeOffsetLabel
 movsblWithPatch
 (
-const
 PatchedAbsoluteAddress
-&
 src
 Register
 dest
@@ -3147,9 +3145,7 @@ currentOffset
 CodeOffsetLabel
 movzblWithPatch
 (
-const
 PatchedAbsoluteAddress
-&
 src
 Register
 dest
@@ -3180,9 +3176,7 @@ currentOffset
 CodeOffsetLabel
 movswlWithPatch
 (
-const
 PatchedAbsoluteAddress
-&
 src
 Register
 dest
@@ -3213,9 +3207,7 @@ currentOffset
 CodeOffsetLabel
 movzwlWithPatch
 (
-const
 PatchedAbsoluteAddress
-&
 src
 Register
 dest
@@ -3246,9 +3238,7 @@ currentOffset
 CodeOffsetLabel
 movlWithPatch
 (
-const
 PatchedAbsoluteAddress
-&
 src
 Register
 dest
@@ -3279,9 +3269,7 @@ currentOffset
 CodeOffsetLabel
 movssWithPatch
 (
-const
 PatchedAbsoluteAddress
-&
 src
 FloatRegister
 dest
@@ -3319,9 +3307,7 @@ currentOffset
 CodeOffsetLabel
 movsdWithPatch
 (
-const
 PatchedAbsoluteAddress
-&
 src
 FloatRegister
 dest
@@ -3361,9 +3347,7 @@ movbWithPatch
 (
 Register
 src
-const
 PatchedAbsoluteAddress
-&
 dest
 )
 {
@@ -3394,9 +3378,7 @@ movwWithPatch
 (
 Register
 src
-const
 PatchedAbsoluteAddress
-&
 dest
 )
 {
@@ -3427,9 +3409,7 @@ movlWithPatch
 (
 Register
 src
-const
 PatchedAbsoluteAddress
-&
 dest
 )
 {
@@ -3460,9 +3440,7 @@ movssWithPatch
 (
 FloatRegister
 src
-const
 PatchedAbsoluteAddress
-&
 dest
 )
 {
@@ -3500,9 +3478,7 @@ movsdWithPatch
 (
 FloatRegister
 src
-const
 PatchedAbsoluteAddress
-&
 dest
 )
 {
