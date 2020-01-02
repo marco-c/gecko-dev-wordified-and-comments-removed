@@ -1595,6 +1595,10 @@ address_adjustment
 =
 None
     
+cache
+=
+None
+    
 if
 not
 file
@@ -1647,6 +1651,11 @@ address_adjustment_for
 file
 )
         
+cache
+=
+{
+}
+        
 addr2lines
 [
 file
@@ -1655,6 +1664,7 @@ file
 (
 converter
 address_adjustment
+cache
 )
     
 else
@@ -1663,6 +1673,7 @@ else
 (
 converter
 address_adjustment
+cache
 )
 =
 addr2lines
@@ -1670,7 +1681,20 @@ addr2lines
 file
 ]
     
+if
+address
+in
+cache
+:
+        
 return
+cache
+[
+address
+]
+    
+result
+=
 converter
 .
 convert
@@ -1686,6 +1710,16 @@ address
 address_adjustment
 )
 )
+    
+cache
+[
+address
+]
+=
+result
+    
+return
+result
 line_re
 =
 re
