@@ -5512,7 +5512,7 @@ enter
 cx
 )
 ;
-TypeSet
+HeapTypeSet
 *
 types
 =

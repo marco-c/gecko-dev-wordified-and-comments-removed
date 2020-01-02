@@ -3970,7 +3970,7 @@ cx
 TypeConstraint
 *
 constraint
-TypeSet
+ConstraintTypeSet
 *
 source
 Type
@@ -5744,7 +5744,7 @@ true
 }
 inline
 void
-TypeSet
+ConstraintTypeSet
 :
 :
 addType
@@ -5769,18 +5769,6 @@ compartment
 activeAnalysis
 )
 ;
-JS_ASSERT
-(
-isStackSet
-(
-)
-|
-|
-isHeapSet
-(
-)
-)
-;
 bool
 added
 =
@@ -5789,6 +5777,9 @@ false
 if
 (
 !
+TypeSet
+:
+:
 addType
 (
 type
@@ -5937,7 +5928,7 @@ constraintList
 }
 inline
 void
-TypeSet
+HeapTypeSet
 :
 :
 setConfiguredProperty
