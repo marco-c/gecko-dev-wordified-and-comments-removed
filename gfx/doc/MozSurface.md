@@ -468,7 +468,7 @@ process
 exists
 in
 the
-foolowing
+following
 form
 :
 .
@@ -916,7 +916,7 @@ to
 use
 MozSurface
 without
-Drawing
+drawing
 into
 it
 .
