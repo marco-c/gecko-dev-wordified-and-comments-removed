@@ -177,6 +177,7 @@ dataSurf
 new
 DataSourceSurfaceD2DTarget
 (
+mFormat
 )
 ;
 D3D10_TEXTURE2D_DESC
@@ -840,11 +841,13 @@ DataSourceSurfaceD2DTarget
 :
 DataSourceSurfaceD2DTarget
 (
+SurfaceFormat
+aFormat
 )
 :
 mFormat
 (
-FORMAT_B8G8R8A8
+aFormat
 )
 mMapped
 (
