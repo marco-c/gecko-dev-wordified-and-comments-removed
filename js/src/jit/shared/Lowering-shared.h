@@ -249,6 +249,15 @@ mir
 ;
 inline
 LAllocation
+useOrConstantAtStart
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LAllocation
 useAny
 (
 MDefinition
