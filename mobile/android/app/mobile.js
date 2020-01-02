@@ -2183,6 +2183,8 @@ https
 :
 /
 /
+blocklist
+.
 addons
 .
 mozilla
