@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsFlexContainerFrame
+.
+h
+"
+#
+include
+"
 nsGfxScrollFrame
 .
 h
