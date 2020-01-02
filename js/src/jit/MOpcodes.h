@@ -789,7 +789,12 @@ ArgumentsLength
 \
 _
 (
-GetArgument
+GetFrameArgument
+)
+\
+_
+(
+SetFrameArgument
 )
 \
 _
