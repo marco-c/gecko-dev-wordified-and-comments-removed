@@ -4412,7 +4412,7 @@ setAction
 (
 GeckoApp
 .
-ACTION_BOOKMARK
+ACTION_HOMESCREEN_SHORTCUT
 )
 ;
 shortcutIntent
@@ -4650,7 +4650,7 @@ setAction
 (
 GeckoApp
 .
-ACTION_BOOKMARK
+ACTION_HOMESCREEN_SHORTCUT
 )
 ;
 shortcutIntent

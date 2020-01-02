@@ -596,7 +596,7 @@ if
 (
 GeckoApp
 .
-ACTION_BOOKMARK
+ACTION_HOMESCREEN_SHORTCUT
 .
 equals
 (
