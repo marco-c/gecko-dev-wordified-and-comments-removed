@@ -48,6 +48,9 @@ class
 MoofParser
 ;
 class
+Sample
+;
+class
 Index
 {
 public
@@ -147,13 +150,7 @@ private
 :
 nsTArray
 <
-stagefright
-:
-:
-MediaSource
-:
-:
-Indice
+Sample
 >
 mIndex
 ;

@@ -601,6 +601,17 @@ aByteRange
 )
 const
 {
+if
+(
+IsNull
+(
+)
+)
+{
+return
+aByteRange
+;
+}
 return
 MediaByteRange
 (
