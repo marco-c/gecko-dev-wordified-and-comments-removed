@@ -919,6 +919,12 @@ random
 -
 if
 (
+winWidget
+)
+random
+-
+if
+(
 cocoaWidget
 )
 skip
