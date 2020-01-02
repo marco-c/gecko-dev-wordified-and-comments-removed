@@ -234,9 +234,11 @@ EXTRA_DSO_LDOPTS
 +
 =
 \
+(
+call
+EXPAND_LIBNAME
 version
-.
-lib
+)
 \
 (
 NULL

@@ -621,7 +621,6 @@ static
 bool
 sUser32BeforeBlocklist
 ;
-static
 void
 printf_stderr
 (
@@ -1452,7 +1451,7 @@ sLock
 DWORD
 nBytes
 ;
-__try
+MOZ_SEH_TRY
 {
 for
 (
@@ -1661,7 +1660,7 @@ nullptr
 ;
 }
 }
-__except
+MOZ_SEH_EXCEPT
 (
 EXCEPTION_EXECUTE_HANDLER
 )
