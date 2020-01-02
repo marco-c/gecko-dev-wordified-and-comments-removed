@@ -349,6 +349,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -3195,6 +3202,13 @@ GetDocumentColorPreferences
 (
 )
 {
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
 int32_t
 useAccessibilityTheme
 =

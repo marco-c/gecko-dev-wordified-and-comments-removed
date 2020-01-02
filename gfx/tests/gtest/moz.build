@@ -137,6 +137,11 @@ TestColorNames
 cpp
 '
 '
+TestGfxPrefs
+.
+cpp
+'
+'
 TestLayers
 .
 cpp

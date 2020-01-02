@@ -38,7 +38,7 @@ void
 gfxPrefs
 :
 :
-Destroy
+DestroySingleton
 (
 )
 {
@@ -60,7 +60,7 @@ bool
 gfxPrefs
 :
 :
-Exists
+SingletonExists
 (
 )
 {
