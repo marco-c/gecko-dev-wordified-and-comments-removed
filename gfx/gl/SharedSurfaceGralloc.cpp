@@ -202,11 +202,6 @@ allocator
 mAllocator
 =
 allocator
--
->
-asWeakPtr
-(
-)
 ;
 }
 SharedSurface_Gralloc
