@@ -28,6 +28,9 @@ csserror
 "
 cssparser
 "
+"
+csslog
+"
 ]
 "
 js
