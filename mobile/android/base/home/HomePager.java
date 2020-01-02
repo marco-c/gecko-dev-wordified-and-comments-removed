@@ -393,6 +393,7 @@ enum
 Flags
 {
 ALLOW_SWITCH_TO_TAB
+OPEN_WITH_INTENT
 }
 public
 void

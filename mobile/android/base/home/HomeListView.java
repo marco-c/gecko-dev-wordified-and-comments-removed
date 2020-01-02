@@ -119,7 +119,7 @@ private
 HomeContextMenuInfo
 mContextMenuInfo
 ;
-private
+protected
 OnUrlOpenListener
 mUrlOpenListener
 ;
