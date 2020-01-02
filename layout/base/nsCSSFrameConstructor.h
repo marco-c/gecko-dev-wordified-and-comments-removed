@@ -2349,6 +2349,10 @@ mIsGeneratedContent
 (
 false
 )
+mIsAnonymousContentCreatorContent
+(
+false
+)
 mIsRootPopupgroup
 (
 false
@@ -2574,6 +2578,9 @@ mIsText
 ;
 bool
 mIsGeneratedContent
+;
+bool
+mIsAnonymousContentCreatorContent
 ;
 bool
 mIsRootPopupgroup
@@ -2947,6 +2954,10 @@ ITEM_IS_WITHIN_SVG_TEXT
 define
 ITEM_ALLOWS_TEXT_PATH_CHILD
 0x10
+#
+define
+ITEM_IS_ANONYMOUSCONTENTCREATOR_CONTENT
+0x20
 void
 AddFrameConstructionItemsInternal
 (
