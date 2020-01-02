@@ -242,7 +242,7 @@ else
 os_linux
 =
 1
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -1522,7 +1522,7 @@ cc
 if
 os_macosx
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -1729,7 +1729,7 @@ MOZ_NATIVE_LIBEVENT
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
