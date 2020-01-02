@@ -714,7 +714,7 @@ update
 =
 us
 .
-scheduleCustomProfileUpdate
+scheduleAppUpdate
 (
 make_uri
 (
@@ -744,6 +744,8 @@ localhost
 masterEntry
 "
 )
+0
+false
 customDir
 )
 ;

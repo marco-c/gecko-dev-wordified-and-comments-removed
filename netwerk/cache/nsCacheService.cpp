@@ -14275,7 +14275,7 @@ exists
 {
 rv
 =
-aNewCacheSubdir
+aNewCacheDir
 -
 >
 Create
@@ -14293,6 +14293,12 @@ NS_SUCCEEDED
 (
 rv
 )
+|
+|
+NS_ERROR_FILE_ALREADY_EXISTS
+=
+=
+rv
 )
 {
 nsAutoCString
