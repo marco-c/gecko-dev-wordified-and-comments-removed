@@ -156,6 +156,15 @@ removeNetworkRoute
 "
 .
 DOMString
+domain
+;
+/
+/
+for
+"
+setDNS
+"
+DOMString
 dns1_str
 ;
 /
