@@ -165,15 +165,6 @@ INLINE_BUFFER_LIMIT
 int
 dataSlots
 =
-Max
-<
-int
->
-(
-1
-(
-int
-)
 (
 nbytes
 -
@@ -186,7 +177,6 @@ Value
 )
 +
 1
-)
 ;
 JS_ASSERT
 (

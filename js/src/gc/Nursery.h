@@ -1273,17 +1273,6 @@ nelems
 )
 ;
 void
-setTypedArrayElementsForwardingPointer
-(
-void
-*
-oldData
-void
-*
-newData
-)
-;
-void
 freeHugeSlots
 (
 JSRuntime
