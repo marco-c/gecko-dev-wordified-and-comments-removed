@@ -2376,6 +2376,13 @@ kFontWeightKTable
 static
 const
 KTableValue
+kGridTrackBreadthKTable
+[
+]
+;
+static
+const
+KTableValue
 kImageOrientationKTable
 [
 ]

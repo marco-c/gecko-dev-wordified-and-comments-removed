@@ -751,6 +751,9 @@ eCSSUnit_Seconds
 eCSSUnit_Milliseconds
 =
 3001
+eCSSUnit_FlexFraction
+=
+4000
 }
 ;
 struct
