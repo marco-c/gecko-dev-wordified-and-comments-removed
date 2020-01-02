@@ -1664,7 +1664,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 nullptr
-JSMSG_CYCLIC_VALUE
+JSMSG_JSON_CYCLIC_VALUE
 js_object_str
 )
 ;
@@ -2106,7 +2106,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 nullptr
-JSMSG_CYCLIC_VALUE
+JSMSG_JSON_CYCLIC_VALUE
 js_object_str
 )
 ;
