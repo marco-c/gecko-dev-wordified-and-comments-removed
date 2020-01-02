@@ -581,6 +581,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 }
 private

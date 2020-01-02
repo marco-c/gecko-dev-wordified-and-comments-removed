@@ -1914,10 +1914,11 @@ movzwl
 Operand
 (
 rax
-offsetof
-(
 JSFunction
-nargs
+:
+:
+offsetOfNargs
+(
 )
 )
 rcx

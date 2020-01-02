@@ -9825,6 +9825,8 @@ JSFunction
 )
 .
 nargs
+(
+)
 )
 )
 {
@@ -10570,6 +10572,8 @@ function
 -
 >
 nargs
+(
+)
 )
 return
 Method_Skipped
@@ -10961,6 +10965,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 data
 .
@@ -11529,6 +11535,8 @@ fun
 -
 >
 nargs
+(
+)
 )
 ;
 JSAutoResolveFlags

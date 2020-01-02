@@ -36129,8 +36129,13 @@ fun
 -
 >
 nargs
+(
+)
 >
+size_t
+(
 argc
+)
 )
 return
 true
@@ -36179,6 +36184,8 @@ fun
 -
 >
 nargs
+(
+)
 ;
 i
 +

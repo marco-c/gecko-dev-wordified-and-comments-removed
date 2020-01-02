@@ -19387,6 +19387,8 @@ fun
 -
 >
 flags
+(
+)
 )
 scriptOrLazyScript
 (

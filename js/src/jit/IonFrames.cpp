@@ -9519,6 +9519,8 @@ callee
 -
 >
 nargs
+(
+)
 )
 fprintf
 (
@@ -9552,6 +9554,8 @@ callee
 -
 >
 nargs
+(
+)
 &
 &
 numActualArgs
@@ -9564,6 +9568,8 @@ callee
 -
 >
 nargs
+(
+)
 )
 {
 DumpOp
@@ -9575,6 +9581,8 @@ callee
 -
 >
 nargs
+(
+)
 )
 ;
 forEachCanonicalActualArg
@@ -9608,6 +9616,8 @@ slot
 d
 :
 "
+int
+(
 i
 -
 2
@@ -9618,6 +9628,9 @@ callee
 -
 >
 nargs
+(
+)
+)
 )
 ;
 }

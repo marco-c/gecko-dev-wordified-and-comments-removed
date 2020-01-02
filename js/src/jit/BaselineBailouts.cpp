@@ -2668,6 +2668,8 @@ fun
 -
 >
 nargs
+(
+)
 script
 -
 >
@@ -2702,6 +2704,8 @@ fun
 -
 >
 nargs
+(
+)
 )
 )
 return
@@ -2721,6 +2725,8 @@ fun
 -
 >
 nargs
+(
+)
 ;
 i
 +
@@ -5261,6 +5267,8 @@ calleeFun
 -
 >
 nargs
+(
+)
 )
 return
 true
@@ -5325,6 +5333,8 @@ calleeFun
 -
 >
 nargs
+(
+)
 -
 actualArgc
 )

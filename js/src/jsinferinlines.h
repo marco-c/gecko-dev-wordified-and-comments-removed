@@ -2645,6 +2645,8 @@ function
 -
 >
 nargs
+(
+)
 )
 ;
 return

@@ -2372,6 +2372,8 @@ fun
 -
 >
 nargs
+(
+)
 ;
 }
 JS_PUBLIC_API

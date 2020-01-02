@@ -484,6 +484,8 @@ function
 -
 >
 nargs
+(
+)
 :
 0
 )

@@ -3267,6 +3267,8 @@ function
 -
 >
 nargs
+(
+)
 ;
 i
 +

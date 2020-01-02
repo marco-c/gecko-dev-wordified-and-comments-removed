@@ -2092,10 +2092,11 @@ EDtrAddr
 r1
 EDtrOffImm
 (
-offsetof
-(
 JSFunction
-nargs
+:
+:
+offsetOfNargs
+(
 )
 )
 )

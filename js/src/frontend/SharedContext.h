@@ -1002,6 +1002,8 @@ function
 -
 >
 nargs
+(
+)
 -
 function
 (

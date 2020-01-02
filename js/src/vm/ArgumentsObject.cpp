@@ -556,6 +556,8 @@ calleeToken
 -
 >
 nargs
+(
+)
 ;
 JS_ASSERT
 (
@@ -788,6 +790,8 @@ callee
 -
 >
 nargs
+(
+)
 ;
 JS_ASSERT
 (
@@ -1068,6 +1072,8 @@ callee
 -
 >
 nargs
+(
+)
 ;
 unsigned
 numDeletedWords
@@ -2139,6 +2145,8 @@ function
 -
 >
 nargs
+(
+)
 )
 types
 :
