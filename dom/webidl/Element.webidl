@@ -1058,9 +1058,6 @@ scrollIntoView
 (
 boolean
 top
-optional
-ScrollOptions
-options
 )
 ;
 /
