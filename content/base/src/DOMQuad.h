@@ -97,6 +97,11 @@ MOZ_FINAL
 public
 nsWrapperCache
 {
+~
+DOMQuad
+(
+)
+;
 public
 :
 DOMQuad
@@ -116,11 +121,6 @@ DOMQuad
 nsISupports
 *
 aParent
-)
-;
-~
-DOMQuad
-(
 )
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING

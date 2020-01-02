@@ -50,12 +50,6 @@ nsIContent
 aContent
 )
 ;
-virtual
-~
-ResponsiveImageSelector
-(
-)
-;
 bool
 SetCandidatesFromSourceSet
 (
@@ -92,6 +86,14 @@ GetSelectedImageURL
 ;
 double
 GetSelectedImageDensity
+(
+)
+;
+protected
+:
+virtual
+~
+ResponsiveImageSelector
 (
 )
 ;

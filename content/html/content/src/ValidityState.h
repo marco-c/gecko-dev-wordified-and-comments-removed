@@ -49,6 +49,12 @@ nsIDOMValidityState
 public
 nsWrapperCache
 {
+~
+ValidityState
+(
+)
+{
+}
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

@@ -185,6 +185,12 @@ MOZ_FINAL
 public
 DOMPointReadOnly
 {
+~
+DOMPoint
+(
+)
+{
+}
 public
 :
 DOMPoint

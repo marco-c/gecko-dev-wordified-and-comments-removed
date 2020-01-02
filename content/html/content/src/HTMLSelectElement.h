@@ -177,13 +177,6 @@ SelectState
 )
 {
 }
-virtual
-~
-SelectState
-(
-)
-{
-}
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_SELECT_STATE_IID
@@ -258,6 +251,13 @@ aIndex
 }
 private
 :
+virtual
+~
+SelectState
+(
+)
+{
+}
 nsCheapSet
 <
 nsStringHashKey

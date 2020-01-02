@@ -329,12 +329,6 @@ Element
 aContent
 )
 ;
-virtual
-~
-nsDOMAttributeMap
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
@@ -598,6 +592,14 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+;
+protected
+:
+virtual
+~
+nsDOMAttributeMap
+(
+)
 ;
 private
 :

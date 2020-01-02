@@ -98,11 +98,6 @@ nsIRDFResource
 aNode
 )
 ;
-~
-nsXULTemplateResultRDF
-(
-)
-;
 nsITemplateRDFQuery
 *
 Query
@@ -171,6 +166,11 @@ aMemoryElement
 ;
 protected
 :
+~
+nsXULTemplateResultRDF
+(
+)
+;
 nsCOMPtr
 <
 nsITemplateRDFQuery

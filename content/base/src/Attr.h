@@ -94,6 +94,13 @@ nsIAttribute
 public
 nsIDOMAttr
 {
+virtual
+~
+Attr
+(
+)
+{
+}
 public
 :
 Attr
@@ -122,13 +129,6 @@ bool
 aNsAware
 )
 ;
-virtual
-~
-Attr
-(
-)
-{
-}
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 virtual

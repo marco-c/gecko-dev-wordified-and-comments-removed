@@ -180,12 +180,6 @@ aNodeInfo
 )
 ;
 virtual
-~
-nsGenericDOMDataNode
-(
-)
-;
-virtual
 void
 GetNodeValueInternal
 (
@@ -1152,6 +1146,12 @@ nsGenericDOMDataNode
 )
 protected
 :
+virtual
+~
+nsGenericDOMDataNode
+(
+)
+;
 virtual
 mozilla
 :

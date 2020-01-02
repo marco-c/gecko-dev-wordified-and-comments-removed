@@ -113,10 +113,6 @@ nsContentAreaDragDropDataProvider
 public
 nsIFlavorDataProvider
 {
-public
-:
-NS_DECL_ISUPPORTS
-NS_DECL_NSIFLAVORDATAPROVIDER
 virtual
 ~
 nsContentAreaDragDropDataProvider
@@ -124,6 +120,10 @@ nsContentAreaDragDropDataProvider
 )
 {
 }
+public
+:
+NS_DECL_ISUPPORTS
+NS_DECL_NSIFLAVORDATAPROVIDER
 nsresult
 SaveURIToFile
 (

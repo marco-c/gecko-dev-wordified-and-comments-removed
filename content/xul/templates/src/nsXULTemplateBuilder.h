@@ -175,12 +175,6 @@ nsXULTemplateBuilder
 (
 )
 ;
-virtual
-~
-nsXULTemplateBuilder
-(
-)
-;
 nsresult
 InitGlobals
 (
@@ -689,6 +683,12 @@ aResource
 ;
 protected
 :
+virtual
+~
+nsXULTemplateBuilder
+(
+)
+;
 nsCOMPtr
 <
 nsISupports

@@ -52,6 +52,12 @@ BodyRule
 public
 nsIStyleRule
 {
+virtual
+~
+BodyRule
+(
+)
+;
 public
 :
 BodyRule
@@ -59,12 +65,6 @@ BodyRule
 HTMLBodyElement
 *
 aPart
-)
-;
-virtual
-~
-BodyRule
-(
 )
 ;
 NS_DECL_ISUPPORTS

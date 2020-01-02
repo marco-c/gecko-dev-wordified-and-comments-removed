@@ -94,12 +94,6 @@ XULContentSinkImpl
 (
 )
 ;
-virtual
-~
-XULContentSinkImpl
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIEXPATSINK
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
@@ -197,6 +191,12 @@ aPrototype
 ;
 protected
 :
+virtual
+~
+XULContentSinkImpl
+(
+)
+;
 char16_t
 *
 mText

@@ -478,6 +478,15 @@ sParserWrapper
 ;
 }
 }
+TextTrackManager
+:
+:
+~
+TextTrackManager
+(
+)
+{
+}
 TextTrackList
 *
 TextTrackManager

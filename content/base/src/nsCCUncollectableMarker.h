@@ -104,6 +104,12 @@ nsCCUncollectableMarker
 )
 {
 }
+~
+nsCCUncollectableMarker
+(
+)
+{
+}
 }
 ;
 namespace

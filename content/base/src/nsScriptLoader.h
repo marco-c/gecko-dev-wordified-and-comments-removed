@@ -155,12 +155,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
-~
-nsScriptLoader
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISTREAMLOADEROBSERVER
 void
@@ -434,6 +428,12 @@ aOffThreadToken
 ;
 private
 :
+virtual
+~
+nsScriptLoader
+(
+)
+;
 void
 UnblockParser
 (

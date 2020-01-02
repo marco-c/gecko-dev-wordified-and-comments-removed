@@ -2391,13 +2391,6 @@ aHttpChannel
 )
 {
 }
-virtual
-~
-nsHeaderVisitor
-(
-)
-{
-}
 const
 nsACString
 &
@@ -2411,6 +2404,13 @@ mHeaders
 }
 private
 :
+virtual
+~
+nsHeaderVisitor
+(
+)
+{
+}
 nsCString
 mHeaders
 ;
@@ -2796,6 +2796,8 @@ aXHR
 )
 {
 }
+private
+:
 ~
 nsXMLHttpRequestXPCOMifier
 (
@@ -2815,6 +2817,8 @@ nullptr
 ;
 }
 }
+public
+:
 NS_FORWARD_NSISTREAMLISTENER
 (
 mXHR
@@ -2933,6 +2937,8 @@ aXHR
 )
 {
 }
+private
+:
 virtual
 ~
 nsXHRParseEndListener
@@ -2940,8 +2946,6 @@ nsXHRParseEndListener
 )
 {
 }
-private
-:
 nsWeakPtr
 mXHR
 ;

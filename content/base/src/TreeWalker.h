@@ -60,6 +60,12 @@ nsIDOMTreeWalker
 public
 nsTraversal
 {
+virtual
+~
+TreeWalker
+(
+)
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -75,12 +81,6 @@ const
 NodeFilterHolder
 &
 aFilter
-)
-;
-virtual
-~
-TreeWalker
-(
 )
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS

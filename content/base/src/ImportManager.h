@@ -198,6 +198,12 @@ nullptr
 }
 private
 :
+~
+ImportLoader
+(
+)
+{
+}
 void
 DispatchEventIfFinished
 (
@@ -309,6 +315,12 @@ ImportLoader
 >
 ImportMap
 ;
+~
+ImportManager
+(
+)
+{
+}
 public
 :
 ImportManager

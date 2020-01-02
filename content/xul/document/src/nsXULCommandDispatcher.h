@@ -69,12 +69,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
-~
-nsXULCommandDispatcher
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
@@ -89,6 +83,12 @@ Disconnect
 ;
 protected
 :
+virtual
+~
+nsXULCommandDispatcher
+(
+)
+;
 already_AddRefed
 <
 nsPIWindowRoot

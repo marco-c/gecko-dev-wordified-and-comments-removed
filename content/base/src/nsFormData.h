@@ -107,6 +107,12 @@ nsFormSubmission
 public
 nsWrapperCache
 {
+~
+nsFormData
+(
+)
+{
+}
 public
 :
 nsFormData

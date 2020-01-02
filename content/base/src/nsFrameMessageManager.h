@@ -781,6 +781,8 @@ aCallback
 ;
 }
 }
+private
+:
 ~
 nsFrameMessageManager
 (
@@ -880,6 +882,8 @@ nullptr
 }
 }
 }
+public
+:
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
@@ -1762,6 +1766,12 @@ MOZ_FINAL
 public
 nsIObserver
 {
+~
+nsScriptCacheCleaner
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 nsScriptCacheCleaner
 (

@@ -96,6 +96,15 @@ mValues
 ;
 }
 }
+nsXULTemplateResultStorage
+:
+:
+~
+nsXULTemplateResultStorage
+(
+)
+{
+}
 NS_IMETHODIMP
 nsXULTemplateResultStorage
 :

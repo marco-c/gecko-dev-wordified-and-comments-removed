@@ -120,6 +120,12 @@ MOZ_FINAL
 public
 nsIMemoryReporter
 {
+~
+HostObjectURLsReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -622,6 +628,12 @@ rv
 }
 private
 :
+~
+BlobURLsReporter
+(
+)
+{
+}
 struct
 EnumArg
 {

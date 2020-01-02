@@ -88,12 +88,6 @@ HTMLFormElement
 aForm
 )
 ;
-virtual
-~
-HTMLFormControlsCollection
-(
-)
-;
 void
 DropFormReference
 (
@@ -283,6 +277,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+HTMLFormControlsCollection
+(
+)
+;
 virtual
 JSObject
 *

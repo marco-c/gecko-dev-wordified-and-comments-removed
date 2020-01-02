@@ -33,12 +33,6 @@ nsXMLPrettyPrinter
 (
 )
 ;
-virtual
-~
-nsXMLPrettyPrinter
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
@@ -63,6 +57,12 @@ Unhook
 ;
 private
 :
+virtual
+~
+nsXMLPrettyPrinter
+(
+)
+;
 void
 MaybeUnhook
 (

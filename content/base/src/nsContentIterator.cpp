@@ -284,12 +284,6 @@ aPre
 )
 ;
 virtual
-~
-nsContentIterator
-(
-)
-;
-virtual
 nsresult
 Init
 (
@@ -355,6 +349,12 @@ aCurNode
 ;
 protected
 :
+virtual
+~
+nsContentIterator
+(
+)
+;
 nsINode
 *
 GetDeepFirstChild

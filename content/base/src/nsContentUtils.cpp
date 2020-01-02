@@ -2070,6 +2070,12 @@ MOZ_DEFINE_MALLOC_SIZE_OF
 (
 MallocSizeOf
 )
+~
+DOMEventListenerManagersHashReporter
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -2277,6 +2283,12 @@ nsIChannelEventSink
 public
 nsIInterfaceRequestor
 {
+~
+SameOriginChecker
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR

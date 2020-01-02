@@ -93,6 +93,12 @@ nsIAtom
 >
 mColumnNames
 ;
+~
+nsXULTemplateResultSetStorage
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -142,6 +148,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIXULTEMPLATEQUERYPROCESSOR
 private
 :
+~
+nsXULTemplateQueryProcessorStorage
+(
+)
+{
+}
 nsCOMPtr
 <
 mozIStorageConnection

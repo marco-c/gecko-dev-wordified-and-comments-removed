@@ -118,6 +118,11 @@ class
 nsXMLBindingSet
 MOZ_FINAL
 {
+~
+nsXMLBindingSet
+(
+)
+;
 public
 :
 nsCycleCollectingAutoRefCnt

@@ -70,12 +70,6 @@ nsXULContextMenuBuilder
 (
 )
 ;
-virtual
-~
-nsXULContextMenuBuilder
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
@@ -86,6 +80,12 @@ NS_DECL_NSIMENUBUILDER
 NS_DECL_NSIXULCONTEXTMENUBUILDER
 protected
 :
+virtual
+~
+nsXULContextMenuBuilder
+(
+)
+;
 nsresult
 CreateElement
 (

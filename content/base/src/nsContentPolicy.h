@@ -32,6 +32,8 @@ nsContentPolicy
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsContentPolicy

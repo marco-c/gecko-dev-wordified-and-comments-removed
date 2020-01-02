@@ -72,12 +72,6 @@ nsXMLBindingSet
 aBindings
 )
 ;
-~
-nsXULTemplateResultXML
-(
-)
-{
-}
 void
 GetNode
 (
@@ -89,6 +83,12 @@ aNode
 ;
 protected
 :
+~
+nsXULTemplateResultXML
+(
+)
+{
+}
 nsAutoString
 mId
 ;

@@ -331,12 +331,6 @@ HTMLContentElement
 aHostElement
 )
 ;
-virtual
-~
-DistributedContentList
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
@@ -392,6 +386,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+DistributedContentList
+(
+)
+;
 nsRefPtr
 <
 HTMLContentElement

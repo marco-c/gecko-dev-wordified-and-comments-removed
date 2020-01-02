@@ -154,6 +154,15 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 nsXMLBindingSet
 Release
 )
+nsXMLBindingSet
+:
+:
+~
+nsXMLBindingSet
+(
+)
+{
+}
 nsresult
 nsXMLBindingSet
 :

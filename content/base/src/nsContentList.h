@@ -141,12 +141,6 @@ SetIsDOMBinding
 )
 ;
 }
-virtual
-~
-nsBaseContentList
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMNODELIST
 virtual
@@ -323,6 +317,12 @@ aCapacity
 }
 protected
 :
+virtual
+~
+nsBaseContentList
+(
+)
+;
 virtual
 void
 RemoveFromCaches

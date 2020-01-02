@@ -86,6 +86,11 @@ nsISupports
 public
 nsWrapperCache
 {
+~
+HTMLAllCollection
+(
+)
+;
 public
 :
 HTMLAllCollection
@@ -93,11 +98,6 @@ HTMLAllCollection
 nsHTMLDocument
 *
 aDocument
-)
-;
-~
-HTMLAllCollection
-(
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

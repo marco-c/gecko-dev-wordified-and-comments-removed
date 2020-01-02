@@ -117,14 +117,16 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSICONTENTSECURITYPOLICY
 NS_DECL_NSISERIALIZABLE
-public
+protected
 :
+virtual
+~
 nsCSPContext
 (
 )
 ;
-virtual
-~
+public
+:
 nsCSPContext
 (
 )
@@ -261,6 +263,8 @@ CSPViolationReportListener
 (
 )
 ;
+protected
+:
 virtual
 ~
 CSPViolationReportListener
@@ -289,6 +293,8 @@ CSPReportRedirectSink
 (
 )
 ;
+protected
+:
 virtual
 ~
 CSPReportRedirectSink

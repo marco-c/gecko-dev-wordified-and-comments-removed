@@ -61,6 +61,11 @@ aResultSet
 ;
 protected
 :
+~
+nsXULTemplateResultStorage
+(
+)
+;
 nsRefPtr
 <
 nsXULTemplateResultSetStorage

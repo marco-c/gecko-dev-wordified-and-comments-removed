@@ -2214,6 +2214,12 @@ NS_OK
 }
 private
 :
+~
+AsyncVerifyRedirectCallbackFwr
+(
+)
+{
+}
 nsRefPtr
 <
 EventSource

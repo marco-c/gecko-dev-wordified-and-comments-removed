@@ -64,14 +64,14 @@ nsChannelPolicy
 (
 )
 ;
+protected
+:
 virtual
 ~
 nsChannelPolicy
 (
 )
 ;
-protected
-:
 unsigned
 long
 mLoadType
