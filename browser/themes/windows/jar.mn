@@ -6552,6 +6552,11 @@ inspector
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 font
@@ -14913,6 +14918,11 @@ inspector
 .
 css
 (
+.
+.
+/
+shared
+/
 devtools
 /
 font
