@@ -82,10 +82,6 @@ appName
 remoteLog
 =
 None
-                 
-processArgs
-=
-None
 )
 :
         
@@ -112,16 +108,6 @@ self
 _remoteLog
 =
 remoteLog
-        
-self
-.
-_processArgs
-=
-processArgs
-or
-{
-}
-;
         
 self
 .
@@ -1087,12 +1073,6 @@ cwd
 self
 .
 _appName
-                             
-*
-*
-self
-.
-_processArgs
 )
     
 class
@@ -1125,10 +1105,6 @@ cwd
 =
 None
 app
-=
-None
-                     
-messageLogger
 =
 None
 )
@@ -1170,12 +1146,6 @@ cwd
 env
 True
 )
-            
-self
-.
-messageLogger
-=
-messageLogger
             
 if
 (
@@ -1291,13 +1261,6 @@ sleep
 (
 1
 )
-            
-self
-.
-logBuffer
-=
-"
-"
         
 property
         
@@ -1333,8 +1296,10 @@ return
 return
 pid
         
+property
+        
 def
-read_stdout
+stdout
 (
 self
 )
@@ -1366,11 +1331,10 @@ call
 (
 as
 a
-list
-of
-messages
-or
-lines
+multi
+-
+line
+string
 )
 .
             
@@ -1379,7 +1343,6 @@ lines
 "
             
 if
-not
 self
 .
 dm
@@ -1392,13 +1355,9 @@ proc
 )
 :
                 
-return
-[
-]
-            
 try
 :
-                
+                    
 newLogContent
 =
 self
@@ -1414,24 +1373,15 @@ self
 .
 stdoutlen
 )
-            
+                
 except
 DMError
 :
-                
+                    
 return
-[
-]
-            
-if
-not
-newLogContent
-:
+'
+'
                 
-return
-[
-]
-            
 self
 .
 stdoutlen
@@ -1441,14 +1391,6 @@ len
 (
 newLogContent
 )
-            
-if
-self
-.
-messageLogger
-is
-None
-:
                 
 testStartFilenames
 =
@@ -1489,123 +1431,27 @@ testStartFilenames
 1
 ]
                 
-print
-newLogContent
-                
 return
-[
 newLogContent
-]
-            
-self
 .
-logBuffer
-+
-=
-newLogContent
-            
-lines
-=
-self
-.
-logBuffer
-.
-split
+strip
 (
 '
 \
 n
 '
 )
+.
+strip
+(
+)
             
-if
-not
-lines
+else
 :
                 
 return
-            
-self
-.
-logBuffer
-=
-lines
-[
--
-1
-]
-            
-del
-lines
-[
--
-1
-]
-            
-messages
-=
-[
-]
-            
-for
-line
-in
-lines
-:
-                
-message
-=
-self
-.
-messageLogger
-.
-write
-(
-line
-)
-                
-if
-message
-is
-None
-:
-                    
-continue
-                
-messages
-.
-append
-(
-message
-)
-                
-if
-message
-[
 '
-action
 '
-]
-=
-=
-'
-test_start
-'
-:
-                    
-self
-.
-lastTestSeen
-=
-message
-[
-'
-test
-'
-]
-            
-return
-messages
         
 property
         
@@ -1689,17 +1535,22 @@ timer
 0
 :
                     
-messages
+t
 =
 self
 .
-read_stdout
-(
-)
+stdout
                     
 if
-messages
+t
+!
+=
+'
+'
 :
+                        
+print
+t
                         
 noOutputTimer
 =
@@ -1752,11 +1603,10 @@ status
                     
 break
             
+print
 self
 .
-read_stdout
-(
-)
+stdout
             
 return
 status

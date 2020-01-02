@@ -2550,8 +2550,6 @@ Manager
 window
 unload
 handler
-\
-n
 "
 )
 ;

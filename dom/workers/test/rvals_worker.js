@@ -70,11 +70,6 @@ postMessage
 dump
 (
 42
-+
-'
-\
-n
-'
 )
 =
 =
