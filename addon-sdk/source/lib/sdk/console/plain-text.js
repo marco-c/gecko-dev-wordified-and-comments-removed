@@ -101,6 +101,8 @@ Console
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -297,6 +299,7 @@ function
 PlainTextConsole
 (
 print
+innerID
 )
 {
 let
@@ -318,6 +321,9 @@ logLevel
 dump
 :
 print
+innerID
+:
+innerID
 }
 ;
 let

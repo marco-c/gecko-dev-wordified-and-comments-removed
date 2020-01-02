@@ -309,11 +309,14 @@ data
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 name
-=
+!
 =
 =
 "
@@ -321,6 +324,10 @@ URIError
 "
 )
 {
+throw
+e
+;
+}
 }
 }
 options

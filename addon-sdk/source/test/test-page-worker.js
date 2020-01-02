@@ -3450,7 +3450,10 @@ foo
 catch
 (
 err
+)
+{
 if
+(
 err
 .
 message
@@ -3462,6 +3465,13 @@ ERR_DESTROYED
 return
 true
 ;
+}
+else
+{
+throw
+err
+;
+}
 }
 return
 false

@@ -6391,12 +6391,14 @@ widgetId
 ;
 all
 (
+[
 warned
 .
 promise
 shown
 .
 promise
+]
 )
 .
 then
