@@ -10948,11 +10948,11 @@ value
 ;
 if
 (
+(
 !
 listenerWindow
 |
 |
-(
 listenerWindow
 .
 location
