@@ -1381,3 +1381,15 @@ count
 0
 )
 ;
+user_pref
+(
+"
+browser
+.
+webapps
+.
+testing
+"
+true
+)
+;
