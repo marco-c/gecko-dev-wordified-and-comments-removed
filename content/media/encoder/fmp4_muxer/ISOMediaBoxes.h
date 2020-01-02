@@ -877,6 +877,9 @@ mAllSampleSize
 uint32_t
 mTrackType
 ;
+MetaHelper
+mMeta
+;
 }
 ;
 #
@@ -950,6 +953,8 @@ TrackFragmentHeaderBox
 (
 uint32_t
 aType
+uint32_t
+aFlags
 ISOControl
 *
 aControl
@@ -982,8 +987,6 @@ TrackFragmentBox
 (
 uint32_t
 aType
-uint32_t
-aFlags
 ISOControl
 *
 aControl
