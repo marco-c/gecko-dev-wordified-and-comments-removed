@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 classes
@@ -632,10 +637,6 @@ ensureDataReady
 (
 )
 ;
-let
-encUsername
-encPassword
-;
 LoginHelper
 .
 checkLoginValues
@@ -643,6 +644,7 @@ checkLoginValues
 login
 )
 ;
+let
 [
 encUsername
 encPassword
