@@ -12519,6 +12519,9 @@ rt
 gcShouldCleanUpEverything
 )
 {
+#
+ifdef
+JS_ION
 if
 (
 JSCompartment
@@ -12546,6 +12549,8 @@ setPreservingCode
 true
 )
 ;
+#
+endif
 }
 if
 (
