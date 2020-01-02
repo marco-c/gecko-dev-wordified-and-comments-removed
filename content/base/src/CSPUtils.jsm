@@ -4845,9 +4845,6 @@ _permitAllSources
 =
 true
 ;
-return
-slObj
-;
 }
 else
 {
