@@ -65,7 +65,12 @@ const
 uint32_t
 ShadowStackSpace
 =
-0
+4
+*
+sizeof
+(
+uintptr_t
+)
 ;
 static
 const

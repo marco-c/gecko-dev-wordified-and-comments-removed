@@ -57,7 +57,7 @@ HWCAP_USE_HARDFP_ABI
 1
 <
 <
-28
+27
 )
 #
 if
@@ -88,7 +88,7 @@ HWCAP_ARMv7
 1
 <
 <
-29
+28
 )
 #
 include
