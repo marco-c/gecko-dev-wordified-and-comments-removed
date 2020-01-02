@@ -1681,6 +1681,16 @@ GetTextureSources
 (
 )
 {
+MOZ_ASSERT
+(
+mIsLocked
+)
+;
+MOZ_ASSERT
+(
+mTextureSource
+)
+;
 return
 mTextureSource
 .
