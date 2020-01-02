@@ -29,7 +29,7 @@ nsGridContainerFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsGridContainerFrameSuper
+nsContainerFrame
 )
 NS_IMPL_FRAMEARENA_HELPERS
 (
@@ -57,15 +57,6 @@ nsGridContainerFrame
 aContext
 )
 ;
-}
-nsGridContainerFrame
-:
-:
-~
-nsGridContainerFrame
-(
-)
-{
 }
 nsIAtom
 *
