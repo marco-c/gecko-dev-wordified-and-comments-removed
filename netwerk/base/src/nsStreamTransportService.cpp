@@ -1321,6 +1321,7 @@ h
 "
 class
 STSThreadPoolListener
+MOZ_FINAL
 :
 public
 nsIThreadPoolListener
