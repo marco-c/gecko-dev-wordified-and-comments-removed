@@ -2905,9 +2905,11 @@ Console
 API
 *
 /
-readonly
+[
+implicit_jscontext
+]
 attribute
-nsISupports
+jsval
 console
 ;
 }
