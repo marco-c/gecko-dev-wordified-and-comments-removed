@@ -361,6 +361,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+bytesRead
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 aParser
 -
 >

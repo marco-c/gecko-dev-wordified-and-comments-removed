@@ -7112,6 +7112,17 @@ int64_t
 aOffset
 )
 {
+if
+(
+aNumBytes
+<
+=
+0
+)
+{
+return
+;
+}
 RefPtr
 <
 nsIRunnable
