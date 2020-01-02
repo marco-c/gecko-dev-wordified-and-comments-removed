@@ -848,6 +848,17 @@ aValue
 ;
 static
 nsresult
+AllocateWStringWithSize
+(
+nsDiscriminatedUnion
+*
+aData
+uint32_t
+aSize
+)
+;
+static
+nsresult
 SetToVoid
 (
 nsDiscriminatedUnion
