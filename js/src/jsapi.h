@@ -12262,8 +12262,10 @@ JS_StealArrayBufferContents
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 void
 *
