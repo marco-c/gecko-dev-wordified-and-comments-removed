@@ -223,7 +223,7 @@ RenderFrameChild
 ;
 }
 namespace
-widget
+layers
 {
 class
 ActiveElementManager
@@ -971,7 +971,7 @@ typedef
 mozilla
 :
 :
-widget
+layers
 :
 :
 ActiveElementManager

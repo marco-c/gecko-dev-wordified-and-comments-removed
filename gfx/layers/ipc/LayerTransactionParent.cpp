@@ -315,6 +315,10 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
 AsyncPanZoomController
 .
 h

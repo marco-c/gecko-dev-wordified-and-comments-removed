@@ -71,13 +71,6 @@ h
 #
 include
 "
-LayerTransactionParent
-.
-h
-"
-#
-include
-"
 Units
 .
 h
@@ -317,7 +310,7 @@ mozilla
 /
 layers
 /
-GeckoContentController
+LayerTransactionParent
 .
 h
 "
