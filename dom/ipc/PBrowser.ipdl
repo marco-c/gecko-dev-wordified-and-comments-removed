@@ -1563,13 +1563,6 @@ sync
 PRenderFrame
 (
 )
-;
-sync
-InitRenderFrame
-(
-PRenderFrame
-aFrame
-)
 returns
 (
 ScrollingBehavior
@@ -1578,8 +1571,6 @@ TextureFactoryIdentifier
 textureFactoryIdentifier
 uint64_t
 layersId
-bool
-success
 )
 ;
 /
