@@ -18,14 +18,6 @@ ac_add_options
 enable
 -
 signmar
-ac_add_options
--
--
-disable
--
-unified
--
-compilation
 .
 topsrcdir
 /
