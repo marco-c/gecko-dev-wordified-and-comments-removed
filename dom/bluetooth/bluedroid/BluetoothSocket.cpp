@@ -2468,14 +2468,10 @@ offset
 BT_LOGR
 (
 "
-%
-s
-:
 channel
 %
 d
 "
-__FUNCTION__
 channel
 )
 ;
@@ -2542,9 +2538,6 @@ offset
 BT_LOGR
 (
 "
-%
-s
-:
 size
 %
 d
@@ -2559,7 +2552,6 @@ status
 %
 d
 "
-__FUNCTION__
 size
 channel
 NS_ConvertUTF16toUTF8

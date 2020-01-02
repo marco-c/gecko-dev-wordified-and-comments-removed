@@ -1202,9 +1202,6 @@ BT_LOGR
 (
 "
 %
-s
-:
-%
 d
 client
 %
@@ -1215,7 +1212,6 @@ mClientId
 %
 d
 "
-__FUNCTION__
 aRegistered
 aClientId
 (
