@@ -112,13 +112,9 @@ h
 "
 #
 endif
+using
 namespace
-dom
-=
 mozilla
-:
-:
-dom
 ;
 class
 Area
