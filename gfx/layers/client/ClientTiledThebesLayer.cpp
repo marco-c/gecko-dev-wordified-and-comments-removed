@@ -655,7 +655,7 @@ endif
 return
 ;
 }
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -753,7 +753,7 @@ criticalDisplayPort
 )
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -790,7 +790,7 @@ GetZoomToParent
 (
 )
 ;
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -841,7 +841,7 @@ scrollMetrics
 mCompositionBounds
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -884,7 +884,7 @@ GetZoomToParent
 (
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1121,7 +1121,7 @@ mCriticalDisplayPort
 )
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1201,7 +1201,7 @@ mCriticalDisplayPort
 )
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1230,7 +1230,7 @@ get
 aInvalidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1459,7 +1459,7 @@ aInvalidRegion
 mValidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1491,7 +1491,7 @@ get
 aInvalidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1553,7 +1553,7 @@ aCallbackData
 )
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1600,7 +1600,7 @@ IsEmpty
 )
 )
 {
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -1671,7 +1671,7 @@ mFirstPaint
 =
 false
 ;
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -1813,7 +1813,7 @@ nsIntRegion
 )
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1839,7 +1839,7 @@ get
 mVisibleRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1865,7 +1865,7 @@ get
 mValidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1961,7 +1961,7 @@ UseFastPath
 )
 )
 {
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -2088,7 +2088,7 @@ mCriticalDisplayPort
 )
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -2116,7 +2116,7 @@ get
 mValidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -2176,7 +2176,7 @@ mCriticalDisplayPort
 )
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -2235,7 +2235,7 @@ mValidRegion
 )
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -2341,7 +2341,7 @@ if
 updatedHighPrecision
 )
 {
-TILING_PRLOG
+TILING_LOG
 (
 (
 "

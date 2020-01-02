@@ -906,7 +906,7 @@ if
 mProgressiveUpdateWasInDanger
 )
 {
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -964,7 +964,7 @@ scale
 )
 )
 {
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -1193,7 +1193,7 @@ aLowPrecision
 aHasPendingNewThebesContent
 )
 {
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -1361,7 +1361,7 @@ showing
 )
 )
 {
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1386,7 +1386,7 @@ get
 aContentMetrics
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1411,7 +1411,7 @@ get
 painted
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -1436,7 +1436,7 @@ get
 aCompositorMetrics
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -3487,7 +3487,7 @@ void
 aCallbackData
 )
 {
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -3513,7 +3513,7 @@ get
 aPaintRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -5176,7 +5176,7 @@ aInvalidRegion
 aOldValidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -5318,7 +5318,7 @@ viewTransform
 ;
 #
 endif
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -5424,7 +5424,7 @@ mTransformToCompBounds
 viewTransform
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -5483,7 +5483,7 @@ endif
 )
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -5576,7 +5576,7 @@ paintingVisible
 true
 ;
 }
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -5620,7 +5620,7 @@ aPaintData
 mFirstPaint
 )
 ;
-TILING_PRLOG
+TILING_LOG
 (
 (
 "
@@ -5989,7 +5989,7 @@ void
 aCallbackData
 )
 {
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -6016,7 +6016,7 @@ get
 aValidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -6043,7 +6043,7 @@ get
 aInvalidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -6097,7 +6097,7 @@ aPaintData
 repeat
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -6186,7 +6186,7 @@ while
 repeat
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
@@ -6219,7 +6219,7 @@ isBufferChanged
 aValidRegion
 )
 ;
-TILING_PRLOG_OBJ
+TILING_LOG_OBJ
 (
 (
 "
