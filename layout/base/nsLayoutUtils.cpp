@@ -14905,13 +14905,6 @@ if
 widget
 )
 {
-builder
-.
-SetFinalTransparentRegion
-(
-visibleRegion
-)
-;
 widget
 -
 >
