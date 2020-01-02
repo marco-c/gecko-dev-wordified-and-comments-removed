@@ -226,7 +226,7 @@ id
 +
 id
 /
-primary_text
+title
 "
 style
 =
@@ -237,7 +237,7 @@ Widget
 .
 TwoLineRow
 .
-PrimaryText
+Title
 "
 android
 :
@@ -272,7 +272,7 @@ id
 +
 id
 /
-secondary_text
+description
 "
 style
 =
@@ -283,7 +283,7 @@ Widget
 .
 TwoLineRow
 .
-SecondaryText
+Description
 "
 android
 :

@@ -1256,7 +1256,7 @@ Widget
 .
 TwoLineRow
 .
-PrimaryText
+Title
 "
 >
 <
@@ -1277,7 +1277,7 @@ Widget
 .
 TwoLineRow
 .
-PrimaryText
+Title
 <
 /
 item
@@ -1325,7 +1325,7 @@ Widget
 .
 TwoLineRow
 .
-SecondaryText
+Description
 "
 >
 <
@@ -1346,7 +1346,7 @@ Widget
 .
 TwoLineRow
 .
-SecondaryText
+Description
 <
 /
 item
@@ -1416,7 +1416,7 @@ Widget
 .
 TwoLineRow
 .
-PrimaryText
+Title
 "
 >
 <
@@ -3847,7 +3847,7 @@ Widget
 .
 TwoLineRow
 .
-PrimaryText
+Title
 "
 parent
 =
@@ -3869,7 +3869,7 @@ Widget
 .
 TwoLineRow
 .
-SecondaryText
+Description
 "
 parent
 =
