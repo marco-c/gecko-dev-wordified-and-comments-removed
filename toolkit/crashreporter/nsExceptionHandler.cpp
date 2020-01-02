@@ -8510,6 +8510,16 @@ void
 uc
 )
 {
+if
+(
+!
+gExceptionHandler
+)
+{
+return
+false
+;
+}
 return
 gExceptionHandler
 -
