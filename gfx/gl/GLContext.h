@@ -8976,7 +8976,7 @@ nullptr
 }
 virtual
 void
-MakeCurrent_EGLSurface
+SetEGLSurfaceOverride
 (
 void
 *

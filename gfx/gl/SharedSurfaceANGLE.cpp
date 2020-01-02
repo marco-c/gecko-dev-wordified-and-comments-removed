@@ -141,7 +141,7 @@ LockProdImpl
 mGL
 -
 >
-MakeCurrent_EGLSurface
+SetEGLSurfaceOverride
 (
 mPBuffer
 )
