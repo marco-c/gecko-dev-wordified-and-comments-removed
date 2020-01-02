@@ -1791,12 +1791,8 @@ mContentClient
 >
 mLowPrecisionTiledBuffer
 .
-PaintThebes
+ResetPaintedAndValidState
 (
-mLowPrecisionValidRegion
-mLowPrecisionValidRegion
-callback
-data
 )
 ;
 }
