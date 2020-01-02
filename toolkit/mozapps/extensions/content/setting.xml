@@ -1895,11 +1895,6 @@ anonid
 "
 input
 "
-flex
-=
-"
-1
-"
 oninput
 =
 "
@@ -1928,6 +1923,7 @@ max
 increment
 hidespinbuttons
 wraparound
+size
 "
 /
 >
