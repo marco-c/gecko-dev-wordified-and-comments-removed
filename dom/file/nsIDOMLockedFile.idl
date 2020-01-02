@@ -121,9 +121,6 @@ idl
 interface
 nsIDOMEventListener
 ;
-interface
-nsIDOMFileHandle
-;
 [
 scriptable
 builtinclass
@@ -147,7 +144,12 @@ nsISupports
 {
 readonly
 attribute
-nsIDOMFileHandle
+nsISupports
+/
+*
+FileHandle
+*
+/
 fileHandle
 ;
 /

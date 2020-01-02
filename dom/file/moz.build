@@ -106,11 +106,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMFileHandle
-.
-idl
-'
-'
 nsIDOMLockedFile
 .
 idl
@@ -163,11 +158,6 @@ h
 '
 '
 ArchiveZipFile
-.
-h
-'
-'
-DOMFileHandle
 .
 h
 '
@@ -238,11 +228,6 @@ cpp
 '
 '
 AsyncHelper
-.
-cpp
-'
-'
-DOMFileHandle
 .
 cpp
 '

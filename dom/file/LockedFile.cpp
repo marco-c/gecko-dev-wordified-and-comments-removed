@@ -1829,7 +1829,7 @@ LockedFile
 :
 GetFileHandle
 (
-nsIDOMFileHandle
+nsISupports
 *
 *
 aFileHandle
@@ -1837,7 +1837,7 @@ aFileHandle
 {
 nsCOMPtr
 <
-nsIDOMFileHandle
+nsISupports
 >
 result
 (

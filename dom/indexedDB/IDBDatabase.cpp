@@ -4456,7 +4456,7 @@ WrapNative
 aCx
 NS_ISUPPORTS_CAST
 (
-nsIDOMFileHandle
+EventTarget
 *
 fileHandle
 )
