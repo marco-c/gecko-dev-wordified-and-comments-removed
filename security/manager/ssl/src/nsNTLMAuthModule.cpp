@@ -66,6 +66,10 @@ Telemetry
 h
 "
 #
+define
+DISABLE_GENERIC_NTLM_MODULE
+1
+#
 ifdef
 PR_LOGGING
 static
@@ -3103,6 +3107,17 @@ InitTest
 (
 )
 {
+#
+if
+defined
+(
+DISABLE_GENERIC_NTLM_MODULE
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+else
 nsNSSShutDownPreventionLock
 locker
 ;
@@ -3115,6 +3130,8 @@ NS_ERROR_NOT_AVAILABLE
 :
 NS_OK
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsNTLMAuthModule
