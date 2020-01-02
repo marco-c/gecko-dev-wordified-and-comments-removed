@@ -1887,5 +1887,13 @@ sndio_stream_set_volume
 stream_set_panning
 =
 sndio_stream_set_panning
+.
+stream_get_current_output_device
+=
+NULL
+.
+stream_output_device_destroy
+=
+NULL
 }
 ;
