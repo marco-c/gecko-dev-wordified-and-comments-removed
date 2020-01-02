@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsXPathExpression
 .
 h
@@ -68,6 +77,12 @@ txXPathTreeWalker
 .
 h
 "
+using
+mozilla
+:
+:
+Move
+;
 NS_IMPL_CYCLE_COLLECTION
 (
 nsXPathExpression
@@ -118,6 +133,7 @@ nsAutoPtr
 Expr
 >
 &
+&
 aExpression
 txResultRecycler
 *
@@ -129,7 +145,10 @@ aDocument
 :
 mExpression
 (
+Move
+(
 aExpression
+)
 )
 mRecycler
 (

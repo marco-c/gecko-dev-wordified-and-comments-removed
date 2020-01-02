@@ -79,6 +79,7 @@ nsAutoPtr
 Expr
 >
 &
+&
 aExpression
 txResultRecycler
 *

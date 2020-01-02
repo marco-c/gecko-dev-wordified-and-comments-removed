@@ -9459,7 +9459,10 @@ rv
 ;
 mResponseHead
 =
+Move
+(
 mCachedResponseHead
+)
 ;
 UpdateInhibitPersistentCachingFlag
 (
@@ -9974,7 +9977,10 @@ rv
 ;
 mResponseHead
 =
+Move
+(
 mCachedResponseHead
+)
 ;
 UpdateInhibitPersistentCachingFlag
 (
@@ -14942,7 +14948,10 @@ mCachedResponseHead
 )
 mResponseHead
 =
+Move
+(
 mCachedResponseHead
+)
 ;
 UpdateInhibitPersistentCachingFlag
 (
@@ -21935,7 +21944,10 @@ interrupted
 ;
 mCachedResponseHead
 =
+Move
+(
 mResponseHead
+)
 ;
 rv
 =

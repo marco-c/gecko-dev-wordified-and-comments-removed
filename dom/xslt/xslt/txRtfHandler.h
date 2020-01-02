@@ -49,6 +49,7 @@ nsAutoPtr
 txResultBuffer
 >
 &
+&
 aBuffer
 )
 ;

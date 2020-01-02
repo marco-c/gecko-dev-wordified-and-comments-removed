@@ -260,6 +260,8 @@ nsAutoPtr
 <
 txPattern
 >
+&
+&
 aMatch
 const
 txExpandedName
@@ -309,6 +311,8 @@ nsAutoPtr
 <
 Expr
 >
+&
+&
 aValue
 bool
 aIsParam

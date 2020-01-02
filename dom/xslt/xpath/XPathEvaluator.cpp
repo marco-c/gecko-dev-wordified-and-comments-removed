@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -551,7 +560,10 @@ aResult
 new
 nsXPathExpression
 (
+Move
+(
 expression
+)
 mRecycler
 document
 )

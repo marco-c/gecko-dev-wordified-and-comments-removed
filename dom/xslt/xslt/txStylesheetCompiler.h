@@ -434,6 +434,8 @@ nsAutoPtr
 <
 txInstruction
 >
+&
+&
 aInstruction
 )
 ;
