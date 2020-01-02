@@ -10073,7 +10073,7 @@ const
 nsAString
 &
 aStringToInsert
-nsINode
+Text
 *
 aTextNode
 int32_t
