@@ -183,8 +183,8 @@ bool
 aVisibility
 )
 ;
-nsresult
-DrawAtPosition
+void
+SetCaretPosition
 (
 nsIDOMNode
 *
@@ -423,9 +423,6 @@ mOverrideContent
 ;
 int32_t
 mOverrideOffset
-;
-bool
-mIsBlinking
 ;
 bool
 mIsBlinkOn
