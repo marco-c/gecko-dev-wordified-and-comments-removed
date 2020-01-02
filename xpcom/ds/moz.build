@@ -328,16 +328,6 @@ nsMathUtils
 h
 '
 '
-nsObserverList
-.
-h
-'
-'
-nsObserverService
-.
-h
-'
-'
 nsStaticAtom
 .
 h

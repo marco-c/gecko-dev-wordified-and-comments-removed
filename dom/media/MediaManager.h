@@ -61,7 +61,7 @@ h
 #
 include
 "
-nsObserverService
+nsIObserver
 .
 h
 "
