@@ -2395,9 +2395,6 @@ if
 handler
 )
 {
-dom
-:
-:
 EventListenerFlags
 flags
 ;
@@ -2593,9 +2590,6 @@ GetEventName
 type
 )
 ;
-dom
-:
-:
 EventListenerFlags
 flags
 ;
@@ -3045,9 +3039,6 @@ keypress
 )
 continue
 ;
-dom
-:
-:
 EventListenerFlags
 flags
 ;
@@ -3180,9 +3171,6 @@ GetEventName
 type
 )
 ;
-dom
-:
-:
 EventListenerFlags
 flags
 ;

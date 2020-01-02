@@ -755,9 +755,6 @@ NS_LITERAL_STRING
 keydown
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -775,9 +772,6 @@ NS_LITERAL_STRING
 keyup
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -797,9 +791,6 @@ NS_LITERAL_STRING
 keypress
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -817,9 +808,6 @@ NS_LITERAL_STRING
 dragenter
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -837,9 +825,6 @@ NS_LITERAL_STRING
 dragover
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -857,9 +842,6 @@ NS_LITERAL_STRING
 dragexit
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -877,9 +859,6 @@ NS_LITERAL_STRING
 drop
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -897,9 +876,6 @@ NS_LITERAL_STRING
 mousedown
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -917,9 +893,6 @@ NS_LITERAL_STRING
 mouseup
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -937,9 +910,6 @@ NS_LITERAL_STRING
 click
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -957,9 +927,6 @@ NS_LITERAL_STRING
 blur
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -977,9 +944,6 @@ NS_LITERAL_STRING
 focus
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -997,9 +961,6 @@ NS_LITERAL_STRING
 text
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1017,9 +978,6 @@ NS_LITERAL_STRING
 compositionstart
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1037,9 +995,6 @@ NS_LITERAL_STRING
 compositionend
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1228,9 +1183,6 @@ NS_LITERAL_STRING
 keydown
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1248,9 +1200,6 @@ NS_LITERAL_STRING
 keyup
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1270,9 +1219,6 @@ NS_LITERAL_STRING
 keypress
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1290,9 +1236,6 @@ NS_LITERAL_STRING
 dragenter
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1310,9 +1253,6 @@ NS_LITERAL_STRING
 dragover
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1330,9 +1270,6 @@ NS_LITERAL_STRING
 dragexit
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1350,9 +1287,6 @@ NS_LITERAL_STRING
 drop
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1370,9 +1304,6 @@ NS_LITERAL_STRING
 mousedown
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -1390,9 +1321,6 @@ NS_LITERAL_STRING
 mouseup
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -1410,9 +1338,6 @@ NS_LITERAL_STRING
 click
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -1430,9 +1355,6 @@ NS_LITERAL_STRING
 blur
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -1450,9 +1372,6 @@ NS_LITERAL_STRING
 focus
 "
 )
-dom
-:
-:
 TrustedEventsAtCapture
 (
 )
@@ -1470,9 +1389,6 @@ NS_LITERAL_STRING
 text
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1490,9 +1406,6 @@ NS_LITERAL_STRING
 compositionstart
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )
@@ -1510,9 +1423,6 @@ NS_LITERAL_STRING
 compositionend
 "
 )
-dom
-:
-:
 TrustedEventsAtSystemGroupBubble
 (
 )

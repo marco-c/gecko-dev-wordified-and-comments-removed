@@ -2086,9 +2086,6 @@ NS_OK
 mozilla
 :
 :
-dom
-:
-:
 EventListenerFlags
 flags
 ;
