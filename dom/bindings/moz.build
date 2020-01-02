@@ -159,6 +159,11 @@ DOMJSProxyHandler
 h
 '
 '
+DOMString
+.
+h
+'
+'
 Date
 .
 h
