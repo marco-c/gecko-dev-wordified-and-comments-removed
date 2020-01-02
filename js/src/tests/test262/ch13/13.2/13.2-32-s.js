@@ -18,7 +18,6 @@ strict
 }
 ;
 return
-!
 Object
 .
 getOwnPropertyDescriptor
@@ -28,8 +27,10 @@ funcExpr
 caller
 "
 )
-.
-configurable
+=
+=
+=
+undefined
 ;
 }
 runTestCase

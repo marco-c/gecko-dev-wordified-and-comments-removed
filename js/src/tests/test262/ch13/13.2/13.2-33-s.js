@@ -15,7 +15,6 @@ strict
 ;
 }
 return
-!
 Object
 .
 getOwnPropertyDescriptor
@@ -25,8 +24,10 @@ foo
 arguments
 "
 )
-.
-configurable
+=
+=
+=
+undefined
 ;
 }
 runTestCase

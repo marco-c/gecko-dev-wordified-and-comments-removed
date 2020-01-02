@@ -4,7 +4,6 @@ testcase
 )
 {
 return
-!
 Object
 .
 getOwnPropertyDescriptor
@@ -23,8 +22,10 @@ strict
 arguments
 "
 )
-.
-configurable
+=
+=
+=
+undefined
 ;
 }
 runTestCase
