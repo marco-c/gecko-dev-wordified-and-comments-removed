@@ -2570,6 +2570,7 @@ CTYPESACC_FLAGS
 JS_PS_END
 }
 ;
+l
 static
 const
 JSFunctionSpec
