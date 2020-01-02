@@ -947,9 +947,10 @@ SAFE_OP
 (
 GetElementCache
 )
-UNSAFE_OP
+WRITE_GUARDED_OP
 (
 SetElementCache
+object
 )
 UNSAFE_OP
 (
@@ -1093,9 +1094,10 @@ UNSAFE_OP
 (
 CallGetElement
 )
-UNSAFE_OP
+WRITE_GUARDED_OP
 (
 CallSetElement
+object
 )
 UNSAFE_OP
 (
