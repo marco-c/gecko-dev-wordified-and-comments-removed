@@ -198,6 +198,9 @@ devel
 "
 git
 "
+"
+libxml2
+"
 ]
 "
 mock_files
