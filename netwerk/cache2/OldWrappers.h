@@ -111,17 +111,10 @@ listener
 )
 ;
 NS_IMETHOD
-GetPersistToDisk
+GetPersistent
 (
 bool
 *
-aPersistToDisk
-)
-;
-NS_IMETHOD
-SetPersistToDisk
-(
-bool
 aPersistToDisk
 )
 ;
@@ -146,6 +139,7 @@ NS_OK
 NS_IMETHOD
 Recreate
 (
+bool
 nsICacheEntry
 *
 *

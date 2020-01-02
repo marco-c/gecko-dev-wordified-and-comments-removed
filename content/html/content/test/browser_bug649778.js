@@ -180,7 +180,7 @@ inMemory
 !
 entry
 .
-persistToDisk
+persistent
 "
 Entry
 is
