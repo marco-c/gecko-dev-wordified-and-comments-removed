@@ -6199,7 +6199,7 @@ aOutOffset
 (
 aVelocity
 *
-aEstimatedPaintDurationMillis
+paintFactor
 *
 gVelocityBias
 )
