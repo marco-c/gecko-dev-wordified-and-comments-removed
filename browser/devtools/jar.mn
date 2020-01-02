@@ -696,6 +696,8 @@ sourceeditor
 /
 codemirror
 /
+mode
+/
 javascript
 .
 js
@@ -716,6 +718,8 @@ sourceeditor
 /
 codemirror
 /
+mode
+/
 xml
 .
 js
@@ -736,6 +740,8 @@ sourceeditor
 /
 codemirror
 /
+mode
+/
 css
 .
 js
@@ -756,6 +762,8 @@ sourceeditor
 /
 codemirror
 /
+mode
+/
 htmlmixed
 .
 js
@@ -776,6 +784,8 @@ sourceeditor
 /
 codemirror
 /
+mode
+/
 clike
 .
 js
@@ -796,7 +806,11 @@ sourceeditor
 /
 codemirror
 /
-activeline
+selection
+/
+active
+-
+line
 .
 js
 )
@@ -815,6 +829,8 @@ js
 sourceeditor
 /
 codemirror
+/
+edit
 /
 trailingspace
 .
@@ -835,6 +851,8 @@ js
 sourceeditor
 /
 codemirror
+/
+edit
 /
 matchbrackets
 .
@@ -855,6 +873,8 @@ js
 sourceeditor
 /
 codemirror
+/
+edit
 /
 closebrackets
 .
@@ -875,6 +895,8 @@ js
 sourceeditor
 /
 codemirror
+/
+comment
 /
 comment
 .
@@ -1171,6 +1193,8 @@ js
 sourceeditor
 /
 codemirror
+/
+tern
 /
 tern
 .
@@ -1193,6 +1217,8 @@ js
 sourceeditor
 /
 codemirror
+/
+hint
 /
 show
 -
