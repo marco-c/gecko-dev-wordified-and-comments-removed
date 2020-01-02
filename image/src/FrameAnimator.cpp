@@ -38,6 +38,8 @@ FrameAnimator
 FrameBlender
 &
 aFrameBlender
+uint16_t
+aAnimationMode
 )
 :
 mCurrentAnimationFrameIndex
@@ -55,10 +57,7 @@ aFrameBlender
 )
 mAnimationMode
 (
-imgIContainer
-:
-:
-kNormalAnimMode
+aAnimationMode
 )
 mDoneDecoding
 (

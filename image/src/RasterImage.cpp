@@ -4273,6 +4273,7 @@ new
 FrameAnimator
 (
 mFrameBlender
+mAnimationMode
 )
 ;
 LockImage

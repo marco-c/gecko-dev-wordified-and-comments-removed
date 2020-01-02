@@ -39,6 +39,8 @@ FrameAnimator
 FrameBlender
 &
 aBlender
+uint16_t
+aAnimationMode
 )
 ;
 struct
