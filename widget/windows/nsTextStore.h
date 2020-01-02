@@ -2517,6 +2517,14 @@ LockedContent
 (
 )
 ;
+bool
+GetCurrentText
+(
+nsAString
+&
+aTextContent
+)
+;
 nsTArray
 <
 InputScope
