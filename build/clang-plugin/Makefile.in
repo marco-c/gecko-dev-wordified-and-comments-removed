@@ -266,6 +266,7 @@ TESTFLAGS
 )
 <
 compile
+binaries
 libs
 export
 tools
@@ -292,6 +293,7 @@ check
 PHONY
 :
 compile
+binaries
 libs
 export
 tools
