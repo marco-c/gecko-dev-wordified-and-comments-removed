@@ -569,6 +569,10 @@ texture_half_float
 GLContext
 :
 :
+ARB_half_float_pixel
+GLContext
+:
+:
 ARB_texture_float
 GLContext
 :
