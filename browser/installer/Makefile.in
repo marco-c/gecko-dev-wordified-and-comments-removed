@@ -571,6 +571,14 @@ DMOZ_ICU_DBG_SUFFIX
 (
 MOZ_ICU_DBG_SUFFIX
 )
+ifdef
+CLANG_CXX
+DEFINES
++
+=
+-
+DCLANG_CXX
+endif
 libs
 :
 :
