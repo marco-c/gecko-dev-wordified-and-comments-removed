@@ -2951,6 +2951,22 @@ update
 (
 oldenv
 )
+            
+sys
+.
+stdout
+.
+flush
+(
+)
+            
+sys
+.
+stderr
+.
+flush
+(
+)
         
 return
 0
