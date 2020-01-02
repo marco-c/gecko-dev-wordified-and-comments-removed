@@ -616,11 +616,6 @@ nfc_consts
 .
 js
 '
-'
-nfc_worker
-.
-js
-'
 ]
 FAIL_ON_WARNINGS
 =
