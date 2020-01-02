@@ -28607,7 +28607,7 @@ stderr
 s
 :
 %
-u
+d
 )
 "
 script
@@ -28626,10 +28626,15 @@ filename
 :
 "
 "
+(
+int
+)
 script
 -
 >
 lineno
+(
+)
 )
 ;
 }
@@ -30407,6 +30412,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 if

@@ -7164,6 +7164,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 if
@@ -17137,6 +17139,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 Value
@@ -17600,6 +17604,8 @@ script
 -
 >
 nfixed
+(
+)
 <
 =
 slot
@@ -17613,6 +17619,8 @@ script
 -
 >
 nslots
+(
+)
 )
 ;
 RootedObject

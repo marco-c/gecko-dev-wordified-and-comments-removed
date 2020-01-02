@@ -2233,6 +2233,8 @@ script_
 -
 >
 nfixed
+(
+)
 ;
 }
 uint32_t
@@ -2245,11 +2247,15 @@ script_
 -
 >
 nslots
+(
+)
 -
 script_
 -
 >
 nfixed
+(
+)
 ;
 }
 Bytecode
@@ -3203,6 +3209,8 @@ script_
 -
 >
 mainOffset
+(
+)
 +
 tn
 -
@@ -3595,6 +3603,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 if
@@ -8182,6 +8192,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 {
 i
@@ -8191,6 +8203,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 JS_ASSERT
 (
@@ -10831,6 +10845,8 @@ script
 -
 >
 lineno
+(
+)
 )
 buf
 )
@@ -11559,6 +11575,8 @@ script
 -
 >
 lineno
+(
+)
 )
 buf
 )
@@ -11598,6 +11616,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 for

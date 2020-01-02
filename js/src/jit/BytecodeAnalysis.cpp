@@ -607,6 +607,8 @@ script_
 -
 >
 mainOffset
+(
+)
 +
 tn
 -

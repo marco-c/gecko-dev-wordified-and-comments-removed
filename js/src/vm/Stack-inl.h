@@ -456,6 +456,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 ;
 }
@@ -498,6 +500,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 ;
 return
@@ -1395,6 +1399,8 @@ script
 -
 >
 nslots
+(
+)
 ;
 if
 (

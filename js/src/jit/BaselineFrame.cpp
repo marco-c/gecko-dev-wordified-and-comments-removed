@@ -306,6 +306,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 unsigned
 nformals

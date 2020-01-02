@@ -2520,6 +2520,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -2561,6 +2563,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 }
@@ -2778,6 +2782,8 @@ script
 -
 >
 lineno
+(
+)
 previousUseCount
 currentUseCount
 )
@@ -2854,6 +2860,8 @@ script
 -
 >
 lineno
+(
+)
 stallCount
 previousUseCount
 )
@@ -2951,6 +2959,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -3006,6 +3016,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 offMainThreadCompilationsInProgress
@@ -3055,6 +3067,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 JS_ASSERT
@@ -3239,6 +3253,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 }
@@ -3502,6 +3518,8 @@ target
 -
 >
 lineno
+(
+)
 )
 ;
 if
@@ -3595,6 +3613,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -3661,6 +3681,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -3766,6 +3788,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 return
@@ -3802,6 +3826,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 if
@@ -4545,6 +4571,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 switch
@@ -4617,6 +4645,8 @@ script
 -
 >
 lineno
+(
+)
 bailoutRecords_
 [
 i
@@ -8590,6 +8620,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 depth

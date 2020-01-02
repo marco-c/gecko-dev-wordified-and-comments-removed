@@ -1947,6 +1947,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 CountArgSlots
 (
@@ -1982,6 +1984,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 IonSpew
@@ -2095,6 +2099,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 exprStackSlots
 )
@@ -2663,6 +2669,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 ;
 if
@@ -2809,6 +2817,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 i
 +
@@ -3711,6 +3721,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 IonSpew
@@ -4471,6 +4483,8 @@ caller
 -
 >
 lineno
+(
+)
 caller
 -
 >
@@ -4926,6 +4940,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 exprStackSlots
 )
@@ -5698,6 +5714,8 @@ script
 >
 lineno
 (
+)
+(
 void
 *
 )
@@ -5880,6 +5898,8 @@ existingScript
 -
 >
 lineno
+(
+)
 )
 ;
 }
@@ -6366,6 +6386,8 @@ innerScript
 -
 >
 lineno
+(
+)
 outerScript
 -
 >
@@ -6376,6 +6398,8 @@ outerScript
 -
 >
 lineno
+(
+)
 )
 ;
 JS_ASSERT
@@ -6475,6 +6499,8 @@ innerScript
 -
 >
 lineno
+(
+)
 outerScript
 -
 >
@@ -6485,6 +6511,8 @@ outerScript
 -
 >
 lineno
+(
+)
 )
 ;
 JS_ASSERT
@@ -6576,6 +6604,8 @@ innerScript
 -
 >
 lineno
+(
+)
 outerScript
 -
 >
@@ -6586,6 +6616,8 @@ outerScript
 -
 >
 lineno
+(
+)
 )
 ;
 JS_ASSERT
@@ -7021,6 +7053,8 @@ outerScript
 -
 >
 lineno
+(
+)
 outerScript
 -
 >
@@ -7037,6 +7071,8 @@ innerScript
 -
 >
 lineno
+(
+)
 innerScript
 -
 >

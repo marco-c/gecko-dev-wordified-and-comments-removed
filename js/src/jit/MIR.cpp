@@ -2791,7 +2791,7 @@ fp
 s
 :
 %
-u
+d
 )
 "
 script
@@ -2810,10 +2810,15 @@ filename
 :
 "
 "
+(
+int
+)
 script
 -
 >
 lineno
+(
+)
 )
 ;
 }

@@ -1284,6 +1284,8 @@ script
 -
 >
 staticLevel
+(
+)
 +
 1
 ;
@@ -1731,6 +1733,8 @@ callerScript
 -
 >
 staticLevel
+(
+)
 +
 1
 ;

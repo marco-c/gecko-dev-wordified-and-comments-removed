@@ -714,6 +714,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 else

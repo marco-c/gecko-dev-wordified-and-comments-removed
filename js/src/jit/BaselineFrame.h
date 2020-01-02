@@ -565,6 +565,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 ;
 return
@@ -1484,6 +1486,8 @@ script
 -
 >
 staticLevel
+(
+)
 >
 0
 ;

@@ -878,6 +878,8 @@ script
 -
 >
 nslots
+(
+)
 >
 EARLY_STACK_CHECK_SLOT_COUNT
 ;

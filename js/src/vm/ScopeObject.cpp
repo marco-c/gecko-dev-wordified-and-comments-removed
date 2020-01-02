@@ -3274,6 +3274,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 block
 -
@@ -3384,6 +3386,8 @@ script
 -
 >
 nfixed
+(
+)
 +
 block
 .
@@ -12011,6 +12015,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 if
@@ -12073,6 +12079,8 @@ innerScript
 -
 >
 lineno
+(
+)
 )
 ;
 for

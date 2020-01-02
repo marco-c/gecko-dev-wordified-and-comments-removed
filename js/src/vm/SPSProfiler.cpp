@@ -1266,6 +1266,8 @@ script
 -
 >
 lineno
+(
+)
 )
 buf
 )

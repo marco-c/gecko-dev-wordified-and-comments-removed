@@ -366,6 +366,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 #
@@ -427,6 +429,8 @@ script
 -
 >
 lineno
+(
+)
 )
 ;
 #

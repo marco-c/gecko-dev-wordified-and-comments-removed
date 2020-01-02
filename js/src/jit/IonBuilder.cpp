@@ -564,6 +564,8 @@ script
 -
 >
 nfixed
+(
+)
 )
 )
 return
@@ -587,6 +589,8 @@ script
 -
 >
 nfixed
+(
+)
 ;
 i
 +
@@ -1741,6 +1745,8 @@ targetScript
 -
 >
 lineno
+(
+)
 reason
 )
 ;
@@ -3312,6 +3318,8 @@ script
 >
 lineno
 (
+)
+(
 void
 *
 )
@@ -4109,6 +4117,8 @@ script
 -
 >
 lineno
+(
+)
 (
 void
 *
@@ -5472,6 +5482,8 @@ script
 -
 >
 lineno
+(
+)
 current
 )
 ;
