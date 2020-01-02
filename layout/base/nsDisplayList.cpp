@@ -3153,6 +3153,17 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 )
+mCurrentScrollbarTarget
+(
+FrameMetrics
+:
+:
+NULL_SCROLL_ID
+)
+mCurrentScrollbarFlags
+(
+0
+)
 mBuildCaret
 (
 aBuildCaret
