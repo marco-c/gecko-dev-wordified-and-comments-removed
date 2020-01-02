@@ -231,6 +231,26 @@ docs
 outdir
 )
         
+def
+remove_gyp_dirs
+(
+sandbox
+)
+:
+            
+sandbox
+[
+'
+GYP_DIRS
+'
+]
+[
+:
+]
+=
+[
+]
+        
 reader
 =
 BuildReader
@@ -238,6 +258,10 @@ BuildReader
 self
 .
 config_environment
+            
+sandbox_post_eval_cb
+=
+remove_gyp_dirs
 )
         
 for
