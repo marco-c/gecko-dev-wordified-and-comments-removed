@@ -104,7 +104,7 @@ drawable
 -
 mdpi
 /
-desktop
+sync_desktop
 .
 png
 '
@@ -115,7 +115,7 @@ drawable
 -
 mdpi
 /
-mobile
+sync_mobile
 .
 png
 '
@@ -124,7 +124,7 @@ resources
 /
 drawable
 /
-pin_background
+sync_pin_background
 .
 xml
 '

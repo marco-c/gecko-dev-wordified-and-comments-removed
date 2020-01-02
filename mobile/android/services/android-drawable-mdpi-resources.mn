@@ -10,7 +10,7 @@ drawable
 -
 mdpi
 /
-desktop
+sync_desktop
 .
 png
 mobile
@@ -25,6 +25,6 @@ drawable
 -
 mdpi
 /
-mobile
+sync_mobile
 .
 png
