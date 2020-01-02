@@ -93,17 +93,3 @@ TOOL_DIRS
 tool
 '
 ]
-EXTERNAL_MAKE_DIRS
-=
-[
-'
-external_make
-'
-]
-PARALLEL_EXTERNAL_MAKE_DIRS
-=
-[
-'
-parallel_external_make
-'
-]
