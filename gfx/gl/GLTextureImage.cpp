@@ -1364,10 +1364,10 @@ Renderer
 )
 =
 =
-GLContext
+GLRenderer
 :
 :
-RendererSGX540
+SGX540
 )
 return
 false

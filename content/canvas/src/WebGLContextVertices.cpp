@@ -3369,10 +3369,10 @@ Renderer
 gl
 :
 :
-GLContext
+GLRenderer
 :
 :
-RendererTegra
+Tegra
 )
 {
 mDrawCallsSinceLastFlush

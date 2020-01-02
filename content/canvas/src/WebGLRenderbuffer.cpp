@@ -875,10 +875,10 @@ Renderer
 )
 =
 =
-GLContext
+GLRenderer
 :
 :
-RendererTegra
+Tegra
 )
 {
 return
