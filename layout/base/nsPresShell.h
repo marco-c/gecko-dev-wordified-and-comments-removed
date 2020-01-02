@@ -2913,6 +2913,11 @@ nsDisplayList
 aList
 )
 ;
+void
+EvictTouches
+(
+)
+;
 nsTHashtable
 <
 nsRefPtrHashKey
