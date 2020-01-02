@@ -7175,14 +7175,7 @@ cv
 >
 LoadStart
 (
-static_cast
-<
-nsIHTMLDocument
-*
->
-(
 this
-)
 )
 ;
 }

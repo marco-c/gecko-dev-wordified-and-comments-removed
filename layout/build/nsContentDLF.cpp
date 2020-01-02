@@ -1106,6 +1106,11 @@ nsIContentViewer
 aContentViewer
 )
 {
+MOZ_ASSERT
+(
+aDocument
+)
+;
 nsCOMPtr
 <
 nsIContentViewer
@@ -1116,9 +1121,6 @@ NS_NewContentViewer
 (
 )
 ;
-nsresult
-rv
-=
 contentViewer
 -
 >
@@ -1135,7 +1137,7 @@ aContentViewer
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -1667,8 +1669,6 @@ rv
 rv
 )
 ;
-rv
-=
 contentViewer
 -
 >
@@ -1685,7 +1685,7 @@ aContentViewer
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 nsresult
@@ -1829,8 +1829,6 @@ rv
 return
 rv
 ;
-rv
-=
 contentViewer
 -
 >
@@ -1847,7 +1845,7 @@ aContentViewer
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 bool
