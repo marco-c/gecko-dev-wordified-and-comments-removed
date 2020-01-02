@@ -90,6 +90,9 @@ bool
 checkRangeAnalysis
 ;
 bool
+assertGraphConsistency
+;
+bool
 uce
 ;
 bool
@@ -212,6 +215,10 @@ true
 checkRangeAnalysis
 (
 false
+)
+assertGraphConsistency
+(
+true
 )
 uce
 (
