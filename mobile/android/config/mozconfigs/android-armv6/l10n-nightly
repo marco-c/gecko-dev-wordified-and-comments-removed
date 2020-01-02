@@ -126,6 +126,14 @@ android
 branding
 /
 nightly
+ac_add_options
+-
+-
+disable
+-
+stdcxx
+-
+compat
 .
 "
 topsrcdir

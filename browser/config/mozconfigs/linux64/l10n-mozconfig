@@ -54,6 +54,14 @@ export
 MOZILLA_OFFICIAL
 =
 1
+ac_add_options
+-
+-
+disable
+-
+stdcxx
+-
+compat
 .
 "
 topsrcdir

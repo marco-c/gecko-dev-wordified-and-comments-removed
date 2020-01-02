@@ -106,6 +106,14 @@ android
 branding
 /
 beta
+ac_add_options
+-
+-
+disable
+-
+stdcxx
+-
+compat
 .
 "
 topsrcdir
