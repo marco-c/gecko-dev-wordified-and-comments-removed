@@ -82,6 +82,10 @@ appName
 remoteLog
 =
 None
+                 
+processArgs
+=
+None
 )
 :
         
@@ -108,6 +112,16 @@ self
 _remoteLog
 =
 remoteLog
+        
+self
+.
+_processArgs
+=
+processArgs
+or
+{
+}
+;
         
 self
 .
@@ -1073,6 +1087,12 @@ cwd
 self
 .
 _appName
+                             
+*
+*
+self
+.
+_processArgs
 )
     
 class
@@ -1105,6 +1125,10 @@ cwd
 =
 None
 app
+=
+None
+                     
+messageLogger
 =
 None
 )
@@ -1146,6 +1170,12 @@ cwd
 env
 True
 )
+            
+self
+.
+messageLogger
+=
+messageLogger
             
 if
 (
@@ -1261,6 +1291,13 @@ sleep
 (
 1
 )
+            
+self
+.
+logBuffer
+=
+"
+"
         
 property
         
@@ -1296,10 +1333,8 @@ return
 return
 pid
         
-property
-        
 def
-stdout
+read_stdout
 (
 self
 )
@@ -1331,10 +1366,11 @@ call
 (
 as
 a
-multi
--
-line
-string
+list
+of
+messages
+or
+lines
 )
 .
             
@@ -1343,6 +1379,7 @@ string
 "
             
 if
+not
 self
 .
 dm
@@ -1355,9 +1392,13 @@ proc
 )
 :
                 
+return
+[
+]
+            
 try
 :
-                    
+                
 newLogContent
 =
 self
@@ -1373,15 +1414,24 @@ self
 .
 stdoutlen
 )
-                
+            
 except
 DMError
 :
-                    
-return
-'
-'
                 
+return
+[
+]
+            
+if
+not
+newLogContent
+:
+                
+return
+[
+]
+            
 self
 .
 stdoutlen
@@ -1391,6 +1441,14 @@ len
 (
 newLogContent
 )
+            
+if
+self
+.
+messageLogger
+is
+None
+:
                 
 testStartFilenames
 =
@@ -1431,27 +1489,123 @@ testStartFilenames
 1
 ]
                 
-return
+print
 newLogContent
+                
+return
+[
+newLogContent
+]
+            
+self
 .
-strip
+logBuffer
++
+=
+newLogContent
+            
+lines
+=
+self
+.
+logBuffer
+.
+split
 (
 '
 \
 n
 '
 )
-.
-strip
-(
-)
             
-else
+if
+not
+lines
 :
                 
 return
+            
+self
+.
+logBuffer
+=
+lines
+[
+-
+1
+]
+            
+del
+lines
+[
+-
+1
+]
+            
+messages
+=
+[
+]
+            
+for
+line
+in
+lines
+:
+                
+message
+=
+self
+.
+messageLogger
+.
+write
+(
+line
+)
+                
+if
+message
+is
+None
+:
+                    
+continue
+                
+messages
+.
+append
+(
+message
+)
+                
+if
+message
+[
 '
+action
 '
+]
+=
+=
+'
+test_start
+'
+:
+                    
+self
+.
+lastTestSeen
+=
+message
+[
+'
+test
+'
+]
+            
+return
+messages
         
 property
         
@@ -1535,22 +1689,17 @@ timer
 0
 :
                     
-t
+messages
 =
 self
 .
-stdout
+read_stdout
+(
+)
                     
 if
-t
-!
-=
-'
-'
+messages
 :
-                        
-print
-t
                         
 noOutputTimer
 =
@@ -1603,10 +1752,11 @@ status
                     
 break
             
-print
 self
 .
-stdout
+read_stdout
+(
+)
             
 return
 status
