@@ -483,7 +483,9 @@ map
 ]
 =
 {
+sColorMap
 sFEFloodMap
+sFillStrokeMap
 sFiltersMap
 sFontSpecificationMap
 sGradientStopMap
