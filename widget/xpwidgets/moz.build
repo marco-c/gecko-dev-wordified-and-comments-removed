@@ -193,6 +193,11 @@ nsClipboardProxy
 cpp
 '
 '
+nsColorPickerProxy
+.
+cpp
+'
+'
 nsContentProcessWidgetFactory
 .
 cpp
