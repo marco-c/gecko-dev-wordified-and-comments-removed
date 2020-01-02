@@ -2516,6 +2516,13 @@ long
 long
 mozPaintCount
 ;
+[
+Pure
+]
+attribute
+EventHandler
+onwheel
+;
 attribute
 EventHandler
 ondevicemotion
