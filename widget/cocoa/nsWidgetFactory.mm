@@ -284,6 +284,10 @@ nsToolkitCompsCID
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsCocoaWindow
@@ -357,9 +361,6 @@ GetInstance
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-mozilla
-:
-:
 OSXNotificationCenter
 Init
 )
