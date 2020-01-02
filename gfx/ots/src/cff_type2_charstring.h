@@ -145,6 +145,12 @@ kVHCurveTo
 kHVCurveTo
 =
 31
+kDotSection
+=
+12
+<
+<
+8
 kAnd
 =
 (
