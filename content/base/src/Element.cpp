@@ -10032,7 +10032,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsUIEvent
+InternalUIEvent
 actEvent
 (
 aVisitor

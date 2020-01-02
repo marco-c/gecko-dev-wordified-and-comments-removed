@@ -462,7 +462,7 @@ Run
 (
 )
 {
-nsUIEvent
+InternalUIEvent
 event
 (
 true

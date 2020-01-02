@@ -188,13 +188,6 @@ typedef
 mozilla
 :
 :
-InternalUIEvent
-nsUIEvent
-;
-typedef
-mozilla
-:
-:
 WidgetMouseEventBase
 nsMouseEvent_base
 ;

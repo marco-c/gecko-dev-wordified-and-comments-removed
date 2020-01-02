@@ -3154,12 +3154,5 @@ mozilla
 WidgetInputEvent
 nsInputEvent
 ;
-typedef
-mozilla
-:
-:
-InternalUIEvent
-nsUIEvent
-;
 #
 endif

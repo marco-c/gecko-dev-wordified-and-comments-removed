@@ -28,6 +28,10 @@ BasicEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDOMTimeEvent
 :
 :
@@ -59,7 +63,7 @@ aEvent
 aEvent
 :
 new
-nsUIEvent
+InternalUIEvent
 (
 false
 0
@@ -110,13 +114,13 @@ eventStructType
 NS_SMIL_TIME_EVENT
 )
 {
-nsUIEvent
+InternalUIEvent
 *
 event
 =
 static_cast
 <
-nsUIEvent
+InternalUIEvent
 *
 >
 (
