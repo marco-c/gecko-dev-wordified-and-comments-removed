@@ -121,11 +121,6 @@ B2GAboutRedirector
 js
 '
 '
-ContentHandler
-.
-js
-'
-'
 ContentPermissionPrompt
 .
 js
