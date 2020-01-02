@@ -7328,6 +7328,11 @@ resetNotReady
 )
 ;
 }
+CCAPI_Call_retainCallInfo
+(
+data
+)
+;
 (
 void
 )
@@ -7911,11 +7916,6 @@ sess_data_p
 NULL
 )
 {
-cleanSessionData
-(
-sess_data_p
-)
-;
 if
 (
 0
@@ -7955,7 +7955,7 @@ sessionID
 )
 ;
 }
-cpr_free
+CCAPI_Call_releaseCallInfo
 (
 sess_data_p
 )
@@ -8376,11 +8376,6 @@ sess_data_p
 NULL
 )
 {
-cleanSessionData
-(
-sess_data_p
-)
-;
 if
 (
 0
@@ -8420,7 +8415,7 @@ sessionID
 )
 ;
 }
-cpr_free
+CCAPI_Call_releaseCallInfo
 (
 sess_data_p
 )
