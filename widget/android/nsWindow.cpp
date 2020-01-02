@@ -224,6 +224,13 @@ h
 #
 include
 "
+gfxImageSurface
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h

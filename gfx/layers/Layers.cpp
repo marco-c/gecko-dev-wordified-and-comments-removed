@@ -62,13 +62,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
