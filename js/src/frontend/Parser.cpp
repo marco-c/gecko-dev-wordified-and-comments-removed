@@ -34049,6 +34049,14 @@ parenExprOrGeneratorComprehension
 (
 )
 ;
+#
+ifdef
+JS_HAS_TEMPLATE_STRINGS
+case
+TOK_TEMPLATE_STRING
+:
+#
+endif
 case
 TOK_STRING
 :
