@@ -369,6 +369,11 @@ nsGfxScrollFrame
 cpp
 '
 '
+nsGridContainerFrame
+.
+cpp
+'
+'
 nsHTMLCanvasFrame
 .
 cpp

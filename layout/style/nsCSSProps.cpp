@@ -3870,7 +3870,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-const
 KTableValue
 nsCSSProps
 :
@@ -3941,6 +3940,10 @@ eCSSKeyword_flex
 NS_STYLE_DISPLAY_FLEX
 eCSSKeyword_inline_flex
 NS_STYLE_DISPLAY_INLINE_FLEX
+eCSSKeyword_grid
+NS_STYLE_DISPLAY_GRID
+eCSSKeyword_inline_grid
+NS_STYLE_DISPLAY_INLINE_GRID
 eCSSKeyword_UNKNOWN
 -
 1

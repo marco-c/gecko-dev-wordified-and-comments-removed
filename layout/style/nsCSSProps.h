@@ -2128,7 +2128,6 @@ kDirectionKTable
 ]
 ;
 static
-const
 KTableValue
 kDisplayKTable
 [
