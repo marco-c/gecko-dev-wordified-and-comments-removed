@@ -300,6 +300,11 @@ panel
 -
 arrowcontent
 "
+side
+=
+"
+top
+"
 flex
 =
 "
