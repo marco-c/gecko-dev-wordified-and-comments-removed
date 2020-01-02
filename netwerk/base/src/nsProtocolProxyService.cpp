@@ -4466,10 +4466,9 @@ mCompleted
 ;
 }
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS0
 (
 nsAsyncBridgeRequest
-nsPACManCallback
 )
 NS_IMETHODIMP
 nsProtocolProxyService

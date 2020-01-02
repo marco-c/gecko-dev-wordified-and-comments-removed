@@ -165,10 +165,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIAccessiblePivot
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsAccessiblePivot
-)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
