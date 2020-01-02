@@ -13912,6 +13912,13 @@ onwarning
 )
 GK_ATOM
 (
+onstart
+"
+onstart
+"
+)
+GK_ATOM
+(
 onstop
 "
 onstop
@@ -16160,13 +16167,6 @@ GK_ATOM
 onnomatch
 "
 onnomatch
-"
-)
-GK_ATOM
-(
-onstart
-"
-onstart
 "
 )
 GK_ATOM
