@@ -2907,7 +2907,7 @@ nsIGlobalObject
 >
 globalObject
 (
-BrokenGetEntryGlobal
+GetEntryGlobal
 (
 )
 )

@@ -381,6 +381,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 class
 nsWindowWatcher
 ;
@@ -3379,10 +3386,7 @@ referrerWindow
 =
 do_QueryInterface
 (
-dom
-:
-:
-BrokenGetEntryGlobal
+GetEntryGlobal
 (
 )
 )

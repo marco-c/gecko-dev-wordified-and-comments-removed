@@ -34619,7 +34619,7 @@ EqualsASCII
 {
 providedPrincipal
 =
-BrokenGetEntryGlobal
+GetEntryGlobal
 (
 )
 -
