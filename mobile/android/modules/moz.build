@@ -103,6 +103,11 @@ Accounts
 jsm
 '
 '
+AndroidLog
+.
+jsm
+'
+'
 ContactService
 .
 jsm
