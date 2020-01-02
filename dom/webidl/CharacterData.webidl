@@ -148,12 +148,16 @@ Node
 TreatNullAs
 =
 EmptyString
+Pure
 SetterThrows
 ]
 attribute
 DOMString
 data
 ;
+[
+Pure
+]
 readonly
 attribute
 unsigned
