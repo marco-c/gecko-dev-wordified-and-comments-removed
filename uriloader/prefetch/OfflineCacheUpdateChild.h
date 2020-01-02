@@ -197,11 +197,6 @@ Finish
 (
 )
 ;
-void
-RefcountHitZero
-(
-)
-;
 enum
 {
 STATE_UNINITIALIZED
@@ -218,9 +213,6 @@ mIsUpgrade
 ;
 bool
 mSucceeded
-;
-bool
-mIPCActivated
 ;
 nsCString
 mUpdateDomain

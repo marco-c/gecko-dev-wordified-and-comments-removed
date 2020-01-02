@@ -9461,8 +9461,10 @@ OfflineCacheUpdateChild
 actor
 )
 ;
-delete
+NS_RELEASE
+(
 offlineCacheUpdate
+)
 ;
 return
 true
