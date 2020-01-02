@@ -219,7 +219,7 @@ mozilla
 =
 [
 '
-MutationEvent
+InternalMutationEvent
 .
 h
 '

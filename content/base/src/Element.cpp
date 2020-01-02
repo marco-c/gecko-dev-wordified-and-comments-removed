@@ -288,7 +288,7 @@ include
 "
 mozilla
 /
-MouseEvents
+InternalMutationEvent
 .
 h
 "
@@ -297,7 +297,7 @@ include
 "
 mozilla
 /
-MutationEvent
+MouseEvents
 .
 h
 "
