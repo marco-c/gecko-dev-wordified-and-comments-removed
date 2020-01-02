@@ -1135,6 +1135,16 @@ aStatus
 )
 ;
 }
+if
+(
+!
+mDocument
+)
+{
+return
+NS_ERROR_DOM_ABORT_ERR
+;
+}
 nsCOMPtr
 <
 EventTarget
