@@ -521,6 +521,14 @@ Height
 )
 ;
 }
+aMetrics
+.
+Width
+(
+)
+=
+1
+;
 }
 uint32_t
 breakType
