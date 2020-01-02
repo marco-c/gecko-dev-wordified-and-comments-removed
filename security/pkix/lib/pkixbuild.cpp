@@ -546,7 +546,9 @@ KeyUsages
 requiredKeyUsagesIfPresent
 KeyPurposeId
 requiredEKUIfPresent
-SECOidTag
+const
+CertPolicyId
+&
 requiredPolicy
 const
 SECItem
@@ -576,7 +578,9 @@ EndEntityOrCA
 endEntityOrCA
 KeyPurposeId
 requiredEKUIfPresent
-SECOidTag
+const
+CertPolicyId
+&
 requiredPolicy
 CERTCertificate
 *
@@ -861,7 +865,9 @@ KeyUsages
 requiredKeyUsagesIfPresent
 KeyPurposeId
 requiredEKUIfPresent
-SECOidTag
+const
+CertPolicyId
+&
 requiredPolicy
 const
 SECItem
@@ -1431,7 +1437,9 @@ KeyUsages
 requiredKeyUsagesIfPresent
 KeyPurposeId
 requiredEKUIfPresent
-SECOidTag
+const
+CertPolicyId
+&
 requiredPolicy
 const
 SECItem

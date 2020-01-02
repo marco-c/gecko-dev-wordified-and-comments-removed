@@ -50,7 +50,9 @@ KeyUsages
 requiredKeyUsagesIfPresent
 KeyPurposeId
 requiredEKUIfPresent
-SECOidTag
+const
+CertPolicyId
+&
 requiredPolicy
 unsigned
 int

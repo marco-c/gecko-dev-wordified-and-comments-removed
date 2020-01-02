@@ -41,7 +41,9 @@ KeyUsages
 requiredKeyUsagesIfPresent
 KeyPurposeId
 requiredEKUIfPresent
-SECOidTag
+const
+CertPolicyId
+&
 requiredPolicy
 const
 SECItem

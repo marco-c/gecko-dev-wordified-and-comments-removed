@@ -318,7 +318,6 @@ F
 P1
 &
 B1
-&
 B2
 &
 B3
@@ -682,7 +681,9 @@ Bind3
 <
 R
 P1
+const
 B1
+const
 B2
 B3
 >
@@ -697,7 +698,7 @@ f
 P1
 &
 B1
-&
+const
 B2
 &
 B3
@@ -708,6 +709,7 @@ Placeholder1
 B1
 &
 b1
+const
 B2
 &
 b2
@@ -724,7 +726,9 @@ Bind3
 <
 R
 P1
+const
 B1
+const
 B2
 B3
 >
