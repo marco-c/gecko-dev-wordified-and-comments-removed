@@ -425,6 +425,11 @@ AsyncPanZoomController
 aInitialTarget
 )
 ;
+void
+ClearOverscrollHandoffChain
+(
+)
+;
 public
 :
 already_AddRefed
@@ -585,11 +590,6 @@ const
 ZoomConstraints
 &
 aConstraints
-)
-;
-void
-ClearOverscrollHandoffChain
-(
 )
 ;
 AsyncPanZoomController
