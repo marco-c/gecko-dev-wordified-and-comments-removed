@@ -2855,7 +2855,7 @@ connectTries
 +
 +
 <
-3
+5
 )
 {
 if
@@ -2902,7 +2902,7 @@ connectCallback
 )
 ;
 }
-5000
+1000
 Ci
 .
 nsITimer
