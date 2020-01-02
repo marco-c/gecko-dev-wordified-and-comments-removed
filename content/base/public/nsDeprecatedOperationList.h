@@ -226,3 +226,7 @@ DEPRECATED_OPERATION
 (
 KeyNameDeadKeys
 )
+DEPRECATED_OPERATION
+(
+ImportXULIntoContent
+)
