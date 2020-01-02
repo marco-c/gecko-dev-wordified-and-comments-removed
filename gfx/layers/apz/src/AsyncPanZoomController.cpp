@@ -1015,6 +1015,8 @@ FuzzyEqualsMultiplicative
 aPoint
 .
 x
+.
+value
 0
 .
 0f
@@ -1026,6 +1028,8 @@ FuzzyEqualsMultiplicative
 aPoint
 .
 y
+.
+value
 0
 .
 0f
@@ -1783,6 +1787,8 @@ FuzzyEqualsAdditive
 overscroll
 .
 x
+.
+value
 0
 .
 0f
@@ -1805,6 +1811,8 @@ FuzzyEqualsAdditive
 overscroll
 .
 y
+.
+value
 0
 .
 0f
@@ -2039,7 +2047,7 @@ return
 false
 ;
 }
-double
+float
 sampledPosition
 =
 gComputedTimingFunction
@@ -5488,6 +5496,10 @@ aEvent
 mPanStartPoint
 .
 x
+.
+Truncated
+(
+)
 aEvent
 .
 mTime
@@ -5502,6 +5514,10 @@ aEvent
 mPanStartPoint
 .
 y
+.
+Truncated
+(
+)
 aEvent
 .
 mTime
@@ -5606,6 +5622,10 @@ aEvent
 mPanStartPoint
 .
 x
+.
+Truncated
+(
+)
 aEvent
 .
 mTime
@@ -5620,6 +5640,10 @@ aEvent
 mPanStartPoint
 .
 y
+.
+Truncated
+(
+)
 aEvent
 .
 mTime
@@ -5729,6 +5753,10 @@ aEvent
 mPanStartPoint
 .
 x
+.
+Truncated
+(
+)
 aEvent
 .
 mTime
@@ -5743,6 +5771,10 @@ aEvent
 mPanStartPoint
 .
 y
+.
+Truncated
+(
+)
 aEvent
 .
 mTime
