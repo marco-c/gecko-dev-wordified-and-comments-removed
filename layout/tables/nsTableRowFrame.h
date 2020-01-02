@@ -699,7 +699,7 @@ aKidMargin
 )
 const
 ;
-nsresult
+void
 ReflowChildren
 (
 nsPresContext

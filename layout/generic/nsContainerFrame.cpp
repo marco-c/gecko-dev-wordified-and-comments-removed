@@ -4014,7 +4014,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -4189,9 +4189,6 @@ true
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsContainerFrame
@@ -4327,7 +4324,7 @@ childFrame
 }
 }
 }
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -4504,7 +4501,6 @@ aKidFrame
 ;
 }
 }
-return
 aKidFrame
 -
 >
@@ -4550,11 +4546,6 @@ null
 pointer
 "
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 nsFrameList
 *
@@ -4922,8 +4913,6 @@ availSpace
 nsReflowStatus
 frameStatus
 ;
-rv
-=
 ReflowChild
 (
 frame
@@ -4940,14 +4929,6 @@ frameStatus
 tracker
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-rv
-=
 FinishReflowChild
 (
 frame
@@ -4960,12 +4941,6 @@ prevRect
 x
 0
 aFlags
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -5090,6 +5065,7 @@ NS_FRAME_IS_OVERFLOW_CONTAINER
 )
 )
 {
+nsresult
 rv
 =
 static_cast

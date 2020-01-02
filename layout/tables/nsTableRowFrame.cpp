@@ -3712,7 +3712,7 @@ height
 )
 ;
 }
-nsresult
+void
 nsTableRowFrame
 :
 :
@@ -3760,11 +3760,6 @@ aTableFrame
 IsBorderCollapse
 (
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 nscoord
 cellSpacingX
@@ -4321,8 +4316,6 @@ kidReflowState
 nsReflowStatus
 status
 ;
-rv
-=
 ReflowChild
 (
 kidFrame
@@ -4912,9 +4905,6 @@ FinishAndStoreOverflow
 &
 aDesiredSize
 )
-;
-return
-rv
 ;
 }
 void

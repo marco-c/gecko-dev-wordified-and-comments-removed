@@ -1550,7 +1550,7 @@ height
 }
 }
 }
-nsresult
+void
 nsTableRowGroupFrame
 :
 :
@@ -1593,11 +1593,6 @@ GetTableFrame
 (
 this
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 const
 bool
@@ -1941,8 +1936,6 @@ mIsTopOfPage
 false
 ;
 }
-rv
-=
 ReflowChild
 (
 kidFrame
@@ -2286,9 +2279,6 @@ InvalidateFrame
 ;
 }
 }
-return
-rv
-;
 }
 nsTableRowFrame
 *
@@ -5304,11 +5294,6 @@ media
 "
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsTableRowFrame
 *
 prevRowFrame
@@ -5587,8 +5572,6 @@ GetVisualOverflowRect
 (
 )
 ;
-rv
-=
 ReflowChild
 (
 rowFrame
@@ -5600,16 +5583,6 @@ rowReflowState
 NS_FRAME_NO_MOVE_FRAME
 aStatus
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 rowFrame
 -
