@@ -268,13 +268,11 @@ InternalScrollPortEvent
 *
 scrollEvent
 =
-static_cast
-<
-InternalScrollPortEvent
-*
->
-(
 mEvent
+-
+>
+AsScrollPortEvent
+(
 )
 ;
 mDetail
