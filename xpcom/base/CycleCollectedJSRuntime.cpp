@@ -2245,7 +2245,7 @@ TypeObject
 "
 }
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 MOZ_ARRAY_LENGTH
 (
@@ -2256,6 +2256,15 @@ trace_types
 JSTRACE_LAST
 +
 1
+"
+JSTRACE_LAST
+enum
+must
+match
+trace_types
+count
+.
+"
 )
 ;
 JS_snprintf
