@@ -236,11 +236,6 @@ nsDOMCSSRGBColor
 h
 '
 '
-nsDOMMediaQueryList
-.
-h
-'
-'
 nsICSSDeclaration
 .
 h
@@ -396,6 +391,11 @@ CSSValue
 .
 h
 '
+'
+MediaQueryList
+.
+h
+'
 ]
 EXPORTS
 .
@@ -501,6 +501,11 @@ Loader
 cpp
 '
 '
+MediaQueryList
+.
+cpp
+'
+'
 nsAnimationManager
 .
 cpp
@@ -587,11 +592,6 @@ cpp
 '
 '
 nsDOMCSSValueList
-.
-cpp
-'
-'
-nsDOMMediaQueryList
 .
 cpp
 '

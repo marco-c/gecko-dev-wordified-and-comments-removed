@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMMediaQueryList_h_
+mozilla_dom_MediaQueryList_h
 #
 define
-nsDOMMediaQueryList_h_
+mozilla_dom_MediaQueryList_h
 #
 include
 "
@@ -61,8 +61,14 @@ nsPresContext
 class
 nsMediaList
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsDOMMediaQueryList
+MediaQueryList
 MOZ_FINAL
 :
 public
@@ -72,7 +78,7 @@ PRCList
 {
 public
 :
-nsDOMMediaQueryList
+MediaQueryList
 (
 nsPresContext
 *
@@ -86,7 +92,7 @@ aMediaQueryList
 private
 :
 ~
-nsDOMMediaQueryList
+MediaQueryList
 (
 )
 ;
@@ -95,7 +101,7 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-nsDOMMediaQueryList
+MediaQueryList
 )
 NS_DECL_NSIDOMMEDIAQUERYLIST
 struct
@@ -103,7 +109,7 @@ HandleChangeData
 {
 nsRefPtr
 <
-nsDOMMediaQueryList
+MediaQueryList
 >
 mql
 ;
@@ -190,5 +196,7 @@ mListeners
 ;
 }
 ;
+}
+}
 #
 endif
