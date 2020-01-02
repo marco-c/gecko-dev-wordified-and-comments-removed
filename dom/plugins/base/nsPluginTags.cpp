@@ -2703,7 +2703,7 @@ mCachedBlocklistStateValid
 false
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsPluginTag
 :
 :
