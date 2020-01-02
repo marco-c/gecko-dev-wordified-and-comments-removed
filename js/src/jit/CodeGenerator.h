@@ -946,14 +946,6 @@ lir
 )
 ;
 bool
-visitMutateProto
-(
-LMutateProto
-*
-lir
-)
-;
-bool
 visitInitProp
 (
 LInitProp

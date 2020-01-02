@@ -388,14 +388,6 @@ ins
 )
 ;
 bool
-visitMutateProto
-(
-MMutateProto
-*
-ins
-)
-;
-bool
 visitInitProp
 (
 MInitProp
