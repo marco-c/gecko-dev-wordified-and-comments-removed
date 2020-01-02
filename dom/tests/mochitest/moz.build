@@ -136,9 +136,6 @@ storageevent
 notification
 '
 '
-webapps
-'
-'
 webcomponents
 '
 ]
@@ -196,6 +193,13 @@ mochitest
 ini
 '
 '
+webapps
+/
+mochitest
+.
+ini
+'
+'
 whatwg
 /
 mochitest
@@ -207,6 +211,13 @@ MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
+'
+webapps
+/
+chrome
+.
+ini
+'
 '
 whatwg
 /
