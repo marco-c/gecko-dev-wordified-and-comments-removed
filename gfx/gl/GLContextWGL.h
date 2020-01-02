@@ -184,14 +184,6 @@ SetupLookupFunction
 (
 )
 ;
-void
-*
-GetNativeData
-(
-NativeDataType
-aType
-)
-;
 bool
 ResizeOffscreen
 (
