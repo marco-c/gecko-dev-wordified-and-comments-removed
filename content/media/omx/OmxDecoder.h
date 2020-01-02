@@ -528,6 +528,9 @@ mAudioFrame
 MP3FrameParser
 mMP3FrameParser
 ;
+bool
+mIsMp3
+;
 MediaBuffer
 *
 mVideoBuffer

@@ -1441,6 +1441,10 @@ if
 (
 !
 mNumFrames
+|
+|
+!
+mSampleRate
 )
 {
 return
