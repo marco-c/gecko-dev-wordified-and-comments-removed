@@ -361,6 +361,7 @@ n
 void
 Add
 (
+const
 T
 *
 aResource
@@ -388,6 +389,7 @@ aResource
 void
 Remove
 (
+const
 T
 *
 aResource
