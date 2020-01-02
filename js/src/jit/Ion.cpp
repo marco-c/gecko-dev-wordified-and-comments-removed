@@ -2235,6 +2235,12 @@ executionMode
 ;
 if
 (
+executionMode
+=
+=
+SequentialExecution
+&
+&
 builder
 -
 >
