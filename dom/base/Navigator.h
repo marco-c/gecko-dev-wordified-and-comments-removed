@@ -113,6 +113,9 @@ nsDOMDeviceStorage
 class
 nsIDOMBlob
 ;
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -1274,6 +1277,15 @@ JSContext
 JSObject
 *
 aGlobal
+)
+;
+static
+bool
+HasDataStoreSupport
+(
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 static
