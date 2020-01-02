@@ -5038,7 +5038,12 @@ GetSkipSides
 (
 )
 &
+(
+1
+<
+<
 NS_SIDE_TOP
+)
 )
 {
 heightExtras
