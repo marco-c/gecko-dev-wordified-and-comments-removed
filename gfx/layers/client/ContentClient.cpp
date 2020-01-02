@@ -4988,6 +4988,12 @@ mRegionToInvalidate
 invalidate
 )
 ;
+result
+.
+mMode
+=
+mode
+;
 MOZ_ASSERT
 (
 !
