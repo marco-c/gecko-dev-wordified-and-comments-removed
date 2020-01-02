@@ -872,7 +872,7 @@ n
 '
 )
     
-ffDateRe
+ffBuildIDRe
 =
 re
 .
@@ -882,13 +882,13 @@ compile
 r
 '
 Firefox
-builddate
+buildid
 :
 (
 ?
 P
 <
-ffdate
+ffbuildid
 >
 .
 *
@@ -2162,21 +2162,21 @@ match
 =
 self
 .
-ffDateRe
+ffBuildIDRe
 .
 search
 (
 logdata
 )
         
-firefox_builddate
+firefox_buildid
 =
 match
 .
 group
 (
 '
-ffdate
+ffbuildid
 '
 )
 if
@@ -2467,13 +2467,13 @@ firefox_version
 buildid
 '
 :
-firefox_builddate
+firefox_buildid
                                             
 '
 builddate
 '
 :
-firefox_builddate
+firefox_buildid
 [
 0
 :
