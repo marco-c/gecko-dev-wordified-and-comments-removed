@@ -108,3 +108,13 @@ nsContentDispatchChooser
 manifest
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

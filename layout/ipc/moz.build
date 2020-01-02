@@ -195,3 +195,13 @@ layout
 xul
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

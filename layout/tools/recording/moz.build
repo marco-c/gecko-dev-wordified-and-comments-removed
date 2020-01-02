@@ -112,3 +112,13 @@ cmdline
 manifest
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

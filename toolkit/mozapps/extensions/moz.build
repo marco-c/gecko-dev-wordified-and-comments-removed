@@ -326,3 +326,13 @@ MOZ_EM_DEBUG
 ]
 =
 1
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

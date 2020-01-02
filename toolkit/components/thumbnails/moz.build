@@ -136,3 +136,13 @@ PageThumbsWorker
 js
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

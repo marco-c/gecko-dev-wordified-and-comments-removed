@@ -133,3 +133,13 @@ Keyboard
 jsm
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

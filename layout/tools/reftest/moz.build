@@ -105,3 +105,13 @@ cmdline
 js
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

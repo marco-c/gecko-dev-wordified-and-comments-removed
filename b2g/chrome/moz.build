@@ -129,3 +129,13 @@ CONFIG
 MOZ_APP_VERSION
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

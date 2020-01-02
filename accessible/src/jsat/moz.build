@@ -145,3 +145,13 @@ Utils
 jsm
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

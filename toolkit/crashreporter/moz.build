@@ -663,3 +663,13 @@ _UNICODE
 ]
 =
 True
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

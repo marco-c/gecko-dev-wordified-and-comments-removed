@@ -690,3 +690,13 @@ tables
 xul
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

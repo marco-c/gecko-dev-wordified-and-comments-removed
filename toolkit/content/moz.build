@@ -183,3 +183,13 @@ USE_STLPORT
 ]
 =
 True
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

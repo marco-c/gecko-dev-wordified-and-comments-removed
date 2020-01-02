@@ -838,3 +838,13 @@ dom
 base
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

@@ -107,3 +107,13 @@ browser
 ini
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

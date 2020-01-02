@@ -118,3 +118,13 @@ xpcshell
 ini
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

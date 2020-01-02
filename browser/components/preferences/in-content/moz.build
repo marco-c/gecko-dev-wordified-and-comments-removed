@@ -142,3 +142,13 @@ HAVE_SHELL_SERVICE
 ]
 =
 1
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

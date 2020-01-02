@@ -330,3 +330,13 @@ CONFIG
 MOZ_APP_BASENAME
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

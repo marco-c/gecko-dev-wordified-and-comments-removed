@@ -144,3 +144,13 @@ XPI_NAME
 '
 mochijar
 '
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

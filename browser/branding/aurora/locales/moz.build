@@ -106,3 +106,13 @@ CONFIG
 MOZ_DISTRIBUTION_ID
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

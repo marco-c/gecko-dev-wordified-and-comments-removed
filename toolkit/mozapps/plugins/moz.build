@@ -111,3 +111,13 @@ pluginGlue
 manifest
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

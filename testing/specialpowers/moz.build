@@ -110,3 +110,13 @@ XPI_NAME
 '
 specialpowers
 '
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

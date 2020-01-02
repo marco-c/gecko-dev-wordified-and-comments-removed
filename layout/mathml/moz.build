@@ -285,3 +285,13 @@ PARALLEL_DIRS
 tests
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

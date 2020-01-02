@@ -151,3 +151,13 @@ DownloadTaskbarProgress
 jsm
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

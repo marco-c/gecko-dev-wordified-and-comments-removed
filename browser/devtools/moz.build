@@ -176,3 +176,13 @@ clhandler
 manifest
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

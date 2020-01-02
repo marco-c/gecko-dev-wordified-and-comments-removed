@@ -110,3 +110,13 @@ DIRS
 import
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

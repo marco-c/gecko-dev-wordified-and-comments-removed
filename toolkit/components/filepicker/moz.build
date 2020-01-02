@@ -186,3 +186,13 @@ FINAL_LIBRARY
 '
 xul
 '
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]

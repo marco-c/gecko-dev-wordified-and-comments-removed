@@ -144,3 +144,13 @@ mochitest
 ini
 '
 ]
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]
