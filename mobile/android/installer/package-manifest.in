@@ -2043,6 +2043,9 @@ components
 nsBlocklistService
 .
 js
+#
+ifndef
+RELEASE_BUILD
 BINPATH
 /
 components
@@ -2050,6 +2053,8 @@ components
 TabSource
 .
 js
+#
+endif
 BINPATH
 /
 components
