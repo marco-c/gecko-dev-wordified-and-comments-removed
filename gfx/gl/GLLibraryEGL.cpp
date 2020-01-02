@@ -62,6 +62,9 @@ mozilla
 namespace
 gl
 {
+GLLibraryEGL
+sEGLLibrary
+;
 static
 const
 char
