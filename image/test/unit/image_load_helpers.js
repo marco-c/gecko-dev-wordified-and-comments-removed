@@ -38,6 +38,10 @@ DECODE_COMPLETE
 =
 0x10
 ;
+do_get_profile
+(
+)
+;
 function
 ImageListener
 (
