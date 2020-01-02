@@ -4318,6 +4318,11 @@ persist
 "
 width
 "
+skipintoolbarset
+=
+"
+true
+"
 /
 >
 #
@@ -4854,6 +4859,11 @@ ordinal
 "
 #
 endif
+skipintoolbarset
+=
+"
+true
+"
 /
 >
 #
@@ -4896,6 +4906,11 @@ persist
 =
 "
 width
+"
+skipintoolbarset
+=
+"
+true
 "
 /
 >
