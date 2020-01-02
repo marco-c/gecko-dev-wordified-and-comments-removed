@@ -152,11 +152,6 @@ NDEF_FORMATABLE
 '
 P2P
 '
-4
-:
-'
-NFC_A
-'
 }
 ;
 this
