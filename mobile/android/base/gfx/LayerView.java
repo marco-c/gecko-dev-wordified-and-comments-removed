@@ -2153,14 +2153,6 @@ height
 {
 if
 (
-!
-mGLController
-.
-isServerSurfaceValid
-(
-)
-|
-|
 mSurfaceView
 =
 =
