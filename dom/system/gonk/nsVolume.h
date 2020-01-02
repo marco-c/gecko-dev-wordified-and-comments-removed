@@ -88,6 +88,10 @@ const
 bool
 &
 aIsSharing
+const
+bool
+&
+aIsFormatting
 )
 :
 mName
@@ -124,7 +128,7 @@ aIsSharing
 )
 mIsFormatting
 (
-false
+aIsFormatting
 )
 {
 }

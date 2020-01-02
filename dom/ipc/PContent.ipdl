@@ -1357,6 +1357,8 @@ bool
 isMediaPresent
 bool
 isSharing
+bool
+isFormatting
 )
 ;
 /

@@ -1023,6 +1023,10 @@ const
 bool
 &
 aIsSharing
+const
+bool
+&
+aIsFormatting
 )
 ;
 virtual
