@@ -12555,7 +12555,7 @@ Preferences
 GetBool
 (
 "
-geo
+dom
 .
 testing
 .
@@ -12696,7 +12696,7 @@ Preferences
 GetBool
 (
 "
-geo
+dom
 .
 testing
 .
@@ -12831,7 +12831,7 @@ Preferences
 GetBool
 (
 "
-geo
+dom
 .
 testing
 .
@@ -13135,7 +13135,7 @@ Preferences
 GetBool
 (
 "
-geo
+dom
 .
 testing
 .
