@@ -3471,6 +3471,11 @@ IsFixedPosFrameInDisplayPort
 (
 aFrame
 )
+&
+&
+IsPaintingToWindow
+(
+)
 )
 {
 NS_ASSERTION
