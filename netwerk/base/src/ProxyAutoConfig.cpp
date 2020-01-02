@@ -4170,7 +4170,6 @@ JS_ExecuteScript
 cx
 global
 script
-nullptr
 )
 )
 {

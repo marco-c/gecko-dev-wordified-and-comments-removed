@@ -22494,7 +22494,6 @@ expression
 Length
 (
 )
-nullptr
 )
 )
 &

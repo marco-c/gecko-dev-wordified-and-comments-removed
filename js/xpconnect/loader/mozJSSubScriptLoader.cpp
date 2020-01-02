@@ -1690,10 +1690,6 @@ cx
 targetObj
 script
 retval
-.
-address
-(
-)
 version
 )
 ;

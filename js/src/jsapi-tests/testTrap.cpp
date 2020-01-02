@@ -211,11 +211,8 @@ JS_ExecuteScript
 cx
 global
 script
+&
 v2
-.
-address
-(
-)
 )
 )
 ;
@@ -370,11 +367,8 @@ JS_ExecuteScript
 cx
 global
 script
+&
 v2
-.
-address
-(
-)
 )
 )
 ;

@@ -2039,7 +2039,6 @@ JS_ExecuteScript
 cx
 obj
 script
-nullptr
 )
 )
 {
@@ -2207,11 +2206,8 @@ JS_ExecuteScript
 cx
 global
 script
+&
 result
-.
-address
-(
-)
 )
 )
 return
@@ -4000,7 +3996,6 @@ filename
 ptr
 (
 )
-nullptr
 )
 )
 {
@@ -6463,7 +6458,11 @@ JS_ExecuteScript
 cx
 global
 script
-vp
+args
+.
+rval
+(
+)
 )
 )
 {
@@ -7480,7 +7479,6 @@ JS_ExecuteScript
 cx
 thisobj
 script
-nullptr
 )
 )
 return
@@ -15613,11 +15611,8 @@ JS_ExecuteScript
 cx
 global
 script
+&
 result
-.
-address
-(
-)
 )
 ;
 }
@@ -19736,10 +19731,6 @@ script
 args
 .
 rval
-(
-)
-.
-address
 (
 )
 )
@@ -31913,11 +31904,8 @@ code
 e
 "
 1
+&
 rval
-.
-address
-(
-)
 )
 )
 return

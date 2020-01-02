@@ -94,11 +94,8 @@ src
 1
 __FILE__
 __LINE__
+&
 retval
-.
-address
-(
-)
 )
 )
 ;
@@ -193,11 +190,8 @@ src2
 1
 __FILE__
 __LINE__
+&
 retval
-.
-address
-(
-)
 )
 )
 ;

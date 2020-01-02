@@ -116,7 +116,6 @@ global
 opts
 s
 strLen
-nullptr
 )
 )
 ;
@@ -211,7 +210,6 @@ strlen
 (
 simpleSource
 )
-nullptr
 )
 )
 ;

@@ -2027,11 +2027,8 @@ mFieldTextLength
 wrappedNode
 options
 evalOptions
+&
 result
-.
-address
-(
-)
 )
 ;
 if
