@@ -755,7 +755,7 @@ aIsMainThread
 {
 mCxPusher
 .
-Push
+construct
 (
 aCx
 )
@@ -908,8 +908,17 @@ aIsMainThread
 {
 mCxPusher
 .
-PushNull
+construct
 (
+static_cast
+<
+JSContext
+*
+>
+(
+nullptr
+)
+true
 )
 ;
 }
