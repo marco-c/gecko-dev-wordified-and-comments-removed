@@ -4459,6 +4459,20 @@ EnsureInitialized
 )
 )
 {
+MOZ_CRASH
+(
+"
+Failed
+to
+load
+EGL
+library
+!
+\
+n
+"
+)
+;
 return
 nullptr
 ;
@@ -4481,7 +4495,7 @@ config
 )
 )
 {
-printf_stderr
+MOZ_CRASH
 (
 "
 Failed
@@ -4521,7 +4535,7 @@ surface
 EGL_NO_SURFACE
 )
 {
-printf_stderr
+MOZ_CRASH
 (
 "
 Failed
@@ -4572,7 +4586,7 @@ if
 glContext
 )
 {
-printf_stderr
+MOZ_CRASH
 (
 "
 Failed
