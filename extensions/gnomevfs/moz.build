@@ -155,9 +155,6 @@ mozilla
 ;
 -
 )
-FORCE_SHARED_LIB
-=
-True
 USE_LIBS
 +
 =
