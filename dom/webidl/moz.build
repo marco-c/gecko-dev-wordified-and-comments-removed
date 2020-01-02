@@ -2523,6 +2523,11 @@ BluetoothDeviceEvent
 webidl
 '
 '
+BluetoothDiscoveryStateChangedEvent
+.
+webidl
+'
+'
 BluetoothManager
 .
 webidl
