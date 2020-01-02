@@ -4607,7 +4607,15 @@ CPP_UNIT_TEST_BINS
 OBJCOPY
 )
 (
+or
+(
 STRIP_FLAGS
+)
+-
+-
+strip
+-
+unneeded
 )
 (
 bin
