@@ -36,7 +36,7 @@ was
 not
 declared
 "
-                           
+                        
 "
 Use
 of
@@ -49,6 +49,15 @@ Use
 MutationObserver
 instead
 .
+"
+                        
+"
+Unexpected
+value
+from
+nativeGetEnabledTags
+:
+0
 "
 ]
 class
