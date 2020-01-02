@@ -548,12 +548,6 @@ MOZ_FINAL
 public
 nsIDownloadObserver
 {
-~
-myDownloadObserver
-(
-)
-{
-}
 public
 :
 NS_DECL_ISUPPORTS
