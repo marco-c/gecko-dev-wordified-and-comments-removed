@@ -207,7 +207,10 @@ mAnimations
 animIdx
 ]
 ;
+Nullable
+<
 TimeDuration
+>
 localTime
 =
 anim
