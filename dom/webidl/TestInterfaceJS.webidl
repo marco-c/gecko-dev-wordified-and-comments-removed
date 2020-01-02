@@ -118,6 +118,7 @@ expose_test_interfaces
 "
 Constructor
 (
+optional
 any
 anyArg
 optional
