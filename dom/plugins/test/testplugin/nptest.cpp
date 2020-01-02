@@ -12662,6 +12662,11 @@ resultVariant
 ;
 }
 }
+NPN_MemFree
+(
+identifiers
+)
+;
 break
 ;
 }
