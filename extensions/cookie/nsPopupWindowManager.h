@@ -58,12 +58,6 @@ nsPopupWindowManager
 (
 )
 ;
-virtual
-~
-nsPopupWindowManager
-(
-)
-;
 nsresult
 Init
 (
@@ -71,6 +65,12 @@ Init
 ;
 private
 :
+virtual
+~
+nsPopupWindowManager
+(
+)
+;
 uint32_t
 mPolicy
 ;

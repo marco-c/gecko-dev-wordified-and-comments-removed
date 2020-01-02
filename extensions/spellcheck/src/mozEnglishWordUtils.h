@@ -71,12 +71,6 @@ mozEnglishWordUtils
 (
 )
 ;
-virtual
-~
-mozEnglishWordUtils
-(
-)
-;
 enum
 myspCapitalization
 {
@@ -88,6 +82,12 @@ HuhCap
 ;
 protected
 :
+virtual
+~
+mozEnglishWordUtils
+(
+)
+;
 mozEnglishWordUtils
 :
 :

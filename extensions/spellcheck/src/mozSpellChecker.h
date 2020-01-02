@@ -98,12 +98,6 @@ mozSpellChecker
 (
 )
 ;
-virtual
-~
-mozSpellChecker
-(
-)
-;
 nsresult
 Init
 (
@@ -239,6 +233,12 @@ CheckCurrentDictionary
 ;
 protected
 :
+virtual
+~
+mozSpellChecker
+(
+)
+;
 nsCOMPtr
 <
 mozISpellI18NUtil

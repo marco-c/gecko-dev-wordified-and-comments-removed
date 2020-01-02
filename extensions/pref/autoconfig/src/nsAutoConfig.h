@@ -86,12 +86,6 @@ nsAutoConfig
 (
 )
 ;
-virtual
-~
-nsAutoConfig
-(
-)
-;
 nsresult
 Init
 (
@@ -99,6 +93,12 @@ Init
 ;
 protected
 :
+virtual
+~
+nsAutoConfig
+(
+)
+;
 nsresult
 downloadAutoConfig
 (

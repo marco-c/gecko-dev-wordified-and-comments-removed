@@ -493,12 +493,6 @@ mozInlineSpellChecker
 (
 )
 ;
-virtual
-~
-mozInlineSpellChecker
-(
-)
-;
 nsresult
 SpellCheckBetweenNodes
 (
@@ -709,6 +703,12 @@ aStatus
 ;
 protected
 :
+virtual
+~
+mozInlineSpellChecker
+(
+)
+;
 nsresult
 EditorSpellCheckInited
 (

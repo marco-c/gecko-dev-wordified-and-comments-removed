@@ -1638,6 +1638,12 @@ MOZ_FINAL
 public
 nsIEditorSpellCheckCallback
 {
+~
+InitEditorSpellCheckCallback
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS
@@ -7083,6 +7089,12 @@ CurrentDictionaryUpdated
 }
 private
 :
+~
+UpdateCurrentDictionaryCallback
+(
+)
+{
+}
 nsRefPtr
 <
 mozInlineSpellChecker
