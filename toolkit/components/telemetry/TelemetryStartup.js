@@ -27,6 +27,7 @@ TelemetryPing
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -46,6 +47,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 function
 TelemetryStartup

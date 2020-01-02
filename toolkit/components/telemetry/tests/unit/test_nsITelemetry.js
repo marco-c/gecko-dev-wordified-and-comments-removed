@@ -66,6 +66,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 function

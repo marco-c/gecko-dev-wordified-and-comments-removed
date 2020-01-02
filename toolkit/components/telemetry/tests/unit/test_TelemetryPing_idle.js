@@ -22,6 +22,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -41,6 +42,7 @@ TelemetryPing
 .
 jsm
 "
+this
 )
 ;
 function
