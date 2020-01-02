@@ -2295,6 +2295,17 @@ NS_ENSURE_STATE
 stmt
 )
 ;
+nsAutoCString
+faviconURI
+;
+aFaviconURI
+-
+>
+GetSpecIgnoringRef
+(
+faviconURI
+)
+;
 nsresult
 rv
 =
@@ -2310,7 +2321,7 @@ NS_LITERAL_CSTRING
 icon_url
 "
 )
-aFaviconURI
+faviconURI
 )
 ;
 NS_ENSURE_SUCCESS
