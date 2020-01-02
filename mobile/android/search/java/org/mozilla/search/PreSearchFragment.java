@@ -4,8 +4,6 @@ org
 mozilla
 .
 search
-.
-stream
 ;
 import
 android
@@ -46,11 +44,13 @@ mozilla
 .
 search
 .
-R
+stream
+.
+PreloadAgent
 ;
 public
 class
-CardStreamFragment
+PreSearchFragment
 extends
 ListFragment
 {
@@ -64,7 +64,7 @@ TmpItem
 adapter
 ;
 public
-CardStreamFragment
+PreSearchFragment
 (
 )
 {

@@ -152,7 +152,7 @@ R
 ;
 public
 class
-AutoCompleteFragment
+SearchFragment
 extends
 Fragment
 implements
@@ -204,7 +204,7 @@ WAITING
 RUNNING
 }
 public
-AutoCompleteFragment
+SearchFragment
 (
 )
 {

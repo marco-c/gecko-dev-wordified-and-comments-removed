@@ -35,6 +35,7 @@ util
 .
 Map
 ;
+public
 class
 PreloadAgent
 {

@@ -103,7 +103,7 @@ PrefsHelper
 ;
 public
 class
-DetailActivity
+PostSearchFragment
 extends
 Fragment
 {
@@ -114,7 +114,7 @@ String
 LOGTAG
 =
 "
-DetailActivity
+PostSearchFragment
 "
 ;
 private
