@@ -838,6 +838,13 @@ GetReadFB
 const
 ;
 void
+BindFB_Internal
+(
+GLuint
+fb
+)
+;
+void
 BindDrawFB_Internal
 (
 GLuint
