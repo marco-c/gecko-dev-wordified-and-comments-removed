@@ -216,6 +216,16 @@ mIsFrozen
 )
 ;
 }
+bool
+IsActive
+(
+)
+const
+{
+return
+mIsActive
+;
+}
 virtual
 bool
 WillReplace
