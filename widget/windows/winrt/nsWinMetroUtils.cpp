@@ -1802,7 +1802,7 @@ metroRegValuePath
 nsIWindowsRegKey
 :
 :
-ACCESS_WRITE
+ACCESS_ALL
 )
 ;
 if
