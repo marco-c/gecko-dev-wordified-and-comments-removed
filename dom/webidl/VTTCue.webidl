@@ -326,5 +326,13 @@ HTMLDivElement
 ?
 displayState
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+hasBeenReset
+;
 }
 ;
