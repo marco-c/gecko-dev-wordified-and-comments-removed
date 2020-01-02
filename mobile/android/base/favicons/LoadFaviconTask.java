@@ -1121,7 +1121,7 @@ storedFaviconUrl
 =
 Favicons
 .
-getFaviconURLForPageURLFromCache
+getFaviconUrlForPageUrlFromCache
 (
 mPageUrl
 )
@@ -1153,7 +1153,7 @@ null
 {
 Favicons
 .
-putFaviconURLForPageURLInCache
+putFaviconUrlForPageUrlInCache
 (
 mPageUrl
 storedFaviconUrl
@@ -1180,7 +1180,7 @@ mFaviconUrl
 =
 Favicons
 .
-guessDefaultFaviconURL
+guessDefaultFaviconUrl
 (
 mPageUrl
 )
@@ -1452,7 +1452,7 @@ guessed
 =
 Favicons
 .
-guessDefaultFaviconURL
+guessDefaultFaviconUrl
 (
 mPageUrl
 )
