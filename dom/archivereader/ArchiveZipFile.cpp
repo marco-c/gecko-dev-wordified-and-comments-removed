@@ -1408,7 +1408,7 @@ nsIDOMBlob
 t
 =
 new
-DOMFileCC
+DOMFile
 (
 new
 ArchiveZipFileImpl
@@ -1430,3 +1430,8 @@ forget
 )
 ;
 }
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+ArchiveZipFileImpl
+DOMFileImpl
+)

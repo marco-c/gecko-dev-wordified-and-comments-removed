@@ -414,7 +414,7 @@ nsIDOMFile
 file
 =
 new
-DOMFileCC
+DOMFile
 (
 new
 FileImpl

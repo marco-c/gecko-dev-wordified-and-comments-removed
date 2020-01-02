@@ -35,6 +35,9 @@ namespace
 dom
 {
 class
+DOMFileImpl
+;
+class
 Promise
 ;
 class
@@ -196,11 +199,11 @@ mArrayData
 bool
 mReplace
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+DOMFileImpl
 >
-mTargetFile
+mTargetFileImpl
 ;
 }
 ;

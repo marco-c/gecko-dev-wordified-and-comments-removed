@@ -29,6 +29,9 @@ namespace
 dom
 {
 class
+DOMFileImpl
+;
+class
 GetFileOrDirectoryTask
 MOZ_FINAL
 :
@@ -150,11 +153,11 @@ mTargetRealPath
 bool
 mIsDirectory
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+DOMFileImpl
 >
-mTargetFile
+mTargetFileImpl
 ;
 }
 ;

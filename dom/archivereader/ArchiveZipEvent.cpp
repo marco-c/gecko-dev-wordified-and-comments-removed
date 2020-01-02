@@ -263,7 +263,7 @@ nullptr
 }
 return
 new
-DOMFileCC
+DOMFile
 (
 new
 ArchiveZipFileImpl

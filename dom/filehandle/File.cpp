@@ -40,6 +40,11 @@ indexedDB
 :
 IndexedDatabaseManager
 ;
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+FileImpl
+DOMFileImpl
+)
 FileImpl
 :
 :
@@ -468,7 +473,7 @@ nsIDOMBlob
 t
 =
 new
-DOMFileCC
+DOMFile
 (
 new
 FileImpl
