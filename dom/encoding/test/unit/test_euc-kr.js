@@ -32918,6 +32918,7 @@ u8A70
 ;
 assert_equals
 (
+new
 TextDecoder
 (
 "

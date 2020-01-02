@@ -53698,6 +53698,7 @@ u7809
 ;
 assert_equals
 (
+new
 TextDecoder
 (
 "

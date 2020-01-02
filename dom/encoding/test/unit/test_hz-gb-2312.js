@@ -29796,6 +29796,7 @@ u9F44
 ;
 assert_equals
 (
+new
 TextDecoder
 (
 "

@@ -27553,6 +27553,7 @@ u2235
 ;
 assert_equals
 (
+new
 TextDecoder
 (
 "

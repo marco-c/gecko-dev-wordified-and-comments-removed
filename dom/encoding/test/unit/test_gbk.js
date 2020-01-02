@@ -87186,6 +87186,7 @@ uFA29
 ;
 assert_equals
 (
+new
 TextDecoder
 (
 "
