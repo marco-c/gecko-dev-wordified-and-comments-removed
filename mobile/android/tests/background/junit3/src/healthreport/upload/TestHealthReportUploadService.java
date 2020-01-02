@@ -112,6 +112,17 @@ SHARED_PREFERENCES_MODE
 }
 Override
 public
+boolean
+backgroundDataIsEnabled
+(
+)
+{
+return
+true
+;
+}
+Override
+public
 void
 onHandleIntent
 (
