@@ -52,9 +52,14 @@ inl
 .
 h
 "
+using
 namespace
 js
-{
+;
+using
+namespace
+JS
+;
 DebuggerMemory
 *
 DebuggerMemory
