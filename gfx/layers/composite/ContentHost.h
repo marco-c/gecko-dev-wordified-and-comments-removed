@@ -1073,6 +1073,11 @@ Clear
 private
 :
 void
+FlushUpdateQueue
+(
+)
+;
+void
 ProcessTextureUpdates
 (
 )
