@@ -1898,7 +1898,7 @@ dirty
 rootScrollableFrame
 -
 >
-ExpandRect
+ExpandRectToNearlyVisible
 (
 dirty
 )

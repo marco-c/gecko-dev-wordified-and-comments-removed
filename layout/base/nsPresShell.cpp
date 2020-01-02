@@ -25609,7 +25609,7 @@ rect
 scrollFrame
 -
 >
-ExpandRect
+ExpandRectToNearlyVisible
 (
 rect
 )
@@ -26168,7 +26168,7 @@ updateRect
 rootScrollable
 -
 >
-ExpandRect
+ExpandRectToNearlyVisible
 (
 updateRect
 )

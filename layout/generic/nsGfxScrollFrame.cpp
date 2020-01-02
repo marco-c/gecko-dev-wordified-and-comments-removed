@@ -10239,7 +10239,7 @@ nsRect
 ScrollFrameHelper
 :
 :
-ExpandRect
+ExpandRectToNearlyVisible
 (
 const
 nsRect
@@ -11345,7 +11345,7 @@ IsForImageVisibility
 {
 dirtyRect
 =
-ExpandRect
+ExpandRectToNearlyVisible
 (
 dirtyRect
 )
@@ -11865,7 +11865,7 @@ aRect
 .
 Intersects
 (
-ExpandRect
+ExpandRectToNearlyVisible
 (
 usingDisplayport
 ?

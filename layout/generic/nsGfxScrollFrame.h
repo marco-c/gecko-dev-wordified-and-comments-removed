@@ -1015,7 +1015,7 @@ aRect
 const
 ;
 nsRect
-ExpandRect
+ExpandRectToNearlyVisible
 (
 const
 nsRect
@@ -2555,7 +2555,7 @@ aRect
 }
 virtual
 nsRect
-ExpandRect
+ExpandRectToNearlyVisible
 (
 const
 nsRect
@@ -2568,7 +2568,7 @@ MOZ_OVERRIDE
 return
 mHelper
 .
-ExpandRect
+ExpandRectToNearlyVisible
 (
 aRect
 )
@@ -3982,7 +3982,7 @@ aRect
 }
 virtual
 nsRect
-ExpandRect
+ExpandRectToNearlyVisible
 (
 const
 nsRect
@@ -3995,7 +3995,7 @@ MOZ_OVERRIDE
 return
 mHelper
 .
-ExpandRect
+ExpandRectToNearlyVisible
 (
 aRect
 )

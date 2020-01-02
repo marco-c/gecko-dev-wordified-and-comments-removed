@@ -490,7 +490,7 @@ aRect
 ;
 virtual
 nsRect
-ExpandRect
+ExpandRectToNearlyVisible
 (
 const
 nsRect
