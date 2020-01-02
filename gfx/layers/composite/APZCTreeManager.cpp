@@ -153,7 +153,7 @@ APZCTreeManager
 :
 sDPI
 =
-72
+160
 .
 0
 ;

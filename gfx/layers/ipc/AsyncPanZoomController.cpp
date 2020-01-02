@@ -981,9 +981,9 @@ gTouchStartTolerance
 .
 0f
 /
-2
+4
 .
-0f
+5f
 ;
 static
 const
