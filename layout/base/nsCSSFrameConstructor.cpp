@@ -1857,7 +1857,7 @@ get
 static
 inline
 bool
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 nsIFrame
 *
@@ -1892,7 +1892,7 @@ aFrame
 {
 NS_PRECONDITION
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aFrame
 )
@@ -1948,7 +1948,7 @@ aFrame
 {
 NS_PRECONDITION
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aFrame
 )
@@ -2150,7 +2150,7 @@ GetNextContinuation
 )
 |
 |
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aFrame
 -
@@ -2270,7 +2270,7 @@ aFrame
 {
 NS_PRECONDITION
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aFrame
 )
@@ -2330,7 +2330,7 @@ aFrame
 if
 (
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 parentFrame
 )
@@ -15153,7 +15153,7 @@ f
 )
 |
 |
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 f
 )
@@ -23357,7 +23357,7 @@ nullptr
 ;
 if
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aParentFrame
 )
@@ -23552,7 +23552,7 @@ aIsRecursiveCall
 NS_PRECONDITION
 (
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aParentFrame
 )
@@ -23671,7 +23671,7 @@ nextSibling
 |
 |
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aParentFrame
 )
@@ -23717,7 +23717,7 @@ if
 nextSibling
 &
 &
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aParentFrame
 )
@@ -24441,7 +24441,7 @@ aPrevSibling
 {
 if
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 sibling
 )
@@ -24947,7 +24947,7 @@ true
 ;
 if
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aParentFrame
 )
@@ -27092,7 +27092,7 @@ rv
 bool
 parentSpecial
 =
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 parentFrame
 )
@@ -29524,14 +29524,14 @@ GetParent
 NS_ASSERTION
 (
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 frame1
 )
 &
 &
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 frame2
 )
@@ -34535,7 +34535,7 @@ GetPrimaryFrame
 ;
 if
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aFrame
 )
@@ -35366,7 +35366,7 @@ true
 if
 (
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 parent
 )
@@ -43597,7 +43597,7 @@ do
 {
 NS_ASSERTION
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aParentFrame
 )
@@ -44405,7 +44405,7 @@ false
 if
 (
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aFrame
 )
@@ -44436,7 +44436,7 @@ break
 if
 (
 !
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aFrame
 )
@@ -44480,7 +44480,7 @@ aFrame
 }
 while
 (
-IsFrameSpecial
+IsFramePartOfIBSplit
 (
 aContainingBlock
 )
