@@ -2052,6 +2052,13 @@ kContentKTable
 static
 const
 KTableValue
+kControlCharacterVisibilityKTable
+[
+]
+;
+static
+const
+KTableValue
 kCursorKTable
 [
 ]

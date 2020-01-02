@@ -5470,6 +5470,9 @@ mTextOrientation
 uint8_t
 mTextCombineHorizontal
 ;
+uint8_t
+mControlCharacterVisibility
+;
 int32_t
 mTabSize
 ;
