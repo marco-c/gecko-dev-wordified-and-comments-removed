@@ -1372,6 +1372,14 @@ kNonActiveSimCardError
 =
 9
 ;
+public
+final
+static
+int
+kStorageFullError
+=
+10
+;
 private
 final
 static
