@@ -211,6 +211,15 @@ Vector
 <
 uint8_t
 >
+extra_data
+;
+mozilla
+:
+:
+Vector
+<
+uint8_t
+>
 annex_b
 ;
 void
