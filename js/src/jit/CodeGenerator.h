@@ -2550,8 +2550,6 @@ name
 TypedOrValueRegister
 output
 bool
-allowGetters
-bool
 monitoredResult
 )
 ;
