@@ -774,7 +774,6 @@ v
 cx
 )
 ;
-{
 JSAutoCompartment
 ac
 (
@@ -810,7 +809,6 @@ global
 defineOnGlobal
 )
 ;
-}
 rv
 =
 nsContentUtils
