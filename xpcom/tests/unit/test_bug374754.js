@@ -67,6 +67,14 @@ entry
 "
 ;
 var
+testValue
+=
+"
+check
+validity
+"
+;
+var
 result
 =
 "
@@ -342,7 +350,7 @@ addCategoryEntry
 (
 testCategory
 testEntry
-testEntry
+testValue
 false
 true
 )
@@ -353,7 +361,7 @@ addCategoryEntry
 (
 testCategory
 testEntry
-testEntry
+testValue
 false
 true
 )
