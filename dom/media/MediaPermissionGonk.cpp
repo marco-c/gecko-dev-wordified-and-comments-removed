@@ -803,13 +803,6 @@ aDevices
 )
 ;
 virtual
-~
-MediaPermissionRequest
-(
-)
-{
-}
-virtual
 bool
 Recv__delete__
 (
@@ -847,6 +840,15 @@ GetOwner
 (
 )
 ;
+protected
+:
+virtual
+~
+MediaPermissionRequest
+(
+)
+{
+}
 private
 :
 nsresult
@@ -1956,6 +1958,8 @@ aRequest
 )
 {
 }
+protected
+:
 virtual
 ~
 MediaDeviceSuccessCallback
@@ -2400,6 +2404,8 @@ aCallID
 )
 {
 }
+protected
+:
 virtual
 ~
 MediaDeviceErrorCallback

@@ -52,6 +52,8 @@ GetInstance
 (
 )
 ;
+protected
+:
 virtual
 ~
 MediaPermissionManager
