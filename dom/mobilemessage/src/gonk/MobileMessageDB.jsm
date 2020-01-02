@@ -1899,7 +1899,6 @@ txn
 oncomplete
 =
 function
-oncomplete
 (
 event
 )
@@ -1925,7 +1924,6 @@ txn
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -2149,7 +2147,6 @@ request
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -2238,7 +2235,6 @@ request
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -4289,7 +4285,6 @@ request
 onsuccess
 =
 function
-onsuccess
 (
 )
 {
@@ -4404,7 +4399,6 @@ request
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -10118,7 +10112,6 @@ txn
 oncomplete
 =
 function
-oncomplete
 (
 event
 )
@@ -10165,7 +10158,6 @@ txn
 onabort
 =
 function
-onabort
 (
 event
 )
@@ -10478,7 +10470,6 @@ request
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -11382,7 +11373,6 @@ getRequest
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -13236,7 +13226,6 @@ getRequest
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -13515,7 +13504,6 @@ txn
 oncomplete
 =
 function
-oncomplete
 (
 event
 )
@@ -13602,7 +13590,6 @@ txn
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -13737,7 +13724,6 @@ txn
 oncomplete
 =
 function
-oncomplete
 (
 )
 {
@@ -13935,7 +13921,6 @@ txn
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -14114,7 +14099,6 @@ txn
 oncomplete
 =
 function
-oncomplete
 (
 event
 )
@@ -14323,7 +14307,6 @@ txn
 onabort
 =
 function
-onabort
 (
 event
 )
@@ -14992,7 +14975,6 @@ txn
 onabort
 =
 function
-onabort
 (
 event
 )
@@ -15080,7 +15062,6 @@ txn
 oncomplete
 =
 function
-oncomplete
 (
 event
 )
@@ -15648,7 +15629,6 @@ messageId
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -15948,7 +15928,6 @@ messageRecord
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -16202,7 +16181,6 @@ txn
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -16376,7 +16354,6 @@ request
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -16455,7 +16432,6 @@ request
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -18605,7 +18581,6 @@ getRequest
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -18660,7 +18635,6 @@ getRequest
 onerror
 =
 function
-onerror
 (
 event
 )
@@ -18974,7 +18948,6 @@ getRequest
 onsuccess
 =
 function
-onsuccess
 (
 event
 )
@@ -19059,7 +19032,6 @@ getRequest
 onerror
 =
 function
-onerror
 (
 event
 )
