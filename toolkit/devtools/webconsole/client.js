@@ -84,6 +84,13 @@ traits
 {
 }
 ;
+this
+.
+events
+=
+[
+]
+;
 }
 exports
 .
@@ -814,10 +821,10 @@ return
 client
 ;
 }
-close
+detach
 :
 function
-WCC_close
+WCC_detach
 (
 aOnResponse
 )
