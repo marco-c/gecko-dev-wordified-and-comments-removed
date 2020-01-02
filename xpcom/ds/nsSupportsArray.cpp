@@ -8,7 +8,9 @@ h
 #
 include
 "
-prbit
+mozilla
+/
+MathAlgorithms
 .
 h
 "
@@ -696,7 +698,10 @@ newSize
 1u
 <
 <
-PR_CeilingLog2
+mozilla
+:
+:
+CeilingLog2
 (
 newSize
 )
