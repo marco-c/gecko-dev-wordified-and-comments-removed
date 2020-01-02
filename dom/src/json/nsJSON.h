@@ -225,13 +225,8 @@ aNeedsConverter
 JS
 :
 :
-MutableHandle
-<
-JS
-:
-:
 Value
->
+*
 aRetVal
 )
 ;

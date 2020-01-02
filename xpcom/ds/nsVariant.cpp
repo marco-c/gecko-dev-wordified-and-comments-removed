@@ -9307,7 +9307,9 @@ GetAsJSVal
 JS
 :
 :
-MutableHandleValue
+Value
+*
+_retval
 )
 {
 return

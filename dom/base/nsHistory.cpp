@@ -562,8 +562,11 @@ variant
 >
 GetAsJSVal
 (
-&
 jsData
+.
+address
+(
+)
 )
 ;
 if

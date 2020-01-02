@@ -503,8 +503,11 @@ filename
 cx
 autoconfigSb
 false
-&
 v
+.
+address
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

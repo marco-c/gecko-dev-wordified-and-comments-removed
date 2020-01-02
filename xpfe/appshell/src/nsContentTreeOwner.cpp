@@ -1263,13 +1263,8 @@ aCx
 JS
 :
 :
-MutableHandle
-<
-JS
-:
-:
 Value
->
+*
 aVal
 )
 {

@@ -949,10 +949,12 @@ cx
 JSObject
 *
 obj
+const
 JS
 :
 :
-HandleValue
+Value
+&
 val
 bool
 *

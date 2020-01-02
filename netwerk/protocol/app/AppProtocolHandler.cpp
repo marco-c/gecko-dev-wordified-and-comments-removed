@@ -1244,8 +1244,11 @@ NS_ConvertUTF8toUTF16
 (
 host
 )
-&
 jsInfo
+.
+address
+(
+)
 )
 ;
 if
