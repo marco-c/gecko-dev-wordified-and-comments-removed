@@ -88,8 +88,6 @@ loop
 /
 .
 *
-\
-/
 sdk
 -
 content
