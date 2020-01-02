@@ -180,12 +180,6 @@ libjingle
 /
 source
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 DEFINES
 [

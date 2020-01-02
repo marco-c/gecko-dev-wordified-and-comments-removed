@@ -351,12 +351,6 @@ dom
 events
 '
 '
-/
-xpcom
-/
-ds
-'
-'
 controller
 '
 '

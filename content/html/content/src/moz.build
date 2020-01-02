@@ -990,10 +990,4 @@ base
 /
 src
 '
-'
-/
-xpcom
-/
-ds
-'
 ]

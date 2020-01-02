@@ -347,12 +347,6 @@ dom
 /
 events
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 for
 var

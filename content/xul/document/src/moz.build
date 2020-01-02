@@ -237,12 +237,6 @@ layout
 /
 xul
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 FINAL_LIBRARY
 =

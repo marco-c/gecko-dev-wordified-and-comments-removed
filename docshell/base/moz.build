@@ -439,12 +439,6 @@ protocol
 /
 viewsource
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 if
 CONFIG

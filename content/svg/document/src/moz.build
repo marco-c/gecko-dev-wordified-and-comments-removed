@@ -174,12 +174,6 @@ layout
 /
 style
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 FINAL_LIBRARY
 =

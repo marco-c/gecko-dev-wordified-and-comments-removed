@@ -154,10 +154,4 @@ base
 /
 src
 '
-'
-/
-xpcom
-/
-ds
-'
 ]

@@ -909,12 +909,6 @@ xpconnect
 /
 wrappers
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 for
 var

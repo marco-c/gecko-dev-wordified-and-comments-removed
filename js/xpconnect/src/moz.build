@@ -508,12 +508,6 @@ layout
 /
 style
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 if
 CONFIG
