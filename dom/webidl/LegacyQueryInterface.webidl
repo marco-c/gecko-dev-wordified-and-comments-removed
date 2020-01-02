@@ -322,6 +322,10 @@ Rect
 implements
 LegacyQueryInterface
 ;
+Selection
+implements
+LegacyQueryInterface
+;
 SVGAnimatedEnumeration
 implements
 LegacyQueryInterface

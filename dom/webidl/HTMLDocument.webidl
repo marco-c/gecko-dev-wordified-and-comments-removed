@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-interface
-Selection
-;
 [
 OverrideBuiltins
 ]
@@ -480,6 +477,7 @@ selections
 Throws
 ]
 Selection
+?
 getSelection
 (
 )

@@ -406,6 +406,9 @@ nsWindowSizes
 namespace
 mozilla
 {
+class
+Selection
+;
 namespace
 dom
 {
@@ -3775,7 +3778,10 @@ ErrorResult
 aError
 )
 ;
-nsISelection
+mozilla
+:
+:
+Selection
 *
 GetSelection
 (

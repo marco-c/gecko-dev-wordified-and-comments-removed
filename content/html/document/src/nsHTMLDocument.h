@@ -1163,7 +1163,10 @@ const
 }
 already_AddRefed
 <
-nsISelection
+mozilla
+:
+:
+Selection
 >
 GetSelection
 (

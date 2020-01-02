@@ -1420,6 +1420,11 @@ ScrollAreaEvent
 webidl
 '
 '
+Selection
+.
+webidl
+'
+'
 SettingsManager
 .
 webidl

@@ -37028,7 +37028,7 @@ return
 NS_OK
 ;
 }
-nsISelection
+Selection
 *
 nsGlobalWindow
 :
@@ -37084,6 +37084,12 @@ nullptr
 ;
 }
 return
+static_cast
+<
+Selection
+*
+>
+(
 presShell
 -
 >
@@ -37093,6 +37099,7 @@ nsISelectionController
 :
 :
 SELECTION_NORMAL
+)
 )
 ;
 }

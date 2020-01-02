@@ -53,12 +53,6 @@ html
 .
 json
 \
-test_interfaces
-.
-html
-.
-json
-\
 test_removeAllRanges
 .
 html
