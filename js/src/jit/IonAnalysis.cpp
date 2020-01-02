@@ -10879,7 +10879,7 @@ compartment
 )
 -
 >
-ensureIonCompartmentExists
+ensureJitCompartmentExists
 (
 cx
 )

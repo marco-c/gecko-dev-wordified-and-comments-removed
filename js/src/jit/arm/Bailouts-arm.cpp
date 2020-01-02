@@ -26,7 +26,7 @@ include
 "
 jit
 /
-IonCompartment
+JitCompartment
 .
 h
 "
@@ -106,7 +106,7 @@ BailoutEnvironment
 :
 BailoutEnvironment
 (
-IonCompartment
+JitCompartment
 *
 ion
 void
@@ -682,7 +682,7 @@ code
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

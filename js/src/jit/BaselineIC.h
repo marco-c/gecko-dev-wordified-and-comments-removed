@@ -3591,7 +3591,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -

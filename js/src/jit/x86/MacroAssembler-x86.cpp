@@ -1440,7 +1440,7 @@ GetIonContext
 runtime
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

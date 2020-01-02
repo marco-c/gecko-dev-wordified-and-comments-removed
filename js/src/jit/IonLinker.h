@@ -50,7 +50,7 @@ include
 "
 jit
 /
-IonCompartment
+IonMacroAssembler
 .
 h
 "
@@ -59,7 +59,7 @@ include
 "
 jit
 /
-IonMacroAssembler
+JitCompartment
 .
 h
 "
@@ -412,7 +412,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -478,7 +478,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

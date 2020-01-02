@@ -4120,7 +4120,7 @@ JS_ION
 jit
 :
 :
-IonRuntime
+JitRuntime
 :
 :
 Mark

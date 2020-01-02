@@ -164,7 +164,7 @@ include
 "
 jit
 /
-IonCompartment
+IonSpewer
 .
 h
 "
@@ -173,7 +173,7 @@ include
 "
 jit
 /
-IonSpewer
+JitCompartment
 .
 h
 "
@@ -735,10 +735,10 @@ return
 true
 ;
 }
-IonRuntime
+JitRuntime
 :
 :
-IonRuntime
+JitRuntime
 (
 )
 :
@@ -804,11 +804,11 @@ false
 )
 {
 }
-IonRuntime
+JitRuntime
 :
 :
 ~
-IonRuntime
+JitRuntime
 (
 )
 {
@@ -828,7 +828,7 @@ ionAlloc_
 ;
 }
 bool
-IonRuntime
+JitRuntime
 :
 :
 initialize
@@ -882,7 +882,7 @@ AutoFlushCache
 afc
 (
 "
-IonRuntime
+JitRuntime
 :
 :
 initialize
@@ -924,7 +924,7 @@ compartment
 )
 -
 >
-ensureIonCompartmentExists
+ensureJitCompartmentExists
 (
 cx
 )
@@ -1415,7 +1415,7 @@ true
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 debugTrapHandler
@@ -1468,7 +1468,7 @@ debugTrapHandler_
 }
 uint8_t
 *
-IonRuntime
+JitRuntime
 :
 :
 allocateOsrTempData
@@ -1494,7 +1494,7 @@ osrTempData_
 ;
 }
 void
-IonRuntime
+JitRuntime
 :
 :
 freeOsrTempData
@@ -1516,7 +1516,7 @@ JSC
 :
 ExecutableAllocator
 *
-IonRuntime
+JitRuntime
 :
 :
 createIonAlloc
@@ -1595,7 +1595,7 @@ ionAlloc_
 ;
 }
 void
-IonRuntime
+JitRuntime
 :
 :
 ensureIonCodeProtected
@@ -1648,7 +1648,7 @@ true
 ;
 }
 bool
-IonRuntime
+JitRuntime
 :
 :
 handleAccessViolation
@@ -1727,7 +1727,7 @@ true
 ;
 }
 void
-IonRuntime
+JitRuntime
 :
 :
 ensureIonCodeAccessible
@@ -1796,7 +1796,7 @@ BackedgeInterruptCheck
 }
 }
 void
-IonRuntime
+JitRuntime
 :
 :
 patchIonBackedges
@@ -1897,21 +1897,21 @@ OperationCallbackTrigger
 trigger
 )
 {
-IonRuntime
+JitRuntime
 *
-ion
+jitRuntime
 =
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 ;
 if
 (
 !
-ion
+jitRuntime
 )
 return
 ;
@@ -1944,7 +1944,7 @@ rt
 )
 )
 ;
-ion
+jitRuntime
 -
 >
 ensureIonCodeAccessible
@@ -1960,7 +1960,7 @@ JSRuntime
 :
 TriggerCallbackAnyThread
 :
-ion
+jitRuntime
 -
 >
 ensureIonCodeProtected
@@ -1990,12 +1990,12 @@ trigger
 ;
 }
 }
-IonCompartment
+JitCompartment
 :
 :
-IonCompartment
+JitCompartment
 (
-IonRuntime
+JitRuntime
 *
 rt
 )
@@ -2030,11 +2030,11 @@ nullptr
 )
 {
 }
-IonCompartment
+JitCompartment
 :
 :
 ~
-IonCompartment
+JitCompartment
 (
 )
 {
@@ -2045,7 +2045,7 @@ stubCodes_
 ;
 }
 bool
-IonCompartment
+JitCompartment
 :
 :
 initialize
@@ -2090,7 +2090,7 @@ true
 ;
 }
 bool
-IonCompartment
+JitCompartment
 :
 :
 ensureIonStubsExist
@@ -2235,7 +2235,7 @@ inline
 void
 FinishAllOffThreadCompilations
 (
-IonCompartment
+JitCompartment
 *
 ion
 )
@@ -2294,7 +2294,7 @@ clear
 ;
 }
 void
-IonRuntime
+JitRuntime
 :
 :
 Mark
@@ -2392,7 +2392,7 @@ wrapper
 }
 }
 void
-IonCompartment
+JitCompartment
 :
 :
 mark
@@ -2439,7 +2439,7 @@ freeOsrTempData
 ;
 }
 void
-IonCompartment
+JitCompartment
 :
 :
 sweep
@@ -2570,7 +2570,7 @@ nullptr
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 getBailoutTable
@@ -2607,7 +2607,7 @@ classId
 }
 IonCode
 *
-IonRuntime
+JitRuntime
 :
 :
 getVMWrapper
@@ -2633,7 +2633,7 @@ initialized
 )
 )
 ;
-IonRuntime
+JitRuntime
 :
 :
 VMWrapperMap
@@ -2984,7 +2984,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 &
@@ -2998,7 +2998,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -4256,7 +4256,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -5057,7 +5057,7 @@ purgeCaches
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -5298,7 +5298,7 @@ i
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -5347,7 +5347,7 @@ if
 rt
 -
 >
-hasIonRuntime
+hasJitRuntime
 (
 )
 )
@@ -5368,7 +5368,7 @@ ToggleBarriers
 rt
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -5487,14 +5487,14 @@ if
 comp
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 )
 comp
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -7044,7 +7044,7 @@ cx
 #
 ifdef
 JS_THREADSAFE
-IonCompartment
+JitCompartment
 *
 ion
 =
@@ -7056,7 +7056,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 ;
@@ -7225,7 +7225,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -7483,7 +7483,7 @@ compartment
 )
 -
 >
-ensureIonCompartmentExists
+ensureJitCompartmentExists
 (
 cx
 )
@@ -7502,7 +7502,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -7590,7 +7590,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -9556,7 +9556,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -9710,7 +9710,7 @@ compartment
 )
 -
 >
-ensureIonCompartmentExists
+ensureJitCompartmentExists
 (
 cx
 )
@@ -9729,7 +9729,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -9807,7 +9807,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -9885,7 +9885,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -9977,7 +9977,7 @@ runtime
 )
 -
 >
-getIonRuntime
+getJitRuntime
 (
 cx
 )
@@ -10609,7 +10609,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -11464,7 +11464,7 @@ if
 comp
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 )
@@ -11481,7 +11481,7 @@ FinishAllOffThreadCompilations
 comp
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 )
@@ -11559,7 +11559,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -11643,7 +11643,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -12773,9 +12773,9 @@ MaybeGetIonContext
 (
 )
 ;
-IonRuntime
+JitRuntime
 *
-irt
+jrt
 =
 (
 ictx
@@ -12790,7 +12790,7 @@ ictx
 runtime
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 :
@@ -12799,11 +12799,11 @@ nullptr
 if
 (
 !
-irt
+jrt
 |
 |
 !
-irt
+jrt
 -
 >
 flusher
@@ -12827,7 +12827,7 @@ len
 )
 ;
 else
-irt
+jrt
 -
 >
 flusher
@@ -12851,7 +12851,7 @@ const
 char
 *
 nonce
-IonRuntime
+JitRuntime
 *
 rt
 )
@@ -12923,7 +12923,7 @@ AutoFlushInhibitor
 :
 AutoFlushInhibitor
 (
-IonRuntime
+JitRuntime
 *
 rt
 )

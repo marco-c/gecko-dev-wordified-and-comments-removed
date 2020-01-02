@@ -12,7 +12,7 @@ include
 "
 jit
 /
-IonCompartment
+JitCompartment
 .
 h
 "

@@ -10794,7 +10794,7 @@ argumentsRectifier
 gen
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -12697,7 +12697,7 @@ argumentsRectifier
 gen
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -25321,7 +25321,7 @@ stringConcatStub
 gen
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -25861,7 +25861,7 @@ start
 }
 IonCode
 *
-IonCompartment
+JitCompartment
 :
 :
 generateStringConcatStub
@@ -34171,7 +34171,7 @@ deoptTable_
 gen
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -34583,7 +34583,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

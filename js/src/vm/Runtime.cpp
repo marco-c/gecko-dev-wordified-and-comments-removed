@@ -164,7 +164,7 @@ include
 "
 jit
 /
-IonCompartment
+JitCompartment
 .
 h
 "
@@ -598,7 +598,7 @@ bumpAlloc_
 (
 nullptr
 )
-ionRuntime_
+jitRuntime_
 (
 nullptr
 )
@@ -2101,7 +2101,7 @@ ifdef
 JS_ION
 js_delete
 (
-ionRuntime_
+jitRuntime_
 )
 ;
 #
@@ -2404,7 +2404,7 @@ this
 ;
 if
 (
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -2418,7 +2418,7 @@ ExecutableAllocator
 *
 ionAlloc
 =
-ionRuntime
+jitRuntime
 (
 )
 -

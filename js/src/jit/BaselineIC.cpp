@@ -4054,9 +4054,9 @@ getStubCode
 (
 )
 {
-IonCompartment
+JitCompartment
 *
-ion
+comp
 =
 cx
 -
@@ -4066,7 +4066,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 ;
@@ -4081,7 +4081,7 @@ IonCode
 *
 stubCode
 =
-ion
+comp
 -
 >
 getStubCode
@@ -4128,7 +4128,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 )
@@ -4215,7 +4215,7 @@ true
 if
 (
 !
-ion
+comp
 -
 >
 putStubCode
@@ -4285,7 +4285,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -4356,7 +4356,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -4409,7 +4409,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -5542,7 +5542,7 @@ runtime
 )
 -
 >
-getIonRuntime
+getJitRuntime
 (
 cx
 )
@@ -22406,7 +22406,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -33554,7 +33554,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -34728,7 +34728,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -38041,7 +38041,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -39541,7 +39541,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -43840,7 +43840,7 @@ compartment
 )
 -
 >
-ionCompartment
+jitCompartment
 (
 )
 -
@@ -44652,7 +44652,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -45779,7 +45779,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -
@@ -46255,7 +46255,7 @@ runtime
 )
 -
 >
-ionRuntime
+jitRuntime
 (
 )
 -

@@ -98,7 +98,7 @@ BAILOUT_RETURN_OVERRECURSED
 2
 ;
 class
-IonCompartment
+JitCompartment
 ;
 class
 BailoutStack
