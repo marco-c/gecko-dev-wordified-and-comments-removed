@@ -5,8 +5,14 @@ LIBGLESV2_HANDLEALLOCATOR_H_
 define
 LIBGLESV2_HANDLEALLOCATOR_H_
 #
-define
-GL_APICALL
+include
+<
+GLES3
+/
+gl3
+.
+h
+>
 #
 include
 <

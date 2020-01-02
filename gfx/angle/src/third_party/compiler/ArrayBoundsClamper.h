@@ -7,16 +7,9 @@ THIRD_PARTY_COMPILER_ARRAY_BOUNDS_CLAMPER_H_
 #
 include
 "
-GLSLANG
-/
-ShaderLang
-.
-h
-"
-#
-include
-"
 compiler
+/
+translator
 /
 InfoSink
 .
@@ -26,6 +19,8 @@ h
 include
 "
 compiler
+/
+translator
 /
 intermediate
 .

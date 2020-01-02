@@ -1195,7 +1195,7 @@ report
 Diagnostics
 :
 :
-MACRO_UNTERMINATED_INVOCATION
+PP_MACRO_UNTERMINATED_INVOCATION
 identifier
 .
 location
@@ -1432,12 +1432,12 @@ size
 Diagnostics
 :
 :
-MACRO_TOO_FEW_ARGS
+PP_MACRO_TOO_FEW_ARGS
 :
 Diagnostics
 :
 :
-MACRO_TOO_MANY_ARGS
+PP_MACRO_TOO_MANY_ARGS
 ;
 mDiagnostics
 -

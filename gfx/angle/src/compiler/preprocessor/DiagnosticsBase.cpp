@@ -69,36 +69,36 @@ if
 (
 id
 >
-ERROR_BEGIN
+PP_ERROR_BEGIN
 )
 &
 &
 (
 id
 <
-ERROR_END
+PP_ERROR_END
 )
 )
 return
-ERROR
+PP_ERROR
 ;
 if
 (
 (
 id
 >
-WARNING_BEGIN
+PP_WARNING_BEGIN
 )
 &
 &
 (
 id
 <
-WARNING_END
+PP_WARNING_END
 )
 )
 return
-WARNING
+PP_WARNING
 ;
 assert
 (
@@ -106,7 +106,7 @@ false
 )
 ;
 return
-ERROR
+PP_ERROR
 ;
 }
 std
@@ -128,7 +128,7 @@ id
 )
 {
 case
-INTERNAL_ERROR
+PP_INTERNAL_ERROR
 :
 return
 "
@@ -137,7 +137,7 @@ error
 "
 ;
 case
-OUT_OF_MEMORY
+PP_OUT_OF_MEMORY
 :
 return
 "
@@ -147,7 +147,7 @@ memory
 "
 ;
 case
-INVALID_CHARACTER
+PP_INVALID_CHARACTER
 :
 return
 "
@@ -156,7 +156,7 @@ character
 "
 ;
 case
-INVALID_NUMBER
+PP_INVALID_NUMBER
 :
 return
 "
@@ -165,7 +165,7 @@ number
 "
 ;
 case
-INTEGER_OVERFLOW
+PP_INTEGER_OVERFLOW
 :
 return
 "
@@ -174,7 +174,7 @@ overflow
 "
 ;
 case
-FLOAT_OVERFLOW
+PP_FLOAT_OVERFLOW
 :
 return
 "
@@ -183,7 +183,7 @@ overflow
 "
 ;
 case
-TOKEN_TOO_LONG
+PP_TOKEN_TOO_LONG
 :
 return
 "
@@ -193,7 +193,7 @@ long
 "
 ;
 case
-INVALID_EXPRESSION
+PP_INVALID_EXPRESSION
 :
 return
 "
@@ -202,7 +202,7 @@ expression
 "
 ;
 case
-DIVISION_BY_ZERO
+PP_DIVISION_BY_ZERO
 :
 return
 "
@@ -212,7 +212,7 @@ zero
 "
 ;
 case
-EOF_IN_COMMENT
+PP_EOF_IN_COMMENT
 :
 return
 "
@@ -226,7 +226,7 @@ comment
 "
 ;
 case
-UNEXPECTED_TOKEN
+PP_UNEXPECTED_TOKEN
 :
 return
 "
@@ -235,7 +235,7 @@ token
 "
 ;
 case
-DIRECTIVE_INVALID_NAME
+PP_DIRECTIVE_INVALID_NAME
 :
 return
 "
@@ -245,7 +245,7 @@ name
 "
 ;
 case
-MACRO_NAME_RESERVED
+PP_MACRO_NAME_RESERVED
 :
 return
 "
@@ -256,7 +256,7 @@ reserved
 "
 ;
 case
-MACRO_REDEFINED
+PP_MACRO_REDEFINED
 :
 return
 "
@@ -265,7 +265,7 @@ redefined
 "
 ;
 case
-MACRO_PREDEFINED_REDEFINED
+PP_MACRO_PREDEFINED_REDEFINED
 :
 return
 "
@@ -275,7 +275,7 @@ redefined
 "
 ;
 case
-MACRO_PREDEFINED_UNDEFINED
+PP_MACRO_PREDEFINED_UNDEFINED
 :
 return
 "
@@ -285,7 +285,7 @@ undefined
 "
 ;
 case
-MACRO_UNTERMINATED_INVOCATION
+PP_MACRO_UNTERMINATED_INVOCATION
 :
 return
 "
@@ -295,7 +295,7 @@ invocation
 "
 ;
 case
-MACRO_TOO_FEW_ARGS
+PP_MACRO_TOO_FEW_ARGS
 :
 return
 "
@@ -307,7 +307,7 @@ macro
 "
 ;
 case
-MACRO_TOO_MANY_ARGS
+PP_MACRO_TOO_MANY_ARGS
 :
 return
 "
@@ -319,7 +319,7 @@ macro
 "
 ;
 case
-CONDITIONAL_ENDIF_WITHOUT_IF
+PP_CONDITIONAL_ENDIF_WITHOUT_IF
 :
 return
 "
@@ -335,7 +335,7 @@ if
 "
 ;
 case
-CONDITIONAL_ELSE_WITHOUT_IF
+PP_CONDITIONAL_ELSE_WITHOUT_IF
 :
 return
 "
@@ -351,7 +351,7 @@ if
 "
 ;
 case
-CONDITIONAL_ELSE_AFTER_ELSE
+PP_CONDITIONAL_ELSE_AFTER_ELSE
 :
 return
 "
@@ -366,7 +366,7 @@ else
 "
 ;
 case
-CONDITIONAL_ELIF_WITHOUT_IF
+PP_CONDITIONAL_ELIF_WITHOUT_IF
 :
 return
 "
@@ -382,7 +382,7 @@ if
 "
 ;
 case
-CONDITIONAL_ELIF_AFTER_ELSE
+PP_CONDITIONAL_ELIF_AFTER_ELSE
 :
 return
 "
@@ -396,7 +396,7 @@ else
 "
 ;
 case
-CONDITIONAL_UNTERMINATED
+PP_CONDITIONAL_UNTERMINATED
 :
 return
 "
@@ -411,7 +411,7 @@ block
 "
 ;
 case
-INVALID_EXTENSION_NAME
+PP_INVALID_EXTENSION_NAME
 :
 return
 "
@@ -421,7 +421,7 @@ name
 "
 ;
 case
-INVALID_EXTENSION_BEHAVIOR
+PP_INVALID_EXTENSION_BEHAVIOR
 :
 return
 "
@@ -431,7 +431,7 @@ behavior
 "
 ;
 case
-INVALID_EXTENSION_DIRECTIVE
+PP_INVALID_EXTENSION_DIRECTIVE
 :
 return
 "
@@ -441,7 +441,7 @@ directive
 "
 ;
 case
-INVALID_VERSION_NUMBER
+PP_INVALID_VERSION_NUMBER
 :
 return
 "
@@ -451,7 +451,7 @@ number
 "
 ;
 case
-INVALID_VERSION_DIRECTIVE
+PP_INVALID_VERSION_DIRECTIVE
 :
 return
 "
@@ -461,7 +461,7 @@ directive
 "
 ;
 case
-VERSION_NOT_FIRST_STATEMENT
+PP_VERSION_NOT_FIRST_STATEMENT
 :
 return
 "
@@ -484,7 +484,7 @@ space
 "
 ;
 case
-INVALID_LINE_NUMBER
+PP_INVALID_LINE_NUMBER
 :
 return
 "
@@ -494,7 +494,7 @@ number
 "
 ;
 case
-INVALID_FILE_NUMBER
+PP_INVALID_FILE_NUMBER
 :
 return
 "
@@ -504,7 +504,7 @@ number
 "
 ;
 case
-INVALID_LINE_DIRECTIVE
+PP_INVALID_LINE_DIRECTIVE
 :
 return
 "
@@ -514,7 +514,7 @@ directive
 "
 ;
 case
-EOF_IN_DIRECTIVE
+PP_EOF_IN_DIRECTIVE
 :
 return
 "
@@ -528,7 +528,7 @@ directive
 "
 ;
 case
-CONDITIONAL_UNEXPECTED_TOKEN
+PP_CONDITIONAL_UNEXPECTED_TOKEN
 :
 return
 "
@@ -540,7 +540,7 @@ expression
 "
 ;
 case
-UNRECOGNIZED_PRAGMA
+PP_UNRECOGNIZED_PRAGMA
 :
 return
 "

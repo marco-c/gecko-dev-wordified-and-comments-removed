@@ -1205,10 +1205,6 @@ GL_DEPTH_COMPONENT16
 0x81A5
 #
 define
-GL_STENCIL_INDEX
-0x1901
-#
-define
 GL_STENCIL_INDEX8
 0x8D48
 #
@@ -2046,7 +2042,7 @@ shaders
 )
 ;
 GL_APICALL
-int
+GLint
 GL_APIENTRY
 glGetAttribLocation
 (
@@ -2310,7 +2306,7 @@ params
 )
 ;
 GL_APICALL
-int
+GLint
 GL_APIENTRY
 glGetUniformLocation
 (
@@ -2583,6 +2579,7 @@ count
 const
 GLchar
 *
+const
 *
 string
 const

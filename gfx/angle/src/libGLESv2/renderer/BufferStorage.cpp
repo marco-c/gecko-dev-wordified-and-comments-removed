@@ -78,13 +78,4 @@ mNextSerial
 +
 ;
 }
-void
-BufferStorage
-:
-:
-markBufferUsage
-(
-)
-{
-}
 }

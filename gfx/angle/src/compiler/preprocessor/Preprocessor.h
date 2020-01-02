@@ -91,6 +91,13 @@ Token
 token
 )
 ;
+void
+setMaxTokenSize
+(
+size_t
+maxTokenSize
+)
+;
 private
 :
 PP_DISALLOW_COPY_AND_ASSIGN
