@@ -560,6 +560,9 @@ emit
 "
 change
 "
+{
+tab
+:
 this
 .
 chromeWindow
@@ -567,6 +570,7 @@ chromeWindow
 gBrowser
 .
 selectedTab
+}
 )
 ;
 Services
@@ -831,6 +835,9 @@ emit
 "
 change
 "
+{
+tab
+:
 this
 .
 chromeWindow
@@ -838,6 +845,7 @@ chromeWindow
 gBrowser
 .
 selectedTab
+}
 )
 ;
 Services
