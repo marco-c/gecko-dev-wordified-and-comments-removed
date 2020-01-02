@@ -703,7 +703,7 @@ enable
 -
 tiles
 "
-false
+true
 )
 ;
 #
