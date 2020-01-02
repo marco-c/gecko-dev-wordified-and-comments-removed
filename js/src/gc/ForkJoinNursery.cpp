@@ -3629,6 +3629,14 @@ src
 hasEmptyElements
 (
 )
+|
+|
+src
+-
+>
+denseElementsAreCopyOnWrite
+(
+)
 )
 return
 0

@@ -464,6 +464,11 @@ JSOP_NEWARRAY
 \
 _
 (
+JSOP_NEWARRAY_COPYONWRITE
+)
+\
+_
+(
 JSOP_INITELEM_ARRAY
 )
 \
@@ -1226,6 +1231,11 @@ reg
 )
 ;
 }
+;
+extern
+const
+VMFunction
+NewArrayCopyOnWriteInfo
 ;
 }
 }

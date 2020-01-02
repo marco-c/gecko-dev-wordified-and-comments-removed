@@ -1495,6 +1495,15 @@ MDefinition
 elements
 )
 ;
+MDefinition
+*
+addMaybeCopyElementsForWrite
+(
+MDefinition
+*
+object
+)
+;
 MInstruction
 *
 addBoundsCheck
@@ -2971,6 +2980,11 @@ jsop_newarray
 (
 uint32_t
 count
+)
+;
+bool
+jsop_newarray_copyonwrite
+(
 )
 ;
 bool

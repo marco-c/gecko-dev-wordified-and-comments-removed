@@ -128,6 +128,11 @@ NewArray
 \
 _
 (
+NewArrayCopyOnWrite
+)
+\
+_
+(
 ArraySplice
 )
 \
@@ -839,6 +844,11 @@ ConvertElementsToDoubles
 _
 (
 MaybeToDoubleElement
+)
+\
+_
+(
+MaybeCopyElementsForWrite
 )
 \
 _
