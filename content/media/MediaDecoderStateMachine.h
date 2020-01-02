@@ -1286,12 +1286,6 @@ bool
 mIsVideoPrerolling
 ;
 bool
-mIsAudioDecoding
-;
-bool
-mIsVideoDecoding
-;
-bool
 mAudioRequestPending
 ;
 bool
