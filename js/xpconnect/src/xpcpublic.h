@@ -204,6 +204,9 @@ mDocShellAllowsScript
 bool
 mImmuneToScriptPolicy
 ;
+bool
+mScriptBlockedByPolicy
+;
 }
 ;
 JSObject

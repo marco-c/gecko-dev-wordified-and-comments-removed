@@ -1111,6 +1111,11 @@ nsIPrincipal
 aSecond
 )
 ;
+void
+DeactivateDomainPolicy
+(
+)
+;
 private
 :
 nsScriptSecurityManager
@@ -1395,6 +1400,12 @@ mIsJavaScriptEnabled
 ;
 bool
 mPolicyPrefsChanged
+;
+nsCOMPtr
+<
+nsIDomainPolicy
+>
+mDomainPolicy
 ;
 static
 bool

@@ -98,6 +98,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDomainPolicy
+.
+idl
+'
+'
 nsIPrincipal
 .
 idl

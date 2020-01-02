@@ -103,6 +103,11 @@ SOURCES
 =
 [
 '
+DomainPolicy
+.
+cpp
+'
+'
 nsJSPrincipals
 .
 cpp
