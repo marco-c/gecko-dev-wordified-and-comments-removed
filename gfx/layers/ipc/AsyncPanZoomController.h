@@ -331,10 +331,7 @@ FrameMetrics
 &
 aFrameMetrics
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aVelocity
 const
@@ -601,10 +598,7 @@ PanDistance
 )
 ;
 const
-gfx
-:
-:
-Point
+ScreenPoint
 GetVelocityVector
 (
 )

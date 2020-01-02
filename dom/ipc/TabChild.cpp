@@ -2885,10 +2885,7 @@ AsyncPanZoomController
 CalculatePendingDisplayPort
 (
 metrics
-gfx
-:
-:
-Point
+ScreenPoint
 (
 0
 .
