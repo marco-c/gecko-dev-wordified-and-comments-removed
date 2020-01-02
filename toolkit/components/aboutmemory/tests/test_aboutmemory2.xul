@@ -477,11 +477,6 @@ fakeReporters
 =
 [
 {
-name
-:
-"
-fake1
-"
 collectReports
 :
 function
