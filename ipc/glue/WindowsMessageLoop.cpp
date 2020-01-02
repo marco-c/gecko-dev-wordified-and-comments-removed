@@ -17,7 +17,7 @@ h
 #
 include
 "
-RPCChannel
+MessageChannel
 .
 h
 "
@@ -213,7 +213,7 @@ gDeferredMessages
 &
 &
 !
-SyncChannel
+MessageChannel
 :
 :
 IsPumpingMessages
@@ -2114,7 +2114,7 @@ targetTicks
 ;
 }
 }
-RPCChannel
+MessageChannel
 :
 :
 SyncStackFrame
@@ -2122,7 +2122,7 @@ SyncStackFrame
 :
 SyncStackFrame
 (
-SyncChannel
+MessageChannel
 *
 channel
 bool
@@ -2212,7 +2212,7 @@ memory
 ;
 }
 }
-RPCChannel
+MessageChannel
 :
 :
 SyncStackFrame
@@ -2291,18 +2291,18 @@ nullptr
 ;
 }
 }
-SyncChannel
+MessageChannel
 :
 :
 SyncStackFrame
 *
-SyncChannel
+MessageChannel
 :
 :
 sStaticTopFrame
 ;
 void
-RPCChannel
+MessageChannel
 :
 :
 NotifyGeckoEventDispatch
@@ -2329,13 +2329,13 @@ mListenerNotified
 =
 true
 ;
-RPCChannel
+MessageChannel
 *
 channel
 =
 static_cast
 <
-RPCChannel
+MessageChannel
 *
 >
 (
@@ -2359,7 +2359,7 @@ ProcessRemoteNativeEventsInRPCCall
 ;
 }
 void
-RPCChannel
+MessageChannel
 :
 :
 ProcessNativeEventsInRPCCall
@@ -2397,7 +2397,7 @@ true
 ;
 }
 void
-RPCChannel
+MessageChannel
 :
 :
 SpinInternalEventLoop
@@ -2521,6 +2521,8 @@ TranslateMessage
 msg
 )
 ;
+:
+:
 DispatchMessageW
 (
 &
@@ -2563,10 +2565,10 @@ true
 ;
 }
 bool
-SyncChannel
+MessageChannel
 :
 :
-WaitForNotify
+WaitForSyncNotify
 (
 )
 {
@@ -2666,7 +2668,7 @@ failed
 NS_ASSERTION
 (
 !
-SyncChannel
+MessageChannel
 :
 :
 IsPumpingMessages
@@ -2683,7 +2685,7 @@ already
 "
 )
 ;
-SyncChannel
+MessageChannel
 :
 :
 SetIsPumpingMessages
@@ -2884,7 +2886,7 @@ timerId
 )
 ;
 }
-SyncChannel
+MessageChannel
 :
 :
 SetIsPumpingMessages
@@ -2900,10 +2902,10 @@ timedout
 ;
 }
 bool
-RPCChannel
+MessageChannel
 :
 :
-WaitForNotify
+WaitForRPCNotify
 (
 )
 {
@@ -2917,7 +2919,7 @@ AssertCurrentThreadOwns
 if
 (
 !
-StackDepth
+RPCStackDepth
 (
 )
 )
@@ -2933,7 +2935,7 @@ is
 in
 call
 to
-RPCChannel
+MessageChannel
 :
 :
 WaitForNotify
@@ -3010,7 +3012,7 @@ windowHook
 )
 =
 =
-SyncChannel
+MessageChannel
 :
 :
 IsPumpingMessages
@@ -3064,7 +3066,7 @@ timerId
 0
 ;
 }
-SyncChannel
+MessageChannel
 :
 :
 SetIsPumpingMessages
@@ -3100,7 +3102,7 @@ if
 windowHook
 )
 {
-SyncChannel
+MessageChannel
 :
 :
 SetIsPumpingMessages
@@ -3348,7 +3350,7 @@ timerId
 ;
 }
 }
-SyncChannel
+MessageChannel
 :
 :
 SetIsPumpingMessages
@@ -3364,7 +3366,7 @@ timedout
 ;
 }
 void
-SyncChannel
+MessageChannel
 :
 :
 NotifyWorkerThread

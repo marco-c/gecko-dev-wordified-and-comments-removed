@@ -50,7 +50,7 @@ mozilla
 /
 ipc
 /
-RPCChannel
+MessageChannel
 .
 h
 "
@@ -16134,7 +16134,7 @@ mozilla
 ipc
 :
 :
-SyncChannel
+MessageChannel
 :
 :
 IsPumpingMessages
@@ -16161,7 +16161,7 @@ mozilla
 ipc
 :
 :
-RPCChannel
+MessageChannel
 :
 :
 IsSpinLoopActive

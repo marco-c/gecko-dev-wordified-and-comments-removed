@@ -611,10 +611,7 @@ mozilla
 ipc
 :
 :
-RPCChannel
-:
-:
-RPCListener
+MessageListener
 >
 :
 :

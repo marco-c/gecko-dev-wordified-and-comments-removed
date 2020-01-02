@@ -108,9 +108,6 @@ mozilla
 ipc
 :
 :
-RPCChannel
-:
-:
 RacyRPCPolicy
 MediateRPCRace
 (
@@ -213,9 +210,6 @@ mozilla
 :
 :
 ipc
-:
-:
-RPCChannel
 :
 :
 RacyRPCPolicy

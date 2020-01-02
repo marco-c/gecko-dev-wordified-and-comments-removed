@@ -1428,7 +1428,7 @@ cps
 i
 ]
 ;
-AsyncChannel
+MessageChannel
 *
 channel
 =
@@ -4173,7 +4173,7 @@ aCloseWithError
 mCalledCloseWithError
 )
 {
-AsyncChannel
+MessageChannel
 *
 channel
 =

@@ -5,7 +5,7 @@ mozilla
 /
 ipc
 /
-RPCChannel
+MessageChannel
 .
 h
 "
@@ -608,7 +608,7 @@ mozilla
 ipc
 :
 :
-RPCChannel
+MessageChannel
 :
 :
 NotifyGeckoEventDispatch

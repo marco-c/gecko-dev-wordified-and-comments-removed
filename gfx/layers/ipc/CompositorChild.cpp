@@ -326,10 +326,10 @@ handle
 XRE_GetIOMessageLoop
 (
 )
-AsyncChannel
+ipc
 :
 :
-Child
+ChildSide
 )
 )
 {

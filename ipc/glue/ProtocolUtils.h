@@ -124,7 +124,7 @@ namespace
 ipc
 {
 class
-AsyncChannel
+MessageChannel
 ;
 struct
 ActorHandle
@@ -329,7 +329,7 @@ const
 0
 ;
 virtual
-AsyncChannel
+MessageChannel
 *
 GetIPCChannel
 (
@@ -415,13 +415,13 @@ Bridge
 const
 PrivateIPDLInterface
 &
-AsyncChannel
+MessageChannel
 *
 base
 :
 :
 ProcessHandle
-AsyncChannel
+MessageChannel
 *
 base
 :
@@ -437,7 +437,7 @@ Open
 const
 PrivateIPDLInterface
 &
-AsyncChannel
+MessageChannel
 *
 base
 :

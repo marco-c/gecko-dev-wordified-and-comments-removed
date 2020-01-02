@@ -155,7 +155,7 @@ mozilla
 /
 ipc
 /
-SyncChannel
+MessageChannel
 .
 h
 "
@@ -6288,7 +6288,7 @@ mozilla
 ipc
 :
 :
-SyncChannel
+MessageChannel
 :
 :
 IsPumpingMessages

@@ -14,7 +14,7 @@ mozilla
 /
 ipc
 /
-AsyncChannel
+MessageChannel
 .
 h
 "
@@ -221,12 +221,12 @@ Bridge
 const
 PrivateIPDLInterface
 &
-AsyncChannel
+MessageChannel
 *
 aParentChannel
 ProcessHandle
 aParentProcess
-AsyncChannel
+MessageChannel
 *
 aChildChannel
 ProcessHandle
@@ -347,7 +347,7 @@ Open
 const
 PrivateIPDLInterface
 &
-AsyncChannel
+MessageChannel
 *
 aOpenerChannel
 ProcessHandle

@@ -142,7 +142,7 @@ mozilla
 /
 ipc
 /
-AsyncChannel
+MessageChannel
 .
 h
 "
@@ -1345,7 +1345,7 @@ GetMessageLoop
 ipc
 :
 :
-AsyncChannel
+MessageChannel
 *
 parentChannel
 =
@@ -1369,10 +1369,7 @@ mozilla
 ipc
 :
 :
-AsyncChannel
-:
-:
-Child
+ChildSide
 )
 ;
 }
@@ -1635,10 +1632,10 @@ aOtherProcess
 XRE_GetIOMessageLoop
 (
 )
-AsyncChannel
+ipc
 :
 :
-Child
+ChildSide
 )
 ;
 }

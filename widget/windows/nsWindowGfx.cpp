@@ -620,7 +620,7 @@ mozilla
 ipc
 :
 :
-RPCChannel
+MessageChannel
 :
 :
 IsSpinLoopActive

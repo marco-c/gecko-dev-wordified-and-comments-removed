@@ -252,10 +252,10 @@ aOtherProcess
 XRE_GetIOMessageLoop
 (
 )
-AsyncChannel
+ipc
 :
 :
-Parent
+ParentSide
 )
 )
 fail
@@ -620,10 +620,10 @@ aOtherProcess
 XRE_GetIOMessageLoop
 (
 )
-AsyncChannel
+ipc
 :
 :
-Child
+ChildSide
 )
 )
 fail
