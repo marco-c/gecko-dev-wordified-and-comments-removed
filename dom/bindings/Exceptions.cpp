@@ -1356,6 +1356,9 @@ if
 (
 !
 mFilenameInitialized
+&
+&
+mStack
 )
 {
 ThreadsafeAutoJSContext
@@ -1531,6 +1534,9 @@ if
 (
 !
 mFunnameInitialized
+&
+&
+mStack
 )
 {
 ThreadsafeAutoJSContext
@@ -1726,6 +1732,9 @@ if
 (
 !
 mLinenoInitialized
+&
+&
+mStack
 )
 {
 ThreadsafeAutoJSContext
@@ -1880,6 +1889,9 @@ if
 (
 !
 mCallerInitialized
+&
+&
+mStack
 )
 {
 ThreadsafeAutoJSContext
@@ -2057,6 +2069,9 @@ if
 (
 !
 mFormattedStackInitialized
+&
+&
+mStack
 )
 {
 ThreadsafeAutoJSContext
