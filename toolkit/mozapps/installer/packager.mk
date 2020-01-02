@@ -2814,10 +2814,14 @@ so
 libomxplugingb235
 .
 so
+\
 libomxpluginhc
 .
 so
 libomxpluginfroyo
+.
+so
+libomxpluginkk
 .
 so
 endif

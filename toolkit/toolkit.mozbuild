@@ -672,6 +672,15 @@ plugin
 /
 hc
 '
+'
+media
+/
+omx
+-
+plugin
+/
+kk
+'
 ]
 )
 if
