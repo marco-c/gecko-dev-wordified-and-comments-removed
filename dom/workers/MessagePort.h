@@ -7,6 +7,12 @@ mozilla_dom_workers_messageport_h_
 #
 include
 "
+mozilla
+/
+dom
+/
+workers
+/
 Workers
 .
 h
