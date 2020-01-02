@@ -1911,10 +1911,10 @@ static
 SimpleTokenBucket
 sustained
 (
-3686
+7372
 *
 20
-3686
+7372
 )
 ;
 if
