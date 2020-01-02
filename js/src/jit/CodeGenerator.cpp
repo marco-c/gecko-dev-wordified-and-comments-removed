@@ -23423,7 +23423,7 @@ loadPtr
 Address
 (
 obj
-TypedObject
+TypedDatum
 :
 :
 dataOffset
@@ -23509,7 +23509,7 @@ loadPtr
 Address
 (
 obj
-TypedObject
+TypedDatum
 :
 :
 dataOffset

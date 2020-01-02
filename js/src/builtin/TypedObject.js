@@ -3791,7 +3791,7 @@ obj
 {
 if
 (
-ObjectIsTypedHandle
+ObjectIsOpaqueTypedObject
 (
 obj
 )
@@ -3801,7 +3801,7 @@ null
 ;
 if
 (
-ObjectIsTypedDatum
+ObjectIsTransparentTypedObject
 (
 obj
 )
@@ -3957,13 +3957,13 @@ object
 "
 )
 return
-ObjectIsTypedObject
+ObjectIsTransparentTypedObject
 (
 obj
 )
 |
 |
-ObjectIsTypedHandle
+ObjectIsOpaqueTypedObject
 (
 obj
 )
