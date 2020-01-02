@@ -402,12 +402,12 @@ File
 <
 !
 ENTITY
-url_bar_default_text
+url_bar_default_text2
 "
-Enter
 Search
 or
-Address
+enter
+address
 "
 >
 <
