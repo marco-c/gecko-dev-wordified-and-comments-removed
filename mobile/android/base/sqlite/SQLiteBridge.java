@@ -1157,6 +1157,12 @@ parseInt
 version
 )
 ;
+cursor
+.
+close
+(
+)
+;
 }
 return
 ret
