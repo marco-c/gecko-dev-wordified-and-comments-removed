@@ -1246,6 +1246,17 @@ if
 def
 -
 >
+type
+(
+)
+!
+=
+MIRType_None
+&
+&
+def
+-
+>
 range
 (
 )
