@@ -140,7 +140,15 @@ false
 "
 >
 <
-CheckBoxPreference
+org
+.
+mozilla
+.
+gecko
+.
+preferences
+.
+CustomCheckBoxPreference
 android
 :
 key
