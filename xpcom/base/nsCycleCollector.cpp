@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsMemoryInfoDumper
+nsDumpUtils
 .
 h
 "
@@ -6343,7 +6343,7 @@ logFile
 nsresult
 rv
 =
-nsMemoryInfoDumper
+nsDumpUtils
 :
 :
 OpenTempFile
@@ -6351,6 +6351,14 @@ OpenTempFile
 filename
 &
 logFile
+NS_LITERAL_CSTRING
+(
+"
+memory
+-
+reports
+"
+)
 )
 ;
 if

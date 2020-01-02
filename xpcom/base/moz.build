@@ -537,6 +537,11 @@ nsCycleCollector
 cpp
 '
 '
+nsDumpUtils
+.
+cpp
+'
+'
 nsErrorService
 .
 cpp
