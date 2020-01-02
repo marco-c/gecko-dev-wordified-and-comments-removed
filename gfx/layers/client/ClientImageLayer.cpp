@@ -428,9 +428,12 @@ return
 mImageClientTypeContainer
 ;
 }
-nsRefPtr
+RefPtr
 <
-gfxASurface
+gfx
+:
+:
+SourceSurface
 >
 surface
 ;
@@ -438,10 +441,8 @@ AutoLockImage
 autoLock
 (
 mContainer
-getter_AddRefs
-(
+&
 surface
-)
 )
 ;
 mImageClientTypeContainer

@@ -1541,8 +1541,13 @@ AutoLockImage
 ImageContainer
 *
 aContainer
-gfxASurface
-*
+RefPtr
+<
+gfx
+:
+:
+SourceSurface
+>
 *
 aSurface
 )
@@ -1558,7 +1563,7 @@ aSurface
 mContainer
 -
 >
-DeprecatedLockCurrentAsSurface
+LockCurrentAsSourceSurface
 (
 &
 mSize
@@ -1566,10 +1571,6 @@ getter_AddRefs
 (
 mImage
 )
-)
-.
-get
-(
 )
 ;
 }
