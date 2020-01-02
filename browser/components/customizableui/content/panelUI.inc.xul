@@ -147,6 +147,13 @@ PanelUI
 -
 contents
 "
+class
+=
+"
+panelUI
+-
+grid
+"
 /
 >
 <
