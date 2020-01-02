@@ -639,7 +639,6 @@ const
 nsAString
 &
 aMessage
-const
 bool
 aSilent
 nsIMobileMessageCallback

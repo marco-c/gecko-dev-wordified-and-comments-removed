@@ -68,7 +68,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMOZMOBILEMESSAGETHREAD
 MobileMessageThread
 (
-const
 uint64_t
 aId
 const
@@ -78,7 +77,6 @@ nsString
 >
 &
 aParticipants
-const
 uint64_t
 aTimestamp
 const
@@ -89,7 +87,6 @@ const
 nsString
 &
 aBody
-const
 uint64_t
 aUnreadCount
 mobilemessage
@@ -111,7 +108,6 @@ static
 nsresult
 Create
 (
-const
 uint64_t
 aId
 const
@@ -121,12 +117,7 @@ JS
 Value
 &
 aParticipants
-const
-JS
-:
-:
-Value
-&
+uint64_t
 aTimestamp
 const
 nsAString
@@ -136,7 +127,6 @@ const
 nsAString
 &
 aBody
-const
 uint64_t
 aUnreadCount
 const
