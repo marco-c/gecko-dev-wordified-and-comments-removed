@@ -170,7 +170,7 @@ function
 saveAppStats
 (
 aAppId
-aConnectionType
+aNetwork
 aTimeStamp
 aRxBytes
 aTxBytes
@@ -192,9 +192,12 @@ saveAppStats
 aAppId
 +
 "
+connectionType
 "
 +
-aConnectionType
+aNetwork
+.
+type
 +
 "
 "
@@ -218,7 +221,7 @@ NetworkStatsService
 saveAppStats
 (
 aAppId
-aConnectionType
+aNetwork
 aTimeStamp
 aRxBytes
 aTxBytes
