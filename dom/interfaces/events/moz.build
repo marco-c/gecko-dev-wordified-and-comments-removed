@@ -223,11 +223,6 @@ nsIDOMPopStateEvent
 idl
 '
 '
-nsIDOMPopupBlockedEvent
-.
-idl
-'
-'
 nsIDOMRecordErrorEvent
 .
 idl

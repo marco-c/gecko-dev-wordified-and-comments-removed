@@ -3186,6 +3186,11 @@ MozStkCommandEvent
 webidl
 '
 '
+PopupBlockedEvent
+.
+webidl
+'
+'
 ProgressEvent
 .
 webidl

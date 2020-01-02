@@ -2274,16 +2274,13 @@ mCleanedUp
 )
 ;
 }
-static
+virtual
 void
 FirePopupBlockedEvent
 (
 nsIDocument
 *
 aDoc
-nsIDOMWindow
-*
-aRequestingWindow
 nsIURI
 *
 aPopupURI
@@ -2296,6 +2293,7 @@ nsAString
 &
 aPopupWindowFeatures
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
