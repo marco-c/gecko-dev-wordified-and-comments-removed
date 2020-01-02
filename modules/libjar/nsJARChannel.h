@@ -334,6 +334,9 @@ mIsUnsafe
 bool
 mOpeningRemote
 ;
+bool
+mEnsureChildFd
+;
 nsCOMPtr
 <
 nsIStreamListener
