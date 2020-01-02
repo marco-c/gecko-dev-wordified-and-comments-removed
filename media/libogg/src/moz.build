@@ -98,7 +98,7 @@ MODULE
 '
 ogg
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

@@ -103,7 +103,7 @@ LIBRARY_NAME
 '
 theora
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

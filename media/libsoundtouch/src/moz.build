@@ -125,7 +125,7 @@ STTypes
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -181,7 +181,7 @@ MOZ_SAMPLE_TYPE_FLOAT32
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -193,7 +193,7 @@ cpp
 ]
 else
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
