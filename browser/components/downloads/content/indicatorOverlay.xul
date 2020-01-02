@@ -335,6 +335,13 @@ toolbarbutton
 -
 icon
 "
+consumeanchor
+=
+"
+downloads
+-
+button
+"
 >
 <
 vbox

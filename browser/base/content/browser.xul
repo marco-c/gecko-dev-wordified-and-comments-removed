@@ -7395,6 +7395,13 @@ proxy
 -
 favicon
 "
+consumeanchor
+=
+"
+identity
+-
+box
+"
 onclick
 =
 "
@@ -9289,6 +9296,13 @@ areatype
 =
 "
 toolbar
+"
+consumeanchor
+=
+"
+PanelUI
+-
+button
 "
 label
 =

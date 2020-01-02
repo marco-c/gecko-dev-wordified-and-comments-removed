@@ -248,6 +248,7 @@ src
 =
 image
 label
+consumeanchor
 "
 /
 >
@@ -403,6 +404,7 @@ src
 image
 label
 type
+consumeanchor
 "
 /
 >
@@ -625,6 +627,7 @@ src
 =
 image
 label
+consumeanchor
 "
 /
 >
