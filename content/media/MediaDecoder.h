@@ -1880,6 +1880,11 @@ MediaDecoder
 (
 )
 ;
+void
+SetStateMachineParameters
+(
+)
+;
 int64_t
 mDecoderPosition
 ;
