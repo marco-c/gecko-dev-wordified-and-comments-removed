@@ -1944,6 +1944,11 @@ dom
 bindings
 /
 export
+xpcom
+/
+xpidl
+/
+export
 accessible
 /
 src
