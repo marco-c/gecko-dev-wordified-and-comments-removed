@@ -65,6 +65,7 @@ margin
 padding
 :
 0
+1px
 ;
 }
 #
@@ -86,7 +87,7 @@ margin
 padding
 :
 2px
-2px
+3px
 3px
 ;
 -
@@ -154,7 +155,7 @@ margin
 padding
 :
 2px
-4px
+5px
 3px
 ;
 }
@@ -227,7 +228,7 @@ ac
 padding
 :
 0
-3px
+4px
 !
 important
 ;
@@ -320,6 +321,7 @@ num
 padding
 :
 0
+1px
 !
 important
 ;
@@ -344,6 +346,7 @@ end
 padding
 :
 3px
+4px
 ;
 }
 html

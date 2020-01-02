@@ -121,7 +121,7 @@ ThreeDDarkShadow
 padding
 :
 2px
-2px
+3px
 3px
 ;
 -
@@ -131,7 +131,7 @@ padding
 -
 start
 :
-4px
+5px
 ;
 background
 -
@@ -283,6 +283,7 @@ transparent
 padding
 :
 0px
+1px
 !
 important
 ;
