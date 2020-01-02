@@ -3302,6 +3302,9 @@ MOZ_ASSERT
 compositable
 )
 ;
+if
+(
+!
 layer
 -
 >
@@ -3309,7 +3312,11 @@ SetCompositableHost
 (
 compositable
 )
+)
+{
+return
 ;
+}
 compositable
 -
 >
