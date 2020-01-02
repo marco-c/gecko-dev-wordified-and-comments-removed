@@ -81,6 +81,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+namespace
+mozilla
+{
+class
+PRemoteSpellcheckEngineChild
+;
+}
 class
 mozSpellChecker
 :
@@ -295,6 +302,13 @@ mozISpellCheckingEngine
 *
 aDictionaryList
 )
+;
+mozilla
+:
+:
+PRemoteSpellcheckEngineChild
+*
+mEngine
 ;
 }
 ;
