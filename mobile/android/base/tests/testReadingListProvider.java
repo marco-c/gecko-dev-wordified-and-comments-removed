@@ -66,17 +66,6 @@ db
 ReadingListProvider
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-db
-.
-TransactionalProvider
-;
-import
 android
 .
 content
@@ -286,7 +275,7 @@ test
 }
 public
 void
-testReadingListProvider
+testReadingListProviderTests
 (
 )
 throws
