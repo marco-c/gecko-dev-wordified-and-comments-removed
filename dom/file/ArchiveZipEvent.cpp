@@ -81,7 +81,7 @@ ZipCentral
 &
 aCentralStruct
 const
-nsAString
+nsACString
 &
 aEncoding
 )
@@ -149,12 +149,9 @@ rv
 nsContentUtils
 :
 :
-ConvertStringFromCharset
-(
-NS_ConvertUTF16toUTF8
+ConvertStringFromEncoding
 (
 mEncoding
-)
 mFilename
 filenameU
 )
@@ -404,7 +401,7 @@ ArchiveReader
 *
 aArchiveReader
 const
-nsAString
+nsACString
 &
 aEncoding
 )

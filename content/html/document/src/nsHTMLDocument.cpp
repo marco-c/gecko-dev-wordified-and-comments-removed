@@ -5340,12 +5340,12 @@ cookie
 nsContentUtils
 :
 :
-ConvertStringFromCharset
+ConvertStringFromEncoding
 (
 NS_LITERAL_CSTRING
 (
 "
-utf
+UTF
 -
 8
 "

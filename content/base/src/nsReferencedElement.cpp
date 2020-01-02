@@ -142,7 +142,7 @@ rv
 nsContentUtils
 :
 :
-ConvertStringFromCharset
+ConvertStringFromEncoding
 (
 charset
 refPart
