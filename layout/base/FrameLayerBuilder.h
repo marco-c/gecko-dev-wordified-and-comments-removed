@@ -98,13 +98,6 @@ class
 ThebesLayer
 ;
 }
-namespace
-gfx
-{
-class
-Matrix4x4
-;
-}
 class
 FrameLayerBuilder
 ;
@@ -499,10 +492,7 @@ ContainerLayerParameters
 &
 aContainerParameters
 const
-gfx
-:
-:
-Matrix4x4
+gfx3DMatrix
 *
 aTransform
 uint32_t

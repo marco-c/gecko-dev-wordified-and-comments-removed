@@ -291,7 +291,7 @@ layers
 union
 MaybeTransform
 {
-Matrix4x4
+gfx3DMatrix
 ;
 void_t
 ;

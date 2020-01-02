@@ -100,10 +100,7 @@ char
 *
 aColor
 const
-gfx
-:
-:
-Matrix4x4
+gfx3DMatrix
 aRootTransform
 bool
 aReset
@@ -116,10 +113,7 @@ aLayer
 )
 return
 ;
-gfx
-:
-:
-Matrix4x4
+gfx3DMatrix
 trans
 =
 aRootTransform
@@ -151,7 +145,7 @@ GetBounds
 (
 )
 ;
-Rect
+gfxRect
 rect
 (
 clipRect

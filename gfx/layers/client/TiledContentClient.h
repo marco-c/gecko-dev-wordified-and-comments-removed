@@ -47,6 +47,13 @@ h
 #
 include
 "
+gfx3DMatrix
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -938,10 +945,7 @@ mScrollOffset
 ParentLayerPoint
 mLastScrollOffset
 ;
-gfx
-:
-:
-Matrix4x4
+gfx3DMatrix
 mTransformToCompBounds
 ;
 LayerIntRect

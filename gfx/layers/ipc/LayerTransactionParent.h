@@ -70,6 +70,9 @@ nsTArrayForwardDeclare
 .
 h
 "
+class
+gfx3DMatrix
+;
 namespace
 mozilla
 {

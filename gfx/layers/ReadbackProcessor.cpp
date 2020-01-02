@@ -31,6 +31,13 @@ h
 #
 include
 "
+gfx3DMatrix
+.
+h
+"
+#
+include
+"
 gfxColor
 .
 h

@@ -12197,14 +12197,11 @@ nsRect
 *
 aTransform
 =
-To3DMatrix
-(
 item
 -
 >
 GetTransform
 (
-)
 )
 ;
 item

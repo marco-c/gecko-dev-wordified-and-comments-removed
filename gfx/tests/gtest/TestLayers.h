@@ -38,13 +38,7 @@ nsIntRegion
 *
 aVisibleRegions
 const
-mozilla
-:
-:
-gfx
-:
-:
-Matrix4x4
+gfx3DMatrix
 *
 aTransforms
 nsRefPtr

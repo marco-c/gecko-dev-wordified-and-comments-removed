@@ -207,6 +207,16 @@ h
 "
 ;
 using
+class
+gfx3DMatrix
+from
+"
+gfx3DMatrix
+.
+h
+"
+;
+using
 nscoord
 from
 "
@@ -897,7 +907,7 @@ transform
 functions
 to
 a
-Matrix4x4
+gfx3DMatrix
 that
 can
 be
