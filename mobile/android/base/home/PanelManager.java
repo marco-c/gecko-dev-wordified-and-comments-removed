@@ -175,7 +175,7 @@ getEventDispatcher
 registerEventListener
 (
 "
-HomeLists
+HomePanels
 :
 Added
 "
