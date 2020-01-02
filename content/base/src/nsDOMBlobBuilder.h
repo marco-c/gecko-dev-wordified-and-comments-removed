@@ -487,6 +487,17 @@ mDataBufferLen
 )
 {
 }
+~
+BlobSet
+(
+)
+{
+moz_free
+(
+mData
+)
+;
+}
 nsresult
 AppendVoidPtr
 (
