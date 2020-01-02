@@ -1290,6 +1290,14 @@ canBaselineCompile
 )
 )
 ;
+JS_ASSERT
+(
+IsBaselineEnabled
+(
+cx
+)
+)
+;
 LifoAlloc
 alloc
 (
