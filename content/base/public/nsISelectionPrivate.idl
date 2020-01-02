@@ -198,7 +198,10 @@ native
 constTextRangeStyleRef
 (
 const
-nsTextRangeStyle
+mozilla
+:
+:
+TextRangeStyle
 )
 ;
 [

@@ -630,7 +630,7 @@ bool
 Equals
 (
 const
-nsTextRangeStyle
+TextRangeStyle
 &
 aOther
 )
@@ -1524,13 +1524,6 @@ mSucceeded
 }
 ;
 }
-typedef
-mozilla
-:
-:
-TextRangeStyle
-nsTextRangeStyle
-;
 typedef
 mozilla
 :

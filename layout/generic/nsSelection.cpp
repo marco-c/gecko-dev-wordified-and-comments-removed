@@ -16819,7 +16819,7 @@ nsIDOMRange
 *
 aRange
 const
-nsTextRangeStyle
+TextRangeStyle
 &
 aTextRangeStyle
 )

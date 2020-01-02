@@ -149,6 +149,10 @@ nsString
 .
 h
 "
+using
+namespace
+mozilla
+;
 IMETextTxn
 :
 :
@@ -1820,7 +1824,7 @@ if
 imeSelPriv
 )
 {
-nsTextRangeStyle
+TextRangeStyle
 textRangeStyle
 ;
 result

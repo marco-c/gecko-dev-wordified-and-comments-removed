@@ -118,7 +118,10 @@ aRangeType
 NS_IMETHOD
 GetRangeStyle
 (
-nsTextRangeStyle
+mozilla
+:
+:
+TextRangeStyle
 *
 aTextRangeStyle
 )

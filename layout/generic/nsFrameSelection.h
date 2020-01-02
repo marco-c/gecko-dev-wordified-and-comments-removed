@@ -152,7 +152,10 @@ mEnd
 SelectionType
 mType
 ;
-nsTextRangeStyle
+mozilla
+:
+:
+TextRangeStyle
 mTextRangeStyle
 ;
 SelectionDetails

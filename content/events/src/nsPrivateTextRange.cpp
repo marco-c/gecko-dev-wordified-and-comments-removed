@@ -14,6 +14,10 @@ TextEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsPrivateTextRange
 :
 :
@@ -141,7 +145,7 @@ nsPrivateTextRange
 :
 GetRangeStyle
 (
-nsTextRangeStyle
+TextRangeStyle
 *
 aTextRangeStyle
 )

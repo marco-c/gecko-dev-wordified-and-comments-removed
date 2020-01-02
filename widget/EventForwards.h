@@ -195,13 +195,6 @@ typedef
 mozilla
 :
 :
-TextRangeStyle
-nsTextRangeStyle
-;
-typedef
-mozilla
-:
-:
 TextRange
 nsTextRange
 ;
