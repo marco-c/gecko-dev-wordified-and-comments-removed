@@ -132,7 +132,7 @@ aReflowState
 )
 ;
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (

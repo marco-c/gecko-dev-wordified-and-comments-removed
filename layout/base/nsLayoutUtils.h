@@ -216,6 +216,9 @@ class
 nsBlockFrame
 ;
 class
+nsContainerFrame
+;
+class
 gfxASurface
 ;
 class
@@ -942,11 +945,11 @@ aCommonAncestor
 )
 ;
 static
-nsIFrame
+nsContainerFrame
 *
 LastContinuationWithChild
 (
-nsIFrame
+nsContainerFrame
 *
 aFrame
 )

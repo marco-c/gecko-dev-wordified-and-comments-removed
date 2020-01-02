@@ -1244,14 +1244,14 @@ mContent
 ;
 }
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (
 )
 {
 return
-this
+nullptr
 ;
 }
 virtual

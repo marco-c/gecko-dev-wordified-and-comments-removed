@@ -88,6 +88,9 @@ struct
 nsGenConInitializer
 ;
 class
+nsContainerFrame
+;
+class
 nsFirstLineFrame
 ;
 class
@@ -312,7 +315,7 @@ bool
 aAllowLazyConstruction
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 GetRangeInsertionPoint
 (
@@ -502,7 +505,7 @@ nsPageContentFrame
 aParentFrame
 )
 ;
-nsIFrame
+nsContainerFrame
 *
 GetInsertionPoint
 (
@@ -4093,7 +4096,7 @@ aContent
 nsIFrame
 *
 aBlockFrame
-nsIFrame
+nsContainerFrame
 *
 *
 aParentFrame
@@ -4160,7 +4163,7 @@ nsIFrame
 *
 GetInsertionPrevSibling
 (
-nsIFrame
+nsContainerFrame
 *
 &
 aParentFrame

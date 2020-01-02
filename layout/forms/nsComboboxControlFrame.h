@@ -415,7 +415,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (
@@ -846,7 +846,7 @@ nsIContent
 >
 mButtonContent
 ;
-nsIFrame
+nsContainerFrame
 *
 mDisplayFrame
 ;

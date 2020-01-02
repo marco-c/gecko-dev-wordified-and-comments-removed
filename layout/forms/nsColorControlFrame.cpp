@@ -559,7 +559,7 @@ aModType
 )
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 nsColorControlFrame
 :

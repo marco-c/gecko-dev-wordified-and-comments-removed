@@ -156,7 +156,7 @@ true
 ;
 }
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (

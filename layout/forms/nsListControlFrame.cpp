@@ -2392,7 +2392,7 @@ IsInDropDownMode
 )
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 nsListControlFrame
 :

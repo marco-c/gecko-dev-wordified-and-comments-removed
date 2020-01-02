@@ -7224,7 +7224,7 @@ doAction
 =
 false
 ;
-nsIFrame
+nsContainerFrame
 *
 immediateParent
 =

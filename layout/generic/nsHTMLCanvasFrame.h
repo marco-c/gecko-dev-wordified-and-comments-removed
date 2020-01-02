@@ -323,7 +323,7 @@ MOZ_OVERRIDE
 #
 endif
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (

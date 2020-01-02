@@ -4731,7 +4731,7 @@ aValue
 )
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 nsComboboxControlFrame
 :

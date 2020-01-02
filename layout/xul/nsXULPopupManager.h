@@ -113,6 +113,9 @@ KeyPress
 #
 endif
 class
+nsContainerFrame
+;
+class
 nsMenuFrame
 ;
 class
@@ -944,7 +947,7 @@ nsMenuFrame
 *
 GetPreviousMenuItem
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsMenuFrame
@@ -959,7 +962,7 @@ nsMenuFrame
 *
 GetNextMenuItem
 (
-nsIFrame
+nsContainerFrame
 *
 aParent
 nsMenuFrame

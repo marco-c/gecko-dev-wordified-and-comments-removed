@@ -4424,7 +4424,7 @@ return
 NS_OK
 ;
 }
-nsIFrame
+nsContainerFrame
 *
 nsBoxFrame
 :

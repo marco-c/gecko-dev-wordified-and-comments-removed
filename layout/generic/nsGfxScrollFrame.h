@@ -1790,7 +1790,7 @@ this
 ;
 }
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (
@@ -2982,7 +2982,7 @@ this
 ;
 }
 virtual
-nsIFrame
+nsContainerFrame
 *
 GetContentInsertionFrame
 (
