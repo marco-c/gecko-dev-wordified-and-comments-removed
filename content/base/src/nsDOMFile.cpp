@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIPlatformCharset
-.
-h
-"
-#
-include
-"
 nsISeekableStream
 .
 h
