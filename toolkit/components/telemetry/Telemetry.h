@@ -271,6 +271,7 @@ AutoTimer
 {
 public
 :
+explicit
 AutoTimer
 (
 TimeStamp
@@ -330,6 +331,7 @@ AutoCounter
 {
 public
 :
+explicit
 AutoCounter
 (
 uint32_t
