@@ -242,7 +242,7 @@ n
 )
 ;
 }
-void
+bool
 SetTo
 (
 const
@@ -255,7 +255,7 @@ bool
 aUpdateBidi
 )
 ;
-void
+bool
 Append
 (
 const
