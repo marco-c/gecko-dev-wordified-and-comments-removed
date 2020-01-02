@@ -4718,7 +4718,7 @@ uint8_t
 (
 id_pkix_ocsp_basic_encoded
 )
-PR_ARRAY_SIZE
+sizeof
 (
 id_pkix_ocsp_basic_encoded
 )
@@ -4946,7 +4946,7 @@ uint8_t
 (
 trueEncoded
 )
-PR_ARRAY_SIZE
+sizeof
 (
 trueEncoded
 )
