@@ -1,7 +1,7 @@
 #
 include
 "
-nsDOMClassInfoID
+DOMCameraCapabilities
 .
 h
 "
@@ -9,13 +9,6 @@ h
 include
 "
 DOMCameraControl
-.
-h
-"
-#
-include
-"
-DOMCameraCapabilities
 .
 h
 "
