@@ -520,47 +520,6 @@ value
 ascii
 }
 def
-make_entry_list
-(
-table
-max_prefix_len
-)
-:
-    
-if
-max_prefix_len
-=
-=
-8
-:
-        
-return
-table
-    
-return
-[
-t
-for
-t
-in
-table
-if
-isinstance
-(
-t
-dict
-)
-and
-t
-[
-'
-prefix_len
-'
-]
->
-0
-]
-def
 output_table
 (
 table
@@ -625,7 +584,7 @@ output_table
 t
 '
 %
-s
+s_
 %
 s
 '
@@ -692,14 +651,6 @@ entriestable
 )
 )
     
-entries
-=
-make_entry_list
-(
-table
-max_prefix_len
-)
-    
 prefix_len
 =
 0
@@ -716,13 +667,19 @@ nullptr
     
 for
 i
-t
 in
-enumerate
+range
 (
-entries
+256
 )
 :
+        
+t
+=
+table
+[
+i
+]
         
 if
 isinstance
@@ -775,7 +732,7 @@ subtable
 =
 '
 %
-s
+s_
 %
 s
 '
@@ -817,23 +774,16 @@ s
 %
                          
 (
-prefix_len
-value
 ptr
+value
+prefix_len
 )
 )
         
 if
 i
 <
-(
-len
-(
-table
-)
--
-1
-)
+255
 :
             
 sys
@@ -920,7 +870,7 @@ n
 '
 %
 (
-max_prefix_len
+entriestable
 )
 )
     
@@ -938,7 +888,7 @@ n
 '
 %
 (
-entriestable
+max_prefix_len
 )
 )
     
@@ -1013,17 +963,17 @@ struct
 HuffmanIncomingEntry
 {
   
-uint8_t
-mPrefixLen
+HuffmanIncomingTable
+*
+mPtr
 ;
   
 uint16_t
 mValue
 ;
   
-HuffmanIncomingTable
-*
-mPtr
+uint8_t
+mPrefixLen
 ;
 }
 ;
@@ -1031,13 +981,13 @@ struct
 HuffmanIncomingTable
 {
   
-uint8_t
-mPrefixLen
-;
-  
 HuffmanIncomingEntry
 *
 mEntries
+;
+  
+uint8_t
+mPrefixLen
 ;
 }
 ;

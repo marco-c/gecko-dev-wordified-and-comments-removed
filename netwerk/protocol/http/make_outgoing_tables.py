@@ -43,12 +43,12 @@ struct
 HuffmanOutgoingEntry
 {
   
-uint8_t
-mLength
-;
-  
 uint32_t
 mValue
+;
+  
+uint8_t
+mLength
 ;
 }
 ;
@@ -193,11 +193,11 @@ write
 (
 '
 {
-%
-s
 0x
 %
 08x
+%
+s
 }
 '
 %
@@ -206,13 +206,13 @@ s
 e
 [
 '
-length
+value
 '
 ]
 e
 [
 '
-value
+length
 '
 ]
 )
