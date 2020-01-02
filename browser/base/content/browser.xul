@@ -4890,7 +4890,7 @@ backForwardMenu
 removable
 =
 "
-true
+false
 "
 forwarddisabled
 =
@@ -5139,7 +5139,7 @@ location
 removable
 =
 "
-true
+false
 "
 >
 <
