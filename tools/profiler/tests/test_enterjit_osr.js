@@ -184,7 +184,7 @@ slice
 (
 stack
 .
-indexOf
+lastIndexOf
 (
 "
 js

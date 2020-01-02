@@ -436,7 +436,7 @@ close
 if
 (
 !
-equal
+equalStreams
 (
 new
 UTF8
@@ -543,7 +543,7 @@ close
 if
 (
 !
-equal
+equalStreams
 (
 new
 UTF16
@@ -650,7 +650,7 @@ close
 if
 (
 !
-equal
+equalStreams
 (
 new
 UTF16
@@ -758,7 +758,7 @@ close
 if
 (
 !
-equal
+equalStreams
 (
 new
 UTF16
@@ -1094,7 +1094,7 @@ fis
 ;
 }
 function
-equal
+equalStreams
 (
 stream
 codePoints
