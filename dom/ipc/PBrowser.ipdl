@@ -1789,13 +1789,6 @@ sync
 PRenderFrame
 (
 )
-;
-sync
-InitRenderFrame
-(
-PRenderFrame
-aFrame
-)
 returns
 (
 ScrollingBehavior
