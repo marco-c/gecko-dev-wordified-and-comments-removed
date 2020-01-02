@@ -98,6 +98,11 @@ EXPORTS
 =
 [
 '
+AutocompleteFieldList
+.
+h
+'
+'
 mozAutoDocUpdate
 .
 h
