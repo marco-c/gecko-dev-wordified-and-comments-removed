@@ -158,6 +158,7 @@ CDATA
 [
 if
 (
+!
 navigator
 .
 platform
@@ -169,16 +170,6 @@ Mac
 "
 )
 )
-{
-SimpleTest
-.
-expectAssertions
-(
-4
-)
-;
-}
-else
 {
 SimpleTest
 .
