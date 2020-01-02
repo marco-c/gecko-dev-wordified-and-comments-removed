@@ -2989,7 +2989,7 @@ WEBIDL_FILES
 '
 :
 (
-list
+StrictOrderingOnAppendList
 list
 [
 ]
