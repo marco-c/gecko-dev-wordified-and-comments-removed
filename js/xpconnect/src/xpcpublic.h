@@ -184,6 +184,14 @@ c
 )
 ;
 bool
+UseXBLScope
+(
+JSCompartment
+*
+c
+)
+;
+bool
 IsSandboxPrototypeProxy
 (
 JSObject
