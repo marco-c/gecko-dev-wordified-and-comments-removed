@@ -7824,7 +7824,7 @@ cstrlen
 ;
 }
 static
-void
+bool
 CharsToNumber
 (
 ThreadSafeContext
@@ -7910,6 +7910,7 @@ GenericNaN
 )
 ;
 return
+true
 ;
 }
 const
@@ -8038,6 +8039,7 @@ d
 ;
 }
 return
+true
 ;
 }
 const
@@ -8061,8 +8063,21 @@ ep
 &
 d
 )
-|
-|
+)
+{
+*
+result
+=
+GenericNaN
+(
+)
+;
+return
+false
+;
+}
+if
+(
 SkipSpace
 (
 ep
@@ -8084,6 +8099,9 @@ else
 result
 =
 d
+;
+return
+true
 ;
 }
 bool
@@ -8122,6 +8140,7 @@ cx
 return
 false
 ;
+return
 CharsToNumber
 (
 cx
@@ -8138,9 +8157,6 @@ length
 )
 result
 )
-;
-return
-true
 ;
 }
 bool
