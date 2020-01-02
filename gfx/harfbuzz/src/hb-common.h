@@ -377,6 +377,16 @@ HB_TAG
 0
 0
 )
+#
+define
+HB_TAG_MAX
+HB_TAG
+(
+0xff
+0xff
+0xff
+0xff
+)
 hb_tag_t
 hb_tag_from_string
 (
@@ -2389,6 +2399,9 @@ r
 HB_SCRIPT_INVALID
 =
 HB_TAG_NONE
+_HB_SCRIPT_MAX_VALUE
+=
+HB_TAG_MAX
 }
 hb_script_t
 ;

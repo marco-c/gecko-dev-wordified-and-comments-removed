@@ -9,15 +9,6 @@ hh
 "
 #
 include
-"
-hb
--
-ot
-.
-h
-"
-#
-include
 <
 string
 .

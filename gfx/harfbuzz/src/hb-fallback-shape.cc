@@ -147,9 +147,14 @@ num_features
 HB_UNUSED
 )
 {
+bool
+has_space
+;
 hb_codepoint_t
 space
 ;
+has_space
+=
 font
 -
 >
@@ -197,6 +202,9 @@ i
 {
 if
 (
+has_space
+&
+&
 buffer
 -
 >

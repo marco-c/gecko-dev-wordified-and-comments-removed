@@ -12,15 +12,6 @@ include
 "
 hb
 -
-version
-.
-h
-"
-#
-include
-"
-hb
--
 mutex
 -
 private

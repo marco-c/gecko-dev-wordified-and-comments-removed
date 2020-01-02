@@ -60,7 +60,12 @@ coretext
 )
 #
 endif
+#
+ifdef
+HAVE_FALLBACK
 HB_SHAPER_IMPLEMENT
 (
 fallback
 )
+#
+endif
