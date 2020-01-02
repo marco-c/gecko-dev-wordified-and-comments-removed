@@ -1687,8 +1687,10 @@ cx
 {
 uint32_t
 stackDepth
-=
-js_ReconstructStackDepth
+;
+if
+(
+ReconstructStackDepth
 (
 GetIonContext
 (
@@ -1698,8 +1700,11 @@ GetIonContext
 cx
 script
 bailPC
+&
+stackDepth
 )
-;
+)
+{
 if
 (
 JSOp
@@ -1758,6 +1763,7 @@ exprStack
 stackDepth
 )
 ;
+}
 }
 }
 #
