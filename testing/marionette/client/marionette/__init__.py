@@ -41,3 +41,7 @@ from
 runtests
 import
 MarionetteTextTestRunner
+from
+errors
+import
+*
