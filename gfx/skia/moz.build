@@ -7396,7 +7396,7 @@ src
 /
 ports
 /
-SkMemory_malloc
+SkMemory_mozalloc
 .
 cpp
 '

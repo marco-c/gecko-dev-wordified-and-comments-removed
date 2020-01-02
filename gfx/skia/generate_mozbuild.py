@@ -1275,6 +1275,10 @@ SkImages
 '
 SkDiscardableMemory_ashmem
 '
+    
+'
+SkMemory_malloc
+'
   
 ]
   
@@ -1353,6 +1357,18 @@ src
 ports
 /
 SkImageDecoder_empty
+.
+cpp
+'
+      
+'
+trunk
+/
+src
+/
+ports
+/
+SkMemory_mozalloc
 .
 cpp
 '
