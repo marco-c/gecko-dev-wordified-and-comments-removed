@@ -105,7 +105,7 @@ ePointerEventClass
 eGestureNotifyEventClass
 eSimpleGestureEventClass
 eTouchEventClass
-NS_SCROLLPORT_EVENT
+eScrollPortEventClass
 NS_SCROLLAREA_EVENT
 NS_FORM_EVENT
 NS_FOCUS_EVENT
