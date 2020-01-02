@@ -329,13 +329,6 @@ nsTArray
 h
 "
 #
-include
-"
-nsTraceRefcnt
-.
-h
-"
-#
 define
 PIXMAN_DONT_DEFINE_STDINT
 #

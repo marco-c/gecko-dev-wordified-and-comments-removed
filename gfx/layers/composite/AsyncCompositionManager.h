@@ -103,13 +103,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-nsTraceRefcnt
-.
-h
-"
 namespace
 mozilla
 {

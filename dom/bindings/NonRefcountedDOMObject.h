@@ -7,7 +7,7 @@ mozilla_dom_NonRefcountedDOMObject_h__
 #
 include
 "
-nsTraceRefcnt
+nsISupportsImpl
 .
 h
 "

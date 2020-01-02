@@ -144,13 +144,6 @@ nsSize
 h
 "
 #
-include
-"
-nsTraceRefcnt
-.
-h
-"
-#
 define
 MAX_FRAME_SIZE
 (

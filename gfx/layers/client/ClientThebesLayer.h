@@ -73,14 +73,14 @@ h
 #
 include
 "
-nsRegion
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsTraceRefcnt
+nsRegion
 .
 h
 "

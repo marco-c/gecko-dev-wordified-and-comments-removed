@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsTraceRefcnt
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

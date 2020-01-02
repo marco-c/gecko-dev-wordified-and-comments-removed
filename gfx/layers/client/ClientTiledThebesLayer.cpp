@@ -101,14 +101,14 @@ h
 #
 include
 "
-nsRect
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsTraceRefcnt
+nsRect
 .
 h
 "

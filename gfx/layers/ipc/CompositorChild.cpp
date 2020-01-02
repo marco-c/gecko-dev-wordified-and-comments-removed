@@ -103,14 +103,14 @@ h
 #
 include
 "
-nsTArray
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsTraceRefcnt
+nsTArray
 .
 h
 "

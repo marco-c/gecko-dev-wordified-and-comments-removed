@@ -94,13 +94,6 @@ nsRegion
 .
 h
 "
-#
-include
-"
-nsTraceRefcnt
-.
-h
-"
 namespace
 mozilla
 {

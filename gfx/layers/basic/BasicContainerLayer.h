@@ -35,14 +35,14 @@ h
 #
 include
 "
-nsISupportsUtils
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsTraceRefcnt
+nsISupportsUtils
 .
 h
 "

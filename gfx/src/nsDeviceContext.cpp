@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsISupportsUtils
 .
 h
@@ -211,13 +218,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

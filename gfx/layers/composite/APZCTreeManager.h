@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsTraceRefcnt
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Vector

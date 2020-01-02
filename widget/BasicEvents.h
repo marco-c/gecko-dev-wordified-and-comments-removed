@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h
@@ -47,13 +54,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

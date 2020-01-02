@@ -171,6 +171,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsSize
 .
 h
@@ -186,13 +193,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

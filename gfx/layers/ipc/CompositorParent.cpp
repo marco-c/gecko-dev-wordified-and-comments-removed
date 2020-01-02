@@ -303,6 +303,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h
@@ -325,13 +332,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

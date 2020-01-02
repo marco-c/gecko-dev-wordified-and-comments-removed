@@ -162,13 +162,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-nsTraceRefcnt
-.
-h
-"
 namespace
 mozilla
 {

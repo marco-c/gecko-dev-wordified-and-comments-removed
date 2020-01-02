@@ -38,14 +38,14 @@ h
 #
 include
 "
-nsITransaction
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsTraceRefcnt
+nsITransaction
 .
 h
 "

@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
@@ -124,13 +131,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

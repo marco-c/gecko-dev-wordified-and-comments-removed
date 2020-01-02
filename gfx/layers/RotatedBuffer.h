@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
@@ -95,13 +102,6 @@ h
 include
 "
 nsRegion
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h
@@ -75,13 +82,6 @@ h
 include
 "
 nsSize
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

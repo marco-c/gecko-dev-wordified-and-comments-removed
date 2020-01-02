@@ -374,11 +374,6 @@ nsTPriorityQueue
 h
 '
 '
-nsTraceRefcnt
-.
-h
-'
-'
 nsTWeakRef
 .
 h

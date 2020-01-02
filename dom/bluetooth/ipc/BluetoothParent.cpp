@@ -42,14 +42,14 @@ h
 #
 include
 "
-nsThreadUtils
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsTraceRefcnt
+nsThreadUtils
 .
 h
 "

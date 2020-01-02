@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsISupportsUtils
 .
 h
@@ -220,13 +227,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsTraceRefcnt
 .
 h
 "

@@ -121,13 +121,6 @@ nsRegion
 .
 h
 "
-#
-include
-"
-nsTraceRefcnt
-.
-h
-"
 using
 namespace
 mozilla
