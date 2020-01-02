@@ -192,5 +192,15 @@ DOMString
 classNames
 )
 ;
+[
+SetterThrows
+TreatNullAs
+=
+EmptyString
+]
+attribute
+DOMString
+innerHTML
+;
 }
 ;
