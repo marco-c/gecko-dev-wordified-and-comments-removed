@@ -6920,6 +6920,7 @@ NS_LITERAL_STRING
 "
 Fira
 Sans
+OT
 "
 )
 )

@@ -1224,6 +1224,7 @@ AssignLiteral
 "
 Fira
 Sans
+OT
 \
 "
 "
