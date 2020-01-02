@@ -424,6 +424,8 @@ run
 (
 )
 {
+try
+{
 boolean
 syncIsSetup
 =
@@ -453,6 +455,14 @@ getTabsInOrder
 )
 )
 ;
+}
+}
+catch
+(
+SecurityException
+se
+)
+{
 }
 }
 }
