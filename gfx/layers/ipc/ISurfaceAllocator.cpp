@@ -435,6 +435,11 @@ const
 SurfaceDescriptor
 &
 aDescriptor
+gfx
+:
+:
+BackendType
+aBackend
 )
 {
 size_t
@@ -462,13 +467,7 @@ image
 .
 GetAsDrawTarget
 (
-gfx
-:
-:
-BackendType
-:
-:
-CAIRO
+aBackend
 )
 ;
 }
