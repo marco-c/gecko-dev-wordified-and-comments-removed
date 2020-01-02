@@ -2,17 +2,7 @@ from
 optparse
 import
 OptionParser
-try
-:
-    
 import
-json
-except
-:
-    
-import
-simplejson
-as
 json
 import
 re

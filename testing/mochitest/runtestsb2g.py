@@ -1,4 +1,6 @@
 import
+json
+import
 os
 import
 posixpath
@@ -12,19 +14,6 @@ import
 threading
 import
 traceback
-try
-:
-    
-import
-json
-except
-ImportError
-:
-    
-import
-simplejson
-as
-json
 here
 =
 os
