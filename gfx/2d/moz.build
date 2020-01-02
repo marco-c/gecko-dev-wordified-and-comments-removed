@@ -174,11 +174,6 @@ Helpers
 h
 '
 '
-Logging
-.
-h
-'
-'
 Matrix
 .
 h
@@ -699,13 +694,7 @@ var
 in
 (
 '
-MOZ_GFX
-'
-'
 USE_CAIRO
-'
-'
-GFX2D_INTERNAL
 '
 '
 MOZ2D_HAS_MOZ_CAIRO
