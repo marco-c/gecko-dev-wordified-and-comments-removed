@@ -20456,15 +20456,13 @@ sFlushTIPInputMessage
 :
 RegisterWindowMessageW
 (
-MOZ_UTF16
-(
+L
 "
 Flush
 TIP
 Input
 Message
 "
-)
 )
 ;
 }
