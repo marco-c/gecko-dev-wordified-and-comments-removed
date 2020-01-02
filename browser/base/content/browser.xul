@@ -8706,11 +8706,6 @@ hidden
 "
 true
 "
-overflows
-=
-"
-false
-"
 label
 =
 "
@@ -8735,6 +8730,11 @@ areatype
 =
 "
 toolbar
+"
+removable
+=
+"
+true
 "
 command
 =
