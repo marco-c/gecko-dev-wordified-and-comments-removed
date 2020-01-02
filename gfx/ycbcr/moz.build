@@ -108,6 +108,11 @@ ycbcr_to_rgb565
 h
 '
 '
+YCbCrUtils
+.
+h
+'
+'
 yuv_convert
 .
 h
@@ -124,6 +129,11 @@ UNIFIED_SOURCES
 [
 '
 ycbcr_to_rgb565
+.
+cpp
+'
+'
+YCbCrUtils
 .
 cpp
 '
