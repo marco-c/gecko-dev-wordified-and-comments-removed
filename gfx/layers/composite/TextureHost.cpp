@@ -2840,6 +2840,15 @@ ActorDestroyReason
 why
 )
 {
+if
+(
+!
+mTextureHost
+)
+{
+return
+;
+}
 switch
 (
 why
@@ -2863,9 +2872,8 @@ Deletion
 :
 if
 (
-mTextureHost
-&
-&
+!
+(
 mTextureHost
 -
 >
@@ -2873,8 +2881,8 @@ GetFlags
 (
 )
 &
-!
 TEXTURE_DEALLOCATE_CLIENT
+)
 )
 {
 mTextureHost
@@ -2893,11 +2901,6 @@ NormalShutdown
 case
 AbnormalShutdown
 :
-if
-(
-mTextureHost
-)
-{
 mTextureHost
 -
 >
@@ -2905,7 +2908,6 @@ OnActorDestroy
 (
 )
 ;
-}
 break
 ;
 case
