@@ -2296,6 +2296,9 @@ manifest
 app
 .
 origin
+app
+.
+manifestURL
 )
 ;
 OfflineCacheInstaller
@@ -3883,6 +3886,9 @@ aManifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 ;
 let
@@ -4009,7 +4015,7 @@ fullHandlerPath
 =
 manifest
 .
-resolveFromOrigin
+resolveURL
 (
 handlerPath
 )
@@ -4100,7 +4106,7 @@ isSystemMessagePermittedToRegister
 messageName
 aApp
 .
-origin
+manifestURL
 aManifest
 )
 )
@@ -4217,6 +4223,9 @@ aManifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 ;
 let
@@ -4291,7 +4300,7 @@ fullHandlerPath
 =
 manifest
 .
-resolveFromOrigin
+resolveURL
 (
 handlerPath
 )
@@ -4362,7 +4371,7 @@ connection
 "
 aApp
 .
-origin
+manifestURL
 aManifest
 )
 )
@@ -4560,6 +4569,9 @@ aManifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 ;
 for
@@ -4608,7 +4620,7 @@ href
 =
 manifest
 .
-resolveFromOrigin
+resolveURL
 (
 href
 )
@@ -4791,7 +4803,7 @@ activity
 "
 aApp
 .
-origin
+manifestURL
 aManifest
 )
 )
@@ -5301,6 +5313,9 @@ manifest
 app
 .
 origin
+app
+.
+manifestURL
 )
 ;
 app
@@ -7893,6 +7908,9 @@ jsonManifest
 app
 .
 origin
+app
+.
+manifestURL
 )
 ;
 if
@@ -8059,6 +8077,9 @@ new
 ManifestHelper
 (
 json
+app
+.
+origin
 app
 .
 manifestURL
@@ -9640,6 +9661,9 @@ ManifestHelper
 manifest
 aData
 .
+origin
+aData
+.
 manifestURL
 )
 ;
@@ -10739,6 +10763,9 @@ ManifestHelper
 aNewManifest
 aApp
 .
+origin
+aApp
+.
 manifestURL
 )
 ;
@@ -10956,6 +10983,9 @@ aNewManifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 ;
 if
@@ -11067,6 +11097,9 @@ aOldManifest
 aApp
 .
 origin
+aApp
+.
+manifestURL
 )
 ;
 }
@@ -13939,6 +13972,9 @@ jsonManifest
 app
 .
 origin
+app
+.
+manifestURL
 )
 ;
 let
@@ -14180,6 +14216,9 @@ new
 ManifestHelper
 (
 jsonManifest
+app
+.
+origin
 app
 .
 manifestURL
