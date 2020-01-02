@@ -192,6 +192,11 @@ ThirdPartyCookieProbe
 .
 jsm
 '
+]
+EXTRA_PP_JS_MODULES
++
+=
+[
 '
 UITelemetry
 .
