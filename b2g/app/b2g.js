@@ -6427,6 +6427,16 @@ enabled
 false
 )
 ;
+pref
+(
+"
+selectioncaret
+.
+enabled
+"
+false
+)
+;
 #
 ifdef
 MOZ_SERVICES_FXACCOUNTS
