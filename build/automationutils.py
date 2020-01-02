@@ -3421,6 +3421,10 @@ ASAN_OPTIONS
 quarantine_size
 =
 50331648
+:
+malloc_context_size
+=
+5
 "
       
 else

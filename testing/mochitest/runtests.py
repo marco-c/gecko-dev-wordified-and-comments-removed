@@ -760,6 +760,10 @@ quarantine_size
 redzone
 =
 32
+:
+malloc_context_size
+=
+5
 "
     
 if
