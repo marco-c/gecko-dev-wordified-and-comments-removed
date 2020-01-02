@@ -2060,7 +2060,7 @@ aParentType
 ;
 inline
 bool
-SkipItemsThatNeedAnonFlexItem
+SkipItemsThatNeedAnonFlexOrGridItem
 (
 const
 nsFrameConstructorState
@@ -2070,7 +2070,7 @@ aState
 ;
 inline
 bool
-SkipItemsThatDontNeedAnonFlexItem
+SkipItemsThatDontNeedAnonFlexOrGridItem
 (
 const
 nsFrameConstructorState
@@ -2493,7 +2493,7 @@ mBits
 ;
 }
 bool
-NeedsAnonFlexItem
+NeedsAnonFlexOrGridItem
 (
 const
 nsFrameConstructorState
@@ -2615,7 +2615,7 @@ MOZ_DELETE
 }
 ;
 void
-CreateNeededAnonFlexItems
+CreateNeededAnonFlexOrGridItems
 (
 nsFrameConstructorState
 &
