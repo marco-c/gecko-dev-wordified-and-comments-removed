@@ -2975,8 +2975,10 @@ else
 {
 mOpaqueRect
 =
-new
+MakeUnique
+<
 gfxRect
+>
 (
 aRect
 )

@@ -3156,13 +3156,13 @@ WebGLTexture
 >
 &
 boundTexturesArray
-ScopedDeletePtr
+UniquePtr
 <
 FakeBlackTexture
 >
 &
 opaqueTextureScopedPtr
-ScopedDeletePtr
+UniquePtr
 <
 FakeBlackTexture
 >
@@ -3268,7 +3268,7 @@ WebGLFormat
 )
 )
 ;
-ScopedDeletePtr
+UniquePtr
 <
 FakeBlackTexture
 >
@@ -3298,8 +3298,10 @@ LOCAL_GL_RGB
 ;
 blackTexturePtr
 =
-new
+MakeUnique
+<
 FakeBlackTexture
+>
 (
 gl
 target
