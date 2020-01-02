@@ -1775,15 +1775,6 @@ ShouldDeliverInputToRecognizer
 (
 )
 {
-if
-(
-mChromeHitTestCacheForTouch
-)
-{
-return
-true
-;
-}
 return
 mRecognizerWantsEvents
 ;
