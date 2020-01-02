@@ -193,7 +193,7 @@ home
 .
 TopSitesGridView
 .
-OnPinSiteListener
+OnEditPinnedSiteListener
 ;
 import
 org
@@ -546,8 +546,8 @@ ThumbnailsLoaderCallbacks
 mThumbnailsLoaderCallbacks
 ;
 private
-PinSiteListener
-mPinSiteListener
+EditPinnedSiteListener
+mEditPinnedSiteListener
 ;
 private
 OnUrlOpenListener
@@ -755,10 +755,10 @@ Bundle
 savedInstanceState
 )
 {
-mPinSiteListener
+mEditPinnedSiteListener
 =
 new
-PinSiteListener
+EditPinnedSiteListener
 (
 )
 ;
@@ -927,9 +927,9 @@ mUrlOpenListener
 ;
 mGrid
 .
-setOnPinSiteListener
+setOnEditPinnedSiteListener
 (
-mPinSiteListener
+mEditPinnedSiteListener
 )
 ;
 registerForContextMenu
@@ -1729,9 +1729,9 @@ id
 top_sites_edit
 )
 {
-mPinSiteListener
+mEditPinnedSiteListener
 .
-onPinSite
+onEditPinnedSite
 (
 info
 .
@@ -1849,9 +1849,9 @@ url
 }
 private
 class
-PinSiteListener
+EditPinnedSiteListener
 implements
-OnPinSiteListener
+OnEditPinnedSiteListener
 OnSiteSelectedListener
 {
 private
@@ -1871,7 +1871,7 @@ mPosition
 Override
 public
 void
-onPinSite
+onEditPinnedSite
 (
 int
 position
