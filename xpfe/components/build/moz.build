@@ -103,11 +103,6 @@ nsModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-appcomps
-'
 FINAL_LIBRARY
 =
 '

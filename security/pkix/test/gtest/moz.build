@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-LIBRARY_NAME
-=
-'
-mozillapkix_gtest
-'
 SOURCES
 +
 =

@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-LIBRARY_NAME
-=
-'
-sps_test
-'
 if
 CONFIG
 [

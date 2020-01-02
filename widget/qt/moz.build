@@ -201,11 +201,6 @@ nsPrintSettingsQt
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-widget_qt
-'
 include
 (
 '

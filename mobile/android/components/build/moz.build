@@ -170,11 +170,6 @@ docshell
 base
 '
 ]
-LIBRARY_NAME
-=
-'
-browsercomps
-'
 FINAL_LIBRARY
 =
 '

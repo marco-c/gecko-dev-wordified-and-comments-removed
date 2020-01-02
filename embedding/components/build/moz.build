@@ -103,11 +103,6 @@ nsEmbeddingModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-embedcomponents
-'
 FAIL_ON_WARNINGS
 =
 True

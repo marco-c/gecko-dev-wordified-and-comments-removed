@@ -103,11 +103,6 @@ nsI18nModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-i18n
-'
 FINAL_LIBRARY
 =
 '

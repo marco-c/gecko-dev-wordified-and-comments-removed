@@ -384,11 +384,6 @@ WidgetTraceEvent
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-widget_gonk
-'
 include
 (
 '

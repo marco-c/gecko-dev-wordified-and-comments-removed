@@ -153,11 +153,6 @@ mozSpellI18NManager
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-spellchecker
-'
 FINAL_LIBRARY
 =
 '

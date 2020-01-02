@@ -499,11 +499,6 @@ types
 FAIL_ON_WARNINGS
 =
 True
-LIBRARY_NAME
-=
-'
-certverifier
-'
 FINAL_LIBRARY
 =
 '

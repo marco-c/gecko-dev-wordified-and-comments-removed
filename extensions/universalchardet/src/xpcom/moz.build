@@ -108,11 +108,6 @@ nsUniversalCharDetModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-universalchardet
-'
 FINAL_LIBRARY
 =
 '

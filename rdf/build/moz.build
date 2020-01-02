@@ -113,11 +113,6 @@ nsRDFModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-rdf
-'
 FINAL_LIBRARY
 =
 '

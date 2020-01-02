@@ -163,11 +163,6 @@ nsScannerString
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-htmlpars
-'
 FAIL_ON_WARNINGS
 =
 True

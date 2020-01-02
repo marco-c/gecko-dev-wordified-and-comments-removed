@@ -113,11 +113,6 @@ nsToolkitCompsModule
 cpp
 '
 ]
-LIBRARY_NAME
-=
-'
-toolkitcomps
-'
 FINAL_LIBRARY
 =
 '

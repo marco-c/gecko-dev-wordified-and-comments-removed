@@ -536,11 +536,6 @@ PGMPVideoEncoder
 ipdl
 '
 ]
-LIBRARY_NAME
-=
-'
-mozgmp
-'
 if
 CONFIG
 [
