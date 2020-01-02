@@ -3669,6 +3669,12 @@ transform
 ref
 .
 svg
+fails
+-
+if
+(
+B2G
+)
 fuzzy
 -
 if
@@ -3713,6 +3719,10 @@ padding
 ref
 .
 svg
+#
+B2G
+scrollbar
+difference
 =
 =
 overflow
