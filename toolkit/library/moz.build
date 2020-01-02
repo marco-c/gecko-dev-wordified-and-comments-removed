@@ -131,7 +131,7 @@ SOURCES
 =
 [
 '
-StaticXULComponentsStart
+nsStaticXULComponents
 .
 cpp
 '
