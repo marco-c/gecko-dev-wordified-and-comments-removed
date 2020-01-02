@@ -652,9 +652,9 @@ PrepareToDeleteNode
 nsHTMLEditor
 *
 aHTMLEd
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 )
 ;
 static
