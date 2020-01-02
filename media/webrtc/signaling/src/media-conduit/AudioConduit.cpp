@@ -1446,6 +1446,9 @@ return
 kMediaConduitUnknownError
 ;
 }
+#
+ifdef
+MOZILLA_INTERNAL_API
 nsresult
 rv
 ;
@@ -1612,6 +1615,8 @@ mCaptureDelay
 ;
 }
 }
+#
+endif
 if
 (
 0
