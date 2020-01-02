@@ -171,11 +171,6 @@ ImageData
 .
 cpp
 '
-'
-ImageEncoder
-.
-cpp
-'
 ]
 if
 CONFIG
