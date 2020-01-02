@@ -2189,7 +2189,7 @@ MOZ_ASSERT
 NumberOfInputs
 (
 )
-=
+<
 =
 1
 &
@@ -2221,7 +2221,7 @@ MOZ_ASSERT
 NumberOfInputs
 (
 )
-=
+<
 =
 1
 &

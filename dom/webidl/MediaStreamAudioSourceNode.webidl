@@ -157,3 +157,11 @@ AudioNode
 {
 }
 ;
+/
+/
+Mozilla
+extensions
+MediaStreamAudioSourceNode
+implements
+AudioNodePassThrough
+;

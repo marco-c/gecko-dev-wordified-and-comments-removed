@@ -217,3 +217,11 @@ onended
 ;
 }
 ;
+/
+/
+Mozilla
+extensions
+AudioBufferSourceNode
+implements
+AudioNodePassThrough
+;

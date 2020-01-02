@@ -239,3 +239,11 @@ onended
 ;
 }
 ;
+/
+/
+Mozilla
+extensions
+OscillatorNode
+implements
+AudioNodePassThrough
+;
