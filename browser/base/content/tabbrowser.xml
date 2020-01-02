@@ -440,11 +440,6 @@ message
 "
 true
 "
-disablehistory
-=
-"
-true
-"
 xbl
 :
 inherits
