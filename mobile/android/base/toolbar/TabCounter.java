@@ -36,7 +36,7 @@ gecko
 .
 widget
 .
-GeckoTextSwitcher
+ThemedTextSwitcher
 ;
 import
 android
@@ -120,7 +120,7 @@ public
 class
 TabCounter
 extends
-GeckoTextSwitcher
+ThemedTextSwitcher
 implements
 ViewSwitcher
 .

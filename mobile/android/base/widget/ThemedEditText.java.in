@@ -4,10 +4,10 @@ substitution
 #
 define
 VIEWTYPE
-TextSwitcher
+EditText
 #
 include
-GeckoView
+ThemedView
 .
 java
 .

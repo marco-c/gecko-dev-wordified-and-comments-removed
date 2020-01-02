@@ -7,7 +7,7 @@ VIEWTYPE
 LinearLayout
 #
 include
-GeckoView
+ThemedView
 .
 java
 .

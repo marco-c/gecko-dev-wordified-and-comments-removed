@@ -133,7 +133,7 @@ VIEWTYPE
 ;
 public
 class
-Gecko
+Themed
 VIEWTYPE
 extends
 VIEWTYPE
@@ -282,7 +282,7 @@ mAutoUpdateTheme
 true
 ;
 public
-Gecko
+Themed
 VIEWTYPE
 (
 Context

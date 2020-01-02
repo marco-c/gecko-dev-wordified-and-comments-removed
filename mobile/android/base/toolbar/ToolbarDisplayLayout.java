@@ -127,7 +127,7 @@ gecko
 .
 widget
 .
-GeckoLinearLayout
+ThemedLinearLayout
 ;
 import
 org
@@ -138,7 +138,7 @@ gecko
 .
 widget
 .
-GeckoTextView
+ThemedTextView
 ;
 import
 org
@@ -333,7 +333,7 @@ public
 class
 ToolbarDisplayLayout
 extends
-GeckoLinearLayout
+ThemedLinearLayout
 implements
 Animation
 .
@@ -398,7 +398,7 @@ UIMode
 mUiMode
 ;
 private
-GeckoTextView
+ThemedTextView
 mTitle
 ;
 private
@@ -536,7 +536,7 @@ this
 mTitle
 =
 (
-GeckoTextView
+ThemedTextView
 )
 findViewById
 (

@@ -500,7 +500,7 @@ gecko
 .
 widget
 .
-GeckoImageView
+ThemedImageView
 android
 :
 id

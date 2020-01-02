@@ -4,10 +4,10 @@ substitution
 #
 define
 VIEWTYPE
-EditText
+ImageButton
 #
 include
-GeckoView
+ThemedView
 .
 java
 .

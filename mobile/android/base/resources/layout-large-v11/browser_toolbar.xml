@@ -796,7 +796,7 @@ gecko
 .
 widget
 .
-GeckoImageButton
+ThemedImageButton
 android
 :
 id
@@ -866,7 +866,7 @@ gecko
 .
 widget
 .
-GeckoImageView
+ThemedImageView
 android
 :
 id

@@ -278,7 +278,7 @@ gecko
 .
 widget
 .
-GeckoTextView
+ThemedTextView
 android
 :
 id

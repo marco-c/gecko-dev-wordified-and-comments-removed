@@ -263,7 +263,7 @@ gecko
 .
 widget
 .
-GeckoImageButton
+ThemedImageButton
 ;
 import
 org
@@ -274,7 +274,7 @@ gecko
 .
 widget
 .
-GeckoImageView
+ThemedImageView
 ;
 import
 org
@@ -285,7 +285,7 @@ gecko
 .
 widget
 .
-GeckoRelativeLayout
+ThemedRelativeLayout
 ;
 import
 android
@@ -457,7 +457,7 @@ public
 class
 BrowserToolbar
 extends
-GeckoRelativeLayout
+ThemedRelativeLayout
 implements
 Tabs
 .
@@ -601,11 +601,11 @@ TabCounter
 mTabsCounter
 ;
 private
-GeckoImageButton
+ThemedImageButton
 mMenu
 ;
 private
-GeckoImageView
+ThemedImageView
 mMenuIcon
 ;
 private
@@ -1008,7 +1008,7 @@ false
 mMenu
 =
 (
-GeckoImageButton
+ThemedImageButton
 )
 findViewById
 (
@@ -1022,7 +1022,7 @@ menu
 mMenuIcon
 =
 (
-GeckoImageView
+ThemedImageView
 )
 findViewById
 (

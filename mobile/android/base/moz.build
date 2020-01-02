@@ -2954,7 +2954,7 @@ gecko
 /
 widget
 /
-GeckoEditText
+ThemedEditText
 .
 java
 '
@@ -2967,7 +2967,7 @@ gecko
 /
 widget
 /
-GeckoImageButton
+ThemedImageButton
 .
 java
 '
@@ -2980,7 +2980,7 @@ gecko
 /
 widget
 /
-GeckoImageView
+ThemedImageView
 .
 java
 '
@@ -2993,7 +2993,7 @@ gecko
 /
 widget
 /
-GeckoLinearLayout
+ThemedLinearLayout
 .
 java
 '
@@ -3006,7 +3006,7 @@ gecko
 /
 widget
 /
-GeckoRelativeLayout
+ThemedRelativeLayout
 .
 java
 '
@@ -3019,7 +3019,7 @@ gecko
 /
 widget
 /
-GeckoTextSwitcher
+ThemedTextSwitcher
 .
 java
 '
@@ -3032,7 +3032,7 @@ gecko
 /
 widget
 /
-GeckoTextView
+ThemedTextView
 .
 java
 '

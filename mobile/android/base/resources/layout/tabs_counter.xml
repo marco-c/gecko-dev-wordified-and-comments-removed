@@ -87,7 +87,7 @@ gecko
 .
 widget
 .
-GeckoTextView
+ThemedTextView
 xmlns
 :
 android

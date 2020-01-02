@@ -52,7 +52,7 @@ gecko
 .
 widget
 .
-GeckoImageButton
+ThemedImageButton
 ;
 import
 android
@@ -122,7 +122,7 @@ public
 class
 ShapedButton
 extends
-GeckoImageButton
+ThemedImageButton
 implements
 CanvasDelegate
 .

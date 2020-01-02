@@ -7,7 +7,7 @@ VIEWTYPE
 ImageView
 #
 include
-GeckoView
+ThemedView
 .
 java
 .
