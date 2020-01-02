@@ -282,6 +282,17 @@ enabled
 "
 true
 )
+pref
+(
+"
+browser
+.
+webapps
+.
+checkForUpdates
+"
+0
+)
 ]
 init
 :
