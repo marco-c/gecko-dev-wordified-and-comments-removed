@@ -118,6 +118,15 @@ CBvColor
 =
 0
 ;
+enum
+DeviceManagerState
+{
+DeviceOK
+DeviceFail
+DeviceMustRecreate
+DeviceRetry
+}
+;
 struct
 ShaderConstantRect
 {
@@ -262,7 +271,7 @@ SwapChainD3D9
 (
 )
 ;
-bool
+DeviceManagerState
 PrepareForRendering
 (
 )
@@ -515,7 +524,7 @@ aFind
 ;
 #
 endif
-bool
+DeviceManagerState
 VerifyReadyForRendering
 (
 )
@@ -532,6 +541,11 @@ SwapChainD3D9
 ;
 ~
 DeviceManagerD3D9
+(
+)
+;
+void
+DestroyDevice
 (
 )
 ;
