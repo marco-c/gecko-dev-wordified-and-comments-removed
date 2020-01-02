@@ -4707,11 +4707,6 @@ mRemoteBlob
 ;
 MOZ_ASSERT
 (
-aLength
-)
-;
-MOZ_ASSERT
-(
 aLastModifiedDate
 !
 =
@@ -4788,11 +4783,6 @@ mBlob
 MOZ_ASSERT
 (
 mRemoteBlob
-)
-;
-MOZ_ASSERT
-(
-aLength
 )
 ;
 nsString
