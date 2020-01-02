@@ -187,7 +187,7 @@ new
 nsNSSCertList
 (
 newList
-true
+locker
 )
 ;
 }
