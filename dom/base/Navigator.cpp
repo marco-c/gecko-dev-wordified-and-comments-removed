@@ -8553,9 +8553,6 @@ mCameraManager
 }
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorkerContainer
 >
 Navigator
@@ -8579,9 +8576,6 @@ mServiceWorkerContainer
 mServiceWorkerContainer
 =
 new
-workers
-:
-:
 ServiceWorkerContainer
 (
 mWindow
@@ -8590,9 +8584,6 @@ mWindow
 }
 nsRefPtr
 <
-workers
-:
-:
 ServiceWorkerContainer
 >
 ref

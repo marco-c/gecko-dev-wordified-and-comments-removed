@@ -1680,6 +1680,11 @@ ServiceWorkerGlobalScope
 webidl
 '
 '
+ServiceWorkerRegistration
+.
+webidl
+'
+'
 SettingsManager
 .
 webidl
@@ -2836,6 +2841,11 @@ WEBIDL_FILES
 [
 '
 TestInterfaceJS
+.
+webidl
+'
+'
+TestInterfaceJSDictionaries
 .
 webidl
 '
