@@ -1662,13 +1662,13 @@ thread
 ;
 mVideoQueue
 .
-Erase
+Reset
 (
 )
 ;
 mAudioQueue
 .
-Erase
+Reset
 (
 )
 ;
