@@ -1022,10 +1022,15 @@ nullptr
 )
 ;
 obj
-=
-JSVAL_TO_OBJECT
+.
+set
 (
+&
 v
+.
+toObject
+(
+)
 )
 ;
 MOZ_ASSERT
