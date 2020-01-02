@@ -226,6 +226,10 @@ Integer
 MAX_VALUE
 )
 ;
+mCheckNetwork
+=
+false
+;
 }
 public
 ArrayList
