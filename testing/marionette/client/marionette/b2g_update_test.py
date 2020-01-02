@@ -86,6 +86,9 @@ __init__
 (
 addr
 port
+self
+.
+CONNECT_TIMEOUT
 )
         
 self
@@ -177,11 +180,6 @@ MarionetteTransport
 connect
 (
 self
-timeout
-=
-self
-.
-CONNECT_TIMEOUT
 )
                 
 break

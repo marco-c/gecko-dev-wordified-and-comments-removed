@@ -3358,10 +3358,13 @@ None
 timeout
 =
 None
+socket_timeout
+=
+360
+                 
 device_serial
 =
 None
-                 
 adb_path
 =
 None
@@ -3450,6 +3453,12 @@ self
 timeout
 =
 timeout
+        
+self
+.
+socket_timeout
+=
+socket_timeout
         
 self
 .
@@ -3919,6 +3928,9 @@ host
 self
 .
 port
+self
+.
+socket_timeout
 )
         
 if
