@@ -792,6 +792,16 @@ ENABLE_TESTS
 ]
 =
 1
+LOCAL_INCLUDES
++
+=
+[
+'
+ipc
+/
+glue
+'
+]
 JAR_MANIFESTS
 +
 =
