@@ -153,7 +153,7 @@ anyway
 waitForNetworkEvents
 (
 aMonitor
-7
+8
 )
 .
 then
