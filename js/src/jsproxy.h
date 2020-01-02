@@ -176,7 +176,6 @@ void
 family
 )
 ;
-virtual
 ~
 BaseProxyHandler
 (
