@@ -239,6 +239,13 @@ textSize
 "
 14sp
 "
+android
+:
+maxLength
+=
+"
+1024
+"
 /
 >
 <

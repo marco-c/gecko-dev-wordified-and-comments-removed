@@ -306,6 +306,13 @@ drawablePadding
 "
 5dp
 "
+android
+:
+maxLength
+=
+"
+1024
+"
 /
 >
 <
