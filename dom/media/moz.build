@@ -286,6 +286,11 @@ PeerConnectionIdp
 .
 jsm
 '
+'
+RTCStatsReport
+.
+jsm
+'
 ]
 if
 CONFIG
