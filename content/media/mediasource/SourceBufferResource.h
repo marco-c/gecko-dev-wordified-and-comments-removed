@@ -1190,6 +1190,15 @@ aRanges
 )
 MOZ_OVERRIDE
 {
+if
+(
+mInputBuffer
+.
+GetLength
+(
+)
+)
+{
 aRanges
 .
 AppendElement
@@ -1209,6 +1218,7 @@ GetLength
 )
 )
 ;
+}
 return
 NS_OK
 ;
