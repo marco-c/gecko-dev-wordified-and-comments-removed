@@ -2068,6 +2068,13 @@ DestroyImpl
 (
 )
 ;
+enum
+{
+ALLOW_FINISH
+=
+0x01
+}
+;
 virtual
 void
 ProduceOutput
@@ -2076,6 +2083,8 @@ GraphTime
 aFrom
 GraphTime
 aTo
+uint32_t
+aFlags
 )
 =
 0

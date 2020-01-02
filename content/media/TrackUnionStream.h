@@ -83,6 +83,7 @@ MediaInputPort
 *
 aPort
 )
+MOZ_OVERRIDE
 {
 for
 (
@@ -151,7 +152,10 @@ GraphTime
 aFrom
 GraphTime
 aTo
+uint32_t
+aFlags
 )
+MOZ_OVERRIDE
 {
 nsAutoTArray
 <
@@ -592,6 +596,13 @@ allFinished
 &
 &
 mAutofinish
+&
+&
+(
+aFlags
+&
+ALLOW_FINISH
+)
 )
 {
 FinishOnGraphThread
@@ -655,6 +666,7 @@ aOutputID
 bool
 aEnabled
 )
+MOZ_OVERRIDE
 {
 for
 (
