@@ -1,4 +1,4 @@
-57488
+57499
 0
 /
 nm
@@ -48662,7 +48662,7 @@ SM
 bade
 badge
 /
-MZDRS
+MZDRSG
 badger
 /
 GMD
@@ -57480,7 +57480,7 @@ cheater
 M
 check
 /
-AGMDS
+AGMDSU
 checkbook
 /
 SM
@@ -57614,7 +57614,7 @@ chemist
 MS
 chemistry
 /
-M
+MS
 chemo
 /
 M
@@ -60103,6 +60103,12 @@ MS
 colonnade
 /
 MDS
+colonoscope
+/
+SM
+colonoscopy
+/
+SM
 colony
 /
 SM
@@ -66097,6 +66103,9 @@ YP
 deceptiveness
 /
 M
+decertify
+/
+DSGNX
 decibel
 /
 MS
@@ -73850,6 +73859,10 @@ MS
 escarpment
 /
 SM
+eschatological
+eschatologist
+/
+SM
 eschatology
 eschew
 /
@@ -76200,6 +76213,7 @@ M
 fauvist
 /
 SM
+faux
 fave
 /
 S
@@ -91058,12 +91072,21 @@ MS
 intermarry
 /
 DSG
+intermediacy
+/
+S
 intermediary
 /
 SM
 intermediate
 /
-SMY
+SMYPGD
+intermediation
+/
+SE
+intermediator
+/
+SM
 interment
 /
 EM
@@ -109182,6 +109205,7 @@ parking
 /
 M
 parkland
+parkour
 parkway
 /
 MS
@@ -138566,6 +138590,9 @@ tracer
 /
 M
 tracery
+/
+SM
+traceur
 /
 SM
 trachea
