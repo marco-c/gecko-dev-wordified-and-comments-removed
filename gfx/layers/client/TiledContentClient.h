@@ -61,13 +61,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
