@@ -123,6 +123,11 @@ data
 =
 null
 ;
+boolean
+getFilterResults
+=
+false
+;
 }
 ;
 [
