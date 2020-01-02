@@ -86,6 +86,12 @@ getSimpleMeasures
 "
 simpleTimer
 "
+"
+setTelemetryDetails
+"
+"
+getTelemetryDetails
+"
 ]
 ;
 function
