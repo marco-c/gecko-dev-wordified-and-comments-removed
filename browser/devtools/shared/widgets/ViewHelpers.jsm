@@ -2358,6 +2358,16 @@ _emptyText
 =
 aValue
 ;
+if
+(
+!
+this
+.
+_itemsByElement
+.
+size
+)
+{
 this
 .
 _widget
@@ -2370,6 +2380,7 @@ emptyText
 aValue
 )
 ;
+}
 }
 set
 headerText
