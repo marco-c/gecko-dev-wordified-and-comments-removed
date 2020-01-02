@@ -7037,7 +7037,7 @@ syncPromo
 .
 enabled
 "
-false
+true
 )
 ;
 #
