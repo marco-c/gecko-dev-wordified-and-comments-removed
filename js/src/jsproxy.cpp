@@ -939,7 +939,7 @@ Throw
 (
 cx
 id
-JSMSG_CANT_REDEFINE_PROP
+JSMSG_READ_ONLY
 )
 :
 true
