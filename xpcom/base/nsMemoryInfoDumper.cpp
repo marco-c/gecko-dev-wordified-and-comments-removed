@@ -2623,7 +2623,7 @@ if
 dmd
 :
 :
-IsEnabled
+IsRunning
 (
 )
 )
