@@ -825,6 +825,8 @@ cubeb
 ctx
 )
 {
+if
+(
 write
 (
 ctx
@@ -836,7 +838,11 @@ x
 "
 1
 )
-;
+<
+0
+)
+{
+}
 }
 static
 void
@@ -1642,6 +1648,8 @@ revents
 POLLIN
 )
 {
+if
+(
 read
 (
 ctx
@@ -1652,7 +1660,11 @@ control_fd_read
 dummy
 1
 )
-;
+<
+0
+)
+{
+}
 if
 (
 ctx
