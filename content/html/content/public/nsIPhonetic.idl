@@ -154,7 +154,6 @@ interface
 *
 /
 [
-scriptable
 uuid
 (
 BC6EA726
