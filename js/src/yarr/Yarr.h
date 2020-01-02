@@ -118,6 +118,17 @@ unsigned
 static
 const
 unsigned
+offsetError
+=
+(
+unsigned
+)
+-
+2
+;
+static
+const
+unsigned
 matchLimit
 =
 1000000
