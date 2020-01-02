@@ -1,4 +1,10 @@
 #
+ifndef
+VisualEventTracer_h___
+#
+define
+VisualEventTracer_h___
+#
 include
 <
 stdint
@@ -626,3 +632,5 @@ Tracer
 endif
 }
 }
+#
+endif
