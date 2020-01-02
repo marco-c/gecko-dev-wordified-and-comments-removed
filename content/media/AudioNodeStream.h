@@ -460,6 +460,16 @@ return
 mSampleRate
 ;
 }
+double
+TimeFromDestinationTime
+(
+AudioNodeStream
+*
+aDestination
+double
+aSeconds
+)
+;
 TrackTicks
 TicksFromDestinationTime
 (
