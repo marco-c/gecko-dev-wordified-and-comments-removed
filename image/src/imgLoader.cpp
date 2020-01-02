@@ -347,9 +347,6 @@ _path
 )
 \
 _kind
-nsIMemoryReporter
-:
-:
 UNITS_BYTES
 _amount
 \
@@ -386,9 +383,6 @@ used
 /
 raw
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 chrome
 .
@@ -425,9 +419,6 @@ uncompressed
 -
 heap
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 chrome
 .
@@ -464,9 +455,6 @@ uncompressed
 -
 nonheap
 "
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 chrome
 .
@@ -501,9 +489,6 @@ unused
 /
 raw
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 chrome
 .
@@ -541,9 +526,6 @@ uncompressed
 -
 heap
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 chrome
 .
@@ -581,9 +563,6 @@ uncompressed
 -
 nonheap
 "
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 chrome
 .
@@ -619,9 +598,6 @@ used
 /
 raw
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 content
 .
@@ -658,9 +634,6 @@ uncompressed
 -
 heap
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 content
 .
@@ -697,9 +670,6 @@ uncompressed
 -
 nonheap
 "
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 content
 .
@@ -734,9 +704,6 @@ unused
 /
 raw
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 content
 .
@@ -774,9 +741,6 @@ uncompressed
 -
 heap
 "
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 content
 .
@@ -814,9 +778,6 @@ uncompressed
 -
 nonheap
 "
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 content
 .

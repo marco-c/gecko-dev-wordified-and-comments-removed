@@ -2741,14 +2741,7 @@ NS_LITERAL_CSTRING
 _path
 )
 \
-nsIMemoryReporter
-:
-:
 KIND_OTHER
-\
-nsIMemoryReporter
-:
-:
 UNITS_BYTES
 _amount
 \

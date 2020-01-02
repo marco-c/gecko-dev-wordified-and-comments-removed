@@ -1453,13 +1453,7 @@ EmptyCString
 (
 )
 path
-nsIMemoryReporter
-:
-:
 KIND_OTHER
-nsIMemoryReporter
-:
-:
 UNITS_COUNT
 numQueuedMessages
 desc

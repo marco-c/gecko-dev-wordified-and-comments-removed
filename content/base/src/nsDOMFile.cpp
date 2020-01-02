@@ -2935,13 +2935,7 @@ get
 (
 )
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
-nsIMemoryReporter
-:
-:
 UNITS_BYTES
 size
 nsPrintfCString
@@ -3072,13 +3066,7 @@ data
 small
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
-nsIMemoryReporter
-:
-:
 UNITS_BYTES
 smallObjectsTotal
 nsPrintfCString

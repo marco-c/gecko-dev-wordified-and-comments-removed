@@ -3917,14 +3917,7 @@ NS_LITERAL_CSTRING
 _path
 )
 \
-nsIMemoryReporter
-:
-:
 KIND_HEAP
-\
-nsIMemoryReporter
-:
-:
 UNITS_BYTES
 _amount
 \
