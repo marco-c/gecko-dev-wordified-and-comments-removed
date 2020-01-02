@@ -15969,6 +15969,12 @@ Value
 val
 (
 aCx
+JS
+:
+:
+NullValue
+(
+)
 )
 ;
 aError
@@ -16000,10 +16006,9 @@ nullptr
 ;
 }
 return
-&
 val
 .
-toObject
+toObjectOrNull
 (
 )
 ;

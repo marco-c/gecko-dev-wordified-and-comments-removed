@@ -2652,6 +2652,7 @@ Throws
 readonly
 attribute
 object
+?
 content
 ;
 }
