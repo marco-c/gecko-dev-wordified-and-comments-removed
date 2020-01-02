@@ -617,6 +617,11 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+sc
+)
+;
 AutoPushJSContext
 cx
 (
@@ -719,6 +724,11 @@ rv
 NS_ENSURE_SUCCESS_VOID
 (
 rv
+)
+;
+NS_ENSURE_TRUE_VOID
+(
+sc
 )
 ;
 AutoPushJSContext
