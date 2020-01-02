@@ -6962,8 +6962,6 @@ CERTPolicyInfo
 *
 *
 policyInfos
-*
-policyInfo
 ;
 policies
 =
@@ -6997,6 +6995,9 @@ while
 policyInfos
 )
 {
+const
+CERTPolicyInfo
+*
 policyInfo
 =
 *

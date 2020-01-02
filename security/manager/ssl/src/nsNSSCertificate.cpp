@@ -4145,9 +4145,11 @@ if
 !
 nssChain
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 nsCOMPtr
 <
 nsIMutableArray
