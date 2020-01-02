@@ -37,7 +37,7 @@ DEBUG
 DEBUG_WORKER
 ;
 let
-CLIENT_ID
+clientId
 =
 -
 1
@@ -73,7 +73,7 @@ Worker
 [
 "
 +
-CLIENT_ID
+clientId
 +
 "
 ]
@@ -597,7 +597,11 @@ parcel
 {
 postRILMessage
 (
-CLIENT_ID
+this
+.
+context
+.
+clientId
 parcel
 )
 ;
@@ -20333,7 +20337,11 @@ message
 .
 rilMessageClientId
 =
-CLIENT_ID
+this
+.
+context
+.
+clientId
 ;
 postMessage
 (
@@ -20494,7 +20502,11 @@ function
 aOptions
 )
 {
-CLIENT_ID
+this
+.
+context
+.
+clientId
 =
 aOptions
 .
