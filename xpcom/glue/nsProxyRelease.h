@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

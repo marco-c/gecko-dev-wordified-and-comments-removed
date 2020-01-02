@@ -38,6 +38,13 @@ prlock
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsITimer
 ;

@@ -20,6 +20,13 @@ h
 "
 #
 include
+"
+nsAutoRef
+.
+h
+"
+#
+include
 <
 gtk
 /
