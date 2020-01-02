@@ -108,13 +108,12 @@ DebuggerServer
 initialized
 )
 ;
-do_check_true
+do_check_eq
 (
-!
-!
 DebuggerServer
 .
-_listener
+listeningSockets
+1
 )
 ;
 run_next_test

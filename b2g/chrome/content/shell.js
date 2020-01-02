@@ -5465,7 +5465,7 @@ try
 {
 DebuggerServer
 .
-closeListener
+closeAllListeners
 (
 )
 ;

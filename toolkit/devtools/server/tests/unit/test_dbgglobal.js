@@ -70,7 +70,7 @@ check_except
 (
 DebuggerServer
 .
-closeListener
+closeAllListeners
 )
 ;
 check_except
@@ -115,7 +115,7 @@ check_except
 (
 DebuggerServer
 .
-closeListener
+closeAllListeners
 )
 ;
 check_except
@@ -148,7 +148,7 @@ openListener
 ;
 DebuggerServer
 .
-closeListener
+closeAllListeners
 (
 )
 ;
