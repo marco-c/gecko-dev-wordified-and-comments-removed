@@ -4926,6 +4926,15 @@ type
 cx
 )
 ;
+types
+:
+:
+AutoEnterAnalysis
+enter
+(
+cx
+)
+;
 if
 (
 !
