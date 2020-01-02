@@ -5917,8 +5917,10 @@ WebGLContextFakeBlackStatus
 mFakeBlackStatus
 ;
 GLuint
-mBlackTexture2D
-mBlackTextureCubeMap
+mBlackOpaqueTexture2D
+mBlackOpaqueTextureCubeMap
+mBlackTransparentTexture2D
+mBlackTransparentTextureCubeMap
 ;
 bool
 mBlackTexturesAreInitialized
