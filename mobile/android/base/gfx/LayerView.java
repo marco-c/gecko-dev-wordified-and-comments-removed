@@ -1467,6 +1467,7 @@ RGB_565
 ;
 }
 }
+RobocopTarget
 public
 GeckoLayerClient
 getLayerClient
