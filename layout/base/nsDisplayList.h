@@ -3848,6 +3848,11 @@ const
 nsRect
 &
 aAllowVisibleRegionExpansion
+nsIFrame
+*
+aDisplayPortFrame
+=
+nullptr
 )
 ;
 bool
@@ -3859,6 +3864,11 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsIFrame
+*
+aDisplayPortFrame
+=
+nullptr
 )
 ;
 bool
