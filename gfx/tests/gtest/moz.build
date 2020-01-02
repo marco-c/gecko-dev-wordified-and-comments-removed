@@ -146,6 +146,11 @@ TestRegion
 .
 cpp
 '
+'
+TestSkipChars
+.
+cpp
+'
 #
 Hangs
 on
