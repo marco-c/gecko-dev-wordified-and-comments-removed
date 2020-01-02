@@ -40798,6 +40798,11 @@ Prompt
 window
 :
 null
+hint
+:
+"
+remotedebug
+"
 title
 :
 title
