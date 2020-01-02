@@ -491,7 +491,7 @@ return
 style
 -
 >
-SingleFilter
+HasFilters
 (
 )
 |
@@ -1073,7 +1073,7 @@ prop
 prop
 -
 >
-IsInObserverList
+IsInObserverLists
 (
 )
 )

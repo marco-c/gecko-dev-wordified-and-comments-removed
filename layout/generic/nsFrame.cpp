@@ -22991,7 +22991,7 @@ StyleSVGReset
 )
 -
 >
-SingleFilter
+HasFilters
 (
 )
 )
