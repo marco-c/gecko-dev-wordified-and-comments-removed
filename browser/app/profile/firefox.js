@@ -12127,8 +12127,8 @@ browser
 .
 cache
 .
-use_new_backend_temp
+auto_delete_cache_version
 "
-true
+1
 )
 ;
