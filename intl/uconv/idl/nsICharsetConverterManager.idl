@@ -124,13 +124,6 @@ nsIUnicodeEncoder
 .
 h
 "
-#
-include
-"
-nsString
-.
-h
-"
 /
 /
 XXX

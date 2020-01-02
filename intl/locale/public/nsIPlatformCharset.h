@@ -7,7 +7,7 @@ nsIPlatformCharset_h__
 #
 include
 "
-nsString
+nsStringGlue
 .
 h
 "
