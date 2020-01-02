@@ -10287,7 +10287,6 @@ buildingForChild
 aBuilder
 child
 pseudoStackingContext
-false
 )
 ;
 DisplayListClipState
