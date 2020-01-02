@@ -271,8 +271,6 @@ getNotification
 bad
 -
 content
--
-blocked
 "
 gTestBrowser
 )
@@ -285,7 +283,9 @@ notification
 Mixed
 Content
 Doorhanger
-appears
+did
+not
+appear
 when
 trying
 to
