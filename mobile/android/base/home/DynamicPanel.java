@@ -38,7 +38,7 @@ db
 .
 BrowserContract
 .
-HomeListItems
+HomeItems
 ;
 import
 org
@@ -861,7 +861,7 @@ final
 Uri
 fakeItemsUri
 =
-HomeListItems
+HomeItems
 .
 CONTENT_FAKE_URI
 .
@@ -887,9 +887,9 @@ final
 String
 selection
 =
-HomeListItems
+HomeItems
 .
-PROVIDER_ID
+DATASET_ID
 +
 "
 =
