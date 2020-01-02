@@ -1,4 +1,15 @@
 %
+filter
+substitution
+%
+define
+menuPanelWidth
+21em
+%
+define
+exitSubviewGutterWidth
+38px
+%
 include
 .
 .
@@ -93,7 +104,7 @@ margin
 -
 start
 :
-38px
+exitSubviewGutterWidth
 ;
 }
 .
