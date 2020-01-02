@@ -28,12 +28,6 @@ input
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 needs
 -
 focus
@@ -51,9 +45,6 @@ number
 ref
 .
 html
-#
-bug
-940764
 needs
 -
 focus
