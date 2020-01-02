@@ -4498,6 +4498,13 @@ active
 true
 )
 ;
+JitActivation
+(
+ForkJoinContext
+*
+cx
+)
+;
 ~
 JitActivation
 (
