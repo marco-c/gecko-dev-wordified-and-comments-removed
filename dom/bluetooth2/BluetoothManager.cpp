@@ -1134,7 +1134,10 @@ if
 ToJSValue
 (
 cx
-adapter
+mAdapters
+[
+mDefaultAdapterIndex
+]
 &
 value
 )
