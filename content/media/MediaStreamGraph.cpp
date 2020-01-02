@@ -268,6 +268,8 @@ mBufferStartTime
 return
 current
 +
+2
+*
 MillisecondsToMediaTime
 (
 std
