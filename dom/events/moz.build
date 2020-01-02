@@ -243,6 +243,11 @@ BeforeUnloadEvent
 h
 '
 '
+ClipboardEvent
+.
+h
+'
+'
 EventTarget
 .
 h
@@ -300,6 +305,11 @@ BeforeUnloadEvent
 cpp
 '
 '
+ClipboardEvent
+.
+cpp
+'
+'
 EventTarget
 .
 cpp
@@ -311,11 +321,6 @@ cpp
 '
 '
 nsContentEventHandler
-.
-cpp
-'
-'
-nsDOMClipboardEvent
 .
 cpp
 '
