@@ -79,6 +79,12 @@ type
 MacSandboxPluginInfo
 pluginInfo
 ;
+nsCString
+appPath
+;
+nsCString
+appBinaryPath
+;
 }
 MacSandboxInfo
 ;
