@@ -3084,7 +3084,7 @@ connID
 aForwardingPrefix
 +
 "
-:
+/
 "
 ;
 }
@@ -3156,7 +3156,7 @@ actorID
 aForwardingPrefix
 +
 "
-:
+/
 root
 "
 ;
@@ -4192,7 +4192,7 @@ size
 )
 {
 let
-colon
+separator
 =
 aPacket
 .
@@ -4201,13 +4201,13 @@ to
 indexOf
 (
 '
-:
+/
 '
 )
 ;
 if
 (
-colon
+separator
 >
 =
 0
@@ -4229,7 +4229,7 @@ to
 substring
 (
 0
-colon
+separator
 )
 )
 ;
