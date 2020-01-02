@@ -141,6 +141,11 @@ SourceBufferResource
 .
 cpp
 '
+'
+SubBufferDecoder
+.
+cpp
+'
 ]
 FAIL_ON_WARNINGS
 =
