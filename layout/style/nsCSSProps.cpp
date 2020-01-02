@@ -3665,6 +3665,7 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
+const
 int32_t
 nsCSSProps
 :

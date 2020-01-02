@@ -2030,6 +2030,7 @@ kDirectionKTable
 ]
 ;
 static
+const
 int32_t
 kDisplayKTable
 [
