@@ -1131,9 +1131,9 @@ addMessageListenerId
 "
 Marionette
 :
-getAllCookies
+getCookies
 "
-getAllCookies
+getCookies
 )
 ;
 addMessageListenerId
@@ -1720,9 +1720,9 @@ removeMessageListenerId
 "
 Marionette
 :
-getAllCookies
+getCookies
 "
-getAllCookies
+getCookies
 )
 ;
 removeMessageListenerId
@@ -10468,7 +10468,7 @@ command_id
 ;
 }
 function
-getAllCookies
+getCookies
 (
 msg
 )

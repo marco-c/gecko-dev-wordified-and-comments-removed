@@ -9616,10 +9616,10 @@ command_id
 )
 ;
 }
-getAllCookies
+getCookies
 :
 function
-MDA_getAllCookies
+MDA_getCookies
 (
 )
 {
@@ -9638,7 +9638,7 @@ this
 sendAsync
 (
 "
-getAllCookies
+getCookies
 "
 {
 }
@@ -12319,6 +12319,15 @@ prototype
 .
 addCookie
 "
+getCookies
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+getCookies
+"
 getAllCookies
 "
 :
@@ -12326,7 +12335,7 @@ MarionetteServerConnection
 .
 prototype
 .
-getAllCookies
+getCookies
 "
 deleteAllCookies
 "
