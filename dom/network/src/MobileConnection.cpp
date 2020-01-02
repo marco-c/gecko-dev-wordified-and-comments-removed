@@ -1,6 +1,12 @@
 #
 include
 "
+mozilla
+/
+dom
+/
+network
+/
 MobileConnection
 .
 h
