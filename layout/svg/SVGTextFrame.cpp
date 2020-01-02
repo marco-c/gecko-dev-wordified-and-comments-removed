@@ -9728,8 +9728,8 @@ f
 nsIPresShell
 :
 :
-eStyleChange
-NS_FRAME_IS_DIRTY
+eResize
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
