@@ -216,14 +216,6 @@ flex
 "
 1
 "
-style
-=
-"
-display
-:
-block
-;
-"
 /
 >
 <
