@@ -470,4 +470,9 @@ b2g_manifest_branch
 "
 master
 "
+"
+b2g_manifest_intree
+"
+:
+true
 }
