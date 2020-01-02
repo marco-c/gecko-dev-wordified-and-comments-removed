@@ -166,7 +166,7 @@ function
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -195,7 +195,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -253,7 +253,7 @@ highlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -282,7 +282,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -334,7 +334,7 @@ unhighlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -363,7 +363,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :

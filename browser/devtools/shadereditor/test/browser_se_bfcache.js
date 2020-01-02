@@ -28,6 +28,10 @@ panel
 .
 panelWin
 ;
+loadFrameScripts
+(
+)
+;
 let
 reloaded
 =

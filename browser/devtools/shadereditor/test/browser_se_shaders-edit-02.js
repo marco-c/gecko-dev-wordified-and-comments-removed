@@ -436,7 +436,7 @@ status
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -465,7 +465,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -610,7 +610,7 @@ successfully
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -639,7 +639,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :

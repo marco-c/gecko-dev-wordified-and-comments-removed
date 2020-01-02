@@ -27,6 +27,10 @@ false
 }
 )
 ;
+loadFrameScripts
+(
+)
+;
 reload
 (
 target
@@ -576,7 +580,7 @@ function
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -605,7 +609,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -663,7 +667,7 @@ highlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -692,7 +696,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -744,7 +748,7 @@ unhighlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -773,7 +777,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -838,7 +842,7 @@ function
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -871,7 +875,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -904,7 +908,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -937,7 +941,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -999,7 +1003,7 @@ highlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1032,7 +1036,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1065,7 +1069,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1098,7 +1102,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1160,7 +1164,7 @@ highlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1193,7 +1197,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1226,7 +1230,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1259,7 +1263,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1322,7 +1326,7 @@ unhighlight
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1355,7 +1359,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1388,7 +1392,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -1421,7 +1425,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :

@@ -67,7 +67,7 @@ SOURCES_SHOWN
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -96,7 +96,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -148,7 +148,7 @@ click
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -177,7 +177,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -240,7 +240,7 @@ click
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -269,7 +269,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -322,7 +322,7 @@ click
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -351,7 +351,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -414,7 +414,7 @@ click
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -443,7 +443,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -507,7 +507,7 @@ click
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -536,7 +536,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :

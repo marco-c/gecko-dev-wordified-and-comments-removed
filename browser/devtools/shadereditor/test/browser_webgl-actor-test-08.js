@@ -123,15 +123,16 @@ errors
 )
 ;
 yield
+front
+.
 waitForFrame
 (
-debuggee
 )
 ;
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -160,7 +161,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :
@@ -189,7 +190,7 @@ true
 yield
 ensurePixelIs
 (
-debuggee
+front
 {
 x
 :

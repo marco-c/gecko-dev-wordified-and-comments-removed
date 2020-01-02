@@ -344,7 +344,7 @@ changed
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -377,7 +377,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -410,7 +410,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -443,7 +443,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -476,7 +476,7 @@ canvas1
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -509,7 +509,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -542,7 +542,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
@@ -575,7 +575,7 @@ canvas2
 yield
 ensurePixelIs
 (
-debuggee
+gFront
 {
 x
 :
