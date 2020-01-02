@@ -1576,6 +1576,8 @@ datalen
 nsACString
 &
 output
+bool
+isPush
 )
 {
 mOffset
@@ -1635,6 +1637,10 @@ Truncate
 mSeenNonColonHeader
 =
 false
+;
+mIsPush
+=
+isPush
 ;
 nsresult
 rv
@@ -2045,6 +2051,11 @@ value
 {
 if
 (
+!
+mIsPush
+&
+&
+(
 name
 .
 EqualsLiteral
@@ -2134,6 +2145,7 @@ encoding
 )
 )
 )
+)
 {
 nsCString
 toLog
@@ -2151,6 +2163,8 @@ illegal
 response
 header
 found
+not
+gatewaying
 :
 %
 s
@@ -2164,7 +2178,7 @@ get
 )
 ;
 return
-NS_ERROR_ILLEGAL_VALUE
+NS_OK
 ;
 }
 for

@@ -290,6 +290,8 @@ datalen
 nsACString
 &
 output
+bool
+isPush
 )
 ;
 void
@@ -540,6 +542,9 @@ mDataLen
 ;
 bool
 mSeenNonColonHeader
+;
+bool
+mIsPush
 ;
 }
 ;
