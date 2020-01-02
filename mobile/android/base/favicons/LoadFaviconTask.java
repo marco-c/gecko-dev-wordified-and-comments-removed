@@ -521,6 +521,17 @@ encodedFavicon
 {
 if
 (
+encodedFavicon
+=
+=
+null
+)
+{
+return
+;
+}
+if
+(
 (
 flags
 &
