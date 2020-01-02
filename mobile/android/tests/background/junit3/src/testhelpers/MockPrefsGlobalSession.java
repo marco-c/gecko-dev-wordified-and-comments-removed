@@ -150,13 +150,6 @@ content
 .
 SharedPreferences
 ;
-import
-android
-.
-os
-.
-Bundle
-;
 public
 class
 MockPrefsGlobalSession
@@ -176,8 +169,6 @@ GlobalSessionCallback
 callback
 Context
 context
-Bundle
-extras
 ClientsDataDelegate
 clientsDelegate
 )
@@ -193,7 +184,6 @@ super
 config
 callback
 context
-extras
 clientsDelegate
 callback
 )
@@ -214,8 +204,6 @@ GlobalSessionCallback
 callback
 Context
 context
-Bundle
-extras
 ClientsDataDelegate
 clientsDelegate
 )
@@ -240,7 +228,6 @@ null
 syncKeyBundle
 callback
 context
-extras
 clientsDelegate
 )
 ;
@@ -262,8 +249,6 @@ GlobalSessionCallback
 callback
 Context
 context
-Bundle
-extras
 ClientsDataDelegate
 clientsDelegate
 )
@@ -308,7 +293,6 @@ MockPrefsGlobalSession
 config
 callback
 context
-extras
 clientsDelegate
 )
 ;

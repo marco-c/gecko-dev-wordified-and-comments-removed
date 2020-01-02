@@ -994,14 +994,13 @@ getApplicationContext
 (
 )
 null
-null
 callback
 )
 {
 Override
 public
 boolean
-engineIsEnabled
+isEngineRemotelyEnabled
 (
 String
 engineName

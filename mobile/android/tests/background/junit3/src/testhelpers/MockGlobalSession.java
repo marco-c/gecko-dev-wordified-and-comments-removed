@@ -226,14 +226,13 @@ config
 callback
 null
 null
-null
 )
 ;
 }
 Override
 public
 boolean
-engineIsEnabled
+isEngineRemotelyEnabled
 (
 String
 engine

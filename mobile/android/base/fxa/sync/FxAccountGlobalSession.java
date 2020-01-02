@@ -184,13 +184,6 @@ content
 .
 Context
 ;
-import
-android
-.
-os
-.
-Bundle
-;
 public
 class
 FxAccountGlobalSession
@@ -222,8 +215,6 @@ BaseGlobalSessionCallback
 callback
 Context
 context
-Bundle
-extras
 ClientsDataDelegate
 clientsDelegate
 )
@@ -240,7 +231,6 @@ super
 config
 callback
 context
-extras
 clientsDelegate
 null
 )
