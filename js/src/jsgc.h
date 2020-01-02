@@ -1238,6 +1238,7 @@ return
 this
 ;
 }
+explicit
 ArenaList
 (
 const

@@ -1153,6 +1153,7 @@ nullptr
 }
 public
 :
+explicit
 SimpleEdgeRange
 (
 JSContext

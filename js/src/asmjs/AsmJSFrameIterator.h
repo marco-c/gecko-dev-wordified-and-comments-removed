@@ -356,6 +356,7 @@ nullptr
 )
 {
 }
+explicit
 AsmJSProfilingFrameIterator
 (
 const

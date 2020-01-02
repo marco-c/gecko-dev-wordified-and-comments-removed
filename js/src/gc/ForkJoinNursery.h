@@ -197,6 +197,7 @@ ForkJoinGCShared
 {
 public
 :
+explicit
 ForkJoinGCShared
 (
 ForkJoinShared

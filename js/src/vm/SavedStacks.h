@@ -685,6 +685,7 @@ CustomAutoRooter
 {
 public
 :
+explicit
 AutoLocationValueRooter
 (
 JSContext
@@ -986,6 +987,7 @@ location
 )
 {
 }
+explicit
 FrameState
 (
 const
@@ -1040,6 +1042,7 @@ CustomAutoRooter
 {
 public
 :
+explicit
 AutoFrameStateVector
 (
 JSContext

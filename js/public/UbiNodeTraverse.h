@@ -418,6 +418,7 @@ frontIndex
 ;
 public
 :
+explicit
 Queue
 (
 JSContext

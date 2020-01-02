@@ -126,6 +126,7 @@ void
 *
 ptr
 ;
+explicit
 Base
 (
 void
@@ -539,6 +540,7 @@ return
 this
 ;
 }
+explicit
 Node
 (
 JS
@@ -1246,6 +1248,7 @@ nullptr
 }
 protected
 :
+explicit
 TracerConcrete
 (
 Referent
@@ -1644,6 +1647,7 @@ compartment
 const
 MOZ_OVERRIDE
 ;
+explicit
 Concrete
 (
 void

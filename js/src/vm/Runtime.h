@@ -4262,6 +4262,7 @@ liveRuntimesCount
 0
 ;
 }
+explicit
 JSRuntime
 (
 JSRuntime
@@ -5602,6 +5603,7 @@ AutoEnterIonCompilation
 {
 public
 :
+explicit
 AutoEnterIonCompilation
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
