@@ -534,7 +534,7 @@ Attach
 ShadowLayerParent
 *
 aLayerParent
-CompositableParent
+CompositableHost
 *
 aCompositable
 bool
