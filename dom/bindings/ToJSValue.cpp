@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+DOMException
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Exceptions
 .
 h
