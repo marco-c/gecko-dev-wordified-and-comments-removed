@@ -195,7 +195,7 @@ Logging
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -318,7 +318,7 @@ cpp
 if
 a11y_log
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
