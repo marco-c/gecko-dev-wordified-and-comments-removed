@@ -92,6 +92,7 @@ MPL
 *
 /
 [
+ChromeOnly
 Constructor
 (
 DOMString

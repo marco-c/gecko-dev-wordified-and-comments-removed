@@ -95,6 +95,7 @@ interface
 CSSRule
 ;
 [
+ChromeOnly
 Constructor
 (
 DOMString
