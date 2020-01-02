@@ -976,6 +976,15 @@ aEvent
 )
 ;
 void
+SendPointerCancelToContent
+(
+const
+WidgetTouchEvent
+&
+aEvent
+)
+;
+bool
 SendPendingResponseToApz
 (
 )
