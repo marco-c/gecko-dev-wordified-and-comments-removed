@@ -148,9 +148,7 @@ mAcquisitionContext
 CallStack
 :
 :
-NullCallStack
-(
-)
+kNone
 )
 {
 NS_ABORT_IF_FALSE
