@@ -1003,13 +1003,6 @@ get
 )
 )
 ;
-host
--
->
-DeallocateSharedData
-(
-)
-;
 }
 void
 TestTextureClientYCbCr
@@ -1398,13 +1391,6 @@ Unlock
 (
 )
 ;
-host
--
->
-DeallocateSharedData
-(
-)
-;
 }
 TEST
 (
@@ -1500,7 +1486,7 @@ Format
 (
 )
 )
-TEXTURE_FLAGS_DEFAULT
+TEXTURE_DEALLOCATE_CLIENT
 )
 ;
 TestTextureClientSurface
@@ -1745,7 +1731,7 @@ gfx
 :
 :
 FORMAT_YUV
-TEXTURE_FLAGS_DEFAULT
+TEXTURE_DEALLOCATE_CLIENT
 )
 ;
 TestTextureClientYCbCr
