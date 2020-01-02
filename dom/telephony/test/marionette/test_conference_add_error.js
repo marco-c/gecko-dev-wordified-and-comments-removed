@@ -84,6 +84,7 @@ resolve
 )
 ;
 }
+;
 conference
 .
 add
@@ -222,13 +223,15 @@ then
 )
 =
 >
-gSetupConferenceFiveCalls
+gSetupConference
 (
+[
 outNumber
 inNumber
 inNumber2
 inNumber3
 inNumber4
+]
 )
 )
 .

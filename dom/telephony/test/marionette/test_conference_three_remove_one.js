@@ -91,11 +91,13 @@ then
 )
 =
 >
-gSetupConferenceThreeCalls
+gSetupConference
 (
+[
 outNumber
 inNumber
 inNumber2
+]
 )
 )
 .
