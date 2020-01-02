@@ -734,7 +734,7 @@ LayoutDeviceIntPoint
 pt
 )
 ;
-void
+bool
 TransformRefPoint
 (
 const
