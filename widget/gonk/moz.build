@@ -354,6 +354,11 @@ OrientationObserver
 cpp
 '
 '
+ParentProcessController
+.
+cpp
+'
+'
 ProcessOrientation
 .
 cpp
