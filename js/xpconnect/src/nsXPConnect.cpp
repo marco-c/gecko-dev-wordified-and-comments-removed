@@ -665,6 +665,16 @@ InitSafeJSContext
 (
 )
 ;
+gSelf
+-
+>
+mRuntime
+-
+>
+InitSingletonScopes
+(
+)
+;
 }
 nsXPConnect
 *
