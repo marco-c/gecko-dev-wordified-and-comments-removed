@@ -95,14 +95,13 @@ h
 namespace
 mozilla
 {
-typedef
+using
 mozilla
 :
 :
 dom
 :
 :
-Element
 Element
 ;
 static

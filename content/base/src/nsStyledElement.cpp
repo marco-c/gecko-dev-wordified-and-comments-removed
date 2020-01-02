@@ -131,13 +131,9 @@ nsStyleUtil
 .
 h
 "
+using
 namespace
-css
-=
 mozilla
-:
-:
-css
 ;
 using
 namespace
