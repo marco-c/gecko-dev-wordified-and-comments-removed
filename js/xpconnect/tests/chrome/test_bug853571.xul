@@ -375,6 +375,16 @@ finish
 (
 )
 ;
+yield
+;
+/
+/
+Prevent
+StopIteration
+from
+being
+thrown
+.
 }
 var
 gen
