@@ -28508,9 +28508,9 @@ AM_PATH_NSPR
 (
 4
 .
-9
+10
 .
-6
+2
 [
 MOZ_NATIVE_NSPR
 =
