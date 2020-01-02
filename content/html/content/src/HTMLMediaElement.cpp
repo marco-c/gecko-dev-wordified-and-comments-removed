@@ -17239,6 +17239,13 @@ TextTrackManager
 this
 )
 ;
+mTextTrackManager
+-
+>
+AddListeners
+(
+)
+;
 }
 return
 mTextTrackManager
