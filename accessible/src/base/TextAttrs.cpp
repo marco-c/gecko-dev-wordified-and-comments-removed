@@ -311,6 +311,13 @@ GetContent
 (
 )
 ;
+if
+(
+!
+hyperTextElm
+)
+return
+;
 nsIFrame
 *
 rootFrame
