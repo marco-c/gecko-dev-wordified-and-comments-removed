@@ -317,7 +317,6 @@ URLBAR_FOCUSED
 urlbar
 .
 1
-:
 "
 ;
 public
@@ -330,7 +329,6 @@ FRECENCY
 frecency
 .
 1
-:
 "
 ;
 }
