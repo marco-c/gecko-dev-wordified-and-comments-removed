@@ -65,6 +65,14 @@ nsSelectsAreaFrame
 .
 h
 "
+#
+ifdef
+KeyPress
+#
+undef
+KeyPress
+#
+endif
 class
 nsIDOMHTMLSelectElement
 ;

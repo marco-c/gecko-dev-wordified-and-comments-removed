@@ -5691,3 +5691,6 @@ ConfigureHighPrecision
 )
 ;
 }
+#
+undef
+LOG
