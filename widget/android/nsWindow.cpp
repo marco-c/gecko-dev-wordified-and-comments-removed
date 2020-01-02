@@ -9150,7 +9150,7 @@ AndroidGeckoEvent
 IME_ADD_COMPOSITION_RANGE
 :
 {
-nsTextRange
+TextRange
 range
 ;
 range

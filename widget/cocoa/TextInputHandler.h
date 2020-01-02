@@ -2120,7 +2120,7 @@ SetTextRangeList
 (
 nsTArray
 <
-nsTextRange
+TextRange
 >
 &
 aTextRangeList

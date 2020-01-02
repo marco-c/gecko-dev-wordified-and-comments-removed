@@ -16209,7 +16209,7 @@ SetTextRangeList
 (
 nsTArray
 <
-nsTextRange
+TextRange
 >
 &
 aTextRangeList
@@ -16231,7 +16231,7 @@ Cocoa
 range
 into
 the
-nsTextRange
+TextRange
 Array
 used
 in
@@ -16343,7 +16343,7 @@ inRange
 limitRange
 ]
 ;
-nsTextRange
+TextRange
 range
 ;
 range
@@ -16457,7 +16457,7 @@ current
 caret
 position
 .
-nsTextRange
+TextRange
 range
 ;
 range
@@ -16697,7 +16697,7 @@ aText
 ;
 nsAutoTArray
 <
-nsTextRange
+TextRange
 4
 >
 textRanges

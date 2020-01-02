@@ -342,7 +342,7 @@ case
 ATTR_SELECTEDCONVERTEDTEXT
 :
 {
-nsTextRange
+TextRange
 textRange
 ;
 textRange

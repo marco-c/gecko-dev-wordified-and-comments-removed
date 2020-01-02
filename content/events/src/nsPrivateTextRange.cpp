@@ -24,7 +24,7 @@ nsPrivateTextRange
 nsPrivateTextRange
 (
 const
-nsTextRange
+TextRange
 &
 aTextRange
 )

@@ -56,7 +56,10 @@ public
 nsPrivateTextRange
 (
 const
-nsTextRange
+mozilla
+:
+:
+TextRange
 &
 aTextRange
 )

@@ -74,6 +74,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 widget
@@ -7540,7 +7544,7 @@ point
 ;
 nsAutoTArray
 <
-nsTextRange
+TextRange
 4
 >
 textRanges
@@ -7610,7 +7614,7 @@ SetTextRangeList
 (
 nsTArray
 <
-nsTextRange
+TextRange
 >
 &
 aTextRangeList
@@ -7638,7 +7642,7 @@ event
 "
 )
 ;
-nsTextRange
+TextRange
 range
 ;
 if

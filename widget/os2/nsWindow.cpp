@@ -9577,7 +9577,7 @@ update
 }
 nsAutoTArray
 <
-nsTextRange
+TextRange
 4
 >
 textRanges
@@ -9950,7 +9950,7 @@ clauseAttr
 NS_TEXTRANGE_SELECTEDRAWTEXT
 ;
 }
-nsTextRange
+TextRange
 newRange
 ;
 for

@@ -5221,7 +5221,7 @@ IsEmpty
 )
 )
 {
-nsTextRange
+TextRange
 wholeRange
 ;
 wholeRange
@@ -5282,7 +5282,7 @@ Length
 i
 )
 {
-nsTextRange
+TextRange
 &
 range
 =
@@ -5293,7 +5293,7 @@ mRanges
 i
 ]
 ;
-nsTextRange
+TextRange
 nativeRange
 =
 range
@@ -5638,7 +5638,7 @@ IsEmpty
 )
 )
 {
-nsTextRange
+TextRange
 wholeRange
 ;
 wholeRange
@@ -8977,7 +8977,7 @@ mString
 ;
 nsTArray
 <
-nsTextRange
+TextRange
 >
 &
 textRanges
@@ -8993,7 +8993,7 @@ Clear
 (
 )
 ;
-nsTextRange
+TextRange
 newRange
 ;
 newRange
@@ -9080,7 +9080,7 @@ length
 )
 continue
 ;
-nsTextRange
+TextRange
 newRange
 ;
 newRange
@@ -9273,7 +9273,7 @@ fBoldLine
 ;
 }
 }
-nsTextRange
+TextRange
 &
 lastRange
 =
@@ -9344,7 +9344,7 @@ Length
 1
 )
 {
-nsTextRange
+TextRange
 &
 range
 =
@@ -9444,7 +9444,7 @@ mComposition
 .
 mStart
 ;
-nsTextRange
+TextRange
 caretRange
 ;
 caretRange

@@ -1816,7 +1816,10 @@ mData
 ;
 nsTArray
 <
-nsTextRange
+mozilla
+:
+:
+TextRange
 >
 mRanges
 ;
