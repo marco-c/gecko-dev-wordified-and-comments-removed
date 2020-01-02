@@ -101,11 +101,15 @@ PARALLEL_DIRS
 src
 '
 ]
-TEST_DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 test
+/
+mochitest
+.
+ini
 '
 ]
