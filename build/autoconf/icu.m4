@@ -638,7 +638,7 @@ MOZ_SHARED_ICU
 "
 ;
 then
-DBG_SUFFIX
+MOZ_ICU_DBG_SUFFIX
 =
 if
 test
@@ -649,7 +649,7 @@ MOZ_DEBUG
 "
 ;
 then
-DBG_SUFFIX
+MOZ_ICU_DBG_SUFFIX
 =
 d
 fi
@@ -681,7 +681,7 @@ LIB_PREFIX
 lib
 )
 (
-DBG_SUFFIX
+MOZ_ICU_DBG_SUFFIX
 )
 .
 (
@@ -872,7 +872,7 @@ fi
 fi
 AC_SUBST
 (
-DBG_SUFFIX
+MOZ_ICU_DBG_SUFFIX
 )
 AC_SUBST
 (

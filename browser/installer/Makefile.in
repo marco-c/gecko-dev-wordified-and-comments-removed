@@ -549,6 +549,15 @@ DEFINES
 -
 DMOZ_JEMALLOC3
 endif
+DEFINES
++
+=
+-
+DMOZ_ICU_DBG_SUFFIX
+=
+(
+MOZ_ICU_DBG_SUFFIX
+)
 libs
 :
 :
