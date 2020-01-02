@@ -175,6 +175,11 @@ AudioBufferSourceNode
 webidl
 '
 '
+AudioChannel
+.
+webidl
+'
+'
 AudioContext
 .
 webidl
