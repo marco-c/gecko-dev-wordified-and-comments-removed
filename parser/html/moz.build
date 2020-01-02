@@ -163,6 +163,11 @@ nsHtml5DependentUTF16Buffer
 h
 '
 '
+nsHtml5DocumentBuilder
+.
+h
+'
+'
 nsHtml5DocumentMode
 .
 h
@@ -314,6 +319,11 @@ cpp
 '
 '
 nsHtml5DependentUTF16Buffer
+.
+cpp
+'
+'
+nsHtml5DocumentBuilder
 .
 cpp
 '
