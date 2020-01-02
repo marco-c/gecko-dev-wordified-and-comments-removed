@@ -14652,7 +14652,10 @@ global
 if
 (
 !
-JS_ExecuteScript
+JS
+:
+:
+CloneAndExecuteScript
 (
 cx
 global
