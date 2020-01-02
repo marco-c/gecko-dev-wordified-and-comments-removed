@@ -784,7 +784,7 @@ nsGkAtoms
 preserveAspectRatio
 )
 {
-SchedulePaint
+InvalidateFrame
 (
 )
 ;
