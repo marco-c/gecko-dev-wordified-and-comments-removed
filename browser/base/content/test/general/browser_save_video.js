@@ -26,11 +26,7 @@ fileName
 ;
 gBrowser
 .
-selectedTab
-=
-gBrowser
-.
-addTab
+loadURI
 (
 "
 http
@@ -67,6 +63,12 @@ function
 (
 )
 {
+gBrowser
+.
+addTab
+(
+)
+;
 gBrowser
 .
 removeCurrentTab
