@@ -10858,9 +10858,9 @@ aStatus
 &
 &
 aIntent
-!
 =
-eShutdownIntent_Error
+=
+eShutdownIntent_Done
 &
 &
 aDone
