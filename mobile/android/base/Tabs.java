@@ -4096,7 +4096,7 @@ if
 (
 AboutPages
 .
-isBuiltinIconPage
+isDefaultIconPage
 (
 url
 )
