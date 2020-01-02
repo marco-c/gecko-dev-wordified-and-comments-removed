@@ -2538,7 +2538,7 @@ WriteParam
 aMsg
 aParam
 .
-seqno
+mSeqno
 )
 ;
 WriteParam
@@ -2641,7 +2641,7 @@ aIter
 aResult
 -
 >
-seqno
+mSeqno
 )
 |
 |
@@ -2862,7 +2862,7 @@ WriteParam
 aMsg
 aParam
 .
-seqno
+mSeqno
 )
 ;
 WriteParam
@@ -2918,7 +2918,7 @@ aIter
 aResult
 -
 >
-seqno
+mSeqno
 )
 &
 &
@@ -3293,7 +3293,7 @@ WriteParam
 aMsg
 aParam
 .
-seqno
+mSeqno
 )
 ;
 WriteParam
@@ -3381,7 +3381,7 @@ aIter
 aResult
 -
 >
-seqno
+mSeqno
 )
 &
 &
