@@ -196,8 +196,8 @@ NotifyIME
 widget
 :
 :
-NotificationToIME
-aNotification
+IMEMessage
+aMessage
 )
 ;
 uint32_t

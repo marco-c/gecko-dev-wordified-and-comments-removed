@@ -24232,8 +24232,10 @@ nsWindow
 :
 NotifyIME
 (
-NotificationToIME
-aNotification
+const
+IMENotification
+&
+aIMENotification
 )
 {
 if
@@ -24247,7 +24249,9 @@ mIMModule
 {
 switch
 (
-aNotification
+aIMENotification
+.
+mMessage
 )
 {
 case
@@ -24276,7 +24280,9 @@ break
 }
 switch
 (
-aNotification
+aIMENotification
+.
+mMessage
 )
 {
 case
