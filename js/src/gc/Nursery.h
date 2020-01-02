@@ -879,6 +879,9 @@ numActiveChunks_
 NumNurseryChunks
 )
 {
+#
+ifndef
+XP_MACOSX
 uintptr_t
 decommitStart
 =
@@ -926,6 +929,8 @@ heapEnd
 decommitStart
 )
 ;
+#
+endif
 }
 #
 endif
