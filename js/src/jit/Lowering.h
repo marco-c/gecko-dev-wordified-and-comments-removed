@@ -1895,6 +1895,14 @@ MSimdValueX4
 ins
 )
 ;
+bool
+visitSimdConstant
+(
+MSimdConstant
+*
+ins
+)
+;
 }
 ;
 }
