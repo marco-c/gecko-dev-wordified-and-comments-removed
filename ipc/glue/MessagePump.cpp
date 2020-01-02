@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsTimerImpl
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -158,6 +165,11 @@ mozilla
 :
 :
 ipc
+;
+NS_DEFINE_NAMED_CID
+(
+NS_TIMER_CID
+)
 ;
 static
 mozilla
@@ -310,7 +322,7 @@ mDelayedWorkTimer
 =
 do_CreateInstance
 (
-NS_TIMER_CONTRACTID
+kNS_TIMER_CID
 )
 ;
 MOZ_ASSERT
@@ -583,7 +595,7 @@ mDelayedWorkTimer
 =
 do_CreateInstance
 (
-NS_TIMER_CONTRACTID
+kNS_TIMER_CID
 )
 ;
 if
@@ -1054,7 +1066,7 @@ mDelayedWorkTimer
 =
 do_CreateInstance
 (
-NS_TIMER_CONTRACTID
+kNS_TIMER_CID
 )
 ;
 MOZ_ASSERT

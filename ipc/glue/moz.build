@@ -564,6 +564,17 @@ URIParams
 ipdlh
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+xpcom
+/
+threads
+'
+]
 include
 (
 '
