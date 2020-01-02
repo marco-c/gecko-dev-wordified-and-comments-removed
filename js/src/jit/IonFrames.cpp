@@ -5093,7 +5093,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 forwardBufferPointer
 (
@@ -5196,7 +5198,9 @@ runtime
 )
 -
 >
-gcNursery
+gc
+.
+nursery
 .
 forwardBufferPointer
 (
@@ -7409,7 +7413,9 @@ clear
 rt
 -
 >
-gcNumber
+gc
+.
+number
 )
 ;
 }
