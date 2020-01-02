@@ -3711,6 +3711,16 @@ mPrivKey
 )
 ;
 }
+if
+(
+!
+aAlgorithm
+.
+IsString
+(
+)
+)
+{
 RootedDictionary
 <
 RsaOaepParams
@@ -3785,6 +3795,7 @@ Value
 )
 )
 ;
+}
 }
 nsRefPtr
 <
