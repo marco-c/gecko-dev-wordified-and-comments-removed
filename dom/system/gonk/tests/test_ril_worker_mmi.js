@@ -2653,10 +2653,6 @@ int32Array
 0
 145
 49
-Ci
-.
-nsIDOMMozMobileCFInfo
-.
 CALL_FORWARD_REASON_UNCONDITIONAL
 1
 1
@@ -2771,10 +2767,6 @@ rules
 ]
 .
 reason
-Ci
-.
-nsIDOMMozMobileCFInfo
-.
 CALL_FORWARD_REASON_UNCONDITIONAL
 )
 ;
