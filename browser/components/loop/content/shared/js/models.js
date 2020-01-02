@@ -87,6 +87,9 @@ undefined
 selectedCallType
 :
 undefined
+callToken
+:
+undefined
 }
 sdk
 :
@@ -423,6 +426,11 @@ audio
 -
 video
 "
+callToken
+:
+sessionData
+.
+callToken
 }
 )
 ;
