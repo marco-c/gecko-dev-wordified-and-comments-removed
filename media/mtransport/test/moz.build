@@ -143,6 +143,11 @@ runnable_utils_unittest
 cpp
 '
 '
+simpletokenbucket_unittest
+.
+cpp
+'
+'
 sockettransportservice_unittest
 .
 cpp
