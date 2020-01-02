@@ -230,10 +230,6 @@ friend
 class
 ContentClientIncremental
 ;
-typedef
-gfxImageFormat
-gfxImageFormat
-;
 public
 :
 virtual

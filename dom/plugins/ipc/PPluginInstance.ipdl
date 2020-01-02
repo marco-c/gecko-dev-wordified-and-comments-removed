@@ -141,6 +141,13 @@ nsGUIEventIPC
 h
 "
 ;
+include
+"
+gfxTypes
+.
+h
+"
+;
 using
 NPError
 ;
@@ -175,9 +182,6 @@ plugins
 NativeWindowHandle
 ;
 using
-mozilla
-:
-:
 gfxSurfaceType
 ;
 using

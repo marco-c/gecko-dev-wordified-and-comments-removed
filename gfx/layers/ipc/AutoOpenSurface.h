@@ -51,14 +51,6 @@ AutoOpenSurface
 {
 public
 :
-typedef
-gfxContentType
-gfxContentType
-;
-typedef
-gfxImageFormat
-gfxImageFormat
-;
 AutoOpenSurface
 (
 OpenMode

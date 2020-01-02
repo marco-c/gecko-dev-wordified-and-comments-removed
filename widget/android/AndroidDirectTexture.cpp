@@ -26,10 +26,6 @@ nsRect
 .
 h
 "
-typedef
-gfxImageFormat
-gfxImageFormat
-;
 namespace
 mozilla
 {

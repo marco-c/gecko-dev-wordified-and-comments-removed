@@ -115,12 +115,6 @@ using
 mozilla
 :
 :
-gfxContentType
-;
-using
-mozilla
-:
-:
 GraphicsFilterType
 ;
 using
