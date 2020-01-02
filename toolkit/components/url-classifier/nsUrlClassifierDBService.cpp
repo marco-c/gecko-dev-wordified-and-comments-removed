@@ -4958,6 +4958,8 @@ Classify
 nsIPrincipal
 *
 aPrincipal
+bool
+aTrackingProtectionEnabled
 nsIURIClassifierCallback
 *
 c
@@ -5108,6 +5110,9 @@ tracking
 ;
 if
 (
+aTrackingProtectionEnabled
+&
+&
 !
 tracking
 .
@@ -5122,6 +5127,8 @@ LOG
 "
 Looking
 up
+third
+party
 in
 tracking
 table

@@ -82,6 +82,14 @@ nsIChannel
 aChannel
 )
 ;
+bool
+ShouldEnableTrackingProtection
+(
+nsIChannel
+*
+aChannel
+)
+;
 }
 ;
 #
