@@ -616,7 +616,6 @@ PRUnichar
 (
 chars
 )
-length
 )
 ;
 #
