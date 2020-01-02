@@ -720,6 +720,14 @@ ins
 )
 ;
 bool
+visitCeil
+(
+MCeil
+*
+ins
+)
+;
+bool
 visitRound
 (
 MRound

@@ -1298,6 +1298,16 @@ FloorF
 \
 _
 (
+Ceil
+)
+\
+_
+(
+CeilF
+)
+\
+_
+(
 Round
 )
 \
