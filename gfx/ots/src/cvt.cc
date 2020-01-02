@@ -244,3 +244,6 @@ cvt
 ;
 }
 }
+#
+undef
+TABLE_NAME

@@ -2187,3 +2187,6 @@ os2
 ;
 }
 }
+#
+undef
+TABLE_NAME

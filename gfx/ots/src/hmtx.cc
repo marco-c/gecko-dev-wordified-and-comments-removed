@@ -225,3 +225,6 @@ hmtx
 ;
 }
 }
+#
+undef
+TABLE_NAME

@@ -216,3 +216,6 @@ fpgm
 ;
 }
 }
+#
+undef
+TABLE_NAME

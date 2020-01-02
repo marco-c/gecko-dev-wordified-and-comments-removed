@@ -573,3 +573,6 @@ loca
 ;
 }
 }
+#
+undef
+TABLE_NAME

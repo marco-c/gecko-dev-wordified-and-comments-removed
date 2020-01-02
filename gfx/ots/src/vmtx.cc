@@ -246,3 +246,6 @@ vmtx
 ;
 }
 }
+#
+undef
+TABLE_NAME

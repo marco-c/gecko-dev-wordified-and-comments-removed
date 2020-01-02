@@ -1943,3 +1943,6 @@ glyf
 ;
 }
 }
+#
+undef
+TABLE_NAME
