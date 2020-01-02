@@ -14,10 +14,16 @@ h
 #
 include
 "
-gfxFont
+nsAutoPtr
 .
 h
 "
+class
+gfxFontEntry
+;
+class
+gfxFontGroup
+;
 class
 nsCSSFontFaceRule
 ;

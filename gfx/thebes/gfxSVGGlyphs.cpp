@@ -1130,7 +1130,7 @@ if
 aDrawMode
 =
 =
-gfxFont
+DrawMode
 :
 :
 GLYPH_PATH

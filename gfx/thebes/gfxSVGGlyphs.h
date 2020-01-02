@@ -119,13 +119,6 @@ dom
 Element
 Element
 ;
-typedef
-gfxFont
-:
-:
-DrawMode
-DrawMode
-;
 public
 :
 gfxSVGGlyphsDocument
@@ -246,13 +239,6 @@ dom
 :
 Element
 Element
-;
-typedef
-gfxFont
-:
-:
-DrawMode
-DrawMode
 ;
 public
 :

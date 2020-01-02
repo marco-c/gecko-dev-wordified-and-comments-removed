@@ -1183,7 +1183,7 @@ ThebesContext
 (
 )
 gfxPt
-gfxFont
+DrawMode
 :
 :
 GLYPH_FILL
