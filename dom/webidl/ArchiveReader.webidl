@@ -92,7 +92,15 @@ MPL
 *
 /
 [
-PrefControlled
+Pref
+=
+"
+dom
+.
+archivereader
+.
+enabled
+"
 Constructor
 (
 Blob

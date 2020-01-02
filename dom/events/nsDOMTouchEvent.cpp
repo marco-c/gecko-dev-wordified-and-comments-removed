@@ -126,6 +126,12 @@ nsDOMTouchList
 :
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 {
 return
@@ -134,6 +140,8 @@ nsDOMTouchEvent
 :
 PrefEnabled
 (
+aCx
+aGlobal
 )
 ;
 }
@@ -876,6 +884,12 @@ nsDOMTouchEvent
 :
 PrefEnabled
 (
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
 )
 {
 bool

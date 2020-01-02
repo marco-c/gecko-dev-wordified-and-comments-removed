@@ -272,6 +272,16 @@ static
 bool
 PrefEnabled
 (
+JSContext
+*
+aCx
+=
+nullptr
+JSObject
+*
+aGlobal
+=
+nullptr
 )
 ;
 virtual

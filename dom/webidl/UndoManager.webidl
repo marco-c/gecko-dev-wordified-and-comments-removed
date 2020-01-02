@@ -149,7 +149,15 @@ apply
 *
 /
 [
-PrefControlled
+Pref
+=
+"
+dom
+.
+undo_manager
+.
+enabled
+"
 ]
 interface
 UndoManager

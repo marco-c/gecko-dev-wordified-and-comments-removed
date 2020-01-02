@@ -208,12 +208,6 @@ ErrorResult
 aRv
 )
 ;
-static
-bool
-PrefEnabled
-(
-)
-;
 void
 Disconnect
 (

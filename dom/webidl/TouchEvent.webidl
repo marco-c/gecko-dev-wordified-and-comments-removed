@@ -95,7 +95,14 @@ interface
 WindowProxy
 ;
 [
-PrefControlled
+Func
+=
+"
+nsDOMTouchEvent
+:
+:
+PrefEnabled
+"
 ]
 interface
 TouchEvent

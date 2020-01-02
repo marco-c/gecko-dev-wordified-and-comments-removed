@@ -141,7 +141,15 @@ work
 *
 /
 [
-PrefControlled
+Pref
+=
+"
+dom
+.
+webnotifications
+.
+enabled
+"
 Constructor
 (
 DOMString

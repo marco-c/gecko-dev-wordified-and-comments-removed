@@ -149,7 +149,14 @@ apply
 *
 /
 [
-PrefControlled
+Func
+=
+"
+nsDOMTouchList
+:
+:
+PrefEnabled
+"
 ]
 interface
 TouchList

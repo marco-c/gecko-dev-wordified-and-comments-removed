@@ -113,7 +113,15 @@ interface
 ActivityOptions
 ;
 [
-PrefControlled
+Pref
+=
+"
+dom
+.
+sysmsg
+.
+enabled
+"
 Constructor
 (
 ActivityOptions

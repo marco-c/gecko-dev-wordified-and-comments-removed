@@ -263,12 +263,6 @@ Close
 (
 )
 ;
-static
-bool
-PrefEnabled
-(
-)
-;
 nsPIDOMWindow
 *
 GetParentObject

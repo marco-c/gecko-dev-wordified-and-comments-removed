@@ -153,7 +153,15 @@ apply
 *
 /
 [
-PrefControlled
+Pref
+=
+"
+dom
+.
+webcomponents
+.
+enabled
+"
 ]
 interface
 ShadowRoot
