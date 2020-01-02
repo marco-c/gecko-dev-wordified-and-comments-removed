@@ -418,7 +418,13 @@ DEFAULT
 ;
 inline
 LDefinition
-tempFloat
+tempFloat32
+(
+)
+;
+inline
+LDefinition
+tempDouble
 (
 )
 ;

@@ -125,7 +125,7 @@ LTableSwitchV
 temp
 (
 )
-tempFloat
+tempDouble
 (
 )
 temp
@@ -2253,7 +2253,7 @@ BogusTemp
 (
 )
 :
-tempFloat
+tempDouble
 (
 )
 ;
@@ -2330,7 +2330,7 @@ BogusTemp
 (
 )
 :
-tempFloat
+tempFloat32
 (
 )
 ;
