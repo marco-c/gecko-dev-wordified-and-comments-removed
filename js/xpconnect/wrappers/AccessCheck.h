@@ -132,15 +132,6 @@ Action
 act
 )
 ;
-static
-bool
-needsSystemOnlyWrapper
-(
-JSObject
-*
-obj
-)
-;
 }
 ;
 struct
