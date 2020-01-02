@@ -20366,6 +20366,16 @@ callee
 (
 )
 ;
+if
+(
+fun
+-
+>
+hasScript
+(
+)
+)
+{
 JSScript
 *
 script
@@ -20389,6 +20399,7 @@ funHasExtensibleScope
 )
 return
 ;
+}
 }
 }
 else
