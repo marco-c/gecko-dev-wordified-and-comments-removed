@@ -504,7 +504,7 @@ nsAString
 aPseudoElement
 )
 :
-nsEvent
+WidgetEvent
 (
 aIsTrusted
 aMessage

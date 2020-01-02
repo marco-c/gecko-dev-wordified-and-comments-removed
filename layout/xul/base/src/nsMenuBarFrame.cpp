@@ -707,7 +707,7 @@ uint32_t
 >
 accessKeys
 ;
-nsEvent
+WidgetEvent
 *
 nativeEvent
 =

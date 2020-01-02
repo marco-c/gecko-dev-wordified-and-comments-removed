@@ -60,6 +60,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -81,7 +85,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 uint32_t
@@ -830,7 +834,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 uint32_t

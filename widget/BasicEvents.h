@@ -3133,12 +3133,5 @@ aCopyTargets
 }
 ;
 }
-typedef
-mozilla
-:
-:
-WidgetEvent
-nsEvent
-;
 #
 endif

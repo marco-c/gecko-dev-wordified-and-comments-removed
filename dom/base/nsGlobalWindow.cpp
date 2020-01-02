@@ -13593,7 +13593,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEvent
+WidgetEvent
 event
 (
 aVisitor
@@ -13641,7 +13641,7 @@ nsGlobalWindow
 :
 DispatchDOMEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent
@@ -29204,7 +29204,7 @@ SetTrusted
 mTrustedCaller
 )
 ;
-nsEvent
+WidgetEvent
 *
 internalEvent
 =
@@ -41616,7 +41616,7 @@ if
 fireMozStorageChanged
 )
 {
-nsEvent
+WidgetEvent
 *
 internalEvent
 =
@@ -49045,7 +49045,7 @@ aMouseDownEvent
 NS_ERROR_FAILURE
 )
 ;
-nsEvent
+WidgetEvent
 *
 internalEvent
 =

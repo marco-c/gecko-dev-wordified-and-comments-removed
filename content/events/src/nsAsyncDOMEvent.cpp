@@ -56,6 +56,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -68,7 +72,7 @@ nsAsyncDOMEvent
 nsINode
 *
 aEventNode
-nsEvent
+WidgetEvent
 &
 aEvent
 )

@@ -281,7 +281,7 @@ static
 bool
 EventTargetIn
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIContent

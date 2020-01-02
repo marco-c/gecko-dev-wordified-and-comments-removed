@@ -2623,7 +2623,10 @@ ExecuteJSCode
 nsIDOMElement
 *
 anElement
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )

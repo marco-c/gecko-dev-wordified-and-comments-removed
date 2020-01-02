@@ -774,7 +774,7 @@ if
 hasAccessKeyCandidates
 )
 {
-nsEvent
+WidgetEvent
 *
 nativeEvent
 =

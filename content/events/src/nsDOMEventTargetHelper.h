@@ -1186,7 +1186,10 @@ virtual
 nsresult
 DispatchDOMEvent
 (
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsIDOMEvent

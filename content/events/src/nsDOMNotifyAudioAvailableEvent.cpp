@@ -50,7 +50,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 uint32_t
@@ -587,7 +587,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 uint32_t

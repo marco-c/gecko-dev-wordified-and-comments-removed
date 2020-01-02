@@ -251,9 +251,12 @@ nsEventChainPostVisitor
 ptr
 ]
 native
-nsEventPtr
+WidgetEventPtr
 (
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 )
 ;
 [
@@ -1745,7 +1748,7 @@ dispatch
 nsIDOMEvent
 not
 only
-nsEvent
+WidgetEvent
 .
 *
 param
@@ -1854,7 +1857,7 @@ void
 DispatchDOMEvent
 (
 in
-nsEventPtr
+WidgetEventPtr
 aEvent
 in
 nsIDOMEvent

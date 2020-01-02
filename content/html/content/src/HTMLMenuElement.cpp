@@ -262,7 +262,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsEvent
+WidgetEvent
 event
 (
 true

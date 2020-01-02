@@ -20593,7 +20593,7 @@ sBuf
 )
 ;
 }
-nsEvent
+WidgetEvent
 *
 nsContentUtils
 :

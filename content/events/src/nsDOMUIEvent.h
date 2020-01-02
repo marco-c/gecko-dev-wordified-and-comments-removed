@@ -159,7 +159,10 @@ CalculateScreenPoint
 nsPresContext
 *
 aPresContext
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )
@@ -349,7 +352,10 @@ CalculateClientPoint
 nsPresContext
 *
 aPresContext
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 CSSIntPoint

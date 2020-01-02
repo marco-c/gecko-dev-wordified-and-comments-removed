@@ -2436,7 +2436,7 @@ ListenerCanHandle
 nsListenerStruct
 *
 aLs
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -4714,7 +4714,7 @@ HandleEventInternal
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent

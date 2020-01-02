@@ -1266,7 +1266,7 @@ mForm
 nsresult
 DoSubmitOrReset
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 int32_t
@@ -1286,7 +1286,7 @@ HandleDefaultSubmitRemoval
 nsresult
 DoSubmit
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -1298,7 +1298,7 @@ nsFormSubmission
 *
 *
 aFormSubmission
-nsEvent
+WidgetEvent
 *
 aEvent
 )

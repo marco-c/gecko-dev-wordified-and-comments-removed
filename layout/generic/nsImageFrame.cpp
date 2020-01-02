@@ -7403,7 +7403,7 @@ nsImageFrame
 :
 GetContentForEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIContent

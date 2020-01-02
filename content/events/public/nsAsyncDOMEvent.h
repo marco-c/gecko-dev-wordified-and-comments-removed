@@ -125,7 +125,10 @@ nsAsyncDOMEvent
 nsINode
 *
 aEventNode
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 &
 aEvent
 )

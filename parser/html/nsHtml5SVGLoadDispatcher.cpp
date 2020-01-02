@@ -35,6 +35,10 @@ BasicEvents
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsHtml5SVGLoadDispatcher
 :
 :
@@ -75,7 +79,7 @@ Run
 (
 )
 {
-nsEvent
+WidgetEvent
 event
 (
 true

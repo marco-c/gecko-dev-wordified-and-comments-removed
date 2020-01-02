@@ -108,6 +108,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -902,7 +906,7 @@ NS_ENSURE_ARG
 aEventTarget
 )
 ;
-nsEvent
+WidgetEvent
 event
 (
 true

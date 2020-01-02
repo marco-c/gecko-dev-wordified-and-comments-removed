@@ -3816,7 +3816,7 @@ EqualsLiteral
 continue
 ;
 }
-nsEvent
+WidgetEvent
 event
 (
 true

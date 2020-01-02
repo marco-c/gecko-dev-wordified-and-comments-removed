@@ -8502,7 +8502,7 @@ SetTrusted
 aTrusted
 )
 ;
-nsEvent
+WidgetEvent
 *
 internalEvent
 =

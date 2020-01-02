@@ -20123,7 +20123,7 @@ SetTrusted
 true
 )
 ;
-nsEvent
+WidgetEvent
 *
 innerEvent
 =

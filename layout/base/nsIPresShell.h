@@ -1657,7 +1657,10 @@ nsresult
 )
 HandleEventWithTarget
 (
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -1683,7 +1686,10 @@ HandleDOMEventWithTarget
 nsIContent
 *
 aTargetContent
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsEventStatus
@@ -1735,7 +1741,10 @@ nsIContent
 )
 GetEventTargetContent
 (
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 )

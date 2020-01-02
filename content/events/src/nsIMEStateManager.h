@@ -208,7 +208,10 @@ aEventTargetNode
 nsPresContext
 *
 aPresContext
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsEventStatus

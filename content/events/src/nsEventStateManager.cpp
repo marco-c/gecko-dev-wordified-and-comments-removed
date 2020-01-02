@@ -783,7 +783,7 @@ inline
 bool
 IsMouseEventReal
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -1586,7 +1586,7 @@ static
 void
 OnEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -2162,7 +2162,7 @@ nsMouseWheelTransaction
 :
 OnEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -3610,7 +3610,7 @@ PreHandleEvent
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -6427,7 +6427,7 @@ nsEventStateManager
 :
 DispatchCrossProcessEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsFrameLoader
@@ -6750,7 +6750,7 @@ nsFrameLoader
 *
 aFrameLoader
 const
-nsEvent
+WidgetEvent
 &
 aEvent
 )
@@ -6822,7 +6822,7 @@ bool
 CrossProcessSafeEvent
 (
 const
-nsEvent
+WidgetEvent
 &
 aEvent
 )
@@ -6918,7 +6918,7 @@ nsEventStateManager
 :
 HandleCrossProcessEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -12924,7 +12924,7 @@ PostHandleEvent
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -15041,7 +15041,7 @@ nsEventStateManager
 :
 RemoteQueryContentEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -15241,7 +15241,7 @@ UpdateCursor
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIFrame
@@ -19254,7 +19254,7 @@ nsEventStateManager
 :
 GetEventTargetContent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )

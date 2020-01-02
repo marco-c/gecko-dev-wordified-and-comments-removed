@@ -1358,7 +1358,7 @@ nsDOMEventTargetHelper
 :
 DispatchDOMEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent

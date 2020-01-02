@@ -137,7 +137,7 @@ InitializePoints
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 )

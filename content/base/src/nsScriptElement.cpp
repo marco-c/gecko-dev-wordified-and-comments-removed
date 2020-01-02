@@ -84,6 +84,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -249,7 +253,7 @@ NS_LOAD
 :
 NS_LOAD_ERROR
 ;
-nsEvent
+WidgetEvent
 event
 (
 true

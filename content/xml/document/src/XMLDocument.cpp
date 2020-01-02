@@ -2769,7 +2769,7 @@ nsIDocument
 READYSTATE_COMPLETE
 )
 ;
-nsEvent
+WidgetEvent
 event
 (
 true

@@ -2560,7 +2560,10 @@ GetLocalizedEllipsis
 )
 ;
 static
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 GetNativeEvent
 (

@@ -5082,7 +5082,7 @@ aTrusted
 *
 *
 Sets
-nsEvent
+WidgetEvent
 :
 :
 mFlags

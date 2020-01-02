@@ -7517,7 +7517,7 @@ return
 NS_OK
 ;
 }
-nsEvent
+WidgetEvent
 inputEvent
 (
 true
@@ -21636,7 +21636,7 @@ aDOMKeyEvent
 nullptr
 )
 ;
-nsEvent
+WidgetEvent
 *
 nativeEvent
 =

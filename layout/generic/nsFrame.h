@@ -623,7 +623,10 @@ MOZ_OVERRIDE
 NS_IMETHOD
 GetContentForEvent
 (
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 nsIContent

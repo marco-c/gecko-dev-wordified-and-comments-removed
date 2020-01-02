@@ -1711,7 +1711,7 @@ aTarget
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent
@@ -1749,7 +1749,7 @@ Trying
 to
 dispatch
 without
-nsEvent
+WidgetEvent
 !
 "
 )
@@ -2121,7 +2121,7 @@ if
 aDOMEvent
 )
 {
-nsEvent
+WidgetEvent
 *
 innerEvent
 =
@@ -2994,7 +2994,7 @@ DispatchDOMEvent
 nsISupports
 *
 aTarget
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent
@@ -3013,7 +3013,7 @@ if
 aDOMEvent
 )
 {
-nsEvent
+WidgetEvent
 *
 innerEvent
 =
@@ -3148,7 +3148,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 const

@@ -2316,7 +2316,7 @@ node
 "
 )
 ;
-nsEvent
+WidgetEvent
 *
 event
 =
@@ -8235,7 +8235,7 @@ nsIDOMEvent
 aEvent
 )
 {
-nsEvent
+WidgetEvent
 *
 evt
 =

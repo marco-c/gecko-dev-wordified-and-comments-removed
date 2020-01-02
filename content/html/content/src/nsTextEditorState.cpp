@@ -2822,7 +2822,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEvent
+WidgetEvent
 event
 (
 true

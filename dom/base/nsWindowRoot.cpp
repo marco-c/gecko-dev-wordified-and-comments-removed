@@ -349,7 +349,7 @@ nsWindowRoot
 :
 DispatchDOMEvent
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 nsIDOMEvent

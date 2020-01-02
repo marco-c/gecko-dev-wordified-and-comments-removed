@@ -167,13 +167,6 @@ typedef
 mozilla
 :
 :
-WidgetEvent
-nsEvent
-;
-typedef
-mozilla
-:
-:
 WidgetMouseEvent
 nsMouseEvent
 ;

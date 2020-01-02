@@ -1831,7 +1831,7 @@ char
 GetGeckoKeyEventType
 (
 const
-nsEvent
+WidgetEvent
 &
 aEvent
 )

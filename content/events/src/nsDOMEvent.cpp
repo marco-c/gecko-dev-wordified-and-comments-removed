@@ -224,7 +224,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -280,7 +280,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -330,7 +330,7 @@ true
 mEvent
 =
 new
-nsEvent
+WidgetEvent
 (
 false
 0
@@ -2200,7 +2200,7 @@ NS_ASSERTION
 mEvent
 "
 No
-nsEvent
+WidgetEvent
 for
 nsDOMEvent
 duplication
@@ -2217,7 +2217,7 @@ return
 NS_OK
 ;
 }
-nsEvent
+WidgetEvent
 *
 newEvent
 =
@@ -2246,7 +2246,7 @@ NS_EVENT
 newEvent
 =
 new
-nsEvent
+WidgetEvent
 (
 false
 msg
@@ -3557,7 +3557,7 @@ mPropagationStopped
 }
 NS_IMETHODIMP_
 (
-nsEvent
+WidgetEvent
 *
 )
 nsDOMEvent
@@ -3743,7 +3743,7 @@ nsDOMEvent
 :
 GetEventPopupControlState
 (
-nsEvent
+WidgetEvent
 *
 aEvent
 )
@@ -4429,7 +4429,7 @@ GetScreenCoords
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 LayoutDeviceIntPoint
@@ -4626,7 +4626,7 @@ GetPageCoords
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 LayoutDeviceIntPoint
@@ -4720,7 +4720,7 @@ GetClientCoords
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 LayoutDeviceIntPoint
@@ -5468,7 +5468,7 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+WidgetEvent
 *
 aEvent
 )

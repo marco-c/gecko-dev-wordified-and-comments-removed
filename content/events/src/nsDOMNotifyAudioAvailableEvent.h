@@ -63,7 +63,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 uint32_t
@@ -109,7 +112,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsEvent
+mozilla
+:
+:
+WidgetEvent
 *
 aEvent
 uint32_t
