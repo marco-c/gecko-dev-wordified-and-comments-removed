@@ -1052,7 +1052,7 @@ nsStyleSet
 eAnimationSheet
 )
 {
-ElementAnimations
+CommonElementAnimationData
 *
 ea
 =
