@@ -3137,13 +3137,11 @@ mIMEComposing
 ;
 mIMEComposingText
 =
-static_cast
-<
-WidgetTextEvent
-*
->
-(
 aEvent
+-
+>
+AsTextEvent
+(
 )
 -
 >

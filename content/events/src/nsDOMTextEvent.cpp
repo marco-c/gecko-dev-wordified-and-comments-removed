@@ -117,13 +117,11 @@ WidgetTextEvent
 *
 te
 =
-static_cast
-<
-WidgetTextEvent
-*
->
-(
 mEvent
+-
+>
+AsTextEvent
+(
 )
 ;
 mText
