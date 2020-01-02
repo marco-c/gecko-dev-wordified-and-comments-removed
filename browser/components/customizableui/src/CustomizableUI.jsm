@@ -1980,8 +1980,8 @@ this
 .
 insertWidgetBefore
 (
-aNode
-aNextNode
+widgetNode
+nextNode
 container
 aArea
 )
