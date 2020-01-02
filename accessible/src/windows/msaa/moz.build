@@ -127,7 +127,7 @@ HyperTextAccessibleWrap
 h
 '
 ]
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
@@ -220,7 +220,7 @@ MOZ_XUL
 '
 ]
 :
-UNIFIED_SOURCES
+SOURCES
 +
 =
 [
