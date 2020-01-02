@@ -863,6 +863,11 @@ ResetPlayback
 (
 )
 ;
+void
+FlushDecoding
+(
+)
+;
 int64_t
 GetAudioClock
 (
