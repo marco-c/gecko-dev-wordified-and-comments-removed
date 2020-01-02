@@ -2827,6 +2827,9 @@ name
 flavor
 source
 value
+force
+=
+False
 )
 :
         
@@ -2905,6 +2908,9 @@ and
 source
 >
 prevsource
+and
+not
+force
 :
             
 _log

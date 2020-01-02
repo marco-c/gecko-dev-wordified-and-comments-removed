@@ -4397,12 +4397,16 @@ data
 Variables
 .
 FLAVOR_SIMPLE
+                    
 data
 .
 Variables
 .
 SOURCE_AUTOMATIC
 w
+force
+=
+True
 )
             
 e
