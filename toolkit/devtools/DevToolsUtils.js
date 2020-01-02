@@ -889,6 +889,16 @@ aObj
 {
 if
 (
+!
+Cu
+)
+{
+return
+false
+;
+}
+if
+(
 Cu
 .
 getGlobalForObject
