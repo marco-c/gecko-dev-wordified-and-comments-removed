@@ -251,6 +251,11 @@ AppProcessChecker
 cpp
 '
 '
+ColorPickerParent
+.
+cpp
+'
+'
 ContentChild
 .
 cpp
@@ -390,6 +395,11 @@ ipdl
 '
 '
 PBrowser
+.
+ipdl
+'
+'
+PColorPicker
 .
 ipdl
 '
