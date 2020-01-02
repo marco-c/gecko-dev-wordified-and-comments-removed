@@ -318,6 +318,11 @@ telemetry
 FX_SESSION_RESTORE_READ_FILE_MS
 :
 durationMs
+FX_SESSION_RESTORE_FILE_SIZE_BYTES
+:
+bytes
+.
+byteLength
 }
 }
 ;
