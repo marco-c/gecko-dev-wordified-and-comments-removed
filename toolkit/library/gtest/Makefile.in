@@ -134,7 +134,7 @@ libxul
 mk
 ifdef
 COMPILE_ENVIRONMENT
-libs
+target
 :
 :
 (

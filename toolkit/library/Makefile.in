@@ -285,7 +285,7 @@ MAKE
 -
 C
 gtest
-libs
+target
 LINK_GTEST
 =
 1

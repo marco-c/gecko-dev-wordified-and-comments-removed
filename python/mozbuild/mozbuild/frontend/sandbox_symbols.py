@@ -984,9 +984,7 @@ MSVC
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1144,9 +1142,7 @@ disabled
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1502,9 +1498,7 @@ linked
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1589,9 +1583,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1886,9 +1878,7 @@ compiling
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -1935,7 +1925,7 @@ add_java_jar
 "
 "
 '
-binaries
+libs
 '
 )
     
@@ -2083,9 +2073,7 @@ Windows
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -2974,9 +2962,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -3042,9 +3028,7 @@ platforms
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -3127,9 +3111,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -3717,9 +3699,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -3772,9 +3752,7 @@ unchanged
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5291,9 +5269,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5372,9 +5348,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5453,9 +5427,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '
@@ -5538,9 +5510,7 @@ file
 "
 "
 "
-'
-binaries
-'
+None
 )
     
 '

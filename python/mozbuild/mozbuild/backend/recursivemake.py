@@ -5964,23 +5964,6 @@ obj
 affected_tiers
 )
         
-if
-'
-binaries
-'
-in
-affected_tiers
-:
-            
-affected_tiers
-.
-add
-(
-'
-libs
-'
-)
-        
 for
 tier
 in

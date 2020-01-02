@@ -83,7 +83,6 @@ ifdef
 SHARED_LIBRARY
 ifdef
 IS_COMPONENT
-libs
 target
 :
 :
@@ -193,7 +192,6 @@ FINAL_TARGET
 PROGRAMS_TARGET
 :
 =
-libs
 target
 INSTALL_TARGETS
 +
@@ -233,7 +231,6 @@ DIST
 lib
 DIST_LIBRARY_TARGET
 =
-libs
 target
 INSTALL_TARGETS
 +
@@ -263,7 +260,6 @@ FINAL_TARGET
 )
 SHARED_LIBRARY_TARGET
 =
-libs
 target
 INSTALL_TARGETS
 +
@@ -306,7 +302,6 @@ DIST
 lib
 IMPORT_LIB_TARGET
 =
-libs
 target
 ifdef
 IMPORT_LIB_FILES
@@ -354,7 +349,6 @@ host
 bin
 HOST_PROGRAMS_TARGET
 =
-libs
 host
 INSTALL_TARGETS
 +
@@ -380,7 +374,6 @@ host
 lib
 HOST_LIBRARY_TARGET
 =
-libs
 host
 INSTALL_TARGETS
 +

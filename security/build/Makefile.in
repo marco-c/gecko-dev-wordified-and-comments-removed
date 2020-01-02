@@ -1780,7 +1780,6 @@ bin
 NSS_DIST_DLL_TARGET
 :
 =
-libs
 target
 INSTALL_TARGETS
 +
@@ -1896,7 +1895,6 @@ lib
 NSS_SDK_LIB_TARGET
 :
 =
-libs
 target
 INSTALL_TARGETS
 +
