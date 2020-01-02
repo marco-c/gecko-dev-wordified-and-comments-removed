@@ -180,6 +180,9 @@ mIsSafeModeNecessary
 bool
 mStartupCrashTrackingEnded
 ;
+bool
+mRestartTouchEnvironment
+;
 #
 if
 defined
