@@ -27,6 +27,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TypedEnum
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -129,6 +138,10 @@ CanonicalizeNaN
 ;
 enum
 StructuredDataType
+MOZ_ENUM_TYPE
+(
+uint32_t
+)
 {
 SCTAG_FLOAT_MAX
 =
