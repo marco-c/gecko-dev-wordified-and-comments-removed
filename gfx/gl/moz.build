@@ -602,6 +602,11 @@ SharedSurfaceEGL
 cpp
 '
 '
+TextureImageEGL
+.
+cpp
+'
+'
 SharedSurfaceGL
 .
 cpp
