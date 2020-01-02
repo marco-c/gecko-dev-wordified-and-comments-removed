@@ -718,7 +718,7 @@ NS_ASSERTION
 nsLayoutUtils
 :
 :
-IsFirstContinuationOrSpecialSibling
+IsFirstContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -1465,7 +1465,7 @@ firstCont
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -1723,7 +1723,7 @@ NS_ASSERTION
 nsLayoutUtils
 :
 :
-IsFirstContinuationOrSpecialSibling
+IsFirstContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -1768,7 +1768,7 @@ cont
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 cont
 )
@@ -1898,7 +1898,7 @@ if
 nsLayoutUtils
 :
 :
-IsFirstContinuationOrSpecialSibling
+IsFirstContinuationOrIBSplitSibling
 (
 f
 )
@@ -1949,7 +1949,7 @@ cont
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 cont
 )

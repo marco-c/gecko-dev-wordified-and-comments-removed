@@ -1808,7 +1808,7 @@ aFrame
 static
 nsIFrame
 *
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 nsIFrame
 *
@@ -1818,7 +1818,7 @@ aFrame
 static
 nsIFrame
 *
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 nsIFrame
 *
@@ -1827,7 +1827,7 @@ aFrame
 ;
 static
 bool
-IsFirstContinuationOrSpecialSibling
+IsFirstContinuationOrIBSplitSibling
 (
 nsIFrame
 *

@@ -20802,7 +20802,7 @@ ancestorFrame
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 ancestorFrame
 )

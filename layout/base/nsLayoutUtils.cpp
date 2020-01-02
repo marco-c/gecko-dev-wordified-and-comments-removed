@@ -12536,7 +12536,7 @@ aFrame
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 aFrame
 )
@@ -13626,7 +13626,7 @@ nsIFrame
 nsLayoutUtils
 :
 :
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 nsIFrame
 *
@@ -13718,7 +13718,7 @@ nsIFrame
 nsLayoutUtils
 :
 :
-FirstContinuationOrSpecialSibling
+FirstContinuationOrIBSplitSibling
 (
 nsIFrame
 *
@@ -13802,7 +13802,7 @@ bool
 nsLayoutUtils
 :
 :
-IsFirstContinuationOrSpecialSibling
+IsFirstContinuationOrIBSplitSibling
 (
 nsIFrame
 *
@@ -25729,7 +25729,7 @@ aFontFaceList
 ;
 aFrame
 =
-GetNextContinuationOrSpecialSibling
+GetNextContinuationOrIBSplitSibling
 (
 aFrame
 )
