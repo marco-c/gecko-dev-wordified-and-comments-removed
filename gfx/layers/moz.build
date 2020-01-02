@@ -1688,6 +1688,13 @@ cpp
 '
 composite
 /
+FPSCounter
+.
+cpp
+'
+'
+composite
+/
 ImageHost
 .
 cpp
