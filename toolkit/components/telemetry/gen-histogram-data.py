@@ -345,7 +345,6 @@ print_array_entry
 (
 histogram
 name_index
-desc_index
 )
 :
     
@@ -388,8 +387,6 @@ s
 %
 d
 %
-d
-%
 s
 }
 "
@@ -420,7 +417,6 @@ nsITelemetry_kind
 )
            
 name_index
-desc_index
            
 "
 true
@@ -489,24 +485,10 @@ name
 )
 )
         
-desc_index
-=
-table
-.
-stringIndex
-(
-histogram
-.
-description
-(
-)
-)
-        
 print_array_entry
 (
 histogram
 name_index
-desc_index
 )
     
 print
