@@ -7420,12 +7420,6 @@ nsDisplayCaret
 (
 aBuilder
 this
-aBuilder
--
->
-GetCaret
-(
-)
 )
 )
 ;

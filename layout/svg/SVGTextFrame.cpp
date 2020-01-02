@@ -11020,6 +11020,9 @@ GetCaret
 (
 )
 ;
+nsRect
+caretRect
+;
 nsIFrame
 *
 caretFrame
@@ -11027,8 +11030,10 @@ caretFrame
 caret
 -
 >
-GetCaretFrame
+GetPaintGeometry
 (
+&
+caretRect
 )
 ;
 TextRenderedRunIterator
