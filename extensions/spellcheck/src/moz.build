@@ -98,7 +98,7 @@ MODULE
 '
 spellchecker
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

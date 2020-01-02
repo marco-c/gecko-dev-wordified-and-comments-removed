@@ -143,13 +143,6 @@ h
 static
 NS_DEFINE_CID
 (
-kCharsetConverterManagerCID
-NS_ICHARSETCONVERTERMANAGER_CID
-)
-;
-static
-NS_DEFINE_CID
-(
 kUnicharUtilCID
 NS_UNICHARUTIL_CID
 )
