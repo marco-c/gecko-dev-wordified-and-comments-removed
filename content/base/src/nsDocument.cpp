@@ -3762,7 +3762,7 @@ return
 NS_OK
 ;
 }
-nsIStyleSheet
+nsCSSStyleSheet
 *
 nsDOMStyleSheetList
 :
@@ -3821,7 +3821,14 @@ sheet
 )
 ;
 return
+static_cast
+<
+nsCSSStyleSheet
+*
+>
+(
 sheet
+)
 ;
 }
 NS_IMETHODIMP
