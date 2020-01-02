@@ -5383,10 +5383,9 @@ aEnd
 gfxPoint
 *
 aPt
-const
 TextRunDrawParams
 &
-aRunParams
+aParams
 )
 ;
 virtual
