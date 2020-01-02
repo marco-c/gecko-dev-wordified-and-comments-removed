@@ -85,10 +85,6 @@ mozilla
 -
 DUSE_ALLOCA
 \
--
-Drestrict
-=
-\
 (
 NULL
 )
