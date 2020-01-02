@@ -1737,7 +1737,6 @@ GetFormat
 )
 source
 aFilter
-true
 )
 ;
 if
