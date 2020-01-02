@@ -2430,6 +2430,18 @@ nsCOMPtr
 amIAddonManager
 >
 addonManager
+;
+if
+(
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
+)
+{
+addonManager
 =
 do_GetService
 (
@@ -2446,6 +2458,7 @@ integration
 "
 )
 ;
+}
 for
 (
 uint32_t
