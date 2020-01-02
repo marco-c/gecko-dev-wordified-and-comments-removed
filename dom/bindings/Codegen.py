@@ -11800,29 +11800,13 @@ accessor
 genericCrossOriginMethod
 "
                     
-elif
-self
-.
-descriptor
-.
-needsSpecialGenericOps
-(
-)
-:
-                        
-accessor
-=
-"
-genericMethod
-"
-                    
 else
 :
                         
 accessor
 =
 "
-GenericBindingMethod
+genericMethod
 "
                 
 else
@@ -12233,29 +12217,13 @@ accessor
 genericCrossOriginGetter
 "
                 
-elif
-self
-.
-descriptor
-.
-needsSpecialGenericOps
-(
-)
-:
-                    
-accessor
-=
-"
-genericGetter
-"
-                
 else
 :
                     
 accessor
 =
 "
-GenericBindingGetter
+genericGetter
 "
                 
 jitinfo
@@ -12395,29 +12363,13 @@ accessor
 genericCrossOriginSetter
 "
                 
-elif
-self
-.
-descriptor
-.
-needsSpecialGenericOps
-(
-)
-:
-                    
-accessor
-=
-"
-genericSetter
-"
-                
 else
 :
                     
 accessor
 =
 "
-GenericBindingSetter
+genericSetter
 "
                 
 jitinfo
@@ -67301,11 +67253,7 @@ True
                 
 hasMethod
 =
-descriptor
-.
-needsSpecialGenericOps
-(
-)
+True
                 
 jsonifierMethod
 =
@@ -67423,12 +67371,7 @@ identifier
 name
 )
                     
-elif
-descriptor
-.
-needsSpecialGenericOps
-(
-)
+else
 :
                         
 hasMethod
@@ -67524,12 +67467,7 @@ identifier
 name
 )
                     
-elif
-descriptor
-.
-needsSpecialGenericOps
-(
-)
+else
 :
                         
 hasGetter
@@ -67624,12 +67562,7 @@ identifier
 name
 )
                         
-elif
-descriptor
-.
-needsSpecialGenericOps
-(
-)
+else
 :
                             
 hasSetter
@@ -67680,12 +67613,7 @@ identifier
 name
 )
                     
-elif
-descriptor
-.
-needsSpecialGenericOps
-(
-)
+else
 :
                         
 hasSetter
@@ -67714,14 +67642,6 @@ m
 )
 )
                     
-if
-descriptor
-.
-needsSpecialGenericOps
-(
-)
-:
-                        
 hasSetter
 =
 True
@@ -69382,9 +69302,8 @@ self
 )
 :
         
-return
-"
-"
+assert
+False
 class
 CGDictionary
 (
@@ -88553,10 +88472,6 @@ post
 \
 n
 "
-                              
-declareOnly
-=
-True
 )
             
 macroContent
@@ -88603,10 +88518,6 @@ post
 n
 }
 "
-                                                
-declareOnly
-=
-True
 )
 )
             
@@ -88628,10 +88539,6 @@ n
 \
 n
 "
-                             
-declareOnly
-=
-True
 )
         
 idEnum
@@ -88876,127 +88783,6 @@ for
 d
 in
 descriptorsWithPrototype
-)
-        
-ifaceNamesWithProto
-=
-[
-'
-"
-%
-s
-"
-'
-%
-d
-.
-interface
-.
-identifier
-.
-name
-                               
-for
-d
-in
-descriptorsWithPrototype
-]
-        
-traitsDecls
-.
-append
-(
-CGGeneric
-(
-                
-declare
-=
-(
-"
-extern
-const
-char
-*
-const
-NamesOfInterfacesWithProtos
-[
-%
-d
-]
-;
-\
-n
-\
-n
-"
-%
-                         
-len
-(
-ifaceNamesWithProto
-)
-)
-                
-define
-=
-(
-"
-\
-n
-"
-                        
-"
-extern
-const
-char
-*
-const
-NamesOfInterfacesWithProtos
-[
-%
-d
-]
-=
-{
-\
-n
-"
-                        
-"
-%
-s
-"
-                        
-"
-\
-n
-}
-;
-\
-n
-\
-n
-"
-%
-                        
-(
-len
-(
-ifaceNamesWithProto
-)
-                         
-"
-\
-n
-"
-.
-join
-(
-ifaceNamesWithProto
-)
-)
-)
-)
 )
         
 traitsDecl
