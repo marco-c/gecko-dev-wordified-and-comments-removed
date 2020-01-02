@@ -583,20 +583,14 @@ _backend_output_list_file
 )
 :
             
-self
-.
-_backend_output_list
-.
-update
-(
+l
+=
 open
 (
 self
 .
 _backend_output_list_file
 )
-\
-                                               
 .
 read
 (
@@ -609,6 +603,23 @@ split
 n
 '
 )
+            
+self
+.
+_backend_output_list
+.
+update
+(
+mozpath
+.
+normsep
+(
+p
+)
+for
+p
+in
+l
 )
         
 self
