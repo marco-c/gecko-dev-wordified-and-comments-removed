@@ -586,6 +586,10 @@ return
 true
 ;
 }
+SkipCommaWsp
+(
+)
+;
 return
 ParseLineto
 (
