@@ -493,7 +493,7 @@ uint8_t
 *
 >
 (
-NS_Realloc
+moz_realloc
 (
 self
 -
@@ -626,7 +626,7 @@ if
 mData
 )
 {
-NS_Free
+moz_free
 (
 mData
 )

@@ -257,7 +257,7 @@ the
 data
 and
 not
-NS_Free
+moz_free
 (
 )
 it
@@ -271,7 +271,7 @@ returns
 observer
 must
 call
-NS_Free
+moz_free
 (
 )
 *
