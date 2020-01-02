@@ -2843,6 +2843,16 @@ aFrame
 )
 ;
 static
+nsIFrame
+*
+GetReferenceFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 uint32_t
 GetTextRunFlagsForStyle
 (
