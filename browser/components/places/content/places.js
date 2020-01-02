@@ -347,6 +347,7 @@ selectItems
 [
 container
 ]
+false
 )
 ;
 break
@@ -1629,6 +1630,7 @@ aContainer
 .
 itemId
 ]
+false
 )
 ;
 else
