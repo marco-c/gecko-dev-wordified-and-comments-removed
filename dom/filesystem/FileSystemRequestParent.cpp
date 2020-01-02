@@ -26,6 +26,13 @@ h
 #
 include
 "
+RemoveTask
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AppProcessChecker
@@ -184,6 +191,10 @@ CreateDirectory
 FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
 (
 GetFileOrDirectory
+)
+FILESYSTEM_REQUEST_PARENT_DISPATCH_ENTRY
+(
+Remove
 )
 default
 :
