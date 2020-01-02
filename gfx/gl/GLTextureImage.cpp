@@ -128,7 +128,10 @@ GetContextType
 ifdef
 XP_MACOSX
 case
-ContextTypeCGL
+GLContextType
+:
+:
+CGL
 :
 return
 CreateTextureImageCGL
@@ -144,7 +147,10 @@ aImageFormat
 #
 endif
 case
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 :
 return
 CreateTextureImageEGL
@@ -217,7 +223,10 @@ GetContextType
 ifdef
 XP_MACOSX
 case
-ContextTypeCGL
+GLContextType
+:
+:
+CGL
 :
 return
 TileGenFuncCGL
@@ -232,7 +241,10 @@ aImageFormat
 #
 endif
 case
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 :
 return
 TileGenFuncEGL

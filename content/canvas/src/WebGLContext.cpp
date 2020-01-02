@@ -5742,7 +5742,10 @@ GetContextType
 gl
 :
 :
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 isANGLE
 =
 gl

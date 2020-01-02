@@ -524,7 +524,10 @@ GetContextType
 )
 !
 =
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 )
 return
 0
@@ -715,7 +718,10 @@ GetContextType
 )
 !
 =
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 )
 return
 ;
@@ -860,7 +866,10 @@ GetContextType
 )
 !
 =
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 )
 return
 false
@@ -1018,7 +1027,10 @@ GetContextType
 )
 !
 =
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 )
 return
 false

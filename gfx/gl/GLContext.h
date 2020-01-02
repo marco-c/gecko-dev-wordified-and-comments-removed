@@ -768,7 +768,10 @@ GetContextType
 )
 {
 return
-ContextTypeUnknown
+GLContextType
+:
+:
+Unknown
 ;
 }
 virtual

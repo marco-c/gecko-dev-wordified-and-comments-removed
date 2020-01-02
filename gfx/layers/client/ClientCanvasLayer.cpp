@@ -274,7 +274,10 @@ GetContextType
 )
 =
 =
-ContextTypeEGL
+GLContextType
+:
+:
+EGL
 )
 {
 bool
