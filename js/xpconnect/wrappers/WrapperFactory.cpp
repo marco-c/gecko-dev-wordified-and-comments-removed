@@ -600,7 +600,7 @@ subsumes
 AccessCheck
 :
 :
-subsumesIgnoringDomain
+subsumes
 (
 js
 :
@@ -946,7 +946,7 @@ wrapScope
 AccessCheck
 :
 :
-subsumesIgnoringDomain
+subsumes
 (
 js
 :
