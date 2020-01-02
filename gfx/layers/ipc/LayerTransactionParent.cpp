@@ -729,6 +729,10 @@ mId
 (
 aId
 )
+mPendingTransaction
+(
+0
+)
 mChildProcessId
 (
 aOtherProcess
@@ -855,6 +859,10 @@ Edit
 &
 cset
 const
+uint64_t
+&
+aTransactionId
+const
 TargetConfig
 &
 targetConfig
@@ -876,6 +884,7 @@ return
 RecvUpdate
 (
 cset
+aTransactionId
 targetConfig
 isFirstPaint
 scheduleComposite
@@ -897,6 +906,10 @@ Edit
 >
 &
 cset
+const
+uint64_t
+&
+aTransactionId
 const
 TargetConfig
 &
@@ -3218,6 +3231,7 @@ mShadowLayersManager
 ShadowLayersUpdated
 (
 this
+aTransactionId
 targetConfig
 isFirstPaint
 scheduleComposite

@@ -428,6 +428,10 @@ LayerTransactionParent
 *
 aLayerTree
 const
+uint64_t
+&
+aTransactionId
+const
 TargetConfig
 &
 aTargetConfig
@@ -701,6 +705,10 @@ mTargetConfig
 APZTestData
 mApzTestData
 ;
+LayerTransactionParent
+*
+mLayerTree
+;
 }
 ;
 static
@@ -776,7 +784,7 @@ int
 )
 ;
 void
-Composite
+CompositeCallback
 (
 )
 ;
@@ -969,6 +977,9 @@ mExpectedComposeStartTime
 ;
 #
 endif
+uint64_t
+mPendingTransaction
+;
 bool
 mPaused
 ;
@@ -1008,9 +1019,6 @@ nsRefPtr
 APZCTreeManager
 >
 mApzcTreeManager
-;
-bool
-mWantDidCompositeEvent
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
