@@ -297,6 +297,11 @@ GLDefs
 h
 '
 '
+GLDrawRectHelper
+.
+h
+'
+'
 GLLibraryEGL
 .
 h
@@ -782,6 +787,11 @@ cpp
 '
 '
 GLDebugUtils
+.
+cpp
+'
+'
+GLDrawRectHelper
 .
 cpp
 '
