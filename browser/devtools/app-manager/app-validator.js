@@ -1207,7 +1207,7 @@ formatStringFromName
 "
 validator
 .
-invalidLaunchPath
+accessFailedLaunchPath
 "
 [
 origin
@@ -1268,7 +1268,7 @@ formatStringFromName
 "
 validator
 .
-invalidLaunchPath
+accessFailedLaunchPath
 "
 [
 indexURL
@@ -1337,7 +1337,7 @@ formatStringFromName
 "
 validator
 .
-invalidLaunchPathBadHttpCode
+accessFailedLaunchPathBadHttpCode
 "
 [
 indexURL
@@ -1377,7 +1377,7 @@ formatStringFromName
 "
 validator
 .
-invalidLaunchPath
+accessFailedLaunchPath
 "
 [
 indexURL
@@ -1420,7 +1420,7 @@ formatStringFromName
 "
 validator
 .
-invalidLaunchPath
+accessFailedLaunchPath
 "
 [
 indexURL
