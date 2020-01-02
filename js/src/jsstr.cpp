@@ -9054,9 +9054,6 @@ fm
 patstr
 =
 AtomizeString
-<
-CanGC
->
 (
 cx
 arg

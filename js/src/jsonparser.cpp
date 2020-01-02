@@ -529,9 +529,6 @@ PropertyName
 )
 ?
 AtomizeChars
-<
-CanGC
->
 (
 cx
 start

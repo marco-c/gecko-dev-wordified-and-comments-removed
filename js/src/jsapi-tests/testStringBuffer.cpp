@@ -62,12 +62,6 @@ js
 :
 :
 AtomizeString
-<
-js
-:
-:
-CanGC
->
 (
 cx
 str

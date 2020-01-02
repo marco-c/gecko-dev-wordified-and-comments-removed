@@ -1090,9 +1090,6 @@ source
 (
 cx
 AtomizeChars
-<
-CanGC
->
 (
 cx
 chars

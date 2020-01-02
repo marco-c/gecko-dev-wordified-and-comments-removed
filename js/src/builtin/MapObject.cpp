@@ -3366,9 +3366,6 @@ JSString
 str
 =
 AtomizeString
-<
-CanGC
->
 (
 cx
 v

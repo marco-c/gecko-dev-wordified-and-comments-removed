@@ -460,9 +460,6 @@ pn
 pn_atom
 =
 NumberToAtom
-<
-CanGC
->
 (
 cx
 pn
@@ -2837,9 +2834,6 @@ pn
 pn_atom
 =
 AtomizeString
-<
-CanGC
->
 (
 cx
 str
@@ -3011,9 +3005,6 @@ pn
 pn_atom
 =
 AtomizeString
-<
-CanGC
->
 (
 cx
 str

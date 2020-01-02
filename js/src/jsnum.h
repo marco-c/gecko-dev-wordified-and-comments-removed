@@ -132,14 +132,6 @@ double
 d
 )
 ;
-template
-<
-js
-:
-:
-AllowGC
-allowGC
->
 extern
 JSAtom
 *
@@ -172,11 +164,6 @@ int32_t
 i
 )
 ;
-template
-<
-AllowGC
-allowGC
->
 extern
 JSAtom
 *
