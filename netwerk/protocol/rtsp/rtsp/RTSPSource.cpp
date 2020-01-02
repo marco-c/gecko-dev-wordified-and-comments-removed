@@ -144,6 +144,10 @@ const
 char
 *
 url
+const
+char
+*
+userAgent
 bool
 uidValid
 uid_t
@@ -153,6 +157,10 @@ uid
 mURL
 (
 url
+)
+mUserAgent
+(
+userAgent
 )
 mUIDValid
 (
@@ -323,6 +331,11 @@ new
 RtspConnectionHandler
 (
 mURL
+.
+c_str
+(
+)
+mUserAgent
 .
 c_str
 (

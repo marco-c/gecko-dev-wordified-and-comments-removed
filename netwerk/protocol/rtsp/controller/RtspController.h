@@ -95,6 +95,9 @@ mListener
 nsCString
 mSpec
 ;
+nsCString
+mUserAgent
+;
 State
 mState
 ;
