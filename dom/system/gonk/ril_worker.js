@@ -25387,6 +25387,12 @@ return
 }
 options
 .
+mmiServiceCode
+=
+MMI_KS_SC_IMEI
+;
+options
+.
 success
 =
 (
