@@ -131,7 +131,6 @@ in
 a
 new
 tab
-.
 "
 >
 <
@@ -187,7 +186,6 @@ app
 on
 the
 device
-.
 "
 >
 <
@@ -213,7 +211,6 @@ app
 on
 the
 device
-.
 "
 >
 <
@@ -244,7 +241,6 @@ app
 on
 the
 device
-.
 "
 >
 <
@@ -316,7 +312,6 @@ apps
 of
 this
 type
-.
 "
 >
 <
@@ -347,7 +342,6 @@ apps
 of
 this
 type
-.
 "
 >
 <
@@ -376,7 +370,6 @@ apps
 of
 this
 type
-.
 "
 >
 <
@@ -452,7 +445,6 @@ different
 types
 of
 apps
-.
 "
 >
 <
@@ -502,7 +494,6 @@ Connect
 to
 the
 device
-.
 "
 >
 <
@@ -529,7 +520,6 @@ current
 device
 or
 simulator
-.
 "
 >
 <
@@ -600,9 +590,8 @@ connect
 to
 the
 device
-.
 (
-Defaults
+defaults
 to
 localhost
 :
@@ -638,7 +627,6 @@ and
 connect
 to
 it
-.
 "
 >
 <
@@ -663,7 +651,6 @@ the
 host
 and
 port
-.
 "
 >
 <
@@ -708,7 +695,6 @@ the
 connection
 in
 progress
-.
 "
 >
 <
@@ -729,7 +715,6 @@ to
 the
 initial
 prompt
-.
 "
 >
 <
@@ -786,7 +771,6 @@ relevant
 add
 -
 on
-.
 "
 >
 <
@@ -820,7 +804,6 @@ relevant
 add
 -
 on
-.
 "
 >
 <
@@ -886,7 +869,6 @@ directory
 from
 your
 computer
-.
 "
 >
 <
@@ -926,7 +908,6 @@ from
 a
 remote
 website
-.
 "
 >
 <
@@ -1066,7 +1047,6 @@ the
 Manifest
 Editor
 below
-.
 "
 >
 <
@@ -1196,7 +1176,6 @@ in
 the
 panel
 below
-.
 "
 >
 <
