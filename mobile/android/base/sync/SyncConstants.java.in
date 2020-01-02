@@ -158,7 +158,7 @@ public
 static
 final
 String
-SYNC_USER_AGENT
+USER_AGENT
 =
 "
 Firefox

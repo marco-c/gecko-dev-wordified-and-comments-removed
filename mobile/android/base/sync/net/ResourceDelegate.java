@@ -87,6 +87,12 @@ DefaultHttpClient
 client
 )
 ;
+public
+String
+getUserAgent
+(
+)
+;
 void
 handleHttpResponse
 (

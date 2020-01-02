@@ -397,7 +397,7 @@ MILLISECONDS_PER_DAY
 public
 static
 String
-ANNOUNCE_USER_AGENT
+USER_AGENT
 =
 "
 Firefox

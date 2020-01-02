@@ -53,4 +53,10 @@ HttpResponse
 response
 )
 ;
+public
+String
+getUserAgent
+(
+)
+;
 }
