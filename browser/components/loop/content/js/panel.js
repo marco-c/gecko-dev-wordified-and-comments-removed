@@ -35,8 +35,7 @@ panel
 (
 function
 (
-TB
-mozl10n
+mozL10n
 )
 {
 "
@@ -62,7 +61,7 @@ server
 panelView
 __
 =
-mozl10n
+mozL10n
 .
 get
 ;
@@ -545,7 +544,6 @@ PanelView
 }
 )
 (
-_
 document
 .
 mozL10n
