@@ -926,6 +926,17 @@ ZOOM_PREF
 )
 ;
 }
+get
+splitConsole
+(
+)
+{
+return
+this
+.
+_splitConsole
+;
+}
 open
 :
 function

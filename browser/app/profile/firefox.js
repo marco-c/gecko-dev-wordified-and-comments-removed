@@ -9659,6 +9659,9 @@ toolbarSpec
 '
 [
 "
+splitconsole
+"
+"
 paintflashing
 toggle
 "
