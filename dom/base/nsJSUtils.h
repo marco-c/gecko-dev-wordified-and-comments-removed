@@ -83,16 +83,6 @@ aObj
 )
 ;
 static
-nsIScriptContext
-*
-GetDynamicScriptContext
-(
-JSContext
-*
-aContext
-)
-;
-static
 uint64_t
 GetCurrentlyRunningCodeInnerWindowID
 (
