@@ -1114,10 +1114,6 @@ onConfigurationChanged
 newConfig
 )
 ;
-mIsLoaded
-=
-false
-;
 }
 void
 setCanLoadHint
