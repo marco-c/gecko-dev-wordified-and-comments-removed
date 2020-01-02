@@ -323,7 +323,7 @@ bytesRead
 ;
 do
 {
-uint32_t
+uint64_t
 offset
 =
 aOffset
