@@ -240,6 +240,15 @@ installed
 )
 )
 ;
+if
+(
+enabled_
+=
+=
+enabled
+)
+return
+;
 enabled_
 =
 enabled
