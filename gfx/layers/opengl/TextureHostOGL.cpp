@@ -71,13 +71,6 @@ h
 #
 include
 "
-TiledLayerBuffer
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h
