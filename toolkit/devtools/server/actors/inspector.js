@@ -3294,6 +3294,10 @@ this
 nodeList
 =
 nodeList
+|
+|
+[
+]
 ;
 }
 destroy
