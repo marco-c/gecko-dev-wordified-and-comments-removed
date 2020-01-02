@@ -18,13 +18,6 @@ ProfDS
 "
 ;
 const
-NS_APP_BOOKMARKS_50_FILE
-=
-"
-BMarks
-"
-;
-const
 TRANSITION_LINK
 =
 Ci

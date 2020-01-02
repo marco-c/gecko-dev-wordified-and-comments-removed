@@ -318,6 +318,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+BookmarkHTMLUtils
+.
+jsm
+'
+'
 BookmarkJSONUtils
 .
 jsm
@@ -352,11 +357,6 @@ EXTRA_PP_JS_MODULES
 +
 =
 [
-'
-BookmarkHTMLUtils
-.
-jsm
-'
 '
 PlacesUtils
 .
