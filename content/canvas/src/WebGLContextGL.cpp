@@ -10396,7 +10396,7 @@ ColorAttachment
 0
 )
 .
-IsFloatType
+IsReadableFloat
 (
 )
 ;
