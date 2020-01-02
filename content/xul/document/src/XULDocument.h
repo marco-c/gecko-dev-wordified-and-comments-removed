@@ -356,12 +356,6 @@ XULDocument
 (
 )
 ;
-virtual
-~
-XULDocument
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISTREAMLOADEROBSERVER
 virtual
@@ -924,6 +918,12 @@ aObserver
 }
 protected
 :
+virtual
+~
+XULDocument
+(
+)
+;
 friend
 nsresult
 (

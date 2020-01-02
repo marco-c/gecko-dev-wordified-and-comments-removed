@@ -2760,6 +2760,11 @@ GetParentObject
 }
 protected
 :
+~
+nsXULElement
+(
+)
+;
 friend
 class
 nsNSElementTearoff

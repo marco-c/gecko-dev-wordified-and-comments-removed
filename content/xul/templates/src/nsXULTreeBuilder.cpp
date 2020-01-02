@@ -256,6 +256,11 @@ nsXULTreeBuilder
 (
 )
 ;
+~
+nsXULTreeBuilder
+(
+)
+;
 virtual
 void
 Uninit
@@ -717,6 +722,15 @@ eDirection_Natural
 mSortHints
 (
 0
+)
+{
+}
+nsXULTreeBuilder
+:
+:
+~
+nsXULTreeBuilder
+(
 )
 {
 }
