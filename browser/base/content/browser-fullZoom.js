@@ -1,8 +1,3 @@
-const
-MOUSE_SCROLL_ZOOM
-=
-3
-;
 var
 FullZoom
 =
@@ -24,6 +19,9 @@ undefined
 updateBackgroundTabs
 :
 undefined
+ACTION_ZOOM
+:
+3
 _zoomChangeToken
 :
 0
@@ -421,7 +419,9 @@ pref
 )
 =
 =
-MOUSE_SCROLL_ZOOM
+this
+.
+ACTION_ZOOM
 )
 ;
 }
