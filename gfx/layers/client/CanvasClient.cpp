@@ -432,7 +432,7 @@ NEEDS_Y_FLIP
 }
 mBuffer
 =
-CreateBufferTextureClient
+CreateTextureClientForDrawing
 (
 gfx
 :
@@ -453,6 +453,7 @@ GetPlatform
 GetPreferredCanvasBackend
 (
 )
+aSize
 )
 ;
 MOZ_ASSERT
