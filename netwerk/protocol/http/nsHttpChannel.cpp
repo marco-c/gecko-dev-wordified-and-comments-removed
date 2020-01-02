@@ -459,7 +459,7 @@ LOAD_BYPASS_LOCAL_CACHE
 )
 #
 define
-CACHE_FILE_GONE
+RECOVER_FROM_CACHE_FILE_ERROR
 (
 result
 )
@@ -480,6 +480,15 @@ result
 =
 =
 NS_ERROR_FILE_CORRUPTED
+|
+|
+\
+(
+result
+)
+=
+=
+NS_ERROR_OUT_OF_MEMORY
 )
 static
 NS_DEFINE_CID
@@ -20946,7 +20955,7 @@ mCacheEntry
 mCachePump
 &
 &
-CACHE_FILE_GONE
+RECOVER_FROM_CACHE_FILE_ERROR
 (
 mStatus
 )
@@ -20958,7 +20967,7 @@ LOG
 "
 cache
 file
-gone
+error
 reloading
 from
 server

@@ -664,6 +664,8 @@ RemoveInput
 CacheFileInputStream
 *
 aInput
+nsresult
+aStatus
 )
 ;
 nsresult
@@ -672,6 +674,8 @@ RemoveOutput
 CacheFileOutputStream
 *
 aOutput
+nsresult
+aStatus
 )
 ;
 nsresult
@@ -868,6 +872,9 @@ mMemoryOnly
 ;
 bool
 mOpenAsMemoryOnly
+;
+bool
+mPriority
 ;
 bool
 mDataAccessed

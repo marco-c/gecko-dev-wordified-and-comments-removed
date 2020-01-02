@@ -11588,7 +11588,7 @@ LOG
 (
 (
 "
-CacheFile
+CacheIndex
 :
 :
 ProcessJournalEntry
