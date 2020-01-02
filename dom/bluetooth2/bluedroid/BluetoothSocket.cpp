@@ -2823,6 +2823,11 @@ mImpl
 false
 )
 ;
+SetConnectionStatus
+(
+SOCKET_CONNECTING
+)
+;
 mImpl
 =
 new
@@ -2978,6 +2983,11 @@ NS_ENSURE_FALSE
 (
 mImpl
 false
+)
+;
+SetConnectionStatus
+(
+SOCKET_LISTENING
 )
 ;
 mImpl
