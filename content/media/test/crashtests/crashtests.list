@@ -462,12 +462,6 @@ ended
 1
 .
 html
-skip
--
-if
-(
-B2G
-)
 HTTP
 load
 media
@@ -481,12 +475,6 @@ seek
 1
 .
 html
-#
-intermittent
-B2G
-timeouts
-bug
-994351
 skip
 -
 if
