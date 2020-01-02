@@ -1972,6 +1972,9 @@ MediaManager
 (
 )
 {
+delete
+mBackend
+;
 }
 nsresult
 MediaCaptureWindowStateInternal
@@ -2011,10 +2014,8 @@ mMediaThread
 Mutex
 mMutex
 ;
-RefPtr
-<
 MediaEngine
->
+*
 mBackend
 ;
 static
@@ -2026,7 +2027,7 @@ sSingleton
 ;
 #
 ifdef
-MOZ_B2G_CAMERA
+MOZ_WIDGET_GONK
 nsRefPtr
 <
 nsDOMCameraManager
