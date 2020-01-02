@@ -365,12 +365,6 @@ GetCurrentPosition
 )
 ;
 bool
-AllInputsFinished
-(
-)
-const
-;
-bool
 IsAudioParamStream
 (
 )
