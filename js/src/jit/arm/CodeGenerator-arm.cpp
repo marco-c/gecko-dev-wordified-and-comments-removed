@@ -6384,7 +6384,7 @@ SetCond
 Assembler
 :
 :
-Unsigned
+NotSigned
 )
 ;
 AutoForbidPools
@@ -6413,7 +6413,7 @@ Offset
 Assembler
 :
 :
-Unsigned
+NotSigned
 )
 ;
 masm

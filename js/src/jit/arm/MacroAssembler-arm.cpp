@@ -4249,7 +4249,7 @@ ma_mov
 secondScratchReg_
 dest
 NoSetCond
-Unsigned
+NotSigned
 )
 ;
 as_mov
@@ -19234,7 +19234,7 @@ input
 ma_b
 (
 bail
-Unsigned
+NotSigned
 )
 ;
 bind
@@ -19460,7 +19460,7 @@ input
 ma_b
 (
 bail
-Unsigned
+NotSigned
 )
 ;
 bind
@@ -19838,7 +19838,7 @@ SetCond
 ma_b
 (
 bail
-Unsigned
+NotSigned
 )
 ;
 bind
