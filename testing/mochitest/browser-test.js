@@ -4263,6 +4263,16 @@ UNEXPECTED
 FAIL
 "
 ;
+if
+(
+gConfig
+.
+debugOnFailure
+)
+{
+debugger
+;
+}
 }
 }
 function

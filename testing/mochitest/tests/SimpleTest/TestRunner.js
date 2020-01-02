@@ -1070,6 +1070,16 @@ n
 )
 ;
 }
+if
+(
+TestRunner
+.
+debugOnFailure
+)
+{
+debugger
+;
+}
 }
 ;
 TestRunner
