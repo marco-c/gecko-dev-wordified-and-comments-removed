@@ -1436,3 +1436,7 @@ Element
 implements
 ParentNode
 ;
+Element
+implements
+Animatable
+;

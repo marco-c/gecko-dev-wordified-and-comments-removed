@@ -145,7 +145,17 @@ AnalyserNode
 webidl
 '
 '
+Animatable
+.
+webidl
+'
+'
 AnimationEvent
+.
+webidl
+'
+'
+AnimationPlayer
 .
 webidl
 '
