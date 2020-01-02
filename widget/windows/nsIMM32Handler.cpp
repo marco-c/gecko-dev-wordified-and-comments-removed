@@ -1164,11 +1164,15 @@ nsWindow
 aWindow
 )
 {
-NS_ENSURE_TRUE_VOID
+if
 (
+!
 gIMM32Handler
 )
+{
+return
 ;
+}
 if
 (
 aWindow
