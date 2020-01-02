@@ -359,6 +359,11 @@ ScrollableLayerGuid
 aGuidOut
 )
 ;
+ScrollableLayerGuid
+GetGuid
+(
+)
+;
 bool
 Matches
 (
