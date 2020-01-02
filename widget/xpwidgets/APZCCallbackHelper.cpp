@@ -350,6 +350,16 @@ if
 aFrame
 -
 >
+IsProcessingAsyncScroll
+(
+)
+&
+&
+(
+!
+aFrame
+-
+>
 OriginOfLastScroll
 (
 )
@@ -367,6 +377,7 @@ nsGkAtoms
 :
 :
 apz
+)
 )
 {
 aFrame

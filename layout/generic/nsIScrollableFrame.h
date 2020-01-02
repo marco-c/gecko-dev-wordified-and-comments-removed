@@ -414,6 +414,14 @@ IsScrollingActive
 0
 ;
 virtual
+bool
+IsProcessingAsyncScroll
+(
+)
+=
+0
+;
+virtual
 void
 ResetScrollPositionForLayerPixelAlignment
 (
