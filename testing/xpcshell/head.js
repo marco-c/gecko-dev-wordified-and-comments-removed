@@ -3444,6 +3444,10 @@ ex
 ex
 .
 stack
+|
+|
+"
+"
 caller_stack
 .
 filename

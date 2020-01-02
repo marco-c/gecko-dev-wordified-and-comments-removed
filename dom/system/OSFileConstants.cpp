@@ -151,6 +151,10 @@ accctrl
 h
 >
 #
+define
+PATH_MAX
+MAX_PATH
+#
 endif
 #
 include
@@ -1718,6 +1722,10 @@ S_IFSOCK
 )
 #
 endif
+INT_CONSTANT
+(
+PATH_MAX
+)
 #
 if
 defined
