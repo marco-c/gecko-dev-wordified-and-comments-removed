@@ -10883,16 +10883,12 @@ if
 mLoadAsBlocking
 |
 |
-mLoadUnblocked
-|
-|
 (
 mLoadFlags
 &
 LOAD_INITIAL_DOCUMENT_URI
 )
 )
-{
 cacheEntryOpenFlags
 |
 =
@@ -10901,7 +10897,6 @@ nsICacheStorage
 :
 OPEN_PRIORITY
 ;
-}
 if
 (
 mLoadFlags
