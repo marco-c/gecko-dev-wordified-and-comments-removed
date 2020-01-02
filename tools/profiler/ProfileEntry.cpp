@@ -2146,6 +2146,7 @@ std
 stringstream
 ss
 ;
+{
 JSStreamWriter
 b
 (
@@ -2199,6 +2200,7 @@ Length
 val
 )
 ;
+}
 return
 &
 val
