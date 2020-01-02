@@ -27,6 +27,15 @@ disable
 install
 -
 docs
+-
+-
+enable
+-
+multi
+-
+res
+-
+encoding
 "
 ;
 const

@@ -31,6 +31,15 @@ docs
 -
 enable
 -
+multi
+-
+res
+-
+encoding
+-
+-
+enable
+-
 pic
 "
 ;

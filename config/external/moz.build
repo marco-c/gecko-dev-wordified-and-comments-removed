@@ -240,7 +240,7 @@ if
 CONFIG
 [
 '
-MOZ_VP8
+MOZ_VPX
 '
 ]
 and

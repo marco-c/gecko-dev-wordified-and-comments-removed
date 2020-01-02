@@ -29,6 +29,15 @@ install
 docs
 -
 -
+enable
+-
+multi
+-
+res
+-
+encoding
+-
+-
 sdk
 -
 path

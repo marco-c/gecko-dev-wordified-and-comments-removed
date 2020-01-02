@@ -1761,6 +1761,7 @@ s
 '
 %
 target
+            
 '
 -
 -
@@ -1777,6 +1778,19 @@ install
 -
 docs
 '
+            
+'
+-
+-
+enable
+-
+multi
+-
+res
+-
+encoding
+'
+        
 ]
         
 if
