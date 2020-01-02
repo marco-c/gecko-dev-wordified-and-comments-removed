@@ -982,8 +982,6 @@ TEXT_VCARD
 "
 text
 /
-x
--
 vcard
 "
 #
