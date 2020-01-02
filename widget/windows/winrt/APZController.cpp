@@ -1470,6 +1470,10 @@ APZController
 :
 NotifyTransformBegin
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -1522,6 +1526,10 @@ APZController
 :
 NotifyTransformEnd
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
