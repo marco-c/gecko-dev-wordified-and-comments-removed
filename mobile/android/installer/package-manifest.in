@@ -1441,6 +1441,13 @@ BINPATH
 /
 components
 /
+toolkit_formautofill
+.
+xpt
+BINPATH
+/
+components
+/
 toolkit_osfile
 .
 xpt
