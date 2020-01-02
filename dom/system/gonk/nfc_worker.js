@@ -1871,7 +1871,7 @@ NFC_NOTIFICATION_TECH_DISCOVERED
 )
 ;
 let
-techs
+techList
 =
 [
 ]
@@ -1933,7 +1933,7 @@ if
 tech
 )
 {
-techs
+techList
 .
 push
 (
@@ -2023,9 +2023,9 @@ techDiscovered
 sessionId
 :
 sessionId
-tech
+techList
 :
-techs
+techList
 ndef
 :
 ndefMsgs
