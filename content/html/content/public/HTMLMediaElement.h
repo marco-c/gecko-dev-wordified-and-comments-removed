@@ -1456,12 +1456,12 @@ dom
 :
 EventHandlerNonNull
 *
-GetOnneedkey
+GetOnencrypted
 (
 )
 ;
 void
-SetOnneedkey
+SetOnencrypted
 (
 mozilla
 :
@@ -1475,7 +1475,7 @@ listener
 )
 ;
 void
-DispatchNeedKey
+DispatchEncrypted
 (
 const
 nsTArray

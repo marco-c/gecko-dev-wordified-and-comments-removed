@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-MediaKeyNeededEventBinding
+MediaEncryptedEventBinding
 .
 h
 "
@@ -112,7 +112,7 @@ namespace
 dom
 {
 class
-MediaKeyNeededEvent
+MediaEncryptedEvent
 MOZ_FINAL
 :
 public
@@ -123,18 +123,18 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
-MediaKeyNeededEvent
+MediaEncryptedEvent
 Event
 )
 protected
 :
 virtual
 ~
-MediaKeyNeededEvent
+MediaEncryptedEvent
 (
 )
 ;
-MediaKeyNeededEvent
+MediaEncryptedEvent
 (
 EventTarget
 *
@@ -170,7 +170,7 @@ MOZ_OVERRIDE
 static
 already_AddRefed
 <
-MediaKeyNeededEvent
+MediaEncryptedEvent
 >
 Constructor
 (
@@ -193,7 +193,7 @@ aInitData
 static
 already_AddRefed
 <
-MediaKeyNeededEvent
+MediaEncryptedEvent
 >
 Constructor
 (

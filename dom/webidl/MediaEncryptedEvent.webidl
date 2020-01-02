@@ -177,7 +177,7 @@ eventInitDict
 )
 ]
 interface
-MediaKeyNeededEvent
+MediaEncryptedEvent
 :
 Event
 {
@@ -211,6 +211,8 @@ initDataType
 Uint8Array
 ?
 initData
+=
+null
 ;
 }
 ;

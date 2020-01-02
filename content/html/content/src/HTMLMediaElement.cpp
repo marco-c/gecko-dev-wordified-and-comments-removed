@@ -79,7 +79,7 @@ mozilla
 /
 dom
 /
-MediaKeyNeededEvent
+MediaEncryptedEvent
 .
 h
 "
@@ -17631,7 +17631,7 @@ EventHandlerNonNull
 HTMLMediaElement
 :
 :
-GetOnneedkey
+GetOnencrypted
 (
 )
 {
@@ -17654,7 +17654,7 @@ GetEventHandler
 nsGkAtoms
 :
 :
-onneedkey
+onencrypted
 EmptyString
 (
 )
@@ -17667,7 +17667,7 @@ void
 HTMLMediaElement
 :
 :
-SetOnneedkey
+SetOnencrypted
 (
 EventHandlerNonNull
 *
@@ -17695,7 +17695,7 @@ SetEventHandler
 nsGkAtoms
 :
 :
-onneedkey
+onencrypted
 EmptyString
 (
 )
@@ -17708,7 +17708,7 @@ void
 HTMLMediaElement
 :
 :
-DispatchNeedKey
+DispatchEncrypted
 (
 const
 nsTArray
@@ -17725,11 +17725,11 @@ aInitDataType
 {
 nsRefPtr
 <
-MediaKeyNeededEvent
+MediaEncryptedEvent
 >
 event
 (
-MediaKeyNeededEvent
+MediaEncryptedEvent
 :
 :
 Constructor
@@ -17779,7 +17779,7 @@ aName
 nsGkAtoms
 :
 :
-onneedkey
+onencrypted
 |
 |
 nsGenericHTMLElement

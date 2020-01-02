@@ -935,7 +935,7 @@ enabled
 ]
 attribute
 EventHandler
-onneedkey
+onencrypted
 ;
 [
 Pref

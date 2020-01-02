@@ -255,7 +255,7 @@ ifdef
 MOZ_EME
 virtual
 void
-DispatchNeedKey
+DispatchEncrypted
 (
 const
 nsTArray
