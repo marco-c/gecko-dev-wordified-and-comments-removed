@@ -56,17 +56,11 @@ mp4_demuxer
 VideoDecoderConfig
 &
 aConfig
-mozilla
-:
-:
 layers
 :
 :
 LayersBackend
 aLayersBackend
-mozilla
-:
-:
 layers
 :
 :
