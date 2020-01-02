@@ -829,6 +829,14 @@ attribute
 byte
 cachedByte
 ;
+[
+StoreInSlot
+Pure
+]
+attribute
+byte
+cachedWritableByte
+;
 readonly
 attribute
 short

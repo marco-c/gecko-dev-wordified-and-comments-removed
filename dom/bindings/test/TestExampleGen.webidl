@@ -292,6 +292,14 @@ attribute
 byte
 cachedByte
 ;
+[
+Cached
+Pure
+]
+attribute
+byte
+cachedWritableByte
+;
 readonly
 attribute
 short

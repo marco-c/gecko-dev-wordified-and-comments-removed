@@ -661,6 +661,17 @@ CachedByte
 (
 )
 ;
+int8_t
+CachedWritableByte
+(
+)
+;
+void
+SetCachedWritableByte
+(
+int8_t
+)
+;
 int16_t
 ReadonlyShort
 (
