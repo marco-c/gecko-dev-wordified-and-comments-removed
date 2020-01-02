@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIMEStateManager
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h
@@ -252,6 +245,15 @@ mozilla
 dom
 /
 Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+IMEStateManager
 .
 h
 "
@@ -4468,7 +4470,7 @@ GetPresContext
 :
 nullptr
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocus
@@ -7174,7 +7176,7 @@ GetPresContext
 :
 nullptr
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocus
@@ -8043,7 +8045,7 @@ NODE_IS_EDITABLE
 )
 )
 {
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocus
@@ -8294,7 +8296,7 @@ activated
 ;
 }
 }
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocus
@@ -8346,7 +8348,7 @@ isRefocus
 }
 else
 {
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocus
@@ -8465,7 +8467,7 @@ GetPresContext
 (
 )
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocus

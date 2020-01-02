@@ -1,7 +1,9 @@
 #
 include
 "
-nsIMEStateManager
+mozilla
+/
+IMEStateManager
 .
 h
 "
@@ -164,27 +166,20 @@ Preferences
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 using
 namespace
-mozilla
-:
-:
 widget
 ;
 nsIContent
 *
-nsIMEStateManager
+IMEStateManager
 :
 :
 sContent
@@ -193,7 +188,7 @@ nullptr
 ;
 nsPresContext
 *
-nsIMEStateManager
+IMEStateManager
 :
 :
 sPresContext
@@ -201,7 +196,7 @@ sPresContext
 nullptr
 ;
 bool
-nsIMEStateManager
+IMEStateManager
 :
 :
 sInstalledMenuKeyboardListener
@@ -209,7 +204,7 @@ sInstalledMenuKeyboardListener
 false
 ;
 bool
-nsIMEStateManager
+IMEStateManager
 :
 :
 sIsTestingIME
@@ -218,7 +213,7 @@ false
 ;
 IMEContentObserver
 *
-nsIMEStateManager
+IMEStateManager
 :
 :
 sActiveIMEContentObserver
@@ -227,7 +222,7 @@ nullptr
 ;
 TextCompositionArray
 *
-nsIMEStateManager
+IMEStateManager
 :
 :
 sTextCompositions
@@ -235,7 +230,7 @@ sTextCompositions
 nullptr
 ;
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 Shutdown
@@ -266,7 +261,7 @@ nullptr
 ;
 }
 nsresult
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnDestroyPresContext
@@ -428,7 +423,7 @@ NS_OK
 ;
 }
 nsresult
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnRemoveContent
@@ -647,7 +642,7 @@ NS_OK
 ;
 }
 nsresult
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocus
@@ -681,7 +676,7 @@ action
 ;
 }
 nsresult
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnChangeFocusInternal
@@ -990,7 +985,7 @@ NS_OK
 ;
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnInstalledMenuKeyboardListener
@@ -1032,7 +1027,7 @@ action
 ;
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnClickInEditor
@@ -1204,7 +1199,7 @@ action
 ;
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnFocusInEditor
@@ -1265,7 +1260,7 @@ CreateIMEContentObserver
 ;
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 UpdateIMEState
@@ -1437,7 +1432,7 @@ CreateIMEContentObserver
 }
 }
 IMEState
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetNewIMEState
@@ -1596,9 +1591,6 @@ nsIObserverService
 >
 observerService
 =
-mozilla
-:
-:
 services
 :
 :
@@ -1656,7 +1648,7 @@ mState
 }
 ;
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 SetIMEState
@@ -2162,7 +2154,7 @@ mEnabled
 }
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 EnsureTextCompositionArray
@@ -2186,7 +2178,7 @@ TextCompositionArray
 ;
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 DispatchCompositionEvent
@@ -2411,7 +2403,7 @@ i
 }
 }
 nsresult
-nsIMEStateManager
+IMEStateManager
 :
 :
 NotifyIME
@@ -2867,7 +2859,7 @@ NS_OK
 }
 }
 nsresult
-nsIMEStateManager
+IMEStateManager
 :
 :
 NotifyIME
@@ -2915,7 +2907,7 @@ widget
 ;
 }
 bool
-nsIMEStateManager
+IMEStateManager
 :
 :
 IsEditable
@@ -2977,7 +2969,7 @@ false
 }
 nsINode
 *
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetRootEditableNode
@@ -3073,7 +3065,7 @@ nullptr
 ;
 }
 bool
-nsIMEStateManager
+IMEStateManager
 :
 :
 IsEditableIMEState
@@ -3098,18 +3090,12 @@ mEnabled
 )
 {
 case
-widget
-:
-:
 IMEState
 :
 :
 ENABLED
 :
 case
-widget
-:
-:
 IMEState
 :
 :
@@ -3119,18 +3105,12 @@ return
 true
 ;
 case
-widget
-:
-:
 IMEState
 :
 :
 PLUGIN
 :
 case
-widget
-:
-:
 IMEState
 :
 :
@@ -3154,7 +3134,7 @@ state
 }
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 DestroyTextStateManager
@@ -3192,7 +3172,7 @@ Destroy
 ;
 }
 void
-nsIMEStateManager
+IMEStateManager
 :
 :
 CreateIMEContentObserver
@@ -3330,7 +3310,7 @@ sContent
 ;
 }
 nsresult
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetFocusSelectionAndRoot
@@ -3370,7 +3350,7 @@ already_AddRefed
 <
 TextComposition
 >
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetTextCompositionFor
@@ -3416,7 +3396,7 @@ already_AddRefed
 <
 TextComposition
 >
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetTextCompositionFor
@@ -3462,4 +3442,5 @@ aEvent
 widget
 )
 ;
+}
 }

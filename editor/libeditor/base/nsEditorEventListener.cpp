@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+IMEStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -262,13 +271,6 @@ h
 include
 "
 nsIHTMLEditor
-.
-h
-"
-#
-include
-"
-nsIMEStateManager
 .
 h
 "
@@ -2667,7 +2669,7 @@ presContext
 currentDoc
 )
 {
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnClickInEditor
@@ -4315,7 +4317,7 @@ GetFocusedContentForIME
 (
 )
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 OnFocusInEditor

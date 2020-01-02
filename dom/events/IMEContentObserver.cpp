@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+IMEStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -90,13 +99,6 @@ h
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsIMEStateManager
 .
 h
 "
@@ -217,7 +219,7 @@ aWidget
 ;
 mEditableNode
 =
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetRootEditableNode
@@ -452,7 +454,7 @@ mRootContent
 ;
 if
 (
-nsIMEStateManager
+IMEStateManager
 :
 :
 IsTestingIME
@@ -660,7 +662,7 @@ mRootContent
 {
 if
 (
-nsIMEStateManager
+IMEStateManager
 :
 :
 IsTestingIME
@@ -886,7 +888,7 @@ return
 mEditableNode
 =
 =
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetRootEditableNode
@@ -921,7 +923,7 @@ TextComposition
 >
 composition
 =
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetTextCompositionFor

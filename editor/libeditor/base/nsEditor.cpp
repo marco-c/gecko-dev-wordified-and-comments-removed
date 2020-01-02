@@ -145,6 +145,15 @@ include
 "
 mozilla
 /
+IMEStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -501,13 +510,6 @@ h
 include
 "
 nsIInlineSpellChecker
-.
-h
-"
-#
-include
-"
-nsIMEStateManager
 .
 h
 "
@@ -1444,7 +1446,7 @@ GetFocusedContentForIME
 (
 )
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 UpdateIMEState
@@ -2073,7 +2075,7 @@ GetFocusedContentForIME
 (
 )
 ;
-nsIMEStateManager
+IMEStateManager
 :
 :
 UpdateIMEState
@@ -8067,7 +8069,7 @@ return
 }
 mComposition
 =
-nsIMEStateManager
+IMEStateManager
 :
 :
 GetTextCompositionFor
@@ -8084,7 +8086,7 @@ mComposition
 MOZ_CRASH
 (
 "
-nsIMEStateManager
+IMEStateManager
 doesn
 '
 t
@@ -8342,7 +8344,7 @@ mComposition
 )
 {
 return
-nsIMEStateManager
+IMEStateManager
 :
 :
 NotifyIME
@@ -8353,7 +8355,7 @@ pc
 ;
 }
 return
-nsIMEStateManager
+IMEStateManager
 :
 :
 NotifyIME

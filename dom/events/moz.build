@@ -194,6 +194,11 @@ mozilla
 =
 [
 '
+IMEStateManager
+.
+h
+'
+'
 InternalMutationEvent
 .
 h
@@ -440,6 +445,11 @@ IMEContentObserver
 cpp
 '
 '
+IMEStateManager
+.
+cpp
+'
+'
 KeyboardEvent
 .
 cpp
@@ -501,11 +511,6 @@ cpp
 '
 '
 nsEventListenerService
-.
-cpp
-'
-'
-nsIMEStateManager
 .
 cpp
 '
