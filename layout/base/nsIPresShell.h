@@ -1265,7 +1265,7 @@ aHint
 ;
 virtual
 void
-RestyleShadowRoot
+RecordShadowStyleChange
 (
 mozilla
 :

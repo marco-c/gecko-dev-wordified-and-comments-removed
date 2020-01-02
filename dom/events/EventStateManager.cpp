@@ -8424,7 +8424,7 @@ full
 content
 -
 >
-GetCurrentDoc
+OwnerDoc
 (
 )
 -

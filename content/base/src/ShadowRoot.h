@@ -478,13 +478,13 @@ ErrorResult
 aError
 )
 ;
-protected
-:
 void
-Restyle
+StyleSheetChanged
 (
 )
 ;
+protected
+:
 nsCOMPtr
 <
 nsIContent

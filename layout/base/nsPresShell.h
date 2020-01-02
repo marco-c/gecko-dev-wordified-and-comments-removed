@@ -1698,7 +1698,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-RestyleShadowRoot
+RecordShadowStyleChange
 (
 mozilla
 :
