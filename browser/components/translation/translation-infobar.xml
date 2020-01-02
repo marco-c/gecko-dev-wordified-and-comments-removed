@@ -367,7 +367,7 @@ box
 align
 =
 "
-baseline
+center
 "
 >
 <
@@ -576,7 +576,7 @@ box
 align
 =
 "
-baseline
+center
 "
 >
 <
@@ -804,7 +804,7 @@ error
 align
 =
 "
-baseline
+center
 "
 >
 <
