@@ -11555,7 +11555,7 @@ audio
 .
 bitrate
 =
-32000
+16000
 ;
 break
 ;
