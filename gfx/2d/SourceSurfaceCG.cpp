@@ -15,6 +15,13 @@ h
 #
 include
 "
+DataSourceSurfaceWrapper
+.
+h
+"
+#
+include
+"
 MacIOSurface
 .
 h
@@ -111,7 +118,7 @@ mImage
 ;
 RefPtr
 <
-DataSourceSurfaceCG
+DataSourceSurface
 >
 dataSurf
 =
@@ -119,6 +126,14 @@ new
 DataSourceSurfaceCG
 (
 mImage
+)
+;
+dataSurf
+=
+new
+DataSourceSurfaceWrapper
+(
+dataSurf
 )
 ;
 return
