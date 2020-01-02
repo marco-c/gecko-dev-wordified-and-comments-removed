@@ -339,6 +339,11 @@ nsAppShell
 cpp
 '
 '
+nsClipboard
+.
+cpp
+'
+'
 nsIdleServiceGonk
 .
 cpp
