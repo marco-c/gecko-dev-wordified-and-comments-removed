@@ -11799,6 +11799,14 @@ null
 ;
 this
 .
+GECKO_CARDSTATE_ILLEGAL
+=
+"
+illegal
+"
+;
+this
+.
 GECKO_CARDSTATE_UNKNOWN
 =
 "
