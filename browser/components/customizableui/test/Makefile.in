@@ -85,6 +85,10 @@ browser_873501_handle_specials
 .
 js
 \
+browser_877178_unregisterArea
+.
+js
+\
 head
 .
 js
