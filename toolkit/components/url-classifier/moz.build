@@ -188,6 +188,13 @@ ProtocolParser
 cpp
 '
 ]
+#
+define
+conflicting
+LOG
+(
+)
+macros
 SOURCES
 +
 =
