@@ -287,11 +287,6 @@ GLContextTypes
 h
 '
 '
-GLContextUtils
-.
-h
-'
-'
 GLDefs
 .
 h
@@ -732,11 +727,6 @@ cpp
 '
 '
 GLContextTypes
-.
-cpp
-'
-'
-GLContextUtils
 .
 cpp
 '

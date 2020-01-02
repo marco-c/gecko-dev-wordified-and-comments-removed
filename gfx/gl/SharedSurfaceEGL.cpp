@@ -54,6 +54,13 @@ TextureGarbageBin
 .
 h
 "
+#
+include
+"
+GLReadTexImageHelper
+.
+h
+"
 using
 namespace
 mozilla
@@ -777,11 +784,9 @@ GetFormat
 )
 )
 ;
-mGL
--
->
 ReadScreenIntoImageSurface
 (
+mGL
 wrappedData
 )
 ;
