@@ -108,7 +108,7 @@ nsGeoPositionIPCSerialiser
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

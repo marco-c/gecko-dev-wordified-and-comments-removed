@@ -98,7 +98,7 @@ LIBRARY_NAME
 '
 plugin_child_interpose
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -113,7 +113,7 @@ mm
 LIBRARY_NAME
 )
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

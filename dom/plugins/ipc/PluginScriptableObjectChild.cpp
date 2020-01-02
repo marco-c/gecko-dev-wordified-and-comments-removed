@@ -26,16 +26,6 @@ mozilla
 :
 plugins
 ;
-namespace
-{
-typedef
-PluginIdentifierChild
-:
-:
-StackIdentifier
-StackIdentifier
-;
-}
 NPObject
 *
 PluginScriptableObjectChild
@@ -3284,6 +3274,9 @@ return
 true
 ;
 }
+PluginIdentifierChild
+:
+:
 StackIdentifier
 id
 (
@@ -3524,6 +3517,9 @@ VOID_TO_NPVARIANT
 result
 )
 ;
+PluginIdentifierChild
+:
+:
 StackIdentifier
 id
 (
@@ -4123,6 +4119,9 @@ return
 true
 ;
 }
+PluginIdentifierChild
+:
+:
 StackIdentifier
 id
 (
@@ -4294,6 +4293,9 @@ return
 true
 ;
 }
+PluginIdentifierChild
+:
+:
 StackIdentifier
 stackID
 (
@@ -4538,6 +4540,9 @@ return
 true
 ;
 }
+PluginIdentifierChild
+:
+:
 StackIdentifier
 stackID
 (
@@ -4741,6 +4746,9 @@ return
 true
 ;
 }
+PluginIdentifierChild
+:
+:
 StackIdentifier
 stackID
 (
