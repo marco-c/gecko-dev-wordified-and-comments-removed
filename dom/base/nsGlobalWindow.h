@@ -6743,12 +6743,6 @@ nsIDOMStorage
 >
 mSessionStorage
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-mInnerWindowHolder
-;
 nsRefPtr
 <
 mozilla
