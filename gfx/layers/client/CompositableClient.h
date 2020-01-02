@@ -442,6 +442,15 @@ ClearCachedResources
 }
 virtual
 void
+UseTexture
+(
+TextureClient
+*
+aTexture
+)
+;
+virtual
+void
 RemoveTexture
 (
 TextureClient

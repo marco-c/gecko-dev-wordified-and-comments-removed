@@ -66,6 +66,9 @@ GrallocTextureSourceOGL
 CompositorOGL
 *
 aCompositor
+GrallocTextureHostOGL
+*
+aTextureHost
 android
 :
 :
@@ -209,6 +212,10 @@ mGraphicBuffer
 =
 nullptr
 ;
+mTextureHost
+=
+nullptr
+;
 }
 TemporaryRef
 <
@@ -241,6 +248,10 @@ protected
 CompositorOGL
 *
 mCompositor
+;
+GrallocTextureHostOGL
+*
+mTextureHost
 ;
 android
 :

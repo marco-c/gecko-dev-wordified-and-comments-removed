@@ -190,15 +190,6 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-SetReleaseFenceHandle
-(
-FenceHandle
-aReleaseFenceHandle
-)
-MOZ_OVERRIDE
-;
-virtual
-void
 SetRemoveFromCompositableTracker
 (
 AsyncTransactionTracker
