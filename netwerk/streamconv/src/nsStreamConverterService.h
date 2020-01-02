@@ -44,11 +44,6 @@ nsStreamConverterService
 (
 )
 ;
-nsresult
-Init
-(
-)
-;
 private
 :
 nsresult
