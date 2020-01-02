@@ -169,6 +169,7 @@ nsSupportsWeakReference
 {
 public
 :
+explicit
 TestObserver
 (
 const

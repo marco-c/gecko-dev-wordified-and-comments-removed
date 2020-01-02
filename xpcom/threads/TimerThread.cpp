@@ -179,6 +179,7 @@ nsRunnable
 {
 public
 :
+explicit
 TimerObserverRunnable
 (
 nsIObserver

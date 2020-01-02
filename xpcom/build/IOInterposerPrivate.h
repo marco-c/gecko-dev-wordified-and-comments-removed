@@ -146,6 +146,7 @@ MonitorAutoLock
 {
 public
 :
+explicit
 MonitorAutoLock
 (
 Monitor
@@ -221,6 +222,7 @@ MonitorAutoUnlock
 {
 public
 :
+explicit
 MonitorAutoUnlock
 (
 Monitor
@@ -327,6 +329,7 @@ AutoLock
 {
 public
 :
+explicit
 AutoLock
 (
 Mutex

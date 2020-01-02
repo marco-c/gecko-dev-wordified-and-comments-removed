@@ -439,6 +439,7 @@ IOInterposeObserver
 {
 public
 :
+explicit
 LateWriteObserver
 (
 const

@@ -255,6 +255,7 @@ AutoCreateAndDestroyReentrantMonitor
 {
 public
 :
+explicit
 AutoCreateAndDestroyReentrantMonitor
 (
 ReentrantMonitor

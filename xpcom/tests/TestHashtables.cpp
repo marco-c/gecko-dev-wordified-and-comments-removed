@@ -78,6 +78,7 @@ TestUniChar
 {
 public
 :
+explicit
 TestUniChar
 (
 uint32_t
@@ -301,6 +302,7 @@ char
 *
 KeyTypePointer
 ;
+explicit
 EntityToUnicodeEntry
 (
 const

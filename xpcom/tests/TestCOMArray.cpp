@@ -94,6 +94,7 @@ Foo
 ;
 public
 :
+explicit
 Foo
 (
 int32_t

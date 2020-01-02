@@ -818,6 +818,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsThreadShutdownAckEvent
 (
 nsThreadShutdownContext

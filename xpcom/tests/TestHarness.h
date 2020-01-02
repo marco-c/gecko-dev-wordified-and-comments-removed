@@ -298,6 +298,7 @@ nsIDirectoryServiceProvider2
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 ScopedXPCOM
 (
 const
