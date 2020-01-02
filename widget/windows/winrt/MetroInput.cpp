@@ -85,6 +85,13 @@ h
 "
 #
 include
+"
+WinUtils
+.
+h
+"
+#
+include
 <
 windows
 .
@@ -119,6 +126,13 @@ Microsoft
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+widget
 ;
 using
 namespace
@@ -341,7 +355,7 @@ touchRadius
 .
 x
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
@@ -357,7 +371,7 @@ touchRadius
 .
 y
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
@@ -487,7 +501,7 @@ touchRadius
 .
 x
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
@@ -503,7 +517,7 @@ touchRadius
 .
 y
 =
-MetroUtils
+WinUtils
 :
 :
 LogToPhys
