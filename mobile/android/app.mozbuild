@@ -83,10 +83,6 @@ components
 build
 '
 ]
-app_libxul_static_dirs
-=
-[
-]
 include
 (
 '
