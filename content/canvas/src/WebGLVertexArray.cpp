@@ -164,7 +164,7 @@ mBoundElementArrayBuffer
 =
 nullptr
 ;
-mAttribBuffers
+mAttribs
 .
 Clear
 (
@@ -175,7 +175,7 @@ bool
 WebGLVertexArray
 :
 :
-EnsureAttribIndex
+EnsureAttrib
 (
 GLuint
 index
@@ -302,14 +302,14 @@ if
 index
 >
 =
-mAttribBuffers
+mAttribs
 .
 Length
 (
 )
 )
 {
-mAttribBuffers
+mAttribs
 .
 SetLength
 (
@@ -326,7 +326,7 @@ true
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_2
 (
 WebGLVertexArray
-mAttribBuffers
+mAttribs
 mBoundElementArrayBuffer
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
