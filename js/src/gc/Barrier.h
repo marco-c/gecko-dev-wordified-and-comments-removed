@@ -4255,6 +4255,17 @@ ReadBarrieredAtom
 typedef
 ReadBarriered
 <
+JS
+:
+:
+Symbol
+*
+>
+ReadBarrieredSymbol
+;
+typedef
+ReadBarriered
+<
 Value
 >
 ReadBarrieredValue

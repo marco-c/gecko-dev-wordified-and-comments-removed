@@ -343,11 +343,7 @@ l
 typedef
 HashSet
 <
-JS
-:
-:
-Symbol
-*
+ReadBarrieredSymbol
 HashSymbolsByDescription
 SystemAllocPolicy
 >
