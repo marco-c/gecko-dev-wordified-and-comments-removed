@@ -195,7 +195,6 @@ bool
 GetAllowScripts
 (
 )
-const
 ;
 nsresult
 BindingAttached

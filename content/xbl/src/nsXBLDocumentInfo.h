@@ -107,7 +107,6 @@ bool
 GetScriptAccess
 (
 )
-const
 {
 return
 mScriptAccess
