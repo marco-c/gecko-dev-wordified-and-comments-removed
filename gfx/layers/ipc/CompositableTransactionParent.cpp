@@ -1601,9 +1601,12 @@ GetFlags
 ;
 if
 (
+!
+(
 flags
 &
-TEXTURE_DEALLOCATE_HOST
+TEXTURE_DEALLOCATE_CLIENT
+)
 )
 {
 texture
@@ -1628,12 +1631,9 @@ textureID
 ;
 if
 (
-!
-(
 flags
 &
-TEXTURE_DEALLOCATE_HOST
-)
+TEXTURE_DEALLOCATE_CLIENT
 )
 {
 replyv
