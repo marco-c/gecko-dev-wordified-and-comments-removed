@@ -665,7 +665,6 @@ ICU_LIB_NAMES
 (
 DEPTH
 )
-1
 /
 intl
 /
@@ -723,7 +722,6 @@ ICU_LIB_NAMES
 (
 DEPTH
 )
-1
 /
 intl
 /
@@ -789,7 +787,6 @@ ICU_LIB_NAMES
 (
 DEPTH
 )
-1
 /
 intl
 /
@@ -856,7 +853,6 @@ ICU_LIB_NAMES
 (
 DEPTH
 )
-1
 /
 intl
 /
@@ -981,6 +977,22 @@ AC_DEFUN
 MOZ_SUBCONFIGURE_ICU
 ]
 [
+if
+test
+-
+z
+"
+BUILDING_JS
+"
+-
+o
+-
+n
+"
+JS_STANDALONE
+"
+;
+then
 if
 test
 -
@@ -2271,6 +2283,7 @@ exit
 |
 exit
 1
+fi
 fi
 ]
 )
