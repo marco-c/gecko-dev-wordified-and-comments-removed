@@ -1590,6 +1590,15 @@ aFrame
 ;
 static
 bool
+IsFirstContinuationOrSpecialSibling
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
+bool
 IsViewportScrollbarFrame
 (
 nsIFrame
