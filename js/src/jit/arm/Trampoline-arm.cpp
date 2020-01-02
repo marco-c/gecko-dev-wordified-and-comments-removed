@@ -960,6 +960,7 @@ afp
 (
 &
 masm
+5
 )
 ;
 Label
@@ -3189,6 +3190,7 @@ afp
 (
 &
 masm
+BAILOUT_TABLE_SIZE
 )
 ;
 for

@@ -2107,10 +2107,6 @@ Condition
 c
 =
 Always
-bool
-isPatchable
-=
-false
 )
 ;
 void
@@ -3549,12 +3545,6 @@ ma_pop
 pc
 )
 ;
-m_buffer
-.
-markGuard
-(
-)
-;
 }
 void
 retn
@@ -3570,12 +3560,6 @@ sp
 n
 pc
 PostIndex
-)
-;
-m_buffer
-.
-markGuard
-(
 )
 ;
 }
