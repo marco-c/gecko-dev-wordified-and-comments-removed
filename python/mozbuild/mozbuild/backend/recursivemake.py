@@ -2867,6 +2867,12 @@ compile
 parallel_filter
             
 '
+binaries
+'
+:
+parallel_filter
+            
+'
 libs
 '
 :
