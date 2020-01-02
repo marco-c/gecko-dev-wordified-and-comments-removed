@@ -969,6 +969,11 @@ isUnexpectedEOF_
 :
 1
 ;
+bool
+sawDeprecatedForEach
+:
+1
+;
 typedef
 typename
 ParseHandler
