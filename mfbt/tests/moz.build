@@ -103,6 +103,11 @@ TestAtomics
 cpp
 '
 '
+TestBinarySearch
+.
+cpp
+'
+'
 TestBloomFilter
 .
 cpp

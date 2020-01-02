@@ -147,6 +147,11 @@ Attributes
 h
 '
 '
+BinarySearch
+.
+h
+'
+'
 BloomFilter
 .
 h
