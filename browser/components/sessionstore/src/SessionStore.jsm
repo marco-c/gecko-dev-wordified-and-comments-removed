@@ -6041,7 +6041,7 @@ TAB_STATE_NEEDS_RESTORE
 )
 this
 .
-restoreTab
+restoreTabContent
 (
 tab
 )
@@ -12274,7 +12274,7 @@ browser
 {
 this
 .
-restoreTab
+restoreTabContent
 (
 tab
 )
@@ -12297,10 +12297,9 @@ restoreNextTab
 ;
 }
 }
-restoreTab
+restoreTabContent
 :
 function
-ssi_restoreTab
 (
 aTab
 )
@@ -12663,7 +12662,7 @@ didStartLoad
 =
 this
 .
-restoreTab
+restoreTabContent
 (
 tab
 )
@@ -18132,7 +18131,7 @@ aReloadFlags
 {
 SessionStoreInternal
 .
-restoreTab
+restoreTabContent
 (
 this
 .
