@@ -1146,6 +1146,23 @@ date
 .
 '
 )
+            
+if
+'
+mqext
+'
+in
+c
+.
+extensions
+and
+not
+c
+.
+have_mqext_autocommit_mq
+(
+)
+:
                 
 if
 self
@@ -1176,9 +1193,8 @@ patches
                     
 c
 .
-autocommit_mq
+ensure_mqext_autocommit_mq
 (
-True
 )
                     
 print
