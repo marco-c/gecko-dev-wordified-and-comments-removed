@@ -722,6 +722,11 @@ GetFrameMetrics
 )
 ;
 void
+SetContentResponseTimer
+(
+)
+;
+void
 TimeoutContentResponse
 (
 )

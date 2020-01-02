@@ -93,6 +93,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 =
 0
@@ -107,6 +111,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 =
 0
@@ -121,6 +129,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 =
 0
@@ -135,6 +147,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 =
 0

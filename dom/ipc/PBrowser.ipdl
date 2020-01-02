@@ -2464,6 +2464,8 @@ HandleDoubleTap
 (
 CSSIntPoint
 point
+ScrollableLayerGuid
+aGuid
 )
 ;
 /
@@ -2519,6 +2521,8 @@ HandleSingleTap
 (
 CSSIntPoint
 point
+ScrollableLayerGuid
+aGuid
 )
 ;
 /
@@ -2568,6 +2572,8 @@ HandleLongTap
 (
 CSSIntPoint
 point
+ScrollableLayerGuid
+aGuid
 )
 ;
 /
@@ -2640,6 +2646,8 @@ HandleLongTapUp
 (
 CSSIntPoint
 point
+ScrollableLayerGuid
+aGuid
 )
 ;
 /

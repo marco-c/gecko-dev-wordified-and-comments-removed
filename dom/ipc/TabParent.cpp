@@ -2362,6 +2362,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -2376,6 +2380,7 @@ unused
 SendHandleDoubleTap
 (
 aPoint
+aGuid
 )
 ;
 }
@@ -2392,6 +2397,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -2406,6 +2415,7 @@ unused
 SendHandleSingleTap
 (
 aPoint
+aGuid
 )
 ;
 }
@@ -2422,6 +2432,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -2436,6 +2450,7 @@ unused
 SendHandleLongTap
 (
 aPoint
+aGuid
 )
 ;
 }
@@ -2452,6 +2467,10 @@ CSSIntPoint
 aPoint
 int32_t
 aModifiers
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -2466,6 +2485,7 @@ unused
 SendHandleLongTapUp
 (
 aPoint
+aGuid
 )
 ;
 }
@@ -3228,6 +3248,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -3249,6 +3273,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aGuid
 )
 ;
 }
@@ -3262,6 +3287,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -3283,6 +3312,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aGuid
 )
 ;
 }
@@ -3296,6 +3326,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -3317,6 +3351,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aGuid
 )
 ;
 }
@@ -3330,6 +3365,10 @@ const
 CSSIntPoint
 &
 aPoint
+const
+ScrollableLayerGuid
+&
+aGuid
 )
 {
 if
@@ -3351,6 +3390,7 @@ AdjustTapToChildWidget
 (
 aPoint
 )
+aGuid
 )
 ;
 }
