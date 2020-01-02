@@ -34,13 +34,6 @@ h
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h

@@ -25,13 +25,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-gfx3DMatrix
-.
-h
-"
 namespace
 mozilla
 {
