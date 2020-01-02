@@ -128,8 +128,8 @@ aMsg
 nsresult
 GetMessageId
 (
-AutoPushJSContext
-&
+JSContext
+*
 aCx
 const
 JS
@@ -139,7 +139,7 @@ Value
 &
 aMessage
 int32_t
-&
+*
 aId
 )
 ;
