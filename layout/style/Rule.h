@@ -357,6 +357,12 @@ nsIDOMCSSStyleSheet
 aSheet
 )
 ;
+Rule
+*
+GetCSSRule
+(
+)
+;
 virtual
 size_t
 SizeOfIncludingThis
