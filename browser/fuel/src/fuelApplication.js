@@ -1842,7 +1842,7 @@ generateQI
 [
 Ci
 .
-nsINavBookmarksObserver
+nsINavBookmarkObserver
 Ci
 .
 nsISupportsWeakReference
@@ -2332,7 +2332,7 @@ Ci
 fuelIBookmark
 Ci
 .
-nsINavBookmarksObserver
+nsINavBookmarkObserver
 Ci
 .
 nsISupportsWeakReference
@@ -3175,7 +3175,7 @@ Ci
 fuelIBookmarkFolder
 Ci
 .
-nsINavBookmarksObserver
+nsINavBookmarkObserver
 Ci
 .
 nsISupportsWeakReference
