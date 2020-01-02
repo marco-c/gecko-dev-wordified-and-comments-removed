@@ -2179,11 +2179,6 @@ NS_ABORT_IF_FALSE
 (
 mPort
 >
-0
-|
-|
-mPort
-=
 =
 -
 1
@@ -2623,11 +2618,6 @@ NS_ABORT_IF_FALSE
 (
 mPort
 >
-0
-|
-|
-mPort
-=
 =
 -
 1
@@ -7550,13 +7540,6 @@ if
 (
 port
 <
-=
-0
-&
-&
-port
-!
-=
 -
 1
 )
