@@ -75,6 +75,7 @@ customizableui
 panelUI
 .
 css
+*
 content
 /
 browser
