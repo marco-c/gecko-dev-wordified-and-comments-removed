@@ -99,7 +99,7 @@ namespace
 dom
 {
 class
-FileHandle
+FileHandleBase
 ;
 class
 FileService
@@ -141,7 +141,7 @@ IsShuttingDown
 nsresult
 Enqueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 FileHelper
@@ -152,7 +152,7 @@ aFileHelper
 void
 NotifyFileHandleCompleted
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -270,7 +270,7 @@ private
 inline
 FileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -291,7 +291,7 @@ mRefCnt
 NS_DECL_OWNINGTHREAD
 nsRefPtr
 <
-FileHandle
+FileHandleBase
 >
 mFileHandle
 ;
@@ -326,7 +326,7 @@ DelayedEnqueueInfo
 ;
 nsRefPtr
 <
-FileHandle
+FileHandleBase
 >
 mFileHandle
 ;
@@ -352,7 +352,7 @@ FileHandleQueue
 *
 CreateFileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -362,7 +362,7 @@ FileHandleQueue
 *
 GetFileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -370,7 +370,7 @@ aFileHandle
 void
 RemoveFileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -403,7 +403,7 @@ DelayedEnqueueInfo
 *
 CreateDelayedEnqueueInfo
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 FileHelper
@@ -422,7 +422,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileHandle
+FileHandleBase
 >
 >
 &

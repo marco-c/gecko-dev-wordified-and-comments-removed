@@ -64,7 +64,7 @@ mozilla
 /
 dom
 /
-nsIContentParent
+IDBMutableFileBinding
 .
 h
 "
@@ -75,7 +75,7 @@ mozilla
 /
 dom
 /
-MutableFileBinding
+nsIContentParent
 .
 h
 "
@@ -6648,7 +6648,7 @@ Manager
 (
 )
 ;
-MutableFile
+IDBMutableFile
 *
 mutableFile
 =
@@ -6660,7 +6660,7 @@ NS_SUCCEEDED
 (
 UNWRAP_OBJECT
 (
-MutableFile
+IDBMutableFile
 aObj
 mutableFile
 )
@@ -6680,12 +6680,13 @@ GetFileInfo
 (
 )
 ;
+MOZ_ASSERT
+(
+fileInfo
+)
+;
 if
 (
-!
-fileInfo
-|
-|
 fileInfo
 -
 >

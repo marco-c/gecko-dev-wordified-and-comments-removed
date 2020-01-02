@@ -87,7 +87,7 @@ dom
 {
 namespace
 {
-FileHandle
+FileHandleBase
 *
 gCurrentFileHandle
 =
@@ -99,10 +99,10 @@ FileHelper
 :
 FileHelper
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
-FileRequest
+FileRequestBase
 *
 aFileRequest
 )
@@ -112,7 +112,9 @@ mMutableFile
 aFileHandle
 -
 >
-mMutableFile
+MutableFile
+(
+)
 )
 mFileHandle
 (
@@ -303,7 +305,7 @@ mFileHandle
 mRequestMode
 =
 =
-FileHandle
+FileHandleBase
 :
 :
 PARALLEL
@@ -583,7 +585,7 @@ aProgressMax
 ;
 }
 }
-FileHandle
+FileHandleBase
 *
 FileHelper
 :
@@ -740,7 +742,7 @@ mResultCode
 NS_ERROR_DOM_FILEHANDLE_ABORT_ERR
 ;
 }
-FileHandle
+FileHandleBase
 *
 oldFileHandle
 =

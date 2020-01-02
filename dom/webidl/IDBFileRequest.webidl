@@ -110,13 +110,13 @@ MPL
 *
 /
 interface
-FileRequest
+IDBFileRequest
 :
 DOMRequest
 {
 readonly
 attribute
-FileHandle
+IDBFileHandle
 ?
 fileHandle
 ;
@@ -133,7 +133,7 @@ the
 spec
 readonly
 attribute
-FileHandle
+IDBFileHandle
 ?
 lockedFile
 ;

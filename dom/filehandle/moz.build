@@ -93,14 +93,6 @@ MPL
 0
 /
 .
-TEST_DIRS
-+
-=
-[
-'
-test
-'
-]
 EXPORTS
 .
 mozilla
@@ -110,7 +102,7 @@ dom
 =
 [
 '
-File
+AsyncHelper
 .
 h
 '
@@ -135,6 +127,11 @@ FileService
 h
 '
 '
+MetadataHelper
+.
+h
+'
+'
 MutableFile
 .
 h
@@ -146,11 +143,6 @@ UNIFIED_SOURCES
 [
 '
 AsyncHelper
-.
-cpp
-'
-'
-File
 .
 cpp
 '

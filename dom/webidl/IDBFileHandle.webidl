@@ -56,7 +56,7 @@ MPL
 *
 /
 dictionary
-DOMFileMetadataParameters
+IDBFileMetadataParameters
 {
 boolean
 size
@@ -71,13 +71,13 @@ true
 }
 ;
 interface
-FileHandle
+IDBFileHandle
 :
 EventTarget
 {
 readonly
 attribute
-MutableFile
+IDBMutableFile
 ?
 mutableFile
 ;
@@ -94,7 +94,7 @@ the
 spec
 readonly
 attribute
-MutableFile
+IDBMutableFile
 ?
 fileHandle
 ;
@@ -122,19 +122,19 @@ location
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 getMetadata
 (
 optional
-DOMFileMetadataParameters
+IDBFileMetadataParameters
 parameters
 )
 ;
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 readAsArrayBuffer
 (
@@ -147,7 +147,7 @@ size
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 readAsText
 (
@@ -166,7 +166,7 @@ null
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 write
 (
@@ -177,7 +177,7 @@ value
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 write
 (
@@ -188,7 +188,7 @@ value
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 write
 (
@@ -199,7 +199,7 @@ value
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 append
 (
@@ -210,7 +210,7 @@ value
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 append
 (
@@ -221,7 +221,7 @@ value
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 append
 (
@@ -232,7 +232,7 @@ value
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 truncate
 (
@@ -246,7 +246,7 @@ size
 [
 Throws
 ]
-FileRequest
+IDBFileRequest
 ?
 flush
 (

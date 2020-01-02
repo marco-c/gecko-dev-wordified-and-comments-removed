@@ -557,7 +557,7 @@ FileService
 :
 Enqueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 FileHelper
@@ -587,14 +587,16 @@ pointer
 "
 )
 ;
-MutableFile
+MutableFileBase
 *
 mutableFile
 =
 aFileHandle
 -
 >
-mMutableFile
+MutableFile
+(
+)
 ;
 if
 (
@@ -851,7 +853,7 @@ FileService
 :
 NotifyFileHandleCompleted
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -878,14 +880,16 @@ pointer
 "
 )
 ;
-MutableFile
+MutableFileBase
 *
 mutableFile
 =
 aFileHandle
 -
 >
-mMutableFile
+MutableFile
+(
+)
 ;
 const
 nsACString
@@ -1179,7 +1183,7 @@ nsAutoTArray
 <
 nsRefPtr
 <
-FileHandle
+FileHandleBase
 >
 10
 >
@@ -1456,7 +1460,7 @@ FileHandleQueue
 :
 FileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -1535,7 +1539,7 @@ mFileHandle
 mRequestMode
 =
 =
-FileHandle
+FileHandleBase
 :
 :
 PARALLEL
@@ -1593,7 +1597,7 @@ mFileHandle
 mRequestMode
 =
 =
-FileHandle
+FileHandleBase
 :
 :
 PARALLEL
@@ -1778,7 +1782,7 @@ StorageInfo
 :
 CreateFileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -1827,7 +1831,7 @@ StorageInfo
 :
 GetFileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -1898,7 +1902,7 @@ StorageInfo
 :
 RemoveFileHandleQueue
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 )
@@ -2004,7 +2008,7 @@ index
 +
 )
 {
-FileHandle
+FileHandleBase
 *
 fileHandle
 =
@@ -2066,7 +2070,9 @@ fileName
 fileHandle
 -
 >
-mMutableFile
+MutableFile
+(
+)
 -
 >
 mFileName
@@ -2255,7 +2261,7 @@ index
 +
 )
 {
-FileHandle
+FileHandleBase
 *
 fileHandle
 =
@@ -2272,7 +2278,9 @@ if
 fileHandle
 -
 >
-mMutableFile
+MutableFile
+(
+)
 -
 >
 Storage
@@ -2305,7 +2313,7 @@ StorageInfo
 :
 CreateDelayedEnqueueInfo
 (
-FileHandle
+FileHandleBase
 *
 aFileHandle
 FileHelper
@@ -2357,7 +2365,7 @@ nsTArray
 <
 nsRefPtr
 <
-FileHandle
+FileHandleBase
 >
 >
 &
@@ -2384,7 +2392,7 @@ index
 +
 )
 {
-FileHandle
+FileHandleBase
 *
 fileHandle
 =
@@ -2401,7 +2409,9 @@ if
 fileHandle
 -
 >
-mMutableFile
+MutableFile
+(
+)
 -
 >
 Storage
@@ -2441,7 +2451,7 @@ index
 +
 )
 {
-FileHandle
+FileHandleBase
 *
 fileHandle
 =
@@ -2457,7 +2467,9 @@ if
 fileHandle
 -
 >
-mMutableFile
+MutableFile
+(
+)
 -
 >
 Storage
