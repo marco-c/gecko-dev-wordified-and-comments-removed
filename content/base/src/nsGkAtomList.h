@@ -15857,6 +15857,13 @@ password
 )
 GK_ATOM
 (
+picture
+"
+picture
+"
+)
+GK_ATOM
+(
 posinset
 "
 posinset

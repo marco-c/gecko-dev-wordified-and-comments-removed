@@ -940,6 +940,11 @@ HTMLParamElement
 webidl
 '
 '
+HTMLPictureElement
+.
+webidl
+'
+'
 HTMLPreElement
 .
 webidl

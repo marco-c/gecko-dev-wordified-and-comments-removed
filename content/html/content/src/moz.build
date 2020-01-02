@@ -302,6 +302,11 @@ HTMLParagraphElement
 h
 '
 '
+HTMLPictureElement
+.
+h
+'
+'
 HTMLPreElement
 .
 h
@@ -643,6 +648,11 @@ cpp
 '
 '
 HTMLParagraphElement
+.
+cpp
+'
+'
+HTMLPictureElement
 .
 cpp
 '
