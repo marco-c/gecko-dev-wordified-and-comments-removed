@@ -11955,6 +11955,12 @@ areatype
 toolbar
 "
 ]
+:
+not
+(
+.
+overflowedItem
+)
 >
 #
 zoom
@@ -11972,7 +11978,7 @@ padding
 -
 top
 :
-2px
+8px
 ;
 margin
 :
