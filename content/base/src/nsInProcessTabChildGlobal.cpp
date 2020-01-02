@@ -982,10 +982,6 @@ this
 )
 )
 ;
-mGlobal
-=
-nullptr
-;
 }
 else
 {
