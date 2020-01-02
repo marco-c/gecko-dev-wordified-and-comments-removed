@@ -235,16 +235,10 @@ nsIVariant
 value
 )
 {
-if
+NS_ENSURE_ARG_POINTER
 (
-NS_WARN_IF
-(
-!
 value
 )
-)
-return
-NS_ERROR_INVALID_ARG
 ;
 mPropertyHash
 .

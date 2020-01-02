@@ -163,15 +163,10 @@ void
 aResult
 )
 {
-if
-(
-NS_WARN_IF
+NS_ENSURE_NO_AGGREGATION
 (
 aOuter
 )
-)
-return
-NS_ERROR_NO_AGGREGATION
 ;
 return
 QueryInterface
