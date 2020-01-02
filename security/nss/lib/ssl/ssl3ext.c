@@ -334,7 +334,7 @@ data
 )
 ;
 static
-SECStatus
+PRInt32
 ssl3_ServerSendStatusRequestXtn
 (
 sslSocket

@@ -2201,6 +2201,11 @@ if
 cached
 )
 {
+nssList_Destroy
+(
+certList
+)
+;
 return
 PR_FAILURE
 ;
@@ -2215,11 +2220,6 @@ void
 )
 cached
 count
-)
-;
-nssList_Destroy
-(
-certList
 )
 ;
 for
@@ -2300,6 +2300,11 @@ cached
 )
 ;
 }
+nssList_Destroy
+(
+certList
+)
+;
 return
 PR_SUCCESS
 ;
