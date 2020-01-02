@@ -1635,13 +1635,9 @@ Android
 <
 !
 ENTITY
-pref_private_data_history
+pref_private_data_history2
 "
 Browsing
-&
-amp
-;
-download
 history
 "
 >
@@ -1710,10 +1706,9 @@ settings
 <
 !
 ENTITY
-pref_private_data_downloadFiles
+pref_private_data_downloadFiles2
 "
-Downloaded
-files
+Downloads
 "
 >
 <

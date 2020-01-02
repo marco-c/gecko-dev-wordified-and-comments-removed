@@ -2108,11 +2108,11 @@ string
 name
 =
 "
-pref_private_data_history
+pref_private_data_history2
 "
 >
 &
-pref_private_data_history
+pref_private_data_history2
 ;
 <
 /
@@ -2213,11 +2213,11 @@ string
 name
 =
 "
-pref_private_data_downloadFiles
+pref_private_data_downloadFiles2
 "
 >
 &
-pref_private_data_downloadFiles
+pref_private_data_downloadFiles2
 ;
 <
 /
