@@ -34822,6 +34822,11 @@ browser
 if
 (
 tab
+&
+&
+tab
+.
+contentDocumentIsDisplayed
 )
 this
 .
