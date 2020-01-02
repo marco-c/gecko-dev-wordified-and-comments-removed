@@ -399,6 +399,16 @@ UNRECOVERABLE_ERROR
 return
 NS_OK
 ;
+if
+(
+AndroidBridge
+:
+:
+Bridge
+(
+)
+)
+{
 nsAutoCString
 uri
 ;
@@ -437,6 +447,7 @@ MarkURIVisited
 uriString
 )
 ;
+}
 return
 NS_OK
 ;
