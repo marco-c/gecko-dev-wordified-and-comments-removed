@@ -169,8 +169,7 @@ WrapperFactory
 :
 GetXrayWaiver
 (
-JSObject
-*
+HandleObject
 obj
 )
 {
