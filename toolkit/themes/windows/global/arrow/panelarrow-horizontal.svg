@@ -126,7 +126,16 @@ z
 fill
 =
 "
-ThreeDShadow
+hsla
+(
+210
+4
+%
+10
+%
+.
+2
+)
 "
 /
 >
@@ -151,7 +160,7 @@ fill
 -
 moz
 -
-Dialog
+field
 "
 /
 >
