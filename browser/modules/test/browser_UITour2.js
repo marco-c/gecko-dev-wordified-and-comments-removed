@@ -9,6 +9,9 @@ gTestTab
 let
 gContentAPI
 ;
+let
+gContentWindow
+;
 Components
 .
 utils
@@ -132,8 +135,7 @@ load
 onLoad
 )
 ;
-let
-contentWindow
+gContentWindow
 =
 Components
 .
@@ -152,7 +154,7 @@ defaultView
 ;
 gContentAPI
 =
-contentWindow
+gContentWindow
 .
 Mozilla
 .
@@ -161,7 +163,7 @@ UITour
 waitForFocus
 (
 callback
-contentWindow
+gContentWindow
 )
 ;
 }
@@ -243,6 +245,11 @@ delete
 window
 .
 UITour
+;
+delete
+window
+.
+gContentWindow
 ;
 delete
 window
