@@ -247,6 +247,15 @@ include
 "
 mozilla
 /
+AddonPathService
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CDATASection
@@ -1040,6 +1049,10 @@ mConstructor
 Execute
 (
 aBoundElement
+MapURIToAddonID
+(
+mBindingURI
+)
 )
 ;
 return
@@ -1085,6 +1098,10 @@ mDestructor
 Execute
 (
 aBoundElement
+MapURIToAddonID
+(
+mBindingURI
+)
 )
 ;
 return

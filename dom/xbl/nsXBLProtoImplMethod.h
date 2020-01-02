@@ -542,6 +542,9 @@ Execute
 nsIContent
 *
 aBoundElement
+JSAddonId
+*
+aAddonId
 )
 ;
 virtual
