@@ -4381,7 +4381,7 @@ aContent
 )
 -
 >
-ClearInsertedChildrenAndInsertionParents
+ClearInsertedChildren
 (
 )
 ;
