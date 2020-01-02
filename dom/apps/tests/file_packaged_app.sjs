@@ -880,7 +880,7 @@ finish
 )
 ;
 }
-1000
+15000
 Ci
 .
 nsITimer
