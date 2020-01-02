@@ -621,6 +621,12 @@ mCMEE
 bool
 mCMER
 ;
+bool
+mConnectScoRequest
+;
+bool
+mSlcConnected
+;
 #
 ifdef
 MOZ_B2G_RIL
