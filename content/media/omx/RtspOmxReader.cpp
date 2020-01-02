@@ -1343,6 +1343,13 @@ SetIdle
 (
 )
 {
+MediaOmxReader
+:
+:
+SetIdle
+(
+)
+;
 if
 (
 mRtspResource
@@ -1373,13 +1380,6 @@ Pause
 ;
 }
 }
-MediaOmxReader
-:
-:
-SetIdle
-(
-)
-;
 }
 void
 RtspOmxReader
