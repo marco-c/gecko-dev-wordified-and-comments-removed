@@ -768,6 +768,13 @@ kNS_SCREENMANAGER_CID
 false
 NULL
 nsScreenManagerCocoaConstructor
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1157,6 +1164,13 @@ screenmanager
 "
 &
 kNS_SCREENMANAGER_CID
+mozilla
+:
+:
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 "
