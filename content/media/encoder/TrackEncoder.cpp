@@ -921,10 +921,6 @@ uint8_t
 >
 *
 aOutputBuffer
-int
-aFrameWidth
-int
-aFrameHeight
 )
 {
 NS_ENSURE_TRUE_VOID
@@ -935,9 +931,9 @@ aOutputBuffer
 int
 yPlaneLen
 =
-aFrameWidth
+mFrameWidth
 *
-aFrameHeight
+mFrameHeight
 ;
 int
 cbcrPlaneLen
