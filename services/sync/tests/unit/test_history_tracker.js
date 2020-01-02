@@ -11,7 +11,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+PlacesUtils
 .
 jsm
 "
@@ -30,7 +30,7 @@ gre
 /
 modules
 /
-PlacesUtils
+XPCOMUtils
 .
 jsm
 "
