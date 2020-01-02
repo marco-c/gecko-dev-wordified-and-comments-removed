@@ -19212,9 +19212,7 @@ ex
 }
 try
 {
-Services
-.
-appinfo
+gCrashReporter
 .
 annotateCrashReport
 (
