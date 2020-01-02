@@ -125,8 +125,11 @@ NS_FRAME_STATE_BIT
 (
 20
 )
+namespace
+mozilla
+{
 class
-nsGfxScrollFrameInner
+ScrollFrameHelper
 :
 public
 nsIReflowCallback
@@ -153,7 +156,7 @@ ScrollbarActivity
 class
 AsyncScroll
 ;
-nsGfxScrollFrameInner
+ScrollFrameHelper
 (
 nsContainerFrame
 *
@@ -163,7 +166,7 @@ aIsRoot
 )
 ;
 ~
-nsGfxScrollFrameInner
+ScrollFrameHelper
 (
 )
 ;
@@ -321,14 +324,14 @@ public
 NS_DECL_NSIRUNNABLE
 ScrollEvent
 (
-nsGfxScrollFrameInner
+ScrollFrameHelper
 *
-inner
+helper
 )
 :
-mInner
+mHelper
 (
-inner
+helper
 )
 {
 }
@@ -337,16 +340,16 @@ Revoke
 (
 )
 {
-mInner
+mHelper
 =
 nullptr
 ;
 }
 private
 :
-nsGfxScrollFrameInner
+ScrollFrameHelper
 *
-mInner
+mHelper
 ;
 }
 ;
@@ -361,14 +364,14 @@ public
 NS_DECL_NSIRUNNABLE
 AsyncScrollPortEvent
 (
-nsGfxScrollFrameInner
+ScrollFrameHelper
 *
-inner
+helper
 )
 :
-mInner
+mHelper
 (
-inner
+helper
 )
 {
 }
@@ -377,16 +380,16 @@ Revoke
 (
 )
 {
-mInner
+mHelper
 =
 nullptr
 ;
 }
 private
 :
-nsGfxScrollFrameInner
+ScrollFrameHelper
 *
-mInner
+mHelper
 ;
 }
 ;
@@ -401,14 +404,14 @@ public
 NS_DECL_NSIRUNNABLE
 ScrolledAreaEvent
 (
-nsGfxScrollFrameInner
+ScrollFrameHelper
 *
-inner
+helper
 )
 :
-mInner
+mHelper
 (
-inner
+helper
 )
 {
 }
@@ -417,16 +420,16 @@ Revoke
 (
 )
 {
-mInner
+mHelper
 =
 nullptr
 ;
 }
 private
 :
-nsGfxScrollFrameInner
+ScrollFrameHelper
 *
-mInner
+mHelper
 ;
 }
 ;
@@ -1352,6 +1355,7 @@ sVertScrollFraction
 ;
 }
 ;
+}
 class
 nsHTMLScrollFrame
 :
@@ -1366,6 +1370,13 @@ nsIStatefulFrame
 {
 public
 :
+typedef
+mozilla
+:
+:
+ScrollFrameHelper
+ScrollFrameHelper
+;
 typedef
 mozilla
 :
@@ -1419,7 +1430,7 @@ aLists
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 BuildDisplayList
 (
@@ -1521,7 +1532,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetBorderRadii
 (
@@ -1592,7 +1603,7 @@ UpdateOverflow
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 UpdateOverflow
 (
@@ -1666,7 +1677,7 @@ GetContentInsertionFrame
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrolledFrame
 (
@@ -1722,7 +1733,7 @@ if
 aChild
 =
 =
-mInner
+mHelper
 .
 GetScrolledFrame
 (
@@ -1775,7 +1786,7 @@ aVertical
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollbarBox
 (
@@ -1809,7 +1820,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrolledFrame
 (
@@ -1827,7 +1838,7 @@ GetScrollbarStyles
 const
 {
 return
-mInner
+mHelper
 .
 GetScrollbarStylesFromFrame
 (
@@ -1843,7 +1854,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollbarVisibility
 (
@@ -1859,7 +1870,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetActualScrollbarSizes
 (
@@ -1877,7 +1888,7 @@ aState
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetDesiredScrollbarSizes
 (
@@ -1936,7 +1947,7 @@ aRC
 )
 ;
 return
-mInner
+mHelper
 .
 GetNondisappearingScrollbarWidth
 (
@@ -1954,7 +1965,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrolledRect
 (
@@ -1970,7 +1981,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPortRect
 (
@@ -1986,7 +1997,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPosition
 (
@@ -2002,7 +2013,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetLogicalScrollPosition
 (
@@ -2018,7 +2029,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollRange
 (
@@ -2034,7 +2045,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPositionClampingScrollPortSize
 (
@@ -2050,7 +2061,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetLineScrollAmount
 (
@@ -2066,7 +2077,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetPageScrollAmount
 (
@@ -2090,7 +2101,7 @@ nullptr
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollTo
 (
@@ -2111,7 +2122,7 @@ aScrollPosition
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollToCSSPixels
 (
@@ -2133,7 +2144,7 @@ aScrollPosition
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollToCSSPixelsApproximate
 (
@@ -2149,7 +2160,7 @@ GetScrollPositionCSSPixels
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPositionCSSPixels
 (
@@ -2177,7 +2188,7 @@ nullptr
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollBy
 (
@@ -2196,7 +2207,7 @@ ScrollToRestoredPosition
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollToRestoredPosition
 (
@@ -2213,7 +2224,7 @@ aListener
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 AddScrollPositionListener
 (
@@ -2231,7 +2242,7 @@ aListener
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 RemoveScrollPositionListener
 (
@@ -2249,7 +2260,7 @@ aChild
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 CurPosAttributeChanged
 (
@@ -2263,7 +2274,7 @@ PostScrolledAreaEventForCurrentArea
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 PostScrolledAreaEvent
 (
@@ -2281,7 +2292,7 @@ IsScrollingActive
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 IsScrollingActive
 (
@@ -2295,7 +2306,7 @@ ResetScrollPositionForLayerPixelAlignment
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ResetScrollPositionForLayerPixelAlignment
 (
@@ -2310,7 +2321,7 @@ DidHistoryRestore
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 mDidHistoryRestore
 ;
@@ -2322,7 +2333,7 @@ ClearDidHistoryRestore
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 mDidHistoryRestore
 =
@@ -2341,7 +2352,7 @@ aRect
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 IsRectNearlyVisible
 (
@@ -2367,7 +2378,7 @@ aState
 *
 aState
 =
-mInner
+mHelper
 .
 SaveState
 (
@@ -2391,7 +2402,7 @@ NS_ENSURE_ARG_POINTER
 aState
 )
 ;
-mInner
+mHelper
 .
 RestoreState
 (
@@ -2465,7 +2476,7 @@ bool
 aSuppress
 )
 {
-mInner
+mHelper
 .
 mSupppressScrollbarUpdate
 =
@@ -2497,7 +2508,7 @@ IsScrollbarUpdateSuppressed
 const
 {
 return
-mInner
+mHelper
 .
 mSupppressScrollbarUpdate
 ;
@@ -2523,10 +2534,13 @@ private
 :
 friend
 class
-nsGfxScrollFrameInner
+mozilla
+:
+:
+ScrollFrameHelper
 ;
-nsGfxScrollFrameInner
-mInner
+ScrollFrameHelper
+mHelper
 ;
 }
 ;
@@ -2544,6 +2558,13 @@ nsIStatefulFrame
 {
 public
 :
+typedef
+mozilla
+:
+:
+ScrollFrameHelper
+ScrollFrameHelper
+;
 typedef
 mozilla
 :
@@ -2599,7 +2620,7 @@ aLists
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 BuildDisplayList
 (
@@ -2632,7 +2653,7 @@ UpdateOverflow
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 UpdateOverflow
 (
@@ -2706,7 +2727,7 @@ GetContentInsertionFrame
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrolledFrame
 (
@@ -2762,7 +2783,7 @@ if
 aChild
 =
 =
-mInner
+mHelper
 .
 GetScrolledFrame
 (
@@ -2771,7 +2792,7 @@ GetScrolledFrame
 pt
 +
 =
-mInner
+mHelper
 .
 GetLogicalScrollPosition
 (
@@ -2878,7 +2899,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetBorderRadii
 (
@@ -3015,7 +3036,7 @@ aVertical
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollbarBox
 (
@@ -3049,7 +3070,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrolledFrame
 (
@@ -3067,7 +3088,7 @@ GetScrollbarStyles
 const
 {
 return
-mInner
+mHelper
 .
 GetScrollbarStylesFromFrame
 (
@@ -3083,7 +3104,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollbarVisibility
 (
@@ -3099,7 +3120,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetActualScrollbarSizes
 (
@@ -3117,7 +3138,7 @@ aState
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetDesiredScrollbarSizes
 (
@@ -3176,7 +3197,7 @@ aRC
 )
 ;
 return
-mInner
+mHelper
 .
 GetNondisappearingScrollbarWidth
 (
@@ -3194,7 +3215,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrolledRect
 (
@@ -3210,7 +3231,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPortRect
 (
@@ -3226,7 +3247,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPosition
 (
@@ -3242,7 +3263,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetLogicalScrollPosition
 (
@@ -3258,7 +3279,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollRange
 (
@@ -3274,7 +3295,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPositionClampingScrollPortSize
 (
@@ -3290,7 +3311,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetLineScrollAmount
 (
@@ -3306,7 +3327,7 @@ const
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetPageScrollAmount
 (
@@ -3330,7 +3351,7 @@ nullptr
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollTo
 (
@@ -3351,7 +3372,7 @@ aScrollPosition
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollToCSSPixels
 (
@@ -3373,7 +3394,7 @@ aScrollPosition
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollToCSSPixelsApproximate
 (
@@ -3389,7 +3410,7 @@ GetScrollPositionCSSPixels
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 GetScrollPositionCSSPixels
 (
@@ -3417,7 +3438,7 @@ nullptr
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollBy
 (
@@ -3436,7 +3457,7 @@ ScrollToRestoredPosition
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ScrollToRestoredPosition
 (
@@ -3453,7 +3474,7 @@ aListener
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 AddScrollPositionListener
 (
@@ -3471,7 +3492,7 @@ aListener
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 RemoveScrollPositionListener
 (
@@ -3489,7 +3510,7 @@ aChild
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 CurPosAttributeChanged
 (
@@ -3503,7 +3524,7 @@ PostScrolledAreaEventForCurrentArea
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 PostScrolledAreaEvent
 (
@@ -3521,7 +3542,7 @@ IsScrollingActive
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 IsScrollingActive
 (
@@ -3535,7 +3556,7 @@ ResetScrollPositionForLayerPixelAlignment
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 ResetScrollPositionForLayerPixelAlignment
 (
@@ -3550,7 +3571,7 @@ DidHistoryRestore
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 mDidHistoryRestore
 ;
@@ -3562,7 +3583,7 @@ ClearDidHistoryRestore
 )
 MOZ_OVERRIDE
 {
-mInner
+mHelper
 .
 mDidHistoryRestore
 =
@@ -3581,7 +3602,7 @@ aRect
 MOZ_OVERRIDE
 {
 return
-mInner
+mHelper
 .
 IsRectNearlyVisible
 (
@@ -3607,7 +3628,7 @@ aState
 *
 aState
 =
-mInner
+mHelper
 .
 SaveState
 (
@@ -3631,7 +3652,7 @@ NS_ENSURE_ARG_POINTER
 aState
 )
 ;
-mInner
+mHelper
 .
 RestoreState
 (
@@ -3741,7 +3762,7 @@ false
 if
 (
 !
-mInner
+mHelper
 .
 IsLTR
 (
@@ -3752,7 +3773,7 @@ aRect
 .
 x
 =
-mInner
+mHelper
 .
 mScrollPort
 .
@@ -3769,7 +3790,7 @@ aRect
 width
 ;
 }
-mInner
+mHelper
 .
 mScrolledFrame
 -
@@ -3786,10 +3807,13 @@ private
 :
 friend
 class
-nsGfxScrollFrameInner
+mozilla
+:
+:
+ScrollFrameHelper
 ;
-nsGfxScrollFrameInner
-mInner
+ScrollFrameHelper
+mHelper
 ;
 }
 ;
