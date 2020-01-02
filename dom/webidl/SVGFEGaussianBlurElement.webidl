@@ -170,3 +170,7 @@ stdDeviationY
 ;
 }
 ;
+SVGFEGaussianBlurElement
+implements
+SVGFilterPrimitiveStandardAttributes
+;

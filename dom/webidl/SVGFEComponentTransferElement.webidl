@@ -151,3 +151,7 @@ in1
 ;
 }
 ;
+SVGFEComponentTransferElement
+implements
+SVGFilterPrimitiveStandardAttributes
+;
