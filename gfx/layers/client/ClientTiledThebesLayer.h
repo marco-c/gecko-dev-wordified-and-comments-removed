@@ -236,6 +236,11 @@ BeginPaint
 (
 )
 ;
+bool
+UseFastPath
+(
+)
+;
 void
 EndPaint
 (
