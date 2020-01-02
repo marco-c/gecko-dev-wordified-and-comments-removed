@@ -929,11 +929,7 @@ s
 return
 nullptr
 ;
-Rooted
-<
-JSLinearString
-*
->
+RootedLinearString
 idstr
 (
 cx

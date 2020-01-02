@@ -364,14 +364,6 @@ endif
 namespace
 js
 {
-typedef
-Rooted
-<
-JSLinearString
-*
->
-RootedLinearString
-;
 class
 Activation
 ;
