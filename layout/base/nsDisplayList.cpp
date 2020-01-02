@@ -17417,7 +17417,7 @@ nullptr
 container
 -
 >
-SetMixBlendMode
+DeprecatedSetMixBlendMode
 (
 nsCSSRendering
 :

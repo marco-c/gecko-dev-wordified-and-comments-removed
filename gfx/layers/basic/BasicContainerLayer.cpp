@@ -260,10 +260,10 @@ GetMixBlendMode
 )
 !
 =
-gfxContext
+CompositionOp
 :
 :
-OPERATOR_OVER
+OP_OVER
 ;
 }
 mUseIntermediateSurface
@@ -284,10 +284,10 @@ GetMixBlendMode
 )
 !
 =
-gfxContext
+CompositionOp
 :
 :
-OPERATOR_OVER
+OP_OVER
 &
 &
 HasMultipleChildren

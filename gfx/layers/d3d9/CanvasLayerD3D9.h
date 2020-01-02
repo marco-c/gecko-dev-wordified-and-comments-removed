@@ -106,9 +106,12 @@ UpdateSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
-gfxASurface
+gfx
+:
+:
+SourceSurface
 >
 mSurface
 ;
