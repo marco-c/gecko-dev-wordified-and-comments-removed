@@ -102,13 +102,6 @@ strip
 debug
 "
 export
-JAVA_HOME
-=
-/
-tools
-/
-jdk6
-export
 MOZILLA_OFFICIAL
 =
 1
