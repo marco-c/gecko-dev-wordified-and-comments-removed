@@ -1276,6 +1276,17 @@ ins
 )
 const
 {
+JS_ASSERT
+(
+!
+ins
+-
+>
+isPhi
+(
+)
+)
+;
 return
 CodePosition
 (
