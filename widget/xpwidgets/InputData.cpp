@@ -74,6 +74,9 @@ aTouchEvent
 time
 aTouchEvent
 .
+timeStamp
+aTouchEvent
+.
 modifiers
 )
 {
@@ -321,6 +324,9 @@ MULTITOUCH_INPUT
 aMouseEvent
 .
 time
+aMouseEvent
+.
+timeStamp
 aMouseEvent
 .
 modifiers

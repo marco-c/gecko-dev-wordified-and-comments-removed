@@ -41,6 +41,15 @@ EventForwards
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 namespace
 mozilla
 {
@@ -120,6 +129,9 @@ mInputType
 uint32_t
 mTime
 ;
+TimeStamp
+mTimeStamp
+;
 Modifiers
 modifiers
 ;
@@ -151,6 +163,8 @@ InputType
 aInputType
 uint32_t
 aTime
+TimeStamp
+aTimeStamp
 Modifiers
 aModifiers
 )
@@ -162,6 +176,10 @@ aInputType
 mTime
 (
 aTime
+)
+mTimeStamp
+(
+aTimeStamp
 )
 modifiers
 (
@@ -259,6 +277,8 @@ MultiTouchType
 aType
 uint32_t
 aTime
+TimeStamp
+aTimeStamp
 Modifiers
 aModifiers
 )
@@ -267,6 +287,7 @@ InputData
 (
 MULTITOUCH_INPUT
 aTime
+aTimeStamp
 aModifiers
 )
 mType
@@ -329,6 +350,8 @@ PinchGestureType
 aType
 uint32_t
 aTime
+TimeStamp
+aTimeStamp
 const
 ScreenPoint
 &
@@ -345,6 +368,7 @@ InputData
 (
 PINCHGESTURE_INPUT
 aTime
+aTimeStamp
 aModifiers
 )
 mType
@@ -404,6 +428,8 @@ TapGestureType
 aType
 uint32_t
 aTime
+TimeStamp
+aTimeStamp
 const
 ScreenIntPoint
 &
@@ -416,6 +442,7 @@ InputData
 (
 TAPGESTURE_INPUT
 aTime
+aTimeStamp
 aModifiers
 )
 mType
