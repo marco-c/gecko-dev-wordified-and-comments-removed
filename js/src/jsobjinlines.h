@@ -2124,7 +2124,7 @@ type
 cx
 -
 >
-getLazyType
+getSingletonType
 (
 obj
 -
