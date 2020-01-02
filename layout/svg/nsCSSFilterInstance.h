@@ -209,6 +209,14 @@ FilterPrimitiveDescription
 aDescr
 )
 ;
+nsresult
+SetAttributesForSepia
+(
+FilterPrimitiveDescription
+&
+aDescr
+)
+;
 int32_t
 GetLastResultIndex
 (
