@@ -91,6 +91,7 @@ preprocessor
 jar
 -
 manifests
+visualstudio
 mozbuild
 =
 =
