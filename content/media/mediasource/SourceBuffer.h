@@ -107,6 +107,14 @@ h
 namespace
 mozilla
 {
+template
+<
+typename
+T
+>
+class
+AsyncEventRunner
+;
 namespace
 dom
 {
@@ -318,7 +326,7 @@ private
 :
 friend
 class
-AsyncEventRunnner
+AsyncEventRunner
 <
 SourceBuffer
 >

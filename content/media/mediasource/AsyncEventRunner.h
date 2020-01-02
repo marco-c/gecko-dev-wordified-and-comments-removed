@@ -20,14 +20,14 @@ typename
 T
 >
 class
-AsyncEventRunnner
+AsyncEventRunner
 :
 public
 nsRunnable
 {
 public
 :
-AsyncEventRunnner
+AsyncEventRunner
 (
 T
 *

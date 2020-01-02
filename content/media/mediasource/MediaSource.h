@@ -92,6 +92,17 @@ nsIInputStream
 namespace
 mozilla
 {
+class
+ErrorResult
+;
+template
+<
+typename
+T
+>
+class
+AsyncEventRunner
+;
 namespace
 dom
 {
@@ -400,7 +411,7 @@ aWindow
 ;
 friend
 class
-AsyncEventRunnner
+AsyncEventRunner
 <
 MediaSource
 >

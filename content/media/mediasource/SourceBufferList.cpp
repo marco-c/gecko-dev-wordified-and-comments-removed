@@ -452,7 +452,7 @@ nsIRunnable
 event
 =
 new
-AsyncEventRunnner
+AsyncEventRunner
 <
 SourceBufferList
 >

@@ -791,7 +791,7 @@ nsIRunnable
 event
 =
 new
-AsyncEventRunnner
+AsyncEventRunner
 <
 SourceBuffer
 >
