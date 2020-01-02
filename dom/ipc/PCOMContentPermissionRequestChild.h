@@ -18,6 +18,9 @@ h
 #
 undef
 CreateEvent
+#
+undef
+LoadImage
 class
 PCOMContentPermissionRequestChild
 :
