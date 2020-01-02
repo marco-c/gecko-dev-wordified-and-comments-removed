@@ -5726,6 +5726,13 @@ if
 (
 iter
 .
+hasUsableAbstractFramePtr
+(
+)
+&
+&
+iter
+.
 computeThis
 (
 cx
