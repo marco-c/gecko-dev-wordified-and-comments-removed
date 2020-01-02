@@ -468,13 +468,6 @@ macro
 (
 Objects
 NotLiveGCThing
-nonHeapElementsMapped
-)
-\
-macro
-(
-Objects
-NotLiveGCThing
 nonHeapCodeAsmJS
 )
 \
