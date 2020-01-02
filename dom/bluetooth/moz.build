@@ -421,6 +421,14 @@ MOZ_BLUETOOTH_DBUS
 ]
 =
 True
+DEFINES
+[
+'
+HAVE_PTHREADS
+'
+]
+=
+True
 FINAL_LIBRARY
 =
 '
