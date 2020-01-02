@@ -45,7 +45,7 @@ html
 \
 test_dataset
 -
-instanceof
+prototype
 .
 html
 \
