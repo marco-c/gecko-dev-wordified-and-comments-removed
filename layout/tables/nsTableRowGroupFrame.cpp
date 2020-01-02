@@ -8613,9 +8613,6 @@ rowIndexInGroup
 1
 ;
 }
-#
-ifdef
-IBMBIDI
 NS_IMETHODIMP
 nsTableRowGroupFrame
 :
@@ -8656,8 +8653,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsTableRowGroupFrame
 :

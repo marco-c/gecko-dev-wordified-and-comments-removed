@@ -136,17 +136,12 @@ Generic
 16
 NS_FRAME_MAY_BE_TRANSFORMED
 )
-#
-ifdef
-IBMBIDI
 FRAME_STATE_BIT
 (
 Generic
 17
 NS_FRAME_IS_BIDI
 )
-#
-endif
 FRAME_STATE_BIT
 (
 Generic

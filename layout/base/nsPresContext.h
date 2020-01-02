@@ -201,14 +201,9 @@ ScrollbarStyles
 .
 h
 "
-#
-ifdef
-IBMBIDI
 class
 nsBidiPresUtils
 ;
-#
-endif
 class
 nsAString
 ;
@@ -2244,9 +2239,6 @@ TickLastStyleUpdateForAllAnimations
 ;
 #
 ifdef
-IBMBIDI
-#
-ifdef
 MOZILLA_INTERNAL_API
 bool
 BidiEnabled
@@ -2343,8 +2335,6 @@ GetBidi
 )
 const
 ;
-#
-endif
 void
 SetIsRenderingOnlySelection
 (

@@ -395,9 +395,6 @@ aListID
 kPrincipalList
 )
 {
-#
-ifdef
-IBMBIDI
 if
 (
 aListID
@@ -405,8 +402,6 @@ aListID
 =
 kNoReflowPrincipalList
 )
-#
-endif
 {
 NS_ERROR
 (
@@ -439,9 +434,6 @@ this
 aFrameList
 )
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 aListID
@@ -449,8 +441,6 @@ aListID
 =
 kPrincipalList
 )
-#
-endif
 {
 PresContext
 (
@@ -528,9 +518,6 @@ aListID
 kPrincipalList
 )
 {
-#
-ifdef
-IBMBIDI
 if
 (
 aListID
@@ -538,8 +525,6 @@ aListID
 =
 kNoReflowPrincipalList
 )
-#
-endif
 {
 NS_ERROR
 (
@@ -573,9 +558,6 @@ aPrevFrame
 aFrameList
 )
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 aListID
@@ -583,8 +565,6 @@ aListID
 =
 kPrincipalList
 )
-#
-endif
 {
 PresContext
 (
@@ -633,9 +613,6 @@ aListID
 kPrincipalList
 )
 {
-#
-ifdef
-IBMBIDI
 if
 (
 kNoReflowPrincipalList
@@ -643,8 +620,6 @@ kNoReflowPrincipalList
 =
 aListID
 )
-#
-endif
 {
 NS_ERROR
 (
@@ -665,9 +640,6 @@ generateReflowCommand
 =
 true
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 kNoReflowPrincipalList
@@ -681,8 +653,6 @@ generateReflowCommand
 false
 ;
 }
-#
-endif
 nsIPresShell
 *
 shell

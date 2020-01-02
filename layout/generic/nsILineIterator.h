@@ -140,9 +140,6 @@ aLineNumber
 =
 0
 ;
-#
-ifdef
-IBMBIDI
 NS_IMETHOD
 CheckLineOrder
 (
@@ -163,8 +160,6 @@ aLastVisual
 =
 0
 ;
-#
-endif
 }
 ;
 class

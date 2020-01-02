@@ -6574,9 +6574,6 @@ aLineNumber
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-IBMBIDI
 NS_IMETHOD
 CheckLineOrder
 (
@@ -6596,8 +6593,6 @@ aLastVisual
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 nsresult
 Init
 (

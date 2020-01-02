@@ -580,9 +580,6 @@ aListID
 )
 const
 ;
-#
-ifdef
-IBMBIDI
 nsIFrame
 *
 GetPrevVisualFor
@@ -603,8 +600,6 @@ aFrame
 )
 const
 ;
-#
-endif
 #
 ifdef
 DEBUG_FRAME_DUMP

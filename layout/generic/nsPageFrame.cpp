@@ -69,17 +69,12 @@ nsTextFormatter
 h
 "
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiUtils
 .
 h
 "
-#
-endif
 #
 include
 "

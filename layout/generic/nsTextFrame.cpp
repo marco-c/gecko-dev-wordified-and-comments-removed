@@ -19966,9 +19966,6 @@ aParent
 aPrevInFlow
 )
 ;
-#
-ifdef
-IBMBIDI
 nsTextFrame
 *
 nextContinuation
@@ -19987,8 +19984,6 @@ GetNextContinuation
 )
 )
 ;
-#
-endif
 SetPrevInFlow
 (
 aPrevInFlow
@@ -20159,9 +20154,6 @@ eNotInflated
 }
 }
 }
-#
-ifdef
-IBMBIDI
 if
 (
 aPrevInFlow
@@ -20389,8 +20381,6 @@ mState
 NS_FRAME_IS_BIDI
 ;
 }
-#
-endif
 }
 void
 nsContinuingTextFrame

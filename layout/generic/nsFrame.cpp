@@ -260,17 +260,12 @@ include
 algorithm
 >
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiPresUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -31182,9 +31177,6 @@ aPos
 mAmount
 )
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 aPos
@@ -31280,8 +31272,6 @@ endOfLine
 }
 }
 else
-#
-endif
 {
 it
 -
@@ -32269,9 +32259,6 @@ nsIFrame
 *
 lastFrame
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 aVisual
@@ -32426,8 +32413,6 @@ true
 }
 }
 else
-#
-endif
 {
 nsRect
 nonUsedRect
@@ -32691,9 +32676,6 @@ eDirNext
 -
 1
 ;
-#
-ifdef
-IBMBIDI
 if
 (
 aVisual
@@ -32740,8 +32722,6 @@ aOutOffset
 aOutOffset
 ;
 }
-#
-endif
 *
 aOutFrame
 =

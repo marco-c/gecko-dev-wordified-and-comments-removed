@@ -1340,9 +1340,6 @@ nsIFrame
 aPrevSibling
 )
 ;
-#
-ifdef
-IBMBIDI
 nsresult
 ResolveBidi
 (
@@ -1356,8 +1353,6 @@ nsPresContext
 aPresContext
 )
 ;
-#
-endif
 public
 :
 enum

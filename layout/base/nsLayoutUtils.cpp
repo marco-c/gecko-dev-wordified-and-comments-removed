@@ -21490,9 +21490,6 @@ nsStyleContext
 aStyleContext
 )
 {
-#
-ifdef
-IBMBIDI
 nsresult
 rv
 =
@@ -21570,8 +21567,6 @@ NS_FAILED
 rv
 )
 )
-#
-endif
 {
 aContext
 -
@@ -21619,9 +21614,6 @@ int32_t
 aLength
 )
 {
-#
-ifdef
-IBMBIDI
 nsPresContext
 *
 presContext
@@ -21674,8 +21666,6 @@ aContext
 )
 ;
 }
-#
-endif
 aContext
 -
 >

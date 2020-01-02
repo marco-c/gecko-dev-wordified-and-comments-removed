@@ -34,9 +34,6 @@ nsIPresShell
 h
 "
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsGkAtoms
@@ -57,8 +54,6 @@ nsBidiPresUtils
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -1719,9 +1714,6 @@ n
 }
 #
 endif
-#
-ifdef
-IBMBIDI
 nsIFrame
 *
 nsFrameList
@@ -2482,8 +2474,6 @@ return
 frame
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG_FRAME_LIST

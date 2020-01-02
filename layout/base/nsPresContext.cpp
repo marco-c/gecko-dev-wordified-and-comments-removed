@@ -779,9 +779,6 @@ UpdateAfterPreferencesChanged
 )
 ;
 }
-#
-ifdef
-IBMBIDI
 static
 bool
 IsVisualCharset
@@ -829,8 +826,6 @@ false
 ;
 }
 }
-#
-endif
 nsPresContext
 :
 :
@@ -1348,9 +1343,6 @@ animation_mode
 this
 )
 ;
-#
-ifdef
-IBMBIDI
 Preferences
 :
 :
@@ -1367,8 +1359,6 @@ bidi
 this
 )
 ;
-#
-endif
 Preferences
 :
 :
@@ -4622,9 +4612,6 @@ animation_mode
 this
 )
 ;
-#
-ifdef
-IBMBIDI
 Preferences
 :
 :
@@ -4641,8 +4628,6 @@ bidi
 this
 )
 ;
-#
-endif
 Preferences
 :
 :
@@ -5197,9 +5182,6 @@ ResetCachedFontPrefs
 )
 ;
 }
-#
-ifdef
-IBMBIDI
 switch
 (
 GET_BIDI_OPTION_TEXTTYPE
@@ -5244,8 +5226,6 @@ aCharSet
 )
 ;
 }
-#
-endif
 }
 NS_IMETHODIMP
 nsPresContext
@@ -6891,9 +6871,6 @@ MostRecentRefresh
 )
 ;
 }
-#
-ifdef
-IBMBIDI
 bool
 nsPresContext
 :
@@ -7162,8 +7139,6 @@ GetBidiOptions
 )
 ;
 }
-#
-endif
 bool
 nsPresContext
 :

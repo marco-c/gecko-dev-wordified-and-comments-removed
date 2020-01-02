@@ -1,7 +1,4 @@
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidi
@@ -7096,7 +7093,5 @@ return
 NS_OK
 ;
 }
-#
-endif
 #
 endif

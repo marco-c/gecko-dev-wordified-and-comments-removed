@@ -27,17 +27,12 @@ nsPresArena
 h
 "
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiPresUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3479,9 +3474,6 @@ return
 1
 ;
 }
-#
-ifdef
-IBMBIDI
 NS_IMETHODIMP
 nsLineIterator
 :
@@ -3614,8 +3606,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsLineIterator
 :
