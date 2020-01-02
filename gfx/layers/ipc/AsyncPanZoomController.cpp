@@ -576,8 +576,14 @@ z
 .
 3f
 )
+u
+=
+(
 %
 d
+%
+llu
+)
 \
 n
 "
@@ -710,6 +716,11 @@ scale
 fm
 .
 GetScrollOffsetUpdated
+(
+)
+fm
+.
+GetScrollGeneration
 (
 )
 )
