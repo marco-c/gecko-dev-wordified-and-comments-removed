@@ -1783,11 +1783,7 @@ bool
 IsIMEComposing
 (
 )
-;
-void
-SetIsIMEComposing
-(
-)
+const
 ;
 static
 nsresult
@@ -2770,9 +2766,6 @@ mDocDirtyState
 ;
 uint8_t
 mSpellcheckCheckboxState
-;
-bool
-mIsIMEComposing
 ;
 bool
 mShouldTxnSetSelection
