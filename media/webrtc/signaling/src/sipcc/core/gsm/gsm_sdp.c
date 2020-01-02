@@ -14910,6 +14910,12 @@ indicator
 ;
 if
 (
+codec
+=
+=
+RTP_NONE
+|
+|
 (
 pt_codec
 &
@@ -15347,6 +15353,15 @@ case
 RTP_VP8
 :
 case
+RTP_H263
+:
+case
+RTP_H264_P0
+:
+case
+RTP_H264_P1
+:
+case
 RTP_I420
 :
 fb_types
@@ -15374,6 +15389,8 @@ default
 fb_types
 =
 0
+;
+break
 ;
 }
 if
@@ -18933,7 +18950,7 @@ sdp
 -
 >
 src_sdp
-RTP_VP8
+RTP_NONE
 sdp_rtcp_fb_nack_to_bitmap
 (
 SDP_RTCP_FB_NACK_BASIC
