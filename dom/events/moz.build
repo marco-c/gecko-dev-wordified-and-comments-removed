@@ -137,11 +137,6 @@ EXPORTS
 =
 [
 '
-nsDOMKeyNameList
-.
-h
-'
-'
 nsEventNameList
 .
 h
@@ -200,6 +195,11 @@ h
 '
 '
 InternalMutationEvent
+.
+h
+'
+'
+KeyNameList
 .
 h
 '
