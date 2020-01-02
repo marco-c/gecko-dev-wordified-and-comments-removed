@@ -435,6 +435,7 @@ APZCCallbackHelper
 :
 GetDOMWindowUtils
 (
+const
 nsIDocument
 *
 aDoc
@@ -489,6 +490,7 @@ APZCCallbackHelper
 :
 GetDOMWindowUtils
 (
+const
 nsIContent
 *
 aContent
@@ -538,6 +540,7 @@ APZCCallbackHelper
 :
 GetScrollIdentifiers
 (
+const
 nsIContent
 *
 aContent

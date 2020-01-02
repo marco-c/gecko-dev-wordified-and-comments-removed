@@ -99,6 +99,7 @@ nsIDOMWindowUtils
 >
 GetDOMWindowUtils
 (
+const
 nsIDocument
 *
 aDoc
@@ -111,6 +112,7 @@ nsIDOMWindowUtils
 >
 GetDOMWindowUtils
 (
+const
 nsIContent
 *
 aContent
@@ -120,6 +122,7 @@ static
 bool
 GetScrollIdentifiers
 (
+const
 nsIContent
 *
 aContent
