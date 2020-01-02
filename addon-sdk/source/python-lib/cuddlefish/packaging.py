@@ -108,6 +108,9 @@ directories
 '
 permissions
 '
+'
+preferences
+'
 ]
 RESOURCE_HOSTNAME_RE
 =
@@ -2728,27 +2731,6 @@ target_cfg
 icon64
 '
 ]
-    
-if
-(
-'
-preferences
-'
-in
-target_cfg
-)
-:
-        
-build
-[
-'
-preferences
-'
-]
-=
-target_cfg
-.
-preferences
     
 if
 '

@@ -49,6 +49,8 @@ require
 lang
 /
 functional
+/
+core
 '
 )
 ;
