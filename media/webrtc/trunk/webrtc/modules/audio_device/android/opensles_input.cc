@@ -727,12 +727,6 @@ assert
 initialized_
 )
 ;
-assert
-(
-!
-rec_initialized_
-)
-;
 rec_initialized_
 =
 true
