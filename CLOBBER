@@ -194,10 +194,6 @@ changes
 any
 more
 .
-Clobber
-to
-work
-around
-bug
-959928
-.
+Merge
+day
+clobber
