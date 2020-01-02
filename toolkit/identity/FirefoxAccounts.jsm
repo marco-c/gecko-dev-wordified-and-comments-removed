@@ -600,6 +600,7 @@ getAssertion
 rp
 .
 audience
+options
 )
 .
 then
