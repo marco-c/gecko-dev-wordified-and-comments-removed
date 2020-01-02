@@ -224,6 +224,13 @@ nsresult
 aStatus
 )
 ;
+void
+ContinueCancel
+(
+nsresult
+aStatus
+)
+;
 nsresult
 LockImage
 (
