@@ -759,9 +759,6 @@ Value
 vp
 )
 ;
-#
-if
-0
 extern
 bool
 math_hypot
@@ -776,8 +773,6 @@ Value
 vp
 )
 ;
-#
-endif
 extern
 bool
 math_trunc
