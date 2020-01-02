@@ -21960,6 +21960,10 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 return
 ;
 }
+EnsurePathBuilder
+(
+)
+;
 Point
 p0
 =
@@ -22519,6 +22523,10 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 return
 ;
 }
+EnsurePathBuilder
+(
+)
+;
 ArcToBezier
 (
 this
