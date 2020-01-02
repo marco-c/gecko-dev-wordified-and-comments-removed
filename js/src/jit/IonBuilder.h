@@ -3080,6 +3080,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineRegExpExec
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineRegExpTest
 (
 CallInfo

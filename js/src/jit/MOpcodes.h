@@ -464,6 +464,11 @@ RegExp
 \
 _
 (
+RegExpExec
+)
+\
+_
+(
 RegExpTest
 )
 \
