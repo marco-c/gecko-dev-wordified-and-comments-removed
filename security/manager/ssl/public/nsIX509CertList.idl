@@ -147,7 +147,7 @@ C
 +
 #
 define
-NS_X509CERRTLIST_CID
+NS_X509CERTLIST_CID
 {
 /
 *
