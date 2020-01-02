@@ -2426,7 +2426,7 @@ if
 mCanceled
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mInput
