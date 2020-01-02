@@ -2262,6 +2262,10 @@ receiveUint8Array
 (
 )
 ;
+attribute
+Uint8Array
+uint8ArrayAttr
+;
 /
 /
 DOMString

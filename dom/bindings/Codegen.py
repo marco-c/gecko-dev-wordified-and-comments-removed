@@ -6840,6 +6840,14 @@ h
 "
 )
                     
+if
+jsImplementedDescriptors
+:
+                        
+headerSet
+=
+declareIncludes
+                    
 headerSet
 .
 add
@@ -37849,6 +37857,12 @@ obj
 "
 returnArray
 "
+                
+'
+typedArraysAreStructs
+'
+:
+typedArraysAreStructs
             
 }
 )
@@ -38165,6 +38179,12 @@ obj
 "
 returnObj
 "
+                
+'
+typedArraysAreStructs
+'
+:
+typedArraysAreStructs
             
 }
 )
@@ -84952,6 +84972,9 @@ append
 CGCallbackInterface
 (
 x
+typedArraysAreStructs
+=
+True
 )
 )
             
@@ -86242,9 +86265,6 @@ Value
 Obj
 (
 )
-;
-\
-n
 "
             
 else
@@ -86260,9 +86280,6 @@ declName
 Obj
 (
 )
-;
-\
-n
 "
             
 return
@@ -94207,6 +94224,9 @@ __init__
 (
 self
 descriptor
+typedArraysAreStructs
+=
+False
 )
 :
         
@@ -94248,7 +94268,9 @@ CallbackGetter
 (
 a
 descriptor
+typedArraysAreStructs
 )
+                   
 for
 a
 in
@@ -94262,12 +94284,13 @@ CallbackSetter
 (
 a
 descriptor
+typedArraysAreStructs
 )
+                   
 for
 a
 in
 attrs
-                   
 if
 not
 a
@@ -94316,12 +94339,13 @@ CallbackOperation
 m
 sig
 descriptor
+typedArraysAreStructs
 )
+                   
 for
 m
 in
 methods
-                   
 for
 sig
 in
@@ -94639,7 +94663,11 @@ sig
 name
 descriptorProvider
 needThisHandling
+                 
 rethrowContentException
+=
+False
+typedArraysAreStructs
 =
 False
 )
@@ -94842,7 +94870,7 @@ visibility
                                 
 typedArraysAreStructs
 =
-False
+typedArraysAreStructs
 )
         
 self
@@ -95548,6 +95576,14 @@ exceptionCode
 self
 .
 exceptionCode
+                    
+'
+typedArraysAreStructs
+'
+:
+self
+.
+typedArraysAreStructs
                 
 }
 )
@@ -96293,6 +96329,9 @@ needThisHandling
 rethrowContentException
 =
 False
+typedArraysAreStructs
+=
+False
 )
 :
         
@@ -96307,6 +96346,10 @@ descriptorProvider
                                 
 needThisHandling
 rethrowContentException
+                                
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -96681,8 +96724,13 @@ signature
 jsName
 nativeName
 descriptor
+                 
 singleOperation
 rethrowContentException
+=
+False
+                 
+typedArraysAreStructs
 =
 False
 )
@@ -96713,8 +96761,13 @@ self
 signature
 nativeName
 descriptor
+                                
 singleOperation
 rethrowContentException
+                                
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -97091,6 +97144,7 @@ self
 method
 signature
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -97152,6 +97206,10 @@ interface
 isJSImplemented
 (
 )
+                                       
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -97220,6 +97278,7 @@ attr
 sig
 name
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -97262,6 +97321,10 @@ interface
 isJSImplemented
 (
 )
+                                
+typedArraysAreStructs
+=
+typedArraysAreStructs
 )
     
 def
@@ -97308,6 +97371,7 @@ __init__
 self
 attr
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -97333,6 +97397,8 @@ descriptor
 )
                                   
 descriptor
+                                  
+typedArraysAreStructs
 )
     
 def
@@ -97534,6 +97600,7 @@ __init__
 self
 attr
 descriptor
+typedArraysAreStructs
 )
 :
         
@@ -97572,6 +97639,7 @@ descriptor
 )
                                   
 descriptor
+typedArraysAreStructs
 )
     
 def
