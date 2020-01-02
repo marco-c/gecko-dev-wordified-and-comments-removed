@@ -1922,6 +1922,10 @@ document
 /
 ZoomToRect
 (
+uint32_t
+aPresShellId
+ViewID
+aViewId
 CSSRect
 aRect
 )

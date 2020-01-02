@@ -4638,6 +4638,10 @@ RenderFrameParent
 :
 ZoomToRect
 (
+uint32_t
+aPresShellId
+ViewID
+aViewId
 const
 CSSRect
 &
@@ -4661,6 +4665,8 @@ ZoomToRect
 ScrollableLayerGuid
 (
 mLayersId
+aPresShellId
+aViewId
 )
 aRect
 )

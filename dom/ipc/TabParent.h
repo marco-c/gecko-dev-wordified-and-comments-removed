@@ -665,6 +665,14 @@ bool
 RecvZoomToRect
 (
 const
+uint32_t
+&
+aPresShellId
+const
+ViewID
+&
+aViewId
+const
 CSSRect
 &
 aRect

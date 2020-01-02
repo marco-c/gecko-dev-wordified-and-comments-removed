@@ -7394,6 +7394,14 @@ TabParent
 RecvZoomToRect
 (
 const
+uint32_t
+&
+aPresShellId
+const
+ViewID
+&
+aViewId
+const
 CSSRect
 &
 aRect
@@ -7415,6 +7423,8 @@ rfp
 >
 ZoomToRect
 (
+aPresShellId
+aViewId
 aRect
 )
 ;
