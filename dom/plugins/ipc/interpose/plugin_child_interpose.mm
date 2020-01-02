@@ -629,7 +629,6 @@ defined
 (
 __QUICKDRAWAPI__
 )
-typedef
 struct
 Cursor
 ;
