@@ -3626,6 +3626,19 @@ Init
 aPresContext
 )
 ;
+if
+(
+NS_STYLE_FLEX_WRAP_NOWRAP
+=
+=
+aParentReflowState
+.
+mStylePosition
+-
+>
+mFlexWrap
+)
+{
 aFlexItem
 .
 ResolveStretchedCrossSize
@@ -3638,6 +3651,7 @@ ComputedWidth
 aAxisTracker
 )
 ;
+}
 if
 (
 aFlexItem
