@@ -3990,6 +3990,11 @@ class
 appbar
 -
 primary
+hide
+-
+on
+-
+start
 "
 type
 =
@@ -4022,6 +4027,11 @@ class
 appbar
 -
 primary
+hide
+-
+on
+-
+start
 "
 type
 =

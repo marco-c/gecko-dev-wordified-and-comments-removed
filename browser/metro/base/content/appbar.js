@@ -532,6 +532,7 @@ BrowserUI
 .
 isStartTabVisible
 )
+{
 typesArray
 .
 push
@@ -566,6 +567,7 @@ source
 "
 )
 ;
+}
 if
 (
 ContextCommands
