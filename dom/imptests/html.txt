@@ -19,6 +19,7 @@ tests
 git
 |
 html
+dom
 domxpath
 html
 /
