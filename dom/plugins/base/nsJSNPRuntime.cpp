@@ -1665,9 +1665,10 @@ variant
 else
 if
 (
-JSVAL_IS_NULL
-(
 val
+.
+isNull
+(
 )
 )
 {

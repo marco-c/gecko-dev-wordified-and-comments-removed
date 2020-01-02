@@ -1307,9 +1307,10 @@ else
 if
 (
 !
-JSVAL_IS_NULL
-(
 aValue
+.
+isNull
+(
 )
 &
 &

@@ -640,9 +640,10 @@ eStringify
 ;
 if
 (
-JSVAL_IS_NULL
-(
 v
+.
+isNull
+(
 )
 )
 {

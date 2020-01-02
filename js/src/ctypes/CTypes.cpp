@@ -10727,9 +10727,10 @@ TYPE_pointer
 {
 if
 (
-JSVAL_IS_NULL
-(
 val
+.
+isNull
+(
 )
 )
 {
@@ -21199,9 +21200,10 @@ SLOT_ELEMENT_T
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
-(
 type
+.
+isNull
+(
 )
 )
 ;

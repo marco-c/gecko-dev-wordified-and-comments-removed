@@ -1039,9 +1039,10 @@ aValue
 |
 !
 (
-JSVAL_IS_NULL
-(
 aValue
+.
+isNull
+(
 )
 |
 |
@@ -1064,9 +1065,10 @@ return
 }
 if
 (
-JSVAL_IS_NULL
-(
 aValue
+.
+isNull
+(
 )
 )
 {
