@@ -515,6 +515,14 @@ apzc
 =
 =
 nullptr
+|
+|
+apzc
+-
+>
+IsDestroyed
+(
+)
 )
 ;
 if

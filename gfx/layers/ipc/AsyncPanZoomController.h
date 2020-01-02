@@ -285,6 +285,11 @@ Destroy
 (
 )
 ;
+bool
+IsDestroyed
+(
+)
+;
 ViewTransform
 GetCurrentAsyncTransform
 (
