@@ -168,7 +168,7 @@ GNU_CC
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -180,7 +180,7 @@ cpp
 ]
 else
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -207,7 +207,7 @@ except
 _machine
 .
 cpp
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
