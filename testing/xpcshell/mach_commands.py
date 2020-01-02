@@ -351,6 +351,9 @@ False
 test_objects
 =
 None
+verbose
+=
+False
                  
 *
 *
@@ -460,6 +463,10 @@ debuggerInteractive
 rerun_failures
 =
 rerun_failures
+                           
+verbose
+=
+verbose
 )
             
 return
@@ -647,6 +654,12 @@ manifest
 '
 :
 manifest
+            
+'
+verbose
+'
+:
+verbose
         
 }
         
@@ -694,6 +707,9 @@ debuggerInteractive
 None
                               
 rerun_failures
+=
+False
+verbose
 =
 False
 )
@@ -784,11 +800,13 @@ modules
         
 verbose_output
 =
+(
 test_path
 is
 not
 None
 or
+                          
 (
 manifest
 and
@@ -803,6 +821,10 @@ test_paths
 =
 =
 1
+)
+or
+                          
+verbose
 )
         
 xpcsExecutable
@@ -3027,6 +3049,37 @@ test
 suite
 is
 executed
+.
+'
+)
+    
+CommandArgument
+(
+'
+-
+-
+verbose
+'
+'
+-
+v
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Provide
+full
+output
+from
+each
+test
+process
 .
 '
 )
