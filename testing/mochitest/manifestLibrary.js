@@ -67,11 +67,9 @@ path
 ;
 if
 (
-"
-disabled
-"
-in
 obj
+.
+disabled
 )
 {
 dump

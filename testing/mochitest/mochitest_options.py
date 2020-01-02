@@ -3521,21 +3521,6 @@ paths
 "
 "
         
-mozinfo
-.
-update
-(
-{
-"
-e10s
-"
-:
-options
-.
-e10s
-}
-)
-        
 if
 options
 .
