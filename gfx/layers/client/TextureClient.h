@@ -353,13 +353,6 @@ nullptr
 ;
 }
 virtual
-void
-MarkUnused
-(
-)
-{
-}
-virtual
 bool
 Lock
 (
