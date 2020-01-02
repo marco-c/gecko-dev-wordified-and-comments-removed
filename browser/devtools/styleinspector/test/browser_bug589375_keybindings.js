@@ -161,7 +161,6 @@ computedView
 =
 getComputedView
 (
-inspector
 )
 ;
 var
