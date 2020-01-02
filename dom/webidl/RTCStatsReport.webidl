@@ -652,6 +652,12 @@ RTCCodecStats
 >
 codecStats
 ;
+DOMString
+localSdp
+;
+DOMString
+remoteSdp
+;
 DOMHighResTimeStamp
 timestamp
 ;
