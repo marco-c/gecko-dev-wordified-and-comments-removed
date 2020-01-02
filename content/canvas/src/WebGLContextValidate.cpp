@@ -4057,6 +4057,16 @@ validated
 "
 )
 ;
+if
+(
+level
+>
+31
+)
+level
+=
+31
+;
 const
 GLuint
 maxTexImageSize
