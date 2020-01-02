@@ -1771,6 +1771,14 @@ SpeexResamplerState
 >
 mResampler
 ;
+#
+ifdef
+DEBUG
+int
+mResamplerChannelCount
+;
+#
+endif
 TrackTicks
 mStart
 ;
