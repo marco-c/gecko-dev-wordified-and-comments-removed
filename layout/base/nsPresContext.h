@@ -1349,6 +1349,12 @@ return
 mLinkHandler
 ;
 }
+virtual
+void
+Detach
+(
+)
+;
 nsRect
 GetVisibleArea
 (
@@ -4167,6 +4173,7 @@ endif
 ;
 class
 nsRootPresContext
+MOZ_FINAL
 :
 public
 nsPresContext
@@ -4188,6 +4195,13 @@ virtual
 nsRootPresContext
 (
 )
+;
+virtual
+void
+Detach
+(
+)
+MOZ_OVERRIDE
 ;
 void
 EnsureEventualDidPaintEvent
