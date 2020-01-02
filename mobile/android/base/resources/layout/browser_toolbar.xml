@@ -1154,6 +1154,13 @@ paddingLeft
 "
 android
 :
+paddingRight
+=
+"
+8dp
+"
+android
+:
 visibility
 =
 "
