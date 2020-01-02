@@ -1161,13 +1161,13 @@ MOZ_FINAL
 public
 nsIScreenManager
 {
-public
-:
+~
 PuppetScreenManager
 (
 )
 ;
-~
+public
+:
 PuppetScreenManager
 (
 )

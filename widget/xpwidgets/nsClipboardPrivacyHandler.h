@@ -46,6 +46,12 @@ nsIObserver
 public
 nsSupportsWeakReference
 {
+~
+nsClipboardPrivacyHandler
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

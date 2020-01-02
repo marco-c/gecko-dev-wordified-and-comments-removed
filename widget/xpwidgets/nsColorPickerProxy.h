@@ -46,12 +46,6 @@ nsColorPickerProxy
 )
 {
 }
-~
-nsColorPickerProxy
-(
-)
-{
-}
 virtual
 bool
 RecvUpdate
@@ -76,6 +70,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+~
+nsColorPickerProxy
+(
+)
+{
+}
 nsCOMPtr
 <
 nsIColorPickerShownCallback

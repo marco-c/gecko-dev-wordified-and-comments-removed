@@ -41,12 +41,6 @@ nsSound
 (
 )
 ;
-virtual
-~
-nsSound
-(
-)
-;
 static
 void
 Shutdown
@@ -58,6 +52,12 @@ NS_DECL_NSISOUND
 NS_DECL_NSISTREAMLOADEROBSERVER
 private
 :
+virtual
+~
+nsSound
+(
+)
+;
 bool
 mInited
 ;

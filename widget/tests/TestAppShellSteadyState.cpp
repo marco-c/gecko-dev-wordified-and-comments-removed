@@ -638,6 +638,12 @@ nsIAppShell
 *
 sAppShell
 ;
+~
+EventListener
+(
+)
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

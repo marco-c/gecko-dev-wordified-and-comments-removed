@@ -65,12 +65,6 @@ nsPrintSettings
 aPS
 )
 ;
-virtual
-~
-nsPrintSettings
-(
-)
-;
 nsPrintSettings
 &
 operator
@@ -84,6 +78,12 @@ rhs
 ;
 protected
 :
+virtual
+~
+nsPrintSettings
+(
+)
+;
 virtual
 nsresult
 _Clone

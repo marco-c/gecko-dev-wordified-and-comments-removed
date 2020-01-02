@@ -32,12 +32,6 @@ nsBaseScreen
 (
 )
 ;
-virtual
-~
-nsBaseScreen
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 GetRectDisplayPix
@@ -128,6 +122,12 @@ aContentsScaleFactor
 ;
 protected
 :
+virtual
+~
+nsBaseScreen
+(
+)
+;
 virtual
 void
 ApplyMinimumBrightness

@@ -139,12 +139,6 @@ nsBaseDragService
 (
 )
 ;
-virtual
-~
-nsBaseDragService
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDRAGSERVICE
 NS_DECL_NSIDRAGSESSION
@@ -171,6 +165,12 @@ mInputSource
 }
 protected
 :
+virtual
+~
+nsBaseDragService
+(
+)
+;
 nsresult
 DrawDrag
 (

@@ -148,14 +148,14 @@ Init
 (
 )
 ;
+private
+:
 virtual
 ~
 nsIdleServiceDaily
 (
 )
 ;
-private
-:
 void
 StageIdleDaily
 (

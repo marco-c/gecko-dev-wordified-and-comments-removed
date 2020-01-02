@@ -59,12 +59,6 @@ nsFilePicker
 (
 )
 ;
-virtual
-~
-nsFilePicker
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 Open
@@ -199,6 +193,12 @@ Shutdown
 ;
 protected
 :
+virtual
+~
+nsFilePicker
+(
+)
+;
 void
 ReadValuesFromFileChooser
 (

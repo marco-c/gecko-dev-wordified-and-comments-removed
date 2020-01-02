@@ -74,12 +74,6 @@ nsScreenManagerGtk
 (
 )
 ;
-virtual
-~
-nsScreenManagerGtk
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCREENMANAGER
 #
@@ -103,6 +97,12 @@ Init
 ;
 private
 :
+virtual
+~
+nsScreenManagerGtk
+(
+)
+;
 nsresult
 EnsureInit
 (
