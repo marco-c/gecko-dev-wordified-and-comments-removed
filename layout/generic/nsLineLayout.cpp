@@ -5073,7 +5073,7 @@ if
 span
 )
 {
-BlockDirAlignFrames
+VerticalAlignFrames
 (
 span
 )
@@ -6679,7 +6679,7 @@ void
 nsLineLayout
 :
 :
-BlockDirAlignLine
+VerticalAlignLine
 (
 )
 {
@@ -6726,7 +6726,7 @@ psd
 =
 mRootSpan
 ;
-BlockDirAlignFrames
+VerticalAlignFrames
 (
 psd
 )
@@ -6910,7 +6910,7 @@ mContainerWidth
 ;
 }
 }
-PlaceStartEndFrames
+PlaceTopBottomFrames
 (
 psd
 -
@@ -7167,7 +7167,7 @@ void
 nsLineLayout
 :
 :
-PlaceStartEndFrames
+PlaceTopBottomFrames
 (
 PerSpanData
 *
@@ -7561,7 +7561,7 @@ BStart
 lineWM
 )
 ;
-PlaceStartEndFrames
+PlaceTopBottomFrames
 (
 span
 fromStart
@@ -7662,7 +7662,7 @@ void
 nsLineLayout
 :
 :
-BlockDirAlignFrames
+VerticalAlignFrames
 (
 PerSpanData
 *
@@ -12175,7 +12175,7 @@ void
 nsLineLayout
 :
 :
-InlineDirAlignFrames
+TextAlignLine
 (
 nsLineBox
 *

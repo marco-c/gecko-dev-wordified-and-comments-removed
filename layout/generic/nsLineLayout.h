@@ -241,7 +241,7 @@ aFrame
 ;
 }
 void
-BlockDirAlignLine
+VerticalAlignLine
 (
 )
 ;
@@ -251,7 +251,7 @@ TrimTrailingWhiteSpace
 )
 ;
 void
-InlineDirAlignFrames
+TextAlignLine
 (
 nsLineBox
 *
@@ -1407,7 +1407,7 @@ aMetrics
 )
 ;
 void
-BlockDirAlignFrames
+VerticalAlignFrames
 (
 PerSpanData
 *
@@ -1415,7 +1415,7 @@ psd
 )
 ;
 void
-PlaceStartEndFrames
+PlaceTopBottomFrames
 (
 PerSpanData
 *
