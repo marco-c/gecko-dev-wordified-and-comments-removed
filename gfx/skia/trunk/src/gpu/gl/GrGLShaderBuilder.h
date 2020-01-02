@@ -822,6 +822,12 @@ compileAndAttachShaders
 (
 GrGLuint
 programId
+SkTDArray
+<
+GrGLuint
+>
+*
+shaderIds
 )
 const
 ;
@@ -1470,6 +1476,12 @@ compileAndAttachShaders
 (
 GrGLuint
 programId
+SkTDArray
+<
+GrGLuint
+>
+*
+shaderIds
 )
 const
 SK_OVERRIDE
