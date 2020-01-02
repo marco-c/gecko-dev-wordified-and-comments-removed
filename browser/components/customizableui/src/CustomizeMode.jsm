@@ -3484,6 +3484,14 @@ this
 .
 tipPanel
 .
+hidden
+=
+false
+;
+this
+.
+tipPanel
+.
 openPopup
 (
 anchorNode

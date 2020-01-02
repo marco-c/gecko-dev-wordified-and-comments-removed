@@ -2234,6 +2234,11 @@ noautohide
 "
 true
 "
+hidden
+=
+"
+true
+"
 >
 <
 hbox
