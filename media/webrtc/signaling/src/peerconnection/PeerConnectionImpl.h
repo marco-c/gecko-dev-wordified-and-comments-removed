@@ -227,6 +227,9 @@ Fake_DOMMediaStream
 #
 endif
 class
+nsGlobalWindow
+;
+class
 nsIDOMMediaStream
 ;
 class
