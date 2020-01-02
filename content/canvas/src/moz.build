@@ -300,6 +300,11 @@ WebGLExtensionDebugRendererInfo
 cpp
 '
 '
+WebGLExtensionDebugShaders
+.
+cpp
+'
+'
 WebGLExtensionDepthTexture
 .
 cpp

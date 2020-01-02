@@ -2050,6 +2050,17 @@ nsAString
 retval
 )
 ;
+void
+GetShaderTranslatedSource
+(
+WebGLShader
+*
+shader
+nsAString
+&
+retval
+)
+;
 JS
 :
 :
@@ -5110,6 +5121,7 @@ WEBGL_compressed_texture_atc
 WEBGL_compressed_texture_pvrtc
 WEBGL_compressed_texture_s3tc
 WEBGL_debug_renderer_info
+WEBGL_debug_shaders
 WEBGL_depth_texture
 WEBGL_lose_context
 WEBGL_draw_buffers
