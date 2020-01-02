@@ -307,7 +307,6 @@ mainWindow
 .
 title
 ;
-PRE_RELEASE_SUFFIX
 "
 onload
 =

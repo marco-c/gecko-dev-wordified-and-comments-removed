@@ -490,7 +490,6 @@ mainWindow
 .
 title
 ;
-PRE_RELEASE_SUFFIX
 "
 title_normal
 =
@@ -500,7 +499,6 @@ mainWindow
 .
 title
 ;
-PRE_RELEASE_SUFFIX
 "
 #
 ifdef
@@ -513,7 +511,6 @@ mainWindow
 .
 title
 ;
-PRE_RELEASE_SUFFIX
 &
 mainWindow
 .
@@ -533,7 +530,6 @@ mainWindow
 .
 title
 ;
-PRE_RELEASE_SUFFIX
 "
 titlemodifier
 =
@@ -562,7 +558,6 @@ mainWindow
 .
 titlemodifier
 ;
-PRE_RELEASE_SUFFIX
 &
 mainWindow
 .
@@ -577,7 +572,6 @@ mainWindow
 .
 titlemodifier
 ;
-PRE_RELEASE_SUFFIX
 "
 titlemodifier_normal
 =
@@ -587,7 +581,6 @@ mainWindow
 .
 titlemodifier
 ;
-PRE_RELEASE_SUFFIX
 "
 titlemodifier_privatebrowsing
 =
@@ -597,7 +590,6 @@ mainWindow
 .
 titlemodifier
 ;
-PRE_RELEASE_SUFFIX
 &
 mainWindow
 .
