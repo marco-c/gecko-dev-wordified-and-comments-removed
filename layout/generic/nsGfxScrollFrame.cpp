@@ -10716,6 +10716,15 @@ MoveTo
 aLists
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
+createLayersForScrollbars
+=
+true
+;
+#
+endif
 AppendScrollPartsTo
 (
 aBuilder
