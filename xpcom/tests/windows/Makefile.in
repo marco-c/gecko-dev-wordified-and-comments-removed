@@ -72,4 +72,5 @@ call
 EXPAND_LIBNAME
 rpcrt4
 uuid
+mpr
 )
