@@ -290,12 +290,5 @@ WidgetWheelEvent
 WheelEvent
 ;
 }
-typedef
-mozilla
-:
-:
-WidgetGestureNotifyEvent
-nsGestureNotifyEvent
-;
 #
 endif

@@ -9909,7 +9909,7 @@ pos
 (
 )
 ;
-nsGestureNotifyEvent
+WidgetGestureNotifyEvent
 gestureNotifyEvent
 (
 true

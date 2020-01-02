@@ -575,7 +575,10 @@ SetWinGestureSupport
 (
 HWND
 hWnd
-nsGestureNotifyEvent
+mozilla
+:
+:
+WidgetGestureNotifyEvent
 :
 :
 ePanDirection

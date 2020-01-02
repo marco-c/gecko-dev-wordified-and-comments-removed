@@ -1428,7 +1428,10 @@ sInstance
 void
 DecideGestureEvent
 (
-nsGestureNotifyEvent
+mozilla
+:
+:
+WidgetGestureNotifyEvent
 *
 aEvent
 nsIFrame

@@ -421,12 +421,5 @@ aCopyTargets
 }
 ;
 }
-typedef
-mozilla
-:
-:
-WidgetGestureNotifyEvent
-nsGestureNotifyEvent
-;
 #
 endif
