@@ -45,6 +45,9 @@ namespace
 mozilla
 {
 class
+WebGLVertexArrayFake
+;
+class
 WebGLVertexArray
 :
 public
@@ -273,6 +276,10 @@ WebGLRefPtr
 WebGLBuffer
 >
 mElementArrayBuffer
+;
+friend
+class
+WebGLVertexArrayFake
 ;
 friend
 class
