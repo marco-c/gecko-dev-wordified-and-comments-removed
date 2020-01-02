@@ -414,7 +414,7 @@ target
 value
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -499,7 +499,7 @@ src
 offset
 (
 )
-NULL
+nullptr
 reloc
 )
 )

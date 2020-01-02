@@ -1497,7 +1497,7 @@ Register
 *
 dynStack
 =
-NULL
+nullptr
 )
 ;
 template
@@ -1544,7 +1544,7 @@ Register
 *
 dynStack
 =
-NULL
+nullptr
 )
 {
 return
@@ -1766,7 +1766,7 @@ char
 *
 bailoutName
 =
-NULL
+nullptr
 )
 ;
 OutOfLineAbortPar
@@ -1862,11 +1862,11 @@ framePushed_
 )
 pc_
 (
-NULL
+nullptr
 )
 script_
 (
-NULL
+nullptr
 )
 {
 }
@@ -2722,7 +2722,7 @@ ool
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ool

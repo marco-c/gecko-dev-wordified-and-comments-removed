@@ -231,7 +231,7 @@ if
 stub
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -258,7 +258,7 @@ isForOp
 )
 )
 return
-NULL
+nullptr
 ;
 ICEntry
 &

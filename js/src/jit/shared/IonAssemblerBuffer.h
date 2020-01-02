@@ -260,7 +260,7 @@ this
 next
 =
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -271,7 +271,7 @@ next_
 prev
 =
 =
-NULL
+nullptr
 )
 ;
 this
@@ -311,11 +311,11 @@ BufferSlice
 :
 prev
 (
-NULL
+nullptr
 )
 next
 (
-NULL
+nullptr
 )
 nodeSize
 (
@@ -338,7 +338,7 @@ if
 inst
 !
 =
-NULL
+nullptr
 )
 memcpy
 (
@@ -379,11 +379,11 @@ AssemblerBuffer
 :
 head
 (
-NULL
+nullptr
 )
 tail
 (
-NULL
+nullptr
 )
 m_oom
 (
@@ -523,7 +523,7 @@ m_oom
 true
 ;
 return
-NULL
+nullptr
 ;
 }
 new
@@ -548,7 +548,7 @@ if
 tail
 !
 =
-NULL
+nullptr
 &
 &
 tail
@@ -580,7 +580,7 @@ if
 tmp
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -590,7 +590,7 @@ if
 tail
 !
 =
-NULL
+nullptr
 )
 {
 bufferSize
@@ -621,7 +621,7 @@ if
 head
 =
 =
-NULL
+nullptr
 )
 {
 finger
@@ -768,7 +768,7 @@ if
 tail
 !
 =
-NULL
+nullptr
 )
 executableSize
 =
@@ -875,7 +875,7 @@ Slice
 *
 cur
 =
-NULL
+nullptr
 ;
 int
 cur_off
@@ -1001,7 +1001,7 @@ for
 cur
 !
 =
-NULL
+nullptr
 ;
 cur
 =
@@ -1048,7 +1048,7 @@ JS_ASSERT
 cur
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1060,7 +1060,7 @@ for
 cur
 !
 =
-NULL
+nullptr
 ;
 cur
 =
@@ -1114,7 +1114,7 @@ JS_ASSERT
 cur
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1178,7 +1178,7 @@ if
 tail
 !
 =
-NULL
+nullptr
 )
 return
 BufferOffset

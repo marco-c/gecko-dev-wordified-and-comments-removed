@@ -2372,7 +2372,7 @@ loadBaselineOrIonRaw
 r3
 r3
 mode
-NULL
+nullptr
 )
 ;
 masm
@@ -3935,7 +3935,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -3952,7 +3952,7 @@ wrapper
 )
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -4280,7 +4280,7 @@ movePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 BaselineStubReg
 )
@@ -4319,7 +4319,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 masm
 .

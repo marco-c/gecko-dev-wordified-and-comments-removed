@@ -4504,7 +4504,7 @@ ReturnZero
 *
 ool
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5387,13 +5387,13 @@ ReturnZero
 *
 ool
 =
-NULL
+nullptr
 ;
 ModOverflowCheck
 *
 overflow
 =
-NULL
+nullptr
 ;
 if
 (

@@ -101,11 +101,11 @@ lirGraph
 )
 lastResumePoint_
 (
-NULL
+nullptr
 )
 osiPoint_
 (
-NULL
+nullptr
 )
 {
 }
@@ -660,7 +660,7 @@ MInstruction
 *
 mir
 =
-NULL
+nullptr
 )
 ;
 void
@@ -702,7 +702,7 @@ osiPoint_
 ;
 osiPoint_
 =
-NULL
+nullptr
 ;
 return
 tmp

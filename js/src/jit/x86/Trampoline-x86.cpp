@@ -1188,7 +1188,7 @@ returnLabel
 )
 )
 return
-NULL
+nullptr
 ;
 }
 masm
@@ -1943,7 +1943,7 @@ loadBaselineOrIonRaw
 eax
 eax
 mode
-NULL
+nullptr
 )
 ;
 masm
@@ -3368,7 +3368,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 #
 ifdef
@@ -3398,7 +3398,7 @@ wrapper
 )
 )
 return
-NULL
+nullptr
 ;
 return
 wrapper
@@ -3727,7 +3727,7 @@ movePtr
 (
 ImmPtr
 (
-NULL
+nullptr
 )
 BaselineStubReg
 )
@@ -3766,7 +3766,7 @@ if
 code
 )
 return
-NULL
+nullptr
 ;
 masm
 .

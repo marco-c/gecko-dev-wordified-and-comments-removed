@@ -349,7 +349,7 @@ if
 snapshot
 )
 return
-NULL
+nullptr
 ;
 FlattenedMResumePointIter
 iter
@@ -367,7 +367,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 size_t
 i
@@ -718,7 +718,7 @@ if
 snapshot
 )
 return
-NULL
+nullptr
 ;
 FlattenedMResumePointIter
 iter
@@ -736,7 +736,7 @@ init
 )
 )
 return
-NULL
+nullptr
 ;
 size_t
 i

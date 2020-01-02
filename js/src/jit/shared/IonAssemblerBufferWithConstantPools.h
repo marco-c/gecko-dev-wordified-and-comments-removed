@@ -147,7 +147,7 @@ Pool
 *
 other_
 =
-NULL
+nullptr
 )
 :
 maxOffset
@@ -547,7 +547,7 @@ if
 poolData
 =
 =
-NULL
+nullptr
 )
 {
 buffSize
@@ -633,7 +633,7 @@ if
 poolData
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -657,7 +657,7 @@ if
 otherSpace
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -965,7 +965,7 @@ BufferSliceTail
 :
 data
 (
-NULL
+nullptr
 )
 isNatural
 (
@@ -1630,7 +1630,7 @@ m_oom
 true
 ;
 return
-NULL
+nullptr
 ;
 }
 new
@@ -1686,7 +1686,7 @@ numDumps
 )
 poolInfo
 (
-NULL
+nullptr
 )
 poolSize
 (
@@ -1702,7 +1702,7 @@ false
 )
 perforatedNode
 (
-NULL
+nullptr
 )
 id
 (
@@ -1963,7 +1963,7 @@ getHead
 cur
 !
 =
-NULL
+nullptr
 ;
 cur
 =
@@ -2099,7 +2099,7 @@ cur
 data
 !
 =
-NULL
+nullptr
 )
 {
 curIndex
@@ -2333,7 +2333,7 @@ PoolEntry
 *
 pe
 =
-NULL
+nullptr
 )
 {
 if
@@ -2367,7 +2367,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 int
@@ -2479,7 +2479,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2582,7 +2582,7 @@ if
 pe
 !
 =
-NULL
+nullptr
 )
 *
 pe
@@ -2621,7 +2621,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 return
 INT_MIN
@@ -2704,7 +2704,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 IonSpew
 (
@@ -3012,7 +3012,7 @@ if
 p
 !
 =
-NULL
+nullptr
 )
 IonSpew
 (
@@ -3113,7 +3113,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3165,8 +3165,8 @@ uint8_t
 )
 &
 value
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -3411,7 +3411,7 @@ poolIdx
 other
 !
 =
-NULL
+nullptr
 &
 &
 pools
@@ -3645,7 +3645,7 @@ BufferOffset
 ;
 perforatedNode
 =
-NULL
+nullptr
 ;
 inBackref
 =
@@ -3677,7 +3677,7 @@ JS_ASSERT
 perforatedNode
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -3740,7 +3740,7 @@ if
 tmp
 =
 =
-NULL
+nullptr
 )
 {
 this
@@ -3915,7 +3915,7 @@ JS_ASSERT
 p
 !
 =
-NULL
+nullptr
 )
 ;
 unsigned
@@ -4379,7 +4379,7 @@ if
 tmp
 =
 =
-NULL
+nullptr
 )
 {
 this
@@ -4487,7 +4487,7 @@ BufferOffset
 ;
 perforatedNode
 =
-NULL
+nullptr
 ;
 inBackref
 =
@@ -4884,7 +4884,7 @@ this
 putBlob
 (
 guardSize
-NULL
+nullptr
 )
 ;
 BufferOffset
@@ -5594,7 +5594,7 @@ this
 putBlob
 (
 guardSize
-NULL
+nullptr
 )
 ;
 BufferOffset
@@ -5632,7 +5632,7 @@ if
 perforatedNode
 !
 =
-NULL
+nullptr
 )
 perforatedNode
 -
@@ -5709,7 +5709,7 @@ getTail
 )
 !
 =
-NULL
+nullptr
 )
 ;
 (
@@ -5744,7 +5744,7 @@ getTail
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -5915,7 +5915,7 @@ Pool
 *
 p
 =
-NULL
+nullptr
 ;
 uint32_t
 offset
@@ -6022,7 +6022,7 @@ getPoolSize
 ;
 p
 =
-NULL
+nullptr
 ;
 }
 if
@@ -6030,7 +6030,7 @@ if
 poolNum
 !
 =
-NULL
+nullptr
 )
 *
 poolNum
@@ -6042,7 +6042,7 @@ if
 p
 =
 =
-NULL
+nullptr
 )
 {
 p
@@ -6090,7 +6090,7 @@ JS_ASSERT
 p
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT
@@ -6138,7 +6138,7 @@ pe
 p
 &
 offset
-NULL
+nullptr
 )
 ;
 return

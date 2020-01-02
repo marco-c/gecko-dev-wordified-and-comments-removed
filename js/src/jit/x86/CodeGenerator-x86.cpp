@@ -3046,7 +3046,7 @@ OutOfLineLoadTypedArrayOutOfBounds
 *
 ool
 =
-NULL
+nullptr
 ;
 if
 (

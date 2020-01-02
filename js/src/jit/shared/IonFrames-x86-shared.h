@@ -256,7 +256,7 @@ IonJSFrameLayout
 *
 base
 =
-NULL
+nullptr
 ;
 return
 reinterpret_cast
@@ -287,7 +287,7 @@ IonJSFrameLayout
 *
 base
 =
-NULL
+nullptr
 ;
 return
 reinterpret_cast
@@ -723,7 +723,7 @@ ionCode
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -749,7 +749,7 @@ function
 )
 !
 =
-NULL
+nullptr
 ;
 }
 inline
@@ -769,7 +769,7 @@ ionCode
 )
 =
 =
-NULL
+nullptr
 ;
 }
 inline
