@@ -1644,6 +1644,10 @@ CFSTR
 XUL
 .
 framework
+/
+Versions
+/
+Current
 "
 )
 true
@@ -1664,7 +1668,7 @@ xulurl
 CFSTR
 (
 "
-libxpcom
+libmozglue
 .
 dylib
 "
