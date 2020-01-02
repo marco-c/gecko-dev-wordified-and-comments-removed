@@ -833,6 +833,11 @@ maybeJSContext
 )
 ;
 }
+void
+recoverFromOutOfMemory
+(
+)
+;
 inline
 void
 updateMallocCounter

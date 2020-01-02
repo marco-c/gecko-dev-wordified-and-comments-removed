@@ -16944,8 +16944,17 @@ if
 !
 newheader
 )
+{
+cx
+-
+>
+recoverFromOutOfMemory
+(
+)
+;
 return
 ;
+}
 newheader
 -
 >
