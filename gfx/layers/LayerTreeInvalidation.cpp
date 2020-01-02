@@ -881,6 +881,10 @@ otherClip
 )
 )
 {
+aGeometryChanged
+=
+true
+;
 nsIntRegion
 tmp
 ;
@@ -1382,6 +1386,10 @@ if
 invalidateChildsCurrentArea
 )
 {
+aGeometryChanged
+=
+true
+;
 gfx3DMatrix
 transform
 ;
@@ -1590,6 +1598,10 @@ GetColor
 )
 )
 {
+aGeometryChanged
+=
+true
+;
 return
 NewTransformedBounds
 (
@@ -1706,6 +1718,10 @@ mVisibleRegion
 )
 )
 {
+aGeometryChanged
+=
+true
+;
 nsIntRect
 result
 =
@@ -1774,6 +1790,10 @@ GetScaleMode
 )
 )
 {
+aGeometryChanged
+=
+true
+;
 return
 NewTransformedBounds
 (

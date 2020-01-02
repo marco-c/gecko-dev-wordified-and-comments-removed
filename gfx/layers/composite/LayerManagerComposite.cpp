@@ -1139,6 +1139,13 @@ mGeometryChanged
 false
 ;
 }
+else
+{
+mGeometryChanged
+=
+true
+;
+}
 mCompositor
 -
 >
@@ -2024,6 +2031,12 @@ mCompositor
 EndFrameForExternalComposition
 (
 mWorldMatrix
+)
+;
+mInvalidRegion
+.
+SetEmpty
+(
 )
 ;
 return
