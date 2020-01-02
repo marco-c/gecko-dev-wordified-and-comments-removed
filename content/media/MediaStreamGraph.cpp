@@ -5337,10 +5337,7 @@ blackPixel
 0x80
 }
 ;
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 data

@@ -74,6 +74,12 @@ layers
 :
 PlanarYCbCrImage
 ;
+using
+layers
+:
+:
+PlanarYCbCrData
+;
 PR_STATIC_ASSERT
 (
 MAX_VIDEO_WIDTH
@@ -1303,10 +1309,7 @@ get
 )
 )
 ;
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 data

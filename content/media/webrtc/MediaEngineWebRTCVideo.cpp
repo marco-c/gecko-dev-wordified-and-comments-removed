@@ -328,10 +328,7 @@ chromaBpp
 layers
 :
 :
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 data

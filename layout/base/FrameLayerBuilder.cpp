@@ -101,6 +101,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h

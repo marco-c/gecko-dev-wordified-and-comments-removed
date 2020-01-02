@@ -773,10 +773,7 @@ mozilla
 layers
 :
 :
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 data

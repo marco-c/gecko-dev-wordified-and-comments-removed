@@ -73,6 +73,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+ImageContainer
+.
+h
+"
 namespace
 mozilla
 {
@@ -568,10 +575,7 @@ DeserializerToPlanarYCbCrImageData
 YCbCrImageDataDeserializer
 &
 aDeserializer
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -793,10 +797,7 @@ uint8_t
 )
 )
 ;
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 data
 ;
 DeserializerToPlanarYCbCrImageData

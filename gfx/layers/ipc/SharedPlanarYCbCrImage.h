@@ -189,10 +189,7 @@ void
 SetData
 (
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -213,10 +210,7 @@ virtual
 bool
 Allocate
 (
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -360,10 +354,7 @@ void
 SetData
 (
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )
@@ -384,10 +375,7 @@ virtual
 bool
 Allocate
 (
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 )

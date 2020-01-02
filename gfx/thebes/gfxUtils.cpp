@@ -55,6 +55,13 @@ GeckoProfiler
 h
 "
 #
+include
+"
+ImageContainer
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -3722,10 +3729,7 @@ gfxUtils
 GetYCbCrToRGBDestFormatAndSize
 (
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 gfxImageFormat
@@ -3961,10 +3965,7 @@ gfxUtils
 ConvertYCbCrToRGB
 (
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 &
 aData
 const

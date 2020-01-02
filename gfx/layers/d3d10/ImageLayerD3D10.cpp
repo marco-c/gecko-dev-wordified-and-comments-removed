@@ -2128,10 +2128,7 @@ PlanarYCbCrD3D10BackendData
 )
 ;
 const
-PlanarYCbCrImage
-:
-:
-Data
+PlanarYCbCrData
 *
 data
 =
