@@ -408,12 +408,7 @@ void
 setUndefined
 (
 )
-{
-isUndefined_
-=
-true
 ;
-}
 bool
 isUndefined
 (
