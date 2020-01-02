@@ -65,6 +65,16 @@ library
 libxul
 .
 mk
+include
+(
+topsrcdir
+)
+/
+config
+/
+config
+.
+mk
 ifeq
 (
 WINNT_1
@@ -86,7 +96,7 @@ virtual
 memory
 usage
 .
-LD
+EXPAND_LIBS_EXEC
 :
 =
 (
@@ -104,9 +114,6 @@ py
 linker
 -
 vsize
-(
-LD
-)
 endif
 include
 (
