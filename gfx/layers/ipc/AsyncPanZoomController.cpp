@@ -1722,7 +1722,7 @@ gTouchListenerTimeout
 }
 }
 return
-nsEventStatus_eConsumeNoDefault
+nsEventStatus_eIgnore
 ;
 }
 return
