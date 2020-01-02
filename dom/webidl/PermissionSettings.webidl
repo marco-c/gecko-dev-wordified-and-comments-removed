@@ -67,10 +67,13 @@ permissionSettings
 ;
 1
 "
-CheckPermissions
+Func
 =
 "
-permissions
+Navigator
+:
+:
+HasPermissionSettingsSupport
 "
 Pref
 =

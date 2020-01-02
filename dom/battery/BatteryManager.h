@@ -97,6 +97,12 @@ BatteryInformation
 aBatteryInfo
 )
 ;
+static
+bool
+HasSupport
+(
+)
+;
 nsPIDOMWindow
 *
 GetParentObject
