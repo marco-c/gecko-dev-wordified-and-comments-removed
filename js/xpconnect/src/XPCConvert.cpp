@@ -5512,9 +5512,10 @@ RootedObject
 obj
 (
 cx
-JSVAL_TO_OBJECT
-(
 s
+.
+toObjectOrNull
+(
 )
 )
 ;

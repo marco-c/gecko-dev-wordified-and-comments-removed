@@ -53307,9 +53307,10 @@ if
 JS_DefineUCProperty
 (
 aCx
-JSVAL_TO_OBJECT
-(
 winVal
+.
+toObjectOrNull
+(
 )
 doc_str
 .

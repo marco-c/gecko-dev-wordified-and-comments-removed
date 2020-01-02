@@ -24,8 +24,6 @@ fp
 thisp
 =
 =
-JSVAL_TO_OBJECT
-(
 fp
 -
 >
@@ -34,6 +32,9 @@ argv
 -
 1
 ]
+.
+toObjectOrNull
+(
 )
 '
 ;

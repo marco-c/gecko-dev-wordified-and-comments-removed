@@ -1016,13 +1016,14 @@ cx
 vp
 )
 (
-JSVAL_TO_OBJECT
-(
 JS_THIS
 (
 cx
 vp
 )
+.
+toObjectOrNull
+(
 )
 )
 MOZ_ALWAYS_INLINE

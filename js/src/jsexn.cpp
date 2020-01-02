@@ -3964,9 +3964,10 @@ else
 {
 exnObject
 =
-JSVAL_TO_OBJECT
-(
 exn
+.
+toObjectOrNull
+(
 )
 ;
 }

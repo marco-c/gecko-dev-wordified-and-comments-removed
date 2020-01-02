@@ -3210,9 +3210,10 @@ nullptr
 ;
 }
 return
-JSVAL_TO_OBJECT
-(
 wrappedBlob
+.
+toObjectOrNull
+(
 )
 ;
 }
@@ -3356,9 +3357,10 @@ nullptr
 ;
 }
 return
-JSVAL_TO_OBJECT
-(
 wrappedFile
+.
+toObjectOrNull
+(
 )
 ;
 }

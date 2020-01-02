@@ -5092,9 +5092,10 @@ JSObject
 jselement
 (
 jscontext
-JSVAL_TO_OBJECT
-(
 v
+.
+toObjectOrNull
+(
 )
 )
 ;

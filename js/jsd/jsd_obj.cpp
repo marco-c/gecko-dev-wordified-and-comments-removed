@@ -974,12 +974,13 @@ return
 jsd_GetJSDObjectForJSObject
 (
 jsdc
-JSVAL_TO_OBJECT
-(
 jsdval
 -
 >
 val
+.
+toObjectOrNull
+(
 )
 )
 ;

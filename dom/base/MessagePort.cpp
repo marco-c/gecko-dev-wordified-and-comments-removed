@@ -404,9 +404,10 @@ val
 )
 {
 return
-JSVAL_TO_OBJECT
-(
 val
+.
+toObjectOrNull
+(
 )
 ;
 }

@@ -2662,9 +2662,10 @@ val
 (
 iidobj
 =
-JSVAL_TO_OBJECT
-(
 val
+.
+toObjectOrNull
+(
 )
 )
 |

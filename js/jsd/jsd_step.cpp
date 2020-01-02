@@ -405,9 +405,10 @@ jsd_Constructing
 (
 jsdc
 cx
-JSVAL_TO_OBJECT
-(
 newObj
+.
+toObjectOrNull
+(
 )
 frame
 )

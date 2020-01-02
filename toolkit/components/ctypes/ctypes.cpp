@@ -482,9 +482,10 @@ false
 ;
 JS_SetCTypesCallbacks
 (
-JSVAL_TO_OBJECT
-(
 ctypes
+.
+toObjectOrNull
+(
 )
 &
 sCallbacks

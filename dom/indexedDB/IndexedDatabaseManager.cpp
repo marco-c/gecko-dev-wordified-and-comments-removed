@@ -2823,9 +2823,10 @@ JSObject
 global
 (
 aCx
-JSVAL_TO_OBJECT
-(
 aGlobal
+.
+toObjectOrNull
+(
 )
 )
 ;

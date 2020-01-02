@@ -513,9 +513,10 @@ val
 {
 obj
 =
-JSVAL_TO_OBJECT
-(
 val
+.
+toObjectOrNull
+(
 )
 ;
 }
@@ -1730,9 +1731,10 @@ JSObject
 *
 funobj
 =
-JSVAL_TO_OBJECT
-(
 funval
+.
+toObjectOrNull
+(
 )
 ;
 JSPropertyOp

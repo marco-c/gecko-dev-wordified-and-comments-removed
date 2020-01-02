@@ -1909,9 +1909,10 @@ JSObject
 *
 ptrobj
 =
-JSVAL_TO_OBJECT
-(
 v
+.
+toObjectOrNull
+(
 )
 ;
 Op

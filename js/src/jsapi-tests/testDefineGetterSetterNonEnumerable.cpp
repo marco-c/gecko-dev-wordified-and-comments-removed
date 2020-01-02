@@ -201,9 +201,10 @@ RootedObject
 vObject
 (
 cx
-JSVAL_TO_OBJECT
-(
 vobj
+.
+toObjectOrNull
+(
 )
 )
 ;
