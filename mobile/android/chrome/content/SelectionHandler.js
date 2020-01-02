@@ -1398,7 +1398,7 @@ SELECT_AT_POINT
 !
 this
 .
-selectionNearClick
+_selectionNearClick
 (
 scroll
 .
