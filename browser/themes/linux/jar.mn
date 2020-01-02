@@ -5175,7 +5175,7 @@ devtools
 /
 dropmarker
 .
-png
+svg
 (
 .
 .
@@ -5188,7 +5188,7 @@ images
 /
 dropmarker
 .
-png
+svg
 )
 skin
 /
