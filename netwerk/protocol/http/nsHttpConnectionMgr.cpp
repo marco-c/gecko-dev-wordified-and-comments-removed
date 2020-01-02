@@ -132,6 +132,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+Http2Compression
+.
+h
+"
 extern
 PRThread
 *
@@ -588,6 +595,10 @@ NS_ProcessNextEvent
 NS_GetCurrentThread
 (
 )
+)
+;
+Http2CompressionCleanup
+(
 )
 ;
 return
