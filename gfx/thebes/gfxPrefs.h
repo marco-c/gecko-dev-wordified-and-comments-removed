@@ -1230,7 +1230,7 @@ enabled
 "
 AsyncVideoEnabled
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
@@ -1249,7 +1249,7 @@ enabled
 "
 AsyncVideoOOPEnabled
 bool
-false
+true
 )
 ;
 DECL_GFX_PREF
