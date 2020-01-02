@@ -11,6 +11,9 @@ class
 imgIContainer
 ;
 class
+imgRequestProxy
+;
+class
 imgStatusNotifyRunnable
 ;
 class
@@ -65,13 +68,6 @@ h
 include
 "
 nsRect
-.
-h
-"
-#
-include
-"
-imgRequestProxy
 .
 h
 "
@@ -1116,10 +1112,8 @@ SyncNotifyState
 (
 nsTObserverArray
 <
-nsRefPtr
-<
 imgRequestProxy
->
+*
 >
 &
 proxies
@@ -1155,10 +1149,8 @@ mImage
 ;
 nsTObserverArray
 <
-nsRefPtr
-<
 imgRequestProxy
->
+*
 >
 mConsumers
 ;
