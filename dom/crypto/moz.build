@@ -135,6 +135,11 @@ KeyAlgorithm
 h
 '
 '
+KeyPair
+.
+h
+'
+'
 RsaHashedKeyAlgorithm
 .
 h
@@ -181,6 +186,11 @@ cpp
 '
 '
 KeyAlgorithm
+.
+cpp
+'
+'
+KeyPair
 .
 cpp
 '

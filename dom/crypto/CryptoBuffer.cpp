@@ -62,6 +62,11 @@ SECItem
 aItem
 )
 {
+MOZ_ASSERT
+(
+aItem
+)
+;
 return
 Assign
 (
