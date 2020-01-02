@@ -26,7 +26,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_1
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 TextTrackRegion
 mParent
