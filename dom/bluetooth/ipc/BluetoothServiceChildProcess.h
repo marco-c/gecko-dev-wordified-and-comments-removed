@@ -312,11 +312,15 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 IsConnected
 (
+const
 uint16_t
 aServiceUuid
+BluetoothReplyRunnable
+*
+aRunnable
 )
 MOZ_OVERRIDE
 ;
