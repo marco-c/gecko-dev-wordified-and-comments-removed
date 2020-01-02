@@ -219,6 +219,11 @@ nsToolkit
 cpp
 '
 '
+WakeLockListener
+.
+cpp
+'
+'
 WidgetTraceEvent
 .
 cpp
