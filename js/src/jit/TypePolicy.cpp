@@ -2009,7 +2009,7 @@ outputType
 outputType
 =
 =
-MIRType_Magic
+MIRType_MagicOptimizedArguments
 )
 {
 JS_ASSERT

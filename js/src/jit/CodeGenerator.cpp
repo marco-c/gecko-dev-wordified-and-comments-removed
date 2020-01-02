@@ -23025,7 +23025,7 @@ shouldn
 '
 t
 be
-MIRType_Magic
+JSVAL_TYPE_MAGIC
 .
 "
 )
@@ -23177,7 +23177,7 @@ shouldn
 '
 t
 be
-MIRType_Magic
+JSVAL_TYPE_MAGIC
 .
 "
 )

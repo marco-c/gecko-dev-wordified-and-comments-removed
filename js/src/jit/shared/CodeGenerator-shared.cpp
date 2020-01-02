@@ -1135,7 +1135,7 @@ break
 ;
 }
 case
-MIRType_Magic
+MIRType_MagicOptimizedArguments
 :
 {
 uint32_t
