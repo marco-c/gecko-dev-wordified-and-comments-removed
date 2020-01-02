@@ -254,6 +254,11 @@ session
 getAuthHeaderProvider
 (
 )
+session
+.
+config
+.
+infoCollections
 BOOKMARKS_REQUEST_LIMIT
 BOOKMARKS_SORT
 countsFetcher

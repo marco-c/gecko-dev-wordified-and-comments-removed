@@ -222,6 +222,11 @@ session
 getAuthHeaderProvider
 (
 )
+session
+.
+config
+.
+infoCollections
 FORM_HISTORY_REQUEST_LIMIT
 FORM_HISTORY_SORT
 )

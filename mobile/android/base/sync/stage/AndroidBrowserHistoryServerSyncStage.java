@@ -231,6 +231,11 @@ session
 getAuthHeaderProvider
 (
 )
+session
+.
+config
+.
+infoCollections
 HISTORY_REQUEST_LIMIT
 HISTORY_SORT
 )
