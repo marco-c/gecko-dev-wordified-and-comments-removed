@@ -639,6 +639,9 @@ mOpusDecoder
 int
 mSkip
 ;
+uint64_t
+mSeekPreroll
+;
 #
 endif
 WebMPacketQueue
