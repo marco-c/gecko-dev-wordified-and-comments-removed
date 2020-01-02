@@ -2919,6 +2919,16 @@ headers
 {
 if
 (
+this
+.
+headersSent
+)
+{
+return
+;
+}
+if
+(
 typeof
 reasonPhrase
 =
