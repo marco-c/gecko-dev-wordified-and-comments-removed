@@ -61,10 +61,6 @@ STANDALONE_MAKEFILE
 :
 =
 1
-NO_MAKEFILE_RULE
-:
-=
-1
 include
 (
 topsrcdir

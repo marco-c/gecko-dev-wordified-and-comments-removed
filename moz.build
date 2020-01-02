@@ -98,6 +98,13 @@ CONFIGURE_SUBST_FILES
 =
 [
 '
+mozilla
+-
+config
+.
+h
+'
+'
 tools
 /
 update

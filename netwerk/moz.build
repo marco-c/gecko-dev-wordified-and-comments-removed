@@ -233,3 +233,15 @@ MODULE
 '
 necko
 '
+CONFIGURE_DEFINE_FILES
++
+=
+[
+'
+necko
+-
+config
+.
+h
+'
+]
