@@ -35,6 +35,9 @@ class
 nsIURI
 ;
 class
+nsIDocShell
+;
+class
 nsDocShellLoadInfo
 :
 public
@@ -108,6 +111,12 @@ mIsSrcdocLoad
 ;
 nsString
 mSrcdocData
+;
+nsCOMPtr
+<
+nsIDocShell
+>
+mSourceDocShell
 ;
 }
 ;

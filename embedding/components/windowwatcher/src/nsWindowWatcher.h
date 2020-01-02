@@ -198,7 +198,10 @@ nsIDocShellTreeItem
 aParentItem
 )
 ;
-nsresult
+already_AddRefed
+<
+nsIDOMWindow
+>
 SafeGetWindowByName
 (
 const
@@ -208,10 +211,6 @@ aName
 nsIDOMWindow
 *
 aCurrentWindow
-nsIDOMWindow
-*
-*
-aResult
 )
 ;
 nsresult
