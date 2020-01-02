@@ -449,6 +449,15 @@ bool
 DoRequest
 (
 const
+FetchUuidsRequest
+&
+aRequest
+)
+;
+bool
+DoRequest
+(
+const
 SetPinCodeRequest
 &
 aRequest

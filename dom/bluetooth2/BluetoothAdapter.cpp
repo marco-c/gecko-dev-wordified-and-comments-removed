@@ -133,6 +133,13 @@ h
 #
 include
 "
+BluetoothClassOfDevice
+.
+h
+"
+#
+include
+"
 BluetoothDevice
 .
 h
@@ -4805,7 +4812,12 @@ deviceClass
 =
 aDevice
 .
-Class
+Cod
+(
+)
+-
+>
+ToUint32
 (
 )
 ;

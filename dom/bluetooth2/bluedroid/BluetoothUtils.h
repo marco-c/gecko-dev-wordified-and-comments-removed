@@ -62,6 +62,17 @@ nsAString
 aRetBdAddress
 )
 ;
+void
+UuidToString
+(
+bt_uuid_t
+*
+aUuid
+nsAString
+&
+aString
+)
+;
 bool
 SetJsObject
 (
