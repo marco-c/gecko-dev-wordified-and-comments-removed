@@ -748,15 +748,6 @@ IsToggling
 const
 ;
 void
-RemoveObserverFromTable
-(
-const
-nsAString
-&
-key
-)
-;
-void
 TryFiringAdapterAdded
 (
 )
