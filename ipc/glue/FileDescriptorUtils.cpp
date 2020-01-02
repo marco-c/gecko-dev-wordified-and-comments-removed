@@ -93,13 +93,6 @@ aFileDescriptor
 {
 MOZ_ASSERT
 (
-NS_IsMainThread
-(
-)
-)
-;
-MOZ_ASSERT
-(
 aFileDescriptor
 .
 IsValid
@@ -146,13 +139,6 @@ Dispatch
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 nsCOMPtr
 <
 nsIEventTarget
