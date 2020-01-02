@@ -994,7 +994,6 @@ define
 UNWRAP_OBJECT
 (
 Interface
-cx
 obj
 value
 )

@@ -719,7 +719,6 @@ rv
 UNWRAP_OBJECT
 (
 VTTCue
-aCx
 &
 aCue
 .
@@ -801,7 +800,6 @@ rv
 UNWRAP_OBJECT
 (
 VTTRegion
-aCx
 &
 aRegion
 .

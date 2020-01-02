@@ -6820,7 +6820,6 @@ NS_SUCCEEDED
 UNWRAP_OBJECT
 (
 FileHandle
-aCx
 aObj
 fileHandle
 )

@@ -1668,7 +1668,6 @@ rv
 UNWRAP_OBJECT
 (
 IDBDatabase
-cx
 &
 result
 .

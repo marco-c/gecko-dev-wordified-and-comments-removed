@@ -2422,7 +2422,6 @@ nullptr
 UNWRAP_OBJECT
 (
 Window
-nullptr
 glob
 win
 )

@@ -1762,7 +1762,6 @@ NS_SUCCEEDED
 UNWRAP_OBJECT
 (
 ImageData
-aCx
 aObj
 imageData
 )
@@ -22808,7 +22807,6 @@ nullptr
 UNWRAP_OBJECT
 (
 Worker
-aCx
 &
 aWorker
 .

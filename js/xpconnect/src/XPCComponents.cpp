@@ -7649,7 +7649,6 @@ NS_SUCCEEDED
 UNWRAP_OBJECT
 (
 Exception
-cx
 v
 .
 toObjectOrNull

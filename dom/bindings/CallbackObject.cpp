@@ -612,7 +612,6 @@ NS_SUCCEEDED
 UNWRAP_OBJECT
 (
 DOMError
-mCx
 obj
 domError
 )
