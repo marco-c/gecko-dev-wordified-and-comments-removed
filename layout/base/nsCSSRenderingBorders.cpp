@@ -3983,6 +3983,8 @@ return
 }
 uint8_t
 borderRenderStyle
+=
+NS_STYLE_BORDER_STYLE_NONE
 ;
 nscolor
 borderRenderColor
