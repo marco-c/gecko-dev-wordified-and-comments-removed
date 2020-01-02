@@ -196,11 +196,6 @@ NeckoChannelParams
 ipdlh
 '
 '
-PChannelDiverter
-.
-ipdl
-'
-'
 PNecko
 .
 ipdl

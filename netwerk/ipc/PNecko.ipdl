@@ -164,10 +164,6 @@ PDNSRequest
 ;
 include
 protocol
-PChannelDiverter
-;
-include
-protocol
 PBlob
 ;
 /
@@ -318,9 +314,6 @@ PRemoteOpenFile
 manages
 PRtspController
 ;
-manages
-PChannelDiverter
-;
 parent
 :
 __delete__
@@ -420,12 +413,6 @@ reason
 ;
 PRtspController
 (
-)
-;
-PChannelDiverter
-(
-ChannelDiverterArgs
-channel
 )
 ;
 both
