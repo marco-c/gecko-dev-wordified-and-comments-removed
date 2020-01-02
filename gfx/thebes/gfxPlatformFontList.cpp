@@ -1769,11 +1769,6 @@ Now
 (
 )
 ;
-bool
-common
-=
-true
-;
 gfxFontFamily
 *
 fallbackFamily
@@ -1802,10 +1797,6 @@ if
 fontEntry
 )
 {
-common
-=
-false
-;
 fontEntry
 =
 GlobalFontFallback
@@ -1931,7 +1922,7 @@ d
 n
 "
 (
-common
+fontEntry
 ?
 "
 common

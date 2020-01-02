@@ -3250,7 +3250,7 @@ b
 }
 static
 PLDHashOperator
-AddFeature
+AddHartBuzzFeature
 (
 const
 uint32_t
@@ -3903,7 +3903,7 @@ mergedFeatures
 .
 Enumerate
 (
-AddFeature
+AddHartBuzzFeature
 &
 features
 )
@@ -5309,3 +5309,6 @@ return
 NS_OK
 ;
 }
+#
+undef
+SMALL_GLYPH_RUN
