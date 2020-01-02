@@ -110,14 +110,14 @@ MOZ_OVERRIDE
 {
 }
 nsresult
-ClipPaint
+ApplyClipOrPaintClipMask
 (
 nsRenderingContext
 *
 aContext
 nsIFrame
 *
-aParent
+aClippedFrame
 const
 gfxMatrix
 &

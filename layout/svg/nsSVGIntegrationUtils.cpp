@@ -2062,7 +2062,7 @@ Save
 clipPathFrame
 -
 >
-ClipPaint
+ApplyClipOrPaintClipMask
 (
 aCtx
 aFrame
@@ -2233,7 +2233,7 @@ rv
 clipPathFrame
 -
 >
-ClipPaint
+ApplyClipOrPaintClipMask
 (
 aCtx
 aFrame

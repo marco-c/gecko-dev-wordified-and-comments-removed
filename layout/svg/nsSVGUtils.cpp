@@ -2963,7 +2963,7 @@ Save
 clipPathFrame
 -
 >
-ClipPaint
+ApplyClipOrPaintClipMask
 (
 aContext
 aFrame
@@ -3209,7 +3209,7 @@ rv
 clipPathFrame
 -
 >
-ClipPaint
+ApplyClipOrPaintClipMask
 (
 aContext
 aFrame
