@@ -21378,6 +21378,7 @@ nativeSetSlotIfHasType
 (
 shape
 value
+false
 )
 )
 return
@@ -21399,6 +21400,7 @@ asExclusiveContext
 )
 shape
 value
+false
 )
 ;
 }

@@ -1696,6 +1696,10 @@ js
 Value
 &
 value
+bool
+overwriting
+=
+true
 )
 ;
 inline
@@ -1721,6 +1725,10 @@ js
 Value
 &
 value
+bool
+overwriting
+=
+true
 )
 ;
 inline
