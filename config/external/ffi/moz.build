@@ -121,14 +121,9 @@ if
 CONFIG
 [
 '
-OS_ARCH
+_MSC_VER
 '
 ]
-=
-=
-'
-WINNT
-'
 :
 prefix
 =
