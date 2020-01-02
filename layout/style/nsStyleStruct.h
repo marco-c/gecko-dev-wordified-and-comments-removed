@@ -4684,6 +4684,9 @@ mGridTemplateColumns
 nsStyleGridTrackList
 mGridTemplateRows
 ;
+nsCSSValueGridTemplateAreas
+mGridTemplateAreas
+;
 bool
 WidthDependsOnContainer
 (
