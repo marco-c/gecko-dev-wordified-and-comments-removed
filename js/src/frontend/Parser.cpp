@@ -1605,7 +1605,7 @@ pc
 sc
 -
 >
-allLocalsAliased
+bindingsAccessedDynamically
 (
 )
 &
@@ -16935,7 +16935,7 @@ pn1
 >
 setOp
 (
-JSOP_POPN
+JSOP_LEAVEBLOCK
 )
 ;
 pn1
@@ -17157,16 +17157,13 @@ getOp
 )
 !
 =
-JSOP_POPNV
+JSOP_LEAVEBLOCK
 pn
--
->
-pn_expr
 -
 >
 isOp
 (
-JSOP_POPN
+JSOP_NOP
 )
 )
 ;

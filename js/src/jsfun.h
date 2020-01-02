@@ -288,11 +288,6 @@ nonLazyScript
 -
 >
 funNeedsDeclEnvObject
-|
-|
-isGenerator
-(
-)
 ;
 }
 bool
