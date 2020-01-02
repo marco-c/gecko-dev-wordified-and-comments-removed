@@ -91,7 +91,11 @@ android
 name
 =
 "
-ANDROID_PACKAGE_NAME
+org
+.
+mozilla
+.
+gecko
 .
 FennecInstrumentationTestRunner
 "
