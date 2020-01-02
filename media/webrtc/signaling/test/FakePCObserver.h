@@ -138,13 +138,6 @@ nsIDOMDataChannel
 namespace
 test
 {
-using
-namespace
-mozilla
-:
-:
-dom
-;
 class
 AFakePCObserver
 :
@@ -440,6 +433,12 @@ virtual
 NS_IMETHODIMP
 OnStateChange
 (
+mozilla
+:
+:
+dom
+:
+:
 PCObserverStateType
 state_type
 ER

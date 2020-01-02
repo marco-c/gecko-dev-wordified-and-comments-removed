@@ -315,6 +315,15 @@ libNameUtf8
 )
 ;
 return
+mozilla
+:
+:
+widget
+:
+:
+android
+:
+:
 GeckoAppShell
 :
 :
