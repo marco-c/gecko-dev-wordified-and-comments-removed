@@ -243,11 +243,6 @@ nsSVGSwitchFrame
 cpp
 '
 '
-nsSVGTextFrame2
-.
-cpp
-'
-'
 nsSVGUseFrame
 .
 cpp
@@ -274,6 +269,11 @@ cpp
 '
 '
 SVGFEUnstyledLeafFrame
+.
+cpp
+'
+'
+SVGTextFrame
 .
 cpp
 '

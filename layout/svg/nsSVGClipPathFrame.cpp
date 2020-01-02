@@ -1097,7 +1097,7 @@ type
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 return
@@ -1125,7 +1125,7 @@ type
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 return

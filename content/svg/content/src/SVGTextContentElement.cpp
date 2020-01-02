@@ -19,7 +19,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -126,7 +126,7 @@ XY
 }
 }
 ;
-nsSVGTextFrame2
+SVGTextFrame
 *
 SVGTextContentElement
 :
@@ -149,7 +149,7 @@ while
 frame
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -239,7 +239,7 @@ GetNumberOfChars
 (
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -269,7 +269,7 @@ GetComputedTextLength
 (
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -308,7 +308,7 @@ ErrorResult
 rv
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -351,7 +351,7 @@ ErrorResult
 rv
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -410,7 +410,7 @@ ErrorResult
 rv
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -480,7 +480,7 @@ ErrorResult
 rv
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -550,7 +550,7 @@ ErrorResult
 rv
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -617,7 +617,7 @@ ErrorResult
 rv
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =
@@ -675,7 +675,7 @@ nsISVGPoint
 aPoint
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 textFrame
 =

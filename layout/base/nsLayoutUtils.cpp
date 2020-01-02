@@ -438,7 +438,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -9084,7 +9084,7 @@ aRect
 ;
 }
 static
-nsSVGTextFrame2
+SVGTextFrame
 *
 GetContainingSVGTextFrame
 (
@@ -9111,7 +9111,7 @@ nullptr
 return
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -9129,7 +9129,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 )
 ;
@@ -9152,7 +9152,7 @@ nsIFrame
 aAncestor
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 text
 =
@@ -9278,7 +9278,7 @@ nsIFrame
 aAncestor
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 text
 =
@@ -9456,7 +9456,7 @@ bool
 aPreservesAxisAlignedRectangles
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 text
 =
@@ -27778,7 +27778,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 container
@@ -27800,7 +27800,7 @@ to
 find
 an
 ancestor
-nsSVGTextFrame2
+SVGTextFrame
 "
 )
 ;
@@ -27808,7 +27808,7 @@ return
 static_cast
 <
 const
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (

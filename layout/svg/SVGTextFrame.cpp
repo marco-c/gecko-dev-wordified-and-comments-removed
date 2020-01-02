@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -1458,11 +1458,11 @@ length
 }
 }
 static
-nsSVGTextFrame2
+SVGTextFrame
 *
 FrameIfAnonymousChildReflowed
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aFrame
 )
@@ -3652,7 +3652,7 @@ static
 void
 RecordCorrespondence
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -3661,7 +3661,7 @@ private
 :
 TextNodeCorrespondenceRecorder
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -3688,7 +3688,7 @@ mNodeCharIndex
 void
 Record
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -3725,7 +3725,7 @@ TextNodeCorrespondenceRecorder
 :
 RecordCorrespondence
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -3750,7 +3750,7 @@ TextNodeCorrespondenceRecorder
 :
 Record
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 )
@@ -4351,7 +4351,7 @@ public
 :
 TextFrameIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 nsIFrame
@@ -4392,7 +4392,7 @@ Init
 }
 TextFrameIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aRoot
 nsIContent
@@ -4452,7 +4452,7 @@ Init
 )
 ;
 }
-nsSVGTextFrame2
+SVGTextFrame
 *
 Root
 (
@@ -4635,7 +4635,7 @@ PopBaseline
 (
 )
 ;
-nsSVGTextFrame2
+SVGTextFrame
 *
 mRootFrame
 ;
@@ -5156,7 +5156,7 @@ eVisibleFrames
 ;
 TextRenderedRunIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 RenderedRunFilter
@@ -5207,7 +5207,7 @@ First
 }
 TextRenderedRunIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 RenderedRunFilter
@@ -5269,7 +5269,7 @@ Next
 ;
 private
 :
-nsSVGTextFrame2
+SVGTextFrame
 *
 Root
 (
@@ -5868,7 +5868,7 @@ eClusterOrLigatureGroupMiddle
 ;
 CharIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 CharacterFilter
@@ -6205,7 +6205,7 @@ CharIterator
 :
 CharIterator
 (
-nsSVGTextFrame2
+SVGTextFrame
 *
 aSVGTextFrame
 CharIterator
@@ -8818,7 +8818,7 @@ nsDisplaySVGText
 nsDisplayListBuilder
 *
 aBuilder
-nsSVGTextFrame2
+SVGTextFrame
 *
 aFrame
 )
@@ -8933,13 +8933,13 @@ nsIFrame
 aOutFrames
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 frame
 =
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -9045,7 +9045,7 @@ offset
 ;
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -9069,19 +9069,19 @@ PopState
 }
 NS_QUERYFRAME_HEAD
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGTextFrame2Base
+SVGTextFrameBase
 )
 nsIFrame
 *
-NS_NewSVGTextFrame2
+NS_NewSVGTextFrame
 (
 nsIPresShell
 *
@@ -9096,7 +9096,7 @@ new
 (
 aPresShell
 )
-nsSVGTextFrame2
+SVGTextFrame
 (
 aContext
 )
@@ -9104,10 +9104,10 @@ aContext
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsSVGTextFrame2
+SVGTextFrame
 )
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 Init
@@ -9145,7 +9145,7 @@ text
 "
 )
 ;
-nsSVGTextFrame2Base
+SVGTextFrameBase
 :
 :
 Init
@@ -9182,7 +9182,7 @@ this
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 BuildDisplayList
@@ -9233,7 +9233,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 AttributeChanged
@@ -9337,7 +9337,7 @@ NS_OK
 }
 nsIAtom
 *
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetType
@@ -9349,11 +9349,11 @@ return
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DidSetStyleContext
@@ -9377,7 +9377,7 @@ ScheduleReflowSVGNonDisplayText
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ReflowSVGNonDisplayText
@@ -9452,7 +9452,7 @@ UpdateGlyphPositioning
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ScheduleReflowSVGNonDisplayText
@@ -9632,14 +9632,14 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 }
 NS_IMPL_ISUPPORTS1
 (
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
 nsIMutationObserver
 )
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -9669,7 +9669,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -9699,7 +9699,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -9732,7 +9732,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -9760,7 +9760,7 @@ NotifyGlyphMetricsChange
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MutationObserver
@@ -9948,7 +9948,7 @@ NotifyGlyphMetricsChange
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 FindCloserFrameForSelection
@@ -10110,7 +10110,7 @@ mFrame
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 NotifySVGChanged
@@ -10455,7 +10455,7 @@ false
 ;
 }
 NS_IMETHODIMP
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 PaintSVG
@@ -11084,7 +11084,7 @@ NS_IMETHODIMP_
 nsIFrame
 *
 )
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetFrameForPoint
@@ -11316,7 +11316,7 @@ NS_IMETHODIMP_
 (
 nsRect
 )
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetCoveredRegion
@@ -11341,7 +11341,7 @@ PresContext
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ReflowSVG
@@ -11689,7 +11689,7 @@ NS_FRAME_IS_DIRTY
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-nsSVGTextFrame2Base
+SVGTextFrameBase
 :
 :
 ReflowSVG
@@ -11814,7 +11814,7 @@ flags
 ;
 }
 SVGBBox
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetBBoxContribution
@@ -11921,7 +11921,7 @@ bbox
 ;
 }
 gfxMatrix
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetCanvasTM
@@ -12256,7 +12256,7 @@ length
 ;
 }
 int32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ConvertTextElementCharIndexToAddressableIndex
@@ -12388,7 +12388,7 @@ return
 ;
 }
 uint32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetNumberOfChars
@@ -12461,7 +12461,7 @@ n
 ;
 }
 float
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetComputedTextLength
@@ -12564,7 +12564,7 @@ mFontSizeScaleFactor
 ;
 }
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SelectSubString
@@ -12701,7 +12701,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetSubStringLength
@@ -13007,7 +13007,7 @@ NS_OK
 ;
 }
 int32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetCharNumAtPosition
@@ -13145,7 +13145,7 @@ aContent
 ;
 }
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetStartPositionOfChar
@@ -13233,7 +13233,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetEndPositionOfChar
@@ -13391,7 +13391,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetExtentOfChar
@@ -13636,7 +13636,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetRotationOfChar
@@ -13896,7 +13896,7 @@ false
 ;
 }
 uint32_t
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ResolvePositions
@@ -14797,7 +14797,7 @@ aIndex
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ResolvePositions
@@ -14984,7 +14984,7 @@ aDeltas
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DetermineCharPositions
@@ -15669,7 +15669,7 @@ shift
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 AdjustChunksForLineBreaks
@@ -15786,7 +15786,7 @@ AdvancePastCurrentFrame
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 AdjustPositionsForClusters
@@ -16103,7 +16103,7 @@ Next
 }
 nsIFrame
 *
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetTextPathPathFrame
@@ -16295,7 +16295,7 @@ TemporaryRef
 <
 Path
 >
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetTextPath
@@ -16424,7 +16424,7 @@ forget
 ;
 }
 gfxFloat
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetOffsetScale
@@ -16485,7 +16485,7 @@ eForTextPath
 ;
 }
 gfxFloat
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetStartOffset
@@ -16601,7 +16601,7 @@ aTextPathFrame
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoTextPathLayout
@@ -17028,7 +17028,7 @@ textPath
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoAnchoring
@@ -17407,7 +17407,7 @@ TextElementCharIndex
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoGlyphPositioning
@@ -18147,7 +18147,7 @@ DoTextPathLayout
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ShouldRenderAsPath
@@ -18290,7 +18290,7 @@ false
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 ScheduleReflowSVG
@@ -18322,7 +18322,7 @@ this
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 NotifyGlyphMetricsChange
@@ -18348,7 +18348,7 @@ ScheduleReflowSVG
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 UpdateGlyphPositioning
@@ -18386,7 +18386,7 @@ DoGlyphPositioning
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 MaybeReflowAnonymousBlockChild
@@ -18494,7 +18494,7 @@ DoReflow
 }
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 DoReflow
@@ -18770,7 +18770,7 @@ PRECISE_SIZE
 .
 0
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 UpdateFontSizeScaleFactor
@@ -19113,7 +19113,7 @@ oldFontSizeScaleFactor
 ;
 }
 double
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 GetFontSizeScaleFactor
@@ -19126,7 +19126,7 @@ mFontSizeScaleFactor
 ;
 }
 gfxPoint
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 TransformFramePointToTextChild
@@ -19159,7 +19159,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 =
 =
@@ -19476,7 +19476,7 @@ cssPxPerDevPx
 ;
 }
 gfxRect
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 TransformFrameRectToTextChild
@@ -19509,7 +19509,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 =
 =
@@ -19834,7 +19834,7 @@ result
 ;
 }
 gfxRect
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 TransformFrameRectFromTextChild
@@ -19867,7 +19867,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 =
 =
@@ -20087,7 +20087,7 @@ framePosition
 ;
 }
 DrawMode
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupCairoState
@@ -20194,7 +20194,7 @@ toDraw
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupCairoStroke
@@ -20322,7 +20322,7 @@ opacity
 ;
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupCairoFill
@@ -20435,7 +20435,7 @@ true
 ;
 }
 void
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupInheritablePaint
@@ -20651,7 +20651,7 @@ pattern
 }
 }
 bool
-nsSVGTextFrame2
+SVGTextFrame
 :
 :
 SetupContextPaint

@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -864,7 +864,7 @@ aFrame
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 ;
 NS_ASSERTION
@@ -876,13 +876,13 @@ to
 find
 an
 ancestor
-nsSVGTextFrame2
+SVGTextFrame
 "
 )
 ;
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (

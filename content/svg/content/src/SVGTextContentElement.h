@@ -65,7 +65,7 @@ SVG_LENGTHADJUST_SPACINGANDGLYPHS
 2
 ;
 class
-nsSVGTextFrame2
+SVGTextFrame
 ;
 namespace
 mozilla
@@ -221,7 +221,7 @@ aNodeInfo
 )
 {
 }
-nsSVGTextFrame2
+SVGTextFrame
 *
 GetSVGTextFrame
 (

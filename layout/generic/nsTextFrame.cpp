@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -21103,7 +21103,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 ;
 svgTextFrame
@@ -21161,7 +21161,7 @@ GetParent
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 ;
 svgTextFrame
@@ -23439,7 +23439,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 container
@@ -23461,7 +23461,7 @@ to
 find
 an
 ancestor
-nsSVGTextFrame2
+SVGTextFrame
 "
 )
 ;
@@ -23469,7 +23469,7 @@ return
 static_cast
 <
 const
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (

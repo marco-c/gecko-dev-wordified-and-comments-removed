@@ -4769,6 +4769,13 @@ ondisconnecting
 )
 GK_ATOM
 (
+ondiscoverystatechanged
+"
+ondiscoverystatechanged
+"
+)
+GK_ATOM
+(
 ondownloading
 "
 ondownloading
@@ -13229,9 +13236,9 @@ SVGSwitchFrame
 )
 GK_ATOM
 (
-svgTextFrame2
+svgTextFrame
 "
-SVGTextFrame2
+SVGTextFrame
 "
 )
 GK_ATOM

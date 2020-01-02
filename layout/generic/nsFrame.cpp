@@ -372,7 +372,7 @@ h
 #
 include
 "
-nsSVGTextFrame2
+SVGTextFrame
 .
 h
 "
@@ -3117,13 +3117,13 @@ IsSVGText
 )
 )
 {
-nsSVGTextFrame2
+SVGTextFrame
 *
 svgTextFrame
 =
 static_cast
 <
-nsSVGTextFrame2
+SVGTextFrame
 *
 >
 (
@@ -3136,7 +3136,7 @@ this
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 )
 ;
@@ -34967,7 +34967,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 )
 {
 break

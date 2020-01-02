@@ -2011,7 +2011,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 "
 unexpected
 block
@@ -2079,7 +2079,7 @@ GetType
 nsGkAtoms
 :
 :
-svgTextFrame2
+svgTextFrame
 "
 unexpected
 block
