@@ -11595,7 +11595,7 @@ mode
 .
 enabled
 "
-false
+true
 )
 ;
 pref
