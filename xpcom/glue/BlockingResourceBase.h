@@ -218,10 +218,6 @@ aFirstSeen
 nsACString
 &
 aOut
-bool
-aPrintFirstSeenCx
-=
-false
 )
 const
 ;
