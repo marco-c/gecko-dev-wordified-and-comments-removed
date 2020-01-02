@@ -536,8 +536,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
-KeyUsages
-requiredKeyUsagesIfPresent
+KeyUsage
+requiredKeyUsageIfPresent
 KeyPurposeId
 requiredEKUIfPresent
 const
@@ -731,7 +731,10 @@ EndEntityOrCA
 :
 :
 MustBeCA
-KU_KEY_CERT_SIGN
+KeyUsage
+:
+:
+keyCertSign
 requiredEKUIfPresent
 requiredPolicy
 nullptr
@@ -779,8 +782,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
-KeyUsages
-requiredKeyUsagesIfPresent
+KeyUsage
+requiredKeyUsageIfPresent
 KeyPurposeId
 requiredEKUIfPresent
 const
@@ -813,7 +816,7 @@ trustDomain
 subject
 time
 endEntityOrCA
-requiredKeyUsagesIfPresent
+requiredKeyUsageIfPresent
 requiredEKUIfPresent
 requiredPolicy
 subCACount
@@ -1328,8 +1331,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
-KeyUsages
-requiredKeyUsagesIfPresent
+KeyUsage
+requiredKeyUsageIfPresent
 KeyPurposeId
 requiredEKUIfPresent
 const
@@ -1451,7 +1454,7 @@ trustDomain
 cert
 time
 endEntityOrCA
-requiredKeyUsagesIfPresent
+requiredKeyUsageIfPresent
 requiredEKUIfPresent
 requiredPolicy
 stapledOCSPResponse

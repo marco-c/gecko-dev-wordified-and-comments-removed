@@ -46,8 +46,8 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
-KeyUsages
-requiredKeyUsagesIfPresent
+KeyUsage
+requiredKeyUsageIfPresent
 KeyPurposeId
 requiredEKUIfPresent
 const

@@ -461,7 +461,10 @@ EndEntityOrCA
 :
 :
 MustBeEndEntity
-0
+KeyUsage
+:
+:
+noParticularKeyUsageRequired
 KeyPurposeId
 :
 :

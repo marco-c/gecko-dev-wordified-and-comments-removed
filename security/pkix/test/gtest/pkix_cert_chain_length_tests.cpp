@@ -720,7 +720,10 @@ EndEntityOrCA
 :
 :
 MustBeCA
-0
+KeyUsage
+:
+:
+noParticularKeyUsageRequired
 KeyPurposeId
 :
 :
@@ -796,7 +799,10 @@ EndEntityOrCA
 :
 :
 MustBeEndEntity
-0
+KeyUsage
+:
+:
+noParticularKeyUsageRequired
 KeyPurposeId
 :
 :
@@ -888,7 +894,10 @@ EndEntityOrCA
 :
 :
 MustBeCA
-0
+KeyUsage
+:
+:
+noParticularKeyUsageRequired
 KeyPurposeId
 :
 :
@@ -966,7 +975,10 @@ EndEntityOrCA
 :
 :
 MustBeEndEntity
-0
+KeyUsage
+:
+:
+noParticularKeyUsageRequired
 KeyPurposeId
 :
 :

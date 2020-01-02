@@ -123,6 +123,11 @@ pkix_ocsp_request_tests
 cpp
 '
 '
+pkixcheck_CheckKeyUsage_tests
+.
+cpp
+'
+'
 pkixder_input_tests
 .
 cpp
