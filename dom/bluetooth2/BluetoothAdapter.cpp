@@ -796,7 +796,7 @@ mState
 BluetoothAdapterState
 :
 :
-Enabled
+Disabled
 )
 mDiscoverable
 (
