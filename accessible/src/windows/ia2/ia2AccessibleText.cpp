@@ -934,6 +934,7 @@ CO_E_OBJNOTCONNECTED
 ;
 if
 (
+!
 textAcc
 -
 >
@@ -1155,6 +1156,7 @@ CO_E_OBJNOTCONNECTED
 ;
 if
 (
+!
 textAcc
 -
 >
@@ -1374,6 +1376,7 @@ CO_E_OBJNOTCONNECTED
 ;
 if
 (
+!
 textAcc
 -
 >
