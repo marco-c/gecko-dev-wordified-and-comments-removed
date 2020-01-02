@@ -119,3 +119,14 @@ True
 LIBXUL_LIBRARY
 =
 True
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+image
+/
+src
+'
+]
