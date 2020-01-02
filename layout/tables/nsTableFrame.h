@@ -1509,7 +1509,7 @@ aReflowState
 ;
 virtual
 int
-GetLogicalSkipSides
+GetSkipSides
 (
 const
 nsHTMLReflowState

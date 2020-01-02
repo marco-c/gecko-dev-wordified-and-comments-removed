@@ -2826,7 +2826,7 @@ int
 nsTableRowFrame
 :
 :
-GetLogicalSkipSides
+GetSkipSides
 (
 const
 nsHTMLReflowState
@@ -2853,7 +2853,10 @@ GetPrevInFlow
 skip
 |
 =
-LOGICAL_SIDE_B_START
+1
+<
+<
+NS_SIDE_TOP
 ;
 }
 if
@@ -2869,7 +2872,10 @@ GetNextInFlow
 skip
 |
 =
-LOGICAL_SIDE_B_END
+1
+<
+<
+NS_SIDE_BOTTOM
 ;
 }
 return
