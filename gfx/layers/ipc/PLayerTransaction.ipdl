@@ -303,8 +303,6 @@ PLayerTransaction
 {
 manager
 PCompositor
-or
-PRenderFrame
 ;
 manages
 PLayer
