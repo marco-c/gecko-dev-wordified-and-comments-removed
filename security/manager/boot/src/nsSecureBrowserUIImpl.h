@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -197,8 +190,6 @@ nsIWebProgressListener
 public
 nsIFormSubmitObserver
 public
-nsIObserver
-public
 nsSupportsWeakReference
 public
 nsISSLStatusProvider
@@ -218,7 +209,6 @@ nsSecureBrowserUIImpl
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSISECUREBROWSERUI
-NS_DECL_NSIOBSERVER
 NS_DECL_NSISSLSTATUSPROVIDER
 NS_IMETHOD
 Notify
