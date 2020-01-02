@@ -2896,7 +2896,9 @@ aPanel
 .
 panelWin
 .
-gClient
+DebuggerController
+.
+_target
 .
 activeTab
 ;

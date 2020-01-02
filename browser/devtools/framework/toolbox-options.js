@@ -1489,8 +1489,6 @@ this
 .
 target
 .
-client
-.
 activeTab
 .
 _actor
@@ -1632,9 +1630,9 @@ this
 .
 target
 .
-client
+activeTab
 .
-reconfigureTab
+reconfigure
 (
 options
 )
@@ -1672,9 +1670,9 @@ this
 .
 target
 .
-client
+activeTab
 .
-reconfigureTab
+reconfigure
 (
 options
 )
@@ -1822,9 +1820,9 @@ this
 .
 target
 .
-client
+activeTab
 .
-reconfigureTab
+reconfigure
 (
 options
 (

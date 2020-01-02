@@ -6257,6 +6257,15 @@ console
 .
 error
 (
+"
+Panel
+"
++
+id
++
+"
+:
+"
 e
 )
 ;

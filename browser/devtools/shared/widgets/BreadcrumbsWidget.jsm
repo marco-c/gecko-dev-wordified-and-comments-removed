@@ -627,6 +627,15 @@ ENSURE_SELECTION_VISIBLE_DELAY
 =
 >
 {
+if
+(
+this
+.
+_list
+.
+ensureElementIsVisible
+)
+{
 this
 .
 _list
@@ -636,6 +645,7 @@ ensureElementIsVisible
 aElement
 )
 ;
+}
 }
 )
 ;

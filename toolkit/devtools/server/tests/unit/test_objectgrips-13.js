@@ -292,8 +292,13 @@ try
 {
 obj
 .
-getDefinitionSite
+_client
+.
+request
 (
+"
+definitionSite
+"
 (
 )
 =
