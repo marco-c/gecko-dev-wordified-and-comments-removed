@@ -4375,16 +4375,6 @@ Register
 rd
 Register
 rs
-Register
-rt
-=
-Register
-:
-:
-FromCode
-(
-0
-)
 )
 ;
 BufferOffset

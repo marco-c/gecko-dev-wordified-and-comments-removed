@@ -4926,8 +4926,6 @@ Register
 rd
 Register
 rs
-Register
-rt
 )
 {
 return
@@ -4937,7 +4935,7 @@ InstReg
 (
 op_special2
 rs
-rt
+rs
 rd
 ff_clz
 )

@@ -1098,6 +1098,15 @@ ins
 ;
 virtual
 bool
+visitClzI
+(
+LClzI
+*
+ins
+)
+;
+virtual
+bool
 visitTestIAndBranch
 (
 LTestIAndBranch
