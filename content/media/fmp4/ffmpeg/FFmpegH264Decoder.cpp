@@ -385,10 +385,10 @@ aSample
 -
 >
 byte_offset
-aSample
+frame
 -
 >
-composition_timestamp
+pkt_pts
 aSample
 -
 >
