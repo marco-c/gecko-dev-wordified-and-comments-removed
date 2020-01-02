@@ -510,12 +510,13 @@ NetUtil
 asyncFetch
 (
 channel
-function
 (
 aInputStream
 aStatusCode
 aRequest
 )
+=
+>
 {
 if
 (
