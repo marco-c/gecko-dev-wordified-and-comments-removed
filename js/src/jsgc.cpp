@@ -4382,7 +4382,7 @@ lowFrequencyHeapGrowth
 )
 dynamicHeapGrowth
 (
-true
+false
 )
 dynamicMarkSlice
 (
