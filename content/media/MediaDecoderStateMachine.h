@@ -1226,9 +1226,6 @@ mSyncPointInMediaStream
 int64_t
 mSyncPointInDecodedStream
 ;
-bool
-mResetPlayStartTime
-;
 int64_t
 mPlayDuration
 ;
@@ -1288,9 +1285,6 @@ mPlaybackRate
 ;
 bool
 mPreservesPitch
-;
-int64_t
-mBasePosition
 ;
 TimeStamp
 mDecodeStartTime
