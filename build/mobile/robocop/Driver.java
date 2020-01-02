@@ -28,8 +28,8 @@ findElement
 (
 Activity
 activity
-String
-name
+int
+id
 )
 ;
 void

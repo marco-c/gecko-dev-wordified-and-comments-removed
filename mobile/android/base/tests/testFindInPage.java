@@ -303,9 +303,11 @@ findElement
 getActivity
 (
 )
-"
+R
+.
+id
+.
 find_close
-"
 )
 ;
 boolean
@@ -333,9 +335,11 @@ findElement
 getActivity
 (
 )
-"
+R
+.
+id
+.
 find_next
-"
 )
 ;
 if
