@@ -1603,6 +1603,7 @@ _logger
 .
 debug
 (
+u
 "
 response
 :
@@ -1611,6 +1612,16 @@ s
 "
 %
 temp
+.
+decode
+(
+'
+utf8
+'
+'
+replace
+'
+)
 )
                             
 timer

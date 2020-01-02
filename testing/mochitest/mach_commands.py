@@ -3,6 +3,8 @@ __future__
 import
 unicode_literals
 import
+argparse
+import
 logging
 import
 mozpack
@@ -44,6 +46,10 @@ CommandProvider
     
 Command
 )
+from
+mozlog
+import
+structured
 ADB_NOT_FOUND
 =
 '
@@ -1716,14 +1722,6 @@ removeHandler
 handler
 )
         
-runner
-=
-mochitest
-.
-Mochitest
-(
-)
-        
 opts
 =
 mochitest
@@ -2438,6 +2436,44 @@ options
 app
 =
 app_override
+        
+logger_options
+=
+{
+key
+:
+value
+for
+key
+value
+in
+vars
+(
+options
+)
+.
+iteritems
+(
+)
+if
+key
+.
+startswith
+(
+'
+log
+'
+)
+}
+        
+runner
+=
+mochitest
+.
+Mochitest
+(
+logger_options
+)
         
 options
 =
@@ -4613,6 +4649,21 @@ func
     
 return
 func
+_st_parser
+=
+argparse
+.
+ArgumentParser
+(
+)
+structured
+.
+commandline
+.
+add_logging_group
+(
+_st_parser
+)
 CommandProvider
 class
 MachCommands
@@ -4658,6 +4709,10 @@ page
 )
 .
 '
+        
+parser
+=
+_st_parser
 )
     
 MochitestCommand

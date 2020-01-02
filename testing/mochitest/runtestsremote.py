@@ -3,6 +3,8 @@ base64
 import
 json
 import
+logging
+import
 math
 import
 os
@@ -60,11 +62,14 @@ runtests
 import
 Mochitest
 MessageLogger
-MochitestFormatter
 from
 mochitest_options
 import
 MochitestOptions
+from
+mozlog
+import
+structured
 import
 devicemanager
 import
@@ -75,53 +80,6 @@ import
 mozinfo
 import
 moznetwork
-from
-mozlog
-.
-structured
-.
-handlers
-import
-StreamHandler
-from
-mozlog
-.
-structured
-.
-structuredlog
-import
-StructuredLogger
-log
-=
-StructuredLogger
-(
-'
-Mochi
--
-Remote
-'
-)
-stream_handler
-=
-StreamHandler
-(
-stream
-=
-sys
-.
-stdout
-formatter
-=
-MochitestFormatter
-(
-)
-)
-log
-.
-add_handler
-(
-stream_handler
-)
 SCRIPT_DIR
 =
 os
@@ -1146,6 +1104,17 @@ automation
 )
 :
         
+options_logger
+=
+logging
+.
+getLogger
+(
+'
+MochitestRemote
+'
+)
+        
 if
 not
 options
@@ -1196,7 +1165,7 @@ get_ip
 else
 :
                 
-log
+options_logger
 .
 error
 (
@@ -1240,7 +1209,7 @@ None
 )
 :
             
-log
+options_logger
 .
 error
 (
@@ -1330,7 +1299,7 @@ app
 )
 :
             
-log
+options_logger
 .
 error
 (
@@ -1386,7 +1355,7 @@ None
 )
 :
             
-log
+options_logger
 .
 error
 (
@@ -1481,7 +1450,7 @@ options
 robocopIni
 :
                 
-log
+options_logger
 .
 error
 (
@@ -1532,7 +1501,7 @@ options
 robocopApk
 :
                 
-log
+options_logger
 .
 error
 (
@@ -1609,7 +1578,7 @@ robocopIni
 )
 :
                 
-log
+options_logger
 .
 error
 (
@@ -1675,7 +1644,7 @@ robocopApk
 )
 :
                 
-log
+options_logger
 .
 error
 (
@@ -1738,7 +1707,7 @@ robocopIds
 )
 :
                 
-log
+options_logger
 .
 error
 (
@@ -1903,24 +1872,22 @@ self
 automation
 devmgr
 options
-message_logger
-=
-None
 )
 :
-        
-self
-.
-_automation
-=
-automation
         
 Mochitest
 .
 __init__
 (
 self
+options
 )
+        
+self
+.
+_automation
+=
+automation
         
 self
 .
@@ -2041,19 +2008,6 @@ self
 remoteNSPR
 )
 ;
-        
-self
-.
-message_logger
-=
-message_logger
-or
-MessageLogger
-(
-logger
-=
-log
-)
     
 def
 cleanup
@@ -2104,6 +2058,8 @@ remoteLog
 else
 :
             
+self
+.
 log
 .
 warning
@@ -2470,6 +2426,8 @@ xrePath
 None
 :
             
+self
+.
 log
 .
 error
@@ -2581,6 +2539,8 @@ utilityPath
 None
 :
             
+self
+.
 log
 .
 error
@@ -2639,6 +2599,8 @@ xpcshell_path
 )
 :
             
+self
+.
 log
 .
 error
@@ -2990,6 +2952,8 @@ devicemanager
 DMError
 :
             
+self
+.
 log
 .
 error
@@ -3110,6 +3074,8 @@ devicemanager
 DMError
 :
                 
+self
+.
 log
 .
 error
@@ -3325,6 +3291,8 @@ devicemanager
 DMError
 :
             
+self
+.
 log
 .
 error
@@ -3527,6 +3495,8 @@ not
 end_found
 :
             
+self
+.
 log
 .
 error
@@ -3855,6 +3825,8 @@ screenShotDir
 )
 :
             
+self
+.
 log
 .
 info
@@ -3901,6 +3873,8 @@ screenShotDir
 +
 name
             
+self
+.
 log
 .
 info
@@ -3942,6 +3916,8 @@ b64encode
 image
 )
                 
+self
+.
 log
 .
 info
@@ -3971,6 +3947,8 @@ printed
 except
 :
                 
+self
+.
 log
 .
 info
@@ -3987,6 +3965,8 @@ parsed
                 
 pass
         
+self
+.
 log
 .
 info
@@ -4036,6 +4016,8 @@ filterOutRegexps
 fennecLogcatFilters
 )
                 
+self
+.
 log
 .
 info
@@ -4066,6 +4048,8 @@ replace
 )
 )
             
+self
+.
 log
 .
 info
@@ -4087,6 +4071,8 @@ getInfo
 )
 )
             
+self
+.
 log
 .
 info
@@ -4112,9 +4098,11 @@ devicemanager
 DMError
 :
             
+self
+.
 log
 .
-warn
+warning
 (
 "
 Error
@@ -4305,6 +4293,8 @@ index
 '
 )
                     
+self
+.
 log
 .
 error
@@ -4342,6 +4332,8 @@ value
 )
 )
                     
+self
+.
 log
 .
 error
@@ -4650,7 +4642,7 @@ MessageLogger
 (
 logger
 =
-log
+None
 )
     
 process_args
@@ -4681,6 +4673,15 @@ parser
 RemoteOptions
 (
 auto
+)
+    
+structured
+.
+commandline
+.
+add_logging_group
+(
+parser
 )
     
 options
@@ -4787,6 +4788,41 @@ options
 auto
 )
     
+mochitest
+=
+MochiRemote
+(
+auto
+dm
+options
+)
+    
+log
+=
+mochitest
+.
+log
+    
+structured_logger
+=
+mochitest
+.
+structured_logger
+    
+message_logger
+.
+logger
+=
+mochitest
+.
+structured_logger
+    
+mochitest
+.
+message_logger
+=
+message_logger
+    
 if
 (
 options
@@ -4875,16 +4911,6 @@ setAppName
 options
 .
 remoteappname
-)
-    
-mochitest
-=
-MochiRemote
-(
-auto
-dm
-options
-message_logger
 )
     
 options
@@ -5642,7 +5668,7 @@ append
 test
 )
         
-log
+structured_logger
 .
 suite_start
 (
