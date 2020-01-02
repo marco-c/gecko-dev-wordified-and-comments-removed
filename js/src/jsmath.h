@@ -1171,6 +1171,14 @@ x
 )
 ;
 extern
+float
+math_roundf_impl
+(
+float
+x
+)
+;
+extern
 double
 powi
 (
