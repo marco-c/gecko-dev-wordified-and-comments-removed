@@ -149,10 +149,6 @@ mIsFromNsiFile
 false
 )
 {
-SetLengthAndModifiedDate
-(
-)
-;
 }
 nsDOMMultipartFile
 (
@@ -185,10 +181,6 @@ mIsFromNsiFile
 false
 )
 {
-SetLengthAndModifiedDate
-(
-)
-;
 }
 nsDOMMultipartFile
 (
@@ -443,11 +435,6 @@ bool
 aNativeEOL
 UnwrapFuncPtr
 aUnwrapFunc
-)
-;
-void
-SetLengthAndModifiedDate
-(
 )
 ;
 nsTArray
@@ -755,6 +742,9 @@ nsDOMMemoryFile
 (
 mData
 mDataLen
+EmptyString
+(
+)
 EmptyString
 (
 )
