@@ -399,6 +399,9 @@ buildTestPath
 (
 self
 options
+testsToFilter
+=
+None
 )
 :
         
@@ -424,6 +427,7 @@ self
 buildTestPath
 (
 options
+testsToFilter
 disabled
 =
 False

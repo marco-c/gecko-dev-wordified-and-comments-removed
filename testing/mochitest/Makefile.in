@@ -91,6 +91,10 @@ runtests
 .
 py
 \
+bisection
+.
+py
+\
 automation
 .
 py

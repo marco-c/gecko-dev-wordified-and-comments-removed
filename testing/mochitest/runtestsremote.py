@@ -3035,6 +3035,9 @@ buildTestPath
 (
 self
 options
+testsToFilter
+=
+None
 )
 :
         
@@ -3069,6 +3072,7 @@ self
 buildTestPath
 (
 options
+testsToFilter
 )
     
 def
