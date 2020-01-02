@@ -8062,7 +8062,7 @@ charsetSource
 )
 {
 case
-kCharsetFromWeakDocTypeDefault
+kCharsetFromFallback
 :
 case
 kCharsetFromDocTypeDefault
