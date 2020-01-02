@@ -1396,7 +1396,7 @@ key
 =
 =
 "
-share_email_body
+share_email_body2
 "
 )
 text
