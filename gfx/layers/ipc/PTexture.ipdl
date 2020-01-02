@@ -116,6 +116,10 @@ protocol
 PImageBridge
 ;
 include
+protocol
+PGrallocBuffer
+;
+include
 "
 mozilla
 /

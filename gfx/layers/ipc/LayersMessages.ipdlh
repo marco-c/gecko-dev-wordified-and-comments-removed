@@ -117,6 +117,10 @@ PCompositor
 ;
 include
 protocol
+PGrallocBuffer
+;
+include
+protocol
 PLayer
 ;
 include
