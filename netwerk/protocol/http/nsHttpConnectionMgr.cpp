@@ -2990,6 +2990,14 @@ yet
 )
 ;
 }
+ProcessPendingQ
+(
+ent
+-
+>
+mConnInfo
+)
+;
 PostEvent
 (
 &
