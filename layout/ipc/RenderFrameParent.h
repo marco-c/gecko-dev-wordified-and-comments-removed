@@ -376,16 +376,12 @@ aColor
 void
 NotifyInputEvent
 (
-const
 WidgetInputEvent
 &
 aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
-WidgetInputEvent
-*
-aOutEvent
 )
 ;
 void

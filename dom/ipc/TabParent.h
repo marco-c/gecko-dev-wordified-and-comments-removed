@@ -1666,16 +1666,12 @@ UseAsyncPanZoom
 void
 MaybeForwardEventToRenderFrame
 (
-const
 WidgetInputEvent
 &
 aEvent
 ScrollableLayerGuid
 *
 aOutTargetGuid
-WidgetInputEvent
-*
-aOutEvent
 )
 ;
 LayoutDeviceIntPoint
