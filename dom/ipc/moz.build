@@ -338,11 +338,6 @@ ProcessPriorityManager
 cpp
 '
 '
-ScreenManagerParent
-.
-cpp
-'
-'
 StructuredCloneUtils
 .
 cpp
@@ -518,11 +513,6 @@ ipdl
 '
 '
 PMemoryReportRequest
-.
-ipdl
-'
-'
-PScreenManager
 .
 ipdl
 '

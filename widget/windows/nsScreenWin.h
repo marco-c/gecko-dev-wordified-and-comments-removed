@@ -38,14 +38,6 @@ nsScreenWin
 )
 ;
 NS_IMETHOD
-GetId
-(
-uint32_t
-*
-aId
-)
-;
-NS_IMETHOD
 GetRect
 (
 int32_t
@@ -133,9 +125,6 @@ private
 :
 HMONITOR
 mScreen
-;
-uint32_t
-mId
 ;
 }
 ;
