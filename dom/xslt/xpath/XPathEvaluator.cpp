@@ -130,6 +130,13 @@ h
 #
 include
 "
+txIXPathContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
