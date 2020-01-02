@@ -4796,6 +4796,10 @@ if
 (
 !
 backBuffer
+|
+|
+!
+backBuffer
 -
 >
 Lock
@@ -4824,6 +4828,12 @@ updating
 aTile
 .
 DiscardFrontBuffer
+(
+)
+;
+aTile
+.
+DiscardBackBuffer
 (
 )
 ;
