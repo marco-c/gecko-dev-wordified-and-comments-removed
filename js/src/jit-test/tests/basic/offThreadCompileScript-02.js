@@ -26,6 +26,8 @@ string
 >
 :
 1
+:
+1
 \
 n
 /
@@ -69,6 +71,8 @@ match
 candelabra
 :
 6502
+:
+1
 \
 n
 /
