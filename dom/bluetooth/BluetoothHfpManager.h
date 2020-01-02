@@ -613,8 +613,10 @@ BluetoothReplyRunnable
 >
 mRunnable
 ;
+nsRefPtr
+<
 BluetoothProfileController
-*
+>
 mController
 ;
 nsRefPtr

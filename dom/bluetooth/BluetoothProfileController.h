@@ -18,6 +18,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RefPtr
+.
+h
+"
 BEGIN_BLUETOOTH_NAMESPACE
 #
 define
@@ -161,6 +170,12 @@ BluetoothProfileControllerCallback
 ;
 class
 BluetoothProfileController
+:
+public
+RefCounted
+<
+BluetoothProfileController
+>
 {
 public
 :
@@ -230,6 +245,7 @@ uint32_t
 GetCod
 (
 )
+const
 {
 return
 mCod

@@ -14,6 +14,13 @@ h
 #
 include
 "
+BluetoothProfileController
+.
+h
+"
+#
+include
+"
 BluetoothProfileManagerBase
 .
 h
@@ -288,8 +295,10 @@ NotifyConnectionStatusChanged
 nsString
 mDeviceAddress
 ;
+nsRefPtr
+<
 BluetoothProfileController
-*
+>
 mController
 ;
 bool
