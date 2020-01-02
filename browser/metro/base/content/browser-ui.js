@@ -703,6 +703,17 @@ init
 (
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
+ShumwayUtils
+.
+init
+(
+)
+;
+#
+endif
 messageManager
 .
 addMessageListener
