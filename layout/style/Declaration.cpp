@@ -5244,6 +5244,11 @@ aValue
 break
 ;
 }
+case
+eCSSProperty_all
+:
+break
+;
 default
 :
 NS_ABORT_IF_FALSE
