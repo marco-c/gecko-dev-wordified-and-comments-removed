@@ -1132,7 +1132,10 @@ PendingSet
 PendingSet
 inUse_
 ;
-HeapPtrObject
+ReadBarriered
+<
+JSObject
+>
 matchResultTemplateObject_
 ;
 public
@@ -1202,8 +1205,8 @@ RegExpGuard
 g
 )
 ;
-HeapPtrObject
-&
+JSObject
+*
 getOrCreateMatchResultTemplateObject
 (
 JSContext
