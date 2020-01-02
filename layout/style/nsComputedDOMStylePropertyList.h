@@ -225,11 +225,6 @@ Bottom
 )
 COMPUTED_STYLE_PROP
 (
-box_decoration_break
-BoxDecorationBreak
-)
-COMPUTED_STYLE_PROP
-(
 box_shadow
 BoxShadow
 )

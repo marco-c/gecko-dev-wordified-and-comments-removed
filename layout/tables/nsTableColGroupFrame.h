@@ -425,7 +425,7 @@ aCols
 )
 ;
 virtual
-LogicalSides
+int
 GetLogicalSkipSides
 (
 const

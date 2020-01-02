@@ -1067,20 +1067,6 @@ gfx
 Matrix
 Matrix
 ;
-typedef
-mozilla
-:
-:
-Sides
-Sides
-;
-typedef
-mozilla
-:
-:
-LogicalSides
-LogicalSides
-;
 NS_DECL_QUERYFRAME_TARGET
 (
 nsIFrame
@@ -2606,7 +2592,7 @@ const
 nsSize
 &
 aBorderArea
-Sides
+int
 aSkipSides
 nscoord
 aRadii
@@ -2657,7 +2643,7 @@ const
 nsSize
 &
 aBorderArea
-Sides
+int
 aSkipSides
 nscoord
 aRadii
@@ -5158,7 +5144,7 @@ ClearOverflowRects
 (
 )
 ;
-Sides
+int
 GetSkipSides
 (
 const
@@ -5171,7 +5157,7 @@ nullptr
 const
 ;
 virtual
-LogicalSides
+int
 GetLogicalSkipSides
 (
 const
@@ -5184,9 +5170,7 @@ nullptr
 const
 {
 return
-LogicalSides
-(
-)
+0
 ;
 }
 bool

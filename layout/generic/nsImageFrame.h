@@ -494,7 +494,7 @@ MOZ_OVERRIDE
 #
 endif
 virtual
-LogicalSides
+int
 GetLogicalSkipSides
 (
 const

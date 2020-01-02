@@ -8234,8 +8234,10 @@ nsRenderingContext
 aCtx
 )
 {
-Sides
+int
 skipSides
+=
+0
 ;
 nsPresContext
 *

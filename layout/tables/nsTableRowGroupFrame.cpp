@@ -1216,10 +1216,7 @@ DisplayRows
 )
 ;
 }
-nsIFrame
-:
-:
-LogicalSides
+int
 nsTableRowGroupFrame
 :
 :
@@ -1249,13 +1246,13 @@ NS_STYLE_BOX_DECORATION_BREAK_CLONE
 )
 {
 return
-LogicalSides
-(
-)
+0
 ;
 }
-LogicalSides
+int
 skip
+=
+0
 ;
 if
 (
@@ -1270,7 +1267,7 @@ GetPrevInFlow
 skip
 |
 =
-eLogicalSideBitsBStart
+LOGICAL_SIDE_B_START
 ;
 }
 if
@@ -1286,7 +1283,7 @@ GetNextInFlow
 skip
 |
 =
-eLogicalSideBitsBEnd
+LOGICAL_SIDE_B_END
 ;
 }
 return
