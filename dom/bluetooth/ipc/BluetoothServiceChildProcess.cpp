@@ -53,7 +53,7 @@ namespace
 {
 BluetoothChild
 *
-gBluetoothChild
+sBluetoothChild
 ;
 inline
 void
@@ -82,7 +82,7 @@ aRunnable
 ;
 NS_WARN_IF_FALSE
 (
-gBluetoothChild
+sBluetoothChild
 "
 Calling
 methods
@@ -98,7 +98,7 @@ shutdown
 ;
 if
 (
-gBluetoothChild
+sBluetoothChild
 )
 {
 BluetoothRequestChild
@@ -111,7 +111,7 @@ BluetoothRequestChild
 aRunnable
 )
 ;
-gBluetoothChild
+sBluetoothChild
 -
 >
 SendPBluetoothRequestConstructor
@@ -135,7 +135,7 @@ Create
 MOZ_ASSERT
 (
 !
-gBluetoothChild
+sBluetoothChild
 )
 ;
 mozilla
@@ -175,7 +175,7 @@ BluetoothServiceChildProcess
 (
 )
 ;
-gBluetoothChild
+sBluetoothChild
 =
 new
 BluetoothChild
@@ -188,7 +188,7 @@ contentChild
 >
 SendPBluetoothConstructor
 (
-gBluetoothChild
+sBluetoothChild
 )
 ;
 return
@@ -211,7 +211,7 @@ BluetoothServiceChildProcess
 (
 )
 {
-gBluetoothChild
+sBluetoothChild
 =
 nullptr
 ;
@@ -226,10 +226,10 @@ NoteDeadActor
 {
 MOZ_ASSERT
 (
-gBluetoothChild
+sBluetoothChild
 )
 ;
-gBluetoothChild
+sBluetoothChild
 =
 nullptr
 ;
@@ -251,7 +251,7 @@ aHandler
 {
 if
 (
-gBluetoothChild
+sBluetoothChild
 &
 &
 !
@@ -261,7 +261,7 @@ aNodeName
 )
 )
 {
-gBluetoothChild
+sBluetoothChild
 -
 >
 SendRegisterSignalHandler
@@ -309,7 +309,7 @@ aHandler
 ;
 if
 (
-gBluetoothChild
+sBluetoothChild
 &
 &
 !
@@ -319,7 +319,7 @@ aNodeName
 )
 )
 {
-gBluetoothChild
+sBluetoothChild
 -
 >
 SendUnregisterSignalHandler
@@ -1165,10 +1165,10 @@ HandleShutdown
 {
 if
 (
-gBluetoothChild
+sBluetoothChild
 )
 {
-gBluetoothChild
+sBluetoothChild
 -
 >
 BeginShutdown
