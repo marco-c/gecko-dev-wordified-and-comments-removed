@@ -832,6 +832,7 @@ obj
 }
 ;
 inline
+const
 DOMProxyHandler
 *
 GetDOMProxyHandler
@@ -852,6 +853,7 @@ obj
 return
 static_cast
 <
+const
 DOMProxyHandler
 *
 >

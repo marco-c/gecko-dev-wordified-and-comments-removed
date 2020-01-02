@@ -324,6 +324,7 @@ return
 existing
 ;
 }
+const
 Wrapper
 *
 Wrapper
@@ -352,6 +353,7 @@ WrapperObject
 return
 static_cast
 <
+const
 Wrapper
 *
 >
@@ -637,6 +639,7 @@ return
 obj
 ;
 }
+const
 Wrapper
 *
 handler
