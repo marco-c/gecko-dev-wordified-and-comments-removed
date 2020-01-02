@@ -151,12 +151,10 @@ o
 /
 #
 Bug
-941844
+921918
 -
-Because
-Android
-resource
-builds
-are
-flaky
+need
+clobber
+for
+Windows
 .
