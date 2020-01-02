@@ -1835,6 +1835,7 @@ caller
 ;
 sendConsoleAPIMessage
 (
+this
 aLevel
 frame
 args
@@ -1945,6 +1946,7 @@ caller
 ;
 sendConsoleAPIMessage
 (
+this
 aLevel
 frame
 args
@@ -1979,6 +1981,7 @@ this
 function
 sendConsoleAPIMessage
 (
+aConsole
 aLevel
 aFrame
 aArgs
@@ -1999,6 +2002,11 @@ jsm
 "
 innerID
 :
+aConsole
+.
+innerID
+|
+|
 aFrame
 .
 filename
@@ -2240,6 +2248,17 @@ maxLogLevel
 all
 "
 ;
+this
+.
+innerID
+=
+aConsoleOptions
+.
+innerID
+|
+|
+null
+;
 for
 (
 let
@@ -2389,6 +2408,7 @@ caller
 ;
 sendConsoleAPIMessage
 (
+this
 "
 trace
 "
@@ -2530,6 +2550,7 @@ args
 ;
 sendConsoleAPIMessage
 (
+this
 "
 time
 "
@@ -2637,6 +2658,7 @@ args
 ;
 sendConsoleAPIMessage
 (
+this
 "
 timeEnd
 "

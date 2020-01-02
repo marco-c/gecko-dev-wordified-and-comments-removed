@@ -4431,11 +4431,11 @@ Services
 .
 wm
 .
-getOuterWindowWithId
+getCurrentInnerWindowWithId
 (
 apiMessage
 .
-ID
+innerID
 )
 ;
 if
