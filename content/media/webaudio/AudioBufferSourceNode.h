@@ -425,10 +425,6 @@ SendOffsetAndDurationParametersToStream
 AudioNodeStream
 *
 aStream
-double
-aOffset
-double
-aDuration
 )
 ;
 static
