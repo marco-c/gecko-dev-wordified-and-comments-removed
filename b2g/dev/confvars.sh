@@ -75,3 +75,6 @@ browser
 confvars
 .
 sh
+MOZ_BUNDLED_FONTS
+=
+1
