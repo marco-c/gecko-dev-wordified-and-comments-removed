@@ -13,7 +13,7 @@ var
 code
 =
 "
-setIonAssertGraphCoherency
+setIonCheckGraphCoherency
 (
 false
 )
@@ -56,7 +56,7 @@ execute
 code
 )
 ;
-setIonAssertGraphCoherency
+setIonCheckGraphCoherency
 (
 false
 )

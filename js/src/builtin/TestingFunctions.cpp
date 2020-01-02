@@ -5995,7 +5995,7 @@ true
 }
 static
 bool
-SetIonAssertGraphCoherency
+SetIonCheckGraphCoherency
 (
 JSContext
 *
@@ -6024,7 +6024,7 @@ jit
 :
 js_IonOptions
 .
-assertGraphConsistency
+checkGraphConsistency
 =
 ToBoolean
 (
@@ -9173,13 +9173,13 @@ n
 JS_FN_HELP
 (
 "
-setIonAssertGraphCoherency
+setIonCheckGraphCoherency
 "
-SetIonAssertGraphCoherency
+SetIonCheckGraphCoherency
 1
 0
 "
-setIonAssertGraphCoherency
+setIonCheckGraphCoherency
 (
 bool
 )

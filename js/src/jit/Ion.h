@@ -102,7 +102,7 @@ bool
 checkThreadSafety
 ;
 bool
-assertGraphConsistency
+checkGraphConsistency
 ;
 bool
 uce
@@ -233,7 +233,7 @@ checkThreadSafety
 (
 false
 )
-assertGraphConsistency
+checkGraphConsistency
 (
 true
 )
