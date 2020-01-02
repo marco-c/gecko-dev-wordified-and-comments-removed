@@ -296,7 +296,7 @@ id
 +
 id
 /
-url_bar_right_edge
+url_bar_translating_edge
 "
 style
 =
@@ -385,7 +385,7 @@ src
 "
 drawable
 /
-url_bar_right_edge
+url_bar_translating_edge
 "
 android
 :
