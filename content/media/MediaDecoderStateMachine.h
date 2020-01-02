@@ -551,14 +551,9 @@ QueueMetadata
 (
 int64_t
 aPublishTime
-int
-aChannels
-int
-aRate
-bool
-aHasAudio
-bool
-aHasVideo
+MediaInfo
+*
+aInfo
 MetadataTags
 *
 aTags
