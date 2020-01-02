@@ -276,9 +276,17 @@ if
 Android
 &
 &
+(
 AndroidVersion
 <
 15
+|
+|
+AndroidVersion
+>
+=
+17
+)
 )
 load
 394751
