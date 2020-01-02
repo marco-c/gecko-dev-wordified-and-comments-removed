@@ -146,6 +146,9 @@ TestMacroForEach
 TestPair
 '
 '
+TestRefPtr
+'
+'
 TestRollingMean
 '
 '
