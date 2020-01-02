@@ -17952,34 +17952,6 @@ NL
 ]
             
 +
-self
-.
-standardTypedefs
-(
-)
-            
-+
-tu
-.
-protocol
-.
-decl
-.
-cxxtypedefs
-            
-+
-self
-.
-includedActorUsings
-            
-+
-[
-Whitespace
-.
-NL
-]
-            
-+
 cppheaders
             
 +
