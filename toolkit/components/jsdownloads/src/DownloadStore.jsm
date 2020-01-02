@@ -170,8 +170,11 @@ TextEncoder
 }
 )
 ;
-function
+this
+.
 DownloadStore
+=
+function
 (
 aList
 aPath
@@ -190,6 +193,8 @@ path
 aPath
 ;
 }
+this
+.
 DownloadStore
 .
 prototype
