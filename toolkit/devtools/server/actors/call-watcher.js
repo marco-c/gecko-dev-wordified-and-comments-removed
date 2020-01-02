@@ -247,7 +247,6 @@ stack
 args
 result
 ]
-holdWeak
 )
 {
 protocol
@@ -282,7 +281,9 @@ stack
 ;
 if
 (
-holdWeak
+this
+.
+_holdWeak
 )
 {
 let
@@ -2365,9 +2366,6 @@ this
 .
 conn
 details
-this
-.
-_holdWeak
 )
 ;
 this
