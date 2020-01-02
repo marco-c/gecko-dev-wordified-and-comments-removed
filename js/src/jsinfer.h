@@ -693,6 +693,7 @@ ExecutionMode
 SequentialExecution
 ParallelExecution
 DefinitePropertiesAnalysis
+ArgumentsUsageAnalysis
 }
 ;
 static
@@ -793,13 +794,6 @@ IonAllocPolicy
 ;
 class
 TempAllocator
-;
-}
-namespace
-analyze
-{
-class
-ScriptAnalysis
 ;
 }
 namespace
@@ -1764,7 +1758,6 @@ LifoAlloc
 alloc
 )
 ;
-inline
 void
 addType
 (
@@ -1998,7 +1991,6 @@ uint32_t
 count
 )
 ;
-inline
 void
 clearObjects
 (
@@ -2028,7 +2020,6 @@ nullptr
 )
 {
 }
-inline
 void
 addType
 (
@@ -3826,13 +3817,6 @@ class
 :
 JSScript
 ;
-analyze
-:
-:
-ScriptAnalysis
-*
-analysis
-;
 public
 :
 StackTypeSet
@@ -3925,6 +3909,9 @@ script
 jsbytecode
 *
 pc
+uint32_t
+*
+bytecodeMap
 uint32_t
 *
 hint
@@ -4170,6 +4157,17 @@ const
 #
 endif
 }
+;
+void
+FillBytecodeTypeMap
+(
+JSScript
+*
+script
+uint32_t
+*
+bytecodeMap
+)
 ;
 class
 RecompileInfo

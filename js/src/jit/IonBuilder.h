@@ -4118,6 +4118,10 @@ typeArray
 uint32_t
 typeArrayHint
 ;
+uint32_t
+*
+bytecodeTypeMap
+;
 GSNCache
 gsn
 ;
