@@ -104,9 +104,6 @@ TypeDecls
 .
 h
 "
-struct
-gfxMatrix
-;
 class
 nsFrameLoader
 ;

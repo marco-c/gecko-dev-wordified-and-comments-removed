@@ -21,13 +21,6 @@ h
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h

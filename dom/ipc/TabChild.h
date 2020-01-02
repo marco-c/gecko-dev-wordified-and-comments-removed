@@ -202,9 +202,6 @@ CompositorTypes
 .
 h
 "
-struct
-gfxMatrix
-;
 class
 nsICachedFileDescriptorListener
 ;

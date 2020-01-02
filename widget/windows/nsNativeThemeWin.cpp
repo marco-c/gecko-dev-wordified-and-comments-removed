@@ -171,13 +171,6 @@ h
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
 gfxWindowsPlatform
 .
 h
