@@ -3674,15 +3674,10 @@ eCSSKeyword__moz_groupbox
 NS_STYLE_DISPLAY_GROUPBOX
 #
 endif
-#
-ifdef
-MOZ_FLEXBOX
 eCSSKeyword_flex
 NS_STYLE_DISPLAY_FLEX
 eCSSKeyword_inline_flex
 NS_STYLE_DISPLAY_INLINE_FLEX
-#
-endif
 eCSSKeyword_UNKNOWN
 -
 1
@@ -3709,9 +3704,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-#
-ifdef
-MOZ_FLEXBOX
 const
 int32_t
 nsCSSProps
@@ -3812,8 +3804,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-#
-endif
 const
 int32_t
 nsCSSProps
@@ -7068,9 +7058,6 @@ eCSSProperty__moz_column_rule_color
 eCSSProperty_UNKNOWN
 }
 ;
-#
-ifdef
-MOZ_FLEXBOX
 static
 const
 nsCSSProperty
@@ -7085,8 +7072,6 @@ eCSSProperty_flex_basis
 eCSSProperty_UNKNOWN
 }
 ;
-#
-endif
 static
 const
 nsCSSProperty
