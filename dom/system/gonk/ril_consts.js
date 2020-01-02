@@ -11952,7 +11952,7 @@ ready
 ;
 this
 .
-GECKO_CARDSTATE_NOT_READY
+GECKO_CARDSTATE_UNDETECTED
 =
 null
 ;
@@ -11970,14 +11970,6 @@ GECKO_CARDSTATE_UNKNOWN
 =
 "
 unknown
-"
-;
-this
-.
-GECKO_CARDSTATE_ABSENT
-=
-"
-absent
 "
 ;
 this
