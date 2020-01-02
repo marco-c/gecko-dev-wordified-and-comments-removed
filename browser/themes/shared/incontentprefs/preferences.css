@@ -45,7 +45,7 @@ chrome
 /
 browser
 /
-skin
+content
 /
 fonts
 /
@@ -53,8 +53,14 @@ ClearSans
 -
 Regular
 .
-ttf
+woff
 "
+)
+format
+(
+'
+woff
+'
 )
 ;
 }
