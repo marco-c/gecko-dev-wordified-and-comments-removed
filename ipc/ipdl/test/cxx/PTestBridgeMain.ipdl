@@ -1,5 +1,9 @@
 include
 protocol
+PTestBridgeMainSub
+;
+include
+protocol
 PTestBridgeSub
 ;
 namespace
