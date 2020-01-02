@@ -1958,7 +1958,7 @@ exprStackSlots
 =
 iter
 .
-allocations
+numAllocations
 (
 )
 -
@@ -2678,7 +2678,7 @@ JS_ASSERT
 (
 iter
 .
-allocations
+numAllocations
 (
 )
 >
@@ -2707,7 +2707,7 @@ u
 "
 iter
 .
-allocations
+numAllocations
 (
 )
 fun
