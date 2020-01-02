@@ -1302,6 +1302,12 @@ mDecodeThreadWaiting
 bool
 mRealTime
 ;
+bool
+mDispatchedDecodeMetadataTask
+;
+bool
+mDispatchedDecodeSeekTask
+;
 MediaInfo
 mInfo
 ;
