@@ -296,7 +296,7 @@ aPaintState
 ;
 virtual
 void
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 gfx
 :
@@ -480,7 +480,7 @@ aPaintState
 }
 virtual
 void
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 gfx
 :
@@ -741,7 +741,7 @@ aPaintState
 }
 virtual
 void
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 gfx
 :
@@ -1160,7 +1160,7 @@ aPaintState
 }
 virtual
 void
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 gfx
 :
@@ -1921,7 +1921,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 gfx
 :

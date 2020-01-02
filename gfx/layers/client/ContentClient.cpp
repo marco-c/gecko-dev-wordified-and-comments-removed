@@ -2761,7 +2761,7 @@ PopClip
 )
 ;
 }
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 destDT
 )
@@ -2857,7 +2857,7 @@ PopClip
 )
 ;
 }
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 destDT
 )
@@ -3732,7 +3732,7 @@ PopClip
 )
 ;
 }
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 destDT
 )
@@ -3828,7 +3828,7 @@ PopClip
 )
 ;
 }
-ReturnDrawTarget
+ReturnDrawTargetToBuffer
 (
 destDT
 )
