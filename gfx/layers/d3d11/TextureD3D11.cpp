@@ -931,10 +931,7 @@ GetD3D10Device
 CD3D10_TEXTURE2D_DESC
 newDesc
 (
-SurfaceFormatToDXGIFormat
-(
-mFormat
-)
+DXGI_FORMAT_B8G8R8A8_UNORM
 aSize
 .
 width
