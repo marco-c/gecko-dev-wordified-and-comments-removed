@@ -133,11 +133,6 @@ FxAccountsCommon
 .
 js
 '
-'
-FxAccountsUtils
-.
-jsm
-'
 ]
 #
 For
