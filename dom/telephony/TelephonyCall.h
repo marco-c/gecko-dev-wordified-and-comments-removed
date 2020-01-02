@@ -86,9 +86,6 @@ mCallState
 bool
 mLive
 ;
-bool
-mOutgoing
-;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
@@ -432,16 +429,6 @@ aNumber
 mSecondNumber
 =
 aNumber
-;
-}
-bool
-IsOutgoing
-(
-)
-const
-{
-return
-mOutgoing
 ;
 }
 void
