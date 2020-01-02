@@ -101,11 +101,6 @@ base
 (
 NULL
 )
-DEFINES
-+
-=
--
-DXPCOM_GLUE
 STL_FLAGS
 =
 LIBS

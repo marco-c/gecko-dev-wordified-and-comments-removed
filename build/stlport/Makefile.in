@@ -101,11 +101,6 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-D_GNU_SOURCE
 CXXFLAGS
 +
 =

@@ -119,12 +119,3 @@ lib
 (
 NULL
 )
-DEFINES
-+
-=
--
-DUNICODE
--
-D_UNICODE
--
-DNS_NO_XPCOM

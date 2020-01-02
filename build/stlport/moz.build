@@ -335,3 +335,11 @@ cxa
 c
 '
 ]
+DEFINES
+[
+'
+_GNU_SOURCE
+'
+]
+=
+True

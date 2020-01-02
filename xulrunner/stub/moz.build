@@ -197,3 +197,11 @@ s
 '
 %
 CONFIG
+DEFINES
+[
+'
+XPCOM_GLUE
+'
+]
+=
+True

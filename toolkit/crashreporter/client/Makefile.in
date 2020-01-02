@@ -204,13 +204,6 @@ RCINCLUDE
 crashreporter
 .
 rc
-DEFINES
-+
-=
--
-DUNICODE
--
-D_UNICODE
 OS_LIBS
 +
 =

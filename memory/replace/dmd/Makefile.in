@@ -54,11 +54,6 @@ MPL
 0
 /
 .
-DEFINES
-+
-=
--
-DMOZ_NO_MOZALLOC
 #
 Disable
 mozglue

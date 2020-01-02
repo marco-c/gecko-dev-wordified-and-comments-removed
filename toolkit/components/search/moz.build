@@ -126,3 +126,16 @@ nsSearchService
 js
 '
 ]
+DEFINES
+[
+'
+MOZ_DISTRIBUTION_ID
+'
+]
+=
+CONFIG
+[
+'
+MOZ_DISTRIBUTION_ID
+'
+]

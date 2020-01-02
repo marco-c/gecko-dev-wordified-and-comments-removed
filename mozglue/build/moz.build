@@ -392,3 +392,11 @@ cpuacct
 c
 '
 ]
+DEFINES
+[
+'
+IMPL_MFBT
+'
+]
+=
+True

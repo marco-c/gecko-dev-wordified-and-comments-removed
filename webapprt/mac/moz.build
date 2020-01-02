@@ -110,3 +110,11 @@ webapprt
 mm
 '
 ]
+DEFINES
+[
+'
+XPCOM_GLUE
+'
+]
+=
+True

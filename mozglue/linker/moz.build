@@ -153,3 +153,11 @@ FINAL_LIBRARY
 '
 mozglue
 '
+DEFINES
+[
+'
+IMPL_MFBT
+'
+]
+=
+True

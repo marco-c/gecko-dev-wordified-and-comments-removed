@@ -96,10 +96,3 @@ lib
 (
 NULL
 )
-DEFINES
-+
-=
--
-DUNICODE
--
-D_UNICODE

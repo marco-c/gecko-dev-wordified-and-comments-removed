@@ -112,16 +112,3 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-DBIN_SUFFIX
-=
-'
-"
-(
-BIN_SUFFIX
-)
-"
-'
