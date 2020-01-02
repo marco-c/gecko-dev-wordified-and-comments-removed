@@ -2520,9 +2520,6 @@ name
 args
 ;
 }
-else
-{
-}
 if
 (
 CanvasFront
