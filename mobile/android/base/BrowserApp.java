@@ -1669,16 +1669,6 @@ false
 }
 if
 (
-Build
-.
-VERSION
-.
-SDK_INT
->
-=
-9
-&
-&
 (
 event
 .
