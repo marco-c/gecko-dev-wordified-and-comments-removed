@@ -384,10 +384,8 @@ ScriptSettingsStack
 &
 mStack
 ;
-nsCOMPtr
-<
 nsIPrincipal
->
+*
 mWebIDLCallerPrincipal
 ;
 friend
