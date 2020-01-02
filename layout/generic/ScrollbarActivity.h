@@ -47,7 +47,7 @@ class
 nsIContent
 ;
 class
-nsIScrollbarOwner
+nsIScrollbarMediator
 ;
 class
 nsITimer
@@ -74,7 +74,7 @@ public
 :
 ScrollbarActivity
 (
-nsIScrollbarOwner
+nsIScrollbarMediator
 *
 aScrollableFrame
 )
@@ -397,7 +397,7 @@ mScrollbarFadeDuration
 )
 ;
 }
-nsIScrollbarOwner
+nsIScrollbarMediator
 *
 mScrollableFrame
 ;

@@ -32,13 +32,6 @@ h
 #
 include
 "
-nsIScrollbarOwner
-.
-h
-"
-#
-include
-"
 nsIScrollbarMediator
 .
 h
@@ -82,8 +75,6 @@ nsIAtom
 class
 nsIScrollableFrame
 :
-public
-nsIScrollbarOwner
 public
 nsIScrollbarMediator
 {

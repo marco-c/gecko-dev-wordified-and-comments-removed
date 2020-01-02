@@ -198,11 +198,6 @@ nsIScrollableFrame
 h
 '
 '
-nsIScrollbarOwner
-.
-h
-'
-'
 nsIScrollPositionListener
 .
 h

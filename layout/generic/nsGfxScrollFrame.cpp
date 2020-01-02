@@ -4035,10 +4035,6 @@ nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIScrollbarOwner
-)
-NS_QUERYFRAME_ENTRY
-(
 nsIScrollableFrame
 )
 NS_QUERYFRAME_ENTRY
@@ -5998,10 +5994,6 @@ nsXULScrollFrame
 NS_QUERYFRAME_ENTRY
 (
 nsIAnonymousContentCreator
-)
-NS_QUERYFRAME_ENTRY
-(
-nsIScrollbarOwner
 )
 NS_QUERYFRAME_ENTRY
 (

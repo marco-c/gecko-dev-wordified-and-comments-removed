@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIScrollbarOwner
+nsIScrollbarMediator
 .
 h
 "

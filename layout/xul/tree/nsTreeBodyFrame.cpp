@@ -530,10 +530,6 @@ nsIScrollbarMediator
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIScrollbarOwner
-)
-NS_QUERYFRAME_ENTRY
-(
 nsTreeBodyFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
@@ -840,7 +836,7 @@ ScrollbarActivity
 (
 static_cast
 <
-nsIScrollbarOwner
+nsIScrollbarMediator
 *
 >
 (
