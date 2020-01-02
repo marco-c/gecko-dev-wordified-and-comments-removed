@@ -1888,10 +1888,16 @@ Activated
 mWinActiveState
 )
 ;
+if
+(
+mWinActiveState
+)
+{
 UpdateWidgetSizeAndPosition
 (
 )
 ;
+}
 EnsureAutomationProviderCreated
 (
 )
