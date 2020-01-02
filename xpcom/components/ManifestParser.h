@@ -46,6 +46,10 @@ char
 buf
 bool
 aChromeOnly
+bool
+aXPTOnly
+=
+false
 )
 ;
 void
