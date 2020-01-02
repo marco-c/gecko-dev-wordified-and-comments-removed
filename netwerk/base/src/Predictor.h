@@ -119,9 +119,6 @@ PredictorVerifierHandle
 class
 PredictionRunner
 ;
-struct
-PredictorTelemetryAccumulators
-;
 class
 PredictorDNSListener
 ;
@@ -741,12 +738,6 @@ mozilla
 :
 Mutex
 mQueueSizeLock
-;
-nsAutoPtr
-<
-PredictorTelemetryAccumulators
->
-mAccumulators
 ;
 nsRefPtr
 <
