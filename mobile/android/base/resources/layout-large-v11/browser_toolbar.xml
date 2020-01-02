@@ -1139,6 +1139,8 @@ mozilla
 .
 gecko
 .
+widget
+.
 GeckoTextView
 android
 :
@@ -1424,6 +1426,8 @@ mozilla
 .
 gecko
 .
+widget
+.
 GeckoImageButton
 android
 :
@@ -1491,6 +1495,8 @@ org
 mozilla
 .
 gecko
+.
+widget
 .
 GeckoImageView
 android

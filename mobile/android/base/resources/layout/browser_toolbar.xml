@@ -532,6 +532,8 @@ mozilla
 .
 gecko
 .
+widget
+.
 GeckoImageView
 android
 :
@@ -1329,6 +1331,8 @@ org
 mozilla
 .
 gecko
+.
+widget
 .
 GeckoTextView
 android

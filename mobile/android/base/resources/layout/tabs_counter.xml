@@ -85,6 +85,8 @@ mozilla
 .
 gecko
 .
+widget
+.
 GeckoTextView
 xmlns
 :
