@@ -31,7 +31,7 @@ zips
 /
 talos
 .
-b4907f0b27d3
+3a6a28b96228
 .
 zip
 "
@@ -71,7 +71,7 @@ talos_revision
 "
 :
 "
-35ba19c5f0e1
+3a6a28b96228
 "
 }
 "
@@ -219,7 +219,7 @@ sessionrestore_no_auto_restore
 ]
 }
 "
-other_nolinux64
+other_nol64
 "
 :
 {
@@ -246,7 +246,7 @@ sessionrestore_no_auto_restore
 ]
 }
 "
-other_linux64
+other_l64
 "
 :
 {
@@ -272,6 +272,21 @@ sessionrestore_no_auto_restore
 "
 "
 media_tests
+"
+]
+}
+"
+g1
+"
+:
+{
+"
+tests
+"
+:
+[
+"
+tp5o_scroll
 "
 ]
 }
