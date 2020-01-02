@@ -5992,7 +5992,7 @@ s
 %
 08
 "
-PRIxPTR
+PRIXPTR
 "
 ]
 \
@@ -6023,7 +6023,7 @@ s
 %
 08
 "
-PRIxPTR
+PRIXPTR
 "
 [
 %
@@ -6033,7 +6033,7 @@ s
 %
 08
 "
-PRIxPTR
+PRIXPTR
 "
 ]
 \
