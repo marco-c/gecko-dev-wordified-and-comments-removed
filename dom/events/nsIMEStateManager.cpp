@@ -2728,7 +2728,7 @@ if
 composition
 -
 >
-GetLastData
+LastData
 (
 )
 .
@@ -2752,7 +2752,7 @@ theText
 composition
 -
 >
-GetLastData
+LastData
 (
 )
 ;
@@ -2808,7 +2808,7 @@ data
 composition
 -
 >
-GetLastData
+LastData
 (
 )
 ;
@@ -2858,7 +2858,7 @@ if
 composition
 -
 >
-GetLastData
+LastData
 (
 )
 .
@@ -2882,7 +2882,7 @@ data
 composition
 -
 >
-GetLastData
+LastData
 (
 )
 ;
@@ -2937,7 +2937,7 @@ theText
 composition
 -
 >
-GetLastData
+LastData
 (
 )
 ;
@@ -2993,7 +2993,7 @@ data
 composition
 -
 >
-GetLastData
+LastData
 (
 )
 ;

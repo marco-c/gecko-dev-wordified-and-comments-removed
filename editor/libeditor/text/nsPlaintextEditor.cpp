@@ -3969,14 +3969,10 @@ widgetTextEvent
 theText
 )
 ;
-mIMEBufferLength
-=
-widgetTextEvent
+mComposition
 -
 >
-theText
-.
-Length
+EditorDidHandleTextEvent
 (
 )
 ;

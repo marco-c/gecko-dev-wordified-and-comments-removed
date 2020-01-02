@@ -1774,10 +1774,15 @@ nsINode
 aRoot
 )
 ;
-int32_t
-GetIMEBufferLength
+mozilla
+:
+:
+TextComposition
+*
+GetComposition
 (
 )
+const
 ;
 bool
 IsIMEComposing
@@ -2754,9 +2759,6 @@ mAction
 ;
 uint32_t
 mIMETextOffset
-;
-uint32_t
-mIMEBufferLength
 ;
 EDirection
 mDirection
