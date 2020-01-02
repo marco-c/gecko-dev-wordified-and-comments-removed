@@ -1173,7 +1173,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 >
 mContentParent
 ;
