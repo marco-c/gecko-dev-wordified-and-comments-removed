@@ -1001,8 +1001,8 @@ mInRefresh
 bool
 mWaitingForTransaction
 ;
-bool
-mSkippedPaint
+uint32_t
+mSkippedPaints
 ;
 int64_t
 mMostRecentRefreshEpochTime
