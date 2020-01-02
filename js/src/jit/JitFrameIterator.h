@@ -1356,6 +1356,10 @@ unreadablePlaceholder
 UndefinedValue
 (
 )
+bool
+silentFailure
+=
+false
 )
 {
 if
@@ -1478,6 +1482,7 @@ v
 maybeRead
 (
 unreadablePlaceholder
+silentFailure
 )
 ;
 op
@@ -1779,6 +1784,10 @@ unreadablePlaceholder
 UndefinedValue
 (
 )
+bool
+silentFailure
+=
+false
 )
 const
 {
@@ -1859,6 +1868,7 @@ script
 (
 )
 unreadablePlaceholder
+silentFailure
 )
 ;
 }
@@ -2063,6 +2073,7 @@ s
 maybeRead
 (
 unreadablePlaceholder
+silentFailure
 )
 )
 ;

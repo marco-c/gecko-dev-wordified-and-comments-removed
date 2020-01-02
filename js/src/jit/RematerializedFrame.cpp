@@ -174,6 +174,7 @@ MagicValue
 (
 JS_OPTIMIZED_OUT
 )
+true
 )
 ;
 }
