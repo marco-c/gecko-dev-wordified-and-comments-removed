@@ -142,10 +142,7 @@ copyTo
 (
 &
 imgSrc
-SkBitmap
-:
-:
-kARGB_8888_Config
+kRGBA_8888_SkColorType
 )
 ;
 }
