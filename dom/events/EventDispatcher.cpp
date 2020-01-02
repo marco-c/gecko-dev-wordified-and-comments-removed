@@ -3419,7 +3419,7 @@ AsClipboardEvent
 )
 ;
 case
-NS_SVGZOOM_EVENT
+eSVGZoomEventClass
 :
 return
 NS_NewDOMSVGZoomEvent

@@ -112,7 +112,7 @@ eFocusEventClass
 eClipboardEventClass
 eTransitionEventClass
 eAnimationEventClass
-NS_SVGZOOM_EVENT
+eSVGZoomEventClass
 NS_SMIL_TIME_EVENT
 NS_COMMAND_EVENT
 NS_CONTENT_COMMAND_EVENT

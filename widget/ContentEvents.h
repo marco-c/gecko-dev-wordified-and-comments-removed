@@ -1106,7 +1106,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 nullptr
-NS_SVGZOOM_EVENT
+eSVGZoomEventClass
 )
 {
 mFlags
@@ -1130,7 +1130,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_SVGZOOM_EVENT
+eSVGZoomEventClass
 "
 Duplicate
 (

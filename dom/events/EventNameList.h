@@ -1327,7 +1327,7 @@ NON_IDL_EVENT
 SVGZoom
 NS_SVG_ZOOM
 EventNameType_None
-NS_SVGZOOM_EVENT
+eSVGZoomEventClass
 )
 #
 ifndef
