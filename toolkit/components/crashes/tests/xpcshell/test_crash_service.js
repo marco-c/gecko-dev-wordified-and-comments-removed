@@ -195,7 +195,7 @@ Services
 ;
 Assert
 .
-equal
+strictEqual
 (
 bsp
 .
@@ -203,6 +203,14 @@ gCrashManager
 Services
 .
 crashmanager
+"
+The
+objects
+are
+the
+same
+.
+"
 )
 ;
 }
