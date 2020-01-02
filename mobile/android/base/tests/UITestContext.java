@@ -84,6 +84,7 @@ enum
 ComponentType
 {
 ABOUTHOME
+APPMENU
 TOOLBAR
 }
 public
