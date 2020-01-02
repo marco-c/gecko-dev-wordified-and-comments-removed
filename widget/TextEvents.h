@@ -242,7 +242,7 @@ WidgetInputEvent
 aIsTrusted
 aMessage
 aWidget
-NS_KEY_EVENT
+eKeyboardEventClass
 )
 keyCode
 (
@@ -306,7 +306,7 @@ MOZ_ASSERT
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 "
 Duplicate
 (

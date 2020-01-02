@@ -2876,7 +2876,7 @@ break
 break
 ;
 case
-NS_KEY_EVENT
+eKeyboardEventClass
 :
 if
 (

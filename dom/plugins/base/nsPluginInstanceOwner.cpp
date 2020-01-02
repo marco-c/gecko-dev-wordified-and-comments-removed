@@ -7344,7 +7344,7 @@ keyEvent
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 )
 {
 nsEventStatus
@@ -9962,7 +9962,7 @@ break
 break
 ;
 case
-NS_KEY_EVENT
+eKeyboardEventClass
 :
 if
 (
@@ -10576,7 +10576,7 @@ break
 break
 ;
 case
-NS_KEY_EVENT
+eKeyboardEventClass
 :
 {
 const
@@ -10595,7 +10595,7 @@ LOG
 (
 "
 Firing
-NS_KEY_EVENT
+eKeyboardEventClass
 %
 d
 %

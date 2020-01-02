@@ -31530,7 +31530,7 @@ aEvent
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 &
 &
 mDocument
@@ -35367,7 +35367,7 @@ aEvent
 mClass
 =
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 )
 {
 nsContentUtils

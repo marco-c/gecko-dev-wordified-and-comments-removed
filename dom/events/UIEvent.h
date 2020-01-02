@@ -627,7 +627,7 @@ mEvent
 mClass
 !
 =
-NS_KEY_EVENT
+eKeyboardEventClass
 "
 Key
 events
