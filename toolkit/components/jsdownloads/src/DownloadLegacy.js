@@ -407,7 +407,8 @@ aCurTotalProgress
 aMaxTotalProgress
 )
 {
-return
+this
+.
 onProgressChange64
 (
 aWebProgress
