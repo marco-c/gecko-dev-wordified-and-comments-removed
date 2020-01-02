@@ -64,6 +64,12 @@ Units
 .
 h
 "
+class
+nsIFrame
+;
+class
+nsIPresShell
+;
 namespace
 mozilla
 {

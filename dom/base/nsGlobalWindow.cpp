@@ -240,6 +240,13 @@ h
 #
 include
 "
+nsFrameSelection
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h

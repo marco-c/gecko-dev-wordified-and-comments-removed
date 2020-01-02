@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsCOMPtr
 .
@@ -158,9 +163,11 @@ h
 "
 #
 include
-<
-algorithm
->
+"
+nsCaret
+.
+h
+"
 using
 namespace
 mozilla
