@@ -1495,6 +1495,7 @@ Filter
 :
 :
 POINT
+true
 )
 ;
 compositor

@@ -248,7 +248,7 @@ uint32_t
 mCanvasFramebuffer
 ;
 bool
-mIsGLAlphaPremult
+mIsAlphaPremultiplied
 ;
 bool
 mNeedsYFlip
