@@ -196,13 +196,3 @@ config
 rules
 .
 mk
-ifdef
-_MSC_VER
-WIN32_EXE_LDFLAGS
-+
-=
--
-ENTRY
-:
-wmainCRTStartup
-endif

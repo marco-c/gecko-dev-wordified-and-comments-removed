@@ -88,10 +88,3 @@ config
 rules
 .
 mk
-ifdef
-GNU_CC
-WIN32_EXE_LDFLAGS
-=
--
-municode
-endif

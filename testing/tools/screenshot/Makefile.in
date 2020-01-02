@@ -93,13 +93,6 @@ gdiplus
 )
 MOZ_GLUE_PROGRAM_LDFLAGS
 =
-ifdef
-GNU_CC
-WIN32_EXE_LDFLAGS
-=
--
-municode
-endif
 endif
 #
 windows
