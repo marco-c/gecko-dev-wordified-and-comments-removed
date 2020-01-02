@@ -374,13 +374,6 @@ endif
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

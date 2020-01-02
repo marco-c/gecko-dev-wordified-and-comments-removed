@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsHTMLReflowState
 .
 h

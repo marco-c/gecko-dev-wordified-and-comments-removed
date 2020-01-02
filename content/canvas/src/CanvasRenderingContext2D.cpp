@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsFrameManager
-.
-h
-"
-#
-include
-"
 nsFrameLoader
 .
 h
