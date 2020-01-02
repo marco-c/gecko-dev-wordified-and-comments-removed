@@ -327,6 +327,11 @@ aFeatureCount
 threads
 "
 )
+|
+|
+aFilterCount
+>
+0
 ;
 mUnwinderThread
 =
