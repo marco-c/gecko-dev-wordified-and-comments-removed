@@ -162,6 +162,14 @@ aFd
 ;
 private
 :
+static
+bool
+FdIsNonBlocking
+(
+int
+aFd
+)
+;
 MessageLoop
 *
 mIOLoop

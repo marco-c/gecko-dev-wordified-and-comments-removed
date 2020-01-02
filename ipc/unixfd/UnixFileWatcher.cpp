@@ -58,6 +58,13 @@ GetIOLoop
 )
 )
 ;
+MOZ_ASSERT
+(
+aFlags
+&
+O_NONBLOCK
+)
+;
 int
 fd
 =
