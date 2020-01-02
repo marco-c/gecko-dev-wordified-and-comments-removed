@@ -4954,6 +4954,11 @@ social
 share
 -
 button
+social
+-
+toolbar
+-
+item
 "
 customizationtarget
 =
@@ -7511,11 +7516,6 @@ hidden
 true
 "
 nooverflow
-=
-"
-true
-"
-skipintoolbarset
 =
 "
 true
