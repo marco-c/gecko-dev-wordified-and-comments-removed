@@ -65,7 +65,7 @@ if
 CONFIG
 [
 '
-MOZ_B2G_NFC
+MOZ_NFC
 '
 ]
 :
