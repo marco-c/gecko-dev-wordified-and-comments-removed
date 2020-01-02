@@ -121,6 +121,16 @@ setup_development
 .
 py
 \
+test
+.
+py
+\
+test
+-
+manifest
+.
+ini
+\
 (
 NULL
 )
