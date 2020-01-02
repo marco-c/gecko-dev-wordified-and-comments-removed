@@ -222,12 +222,6 @@ RegExpObject
 *
 >
 other
-Handle
-<
-RegExpObject
-*
->
-proto
 )
 ;
 }
@@ -242,9 +236,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-proto
 )
 ;
 class

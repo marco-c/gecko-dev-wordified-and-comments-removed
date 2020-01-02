@@ -48,10 +48,7 @@ script_
 >
 getRegExp
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 }

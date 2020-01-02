@@ -45573,17 +45573,6 @@ mustClone
 false
 ;
 }
-JSObject
-*
-prototype
-=
-reobj
--
->
-getProto
-(
-)
-;
 MRegExp
 *
 regexp
@@ -45600,7 +45589,6 @@ constraints
 (
 )
 reobj
-prototype
 mustClone
 )
 ;
