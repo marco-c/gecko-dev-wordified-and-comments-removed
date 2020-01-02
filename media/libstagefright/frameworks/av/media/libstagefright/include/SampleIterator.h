@@ -86,6 +86,16 @@ return
 mCurrentSampleTime
 ;
 }
+uint32_t
+getSampleDuration
+(
+)
+const
+{
+return
+mCurrentSampleDuration
+;
+}
 status_t
 getSampleSizeDirect
 (
@@ -164,6 +174,9 @@ mCurrentSampleSize
 ;
 uint32_t
 mCurrentSampleTime
+;
+uint32_t
+mCurrentSampleDuration
 ;
 void
 reset
