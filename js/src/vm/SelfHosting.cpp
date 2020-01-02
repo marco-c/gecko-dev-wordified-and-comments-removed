@@ -5710,11 +5710,6 @@ src
 selfHostingGlobal_
 -
 >
-zone
-(
-)
--
->
 pod_malloc
 <
 char
