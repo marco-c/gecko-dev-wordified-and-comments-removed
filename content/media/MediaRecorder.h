@@ -232,6 +232,10 @@ error
 )
 IMPL_EVENT_HANDLER
 (
+start
+)
+IMPL_EVENT_HANDLER
+(
 stop
 )
 IMPL_EVENT_HANDLER
@@ -327,9 +331,6 @@ Session
 *
 >
 mSessions
-;
-Mutex
-mMutex
 ;
 nsString
 mMimeType

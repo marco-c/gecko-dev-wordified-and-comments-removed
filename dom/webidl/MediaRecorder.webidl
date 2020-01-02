@@ -208,6 +208,10 @@ onerror
 ;
 attribute
 EventHandler
+onstart
+;
+attribute
+EventHandler
 onstop
 ;
 attribute
