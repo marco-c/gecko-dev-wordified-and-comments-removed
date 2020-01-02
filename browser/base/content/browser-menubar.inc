@@ -627,6 +627,9 @@ SendLink
 menuseparator
 /
 >
+#
+ifndef
+XP_LINUX
 <
 menuitem
 id
@@ -659,6 +662,8 @@ cmd_pageSetup
 "
 /
 >
+#
+endif
 #
 ifndef
 XP_MACOSX
