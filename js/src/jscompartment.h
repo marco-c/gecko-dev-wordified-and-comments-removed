@@ -1415,6 +1415,16 @@ ObjectMetadataCallback
 callback
 )
 ;
+void
+forgetObjectMetadataCallback
+(
+)
+{
+objectMetadataCallback
+=
+nullptr
+;
+}
 bool
 callObjectMetadataCallback
 (
