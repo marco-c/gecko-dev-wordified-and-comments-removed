@@ -2887,10 +2887,12 @@ ComputeEffectiveTransforms
 (
 mTarget
 ?
-gfx3DMatrix
+Matrix4x4
 :
 :
 From2D
+(
+ToMatrix
 (
 mTarget
 -
@@ -2899,8 +2901,9 @@ CurrentMatrix
 (
 )
 )
+)
 :
-gfx3DMatrix
+Matrix4x4
 (
 )
 )

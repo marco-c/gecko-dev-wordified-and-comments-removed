@@ -1043,7 +1043,10 @@ mRoot
 >
 ComputeEffectiveTransforms
 (
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 (
 )
 )

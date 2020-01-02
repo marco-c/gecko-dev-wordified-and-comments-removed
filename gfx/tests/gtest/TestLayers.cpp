@@ -32,6 +32,13 @@ namespace
 mozilla
 :
 :
+gfx
+;
+using
+namespace
+mozilla
+:
+:
 layers
 ;
 class
@@ -262,7 +269,7 @@ void
 ComputeEffectiveTransforms
 (
 const
-gfx3DMatrix
+Matrix4x4
 &
 aTransformToSurface
 )
@@ -1290,7 +1297,7 @@ rootLayer
 >
 ComputeEffectiveTransforms
 (
-gfx3DMatrix
+Matrix4x4
 (
 )
 )

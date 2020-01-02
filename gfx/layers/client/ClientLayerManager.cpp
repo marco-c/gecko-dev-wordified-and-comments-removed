@@ -22,13 +22,6 @@ h
 #
 include
 "
-gfx3DMatrix
-.
-h
-"
-#
-include
-"
 gfxASurface
 .
 h
@@ -842,7 +835,7 @@ GetRoot
 >
 ComputeEffectiveTransforms
 (
-gfx3DMatrix
+Matrix4x4
 (
 )
 )

@@ -352,7 +352,7 @@ void
 ComputeEffectiveTransforms
 (
 const
-gfx3DMatrix
+Matrix4x4
 &
 aTransformToSurface
 )

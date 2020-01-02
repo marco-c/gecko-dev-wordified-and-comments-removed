@@ -65,9 +65,6 @@ nscore
 .
 h
 "
-class
-gfx3DMatrix
-;
 namespace
 mozilla
 {
@@ -234,7 +231,10 @@ void
 ComputeEffectiveTransforms
 (
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 aTransformToSurface
 )

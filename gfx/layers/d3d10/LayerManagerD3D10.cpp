@@ -1675,7 +1675,7 @@ mRoot
 >
 ComputeEffectiveTransforms
 (
-gfx3DMatrix
+Matrix4x4
 (
 )
 )
