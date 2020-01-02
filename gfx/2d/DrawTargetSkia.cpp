@@ -3933,9 +3933,16 @@ SurfaceFormat
 B8G8R8X8
 )
 {
+ConvertBGRXToBGRA
+(
+aData
+aSize
+aStride
+)
+;
 alphaType
 =
-kIgnore_SkAlphaType
+kOpaque_SkAlphaType
 ;
 }
 SkBitmap
