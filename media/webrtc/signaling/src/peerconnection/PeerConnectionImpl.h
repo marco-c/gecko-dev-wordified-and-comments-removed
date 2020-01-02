@@ -801,6 +801,15 @@ std
 string
 error
 ;
+mozilla
+:
+:
+TimeStamp
+iceStartTime
+;
+bool
+failed
+;
 private
 :
 friend
