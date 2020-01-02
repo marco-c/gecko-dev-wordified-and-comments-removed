@@ -211,6 +211,10 @@ bytesReceived
 double
 jitter
 ;
+unsigned
+long
+packetsLost
+;
 }
 ;
 dictionary

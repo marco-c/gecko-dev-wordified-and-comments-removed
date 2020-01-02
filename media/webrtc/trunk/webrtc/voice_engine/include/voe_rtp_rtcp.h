@@ -497,6 +497,10 @@ unsigned
 int
 &
 discardedPackets
+unsigned
+int
+&
+cumulativeLost
 )
 =
 0

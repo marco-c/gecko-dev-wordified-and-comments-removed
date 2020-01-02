@@ -1432,6 +1432,10 @@ unsigned
 int
 &
 discardedPackets
+unsigned
+int
+&
+cumulativeLost
 )
 ;
 int

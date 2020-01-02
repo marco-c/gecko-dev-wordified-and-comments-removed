@@ -2845,6 +2845,10 @@ unsigned
 int
 &
 discardedPackets
+unsigned
+int
+&
+cumulativeLost
 )
 {
 WEBRTC_TRACE
@@ -2978,6 +2982,7 @@ GetRTPStatistics
 averageJitterMs
 maxJitterMs
 discardedPackets
+cumulativeLost
 )
 ;
 }

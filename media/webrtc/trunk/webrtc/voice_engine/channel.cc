@@ -17512,6 +17512,10 @@ unsigned
 int
 &
 discardedPackets
+unsigned
+int
+&
+cumulativeLost
 )
 {
 StreamStatistician
@@ -17632,6 +17636,12 @@ playoutFrequency
 /
 1000
 )
+;
+cumulativeLost
+=
+statistics
+.
+cumulative_lost
 ;
 }
 discardedPackets
