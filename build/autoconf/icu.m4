@@ -1330,6 +1330,11 @@ cross
 build
 =
 ICU_HOST_PATH
+-
+-
+disable
+-
+tools
 "
 ICU_TARGET_OPT
 =
