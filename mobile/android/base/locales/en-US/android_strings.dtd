@@ -1509,7 +1509,7 @@ quitting
 <
 !
 ENTITY
-pref_clear_on_exit_summary
+pref_clear_on_exit_summary2
 "
 &
 brandShortName
@@ -1522,13 +1522,10 @@ data
 whenever
 you
 select
-&
-quot
-;
-Quit
-&
-quot
-;
+\
+u0022Quit
+\
+u0022
 from
 the
 main
