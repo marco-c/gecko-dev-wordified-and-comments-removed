@@ -7611,6 +7611,13 @@ mBackfaceVisibility
 =
 =
 NS_STYLE_BACKFACE_VISIBILITY_HIDDEN
+|
+|
+(
+mWillChangeBitField
+&
+NS_STYLE_WILL_CHANGE_TRANSFORM
+)
 ;
 }
 inline
