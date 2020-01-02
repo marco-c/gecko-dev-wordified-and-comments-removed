@@ -69519,6 +69519,8 @@ fno
 integrated
 -
 as
+-
+S
 "
 AC_MSG_CHECKING
 (
