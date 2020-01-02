@@ -1167,7 +1167,7 @@ size
 )
 ;
 static
-int
+int64_t
 StopSimAt
 ;
 static
@@ -1325,7 +1325,7 @@ stack_
 bool
 pc_modified_
 ;
-int
+int64_t
 icount_
 ;
 int32_t
@@ -1381,6 +1381,17 @@ watched_stops_
 kNumOfWatchedStops
 ]
 ;
+public
+:
+int64_t
+icount
+(
+)
+{
+return
+icount_
+;
+}
 }
 ;
 #
