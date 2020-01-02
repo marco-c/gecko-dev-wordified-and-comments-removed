@@ -2804,6 +2804,18 @@ pattern
 )
 )
                             
+if
+not
+full
+.
+startswith
+(
+manifest_dir
+)
+:
+                                
+continue
+                            
 obj
 .
 installs
@@ -2813,16 +2825,10 @@ full
 =
 mozpath
 .
-normpath
-(
-                                
-mozpath
-.
 join
 (
 out_dir
 pattern
-)
 )
             
 out_path
