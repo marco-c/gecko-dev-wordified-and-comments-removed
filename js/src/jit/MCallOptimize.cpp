@@ -1244,6 +1244,17 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
+fun
+(
+)
+-
+>
+setImplicitlyUsedUnchecked
+(
+)
+;
+callInfo
+.
 thisArg
 (
 )
