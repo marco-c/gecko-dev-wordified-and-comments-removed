@@ -104,11 +104,6 @@ test
 ipc
 '
 ]
-XPIDL_MODULE
-=
-'
-dom_devicestorage
-'
 EXPORTS
 +
 =

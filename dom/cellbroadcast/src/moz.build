@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-XPIDL_MODULE
-=
-'
-dom_cellbroadcast
-'
 EXPORTS
 .
 mozilla

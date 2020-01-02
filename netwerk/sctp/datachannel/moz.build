@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-XPIDL_MODULE
-=
-'
-necko_datachan
-'
 EXPORTS
 .
 mozilla

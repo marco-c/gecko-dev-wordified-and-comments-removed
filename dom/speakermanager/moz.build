@@ -105,11 +105,6 @@ mochitest
 ini
 '
 ]
-XPIDL_MODULE
-=
-'
-dom_speakermanager
-'
 EXPORTS
 +
 =
