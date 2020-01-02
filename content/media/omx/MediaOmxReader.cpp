@@ -1392,10 +1392,6 @@ pos
 frame
 .
 mTimeUs
-frame
-.
-mTimeUs
-+
 1
 b
 frame
@@ -1429,10 +1425,6 @@ pos
 frame
 .
 mTimeUs
-frame
-.
-mTimeUs
-+
 1
 frame
 .

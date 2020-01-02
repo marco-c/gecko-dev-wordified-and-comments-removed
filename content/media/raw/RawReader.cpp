@@ -1195,8 +1195,6 @@ GetImageContainer
 -
 1
 currentFrameTime
-currentFrameTime
-+
 (
 USECS_PER_S
 /
@@ -1469,7 +1467,9 @@ video
 video
 -
 >
-mEndTime
+GetEndTime
+(
+)
 <
 aTime
 )
