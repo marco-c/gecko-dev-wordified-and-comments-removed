@@ -125,6 +125,10 @@ browser_892956_destroyWidget_defaultPlacements
 .
 js
 \
+browser_888817_currentset_updating
+.
+js
+\
 head
 .
 js
