@@ -1122,6 +1122,12 @@ AndroidVersion
 <
 15
 )
+random
+-
+if
+(
+B2G
+)
 =
 =
 647192
