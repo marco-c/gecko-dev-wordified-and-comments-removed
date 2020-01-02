@@ -150,9 +150,6 @@ apply
 .
 *
 /
-interface
-DataTransfer
-;
 [
 Constructor
 (

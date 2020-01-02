@@ -51,6 +51,17 @@ mozilla
 /
 dom
 /
+DataTransfer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLButtonElement
 .
 h

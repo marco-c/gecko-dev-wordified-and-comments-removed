@@ -1626,9 +1626,9 @@ aEvent
 void
 DetermineDragTarget
 (
-nsPresContext
+nsPIDOMWindow
 *
-aPresContext
+aWindow
 nsIContent
 *
 aSelectionTarget

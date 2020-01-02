@@ -380,6 +380,11 @@ DataStore
 webidl
 '
 '
+DataTransfer
+.
+webidl
+'
+'
 DedicatedWorkerGlobalScope
 .
 webidl
