@@ -749,7 +749,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 ConcreteContentManagerType
 ;
 }
@@ -1121,7 +1121,7 @@ MessageManagerCallback
 :
 BuildClonedMessageDataForChild
 (
-ContentChild
+nsIContentChild
 *
 aChild
 const

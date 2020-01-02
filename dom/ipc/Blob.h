@@ -69,7 +69,7 @@ namespace
 dom
 {
 class
-ContentChild
+nsIContentChild
 ;
 class
 nsIContentParent
@@ -89,7 +89,7 @@ PBlobChild
 {
 friend
 class
-ContentChild
+nsIContentChild
 ;
 class
 RemoteBlob
@@ -108,7 +108,7 @@ mRemoteBlob
 ;
 nsRefPtr
 <
-ContentChild
+nsIContentChild
 >
 mStrongManager
 ;
@@ -125,7 +125,7 @@ BlobChild
 *
 Create
 (
-ContentChild
+nsIContentChild
 *
 aManager
 nsIDOMBlob
@@ -178,11 +178,17 @@ uint64_t
 aLength
 )
 ;
+nsIContentChild
+*
+Manager
+(
+)
+;
 private
 :
 BlobChild
 (
-ContentChild
+nsIContentChild
 *
 aManager
 nsIDOMBlob
@@ -192,7 +198,7 @@ aBlob
 ;
 BlobChild
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const
@@ -211,7 +217,7 @@ BlobChild
 *
 Create
 (
-ContentChild
+nsIContentChild
 *
 aManager
 const
