@@ -3489,12 +3489,10 @@ input
 Label
 outOfRange
 ;
-branchTruncateDouble
+cvttsd2si
 (
 input
 output
-&
-outOfRange
 )
 ;
 branch32
