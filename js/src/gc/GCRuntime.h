@@ -2611,9 +2611,6 @@ lockOwner
 GCHelperState
 helperState
 ;
-SortedArenaList
-incrementalSweepList
-;
 ConservativeGCData
 conservativeGC
 ;
