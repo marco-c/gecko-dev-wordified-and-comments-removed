@@ -955,7 +955,7 @@ NS_IsMainThread
 )
 {
 \
-NS_ERROR
+MOZ_CRASH
 (
 "
 Using
