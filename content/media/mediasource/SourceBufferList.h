@@ -229,6 +229,11 @@ double
 aTime
 )
 ;
+double
+GetHighestBufferedEndTime
+(
+)
+;
 private
 :
 ~
