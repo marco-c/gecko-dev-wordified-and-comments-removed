@@ -1188,6 +1188,14 @@ ins
 )
 ;
 bool
+visitSetTypedObjectOffset
+(
+MSetTypedObjectOffset
+*
+ins
+)
+;
+bool
 visitInitializedLength
 (
 MInitializedLength
