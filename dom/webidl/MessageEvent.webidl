@@ -346,17 +346,6 @@ appropriately
 .
 *
 /
-[
-Pref
-=
-"
-dom
-.
-messageChannel
-.
-enabled
-"
-]
 readonly
 attribute
 MessagePortList

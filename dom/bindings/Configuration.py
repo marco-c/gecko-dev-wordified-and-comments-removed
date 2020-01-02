@@ -1199,6 +1199,24 @@ workers
 return
 d
         
+if
+workers
+:
+            
+for
+d
+in
+self
+.
+descriptorsByName
+[
+interfaceName
+]
+:
+                
+return
+d
+        
 raise
 NoSuchDescriptorError
 (
@@ -3258,14 +3276,11 @@ prototypeChain
 insert
 (
 0
-make_name
-(
 parent
 .
 identifier
 .
 name
-)
 )
             
 parent

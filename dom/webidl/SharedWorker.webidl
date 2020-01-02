@@ -109,7 +109,7 @@ EventTarget
 {
 readonly
 attribute
-WorkerMessagePort
+MessagePort
 port
 ;
 }

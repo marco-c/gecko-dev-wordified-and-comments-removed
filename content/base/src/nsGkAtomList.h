@@ -4622,6 +4622,13 @@ oncompositionupdate
 )
 GK_ATOM
 (
+onconnect
+"
+onconnect
+"
+)
+GK_ATOM
+(
 onconnected
 "
 onconnected

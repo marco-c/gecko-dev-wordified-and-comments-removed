@@ -366,14 +366,6 @@ XMLHttpRequestEventTarget
 /
 event
 handler
-[
-SetterThrows
-=
-Workers
-GetterThrows
-=
-Workers
-]
 attribute
 EventHandler
 onreadystatechange

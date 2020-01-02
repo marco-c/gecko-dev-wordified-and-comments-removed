@@ -775,8 +775,9 @@ nsEventHandler
 eOnError
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+mEventName
 mEventName
 =
 =
