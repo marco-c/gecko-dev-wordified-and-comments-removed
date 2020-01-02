@@ -3762,10 +3762,16 @@ parts
 ;
 if
 (
+parseFloat
+(
 version
+)
 !
 =
+parseFloat
+(
 SYNC_API_VERSION
+)
 )
 {
 this
