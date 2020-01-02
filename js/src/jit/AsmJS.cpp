@@ -35804,15 +35804,8 @@ ok
 ;
 masm
 .
-assumeUnreachable
+breakpoint
 (
-"
-Stack
-should
-be
-aligned
-.
-"
 )
 ;
 masm
