@@ -772,6 +772,17 @@ entries
 "
 :
 [
+/
+/
+Disable
+until
+bug
+1005653
+is
+fixed
+.
+/
+/
 {
 "
 name
@@ -797,6 +808,8 @@ pins
 mozilla
 "
 }
+/
+/
 {
 "
 name
@@ -822,6 +835,8 @@ pins
 mozilla
 "
 }
+/
+/
 {
 "
 name
@@ -847,6 +862,8 @@ pins
 mozilla_cdn
 "
 }
+/
+/
 {
 "
 name
@@ -872,6 +889,8 @@ pins
 mozilla_cdn
 "
 }
+/
+/
 {
 "
 name
