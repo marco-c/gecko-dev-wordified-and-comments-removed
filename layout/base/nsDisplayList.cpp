@@ -2474,11 +2474,6 @@ mTimingFunction
 }
 }
 }
-template
-<
-class
-T
->
 static
 void
 AddAnimationsForProperty
@@ -2488,10 +2483,7 @@ nsIFrame
 aFrame
 nsCSSProperty
 aProperty
-nsTArray
-<
-T
->
+ElementAnimationPtrArray
 &
 aAnimations
 Layer
@@ -3043,7 +3035,7 @@ aProperty
 et
 -
 >
-mPropertyTransitions
+mAnimations
 aLayer
 data
 pending

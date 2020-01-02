@@ -407,12 +407,6 @@ MOZ_OVERRIDE
 bool
 mNeedsRefreshes
 ;
-mozilla
-:
-:
-ElementAnimationPtrArray
-mAnimations
-;
 }
 ;
 class

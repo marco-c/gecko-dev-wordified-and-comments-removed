@@ -1421,6 +1421,12 @@ CommonAnimationManager
 *
 mManager
 ;
+mozilla
+:
+:
+ElementAnimationPtrArray
+mAnimations
+;
 nsRefPtr
 <
 mozilla
