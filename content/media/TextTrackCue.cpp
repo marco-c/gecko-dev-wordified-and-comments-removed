@@ -36,11 +36,6 @@ ClearOnShutdown
 .
 h
 "
-#
-define
-WEBVTT_AUTO
--
-1
 namespace
 mozilla
 {
@@ -114,9 +109,9 @@ mSnapToLines
 =
 true
 ;
-mLine
+mLineIsAutoKeyword
 =
-WEBVTT_AUTO
+true
 ;
 mAlign
 =
