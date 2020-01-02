@@ -12048,9 +12048,7 @@ addBookmark
 (
 )
 ;
-getButtonToast
-(
-)
+mToast
 .
 show
 (
