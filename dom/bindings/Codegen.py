@@ -5968,6 +5968,8 @@ CGHeaders
 getDeclarationFilename
 (
 f
+.
+inner
 )
 )
     
