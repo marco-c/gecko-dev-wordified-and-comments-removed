@@ -97,13 +97,7 @@ sys
 .
 setrecursionlimit
 (
-2
-*
-sys
-.
-getrecursionlimit
-(
-)
+10000
 )
   
 except
