@@ -557,7 +557,7 @@ typename
 CharT
 >
 static
-jschar
+Latin1Char
 *
 Escape
 (
@@ -789,7 +789,7 @@ overflow
 )
 ;
 }
-jschar
+Latin1Char
 *
 newChars
 =
@@ -798,7 +798,7 @@ cx
 >
 pod_malloc
 <
-jschar
+Latin1Char
 >
 (
 newLength
@@ -1088,7 +1088,7 @@ false
 ;
 ScopedJSFreePtr
 <
-jschar
+Latin1Char
 >
 newChars
 ;
