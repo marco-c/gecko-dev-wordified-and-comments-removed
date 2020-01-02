@@ -1228,7 +1228,6 @@ gfxASurface
 GetThebesSurface
 (
 )
-MOZ_OVERRIDE
 ;
 #
 if
