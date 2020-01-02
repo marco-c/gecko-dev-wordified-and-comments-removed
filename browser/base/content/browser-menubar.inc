@@ -4068,6 +4068,15 @@ observes
 "
 devtoolsMenuBroadcaster_ChromeDebugger
 "
+accesskey
+=
+"
+&
+chromeDebuggerMenu
+.
+accesskey
+;
+"
 /
 >
 <
