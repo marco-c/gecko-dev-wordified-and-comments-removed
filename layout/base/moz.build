@@ -156,6 +156,11 @@ FramePropertyTable
 h
 '
 '
+LayerState
+.
+h
+'
+'
 nsArenaMemoryStats
 .
 h

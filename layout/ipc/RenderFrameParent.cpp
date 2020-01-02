@@ -168,6 +168,13 @@ ClientLayerManager
 .
 h
 "
+#
+include
+"
+FrameLayerBuilder
+.
+h
+"
 typedef
 nsContentView
 :
