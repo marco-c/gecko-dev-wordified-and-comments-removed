@@ -921,12 +921,13 @@ Location
 ENTITY
 col
 .
-lastvisit
+mostrecentvisit
 .
 label
 "
+Most
+Recent
 Visit
-Date
 "
 >
 <
