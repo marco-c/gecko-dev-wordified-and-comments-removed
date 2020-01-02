@@ -113,6 +113,15 @@ ContactService
 jsm
 '
 '
+dbg
+-
+browser
+-
+actors
+.
+js
+'
+'
 HelperApps
 .
 jsm
