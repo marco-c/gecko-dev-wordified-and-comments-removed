@@ -14692,6 +14692,8 @@ manifestURL
 ;
 return
 [
+oldApp
+.
 id
 newManifest
 ]
@@ -16929,6 +16931,9 @@ this
 _checkOrigin
 (
 aIsSigned
+|
+|
+aIsLocalFileInstall
 aOldApp
 newManifest
 aIsUpdate
@@ -17257,7 +17262,7 @@ uri
 prePath
 !
 =
-app
+aOldApp
 .
 origin
 )
@@ -17287,7 +17292,7 @@ prePath
 for
 "
 +
-app
+aOldApp
 .
 manifestURL
 )
@@ -17327,6 +17332,13 @@ uri
 .
 prePath
 ;
+let
+oldId
+=
+aOldApp
+.
+id
+;
 aOldApp
 .
 id
@@ -17347,7 +17359,7 @@ this
 .
 webapps
 [
-aId
+oldId
 ]
 ;
 [
@@ -17393,7 +17405,7 @@ aDir
 "
 webapps
 "
-aId
+oldId
 ]
 true
 true
@@ -17422,7 +17434,7 @@ RemoveApp
 {
 id
 :
-aId
+oldId
 }
 )
 ;
