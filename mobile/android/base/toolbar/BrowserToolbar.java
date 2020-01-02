@@ -622,7 +622,7 @@ boolean
 isSwitchingTabs
 ;
 private
-ShapedButton
+ThemedImageButton
 tabsButton
 ;
 private
@@ -1042,7 +1042,7 @@ setLevel
 tabsButton
 =
 (
-ShapedButton
+ThemedImageButton
 )
 findViewById
 (
