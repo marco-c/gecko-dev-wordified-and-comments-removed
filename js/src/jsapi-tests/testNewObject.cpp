@@ -275,7 +275,6 @@ JS_SetElement
 cx
 callee
 0
-&
 value
 )
 )

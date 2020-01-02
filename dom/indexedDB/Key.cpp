@@ -635,7 +635,6 @@ array
 index
 +
 +
-&
 val
 )
 )
