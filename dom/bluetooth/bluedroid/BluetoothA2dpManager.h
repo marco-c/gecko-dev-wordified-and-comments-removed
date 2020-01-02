@@ -34,8 +34,6 @@ BluetoothProfileManagerBase
 {
 public
 :
-NS_DECL_ISUPPORTS
-NS_DECL_NSIOBSERVER
 BT_DECL_PROFILE_MGR_BASE
 virtual
 void
