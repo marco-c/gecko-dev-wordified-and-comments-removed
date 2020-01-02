@@ -2829,6 +2829,15 @@ viewOffset
 y
 )
 ;
+if
+(
+!
+caretPos
+)
+{
+return
+;
+}
 let
 targetIsEditable
 =
