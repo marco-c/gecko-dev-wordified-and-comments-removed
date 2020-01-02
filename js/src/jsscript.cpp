@@ -9166,7 +9166,7 @@ mozilla
 :
 DebugOnly
 <
-int
+size_t
 >
 checkLen
 =
