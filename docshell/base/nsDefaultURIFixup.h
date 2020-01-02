@@ -70,6 +70,9 @@ const
 nsACString
 &
 aIn
+nsDefaultURIFixupInfo
+*
+aFixupInfo
 nsIURI
 *
 *
@@ -183,10 +186,10 @@ bool
 mFixupUsedKeyword
 ;
 bool
-mInputHasProtocol
+mFixupChangedProtocol
 ;
 bool
-mInputHostHasDot
+mFixupCreatedAlternateURI
 ;
 nsAutoCString
 mOriginalInput
