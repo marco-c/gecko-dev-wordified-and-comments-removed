@@ -120,16 +120,10 @@ LAYER_SVG_EFFECTS
 ;
 class
 RefCountedRegion
-:
-public
-RefCounted
-<
-RefCountedRegion
->
 {
 public
 :
-MOZ_DECLARE_REFCOUNTED_TYPENAME
+NS_INLINE_DECL_REFCOUNTING
 (
 RefCountedRegion
 )
