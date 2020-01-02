@@ -6784,7 +6784,7 @@ window
 ;
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 window
 [
@@ -6936,7 +6936,7 @@ addTab
 ;
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 aWindow
 [
@@ -7322,7 +7322,7 @@ addTab
 ;
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 aWindow
 [
@@ -10846,7 +10846,7 @@ _closedTabs
 }
 this
 .
-restoreHistoryPrecursor
+restoreTabs
 (
 aWindow
 tabs
@@ -11315,10 +11315,9 @@ aTabData
 ]
 ;
 }
-restoreHistoryPrecursor
+restoreTabs
 :
 function
-ssi_restoreHistoryPrecursor
 (
 aWindow
 aTabs
