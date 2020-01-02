@@ -1052,6 +1052,12 @@ updateCommands
 (
 )
 ;
+this
+.
+_busyPromise
+=
+null
+;
 }
 busyUntil
 :
@@ -1061,6 +1067,12 @@ promise
 operationDescription
 )
 {
+this
+.
+_busyPromise
+=
+promise
+;
 let
 timeout
 =
