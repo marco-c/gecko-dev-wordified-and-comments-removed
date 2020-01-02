@@ -1225,9 +1225,13 @@ window
 void
 HandleGeckoMessage
 (
-const
-nsAString
-&
+JSContext
+*
+cx
+JS
+:
+:
+HandleObject
 message
 )
 ;
