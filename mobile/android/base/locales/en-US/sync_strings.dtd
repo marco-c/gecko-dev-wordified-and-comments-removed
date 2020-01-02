@@ -1692,7 +1692,7 @@ tab
 -
 -
 Firefox
-account
+Account
 strings
 .
 -
@@ -1925,8 +1925,8 @@ remains
 a
 "
 Firefox
+Account
 "
-account
 .
 -
 -
@@ -1934,12 +1934,12 @@ account
 <
 !
 ENTITY
-fxaccount_create_account_header
+fxaccount_create_account_header2
 '
 Create
 a
 Firefox
-account
+Account
 '
 >
 <
@@ -2127,7 +2127,7 @@ formatS
 is
 the
 Firefox
-account
+Account
 '
 s
 email
@@ -2292,10 +2292,10 @@ in
 <
 !
 ENTITY
-fxaccount_status_header
+fxaccount_status_header2
 '
 Firefox
-account
+Account
 '
 >
 <
@@ -2452,7 +2452,7 @@ itself
 for
 a
 Firefox
-account
+Account
 .
 Don
 '
@@ -2510,7 +2510,7 @@ user
 to
 the
 Firefox
-account
+Account
 status
 activity
 which
@@ -2519,7 +2519,7 @@ them
 manage
 their
 Firefox
-account
+Account
 .
 -
 -
@@ -2747,7 +2747,7 @@ replaced
 with
 the
 Firefox
-account
+Account
 '
 s
 email
