@@ -4337,7 +4337,6 @@ GetScreenRectInAppUnitsExternal
 )
 const
 ;
-virtual
 void
 GetOffsetFromView
 (
@@ -4350,8 +4349,6 @@ nsView
 aView
 )
 const
-=
-0
 ;
 virtual
 nsIWidget

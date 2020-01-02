@@ -20799,7 +20799,7 @@ GetSize
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 GetOffsetFromView
@@ -20834,7 +20834,7 @@ frame
 =
 const_cast
 <
-nsFrame
+nsIFrame
 *
 >
 (
