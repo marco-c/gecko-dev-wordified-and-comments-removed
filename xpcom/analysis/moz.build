@@ -93,3 +93,11 @@ MPL
 0
 /
 .
+DEFINES
+[
+'
+MOZILLA_INTERNAL_API
+'
+]
+=
+True

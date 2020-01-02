@@ -122,3 +122,11 @@ lib
 FORCE_STATIC_LIB
 =
 True
+DEFINES
+[
+'
+MOZILLA_INTERNAL_API
+'
+]
+=
+True

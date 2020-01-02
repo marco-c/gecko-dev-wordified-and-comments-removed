@@ -53,9 +53,6 @@ MPL
 0
 /
 .
-MOZILLA_INTERNAL_API
-=
-1
 include
 (
 topsrcdir
