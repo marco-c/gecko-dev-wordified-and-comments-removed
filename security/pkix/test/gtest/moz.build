@@ -113,6 +113,11 @@ pkix_cert_chain_length_tests
 cpp
 '
 '
+pkix_cert_extension_tests
+.
+cpp
+'
+'
 pkix_ocsp_request_tests
 .
 cpp
