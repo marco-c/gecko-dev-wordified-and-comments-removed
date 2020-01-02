@@ -907,6 +907,11 @@ BrowserApp
 java
 '
 '
+BrowserLocaleManager
+.
+java
+'
+'
 ContactService
 .
 java

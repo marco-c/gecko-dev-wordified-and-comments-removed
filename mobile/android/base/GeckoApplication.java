@@ -255,7 +255,11 @@ return
 }
 try
 {
-LocaleManager
+BrowserLocaleManager
+.
+getInstance
+(
+)
 .
 correctLocale
 (
