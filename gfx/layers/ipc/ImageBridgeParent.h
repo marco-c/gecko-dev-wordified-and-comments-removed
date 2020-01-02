@@ -395,6 +395,9 @@ aShmem
 MOZ_OVERRIDE
 {
 return
+PImageBridgeParent
+:
+:
 AllocShmem
 (
 aSize
@@ -426,6 +429,9 @@ aShmem
 MOZ_OVERRIDE
 {
 return
+PImageBridgeParent
+:
+:
 AllocUnsafeShmem
 (
 aSize
