@@ -74,6 +74,15 @@ log
 msg
 )
 {
+Services
+.
+console
+.
+logStringMessage
+(
+msg
+)
+;
 }
 function
 Prompt
