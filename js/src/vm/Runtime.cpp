@@ -938,6 +938,10 @@ permanentAtoms
 (
 nullptr
 )
+wellKnownSymbols
+(
+nullptr
+)
 wrapObjectCallbacks
 (
 &

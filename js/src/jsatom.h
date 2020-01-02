@@ -872,7 +872,6 @@ TypeStrings
 [
 ]
 ;
-extern
 void
 MarkAtoms
 (
@@ -881,9 +880,16 @@ JSTracer
 trc
 )
 ;
-extern
 void
 MarkPermanentAtoms
+(
+JSTracer
+*
+trc
+)
+;
+void
+MarkWellKnownSymbols
 (
 JSTracer
 *

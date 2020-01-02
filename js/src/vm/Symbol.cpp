@@ -64,8 +64,11 @@ newInternal
 ExclusiveContext
 *
 cx
-bool
-inRegistry
+JS
+:
+:
+SymbolCode
+code
 JSAtom
 *
 description
@@ -147,7 +150,7 @@ p
 )
 Symbol
 (
-inRegistry
+code
 description
 )
 ;
@@ -162,8 +165,11 @@ new_
 ExclusiveContext
 *
 cx
-bool
-inRegistry
+JS
+:
+:
+SymbolCode
+code
 JSString
 *
 description
@@ -219,7 +225,7 @@ return
 newInternal
 (
 cx
-inRegistry
+code
 atom
 )
 ;
@@ -316,7 +322,10 @@ sym
 newInternal
 (
 cx
-true
+SymbolCode
+:
+:
+InSymbolRegistry
 atom
 )
 ;
