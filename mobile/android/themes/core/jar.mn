@@ -91,6 +91,7 @@ about
 .
 css
 )
+*
 skin
 /
 aboutAddons
@@ -111,6 +112,7 @@ aboutApps
 .
 css
 )
+*
 skin
 /
 aboutBase
