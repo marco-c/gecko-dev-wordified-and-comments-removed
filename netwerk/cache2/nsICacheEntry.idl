@@ -1317,13 +1317,6 @@ boolean
 aWriteAllowed
 )
 ;
-const
-unsigned
-long
-NO_EXPIRATION_TIME
-=
-0xFFFFFFFF
-;
 /
 /
 *

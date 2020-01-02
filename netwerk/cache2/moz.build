@@ -261,11 +261,6 @@ CacheFileOutputStream
 cpp
 '
 '
-CacheIndex
-.
-cpp
-'
-'
 CacheLog
 .
 cpp
