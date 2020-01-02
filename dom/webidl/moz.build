@@ -3186,6 +3186,11 @@ MozStkCommandEvent
 webidl
 '
 '
+PopStateEvent
+.
+webidl
+'
+'
 PopupBlockedEvent
 .
 webidl

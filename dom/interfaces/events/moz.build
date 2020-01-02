@@ -218,11 +218,6 @@ nsIDOMPaintRequest
 idl
 '
 '
-nsIDOMPopStateEvent
-.
-idl
-'
-'
 nsIDOMRecordErrorEvent
 .
 idl
