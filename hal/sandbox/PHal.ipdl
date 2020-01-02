@@ -426,11 +426,8 @@ accuracy
 struct
 NetworkInformation
 {
-double
-bandwidth
-;
-bool
-canBeMetered
+uint32_t
+type
 ;
 bool
 isWifi

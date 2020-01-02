@@ -99,9 +99,6 @@ class
 nsPIDOMWindow
 ;
 class
-nsIDOMMozConnection
-;
-class
 nsIDOMMozMobileMessageManager
 ;
 class
@@ -694,8 +691,11 @@ network
 :
 Connection
 *
-GetMozConnection
+GetConnection
 (
+ErrorResult
+&
+aRv
 )
 ;
 nsDOMCameraManager

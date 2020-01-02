@@ -1245,11 +1245,6 @@ MozActivity
 webidl
 '
 '
-MozConnection
-.
-webidl
-'
-'
 MozMmsMessage
 .
 webidl
@@ -1301,6 +1296,11 @@ webidl
 '
 '
 NetDashboard
+.
+webidl
+'
+'
+NetworkInformation
 .
 webidl
 '
