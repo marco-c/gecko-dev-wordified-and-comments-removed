@@ -180,6 +180,16 @@ Feeds
 jsm
 '
 '
+FormSubmitObserver
+.
+jsm
+'
+'
+FormValidationHandler
+.
+jsm
+'
+'
 NetworkPrioritizer
 .
 jsm
