@@ -1971,11 +1971,6 @@ getRootDirectory
 (
 gTestPath
 )
-+
-"
-colorAnalyzer
-/
-"
 ;
 tests
 .

@@ -53,12 +53,3 @@ MPL
 0
 /
 .
-MOCHITEST_BROWSER_FILES
-:
-=
-.
-.
-/
-subtst_privbrowsing
-.
-html
