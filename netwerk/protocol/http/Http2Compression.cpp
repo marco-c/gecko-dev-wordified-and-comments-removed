@@ -6051,7 +6051,13 @@ nvPair
 name
 cookie
 )
-true
+name
+.
+Length
+(
+)
+<
+20
 )
 ;
 nextCookie
