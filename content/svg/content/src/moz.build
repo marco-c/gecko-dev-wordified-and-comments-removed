@@ -902,11 +902,6 @@ SVGFEDistantLightElement
 cpp
 '
 '
-SVGFEDropShadowElement
-.
-cpp
-'
-'
 SVGFEFloodElement
 .
 cpp

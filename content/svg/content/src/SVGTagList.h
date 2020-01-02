@@ -90,11 +90,6 @@ FEDistantLight
 )
 SVG_TAG
 (
-feDropShadow
-FEDropShadow
-)
-SVG_TAG
-(
 feFlood
 FEFlood
 )
