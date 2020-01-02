@@ -332,7 +332,10 @@ Time
 (
 elapsed
 +
+Time
+(
 initial_time
+)
 )
 ;
 }

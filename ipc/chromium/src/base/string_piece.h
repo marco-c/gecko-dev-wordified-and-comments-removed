@@ -63,6 +63,7 @@ length_
 )
 {
 }
+MOZ_IMPLICIT
 StringPiece
 (
 const
@@ -93,6 +94,7 @@ str
 )
 {
 }
+MOZ_IMPLICIT
 StringPiece
 (
 const
