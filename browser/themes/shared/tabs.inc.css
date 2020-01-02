@@ -114,7 +114,7 @@ min
 -
 height
 :
-tabHeight
+tabMinHeight
 ;
 }
 .
@@ -650,7 +650,7 @@ min
 -
 height
 :
-tabHeight
+tabMinHeight
 ;
 width
 :

@@ -290,5 +290,5 @@ tabToolbarNavbarOverlap
 1px
 %
 define
-tabHeight
+tabMinHeight
 31px
