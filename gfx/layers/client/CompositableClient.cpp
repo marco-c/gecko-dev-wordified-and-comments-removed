@@ -136,10 +136,6 @@ CompositableForwarder
 aForwarder
 )
 :
-mNextTextureID
-(
-1
-)
 mCompositableChild
 (
 nullptr
@@ -1030,16 +1026,6 @@ TextureClient
 aClient
 )
 {
-aClient
--
->
-SetID
-(
-NextTextureID
-(
-)
-)
-;
 return
 aClient
 -
