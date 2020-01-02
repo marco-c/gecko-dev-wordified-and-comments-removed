@@ -6100,7 +6100,12 @@ p
 >
 MaybeReject
 (
-NS_ERROR_NOT_AVAILABLE
+NS_LITERAL_STRING
+(
+"
+Abnormal
+"
+)
 )
 ;
 return
