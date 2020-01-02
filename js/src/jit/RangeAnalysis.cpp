@@ -11410,17 +11410,6 @@ isUnknownInt32
 )
 continue
 ;
-if
-(
-ins
--
->
-isPassArg
-(
-)
-)
-continue
-;
 MAssertRange
 *
 guard

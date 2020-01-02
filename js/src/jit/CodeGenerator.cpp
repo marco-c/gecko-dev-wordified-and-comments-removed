@@ -6358,16 +6358,6 @@ argType
 lir
 -
 >
-mir
-(
-)
--
->
-getArgument
-(
-)
--
->
 type
 (
 )

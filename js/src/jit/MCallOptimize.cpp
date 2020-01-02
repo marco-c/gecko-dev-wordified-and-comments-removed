@@ -1212,7 +1212,12 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+thisArg
+(
+)
+-
+>
+setFoldedUnchecked
 (
 )
 ;
@@ -1502,16 +1507,6 @@ getArg
 (
 0
 )
--
->
-toPassArg
-(
-)
--
->
-getArgument
-(
-)
 ;
 if
 (
@@ -1560,7 +1555,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -2034,7 +2029,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -2441,7 +2436,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3123,7 +3118,7 @@ ArrayObject
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3317,7 +3312,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3503,7 +3498,7 @@ MIRType_Int32
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3540,7 +3535,7 @@ MIRType_Int32
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3600,7 +3595,7 @@ MIRType_Double
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3730,7 +3725,7 @@ MIRType_Int32
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3767,7 +3762,7 @@ MIRType_Double
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3897,7 +3892,7 @@ MIRType_Int32
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3934,7 +3929,7 @@ MIRType_Int32
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -3994,7 +3989,7 @@ MIRType_Double
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -4126,7 +4121,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -4271,7 +4266,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -4422,7 +4417,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -4598,7 +4593,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -5186,7 +5181,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -5320,7 +5315,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -5568,7 +5563,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -5731,7 +5726,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -5942,7 +5937,7 @@ StringObject
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -6204,7 +6199,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -6371,7 +6366,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -6547,7 +6542,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -6713,7 +6708,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -6985,7 +6980,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -7238,7 +7233,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -7631,7 +7626,7 @@ ParallelExecution
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -7916,7 +7911,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -8065,16 +8060,6 @@ getArg
 (
 1
 )
--
->
-toPassArg
-(
-)
--
->
-getArgument
-(
-)
 ;
 if
 (
@@ -8110,7 +8095,7 @@ toPrivateUint32
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -8288,16 +8273,6 @@ getArg
 (
 1
 )
--
->
-toPassArg
-(
-)
--
->
-getArgument
-(
-)
 ;
 if
 (
@@ -8333,7 +8308,7 @@ toPrivateUint32
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -8589,7 +8564,7 @@ InliningStatus_Inlined
 }
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -8798,6 +8773,12 @@ isCallable
 ;
 }
 }
+callInfo
+.
+setFoldedUnchecked
+(
+)
+;
 if
 (
 isCallableKnown
@@ -8841,12 +8822,6 @@ return
 InliningStatus_Inlined
 ;
 }
-callInfo
-.
-unwrapArgs
-(
-)
-;
 MIsCallable
 *
 isCallable
@@ -8956,7 +8931,7 @@ InliningStatus_NotInlined
 ;
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -8999,7 +8974,7 @@ callInfo
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
@@ -9072,7 +9047,7 @@ callInfo
 {
 callInfo
 .
-unwrapArgs
+setFoldedUnchecked
 (
 )
 ;
