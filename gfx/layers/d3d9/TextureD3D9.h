@@ -871,6 +871,9 @@ bool
 mNeedsClear
 ;
 bool
+mNeedsClearWhite
+;
+bool
 mLockRect
 ;
 }
