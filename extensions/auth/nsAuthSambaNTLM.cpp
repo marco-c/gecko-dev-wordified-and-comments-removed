@@ -1239,6 +1239,11 @@ buf
 outTokenLen
 )
 ;
+free
+(
+buf
+)
+;
 if
 (
 !
@@ -1246,11 +1251,6 @@ if
 outToken
 )
 {
-free
-(
-buf
-)
-;
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
