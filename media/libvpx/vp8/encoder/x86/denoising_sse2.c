@@ -41,7 +41,7 @@ h
 #
 include
 "
-vpx_rtcd
+vp8_rtcd
 .
 h
 "
@@ -52,6 +52,15 @@ emmintrin
 .
 h
 >
+#
+include
+"
+vpx_ports
+/
+emmintrin_compat
+.
+h
+"
 union
 sum_union
 {

@@ -96,7 +96,7 @@ EXPORT
 vp8_subtract_mbuv_neon
 |
 INCLUDE
-asm_enc_offsets
+vp8_asm_enc_offsets
 .
 asm
 ARM

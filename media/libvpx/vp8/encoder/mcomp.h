@@ -24,7 +24,7 @@ h
 "
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 extern
 void
 init_mv_ref_counts

@@ -97,8 +97,7 @@ short
 *
 quant_fast
 ;
-unsigned
-char
+short
 *
 quant_shift
 ;

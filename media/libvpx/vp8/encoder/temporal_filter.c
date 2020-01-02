@@ -71,7 +71,7 @@ include
 "
 vpx_scale
 /
-vpxscale
+vpx_scale
 .
 h
 "

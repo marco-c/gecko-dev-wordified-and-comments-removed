@@ -157,7 +157,7 @@ ip
 [
 4
 ]
-movd
+movq
 mm7
 rax
 movq

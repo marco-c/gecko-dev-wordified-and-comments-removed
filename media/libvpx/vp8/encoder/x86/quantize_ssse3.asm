@@ -83,7 +83,7 @@ asm
 %
 include
 "
-asm_enc_offsets
+vp8_asm_enc_offsets
 .
 asm
 "
@@ -135,9 +135,8 @@ rsi
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 push
 rdi
 push
@@ -175,9 +174,8 @@ d
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 mov
 rdi
 rcx
@@ -479,9 +477,8 @@ rdi
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 pop
 rsi
 pop

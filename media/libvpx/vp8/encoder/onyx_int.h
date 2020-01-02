@@ -729,7 +729,7 @@ typedef
 struct
 {
 double
-frame_rate
+framerate
 ;
 int
 target_bandwidth
@@ -844,8 +844,7 @@ QINDEX_RANGE
 DECLARE_ALIGNED
 (
 16
-unsigned
-char
+short
 Y1quant_shift
 [
 QINDEX_RANGE
@@ -897,8 +896,7 @@ QINDEX_RANGE
 DECLARE_ALIGNED
 (
 16
-unsigned
-char
+short
 Y2quant_shift
 [
 QINDEX_RANGE
@@ -950,8 +948,7 @@ QINDEX_RANGE
 DECLARE_ALIGNED
 (
 16
-unsigned
-char
+short
 UVquant_shift
 [
 QINDEX_RANGE
@@ -1115,6 +1112,10 @@ YV12_BUFFER_CONFIG
 *
 last_frame_unscaled_source
 ;
+unsigned
+int
+frames_till_alt_ref_frame
+;
 int
 source_alt_ref_pending
 ;
@@ -1170,13 +1171,6 @@ mode_check_freq
 MAX_MODES
 ]
 ;
-unsigned
-int
-mode_chosen_counts
-[
-MAX_MODES
-]
-;
 int
 rd_baseline_thresh
 [
@@ -1218,6 +1212,10 @@ key_frame_rate_correction_factor
 ;
 double
 gf_rate_correction_factor
+;
+unsigned
+int
+frames_since_golden
 ;
 int
 frames_till_gf_update_due
@@ -1268,7 +1266,7 @@ int
 inter_frame_target
 ;
 double
-output_frame_rate
+output_framerate
 ;
 int64_t
 last_time_stamp_seen
@@ -1298,10 +1296,10 @@ int
 buffered_mode
 ;
 double
-frame_rate
+framerate
 ;
 double
-ref_frame_rate
+ref_framerate
 ;
 int64_t
 buffer_level
@@ -1556,6 +1554,10 @@ char
 *
 cyclic_refresh_map
 ;
+unsigned
+int
+temporal_pattern_counter
+;
 #
 if
 CONFIG_MULTITHREAD
@@ -1770,7 +1772,7 @@ kf_group_bits
 int64_t
 kf_group_error_left
 ;
-int
+int64_t
 gf_group_bits
 ;
 int

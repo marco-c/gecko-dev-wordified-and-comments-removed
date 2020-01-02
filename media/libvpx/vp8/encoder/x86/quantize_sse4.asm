@@ -83,7 +83,7 @@ asm
 %
 include
 "
-asm_enc_offsets
+vp8_asm_enc_offsets
 .
 asm
 "
@@ -150,9 +150,8 @@ stack_size
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 SAVE_XMM
 8
 u
@@ -193,9 +192,8 @@ d
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 mov
 rdi
 rcx
@@ -970,9 +968,8 @@ else
 undef
 xmm5
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 pop
 rsi
 pop

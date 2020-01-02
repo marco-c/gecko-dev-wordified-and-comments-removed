@@ -1,4 +1,10 @@
 #
+ifndef
+DECODEMV_H_
+#
+define
+DECODEMV_H_
+#
 include
 "
 onyxd_int
@@ -12,3 +18,5 @@ VP8D_COMP
 *
 )
 ;
+#
+endif

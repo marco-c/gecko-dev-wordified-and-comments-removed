@@ -51,7 +51,7 @@ h
 "
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 _int64
 context_counters
 [
@@ -1967,7 +1967,7 @@ cpi
 }
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 void
 init_context_counters
 (

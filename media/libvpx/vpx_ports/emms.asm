@@ -109,9 +109,8 @@ vpx_reset_mmx_state
 emms
 ret
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 global
 sym
 (

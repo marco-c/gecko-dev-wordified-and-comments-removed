@@ -350,7 +350,7 @@ movq
 [
 rdi
 ]
-xmm1
+mm1
 dec
 rcx
 jne
@@ -769,10 +769,6 @@ endif
 paddw
 mm1
 mm4
-;
-paddw
-xmm1
-eight8s
 psraw
 mm1
 4

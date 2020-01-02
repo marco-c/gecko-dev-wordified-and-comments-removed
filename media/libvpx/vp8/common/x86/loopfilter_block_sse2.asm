@@ -837,9 +837,8 @@ vp8_loop_filter_bh_y_sse2
 )
 :
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 %
 define
 src
@@ -1371,9 +1370,8 @@ movdqa
 i13
 xmm8
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 pop
 r13
 pop
@@ -1426,9 +1424,8 @@ vp8_loop_filter_bv_y_sse2
 )
 :
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 %
 define
 src
@@ -3537,9 +3534,8 @@ ALIGN_STACK
 pop
 rsp
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 pop
 r13
 pop

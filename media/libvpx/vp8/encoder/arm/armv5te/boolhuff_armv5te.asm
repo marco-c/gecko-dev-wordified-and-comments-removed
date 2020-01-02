@@ -104,7 +104,7 @@ IMPORT
 vp8_validate_buffer_arm
 |
 INCLUDE
-asm_enc_offsets
+vp8_asm_enc_offsets
 .
 asm
 ARM

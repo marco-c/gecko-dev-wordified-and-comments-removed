@@ -91,7 +91,7 @@ ARM
 REQUIRE8
 PRESERVE8
 INCLUDE
-asm_com_offsets
+vpx_scale_asm_offsets
 .
 asm
 AREA
@@ -110,6 +110,7 @@ ALIGN
 void
 vp8_yv12_copy_frame_func_neon
 (
+const
 YV12_BUFFER_CONFIG
 *
 src_ybc

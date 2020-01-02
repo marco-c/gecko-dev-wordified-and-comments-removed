@@ -281,7 +281,7 @@ arg
 16
 -
 strength
-movd
+movq
 xmm4
 rdx
 ;

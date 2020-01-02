@@ -47,7 +47,7 @@ h
 >
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 extern
 unsigned
 int
@@ -1758,7 +1758,7 @@ flags
 ;
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 active_section
 =
 4
@@ -1874,7 +1874,7 @@ flags
 ;
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 active_section
 =
 5

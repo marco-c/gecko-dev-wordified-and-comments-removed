@@ -70,7 +70,7 @@ MACROBLOCKD
 ;
 #
 ifdef
-ENTROPY_STATS
+VP8_ENTROPY_STATS
 void
 init_context_counters
 (

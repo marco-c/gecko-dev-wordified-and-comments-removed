@@ -157,9 +157,8 @@ rax
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 %
 define
 input
@@ -221,9 +220,8 @@ rbp
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 RESTORE_XMM
 %
 endif

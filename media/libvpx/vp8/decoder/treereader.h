@@ -1,10 +1,9 @@
 #
 ifndef
-tree_reader_h
+TREEREADER_H_
 #
 define
-tree_reader_h
-1
+TREEREADER_H_
 #
 include
 "

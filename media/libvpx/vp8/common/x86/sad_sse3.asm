@@ -196,9 +196,8 @@ ref_stride
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 SAVE_XMM
 7
 u
@@ -359,9 +358,8 @@ rbp
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 RESTORE_XMM
 %
 endif
@@ -473,9 +471,8 @@ rax
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 SAVE_XMM
 7
 u
@@ -617,9 +614,8 @@ rbp
 %
 else
 %
-ifidn
-__OUTPUT_FORMAT__
-x64
+if
+LIBVPX_YASM_WIN64
 pop
 rsi
 RESTORE_XMM

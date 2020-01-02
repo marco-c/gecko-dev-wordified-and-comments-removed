@@ -92,7 +92,7 @@ EXPORT
 vp8_fast_quantize_b_pair_neon
 |
 INCLUDE
-asm_enc_offsets
+vp8_asm_enc_offsets
 .
 asm
 ARM

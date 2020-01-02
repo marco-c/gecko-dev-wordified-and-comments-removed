@@ -91,7 +91,7 @@ ARM
 REQUIRE8
 PRESERVE8
 INCLUDE
-asm_com_offsets
+vpx_scale_asm_offsets
 .
 asm
 AREA
@@ -124,8 +124,8 @@ i
 ]
 at
 beginning
-of
 ;
+of
 the
 encoding
 .
@@ -144,13 +144,13 @@ oxcf
 .
 Width
 and
+;
 cpi
 -
 >
 oxcf
 .
 Height
-;
 which
 can
 be
@@ -170,9 +170,11 @@ or
 void
 vp8_yv12_copy_src_frame_func_neon
 (
+const
 YV12_BUFFER_CONFIG
 *
 src_ybc
+;
 YV12_BUFFER_CONFIG
 *
 dst_ybc

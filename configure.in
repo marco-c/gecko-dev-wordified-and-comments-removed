@@ -44753,6 +44753,8 @@ elf32
 rnasm
 -
 pnasm
+-
+DPIC
 "
 VPX_X86_ASM
 =

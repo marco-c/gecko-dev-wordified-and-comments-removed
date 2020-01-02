@@ -28,7 +28,7 @@ h
 #
 define
 MAX_PSNR
-60
+100
 double
 vp8_mse2psnr
 (

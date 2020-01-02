@@ -2477,6 +2477,7 @@ height_loop_2nd_4
 |
 ldrd
 r8
+r9
 [
 r0
 #

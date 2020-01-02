@@ -1,4 +1,10 @@
 #
+ifndef
+VPX_CODEC_H
+#
+define
+VPX_CODEC_H
+#
 ifdef
 __cplusplus
 extern
@@ -8,12 +14,6 @@ C
 {
 #
 endif
-#
-ifndef
-VPX_CODEC_H
-#
-define
-VPX_CODEC_H
 #
 include
 "
@@ -902,10 +902,10 @@ num_maps
 )
 ;
 #
-endif
-#
 ifdef
 __cplusplus
 }
+#
+endif
 #
 endif
