@@ -436,14 +436,6 @@ provider
 "
 )
 ;
-printf_stderr
-(
-"
-MobileConnection
-initialized
-"
-)
-;
 }
 }
 void
