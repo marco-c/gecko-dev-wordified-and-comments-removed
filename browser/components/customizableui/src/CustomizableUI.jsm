@@ -412,6 +412,11 @@ defaultPlacements
 :
 [
 "
+edit
+-
+controls
+"
+"
 zoom
 -
 controls
