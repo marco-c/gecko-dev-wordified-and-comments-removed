@@ -1562,7 +1562,6 @@ obj
 cx
 GetInnerObject
 (
-cx
 origobj
 )
 )

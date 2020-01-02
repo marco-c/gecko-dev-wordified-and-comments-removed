@@ -3389,7 +3389,6 @@ scopeChain
 =
 GetInnerObject
 (
-cx
 scopeChain
 )
 ;

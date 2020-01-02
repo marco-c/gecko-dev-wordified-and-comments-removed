@@ -15222,7 +15222,6 @@ sobj
 =
 GetInnerObject
 (
-cx
 sobj
 )
 ;
@@ -18652,7 +18651,10 @@ parent
 {
 if
 (
-JSObjectOp
+js
+:
+:
+ObjectOp
 op
 =
 parent

@@ -11665,7 +11665,10 @@ NS_ERROR_FAILURE
 ;
 if
 (
-JSObjectOp
+js
+:
+:
+ObjectOp
 outerize
 =
 js

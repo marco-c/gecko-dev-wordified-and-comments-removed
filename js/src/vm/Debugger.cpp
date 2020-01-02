@@ -10386,7 +10386,6 @@ obj
 =
 GetInnerObject
 (
-cx
 obj
 )
 ;

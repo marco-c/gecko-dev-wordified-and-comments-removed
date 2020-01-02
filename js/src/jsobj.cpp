@@ -527,7 +527,6 @@ nullptr
 return
 GetInnerObject
 (
-cx
 obj
 )
 ;
@@ -22338,7 +22337,10 @@ nullptr
 ;
 if
 (
-JSObjectOp
+js
+:
+:
+ObjectOp
 op
 =
 objp
@@ -27467,7 +27469,6 @@ obj
 cx
 GetInnerObject
 (
-cx
 origObj
 )
 )
@@ -27705,7 +27706,6 @@ obj
 cx
 GetInnerObject
 (
-cx
 origObj
 )
 )

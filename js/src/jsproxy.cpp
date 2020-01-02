@@ -16122,10 +16122,8 @@ js
 :
 proxy_innerObject
 (
-JSContext
+JSObject
 *
-cx
-HandleObject
 obj
 )
 {
