@@ -845,6 +845,11 @@ AutoDebugModeInvalidation
 invalidate
 )
 ;
+bool
+JitSupportsFloatingPoint
+(
+)
+;
 }
 }
 #

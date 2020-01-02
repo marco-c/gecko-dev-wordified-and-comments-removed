@@ -7,11 +7,9 @@ jit_none_Architecture_none_h
 #
 include
 "
-assembler
+jit
 /
-assembler
-/
-MacroAssembler
+IonSpewer
 .
 h
 "

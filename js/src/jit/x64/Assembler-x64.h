@@ -1500,6 +1500,16 @@ CompactBufferReader
 reader
 )
 ;
+static
+bool
+SupportsFloatingPoint
+(
+)
+{
+return
+true
+;
+}
 void
 finish
 (

@@ -11,7 +11,7 @@ assembler
 /
 assembler
 /
-MacroAssembler
+X86Assembler
 .
 h
 "

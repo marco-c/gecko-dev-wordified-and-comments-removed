@@ -797,6 +797,16 @@ MOZ_CRASH
 )
 ;
 }
+static
+bool
+SupportsFloatingPoint
+(
+)
+{
+return
+false
+;
+}
 void
 executableCopy
 (

@@ -36863,7 +36863,7 @@ fpu
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 SetFloatingPointDisabled
@@ -36901,7 +36901,7 @@ sse3
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 SetSSE3Disabled
@@ -36937,7 +36937,7 @@ sse4
 JSC
 :
 :
-MacroAssembler
+MacroAssemblerX86Common
 :
 :
 SetSSE4Disabled
