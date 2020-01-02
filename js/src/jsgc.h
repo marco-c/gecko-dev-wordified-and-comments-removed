@@ -757,6 +757,15 @@ JSTRACE_JITCODE
 ;
 }
 ;
+const
+char
+*
+TraceKindAsAscii
+(
+JSGCTraceKind
+kind
+)
+;
 template
 <
 typename
