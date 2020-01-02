@@ -606,6 +606,14 @@ yuv420sp
 )
 )
 ;
+mParams
+.
+Set
+(
+CAMERA_PARAM_SCENEMODE_HDR_RETURNNORMALPICTURE
+false
+)
+;
 PushParametersImpl
 (
 )
