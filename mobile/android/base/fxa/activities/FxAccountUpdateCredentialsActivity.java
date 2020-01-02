@@ -282,6 +282,13 @@ android
 .
 widget
 .
+AutoCompleteTextView
+;
+import
+android
+.
+widget
+.
 Button
 ;
 import
@@ -385,7 +392,7 @@ fxaccount_update_credentials
 emailEdit
 =
 (
-EditText
+AutoCompleteTextView
 )
 ensureFindViewById
 (
