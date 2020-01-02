@@ -2821,7 +2821,7 @@ this
 .
 layoutHelpers
 .
-getAdjustedQuadsPolyfill
+getAdjustedQuads
 (
 this
 .
@@ -2901,7 +2901,7 @@ this
 .
 layoutHelpers
 .
-getAdjustedQuadsPolyfill
+getAdjustedQuads
 (
 this
 .
