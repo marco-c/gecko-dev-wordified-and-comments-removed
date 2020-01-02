@@ -103,6 +103,11 @@ mozIJSSubScriptLoader
 idl
 '
 '
+nsIAddonInterposition
+.
+idl
+'
+'
 nsIJSRuntimeService
 .
 idl
