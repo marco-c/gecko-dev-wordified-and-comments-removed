@@ -882,7 +882,7 @@ pool
 ;
 }
 void
-sizeOfCode
+addSizeOfCode
 (
 JS
 :

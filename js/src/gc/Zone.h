@@ -685,7 +685,7 @@ discardConstraints
 )
 ;
 void
-sizeOfIncludingThis
+addSizeOfIncludingThis
 (
 mozilla
 :

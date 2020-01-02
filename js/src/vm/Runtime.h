@@ -5160,7 +5160,7 @@ jitHardening
 ;
 }
 void
-sizeOfIncludingThis
+addSizeOfIncludingThis
 (
 mozilla
 :

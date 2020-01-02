@@ -3732,7 +3732,7 @@ exitIndex
 ;
 }
 void
-sizeOfMisc
+addSizeOfMisc
 (
 mozilla
 :
@@ -3795,7 +3795,7 @@ module
 const
 ;
 void
-sizeOfMisc
+addSizeOfMisc
 (
 mozilla
 :
@@ -3814,7 +3814,7 @@ module
 (
 )
 .
-sizeOfMisc
+addSizeOfMisc
 (
 mallocSizeOf
 asmJSModuleCode

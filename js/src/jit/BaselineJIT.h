@@ -530,7 +530,7 @@ method_
 ;
 }
 void
-sizeOfIncludingThis
+addSizeOfIncludingThis
 (
 mozilla
 :
@@ -548,6 +548,7 @@ const
 {
 *
 data
++
 =
 mallocSizeOf
 (
@@ -556,6 +557,7 @@ this
 ;
 *
 fallbackStubs
++
 =
 fallbackStubSpace_
 .
@@ -1115,7 +1117,7 @@ script
 )
 ;
 void
-SizeOfBaselineData
+AddSizeOfBaselineData
 (
 JSScript
 *

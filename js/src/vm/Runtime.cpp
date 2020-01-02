@@ -2252,7 +2252,7 @@ void
 JSRuntime
 :
 :
-sizeOfIncludingThis
+addSizeOfIncludingThis
 (
 mozilla
 :
@@ -2277,6 +2277,7 @@ rtSizes
 -
 >
 object
++
 =
 mallocSizeOf
 (
@@ -2287,6 +2288,7 @@ rtSizes
 -
 >
 atomsTable
++
 =
 atoms
 (
@@ -2296,13 +2298,6 @@ sizeOfExcludingThis
 (
 mallocSizeOf
 )
-;
-rtSizes
--
->
-contexts
-=
-0
 ;
 for
 (
@@ -2343,6 +2338,7 @@ rtSizes
 -
 >
 dtoa
++
 =
 mallocSizeOf
 (
@@ -2355,24 +2351,13 @@ rtSizes
 -
 >
 temporary
++
 =
 tempLifoAlloc
 .
 sizeOfExcludingThis
 (
 mallocSizeOf
-)
-;
-rtSizes
--
->
-code
-=
-JS
-:
-:
-CodeSizes
-(
 )
 ;
 if
@@ -2382,7 +2367,7 @@ execAlloc_
 execAlloc_
 -
 >
-sizeOfCode
+addSizeOfCode
 (
 &
 rtSizes
@@ -2430,7 +2415,7 @@ this
 ionAlloc
 -
 >
-sizeOfCode
+addSizeOfCode
 (
 &
 rtSizes
@@ -2447,6 +2432,7 @@ rtSizes
 -
 >
 regexpData
++
 =
 bumpAlloc_
 ?
@@ -2463,6 +2449,7 @@ rtSizes
 -
 >
 interpreterStack
++
 =
 interpreterStack_
 .
@@ -2475,6 +2462,7 @@ rtSizes
 -
 >
 gcMarker
++
 =
 gcMarker
 .
@@ -2487,6 +2475,7 @@ rtSizes
 -
 >
 mathCache
++
 =
 mathCache_
 ?
@@ -2504,6 +2493,7 @@ rtSizes
 -
 >
 scriptData
++
 =
 scriptDataTable
 (
