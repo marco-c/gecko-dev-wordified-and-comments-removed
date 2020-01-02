@@ -3938,6 +3938,9 @@ aFunc
 0
 )
 ;
+return
+null
+;
 }
 ;
 SimpleTest
