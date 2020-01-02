@@ -340,6 +340,14 @@ TimeStamp
 >
 mForcedValidEntries
 ;
+void
+ForcedValidEntriesPrune
+(
+TimeStamp
+&
+now
+)
+;
 class
 EntryInfoCallback
 {
