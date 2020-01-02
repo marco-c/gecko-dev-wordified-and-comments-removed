@@ -1290,17 +1290,6 @@ if
 last
 )
 {
-JS_ASSERT
-(
-!
-rt
--
->
-isHeapBusy
-(
-)
-)
-;
 for
 (
 CompartmentsIter
