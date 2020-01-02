@@ -80,6 +80,12 @@ version
 unknown
         
 '
+os_version
+'
+:
+unknown
+        
+'
 bits
 '
 :
@@ -197,7 +203,13 @@ _
 '
 )
     
+(
+major
+minor
+_
+_
 service_pack
+)
 =
 os
 .
@@ -206,9 +218,6 @@ sys
 getwindowsversion
 (
 )
-[
-4
-]
     
 info
 [
@@ -218,6 +227,21 @@ service_pack
 ]
 =
 service_pack
+    
+os_version
+=
+"
+%
+d
+.
+%
+d
+"
+%
+(
+major
+minor
+)
 elif
 system
 =
@@ -239,7 +263,7 @@ linux_distribution
         
 (
 distro
-version
+os_version
 codename
 )
 =
@@ -254,7 +278,7 @@ else
         
 (
 distro
-version
+os_version
 codename
 )
 =
@@ -263,6 +287,15 @@ platform
 dist
 (
 )
+    
+if
+not
+processor
+:
+        
+processor
+=
+machine
     
 version
 =
@@ -275,17 +308,8 @@ s
 %
 (
 distro
-version
+os_version
 )
-    
-if
-not
-processor
-:
-        
-processor
-=
-machine
     
 info
 [
@@ -297,6 +321,15 @@ os
 '
 linux
 '
+    
+info
+[
+'
+linux_distro
+'
+]
+=
+distro
 elif
 system
 in
@@ -328,6 +361,8 @@ bsd
 '
     
 version
+=
+os_version
 =
 sys
 .
@@ -363,6 +398,42 @@ s
 "
 %
 release
+    
+versionNums
+=
+release
+.
+split
+(
+'
+.
+'
+)
+[
+:
+2
+]
+    
+os_version
+=
+"
+%
+s
+.
+%
+s
+"
+%
+(
+versionNums
+[
+0
+]
+versionNums
+[
+1
+]
+)
     
 info
 [
@@ -400,6 +471,8 @@ os
 unix
 '
     
+os_version
+=
 version
 =
 sys
@@ -413,6 +486,14 @@ version
 ]
 =
 version
+info
+[
+'
+os_version
+'
+]
+=
+os_version
 if
 processor
 in
@@ -953,6 +1034,7 @@ mozbuild
 base
 import
 MozbuildObject
+BuildEnvironmentNotFoundException
         
 build
 =
@@ -1001,6 +1083,12 @@ json_path
     
 except
 ImportError
+:
+        
+pass
+    
+except
+BuildEnvironmentNotFoundException
 :
         
 pass
