@@ -10516,8 +10516,7 @@ false
 ;
 if
 (
-!
-mInstanceOwner
+mIsStopping
 )
 {
 TeardownProtoChain
