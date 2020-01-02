@@ -2398,6 +2398,12 @@ mRunningEvent
 ;
 MOZ_RELEASE_ASSERT
 (
+mIsMainThread
+!
+=
+MAIN_THREAD
+|
+|
 !
 ipc
 :
