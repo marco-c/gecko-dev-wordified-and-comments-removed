@@ -615,7 +615,7 @@ prog
 )
 return
 ;
-GLProgram
+GLuint
 progname
 =
 prog
@@ -3970,7 +3970,7 @@ len
 =
 0
 ;
-GLProgram
+GLuint
 progname
 =
 prog
@@ -4485,7 +4485,7 @@ len
 =
 0
 ;
-GLProgram
+GLuint
 progname
 =
 prog
@@ -4855,7 +4855,7 @@ cname
 mappedName
 )
 ;
-GLProgram
+GLuint
 progname
 =
 prog
@@ -6397,7 +6397,7 @@ NullValue
 (
 )
 ;
-GLProgram
+GLuint
 progname
 =
 prog
@@ -6677,7 +6677,7 @@ Truncate
 return
 ;
 }
-GLProgram
+GLuint
 progname
 =
 prog
@@ -7628,7 +7628,7 @@ NullValue
 )
 ;
 }
-GLProgram
+GLuint
 progname
 =
 prog
@@ -8447,7 +8447,7 @@ cname
 mappedName
 )
 ;
-GLProgram
+GLuint
 progname
 =
 prog
@@ -9029,7 +9029,7 @@ InvalidateBufferFetching
 (
 )
 ;
-GLProgram
+GLuint
 progname
 =
 program
@@ -13849,7 +13849,7 @@ InvalidateBufferFetching
 (
 )
 ;
-GLProgram
+GLuint
 progname
 =
 prog
@@ -13861,10 +13861,7 @@ GLName
 (
 )
 :
-GLProgram
-(
 0
-)
 ;
 if
 (
@@ -13980,7 +13977,7 @@ return
 }
 #
 endif
-GLProgram
+GLuint
 progname
 =
 prog

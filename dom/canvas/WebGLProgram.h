@@ -125,10 +125,7 @@ Clear
 )
 ;
 }
-gl
-:
-:
-GLProgram
+GLuint
 GLName
 (
 )
@@ -419,10 +416,7 @@ DeleteOnce
 )
 ;
 }
-gl
-:
-:
-GLProgram
+GLuint
 mGLName
 ;
 bool
