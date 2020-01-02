@@ -13735,7 +13735,6 @@ LARGEADDRESSAWARE
 -
 NXCOMPAT
 "
-fi
 if
 test
 -
@@ -13752,6 +13751,7 @@ LDFLAGS
 -
 RELEASE
 "
+fi
 fi
 dnl
 For
