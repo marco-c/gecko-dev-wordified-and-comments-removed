@@ -476,8 +476,12 @@ const
 SubresourceInfo
 &
 info
+const
 PRTime
 now
+const
+int32_t
+parentCount
 )
 ;
 void
