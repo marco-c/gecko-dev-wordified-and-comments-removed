@@ -1841,7 +1841,7 @@ cx
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 value
@@ -2076,7 +2076,7 @@ cx
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 argv
@@ -2269,7 +2269,7 @@ cx
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 argv

@@ -1602,7 +1602,7 @@ return
 false
 ;
 return
-toValue
+fromVariant
 (
 cx
 val
@@ -1781,7 +1781,7 @@ return
 false
 ;
 return
-toValue
+fromVariant
 (
 cx
 result
@@ -2279,7 +2279,7 @@ continue
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 outparams
@@ -2325,7 +2325,7 @@ false
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 result
@@ -3101,7 +3101,7 @@ cx
 if
 (
 !
-toValue
+fromVariant
 (
 cx
 status
