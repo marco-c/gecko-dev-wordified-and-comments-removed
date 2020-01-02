@@ -113,7 +113,9 @@ h
 #
 include
 "
-nsCSSStyleSheet
+mozilla
+/
+CSSStyleSheet
 .
 h
 "
@@ -428,6 +430,10 @@ ProcessingInstruction
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -1782,7 +1788,7 @@ nsXMLContentSink
 :
 StyleSheetLoaded
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 aSheet
 bool

@@ -40,9 +40,13 @@ NS_ISTYLESHEETLINKINGELEMENT_IID
 class
 nsIStyleSheet
 ;
+namespace
+mozilla
+{
 class
-nsCSSStyleSheet
+CSSStyleSheet
 ;
+}
 class
 nsIStyleSheetLinkingElement
 :
@@ -58,7 +62,10 @@ NS_ISTYLESHEETLINKINGELEMENT_IID
 NS_IMETHOD
 SetStyleSheet
 (
-nsCSSStyleSheet
+mozilla
+:
+:
+CSSStyleSheet
 *
 aStyleSheet
 )

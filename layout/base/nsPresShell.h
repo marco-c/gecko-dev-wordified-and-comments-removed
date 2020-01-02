@@ -121,9 +121,6 @@ nsRange
 class
 nsIDragService
 ;
-class
-nsCSSStyleSheet
-;
 struct
 RangePaintInfo
 ;
@@ -144,6 +141,13 @@ nsPresShellEventCB
 class
 nsAutoCauseReflowNotifier
 ;
+namespace
+mozilla
+{
+class
+CSSStyleSheet
+;
+}
 #
 define
 PAINTLOCK_EVENT_DELAY
@@ -2981,7 +2985,10 @@ mMouseLocation
 ;
 nsRefPtr
 <
-nsCSSStyleSheet
+mozilla
+:
+:
+CSSStyleSheet
 >
 mPrefStyleSheet
 ;

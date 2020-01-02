@@ -49,6 +49,9 @@ nsString
 namespace
 mozilla
 {
+class
+CSSStyleSheet
+;
 namespace
 css
 {
@@ -146,7 +149,7 @@ const
 void
 SetSheet
 (
-nsCSSStyleSheet
+CSSStyleSheet
 *
 )
 ;
@@ -177,7 +180,7 @@ mMedia
 ;
 nsRefPtr
 <
-nsCSSStyleSheet
+CSSStyleSheet
 >
 mChildSheet
 ;
