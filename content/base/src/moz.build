@@ -158,6 +158,11 @@ nsFrameMessageManager
 h
 '
 '
+nsGenericDOMDataNode
+.
+h
+'
+'
 nsGkAtomList
 .
 h
@@ -224,6 +229,11 @@ h
 '
 '
 nsTextFragment
+.
+h
+'
+'
+nsTraversal
 .
 h
 '
