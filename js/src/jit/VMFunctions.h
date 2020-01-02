@@ -3568,7 +3568,7 @@ vp
 )
 ;
 bool
-FilterArguments
+FilterArgumentsOrEval
 (
 JSContext
 *

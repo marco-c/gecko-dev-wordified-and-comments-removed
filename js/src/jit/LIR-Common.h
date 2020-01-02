@@ -4743,7 +4743,7 @@ getTemp
 }
 ;
 class
-LFilterArguments
+LFilterArgumentsOrEval
 :
 public
 LCallInstructionHelper
@@ -4757,9 +4757,9 @@ public
 :
 LIR_HEADER
 (
-FilterArguments
+FilterArgumentsOrEval
 )
-LFilterArguments
+LFilterArgumentsOrEval
 (
 const
 LAllocation
@@ -4794,7 +4794,7 @@ temp2
 )
 ;
 }
-MFilterArguments
+MFilterArgumentsOrEval
 *
 mir
 (
@@ -4805,7 +4805,7 @@ return
 mir_
 -
 >
-toFilterArguments
+toFilterArgumentsOrEval
 (
 )
 ;

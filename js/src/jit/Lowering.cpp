@@ -3045,9 +3045,9 @@ bool
 LIRGenerator
 :
 :
-visitFilterArguments
+visitFilterArgumentsOrEval
 (
-MFilterArguments
+MFilterArgumentsOrEval
 *
 ins
 )
@@ -3076,12 +3076,12 @@ type
 MIRType_String
 )
 ;
-LFilterArguments
+LFilterArgumentsOrEval
 *
 lir
 =
 new
-LFilterArguments
+LFilterArgumentsOrEval
 (
 useFixed
 (
