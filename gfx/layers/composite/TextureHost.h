@@ -234,13 +234,13 @@ class
 TextureParent
 ;
 class
-TileIterator
+BigImageIterator
 {
 public
 :
 virtual
 void
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 =
@@ -248,7 +248,7 @@ BeginTileIteration
 ;
 virtual
 void
-EndTileIteration
+EndBigImageIteration
 (
 )
 {
@@ -402,9 +402,9 @@ nullptr
 ;
 }
 virtual
-TileIterator
+BigImageIterator
 *
-AsTileIterator
+AsBigImageIterator
 (
 )
 {

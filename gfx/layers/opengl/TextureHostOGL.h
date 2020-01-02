@@ -672,7 +672,7 @@ DataTextureSource
 public
 TextureSourceOGL
 public
-TileIterator
+BigImageIterator
 {
 public
 :
@@ -875,9 +875,9 @@ GetWrapMode
 ;
 }
 virtual
-TileIterator
+BigImageIterator
 *
-AsTileIterator
+AsBigImageIterator
 (
 )
 MOZ_OVERRIDE
@@ -888,7 +888,7 @@ this
 }
 virtual
 void
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 MOZ_OVERRIDE
@@ -896,7 +896,7 @@ MOZ_OVERRIDE
 mTexImage
 -
 >
-BeginTileIteration
+BeginBigImageIteration
 (
 )
 ;
@@ -907,7 +907,7 @@ true
 }
 virtual
 void
-EndTileIteration
+EndBigImageIteration
 (
 )
 MOZ_OVERRIDE
