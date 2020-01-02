@@ -4200,6 +4200,16 @@ accesskey
 ;
 "
 #
+ifdef
+XP_LINUX
+autohide
+=
+"
+true
+"
+#
+endif
+#
 endif
 context
 =
