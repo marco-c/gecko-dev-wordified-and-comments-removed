@@ -219,6 +219,9 @@ dontConnect
 DOMString
 serverCertificate
 ;
+DOMString
+subjectMatch
+;
 }
 ;
 [
@@ -406,6 +409,11 @@ attribute
 DOMString
 ?
 serverCertificate
+;
+attribute
+DOMString
+?
+subjectMatch
 ;
 }
 ;
