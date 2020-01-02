@@ -227,9 +227,9 @@ const
 gfx
 :
 :
-IntSize
+IntRect
 &
-aSize
+aRect
 )
 ;
 CompositingRenderTargetD3D9
@@ -243,9 +243,9 @@ const
 gfx
 :
 :
-IntSize
+IntRect
 &
-aSize
+aRect
 )
 ;
 ~

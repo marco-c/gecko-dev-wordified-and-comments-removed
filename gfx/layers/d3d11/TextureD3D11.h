@@ -210,6 +210,13 @@ CompositingRenderTargetD3D11
 ID3D11Texture2D
 *
 aTexture
+const
+gfx
+:
+:
+IntPoint
+&
+aOrigin
 )
 ;
 virtual

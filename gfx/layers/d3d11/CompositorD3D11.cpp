@@ -1750,6 +1750,11 @@ new
 CompositingRenderTargetD3D11
 (
 texture
+aRect
+.
+TopLeft
+(
+)
 )
 ;
 rt
@@ -2054,6 +2059,11 @@ new
 CompositingRenderTargetD3D11
 (
 texture
+aRect
+.
+TopLeft
+(
+)
 )
 ;
 rt
@@ -4116,6 +4126,11 @@ new
 CompositingRenderTargetD3D11
 (
 backBuf
+IntPoint
+(
+0
+0
+)
 )
 ;
 mDefaultRT

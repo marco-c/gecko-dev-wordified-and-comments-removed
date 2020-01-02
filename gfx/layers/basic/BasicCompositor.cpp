@@ -1125,10 +1125,6 @@ BasicCompositingRenderTarget
 (
 target
 aRect
-.
-Size
-(
-)
 )
 ;
 return
@@ -1192,10 +1188,6 @@ BasicCompositingRenderTarget
 (
 target
 aRect
-.
-Size
-(
-)
 )
 ;
 DrawTarget
