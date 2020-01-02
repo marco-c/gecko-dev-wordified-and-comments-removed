@@ -5844,6 +5844,16 @@ max_retention_days
 pref
 (
 "
+osfile
+.
+reset_worker_delay
+"
+5000
+)
+;
+pref
+(
+"
 identity
 .
 fxaccounts
