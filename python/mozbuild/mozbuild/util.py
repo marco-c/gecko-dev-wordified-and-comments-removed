@@ -667,7 +667,7 @@ self
         
 self
 .
-filename
+name
 =
 filename
     
@@ -744,7 +744,7 @@ open
 (
 self
 .
-filename
+name
 '
 rU
 '
@@ -800,7 +800,7 @@ ensureParentDir
 (
 self
 .
-filename
+name
 )
         
 with
@@ -808,7 +808,7 @@ open
 (
 self
 .
-filename
+name
 '
 w
 '

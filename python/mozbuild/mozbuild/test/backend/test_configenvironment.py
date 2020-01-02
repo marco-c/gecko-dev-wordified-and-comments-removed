@@ -564,13 +564,25 @@ baz
 ]
 )
             
-env
-.
-create_config_file
+with
+open
 (
 '
 file
 '
+'
+w
+'
+)
+as
+fh
+:
+                
+env
+.
+create_config_file
+(
+fh
 )
             
 self
@@ -722,13 +734,25 @@ baz
 ]
 )
             
-env
-.
-create_config_header
+with
+open
 (
 '
 file
 '
+'
+w
+'
+)
+as
+fh
+:
+                
+env
+.
+create_config_header
+(
+fh
 )
             
 self
