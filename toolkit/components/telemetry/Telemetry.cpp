@@ -1945,7 +1945,7 @@ aOb
 if
 (
 !
-NS_IsMainThread
+IsMainThread
 (
 )
 )
@@ -14968,17 +14968,6 @@ sTelemetryIOObserver
 return
 ;
 }
-IOInterposer
-:
-:
-Init
-(
-)
-;
-InitPoisonIOInterposer
-(
-)
-;
 sTelemetryIOObserver
 =
 new

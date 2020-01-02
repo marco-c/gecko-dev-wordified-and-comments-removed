@@ -197,16 +197,6 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-EXPORTS
-+
-=
-[
-'
-nsWindowsDllInterceptor
-.
-h
-'
-]
 UNIFIED_SOURCES
 +
 =
