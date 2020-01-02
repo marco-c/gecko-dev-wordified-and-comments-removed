@@ -18497,6 +18497,15 @@ toggleFullScreen
 :
 )
 ]
+&
+&
+!
+nsCocoaFeatures
+:
+:
+OnYosemiteOrLater
+(
+)
 )
 {
 /
