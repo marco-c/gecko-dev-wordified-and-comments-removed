@@ -88,17 +88,6 @@ assertEq
 names
 .
 length
-1
-)
-;
-assertEq
-(
-names
-[
 0
-]
-'
-e
-'
 )
 ;
