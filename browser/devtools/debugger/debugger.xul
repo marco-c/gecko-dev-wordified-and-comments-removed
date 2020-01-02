@@ -3028,6 +3028,12 @@ pretty
 -
 print
 "
+label
+=
+"
+{
+}
+"
 tooltiptext
 =
 "
@@ -3054,12 +3060,7 @@ command
 "
 prettyPrintCommand
 "
->
-{
-}
-<
 /
-toolbarbutton
 >
 <
 /
