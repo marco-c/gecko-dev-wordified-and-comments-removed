@@ -2458,6 +2458,10 @@ Destroy
 (
 )
 {
+CancelAnimation
+(
+)
+;
 {
 MonitorAutoLock
 lock
