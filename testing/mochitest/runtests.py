@@ -10099,6 +10099,8 @@ testsToRun
 status
 )
       
+result
+=
 self
 .
 doTests
@@ -10168,13 +10170,9 @@ bisect
 print_summary
 (
 )
-      
-return
--
-1
     
 return
-0
+result
   
 def
 runTests
@@ -10214,6 +10212,7 @@ options
 runByDir
 :
       
+return
 self
 .
 runMochitests
@@ -10221,9 +10220,6 @@ runMochitests
 options
 onLaunch
 )
-      
-return
-0
     
 dirs
 =
@@ -10354,7 +10350,7 @@ options
 .
 testPath
       
-runResult
+result
 =
 self
 .
@@ -10363,17 +10359,6 @@ runMochitests
 options
 onLaunch
 )
-      
-if
-runResult
-=
-=
--
-1
-:
-        
-return
-0
     
 if
 options
@@ -10516,6 +10501,9 @@ INFO
 SimpleTest
 FINISHED
 "
+    
+return
+result
   
 def
 doTests
