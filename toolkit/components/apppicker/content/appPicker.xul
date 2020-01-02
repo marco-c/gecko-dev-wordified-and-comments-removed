@@ -245,6 +245,18 @@ appPickerCancel
 )
 ;
 "
+aria
+-
+describedby
+=
+"
+content
+-
+description
+suggested
+-
+filename
+"
 persist
 =
 "
@@ -382,7 +394,7 @@ SendMsg
 label
 ;
 "
-for
+control
 =
 "
 app

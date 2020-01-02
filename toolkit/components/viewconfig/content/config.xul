@@ -172,6 +172,14 @@ role
 "
 application
 "
+aria
+-
+describedby
+=
+"
+warningTitle
+warningText
+"
 width
 =
 "
