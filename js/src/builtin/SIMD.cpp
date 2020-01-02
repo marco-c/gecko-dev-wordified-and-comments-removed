@@ -6494,15 +6494,6 @@ i
 float
 *
 result
-[
-Float32x4
-:
-:
-lanes
-]
-;
-*
-result
 =
 reinterpret_cast
 <
@@ -6510,7 +6501,6 @@ float
 *
 >
 (
-&
 orInt
 )
 ;
@@ -6524,7 +6514,6 @@ Float32x4
 >
 (
 cx
-*
 result
 )
 )
