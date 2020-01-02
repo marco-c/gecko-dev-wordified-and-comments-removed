@@ -5737,6 +5737,12 @@ if
 mSkippedPaint
 &
 &
+!
+IsInRefresh
+(
+)
+&
+&
 (
 ObserverCount
 (
@@ -5749,14 +5755,6 @@ ImageRequestCount
 )
 )
 {
-MOZ_ASSERT
-(
-!
-IsInRefresh
-(
-)
-)
-;
 DoRefresh
 (
 )
