@@ -111,7 +111,11 @@ h
 #
 include
 "
-nsDOMUIEvent
+mozilla
+/
+dom
+/
+UIEvent
 .
 h
 "
@@ -393,7 +397,13 @@ Event
 ;
 NEW_BINDING
 (
-nsDOMUIEvent
+mozilla
+:
+:
+dom
+:
+:
+UIEvent
 UIEvent
 )
 ;

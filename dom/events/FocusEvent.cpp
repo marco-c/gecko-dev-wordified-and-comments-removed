@@ -34,7 +34,7 @@ dom
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 FocusEvent
-nsDOMUIEvent
+UIEvent
 nsIDOMFocusEvent
 )
 FocusEvent
@@ -53,7 +53,7 @@ InternalFocusEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -175,7 +175,7 @@ aRelatedTarget
 nsresult
 rv
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 InitUIEvent

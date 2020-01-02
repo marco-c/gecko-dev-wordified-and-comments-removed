@@ -47,7 +47,7 @@ WidgetCompositionEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -131,12 +131,12 @@ data
 NS_IMPL_ADDREF_INHERITED
 (
 CompositionEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 CompositionEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -148,7 +148,7 @@ nsIDOMCompositionEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMUIEvent
+UIEvent
 )
 NS_IMETHODIMP
 CompositionEvent
@@ -218,7 +218,7 @@ aLocale
 nsresult
 rv
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 InitUIEvent

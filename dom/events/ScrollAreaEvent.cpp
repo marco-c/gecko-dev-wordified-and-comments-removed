@@ -69,7 +69,7 @@ InternalScrollAreaEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -100,12 +100,12 @@ nsRect
 NS_IMPL_ADDREF_INHERITED
 (
 ScrollAreaEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 ScrollAreaEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -117,7 +117,7 @@ nsIDOMScrollAreaEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMUIEvent
+UIEvent
 )
 #
 define
@@ -204,7 +204,7 @@ aHeight
 nsresult
 rv
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 InitUIEvent

@@ -241,7 +241,7 @@ WidgetTouchEvent
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -333,7 +333,7 @@ PR_Now
 NS_IMPL_CYCLE_COLLECTION_INHERITED_3
 (
 TouchEvent
-nsDOMUIEvent
+UIEvent
 mTouches
 mTargetTouches
 mChangedTouches
@@ -344,17 +344,17 @@ TouchEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_ADDREF_INHERITED
 (
 TouchEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 TouchEvent
-nsDOMUIEvent
+UIEvent
 )
 void
 TouchEvent
@@ -399,7 +399,7 @@ aRv
 {
 aRv
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 InitUIEvent

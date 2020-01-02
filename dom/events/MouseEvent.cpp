@@ -61,7 +61,7 @@ WidgetMouseEventBase
 aEvent
 )
 :
-nsDOMUIEvent
+UIEvent
 (
 aOwner
 aPresContext
@@ -188,12 +188,12 @@ clickCount
 NS_IMPL_ADDREF_INHERITED
 (
 MouseEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 MouseEvent
-nsDOMUIEvent
+UIEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -205,7 +205,7 @@ nsIDOMMouseEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMUIEvent
+UIEvent
 )
 NS_IMETHODIMP
 MouseEvent
@@ -252,7 +252,7 @@ aRelatedTarget
 nsresult
 rv
 =
-nsDOMUIEvent
+UIEvent
 :
 :
 InitUIEvent
