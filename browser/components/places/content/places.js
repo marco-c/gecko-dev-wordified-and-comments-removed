@@ -2930,6 +2930,8 @@ saveBookmarksToJSONFile
 fp
 .
 file
+.
+path
 )
 ;
 }

@@ -3445,7 +3445,7 @@ bookmarks
 .
 max_backups
 "
-10
+15
 )
 ;
 pref
