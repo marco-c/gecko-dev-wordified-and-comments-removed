@@ -749,6 +749,18 @@ JS_ASSERT
 thingp
 )
 ;
+#
+if
+defined
+(
+JS_CRASH_DIAGNOSTICS
+)
+|
+|
+defined
+(
+DEBUG
+)
 T
 *
 thing
@@ -756,6 +768,8 @@ thing
 *
 thingp
 ;
+#
+endif
 #
 ifdef
 JS_CRASH_DIAGNOSTICS
