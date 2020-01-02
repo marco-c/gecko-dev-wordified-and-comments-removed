@@ -5415,7 +5415,7 @@ null
 "
 )
 ;
-ContentParent
+nsIContentParent
 *
 contentParent
 =

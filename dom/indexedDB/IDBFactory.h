@@ -105,7 +105,7 @@ namespace
 dom
 {
 class
-ContentParent
+nsIContentParent
 ;
 class
 IDBOpenDBOptions
@@ -147,8 +147,8 @@ mozilla
 dom
 :
 :
-ContentParent
-ContentParent
+nsIContentParent
+nsIContentParent
 ;
 typedef
 mozilla
@@ -208,7 +208,7 @@ const
 nsACString
 &
 aASCIIOrigin
-ContentParent
+nsIContentParent
 *
 aContentParent
 IDBFactory
@@ -224,7 +224,7 @@ Create
 nsPIDOMWindow
 *
 aWindow
-ContentParent
+nsIContentParent
 *
 aContentParent
 IDBFactory
@@ -264,7 +264,7 @@ JSObject
 *
 >
 aOwningObject
-ContentParent
+nsIContentParent
 *
 aContentParent
 IDBFactory
@@ -277,7 +277,7 @@ static
 nsresult
 Create
 (
-ContentParent
+nsIContentParent
 *
 aContentParent
 IDBFactory
@@ -820,7 +820,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 mContentParent
 ;
