@@ -1479,16 +1479,6 @@ if
 theEntry
 )
 {
-NS_WARNING
-(
-"
-Declared
-InterfaceInfo
-not
-found
-"
-)
-;
 *
 entry
 =
