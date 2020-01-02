@@ -71622,6 +71622,8 @@ descriptor
 interface
 .
 hasInterfaceObject
+(
+)
                     
 cgThings
 .
@@ -71800,6 +71802,8 @@ descriptor
 interface
 .
 hasInterfaceObject
+(
+)
                     
 cgThings
 .
@@ -71956,6 +71960,8 @@ descriptor
 interface
 .
 hasInterfaceObject
+(
+)
                         
 cgThings
 .
