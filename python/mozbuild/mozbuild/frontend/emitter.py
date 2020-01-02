@@ -2624,7 +2624,6 @@ path
 =
 \
                     
-(
 mozpath
 .
 join
@@ -2636,8 +2635,6 @@ test
 relpath
 '
 ]
-)
-True
 )
                 
 for
@@ -2780,17 +2777,12 @@ installs
 full
 ]
 =
-\
-                                    
-(
 mozpath
 .
 join
 (
 out_dir
 f
-)
-False
 )
                         
 else
@@ -2812,6 +2804,18 @@ pattern
 )
 )
                             
+if
+not
+full
+.
+startswith
+(
+manifest_dir
+)
+:
+                                
+continue
+                            
 obj
 .
 installs
@@ -2819,21 +2823,12 @@ installs
 full
 ]
 =
-(
-mozpath
-.
-normpath
-(
-                                
 mozpath
 .
 join
 (
 out_dir
 pattern
-)
-)
-False
 )
             
 out_path
@@ -2860,10 +2855,7 @@ installs
 path
 ]
 =
-(
 out_path
-False
-)
             
 for
 f
