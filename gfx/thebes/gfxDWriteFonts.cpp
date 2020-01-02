@@ -3121,7 +3121,7 @@ mFontInstances
 mGlyphWidths
 -
 >
-SizeOfExcludingThis
+SizeOfIncludingThis
 (
 nullptr
 aMallocSizeOf

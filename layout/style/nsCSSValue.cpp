@@ -13374,7 +13374,7 @@ n
 =
 mTemplates
 .
-SizeOfIncludingThis
+SizeOfExcludingThis
 (
 aMallocSizeOf
 )
