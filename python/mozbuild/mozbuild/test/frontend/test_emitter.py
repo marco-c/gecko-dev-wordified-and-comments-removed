@@ -1216,21 +1216,6 @@ c
 '
 ]
             
-LIBS
-=
-[
-'
-fans
-.
-lib
-'
-'
-tans
-.
-lib
-'
-]
-            
 MSVC_ENABLE_PGO
 =
 True
