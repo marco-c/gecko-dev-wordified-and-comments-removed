@@ -69,6 +69,13 @@ cairo_path_t
 aPath
 )
 ;
+void
+EnsureFlattenedPath
+(
+)
+;
+public
+:
 gfxPath
 (
 mozilla
@@ -82,13 +89,6 @@ Path
 aPath
 )
 ;
-void
-EnsureFlattenedPath
-(
-)
-;
-public
-:
 virtual
 ~
 gfxPath
