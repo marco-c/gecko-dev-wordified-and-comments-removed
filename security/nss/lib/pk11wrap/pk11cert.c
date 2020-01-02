@@ -4442,6 +4442,11 @@ object
 certobj
 )
 ;
+nssCertificate_AddRef
+(
+c
+)
+;
 nssTrustDomain_AddCertsToCache
 (
 STAN_GetDefaultTrustDomain
@@ -4456,6 +4461,11 @@ c
 void
 )
 STAN_ForceCERTCertificateUpdate
+(
+c
+)
+;
+nssCertificate_Destroy
 (
 c
 )

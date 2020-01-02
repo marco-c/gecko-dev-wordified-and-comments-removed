@@ -269,6 +269,9 @@ bad_certificate_status_response
 bad_certificate_hash_value
 =
 114
+no_application_protocol
+=
+120
 }
 SSL3AlertDescription
 ;
