@@ -54,7 +54,7 @@ allowGC
 :
 InlineFrameIteratorMaybeGC
 (
-JSContext
+ThreadSafeContext
 *
 cx
 const

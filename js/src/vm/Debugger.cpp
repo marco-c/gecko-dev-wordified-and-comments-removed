@@ -11278,6 +11278,7 @@ i
 .
 ensureHasRematerializedFrame
 (
+cx
 )
 )
 return
@@ -21996,9 +21997,7 @@ cx
 )
 -
 >
-runtime
-(
-)
+perThreadData
 )
 ;
 while
@@ -23489,6 +23488,7 @@ iter
 .
 ensureHasRematerializedFrame
 (
+cx
 )
 )
 return
