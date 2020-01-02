@@ -1889,6 +1889,13 @@ DebuggerView
 .
 showEditor
 )
+.
+then
+(
+this
+.
+updateToolbarButtonsState
+)
 ;
 }
 _selectBreakpoint
