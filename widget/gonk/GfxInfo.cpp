@@ -402,7 +402,7 @@ aStatus
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 ;
 return
 NS_OK

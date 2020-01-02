@@ -1425,7 +1425,7 @@ aStatus
 EqualsLiteral
 (
 "
-NO_INFO
+STATUS_OK
 "
 )
 )
@@ -1433,7 +1433,7 @@ return
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 ;
 else
 if
@@ -1511,7 +1511,7 @@ return
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 ;
 }
 static
@@ -3771,7 +3771,7 @@ aStatus
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 ;
 }
 else
@@ -3978,7 +3978,7 @@ case
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_OK
 :
 RemovePrefForFeature
 (
