@@ -1692,6 +1692,7 @@ IsPending
 NS_ProcessNextEvent
 (
 thread
+true
 )
 ;
 return
@@ -1952,6 +1953,7 @@ NS_ProcessNextEvent
 context
 .
 joiningThread
+true
 )
 ;
 PR_JoinThread
