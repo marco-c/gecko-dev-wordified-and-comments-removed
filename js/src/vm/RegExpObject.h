@@ -1133,6 +1133,9 @@ PendingSet
 PendingSet
 inUse_
 ;
+HeapPtrObject
+matchResultTemplateObject_
+;
 public
 :
 RegExpCompartment
@@ -1198,6 +1201,15 @@ maybeOpt
 RegExpGuard
 *
 g
+)
+;
+HeapPtrObject
+&
+getOrCreateMatchResultTemplateObject
+(
+JSContext
+*
+cx
 )
 ;
 size_t
