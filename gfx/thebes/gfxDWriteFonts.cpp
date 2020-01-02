@@ -3077,7 +3077,7 @@ void
 gfxDWriteFont
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -3090,7 +3090,7 @@ const
 gfxFont
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -3133,7 +3133,7 @@ void
 gfxDWriteFont
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -3154,7 +3154,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes

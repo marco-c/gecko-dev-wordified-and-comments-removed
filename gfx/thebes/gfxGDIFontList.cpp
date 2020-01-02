@@ -1748,7 +1748,7 @@ void
 GDIFontEntry
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -1769,7 +1769,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -4047,7 +4047,7 @@ void
 gfxGDIFontList
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -4060,7 +4060,7 @@ const
 gfxPlatformFontList
 :
 :
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
@@ -4135,7 +4135,7 @@ void
 gfxGDIFontList
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -4156,7 +4156,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes

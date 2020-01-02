@@ -133,7 +133,7 @@ aForce
 }
 virtual
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -148,7 +148,7 @@ const
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
@@ -469,7 +469,7 @@ mForceGDIClassic
 }
 virtual
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -484,7 +484,7 @@ const
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :
@@ -1178,7 +1178,7 @@ mForceGDIClassicMaxFontSize
 }
 virtual
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -1193,7 +1193,7 @@ const
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :

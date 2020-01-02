@@ -248,7 +248,7 @@ aFamily
 ;
 virtual
 void
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 mozilla
 :
@@ -263,7 +263,7 @@ const
 ;
 virtual
 void
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 mozilla
 :

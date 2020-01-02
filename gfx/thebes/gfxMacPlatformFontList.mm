@@ -3021,7 +3021,7 @@ void
 MacOSFontEntry
 :
 :
-SizeOfIncludingThis
+AddSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -3042,7 +3042,7 @@ aMallocSizeOf
 this
 )
 ;
-SizeOfExcludingThis
+AddSizeOfExcludingThis
 (
 aMallocSizeOf
 aSizes
