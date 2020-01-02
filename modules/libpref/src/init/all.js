@@ -35075,9 +35075,11 @@ https
 /
 activations
 .
+cdn
+.
 mozilla
 .
-org
+net
 "
 )
 ;
