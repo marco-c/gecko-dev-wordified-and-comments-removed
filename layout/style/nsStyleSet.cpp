@@ -3123,6 +3123,15 @@ bool
 aEnable
 )
 {
+if
+(
+!
+mQuirkStyleSheet
+)
+{
+return
+;
+}
 #
 ifdef
 DEBUG
