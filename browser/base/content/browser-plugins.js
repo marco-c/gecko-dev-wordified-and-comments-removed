@@ -4463,6 +4463,13 @@ reload
 )
 ;
 }
+this
+.
+_setPluginNotificationIcon
+(
+browser
+)
+;
 }
 _showClickToPlayNotification
 :
