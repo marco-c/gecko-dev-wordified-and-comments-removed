@@ -4392,7 +4392,7 @@ JS_FN
 ForkJoin
 "
 intrinsic_ForkJoin
-2
+5
 0
 )
 JS_FN

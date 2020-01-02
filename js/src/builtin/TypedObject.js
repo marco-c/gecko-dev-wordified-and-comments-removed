@@ -5589,6 +5589,7 @@ ForkJoinMode
 (
 mode
 )
+outArray
 )
 ;
 return
@@ -5867,6 +5868,9 @@ outOffset
 =
 outGrainTypeSize
 ;
+#
+ifndef
+JSGC_FJGENERATIONAL
 if
 (
 outGrainTypeIsTransparent
@@ -5875,6 +5879,8 @@ ClearThreadLocalArenas
 (
 )
 ;
+#
+endif
 }
 }
 return

@@ -3227,6 +3227,7 @@ ForkJoinMode
 (
 mode
 )
+buffer
 )
 ;
 return
@@ -3470,6 +3471,7 @@ ForkJoinMode
 (
 mode
 )
+null
 )
 ;
 var
@@ -3764,6 +3766,7 @@ ForkJoinMode
 (
 mode
 )
+buffer
 )
 ;
 var
@@ -3843,6 +3846,7 @@ ForkJoinMode
 (
 mode
 )
+buffer
 )
 ;
 return
@@ -4532,6 +4536,7 @@ ForkJoinMode
 (
 mode
 )
+survivors
 )
 ;
 var
@@ -4585,6 +4590,7 @@ ForkJoinMode
 (
 mode
 )
+buffer
 )
 ;
 return
@@ -5075,6 +5081,7 @@ ForkJoinMode
 (
 mode
 )
+buffer
 )
 ;
 return
