@@ -1377,7 +1377,7 @@ if
 target
 -
 >
-isInterpretedLazy
+isInterpreted
 (
 )
 &
