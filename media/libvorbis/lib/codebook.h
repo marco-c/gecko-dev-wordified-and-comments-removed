@@ -23,7 +23,7 @@ dim
 long
 entries
 ;
-long
+char
 *
 lengthlist
 ;

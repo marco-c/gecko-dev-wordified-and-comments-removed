@@ -98,7 +98,7 @@ libVorbis
 .
 3
 .
-3
+4
 "
 #
 define
@@ -109,9 +109,11 @@ Xiph
 Org
 libVorbis
 I
-20120203
+20140122
 (
-Omnipresent
+Turpak
+r
+jiin
 )
 "
 static

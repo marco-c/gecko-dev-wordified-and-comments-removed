@@ -840,6 +840,11 @@ look
 )
 )
 ;
+(
+void
+)
+vd
+;
 look
 -
 >

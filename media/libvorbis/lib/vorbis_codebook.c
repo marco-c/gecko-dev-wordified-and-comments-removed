@@ -230,7 +230,7 @@ i
 +
 )
 {
-long
+char
 this
 =
 c
@@ -241,7 +241,7 @@ lengthlist
 i
 ]
 ;
-long
+char
 last
 =
 c
@@ -2666,7 +2666,6 @@ else
 {
 int
 i
-j
 ;
 for
 (

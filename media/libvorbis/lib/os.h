@@ -549,6 +549,11 @@ vorbis_fpu_control
 fpu
 )
 {
+(
+void
+)
+fpu
+;
 }
 static
 __inline
@@ -559,6 +564,11 @@ vorbis_fpu_control
 fpu
 )
 {
+(
+void
+)
+fpu
+;
 }
 #
 endif
@@ -634,6 +644,11 @@ vorbis_fpu_control
 fpu
 )
 {
+(
+void
+)
+fpu
+;
 }
 static
 __inline
@@ -644,6 +659,11 @@ vorbis_fpu_control
 fpu
 )
 {
+(
+void
+)
+fpu
+;
 }
 #
 endif

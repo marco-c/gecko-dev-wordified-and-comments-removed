@@ -280,7 +280,7 @@ ogg_uint32_t
 *
 _make_words
 (
-long
+char
 *
 l
 long
