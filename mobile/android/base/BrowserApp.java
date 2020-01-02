@@ -757,8 +757,7 @@ private
 View
 mBrowserSearchContainer
 ;
-public
-static
+private
 BrowserToolbar
 mBrowserToolbar
 ;
