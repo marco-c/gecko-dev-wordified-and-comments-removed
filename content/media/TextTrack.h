@@ -64,6 +64,14 @@ TextTrackRegion
 class
 HTMLTrackElement
 ;
+enum
+TextTrackSource
+{
+Track
+AddTextTrack
+MediaResourceSpecific
+}
+;
 class
 TextTrack
 MOZ_FINAL
@@ -84,6 +92,8 @@ TextTrack
 nsISupports
 *
 aParent
+TextTrackSource
+aTextTrackSource
 )
 ;
 TextTrack
@@ -101,6 +111,8 @@ const
 nsAString
 &
 aLanguage
+TextTrackSource
+aTextTrackSource
 )
 ;
 TextTrack
@@ -121,6 +133,8 @@ const
 nsAString
 &
 aLanguage
+TextTrackSource
+aTextTrackSource
 )
 ;
 void
@@ -370,6 +384,15 @@ HTMLTrackElement
 aTrackElement
 )
 ;
+TextTrackSource
+GetTextTrackSource
+(
+)
+{
+return
+mTextTrackSource
+;
+}
 private
 :
 void
@@ -433,6 +456,9 @@ mReadyState
 ;
 bool
 mDirty
+;
+TextTrackSource
+mTextTrackSource
 ;
 }
 ;
