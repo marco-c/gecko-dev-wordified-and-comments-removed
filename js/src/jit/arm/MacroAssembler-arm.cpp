@@ -18657,11 +18657,16 @@ type
 )
 ;
 }
+#
+ifdef
+DEBUG
 AssertValidABIFunctionType
 (
 passedArgTypes_
 )
 ;
+#
+endif
 ABIFunctionType
 type
 =
