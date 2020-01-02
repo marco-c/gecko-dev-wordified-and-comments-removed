@@ -836,6 +836,7 @@ new
 LDivPowTwoI
 (
 lhs
+lhs
 shift
 )
 ;
