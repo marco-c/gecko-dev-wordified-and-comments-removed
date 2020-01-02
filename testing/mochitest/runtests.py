@@ -2754,7 +2754,7 @@ xhtml
 elif
 options
 .
-webapprtChrome
+webapprtContent
 :
       
 testPattern
@@ -2766,6 +2766,28 @@ compile
 r
 "
 webapprt_
+"
+)
+    
+elif
+options
+.
+webapprtChrome
+:
+      
+allow_js_css
+=
+True
+      
+testPattern
+=
+re
+.
+compile
+(
+r
+"
+browser_
 "
 )
     
