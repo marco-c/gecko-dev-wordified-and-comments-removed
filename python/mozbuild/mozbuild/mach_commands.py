@@ -2485,6 +2485,10 @@ ccache_end
 -
 ccache_start
             
+if
+ccache_diff
+:
+                
 self
 .
 log
@@ -2495,7 +2499,7 @@ INFO
 '
 ccache
 '
-                     
+                         
 {
 '
 msg
