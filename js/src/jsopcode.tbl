@@ -2073,7 +2073,7 @@ JSOP_GETLOCAL
 getlocal
 "
 NULL
-3
+4
 0
 1
 JOF_LOCAL
@@ -2088,7 +2088,7 @@ JSOP_SETLOCAL
 setlocal
 "
 NULL
-3
+4
 1
 1
 JOF_LOCAL
@@ -4577,7 +4577,7 @@ JSOP_ARRAYPUSH
 arraypush
 "
 NULL
-3
+4
 1
 0
 JOF_LOCAL
@@ -4687,7 +4687,7 @@ JSOP_CALLLOCAL
 calllocal
 "
 NULL
-3
+4
 0
 1
 JOF_LOCAL

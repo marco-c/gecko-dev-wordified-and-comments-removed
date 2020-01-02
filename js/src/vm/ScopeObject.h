@@ -1085,14 +1085,14 @@ propertyCountForCompilation
 )
 ;
 }
-unsigned
+uint32_t
 slotToLocalIndex
 (
 const
 Bindings
 &
 bindings
-unsigned
+uint32_t
 slot
 )
 {
@@ -1125,7 +1125,7 @@ RESERVED_SLOTS
 )
 ;
 }
-unsigned
+uint32_t
 localIndexToSlot
 (
 const

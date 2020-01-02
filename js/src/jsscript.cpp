@@ -271,7 +271,7 @@ GlobalObject
 >
 RootedGlobalObject
 ;
-unsigned
+uint32_t
 Bindings
 :
 :
@@ -339,7 +339,7 @@ InternalBindingsHandle
 self
 unsigned
 numArgs
-unsigned
+uint32_t
 numVars
 Binding
 *
@@ -392,7 +392,7 @@ JS_ASSERT
 numVars
 <
 =
-SLOTNO_LIMIT
+LOCALNO_LIMIT
 )
 ;
 JS_ASSERT
@@ -552,7 +552,7 @@ bi
 self
 )
 ;
-unsigned
+uint32_t
 slot
 =
 CallObject
@@ -562,7 +562,7 @@ RESERVED_SLOTS
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0
@@ -1004,7 +1004,7 @@ LifoAllocScope
 las
 unsigned
 numArgs
-unsigned
+uint32_t
 numVars
 HandleScript
 script
@@ -1132,7 +1132,7 @@ false
 }
 else
 {
-unsigned
+uint32_t
 nameCount
 =
 numArgs
@@ -1160,7 +1160,7 @@ false
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0
@@ -1232,7 +1232,7 @@ false
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0
@@ -1360,7 +1360,7 @@ Bindings
 :
 bindingIsAliased
 (
-unsigned
+uint32_t
 bindingIndex
 )
 {
@@ -11584,23 +11584,19 @@ function
 }
 if
 (
+UINT32_MAX
+-
 script
 -
 >
 nfixed
 (
 )
-+
+<
 bce
 -
 >
 maxStackDepth
->
-=
-JS_BIT
-(
-16
-)
 )
 {
 bce
@@ -17120,7 +17116,7 @@ bindings
 )
 ;
 const
-unsigned
+uint32_t
 var
 =
 Bindings
@@ -17488,7 +17484,7 @@ JSScript
 :
 varIsAliased
 (
-unsigned
+uint32_t
 varSlot
 )
 {

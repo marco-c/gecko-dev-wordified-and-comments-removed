@@ -9876,7 +9876,7 @@ emit_JSOP_GETLOCAL
 uint32_t
 local
 =
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -9972,7 +9972,7 @@ syncStack
 uint32_t
 local
 =
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -10430,7 +10430,7 @@ emit_JSOP_GETARG
 uint32_t
 arg
 =
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )
@@ -10497,7 +10497,7 @@ true
 uint32_t
 arg
 =
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )

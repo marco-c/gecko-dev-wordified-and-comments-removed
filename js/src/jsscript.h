@@ -531,7 +531,7 @@ bindingArrayAndFlag_
 uint16_t
 numArgs_
 ;
-uint16_t
+uint32_t
 numVars_
 ;
 static
@@ -592,7 +592,7 @@ InternalBindingsHandle
 self
 unsigned
 numArgs
-unsigned
+uint32_t
 numVars
 Binding
 *
@@ -634,7 +634,7 @@ return
 numArgs_
 ;
 }
-unsigned
+uint32_t
 numVars
 (
 )
@@ -644,7 +644,7 @@ return
 numVars_
 ;
 }
-unsigned
+uint32_t
 count
 (
 )
@@ -672,7 +672,7 @@ callObjShape_
 ;
 }
 static
-unsigned
+uint32_t
 argumentsVarIndex
 (
 ExclusiveContext
@@ -684,7 +684,7 @@ InternalBindingsHandle
 bool
 bindingIsAliased
 (
-unsigned
+uint32_t
 bindingIndex
 )
 ;
@@ -2149,17 +2149,6 @@ LazyScript
 *
 lazyScript
 ;
-#
-if
-JS_BITS_PER_WORD
-=
-=
-32
-uint32_t
-padding0
-;
-#
-endif
 uint8_t
 *
 baselineOrIonRaw
@@ -2185,6 +2174,9 @@ mainOffset_
 ;
 uint32_t
 natoms_
+;
+uint32_t
+nslots_
 ;
 uint32_t
 sourceStart_
@@ -2214,9 +2206,6 @@ funLength_
 ;
 uint16_t
 nTypeSets_
-;
-uint16_t
-nslots_
 ;
 uint16_t
 staticLevel_
@@ -5854,7 +5843,7 @@ JSOP_RETRVAL
 bool
 varIsAliased
 (
-unsigned
+uint32_t
 varSlot
 )
 ;
@@ -6201,7 +6190,7 @@ const
 InternalBindingsHandle
 bindings_
 ;
-unsigned
+uint32_t
 i_
 ;
 friend
@@ -6325,7 +6314,7 @@ return
 this
 ;
 }
-unsigned
+uint32_t
 frameIndex
 (
 )

@@ -6469,7 +6469,7 @@ checkAliasing
 JSScript
 *
 script
-unsigned
+uint32_t
 i
 )
 {

@@ -15382,7 +15382,7 @@ pc
 JSOP_GETARG
 |
 |
-GET_SLOTNO
+GET_ARGNO
 (
 pc
 )

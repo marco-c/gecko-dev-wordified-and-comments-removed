@@ -495,6 +495,9 @@ generateFunctionBindings
 ExclusiveContext
 *
 cx
+TokenStream
+&
+ts
 LifoAlloc
 &
 alloc

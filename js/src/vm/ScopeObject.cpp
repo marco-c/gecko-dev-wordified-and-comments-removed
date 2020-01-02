@@ -6056,7 +6056,7 @@ kind
 CONSTANT
 )
 {
-unsigned
+uint32_t
 i
 =
 bi
@@ -6541,7 +6541,7 @@ script
 (
 )
 ;
-unsigned
+uint32_t
 local
 =
 block

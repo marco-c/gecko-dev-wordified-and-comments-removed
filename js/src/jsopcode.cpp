@@ -5523,7 +5523,7 @@ sp
 %
 u
 "
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -7315,7 +7315,7 @@ JSAtom
 *
 getVar
 (
-unsigned
+uint32_t
 slot
 )
 ;
@@ -7678,10 +7678,10 @@ case
 JSOP_CALLLOCAL
 :
 {
-unsigned
+uint32_t
 i
 =
-GET_SLOTNO
+GET_LOCALNO
 (
 pc
 )
@@ -8418,7 +8418,7 @@ findLetVar
 jsbytecode
 *
 pc
-unsigned
+uint32_t
 depth
 )
 {
@@ -8622,7 +8622,7 @@ ExpressionDecompiler
 :
 getVar
 (
-unsigned
+uint32_t
 slot
 )
 {

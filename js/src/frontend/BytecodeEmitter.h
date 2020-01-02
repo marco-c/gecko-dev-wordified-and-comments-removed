@@ -477,13 +477,13 @@ atomIndices
 unsigned
 firstLine
 ;
-int
+int32_t
 stackDepth
 ;
-unsigned
+uint32_t
 maxStackDepth
 ;
-unsigned
+uint32_t
 arrayCompDepth
 ;
 unsigned

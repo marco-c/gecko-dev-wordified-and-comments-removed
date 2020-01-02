@@ -15416,10 +15416,10 @@ CASE
 JSOP_CALLLOCAL
 )
 {
-unsigned
+uint32_t
 i
 =
-GET_SLOTNO
+GET_LOCALNO
 (
 REGS
 .
@@ -15475,10 +15475,10 @@ CASE
 JSOP_SETLOCAL
 )
 {
-unsigned
+uint32_t
 i
 =
-GET_SLOTNO
+GET_LOCALNO
 (
 REGS
 .
@@ -17994,7 +17994,7 @@ JSOP_ARRAYPUSH
 uint32_t
 slot
 =
-GET_UINT16
+GET_LOCALNO
 (
 REGS
 .
