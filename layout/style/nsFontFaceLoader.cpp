@@ -4976,6 +4976,15 @@ DoRebuildUserFontSet
 (
 )
 {
+if
+(
+!
+mPresContext
+)
+{
+return
+;
+}
 mPresContext
 -
 >
