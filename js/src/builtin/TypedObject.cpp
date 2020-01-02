@@ -5419,6 +5419,14 @@ global
 )
 )
 ;
+if
+(
+!
+module
+)
+return
+nullptr
+;
 RootedValue
 moduleValue
 (
