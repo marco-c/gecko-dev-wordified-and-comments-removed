@@ -12211,7 +12211,7 @@ FILE
 aOutput
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -23992,7 +23992,7 @@ first
 =
 true
 ;
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24024,7 +24024,7 @@ first
 =
 false
 ;
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24057,7 +24057,7 @@ if
 first
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24065,7 +24065,7 @@ aOutput
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24115,7 +24115,7 @@ if
 first
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24123,7 +24123,7 @@ aOutput
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24153,7 +24153,7 @@ if
 first
 )
 {
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24161,7 +24161,7 @@ aOutput
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 aOutput
 "
@@ -24170,7 +24170,7 @@ mask
 )
 ;
 }
-fprintf
+fprintf_stderr
 (
 aOutput
 "

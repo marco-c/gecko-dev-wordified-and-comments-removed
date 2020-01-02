@@ -936,7 +936,7 @@ if
 mFrontBuffer
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -946,7 +946,7 @@ s
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 aDumpHtml
@@ -974,7 +974,7 @@ aFile
 mFrontBuffer
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 aDumpHtml
@@ -1950,7 +1950,7 @@ if
 mDeprecatedTextureHost
 )
 {
-fprintf
+fprintf_stderr
 (
 aFile
 "
@@ -1960,7 +1960,7 @@ s
 aPrefix
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 aDumpHtml
@@ -1988,7 +1988,7 @@ aFile
 mDeprecatedTextureHost
 )
 ;
-fprintf
+fprintf_stderr
 (
 aFile
 aDumpHtml
