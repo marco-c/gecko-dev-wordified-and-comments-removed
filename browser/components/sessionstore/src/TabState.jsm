@@ -135,7 +135,7 @@ defineLazyModuleGetter
 (
 this
 "
-PrivacyLevelFilter
+PrivacyFilter
 "
 "
 resource
@@ -147,7 +147,7 @@ modules
 /
 sessionstore
 /
-PrivacyLevelFilter
+PrivacyFilter
 .
 jsm
 "
@@ -1242,7 +1242,7 @@ storage
 {
 value
 =
-PrivacyLevelFilter
+PrivacyFilter
 .
 filterSessionStorageData
 (
@@ -1267,7 +1267,7 @@ formdata
 {
 value
 =
-PrivacyLevelFilter
+PrivacyFilter
 .
 filterFormData
 (

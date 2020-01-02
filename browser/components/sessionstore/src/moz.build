@@ -159,12 +159,12 @@ PageStyle
 jsm
 '
 '
-PrivacyLevel
+PrivacyFilter
 .
 jsm
 '
 '
-PrivacyLevelFilter
+PrivacyLevel
 .
 jsm
 '
