@@ -570,15 +570,6 @@ certUsageObjectSigner
 break
 ;
 case
-certificateUsageVerifyCA
-:
-enumUsage
-=
-certUsageVerifyCA
-;
-break
-;
-case
 certificateUsageStatusResponder
 :
 enumUsage
@@ -1725,9 +1716,6 @@ certificateUsageEmailRecipient
 :
 case
 certificateUsageObjectSigner
-:
-case
-certificateUsageVerifyCA
 :
 case
 certificateUsageStatusResponder
