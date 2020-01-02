@@ -7851,6 +7851,15 @@ element
 this
 )
 ;
+if
+(
+aNode
+.
+isLocal_toBeDeprecated
+(
+)
+)
+{
 this
 .
 rawNode
@@ -7861,6 +7870,7 @@ rawNode
 (
 )
 ;
+}
 if
 (
 this

@@ -5322,6 +5322,19 @@ contentDoc
 =
 null
 ;
+if
+(
+this
+.
+tree
+.
+viewedElement
+.
+isLocal_toBeDeprecated
+(
+)
+)
+{
 let
 rawNode
 =
@@ -5346,6 +5359,7 @@ rawNode
 .
 ownerDocument
 ;
+}
 }
 let
 viewSourceUtils
