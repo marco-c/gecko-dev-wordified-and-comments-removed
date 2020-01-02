@@ -36803,7 +36803,7 @@ masm
 JS_ASSERT
 (
 (
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 masm
 .
@@ -36934,7 +36934,7 @@ bytesToPush
 unsigned
 alreadyPushed
 =
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 masm
 .
@@ -38730,7 +38730,7 @@ stackDec
 unsigned
 offsetToCallerStackArgs
 =
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 masm
 .

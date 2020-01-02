@@ -19080,7 +19080,7 @@ alignmentAtPrologue
 callFromAsmJS
 )
 ?
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 :
 0
 ;

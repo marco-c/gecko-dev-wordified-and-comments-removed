@@ -52734,7 +52734,7 @@ spIncrement
 JS_ASSERT
 (
 (
-AlignmentAtPrologue
+AlignmentAtAsmJSPrologue
 +
 masm
 .
