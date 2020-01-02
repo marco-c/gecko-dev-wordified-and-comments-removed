@@ -124,7 +124,6 @@ bool
 ProvidesGlyphWidths
 (
 )
-const
 {
 return
 true
