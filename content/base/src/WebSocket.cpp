@@ -3034,13 +3034,10 @@ IsEmpty
 {
 mRequestedProtocolList
 .
-Append
-(
-NS_LITERAL_CSTRING
+AppendLiteral
 (
 "
 "
-)
 )
 ;
 }
