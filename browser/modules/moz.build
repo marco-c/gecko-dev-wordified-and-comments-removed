@@ -156,6 +156,11 @@ offlineAppCache
 jsm
 '
 '
+PanelFrame
+.
+jsm
+'
+'
 RemotePrompt
 .
 jsm
