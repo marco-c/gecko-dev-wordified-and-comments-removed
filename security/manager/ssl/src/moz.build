@@ -402,11 +402,6 @@ SOURCES
 =
 [
 '
-JARSignatureVerification
-.
-cpp
-'
-'
 nsCryptoHash
 .
 cpp

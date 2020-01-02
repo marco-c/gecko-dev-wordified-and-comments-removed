@@ -16660,8 +16660,13 @@ defer
 ;
 aCertDb
 .
-openSignedJARFileAsync
+openSignedAppFileAsync
 (
+Ci
+.
+nsIX509CertDB
+.
+AppMarketplaceProdPublicRoot
 aZipFile
 function
 (
