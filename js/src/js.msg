@@ -7016,3 +7016,17 @@ revoked
 proxy
 "
 )
+MSG_DEF
+(
+JSMSG_TEMPLSTR_UNTERM_EXPR
+391
+0
+JSEXN_SYNTAXERR
+"
+missing
+}
+in
+template
+string
+"
+)
