@@ -617,6 +617,16 @@ titlePrivateBrowsingSuffix
 "
 #
 endif
+#
+ifdef
+CAN_DRAW_IN_TITLEBAR
+tabsintitlebar
+=
+"
+true
+"
+#
+endif
 titlemenuseparator
 =
 "
