@@ -111,11 +111,6 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-DIMPL_LIBXUL
 LOCAL_INCLUDES
 +
 =

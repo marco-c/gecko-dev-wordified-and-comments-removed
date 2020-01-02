@@ -1765,16 +1765,6 @@ OS_LIBS
 (
 LIBICONV
 )
-DEFINES
-+
-=
-\
--
-DIMPL_LIBXUL
-\
-(
-NULL
-)
 ifeq
 (
 (

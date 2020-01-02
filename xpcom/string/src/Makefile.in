@@ -145,8 +145,3 @@ sse2
 xO4
 endif
 endif
-DEFINES
-+
-=
--
-DIMPL_LIBXUL
