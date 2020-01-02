@@ -2293,9 +2293,8 @@ Node
 pn
 bool
 isConst
-JSAtom
-*
-atom
+HandlePropertyName
+name
 )
 ;
 bool
