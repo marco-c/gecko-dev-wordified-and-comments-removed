@@ -661,7 +661,7 @@ char
 *
 name
 =
-NULL
+nullptr
 ;
 if
 (

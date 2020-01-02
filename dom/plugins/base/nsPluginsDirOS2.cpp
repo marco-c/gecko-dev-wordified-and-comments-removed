@@ -250,7 +250,7 @@ char
 *
 version
 =
-NULL
+nullptr
 ;
 rc
 =

@@ -245,7 +245,7 @@ WCHAR
 *
 buf
 =
-NULL
+nullptr
 ;
 UINT
 blen
@@ -519,7 +519,7 @@ variants
 data
 )
 return
-NULL
+nullptr
 ;
 char
 *
@@ -547,7 +547,7 @@ if
 array
 )
 return
-NULL
+nullptr
 ;
 char
 *
@@ -705,7 +705,7 @@ array
 i
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -758,10 +758,10 @@ GENERIC_READ
 FILE_SHARE_READ
 |
 FILE_SHARE_WRITE
-NULL
+nullptr
 OPEN_EXISTING
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 ;
 if
@@ -778,15 +778,15 @@ map
 CreateFileMappingW
 (
 file
-NULL
+nullptr
 PAGE_READONLY
 0
 GetFileSize
 (
 file
-NULL
+nullptr
 )
-NULL
+nullptr
 )
 ;
 if
@@ -794,7 +794,7 @@ if
 map
 !
 =
-NULL
+nullptr
 )
 {
 LPVOID
@@ -814,7 +814,7 @@ if
 mapView
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1314,7 +1314,7 @@ protectCurrentDirectory
 {
 SetDllDirectory
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1339,7 +1339,7 @@ rv
 *
 outLibrary
 =
-NULL
+nullptr
 ;
 if
 (

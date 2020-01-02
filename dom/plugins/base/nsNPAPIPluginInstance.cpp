@@ -831,7 +831,7 @@ mNPP
 .
 pdata
 =
-NULL
+nullptr
 ;
 mNPP
 .
@@ -2244,7 +2244,7 @@ char
 *
 )
 values
-NULL
+nullptr
 &
 error
 )
@@ -6397,7 +6397,7 @@ inst
 TimerWithID
 (
 id
-NULL
+nullptr
 )
 )
 return
@@ -6600,7 +6600,7 @@ uniqueID
 TimerWithID
 (
 uniqueID
-NULL
+nullptr
 )
 )
 uniqueID
@@ -7034,7 +7034,7 @@ mOwner
 *
 outContext
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <

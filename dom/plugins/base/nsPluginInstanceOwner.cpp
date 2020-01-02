@@ -767,7 +767,7 @@ GetAPIVersion
 11
 )
 return
-NULL
+nullptr
 ;
 container
 =
@@ -6328,7 +6328,7 @@ nsPluginInstanceOwner
 :
 sCATimer
 =
-NULL
+nullptr
 ;
 nsTArray
 <
@@ -6341,7 +6341,7 @@ nsPluginInstanceOwner
 :
 sCARefreshListeners
 =
-NULL
+nullptr
 ;
 void
 nsPluginInstanceOwner
@@ -6643,7 +6643,7 @@ sCATimer
 InitWithFuncCallback
 (
 CARefresh
-NULL
+nullptr
 DEFAULT_REFRESH_RATE
 nsITimer
 :
@@ -6723,7 +6723,7 @@ sCATimer
 ;
 sCATimer
 =
-NULL
+nullptr
 ;
 }
 delete
@@ -6731,7 +6731,7 @@ sCARefreshListeners
 ;
 sCARefreshListeners
 =
-NULL
+nullptr
 ;
 }
 }
@@ -6941,7 +6941,7 @@ void
 *
 caLayer
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -6997,7 +6997,7 @@ ePluginPaintEnable
 CGImageRef
 caImage
 =
-NULL
+nullptr
 ;
 nsresult
 rt
@@ -7055,7 +7055,7 @@ NS_OK
 caImage
 !
 =
-NULL
+nullptr
 )
 {
 :
@@ -14849,7 +14849,7 @@ void
 *
 result
 =
-NULL
+nullptr
 ;
 if
 (

@@ -110,7 +110,7 @@ char
 *
 dir
 =
-NULL
+nullptr
 ;
 static
 const
@@ -118,7 +118,7 @@ char
 *
 privateDir
 =
-NULL
+nullptr
 ;
 bool
 isPrivate
