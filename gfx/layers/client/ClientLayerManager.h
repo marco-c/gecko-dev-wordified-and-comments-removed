@@ -711,12 +711,9 @@ ProgressiveUpdateCallback
 (
 bool
 aHasPendingNewThebesContent
-ParentLayerRect
+FrameMetrics
 &
-aCompositionBounds
-CSSToParentLayerScale
-&
-aZoom
+aMetrics
 bool
 aDrawingCritical
 )
