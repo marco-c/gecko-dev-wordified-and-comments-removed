@@ -78,6 +78,7 @@ Type
 eTokenStream
 eInitial
 eInherit
+eUnset
 }
 ;
 bool
@@ -107,6 +108,15 @@ aName
 ;
 void
 PutInherit
+(
+const
+nsAString
+&
+aName
+)
+;
+void
+PutUnset
 (
 const
 nsAString
