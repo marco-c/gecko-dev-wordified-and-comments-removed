@@ -7932,6 +7932,9 @@ site
 "
 )
 ;
+#
+ifndef
+RELEASE_BUILD
 pref
 (
 "
@@ -7968,6 +7971,8 @@ GOOGLE_API_KEY
 "
 )
 ;
+#
+endif
 #
 ifdef
 MOZILLA_OFFICIAL
