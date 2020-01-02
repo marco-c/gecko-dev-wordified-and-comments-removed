@@ -1242,6 +1242,14 @@ lir
 )
 ;
 bool
+visitSimdValueX4
+(
+LSimdValueX4
+*
+lir
+)
+;
+bool
 visitSimdExtractElementI
 (
 LSimdExtractElementI
