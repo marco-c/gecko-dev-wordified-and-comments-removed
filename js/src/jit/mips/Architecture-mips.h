@@ -355,7 +355,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -1072,7 +1072,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
