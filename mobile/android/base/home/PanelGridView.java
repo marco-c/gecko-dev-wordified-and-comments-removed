@@ -209,11 +209,6 @@ setAdapter
 mAdapter
 )
 ;
-setNumColumns
-(
-AUTO_FIT
-)
-;
 setOnItemClickListener
 (
 new
