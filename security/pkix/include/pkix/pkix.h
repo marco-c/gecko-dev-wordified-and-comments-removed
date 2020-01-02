@@ -23,9 +23,7 @@ BuildCertChain
 TrustDomain
 &
 trustDomain
-const
-SECItem
-&
+InputBuffer
 cert
 PRTime
 time
@@ -40,7 +38,7 @@ CertPolicyId
 &
 requiredPolicy
 const
-SECItem
+InputBuffer
 *
 stapledOCSPResponse
 )
@@ -90,9 +88,7 @@ PRTime
 time
 uint16_t
 maxLifetimeInDays
-const
-SECItem
-&
+InputBuffer
 encodedResponse
 bool
 &
