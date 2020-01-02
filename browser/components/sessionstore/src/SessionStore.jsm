@@ -719,7 +719,7 @@ defineLazyModuleGetter
 (
 this
 "
-_SessionFile
+SessionFile
 "
 "
 resource
@@ -731,7 +731,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -2242,7 +2242,7 @@ task
 try
 {
 yield
-_SessionFile
+SessionFile
 .
 createBackupCopy
 (
@@ -2264,7 +2264,7 @@ buildID
 )
 ;
 yield
-_SessionFile
+SessionFile
 .
 removeBackupCopy
 (
@@ -3385,7 +3385,7 @@ aInitialState
 options
 )
 ;
-_SessionFile
+SessionFile
 .
 writeLoadStateOnceAfterStartup
 (
@@ -4743,7 +4743,7 @@ ssi_onPurgeSessionHistory
 (
 )
 {
-_SessionFile
+SessionFile
 .
 wipe
 (

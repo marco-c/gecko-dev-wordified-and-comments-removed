@@ -144,7 +144,7 @@ defineLazyModuleGetter
 (
 this
 "
-_SessionFile
+SessionFile
 "
 "
 resource
@@ -156,7 +156,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -965,7 +965,7 @@ updateLastSaveTime
 (
 )
 ;
-_SessionFile
+SessionFile
 .
 write
 (

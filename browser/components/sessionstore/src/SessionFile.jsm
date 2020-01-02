@@ -9,7 +9,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_SessionFile
+SessionFile
 "
 ]
 ;
@@ -292,7 +292,7 @@ jsm
 ;
 this
 .
-_SessionFile
+SessionFile
 =
 {
 read
@@ -442,7 +442,7 @@ Object
 .
 freeze
 (
-_SessionFile
+SessionFile
 )
 ;
 const
@@ -826,7 +826,7 @@ new
 Error
 (
 "
-_SessionFile
+SessionFile
 is
 closed
 "
@@ -1286,7 +1286,7 @@ function
 )
 {
 return
-_SessionFile
+SessionFile
 .
 _latestWrite
 ;

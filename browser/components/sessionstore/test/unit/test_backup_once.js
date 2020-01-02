@@ -48,7 +48,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -195,7 +195,7 @@ pathBackup
 )
 ;
 yield
-_SessionFile
+SessionFile
 .
 write
 (
@@ -293,7 +293,7 @@ pathBackup
 )
 ;
 yield
-_SessionFile
+SessionFile
 .
 write
 (

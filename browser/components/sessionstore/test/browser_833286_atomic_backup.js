@@ -38,7 +38,7 @@ modules
 /
 sessionstore
 /
-_SessionFile
+SessionFile
 .
 jsm
 "
@@ -48,7 +48,7 @@ tmp
 const
 {
 OS
-_SessionFile
+SessionFile
 }
 =
 tmp
@@ -486,7 +486,7 @@ let
 ssDataRead
 =
 yield
-_SessionFile
+SessionFile
 .
 read
 (
@@ -497,7 +497,7 @@ is
 ssDataRead
 gSSData
 "
-_SessionFile
+SessionFile
 .
 read
 read
@@ -511,7 +511,7 @@ correctly
 ;
 ssDataRead
 =
-_SessionFile
+SessionFile
 .
 syncRead
 (
@@ -522,7 +522,7 @@ is
 ssDataRead
 gSSData
 "
-_SessionFile
+SessionFile
 .
 syncRead
 read
@@ -575,7 +575,7 @@ now
 ssDataRead
 =
 yield
-_SessionFile
+SessionFile
 .
 read
 (
@@ -586,7 +586,7 @@ is
 ssDataRead
 gSSBakData
 "
-_SessionFile
+SessionFile
 .
 read
 read
@@ -600,7 +600,7 @@ correctly
 ;
 ssDataRead
 =
-_SessionFile
+SessionFile
 .
 syncRead
 (
@@ -611,7 +611,7 @@ is
 ssDataRead
 gSSBakData
 "
-_SessionFile
+SessionFile
 .
 syncRead
 read

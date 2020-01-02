@@ -124,11 +124,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-_SessionFile
-.
-jsm
-'
-'
 DocShellCapabilities
 .
 jsm
@@ -160,6 +155,11 @@ jsm
 '
 '
 SessionCookies
+.
+jsm
+'
+'
+SessionFile
 .
 jsm
 '
