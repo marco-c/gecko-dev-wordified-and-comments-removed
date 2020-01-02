@@ -519,13 +519,6 @@ ForkJoinSlices
 cx
 )
 ;
-FastInvokeGuard
-fig
-(
-cx
-funVal
-)
-;
 bool
 allComplete
 =
@@ -547,6 +540,13 @@ i
 +
 )
 {
+FastInvokeGuard
+fig
+(
+cx
+funVal
+)
+;
 InvokeArgs
 &
 args
