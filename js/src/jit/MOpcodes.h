@@ -509,11 +509,6 @@ LambdaArrow
 \
 _
 (
-ImplicitThis
-)
-\
-_
-(
 Slots
 )
 \

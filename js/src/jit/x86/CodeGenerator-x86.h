@@ -264,14 +264,6 @@ store
 )
 ;
 bool
-visitImplicitThis
-(
-LImplicitThis
-*
-lir
-)
-;
-bool
 visitInterruptCheck
 (
 LInterruptCheck

@@ -1048,14 +1048,6 @@ ins
 )
 ;
 bool
-visitImplicitThis
-(
-MImplicitThis
-*
-ins
-)
-;
-bool
 visitSlots
 (
 MSlots
