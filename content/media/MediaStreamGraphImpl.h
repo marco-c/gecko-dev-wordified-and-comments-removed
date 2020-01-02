@@ -729,9 +729,6 @@ mForceShutDown
 bool
 mPostedRunInStableStateEvent
 ;
-bool
-mNonRealtimeIsRunning
-;
 nsTArray
 <
 nsAutoPtr
