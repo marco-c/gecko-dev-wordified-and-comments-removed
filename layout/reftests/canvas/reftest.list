@@ -615,6 +615,12 @@ rtl
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 !
 =
 text
