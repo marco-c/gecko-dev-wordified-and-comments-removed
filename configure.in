@@ -29578,7 +29578,7 @@ AM_PATH_NSS
 .
 15
 .
-3
+4
 [
 MOZ_NATIVE_NSS
 =
@@ -77102,7 +77102,8 @@ fi
 ;
 *
 -
-android
+*
+linux
 *
 )
 GYP_MOZMAKE_OPTIONS
