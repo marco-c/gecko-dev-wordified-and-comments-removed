@@ -7452,6 +7452,11 @@ if
 IsButton
 (
 )
+|
+|
+IsMenuButton
+(
+)
 )
 aria
 :
