@@ -419,6 +419,12 @@ using
 mozilla
 :
 :
+InternalScriptErrorEvent
+;
+using
+mozilla
+:
+:
 MutexAutoLock
 ;
 using
@@ -4688,7 +4694,7 @@ false
 }
 else
 {
-nsScriptErrorEvent
+InternalScriptErrorEvent
 event
 (
 true

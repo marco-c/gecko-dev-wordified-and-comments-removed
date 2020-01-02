@@ -1249,7 +1249,7 @@ NS_HandleScriptError
 nsIScriptGlobalObject
 *
 aScriptGlobal
-nsScriptErrorEvent
+InternalScriptErrorEvent
 *
 aErrorEvent
 nsEventStatus
@@ -1863,7 +1863,7 @@ if
 presContext
 )
 {
-nsScriptErrorEvent
+InternalScriptErrorEvent
 errorevent
 (
 true

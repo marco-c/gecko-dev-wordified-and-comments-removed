@@ -349,7 +349,10 @@ CaptureCaller
 void
 FillScriptErrorEvent
 (
-nsScriptErrorEvent
+mozilla
+:
+:
+InternalScriptErrorEvent
 *
 aEvent
 )

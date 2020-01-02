@@ -629,12 +629,5 @@ aCopyTargets
 }
 ;
 }
-typedef
-mozilla
-:
-:
-InternalScriptErrorEvent
-nsScriptErrorEvent
-;
 #
 endif

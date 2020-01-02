@@ -192,6 +192,10 @@ dom
 :
 OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 ;
+using
+namespace
+mozilla
+;
 IDBRequest
 :
 :
@@ -1264,7 +1268,7 @@ IDBRequest
 :
 FillScriptErrorEvent
 (
-nsScriptErrorEvent
+InternalScriptErrorEvent
 *
 aEvent
 )
