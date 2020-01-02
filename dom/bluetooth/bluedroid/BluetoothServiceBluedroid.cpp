@@ -105,6 +105,15 @@ StaticPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -3807,6 +3816,9 @@ v
 replyError
 )
 ;
+unused
+<
+<
 runnable
 .
 forget
