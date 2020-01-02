@@ -255,6 +255,13 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+void
+InputMuted
+(
+bool
+aInputMuted
+)
+;
 private
 :
 bool
