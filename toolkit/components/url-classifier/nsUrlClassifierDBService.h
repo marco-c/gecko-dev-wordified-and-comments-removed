@@ -225,6 +225,10 @@ LookupURI
 nsIPrincipal
 *
 aPrincipal
+const
+nsACString
+&
+tables
 nsIUrlClassifierCallback
 *
 c
@@ -285,6 +289,12 @@ nsTArray
 nsCString
 >
 mGethashTables
+;
+nsTArray
+<
+nsCString
+>
+mDisallowCompletionsTables
 ;
 static
 nsIThread
