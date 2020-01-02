@@ -99,6 +99,16 @@ ScrollableLayerGuid
 ;
 public
 :
+APZController
+(
+)
+:
+mWidgetListener
+(
+nullptr
+)
+{
+}
 virtual
 void
 RequestContentRepaint
@@ -313,6 +323,9 @@ private
 nsIWidgetListener
 *
 mWidgetListener
+;
+ScrollableLayerGuid
+mLastScrollLayerGuid
 ;
 CSSIntPoint
 mLastScrollOffset
