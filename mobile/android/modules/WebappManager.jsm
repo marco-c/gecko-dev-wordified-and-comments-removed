@@ -2084,7 +2084,7 @@ drawable
 :
 /
 /
-alert_app
+alert_app_animation
 "
 progress
 :
@@ -2387,7 +2387,7 @@ drawable
 :
 /
 /
-alert_download
+alert_download_animation
 "
 progress
 :
