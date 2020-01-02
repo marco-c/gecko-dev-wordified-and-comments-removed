@@ -353,3 +353,15 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+browser
+.
+webapps
+.
+checkForUpdates
+"
+0
+)
+;

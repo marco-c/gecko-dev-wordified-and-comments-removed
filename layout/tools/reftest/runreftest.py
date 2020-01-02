@@ -1372,6 +1372,19 @@ enabled
 =
 False
     
+prefs
+[
+'
+browser
+.
+webapps
+.
+checkForUpdates
+'
+]
+=
+0
+    
 if
 options
 .
