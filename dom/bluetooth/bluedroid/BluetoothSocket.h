@@ -184,13 +184,6 @@ int
 mReceivedSocketInfoLength
 ;
 bool
-CreateDroidSocket
-(
-int
-aFd
-)
-;
-bool
 ReceiveSocketInfo
 (
 nsAutoPtr
