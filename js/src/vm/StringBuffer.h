@@ -49,7 +49,6 @@ Vector
 <
 Latin1Char
 64
-ContextAllocPolicy
 >
 Latin1CharBuffer
 ;
@@ -58,7 +57,6 @@ Vector
 <
 jschar
 32
-ContextAllocPolicy
 >
 TwoByteCharBuffer
 ;
