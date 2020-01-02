@@ -8754,6 +8754,9 @@ push
 load
 )
 ;
+if
+(
+!
 pushTypeBarrier
 (
 load
@@ -8762,6 +8765,9 @@ getInlineReturnTypeSet
 )
 true
 )
+)
+return
+InliningStatus_Error
 ;
 return
 InliningStatus_Inlined
