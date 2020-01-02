@@ -2411,7 +2411,7 @@ if
 call
 -
 >
-isDOMFunction
+isCallDOMNative
 (
 )
 )
