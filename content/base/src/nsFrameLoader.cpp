@@ -4336,7 +4336,7 @@ true
 }
 else
 {
-nsRect
+nsIntRect
 dimensions
 ;
 NS_ENSURE_SUCCESS
@@ -8251,7 +8251,7 @@ nsFrameLoader
 :
 GetWindowDimensions
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -8446,7 +8446,7 @@ GetSubdocumentSize
 (
 )
 ;
-nsRect
+nsIntRect
 dimensions
 ;
 NS_ENSURE_SUCCESS

@@ -2668,7 +2668,7 @@ fd
 ;
 UpdateDimensions
 (
-nsRect
+nsIntRect
 rect
 nsIntSize
 size

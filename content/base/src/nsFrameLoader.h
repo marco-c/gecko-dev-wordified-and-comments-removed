@@ -948,7 +948,7 @@ EnsureMessageManager
 nsresult
 GetWindowDimensions
 (
-nsRect
+nsIntRect
 &
 aRect
 )

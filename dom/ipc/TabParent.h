@@ -916,7 +916,7 @@ void
 UpdateDimensions
 (
 const
-nsRect
+nsIntRect
 &
 rect
 const
@@ -1711,7 +1711,7 @@ mIMECaretRect
 int32_t
 mEventCaptureDepth
 ;
-nsRect
+nsIntRect
 mRect
 ;
 nsIntSize
