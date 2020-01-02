@@ -240,8 +240,11 @@ nr_ice_stun_server
 *
 server
 const
-char
-*
+std
+:
+:
+string
+&
 transport
 =
 kNrIceTransportUdp
@@ -527,9 +530,10 @@ char
 >
 password_
 ;
-const
-char
-*
+std
+:
+:
+string
 transport_
 ;
 }
