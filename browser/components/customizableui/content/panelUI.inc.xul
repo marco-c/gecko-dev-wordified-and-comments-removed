@@ -1349,6 +1349,15 @@ PanelUI
 -
 helpItems
 "
+class
+=
+"
+panel
+-
+subview
+-
+body
+"
 /
 >
 <
