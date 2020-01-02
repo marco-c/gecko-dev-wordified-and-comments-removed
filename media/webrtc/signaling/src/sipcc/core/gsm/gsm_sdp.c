@@ -8571,17 +8571,6 @@ fname
 return
 ;
 }
-if
-(
-media
--
->
-support_direction
-!
-=
-SDP_DIRECTION_INACTIVE
-)
-{
 gsmsdp_set_connection_address
 (
 sdp_p
@@ -8595,7 +8584,6 @@ dcb_p
 ice_default_candidate_addr
 )
 ;
-}
 (
 void
 )
