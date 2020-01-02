@@ -98,6 +98,9 @@ mBuffers
 class
 AudioStream
 ;
+class
+AudioMixer
+;
 const
 int
 GUESS_AUDIO_CHANNELS
@@ -1127,6 +1130,11 @@ aID
 AudioStream
 *
 aOutput
+AudioMixer
+*
+aMixer
+=
+nullptr
 )
 ;
 int
