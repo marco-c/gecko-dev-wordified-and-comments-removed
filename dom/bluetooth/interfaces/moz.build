@@ -116,11 +116,6 @@ nsIDOMBluetoothDeviceEvent
 idl
 '
 '
-nsIDOMBluetoothDiscoveryStateChangedEvent
-.
-idl
-'
-'
 nsIDOMBluetoothStatusChangedEvent
 .
 idl

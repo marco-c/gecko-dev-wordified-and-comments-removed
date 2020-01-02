@@ -171,9 +171,6 @@ BluetoothDeviceEvent
 '
 BluetoothStatusChangedEvent
 '
-'
-BluetoothDiscoveryStateChangedEvent
-'
 #
 endif
 #
