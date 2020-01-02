@@ -950,6 +950,11 @@ aSetValueChanged
 )
 ;
 void
+PickerClosed
+(
+)
+;
+void
 SetCheckedChangedInternal
 (
 bool
@@ -3385,6 +3390,11 @@ mNumberControlSpinnerIsSpinning
 ;
 bool
 mNumberControlSpinnerSpinsUp
+:
+1
+;
+bool
+mPickerRunning
 :
 1
 ;
