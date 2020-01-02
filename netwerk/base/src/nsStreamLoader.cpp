@@ -299,7 +299,7 @@ uint8_t
 *
 >
 (
-NS_Alloc
+moz_malloc
 (
 contentLength32
 )
