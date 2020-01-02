@@ -4747,13 +4747,6 @@ depend
 MDDEPDIR
 )
 /
-(
-dir
-)
-/
-(
-F
-)
 .
 pp
 -
@@ -4783,13 +4776,6 @@ depend
 MDDEPDIR
 )
 /
-(
-dir
-)
-/
-(
-F
-)
 .
 pp
 )
