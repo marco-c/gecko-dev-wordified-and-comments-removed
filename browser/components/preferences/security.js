@@ -551,6 +551,12 @@ _initMasterPasswordUI
 (
 )
 ;
+gSyncPane
+.
+updateWeavePrefs
+(
+)
+;
 }
 _removeMasterPassword
 :
