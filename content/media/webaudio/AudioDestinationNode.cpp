@@ -2480,10 +2480,6 @@ Now
 (
 )
 ;
-mExtraCurrentTimeSinceLastStartedBlocking
-=
-0
-;
 mExtraCurrentTimeUpdatedSinceLastStableState
 =
 true
@@ -2503,6 +2499,10 @@ mExtraCurrentTime
 +
 =
 mExtraCurrentTimeSinceLastStartedBlocking
+;
+mExtraCurrentTimeSinceLastStartedBlocking
+=
+0
 ;
 mStream
 -
