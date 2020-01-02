@@ -374,8 +374,8 @@ mStride
 ;
 }
 #
-ifdef
-MOZ_WIDGET_GONK
+if
+0
 static
 bool
 IsYV12Format
@@ -1264,8 +1264,8 @@ aImage
 )
 {
 #
-ifdef
-MOZ_WIDGET_GONK
+if
+0
 if
 (
 IsYV12Format
