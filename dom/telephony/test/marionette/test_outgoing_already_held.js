@@ -145,7 +145,7 @@ false
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -173,7 +173,7 @@ verifyCallList
 {
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -360,7 +360,7 @@ active
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -567,7 +567,7 @@ incomingCall
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -775,7 +775,7 @@ alerting
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -945,7 +945,7 @@ false
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -973,7 +973,7 @@ checkCallList
 {
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -1206,7 +1206,7 @@ outgoingCall
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -1415,7 +1415,7 @@ length
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm

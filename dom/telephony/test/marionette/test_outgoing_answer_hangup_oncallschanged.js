@@ -262,7 +262,7 @@ checkCallList
 {
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -419,7 +419,7 @@ active
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -480,7 +480,7 @@ hangUp
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
@@ -510,7 +510,7 @@ call
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm

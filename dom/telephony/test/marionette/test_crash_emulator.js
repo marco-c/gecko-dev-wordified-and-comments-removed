@@ -189,7 +189,7 @@ callDuration
 ;
 emulator
 .
-runCmdWithCallback
+runWithCallback
 (
 "
 gsm
