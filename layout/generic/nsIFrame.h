@@ -2104,6 +2104,12 @@ nsPoint
 aTranslation
 )
 ;
+nsRect
+GetNormalRect
+(
+)
+const
+;
 nsPoint
 GetNormalPosition
 (
