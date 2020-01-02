@@ -5252,12 +5252,12 @@ if
 aFlushFrames
 &
 &
-IsInDoc
+IsInComposedDoc
 (
 )
 )
 {
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -11300,7 +11300,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -12317,7 +12317,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -12434,7 +12434,7 @@ nsIDocument
 >
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -12553,7 +12553,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

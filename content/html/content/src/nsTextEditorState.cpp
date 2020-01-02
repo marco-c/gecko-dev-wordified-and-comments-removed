@@ -2808,7 +2808,7 @@ doc
 content
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -3592,7 +3592,7 @@ doc
 content
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;

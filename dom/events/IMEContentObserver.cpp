@@ -1328,7 +1328,7 @@ if
 mRootContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )

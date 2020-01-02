@@ -2819,7 +2819,7 @@ aContentNode
 aContentNode
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 |
@@ -2835,7 +2835,7 @@ GetDocument
 aContentNode
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )
@@ -4304,7 +4304,7 @@ if
 mLastContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 |
@@ -4320,7 +4320,7 @@ GetDocument
 mLastContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )

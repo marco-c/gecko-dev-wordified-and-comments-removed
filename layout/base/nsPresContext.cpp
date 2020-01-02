@@ -11296,7 +11296,7 @@ GetDocument
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )

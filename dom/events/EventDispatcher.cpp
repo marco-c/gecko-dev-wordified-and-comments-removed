@@ -1619,7 +1619,7 @@ if
 aNode
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )

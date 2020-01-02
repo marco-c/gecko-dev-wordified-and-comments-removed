@@ -1170,7 +1170,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -1225,7 +1225,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -1451,7 +1451,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -4412,7 +4412,7 @@ oldFocusedContent
 oldFocusedContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -4456,7 +4456,7 @@ presShell
 oldFocusedContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 oldFocusedContent
@@ -6554,7 +6554,7 @@ NS_PRECONDITION
 aContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 "
@@ -6574,7 +6574,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -6682,7 +6682,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -7045,7 +7045,7 @@ if
 content
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -7245,7 +7245,7 @@ content
 content
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 &
@@ -7430,7 +7430,7 @@ presShell
 content
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 content
@@ -8180,7 +8180,7 @@ aContent
 aContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 &
@@ -8243,7 +8243,7 @@ GetDocument
 aContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 )
@@ -8342,7 +8342,7 @@ presShell
 aContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 aContent
@@ -9840,7 +9840,7 @@ NS_ASSERTION
 aContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 =
@@ -10827,7 +10827,7 @@ doc
 startContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -11252,7 +11252,7 @@ doc
 startContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -12498,7 +12498,7 @@ doc
 currentContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -12860,7 +12860,7 @@ window
 aRootContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 false
@@ -12936,7 +12936,7 @@ doc
 aImageContent
 -
 >
-GetDocument
+GetComposedDoc
 (
 )
 ;
@@ -14175,7 +14175,7 @@ GetContent
 )
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -14310,7 +14310,7 @@ doc
 aStartContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

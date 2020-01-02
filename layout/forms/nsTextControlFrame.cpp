@@ -1032,7 +1032,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
