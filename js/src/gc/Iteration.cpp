@@ -478,9 +478,7 @@ rt
 >
 gc
 .
-chunkSet
-.
-all
+allChunks
 (
 )
 ;

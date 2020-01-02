@@ -4473,7 +4473,9 @@ rt
 >
 gc
 .
-bytes
+bytesAllocated
+(
+)
 >
 =
 rt
@@ -4481,7 +4483,9 @@ rt
 >
 gc
 .
-maxBytes
+maxBytesAllocated
+(
+)
 )
 disable
 (
