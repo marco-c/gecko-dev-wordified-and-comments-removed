@@ -13425,7 +13425,7 @@ GLContext
 CreateScreenBufferImpl
 (
 const
-gfxIntSize
+IntSize
 &
 size
 const
@@ -13500,7 +13500,7 @@ GLContext
 ResizeScreenBuffer
 (
 const
-gfxIntSize
+IntSize
 &
 size
 )
@@ -13613,7 +13613,7 @@ GLContext
 IsOffscreenSizeAllowed
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 )
