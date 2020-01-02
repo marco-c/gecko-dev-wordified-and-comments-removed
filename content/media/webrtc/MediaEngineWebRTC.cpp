@@ -265,6 +265,13 @@ AddRef
 ;
 #
 endif
+gFarendObserver
+=
+new
+AudioOutputObserver
+(
+)
+;
 }
 void
 MediaEngineWebRTC
