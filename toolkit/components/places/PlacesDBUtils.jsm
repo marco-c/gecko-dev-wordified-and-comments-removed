@@ -5431,6 +5431,14 @@ value
 )
 ;
 }
+if
+(
+isFinite
+(
+value
+)
+)
+{
 probeValues
 [
 aProbe
@@ -5456,6 +5464,7 @@ add
 value
 )
 ;
+}
 }
 catch
 (
