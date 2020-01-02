@@ -336,6 +336,7 @@ static
 uint8_t
 gWebAudioOutputKey
 ;
+static
 float
 GetSampleRateForAudioContext
 (
