@@ -234,7 +234,12 @@ BluetoothProfileController
 )
 ;
 void
-Start
+StartSession
+(
+)
+;
+void
+EndSession
 (
 )
 ;
