@@ -14324,6 +14324,7 @@ response
 .
 deliveryStatus
 null
+(
 function
 notifyResult
 (
@@ -14378,6 +14379,12 @@ null
 )
 ;
 }
+)
+.
+bind
+(
+this
+)
 )
 ;
 return

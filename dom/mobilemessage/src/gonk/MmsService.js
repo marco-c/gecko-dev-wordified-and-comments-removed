@@ -7822,6 +7822,7 @@ envelopeId
 address
 null
 deliveryStatus
+(
 function
 notifySetDeliveryResult
 (
@@ -7929,6 +7930,12 @@ null
 )
 ;
 }
+)
+.
+bind
+(
+this
+)
 )
 ;
 }
