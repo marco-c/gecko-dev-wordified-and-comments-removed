@@ -253,6 +253,10 @@ _OldCacheLoad
 nsCSubstring
 const
 &
+aScheme
+nsCSubstring
+const
+&
 aCacheKey
 nsICacheEntryOpenCallback
 *
@@ -292,6 +296,9 @@ nsCOMPtr
 nsIEventTarget
 >
 mCacheThread
+;
+nsCString
+mScheme
 ;
 nsCString
 mCacheKey
@@ -399,7 +406,10 @@ const
 aIdExtension
 nsACString
 &
-_result
+aCacheKey
+nsACString
+&
+aScheme
 )
 ;
 nsresult
