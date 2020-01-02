@@ -1491,7 +1491,7 @@ video
 .
 default_width
 "
-640
+0
 )
 ;
 pref
@@ -1505,7 +1505,7 @@ video
 .
 default_height
 "
-480
+0
 )
 ;
 pref
