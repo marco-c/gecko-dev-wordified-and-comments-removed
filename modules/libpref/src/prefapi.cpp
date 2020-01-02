@@ -385,7 +385,7 @@ CallbackNode
 *
 gCallbacks
 =
-NULL
+nullptr
 ;
 static
 bool
@@ -785,7 +785,7 @@ next_node
 }
 gCallbacks
 =
-NULL
+nullptr
 ;
 PREF_CleanupPrefs
 (
@@ -847,7 +847,7 @@ if
 original
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -3209,7 +3209,7 @@ newValue
 stringVal
 )
 :
-NULL
+nullptr
 ;
 break
 ;
@@ -4103,14 +4103,14 @@ CallbackNode
 *
 prev_node
 =
-NULL
+nullptr
 ;
 while
 (
 node
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4247,7 +4247,7 @@ gCallbacks
 node
 !
 =
-NULL
+nullptr
 ;
 node
 =
@@ -4334,7 +4334,7 @@ CallbackNode
 *
 prev_node
 =
-NULL
+nullptr
 ;
 node
 =
@@ -4345,7 +4345,7 @@ while
 node
 !
 =
-NULL
+nullptr
 )
 {
 if

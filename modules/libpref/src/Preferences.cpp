@@ -2887,7 +2887,7 @@ PREF_InitParseState
 &
 ps
 PREF_ReaderCallback
-NULL
+nullptr
 )
 ;
 while
@@ -4003,7 +4003,7 @@ char
 *
 )
 pref_CompareStrings
-NULL
+nullptr
 )
 ;
 outStream
@@ -4273,7 +4273,7 @@ PREF_InitParseState
 &
 ps
 PREF_ReaderCallback
-NULL
+nullptr
 )
 ;
 nsresult
@@ -5098,7 +5098,7 @@ PREF_InitParseState
 &
 ps
 PREF_ReaderCallback
-NULL
+nullptr
 )
 ;
 PREF_ParseBuf

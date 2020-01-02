@@ -630,7 +630,7 @@ uint8_t
 *
 aBuf
 =
-NULL
+nullptr
 uint32_t
 aBufSize
 =
@@ -845,7 +845,7 @@ if
 mReturnBuf
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -861,7 +861,7 @@ mReturnBuf
 {
 mReturnBuf
 =
-NULL
+nullptr
 ;
 return
 (
@@ -901,7 +901,7 @@ Length
 ;
 mReturnBuf
 =
-NULL
+nullptr
 ;
 return
 ret

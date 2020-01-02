@@ -1809,6 +1809,6 @@ blocksize
 ;
 }
 return
-NULL
+nullptr
 ;
 }
