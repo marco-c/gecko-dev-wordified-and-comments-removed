@@ -267,6 +267,11 @@ Connection
 mConnections
 ;
 void
+minimizeMemory
+(
+)
+;
+void
 shutdown
 (
 )
