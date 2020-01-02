@@ -165,12 +165,6 @@ ContainerWriter
 HAS_AUDIO
 )
 ;
-static
-bool
-OnEncoderThread
-(
-)
-;
 void
 GetEncodedData
 (
