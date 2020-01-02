@@ -17941,9 +17941,8 @@ JS_InitReflect
 JSContext
 *
 cx
-JSObject
-*
-objArg
+HandleObject
+obj
 )
 {
 static
@@ -17965,13 +17964,6 @@ reflect_parse
 )
 JS_FS_END
 }
-;
-RootedObject
-obj
-(
-cx
-objArg
-)
 ;
 RootedObject
 proto

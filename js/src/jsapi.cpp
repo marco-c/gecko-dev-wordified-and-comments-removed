@@ -6407,9 +6407,6 @@ JS_IdToProtoKey
 JSContext
 *
 cx
-JS
-:
-:
 HandleId
 id
 )
@@ -6505,8 +6502,7 @@ JS_GetObjectPrototype
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 forObj
 )
 {
@@ -6545,8 +6541,7 @@ JS_GetFunctionPrototype
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 forObj
 )
 {
@@ -6585,8 +6580,7 @@ JS_GetArrayPrototype
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 forObj
 )
 {
