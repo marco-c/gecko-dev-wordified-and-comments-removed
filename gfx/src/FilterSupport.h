@@ -785,6 +785,12 @@ aUserData
 )
 const
 ;
+uint32_t
+Count
+(
+)
+const
+;
 private
 :
 mutable
