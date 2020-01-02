@@ -380,8 +380,9 @@ arch_specific_supps_file
 :
             
 debugger_args
-+
-=
+.
+append
+(
 '
 -
 -
@@ -397,6 +398,7 @@ join
 (
 supps_dir
 arch_specific_supps_file
+)
 )
             
 print
