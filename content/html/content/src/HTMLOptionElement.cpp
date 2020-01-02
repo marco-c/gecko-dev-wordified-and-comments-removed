@@ -773,9 +773,14 @@ HTMLSelectElement
 :
 SET_DISABLED
 ;
+bool
+defaultSelected
+=
+aValue
+;
 if
 (
-aValue
+defaultSelected
 )
 {
 mask
@@ -817,7 +822,10 @@ inSetDefaultSelected
 ;
 mSelectedChanged
 =
-false
+mIsSelected
+!
+=
+defaultSelected
 ;
 return
 NS_OK
