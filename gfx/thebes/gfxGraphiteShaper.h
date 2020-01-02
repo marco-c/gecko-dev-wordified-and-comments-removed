@@ -133,6 +133,9 @@ mContext
 CallbackData
 mCallbackData
 ;
+bool
+mFallbackToSmallCaps
+;
 static
 uint32_t
 GetGraphiteTagForLang
