@@ -647,6 +647,12 @@ BluetoothSocket
 >
 mL2capSocket
 ;
+mozilla
+:
+:
+TimeStamp
+mLastServiceChannelCheck
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
