@@ -734,6 +734,7 @@ get_ReplyMessageSendFail
 error
 (
 )
+nullptr
 )
 ;
 break
