@@ -661,6 +661,17 @@ load
 1
 .
 html
+pref
+(
+layers
+.
+offmainthreadcomposition
+.
+async
+-
+animations
+true
+)
 load
 972199
 -
