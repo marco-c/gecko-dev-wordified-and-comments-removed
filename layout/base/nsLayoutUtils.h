@@ -844,10 +844,6 @@ const
 nsIFrame
 *
 aFixedPosFrame
-const
-nsIFrame
-*
-aReferenceFrame
 nsPresContext
 *
 aPresContext
