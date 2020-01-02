@@ -61,7 +61,7 @@ bool
 aSecure
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITHREADRETARGETABLEREQUEST
 NS_IMETHOD
 AsyncOpen
@@ -297,6 +297,11 @@ DispatchToTargetThread
 ChannelEvent
 *
 aChannelEvent
+)
+;
+bool
+IsOnTargetThread
+(
 )
 ;
 nsRefPtr
