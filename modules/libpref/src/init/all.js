@@ -29892,9 +29892,7 @@ serif
 el
 "
 "
-Fira
-Sans
-OT
+Roboto
 "
 )
 ;
@@ -29910,9 +29908,9 @@ monospace
 el
 "
 "
-Fira
+Droid
+Sans
 Mono
-OT
 "
 )
 ;
