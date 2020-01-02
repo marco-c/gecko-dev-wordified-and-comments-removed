@@ -524,9 +524,15 @@ if
 (
 aLength
 >
+static_cast
+<
+unsigned
+>
+(
 20
 +
 mChannels
+)
 )
 {
 mStreams
