@@ -52,6 +52,8 @@ inspector
 .
 toolbox
 .
+highlighterUtils
+.
 startPicker
 (
 )
@@ -341,6 +343,8 @@ reloads
 inspector
 .
 toolbox
+.
+highlighterUtils
 .
 stopPicker
 (

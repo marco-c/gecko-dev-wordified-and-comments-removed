@@ -921,6 +921,16 @@ true
 }
 )
 ;
+this
+.
+Variables
+.
+toolbox
+=
+DebuggerController
+.
+_toolbox
+;
 VariablesViewController
 .
 attach

@@ -365,6 +365,8 @@ inspector
 .
 toolbox
 .
+highlighterUtils
+.
 startPicker
 (
 )
@@ -541,6 +543,8 @@ height
 inspector
 .
 toolbox
+.
+highlighterUtils
 .
 stopPicker
 (

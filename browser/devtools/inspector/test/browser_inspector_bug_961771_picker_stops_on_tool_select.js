@@ -233,6 +233,8 @@ function
 yield
 toolbox
 .
+highlighterUtils
+.
 startPicker
 (
 )

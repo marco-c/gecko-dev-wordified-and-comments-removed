@@ -403,6 +403,8 @@ inspector
 .
 toolbox
 .
+highlighterUtils
+.
 startPicker
 (
 )

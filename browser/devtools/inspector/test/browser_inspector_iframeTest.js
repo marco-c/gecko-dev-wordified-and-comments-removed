@@ -183,6 +183,8 @@ inspector
 .
 toolbox
 .
+highlighterUtils
+.
 startPicker
 (
 )
@@ -413,6 +415,7 @@ setNode
 doc
 .
 documentElement
+null
 )
 ;
 inspector
@@ -440,6 +443,7 @@ selection
 setNode
 (
 div2
+null
 )
 ;
 inspector
@@ -495,6 +499,8 @@ finishUp
 inspector
 .
 toolbox
+.
+highlighterUtils
 .
 stopPicker
 (

@@ -145,6 +145,16 @@ target
 ;
 this
 .
+_controller
+.
+_toolbox
+=
+this
+.
+_toolbox
+;
+this
+.
 handleHostChanged
 =
 this

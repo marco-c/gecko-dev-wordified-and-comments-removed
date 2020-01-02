@@ -1026,7 +1026,7 @@ contains
 "
 token
 -
-other
+domnode
 "
 )
 "
