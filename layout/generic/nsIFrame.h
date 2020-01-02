@@ -4923,11 +4923,15 @@ nsSize
 aMetrics
 -
 >
-width
+Width
+(
+)
 aMetrics
 -
 >
-height
+Height
+(
+)
 )
 )
 ;

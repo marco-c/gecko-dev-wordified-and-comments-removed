@@ -779,7 +779,9 @@ width
 =
 aDesiredSize
 .
-width
+Width
+(
+)
 ;
 mDesiredSize
 .
@@ -787,7 +789,9 @@ height
 =
 aDesiredSize
 .
-height
+Height
+(
+)
 ;
 }
 inline

@@ -2090,7 +2090,9 @@ true
 }
 aDesiredSize
 .
-width
+Width
+(
+)
 =
 aReflowState
 .
@@ -2110,7 +2112,9 @@ LeftRight
 ;
 aDesiredSize
 .
-height
+Height
+(
+)
 =
 aReflowState
 .
@@ -2201,8 +2205,8 @@ rv
 ;
 aDesiredSize
 .
-ascent
-=
+SetTopAscent
+(
 nsLayoutUtils
 :
 :
@@ -2219,6 +2223,7 @@ ComputedPhysicalBorderPadding
 )
 .
 top
+)
 ;
 aDesiredSize
 .
@@ -2495,6 +2500,13 @@ top
 ;
 nsHTMLReflowMetrics
 desiredSize
+(
+aReflowState
+.
+GetWritingMode
+(
+)
+)
 ;
 ReflowChild
 (

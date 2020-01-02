@@ -875,7 +875,9 @@ oldHeight
 =
 aDesiredSize
 .
-height
+Height
+(
+)
 |
 |
 oldHeight
