@@ -1003,6 +1003,10 @@ viewport_units_iframe
 .
 html
 \
+test_background_blend_mode
+.
+html
+\
 (
 NULL
 )
