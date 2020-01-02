@@ -166,6 +166,18 @@ run_test
 (
 )
 {
+run_next_test
+(
+)
+;
+}
+add_test
+(
+function
+setup
+(
+)
+{
 do_get_profile
 (
 )
@@ -179,6 +191,8 @@ run_next_test
 )
 ;
 }
+)
+;
 add_task
 (
 function
