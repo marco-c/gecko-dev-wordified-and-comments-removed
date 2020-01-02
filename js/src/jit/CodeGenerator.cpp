@@ -5288,6 +5288,11 @@ ins
 tempInt
 (
 )
+-
+>
+output
+(
+)
 ;
 masm
 .
