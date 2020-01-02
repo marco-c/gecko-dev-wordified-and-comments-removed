@@ -8752,6 +8752,10 @@ tempFixed
 (
 CallTempReg4
 )
+tempFixed
+(
+CallTempReg5
+)
 )
 ;
 if
@@ -8765,7 +8769,7 @@ LAllocation
 (
 AnyRegister
 (
-CallTempReg5
+CallTempReg6
 )
 )
 )
@@ -8874,7 +8878,7 @@ LConcatPar
 useFixed
 (
 slice
-CallTempReg4
+CallTempReg5
 )
 useFixed
 (
@@ -8894,6 +8898,10 @@ tempFixed
 (
 CallTempReg3
 )
+tempFixed
+(
+CallTempReg4
+)
 )
 ;
 if
@@ -8907,7 +8915,7 @@ LAllocation
 (
 AnyRegister
 (
-CallTempReg5
+CallTempReg6
 )
 )
 )

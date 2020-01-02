@@ -726,6 +726,13 @@ CallTempReg5
 =
 rdx
 ;
+static
+MOZ_CONSTEXPR_VAR
+Register
+CallTempReg6
+=
+rbp
+;
 #
 if
 defined
