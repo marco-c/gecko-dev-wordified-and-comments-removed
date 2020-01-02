@@ -1288,6 +1288,19 @@ options
 .
 focusFilterMode
     
+prefs
+[
+'
+toolkit
+.
+telemetry
+.
+enabled
+'
+]
+=
+False
+    
 if
 options
 .

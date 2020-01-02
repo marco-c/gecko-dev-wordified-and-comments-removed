@@ -279,17 +279,3 @@ enabled
 false
 )
 ;
-branch
-.
-setBoolPref
-(
-"
-toolkit
-.
-telemetry
-.
-enabled
-"
-false
-)
-;
