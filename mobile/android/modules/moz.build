@@ -123,6 +123,11 @@ LightweightThemeConsumer
 jsm
 '
 '
+Notifications
+.
+jsm
+'
+'
 OrderedBroadcast
 .
 jsm
