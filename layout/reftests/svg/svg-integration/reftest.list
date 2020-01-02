@@ -617,6 +617,17 @@ html
 ref
 .
 svg
+fuzzy
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+1
+2000
+)
 =
 =
 mask
