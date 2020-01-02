@@ -399,12 +399,6 @@ Roman
 "
 local
 (
-serif
-)
-"
-"
-local
-(
 \
 "
 serif
@@ -512,6 +506,12 @@ New
 \
 "
 Roman
+)
+"
+"
+local
+(
+serif
 )
 "
 ]
