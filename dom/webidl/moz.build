@@ -1340,6 +1340,11 @@ RTCSessionDescription
 webidl
 '
 '
+RTCStatsReport
+.
+webidl
+'
+'
 Range
 .
 webidl
