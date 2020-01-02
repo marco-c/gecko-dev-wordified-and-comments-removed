@@ -3540,7 +3540,7 @@ i
 {
 nsCOMPtr
 <
-nsIMessageListener
+nsISupports
 >
 weakListener
 ;
