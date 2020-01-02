@@ -7967,6 +7967,16 @@ topobjdir
 libdef
 .
 topobjdir
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
         
 for
 objdir
