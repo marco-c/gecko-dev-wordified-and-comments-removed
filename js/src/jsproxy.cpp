@@ -1673,7 +1673,7 @@ args
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 callable
@@ -1704,7 +1704,7 @@ args
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 callable
@@ -1835,7 +1835,7 @@ g
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 This
@@ -2034,7 +2034,7 @@ protop
 )
 const
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Must

@@ -272,7 +272,7 @@ return
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad

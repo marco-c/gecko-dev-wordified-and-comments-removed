@@ -5768,7 +5768,7 @@ DateObject
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad

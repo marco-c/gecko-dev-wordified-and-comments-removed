@@ -4112,8 +4112,13 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
+"
+Unexpected
+scope
+statement
+"
 )
 ;
 }
@@ -6258,7 +6263,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -6807,7 +6812,7 @@ Definition
 :
 MISSING
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -6882,7 +6887,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 intrinsic
@@ -7473,7 +7478,7 @@ false
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 gname
@@ -7945,7 +7950,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 arg
@@ -8018,7 +8023,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 local
@@ -8194,7 +8199,7 @@ Definition
 :
 MISSING
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 missing
@@ -8919,7 +8924,7 @@ answer
 )
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 We
@@ -8979,7 +8984,7 @@ return
 true
 ;
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 We
@@ -15135,7 +15140,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 EmitDestructuringLHS
@@ -15261,7 +15266,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 EmitDestructuringLHS
@@ -18081,7 +18086,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -19119,7 +19124,7 @@ true
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -29532,7 +29537,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Invalid

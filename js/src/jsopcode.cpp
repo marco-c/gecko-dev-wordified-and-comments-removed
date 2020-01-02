@@ -458,7 +458,7 @@ JUMP_OFFSET_LEN
 }
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Unexpected
@@ -968,7 +968,7 @@ which
 ACCESS_LIMIT
 ]
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -992,7 +992,7 @@ which
 BASE_LIMIT
 ]
 ;
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -10972,7 +10972,7 @@ ACCESS_LIMIT
 value
 ;
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -11009,7 +11009,7 @@ value
 }
 else
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad

@@ -836,15 +836,13 @@ return
 }
 else
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
 call
 "
 )
-;
-return
 ;
 }
 terms_

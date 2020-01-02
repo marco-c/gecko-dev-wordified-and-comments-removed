@@ -1889,7 +1889,7 @@ bool
 not_at_start
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -3521,7 +3521,7 @@ bool
 not_at_start
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad
@@ -3545,7 +3545,7 @@ bool
 not_at_start
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 Bad

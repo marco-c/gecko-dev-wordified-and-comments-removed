@@ -7441,7 +7441,7 @@ false
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -7644,7 +7644,7 @@ false
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -7808,7 +7808,7 @@ true
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -7933,7 +7933,7 @@ strict
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad
@@ -12234,7 +12234,7 @@ ScopeIter
 :
 StrictEvalScope
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 should

@@ -1125,7 +1125,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -1712,7 +1712,7 @@ break
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unexpected
@@ -20654,7 +20654,7 @@ break
 case
 PNK_ASSIGN
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 forStatement
@@ -23138,7 +23138,7 @@ exprNode
 ;
 }
 }
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 yieldExpr
@@ -27129,13 +27129,6 @@ return
 pn
 ;
 }
-MOZ_ASSUME_UNREACHABLE
-(
-"
-unaryExpr
-"
-)
-;
 }
 class
 LegacyCompExprTransplanter
@@ -34218,7 +34211,7 @@ assignType
 SET
 ;
 else
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 bad

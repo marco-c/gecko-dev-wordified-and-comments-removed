@@ -214,7 +214,7 @@ op
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unrecognized
@@ -288,7 +288,7 @@ JSOP_STRICTNE
 ;
 default
 :
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 unrecognized

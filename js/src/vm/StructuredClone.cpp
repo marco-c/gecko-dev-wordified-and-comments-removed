@@ -7543,8 +7543,6 @@ data
 vp
 )
 ;
-break
-;
 default
 :
 {

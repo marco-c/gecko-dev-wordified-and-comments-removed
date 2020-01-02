@@ -816,7 +816,7 @@ PRCallOnceFN
 func
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 PR_CallOnce
@@ -838,7 +838,7 @@ void
 arg
 )
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_CRASH
 (
 "
 PR_CallOnceWithArg
