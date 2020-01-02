@@ -24749,6 +24749,9 @@ clones
 .
 "
 )
+#
+ifdef
+DEBUG
 JS_FN_HELP
 (
 "
@@ -24789,6 +24792,8 @@ file
 .
 "
 )
+#
+endif
 JS_FN_HELP
 (
 "
