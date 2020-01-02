@@ -17,6 +17,14 @@ MOCHITEST_FILES
 \
 test_select
 -
+named
+-
+getter
+.
+html
+\
+test_select
+-
 remove
 .
 html

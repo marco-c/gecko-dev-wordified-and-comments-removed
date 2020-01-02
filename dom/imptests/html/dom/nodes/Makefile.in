@@ -53,6 +53,12 @@ replaceData
 .
 html
 \
+test_Comment
+-
+constructor
+.
+html
+\
 test_Document
 -
 adoptNode
