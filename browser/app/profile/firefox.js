@@ -10569,7 +10569,7 @@ devtools
 theme
 "
 "
-dark
+light
 "
 )
 ;
