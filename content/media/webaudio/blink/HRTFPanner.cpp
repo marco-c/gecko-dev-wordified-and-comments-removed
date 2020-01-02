@@ -405,6 +405,9 @@ AudioChunk
 outputBus
 )
 {
+#
+ifdef
+DEBUG
 unsigned
 numInputChannels
 =
@@ -445,6 +448,8 @@ mDuration
 WEBAUDIO_BLOCK_SIZE
 )
 ;
+#
+endif
 bool
 isOutputGood
 =
