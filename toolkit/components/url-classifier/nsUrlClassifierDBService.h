@@ -284,7 +284,7 @@ nsTArray
 <
 nsCString
 >
-mGethashTables
+mGethashWhitelist
 ;
 static
 nsIThread
