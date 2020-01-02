@@ -5,6 +5,12 @@ SelfHostingDefines
 .
 h
 "
+Object
+.
+defineProperty
+=
+null
+;
 var
 std_isFinite
 =
@@ -197,13 +203,6 @@ std_Object_create
 Object
 .
 create
-;
-var
-std_Object_defineProperty
-=
-Object
-.
-defineProperty
 ;
 var
 std_Object_getOwnPropertyNames
