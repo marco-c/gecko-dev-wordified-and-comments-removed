@@ -5006,7 +5006,9 @@ return
 true
 ;
 }
-static
+namespace
+js
+{
 bool
 GetOwnPropertyKeys
 (
@@ -5019,10 +5021,6 @@ CallArgs
 args
 unsigned
 flags
-const
-char
-*
-fnname
 )
 {
 RootedObject
@@ -5211,6 +5209,7 @@ return
 true
 ;
 }
+}
 static
 bool
 obj_getOwnPropertyNames
@@ -5242,11 +5241,6 @@ args
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
-"
-Object
-.
-getOwnPropertyNames
-"
 )
 ;
 }
@@ -5285,11 +5279,6 @@ JSITER_HIDDEN
 JSITER_SYMBOLS
 |
 JSITER_SYMBOLSONLY
-"
-Object
-.
-getOwnPropertySymbols
-"
 )
 ;
 }
