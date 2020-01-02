@@ -605,6 +605,8 @@ gSources
 .
 selectedItem
 .
+attachment
+.
 label
 .
 contains

@@ -278,7 +278,9 @@ is
 (
 gSources
 .
-selectedLabel
+selectedValue
+EXAMPLE_URL
++
 "
 doc_inline
 -
@@ -293,9 +295,12 @@ The
 currently
 selected
 source
-label
+value
 is
 incorrect
+(
+0
+)
 .
 "
 )
@@ -319,6 +324,9 @@ source
 value
 is
 incorrect
+(
+1
+)
 .
 "
 )

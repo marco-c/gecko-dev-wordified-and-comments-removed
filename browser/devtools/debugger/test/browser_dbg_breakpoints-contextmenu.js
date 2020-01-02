@@ -658,7 +658,9 @@ is
 (
 gSources
 .
-selectedLabel
+selectedValue
+EXAMPLE_URL
++
 "
 code_script
 -
@@ -728,7 +730,9 @@ is
 (
 gSources
 .
-selectedLabel
+selectedValue
+EXAMPLE_URL
++
 "
 code_script
 -

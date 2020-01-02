@@ -169,10 +169,12 @@ is
 (
 ShadersListView
 .
-labels
+attachments
 [
 0
 ]
+.
+label
 L10N
 .
 getFormatStr
@@ -203,10 +205,12 @@ is
 (
 ShadersListView
 .
-labels
+attachments
 [
 1
 ]
+.
+label
 L10N
 .
 getFormatStr

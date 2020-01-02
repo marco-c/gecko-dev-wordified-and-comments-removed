@@ -973,6 +973,10 @@ gEditor
 =
 null
 ;
+gSources
+=
+null
+;
 gFrames
 =
 null
