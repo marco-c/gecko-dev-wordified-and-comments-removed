@@ -180,3 +180,15 @@ FeedProcessor
 manifest
 '
 ]
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+test
+/
+xpcshell
+.
+ini
+'
+]
