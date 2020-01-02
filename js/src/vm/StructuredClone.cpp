@@ -1484,7 +1484,7 @@ return
 JS
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 nogc
 ;
 uint64_t

@@ -494,7 +494,7 @@ acquiredJSContext_
 JS
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 nogc_
 ;
 }

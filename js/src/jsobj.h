@@ -6381,7 +6381,7 @@ innerObject
 JS
 :
 :
-AutoSuppressGCAnalysis
+AutoAssertNoGC
 nogc
 ;
 return

@@ -1699,9 +1699,6 @@ ScriptAndCountsVector
 *
 scriptAndCountsVector
 ;
-int
-inUnsafeRegion
-;
 private
 :
 bool
