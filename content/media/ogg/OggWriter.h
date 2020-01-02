@@ -42,6 +42,11 @@ OggWriter
 (
 )
 ;
+~
+OggWriter
+(
+)
+;
 nsresult
 WriteEncodedTrack
 (
