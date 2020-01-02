@@ -11174,6 +11174,9 @@ alwaysAskBeforeHandling
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -11184,6 +11187,8 @@ disabled
 true
 )
 ;
+#
+endif
 pref
 (
 "

@@ -3423,6 +3423,9 @@ chrome
 pdfjs
 /
 *
+#
+ifdef
+NIGHTLY_BUILD
 BINPATH
 /
 browser
@@ -3441,6 +3444,8 @@ chrome
 shumway
 /
 *
+#
+endif
 BINPATH
 /
 browser
