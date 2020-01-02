@@ -365,6 +365,14 @@ GetFrameMetrics
 )
 const
 ;
+float
+ApplyResistance
+(
+float
+aOverscroll
+)
+const
+;
 }
 ;
 class
