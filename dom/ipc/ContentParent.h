@@ -997,17 +997,6 @@ InitializeMembers
 (
 )
 ;
-void
-InitInternal
-(
-ProcessPriority
-aPriority
-bool
-aSetupOffMainThreadCompositing
-bool
-aSendRegisteredChrome
-)
-;
 virtual
 ~
 ContentParent
