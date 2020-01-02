@@ -130,6 +130,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1387,6 +1396,8 @@ MOZ_OVERRIDE
 ;
 protected
 :
+UniquePtr
+<
 mozilla
 :
 :
@@ -1394,7 +1405,7 @@ ipc
 :
 :
 Shmem
-*
+>
 mShmem
 ;
 RefPtr
