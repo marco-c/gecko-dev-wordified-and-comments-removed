@@ -238,7 +238,7 @@ mUntypedData
 ;
 }
 void
-InvalidateTrees
+UpdateTrees
 (
 size_t
 firstByte
