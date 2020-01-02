@@ -775,6 +775,10 @@ mPreventDefaultSet
 (
 false
 )
+mSingleTapOccurred
+(
+false
+)
 {
 }
 nsTArray
@@ -791,6 +795,9 @@ mPreventDefault
 ;
 bool
 mPreventDefaultSet
+;
+bool
+mSingleTapOccurred
 ;
 }
 ;
@@ -884,6 +891,11 @@ mozilla
 :
 Modifiers
 aModifiers
+)
+;
+void
+OnTouchEndOrCancel
+(
 )
 ;
 uint64_t

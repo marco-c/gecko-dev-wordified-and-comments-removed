@@ -221,6 +221,7 @@ TransformBegin
 TransformEnd
 StartTouch
 StartPanning
+EndTouch
 APZStateChangeSentinel
 MOZ_END_NESTED_ENUM_CLASS
 (
