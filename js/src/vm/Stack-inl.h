@@ -249,7 +249,7 @@ while
 obj
 -
 >
-isVarObj
+isQualifiedVarObj
 (
 )
 )
