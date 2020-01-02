@@ -1658,10 +1658,10 @@ getClass
 !
 =
 &
-ObjectProxyObject
+ProxyObject
 :
 :
-class_
+uncallableClass_
 |
 |
 existing

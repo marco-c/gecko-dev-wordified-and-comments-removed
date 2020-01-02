@@ -1912,7 +1912,7 @@ class
 DebugScopeObject
 :
 public
-ObjectProxyObject
+ProxyObject
 {
 static
 const
@@ -2339,7 +2339,7 @@ js_IsDebugScopeSlow
 js
 :
 :
-ObjectProxyObject
+ProxyObject
 *
 proxy
 )
@@ -2351,10 +2351,10 @@ hasClass
 js
 :
 :
-ObjectProxyObject
+ProxyObject
 :
 :
-class_
+uncallableClass_
 )
 &
 &
@@ -2376,7 +2376,7 @@ as
 js
 :
 :
-ObjectProxyObject
+ProxyObject
 >
 (
 )
