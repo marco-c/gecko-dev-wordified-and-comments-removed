@@ -83,7 +83,7 @@ JS_ASSERT
 JSFatInlineString
 :
 :
-lengthFits
+twoByteLengthFits
 (
 len
 )
@@ -102,7 +102,7 @@ if
 JSInlineString
 :
 :
-lengthFits
+twoByteLengthFits
 (
 len
 )
@@ -260,7 +260,7 @@ JS_ASSERT
 JSFatInlineString
 :
 :
-lengthFits
+twoByteLengthFits
 (
 len
 )
@@ -279,7 +279,7 @@ if
 JSInlineString
 :
 :
-lengthFits
+twoByteLengthFits
 (
 len
 )
@@ -780,7 +780,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 chars
 ;
@@ -961,7 +961,7 @@ if
 JSFatInlineString
 :
 :
-lengthFits
+twoByteLengthFits
 (
 length
 )
@@ -1161,7 +1161,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 chars
 ;
@@ -1390,7 +1390,7 @@ length
 {
 JS_ASSERT
 (
-lengthFits
+twoByteLengthFits
 (
 length
 )
@@ -1415,7 +1415,7 @@ INIT_INLINE_FLAGS
 return
 d
 .
-inlineStorage
+inlineStorageTwoByte
 ;
 }
 MOZ_ALWAYS_INLINE
@@ -1432,7 +1432,7 @@ length
 {
 JS_ASSERT
 (
-lengthFits
+twoByteLengthFits
 (
 length
 )
@@ -1457,7 +1457,7 @@ INIT_FAT_INLINE_FLAGS
 return
 d
 .
-inlineStorage
+inlineStorageTwoByte
 ;
 }
 template
@@ -1548,7 +1548,7 @@ s
 .
 u2
 .
-nonInlineChars
+nonInlineCharsTwoByte
 =
 chars
 ;
