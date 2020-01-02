@@ -5408,12 +5408,7 @@ limit
 =
 aIndex
 +
-CacheObserver
-:
-:
-PreloadChunkCount
-(
-)
+mPreloadChunkCount
 ;
 for
 (
