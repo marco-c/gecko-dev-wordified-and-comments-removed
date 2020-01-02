@@ -2779,6 +2779,9 @@ ifFalsy
 OutOfLineTestObject
 *
 ool
+MDefinition
+*
+valueMIR
 )
 ;
 void
@@ -2807,6 +2810,9 @@ ifFalsy
 OutOfLineTestObject
 *
 ool
+MDefinition
+*
+valueMIR
 )
 ;
 void
