@@ -292,7 +292,7 @@ return
 inline
 JSObject
 *
-getSingleObject
+getSingleObjectNoBarrier
 (
 unsigned
 )
@@ -309,7 +309,7 @@ isSingleObject
 return
 t_
 .
-singleObject
+singleObjectNoBarrier
 (
 )
 ;
@@ -323,7 +323,7 @@ types
 :
 TypeObject
 *
-getTypeObject
+getTypeObjectNoBarrier
 (
 unsigned
 )
@@ -340,7 +340,7 @@ isTypeObject
 return
 t_
 .
-typeObject
+typeObjectNoBarrier
 (
 )
 ;
@@ -888,7 +888,7 @@ if
 types
 -
 >
-getSingleObject
+getSingleObjectNoBarrier
 (
 i
 )
@@ -902,7 +902,7 @@ hasTypeObjects
 types
 -
 >
-getTypeObject
+getTypeObjectNoBarrier
 (
 i
 )
@@ -933,7 +933,7 @@ object
 types
 -
 >
-getSingleObject
+getSingleObjectNoBarrier
 (
 i
 )
@@ -1017,7 +1017,7 @@ if
 types
 -
 >
-getTypeObject
+getTypeObjectNoBarrier
 (
 i
 )
@@ -1050,7 +1050,7 @@ object
 types
 -
 >
-getTypeObject
+getTypeObjectNoBarrier
 (
 i
 )

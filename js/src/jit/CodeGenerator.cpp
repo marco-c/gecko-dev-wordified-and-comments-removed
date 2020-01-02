@@ -29887,7 +29887,7 @@ jitCompartment
 )
 -
 >
-stringConcatStub
+stringConcatStubNoBarrier
 (
 mode
 )
