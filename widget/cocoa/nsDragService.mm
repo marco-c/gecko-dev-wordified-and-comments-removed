@@ -2420,7 +2420,14 @@ NS_ERROR_OUT_OF_MEMORY
 filePath
 getCharacters
 :
+reinterpret_cast
+<
+unichar
+*
+>
+(
 clipboardDataPtr
+)
 ]
 ;
 clipboardDataPtr

@@ -1011,10 +1011,17 @@ size
 nsAutoString
 xpLocale
 (
+reinterpret_cast
+<
+PRUnichar
+*
+>
+(
 buffer
 .
 Elements
 (
+)
 )
 )
 ;

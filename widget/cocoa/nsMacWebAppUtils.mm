@@ -227,6 +227,13 @@ absolutePathForAppBundleWithIdentifier
 NSString
 stringWithCharacters
 :
+reinterpret_cast
+<
+const
+unichar
+*
+>
+(
 (
 (
 nsString
@@ -236,6 +243,7 @@ bundleIdentifier
 .
 get
 (
+)
 )
 length
 :
@@ -335,6 +343,13 @@ launchAppWithBundleIdentifier
 NSString
 stringWithCharacters
 :
+reinterpret_cast
+<
+const
+unichar
+*
+>
+(
 (
 (
 nsString
@@ -344,6 +359,7 @@ bundleIdentifier
 .
 get
 (
+)
 )
 length
 :
