@@ -405,13 +405,6 @@ uint64_t
 aEndTime
 )
 ;
-enum
-OffsetType
-{
-CLUSTER_START
-BLOCK_START
-}
-;
 bool
 GetOffsetForTime
 (
@@ -420,9 +413,6 @@ aTime
 int64_t
 *
 aOffset
-enum
-OffsetType
-aType
 )
 ;
 private
