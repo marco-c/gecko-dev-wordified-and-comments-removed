@@ -558,7 +558,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mFrontBuffer
 )
@@ -593,7 +593,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mFrontBuffer
 )
@@ -613,7 +613,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mBackBuffer
 )
@@ -723,20 +723,6 @@ GetTextureClient
 ;
 if
 (
-texture
--
->
-IsSharedWithCompositor
-(
-)
-)
-{
-return
-false
-;
-}
-if
-(
 mFrontBuffer
 )
 {
@@ -745,7 +731,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mFrontBuffer
 )
@@ -866,7 +852,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mFrontBuffer
 )
@@ -1164,7 +1150,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mFrontBuffer
 )
@@ -1319,7 +1305,7 @@ GetForwarder
 )
 -
 >
-AddForceRemovingTexture
+HoldUntilTransaction
 (
 mFrontBuffer
 )
