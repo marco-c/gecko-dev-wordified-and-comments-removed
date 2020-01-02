@@ -97,11 +97,3 @@ config
 rules
 .
 mk
-ifdef
-A11Y_LOG
-DEFINES
-+
-=
--
-DA11Y_LOG
-endif
