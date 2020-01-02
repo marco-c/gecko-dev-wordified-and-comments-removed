@@ -559,11 +559,6 @@ UsingNeckoIPCSecurity
 )
 )
 {
-MOZ_ASSERT
-(
-tabChild
-)
-;
 if
 (
 !
