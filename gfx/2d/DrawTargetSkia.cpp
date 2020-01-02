@@ -3750,6 +3750,15 @@ SurfaceFormat
 aFormat
 )
 {
+MOZ_ASSERT
+(
+aGrContext
+"
+null
+GrContext
+"
+)
+;
 mGrContext
 =
 aGrContext
