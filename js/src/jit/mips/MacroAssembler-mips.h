@@ -1115,6 +1115,8 @@ Register
 dest
 Register
 hold
+Register
+remain
 int32_t
 shift
 Label
