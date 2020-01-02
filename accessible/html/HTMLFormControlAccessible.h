@@ -385,6 +385,13 @@ const
 protected
 :
 virtual
+~
+HTMLTextFieldAccessible
+(
+)
+{
+}
+virtual
 ENameValueFlag
 NativeName
 (

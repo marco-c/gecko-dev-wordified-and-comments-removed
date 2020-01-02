@@ -49,13 +49,6 @@ DocAccessible
 aDoc
 )
 ;
-virtual
-~
-HTMLImageMapAccessible
-(
-)
-{
-}
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 a11y
@@ -114,6 +107,13 @@ const
 ;
 protected
 :
+virtual
+~
+HTMLImageMapAccessible
+(
+)
+{
+}
 virtual
 void
 CacheChildren

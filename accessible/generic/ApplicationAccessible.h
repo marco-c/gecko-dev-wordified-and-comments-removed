@@ -311,6 +311,13 @@ const
 protected
 :
 virtual
+~
+ApplicationAccessible
+(
+)
+{
+}
+virtual
 void
 CacheChildren
 (

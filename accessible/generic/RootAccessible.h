@@ -58,12 +58,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
-~
-RootAccessible
-(
-)
-;
 NS_IMETHOD
 HandleEvent
 (
@@ -131,6 +125,12 @@ aDocument
 ;
 protected
 :
+virtual
+~
+RootAccessible
+(
+)
+;
 virtual
 nsresult
 AddEventListeners

@@ -331,6 +331,12 @@ aAnchorIndex
 protected
 :
 virtual
+~
+XULLinkAccessible
+(
+)
+;
+virtual
 ENameValueFlag
 NativeName
 (

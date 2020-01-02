@@ -100,6 +100,12 @@ ActionCount
 protected
 :
 virtual
+~
+ImageAccessible
+(
+)
+;
+virtual
 ENameValueFlag
 NativeName
 (

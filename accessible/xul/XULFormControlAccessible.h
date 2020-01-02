@@ -154,6 +154,12 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+XULButtonAccessible
+(
+)
+;
 bool
 ContainsMenu
 (

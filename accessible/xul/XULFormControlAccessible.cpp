@@ -220,6 +220,15 @@ eButton
 ;
 }
 }
+XULButtonAccessible
+:
+:
+~
+XULButtonAccessible
+(
+)
+{
+}
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 XULButtonAccessible

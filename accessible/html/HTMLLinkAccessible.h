@@ -116,6 +116,13 @@ aAnchorIndex
 ;
 protected
 :
+virtual
+~
+HTMLLinkAccessible
+(
+)
+{
+}
 enum
 {
 eAction_Jump

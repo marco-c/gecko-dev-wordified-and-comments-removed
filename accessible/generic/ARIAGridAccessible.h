@@ -261,6 +261,13 @@ this
 }
 protected
 :
+virtual
+~
+ARIAGridAccessible
+(
+)
+{
+}
 bool
 IsValidRow
 (
@@ -380,6 +387,13 @@ MOZ_OVERRIDE
 ;
 protected
 :
+virtual
+~
+ARIAGridCellAccessible
+(
+)
+{
+}
 Accessible
 *
 Row

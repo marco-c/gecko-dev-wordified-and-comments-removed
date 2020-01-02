@@ -134,6 +134,15 @@ IsWidget
 )
 const
 ;
+protected
+:
+virtual
+~
+ProgressMeterAccessible
+(
+)
+{
+}
 }
 ;
 class

@@ -174,12 +174,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
-~
-DocAccessible
-(
-)
-;
 NS_IMETHOD
 TakeFocus
 (
@@ -851,6 +845,12 @@ aContent
 ;
 protected
 :
+virtual
+~
+DocAccessible
+(
+)
+;
 void
 LastRelease
 (

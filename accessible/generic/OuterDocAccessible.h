@@ -35,12 +35,6 @@ DocAccessible
 aDoc
 )
 ;
-virtual
-~
-OuterDocAccessible
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetActionName
@@ -135,6 +129,12 @@ ActionCount
 ;
 protected
 :
+virtual
+~
+OuterDocAccessible
+(
+)
+;
 virtual
 void
 CacheChildren

@@ -686,6 +686,15 @@ aDoc
 )
 {
 }
+XULLinkAccessible
+:
+:
+~
+XULLinkAccessible
+(
+)
+{
+}
 NS_IMPL_ISUPPORTS_INHERITED
 (
 XULLinkAccessible

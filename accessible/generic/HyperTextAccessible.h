@@ -135,13 +135,6 @@ DocAccessible
 aDoc
 )
 ;
-virtual
-~
-HyperTextAccessible
-(
-)
-{
-}
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 int32_t
@@ -1015,6 +1008,13 @@ const
 ;
 protected
 :
+virtual
+~
+HyperTextAccessible
+(
+)
+{
+}
 virtual
 ENameValueFlag
 NativeName
