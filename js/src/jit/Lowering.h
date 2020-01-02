@@ -1092,14 +1092,6 @@ ins
 )
 ;
 bool
-visitFilterTypeSet
-(
-MFilterTypeSet
-*
-ins
-)
-;
-bool
 visitTypeBarrier
 (
 MTypeBarrier
