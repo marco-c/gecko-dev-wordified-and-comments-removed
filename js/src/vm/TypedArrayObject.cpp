@@ -1947,8 +1947,15 @@ byteOffset
 (
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+!
+buffer
+-
+>
+isNeutered
+(
+)
 buffer
 -
 >
