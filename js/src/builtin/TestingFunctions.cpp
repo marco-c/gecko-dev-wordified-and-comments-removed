@@ -1165,7 +1165,9 @@ runtime
 )
 -
 >
-gcBytes
+gc
+.
+bytes
 ;
 #
 endif
@@ -1258,7 +1260,9 @@ runtime
 )
 -
 >
-gcBytes
+gc
+.
+bytes
 )
 ;
 #
@@ -1345,7 +1349,9 @@ runtime
 )
 -
 >
-gcStoreBuffer
+gc
+.
+storeBuffer
 .
 setAboutToOverflow
 (
@@ -2451,6 +2457,8 @@ runtime
 )
 -
 >
+gc
+.
 alwaysPreserveCode
 =
 true
@@ -2863,7 +2871,9 @@ if
 rt
 -
 >
-gcSelectedForMarking
+gc
+.
+selectedForMarking
 .
 append
 (
@@ -3160,7 +3170,9 @@ runtime
 )
 -
 >
-gcIncrementalState
+gc
+.
+incrementalState
 ;
 if
 (

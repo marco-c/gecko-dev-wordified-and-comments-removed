@@ -11357,7 +11357,9 @@ rt
 rt
 -
 >
-gcIsFull
+gc
+.
+isFull
 )
 ssd
 -
@@ -11415,7 +11417,9 @@ if
 rt
 -
 >
-gcIsFull
+gc
+.
+isFull
 )
 SharedScriptData
 :
@@ -11447,7 +11451,9 @@ JS_ASSERT
 rt
 -
 >
-gcIsFull
+gc
+.
+isFull
 )
 ;
 ScriptDataTable
@@ -11521,7 +11527,9 @@ JS_ASSERT
 rt
 -
 >
-gcIsFull
+gc
+.
+isFull
 )
 ;
 ScriptDataTable
@@ -18739,7 +18747,9 @@ runtime
 )
 -
 >
-gcStrictCompartmentChecking
+gc
+.
+strictCompartmentChecking
 zone
 (
 )
