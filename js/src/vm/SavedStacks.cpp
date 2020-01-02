@@ -24,6 +24,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h
@@ -2254,6 +2261,13 @@ return
 true
 ;
 }
+JS_CHECK_RECURSION_DONT_REPORT
+(
+cx
+return
+false
+)
+;
 ScriptFrameIter
 thisFrame
 (
