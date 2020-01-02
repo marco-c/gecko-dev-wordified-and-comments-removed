@@ -166,7 +166,7 @@ r
 rebeccapurple
 "
 0
-5
+6
 ]
 [
 "
@@ -178,7 +178,7 @@ VK_DOWN
 red
 "
 1
-5
+6
 ]
 [
 "
@@ -190,7 +190,7 @@ VK_DOWN
 rgb
 "
 2
-5
+6
 ]
 [
 "
@@ -202,7 +202,7 @@ VK_DOWN
 rgba
 "
 3
-5
+6
 ]
 [
 "
@@ -214,7 +214,7 @@ VK_DOWN
 rosybrown
 "
 4
-5
+6
 ]
 [
 "
@@ -226,7 +226,7 @@ VK_DOWN
 royalblue
 "
 5
-5
+6
 ]
 [
 "
