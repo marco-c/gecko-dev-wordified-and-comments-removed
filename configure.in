@@ -40319,6 +40319,9 @@ AC_DEFINE
 (
 MOZ_SRTP
 )
+else
+MOZ_SYNTH_PICO
+=
 fi
 AC_SUBST
 (
