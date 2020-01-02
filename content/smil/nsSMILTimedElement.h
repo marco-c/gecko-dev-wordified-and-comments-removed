@@ -1147,6 +1147,9 @@ mDeferIntervalUpdates
 bool
 mDoDeferredUpdate
 ;
+class
+AutoIntervalUpdater
+;
 uint8_t
 mDeleteCount
 ;
