@@ -7,11 +7,9 @@ document
 (
 mozilla
 /
-content
+dom
 /
 xul
-/
-document
 )
 testcases
 for

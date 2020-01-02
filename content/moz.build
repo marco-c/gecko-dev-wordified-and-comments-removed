@@ -106,9 +106,6 @@ html
 '
 media
 '
-'
-xul
-'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
