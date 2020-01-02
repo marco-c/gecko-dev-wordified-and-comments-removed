@@ -1591,6 +1591,15 @@ message_pump_qt
 .
 cc
 '
+'
+src
+/
+base
+/
+moc_message_pump_qt
+.
+cc
+'
 ]
 if
 os_bsd

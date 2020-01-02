@@ -111,6 +111,11 @@ SOURCES
 =
 [
 '
+moc_QTMLocationProvider
+.
+cpp
+'
+'
 QTMLocationProvider
 .
 cpp

@@ -281,6 +281,11 @@ SOURCES
 =
 [
 '
+moc_nsNativeAppSupportQt
+.
+cpp
+'
+'
 nsNativeAppSupportQt
 .
 cpp

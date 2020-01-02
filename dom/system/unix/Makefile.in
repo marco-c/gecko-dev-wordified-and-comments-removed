@@ -55,12 +55,6 @@ MPL
 .
 ifdef
 MOZ_ENABLE_QTMOBILITY
-CPPSRCS
-+
-=
-moc_QTMLocationProvider
-.
-cpp
 LOCAL_INCLUDES
 +
 =
