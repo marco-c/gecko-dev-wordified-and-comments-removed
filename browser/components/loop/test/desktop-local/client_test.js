@@ -472,7 +472,7 @@ fakeCallUrl
 expiresAt
 "
 :
-60
+6000
 }
 ;
 hawkRequestStub
@@ -519,11 +519,7 @@ calledWithExactly
 mozLoop
 .
 noteCallUrlExpiry
-60
-*
-60
-*
-60
+6000
 )
 ;
 }
