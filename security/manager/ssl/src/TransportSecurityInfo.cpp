@@ -173,10 +173,6 @@ mPort
 (
 0
 )
-mIsCertIssuerBlacklisted
-(
-false
-)
 {
 }
 TransportSecurityInfo
