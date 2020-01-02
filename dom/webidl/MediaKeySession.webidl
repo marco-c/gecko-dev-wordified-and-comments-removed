@@ -321,7 +321,11 @@ void
 >
 update
 (
-Uint8Array
+(
+ArrayBufferView
+or
+ArrayBuffer
+)
 response
 )
 ;

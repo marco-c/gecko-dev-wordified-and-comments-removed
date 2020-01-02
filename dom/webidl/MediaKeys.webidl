@@ -218,7 +218,11 @@ createSession
 (
 DOMString
 initDataType
-Uint8Array
+(
+ArrayBufferView
+or
+ArrayBuffer
+)
 initData
 optional
 SessionType
@@ -280,7 +284,11 @@ void
 >
 setServerCertificate
 (
-Uint8Array
+(
+ArrayBufferView
+or
+ArrayBuffer
+)
 serverCertificate
 )
 ;

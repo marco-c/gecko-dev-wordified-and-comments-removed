@@ -186,7 +186,7 @@ Throws
 ]
 readonly
 attribute
-Uint8Array
+ArrayBuffer
 message
 ;
 readonly
@@ -202,15 +202,14 @@ MediaKeyMessageEventInit
 :
 EventInit
 {
-Uint8Array
+ArrayBuffer
 message
 ;
 DOMString
 ?
 destinationURL
 =
-"
-"
+null
 ;
 }
 ;

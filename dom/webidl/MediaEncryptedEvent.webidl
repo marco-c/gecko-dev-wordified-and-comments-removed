@@ -191,7 +191,7 @@ Throws
 ]
 readonly
 attribute
-Uint8Array
+ArrayBuffer
 ?
 initData
 ;
@@ -208,7 +208,7 @@ initDataType
 "
 "
 ;
-Uint8Array
+ArrayBuffer
 ?
 initData
 =
