@@ -44429,7 +44429,7 @@ aElement
 ;
 HelperApps
 .
-openUriInApp
+launchUri
 (
 uri
 )
