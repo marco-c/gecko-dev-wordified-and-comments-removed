@@ -1190,6 +1190,16 @@ NS_RGB
 )
 GFX_COLOR
 (
+rebeccapurple
+NS_RGB
+(
+102
+51
+153
+)
+)
+GFX_COLOR
+(
 red
 NS_RGB
 (
