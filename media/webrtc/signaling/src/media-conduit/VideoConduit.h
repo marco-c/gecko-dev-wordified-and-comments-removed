@@ -522,6 +522,12 @@ false
 #
 endif
 }
+virtual
+uint64_t
+CodecPluginID
+(
+)
+;
 unsigned
 short
 SendingWidth

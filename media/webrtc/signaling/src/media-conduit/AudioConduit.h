@@ -379,6 +379,16 @@ int
 len
 )
 ;
+virtual
+uint64_t
+CodecPluginID
+(
+)
+{
+return
+0
+;
+}
 WebrtcAudioConduit
 (
 )
