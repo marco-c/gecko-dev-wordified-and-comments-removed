@@ -187,6 +187,7 @@ are
 n
 "
 )
+;
 let
 {
 DebuggerServer
