@@ -36,6 +36,13 @@ h
 #
 include
 "
+jsanalyze
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
