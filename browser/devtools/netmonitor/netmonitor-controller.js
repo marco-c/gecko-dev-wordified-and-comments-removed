@@ -3005,6 +3005,16 @@ Bool
 statistics
 "
 ]
+filters
+:
+[
+"
+Json
+"
+"
+filters
+"
+]
 }
 )
 ;
