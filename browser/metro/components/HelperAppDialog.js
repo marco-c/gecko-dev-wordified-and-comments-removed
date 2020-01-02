@@ -749,7 +749,7 @@ text
 :
 aLauncher
 .
-suggestedFileName
+downloadSize
 className
 :
 "
