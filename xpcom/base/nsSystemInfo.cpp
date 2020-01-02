@@ -1747,10 +1747,6 @@ sdk
 [
 PROP_VALUE_MAX
 ]
-characteristics
-[
-PROP_VALUE_MAX
-]
 ;
 if
 (
@@ -1768,6 +1764,7 @@ sdk
 sdk
 )
 )
+{
 android_sdk_version
 =
 atoi
