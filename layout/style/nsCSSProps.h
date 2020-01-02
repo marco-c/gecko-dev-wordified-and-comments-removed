@@ -1912,6 +1912,13 @@ kBackgroundAttachmentKTable
 static
 const
 KTableValue
+kBackgroundInlinePolicyKTable
+[
+]
+;
+static
+const
+KTableValue
 kBackgroundOriginKTable
 [
 ]
@@ -1997,13 +2004,6 @@ static
 const
 KTableValue
 kBoxAlignKTable
-[
-]
-;
-static
-const
-KTableValue
-kBoxDecorationBreakKTable
 [
 ]
 ;
