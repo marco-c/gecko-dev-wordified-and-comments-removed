@@ -469,7 +469,10 @@ target
 :
         
 return
+int
+(
 ret
+)
     
 depsdir
 =
