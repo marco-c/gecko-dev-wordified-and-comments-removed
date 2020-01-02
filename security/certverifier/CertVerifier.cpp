@@ -867,7 +867,6 @@ SECSuccess
 }
 }
 }
-const
 bool
 enforceTestMode
 =
