@@ -338,6 +338,9 @@ namespace
 mozilla
 {
 class
+EventChainVisitor
+;
+class
 EventListenerManager
 ;
 namespace
@@ -3219,7 +3222,7 @@ aId
 bool
 CheckHandleEventForLinksPrecondition
 (
-nsEventChainVisitor
+EventChainVisitor
 &
 aVisitor
 nsIURI

@@ -10482,7 +10482,7 @@ Element
 :
 CheckHandleEventForLinksPrecondition
 (
-nsEventChainVisitor
+EventChainVisitor
 &
 aVisitor
 nsIURI

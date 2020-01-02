@@ -165,6 +165,9 @@ namespace
 mozilla
 {
 class
+EventChainVisitor
+;
+class
 EventListenerManager
 ;
 namespace
@@ -2995,7 +2998,10 @@ MOZ_OVERRIDE
 bool
 CheckHandleEventForAnchorsPreconditions
 (
-nsEventChainVisitor
+mozilla
+:
+:
+EventChainVisitor
 &
 aVisitor
 )
