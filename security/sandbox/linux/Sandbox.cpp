@@ -546,9 +546,6 @@ nextFrame
 ;
 }
 }
-#
-ifdef
-MOZ_CONTENT_SANDBOX_REPORTER
 static
 void
 Reporter
@@ -924,8 +921,6 @@ return
 0
 ;
 }
-#
-endif
 static
 int
 InstallSyscallFilter
@@ -1892,12 +1887,6 @@ gSeccompSandboxLog
 ;
 #
 endif
-#
-if
-defined
-(
-MOZ_CONTENT_SANDBOX_REPORTER
-)
 if
 (
 InstallSyscallReporter
@@ -1918,8 +1907,6 @@ n
 )
 ;
 }
-#
-endif
 if
 (
 IsSandboxingSupported
