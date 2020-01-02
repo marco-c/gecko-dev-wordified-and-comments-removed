@@ -302,9 +302,9 @@ protocol
 PLayerTransaction
 {
 manager
-PRenderFrame
-or
 PCompositor
+or
+PRenderFrame
 ;
 manages
 PLayer
