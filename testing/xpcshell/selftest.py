@@ -8,6 +8,8 @@ os
 unittest
 tempfile
 shutil
+import
+mozinfo
 from
 StringIO
 import
@@ -37,6 +39,11 @@ from
 runxpcshelltests
 import
 XPCShellTests
+mozinfo
+.
+find_and_update_from_json
+(
+)
 objdir
 =
 build_obj
@@ -1628,8 +1635,9 @@ manifest
                                           
 mozInfo
 =
-{
-}
+mozinfo
+.
+info
                                           
 shuffle
 =
