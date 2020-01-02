@@ -126,8 +126,6 @@ media
 /
 libvorbis
 /
-lib
-/
 (
 LIB_PREFIX
 )
