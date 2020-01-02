@@ -1510,7 +1510,7 @@ Wait
 (
 PR_SecondsToInterval
 (
-60
+kDefaultWifiScanInterval
 )
 )
 ;
