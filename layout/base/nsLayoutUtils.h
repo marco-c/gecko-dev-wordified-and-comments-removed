@@ -1495,15 +1495,6 @@ aFlags
 )
 ;
 static
-int32_t
-GetZIndex
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 bool
 BinarySearchForPosition
 (
