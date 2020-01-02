@@ -197,12 +197,7 @@ this
 .
 UIModule
 .
-getActiveStreams
-(
-true
-true
-true
-)
+activeStreams
 )
 {
 let
