@@ -1058,7 +1058,7 @@ nsIDirectoryServiceProvider2
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 ScopedXPCOM
 :
@@ -1073,7 +1073,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 ScopedXPCOM
 :

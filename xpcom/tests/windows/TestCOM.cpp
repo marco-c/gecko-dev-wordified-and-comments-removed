@@ -154,7 +154,7 @@ NS_IMPL_QUERY_INTERFACE1
 nsTestCom
 nsITestCom
 )
-nsrefcnt
+MozExternalRefCountType
 nsTestCom
 :
 :
@@ -203,7 +203,7 @@ return
 res
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 nsTestCom
 :
 :

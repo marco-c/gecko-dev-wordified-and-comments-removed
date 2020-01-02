@@ -766,7 +766,7 @@ aInstancePtr
 )
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 nsXPCWrappedJS
 :
 :
@@ -878,7 +878,7 @@ return
 cnt
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 nsXPCWrappedJS
 :
 :

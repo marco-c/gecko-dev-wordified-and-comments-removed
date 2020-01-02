@@ -667,7 +667,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsMemoryImpl
 :
@@ -685,7 +685,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsMemoryImpl
 :

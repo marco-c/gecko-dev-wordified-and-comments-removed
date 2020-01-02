@@ -15878,7 +15878,7 @@ singleton
 ;
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 ComponentsSH
 :
@@ -15894,7 +15894,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 ComponentsSH
 :

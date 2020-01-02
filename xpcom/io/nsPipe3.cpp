@@ -2238,7 +2238,7 @@ result
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsPipeInputStream
 :
@@ -2263,7 +2263,7 @@ AddRef
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsPipeInputStream
 :
@@ -3816,7 +3816,7 @@ result
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsPipeOutputStream
 :
@@ -3840,7 +3840,7 @@ AddRef
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsPipeOutputStream
 :

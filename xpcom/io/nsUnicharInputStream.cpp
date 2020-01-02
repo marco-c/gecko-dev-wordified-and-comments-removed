@@ -1574,7 +1574,7 @@ nsISimpleUnicharStreamFactory
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsSimpleUnicharStreamFactory
 :
@@ -1589,7 +1589,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsSimpleUnicharStreamFactory
 :

@@ -228,7 +228,7 @@ Release
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsHtml5Atom
 :
@@ -255,7 +255,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsHtml5Atom
 :

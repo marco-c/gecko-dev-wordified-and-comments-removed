@@ -2629,7 +2629,7 @@ nsInputStreamWrapper
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCacheEntryDescriptor
 :
@@ -3425,7 +3425,7 @@ nsDecompressInputStreamWrapper
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCacheEntryDescriptor
 :
@@ -4164,7 +4164,7 @@ nsOutputStreamWrapper
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCacheEntryDescriptor
 :
@@ -5053,7 +5053,7 @@ nsCompressOutputStreamWrapper
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsCacheEntryDescriptor
 :

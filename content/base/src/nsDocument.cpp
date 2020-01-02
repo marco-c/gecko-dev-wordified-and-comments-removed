@@ -7873,7 +7873,7 @@ nsDocument
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsDocument
 :

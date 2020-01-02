@@ -84,7 +84,7 @@ AudioParam
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AudioParam
 :

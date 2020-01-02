@@ -269,7 +269,7 @@ aInstancePtr
 \
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -279,7 +279,7 @@ void
 \
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (
@@ -523,7 +523,7 @@ _class
 \
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 \
 _class
@@ -626,7 +626,7 @@ mRefCnt
 \
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 \
 _class
@@ -771,7 +771,7 @@ _class
 \
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 \
 _class
@@ -865,7 +865,7 @@ count
 \
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 \
 _class
@@ -1013,7 +1013,7 @@ aInstancePtr
 \
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 \
 _class
@@ -1040,7 +1040,7 @@ AddRef
 \
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 \
 _class

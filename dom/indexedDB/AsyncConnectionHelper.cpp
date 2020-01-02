@@ -2873,7 +2873,7 @@ rv
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 StackBasedEventTarget
 :
@@ -2900,7 +2900,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 StackBasedEventTarget
 :

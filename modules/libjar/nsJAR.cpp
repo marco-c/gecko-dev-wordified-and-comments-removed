@@ -239,7 +239,7 @@ NS_IMPL_ADDREF
 (
 nsJAR
 )
-nsrefcnt
+MozExternalRefCountType
 nsJAR
 :
 :

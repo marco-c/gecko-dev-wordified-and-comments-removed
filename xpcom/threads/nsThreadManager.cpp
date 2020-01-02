@@ -185,7 +185,7 @@ PL_DHASH_REMOVE
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsThreadManager
 :
@@ -200,7 +200,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsThreadManager
 :

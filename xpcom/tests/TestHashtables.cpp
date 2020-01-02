@@ -1102,7 +1102,7 @@ IFoo
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -1110,7 +1110,7 @@ AddRef
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (
@@ -1313,7 +1313,7 @@ total_destructions_
 )
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 IFoo
 :
 :
@@ -1360,7 +1360,7 @@ return
 refcount_
 ;
 }
-nsrefcnt
+MozExternalRefCountType
 IFoo
 :
 :

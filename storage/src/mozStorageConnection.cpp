@@ -2007,7 +2007,7 @@ mozIStorageConnection
 NS_INTERFACE_MAP_END
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Connection
 :

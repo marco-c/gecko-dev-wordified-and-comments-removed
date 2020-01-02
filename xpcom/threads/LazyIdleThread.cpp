@@ -1472,7 +1472,7 @@ LazyIdleThread
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 LazyIdleThread
 :

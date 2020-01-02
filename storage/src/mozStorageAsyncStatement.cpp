@@ -352,7 +352,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AsyncStatementClassInfo
 :
@@ -367,7 +367,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AsyncStatementClassInfo
 :

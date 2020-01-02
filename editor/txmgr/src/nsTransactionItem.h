@@ -88,7 +88,7 @@ nsTransactionItem
 ;
 NS_METHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -96,7 +96,7 @@ AddRef
 ;
 NS_METHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (

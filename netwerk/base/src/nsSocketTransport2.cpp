@@ -998,7 +998,7 @@ nsIAsyncInputStream
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsSocketInputStream
 :
@@ -1022,7 +1022,7 @@ AddRef
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsSocketInputStream
 :
@@ -2003,7 +2003,7 @@ nsIAsyncOutputStream
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsSocketOutputStream
 :
@@ -2027,7 +2027,7 @@ AddRef
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsSocketOutputStream
 :

@@ -303,7 +303,7 @@ NS_OK
 ;
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 StartTransactionRunnable
 :
@@ -318,7 +318,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 StartTransactionRunnable
 :

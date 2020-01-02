@@ -55,7 +55,7 @@ NS_IFOO_IID
 )
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 RefCnt
 (
@@ -103,7 +103,7 @@ Foo
 NS_DECL_ISUPPORTS
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 RefCnt
 (
@@ -342,7 +342,7 @@ IBar
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Bar
 :

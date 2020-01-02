@@ -41,7 +41,7 @@ public
 :
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 AddRef
 (
@@ -51,7 +51,7 @@ AddRef
 ;
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (

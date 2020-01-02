@@ -438,7 +438,7 @@ CacheFileChunk
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 CacheFileChunk
 :

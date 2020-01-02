@@ -752,7 +752,7 @@ nsTimerImpl
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 nsTimerImpl
 :

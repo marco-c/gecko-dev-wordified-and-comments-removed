@@ -66,7 +66,7 @@ CacheFileOutputStream
 )
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 CacheFileOutputStream
 :

@@ -14,7 +14,7 @@ h
 "
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 GenericClassInfo
 :
@@ -29,7 +29,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 GenericClassInfo
 :

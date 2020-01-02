@@ -151,7 +151,7 @@ public
 NS_DECL_NSITCPSOCKETPARENT
 NS_IMETHOD_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 Release
 (

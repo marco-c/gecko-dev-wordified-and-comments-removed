@@ -91,7 +91,7 @@ kInstance
 ;
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 EmptyEnumeratorImpl
 :
@@ -107,7 +107,7 @@ return
 }
 NS_IMETHODIMP_
 (
-nsrefcnt
+MozExternalRefCountType
 )
 EmptyEnumeratorImpl
 :

@@ -27,6 +27,15 @@ CommentBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+IntegerPrintfMacros
+.
+h
+"
 using
 namespace
 mozilla
@@ -193,7 +202,9 @@ p
 refcount
 =
 %
-d
+"
+PRIuPTR
+"
 <
 !
 -
