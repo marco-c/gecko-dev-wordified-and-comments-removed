@@ -514,7 +514,7 @@ JS_ASSERT
 rt
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

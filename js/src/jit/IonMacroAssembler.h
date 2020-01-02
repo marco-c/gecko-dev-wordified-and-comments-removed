@@ -3385,7 +3385,7 @@ label
 ;
 }
 void
-branchTestNeedsBarrier
+branchTestNeedsIncrementalBarrier
 (
 Condition
 cond
@@ -3430,7 +3430,7 @@ needsBarrierAddr
 zone
 -
 >
-addressOfNeedsBarrier
+addressOfNeedsIncrementalBarrier
 (
 )
 )

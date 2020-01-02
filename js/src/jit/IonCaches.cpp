@@ -9349,7 +9349,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -9427,7 +9427,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -12180,7 +12180,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -18550,7 +18550,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

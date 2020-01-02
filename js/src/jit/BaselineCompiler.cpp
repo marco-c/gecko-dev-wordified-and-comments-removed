@@ -1292,7 +1292,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

@@ -3194,7 +3194,7 @@ if
 shadowZone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -3399,7 +3399,7 @@ shadowZone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

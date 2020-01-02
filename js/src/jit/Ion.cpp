@@ -4686,7 +4686,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -13296,7 +13296,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

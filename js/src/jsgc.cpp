@@ -7845,7 +7845,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -16283,7 +16283,7 @@ anyNeedsBarrier
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 ;
@@ -16292,7 +16292,7 @@ JS_ASSERT
 rt
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 =
@@ -17131,7 +17131,7 @@ isGCMarking
 zone
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 Zone
@@ -17164,7 +17164,7 @@ clearAndFree
 rt
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 )
@@ -21235,7 +21235,7 @@ isGCMarking
 zone
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 Zone
@@ -21259,7 +21259,7 @@ NoGC
 rt
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 )
@@ -21456,7 +21456,7 @@ JS_ASSERT
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -21613,7 +21613,7 @@ JS_ASSERT
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -21621,7 +21621,7 @@ needsBarrier
 zone
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 Zone
@@ -21639,7 +21639,7 @@ JS_ASSERT
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -21649,7 +21649,7 @@ needsBarrier
 rt
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 )
@@ -21709,7 +21709,7 @@ isGCMarking
 zone
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 true
 Zone
@@ -21740,7 +21740,7 @@ else
 zone
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 Zone
@@ -21754,7 +21754,7 @@ UpdateJit
 runtime
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 haveBarriers
 )
@@ -23084,7 +23084,7 @@ NO_INCREMENTAL
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

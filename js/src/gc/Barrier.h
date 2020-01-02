@@ -355,7 +355,7 @@ if
 shadowZone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -444,7 +444,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 ;
@@ -509,7 +509,7 @@ shadowRuntimeFromAnyThread
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -537,7 +537,7 @@ if
 shadowZone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1310,7 +1310,7 @@ v
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1397,7 +1397,7 @@ if
 shadowZone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1415,7 +1415,7 @@ v
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1812,7 +1812,7 @@ if
 shadowZone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1893,7 +1893,7 @@ if
 shadowZone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

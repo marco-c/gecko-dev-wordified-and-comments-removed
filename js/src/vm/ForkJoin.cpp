@@ -1260,7 +1260,7 @@ runtime
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1276,7 +1276,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

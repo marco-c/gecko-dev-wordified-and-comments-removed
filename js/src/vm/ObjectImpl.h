@@ -4120,7 +4120,7 @@ if
 shadowZone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

@@ -594,7 +594,7 @@ NoGC
 ;
 else
 return
-needsBarrier
+needsIncrementalBarrier
 (
 )
 ;
@@ -652,7 +652,7 @@ MarkGray
 ;
 else
 return
-needsBarrier
+needsIncrementalBarrier
 (
 )
 ;
@@ -732,7 +732,7 @@ const
 return
 compileBarriers
 (
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -742,12 +742,12 @@ bool
 compileBarriers
 (
 bool
-needsBarrier
+needsIncrementalBarrier
 )
 const
 {
 return
-needsBarrier
+needsIncrementalBarrier
 |
 |
 runtimeFromMainThread
@@ -777,7 +777,7 @@ UpdateJit
 }
 ;
 void
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 bool
 needs
@@ -788,14 +788,14 @@ updateJit
 const
 bool
 *
-addressOfNeedsBarrier
+addressOfNeedsIncrementalBarrier
 (
 )
 const
 {
 return
 &
-needsBarrier_
+needsIncrementalBarrier_
 ;
 }
 js

@@ -2490,7 +2490,7 @@ zone
 )
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

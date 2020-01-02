@@ -1543,7 +1543,7 @@ savedRuntimeNeedBarrier
 rt
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )
@@ -1564,7 +1564,7 @@ incGcNumber
 rt
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 false
 )
@@ -1651,7 +1651,7 @@ runtime
 )
 -
 >
-setNeedsBarrier
+setNeedsIncrementalBarrier
 (
 savedRuntimeNeedBarrier
 )

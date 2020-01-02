@@ -1060,7 +1060,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

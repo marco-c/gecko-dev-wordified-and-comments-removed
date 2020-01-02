@@ -8120,7 +8120,7 @@ if
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 )

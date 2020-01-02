@@ -3143,7 +3143,7 @@ return
 zone
 -
 >
-needsBarrier
+needsIncrementalBarrier
 (
 )
 |
