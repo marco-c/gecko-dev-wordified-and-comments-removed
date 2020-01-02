@@ -139,14 +139,6 @@ reftest
 .
 list
 include
-position
--
-relative
-/
-reftest
-.
-list
-include
 async
 -
 scrolling
