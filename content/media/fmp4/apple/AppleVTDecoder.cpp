@@ -1443,10 +1443,7 @@ decodeTimeStamp
 =
 CMTimeMake
 (
-aSample
--
->
-composition_timestamp
+0
 USECS_PER_S
 )
 ;
