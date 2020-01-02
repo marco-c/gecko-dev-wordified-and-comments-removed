@@ -324,13 +324,6 @@ worker
 RIL
 ;
 let
-iccHelper
-=
-worker
-.
-ICCRecordHelper
-;
-let
 ruimHelper
 =
 worker
