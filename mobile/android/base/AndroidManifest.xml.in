@@ -3023,15 +3023,6 @@ Preferences
 "
 android
 :
-label
-=
-"
-string
-/
-settings_title
-"
-android
-:
 configChanges
 =
 "

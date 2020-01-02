@@ -48,6 +48,13 @@ Context
 context
 )
 ;
+Locale
+getCurrentLocale
+(
+Context
+context
+)
+;
 String
 getAndApplyPersistedLocale
 (
