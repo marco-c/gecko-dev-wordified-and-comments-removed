@@ -255,7 +255,7 @@ CoreExit
 )
 ;
 void
-ShutdownXPCOM
+Shutdown
 (
 )
 ;

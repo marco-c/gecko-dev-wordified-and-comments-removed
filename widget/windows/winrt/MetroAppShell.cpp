@@ -1312,7 +1312,7 @@ false
 sMetroApp
 -
 >
-ShutdownXPCOM
+Shutdown
 (
 )
 ;
