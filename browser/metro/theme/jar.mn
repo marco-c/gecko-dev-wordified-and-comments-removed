@@ -235,6 +235,17 @@ firstrun
 .
 css
 )
+*
+skin
+/
+start
+.
+css
+(
+start
+.
+css
+)
 %
 override
 chrome
