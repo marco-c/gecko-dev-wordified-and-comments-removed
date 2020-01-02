@@ -928,6 +928,14 @@ CreateHiddenWindow
 (
 )
 {
+#
+ifdef
+MOZ_WIDGET_GONK
+return
+NS_OK
+;
+#
+else
 nsCOMPtr
 <
 nsIAppShellService
@@ -954,6 +962,8 @@ CreateHiddenWindow
 (
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsAppStartup
@@ -963,6 +973,14 @@ DestroyHiddenWindow
 (
 )
 {
+#
+ifdef
+MOZ_WIDGET_GONK
+return
+NS_OK
+;
+#
+else
 nsCOMPtr
 <
 nsIAppShellService
@@ -989,6 +1007,8 @@ DestroyHiddenWindow
 (
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsAppStartup
@@ -2497,7 +2517,7 @@ char
 *
 aTopic
 const
-char16_t
+PRUnichar
 *
 aData
 )
