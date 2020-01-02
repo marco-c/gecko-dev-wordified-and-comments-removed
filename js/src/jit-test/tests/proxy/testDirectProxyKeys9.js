@@ -64,7 +64,7 @@ true
 }
 )
 {
-keys
+ownKeys
 :
 function
 (

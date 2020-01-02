@@ -25,7 +25,7 @@ Proxy
 {
 }
 {
-keys
+ownKeys
 :
 function
 (

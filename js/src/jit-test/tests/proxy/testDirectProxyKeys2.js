@@ -13,7 +13,7 @@ var
 handler
 =
 {
-keys
+ownKeys
 :
 function
 (

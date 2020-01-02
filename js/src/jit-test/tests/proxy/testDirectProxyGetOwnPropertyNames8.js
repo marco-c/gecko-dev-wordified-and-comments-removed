@@ -31,7 +31,7 @@ Proxy
 (
 target
 {
-getOwnPropertyNames
+ownKeys
 :
 function
 (
@@ -135,7 +135,7 @@ true
 }
 )
 {
-getOwnPropertyNames
+ownKeys
 :
 function
 (

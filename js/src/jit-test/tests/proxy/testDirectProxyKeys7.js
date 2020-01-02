@@ -55,7 +55,7 @@ Proxy
 (
 target
 {
-keys
+ownKeys
 :
 function
 (

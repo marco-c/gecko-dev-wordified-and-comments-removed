@@ -52,7 +52,7 @@ Proxy
 (
 target
 {
-getOwnPropertyNames
+ownKeys
 :
 function
 (

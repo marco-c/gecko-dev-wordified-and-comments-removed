@@ -13,7 +13,7 @@ var
 handler
 =
 {
-getOwnPropertyNames
+ownKeys
 :
 function
 (
