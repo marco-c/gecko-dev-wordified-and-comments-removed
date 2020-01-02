@@ -199,3 +199,16 @@ FINAL_LIBRARY
 '
 necko
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+netwerk
+/
+base
+/
+src
+'
+]
