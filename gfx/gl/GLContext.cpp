@@ -3608,9 +3608,8 @@ if
 parseSuccess
 )
 {
-MOZ_ASSERT
+NS_WARNING
 (
-false
 "
 Parsed
 version
@@ -3620,6 +3619,10 @@ expected
 .
 "
 )
+;
+mInitialized
+=
+false
 ;
 }
 }
