@@ -3819,7 +3819,7 @@ HANDLE
 _beginthreadex
 (
 NULL
-64
+256
 *
 1024
 wasapi_stream_render_loop
