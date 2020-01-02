@@ -3680,6 +3680,9 @@ CacheFile
 :
 OpenOutputStream
 (
+CacheOutputCloseListener
+*
+aCloseListener
 nsIOutputStream
 *
 *
@@ -3786,6 +3789,7 @@ new
 CacheFileOutputStream
 (
 this
+aCloseListener
 )
 ;
 LOG
@@ -6122,6 +6126,13 @@ if
 mMemoryOnly
 )
 WriteMetadataIfNeeded
+(
+)
+;
+aOutput
+-
+>
+NotifyCloseListener
 (
 )
 ;

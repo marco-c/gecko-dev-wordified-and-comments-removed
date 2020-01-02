@@ -524,15 +524,6 @@ appCache
 )
 ;
 }
-get
-mainThreadOnly
-(
-)
-{
-return
-true
-;
-}
 run
 :
 function

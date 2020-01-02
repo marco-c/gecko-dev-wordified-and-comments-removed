@@ -74,6 +74,9 @@ class
 CacheFileOutputStream
 ;
 class
+CacheOutputCloseListener
+;
+class
 MetadataWriteTimer
 ;
 #
@@ -314,6 +317,9 @@ _retval
 NS_IMETHOD
 OpenOutputStream
 (
+CacheOutputCloseListener
+*
+aCloseListener
 nsIOutputStream
 *
 *
