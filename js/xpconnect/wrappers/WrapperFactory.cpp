@@ -561,6 +561,16 @@ return
 true
 ;
 }
+if
+(
+key
+=
+=
+JSProto_Proxy
+)
+return
+true
+;
 return
 false
 ;
