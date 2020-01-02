@@ -6207,6 +6207,8 @@ width
 aLayerMetrics
 .
 mViewport
+.
+width
 )
 needContentRepaint
 =
