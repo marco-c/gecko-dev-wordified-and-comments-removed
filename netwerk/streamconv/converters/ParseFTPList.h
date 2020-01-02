@@ -1,4 +1,10 @@
 #
+ifndef
+ParseRTPList_h___
+#
+define
+ParseRTPList_h___
+#
 include
 <
 stdint
@@ -141,3 +147,5 @@ list_result
 result
 )
 ;
+#
+endif

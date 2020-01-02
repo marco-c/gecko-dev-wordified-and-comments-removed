@@ -98,7 +98,7 @@ PROGRAM
 '
 TestStreamConv
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
