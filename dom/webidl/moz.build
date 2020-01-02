@@ -1095,6 +1095,11 @@ Location
 webidl
 '
 '
+LockedFile
+.
+webidl
+'
+'
 MediaElementAudioSourceNode
 .
 webidl

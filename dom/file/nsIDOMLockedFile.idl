@@ -124,17 +124,6 @@ nsIDOMEventListener
 interface
 nsIDOMFileHandle
 ;
-dictionary
-DOMFileMetadataParameters
-{
-boolean
-size
-;
-boolean
-lastModified
-;
-}
-;
 [
 scriptable
 builtinclass

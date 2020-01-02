@@ -286,6 +286,14 @@ AppInfo
 arg1
 )
 ;
+void
+DOMFileMetadataParameters
+(
+optional
+DOMFileMetadataParameters
+arg
+)
+;
 }
 ;
 interface
