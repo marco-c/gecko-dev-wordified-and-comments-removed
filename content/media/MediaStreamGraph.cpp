@@ -7101,12 +7101,6 @@ MediaStreamGraphImpl
 :
 UpdateGraph
 (
-nsTArray
-<
-MessageBlock
->
-&
-aMessageQueue
 GraphTime
 aEndBlockingDecision
 )
@@ -7120,7 +7114,7 @@ i
 ;
 i
 <
-aMessageQueue
+mFrontMessageQueue
 .
 Length
 (
@@ -7133,7 +7127,7 @@ i
 {
 mProcessingGraphUpdateIndex
 =
-aMessageQueue
+mFrontMessageQueue
 [
 i
 ]
@@ -7150,7 +7144,7 @@ ControlMessage
 &
 messages
 =
-aMessageQueue
+mFrontMessageQueue
 [
 i
 ]
@@ -7189,7 +7183,7 @@ Run
 ;
 }
 }
-aMessageQueue
+mFrontMessageQueue
 .
 Clear
 (
@@ -7705,12 +7699,6 @@ GraphTime
 aStateFrom
 GraphTime
 aStateEnd
-nsTArray
-<
-MessageBlock
->
-&
-aMessageQueue
 )
 {
 UpdateCurrentTimeForStreams
@@ -7721,7 +7709,6 @@ aTo
 ;
 UpdateGraph
 (
-aMessageQueue
 aStateEnd
 )
 ;
@@ -7772,7 +7759,7 @@ IsEmpty
 )
 &
 &
-mMessageQueue
+mBackMessageQueue
 .
 IsEmpty
 (
@@ -7824,11 +7811,8 @@ WaitForNextIteration
 (
 )
 ;
-aMessageQueue
-.
-SwapElements
+SwapMessageQueues
 (
-mMessageQueue
 )
 ;
 }
@@ -8627,7 +8611,7 @@ MessageBlock
 *
 block
 =
-mMessageQueue
+mBackMessageQueue
 .
 AppendElement
 (
@@ -8735,7 +8719,7 @@ i
 ;
 i
 <
-mMessageQueue
+mBackMessageQueue
 .
 Length
 (
@@ -8750,7 +8734,7 @@ MessageBlock
 &
 mb
 =
-mMessageQueue
+mBackMessageQueue
 [
 i
 ]
@@ -8765,7 +8749,7 @@ mMessages
 )
 ;
 }
-mMessageQueue
+mBackMessageQueue
 .
 Clear
 (

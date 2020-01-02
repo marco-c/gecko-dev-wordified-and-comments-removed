@@ -409,6 +409,9 @@ mLastSwitchOffset
 }
 ;
 class
+MediaStreamGraphInitThreadRunnable
+;
+class
 ThreadedDriver
 :
 public
@@ -457,6 +460,9 @@ void
 RunThread
 (
 )
+;
+friend
+MediaStreamGraphInitThreadRunnable
 ;
 private
 :
