@@ -2654,6 +2654,7 @@ Unlock
 return
 ;
 }
+{
 RefPtr
 <
 DrawTarget
@@ -2709,10 +2710,7 @@ frontBuffer
 updateRegion
 )
 ;
-FlushBuffers
-(
-)
-;
+}
 mFrontClient
 -
 >
@@ -2825,6 +2823,13 @@ PopClip
 )
 ;
 }
+destDT
+-
+>
+Flush
+(
+)
+;
 ReturnDrawTargetToBuffer
 (
 destDT
@@ -2921,6 +2926,13 @@ PopClip
 )
 ;
 }
+destDT
+-
+>
+Flush
+(
+)
+;
 ReturnDrawTargetToBuffer
 (
 destDT

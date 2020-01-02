@@ -861,6 +861,9 @@ mFormat
 bool
 mIsLocked
 ;
+bool
+mNeedsClear
+;
 }
 ;
 class
