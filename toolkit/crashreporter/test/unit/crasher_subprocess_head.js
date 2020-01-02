@@ -142,6 +142,12 @@ interfaces
 nsICrashReporter
 )
 ;
+crashReporter
+.
+UpdateCrashEventsDir
+(
+)
+;
 let
 processType
 =
