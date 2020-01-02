@@ -3012,6 +3012,9 @@ bytecodeTypes
 ;
 private
 :
+bool
+failed_
+;
 #
 ifdef
 JS_ION
@@ -3040,9 +3043,6 @@ frozenScripts
 ;
 #
 endif
-bool
-failed_
-;
 public
 :
 CompilerConstraintList
