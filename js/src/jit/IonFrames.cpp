@@ -1802,6 +1802,13 @@ isExceptionPending
 )
 )
 {
+script
+-
+>
+resetUseCount
+(
+)
+;
 jsbytecode
 *
 catchPC
@@ -2451,6 +2458,13 @@ isExceptionPending
 )
 )
 {
+script
+-
+>
+resetUseCount
+(
+)
+;
 rfe
 -
 >
