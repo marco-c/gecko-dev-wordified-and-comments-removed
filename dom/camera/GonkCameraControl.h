@@ -528,6 +528,13 @@ uint32_t
 aHeight
 )
 ;
+int32_t
+RationalizeRotation
+(
+int32_t
+aRotation
+)
+;
 android
 :
 :
