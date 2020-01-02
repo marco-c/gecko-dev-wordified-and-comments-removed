@@ -1146,6 +1146,11 @@ target
 Browser
 .
 selectedBrowser
+&
+&
+aEvent
+.
+detail
 )
 {
 this
