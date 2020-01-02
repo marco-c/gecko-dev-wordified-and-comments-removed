@@ -571,6 +571,7 @@ int32_t
 mNumEntries
 ;
 static
+const
 PLDHashTableOps
 sHashOps
 ;

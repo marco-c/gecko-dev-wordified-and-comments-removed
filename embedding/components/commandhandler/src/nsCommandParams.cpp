@@ -46,6 +46,7 @@ using
 namespace
 mozilla
 ;
+const
 PLDHashTableOps
 nsCommandParams
 :

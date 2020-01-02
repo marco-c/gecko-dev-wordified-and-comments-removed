@@ -402,6 +402,7 @@ DocLoader
 #
 endif
 static
+const
 PLDHashTableOps
 hash_table_ops
 =
