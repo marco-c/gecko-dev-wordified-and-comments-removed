@@ -169,11 +169,15 @@ mm
 ]
 elif
 toolkit
-=
-=
+in
+(
 '
 gtk2
 '
+'
+gtk3
+'
+)
 :
 UNIFIED_SOURCES
 +
