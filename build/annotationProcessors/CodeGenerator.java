@@ -1302,6 +1302,9 @@ aCtorTuple
 )
 {
 Constructor
+<
+?
+>
 theCtor
 =
 aCtorTuple
@@ -1699,6 +1702,9 @@ Method
 m
 ;
 Constructor
+<
+?
+>
 c
 ;
 Class
@@ -1752,6 +1758,9 @@ c
 =
 (
 Constructor
+<
+?
+>
 )
 aMethod
 ;
@@ -2222,6 +2231,9 @@ writeCtorBody
 String
 implementationSignature
 Constructor
+<
+?
+>
 theCtor
 boolean
 aIsThreaded

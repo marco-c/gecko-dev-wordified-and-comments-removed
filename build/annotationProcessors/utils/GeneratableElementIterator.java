@@ -249,6 +249,9 @@ sort
 objs
 new
 AlphabeticAnnotatableEntityComparator
+<
+Member
+>
 (
 )
 )

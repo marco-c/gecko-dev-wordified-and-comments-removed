@@ -1748,6 +1748,9 @@ String
 getTypeSignatureStringForConstructor
 (
 Constructor
+<
+?
+>
 aConstructor
 )
 {
@@ -1826,6 +1829,9 @@ getTypeSignatureStringForConstructor
 (
 (
 Constructor
+<
+?
+>
 )
 aMember
 )
@@ -1838,6 +1844,9 @@ String
 getTypeSignatureString
 (
 Constructor
+<
+?
+>
 aConstructor
 )
 {
