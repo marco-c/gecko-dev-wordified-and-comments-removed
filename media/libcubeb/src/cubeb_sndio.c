@@ -283,6 +283,8 @@ n
 nfds
 revents
 state
+=
+CUBEB_STATE_STARTED
 ;
 size_t
 start
@@ -1497,6 +1499,7 @@ uint32_t
 latency_ms
 )
 {
+*
 latency_ms
 =
 40
