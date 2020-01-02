@@ -3718,12 +3718,6 @@ isRoot
 }
 }
 ;
-this
-.
-ContentScroll
-=
-ContentScroll
-;
 ContentScroll
 .
 init

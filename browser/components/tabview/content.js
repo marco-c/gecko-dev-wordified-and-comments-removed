@@ -10,13 +10,6 @@ Components
 .
 utils
 ;
-let
-Ci
-=
-Components
-.
-interfaces
-;
 Cu
 .
 import
