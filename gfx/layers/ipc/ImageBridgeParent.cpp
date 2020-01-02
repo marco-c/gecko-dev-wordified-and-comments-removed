@@ -726,7 +726,7 @@ bool
 ImageBridgeParent
 :
 :
-RecvWillStop
+RecvStop
 (
 )
 {
@@ -788,18 +788,6 @@ DeallocateDeviceData
 )
 ;
 }
-return
-true
-;
-}
-bool
-ImageBridgeParent
-:
-:
-RecvStop
-(
-)
-{
 return
 true
 ;

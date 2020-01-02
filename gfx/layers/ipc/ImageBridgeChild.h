@@ -214,6 +214,12 @@ aThread
 )
 ;
 static
+void
+DestroyBridge
+(
+)
+;
+static
 bool
 IsCreated
 (
@@ -766,11 +772,6 @@ PGrallocBufferChild
 aChild
 )
 ;
-void
-MarkShutDown
-(
-)
-;
 protected
 :
 ImageBridgeChild
@@ -829,9 +830,6 @@ PGrallocBufferChild
 aChild
 )
 MOZ_OVERRIDE
-;
-bool
-mShuttingDown
 ;
 }
 ;
