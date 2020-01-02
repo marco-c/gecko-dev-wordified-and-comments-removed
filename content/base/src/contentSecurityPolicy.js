@@ -1863,6 +1863,13 @@ aChannel
 if
 (
 aChannel
+instanceof
+Ci
+.
+nsIHttpChannel
+&
+&
+aChannel
 .
 referrer
 )

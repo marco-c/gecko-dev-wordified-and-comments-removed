@@ -12089,7 +12089,7 @@ csp
 >
 ScanRequestData
 (
-httpChannel
+aChannel
 )
 ;
 if
