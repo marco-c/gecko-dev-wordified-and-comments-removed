@@ -3598,12 +3598,17 @@ SourceHook
 >
 sourceHook
 ;
+#
+ifdef
+NIGHTLY_BUILD
 js
 :
 :
 AssertOnScriptEntryHook
 assertOnScriptEntryHook_
 ;
+#
+endif
 JSDebugHooks
 debugHooks
 ;
