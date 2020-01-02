@@ -132,6 +132,11 @@ ActivityMessageConfigurator
 js
 '
 '
+ActivityOptions
+.
+js
+'
+'
 ActivityProxy
 .
 js
