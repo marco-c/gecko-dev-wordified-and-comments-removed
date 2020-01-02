@@ -3604,6 +3604,25 @@ dumpDMDAfterTest
 true
 "
 )
+      
+if
+options
+.
+debugger
+:
+        
+self
+.
+urlOpts
+.
+append
+(
+"
+interactiveDebugger
+=
+true
+"
+)
   
 def
 getTestFlavor
