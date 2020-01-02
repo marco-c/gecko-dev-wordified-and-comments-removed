@@ -395,6 +395,11 @@ EXPORTS
 =
 [
 '
+GLContextGLX
+.
+h
+'
+'
 GLXLibrary
 .
 h
