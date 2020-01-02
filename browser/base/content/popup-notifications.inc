@@ -229,9 +229,7 @@ menulist
 oncommand
 =
 "
-WebrtcIndicator
-.
-UIModule
+gWebRTCUI
 .
 updateMainActionLabel
 (
