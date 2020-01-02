@@ -8906,6 +8906,11 @@ flex
 >
 <
 hbox
+id
+=
+"
+PlacesToolbarDropIndicatorHolder
+"
 align
 =
 "
