@@ -12299,9 +12299,11 @@ activation
 )
 ;
 }
-static
 void
-StopOffThreadCompilation
+jit
+:
+:
+StopAllOffThreadCompilations
 (
 JSCompartment
 *
@@ -12372,7 +12374,7 @@ next
 (
 )
 )
-StopOffThreadCompilation
+StopAllOffThreadCompilations
 (
 comp
 )
@@ -14396,7 +14398,7 @@ if
 comp_
 )
 {
-StopOffThreadCompilation
+StopAllOffThreadCompilations
 (
 comp_
 )
@@ -14425,7 +14427,7 @@ next
 (
 )
 )
-StopOffThreadCompilation
+StopAllOffThreadCompilations
 (
 comp
 )

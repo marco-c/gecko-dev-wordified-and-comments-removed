@@ -851,6 +851,14 @@ IonBuilder
 builder
 )
 ;
+void
+StopAllOffThreadCompilations
+(
+JSCompartment
+*
+comp
+)
+;
 static
 inline
 bool
