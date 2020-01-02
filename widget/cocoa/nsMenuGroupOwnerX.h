@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h

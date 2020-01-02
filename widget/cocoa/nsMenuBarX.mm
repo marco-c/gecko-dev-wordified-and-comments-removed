@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

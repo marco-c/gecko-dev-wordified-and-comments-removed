@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
