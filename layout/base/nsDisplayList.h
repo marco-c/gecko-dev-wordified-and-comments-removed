@@ -7946,6 +7946,15 @@ mOverrideZIndex
 aZIndex
 ;
 }
+void
+SetVisibleRect
+(
+const
+nsRect
+&
+aRect
+)
+;
 virtual
 nsDisplayWrapList
 *
