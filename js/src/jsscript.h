@@ -215,10 +215,7 @@ JSTryNote
 uint8_t
 kind
 ;
-uint8_t
-padding
-;
-uint16_t
+uint32_t
 stackDepth
 ;
 uint32_t

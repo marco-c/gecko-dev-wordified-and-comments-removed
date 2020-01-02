@@ -240,7 +240,7 @@ append
 (
 JSTryNoteKind
 kind
-unsigned
+uint32_t
 stackDepth
 size_t
 start
