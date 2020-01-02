@@ -298,12 +298,11 @@ refreshed
 let
 onMutations
 =
+once
+(
 inspector
 .
 walker
-.
-once
-(
 "
 mutations
 "
