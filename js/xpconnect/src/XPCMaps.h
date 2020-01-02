@@ -430,7 +430,7 @@ self
 >
 mTable
 .
-rekey
+rekeyIfMoved
 (
 prior
 key
@@ -3244,7 +3244,7 @@ self
 >
 mTable
 .
-rekey
+rekeyIfMoved
 (
 prior
 key
