@@ -181,6 +181,15 @@ src
 /
 tests
 /
+TestSuggestedSites
+.
+java
+'
+'
+src
+/
+tests
+/
 TestTopSitesCursorWrapper
 .
 java

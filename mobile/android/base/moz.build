@@ -1063,6 +1063,13 @@ java
 '
 db
 /
+SuggestedSites
+.
+java
+'
+'
+db
+/
 TabsProvider
 .
 java
