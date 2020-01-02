@@ -79,10 +79,7 @@ context
 EGLConfig
 config
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 bool
@@ -159,10 +156,7 @@ GLLibraryEGL
 *
 egl
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 bool
@@ -338,10 +332,7 @@ SharedSurface
 CreateShared
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 )

@@ -189,10 +189,7 @@ GLContext
 *
 gl
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 bool
@@ -254,10 +251,7 @@ SharedSurface
 CreateShared
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 )
