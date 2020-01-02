@@ -6816,6 +6816,18 @@ IsOuterWindow
 )
 )
 ;
+MOZ_ASSERT_IF
+(
+mDoc
+!
+mDoc
+-
+>
+EventHandlingSuppressed
+(
+)
+)
+;
 mDoc
 =
 nullptr
@@ -7506,7 +7518,7 @@ GetDocBaseURI
 (
 )
 ;
-if
+while
 (
 mDoc
 -
