@@ -5757,6 +5757,8 @@ stopPropagation
 (
 )
 ;
+return
+;
 }
 let
 doc
