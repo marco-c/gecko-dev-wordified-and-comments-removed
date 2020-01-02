@@ -32,9 +32,6 @@ NS_FILESTORAGE_IID
 }
 }
 class
-nsIAtom
-;
-class
 nsIFileStorage
 :
 public
@@ -48,8 +45,9 @@ NS_FILESTORAGE_IID
 )
 NS_IMETHOD_
 (
-nsIAtom
-*
+const
+nsACString
+&
 )
 Id
 (
@@ -110,8 +108,9 @@ NS_DECL_NSIFILESTORAGE
 \
 NS_IMETHOD_
 (
-nsIAtom
-*
+const
+nsACString
+&
 )
 \
 Id

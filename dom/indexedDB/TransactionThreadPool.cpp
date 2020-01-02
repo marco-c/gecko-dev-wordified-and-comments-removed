@@ -816,8 +816,9 @@ transaction
 aTransaction
 )
 ;
-nsIAtom
-*
+const
+nsACString
+&
 databaseId
 =
 aTransaction
@@ -1237,8 +1238,9 @@ pointer
 "
 )
 ;
-nsIAtom
-*
+const
+nsACString
+&
 databaseId
 =
 aTransaction

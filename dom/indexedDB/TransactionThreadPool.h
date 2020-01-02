@@ -504,7 +504,7 @@ mThreadPool
 ;
 nsClassHashtable
 <
-nsISupportsHashKey
+nsCStringHashKey
 DatabaseTransactionInfo
 >
 mTransactionsInProgress

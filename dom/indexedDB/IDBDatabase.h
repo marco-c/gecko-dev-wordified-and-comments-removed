@@ -824,10 +824,7 @@ DatabaseInfo
 >
 mPreviousDatabaseInfo
 ;
-nsCOMPtr
-<
-nsIAtom
->
+nsCString
 mDatabaseId
 ;
 nsString

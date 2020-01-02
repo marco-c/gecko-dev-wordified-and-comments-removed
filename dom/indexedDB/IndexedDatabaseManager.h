@@ -102,9 +102,6 @@ manager
 1
 "
 class
-nsIAtom
-;
-class
 nsPIDOMWindow
 ;
 class

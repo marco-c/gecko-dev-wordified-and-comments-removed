@@ -3374,8 +3374,9 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-nsIAtom
-*
+const
+nsACString
+&
 )
 IDBDatabase
 :

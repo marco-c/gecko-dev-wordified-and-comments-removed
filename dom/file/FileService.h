@@ -536,7 +536,7 @@ mStreamTransportTarget
 ;
 nsClassHashtable
 <
-nsISupportsHashKey
+nsCStringHashKey
 FileStorageInfo
 >
 mFileStorageInfos

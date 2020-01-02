@@ -180,10 +180,6 @@ mPrivilege
 (
 aPrivilege
 )
-mDatabaseId
-(
-nullptr
-)
 mContentParent
 (
 aContentParent
@@ -337,8 +333,9 @@ BlockDatabase
 (
 )
 ;
-nsIAtom
-*
+const
+nsACString
+&
 Id
 (
 )
@@ -346,10 +343,6 @@ const
 {
 return
 mDatabaseId
-.
-get
-(
-)
 ;
 }
 IDBDatabase
@@ -515,10 +508,7 @@ mForDeletion
 StoragePrivilege
 mPrivilege
 ;
-nsCOMPtr
-<
-nsIAtom
->
+nsCString
 mDatabaseId
 ;
 mozilla
