@@ -299,12 +299,6 @@ GetType
 )
 {
 case
-BUFFER_CONTENT
-:
-case
-BUFFER_CONTENT_DIRECT
-:
-case
 BUFFER_CONTENT_INC
 :
 case

@@ -234,17 +234,6 @@ aBufferRect
 ;
 virtual
 void
-DestroyThebesBuffer
-(
-CompositableClient
-*
-aCompositable
-)
-=
-0
-;
-virtual
-void
 UseTiledLayerBuffer
 (
 CompositableClient

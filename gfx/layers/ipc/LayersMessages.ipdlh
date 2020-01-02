@@ -1470,14 +1470,6 @@ bufferRect
 }
 ;
 struct
-OpDestroyThebesBuffer
-{
-PCompositable
-compositable
-;
-}
-;
-struct
 OpPaintTexture
 {
 PCompositable
@@ -1651,8 +1643,6 @@ OpUpdatePictureRect
 OpCreatedTexture
 ;
 OpCreatedIncrementalTexture
-;
-OpDestroyThebesBuffer
 ;
 OpPaintTexture
 ;
