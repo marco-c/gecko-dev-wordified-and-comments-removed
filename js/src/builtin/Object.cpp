@@ -3040,9 +3040,6 @@ obj
 return
 false
 ;
-#
-if
-0
 if
 (
 !
@@ -3058,8 +3055,6 @@ obj
 return
 false
 ;
-#
-endif
 if
 (
 args
@@ -3246,9 +3241,6 @@ obj
 return
 false
 ;
-#
-if
-0
 if
 (
 !
@@ -3264,8 +3256,6 @@ obj
 return
 false
 ;
-#
-endif
 RootedId
 id
 (
