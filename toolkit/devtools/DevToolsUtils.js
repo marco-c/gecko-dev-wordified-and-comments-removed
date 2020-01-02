@@ -928,9 +928,7 @@ true
 let
 principal
 =
-Services
-.
-scriptSecurityManager
+Cu
 .
 getObjectPrincipal
 (
