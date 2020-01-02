@@ -578,6 +578,11 @@ SetSyncPointForMediaStream
 (
 )
 ;
+int64_t
+GetCurrentTimeViaMediaStreamSync
+(
+)
+;
 void
 NotifyAudioAvailableListener
 (
