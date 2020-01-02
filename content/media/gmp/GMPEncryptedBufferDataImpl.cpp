@@ -119,6 +119,15 @@ Length
 )
 ;
 }
+GMPEncryptedBufferDataImpl
+:
+:
+~
+GMPEncryptedBufferDataImpl
+(
+)
+{
+}
 void
 GMPEncryptedBufferDataImpl
 :

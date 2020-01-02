@@ -79,6 +79,12 @@ GMPDecryptionData
 aData
 )
 ;
+virtual
+~
+GMPEncryptedBufferDataImpl
+(
+)
+;
 void
 RelinquishData
 (
