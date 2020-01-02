@@ -3876,7 +3876,7 @@ gfxCtx
 Polygon
 (
 p
-sizeof
+MOZ_ARRAY_LENGTH
 (
 p
 )
