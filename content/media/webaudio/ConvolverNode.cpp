@@ -827,6 +827,15 @@ INTERNAL_STREAM
 )
 ;
 }
+ConvolverNode
+:
+:
+~
+ConvolverNode
+(
+)
+{
+}
 size_t
 ConvolverNode
 :

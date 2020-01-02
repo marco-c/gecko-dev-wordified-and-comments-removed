@@ -184,6 +184,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+protected
+:
+virtual
+~
+BiquadFilterNode
+(
+)
+;
 private
 :
 static

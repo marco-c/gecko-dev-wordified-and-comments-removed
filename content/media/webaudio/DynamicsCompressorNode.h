@@ -161,6 +161,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+protected
+:
+virtual
+~
+DynamicsCompressorNode
+(
+)
+;
 private
 :
 static

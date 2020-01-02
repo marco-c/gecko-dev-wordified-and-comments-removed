@@ -1256,6 +1256,15 @@ get
 )
 ;
 }
+BiquadFilterNode
+:
+:
+~
+BiquadFilterNode
+(
+)
+{
+}
 size_t
 BiquadFilterNode
 :

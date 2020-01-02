@@ -106,6 +106,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+protected
+:
+virtual
+~
+GainNode
+(
+)
+;
 private
 :
 static

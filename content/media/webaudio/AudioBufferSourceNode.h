@@ -46,12 +46,6 @@ aContext
 )
 ;
 virtual
-~
-AudioBufferSourceNode
-(
-)
-;
-virtual
 void
 DestroyMediaStream
 (
@@ -331,6 +325,14 @@ aMallocSizeOf
 )
 const
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+AudioBufferSourceNode
+(
+)
 ;
 private
 :

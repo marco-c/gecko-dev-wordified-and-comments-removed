@@ -598,6 +598,15 @@ get
 )
 ;
 }
+GainNode
+:
+:
+~
+GainNode
+(
+)
+{
+}
 size_t
 GainNode
 :

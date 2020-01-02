@@ -435,6 +435,15 @@ NodePrincipal
 ;
 }
 }
+MediaStreamAudioDestinationNode
+:
+:
+~
+MediaStreamAudioDestinationNode
+(
+)
+{
+}
 size_t
 MediaStreamAudioDestinationNode
 :

@@ -98,6 +98,14 @@ aMallocSizeOf
 )
 ;
 }
+protected
+:
+virtual
+~
+ChannelSplitterNode
+(
+)
+;
 private
 :
 const

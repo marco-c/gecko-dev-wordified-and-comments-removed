@@ -97,12 +97,6 @@ aContext
 )
 ;
 virtual
-~
-PannerNode
-(
-)
-;
-virtual
 JSObject
 *
 WrapObject
@@ -820,6 +814,14 @@ aMallocSizeOf
 )
 const
 MOZ_OVERRIDE
+;
+protected
+:
+virtual
+~
+PannerNode
+(
+)
 ;
 private
 :

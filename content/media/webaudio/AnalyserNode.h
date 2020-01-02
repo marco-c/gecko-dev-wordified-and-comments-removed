@@ -224,6 +224,14 @@ aMallocSizeOf
 const
 MOZ_OVERRIDE
 ;
+protected
+:
+~
+AnalyserNode
+(
+)
+{
+}
 private
 :
 friend

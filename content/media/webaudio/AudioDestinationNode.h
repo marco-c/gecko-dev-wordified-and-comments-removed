@@ -262,6 +262,14 @@ bool
 aInputMuted
 )
 ;
+protected
+:
+virtual
+~
+AudioDestinationNode
+(
+)
+;
 private
 :
 bool

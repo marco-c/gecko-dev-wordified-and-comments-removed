@@ -1414,6 +1414,15 @@ CreateAudioChannelAgent
 ;
 }
 }
+AudioDestinationNode
+:
+:
+~
+AudioDestinationNode
+(
+)
+{
+}
 size_t
 AudioDestinationNode
 :

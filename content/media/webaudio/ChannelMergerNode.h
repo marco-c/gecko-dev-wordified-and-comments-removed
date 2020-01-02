@@ -98,6 +98,14 @@ aMallocSizeOf
 )
 ;
 }
+protected
+:
+virtual
+~
+ChannelMergerNode
+(
+)
+;
 private
 :
 const
