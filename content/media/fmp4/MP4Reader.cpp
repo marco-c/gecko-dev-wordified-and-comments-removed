@@ -1658,10 +1658,11 @@ nsAutoPtr
 MP4Sample
 >
 compressed
-=
+(
 PopSample
 (
 aTrack
+)
 )
 ;
 if
