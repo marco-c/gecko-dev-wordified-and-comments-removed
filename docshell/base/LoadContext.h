@@ -269,6 +269,7 @@ true
 endif
 {
 }
+explicit
 LoadContext
 (
 uint32_t

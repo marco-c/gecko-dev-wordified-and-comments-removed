@@ -92,6 +92,7 @@ aFileDescriptors
 ;
 private
 :
+explicit
 FileDescriptorSetChild
 (
 const

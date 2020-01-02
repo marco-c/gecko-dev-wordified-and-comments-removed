@@ -263,6 +263,7 @@ nsDOMClassInfo
 ;
 public
 :
+explicit
 nsDOMClassInfo
 (
 nsDOMClassInfoData
@@ -609,6 +610,7 @@ nsDOMGenericSH
 {
 protected
 :
+explicit
 nsEventTargetSH
 (
 nsDOMClassInfoData
@@ -714,6 +716,7 @@ nsDOMGenericSH
 {
 protected
 :
+explicit
 nsWindowSH
 (
 nsDOMClassInfoData
@@ -956,6 +959,7 @@ nsDOMGenericSH
 {
 protected
 :
+explicit
 nsDOMConstructorSH
 (
 nsDOMClassInfoData
@@ -1139,6 +1143,7 @@ nsDOMGenericSH
 {
 protected
 :
+explicit
 nsNonDOMObjectSH
 (
 nsDOMClassInfoData

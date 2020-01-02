@@ -42,6 +42,7 @@ SOURCE_SYNCBASE
 SOURCE_EVENT
 }
 ;
+explicit
 nsSMILInstanceTime
 (
 const

@@ -63,6 +63,7 @@ nsStringHashKey
 {
 public
 :
+explicit
 MozMapEntry
 (
 const

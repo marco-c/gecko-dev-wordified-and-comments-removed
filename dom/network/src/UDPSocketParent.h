@@ -60,6 +60,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIUDPSOCKETLISTENER
+explicit
 UDPSocketParent
 (
 nsIUDPSocketFilter

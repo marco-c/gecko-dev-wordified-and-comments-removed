@@ -245,6 +245,7 @@ Notification
 }
 protected
 :
+explicit
 Notification
 (
 nsReferencedElement
