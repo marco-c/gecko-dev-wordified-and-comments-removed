@@ -149,6 +149,13 @@ src
 /
 sandboxbroker
 '
+'
+win
+/
+src
+/
+sandboxtarget
+'
 ]
 SOURCES
 +
