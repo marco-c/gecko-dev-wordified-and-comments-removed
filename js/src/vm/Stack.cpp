@@ -2405,7 +2405,7 @@ localOffset
 +
 blockObj
 .
-slotCount
+numVariables
 (
 )
 ;

@@ -1286,7 +1286,7 @@ toPrivateUint32
 ;
 }
 uint32_t
-slotCount
+numVariables
 (
 )
 const
@@ -1406,7 +1406,7 @@ slot
 -
 RESERVED_SLOTS
 <
-slotCount
+numVariables
 (
 )
 )
@@ -1442,17 +1442,17 @@ toPrivateUint32
 ;
 }
 uint32_t
-varToLocalIndex
+blockIndexToLocalIndex
 (
 uint32_t
-var
+index
 )
 {
 JS_ASSERT
 (
-var
+index
 <
-slotCount
+numVariables
 (
 )
 )
@@ -1467,7 +1467,7 @@ toPrivateUint32
 (
 )
 +
-var
+index
 ;
 }
 uint32_t
@@ -1498,7 +1498,7 @@ JS_ASSERT
 (
 local
 <
-slotCount
+numVariables
 (
 )
 )

@@ -12764,7 +12764,7 @@ index
 blockObj
 -
 >
-slotCount
+numVariables
 (
 )
 ;
@@ -13275,7 +13275,7 @@ StaticBlockObject
 (
 )
 .
-slotCount
+numVariables
 (
 )
 ;
