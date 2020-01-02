@@ -403,6 +403,7 @@ return
 NS_OK
 ;
 }
+const
 PLDHashTableOps
 nsDiskCacheBindery
 :

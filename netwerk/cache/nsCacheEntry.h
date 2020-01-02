@@ -1480,6 +1480,7 @@ arg
 )
 ;
 static
+const
 PLDHashTableOps
 ops
 ;

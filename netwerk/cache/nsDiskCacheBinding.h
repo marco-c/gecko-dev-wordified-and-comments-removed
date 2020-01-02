@@ -214,6 +214,7 @@ binding
 )
 ;
 static
+const
 PLDHashTableOps
 ops
 ;
