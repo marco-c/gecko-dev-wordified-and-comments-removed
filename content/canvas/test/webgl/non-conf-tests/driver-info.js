@@ -788,6 +788,14 @@ return
 kOSVersion
 ;
 }
+hasWebGL
+:
+function
+{
+return
+kHasWebGL
+;
+}
 }
 ;
 }
