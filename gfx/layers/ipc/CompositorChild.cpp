@@ -241,8 +241,10 @@ Length
 )
 )
 {
+RefPtr
+<
 LayerTransactionChild
-*
+>
 layers
 =
 static_cast

@@ -117,6 +117,14 @@ mIPCOpen
 (
 false
 )
+mDestroyed
+(
+false
+)
+mForwarder
+(
+nullptr
+)
 {
 }
 ~
@@ -274,6 +282,9 @@ RenderFrameChild
 ;
 bool
 mIPCOpen
+;
+bool
+mDestroyed
 ;
 ShadowLayerForwarder
 *
