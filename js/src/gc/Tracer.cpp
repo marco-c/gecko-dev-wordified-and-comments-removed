@@ -2786,6 +2786,14 @@ zone
 isGCMarkingGray
 (
 )
+|
+|
+zone
+-
+>
+isGCCompacting
+(
+)
 )
 ;
 for
