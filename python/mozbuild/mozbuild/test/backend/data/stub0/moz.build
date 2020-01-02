@@ -65,7 +65,7 @@ DIRS
 dir1
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [

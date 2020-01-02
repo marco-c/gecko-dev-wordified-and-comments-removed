@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -141,7 +141,7 @@ NS_PRINTING
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

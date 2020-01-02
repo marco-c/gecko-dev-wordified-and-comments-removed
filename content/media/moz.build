@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -132,7 +132,7 @@ MOZ_RAW
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -148,7 +148,7 @@ MOZ_WAVE
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -164,7 +164,7 @@ MOZ_WEBM
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -180,7 +180,7 @@ MOZ_GSTREAMER
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -196,7 +196,7 @@ MOZ_DIRECTSHOW
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -212,7 +212,7 @@ MOZ_ANDROID_OMX
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -228,7 +228,7 @@ MOZ_WMF
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -244,7 +244,7 @@ MOZ_FMP4
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -260,7 +260,7 @@ MOZ_APPLEMEDIA
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -268,7 +268,7 @@ PARALLEL_DIRS
 apple
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -284,7 +284,7 @@ MOZ_OMX_DECODER
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -292,7 +292,7 @@ PARALLEL_DIRS
 omx
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -302,7 +302,7 @@ omx
 mediaresourcemanager
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -318,7 +318,7 @@ MOZ_EME
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

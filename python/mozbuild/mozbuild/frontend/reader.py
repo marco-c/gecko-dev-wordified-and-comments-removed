@@ -6147,9 +6147,6 @@ dir_vars
 '
 DIRS
 '
-'
-PARALLEL_DIRS
-'
 ]
         
 if

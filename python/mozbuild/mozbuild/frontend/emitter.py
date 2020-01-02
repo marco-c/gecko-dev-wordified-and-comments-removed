@@ -6215,21 +6215,6 @@ DIRS
         
 o
 .
-parallel_dirs
-=
-sandbox
-.
-get
-(
-'
-PARALLEL_DIRS
-'
-[
-]
-)
-        
-o
-.
 test_dirs
 =
 sandbox

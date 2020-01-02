@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -139,7 +139,7 @@ MOZ_SRTP
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -157,7 +157,7 @@ MOZ_SCTP
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -180,7 +180,7 @@ NECKO_WIFI
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -188,7 +188,7 @@ PARALLEL_DIRS
 wifi
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [

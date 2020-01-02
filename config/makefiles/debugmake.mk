@@ -630,9 +630,6 @@ echo
 -
 endif
 (
-LOOP_OVER_PARALLEL_DIRS
-)
-(
 LOOP_OVER_DIRS
 )
 showbuild

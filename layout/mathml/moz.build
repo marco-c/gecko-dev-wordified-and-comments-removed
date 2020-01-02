@@ -283,7 +283,7 @@ ENABLE_TESTS
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

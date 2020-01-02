@@ -123,7 +123,7 @@ because
 of
 nsXULAtoms
 .
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -142,7 +142,7 @@ MOZ_XUL
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

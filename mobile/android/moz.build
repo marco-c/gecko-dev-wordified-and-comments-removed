@@ -175,7 +175,7 @@ LIBXUL_SDK
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

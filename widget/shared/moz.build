@@ -101,7 +101,7 @@ MOZ_X11
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

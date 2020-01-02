@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -212,7 +212,7 @@ qt
 '
 )
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -235,7 +235,7 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -258,7 +258,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -281,7 +281,7 @@ MOZ_WIDGET_TOOLKIT
 android
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -299,7 +299,7 @@ MOZ_CRASHREPORTER
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -331,7 +331,7 @@ crashreporter
 is
 disabled
 .
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -371,7 +371,7 @@ OS_ARCH
 Darwin
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -402,7 +402,7 @@ OS_ARCH
 Linux
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

@@ -65,13 +65,6 @@ DIRS
 regular
 '
 ]
-PARALLEL_DIRS
-=
-[
-'
-parallel
-'
-]
 TEST_DIRS
 =
 [

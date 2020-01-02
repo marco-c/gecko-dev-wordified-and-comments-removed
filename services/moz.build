@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -146,7 +146,7 @@ MOZ_SERVICES_HEALTHREPORT
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -162,7 +162,7 @@ MOZ_DATA_REPORTING
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -178,7 +178,7 @@ MOZ_SERVICES_METRICS
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -194,7 +194,7 @@ MOZ_SERVICES_SYNC
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -210,7 +210,7 @@ MOZ_B2G
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

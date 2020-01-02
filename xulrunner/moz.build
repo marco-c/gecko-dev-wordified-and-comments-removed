@@ -103,7 +103,7 @@ installer
 Makefile
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -148,7 +148,7 @@ OS_ARCH
 WINNT
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

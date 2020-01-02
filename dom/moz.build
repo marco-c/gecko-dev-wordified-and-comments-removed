@@ -172,7 +172,7 @@ apps
 gamepad
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -187,7 +187,7 @@ i
 in
 interfaces
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -370,7 +370,7 @@ OS_ARCH
 WINNT
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -395,7 +395,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -414,7 +414,7 @@ MOZ_B2G_RIL
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -442,7 +442,7 @@ MOZ_PAY
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -458,7 +458,7 @@ MOZ_GAMEPAD
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -474,7 +474,7 @@ MOZ_NFC
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -490,7 +490,7 @@ MOZ_B2G
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -509,7 +509,7 @@ MOZ_B2G_BT_API_V2
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -519,7 +519,7 @@ bluetooth2
 ]
 else
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

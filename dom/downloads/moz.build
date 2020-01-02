@@ -113,7 +113,7 @@ mochitest
 ini
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [

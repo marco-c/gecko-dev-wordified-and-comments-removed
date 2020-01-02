@@ -114,7 +114,7 @@ MOZ_ENABLE_XREMOTE
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -122,7 +122,7 @@ PARALLEL_DIRS
 remote
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -255,7 +255,7 @@ MOZ_CRASHREPORTER
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -271,7 +271,7 @@ MOZ_SOCIAL
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -287,7 +287,7 @@ BUILD_CTYPES
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -303,7 +303,7 @@ MOZ_FEEDS
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -319,7 +319,7 @@ MOZ_HELP_VIEWER
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -335,7 +335,7 @@ NS_PRINTING
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -351,7 +351,7 @@ MOZ_XUL
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -370,7 +370,7 @@ MOZ_TOOLKIT_SEARCH
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -386,7 +386,7 @@ MOZ_URL_CLASSIFIER
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
@@ -404,7 +404,7 @@ MOZ_CAPTIVEDETECT
 '
 ]
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [

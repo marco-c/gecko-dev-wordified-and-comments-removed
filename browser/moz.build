@@ -103,7 +103,7 @@ installer
 Makefile
 '
 ]
-PARALLEL_DIRS
+DIRS
 +
 =
 [

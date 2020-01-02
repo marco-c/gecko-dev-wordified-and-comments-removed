@@ -106,7 +106,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-PARALLEL_DIRS
+DIRS
 +
 =
 [
