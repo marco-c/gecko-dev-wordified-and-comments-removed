@@ -5333,11 +5333,6 @@ Close
 void
 Init_m
 (
-nsCOMPtr
-<
-nsIThread
->
-thread
 )
 {
 pObserver
@@ -5369,7 +5364,7 @@ Initialize
 pObserver
 nullptr
 cfg_
-thread
+gMainThread
 )
 NS_OK
 )
@@ -5378,11 +5373,6 @@ NS_OK
 void
 Init
 (
-nsCOMPtr
-<
-nsIThread
->
-thread
 )
 {
 mozilla
@@ -5393,7 +5383,7 @@ SyncRunnable
 :
 DispatchToThread
 (
-thread
+gMainThread
 WrapRunnable
 (
 this
@@ -5402,7 +5392,6 @@ SignalingAgent
 :
 :
 Init_m
-thread
 )
 )
 ;
@@ -9253,7 +9242,6 @@ agent
 >
 Init
 (
-gMainThread
 )
 ;
 if
@@ -9472,7 +9460,6 @@ a1_
 >
 Init
 (
-gMainThread
 )
 ;
 a2_
@@ -9480,7 +9467,6 @@ a2_
 >
 Init
 (
-gMainThread
 )
 ;
 if

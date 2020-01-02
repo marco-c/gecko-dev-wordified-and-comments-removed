@@ -165,9 +165,6 @@ VideoSessionConduit
 aOther
 )
 {
-#
-ifdef
-MOZILLA_INTERNAL_API
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -182,8 +179,6 @@ thread
 "
 )
 ;
-#
-endif
 CSFLogDebug
 (
 logTag
@@ -269,9 +264,6 @@ WebrtcVideoConduit
 (
 )
 {
-#
-ifdef
-MOZILLA_INTERNAL_API
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -286,8 +278,6 @@ thread
 "
 )
 ;
-#
-endif
 CSFLogDebug
 (
 logTag
