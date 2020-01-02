@@ -1325,7 +1325,7 @@ We
 shouldn
 '
 t
-trying
+try
 to
 do
 IPC
@@ -1440,7 +1440,7 @@ We
 shouldn
 '
 t
-trying
+try
 to
 do
 IPC
@@ -1571,8 +1571,8 @@ bufferKey
 =
 0
 "
-Not
-my
+No
+such
 buffer
 "
 )
