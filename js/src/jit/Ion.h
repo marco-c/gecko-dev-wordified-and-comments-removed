@@ -543,11 +543,6 @@ mir
 LIRGraph
 *
 lir
-MacroAssembler
-*
-maybeMasm
-=
-nullptr
 )
 ;
 CodeGenerator
@@ -557,11 +552,6 @@ CompileBackEnd
 MIRGenerator
 *
 mir
-MacroAssembler
-*
-maybeMasm
-=
-nullptr
 )
 ;
 void

@@ -217,6 +217,9 @@ generate
 bool
 generateAsmJS
 (
+Label
+*
+stackOverflowLabel
 )
 ;
 bool
@@ -2161,14 +2164,6 @@ ool
 )
 ;
 bool
-visitAsmJSCheckOverRecursed
-(
-LAsmJSCheckOverRecursed
-*
-lir
-)
-;
-bool
 visitCheckOverRecursedPar
 (
 LCheckOverRecursedPar
@@ -2926,12 +2921,6 @@ input
 FloatRegister
 temp
 )
-;
-bool
-omitOverRecursedCheck
-(
-)
-const
 ;
 Vector
 <

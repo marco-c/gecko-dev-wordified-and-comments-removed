@@ -1440,10 +1440,6 @@ UNSAFE_OP
 (
 AsmJSCall
 )
-UNSAFE_OP
-(
-AsmJSCheckOverRecursed
-)
 DROP_OP
 (
 RecompileCheck
