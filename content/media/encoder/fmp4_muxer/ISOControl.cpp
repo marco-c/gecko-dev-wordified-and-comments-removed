@@ -232,6 +232,15 @@ EncodedFrame
 :
 :
 AVC_CSD
+|
+|
+type
+=
+=
+EncodedFrame
+:
+:
+AMR_AUDIO_CSD
 )
 {
 mCSDFrame
@@ -300,6 +309,7 @@ GetTimeStamp
 mMediaStartTime
 )
 >
+=
 (
 mFragDuration
 *
