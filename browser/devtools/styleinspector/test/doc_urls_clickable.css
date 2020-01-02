@@ -8,11 +8,8 @@ image
 url
 (
 .
-.
 /
-test
--
-image
+doc_test_image
 .
 png
 )
@@ -44,9 +41,7 @@ styleinspector
 /
 test
 /
-test
--
-image
+doc_test_image
 .
 png
 "

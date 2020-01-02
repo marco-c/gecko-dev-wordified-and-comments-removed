@@ -45,10 +45,11 @@ const
 EXTERNAL_STYLESHEET_FILE_NAME
 =
 "
-browser_ruleview_734259_style_editor_link
+doc_style_editor_link
 .
 css
 "
+;
 const
 EXTERNAL_STYLESHEET_URL
 =

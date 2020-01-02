@@ -9,7 +9,7 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_bug722196_identify_media_queries
+doc_media_queries
 .
 html
 "

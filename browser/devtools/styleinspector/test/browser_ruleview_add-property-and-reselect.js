@@ -9,7 +9,7 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_bug705707_is_content_stylesheet
+doc_content_stylesheet
 .
 html
 "

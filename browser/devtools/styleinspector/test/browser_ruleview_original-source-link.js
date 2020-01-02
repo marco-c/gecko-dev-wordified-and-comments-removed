@@ -9,7 +9,7 @@ TESTCASE_URI
 TEST_URL_ROOT
 +
 "
-sourcemaps
+doc_sourcemaps
 .
 html
 "
@@ -33,7 +33,7 @@ const
 SCSS_LOC
 =
 "
-sourcemaps
+doc_sourcemaps
 .
 scss
 :
@@ -44,7 +44,7 @@ const
 CSS_LOC
 =
 "
-sourcemaps
+doc_sourcemaps
 .
 css
 :
@@ -438,7 +438,7 @@ href
 endsWith
 (
 "
-sourcemaps
+doc_sourcemaps
 .
 scss
 "
