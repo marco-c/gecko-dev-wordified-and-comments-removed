@@ -1435,6 +1435,10 @@ newSurf
 GetSize
 (
 )
+.
+ToIntSize
+(
+)
 ;
 return
 newSurf

@@ -860,7 +860,10 @@ data
 .
 mSize
 =
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 r
 .
@@ -6799,7 +6802,10 @@ data
 .
 mSize
 =
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 aVideoInfo
 -

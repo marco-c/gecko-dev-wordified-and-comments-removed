@@ -224,6 +224,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 namespace
 mozilla
 {
@@ -3977,7 +3984,7 @@ size
 (
 )
 =
-nsIntSize
+IntSize
 (
 mVideoWidth
 mVideoHeight

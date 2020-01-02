@@ -4146,6 +4146,10 @@ mDefaultRT
 SetSize
 (
 mSize
+.
+ToIntSize
+(
+)
 )
 ;
 }

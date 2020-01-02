@@ -350,6 +350,10 @@ allocator
 AllocSurfaceDescriptorWithCaps
 (
 size
+.
+ToIntSize
+(
+)
 type
 USING_GL_RENDERING_ONLY
 &

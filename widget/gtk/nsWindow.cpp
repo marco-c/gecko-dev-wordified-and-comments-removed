@@ -9323,13 +9323,10 @@ img
 new
 gfxImageSurface
 (
-ThebesIntSize
-(
 aBoundsRect
 .
 Size
 (
-)
 )
 gfxImageFormatA8
 )

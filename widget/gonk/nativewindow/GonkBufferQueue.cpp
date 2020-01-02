@@ -124,6 +124,17 @@ index
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
+using
+namespace
+mozilla
 :
 :
 layers
@@ -1948,7 +1959,7 @@ ibc
 >
 AllocSurfaceDescriptorGralloc
 (
-gfxIntSize
+IntSize
 (
 w
 h

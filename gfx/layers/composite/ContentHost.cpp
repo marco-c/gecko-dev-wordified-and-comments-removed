@@ -2646,6 +2646,10 @@ rect
 Size
 (
 )
+.
+ToIntSize
+(
+)
 ;
 nsIntRect
 destBounds
@@ -3151,6 +3155,10 @@ rect
 )
 .
 Size
+(
+)
+.
+ToIntSize
 (
 )
 ;

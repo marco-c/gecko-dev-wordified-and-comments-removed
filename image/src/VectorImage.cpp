@@ -3193,6 +3193,10 @@ imageRect
 Size
 (
 )
+.
+ToIntSize
+(
+)
 gfx
 :
 :

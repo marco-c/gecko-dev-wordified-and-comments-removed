@@ -127,6 +127,13 @@ h
 namespace
 mozilla
 {
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 NS_IMPL_ISUPPORTS1
 (
 MediaEngineTabVideoSource
@@ -934,7 +941,7 @@ Draw
 (
 )
 {
-nsIntSize
+IntSize
 size
 (
 mBufW
@@ -1328,7 +1335,10 @@ char
 (
 mData
 )
+ThebesIntSize
+(
 size
+)
 stride
 format
 )

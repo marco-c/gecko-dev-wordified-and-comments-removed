@@ -527,6 +527,10 @@ gfxImageFormatUnknown
 mSize
 (
 aSize
+.
+ToIntSize
+(
+)
 )
 mWrapMode
 (

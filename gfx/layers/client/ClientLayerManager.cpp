@@ -1167,6 +1167,10 @@ bounds
 Size
 (
 )
+.
+ToIntSize
+(
+)
 GFX_CONTENT_COLOR_ALPHA
 &
 inSnapshot

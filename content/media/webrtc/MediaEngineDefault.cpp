@@ -113,6 +113,13 @@ DEFAULT_AUDIO_TIMER_MS
 namespace
 mozilla
 {
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 NS_IMPL_ISUPPORTS1
 (
 MediaEngineDefaultVideoSource
@@ -411,7 +418,7 @@ aData
 .
 mYSize
 =
-gfxIntSize
+IntSize
 (
 aWidth
 aHeight
@@ -454,7 +461,7 @@ aData
 .
 mCbCrSize
 =
-gfxIntSize
+IntSize
 (
 aWidth
 >
@@ -482,7 +489,7 @@ aData
 .
 mPicSize
 =
-gfxIntSize
+IntSize
 (
 aWidth
 aHeight

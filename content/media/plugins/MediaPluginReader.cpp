@@ -88,6 +88,13 @@ h
 namespace
 mozilla
 {
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 typedef
 mozilla
 :
@@ -2020,7 +2027,7 @@ frameDesc
 .
 mYSize
 =
-gfxIntSize
+IntSize
 (
 aWidth
 aHeight
@@ -2030,7 +2037,7 @@ frameDesc
 .
 mCbCrSize
 =
-gfxIntSize
+IntSize
 (
 aWidth
 /
@@ -2088,7 +2095,7 @@ frameDesc
 .
 mPicSize
 =
-gfxIntSize
+IntSize
 (
 aWidth
 aHeight
