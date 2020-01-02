@@ -1310,9 +1310,12 @@ JSRuntime
 rt
 )
 ;
-void
+bool
 finish
 (
+JSContext
+*
+cx
 )
 ;
 bool
