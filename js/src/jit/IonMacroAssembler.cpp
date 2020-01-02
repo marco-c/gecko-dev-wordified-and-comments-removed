@@ -121,6 +121,13 @@ jsinferinlines
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js
