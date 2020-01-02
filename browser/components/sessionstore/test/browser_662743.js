@@ -8,6 +8,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 waitForExplicitFinish
 (
 )
