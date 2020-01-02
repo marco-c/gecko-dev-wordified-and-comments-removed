@@ -367,13 +367,12 @@ isBrowser
 .
 reduce
 (
-function
 (
 tabs
 window
 )
-{
-return
+=
+>
 tabs
 .
 concat
@@ -383,7 +382,6 @@ getTabs
 window
 )
 )
-}
 [
 ]
 )
@@ -405,7 +403,7 @@ tabs
 return
 Array
 .
-slice
+filter
 (
 getTabContainer
 (
@@ -413,6 +411,14 @@ window
 )
 .
 children
+function
+(
+t
+)
+!
+t
+.
+closing
 )
 ;
 }

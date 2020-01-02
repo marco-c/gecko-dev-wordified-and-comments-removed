@@ -2391,12 +2391,8 @@ help
 =
 "
 enable
-out
--
-of
--
-process
-Jetpacks
+remote
+windows
 "
                                
 action
@@ -2423,6 +2419,16 @@ testex
 '
 '
 testpkgs
+'
+                                     
+'
+testaddons
+'
+'
+testcfx
+'
+'
+testall
 '
 ]
 )
@@ -7177,6 +7183,22 @@ split
 "
 )
         
+enable_e10s
+=
+options
+.
+enable_e10s
+or
+target_cfg
+.
+get
+(
+'
+e10s
+'
+False
+)
+        
 try
 :
             
@@ -7306,6 +7328,10 @@ pkgdir
 options
 .
 pkgdir
+                             
+enable_e10s
+=
+enable_e10s
 )
         
 except

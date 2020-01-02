@@ -483,7 +483,7 @@ https
 :
 /
 /
-addons
+developer
 .
 mozilla
 .
@@ -493,14 +493,11 @@ en
 -
 US
 /
-developers
+Add
+-
+ons
 /
-docs
-/
-sdk
-/
-latest
-/
+SDK
 "
 )
 if
