@@ -6057,11 +6057,11 @@ mIsServer
 )
 ?
 "
-client
+server
 "
 :
 "
-server
+client
 "
 )
 ;
