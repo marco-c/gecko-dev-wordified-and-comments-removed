@@ -124,8 +124,10 @@ sheet_array_type
 ;
 private
 :
+nsRefPtr
+<
 nsXBLResourceLoader
-*
+>
 mLoader
 ;
 public
