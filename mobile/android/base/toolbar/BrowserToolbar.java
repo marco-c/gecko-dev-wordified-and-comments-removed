@@ -407,6 +407,13 @@ android
 .
 view
 .
+ViewGroup
+;
+import
+android
+.
+view
+.
 animation
 .
 AccelerateInterpolator
@@ -930,6 +937,11 @@ RelativeLayout
 .
 LayoutParams
 (
+(
+ViewGroup
+.
+MarginLayoutParams
+)
 urlBarEntryDefaultLayoutParams
 )
 ;
