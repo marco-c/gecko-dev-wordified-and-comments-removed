@@ -4735,11 +4735,6 @@ CommandExecuteHandler
 BIN_SUFFIX
 BINPATH
 /
-dummyvccorlib
-.
-dll
-BINPATH
-/
 resources
 .
 pri
