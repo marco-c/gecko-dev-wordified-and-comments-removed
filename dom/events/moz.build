@@ -273,6 +273,11 @@ DeviceMotionEvent
 h
 '
 '
+DragEvent
+.
+h
+'
+'
 EventTarget
 .
 h
@@ -360,6 +365,11 @@ DeviceMotionEvent
 cpp
 '
 '
+DragEvent
+.
+cpp
+'
+'
 EventTarget
 .
 cpp
@@ -371,11 +381,6 @@ cpp
 '
 '
 nsContentEventHandler
-.
-cpp
-'
-'
-nsDOMDragEvent
 .
 cpp
 '

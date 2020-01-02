@@ -325,7 +325,7 @@ h
 #
 include
 "
-nsDOMDragEvent
+nsDOMUIEvent
 .
 h
 "
