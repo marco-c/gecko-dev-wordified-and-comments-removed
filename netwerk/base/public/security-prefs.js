@@ -594,7 +594,7 @@ ssl3
 .
 ecdhe_ecdsa_aes_128_gcm_sha256
 "
-false
+true
 )
 ;
 pref
@@ -606,7 +606,7 @@ ssl3
 .
 ecdhe_rsa_aes_128_gcm_sha256
 "
-false
+true
 )
 ;
 pref
