@@ -211,6 +211,9 @@ BoxModelHighlighter
 "
 CssTransformHighlighter
 "
+"
+SelectorHighlighter
+"
 ]
 urlToImageDataResolver
 :
