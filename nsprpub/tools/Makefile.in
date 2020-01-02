@@ -1070,7 +1070,7 @@ LIBPR
 (
 LIBPLC
 )
-wsock32
+ws2_32
 .
 lib
 -

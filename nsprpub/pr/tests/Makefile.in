@@ -908,12 +908,12 @@ EXTRA_LIBS
 +
 =
 -
-lwsock32
+lws2_32
 else
 EXTRA_LIBS
 +
 =
-wsock32
+ws2_32
 .
 lib
 LDOPTS
