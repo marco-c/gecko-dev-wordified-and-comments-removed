@@ -81,7 +81,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
@@ -289,7 +289,7 @@ idPrefix
 "
 showAccessKeys
 =
-false
+true
 )
 {
 let

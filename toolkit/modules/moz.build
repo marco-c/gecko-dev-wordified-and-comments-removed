@@ -111,6 +111,11 @@ AsyncShutdown
 jsm
 '
 '
+CharsetMenu
+.
+jsm
+'
+'
 debug
 .
 js
