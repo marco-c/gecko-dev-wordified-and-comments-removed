@@ -115,6 +115,11 @@ AesKeyAlgorithm
 h
 '
 '
+BasicSymmetricKeyAlgorithm
+.
+h
+'
+'
 CryptoBuffer
 .
 h
