@@ -204,14 +204,14 @@ aCurrentTime
 ;
 virtual
 void
-OnDecodeThreadStart
+SetIdle
 (
 )
 {
 }
 virtual
 void
-OnDecodeThreadFinish
+SetActive
 (
 )
 {

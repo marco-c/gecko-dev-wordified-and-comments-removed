@@ -933,13 +933,6 @@ SetIgnoreAudioOutputFormat
 (
 )
 ;
-mDecoderReader
--
->
-OnDecodeThreadStart
-(
-)
-;
 MediaInfo
 mediaInfo
 ;
@@ -1019,13 +1012,6 @@ DecodeAudioData
 continue
 ;
 }
-mDecoderReader
--
->
-OnDecodeThreadFinish
-(
-)
-;
 MediaQueue
 <
 AudioData

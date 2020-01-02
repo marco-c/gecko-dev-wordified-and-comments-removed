@@ -203,14 +203,14 @@ nullptr
 }
 virtual
 void
-OnDecodeThreadStart
+SetIdle
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 void
-OnDecodeThreadFinish
+SetActive
 (
 )
 MOZ_OVERRIDE
