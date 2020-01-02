@@ -8978,8 +8978,7 @@ virtual
 void
 SetEGLSurfaceOverride
 (
-void
-*
+EGLSurface
 surf
 )
 {
