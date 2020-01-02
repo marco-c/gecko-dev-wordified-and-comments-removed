@@ -3058,6 +3058,12 @@ R_NO_MEMORY
 :
 400
 ;
+nr_ice_candidate_pair_destroy
+(
+&
+pair
+)
+;
 ABORT
 (
 r
