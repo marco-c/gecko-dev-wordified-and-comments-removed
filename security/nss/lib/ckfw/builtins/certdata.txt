@@ -12253,7 +12253,6 @@ baseline
 requirements
 .
 "
-"
 #
 Issuer
 :
@@ -12443,7 +12442,6 @@ the
 baseline
 requirements
 .
-"
 "
 CKA_ISSUER
 MULTILINE_OCTAL

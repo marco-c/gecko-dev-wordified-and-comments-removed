@@ -4137,6 +4137,7 @@ PK11_UpdateSlotAttribute
 PK11SlotInfo
 *
 slot
+const
 PK11DefaultArrayEntry
 *
 entry

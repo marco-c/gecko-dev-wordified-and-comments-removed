@@ -3208,14 +3208,12 @@ PR_SUCCESS
 {
 if
 (
-(
 info
 .
 type
 =
 =
 PR_FILE_DIRECTORY
-)
 )
 {
 if

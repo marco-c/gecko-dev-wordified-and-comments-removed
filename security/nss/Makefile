@@ -1289,6 +1289,17 @@ enable
 optimize
 endif
 ifdef
+USE_X32
+NSPR_CONFIGURE_OPTS
++
+=
+-
+-
+enable
+-
+x32
+endif
+ifdef
 USE_64
 NSPR_CONFIGURE_OPTS
 +

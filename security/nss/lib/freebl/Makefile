@@ -1139,8 +1139,15 @@ DEFINES
 =
 -
 DNSS_X86_OR_X64
-ifdef
+ifneq
+(
+(
 USE_64
+)
+(
+USE_X32
+)
+)
 DEFINES
 +
 =
@@ -1564,8 +1571,6 @@ s
 ASFLAGS
 +
 =
--
-m64
 -
 fPIC
 -

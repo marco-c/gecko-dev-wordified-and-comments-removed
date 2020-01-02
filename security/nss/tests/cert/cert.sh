@@ -11061,7 +11061,7 @@ echo
 "
 cp
 -
-rv
+r
 {
 SERVERDIR
 }
@@ -11071,7 +11071,7 @@ STAPLINGDIR
 "
 cp
 -
-rv
+r
 {
 R_SERVERDIR
 }
