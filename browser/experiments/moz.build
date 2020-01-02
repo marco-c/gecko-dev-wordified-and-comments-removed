@@ -99,3 +99,13 @@ xpcshell
 ini
 '
 ]
+SPHINX_TREES
+[
+'
+experiments
+'
+]
+=
+'
+docs
+'
