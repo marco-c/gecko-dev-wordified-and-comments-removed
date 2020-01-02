@@ -146,6 +146,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 LinkPreference
 android
 :
@@ -170,6 +172,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 LinkPreference
 android
@@ -210,6 +214,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 LinkPreference
 android
@@ -451,6 +457,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 AlignRightLinkPreference
 android

@@ -374,6 +374,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferences
 "
 ;

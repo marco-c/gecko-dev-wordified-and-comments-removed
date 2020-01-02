@@ -203,6 +203,17 @@ mozilla
 .
 gecko
 .
+preferences
+.
+GeckoPreferences
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 prompts
 .
 Prompt

@@ -168,6 +168,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 >
@@ -199,6 +201,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 AndroidImportPreference
 android

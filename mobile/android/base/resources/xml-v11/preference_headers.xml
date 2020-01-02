@@ -165,6 +165,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 android
@@ -211,6 +213,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 GeckoPreferenceFragment
 "
@@ -259,6 +263,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 android
@@ -306,6 +312,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 android
@@ -352,6 +360,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 GeckoPreferenceFragment
 "

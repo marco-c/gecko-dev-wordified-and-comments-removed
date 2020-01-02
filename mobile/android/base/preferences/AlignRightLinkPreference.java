@@ -4,6 +4,17 @@ org
 mozilla
 .
 gecko
+.
+preferences
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
 ;
 import
 android

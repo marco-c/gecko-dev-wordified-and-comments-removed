@@ -177,6 +177,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferences
 "
 >
@@ -212,6 +214,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 AndroidImportPreference
 android

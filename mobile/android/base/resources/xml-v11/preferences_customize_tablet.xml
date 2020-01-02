@@ -194,6 +194,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 SyncPreference
 android
 :
@@ -246,6 +248,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 >
@@ -277,6 +281,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 AndroidImportPreference
 android

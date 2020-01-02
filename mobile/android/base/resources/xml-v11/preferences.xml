@@ -185,6 +185,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 SyncPreference
 android
 :
@@ -237,6 +239,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 >
@@ -283,6 +287,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 GeckoPreferenceFragment
 "
@@ -331,6 +337,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 >
@@ -378,6 +386,8 @@ mozilla
 .
 gecko
 .
+preferences
+.
 GeckoPreferenceFragment
 "
 >
@@ -424,6 +434,8 @@ org
 mozilla
 .
 gecko
+.
+preferences
 .
 GeckoPreferenceFragment
 "

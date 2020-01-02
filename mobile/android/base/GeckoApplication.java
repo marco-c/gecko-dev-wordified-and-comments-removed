@@ -280,7 +280,7 @@ mInited
 true
 ;
 }
-protected
+public
 void
 onActivityPause
 (
@@ -389,7 +389,7 @@ stop
 )
 ;
 }
-protected
+public
 void
 onActivityResume
 (
@@ -470,6 +470,15 @@ getApplicationContext
 )
 ;
 Clipboard
+.
+init
+(
+getApplicationContext
+(
+)
+)
+;
+NotificationHelper
 .
 init
 (
