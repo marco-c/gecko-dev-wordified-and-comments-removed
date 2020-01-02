@@ -38830,7 +38830,7 @@ Tag
 )
 ;
 const
-char16_t
+PRUnichar
 *
 params
 [
@@ -39819,7 +39819,7 @@ i
 +
 )
 {
-char16_t
+PRUnichar
 ch
 =
 aFragment
