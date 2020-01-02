@@ -388,6 +388,14 @@ MAX_WAIT_MS
 =
 4500
 ;
+public
+static
+final
+int
+LONG_PRESS_TIME
+=
+6000
+;
 /
 /
 IDs
