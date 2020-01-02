@@ -1225,6 +1225,14 @@ Help
 <
 !
 ENTITY
+pref_header_language
+"
+Language
+"
+>
+<
+!
+ENTITY
 pref_header_vendor
 "
 &
