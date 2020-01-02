@@ -586,16 +586,6 @@ aStorage
 const
 ;
 bool
-PersistAndDatabaseUp
-(
-const
-DOMStorage
-*
-aStorage
-)
-const
-;
-bool
 ProcessUsageDelta
 (
 uint32_t
@@ -691,10 +681,6 @@ static
 DOMStorageDBBridge
 *
 sDatabase
-;
-static
-bool
-sDatabaseDown
 ;
 }
 ;
