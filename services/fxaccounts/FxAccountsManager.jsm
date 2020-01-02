@@ -803,6 +803,7 @@ aAudience
 user
 .
 email
+true
 )
 ;
 }
@@ -934,6 +935,9 @@ function
 (
 aAudience
 aEmail
+logoutOnFailure
+=
+false
 )
 {
 this
@@ -982,6 +986,11 @@ _refreshing
 =
 false
 ;
+if
+(
+logoutOnFailure
+)
+{
 return
 this
 .
@@ -1005,6 +1014,15 @@ reason
 )
 ;
 }
+)
+;
+}
+return
+this
+.
+_error
+(
+reason
 )
 ;
 }
