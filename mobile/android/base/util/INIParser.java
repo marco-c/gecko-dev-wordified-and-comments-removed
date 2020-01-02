@@ -771,6 +771,13 @@ null
 )
 return
 ;
+section
+.
+setName
+(
+newName
+)
+;
 mSections
 .
 remove
