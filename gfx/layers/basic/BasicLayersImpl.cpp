@@ -556,9 +556,9 @@ Invert
 Matrix
 transform
 =
-inverseMask
-*
 oldTransform
+*
+inverseMask
 ;
 if
 (
