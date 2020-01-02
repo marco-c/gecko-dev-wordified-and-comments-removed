@@ -8436,8 +8436,10 @@ toolbarResource
 currentsetResource
 )
 ;
-function
+let
 getToolbarFolderCount
+=
+function
 (
 )
 {
@@ -8472,6 +8474,7 @@ return
 toolbarChildCount
 ;
 }
+;
 if
 (
 toolbarIsCustomized

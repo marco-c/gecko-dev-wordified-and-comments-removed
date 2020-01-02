@@ -2422,8 +2422,10 @@ mark_
 obj
 )
 ;
-function
+let
 wrap
+=
+function
 (
 meth
 objName

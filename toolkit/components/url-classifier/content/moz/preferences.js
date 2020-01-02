@@ -943,8 +943,10 @@ observeCount
 =
 0
 ;
-function
+let
 observe
+=
+function
 (
 prefChanged
 )
