@@ -96,6 +96,15 @@ layout_height
 "
 match_parent
 "
+android
+:
+background
+=
+"
+color
+/
+global_background_color
+"
 >
 <
 ListView

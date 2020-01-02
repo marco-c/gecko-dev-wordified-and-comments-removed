@@ -244,6 +244,13 @@ layout_gravity
 "
 top
 "
+android
+:
+visibility
+=
+"
+invisible
+"
 /
 >
 <

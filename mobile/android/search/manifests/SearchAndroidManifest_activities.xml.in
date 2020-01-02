@@ -15,6 +15,13 @@ MainActivity
 "
 android
 :
+launchMode
+=
+"
+singleTop
+"
+android
+:
 icon
 =
 "
