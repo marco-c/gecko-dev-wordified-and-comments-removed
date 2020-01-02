@@ -7275,6 +7275,14 @@ child
 HasOwnContent
 (
 )
+|
+|
+child
+-
+>
+IsDoc
+(
+)
 )
 {
 idx
