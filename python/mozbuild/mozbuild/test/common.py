@@ -169,6 +169,14 @@ items
 )
 }
 )
+        
+self
+.
+defines
+=
+self
+.
+substs
     
 def
 child_path
