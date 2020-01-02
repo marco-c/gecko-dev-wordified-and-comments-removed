@@ -624,7 +624,7 @@ nullptr
 JS
 :
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
