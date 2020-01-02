@@ -1904,9 +1904,8 @@ noGCOrAllocationCheck
 ;
 #
 endif
-JS_OOM_POSSIBLY_FAIL_REPORT
+JS_OOM_POSSIBLY_FAIL
 (
-ncx
 )
 ;
 if
