@@ -3097,10 +3097,9 @@ Matrix
 snappedMatrix
 =
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 snappedTranslation
 .
@@ -3129,10 +3128,9 @@ aResidualTransform
 aResidualTransform
 =
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 matrix2D
 .

@@ -2061,10 +2061,9 @@ SetAttribute
 (
 ATT_TRANSFORM_MATRIX
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 aOffset
 .
@@ -2377,10 +2376,9 @@ SetAttribute
 (
 ATT_TRANSFORM_MATRIX
 Matrix
-(
-)
-.
-Translate
+:
+:
+Translation
 (
 aSurfacePosition
 .
