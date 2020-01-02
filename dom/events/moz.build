@@ -333,6 +333,11 @@ TouchEvent
 h
 '
 '
+TransitionEvent
+.
+h
+'
+'
 WheelEvent
 .
 h
@@ -470,11 +475,6 @@ nsDOMTextEvent
 cpp
 '
 '
-nsDOMTransitionEvent
-.
-cpp
-'
-'
 nsDOMXULCommandEvent
 .
 cpp
@@ -531,6 +531,11 @@ cpp
 '
 '
 TouchEvent
+.
+cpp
+'
+'
+TransitionEvent
 .
 cpp
 '
