@@ -388,15 +388,6 @@ aMilliseconds
 )
 ;
 void
-UpdateScrollOffset
-(
-const
-CSSPoint
-&
-aScrollOffset
-)
-;
-void
 StartAnimation
 (
 AsyncPanZoomAnimation

@@ -1964,9 +1964,6 @@ mLastURI
 FrameMetrics
 mLastRootMetrics
 ;
-FrameMetrics
-mLastSubFrameMetrics
-;
 RenderFrameChild
 *
 mRemoteFrame
