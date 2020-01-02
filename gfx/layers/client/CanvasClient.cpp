@@ -564,7 +564,7 @@ this
 mDeprecatedTextureClient
 -
 >
-GetDescriptor
+LockSurfaceDescriptor
 (
 )
 )
@@ -802,7 +802,7 @@ this
 mDeprecatedTextureClient
 -
 >
-GetDescriptor
+LockSurfaceDescriptor
 (
 )
 )
@@ -1062,7 +1062,7 @@ SetDescriptor
 grallocSurf
 -
 >
-GetDescriptor
+LockSurfaceDescriptor
 (
 )
 )

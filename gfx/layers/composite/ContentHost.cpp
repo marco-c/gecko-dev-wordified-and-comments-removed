@@ -1799,7 +1799,7 @@ Update
 mDeprecatedTextureHost
 -
 >
-GetBuffer
+LockSurfaceDescriptor
 (
 )
 &
@@ -1820,7 +1820,7 @@ Update
 mDeprecatedTextureHostOnWhite
 -
 >
-GetBuffer
+LockSurfaceDescriptor
 (
 )
 &
@@ -2306,7 +2306,7 @@ Update
 mDeprecatedTextureHost
 -
 >
-GetBuffer
+LockSurfaceDescriptor
 (
 )
 )
@@ -2325,7 +2325,7 @@ Update
 mDeprecatedTextureHostOnWhite
 -
 >
-GetBuffer
+LockSurfaceDescriptor
 (
 )
 )
