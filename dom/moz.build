@@ -482,6 +482,9 @@ PARALLEL_DIRS
 '
 downloads
 '
+'
+mobileid
+'
 ]
 if
 CONFIG
