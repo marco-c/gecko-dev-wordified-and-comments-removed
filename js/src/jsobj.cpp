@@ -13965,6 +13965,9 @@ cx
 NewFunction
 (
 cx
+js
+:
+:
 NullPtr
 (
 )
