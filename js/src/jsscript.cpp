@@ -5269,7 +5269,7 @@ global
 (
 )
 :
-NULL
+nullptr
 )
 ;
 Debugger

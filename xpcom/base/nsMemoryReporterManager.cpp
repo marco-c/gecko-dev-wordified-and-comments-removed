@@ -1084,7 +1084,7 @@ cnt
 )
 =
 =
-NULL
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1201,7 +1201,7 @@ GetKinfoVmentrySelf
 (
 &
 priv
-NULL
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1244,7 +1244,7 @@ rv
 =
 GetKinfoVmentrySelf
 (
-NULL
+nullptr
 &
 biggestRegion
 )

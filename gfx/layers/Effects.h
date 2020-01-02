@@ -756,7 +756,7 @@ EffectChain
 :
 mLayerRef
 (
-NULL
+nullptr
 )
 {
 }

@@ -3722,7 +3722,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNWRAP_DENIED
 )
 ;

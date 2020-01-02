@@ -1171,8 +1171,8 @@ Lock
 (
 &
 data
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE

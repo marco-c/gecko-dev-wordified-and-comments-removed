@@ -2018,7 +2018,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_SETPROTOTYPEOF_FAIL
 )
 ;

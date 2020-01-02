@@ -411,7 +411,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 \
 X4Type
@@ -511,7 +511,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 \
 X4Type
@@ -703,7 +703,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 \
 X4Type
@@ -802,7 +802,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 \
 X4Type

@@ -1009,7 +1009,7 @@ mThread
 ;
 mGLControllerObj
 =
-NULL
+nullptr
 ;
 mOpenedGraphicsLibraries
 =
@@ -1608,7 +1608,7 @@ JNIEnv
 *
 jEnv
 =
-NULL
+nullptr
 ;
 JavaVM
 *
@@ -1645,7 +1645,7 @@ VM
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 jEnv
@@ -1701,7 +1701,7 @@ AttachCurrentThread
 (
 &
 jEnv
-NULL
+nullptr
 )
 ;
 if
@@ -1723,7 +1723,7 @@ attach
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 PR_SetThreadPrivate
@@ -1787,7 +1787,7 @@ wrapped_obj
 ;
 wrapped_obj
 =
-NULL
+nullptr
 ;
 }
 AutoGlobalWrappedJavaObject
@@ -3605,7 +3605,7 @@ if
 mGLControllerObj
 !
 =
-NULL
+nullptr
 &
 &
 !

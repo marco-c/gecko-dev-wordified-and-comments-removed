@@ -11084,7 +11084,7 @@ if
 curBlock_
 )
 return
-NULL
+nullptr
 ;
 MConstant
 *
@@ -16952,7 +16952,7 @@ ParseNode
 *
 arg
 =
-NULL
+nullptr
 ;
 if
 (
@@ -18805,7 +18805,7 @@ ParseNode
 *
 coercedVar
 =
-NULL
+nullptr
 ;
 if
 (
@@ -23663,7 +23663,7 @@ ParseNode
 *
 arg
 =
-NULL
+nullptr
 ;
 if
 (
