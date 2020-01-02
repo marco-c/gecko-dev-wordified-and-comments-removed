@@ -225,7 +225,12 @@ SEC_ERROR_BAD_DER
 ;
 }
 return
-Success
+input
+.
+EnsureLength
+(
+length
+)
 ;
 }
 }
