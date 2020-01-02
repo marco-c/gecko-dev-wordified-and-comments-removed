@@ -231,6 +231,16 @@ ClearCachedResources
 )
 ;
 }
+mValidRegion
+.
+SetEmpty
+(
+)
+;
+mContentClient
+=
+nullptr
+;
 }
 void
 ClientTiledThebesLayer
