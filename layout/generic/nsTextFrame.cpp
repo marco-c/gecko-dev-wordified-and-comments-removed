@@ -7772,6 +7772,7 @@ GetTextRunFlagsForStyle
 (
 sc1
 fontStyle1
+textStyle1
 letterSpacing1
 )
 =
@@ -7783,6 +7784,7 @@ GetTextRunFlagsForStyle
 (
 sc2
 fontStyle2
+textStyle2
 letterSpacing2
 )
 ;
@@ -10067,6 +10069,7 @@ GetTextRunFlagsForStyle
 (
 lastStyleContext
 fontStyle
+textStyle
 LetterSpacing
 (
 firstFrame

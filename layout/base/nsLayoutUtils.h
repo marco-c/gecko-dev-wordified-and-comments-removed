@@ -2853,6 +2853,10 @@ const
 nsStyleFont
 *
 aStyleFont
+const
+nsStyleText
+*
+aStyleText
 nscoord
 aLetterSpacing
 )
