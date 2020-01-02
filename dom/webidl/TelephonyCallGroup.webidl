@@ -209,5 +209,9 @@ attribute
 EventHandler
 oncallschanged
 ;
+attribute
+EventHandler
+onerror
+;
 }
 ;

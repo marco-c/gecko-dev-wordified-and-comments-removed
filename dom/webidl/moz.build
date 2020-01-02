@@ -2692,6 +2692,11 @@ BlobEvent
 webidl
 '
 '
+CallGroupErrorEvent
+.
+webidl
+'
+'
 DataStoreChangeEvent
 .
 webidl
