@@ -190,6 +190,11 @@ testDefineProperty
 cpp
 '
 '
+testDefinePropertyIgnoredAttributes
+.
+cpp
+'
+'
 testEnclosingFunction
 .
 cpp
