@@ -360,7 +360,10 @@ IntSize
 &
 aSize
 const
-gfxMatrix
+gfx
+:
+:
+Matrix
 &
 aWorldTransform
 )

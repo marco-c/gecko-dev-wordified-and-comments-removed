@@ -889,7 +889,7 @@ mCurrentRT
 GetSize
 (
 )
-gfxMatrix
+Matrix
 (
 )
 )
@@ -3136,12 +3136,12 @@ IntSize
 &
 aSize
 const
-gfxMatrix
+Matrix
 &
 aWorldTransform
 )
 {
-gfx3DMatrix
+Matrix4x4
 viewMatrix
 ;
 viewMatrix
@@ -3188,7 +3188,7 @@ _42
 ;
 viewMatrix
 =
-gfx3DMatrix
+Matrix4x4
 :
 :
 From2D

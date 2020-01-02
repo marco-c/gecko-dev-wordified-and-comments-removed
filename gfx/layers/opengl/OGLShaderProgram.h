@@ -1074,7 +1074,10 @@ void
 CheckAndSetProjectionMatrix
 (
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 aMatrix
 )
@@ -1100,7 +1103,10 @@ void
 SetProjectionMatrix
 (
 const
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 &
 aMatrix
 )
@@ -1552,7 +1558,10 @@ TexCoordAttrib
 ;
 protected
 :
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 mProjectionMatrix
 ;
 bool
