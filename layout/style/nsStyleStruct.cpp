@@ -10739,9 +10739,8 @@ SetPercentValue
 ;
 mChildPerspective
 .
-SetCoordValue
+SetNoneValue
 (
-0
 )
 ;
 mBackfaceVisibility
