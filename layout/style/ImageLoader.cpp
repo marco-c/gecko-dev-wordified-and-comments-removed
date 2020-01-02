@@ -1454,13 +1454,6 @@ Invalidate
 (
 )
 ;
-aFrame
--
->
-SchedulePaint
-(
-)
-;
 nsIFrame
 *
 f
@@ -1627,6 +1620,13 @@ IterateRetainedDataFor
 (
 frame
 InvalidateImagesCallback
+)
+;
+frame
+-
+>
+SchedulePaint
+(
 )
 ;
 }
