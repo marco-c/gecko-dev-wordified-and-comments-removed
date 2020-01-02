@@ -198,6 +198,8 @@ nsString
 aValue
 bool
 aIsImportant
+bool
+aOverrideImportant
 )
 ;
 void
