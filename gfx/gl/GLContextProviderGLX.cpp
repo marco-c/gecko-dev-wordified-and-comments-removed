@@ -3749,10 +3749,6 @@ mDoubleBuffered
 (
 aDoubleBuffered
 )
-mLibType
-(
-libType
-)
 mGLX
 (
 &
@@ -3796,9 +3792,6 @@ mDeleteDrawable
 ;
 bool
 mDoubleBuffered
-;
-LibType
-mLibType
 ;
 GLXLibrary
 *
