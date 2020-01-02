@@ -494,7 +494,10 @@ struct
 DOMJSClass
 {
 const
-JSClass
+js
+:
+:
+Class
 mBase
 ;
 const
@@ -569,8 +572,11 @@ ToJSClass
 const
 {
 return
+Jsvalify
+(
 &
 mBase
+)
 ;
 }
 }
