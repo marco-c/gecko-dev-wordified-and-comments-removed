@@ -155,6 +155,9 @@ TestRollingMean
 TestSHA1
 '
 '
+TestSplayTree
+'
+'
 TestTypedEnum
 '
 '
