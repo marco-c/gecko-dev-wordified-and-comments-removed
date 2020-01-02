@@ -6369,6 +6369,7 @@ js
 ;
 if
 (
+!
 Services
 .
 prefs
@@ -6380,11 +6381,11 @@ devtools
 .
 debugger
 .
-enable
+forbid
 -
-content
+certified
 -
-actors
+apps
 "
 )
 )
@@ -6555,12 +6556,6 @@ actors
 stylesheets
 "
 )
-;
-DebuggerServer
-.
-enableWebappsContentActor
-=
-true
 ;
 }
 DebuggerServer
