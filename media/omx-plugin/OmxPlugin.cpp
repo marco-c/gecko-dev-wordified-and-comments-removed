@@ -1115,6 +1115,17 @@ qcom
 "
 hardware
 )
+|
+|
+!
+strncmp
+(
+"
+mt
+"
+hardware
+2
+)
 )
 {
 flags
