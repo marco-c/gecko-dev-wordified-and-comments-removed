@@ -49,15 +49,6 @@ mozalloc
 h
 "
 #
-include
-"
-mozilla
-/
-mozalloc_macro_wrappers
-.
-h
-"
-#
 endif
 #
 include

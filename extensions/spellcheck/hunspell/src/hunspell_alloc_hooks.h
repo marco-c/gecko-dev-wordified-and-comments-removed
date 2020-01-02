@@ -5,9 +5,6 @@ alloc_hooks_h__
 define
 alloc_hooks_h__
 #
-define
-mozilla_mozalloc_macro_wrappers_h
-#
 include
 "
 mozilla

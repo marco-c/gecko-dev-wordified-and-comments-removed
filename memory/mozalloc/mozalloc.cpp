@@ -96,9 +96,6 @@ dllexport
 #
 endif
 #
-define
-MOZALLOC_DONT_DEFINE_MACRO_WRAPPERS
-#
 include
 "
 mozilla
