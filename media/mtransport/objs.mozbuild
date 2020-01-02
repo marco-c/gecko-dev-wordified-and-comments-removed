@@ -137,6 +137,11 @@ nrinterfaceprioritizer
 cpp
 '
 '
+rlogringbuffer
+.
+cpp
+'
+'
 simpletokenbucket
 .
 cpp
