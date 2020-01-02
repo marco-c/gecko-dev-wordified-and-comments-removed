@@ -3286,6 +3286,12 @@ next
 enumerators
 )
 ;
+types
+.
+clearTables
+(
+)
+;
 if
 (
 baseShapes
