@@ -594,7 +594,17 @@ invalidateEpilogueDataOffset_
 uint32_t
 numBailouts_
 ;
+mozilla
+:
+:
+Atomic
+<
 bool
+mozilla
+:
+:
+Relaxed
+>
 hasUncompiledCallTarget_
 ;
 bool
