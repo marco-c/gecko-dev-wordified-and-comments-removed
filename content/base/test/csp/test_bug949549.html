@@ -169,7 +169,7 @@ strict
 /
 Ensure
 that
-scanRequestData
+setRequestContext
 doesn
 '
 t
@@ -425,8 +425,11 @@ try
 {
 csp
 .
-scanRequestData
+setRequestContext
 (
+null
+null
+null
 appchan
 )
 ;
@@ -434,7 +437,7 @@ ok
 (
 true
 "
-scanRequestData
+setRequestContext
 hasn
 '
 t
@@ -452,7 +455,7 @@ ok
 (
 false
 "
-scanRequestData
+setRequestContext
 throws
 "
 )

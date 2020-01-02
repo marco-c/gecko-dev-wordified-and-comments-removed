@@ -432,8 +432,11 @@ n
 ;
 csp
 .
-scanRequestData
+setRequestContext
 (
+selfuri
+null
+null
 selfchan
 )
 ;
