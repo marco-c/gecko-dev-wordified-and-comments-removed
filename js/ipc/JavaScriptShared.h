@@ -239,6 +239,11 @@ ObjectIdCache
 (
 )
 ;
+~
+ObjectIdCache
+(
+)
+;
 bool
 init
 (
@@ -299,6 +304,7 @@ data
 )
 ;
 ObjectIdTable
+*
 table_
 ;
 }
