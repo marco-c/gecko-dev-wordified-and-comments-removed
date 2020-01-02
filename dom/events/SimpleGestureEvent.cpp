@@ -47,7 +47,7 @@ WidgetSimpleGestureEvent
 aEvent
 )
 :
-nsDOMMouseEvent
+MouseEvent
 (
 aOwner
 aPresContext
@@ -143,12 +143,12 @@ MOZ_SOURCE_UNKNOWN
 NS_IMPL_ADDREF_INHERITED
 (
 SimpleGestureEvent
-nsDOMUIEvent
+MouseEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 SimpleGestureEvent
-nsDOMUIEvent
+MouseEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -160,7 +160,7 @@ nsIDOMSimpleGestureEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMMouseEvent
+MouseEvent
 )
 uint32_t
 SimpleGestureEvent
@@ -429,7 +429,7 @@ aClickCountArg
 nsresult
 rv
 =
-nsDOMMouseEvent
+MouseEvent
 :
 :
 InitMouseEvent

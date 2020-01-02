@@ -47,7 +47,7 @@ WidgetMouseScrollEvent
 aEvent
 )
 :
-nsDOMMouseEvent
+MouseEvent
 (
 aOwner
 aPresContext
@@ -139,12 +139,12 @@ delta
 NS_IMPL_ADDREF_INHERITED
 (
 MouseScrollEvent
-nsDOMMouseEvent
+MouseEvent
 )
 NS_IMPL_RELEASE_INHERITED
 (
 MouseScrollEvent
-nsDOMMouseEvent
+MouseEvent
 )
 NS_INTERFACE_MAP_BEGIN
 (
@@ -156,7 +156,7 @@ nsIDOMMouseScrollEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsDOMMouseEvent
+MouseEvent
 )
 NS_IMETHODIMP
 MouseScrollEvent
@@ -205,7 +205,7 @@ aAxis
 nsresult
 rv
 =
-nsDOMMouseEvent
+MouseEvent
 :
 :
 InitMouseEvent

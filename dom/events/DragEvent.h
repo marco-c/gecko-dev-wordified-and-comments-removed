@@ -14,7 +14,11 @@ h
 #
 include
 "
-nsDOMMouseEvent
+mozilla
+/
+dom
+/
+MouseEvent
 .
 h
 "
@@ -51,7 +55,7 @@ class
 DragEvent
 :
 public
-nsDOMMouseEvent
+MouseEvent
 public
 nsIDOMDragEvent
 {
@@ -72,7 +76,7 @@ aEvent
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMDRAGEVENT
-NS_FORWARD_TO_NSDOMMOUSEEVENT
+NS_FORWARD_TO_MOUSEEVENT
 virtual
 JSObject
 *

@@ -14,7 +14,11 @@ h
 #
 include
 "
-nsDOMMouseEvent
+mozilla
+/
+dom
+/
+MouseEvent
 .
 h
 "
@@ -39,7 +43,7 @@ class
 MouseScrollEvent
 :
 public
-nsDOMMouseEvent
+MouseEvent
 public
 nsIDOMMouseScrollEvent
 {
@@ -60,7 +64,7 @@ aEvent
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMMOUSESCROLLEVENT
-NS_FORWARD_TO_NSDOMMOUSEEVENT
+NS_FORWARD_TO_MOUSEEVENT
 virtual
 JSObject
 *
