@@ -254,13 +254,6 @@ try
 ;
 ;
 esac
-mk_add_options
-"
-export
-SCCACHE_NO_HTTPS
-=
-1
-"
 ;
 ;
 *
