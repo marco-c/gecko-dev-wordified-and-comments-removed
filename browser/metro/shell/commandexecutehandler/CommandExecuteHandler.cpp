@@ -111,6 +111,9 @@ wininet
 h
 >
 #
+ifdef
+SHOW_CONSOLE
+#
 define
 DEBUG_DELAY_SHUTDOWN
 1
