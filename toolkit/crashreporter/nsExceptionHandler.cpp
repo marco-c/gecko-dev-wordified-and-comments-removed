@@ -561,7 +561,7 @@ include
 "
 mozilla
 /
-mozPoisonWrite
+LateWriteChecks
 .
 h
 "
@@ -3810,7 +3810,7 @@ context
 mozilla
 :
 :
-DisableWritePoisoning
+StopLateWriteChecks
 (
 )
 ;
@@ -10006,7 +10006,7 @@ context
 mozilla
 :
 :
-DisableWritePoisoning
+StopLateWriteChecks
 (
 )
 ;

@@ -227,15 +227,6 @@ nsAppDirectoryServiceDefs
 h
 "
 #
-include
-"
-mozilla
-/
-mozPoisonWrite
-.
-h
-"
-#
 if
 defined
 (
