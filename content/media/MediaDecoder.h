@@ -795,6 +795,13 @@ Invalidate
 (
 )
 ;
+void
+InvalidateWithFlags
+(
+uint32_t
+aFlags
+)
+;
 virtual
 void
 Suspend
