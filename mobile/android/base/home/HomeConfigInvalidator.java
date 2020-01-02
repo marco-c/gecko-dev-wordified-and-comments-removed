@@ -1154,6 +1154,14 @@ true
 if
 (
 shouldRefresh
+&
+&
+!
+editor
+.
+isDefault
+(
+)
 )
 {
 executeRefresh
