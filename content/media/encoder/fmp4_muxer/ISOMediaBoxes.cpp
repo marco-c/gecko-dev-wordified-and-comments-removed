@@ -1570,6 +1570,8 @@ TrackFragmentBox
 (
 Audio_Track
 flags_sample_size_present
+|
+flags_data_offset_present
 aControl
 )
 )
