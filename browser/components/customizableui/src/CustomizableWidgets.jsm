@@ -2332,7 +2332,7 @@ preferences
 -
 button
 .
-tooltiptext
+tooltiptext2
 "
 #
 endif
