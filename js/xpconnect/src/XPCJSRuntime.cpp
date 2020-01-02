@@ -408,6 +408,12 @@ controllers
 "
 realFrameElement
 "
+"
+length
+"
+"
+name
+"
 }
 ;
 static
