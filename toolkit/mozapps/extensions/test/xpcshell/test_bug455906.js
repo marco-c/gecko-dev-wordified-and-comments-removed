@@ -3200,10 +3200,6 @@ addons
 [
 0
 ]
-.
-id
-'
-'
 )
 create_blocklistURL
 (
@@ -3226,10 +3222,6 @@ addons
 [
 1
 ]
-.
-id
-'
-'
 )
 create_blocklistURL
 (
@@ -3252,10 +3244,6 @@ addons
 [
 2
 ]
-.
-id
-'
-'
 )
 create_blocklistURL
 (
@@ -3278,10 +3266,6 @@ addons
 [
 3
 ]
-.
-id
-'
-'
 )
 create_blocklistURL
 (
@@ -3304,10 +3288,6 @@ addons
 [
 4
 ]
-.
-id
-'
-'
 )
 create_blocklistURL
 (
