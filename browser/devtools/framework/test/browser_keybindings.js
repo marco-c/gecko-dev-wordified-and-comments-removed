@@ -79,7 +79,6 @@ h1
 waitForFocus
 (
 setupKeyBindingsTest
-content
 )
 ;
 }
