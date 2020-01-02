@@ -1861,13 +1861,13 @@ line
 int
 )
 :
-line_
-(
-line
-)
 file_
 (
 file
+)
+line_
+(
+line
 )
 {
 MOZ_CRASH
