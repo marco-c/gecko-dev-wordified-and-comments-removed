@@ -30,14 +30,11 @@ z
 var
 s
 =
-toLatin1
-(
 "
 x
 +
 y
 "
-)
 ;
 f
 (

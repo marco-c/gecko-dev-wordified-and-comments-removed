@@ -1,17 +1,3 @@
-if
-(
-!
-isLatin1
-(
-"
-foo
-"
-)
-)
-quit
-(
-)
-;
 function
 assertLatin1
 (

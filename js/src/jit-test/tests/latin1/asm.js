@@ -26,13 +26,6 @@ quit
 (
 )
 ;
-toLatin1
-(
-"
-funName
-"
-)
-;
 var
 body1
 =

@@ -2652,11 +2652,6 @@ index
 ]
 ;
 }
-void
-debugUnsafeConvertToLatin1
-(
-)
-;
 }
 ;
 JS_STATIC_ASSERT
