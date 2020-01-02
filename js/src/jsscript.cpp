@@ -5568,8 +5568,9 @@ break
 default
 :
 {
-MOZ_ASSUME_UNREACHABLE
+MOZ_ASSERT
 (
+false
 "
 Unknown
 class
