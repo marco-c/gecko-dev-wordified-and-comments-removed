@@ -947,6 +947,7 @@ EWhichLineBoundary
 aWhichLineBoundary
 )
 ;
+virtual
 int32_t
 FindOffset
 (
