@@ -1370,10 +1370,8 @@ sources
 )
 )
 ;
-nsRefPtr
-<
-GetUserMediaNotificationEvent
->
+nsIRunnable
+*
 event
 =
 new
@@ -1494,10 +1492,8 @@ Finish
 )
 ;
 }
-nsRefPtr
-<
-GetUserMediaNotificationEvent
->
+nsIRunnable
+*
 event
 =
 new
