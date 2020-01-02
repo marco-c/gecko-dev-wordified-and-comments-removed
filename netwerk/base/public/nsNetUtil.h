@@ -8330,7 +8330,6 @@ sourceFile
 Contains
 (
 targetFile
-true
 &
 allowed
 )
@@ -8400,7 +8399,6 @@ sourceParent
 Contains
 (
 targetFile
-true
 &
 allowed
 )

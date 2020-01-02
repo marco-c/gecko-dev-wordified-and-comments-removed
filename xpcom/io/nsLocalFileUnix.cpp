@@ -6705,8 +6705,6 @@ nsIFile
 *
 inFile
 bool
-recur
-bool
 *
 _retval
 )

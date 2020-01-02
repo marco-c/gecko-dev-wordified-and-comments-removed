@@ -7533,7 +7533,6 @@ i
 Contains
 (
 pluginFile
-true
 &
 contains
 )
