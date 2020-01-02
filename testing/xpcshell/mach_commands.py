@@ -631,6 +631,29 @@ modules
 '
 )
         
+verbose_output
+=
+test_path
+is
+not
+None
+or
+(
+manifest
+and
+len
+(
+manifest
+.
+test_paths
+(
+)
+)
+=
+=
+1
+)
+        
 args
 =
 {
@@ -851,10 +874,7 @@ replace
 \
                             
 if
-test_path
-is
-not
-None
+verbose_output
 else
 None
         
