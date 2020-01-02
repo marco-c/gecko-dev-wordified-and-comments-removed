@@ -55,6 +55,9 @@ struct
 StyleTransition
 ;
 }
+namespace
+mozilla
+{
 struct
 ElementPropertyTransition
 :
@@ -110,6 +113,7 @@ const
 ;
 }
 ;
+}
 class
 nsTransitionManager
 MOZ_FINAL
