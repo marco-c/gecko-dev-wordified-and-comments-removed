@@ -362,11 +362,6 @@ GetTemplatesJSON
 true
 )
 ;
-GetAddonsJSON
-(
-true
-)
-;
 console
 .
 log

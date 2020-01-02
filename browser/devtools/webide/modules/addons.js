@@ -567,6 +567,7 @@ null
 }
 GetAddonsJSON
 (
+true
 )
 .
 then
@@ -648,6 +649,19 @@ e
 }
 return
 GetAvailableAddons_promise
+;
+}
+exports
+.
+ForgetAddonsList
+=
+function
+(
+)
+{
+GetAvailableAddons_promise
+=
+null
 ;
 }
 function
