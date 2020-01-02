@@ -10114,6 +10114,10 @@ GarbageCollectAllWorkers
 true
 )
 ;
+CycleCollectAllWorkers
+(
+)
+;
 return
 NS_OK
 ;
