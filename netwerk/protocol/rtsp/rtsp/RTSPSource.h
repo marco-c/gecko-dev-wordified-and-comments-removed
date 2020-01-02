@@ -162,6 +162,11 @@ suspend
 (
 )
 ;
+void
+playbackEnded
+(
+)
+;
 status_t
 feedMoreTSData
 (
@@ -267,6 +272,11 @@ kWhatPerformSuspend
 =
 '
 susp
+'
+kWhatPerformPlaybackEnded
+=
+'
+ende
 '
 }
 ;
@@ -444,6 +454,11 @@ performResume
 ;
 void
 performSuspend
+(
+)
+;
+void
+performPlaybackEnded
 (
 )
 ;

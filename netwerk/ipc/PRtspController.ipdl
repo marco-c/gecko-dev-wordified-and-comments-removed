@@ -216,6 +216,10 @@ Stop
 (
 )
 ;
+PlaybackEnded
+(
+)
+;
 __delete__
 (
 )
