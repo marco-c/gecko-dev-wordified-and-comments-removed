@@ -655,9 +655,10 @@ return
 false
 ;
 return
-JSVAL_TO_BOOLEAN
-(
 val
+.
+toBoolean
+(
 )
 ;
 }

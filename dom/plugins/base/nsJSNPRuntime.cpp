@@ -1690,9 +1690,10 @@ val
 {
 BOOLEAN_TO_NPVARIANT
 (
-JSVAL_TO_BOOLEAN
-(
 val
+.
+toBoolean
+(
 )
 *
 variant
