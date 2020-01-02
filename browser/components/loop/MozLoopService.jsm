@@ -847,6 +847,11 @@ null
 return
 ;
 }
+if
+(
+callback
+)
+{
 this
 .
 registrationCallbacks
@@ -856,6 +861,7 @@ push
 callback
 )
 ;
+}
 if
 (
 this
