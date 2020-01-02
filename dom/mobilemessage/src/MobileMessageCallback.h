@@ -105,6 +105,11 @@ NotifyError
 (
 int32_t
 aError
+DOMError
+*
+aDetailedError
+=
+nullptr
 bool
 aAsync
 =
