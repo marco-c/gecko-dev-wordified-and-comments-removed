@@ -405,7 +405,7 @@ let
 testData
 =
 "
-mozilla
+itisatrap
 .
 org
 /
@@ -466,7 +466,7 @@ testData
 testData
 =
 "
-mozilla
+itisatrap
 .
 org
 /

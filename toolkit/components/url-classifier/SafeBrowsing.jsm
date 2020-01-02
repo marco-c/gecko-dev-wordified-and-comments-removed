@@ -874,7 +874,7 @@ const
 phishURL
 =
 "
-mozilla
+itisatrap
 .
 org
 /
@@ -893,7 +893,7 @@ const
 malwareURL
 =
 "
-mozilla
+itisatrap
 .
 org
 /
