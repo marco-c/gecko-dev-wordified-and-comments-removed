@@ -733,6 +733,15 @@ apiPort
 =
 port
 ;
+case
+"
+test
+-
+set
+-
+profile
+"
+:
 let
 profile
 ;
@@ -846,7 +855,7 @@ Kuma_Lisa
 }
 ;
 }
-port
+apiPort
 .
 postMessage
 (
