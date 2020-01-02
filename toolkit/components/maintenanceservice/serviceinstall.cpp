@@ -45,7 +45,7 @@ include
 "
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 "
@@ -239,9 +239,11 @@ path
 mozilla
 :
 :
-ScopedDeleteArray
+UniquePtr
 <
 char
+[
+]
 >
 fileVersionInfo
 (
@@ -1383,9 +1385,11 @@ FALSE
 mozilla
 :
 :
-ScopedDeleteArray
+UniquePtr
 <
 char
+[
+]
 >
 serviceConfigBuffer
 (
