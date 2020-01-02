@@ -117,6 +117,16 @@ value
 ;
 }
 ;
+enum
+GamepadMappingType
+{
+"
+"
+"
+standard
+"
+}
+;
 [
 Pref
 =
@@ -207,7 +217,7 @@ use
 /
 readonly
 attribute
-DOMString
+GamepadMappingType
 mapping
 ;
 /

@@ -3366,7 +3366,10 @@ mozilla
 dom
 :
 :
-StandardMapping
+GamepadMappingType
+:
+:
+Standard
 mozilla
 :
 :
