@@ -898,7 +898,7 @@ nsCSSStyleSheet
 aSheet
 )
 ;
-nsresult
+void
 PrepareSheet
 (
 nsCSSStyleSheet
@@ -915,9 +915,6 @@ aMediaString
 nsMediaList
 *
 aMediaList
-mozilla
-:
-:
 dom
 :
 :
