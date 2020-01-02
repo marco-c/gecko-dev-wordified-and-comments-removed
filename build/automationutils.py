@@ -3382,6 +3382,24 @@ None
 if
 mozinfo
 .
+info
+[
+'
+toolkit
+'
+]
+=
+=
+"
+gonk
+"
+:
+    
+pass
+  
+elif
+mozinfo
+.
 isUnix
 :
     

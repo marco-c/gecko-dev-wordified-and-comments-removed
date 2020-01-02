@@ -6492,6 +6492,15 @@ specialpowers
 "
 ]
         
+defaults
+[
+"
+leakThreshold
+"
+]
+=
+5200
+        
 self
 .
 set_defaults
