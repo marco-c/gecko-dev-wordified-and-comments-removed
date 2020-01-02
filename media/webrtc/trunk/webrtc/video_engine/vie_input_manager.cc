@@ -409,13 +409,6 @@ assert
 capture_device_info_
 )
 ;
-capture_device_info_
--
->
-Refresh
-(
-)
-;
 return
 capture_device_info_
 -

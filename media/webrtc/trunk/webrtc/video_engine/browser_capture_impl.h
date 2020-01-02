@@ -52,16 +52,6 @@ return
 }
 virtual
 int32_t
-Refresh
-(
-)
-{
-return
-0
-;
-}
-virtual
-int32_t
 GetDeviceName
 (
 uint32_t

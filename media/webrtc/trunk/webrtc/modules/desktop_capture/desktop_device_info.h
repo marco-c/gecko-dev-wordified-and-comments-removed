@@ -260,14 +260,6 @@ Init
 ;
 virtual
 int32_t
-Refresh
-(
-)
-=
-0
-;
-virtual
-int32_t
 getDisplayDeviceCount
 (
 )
@@ -419,11 +411,6 @@ desktop_application_list_
 ;
 int32_t
 initializeWindowList
-(
-)
-;
-int32_t
-RefreshWindowList
 (
 )
 ;
