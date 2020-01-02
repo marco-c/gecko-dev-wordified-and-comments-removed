@@ -38,9 +38,6 @@ screen
 Visual
 *
 visual
-DrawOutput
-*
-output
 )
 {
 Display

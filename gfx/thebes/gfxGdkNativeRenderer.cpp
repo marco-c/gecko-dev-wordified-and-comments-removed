@@ -300,7 +300,6 @@ size
 flags
 screen
 visual
-nullptr
 )
 ;
 }
