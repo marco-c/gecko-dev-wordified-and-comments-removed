@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 base
 /
 stack_container
