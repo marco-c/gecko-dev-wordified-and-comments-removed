@@ -1908,6 +1908,10 @@ wchar_t
 *
 dll_part
 ;
+char
+*
+dot
+;
 DllBlockInfo
 *
 info
@@ -2181,8 +2185,6 @@ dllName
 ;
 #
 endif
-char
-*
 dot
 =
 strchr
