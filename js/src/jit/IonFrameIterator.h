@@ -734,16 +734,6 @@ Location
 loc
 )
 ;
-static
-Value
-FromTypedPayload
-(
-JSValueType
-type
-uintptr_t
-payload
-)
-;
 Value
 slotValue
 (
