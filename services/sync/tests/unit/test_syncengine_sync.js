@@ -402,12 +402,6 @@ username
 =
 USER
 ;
-Service
-.
-_updateCachedURLs
-(
-)
-;
 return
 [
 engine
