@@ -14169,6 +14169,9 @@ LocationHintAddon
 ;
 CompartmentPrivate
 (
+JSCompartment
+*
+c
 )
 :
 wantXrays
@@ -14186,6 +14189,10 @@ false
 donatedNode
 (
 false
+)
+scriptability
+(
+c
 )
 scope
 (
