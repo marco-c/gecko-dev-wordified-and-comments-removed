@@ -22637,6 +22637,15 @@ IdentityMatrix
 )
 ;
 }
+else
+{
+transform
+=
+gfxMatrix
+(
+)
+;
+}
 gfxPoint
 blurStdDev
 =
