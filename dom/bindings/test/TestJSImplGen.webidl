@@ -317,6 +317,15 @@ byte
 arg
 )
 ;
+[
+Cached
+Pure
+]
+readonly
+attribute
+byte
+cachedByte
+;
 readonly
 attribute
 short

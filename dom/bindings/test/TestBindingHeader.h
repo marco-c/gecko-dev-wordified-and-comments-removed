@@ -656,6 +656,11 @@ int8_t
 &
 )
 ;
+int8_t
+CachedByte
+(
+)
+;
 int16_t
 ReadonlyShort
 (
