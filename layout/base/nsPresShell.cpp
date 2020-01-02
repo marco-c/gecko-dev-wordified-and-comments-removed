@@ -35793,7 +35793,6 @@ aTouchIsNew
 bool
 canPrevent
 =
-(
 aEvent
 -
 >
@@ -35801,7 +35800,6 @@ message
 =
 =
 NS_TOUCH_START
-)
 |
 |
 (
@@ -35815,17 +35813,6 @@ NS_TOUCH_MOVE
 &
 &
 aTouchIsNew
-)
-|
-|
-(
-aEvent
--
->
-message
-=
-=
-NS_TOUCH_END
 )
 ;
 bool
