@@ -1697,6 +1697,13 @@ java
 '
 home
 /
+PanelViewUrlHandler
+.
+java
+'
+'
+home
+/
 PinSiteDialog
 .
 java
