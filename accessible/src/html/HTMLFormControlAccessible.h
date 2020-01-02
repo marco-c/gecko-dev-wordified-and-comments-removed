@@ -352,16 +352,6 @@ NativeState
 )
 ;
 virtual
-already_AddRefed
-<
-nsIPersistentProperties
->
-NativeAttributes
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 uint8_t
 ActionCount
 (
