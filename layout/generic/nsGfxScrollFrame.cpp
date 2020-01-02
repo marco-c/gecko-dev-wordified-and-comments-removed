@@ -7048,9 +7048,6 @@ EnsureImageVisPrefsCached
 (
 )
 ;
-#
-ifndef
-MOZ_WIDGET_ANDROID
 if
 (
 mScrollingActive
@@ -7065,10 +7062,10 @@ LayersTilesEnabled
 &
 &
 !
-gfxPrefs
+nsLayoutUtils
 :
 :
-AsyncPanZoomEnabled
+UsesAsyncScrolling
 (
 )
 &
@@ -7129,8 +7126,6 @@ DoNotRepaint
 )
 ;
 }
-#
-endif
 }
 ScrollFrameHelper
 :
