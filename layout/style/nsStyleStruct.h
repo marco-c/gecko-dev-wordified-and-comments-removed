@@ -346,6 +346,9 @@ mGenericID
 int8_t
 mScriptLevel
 ;
+uint8_t
+mMathVariant
+;
 bool
 mExplicitLanguage
 ;
