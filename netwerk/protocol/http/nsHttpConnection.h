@@ -650,11 +650,6 @@ bool
 arg
 )
 ;
-bool
-PeerHasPrivateIP
-(
-)
-;
 private
 :
 enum

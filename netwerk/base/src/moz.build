@@ -292,11 +292,6 @@ nsNetStrings
 cpp
 '
 '
-nsNetworkZonePolicy
-.
-cpp
-'
-'
 nsPACMan
 .
 cpp
