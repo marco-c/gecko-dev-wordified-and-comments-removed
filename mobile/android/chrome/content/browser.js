@@ -24827,7 +24827,6 @@ getFocusedInput
 BrowserApp
 .
 selectedBrowser
-true
 )
 )
 ;

@@ -2077,6 +2077,7 @@ aElement
 return
 !
 (
+(
 aElement
 instanceof
 HTMLInputElement
@@ -2089,6 +2090,15 @@ mozIsTextField
 false
 )
 )
+|
+|
+(
+aElement
+instanceof
+HTMLTextAreaElement
+)
+)
+;
 }
 selector
 :
@@ -2154,6 +2164,7 @@ aElement
 return
 !
 (
+(
 aElement
 instanceof
 HTMLInputElement
@@ -2166,6 +2177,15 @@ mozIsTextField
 false
 )
 )
+|
+|
+(
+aElement
+instanceof
+HTMLTextAreaElement
+)
+)
+;
 }
 action
 :
