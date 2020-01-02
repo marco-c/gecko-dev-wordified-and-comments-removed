@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsHashtable
+nsInterfaceHashtable
 .
 h
 "
@@ -52,7 +52,11 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSICONTROLLERCOMMANDTABLE
 protected
 :
-nsSupportsHashtable
+nsInterfaceHashtable
+<
+nsCStringHashKey
+nsIControllerCommand
+>
 mCommandsTable
 ;
 bool
