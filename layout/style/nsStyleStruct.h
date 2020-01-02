@@ -1528,6 +1528,9 @@ mClip
 uint8_t
 mOrigin
 ;
+uint8_t
+mBlendMode
+;
 Repeat
 mRepeat
 ;
@@ -1659,6 +1662,7 @@ mRepeatCount
 mPositionCount
 mImageCount
 mSizeCount
+mBlendModeCount
 ;
 nsAutoTArray
 <
