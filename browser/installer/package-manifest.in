@@ -831,13 +831,6 @@ components
 content_html
 .
 xpt
-BINPATH
-/
-components
-/
-content_geckomediaplugins
-.
-xpt
 #
 ifdef
 MOZ_WEBRTC
