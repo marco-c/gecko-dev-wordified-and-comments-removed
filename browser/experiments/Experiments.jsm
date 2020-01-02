@@ -1355,7 +1355,7 @@ val
 ;
 if
 (
-IsNaN
+isNaN
 (
 val
 )
