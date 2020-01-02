@@ -6861,7 +6861,7 @@ NS_OK
 }
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 nsresult
 nsNSSCertificate
 :
@@ -7109,7 +7109,7 @@ aIsEV
 {
 #
 ifdef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 *
 aIsEV
 =
@@ -7199,7 +7199,7 @@ Truncate
 ;
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 nsNSSShutDownPreventionLock
 locker
 ;

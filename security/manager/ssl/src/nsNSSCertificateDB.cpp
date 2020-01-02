@@ -7807,7 +7807,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 EnsureIdentityInfoLoaded
 (
 )

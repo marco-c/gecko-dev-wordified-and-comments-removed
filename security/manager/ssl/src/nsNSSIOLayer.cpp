@@ -127,7 +127,7 @@ h
 "
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 #
 include
 "
@@ -676,7 +676,7 @@ NS_OK
 }
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 static
 void
 getSecureBrowserUI
@@ -1609,7 +1609,7 @@ NS_OK
 }
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 class
 PreviousCertRunnable
 :
@@ -1760,7 +1760,7 @@ nullptr
 ;
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 RefPtr
 <
 PreviousCertRunnable

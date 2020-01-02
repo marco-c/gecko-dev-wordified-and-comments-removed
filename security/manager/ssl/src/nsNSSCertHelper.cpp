@@ -10517,7 +10517,7 @@ SEC_OID_UNKNOWN
 ;
 #
 ifndef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 bool
 validEV
 ;

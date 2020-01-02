@@ -173,7 +173,7 @@ not
 CONFIG
 [
 '
-NSS_NO_LIBPKIX
+NSS_NO_EV_CERTS
 '
 ]
 :

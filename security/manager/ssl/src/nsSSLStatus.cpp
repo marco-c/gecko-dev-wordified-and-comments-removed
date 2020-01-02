@@ -338,7 +338,7 @@ false
 ;
 #
 ifdef
-NSS_NO_LIBPKIX
+MOZ_NO_EV_CERTS
 return
 NS_OK
 ;
