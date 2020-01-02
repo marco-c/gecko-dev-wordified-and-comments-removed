@@ -2077,7 +2077,7 @@ ALLOW_FINISH
 ;
 virtual
 void
-ProduceOutput
+ProcessInput
 (
 GraphTime
 aFrom
