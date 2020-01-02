@@ -1219,12 +1219,6 @@ base
 /
 src
 '
-'
-/
-xpcom
-/
-ds
-'
 ]
 if
 CONFIG
