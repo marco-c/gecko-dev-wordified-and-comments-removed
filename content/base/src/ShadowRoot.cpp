@@ -2484,6 +2484,9 @@ true
 if
 (
 aContainer
+&
+&
+aContainer
 -
 >
 IsHTML
