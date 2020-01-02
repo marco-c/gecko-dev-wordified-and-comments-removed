@@ -1187,7 +1187,7 @@ gfx
 SurfaceFormat
 :
 :
-R8G8B8X8
+B8G8R8X8
 )
 ;
 DataSourceSurface
