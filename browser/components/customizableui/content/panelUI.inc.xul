@@ -367,6 +367,15 @@ quitApplicationCmdWin
 label
 ;
 "
+tooltiptext
+=
+"
+&
+quitApplicationCmdWin
+.
+tooltip
+;
+"
 #
 else
 #
