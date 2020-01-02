@@ -961,6 +961,10 @@ mRequestThread
 nullptr
 ;
 }
+mListener
+=
+nullptr
+;
 return
 NS_OK
 ;
