@@ -15648,8 +15648,7 @@ enumerateTypes
 types
 )
 )
-return
-false
+break
 ;
 if
 (
@@ -15660,9 +15659,6 @@ length
 )
 )
 {
-if
-(
-!
 observed
 -
 >
@@ -15684,9 +15680,6 @@ lifoAlloc
 (
 )
 )
-)
-return
-false
 ;
 break
 ;
