@@ -3993,9 +3993,6 @@ pkix
 ScopedCERTCertList
 nssChain
 ;
-SECStatus
-srv
-;
 RefPtr
 <
 SharedCertVerifier
@@ -4013,8 +4010,6 @@ certVerifier
 NS_ERROR_UNEXPECTED
 )
 ;
-srv
-=
 certVerifier
 -
 >
@@ -4124,8 +4119,6 @@ nickname
 )
 )
 ;
-srv
-=
 certVerifier
 -
 >

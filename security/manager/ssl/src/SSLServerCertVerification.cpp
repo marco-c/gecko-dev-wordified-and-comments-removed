@@ -1543,9 +1543,6 @@ return
 nullptr
 ;
 }
-SECStatus
-srv
-;
 PLArenaPool
 *
 log_arena
@@ -1620,8 +1617,6 @@ arena
 =
 log_arena
 ;
-srv
-=
 certVerifier
 .
 VerifyCert
