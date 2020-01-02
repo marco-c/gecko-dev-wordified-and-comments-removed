@@ -1067,7 +1067,7 @@ aKey
 )
 {
 return
-NS_PTR_TO_INT32
+NS_PTR_TO_UINT32
 (
 aKey
 )
@@ -1207,7 +1207,7 @@ aKey
 )
 {
 return
-NS_PTR_TO_INT32
+NS_PTR_TO_UINT32
 (
 aKey
 )
@@ -1391,7 +1391,7 @@ aKey
 )
 {
 return
-NS_PTR_TO_INT32
+NS_PTR_TO_UINT32
 (
 aKey
 )
@@ -1630,7 +1630,7 @@ aKey
 )
 {
 return
-NS_PTR_TO_INT32
+NS_PTR_TO_UINT32
 (
 *
 aKey
