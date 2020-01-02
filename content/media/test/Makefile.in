@@ -701,6 +701,10 @@ test_mediarecorder_record_stopms
 .
 html
 \
+test_mediarecorder_record_nosrc
+.
+html
+\
 test_mozHasAudio
 .
 html
