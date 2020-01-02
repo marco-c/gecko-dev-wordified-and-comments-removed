@@ -79,7 +79,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -115,7 +114,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -163,7 +161,6 @@ Value
 >
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -190,7 +187,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -217,7 +213,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -243,7 +238,6 @@ JS
 CallArgs
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -272,7 +266,6 @@ JSObject
 >
 protop
 )
-const
 MOZ_OVERRIDE
 ;
 static

@@ -231,7 +231,6 @@ finalizeInBackground
 Value
 priv
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -248,7 +247,6 @@ cx
 HandleObject
 proxy
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -268,7 +266,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -288,7 +285,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -308,7 +304,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -324,7 +319,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -342,7 +336,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -358,7 +351,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -376,7 +368,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -394,7 +385,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -413,7 +403,6 @@ id
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -446,7 +435,6 @@ JS
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -462,7 +450,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -478,7 +465,6 @@ bool
 *
 extensible
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -495,7 +481,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -513,7 +498,6 @@ JSContext
 *
 cx
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -528,7 +512,6 @@ cx
 HandleObject
 proxy
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -542,7 +525,6 @@ JSObject
 *
 proxy
 )
-const
 MOZ_OVERRIDE
 ;
 static
@@ -630,7 +612,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 FORWARD
 (
@@ -713,7 +694,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 FORWARD
 (
@@ -841,7 +821,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 FORWARD
 (
@@ -969,7 +948,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 FORWARD
 (
@@ -1093,7 +1071,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 FORWARD
 (
@@ -1151,7 +1128,6 @@ bool
 *
 bp
 )
-const
 {
 FORWARD
 (
@@ -1256,7 +1232,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 FORWARD
 (
@@ -1312,7 +1287,6 @@ bool
 *
 bp
 )
-const
 {
 FORWARD
 (
@@ -1419,7 +1393,6 @@ bool
 *
 bp
 )
-const
 {
 FORWARD
 (
@@ -1529,7 +1502,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 FORWARD
 (
@@ -2068,7 +2040,6 @@ JS
 MutableHandleValue
 vp
 )
-const
 {
 FORWARD
 (
@@ -2235,7 +2206,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 FORWARD
 (
@@ -2289,7 +2259,6 @@ bool
 *
 extensible
 )
-const
 {
 FORWARD
 (
@@ -2374,7 +2343,6 @@ CallArgs
 &
 args
 )
-const
 {
 FORWARD
 (
@@ -2802,7 +2770,6 @@ JSContext
 *
 cx
 )
-const
 {
 FORWARD
 (
@@ -2880,7 +2847,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 WrapperOwner
 *
@@ -2987,7 +2953,6 @@ JSObject
 *
 proxy
 )
-const
 {
 OwnerOf
 (

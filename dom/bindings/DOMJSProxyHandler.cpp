@@ -795,7 +795,6 @@ bool
 *
 extensible
 )
-const
 {
 *
 extensible
@@ -825,7 +824,6 @@ JSObject
 >
 proxy
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -871,7 +869,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 if
 (
@@ -1000,7 +997,6 @@ bool
 *
 defined
 )
-const
 {
 if
 (
@@ -1126,7 +1122,6 @@ Value
 >
 vp
 )
-const
 {
 MOZ_ASSERT
 (
@@ -1232,7 +1227,6 @@ bool
 *
 bp
 )
-const
 {
 JS
 :
@@ -1313,7 +1307,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 JS
 :
@@ -1408,7 +1401,6 @@ JSObject
 >
 callable
 )
-const
 {
 return
 js
@@ -1450,7 +1442,6 @@ jsid
 >
 id
 )
-const
 {
 return
 js
@@ -1489,7 +1480,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 return
 ownPropNames
@@ -1528,7 +1518,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 return
 ownPropNames
@@ -1570,7 +1559,6 @@ bool
 *
 bp
 )
-const
 {
 if
 (
@@ -1795,7 +1783,6 @@ bool
 *
 done
 )
-const
 {
 *
 done

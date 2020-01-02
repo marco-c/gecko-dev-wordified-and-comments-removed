@@ -303,7 +303,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 assertEnteredPolicy
 (
@@ -384,7 +383,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 assertEnteredPolicy
 (
@@ -458,7 +456,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 assertEnteredPolicy
 (
@@ -520,7 +517,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 assertEnteredPolicy
 (
@@ -582,7 +578,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 assertEnteredPolicy
 (
@@ -645,7 +640,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -710,7 +704,6 @@ JS
 CallArgs
 args
 )
-const
 {
 if
 (
@@ -782,7 +775,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 {
 return
 Base
@@ -820,7 +812,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 {
 JSString
 *
@@ -894,7 +885,6 @@ bool
 *
 bp
 )
-const
 {
 if
 (

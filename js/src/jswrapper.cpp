@@ -101,7 +101,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 {
 vp
 .
@@ -1050,7 +1049,6 @@ finalizeInBackground
 Value
 priv
 )
-const
 {
 if
 (
@@ -1169,7 +1167,6 @@ bool
 *
 extensible
 )
-const
 {
 PIERCE
 (
@@ -1201,7 +1198,6 @@ cx
 HandleObject
 wrapper
 )
-const
 {
 PIERCE
 (
@@ -1239,7 +1235,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 PIERCE
 (
@@ -1291,7 +1286,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 PIERCE
 (
@@ -1343,7 +1337,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 Rooted
 <
@@ -1403,7 +1396,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 PIERCE
 (
@@ -1440,7 +1432,6 @@ bool
 *
 bp
 )
-const
 {
 PIERCE
 (
@@ -1476,7 +1467,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 PIERCE
 (
@@ -1513,7 +1503,6 @@ bool
 *
 bp
 )
-const
 {
 PIERCE
 (
@@ -1551,7 +1540,6 @@ bool
 *
 bp
 )
-const
 {
 PIERCE
 (
@@ -1590,7 +1578,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 RootedObject
 receiverCopy
@@ -1686,7 +1673,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 {
 RootedObject
 receiverCopy
@@ -1759,7 +1745,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 PIERCE
 (
@@ -2178,7 +2163,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 {
 {
 AutoCompartment
@@ -2261,7 +2245,6 @@ CallArgs
 &
 args
 )
-const
 {
 RootedObject
 wrapped
@@ -2413,7 +2396,6 @@ CallArgs
 &
 args
 )
-const
 {
 RootedObject
 wrapped
@@ -2530,7 +2512,6 @@ impl
 CallArgs
 srcArgs
 )
-const
 {
 RootedObject
 wrapper
@@ -2873,7 +2854,6 @@ bool
 *
 bp
 )
-const
 {
 AutoCompartment
 call
@@ -2932,7 +2912,6 @@ cx
 HandleObject
 wrapper
 )
-const
 {
 AutoCompartment
 call
@@ -2970,7 +2949,6 @@ wrapper
 unsigned
 indent
 )
-const
 {
 RootedString
 str
@@ -3053,7 +3031,6 @@ RegExpGuard
 *
 g
 )
-const
 {
 RegExpGuard
 wrapperGuard
@@ -3146,7 +3123,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 {
 PIERCE
 (
@@ -3193,7 +3169,6 @@ wrapper
 MutableHandleObject
 protop
 )
-const
 {
 {
 RootedObject
@@ -3275,7 +3250,6 @@ bool
 *
 bp
 )
-const
 {
 RootedObject
 protoCopy
@@ -3376,7 +3350,6 @@ bool
 *
 extensible
 )
-const
 {
 *
 extensible
@@ -3407,7 +3380,6 @@ cx
 HandleObject
 wrapper
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3451,7 +3423,6 @@ bool
 *
 bp
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3494,7 +3465,6 @@ impl
 CallArgs
 args
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3533,7 +3503,6 @@ bool
 *
 bp
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3571,7 +3540,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 {
 return
 DefaultValue
@@ -3605,7 +3573,6 @@ JSContext
 *
 cx
 )
-const
 {
 return
 false
@@ -3634,7 +3601,6 @@ RegExpGuard
 *
 g
 )
-const
 {
 return
 Base
@@ -3675,7 +3641,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 if
 (
@@ -3770,7 +3735,6 @@ id
 HandleObject
 callable
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3806,7 +3770,6 @@ proxy
 HandleId
 id
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3869,7 +3832,6 @@ bool
 *
 extensible
 )
-const
 {
 *
 extensible
@@ -3892,7 +3854,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3925,7 +3886,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3958,7 +3918,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -3991,7 +3950,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4020,7 +3978,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4051,7 +4008,6 @@ bool
 *
 bp
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4080,7 +4036,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4110,7 +4065,6 @@ CallArgs
 &
 args
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4140,7 +4094,6 @@ CallArgs
 &
 args
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4170,7 +4123,6 @@ impl
 CallArgs
 args
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4201,7 +4153,6 @@ bool
 *
 bp
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4229,7 +4180,6 @@ JSContext
 *
 cx
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4257,7 +4207,6 @@ cx
 HandleObject
 wrapper
 )
-const
 {
 return
 "
@@ -4280,7 +4229,6 @@ proxy
 unsigned
 indent
 )
-const
 {
 return
 nullptr
@@ -4301,7 +4249,6 @@ RegExpGuard
 *
 g
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4331,7 +4278,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4359,7 +4305,6 @@ proxy
 MutableHandleObject
 protop
 )
-const
 {
 protop
 .

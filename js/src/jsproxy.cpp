@@ -507,7 +507,6 @@ bool
 *
 bp
 )
-const
 {
 *
 bp
@@ -535,7 +534,6 @@ bool
 *
 bp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -601,7 +599,6 @@ bool
 *
 bp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -670,7 +667,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -858,7 +854,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -1380,7 +1375,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 assertEnteredPolicy
 (
@@ -1576,7 +1570,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -1648,7 +1641,6 @@ CallArgs
 &
 args
 )
-const
 {
 MOZ_ASSUME_UNREACHABLE
 (
@@ -1679,7 +1671,6 @@ CallArgs
 &
 args
 )
-const
 {
 MOZ_ASSUME_UNREACHABLE
 (
@@ -1708,7 +1699,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 return
 proxy
@@ -1742,7 +1732,6 @@ proxy
 unsigned
 indent
 )
-const
 {
 if
 (
@@ -1810,7 +1799,6 @@ RegExpGuard
 *
 g
 )
-const
 {
 MOZ_ASSUME_UNREACHABLE
 (
@@ -1842,7 +1830,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 {
 return
 DefaultValue
@@ -1870,7 +1857,6 @@ impl
 CallArgs
 args
 )
-const
 {
 ReportIncompatible
 (
@@ -1899,7 +1885,6 @@ bool
 *
 bp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -1956,7 +1941,6 @@ JSContext
 *
 cx
 )
-const
 {
 return
 false
@@ -1975,7 +1959,6 @@ JSObject
 *
 proxy
 )
-const
 {
 }
 JSObject
@@ -1989,7 +1972,6 @@ JSObject
 *
 proxy
 )
-const
 {
 return
 nullptr
@@ -2009,7 +1991,6 @@ proxy
 MutableHandleObject
 protop
 )
-const
 {
 MOZ_ASSUME_UNREACHABLE
 (
@@ -2039,7 +2020,6 @@ HandleObject
 bool
 *
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -2073,7 +2053,6 @@ id
 HandleObject
 callable
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -2110,7 +2089,6 @@ proxy
 HandleId
 id
 )
-const
 {
 return
 true
@@ -2134,7 +2112,6 @@ end
 HandleObject
 result
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2178,7 +2155,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2246,7 +2222,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2309,7 +2284,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2413,7 +2387,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2474,7 +2447,6 @@ bool
 *
 bp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2531,7 +2503,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2595,7 +2566,6 @@ CallArgs
 &
 args
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2668,7 +2638,6 @@ CallArgs
 &
 args
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2740,7 +2709,6 @@ impl
 CallArgs
 args
 )
-const
 {
 args
 .
@@ -2821,7 +2789,6 @@ bool
 *
 bp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -2893,7 +2860,6 @@ proxy
 MutableHandleObject
 protop
 )
-const
 {
 RootedObject
 target
@@ -2943,7 +2909,6 @@ bool
 *
 bp
 )
-const
 {
 RootedObject
 target
@@ -2991,7 +2956,6 @@ JSContext
 *
 cx
 )
-const
 {
 RootedObject
 target
@@ -3035,7 +2999,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3090,7 +3053,6 @@ proxy
 unsigned
 indent
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3143,7 +3105,6 @@ RegExpGuard
 *
 g
 )
-const
 {
 RootedObject
 target
@@ -3184,7 +3145,6 @@ JSObject
 *
 proxy
 )
-const
 {
 return
 UncheckedUnwrap
@@ -3233,7 +3193,6 @@ bool
 *
 bp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3316,7 +3275,6 @@ bool
 *
 bp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3407,7 +3365,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3470,7 +3427,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3529,7 +3485,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3585,7 +3540,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 {
 assertEnteredPolicy
 (
@@ -3647,7 +3601,6 @@ bool
 *
 extensible
 )
-const
 {
 RootedObject
 target
@@ -3692,7 +3645,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 RootedObject
 target
@@ -4347,7 +4299,6 @@ cx
 HandleObject
 proxy
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4367,7 +4318,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4387,7 +4337,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4407,7 +4356,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4423,8 +4371,6 @@ AutoIdVector
 &
 props
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -4441,7 +4387,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4457,7 +4402,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4475,7 +4419,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4493,7 +4436,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4512,7 +4454,6 @@ id
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4533,7 +4474,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4549,7 +4489,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4566,7 +4505,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4582,7 +4520,6 @@ bool
 *
 extensible
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4599,7 +4536,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4616,7 +4552,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4633,7 +4568,6 @@ impl
 CallArgs
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4649,7 +4583,6 @@ proxy
 unsigned
 indent
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -4657,7 +4590,6 @@ bool
 isScripted
 (
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -4733,7 +4665,6 @@ bool
 *
 extensible
 )
-const
 {
 *
 extensible
@@ -4756,7 +4687,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 JS_ReportErrorNumber
 (
@@ -4898,7 +4828,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 RootedObject
 handler
@@ -5016,7 +4945,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 RootedObject
 handler
@@ -5134,7 +5062,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 RootedObject
 handler
@@ -5210,7 +5137,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 RootedObject
 handler
@@ -5287,7 +5213,6 @@ bool
 *
 bp
 )
-const
 {
 RootedObject
 handler
@@ -5360,7 +5285,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 RootedObject
 handler
@@ -5437,7 +5361,6 @@ bool
 *
 bp
 )
-const
 {
 RootedObject
 handler
@@ -5537,7 +5460,6 @@ bool
 *
 bp
 )
-const
 {
 RootedObject
 handler
@@ -5638,7 +5560,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 RootedObject
 handler
@@ -5787,7 +5708,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 {
 RootedObject
 handler
@@ -5943,7 +5863,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 RootedObject
 handler
@@ -6039,7 +5958,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 {
 RootedObject
 handler
@@ -6143,7 +6061,6 @@ CallArgs
 &
 args
 )
-const
 {
 assertEnteredPolicy
 (
@@ -6269,7 +6186,6 @@ CallArgs
 &
 args
 )
-const
 {
 assertEnteredPolicy
 (
@@ -6394,7 +6310,6 @@ impl
 CallArgs
 args
 )
-const
 {
 return
 BaseProxyHandler
@@ -6424,7 +6339,6 @@ proxy
 unsigned
 indent
 )
-const
 {
 assertEnteredPolicy
 (
@@ -6540,7 +6454,6 @@ cx
 HandleObject
 proxy
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6560,7 +6473,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6580,7 +6492,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6600,7 +6511,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6616,7 +6526,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6634,7 +6543,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6650,7 +6558,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6668,7 +6575,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6686,7 +6592,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -6718,7 +6623,6 @@ id
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6739,7 +6643,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6755,7 +6658,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -6784,7 +6686,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6800,7 +6701,6 @@ bool
 *
 extensible
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6817,7 +6717,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6834,7 +6733,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -6842,7 +6740,6 @@ bool
 isScripted
 (
 )
-const
 MOZ_OVERRIDE
 {
 return
@@ -8249,7 +8146,6 @@ cx
 HandleObject
 proxy
 )
-const
 {
 RootedObject
 handler
@@ -8458,7 +8354,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 JS_CHECK_RECURSION
 (
@@ -8564,7 +8459,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 RootedObject
 handler
@@ -9045,7 +8939,6 @@ PropertyDescriptor
 >
 desc
 )
-const
 {
 RootedObject
 handler
@@ -9409,7 +9302,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 RootedObject
 handler
@@ -9602,7 +9494,6 @@ bool
 *
 bp
 )
-const
 {
 RootedObject
 handler
@@ -9858,7 +9749,6 @@ AutoIdVector
 &
 props
 )
-const
 {
 RootedObject
 handler
@@ -10085,7 +9975,6 @@ bool
 *
 bp
 )
-const
 {
 RootedObject
 handler
@@ -10367,7 +10256,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 RootedObject
 handler
@@ -10692,7 +10580,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 {
 RootedObject
 handler
@@ -11025,7 +10912,6 @@ bool
 *
 extensible
 )
-const
 {
 RootedObject
 handler
@@ -11223,7 +11109,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 {
 return
 DirectProxyHandler
@@ -11254,7 +11139,6 @@ CallArgs
 &
 args
 )
-const
 {
 RootedObject
 handler
@@ -11433,7 +11317,6 @@ CallArgs
 &
 args
 )
-const
 {
 RootedObject
 handler

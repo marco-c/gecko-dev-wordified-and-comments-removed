@@ -267,7 +267,6 @@ JSPropertyDescriptor
 >
 aDesc
 )
-const
 {
 if
 (
@@ -689,7 +688,6 @@ JSPropertyDescriptor
 >
 aDesc
 )
-const
 {
 ErrorResult
 rv
@@ -739,7 +737,6 @@ AutoIdVector
 &
 aProps
 )
-const
 {
 nsGlobalWindow
 *
@@ -973,7 +970,6 @@ bool
 *
 aBp
 )
-const
 {
 *
 aBp

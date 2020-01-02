@@ -218,7 +218,6 @@ finalizeInBackground
 Value
 priv
 )
-const
 {
 return
 true
@@ -264,7 +263,6 @@ bool
 *
 bp
 )
-const
 ;
 virtual
 bool
@@ -276,7 +274,6 @@ cx
 HandleObject
 proxy
 )
-const
 =
 0
 ;
@@ -297,7 +294,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 =
 0
 ;
@@ -318,7 +314,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 =
 0
 ;
@@ -339,7 +334,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 =
 0
 ;
@@ -356,7 +350,6 @@ AutoIdVector
 &
 props
 )
-const
 =
 0
 ;
@@ -375,7 +368,6 @@ bool
 *
 bp
 )
-const
 =
 0
 ;
@@ -392,7 +384,6 @@ AutoIdVector
 &
 props
 )
-const
 =
 0
 ;
@@ -411,7 +402,6 @@ bool
 *
 bp
 )
-const
 ;
 virtual
 bool
@@ -428,7 +418,6 @@ bool
 *
 bp
 )
-const
 ;
 virtual
 bool
@@ -446,7 +435,6 @@ id
 MutableHandleValue
 vp
 )
-const
 ;
 virtual
 bool
@@ -466,7 +454,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 ;
 virtual
 bool
@@ -481,7 +468,6 @@ AutoIdVector
 &
 props
 )
-const
 ;
 virtual
 bool
@@ -497,7 +483,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 ;
 virtual
 bool
@@ -512,7 +497,6 @@ bool
 *
 extensible
 )
-const
 =
 0
 ;
@@ -530,7 +514,6 @@ CallArgs
 &
 args
 )
-const
 ;
 virtual
 bool
@@ -546,7 +529,6 @@ CallArgs
 &
 args
 )
-const
 ;
 virtual
 bool
@@ -562,7 +544,6 @@ impl
 CallArgs
 args
 )
-const
 ;
 virtual
 bool
@@ -579,7 +560,6 @@ bool
 *
 bp
 )
-const
 ;
 virtual
 bool
@@ -593,7 +573,6 @@ JSContext
 *
 cx
 )
-const
 ;
 virtual
 const
@@ -607,7 +586,6 @@ cx
 HandleObject
 proxy
 )
-const
 ;
 virtual
 JSString
@@ -622,7 +600,6 @@ proxy
 unsigned
 indent
 )
-const
 ;
 virtual
 bool
@@ -637,7 +614,6 @@ RegExpGuard
 *
 g
 )
-const
 ;
 virtual
 bool
@@ -653,7 +629,6 @@ hint
 MutableHandleValue
 vp
 )
-const
 ;
 virtual
 void
@@ -666,7 +641,6 @@ JSObject
 *
 proxy
 )
-const
 ;
 virtual
 bool
@@ -680,7 +654,6 @@ proxy
 MutableHandleObject
 protop
 )
-const
 ;
 virtual
 bool
@@ -697,7 +670,6 @@ bool
 *
 bp
 )
-const
 ;
 virtual
 bool
@@ -722,7 +694,6 @@ JS
 HandleObject
 callable
 )
-const
 ;
 virtual
 bool
@@ -742,7 +713,6 @@ JS
 HandleId
 id
 )
-const
 ;
 virtual
 bool
@@ -760,7 +730,6 @@ end
 HandleObject
 result
 )
-const
 ;
 virtual
 JSObject
@@ -771,14 +740,12 @@ JSObject
 *
 proxy
 )
-const
 ;
 virtual
 bool
 isScripted
 (
 )
-const
 {
 return
 false
@@ -824,7 +791,6 @@ cx
 HandleObject
 proxy
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -844,7 +810,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -864,7 +829,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -884,7 +848,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -900,7 +863,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -918,7 +880,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -934,7 +895,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -952,7 +912,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -970,7 +929,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -989,7 +947,6 @@ id
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1010,7 +967,6 @@ strict
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1026,7 +982,6 @@ AutoIdVector
 &
 props
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1043,7 +998,6 @@ flags
 MutableHandleValue
 vp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1059,7 +1013,6 @@ bool
 *
 extensible
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1076,7 +1029,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1093,7 +1045,6 @@ CallArgs
 &
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1110,7 +1061,6 @@ impl
 CallArgs
 args
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1128,7 +1078,6 @@ bool
 *
 bp
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1143,8 +1092,6 @@ proxy
 MutableHandleObject
 protop
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1161,8 +1108,6 @@ bool
 *
 bp
 )
-const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1176,7 +1121,6 @@ JSContext
 *
 cx
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1191,7 +1135,6 @@ cx
 HandleObject
 proxy
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1207,7 +1150,6 @@ proxy
 unsigned
 indent
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1223,7 +1165,6 @@ RegExpGuard
 *
 g
 )
-const
 MOZ_OVERRIDE
 ;
 virtual
@@ -1235,8 +1176,6 @@ JSObject
 *
 proxy
 )
-const
-MOZ_OVERRIDE
 ;
 }
 ;

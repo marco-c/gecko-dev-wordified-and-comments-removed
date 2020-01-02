@@ -222,7 +222,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 return
 CrossCompartmentWrapper
@@ -280,7 +279,6 @@ JSPropertyDescriptor
 >
 desc
 )
-const
 {
 return
 CrossCompartmentWrapper
@@ -334,7 +332,6 @@ id
 MutableHandleValue
 vp
 )
-const
 {
 return
 CrossCompartmentWrapper
@@ -379,7 +376,6 @@ CallArgs
 &
 args
 )
-const
 {
 return
 CrossCompartmentWrapper
@@ -426,7 +422,6 @@ CallArgs
 &
 args
 )
-const
 {
 return
 CrossCompartmentWrapper
@@ -479,7 +474,6 @@ JS
 CallArgs
 args
 )
-const
 {
 return
 CrossCompartmentWrapper
@@ -522,7 +516,6 @@ wrapper
 MutableHandleObject
 protop
 )
-const
 {
 return
 CrossCompartmentWrapper
