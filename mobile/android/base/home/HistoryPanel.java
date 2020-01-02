@@ -498,6 +498,11 @@ TelemetryContract
 Event
 .
 LOAD_URL
+TelemetryContract
+.
+Method
+.
+LIST_ITEM
 )
 ;
 mUrlOpenListener

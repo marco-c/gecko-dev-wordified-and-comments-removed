@@ -396,7 +396,7 @@ TelemetryContract
 .
 Method
 .
-NONE
+LIST_ITEM
 "
 remote
 "
