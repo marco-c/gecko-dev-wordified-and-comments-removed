@@ -442,6 +442,11 @@ getdents64
 \
 ALLOW_SYSCALL
 (
+sched_yield
+)
+\
+ALLOW_SYSCALL
+(
 sched_getscheduler
 )
 \
