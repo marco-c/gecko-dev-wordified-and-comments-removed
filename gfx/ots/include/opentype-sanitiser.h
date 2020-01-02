@@ -1033,16 +1033,11 @@ DisableDebugOutput
 (
 )
 ;
-#
-ifdef
-MOZ_OTS_WOFF2
 void
 EnableWOFF2
 (
 )
 ;
-#
-endif
 }
 #
 endif
