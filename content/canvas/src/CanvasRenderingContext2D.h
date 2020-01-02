@@ -3090,12 +3090,12 @@ uint32_t
 w
 uint32_t
 h
-unsigned
-char
+dom
+:
+:
+Uint8ClampedArray
 *
-aData
-uint32_t
-aDataLen
+aArray
 bool
 hasDirtyRect
 int32_t

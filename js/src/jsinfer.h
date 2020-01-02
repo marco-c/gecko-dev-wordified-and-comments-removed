@@ -4611,7 +4611,7 @@ constraints
 )
 ;
 void
-watchStateChangeForTypedArrayBuffer
+watchStateChangeForTypedArrayData
 (
 CompilerConstraintList
 *
