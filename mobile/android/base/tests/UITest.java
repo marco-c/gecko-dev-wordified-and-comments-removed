@@ -611,13 +611,6 @@ init
 this
 )
 ;
-GestureHelper
-.
-init
-(
-this
-)
-;
 NavigationHelper
 .
 init
