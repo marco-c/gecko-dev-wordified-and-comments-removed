@@ -478,7 +478,6 @@ DefaultWrapObjectCallbacks
 {
 TransparentObjectWrapper
 nullptr
-nullptr
 }
 ;
 JSRuntime
