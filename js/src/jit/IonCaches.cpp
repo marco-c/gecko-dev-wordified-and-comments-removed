@@ -5598,6 +5598,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 SkipRoot
@@ -6368,6 +6370,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
@@ -6653,6 +6657,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
@@ -7215,6 +7221,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
@@ -10090,6 +10098,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
@@ -10362,6 +10372,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
@@ -11465,6 +11477,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
@@ -11723,6 +11737,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
@@ -21737,6 +21753,8 @@ masm
 (
 cx
 ion
+script_
+pc_
 )
 ;
 RepatchStubAppender
