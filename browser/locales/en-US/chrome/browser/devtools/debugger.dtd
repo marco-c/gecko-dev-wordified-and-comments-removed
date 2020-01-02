@@ -565,7 +565,7 @@ debuggerUI
 .
 autoPrettyPrint
 .
-key
+accesskey
 "
 P
 "
