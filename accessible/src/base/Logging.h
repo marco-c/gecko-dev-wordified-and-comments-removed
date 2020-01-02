@@ -340,6 +340,8 @@ aSelection
 DocAccessible
 *
 aDocument
+int16_t
+aReason
 )
 ;
 void

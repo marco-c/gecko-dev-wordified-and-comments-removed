@@ -37,6 +37,9 @@ a11y
 class
 AccEvent
 ;
+struct
+SelData
+;
 class
 SelectionManager
 :
@@ -101,9 +104,9 @@ protected
 void
 ProcessSelectionChanged
 (
-nsISelection
+SelData
 *
-aSelection
+aSelData
 )
 ;
 private
