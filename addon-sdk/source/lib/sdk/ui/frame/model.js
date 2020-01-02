@@ -374,7 +374,7 @@ input
 Frames
 ;
 const
-urlToId
+makeID
 =
 url
 =
@@ -449,7 +449,7 @@ validate
 contract
 (
 {
-id
+name
 :
 {
 is
@@ -497,7 +497,7 @@ msg
 The
 option
 .
-id
+name
 must
 be
 a
@@ -775,13 +775,13 @@ params
 const
 id
 =
+makeID
+(
 options
 .
-id
+name
 |
 |
-urlToId
-(
 options
 .
 url
