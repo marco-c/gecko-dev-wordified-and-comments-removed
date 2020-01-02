@@ -114,8 +114,8 @@ CryptAcquireContext
 (
 &
 hProv
-NULL
-NULL
+nullptr
+nullptr
 PROV_RSA_FULL
 0
 )
@@ -142,8 +142,8 @@ CryptAcquireContext
 (
 &
 hProv
-NULL
-NULL
+nullptr
+nullptr
 PROV_RSA_FULL
 CRYPT_NEWKEYSET
 )
