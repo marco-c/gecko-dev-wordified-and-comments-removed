@@ -1922,6 +1922,9 @@ count_
 nscolor
 mBackgroundColor
 ;
+uint8_t
+mBackgroundInlinePolicy
+;
 bool
 IsTransparent
 (
@@ -3919,9 +3922,6 @@ mBorderImageRepeatV
 ;
 uint8_t
 mFloatEdge
-;
-uint8_t
-mBoxDecorationBreak
 ;
 protected
 :
