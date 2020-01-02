@@ -18236,13 +18236,6 @@ PORT_ZAlloc
 msgLen
 )
 ;
-memset
-(
-msg
-0
-msgLen
-)
-;
 if
 (
 msg
@@ -18635,8 +18628,7 @@ memset
 (
 msg
 0
-sizeof
-msg
+msgLen
 )
 ;
 memset

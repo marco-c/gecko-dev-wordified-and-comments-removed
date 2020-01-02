@@ -1019,6 +1019,16 @@ fd
 )
 ;
 SSL_IMPORT
+CERTCertList
+*
+SSL_PeerCertificateChain
+(
+PRFileDesc
+*
+fd
+)
+;
+SSL_IMPORT
 const
 SECItemArray
 *
@@ -1424,7 +1434,7 @@ arg
 ;
 SSL_IMPORT
 SECStatus
-SSL_DefaultCanFalseStart
+SSL_RecommendedCanFalseStart
 (
 PRFileDesc
 *

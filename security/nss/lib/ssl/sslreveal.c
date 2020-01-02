@@ -266,12 +266,6 @@ sslsocket
 opt
 .
 useSecurity
-&
-&
-sslsocket
--
->
-enoughFirstHsDone
 )
 {
 if

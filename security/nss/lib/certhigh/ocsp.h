@@ -155,6 +155,14 @@ handle
 )
 ;
 extern
+SECStatus
+CERT_ForcePostMethodForOCSP
+(
+PRBool
+forcePost
+)
+;
+extern
 CERTOCSPRequest
 *
 CERT_CreateOCSPRequest
