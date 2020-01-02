@@ -1,4 +1,4 @@
-57460
+57465
 0
 /
 nm
@@ -58427,6 +58427,9 @@ s
 cipher
 /
 CGDS
+ciphertext
+/
+S
 cir
 circa
 circadian
@@ -64608,7 +64611,13 @@ cryptographically
 cryptography
 /
 M
+cryptologist
+/
+MS
 cryptology
+cryptosystem
+/
+S
 crystal
 /
 SM
@@ -95751,7 +95760,9 @@ SM
 linguistic
 /
 S
-linguistically
+linguistical
+/
+Y
 linguistics
 /
 M
@@ -112308,6 +112319,7 @@ plainspoken
 plaint
 /
 SMV
+plaintext
 plaintiff
 /
 SM
@@ -116189,6 +116201,9 @@ SM
 pseudonymous
 pseudopod
 pseudopodia
+pseudorandom
+/
+Y
 pseudoscience
 /
 MS
