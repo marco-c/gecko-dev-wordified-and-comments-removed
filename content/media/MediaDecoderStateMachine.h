@@ -952,7 +952,17 @@ EnqueueDecodeMetadataTask
 )
 ;
 nsresult
+DispatchAudioDecodeTaskIfNeeded
+(
+)
+;
+nsresult
 EnsureAudioDecodeTaskQueued
+(
+)
+;
+nsresult
+DispatchVideoDecodeTaskIfNeeded
 (
 )
 ;
@@ -977,7 +987,7 @@ SetReaderActive
 )
 ;
 void
-UpdateIdleState
+DispatchDecodeTasksIfNeeded
 (
 )
 ;
