@@ -3944,11 +3944,8 @@ isString
 false
 )
 ;
-char
-*
+JSAutoByteString
 name
-=
-JS_EncodeString
 (
 cx
 nameValue
@@ -3970,6 +3967,10 @@ if
 strcmp
 (
 name
+.
+ptr
+(
+)
 "
 XMLHttpRequest
 "
@@ -3988,6 +3989,10 @@ if
 strcmp
 (
 name
+.
+ptr
+(
+)
 "
 TextEncoder
 "
@@ -4006,6 +4011,10 @@ if
 strcmp
 (
 name
+.
+ptr
+(
+)
 "
 TextDecoder
 "
@@ -4024,6 +4033,10 @@ if
 strcmp
 (
 name
+.
+ptr
+(
+)
 "
 atob
 "
@@ -4042,6 +4055,10 @@ if
 strcmp
 (
 name
+.
+ptr
+(
+)
 "
 btoa
 "
