@@ -996,7 +996,7 @@ android
 layout_height
 =
 "
-16dp
+14dp
 "
 android
 :
@@ -1004,7 +1004,7 @@ layout_marginBottom
 =
 "
 -
-8dp
+7dp
 "
 android
 :
