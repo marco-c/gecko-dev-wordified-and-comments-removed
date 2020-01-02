@@ -19109,6 +19109,15 @@ them
 return
 eOpaque
 ;
+case
+NS_THEME_TOOLBAR
+:
+case
+NS_THEME_MOZ_MAC_UNIFIED_TOOLBAR
+:
+return
+eOpaque
+;
 default
 :
 return
