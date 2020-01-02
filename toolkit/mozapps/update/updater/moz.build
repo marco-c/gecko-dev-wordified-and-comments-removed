@@ -464,6 +464,11 @@ nightly
 -
 oak
 '
+'
+nightly
+-
+ux
+'
 )
 :
 DEFINES
