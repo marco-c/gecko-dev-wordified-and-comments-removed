@@ -147,7 +147,7 @@ T
 class
 OverflowHandler
 =
-CrashOnOverflow
+RecordOverflow
 >
 class
 Checked
