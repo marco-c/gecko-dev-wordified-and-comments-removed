@@ -1,9 +1,9 @@
 #
 ifndef
-nsXPathExpression_h__
+mozilla_dom_XPathExpression_h
 #
 define
-nsXPathExpression_h__
+mozilla_dom_XPathExpression_h
 #
 include
 "
@@ -61,8 +61,14 @@ Expr
 class
 txXPathNode
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsXPathExpression
+XPathExpression
 MOZ_FINAL
 :
 public
@@ -72,7 +78,7 @@ nsIDOMNSXPathExpression
 {
 public
 :
-nsXPathExpression
+XPathExpression
 (
 nsAutoPtr
 <
@@ -92,7 +98,7 @@ aDocument
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
-nsXPathExpression
+XPathExpression
 nsIDOMXPathExpression
 )
 NS_DECL_NSIDOMXPATHEXPRESSION
@@ -205,5 +211,7 @@ mRecycler
 ;
 }
 ;
+}
+}
 #
 endif
