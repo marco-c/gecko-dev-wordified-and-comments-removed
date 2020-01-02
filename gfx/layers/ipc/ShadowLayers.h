@@ -710,6 +710,10 @@ EditReply
 >
 *
 aReplies
+const
+nsIntRegion
+&
+aRegionToClear
 bool
 aScheduleComposite
 bool
