@@ -1441,6 +1441,16 @@ b
 ;
 }
 }
+if
+(
+Sampler
+:
+:
+CanNotifyObservers
+(
+)
+)
+{
 SubprocessClosure
 closure
 (
@@ -1497,6 +1507,7 @@ subprocess
 nullptr
 )
 ;
+}
 }
 #
 if
