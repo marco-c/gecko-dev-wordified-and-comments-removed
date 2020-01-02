@@ -190,14 +190,6 @@ false
 )
 ;
 }
-mControl
--
->
-mLastWrittenBoxPos
-+
-=
-box_size
-;
 MOZ_COUNT_DTOR
 (
 BoxSizeChecker

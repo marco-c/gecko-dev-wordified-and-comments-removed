@@ -543,9 +543,6 @@ uint8_t
 >
 mOutBuffers
 ;
-uint32_t
-mLastWrittenBoxPos
-;
 uint64_t
 mOutputSize
 ;
