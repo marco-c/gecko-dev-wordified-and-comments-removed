@@ -40768,6 +40768,12 @@ NodePrincipal
 mDocumentURI
 nullptr
 loadFlags
+NS_LITERAL_STRING
+(
+"
+img
+"
+)
 getter_AddRefs
 (
 request

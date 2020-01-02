@@ -10193,6 +10193,9 @@ nsIRequest
 :
 :
 LOAD_NORMAL
+EmptyString
+(
+)
 getter_AddRefs
 (
 imageRequest

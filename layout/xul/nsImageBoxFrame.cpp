@@ -993,6 +993,9 @@ GetDocumentURI
 )
 mListener
 mLoadFlags
+EmptyString
+(
+)
 getter_AddRefs
 (
 mImageRequest

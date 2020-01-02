@@ -1392,6 +1392,9 @@ nsIRequest
 LOAD_NORMAL
 nullptr
 nullptr
+EmptyString
+(
+)
 getter_AddRefs
 (
 osxni

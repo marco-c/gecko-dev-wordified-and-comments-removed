@@ -427,6 +427,16 @@ pref
 "
 dom
 .
+enable_resource_timing
+"
+false
+)
+;
+pref
+(
+"
+dom
+.
 gamepad
 .
 enabled

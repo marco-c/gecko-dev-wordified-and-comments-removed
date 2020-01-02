@@ -543,6 +543,9 @@ nsIRequest
 :
 :
 LOAD_BACKGROUND
+EmptyString
+(
+)
 getter_AddRefs
 (
 req

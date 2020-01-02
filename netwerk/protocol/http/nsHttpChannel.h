@@ -134,6 +134,9 @@ nsIHttpChannelAuthProvider
 class
 nsInputStreamPump
 ;
+class
+nsPerformance
+;
 namespace
 mozilla
 {
@@ -1598,6 +1601,12 @@ protected
 virtual
 void
 DoNotifyListenerCleanup
+(
+)
+;
+nsPerformance
+*
+GetPerformance
 (
 )
 ;

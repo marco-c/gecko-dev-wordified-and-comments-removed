@@ -907,6 +907,10 @@ aCacheKey
 nsIChannelPolicy
 *
 aPolicy
+const
+nsAString
+&
+initiatorType
 imgRequestProxy
 *
 *

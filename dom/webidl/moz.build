@@ -1395,7 +1395,17 @@ Performance
 webidl
 '
 '
+PerformanceEntry
+.
+webidl
+'
+'
 PerformanceNavigation
+.
+webidl
+'
+'
+PerformanceResourceTiming
 .
 webidl
 '
