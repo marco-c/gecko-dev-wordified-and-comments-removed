@@ -280,12 +280,28 @@ psarg
 )
 :
         
+try
+:
+            
 command
 =
 process
 [
 '
 COMMAND
+'
+]
+        
+except
+KeyError
+:
+            
+command
+=
+process
+[
+'
+CMD
 '
 ]
         
