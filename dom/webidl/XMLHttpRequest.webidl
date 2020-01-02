@@ -666,8 +666,6 @@ responseText
 ;
 [
 Throws
-=
-MainThread
 Exposed
 =
 Window
@@ -696,6 +694,9 @@ mozBackgroundRequest
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 readonly
 attribute

@@ -13389,6 +13389,33 @@ arguments
 in
 signatures
 )
+def
+isMaybeExposedIn
+(
+member
+descriptor
+)
+:
+    
+return
+not
+descriptor
+.
+workers
+or
+member
+.
+exposureSet
+!
+=
+set
+(
+[
+"
+Window
+"
+]
+)
 class
 MethodDefiner
 (
@@ -13502,6 +13529,13 @@ m
 .
 isIdentifierLess
 (
+)
+and
+                       
+isMaybeExposedIn
+(
+m
+descriptor
 )
 ]
         
@@ -15109,6 +15143,13 @@ descriptor
 =
 =
 unforgeable
+and
+                          
+isMaybeExposedIn
+(
+m
+descriptor
+)
 ]
         
 else
@@ -15707,6 +15748,13 @@ m
 .
 isConst
 (
+)
+and
+                     
+isMaybeExposedIn
+(
+m
+descriptor
 )
 ]
         
@@ -73684,6 +73732,17 @@ name
 '
 queryInterface
 '
+:
+                
+continue
+            
+if
+not
+isMaybeExposedIn
+(
+m
+descriptor
+)
 :
                 
 continue
