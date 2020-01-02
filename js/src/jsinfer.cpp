@@ -8744,9 +8744,11 @@ emulatesUndefined
 )
 |
 |
-IsProxyClass
-(
 clasp
+-
+>
+isProxy
+(
 )
 )
 )
