@@ -4500,6 +4500,11 @@ setElementAttributeName
 (
 jsStr
 )
+.
+setDefineOnScope
+(
+false
+)
 ;
 JS
 :
@@ -4522,12 +4527,7 @@ nsJSUtils
 CompileFunction
 (
 cx
-JS
-:
-:
-NullPtr
-(
-)
+target
 options
 nsAtomCString
 (
