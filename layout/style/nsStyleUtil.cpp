@@ -2454,9 +2454,14 @@ false
 }
 if
 (
+!
 csp
 )
 {
+return
+true
+;
+}
 bool
 reportViolation
 ;
@@ -2689,7 +2694,6 @@ violation
 return
 false
 ;
-}
 }
 return
 true
