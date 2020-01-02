@@ -3178,7 +3178,7 @@ NS_ABORT_IF_FALSE
 statusTracker
 -
 >
-GetImage
+HasImage
 (
 )
 "

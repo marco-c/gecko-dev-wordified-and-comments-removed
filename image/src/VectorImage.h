@@ -280,6 +280,12 @@ mHaveAnimations
 bool
 mHasPendingInvalidation
 ;
+nsAutoPtr
+<
+imgStatusTrackerInit
+>
+mStatusTrackerInit
+;
 friend
 class
 ImageFactory

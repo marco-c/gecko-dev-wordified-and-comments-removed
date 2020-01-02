@@ -1643,7 +1643,6 @@ aURI
 :
 ImageResource
 (
-aStatusTracker
 aURI
 )
 mSize
@@ -1751,6 +1750,15 @@ mScaleRequest
 nullptr
 )
 {
+mStatusTrackerInit
+=
+new
+imgStatusTrackerInit
+(
+this
+aStatusTracker
+)
+;
 mDiscardTrackerNode
 .
 img
@@ -1915,6 +1923,10 @@ UnlockImageData
 }
 delete
 mAnim
+;
+mAnim
+=
+nullptr
 ;
 delete
 mMultipartDecodedFrame

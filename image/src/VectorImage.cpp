@@ -1310,7 +1310,6 @@ aURI
 :
 ImageResource
 (
-aStatusTracker
 aURI
 )
 mIsInitialized
@@ -1334,6 +1333,15 @@ mHasPendingInvalidation
 false
 )
 {
+mStatusTrackerInit
+=
+new
+imgStatusTrackerInit
+(
+this
+aStatusTracker
+)
+;
 }
 VectorImage
 :

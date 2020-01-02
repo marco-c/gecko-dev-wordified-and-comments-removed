@@ -1617,6 +1617,12 @@ ScaleRequest
 *
 mScaleRequest
 ;
+nsAutoPtr
+<
+imgStatusTrackerInit
+>
+mStatusTrackerInit
+;
 nsresult
 ShutdownDecoder
 (

@@ -497,6 +497,8 @@ GetOwner
 mTimedChannel
 ;
 }
+already_AddRefed
+<
 mozilla
 :
 :
@@ -504,8 +506,14 @@ image
 :
 :
 Image
-*
+>
 GetImage
+(
+)
+const
+;
+bool
+HasImage
 (
 )
 const
