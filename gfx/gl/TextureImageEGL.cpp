@@ -869,7 +869,7 @@ bool
 TextureImageEGL
 :
 :
-DirectUpdate
+DeprecatedDirectUpdate
 (
 gfxASurface
 *

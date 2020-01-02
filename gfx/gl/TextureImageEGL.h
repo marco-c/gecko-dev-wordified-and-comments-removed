@@ -96,7 +96,7 @@ EndUpdate
 ;
 virtual
 bool
-DirectUpdate
+DeprecatedDirectUpdate
 (
 gfxASurface
 *

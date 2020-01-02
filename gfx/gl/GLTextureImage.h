@@ -353,7 +353,7 @@ MarkValid
 }
 virtual
 bool
-DirectUpdate
+DeprecatedDirectUpdate
 (
 gfxASurface
 *
@@ -743,7 +743,7 @@ EndUpdate
 ;
 virtual
 bool
-DirectUpdate
+DeprecatedDirectUpdate
 (
 gfxASurface
 *
@@ -1016,7 +1016,7 @@ GetTextureID
 }
 virtual
 bool
-DirectUpdate
+DeprecatedDirectUpdate
 (
 gfxASurface
 *
