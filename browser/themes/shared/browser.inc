@@ -170,6 +170,10 @@ email
 link
 -
 button
+#
+sidebar
+-
+button
 %
 define
 inAnyPanel

@@ -5661,7 +5661,7 @@ menuseparator
 )
 SocialSidebar
 .
-_populateProviderMenu
+populateProviderMenu
 (
 providerMenuSeps
 [
@@ -5733,7 +5733,7 @@ previousSibling
 }
 }
 }
-_populateProviderMenu
+populateProviderMenu
 :
 function
 (
