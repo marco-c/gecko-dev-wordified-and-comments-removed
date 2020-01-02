@@ -330,10 +330,10 @@ OpenCallback
 (
 NEW
 "
-a1m
+b1m
 "
 "
-a1d
+b1d
 "
 function
 (
@@ -364,10 +364,10 @@ OpenCallback
 (
 NORMAL
 "
-a1m
+b1m
 "
 "
-a1d
+b1d
 "
 function
 (
