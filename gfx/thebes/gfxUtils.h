@@ -25,13 +25,6 @@ imgIContainer
 .
 h
 "
-#
-include
-"
-Units
-.
-h
-"
 class
 gfxDrawable
 ;
@@ -301,10 +294,7 @@ aData
 gfxImageFormat
 &
 aSuggestedFormat
-mozilla
-:
-:
-LayerIntSize
+gfxIntSize
 &
 aSuggestedSize
 )
@@ -328,10 +318,7 @@ gfxImageFormat
 &
 aDestFormat
 const
-mozilla
-:
-:
-LayerIntSize
+gfxIntSize
 &
 aDestSize
 unsigned

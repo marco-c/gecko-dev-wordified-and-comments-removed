@@ -184,15 +184,6 @@ layers
 :
 TextureInfo
 ;
-using
-mozilla
-:
-:
-gfx
-:
-:
-IntSize
-;
 /
 *
 *
@@ -467,7 +458,7 @@ texture
 sync
 PGrallocBuffer
 (
-IntSize
+gfxIntSize
 size
 uint32_t
 format

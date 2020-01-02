@@ -811,7 +811,7 @@ format
 =
 gfxImageFormatRGB24
 ;
-LayerIntSize
+gfxIntSize
 size
 ;
 gfxUtils
@@ -868,14 +868,7 @@ mThebesImage
 new
 gfxImageSurface
 (
-ThebesIntSize
-(
 size
-.
-ToUnknownSize
-(
-)
-)
 format
 )
 ;

@@ -4108,10 +4108,7 @@ img
 return
 ;
 }
-gfx
-:
-:
-IntSize
+gfxIntSize
 size
 =
 img
@@ -5758,7 +5755,7 @@ data
 .
 mYSize
 =
-LayerIntSize
+gfxIntSize
 (
 width_
 height_
@@ -5816,7 +5813,7 @@ data
 .
 mCbCrSize
 =
-LayerIntSize
+gfxIntSize
 (
 width_
 /
@@ -5842,7 +5839,7 @@ data
 .
 mPicSize
 =
-LayerIntSize
+gfxIntSize
 (
 width_
 height_

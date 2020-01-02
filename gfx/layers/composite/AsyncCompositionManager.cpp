@@ -3411,10 +3411,7 @@ Translate
 overscrollTranslation
 )
 ;
-gfx
-:
-:
-Size
+gfxSize
 underZoomScale
 (
 1

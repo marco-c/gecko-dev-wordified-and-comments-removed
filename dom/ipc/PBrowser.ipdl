@@ -246,6 +246,9 @@ using
 gfxMatrix
 ;
 using
+gfxSize
+;
+using
 CSSRect
 ;
 using

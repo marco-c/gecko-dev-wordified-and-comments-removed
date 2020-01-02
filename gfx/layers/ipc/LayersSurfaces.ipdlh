@@ -260,7 +260,7 @@ shareType
 SharedTextureHandle
 handle
 ;
-IntSize
+nsIntSize
 size
 ;
 bool

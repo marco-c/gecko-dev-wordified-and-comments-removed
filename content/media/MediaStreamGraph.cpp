@@ -5467,7 +5467,7 @@ data
 .
 mCbCrSize
 =
-LayerIntSize
+gfxIntSize
 (
 1
 1

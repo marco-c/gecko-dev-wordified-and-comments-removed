@@ -867,10 +867,7 @@ container
 return
 nullptr
 ;
-gfx
-:
-:
-IntSize
+gfxIntSize
 frameSize
 =
 container

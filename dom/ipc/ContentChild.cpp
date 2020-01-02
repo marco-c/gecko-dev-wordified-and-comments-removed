@@ -5267,10 +5267,7 @@ ContentChild
 RecvScreenSizeChanged
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 size
 )

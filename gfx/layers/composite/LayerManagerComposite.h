@@ -429,7 +429,7 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-LayerIntSize
+gfxIntSize
 &
 aSize
 )

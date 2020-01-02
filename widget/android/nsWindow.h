@@ -14,11 +14,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-Point
+gfxPoint
 .
 h
 "
@@ -137,13 +133,7 @@ ae
 )
 ;
 static
-mozilla
-:
-:
-gfx
-:
-:
-IntSize
+gfxIntSize
 GetAndroidScreenBounds
 (
 )

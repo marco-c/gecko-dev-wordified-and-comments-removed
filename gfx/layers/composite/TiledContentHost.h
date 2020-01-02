@@ -47,6 +47,13 @@ h
 #
 include
 "
+gfxPoint
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -470,7 +477,7 @@ nsIntRegion
 &
 aInvalidateRegion
 const
-LayerSize
+gfxSize
 &
 aResolution
 )
@@ -488,7 +495,7 @@ TiledTexture
 ;
 }
 const
-LayerSize
+gfxSize
 &
 GetFrameResolution
 (
@@ -568,7 +575,7 @@ BasicTiledLayerBuffer
 *
 mMainMemoryTiledBuffer
 ;
-LayerSize
+gfxSize
 mFrameResolution
 ;
 }

@@ -243,13 +243,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-"
-gfx2DGlue
-.
-h
-"
 using
 namespace
 base
@@ -705,10 +698,7 @@ ImageBridgeParent
 AllocPGrallocBufferParent
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 aSize
 const
@@ -733,10 +723,7 @@ GrallocBufferActor
 :
 Create
 (
-ThebesIntSize
-(
 aSize
-)
 aFormat
 aUsage
 aOutHandle

@@ -1646,7 +1646,7 @@ mContainer
 GraphicsFilter
 mFilter
 ;
-LayerIntSize
+gfxIntSize
 mScaleToSize
 ;
 ScaleMode

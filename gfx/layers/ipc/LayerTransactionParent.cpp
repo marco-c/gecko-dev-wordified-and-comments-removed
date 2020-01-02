@@ -290,13 +290,6 @@ GeckoProfiler
 .
 h
 "
-#
-include
-"
-gfx2DGlue
-.
-h
-"
 typedef
 std
 :
@@ -3266,10 +3259,7 @@ LayerTransactionParent
 AllocPGrallocBufferParent
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 aSize
 const
@@ -3294,10 +3284,7 @@ GrallocBufferActor
 :
 Create
 (
-ThebesIntSize
-(
 aSize
-)
 aFormat
 aUsage
 aOutHandle

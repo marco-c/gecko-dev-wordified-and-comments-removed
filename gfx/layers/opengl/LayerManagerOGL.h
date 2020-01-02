@@ -419,7 +419,7 @@ bool
 CanUseCanvasLayerForSize
 (
 const
-LayerIntSize
+gfxIntSize
 &
 aSize
 )
@@ -443,7 +443,7 @@ return
 aSize
 <
 =
-LayerIntSize
+gfxIntSize
 (
 maxSize
 maxSize
@@ -1510,10 +1510,7 @@ LoadAsTexture
 (
 GLuint
 aTextureUnit
-gfx
-:
-:
-IntSize
+gfxIntSize
 *
 aSize
 )

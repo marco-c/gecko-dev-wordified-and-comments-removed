@@ -184,10 +184,7 @@ PGrallocBufferParent
 AllocPGrallocBufferParent
 (
 const
-gfx
-:
-:
-IntSize
+gfxIntSize
 &
 const
 uint32_t
