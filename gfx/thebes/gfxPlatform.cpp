@@ -2047,18 +2047,6 @@ Shutdown
 (
 )
 ;
-#
-if
-defined
-(
-XP_MACOSX
-)
-|
-|
-defined
-(
-XP_WIN
-)
 gfxPlatformFontList
 :
 :
@@ -2066,8 +2054,6 @@ Shutdown
 (
 )
 ;
-#
-endif
 ShutdownCMS
 (
 )

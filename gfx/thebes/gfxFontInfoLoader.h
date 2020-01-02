@@ -473,6 +473,11 @@ mState
 stateInitial
 )
 {
+MOZ_COUNT_CTOR
+(
+gfxFontInfoLoader
+)
+;
 }
 virtual
 ~

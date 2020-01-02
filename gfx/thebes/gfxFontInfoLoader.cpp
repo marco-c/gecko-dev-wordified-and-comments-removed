@@ -38,9 +38,6 @@ namespace
 mozilla
 ;
 using
-mozilla
-:
-:
 services
 :
 :
@@ -726,6 +723,11 @@ gfxFontInfoLoader
 {
 RemoveShutdownObserver
 (
+)
+;
+MOZ_COUNT_DTOR
+(
+gfxFontInfoLoader
 )
 ;
 }
