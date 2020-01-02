@@ -87537,7 +87537,26 @@ callSetup
 "
 eRethrowContentExceptions
 aCompartment
+/
+*
+aIsJSImplementedWebIDL
+=
+*
+/
 "
+            
+callSetup
++
+=
+toStringBool
+(
+isJSImplementedDescriptor
+(
+self
+.
+descriptorProvider
+)
+)
         
 else
 :
