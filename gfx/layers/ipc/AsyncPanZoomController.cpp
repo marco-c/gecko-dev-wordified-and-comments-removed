@@ -965,7 +965,7 @@ gTouchStartTolerance
 .
 0f
 /
-16
+2
 .
 0f
 ;
