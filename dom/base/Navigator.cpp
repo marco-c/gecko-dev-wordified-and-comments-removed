@@ -7390,6 +7390,8 @@ mobileconnection
 )
 ;
 }
+#
+endif
 bool
 Navigator
 :
@@ -7465,8 +7467,6 @@ ALLOW_ACTION
 permission
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_B2G_BT
