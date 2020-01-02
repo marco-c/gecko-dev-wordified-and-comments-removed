@@ -669,6 +669,9 @@ mDeferredStartSampling
 bool
 mRunningSample
 ;
+bool
+mRegisteredWithRefreshDriver
+;
 nsIDocument
 *
 mDocument
