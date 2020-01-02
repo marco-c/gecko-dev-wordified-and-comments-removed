@@ -445,6 +445,12 @@ nsIGeolocationProvider
 >
 mNetworkLocationProvider
 ;
+nsCOMPtr
+<
+nsIDOMGeoPositionCoords
+>
+mLastMLSPosition
+;
 class
 NetworkLocationUpdate
 :
