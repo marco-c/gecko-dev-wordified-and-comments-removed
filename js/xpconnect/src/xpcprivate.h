@@ -4035,6 +4035,9 @@ SOW
 ;
 }
 class
+nsXPCComponentsBase
+;
+class
 XPCWrappedNativeScope
 :
 public
@@ -4095,7 +4098,7 @@ return
 mWrappedNativeProtoMap
 ;
 }
-nsXPCComponents
+nsXPCComponentsBase
 *
 GetComponents
 (
@@ -4618,7 +4621,7 @@ mWrappedNativeProtoMap
 ;
 nsRefPtr
 <
-nsXPCComponents
+nsXPCComponentsBase
 >
 mComponents
 ;
