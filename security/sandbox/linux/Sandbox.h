@@ -10,6 +10,11 @@ mozilla
 #
 ifdef
 MOZ_CONTENT_SANDBOX
+bool
+CanSandboxContentProcess
+(
+)
+;
 void
 SetContentProcessSandbox
 (
@@ -20,6 +25,11 @@ endif
 #
 ifdef
 MOZ_GMP_SANDBOX
+bool
+CanSandboxMediaPlugin
+(
+)
+;
 void
 SetMediaPluginSandbox
 (
