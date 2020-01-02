@@ -203,6 +203,7 @@ e
 var
 fr
 =
+new
 FileReader
 (
 )

@@ -1242,6 +1242,7 @@ utils
 evalInSandbox
 (
 "
+new
 XMLHttpRequest
 (
 )
@@ -1296,6 +1297,7 @@ ok
 false
 "
 '
+new
 XMLHttpRequest
 (
 )
@@ -1307,6 +1309,9 @@ throw
 in
 a
 sandbox
+(
+1
+)
 "
 )
 ;
@@ -1340,6 +1345,7 @@ Failed
 ;
 }
 ;
+new
 XMLHttpRequest
 (
 )
@@ -1410,6 +1416,9 @@ throw
 in
 a
 sandbox
+(
+2
+)
 "
 )
 ;

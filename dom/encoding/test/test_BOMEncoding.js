@@ -2440,6 +2440,7 @@ fatal
 in
 test
 ?
+new
 TextDecoder
 (
 test
@@ -2454,6 +2455,7 @@ fatal
 }
 )
 :
+new
 TextDecoder
 (
 test

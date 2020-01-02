@@ -3651,6 +3651,7 @@ ContentScriptScope
 {
 assert
 (
+new
 window
 .
 XMLHttpRequest

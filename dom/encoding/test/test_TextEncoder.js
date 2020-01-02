@@ -1088,11 +1088,14 @@ null
 ;
 outText
 =
+(
+new
 TextEncoder
 (
 test
 .
 encoding
+)
 )
 .
 encode
@@ -1997,6 +2000,7 @@ try
 {
 encoder
 =
+new
 TextEncoder
 (
 test
@@ -2279,6 +2283,7 @@ labels
 var
 encoder
 =
+new
 TextEncoder
 (
 label
