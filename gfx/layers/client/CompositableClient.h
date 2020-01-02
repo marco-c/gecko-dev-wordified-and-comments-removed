@@ -110,9 +110,6 @@ class
 SurfaceDescriptor
 ;
 class
-TextureClientData
-;
-class
 PCompositableChild
 ;
 class

@@ -111,14 +111,6 @@ GetSize
 const
 ;
 virtual
-TextureClientData
-*
-DropTextureData
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 bool
 HasInternalBuffer
 (
