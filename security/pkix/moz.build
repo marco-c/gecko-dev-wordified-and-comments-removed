@@ -189,14 +189,9 @@ if
 CONFIG
 [
 '
-MOZ_WIDGET_TOOLKIT
+_MSC_VER
 '
 ]
-=
-=
-'
-windows
-'
 :
 CXXFLAGS
 +
