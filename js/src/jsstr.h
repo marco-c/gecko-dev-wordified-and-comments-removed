@@ -1121,6 +1121,14 @@ StringHasRegExpMetaChars
 JSLinearString
 *
 str
+size_t
+beginOffset
+=
+0
+size_t
+endOffset
+=
+0
 )
 ;
 template
