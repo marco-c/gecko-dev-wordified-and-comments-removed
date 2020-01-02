@@ -382,6 +382,9 @@ class
 AsyncPanZoomController
 ;
 class
+ClientLayerManager
+;
+class
 CommonLayerAttributes
 ;
 class
@@ -620,6 +623,17 @@ virtual
 LayerManagerComposite
 *
 AsLayerManagerComposite
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+ClientLayerManager
+*
+AsClientLayerManager
 (
 )
 {
