@@ -1770,4 +1770,16 @@ key
 ;
 }
 }
+public
+String
+getEmail
+(
+)
+{
+return
+account
+.
+name
+;
+}
 }

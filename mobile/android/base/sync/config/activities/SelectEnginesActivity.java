@@ -276,6 +276,7 @@ protected
 SharedPreferences
 accountPrefs
 ;
+Override
 public
 void
 onCreate
@@ -613,6 +614,7 @@ show
 ;
 }
 private
+static
 Set
 <
 String
@@ -657,7 +659,8 @@ return
 engines
 ;
 }
-private
+public
+static
 Set
 <
 String
