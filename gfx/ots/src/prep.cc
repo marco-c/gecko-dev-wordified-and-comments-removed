@@ -140,9 +140,6 @@ return
 false
 ;
 return
-g_transcode_hints
-&
-&
 file
 -
 >

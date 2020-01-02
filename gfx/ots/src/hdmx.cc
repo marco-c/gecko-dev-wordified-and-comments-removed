@@ -28,6 +28,11 @@ hdmx
 #
 define
 DROP_THIS_TABLE
+(
+.
+.
+.
+)
 \
 do
 {
@@ -45,6 +50,17 @@ file
 hdmx
 =
 0
+;
+\
+OTS_FAILURE_MSG_
+(
+file
+TABLE_NAME
+"
+:
+"
+__VA_ARGS__
+)
 ;
 \
 OTS_FAILURE_MSG
@@ -155,7 +171,7 @@ flags
 0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 the
@@ -182,8 +198,6 @@ not
 set
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -254,7 +268,7 @@ version
 0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -269,8 +283,6 @@ hdmx
 version
 )
 ;
-DROP_THIS_TABLE
-;
 return
 true
 ;
@@ -283,7 +295,7 @@ num_recs
 0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -294,8 +306,6 @@ d
 "
 num_recs
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -325,7 +335,7 @@ size_device_record
 actual_size_device_record
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -342,8 +352,6 @@ hdmx
 >
 size_device_record
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -483,7 +491,7 @@ last_pixel_size
 )
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 records
@@ -492,8 +500,6 @@ not
 sorted
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true

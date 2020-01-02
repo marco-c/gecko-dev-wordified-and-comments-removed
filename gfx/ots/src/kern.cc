@@ -14,6 +14,9 @@ kern
 #
 define
 DROP_THIS_TABLE
+(
+msg_
+)
 \
 do
 {
@@ -35,8 +38,9 @@ kern
 \
 OTS_FAILURE_MSG
 (
+msg_
 "
-Table
+table
 discarded
 "
 )
@@ -139,6 +143,13 @@ version
 )
 {
 DROP_THIS_TABLE
+(
+"
+bad
+table
+version
+"
+)
 ;
 return
 true
@@ -152,7 +163,7 @@ num_tables
 0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 num_tables
@@ -160,8 +171,6 @@ is
 zero
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -385,7 +394,7 @@ coverage
 0xF0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 Reserved
@@ -397,8 +406,6 @@ filled
 .
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -522,7 +529,7 @@ if
 num_pairs
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 Zero
@@ -533,8 +540,6 @@ found
 .
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -557,7 +562,7 @@ kFormat0PairSize
 )
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 Too
@@ -566,8 +571,6 @@ subtable
 .
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -827,7 +830,7 @@ current_pair
 last_pair
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 Kerning
@@ -838,8 +841,6 @@ sorted
 .
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -883,7 +884,7 @@ size
 )
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 All
@@ -893,8 +894,6 @@ removed
 .
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true

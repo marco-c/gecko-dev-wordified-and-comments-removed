@@ -14,6 +14,11 @@ gasp
 #
 define
 DROP_THIS_TABLE
+(
+.
+.
+.
+)
 \
 do
 {
@@ -31,6 +36,17 @@ file
 gasp
 =
 0
+;
+\
+OTS_FAILURE_MSG_
+(
+file
+TABLE_NAME
+"
+:
+"
+__VA_ARGS__
+)
 ;
 \
 OTS_FAILURE_MSG
@@ -138,7 +154,7 @@ version
 1
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 bad
@@ -153,8 +169,6 @@ gasp
 version
 )
 ;
-DROP_THIS_TABLE
-;
 return
 true
 ;
@@ -167,7 +181,7 @@ num_ranges
 0
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 num_ranges
@@ -175,8 +189,6 @@ is
 zero
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -282,7 +294,7 @@ max_ppem
 )
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 ranges
@@ -291,8 +303,6 @@ not
 sorted
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
@@ -318,7 +328,7 @@ max_ppem
 )
 )
 {
-OTS_WARNING
+DROP_THIS_TABLE
 (
 "
 The
@@ -337,8 +347,6 @@ for
 rangeMaxPPEM
 "
 )
-;
-DROP_THIS_TABLE
 ;
 return
 true
