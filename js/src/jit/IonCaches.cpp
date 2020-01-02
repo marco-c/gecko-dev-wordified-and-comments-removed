@@ -3177,9 +3177,6 @@ attacher
 JSObject
 *
 obj
-PropertyName
-*
-name
 JSObject
 *
 holder
@@ -5629,7 +5626,6 @@ ion
 masm
 attacher
 obj
-name
 holder
 shape
 object
@@ -8518,9 +8514,6 @@ ion
 masm
 attacher
 obj
-name
-(
-)
 holder
 shape
 object
@@ -13690,7 +13683,6 @@ ion
 masm
 attacher
 obj
-name
 holder
 shape
 object
@@ -17650,7 +17642,6 @@ ion
 masm
 attacher
 obj
-name
 holder
 shape
 object
