@@ -45,6 +45,16 @@ browser
 ini
 '
 ]
+METRO_CHROME_MANIFESTS
++
+=
+[
+'
+metro
+.
+ini
+'
+]
 MOCHITEST_MANIFESTS
 +
 =
