@@ -53,6 +53,12 @@ requestLongerTimeout
 10
 )
 ;
+PopupNotifications
+.
+transitionsEnabled
+=
+false
+;
 removePermission
 (
 testPageURL
@@ -302,6 +308,12 @@ removeCurrentTab
 unregisterAllPopupEventHandlers
 (
 )
+;
+PopupNotifications
+.
+transitionsEnabled
+=
+true
 ;
 executeSoon
 (

@@ -601,6 +601,16 @@ panel
 setAttribute
 (
 "
+animate
+"
+false
+)
+;
+panel
+.
+setAttribute
+(
+"
 consumeoutsideclicks
 "
 options

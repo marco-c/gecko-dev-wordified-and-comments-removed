@@ -48,6 +48,12 @@ waitForExplicitFinish
 (
 )
 ;
+PopupNotifications
+.
+transitionsEnabled
+=
+false
+;
 setPermission
 (
 testPageURL
@@ -399,6 +405,12 @@ testPageURL
 indexedDB
 "
 )
+;
+PopupNotifications
+.
+transitionsEnabled
+=
+true
 ;
 executeSoon
 (
