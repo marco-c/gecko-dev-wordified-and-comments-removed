@@ -487,12 +487,6 @@ MIRGraph
 *
 graph
 ;
-JS
-:
-:
-HandleScript
-function
-;
 C1Spewer
 c1Spewer
 ;
@@ -511,12 +505,6 @@ IonSpewer
 graph
 (
 nullptr
-)
-function
-(
-NullPtr
-(
-)
 )
 inited_
 (
