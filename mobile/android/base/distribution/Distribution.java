@@ -326,8 +326,8 @@ util
 .
 Log
 ;
+RobocopTarget
 public
-final
 class
 Distribution
 {
@@ -561,7 +561,8 @@ MAX_DOWNLOAD_TIME_MSEC
 =
 40000
 ;
-private
+RobocopTarget
+protected
 static
 volatile
 ReferrerDescriptor
@@ -647,6 +648,7 @@ return
 instance
 ;
 }
+RobocopTarget
 public
 static
 class
@@ -995,6 +997,7 @@ prefsPath
 )
 ;
 }
+RobocopTarget
 public
 static
 void
@@ -1494,7 +1497,8 @@ null
 ;
 }
 }
-private
+RobocopTarget
+protected
 boolean
 doInit
 (
@@ -2070,7 +2074,16 @@ v
 )
 ;
 }
-private
+SuppressWarnings
+(
+"
+static
+-
+method
+"
+)
+RobocopTarget
+protected
 JarInputStream
 fetchDistribution
 (
