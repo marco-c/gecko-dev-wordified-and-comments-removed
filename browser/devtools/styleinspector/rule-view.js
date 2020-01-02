@@ -8498,6 +8498,13 @@ colorPicker
 .
 eyedropperOpen
 )
+|
+|
+this
+.
+popup
+.
+isOpen
 ;
 }
 _create
