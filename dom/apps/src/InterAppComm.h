@@ -46,7 +46,6 @@ Handle
 JSObject
 *
 >
-aObj
 )
 ;
 }

@@ -10098,17 +10098,6 @@ nullptr
 }
 ;
 bool
-ThreadsafeCheckIsChrome
-(
-JSContext
-*
-aCx
-JSObject
-*
-aObj
-)
-;
-bool
 IsInPrivilegedApp
 (
 JSContext

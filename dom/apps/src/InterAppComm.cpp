@@ -65,7 +65,6 @@ Handle
 JSObject
 *
 >
-aObj
 )
 {
 if
@@ -98,15 +97,11 @@ false
 ;
 }
 return
-xpc
+nsContentUtils
 :
 :
-AccessCheck
-:
-:
-isChrome
+ThreadsafeIsCallerChrome
 (
-aObj
 )
 ;
 }
