@@ -48,12 +48,6 @@ nsBulletListener
 (
 )
 ;
-virtual
-~
-nsBulletListener
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_IMGINOTIFICATIONOBSERVER
 void
@@ -71,6 +65,12 @@ frame
 }
 private
 :
+virtual
+~
+nsBulletListener
+(
+)
+;
 nsBulletFrame
 *
 mFrame

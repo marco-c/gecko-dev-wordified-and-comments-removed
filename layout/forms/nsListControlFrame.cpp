@@ -314,6 +314,12 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
 private
 :
+~
+nsListEventListener
+(
+)
+{
+}
 nsListControlFrame
 *
 mFrame

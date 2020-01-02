@@ -227,6 +227,14 @@ nsSplitterFrameInner
 public
 nsIDOMEventListener
 {
+protected
+:
+virtual
+~
+nsSplitterFrameInner
+(
+)
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -247,12 +255,6 @@ mPressed
 false
 ;
 }
-virtual
-~
-nsSplitterFrameInner
-(
-)
-;
 void
 Disconnect
 (

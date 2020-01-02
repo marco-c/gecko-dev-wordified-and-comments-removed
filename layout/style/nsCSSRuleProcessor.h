@@ -133,12 +133,6 @@ Element
 aScopeElement
 )
 ;
-virtual
-~
-nsCSSRuleProcessor
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
@@ -567,6 +561,14 @@ nsCSSSelector
 mSelector
 ;
 }
+;
+protected
+:
+virtual
+~
+nsCSSRuleProcessor
+(
+)
 ;
 private
 :

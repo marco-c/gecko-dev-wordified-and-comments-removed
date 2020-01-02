@@ -218,6 +218,12 @@ aRequest
 ;
 private
 :
+~
+ImageLoader
+(
+)
+{
+}
 typedef
 nsTArray
 <

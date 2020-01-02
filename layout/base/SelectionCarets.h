@@ -101,12 +101,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
-~
-SelectionCarets
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISELECTIONLISTENER
 virtual
@@ -163,6 +157,12 @@ sSelectionCaretsInflateSize
 }
 private
 :
+virtual
+~
+SelectionCarets
+(
+)
+;
 SelectionCarets
 (
 )

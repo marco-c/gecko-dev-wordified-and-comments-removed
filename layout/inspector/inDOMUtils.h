@@ -45,14 +45,14 @@ inDOMUtils
 (
 )
 ;
+private
+:
 virtual
 ~
 inDOMUtils
 (
 )
 ;
-private
-:
 static
 nsresult
 GetRuleNodeForElement

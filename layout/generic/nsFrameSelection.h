@@ -976,6 +976,12 @@ aOffset
 ;
 private
 :
+~
+nsFrameSelection
+(
+)
+{
+}
 nsresult
 TakeFocus
 (

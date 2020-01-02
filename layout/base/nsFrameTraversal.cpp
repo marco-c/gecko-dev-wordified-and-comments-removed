@@ -57,13 +57,6 @@ ChildListID
 ;
 NS_DECL_ISUPPORTS
 virtual
-~
-nsFrameIterator
-(
-)
-{
-}
-virtual
 void
 First
 (
@@ -124,6 +117,13 @@ aFollowOOFs
 ;
 protected
 :
+virtual
+~
+nsFrameIterator
+(
+)
+{
+}
 void
 setCurrent
 (

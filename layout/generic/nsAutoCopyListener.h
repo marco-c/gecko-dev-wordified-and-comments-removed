@@ -113,6 +113,12 @@ sInstance
 }
 private
 :
+~
+nsAutoCopyListener
+(
+)
+{
+}
 static
 nsAutoCopyListener
 *

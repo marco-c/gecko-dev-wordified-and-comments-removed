@@ -58,12 +58,6 @@ nsMenuBarFrame
 aMenuBar
 )
 ;
-virtual
-~
-nsMenuBarListener
-(
-)
-;
 static
 void
 InitializeStatics
@@ -140,6 +134,12 @@ event
 ;
 protected
 :
+virtual
+~
+nsMenuBarListener
+(
+)
+;
 static
 void
 InitAccessKey

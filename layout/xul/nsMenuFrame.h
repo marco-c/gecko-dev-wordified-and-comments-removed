@@ -144,11 +144,6 @@ nsMenuFrame
 aFrame
 )
 ;
-~
-nsMenuTimerMediator
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 void
@@ -158,6 +153,11 @@ ClearFrame
 ;
 private
 :
+~
+nsMenuTimerMediator
+(
+)
+;
 nsMenuFrame
 *
 mFrame

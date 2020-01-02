@@ -16652,6 +16652,12 @@ NS_OK
 }
 private
 :
+~
+PaintTimerCallBack
+(
+)
+{
+}
 PresShell
 *
 mShell

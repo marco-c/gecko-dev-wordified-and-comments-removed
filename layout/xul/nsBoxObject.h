@@ -100,12 +100,6 @@ nsBoxObject
 )
 ;
 virtual
-~
-nsBoxObject
-(
-)
-;
-virtual
 nsresult
 Init
 (
@@ -179,6 +173,12 @@ aResult
 ;
 protected
 :
+virtual
+~
+nsBoxObject
+(
+)
+;
 nsAutoPtr
 <
 nsInterfaceHashtable

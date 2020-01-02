@@ -131,6 +131,16 @@ MOZ_FINAL
 public
 nsIDOMEventListener
 {
+private
+:
+~
+MouseListener
+(
+)
+{
+}
+public
+:
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
 MouseListener

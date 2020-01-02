@@ -63,11 +63,6 @@ nsITreeBoxObject
 aTree
 )
 ;
-~
-nsTreeSelection
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
@@ -90,6 +85,11 @@ nsTreeRange
 ;
 protected
 :
+~
+nsTreeSelection
+(
+)
+;
 nsresult
 FireOnSelectHandler
 (

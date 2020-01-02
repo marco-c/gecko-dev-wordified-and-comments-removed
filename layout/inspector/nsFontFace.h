@@ -49,12 +49,6 @@ uint8_t
 aMatchInfo
 )
 ;
-virtual
-~
-nsFontFace
-(
-)
-;
 gfxFontEntry
 *
 GetFontEntry
@@ -85,6 +79,12 @@ aMatchType
 }
 protected
 :
+virtual
+~
+nsFontFace
+(
+)
+;
 nsRefPtr
 <
 gfxFontEntry

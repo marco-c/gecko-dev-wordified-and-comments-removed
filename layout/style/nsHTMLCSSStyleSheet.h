@@ -52,11 +52,6 @@ nsHTMLCSSStyleSheet
 (
 )
 ;
-~
-nsHTMLCSSStyleSheet
-(
-)
-;
 NS_DECL_ISUPPORTS
 virtual
 void
@@ -217,6 +212,11 @@ aSerialized
 ;
 private
 :
+~
+nsHTMLCSSStyleSheet
+(
+)
+;
 nsHTMLCSSStyleSheet
 (
 const
