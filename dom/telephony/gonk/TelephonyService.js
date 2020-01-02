@@ -4123,7 +4123,7 @@ aCall
 .
 numberPresentation
 :
-nsITelephonyProvider
+nsITelephonyService
 .
 CALL_PRESENTATION_ALLOWED
 ;
@@ -4160,7 +4160,7 @@ aCall
 .
 namePresentation
 :
-nsITelephonyProvider
+nsITelephonyService
 .
 CALL_PRESENTATION_ALLOWED
 ;
