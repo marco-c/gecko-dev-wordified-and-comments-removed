@@ -1029,8 +1029,6 @@ MayHaveTouchCaret
 MOZ_OVERRIDE
 ;
 virtual
-NS_HIDDEN_
-(
 already_AddRefed
 <
 mozilla
@@ -1038,7 +1036,6 @@ mozilla
 :
 SelectionCarets
 >
-)
 GetSelectionCarets
 (
 )
@@ -1046,8 +1043,6 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-NS_HIDDEN_
-(
 mozilla
 :
 :
@@ -1056,7 +1051,6 @@ dom
 :
 Element
 *
-)
 GetSelectionCaretsStartElement
 (
 )
@@ -1064,8 +1058,6 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-NS_HIDDEN_
-(
 mozilla
 :
 :
@@ -1074,7 +1066,6 @@ dom
 :
 Element
 *
-)
 GetSelectionCaretsEndElement
 (
 )
