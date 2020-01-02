@@ -137,6 +137,11 @@ Telemetry
 .
 h
 '
+'
+ThreadHangStats
+.
+h
+'
 ]
 SOURCES
 +
