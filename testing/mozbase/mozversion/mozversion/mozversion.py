@@ -1041,6 +1041,33 @@ gaia_date
 =
 date
         
+except
+KeyError
+:
+                
+self
+.
+warn
+(
+'
+Unable
+to
+find
+resources
+/
+gaia_commit
+.
+txt
+in
+'
+                          
+'
+application
+.
+zip
+'
+)
+        
 finally
 :
             
