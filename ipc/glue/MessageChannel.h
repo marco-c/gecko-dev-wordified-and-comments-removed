@@ -131,6 +131,14 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 RefCountedMonitor
 )
+private
+:
+~
+RefCountedMonitor
+(
+)
+{
+}
 }
 ;
 class
@@ -1193,6 +1201,8 @@ aTask
 )
 {
 }
+private
+:
 ~
 RefCountedTask
 (
@@ -1202,6 +1212,8 @@ delete
 mTask
 ;
 }
+public
+:
 void
 Run
 (
