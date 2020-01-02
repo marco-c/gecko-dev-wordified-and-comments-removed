@@ -449,6 +449,12 @@ OPEN_WRITE_ONLY
 return
 ;
 }
+bool
+updated
+=
+false
+;
+{
 RefPtr
 <
 DrawTarget
@@ -480,6 +486,11 @@ UpdateTarget
 drawTarget
 )
 ;
+updated
+=
+true
+;
+}
 }
 mBuffer
 -
@@ -509,7 +520,7 @@ return
 }
 if
 (
-drawTarget
+updated
 )
 {
 GetForwarder
