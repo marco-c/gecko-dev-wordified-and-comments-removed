@@ -4430,8 +4430,17 @@ str
 bool
 shouldResolve
 =
-false
+JSID_IS_VOID
+(
+aId
+)
 ;
+if
+(
+!
+shouldResolve
+)
+{
 for
 (
 uint32_t
@@ -4465,6 +4474,7 @@ true
 ;
 break
 ;
+}
 }
 }
 if
