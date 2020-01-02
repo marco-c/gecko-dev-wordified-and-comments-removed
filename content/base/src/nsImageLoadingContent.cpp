@@ -226,8 +226,11 @@ ScriptSettings
 h
 "
 #
-ifdef
-LoadImage
+if
+defined
+(
+XP_WIN
+)
 #
 undef
 LoadImage

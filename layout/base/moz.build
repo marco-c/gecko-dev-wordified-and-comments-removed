@@ -336,11 +336,6 @@ mozilla
 =
 [
 '
-GeometryUtils
-.
-h
-'
-'
 PaintTracker
 .
 h
@@ -372,11 +367,6 @@ cpp
 '
 '
 FramePropertyTable
-.
-cpp
-'
-'
-GeometryUtils
 .
 cpp
 '
