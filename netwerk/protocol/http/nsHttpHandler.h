@@ -304,6 +304,15 @@ return
 mSpdyTimeout
 ;
 }
+PRIntervalTime
+ResponseTimeout
+(
+)
+{
+return
+mResponseTimeout
+;
+}
 uint16_t
 MaxRequestAttempts
 (
@@ -1253,6 +1262,9 @@ mIdleTimeout
 ;
 PRIntervalTime
 mSpdyTimeout
+;
+PRIntervalTime
+mResponseTimeout
 ;
 uint16_t
 mMaxRequestAttempts
