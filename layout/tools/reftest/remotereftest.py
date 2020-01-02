@@ -964,7 +964,7 @@ remoteTestRoot
 =
 self
 .
-automation
+_automation
 .
 _devicemanager
 .
@@ -1421,7 +1421,7 @@ scriptDir
         
 self
 .
-automation
+_automation
 =
 automation
         
@@ -1563,7 +1563,7 @@ env
 =
 self
 .
-automation
+_automation
 .
 environment
 (
@@ -1588,7 +1588,7 @@ warn
 if
 self
 .
-automation
+_automation
 .
 IS_WIN32
 :
@@ -1772,7 +1772,7 @@ xpcshell
 +
 self
 .
-automation
+_automation
 .
 BIN_SUFFIX
 )
@@ -1808,7 +1808,7 @@ xpcshell
 if
 self
 .
-automation
+_automation
 .
 elf_arm
 (
@@ -1864,7 +1864,7 @@ _process
 =
 self
 .
-automation
+_automation
 .
 Process
 (
@@ -1915,7 +1915,7 @@ return
         
 self
 .
-automation
+_automation
 .
 log
 .

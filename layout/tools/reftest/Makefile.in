@@ -288,14 +288,6 @@ py
 srcdir
 )
 /
-b2g_desktop
-.
-py
-\
-(
-srcdir
-)
-/
 b2g_start_script
 .
 js
