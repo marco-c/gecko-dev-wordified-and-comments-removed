@@ -2084,6 +2084,15 @@ filterNull
 )
 const
 ;
+TemporaryTypeSet
+*
+cloneObjectsOnly
+(
+LifoAlloc
+*
+alloc
+)
+;
 static
 void
 readBarrier
