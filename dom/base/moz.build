@@ -742,11 +742,6 @@ IndexedDBHelper
 .
 jsm
 '
-'
-ObjectWrapper
-.
-jsm
-'
 ]
 FAIL_ON_WARNINGS
 =
