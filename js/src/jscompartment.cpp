@@ -667,10 +667,9 @@ jitCompartment_
 return
 true
 ;
-JitRuntime
-*
-jitRuntime
-=
+if
+(
+!
 cx
 -
 >
@@ -683,11 +682,6 @@ getJitRuntime
 (
 cx
 )
-;
-if
-(
-!
-jitRuntime
 )
 return
 false
@@ -702,7 +696,6 @@ new_
 JitCompartment
 >
 (
-jitRuntime
 )
 ;
 if
