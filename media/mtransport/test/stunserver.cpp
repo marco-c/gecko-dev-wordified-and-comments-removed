@@ -465,6 +465,11 @@ TestStunServer
 (
 )
 {
+if
+(
+listen_sock_
+)
+{
 NR_SOCKET
 fd
 ;
@@ -485,6 +490,7 @@ fd
 NR_ASYNC_WAIT_READ
 )
 ;
+}
 }
 nr_stun_server_ctx_destroy
 (
