@@ -66,13 +66,6 @@ filter
 primitive
 .
 Setting
-filterRes
-on
-the
-<
-filter
->
-and
 kernelUnitLength
 on
 the
@@ -116,12 +109,6 @@ height
 =
 '
 1
-'
-filterRes
-=
-'
-100
-100
 '
 color
 -
