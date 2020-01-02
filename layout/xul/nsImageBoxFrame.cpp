@@ -491,7 +491,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsImageBoxFrame
 )
-NS_IMETHODIMP
+nsresult
 nsImageBoxFrame
 :
 :
@@ -2844,7 +2844,7 @@ imageBoxFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsImageBoxFrame
 :
 :

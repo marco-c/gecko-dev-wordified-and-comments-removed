@@ -20953,7 +20953,7 @@ nsTextFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -21676,7 +21676,7 @@ textRun
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -31488,7 +31488,7 @@ GetNextContinuation
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -31832,7 +31832,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -33850,7 +33850,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -33942,7 +33942,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -37575,7 +37575,7 @@ aPropertyValue
 }
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -41620,7 +41620,7 @@ ch
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTextFrame
 :
 :
@@ -41842,10 +41842,7 @@ endif
 #
 ifdef
 DEBUG
-NS_IMETHODIMP_
-(
 nsFrameState
-)
 nsTextFrame
 :
 :

@@ -1420,7 +1420,7 @@ aPadding
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGOuterSVGFrame
 :
 :
@@ -1959,7 +1959,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGOuterSVGFrame
 :
 :
@@ -2827,7 +2827,7 @@ ConvertsToLength
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGOuterSVGFrame
 :
 :

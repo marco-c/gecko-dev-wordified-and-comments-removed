@@ -450,7 +450,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsProgressFrame
 :
 :
@@ -1012,7 +1012,7 @@ yoffset
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsProgressFrame
 :
 :

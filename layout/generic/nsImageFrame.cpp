@@ -3414,7 +3414,7 @@ return
 mIntrinsicRatio
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :
@@ -7455,7 +7455,7 @@ return
 status
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :
@@ -7642,7 +7642,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :
@@ -7941,7 +7941,7 @@ aEventStatus
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :
@@ -8086,7 +8086,7 @@ aCursor
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :
@@ -8182,7 +8182,7 @@ imageFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :

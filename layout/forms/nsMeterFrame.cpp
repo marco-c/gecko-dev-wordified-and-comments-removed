@@ -434,7 +434,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame
 )
-NS_IMETHODIMP
+nsresult
 nsMeterFrame
 :
 :
@@ -1002,7 +1002,7 @@ yoffset
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMeterFrame
 :
 :

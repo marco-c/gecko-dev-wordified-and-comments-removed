@@ -463,7 +463,7 @@ nsBoxFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -2200,7 +2200,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -2487,7 +2487,7 @@ return
 result
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -3889,7 +3889,7 @@ aDestructRoot
 #
 ifdef
 DEBUG_LAYOUT
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -4029,7 +4029,7 @@ state
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -4129,7 +4129,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -4307,7 +4307,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -4478,7 +4478,7 @@ GetContentInsertionFrame
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -6511,7 +6511,7 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -6558,7 +6558,7 @@ boxFrame
 #
 ifdef
 DEBUG_LAYOUT
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :
@@ -8373,7 +8373,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsBoxFrame
 :
 :

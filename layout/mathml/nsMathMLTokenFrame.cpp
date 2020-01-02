@@ -390,7 +390,7 @@ NS_FRAME_IS_IN_SINGLE_CHAR_MI
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLTokenFrame
 :
 :
@@ -433,7 +433,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLTokenFrame
 :
 :
@@ -476,7 +476,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLTokenFrame
 :
 :

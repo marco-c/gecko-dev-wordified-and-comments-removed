@@ -1263,7 +1263,7 @@ return
 result
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListControlFrame
 :
 :
@@ -3291,7 +3291,7 @@ nullptr
 }
 }
 }
-NS_IMETHODIMP
+nsresult
 nsListControlFrame
 :
 :
@@ -3402,7 +3402,7 @@ aEventStatus
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListControlFrame
 :
 :
@@ -5360,7 +5360,7 @@ GetIndexOfDisplayArea
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsListControlFrame
 :
 :
@@ -5459,7 +5459,7 @@ listControlFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsListControlFrame
 :
 :

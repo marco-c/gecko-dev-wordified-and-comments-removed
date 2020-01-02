@@ -490,7 +490,7 @@ GetNextSibling
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsColumnSetFrame
 :
 :
@@ -4237,7 +4237,7 @@ aRunWasFeasible
 feasible
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsColumnSetFrame
 :
 :
@@ -4599,7 +4599,7 @@ aLists
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsColumnSetFrame
 :
 :
@@ -4644,7 +4644,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsColumnSetFrame
 :
 :
@@ -4693,7 +4693,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsColumnSetFrame
 :
 :

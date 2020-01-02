@@ -213,7 +213,7 @@ nsGkAtoms
 deckFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDeckFrame
 :
 :

@@ -71,7 +71,8 @@ nsScrollbarFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -96,7 +97,8 @@ aResult
 }
 #
 endif
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -201,7 +203,8 @@ aPrevInFlow
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -254,7 +257,8 @@ return
 true
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 GetMargin
 (
 nsMargin

@@ -111,7 +111,8 @@ aLists
 MOZ_OVERRIDE
 {
 }
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -161,7 +162,8 @@ eSVG
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -263,7 +265,7 @@ nsGkAtoms
 svgStopFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGStopFrame
 :
 :

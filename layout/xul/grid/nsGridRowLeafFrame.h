@@ -45,7 +45,8 @@ aContext
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -94,7 +95,8 @@ aLayoutManager
 )
 {
 }
-NS_IMETHOD
+virtual
+nsresult
 GetBorderAndPadding
 (
 nsMargin

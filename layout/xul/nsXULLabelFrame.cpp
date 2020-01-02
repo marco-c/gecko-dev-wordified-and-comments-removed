@@ -239,7 +239,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULLabelFrame
 :
 :
@@ -315,7 +315,7 @@ XULLabelFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsXULLabelFrame
 :
 :

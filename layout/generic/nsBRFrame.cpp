@@ -139,7 +139,8 @@ PeekWordState
 aState
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -326,7 +327,7 @@ BRFrame
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 BRFrame
 :
 :

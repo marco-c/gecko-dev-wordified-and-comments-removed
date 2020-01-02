@@ -538,7 +538,7 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTableCaptionFrame
 :
 :
@@ -751,7 +751,7 @@ kCaptionList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableOuterFrame
 :
 :
@@ -853,7 +853,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableOuterFrame
 :
 :
@@ -967,7 +967,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableOuterFrame
 :
 :
@@ -1108,7 +1108,7 @@ aFrameList
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTableOuterFrame
 :
 :
@@ -3997,7 +3997,7 @@ FirstChild
 ;
 }
 }
-NS_METHOD
+nsresult
 nsTableOuterFrame
 :
 :
@@ -5034,7 +5034,7 @@ nsTableOuterFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTableOuterFrame
 :
 :

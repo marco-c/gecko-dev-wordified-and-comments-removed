@@ -1254,7 +1254,7 @@ mContent
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsVideoFrame
 :
 :
@@ -2553,7 +2553,7 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsVideoFrame
 :
 :
@@ -3197,7 +3197,7 @@ aNotify
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsVideoFrame
 :
 :

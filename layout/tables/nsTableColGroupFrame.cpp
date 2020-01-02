@@ -686,7 +686,7 @@ PrevFrame
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableColGroupFrame
 :
 :
@@ -900,7 +900,7 @@ damageArea
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTableColGroupFrame
 :
 :
@@ -1004,7 +1004,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableColGroupFrame
 :
 :
@@ -1447,7 +1447,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableColGroupFrame
 :
 :
@@ -1812,7 +1812,7 @@ return
 skip
 ;
 }
-NS_METHOD
+nsresult
 nsTableColGroupFrame
 :
 :
@@ -2403,7 +2403,7 @@ aDisplayItemKey
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTableColGroupFrame
 :
 :

@@ -364,7 +364,7 @@ return
 mCanvasTM
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGGFrame
 :
 :

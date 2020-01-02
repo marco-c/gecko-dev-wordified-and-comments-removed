@@ -254,7 +254,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGPatternFrame
 )
-NS_IMETHODIMP
+nsresult
 nsSVGPatternFrame
 :
 :

@@ -11535,7 +11535,7 @@ return
 width
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :
@@ -11732,7 +11732,7 @@ return
 action
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeBodyFrame
 :
 :

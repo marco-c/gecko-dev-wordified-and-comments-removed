@@ -552,7 +552,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLScrollFrame
 :
 :
@@ -587,7 +587,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLScrollFrame
 :
 :
@@ -632,7 +632,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLScrollFrame
 :
 :
@@ -707,7 +707,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLScrollFrame
 :
 :
@@ -3065,7 +3065,7 @@ aRenderingContext
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLScrollFrame
 :
 :
@@ -3191,7 +3191,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLScrollFrame
 :
 :
@@ -3873,7 +3873,7 @@ rv
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsHTMLScrollFrame
 :
 :
@@ -4582,7 +4582,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULScrollFrame
 :
 :
@@ -4617,7 +4617,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULScrollFrame
 :
 :
@@ -4652,7 +4652,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULScrollFrame
 :
 :
@@ -4691,7 +4691,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULScrollFrame
 :
 :
@@ -4739,7 +4739,7 @@ return
 NS_FRAME_NOT_SPLITTABLE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULScrollFrame
 :
 :
@@ -5264,7 +5264,7 @@ maxSize
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsXULScrollFrame
 :
 :

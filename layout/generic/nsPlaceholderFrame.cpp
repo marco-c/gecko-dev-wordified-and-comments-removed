@@ -302,7 +302,7 @@ floatWidth
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsPlaceholderFrame
 :
 :
@@ -904,7 +904,7 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsPlaceholderFrame
 :
 :

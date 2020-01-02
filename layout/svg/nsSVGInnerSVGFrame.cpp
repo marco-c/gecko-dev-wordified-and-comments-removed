@@ -679,7 +679,7 @@ aFlags
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGInnerSVGFrame
 :
 :

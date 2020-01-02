@@ -4677,7 +4677,7 @@ flexContainerFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsFlexContainerFrame
 :
 :
@@ -9844,7 +9844,7 @@ ResetPosition
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsFlexContainerFrame
 :
 :

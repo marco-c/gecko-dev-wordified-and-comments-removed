@@ -627,7 +627,7 @@ return
 mSelectedFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmactionFrame
 :
 :
@@ -729,7 +729,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmactionFrame
 :
 :

@@ -242,7 +242,8 @@ nsIContent
 aNode
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -252,7 +253,8 @@ nsFrameList
 aFrameList
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -265,7 +267,8 @@ nsFrameList
 aFrameList
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -275,7 +278,8 @@ nsIFrame
 aOldFrame
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -293,7 +297,8 @@ nsReflowStatus
 aStatus
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -374,7 +379,8 @@ aFlags
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -467,7 +473,7 @@ layout
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsRootBoxFrame
 :
 :
@@ -560,7 +566,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsRootBoxFrame
 :
 :
@@ -616,7 +622,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsRootBoxFrame
 :
 :
@@ -705,7 +711,7 @@ gReflows
 ;
 #
 endif
-NS_IMETHODIMP
+nsresult
 nsRootBoxFrame
 :
 :
@@ -809,7 +815,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsRootBoxFrame
 :
 :
@@ -1051,7 +1057,7 @@ nsBoxFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsRootBoxFrame
 :
 :

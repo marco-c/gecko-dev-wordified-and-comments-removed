@@ -554,7 +554,7 @@ this
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTreeColFrame
 :
 :

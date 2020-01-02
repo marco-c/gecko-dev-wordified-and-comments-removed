@@ -751,7 +751,7 @@ damageArea
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTableRowFrame
 :
 :
@@ -916,7 +916,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableRowFrame
 :
 :
@@ -1184,7 +1184,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableRowFrame
 :
 :
@@ -4871,7 +4871,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsTableRowFrame
 :
 :
@@ -6896,7 +6896,7 @@ nsTableRowFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTableRowFrame
 :
 :

@@ -229,7 +229,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTitleBarFrame
 :
 :

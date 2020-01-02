@@ -147,7 +147,8 @@ MOZ_OVERRIDE
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -165,7 +166,8 @@ nsReflowStatus
 aStatus
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -208,7 +210,8 @@ endif
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -232,7 +235,8 @@ aResult
 }
 #
 endif
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const
@@ -505,7 +509,7 @@ nsGkAtoms
 imageControlFrame
 ;
 }
-NS_METHOD
+nsresult
 nsImageControlFrame
 :
 :
@@ -580,7 +584,7 @@ aStatus
 )
 ;
 }
-NS_METHOD
+nsresult
 nsImageControlFrame
 :
 :
@@ -779,7 +783,7 @@ aRepaint
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsImageControlFrame
 :
 :

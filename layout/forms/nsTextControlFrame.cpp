@@ -2002,7 +2002,7 @@ return
 autoSize
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :
@@ -4602,7 +4602,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :
@@ -5364,7 +5364,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :
@@ -6243,7 +6243,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTextControlFrame
 :
 :

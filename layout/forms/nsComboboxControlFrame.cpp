@@ -3322,7 +3322,7 @@ return
 prefWidth
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsComboboxControlFrame
 :
 :
@@ -3842,7 +3842,7 @@ comboboxControlFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsComboboxControlFrame
 :
 :
@@ -4623,7 +4623,7 @@ aNewIndex
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsComboboxControlFrame
 :
 :
@@ -5079,7 +5079,8 @@ eReplacedContainsBlock
 )
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -5144,7 +5145,7 @@ nsGkAtoms
 comboboxDisplayFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsComboboxDisplayFrame
 :
 :
@@ -5683,7 +5684,7 @@ kSelectPopupList
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsComboboxControlFrame
 :
 :

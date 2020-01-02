@@ -941,7 +941,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSplitterFrame
 :
 :
@@ -970,7 +970,7 @@ aCursor
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSplitterFrame
 :
 :
@@ -1524,7 +1524,7 @@ return
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsSplitterFrame
 :
 :

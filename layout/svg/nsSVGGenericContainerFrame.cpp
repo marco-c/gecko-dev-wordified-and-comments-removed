@@ -39,7 +39,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGGenericContainerFrame
 )
-NS_IMETHODIMP
+nsresult
 nsSVGGenericContainerFrame
 :
 :

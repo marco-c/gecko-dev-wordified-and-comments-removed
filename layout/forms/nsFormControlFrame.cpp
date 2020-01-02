@@ -228,7 +228,7 @@ GetUsedBorderAndPadding
 bottom
 ;
 }
-NS_METHOD
+nsresult
 nsFormControlFrame
 :
 :
@@ -521,7 +521,7 @@ aRepaint
 )
 {
 }
-NS_METHOD
+nsresult
 nsFormControlFrame
 :
 :

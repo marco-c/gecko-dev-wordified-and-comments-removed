@@ -258,7 +258,8 @@ aFlags
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -588,7 +589,7 @@ nsBoxFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsDocElementBoxFrame
 :
 :

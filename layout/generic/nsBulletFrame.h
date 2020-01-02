@@ -179,7 +179,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -191,7 +192,8 @@ MOZ_OVERRIDE
 ;
 #
 endif
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext

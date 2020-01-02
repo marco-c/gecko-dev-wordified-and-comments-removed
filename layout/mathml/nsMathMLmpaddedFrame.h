@@ -63,7 +63,8 @@ TransmitAutomaticDataForMrowLikeElement
 )
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext

@@ -208,7 +208,8 @@ eExcludesIgnorableWhitespace
 )
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -219,7 +220,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -233,7 +235,8 @@ aFrameList
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -276,7 +279,8 @@ nsHTMLReflowMetrics
 aDesiredSize
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -295,7 +299,8 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 WillReflow
 (
 nsPresContext
@@ -322,7 +327,8 @@ aPresContext
 )
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 DidReflow
 (
 nsPresContext
@@ -382,7 +388,8 @@ UpdateOverflow
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -755,7 +762,8 @@ nsFrameState
 aFlags
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -803,7 +811,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -867,7 +876,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -935,7 +945,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -1083,7 +1094,8 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -1131,7 +1143,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -1195,7 +1208,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -1263,7 +1277,8 @@ return
 rv
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID

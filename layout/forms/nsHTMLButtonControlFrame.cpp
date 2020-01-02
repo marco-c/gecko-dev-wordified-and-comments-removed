@@ -275,7 +275,7 @@ aRepaint
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLButtonControlFrame
 :
 :
@@ -639,7 +639,7 @@ return
 result
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLButtonControlFrame
 :
 :
@@ -1500,7 +1500,7 @@ aStyleContext
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLButtonControlFrame
 :
 :
@@ -1525,7 +1525,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLButtonControlFrame
 :
 :
@@ -1553,7 +1553,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLButtonControlFrame
 :
 :

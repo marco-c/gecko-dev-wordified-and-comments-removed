@@ -146,7 +146,7 @@ aModType
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLSelectedFrame
 :
 :
@@ -284,7 +284,7 @@ aLists
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLSelectedFrame
 :
 :

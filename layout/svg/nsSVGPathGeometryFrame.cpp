@@ -455,7 +455,7 @@ aPrevInFlow
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGPathGeometryFrame
 :
 :

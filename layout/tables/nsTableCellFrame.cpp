@@ -769,7 +769,7 @@ NS_OK
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTableCellFrame
 :
 :
@@ -972,7 +972,7 @@ damageArea
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsTableCellFrame
 :
 :
@@ -998,7 +998,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableCellFrame
 :
 :
@@ -1027,7 +1027,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsTableCellFrame
 :
 :
@@ -3816,7 +3816,7 @@ return
 computedHeight
 ;
 }
-NS_METHOD
+nsresult
 nsTableCellFrame
 :
 :
@@ -4797,7 +4797,7 @@ tableCellFrame
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsTableCellFrame
 :
 :
@@ -4931,7 +4931,7 @@ false
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsBCTableCellFrame
 :
 :

@@ -209,7 +209,7 @@ mStyleContext
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmspaceFrame
 :
 :

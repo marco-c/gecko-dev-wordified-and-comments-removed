@@ -111,7 +111,8 @@ MOZ_OVERRIDE
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -136,7 +137,8 @@ aResult
 }
 #
 endif
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t

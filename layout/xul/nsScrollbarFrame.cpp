@@ -140,7 +140,7 @@ mState
 NS_FRAME_REFLOW_ROOT
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsScrollbarFrame
 :
 :
@@ -244,7 +244,7 @@ nsGkAtoms
 scrollbarFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsScrollbarFrame
 :
 :
@@ -492,7 +492,7 @@ return
 sbm
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsScrollbarFrame
 :
 :

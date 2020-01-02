@@ -175,7 +175,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGGradientFrame
 )
-NS_IMETHODIMP
+nsresult
 nsSVGGradientFrame
 :
 :
@@ -1865,7 +1865,7 @@ nsGkAtoms
 svgLinearGradientFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGLinearGradientFrame
 :
 :
@@ -2359,7 +2359,7 @@ nsGkAtoms
 svgRadialGradientFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGRadialGradientFrame
 :
 :

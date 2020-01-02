@@ -186,7 +186,8 @@ aDestructRoot
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const
@@ -202,7 +203,8 @@ aCursor
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 CharacterDataChanged
 (
 CharacterDataChangeInfo
@@ -557,7 +559,8 @@ aFlags
 const
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -584,10 +587,8 @@ endif
 #
 ifdef
 DEBUG
-NS_IMETHOD_
-(
+virtual
 nsFrameState
-)
 GetDebugStateBits
 (
 )
@@ -674,7 +675,8 @@ aState
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 CheckVisibility
 (
 nsPresContext
@@ -716,7 +718,8 @@ aSetLengthFlags
 0
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetOffsets
 (
 int32_t
@@ -740,7 +743,8 @@ end
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetPointFromOffset
 (
 int32_t
@@ -751,7 +755,8 @@ outPoint
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetChildFrameContainingOffset
 (
 int32_t
@@ -999,7 +1004,8 @@ aXMost
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext

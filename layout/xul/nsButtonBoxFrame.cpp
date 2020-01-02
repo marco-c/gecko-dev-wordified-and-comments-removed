@@ -191,7 +191,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsButtonBoxFrame
 :
 :

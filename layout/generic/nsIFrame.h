@@ -1150,7 +1150,8 @@ nsContainerFrame
 ;
 public
 :
-NS_IMETHOD
+virtual
+nsresult
 SetInitialChildList
 (
 ChildListID
@@ -1162,7 +1163,8 @@ aChildList
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 AppendFrames
 (
 ChildListID
@@ -1174,7 +1176,8 @@ aFrameList
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 InsertFrames
 (
 ChildListID
@@ -1189,7 +1192,8 @@ aFrameList
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 RemoveFrame
 (
 ChildListID
@@ -1244,7 +1248,8 @@ return
 nullptr
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 GetOffsets
 (
 int32_t
@@ -3078,7 +3083,8 @@ return
 result
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext
@@ -3097,7 +3103,8 @@ aEventStatus
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetContentForEvent
 (
 mozilla
@@ -3268,7 +3275,8 @@ mHotspotY
 ;
 }
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetCursor
 (
 const
@@ -3282,7 +3290,8 @@ aCursor
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetPointFromOffset
 (
 int32_t
@@ -3294,7 +3303,8 @@ outPoint
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetChildFrameContainingOffset
 (
 int32_t
@@ -3380,7 +3390,8 @@ mState
 aBits
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 CharacterDataChanged
 (
 CharacterDataChangeInfo
@@ -3390,7 +3401,8 @@ aInfo
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -3992,7 +4004,8 @@ nscoord
 aXMost
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 WillReflow
 (
 nsPresContext
@@ -4002,7 +4015,8 @@ aPresContext
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 Reflow
 (
 nsPresContext
@@ -4022,7 +4036,8 @@ aStatus
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 DidReflow
 (
 nsPresContext
@@ -4751,7 +4766,8 @@ IsSelected
 )
 const
 ;
-NS_IMETHOD
+virtual
+nsresult
 IsSelectable
 (
 bool
@@ -4765,7 +4781,8 @@ const
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetSelectionController
 (
 nsPresContext
@@ -4795,7 +4812,8 @@ GetConstFrameSelection
 )
 const
 ;
-NS_IMETHOD
+virtual
+nsresult
 PeekOffset
 (
 nsPeekOffsetStruct
@@ -4826,7 +4844,8 @@ bool
 aOutJumpedLine
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 CheckVisibility
 (
 nsPresContext
@@ -5387,7 +5406,8 @@ mParent
 nullptr
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 GetBorderAndPadding
 (
 nsMargin
@@ -5395,7 +5415,8 @@ nsMargin
 aBorderAndPadding
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetBorder
 (
 nsMargin
@@ -5405,7 +5426,8 @@ aBorder
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetPadding
 (
 nsMargin
@@ -5415,7 +5437,8 @@ aBorderAndPadding
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetMargin
 (
 nsMargin
@@ -5520,7 +5543,8 @@ nsBoxLayoutState
 aState
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 RelayoutChildAtOrdinal
 (
 nsBoxLayoutState
@@ -5547,7 +5571,8 @@ false
 #
 ifdef
 DEBUG_LAYOUT
-NS_IMETHOD
+virtual
+nsresult
 SetDebug
 (
 nsBoxLayoutState
@@ -5559,7 +5584,8 @@ aDebug
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetDebug
 (
 bool
@@ -5569,7 +5595,8 @@ aDebug
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 DumpBox
 (
 FILE
@@ -6938,7 +6965,8 @@ DumpFrameTreeLimited
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -6956,10 +6984,8 @@ ifdef
 DEBUG
 public
 :
-NS_IMETHOD_
-(
+virtual
 nsFrameState
-)
 GetDebugStateBits
 (
 )
@@ -6967,7 +6993,8 @@ const
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 DumpRegressionData
 (
 nsPresContext

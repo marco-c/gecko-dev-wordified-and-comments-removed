@@ -338,7 +338,7 @@ nsGkAtoms
 svgForeignObjectFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGForeignObjectFrame
 :
 :
@@ -500,7 +500,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGForeignObjectFrame
 :
 :

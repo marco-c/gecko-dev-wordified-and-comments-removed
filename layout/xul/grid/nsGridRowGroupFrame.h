@@ -32,7 +32,8 @@ NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString

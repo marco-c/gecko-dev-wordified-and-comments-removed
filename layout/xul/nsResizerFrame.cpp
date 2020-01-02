@@ -222,7 +222,7 @@ aContext
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsResizerFrame
 :
 :

@@ -1149,7 +1149,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGClipPathFrame
 :
 :

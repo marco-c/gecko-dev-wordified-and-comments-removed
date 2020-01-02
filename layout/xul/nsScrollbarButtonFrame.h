@@ -90,7 +90,8 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 HandleEvent
 (
 nsPresContext

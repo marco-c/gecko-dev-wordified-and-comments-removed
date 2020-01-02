@@ -125,7 +125,8 @@ eSVG
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHOD
+virtual
+nsresult
 GetFrameName
 (
 nsAString
@@ -157,7 +158,8 @@ GetType
 )
 const
 ;
-NS_IMETHOD
+virtual
+nsresult
 AttributeChanged
 (
 int32_t
@@ -293,7 +295,7 @@ nsGkAtoms
 svgFELeafFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 SVGFELeafFrame
 :
 :

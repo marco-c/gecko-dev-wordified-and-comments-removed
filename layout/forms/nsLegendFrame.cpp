@@ -216,7 +216,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsBlockFrame
 )
-NS_IMETHODIMP
+nsresult
 nsLegendFrame
 :
 :
@@ -402,7 +402,7 @@ intValue
 #
 ifdef
 DEBUG_FRAME_DUMP
-NS_IMETHODIMP
+nsresult
 nsLegendFrame
 :
 :

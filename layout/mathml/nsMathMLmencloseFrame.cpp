@@ -3170,7 +3170,7 @@ return
 gap
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmencloseFrame
 :
 :

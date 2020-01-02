@@ -1632,7 +1632,7 @@ mPresContext
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsMenuPopupFrame
 :
 :
@@ -8029,7 +8029,7 @@ nsIPopupBoxObject
 ROLLUP_DEFAULT
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMenuPopupFrame
 :
 :
