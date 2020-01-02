@@ -220,10 +220,6 @@ aWhen
 ErrorResult
 &
 aRv
-bool
-aShuttingDown
-=
-false
 )
 ;
 void
@@ -469,12 +465,6 @@ nsRefPtr
 AudioParam
 >
 mPlaybackRate
-;
-SelfReference
-<
-AudioBufferSourceNode
->
-mPlayingRef
 ;
 bool
 mLoop
