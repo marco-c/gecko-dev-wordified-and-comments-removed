@@ -1461,7 +1461,7 @@ return
 aWidget
 -
 >
-DispatchWindowEvent
+DispatchScrollEvent
 (
 &
 aEvent
