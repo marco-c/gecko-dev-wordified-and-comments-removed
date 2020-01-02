@@ -1486,6 +1486,9 @@ open
 navigateaway
 "
 "
+nodeselected
+"
+"
 test
 "
 ]
