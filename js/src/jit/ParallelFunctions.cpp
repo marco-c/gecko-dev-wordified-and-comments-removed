@@ -3130,7 +3130,7 @@ nullptr
 res
 -
 >
-initDenseElements
+initDenseElementsUnbarriered
 (
 0
 rest
