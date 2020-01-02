@@ -29,7 +29,7 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_bug683672
+doc_matched_selectors
 .
 html
 "

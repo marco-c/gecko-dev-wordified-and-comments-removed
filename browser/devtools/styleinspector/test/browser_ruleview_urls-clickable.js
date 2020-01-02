@@ -9,7 +9,7 @@ TEST_URI
 TEST_URL_ROOT
 +
 "
-browser_styleinspector_bug_677930_urls_clickable
+doc_urls_clickable
 .
 html
 "
@@ -20,9 +20,7 @@ TEST_IMAGE
 TEST_URL_ROOT
 +
 "
-test
--
-image
+doc_test_image
 .
 png
 "

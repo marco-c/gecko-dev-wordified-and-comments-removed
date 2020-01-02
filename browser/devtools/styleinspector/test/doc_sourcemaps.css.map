@@ -32,7 +32,7 @@ sources
 :
 [
 "
-sourcemaps
+doc_sourcemaps
 .
 scss
 "
@@ -48,7 +48,7 @@ file
 "
 :
 "
-sourcemaps
+doc_sourcemaps
 .
 css
 "
