@@ -61,12 +61,16 @@ MPL
 0
 /
 .
-DIRS
+MOCHITEST_MANIFESTS
 +
 =
 [
 '
 test
+/
+mochitest
+.
+ini
 '
 ]
 EXPORTS
