@@ -113,7 +113,7 @@ using
 mozilla
 :
 :
-DoubleIsInt32
+DoubleEqualsInt32
 ;
 using
 mozilla
@@ -1010,7 +1010,7 @@ intbound
 ;
 if
 (
-DoubleIsInt32
+DoubleEqualsInt32
 (
 bound
 &
@@ -1075,7 +1075,7 @@ intbound
 ;
 if
 (
-DoubleIsInt32
+DoubleEqualsInt32
 (
 bound
 &
