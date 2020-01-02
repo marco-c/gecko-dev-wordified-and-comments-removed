@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsIDOMSVGNumber
-.
-h
-"
-#
-include
-"
 nsSMILFloatType
 .
 h

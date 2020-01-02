@@ -107,11 +107,6 @@ nsIDOMSVGLength
 .
 idl
 '
-'
-nsIDOMSVGNumber
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

@@ -100,10 +100,6 @@ CSSSupportsRule
 )
 DOMCI_CLASS
 (
-SVGNumber
-)
-DOMCI_CLASS
-(
 WindowUtils
 )
 DOMCI_CLASS

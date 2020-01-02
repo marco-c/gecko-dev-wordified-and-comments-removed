@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGNumber
-;
-interface
 SVGNumberList
 {
 readonly

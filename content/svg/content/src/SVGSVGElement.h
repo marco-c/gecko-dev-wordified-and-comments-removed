@@ -105,9 +105,6 @@ aFromParser
 )
 ;
 class
-nsIDOMSVGNumber
-;
-class
 nsSMILTimeContainer
 ;
 class
@@ -130,6 +127,9 @@ DOMSVGAnimatedPreserveAspectRatio
 ;
 class
 DOMSVGLength
+;
+class
+DOMSVGNumber
 ;
 class
 EventChainPreVisitor
@@ -886,7 +886,7 @@ DeselectAll
 ;
 already_AddRefed
 <
-nsIDOMSVGNumber
+DOMSVGNumber
 >
 CreateSVGNumber
 (
