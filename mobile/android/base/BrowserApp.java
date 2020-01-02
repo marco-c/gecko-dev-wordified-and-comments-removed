@@ -10551,6 +10551,14 @@ setMaxMargins
 )
 ;
 }
+else
+{
+setToolbarMargin
+(
+0
+)
+;
+}
 }
 else
 {
