@@ -63,10 +63,12 @@ harness
 .
 ok
 (
+not
 threw
                
 "
 Should
+not
 have
 thrown
 on
@@ -75,10 +77,10 @@ non
 optional
 argument
 following
-optional
 "
                
 "
+optional
 argument
 .
 "

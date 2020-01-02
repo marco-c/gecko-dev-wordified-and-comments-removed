@@ -13,8 +13,6 @@ False
 try
 :
         
-results
-=
 parser
 .
 parse
@@ -47,6 +45,14 @@ arg2
 "
 "
 )
+        
+results
+=
+parser
+.
+finish
+(
+)
     
 except
 :
@@ -60,12 +66,31 @@ harness
 ok
 (
 threw
+               
 "
 Should
 have
 thrown
+on
+variadic
+argument
+followed
+by
+required
+"
+               
+"
+argument
 .
 "
+)
+    
+parser
+=
+parser
+.
+reset
+(
 )
     
 threw
@@ -75,8 +100,6 @@ False
 try
 :
         
-results
-=
 parser
 .
 parse
@@ -110,6 +133,15 @@ arg2
 "
 "
 )
+        
+results
+=
+parser
+.
+finish
+(
+)
+;
     
 except
 :
@@ -123,12 +155,31 @@ harness
 ok
 (
 threw
+               
 "
 Should
 have
 thrown
+on
+variadic
+argument
+followed
+by
+optional
+"
+               
+"
+argument
 .
 "
+)
+    
+parser
+=
+parser
+.
+reset
+(
 )
     
 threw
@@ -138,8 +189,6 @@ False
 try
 :
         
-results
-=
 parser
 .
 parse
@@ -171,6 +220,14 @@ arg1
 "
 "
 )
+        
+results
+=
+parser
+.
+finish
+(
+)
     
 except
 :
@@ -184,12 +241,31 @@ harness
 ok
 (
 threw
+               
 "
 Should
 have
 thrown
+on
+variadic
+argument
+explicitly
+flagged
+as
+"
+               
+"
+optional
 .
 "
+)
+    
+parser
+=
+parser
+.
+reset
+(
 )
     
 threw
@@ -199,8 +275,6 @@ False
 try
 :
         
-results
-=
 parser
 .
 parse
@@ -232,6 +306,14 @@ arg1
 "
 "
 "
+)
+        
+results
+=
+parser
+.
+finish
+(
 )
     
 except
