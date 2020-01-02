@@ -128,6 +128,14 @@ test_getAll
 .
 js
 \
+test_globalObjects
+.
+js
+\
+test_globalObjects_ipc
+.
+js
+\
 test_global_data
 .
 js

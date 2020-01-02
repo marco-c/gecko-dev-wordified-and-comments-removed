@@ -263,6 +263,10 @@ nsIXULRuntime
 PROCESS_TYPE_DEFAULT
 )
 {
+do_get_profile
+(
+)
+;
 httpserver
 =
 new

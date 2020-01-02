@@ -118,7 +118,9 @@ event
 .
 target
 .
-errorCode
+error
+.
+name
 )
 ;
 }

@@ -150,7 +150,6 @@ NetworkStatsDB
 function
 NetworkStatsDB
 (
-aGlobal
 aConnectionTypes
 )
 {
@@ -182,7 +181,6 @@ DB_VERSION
 [
 STORE_NAME_V2
 ]
-aGlobal
 )
 ;
 }
@@ -1774,10 +1772,6 @@ filterDate
 let
 range
 =
-this
-.
-dbGlobal
-.
 IDBKeyRange
 .
 bound
@@ -2052,10 +2046,6 @@ end
 let
 range
 =
-this
-.
-dbGlobal
-.
 IDBKeyRange
 .
 bound
@@ -2362,10 +2352,6 @@ end
 let
 range
 =
-this
-.
-dbGlobal
-.
 IDBKeyRange
 .
 bound

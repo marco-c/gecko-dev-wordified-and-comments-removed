@@ -514,11 +514,6 @@ dom
 /
 indexedDB
 '
-nsIIDBKeyRange
-.
-*
-'
-'
 nsIIndexedDatabaseManager
 .
 *

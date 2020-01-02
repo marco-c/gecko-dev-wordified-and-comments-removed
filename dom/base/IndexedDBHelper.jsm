@@ -214,10 +214,6 @@ dbVersion
 let
 req
 =
-this
-.
-dbGlobal
-.
 indexedDB
 .
 open
@@ -719,7 +715,6 @@ initDBHelper
 aDBName
 aDBVersion
 aDBStoreNames
-aGlobal
 )
 {
 this
@@ -739,12 +734,6 @@ this
 dbStoreNames
 =
 aDBStoreNames
-;
-this
-.
-dbGlobal
-=
-aGlobal
 ;
 }
 }
