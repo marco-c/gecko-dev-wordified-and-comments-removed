@@ -33,10 +33,9 @@ nsError
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 DOMSVGPathSeg
@@ -102,9 +101,6 @@ NS_IMPL_CYCLE_COLLECTION_UNROOT_NATIVE
 DOMSVGPathSeg
 Release
 )
-namespace
-mozilla
-{
 class
 MOZ_STACK_CLASS
 AutoChangePathSegNotifier
@@ -125,6 +121,18 @@ aPathSeg
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
+MOZ_ASSERT
+(
+mPathSeg
+"
+Expecting
+non
+-
+null
+pathSeg
+"
+)
 ;
 MOZ_ASSERT
 (
@@ -210,6 +218,7 @@ private
 :
 DOMSVGPathSeg
 *
+const
 mPathSeg
 ;
 nsAttrValue
@@ -218,7 +227,6 @@ mEmptyOrOldValue
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
-}
 DOMSVGPathSeg
 :
 :
@@ -1511,5 +1519,6 @@ type
 return
 nullptr
 ;
+}
 }
 }

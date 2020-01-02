@@ -128,6 +128,18 @@ aStringList
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+MOZ_ASSERT
+(
+mStringList
+"
+Expecting
+non
+-
+null
+stringList
+"
+)
+;
 mEmptyOrOldValue
 =
 mStringList
@@ -178,6 +190,7 @@ private
 :
 DOMSVGStringList
 *
+const
 mStringList
 ;
 nsAttrValue

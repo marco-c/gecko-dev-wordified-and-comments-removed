@@ -30,7 +30,7 @@ namespace
 {
 const
 double
-radPerDegree
+kRadPerDegree
 =
 2
 .
@@ -660,7 +660,7 @@ Rotate
 (
 aAngle
 *
-radPerDegree
+kRadPerDegree
 )
 ;
 mMatrix
@@ -706,7 +706,7 @@ tan
 (
 aAngle
 *
-radPerDegree
+kRadPerDegree
 )
 ;
 NS_ENSURE_FINITE
@@ -768,7 +768,7 @@ tan
 (
 aAngle
 *
-radPerDegree
+kRadPerDegree
 )
 ;
 NS_ENSURE_FINITE

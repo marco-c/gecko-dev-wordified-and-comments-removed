@@ -292,6 +292,18 @@ aTransformList
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+MOZ_ASSERT
+(
+mTransformList
+"
+Expecting
+non
+-
+null
+transformList
+"
+)
+;
 mEmptyOrOldValue
 =
 mTransformList
@@ -353,6 +365,7 @@ private
 :
 DOMSVGTransformList
 *
+const
 mTransformList
 ;
 nsAttrValue

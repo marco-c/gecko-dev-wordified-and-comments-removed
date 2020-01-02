@@ -280,6 +280,18 @@ aNumberList
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+MOZ_ASSERT
+(
+mNumberList
+"
+Expecting
+non
+-
+null
+numberList
+"
+)
+;
 mEmptyOrOldValue
 =
 mNumberList
@@ -353,6 +365,7 @@ private
 :
 DOMSVGNumberList
 *
+const
 mNumberList
 ;
 nsAttrValue

@@ -280,6 +280,18 @@ aLengthList
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+MOZ_ASSERT
+(
+mLengthList
+"
+Expecting
+non
+-
+null
+lengthList
+"
+)
+;
 mEmptyOrOldValue
 =
 mLengthList
@@ -353,6 +365,7 @@ private
 :
 DOMSVGLengthList
 *
+const
 mLengthList
 ;
 nsAttrValue
