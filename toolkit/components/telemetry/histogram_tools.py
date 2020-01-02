@@ -400,6 +400,9 @@ cpp_guard
 '
 expires_in_version
 '
+"
+alert_emails
+"
 ]
 class
 Histogram
