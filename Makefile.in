@@ -771,6 +771,11 @@ _build_manifests
 install
 /
 tests
+(
+if
+(
+LIBXUL_SDK
+)
 js
 /
 src
@@ -780,6 +785,7 @@ _build_manifests
 install
 /
 tests
+)
 )
 #
 _tests
