@@ -2353,9 +2353,6 @@ obj
 cx
 )
 ;
-bool
-found
-;
 JS
 :
 :
