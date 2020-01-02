@@ -414,15 +414,6 @@ nsIIndexedDatabaseManager
 #
 dom
 /
-file
-'
-nsIDOMLockedFile
-.
-*
-'
-#
-dom
-/
 quota
 '
 nsIQuotaManager

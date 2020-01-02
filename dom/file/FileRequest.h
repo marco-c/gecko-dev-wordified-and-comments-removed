@@ -135,7 +135,7 @@ aScope
 )
 MOZ_OVERRIDE
 ;
-nsIDOMLockedFile
+LockedFile
 *
 GetLockedFile
 (

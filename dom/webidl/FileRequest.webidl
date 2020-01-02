@@ -110,9 +110,6 @@ MPL
 *
 /
 interface
-LockedFile
-;
-interface
 FileRequest
 :
 DOMRequest

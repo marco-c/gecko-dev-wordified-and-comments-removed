@@ -1192,6 +1192,9 @@ index
 +
 )
 {
+ErrorResult
+ignored
+;
 lockedFiles
 [
 index
@@ -1200,6 +1203,7 @@ index
 >
 Abort
 (
+ignored
 )
 ;
 }

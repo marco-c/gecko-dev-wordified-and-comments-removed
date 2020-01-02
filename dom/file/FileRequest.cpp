@@ -491,7 +491,7 @@ this
 )
 ;
 }
-nsIDOMLockedFile
+LockedFile
 *
 FileRequest
 :

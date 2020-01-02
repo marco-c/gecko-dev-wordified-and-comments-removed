@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-LockedFile
-;
-interface
 FileHandle
 :
 EventTarget
