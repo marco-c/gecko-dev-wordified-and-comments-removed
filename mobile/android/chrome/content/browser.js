@@ -10508,6 +10508,15 @@ aData
 ;
 Services
 .
+prefs
+.
+savePrefFile
+(
+null
+)
+;
+Services
+.
 strings
 .
 flushBundles
