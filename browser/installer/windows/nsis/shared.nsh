@@ -4545,6 +4545,9 @@ AppVersion
 3
 (
 {
+ARCH
+}
+{
 AB_CD
 }
 )
@@ -4601,6 +4604,9 @@ AppVersion
 3
 (
 {
+ARCH
+}
+{
 AB_CD
 }
 )
@@ -4652,6 +4658,9 @@ AppVersion
 3
 (
 {
+ARCH
+}
+{
 AB_CD
 }
 )
@@ -4671,6 +4680,9 @@ AppVersion
 }
 3
 (
+{
+ARCH
+}
 {
 AB_CD
 }
@@ -4907,6 +4919,9 @@ AppVersion
 }
 3
 (
+{
+ARCH
+}
 {
 AB_CD
 }
