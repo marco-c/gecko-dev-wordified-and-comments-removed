@@ -327,6 +327,11 @@ GLTypes
 h
 '
 '
+GLUploadHelpers
+.
+h
+'
+'
 ScopedGLHelpers
 .
 h
@@ -752,6 +757,11 @@ cpp
 '
 '
 GLTextureImage
+.
+cpp
+'
+'
+GLUploadHelpers
 .
 cpp
 '

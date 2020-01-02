@@ -436,6 +436,13 @@ h
 #
 include
 "
+GLUploadHelpers
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -15140,11 +15147,9 @@ GetDataSurface
 (
 )
 ;
-mGLContext
--
->
 UploadSurfaceToTexture
 (
+mGLContext
 dataSnapshot
 updateRegion
 mTexture

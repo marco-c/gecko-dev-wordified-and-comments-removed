@@ -22,6 +22,13 @@ h
 #
 include
 "
+GLUploadHelpers
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h
@@ -858,11 +865,9 @@ aRegion
 }
 mTextureFormat
 =
-mGLContext
--
->
 UploadSurfaceToTexture
 (
+mGLContext
 aSurf
 region
 mTexture

@@ -22,6 +22,13 @@ h
 #
 include
 "
+GLUploadHelpers
+.
+h
+"
+#
+include
+"
 GLContextUtils
 .
 h
@@ -3669,11 +3676,9 @@ rect
 ;
 mFormat
 =
-mGL
--
->
 UploadSurfaceToTexture
 (
+mGL
 toUpload
 bounds
 mUploadTexture
