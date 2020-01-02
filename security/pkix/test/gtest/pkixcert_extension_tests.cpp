@@ -143,7 +143,7 @@ CreateEncodedCertificate
 (
 arena
 v3
-SEC_OID_SHA256
+SEC_OID_PKCS1_SHA256_WITH_RSA_ENCRYPTION
 serialNumber
 issuerDER
 PR_Now
