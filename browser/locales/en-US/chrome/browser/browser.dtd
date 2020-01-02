@@ -7566,10 +7566,13 @@ trackingContentBlocked
 .
 unblock
 .
-label
+label2
 "
 Disable
 protection
+for
+this
+site
 "
 >
 <
