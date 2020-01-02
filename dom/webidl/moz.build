@@ -2948,6 +2948,11 @@ MozVoicemail
 .
 webidl
 '
+'
+MozVoicemailStatus
+.
+webidl
+'
 ]
 if
 CONFIG

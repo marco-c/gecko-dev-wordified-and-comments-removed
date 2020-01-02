@@ -98,11 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMMozVoicemailStatus
-.
-idl
-'
-'
 nsIVoicemailProvider
 .
 idl

@@ -111,12 +111,6 @@ MPL
 .
 *
 /
-/
-/
-nsIDOMMozVoicemailStatus
-interface
-MozVoicemailStatus
-;
 [
 Pref
 =

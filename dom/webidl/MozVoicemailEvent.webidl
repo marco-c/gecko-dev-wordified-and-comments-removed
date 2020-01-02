@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-interface
-MozVoicemailStatus
-;
 [
 Constructor
 (

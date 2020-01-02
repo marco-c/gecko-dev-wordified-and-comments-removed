@@ -63,9 +63,6 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMMozVoicemailStatus
-;
 [
 scriptable
 uuid
@@ -117,7 +114,7 @@ void
 notifyStatusChanged
 (
 in
-nsIDOMMozVoicemailStatus
+jsval
 status
 )
 ;
@@ -226,7 +223,7 @@ nsIVoicemailListener
 listener
 )
 ;
-nsIDOMMozVoicemailStatus
+jsval
 getVoicemailStatus
 (
 in
