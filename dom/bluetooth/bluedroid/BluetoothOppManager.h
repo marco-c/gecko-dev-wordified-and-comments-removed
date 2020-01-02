@@ -497,7 +497,7 @@ bool
 mConnected
 ;
 nsString
-mDeviceAddress
+mConnectedDeviceAddress
 ;
 uint8_t
 mRemoteObexVersion
@@ -629,7 +629,13 @@ nsRefPtr
 <
 BluetoothSocket
 >
-mServerSocket
+mRfcommSocket
+;
+nsRefPtr
+<
+BluetoothSocket
+>
+mL2capSocket
 ;
 }
 ;
