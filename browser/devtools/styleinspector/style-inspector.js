@@ -807,7 +807,7 @@ this
 .
 view
 .
-nodeChanged
+refreshPanel
 (
 )
 ;
