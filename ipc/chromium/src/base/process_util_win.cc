@@ -323,9 +323,17 @@ ProcessHandle
 process
 )
 {
+BOOL
+ok
+=
 CloseHandle
 (
 process
+)
+;
+DCHECK
+(
+ok
 )
 ;
 }
