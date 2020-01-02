@@ -1534,11 +1534,13 @@ if
 log
 &
 &
-PR_LOG_TEST
-(
 log
+-
+>
+level
+>
+=
 PR_LOG_WARNING
-)
 )
 {
 mTextPerf
