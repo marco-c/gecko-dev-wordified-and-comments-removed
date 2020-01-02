@@ -904,7 +904,7 @@ true
 static
 const
 uint32_t
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 =
 sizeof
 (

@@ -19099,7 +19099,7 @@ alignmentAtPrologue
 =
 callFromAsmJS
 ?
-AsmJSSizeOfRetAddr
+AsmJSFrameSize
 :
 0
 ;
