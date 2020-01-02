@@ -42,6 +42,13 @@ GLDefs
 .
 h
 "
+#
+include
+"
+Tools
+.
+h
+"
 namespace
 mozilla
 {
@@ -815,8 +822,10 @@ mColorSpace
 CGContextRef
 mCg
 ;
-void
-*
+AlignedArray
+<
+uint8_t
+>
 mData
 ;
 RefPtr
