@@ -1009,6 +1009,11 @@ wouldShadow
 wouldShadow
 )
 {
+JS_ClearPendingException
+(
+cx
+)
+;
 return
 false
 ;
