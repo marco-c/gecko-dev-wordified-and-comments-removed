@@ -1,3 +1,7 @@
+"
+use
+strict
+"
 const
 {
 classes
@@ -352,6 +356,16 @@ return
 label
 :
 label
+icon
+:
+"
+thumbnail
+:
+"
++
+tab
+.
+id
 }
 }
 )
