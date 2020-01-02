@@ -58,7 +58,7 @@ ScreenManagerParent
 ;
 virtual
 bool
-RecvRefresh
+AnswerRefresh
 (
 uint32_t
 *
@@ -74,7 +74,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvScreenRefresh
+AnswerScreenRefresh
 (
 const
 uint32_t
@@ -100,7 +100,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvGetPrimaryScreen
+AnswerGetPrimaryScreen
 (
 ScreenDetails
 *
@@ -113,7 +113,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvScreenForRect
+AnswerScreenForRect
 (
 const
 int32_t
@@ -142,7 +142,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvScreenForBrowser
+AnswerScreenForBrowser
 (
 PBrowserParent
 *

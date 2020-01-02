@@ -2006,7 +2006,7 @@ PNecko
 (
 )
 ;
-sync
+rpc
 PScreenManager
 (
 )

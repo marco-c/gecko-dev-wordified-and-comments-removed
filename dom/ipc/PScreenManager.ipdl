@@ -140,7 +140,7 @@ contentsScaleFactor
 ;
 }
 ;
-sync
+rpc
 protocol
 PScreenManager
 {
@@ -149,7 +149,7 @@ PContent
 ;
 parent
 :
-sync
+rpc
 Refresh
 (
 )
@@ -163,7 +163,7 @@ bool
 success
 )
 ;
-sync
+rpc
 ScreenRefresh
 (
 uint32_t
@@ -177,7 +177,7 @@ bool
 success
 )
 ;
-sync
+rpc
 GetPrimaryScreen
 (
 )
@@ -189,7 +189,7 @@ bool
 success
 )
 ;
-sync
+rpc
 ScreenForRect
 (
 int32_t
@@ -209,7 +209,7 @@ bool
 success
 )
 ;
-sync
+rpc
 ScreenForBrowser
 (
 PBrowser
