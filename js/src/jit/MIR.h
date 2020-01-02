@@ -5398,7 +5398,7 @@ JSObject
 obj
 )
 ;
-void
+bool
 MergeTypes
 (
 MIRType
@@ -17520,7 +17520,7 @@ type
 )
 ;
 }
-void
+bool
 specializeType
 (
 )
@@ -17533,7 +17533,7 @@ MDefinition
 def
 )
 ;
-void
+bool
 addBackedgeType
 (
 MIRType

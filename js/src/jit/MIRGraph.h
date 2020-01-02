@@ -708,7 +708,7 @@ MBasicBlock
 header
 )
 ;
-void
+bool
 specializePhis
 (
 )
