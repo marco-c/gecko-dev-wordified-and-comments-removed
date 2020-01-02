@@ -451,6 +451,7 @@ class
 close
 -
 icon
+tabbable
 "
 tooltiptext
 =
