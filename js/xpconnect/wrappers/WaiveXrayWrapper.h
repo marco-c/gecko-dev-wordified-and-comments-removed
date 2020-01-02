@@ -41,6 +41,12 @@ flags
 )
 ;
 virtual
+~
+WaiveXrayWrapper
+(
+)
+;
+virtual
 bool
 getPropertyDescriptor
 (
