@@ -1164,7 +1164,15 @@ cmdspec
 config
 )
         
-temp
+if
+isinstance
+(
+outfiles
+basestring
+)
+:
+            
+stdout_filename
 =
 '
 %
@@ -1174,18 +1182,10 @@ tmp
 '
 %
 name
-        
-if
-isinstance
-(
-outfiles
-basestring
-)
-:
             
 temp_map
 [
-temp
+stdout_filename
 ]
 =
 outfiles
@@ -1206,6 +1206,10 @@ config
         
 else
 :
+            
+stdout_filename
+=
+None
             
 pc
 =
@@ -1319,10 +1323,32 @@ flush
 (
 )
         
+if
+stdout_filename
+is
+None
+:
+            
+subprocess
+.
+check_call
+(
+command
+env
+=
+env
+(
+config
+)
+)
+        
+else
+:
+            
 with
 open
 (
-temp
+stdout_filename
 '
 w
 '
@@ -1330,7 +1356,7 @@ w
 as
 output
 :
-            
+                
 subprocess
 .
 check_call
