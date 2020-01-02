@@ -73,6 +73,10 @@ LIB_SUFFIX
 )
 \
 (
+XPCOM_LIBS
+)
+\
+(
 NULL
 )
 include
