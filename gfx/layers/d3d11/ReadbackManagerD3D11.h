@@ -58,11 +58,6 @@ ReadbackManagerD3D11
 (
 )
 ;
-~
-ReadbackManagerD3D11
-(
-)
-;
 void
 PostTask
 (
@@ -76,6 +71,11 @@ aSink
 ;
 private
 :
+~
+ReadbackManagerD3D11
+(
+)
+;
 friend
 DWORD
 WINAPI
