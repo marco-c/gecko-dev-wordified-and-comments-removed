@@ -81,6 +81,7 @@ complete
 function
 (
 partialHash
+gethashUrl
 cb
 )
 {

@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsIUrlListManager
+.
+h
+"
+#
+include
+"
 nsIUrlClassifierDBService
 .
 h
