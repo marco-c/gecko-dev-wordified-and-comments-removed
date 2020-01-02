@@ -247,12 +247,6 @@ dom
 /
 wifi
 \
-dom
-/
-icc
-/
-src
-\
 (
 NULL
 )
