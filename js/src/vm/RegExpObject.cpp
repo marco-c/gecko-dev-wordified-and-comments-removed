@@ -3340,6 +3340,14 @@ TenuredObject
 )
 )
 ;
+if
+(
+!
+templateObject
+)
+return
+matchResultTemplateObject_
+;
 RootedValue
 index
 (

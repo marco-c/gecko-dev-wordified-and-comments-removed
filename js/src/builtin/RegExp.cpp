@@ -297,6 +297,14 @@ templateObject
 )
 )
 ;
+if
+(
+!
+arr
+)
+return
+false
+;
 RootedValue
 index
 (
