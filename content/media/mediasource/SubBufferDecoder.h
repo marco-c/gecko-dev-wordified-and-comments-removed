@@ -211,6 +211,13 @@ aBuffered
 )
 ;
 }
+int64_t
+ConvertToByteOffset
+(
+double
+aTime
+)
+;
 private
 :
 MediaSourceDecoder
