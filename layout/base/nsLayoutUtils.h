@@ -3226,6 +3226,16 @@ IsTextAlignTrueValueEnabled
 )
 ;
 static
+bool
+CSSVariablesEnabled
+(
+)
+{
+return
+sCSSVariablesEnabled
+;
+}
+static
 void
 UnionChildOverflow
 (
@@ -3554,6 +3564,10 @@ sFontSizeInflationDisabledInMasterProcess
 static
 bool
 sInvalidationDebuggingIsEnabled
+;
+static
+bool
+sCSSVariablesEnabled
 ;
 }
 ;
