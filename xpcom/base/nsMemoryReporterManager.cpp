@@ -7314,6 +7314,14 @@ aReporter
 {
 nsCOMPtr
 <
+nsIMemoryReporter
+>
+reporter
+=
+aReporter
+;
+nsCOMPtr
+<
 nsIMemoryReporterManager
 >
 mgr
@@ -7351,7 +7359,7 @@ mgr
 >
 RegisterStrongReporter
 (
-aReporter
+reporter
 )
 ;
 }
