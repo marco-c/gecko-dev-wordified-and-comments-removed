@@ -3311,7 +3311,7 @@ following
 immediates
 :
 *
-uint16
+uint8
 hops
 :
 the
@@ -3332,7 +3332,7 @@ variable
 being
 accessed
 *
-uint16
+uint24
 slot
 :
 the

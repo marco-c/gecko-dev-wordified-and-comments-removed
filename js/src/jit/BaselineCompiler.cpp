@@ -8216,6 +8216,8 @@ i
 sc
 .
 hops
+(
+)
 ;
 i
 ;
@@ -8285,6 +8287,8 @@ numFixedSlots
 sc
 .
 slot
+(
+)
 )
 {
 masm
@@ -8312,6 +8316,8 @@ reg
 sc
 .
 slot
+(
+)
 -
 shape
 -
@@ -8340,6 +8346,8 @@ getFixedSlotOffset
 sc
 .
 slot
+(
+)
 )
 )
 ;
