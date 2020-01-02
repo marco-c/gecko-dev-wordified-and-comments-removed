@@ -58,7 +58,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -315,6 +315,9 @@ prlog
 .
 h
 "
+class
+gfxASurface
+;
 class
 gfxContext
 ;

@@ -409,6 +409,11 @@ ChildTimer
 cpp
 '
 '
+PluginBackgroundDestroyer
+.
+cpp
+'
+'
 PluginIdentifierChild
 .
 cpp

@@ -21,7 +21,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -185,6 +185,9 @@ gfxContext
 ;
 struct
 gfxMatrix
+;
+class
+gfxASurface
 ;
 namespace
 mozilla

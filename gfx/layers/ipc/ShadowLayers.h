@@ -22,7 +22,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -121,6 +121,9 @@ nsIntPoint
 ;
 struct
 nsIntRect
+;
+class
+gfxASurface
 ;
 namespace
 mozilla

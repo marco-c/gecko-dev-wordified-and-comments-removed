@@ -21,7 +21,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -51,9 +51,6 @@ define
 MOZ_HAVE_SURFACEDESCRIPTORGRALLOC
 #
 endif
-class
-gfxASurface
-;
 class
 gfxSharedImageSurface
 ;

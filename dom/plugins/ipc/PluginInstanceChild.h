@@ -179,13 +179,6 @@ h
 "
 #
 include
-"
-gfxASurface
-.
-h
-"
-#
-include
 <
 map
 >
@@ -206,6 +199,9 @@ h
 "
 #
 endif
+class
+gfxASurface
+;
 namespace
 mozilla
 {

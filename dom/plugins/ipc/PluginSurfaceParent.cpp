@@ -83,5 +83,14 @@ mSurface
 dibsurf
 ;
 }
+PluginSurfaceParent
+:
+:
+~
+PluginSurfaceParent
+(
+)
+{
+}
 }
 }

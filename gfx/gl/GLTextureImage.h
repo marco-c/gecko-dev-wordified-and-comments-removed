@@ -28,7 +28,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -57,6 +57,9 @@ Rect
 .
 h
 "
+class
+gfxASurface
+;
 namespace
 mozilla
 {

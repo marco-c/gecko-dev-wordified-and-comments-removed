@@ -28,7 +28,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -86,6 +86,9 @@ nsCOMPtr
 .
 h
 "
+class
+gfxASurface
+;
 namespace
 mozilla
 {

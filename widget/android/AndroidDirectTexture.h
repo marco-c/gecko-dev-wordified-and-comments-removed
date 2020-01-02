@@ -7,7 +7,7 @@ AndroidDirectTexture_h_
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "

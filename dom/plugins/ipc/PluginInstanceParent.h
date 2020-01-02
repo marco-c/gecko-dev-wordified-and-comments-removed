@@ -113,13 +113,6 @@ nsRect
 h
 "
 #
-include
-"
-gfxASurface
-.
-h
-"
-#
 ifdef
 MOZ_X11
 class
@@ -143,6 +136,9 @@ unused
 .
 h
 "
+class
+gfxASurface
+;
 namespace
 mozilla
 {

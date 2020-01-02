@@ -73,6 +73,13 @@ ISurfaceAllocator
 .
 h
 "
+#
+include
+"
+AutoMaskData
+.
+h
+"
 using
 namespace
 mozilla

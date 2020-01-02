@@ -54,14 +54,7 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
-gfxImageSurface
+gfxTypes
 .
 h
 "
@@ -192,6 +185,9 @@ gfxReusableSurfaceWrapper
 .
 h
 "
+class
+gfxImageSurface
+;
 namespace
 mozilla
 {

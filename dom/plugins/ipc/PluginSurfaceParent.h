@@ -18,13 +18,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -56,6 +49,9 @@ only
 "
 #
 endif
+class
+gfxASurface
+;
 namespace
 mozilla
 {
@@ -89,8 +85,7 @@ transparent
 PluginSurfaceParent
 (
 )
-{
-}
+;
 gfxASurface
 *
 Surface

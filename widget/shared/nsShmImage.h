@@ -45,7 +45,7 @@ h
 #
 include
 "
-gfxASurface
+gfxTypes
 .
 h
 "
@@ -124,6 +124,9 @@ QRect
 ;
 class
 QWidget
+;
+class
+gfxASurface
 ;
 class
 nsShmImage

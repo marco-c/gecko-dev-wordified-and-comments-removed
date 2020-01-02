@@ -60,13 +60,6 @@ h
 #
 include
 "
-gfxASurface
-.
-h
-"
-#
-include
-"
 nsBaseWidget
 .
 h
@@ -252,6 +245,9 @@ args
 )
 #
 endif
+class
+gfxASurface
+;
 class
 gfxPattern
 ;
