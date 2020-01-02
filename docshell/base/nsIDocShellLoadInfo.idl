@@ -451,6 +451,12 @@ loadReloadMixedContent
 =
 19
 ;
+const
+long
+loadNormalAllowMixedContent
+=
+20
+;
 /
 *
 *
