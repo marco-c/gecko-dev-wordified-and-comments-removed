@@ -326,6 +326,9 @@ endif
 class
 CSSRuleListImpl
 ;
+class
+nsICSSRuleList
+;
 #
 define
 NS_CSS_STYLE_SHEET_IMPL_CID
@@ -1154,7 +1157,7 @@ GetDOMOwnerRule
 )
 const
 ;
-nsIDOMCSSRuleList
+nsICSSRuleList
 *
 GetCssRules
 (

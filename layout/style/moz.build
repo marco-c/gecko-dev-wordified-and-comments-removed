@@ -606,6 +606,11 @@ nsHTMLStyleSheet
 cpp
 '
 '
+nsICSSRuleList
+.
+cpp
+'
+'
 nsLayoutStylesheetCache
 .
 cpp

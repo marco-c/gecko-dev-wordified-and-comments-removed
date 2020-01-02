@@ -365,6 +365,11 @@ CSSPrimitiveValue
 webidl
 '
 '
+CSSRuleList
+.
+webidl
+'
+'
 CSSStyleDeclaration
 .
 webidl
