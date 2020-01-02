@@ -3655,6 +3655,8 @@ ignored
 for
 p
 in
+sorted
+(
 os
 .
 listdir
@@ -3669,6 +3671,7 @@ self
 .
 base
 path
+)
 )
 )
 :
@@ -4000,6 +4003,8 @@ return
 for
 p
 in
+sorted
+(
 os
 .
 listdir
@@ -4014,6 +4019,7 @@ self
 .
 base
 base
+)
 )
 )
 :
