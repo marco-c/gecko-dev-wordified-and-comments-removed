@@ -10371,9 +10371,17 @@ clientId
 mwi
 )
 ;
+if
+(
+mwi
+.
+discard
+)
+{
 return
 true
 ;
+}
 }
 let
 notifyReceived
