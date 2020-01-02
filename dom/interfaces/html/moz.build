@@ -138,11 +138,6 @@ nsIDOMHTMLButtonElement
 idl
 '
 '
-nsIDOMHTMLByteRanges
-.
-idl
-'
-'
 nsIDOMHTMLCanvasElement
 .
 idl
