@@ -30,13 +30,13 @@ addon
 id
 =
 "
-5612
+5617
 "
 >
 <
 name
 >
-Unsigned
+Restartless
 Test
 XPI
 <
@@ -59,7 +59,7 @@ type
 <
 guid
 >
-unsigned
+restartless
 -
 xpi
 tests
@@ -74,7 +74,7 @@ guid
 <
 slug
 >
-unsigned
+restartless
 -
 xpi
 <
@@ -182,7 +182,7 @@ ALL
 size
 =
 "
-452
+485
 "
 >
 http
@@ -199,7 +199,9 @@ http
 :
 4567
 /
-unsigned
+addons
+/
+restartless
 .
 xpi
 <
