@@ -3260,6 +3260,16 @@ type
 )
 ;
 extern
+CERTGeneralNameType
+CERT_GetGeneralNameTypeFromString
+(
+const
+char
+*
+string
+)
+;
+extern
 SECStatus
 CERT_EncodePolicyConstraintsExtension
 (
