@@ -384,13 +384,32 @@ remote_dump_dir
 local_dump_dir
 )
         
+for
+f
+in
 self
 .
 dm
 .
-removeDir
+listFiles
 (
 remote_dump_dir
+)
+:
+            
+self
+.
+dm
+.
+removeFile
+(
+posixpath
+.
+join
+(
+remote_dump_dir
+f
+)
 )
         
 return
