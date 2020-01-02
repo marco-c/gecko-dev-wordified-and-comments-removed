@@ -1276,7 +1276,7 @@ GlobalReg
 ;
 allRegisters_
 .
-take
+takeAllAliasedUnchecked
 (
 AnyRegister
 (

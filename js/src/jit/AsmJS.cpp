@@ -35932,7 +35932,7 @@ FloatRegisters
 NonVolatileMask
 |
 (
-1
+1ULL
 <
 <
 FloatRegisters
@@ -36044,13 +36044,8 @@ fpus
 (
 )
 .
-size
+getPushSizeInBytes
 (
-)
-*
-sizeof
-(
-double
 )
 ;
 #
@@ -40340,7 +40335,7 @@ FloatRegisterSet
 FloatRegisters
 :
 :
-AllMask
+AllDoubleMask
 )
 )
 ;
@@ -41015,7 +41010,7 @@ FloatRegisterSet
 FloatRegisters
 :
 :
-AllMask
+AllDoubleMask
 )
 )
 )
@@ -41050,7 +41045,7 @@ FloatRegisterSet
 FloatRegisters
 :
 :
-AllMask
+AllDoubleMask
 )
 )
 )

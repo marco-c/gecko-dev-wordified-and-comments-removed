@@ -264,6 +264,16 @@ index
 )
 ;
 void
+evictAliasedRegister
+(
+LInstruction
+*
+ins
+RegisterIndex
+index
+)
+;
+void
 loadRegister
 (
 LInstruction

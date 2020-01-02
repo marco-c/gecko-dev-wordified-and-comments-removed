@@ -89,7 +89,7 @@ double
 FloatRegisters
 :
 :
-Total
+TotalPhys
 >
 fpregs_
 ;

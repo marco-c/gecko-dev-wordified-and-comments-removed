@@ -4,12 +4,6 @@ defined
 (
 JS_ARM_SIMULATOR
 )
-&
-&
-defined
-(
-EVERYONE_KNOWS_ABOUT_ALIASING
-)
 #
 include
 "

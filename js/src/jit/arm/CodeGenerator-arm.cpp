@@ -1514,7 +1514,7 @@ masm
 compareDouble
 (
 first
-InvalidFloatReg
+NoVFPRegister
 )
 ;
 masm
