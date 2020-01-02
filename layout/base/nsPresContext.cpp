@@ -5150,10 +5150,6 @@ mLangService
 LookupCharSet
 (
 aCharSet
-.
-get
-(
-)
 )
 ;
 if

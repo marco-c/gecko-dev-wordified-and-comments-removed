@@ -596,18 +596,6 @@ aliases
 "
 IBM857
 "
-"
-ibm857
-"
-"
-cp857
-"
-"
-857
-"
-"
-csibm857
-"
 ]
 ;
 function
@@ -615,7 +603,7 @@ run_test
 (
 )
 {
-testDecodeAliases
+testDecodeAliasesInternal
 (
 )
 ;

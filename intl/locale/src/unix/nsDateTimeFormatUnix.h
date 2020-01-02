@@ -7,13 +7,6 @@ nsDateTimeFormatUnix_h__
 #
 include
 "
-nsICharsetConverterManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsIDateTimeFormat
+.
+h
+"
+#
+include
+"
+nsIUnicodeDecoder
 .
 h
 "

@@ -98,11 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsICharsetConverterManager
-.
-idl
-'
-'
 nsICurrentCharsetListener
 .
 idl

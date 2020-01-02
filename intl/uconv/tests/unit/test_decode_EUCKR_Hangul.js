@@ -55,9 +55,6 @@ korean
 csksc56011987
 "
 "
-5601
-"
-"
 windows
 -
 949

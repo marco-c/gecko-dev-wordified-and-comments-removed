@@ -98,11 +98,6 @@ EXPORTS
 =
 [
 '
-nsCharsetAlias
-.
-h
-'
-'
 nsCollationCID
 .
 h

@@ -11,6 +11,13 @@ nsITextToSubURI
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsTextToSubURI
 :

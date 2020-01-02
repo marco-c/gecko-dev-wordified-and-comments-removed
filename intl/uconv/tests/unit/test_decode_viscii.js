@@ -616,12 +616,6 @@ aliases
 "
 VISCII
 "
-"
-viscii
-"
-"
-csviscii
-"
 ]
 ;
 function
@@ -629,7 +623,7 @@ run_test
 (
 )
 {
-testDecodeAliases
+testDecodeAliasesInternal
 (
 )
 ;

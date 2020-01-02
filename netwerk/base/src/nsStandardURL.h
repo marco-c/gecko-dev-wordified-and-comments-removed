@@ -124,9 +124,6 @@ class
 nsIIDNService
 ;
 class
-nsICharsetConverterManager
-;
-class
 nsIPrefBranch
 ;
 class
@@ -1269,11 +1266,6 @@ static
 nsIIDNService
 *
 gIDN
-;
-static
-nsICharsetConverterManager
-*
-gCharsetMgr
 ;
 static
 bool

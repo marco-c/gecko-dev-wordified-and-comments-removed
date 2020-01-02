@@ -491,7 +491,7 @@ run_test
 (
 )
 {
-testDecodeAliases
+testDecodeAliasesInternal
 (
 )
 ;

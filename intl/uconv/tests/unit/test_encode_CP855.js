@@ -604,18 +604,6 @@ aliases
 "
 IBM855
 "
-"
-ibm855
-"
-"
-cp855
-"
-"
-855
-"
-"
-csibm855
-"
 ]
 ;
 function
@@ -623,7 +611,7 @@ run_test
 (
 )
 {
-testEncodeAliases
+testEncodeAliasesInternal
 (
 )
 ;

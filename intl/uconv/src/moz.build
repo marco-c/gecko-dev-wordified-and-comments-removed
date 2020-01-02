@@ -98,11 +98,6 @@ UNIFIED_SOURCES
 =
 [
 '
-nsCharsetConverterManager
-.
-cpp
-'
-'
 nsConverterInputStream
 .
 cpp
@@ -1805,13 +1800,3 @@ FINAL_LIBRARY
 '
 xul
 '
-JAR_MANIFESTS
-+
-=
-[
-'
-jar
-.
-mn
-'
-]
