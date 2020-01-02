@@ -76,15 +76,6 @@ CreateStateMachine
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
-ApplyStateToStateMachine
-(
-PlayState
-aState
-)
-MOZ_OVERRIDE
-;
 }
 ;
 }
