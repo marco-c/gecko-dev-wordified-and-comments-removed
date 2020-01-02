@@ -110,4 +110,9 @@ FxAccounts
 .
 jsm
 '
+'
+FxAccountsClient
+.
+jsm
+'
 ]
