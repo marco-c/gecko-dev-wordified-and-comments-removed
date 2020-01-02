@@ -213,11 +213,6 @@ gfxMatrix
 h
 '
 '
-gfxPath
-.
-h
-'
-'
 gfxPattern
 .
 h
@@ -1243,11 +1238,6 @@ cpp
 '
 '
 gfxMatrix
-.
-cpp
-'
-'
-gfxPath
 .
 cpp
 '
