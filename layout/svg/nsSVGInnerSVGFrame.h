@@ -171,6 +171,13 @@ nullptr
 MOZ_OVERRIDE
 ;
 virtual
+nsRect
+GetCoveredRegion
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 ReflowSVG
 (
