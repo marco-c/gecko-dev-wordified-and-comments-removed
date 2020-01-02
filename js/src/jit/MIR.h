@@ -37048,6 +37048,15 @@ i
 ;
 }
 }
+bool
+writeRecoverData
+(
+CompactBufferWriter
+&
+writer
+)
+const
+;
 }
 ;
 class
