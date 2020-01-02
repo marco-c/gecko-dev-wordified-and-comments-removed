@@ -936,6 +936,9 @@ case
 TYPE_XMLHTTPREQUEST
 :
 case
+TYPE_XSLT
+:
+case
 TYPE_OTHER
 :
 break

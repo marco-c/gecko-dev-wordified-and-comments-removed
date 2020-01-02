@@ -153,6 +153,9 @@ websocket
 "
 csp_report
 "
+"
+xslt
+"
 }
 ;
 #

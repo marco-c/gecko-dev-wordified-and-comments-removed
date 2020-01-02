@@ -3283,7 +3283,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_STYLESHEET
+TYPE_XSLT
 url
 mDocument
 -

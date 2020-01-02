@@ -313,6 +313,11 @@ CASE_RETURN
 TYPE_CSP_REPORT
 )
 ;
+CASE_RETURN
+(
+TYPE_XSLT
+)
+;
 default
 :
 return

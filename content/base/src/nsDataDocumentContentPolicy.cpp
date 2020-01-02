@@ -514,6 +514,15 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
+|
+|
+aContentType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_XSLT
 )
 {
 *
