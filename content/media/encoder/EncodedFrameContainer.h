@@ -122,7 +122,7 @@ AMR_AUDIO_FRAME
 UNKNOWN
 }
 ;
-nsresult
+void
 SwapInFrameData
 (
 nsTArray
@@ -139,9 +139,6 @@ SwapElements
 (
 aData
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
