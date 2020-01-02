@@ -2360,6 +2360,9 @@ cert
 derCert
 ;
 }
+SECStatus
+srv
+=
 CERT_ImportCerts
 (
 certdb
@@ -2378,7 +2381,7 @@ rawArray
 )
 ;
 return
-SECSuccess
+srv
 ;
 }
 NS_IMETHODIMP
@@ -3552,6 +3555,8 @@ proofOfLock
 continue
 ;
 }
+rv
+=
 ImportCertsIntoPermanentStorage
 (
 certChain
@@ -3559,6 +3564,18 @@ certUsageAnyCA
 true
 )
 ;
+if
+(
+rv
+!
+=
+SECSuccess
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 }
 return
 NS_OK
