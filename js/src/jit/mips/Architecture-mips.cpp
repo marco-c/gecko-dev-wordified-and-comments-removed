@@ -26,6 +26,15 @@ unistd
 h
 >
 #
+include
+"
+jit
+/
+RegisterSets
+.
+h
+"
+#
 define
 HWCAP_MIPS
 (

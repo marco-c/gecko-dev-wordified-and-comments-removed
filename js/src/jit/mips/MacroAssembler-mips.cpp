@@ -6630,7 +6630,7 @@ callee
 {
 ma_callIonNoPush
 (
-reg
+callee
 )
 ;
 subPtr
@@ -16361,6 +16361,7 @@ offset
 =
 ToggledCallSize
 (
+nullptr
 )
 )
 ;

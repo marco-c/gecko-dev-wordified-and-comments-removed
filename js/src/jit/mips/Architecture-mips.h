@@ -6,6 +6,15 @@ define
 jit_mips_Architecture_mips_h
 #
 include
+"
+mozilla
+/
+MathAlgorithms
+.
+h
+"
+#
+include
 <
 limits
 .
