@@ -417,3 +417,11 @@ FINAL_LIBRARY
 '
 toolkitcomps
 '
+DEFINES
+[
+'
+GOOGLE_PROTOBUF_NO_RTTI
+'
+]
+=
+True
