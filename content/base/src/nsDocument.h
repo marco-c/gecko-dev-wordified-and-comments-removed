@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
@@ -410,6 +403,13 @@ h
 include
 "
 nsIDOMXPathEvaluator
+.
+h
+"
+#
+include
+"
+jsfriendapi
 .
 h
 "

@@ -292,6 +292,13 @@ nsDOMEvent
 h
 "
 #
+include
+"
+nsEventListenerManager
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #

@@ -41,13 +41,6 @@ h
 #
 include
 "
-nsEventListenerManager
-.
-h
-"
-#
-include
-"
 nsPIWindowRoot
 .
 h
@@ -56,6 +49,13 @@ h
 include
 "
 nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
+nsAutoPtr
 .
 h
 "

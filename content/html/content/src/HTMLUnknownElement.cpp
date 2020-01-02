@@ -27,6 +27,13 @@ HTMLElementBinding
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 NS_IMPL_NS_NEW_HTML_ELEMENT
 (
 Unknown
