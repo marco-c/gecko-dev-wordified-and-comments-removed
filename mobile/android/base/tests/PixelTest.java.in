@@ -338,6 +338,13 @@ blockForEvent
 (
 )
 ;
+waitForText
+(
+StringHelper
+.
+TITLE_PLACE_HOLDER
+)
+;
 loadAndPaint
 (
 url
