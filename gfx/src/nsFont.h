@@ -162,9 +162,6 @@ bool
 systemFont
 ;
 uint8_t
-variant
-;
-uint8_t
 variantCaps
 ;
 uint8_t
@@ -238,8 +235,6 @@ FontFamilyList
 aFontlist
 uint8_t
 aStyle
-uint8_t
-aVariant
 uint16_t
 aWeight
 int16_t
@@ -259,8 +254,6 @@ FontFamilyType
 aGenericType
 uint8_t
 aStyle
-uint8_t
-aVariant
 uint16_t
 aWeight
 int16_t
