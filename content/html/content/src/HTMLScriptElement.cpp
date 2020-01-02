@@ -50,13 +50,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

@@ -236,13 +236,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h

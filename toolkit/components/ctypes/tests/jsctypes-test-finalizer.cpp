@@ -26,13 +26,6 @@ finalizer
 h
 "
 #
-include
-"
-jsapi
-.
-h
-"
-#
 if
 defined
 (

@@ -155,13 +155,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsAppShellService
 .
 h

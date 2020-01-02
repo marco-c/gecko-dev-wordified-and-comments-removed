@@ -24,13 +24,6 @@ endif
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h

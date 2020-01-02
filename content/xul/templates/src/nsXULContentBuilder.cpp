@@ -192,13 +192,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h

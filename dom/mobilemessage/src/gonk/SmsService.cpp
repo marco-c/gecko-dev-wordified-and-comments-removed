@@ -15,13 +15,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 SmsSegmentInfo
 .
 h

@@ -11,6 +11,13 @@ nsIScriptContext
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 class
 nsIJSArgArray
 ;
