@@ -6417,7 +6417,7 @@ XP_MACOSX
 )
 static
 bool
-sHandlersInstalled
+sInstalledHandlers
 =
 false
 ;
@@ -6482,7 +6482,7 @@ rt
 else
 if
 (
-sHandlersInstalled
+sInstalledHandlers
 )
 return
 true
@@ -6550,7 +6550,7 @@ false
 ;
 #
 endif
-sHandlersInstalled
+sInstalledHandlers
 =
 true
 ;
