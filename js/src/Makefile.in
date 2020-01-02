@@ -908,11 +908,6 @@ check
 check
 -
 style
-check
--
-jit
--
-test
 #
 jstests
 doesn
