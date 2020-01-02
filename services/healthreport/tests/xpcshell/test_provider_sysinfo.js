@@ -164,7 +164,7 @@ getMeasurement
 "
 sysinfo
 "
-1
+2
 )
 ;
 let
@@ -209,7 +209,7 @@ do_check_eq
 d
 .
 _v
-1
+2
 )
 ;
 do_check_true
