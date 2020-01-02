@@ -39,6 +39,13 @@ h
 "
 #
 include
+"
+nsDebug
+.
+h
+"
+#
+include
 <
 limits
 .
