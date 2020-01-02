@@ -98,11 +98,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-Accounts
-.
-jsm
-'
-'
 ContactService
 .
 jsm
