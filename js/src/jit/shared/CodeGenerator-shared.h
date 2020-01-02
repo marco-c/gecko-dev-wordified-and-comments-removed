@@ -1021,6 +1021,17 @@ T
 )
 )
 ;
+if
+(
+masm
+.
+oom
+(
+)
+)
+return
+SIZE_MAX
+;
 JS_ASSERT
 (
 index
