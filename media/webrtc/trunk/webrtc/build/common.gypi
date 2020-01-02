@@ -1504,15 +1504,7 @@ id
 WEBRTC_SVNREVISION
 =
 "
-\
-\
-\
-"
 Unavailable_issue687
-\
-\
-\
-"
 "
 '
 #
