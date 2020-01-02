@@ -3162,7 +3162,7 @@ pattern
 .
 SetLength
 (
-sMaxVibrateMS
+sMaxVibrateListLen
 )
 ;
 }
