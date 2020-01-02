@@ -239,6 +239,15 @@ pref_category_home
 "
 android
 :
+summary
+=
+"
+string
+/
+pref_category_home_summary
+"
+android
+:
 fragment
 =
 "

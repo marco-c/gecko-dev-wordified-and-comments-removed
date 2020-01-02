@@ -910,6 +910,16 @@ Home
 <
 !
 ENTITY
+pref_category_home_summary
+"
+Customize
+your
+homepage
+"
+>
+<
+!
+ENTITY
 pref_category_home_panels
 "
 Panels
