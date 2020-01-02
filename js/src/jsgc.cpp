@@ -11281,11 +11281,8 @@ TraceLogger
 *
 logger
 =
-TraceLoggerForThread
+TraceLoggerForCurrentThread
 (
-PR_GetCurrentThread
-(
-)
 )
 ;
 for

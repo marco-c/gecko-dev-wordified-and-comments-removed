@@ -3800,9 +3800,8 @@ TraceLogger
 *
 logger
 =
-TraceLoggerForThread
+TraceLoggerForCurrentThread
 (
-thread
 )
 ;
 AutoTraceLog

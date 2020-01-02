@@ -1043,11 +1043,8 @@ runtime
 else
 logger
 =
-TraceLoggerForThread
+TraceLoggerForCurrentThread
 (
-PR_GetCurrentThread
-(
-)
 )
 ;
 uint32_t
