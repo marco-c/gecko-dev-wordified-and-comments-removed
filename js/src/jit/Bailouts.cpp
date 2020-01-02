@@ -103,7 +103,7 @@ IonBailoutIterator
 iter
 )
 :
-SnapshotReader
+snapshot_
 (
 iter
 .
