@@ -303,7 +303,7 @@ result
 ;
 result
 .
-xx
+_11
 =
 aData
 -
@@ -319,7 +319,7 @@ GetFloatValue
 ;
 result
 .
-yx
+_12
 =
 aData
 -
@@ -335,7 +335,7 @@ GetFloatValue
 ;
 result
 .
-xy
+_21
 =
 aData
 -
@@ -351,7 +351,7 @@ GetFloatValue
 ;
 result
 .
-yy
+_22
 =
 aData
 -
@@ -367,7 +367,7 @@ GetFloatValue
 ;
 result
 .
-x0
+_31
 =
 ProcessTranslatePart
 (
@@ -390,7 +390,7 @@ Width
 ;
 result
 .
-y0
+_32
 =
 ProcessTranslatePart
 (

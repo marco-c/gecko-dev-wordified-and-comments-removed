@@ -1717,7 +1717,7 @@ fabs
 (
 rotation
 .
-xx
+_11
 )
 <
 1e
@@ -1729,7 +1729,7 @@ if
 (
 rotation
 .
-xy
+_21
 <
 0
 )
@@ -1738,7 +1738,7 @@ if
 (
 rotation
 .
-yx
+_12
 >
 0
 )
@@ -1791,7 +1791,7 @@ if
 (
 rotation
 .
-yx
+_12
 <
 0
 )
@@ -1844,7 +1844,7 @@ if
 (
 rotation
 .
-xx
+_11
 <
 0
 )
@@ -1853,7 +1853,7 @@ if
 (
 rotation
 .
-yy
+_22
 >
 0
 )
@@ -1901,7 +1901,7 @@ if
 (
 rotation
 .
-yy
+_22
 <
 0
 )

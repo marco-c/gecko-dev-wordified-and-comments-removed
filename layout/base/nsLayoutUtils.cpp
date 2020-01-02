@@ -24807,7 +24807,7 @@ HasNonAxisAlignedTransform
 &
 currentMatrix
 .
-xx
+_11
 >
 0
 .
@@ -24816,7 +24816,7 @@ xx
 &
 currentMatrix
 .
-yy
+_22
 >
 0
 .
@@ -25066,14 +25066,14 @@ scaleX
 =
 currentMatrix
 .
-xx
+_11
 ;
 scaleY
 /
 =
 currentMatrix
 .
-yy
+_22
 ;
 }
 gfxFloat
