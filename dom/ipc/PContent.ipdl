@@ -1897,6 +1897,10 @@ nsCString
 aMimeContentType
 nsCString
 aContentDisposition
+uint32_t
+aContentDispositionHint
+nsString
+aContentDispositionFilename
 bool
 aForceSave
 int64_t

@@ -10698,6 +10698,14 @@ nsCString
 &
 aContentDisposition
 const
+uint32_t
+&
+aContentDispositionHint
+const
+nsString
+&
+aContentDispositionFilename
+const
 bool
 &
 aForceSave
@@ -10740,6 +10748,8 @@ Init
 this
 aMimeContentType
 aContentDisposition
+aContentDispositionHint
+aContentDispositionFilename
 aForceSave
 aReferrer
 aBrowser

@@ -159,6 +159,14 @@ nsCString
 &
 aContentDisposition
 const
+uint32_t
+&
+aContentDispositionHint
+const
+nsString
+&
+aContentDispositionFilename
+const
 bool
 &
 aForceSave
