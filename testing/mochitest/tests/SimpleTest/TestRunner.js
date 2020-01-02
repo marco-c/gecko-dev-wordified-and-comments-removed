@@ -420,6 +420,12 @@ false
 ;
 TestRunner
 .
+quiet
+=
+false
+;
+TestRunner
+.
 slowestTestTime
 =
 0
