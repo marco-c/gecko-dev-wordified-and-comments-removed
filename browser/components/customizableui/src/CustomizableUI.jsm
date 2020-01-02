@@ -897,6 +897,9 @@ home
 -
 button
 "
+#
+ifdef
+MOZ_LOOP
 "
 loop
 -
@@ -904,6 +907,8 @@ call
 -
 button
 "
+#
+endif
 "
 social
 -
@@ -3240,14 +3245,6 @@ node
 }
 else
 {
-this
-.
-setLocationAttributes
-(
-currentNode
-aArea
-)
-;
 node
 .
 setAttribute
