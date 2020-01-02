@@ -16,8 +16,6 @@ h
 #
 include
 "
-nspr
-/
 prlog
 .
 h
