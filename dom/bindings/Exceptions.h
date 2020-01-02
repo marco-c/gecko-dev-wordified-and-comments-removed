@@ -33,7 +33,7 @@ template
 class
 T
 >
-class
+struct
 already_AddRefed
 ;
 namespace
