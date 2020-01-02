@@ -7849,7 +7849,17 @@ new_
 IonBuilder
 >
 (
+(
+JSContext
+*
+)
+nullptr
 cx
+-
+>
+compartment
+(
+)
 temp
 graph
 constraints
