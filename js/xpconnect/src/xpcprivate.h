@@ -607,9 +607,6 @@ XPC_TRACK_WRAPPER_STATS
 define
 XPC_TRACK_SCOPE_STATS
 #
-define
-XPC_TRACK_PROTO_STATS
-#
 endif
 #
 define
