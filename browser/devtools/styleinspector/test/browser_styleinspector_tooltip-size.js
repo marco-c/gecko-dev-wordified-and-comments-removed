@@ -181,6 +181,8 @@ tooltip
 =
 ruleView
 .
+tooltips
+.
 previewTooltip
 ;
 let
@@ -405,6 +407,8 @@ let
 cPicker
 =
 ruleView
+.
+tooltips
 .
 colorPicker
 ;

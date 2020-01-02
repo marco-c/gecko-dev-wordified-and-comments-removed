@@ -164,6 +164,8 @@ cPicker
 =
 ruleView
 .
+tooltips
+.
 colorPicker
 ;
 let

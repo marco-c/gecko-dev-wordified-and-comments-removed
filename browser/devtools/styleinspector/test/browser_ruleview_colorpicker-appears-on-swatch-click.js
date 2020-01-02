@@ -284,6 +284,8 @@ cPicker
 =
 view
 .
+tooltips
+.
 colorPicker
 ;
 ok

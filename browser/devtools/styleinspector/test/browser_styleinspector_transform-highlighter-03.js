@@ -81,6 +81,13 @@ n
 "
 )
 ;
+const
+TYPE
+=
+"
+CssTransformHighlighter
+"
+;
 let
 test
 =
@@ -180,7 +187,12 @@ false
 ;
 rView
 .
-transformHighlighterPromise
+highlighters
+.
+promises
+[
+TYPE
+]
 =
 {
 then
@@ -234,6 +246,8 @@ called
 ;
 rView
 .
+highlighters
+.
 _onMouseMove
 (
 {
@@ -257,6 +271,8 @@ shown
 )
 ;
 rView
+.
+highlighters
 .
 _onMouseLeave
 (
@@ -311,6 +327,8 @@ nbOfTimesShown
 ;
 rView
 .
+highlighters
+.
 _onMouseMove
 (
 {
@@ -339,6 +357,8 @@ once
 ;
 rView
 .
+highlighters
+.
 _onMouseMove
 (
 {
@@ -349,6 +369,8 @@ valueSpan
 )
 ;
 rView
+.
+highlighters
 .
 _onMouseMove
 (
@@ -422,6 +444,8 @@ transform
 ;
 rView
 .
+highlighters
+.
 _onMouseMove
 (
 {
@@ -482,6 +506,8 @@ transform
 )
 ;
 rView
+.
+highlighters
 .
 _onMouseMove
 (
@@ -553,6 +579,8 @@ color
 )
 ;
 rView
+.
+highlighters
 .
 _onMouseMove
 (

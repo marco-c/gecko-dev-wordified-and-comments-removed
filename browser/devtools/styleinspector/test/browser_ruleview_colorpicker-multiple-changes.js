@@ -255,6 +255,8 @@ picker
 =
 ruleView
 .
+tooltips
+.
 colorPicker
 ;
 let
@@ -472,6 +474,8 @@ let
 picker
 =
 ruleView
+.
+tooltips
 .
 colorPicker
 ;
@@ -720,6 +724,8 @@ let
 picker
 =
 ruleView
+.
+tooltips
 .
 colorPicker
 ;

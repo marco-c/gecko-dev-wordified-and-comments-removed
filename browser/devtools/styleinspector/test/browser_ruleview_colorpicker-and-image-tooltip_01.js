@@ -222,6 +222,8 @@ isHoverTooltipTarget
 (
 ruleView
 .
+tooltips
+.
 previewTooltip
 url
 )
@@ -279,6 +281,8 @@ let
 picker
 =
 ruleView
+.
+tooltips
 .
 colorPicker
 ;
@@ -460,6 +464,8 @@ yield
 isHoverTooltipTarget
 (
 ruleView
+.
+tooltips
 .
 previewTooltip
 url

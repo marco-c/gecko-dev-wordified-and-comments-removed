@@ -364,6 +364,8 @@ ok
 !
 view
 .
+tooltips
+.
 colorPicker
 .
 swatches
