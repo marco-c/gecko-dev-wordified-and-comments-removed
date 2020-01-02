@@ -3554,11 +3554,9 @@ compiler
 version
 CC_VERSION
 =
-"
 {
 CC
 }
-"
 -
 v
 2
@@ -3654,11 +3652,9 @@ _CC_MINOR_VERSION
 }
 CXX_VERSION
 =
-"
 {
 CXX
 }
-"
 -
 v
 2
