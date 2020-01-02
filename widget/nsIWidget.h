@@ -1666,6 +1666,15 @@ aType
 =
 0
 ;
+virtual
+void
+SetDrawsTitle
+(
+bool
+aDrawTitle
+)
+{
+}
 NS_IMETHOD
 HideWindowChrome
 (

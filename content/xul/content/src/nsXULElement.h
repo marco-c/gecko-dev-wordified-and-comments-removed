@@ -2867,6 +2867,13 @@ aState
 )
 ;
 void
+SetDrawsTitle
+(
+bool
+aState
+)
+;
+void
 RemoveBroadcaster
 (
 const
