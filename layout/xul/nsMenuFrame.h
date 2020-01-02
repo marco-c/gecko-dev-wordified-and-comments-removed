@@ -399,6 +399,12 @@ GetScrollTargetFrame
 )
 MOZ_OVERRIDE
 ;
+nsIContent
+*
+GetAnchor
+(
+)
+;
 void
 OpenMenu
 (

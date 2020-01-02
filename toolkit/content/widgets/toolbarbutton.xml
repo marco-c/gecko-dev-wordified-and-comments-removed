@@ -477,6 +477,11 @@ accesskey
 xul
 :
 dropmarker
+anonid
+=
+"
+dropmarker
+"
 type
 =
 "
@@ -698,6 +703,11 @@ vbox
 xul
 :
 dropmarker
+anonid
+=
+"
+dropmarker
+"
 type
 =
 "
@@ -893,6 +903,11 @@ toolbarbutton
 -
 menubutton
 -
+dropmarker
+"
+anonid
+=
+"
 dropmarker
 "
 xbl

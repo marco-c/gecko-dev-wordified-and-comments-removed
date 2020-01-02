@@ -2208,7 +2208,7 @@ false
 <
 xul
 :
-box
+vbox
 anonid
 =
 "
@@ -2352,7 +2352,7 @@ box
 /
 xul
 :
-box
+vbox
 >
 <
 /
@@ -2784,6 +2784,7 @@ container
 orient
 =
 "
+horizontal
 "
 ;
 arrowbox
@@ -2984,7 +2985,6 @@ container
 orient
 =
 "
-vertical
 "
 ;
 arrowbox

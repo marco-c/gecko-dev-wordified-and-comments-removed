@@ -1660,6 +1660,7 @@ SetPopupPosition
 (
 nullptr
 true
+false
 )
 ;
 }
@@ -1913,6 +1914,7 @@ SetPopupPosition
 (
 nullptr
 true
+false
 )
 ;
 }
@@ -3011,7 +3013,12 @@ popupFrame
 >
 InitializePopup
 (
-aMenu
+menuFrame
+-
+>
+GetAnchor
+(
+)
 nullptr
 position
 0

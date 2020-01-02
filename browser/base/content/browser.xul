@@ -6982,6 +6982,11 @@ bookmarksMenuButton
 tooltip
 ;
 "
+anchor
+=
+"
+dropmarker
+"
 ondragenter
 =
 "
@@ -7066,15 +7071,6 @@ openInTabs
 =
 "
 children
-"
-anonanchorclass
-=
-"
-toolbarbutton
--
-menubutton
--
-dropmarker
 "
 oncommand
 =
