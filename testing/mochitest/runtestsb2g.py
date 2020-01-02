@@ -2156,6 +2156,23 @@ getMarionetteOrExit
 kwargs
 )
     
+if
+options
+.
+emulator
+:
+        
+dm
+=
+marionette
+.
+emulator
+.
+dm
+    
+else
+:
+        
 kwargs
 =
 {
@@ -2166,7 +2183,7 @@ adbPath
 options
 .
 adbPath
-              
+                  
 '
 deviceRoot
 '
@@ -2175,13 +2192,13 @@ options
 .
 remoteTestRoot
 }
-    
+        
 if
 options
 .
 deviceIP
 :
-        
+            
 kwargs
 .
 update
@@ -2194,7 +2211,7 @@ host
 options
 .
 deviceIP
-                       
+                           
 '
 port
 '
@@ -2204,7 +2221,7 @@ options
 devicePort
 }
 )
-    
+        
 dm
 =
 DeviceManagerADB

@@ -1425,6 +1425,23 @@ Marionette
 kwargs
 )
     
+if
+options
+.
+emulator
+:
+        
+dm
+=
+marionette
+.
+emulator
+.
+dm
+    
+else
+:
+        
 kwargs
 =
 {
@@ -1436,13 +1453,13 @@ options
 .
 adb_path
 }
-    
+        
 if
 options
 .
 deviceIP
 :
-        
+            
 kwargs
 [
 '
@@ -1453,7 +1470,7 @@ host
 options
 .
 deviceIP
-        
+            
 kwargs
 [
 '
@@ -1464,7 +1481,7 @@ port
 options
 .
 devicePort
-    
+        
 kwargs
 [
 '
@@ -1475,7 +1492,7 @@ deviceRoot
 options
 .
 remoteTestRoot
-    
+        
 dm
 =
 devicemanagerADB
