@@ -108,7 +108,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -342,7 +342,7 @@ ok
 isCaretPos
 (
 gPanel
-6
+1
 )
 "
 The
@@ -466,7 +466,7 @@ gPanel
 .
 js
 "
-5
+1
 )
 .
 then
@@ -676,7 +676,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -886,7 +886,7 @@ gPanel
 .
 js
 "
-5
+1
 )
 .
 then
@@ -1096,7 +1096,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then

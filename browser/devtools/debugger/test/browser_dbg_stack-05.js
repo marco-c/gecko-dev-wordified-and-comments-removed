@@ -106,7 +106,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -327,7 +327,7 @@ ok
 isCaretPos
 (
 gPanel
-6
+1
 )
 "
 Editor
@@ -335,6 +335,9 @@ caret
 location
 is
 correct
+(
+1
+)
 .
 "
 )
@@ -353,7 +356,7 @@ gEditor
 getDebugLocation
 (
 )
-5
+0
 "
 Editor
 debug
@@ -459,6 +462,9 @@ caret
 location
 is
 correct
+(
+2
+)
 .
 "
 )
@@ -529,7 +535,7 @@ gPanel
 .
 js
 "
-5
+1
 )
 .
 then
@@ -609,7 +615,7 @@ ok
 isCaretPos
 (
 gPanel
-5
+1
 )
 "
 Editor
@@ -617,6 +623,9 @@ caret
 location
 is
 correct
+(
+3
+)
 .
 "
 )
@@ -635,7 +644,7 @@ gEditor
 getDebugLocation
 (
 )
-4
+0
 "
 Editor
 debug
@@ -741,6 +750,9 @@ caret
 location
 is
 correct
+(
+4
+)
 .
 "
 )

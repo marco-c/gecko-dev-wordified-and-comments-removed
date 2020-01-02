@@ -108,7 +108,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -261,7 +261,7 @@ ok
 isCaretPos
 (
 gPanel
-6
+1
 )
 "
 The
@@ -688,7 +688,7 @@ gPanel
 js
 "
 1
-5
+1
 )
 .
 then
@@ -738,7 +738,7 @@ isCaretPos
 (
 gPanel
 1
-5
+1
 )
 "
 The
@@ -766,7 +766,6 @@ getSelection
 (
 )
 "
-A
 "
 "
 The
@@ -974,8 +973,8 @@ gPanel
 .
 js
 "
-6
-6
+1
+1
 )
 .
 then
@@ -1024,8 +1023,8 @@ ok
 isCaretPos
 (
 gPanel
-6
-6
+1
+1
 )
 "
 The
@@ -1053,7 +1052,6 @@ getSelection
 (
 )
 "
-a
 "
 "
 The

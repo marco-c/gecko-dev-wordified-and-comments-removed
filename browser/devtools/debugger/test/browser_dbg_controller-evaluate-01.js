@@ -349,14 +349,14 @@ panel
 .
 js
 "
-6
+1
 )
 ;
 checkView
 (
 0
 1
-6
+1
 [
 /
 secondCall
@@ -455,7 +455,7 @@ checkView
 (
 0
 1
-6
+1
 [
 /
 secondCall
@@ -580,7 +580,7 @@ checkView
 (
 0
 1
-6
+1
 [
 /
 secondCall

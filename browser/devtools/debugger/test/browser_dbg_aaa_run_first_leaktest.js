@@ -89,7 +89,7 @@ aPanel
 .
 js
 "
-6
+1
 )
 .
 then

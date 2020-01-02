@@ -113,7 +113,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -575,7 +575,7 @@ ok
 isCaretPos
 (
 gPanel
-6
+1
 )
 "
 Editor
@@ -601,7 +601,7 @@ gEditor
 getDebugLocation
 (
 )
-5
+0
 "
 Editor
 debugger
@@ -618,7 +618,7 @@ gEditor
 .
 hasLineClass
 (
-5
+0
 "
 debug
 -
@@ -632,6 +632,9 @@ line
 is
 highlighted
 appropriately
+(
+1
+)
 .
 "
 )
@@ -995,7 +998,7 @@ ok
 isCaretPos
 (
 gPanel
-6
+1
 )
 "
 Editor
@@ -1014,7 +1017,7 @@ gEditor
 getDebugLocation
 (
 )
-5
+0
 "
 Editor
 debugger
@@ -1031,7 +1034,7 @@ gEditor
 .
 hasLineClass
 (
-5
+0
 "
 debug
 -
@@ -1045,6 +1048,9 @@ line
 is
 highlighted
 appropriately
+(
+2
+)
 .
 "
 )
@@ -1255,7 +1261,7 @@ ok
 isCaretPos
 (
 gPanel
-5
+1
 )
 "
 Editor
@@ -1274,7 +1280,7 @@ gEditor
 getDebugLocation
 (
 )
-4
+0
 "
 Editor
 debugger
@@ -1291,7 +1297,7 @@ gEditor
 .
 hasLineClass
 (
-4
+0
 "
 debug
 -
@@ -1305,6 +1311,9 @@ line
 is
 highlighted
 appropriately
+(
+3
+)
 .
 "
 )

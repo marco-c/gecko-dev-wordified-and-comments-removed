@@ -66,7 +66,7 @@ assertEq
 offset
 .
 lineNumber
-17
+1
 )
 ;
 global

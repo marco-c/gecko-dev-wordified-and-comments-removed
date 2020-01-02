@@ -135,7 +135,7 @@ gPanel
 .
 js
 "
-6
+1
 )
 .
 then
@@ -375,7 +375,7 @@ ok
 isCaretPos
 (
 gPanel
-6
+1
 1
 )
 "
@@ -400,8 +400,8 @@ isEditorSel
 (
 gPanel
 [
-165
-165
+1
+1
 ]
 )
 "

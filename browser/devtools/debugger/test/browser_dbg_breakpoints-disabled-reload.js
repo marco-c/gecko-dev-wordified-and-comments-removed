@@ -477,7 +477,7 @@ aPanel
 .
 js
 "
-6
+1
 )
 ;
 yield
@@ -560,7 +560,7 @@ aPanel
 .
 js
 "
-5
+1
 )
 ;
 yield
@@ -601,7 +601,7 @@ aPanel
 .
 js
 "
-6
+1
 )
 ;
 yield
@@ -699,7 +699,7 @@ yield
 ensureCaretAt
 (
 aPanel
-6
+1
 )
 ;
 yield
@@ -755,7 +755,7 @@ yield
 ensureCaretAt
 (
 aPanel
-6
+1
 )
 ;
 yield
