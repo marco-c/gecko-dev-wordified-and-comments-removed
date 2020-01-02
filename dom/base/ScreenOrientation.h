@@ -61,6 +61,16 @@ eScreenOrientation_LandscapeSecondary
 <
 3
 ;
+static
+const
+ScreenOrientation
+eScreenOrientation_Default
+=
+1u
+<
+<
+4
+;
 }
 }
 #

@@ -731,6 +731,9 @@ eScreenOrientation_LandscapePrimary
 |
 eScreenOrientation_LandscapeSecondary
 :
+case
+eScreenOrientation_Default
+:
 bridge
 -
 >
