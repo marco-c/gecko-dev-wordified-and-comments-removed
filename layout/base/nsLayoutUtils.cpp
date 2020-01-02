@@ -21386,7 +21386,10 @@ imageRect
 drawingParams
 .
 mFillRect
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 aFilter
 )
 ;
@@ -24620,7 +24623,10 @@ data
 Stride
 (
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 ctx

@@ -182,6 +182,9 @@ GetD2DDevice
 (
 cairo_format_t
 )
+(
+int
+)
 imageFormat
 size
 .

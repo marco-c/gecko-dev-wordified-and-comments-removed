@@ -1280,7 +1280,10 @@ scale
 gfxImageFormat
 format
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 ;
 uint32_t
 stride

@@ -3047,7 +3047,10 @@ Format
 )
 {
 case
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 :
 mFormat
 =
@@ -3067,7 +3070,10 @@ bpp
 break
 ;
 case
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 :
 mFormat
 =
@@ -3087,7 +3093,10 @@ bpp
 break
 ;
 case
-gfxImageFormatA8
+gfxImageFormat
+:
+:
+A8
 :
 mFormat
 =

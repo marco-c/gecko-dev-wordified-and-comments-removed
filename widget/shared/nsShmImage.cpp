@@ -465,7 +465,10 @@ shm
 >
 mFormat
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 ;
 break
 ;
@@ -481,7 +484,10 @@ shm
 >
 mFormat
 =
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 ;
 break
 ;

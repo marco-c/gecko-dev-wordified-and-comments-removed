@@ -5441,7 +5441,10 @@ if
 format
 =
 =
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 {
 int32_t

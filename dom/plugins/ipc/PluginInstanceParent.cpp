@@ -3908,7 +3908,10 @@ aSize
 .
 height
 )
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 return

@@ -11391,7 +11391,10 @@ gfxSize
 1
 1
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 }

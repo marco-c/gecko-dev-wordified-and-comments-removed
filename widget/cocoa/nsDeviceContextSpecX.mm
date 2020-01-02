@@ -767,7 +767,10 @@ int32_t
 )
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 true
 )
 ;

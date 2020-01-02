@@ -1461,7 +1461,10 @@ surfaceSize
 width
 *
 4
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 if
@@ -3063,7 +3066,10 @@ new
 gfxImageSurface
 (
 aScaledSize
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if

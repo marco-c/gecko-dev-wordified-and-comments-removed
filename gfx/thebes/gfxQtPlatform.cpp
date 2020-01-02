@@ -290,7 +290,10 @@ static
 gfxImageFormat
 sOffscreenFormat
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 ;
 gfxQtPlatform
 :
@@ -432,7 +435,10 @@ depth
 {
 sOffscreenFormat
 =
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 ;
 }
 mScreenDepth

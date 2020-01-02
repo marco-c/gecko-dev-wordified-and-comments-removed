@@ -110,7 +110,10 @@ size
 gfxImageFormat
 imageFormat
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 gfxWindowsSurface
@@ -124,7 +127,10 @@ size
 gfxImageFormat
 imageFormat
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 )
 ;
 gfxWindowsSurface

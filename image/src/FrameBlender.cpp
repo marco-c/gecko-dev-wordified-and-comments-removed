@@ -1087,7 +1087,10 @@ width
 mSize
 .
 height
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if
@@ -1770,7 +1773,10 @@ width
 mSize
 .
 height
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if

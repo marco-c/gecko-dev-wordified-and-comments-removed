@@ -1664,7 +1664,10 @@ GetOffscreenFormat
 )
 {
 return
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 ;
 }
 static

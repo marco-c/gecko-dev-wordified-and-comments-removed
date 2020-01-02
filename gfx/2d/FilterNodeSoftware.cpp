@@ -146,9 +146,15 @@ SurfaceFormat
 :
 A8
 ?
-gfxImageFormatA8
+gfxImageFormat
 :
-gfxImageFormatARGB32
+:
+A8
+:
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 imageSurface

@@ -61,7 +61,7 @@ width
 int32_t
 height
 ;
-int32_t
+gfxImageFormat
 format
 ;
 int32_t

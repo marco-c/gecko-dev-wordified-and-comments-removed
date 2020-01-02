@@ -3238,7 +3238,10 @@ gfxIntSize
 48
 48
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 gfxContext

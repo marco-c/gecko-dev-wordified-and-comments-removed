@@ -247,6 +247,15 @@ Point
 h
 "
 ;
+using
+gfxImageFormat
+from
+"
+gfxTypes
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -717,7 +726,7 @@ data
 nsIntRect
 picture
 ;
-uint32_t
+gfxImageFormat
 rgbFormat
 ;
 uint64_t
@@ -737,7 +746,7 @@ size
 uint32_t
 stride
 ;
-uint32_t
+gfxImageFormat
 format
 ;
 }

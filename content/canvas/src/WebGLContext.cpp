@@ -2849,7 +2849,10 @@ gfxIntSize
 mWidth
 mHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if
@@ -3492,7 +3495,10 @@ gfxIntSize
 mWidth
 mHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if

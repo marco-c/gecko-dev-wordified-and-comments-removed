@@ -2453,7 +2453,10 @@ new
 gfxImageSurface
 (
 surfaceSize
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 nsRefPtr
@@ -3252,7 +3255,10 @@ imageRect
 aParams
 .
 imageRect
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 GraphicsFilter
 :
 :
@@ -3374,7 +3380,10 @@ imageRect
 aParams
 .
 fill
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 aParams
 .
 filter

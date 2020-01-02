@@ -1426,7 +1426,10 @@ request
 dstSize
 .
 height
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 if
@@ -3245,7 +3248,10 @@ mSize
 .
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 gfxContext
@@ -7765,7 +7771,10 @@ width
 mSize
 .
 height
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 mDecoder

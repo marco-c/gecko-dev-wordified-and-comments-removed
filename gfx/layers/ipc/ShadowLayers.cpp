@@ -3870,7 +3870,10 @@ aDescriptor
 NS_ENSURE_TRUE
 (
 surface
-gfxImageFormatUnknown
+gfxImageFormat
+:
+:
+Unknown
 )
 ;
 nsRefPtr
@@ -3889,7 +3892,10 @@ GetAsImageSurface
 NS_ENSURE_TRUE
 (
 img
-gfxImageFormatUnknown
+gfxImageFormat
+:
+:
+Unknown
 )
 ;
 format
@@ -3906,7 +3912,10 @@ NS_ASSERTION
 format
 !
 =
-gfxImageFormatUnknown
+gfxImageFormat
+:
+:
+Unknown
 "
 ImageSurface
 RGB
@@ -4279,7 +4288,10 @@ NS_ASSERTION
 format
 !
 =
-gfxImageFormatUnknown
+gfxImageFormat
+:
+:
+Unknown
 "
 ImageSurface
 RGB

@@ -133,7 +133,10 @@ if
 aFormat
 =
 =
-gfxImageFormatA8
+gfxImageFormat
+:
+:
+A8
 )
 {
 return
@@ -627,7 +630,10 @@ ThebesIntSize
 (
 aSize
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 nsRefPtr

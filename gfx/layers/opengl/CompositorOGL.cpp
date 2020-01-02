@@ -7626,7 +7626,10 @@ height
 map
 .
 mStride
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 ReadPixelsIntoImageSurface

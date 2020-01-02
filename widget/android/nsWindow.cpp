@@ -5143,7 +5143,10 @@ bytesPerPixel
 gfxImageFormat
 format
 =
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 ;
 if
 (
@@ -5169,7 +5172,10 @@ bytesPerPixel
 ;
 format
 =
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 ;
 }
 layers

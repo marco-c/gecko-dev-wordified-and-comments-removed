@@ -1267,7 +1267,10 @@ GetSize
 (
 )
 )
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 )
 ;
 uint32_t

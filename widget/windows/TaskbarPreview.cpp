@@ -1421,7 +1421,10 @@ gfxIntSize
 width
 height
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 nsCOMPtr

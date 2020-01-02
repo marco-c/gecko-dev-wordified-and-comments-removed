@@ -27052,7 +27052,10 @@ gfxIntSize
 aNewWidth
 aNewHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 mTransparentSurface
@@ -27082,7 +27085,10 @@ gfxIntSize
 aNewWidth
 aNewHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 mTransparentSurface

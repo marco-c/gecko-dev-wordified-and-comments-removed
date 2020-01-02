@@ -2397,7 +2397,10 @@ gfxIntSize
 scaledWidth
 scaledHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 NS_ENSURE_TRUE

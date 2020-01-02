@@ -181,7 +181,10 @@ aFormat
 )
 {
 case
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 :
 return
 QImage
@@ -190,7 +193,10 @@ QImage
 Format_ARGB32_Premultiplied
 ;
 case
-gfxImageFormatRGB24
+gfxImageFormat
+:
+:
+RGB24
 :
 return
 QImage
@@ -199,7 +205,10 @@ QImage
 Format_ARGB32
 ;
 case
-gfxImageFormatRGB16_565
+gfxImageFormat
+:
+:
+RGB16_565
 :
 return
 QImage

@@ -1270,7 +1270,10 @@ black
 Stride
 (
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 mContext

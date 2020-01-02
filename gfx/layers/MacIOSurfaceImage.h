@@ -208,7 +208,10 @@ gfxIntSize
 ioWidth
 ioHeight
 )
-gfxImageFormatARGB32
+gfxImageFormat
+:
+:
+ARGB32
 )
 ;
 for
