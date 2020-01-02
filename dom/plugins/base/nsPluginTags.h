@@ -349,6 +349,11 @@ EnsureMembersAreUTF8
 (
 )
 ;
+void
+FixupVersion
+(
+)
+;
 }
 ;
 #
