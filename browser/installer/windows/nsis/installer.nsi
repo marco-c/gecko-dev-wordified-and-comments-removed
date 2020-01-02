@@ -2101,7 +2101,7 @@ URL
 "
 \
 "
-delete
+true
 "
 ;
 For

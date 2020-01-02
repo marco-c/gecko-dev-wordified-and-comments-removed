@@ -3263,7 +3263,7 @@ URL
 "
 \
 "
-delete
+true
 "
 Call
 RegisterCEH
@@ -5666,7 +5666,7 @@ AppRegName
 URL
 "
 "
-delete
+true
 "
 {
 EndIf
