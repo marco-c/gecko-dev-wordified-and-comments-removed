@@ -1175,7 +1175,7 @@ NS_OK
 nsEventStatus
 status
 ;
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true

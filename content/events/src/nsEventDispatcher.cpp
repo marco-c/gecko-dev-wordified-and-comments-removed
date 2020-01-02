@@ -3348,7 +3348,7 @@ aOwner
 aPresContext
 static_cast
 <
-WheelEvent
+WidgetWheelEvent
 *
 >
 (

@@ -13202,7 +13202,7 @@ MPARAM
 mp2
 )
 {
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true

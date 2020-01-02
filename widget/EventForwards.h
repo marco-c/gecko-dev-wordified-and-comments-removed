@@ -163,13 +163,5 @@ class
 InternalMutationEvent
 ;
 }
-namespace
-mozilla
-{
-typedef
-WidgetWheelEvent
-WheelEvent
-;
-}
 #
 endif

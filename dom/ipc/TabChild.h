@@ -975,7 +975,7 @@ const
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 &
 event
 )

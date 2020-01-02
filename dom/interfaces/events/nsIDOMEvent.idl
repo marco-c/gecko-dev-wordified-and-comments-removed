@@ -1706,7 +1706,7 @@ aPresContext
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )

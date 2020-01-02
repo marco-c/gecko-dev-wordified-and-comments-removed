@@ -473,7 +473,7 @@ InitWheelEvent
 nsWindowBase
 *
 aWidget
-WheelEvent
+WidgetWheelEvent
 &
 aWheelEvent
 const

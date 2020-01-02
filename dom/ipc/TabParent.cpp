@@ -2887,7 +2887,7 @@ TabParent
 :
 SendMouseWheelEvent
 (
-WheelEvent
+WidgetWheelEvent
 &
 event
 )
@@ -2901,7 +2901,7 @@ return
 false
 ;
 }
-WheelEvent
+WidgetWheelEvent
 e
 (
 event

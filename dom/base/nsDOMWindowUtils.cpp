@@ -3655,7 +3655,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true

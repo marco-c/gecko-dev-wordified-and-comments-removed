@@ -668,7 +668,7 @@ PanDeltaToPixelScroll
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 &
 aWheelEvent
 )

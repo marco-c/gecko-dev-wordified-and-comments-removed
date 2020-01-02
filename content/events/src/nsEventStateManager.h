@@ -250,7 +250,7 @@ aTargetFrame
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsEventStatus
@@ -933,7 +933,7 @@ ApplyUserPrefsToDelta
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -944,7 +944,7 @@ CancelApplyingUserPrefsFromOverflowDelta
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -973,7 +973,7 @@ ComputeActionFor
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -984,7 +984,7 @@ NeedToComputeLineOrPageDelta
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -995,7 +995,7 @@ IsOverOnePageScrollAllowedX
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -1006,7 +1006,7 @@ IsOverOnePageScrollAllowedY
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -1055,7 +1055,7 @@ GetIndexFor
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -1150,7 +1150,7 @@ aTargetFrame
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsEventStatus
@@ -1171,7 +1171,7 @@ aTargetFrame
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsEventStatus
@@ -1240,7 +1240,7 @@ aTargetFrame
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 ComputeScrollTargetOptions
@@ -1261,7 +1261,7 @@ aDirectionY
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 ComputeScrollTargetOptions
@@ -1277,7 +1277,7 @@ aPresContext
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 nsIScrollableFrame
@@ -1294,7 +1294,7 @@ aScrollableFrame
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -1405,7 +1405,7 @@ aESM
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 )
@@ -1421,7 +1421,7 @@ ComputeScrollAmountForDefaultAction
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 *
 aEvent
 const

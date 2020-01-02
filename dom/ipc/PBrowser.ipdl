@@ -321,7 +321,7 @@ using
 mozilla
 :
 :
-WheelEvent
+WidgetWheelEvent
 ;
 using
 nsRect
@@ -2294,7 +2294,7 @@ event
 ;
 MouseWheelEvent
 (
-WheelEvent
+WidgetWheelEvent
 event
 )
 ;

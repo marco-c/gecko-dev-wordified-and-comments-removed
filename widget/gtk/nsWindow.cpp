@@ -12695,7 +12695,7 @@ false
 )
 return
 ;
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true

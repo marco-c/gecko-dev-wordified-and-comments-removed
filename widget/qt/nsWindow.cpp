@@ -9528,7 +9528,7 @@ QGraphicsSceneWheelEvent
 aEvent
 )
 {
-WheelEvent
+WidgetWheelEvent
 wheelEvent
 (
 true

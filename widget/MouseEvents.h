@@ -1152,10 +1152,6 @@ mViewPortIsOverscrolled
 }
 }
 ;
-typedef
-WidgetWheelEvent
-WheelEvent
-;
 }
 #
 endif
