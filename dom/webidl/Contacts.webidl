@@ -749,8 +749,12 @@ contact
 DOMRequest
 remove
 (
+(
 mozContact
-contact
+or
+DOMString
+)
+contactOrId
 )
 ;
 DOMRequest
