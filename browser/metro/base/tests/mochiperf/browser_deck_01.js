@@ -137,7 +137,7 @@ MozDeckOffsetChanged
 ;
 ContentAreaObserver
 .
-_shiftBrowserDeck
+shiftBrowserDeck
 (
 300
 )
@@ -157,7 +157,7 @@ MozDeckOffsetChanged
 ;
 ContentAreaObserver
 .
-_shiftBrowserDeck
+shiftBrowserDeck
 (
 0
 )
