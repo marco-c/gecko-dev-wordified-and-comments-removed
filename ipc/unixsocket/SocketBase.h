@@ -1207,7 +1207,7 @@ RemoveElementAt
 )
 ;
 delete
-data
+outgoing
 ;
 }
 }
