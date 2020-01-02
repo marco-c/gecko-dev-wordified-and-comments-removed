@@ -793,6 +793,11 @@ ForceComposition
 (
 )
 ;
+void
+CancelCurrentCompositeTask
+(
+)
+;
 inline
 static
 PlatformThreadId
