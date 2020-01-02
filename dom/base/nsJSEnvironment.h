@@ -801,9 +801,8 @@ const
 char
 *
 aFallbackMessage
-nsIPrincipal
-*
-aGlobalPrincipal
+bool
+aIsChromeError
 nsPIDOMWindow
 *
 aWindow
