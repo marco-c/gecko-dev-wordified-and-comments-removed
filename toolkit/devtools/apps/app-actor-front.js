@@ -206,13 +206,6 @@ isHidden
 |
 file
 .
-isSymlink
-(
-)
-|
-|
-file
-.
 isSpecial
 (
 )
