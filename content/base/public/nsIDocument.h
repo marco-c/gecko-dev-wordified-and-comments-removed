@@ -2002,6 +2002,7 @@ nsPIDOMWindow
 GetInnerWindow
 (
 )
+const
 {
 return
 mRemovedFromDocShell
