@@ -3910,12 +3910,6 @@ PlatformHandle
 (
 )
 ;
-ScopedClose
-autoClose
-(
-fd
-)
-;
 if
 (
 aOptions
