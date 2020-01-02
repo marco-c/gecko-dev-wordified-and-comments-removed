@@ -377,7 +377,10 @@ toVariant
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+HandleValue
 from
 JSVariant
 *
