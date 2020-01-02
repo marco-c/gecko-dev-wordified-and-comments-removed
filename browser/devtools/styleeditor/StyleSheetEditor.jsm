@@ -978,6 +978,8 @@ sourceEditor
 on
 (
 "
+dirty
+-
 change
 "
 this
