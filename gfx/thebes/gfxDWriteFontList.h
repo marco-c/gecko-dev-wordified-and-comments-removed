@@ -1158,6 +1158,10 @@ const
 nsAString
 &
 aFamily
+bool
+aUseSystemFonts
+=
+false
 )
 ;
 virtual

@@ -6349,6 +6349,8 @@ const
 nsAString
 &
 aFamily
+bool
+aUseSystemFonts
 )
 {
 if
