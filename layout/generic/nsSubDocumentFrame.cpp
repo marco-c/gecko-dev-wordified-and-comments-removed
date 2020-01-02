@@ -2371,9 +2371,6 @@ return
 result
 ;
 }
-nsIFrame
-:
-:
 IntrinsicSize
 nsSubDocumentFrame
 :

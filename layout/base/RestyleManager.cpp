@@ -11376,12 +11376,11 @@ GetPrevContinuation
 &
 &
 !
-nsLayoutUtils
-:
-:
+mFrame
+-
+>
 FrameIsNonFirstInIBSplit
 (
-mFrame
 )
 )
 {

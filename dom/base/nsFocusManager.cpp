@@ -231,6 +231,13 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ContentEvents

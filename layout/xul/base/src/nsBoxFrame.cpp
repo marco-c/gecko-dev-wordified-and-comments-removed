@@ -223,6 +223,13 @@ h
 "
 #
 include
+"
+nsLayoutUtils
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -8198,7 +8205,7 @@ SupportsOrdinalsInChildren
 &
 &
 !
-nsLayoutUtils
+nsIFrame
 :
 :
 IsFrameListSorted
@@ -8210,7 +8217,7 @@ mFrames
 )
 )
 {
-nsLayoutUtils
+nsIFrame
 :
 :
 SortFrameList

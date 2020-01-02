@@ -868,9 +868,6 @@ return
 result
 ;
 }
-nsIFrame
-:
-:
 IntrinsicSize
 nsSVGOuterSVGFrame
 :

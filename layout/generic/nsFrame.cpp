@@ -17870,9 +17870,6 @@ return
 result
 ;
 }
-nsIFrame
-:
-:
 IntrinsicSize
 nsFrame
 :

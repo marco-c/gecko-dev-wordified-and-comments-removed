@@ -1080,9 +1080,6 @@ aImage
 return
 false
 ;
-nsIFrame
-:
-:
 IntrinsicSize
 oldIntrinsicSize
 =
@@ -1090,9 +1087,6 @@ mIntrinsicSize
 ;
 mIntrinsicSize
 =
-nsIFrame
-:
-:
 IntrinsicSize
 (
 )
@@ -3384,9 +3378,6 @@ GetCoordValue
 0
 ;
 }
-nsIFrame
-:
-:
 IntrinsicSize
 nsImageFrame
 :
