@@ -275,7 +275,7 @@ needsBarrier_
 public
 :
 enum
-CompartmentGCState
+GCState
 {
 NoGC
 Mark
@@ -289,7 +289,7 @@ private
 bool
 gcScheduled
 ;
-CompartmentGCState
+GCState
 gcState
 ;
 bool
@@ -363,7 +363,7 @@ NoGC
 void
 setGCState
 (
-CompartmentGCState
+GCState
 state
 )
 {
