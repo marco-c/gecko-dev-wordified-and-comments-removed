@@ -205,3 +205,14 @@ config
 mozbuild
 '
 )
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+toolkit
+/
+xre
+'
+]

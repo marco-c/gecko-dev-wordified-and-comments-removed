@@ -614,6 +614,17 @@ CONFIG
 TARGET_XPCOM_ABI
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+build
+'
+]
 if
 CONFIG
 [

@@ -2215,14 +2215,6 @@ RM
 (
 DIST_GARBAGE
 )
-INCLUDES
-+
-=
--
-I
-(
-srcdir
-)
 ifneq
 (
 (

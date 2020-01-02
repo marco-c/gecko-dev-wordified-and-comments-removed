@@ -245,3 +245,17 @@ MOZ_NO_MOZALLOC
 ]
 =
 True
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+.
+.
+/
+build
+'
+]

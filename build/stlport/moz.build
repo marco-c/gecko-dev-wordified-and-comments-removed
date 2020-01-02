@@ -343,3 +343,11 @@ _GNU_SOURCE
 ]
 =
 True
+LOCAL_INCLUDES
++
+=
+[
+'
+stlport
+'
+]

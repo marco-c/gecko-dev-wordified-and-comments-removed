@@ -605,3 +605,14 @@ TestStringAPI
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+ds
+'
+]

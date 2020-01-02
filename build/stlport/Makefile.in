@@ -110,13 +110,3 @@ fuse
 cxa
 -
 atexit
-INCLUDES
-+
-=
--
-I
-(
-srcdir
-)
-/
-stlport

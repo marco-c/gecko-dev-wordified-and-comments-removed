@@ -141,3 +141,11 @@ strset
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+stub
+'
+]

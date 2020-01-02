@@ -216,3 +216,16 @@ FINAL_LIBRARY
 '
 spellchecker
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+extensions
+/
+spellcheck
+/
+src
+'
+]
