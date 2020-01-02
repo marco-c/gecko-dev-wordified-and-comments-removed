@@ -4593,6 +4593,11 @@ stage
 -
 cppunittests
 :
+make
+-
+stage
+-
+dir
 (
 NSINSTALL
 )
@@ -4759,6 +4764,11 @@ stage
 -
 jittest
 :
+make
+-
+stage
+-
+dir
 (
 NSINSTALL
 )
@@ -4898,6 +4908,11 @@ stage
 -
 steeplechase
 :
+make
+-
+stage
+-
+dir
 (
 NSINSTALL
 )
