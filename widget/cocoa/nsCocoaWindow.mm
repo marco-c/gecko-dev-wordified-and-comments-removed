@@ -6328,6 +6328,7 @@ if
 (
 mPopupContentView
 )
+{
 mPopupContentView
 -
 >
@@ -6336,6 +6337,17 @@ Show
 bState
 )
 ;
+[
+[
+mWindow
+contentView
+]
+setNeedsDisplay
+:
+YES
+]
+;
+}
 [
 mWindow
 setBeingShown
