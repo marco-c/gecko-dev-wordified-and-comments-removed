@@ -59,6 +59,9 @@ gtk
 h
 >
 #
+ifdef
+MOZ_ENABLE_DBUS
+#
 include
 <
 dbus
@@ -82,6 +85,8 @@ lowlevel
 .
 h
 >
+#
+endif
 char
 *
 get_content_type_from_mime_type
@@ -1632,6 +1637,14 @@ nsACString
 aPath
 )
 {
+#
+ifndef
+MOZ_ENABLE_DBUS
+return
+NS_ERROR_FAILURE
+;
+#
+else
 GError
 *
 error
@@ -1848,6 +1861,8 @@ NS_ERROR_NOT_AVAILABLE
 return
 NS_OK
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsGIOService
