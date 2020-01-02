@@ -3522,6 +3522,9 @@ Version
 {
 StubURLVersion
 }
+{
+StubURLVersionAppend
+}
 \
 \
 nBuild
@@ -3776,6 +3779,9 @@ BaseURLStubPing
 /
 {
 StubURLVersion
+}
+{
+StubURLVersionAppend
 }
 /
 {
@@ -7380,6 +7386,9 @@ Get
 "
 {
 URLStubDownload
+}
+{
+URLParamAppend
 }
 "
 "
@@ -11246,6 +11255,9 @@ open
 "
 {
 URLManualDownload
+}
+{
+URLParamAppend
 }
 "
 FunctionEnd
