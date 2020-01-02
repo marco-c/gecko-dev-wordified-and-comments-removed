@@ -1975,7 +1975,6 @@ key
 &
 IsInsideNursery
 (
-rt
 key
 )
 )

@@ -388,12 +388,6 @@ needsBarrier_
 #
 ifdef
 JSGC_GENERATIONAL
-uintptr_t
-gcNurseryStart_
-;
-uintptr_t
-gcNurseryEnd_
-;
 private
 :
 js
@@ -435,14 +429,6 @@ false
 #
 ifdef
 JSGC_GENERATIONAL
-gcNurseryStart_
-(
-0
-)
-gcNurseryEnd_
-(
-0
-)
 gcStoreBufferPtr_
 (
 storeBuffer

@@ -1073,15 +1073,6 @@ if
 (
 IsInsideNursery
 (
-priv
-.
-toObject
-(
-)
-.
-runtimeFromMainThread
-(
-)
 &
 priv
 .
