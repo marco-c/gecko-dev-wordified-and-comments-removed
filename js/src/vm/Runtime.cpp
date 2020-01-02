@@ -132,6 +132,12 @@ jswrapper
 h
 "
 #
+if
+defined
+(
+JS_ION
+)
+#
 include
 "
 assembler
@@ -142,6 +148,8 @@ MacroAssembler
 .
 h
 "
+#
+endif
 #
 include
 "
