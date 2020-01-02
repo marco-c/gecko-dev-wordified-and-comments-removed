@@ -128,6 +128,13 @@ Release
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+Destroy
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 Mutex
