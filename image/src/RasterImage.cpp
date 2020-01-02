@@ -12687,6 +12687,16 @@ NS_OK
 ;
 if
 (
+aImg
+-
+>
+mPendingError
+)
+return
+NS_OK
+;
+if
+(
 !
 aImg
 -
