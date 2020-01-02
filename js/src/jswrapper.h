@@ -1394,8 +1394,6 @@ HandleObject
 obj
 HandleObject
 parent
-unsigned
-flags
 )
 ;
 extern

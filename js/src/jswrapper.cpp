@@ -803,8 +803,6 @@ HandleObject
 obj
 HandleObject
 parent
-unsigned
-flags
 )
 {
 JS_ASSERT

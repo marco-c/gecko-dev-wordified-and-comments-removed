@@ -1972,10 +1972,12 @@ objGlobal
 )
 )
 ;
-unsigned
-flags
-=
-0
+RootedObject
+objectPassedToWrap
+(
+cx
+obj
+)
 ;
 obj
 .
@@ -1985,8 +1987,6 @@ UncheckedUnwrap
 (
 obj
 true
-&
-flags
 )
 )
 ;
@@ -2090,7 +2090,7 @@ preWrap
 cx
 global
 obj
-flags
+objectPassedToWrap
 )
 )
 ;
@@ -2291,7 +2291,6 @@ cx
 existing
 obj
 global
-flags
 )
 )
 ;

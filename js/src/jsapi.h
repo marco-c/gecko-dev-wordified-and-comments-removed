@@ -3118,8 +3118,6 @@ JS
 :
 HandleObject
 parent
-unsigned
-flags
 )
 ;
 typedef
@@ -3143,8 +3141,11 @@ JS
 :
 HandleObject
 obj
-unsigned
-flags
+JS
+:
+:
+HandleObject
+objectPassedToWrap
 )
 ;
 struct
