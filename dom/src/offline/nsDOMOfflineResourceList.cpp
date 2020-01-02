@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMLoadStatus
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

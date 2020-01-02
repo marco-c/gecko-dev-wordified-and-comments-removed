@@ -201,16 +201,6 @@ the
 prefetch
 queue
 .
-Each
-element
-in
-the
-*
-enumeration
-is
-an
-nsIDOMLoadStatus
-.
 *
 /
 nsISimpleEnumerator
