@@ -139,6 +139,16 @@ sharedID
 (
 NULL
 )
+ANDROID_MANIFEST_FILE
+:
+=
+(
+CURDIR
+)
+/
+AndroidManifest
+.
+xml
 include
 (
 topsrcdir
