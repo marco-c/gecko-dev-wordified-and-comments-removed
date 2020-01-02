@@ -144,8 +144,6 @@ public
 MockGlobalSession
 (
 String
-clusterURL
-String
 username
 String
 password
@@ -163,7 +161,6 @@ NonObjectJSONException
 {
 super
 (
-clusterURL
 username
 password
 null

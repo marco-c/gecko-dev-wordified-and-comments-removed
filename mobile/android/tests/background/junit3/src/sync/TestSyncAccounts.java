@@ -973,9 +973,9 @@ getSharedPreferences
 context
 TEST_PRODUCT
 TEST_USERNAME
-SyncAccounts
+SyncConstants
 .
-DEFAULT_SERVER
+DEFAULT_AUTH_SERVER
 TEST_PROFILE
 TEST_VERSION
 )
