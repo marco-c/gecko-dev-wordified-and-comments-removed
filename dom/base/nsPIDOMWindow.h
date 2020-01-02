@@ -653,6 +653,17 @@ return
 mDoc
 ;
 }
+virtual
+NS_HIDDEN_
+(
+bool
+)
+IsRunningTimeout
+(
+)
+=
+0
+;
 protected
 :
 void
