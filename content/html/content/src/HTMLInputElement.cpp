@@ -660,13 +660,10 @@ NS_XULCONTROLLERS_CID
 )
 ;
 inline
-NS_HIDDEN_
-(
 mozilla
 :
 :
 Decimal
-)
 NS_floorModulo
 (
 mozilla

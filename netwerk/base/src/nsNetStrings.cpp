@@ -12,11 +12,8 @@ nsChannelProperties
 .
 h
 "
-NS_HIDDEN_
-(
 nsNetStrings
 *
-)
 gNetStrings
 ;
 nsNetStrings

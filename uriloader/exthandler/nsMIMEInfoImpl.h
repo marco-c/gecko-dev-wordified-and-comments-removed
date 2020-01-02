@@ -381,10 +381,7 @@ Length
 protected
 :
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchDefaultWithFile
 (
 nsIFile
@@ -395,10 +392,7 @@ aFile
 0
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI
@@ -424,10 +418,7 @@ aResult
 )
 ;
 static
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchWithIProcess
 (
 nsIFile
@@ -440,10 +431,7 @@ aArg
 )
 ;
 static
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchWithIProcess
 (
 nsIFile
@@ -456,10 +444,7 @@ aArg
 )
 ;
 static
-NS_HIDDEN_
-(
 nsresult
-)
 GetLocalFileFromURI
 (
 nsIURI
@@ -612,10 +597,7 @@ aApp
 protected
 :
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchDefaultWithFile
 (
 nsIFile
@@ -624,10 +606,7 @@ aFile
 )
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI

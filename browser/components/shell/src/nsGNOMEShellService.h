@@ -66,10 +66,7 @@ nsGNOMEShellService
 )
 {
 }
-NS_HIDDEN_
-(
 bool
-)
 KeyMatchesAppName
 (
 const
@@ -79,10 +76,7 @@ aKeyValue
 )
 const
 ;
-NS_HIDDEN_
-(
 bool
-)
 CheckHandlerMatchesAppName
 (
 const
@@ -92,10 +86,7 @@ handler
 )
 const
 ;
-NS_HIDDEN_
-(
 bool
-)
 GetAppPathFromLauncher
 (
 )

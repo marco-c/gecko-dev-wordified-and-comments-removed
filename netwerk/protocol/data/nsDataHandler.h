@@ -49,10 +49,7 @@ aResult
 )
 ;
 static
-NS_HIDDEN_
-(
 nsresult
-)
 ParseURI
 (
 nsCString

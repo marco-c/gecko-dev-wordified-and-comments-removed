@@ -149,10 +149,7 @@ false
 )
 {
 }
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 nsIURI
@@ -160,10 +157,7 @@ nsIURI
 uri
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 InitSrcdoc
 (
 nsIURI

@@ -19,10 +19,7 @@ nsIOutputStream
 .
 h
 "
-NS_HIDDEN_
-(
 nsresult
-)
 ZW_ReadData
 (
 nsIInputStream
@@ -95,10 +92,7 @@ return
 NS_OK
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 ZW_WriteData
 (
 nsIOutputStream

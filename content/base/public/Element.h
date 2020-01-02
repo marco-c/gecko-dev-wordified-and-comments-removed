@@ -3135,10 +3135,7 @@ GetEditorInternal
 (
 )
 ;
-NS_HIDDEN_
-(
 bool
-)
 GetBoolAttr
 (
 nsIAtom
@@ -3155,10 +3152,7 @@ aAttr
 )
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 SetBoolAttr
 (
 nsIAtom

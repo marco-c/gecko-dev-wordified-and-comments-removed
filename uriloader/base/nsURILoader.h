@@ -106,10 +106,7 @@ nsURILoader
 ;
 protected
 :
-NS_HIDDEN_
-(
 nsresult
-)
 OpenChannel
 (
 nsIChannel

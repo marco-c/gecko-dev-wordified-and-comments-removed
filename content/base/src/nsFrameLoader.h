@@ -517,10 +517,7 @@ nsIFrameLoader
 NS_DECL_NSIFRAMELOADER
 NS_DECL_NSICONTENTVIEWMANAGER
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
-NS_HIDDEN_
-(
 nsresult
-)
 CheckForRecursiveLoad
 (
 nsIURI
@@ -950,10 +947,7 @@ nsRect
 aRect
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 UpdateBaseWindowPositionAndSize
 (
 nsSubDocumentFrame

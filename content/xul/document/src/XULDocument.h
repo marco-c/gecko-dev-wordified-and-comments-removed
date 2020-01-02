@@ -1112,10 +1112,7 @@ GetWindowRoot
 )
 ;
 static
-NS_HIDDEN_
-(
 void
-)
 DirectionChanged
 (
 const

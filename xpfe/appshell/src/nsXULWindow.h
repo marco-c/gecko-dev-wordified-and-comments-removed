@@ -377,10 +377,7 @@ GetWindowDOMElement
 )
 const
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ContentShellAdded
 (
 nsIDocShellTreeItem
@@ -396,10 +393,7 @@ nsAString
 aID
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ContentShellRemoved
 (
 nsIDocShellTreeItem

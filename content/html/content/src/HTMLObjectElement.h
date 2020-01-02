@@ -1010,10 +1010,7 @@ GetContentDocument
 }
 private
 :
-NS_HIDDEN_
-(
 void
-)
 StartObjectLoad
 (
 bool

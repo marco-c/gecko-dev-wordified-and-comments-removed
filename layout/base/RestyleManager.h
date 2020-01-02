@@ -216,10 +216,7 @@ return
 mAnimationGeneration
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 ReparentStyleContext
 (
 nsIFrame
@@ -227,10 +224,7 @@ nsIFrame
 aFrame
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 ComputeStyleChangeFor
 (
 nsIFrame
@@ -251,10 +245,7 @@ aRestyleDescendants
 #
 ifdef
 DEBUG
-NS_HIDDEN_
-(
 void
-)
 DebugVerifyStyleTree
 (
 nsIFrame

@@ -276,13 +276,10 @@ nsPresContext
 aPresContext
 )
 ;
-NS_HIDDEN_
-(
 already_AddRefed
 <
 nsIPresShell
 >
-)
 GetPresShell
 (
 )

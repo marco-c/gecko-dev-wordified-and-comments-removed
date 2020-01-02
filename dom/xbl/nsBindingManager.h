@@ -428,10 +428,7 @@ nsCSSStyleSheet
 aArray
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 Traverse
 (
 nsIContent

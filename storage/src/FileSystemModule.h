@@ -20,10 +20,7 @@ mozilla
 namespace
 storage
 {
-NS_HIDDEN_
-(
 int
-)
 RegisterFileSystemModule
 (
 sqlite3

@@ -99,10 +99,7 @@ ProcessType
 ;
 #
 endif
-NS_HIDDEN_
-(
 nsresult
-)
 ProcessUpdates
 (
 nsIFile

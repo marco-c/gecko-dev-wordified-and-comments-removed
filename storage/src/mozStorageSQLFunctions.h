@@ -24,10 +24,7 @@ mozilla
 namespace
 storage
 {
-NS_HIDDEN_
-(
 int
-)
 registerFunctions
 (
 sqlite3
@@ -35,10 +32,7 @@ sqlite3
 aDB
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 caseFunction
 (
 sqlite3_context
@@ -52,10 +46,7 @@ sqlite3_value
 aArgv
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 likeFunction
 (
 sqlite3_context
@@ -69,10 +60,7 @@ sqlite3_value
 aArgv
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 levenshteinDistanceFunction
 (
 sqlite3_context

@@ -87,10 +87,7 @@ Shutdown
 (
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 nsIURI

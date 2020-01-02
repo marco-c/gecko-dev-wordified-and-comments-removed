@@ -101,10 +101,7 @@ aResult
 )
 ;
 virtual
-NS_HIDDEN_
-(
 bool
-)
 GetWidgetPadding
 (
 nsDeviceContext
@@ -121,10 +118,7 @@ aResult
 )
 ;
 virtual
-NS_HIDDEN_
-(
 bool
-)
 GetWidgetOverflow
 (
 nsDeviceContext

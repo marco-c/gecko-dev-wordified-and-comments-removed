@@ -39,10 +39,7 @@ h
 #
 endif
 inline
-NS_HIDDEN_
-(
 double
-)
 NS_round
 (
 double
@@ -77,10 +74,7 @@ x
 ;
 }
 inline
-NS_HIDDEN_
-(
 float
-)
 NS_roundf
 (
 float
@@ -115,10 +109,7 @@ x
 ;
 }
 inline
-NS_HIDDEN_
-(
 int32_t
-)
 NS_lround
 (
 double
@@ -172,10 +163,7 @@ defined
 __GNUC__
 )
 inline
-NS_HIDDEN_
-(
 int32_t
-)
 NS_lroundup30
 (
 float
@@ -239,10 +227,7 @@ i
 #
 endif
 inline
-NS_HIDDEN_
-(
 int32_t
-)
 NS_lroundf
 (
 float
@@ -277,10 +262,7 @@ x
 ;
 }
 inline
-NS_HIDDEN_
-(
 double
-)
 NS_hypot
 (
 double
@@ -323,10 +305,7 @@ y
 endif
 }
 inline
-NS_HIDDEN_
-(
 bool
-)
 NS_finite
 (
 double
@@ -371,10 +350,7 @@ d
 endif
 }
 inline
-NS_HIDDEN_
-(
 double
-)
 NS_floorModulo
 (
 double

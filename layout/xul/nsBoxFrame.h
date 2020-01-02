@@ -798,10 +798,7 @@ bool
 aDoReg
 )
 ;
-NS_HIDDEN_
-(
 void
-)
 CheckBoxOrder
 (
 )

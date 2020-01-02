@@ -117,10 +117,7 @@ nsIFile
 >
 mExecutable
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 LaunchWithIProcess
 (
 const

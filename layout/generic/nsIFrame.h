@@ -5783,10 +5783,7 @@ false
 =
 0
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 Layout
 (
 nsBoxLayoutState
@@ -5857,10 +5854,7 @@ return
 nullptr
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 GetClientRect
 (
 nsRect
@@ -5920,10 +5914,7 @@ NS_STATE_IS_DIRECTION_NORMAL
 0
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 Redraw
 (
 nsBoxLayoutState

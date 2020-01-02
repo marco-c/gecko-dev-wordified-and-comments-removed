@@ -11,10 +11,7 @@ nsITransport
 .
 h
 "
-NS_HIDDEN_
-(
 nsresult
-)
 net_NewTransportEventSinkProxy
 (
 nsITransportEventSink

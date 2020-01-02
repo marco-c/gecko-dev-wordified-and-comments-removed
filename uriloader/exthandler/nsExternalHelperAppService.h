@@ -242,10 +242,7 @@ nsExternalHelperAppService
 (
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 )
@@ -287,10 +284,7 @@ aFile
 )
 ;
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 OSProtocolHandlerExists
 (
 const
@@ -306,10 +300,7 @@ aExists
 ;
 protected
 :
-NS_HIDDEN_
-(
 nsresult
-)
 FillMIMEInfoForMimeTypeFromExtras
 (
 const
@@ -321,10 +312,7 @@ nsIMIMEInfo
 aMIMEInfo
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 FillMIMEInfoForExtensionFromExtras
 (
 const
@@ -336,10 +324,7 @@ nsIMIMEInfo
 aMIMEInfo
 )
 ;
-NS_HIDDEN_
-(
 bool
-)
 GetTypeFromExtras
 (
 const

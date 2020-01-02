@@ -50,10 +50,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIGNOMEVFSSERVICE
-NS_HIDDEN_
-(
 nsresult
-)
 Init
 (
 )

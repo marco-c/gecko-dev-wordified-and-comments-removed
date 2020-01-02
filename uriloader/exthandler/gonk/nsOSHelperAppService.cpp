@@ -37,10 +37,7 @@ aMIMEType
 protected
 :
 virtual
-NS_HIDDEN_
-(
 nsresult
-)
 LoadUriInternal
 (
 nsIURI

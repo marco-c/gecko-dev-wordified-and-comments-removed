@@ -94,10 +94,7 @@ nsInputStreamPump
 )
 ;
 static
-NS_HIDDEN_
-(
 nsresult
-)
 Create
 (
 nsInputStreamPump
@@ -149,10 +146,7 @@ uint32_t
 bufLen
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 PeekStream
 (
 PeekSegmentFun
