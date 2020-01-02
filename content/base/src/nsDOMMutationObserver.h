@@ -126,6 +126,13 @@ MutationObserverBinding
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 class
 nsDOMMutationObserver
 ;

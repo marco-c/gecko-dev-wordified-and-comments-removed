@@ -407,6 +407,11 @@ Element
 h
 '
 '
+ElementInlines
+.
+h
+'
+'
 FragmentOrElement
 .
 h

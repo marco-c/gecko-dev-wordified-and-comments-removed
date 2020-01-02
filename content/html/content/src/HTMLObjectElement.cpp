@@ -32,6 +32,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ElementInlines
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

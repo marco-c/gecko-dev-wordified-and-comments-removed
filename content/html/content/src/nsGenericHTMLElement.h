@@ -93,6 +93,17 @@ ValidityState
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ElementInlines
+.
+h
+"
 class
 nsIDOMAttr
 ;

@@ -72,6 +72,13 @@ h
 "
 #
 include
+"
+nsIDocument
+.
+h
+"
+#
+include
 <
 math
 .

@@ -171,6 +171,17 @@ DOMRect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ElementInlines
+.
+h
+"
 class
 nsIDocument
 ;

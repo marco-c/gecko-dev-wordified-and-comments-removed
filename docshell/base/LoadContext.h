@@ -45,6 +45,13 @@ nsIInterfaceRequestor
 .
 h
 "
+#
+include
+"
+nsILoadContext
+.
+h
+"
 class
 mozIApplication
 ;

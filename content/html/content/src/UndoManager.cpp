@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

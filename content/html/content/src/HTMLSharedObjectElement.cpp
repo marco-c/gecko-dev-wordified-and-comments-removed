@@ -36,6 +36,17 @@ include
 "
 mozilla
 /
+dom
+/
+ElementInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h

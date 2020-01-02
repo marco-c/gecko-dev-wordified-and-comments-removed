@@ -68,6 +68,13 @@ nsIBaseWindow
 .
 h
 "
+#
+include
+"
+nsIDocument
+.
+h
+"
 nsPrintObject
 :
 :
