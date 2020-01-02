@@ -3262,6 +3262,15 @@ checkRequestDepth
 endif
 #
 endif
+#
+ifdef
+DEBUG
+JSContext
+*
+activeContext
+;
+#
+endif
 bool
 gcInitialized
 ;

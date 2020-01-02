@@ -10677,8 +10677,15 @@ public
 :
 XPCJSContextStack
 (
+XPCJSRuntime
+*
+aRuntime
 )
 :
+mRuntime
+(
+aRuntime
+)
 mSafeJSContext
 (
 nullptr
@@ -10819,6 +10826,10 @@ XPCJSContextInfo
 16
 >
 mStack
+;
+XPCJSRuntime
+*
+mRuntime
 ;
 JSContext
 *
