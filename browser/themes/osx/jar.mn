@@ -260,7 +260,7 @@ classic
 /
 browser
 /
-customizationui
+customizableui
 /
 customization
 -
@@ -270,7 +270,7 @@ background
 .
 jpg
 (
-customizationui
+customizableui
 /
 customization
 -
