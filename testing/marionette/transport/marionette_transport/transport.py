@@ -762,6 +762,12 @@ socket
 "
 "
         
+if
+self
+.
+sock
+:
+            
 self
 .
 sock
