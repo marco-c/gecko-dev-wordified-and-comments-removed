@@ -2181,8 +2181,7 @@ lastModifiedTime
 =
 mtime
 -
-(
-14
+8
 *
 24
 *
@@ -2191,9 +2190,6 @@ mtime
 60
 *
 1000
-+
-60000
-)
 ;
 TelemetryPing
 .
