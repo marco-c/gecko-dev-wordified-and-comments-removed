@@ -144,7 +144,7 @@ getSimpleName
 ;
 public
 enum
-PageType
+PanelType
 {
 HISTORY
 TOP_SITES
@@ -220,7 +220,7 @@ AboutHomeComponent
 assertCurrentPage
 (
 final
-PageType
+PanelType
 expectedPage
 )
 {
@@ -649,7 +649,7 @@ final
 String
 pageName
 =
-PageType
+PanelType
 .
 values
 (

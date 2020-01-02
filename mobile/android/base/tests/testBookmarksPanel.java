@@ -18,7 +18,7 @@ gecko
 ;
 public
 class
-testBookmarksPage
+testBookmarksPanel
 extends
 AboutHomeTest
 {
@@ -34,7 +34,7 @@ TEST_MOCHITEST
 }
 public
 void
-testBookmarksPage
+testBookmarksPanel
 (
 )
 {

@@ -2370,7 +2370,7 @@ background
 >
 drawable
 /
-home_page_title_background
+home_panel_title_background
 <
 /
 item
@@ -2450,7 +2450,7 @@ Widget
 .
 Home
 .
-HistoryPageTitle
+HistoryPanelTitle
 "
 parent
 =

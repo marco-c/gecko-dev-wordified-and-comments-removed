@@ -441,7 +441,7 @@ view
 String
 url
 =
-TopSitesPage
+TopSitesPanel
 .
 decodeUserEnteredUrl
 (

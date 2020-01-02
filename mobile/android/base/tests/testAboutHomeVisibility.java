@@ -36,7 +36,7 @@ components
 .
 AboutHomeComponent
 .
-PageType
+PanelType
 ;
 import
 org
@@ -86,7 +86,7 @@ assertVisible
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )
@@ -153,7 +153,7 @@ assertVisible
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )
@@ -196,7 +196,7 @@ assertVisible
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )

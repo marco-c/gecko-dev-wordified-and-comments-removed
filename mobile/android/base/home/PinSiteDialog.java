@@ -492,7 +492,7 @@ final
 String
 url
 =
-TopSitesPage
+TopSitesPanel
 .
 encodeUserEnteredUrl
 (

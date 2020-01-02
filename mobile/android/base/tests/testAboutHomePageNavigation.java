@@ -36,7 +36,7 @@ components
 .
 AboutHomeComponent
 .
-PageType
+PanelType
 ;
 import
 org
@@ -77,7 +77,7 @@ assertVisible
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )
@@ -92,7 +92,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 BOOKMARKS
 )
@@ -107,7 +107,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 READING_LIST
 )
@@ -150,7 +150,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 HISTORY
 )
@@ -165,7 +165,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 HISTORY
 )
@@ -180,7 +180,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 READING_LIST
 )
@@ -195,7 +195,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 BOOKMARKS
 )
@@ -210,7 +210,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )
@@ -225,7 +225,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )
@@ -247,7 +247,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 READING_LIST
 )
@@ -262,7 +262,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 BOOKMARKS
 )
@@ -277,7 +277,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )
@@ -292,7 +292,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 HISTORY
 )
@@ -307,7 +307,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 HISTORY
 )
@@ -322,7 +322,7 @@ mAboutHome
 .
 assertCurrentPage
 (
-PageType
+PanelType
 .
 TOP_SITES
 )

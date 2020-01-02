@@ -611,7 +611,7 @@ Grid
 List
 views
 in
-BookmarksPage
+BookmarksPanel
 .
 BookmarksListView
 has
