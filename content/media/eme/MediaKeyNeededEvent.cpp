@@ -463,8 +463,7 @@ aRetVal
 mInitDataType
 ;
 }
-JSObject
-*
+void
 MediaKeyNeededEvent
 :
 :
@@ -473,6 +472,15 @@ GetInitData
 JSContext
 *
 cx
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aData
 ErrorResult
 &
 aRv
@@ -522,7 +530,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-nullptr
 ;
 }
 mRawInitData
@@ -546,8 +553,12 @@ mInitData
 )
 ;
 }
-return
+aData
+.
+set
+(
 mInitData
+)
 ;
 }
 }

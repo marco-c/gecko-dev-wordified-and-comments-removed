@@ -4689,8 +4689,7 @@ rv
 0
 ;
 virtual
-JSObject
-*
+void
 RegisterElement
 (
 JSContext
@@ -4710,6 +4709,15 @@ dom
 ElementRegistrationOptions
 &
 aOptions
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 mozilla
 :
 :

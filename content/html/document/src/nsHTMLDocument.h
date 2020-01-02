@@ -721,8 +721,7 @@ ErrorResult
 rv
 )
 ;
-JSObject
-*
+void
 NamedGetter
 (
 JSContext
@@ -735,6 +734,15 @@ aName
 bool
 &
 aFound
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 mozilla
 :
 :

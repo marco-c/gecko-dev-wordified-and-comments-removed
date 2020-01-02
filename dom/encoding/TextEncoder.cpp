@@ -149,8 +149,7 @@ mEncoding
 )
 ;
 }
-JSObject
-*
+void
 TextEncoder
 :
 :
@@ -175,6 +174,15 @@ aString
 const
 bool
 aStream
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 ErrorResult
 &
 aRv
@@ -236,7 +244,6 @@ rv
 )
 ;
 return
-nullptr
 ;
 }
 static
@@ -280,7 +287,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-nullptr
 ;
 }
 int32_t
@@ -413,7 +419,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-nullptr
 ;
 }
 }
@@ -433,8 +438,12 @@ rv
 )
 ;
 }
-return
+aRetval
+.
+set
+(
 outView
+)
 ;
 }
 void

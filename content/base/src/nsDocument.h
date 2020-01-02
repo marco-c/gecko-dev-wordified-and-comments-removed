@@ -4672,8 +4672,7 @@ rv
 MOZ_OVERRIDE
 ;
 virtual
-JSObject
-*
+void
 RegisterElement
 (
 JSContext
@@ -4693,6 +4692,15 @@ dom
 ElementRegistrationOptions
 &
 aOptions
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 mozilla
 :
 :

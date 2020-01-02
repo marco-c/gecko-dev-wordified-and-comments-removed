@@ -205,6 +205,9 @@ unsigned
 long
 modulusLength
 ;
+[
+Throws
+]
 readonly
 attribute
 BigInteger

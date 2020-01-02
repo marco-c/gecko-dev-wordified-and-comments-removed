@@ -97,8 +97,7 @@ JSContext
 aCx
 )
 ;
-JSObject
-*
+void
 ReadAsArrayBuffer
 (
 JSContext
@@ -122,6 +121,15 @@ JSObject
 *
 >
 aBlob
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
+aRetval
 ErrorResult
 &
 aRv
