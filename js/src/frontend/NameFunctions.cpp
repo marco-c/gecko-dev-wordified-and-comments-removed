@@ -80,7 +80,7 @@ MaxParents
 =
 100
 ;
-JSContext
+ExclusiveContext
 *
 cx
 ;
@@ -1089,7 +1089,7 @@ public
 explicit
 NameResolver
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -1387,7 +1387,7 @@ frontend
 :
 NameFunctions
 (
-JSContext
+ExclusiveContext
 *
 cx
 ParseNode
