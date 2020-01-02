@@ -104,13 +104,3 @@ extensions
 subdir
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

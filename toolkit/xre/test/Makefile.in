@@ -53,3 +53,13 @@ MPL
 0
 /
 .
+MOCHITEST_FILES
+=
+\
+test_fpuhandler
+.
+html
+\
+(
+NULL
+)

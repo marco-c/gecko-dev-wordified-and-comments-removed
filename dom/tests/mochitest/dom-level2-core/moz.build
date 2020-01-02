@@ -101,13 +101,3 @@ TEST_DIRS
 files
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

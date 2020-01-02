@@ -107,13 +107,3 @@ crossorigin
 chrome
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

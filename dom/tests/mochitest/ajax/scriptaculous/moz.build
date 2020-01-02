@@ -109,13 +109,3 @@ test
 unit
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

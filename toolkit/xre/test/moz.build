@@ -119,13 +119,3 @@ MODULE
 '
 test_xulapp
 '
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

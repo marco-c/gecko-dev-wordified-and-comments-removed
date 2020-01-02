@@ -104,13 +104,3 @@ namespace1
 namespace2
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

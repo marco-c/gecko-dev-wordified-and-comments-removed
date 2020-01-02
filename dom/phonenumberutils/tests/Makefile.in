@@ -53,6 +53,16 @@ MPL
 0
 /
 .
+MOCHITEST_FILES
+=
+\
+test_phonenumberutils_basics
+.
+html
+\
+(
+NULL
+)
 MOCHITEST_CHROME_FILES
 =
 \

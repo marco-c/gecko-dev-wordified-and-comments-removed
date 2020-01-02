@@ -161,13 +161,3 @@ LIBRARY_NAME
 '
 dombindings_test_s
 '
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

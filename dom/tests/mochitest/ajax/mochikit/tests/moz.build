@@ -101,13 +101,3 @@ DIRS
 SimpleTest
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

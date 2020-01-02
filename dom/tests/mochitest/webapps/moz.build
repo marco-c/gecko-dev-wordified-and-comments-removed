@@ -101,13 +101,3 @@ DIRS
 apps
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

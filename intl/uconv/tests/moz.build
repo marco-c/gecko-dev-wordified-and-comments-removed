@@ -202,13 +202,3 @@ BIN_SUFFIX
 )
 CPP_SOURCES
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

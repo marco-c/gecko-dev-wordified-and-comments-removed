@@ -54,3 +54,17 @@ MPL
 0
 /
 .
+MOCHITEST_FILES
+=
+\
+test_Prototype
+.
+html
+\
+manifest
+.
+json
+\
+(
+NULL
+)

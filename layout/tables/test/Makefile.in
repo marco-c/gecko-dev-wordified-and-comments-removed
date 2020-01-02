@@ -54,3 +54,17 @@ MPL
 0
 /
 .
+MOCHITEST_FILES
+=
+\
+test_bug337124
+.
+html
+\
+test_bug541668_table_event_delivery
+.
+html
+\
+(
+NULL
+)

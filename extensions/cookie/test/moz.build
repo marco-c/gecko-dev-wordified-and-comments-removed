@@ -152,13 +152,3 @@ xpcshell
 ini
 '
 ]
-MOCHITEST_MANIFESTS
-+
-=
-[
-'
-mochitest
-.
-ini
-'
-]

@@ -53,6 +53,17 @@ MPL
 0
 /
 .
+MOCHITEST_FILES
+:
+=
+\
+test_getRandomValues
+.
+html
+\
+(
+NULL
+)
 ifndef
 MOZ_DISABLE_CRYPTOLEGACY
 MOCHITEST_FILES
