@@ -191,7 +191,7 @@ h
 #
 include
 "
-nsEventListenerService
+EventListenerService
 .
 h
 "
@@ -5853,12 +5853,12 @@ mTypeAtom
 }
 nsRefPtr
 <
-nsEventListenerInfo
+EventListenerInfo
 >
 info
 =
 new
-nsEventListenerInfo
+EventListenerInfo
 (
 eventType
 ls

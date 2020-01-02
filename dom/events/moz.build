@@ -435,6 +435,11 @@ Event
 cpp
 '
 '
+EventListenerService
+.
+cpp
+'
+'
 EventTarget
 .
 cpp
@@ -506,11 +511,6 @@ cpp
 '
 '
 nsEventListenerManager
-.
-cpp
-'
-'
-nsEventListenerService
 .
 cpp
 '
