@@ -762,7 +762,10 @@ GetGCNumber
 )
 ;
 class
+JS_PUBLIC_API
+(
 AutoAssertNoGC
+)
 {
 #
 ifdef
@@ -781,6 +784,15 @@ AutoAssertNoGC
 (
 )
 ;
+#
+else
+public
+:
+AutoAssertNoGC
+(
+)
+{
+}
 #
 endif
 }
