@@ -2562,7 +2562,7 @@ offsetToTransformOrigin
 nsDisplayTransform
 :
 :
-GetDeltaToMozTransformOrigin
+GetDeltaToTransformOrigin
 (
 frame
 scale
@@ -2576,7 +2576,7 @@ offsetToPerspectiveOrigin
 nsDisplayTransform
 :
 :
-GetDeltaToMozPerspectiveOrigin
+GetDeltaToPerspectiveOrigin
 (
 frame
 scale
@@ -20291,7 +20291,7 @@ gfxPoint3D
 nsDisplayTransform
 :
 :
-GetDeltaToMozTransformOrigin
+GetDeltaToTransformOrigin
 (
 const
 nsIFrame
@@ -20661,7 +20661,7 @@ gfxPoint3D
 nsDisplayTransform
 :
 :
-GetDeltaToMozPerspectiveOrigin
+GetDeltaToPerspectiveOrigin
 (
 const
 nsIFrame
@@ -21040,7 +21040,7 @@ mSpecifiedTransform
 )
 mToTransformOrigin
 (
-GetDeltaToMozTransformOrigin
+GetDeltaToTransformOrigin
 (
 aFrame
 aAppUnitsPerPixel
@@ -21049,7 +21049,7 @@ aBoundsOverride
 )
 mToPerspectiveOrigin
 (
-GetDeltaToMozPerspectiveOrigin
+GetDeltaToPerspectiveOrigin
 (
 aFrame
 aAppUnitsPerPixel
