@@ -11814,7 +11814,7 @@ nsChangeHint_ReconstructFrame
 mightReframePseudos
 )
 {
-RestyleBeforePseudo
+MaybeReframeForBeforePseudo
 (
 )
 ;
@@ -11890,7 +11890,7 @@ nsChangeHint_ReconstructFrame
 mightReframePseudos
 )
 {
-RestyleAfterPseudo
+MaybeReframeForAfterPseudo
 (
 lastContinuation
 )
@@ -12371,7 +12371,7 @@ void
 ElementRestyler
 :
 :
-RestyleBeforePseudo
+MaybeReframeForBeforePseudo
 (
 )
 {
@@ -12513,7 +12513,7 @@ void
 ElementRestyler
 :
 :
-RestyleAfterPseudo
+MaybeReframeForAfterPseudo
 (
 nsIFrame
 *

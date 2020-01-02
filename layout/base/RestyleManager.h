@@ -1104,12 +1104,12 @@ aChildRestyleHint
 )
 ;
 void
-RestyleBeforePseudo
+MaybeReframeForBeforePseudo
 (
 )
 ;
 void
-RestyleAfterPseudo
+MaybeReframeForAfterPseudo
 (
 nsIFrame
 *
