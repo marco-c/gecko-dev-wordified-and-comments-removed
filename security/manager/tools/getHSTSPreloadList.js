@@ -1178,7 +1178,6 @@ host
 forceInclude
 |
 |
-(
 host
 .
 pins
@@ -1187,13 +1186,6 @@ pins
 "
 google
 "
-&
-&
-!
-host
-.
-snionly
-)
 )
 ;
 if
