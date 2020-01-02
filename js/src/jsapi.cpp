@@ -33072,6 +33072,9 @@ JS
 :
 LargeAllocationFailureCallback
 lafc
+void
+*
+data
 )
 {
 rt
@@ -33080,6 +33083,13 @@ rt
 largeAllocationFailureCallback
 =
 lafc
+;
+rt
+-
+>
+largeAllocationFailureCallbackData
+=
+data
 ;
 }
 JS_PUBLIC_API
@@ -33096,6 +33106,9 @@ JSRuntime
 rt
 OutOfMemoryCallback
 cb
+void
+*
+data
 )
 {
 rt
@@ -33104,5 +33117,12 @@ rt
 oomCallback
 =
 cb
+;
+rt
+-
+>
+oomCallbackData
+=
+data
 ;
 }

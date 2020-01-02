@@ -12484,6 +12484,9 @@ static
 void
 OnLargeAllocationFailure
 (
+void
+*
+data
 )
 {
 nsCOMPtr
@@ -12735,6 +12738,7 @@ SetLargeAllocationFailureCallback
 (
 sRuntime
 OnLargeAllocationFailure
+nullptr
 )
 ;
 Preferences
