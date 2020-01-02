@@ -2746,6 +2746,14 @@ nsIDocShell
 ?
 docShell
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+DOMString
+contentLanguage
+;
 }
 ;
 /
