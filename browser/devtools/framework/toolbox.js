@@ -7811,6 +7811,13 @@ _lastFocusedElement
 =
 null
 ;
+if
+(
+this
+.
+webconsolePanel
+)
+{
 this
 .
 _saveSplitConsoleHeight
@@ -7831,6 +7838,7 @@ this
 _saveSplitConsoleHeight
 )
 ;
+}
 this
 .
 closeButton
