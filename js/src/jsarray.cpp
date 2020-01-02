@@ -7827,6 +7827,8 @@ bool
 lessOrEqualp
 )
 ;
+static
+const
 ComparatorNumeric
 SortComparatorNumerics
 [
@@ -7937,6 +7939,8 @@ bool
 lessOrEqualp
 )
 ;
+static
+const
 ComparatorInt32
 SortComparatorInt32s
 [

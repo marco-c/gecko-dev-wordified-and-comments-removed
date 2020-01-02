@@ -4697,6 +4697,7 @@ singleton
 }
 ;
 static
+const
 Class
 CallConstructHolder
 =

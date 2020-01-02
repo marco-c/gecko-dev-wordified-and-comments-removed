@@ -37431,6 +37431,8 @@ framePushed
 0
 )
 ;
+static
+const
 MIRType
 typeArray
 [

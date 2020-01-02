@@ -29622,6 +29622,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 uint32_t
 DOM_OBJECT_SLOT
 =
@@ -31687,6 +31688,7 @@ buildid
 ;
 }
 static
+const
 JS
 :
 :
