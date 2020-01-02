@@ -799,16 +799,6 @@ timeout
 or
 120
         
-responseDueBy
-=
-time
-.
-time
-(
-)
-+
-timeout
-        
 while
 True
 :
@@ -817,21 +807,14 @@ currentlog
 =
 proc
 .
-stdout
+getStdoutLines
+(
+timeout
+)
             
 if
 currentlog
 :
-                
-responseDueBy
-=
-time
-.
-time
-(
-)
-+
-timeout
                 
 print
 currentlog
@@ -897,16 +880,6 @@ return
 else
 :
                 
-if
-time
-.
-time
-(
-)
->
-responseDueBy
-:
-                    
 self
 .
 log
@@ -926,7 +899,7 @@ s
 application
 timed
 "
-                                  
+                              
 "
 out
 after
@@ -937,7 +910,7 @@ with
 no
 output
 "
-                                  
+                              
 self
 .
 lastTestSeen
@@ -946,7 +919,7 @@ int
 timeout
 )
 )
-                    
+                
 return
 1
     
@@ -1999,12 +1972,11 @@ self
 return
 0
         
-property
-        
 def
-stdout
+getStdoutLines
 (
 self
+timeout
 )
 :
             
@@ -2040,6 +2012,32 @@ Empty
 :
                     
 break
+            
+try
+:
+                
+lines
+.
+append
+(
+self
+.
+queue
+.
+get
+(
+True
+timeout
+)
+)
+            
+except
+Queue
+.
+Empty
+:
+                
+pass
             
 return
 '
