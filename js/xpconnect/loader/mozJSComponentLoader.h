@@ -135,9 +135,6 @@ jsloader
 1
 "
 class
-JSCLContextHelper
-;
-class
 mozJSComponentLoader
 :
 public
@@ -150,10 +147,6 @@ xpcIJSModuleLoader
 public
 nsIObserver
 {
-friend
-class
-JSCLContextHelper
-;
 public
 :
 NS_DECL_ISUPPORTS
@@ -240,8 +233,8 @@ JSObject
 *
 PrepareObjectForLocation
 (
-JSCLContextHelper
-&
+JSContext
+*
 aCx
 nsIFile
 *
