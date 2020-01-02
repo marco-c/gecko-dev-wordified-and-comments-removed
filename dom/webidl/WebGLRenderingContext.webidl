@@ -3414,9 +3414,6 @@ GLenum
 pname
 )
 ;
-[
-Throws
-]
 any
 getUniform
 (
