@@ -96,6 +96,11 @@ IsEmpty
 (
 )
 ;
+bool
+IsCurrentThreadIn
+(
+)
+;
 private
 :
 void
@@ -123,6 +128,12 @@ nsIRunnable
 >
 >
 mTasks
+;
+RefPtr
+<
+nsIThread
+>
+mRunningThread
 ;
 bool
 mIsRunning
