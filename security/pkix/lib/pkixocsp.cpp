@@ -468,7 +468,10 @@ EndEntityOrCA
 :
 MustBeEndEntity
 0
-SEC_OID_OCSP_RESPONDER
+KeyPurposeId
+:
+:
+id_kp_OCSPSigning
 SEC_OID_X509_ANY_POLICY
 0
 )

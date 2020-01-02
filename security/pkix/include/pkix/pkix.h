@@ -39,7 +39,7 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
-SECOidTag
+KeyPurposeId
 requiredEKUIfPresent
 SECOidTag
 requiredPolicy

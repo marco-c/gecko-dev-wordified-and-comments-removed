@@ -1,6 +1,6 @@
 #
 ifndef
-_MSC_VER
+MOZILLA_PKIX_USE_REAL_FUNCTIONAL
 #
 include
 "

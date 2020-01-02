@@ -544,7 +544,7 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
-SECOidTag
+KeyPurposeId
 requiredEKUIfPresent
 SECOidTag
 requiredPolicy
@@ -574,7 +574,7 @@ PRTime
 time
 EndEntityOrCA
 endEntityOrCA
-SECOidTag
+KeyPurposeId
 requiredEKUIfPresent
 SECOidTag
 requiredPolicy
@@ -859,7 +859,7 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
-SECOidTag
+KeyPurposeId
 requiredEKUIfPresent
 SECOidTag
 requiredPolicy
@@ -1429,7 +1429,7 @@ EndEntityOrCA
 endEntityOrCA
 KeyUsages
 requiredKeyUsagesIfPresent
-SECOidTag
+KeyPurposeId
 requiredEKUIfPresent
 SECOidTag
 requiredPolicy
@@ -1481,7 +1481,10 @@ MustBeEndEntity
 requiredEKUIfPresent
 =
 =
-SEC_OID_EXT_KEY_USAGE_SERVER_AUTH
+KeyPurposeId
+:
+:
+id_kp_serverAuth
 ?
 BackCert
 :
