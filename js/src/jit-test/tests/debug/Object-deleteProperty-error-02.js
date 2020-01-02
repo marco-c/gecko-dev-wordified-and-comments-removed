@@ -85,7 +85,7 @@ assertEq
 exc
 .
 columnNumber
-0
+20
 )
 ;
 return
