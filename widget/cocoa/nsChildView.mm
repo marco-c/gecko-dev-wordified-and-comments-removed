@@ -11537,7 +11537,7 @@ GetProgram
 mResizerImage
 -
 >
-GetShaderProgramType
+GetTextureFormat
 (
 )
 )
@@ -12807,7 +12807,7 @@ GetProgram
 mTitlebarImage
 -
 >
-GetShaderProgramType
+GetTextureFormat
 (
 )
 )
@@ -13186,7 +13186,7 @@ GetProgram
 mCornerMaskImage
 -
 >
-GetShaderProgramType
+GetTextureFormat
 (
 )
 )
