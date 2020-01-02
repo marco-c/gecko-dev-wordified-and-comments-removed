@@ -1232,6 +1232,8 @@ Attr
 :
 GetBaseURI
 (
+bool
+aTryUseXHRDocBaseURI
 )
 const
 {
@@ -1251,6 +1253,7 @@ parent
 >
 GetBaseURI
 (
+aTryUseXHRDocBaseURI
 )
 :
 nullptr

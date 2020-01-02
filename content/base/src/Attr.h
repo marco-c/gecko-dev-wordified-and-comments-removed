@@ -319,6 +319,10 @@ nsIURI
 >
 GetBaseURI
 (
+bool
+aTryUseXHRDocBaseURI
+=
+false
 )
 const
 MOZ_OVERRIDE

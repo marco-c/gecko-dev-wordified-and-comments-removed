@@ -1428,6 +1428,8 @@ nsIContent
 :
 GetBaseURI
 (
+bool
+aTryUseXHRDocBaseURI
 )
 const
 {
@@ -1448,8 +1450,9 @@ base
 doc
 -
 >
-GetDocBaseURI
+GetBaseURI
 (
+aTryUseXHRDocBaseURI
 )
 ;
 nsAutoTArray
