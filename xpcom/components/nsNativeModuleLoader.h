@@ -135,11 +135,11 @@ NativeLoadData
 (
 )
 :
-module
+mModule
 (
 nullptr
 )
-library
+mLibrary
 (
 nullptr
 )
@@ -151,11 +151,11 @@ mozilla
 :
 Module
 *
-module
+mModule
 ;
 PRLibrary
 *
-library
+mLibrary
 ;
 }
 ;
