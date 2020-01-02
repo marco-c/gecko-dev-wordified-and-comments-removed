@@ -206,6 +206,16 @@ digestBufLen
 )
 MOZ_OVERRIDE
 ;
+SECStatus
+CheckPublicKey
+(
+const
+SECItem
+&
+subjectPublicKeyInfo
+)
+MOZ_OVERRIDE
+;
 private
 :
 ScopedCERTCertList

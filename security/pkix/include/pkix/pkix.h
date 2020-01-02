@@ -140,6 +140,15 @@ size_t
 digestBufLen
 )
 ;
+SECStatus
+CheckPublicKey
+(
+const
+SECItem
+&
+subjectPublicKeyInfo
+)
+;
 }
 }
 #
