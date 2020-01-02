@@ -262,6 +262,11 @@ FrameChildList
 cpp
 '
 '
+MathVariantTextRunFactory
+.
+cpp
+'
+'
 nsAbsoluteContainingBlock
 .
 cpp
