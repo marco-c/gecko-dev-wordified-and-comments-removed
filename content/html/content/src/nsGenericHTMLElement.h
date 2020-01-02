@@ -1467,6 +1467,15 @@ rcFrame
 height
 ;
 }
+static
+nsIAtom
+*
+*
+*
+PropertiesToTraverseAndUnlink
+(
+)
+;
 protected
 :
 virtual
