@@ -75,13 +75,6 @@ NULL
 DummyConstructorFunc
 }
 {
-&
-kNS_TESTING_CID
-false
-NULL
-DummyConstructorFunc
-}
-{
 NULL
 }
 }

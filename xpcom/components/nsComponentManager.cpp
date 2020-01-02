@@ -2313,12 +2313,6 @@ module
 >
 "
 ;
-mLock
-.
-Unlock
-(
-)
-;
 LogMessage
 (
 "
