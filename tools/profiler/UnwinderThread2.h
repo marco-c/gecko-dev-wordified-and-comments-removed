@@ -143,6 +143,14 @@ LinkedUWTBuffer
 utb
 )
 ;
+void
+utb__end_sync_buffer_unwind
+(
+LinkedUWTBuffer
+*
+utb
+)
+;
 typedef
 void
 (
