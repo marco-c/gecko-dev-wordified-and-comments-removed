@@ -10040,6 +10040,9 @@ bytesReceived
 uint32_t
 packetsLost
 ;
+int32_t
+rtt
+;
 if
 (
 mp
@@ -10061,6 +10064,8 @@ packetsReceived
 bytesReceived
 &
 packetsLost
+&
+rtt
 )
 )
 {
@@ -10181,6 +10186,15 @@ mPacketsLost
 Construct
 (
 packetsLost
+)
+;
+s
+.
+mMozRtt
+.
+Construct
+(
+rtt
 )
 ;
 query

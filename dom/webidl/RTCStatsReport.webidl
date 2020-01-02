@@ -221,6 +221,9 @@ mozAvSyncDelay
 long
 mozJitterBufferDelay
 ;
+long
+mozRtt
+;
 }
 ;
 dictionary
@@ -312,10 +315,6 @@ true
 unsigned
 long
 framesDecoded
-;
-unsigned
-long
-first
 ;
 }
 ;
