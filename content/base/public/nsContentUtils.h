@@ -1637,6 +1637,8 @@ aNameSpaceID
 nsIAtom
 *
 aEventName
+bool
+aIsForWindow
 uint32_t
 *
 aArgCount

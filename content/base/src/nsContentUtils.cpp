@@ -13223,6 +13223,12 @@ source
 "
 lineno
 "
+"
+colno
+"
+"
+error
+"
 }
 ;
 void
@@ -13236,6 +13242,8 @@ aNameSpaceID
 nsIAtom
 *
 aEventName
+bool
+aIsForWindow
 uint32_t
 *
 aArgCount
@@ -13285,6 +13293,9 @@ nsGkAtoms
 :
 :
 onerror
+&
+&
+aIsForWindow
 )
 {
 SET_EVENT_ARG_NAMES
