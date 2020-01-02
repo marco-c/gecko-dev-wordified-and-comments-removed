@@ -5127,6 +5127,7 @@ return
 false
 ;
 }
+const
 ArrayBufferView
 &
 view

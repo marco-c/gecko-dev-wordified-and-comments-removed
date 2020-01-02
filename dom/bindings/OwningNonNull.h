@@ -47,6 +47,7 @@ T
 &
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -78,6 +79,7 @@ T
 *
 (
 )
+const
 {
 MOZ_ASSERT
 (
