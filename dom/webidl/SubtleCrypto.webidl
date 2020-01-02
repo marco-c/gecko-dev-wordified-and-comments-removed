@@ -446,6 +446,16 @@ namedCurve
 ;
 }
 ;
+dictionary
+EcdhKeyDeriveParams
+:
+Algorithm
+{
+CryptoKey
+public
+;
+}
+;
 /
 *
 *
