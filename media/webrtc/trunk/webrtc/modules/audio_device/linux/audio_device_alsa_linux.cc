@@ -8006,6 +8006,9 @@ KeyPressed
 )
 const
 {
+#
+ifdef
+USE_X11
 char
 szKey
 [
@@ -8023,9 +8026,6 @@ state
 =
 0
 ;
-#
-ifdef
-USE_X11
 if
 (
 !
@@ -8040,8 +8040,6 @@ _XDisplay
 szKey
 )
 ;
-#
-endif
 for
 (
 i
@@ -8105,5 +8103,12 @@ state
 0
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 }
