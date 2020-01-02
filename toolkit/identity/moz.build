@@ -183,6 +183,16 @@ Sandbox
 jsm
 '
 ]
+EXTRA_PP_JS_MODULES
++
+=
+[
+'
+FirefoxAccounts
+.
+jsm
+'
+]
 FAIL_ON_WARNINGS
 =
 True
