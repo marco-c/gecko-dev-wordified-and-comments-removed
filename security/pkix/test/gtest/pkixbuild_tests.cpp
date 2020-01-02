@@ -594,6 +594,7 @@ cert
 -
 >
 derCert
+nullptr
 keepGoing
 )
 ;

@@ -307,6 +307,10 @@ const
 SECItem
 &
 potentialIssuerDER
+const
+SECItem
+*
+additionalNameConstraints
 bool
 &
 keepGoing

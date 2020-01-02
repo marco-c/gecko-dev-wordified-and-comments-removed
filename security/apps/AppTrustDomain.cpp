@@ -489,6 +489,7 @@ cert
 -
 >
 derCert
+nullptr
 keepGoing
 )
 ;
