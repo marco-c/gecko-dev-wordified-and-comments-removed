@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-WindowsDllBlocklist
+Util
 .
 h
 "
@@ -89,6 +89,9 @@ InitAutoreleasePool
 ;
 #
 endif
+#
+ifdef
+HAVE_SETBUF
 setbuf
 (
 stdout
@@ -96,9 +99,11 @@ stdout
 )
 ;
 #
+endif
+#
 ifdef
-HAS_DLL_BLOCKLIST
-DllBlocklist_Initialize
+XRE_HAS_DLL_BLOCKLIST
+XRE_SetupDllBlocklist
 (
 )
 ;
