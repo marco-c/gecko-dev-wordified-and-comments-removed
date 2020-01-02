@@ -676,6 +676,18 @@ if
 layerActivity
 )
 {
+uint8_t
+minStyleChangesToBeConsideredAnimation
+=
+aProperty
+=
+=
+eCSSProperty_opacity
+?
+2
+:
+1
+;
 if
 (
 layerActivity
@@ -687,7 +699,7 @@ aProperty
 )
 >
 =
-2
+minStyleChangesToBeConsideredAnimation
 )
 {
 return
