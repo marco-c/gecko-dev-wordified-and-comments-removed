@@ -407,7 +407,7 @@ sharedWorkers
 .
 enabled
 "
-false
+true
 )
 ;
 pref

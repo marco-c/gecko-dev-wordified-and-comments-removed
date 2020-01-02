@@ -194,6 +194,17 @@ errorColumn
 =
 0
 ;
+if
+(
+!
+SpecialPowers
+.
+getBoolPref
+(
+swPref
+)
+)
+{
 ok
 (
 !
@@ -213,6 +224,7 @@ set
 "
 )
 ;
+}
 SpecialPowers
 .
 pushPrefEnv
