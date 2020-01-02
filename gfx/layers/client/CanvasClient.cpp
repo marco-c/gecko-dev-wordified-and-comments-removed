@@ -742,8 +742,10 @@ Cast
 surf
 )
 ;
+RefPtr
+<
 GrallocTextureClientOGL
-*
+>
 grallocTextureClient
 =
 static_cast
