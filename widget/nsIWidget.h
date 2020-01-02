@@ -138,9 +138,6 @@ class
 imgIContainer
 ;
 class
-gfxASurface
-;
-class
 nsIContent
 ;
 class
@@ -2488,15 +2485,6 @@ ShowsResizeIndicator
 nsIntRect
 *
 aResizerRect
-)
-=
-0
-;
-virtual
-gfxASurface
-*
-GetThebesSurface
-(
 )
 =
 0

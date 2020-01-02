@@ -829,12 +829,6 @@ aAllowRetaining
 nullptr
 )
 ;
-gfxASurface
-*
-GetThebesSurface
-(
-)
-;
 NS_IMETHOD
 OnDefaultButtonLoaded
 (

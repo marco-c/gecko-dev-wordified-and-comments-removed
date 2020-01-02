@@ -1906,13 +1906,6 @@ CreateCompositor
 )
 ;
 virtual
-gfxASurface
-*
-GetThebesSurface
-(
-)
-;
-virtual
 void
 PrepareWindowEffects
 (
@@ -2411,12 +2404,6 @@ mAccessible
 ;
 #
 endif
-nsRefPtr
-<
-gfxASurface
->
-mTempThebesSurface
-;
 mozilla
 :
 :

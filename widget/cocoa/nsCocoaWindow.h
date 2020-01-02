@@ -1349,13 +1349,6 @@ DispatchSizeModeEvent
 )
 ;
 virtual
-gfxASurface
-*
-GetThebesSurface
-(
-)
-;
-virtual
 bool
 DragEvent
 (

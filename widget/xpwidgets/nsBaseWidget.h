@@ -672,13 +672,6 @@ aThemeGeometries
 )
 {
 }
-virtual
-gfxASurface
-*
-GetThebesSurface
-(
-)
-;
 NS_IMETHOD
 SetModal
 (

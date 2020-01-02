@@ -364,12 +364,6 @@ aAllowRetaining
 nullptr
 )
 ;
-gfxASurface
-*
-GetThebesSurface
-(
-)
-;
 NS_IMETHOD_
 (
 void
