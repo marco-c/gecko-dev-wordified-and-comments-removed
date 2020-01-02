@@ -140,6 +140,9 @@ apply
 *
 /
 interface
+SVGLength
+;
+interface
 SVGLengthList
 {
 readonly

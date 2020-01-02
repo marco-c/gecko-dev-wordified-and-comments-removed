@@ -172,13 +172,6 @@ nsMimeTypes
 h
 "
 #
-include
-"
-DOMSVGLength
-.
-h
-"
-#
 undef
 GetCurrentTime
 using
@@ -381,7 +374,7 @@ false
 ;
 nsRefPtr
 <
-DOMSVGLength
+nsIDOMSVGLength
 >
 domLength
 =
