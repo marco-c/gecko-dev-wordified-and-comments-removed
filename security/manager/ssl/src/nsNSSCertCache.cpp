@@ -122,10 +122,6 @@ destructorSafeDestroyNSSReference
 (
 )
 {
-mCertList
-=
-nullptr
-;
 }
 NS_IMETHODIMP
 nsNSSCertCache
