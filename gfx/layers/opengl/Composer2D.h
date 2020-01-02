@@ -18,7 +18,7 @@ nsISupportsImpl
 .
 h
 "
-class
+struct
 gfxMatrix
 ;
 namespace
