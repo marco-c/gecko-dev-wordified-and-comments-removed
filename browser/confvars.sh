@@ -435,3 +435,13 @@ MOZ_ACTIVITIES
 MOZ_JSDOWNLOADS
 =
 1
+#
+Enable
+exact
+rooting
+on
+desktop
+.
+JSGC_USE_EXACT_ROOTING
+=
+1
