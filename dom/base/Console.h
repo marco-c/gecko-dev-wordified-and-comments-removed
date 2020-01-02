@@ -553,6 +553,15 @@ Value
 >
 &
 aSequence
+Sequence
+<
+JS
+:
+:
+Value
+>
+&
+aStyles
 )
 ;
 void
