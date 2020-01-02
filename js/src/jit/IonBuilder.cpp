@@ -22861,13 +22861,6 @@ current
 inlineBlock
 )
 ;
-inlineBlock
--
->
-discardAllResumePoints
-(
-)
-;
 graph
 (
 )

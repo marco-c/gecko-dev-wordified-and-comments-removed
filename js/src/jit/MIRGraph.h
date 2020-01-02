@@ -1573,6 +1573,16 @@ return
 entryResumePoint_
 ;
 }
+void
+clearEntryResumePoint
+(
+)
+{
+entryResumePoint_
+=
+nullptr
+;
+}
 MResumePoint
 *
 callerResumePoint
