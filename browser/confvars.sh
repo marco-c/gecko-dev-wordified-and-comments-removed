@@ -417,3 +417,6 @@ mozPay
 MOZ_PAY
 =
 1
+MOZ_JSDOWNLOADS
+=
+1
