@@ -1019,13 +1019,6 @@ BINPATH
 /
 components
 /
-dom_file
-.
-xpt
-BINPATH
-/
-components
-/
 dom_geolocation
 .
 xpt
