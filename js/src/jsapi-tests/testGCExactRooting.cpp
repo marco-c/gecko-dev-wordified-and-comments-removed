@@ -24,9 +24,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -45,9 +45,9 @@ runtime
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -75,8 +75,8 @@ DoubleValue
 (
 0
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;
@@ -94,8 +94,8 @@ DoubleValue
 (
 0
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;

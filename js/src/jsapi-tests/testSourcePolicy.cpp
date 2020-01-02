@@ -116,7 +116,7 @@ global
 opts
 s
 strLen
-NULL
+nullptr
 )
 )
 ;
@@ -134,7 +134,7 @@ opts
 f
 "
 0
-NULL
+nullptr
 s
 strLen
 )
@@ -266,7 +266,7 @@ strlen
 (
 simpleSource
 )
-NULL
+nullptr
 )
 )
 ;
@@ -278,8 +278,8 @@ match
 JS_SetNewScriptHook
 (
 rt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return

@@ -655,7 +655,7 @@ v
 .
 gcNextGraphNode
 =
-NULL
+nullptr
 ;
 v
 .
@@ -805,7 +805,7 @@ CHECK
 v
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK
@@ -850,7 +850,7 @@ CHECK
 v
 =
 =
-NULL
+nullptr
 )
 ;
 resultsList
@@ -905,7 +905,7 @@ CHECK
 v
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK
@@ -952,12 +952,12 @@ CHECK
 v
 =
 =
-NULL
+nullptr
 )
 ;
 resultsList
 =
-NULL
+nullptr
 ;
 return
 true
@@ -973,7 +973,7 @@ CHECK
 resultsList
 =
 =
-NULL
+nullptr
 )
 ;
 delete
@@ -981,7 +981,7 @@ finder
 ;
 finder
 =
-NULL
+nullptr
 ;
 return
 true
@@ -1010,7 +1010,7 @@ TestNode2
 :
 edge
 (
-NULL
+nullptr
 )
 {
 }

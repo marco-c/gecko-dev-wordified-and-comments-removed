@@ -123,7 +123,7 @@ static
 JSFunctionCallback
 innerCallback
 =
-NULL
+nullptr
 ;
 static
 void
@@ -320,7 +320,7 @@ enters
 JS_SetFunctionCallback
 (
 cx
-NULL
+nullptr
 )
 ;
 EXEC

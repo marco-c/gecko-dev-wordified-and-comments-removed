@@ -100,9 +100,9 @@ ObjectOrNullValue
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -162,8 +162,8 @@ v2
 address
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -387,8 +387,8 @@ v2
 address
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;

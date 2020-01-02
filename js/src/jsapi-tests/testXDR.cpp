@@ -83,13 +83,13 @@ JS_DecodeBytes
 cx
 bytes
 nbytes
-NULL
+nullptr
 &
 nchars
 )
 )
 return
-NULL
+nullptr
 ;
 jschar
 *
@@ -119,7 +119,7 @@ if
 chars
 )
 return
-NULL
+nullptr
 ;
 JS_ALWAYS_TRUE
 (
@@ -226,7 +226,7 @@ if
 memory
 )
 return
-NULL
+nullptr
 ;
 JSScript
 *
@@ -321,7 +321,7 @@ if
 memory
 )
 return
-NULL
+nullptr
 ;
 JSScript
 *
@@ -437,7 +437,7 @@ testPrincipals
 [
 0
 ]
-NULL
+nullptr
 i
 )
 ;
@@ -685,7 +685,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -715,7 +715,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -766,7 +766,7 @@ isObject
 )
 )
 return
-NULL
+nullptr
 ;
 JS
 :
@@ -805,7 +805,7 @@ if
 funobj
 )
 return
-NULL
+nullptr
 ;
 }
 return
@@ -1079,7 +1079,7 @@ JS_ExecuteScript
 cx
 global
 script
-NULL
+nullptr
 )
 )
 ;
@@ -1416,7 +1416,7 @@ x
 "
 short
 "
-NULL
+nullptr
 }
 ;
 for
@@ -1569,7 +1569,7 @@ map
 .
 json
 "
-NULL
+nullptr
 }
 ;
 JS

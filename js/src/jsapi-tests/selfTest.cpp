@@ -93,7 +93,7 @@ global
 )
 =
 =
-NULL
+nullptr
 )
 ;
 return

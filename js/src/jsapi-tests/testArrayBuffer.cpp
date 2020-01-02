@@ -321,7 +321,7 @@ CHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 *
@@ -379,7 +379,7 @@ CHECK
 contents
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK
@@ -387,7 +387,7 @@ CHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK_EQUAL
@@ -570,7 +570,7 @@ CHECK
 dstview
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK_EQUAL
@@ -594,7 +594,7 @@ CHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK_EQUAL
@@ -691,7 +691,7 @@ cx
 ;
 buffer
 =
-NULL
+nullptr
 ;
 GC
 (
@@ -750,7 +750,7 @@ CHECK
 contents
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK
@@ -758,12 +758,12 @@ CHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 JS_free
 (
-NULL
+nullptr
 contents
 )
 ;
@@ -790,7 +790,7 @@ buffer
 ;
 view
 =
-NULL
+nullptr
 ;
 GC
 (
@@ -799,7 +799,7 @@ cx
 ;
 buffer
 =
-NULL
+nullptr
 ;
 GC
 (
@@ -851,7 +851,7 @@ buffer
 ;
 view2
 =
-NULL
+nullptr
 ;
 GC
 (
@@ -894,7 +894,7 @@ CHECK
 contents
 !
 =
-NULL
+nullptr
 )
 ;
 CHECK
@@ -902,12 +902,12 @@ CHECK
 data
 !
 =
-NULL
+nullptr
 )
 ;
 JS_free
 (
-NULL
+nullptr
 contents
 )
 ;
@@ -937,7 +937,7 @@ buffer
 ;
 view1
 =
-NULL
+nullptr
 ;
 GC
 (
@@ -946,7 +946,7 @@ cx
 ;
 view2
 =
-NULL
+nullptr
 ;
 GC
 (
@@ -955,7 +955,7 @@ cx
 ;
 buffer
 =
-NULL
+nullptr
 ;
 GC
 (

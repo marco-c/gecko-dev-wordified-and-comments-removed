@@ -155,7 +155,7 @@ A
 f
 "
 0
-NULL
+nullptr
 source
 strlen
 (

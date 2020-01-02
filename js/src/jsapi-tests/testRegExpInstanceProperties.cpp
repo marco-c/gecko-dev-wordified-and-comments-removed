@@ -87,7 +87,7 @@ compartment
 -
 >
 initialRegExpShape
-NULL
+nullptr
 )
 ;
 jsval

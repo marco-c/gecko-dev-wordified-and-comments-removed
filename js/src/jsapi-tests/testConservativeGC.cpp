@@ -570,7 +570,7 @@ str
 ;
 str
 =
-NULL
+nullptr
 ;
 for
 (

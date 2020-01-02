@@ -42,7 +42,7 @@ obj1
 =
 obj2
 =
-NULL
+nullptr
 ;
 JS_AddObjectRoot
 (
@@ -65,8 +65,8 @@ JS_NewObject
 cx
 &
 my_resolve_class
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 CHECK
@@ -81,8 +81,8 @@ JS_NewObject
 cx
 &
 my_resolve_class
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 CHECK
@@ -115,8 +115,8 @@ OBJECT_TO_JSVAL
 (
 obj1
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )
@@ -134,8 +134,8 @@ OBJECT_TO_JSVAL
 (
 obj2
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )
@@ -399,8 +399,8 @@ cx
 obj
 id
 JSVAL_FALSE
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )
@@ -434,7 +434,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return
@@ -476,8 +476,8 @@ cx
 obj
 id
 JSVAL_NULL
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )

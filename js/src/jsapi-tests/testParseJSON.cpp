@@ -55,7 +55,7 @@ cx
 )
 chars_
 (
-NULL
+nullptr
 )
 length_
 (
@@ -1301,7 +1301,7 @@ old
 JS_SetContextPrivate
 (
 cx
-NULL
+nullptr
 )
 ;
 CHECK

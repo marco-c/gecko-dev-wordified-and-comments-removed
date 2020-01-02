@@ -338,7 +338,7 @@ if
 global
 )
 return
-NULL
+nullptr
 ;
 JS_AddNamedObjectRoot
 (
@@ -387,7 +387,7 @@ globalHandle
 )
 )
 return
-NULL
+nullptr
 ;
 return
 global
@@ -432,7 +432,7 @@ argv
 1
 ]
 :
-NULL
+nullptr
 ;
 if
 (
@@ -514,7 +514,7 @@ filter
 )
 =
 =
-NULL
+nullptr
 )
 continue
 ;

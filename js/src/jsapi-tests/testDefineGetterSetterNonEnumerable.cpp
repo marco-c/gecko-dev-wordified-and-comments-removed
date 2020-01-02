@@ -62,9 +62,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -90,7 +90,7 @@ cx
 native
 0
 0
-NULL
+nullptr
 "
 get
 "
@@ -137,7 +137,7 @@ cx
 native
 1
 0
-NULL
+nullptr
 "
 set
 "

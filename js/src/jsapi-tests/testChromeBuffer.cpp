@@ -40,13 +40,13 @@ JSObject
 *
 trusted_glob
 =
-NULL
+nullptr
 ;
 JSObject
 *
 trusted_fun
 =
-NULL
+nullptr
 ;
 bool
 CallTrusted
@@ -90,7 +90,7 @@ ok
 JS_CallFunctionValue
 (
 cx
-NULL
+nullptr
 JS
 :
 :
@@ -100,7 +100,7 @@ ObjectValue
 trusted_fun
 )
 0
-NULL
+nullptr
 vp
 )
 ;
@@ -414,7 +414,7 @@ CHECK
 JS_CallFunction
 (
 cx
-NULL
+nullptr
 fun
 1
 v
@@ -666,7 +666,7 @@ CHECK
 JS_CallFunction
 (
 cx
-NULL
+nullptr
 fun
 1
 v
@@ -766,7 +766,7 @@ system_principals
 trusted
 "
 0
-NULL
+nullptr
 bytes
 strlen
 (
@@ -920,7 +920,7 @@ CHECK
 JS_CallFunction
 (
 cx
-NULL
+nullptr
 fun
 1
 arg

@@ -62,9 +62,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -422,8 +422,8 @@ INT_TO_JSVAL
 (
 8
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 )

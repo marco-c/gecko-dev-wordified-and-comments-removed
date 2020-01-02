@@ -106,7 +106,7 @@ JS_SetCallHook
 (
 rt
 callCountHook
-NULL
+nullptr
 )
 ;
 EXEC
@@ -278,7 +278,7 @@ thisv
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 BEGIN_TEST
@@ -571,7 +571,7 @@ thisv
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 BEGIN_TEST
@@ -868,7 +868,7 @@ JS_SetThrowHook
 (
 rt
 ThrowHook
-NULL
+nullptr
 )
 )
 ;
@@ -958,8 +958,8 @@ CHECK
 JS_SetThrowHook
 (
 rt
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;
@@ -998,7 +998,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+nullptr
 JS
 :
 :
@@ -1261,7 +1261,7 @@ cx
 getGlobalClass
 (
 )
-NULL
+nullptr
 JS
 :
 :
@@ -1575,7 +1575,7 @@ JS_SetInterrupt
 (
 rt
 onStep
-NULL
+nullptr
 )
 )
 ;
@@ -1683,7 +1683,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-NULL
+nullptr
 )
 ;
 JS_ASSERT

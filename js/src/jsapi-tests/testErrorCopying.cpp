@@ -86,7 +86,7 @@ global
 check
 "
 0
-NULL
+nullptr
 rval
 .
 address

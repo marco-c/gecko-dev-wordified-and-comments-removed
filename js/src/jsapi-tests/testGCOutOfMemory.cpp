@@ -280,7 +280,7 @@ if
 rt
 )
 return
-NULL
+nullptr
 ;
 setNativeStackQuota
 (
