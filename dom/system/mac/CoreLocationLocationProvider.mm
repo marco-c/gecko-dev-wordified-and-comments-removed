@@ -1030,7 +1030,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 CoreLocationLocationProvider
 :
 :
@@ -1058,11 +1058,8 @@ aSomewhere
 )
 ;
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 CoreLocationLocationProvider
 :
 :
@@ -1079,8 +1076,5 @@ NotifyError
 (
 aErrorCode
 )
-;
-return
-NS_OK
 ;
 }
