@@ -13066,12 +13066,12 @@ if
 (
 aElt
 .
-mozMatchesSelector
+matches
 )
 return
 aElt
 .
-mozMatchesSelector
+matches
 (
 aSelector
 )
@@ -28628,7 +28628,7 @@ elem
 |
 elem
 .
-mozMatchesSelector
+matches
 (
 "
 textarea
@@ -29462,7 +29462,7 @@ if
 !
 current
 .
-mozMatchesSelector
+matches
 |
 |
 !
@@ -29505,7 +29505,7 @@ current
 &
 current
 .
-mozMatchesSelector
+matches
 (
 "
 *
@@ -29660,12 +29660,12 @@ if
 (
 elem
 .
-mozMatchesSelector
+matches
 &
 &
 elem
 .
-mozMatchesSelector
+matches
 (
 selector
 )

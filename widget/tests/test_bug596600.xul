@@ -926,7 +926,7 @@ ok
 !
 box
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1127,7 +1127,7 @@ ok
 !
 box
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1177,7 +1177,7 @@ ok
 (
 gIFrame
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1196,7 +1196,7 @@ ok
 (
 box
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1237,7 +1237,7 @@ ok
 !
 gIFrame
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1259,7 +1259,7 @@ ok
 !
 box
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1293,7 +1293,7 @@ ok
 (
 gIFrame
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1312,7 +1312,7 @@ ok
 (
 box
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1383,7 +1383,7 @@ ok
 !
 gIFrame
 .
-mozMatchesSelector
+matches
 (
 "
 :
@@ -1405,7 +1405,7 @@ ok
 !
 box
 .
-mozMatchesSelector
+matches
 (
 "
 :

@@ -7336,7 +7336,7 @@ Utils
 .
 video
 .
-mozMatchesSelector
+matches
 (
 "
 video

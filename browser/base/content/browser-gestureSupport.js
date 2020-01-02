@@ -2140,7 +2140,7 @@ document
 .
 documentElement
 .
-mozMatchesSelector
+matches
 (
 "
 :
