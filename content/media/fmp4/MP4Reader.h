@@ -505,13 +505,13 @@ false
 )
 {
 }
-RefPtr
+nsRefPtr
 <
 MediaDataDecoder
 >
 mDecoder
 ;
-RefPtr
+nsRefPtr
 <
 MediaTaskQueue
 >
