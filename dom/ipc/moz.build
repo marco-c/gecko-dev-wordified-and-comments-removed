@@ -102,6 +102,11 @@ nsICachedFileDescriptorListener
 .
 h
 '
+'
+PCOMContentPermissionRequestChild
+.
+h
+'
 ]
 EXPORTS
 .
