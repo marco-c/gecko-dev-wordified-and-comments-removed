@@ -79,7 +79,7 @@ include
 "
 jit
 /
-TypePolicy
+TypeDescrSet
 .
 h
 "
@@ -88,7 +88,7 @@ include
 "
 jit
 /
-TypeRepresentationSet
+TypePolicy
 .
 h
 "
@@ -6320,12 +6320,12 @@ IntPolicy
 {
 private
 :
-TypeRepresentationSet
+TypeDescrSet
 set_
 ;
 MNewDerivedTypedObject
 (
-TypeRepresentationSet
+TypeDescrSet
 set
 MDefinition
 *
@@ -6374,7 +6374,7 @@ New
 TempAllocator
 &
 alloc
-TypeRepresentationSet
+TypeDescrSet
 set
 MDefinition
 *
@@ -6401,7 +6401,7 @@ offset
 )
 ;
 }
-TypeRepresentationSet
+TypeDescrSet
 set
 (
 )
