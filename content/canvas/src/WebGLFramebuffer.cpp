@@ -865,7 +865,7 @@ return
 internalFormat
 =
 =
-LOCAL_GL_DEPTH24_STENCIL8
+LOCAL_GL_DEPTH_STENCIL
 ;
 }
 static
