@@ -331,11 +331,6 @@ libspeex_resampler
 '
 media
 /
-libstagefright
-'
-'
-media
-/
 libsoundtouch
 '
 ]

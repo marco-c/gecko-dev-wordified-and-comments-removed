@@ -1004,15 +1004,7 @@ has_trivial_move
 {
 memmove
 (
-(
-void
-*
-)
 d
-(
-void
-*
-)
 s
 n
 *

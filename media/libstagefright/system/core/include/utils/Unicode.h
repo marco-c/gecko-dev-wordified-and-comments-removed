@@ -25,6 +25,14 @@ extern
 C
 "
 {
+typedef
+uint32_t
+char32_t
+;
+typedef
+uint16_t
+char16_t
+;
 int
 strcmp16
 (
