@@ -100,13 +100,6 @@ optional
 BluetoothDeviceEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 BluetoothDeviceEvent

@@ -100,13 +100,6 @@ optional
 BluetoothStatusChangedEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 BluetoothStatusChangedEvent

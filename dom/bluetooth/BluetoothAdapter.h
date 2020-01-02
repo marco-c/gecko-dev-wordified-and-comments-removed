@@ -41,13 +41,6 @@ nsDOMEventTargetHelper
 .
 h
 "
-#
-include
-"
-nsIDOMBluetoothDevice
-.
-h
-"
 namespace
 mozilla
 {
