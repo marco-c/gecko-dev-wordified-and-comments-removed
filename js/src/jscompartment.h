@@ -1835,6 +1835,12 @@ void
 *
 compartmentStats
 ;
+bool
+scheduledForDestruction
+;
+bool
+maybeAlive
+;
 #
 ifdef
 JS_ION
