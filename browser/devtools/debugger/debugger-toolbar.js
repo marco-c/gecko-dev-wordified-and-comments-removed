@@ -2813,7 +2813,7 @@ for
 (
 let
 otherItem
-of
+in
 this
 )
 {
