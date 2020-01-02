@@ -510,6 +510,11 @@ Matrix
 cpp
 '
 '
+Path
+.
+cpp
+'
+'
 PathCairo
 .
 cpp

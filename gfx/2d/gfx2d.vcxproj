@@ -1052,6 +1052,17 @@ ClInclude
 Include
 =
 "
+PathHelpers
+.
+h
+"
+/
+>
+<
+ClInclude
+Include
+=
+"
 PathRecording
 .
 h
