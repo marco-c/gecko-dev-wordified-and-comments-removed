@@ -3544,13 +3544,6 @@ seekPos
 )
 )
 ;
-int
-flags
-=
-GST_SEEK_FLAG_FLUSH
-|
-GST_SEEK_FLAG_KEY_UNIT
-;
 if
 (
 !
@@ -3563,7 +3556,9 @@ static_cast
 GstSeekFlags
 >
 (
-flags
+GST_SEEK_FLAG_FLUSH
+|
+GST_SEEK_FLAG_ACCURATE
 )
 seekPos
 )
@@ -3624,7 +3619,10 @@ completed
 )
 ;
 return
-NS_OK
+DecodeToTarget
+(
+aTarget
+)
 ;
 }
 nsresult

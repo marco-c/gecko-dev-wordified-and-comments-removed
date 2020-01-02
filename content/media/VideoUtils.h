@@ -388,16 +388,6 @@ s
 PR_MSEC_PER_SEC
 )
 )
-nsresult
-SecondsToUsecs
-(
-double
-aSeconds
-int64_t
-&
-aOutUsecs
-)
-;
 static
 const
 int32_t
