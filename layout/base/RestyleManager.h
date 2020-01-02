@@ -33,10 +33,13 @@ nsPresContext
 h
 "
 class
+nsIFrame
+;
+class
 nsRefreshDriver
 ;
 class
-nsIFrame
+nsStyleChangeList
 ;
 struct
 TreeMatchContext

@@ -106,10 +106,13 @@ nsCSSPseudoElements
 h
 "
 class
+nsIFrame
+;
+class
 nsPresContext
 ;
 class
-nsIFrame
+nsStyleChangeList
 ;
 class
 ElementPropertyTransition
