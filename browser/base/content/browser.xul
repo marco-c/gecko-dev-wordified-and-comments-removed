@@ -5230,11 +5230,6 @@ urlbar
 -
 container
 "
-align
-=
-"
-center
-"
 flex
 =
 "
@@ -5497,6 +5492,11 @@ flex
 =
 "
 1
+"
+align
+=
+"
+center
 "
 >
 <
