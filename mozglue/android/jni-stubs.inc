@@ -2797,6 +2797,7 @@ Java_org_mozilla_gecko_ANRReporter_requestNativeStack_t
 JNIEnv
 *
 jclass
+jboolean
 )
 ;
 static
@@ -2817,6 +2818,8 @@ JNIEnv
 arg0
 jclass
 arg1
+jboolean
+arg2
 )
 {
 if
@@ -2863,6 +2866,7 @@ f_Java_org_mozilla_gecko_ANRReporter_requestNativeStack
 (
 arg0
 arg1
+arg2
 )
 ;
 }

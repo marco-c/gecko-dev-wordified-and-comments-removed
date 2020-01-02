@@ -292,6 +292,8 @@ native
 boolean
 requestNativeStack
 (
+boolean
+unwind
 )
 ;
 private
@@ -2720,6 +2722,14 @@ haveNativeStack
 =
 requestNativeStack
 (
+SysInfo
+.
+getMemSize
+(
+)
+>
+=
+640
 )
 ;
 try
