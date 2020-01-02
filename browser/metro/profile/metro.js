@@ -262,9 +262,7 @@ apz
 .
 pan_repaint_interval
 "
-"
 50
-"
 )
 ;
 pref
@@ -274,9 +272,7 @@ apz
 .
 fling_repaint_interval
 "
-"
 50
-"
 )
 ;
 pref
