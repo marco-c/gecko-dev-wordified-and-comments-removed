@@ -259,6 +259,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+obs
+)
+{
 obs
 -
 >
@@ -272,6 +277,7 @@ shutdown
 "
 )
 ;
+}
 }
 bool
 nsDOMCameraManager
