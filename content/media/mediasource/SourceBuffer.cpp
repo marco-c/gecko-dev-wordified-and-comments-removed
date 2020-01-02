@@ -319,17 +319,6 @@ aMediaSeekable
 )
 {
 }
-void
-SubBufferDecoder
-:
-:
-SetTransportSeekable
-(
-bool
-aTransportSeekable
-)
-{
-}
 layers
 :
 :

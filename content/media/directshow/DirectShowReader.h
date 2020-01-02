@@ -166,6 +166,12 @@ aOffset
 )
 MOZ_OVERRIDE
 ;
+bool
+IsMediaSeekable
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 bool

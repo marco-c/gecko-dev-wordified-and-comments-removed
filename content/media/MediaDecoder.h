@@ -1057,16 +1057,6 @@ aMediaSeekable
 MOZ_OVERRIDE
 ;
 virtual
-void
-SetTransportSeekable
-(
-bool
-aTransportSeekable
-)
-MOZ_FINAL
-MOZ_OVERRIDE
-;
-virtual
 bool
 IsMediaSeekable
 (
@@ -1872,9 +1862,6 @@ mDuration
 ;
 bool
 mInitialAudioCaptured
-;
-bool
-mTransportSeekable
 ;
 bool
 mMediaSeekable

@@ -297,17 +297,6 @@ aMediaSeekable
 )
 {
 }
-void
-BufferDecoder
-:
-:
-SetTransportSeekable
-(
-bool
-aTransportSeekable
-)
-{
-}
 VideoFrameContainer
 *
 BufferDecoder

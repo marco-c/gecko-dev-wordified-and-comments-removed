@@ -157,6 +157,13 @@ return
 true
 ;
 }
+virtual
+bool
+IsMediaSeekable
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 bool

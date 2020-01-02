@@ -212,16 +212,6 @@ aMediaSeekable
 0
 ;
 virtual
-void
-SetTransportSeekable
-(
-bool
-aTransportSeekable
-)
-=
-0
-;
-virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer

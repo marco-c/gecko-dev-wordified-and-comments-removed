@@ -138,6 +138,13 @@ int64_t
 aStartTime
 )
 ;
+virtual
+bool
+IsMediaSeekable
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 bool

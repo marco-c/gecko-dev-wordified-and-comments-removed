@@ -1463,14 +1463,6 @@ dataIsBounded
 )
 ;
 }
-mDecoder
--
->
-SetTransportSeekable
-(
-seekable
-)
-;
 mCacheStream
 .
 SetTransportSeekable
