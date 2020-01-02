@@ -337,6 +337,10 @@ panel
 -
 arrowcontent
 {
+overflow
+:
+hidden
+;
 padding
 :
 0
