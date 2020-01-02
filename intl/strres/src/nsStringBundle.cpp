@@ -2179,8 +2179,10 @@ LinkedListElement
 bundleCacheEntry_t
 >
 {
+nsAutoPtr
+<
 nsCStringKey
-*
+>
 mHashKey
 ;
 nsIStringBundle
@@ -2861,12 +2863,6 @@ bundleCacheEntry_t
 aEntry
 )
 {
-delete
-aEntry
--
->
-mHashKey
-;
 NS_RELEASE
 (
 aEntry
