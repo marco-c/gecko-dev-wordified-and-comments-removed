@@ -4705,7 +4705,7 @@ BINPATH
 /
 components
 /
-ContentHandler
+OMAContentHandler
 .
 js
 BINPATH

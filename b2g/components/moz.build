@@ -151,6 +151,11 @@ MobileIdentityUIGlue
 js
 '
 '
+OMAContentHandler
+.
+js
+'
+'
 PaymentGlue
 .
 js
