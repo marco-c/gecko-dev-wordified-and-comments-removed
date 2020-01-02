@@ -539,6 +539,14 @@ label
 /
 >
 <
+vbox
+id
+=
+"
+pairDevice
+"
+>
+<
 separator
 /
 >
@@ -580,6 +588,10 @@ label
 ;
 "
 /
+>
+<
+/
+vbox
 >
 <
 spacer
