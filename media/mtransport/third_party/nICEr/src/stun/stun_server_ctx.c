@@ -1188,6 +1188,11 @@ res
 "
 Bad
 Request
+-
+Failed
+to
+decode
+request
 "
 )
 ;
@@ -1228,6 +1233,13 @@ res
 "
 Bad
 Request
+-
+Section
+7
+.
+3
+check
+failed
 "
 )
 ;
@@ -1317,6 +1329,10 @@ res
 "
 Bad
 Request
+-
+Unsupported
+message
+type
 "
 )
 ;
