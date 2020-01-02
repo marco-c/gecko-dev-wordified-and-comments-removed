@@ -4283,6 +4283,17 @@ mMonitor
 ;
 if
 (
+mState
+=
+=
+ERRORED
+)
+{
+return
+;
+}
+if
+(
 !
 mCubebStream
 |
