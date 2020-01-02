@@ -457,9 +457,7 @@ final
 String
 TARGET_XPCOM_ABI
 =
-"
 TARGET_XPCOM_ABI
-"
 ;
 public
 static
