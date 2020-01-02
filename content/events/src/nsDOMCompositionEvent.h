@@ -70,12 +70,6 @@ WidgetCompositionEvent
 aEvent
 )
 ;
-virtual
-~
-nsDOMCompositionEvent
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_TO_NSDOMUIEVENT
 NS_DECL_NSIDOMCOMPOSITIONEVENT

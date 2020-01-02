@@ -73,11 +73,6 @@ InternalTransitionEvent
 aEvent
 )
 ;
-~
-nsDOMTransitionEvent
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_TO_NSDOMEVENT
 NS_DECL_NSIDOMTRANSITIONEVENT

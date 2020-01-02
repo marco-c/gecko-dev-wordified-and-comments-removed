@@ -77,12 +77,6 @@ InternalMutationEvent
 aEvent
 )
 ;
-virtual
-~
-nsDOMMutationEvent
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMMUTATIONEVENT
 NS_FORWARD_TO_NSDOMEVENT
