@@ -921,6 +921,16 @@ aImage
 )
 ;
 void
+ClearAllImages
+(
+)
+;
+void
+ClearAllImagesExceptFront
+(
+)
+;
+void
 ClearCurrentImage
 (
 )

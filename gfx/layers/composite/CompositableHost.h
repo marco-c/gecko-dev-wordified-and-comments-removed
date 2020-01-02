@@ -281,6 +281,13 @@ aCompositor
 )
 {
 }
+virtual
+void
+ClearData
+(
+)
+{
+}
 }
 ;
 class

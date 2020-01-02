@@ -451,7 +451,7 @@ aContainer
 ;
 static
 void
-FlushImage
+FlushAllImages
 (
 ImageClient
 *
@@ -459,11 +459,13 @@ aClient
 ImageContainer
 *
 aContainer
+bool
+aExceptFront
 )
 ;
 static
 void
-FlushImageNow
+FlushAllImagesNow
 (
 ImageClient
 *
@@ -471,6 +473,8 @@ aClient
 ImageContainer
 *
 aContainer
+bool
+aExceptFront
 )
 ;
 virtual
