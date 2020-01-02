@@ -1,6 +1,13 @@
 #
 include
 "
+nsImageFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -11,13 +18,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsImageFrame
 .
 h
 "

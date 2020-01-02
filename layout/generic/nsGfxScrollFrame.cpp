@@ -1,6 +1,13 @@
 #
 include
 "
+nsGfxScrollFrame
+.
+h
+"
+#
+include
+"
 base
 /
 compiler_specific
@@ -39,13 +46,6 @@ h
 include
 "
 nsContainerFrame
-.
-h
-"
-#
-include
-"
-nsGfxScrollFrame
 .
 h
 "

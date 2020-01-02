@@ -1,6 +1,13 @@
 #
 include
 "
+nsHTMLReflowState
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h

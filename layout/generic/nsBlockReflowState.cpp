@@ -1,6 +1,13 @@
 #
 include
 "
+nsBlockReflowState
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly

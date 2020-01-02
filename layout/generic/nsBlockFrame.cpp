@@ -1,6 +1,13 @@
 #
 include
 "
+nsBlockFrame
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -20,13 +27,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsBlockFrame
 .
 h
 "

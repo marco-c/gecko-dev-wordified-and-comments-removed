@@ -13,7 +13,7 @@ void
 #
 include
 "
-plarena
+nsLineLayout
 .
 h
 "
@@ -23,13 +23,6 @@ include
 mozilla
 /
 Util
-.
-h
-"
-#
-include
-"
-nsLineLayout
 .
 h
 "
