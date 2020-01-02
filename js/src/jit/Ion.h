@@ -601,7 +601,7 @@ return
 cx
 -
 >
-runtime
+compartment
 (
 )
 -
@@ -612,13 +612,14 @@ options
 .
 ion
 (
+cx
 )
 &
 &
 cx
 -
 >
-runtime
+compartment
 (
 )
 -
@@ -629,6 +630,7 @@ options
 .
 baseline
 (
+cx
 )
 &
 &

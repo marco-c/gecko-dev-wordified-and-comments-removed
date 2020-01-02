@@ -5607,7 +5607,7 @@ case
 I
 '
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -5627,7 +5627,7 @@ case
 n
 '
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -7716,6 +7716,19 @@ return
 1
 ;
 }
+JS
+:
+:
+ContextOptionsRef
+(
+cx
+)
+.
+setBaseline
+(
+true
+)
+;
 argc
 -
 -
