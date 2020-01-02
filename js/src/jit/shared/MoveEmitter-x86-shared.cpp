@@ -96,7 +96,7 @@ j
 )
 {
 const
-Move
+MoveOp
 &
 move
 =
@@ -218,7 +218,7 @@ swapCount
 ;
 }
 const
-Move
+MoveOp
 &
 move
 =
@@ -475,7 +475,7 @@ i
 )
 {
 const
-Move
+MoveOp
 &
 move
 =
@@ -604,7 +604,7 @@ kind
 )
 =
 =
-Move
+MoveOp
 :
 :
 DOUBLE
@@ -978,7 +978,7 @@ const
 MoveOperand
 &
 to
-Move
+MoveOp
 :
 :
 Kind
@@ -990,7 +990,7 @@ if
 kind
 =
 =
-Move
+MoveOp
 :
 :
 DOUBLE
@@ -1069,7 +1069,7 @@ const
 MoveOperand
 &
 to
-Move
+MoveOp
 :
 :
 Kind
@@ -1081,7 +1081,7 @@ if
 kind
 =
 =
-Move
+MoveOp
 :
 :
 DOUBLE

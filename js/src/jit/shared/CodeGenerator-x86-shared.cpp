@@ -7625,13 +7625,6 @@ return
 true
 ;
 }
-typedef
-MoveResolver
-:
-:
-MoveOperand
-MoveOperand
-;
 MoveOperand
 CodeGeneratorX86Shared
 :

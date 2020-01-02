@@ -178,9 +178,6 @@ output
 )
 ;
 }
-MoveResolver
-:
-:
 MoveOperand
 toMoveOperand
 (

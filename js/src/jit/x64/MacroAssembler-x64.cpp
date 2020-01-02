@@ -790,7 +790,7 @@ addMove
 (
 from
 to
-Move
+MoveOp
 :
 :
 DOUBLE
@@ -872,7 +872,7 @@ addMove
 (
 from
 to
-Move
+MoveOp
 :
 :
 GENERAL
@@ -1250,7 +1250,7 @@ MoveOperand
 (
 r10
 )
-Move
+MoveOp
 :
 :
 GENERAL

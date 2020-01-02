@@ -58,7 +58,7 @@ const
 MoveOperand
 &
 to
-Move
+MoveOp
 :
 :
 Kind

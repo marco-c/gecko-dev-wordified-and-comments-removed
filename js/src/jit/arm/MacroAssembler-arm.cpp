@@ -17417,7 +17417,7 @@ MoveOperand
 (
 fr
 )
-Move
+MoveOp
 :
 :
 DOUBLE
@@ -17450,7 +17450,7 @@ MoveOperand
 sp
 disp
 )
-Move
+MoveOp
 :
 :
 DOUBLE
@@ -17509,7 +17509,7 @@ MoveOperand
 (
 r
 )
-Move
+MoveOp
 :
 :
 GENERAL
@@ -17542,7 +17542,7 @@ MoveOperand
 sp
 disp
 )
-Move
+MoveOp
 :
 :
 GENERAL
@@ -17586,13 +17586,13 @@ true
 +
 passedArgs_
 ;
-Move
+MoveOp
 :
 :
 Kind
 kind
 =
-Move
+MoveOp
 :
 :
 GENERAL
@@ -17623,7 +17623,7 @@ increment
 ;
 kind
 =
-Move
+MoveOp
 :
 :
 DOUBLE

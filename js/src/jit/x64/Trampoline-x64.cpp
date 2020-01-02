@@ -2599,13 +2599,6 @@ VMFunction
 f
 )
 {
-typedef
-MoveResolver
-:
-:
-MoveOperand
-MoveOperand
-;
 JS_ASSERT
 (
 !
