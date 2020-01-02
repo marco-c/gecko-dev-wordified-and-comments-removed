@@ -821,9 +821,9 @@ addMessageListenerId
 "
 Marionette
 :
-getUrl
+getCurrentUrl
 "
-getUrl
+getCurrentUrl
 )
 ;
 addMessageListenerId
@@ -1440,9 +1440,9 @@ removeMessageListenerId
 "
 Marionette
 :
-getUrl
+getCurrentUrl
 "
-getUrl
+getCurrentUrl
 )
 ;
 removeMessageListenerId
@@ -6986,7 +6986,7 @@ url
 ;
 }
 function
-getUrl
+getCurrentUrl
 (
 msg
 )

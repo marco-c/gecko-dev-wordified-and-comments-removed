@@ -5508,10 +5508,10 @@ TYPE_ONE_SHOT
 )
 ;
 }
-getUrl
+getCurrentUrl
 :
 function
-MDA_getUrl
+MDA_getCurrentUrl
 (
 )
 {
@@ -5563,7 +5563,7 @@ this
 sendAsync
 (
 "
-getUrl
+getCurrentUrl
 "
 {
 }
@@ -12148,6 +12148,15 @@ prototype
 .
 goUrl
 "
+getCurrentUrl
+"
+:
+MarionetteServerConnection
+.
+prototype
+.
+getCurrentUrl
+"
 getUrl
 "
 :
@@ -12155,7 +12164,7 @@ MarionetteServerConnection
 .
 prototype
 .
-getUrl
+getCurrentUrl
 "
 goBack
 "
