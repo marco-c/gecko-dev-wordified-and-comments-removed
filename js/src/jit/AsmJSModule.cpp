@@ -1974,6 +1974,10 @@ scriptSource_
 (
 scriptSource
 )
+codeIsProtected_
+(
+false
+)
 {
 mozilla
 :
