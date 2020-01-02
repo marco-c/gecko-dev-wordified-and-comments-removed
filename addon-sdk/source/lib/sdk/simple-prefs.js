@@ -54,6 +54,7 @@ target
 ;
 const
 {
+preferencesBranch
 id
 }
 =
@@ -90,7 +91,7 @@ extensions
 .
 "
 +
-id
+preferencesBranch
 +
 "
 .

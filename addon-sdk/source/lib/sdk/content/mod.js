@@ -35,6 +35,12 @@ method
 require
 (
 "
+.
+.
+/
+.
+.
+/
 method
 /
 core

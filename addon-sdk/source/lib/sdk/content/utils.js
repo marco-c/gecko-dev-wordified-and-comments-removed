@@ -66,6 +66,12 @@ method
 require
 (
 '
+.
+.
+/
+.
+.
+/
 method
 /
 core

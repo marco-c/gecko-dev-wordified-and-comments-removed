@@ -9,6 +9,9 @@ method
 require
 (
 "
+.
+.
+/
 method
 /
 core
