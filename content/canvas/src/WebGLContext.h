@@ -502,7 +502,7 @@ WebGLMemoryPressureObserver
 ;
 friend
 class
-WebGLMemoryReporterWrapper
+WebGLMemoryTracker
 ;
 friend
 class
