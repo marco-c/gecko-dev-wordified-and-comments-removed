@@ -1821,4 +1821,16 @@ merged
 "
 ;
 }
+{
+nsRegion
+r
+;
+r
+.
+SimplifyOutwardByArea
+(
+100
+)
+;
+}
 }

@@ -1486,6 +1486,13 @@ mImpl
 n
 )
 ;
+if
+(
+!
+n
+)
+return
+;
 pixman_box32_t
 *
 end
