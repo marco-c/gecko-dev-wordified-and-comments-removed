@@ -464,6 +464,11 @@ devtools
 -
 toolbarbutton
 "
+standalone
+=
+"
+true
+"
 label
 =
 "
