@@ -489,18 +489,21 @@ self
 .
 magic_names
 =
+list
+(
 range
 (
 max
 (
 d
 .
-itervalues
+values
 (
 )
 )
 +
 1
+)
 )
         
 for
