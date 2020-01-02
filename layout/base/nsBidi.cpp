@@ -4342,10 +4342,6 @@ length
 mLength
 limit
 =
-length
-;
-limit
-=
 mTrailingWSStart
 ;
 if
