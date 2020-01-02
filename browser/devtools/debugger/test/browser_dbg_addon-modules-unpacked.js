@@ -1,10 +1,10 @@
 const
-ADDON4_URL
+ADDON5_URL
 =
 EXAMPLE_URL
 +
 "
-addon4
+addon5
 .
 xpi
 "
@@ -212,7 +212,7 @@ yield
 initAddonDebugger
 (
 gClient
-ADDON4_URL
+ADDON5_URL
 iframe
 )
 ;
@@ -251,7 +251,7 @@ resource
 :
 /
 /
-browser_dbg_addon4
+browser_dbg_addon5
 /
 test2
 .
@@ -276,7 +276,7 @@ resource
 :
 /
 /
-browser_dbg_addon4
+browser_dbg_addon5
 /
 test2
 .
@@ -335,7 +335,7 @@ installAddon
 return
 addAddon
 (
-ADDON4_URL
+ADDON5_URL
 )
 .
 then
@@ -460,7 +460,7 @@ resource
 :
 /
 /
-browser_dbg_addon4
+browser_dbg_addon5
 /
 test
 .
@@ -494,7 +494,7 @@ is
 (
 group
 "
-browser_dbg_addon4
+browser_dbg_addon5
 tests
 .
 mozilla
@@ -533,7 +533,7 @@ resource
 :
 /
 /
-browser_dbg_addon4
+browser_dbg_addon5
 /
 test2
 .
@@ -567,7 +567,7 @@ is
 (
 group
 "
-browser_dbg_addon4
+browser_dbg_addon5
 tests
 .
 mozilla
@@ -603,15 +603,12 @@ endsWith
 (
 "
 /
-browser_dbg_addon4
+browser_dbg_addon5
 tests
 .
 mozilla
 .
 org
-.
-xpi
-!
 /
 bootstrap
 .
@@ -641,7 +638,7 @@ is
 (
 group
 "
-browser_dbg_addon4
+browser_dbg_addon5
 tests
 .
 mozilla
@@ -739,6 +736,7 @@ gTitle
 Debugger
 -
 Test
+unpacked
 add
 -
 on
@@ -790,7 +788,7 @@ groups
 .
 value
 "
-browser_dbg_addon4
+browser_dbg_addon5
 tests
 .
 mozilla
