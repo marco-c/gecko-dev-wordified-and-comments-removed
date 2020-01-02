@@ -381,6 +381,14 @@ nsISupports
 aThis
 )
 ;
+bool
+HasNothingToTrace
+(
+nsISupports
+*
+aThis
+)
+;
 void
 SetPreservingWrapper
 (
