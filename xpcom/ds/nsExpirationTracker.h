@@ -1056,6 +1056,10 @@ Destroy
 (
 )
 {
+mOwner
+=
+nullptr
+;
 nsCOMPtr
 <
 nsIObserverService
@@ -1269,6 +1273,9 @@ memory
 pressure
 "
 )
+&
+&
+mOwner
 )
 mOwner
 -
