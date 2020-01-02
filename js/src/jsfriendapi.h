@@ -5465,10 +5465,10 @@ parallelNative
 ;
 }
 ;
-uint32_t
+uint16_t
 protoID
 ;
-uint32_t
+uint16_t
 depth
 ;
 OpType
