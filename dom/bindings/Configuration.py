@@ -2866,12 +2866,6 @@ nativeOwnership
         
 self
 .
-customTrace
-=
-False
-        
-self
-.
 customFinalize
 =
 desc
