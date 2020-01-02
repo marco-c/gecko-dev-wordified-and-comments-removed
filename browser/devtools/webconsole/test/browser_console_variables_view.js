@@ -916,6 +916,9 @@ name
 property
 deleted
 "
+timeout
+:
+60000
 validatorFn
 :
 (
