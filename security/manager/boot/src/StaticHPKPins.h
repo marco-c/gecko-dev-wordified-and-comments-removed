@@ -2326,7 +2326,7 @@ torproject
 org
 "
 true
-true
+false
 false
 -
 1
@@ -2408,7 +2408,7 @@ torproject
 org
 "
 true
-true
+false
 false
 -
 1
@@ -2586,7 +2586,7 @@ torproject
 org
 "
 true
-true
+false
 false
 -
 1
@@ -6611,7 +6611,7 @@ torproject
 org
 "
 false
-true
+false
 false
 -
 1
@@ -7019,7 +7019,7 @@ torproject
 org
 "
 true
-true
+false
 false
 -
 1
@@ -7117,6 +7117,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1414231808712000
+1414526265402000
 )
 ;
