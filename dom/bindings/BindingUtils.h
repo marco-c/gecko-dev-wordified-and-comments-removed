@@ -12617,6 +12617,17 @@ aPermissions
 )
 ;
 bool
+CheckSafetyInPrerendering
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
+bool
 CallerSubsumes
 (
 JSObject

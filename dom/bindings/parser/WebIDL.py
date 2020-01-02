@@ -7396,6 +7396,14 @@ identifier
 =
 =
 "
+UnsafeInPrerendering
+"
+or
+                  
+identifier
+=
+=
+"
 LegacyEventInit
 "
 )
@@ -21542,6 +21550,14 @@ identifier
 =
 =
 "
+UnsafeInPrerendering
+"
+or
+              
+identifier
+=
+=
+"
 CheckPermissions
 "
 )
@@ -25690,6 +25706,14 @@ identifier
 =
 "
 ChromeOnly
+"
+or
+              
+identifier
+=
+=
+"
+UnsafeInPrerendering
 "
 or
               
