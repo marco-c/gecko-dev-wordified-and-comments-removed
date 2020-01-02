@@ -3625,6 +3625,15 @@ guid
 e
 )
 ;
+if
+(
+mIsDestroyed
+)
+{
+return
+false
+;
+}
 MapEventCoordinatesForChildProcess
 (
 mChildProcessOffsetAtTouchStart
