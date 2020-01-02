@@ -75,6 +75,10 @@ REALTIME_LIBS
 )
 \
 (
+MOZ_JS_LIBS
+)
+\
+(
 DEPTH
 )
 /
