@@ -32,6 +32,11 @@ jsm
 "
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 test
 (

@@ -1126,6 +1126,12 @@ test
 name
 )
 ;
+waitForFocus
+(
+function
+(
+)
+{
 loadUITourTestPage
 (
 function
@@ -1135,6 +1141,9 @@ function
 test
 (
 done
+)
+;
+}
 )
 ;
 }
