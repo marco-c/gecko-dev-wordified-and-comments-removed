@@ -267,6 +267,11 @@ AlertsHelper
 jsm
 '
 '
+AppFrames
+.
+jsm
+'
+'
 ContentRequestHelper
 .
 jsm
