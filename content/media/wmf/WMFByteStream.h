@@ -87,6 +87,11 @@ IMFByteStream
 public
 IMFAttributes
 {
+~
+WMFByteStream
+(
+)
+;
 public
 :
 WMFByteStream
@@ -97,11 +102,6 @@ aResource
 WMFSourceReaderCallback
 *
 aCallback
-)
-;
-~
-WMFByteStream
-(
 )
 ;
 nsresult
