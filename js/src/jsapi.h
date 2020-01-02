@@ -4781,16 +4781,6 @@ void
 extern
 JS_PUBLIC_API
 (
-bool
-)
-JS_IsShutDown
-(
-void
-)
-;
-extern
-JS_PUBLIC_API
-(
 JSRuntime
 *
 )
