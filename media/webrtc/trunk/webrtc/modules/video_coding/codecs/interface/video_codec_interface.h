@@ -138,12 +138,14 @@ simulcast_idx
 struct
 CodecSpecificInfoH264
 {
-unsigned
-char
+uint8_t
 nalu_header
 ;
 bool
 single_nalu
+;
+uint8_t
+simulcastIdx
 ;
 }
 ;

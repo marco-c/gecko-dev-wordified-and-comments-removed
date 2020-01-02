@@ -458,8 +458,7 @@ case
 kRtpVideoH264
 :
 {
-unsigned
-char
+uint8_t
 nal_type
 =
 videoHeader
@@ -470,7 +469,10 @@ H264
 .
 nalu_header
 &
-0x1F
+RtpFormatH264
+:
+:
+kH264NAL_TypeMask
 ;
 if
 (
