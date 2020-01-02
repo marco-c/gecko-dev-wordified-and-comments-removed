@@ -1246,9 +1246,6 @@ ProcessAttributes
 (
 )
 ;
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -1261,7 +1258,7 @@ aStatus
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 nsresult
