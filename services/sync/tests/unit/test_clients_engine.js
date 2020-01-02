@@ -612,6 +612,10 @@ success
 }
 try
 {
+ensureLegacyIdentityManager
+(
+)
+;
 let
 passphrase
 =

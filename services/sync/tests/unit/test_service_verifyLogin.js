@@ -255,6 +255,10 @@ DumpAppender
 )
 )
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 Services
 .
 logins
