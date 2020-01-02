@@ -3808,15 +3808,6 @@ state
 !
 =
 NR_ICE_COMPONENT_UNPAIRED
-&
-&
-comp
--
->
-state
-!
-=
-NR_ICE_COMPONENT_DISABLED
 )
 ABORT
 (
