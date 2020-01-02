@@ -786,6 +786,7 @@ function
 target
 toolId
 hostType
+hostOptions
 )
 {
 let
@@ -918,6 +919,7 @@ Toolbox
 target
 toolId
 hostType
+hostOptions
 )
 ;
 this
