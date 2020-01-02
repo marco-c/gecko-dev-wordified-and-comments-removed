@@ -480,22 +480,15 @@ desc
 .
 concrete
 and
-            
 desc
 .
 wrapperCache
 and
-            
 not
 desc
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 )
 lineStartDetector
@@ -2549,13 +2542,8 @@ self
 .
 descriptor
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 :
             
@@ -2848,13 +2836,8 @@ self
 .
 descriptor
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 :
             
@@ -10017,13 +10000,8 @@ n
 if
 descriptor
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 :
         
@@ -17603,13 +17581,8 @@ self
 .
 descriptor
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 is
 not
@@ -50679,13 +50652,8 @@ self
 .
 descriptor
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 :
             
@@ -51015,13 +50983,8 @@ self
 .
 descriptor
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 :
             
@@ -75355,13 +75318,8 @@ descriptor
 if
 descriptor
 .
-interface
-.
-getExtendedAttribute
+isGlobal
 (
-"
-Global
-"
 )
 :
                 

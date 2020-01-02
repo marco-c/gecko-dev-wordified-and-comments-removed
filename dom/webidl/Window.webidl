@@ -357,7 +357,7 @@ current
 work
 /
 [
-Global
+PrimaryGlobal
 NeedNewResolve
 ]
 /
