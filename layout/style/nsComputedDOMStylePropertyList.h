@@ -530,11 +530,6 @@ Overflow
 )
 COMPUTED_STYLE_PROP
 (
-overflow_clip_box
-OverflowClipBox
-)
-COMPUTED_STYLE_PROP
-(
 overflow_x
 OverflowX
 )

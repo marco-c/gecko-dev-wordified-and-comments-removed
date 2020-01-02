@@ -7297,9 +7297,6 @@ uint8_t
 mOverflowY
 ;
 uint8_t
-mOverflowClipBox
-;
-uint8_t
 mResize
 ;
 uint8_t
