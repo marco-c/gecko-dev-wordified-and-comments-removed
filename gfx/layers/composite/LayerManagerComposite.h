@@ -1029,6 +1029,17 @@ GetLayer
 ;
 virtual
 void
+Prepare
+(
+const
+nsIntRect
+&
+aClipRect
+)
+{
+}
+virtual
+void
 RenderLayer
 (
 const
