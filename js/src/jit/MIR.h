@@ -40402,11 +40402,16 @@ MOZ_FINAL
 :
 public
 MNode
+#
+ifdef
+DEBUG
 public
 InlineForwardListNode
 <
 MResumePoint
 >
+#
+endif
 {
 public
 :
