@@ -339,11 +339,9 @@ return
 mCountAsActive
 ;
 }
-nsresult
+void
 SetAllHeadersReceived
 (
-bool
-aStatus
 )
 ;
 bool

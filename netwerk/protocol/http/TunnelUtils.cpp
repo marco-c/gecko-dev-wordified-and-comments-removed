@@ -3947,10 +3947,14 @@ n
 "
 this
 count
+mTunneledConn
+?
 mTunnelStreamIn
 -
 >
 mCallback
+:
+nullptr
 )
 )
 ;
@@ -4066,6 +4070,10 @@ mInputDataOffset
 ;
 if
 (
+!
+mTunneledConn
+|
+|
 !
 mTunnelStreamIn
 -
