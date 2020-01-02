@@ -970,6 +970,15 @@ if
 (
 !
 typeName
+|
+|
+typeName
+=
+=
+=
+'
+text
+'
 )
 {
 return
