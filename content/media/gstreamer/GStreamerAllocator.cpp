@@ -229,7 +229,7 @@ ImageFormat
 PLANAR_YCBCR
 )
 .
-get
+take
 (
 )
 )
