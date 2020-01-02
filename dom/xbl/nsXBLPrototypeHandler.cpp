@@ -2926,7 +2926,7 @@ cAllModifiers
 return
 true
 ;
-uint16_t
+int16_t
 button
 ;
 aMouseEvent

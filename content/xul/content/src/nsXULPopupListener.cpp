@@ -499,7 +499,7 @@ mIsContext
 return
 NS_OK
 ;
-uint16_t
+int16_t
 button
 ;
 nsCOMPtr

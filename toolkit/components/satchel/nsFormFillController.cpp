@@ -3787,7 +3787,7 @@ targetInput
 return
 NS_OK
 ;
-uint16_t
+int16_t
 button
 ;
 mouseEvent

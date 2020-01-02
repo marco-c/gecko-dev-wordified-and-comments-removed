@@ -408,7 +408,7 @@ GetHTMLEditor
 (
 )
 ;
-uint16_t
+int16_t
 buttonNumber
 ;
 nsresult

@@ -426,7 +426,7 @@ int32_t
 aClientX
 int32_t
 aClientY
-uint16_t
+int16_t
 aButton
 nsIDOMEventTarget
 *
@@ -879,7 +879,7 @@ nsDOMMouseEvent
 :
 GetButton
 (
-uint16_t
+int16_t
 *
 aButton
 )
@@ -900,7 +900,7 @@ return
 NS_OK
 ;
 }
-uint16_t
+int16_t
 nsDOMMouseEvent
 :
 :

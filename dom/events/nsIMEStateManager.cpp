@@ -1291,7 +1291,7 @@ isTrusted
 return
 ;
 }
-uint16_t
+int16_t
 button
 ;
 rv

@@ -17690,6 +17690,16 @@ modifiers
 event
 -
 >
+button
+=
+aMouseEvent
+-
+>
+button
+;
+event
+-
+>
 buttons
 =
 aMouseEvent

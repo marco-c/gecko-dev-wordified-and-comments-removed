@@ -202,7 +202,6 @@ metaKey
 ;
 readonly
 attribute
-unsigned
 short
 button
 ;
@@ -259,7 +258,6 @@ boolean
 shiftKeyArg
 boolean
 metaKeyArg
-unsigned
 short
 buttonArg
 EventTarget
@@ -395,7 +393,6 @@ metaKey
 =
 false
 ;
-unsigned
 short
 button
 =
@@ -559,7 +556,6 @@ boolean
 shiftKeyArg
 boolean
 metaKeyArg
-unsigned
 short
 buttonArg
 EventTarget
