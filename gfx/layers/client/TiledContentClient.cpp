@@ -1658,11 +1658,6 @@ new
 DeprecatedTextureClientTile
 (
 mManager
--
->
-AsShadowForwarder
-(
-)
 TextureInfo
 (
 BUFFER_TILED

@@ -21481,11 +21481,6 @@ GetLayerManager
 manager
 -
 >
-AsShadowForwarder
-(
-)
--
->
 WindowOverlayChanged
 (
 )
