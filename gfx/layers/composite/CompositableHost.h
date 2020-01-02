@@ -725,6 +725,7 @@ aFlags
 KEEP_ATTACHED
 ;
 }
+virtual
 void
 Detach
 (
