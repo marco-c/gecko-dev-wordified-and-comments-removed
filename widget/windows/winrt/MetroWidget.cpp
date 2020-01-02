@@ -7104,6 +7104,17 @@ OnTextChange
 aIMENotification
 )
 ;
+case
+NOTIFY_IME_OF_POSITION_CHANGE
+:
+return
+nsTextStore
+:
+:
+OnLayoutChange
+(
+)
+;
 default
 :
 return
