@@ -1894,11 +1894,6 @@ LayerSorter
 cpp
 '
 '
-LayerUtils
-.
-cpp
-'
-'
 opengl
 /
 CompositingRenderTargetOGL
