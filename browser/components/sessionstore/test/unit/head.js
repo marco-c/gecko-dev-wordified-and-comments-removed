@@ -40,9 +40,6 @@ jsm
 "
 )
 ;
-let
-afterSessionStartupInitialization
-=
 function
 afterSessionStartupInitialization
 (

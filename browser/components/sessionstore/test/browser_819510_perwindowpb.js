@@ -1188,7 +1188,7 @@ aCallback
 )
 {
 return
-promiseSaveFileContents
+promiseRecoveryFileContents
 (
 )
 .
