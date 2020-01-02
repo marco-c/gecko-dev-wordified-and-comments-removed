@@ -243,6 +243,10 @@ ElementAnimation
 (
 )
 :
+mIsRunningOnCompositor
+(
+false
+)
 mLastNotification
 (
 LAST_NOTIFICATION_NONE
@@ -412,6 +416,9 @@ mozilla
 :
 TimeDuration
 mIterationDuration
+;
+bool
+mIsRunningOnCompositor
 ;
 enum
 {

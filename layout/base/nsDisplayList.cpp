@@ -3220,6 +3220,13 @@ data
 pending
 )
 ;
+anim
+-
+>
+mIsRunningOnCompositor
+=
+true
+;
 }
 aLayer
 -
