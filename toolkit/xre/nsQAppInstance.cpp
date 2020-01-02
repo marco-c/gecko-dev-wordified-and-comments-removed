@@ -34,6 +34,13 @@ h
 "
 #
 include
+"
+nsXPCOMPrivate
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -142,6 +149,13 @@ graphicsSystem
 }
 #
 endif
+mozilla
+:
+:
+SetICUMemoryFunctions
+(
+)
+;
 sQAppInstance
 =
 new

@@ -1038,6 +1038,11 @@ servMgr
 )
 ;
 void
+SetICUMemoryFunctions
+(
+)
+;
+void
 LogTerm
 (
 )
