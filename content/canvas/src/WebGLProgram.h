@@ -404,7 +404,7 @@ mAttachedShaders
 CheckedUint32
 mGeneration
 ;
-nsTArray
+FallibleTArray
 <
 bool
 >
