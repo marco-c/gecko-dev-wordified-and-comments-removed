@@ -7113,6 +7113,7 @@ IsChromeDoc
 (
 ownerDoc
 )
+this
 )
 ;
 return
