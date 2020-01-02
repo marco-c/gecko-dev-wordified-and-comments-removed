@@ -108,6 +108,7 @@ const
 char
 *
 aFlavor
+const
 void
 *
 aDataBuff

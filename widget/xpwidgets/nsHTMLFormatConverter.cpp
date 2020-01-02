@@ -584,10 +584,6 @@ toFlavor
 get
 (
 )
-(
-void
-*
-)
 dataStr
 .
 get
@@ -649,10 +645,6 @@ toFlavor
 .
 get
 (
-)
-(
-void
-*
 )
 outStr
 .
@@ -722,10 +714,6 @@ toFlavor
 .
 get
 (
-)
-(
-void
-*
 )
 outStr
 .
