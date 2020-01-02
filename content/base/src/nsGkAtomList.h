@@ -14425,6 +14425,13 @@ _displayportbase
 )
 GK_ATOM
 (
+AsyncScrollLayerCreationFailed
+"
+_asyncscrolllayercreationfailed
+"
+)
+GK_ATOM
+(
 color_picker_available
 "
 color
