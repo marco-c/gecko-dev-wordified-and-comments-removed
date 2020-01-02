@@ -16402,6 +16402,10 @@ compressedTexImage2D
 return
 ;
 }
+MakeContextCurrent
+(
+)
+;
 gl
 -
 >
@@ -16983,6 +16987,10 @@ level
 )
 ;
 }
+MakeContextCurrent
+(
+)
+;
 gl
 -
 >
