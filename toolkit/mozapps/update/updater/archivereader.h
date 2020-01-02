@@ -6,15 +6,6 @@ define
 ArchiveReader_h__
 #
 include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -53,7 +44,7 @@ ArchiveReader
 :
 mArchive
 (
-nullptr
+NULL
 )
 {
 }

@@ -303,7 +303,7 @@ if
 str
 )
 return
-nullptr
+NULL
 ;
 char
 *
@@ -333,7 +333,7 @@ str
 ret
 ;
 return
-nullptr
+NULL
 ;
 }
 char
@@ -411,7 +411,7 @@ i
 *
 str
 =
-nullptr
+NULL
 ;
 return
 ret
