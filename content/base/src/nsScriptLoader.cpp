@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsUnicharUtils
 .
 h

@@ -245,6 +245,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIDOMGlobalPropertyInitializer
 .
 h

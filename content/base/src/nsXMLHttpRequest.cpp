@@ -255,6 +255,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

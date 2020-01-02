@@ -128,17 +128,6 @@ AutocompleteInfoBinding
 h
 "
 #
-include
-"
-mozilla
-/
-dom
-/
-ScriptSettings
-.
-h
-"
-#
 if
 defined
 (

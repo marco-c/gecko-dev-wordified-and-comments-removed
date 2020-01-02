@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h

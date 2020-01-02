@@ -103,6 +103,11 @@ BackstagePass
 h
 '
 '
+nsCxPusher
+.
+h
+'
+'
 qsObjectHelper
 .
 h
@@ -129,6 +134,11 @@ UNIFIED_SOURCES
 [
 '
 ExportHelpers
+.
+cpp
+'
+'
+nsCxPusher
 .
 cpp
 '
