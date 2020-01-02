@@ -77,10 +77,13 @@ NULL
 We
 want
 xpcshell
-and
 run
 -
 mozilla
+and
+install_app
+.
+py
 in
 the
 SDK
@@ -104,6 +107,10 @@ run
 -
 mozilla
 *
+\
+install_app
+.
+py
 \
 (
 NULL
