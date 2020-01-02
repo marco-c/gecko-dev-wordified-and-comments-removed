@@ -1907,7 +1907,7 @@ def
 link_static_lib
 (
 self
-reldir
+objdir
 basename
 )
 :
@@ -1919,7 +1919,7 @@ static_libraries
 append
 (
 (
-reldir
+objdir
 basename
 )
 )
