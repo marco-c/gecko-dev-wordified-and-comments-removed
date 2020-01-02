@@ -369,16 +369,3 @@ lnspr4
 NULL
 )
 endif
-ifeq
-(
-(
-OS_TARGET
-)
-SunOS
-)
-OS_LIBS
-+
-=
--
-lbsm
-endif

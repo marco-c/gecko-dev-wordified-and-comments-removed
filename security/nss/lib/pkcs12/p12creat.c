@@ -198,7 +198,7 @@ old_baggage
 0
 sizeof
 (
-SEC_PKCS7ContentInfo
+SEC_PKCS12Baggage_OLD
 )
 )
 ;

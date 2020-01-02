@@ -1676,6 +1676,10 @@ outLen
 }
 else
 {
+s
+=
+SECFailure
+;
 PORT_SetError
 (
 SEC_ERROR_BAD_DATA
