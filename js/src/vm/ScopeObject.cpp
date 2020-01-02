@@ -1768,7 +1768,6 @@ lambdaSlot
 )
 attrs
 0
-0
 )
 )
 {
@@ -3958,7 +3957,6 @@ slot
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
-0
 0
 spp
 false
@@ -7413,13 +7411,6 @@ maybeArgsObj
 ;
 desc
 .
-setShortId
-(
-0
-)
-;
-desc
-.
 setGetter
 (
 nullptr
@@ -7487,13 +7478,6 @@ value
 set
 (
 v
-)
-;
-desc
-.
-setShortId
-(
-0
 )
 ;
 desc

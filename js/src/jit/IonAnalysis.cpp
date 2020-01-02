@@ -10764,7 +10764,6 @@ nullptr
 nullptr
 JSPROP_ENUMERATE
 0
-0
 )
 )
 {

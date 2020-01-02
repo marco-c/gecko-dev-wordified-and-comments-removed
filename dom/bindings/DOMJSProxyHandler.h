@@ -899,13 +899,6 @@ setSetter
 nullptr
 )
 ;
-desc
-.
-setShortId
-(
-0
-)
-;
 }
 inline
 void
@@ -1015,13 +1008,6 @@ desc
 setSetter
 (
 nullptr
-)
-;
-desc
-.
-setShortId
-(
-0
 )
 ;
 }

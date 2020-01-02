@@ -756,7 +756,6 @@ name
 slot
 attrs
 0
-0
 )
 ;
 shape

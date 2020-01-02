@@ -2505,8 +2505,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 bool
 allowDictionary
 )
@@ -2632,7 +2630,6 @@ setter
 slot
 attrs
 flags
-shortid
 spp
 allowDictionary
 )
@@ -2788,8 +2785,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 Shape
 *
 *
@@ -3176,7 +3171,6 @@ id
 slot
 attrs
 flags
-shortid
 )
 ;
 shape
@@ -3315,8 +3309,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 Shape
 *
 *
@@ -3353,8 +3345,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 Shape
 *
 *
@@ -3655,7 +3645,6 @@ id
 i
 JSPROP_ENUMERATE
 0
-0
 )
 ;
 newShape
@@ -3846,8 +3835,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 )
 {
 JS_ASSERT
@@ -4139,7 +4126,6 @@ setter
 slot
 attrs
 flags
-shortid
 spp
 true
 )
@@ -4307,7 +4293,6 @@ nbase
 slot
 attrs
 flags
-shortid
 )
 )
 return
@@ -4557,16 +4542,6 @@ Shape
 :
 IN_DICTIONARY
 ;
-shape
--
->
-shortid_
-=
-int16_t
-(
-shortid
-)
-;
 }
 else
 {
@@ -4637,7 +4612,6 @@ id
 slot
 attrs
 flags
-shortid
 )
 ;
 RootedShape
@@ -4786,8 +4760,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 )
 ;
 template
@@ -4818,8 +4790,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 )
 ;
 template
@@ -5075,12 +5045,6 @@ shape
 -
 >
 flags
-shape
--
->
-maybeShortid
-(
-)
 )
 ;
 obj

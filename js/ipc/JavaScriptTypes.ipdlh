@@ -308,9 +308,6 @@ objId
 uint32_t
 attrs
 ;
-uint32_t
-shortid
-;
 JSVariant
 value
 ;

@@ -4267,8 +4267,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 js
 :
 :
@@ -4356,8 +4354,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 bool
 allowDictionary
 =
@@ -4457,8 +4453,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 )
 ;
 template
@@ -4511,8 +4505,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 )
 ;
 template
@@ -7396,8 +7388,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 unsigned
 defineHow
 =

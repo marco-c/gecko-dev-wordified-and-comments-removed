@@ -6286,8 +6286,6 @@ unsigned
 attrs
 unsigned
 flags
-int
-shortid
 unsigned
 defineHow
 =
@@ -6318,7 +6316,6 @@ getter
 setter
 attrs
 flags
-shortid
 defineHow
 )
 ;
