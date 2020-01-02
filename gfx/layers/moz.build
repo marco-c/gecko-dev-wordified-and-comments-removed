@@ -1184,6 +1184,13 @@ cpp
 '
 basic
 /
+X11BasicCompositor
+.
+cpp
+'
+'
+basic
+/
 X11TextureSourceBasic
 .
 cpp
