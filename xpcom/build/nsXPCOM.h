@@ -126,11 +126,6 @@ DECL_CLASS
 nsITraceRefcnt
 )
 ;
-DECL_STRUCT
-(
-nsPurpleBufferEntry
-)
-;
 #
 ifdef
 __cplusplus

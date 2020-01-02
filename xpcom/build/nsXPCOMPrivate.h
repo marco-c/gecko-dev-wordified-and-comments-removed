@@ -41,6 +41,9 @@ nsCStringContainer
 class
 nsIComponentLoader
 ;
+class
+nsPurpleBufferEntry
+;
 #
 define
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
