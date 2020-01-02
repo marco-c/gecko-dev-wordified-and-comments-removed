@@ -174,14 +174,6 @@ nsPIDOMWindow
 aWindow
 )
 ;
-nsRefPtr
-<
-ICameraControl
->
-GetNativeCameraControl
-(
-)
-;
 void
 Shutdown
 (
