@@ -301,6 +301,17 @@ infile
 =
 None
         
+if
+os
+.
+path
+.
+exists
+(
+infile
+)
+:
+            
 with
 open
 (
@@ -312,13 +323,13 @@ r
 as
 f
 :
-            
+                
 for
 line
 in
 f
 :
-                
+                    
 if
 line
 .
@@ -330,11 +341,11 @@ include
 '
 )
 :
-                    
+                        
 raise
 HgIncludeException
 (
-                        
+                            
 '
 %
 include
