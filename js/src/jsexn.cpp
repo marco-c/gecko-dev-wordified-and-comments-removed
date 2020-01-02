@@ -136,6 +136,17 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+ErrorObject
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -4640,6 +4651,7 @@ err
 >
 fileName
 (
+cx
 )
 )
 ;
@@ -4676,6 +4688,7 @@ err
 >
 stack
 (
+cx
 )
 )
 ;
