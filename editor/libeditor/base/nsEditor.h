@@ -1738,6 +1738,15 @@ virtual
 bool
 IsContainer
 (
+nsINode
+*
+aNode
+)
+;
+virtual
+bool
+IsContainer
+(
 nsIDOMNode
 *
 aNode
