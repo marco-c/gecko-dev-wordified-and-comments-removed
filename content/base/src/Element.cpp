@@ -2293,6 +2293,7 @@ return
 nullptr
 ;
 }
+{
 nsRefPtr
 <
 nsXBLBinding
@@ -2356,6 +2357,7 @@ ExecuteAttachedHandler
 )
 )
 ;
+}
 }
 }
 return
