@@ -75,6 +75,13 @@ return
 mContent
 ;
 }
+virtual
+void
+IconUpdated
+(
+)
+{
+}
 protected
 :
 nsCOMPtr
