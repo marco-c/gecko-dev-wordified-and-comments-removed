@@ -127,3 +127,14 @@ SIMPLE_PROGRAMS
 TestZip
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+linker
+'
+]
