@@ -163,13 +163,6 @@ class
 InternalMutationEvent
 ;
 }
-typedef
-mozilla
-:
-:
-WidgetMouseEvent
-nsMouseEvent
-;
 namespace
 mozilla
 {

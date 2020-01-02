@@ -296,7 +296,7 @@ button
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -311,7 +311,7 @@ if
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton
@@ -331,7 +331,7 @@ if
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButton
@@ -351,7 +351,7 @@ if
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eRightButton

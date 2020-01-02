@@ -1048,7 +1048,10 @@ aVertical
 NS_IMETHOD
 BeginMoveDrag
 (
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 *
 aEvent
 )
@@ -1420,7 +1423,10 @@ void
 void
 InitButtonEvent
 (
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 &
 aEvent
 GdkEventButton
@@ -1473,7 +1479,10 @@ aAlwaysRollup
 bool
 GetDragInfo
 (
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 *
 aMouseEvent
 GdkWindow

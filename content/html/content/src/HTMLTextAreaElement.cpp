@@ -1780,7 +1780,7 @@ NS_MOUSE_EVENT
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1793,7 +1793,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButton

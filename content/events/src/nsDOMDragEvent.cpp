@@ -121,7 +121,7 @@ y
 ;
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (

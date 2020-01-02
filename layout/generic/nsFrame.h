@@ -2120,7 +2120,10 @@ aFrameSelection
 nsIPresShell
 *
 aPresShell
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 *
 aMouseEvent
 nsIContent

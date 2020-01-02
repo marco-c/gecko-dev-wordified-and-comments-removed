@@ -49071,13 +49071,13 @@ NS_MOUSE_EVENT
 NS_ERROR_FAILURE
 )
 ;
-nsMouseEvent
+WidgetMouseEvent
 *
 mouseEvent
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (

@@ -307,7 +307,7 @@ MultiTouchInput
 MultiTouchInput
 (
 const
-nsMouseEvent
+WidgetMouseEvent
 &
 aMouseEvent
 )
@@ -330,7 +330,7 @@ Can
 only
 copy
 from
-nsMouseEvent
+WidgetMouseEvent
 on
 main
 thread

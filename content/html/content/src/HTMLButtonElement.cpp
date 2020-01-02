@@ -1106,7 +1106,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 aVisitor
@@ -1119,7 +1119,7 @@ mFlags
 mIsTrusted
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -1188,7 +1188,7 @@ if
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1201,7 +1201,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton
@@ -1298,7 +1298,7 @@ if
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1311,7 +1311,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButton
@@ -1319,7 +1319,7 @@ eMiddleButton
 |
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1332,7 +1332,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eRightButton
@@ -1388,7 +1388,7 @@ mDOMEvent
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1401,7 +1401,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButton
@@ -1409,7 +1409,7 @@ eMiddleButton
 |
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1422,7 +1422,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eRightButton

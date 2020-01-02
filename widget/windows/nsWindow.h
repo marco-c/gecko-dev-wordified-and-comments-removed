@@ -1072,7 +1072,10 @@ false
 int16_t
 aButton
 =
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 :
 :
 eLeftButton

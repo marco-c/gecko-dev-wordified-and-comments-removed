@@ -746,7 +746,7 @@ aArgs
 void
 InitGeckoMouseEventFromPointerPoint
 (
-nsMouseEvent
+WidgetMouseEvent
 *
 aEvent
 IPointerPoint

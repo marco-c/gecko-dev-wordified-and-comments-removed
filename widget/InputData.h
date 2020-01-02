@@ -279,7 +279,7 @@ aTouchEvent
 MultiTouchInput
 (
 const
-nsMouseEvent
+WidgetMouseEvent
 &
 aMouseEvent
 )

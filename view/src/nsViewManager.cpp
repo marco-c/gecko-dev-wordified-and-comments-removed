@@ -3290,7 +3290,7 @@ HasMouseEventMessage
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -3301,7 +3301,7 @@ aEvent
 reason
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal

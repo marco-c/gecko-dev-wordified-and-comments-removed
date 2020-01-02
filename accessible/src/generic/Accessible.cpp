@@ -3950,13 +3950,13 @@ GetScreenBounds
 rootRect
 )
 ;
-nsMouseEvent
+WidgetMouseEvent
 dummyEvent
 (
 true
 NS_MOUSE_MOVE
 rootWidget
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eSynthesized

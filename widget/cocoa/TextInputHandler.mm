@@ -9239,7 +9239,7 @@ isEqualToString
 ]
 )
 {
-nsMouseEvent
+WidgetMouseEvent
 contextMenuEvent
 (
 true
@@ -9248,11 +9248,11 @@ NS_CONTEXTMENU
 mView
 widget
 ]
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eContextMenuKey

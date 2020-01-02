@@ -1612,7 +1612,7 @@ NS_MOUSE_EVENT
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1623,7 +1623,7 @@ aEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton

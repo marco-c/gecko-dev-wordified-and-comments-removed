@@ -6092,13 +6092,13 @@ n
 ;
 #
 endif
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 false
 0
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -7916,7 +7916,7 @@ int32_t
 aContentOffset
 int32_t
 aTarget
-nsMouseEvent
+WidgetMouseEvent
 *
 aMouseEvent
 )
@@ -11917,7 +11917,7 @@ nsFrameSelection
 :
 SetDelayedCaretData
 (
-nsMouseEvent
+WidgetMouseEvent
 *
 aMouseEvent
 )

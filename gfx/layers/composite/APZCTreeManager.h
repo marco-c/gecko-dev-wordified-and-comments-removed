@@ -637,10 +637,10 @@ nsEventStatus
 ProcessMouseEvent
 (
 const
-nsMouseEvent
+WidgetMouseEvent
 &
 mouseEvent
-nsMouseEvent
+WidgetMouseEvent
 *
 aOutEvent
 )

@@ -605,7 +605,7 @@ mouseEvent
 buttons
 |
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButtonFlag
@@ -628,7 +628,7 @@ mouseEvent
 buttons
 |
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eRightButtonFlag
@@ -651,7 +651,7 @@ mouseEvent
 buttons
 |
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButtonFlag
@@ -674,7 +674,7 @@ mouseEvent
 buttons
 |
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 e4thButtonFlag
@@ -697,7 +697,7 @@ mouseEvent
 buttons
 |
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 e5thButtonFlag

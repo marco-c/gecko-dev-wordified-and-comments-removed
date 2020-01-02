@@ -70,12 +70,12 @@ aEvent
 aEvent
 :
 new
-nsMouseEvent
+WidgetMouseEvent
 (
 false
 0
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -125,7 +125,7 @@ y
 ;
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -156,7 +156,7 @@ NS_ASSERTION
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -167,7 +167,7 @@ mEvent
 reason
 !
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eSynthesized
@@ -189,7 +189,7 @@ mDetail
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -237,7 +237,7 @@ NS_MOUSE_EVENT
 delete
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -462,13 +462,13 @@ eventStructType
 NS_MOUSE_EVENT
 )
 {
-nsMouseEvent
+WidgetMouseEvent
 *
 mouseEvent
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -1061,7 +1061,7 @@ event
 )
 ;
 return
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButton

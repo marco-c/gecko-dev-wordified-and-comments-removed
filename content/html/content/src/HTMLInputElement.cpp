@@ -11716,13 +11716,13 @@ nsIContent
 "
 )
 ;
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 true
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -12728,7 +12728,7 @@ NS_MOUSE_EVENT
 &
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -12741,7 +12741,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButton
@@ -14251,7 +14251,7 @@ case
 NS_FORM_INPUT_IMAGE
 :
 {
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 aVisitor
@@ -14264,7 +14264,7 @@ mFlags
 mIsTrusted
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -14464,7 +14464,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 aVisitor
@@ -14477,7 +14477,7 @@ mFlags
 mIsTrusted
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -14991,7 +14991,7 @@ NS_MOUSE_EVENT
 (
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -15004,7 +15004,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eMiddleButton
@@ -15012,7 +15012,7 @@ eMiddleButton
 |
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -15025,7 +15025,7 @@ mEvent
 button
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eRightButton
@@ -15565,13 +15565,13 @@ message
 NS_MOUSE_BUTTON_DOWN
 )
 {
-nsMouseEvent
+WidgetMouseEvent
 *
 mouseEvent
 =
 static_cast
 <
-nsMouseEvent
+WidgetMouseEvent
 *
 >
 (
@@ -15588,7 +15588,7 @@ mouseEvent
 buttons
 =
 =
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eLeftButtonFlag

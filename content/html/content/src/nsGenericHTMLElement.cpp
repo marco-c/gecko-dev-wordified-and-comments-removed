@@ -12816,7 +12816,7 @@ SetHandlingClick
 (
 )
 ;
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 nsContentUtils
@@ -12827,7 +12827,7 @@ IsCallerChrome
 )
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal
@@ -13196,13 +13196,13 @@ if
 aKeyCausesActivation
 )
 {
-nsMouseEvent
+WidgetMouseEvent
 event
 (
 aIsTrustedEvent
 NS_MOUSE_CLICK
 nullptr
-nsMouseEvent
+WidgetMouseEvent
 :
 :
 eReal

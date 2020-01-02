@@ -953,7 +953,10 @@ bool
 RecvRealMouseEvent
 (
 const
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 &
 event
 )

@@ -916,7 +916,10 @@ aEnter
 type
 :
 (
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 :
 :
 exitType

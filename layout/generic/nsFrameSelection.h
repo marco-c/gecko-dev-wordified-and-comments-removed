@@ -439,7 +439,10 @@ int32_t
 aContentOffset
 int32_t
 aTarget
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 *
 aMouseEvent
 )
@@ -770,7 +773,10 @@ mDisplaySelection
 void
 SetDelayedCaretData
 (
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 *
 aMouseEvent
 )

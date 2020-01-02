@@ -312,7 +312,10 @@ mozilla
 WidgetKeyboardEvent
 ;
 using
-nsMouseEvent
+mozilla
+:
+:
+WidgetMouseEvent
 ;
 using
 mozilla
@@ -2279,7 +2282,7 @@ aIgnoreRootScrollFrame
 ;
 RealMouseEvent
 (
-nsMouseEvent
+WidgetMouseEvent
 event
 )
 ;
