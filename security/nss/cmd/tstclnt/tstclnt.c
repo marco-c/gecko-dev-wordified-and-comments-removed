@@ -3068,9 +3068,13 @@ len
 i
 )
 {
-SECStatus
-test_rv
-=
+PORT_SetError
+(
+0
+)
+;
+if
+(
 CERT_CacheOCSPResponseFromSideChannel
 (
 serverCertAuth
@@ -3091,10 +3095,6 @@ i
 ]
 arg
 )
-;
-if
-(
-test_rv
 !
 =
 SECSuccess
