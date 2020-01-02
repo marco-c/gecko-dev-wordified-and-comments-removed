@@ -819,4 +819,3 @@ methods
 JS_FS_END
 }
 ;
-}
