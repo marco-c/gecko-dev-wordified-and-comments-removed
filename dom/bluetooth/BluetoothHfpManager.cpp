@@ -2363,6 +2363,7 @@ connection
 >
 GetVoiceConnectionInfo
 (
+0
 getter_AddRefs
 (
 voiceInfo
@@ -2530,6 +2531,7 @@ connection
 >
 GetNetworkSelectionMode
 (
+0
 mode
 )
 ;
