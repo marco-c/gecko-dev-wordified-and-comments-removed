@@ -422,6 +422,8 @@ aWantNextFrame
 void
 ApplyAsyncTransformToScrollbar
 (
+TimeStamp
+aCurrentFrame
 ContainerLayer
 *
 aLayer
