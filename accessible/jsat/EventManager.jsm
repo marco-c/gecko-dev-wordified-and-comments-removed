@@ -1004,9 +1004,6 @@ startOffset
 pivot
 .
 endOffset
-aEvent
-.
-isFromUserInput
 )
 )
 ;
