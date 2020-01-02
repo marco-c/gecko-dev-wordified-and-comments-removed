@@ -80,6 +80,9 @@ class
 Placeholder1
 {
 }
+;
+extern
+Placeholder1
 _1
 ;
 template
