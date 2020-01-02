@@ -671,6 +671,9 @@ AudioChannel
 :
 Publicnotification
 :
+return
+CUBEB_STREAM_TYPE_SYSTEM_ENFORCED
+;
 default
 :
 NS_ERROR
