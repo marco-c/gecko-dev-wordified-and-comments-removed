@@ -458,17 +458,6 @@ mozilla
 /
 layers
 /
-CompositorCocoaWidgetHelper
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 CompositorOGL
 .
 h

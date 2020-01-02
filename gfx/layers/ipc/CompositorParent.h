@@ -429,16 +429,6 @@ Destroy
 (
 )
 ;
-LayerManagerComposite
-*
-GetLayerManager
-(
-)
-{
-return
-mLayerManager
-;
-}
 void
 NotifyChildCreated
 (
@@ -597,6 +587,10 @@ mController
 CompositorParent
 *
 mParent
+;
+LayerManagerComposite
+*
+mLayerManager
 ;
 TargetConfig
 mTargetConfig
