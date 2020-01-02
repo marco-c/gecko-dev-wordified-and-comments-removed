@@ -986,8 +986,6 @@ protop
 )
 ;
 }
-protected
-:
 bool
 enumerate
 (

@@ -1438,6 +1438,15 @@ props
 return
 false
 ;
+Rooted
+<
+PropertyDescriptor
+>
+desc
+(
+cx
+)
+;
 RootedId
 id
 (
@@ -1506,15 +1515,6 @@ BaseProxyHandler
 :
 :
 GET
-)
-;
-Rooted
-<
-PropertyDescriptor
->
-desc
-(
-cx
 )
 ;
 if
@@ -2211,8 +2211,6 @@ id
 GET
 |
 SET
-|
-GET_PROPERTY_DESCRIPTOR
 )
 ;
 JS_ASSERT
@@ -2281,8 +2279,6 @@ id
 GET
 |
 SET
-|
-GET_PROPERTY_DESCRIPTOR
 )
 ;
 RootedObject
@@ -11952,7 +11948,7 @@ id
 BaseProxyHandler
 :
 :
-GET_PROPERTY_DESCRIPTOR
+GET
 true
 )
 ;
@@ -12164,7 +12160,7 @@ id
 BaseProxyHandler
 :
 :
-GET_PROPERTY_DESCRIPTOR
+GET
 true
 )
 ;
