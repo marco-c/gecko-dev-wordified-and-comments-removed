@@ -224,7 +224,7 @@ return
 check_cert_err
 (
 cert
-SEC_ERROR_INVALID_KEY
+MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 )
 ;
 }
@@ -238,7 +238,7 @@ return
 check_cert_err_generic
 (
 cert
-SEC_ERROR_INVALID_KEY
+MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 certificateUsageSSLCA
 )
 ;

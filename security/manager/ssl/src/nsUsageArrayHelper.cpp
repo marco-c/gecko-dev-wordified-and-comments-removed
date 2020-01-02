@@ -591,6 +591,15 @@ pkix
 :
 MOZILLA_PKIX_ERROR_CA_CERT_USED_AS_END_ENTITY
 :
+case
+mozilla
+:
+:
+pkix
+:
+:
+MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
+:
 *
 _verified
 =
