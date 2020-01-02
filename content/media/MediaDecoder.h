@@ -1280,7 +1280,8 @@ AssertCurrentThreadIn
 )
 ;
 mPlaybackStatistics
-.
+-
+>
 Start
 (
 )
@@ -1301,7 +1302,8 @@ AssertCurrentThreadIn
 )
 ;
 mPlaybackStatistics
-.
+-
+>
 Stop
 (
 )
@@ -2032,7 +2034,10 @@ mProgressTime
 TimeStamp
 mDataTime
 ;
+nsRefPtr
+<
 MediaChannelStatistics
+>
 mPlaybackStatistics
 ;
 bool
