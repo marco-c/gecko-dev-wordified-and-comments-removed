@@ -57,11 +57,7 @@ modules
 :
 =
 \
-hawkclient
-.
-js
-\
-hawkrequest
+hawk
 .
 js
 \
