@@ -2277,7 +2277,7 @@ if
 mBoundFramebuffer
 -
 >
-CheckAndInitializeRenderbuffers
+CheckAndInitializeAttachments
 (
 )
 )
@@ -3076,7 +3076,7 @@ if
 mBoundFramebuffer
 -
 >
-CheckAndInitializeRenderbuffers
+CheckAndInitializeAttachments
 (
 )
 )
