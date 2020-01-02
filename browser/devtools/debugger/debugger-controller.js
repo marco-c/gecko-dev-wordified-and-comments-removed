@@ -3636,6 +3636,16 @@ environment
 if
 (
 innermost
+|
+|
+DebuggerView
+.
+Variables
+.
+wasExpanded
+(
+scope
+)
 )
 {
 scope
