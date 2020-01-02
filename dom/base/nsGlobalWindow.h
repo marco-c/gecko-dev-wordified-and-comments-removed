@@ -1628,7 +1628,7 @@ CanClose
 virtual
 NS_HIDDEN_
 (
-nsresult
+void
 )
 ForceClose
 (
@@ -5237,7 +5237,7 @@ ClearControllers
 (
 )
 ;
-nsresult
+void
 FinalClose
 (
 )
