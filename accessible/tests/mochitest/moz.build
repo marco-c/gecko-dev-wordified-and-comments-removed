@@ -113,9 +113,6 @@ editabletext
 elm
 '
 '
-events
-'
-'
 focus
 '
 '
@@ -178,6 +175,13 @@ A11Y_MANIFESTS
 =
 [
 '
+a11y
+.
+ini
+'
+'
+events
+/
 a11y
 .
 ini

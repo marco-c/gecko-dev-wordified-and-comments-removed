@@ -98,9 +98,6 @@ TEST_TOOL_DIRS
 =
 [
 '
-chrome
-'
-'
 csp
 '
 '
@@ -186,6 +183,13 @@ MOCHITEST_MANIFESTS
 =
 [
 '
+chrome
+/
+mochitest
+.
+ini
+'
+'
 mochitest
 .
 ini
@@ -196,6 +200,13 @@ MOCHITEST_CHROME_MANIFESTS
 =
 [
 '
+chrome
+.
+ini
+'
+'
+chrome
+/
 chrome
 .
 ini
