@@ -656,12 +656,12 @@ proguard
 -
 jars
 echo
-"
+'
 DX
 classes
 .
 dex
-"
+'
 (
 DX
 )
@@ -1500,9 +1500,9 @@ ANDROID_RESDIRS
 ANDROID_RESFILES
 )
 echo
-"
+'
 creating
-"
+'
 (
 NSINSTALL
 )
@@ -1899,7 +1899,7 @@ null
 \
 (
 echo
-"
+'
 *
 *
 *
@@ -1953,7 +1953,7 @@ repeat
 the
 build
 .
-"
+'
 &
 &
 exit
