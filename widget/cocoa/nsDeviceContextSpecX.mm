@@ -233,13 +233,13 @@ aIsPrintPreview
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPrintSettingsX
 >
 settings
 (
-do_QueryInterface
+do_QueryObject
 (
 aPS
 )
