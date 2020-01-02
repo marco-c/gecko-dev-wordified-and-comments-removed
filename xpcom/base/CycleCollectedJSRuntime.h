@@ -972,6 +972,17 @@ CycleCollectedJSRuntime
 :
 OOMState
 )
+void
+TraceScriptHolder
+(
+nsISupports
+*
+aHolder
+JSTracer
+*
+aTracer
+)
+;
 }
 #
 endif
