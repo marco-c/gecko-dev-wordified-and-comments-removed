@@ -65,6 +65,14 @@ bool
 _retval
 )
 ;
+NS_IMETHOD
+SupportsFindClipboard
+(
+bool
+*
+_retval
+)
+;
 static
 NSDictionary
 *
@@ -133,7 +141,10 @@ aWhichClipboard
 private
 :
 int
-mChangeCount
+mChangeCountGeneral
+;
+int
+mChangeCountFind
 ;
 }
 ;
