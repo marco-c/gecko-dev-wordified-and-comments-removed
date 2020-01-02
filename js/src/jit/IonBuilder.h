@@ -2913,14 +2913,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineNewObjectWithClassPrototype
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineHaveSameClass
 (
 CallInfo
