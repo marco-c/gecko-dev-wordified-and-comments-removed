@@ -505,7 +505,7 @@ identity
 .
 timeout
 '
-3000
+12000
 ]
 [
 '
