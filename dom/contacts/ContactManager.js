@@ -186,6 +186,12 @@ additionalName
 familyName
 "
 "
+phoneticGivenName
+"
+"
+phoneticFamilyName
+"
+"
 honorificSuffix
 "
 "
