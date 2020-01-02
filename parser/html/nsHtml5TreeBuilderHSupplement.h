@@ -293,6 +293,15 @@ mPreventScriptExecution
 aPrevent
 ;
 }
+bool
+HasBuilder
+(
+)
+{
+return
+mBuilder
+;
+}
 void
 EnableViewSource
 (
