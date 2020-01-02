@@ -105,6 +105,10 @@ include
 protocol
 PCrashReporter
 ;
+include
+protocol
+PGMPDecryptor
+;
 using
 mozilla
 :
@@ -135,6 +139,9 @@ protocol
 PGMP
 {
 manages
+PGMPDecryptor
+;
+manages
 PGMPVideoDecoder
 ;
 manages
@@ -154,6 +161,11 @@ tid
 ;
 child
 :
+async
+PGMPDecryptor
+(
+)
+;
 async
 PGMPVideoDecoder
 (
