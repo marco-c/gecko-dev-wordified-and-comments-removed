@@ -852,6 +852,11 @@ AlertNotification
 java
 '
 '
+AndroidGamepadManager
+.
+java
+'
+'
 animation
 /
 AnimationUtils
