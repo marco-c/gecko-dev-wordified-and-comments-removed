@@ -521,15 +521,6 @@ gChecking_repopulateCache
 (
 )
 {
-AddonManagerPrivate
-.
-updateAddonRepositoryData
-(
-function
-gChecking_updateAddonRepositoryData
-(
-)
-{
 for
 (
 let
@@ -588,9 +579,6 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 )
 ;
 }
-}
-)
-;
 }
 )
 ;
