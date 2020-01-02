@@ -761,14 +761,18 @@ close
 (
 )
             
-self
+diff
+=
+'
+\
+n
+'
 .
-assertIsInstance
+join
 (
 faw
 .
 diff
-unicode
 )
             
 self
@@ -779,8 +783,6 @@ assertIn
 -
 old
 '
-faw
-.
 diff
 )
             
@@ -792,8 +794,6 @@ assertIn
 +
 new
 '
-faw
-.
 diff
 )
     
@@ -869,14 +869,18 @@ close
 (
 )
             
-self
+diff
+=
+'
+\
+n
+'
 .
-assertIsInstance
+join
 (
 faw
 .
 diff
-unicode
 )
             
 self
@@ -887,8 +891,6 @@ assertIn
 +
 new
 '
-faw
-.
 diff
 )
         

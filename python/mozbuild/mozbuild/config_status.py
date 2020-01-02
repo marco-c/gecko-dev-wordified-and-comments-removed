@@ -1170,7 +1170,15 @@ items
             
 print
 (
+'
+\
+n
+'
+.
+join
+(
 diff
+)
 )
     
 if
