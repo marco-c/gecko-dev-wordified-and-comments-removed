@@ -173,5 +173,12 @@ getCallerPrincipal
 (
 )
 ;
+DOMString
+convertSVS
+(
+ScalarValueString
+svs
+)
+;
 }
 ;
