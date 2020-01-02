@@ -187,8 +187,6 @@ int32_t
 aMessageId
 bool
 aValue
-bool
-aSendReadReport
 nsIMobileMessageCallback
 *
 aRequest
