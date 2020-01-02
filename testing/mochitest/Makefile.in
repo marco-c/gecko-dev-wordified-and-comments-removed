@@ -416,6 +416,12 @@ desktop
 .
 json
 \
+b2g
+-
+debug
+.
+json
+\
 b2g_start_script
 .
 js
