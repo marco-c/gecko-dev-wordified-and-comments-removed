@@ -793,6 +793,9 @@ LEVELS
 error
 :
 SEVERITY_ERROR
+exception
+:
+SEVERITY_ERROR
 warn
 :
 SEVERITY_WARNING
@@ -4876,6 +4879,11 @@ warn
 case
 "
 error
+"
+:
+case
+"
+exception
 "
 :
 case

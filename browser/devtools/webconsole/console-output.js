@@ -323,6 +323,11 @@ error
 "
 error
 "
+exception
+:
+"
+error
+"
 warn
 :
 "
