@@ -2195,7 +2195,7 @@ GetIMEUpdatePreference
 {
 #
 ifdef
-MOZ_CROSS_PROESS_IME
+MOZ_CROSS_PROCESS_IME
 return
 nsIMEUpdatePreference
 (
