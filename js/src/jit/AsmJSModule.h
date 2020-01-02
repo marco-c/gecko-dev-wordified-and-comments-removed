@@ -3961,7 +3961,7 @@ loadedFromCache_
 }
 ;
 extern
-void
+bool
 StoreAsmJSModuleInCache
 (
 AsmJSParser
