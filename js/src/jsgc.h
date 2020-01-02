@@ -2406,6 +2406,14 @@ AllocKind
 thingKind
 )
 ;
+inline
+void
+normalizeBackgroundFinalizeState
+(
+AllocKind
+thingKind
+)
+;
 friend
 class
 js
