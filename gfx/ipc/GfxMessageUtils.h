@@ -3008,6 +3008,18 @@ Next
 (
 )
 )
+{
+MOZ_ASSERT
+(
+!
+r
+-
+>
+IsEmpty
+(
+)
+)
+;
 WriteParam
 (
 msg
@@ -3015,6 +3027,7 @@ msg
 r
 )
 ;
+}
 WriteParam
 (
 msg
