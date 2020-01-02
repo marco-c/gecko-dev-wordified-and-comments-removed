@@ -4132,6 +4132,12 @@ nsRect
 aOutDisplayport
 )
 ;
+static
+bool
+IsOutlineStyleAutoEnabled
+(
+)
+;
 private
 :
 static
