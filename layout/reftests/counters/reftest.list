@@ -1724,6 +1724,12 @@ counters
 ref
 .
 html
+fails
+-
+if
+(
+B2G
+)
 =
 =
 counter
@@ -1738,6 +1744,9 @@ suffix
 ref
 .
 html
+#
+B2G
+kerning
 =
 =
 counter

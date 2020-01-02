@@ -615,6 +615,14 @@ GetBulletText
 aName
 )
 ;
+aName
+.
+Append
+(
+'
+'
+)
+;
 }
 return
 eNameOK
