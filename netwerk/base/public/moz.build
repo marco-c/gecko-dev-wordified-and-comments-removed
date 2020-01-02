@@ -353,6 +353,16 @@ nsINetworkProperties
 idl
 '
 '
+nsINetworkSeer
+.
+idl
+'
+'
+nsINetworkSeerVerifier
+.
+idl
+'
+'
 nsINSSErrorsService
 .
 idl

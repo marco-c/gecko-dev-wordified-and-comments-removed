@@ -417,6 +417,11 @@ RedirectChannelRegistrar
 cpp
 '
 '
+Seer
+.
+cpp
+'
+'
 StreamingProtocolService
 .
 cpp
