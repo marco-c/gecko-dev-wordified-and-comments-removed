@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsLocaleCID
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

@@ -324,24 +324,6 @@ endif
 #
 endif
 #
-ifdef
-XP_OS2
-#
-define
-INCL_DOS
-#
-define
-INCL_DOSERRORS
-#
-include
-<
-os2
-.
-h
->
-#
-endif
-#
 include
 "
 nsJSNPRuntime
@@ -1824,12 +1806,6 @@ if
 defined
 (
 XP_WIN
-)
-|
-|
-defined
-(
-XP_OS2
 )
 rv
 =
@@ -3433,7 +3409,6 @@ namespace
 parent
 {
 NPError
-NP_CALLBACK
 _geturl
 (
 NPP
@@ -3654,7 +3629,6 @@ eNPPStreamTypeInternal_Get
 ;
 }
 NPError
-NP_CALLBACK
 _geturlnotify
 (
 NPP
@@ -3757,7 +3731,6 @@ notifyData
 ;
 }
 NPError
-NP_CALLBACK
 _posturlnotify
 (
 NPP
@@ -3896,7 +3869,6 @@ file
 ;
 }
 NPError
-NP_CALLBACK
 _posturl
 (
 NPP
@@ -4019,7 +3991,6 @@ file
 ;
 }
 NPError
-NP_CALLBACK
 _newstream
 (
 NPP
@@ -4220,7 +4191,6 @@ err
 ;
 }
 int32_t
-NP_CALLBACK
 _write
 (
 NPP
@@ -4416,7 +4386,6 @@ count
 ;
 }
 NPError
-NP_CALLBACK
 _destroystream
 (
 NPP
@@ -4627,7 +4596,6 @@ NPERR_NO_ERROR
 ;
 }
 void
-NP_CALLBACK
 _status
 (
 NPP
@@ -4755,7 +4723,6 @@ message
 ;
 }
 void
-NP_CALLBACK
 _memfree
 (
 void
@@ -4821,7 +4788,6 @@ ptr
 ;
 }
 uint32_t
-NP_CALLBACK
 _memflush
 (
 uint32_t
@@ -4885,7 +4851,6 @@ return
 ;
 }
 void
-NP_CALLBACK
 _reloadplugins
 (
 NPBool
@@ -4966,7 +4931,6 @@ ReloadPlugins
 ;
 }
 void
-NP_CALLBACK
 _invalidaterect
 (
 NPP
@@ -5126,7 +5090,6 @@ invalidRect
 ;
 }
 void
-NP_CALLBACK
 _invalidateregion
 (
 NPP
@@ -5259,7 +5222,6 @@ invalidRegion
 ;
 }
 void
-NP_CALLBACK
 _forceredraw
 (
 NPP
@@ -5269,7 +5231,6 @@ npp
 }
 NPObject
 *
-NP_CALLBACK
 _getwindowobject
 (
 NPP
@@ -5389,7 +5350,6 @@ global
 }
 NPObject
 *
-NP_CALLBACK
 _getpluginelement
 (
 NPP
@@ -5594,7 +5554,6 @@ obj
 ;
 }
 NPIdentifier
-NP_CALLBACK
 _getstringidentifier
 (
 const
@@ -5665,7 +5624,6 @@ name
 ;
 }
 void
-NP_CALLBACK
 _getstringidentifiers
 (
 const
@@ -5775,7 +5733,6 @@ nullptr
 }
 }
 NPIdentifier
-NP_CALLBACK
 _getintidentifier
 (
 int32_t
@@ -5817,7 +5774,6 @@ intid
 }
 NPUTF8
 *
-NP_CALLBACK
 _utf8fromidentifier
 (
 NPIdentifier
@@ -5902,7 +5858,6 @@ str
 ;
 }
 int32_t
-NP_CALLBACK
 _intfromidentifier
 (
 NPIdentifier
@@ -5956,7 +5911,6 @@ id
 ;
 }
 bool
-NP_CALLBACK
 _identifierisstring
 (
 NPIdentifier
@@ -5998,7 +5952,6 @@ id
 }
 NPObject
 *
-NP_CALLBACK
 _createobject
 (
 NPP
@@ -6197,7 +6150,6 @@ npobj
 }
 NPObject
 *
-NP_CALLBACK
 _retainobject
 (
 NPObject
@@ -6276,7 +6228,6 @@ npobj
 ;
 }
 void
-NP_CALLBACK
 _releaseobject
 (
 NPObject
@@ -6417,7 +6368,6 @@ npobj
 }
 }
 bool
-NP_CALLBACK
 _invoke
 (
 NPP
@@ -6558,7 +6508,6 @@ result
 ;
 }
 bool
-NP_CALLBACK
 _invokeDefault
 (
 NPP
@@ -6686,7 +6635,6 @@ result
 ;
 }
 bool
-NP_CALLBACK
 _evaluate
 (
 NPP
@@ -7137,7 +7085,6 @@ result
 ;
 }
 bool
-NP_CALLBACK
 _getproperty
 (
 NPP
@@ -7653,7 +7600,6 @@ true
 ;
 }
 bool
-NP_CALLBACK
 _setproperty
 (
 NPP
@@ -7779,7 +7725,6 @@ value
 ;
 }
 bool
-NP_CALLBACK
 _removeproperty
 (
 NPP
@@ -7900,7 +7845,6 @@ property
 ;
 }
 bool
-NP_CALLBACK
 _hasproperty
 (
 NPP
@@ -8021,7 +7965,6 @@ propertyName
 ;
 }
 bool
-NP_CALLBACK
 _hasmethod
 (
 NPP
@@ -8142,7 +8085,6 @@ methodName
 ;
 }
 bool
-NP_CALLBACK
 _enumerate
 (
 NPP
@@ -8291,7 +8233,6 @@ count
 ;
 }
 bool
-NP_CALLBACK
 _construct
 (
 NPP
@@ -8406,7 +8347,6 @@ result
 ;
 }
 void
-NP_CALLBACK
 _releasevariantvalue
 (
 NPVariant
@@ -8692,7 +8632,6 @@ variant
 ;
 }
 void
-NP_CALLBACK
 _setexception
 (
 NPObject
@@ -8759,7 +8698,6 @@ message
 ;
 }
 NPError
-NP_CALLBACK
 _getvalue
 (
 NPP
@@ -9043,19 +8981,12 @@ XP_WIN
 )
 |
 |
-defined
-(
-XP_OS2
-)
-|
-|
 (
 MOZ_WIDGET_GTK
 =
 =
 2
 )
-\
 |
 |
 defined
@@ -10876,7 +10807,6 @@ NPERR_GENERIC_ERROR
 }
 }
 NPError
-NP_CALLBACK
 _setvalue
 (
 NPP
@@ -11230,7 +11160,6 @@ NPERR_GENERIC_ERROR
 }
 }
 NPError
-NP_CALLBACK
 _requestread
 (
 NPStream
@@ -11496,7 +11425,6 @@ NPERR_NO_ERROR
 }
 void
 *
-NP_CALLBACK
 _getJavaEnv
 (
 )
@@ -11520,7 +11448,6 @@ nullptr
 const
 char
 *
-NP_CALLBACK
 _useragent
 (
 NPP
@@ -11650,7 +11577,6 @@ retstr
 }
 void
 *
-NP_CALLBACK
 _memalloc
 (
 uint32_t
@@ -11713,7 +11639,6 @@ size
 }
 void
 *
-NP_CALLBACK
 _getJavaPeer
 (
 NPP
@@ -11747,7 +11672,6 @@ nullptr
 ;
 }
 void
-NP_CALLBACK
 _pushpopupsenabledstate
 (
 NPP
@@ -11818,7 +11742,6 @@ enabled
 ;
 }
 void
-NP_CALLBACK
 _poppopupsenabledstate
 (
 NPP
@@ -11886,7 +11809,6 @@ PopPopupsEnabledState
 ;
 }
 void
-NP_CALLBACK
 _pluginthreadasynccall
 (
 NPP
@@ -11979,7 +11901,6 @@ evt
 }
 }
 NPError
-NP_CALLBACK
 _getvalueforurl
 (
 NPP
@@ -12221,7 +12142,6 @@ NPERR_GENERIC_ERROR
 ;
 }
 NPError
-NP_CALLBACK
 _setvalueforurl
 (
 NPP
@@ -12465,7 +12385,6 @@ NPERR_GENERIC_ERROR
 ;
 }
 NPError
-NP_CALLBACK
 _getauthenticationinfo
 (
 NPP
@@ -12806,7 +12725,6 @@ NPERR_NO_ERROR
 ;
 }
 uint32_t
-NP_CALLBACK
 _scheduletimer
 (
 NPP
@@ -12853,7 +12771,6 @@ timerFunc
 ;
 }
 void
-NP_CALLBACK
 _unscheduletimer
 (
 NPP
@@ -12911,7 +12828,6 @@ timerID
 ;
 }
 NPError
-NP_CALLBACK
 _popupcontextmenu
 (
 NPP
@@ -12953,7 +12869,6 @@ menu
 ;
 }
 NPError
-NP_CALLBACK
 _initasyncsurface
 (
 NPP
@@ -13006,7 +12921,6 @@ surface
 ;
 }
 NPError
-NP_CALLBACK
 _finalizeasyncsurface
 (
 NPP
@@ -13048,7 +12962,6 @@ surface
 ;
 }
 void
-NP_CALLBACK
 _setcurrentasyncsurface
 (
 NPP
@@ -13092,7 +13005,6 @@ changed
 ;
 }
 NPBool
-NP_CALLBACK
 _convertpoint
 (
 NPP
@@ -13150,7 +13062,6 @@ destSpace
 ;
 }
 void
-NP_CALLBACK
 _urlredirectresponse
 (
 NPP

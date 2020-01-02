@@ -139,9 +139,6 @@ filter
 -
 out
 WINNT
-os2
--
-emx
 (
 HOST_OS_ARCH
 )

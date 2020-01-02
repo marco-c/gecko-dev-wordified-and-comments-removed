@@ -12656,15 +12656,6 @@ Clear
 (
 )
 ;
-#
-ifdef
-XP_OS2
-_heapmin
-(
-)
-;
-#
-endif
 uint32_t
 interval
 =

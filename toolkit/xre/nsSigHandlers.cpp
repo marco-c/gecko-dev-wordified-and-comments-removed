@@ -1988,12 +1988,6 @@ ProgramName
 #
 endif
 #
-elif
-defined
-(
-XP_OS2
-)
-#
 else
 #
 error

@@ -242,18 +242,6 @@ linux
 TARGET_CPU
 )
 endif
-ifeq
-(
-(
-OS_ARCH
-)
-OS2
-)
-MOZ_PKG_PLATFORM
-:
-=
-os2
-endif
 endif
 #
 MOZ_PKG_PLATFORM
@@ -505,7 +493,6 @@ filter
 -
 out
 Darwin
-OS2
 (
 OS_ARCH
 )
@@ -513,8 +500,6 @@ OS_ARCH
 )
 #
 Mac
-and
-OS2
 PKG_BASENAME
 =
 (

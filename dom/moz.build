@@ -509,9 +509,6 @@ android
 '
 qt
 '
-'
-os2
-'
 )
 :
 TEST_DIRS

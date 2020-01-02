@@ -350,13 +350,8 @@ jsloader
 "
 ;
 #
-ifndef
-XP_OS2
-#
 define
 HAVE_PR_MEMMAP
-#
-endif
 #
 define
 XPC_SERIALIZATION_BUFFER_SIZE

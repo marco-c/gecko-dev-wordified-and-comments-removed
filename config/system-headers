@@ -721,11 +721,6 @@ glitz
 h
 cairo
 -
-os2
-.
-h
-cairo
--
 pdf
 .
 h
@@ -2452,9 +2447,6 @@ OpenTptInternet
 .
 h
 OpenTransport
-.
-h
-os2
 .
 h
 OS

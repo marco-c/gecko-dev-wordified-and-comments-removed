@@ -96,9 +96,6 @@ js
 winpref
 .
 js
-os2prefs
-.
-js
 )
 GARBAGE
 +

@@ -634,12 +634,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 static
 const
 char16_t

@@ -248,13 +248,6 @@ msse2
 -
 Winline
 endif
-ifneq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-os2
-)
 MMX_CFLAGS
 +
 =
@@ -278,7 +271,6 @@ function
 growth
 =
 10000
-endif
 endif
 ifeq
 (

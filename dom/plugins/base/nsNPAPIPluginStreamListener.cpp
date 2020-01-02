@@ -3378,12 +3378,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 NS_TRY_SAFE_CALL_VOID
 (
 (

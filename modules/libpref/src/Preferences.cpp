@@ -5574,17 +5574,6 @@ endif
 elif
 defined
 (
-XP_OS2
-)
-"
-os2pref
-.
-js
-"
-#
-elif
-defined
-(
 XP_BEOS
 )
 "

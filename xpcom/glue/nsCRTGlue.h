@@ -343,12 +343,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 define
 FILE_PATH_SEPARATOR

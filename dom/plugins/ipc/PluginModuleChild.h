@@ -139,10 +139,6 @@ PluginMessageUtils
 h
 "
 #
-define
-NP_CALLBACK
-NP_LOADDS
-#
 if
 defined
 (
@@ -158,25 +154,6 @@ _name
 _type
 (
 __stdcall
-*
-_name
-)
-#
-elif
-defined
-(
-XP_OS2
-)
-#
-define
-NS_NPAPIPLUGIN_CALLBACK
-(
-_type
-_name
-)
-_type
-(
-_System
 *
 _name
 )
@@ -779,7 +756,6 @@ mAsyncDrawingAllowed
 static
 NPObject
 *
-NP_CALLBACK
 NPN_CreateObject
 (
 NPP
@@ -792,7 +768,6 @@ aClass
 static
 NPObject
 *
-NP_CALLBACK
 NPN_RetainObject
 (
 NPObject
@@ -802,7 +777,6 @@ aNPObj
 ;
 static
 void
-NP_CALLBACK
 NPN_ReleaseObject
 (
 NPObject
@@ -812,7 +786,6 @@ aNPObj
 ;
 static
 NPIdentifier
-NP_CALLBACK
 NPN_GetStringIdentifier
 (
 const
@@ -823,7 +796,6 @@ aName
 ;
 static
 void
-NP_CALLBACK
 NPN_GetStringIdentifiers
 (
 const
@@ -840,7 +812,6 @@ aIdentifiers
 ;
 static
 NPIdentifier
-NP_CALLBACK
 NPN_GetIntIdentifier
 (
 int32_t
@@ -849,7 +820,6 @@ aIntId
 ;
 static
 bool
-NP_CALLBACK
 NPN_IdentifierIsString
 (
 NPIdentifier
@@ -859,7 +829,6 @@ aIdentifier
 static
 NPUTF8
 *
-NP_CALLBACK
 NPN_UTF8FromIdentifier
 (
 NPIdentifier
@@ -868,7 +837,6 @@ aIdentifier
 ;
 static
 int32_t
-NP_CALLBACK
 NPN_IntFromIdentifier
 (
 NPIdentifier

@@ -248,9 +248,6 @@ gonk
 qt
 '
 '
-os2
-'
-'
 cocoa
 '
 '
@@ -297,9 +294,6 @@ in
 (
 '
 windows
-'
-'
-os2
 '
 '
 mac

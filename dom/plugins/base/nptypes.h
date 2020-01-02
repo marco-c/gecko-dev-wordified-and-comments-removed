@@ -10,12 +10,6 @@ defined
 (
 WIN32
 )
-|
-|
-defined
-(
-OS2
-)
 typedef
 short
 int16_t

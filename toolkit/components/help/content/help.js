@@ -167,18 +167,6 @@ mac
 ;
 #
 else
-#
-ifdef
-XP_OS2
-const
-platform
-=
-"
-os2
-"
-;
-#
-else
 const
 platform
 =
@@ -186,8 +174,6 @@ platform
 unix
 "
 ;
-#
-endif
 #
 endif
 #

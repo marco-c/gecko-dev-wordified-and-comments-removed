@@ -70,16 +70,6 @@ Win
 )
 ;
 const
-isOS2
-=
-checkOS
-(
-"
-OS2
-"
-)
-;
-const
 isMac
 =
 checkOS
@@ -95,9 +85,6 @@ isUnix
 !
 (
 isWin
-|
-|
-isOS2
 |
 |
 isMac
@@ -204,9 +191,6 @@ run_test
 if
 (
 isWin
-|
-|
-isOS2
 )
 return
 ;

@@ -100,15 +100,11 @@ CONFIG
 OS_ARCH
 '
 ]
-in
-(
-'
-OS2
-'
+=
+=
 '
 WINNT
 '
-)
 :
 DIRS
 +

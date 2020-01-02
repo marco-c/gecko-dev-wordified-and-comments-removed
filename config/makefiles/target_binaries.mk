@@ -365,7 +365,6 @@ ifneq
 (
 (
 filter
-OS2
 WINNT
 (
 OS_ARCH

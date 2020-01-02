@@ -549,14 +549,6 @@ define
 USE_WIN_TITLE_STYLE
 #
 endif
-#
-ifdef
-XP_OS2
-#
-define
-USE_WIN_TITLE_STYLE
-#
-endif
 <
 page
 xmlns

@@ -4011,11 +4011,6 @@ vp
 if
 !
 defined
-XP_OS2
-&
-&
-!
-defined
 SOLARIS
 JSString
 *

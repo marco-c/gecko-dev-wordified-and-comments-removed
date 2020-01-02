@@ -123,17 +123,7 @@ nsILanguageAtomService
 h
 '
 '
-nsIOS2Locale
-.
-h
-'
-'
 nsIPlatformCharset
-.
-h
-'
-'
-nsLocaleCID
 .
 h
 '

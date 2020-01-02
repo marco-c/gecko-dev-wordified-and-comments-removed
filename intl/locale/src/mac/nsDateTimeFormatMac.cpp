@@ -40,13 +40,6 @@ h
 #
 include
 "
-nsLocaleCID
-.
-h
-"
-#
-include
-"
 nsILocaleService
 .
 h

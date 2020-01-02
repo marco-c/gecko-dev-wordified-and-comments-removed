@@ -103,7 +103,6 @@ ifeq
 filter
 -
 out
-OS2
 WINNT
 (
 OS_ARCH

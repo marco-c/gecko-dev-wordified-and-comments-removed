@@ -813,12 +813,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_OS2
-)
 if
 (
 mAddr
@@ -921,12 +915,6 @@ if
 defined
 (
 XP_UNIX
-)
-|
-|
-defined
-(
-XP_OS2
 )
 nsresult
 rv

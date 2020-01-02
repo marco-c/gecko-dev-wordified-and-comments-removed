@@ -45,12 +45,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-XP_OS2
-)
 #
 define
 NS_LINEBREAK
@@ -865,12 +859,6 @@ if
 defined
 (
 XP_WIN
-)
-|
-|
-defined
-(
-XP_OS2
 )
 #
 define

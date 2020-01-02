@@ -3102,7 +3102,6 @@ child
 {
 static
 NPError
-NP_CALLBACK
 _requestread
 (
 NPStream
@@ -3115,7 +3114,6 @@ rangeList
 ;
 static
 NPError
-NP_CALLBACK
 _geturlnotify
 (
 NPP
@@ -3135,7 +3133,6 @@ notifyData
 ;
 static
 NPError
-NP_CALLBACK
 _getvalue
 (
 NPP
@@ -3149,7 +3146,6 @@ r_value
 ;
 static
 NPError
-NP_CALLBACK
 _setvalue
 (
 NPP
@@ -3163,7 +3159,6 @@ r_value
 ;
 static
 NPError
-NP_CALLBACK
 _geturl
 (
 NPP
@@ -3180,7 +3175,6 @@ target
 ;
 static
 NPError
-NP_CALLBACK
 _posturlnotify
 (
 NPP
@@ -3208,7 +3202,6 @@ notifyData
 ;
 static
 NPError
-NP_CALLBACK
 _posturl
 (
 NPP
@@ -3233,7 +3226,6 @@ file
 ;
 static
 NPError
-NP_CALLBACK
 _newstream
 (
 NPP
@@ -3252,7 +3244,6 @@ pstream
 ;
 static
 int32_t
-NP_CALLBACK
 _write
 (
 NPP
@@ -3269,7 +3260,6 @@ buffer
 ;
 static
 NPError
-NP_CALLBACK
 _destroystream
 (
 NPP
@@ -3283,7 +3273,6 @@ reason
 ;
 static
 void
-NP_CALLBACK
 _status
 (
 NPP
@@ -3296,7 +3285,6 @@ message
 ;
 static
 void
-NP_CALLBACK
 _memfree
 (
 void
@@ -3306,7 +3294,6 @@ ptr
 ;
 static
 uint32_t
-NP_CALLBACK
 _memflush
 (
 uint32_t
@@ -3315,7 +3302,6 @@ size
 ;
 static
 void
-NP_CALLBACK
 _reloadplugins
 (
 NPBool
@@ -3324,7 +3310,6 @@ reloadPages
 ;
 static
 void
-NP_CALLBACK
 _invalidaterect
 (
 NPP
@@ -3336,7 +3321,6 @@ invalidRect
 ;
 static
 void
-NP_CALLBACK
 _invalidateregion
 (
 NPP
@@ -3347,7 +3331,6 @@ invalidRegion
 ;
 static
 void
-NP_CALLBACK
 _forceredraw
 (
 NPP
@@ -3358,7 +3341,6 @@ static
 const
 char
 *
-NP_CALLBACK
 _useragent
 (
 NPP
@@ -3368,7 +3350,6 @@ aNPP
 static
 void
 *
-NP_CALLBACK
 _memalloc
 (
 uint32_t
@@ -3378,7 +3359,6 @@ size
 static
 void
 *
-NP_CALLBACK
 _getjavaenv
 (
 void
@@ -3387,7 +3367,6 @@ void
 static
 void
 *
-NP_CALLBACK
 _getjavapeer
 (
 NPP
@@ -3396,7 +3375,6 @@ aNPP
 ;
 static
 bool
-NP_CALLBACK
 _invoke
 (
 NPP
@@ -3419,7 +3397,6 @@ result
 ;
 static
 bool
-NP_CALLBACK
 _invokedefault
 (
 NPP
@@ -3440,7 +3417,6 @@ result
 ;
 static
 bool
-NP_CALLBACK
 _evaluate
 (
 NPP
@@ -3458,7 +3434,6 @@ result
 ;
 static
 bool
-NP_CALLBACK
 _getproperty
 (
 NPP
@@ -3475,7 +3450,6 @@ result
 ;
 static
 bool
-NP_CALLBACK
 _setproperty
 (
 NPP
@@ -3493,7 +3467,6 @@ value
 ;
 static
 bool
-NP_CALLBACK
 _removeproperty
 (
 NPP
@@ -3507,7 +3480,6 @@ property
 ;
 static
 bool
-NP_CALLBACK
 _hasproperty
 (
 NPP
@@ -3521,7 +3493,6 @@ propertyName
 ;
 static
 bool
-NP_CALLBACK
 _hasmethod
 (
 NPP
@@ -3535,7 +3506,6 @@ methodName
 ;
 static
 bool
-NP_CALLBACK
 _enumerate
 (
 NPP
@@ -3554,7 +3524,6 @@ count
 ;
 static
 bool
-NP_CALLBACK
 _construct
 (
 NPP
@@ -3575,7 +3544,6 @@ result
 ;
 static
 void
-NP_CALLBACK
 _releasevariantvalue
 (
 NPVariant
@@ -3585,7 +3553,6 @@ variant
 ;
 static
 void
-NP_CALLBACK
 _setexception
 (
 NPObject
@@ -3599,7 +3566,6 @@ message
 ;
 static
 void
-NP_CALLBACK
 _pushpopupsenabledstate
 (
 NPP
@@ -3610,7 +3576,6 @@ enabled
 ;
 static
 void
-NP_CALLBACK
 _poppopupsenabledstate
 (
 NPP
@@ -3619,7 +3584,6 @@ aNPP
 ;
 static
 void
-NP_CALLBACK
 _pluginthreadasynccall
 (
 NPP
@@ -3633,7 +3597,6 @@ userData
 ;
 static
 NPError
-NP_CALLBACK
 _getvalueforurl
 (
 NPP
@@ -3655,7 +3618,6 @@ len
 ;
 static
 NPError
-NP_CALLBACK
 _setvalueforurl
 (
 NPP
@@ -3676,7 +3638,6 @@ len
 ;
 static
 NPError
-NP_CALLBACK
 _getauthenticationinfo
 (
 NPP
@@ -3717,7 +3678,6 @@ plen
 ;
 static
 uint32_t
-NP_CALLBACK
 _scheduletimer
 (
 NPP
@@ -3741,7 +3701,6 @@ timerID
 ;
 static
 void
-NP_CALLBACK
 _unscheduletimer
 (
 NPP
@@ -3752,7 +3711,6 @@ timerID
 ;
 static
 NPError
-NP_CALLBACK
 _popupcontextmenu
 (
 NPP
@@ -3764,7 +3722,6 @@ menu
 ;
 static
 NPBool
-NP_CALLBACK
 _convertpoint
 (
 NPP
@@ -3787,7 +3744,6 @@ destSpace
 ;
 static
 void
-NP_CALLBACK
 _urlredirectresponse
 (
 NPP
@@ -3801,7 +3757,6 @@ allow
 ;
 static
 NPError
-NP_CALLBACK
 _initasyncsurface
 (
 NPP
@@ -3821,7 +3776,6 @@ surface
 ;
 static
 NPError
-NP_CALLBACK
 _finalizeasyncsurface
 (
 NPP
@@ -3833,7 +3787,6 @@ surface
 ;
 static
 void
-NP_CALLBACK
 _setcurrentasyncsurface
 (
 NPP
@@ -4427,7 +4380,6 @@ namespace
 child
 {
 NPError
-NP_CALLBACK
 _requestread
 (
 NPStream
@@ -4487,7 +4439,6 @@ aRangeList
 ;
 }
 NPError
-NP_CALLBACK
 _geturlnotify
 (
 NPP
@@ -4586,7 +4537,6 @@ err
 ;
 }
 NPError
-NP_CALLBACK
 _getvalue
 (
 NPP
@@ -4812,7 +4762,6 @@ NPERR_GENERIC_ERROR
 ;
 }
 NPError
-NP_CALLBACK
 _setvalue
 (
 NPP
@@ -4846,7 +4795,6 @@ aValue
 ;
 }
 NPError
-NP_CALLBACK
 _geturl
 (
 NPP
@@ -4896,7 +4844,6 @@ err
 ;
 }
 NPError
-NP_CALLBACK
 _posturlnotify
 (
 NPP
@@ -5005,7 +4952,6 @@ err
 ;
 }
 NPError
-NP_CALLBACK
 _posturl
 (
 NPP
@@ -5069,7 +5015,6 @@ err
 ;
 }
 NPError
-NP_CALLBACK
 _newstream
 (
 NPP
@@ -5109,7 +5054,6 @@ aStream
 ;
 }
 int32_t
-NP_CALLBACK
 _write
 (
 NPP
@@ -5185,7 +5129,6 @@ aBuffer
 ;
 }
 NPError
-NP_CALLBACK
 _destroystream
 (
 NPP
@@ -5308,7 +5251,6 @@ NPERR_NO_ERROR
 ;
 }
 void
-NP_CALLBACK
 _status
 (
 NPP
@@ -5337,7 +5279,6 @@ implemented
 ;
 }
 void
-NP_CALLBACK
 _memfree
 (
 void
@@ -5358,7 +5299,6 @@ aPtr
 ;
 }
 uint32_t
-NP_CALLBACK
 _memflush
 (
 uint32_t
@@ -5376,7 +5316,6 @@ return
 ;
 }
 void
-NP_CALLBACK
 _reloadplugins
 (
 NPBool
@@ -5406,7 +5345,6 @@ aReloadPages
 ;
 }
 void
-NP_CALLBACK
 _invalidaterect
 (
 NPP
@@ -5441,7 +5379,6 @@ aInvalidRect
 }
 }
 void
-NP_CALLBACK
 _invalidateregion
 (
 NPP
@@ -5468,7 +5405,6 @@ implemented
 ;
 }
 void
-NP_CALLBACK
 _forceredraw
 (
 NPP
@@ -5485,7 +5421,6 @@ ENSURE_PLUGIN_THREAD_VOID
 const
 char
 *
-NP_CALLBACK
 _useragent
 (
 NPP
@@ -5515,7 +5450,6 @@ GetUserAgent
 }
 void
 *
-NP_CALLBACK
 _memalloc
 (
 uint32_t
@@ -5537,7 +5471,6 @@ aSize
 }
 void
 *
-NP_CALLBACK
 _getjavaenv
 (
 void
@@ -5551,7 +5484,6 @@ return
 }
 void
 *
-NP_CALLBACK
 _getjavapeer
 (
 NPP
@@ -5565,7 +5497,6 @@ return
 ;
 }
 bool
-NP_CALLBACK
 _invoke
 (
 NPP
@@ -5640,7 +5571,6 @@ aResult
 ;
 }
 bool
-NP_CALLBACK
 _invokedefault
 (
 NPP
@@ -5712,7 +5642,6 @@ aResult
 ;
 }
 bool
-NP_CALLBACK
 _evaluate
 (
 NPP
@@ -5834,7 +5763,6 @@ aResult
 ;
 }
 bool
-NP_CALLBACK
 _getproperty
 (
 NPP
@@ -5901,7 +5829,6 @@ aResult
 ;
 }
 bool
-NP_CALLBACK
 _setproperty
 (
 NPP
@@ -5969,7 +5896,6 @@ aValue
 ;
 }
 bool
-NP_CALLBACK
 _removeproperty
 (
 NPP
@@ -6032,7 +5958,6 @@ aPropertyName
 ;
 }
 bool
-NP_CALLBACK
 _hasproperty
 (
 NPP
@@ -6095,7 +6020,6 @@ aPropertyName
 ;
 }
 bool
-NP_CALLBACK
 _hasmethod
 (
 NPP
@@ -6158,7 +6082,6 @@ aMethodName
 ;
 }
 bool
-NP_CALLBACK
 _enumerate
 (
 NPP
@@ -6253,7 +6176,6 @@ aCount
 ;
 }
 bool
-NP_CALLBACK
 _construct
 (
 NPP
@@ -6337,7 +6259,6 @@ aResult
 ;
 }
 void
-NP_CALLBACK
 _releasevariantvalue
 (
 NPVariant
@@ -6427,7 +6348,6 @@ aVariant
 ;
 }
 void
-NP_CALLBACK
 _setexception
 (
 NPObject
@@ -6519,7 +6439,6 @@ aMessage
 ;
 }
 void
-NP_CALLBACK
 _pushpopupsenabledstate
 (
 NPP
@@ -6551,7 +6470,6 @@ false
 ;
 }
 void
-NP_CALLBACK
 _poppopupsenabledstate
 (
 NPP
@@ -6576,7 +6494,6 @@ CallNPN_PopPopupsEnabledState
 ;
 }
 void
-NP_CALLBACK
 _pluginthreadasynccall
 (
 NPP
@@ -6611,7 +6528,6 @@ aUserData
 ;
 }
 NPError
-NP_CALLBACK
 _getvalueforurl
 (
 NPP
@@ -6732,7 +6648,6 @@ NPERR_INVALID_PARAM
 ;
 }
 NPError
-NP_CALLBACK
 _setvalueforurl
 (
 NPP
@@ -6818,7 +6733,6 @@ NPERR_INVALID_PARAM
 ;
 }
 NPError
-NP_CALLBACK
 _getauthenticationinfo
 (
 NPP
@@ -6989,7 +6903,6 @@ result
 ;
 }
 uint32_t
-NP_CALLBACK
 _scheduletimer
 (
 NPP
@@ -7033,7 +6946,6 @@ timerFunc
 ;
 }
 void
-NP_CALLBACK
 _unscheduletimer
 (
 NPP
@@ -7103,7 +7015,6 @@ CallProcessSomeEvents
 #
 endif
 NPError
-NP_CALLBACK
 _popupcontextmenu
 (
 NPP
@@ -7345,7 +7256,6 @@ NPERR_GENERIC_ERROR
 endif
 }
 NPBool
-NP_CALLBACK
 _convertpoint
 (
 NPP
@@ -7474,7 +7384,6 @@ result
 ;
 }
 void
-NP_CALLBACK
 _urlredirectresponse
 (
 NPP
@@ -7500,7 +7409,6 @@ allow
 ;
 }
 NPError
-NP_CALLBACK
 _initasyncsurface
 (
 NPP
@@ -7535,7 +7443,6 @@ surface
 ;
 }
 NPError
-NP_CALLBACK
 _finalizeasyncsurface
 (
 NPP
@@ -7559,7 +7466,6 @@ surface
 ;
 }
 void
-NP_CALLBACK
 _setcurrentasyncsurface
 (
 NPP
@@ -8659,7 +8565,6 @@ true
 }
 NPObject
 *
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -8849,7 +8754,6 @@ newObject
 }
 NPObject
 *
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -8903,7 +8807,6 @@ aNPObj
 ;
 }
 void
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -9277,7 +9180,6 @@ PL_DHASH_NEXT
 ;
 }
 NPIdentifier
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -9379,7 +9281,6 @@ ident
 ;
 }
 void
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -9553,7 +9454,6 @@ ident
 }
 }
 bool
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -9588,7 +9488,6 @@ IsString
 ;
 }
 NPIdentifier
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -9678,7 +9577,6 @@ ident
 }
 NPUTF8
 *
-NP_CALLBACK
 PluginModuleChild
 :
 :
@@ -9728,7 +9626,6 @@ nullptr
 ;
 }
 int32_t
-NP_CALLBACK
 PluginModuleChild
 :
 :
