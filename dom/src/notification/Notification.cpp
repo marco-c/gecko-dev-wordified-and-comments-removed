@@ -3509,9 +3509,6 @@ if
 mIsClosed
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsINotificationStorage
@@ -3531,6 +3528,7 @@ notificationStorage
 nsString
 origin
 ;
+nsresult
 rv
 =
 GetOrigin
@@ -3576,14 +3574,6 @@ if
 alertService
 )
 {
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 alertService
 -
 >
@@ -3595,7 +3585,6 @@ GetPrincipal
 )
 )
 ;
-}
 }
 }
 }
