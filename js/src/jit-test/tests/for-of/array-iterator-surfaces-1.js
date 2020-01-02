@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+iteration
+.
+js
+"
+)
+;
 var
 constructors
 =
@@ -21,8 +32,9 @@ assertEq
 c
 .
 prototype
-.
-iterator
+[
+std_iterator
+]
 .
 length
 0
@@ -38,9 +50,7 @@ getOwnPropertyDescriptor
 c
 .
 prototype
-"
-iterator
-"
+std_iterator
 )
 ;
 assertEq

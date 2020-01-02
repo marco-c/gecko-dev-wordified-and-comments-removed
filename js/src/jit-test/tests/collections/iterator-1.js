@@ -70,6 +70,12 @@ Iterator
 }
 test
 (
+[
+]
+)
+;
+test
+(
 new
 Map
 )
