@@ -1440,6 +1440,15 @@ point
 =
 begin
 ;
+if
+(
+begin
+>
+=
+end
+)
+return
+;
 uint64_t
 u
 =
