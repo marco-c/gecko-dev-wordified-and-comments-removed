@@ -1031,7 +1031,7 @@ false
 ;
 static
 bool
-sBackgroundUpdate
+sStagedUpdate
 =
 false
 ;
@@ -4239,7 +4239,7 @@ rv
 &
 &
 !
-sBackgroundUpdate
+sStagedUpdate
 &
 &
 !
@@ -7806,7 +7806,7 @@ OK
 {
 if
 (
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 text
@@ -8186,7 +8186,7 @@ gDestinationPath
 if
 (
 !
-sBackgroundUpdate
+sStagedUpdate
 &
 &
 !
@@ -10006,7 +10006,7 @@ MAXPATHLEN
 ;
 if
 (
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 if
@@ -10131,7 +10131,7 @@ rv
 OK
 &
 &
-sBackgroundUpdate
+sStagedUpdate
 &
 &
 !
@@ -10871,7 +10871,7 @@ pid
 1
 )
 {
-sBackgroundUpdate
+sStagedUpdate
 =
 true
 ;
@@ -11114,7 +11114,7 @@ return
 }
 if
 (
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 LOG
@@ -11123,7 +11123,7 @@ LOG
 "
 Performing
 a
-background
+staged
 update
 "
 )
@@ -11578,7 +11578,7 @@ argc
 callbackIndex
 |
 |
-sBackgroundUpdate
+sStagedUpdate
 |
 |
 sReplaceRequest
@@ -11593,7 +11593,7 @@ MAXPATHLEN
 ;
 if
 (
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 NS_tsnprintf
@@ -11763,7 +11763,7 @@ updateLockFilePath
 {
 if
 (
-sBackgroundUpdate
+sStagedUpdate
 |
 |
 sReplaceRequest
@@ -12185,7 +12185,7 @@ false
 if
 (
 !
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 showProgressUI
@@ -12287,7 +12287,7 @@ if
 useService
 &
 &
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 if
@@ -12319,7 +12319,7 @@ useService
 &
 &
 !
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 bool
@@ -12643,7 +12643,7 @@ return
 endif
 if
 (
-sBackgroundUpdate
+sStagedUpdate
 )
 {
 ensure_remove_recursive
@@ -13661,7 +13661,7 @@ return
 if
 (
 !
-sBackgroundUpdate
+sStagedUpdate
 &
 &
 !
@@ -13707,7 +13707,7 @@ nullptr
 if
 (
 !
-sBackgroundUpdate
+sStagedUpdate
 &
 &
 !
@@ -13763,7 +13763,7 @@ gCallbackBackupPath
 if
 (
 !
-sBackgroundUpdate
+sStagedUpdate
 &
 &
 !
