@@ -94,9 +94,6 @@ nsSVGTextFrame2
 class
 nsTextFrame
 ;
-class
-gfxPath
-;
 typedef
 nsSVGDisplayContainerFrame
 nsSVGTextFrame2Base

@@ -83,9 +83,6 @@ nsSVGTSpanFrame
 h
 "
 class
-gfxPath
-;
-class
 nsIAtom
 ;
 class
