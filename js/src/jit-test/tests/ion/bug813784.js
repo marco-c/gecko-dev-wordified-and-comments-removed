@@ -281,8 +281,7 @@ return0
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -380,8 +379,7 @@ apply3
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -461,8 +459,7 @@ apply_fun1
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -544,8 +541,7 @@ fun
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -690,8 +686,7 @@ dumpArgs
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -1035,8 +1030,7 @@ arg_len
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;

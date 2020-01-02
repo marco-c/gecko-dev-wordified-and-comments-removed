@@ -34,8 +34,7 @@ dumpArgs
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -111,8 +110,7 @@ dumpArgs2
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -192,8 +190,7 @@ dumpArgs3
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -276,8 +273,7 @@ dumpArgs4
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -365,8 +361,7 @@ dumpArgs5
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
@@ -447,8 +442,7 @@ dumpArgs6
 .
 apply
 (
-{
-}
+undefined
 arguments
 )
 ;
