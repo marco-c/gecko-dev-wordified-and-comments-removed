@@ -77,7 +77,7 @@ MIRGenerator
 :
 MIRGenerator
 (
-CompileCompartment
+JSCompartment
 *
 compartment
 TempAllocator

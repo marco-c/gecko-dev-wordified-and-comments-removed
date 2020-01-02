@@ -11081,17 +11081,11 @@ IonBuilder
 builder
 (
 cx
-CompileCompartment
-:
-:
-get
-(
 cx
 -
 >
 compartment
 (
-)
 )
 &
 temp

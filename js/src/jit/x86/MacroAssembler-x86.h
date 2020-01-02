@@ -6804,6 +6804,7 @@ Operand
 (
 AbsoluteAddress
 (
+&
 GetIonContext
 (
 )
@@ -6812,9 +6813,9 @@ GetIonContext
 runtime
 -
 >
-addressOfIonTop
-(
-)
+mainThread
+.
+ionTop
 )
 )
 )
