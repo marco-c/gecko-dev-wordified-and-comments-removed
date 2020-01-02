@@ -228,3 +228,16 @@ LIBRARY_NAME
 '
 dom_apps_s
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+js
+/
+xpconnect
+/
+wrappers
+'
+]

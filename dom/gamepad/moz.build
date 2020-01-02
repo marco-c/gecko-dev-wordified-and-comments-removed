@@ -162,3 +162,14 @@ config
 mozbuild
 '
 )
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+dom
+/
+base
+'
+]

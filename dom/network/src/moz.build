@@ -359,3 +359,16 @@ config
 mozbuild
 '
 )
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+content
+/
+events
+/
+src
+'
+]

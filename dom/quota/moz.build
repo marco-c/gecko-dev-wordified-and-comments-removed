@@ -258,3 +258,14 @@ config
 mozbuild
 '
 )
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+caps
+/
+include
+'
+]

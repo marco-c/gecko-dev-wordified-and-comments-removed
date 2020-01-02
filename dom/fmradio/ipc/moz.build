@@ -184,3 +184,14 @@ config
 mozbuild
 '
 )
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+dom
+/
+fmradio
+'
+]
