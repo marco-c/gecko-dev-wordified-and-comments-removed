@@ -10902,7 +10902,7 @@ error
 vie_codec
 -
 >
-GetReceiveCodecStastistics
+GetReceiveCodecStatistics
 (
 video_channel
 key_frames
@@ -10963,7 +10963,7 @@ error
 vie_codec
 -
 >
-GetSendCodecStastistics
+GetSendCodecStatistics
 (
 video_channel
 key_frames
