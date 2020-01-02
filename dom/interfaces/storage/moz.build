@@ -103,11 +103,6 @@ nsIDOMStorage
 idl
 '
 '
-nsIDOMStorageEvent
-.
-idl
-'
-'
 nsIDOMStorageManager
 .
 idl

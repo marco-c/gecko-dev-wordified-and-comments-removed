@@ -987,13 +987,6 @@ endif
 #
 include
 "
-nsIDOMStorageEvent
-.
-h
-"
-#
-include
-"
 nsIDOMStyleSheet
 .
 h
@@ -3613,10 +3606,6 @@ SpeechSynthesisEvent
 )
 #
 endif
-DEFINE_SHIM
-(
-StorageEvent
-)
 DEFINE_SHIM
 (
 StyleSheet
