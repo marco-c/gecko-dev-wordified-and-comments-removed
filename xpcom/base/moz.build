@@ -479,7 +479,7 @@ WindowsVersion
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -640,7 +640,7 @@ nsCrashOnException
 cpp
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

@@ -120,6 +120,14 @@ sLog
 #
 endif
 #
+ifdef
+LOG
+#
+undef
+LOG
+#
+endif
+#
 define
 LOG
 (

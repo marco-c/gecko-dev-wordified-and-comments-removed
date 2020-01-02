@@ -1,4 +1,10 @@
 #
+ifndef
+nsSample_h
+#
+define
+nsSample_h
+#
 include
 "
 nsISample
@@ -73,3 +79,5 @@ mValue
 ;
 }
 ;
+#
+endif

@@ -98,7 +98,7 @@ LIBRARY_NAME
 '
 xpt
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
