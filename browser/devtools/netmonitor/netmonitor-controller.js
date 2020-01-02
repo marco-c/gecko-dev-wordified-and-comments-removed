@@ -240,6 +240,13 @@ NetMonitor
 :
 ResponseHtmlPreviewAvailable
 "
+RESPONSE_IMAGE_THUMBNAIL_DISPLAYED
+:
+"
+NetMonitor
+:
+ResponseImageThumbnailAvailable
+"
 TAB_UPDATED
 :
 "
