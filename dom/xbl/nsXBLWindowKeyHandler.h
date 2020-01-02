@@ -79,15 +79,6 @@ nsXBLWindowKeyHandler
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMEVENTLISTENER
-static
-NS_HIDDEN_
-(
-void
-)
-ShutDown
-(
-)
-;
 protected
 :
 nsresult
@@ -136,9 +127,6 @@ aIgnoreShiftKey
 nsresult
 EnsureHandlers
 (
-bool
-*
-aIsEditor
 )
 ;
 bool
@@ -160,7 +148,7 @@ aIgnoreShiftKey
 )
 ;
 bool
-IsEditor
+IsHTMLEditableFieldFocused
 (
 )
 ;
