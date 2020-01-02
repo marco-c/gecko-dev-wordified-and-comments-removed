@@ -465,10 +465,8 @@ module
 aResource
 +
 "
-:
+.
 "
-+
-ex
 )
 ;
 throw
