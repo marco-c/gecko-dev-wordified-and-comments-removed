@@ -63,6 +63,9 @@ NS_AUDIOCHANNELAGENT_CID
 0xd4
 }
 }
+class
+nsIDOMWindow
+;
 namespace
 mozilla
 {
@@ -112,6 +115,9 @@ GetCallback
 nsresult
 InitInternal
 (
+nsIDOMWindow
+*
+aWindow
 int32_t
 aAudioAgentType
 nsIAudioChannelAgentCallback
@@ -124,6 +130,12 @@ aWithVideo
 =
 false
 )
+;
+nsCOMPtr
+<
+nsIDOMWindow
+>
+mWindow
 ;
 nsCOMPtr
 <
