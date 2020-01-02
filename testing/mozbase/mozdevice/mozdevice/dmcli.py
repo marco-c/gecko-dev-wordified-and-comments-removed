@@ -2492,6 +2492,25 @@ print
 app
     
 def
+stopapp
+(
+self
+args
+)
+:
+        
+self
+.
+dm
+.
+stopApplication
+(
+args
+.
+appname
+)
+    
+def
 kill
 (
 self
