@@ -243,6 +243,13 @@ Math
 imul
 ;
 var
+std_Math_log2
+=
+Math
+.
+log2
+;
+var
 std_Number_valueOf
 =
 Number

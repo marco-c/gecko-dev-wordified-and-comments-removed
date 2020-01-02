@@ -129,15 +129,3 @@ y
 }
 }
 }
-if
-(
-getBuildConfiguration
-(
-)
-.
-parallelJS
-)
-test
-(
-)
-;
