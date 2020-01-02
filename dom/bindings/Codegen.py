@@ -81513,6 +81513,7 @@ def
 callbackGetterName
 (
 attr
+descriptor
 )
 :
     
@@ -81523,16 +81524,30 @@ Get
 +
 MakeNativeName
 (
+        
+descriptor
+.
+binaryNames
+.
+get
+(
+attr
+.
+identifier
+.
+name
 attr
 .
 identifier
 .
 name
 )
+)
 def
 callbackSetterName
 (
 attr
+descriptor
 )
 :
     
@@ -81543,11 +81558,24 @@ Set
 +
 MakeNativeName
 (
+        
+descriptor
+.
+binaryNames
+.
+get
+(
 attr
 .
 identifier
 .
 name
+attr
+.
+identifier
+.
+name
+)
 )
 class
 CGJSImplGetter
@@ -81679,12 +81707,17 @@ s
 '
 %
 (
+            
 callbackGetterName
 (
 self
 .
 member
+self
+.
+descriptorProvider
 )
+            
 "
 "
 .
@@ -81850,12 +81883,17 @@ s
 '
 %
 (
+            
 callbackSetterName
 (
 self
 .
 member
+self
+.
+descriptorProvider
 )
+            
 "
 "
 .
@@ -86766,7 +86804,15 @@ self
 .
 methodName
 =
+descriptor
+.
+binaryNames
+.
+get
+(
 jsName
+jsName
+)
         
 CallbackMethod
 .
@@ -87092,9 +87138,18 @@ self
 signature
                                        
 jsName
+                                       
 MakeNativeName
 (
+descriptor
+.
+binaryNames
+.
+get
+(
 jsName
+jsName
+)
 )
                                        
 descriptor
@@ -87292,6 +87347,7 @@ type
 callbackGetterName
 (
 attr
+descriptor
 )
                                   
 descriptor
@@ -87358,7 +87414,20 @@ attrName
 :
 self
 .
+descriptorProvider
+.
+binaryNames
+.
+get
+(
+self
+.
 attrName
+                                                                
+self
+.
+attrName
+)
             
 }
         
@@ -87471,6 +87540,7 @@ attr
 callbackSetterName
 (
 attr
+descriptor
 )
                                   
 descriptor
@@ -87514,7 +87584,20 @@ attrName
 :
 self
 .
+descriptorProvider
+.
+binaryNames
+.
+get
+(
+self
+.
 attrName
+                                                                
+self
+.
+attrName
+)
             
 "
 argv
