@@ -1461,6 +1461,11 @@ slots_
 .
 init
 (
+graph_
+.
+alloc
+(
+)
 info_
 .
 nslots
@@ -1484,6 +1489,11 @@ slots_
 .
 growBy
 (
+graph_
+.
+alloc
+(
+)
 num
 )
 ;
@@ -1699,6 +1709,7 @@ entryResumePoint_
 >
 init
 (
+alloc
 )
 )
 return

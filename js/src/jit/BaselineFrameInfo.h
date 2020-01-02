@@ -545,6 +545,9 @@ spIndex
 bool
 init
 (
+TempAllocator
+&
+alloc
 )
 ;
 uint32_t

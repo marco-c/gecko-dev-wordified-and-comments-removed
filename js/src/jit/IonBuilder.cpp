@@ -14806,6 +14806,9 @@ bodies
 >
 init
 (
+alloc
+(
+)
 nbBodies
 )
 )

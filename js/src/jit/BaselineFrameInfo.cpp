@@ -38,6 +38,9 @@ FrameInfo
 :
 init
 (
+TempAllocator
+&
+alloc
 )
 {
 size_t
@@ -64,6 +67,7 @@ stack
 .
 init
 (
+alloc
 nstack
 )
 )

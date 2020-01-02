@@ -3635,6 +3635,11 @@ OutOfLineTruncateSlow
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineTruncateSlow
 (
 src
@@ -3741,6 +3746,11 @@ OutOfLineTruncateSlow
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineTruncateSlow
 (
 src
@@ -4143,6 +4153,11 @@ OutOfLineAbortPar
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineAbortPar
 (
 cause
@@ -4287,6 +4302,11 @@ OutOfLinePropagateAbortPar
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLinePropagateAbortPar
 (
 lir

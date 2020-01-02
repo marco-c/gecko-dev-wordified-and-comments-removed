@@ -3761,6 +3761,7 @@ ins
 >
 init
 (
+alloc
 maxArgc
 +
 NumNonArgumentOperands
@@ -10828,6 +10829,7 @@ resume
 >
 init
 (
+alloc
 )
 )
 return

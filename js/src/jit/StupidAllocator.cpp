@@ -1723,8 +1723,10 @@ else
 {
 group
 =
-new
 LMoveGroup
+:
+:
+New
 (
 alloc
 (

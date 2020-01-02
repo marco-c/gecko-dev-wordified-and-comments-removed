@@ -3090,6 +3090,11 @@ fallible
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineLoadTypedArrayOutOfBounds
 (
 ToAnyRegister
@@ -3432,6 +3437,11 @@ OutOfLineLoadTypedArrayOutOfBounds
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineLoadTypedArrayOutOfBounds
 (
 ToAnyRegister
@@ -5479,6 +5489,11 @@ OutOfLineTruncate
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineTruncate
 (
 ins
@@ -5567,6 +5582,11 @@ OutOfLineTruncateFloat32
 ool
 =
 new
+(
+alloc
+(
+)
+)
 OutOfLineTruncateFloat32
 (
 ins
