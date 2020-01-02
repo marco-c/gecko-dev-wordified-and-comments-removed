@@ -431,7 +431,9 @@ docShell
 .
 QueryInterface
 %
-28Ci
+28Components
+.
+interfaces
 .
 nsILoadContext
 %
