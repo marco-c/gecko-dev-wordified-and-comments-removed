@@ -19547,14 +19547,6 @@ outerResumePoint
 return
 false
 ;
-current
--
->
-setOuterResumePoint
-(
-outerResumePoint
-)
-;
 callInfo
 .
 popFormals
