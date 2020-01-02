@@ -253,7 +253,10 @@ voice
 =
 mobileConnection
 .
-voiceConnectionInfo
+getVoiceConnectionInfo
+(
+0
+)
 ;
 if
 (
