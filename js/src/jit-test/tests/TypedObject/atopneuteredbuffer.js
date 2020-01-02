@@ -38,6 +38,7 @@ TypedObject
 function
 main
 (
+variant
 )
 {
 var
@@ -80,6 +81,7 @@ buffer
 neuter
 (
 buffer
+variant
 )
 ;
 assertThrowsInstanceOf
@@ -130,5 +132,19 @@ buffer
 }
 main
 (
+"
+same
+-
+data
+"
+)
+;
+main
+(
+"
+change
+-
+data
+"
 )
 ;

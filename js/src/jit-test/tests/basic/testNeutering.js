@@ -1,3 +1,22 @@
+for
+(
+var
+variant
+of
+[
+"
+same
+-
+data
+"
+"
+change
+-
+data
+"
+]
+)
+{
 var
 ab
 =
@@ -26,6 +45,7 @@ i32
 neuter
 (
 ab
+variant
 )
 ;
 assertEq
@@ -81,6 +101,7 @@ i32
 neuter
 (
 ab
+variant
 )
 ;
 assertEq
@@ -136,6 +157,7 @@ i32
 neuter
 (
 ab
+variant
 )
 ;
 assertEq
@@ -163,3 +185,4 @@ i32
 undefined
 )
 ;
+}

@@ -58,6 +58,7 @@ g
 function
 main
 (
+variant
 )
 {
 var
@@ -108,6 +109,7 @@ s
 )
 .
 buffer
+variant
 )
 ;
 for
@@ -161,5 +163,19 @@ true
 }
 main
 (
+"
+same
+-
+data
+"
+)
+;
+main
+(
+"
+change
+-
+data
+"
 )
 ;

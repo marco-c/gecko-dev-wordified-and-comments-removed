@@ -515,6 +515,7 @@ JS_NeuterArrayBuffer
 (
 cx
 obj
+ChangeData
 )
 ;
 CHECK

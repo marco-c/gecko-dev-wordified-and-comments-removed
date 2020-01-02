@@ -5964,6 +5964,14 @@ JSObject
 obj
 )
 ;
+typedef
+enum
+{
+ChangeData
+KeepData
+}
+NeuterDataDisposition
+;
 extern
 JS_FRIEND_API
 (
@@ -5979,6 +5987,8 @@ JS
 :
 HandleObject
 obj
+NeuterDataDisposition
+changeData
 )
 ;
 JS_FRIEND_API
