@@ -915,12 +915,6 @@ document
 "
 )
 ;
-if
-(
-mDestroyed
-)
-return
-;
 nsRefPtr
 <
 nsXBLBinding
@@ -937,6 +931,12 @@ GetXBLBinding
 if
 (
 binding
+)
+{
+if
+(
+!
+mDestroyed
 )
 {
 binding
@@ -966,6 +966,7 @@ aOldDocument
 nullptr
 )
 ;
+}
 aContent
 -
 >
