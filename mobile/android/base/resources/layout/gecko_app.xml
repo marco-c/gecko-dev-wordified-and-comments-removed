@@ -387,15 +387,6 @@ layout_gravity
 "
 bottom
 "
-android
-:
-translationY
-=
-"
-dimen
-/
-home_banner_height
-"
 /
 >
 <
