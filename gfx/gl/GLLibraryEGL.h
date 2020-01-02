@@ -324,6 +324,7 @@ IsExtensionSupported
 EGLExtensions
 aKnownExtension
 )
+const
 {
 return
 mAvailableExtensions
@@ -1438,6 +1439,7 @@ bool
 IsANGLE
 (
 )
+const
 {
 return
 mIsANGLE
@@ -1507,6 +1509,7 @@ bool
 HasRobustness
 (
 )
+const
 {
 return
 IsExtensionSupported
