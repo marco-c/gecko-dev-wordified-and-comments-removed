@@ -1031,6 +1031,8 @@ aPriorNode
 nsresult
 GetPreviousWSNode
 (
+:
+:
 DOMPoint
 aPoint
 nsIDOMNode
@@ -1083,6 +1085,8 @@ aNextNode
 nsresult
 GetNextWSNode
 (
+:
+:
 DOMPoint
 aPoint
 nsIDOMNode

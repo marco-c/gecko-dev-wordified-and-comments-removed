@@ -3,6 +3,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -410,6 +412,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 static
 bool
@@ -12003,9 +12012,6 @@ NS_OK
 }
 nsRefPtr
 <
-mozilla
-:
-:
 Selection
 >
 selection

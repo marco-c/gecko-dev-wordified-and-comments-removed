@@ -57,9 +57,13 @@ nsRange
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 Selection
 ;
+}
 }
 struct
 nsRangeStore
@@ -155,6 +159,9 @@ void
 SaveSelection
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection

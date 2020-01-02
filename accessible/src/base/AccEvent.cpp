@@ -47,6 +47,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -432,6 +434,9 @@ AccTextSelChangeEvent
 HyperTextAccessible
 *
 aTarget
+dom
+:
+:
 Selection
 *
 aSelection

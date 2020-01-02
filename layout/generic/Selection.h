@@ -120,6 +120,9 @@ mTextRangeStyle
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 Selection
 :
@@ -1213,6 +1216,7 @@ mType
 ;
 }
 ;
+}
 }
 #
 endif

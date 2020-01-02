@@ -236,6 +236,8 @@ h
 EXPORTS
 .
 mozilla
+.
+dom
 +
 =
 [

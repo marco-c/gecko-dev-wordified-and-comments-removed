@@ -1165,6 +1165,9 @@ const
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 GetSelection

@@ -25,9 +25,13 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 Selection
 ;
+}
 namespace
 a11y
 {
@@ -1067,6 +1071,9 @@ AccTextSelChangeEvent
 HyperTextAccessible
 *
 aTarget
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1121,6 +1128,9 @@ private
 :
 nsRefPtr
 <
+dom
+:
+:
 Selection
 >
 mSel

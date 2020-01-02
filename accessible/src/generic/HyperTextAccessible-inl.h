@@ -172,6 +172,9 @@ int32_t
 aEndOffset
 )
 {
+dom
+:
+:
 Selection
 *
 domSel
@@ -627,6 +630,9 @@ nullptr
 ;
 }
 inline
+dom
+:
+:
 Selection
 *
 HyperTextAccessible

@@ -234,6 +234,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -4479,12 +4481,18 @@ selection
 NS_ERROR_FAILURE
 )
 ;
+dom
+:
+:
 Selection
 *
 sel
 =
 static_cast
 <
+dom
+:
+:
 Selection
 *
 >

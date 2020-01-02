@@ -33,6 +33,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -115,6 +117,13 @@ nsIDOMRange
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 DeleteRangeTxn
 :

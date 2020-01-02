@@ -262,9 +262,6 @@ namespace
 mozilla
 {
 class
-Selection
-;
-class
 TextComposition
 ;
 namespace
@@ -278,6 +275,9 @@ Element
 ;
 class
 EventTarget
+;
+class
+Selection
 ;
 }
 }
@@ -1292,6 +1292,9 @@ PreserveSelectionAcrossActions
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSel
@@ -1912,6 +1915,9 @@ GetStartNodeAndOffset
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1947,6 +1953,9 @@ GetEndNodeAndOffset
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -1978,6 +1987,9 @@ indent
 #
 endif
 mozilla
+:
+:
+dom
 :
 :
 Selection

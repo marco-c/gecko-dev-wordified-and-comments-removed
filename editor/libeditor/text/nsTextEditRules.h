@@ -86,9 +86,13 @@ nsISelection
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 Selection
 ;
+}
 }
 class
 nsTextEditRules
@@ -167,6 +171,9 @@ NS_IMETHOD
 WillDoAction
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -248,6 +255,9 @@ aAction
 mozilla
 :
 :
+dom
+:
+:
 Selection
 *
 aSelection
@@ -294,6 +304,9 @@ nsresult
 WillInsertBreak
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -344,6 +357,9 @@ nsresult
 WillDeleteSelection
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -526,6 +542,9 @@ nsresult
 TruncateInsertionIfNeeded
 (
 mozilla
+:
+:
+dom
 :
 :
 Selection

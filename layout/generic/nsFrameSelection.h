@@ -27,6 +27,8 @@ include
 "
 mozilla
 /
+dom
+/
 Selection
 .
 h
@@ -353,9 +355,13 @@ mLevelAfter
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 Selection
 ;
+}
 }
 class
 nsIScrollableFrame
@@ -576,6 +582,9 @@ mSelectingTableCellMode
 ;
 }
 mozilla
+:
+:
+dom
 :
 :
 Selection
@@ -1061,6 +1070,9 @@ class
 mozilla
 :
 :
+dom
+:
+:
 Selection
 ;
 #
@@ -1190,6 +1202,9 @@ aType
 nsRefPtr
 <
 mozilla
+:
+:
+dom
 :
 :
 Selection
