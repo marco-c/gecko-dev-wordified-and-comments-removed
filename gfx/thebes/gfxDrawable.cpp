@@ -287,6 +287,10 @@ isDownscale
 ?
 aDefaultFilter
 :
+(
+const
+GraphicsFilter
+)
 GraphicsFilter
 :
 :

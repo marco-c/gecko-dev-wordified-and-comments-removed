@@ -81,8 +81,8 @@ if
 MOZ_GCC_VERSION_AT_LEAST
 (
 4
-5
-1
+6
+3
 )
 #
 define
