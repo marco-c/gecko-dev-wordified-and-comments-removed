@@ -766,6 +766,11 @@ cairo
 qpainter
 .
 h
+cairo
+-
+qt
+.
+h
 #
 endif
 dfiff
