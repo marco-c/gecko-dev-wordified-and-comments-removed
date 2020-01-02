@@ -113,7 +113,7 @@ nsFontFaceList
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -166,7 +166,7 @@ MOZ_XUL
 '
 ]
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

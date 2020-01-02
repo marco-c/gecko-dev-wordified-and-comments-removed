@@ -1,4 +1,10 @@
 #
+ifndef
+ChildIterator_h
+#
+define
+ChildIterator_h
+#
 include
 "
 nsIContent
@@ -151,3 +157,5 @@ mXBLInvolved
 ;
 }
 }
+#
+endif
