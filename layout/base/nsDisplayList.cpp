@@ -9577,7 +9577,7 @@ IsPositioned
 mFrame
 -
 >
-IsFlexItem
+IsFlexOrGridItem
 (
 )
 )

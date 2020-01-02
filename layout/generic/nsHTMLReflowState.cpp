@@ -616,7 +616,7 @@ MOZ_ASSERT
 aFrame
 -
 >
-IsFlexItem
+IsFlexOrGridItem
 (
 )
 "
@@ -642,6 +642,8 @@ is
 incorrect
 for
 flex
+/
+grid
 items
 "
 )
@@ -3170,6 +3172,9 @@ NS_STYLE_DISPLAY_TABLE_CAPTION
 case
 NS_STYLE_DISPLAY_FLEX
 :
+case
+NS_STYLE_DISPLAY_GRID
+:
 frameType
 =
 NS_CSS_FRAME_TYPE_BLOCK
@@ -3196,6 +3201,9 @@ NS_STYLE_DISPLAY_INLINE_STACK
 :
 case
 NS_STYLE_DISPLAY_INLINE_FLEX
+:
+case
+NS_STYLE_DISPLAY_INLINE_GRID
 :
 frameType
 =
@@ -8033,7 +8041,7 @@ if
 aFrame
 -
 >
-IsFlexItem
+IsFlexOrGridItem
 (
 )
 )

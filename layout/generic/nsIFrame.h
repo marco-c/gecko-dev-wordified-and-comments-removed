@@ -6545,6 +6545,13 @@ const
 ;
 inline
 bool
+IsFlexOrGridItem
+(
+)
+const
+;
+inline
+bool
 IsBlockInside
 (
 )
