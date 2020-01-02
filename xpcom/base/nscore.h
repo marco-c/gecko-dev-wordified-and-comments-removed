@@ -762,6 +762,13 @@ defined
 (
 _MSC_VER
 )
+&
+&
+!
+defined
+(
+__clang__
+)
 #
 define
 NS_NO_VTABLE
