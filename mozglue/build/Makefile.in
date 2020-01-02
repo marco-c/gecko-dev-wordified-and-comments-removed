@@ -447,6 +447,15 @@ Android
 OS_TARGET
 )
 )
+ifdef
+MOZ_NUWA_PROCESS
+CPPSRCS
++
+=
+Nuwa
+.
+cpp
+endif
 SHARED_LIBRARY_LIBS
 +
 =
