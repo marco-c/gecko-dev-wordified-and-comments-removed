@@ -85,9 +85,6 @@ helper
 .
 js
 \
-data
-/
-\
 redirect
 .
 sjs
