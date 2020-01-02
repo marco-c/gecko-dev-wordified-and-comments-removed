@@ -162,6 +162,11 @@ UIABridge
 .
 cpp
 '
+'
+WakeLockListener
+.
+cpp
+'
 ]
 EXTRA_COMPONENTS
 +
