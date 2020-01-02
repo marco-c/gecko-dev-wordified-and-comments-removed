@@ -3071,9 +3071,12 @@ selNode
 =
 GetNodeLocation
 (
+GetAsDOMNode
+(
 wsRunObj
 .
 mStartReasonNode
+)
 &
 selOffset
 )
@@ -3147,9 +3150,12 @@ selNode
 =
 GetNodeLocation
 (
+GetAsDOMNode
+(
 wsRunObj
 .
 mStartReasonNode
+)
 &
 selOffset
 )

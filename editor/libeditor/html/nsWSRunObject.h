@@ -1315,7 +1315,7 @@ Scrub
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mNode
 ;
@@ -1327,7 +1327,7 @@ mPRE
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mStartNode
 ;
@@ -1339,13 +1339,13 @@ mStartReason
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mStartReasonNode
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mEndNode
 ;
@@ -1357,13 +1357,13 @@ mEndReason
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mEndReasonNode
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mFirstNBSPNode
 ;
@@ -1372,7 +1372,7 @@ mFirstNBSPOffset
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mLastNBSPNode
 ;
@@ -1381,7 +1381,7 @@ mLastNBSPOffset
 ;
 nsCOMArray
 <
-nsIDOMNode
+nsINode
 >
 mNodeArray
 ;
