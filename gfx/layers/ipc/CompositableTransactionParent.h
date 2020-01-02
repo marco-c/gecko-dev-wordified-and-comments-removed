@@ -93,6 +93,17 @@ return
 true
 ;
 }
+virtual
+bool
+IsAsync
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 }
