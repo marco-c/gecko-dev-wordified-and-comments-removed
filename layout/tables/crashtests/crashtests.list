@@ -572,7 +572,7 @@ load
 html
 asserts
 (
-12
+8
 )
 load
 420654
@@ -581,8 +581,12 @@ load
 .
 xhtml
 #
-Bug
-575011
+bug
+458238
+bug
+436123
+bug
+457397
 load
 423514
 -
