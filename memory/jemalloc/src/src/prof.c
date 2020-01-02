@@ -4663,7 +4663,7 @@ char
 filename
 char
 v
-int64_t
+uint64_t
 vseq
 )
 {
@@ -4700,7 +4700,7 @@ PRIu64
 c
 %
 "
-PRId64
+PRIu64
 "
 .
 heap
