@@ -212,6 +212,11 @@ RootedDictionary
 h
 '
 '
+ToJSValue
+.
+h
+'
+'
 TypedArray
 .
 h
@@ -498,6 +503,11 @@ cpp
 '
 '
 Exceptions
+.
+cpp
+'
+'
+ToJSValue
 .
 cpp
 '
