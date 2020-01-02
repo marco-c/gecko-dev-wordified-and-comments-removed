@@ -2069,7 +2069,7 @@ msg
 )
 )
 def
-_autoptr
+_refptr
 (
 T
 )
@@ -2086,7 +2086,7 @@ T
 T
 )
 def
-_autoptrGet
+_refptrGet
 (
 expr
 )
@@ -2107,7 +2107,7 @@ get
 )
 )
 def
-_autoptrForget
+_refptrForget
 (
 expr
 )
@@ -25864,7 +25864,7 @@ StmtDecl
                 
 Decl
 (
-_autoptr
+_refptr
 (
 _rawShmemType
 (
@@ -25952,7 +25952,7 @@ _shmemBackstagePass
 (
 )
                                
-_autoptrGet
+_refptrGet
 (
 rawvar
 )
@@ -26135,7 +26135,7 @@ idvar
                 
 StmtReturn
 (
-_autoptrForget
+_refptrForget
 (
 rawvar
 )
@@ -28996,7 +28996,7 @@ StmtDecl
 (
 Decl
 (
-_autoptr
+_refptr
 (
 _rawShmemType
 (
@@ -29080,7 +29080,7 @@ AddWithID
 args
 =
 [
-_autoptrForget
+_refptrForget
 (
 rawvar
 )
