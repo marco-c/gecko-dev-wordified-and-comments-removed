@@ -445,7 +445,6 @@ handleFailure
 done
 )
 {
-return
 function
 failure
 (
@@ -468,6 +467,14 @@ done
 )
 ;
 }
+setTimeout
+(
+failure
+5000
+)
+;
+return
+failure
 ;
 }
 function

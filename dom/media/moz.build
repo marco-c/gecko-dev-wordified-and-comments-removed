@@ -251,6 +251,11 @@ IdpProxy
 .
 jsm
 '
+'
+PeerConnectionIdp
+.
+jsm
+'
 ]
 if
 CONFIG

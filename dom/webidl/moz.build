@@ -1420,6 +1420,11 @@ RTCIceCandidate
 webidl
 '
 '
+RTCIdentityAssertion
+.
+webidl
+'
+'
 RTCPeerConnection
 .
 webidl
@@ -2890,6 +2895,11 @@ webidl
 '
 '
 RTCPeerConnectionIceEvent
+.
+webidl
+'
+'
+RTCPeerConnectionIdentityEvent
 .
 webidl
 '
