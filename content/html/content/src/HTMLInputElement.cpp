@@ -13267,6 +13267,11 @@ GetPrimaryFrame
 )
 )
 ;
+GetValueInternal
+(
+mFocusedValue
+)
+;
 SetValueOfRangeForUserEvent
 (
 rangeFrame
@@ -13877,6 +13882,10 @@ NS_FOCUS_CONTENT
 MayFireChangeOnBlur
 (
 )
+&
+&
+!
+mIsDraggingRange
 )
 {
 GetValueInternal
