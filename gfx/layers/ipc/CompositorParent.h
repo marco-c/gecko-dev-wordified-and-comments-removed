@@ -606,10 +606,6 @@ LayerManagerComposite
 *
 mLayerManager
 ;
-PCompositorParent
-*
-mCrossProcessParent
-;
 TargetConfig
 mTargetConfig
 ;
