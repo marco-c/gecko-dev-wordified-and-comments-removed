@@ -44,8 +44,6 @@ TextureClientX11
 :
 public
 TextureClient
-public
-TextureClientSurface
 {
 public
 :
@@ -67,18 +65,6 @@ TextureClientX11
 (
 )
 ;
-virtual
-TextureClientSurface
-*
-AsTextureClientSurface
-(
-)
-MOZ_OVERRIDE
-{
-return
-this
-;
-}
 virtual
 bool
 IsAllocated
