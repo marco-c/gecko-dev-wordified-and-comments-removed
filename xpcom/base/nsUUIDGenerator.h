@@ -83,7 +83,7 @@ XP_MACOSX
 !
 defined
 (
-HAVE_ARC4RANDOM
+ANDROID
 )
 char
 mState
