@@ -890,7 +890,7 @@ ppUnk
 *
 ppUnk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1695,7 +1695,7 @@ ppUnk
 *
 ppUnk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2051,7 +2051,7 @@ ppUnk
 *
 ppUnk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2303,7 +2303,7 @@ ppUnk
 *
 ppUnk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3013,7 +3013,7 @@ ppUnk
 *
 ppUnk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3933,7 +3933,7 @@ ppUnk
 *
 ppUnk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4086,7 +4086,7 @@ hr
 )
 mStore
 =
-NULL
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -4289,7 +4289,7 @@ get
 ;
 mStore
 =
-NULL
+nullptr
 ;
 mContextBase
 =
@@ -4554,7 +4554,7 @@ ppUnk
 *
 ppUnk
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6047,7 +6047,7 @@ Release
 threadMgr
 )
 =
-NULL
+nullptr
 ;
 }
 else
@@ -6116,7 +6116,7 @@ Release
 catMgr
 )
 =
-NULL
+nullptr
 ;
 }
 ITfDisplayAttributeMgr
@@ -6161,7 +6161,7 @@ Release
 daMgr
 )
 =
-NULL
+nullptr
 ;
 }
 mMgr
@@ -11396,8 +11396,8 @@ insertString1
 Length
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 &
 textChange
 )
@@ -12574,7 +12574,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 WM_USER_TSF_TEXTCHANGE
 WM_USER_TSF_TEXTCHANGE
 PM_REMOVE
@@ -12649,7 +12649,7 @@ PeekMessageW
 (
 &
 msg
-NULL
+nullptr
 WM_USER_TSF_TEXTCHANGE
 WM_USER_TSF_TEXTCHANGE
 PM_REMOVE

@@ -528,7 +528,7 @@ NS_FAILED
 (
 NS_ProcessPendingEvents
 (
-NULL
+nullptr
 )
 )
 )
@@ -1004,7 +1004,7 @@ sWindowUtils
 ;
 sWindowUtils
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1091,7 +1091,7 @@ return
 }
 KillTimer
 (
-NULL
+nullptr
 idEvent
 )
 ;
@@ -1195,7 +1195,7 @@ timerId
 =
 SetTimer
 (
-NULL
+nullptr
 0
 1000
 (
@@ -1275,7 +1275,7 @@ EventListener
 :
 sWindowUtils
 =
-NULL
+nullptr
 ;
 nsIAppShell
 *
@@ -1284,7 +1284,7 @@ EventListener
 :
 sAppShell
 =
-NULL
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -1756,7 +1756,7 @@ uri
 about
 :
 "
-NULL
+nullptr
 )
 )
 )
@@ -1799,7 +1799,7 @@ appService
 >
 CreateTopLevelWindow
 (
-NULL
+nullptr
 uri
 flags
 100

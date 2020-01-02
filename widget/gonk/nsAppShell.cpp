@@ -419,7 +419,7 @@ nsAppShell
 *
 gAppShell
 =
-NULL
+nullptr
 ;
 static
 int
@@ -618,7 +618,7 @@ event
 (
 true
 msg
-NULL
+nullptr
 WidgetMouseEvent
 :
 :
@@ -874,7 +874,7 @@ event
 (
 true
 msg
-NULL
+nullptr
 )
 ;
 event
@@ -976,7 +976,7 @@ event
 (
 true
 msg
-NULL
+nullptr
 )
 ;
 event
@@ -1762,7 +1762,7 @@ inputDeviceDescriptor
 )
 {
 return
-NULL
+nullptr
 ;
 }
 ;
@@ -3229,7 +3229,7 @@ result
 }
 gAppShell
 =
-NULL
+nullptr
 ;
 }
 nsresult

@@ -293,7 +293,7 @@ PRLogModuleInfo
 *
 sRemoteLm
 =
-NULL
+nullptr
 ;
 static
 int
@@ -1671,8 +1671,8 @@ mDisplay
 1
 &
 select_set
-NULL
-NULL
+nullptr
+nullptr
 &
 delay
 )

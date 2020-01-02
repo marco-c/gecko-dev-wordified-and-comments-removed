@@ -401,7 +401,7 @@ SUCCEEDED
 :
 OleSetClipboard
 (
-NULL
+nullptr
 )
 )
 NS_ERROR_FAILURE
