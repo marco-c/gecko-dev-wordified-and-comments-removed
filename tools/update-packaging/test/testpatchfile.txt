@@ -37,7 +37,7 @@ product
 .
 lang
 .
-platform
+mac
 .
 complete
 .

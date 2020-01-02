@@ -4,6 +4,11 @@ txt
 removed2
 .
 bin
+recursivedir
+/
+meh
+/
+*
 removed3
 -
 foo

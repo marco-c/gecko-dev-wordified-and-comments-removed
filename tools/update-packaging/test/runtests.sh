@@ -25,6 +25,9 @@ testpatchfile
 txt
 echo
 "
+"
+echo
+"
 diffing
 ref
 .
@@ -45,6 +48,10 @@ mar
 test
 .
 mar
+test
+echo
+"
+"
 echo
 "
 diffing
@@ -75,3 +82,6 @@ test
 mac
 .
 mar
+test
+-
+mac
