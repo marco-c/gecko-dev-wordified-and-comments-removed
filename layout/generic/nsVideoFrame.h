@@ -405,7 +405,7 @@ HasVideoData
 (
 )
 ;
-nsresult
+void
 UpdatePosterSource
 (
 bool
