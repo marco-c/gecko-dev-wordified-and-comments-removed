@@ -388,6 +388,12 @@ ImageURL
 aURI
 )
 ;
+nsresult
+GetImageErrorCode
+(
+void
+)
+;
 private
 :
 friend
@@ -691,6 +697,9 @@ mInnerWindowId
 ;
 int32_t
 mCORSMode
+;
+nsresult
+mImageErrorCode
 ;
 bool
 mDecodeRequested
