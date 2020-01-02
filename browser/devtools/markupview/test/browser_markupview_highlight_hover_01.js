@@ -84,7 +84,9 @@ view
 yield
 hoverContainer
 (
+"
 p
+"
 inspector
 )
 ;
@@ -124,7 +126,9 @@ view
 yield
 clickContainer
 (
+"
 p
+"
 inspector
 )
 ;

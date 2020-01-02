@@ -516,6 +516,16 @@ this
 _boxModelHighlighter
 )
 {
+if
+(
+supportXULBasedHighlighter
+(
+this
+.
+_tabActor
+)
+)
+{
 this
 .
 _boxModelHighlighter
@@ -544,6 +554,7 @@ this
 _highlighterHidden
 )
 ;
+}
 this
 .
 _boxModelHighlighter

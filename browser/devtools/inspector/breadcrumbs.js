@@ -3133,6 +3133,12 @@ child
 if
 (
 child
+&
+&
+!
+this
+.
+isDestroyed
 )
 {
 this
