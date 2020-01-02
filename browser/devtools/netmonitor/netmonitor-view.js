@@ -1176,7 +1176,6 @@ menu
 contents
 "
 )
-false
 )
 ;
 this

@@ -2560,13 +2560,6 @@ callstack
 list
 "
 )
-{
-theme
-:
-"
-light
-"
-}
 )
 ;
 this
