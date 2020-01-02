@@ -308,6 +308,15 @@ AndroidBridge
 :
 sBridge
 ;
+pthread_t
+AndroidBridge
+:
+:
+sJavaUiThread
+=
+-
+1
+;
 static
 unsigned
 sJavaEnvThreadIndex
