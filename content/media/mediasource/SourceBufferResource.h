@@ -371,6 +371,14 @@ uint32_t
 aResourceOffset
 )
 {
+MOZ_ASSERT
+(
+aOffset
+>
+=
+mOffset
+)
+;
 uint64_t
 offset
 =
