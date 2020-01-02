@@ -2446,6 +2446,10 @@ NODE_IS_IN_SHADOW_TREE
 )
 )
 {
+ClearSubtreeRootPointer
+(
+)
+;
 SetFlags
 (
 NODE_IS_IN_SHADOW_TREE
@@ -2554,6 +2558,14 @@ NODE_DESCENDANTS_NEED_FRAMES
 ;
 }
 else
+if
+(
+!
+HasFlag
+(
+NODE_IS_IN_SHADOW_TREE
+)
+)
 {
 SetSubtreeRootPointer
 (
@@ -2649,8 +2661,6 @@ UnsetFlags
 NS_CREATE_FRAME_IF_NON_WHITESPACE
 |
 NS_REFRAME_IF_WHITESPACE
-|
-NODE_IS_IN_SHADOW_TREE
 )
 ;
 nsIDocument
@@ -2714,6 +2724,11 @@ false
 }
 ClearInDocument
 (
+)
+;
+UnsetFlags
+(
+NODE_IS_IN_SHADOW_TREE
 )
 ;
 SetSubtreeRootPointer

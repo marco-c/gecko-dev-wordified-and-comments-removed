@@ -36291,7 +36291,7 @@ NS_ENSURE_TRUE
 aContent
 -
 >
-GetDocument
+GetCrossShadowCurrentDoc
 (
 )
 NS_ERROR_FAILURE

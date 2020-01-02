@@ -21461,7 +21461,7 @@ doc
 startParent
 -
 >
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;

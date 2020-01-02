@@ -3853,7 +3853,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetCrossShadowCurrentDoc
 (
 )
 ;
@@ -5712,6 +5712,10 @@ NODE_IS_IN_SHADOW_TREE
 )
 )
 {
+ClearSubtreeRootPointer
+(
+)
+;
 SetFlags
 (
 NODE_IS_IN_SHADOW_TREE
@@ -5862,6 +5866,14 @@ IsElementInStyleScope
 ;
 }
 else
+if
+(
+!
+HasFlag
+(
+NODE_IS_IN_SHADOW_TREE
+)
+)
 {
 SetSubtreeRootPointer
 (
@@ -6442,6 +6454,11 @@ ClearInDocument
 (
 )
 ;
+UnsetFlags
+(
+NODE_IS_IN_SHADOW_TREE
+)
+;
 SetSubtreeRootPointer
 (
 aNullParent
@@ -6578,8 +6595,6 @@ animationsProperty
 UnsetFlags
 (
 NODE_FORCE_XBL_BINDINGS
-|
-NODE_IS_IN_SHADOW_TREE
 )
 ;
 #
