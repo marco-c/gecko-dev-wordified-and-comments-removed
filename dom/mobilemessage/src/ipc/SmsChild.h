@@ -225,6 +225,17 @@ aMessage
 MOZ_OVERRIDE
 ;
 virtual
+bool
+RecvNotifyDeletedMessageInfo
+(
+const
+DeletedMessageInfoData
+&
+aDeletedInfo
+)
+MOZ_OVERRIDE
+;
+virtual
 PSmsRequestChild
 *
 AllocPSmsRequestChild

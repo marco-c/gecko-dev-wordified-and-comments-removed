@@ -127,6 +127,17 @@ read
 error
 "
 ;
+const
+char
+*
+kSmsDeletedObserverTopic
+=
+"
+sms
+-
+deleted
+"
+;
 }
 }
 }
