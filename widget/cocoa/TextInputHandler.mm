@@ -6428,7 +6428,7 @@ isDvorakQWERTY
 )
 )
 {
-nsAlternativeCharCode
+AlternativeCharCode
 altCharCodes
 (
 unshiftedChar
@@ -7004,7 +7004,7 @@ isDvorakQWERTY
 )
 )
 {
-nsAlternativeCharCode
+AlternativeCharCode
 altCharCodes
 (
 cmdedChar
@@ -7113,7 +7113,7 @@ hasCmdShiftOnlyChar
 originalCmdedShiftChar
 )
 {
-nsAlternativeCharCode
+AlternativeCharCode
 altCharCodes
 (
 0

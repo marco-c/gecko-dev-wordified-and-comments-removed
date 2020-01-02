@@ -1528,13 +1528,6 @@ typedef
 mozilla
 :
 :
-AlternativeCharCode
-nsAlternativeCharCode
-;
-typedef
-mozilla
-:
-:
 WidgetKeyboardEvent
 nsKeyEvent
 ;
