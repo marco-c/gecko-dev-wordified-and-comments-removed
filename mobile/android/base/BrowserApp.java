@@ -38,6 +38,13 @@ java
 .
 util
 .
+List
+;
+import
+java
+.
+util
+.
 Locale
 ;
 import
@@ -14822,9 +14829,10 @@ public
 void
 onNewTabs
 (
+List
+<
 String
-[
-]
+>
 urls
 )
 {

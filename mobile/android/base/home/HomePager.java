@@ -400,9 +400,10 @@ public
 void
 onNewTabs
 (
+List
+<
 String
-[
-]
+>
 urls
 )
 ;
