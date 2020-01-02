@@ -1924,6 +1924,13 @@ disabled
 )
 GK_ATOM
 (
+disablehistory
+"
+disablehistory
+"
+)
+GK_ATOM
+(
 display
 "
 display
