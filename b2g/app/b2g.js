@@ -353,7 +353,7 @@ expose
 .
 rtsp
 "
-false
+true
 )
 ;
 pref
