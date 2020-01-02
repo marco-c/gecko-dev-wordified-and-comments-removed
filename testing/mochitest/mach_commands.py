@@ -605,7 +605,7 @@ mochitest
         
 self
 .
-lib_dir
+bin_dir
 =
 os
 .
@@ -620,7 +620,7 @@ topobjdir
 dist
 '
 '
-lib
+bin
 '
 )
     
@@ -1965,7 +1965,7 @@ dmdPath
 =
 self
 .
-lib_dir
+bin_dir
         
 options
 .
