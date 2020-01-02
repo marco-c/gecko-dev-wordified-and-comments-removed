@@ -9078,6 +9078,11 @@ iconsize
 "
 small
 "
+customizable
+=
+"
+true
+"
 >
 <
 hbox
