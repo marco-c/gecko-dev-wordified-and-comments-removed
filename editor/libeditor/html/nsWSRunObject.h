@@ -762,13 +762,13 @@ WSFragment
 {
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mStartNode
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mEndNode
 ;
