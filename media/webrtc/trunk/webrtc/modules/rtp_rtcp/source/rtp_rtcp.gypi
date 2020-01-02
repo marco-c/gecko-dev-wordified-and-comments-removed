@@ -554,6 +554,16 @@ video_codec_information
 h
 '
 '
+rtp_format_h264
+.
+cc
+'
+'
+rtp_format_h264
+.
+h
+'
+'
 rtp_format_vp8
 .
 cc
