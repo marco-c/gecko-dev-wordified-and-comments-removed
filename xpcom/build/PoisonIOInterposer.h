@@ -56,13 +56,6 @@ MOZ_END_EXTERN_C
 if
 defined
 (
-MOZ_ENABLE_PROFILER_SPS
-)
-&
-&
-(
-defined
-(
 XP_WIN
 )
 |
@@ -70,7 +63,6 @@ XP_WIN
 defined
 (
 XP_MACOSX
-)
 )
 #
 ifdef
