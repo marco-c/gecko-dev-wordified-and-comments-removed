@@ -32,6 +32,17 @@ mozilla
 /
 dom
 /
+AnimationPlayer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Attr
 .
 h
@@ -12879,7 +12890,7 @@ nsTArray
 <
 nsRefPtr
 <
-ElementAnimation
+AnimationPlayer
 >
 >
 &
@@ -12973,7 +12984,7 @@ animIdx
 +
 )
 {
-ElementAnimation
+AnimationPlayer
 *
 anim
 =

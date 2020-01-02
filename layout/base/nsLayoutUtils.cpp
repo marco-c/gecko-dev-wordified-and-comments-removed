@@ -2339,10 +2339,7 @@ animIdx
 ;
 )
 {
-mozilla
-:
-:
-ElementAnimation
+AnimationPlayer
 *
 anim
 =

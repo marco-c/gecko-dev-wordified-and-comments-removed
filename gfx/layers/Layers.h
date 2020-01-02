@@ -328,6 +328,9 @@ namespace
 mozilla
 {
 class
+ComputedTimingFunction
+;
+class
 FrameLayerBuilder
 ;
 class
@@ -351,13 +354,6 @@ gfx
 {
 class
 DrawTarget
-;
-}
-namespace
-css
-{
-class
-ComputedTimingFunction
 ;
 }
 namespace
@@ -1787,9 +1783,6 @@ InfallibleTArray
 nsAutoPtr
 <
 mozilla
-:
-:
-css
 :
 :
 ComputedTimingFunction

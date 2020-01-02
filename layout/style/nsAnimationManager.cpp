@@ -42,6 +42,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+AnimationPlayer
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -120,6 +131,15 @@ mozilla
 :
 css
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+AnimationPlayer
+;
 void
 nsAnimationManager
 :
@@ -192,7 +212,7 @@ animIdx
 ;
 )
 {
-ElementAnimation
+AnimationPlayer
 *
 anim
 =
@@ -267,7 +287,7 @@ anim
 mLastNotification
 =
 =
-ElementAnimation
+AnimationPlayer
 :
 :
 LAST_NOTIFICATION_NONE
@@ -361,7 +381,7 @@ anim
 mLastNotification
 =
 =
-ElementAnimation
+AnimationPlayer
 :
 :
 LAST_NOTIFICATION_NONE
@@ -430,7 +450,7 @@ anim
 mLastNotification
 !
 =
-ElementAnimation
+AnimationPlayer
 :
 :
 LAST_NOTIFICATION_END
@@ -441,7 +461,7 @@ anim
 >
 mLastNotification
 =
-ElementAnimation
+AnimationPlayer
 :
 :
 LAST_NOTIFICATION_END
@@ -1186,7 +1206,7 @@ newIdx
 ;
 )
 {
-ElementAnimation
+AnimationPlayer
 *
 newAnim
 =
@@ -1197,7 +1217,7 @@ newIdx
 ;
 nsRefPtr
 <
-ElementAnimation
+AnimationPlayer
 >
 oldAnim
 ;
@@ -1223,7 +1243,7 @@ oldIdx
 0
 )
 {
-ElementAnimation
+AnimationPlayer
 *
 a
 =
@@ -1887,7 +1907,7 @@ continue
 }
 nsRefPtr
 <
-ElementAnimation
+AnimationPlayer
 >
 dest
 =
@@ -1897,7 +1917,7 @@ aAnimations
 AppendElement
 (
 new
-ElementAnimation
+AnimationPlayer
 (
 aTimeline
 )
