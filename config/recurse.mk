@@ -1122,6 +1122,14 @@ subtier
 )
 )
 )
+ifndef
+TOPLEVEL_BUILD
+libs
+:
+:
+target
+host
+endif
 endif
 #
 ifdef
