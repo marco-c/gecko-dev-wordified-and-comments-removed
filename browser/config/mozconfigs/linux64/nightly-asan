@@ -24,7 +24,11 @@ optimize
 -
 O2
 -
-g
+gline
+-
+tables
+-
+only
 "
 #
 ASan
