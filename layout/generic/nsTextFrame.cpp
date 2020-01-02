@@ -5789,7 +5789,7 @@ aForFrame
 >
 HasAnyStateBits
 (
-TEXT_IS_IN_SINGLE_CHAR_MI
+NS_FRAME_IS_IN_SINGLE_CHAR_MI
 )
 )
 {
@@ -5798,7 +5798,7 @@ aLineContainer
 >
 AddStateBits
 (
-TEXT_IS_IN_SINGLE_CHAR_MI
+NS_FRAME_IS_IN_SINGLE_CHAR_MI
 )
 ;
 }
@@ -9303,7 +9303,7 @@ GetStateBits
 (
 )
 &
-TEXT_IS_IN_SINGLE_CHAR_MI
+NS_FRAME_IS_IN_SINGLE_CHAR_MI
 )
 {
 textFlags
