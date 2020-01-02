@@ -187,9 +187,6 @@ true
 selectorEditable
 :
 true
-addNewRule
-:
-true
 }
 sayHello
 :
