@@ -802,6 +802,9 @@ return
 0
 ;
 }
+#
+ifdef
+USE_X11
 _XDisplay
 =
 XOpenDisplay
@@ -835,6 +838,8 @@ work
 )
 ;
 }
+#
+endif
 _playWarning
 =
 0
@@ -1028,6 +1033,9 @@ Enter
 )
 ;
 }
+#
+ifdef
+USE_X11
 if
 (
 _XDisplay
@@ -1043,6 +1051,8 @@ _XDisplay
 NULL
 ;
 }
+#
+endif
 _initialized
 =
 false
@@ -8013,6 +8023,9 @@ state
 =
 0
 ;
+#
+ifdef
+USE_X11
 if
 (
 !
@@ -8027,6 +8040,8 @@ _XDisplay
 szKey
 )
 ;
+#
+endif
 for
 (
 i

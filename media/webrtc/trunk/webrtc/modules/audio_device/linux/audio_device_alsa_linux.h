@@ -46,6 +46,9 @@ critical_section_wrapper
 h
 "
 #
+ifdef
+USE_X11
+#
 include
 <
 X11
@@ -54,6 +57,8 @@ Xlib
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -1130,10 +1135,15 @@ _oldKeyState
 32
 ]
 ;
+#
+ifdef
+USE_X11
 Display
 *
 _XDisplay
 ;
+#
+endif
 }
 ;
 }
