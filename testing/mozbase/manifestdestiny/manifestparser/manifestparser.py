@@ -1731,6 +1731,9 @@ ExpressionParser
 (
 text
 values
+strict
+=
+True
 )
 .
 parse
