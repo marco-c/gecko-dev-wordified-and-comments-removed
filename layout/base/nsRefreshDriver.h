@@ -691,6 +691,11 @@ MOZ_OVERRIDE
 bool
 IsWaitingForPaint
 (
+mozilla
+:
+:
+TimeStamp
+aTime
 )
 ;
 NS_IMETHOD_
@@ -1002,7 +1007,7 @@ mInRefresh
 bool
 mWaitingForTransaction
 ;
-uint32_t
+bool
 mSkippedPaints
 ;
 int64_t
@@ -1013,6 +1018,12 @@ mozilla
 :
 TimeStamp
 mMostRecentRefresh
+;
+mozilla
+:
+:
+TimeStamp
+mMostRecentTick
 ;
 ObserverArray
 mObservers
