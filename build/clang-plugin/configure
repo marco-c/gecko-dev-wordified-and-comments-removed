@@ -15,6 +15,10 @@ this
 directory
 srcdir
 =
+(
+dirname
+0
+)
 for
 option
 ;
