@@ -189,6 +189,11 @@ Dict
 jsm
 '
 '
+DirectoryLinksProvider
+.
+jsm
+'
+'
 FileUtils
 .
 jsm
