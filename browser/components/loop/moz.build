@@ -134,6 +134,11 @@ MozLoopAPI
 jsm
 '
 '
+MozLoopPushHandler
+.
+jsm
+'
+'
 MozLoopService
 .
 jsm
