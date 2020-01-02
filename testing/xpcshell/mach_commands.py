@@ -464,6 +464,29 @@ rerun_failures
             
 return
         
+elif
+test_paths
+:
+            
+test_paths
+=
+[
+self
+.
+_wrap_path_argument
+(
+p
+)
+.
+relpath
+(
+)
+for
+p
+in
+test_paths
+]
+        
 if
 test_objects
 :
@@ -501,11 +524,6 @@ flavor
 '
 xpcshell
 '
-cwd
-=
-self
-.
-cwd
 )
 )
         

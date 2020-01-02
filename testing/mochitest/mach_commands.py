@@ -2334,12 +2334,6 @@ test_paths
 flavor
 =
 flavor
-                
-cwd
-=
-context
-.
-cwd
 )
 )
             
