@@ -560,7 +560,7 @@ DecodedStreamData
 (
 )
 ;
-StreamTime
+int64_t
 GetLastOutputTime
 (
 )
@@ -697,7 +697,7 @@ DoNotifyFinished
 (
 )
 ;
-StreamTime
+int64_t
 GetLastOutputTime
 (
 )
@@ -801,7 +801,7 @@ MediaStream
 >
 mStream
 ;
-StreamTime
+int64_t
 mLastOutputTime
 ;
 bool

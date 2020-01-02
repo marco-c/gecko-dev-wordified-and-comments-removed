@@ -1260,7 +1260,7 @@ mInRunningStateMachine
 TimeStamp
 mPlayStartTime
 ;
-StreamTime
+int64_t
 mSyncPointInMediaStream
 ;
 int64_t

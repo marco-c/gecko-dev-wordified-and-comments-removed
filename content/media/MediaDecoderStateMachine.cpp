@@ -6784,7 +6784,7 @@ GetDecodedStream
 (
 )
 ;
-StreamTime
+int64_t
 streamDelta
 =
 stream
@@ -6799,10 +6799,7 @@ mSyncPointInMediaStream
 return
 mSyncPointInDecodedStream
 +
-MediaTimeToMicroseconds
-(
 streamDelta
-)
 ;
 }
 void
