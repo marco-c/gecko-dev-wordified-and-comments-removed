@@ -421,6 +421,11 @@ nsUnicharStreamLoader
 .
 cpp
 '
+'
+StreamingProtocolService
+.
+cpp
+'
 ]
 if
 CONFIG

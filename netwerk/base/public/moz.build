@@ -548,6 +548,16 @@ nsIStreamTransportService
 idl
 '
 '
+nsIStreamingProtocolController
+.
+idl
+'
+'
+nsIStreamingProtocolService
+.
+idl
+'
+'
 nsISyncStreamListener
 .
 idl

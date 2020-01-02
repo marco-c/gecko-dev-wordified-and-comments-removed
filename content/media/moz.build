@@ -470,6 +470,11 @@ MediaStreamGraph
 h
 '
 '
+RtspMediaResource
+.
+h
+'
+'
 SharedBuffer
 .
 h
@@ -685,6 +690,11 @@ cpp
 '
 '
 MediaStreamTrack
+.
+cpp
+'
+'
+RtspMediaResource
 .
 cpp
 '

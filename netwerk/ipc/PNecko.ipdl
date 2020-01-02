@@ -166,6 +166,10 @@ bug
 #
 792908
 include
+protocol
+PRtspController
+;
+include
 URIParams
 ;
 include
@@ -293,6 +297,9 @@ PTCPServerSocket
 manages
 PRemoteOpenFile
 ;
+manages
+PRtspController
+;
 parent
 :
 __delete__
@@ -370,6 +377,10 @@ uint16_t
 flags
 nsresult
 reason
+)
+;
+PRtspController
+(
 )
 ;
 both
