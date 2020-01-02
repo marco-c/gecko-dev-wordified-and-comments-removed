@@ -1320,6 +1320,11 @@ NSPR_CFLAGS
 NSS_CFLAGS
 )
 '
+'
+(
+MOZ_PIXMAN_CFLAGS
+)
+'
 ]
 #
 #

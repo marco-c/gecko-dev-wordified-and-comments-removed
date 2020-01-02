@@ -75,9 +75,6 @@ CXXFLAGS
 (
 MOZ_CAIRO_CFLAGS
 )
-(
-MOZ_PIXMAN_CFLAGS
-)
 install
 -
 readme
