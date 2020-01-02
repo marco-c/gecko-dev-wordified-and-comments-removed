@@ -114,6 +114,16 @@ return
 rv
 ;
 }
+void
+Skip
+(
+)
+{
+virtualDestroyNSSReference
+(
+)
+;
+}
 protected
 :
 CryptoTask
