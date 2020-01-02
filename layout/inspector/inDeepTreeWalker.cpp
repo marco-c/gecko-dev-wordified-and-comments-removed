@@ -123,7 +123,6 @@ NS_IMPL_ISUPPORTS
 (
 inDeepTreeWalker
 inIDeepTreeWalker
-nsIDOMTreeWalker
 )
 NS_IMETHODIMP
 inDeepTreeWalker
