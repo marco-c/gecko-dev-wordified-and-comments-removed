@@ -1372,6 +1372,9 @@ FindThread
 (
 )
 {
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 if
 (
 sTlsKey
@@ -1472,6 +1475,8 @@ thread
 ;
 }
 }
+#
+endif
 return
 nullptr
 ;
@@ -1484,6 +1489,9 @@ Startup
 (
 )
 {
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 MOZ_ASSERT
 (
 !
@@ -1521,6 +1529,8 @@ BackgroundHangManager
 (
 )
 ;
+#
+endif
 }
 void
 BackgroundHangMonitor
@@ -1530,6 +1540,9 @@ Shutdown
 (
 )
 {
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 MOZ_ASSERT
 (
 BackgroundHangManager
@@ -1566,6 +1579,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 }
 BackgroundHangMonitor
 :
@@ -1592,6 +1607,9 @@ FindThread
 )
 )
 {
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 if
 (
 !
@@ -1609,6 +1627,8 @@ aMaxTimeoutMs
 )
 ;
 }
+#
+endif
 }
 BackgroundHangMonitor
 :
@@ -1627,6 +1647,9 @@ FindThread
 )
 )
 {
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 MOZ_ASSERT
 (
 mThread
@@ -1640,6 +1663,8 @@ monitoring
 "
 )
 ;
+#
+endif
 }
 BackgroundHangMonitor
 :
@@ -1658,6 +1683,9 @@ NotifyActivity
 (
 )
 {
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 mThread
 -
 >
@@ -1665,6 +1693,8 @@ NotifyActivity
 (
 )
 ;
+#
+endif
 }
 void
 BackgroundHangMonitor
@@ -1674,6 +1704,9 @@ NotifyWait
 (
 )
 {
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 mThread
 -
 >
@@ -1681,6 +1714,8 @@ NotifyWait
 (
 )
 ;
+#
+endif
 }
 BackgroundHangMonitor
 :

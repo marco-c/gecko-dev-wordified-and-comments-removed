@@ -11117,6 +11117,9 @@ threadIndex
 =
 0
 ;
+#
+ifdef
+MOZ_ENABLE_BACKGROUND_HANG_MONITOR
 BackgroundHangMonitor
 :
 :
@@ -11183,6 +11186,8 @@ NS_ERROR_FAILURE
 ;
 }
 }
+#
+endif
 MutexAutoLock
 autoLock
 (
