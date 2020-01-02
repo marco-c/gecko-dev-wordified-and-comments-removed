@@ -375,6 +375,7 @@ context
 [
 Unforgeable
 Throws
+CrossOriginReadable
 ]
 readonly
 attribute
@@ -384,6 +385,7 @@ window
 [
 Replaceable
 Throws
+CrossOriginReadable
 ]
 readonly
 attribute
@@ -414,6 +416,8 @@ PutForwards
 href
 Unforgeable
 Throws
+CrossOriginReadable
+CrossOriginWritable
 ]
 readonly
 attribute
@@ -492,6 +496,7 @@ status
 ;
 [
 Throws
+CrossOriginCallable
 ]
 void
 close
@@ -500,6 +505,7 @@ close
 ;
 [
 Throws
+CrossOriginReadable
 ]
 readonly
 attribute
@@ -516,6 +522,7 @@ stop
 ;
 [
 Throws
+CrossOriginCallable
 ]
 void
 focus
@@ -524,6 +531,7 @@ focus
 ;
 [
 Throws
+CrossOriginCallable
 ]
 void
 blur
@@ -538,6 +546,7 @@ contexts
 [
 Replaceable
 Throws
+CrossOriginReadable
 ]
 readonly
 attribute
@@ -546,6 +555,7 @@ frames
 ;
 [
 Replaceable
+CrossOriginReadable
 ]
 readonly
 attribute
@@ -556,6 +566,7 @@ length
 [
 Unforgeable
 Throws
+CrossOriginReadable
 ]
 readonly
 attribute
@@ -564,6 +575,7 @@ top
 ;
 [
 Throws
+CrossOriginReadable
 ]
 attribute
 WindowProxy
@@ -583,6 +595,7 @@ parent
 [
 Replaceable
 Throws
+CrossOriginReadable
 ]
 readonly
 attribute
@@ -834,6 +847,7 @@ options
 ;
 [
 Throws
+CrossOriginCallable
 ]
 void
 postMessage
