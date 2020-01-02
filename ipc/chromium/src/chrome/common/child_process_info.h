@@ -368,6 +368,7 @@ pid_
 1
 ;
 }
+explicit
 ChildProcessInfo
 (
 ProcessType

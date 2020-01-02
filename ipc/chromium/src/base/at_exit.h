@@ -35,6 +35,7 @@ AtExitManager
 {
 protected
 :
+explicit
 AtExitManager
 (
 bool

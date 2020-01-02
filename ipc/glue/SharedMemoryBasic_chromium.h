@@ -53,6 +53,7 @@ SharedMemoryBasic
 )
 {
 }
+explicit
 SharedMemoryBasic
 (
 const

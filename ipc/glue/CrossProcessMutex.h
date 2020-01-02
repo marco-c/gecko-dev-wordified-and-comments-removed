@@ -115,6 +115,7 @@ CrossProcessMutex
 {
 public
 :
+explicit
 CrossProcessMutex
 (
 const
@@ -123,6 +124,7 @@ char
 aName
 )
 ;
+explicit
 CrossProcessMutex
 (
 CrossProcessMutexHandle

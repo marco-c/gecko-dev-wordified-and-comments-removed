@@ -66,6 +66,7 @@ mFileDescriptor
 ;
 public
 :
+explicit
 CloseFileRunnable
 (
 const
