@@ -4,6 +4,13 @@ js_SliceBudget_h
 #
 define
 js_SliceBudget_h
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 js
 {
