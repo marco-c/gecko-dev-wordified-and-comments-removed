@@ -11662,13 +11662,6 @@ Intersect
 areaToFill
 )
 ;
-ctx
--
->
-NewPath
-(
-)
-;
 gfxPoint
 snappedFillRectTopLeft
 =
@@ -11779,6 +11772,13 @@ transform
 )
 ;
 }
+ctx
+-
+>
+NewPath
+(
+)
+;
 ctx
 -
 >
