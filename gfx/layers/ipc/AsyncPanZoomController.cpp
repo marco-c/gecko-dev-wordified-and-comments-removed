@@ -4002,9 +4002,6 @@ GetGeckoContentController
 if
 (
 controller
-&
-&
-mAllowZoom
 )
 {
 int32_t
