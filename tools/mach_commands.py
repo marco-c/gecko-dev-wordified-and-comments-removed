@@ -2781,9 +2781,24 @@ help
 '
 ]
         
+plat
+=
+platform
+.
+system
+(
+)
+        
 fmt
 =
+plat
+.
+lower
+(
+)
++
 "
+/
 clang
 -
 format
@@ -2806,20 +2821,6 @@ diff
 .
 5
 "
-        
-self
-.
-prompt
-=
-1
-        
-plat
-=
-platform
-.
-system
-(
-)
         
 if
 plat
@@ -2853,12 +2854,21 @@ uname
 ]
             
 if
+(
 plat
 !
 =
 "
 Linux
 "
+and
+plat
+!
+=
+"
+Darwin
+"
+)
 or
 arch
 !
@@ -2892,8 +2902,11 @@ are
 Windows
 /
 *
-and
 Linux
+/
+x86_64
+and
+Darwin
 /
 x86_64
 "
@@ -2910,6 +2923,12 @@ self
 .
 topsrcdir
 )
+        
+self
+.
+prompt
+=
+True
         
 try
 :
@@ -3132,7 +3151,14 @@ self
 _mach_context
 .
 state_dir
+os
+.
+path
+.
+basename
+(
 root
+)
 )
         
 if
@@ -3150,7 +3176,7 @@ target
 site
 =
 "
-http
+https
 :
 /
 /
@@ -3224,7 +3250,7 @@ self
 .
 prompt
 =
-0
+False
             
 u
 =
