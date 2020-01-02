@@ -314,14 +314,6 @@ actionbar
 this
 )
 ;
-}
-Override
-public
-void
-onFinishInflate
-(
-)
-{
 mTitleView
 =
 (
