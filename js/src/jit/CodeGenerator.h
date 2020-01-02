@@ -593,6 +593,14 @@ lir
 )
 ;
 bool
+visitGuardObjectIdentity
+(
+LGuardObjectIdentity
+*
+guard
+)
+;
+bool
 visitTypeBarrierV
 (
 LTypeBarrierV

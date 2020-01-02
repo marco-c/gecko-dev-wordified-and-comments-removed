@@ -985,6 +985,10 @@ GuardObjectType
 )
 SAFE_OP
 (
+GuardObjectIdentity
+)
+SAFE_OP
+(
 GuardClass
 )
 SAFE_OP

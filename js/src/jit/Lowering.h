@@ -1383,6 +1383,14 @@ ins
 )
 ;
 bool
+visitGuardObjectIdentity
+(
+MGuardObjectIdentity
+*
+ins
+)
+;
+bool
 visitGuardClass
 (
 MGuardClass

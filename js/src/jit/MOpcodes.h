@@ -579,6 +579,11 @@ GuardObjectType
 \
 _
 (
+GuardObjectIdentity
+)
+\
+_
+(
 GuardClass
 )
 \
