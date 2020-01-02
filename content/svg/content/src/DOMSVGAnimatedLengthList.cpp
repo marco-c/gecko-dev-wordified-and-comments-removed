@@ -124,7 +124,6 @@ SVGAnimatedLengthListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

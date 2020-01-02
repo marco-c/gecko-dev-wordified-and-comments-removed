@@ -521,7 +521,6 @@ PositionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -710,7 +709,6 @@ CoordinatesBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -217,7 +217,6 @@ PeriodicWaveBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

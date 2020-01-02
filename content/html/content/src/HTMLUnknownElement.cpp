@@ -72,7 +72,6 @@ HTMLUnknownElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

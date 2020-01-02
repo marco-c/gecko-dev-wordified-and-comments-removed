@@ -1401,7 +1401,6 @@ DOMTokenListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

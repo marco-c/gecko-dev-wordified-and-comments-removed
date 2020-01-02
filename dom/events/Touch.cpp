@@ -579,7 +579,6 @@ TouchBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

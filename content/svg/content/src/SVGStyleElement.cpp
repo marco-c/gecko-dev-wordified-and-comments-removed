@@ -76,7 +76,6 @@ SVGStyleElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

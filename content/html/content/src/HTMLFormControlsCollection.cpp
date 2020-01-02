@@ -1531,7 +1531,6 @@ HTMLFormControlsCollectionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

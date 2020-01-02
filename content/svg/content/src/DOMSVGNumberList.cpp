@@ -254,7 +254,6 @@ SVGNumberListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

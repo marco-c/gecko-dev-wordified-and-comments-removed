@@ -72,7 +72,6 @@ SVGFETileElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

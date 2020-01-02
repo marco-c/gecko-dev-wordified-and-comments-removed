@@ -379,7 +379,6 @@ TouchEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

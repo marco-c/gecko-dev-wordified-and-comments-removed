@@ -132,7 +132,6 @@ DOMImplementationBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

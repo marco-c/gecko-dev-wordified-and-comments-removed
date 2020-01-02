@@ -50,7 +50,6 @@ AudioStreamTrackBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

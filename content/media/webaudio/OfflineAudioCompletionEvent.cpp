@@ -109,7 +109,6 @@ OfflineAudioCompletionEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

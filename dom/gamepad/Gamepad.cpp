@@ -572,7 +572,6 @@ GamepadBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

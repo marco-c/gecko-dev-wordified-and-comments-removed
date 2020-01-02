@@ -125,7 +125,6 @@ WheelEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

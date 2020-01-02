@@ -222,7 +222,6 @@ TextTrackCueListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

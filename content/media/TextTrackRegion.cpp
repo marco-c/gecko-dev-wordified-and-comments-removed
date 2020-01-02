@@ -77,7 +77,6 @@ VTTRegionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

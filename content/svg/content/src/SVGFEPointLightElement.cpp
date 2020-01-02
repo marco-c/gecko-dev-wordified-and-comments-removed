@@ -72,7 +72,6 @@ SVGFEPointLightElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -79,7 +79,6 @@ SVGFESpecularLightingElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

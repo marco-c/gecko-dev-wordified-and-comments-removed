@@ -280,7 +280,6 @@ DocumentTypeBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

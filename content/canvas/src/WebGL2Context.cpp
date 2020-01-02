@@ -168,7 +168,6 @@ WebGL2RenderingContextBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

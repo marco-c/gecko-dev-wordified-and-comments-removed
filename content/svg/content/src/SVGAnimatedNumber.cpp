@@ -77,7 +77,6 @@ SVGAnimatedNumberBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

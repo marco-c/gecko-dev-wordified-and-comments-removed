@@ -77,7 +77,6 @@ SVGAnimatedIntegerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

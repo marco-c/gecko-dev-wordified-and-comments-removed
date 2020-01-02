@@ -242,7 +242,6 @@ CSSPrimitiveValueBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

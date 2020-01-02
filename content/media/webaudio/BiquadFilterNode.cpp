@@ -1227,7 +1227,6 @@ BiquadFilterNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -608,7 +608,6 @@ XPathEvaluatorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

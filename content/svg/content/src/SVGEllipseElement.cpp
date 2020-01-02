@@ -94,7 +94,6 @@ SVGEllipseElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

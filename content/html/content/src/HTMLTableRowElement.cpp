@@ -115,7 +115,6 @@ HTMLTableRowElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

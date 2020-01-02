@@ -416,7 +416,6 @@ SVGPointBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

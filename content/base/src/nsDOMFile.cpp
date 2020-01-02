@@ -3196,7 +3196,6 @@ FileListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

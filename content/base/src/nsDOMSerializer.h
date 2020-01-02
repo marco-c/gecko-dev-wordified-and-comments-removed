@@ -206,7 +206,6 @@ XMLSerializerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -139,7 +139,6 @@ SpeechGrammarListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

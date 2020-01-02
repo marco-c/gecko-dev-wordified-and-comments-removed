@@ -264,7 +264,6 @@ DOMStringMapBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

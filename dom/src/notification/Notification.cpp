@@ -3373,7 +3373,6 @@ NotificationBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

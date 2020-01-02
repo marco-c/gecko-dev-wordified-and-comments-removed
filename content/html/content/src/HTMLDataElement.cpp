@@ -93,7 +93,6 @@ HTMLDataElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

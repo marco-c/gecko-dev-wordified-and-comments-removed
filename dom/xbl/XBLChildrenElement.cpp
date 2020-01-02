@@ -939,7 +939,6 @@ NodeListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

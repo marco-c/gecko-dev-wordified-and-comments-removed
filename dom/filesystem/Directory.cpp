@@ -284,7 +284,6 @@ DirectoryBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

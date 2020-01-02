@@ -9226,7 +9226,6 @@ HTMLFormElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

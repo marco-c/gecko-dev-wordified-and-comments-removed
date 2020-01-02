@@ -1570,7 +1570,6 @@ sBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

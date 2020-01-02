@@ -133,7 +133,6 @@ SVGMarkerElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

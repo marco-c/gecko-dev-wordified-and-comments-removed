@@ -257,7 +257,6 @@ UndoManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

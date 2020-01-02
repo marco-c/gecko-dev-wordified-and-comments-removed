@@ -478,7 +478,6 @@ ImageDataBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

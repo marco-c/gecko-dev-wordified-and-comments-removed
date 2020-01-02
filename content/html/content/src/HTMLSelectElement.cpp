@@ -7110,7 +7110,6 @@ HTMLSelectElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

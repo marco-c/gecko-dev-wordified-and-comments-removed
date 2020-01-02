@@ -101,7 +101,6 @@ CommandEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

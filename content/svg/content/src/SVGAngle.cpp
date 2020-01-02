@@ -77,7 +77,6 @@ SVGAngleBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

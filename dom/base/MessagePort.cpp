@@ -1741,7 +1741,6 @@ MessagePortBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

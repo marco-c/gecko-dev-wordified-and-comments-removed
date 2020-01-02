@@ -367,7 +367,6 @@ HTMLPropertiesCollectionBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -1594,7 +1593,6 @@ PropertyNodeListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

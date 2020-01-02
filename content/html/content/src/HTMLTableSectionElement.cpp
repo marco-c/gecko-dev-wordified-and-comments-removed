@@ -97,7 +97,6 @@ HTMLTableSectionElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

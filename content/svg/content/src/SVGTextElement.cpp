@@ -58,7 +58,6 @@ SVGTextElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

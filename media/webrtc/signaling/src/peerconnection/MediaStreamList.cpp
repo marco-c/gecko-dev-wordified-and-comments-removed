@@ -181,7 +181,6 @@ MediaStreamListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

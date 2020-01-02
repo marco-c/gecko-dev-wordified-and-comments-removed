@@ -98,7 +98,6 @@ SVGAnimatedTransformListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

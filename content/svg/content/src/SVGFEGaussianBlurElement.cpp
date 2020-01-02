@@ -79,7 +79,6 @@ SVGFEGaussianBlurElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

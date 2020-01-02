@@ -109,7 +109,6 @@ SVGRectElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -72,7 +72,6 @@ SVGPolygonElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

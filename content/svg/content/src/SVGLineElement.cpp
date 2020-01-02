@@ -83,7 +83,6 @@ SVGLineElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -272,7 +272,6 @@ AudioChannelManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

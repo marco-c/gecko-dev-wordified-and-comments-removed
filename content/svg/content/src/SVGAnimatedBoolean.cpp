@@ -70,7 +70,6 @@ SVGAnimatedBooleanBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

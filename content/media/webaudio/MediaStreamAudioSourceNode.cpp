@@ -258,7 +258,6 @@ MediaStreamAudioSourceNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

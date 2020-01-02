@@ -83,7 +83,6 @@ SVGFEColorMatrixElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

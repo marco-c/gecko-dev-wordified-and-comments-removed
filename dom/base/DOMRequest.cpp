@@ -202,7 +202,6 @@ DOMRequestBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -1440,7 +1440,6 @@ HTMLParamElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1466,7 +1465,6 @@ HTMLBaseElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1492,7 +1490,6 @@ HTMLDirectoryElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1530,7 +1527,6 @@ HTMLQuoteElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1556,7 +1552,6 @@ HTMLHeadElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1582,7 +1577,6 @@ HTMLHtmlElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

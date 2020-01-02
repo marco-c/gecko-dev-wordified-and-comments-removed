@@ -2791,7 +2791,6 @@ MediaRecorderBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

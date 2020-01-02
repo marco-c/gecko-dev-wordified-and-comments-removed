@@ -92,7 +92,6 @@ HTMLTableColElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -219,7 +219,6 @@ DOMQuadBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

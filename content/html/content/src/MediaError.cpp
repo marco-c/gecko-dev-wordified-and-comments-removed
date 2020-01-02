@@ -141,7 +141,6 @@ MediaErrorBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

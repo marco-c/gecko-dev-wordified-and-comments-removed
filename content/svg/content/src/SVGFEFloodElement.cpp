@@ -86,7 +86,6 @@ SVGFEFloodElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

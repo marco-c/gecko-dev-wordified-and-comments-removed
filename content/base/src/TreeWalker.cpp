@@ -1640,7 +1640,6 @@ TreeWalkerBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

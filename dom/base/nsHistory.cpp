@@ -274,7 +274,6 @@ HistoryBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

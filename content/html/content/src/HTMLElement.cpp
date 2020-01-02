@@ -234,7 +234,6 @@ HTMLElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

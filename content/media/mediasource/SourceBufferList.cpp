@@ -691,7 +691,6 @@ SourceBufferListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -229,7 +229,6 @@ SVGTransformBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

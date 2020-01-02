@@ -58,7 +58,6 @@ SVGMetadataElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

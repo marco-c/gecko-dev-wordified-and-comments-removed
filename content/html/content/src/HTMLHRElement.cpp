@@ -1456,7 +1456,6 @@ HTMLHRElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

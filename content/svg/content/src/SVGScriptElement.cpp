@@ -79,7 +79,6 @@ SVGScriptElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -404,7 +404,6 @@ SVGPathSegListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

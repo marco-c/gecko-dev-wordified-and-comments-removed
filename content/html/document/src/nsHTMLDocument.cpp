@@ -1075,7 +1075,6 @@ HTMLDocumentBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

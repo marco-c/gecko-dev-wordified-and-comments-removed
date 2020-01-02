@@ -374,7 +374,6 @@ MozCanvasPrintStateBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -593,7 +592,6 @@ HTMLCanvasElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

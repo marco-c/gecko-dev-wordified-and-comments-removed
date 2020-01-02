@@ -90,7 +90,6 @@ SVGCircleElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

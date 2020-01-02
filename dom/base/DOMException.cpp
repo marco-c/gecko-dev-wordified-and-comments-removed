@@ -1883,7 +1883,6 @@ ExceptionBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -2698,7 +2697,6 @@ DOMExceptionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

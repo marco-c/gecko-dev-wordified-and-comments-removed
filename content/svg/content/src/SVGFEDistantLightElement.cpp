@@ -72,7 +72,6 @@ SVGFEDistantLightElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

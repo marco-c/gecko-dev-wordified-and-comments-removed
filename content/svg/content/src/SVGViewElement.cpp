@@ -65,7 +65,6 @@ SVGViewElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

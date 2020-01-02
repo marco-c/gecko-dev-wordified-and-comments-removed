@@ -24135,7 +24135,6 @@ SelectionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

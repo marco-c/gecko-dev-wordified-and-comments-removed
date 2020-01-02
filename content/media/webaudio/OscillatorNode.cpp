@@ -2312,7 +2312,6 @@ OscillatorNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

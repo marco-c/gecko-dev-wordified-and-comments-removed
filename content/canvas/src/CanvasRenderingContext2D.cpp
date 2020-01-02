@@ -2785,7 +2785,6 @@ CanvasRenderingContext2DBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -21629,7 +21628,6 @@ Path2DBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

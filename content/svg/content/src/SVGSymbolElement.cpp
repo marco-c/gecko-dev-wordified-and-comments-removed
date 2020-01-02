@@ -58,7 +58,6 @@ SVGSymbolElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

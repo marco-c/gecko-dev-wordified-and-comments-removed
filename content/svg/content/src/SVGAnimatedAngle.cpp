@@ -77,7 +77,6 @@ SVGAnimatedAngleBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

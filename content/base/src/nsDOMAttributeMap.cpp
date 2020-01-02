@@ -2426,7 +2426,6 @@ MozNamedAttrMapBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

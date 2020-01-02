@@ -765,7 +765,6 @@ ConvolverNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

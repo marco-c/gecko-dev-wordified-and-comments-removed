@@ -129,7 +129,6 @@ TouchListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -7044,7 +7044,6 @@ CSSStyleDeclarationBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

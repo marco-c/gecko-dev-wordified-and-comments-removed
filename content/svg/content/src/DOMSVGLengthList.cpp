@@ -254,7 +254,6 @@ SVGLengthListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

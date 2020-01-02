@@ -132,7 +132,6 @@ HTMLTitleElementBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

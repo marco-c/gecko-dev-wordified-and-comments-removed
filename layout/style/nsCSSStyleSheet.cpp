@@ -2887,7 +2887,6 @@ MediaListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -10296,7 +10295,6 @@ CSSStyleSheetBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

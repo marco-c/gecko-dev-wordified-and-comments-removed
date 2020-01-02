@@ -135,7 +135,6 @@ XMLStylesheetProcessingInstructionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

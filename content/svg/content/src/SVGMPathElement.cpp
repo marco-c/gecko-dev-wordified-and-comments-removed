@@ -110,7 +110,6 @@ SVGMPathElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

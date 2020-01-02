@@ -88,7 +88,6 @@ HTMLTableCaptionElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

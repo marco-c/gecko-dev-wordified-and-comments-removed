@@ -109,7 +109,6 @@ SpeechRecognitionResultBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

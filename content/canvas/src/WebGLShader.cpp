@@ -81,7 +81,6 @@ WebGLShaderBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

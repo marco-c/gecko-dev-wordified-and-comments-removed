@@ -72,7 +72,6 @@ SVGFEMorphologyElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

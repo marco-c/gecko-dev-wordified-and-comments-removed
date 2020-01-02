@@ -215,7 +215,6 @@ WebGLProgramBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

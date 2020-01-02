@@ -233,7 +233,6 @@ HTMLSourceElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

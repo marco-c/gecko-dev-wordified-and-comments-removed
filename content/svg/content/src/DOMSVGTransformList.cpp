@@ -266,7 +266,6 @@ SVGTransformListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

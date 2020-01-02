@@ -81,7 +81,6 @@ CDATASectionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

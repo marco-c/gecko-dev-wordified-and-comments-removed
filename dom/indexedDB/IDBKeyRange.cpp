@@ -716,7 +716,6 @@ IDBKeyRangeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

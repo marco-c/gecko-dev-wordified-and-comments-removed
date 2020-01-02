@@ -97,7 +97,6 @@ BeforeUnloadEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

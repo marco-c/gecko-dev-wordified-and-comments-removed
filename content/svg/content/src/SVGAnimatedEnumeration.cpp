@@ -77,7 +77,6 @@ SVGAnimatedEnumerationBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

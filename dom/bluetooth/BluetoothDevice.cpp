@@ -1260,7 +1260,6 @@ BluetoothDeviceBinding
 Wrap
 (
 aContext
-aScope
 this
 )
 ;

@@ -178,7 +178,6 @@ ScrollAreaEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

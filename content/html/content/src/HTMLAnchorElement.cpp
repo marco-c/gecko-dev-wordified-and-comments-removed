@@ -263,7 +263,6 @@ HTMLAnchorElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -1213,7 +1213,6 @@ XMLHttpRequestUploadBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -153,7 +153,6 @@ SpeechGrammarBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

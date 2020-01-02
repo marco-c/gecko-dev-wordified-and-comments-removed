@@ -1215,7 +1215,6 @@ BluetoothManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

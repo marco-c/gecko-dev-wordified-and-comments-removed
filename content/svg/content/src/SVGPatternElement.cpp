@@ -92,7 +92,6 @@ SVGPatternElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -244,7 +244,6 @@ MutationRecordBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1674,7 +1673,6 @@ MutationObserverBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

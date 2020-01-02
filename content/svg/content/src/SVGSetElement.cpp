@@ -58,7 +58,6 @@ SVGSetElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

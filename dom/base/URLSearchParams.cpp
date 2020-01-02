@@ -98,7 +98,6 @@ URLSearchParamsBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

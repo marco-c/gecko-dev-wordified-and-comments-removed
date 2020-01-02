@@ -823,7 +823,6 @@ PromiseBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

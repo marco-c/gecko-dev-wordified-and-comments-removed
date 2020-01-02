@@ -358,7 +358,6 @@ DOMParserBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

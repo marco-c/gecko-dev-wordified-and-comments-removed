@@ -1878,7 +1878,6 @@ ScriptProcessorNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

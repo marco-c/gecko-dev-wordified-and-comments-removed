@@ -426,7 +426,6 @@ OfflineResourceListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

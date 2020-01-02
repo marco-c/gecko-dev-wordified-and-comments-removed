@@ -1133,7 +1133,6 @@ DesktopNotificationBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1247,7 +1246,6 @@ DesktopNotificationCenterBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

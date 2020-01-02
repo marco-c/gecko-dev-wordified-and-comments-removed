@@ -104,7 +104,6 @@ PaintRequestBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -254,7 +253,6 @@ PaintRequestListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

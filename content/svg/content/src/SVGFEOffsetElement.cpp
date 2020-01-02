@@ -72,7 +72,6 @@ SVGFEOffsetElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

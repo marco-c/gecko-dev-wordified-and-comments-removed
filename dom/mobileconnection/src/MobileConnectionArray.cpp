@@ -319,7 +319,6 @@ MozMobileConnectionArrayBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

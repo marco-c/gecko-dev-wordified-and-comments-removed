@@ -88,7 +88,6 @@ FocusEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

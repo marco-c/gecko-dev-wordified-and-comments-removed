@@ -79,7 +79,6 @@ SVGFEDisplacementMapElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

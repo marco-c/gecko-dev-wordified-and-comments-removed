@@ -306,7 +306,6 @@ HTMLTemplateElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

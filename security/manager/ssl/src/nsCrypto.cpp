@@ -10934,7 +10934,6 @@ CRMFObjectBinding
 Wrap
 (
 aCx
-aScope
 this
 aTookOwnership
 )

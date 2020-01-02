@@ -343,7 +343,6 @@ NetworkInformationBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

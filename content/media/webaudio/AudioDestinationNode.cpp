@@ -1573,7 +1573,6 @@ AudioDestinationNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

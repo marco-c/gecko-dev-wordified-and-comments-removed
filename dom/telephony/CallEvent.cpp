@@ -128,7 +128,6 @@ CallEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

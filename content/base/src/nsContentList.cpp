@@ -552,7 +552,6 @@ NodeListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -1044,7 +1043,6 @@ NodeListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -1077,7 +1075,6 @@ HTMLCollectionBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;
@@ -1801,7 +1798,6 @@ HTMLCollectionBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

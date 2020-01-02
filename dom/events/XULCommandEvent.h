@@ -97,7 +97,6 @@ XULCommandEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

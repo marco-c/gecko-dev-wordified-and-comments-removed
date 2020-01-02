@@ -114,7 +114,6 @@ ElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

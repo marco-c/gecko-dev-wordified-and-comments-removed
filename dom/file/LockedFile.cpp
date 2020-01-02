@@ -1554,7 +1554,6 @@ LockedFileBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

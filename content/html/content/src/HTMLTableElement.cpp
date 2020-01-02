@@ -300,7 +300,6 @@ HTMLCollectionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
@@ -1157,7 +1156,6 @@ HTMLTableElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

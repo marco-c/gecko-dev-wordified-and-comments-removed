@@ -154,7 +154,6 @@ SVGPathElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

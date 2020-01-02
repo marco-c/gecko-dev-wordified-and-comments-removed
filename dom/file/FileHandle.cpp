@@ -504,7 +504,6 @@ FileHandleBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

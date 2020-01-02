@@ -58,7 +58,6 @@ SVGAnimateMotionElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

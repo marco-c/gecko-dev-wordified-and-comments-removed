@@ -279,7 +279,6 @@ TextTrackListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

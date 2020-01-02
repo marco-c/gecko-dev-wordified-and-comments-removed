@@ -95,7 +95,6 @@ HTMLLabelElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

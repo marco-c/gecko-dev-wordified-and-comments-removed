@@ -319,7 +319,6 @@ SVGStringListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

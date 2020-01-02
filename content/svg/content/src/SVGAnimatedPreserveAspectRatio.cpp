@@ -122,7 +122,6 @@ SVGAnimatedPreserveAspectRatioBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

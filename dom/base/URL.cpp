@@ -199,7 +199,6 @@ URLBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

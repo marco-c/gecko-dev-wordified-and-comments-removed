@@ -127,7 +127,6 @@ CSSValueListBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

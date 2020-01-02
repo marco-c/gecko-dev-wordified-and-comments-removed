@@ -104,7 +104,6 @@ DataContainerEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

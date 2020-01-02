@@ -136,7 +136,6 @@ SVGImageElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

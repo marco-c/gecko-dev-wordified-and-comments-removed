@@ -189,7 +189,6 @@ TelephonyCallGroupBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

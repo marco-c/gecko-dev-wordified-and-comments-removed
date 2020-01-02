@@ -77,7 +77,6 @@ GamepadButtonBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

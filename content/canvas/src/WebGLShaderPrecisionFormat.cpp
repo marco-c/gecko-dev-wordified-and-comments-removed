@@ -58,7 +58,6 @@ WebGLShaderPrecisionFormatBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

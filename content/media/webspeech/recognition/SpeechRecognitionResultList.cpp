@@ -135,7 +135,6 @@ SpeechRecognitionResultListBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

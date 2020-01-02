@@ -328,7 +328,6 @@ ValidityStateBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

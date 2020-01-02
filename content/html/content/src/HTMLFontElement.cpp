@@ -91,7 +91,6 @@ HTMLFontElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

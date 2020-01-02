@@ -3990,7 +3990,6 @@ IDBIndexBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

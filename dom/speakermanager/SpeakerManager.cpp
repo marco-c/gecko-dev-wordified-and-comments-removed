@@ -772,7 +772,6 @@ MozSpeakerManagerBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

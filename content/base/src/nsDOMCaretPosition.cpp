@@ -251,7 +251,6 @@ CaretPositionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

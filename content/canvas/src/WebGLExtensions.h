@@ -176,7 +176,6 @@ Binding
 Wrap
 (
 cx
-scope
 this
 )
 ;

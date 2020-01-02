@@ -72,7 +72,6 @@ WebGLVertexArrayBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

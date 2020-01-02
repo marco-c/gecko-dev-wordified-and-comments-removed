@@ -248,7 +248,6 @@ HTMLParagraphElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

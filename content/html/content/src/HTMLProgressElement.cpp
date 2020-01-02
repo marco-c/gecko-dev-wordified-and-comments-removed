@@ -466,7 +466,6 @@ HTMLProgressElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

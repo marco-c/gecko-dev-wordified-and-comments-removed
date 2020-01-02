@@ -245,7 +245,6 @@ MessageEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

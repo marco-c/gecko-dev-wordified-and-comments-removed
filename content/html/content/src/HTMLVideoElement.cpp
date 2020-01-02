@@ -1083,7 +1083,6 @@ HTMLVideoElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

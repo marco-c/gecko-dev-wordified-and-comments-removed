@@ -759,7 +759,6 @@ HTMLOutputElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

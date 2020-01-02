@@ -142,7 +142,6 @@ BarPropBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

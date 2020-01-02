@@ -72,7 +72,6 @@ SVGFEDropShadowElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

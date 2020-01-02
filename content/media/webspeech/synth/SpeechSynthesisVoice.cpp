@@ -117,7 +117,6 @@ SpeechSynthesisVoiceBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

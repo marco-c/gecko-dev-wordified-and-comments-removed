@@ -76,7 +76,6 @@ SVGFEMergeElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

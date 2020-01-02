@@ -2316,7 +2316,6 @@ FileReaderBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

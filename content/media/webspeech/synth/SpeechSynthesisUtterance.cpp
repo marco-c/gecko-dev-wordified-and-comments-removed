@@ -175,7 +175,6 @@ SpeechSynthesisUtteranceBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

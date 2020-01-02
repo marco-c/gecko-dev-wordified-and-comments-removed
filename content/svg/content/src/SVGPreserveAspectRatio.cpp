@@ -128,7 +128,6 @@ SVGPreserveAspectRatioBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

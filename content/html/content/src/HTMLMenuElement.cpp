@@ -1063,7 +1063,6 @@ HTMLMenuElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -806,7 +806,6 @@ FMRadioBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

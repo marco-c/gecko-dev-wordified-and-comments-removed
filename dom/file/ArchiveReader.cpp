@@ -307,7 +307,6 @@ ArchiveReaderBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -198,7 +198,6 @@ WebGLRenderbufferBinding
 Wrap
 (
 cx
-scope
 this
 )
 ;

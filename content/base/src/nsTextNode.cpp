@@ -366,7 +366,6 @@ TextBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -86,7 +86,6 @@ SVGFEConvolveMatrixElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

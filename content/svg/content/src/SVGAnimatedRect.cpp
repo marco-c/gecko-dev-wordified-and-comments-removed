@@ -174,7 +174,6 @@ SVGAnimatedRectBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

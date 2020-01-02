@@ -58,7 +58,6 @@ SVGTitleElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -339,7 +339,6 @@ HTMLPreElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

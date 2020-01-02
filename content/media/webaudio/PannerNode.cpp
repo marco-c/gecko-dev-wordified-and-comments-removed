@@ -1265,7 +1265,6 @@ PannerNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

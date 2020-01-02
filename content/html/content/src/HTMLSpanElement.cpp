@@ -99,7 +99,6 @@ HTMLSpanElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

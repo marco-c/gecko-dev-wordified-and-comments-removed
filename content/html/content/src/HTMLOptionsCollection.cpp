@@ -428,7 +428,6 @@ HTMLOptionsCollectionBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

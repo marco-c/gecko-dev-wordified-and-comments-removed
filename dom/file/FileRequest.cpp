@@ -486,7 +486,6 @@ FileRequestBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

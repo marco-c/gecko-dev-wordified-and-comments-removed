@@ -334,7 +334,6 @@ HTMLFrameElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

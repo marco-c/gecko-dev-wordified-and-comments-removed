@@ -88,7 +88,6 @@ SVGFilterElementBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

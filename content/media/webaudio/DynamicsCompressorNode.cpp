@@ -942,7 +942,6 @@ DynamicsCompressorNodeBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

@@ -101,7 +101,6 @@ MouseEventBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;

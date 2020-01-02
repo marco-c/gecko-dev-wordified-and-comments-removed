@@ -275,7 +275,6 @@ CameraCapabilitiesBinding
 Wrap
 (
 aCx
-aScope
 this
 )
 ;
