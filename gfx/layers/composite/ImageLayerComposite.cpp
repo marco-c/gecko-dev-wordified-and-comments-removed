@@ -609,7 +609,7 @@ GetDeprecatedTextureHost
 mImageHost
 -
 >
-GetTextureHost
+GetAsTextureHost
 (
 )
 )
@@ -621,14 +621,14 @@ size
 mImageHost
 -
 >
-GetTextureHost
+GetAsTextureHost
 (
 )
 ?
 mImageHost
 -
 >
-GetTextureHost
+GetAsTextureHost
 (
 )
 -

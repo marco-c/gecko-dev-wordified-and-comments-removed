@@ -586,7 +586,7 @@ nullptr
 virtual
 TextureHost
 *
-GetTextureHost
+GetAsTextureHost
 (
 )
 {

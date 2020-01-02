@@ -267,7 +267,7 @@ MOZ_OVERRIDE
 virtual
 TextureHost
 *
-GetTextureHost
+GetAsTextureHost
 (
 )
 MOZ_OVERRIDE
