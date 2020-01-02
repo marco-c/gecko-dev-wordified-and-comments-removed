@@ -46,8 +46,6 @@ public
 TextureClient
 public
 TextureClientSurface
-public
-TextureClientDrawTarget
 {
 public
 :
@@ -72,17 +70,6 @@ TextureClientX11
 TextureClientSurface
 *
 AsTextureClientSurface
-(
-)
-MOZ_OVERRIDE
-{
-return
-this
-;
-}
-TextureClientDrawTarget
-*
-AsTextureClientDrawTarget
 (
 )
 MOZ_OVERRIDE
