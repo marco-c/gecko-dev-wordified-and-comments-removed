@@ -682,11 +682,8 @@ nsTArrayToJSArray
 (
 cx
 mUuids
+&
 uuids
-.
-address
-(
-)
 )
 )
 )
@@ -791,11 +788,8 @@ nsTArrayToJSArray
 (
 cx
 mServices
+&
 services
-.
-address
-(
-)
 )
 )
 )
