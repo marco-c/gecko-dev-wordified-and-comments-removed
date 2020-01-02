@@ -1882,6 +1882,8 @@ HOST_COBJS
 addprefix
 host_
 (
+notdir
+(
 HOST_CSRCS
 :
 .
@@ -1890,6 +1892,7 @@ c
 .
 (
 OBJ_SUFFIX
+)
 )
 )
 )
@@ -1913,6 +1916,8 @@ HOST_CPPOBJS
 addprefix
 host_
 (
+notdir
+(
 addsuffix
 .
 (
@@ -1926,11 +1931,14 @@ HOST_CPPSRCS
 )
 )
 )
+)
 HOST_CMOBJS
 =
 (
 addprefix
 host_
+(
+notdir
 (
 HOST_CMSRCS
 :
@@ -1943,11 +1951,14 @@ OBJ_SUFFIX
 )
 )
 )
+)
 HOST_CMMOBJS
 =
 (
 addprefix
 host_
+(
+notdir
 (
 HOST_CMMSRCS
 :
@@ -1957,6 +1968,7 @@ mm
 .
 (
 OBJ_SUFFIX
+)
 )
 )
 )
@@ -6875,6 +6887,7 @@ define
 src_objdep
 (
 basename
+2
 (
 notdir
 1
@@ -6943,13 +6956,13 @@ HOST_CMMSRCS
 )
 (
 eval
-host_
 (
 call
 src_objdep
 (
 f
 )
+host_
 )
 )
 )
