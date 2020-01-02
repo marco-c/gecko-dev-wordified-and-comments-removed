@@ -23,6 +23,8 @@ onFaviconLoaded
 (
 String
 url
+String
+faviconURL
 Bitmap
 favicon
 )
