@@ -221,6 +221,13 @@ variable
 or
 -
 property
+:
+not
+(
+[
+overridden
+]
+)
 [
 changed
 ]
