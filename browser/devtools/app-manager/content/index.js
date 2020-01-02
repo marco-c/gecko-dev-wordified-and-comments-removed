@@ -698,13 +698,6 @@ newSelection
 {
 newSelection
 .
-scrollIntoView
-(
-false
-)
-;
-newSelection
-.
 setAttribute
 (
 "
