@@ -101,6 +101,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -4732,6 +4739,10 @@ NS_LogInit
 (
 )
 {
+NS_SetMainThread
+(
+)
+;
 #
 ifdef
 STACKWALKING_AVAILABLE
