@@ -66,11 +66,6 @@ XPIDL_MODULE
 '
 necko_rtsp
 '
-MODULE
-=
-'
-necko
-'
 EXPORTS
 .
 mozilla

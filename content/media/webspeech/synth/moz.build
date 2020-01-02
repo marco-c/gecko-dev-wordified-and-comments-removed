@@ -69,11 +69,6 @@ MOZ_WEBSPEECH
 '
 ]
 :
-MODULE
-=
-'
-content
-'
 TEST_DIRS
 +
 =

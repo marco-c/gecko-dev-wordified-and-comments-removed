@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-dom
-'
 GENERATED_WEBIDL_FILES
 =
 [

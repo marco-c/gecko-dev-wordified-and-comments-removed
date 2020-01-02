@@ -198,8 +198,3 @@ TEST_TOOL_DIRS
 tests
 '
 ]
-MODULE
-=
-'
-gfx
-'

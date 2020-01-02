@@ -98,11 +98,6 @@ XPIDL_MODULE
 '
 content_webrtc
 '
-MODULE
-=
-'
-content
-'
 EXPORTS
 +
 =

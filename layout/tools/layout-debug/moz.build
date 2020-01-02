@@ -112,8 +112,3 @@ TEST_DIRS
 tests
 '
 ]
-MODULE
-=
-'
-layout_debug
-'

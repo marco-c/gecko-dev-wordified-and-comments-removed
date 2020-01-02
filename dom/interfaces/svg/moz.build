@@ -118,8 +118,3 @@ XPIDL_MODULE
 '
 dom_svg
 '
-MODULE
-=
-'
-dom
-'

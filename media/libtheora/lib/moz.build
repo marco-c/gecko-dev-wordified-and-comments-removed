@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-theora
-'
 LIBRARY_NAME
 =
 '

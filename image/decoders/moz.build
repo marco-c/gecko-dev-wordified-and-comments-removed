@@ -261,11 +261,6 @@ android
 icon
 '
 ]
-MODULE
-=
-'
-imgdecoders
-'
 SOURCES
 +
 =

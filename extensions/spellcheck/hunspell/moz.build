@@ -101,11 +101,6 @@ DIRS
 src
 '
 ]
-MODULE
-=
-'
-hunspell
-'
 if
 CONFIG
 [

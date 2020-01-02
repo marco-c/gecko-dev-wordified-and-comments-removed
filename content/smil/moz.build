@@ -101,11 +101,6 @@ TEST_TOOL_DIRS
 test
 '
 ]
-MODULE
-=
-'
-content
-'
 EXPORTS
 +
 =

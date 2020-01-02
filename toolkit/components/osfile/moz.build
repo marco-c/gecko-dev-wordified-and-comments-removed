@@ -109,11 +109,6 @@ TEST_DIRS
 tests
 '
 ]
-MODULE
-=
-'
-osfile
-'
 EXTRA_PP_JS_MODULES
 +
 =

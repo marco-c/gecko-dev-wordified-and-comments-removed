@@ -145,8 +145,3 @@ TOOL_DIRS
 tools
 '
 ]
-MODULE
-=
-'
-xpconnect
-'

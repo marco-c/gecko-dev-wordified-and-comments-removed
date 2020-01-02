@@ -126,8 +126,3 @@ TEST_DIRS
 test
 '
 ]
-MODULE
-=
-'
-imglib2
-'

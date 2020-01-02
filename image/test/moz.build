@@ -104,11 +104,6 @@ mochitest
 browser
 '
 ]
-MODULE
-=
-'
-test_libpr0n
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

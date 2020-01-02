@@ -93,13 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_url
--
-classifier
-'
 MOCHITEST_MANIFESTS
 +
 =

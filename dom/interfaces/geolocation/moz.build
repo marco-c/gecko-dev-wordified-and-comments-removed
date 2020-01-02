@@ -133,8 +133,3 @@ XPIDL_MODULE
 '
 dom_geolocation
 '
-MODULE
-=
-'
-dom
-'

@@ -118,11 +118,6 @@ XPIDL_MODULE
 '
 dom_voicemail
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 .
 mozilla

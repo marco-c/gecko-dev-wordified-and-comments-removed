@@ -107,11 +107,6 @@ navigation
 browser
 '
 ]
-MODULE
-=
-'
-test_docshell
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

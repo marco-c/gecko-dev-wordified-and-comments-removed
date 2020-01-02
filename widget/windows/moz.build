@@ -117,11 +117,6 @@ TEST_DIRS
 tests
 '
 ]
-MODULE
-=
-'
-widget
-'
 EXPORTS
 +
 =

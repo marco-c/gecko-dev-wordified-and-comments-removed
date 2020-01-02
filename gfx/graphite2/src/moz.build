@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-graphite2
-'
 if
 CONFIG
 [

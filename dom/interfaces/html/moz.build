@@ -398,8 +398,3 @@ XPIDL_MODULE
 '
 dom_html
 '
-MODULE
-=
-'
-dom
-'

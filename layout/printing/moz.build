@@ -118,11 +118,6 @@ XPIDL_MODULE
 '
 layout_printing
 '
-MODULE
-=
-'
-layout
-'
 UNIFIED_SOURCES
 +
 =

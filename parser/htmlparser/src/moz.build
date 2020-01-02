@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-htmlparser
-'
 UNIFIED_SOURCES
 +
 =

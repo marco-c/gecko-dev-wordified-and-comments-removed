@@ -145,11 +145,6 @@ DIRS
 unix
 '
 ]
-MODULE
-=
-'
-locale
-'
 EXPORTS
 +
 =

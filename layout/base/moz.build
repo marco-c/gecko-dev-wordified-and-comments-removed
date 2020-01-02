@@ -157,11 +157,6 @@ XPIDL_MODULE
 '
 layout_base
 '
-MODULE
-=
-'
-layout
-'
 EXPORTS
 +
 =

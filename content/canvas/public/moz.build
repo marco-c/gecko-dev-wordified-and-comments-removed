@@ -108,11 +108,6 @@ XPIDL_MODULE
 '
 content_canvas
 '
-MODULE
-=
-'
-content
-'
 EXPORTS
 +
 =

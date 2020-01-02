@@ -203,8 +203,3 @@ XPIDL_MODULE
 '
 dom_xul
 '
-MODULE
-=
-'
-dom
-'

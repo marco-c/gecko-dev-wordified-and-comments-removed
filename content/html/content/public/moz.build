@@ -123,11 +123,6 @@ XPIDL_MODULE
 '
 content_html
 '
-MODULE
-=
-'
-content
-'
 EXPORTS
 +
 =

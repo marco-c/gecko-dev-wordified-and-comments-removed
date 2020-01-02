@@ -318,8 +318,3 @@ XPIDL_MODULE
 '
 dom_events
 '
-MODULE
-=
-'
-dom
-'

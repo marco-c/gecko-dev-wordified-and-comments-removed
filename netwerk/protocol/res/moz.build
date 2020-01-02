@@ -108,11 +108,6 @@ XPIDL_MODULE
 '
 necko_res
 '
-MODULE
-=
-'
-necko
-'
 SOURCES
 +
 =

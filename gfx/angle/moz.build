@@ -127,11 +127,6 @@ src
 libEGL
 '
 ]
-MODULE
-=
-'
-angle
-'
 EXPORTS
 .
 angle

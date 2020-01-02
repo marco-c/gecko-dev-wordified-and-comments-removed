@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_permission
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-minidump_file_writer
-'
 SOURCES
 +
 =

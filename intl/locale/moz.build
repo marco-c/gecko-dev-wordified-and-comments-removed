@@ -115,8 +115,3 @@ TEST_DIRS
 tests
 '
 ]
-MODULE
-=
-'
-locale
-'

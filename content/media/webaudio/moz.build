@@ -112,11 +112,6 @@ TEST_TOOL_DIRS
 compiledtest
 '
 ]
-MODULE
-=
-'
-content
-'
 EXPORTS
 +
 =

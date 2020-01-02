@@ -110,11 +110,6 @@ mochitests
 FAIL_ON_WARNINGS
 =
 True
-MODULE
-=
-'
-test_necko
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

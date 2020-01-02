@@ -107,8 +107,3 @@ src
 standalone
 '
 ]
-MODULE
-=
-'
-profdirserviceprovider
-'

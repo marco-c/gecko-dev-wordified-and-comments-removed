@@ -126,11 +126,6 @@ XPIDL_MODULE
 '
 toolkitprofile
 '
-MODULE
-=
-'
-xulapp
-'
 SOURCES
 +
 =

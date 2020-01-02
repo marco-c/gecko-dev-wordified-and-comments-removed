@@ -147,11 +147,6 @@ XPIDL_MODULE
 '
 necko_cookie
 '
-MODULE
-=
-'
-necko
-'
 if
 CONFIG
 [

@@ -223,8 +223,3 @@ XPIDL_MODULE
 '
 dom_css
 '
-MODULE
-=
-'
-dom
-'

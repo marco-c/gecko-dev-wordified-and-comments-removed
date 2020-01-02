@@ -120,13 +120,6 @@ crypto
 -
 component
 '
-MODULE
-=
-'
-services
--
-crypto
-'
 SOURCES
 +
 =

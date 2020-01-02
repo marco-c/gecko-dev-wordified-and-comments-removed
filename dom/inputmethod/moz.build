@@ -108,11 +108,6 @@ XPIDL_MODULE
 '
 dom_inputmethod
 '
-MODULE
-=
-'
-dom
-'
 EXTRA_COMPONENTS
 +
 =

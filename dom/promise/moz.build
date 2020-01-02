@@ -106,11 +106,6 @@ XPIDL_MODULE
 '
 dom_promise
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 .
 mozilla

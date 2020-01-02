@@ -247,11 +247,6 @@ DIRS
 analysis
 '
 ]
-MODULE
-=
-'
-xpcom
-'
 CONFIGURE_DEFINE_FILES
 +
 =

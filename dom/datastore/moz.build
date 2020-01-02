@@ -108,11 +108,6 @@ XPIDL_MODULE
 '
 dom_datastore
 '
-MODULE
-=
-'
-dom
-'
 EXTRA_COMPONENTS
 +
 =

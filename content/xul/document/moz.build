@@ -112,8 +112,3 @@ DIRS
 test
 '
 ]
-MODULE
-=
-'
-xuldoc
-'

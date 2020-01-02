@@ -69,11 +69,6 @@ MOZ_NFC
 '
 ]
 :
-MODULE
-=
-'
-ipc
-'
 EXPORTS
 .
 mozilla

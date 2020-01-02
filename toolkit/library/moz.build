@@ -121,11 +121,6 @@ DIRS
 winvccorlib
 '
 ]
-MODULE
-=
-'
-libxul
-'
 LIBRARY_NAME
 =
 '

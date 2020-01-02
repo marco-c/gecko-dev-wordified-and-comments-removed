@@ -132,11 +132,6 @@ TEST_DIRS
 mochitest
 '
 ]
-MODULE
-=
-'
-test_plugin
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

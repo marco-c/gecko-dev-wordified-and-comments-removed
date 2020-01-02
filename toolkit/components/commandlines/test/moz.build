@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_harness_commandlines
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

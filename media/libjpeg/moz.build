@@ -101,11 +101,6 @@ DIRS
 simd
 '
 ]
-MODULE
-=
-'
-jpeg
-'
 EXPORTS
 +
 =

@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_toolkit_contentprefs
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

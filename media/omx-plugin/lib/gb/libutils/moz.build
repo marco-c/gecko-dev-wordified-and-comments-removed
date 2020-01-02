@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-libandroidutilsgb
-'
 NO_DIST_INSTALL
 =
 True

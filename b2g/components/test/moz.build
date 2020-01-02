@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-B2GComponents
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

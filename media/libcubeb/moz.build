@@ -104,8 +104,3 @@ include
 src
 '
 ]
-MODULE
-=
-'
-cubeb
-'

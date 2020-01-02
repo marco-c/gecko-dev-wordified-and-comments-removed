@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-mozalloc
-'
 NO_VISIBILITY_FLAGS
 =
 True

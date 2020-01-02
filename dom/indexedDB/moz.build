@@ -124,11 +124,6 @@ XPIDL_MODULE
 '
 dom_indexeddb
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 .
 mozilla

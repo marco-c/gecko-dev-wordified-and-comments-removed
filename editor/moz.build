@@ -116,11 +116,6 @@ txmgr
 composer
 '
 ]
-MODULE
-=
-'
-editor
-'
 EXTRA_JS_MODULES
 +
 =

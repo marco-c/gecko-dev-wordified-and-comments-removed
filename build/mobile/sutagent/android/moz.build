@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-sutAgentAndroid
-'
 ANDROID_RESFILES
 =
 [

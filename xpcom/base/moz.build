@@ -246,11 +246,6 @@ XPIDL_MODULE
 '
 xpcom_base
 '
-MODULE
-=
-'
-xpcom
-'
 EXPORTS
 +
 =

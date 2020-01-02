@@ -107,11 +107,6 @@ csp
 websocket_hybi
 '
 ]
-MODULE
-=
-'
-content
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-breakpad_solaris_common
-'
 SOURCES
 +
 =

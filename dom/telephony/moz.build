@@ -108,11 +108,6 @@ XPIDL_MODULE
 '
 dom_telephony
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 .
 mozilla

@@ -329,8 +329,3 @@ XPIDL_MODULE
 '
 dom_base
 '
-MODULE
-=
-'
-dom
-'

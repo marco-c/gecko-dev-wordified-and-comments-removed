@@ -113,8 +113,3 @@ XPIDL_MODULE
 '
 dom_canvas
 '
-MODULE
-=
-'
-dom
-'

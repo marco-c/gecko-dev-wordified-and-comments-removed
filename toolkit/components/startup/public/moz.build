@@ -113,8 +113,3 @@ XPIDL_MODULE
 '
 appstartup
 '
-MODULE
-=
-'
-appcomps
-'

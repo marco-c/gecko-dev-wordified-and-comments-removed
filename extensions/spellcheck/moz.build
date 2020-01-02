@@ -120,8 +120,3 @@ tests
 chrome
 '
 ]
-MODULE
-=
-'
-spellchecker
-'

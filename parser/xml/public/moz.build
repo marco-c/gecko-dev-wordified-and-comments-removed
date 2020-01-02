@@ -153,8 +153,3 @@ XPIDL_MODULE
 '
 saxparser
 '
-MODULE
-=
-'
-xml
-'

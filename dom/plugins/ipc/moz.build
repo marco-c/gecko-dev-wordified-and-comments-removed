@@ -114,11 +114,6 @@ DIRS
 interpose
 '
 ]
-MODULE
-=
-'
-dom
-'
 EXPORTS
 .
 mozilla

@@ -141,11 +141,6 @@ DIRS
 staticruntime
 '
 ]
-MODULE
-=
-'
-xpcom
-'
 include
 (
 '

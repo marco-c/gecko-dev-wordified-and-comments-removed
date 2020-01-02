@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-sqlite3
-'
 NO_VISIBILITY_FLAGS
 =
 True

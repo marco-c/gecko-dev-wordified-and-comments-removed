@@ -108,11 +108,6 @@ XPIDL_MODULE
 '
 xulapp_setup
 '
-MODULE
-=
-'
-xulrunner
-'
 EXTRA_COMPONENTS
 +
 =

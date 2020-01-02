@@ -115,8 +115,3 @@ lib
 cmd
 '
 ]
-MODULE
-=
-'
-tlsserver
-'

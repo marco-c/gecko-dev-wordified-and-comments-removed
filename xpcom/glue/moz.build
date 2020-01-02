@@ -152,11 +152,6 @@ DIRS
 staticruntime
 '
 ]
-MODULE
-=
-'
-xpcom
-'
 EXPORTS
 +
 =

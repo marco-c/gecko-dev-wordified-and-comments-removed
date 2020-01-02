@@ -104,11 +104,6 @@ chrome
 mochitest
 '
 ]
-MODULE
-=
-'
-test_identity
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

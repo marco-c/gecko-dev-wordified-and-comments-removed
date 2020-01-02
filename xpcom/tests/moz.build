@@ -261,11 +261,6 @@ sorted
 SIMPLE_PROGRAMS
 )
 ]
-MODULE
-=
-'
-xpcom
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

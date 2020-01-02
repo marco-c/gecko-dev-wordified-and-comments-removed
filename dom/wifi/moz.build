@@ -123,11 +123,6 @@ XPIDL_MODULE
 '
 dom_wifi
 '
-MODULE
-=
-'
-dom
-'
 EXTRA_COMPONENTS
 +
 =

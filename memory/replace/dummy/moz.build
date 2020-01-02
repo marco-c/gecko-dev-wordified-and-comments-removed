@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-memory
-'
 NO_DIST_INSTALL
 =
 True

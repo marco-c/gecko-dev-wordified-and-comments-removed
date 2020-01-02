@@ -101,11 +101,6 @@ DIRS
 browser
 '
 ]
-MODULE
-=
-'
-test_toolkit_general
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

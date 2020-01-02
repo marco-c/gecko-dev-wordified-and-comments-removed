@@ -113,11 +113,6 @@ XPIDL_MODULE
 '
 xpcom_xpti
 '
-MODULE
-=
-'
-xpcom
-'
 EXPORTS
 +
 =

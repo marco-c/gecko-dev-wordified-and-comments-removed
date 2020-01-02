@@ -121,11 +121,6 @@ XPIDL_MODULE
 '
 necko_wifi
 '
-MODULE
-=
-'
-necko
-'
 UNIFIED_SOURCES
 +
 =

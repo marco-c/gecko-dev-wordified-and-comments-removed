@@ -121,11 +121,6 @@ XPIDL_MODULE
 '
 dom_alarm
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 .
 mozilla

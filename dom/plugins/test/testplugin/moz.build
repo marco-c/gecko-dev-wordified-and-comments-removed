@@ -101,11 +101,6 @@ DIRS
 secondplugin
 '
 ]
-MODULE
-=
-'
-nptest
-'
 LIBRARY_NAME
 =
 '

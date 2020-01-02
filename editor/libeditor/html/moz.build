@@ -101,11 +101,6 @@ TEST_DIRS
 tests
 '
 ]
-MODULE
-=
-'
-editor
-'
 UNIFIED_SOURCES
 +
 =

@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_plugins
-'
 SIMPLE_PROGRAMS
 =
 [

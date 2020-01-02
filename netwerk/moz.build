@@ -212,11 +212,6 @@ TEST_TOOL_DIRS
 test
 '
 ]
-MODULE
-=
-'
-necko
-'
 CONFIGURE_DEFINE_FILES
 +
 =

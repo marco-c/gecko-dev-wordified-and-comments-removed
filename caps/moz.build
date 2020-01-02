@@ -117,8 +117,3 @@ tests
 mochitest
 '
 ]
-MODULE
-=
-'
-caps
-'

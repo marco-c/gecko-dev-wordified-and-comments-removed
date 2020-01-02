@@ -123,11 +123,6 @@ XPIDL_MODULE
 '
 dom_storage
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 +
 =

@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_devtools
-'
 MOCHITEST_CHROME_MANIFESTS
 +
 =

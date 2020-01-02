@@ -101,11 +101,6 @@ TOOL_DIRS
 app
 '
 ]
-MODULE
-=
-'
-ipdlunittest
-'
 LIBRARY_NAME
 =
 '

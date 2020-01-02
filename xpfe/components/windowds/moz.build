@@ -108,11 +108,6 @@ XPIDL_MODULE
 '
 windowds
 '
-MODULE
-=
-'
-appcomps
-'
 SOURCES
 +
 =

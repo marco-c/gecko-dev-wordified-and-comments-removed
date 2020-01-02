@@ -479,11 +479,6 @@ TEST_TOOL_DIRS
 test
 '
 ]
-MODULE
-=
-'
-crashreporter
-'
 EXPORTS
 +
 =

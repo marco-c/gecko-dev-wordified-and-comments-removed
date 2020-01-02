@@ -93,13 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-jsctypes
--
-test
-'
 NO_DIST_INSTALL
 =
 True

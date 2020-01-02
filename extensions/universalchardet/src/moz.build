@@ -104,8 +104,3 @@ base
 xpcom
 '
 ]
-MODULE
-=
-'
-universalchardet
-'

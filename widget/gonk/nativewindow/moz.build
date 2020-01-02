@@ -164,11 +164,6 @@ under
 the
 License
 .
-MODULE
-=
-'
-nativewindow
-'
 EXPORTS
 +
 =

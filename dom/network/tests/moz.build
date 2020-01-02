@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_dom_socket
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

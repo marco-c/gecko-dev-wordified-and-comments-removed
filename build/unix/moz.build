@@ -143,8 +143,3 @@ TEST_DIRS
 test
 '
 ]
-MODULE
-=
-'
-build
-'

@@ -112,11 +112,6 @@ interfaces
 LIBXUL_LIBRARY
 =
 True
-MODULE
-=
-'
-dom
-'
 LIBRARY_NAME
 =
 '

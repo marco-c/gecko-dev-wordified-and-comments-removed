@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_intl_locale
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

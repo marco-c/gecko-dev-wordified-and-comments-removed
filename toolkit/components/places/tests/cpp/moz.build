@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_places
-'
 CPP_UNIT_TESTS
 +
 =

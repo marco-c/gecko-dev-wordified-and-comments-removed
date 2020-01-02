@@ -514,8 +514,3 @@ plugins
 test
 '
 ]
-MODULE
-=
-'
-dom
-'

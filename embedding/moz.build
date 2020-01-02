@@ -115,11 +115,6 @@ TEST_DIRS
 test
 '
 ]
-MODULE
-=
-'
-embed
-'
 if
 CONFIG
 [

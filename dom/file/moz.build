@@ -121,11 +121,6 @@ XPIDL_MODULE
 '
 dom_file
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 +
 =

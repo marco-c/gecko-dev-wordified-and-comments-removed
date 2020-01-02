@@ -131,11 +131,6 @@ XPIDL_MODULE
 '
 commandlines
 '
-MODULE
-=
-'
-toolkitcomps
-'
 SOURCES
 +
 =

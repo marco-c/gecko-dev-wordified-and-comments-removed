@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-android
-'
 LIBRARY_NAME
 =
 '

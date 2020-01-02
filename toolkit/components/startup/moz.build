@@ -111,11 +111,6 @@ tests
 browser
 '
 ]
-MODULE
-=
-'
-toolkitcomps
-'
 EXPORTS
 .
 mozilla

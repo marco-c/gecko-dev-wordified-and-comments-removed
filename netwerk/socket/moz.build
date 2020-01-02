@@ -128,11 +128,6 @@ XPIDL_MODULE
 '
 necko_socket
 '
-MODULE
-=
-'
-necko
-'
 UNIFIED_SOURCES
 +
 =

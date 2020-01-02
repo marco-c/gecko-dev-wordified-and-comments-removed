@@ -112,11 +112,6 @@ gtest
 mochitest
 '
 ]
-MODULE
-=
-'
-pipnss
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

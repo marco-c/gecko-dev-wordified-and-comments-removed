@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-zipwriter
-'
 UNIFIED_SOURCES
 +
 =

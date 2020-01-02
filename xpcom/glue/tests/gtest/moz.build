@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-xpcom_glue_gtest
-'
 SOURCES
 +
 =

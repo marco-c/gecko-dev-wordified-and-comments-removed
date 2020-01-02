@@ -163,11 +163,6 @@ XPIDL_MODULE
 '
 necko_http
 '
-MODULE
-=
-'
-necko
-'
 EXPORTS
 +
 =

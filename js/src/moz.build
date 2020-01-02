@@ -177,11 +177,6 @@ tests
 gdb
 '
 ]
-MODULE
-=
-'
-js
-'
 mfbt_root
 =
 '

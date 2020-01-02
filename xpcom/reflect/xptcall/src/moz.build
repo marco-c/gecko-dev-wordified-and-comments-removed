@@ -101,11 +101,6 @@ DIRS
 md
 '
 ]
-MODULE
-=
-'
-xpcom
-'
 SOURCES
 +
 =

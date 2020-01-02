@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_captivedetect
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

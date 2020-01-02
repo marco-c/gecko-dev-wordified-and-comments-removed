@@ -108,11 +108,6 @@ nsIWebVTTParserWrapper
 idl
 '
 ]
-MODULE
-=
-'
-webvtt
-'
 XPIDL_MODULE
 =
 '

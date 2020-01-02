@@ -110,11 +110,6 @@ htmlparser
 html
 '
 ]
-MODULE
-=
-'
-parser
-'
 EXPORTS
 +
 =

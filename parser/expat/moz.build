@@ -101,11 +101,6 @@ DIRS
 lib
 '
 ]
-MODULE
-=
-'
-expat
-'
 EXPORTS
 +
 =

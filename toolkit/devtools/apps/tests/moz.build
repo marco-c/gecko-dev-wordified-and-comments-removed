@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_webapps_actor
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

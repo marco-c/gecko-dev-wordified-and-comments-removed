@@ -69,11 +69,6 @@ PARALLEL_DIRS
 test
 '
 ]
-MODULE
-=
-'
-content
-'
 EXPORTS
 +
 =

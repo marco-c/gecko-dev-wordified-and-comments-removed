@@ -104,11 +104,6 @@ shared
 mozbuild
 '
 )
-MODULE
-=
-'
-accessibility
-'
 EXPORTS
 +
 =

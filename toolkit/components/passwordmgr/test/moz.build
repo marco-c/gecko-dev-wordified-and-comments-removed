@@ -104,11 +104,6 @@ browser
 auth2
 '
 ]
-MODULE
-=
-'
-test_passwordmgr
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_necko
-'
 MOCHITEST_MANIFESTS
 +
 =

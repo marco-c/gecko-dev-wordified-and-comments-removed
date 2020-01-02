@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-breakpad_dwarf
-'
 if
 CONFIG
 [

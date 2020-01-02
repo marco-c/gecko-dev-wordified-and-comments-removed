@@ -93,11 +93,6 @@ MPL
 0
 /
 .
-MODULE
-=
-'
-test_cookies
-'
 XPCSHELL_TESTS_MANIFESTS
 +
 =

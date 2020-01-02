@@ -101,11 +101,6 @@ TEST_DIRS
 test
 '
 ]
-MODULE
-=
-'
-dom
-'
 #
 Public
 stuff

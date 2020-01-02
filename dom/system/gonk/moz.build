@@ -224,11 +224,6 @@ XPIDL_MODULE
 '
 dom_system_gonk
 '
-MODULE
-=
-'
-dom
-'
 EXPORTS
 +
 =
