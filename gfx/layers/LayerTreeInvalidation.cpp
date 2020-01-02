@@ -1752,6 +1752,12 @@ Layer
 :
 TYPE_CONTAINER
 :
+case
+Layer
+:
+:
+TYPE_REF
+:
 return
 new
 ContainerLayerProperties
