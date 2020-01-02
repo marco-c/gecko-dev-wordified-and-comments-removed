@@ -6255,6 +6255,7 @@ new
 MediaEngineWebRTC
 (
 mCameraManager
+aWindowId
 )
 ;
 #
