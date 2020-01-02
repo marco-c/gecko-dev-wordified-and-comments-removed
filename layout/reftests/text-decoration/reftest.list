@@ -192,7 +192,6 @@ standards
 ref
 .
 html
-fails
 =
 =
 dynamic
@@ -223,9 +222,6 @@ quirks
 ref
 .
 html
-#
-Bug
-750917
 =
 =
 dynamic

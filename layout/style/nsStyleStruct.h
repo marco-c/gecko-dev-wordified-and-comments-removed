@@ -5702,7 +5702,12 @@ MaxDifference
 )
 {
 return
+nsChangeHint
+(
 NS_STYLE_HINT_REFLOW
+|
+nsChangeHint_UpdateSubtreeOverflow
+)
 ;
 }
 static

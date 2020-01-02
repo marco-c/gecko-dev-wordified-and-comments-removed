@@ -481,6 +481,14 @@ nsChangeHint
 aHint
 )
 ;
+void
+AddSubtreeToOverflowTracker
+(
+nsIFrame
+*
+aFrame
+)
+;
 bool
 RecomputePosition
 (
