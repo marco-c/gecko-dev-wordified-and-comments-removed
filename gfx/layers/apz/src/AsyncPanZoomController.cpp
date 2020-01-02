@@ -4505,9 +4505,8 @@ OnTouchEndOrCancel
 (
 )
 ;
-SetState
+CancelAnimation
 (
-NOTHING
 )
 ;
 return
