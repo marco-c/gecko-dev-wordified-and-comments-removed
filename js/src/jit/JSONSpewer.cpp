@@ -1796,7 +1796,7 @@ fp_
 ins
 -
 >
-print
+dump
 (
 fp_
 )

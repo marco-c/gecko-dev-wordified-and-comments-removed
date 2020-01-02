@@ -398,6 +398,12 @@ FILE
 )
 const
 ;
+void
+dump
+(
+)
+const
+;
 private
 :
 Vector

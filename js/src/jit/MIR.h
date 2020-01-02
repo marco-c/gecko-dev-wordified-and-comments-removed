@@ -1268,6 +1268,12 @@ fp
 )
 const
 ;
+void
+dump
+(
+)
+const
+;
 virtual
 bool
 neverHoist

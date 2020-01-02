@@ -612,7 +612,7 @@ id
 ins
 -
 >
-print
+dump
 (
 fp
 )

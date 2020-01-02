@@ -1844,6 +1844,11 @@ fp
 )
 ;
 void
+dump
+(
+)
+;
+void
 updateTrackedPc
 (
 jsbytecode
@@ -2663,6 +2668,11 @@ dump
 FILE
 *
 fp
+)
+;
+void
+dump
+(
 )
 ;
 }
