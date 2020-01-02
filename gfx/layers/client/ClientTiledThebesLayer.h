@@ -266,8 +266,6 @@ aCallbackData
 void
 EndPaint
 (
-bool
-aFinish
 )
 ;
 RefPtr
