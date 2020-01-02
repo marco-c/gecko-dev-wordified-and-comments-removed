@@ -351,6 +351,9 @@ else
 p
 +
 =
+MAX
+(
+0
 snprintf
 (
 p
@@ -375,6 +378,7 @@ i
 .
 codepoint
 )
+)
 ;
 if
 (
@@ -389,6 +393,9 @@ HB_BUFFER_SERIALIZE_FLAG_NO_CLUSTERS
 p
 +
 =
+MAX
+(
+0
 snprintf
 (
 p
@@ -418,6 +425,7 @@ i
 ]
 .
 cluster
+)
 )
 ;
 }
@@ -735,6 +743,9 @@ else
 p
 +
 =
+MAX
+(
+0
 snprintf
 (
 p
@@ -759,6 +770,7 @@ i
 .
 codepoint
 )
+)
 ;
 if
 (
@@ -773,6 +785,9 @@ HB_BUFFER_SERIALIZE_FLAG_NO_CLUSTERS
 p
 +
 =
+MAX
+(
+0
 snprintf
 (
 p
@@ -797,6 +812,7 @@ i
 ]
 .
 cluster
+)
 )
 ;
 }
@@ -830,6 +846,9 @@ y_offset
 p
 +
 =
+MAX
+(
+0
 snprintf
 (
 p
@@ -862,6 +881,7 @@ i
 .
 y_offset
 )
+)
 ;
 *
 p
@@ -875,6 +895,9 @@ p
 p
 +
 =
+MAX
+(
+0
 snprintf
 (
 p
@@ -899,6 +922,7 @@ i
 .
 x_advance
 )
+)
 ;
 if
 (
@@ -910,6 +934,9 @@ y_advance
 p
 +
 =
+MAX
+(
+0
 snprintf
 (
 p
@@ -933,6 +960,7 @@ i
 ]
 .
 y_advance
+)
 )
 ;
 }

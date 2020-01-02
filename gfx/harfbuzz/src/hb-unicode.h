@@ -516,7 +516,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_combining_class_func_t
-combining_class_func
+func
 void
 *
 user_data
@@ -531,7 +531,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_eastasian_width_func_t
-eastasian_width_func
+func
 void
 *
 user_data
@@ -546,7 +546,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_general_category_func_t
-general_category_func
+func
 void
 *
 user_data
@@ -561,7 +561,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_mirroring_func_t
-mirroring_func
+func
 void
 *
 user_data
@@ -576,7 +576,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_script_func_t
-script_func
+func
 void
 *
 user_data
@@ -591,7 +591,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_compose_func_t
-compose_func
+func
 void
 *
 user_data
@@ -606,7 +606,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_decompose_func_t
-decompose_func
+func
 void
 *
 user_data
@@ -621,7 +621,7 @@ hb_unicode_funcs_t
 *
 ufuncs
 hb_unicode_decompose_compatibility_func_t
-decompose_compatibility_func
+func
 void
 *
 user_data

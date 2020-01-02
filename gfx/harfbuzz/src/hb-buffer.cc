@@ -580,7 +580,7 @@ default_props
 ;
 flags
 =
-HB_BUFFER_FLAGS_DEFAULT
+HB_BUFFER_FLAG_DEFAULT
 ;
 content_type
 =
@@ -2369,7 +2369,7 @@ count
 ;
 if
 (
-DEBUG
+DEBUG_ENABLED
 (
 BUFFER
 )
@@ -2470,7 +2470,7 @@ owner
 {
 if
 (
-DEBUG
+DEBUG_ENABLED
 (
 BUFFER
 )
@@ -2593,7 +2593,7 @@ owner
 {
 if
 (
-DEBUG
+DEBUG_ENABLED
 (
 BUFFER
 )
@@ -2784,7 +2784,7 @@ hb_unicode_funcs_t
 _hb_unicode_funcs_nil
 )
 HB_SEGMENT_PROPERTIES_DEFAULT
-HB_BUFFER_FLAGS_DEFAULT
+HB_BUFFER_FLAG_DEFAULT
 HB_BUFFER_CONTENT_TYPE_INVALID
 true
 true
@@ -2957,7 +2957,7 @@ hb_buffer_t
 buffer
 hb_unicode_funcs_t
 *
-unicode
+unicode_funcs
 )
 {
 if
@@ -2975,9 +2975,9 @@ return
 if
 (
 !
-unicode
+unicode_funcs
 )
-unicode
+unicode_funcs
 =
 hb_unicode_funcs_get_default
 (
@@ -2985,7 +2985,7 @@ hb_unicode_funcs_get_default
 ;
 hb_unicode_funcs_reference
 (
-unicode
+unicode_funcs
 )
 ;
 hb_unicode_funcs_destroy
@@ -3001,7 +3001,7 @@ buffer
 >
 unicode
 =
-unicode
+unicode_funcs
 ;
 }
 hb_unicode_funcs_t

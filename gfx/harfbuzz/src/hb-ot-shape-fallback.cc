@@ -1809,8 +1809,13 @@ c
 1
 font
 buffer
+)
+;
+c
+.
+set_lookup_mask
+(
 kern_mask
-true
 )
 ;
 c

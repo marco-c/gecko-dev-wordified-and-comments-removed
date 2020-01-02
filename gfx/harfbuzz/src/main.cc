@@ -1225,7 +1225,7 @@ case
 GDEF
 :
 :
-Tag
+tableTag
 :
 {
 const

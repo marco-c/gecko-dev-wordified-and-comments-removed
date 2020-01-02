@@ -310,6 +310,9 @@ glib
 )
 #
 elif
+0
+&
+&
 defined
 (
 HAVE_ICU
