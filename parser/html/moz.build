@@ -223,11 +223,6 @@ nsHtml5Parser
 h
 '
 '
-nsHtml5PendingNotification
-.
-h
-'
-'
 nsHtml5PlainTextUtils
 .
 h

@@ -1664,13 +1664,6 @@ Length
 (
 )
 ;
-SetAppendBatchCapacity
-(
-numberOfOpsToFlush
-*
-2
-)
-;
 const
 nsHtml5TreeOperation
 *
@@ -2062,13 +2055,6 @@ mOpQueue
 .
 Length
 (
-)
-;
-SetAppendBatchCapacity
-(
-numberOfOpsToFlush
-*
-2
 )
 ;
 const
