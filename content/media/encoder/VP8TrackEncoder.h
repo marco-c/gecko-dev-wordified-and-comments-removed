@@ -169,6 +169,12 @@ uint8_t
 >
 mMuteFrame
 ;
+nsTArray
+<
+uint8_t
+>
+mI420Frame
+;
 VideoSegment
 mSourceSegment
 ;
