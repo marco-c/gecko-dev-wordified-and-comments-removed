@@ -27,13 +27,6 @@ nsISVGSVGFrame
 .
 h
 "
-#
-include
-"
-gfxMatrix
-.
-h
-"
 class
 nsRenderingContext
 ;

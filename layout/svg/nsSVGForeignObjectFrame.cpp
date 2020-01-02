@@ -15,13 +15,6 @@ h
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
