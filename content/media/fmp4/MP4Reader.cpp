@@ -178,6 +178,9 @@ mp4_demuxer
 namespace
 mozilla
 {
+#
+ifdef
+PR_LOGGING
 static
 const
 char
@@ -232,6 +235,8 @@ Unknown
 ;
 }
 }
+#
+endif
 class
 MP4Stream
 :
