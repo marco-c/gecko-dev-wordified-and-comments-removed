@@ -1132,8 +1132,6 @@ digest256
 \
 n
 "
-"
-"
 updateSuccess
 handleError
 handleError
