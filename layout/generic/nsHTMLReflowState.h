@@ -1408,6 +1408,9 @@ static
 nscoord
 CalcLineHeight
 (
+nsIContent
+*
+aContent
 nsStyleContext
 *
 aStyleContext

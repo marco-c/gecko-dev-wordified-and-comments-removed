@@ -24538,6 +24538,12 @@ CalcLineHeight
 aFrame
 -
 >
+GetContent
+(
+)
+aFrame
+-
+>
 StyleContext
 (
 )
