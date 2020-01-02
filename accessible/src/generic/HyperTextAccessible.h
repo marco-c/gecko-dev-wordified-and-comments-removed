@@ -1007,11 +1007,6 @@ nsIFrame
 aEndFrame
 =
 nullptr
-nsIntRect
-*
-aBoundsRect
-=
-nullptr
 Accessible
 *
 *
@@ -1027,7 +1022,7 @@ nullptr
 )
 ;
 nsIntRect
-GetBoundsForString
+GetBoundsInFrame
 (
 nsIFrame
 *
