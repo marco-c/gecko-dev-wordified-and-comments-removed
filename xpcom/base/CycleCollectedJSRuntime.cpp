@@ -1724,15 +1724,6 @@ mJSHolders
 (
 512
 )
-#
-ifdef
-DEBUG
-mObjectToUnlink
-(
-nullptr
-)
-#
-endif
 {
 mJSRuntime
 =
