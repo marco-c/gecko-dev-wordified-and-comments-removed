@@ -18562,6 +18562,11 @@ p
 uint64_t
 originalGcNumber
 =
+zone
+(
+)
+-
+>
 gcNumber
 (
 )
@@ -18745,6 +18750,11 @@ nullptr
 bool
 gcHappened
 =
+zone
+(
+)
+-
+>
 gcNumber
 (
 )

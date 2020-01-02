@@ -514,6 +514,12 @@ JSContext
 cx
 )
 {
+AutoLockForExclusiveAccess
+atomsLock
+(
+cx
+)
+;
 AutoLockForOperationCallback
 lock
 (
@@ -569,12 +575,6 @@ jitRuntime_
 jitRuntime_
 =
 nullptr
-;
-AutoLockForExclusiveAccess
-atomsLock
-(
-cx
-)
 ;
 JSCompartment
 *

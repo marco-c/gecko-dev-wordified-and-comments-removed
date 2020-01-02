@@ -470,7 +470,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromMainThread
+runtimeFromAnyThread
 (
 )
 ;
@@ -622,6 +622,11 @@ isSystem
 ;
 bool
 usedByExclusiveThread
+;
+uint64_t
+gcNumber
+(
+)
 ;
 bool
 scheduledForDestruction

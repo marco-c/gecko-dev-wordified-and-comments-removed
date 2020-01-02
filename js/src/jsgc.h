@@ -2967,6 +2967,14 @@ volatile
 State
 state
 ;
+void
+wait
+(
+PRCondVar
+*
+which
+)
+;
 bool
 sweepFlag
 ;
