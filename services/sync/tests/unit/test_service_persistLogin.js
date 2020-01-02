@@ -85,6 +85,10 @@ run_test
 {
 try
 {
+ensureLegacyIdentityManager
+(
+)
+;
 Services
 .
 logins

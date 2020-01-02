@@ -429,6 +429,10 @@ collectionsHelper
 .
 collections
 ;
+ensureLegacyIdentityManager
+(
+)
+;
 do_test_pending
 (
 )
