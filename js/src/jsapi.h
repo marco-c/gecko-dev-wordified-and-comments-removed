@@ -3355,7 +3355,10 @@ i
 ;
 d
 =
-JS_CANONICALIZE_NAN
+JS
+:
+:
+CanonicalizeNaN
 (
 d
 )
