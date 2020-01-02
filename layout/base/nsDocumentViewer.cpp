@@ -2238,7 +2238,7 @@ mPageZoom
 mPresContext
 -
 >
-SetBaseMinFontSize
+SetMinFontSize
 (
 mMinFontSize
 )
@@ -10567,7 +10567,7 @@ ctxt
 ctxt
 -
 >
-SetBaseMinFontSize
+SetMinFontSize
 (
 NS_PTR_TO_INT32
 (
@@ -10894,7 +10894,7 @@ nullptr
 pc
 -
 >
-SetBaseMinFontSize
+SetMinFontSize
 (
 aMinFontSize
 )
@@ -10948,8 +10948,9 @@ pc
 pc
 -
 >
-BaseMinFontSize
+MinFontSize
 (
+nullptr
 )
 :
 0
