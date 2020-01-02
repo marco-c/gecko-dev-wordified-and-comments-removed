@@ -1087,6 +1087,7 @@ portabledeviceguids
 windowscodecs
 wininet
 wbemuuid
+wintrust
 )
 ifdef
 ACCESSIBILITY

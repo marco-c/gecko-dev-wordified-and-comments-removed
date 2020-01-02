@@ -137,17 +137,6 @@ wintrust
 h
 >
 #
-pragma
-comment
-(
-lib
-"
-wintrust
-.
-lib
-"
-)
-#
 endif
 namespace
 mozilla
