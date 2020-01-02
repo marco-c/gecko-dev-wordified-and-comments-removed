@@ -1055,6 +1055,13 @@ tmp
 }
 TestRunner
 .
+setParameterInfo
+(
+params
+)
+;
+TestRunner
+.
 runTests
 (
 my_tests

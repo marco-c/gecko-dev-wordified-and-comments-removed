@@ -857,6 +857,14 @@ SimpleTest
 ;
 this
 .
+SimpleTest
+.
+harnessParameters
+=
+gConfig
+;
+this
+.
 MemoryStats
 =
 simpleTestScope
