@@ -1877,6 +1877,13 @@ java
 '
 home
 /
+HistoryPanel
+.
+java
+'
+'
+home
+/
 HomeAdapter
 .
 java
@@ -1962,13 +1969,6 @@ java
 home
 /
 LastTabsPanel
-.
-java
-'
-'
-home
-/
-MostRecentPanel
 .
 java
 '
