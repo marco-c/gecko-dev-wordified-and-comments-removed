@@ -94,17 +94,6 @@ mobile
 android
 /
 installer
-fast
--
-package
-:
-(
-MAKE
-)
-package
-MOZ_FAST_PACKAGE
-=
-1
 ifeq
 (
 (
