@@ -1247,7 +1247,7 @@ return
 null
 ;
 }
-private
+public
 File
 getDistributionFile
 (
