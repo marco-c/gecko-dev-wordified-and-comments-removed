@@ -35,6 +35,13 @@ h
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 prinrval
 .
 h

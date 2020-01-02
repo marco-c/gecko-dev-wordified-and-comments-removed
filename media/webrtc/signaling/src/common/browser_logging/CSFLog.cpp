@@ -37,6 +37,13 @@ h
 "
 #
 include
+"
+prtypes
+.
+h
+"
+#
+include
 <
 map
 >
