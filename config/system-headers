@@ -2388,6 +2388,9 @@ h
 link
 .
 h
+#
+ifdef
+ANDROID
 linux
 /
 android_alarm
@@ -2398,6 +2401,8 @@ linux
 ashmem
 .
 h
+#
+endif
 linux
 /
 ioprio
