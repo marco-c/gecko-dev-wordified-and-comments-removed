@@ -199,6 +199,7 @@ lang
 body
 tag
 icon
+alertName
 )
 {
 if
@@ -248,6 +249,19 @@ tag
 icon
 :
 icon
+alertName
+:
+alertName
+timestamp
+:
+new
+Date
+(
+)
+.
+getTime
+(
+)
 }
 ;
 this
