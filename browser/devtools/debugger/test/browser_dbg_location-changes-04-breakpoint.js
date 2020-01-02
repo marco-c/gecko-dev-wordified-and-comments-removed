@@ -706,7 +706,16 @@ gDebugger
 .
 EVENTS
 .
-BREAKPOINT_SHOWN
+BREAKPOINT_SHOWN_IN_EDITOR
+)
+waitForDebuggerEvents
+(
+gPanel
+gDebugger
+.
+EVENTS
+.
+BREAKPOINT_SHOWN_IN_PANE
 )
 ]
 )
