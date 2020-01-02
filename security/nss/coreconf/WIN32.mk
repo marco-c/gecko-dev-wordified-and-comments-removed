@@ -145,8 +145,6 @@ NOLOGO
 -
 OUT
 :
-"
-"
 RANLIB
 =
 echo
@@ -869,8 +867,6 @@ DLLFLAGS
 -
 OUT
 :
-"
-"
 ifdef
 MOZ_DEBUG_SYMBOLS
 ifdef
@@ -1031,8 +1027,6 @@ DEBUG
 -
 OUT
 :
-"
-"
 LDFLAGS
 +
 =
