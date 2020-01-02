@@ -1527,6 +1527,7 @@ _wrap
 (
 detail
 )
+)
 ;
 this
 .
