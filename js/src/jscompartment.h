@@ -603,6 +603,10 @@ isSelfHosting
 bool
 marked
 ;
+JSAddonId
+*
+addonId
+;
 #
 ifdef
 DEBUG
