@@ -141,6 +141,15 @@ mochitest
 ini
 '
 '
+css
+-
+visited
+/
+mochitest
+.
+ini
+'
+'
 mochitest
 .
 ini
