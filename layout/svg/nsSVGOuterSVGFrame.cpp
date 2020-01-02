@@ -3428,7 +3428,7 @@ aFlags
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGOuterSVGFrame
 :
 :

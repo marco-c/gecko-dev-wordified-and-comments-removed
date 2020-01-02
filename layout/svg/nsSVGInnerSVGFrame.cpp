@@ -195,7 +195,7 @@ nsGkAtoms
 svgInnerSVGFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGInnerSVGFrame
 :
 :
@@ -992,11 +992,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 nsSVGInnerSVGFrame
 :
 :

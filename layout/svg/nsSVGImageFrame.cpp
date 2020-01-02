@@ -224,7 +224,8 @@ nsSVGImageFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext
@@ -240,11 +241,9 @@ aTransformRoot
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD_
-(
+virtual
 nsIFrame
 *
-)
 GetFrameForPoint
 (
 const
@@ -1238,7 +1237,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGImageFrame
 :
 :
@@ -1777,11 +1776,8 @@ return
 rv
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 nsSVGImageFrame
 :
 :

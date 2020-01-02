@@ -880,7 +880,7 @@ return
 foundTransform
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSVGForeignObjectFrame
 :
 :
@@ -1326,11 +1326,8 @@ return
 rv
 ;
 }
-NS_IMETHODIMP_
-(
 nsIFrame
 *
-)
 nsSVGForeignObjectFrame
 :
 :
@@ -1585,10 +1582,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP_
-(
 nsRect
-)
 nsSVGForeignObjectFrame
 :
 :

@@ -109,7 +109,8 @@ NS_DECL_QUERYFRAME_TARGET
 (
 nsISVGChildFrame
 )
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext
@@ -128,11 +129,9 @@ nullptr
 =
 0
 ;
-NS_IMETHOD_
-(
+virtual
 nsIFrame
 *
-)
 GetFrameForPoint
 (
 const
@@ -143,10 +142,8 @@ aPoint
 =
 0
 ;
-NS_IMETHOD_
-(
+virtual
 nsRect
-)
 GetCoveredRegion
 (
 )
@@ -215,10 +212,8 @@ aFlags
 =
 0
 ;
-NS_IMETHOD_
-(
+virtual
 bool
-)
 IsDisplayContainer
 (
 )

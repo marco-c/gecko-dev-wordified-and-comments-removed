@@ -392,7 +392,8 @@ aFlags
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+nsresult
 PaintSVG
 (
 nsRenderingContext
