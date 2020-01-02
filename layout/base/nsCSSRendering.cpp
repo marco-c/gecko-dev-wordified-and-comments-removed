@@ -14156,6 +14156,14 @@ value
 break
 ;
 }
+MOZ_ASSERT
+(
+value
+>
+=
+0
+)
+;
 border
 .
 Side
@@ -14163,7 +14171,7 @@ Side
 s
 )
 =
-NS_lround
+NSToCoordRoundWithClamp
 (
 value
 )
