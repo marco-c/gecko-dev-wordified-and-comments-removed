@@ -70,7 +70,7 @@ namespace
 ipc
 {
 class
-UnixSocketConsumerIO
+UnixSocketImpl
 ;
 class
 UnixSocketConnector
@@ -230,9 +230,9 @@ aAddrStr
 ;
 private
 :
-UnixSocketConsumerIO
+UnixSocketImpl
 *
-mIO
+mImpl
 ;
 }
 ;
