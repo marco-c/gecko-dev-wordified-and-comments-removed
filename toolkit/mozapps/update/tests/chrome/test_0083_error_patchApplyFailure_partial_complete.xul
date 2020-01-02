@@ -242,6 +242,9 @@ next
 pageid
 :
 PAGEID_DOWNLOADING
+extraStartFunction
+:
+createContinueFile
 }
 {
 pageid
@@ -252,6 +255,9 @@ buttonClick
 "
 extra1
 "
+extraStartFunction
+:
+removeContinueFile
 }
 ]
 ;
@@ -265,6 +271,10 @@ debugDump
 "
 entering
 "
+)
+;
+removeContinueFile
+(
 )
 ;
 /
