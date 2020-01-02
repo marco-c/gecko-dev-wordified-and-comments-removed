@@ -464,9 +464,7 @@ theme
 ;
 switchTheme
 (
-"
-light
-"
+theme
 )
 ;
 gDevTools
