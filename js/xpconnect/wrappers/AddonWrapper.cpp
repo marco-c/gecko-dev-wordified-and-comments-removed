@@ -1037,6 +1037,7 @@ PermissiveXrayDOM
 template
 <
 >
+const
 AddonWrapperCC
 AddonWrapperCC
 :
@@ -1049,6 +1050,7 @@ singleton
 template
 <
 >
+const
 AddonWrapperXrayXPCWN
 AddonWrapperXrayXPCWN
 :
@@ -1061,6 +1063,7 @@ singleton
 template
 <
 >
+const
 AddonWrapperXrayDOM
 AddonWrapperXrayDOM
 :
