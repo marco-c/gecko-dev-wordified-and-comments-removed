@@ -5416,10 +5416,6 @@ iter
 if
 (
 iter
-.
-activation
-(
-)
 -
 >
 compartment

@@ -1440,10 +1440,6 @@ iter
 if
 (
 iter
-.
-activation
-(
-)
 -
 >
 isInterpreter
@@ -1451,10 +1447,6 @@ isInterpreter
 )
 )
 iter
-.
-activation
-(
-)
 -
 >
 asInterpreter
