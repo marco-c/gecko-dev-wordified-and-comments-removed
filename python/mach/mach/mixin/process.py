@@ -749,11 +749,11 @@ if
 pass_thru
 :
             
-status
+proc
 =
 subprocess
 .
-call
+Popen
 (
 args
 cwd
@@ -763,6 +763,33 @@ env
 =
 use_env
 )
+            
+status
+=
+None
+            
+while
+status
+is
+None
+:
+                
+try
+:
+                    
+status
+=
+proc
+.
+wait
+(
+)
+                
+except
+KeyboardInterrupt
+:
+                    
+pass
         
 else
 :
