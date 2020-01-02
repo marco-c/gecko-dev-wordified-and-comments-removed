@@ -496,10 +496,12 @@ build
 sccache
 .
 mk
-UPLOAD_EXTRA_FILES
-=
+mk_add_options
 "
+export
 UPLOAD_EXTRA_FILES
++
+=
 sccache
 .
 log

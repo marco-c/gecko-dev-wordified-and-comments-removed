@@ -16731,15 +16731,6 @@ ge
 "
 11
 "
--
-a
-"
-CPU_ARCH
-"
-=
-"
-x86
-"
 ;
 then
 dnl
@@ -76948,10 +76939,6 @@ fi
 AC_SUBST
 (
 JS_SHARED_LIBRARY
-)
-AC_SUBST
-(
-UPLOAD_EXTRA_FILES
 )
 MOZ_CREATE_CONFIG_STATUS
 (
