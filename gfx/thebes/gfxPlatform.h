@@ -1985,6 +1985,12 @@ nsIObserver
 >
 mOrientationSyncPrefsObserver
 ;
+nsCOMPtr
+<
+nsIObserver
+>
+mMemoryPressureObserver
+;
 mozilla
 :
 :
