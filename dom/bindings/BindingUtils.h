@@ -2695,10 +2695,6 @@ JSObject
 *
 constructorCache
 const
-DOMClass
-*
-domClass
-const
 NativeProperties
 *
 regularProperties
