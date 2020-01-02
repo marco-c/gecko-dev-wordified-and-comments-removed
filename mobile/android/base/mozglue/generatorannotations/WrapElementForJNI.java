@@ -46,13 +46,6 @@ default
 "
 ;
 boolean
-generateStatic
-(
-)
-default
-false
-;
-boolean
 allowMultithread
 (
 )
