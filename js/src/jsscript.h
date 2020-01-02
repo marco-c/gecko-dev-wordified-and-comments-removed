@@ -1129,6 +1129,7 @@ hasIntroductionOffset_
 ;
 public
 :
+explicit
 ScriptSource
 (
 JSPrincipals
