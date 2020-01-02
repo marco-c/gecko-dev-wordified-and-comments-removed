@@ -120,7 +120,7 @@ repeat
 #
 downloads
 -
-indicator
+button
 [
 attention
 ]
@@ -168,7 +168,7 @@ png
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -245,7 +245,7 @@ size
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -462,7 +462,7 @@ scale
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -528,7 +528,7 @@ duration
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -622,7 +622,7 @@ scale
 #
 downloads
 -
-indicator
+button
 [
 notification
 =
@@ -1102,7 +1102,7 @@ radius
 #
 downloads
 -
-indicator
+button
 [
 paused
 ]
@@ -1150,7 +1150,7 @@ rgb
 #
 downloads
 -
-indicator
+button
 [
 paused
 ]
@@ -1210,7 +1210,10 @@ full
 #
 downloads
 -
+button
+[
 indicator
+]
 >
 .
 toolbarbutton

@@ -1,14 +1,3 @@
-%
-define
-WINDOWS_AERO
-%
-include
-indicator
-.
-css
-%
-undef
-WINDOWS_AERO
 media
 (
 -
@@ -26,7 +15,7 @@ menubar
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -67,7 +56,7 @@ true
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -115,7 +104,7 @@ bar
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -176,7 +165,7 @@ child
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -214,7 +203,7 @@ menubar
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -255,7 +244,7 @@ true
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -312,7 +301,7 @@ bar
 #
 downloads
 -
-indicator
+button
 :
 not
 (
@@ -382,7 +371,7 @@ child
 #
 downloads
 -
-indicator
+button
 :
 not
 (
