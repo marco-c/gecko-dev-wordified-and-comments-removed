@@ -249,4 +249,17 @@ SearchPreferenceActivity
 .
 java
 '
+'
+java
+/
+org
+/
+mozilla
+/
+search
+/
+SearchWidget
+.
+java
+'
 ]
