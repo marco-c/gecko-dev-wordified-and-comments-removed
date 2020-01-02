@@ -112,7 +112,16 @@ mochikit
 '
 scriptaculous
 '
+]
+MOCHITEST_MANIFESTS
++
+=
+[
 '
 jquery
+/
+mochitest
+.
+ini
 '
 ]
