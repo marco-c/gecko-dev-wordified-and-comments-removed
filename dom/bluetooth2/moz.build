@@ -111,6 +111,11 @@ BluetoothAdapter
 cpp
 '
 '
+BluetoothClassOfDevice
+.
+cpp
+'
+'
 BluetoothDevice
 .
 cpp
@@ -515,6 +520,11 @@ bluetooth
 [
 '
 BluetoothAdapter
+.
+h
+'
+'
+BluetoothClassOfDevice
 .
 h
 '

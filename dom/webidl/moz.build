@@ -2849,6 +2849,11 @@ BluetoothAdapter2
 webidl
 '
 '
+BluetoothClassOfDevice
+.
+webidl
+'
+'
 BluetoothDevice2
 .
 webidl

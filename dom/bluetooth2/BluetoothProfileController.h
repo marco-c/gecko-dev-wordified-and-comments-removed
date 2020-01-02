@@ -41,7 +41,9 @@ cod
 )
 (
 (
+(
 cod
+)
 &
 0xffe000
 )
@@ -57,7 +59,9 @@ cod
 )
 (
 (
+(
 cod
+)
 &
 0x1f00
 )
@@ -73,7 +77,9 @@ cod
 )
 (
 (
+(
 cod
+)
 &
 0xfc
 )
@@ -88,7 +94,9 @@ HAS_AUDIO
 cod
 )
 (
+(
 cod
+)
 &
 0x200000
 )
@@ -99,7 +107,9 @@ HAS_RENDERING
 cod
 )
 (
+(
 cod
+)
 &
 0x40000
 )
