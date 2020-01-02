@@ -210,7 +210,7 @@ uint32_t
 OperatingSystemVersion
 (
 )
-const
+MOZ_OVERRIDE
 {
 return
 mWindowsVersion
