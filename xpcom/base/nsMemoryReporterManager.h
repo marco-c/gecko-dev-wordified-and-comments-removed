@@ -385,6 +385,9 @@ mNumChildProcesses
 uint32_t
 mNumChildProcessesCompleted
 ;
+bool
+mParentDone
+;
 nsCOMPtr
 <
 nsIHandleReportCallback
@@ -454,6 +457,10 @@ aNumChildProcesses
 mNumChildProcessesCompleted
 (
 0
+)
+mParentDone
+(
+false
 )
 mHandleReport
 (
