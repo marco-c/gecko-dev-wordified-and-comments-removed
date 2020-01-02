@@ -148,8 +148,6 @@ flags_
 type
 |
 HAS_SCOPECHAIN
-|
-HAS_BLOCKCHAIN
 ;
 JSObject
 *
@@ -2124,11 +2122,6 @@ blockChain_
 block
 ;
 }
-flags_
-|
-=
-HAS_BLOCKCHAIN
-;
 return
 true
 ;
