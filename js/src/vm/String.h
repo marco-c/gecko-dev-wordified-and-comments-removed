@@ -1040,7 +1040,7 @@ this
 ;
 }
 bool
-isShort
+isFatInline
 (
 )
 const
@@ -2384,7 +2384,7 @@ JSString
 )
 ;
 class
-JSShortString
+JSFatInlineString
 :
 public
 JSInlineString
@@ -2431,7 +2431,7 @@ CellSize
 ;
 JS_STATIC_ASSERT
 (
-MAX_SHORT_LENGTH
+MAX_FAT_INLINE_LENGTH
 +
 1
 =
@@ -2439,12 +2439,12 @@ MAX_SHORT_LENGTH
 (
 sizeof
 (
-JSShortString
+JSFatInlineString
 )
 -
 offsetof
 (
-JSShortString
+JSFatInlineString
 d
 .
 inlineStorage
@@ -2478,7 +2478,7 @@ allowGC
 >
 static
 inline
-JSShortString
+JSFatInlineString
 *
 new_
 (
@@ -2493,7 +2493,7 @@ cx
 static
 const
 size_t
-MAX_SHORT_LENGTH
+MAX_FAT_INLINE_LENGTH
 =
 JSString
 :
@@ -2516,7 +2516,7 @@ return
 length
 <
 =
-MAX_SHORT_LENGTH
+MAX_FAT_INLINE_LENGTH
 ;
 }
 MOZ_ALWAYS_INLINE
@@ -2537,7 +2537,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-JSShortString
+JSFatInlineString
 )
 =
 =

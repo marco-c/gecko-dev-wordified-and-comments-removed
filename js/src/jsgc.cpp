@@ -537,7 +537,7 @@ TypeObject
 )
 sizeof
 (
-JSShortString
+JSFatInlineString
 )
 sizeof
 (
@@ -666,7 +666,7 @@ TypeObject
 )
 OFFSET
 (
-JSShortString
+JSFatInlineString
 )
 OFFSET
 (
@@ -839,7 +839,7 @@ BackgroundPhaseStrings
 ]
 =
 {
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 FINALIZE_STRING
 }
 ;
@@ -2123,12 +2123,12 @@ budget
 )
 ;
 case
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 :
 return
 FinalizeTypedArenas
 <
-JSShortString
+JSFatInlineString
 >
 (
 fop
@@ -7305,7 +7305,7 @@ PHASE_SWEEP_STRING
 queueForBackgroundSweep
 (
 fop
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 )
 ;
 queueForBackgroundSweep

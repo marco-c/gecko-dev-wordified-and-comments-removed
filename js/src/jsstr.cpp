@@ -13641,7 +13641,7 @@ l
 ;
 static
 inline
-JSShortString
+JSFatInlineString
 *
 FlattenSubstrings
 (
@@ -13664,7 +13664,7 @@ outputLen
 {
 JS_ASSERT
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -13673,11 +13673,11 @@ outputLen
 )
 )
 ;
-JSShortString
+JSFatInlineString
 *
 str
 =
-js_NewGCShortString
+js_NewGCFatInlineString
 <
 CanGC
 >
@@ -13909,10 +13909,10 @@ end
 .
 length
 >
-JSShortString
+JSFatInlineString
 :
 :
-MAX_SHORT_LENGTH
+MAX_FAT_INLINE_LENGTH
 )
 break
 ;
@@ -20891,7 +20891,7 @@ n
 {
 if
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -20900,7 +20900,7 @@ n
 )
 )
 return
-NewShortString
+NewFatInlineString
 <
 allowGC
 >
@@ -21040,7 +21040,7 @@ n
 {
 if
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -21049,7 +21049,7 @@ n
 )
 )
 return
-NewShortString
+NewFatInlineString
 <
 allowGC
 >
@@ -21179,7 +21179,7 @@ s
 ;
 if
 (
-JSShortString
+JSFatInlineString
 :
 :
 lengthFits
@@ -21188,7 +21188,7 @@ n
 )
 )
 return
-NewShortString
+NewFatInlineString
 <
 allowGC
 >

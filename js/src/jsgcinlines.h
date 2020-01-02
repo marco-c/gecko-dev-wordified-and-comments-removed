@@ -1873,7 +1873,7 @@ FINALIZE_STRING
 kind
 =
 =
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 |
 |
 kind
@@ -2801,9 +2801,9 @@ AllowGC
 allowGC
 >
 inline
-JSShortString
+JSFatInlineString
 *
-js_NewGCShortString
+js_NewGCFatInlineString
 (
 js
 :
@@ -2822,7 +2822,7 @@ gc
 :
 AllocateNonObject
 <
-JSShortString
+JSFatInlineString
 allowGC
 >
 (

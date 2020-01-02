@@ -830,7 +830,7 @@ template
 struct
 MapTypeToFinalizeKind
 <
-JSShortString
+JSFatInlineString
 >
 {
 static
@@ -838,7 +838,7 @@ const
 AllocKind
 kind
 =
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 ;
 }
 ;

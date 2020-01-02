@@ -28802,7 +28802,7 @@ temp2
 )
 ;
 Label
-isShort
+isFatInline
 ;
 masm
 .
@@ -28815,13 +28815,13 @@ BelowOrEqual
 temp2
 Imm32
 (
-JSShortString
+JSFatInlineString
 :
 :
-MAX_SHORT_LENGTH
+MAX_FAT_INLINE_LENGTH
 )
 &
-isShort
+isFatInline
 )
 ;
 masm
@@ -29053,7 +29053,7 @@ masm
 bind
 (
 &
-isShort
+isFatInline
 )
 ;
 JS_STATIC_ASSERT
@@ -29135,7 +29135,7 @@ SequentialExecution
 :
 masm
 .
-newGCShortString
+newGCFatInlineString
 (
 output
 temp3
@@ -29164,7 +29164,7 @@ temp2
 ;
 masm
 .
-newGCShortStringPar
+newGCFatInlineStringPar
 (
 output
 forkJoinContext
@@ -29255,7 +29255,7 @@ computeEffectiveAddress
 Address
 (
 output
-JSShortString
+JSFatInlineString
 :
 :
 offsetOfInlineStorage
@@ -29273,7 +29273,7 @@ temp2
 Address
 (
 output
-JSShortString
+JSFatInlineString
 :
 :
 offsetOfChars

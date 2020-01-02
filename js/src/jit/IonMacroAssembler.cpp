@@ -3974,7 +3974,7 @@ void
 MacroAssembler
 :
 :
-newGCShortString
+newGCFatInlineString
 (
 Register
 result
@@ -3995,7 +3995,7 @@ js
 gc
 :
 :
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 fail
 )
 ;
@@ -4268,7 +4268,7 @@ void
 MacroAssembler
 :
 :
-newGCShortStringPar
+newGCFatInlineStringPar
 (
 Register
 result
@@ -4295,7 +4295,7 @@ js
 gc
 :
 :
-FINALIZE_SHORT_STRING
+FINALIZE_FAT_INLINE_STRING
 fail
 )
 ;
