@@ -1289,13 +1289,6 @@ BINPATH
 /
 components
 /
-jsdservice
-.
-xpt
-BINPATH
-/
-components
-/
 jsinspector
 .
 xpt
