@@ -315,6 +315,10 @@ true
 }
 nsDependentJSString
 str
+;
+str
+.
+infallibleInit
 (
 aId
 )

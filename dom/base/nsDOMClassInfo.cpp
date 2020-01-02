@@ -12071,6 +12071,10 @@ NS_ERROR_NOT_INITIALIZED
 ;
 nsDependentJSString
 name
+;
+name
+.
+infallibleInit
 (
 id
 )
