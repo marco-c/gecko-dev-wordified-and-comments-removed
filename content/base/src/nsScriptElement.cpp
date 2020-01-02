@@ -453,7 +453,7 @@ mDoneAddingChildren
 cont
 -
 >
-IsInDoc
+GetCrossShadowCurrentDoc
 (
 )
 |

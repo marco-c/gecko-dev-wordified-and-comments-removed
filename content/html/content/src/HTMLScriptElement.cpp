@@ -254,7 +254,9 @@ rv
 ;
 if
 (
-aDocument
+GetCrossShadowCurrentDoc
+(
+)
 )
 {
 MaybeProcessScript
