@@ -1948,8 +1948,6 @@ command
 win
 .
 PanelUI
-.
-onCommandHandler
 )
 ;
 }
@@ -2039,8 +2037,6 @@ command
 win
 .
 PanelUI
-.
-onCommandHandler
 )
 ;
 }
