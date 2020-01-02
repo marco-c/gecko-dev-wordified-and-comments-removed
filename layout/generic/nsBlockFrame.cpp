@@ -31698,6 +31698,7 @@ aMetrics
 .
 ISize
 (
+wm
 )
 ;
 nscoord
@@ -31732,11 +31733,13 @@ aMetrics
 .
 ISize
 (
+wm
 )
 aMetrics
 .
 BSize
 (
+wm
 )
 )
 )
