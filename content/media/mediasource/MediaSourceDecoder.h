@@ -191,6 +191,11 @@ nsACString
 aType
 )
 ;
+void
+CallDecoderInitialization
+(
+)
+;
 private
 :
 dom
@@ -199,12 +204,6 @@ dom
 MediaSource
 *
 mMediaSource
-;
-nsRefPtr
-<
-MediaSourceReader
->
-mReader
 ;
 }
 ;
