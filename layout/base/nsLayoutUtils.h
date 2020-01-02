@@ -1108,6 +1108,17 @@ nullptr
 )
 ;
 static
+void
+SetScrollbarThumbLayerization
+(
+nsIFrame
+*
+aThumbFrame
+bool
+aLayerize
+)
+;
+static
 nsIFrame
 *
 GetAnimatedGeometryRootFor
