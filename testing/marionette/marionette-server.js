@@ -9536,10 +9536,10 @@ command_id
 ;
 }
 }
-getElementPosition
+getElementLocation
 :
 function
-MDA_getElementPosition
+MDA_getElementLocation
 (
 aRequest
 )
@@ -9559,7 +9559,7 @@ this
 sendAsync
 (
 "
-getElementPosition
+getElementLocation
 "
 {
 id
@@ -12094,6 +12094,15 @@ prototype
 .
 sendKeysToElement
 "
+getElementLocation
+"
+:
+MarionetteServerConnection
+.
+protocol
+.
+getElementLocation
+"
 getElementPosition
 "
 :
@@ -12101,7 +12110,7 @@ MarionetteServerConnection
 .
 prototype
 .
-getElementPosition
+getElementLocation
 "
 clearElement
 "
