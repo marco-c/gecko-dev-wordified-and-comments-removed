@@ -108,6 +108,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 EventDispatcher
@@ -2009,6 +2020,7 @@ getMaxTextureSize
 )
 ;
 }
+RobocopTarget
 public
 IntBuffer
 getPixels
