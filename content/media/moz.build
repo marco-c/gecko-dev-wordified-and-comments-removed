@@ -401,11 +401,6 @@ AudioStream
 h
 '
 '
-BufferDecoder
-.
-h
-'
-'
 BufferMediaResource
 .
 h
@@ -701,11 +696,6 @@ cpp
 '
 '
 AudioTrackList
-.
-cpp
-'
-'
-BufferDecoder
 .
 cpp
 '

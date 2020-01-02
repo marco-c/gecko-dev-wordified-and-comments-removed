@@ -64,7 +64,7 @@ class
 MediaSourceDecoder
 ;
 class
-SubBufferDecoder
+SourceBufferDecoder
 ;
 namespace
 dom
@@ -226,7 +226,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 CreateSubDecoder
 (
@@ -336,7 +336,7 @@ nsTArray
 <
 nsRefPtr
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 >
 mPendingDecoders
@@ -345,7 +345,7 @@ nsTArray
 <
 nsRefPtr
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 >
 mDecoders

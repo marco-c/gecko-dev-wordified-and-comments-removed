@@ -50,7 +50,7 @@ class
 MediaSourceReader
 ;
 class
-SubBufferDecoder
+SourceBufferDecoder
 ;
 namespace
 dom
@@ -148,7 +148,7 @@ DetachMediaSource
 ;
 already_AddRefed
 <
-SubBufferDecoder
+SourceBufferDecoder
 >
 CreateSubDecoder
 (

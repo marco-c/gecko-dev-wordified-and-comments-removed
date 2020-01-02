@@ -63,6 +63,7 @@ ReentrantMonitor
 GetReentrantMonitor
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -71,6 +72,7 @@ IsShutdown
 (
 )
 const
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -79,6 +81,7 @@ OnStateMachineThread
 (
 )
 const
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -87,6 +90,7 @@ OnDecodeThread
 (
 )
 const
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -96,6 +100,7 @@ GetResource
 (
 )
 const
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -107,6 +112,7 @@ aBytes
 int64_t
 aOffset
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -118,6 +124,7 @@ aParsed
 uint32_t
 aDecoded
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -126,6 +133,7 @@ GetEndMediaTime
 (
 )
 const
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -133,6 +141,7 @@ int64_t
 GetMediaDuration
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -142,6 +151,7 @@ SetMediaDuration
 int64_t
 aDuration
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -151,6 +161,7 @@ UpdateEstimatedMediaDuration
 int64_t
 aDuration
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -160,6 +171,7 @@ SetMediaSeekable
 bool
 aMediaSeekable
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -168,6 +180,7 @@ VideoFrameContainer
 GetVideoFrameContainer
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -179,6 +192,7 @@ ImageContainer
 GetImageContainer
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -186,6 +200,7 @@ bool
 IsTransportSeekable
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -193,6 +208,7 @@ bool
 IsMediaSeekable
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -206,6 +222,7 @@ MetadataTags
 *
 aTags
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -221,6 +238,7 @@ MetadataTags
 *
 aTags
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -228,6 +246,7 @@ void
 RemoveMediaTracks
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -237,6 +256,7 @@ SetMediaEndTime
 int64_t
 aTime
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -246,6 +266,7 @@ UpdatePlaybackPosition
 int64_t
 aTime
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -253,6 +274,7 @@ void
 OnReadMetadataCompleted
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -261,6 +283,7 @@ MediaDecoderOwner
 GetOwner
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -268,6 +291,7 @@ void
 NotifyWaitingForResourcesStatusChanged
 (
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
@@ -283,9 +307,10 @@ aLength
 int64_t
 aOffset
 )
+MOZ_FINAL
 MOZ_OVERRIDE
 ;
-protected
+private
 :
 virtual
 ~
