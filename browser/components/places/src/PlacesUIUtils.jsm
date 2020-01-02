@@ -3380,6 +3380,11 @@ queriesCount
 =
 0
 ;
+let
+corrupt
+=
+false
+;
 for
 (
 let
@@ -3453,6 +3458,10 @@ itemId
 )
 )
 {
+corrupt
+=
+true
+;
 break
 ;
 }
@@ -3488,6 +3497,10 @@ parentId
 leftPaneRoot
 )
 {
+corrupt
+=
+true
+;
 break
 ;
 }
@@ -3575,6 +3588,9 @@ queriesCount
 }
 if
 (
+corrupt
+|
+|
 queriesCount
 !
 =
