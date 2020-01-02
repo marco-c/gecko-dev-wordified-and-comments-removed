@@ -2015,10 +2015,6 @@ codecConfig
 -
 >
 mRate
-codecConfig
--
->
-mLoadManager
 )
 ;
 mEngineTransmitting
@@ -4319,10 +4315,6 @@ codecInfo
 -
 >
 mRate
-codecInfo
--
->
-mLoadManager
 )
 ;
 mRecvCodecList

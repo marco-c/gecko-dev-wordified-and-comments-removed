@@ -42,6 +42,13 @@ CodecStatistics
 h
 "
 #
+include
+"
+LoadManagerFactory
+.
+h
+"
+#
 undef
 FF
 #
@@ -1132,6 +1139,12 @@ nsAutoPtr
 VideoCodecStatistics
 >
 mVideoCodecStat
+;
+nsAutoPtr
+<
+LoadManager
+>
+mLoadManager
 ;
 }
 ;
