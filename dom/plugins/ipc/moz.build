@@ -369,7 +369,7 @@ MOZ_ENABLE_QT
 '
 ]
 :
-SOURCES
+GENERATED_SOURCES
 +
 =
 [
@@ -378,6 +378,11 @@ moc_NestedLoopTimer
 .
 cpp
 '
+]
+SOURCES
++
+=
+[
 '
 NestedLoopTimer
 .

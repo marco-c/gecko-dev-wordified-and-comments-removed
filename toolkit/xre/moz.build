@@ -276,7 +276,7 @@ nsQAppInstance
 h
 '
 ]
-SOURCES
+GENERATED_SOURCES
 +
 =
 [
@@ -285,6 +285,11 @@ moc_nsNativeAppSupportQt
 .
 cpp
 '
+]
+SOURCES
++
+=
+[
 '
 nsNativeAppSupportQt
 .
