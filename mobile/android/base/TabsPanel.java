@@ -427,7 +427,7 @@ tabs_container
 mPanelNormal
 =
 (
-TabsTray
+PanelView
 )
 findViewById
 (
@@ -448,7 +448,7 @@ this
 mPanelPrivate
 =
 (
-TabsTray
+PanelView
 )
 findViewById
 (
@@ -469,7 +469,7 @@ this
 mPanelRemote
 =
 (
-RemoteTabs
+PanelView
 )
 findViewById
 (
