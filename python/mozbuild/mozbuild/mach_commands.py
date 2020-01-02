@@ -2628,6 +2628,9 @@ not
 what
 :
             
+try
+:
+                
 if
 self
 .
@@ -2645,7 +2648,7 @@ mobile
 android
 '
 :
-                
+                    
 print
 (
 '
@@ -2665,7 +2668,7 @@ run
 |
 '
 )
-            
+                
 app
 =
 self
@@ -2676,7 +2679,7 @@ substs
 MOZ_BUILD_APP
 '
 ]
-            
+                
 if
 app
 in
@@ -2691,7 +2694,7 @@ android
 '
 )
 :
-                
+                    
 print
 (
 '
@@ -2705,7 +2708,7 @@ do
 now
 see
 '
-                    
+                        
 '
 https
 :
@@ -2724,6 +2727,12 @@ Developer_Guide
 So_You_Just_Built_Firefox
 '
 )
+            
+except
+Exception
+:
+                
+pass
         
 return
 status
