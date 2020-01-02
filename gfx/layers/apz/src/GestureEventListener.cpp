@@ -1096,7 +1096,8 @@ mLastTouchInput
 modifiers
 )
 ;
-rv
+nsEventStatus
+tapupStatus
 =
 mAsyncPanZoomController
 -
@@ -1108,7 +1109,7 @@ tapEvent
 ;
 if
 (
-rv
+tapupStatus
 =
 =
 nsEventStatus_eIgnore
@@ -1171,8 +1172,6 @@ mLastTouchInput
 modifiers
 )
 ;
-rv
-=
 mAsyncPanZoomController
 -
 >
@@ -1234,8 +1233,6 @@ mLastTouchInput
 modifiers
 )
 ;
-rv
-=
 mAsyncPanZoomController
 -
 >
@@ -1312,8 +1309,6 @@ mLastTouchInput
 modifiers
 )
 ;
-rv
-=
 mAsyncPanZoomController
 -
 >
@@ -1323,6 +1318,10 @@ pinchEvent
 )
 ;
 }
+rv
+=
+nsEventStatus_eConsumeNoDefault
+;
 break
 ;
 default
