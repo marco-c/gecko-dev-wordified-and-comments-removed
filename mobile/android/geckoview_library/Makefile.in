@@ -203,7 +203,9 @@ cd
 _ABS_DIST
 )
 /
-fennec
+(
+MOZ_APP_NAME
+)
 &
 &
 \
