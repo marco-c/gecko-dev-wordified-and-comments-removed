@@ -178,12 +178,5 @@ define
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
 0x40
 }
-typedef
-mozilla
-:
-:
-InternalMutationEvent
-nsMutationEvent
-;
 #
 endif

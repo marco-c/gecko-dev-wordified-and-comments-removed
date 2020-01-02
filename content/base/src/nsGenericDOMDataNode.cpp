@@ -1546,7 +1546,7 @@ if
 haveMutationListeners
 )
 {
-nsMutationEvent
+InternalMutationEvent
 mutation
 (
 true

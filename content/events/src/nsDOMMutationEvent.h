@@ -69,7 +69,10 @@ aOwner
 nsPresContext
 *
 aPresContext
-nsMutationEvent
+mozilla
+:
+:
+InternalMutationEvent
 *
 aEvent
 )

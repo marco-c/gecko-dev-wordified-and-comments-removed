@@ -16823,7 +16823,7 @@ aParent
 )
 )
 {
-nsMutationEvent
+InternalMutationEvent
 mutation
 (
 true

@@ -3176,7 +3176,7 @@ aOwner
 aPresContext
 static_cast
 <
-nsMutationEvent
+InternalMutationEvent
 *
 >
 (

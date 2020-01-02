@@ -6878,7 +6878,7 @@ this
 )
 )
 {
-nsMutationEvent
+InternalMutationEvent
 mutation
 (
 true
