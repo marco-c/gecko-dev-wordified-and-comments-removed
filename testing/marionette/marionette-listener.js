@@ -1742,6 +1742,8 @@ false
 )
 ;
 }
+this
+.
 elementManager
 .
 reset

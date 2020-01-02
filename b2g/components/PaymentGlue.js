@@ -619,7 +619,6 @@ loadFrameScript
 (
 kPaymentShimFile
 true
-true
 )
 ;
 mm

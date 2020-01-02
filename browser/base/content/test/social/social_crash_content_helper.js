@@ -1,10 +1,3 @@
-let
-Cu
-=
-Components
-.
-utils
-;
 Cu
 .
 import
