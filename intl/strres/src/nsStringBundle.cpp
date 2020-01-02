@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsMemory
 .
 h

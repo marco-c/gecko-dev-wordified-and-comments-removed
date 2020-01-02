@@ -318,11 +318,6 @@ nsHashPropertyBag
 h
 '
 '
-nsHashtable
-.
-h
-'
-'
 nsMathUtils
 .
 h
@@ -411,11 +406,6 @@ cpp
 '
 '
 nsHashPropertyBag
-.
-cpp
-'
-'
-nsHashtable
 .
 cpp
 '

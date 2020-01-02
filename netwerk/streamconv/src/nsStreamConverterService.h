@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
