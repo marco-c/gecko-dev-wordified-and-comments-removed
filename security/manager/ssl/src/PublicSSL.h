@@ -25,6 +25,11 @@ StopSSLServerCertVerificationThreads
 (
 )
 ;
+nsresult
+InitializeCipherSuite
+(
+)
+;
 }
 }
 #
