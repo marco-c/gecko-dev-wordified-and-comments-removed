@@ -4549,7 +4549,7 @@ aStatus
 0
 ;
 virtual
-nsresult
+void
 DidReflow
 (
 nsPresContext

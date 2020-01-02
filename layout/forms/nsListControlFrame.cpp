@@ -5348,7 +5348,7 @@ GetIndexOfDisplayArea
 ;
 }
 }
-nsresult
+void
 nsListControlFrame
 :
 :
@@ -5365,9 +5365,6 @@ nsDidReflowStatus
 aStatus
 )
 {
-nsresult
-rv
-;
 bool
 wasInterrupted
 =
@@ -5382,8 +5379,6 @@ HasPendingInterrupt
 (
 )
 ;
-rv
-=
 nsHTMLScrollFrame
 :
 :
@@ -5422,9 +5417,6 @@ mPostChildrenLoadedReset
 mHasPendingInterruptAtStartOfReflow
 =
 false
-;
-return
-rv
 ;
 }
 nsIAtom

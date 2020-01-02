@@ -19951,7 +19951,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsFrame
 :
 :
@@ -20084,9 +20084,6 @@ aReflowState
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsFrame
