@@ -10507,6 +10507,8 @@ nsSVGElement
 :
 DidAnimateTransformList
 (
+int32_t
+aModType
 )
 {
 NS_ABORT_IF_FALSE
@@ -10546,14 +10548,6 @@ GetTransformListAttrName
 (
 )
 ;
-int32_t
-modType
-=
-nsIDOMMutationEvent
-:
-:
-MODIFICATION
-;
 frame
 -
 >
@@ -10561,7 +10555,7 @@ AttributeChanged
 (
 kNameSpaceID_None
 transformAttr
-modType
+aModType
 )
 ;
 nsChangeHint
@@ -10570,7 +10564,7 @@ changeHint
 GetAttributeChangeHint
 (
 transformAttr
-modType
+aModType
 )
 ;
 if
