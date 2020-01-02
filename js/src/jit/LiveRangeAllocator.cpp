@@ -2656,6 +2656,9 @@ BitSet
 :
 New
 (
+alloc
+(
+)
 graph
 .
 numBlockIds
@@ -2745,6 +2748,9 @@ BitSet
 :
 New
 (
+alloc
+(
+)
 graph
 .
 numVirtualRegisters

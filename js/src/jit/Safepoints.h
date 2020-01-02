@@ -70,6 +70,9 @@ public
 bool
 init
 (
+TempAllocator
+&
+alloc
 uint32_t
 slotCount
 )

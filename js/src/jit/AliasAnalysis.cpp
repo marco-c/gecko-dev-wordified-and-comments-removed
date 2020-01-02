@@ -644,6 +644,14 @@ id
 loop_
 =
 new
+(
+mir
+-
+>
+temp
+(
+)
+)
 LoopAliasInfo
 (
 loop_

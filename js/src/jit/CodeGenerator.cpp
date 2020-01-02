@@ -34410,6 +34410,12 @@ safepoints_
 .
 init
 (
+gen
+-
+>
+temp
+(
+)
 graph
 .
 totalSlotCount

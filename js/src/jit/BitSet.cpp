@@ -25,6 +25,9 @@ BitSet
 :
 New
 (
+TempAllocator
+&
+alloc
 unsigned
 int
 max
@@ -35,6 +38,9 @@ BitSet
 result
 =
 new
+(
+alloc
+)
 BitSet
 (
 max
@@ -48,6 +54,7 @@ result
 >
 init
 (
+alloc
 )
 )
 return
@@ -63,6 +70,9 @@ BitSet
 :
 init
 (
+TempAllocator
+&
+alloc
 )
 {
 size_t
@@ -78,17 +88,6 @@ sizeof
 bits_
 )
 ;
-TempAllocator
-*
-alloc
-=
-GetIonContext
-(
-)
--
->
-temp
-;
 bits_
 =
 (
@@ -96,8 +95,7 @@ uint32_t
 *
 )
 alloc
--
->
+.
 allocate
 (
 sizeRequired

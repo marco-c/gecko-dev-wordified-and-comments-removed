@@ -159,6 +159,9 @@ max_
 bool
 init
 (
+TempAllocator
+&
+alloc
 )
 ;
 public
@@ -171,6 +174,9 @@ BitSet
 *
 New
 (
+TempAllocator
+&
+alloc
 unsigned
 int
 max

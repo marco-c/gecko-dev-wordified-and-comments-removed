@@ -63,6 +63,9 @@ SafepointWriter
 :
 init
 (
+TempAllocator
+&
+alloc
 uint32_t
 slotCount
 )
@@ -74,6 +77,7 @@ BitSet
 :
 New
 (
+alloc
 slotCount
 )
 ;
