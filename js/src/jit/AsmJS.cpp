@@ -24461,6 +24461,16 @@ AsmJSImm_Invalid
 ;
 break
 ;
+default
+:
+MOZ_ASSUME_UNREACHABLE
+(
+"
+unexpected
+mathBuiltin
+"
+)
+;
 }
 if
 (
