@@ -6845,7 +6845,7 @@ mainThread
 .
 ionTop
 ;
-prevIonJSContext_
+prevJitJSContext_
 =
 cx
 -
@@ -6854,7 +6854,7 @@ mainThread
 (
 )
 .
-ionJSContext
+jitJSContext
 ;
 cx
 -
@@ -6863,7 +6863,7 @@ mainThread
 (
 )
 .
-ionJSContext
+jitJSContext
 =
 cx
 ;
@@ -6874,7 +6874,7 @@ prevIonTop_
 =
 nullptr
 ;
-prevIonJSContext_
+prevJitJSContext_
 =
 nullptr
 ;
@@ -6914,9 +6914,9 @@ mainThread
 (
 )
 .
-ionJSContext
+jitJSContext
 =
-prevIonJSContext_
+prevJitJSContext_
 ;
 }
 }
@@ -6979,7 +6979,7 @@ mainThread
 .
 ionTop
 ;
-prevIonJSContext_
+prevJitJSContext_
 =
 cx
 -
@@ -6988,7 +6988,7 @@ mainThread
 (
 )
 .
-ionJSContext
+jitJSContext
 ;
 cx
 -
@@ -6997,7 +6997,7 @@ mainThread
 (
 )
 .
-ionJSContext
+jitJSContext
 =
 cx
 ;
@@ -7022,9 +7022,9 @@ mainThread
 (
 )
 .
-ionJSContext
+jitJSContext
 =
-prevIonJSContext_
+prevJitJSContext_
 ;
 }
 }

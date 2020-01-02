@@ -15577,7 +15577,7 @@ GetIonContext
 runtime
 -
 >
-addressOfIonStackLimit
+addressOfJitStackLimit
 (
 )
 ;
@@ -16066,7 +16066,7 @@ tempReg
 offsetof
 (
 PerThreadData
-ionStackLimit
+jitStackLimit
 )
 )
 tempReg

@@ -373,11 +373,11 @@ ionTop
 (
 nullptr
 )
-ionJSContext
+jitJSContext
 (
 nullptr
 )
-ionStackLimit
+jitStackLimit
 (
 0
 )
@@ -2356,7 +2356,7 @@ void
 JSRuntime
 :
 :
-resetIonStackLimit
+resetJitStackLimit
 (
 )
 {
@@ -2368,7 +2368,7 @@ this
 ;
 mainThread
 .
-setIonStackLimit
+setJitStackLimit
 (
 mainThread
 .
@@ -2386,7 +2386,7 @@ ifdef
 JS_ARM_SIMULATOR
 mainThread
 .
-setIonStackLimit
+setJitStackLimit
 (
 js
 :
@@ -2830,7 +2830,7 @@ this
 ;
 mainThread
 .
-setIonStackLimit
+setJitStackLimit
 (
 -
 1

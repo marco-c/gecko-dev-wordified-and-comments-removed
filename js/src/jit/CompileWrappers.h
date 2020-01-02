@@ -59,7 +59,7 @@ addressOfIonTop
 const
 void
 *
-addressOfIonStackLimit
+addressOfJitStackLimit
 (
 )
 ;

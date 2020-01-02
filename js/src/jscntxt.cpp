@@ -4894,7 +4894,7 @@ false
 rt
 -
 >
-resetIonStackLimit
+resetJitStackLimit
 (
 )
 ;

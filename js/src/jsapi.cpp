@@ -10087,7 +10087,7 @@ rt
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 !
 =
 uintptr_t
@@ -10102,7 +10102,7 @@ rt
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 =
 rt
 -
@@ -10122,7 +10122,7 @@ rt
 >
 mainThread
 .
-ionStackLimit
+jitStackLimit
 =
 jit
 :

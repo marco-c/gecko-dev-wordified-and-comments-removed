@@ -1982,14 +1982,14 @@ ionTop
 ;
 JSContext
 *
-ionJSContext
+jitJSContext
 ;
 uintptr_t
-ionStackLimit
+jitStackLimit
 ;
 inline
 void
-setIonStackLimit
+setJitStackLimit
 (
 uintptr_t
 limit
@@ -4845,7 +4845,7 @@ bool
 jitSupportsFloatingPoint
 ;
 void
-resetIonStackLimit
+resetJitStackLimit
 (
 )
 ;
@@ -5456,7 +5456,7 @@ get
 )
 -
 >
-ionJSContext
+jitJSContext
 ;
 JS_ASSERT
 (
@@ -5895,7 +5895,7 @@ void
 PerThreadData
 :
 :
-setIonStackLimit
+setJitStackLimit
 (
 uintptr_t
 limit
@@ -5911,7 +5911,7 @@ currentThreadOwnsOperationCallbackLock
 )
 )
 ;
-ionStackLimit
+jitStackLimit
 =
 limit
 ;

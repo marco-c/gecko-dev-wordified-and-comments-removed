@@ -6124,7 +6124,7 @@ StackLimit
 endif
 thisThread
 .
-ionStackLimit
+jitStackLimit
 =
 stackLimit
 ;
