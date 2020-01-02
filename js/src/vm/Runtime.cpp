@@ -807,6 +807,10 @@ emptyString
 (
 nullptr
 )
+assertOnScriptEntryHook_
+(
+nullptr
+)
 debugMode
 (
 false

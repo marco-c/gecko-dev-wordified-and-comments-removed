@@ -3580,6 +3580,12 @@ SourceHook
 >
 sourceHook
 ;
+js
+:
+:
+AssertOnScriptEntryHook
+assertOnScriptEntryHook_
+;
 JSDebugHooks
 debugHooks
 ;

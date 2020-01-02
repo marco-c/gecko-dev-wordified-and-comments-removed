@@ -16870,6 +16870,17 @@ LPARAM
 lParam
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+ipc
+:
+:
+ProcessingUrgentMessages
+(
+)
+)
+;
 HangMonitor
 :
 :
