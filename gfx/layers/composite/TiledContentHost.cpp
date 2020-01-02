@@ -1686,16 +1686,11 @@ LowPrecisionOpacity
 {
 for
 (
-ContainerLayer
+Layer
 *
 ancestor
 =
 GetLayer
-(
-)
--
->
-GetParent
 (
 )
 ;
