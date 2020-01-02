@@ -383,7 +383,7 @@ nsPresContext
 aPresContext
 nsHTMLReflowMetrics
 &
-aDesiredSize
+aButtonDesiredSize
 const
 nsHTMLReflowState
 &
