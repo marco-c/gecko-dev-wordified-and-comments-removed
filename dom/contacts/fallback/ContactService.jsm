@@ -167,6 +167,10 @@ nsIMessageListenerManager
 let
 ContactService
 =
+this
+.
+ContactService
+=
 {
 init
 :
