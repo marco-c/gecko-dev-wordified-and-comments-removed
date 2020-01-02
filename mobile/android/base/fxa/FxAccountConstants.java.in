@@ -188,7 +188,7 @@ static
 boolean
 LOG_PERSONAL_INFORMATION
 =
-true
+false
 ;
 public
 static
