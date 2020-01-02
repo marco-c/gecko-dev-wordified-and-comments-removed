@@ -872,7 +872,7 @@ registration
 POST
 "
 {
-simple_push_url
+simplePushURL
 :
 pushUrl
 }

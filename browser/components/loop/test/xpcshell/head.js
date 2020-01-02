@@ -305,6 +305,9 @@ mockPushHandler
 registrationResult
 :
 null
+registrationPushURL
+:
+undefined
 initialize
 :
 function
@@ -318,6 +321,9 @@ registerCallback
 this
 .
 registrationResult
+this
+.
+registrationPushURL
 )
 ;
 this
