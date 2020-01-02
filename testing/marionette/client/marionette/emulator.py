@@ -2611,7 +2611,7 @@ seconds
 :
                 
 raise
-Exception
+TimeoutException
 (
 '
 timed
