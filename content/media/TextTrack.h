@@ -155,6 +155,11 @@ TextTrackSource
 aTextTrackSource
 )
 ;
+~
+TextTrack
+(
+)
+;
 void
 SetDefaultSettings
 (

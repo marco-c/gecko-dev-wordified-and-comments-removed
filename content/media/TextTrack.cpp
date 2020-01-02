@@ -246,6 +246,15 @@ SetDefaultSettings
 )
 ;
 }
+TextTrack
+:
+:
+~
+TextTrack
+(
+)
+{
+}
 void
 TextTrack
 :
