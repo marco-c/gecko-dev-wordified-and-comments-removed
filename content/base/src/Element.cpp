@@ -5698,6 +5698,17 @@ Run
 (
 )
 {
+if
+(
+!
+mElement
+-
+>
+IsInDoc
+(
+)
+)
+{
 mManager
 -
 >
@@ -5707,6 +5718,7 @@ mElement
 mDoc
 )
 ;
+}
 return
 NS_OK
 ;
