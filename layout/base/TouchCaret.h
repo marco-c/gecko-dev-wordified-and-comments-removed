@@ -270,6 +270,13 @@ int32_t
 aIdentifier
 )
 ;
+void
+SetSelectionDragState
+(
+bool
+aState
+)
+;
 nsPoint
 GetEventPosition
 (
