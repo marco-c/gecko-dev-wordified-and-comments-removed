@@ -74,12 +74,6 @@ xml
 "
 )
 ;
-virtual
-~
-XMLDocument
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 void
@@ -229,6 +223,12 @@ GetLocation
 ;
 protected
 :
+virtual
+~
+XMLDocument
+(
+)
+;
 virtual
 JSObject
 *

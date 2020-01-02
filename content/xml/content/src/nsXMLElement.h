@@ -125,6 +125,13 @@ this
 protected
 :
 virtual
+~
+nsXMLElement
+(
+)
+{
+}
+virtual
 JSObject
 *
 WrapNode

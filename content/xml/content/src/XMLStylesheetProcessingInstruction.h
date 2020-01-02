@@ -124,12 +124,6 @@ aData
 {
 }
 virtual
-~
-XMLStylesheetProcessingInstruction
-(
-)
-;
-virtual
 JSObject
 *
 WrapNode
@@ -269,6 +263,12 @@ SetData
 ;
 protected
 :
+virtual
+~
+XMLStylesheetProcessingInstruction
+(
+)
+;
 nsCOMPtr
 <
 nsIURI

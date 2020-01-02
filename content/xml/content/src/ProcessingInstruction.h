@@ -71,12 +71,6 @@ nsAString
 aData
 )
 ;
-virtual
-~
-ProcessingInstruction
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMCHARACTERDATA
@@ -183,6 +177,12 @@ NodeName
 }
 protected
 :
+virtual
+~
+ProcessingInstruction
+(
+)
+;
 bool
 GetAttrValue
 (
