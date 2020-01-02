@@ -254,7 +254,7 @@ aAxisTracker
 )
 ;
 nsresult
-GenerateFlexItems
+GenerateFlexLines
 (
 nsPresContext
 *
@@ -267,9 +267,12 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
+nsTArray
+<
 FlexLine
+>
 &
-aLine
+aLines
 )
 ;
 nscoord
