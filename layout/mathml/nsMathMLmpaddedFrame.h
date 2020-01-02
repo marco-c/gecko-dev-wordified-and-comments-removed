@@ -213,9 +213,9 @@ nsCSSValue
 &
 aCSSValue
 const
-nsBoundingMetrics
+nsHTMLReflowMetrics
 &
-aBoundingMetrics
+aDesiredSize
 nscoord
 &
 aValueToUpdate
