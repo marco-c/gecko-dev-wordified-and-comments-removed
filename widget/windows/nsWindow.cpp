@@ -7399,7 +7399,9 @@ pl
 =
 {
 sizeof
+(
 WINDOWPLACEMENT
+)
 }
 ;
 VERIFY
@@ -7449,7 +7451,9 @@ mi
 =
 {
 sizeof
+(
 MONITORINFO
+)
 }
 ;
 VERIFY
