@@ -430,12 +430,10 @@ aWindow
 nsresult
 CreateSharedWorker
 (
-JSContext
-*
-aCx
-nsPIDOMWindow
-*
-aWindow
+const
+GlobalObject
+&
+aGlobal
 const
 nsAString
 &
