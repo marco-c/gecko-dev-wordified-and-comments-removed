@@ -470,11 +470,6 @@ DOMPoint
 webidl
 '
 '
-DOMQuad
-.
-webidl
-'
-'
 DOMRect
 .
 webidl
