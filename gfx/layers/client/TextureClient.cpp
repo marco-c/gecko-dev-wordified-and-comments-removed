@@ -1642,14 +1642,11 @@ mDescriptor
 }
 if
 (
-!
-(
 mTextureInfo
 .
 mTextureFlags
 &
-TEXTURE_DEALLOCATE_CLIENT
-)
+TEXTURE_DEALLOCATE_HOST
 )
 {
 mDescriptor

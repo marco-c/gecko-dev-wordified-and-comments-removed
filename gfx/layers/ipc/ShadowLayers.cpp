@@ -1998,9 +1998,12 @@ aFlags
 ;
 if
 (
+!
+(
 aFlags
 &
-TEXTURE_DEALLOCATE_CLIENT
+TEXTURE_DEALLOCATE_HOST
+)
 )
 {
 mTxn
