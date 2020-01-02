@@ -1159,6 +1159,12 @@ mGoAwayStreamsToRestart
 uint64_t
 mSerial
 ;
+bool
+mWaitingForSettingsAck
+;
+bool
+mGoAwayOnPush
+;
 private
 :
 void
