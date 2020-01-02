@@ -8631,6 +8631,17 @@ CompositionOp
 aOperator
 )
 {
+size_t
+operatorIndex
+=
+static_cast
+<
+size_t
+>
+(
+aOperator
+)
+;
 if
 (
 mPrivateData
@@ -8638,7 +8649,7 @@ mPrivateData
 >
 mBlendStates
 [
-aOperator
+operatorIndex
 ]
 )
 {
@@ -8648,7 +8659,7 @@ mPrivateData
 >
 mBlendStates
 [
-aOperator
+operatorIndex
 ]
 ;
 }
@@ -9022,7 +9033,7 @@ mPrivateData
 >
 mBlendStates
 [
-aOperator
+operatorIndex
 ]
 )
 )
@@ -9033,7 +9044,7 @@ mPrivateData
 >
 mBlendStates
 [
-aOperator
+operatorIndex
 ]
 ;
 }

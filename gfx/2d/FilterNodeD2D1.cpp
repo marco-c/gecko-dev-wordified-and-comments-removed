@@ -593,7 +593,7 @@ image
 uint32_t
 ConvertValue
 (
-uint32_t
+FilterType
 aType
 uint32_t
 aAttribute
@@ -788,7 +788,7 @@ aValue
 void
 ConvertValue
 (
-uint32_t
+FilterType
 aType
 uint32_t
 aAttribute
@@ -852,7 +852,7 @@ break
 UINT32
 GetD2D1InputForInput
 (
-uint32_t
+FilterType
 aType
 uint32_t
 aIndex
@@ -885,7 +885,7 @@ d2dname
 UINT32
 GetD2D1PropForAttribute
 (
-uint32_t
+FilterType
 aType
 uint32_t
 aIndex
@@ -1908,7 +1908,7 @@ UINT32_MAX
 bool
 GetD2D1PropsForIntSize
 (
-uint32_t
+FilterType
 aType
 uint32_t
 aIndex
