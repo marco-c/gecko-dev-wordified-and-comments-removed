@@ -74,13 +74,6 @@ h
 "
 #
 endif
-namespace
-gfx
-{
-class
-Size
-;
-}
 class
 TransportDIB
 {
