@@ -2023,10 +2023,13 @@ lwtheme
 )
 {
 overflow
--
-y
 :
+-
+moz
+-
 hidden
+-
+unscrollable
 ;
 }
 #
