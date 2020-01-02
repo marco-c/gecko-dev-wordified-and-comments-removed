@@ -656,7 +656,10 @@ NULL
 )
 :
 (
+strip
+(
 ALL_JARS
+)
 )
 )
 )
