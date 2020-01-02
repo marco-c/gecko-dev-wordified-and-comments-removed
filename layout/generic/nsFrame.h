@@ -1189,6 +1189,11 @@ aConstrainHeight
 true
 )
 ;
+void
+PushDirtyBitToAbsoluteFrames
+(
+)
+;
 virtual
 bool
 CanContinueTextRun

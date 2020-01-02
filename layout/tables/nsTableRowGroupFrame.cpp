@@ -6882,6 +6882,10 @@ FinishAndStoreOverflow
 aDesiredSize
 )
 ;
+PushDirtyBitToAbsoluteFrames
+(
+)
+;
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
