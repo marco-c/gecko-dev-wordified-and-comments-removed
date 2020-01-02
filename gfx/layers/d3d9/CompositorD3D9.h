@@ -18,6 +18,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
