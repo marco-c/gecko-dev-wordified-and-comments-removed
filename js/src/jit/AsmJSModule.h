@@ -2118,6 +2118,9 @@ strict_
 bool
 hasArrayView_
 ;
+bool
+usesSignalHandlers_
+;
 }
 pod
 ;
@@ -2295,6 +2298,8 @@ uint32_t
 srcBodyStart
 bool
 strict
+bool
+canUseSignalHandlers
 )
 ;
 void
@@ -2400,6 +2405,18 @@ return
 pod
 .
 strict_
+;
+}
+bool
+usesSignalHandlers
+(
+)
+const
+{
+return
+pod
+.
+usesSignalHandlers_
 ;
 }
 bool

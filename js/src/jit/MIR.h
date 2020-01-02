@@ -41138,8 +41138,6 @@ Scalar
 :
 Type
 vt
-bool
-s
 )
 :
 viewType_
@@ -41148,7 +41146,7 @@ vt
 )
 skipBoundsCheck_
 (
-s
+false
 )
 {
 }
@@ -41216,7 +41214,6 @@ ptr
 MAsmJSHeapAccess
 (
 vt
-false
 )
 {
 setMovable
@@ -41384,7 +41381,6 @@ v
 MAsmJSHeapAccess
 (
 vt
-false
 )
 {
 }

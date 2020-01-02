@@ -39,9 +39,6 @@ namespace
 jit
 {
 class
-OutOfLineLoadTypedArrayOutOfBounds
-;
-class
 OutOfLineTruncate
 ;
 class
@@ -362,14 +359,6 @@ visitAsmJSLoadFFIFunc
 LAsmJSLoadFFIFunc
 *
 ins
-)
-;
-bool
-visitOutOfLineLoadTypedArrayOutOfBounds
-(
-OutOfLineLoadTypedArrayOutOfBounds
-*
-ool
 )
 ;
 bool
