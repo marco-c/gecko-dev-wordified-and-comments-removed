@@ -8496,9 +8496,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aStickyPosFrame
 nsDisplayList
 *
 aList
@@ -8578,12 +8575,6 @@ nsDisplayItem
 aItem
 )
 MOZ_OVERRIDE
-;
-protected
-:
-nsIFrame
-*
-mStickyPosFrame
 ;
 }
 ;
