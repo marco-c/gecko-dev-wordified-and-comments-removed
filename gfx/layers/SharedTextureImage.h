@@ -42,7 +42,11 @@ h
 #
 include
 "
-nsSize
+mozilla
+/
+gfx
+/
+Point
 .
 h
 "
@@ -78,7 +82,10 @@ gl
 SharedTextureShareType
 mShareType
 ;
-gfxIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 bool
@@ -112,7 +119,10 @@ return
 mData
 ;
 }
-gfxIntSize
+gfx
+:
+:
+IntSize
 GetSize
 (
 )

@@ -57,13 +57,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

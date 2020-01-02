@@ -842,7 +842,13 @@ container
 return
 nullptr
 ;
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 frameSize
 =
 container

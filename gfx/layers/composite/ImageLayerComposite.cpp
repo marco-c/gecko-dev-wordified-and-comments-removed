@@ -36,13 +36,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h
