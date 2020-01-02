@@ -13,3 +13,15 @@ the
 NSS
 release
 .
+bug
+-
+935831
+.
+patch
+Backout
+the
+fix
+for
+bug
+927230
+.
