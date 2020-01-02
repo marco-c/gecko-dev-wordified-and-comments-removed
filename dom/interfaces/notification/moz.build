@@ -102,6 +102,11 @@ nsIDOMDesktopNotification
 .
 idl
 '
+'
+nsINotificationStorage
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
