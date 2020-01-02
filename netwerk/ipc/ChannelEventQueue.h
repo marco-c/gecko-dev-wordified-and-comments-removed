@@ -75,6 +75,7 @@ AutoEventEnqueuerBase
 ;
 class
 ChannelEventQueue
+MOZ_FINAL
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -108,12 +109,6 @@ false
 mOwner
 (
 owner
-)
-{
-}
-~
-ChannelEventQueue
-(
 )
 {
 }
@@ -165,6 +160,12 @@ aTargetThread
 ;
 private
 :
+~
+ChannelEventQueue
+(
+)
+{
+}
 inline
 void
 MaybeFlushQueue
