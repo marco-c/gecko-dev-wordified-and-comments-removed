@@ -12,6 +12,8 @@ Module
 configdir
 =
 '
+.
+/
 security
 /
 manager
