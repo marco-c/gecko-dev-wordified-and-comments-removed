@@ -2252,7 +2252,7 @@ URLSearchParams
 Link
 :
 :
-GetSearchParams
+SearchParams
 (
 )
 {
@@ -2271,19 +2271,10 @@ Link
 SetSearchParams
 (
 URLSearchParams
-*
+&
 aSearchParams
 )
 {
-if
-(
-!
-aSearchParams
-)
-{
-return
-;
-}
 if
 (
 mSearchParams
@@ -2300,6 +2291,7 @@ this
 }
 mSearchParams
 =
+&
 aSearchParams
 ;
 mSearchParams

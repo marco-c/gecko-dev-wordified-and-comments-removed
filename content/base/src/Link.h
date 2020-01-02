@@ -203,7 +203,7 @@ dom
 :
 :
 URLSearchParams
-*
+&
 aSearchParams
 )
 ;
@@ -291,7 +291,7 @@ _search
 ;
 URLSearchParams
 *
-GetSearchParams
+SearchParams
 (
 )
 ;

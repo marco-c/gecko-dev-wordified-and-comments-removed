@@ -410,7 +410,7 @@ aSearch
 ;
 URLSearchParams
 *
-GetSearchParams
+SearchParams
 (
 )
 ;
@@ -418,7 +418,7 @@ void
 SetSearchParams
 (
 URLSearchParams
-*
+&
 aSearchParams
 )
 ;

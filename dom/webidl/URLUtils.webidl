@@ -269,7 +269,6 @@ search
 ;
 attribute
 URLSearchParams
-?
 searchParams
 ;
 attribute
