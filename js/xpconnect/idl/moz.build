@@ -103,11 +103,6 @@ mozIJSSubScriptLoader
 idl
 '
 '
-nsIJSEngineTelemetryStats
-.
-idl
-'
-'
 nsIJSRuntimeService
 .
 idl

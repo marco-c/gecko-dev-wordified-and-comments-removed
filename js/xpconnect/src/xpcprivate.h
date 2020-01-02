@@ -350,13 +350,6 @@ h
 #
 include
 "
-nsIJSEngineTelemetryStats
-.
-h
-"
-#
-include
-"
 nsIConsoleService
 .
 h
@@ -906,8 +899,6 @@ public
 nsSupportsWeakReference
 public
 nsIJSRuntimeService
-public
-nsIJSEngineTelemetryStats
 {
 public
 :
@@ -915,7 +906,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIXPCONNECT
 NS_DECL_NSITHREADOBSERVER
 NS_DECL_NSIJSRUNTIMESERVICE
-NS_DECL_NSIJSENGINETELEMETRYSTATS
 public
 :
 static
