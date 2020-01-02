@@ -41,6 +41,10 @@ nsWinMetroUtils
 (
 )
 ;
+static
+bool
+sUpdatePending
+;
 }
 ;
 }
