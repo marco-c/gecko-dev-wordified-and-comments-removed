@@ -14781,8 +14781,11 @@ nsGenericHTMLElement
 :
 GetWidthHeightForImage
 (
-imgIRequest
-*
+nsRefPtr
+<
+imgRequestProxy
+>
+&
 aImageRequest
 )
 {
