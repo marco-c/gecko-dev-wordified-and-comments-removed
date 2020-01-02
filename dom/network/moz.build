@@ -131,8 +131,6 @@ if
 CONFIG
 [
 '
-tests
-/
 MOZ_B2G_RIL
 '
 ]
