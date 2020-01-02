@@ -242,6 +242,9 @@ Layer
 class
 ThebesBufferData
 ;
+class
+TiledThebesLayerComposite
+;
 struct
 EffectChain
 ;
