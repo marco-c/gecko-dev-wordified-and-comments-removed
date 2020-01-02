@@ -194,6 +194,9 @@ type
 "
 commands
 "
+"
+version
+"
 ]
 )
 ;
@@ -2052,6 +2055,16 @@ this
 engine
 .
 localCommands
+;
+record
+.
+version
+=
+Services
+.
+appinfo
+.
+version
 ;
 }
 else
