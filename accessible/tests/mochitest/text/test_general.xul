@@ -576,9 +576,14 @@ textbox
 testTextAtOffset
 (
 [
+getNode
+(
 "
 tbox1
 "
+)
+.
+inputField
 ]
 BOUNDARY_LINE_START
 [

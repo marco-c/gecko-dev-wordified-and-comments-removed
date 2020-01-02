@@ -299,6 +299,16 @@ id
 textbox
 "
 ;
+var
+input
+=
+getNode
+(
+id
+)
+.
+inputField
+;
 gQueue
 .
 push
@@ -311,7 +321,7 @@ new
 caretMoveChecker
 (
 5
-id
+input
 )
 )
 )
@@ -328,7 +338,7 @@ new
 caretMoveChecker
 (
 5
-id
+input
 )
 )
 )
@@ -345,7 +355,7 @@ new
 caretMoveChecker
 (
 0
-id
+input
 )
 )
 )
@@ -362,7 +372,7 @@ new
 caretMoveChecker
 (
 1
-id
+input
 )
 )
 )

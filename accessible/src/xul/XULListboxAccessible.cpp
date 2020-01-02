@@ -2661,7 +2661,10 @@ eNameOK
 }
 }
 return
-GetXULName
+Accessible
+:
+:
+NativeName
 (
 aName
 )
