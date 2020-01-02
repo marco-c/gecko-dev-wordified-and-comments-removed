@@ -154,7 +154,7 @@ FlushInstructionCache
 GetCurrentProcess
 (
 )
-NULL
+nullptr
 0
 )
 ;
@@ -174,7 +174,7 @@ mModule
 LoadLibraryExA
 (
 modulename
-NULL
+nullptr
 0
 )
 ;
@@ -469,7 +469,7 @@ FlushInstructionCache
 GetCurrentProcess
 (
 )
-NULL
+nullptr
 0
 )
 ;
@@ -761,7 +761,7 @@ mModule
 LoadLibraryExA
 (
 modulename
-NULL
+nullptr
 0
 )
 ;
@@ -812,7 +812,7 @@ VirtualAllocEx
 GetCurrentProcess
 (
 )
-NULL
+nullptr
 mMaxHooks
 *
 kHookSize
@@ -995,7 +995,7 @@ outTramp
 *
 outTramp
 =
-NULL
+nullptr
 ;
 byteptr_t
 tramp
@@ -2626,7 +2626,7 @@ WindowsDllInterceptor
 :
 mModuleName
 (
-NULL
+nullptr
 )
 mNHooks
 (

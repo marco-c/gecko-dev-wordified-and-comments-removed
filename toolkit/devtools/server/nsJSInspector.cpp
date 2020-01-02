@@ -433,7 +433,7 @@ kJSInspectorCIDs
 &
 kJSINSPECTOR_CID
 false
-NULL
+nullptr
 mozilla
 :
 :
@@ -443,7 +443,7 @@ jsinspector
 nsJSInspectorConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -467,7 +467,7 @@ JSINSPECTOR_CONTRACTID
 kJSINSPECTOR_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

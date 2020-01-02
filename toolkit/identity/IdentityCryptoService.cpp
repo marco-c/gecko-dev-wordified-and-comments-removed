@@ -598,7 +598,7 @@ mPrivateKey
 ;
 mPrivateKey
 =
-NULL
+nullptr
 ;
 SECKEY_DestroyPublicKey
 (
@@ -607,7 +607,7 @@ mPublicKey
 ;
 mPublicKey
 =
-NULL
+nullptr
 ;
 }
 SECKEYPrivateKey
@@ -710,7 +710,7 @@ return
 ;
 mKeyPair
 =
-NULL
+nullptr
 ;
 }
 const
@@ -828,7 +828,7 @@ mPrivateKey
 ;
 mPrivateKey
 =
-NULL
+nullptr
 ;
 }
 const
@@ -1633,7 +1633,7 @@ params
 *
 publicKey
 =
-NULL
+nullptr
 ;
 *
 privateKey
@@ -1646,7 +1646,7 @@ params
 publicKey
 PR_FALSE
 PR_TRUE
-NULL
+nullptr
 )
 ;
 if
@@ -1688,7 +1688,7 @@ privateKey
 *
 privateKey
 =
-NULL
+nullptr
 ;
 MOZ_CRASH
 (
@@ -2143,7 +2143,7 @@ PQGParams
 pqgParams
 =
 {
-NULL
+nullptr
 {
 siBuffer
 P
@@ -2270,13 +2270,13 @@ SECKEYPrivateKey
 *
 privk
 =
-NULL
+nullptr
 ;
 SECKEYPublicKey
 *
 pubk
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -2470,7 +2470,7 @@ sig
 =
 {
 siBuffer
-NULL
+nullptr
 0
 }
 ;
@@ -2506,7 +2506,7 @@ if
 !
 SECITEM_AllocItem
 (
-NULL
+nullptr
 &
 sig
 sigLength
@@ -2737,11 +2737,11 @@ kCIDs
 &
 kNS_IDENTITYCRYPTOSERVICE_CID
 false
-NULL
+nullptr
 IdentityCryptoServiceConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -2776,7 +2776,7 @@ service
 kNS_IDENTITYCRYPTOSERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

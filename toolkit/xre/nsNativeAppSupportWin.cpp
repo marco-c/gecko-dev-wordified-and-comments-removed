@@ -1783,7 +1783,7 @@ desRes
 {
 mHandle
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3008,8 +3008,8 @@ DdeQueryString
 (
 instance
 hsz
-NULL
-NULL
+nullptr
+nullptr
 CP_WINANSI
 )
 ;
@@ -4519,7 +4519,7 @@ DdeQueryStringW
 (
 mInstance
 args
-NULL
+nullptr
 0
 CP_WINUNICODE
 )

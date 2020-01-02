@@ -281,7 +281,7 @@ arg
 =
 strtok
 (
-NULL
+nullptr
 "
 "
 )

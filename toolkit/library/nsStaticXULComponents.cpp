@@ -894,7 +894,7 @@ WifiProxyServiceModule
 )
 #
 endif
-NULL
+nullptr
 }
 ;
 #

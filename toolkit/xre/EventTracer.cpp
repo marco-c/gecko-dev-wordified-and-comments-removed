@@ -103,7 +103,7 @@ PRThread
 *
 sTracerThread
 =
-NULL
+nullptr
 ;
 bool
 sExit
@@ -171,7 +171,7 @@ FILE
 *
 log
 =
-NULL
+nullptr
 ;
 char
 *
@@ -205,7 +205,7 @@ if
 log
 =
 =
-NULL
+nullptr
 )
 log
 =
@@ -614,7 +614,7 @@ return
 sTracerThread
 !
 =
-NULL
+nullptr
 ;
 }
 void
@@ -648,7 +648,7 @@ sTracerThread
 ;
 sTracerThread
 =
-NULL
+nullptr
 ;
 CleanUpWidgetTracing
 (

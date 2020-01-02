@@ -86,7 +86,7 @@ char
 *
 foundContentType
 =
-NULL
+nullptr
 ;
 while
 (
@@ -163,7 +163,7 @@ contentTypes
 GFunc
 )
 g_free
-NULL
+nullptr
 )
 ;
 g_list_free
@@ -382,7 +382,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 gboolean
 result
@@ -392,7 +392,7 @@ g_app_info_launch_uris
 mApp
 &
 uris
-NULL
+nullptr
 &
 error
 )
@@ -625,7 +625,7 @@ while
 uri_schemes
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -704,7 +704,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 g_app_info_set_as_default_for_type
 (
@@ -791,7 +791,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 char
 *
@@ -960,7 +960,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 nsAutoCString
 contentType
@@ -1095,7 +1095,7 @@ fileExtToUse
 get
 (
 )
-NULL
+nullptr
 0
 &
 result_uncertain
@@ -1440,7 +1440,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1452,7 +1452,7 @@ spec
 get
 (
 )
-NULL
+nullptr
 &
 error
 )
@@ -1537,12 +1537,12 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 g_app_info_launch_default_for_uri
 (
 spec
-NULL
+nullptr
 &
 error
 )
@@ -1620,7 +1620,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 *
 appInfo
@@ -1631,11 +1631,11 @@ GAppInfo
 *
 app_info
 =
-NULL
+nullptr
 *
 app_info_from_list
 =
-NULL
+nullptr
 ;
 GList
 *

@@ -266,11 +266,11 @@ kSysProxyCIDs
 &
 kNS_ANDROIDSYSTEMPROXYSERVICE_CID
 false
-NULL
+nullptr
 nsAndroidSystemProxySettingsConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -294,7 +294,7 @@ NS_SYSTEMPROXYSETTINGS_CONTRACTID
 kNS_ANDROIDSYSTEMPROXYSERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

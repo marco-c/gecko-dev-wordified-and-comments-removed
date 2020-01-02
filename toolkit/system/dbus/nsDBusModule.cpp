@@ -93,11 +93,11 @@ kDBUSCIDs
 &
 kNS_DBUS_NETWORK_LINK_SERVICE_CID
 false
-NULL
+nullptr
 nsNetworkManagerListenerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -121,7 +121,7 @@ NS_NETWORK_LINK_SERVICE_CONTRACTID
 kNS_DBUS_NETWORK_LINK_SERVICE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

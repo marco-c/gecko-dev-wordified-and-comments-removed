@@ -95,7 +95,7 @@ L
 )
 !
 =
-NULL
+nullptr
 ;
 BOOL
 addDoubleQuotes
@@ -111,7 +111,7 @@ t
 )
 !
 =
-NULL
+nullptr
 ;
 if
 (
@@ -220,7 +220,7 @@ L
 )
 !
 =
-NULL
+nullptr
 ;
 BOOL
 addDoubleQuotes
@@ -236,7 +236,7 @@ t
 )
 !
 =
-NULL
+nullptr
 ;
 if
 (
@@ -470,7 +470,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 PRUnichar
 *
@@ -582,7 +582,7 @@ if
 s
 )
 return
-NULL
+nullptr
 ;
 ConvertUTF8toUTF16
 convert
@@ -660,12 +660,12 @@ argv
 HANDLE
 userToken
 =
-NULL
+nullptr
 HANDLE
 *
 hProcess
 =
-NULL
+nullptr
 )
 ;
 BOOL
@@ -864,7 +864,7 @@ if
 userToken
 =
 =
-NULL
+nullptr
 )
 {
 ok
@@ -873,12 +873,12 @@ CreateProcessW
 (
 exePath
 cl
-NULL
-NULL
+nullptr
+nullptr
 FALSE
 0
-NULL
-NULL
+nullptr
+nullptr
 &
 si
 &
@@ -891,7 +891,7 @@ else
 LPVOID
 environmentBlock
 =
-NULL
+nullptr
 ;
 if
 (
@@ -907,7 +907,7 @@ TRUE
 {
 environmentBlock
 =
-NULL
+nullptr
 ;
 }
 ok
@@ -917,12 +917,12 @@ CreateProcessAsUserW
 userToken
 exePath
 cl
-NULL
-NULL
+nullptr
+nullptr
 FALSE
 0
 environmentBlock
-NULL
+nullptr
 &
 si
 &
@@ -982,7 +982,7 @@ else
 LPVOID
 lpMsgBuf
 =
-NULL
+nullptr
 ;
 FormatMessage
 (
@@ -991,7 +991,7 @@ FORMAT_MESSAGE_ALLOCATE_BUFFER
 FORMAT_MESSAGE_FROM_SYSTEM
 |
 FORMAT_MESSAGE_IGNORE_INSERTS
-NULL
+nullptr
 GetLastError
 (
 )
@@ -1006,7 +1006,7 @@ LPTSTR
 &
 lpMsgBuf
 0
-NULL
+nullptr
 )
 ;
 wprintf

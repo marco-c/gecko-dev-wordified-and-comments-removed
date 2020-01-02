@@ -303,7 +303,7 @@ false
 )
 mNotification
 (
-NULL
+nullptr
 )
 {
 if
@@ -629,7 +629,7 @@ mLoadedFrame
 {
 ShowAlert
 (
-NULL
+nullptr
 )
 ;
 }
@@ -803,8 +803,8 @@ mAlertText
 get
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -846,7 +846,7 @@ Activate
 "
 notify_action_cb
 this
-NULL
+nullptr
 )
 ;
 }
@@ -887,7 +887,7 @@ result
 notify_notification_show
 (
 mNotification
-NULL
+nullptr
 )
 ;
 return
@@ -951,7 +951,7 @@ imageUri
 return
 ShowAlert
 (
-NULL
+nullptr
 )
 ;
 nsCOMPtr
@@ -984,7 +984,7 @@ il
 return
 ShowAlert
 (
-NULL
+nullptr
 )
 ;
 return
@@ -1030,7 +1030,7 @@ mAlertListener
 >
 Observe
 (
-NULL
+nullptr
 "
 alertclickcallback
 "
@@ -1062,7 +1062,7 @@ mNotification
 ;
 mNotification
 =
-NULL
+nullptr
 ;
 }
 if
@@ -1074,7 +1074,7 @@ mAlertListener
 >
 Observe
 (
-NULL
+nullptr
 "
 alertfinished
 "
@@ -1138,7 +1138,7 @@ mNotification
 ;
 mNotification
 =
-NULL
+nullptr
 ;
 Release
 (
@@ -1363,7 +1363,7 @@ server_caps
 cap
 !
 =
-NULL
+nullptr
 ;
 cap
 =
@@ -1407,7 +1407,7 @@ server_caps
 GFunc
 )
 g_free
-NULL
+nullptr
 )
 ;
 g_list_free

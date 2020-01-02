@@ -663,7 +663,7 @@ dpy
 =
 XOpenDisplay
 (
-NULL
+nullptr
 )
 ;
 if
@@ -692,8 +692,8 @@ if
 glXQueryExtension
 (
 dpy
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 fatal_error
@@ -829,7 +829,7 @@ glXCreateContext
 (
 dpy
 vInfo
-NULL
+nullptr
 True
 )
 ;
@@ -989,7 +989,7 @@ glXMakeCurrent
 (
 dpy
 None
-NULL
+nullptr
 )
 ;
 glXDestroyContext

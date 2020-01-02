@@ -528,7 +528,7 @@ aSettings
 )
 mKeys
 (
-NULL
+nullptr
 )
 {
 }
@@ -627,7 +627,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 ;
 i
 +
@@ -962,7 +962,7 @@ Assign
 g_variant_get_string
 (
 value
-NULL
+nullptr
 )
 )
 ;
@@ -1269,7 +1269,7 @@ gs_strings
 g_variant_get_strv
 (
 value
-NULL
+nullptr
 )
 ;
 if
@@ -1309,7 +1309,7 @@ while
 p_gs_strings
 !
 =
-NULL
+nullptr
 )
 {
 nsCOMPtr
@@ -1586,7 +1586,7 @@ i
 ]
 !
 =
-NULL
+nullptr
 ;
 i
 +

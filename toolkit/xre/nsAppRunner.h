@@ -236,7 +236,7 @@ argv
 HANDLE
 userToken
 =
-NULL
+nullptr
 HANDLE
 *
 hProcess

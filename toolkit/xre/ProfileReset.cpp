@@ -736,7 +736,7 @@ centerscreen
 chrome
 titlebar
 "
-NULL
+nullptr
 getter_AddRefs
 (
 progressWindow

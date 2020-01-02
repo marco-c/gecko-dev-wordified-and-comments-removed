@@ -512,7 +512,7 @@ dbus_pending_call_set_notify
 reply
 NetworkStatusNotify
 this
-NULL
+nullptr
 )
 ;
 dbus_pending_call_unref
@@ -706,7 +706,7 @@ if
 dbus_message_get_args
 (
 msg
-NULL
+nullptr
 DBUS_TYPE_UINT32
 &
 result

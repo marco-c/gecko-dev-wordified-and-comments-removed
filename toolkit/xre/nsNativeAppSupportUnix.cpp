@@ -725,7 +725,7 @@ versionErrDialog
 =
 gtk_message_dialog_new
 (
-NULL
+nullptr
 GtkDialogFlags
 (
 GTK_DIALOG_MODAL
@@ -981,7 +981,7 @@ libgnomeui_module_info_get
 )
 gArgc
 gArgv
-NULL
+nullptr
 )
 ;
 }
@@ -1074,7 +1074,7 @@ G_CALLBACK
 (
 save_yourself_cb
 )
-NULL
+nullptr
 )
 ;
 g_signal_connect
@@ -1087,7 +1087,7 @@ G_CALLBACK
 (
 die_cb
 )
-NULL
+nullptr
 )
 ;
 nsAutoCString

@@ -4508,7 +4508,7 @@ NS_OK
 LPITEMIDLIST
 pItemIDList
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4516,7 +4516,7 @@ SUCCEEDED
 (
 SHGetSpecialFolderLocation
 (
-NULL
+nullptr
 folder
 &
 pItemIDList
@@ -4677,10 +4677,10 @@ L
 AppData
 "
 )
-NULL
+nullptr
 &
 type
-NULL
+nullptr
 &
 size
 )
@@ -4809,8 +4809,8 @@ L
 AppData
 "
 )
-NULL
-NULL
+nullptr
+nullptr
 (
 LPBYTE
 )
@@ -4925,7 +4925,7 @@ BeginReading
 (
 )
 0
-NULL
+nullptr
 (
 LPBYTE
 )

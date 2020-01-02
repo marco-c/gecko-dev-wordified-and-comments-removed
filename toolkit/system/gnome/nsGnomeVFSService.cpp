@@ -783,7 +783,7 @@ spec
 get
 (
 )
-NULL
+nullptr
 )
 =
 =
@@ -834,7 +834,7 @@ if
 gnome_vfs_url_show_with_env
 (
 spec
-NULL
+nullptr
 )
 =
 =

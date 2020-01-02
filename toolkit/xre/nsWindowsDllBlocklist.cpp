@@ -498,7 +498,7 @@ MAKE_VERSION
 )
 }
 {
-NULL
+nullptr
 0
 }
 }
@@ -734,10 +734,10 @@ CreateFileW
 path
 GENERIC_READ
 FILE_SHARE_READ
-NULL
+nullptr
 OPEN_EXISTING
 FILE_ATTRIBUTE_NORMAL
-NULL
+nullptr
 )
 ;
 if
@@ -756,11 +756,11 @@ map
 CreateFileMappingW
 (
 file
-NULL
+nullptr
 PAGE_READONLY
 0
 0
-NULL
+nullptr
 )
 ;
 if
@@ -1079,7 +1079,7 @@ filePath
 1024
 )
 ?
-NULL
+nullptr
 :
 filePath
 ;
@@ -1096,8 +1096,8 @@ L
 dll
 "
 0
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -1147,7 +1147,7 @@ pathlen
 +
 1
 full_fname
-NULL
+nullptr
 )
 ;
 return
