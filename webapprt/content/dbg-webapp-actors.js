@@ -120,7 +120,9 @@ function
 let
 topXULWindow
 =
-windowMediator
+Services
+.
+wm
 .
 getMostRecentWindow
 (
