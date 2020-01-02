@@ -129,7 +129,7 @@ FontInfoLoadCompleteEvent
 )
 {
 }
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 FontInfoLoadCompleteEvent
 (
 FontInfoData
@@ -169,7 +169,7 @@ AsyncFontInfoLoader
 )
 {
 }
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 AsyncFontInfoLoader
 (
 FontInfoData
@@ -252,10 +252,10 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 FontInfoLoadCompleteEvent
-nsIRunnable
+nsRunnable
 )
 ;
 nsresult
@@ -286,10 +286,10 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 AsyncFontInfoLoader
-nsIRunnable
+nsRunnable
 )
 ;
 NS_IMPL_ISUPPORTS

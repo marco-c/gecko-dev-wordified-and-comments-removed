@@ -156,7 +156,7 @@ DesktopNotificationRequest
 }
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSICONTENTPERMISSIONREQUEST
 DesktopNotificationRequest
 (
@@ -1242,11 +1242,11 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 DesktopNotificationRequest
+nsRunnable
 nsIContentPermissionRequest
-nsIRunnable
 )
 NS_IMETHODIMP
 DesktopNotificationRequest

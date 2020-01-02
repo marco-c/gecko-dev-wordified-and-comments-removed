@@ -137,9 +137,10 @@ nsObjCExceptions
 .
 h
 "
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsStandaloneNativeMenu
+nsMenuGroupOwnerX
 nsIMutationObserver
 nsIStandaloneNativeMenu
 )

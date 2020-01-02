@@ -5,9 +5,10 @@ nsSemanticUnitScanner
 .
 h
 "
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsSemanticUnitScanner
+nsSampleWordBreaker
 nsISemanticUnitScanner
 )
 nsSemanticUnitScanner

@@ -1571,10 +1571,10 @@ nullptr
 ;
 }
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 PlacesEvent
-nsIRunnable
+nsRunnable
 )
 NS_IMETHODIMP
 AsyncStatementCallbackNotifier
