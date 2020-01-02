@@ -986,7 +986,7 @@ aUserSpaceRect
 const
 {
 return
-IntermediateSpaceToUserSpace
+UserSpaceToIntermediateSpace
 (
 aUserSpaceRect
 -
