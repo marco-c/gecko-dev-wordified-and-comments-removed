@@ -327,7 +327,10 @@ using
 nsRect
 ;
 using
-nsSelectionEvent
+mozilla
+:
+:
+WidgetSelectionEvent
 ;
 using
 mozilla
@@ -2345,7 +2348,7 @@ event
 ;
 SelectionEvent
 (
-nsSelectionEvent
+WidgetSelectionEvent
 event
 )
 ;

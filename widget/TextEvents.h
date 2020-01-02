@@ -1524,12 +1524,5 @@ mSucceeded
 }
 ;
 }
-typedef
-mozilla
-:
-:
-WidgetSelectionEvent
-nsSelectionEvent
-;
 #
 endif

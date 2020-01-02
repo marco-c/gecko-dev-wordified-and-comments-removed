@@ -567,7 +567,7 @@ nsContentEventHandler
 :
 Init
 (
-nsSelectionEvent
+WidgetSelectionEvent
 *
 aEvent
 )
@@ -6079,7 +6079,7 @@ nsContentEventHandler
 :
 OnSelectionEvent
 (
-nsSelectionEvent
+WidgetSelectionEvent
 *
 aEvent
 )

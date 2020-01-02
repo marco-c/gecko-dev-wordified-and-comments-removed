@@ -1004,7 +1004,10 @@ bool
 RecvSelectionEvent
 (
 const
-nsSelectionEvent
+mozilla
+:
+:
+WidgetSelectionEvent
 &
 event
 )

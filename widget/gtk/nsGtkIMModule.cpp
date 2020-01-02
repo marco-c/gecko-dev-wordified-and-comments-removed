@@ -6561,7 +6561,7 @@ get
 endInUTF8Characters
 )
 ;
-nsSelectionEvent
+WidgetSelectionEvent
 selectionEvent
 (
 true

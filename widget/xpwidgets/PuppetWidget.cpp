@@ -1244,7 +1244,7 @@ mIMELastReceivedSeqno
 =
 static_cast
 <
-nsSelectionEvent
+WidgetSelectionEvent
 *
 >
 (

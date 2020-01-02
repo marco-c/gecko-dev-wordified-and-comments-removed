@@ -26519,7 +26519,7 @@ kungFuDeathGrip
 this
 )
 ;
-nsSelectionEvent
+WidgetSelectionEvent
 selectionEvent
 (
 true

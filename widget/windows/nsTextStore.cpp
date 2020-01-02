@@ -4958,7 +4958,7 @@ IsEmpty
 )
 )
 ;
-nsSelectionEvent
+WidgetSelectionEvent
 selectionSet
 (
 true
@@ -6141,7 +6141,7 @@ mSelectionReversed
 )
 )
 ;
-nsSelectionEvent
+WidgetSelectionEvent
 selectionSet
 (
 true

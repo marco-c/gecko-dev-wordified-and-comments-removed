@@ -158,7 +158,10 @@ aEvent
 nsresult
 OnSelectionEvent
 (
-nsSelectionEvent
+mozilla
+:
+:
+WidgetSelectionEvent
 *
 aEvent
 )
@@ -207,7 +210,10 @@ aEvent
 nsresult
 Init
 (
-nsSelectionEvent
+mozilla
+:
+:
+WidgetSelectionEvent
 *
 aEvent
 )

@@ -9415,7 +9415,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsSelectionEvent
+WidgetSelectionEvent
 selectionEvent
 (
 true

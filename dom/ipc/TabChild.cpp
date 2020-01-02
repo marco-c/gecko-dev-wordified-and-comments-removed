@@ -8768,12 +8768,12 @@ TabChild
 RecvSelectionEvent
 (
 const
-nsSelectionEvent
+WidgetSelectionEvent
 &
 event
 )
 {
-nsSelectionEvent
+WidgetSelectionEvent
 localEvent
 (
 event
