@@ -5562,7 +5562,7 @@ SingletonObject
 if
 (
 !
-proto
+protoProto
 )
 return
 nullptr
