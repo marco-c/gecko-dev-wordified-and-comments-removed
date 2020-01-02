@@ -2580,6 +2580,15 @@ status
 !
 =
 =
+undefined
+&
+&
+message
+.
+status
+!
+=
+=
 NFC
 .
 NFC_SUCCESS
