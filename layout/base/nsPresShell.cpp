@@ -27573,7 +27573,7 @@ nsIPresShell
 >
 parent
 =
-GetParentPresShell
+GetParentPresShellForEventHandling
 (
 )
 ;
@@ -27599,7 +27599,7 @@ nsIPresShell
 PresShell
 :
 :
-GetParentPresShell
+GetParentPresShellForEventHandling
 (
 )
 {
@@ -27733,7 +27733,7 @@ nsIPresShell
 >
 parentPresShell
 =
-GetParentPresShell
+GetParentPresShellForEventHandling
 (
 )
 ;
