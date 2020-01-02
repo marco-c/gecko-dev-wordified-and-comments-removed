@@ -5099,6 +5099,9 @@ button
 tabs
 -
 closebutton
+close
+-
+icon
 "
 command
 =
@@ -9757,6 +9760,9 @@ class
 tabs
 -
 closebutton
+close
+-
+icon
 "
 tooltiptext
 =
@@ -10760,6 +10766,13 @@ id
 addonbar
 -
 closebutton
+"
+class
+=
+"
+close
+-
+icon
 "
 tooltiptext
 =

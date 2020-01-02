@@ -7128,6 +7128,9 @@ popup
 notification
 -
 closeitem
+close
+-
+icon
 "
 label
 =
@@ -7196,6 +7199,9 @@ class
 =
 "
 messageCloseButton
+close
+-
+icon
 popup
 -
 notification
@@ -8946,6 +8952,9 @@ popup
 notification
 -
 closeitem
+close
+-
+icon
 "
 label
 =
@@ -9014,6 +9023,9 @@ class
 =
 "
 messageCloseButton
+close
+-
+icon
 popup
 -
 notification
@@ -11437,6 +11449,9 @@ popup
 notification
 -
 closeitem
+close
+-
+icon
 "
 label
 =
@@ -12256,6 +12271,9 @@ panel
 promo
 -
 closebutton
+close
+-
+icon
 "
 oncommand
 =

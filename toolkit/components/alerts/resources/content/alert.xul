@@ -403,6 +403,9 @@ class
 =
 "
 alertCloseButton
+close
+-
+icon
 "
 tooltiptext
 =

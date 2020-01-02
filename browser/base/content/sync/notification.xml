@@ -718,6 +718,9 @@ class
 =
 "
 messageCloseButton
+close
+-
+icon
 tabbable
 "
 xbl
