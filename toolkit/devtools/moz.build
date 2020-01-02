@@ -126,9 +126,6 @@ pretty
 -
 fast
 '
-'
-tern
-'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
