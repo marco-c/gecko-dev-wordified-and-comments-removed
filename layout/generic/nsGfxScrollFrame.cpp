@@ -6781,6 +6781,12 @@ gScrollFrameActivityTracker
 =
 nullptr
 ;
+static
+uint32_t
+sScrollGenerationCounter
+=
+0
+;
 ScrollFrameHelper
 :
 :
@@ -6830,7 +6836,9 @@ other
 )
 mScrollGeneration
 (
-0
++
++
+sScrollGenerationCounter
 )
 mDestination
 (
@@ -9190,8 +9198,10 @@ mOriginOfLastScroll
 aOrigin
 ;
 mScrollGeneration
+=
 +
 +
+sScrollGenerationCounter
 ;
 ScrollVisual
 (
