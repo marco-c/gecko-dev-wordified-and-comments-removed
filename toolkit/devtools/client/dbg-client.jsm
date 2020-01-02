@@ -798,7 +798,7 @@ aName
 ;
 aProto
 .
-notify
+emit
 =
 function
 (
@@ -1255,7 +1255,7 @@ aPacket
 ;
 this
 .
-notify
+emit
 (
 "
 connected
@@ -3516,7 +3516,7 @@ type
 {
 this
 .
-notify
+emit
 (
 aPacket
 .
@@ -3688,7 +3688,7 @@ aStatus
 {
 this
 .
-notify
+emit
 (
 "
 closed
@@ -6498,7 +6498,7 @@ _scriptCache
 }
 this
 .
-notify
+emit
 (
 "
 scriptscleared
@@ -6695,7 +6695,7 @@ frame
 }
 this
 .
-notify
+emit
 (
 "
 framesadded
@@ -6740,7 +6740,7 @@ _frameCache
 ;
 this
 .
-notify
+emit
 (
 "
 framescleared
@@ -7026,7 +7026,7 @@ _eventsEnabled
 &
 this
 .
-notify
+emit
 (
 aPacket
 .
@@ -8100,7 +8100,7 @@ this
 .
 _activeThread
 .
-notify
+emit
 (
 "
 blackboxchange
@@ -8167,7 +8167,7 @@ this
 .
 _activeThread
 .
-notify
+emit
 (
 "
 blackboxchange
@@ -8296,7 +8296,7 @@ this
 .
 _activeThread
 .
-notify
+emit
 (
 "
 prettyprintchange
@@ -8379,7 +8379,7 @@ this
 .
 _activeThread
 .
-notify
+emit
 (
 "
 prettyprintchange

@@ -4674,6 +4674,9 @@ function
 actorID
 eventName
 event
+=
+{
+}
 )
 {
 event
