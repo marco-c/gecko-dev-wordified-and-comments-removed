@@ -3115,6 +3115,19 @@ context
 )
 :
         
+topsrcdir
+=
+context
+.
+topdir
+        
+topobjdir
+=
+None
+        
+try
+:
+            
 dummy
 =
 MozbuildObject
@@ -3127,16 +3140,24 @@ context
 .
 cwd
 )
-        
+            
 topsrcdir
 =
 dummy
 .
 topsrcdir
-or
-context
+            
+topobjdir
+=
+dummy
 .
-topdir
+_topobjdir
+        
+except
+BuildEnvironmentNotFoundException
+:
+            
+pass
         
 MozbuildObject
 .
@@ -3153,9 +3174,7 @@ context
 log_manager
 topobjdir
 =
-dummy
-.
-_topobjdir
+topobjdir
 )
         
 self
