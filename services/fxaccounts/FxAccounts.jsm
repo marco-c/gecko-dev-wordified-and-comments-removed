@@ -2796,6 +2796,11 @@ data
 .
 keyFetchToken
 ;
+delete
+data
+.
+unwrapBKey
+;
 log
 .
 debug
