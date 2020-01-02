@@ -570,7 +570,7 @@ return
 runtime_
 -
 >
-helperThreadCount
+workerThreadCount
 (
 )
 ;

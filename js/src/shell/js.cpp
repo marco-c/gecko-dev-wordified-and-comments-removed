@@ -29911,7 +29911,7 @@ runtime
 )
 -
 >
-requestHelperThreadCount
+setFakeCPUCount
 (
 threadCount
 )
@@ -30965,7 +30965,7 @@ runtime
 )
 -
 >
-helperThreadCount
+workerThreadCount
 (
 )
 =
@@ -31034,7 +31034,7 @@ runtime
 )
 -
 >
-setCanUseHelperThreadsForIonCompilation
+setParallelIonCompilationEnabled
 (
 parallelCompilation
 )

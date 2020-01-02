@@ -30750,8 +30750,6 @@ numThreads
 1
 ;
 return
-OffThreadIonCompilationEnabled
-(
 cx
 -
 >
@@ -30763,6 +30761,10 @@ asJSContext
 runtime
 (
 )
+-
+>
+canUseParallelIonCompilation
+(
 )
 ;
 }
