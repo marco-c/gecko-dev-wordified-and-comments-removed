@@ -5689,12 +5689,6 @@ return
 NS_VK_NONCONVERT
 ;
 case
-GDK_space
-:
-return
-NS_VK_SPACE
-;
-case
 GDK_Page_Up
 :
 return
