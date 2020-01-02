@@ -199,6 +199,11 @@ PrimitiveConversions
 h
 '
 '
+RootedDictionary
+.
+h
+'
+'
 TypedArray
 .
 h
