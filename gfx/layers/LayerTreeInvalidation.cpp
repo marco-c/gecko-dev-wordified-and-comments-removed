@@ -792,11 +792,6 @@ OldTransformedBounds
 (
 )
 ;
-if
-(
-transformChanged
-)
-{
 AddRegion
 (
 result
@@ -805,7 +800,6 @@ NewTransformedBounds
 )
 )
 ;
-}
 if
 (
 !
