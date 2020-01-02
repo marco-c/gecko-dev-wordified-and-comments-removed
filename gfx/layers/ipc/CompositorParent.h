@@ -568,6 +568,14 @@ AllocateLayerTreeId
 ;
 static
 void
+DeallocateLayerTreeId
+(
+uint64_t
+aId
+)
+;
+static
+void
 SetControllerForLayerTree
 (
 uint64_t
