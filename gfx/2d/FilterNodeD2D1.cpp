@@ -97,7 +97,7 @@ D2D1_COLORMATRIX_ALPHA_MODE_PREMULTIPLIED
 D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE
 D2DAffineTransformInterpolationMode
 (
-uint32_t
+Filter
 aFilter
 )
 {
@@ -648,7 +648,10 @@ aValue
 =
 D2DAffineTransformInterpolationMode
 (
+Filter
+(
 aValue
+)
 )
 ;
 }

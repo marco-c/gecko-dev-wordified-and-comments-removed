@@ -113,10 +113,13 @@ ID3D10BlendState
 >
 mBlendStates
 [
+size_t
+(
 CompositionOp
 :
 :
 OP_COUNT
+)
 ]
 ;
 }
