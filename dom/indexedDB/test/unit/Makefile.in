@@ -204,6 +204,10 @@ test_objectStore_inline_autoincrement_key_added_on_put
 .
 js
 \
+test_objectStore_openKeyCursor
+.
+js
+\
 test_objectStore_remove_values
 .
 js
