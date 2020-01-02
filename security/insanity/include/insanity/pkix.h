@@ -104,6 +104,12 @@ const
 SECItem
 *
 encodedResponse
+PRTime
+*
+thisUpdate
+PRTime
+*
+validThrough
 )
 ;
 }

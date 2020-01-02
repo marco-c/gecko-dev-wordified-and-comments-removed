@@ -107,6 +107,11 @@ NSSCertDBTrustDomain
 .
 cpp
 '
+'
+OCSPCache
+.
+cpp
+'
 ]
 if
 not

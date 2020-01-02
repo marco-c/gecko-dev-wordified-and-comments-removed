@@ -631,6 +631,10 @@ com
 "
 getXPCOMStatusFromNSS
 (
+useInsanity
+?
+SEC_ERROR_BAD_DER
+:
 SEC_ERROR_OCSP_UNKNOWN_CERT
 )
 true
@@ -702,6 +706,10 @@ com
 "
 getXPCOMStatusFromNSS
 (
+useInsanity
+?
+SEC_ERROR_BAD_DER
+:
 SEC_ERROR_OCSP_MALFORMED_RESPONSE
 )
 true
@@ -757,8 +765,6 @@ counts
 [
 0
 ]
-2
-*
 0
 )
 ;
@@ -770,8 +776,6 @@ counts
 [
 1
 ]
-2
-*
 1
 )
 ;
@@ -783,8 +787,6 @@ counts
 [
 2
 ]
-2
-*
 14
 )
 ;
@@ -796,8 +798,6 @@ counts
 [
 3
 ]
-2
-*
 0
 )
 ;
@@ -809,8 +809,6 @@ counts
 [
 4
 ]
-2
-*
 11
 )
 ;
