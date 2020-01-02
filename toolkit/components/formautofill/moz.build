@@ -147,7 +147,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIAutofillController
+nsIFormAutofillContentService
 .
 idl
 '
@@ -162,13 +162,13 @@ EXTRA_COMPONENTS
 =
 [
 '
-AutofillController
-.
-js
-'
-'
 formautofill
 .
 manifest
+'
+'
+FormAutofillContentService
+.
+js
 '
 ]

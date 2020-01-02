@@ -10,7 +10,7 @@ ed9c2c3c
 -
 10f71b0f19e6
 }
-AutofillController
+FormAutofillContentService
 .
 js
 contract
@@ -18,9 +18,11 @@ mozilla
 .
 org
 /
-autofill
+formautofill
+/
+content
 -
-controller
+service
 ;
 1
 {
