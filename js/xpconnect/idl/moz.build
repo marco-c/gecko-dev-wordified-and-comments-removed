@@ -123,11 +123,6 @@ nsIXPCScriptable
 idl
 '
 '
-nsIXPCSecurityManager
-.
-idl
-'
-'
 xpccomponents
 .
 idl

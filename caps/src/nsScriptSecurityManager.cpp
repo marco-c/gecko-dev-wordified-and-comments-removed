@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIXPCSecurityManager
-.
-h
-"
-#
-include
-"
 nsTextFormatter
 .
 h
@@ -1333,7 +1326,6 @@ NS_IMPL_ISUPPORTS
 (
 nsScriptSecurityManager
 nsIScriptSecurityManager
-nsIXPCSecurityManager
 nsIChannelEventSink
 nsIObserver
 )
