@@ -2670,6 +2670,8 @@ false
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (
