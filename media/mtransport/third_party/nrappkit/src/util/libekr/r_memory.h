@@ -8,6 +8,13 @@ _r_memory_h
 define
 R_MALLOC_X
 2
+#
+include
+"
+r_types
+.
+h
+"
 void
 *
 r_malloc
