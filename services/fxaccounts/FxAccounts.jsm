@@ -2503,7 +2503,7 @@ internal
 .
 startVerifiedCheck
 (
-credentials
+data
 )
 ;
 }
