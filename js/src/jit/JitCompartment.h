@@ -1300,6 +1300,11 @@ typedef
 HashSet
 <
 PreBarrieredScript
+DefaultHasher
+<
+PreBarrieredScript
+>
+SystemAllocPolicy
 >
 ScriptSet
 ;
