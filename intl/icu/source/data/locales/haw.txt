@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -288,7 +288,7 @@ latn
 {
 patterns
 {
-currencyFormat
+accountingFormat
 {
 "
 #
@@ -308,6 +308,17 @@ currencyFormat
 )
 "
 }
+currencyFormat
+{
+"
+#
+#
+#
+0
+.
+00
+"
+}
 }
 }
 }
@@ -318,9 +329,9 @@ Version
 .
 0
 .
-74
+93
 .
-85
+15
 "
 }
 calendar
@@ -505,6 +516,8 @@ Mekalika
 }
 units
 {
+duration
+{
 day
 {
 one
@@ -650,6 +663,7 @@ other
 }
 makahiki
 "
+}
 }
 }
 }

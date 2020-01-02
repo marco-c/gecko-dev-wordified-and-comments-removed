@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -213,6 +213,14 @@ xml
 *
 en_SG
 {
+%
+%
+Parent
+{
+"
+en_GB
+"
+}
 Currencies
 {
 SGD
@@ -242,9 +250,9 @@ Version
 .
 0
 .
-77
+92
 .
-46
+80
 "
 }
 }

@@ -193,6 +193,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 void
 writeSimple
@@ -206,6 +207,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 virtual
 TimeZone
@@ -341,6 +343,7 @@ TimeZoneTransition
 &
 result
 )
+const
 ;
 virtual
 UBool
@@ -354,6 +357,7 @@ TimeZoneTransition
 &
 result
 )
+const
 ;
 virtual
 int32_t
@@ -363,6 +367,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 virtual
 void
@@ -386,6 +391,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 private
 :
@@ -434,6 +440,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 void
 writeSimple
@@ -447,6 +454,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 void
 load

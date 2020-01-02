@@ -2376,7 +2376,7 @@ i
 =
 0
 ;
-U8_NEXT
+U8_NEXT_OR_FFFD
 (
 s
 i
@@ -2467,7 +2467,7 @@ s
 i
 c
 -
-1
+3
 )
 ;
 length

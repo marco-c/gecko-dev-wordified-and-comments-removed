@@ -59,9 +59,6 @@ Normalizer2
 (
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 const
 Normalizer2
@@ -117,8 +114,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-endif
 static
 const
 Normalizer2
@@ -353,15 +348,6 @@ c
 const
 =
 0
-;
-private
-:
-virtual
-UClassID
-getDynamicClassID
-(
-)
-const
 ;
 }
 ;

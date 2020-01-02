@@ -85,7 +85,7 @@ C
 )
 1999
 -
-2011
+2013
 International
 Business
 Machines
@@ -647,6 +647,9 @@ INVOKE
 TARGET
 )
 (
+TEST_OUTPUT_OPTS
+)
+(
 IOTEST_OPTS
 )
 check
@@ -665,6 +668,9 @@ INVOKE
 /
 (
 TARGET
+)
+(
+TEST_OUTPUT_OPTS
 )
 -
 e
@@ -695,6 +701,9 @@ INVOKE
 /
 (
 TARGET
+)
+(
+TEST_OUTPUT_OPTS
 )
 (
 IOTEST_OPTS

@@ -1068,13 +1068,6 @@ int32_t
 index
 )
 ;
-virtual
-UClassID
-getDynamicClassID
-(
-)
-const
-;
 UBool
 init
 (

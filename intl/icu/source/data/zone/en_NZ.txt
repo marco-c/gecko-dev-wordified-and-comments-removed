@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -213,6 +213,14 @@ xml
 *
 en_NZ
 {
+%
+%
+Parent
+{
+"
+en_GB
+"
+}
 Version
 {
 "
@@ -220,9 +228,9 @@ Version
 .
 0
 .
-78
+90
 .
-47
+61
 "
 }
 zoneStrings

@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -213,6 +213,14 @@ xml
 *
 pt_ST
 {
+%
+%
+Parent
+{
+"
+pt_PT
+"
+}
 Currencies
 {
 STD
@@ -239,9 +247,9 @@ Version
 .
 0
 .
-75
+90
 .
-60
+61
 "
 }
 }

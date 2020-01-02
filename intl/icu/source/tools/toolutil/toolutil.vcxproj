@@ -1639,7 +1639,7 @@ OutputFile
 \
 bin
 \
-icutu50
+icutu52
 .
 dll
 <
@@ -2101,7 +2101,7 @@ OutputFile
 \
 bin
 \
-icutu50d
+icutu52d
 .
 dll
 <
@@ -2549,7 +2549,7 @@ OutputFile
 \
 bin64
 \
-icutu50
+icutu52
 .
 dll
 <
@@ -3006,7 +3006,7 @@ OutputFile
 \
 bin64
 \
-icutu50d
+icutu52d
 .
 dll
 <
@@ -3471,7 +3471,18 @@ swapimpl
 .
 cpp
 "
+>
+<
+DisableLanguageExtensions
+>
+false
+<
 /
+DisableLanguageExtensions
+>
+<
+/
+ClCompile
 >
 <
 ClCompile

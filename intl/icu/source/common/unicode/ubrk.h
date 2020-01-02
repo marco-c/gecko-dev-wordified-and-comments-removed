@@ -252,9 +252,14 @@ status
 )
 ;
 #
+ifndef
+U_HIDE_DEPRECATED_API
+#
 define
 U_BRK_SAFECLONE_BUFFERSIZE
-528
+1
+#
+endif
 U_STABLE
 void
 U_EXPORT2
@@ -466,10 +471,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ubrk_refreshUText
@@ -485,8 +487,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 #
 endif
 #

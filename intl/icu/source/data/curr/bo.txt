@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -225,7 +225,7 @@ source
 path
 >
 /
-xml
+common
 /
 main
 /
@@ -241,7 +241,6 @@ Currencies
 CNY
 {
 "
-CN
 "
 "
 "
@@ -269,9 +268,9 @@ Version
 .
 0
 .
-74
+92
 .
-85
+87
 "
 }
 }

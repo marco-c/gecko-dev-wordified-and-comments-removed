@@ -61,6 +61,13 @@ h
 #
 include
 "
+scriptset
+.
+h
+"
+#
+include
+"
 uspoof_impl
 .
 h
@@ -1088,9 +1095,10 @@ bsset
 sset
 -
 >
-Union
+set
 (
 targScript
+status
 )
 ;
 bsset
@@ -1099,9 +1107,10 @@ bsset
 sset
 -
 >
-Union
+set
 (
 srcScript
+status
 )
 ;
 if

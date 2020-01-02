@@ -97,15 +97,6 @@ int32_t
 resultCapacity
 )
 ;
-private
-:
-virtual
-UClassID
-getDynamicClassID
-(
-)
-const
-;
 }
 ;
 class

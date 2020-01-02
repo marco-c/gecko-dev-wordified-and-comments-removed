@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -215,13 +215,6 @@ fa_AF
 {
 Currencies
 {
-AFN
-{
-"
-"
-"
-"
-}
 AUD
 {
 "
@@ -273,7 +266,6 @@ DKK
 JPY
 {
 "
-JP
 "
 "
 "
@@ -329,7 +321,6 @@ TJS
 USD
 {
 "
-US
 "
 "
 "
@@ -342,9 +333,9 @@ Version
 .
 0
 .
-77
+92
 .
-46
+80
 "
 }
 }

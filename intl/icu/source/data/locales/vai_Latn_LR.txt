@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -213,12 +213,6 @@ xml
 *
 vai_Latn_LR
 {
-MeasurementSystem
-:
-int
-{
-1
-}
 Version
 {
 "
@@ -226,9 +220,9 @@ Version
 .
 0
 .
-74
+90
 .
-65
+61
 "
 }
 }

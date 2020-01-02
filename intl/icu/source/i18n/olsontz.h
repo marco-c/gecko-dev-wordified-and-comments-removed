@@ -26,6 +26,13 @@ basictz
 .
 h
 "
+#
+include
+"
+umutex
+.
+h
+"
 struct
 UResourceBundle
 ;
@@ -207,6 +214,7 @@ UErrorCode
 &
 ec
 )
+const
 ;
 virtual
 void
@@ -272,6 +280,7 @@ TimeZoneTransition
 &
 result
 )
+const
 ;
 virtual
 UBool
@@ -285,6 +294,7 @@ TimeZoneTransition
 &
 result
 )
+const
 ;
 virtual
 int32_t
@@ -294,6 +304,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 virtual
 void
@@ -317,6 +328,7 @@ UErrorCode
 &
 status
 )
+const
 ;
 const
 UChar
@@ -482,6 +494,17 @@ void
 )
 ;
 void
+checkTransitionRules
+(
+UErrorCode
+&
+status
+)
+const
+;
+public
+:
+void
 initTransitionRules
 (
 UErrorCode
@@ -489,6 +512,8 @@ UErrorCode
 status
 )
 ;
+private
+:
 InitialTimeZoneRule
 *
 initialRule
@@ -516,8 +541,8 @@ SimpleTimeZone
 *
 finalZoneWithStartYear
 ;
-UBool
-transitionRulesInitialized
+UInitOnce
+transitionRulesInitOnce
 ;
 }
 ;

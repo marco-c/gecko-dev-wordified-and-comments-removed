@@ -13,7 +13,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -29,7 +29,7 @@ Reserved
 #
 define
 U_ICU_VERSION_MAJOR_NUM
-50
+52
 #
 define
 U_ICU_VERSION_MINOR_NUM
@@ -37,7 +37,7 @@ U_ICU_VERSION_MINOR_NUM
 #
 define
 U_ICU_VERSION_PATCHLEVEL_NUM
-2
+0
 #
 ifndef
 U_ICU_VERSION_BUILDLEVEL_NUM
@@ -50,7 +50,7 @@ endif
 #
 define
 U_ICU_VERSION_SUFFIX
-_50
+_52
 #
 ifndef
 U_ICU_ENTRY_POINT_RENAME
@@ -142,17 +142,15 @@ endif
 define
 U_ICU_VERSION
 "
-50
+52
 .
 1
-.
-2
 "
 #
 define
 U_ICU_VERSION_SHORT
 "
-50
+52
 "
 #
 ifndef
@@ -161,7 +159,7 @@ U_HIDE_INTERNAL_API
 define
 U_ICU_DATA_VERSION
 "
-50
+52
 .
 1
 "

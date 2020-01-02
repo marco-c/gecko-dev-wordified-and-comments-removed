@@ -97,7 +97,7 @@ dialectHandling
 ;
 #
 ifndef
-U_HIDE_INTERNAL_API
+U_HIDE_DRAFT_API
 static
 LocaleDisplayNames
 *
@@ -302,15 +302,6 @@ result
 const
 =
 0
-;
-private
-:
-virtual
-UClassID
-getDynamicClassID
-(
-)
-const
 ;
 }
 ;

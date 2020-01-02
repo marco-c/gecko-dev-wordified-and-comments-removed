@@ -99,7 +99,7 @@ c
 )
 1999
 -
-2011
+2013
 International
 Business
 Machines
@@ -250,6 +250,10 @@ TARGET_STUB_NAME
 (
 SECTION
 )
+ICUIO_TRUE
+MAN_FILES
++
+=
 (
 DERB_STUB_NAME
 )
@@ -297,6 +301,12 @@ TARGET_STUB_NAME
 (
 EXEEXT
 )
+#
+derb
+depends
+on
+icuio
+ICUIO_TRUE
 DERB
 =
 (
@@ -336,6 +346,13 @@ srcdir
 .
 /
 toolutil
+-
+I
+(
+top_srcdir
+)
+/
+io
 LIBS
 =
 (
@@ -547,6 +564,7 @@ DESTDIR
 (
 bindir
 )
+ICUIO_TRUE
 (
 INSTALL
 )
@@ -729,6 +747,9 @@ cc
 OUTOPT
 )
 ^
+(
+LIBICUIO
+)
 (
 LIBS
 )

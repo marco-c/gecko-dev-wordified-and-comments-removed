@@ -505,9 +505,13 @@ FALSE
 UBool
 needToLock
 ;
-UMTX_CHECK
+umtx_lock
 (
 NULL
+)
+;
+needToLock
+=
 (
 &
 text
@@ -515,7 +519,10 @@ text
 =
 gLockedText
 )
-needToLock
+;
+umtx_unlock
+(
+NULL
 )
 ;
 if

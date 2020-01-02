@@ -85,7 +85,7 @@ Copyright
 (
 C
 )
-2012
+2013
 International
 Business
 Machines
@@ -213,12 +213,6 @@ xml
 *
 my_MM
 {
-MeasurementSystem
-:
-int
-{
-1
-}
 Version
 {
 "
@@ -226,9 +220,9 @@ Version
 .
 0
 .
-41
+90
 .
-23
+61
 "
 }
 }
