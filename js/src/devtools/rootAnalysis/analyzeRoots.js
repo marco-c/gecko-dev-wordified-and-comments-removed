@@ -437,6 +437,7 @@ if
 match
 =
 /
+^
 GCThing
 :
 (
@@ -465,6 +466,7 @@ if
 match
 =
 /
+^
 GCPointer
 :
 (
