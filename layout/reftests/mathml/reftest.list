@@ -4392,7 +4392,7 @@ phasorangle
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4417,7 +4417,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4442,7 +4442,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4467,7 +4467,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4492,7 +4492,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4517,7 +4517,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4542,7 +4542,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4567,6 +4567,15 @@ menclose
 ref
 .
 html
+random
+-
+if
+(
+B2G
+&
+&
+browserIsRemote
+)
 =
 =
 menclose
@@ -4583,7 +4592,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4608,7 +4617,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4633,7 +4642,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4658,7 +4667,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4683,7 +4692,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4708,7 +4717,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4733,7 +4742,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4758,7 +4767,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -4783,7 +4792,7 @@ menclose
 ref
 .
 html
-fails
+random
 -
 if
 (
