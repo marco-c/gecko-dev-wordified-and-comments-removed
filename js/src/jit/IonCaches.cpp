@@ -1551,7 +1551,7 @@ code
 ;
 attacher
 .
-patchNextStubJump
+patchStubCodePointer
 (
 masm
 code
@@ -1559,7 +1559,7 @@ code
 ;
 attacher
 .
-patchStubCodePointer
+patchNextStubJump
 (
 masm
 code
@@ -1600,6 +1600,7 @@ code
 cx
 )
 ;
+{
 AutoFlushICache
 afc
 (
@@ -1636,13 +1637,7 @@ status
 =
 LINK_ERROR
 ;
-attachStub
-(
-masm
-attacher
-code
-)
-;
+}
 if
 (
 pc_
@@ -1760,6 +1755,13 @@ IonCache
 ;
 #
 endif
+attachStub
+(
+masm
+attacher
+code
+)
+;
 return
 true
 ;
