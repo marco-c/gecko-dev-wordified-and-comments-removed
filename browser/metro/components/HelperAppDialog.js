@@ -692,6 +692,7 @@ notificationBox
 .
 ownerDocument
 ;
+let
 downloadSize
 =
 this
