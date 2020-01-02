@@ -59,11 +59,16 @@ jsm
 )
 ;
 #
+ifdef
+XP_UNIX
+#
 ifndef
-XP_WIN
+XP_MACOSX
 #
 define
 BROKEN_WM_Z_ORDER
+#
+endif
 #
 endif
 this
