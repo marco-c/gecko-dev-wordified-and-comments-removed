@@ -3067,6 +3067,8 @@ Scope
 {
 }
 ;
+try
+{
 Components
 .
 utils
@@ -3091,6 +3093,13 @@ jsm
 Scope
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 do_check_true
 (
 !
