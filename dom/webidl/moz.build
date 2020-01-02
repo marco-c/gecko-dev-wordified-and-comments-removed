@@ -1620,11 +1620,6 @@ SourceBufferList
 webidl
 '
 '
-StorageEvent
-.
-webidl
-'
-'
 StorageType
 .
 webidl
@@ -3152,6 +3147,11 @@ webidl
 '
 '
 RTCPeerConnectionIdentityEvent
+.
+webidl
+'
+'
+StorageEvent
 .
 webidl
 '

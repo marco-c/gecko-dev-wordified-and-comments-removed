@@ -333,11 +333,6 @@ SimpleGestureEvent
 h
 '
 '
-StorageEvent
-.
-h
-'
-'
 Touch
 .
 h
@@ -551,11 +546,6 @@ cpp
 '
 '
 SimpleGestureEvent
-.
-cpp
-'
-'
-StorageEvent
 .
 cpp
 '
