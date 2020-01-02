@@ -97,6 +97,15 @@ false
 ;
 }
 virtual
+void
+OnKeepaliveEnabledPrefChange
+(
+bool
+aEnabled
+)
+{
+}
+virtual
 uint64_t
 ByteCountSent
 (
