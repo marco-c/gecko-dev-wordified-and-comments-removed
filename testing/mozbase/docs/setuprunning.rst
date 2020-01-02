@@ -75,5 +75,4 @@ maxdepth
 mozfile
 mozprofile
 mozprocess
-mozrunner
 mozcrash

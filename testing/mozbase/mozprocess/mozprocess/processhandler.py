@@ -3939,13 +3939,9 @@ AttributeError
             
 if
 not
-hasattr
-(
 self
-'
+.
 proc
-'
-)
 :
                 
 print

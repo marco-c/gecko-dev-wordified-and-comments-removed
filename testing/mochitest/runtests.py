@@ -9267,7 +9267,7 @@ runner_cls
 =
 mozrunner
 .
-Runner
+FirefoxRunner
       
 else
 :
@@ -9327,10 +9327,17 @@ mozprocess
 .
 ProcessHandlerMixin
                           
-process_args
+kp_kwargs
 =
 kp_kwargs
+                          
 )
+      
+runner
+.
+kp_kwargs
+=
+kp_kwargs
       
 runner
 .

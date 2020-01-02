@@ -2496,7 +2496,7 @@ bin_dir
         
 options
 .
-logdir
+logcat_dir
 =
 self
 .

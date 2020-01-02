@@ -940,9 +940,6 @@ stdout
 stderr
 env
 cwd
-timeout
-=
-None
 )
 :
         
@@ -996,11 +993,6 @@ shell
 (
 cmd
 f
-timeout
-=
-timeout
-+
-10
 )
             
 except
