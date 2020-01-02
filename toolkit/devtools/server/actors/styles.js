@@ -1783,6 +1783,9 @@ inherited
 pseudoElement
 :
 pseudo
+isSystem
+:
+isSystem
 }
 )
 ;
