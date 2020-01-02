@@ -896,6 +896,12 @@ padding
 4px
 4px
 ;
+min
+-
+height
+:
+23px
+;
 }
 #
 navigator
@@ -1007,7 +1013,7 @@ min
 -
 height
 :
-17px
+19px
 ;
 }
 toolbarbutton
