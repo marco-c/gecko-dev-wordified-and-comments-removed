@@ -15301,14 +15301,6 @@ GetExcludedGlassRegion
 (
 )
 ;
-excludedRegion
-.
-Sub
-(
-excludedRegion
-visibleRegion
-)
-;
 nsIntRegion
 windowRegion
 (
