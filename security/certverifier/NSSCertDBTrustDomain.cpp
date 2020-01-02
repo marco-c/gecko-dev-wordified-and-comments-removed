@@ -775,7 +775,7 @@ NSSCertDBTrustDomain
 :
 FindIssuer
 (
-InputBuffer
+Input
 encodedIssuerName
 IssuerChecker
 &
@@ -787,7 +787,7 @@ time
 SECItem
 encodedIssuerNameSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 encodedIssuerName
 )
@@ -839,7 +839,7 @@ n
 )
 )
 {
-InputBuffer
+Input
 certDER
 ;
 Result
@@ -883,7 +883,7 @@ continue
 bool
 keepGoing
 ;
-InputBuffer
+Input
 anssiSubject
 ;
 rv
@@ -918,14 +918,14 @@ FATAL_ERROR_LIBRARY_FAILURE
 }
 if
 (
-InputBuffersAreEqual
+InputsAreEqual
 (
 encodedIssuerName
 anssiSubject
 )
 )
 {
-InputBuffer
+Input
 anssiNameConstraints
 ;
 if
@@ -1020,7 +1020,7 @@ const
 CertPolicyId
 &
 policy
-InputBuffer
+Input
 candidateCertDER
 TrustLevel
 &
@@ -1052,7 +1052,7 @@ endif
 SECItem
 candidateCertDERSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 candidateCertDER
 )
@@ -1241,7 +1241,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -1268,7 +1268,7 @@ NSSCertDBTrustDomain
 :
 DigestBuf
 (
-InputBuffer
+Input
 item
 uint8_t
 *
@@ -1397,7 +1397,7 @@ GetOCSPAuthorityInfoAccessLocation
 PLArenaPool
 *
 arena
-InputBuffer
+Input
 aiaExtension
 char
 const
@@ -1413,7 +1413,7 @@ nullptr
 SECItem
 aiaExtensionSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 aiaExtension
 )
@@ -1658,11 +1658,11 @@ certID
 PRTime
 time
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 const
-InputBuffer
+Input
 *
 aiaExtension
 )
@@ -2359,7 +2359,7 @@ return
 Success
 ;
 }
-InputBuffer
+Input
 response
 ;
 bool
@@ -2854,7 +2854,7 @@ PRTime
 time
 uint16_t
 maxLifetimeInDays
-InputBuffer
+Input
 encodedResponse
 EncodedResponseSource
 responseSource
@@ -3201,7 +3201,7 @@ NSSCertDBTrustDomain
 :
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {

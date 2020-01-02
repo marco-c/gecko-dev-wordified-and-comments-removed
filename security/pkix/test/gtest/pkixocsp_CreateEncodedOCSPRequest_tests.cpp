@@ -77,7 +77,7 @@ EndEntityOrCA
 const
 CertPolicyId
 &
-InputBuffer
+Input
 TrustLevel
 &
 )
@@ -97,7 +97,7 @@ virtual
 Result
 FindIssuer
 (
-InputBuffer
+Input
 IssuerChecker
 &
 PRTime
@@ -124,10 +124,10 @@ CertID
 &
 PRTime
 const
-InputBuffer
+Input
 *
 const
-InputBuffer
+Input
 *
 )
 {
@@ -169,7 +169,7 @@ VerifySignedData
 const
 SignedDataWithSignature
 &
-InputBuffer
+Input
 )
 {
 ADD_FAILURE
@@ -187,7 +187,7 @@ virtual
 Result
 DigestBuf
 (
-InputBuffer
+Input
 item
 uint8_t
 *
@@ -217,7 +217,7 @@ virtual
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -419,10 +419,10 @@ const
 char
 *
 issuerASCII
-InputBuffer
+Input
 &
 issuerDER
-InputBuffer
+Input
 &
 issuerSPKI
 )
@@ -587,10 +587,10 @@ pkixocsp_CreateEncodedOCSPRequest
 ChildCertLongSerialNumberTest
 )
 {
-InputBuffer
+Input
 issuerDER
 ;
-InputBuffer
+Input
 issuerSPKI
 ;
 ASSERT_EQ
@@ -608,7 +608,7 @@ issuerSPKI
 )
 )
 ;
-InputBuffer
+Input
 serialNumber
 ;
 ASSERT_EQ
@@ -665,10 +665,10 @@ pkixocsp_CreateEncodedOCSPRequest
 LongestSupportedSerialNumberTest
 )
 {
-InputBuffer
+Input
 issuerDER
 ;
-InputBuffer
+Input
 issuerSPKI
 ;
 ASSERT_EQ
@@ -686,7 +686,7 @@ issuerSPKI
 )
 )
 ;
-InputBuffer
+Input
 serialNumber
 ;
 ASSERT_EQ

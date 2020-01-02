@@ -55,7 +55,7 @@ pkix
 test
 ;
 static
-InputBuffer
+Input
 CreateCert
 (
 PLArenaPool
@@ -170,7 +170,7 @@ EXPECT_TRUE
 cert
 )
 ;
-InputBuffer
+Input
 result
 ;
 EXPECT_EQ
@@ -196,7 +196,7 @@ result
 ;
 }
 static
-InputBuffer
+Input
 CreateCert
 (
 PLArenaPool
@@ -253,7 +253,7 @@ EndEntityOrCA
 const
 CertPolicyId
 &
-InputBuffer
+Input
 candidateCert
 TrustLevel
 &
@@ -275,7 +275,7 @@ virtual
 Result
 FindIssuer
 (
-InputBuffer
+Input
 IssuerChecker
 &
 PRTime
@@ -302,10 +302,10 @@ CertID
 &
 PRTime
 const
-InputBuffer
+Input
 *
 const
-InputBuffer
+Input
 *
 )
 {
@@ -334,7 +334,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -359,7 +359,7 @@ virtual
 Result
 DigestBuf
 (
-InputBuffer
+Input
 uint8_t
 *
 size_t
@@ -380,7 +380,7 @@ virtual
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -520,7 +520,7 @@ Extension
 ScopedSECKEYPrivateKey
 key
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -649,7 +649,7 @@ Extension
 ScopedSECKEYPrivateKey
 key
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -770,7 +770,7 @@ Extension
 ScopedSECKEYPrivateKey
 key
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -894,7 +894,7 @@ Extension
 ScopedSECKEYPrivateKey
 key
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1011,7 +1011,7 @@ Extension
 ScopedSECKEYPrivateKey
 key
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1134,7 +1134,7 @@ Extension
 ScopedSECKEYPrivateKey
 key
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1299,7 +1299,7 @@ subjectAltName
 ScopedSECKEYPrivateKey
 key
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert

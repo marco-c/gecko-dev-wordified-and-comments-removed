@@ -23,7 +23,7 @@ BuildCertChain
 TrustDomain
 &
 trustDomain
-InputBuffer
+Input
 cert
 PRTime
 time
@@ -38,7 +38,7 @@ CertPolicyId
 &
 requiredPolicy
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 )
@@ -88,7 +88,7 @@ PRTime
 time
 uint16_t
 maxLifetimeInDays
-InputBuffer
+Input
 encodedResponse
 bool
 &

@@ -220,7 +220,7 @@ timeOut
 )
 ;
 }
-TestInputBuffer
+TestInput
 fakeIssuer1
 (
 "
@@ -230,7 +230,7 @@ issuer1
 "
 )
 ;
-TestInputBuffer
+TestInput
 fakeKey000
 (
 "
@@ -238,7 +238,7 @@ key000
 "
 )
 ;
-TestInputBuffer
+TestInput
 fakeKey001
 (
 "
@@ -246,7 +246,7 @@ key001
 "
 )
 ;
-TestInputBuffer
+TestInput
 fakeSerial0000
 (
 "
@@ -260,7 +260,7 @@ OCSPCacheTest
 TestPutAndGet
 )
 {
-TestInputBuffer
+TestInput
 fakeSerial000
 (
 "
@@ -268,7 +268,7 @@ fakeSerial000
 "
 )
 ;
-TestInputBuffer
+TestInput
 fakeSerial001
 (
 "
@@ -383,7 +383,7 @@ serialBuf
 i
 )
 ;
-InputBuffer
+Input
 fakeSerial
 ;
 ASSERT_EQ
@@ -478,7 +478,7 @@ timeOut
 ;
 static
 const
-TestInputBuffer
+TestInput
 fakeSerial0512
 (
 "
@@ -548,7 +548,7 @@ timeOut
 ;
 static
 const
-TestInputBuffer
+TestInput
 fakeSerial1111
 (
 "
@@ -638,7 +638,7 @@ serialBuf
 i
 )
 ;
-InputBuffer
+Input
 fakeSerial
 ;
 ASSERT_EQ
@@ -776,7 +776,7 @@ serialBuf
 i
 )
 ;
-InputBuffer
+Input
 fakeSerial
 ;
 ASSERT_EQ
@@ -840,7 +840,7 @@ timeIn
 timeOut
 )
 ;
-TestInputBuffer
+TestInput
 fakeSerial0001
 (
 "
@@ -931,7 +931,7 @@ serialBuf
 i
 )
 ;
-InputBuffer
+Input
 fakeSerial
 ;
 ASSERT_EQ
@@ -967,7 +967,7 @@ i
 }
 static
 const
-TestInputBuffer
+TestInput
 fakeSerial1025
 (
 "
@@ -1028,7 +1028,7 @@ timeOut
 ;
 static
 const
-TestInputBuffer
+TestInput
 fakeSerial1026
 (
 "
@@ -1089,7 +1089,7 @@ SCOPED_TRACE
 ;
 static
 const
-TestInputBuffer
+TestInput
 fakeIssuer2
 (
 "
@@ -1101,7 +1101,7 @@ issuer2
 ;
 static
 const
-TestInputBuffer
+TestInput
 fakeSerial001
 (
 "

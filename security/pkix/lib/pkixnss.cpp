@@ -82,7 +82,7 @@ ScopedSECKeyPublicKey
 Result
 CheckPublicKeySize
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 ScopedSECKeyPublicKey
 &
@@ -92,7 +92,7 @@ publicKey
 SECItem
 subjectPublicKeyInfoSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 subjectPublicKeyInfo
 )
@@ -241,7 +241,7 @@ Success
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -263,7 +263,7 @@ const
 SignedDataWithSignature
 &
 sd
-InputBuffer
+Input
 subjectPublicKeyInfo
 void
 *
@@ -528,7 +528,7 @@ rv
 SECItem
 dataSECItem
 (
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 sd
 .
@@ -539,7 +539,7 @@ data
 SECItem
 signatureSECItem
 (
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 sd
 .
@@ -601,7 +601,7 @@ Success
 Result
 DigestBuf
 (
-InputBuffer
+Input
 item
 uint8_t
 *
@@ -667,7 +667,7 @@ FATAL_ERROR_INVALID_ARGS
 SECItem
 itemSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 item
 )

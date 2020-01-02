@@ -129,7 +129,7 @@ rv
 SECItem
 certIDIssuer
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 certID
 .
@@ -168,7 +168,7 @@ rv
 SECItem
 certIDIssuerSubjectPublicKeyInfo
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 certID
 .
@@ -207,7 +207,7 @@ rv
 SECItem
 certIDSerialNumber
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 certID
 .

@@ -259,9 +259,9 @@ trustDomain
 BackCert
 &
 potentialSigner
-InputBuffer
+Input
 issuerSubject
-InputBuffer
+Input
 issuerSubjectPublicKeyInfo
 PRTime
 time
@@ -311,7 +311,7 @@ rv
 if
 (
 !
-InputBuffersAreEqual
+InputsAreEqual
 (
 potentialSigner
 .
@@ -385,7 +385,7 @@ inline
 Result
 OCSPResponse
 (
-Input
+Reader
 &
 Context
 &
@@ -396,7 +396,7 @@ inline
 Result
 ResponseBytes
 (
-Input
+Reader
 &
 Context
 &
@@ -407,7 +407,7 @@ inline
 Result
 BasicResponse
 (
-Input
+Reader
 &
 Context
 &
@@ -418,7 +418,7 @@ inline
 Result
 ResponseData
 (
-Input
+Reader
 &
 tbsResponseData
 Context
@@ -439,7 +439,7 @@ inline
 Result
 SingleResponse
 (
-Input
+Reader
 &
 input
 Context
@@ -451,10 +451,10 @@ static
 Result
 ExtensionNotUnderstood
 (
-Input
+Reader
 &
 extnID
-InputBuffer
+Input
 extnValue
 bool
 &
@@ -466,7 +466,7 @@ inline
 Result
 CertID
 (
-Input
+Reader
 &
 input
 const
@@ -485,9 +485,9 @@ MatchKeyHash
 TrustDomain
 &
 trustDomain
-InputBuffer
+Input
 issuerKeyHash
-InputBuffer
+Input
 issuerSubjectPublicKeyInfo
 bool
 &
@@ -501,7 +501,7 @@ KeyHash
 TrustDomain
 &
 trustDomain
-InputBuffer
+Input
 subjectPublicKeyInfo
 uint8_t
 *
@@ -519,11 +519,11 @@ TrustDomain
 trustDomain
 ResponderIDType
 responderIDType
-InputBuffer
+Input
 responderID
-InputBuffer
+Input
 potentialSignerSubject
-InputBuffer
+Input
 potentialSignerSubjectPublicKeyInfo
 bool
 &
@@ -547,7 +547,7 @@ byName
 :
 match
 =
-InputBuffersAreEqual
+InputsAreEqual
 (
 responderID
 potentialSignerSubject
@@ -563,13 +563,13 @@ ResponderIDType
 byKey
 :
 {
-Input
+Reader
 input
 (
 responderID
 )
 ;
-InputBuffer
+Input
 keyHash
 ;
 Result
@@ -631,7 +631,7 @@ const
 SignedDataWithSignature
 &
 signedResponseData
-InputBuffer
+Input
 spki
 )
 {
@@ -678,7 +678,7 @@ Context
 context
 ResponderIDType
 responderIDType
-InputBuffer
+Input
 responderID
 const
 DERArray
@@ -975,7 +975,7 @@ PRTime
 time
 uint16_t
 maxOCSPLifetimeInDays
-InputBuffer
+Input
 encodedResponse
 bool
 &
@@ -1003,7 +1003,7 @@ thisUpdate
 validThrough
 )
 ;
-Input
+Reader
 input
 (
 encodedResponse
@@ -1152,7 +1152,7 @@ inline
 Result
 OCSPResponse
 (
-Input
+Reader
 &
 input
 Context
@@ -1290,7 +1290,7 @@ inline
 Result
 ResponseBytes
 (
-Input
+Reader
 &
 input
 Context
@@ -1371,7 +1371,7 @@ context
 Result
 BasicResponse
 (
-Input
+Reader
 &
 input
 Context
@@ -1379,7 +1379,7 @@ Context
 context
 )
 {
-Input
+Reader
 tbsResponseData
 ;
 SignedDataWithSignature
@@ -1441,7 +1441,7 @@ AtEnd
 )
 )
 {
-Input
+Reader
 wrapped
 ;
 rv
@@ -1500,7 +1500,7 @@ return
 rv
 ;
 }
-Input
+Reader
 certsSequence
 ;
 rv
@@ -1562,7 +1562,7 @@ AtEnd
 )
 )
 {
-InputBuffer
+Input
 cert
 ;
 rv
@@ -1630,7 +1630,7 @@ inline
 Result
 ResponseData
 (
-Input
+Reader
 &
 input
 Context
@@ -1697,7 +1697,7 @@ Result
 ERROR_BAD_DER
 ;
 }
-InputBuffer
+Input
 responderID
 ;
 ResponderIDType
@@ -1881,7 +1881,7 @@ inline
 Result
 SingleResponse
 (
-Input
+Reader
 &
 input
 Context
@@ -2401,7 +2401,7 @@ inline
 Result
 CertID
 (
-Input
+Reader
 &
 input
 const
@@ -2465,7 +2465,7 @@ return
 rv
 ;
 }
-InputBuffer
+Input
 issuerNameHash
 ;
 rv
@@ -2495,7 +2495,7 @@ return
 rv
 ;
 }
-InputBuffer
+Input
 issuerKeyHash
 ;
 rv
@@ -2525,7 +2525,7 @@ return
 rv
 ;
 }
-InputBuffer
+Input
 serialNumber
 ;
 rv
@@ -2554,7 +2554,7 @@ rv
 if
 (
 !
-InputBuffersAreEqual
+InputsAreEqual
 (
 serialNumber
 context
@@ -2659,7 +2659,7 @@ return
 rv
 ;
 }
-InputBuffer
+Input
 computed
 (
 hashBuf
@@ -2668,7 +2668,7 @@ hashBuf
 if
 (
 !
-InputBuffersAreEqual
+InputsAreEqual
 (
 computed
 issuerNameHash
@@ -2708,10 +2708,10 @@ MatchKeyHash
 TrustDomain
 &
 trustDomain
-InputBuffer
+Input
 keyHash
 const
-InputBuffer
+Input
 subjectPublicKeyInfo
 bool
 &
@@ -2774,7 +2774,7 @@ return
 rv
 ;
 }
-InputBuffer
+Input
 computed
 (
 hashBuf
@@ -2782,7 +2782,7 @@ hashBuf
 ;
 match
 =
-InputBuffersAreEqual
+InputsAreEqual
 (
 computed
 keyHash
@@ -2799,7 +2799,7 @@ TrustDomain
 &
 trustDomain
 const
-InputBuffer
+Input
 subjectPublicKeyInfo
 uint8_t
 *
@@ -2830,14 +2830,14 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-Input
+Reader
 spki
 ;
 Result
 rv
 ;
 {
-Input
+Reader
 input
 (
 subjectPublicKeyInfo
@@ -2919,7 +2919,7 @@ return
 rv
 ;
 }
-InputBuffer
+Input
 subjectPublicKey
 ;
 rv
@@ -2981,9 +2981,9 @@ hashBufSize
 Result
 ExtensionNotUnderstood
 (
-Input
+Reader
 &
-InputBuffer
+Input
 bool
 &
 understood
@@ -3371,7 +3371,7 @@ GetLength
 )
 )
 ;
-Input
+Reader
 serialNumber
 (
 certID

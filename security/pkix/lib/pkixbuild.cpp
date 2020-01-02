@@ -54,7 +54,7 @@ CertPolicyId
 &
 requiredPolicy
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 unsigned
@@ -114,7 +114,7 @@ CertPolicyId
 &
 requiredPolicy
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 unsigned
@@ -166,10 +166,10 @@ false
 Result
 Check
 (
-InputBuffer
+Input
 potentialIssuerDER
 const
-InputBuffer
+Input
 *
 additionalNameConstraints
 bool
@@ -207,7 +207,7 @@ CertPolicyId
 &
 requiredPolicy
 ;
-InputBuffer
+Input
 const
 *
 const
@@ -390,10 +390,10 @@ PathBuildingStep
 :
 Check
 (
-InputBuffer
+Input
 potentialIssuerDER
 const
-InputBuffer
+Input
 *
 additionalNameConstraints
 bool
@@ -473,7 +473,7 @@ childCert
 {
 if
 (
-InputBuffersAreEqual
+InputsAreEqual
 (
 potentialIssuer
 .
@@ -489,7 +489,7 @@ GetSubjectPublicKeyInfo
 )
 &
 &
-InputBuffersAreEqual
+InputsAreEqual
 (
 potentialIssuer
 .
@@ -741,7 +741,7 @@ CertPolicyId
 &
 requiredPolicy
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 unsigned
@@ -1056,7 +1056,7 @@ BuildCertChain
 TrustDomain
 &
 trustDomain
-InputBuffer
+Input
 certDER
 PRTime
 time
@@ -1071,7 +1071,7 @@ CertPolicyId
 &
 requiredPolicy
 const
-InputBuffer
+Input
 *
 stapledOCSPResponse
 )

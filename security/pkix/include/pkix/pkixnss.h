@@ -38,7 +38,7 @@ const
 SignedDataWithSignature
 &
 sd
-InputBuffer
+Input
 subjectPublicKeyInfo
 void
 *
@@ -48,7 +48,7 @@ pkcs11PinArg
 Result
 DigestBuf
 (
-InputBuffer
+Input
 item
 uint8_t
 *
@@ -60,7 +60,7 @@ digestBufLen
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 ;
@@ -121,9 +121,9 @@ RegisterErrorTable
 ;
 inline
 SECItem
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
-InputBuffer
+Input
 ib
 )
 {

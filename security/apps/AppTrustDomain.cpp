@@ -435,7 +435,7 @@ AppTrustDomain
 :
 FindIssuer
 (
-InputBuffer
+Input
 encodedIssuerName
 IssuerChecker
 &
@@ -465,7 +465,7 @@ FATAL_ERROR_INVALID_STATE
 SECItem
 encodedIssuerNameSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 encodedIssuerName
 )
@@ -517,7 +517,7 @@ n
 )
 )
 {
-InputBuffer
+Input
 certDER
 ;
 Result
@@ -611,7 +611,7 @@ const
 CertPolicyId
 &
 policy
-InputBuffer
+Input
 candidateCertDER
 TrustLevel
 &
@@ -665,7 +665,7 @@ FATAL_ERROR_INVALID_STATE
 SECItem
 candidateCertDERSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 candidateCertDER
 )
@@ -825,7 +825,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -852,7 +852,7 @@ AppTrustDomain
 :
 DigestBuf
 (
-InputBuffer
+Input
 item
 uint8_t
 *
@@ -891,10 +891,10 @@ CertID
 PRTime
 time
 const
-InputBuffer
+Input
 *
 const
-InputBuffer
+Input
 *
 )
 {
@@ -950,7 +950,7 @@ AppTrustDomain
 :
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {

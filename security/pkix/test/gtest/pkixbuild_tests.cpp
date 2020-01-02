@@ -69,7 +69,7 @@ pkix
 test
 ;
 static
-InputBuffer
+Input
 CreateCert
 (
 PLArenaPool
@@ -268,7 +268,7 @@ subjectCert
 )
 ;
 }
-InputBuffer
+Input
 result
 ;
 EXPECT_EQ
@@ -490,14 +490,14 @@ EndEntityOrCA
 const
 CertPolicyId
 &
-InputBuffer
+Input
 candidateCert
 TrustLevel
 &
 trustLevel
 )
 {
-InputBuffer
+Input
 rootDER
 ;
 Result
@@ -535,7 +535,7 @@ rv
 ;
 if
 (
-InputBuffersAreEqual
+InputsAreEqual
 (
 candidateCert
 rootDER
@@ -568,7 +568,7 @@ virtual
 Result
 FindIssuer
 (
-InputBuffer
+Input
 encodedIssuerName
 IssuerChecker
 &
@@ -580,7 +580,7 @@ time
 SECItem
 encodedIssuerNameSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 encodedIssuerName
 )
@@ -635,7 +635,7 @@ n
 bool
 keepGoing
 ;
-InputBuffer
+Input
 derCert
 ;
 Result
@@ -731,10 +731,10 @@ CertID
 &
 PRTime
 const
-InputBuffer
+Input
 *
 const
-InputBuffer
+Input
 *
 )
 {
@@ -763,7 +763,7 @@ const
 SignedDataWithSignature
 &
 signedData
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -788,7 +788,7 @@ virtual
 Result
 DigestBuf
 (
-InputBuffer
+Input
 item
 uint8_t
 *
@@ -812,7 +812,7 @@ virtual
 Result
 CheckPublicKey
 (
-InputBuffer
+Input
 subjectPublicKeyInfo
 )
 {
@@ -925,7 +925,7 @@ MaxAcceptableCertChainLength
 )
 {
 {
-InputBuffer
+Input
 certDER
 ;
 ASSERT_EQ
@@ -994,7 +994,7 @@ privateKey
 ScopedCERTCertificate
 cert
 ;
-InputBuffer
+Input
 certDER
 (
 CreateCert
@@ -1093,7 +1093,7 @@ ScopedCERTCertificate
 caCert
 ;
 {
-InputBuffer
+Input
 cert
 (
 CreateCert
@@ -1165,7 +1165,7 @@ nullptr
 ScopedSECKEYPrivateKey
 privateKey
 ;
-InputBuffer
+Input
 cert
 (
 CreateCert

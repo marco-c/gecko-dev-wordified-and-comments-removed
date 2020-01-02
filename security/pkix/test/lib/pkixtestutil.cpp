@@ -608,15 +608,15 @@ remaining
 }
 }
 Result
-InitInputBufferFromSECItem
+InitInputFromSECItem
 (
 const
 SECItem
 *
 secItem
-InputBuffer
+Input
 &
-inputBuffer
+input
 )
 {
 if
@@ -633,7 +633,7 @@ FATAL_ERROR_INVALID_ARGS
 ;
 }
 return
-inputBuffer
+input
 .
 Init
 (
@@ -5868,7 +5868,7 @@ nullptr
 SECItem
 issuerSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 context
 .
@@ -5905,7 +5905,7 @@ nullptr
 SECItem
 issuerSubjectPublicKeyInfoSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 context
 .
@@ -5985,7 +5985,7 @@ SEC_ASN1_INTEGER
 SECItem
 serialNumberSECItem
 =
-UnsafeMapInputBufferToSECItem
+UnsafeMapInputToSECItem
 (
 context
 .
