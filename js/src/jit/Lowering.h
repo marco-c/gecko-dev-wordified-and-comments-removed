@@ -996,6 +996,14 @@ ins
 )
 ;
 bool
+visitLambdaArrow
+(
+MLambdaArrow
+*
+ins
+)
+;
+bool
 visitLambdaPar
 (
 MLambdaPar

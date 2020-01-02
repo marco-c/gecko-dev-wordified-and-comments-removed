@@ -2928,6 +2928,14 @@ fun
 )
 ;
 bool
+jsop_lambda_arrow
+(
+JSFunction
+*
+fun
+)
+;
+bool
 jsop_this
 (
 )

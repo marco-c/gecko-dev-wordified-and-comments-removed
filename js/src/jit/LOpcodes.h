@@ -773,6 +773,11 @@ Lambda
 \
 _
 (
+LambdaArrow
+)
+\
+_
+(
 LambdaForSingleton
 )
 \

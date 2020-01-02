@@ -5817,6 +5817,17 @@ atom
 =
 nullptr
 ;
+JS_ASSERT
+(
+!
+selfHostedFunction
+-
+>
+isArrow
+(
+)
+)
+;
 js
 :
 :
