@@ -208,3 +208,12 @@ FINAL_LIBRARY
 '
 necko
 '
+GENERATED_FILES
+=
+[
+'
+etld_data
+.
+inc
+'
+]

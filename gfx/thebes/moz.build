@@ -1376,3 +1376,12 @@ FINAL_LIBRARY
 '
 xul
 '
+GENERATED_FILES
+=
+[
+'
+PremultiplyTables
+.
+h
+'
+]

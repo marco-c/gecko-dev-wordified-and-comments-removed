@@ -889,3 +889,12 @@ FINAL_LIBRARY
 '
 gkmedias
 '
+GENERATED_FILES
+=
+[
+'
+jpeg_nbits_table
+.
+h
+'
+]

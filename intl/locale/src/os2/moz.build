@@ -123,3 +123,14 @@ FINAL_LIBRARY
 '
 i18n
 '
+GENERATED_FILES
+=
+[
+'
+os2charset
+.
+properties
+.
+h
+'
+]
