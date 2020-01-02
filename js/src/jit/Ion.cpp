@@ -11835,14 +11835,16 @@ compilerOutput
 types
 )
 ;
-JS_ASSERT
+if
 (
+!
 co
 .
 isValid
 (
 )
 )
+continue
 ;
 ExecutionMode
 executionMode
