@@ -2523,9 +2523,17 @@ vp
 )
 ;
 ContextOptions
-oldOptions
+oldContextOptions
 =
 ContextOptionsRef
+(
+cx
+)
+;
+RuntimeOptions
+oldRuntimeOptions
+=
+RuntimeOptionsRef
 (
 cx
 )
@@ -2630,7 +2638,7 @@ werror
 =
 0
 )
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
@@ -2712,7 +2720,7 @@ nullptr
 ;
 if
 (
-oldOptions
+oldContextOptions
 .
 extraWarnings
 (
@@ -2751,7 +2759,7 @@ false
 }
 if
 (
-oldOptions
+oldRuntimeOptions
 .
 werror
 (
@@ -2802,7 +2810,7 @@ if
 names
 &
 &
-oldOptions
+oldContextOptions
 .
 strictMode
 (
@@ -5598,7 +5606,7 @@ case
 S
 '
 :
-ContextOptionsRef
+RuntimeOptionsRef
 (
 cx
 )
