@@ -6335,7 +6335,6 @@ newChunk
 mTearOffs
 ;
 }
-{
 AutoMarkingWrappedNativeTearOffPtr
 tearoff
 (
@@ -6370,7 +6369,6 @@ to
 =
 nullptr
 ;
-}
 if
 (
 pError
