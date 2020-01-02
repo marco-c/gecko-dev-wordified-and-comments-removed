@@ -777,12 +777,6 @@ _currentAttempt
 =
 =
 currentAttempt
-|
-|
-!
-this
-.
-_currentAttempt
 )
 {
 this
@@ -804,11 +798,6 @@ aOptions
 {
 if
 (
-this
-.
-_currentAttempt
-&
-&
 this
 .
 _currentAttempt
