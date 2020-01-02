@@ -45,6 +45,12 @@ mozilla
 {
 class
 MFTDecoder
+:
+public
+AtomicRefCounted
+<
+MFTDecoder
+>
 {
 public
 :
