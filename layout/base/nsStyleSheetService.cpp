@@ -888,6 +888,9 @@ return
 rv
 ;
 }
+mozilla
+:
+:
 ipc
 :
 :
@@ -1334,6 +1337,9 @@ return
 NS_OK
 ;
 }
+mozilla
+:
+:
 ipc
 :
 :
