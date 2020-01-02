@@ -4693,13 +4693,6 @@ function
 (
 )
 {
-results
-.
-push
-(
-x
-)
-;
 is
 (
 results
@@ -4725,6 +4718,13 @@ function
 (
 )
 {
+results
+.
+push
+(
+x
+)
+;
 is
 (
 results
