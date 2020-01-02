@@ -698,6 +698,13 @@ iframe
 )
 )
 {
+if
+(
+iframe
+.
+contentDocument
+)
+{
 documents
 .
 push
@@ -707,6 +714,7 @@ iframe
 contentDocument
 )
 ;
+}
 }
 }
 throw
