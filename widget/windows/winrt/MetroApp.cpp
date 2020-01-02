@@ -385,10 +385,9 @@ WinUtils
 Log
 (
 "
-XPCOM
-startup
-initialization
-began
+Calling
+XRE_metroStartup
+.
 "
 )
 ;
@@ -406,10 +405,9 @@ WinUtils
 Log
 (
 "
-XPCOM
-startup
-initialization
-complete
+Exiting
+XRE_metroStartup
+.
 "
 )
 ;
