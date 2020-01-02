@@ -100,7 +100,12 @@ cx
 NativeGetterSetter
 0
 0
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 "
 get
 "
@@ -147,7 +152,12 @@ cx
 NativeGetterSetter
 1
 0
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 "
 set
 "
