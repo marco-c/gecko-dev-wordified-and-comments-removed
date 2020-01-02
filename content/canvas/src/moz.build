@@ -285,6 +285,11 @@ WebGLExtensionBase
 cpp
 '
 '
+WebGLExtensionBlendMinMax
+.
+cpp
+'
+'
 WebGLExtensionColorBufferFloat
 .
 cpp
