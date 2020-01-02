@@ -299,14 +299,9 @@ MOZ_ASSERT
 mFD
 )
 ;
-AndroidBridge
+GeckoAppShell
 :
 :
-Bridge
-(
-)
--
->
 EnableNetworkNotifications
 (
 )

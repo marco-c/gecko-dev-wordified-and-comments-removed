@@ -58,9 +58,9 @@ if
 bridge
 )
 {
-bridge
--
->
+GeckoAppShell
+:
+:
 PerformHapticFeedback
 (
 aType
