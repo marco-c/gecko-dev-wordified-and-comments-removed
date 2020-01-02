@@ -29165,7 +29165,7 @@ next
 c
 -
 >
-checkNewTypeObjectTablesAfterMovingGC
+checkTypeObjectTablesAfterMovingGC
 (
 )
 ;
