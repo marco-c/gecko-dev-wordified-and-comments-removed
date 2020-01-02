@@ -5239,9 +5239,13 @@ gc
 :
 :
 AllocKind
-kind
+allocKind
 HandleShape
 shape
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 static

@@ -7033,8 +7033,8 @@ js
 :
 HandleObject
 callee
-bool
-newType
+NewObjectKind
+newKind
 )
 ;
 extern

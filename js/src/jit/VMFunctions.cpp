@@ -2965,7 +2965,7 @@ CreateThisForFunction
 (
 cx
 callee
-false
+GenericObject
 )
 ;
 if

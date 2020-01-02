@@ -9090,6 +9090,10 @@ invoke
 useNewType
 (
 )
+?
+SingletonObject
+:
+GenericObject
 )
 )
 ;
