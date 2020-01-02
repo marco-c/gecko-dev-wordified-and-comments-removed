@@ -1226,7 +1226,7 @@ browser
 -
 fullZoom
 :
-reset
+zoomReset
 "
 "
 "
