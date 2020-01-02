@@ -13,6 +13,8 @@ includedir
 %
 includedir
 %
+/
+nspr
 Name
 :
 NSPR
