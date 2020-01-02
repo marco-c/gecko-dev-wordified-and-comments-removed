@@ -8843,6 +8843,11 @@ timestamp
 aDomMessage
 .
 timestamp
+deliveryTimestamp
+:
+aDomMessage
+.
+deliveryTimestamp
 read
 :
 aDomMessage
@@ -9319,6 +9324,7 @@ messageClass
 message
 .
 timestamp
+0
 message
 .
 read
@@ -9595,6 +9601,7 @@ messageClass
 message
 .
 timestamp
+0
 message
 .
 read
@@ -14407,6 +14414,7 @@ messageClass
 sms
 .
 timestamp
+0
 sms
 .
 read
@@ -14596,6 +14604,7 @@ normal
 sendingMessage
 .
 timestamp
+0
 false
 )
 ;

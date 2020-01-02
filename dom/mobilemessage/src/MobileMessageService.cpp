@@ -149,6 +149,13 @@ Value
 &
 aTimestamp
 const
+JS
+:
+:
+Value
+&
+aDeliveryTimestamp
+const
 bool
 aRead
 JSContext
@@ -175,6 +182,7 @@ aReceiver
 aBody
 aMessageClass
 aTimestamp
+aDeliveryTimestamp
 aRead
 aCx
 aMessage
