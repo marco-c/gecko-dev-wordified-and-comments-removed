@@ -772,11 +772,6 @@ PGrallocBufferChild
 aChild
 )
 ;
-void
-MarkShutDown
-(
-)
-;
 protected
 :
 ImageBridgeChild
@@ -835,9 +830,6 @@ PGrallocBufferChild
 aChild
 )
 MOZ_OVERRIDE
-;
-bool
-mShuttingDown
 ;
 }
 ;
