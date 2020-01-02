@@ -8754,6 +8754,60 @@ True
 )
     
 def
+indent_body
+(
+self
+body
+)
+:
+        
+"
+"
+"
+        
+Indent
+the
+code
+returned
+by
+self
+.
+definition_body
+(
+)
+.
+Most
+classes
+        
+simply
+indent
+everything
+two
+spaces
+.
+This
+is
+here
+for
+        
+CGRegisterProtos
+which
+needs
+custom
+indentation
+.
+        
+"
+"
+"
+        
+return
+indent
+(
+body
+)
+    
+def
 _define
 (
 self
@@ -8764,6 +8818,7 @@ False
 :
         
 return
+(
 self
 .
 definition_prologue
@@ -8771,16 +8826,24 @@ definition_prologue
 fromDeclare
 )
 +
+                
+self
+.
+indent_body
+(
 self
 .
 definition_body
 (
 )
+)
 +
+                
 self
 .
 definition_epilogue
 (
+)
 )
     
 def
@@ -9279,8 +9342,6 @@ descriptor
 wrapperCache
         
 return
-indent
-(
 dedent
 (
 "
@@ -9332,7 +9393,6 @@ true
 "
 "
 "
-)
 )
 def
 DeferredFinalizeSmartPtr
@@ -9623,8 +9683,6 @@ self
 :
         
 return
-indent
-(
 finalizeHook
 (
 self
@@ -9645,7 +9703,6 @@ name
 .
 define
 (
-)
 )
 class
 CGClassConstructor
@@ -10063,10 +10120,7 @@ ctorName
 )
         
 return
-indent
-(
 preamble
-)
 +
 callGenerator
 .
@@ -10187,14 +10241,11 @@ self
 :
         
 return
-indent
-(
 genConstructorBody
 (
 self
 .
 descriptor
-)
 )
 class
 CGConstructNavigatorObject
@@ -10333,8 +10384,6 @@ bug
 )
         
 return
-indent
-(
 fill
 (
             
@@ -10509,7 +10558,6 @@ self
 descriptor
 .
 name
-)
 )
 class
 CGClassConstructHookHolder
@@ -11086,7 +11134,6 @@ hasInterfacePrototypeObject
 :
             
 return
-indent
 (
                 
 header
@@ -11488,12 +11535,9 @@ n
 "
         
 return
-indent
-(
 header
 +
 hasInstanceCode
-)
 def
 isChromeOnly
 (
@@ -17013,8 +17057,7 @@ setUnforgeableHolder
 =
 None
         
-functionBody
-=
+return
 CGList
 (
             
@@ -17042,12 +17085,6 @@ setUnforgeableHolder
 \
 n
 "
-)
-        
-return
-CGIndenter
-(
-functionBody
 )
 .
 define
@@ -17187,8 +17224,6 @@ self
 :
         
 return
-indent
-(
 fill
 (
             
@@ -17388,7 +17423,6 @@ self
 .
 id
 )
-)
 class
 CGGetProtoObjectMethod
 (
@@ -17447,8 +17481,6 @@ self
 :
         
 return
-indent
-(
 dedent
 (
 "
@@ -17487,7 +17519,6 @@ true
 "
 "
 "
-)
 )
 +
 CGGetPerInterfaceObject
@@ -17572,8 +17603,6 @@ self
 :
         
 return
-indent
-(
 dedent
 (
 "
@@ -17605,7 +17634,6 @@ needed
 "
 "
 "
-)
 )
 +
 CGGetPerInterfaceObject
@@ -17809,8 +17837,6 @@ namedConstructors
             
 getConstructor
 =
-indent
-(
 dedent
 (
 "
@@ -17917,7 +17943,6 @@ interfaceObject
 "
 "
 "
-)
 )
         
 else
@@ -18222,8 +18247,7 @@ len
 conditions
 )
         
-body
-=
+return
 CGWrapper
 (
 CGList
@@ -18262,12 +18286,6 @@ n
 reindent
 =
 True
-)
-        
-return
-CGIndenter
-(
-body
 )
 .
 define
@@ -19434,10 +19452,11 @@ fill
 "
 "
             
+*
 {
 assertion
 }
-              
+            
 MOZ_ASSERT
 (
 ToSupportsIsOnPrimaryInheritanceChain
@@ -19445,7 +19464,7 @@ ToSupportsIsOnPrimaryInheritanceChain
 aObject
 aCache
 )
-                         
+                       
 "
 nsISupports
 must
@@ -19458,7 +19477,7 @@ chain
 "
 )
 ;
-              
+            
 JS
 :
 :
@@ -19470,11 +19489,11 @@ JSObject
 parent
 (
 aCx
-                
+              
 GetRealParentObject
 (
 aObject
-                                    
+                                  
 WrapNativeParent
 (
 aCx
@@ -19488,20 +19507,20 @@ GetParentObject
 )
 )
 ;
-              
+            
 if
 (
 !
 parent
 )
 {
-                
+              
 return
 nullptr
 ;
-              
+            
 }
-              
+            
 /
 /
 That
@@ -19516,7 +19535,7 @@ due
 to
 the
 wonders
-              
+            
 /
 /
 of
@@ -19537,7 +19556,7 @@ we
 don
 '
 t
-              
+            
 /
 /
 collide
@@ -19551,9 +19570,9 @@ declare
 in
 CreateBindingJSObject
 .
-              
+            
 {
-                
+              
 JSObject
 *
 obj
@@ -19565,21 +19584,21 @@ GetWrapper
 (
 )
 ;
-                
+              
 if
 (
 obj
 )
 {
-                  
+                
 return
 obj
 ;
-                
-}
               
 }
-              
+            
+}
+            
 JSAutoCompartment
 ac
 (
@@ -19587,7 +19606,7 @@ aCx
 parent
 )
 ;
-              
+            
 JS
 :
 :
@@ -19606,7 +19625,7 @@ parent
 )
 )
 ;
-              
+            
 JS
 :
 :
@@ -19623,30 +19642,30 @@ aCx
 global
 )
 ;
-              
+            
 if
 (
 !
 proto
 )
 {
-                
+              
 return
 nullptr
 ;
-              
+            
 }
-              
+            
 *
 {
 parent
 }
-              
+            
 *
 {
 unforgeable
 }
-              
+            
 aCache
 -
 >
@@ -19655,12 +19674,12 @@ SetWrapper
 obj
 )
 ;
-              
+            
 *
 {
 slots
 }
-              
+            
 return
 obj
 ;
@@ -19964,10 +19983,11 @@ fill
 "
 "
             
+*
 {
 assertions
 }
-              
+            
 JS
 :
 :
@@ -19988,7 +20008,7 @@ aCx
 )
 )
 ;
-              
+            
 JS
 :
 :
@@ -20005,35 +20025,35 @@ aCx
 global
 )
 ;
-              
+            
 if
 (
 !
 proto
 )
 {
-                
+              
 return
 nullptr
 ;
-              
+            
 }
-              
+            
 *
 {
 global_
 }
-              
+            
 *
 {
 unforgeable
 }
-              
+            
 *
 {
 slots
 }
-              
+            
 return
 obj
 ;
@@ -20384,10 +20404,11 @@ fill
 "
 "
             
+*
 {
 assertions
 }
-              
+            
 MOZ_ASSERT
 (
 ToSupportsIsOnPrimaryInheritanceChain
@@ -20395,7 +20416,7 @@ ToSupportsIsOnPrimaryInheritanceChain
 aObject
 aCache
 )
-                         
+                       
 "
 nsISupports
 must
@@ -20408,7 +20429,7 @@ chain
 "
 )
 ;
-              
+            
 JS
 :
 :
@@ -20422,7 +20443,7 @@ obj
 aCx
 )
 ;
-              
+            
 CreateGlobal
 <
 {
@@ -20432,41 +20453,41 @@ GetProtoObject
 >
 (
 aCx
-                                               
+                                             
 aObject
-                                               
+                                             
 aCache
-                                               
+                                             
 Class
 .
 ToJSClass
 (
 )
-                                               
+                                             
 aOptions
-                                               
+                                             
 aPrincipal
-                                               
+                                             
 aInitStandardClasses
-                                               
+                                             
 &
 obj
 )
 ;
-              
+            
 if
 (
 !
 obj
 )
 {
-                
+              
 return
 nullptr
 ;
-              
+            
 }
-              
+            
 /
 /
 obj
@@ -20482,7 +20503,7 @@ compartment
 .
 Enter
 it
-              
+            
 /
 /
 before
@@ -20491,7 +20512,7 @@ anything
 with
 it
 .
-              
+            
 JSAutoCompartment
 ac
 (
@@ -20499,7 +20520,7 @@ aCx
 obj
 )
 ;
-              
+            
 if
 (
 !
@@ -20516,28 +20537,28 @@ chromeProperties
 )
 )
 {
-                
+              
 return
 nullptr
 ;
-              
+            
 }
-              
+            
 *
 {
 unforgeable
 }
-              
+            
 *
 {
 slots
 }
-              
+            
 *
 {
 fireOnNewGlobal
 }
-              
+            
 return
 obj
 ;
@@ -20868,10 +20889,7 @@ n
 "
         
 return
-indent
-(
 body
-)
 class
 CGClearCachedValueMethod
 (
@@ -21219,8 +21237,6 @@ regetMember
 "
         
 return
-indent
-(
 fill
 (
             
@@ -21309,7 +21325,6 @@ slotIndex
 regetMember
 =
 regetMember
-)
 )
 class
 CGIsPermittedMethod
@@ -21669,8 +21684,6 @@ caseList
 )
         
 return
-indent
-(
 switch
 .
 define
@@ -21685,7 +21698,6 @@ false
 \
 n
 "
-)
 builtinNames
 =
 {
@@ -42525,12 +42537,9 @@ cgRoot
 CGList
 (
 [
-CGIndenter
-(
 getPerSignatureCall
 (
 signature
-)
 )
 ]
 )
@@ -42550,8 +42559,6 @@ requiredArgs
                 
 code
 =
-indent
-(
 fill
 (
                     
@@ -42599,7 +42606,6 @@ requiredArgs
 methodName
 =
 methodName
-)
 )
                 
 self
@@ -44339,14 +44345,10 @@ cgRoot
 =
 CGWrapper
 (
-CGIndenter
-(
 CGList
 (
 overloadCGThings
 )
-)
-                                
 pre
 =
 "
@@ -45393,10 +45395,7 @@ allowCrossOriginThis
 )
         
 return
-indent
-(
 body
-)
 +
 self
 .
@@ -45562,8 +45561,6 @@ self
         
 unwrap
 =
-indent
-(
 dedent
 (
 "
@@ -45609,7 +45606,6 @@ callee
 "
 "
 "
-)
 )
         
 return
@@ -45839,8 +45835,6 @@ self
 return
 CGGeneric
 (
-indent
-(
 dedent
 (
 "
@@ -45936,7 +45930,6 @@ ok
 "
 "
 "
-)
 )
 )
 class
@@ -46245,8 +46238,6 @@ self
 :
         
 return
-indent
-(
 fill
 (
             
@@ -46368,7 +46359,6 @@ in
 self
 .
 args
-)
 )
 )
     
@@ -46649,10 +46639,7 @@ n
 )
         
 return
-indent
-(
 ret
-)
 class
 CGLegacyCallHook
 (
@@ -46968,8 +46955,6 @@ self
 return
 CGGeneric
 (
-indent
-(
 dedent
 (
 "
@@ -47137,7 +47122,6 @@ true
 "
 )
 )
-)
     
 def
 definition_body
@@ -47163,8 +47147,6 @@ Global
             
 prefix
 =
-indent
-(
 dedent
 (
 "
@@ -47205,7 +47187,6 @@ true
 "
 "
 "
-)
 )
         
 else
@@ -47330,8 +47311,6 @@ self
         
 return
 CGGeneric
-(
-indent
 (
 dedent
 (
@@ -47479,7 +47458,6 @@ true
 "
 )
 )
-)
     
 def
 definition_body
@@ -47505,8 +47483,6 @@ Global
             
 prefix
 =
-indent
-(
 dedent
 (
 "
@@ -47533,7 +47509,6 @@ false
 "
 "
 "
-)
 )
         
 else
@@ -48243,8 +48218,6 @@ self
 return
 CGGeneric
 (
-indent
-(
 dedent
 (
 "
@@ -48340,7 +48313,6 @@ ok
 "
 "
 "
-)
 )
 )
 class
@@ -48611,8 +48583,6 @@ name
             
 prefix
 =
-indent
-(
 fill
 (
                 
@@ -48827,7 +48797,6 @@ attr
 type
 )
 )
-)
         
 else
 :
@@ -48842,8 +48811,6 @@ return
 prefix
 +
                 
-indent
-(
 CGGetterCall
 (
 self
@@ -48852,7 +48819,7 @@ attr
 .
 type
 nativeName
-                                    
+                             
 self
 .
 descriptor
@@ -48863,7 +48830,6 @@ attr
 .
 define
 (
-)
 )
 )
     
@@ -49051,8 +49017,6 @@ attr
 )
         
 return
-CGIndenter
-(
 CGGetterCall
 (
 self
@@ -49061,14 +49025,13 @@ attr
 .
 type
 nativeName
-                                       
 self
 .
 descriptor
+                            
 self
 .
 attr
-)
 )
 class
 CGGenericSetter
@@ -49317,8 +49280,6 @@ self
 return
 CGGeneric
 (
-indent
-(
 fill
 (
             
@@ -49468,7 +49429,6 @@ interface
 identifier
 .
 name
-)
 )
 )
 class
@@ -49629,8 +49589,6 @@ attr
 )
         
 return
-CGIndenter
-(
 CGSetterCall
 (
 self
@@ -49639,14 +49597,13 @@ attr
 .
 type
 nativeName
-                                       
 self
 .
 descriptor
+                            
 self
 .
 attr
-)
 )
 .
 define
@@ -49854,15 +49811,12 @@ attr
 )
         
 return
-CGIndenter
-(
 CGList
 (
 [
 checkForArg
 call
 ]
-)
 )
 class
 CGSpecializedForwardingSetter
@@ -49985,8 +49939,6 @@ forwardToAttrName
 )
         
 return
-indent
-(
 fill
 (
             
@@ -50125,7 +50077,6 @@ forwardToAttrName
 =
 forwardToAttrName
 )
-)
 class
 CGSpecializedReplaceableSetter
 (
@@ -50216,7 +50167,6 @@ attrName
 )
         
 return
-indent
 (
 '
 return
@@ -50239,7 +50189,7 @@ JSPROP_ENUMERATE
 n
 '
 %
-                      
+                
 attrName
 )
 def
@@ -61212,8 +61162,6 @@ self
 return
 CGGeneric
 (
-indent
-(
 dedent
 (
 "
@@ -61458,7 +61406,6 @@ desc
 "
 "
 "
-)
 )
 )
 class
@@ -61719,8 +61666,6 @@ self
 :
         
 return
-CGIndenter
-(
 CGGeneric
 (
 dedent
@@ -61828,7 +61773,6 @@ props
 "
 "
 "
-)
 )
 )
 class
@@ -63941,8 +63885,6 @@ self
 :
         
 return
-indent
-(
 fill
 (
             
@@ -64053,7 +63995,6 @@ self
 descriptor
 .
 nativeType
-)
 )
 class
 CGDOMJSProxyHandler_getOwnPropertyDescriptor
@@ -76513,6 +76454,17 @@ join
 (
 lines
 )
+    
+def
+indent_body
+(
+self
+body
+)
+:
+        
+return
+body
     
 def
 definition_body
