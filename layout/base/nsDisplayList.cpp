@@ -4861,8 +4861,9 @@ Describe
 contentDescription
 )
 ;
-metrics
-.
+aRoot
+-
+>
 SetContentDescription
 (
 NS_LossyConvertUTF16toASCII

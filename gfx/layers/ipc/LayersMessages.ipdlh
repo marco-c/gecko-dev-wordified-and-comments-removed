@@ -523,6 +523,16 @@ CompositorTypes
 h
 "
 ;
+using
+std
+:
+:
+string
+from
+"
+string
+"
+;
 namespace
 mozilla
 {
@@ -1256,6 +1266,9 @@ inheritedYScale
 ;
 LayerColor
 backgroundColor
+;
+string
+contentDescription
 ;
 }
 ;
