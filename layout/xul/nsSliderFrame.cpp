@@ -2812,9 +2812,6 @@ pos
 mRatio
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
 nscoord
 appUnitsPerPixel
 =
@@ -2841,8 +2838,6 @@ ToAppUnits
 appUnitsPerPixel
 )
 ;
-#
-endif
 thumbFrame
 -
 >

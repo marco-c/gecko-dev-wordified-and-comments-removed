@@ -8034,9 +8034,6 @@ GetType
 (
 )
 ;
-#
-ifdef
-ANDROID
 if
 (
 parentType
@@ -8049,8 +8046,6 @@ sliderFrame
 )
 break
 ;
-#
-endif
 if
 (
 f
