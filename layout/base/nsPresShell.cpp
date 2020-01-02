@@ -3288,6 +3288,7 @@ false
 ;
 if
 (
+!
 addedPointerEventEnabled
 )
 {
