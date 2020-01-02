@@ -132,6 +132,11 @@ HalSandbox
 h
 '
 '
+HalScreenConfiguration
+.
+h
+'
+'
 HalSensor
 .
 h
