@@ -98,7 +98,7 @@ MODULE
 '
 layout
 '
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
