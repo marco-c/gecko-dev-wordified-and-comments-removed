@@ -639,6 +639,16 @@ spp
 )
 ;
 }
+else
+{
+cx
+-
+>
+recoverFromOutOfMemory
+(
+)
+;
+}
 }
 JS_ASSERT
 (
