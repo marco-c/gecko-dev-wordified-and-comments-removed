@@ -1093,10 +1093,6 @@ _showBoxModel
 function
 (
 nodeFront
-options
-=
-{
-}
 )
 {
 return
@@ -1111,7 +1107,6 @@ highlighterUtils
 highlightNodeFront
 (
 nodeFront
-options
 )
 ;
 }
@@ -1145,7 +1140,6 @@ _brieflyShowBoxModel
 function
 (
 nodeFront
-options
 )
 {
 let
@@ -1185,7 +1179,6 @@ this
 _showBoxModel
 (
 nodeFront
-options
 )
 ;
 this
@@ -1629,8 +1622,6 @@ _brieflyShowBoxModel
 selection
 .
 nodeFront
-{
-}
 )
 ;
 }
