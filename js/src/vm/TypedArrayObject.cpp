@@ -12838,12 +12838,12 @@ Object
 :
 :
 class_constructor
-\
-NAME_OFFSET
-(
-_typedArray
-)
 3
+\
+JSFunction
+:
+:
+FinalizeKind
 >
 \
 _typedArray

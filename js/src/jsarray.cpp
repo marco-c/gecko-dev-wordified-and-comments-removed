@@ -15218,11 +15218,11 @@ nullptr
 GenericCreateConstructor
 <
 js_Array
-NAME_OFFSET
-(
-Array
-)
 1
+JSFunction
+:
+:
+FinalizeKind
 >
 CreateArrayPrototype
 array_static_methods

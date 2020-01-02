@@ -15427,11 +15427,11 @@ nullptr
 GenericCreateConstructor
 <
 js_Date
-NAME_OFFSET
-(
-Date
-)
 MAXARGS
+JSFunction
+:
+:
+FinalizeKind
 >
 GenericCreatePrototype
 <
