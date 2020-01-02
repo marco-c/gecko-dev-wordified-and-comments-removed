@@ -7,6 +7,9 @@ Attributes
 .
 h
 "
+#
+ifndef
+_MSC_VER
 extern
 "
 C
@@ -31,3 +34,5 @@ alloc_dealloc_mismatch
 "
 ;
 }
+#
+endif

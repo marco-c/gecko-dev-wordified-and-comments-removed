@@ -6701,6 +6701,13 @@ defined
 (
 JS_STANDALONE
 )
+&
+&
+!
+defined
+(
+_MSC_VER
+)
 extern
 "
 C
