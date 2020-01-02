@@ -2433,6 +2433,13 @@ IsEmpty
 return
 result
 ;
+if
+(
+HaveBuffer
+(
+)
+)
+{
 FinalizeFrame
 (
 result
@@ -2440,6 +2447,7 @@ result
 mRegionToDraw
 )
 ;
+}
 nsIntRect
 drawBounds
 =
