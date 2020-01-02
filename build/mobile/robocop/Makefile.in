@@ -647,6 +647,10 @@ JARS_DIR
 jar
 )
 )
+:
+(
+ANDROID_COMPAT_LIB
+)
 #
 We
 also
