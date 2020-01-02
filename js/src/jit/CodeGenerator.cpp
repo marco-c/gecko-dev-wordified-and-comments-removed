@@ -6711,6 +6711,15 @@ LDefinition
 :
 FLOAT32
 :
+kind
+=
+MoveOp
+:
+:
+FLOAT32
+;
+break
+;
 case
 LDefinition
 :
@@ -22754,7 +22763,7 @@ input
 MoveOp
 :
 :
-DOUBLE
+FLOAT32
 )
 ;
 void
@@ -22954,7 +22963,7 @@ funptr
 MoveOp
 :
 :
-DOUBLE
+FLOAT32
 )
 ;
 return
