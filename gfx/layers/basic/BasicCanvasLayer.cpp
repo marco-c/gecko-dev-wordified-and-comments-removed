@@ -117,6 +117,15 @@ FireDidTransactionCallback
 (
 )
 ;
+if
+(
+!
+mSurface
+)
+{
+return
+;
+}
 Matrix
 m
 ;
