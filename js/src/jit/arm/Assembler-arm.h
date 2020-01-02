@@ -5565,9 +5565,6 @@ relocations_
 CompactBufferWriter
 preBarriers_
 ;
-bool
-enoughMemory_
-;
 ARMBuffer
 m_buffer
 ;
@@ -5600,10 +5597,6 @@ Assembler
 (
 )
 :
-enoughMemory_
-(
-true
-)
 m_buffer
 (
 4
