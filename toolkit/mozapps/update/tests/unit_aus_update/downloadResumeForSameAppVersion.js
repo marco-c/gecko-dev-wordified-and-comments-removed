@@ -168,7 +168,7 @@ reloadUpdateManagerData
 do_timeout
 (
 TEST_CHECK_TIMEOUT
-do_test_finished
+doTestFinish
 )
 ;
 }

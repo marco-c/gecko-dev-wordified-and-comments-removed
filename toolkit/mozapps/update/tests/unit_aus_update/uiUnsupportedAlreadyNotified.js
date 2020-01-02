@@ -299,7 +299,7 @@ do_check_true
 true
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

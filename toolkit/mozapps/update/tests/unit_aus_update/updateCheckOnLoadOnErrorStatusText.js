@@ -530,7 +530,7 @@ run_test_pt17
 {
 run_test_helper
 (
-do_test_finished
+doTestFinish
 AUS_Cr
 .
 NS_ERROR_CONNECTION_REFUSED

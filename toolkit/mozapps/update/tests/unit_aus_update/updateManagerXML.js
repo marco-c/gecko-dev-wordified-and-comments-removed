@@ -1838,7 +1838,7 @@ state
 STATE_FAILED
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

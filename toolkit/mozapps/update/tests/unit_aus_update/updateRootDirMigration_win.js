@@ -694,7 +694,7 @@ initUpdateServiceStub
 (
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;
@@ -808,7 +808,7 @@ exists
 }
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

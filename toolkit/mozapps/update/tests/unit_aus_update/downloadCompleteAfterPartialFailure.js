@@ -397,7 +397,7 @@ aText
 text
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

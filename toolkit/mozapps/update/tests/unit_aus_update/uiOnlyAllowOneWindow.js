@@ -332,7 +332,7 @@ ID
 WindowMediatorFactory
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;

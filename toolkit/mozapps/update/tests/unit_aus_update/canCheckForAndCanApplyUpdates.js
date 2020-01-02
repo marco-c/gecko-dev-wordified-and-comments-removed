@@ -111,7 +111,7 @@ gAUS
 canApplyUpdates
 )
 ;
-do_test_finished
+doTestFinish
 (
 )
 ;
