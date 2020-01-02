@@ -308,3 +308,10 @@ p3
 bug970774
 .
 patch
+patch
+-
+p3
+<
+cleanup
+.
+patch
