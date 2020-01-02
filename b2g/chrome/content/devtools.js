@@ -283,7 +283,7 @@ initialized
 {
 RemoteDebugger
 .
-start
+initServer
 (
 )
 ;
