@@ -10376,8 +10376,8 @@ rv
 ;
 }
 class
-AutoFlexLineListClearer
 MOZ_STACK_CLASS
+AutoFlexLineListClearer
 {
 public
 :
