@@ -163,6 +163,9 @@ eagerCompilation
 uint32_t
 usesBeforeCompilePar
 ;
+uint32_t
+inliningMaxCallerBytecodeLength
+;
 void
 setEagerCompilation
 (
@@ -310,6 +313,10 @@ false
 usesBeforeCompilePar
 (
 1
+)
+inliningMaxCallerBytecodeLength
+(
+10000
 )
 {
 }
