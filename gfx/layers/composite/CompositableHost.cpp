@@ -93,6 +93,17 @@ gfxPlatform
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+PCompositableParent
+.
+h
+"
 namespace
 mozilla
 {

@@ -66,6 +66,17 @@ mozalloc
 h
 "
 #
+include
+"
+mozilla
+/
+layers
+/
+PCompositableChild
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

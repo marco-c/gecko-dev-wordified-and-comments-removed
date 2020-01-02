@@ -201,6 +201,17 @@ TextureClientOGL
 h
 "
 #
+include
+"
+mozilla
+/
+layers
+/
+PTextureChild
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

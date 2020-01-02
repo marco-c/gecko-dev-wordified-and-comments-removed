@@ -159,17 +159,6 @@ include
 "
 mozilla
 /
-layers
-/
-PTextureChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mozalloc
 .
 h

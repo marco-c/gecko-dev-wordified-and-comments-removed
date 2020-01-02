@@ -75,17 +75,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-PCompositableChild
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -119,6 +108,9 @@ SurfaceDescriptor
 ;
 class
 TextureClientData
+;
+class
+PCompositableChild
 ;
 class
 CompositableClient

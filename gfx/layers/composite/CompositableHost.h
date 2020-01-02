@@ -125,17 +125,6 @@ mozilla
 /
 layers
 /
-PCompositableParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 TextureHost
 .
 h
@@ -233,6 +222,9 @@ TiledLayerComposer
 ;
 class
 CompositableParentManager
+;
+class
+PCompositableParent
 ;
 struct
 EffectChain
