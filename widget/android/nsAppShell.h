@@ -228,17 +228,7 @@ mozilla
 :
 AndroidGeckoEvent
 *
-mQueuedDrawEvent
-;
-mozilla
-:
-:
-AndroidGeckoEvent
-*
 mQueuedViewportEvent
-;
-bool
-mAllowCoalescingNextDraw
 ;
 bool
 mAllowCoalescingTouches
