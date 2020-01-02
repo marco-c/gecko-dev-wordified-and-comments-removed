@@ -222,6 +222,12 @@ const
 CERTCertificate
 *
 candidateCert
+mozilla
+:
+:
+pkix
+:
+:
 TrustLevel
 *
 trustLevel

@@ -46,9 +46,6 @@ requiredPolicy
 unsigned
 int
 subCACount
-TrustDomain
-:
-:
 TrustLevel
 *
 trustLevel

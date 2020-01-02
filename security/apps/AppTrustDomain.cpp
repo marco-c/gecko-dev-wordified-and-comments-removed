@@ -550,6 +550,9 @@ relevantTrustBit
 endEntityOrCA
 =
 =
+EndEntityOrCA
+:
+:
 MustBeCA
 ?
 CERTDB_TRUSTED_CA
@@ -577,6 +580,9 @@ CERTDB_TERMINAL_RECORD
 *
 trustLevel
 =
+TrustLevel
+:
+:
 ActivelyDistrusted
 ;
 return
@@ -596,6 +602,9 @@ CERTDB_TRUSTED_CA
 *
 trustLevel
 =
+TrustLevel
+:
+:
 TrustAnchor
 ;
 return
@@ -621,6 +630,9 @@ candidateCert
 *
 trustLevel
 =
+TrustLevel
+:
+:
 TrustAnchor
 ;
 return
@@ -630,6 +642,9 @@ SECSuccess
 *
 trustLevel
 =
+TrustLevel
+:
+:
 InheritsTrust
 ;
 return

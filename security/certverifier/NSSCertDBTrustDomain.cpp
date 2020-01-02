@@ -346,6 +346,9 @@ relevantTrustBit
 endEntityOrCA
 =
 =
+EndEntityOrCA
+:
+:
 MustBeCA
 ?
 CERTDB_TRUSTED_CA
@@ -373,6 +376,9 @@ CERTDB_TERMINAL_RECORD
 *
 trustLevel
 =
+TrustLevel
+:
+:
 ActivelyDistrusted
 ;
 return
@@ -397,6 +403,9 @@ SEC_OID_X509_ANY_POLICY
 *
 trustLevel
 =
+TrustLevel
+:
+:
 TrustAnchor
 ;
 return
@@ -418,6 +427,9 @@ policy
 *
 trustLevel
 =
+TrustLevel
+:
+:
 TrustAnchor
 ;
 return
@@ -431,6 +443,9 @@ endif
 *
 trustLevel
 =
+TrustLevel
+:
+:
 InheritsTrust
 ;
 return
@@ -555,6 +570,9 @@ PR_ASSERT
 endEntityOrCA
 =
 =
+EndEntityOrCA
+:
+:
 MustBeEndEntity
 )
 ;
@@ -953,6 +971,9 @@ NeverFetchOCSP
 endEntityOrCA
 =
 =
+EndEntityOrCA
+:
+:
 MustBeCA
 &
 &
