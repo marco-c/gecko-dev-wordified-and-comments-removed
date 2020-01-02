@@ -3828,7 +3828,7 @@ isUndefined
 )
 |
 |
-js_IsCallable
+IsCallable
 (
 getter
 )
@@ -3843,7 +3843,7 @@ isUndefined
 )
 |
 |
-js_IsCallable
+IsCallable
 (
 setter
 )

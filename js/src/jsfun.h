@@ -2557,15 +2557,6 @@ MutableHandleObject
 objp
 )
 ;
-bool
-IsConstructor
-(
-const
-Value
-&
-v
-)
-;
 class
 FunctionExtended
 :

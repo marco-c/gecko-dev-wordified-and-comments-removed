@@ -5435,7 +5435,7 @@ false
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 fval
 )
@@ -5534,7 +5534,7 @@ false
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 fval
 )
@@ -5703,7 +5703,7 @@ false
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 fval
 )
@@ -5882,7 +5882,7 @@ false
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 fval
 )
@@ -5975,7 +5975,7 @@ false
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 value
 )
@@ -6070,7 +6070,7 @@ false
 if
 (
 !
-js_IsCallable
+IsCallable
 (
 value
 )
