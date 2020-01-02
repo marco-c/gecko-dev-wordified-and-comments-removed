@@ -280,11 +280,6 @@ testIntTypesABI
 cpp
 '
 '
-testIsInsideNursery
-.
-cpp
-'
-'
 testJSEvaluateScript
 .
 cpp
