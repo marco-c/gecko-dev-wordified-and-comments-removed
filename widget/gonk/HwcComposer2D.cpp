@@ -1890,6 +1890,13 @@ initialized
 "
 )
 ;
+mList
+-
+>
+numHwLayers
+=
+0
+;
 return
 false
 ;
@@ -1939,6 +1946,13 @@ FB
 layer
 "
 )
+;
+mList
+-
+>
+numHwLayers
+=
+0
 ;
 return
 false
