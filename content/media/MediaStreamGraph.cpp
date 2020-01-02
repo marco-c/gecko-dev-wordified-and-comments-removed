@@ -191,12 +191,17 @@ speex_resampler
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 AudioOutputObserver
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
@@ -3597,6 +3602,9 @@ uint32_t
 aFrames
 )
 {
+#
+ifdef
+MOZ_WEBRTC
 if
 (
 aFrames
@@ -3631,6 +3639,8 @@ aFormat
 ;
 }
 }
+#
+endif
 }
 void
 MediaStreamGraphImpl
