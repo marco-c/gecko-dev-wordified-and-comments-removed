@@ -5945,7 +5945,7 @@ overscroll
 y
 aFrameMetrics
 .
-GetDisableScrollingX
+GetDisableScrollingY
 (
 )
 )

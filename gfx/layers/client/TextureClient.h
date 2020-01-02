@@ -1050,6 +1050,9 @@ GetAllocator
 )
 const
 ;
+mozilla
+:
+:
 ipc
 :
 :
@@ -1064,6 +1067,9 @@ mShmem
 ;
 }
 protected
+:
+mozilla
+:
 :
 ipc
 :
