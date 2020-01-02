@@ -500,7 +500,7 @@ Bug
 .
 *
 /
-nsIntSize
+IntSize
 size
 ;
 /

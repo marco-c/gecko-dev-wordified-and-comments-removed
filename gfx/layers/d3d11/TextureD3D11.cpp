@@ -67,6 +67,13 @@ gfxD2DSurface
 .
 h
 "
+#
+include
+"
+gfx2DGlue
+.
+h
+"
 namespace
 mozilla
 {

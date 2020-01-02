@@ -21,6 +21,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Point
+.
+h
+"
+#
+include
+"
 ImageLayers
 .
 h
@@ -49,9 +60,6 @@ layers
 {
 class
 GrallocTextureClientOGL
-;
-class
-IntSize
 ;
 class
 GraphicBufferLocked
@@ -133,6 +141,9 @@ GraphicBufferLocked
 >
 mGraphicBuffer
 ;
+gfx
+:
+:
 IntSize
 mPicSize
 ;
