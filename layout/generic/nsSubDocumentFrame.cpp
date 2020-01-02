@@ -1820,6 +1820,15 @@ displayPort
 ;
 if
 (
+!
+aBuilder
+-
+>
+IsForEventDelivery
+(
+)
+&
+&
 nsLayoutUtils
 :
 :
