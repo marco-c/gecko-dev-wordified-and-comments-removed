@@ -402,6 +402,16 @@ java
 \
 src
 /
+nativecode
+/
+test
+/
+TestNativeCrypto
+.
+java
+\
+src
+/
 sync
 /
 helpers
