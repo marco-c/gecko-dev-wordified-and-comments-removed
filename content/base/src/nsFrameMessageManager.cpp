@@ -3909,11 +3909,8 @@ WrapNative
 ctx
 global
 aTarget
+&
 targetv
-.
-address
-(
-)
 nullptr
 true
 )
@@ -4280,11 +4277,8 @@ WrapNative
 ctx
 global
 defaultThisValue
+&
 thisValue
-.
-address
-(
-)
 nullptr
 true
 )
