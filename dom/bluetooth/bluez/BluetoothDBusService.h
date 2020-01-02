@@ -96,14 +96,6 @@ BluetoothDBusService
 (
 )
 ;
-nsresult
-DispatchToBtThread
-(
-nsIRunnable
-*
-aRunnable
-)
-;
 bool
 IsReady
 (
@@ -661,12 +653,6 @@ ipc
 DBusReplyCallback
 aCallback
 )
-;
-nsCOMPtr
-<
-nsIThread
->
-mBluetoothThread
 ;
 }
 ;
