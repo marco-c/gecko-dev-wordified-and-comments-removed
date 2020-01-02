@@ -25942,6 +25942,14 @@ call
 ;
 if
 (
+call
+-
+>
+isEffectful
+(
+)
+&
+&
 !
 resumeAfter
 (
