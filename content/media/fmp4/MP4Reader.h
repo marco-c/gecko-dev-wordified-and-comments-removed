@@ -52,15 +52,6 @@ include
 <
 deque
 >
-#
-include
-"
-mozilla
-/
-Monitor
-.
-h
-"
 namespace
 mozilla
 {
