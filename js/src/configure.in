@@ -36477,6 +36477,9 @@ i18n
 .
 1
 )
+MOZ_SHARED_ICU
+=
+1
 fi
 MOZ_ARG_WITH_STRING
 (
