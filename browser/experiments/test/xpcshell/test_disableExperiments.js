@@ -1158,9 +1158,7 @@ OBSERVER_TOPIC
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;

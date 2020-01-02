@@ -208,14 +208,7 @@ function
 )
 {
 yield
-experimentsInstance
-.
-uninit
-(
-)
-;
-yield
-removeCacheFile
+promiseRestartManager
 (
 )
 ;
@@ -224,7 +217,8 @@ uninstallExperimentAddons
 (
 )
 ;
-restartManager
+yield
+removeCacheFile
 (
 )
 ;
@@ -2211,9 +2205,7 @@ experiment1
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -9367,7 +9359,8 @@ n
 "
 )
 ;
-restartManager
+yield
+promiseRestartManager
 (
 )
 ;
@@ -9805,7 +9798,8 @@ anymore
 "
 )
 ;
-restartManager
+yield
+promiseRestartManager
 (
 )
 ;

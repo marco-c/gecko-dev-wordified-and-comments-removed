@@ -1012,9 +1012,7 @@ values
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -1093,9 +1091,7 @@ now
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -1260,9 +1256,7 @@ now
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -1395,9 +1389,7 @@ now
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -1506,9 +1498,7 @@ now
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -1605,9 +1595,7 @@ false
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;

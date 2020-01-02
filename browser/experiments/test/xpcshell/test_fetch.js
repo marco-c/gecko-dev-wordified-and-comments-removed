@@ -331,9 +331,7 @@ now
 )
 ;
 yield
-ex
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -388,9 +386,7 @@ now
 )
 ;
 yield
-ex
-.
-uninit
+promiseRestartManager
 (
 )
 ;
@@ -513,9 +509,7 @@ them
 )
 ;
 yield
-ex
-.
-uninit
+promiseRestartManager
 (
 )
 ;

@@ -2315,9 +2315,7 @@ os
 )
 ;
 yield
-experiments
-.
-uninit
+promiseRestartManager
 (
 )
 ;
