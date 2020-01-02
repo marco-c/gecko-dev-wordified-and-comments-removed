@@ -659,6 +659,10 @@ console
 exception
 )
 ;
+return
+void
+0
+;
 }
 function
 run

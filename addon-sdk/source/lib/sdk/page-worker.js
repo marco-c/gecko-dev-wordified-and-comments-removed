@@ -79,6 +79,7 @@ WorkerHost
 Worker
 detach
 attach
+destroy
 }
 =
 require
@@ -995,7 +996,7 @@ delete
 this
 )
 ;
-detach
+destroy
 (
 workers
 .

@@ -88,7 +88,7 @@ testIsPrivateOnTab
 =
 function
 (
-test
+assert
 )
 {
 let
@@ -106,9 +106,9 @@ getOwnerWindow
 window
 )
 ;
-test
-.
 assert
+.
+ok
 (
 chromeWindow
 instanceof
@@ -123,9 +123,9 @@ found
 '
 )
 ;
-test
-.
 assert
+.
+ok
 (
 !
 isPrivate
@@ -172,9 +172,9 @@ true
 }
 )
 ;
-test
-.
 assert
+.
+ok
 (
 rawTab
 .
@@ -192,9 +192,9 @@ nsILoadContext
 usePrivateBrowsing
 )
 ;
-test
-.
 assert
+.
+ok
 (
 isPrivate
 (
@@ -206,9 +206,9 @@ contentWindow
 )
 )
 ;
-test
-.
 assert
+.
+ok
 (
 isPrivate
 (
@@ -224,3 +224,4 @@ rawTab
 )
 ;
 }
+;
