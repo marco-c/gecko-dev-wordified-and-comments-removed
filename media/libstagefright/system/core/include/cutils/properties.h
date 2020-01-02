@@ -21,6 +21,15 @@ stddef
 h
 >
 #
+include
+<
+sys
+/
+system_properties
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern

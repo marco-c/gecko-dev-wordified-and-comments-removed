@@ -150,6 +150,12 @@ AVFrame
 aFrame
 )
 ;
+mp4_demuxer
+:
+:
+VideoDecoderConfig
+mConfig
+;
 MediaDataDecoderCallback
 *
 mCallback

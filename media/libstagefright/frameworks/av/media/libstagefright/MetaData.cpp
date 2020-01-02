@@ -1,7 +1,4 @@
 #
-undef
-LOG_TAG
-#
 define
 LOG_TAG
 "
@@ -1812,6 +1809,3 @@ string
 }
 }
 }
-#
-undef
-LOG_TAG

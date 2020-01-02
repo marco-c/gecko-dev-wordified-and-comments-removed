@@ -1,7 +1,4 @@
 #
-undef
-LOG_TAG
-#
 define
 LOG_TAG
 "
@@ -4380,6 +4377,3 @@ true
 ;
 }
 }
-#
-undef
-LOG_TAG
