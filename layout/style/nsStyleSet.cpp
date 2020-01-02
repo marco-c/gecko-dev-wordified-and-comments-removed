@@ -5881,7 +5881,7 @@ aData
 }
 static
 void
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 TreeMatchContext
 &
@@ -5903,7 +5903,7 @@ IsElementInStyleScope
 {
 aTreeContext
 .
-InitAncestors
+InitStyleScopes
 (
 aElement
 -
@@ -5948,7 +5948,7 @@ OwnerDoc
 )
 )
 ;
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 treeContext
 aElement
@@ -6898,7 +6898,7 @@ OwnerDoc
 )
 )
 ;
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 treeContext
 aParentElement
@@ -7100,7 +7100,7 @@ OwnerDoc
 )
 )
 ;
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 treeContext
 aParentElement
@@ -7813,7 +7813,7 @@ OwnerDoc
 )
 )
 ;
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 treeContext
 aParentElement
@@ -9419,7 +9419,7 @@ OwnerDoc
 )
 )
 ;
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 treeContext
 aContent
@@ -9545,7 +9545,7 @@ OwnerDoc
 )
 )
 ;
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 treeContext
 aElement
@@ -9713,7 +9713,7 @@ OwnerDoc
 )
 )
 ;
-InitAncestorsIfInStyleScope
+InitStyleScopes
 (
 treeContext
 aElement
