@@ -20448,9 +20448,11 @@ request
 .
 notifyGetSmscAddressFailed
 (
-response
+Ci
 .
-errorMsg
+nsIMobileMessageCallback
+.
+NOT_FOUND_ERROR
 )
 ;
 }
