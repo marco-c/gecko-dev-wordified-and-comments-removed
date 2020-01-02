@@ -1115,12 +1115,11 @@ Clear
 (
 )
 ;
-NS_RELEASE
-(
 mResources
 -
 >
-mLoader
+ClearLoader
+(
 )
 ;
 }
