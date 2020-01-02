@@ -1623,6 +1623,13 @@ sidebars
 this
 )
 ;
+if
+(
+internals
+.
+tracker
+)
+{
 internals
 .
 tracker
@@ -1631,6 +1638,7 @@ unload
 (
 )
 ;
+}
 internals
 .
 tracker

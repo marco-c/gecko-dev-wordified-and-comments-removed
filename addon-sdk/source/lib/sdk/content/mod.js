@@ -165,6 +165,13 @@ modification
 target
 )
 {
+if
+(
+!
+modification
+)
+return
+;
 let
 window
 =
@@ -201,6 +208,13 @@ modification
 target
 )
 {
+if
+(
+!
+modification
+)
+return
+;
 if
 (
 target

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 runtime
 =
 require
@@ -118,15 +118,12 @@ string
 "
 )
 ;
-var
+const
 XPCOMABI
 =
-typeof
-(
 runtime
 .
 XPCOMABI
-)
 ;
 assert
 .
