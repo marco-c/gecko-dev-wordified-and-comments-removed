@@ -396,9 +396,6 @@ size_type
 ;
 static
 const
-HashEntryArray
-:
-:
 index_type
 NoIndex
 =
@@ -412,6 +409,10 @@ OrderingEntry
 {
 OrderingEntry
 (
+const
+T
+*
+aResource
 )
 :
 mFirstSeen
@@ -423,6 +424,10 @@ kNone
 )
 mOrderedLT
 (
+)
+mResource
+(
+aResource
 )
 {
 }
@@ -437,6 +442,11 @@ mFirstSeen
 ;
 HashEntryArray
 mOrderedLT
+;
+const
+T
+*
+mResource
 ;
 }
 ;
@@ -630,6 +640,7 @@ aKey
 new
 OrderingEntry
 (
+aKey
 )
 )
 ;
