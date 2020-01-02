@@ -1261,14 +1261,6 @@ Init
 (
 )
 ;
-void
-MaybeTakeCPUWakeLock
-(
-Element
-*
-aFrameElement
-)
-;
 bool
 SetPriorityAndCheckIsAlive
 (
