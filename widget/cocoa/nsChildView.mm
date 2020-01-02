@@ -884,7 +884,7 @@ aMouseEvent
 toGeckoEvent
 :
 (
-nsInputEvent
+WidgetInputEvent
 *
 )
 outGeckoEvent
@@ -9221,13 +9221,13 @@ HasKeyEventMessage
 )
 )
 {
-nsKeyEvent
+WidgetKeyboardEvent
 *
 keyEvent
 =
-reinterpret_cast
+static_cast
 <
-nsKeyEvent
+WidgetKeyboardEvent
 *
 >
 (
@@ -10879,7 +10879,7 @@ has
 native
 focus
 .
-nsQueryContentEvent
+WidgetQueryContentEvent
 textContent
 (
 true
@@ -23748,7 +23748,7 @@ only
 /
 /
 sets
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 .
 scrollOverflow
 when
@@ -23768,7 +23768,7 @@ events
 .
 /
 /
-nsMouseScrollEvent
+WidgetMouseScrollEvent
 .
 scrollOverflow
 only
@@ -28118,7 +28118,7 @@ aMouseEvent
 toGeckoEvent
 :
 (
-nsInputEvent
+WidgetInputEvent
 *
 )
 outGeckoEvent
@@ -28213,13 +28213,13 @@ localPoint
 )
 )
 ;
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 mouseEvent
 =
 static_cast
 <
-nsMouseEvent_base
+WidgetMouseEventBase
 *
 >
 (
@@ -30297,7 +30297,7 @@ WidgetToScreenOffset
 )
 )
 ;
-nsQueryContentEvent
+WidgetQueryContentEvent
 hitTest
 (
 true
@@ -31560,7 +31560,7 @@ set
 up
 gecko
 event
-nsDragEvent
+WidgetDragEvent
 geckoEvent
 (
 true
@@ -33284,7 +33284,7 @@ if
 sendType
 )
 {
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true
@@ -33552,7 +33552,7 @@ the
 current
 selection
 .
-nsQueryContentEvent
+WidgetQueryContentEvent
 event
 (
 true
@@ -35198,7 +35198,7 @@ ChildViewMouseTracker
 :
 AttachPluginEvent
 (
-nsMouseEvent_base
+WidgetMouseEventBase
 &
 aMouseEvent
 ChildView
