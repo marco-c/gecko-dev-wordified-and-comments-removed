@@ -1307,6 +1307,11 @@ Manager
 )
 -
 >
+AsContentParent
+(
+)
+-
+>
 Pid
 (
 )
@@ -1367,6 +1372,11 @@ Manager
 -
 >
 Manager
+(
+)
+-
+>
+AsContentParent
 (
 )
 -

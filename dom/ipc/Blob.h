@@ -72,7 +72,7 @@ class
 ContentChild
 ;
 class
-ContentParent
+nsIContentParent
 ;
 class
 PBlobStreamChild
@@ -297,7 +297,7 @@ PBlobParent
 {
 friend
 class
-ContentParent
+nsIContentParent
 ;
 class
 OpenStreamRunnable
@@ -323,7 +323,7 @@ mRemoteBlob
 ;
 nsRefPtr
 <
-ContentParent
+nsIContentParent
 >
 mStrongManager
 ;
@@ -349,7 +349,7 @@ BlobParent
 *
 Create
 (
-ContentParent
+nsIContentParent
 *
 aManager
 nsIDOMBlob
@@ -402,11 +402,17 @@ uint64_t
 aLength
 )
 ;
+nsIContentParent
+*
+Manager
+(
+)
+;
 private
 :
 BlobParent
 (
-ContentParent
+nsIContentParent
 *
 aManager
 nsIDOMBlob
@@ -416,7 +422,7 @@ aBlob
 ;
 BlobParent
 (
-ContentParent
+nsIContentParent
 *
 aManager
 const
@@ -435,7 +441,7 @@ BlobParent
 *
 Create
 (
-ContentParent
+nsIContentParent
 *
 aManager
 const
