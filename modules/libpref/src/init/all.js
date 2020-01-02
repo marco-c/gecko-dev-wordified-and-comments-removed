@@ -33096,7 +33096,7 @@ autologin
 .
 proxy
 "
-true
+false
 )
 ;
 pref
