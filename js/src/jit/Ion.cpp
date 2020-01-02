@@ -1739,11 +1739,9 @@ rt
 endif
 if
 (
-!
 ionCodeProtected_
 )
-return
-;
+{
 ionAlloc_
 -
 >
@@ -1756,6 +1754,7 @@ ionCodeProtected_
 =
 false
 ;
+}
 if
 (
 rt
