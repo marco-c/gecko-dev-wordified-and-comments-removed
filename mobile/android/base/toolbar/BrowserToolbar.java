@@ -2047,6 +2047,12 @@ View
 v
 )
 {
+if
+(
+!
+isAnimatingEntry
+)
+{
 Telemetry
 .
 sendUIEvent
@@ -2079,6 +2085,7 @@ cancelEdit
 (
 )
 ;
+}
 }
 }
 )
@@ -2178,6 +2185,10 @@ if
 isEditing
 (
 )
+&
+&
+!
+isAnimatingEntry
 )
 {
 Telemetry
