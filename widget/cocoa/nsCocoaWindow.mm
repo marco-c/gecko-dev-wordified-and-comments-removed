@@ -18490,7 +18490,7 @@ toolbar
 .
 -
 (
-float
+CGFloat
 )
 unifiedToolbarHeight
 {
@@ -18500,7 +18500,7 @@ mUnifiedToolbarHeight
 }
 -
 (
-float
+CGFloat
 )
 titlebarHeight
 {
@@ -18549,7 +18549,7 @@ void
 setUnifiedToolbarHeight
 :
 (
-float
+CGFloat
 )
 aHeight
 {
@@ -19871,7 +19871,7 @@ CGContextRef
 aContext
 CGRect
 aTitlebarRect
-float
+CGFloat
 aUnifiedToolbarHeight
 BOOL
 aIsMain
@@ -19940,7 +19940,7 @@ state
 "
 [
 NSNumber
-numberWithInt
+numberWithDouble
 :
 aUnifiedToolbarHeight
 ]
