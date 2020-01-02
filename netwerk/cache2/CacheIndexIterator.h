@@ -64,12 +64,16 @@ bool
 aAddNew
 )
 ;
+protected
+:
 virtual
 ~
 CacheIndexIterator
 (
 )
 ;
+public
+:
 nsresult
 GetNextHash
 (

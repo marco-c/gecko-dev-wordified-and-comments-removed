@@ -69,6 +69,8 @@ endToEndSSL
 false
 )
 ;
+private
+:
 virtual
 ~
 nsHttpConnectionInfo
@@ -93,6 +95,8 @@ this
 )
 ;
 }
+public
+:
 const
 nsAFlatCString
 &

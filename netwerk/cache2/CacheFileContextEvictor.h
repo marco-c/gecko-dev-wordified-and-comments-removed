@@ -73,12 +73,16 @@ CacheFileContextEvictor
 (
 )
 ;
+private
+:
 virtual
 ~
 CacheFileContextEvictor
 (
 )
 ;
+public
+:
 nsresult
 Init
 (

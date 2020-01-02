@@ -82,6 +82,8 @@ aFD
 )
 ;
 }
+private
+:
 ~
 FileDescOwner
 (
@@ -93,6 +95,8 @@ mFD
 )
 ;
 }
+public
+:
 mozilla
 :
 :
