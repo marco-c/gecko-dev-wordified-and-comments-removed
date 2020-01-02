@@ -132,7 +132,7 @@ AudioFileStreamID
 aFileStream
 AudioFileStreamPropertyID
 aPropertyID
-uint32_t
+UInt32
 *
 aFlags
 )
