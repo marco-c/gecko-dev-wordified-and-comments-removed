@@ -65,7 +65,9 @@ h
 #
 include
 "
-nsMutationEvent
+mozilla
+/
+MutationEvent
 .
 h
 "

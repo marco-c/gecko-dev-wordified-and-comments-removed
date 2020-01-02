@@ -159,10 +159,10 @@ WidgetContentCommandEvent
 class
 WidgetPluginEvent
 ;
-}
 class
-nsMutationEvent
+InternalMutationEvent
 ;
+}
 typedef
 mozilla
 :
@@ -387,6 +387,13 @@ mozilla
 :
 WidgetPluginEvent
 nsPluginEvent
+;
+typedef
+mozilla
+:
+:
+InternalMutationEvent
+nsMutationEvent
 ;
 #
 endif
