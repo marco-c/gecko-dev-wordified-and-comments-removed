@@ -610,6 +610,15 @@ return
 NS_OK
 ;
 }
+protected
+:
+virtual
+~
+faviconAsyncLoader
+(
+)
+{
+}
 private
 :
 nsCOMPtr

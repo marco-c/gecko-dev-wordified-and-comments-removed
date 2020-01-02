@@ -421,14 +421,14 @@ nsIFaviconDataCallback
 aCallback
 )
 ;
+protected
+:
 virtual
 ~
 AsyncFetchAndSetIconFromNetwork
 (
 )
 ;
-protected
-:
 IconData
 mIcon
 ;
