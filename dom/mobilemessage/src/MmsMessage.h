@@ -135,7 +135,7 @@ aAttachments
 uint64_t
 aExpiryDate
 bool
-aIsReadReportRequested
+aReadReportRequested
 )
 ;
 MmsMessage
@@ -215,7 +215,7 @@ Value
 &
 aExpiryDate
 bool
-aIsReadReportRequested
+aReadReportRequested
 JSContext
 *
 aCx
@@ -299,7 +299,7 @@ uint64_t
 mExpiryDate
 ;
 bool
-mIsReadReportRequested
+mReadReportRequested
 ;
 }
 ;

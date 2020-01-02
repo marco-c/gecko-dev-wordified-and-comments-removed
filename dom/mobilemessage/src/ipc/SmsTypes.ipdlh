@@ -343,7 +343,7 @@ uint64_t
 expiryDate
 ;
 bool
-isReadReportRequested
+readReportRequested
 ;
 }
 ;
