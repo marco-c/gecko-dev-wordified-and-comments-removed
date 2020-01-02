@@ -7802,9 +7802,14 @@ n
 '
 %
 (
+mozpath
+.
+basename
+(
 per_source_flag
 .
 file_name
+)
 flag
 )
 )
