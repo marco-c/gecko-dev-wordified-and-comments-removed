@@ -337,6 +337,11 @@ DrawTargetD2D1
 cpp
 '
 '
+FilterNodeD2D1
+.
+cpp
+'
+'
 RadialGradientEffectD2D1
 .
 cpp
