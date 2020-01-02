@@ -171,7 +171,6 @@ woof
 )
 {
 }
-;
 }
 ;
 MOZ_NEVER_INLINE

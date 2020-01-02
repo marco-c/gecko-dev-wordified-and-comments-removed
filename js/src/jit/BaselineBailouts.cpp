@@ -323,7 +323,6 @@ void
 )
 ;
 }
-;
 size_t
 bufferTotal_
 ;

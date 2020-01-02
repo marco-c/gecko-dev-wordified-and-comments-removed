@@ -183,7 +183,6 @@ FRAME_LABEL_COPY
 )
 ;
 }
-;
 void
 setLabel
 (

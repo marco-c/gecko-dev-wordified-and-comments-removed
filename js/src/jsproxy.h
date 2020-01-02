@@ -2359,7 +2359,6 @@ NONE
 endif
 {
 }
-;
 void
 reportErrorIfExceptionIsNotPending
 (
@@ -2599,7 +2598,6 @@ act
 )
 {
 }
-;
 #
 endif
 }

@@ -3375,7 +3375,6 @@ Range
 lhs
 )
 ;
-;
 }
 if
 (
@@ -3441,7 +3440,6 @@ Range
 *
 rhs
 )
-;
 ;
 }
 JS_ASSERT_IF

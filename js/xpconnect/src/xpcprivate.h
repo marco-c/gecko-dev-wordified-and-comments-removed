@@ -11086,7 +11086,6 @@ JSContext
 aCx
 )
 ;
-;
 friend
 void
 xpc
@@ -13213,7 +13212,6 @@ defineAs
 )
 ;
 }
-;
 JS
 :
 :
@@ -13277,7 +13275,6 @@ defineAs
 )
 ;
 }
-;
 JS
 :
 :
@@ -13354,7 +13351,6 @@ cloneFunctions
 )
 ;
 }
-;
 bool
 wrapReflectors
 ;

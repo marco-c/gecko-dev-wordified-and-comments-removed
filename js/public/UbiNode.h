@@ -1120,7 +1120,6 @@ EdgeRange
 )
 {
 }
-;
 bool
 empty
 (
@@ -1321,7 +1320,6 @@ ptr
 )
 ;
 }
-;
 }
 ;
 template
@@ -1403,7 +1401,6 @@ ptr
 )
 ;
 }
-;
 }
 ;
 template

@@ -4318,7 +4318,6 @@ sep
 )
 {
 }
-;
 bool
 operator
 (

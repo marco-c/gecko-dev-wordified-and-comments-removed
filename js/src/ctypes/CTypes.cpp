@@ -21691,7 +21691,6 @@ toInt32
 (
 )
 ;
-;
 return
 true
 ;
@@ -21806,7 +21805,6 @@ length
 toInt32
 (
 )
-;
 ;
 return
 Convert

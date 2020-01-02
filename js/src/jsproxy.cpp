@@ -10407,7 +10407,6 @@ ToBoolean
 trapResult
 )
 ;
-;
 if
 (
 !
