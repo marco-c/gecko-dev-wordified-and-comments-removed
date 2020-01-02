@@ -4908,13 +4908,6 @@ SLOT_CAPACITY_MIN
 =
 8
 ;
-static
-const
-uint32_t
-SLOT_CAPACITY_ARRAYOBJECT_MIN
-=
-2
-;
 HeapSlot
 *
 fixedSlots
