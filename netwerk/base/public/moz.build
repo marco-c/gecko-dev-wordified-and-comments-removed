@@ -133,6 +133,11 @@ nsIAsyncStreamCopier
 idl
 '
 '
+nsIAsyncStreamCopier2
+.
+idl
+'
+'
 nsIAsyncVerifyRedirectCallback
 .
 idl
