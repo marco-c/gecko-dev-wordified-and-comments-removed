@@ -245,6 +245,12 @@ nssEnsureOnChromeOnly
 ;
 extern
 bool
+EnsureNSSInitializedChromeOrContent
+(
+)
+;
+extern
+bool
 EnsureNSSInitialized
 (
 EnsureNSSOperator
