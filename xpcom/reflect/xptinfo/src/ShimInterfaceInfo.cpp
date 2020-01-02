@@ -966,6 +966,9 @@ nsIDOMSmartCardEvent
 h
 "
 #
+ifdef
+MOZ_WEBSPEECH
+#
 include
 "
 nsIDOMSpeechRecognitionEvent
@@ -979,6 +982,8 @@ nsIDOMSpeechSynthesisEvent
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2659,6 +2664,9 @@ SmartCardEventBinding
 h
 "
 #
+ifdef
+MOZ_WEBSPEECH
+#
 include
 "
 mozilla
@@ -2680,6 +2688,8 @@ SpeechSynthesisEventBinding
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3590,6 +3600,9 @@ DEFINE_SHIM
 (
 SmartCardEvent
 )
+#
+ifdef
+MOZ_WEBSPEECH
 DEFINE_SHIM
 (
 SpeechRecognitionEvent
@@ -3598,6 +3611,8 @@ DEFINE_SHIM
 (
 SpeechSynthesisEvent
 )
+#
+endif
 DEFINE_SHIM
 (
 StorageEvent
