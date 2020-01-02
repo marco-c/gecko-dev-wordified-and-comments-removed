@@ -359,6 +359,7 @@ NS_FONT_VARIANT_EAST_ASIAN_PROP_WIDTH
 )
 enum
 {
+eFeatureLigatures_none
 eFeatureLigatures_common
 eFeatureLigatures_no_common
 eFeatureLigatures_discretionary
@@ -370,6 +371,15 @@ eFeatureLigatures_no_contextual
 eFeatureLigatures_numFeatures
 }
 ;
+#
+define
+NS_FONT_VARIANT_LIGATURES_NONE
+(
+1
+<
+<
+eFeatureLigatures_none
+)
 #
 define
 NS_FONT_VARIANT_LIGATURES_COMMON

@@ -4230,6 +4230,8 @@ kFontVariantLigaturesKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_FONT_VARIANT_LIGATURES_NONE
 eCSSKeyword_common_ligatures
 NS_FONT_VARIANT_LIGATURES_COMMON
 eCSSKeyword_no_common_ligatures
