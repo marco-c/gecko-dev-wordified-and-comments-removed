@@ -300,11 +300,6 @@ nsRandomGenerator
 cpp
 '
 '
-nsRecentBadCerts
-.
-cpp
-'
-'
 nsSDR
 .
 cpp

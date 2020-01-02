@@ -228,11 +228,6 @@ nsIProtectedAuthThread
 idl
 '
 '
-nsIRecentBadCertsService
-.
-idl
-'
-'
 nsISSLErrorListener
 .
 idl
