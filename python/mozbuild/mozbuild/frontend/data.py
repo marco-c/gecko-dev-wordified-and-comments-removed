@@ -113,7 +113,7 @@ as
 mozpath
 from
 .
-sandbox_symbols
+context
 import
 FinalTargetValue
 class
@@ -221,7 +221,7 @@ total_emitter_execution_time
 =
 total_emitter_execution_time
 class
-SandboxDerived
+ContextDerived
 (
 TreeMetadata
 )
@@ -236,7 +236,7 @@ derived
 from
 a
 single
-MozbuildSandbox
+Context
 instance
 .
     
@@ -246,14 +246,16 @@ fields
 common
 to
 all
-sandboxes
+context
+derived
+classes
 .
 This
 class
 is
 likely
-never
     
+never
 instantiated
 directly
 but
@@ -280,11 +282,11 @@ relativedir
 '
         
 '
-sandbox_all_paths
+context_all_paths
 '
         
 '
-sandbox_path
+context_path
 '
         
 '
@@ -305,7 +307,7 @@ def
 __init__
 (
 self
-sandbox
+context
 )
 :
         
@@ -318,17 +320,17 @@ self
         
 self
 .
-sandbox_main_path
+context_main_path
 =
-sandbox
+context
 .
 main_path
         
 self
 .
-sandbox_all_paths
+context_all_paths
 =
-sandbox
+context
 .
 all_paths
         
@@ -336,7 +338,7 @@ self
 .
 topsrcdir
 =
-sandbox
+context
 .
 config
 .
@@ -346,7 +348,7 @@ self
 .
 topobjdir
 =
-sandbox
+context
 .
 config
 .
@@ -356,40 +358,31 @@ self
 .
 relativedir
 =
-sandbox
-[
-'
-RELATIVEDIR
-'
-]
+context
+.
+relsrcdir
         
 self
 .
 srcdir
 =
-sandbox
-[
-'
-SRCDIR
-'
-]
+context
+.
+srcdir
         
 self
 .
 objdir
 =
-sandbox
-[
-'
-OBJDIR
-'
-]
+context
+.
+objdir
         
 self
 .
 config
 =
-sandbox
+context
 .
 config
     
@@ -417,7 +410,7 @@ topobjdir
 class
 DirectoryTraversal
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -546,16 +539,16 @@ def
 __init__
 (
 self
-sandbox
+context
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -582,7 +575,7 @@ OrderedDict
 class
 BaseConfigSubstitution
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -627,16 +620,16 @@ def
 __init__
 (
 self
-sandbox
+context
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -707,7 +700,7 @@ substitutions
 class
 VariablePassthru
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -821,16 +814,16 @@ def
 __init__
 (
 self
-sandbox
+context
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -842,7 +835,7 @@ variables
 class
 XPIDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -879,18 +872,18 @@ def
 __init__
 (
 self
-sandbox
+context
 source
 module
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -918,14 +911,15 @@ module
 class
 Defines
 (
-SandboxDerived
+ContextDerived
 )
 :
     
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -952,17 +946,17 @@ def
 __init__
 (
 self
-sandbox
+context
 defines
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1053,14 +1047,15 @@ value
 class
 Exports
 (
-SandboxDerived
+ContextDerived
 )
 :
     
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -1068,6 +1063,7 @@ EXPORTS
 which
 is
 a
+    
 HierarchicalStringList
 .
     
@@ -1077,7 +1073,7 @@ an
 object
 derived
 from
-SandboxDerived
+ContextDerived
 for
 use
 in
@@ -1128,7 +1124,7 @@ def
 __init__
 (
 self
-sandbox
+context
 exports
 dist_install
 =
@@ -1136,12 +1132,12 @@ True
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1158,14 +1154,15 @@ dist_install
 class
 Resources
 (
-SandboxDerived
+ContextDerived
 )
 :
     
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -1173,8 +1170,8 @@ RESOURCE_FILES
 which
 is
 a
-HierarchicalStringList
     
+HierarchicalStringList
 with
 an
 extra
@@ -1183,6 +1180,7 @@ preprocess
 property
 on
 each
+    
 entry
 .
     
@@ -1228,7 +1226,7 @@ def
 __init__
 (
 self
-sandbox
+context
 resources
 defines
 =
@@ -1236,12 +1234,12 @@ None
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1259,7 +1257,7 @@ defs
 .
 update
 (
-sandbox
+context
 .
 config
 .
@@ -1285,7 +1283,7 @@ defs
 class
 IPDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1318,17 +1316,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1339,7 +1337,7 @@ path
 class
 WebIDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1372,17 +1370,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1393,7 +1391,7 @@ path
 class
 GeneratedEventWebIDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1426,17 +1424,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1447,7 +1445,7 @@ path
 class
 TestWebIDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1483,17 +1481,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1504,7 +1502,7 @@ path
 class
 PreprocessedTestWebIDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1544,17 +1542,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1565,7 +1563,7 @@ path
 class
 PreprocessedWebIDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1601,17 +1599,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1622,7 +1620,7 @@ path
 class
 GeneratedWebIDLFile
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1662,17 +1660,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1683,7 +1681,7 @@ path
 class
 ExampleWebIDLInterface
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1715,17 +1713,17 @@ def
 __init__
 (
 self
-sandbox
+context
 name
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -1760,7 +1758,7 @@ kind
 class
 Linkable
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -1768,7 +1766,8 @@ SandboxDerived
 "
 "
 Generic
-sandbox
+context
+derived
 container
 object
 for
@@ -1797,16 +1796,16 @@ def
 __init__
 (
 self
-sandbox
+context
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -2029,7 +2028,8 @@ Linkable
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2038,6 +2038,7 @@ which
 is
 a
 unicode
+    
 string
 .
     
@@ -2110,7 +2111,7 @@ def
 __init__
 (
 self
-sandbox
+context
 program
 is_unit_test
 =
@@ -2123,17 +2124,16 @@ Linkable
 __init__
 (
 self
-sandbox
+context
 )
         
 bin_suffix
 =
-sandbox
-[
-'
-CONFIG
-'
-]
+context
+.
+config
+.
+substs
 .
 get
 (
@@ -2180,7 +2180,8 @@ BaseProgram
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2210,7 +2211,8 @@ BaseProgram
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2240,7 +2242,8 @@ BaseProgram
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2273,13 +2276,15 @@ BaseProgram
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
 each
 program
 in
+    
 HOST_SIMPLE_PROGRAMS
 "
 "
@@ -2307,7 +2312,8 @@ Linkable
 "
 "
 Generic
-sandbox
+context
+derived
 container
 object
 for
@@ -2343,7 +2349,7 @@ def
 __init__
 (
 self
-sandbox
+context
 basename
 )
 :
@@ -2353,7 +2359,7 @@ Linkable
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -2387,7 +2393,7 @@ s
 %
 (
                 
-sandbox
+context
 .
 config
 .
@@ -2397,7 +2403,7 @@ self
 .
 lib_name
                 
-sandbox
+context
 .
 config
 .
@@ -2429,7 +2435,8 @@ BaseLibrary
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2459,7 +2466,7 @@ def
 __init__
 (
 self
-sandbox
+context
 basename
 real_name
 =
@@ -2475,7 +2482,7 @@ BaseLibrary
 __init__
 (
 self
-sandbox
+context
 real_name
 or
 basename
@@ -2502,7 +2509,8 @@ Library
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2527,7 +2535,7 @@ def
 __init__
 (
 self
-sandbox
+context
 basename
 real_name
 =
@@ -2547,7 +2555,7 @@ Library
 __init__
 (
 self
-sandbox
+context
 basename
 real_name
 is_sdk
@@ -2568,7 +2576,8 @@ Library
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2609,7 +2618,7 @@ def
 __init__
 (
 self
-sandbox
+context
 basename
 real_name
 =
@@ -2649,7 +2658,7 @@ Library
 __init__
 (
 self
-sandbox
+context
 basename
 real_name
 is_sdk
@@ -2709,7 +2718,7 @@ s
 %
 (
                 
-sandbox
+context
 .
 config
 .
@@ -2719,7 +2728,7 @@ self
 .
 lib_name
                 
-sandbox
+context
 .
 config
 .
@@ -2742,7 +2751,7 @@ s
 %
 (
                 
-sandbox
+context
 .
 config
 .
@@ -2752,7 +2761,7 @@ self
 .
 lib_name
                 
-sandbox
+context
 .
 config
 .
@@ -2779,7 +2788,7 @@ s
 %
 (
                 
-sandbox
+context
 .
 config
 .
@@ -2787,7 +2796,7 @@ dll_prefix
                 
 soname
                 
-sandbox
+context
 .
 config
 .
@@ -2840,7 +2849,8 @@ ExternalLibrary
 "
 "
 "
-Sandbox
+Context
+derived
 container
 for
 static
@@ -2849,8 +2859,8 @@ built
 by
 an
 external
-build
     
+build
 system
 .
 "
@@ -2867,7 +2877,8 @@ ExternalLibrary
 "
 "
 "
-Sandbox
+Context
+derived
 container
 for
 shared
@@ -2876,8 +2887,8 @@ built
 by
 an
 external
-build
     
+build
 system
 .
 "
@@ -2893,7 +2904,8 @@ BaseLibrary
 "
 "
 "
-Sandbox
+Context
+derived
 container
 object
 for
@@ -2912,7 +2924,7 @@ host
 class
 TestManifest
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -2990,7 +3002,7 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 manifest
 flavor
@@ -3009,12 +3021,12 @@ False
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -3101,7 +3113,7 @@ set
 class
 LocalInclude
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -3133,17 +3145,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -3154,7 +3166,7 @@ path
 class
 GeneratedInclude
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -3186,17 +3198,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -3207,7 +3219,7 @@ path
 class
 PerSourceFlag
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -3245,18 +3257,18 @@ def
 __init__
 (
 self
-sandbox
+context
 file_name
 flags
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -3273,7 +3285,7 @@ flags
 class
 JARManifest
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -3357,17 +3369,17 @@ def
 __init__
 (
 self
-sandbox
+context
 path
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -3378,7 +3390,7 @@ path
 class
 JavaScriptModules
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -3412,7 +3424,7 @@ def
 __init__
 (
 self
-sandbox
+context
 modules
 flavor
 )
@@ -3426,7 +3438,7 @@ self
 .
 __init__
 (
-sandbox
+context
 )
         
 self
@@ -3441,9 +3453,9 @@ flavor
 =
 flavor
 class
-SandboxWrapped
+ContextWrapped
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -3451,7 +3463,8 @@ SandboxDerived
 "
 "
 Generic
-sandbox
+context
+derived
 container
 object
 for
@@ -3515,17 +3528,17 @@ def
 __init__
 (
 self
-sandbox
+context
 wrapped
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
@@ -3713,7 +3726,7 @@ javac_flags
 class
 InstallationTarget
 (
-SandboxDerived
+ContextDerived
 )
 :
     
@@ -3761,23 +3774,23 @@ def
 __init__
 (
 self
-sandbox
+context
 )
 :
         
-SandboxDerived
+ContextDerived
 .
 __init__
 (
 self
-sandbox
+context
 )
         
 self
 .
 xpiname
 =
-sandbox
+context
 .
 get
 (
@@ -3792,7 +3805,7 @@ self
 .
 subdir
 =
-sandbox
+context
 .
 get
 (
@@ -3807,7 +3820,7 @@ self
 .
 target
 =
-sandbox
+context
 [
 '
 FINAL_TARGET
@@ -3819,7 +3832,7 @@ self
 enabled
 =
 not
-sandbox
+context
 .
 get
 (

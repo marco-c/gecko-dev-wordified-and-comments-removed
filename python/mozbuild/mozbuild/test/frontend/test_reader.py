@@ -225,7 +225,7 @@ simple
 '
 )
         
-sandboxes
+contexts
 =
 list
 (
@@ -242,7 +242,7 @@ assertEqual
 (
 len
 (
-sandboxes
+contexts
 )
 4
 )
@@ -299,7 +299,7 @@ path
 )
 )
         
-sandboxes
+contexts
 =
 list
 (
@@ -327,7 +327,7 @@ assertEqual
 (
 len
 (
-sandboxes
+contexts
 )
 1
 )
@@ -357,7 +357,7 @@ enable_tests
 True
 )
         
-sandboxes
+contexts
 =
 list
 (
@@ -374,7 +374,7 @@ assertEqual
 (
 len
 (
-sandboxes
+contexts
 )
 3
 )
@@ -445,7 +445,7 @@ dirs
 '
 )
         
-sandboxes
+contexts
 =
 list
 (
@@ -462,7 +462,7 @@ assertEqual
 (
 len
 (
-sandboxes
+contexts
 )
 3
 )
@@ -489,7 +489,7 @@ dirs
 '
 )
         
-sandboxes
+contexts
 =
 list
 (
@@ -506,7 +506,7 @@ assertEqual
 (
 len
 (
-sandboxes
+contexts
 )
 3
 )
@@ -1731,7 +1731,7 @@ variables
 '
 )
         
-sandboxes
+contexts
 =
 list
 (
@@ -1748,7 +1748,7 @@ assertEqual
 (
 len
 (
-sandboxes
+contexts
 )
 4
 )
@@ -1758,16 +1758,13 @@ self
 assertEqual
 (
 [
-sandbox
-[
-'
-RELATIVEDIR
-'
-]
+context
+.
+relsrcdir
 for
-sandbox
+context
 in
-sandboxes
+contexts
 ]
             
 [
@@ -1792,16 +1789,16 @@ self
 assertEqual
 (
 [
-sandbox
+context
 [
 '
 XPIDL_MODULE
 '
 ]
 for
-sandbox
+context
 in
-sandboxes
+contexts
 ]
             
 [
@@ -1830,11 +1827,11 @@ self
 def
 strip_dirs
 (
-sandbox
+context
 )
 :
             
-sandbox
+context
 [
 '
 DIRS
@@ -1878,7 +1875,7 @@ count
 0
 ]
         
-sandboxes
+contexts
 =
 list
 (
@@ -1895,7 +1892,7 @@ assertEqual
 (
 len
 (
-sandboxes
+contexts
 )
 1
 )

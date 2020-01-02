@@ -62,4 +62,4 @@ mozbuild
 .
 frontend
 .
-sandbox_symbols
+context

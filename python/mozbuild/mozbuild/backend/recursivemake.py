@@ -74,6 +74,10 @@ AndroidEclipseProjectData
     
 ConfigFileSubstitution
     
+ContextDerived
+    
+ContextWrapped
+    
 Defines
     
 DirectoryTraversal
@@ -109,10 +113,6 @@ PerSourceFlag
 Program
     
 Resources
-    
-SandboxDerived
-    
-SandboxWrapped
     
 SharedLibrary
     
@@ -1969,7 +1969,7 @@ not
 isinstance
 (
 obj
-SandboxDerived
+ContextDerived
 )
 :
             
@@ -2867,7 +2867,7 @@ elif
 isinstance
 (
 obj
-SandboxWrapped
+ContextWrapped
 )
 :
             

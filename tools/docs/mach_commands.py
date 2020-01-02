@@ -234,11 +234,11 @@ outdir
 def
 remove_gyp_dirs
 (
-sandbox
+context
 )
 :
             
-sandbox
+context
 [
 '
 GYP_DIRS
@@ -265,7 +265,7 @@ remove_gyp_dirs
 )
         
 for
-sandbox
+context
 in
 reader
 .
@@ -278,7 +278,7 @@ for
 dest_dir
 source_dir
 in
-sandbox
+context
 [
 '
 SPHINX_TREES
@@ -300,12 +300,9 @@ path
 .
 join
 (
-sandbox
-[
-'
-RELATIVEDIR
-'
-]
+context
+.
+relsrcdir
                     
 source_dir
 )
@@ -315,7 +312,7 @@ dest_dir
 for
 entry
 in
-sandbox
+context
 [
 '
 SPHINX_PYTHON_PACKAGE_DIRS
@@ -333,12 +330,9 @@ path
 .
 join
 (
-sandbox
-[
-'
-RELATIVEDIR
-'
-]
+context
+.
+relsrcdir
                     
 entry
 )

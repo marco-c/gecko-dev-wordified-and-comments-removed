@@ -62,9 +62,9 @@ data
 import
 (
     
-ReaderSummary
+ContextDerived
     
-SandboxDerived
+ReaderSummary
 )
 from
 .
@@ -897,7 +897,7 @@ if
 isinstance
 (
 obj
-SandboxDerived
+ContextDerived
 )
 :
                 
@@ -908,7 +908,7 @@ backend_input_files
 =
 obj
 .
-sandbox_all_paths
+context_all_paths
             
 if
 isinstance

@@ -69,9 +69,9 @@ import
     
 AndroidEclipseProjectData
     
-SandboxDerived
+ContextDerived
     
-SandboxWrapped
+ContextWrapped
 )
 from
 .
@@ -301,7 +301,7 @@ not
 isinstance
 (
 obj
-SandboxDerived
+ContextDerived
 )
 :
             
@@ -333,7 +333,7 @@ if
 isinstance
 (
 obj
-SandboxWrapped
+ContextWrapped
 )
 and
 isinstance

@@ -316,6 +316,7 @@ def
 special_reference
 (
 v
+func
 typ
 doc
 )

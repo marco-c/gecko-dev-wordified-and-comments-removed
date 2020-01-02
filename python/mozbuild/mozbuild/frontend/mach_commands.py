@@ -182,7 +182,7 @@ mozbuild
 .
 frontend
 .
-sandbox_symbols
+context
 as
 m
         
