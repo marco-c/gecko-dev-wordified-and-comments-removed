@@ -7748,6 +7748,11 @@ mOverrideZIndex
 0
 )
 {
+MOZ_COUNT_CTOR
+(
+nsDisplayWrapList
+)
+;
 }
 virtual
 ~
