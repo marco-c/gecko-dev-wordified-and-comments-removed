@@ -725,6 +725,10 @@ userCancelled
 (
 false
 )
+mDefaultPreventedOnContent
+(
+false
+)
 {
 mFlags
 .
@@ -759,6 +763,9 @@ dataTransfer
 bool
 userCancelled
 ;
+bool
+mDefaultPreventedOnContent
+;
 void
 AssignDragEventData
 (
@@ -785,6 +792,12 @@ dataTransfer
 userCancelled
 =
 false
+;
+mDefaultPreventedOnContent
+=
+aEvent
+.
+mDefaultPreventedOnContent
 ;
 }
 }

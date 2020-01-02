@@ -15428,12 +15428,10 @@ dragSession
 SetOnlyChromeDrop
 (
 !
-aEvent
+dragEvent
 -
 >
-mFlags
-.
-mDefaultPreventedByContent
+mDefaultPreventedOnContent
 )
 ;
 }
