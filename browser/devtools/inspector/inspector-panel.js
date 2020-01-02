@@ -2020,6 +2020,17 @@ setupSearchBox
 (
 )
 ;
+this
+.
+emit
+(
+"
+new
+-
+root
+"
+)
+;
 }
 )
 ;
