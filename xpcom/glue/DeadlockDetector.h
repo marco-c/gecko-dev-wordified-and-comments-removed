@@ -105,6 +105,7 @@ NoIndex
 struct
 OrderingEntry
 {
+explicit
 OrderingEntry
 (
 const

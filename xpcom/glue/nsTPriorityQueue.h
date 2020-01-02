@@ -59,6 +59,7 @@ Compare
 )
 {
 }
+explicit
 nsTPriorityQueue
 (
 const
