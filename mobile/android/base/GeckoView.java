@@ -394,6 +394,7 @@ GeckoLoader
 .
 loadMozGlue
 (
+context
 )
 ;
 BrowserDB
