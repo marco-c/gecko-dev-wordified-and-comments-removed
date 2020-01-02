@@ -206,7 +206,6 @@ strcmp
 (
 JS_GetScriptFilename
 (
-cx
 script
 )
 __FILE__
