@@ -1345,7 +1345,15 @@ env
 >
 NewString
 (
+reinterpret_cast
+<
+const
+jchar
+*
+>
+(
 string
+)
 len
 )
 ;
