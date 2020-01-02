@@ -69,6 +69,11 @@ CommandExecuteHandler
 (
 BIN_SUFFIX
 )
+RCINCLUDE
+=
+CommandExecuteHandler
+.
+rc
 #
 Don
 '
