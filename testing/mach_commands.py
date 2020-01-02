@@ -475,8 +475,6 @@ mach_command
 :
 '
 mochitest
--
-a11y
 '
         
 '
@@ -485,7 +483,14 @@ kwargs
 :
 {
 '
-test_file
+flavor
+'
+:
+'
+a11y
+'
+'
+test_paths
 '
 :
 None
@@ -533,7 +538,16 @@ kwargs
 :
 {
 '
-test_file
+flavor
+'
+:
+'
+browser
+-
+chrome
+'
+'
+test_paths
 '
 :
 None
@@ -555,8 +569,6 @@ mach_command
 :
 '
 mochitest
--
-chrome
 '
         
 '
@@ -565,7 +577,14 @@ kwargs
 :
 {
 '
-test_file
+flavor
+'
+:
+'
+chrome
+'
+'
+test_paths
 '
 :
 None
@@ -605,11 +624,6 @@ mach_command
 mochitest
 -
 browser
--
--
-subsuite
-=
-devtools
 '
         
 '
@@ -618,7 +632,14 @@ kwargs
 :
 {
 '
-test_file
+subsuite
+'
+:
+'
+devtools
+'
+'
+test_paths
 '
 :
 None
@@ -660,8 +681,6 @@ mach_command
 :
 '
 mochitest
--
-plain
 '
         
 '
@@ -670,7 +689,14 @@ kwargs
 :
 {
 '
-test_file
+flavor
+'
+:
+'
+mochitest
+'
+'
+test_paths
 '
 :
 None
@@ -900,8 +926,6 @@ mach_command
 :
 '
 mochitest
--
-plain
 '
         
 '
@@ -909,6 +933,14 @@ kwargs
 '
 :
 {
+            
+'
+flavor
+'
+:
+'
+mochitest
+'
             
 '
 chunk_by_dir
@@ -929,7 +961,7 @@ this_chunk
 i
             
 '
-test_file
+test_paths
 '
 :
 None
