@@ -2853,6 +2853,10 @@ SourceMediaStream
 AppendToTrack
 mTrackID
 segment
+(
+AudioSegment
+*
+)
 nullptr
 )
 NS_DISPATCH_NORMAL
