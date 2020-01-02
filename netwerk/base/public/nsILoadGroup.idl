@@ -677,7 +677,7 @@ mozilla
 net
 :
 :
-SpdyPushCache3
+SpdyPushCache
 namespace
 mozilla
 {
@@ -685,7 +685,7 @@ namespace
 net
 {
 class
-SpdyPushCache3
+SpdyPushCache
 ;
 }
 }
@@ -695,7 +695,7 @@ SpdyPushCache3
 ptr
 ]
 native
-SpdyPushCache3Ptr
+SpdyPushCachePtr
 (
 mozilla
 :
@@ -703,7 +703,7 @@ mozilla
 net
 :
 :
-SpdyPushCache3
+SpdyPushCache
 )
 ;
 /
@@ -741,15 +741,15 @@ loads
 [
 uuid
 (
-5361f30e
+fdc9659c
 -
-f968
+b597
 -
-437c
+4ac0
 -
-8f41
+9c9e
 -
-69d2756a6022
+14b04dbb682f
 )
 ]
 interface
@@ -887,8 +887,8 @@ ends
 noscript
 ]
 attribute
-SpdyPushCache3Ptr
-spdyPushCache3
+SpdyPushCachePtr
+spdyPushCache
 ;
 }
 ;
