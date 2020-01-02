@@ -75,7 +75,10 @@ if
 format
 =
 =
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 {
 opaque

@@ -9200,7 +9200,10 @@ GetAlignedStride
 (
 BytesPerPixel
 (
-FORMAT_A8
+SurfaceFormat
+:
+:
+A8
 )
 *
 aBoundsRect
@@ -9262,7 +9265,10 @@ Size
 )
 )
 stride
-FORMAT_A8
+SurfaceFormat
+:
+:
+A8
 )
 ;
 if

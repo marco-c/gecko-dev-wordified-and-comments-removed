@@ -191,7 +191,10 @@ CreateBufferTextureClient
 gfx
 :
 :
-FORMAT_YUV
+SurfaceFormat
+:
+:
+YUV
 )
 ;
 MOZ_COUNT_CTOR

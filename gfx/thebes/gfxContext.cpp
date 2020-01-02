@@ -8413,7 +8413,10 @@ GetFormat
 )
 !
 =
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 )
 {
 gfxRect
@@ -8454,7 +8457,10 @@ GetFormat
 )
 =
 =
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 |
 |
 mDT
@@ -10780,7 +10786,10 @@ GetFormat
 )
 =
 =
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 )
 {
 return

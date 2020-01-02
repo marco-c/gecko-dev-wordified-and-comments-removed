@@ -1189,7 +1189,10 @@ GetYSize
 gfx
 :
 :
-FORMAT_R8G8B8X8
+SurfaceFormat
+:
+:
+R8G8B8X8
 )
 ;
 gfx

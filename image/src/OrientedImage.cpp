@@ -484,7 +484,10 @@ surfaceFormat
 gfx
 :
 :
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 ;
 imageFormat
 =
@@ -498,7 +501,10 @@ surfaceFormat
 gfx
 :
 :
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 ;
 imageFormat
 =

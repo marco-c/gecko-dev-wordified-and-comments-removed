@@ -4249,7 +4249,10 @@ height
 aFormat
 =
 =
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 )
 )
 ;
@@ -4590,7 +4593,10 @@ if
 aFormat
 =
 =
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 )
 {
 ConvertBGRXToBGRA

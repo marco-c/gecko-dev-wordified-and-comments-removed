@@ -13321,7 +13321,10 @@ GetFormat
 )
 {
 case
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 :
 *
 format
@@ -13334,7 +13337,10 @@ BGRA8
 break
 ;
 case
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 :
 *
 format
@@ -13347,7 +13353,10 @@ BGRX8
 break
 ;
 case
-FORMAT_A8
+SurfaceFormat
+:
+:
+A8
 :
 *
 format
@@ -13360,7 +13369,10 @@ A8
 break
 ;
 case
-FORMAT_R5G6B5
+SurfaceFormat
+:
+:
+R5G6B5
 :
 *
 format

@@ -15300,7 +15300,10 @@ size
 gfx
 :
 :
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 mBufferSize
@@ -15624,7 +15627,10 @@ aCGContext
 gfx
 :
 :
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 dt

@@ -320,7 +320,10 @@ return
 gfx
 :
 :
-FORMAT_UNKNOWN
+SurfaceFormat
+:
+:
+UNKNOWN
 ;
 }
 virtual

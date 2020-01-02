@@ -268,7 +268,10 @@ mTextureFormat
 gfx
 :
 :
-FORMAT_R8G8B8X8
+SurfaceFormat
+:
+:
+R8G8B8X8
 ;
 }
 else
@@ -285,7 +288,10 @@ mTextureFormat
 gfx
 :
 :
-FORMAT_B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 ;
 }
 else
@@ -295,7 +301,10 @@ mTextureFormat
 gfx
 :
 :
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 ;
 }
 }

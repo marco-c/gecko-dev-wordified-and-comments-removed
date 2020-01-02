@@ -1588,7 +1588,10 @@ DataTextureSourceD3D11
 gfx
 :
 :
-FORMAT_UNKNOWN
+SurfaceFormat
+:
+:
+UNKNOWN
 this
 )
 ;
@@ -5051,7 +5054,10 @@ bbDesc
 .
 Height
 )
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 mTarget

@@ -380,7 +380,10 @@ return
 new
 DataTextureSourceD3D9
 (
-FORMAT_UNKNOWN
+SurfaceFormat
+:
+:
+UNKNOWN
 this
 !
 (
@@ -3517,7 +3520,10 @@ desc
 .
 Height
 )
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 mTarget

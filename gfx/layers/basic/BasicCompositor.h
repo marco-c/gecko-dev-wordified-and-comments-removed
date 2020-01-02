@@ -139,7 +139,16 @@ GetFormat
 gfx
 :
 :
-FORMAT_UNKNOWN
+SurfaceFormat
+(
+gfx
+:
+:
+SurfaceFormat
+:
+:
+UNKNOWN
+)
 ;
 }
 RefPtr

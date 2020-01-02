@@ -13248,7 +13248,10 @@ isTransparent
 format
 =
 =
-FORMAT_R8G8B8A8
+SurfaceFormat
+:
+:
+R8G8B8A8
 )
 |
 |
@@ -13256,7 +13259,10 @@ FORMAT_R8G8B8A8
 format
 =
 =
-FORMAT_B8G8R8A8
+SurfaceFormat
+:
+:
+B8G8R8A8
 )
 ;
 }
