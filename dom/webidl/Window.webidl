@@ -954,8 +954,11 @@ Throws
 void
 clearTimeout
 (
+optional
 long
 handle
+=
+0
 )
 ;
 [
@@ -1000,8 +1003,11 @@ Throws
 void
 clearInterval
 (
+optional
 long
 handle
+=
+0
 )
 ;
 }
