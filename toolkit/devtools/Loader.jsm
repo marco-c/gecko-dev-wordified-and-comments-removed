@@ -272,9 +272,6 @@ console
 _Iterator
 :
 Iterator
-ChromeWorker
-:
-ChromeWorker
 loader
 :
 {
