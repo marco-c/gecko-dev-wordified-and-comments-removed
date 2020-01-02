@@ -664,11 +664,6 @@ MediaResource
 cpp
 '
 '
-MediaShutdownManager
-.
-cpp
-'
-'
 MediaStreamGraph
 .
 cpp
