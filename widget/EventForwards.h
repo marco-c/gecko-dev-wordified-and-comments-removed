@@ -110,9 +110,7 @@ TextRangeStyle
 struct
 TextRange
 ;
-typedef
-TextRange
-*
+class
 TextRangeArray
 ;
 }

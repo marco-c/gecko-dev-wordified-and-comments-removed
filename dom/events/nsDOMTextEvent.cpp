@@ -146,7 +146,9 @@ nsPrivateTextRangeList
 te
 -
 >
-rangeCount
+RangeCount
+(
+)
 )
 ;
 if
@@ -187,10 +189,13 @@ nsPrivateTextRange
 te
 -
 >
-rangeArray
-[
+mRanges
+-
+>
+ElementAt
+(
 i
-]
+)
 )
 ;
 if
