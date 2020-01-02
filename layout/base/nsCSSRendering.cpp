@@ -7581,9 +7581,6 @@ gfxCornerSizes
 mClippedRadii
 ;
 bool
-mRadiiAreOuter
-;
-bool
 mHasAdditionalBGClipArea
 ;
 bool
@@ -7646,13 +7643,6 @@ aClipState
 mCustomClip
 =
 false
-;
-aClipState
--
->
-mRadiiAreOuter
-=
-true
 ;
 aClipState
 -
@@ -8012,13 +8002,6 @@ aClipState
 mClippedRadii
 )
 ;
-aClipState
--
->
-mRadiiAreOuter
-=
-false
-;
 }
 }
 if
@@ -8285,9 +8268,6 @@ bgAreaGfx
 aClipState
 .
 mClippedRadii
-aClipState
-.
-mRadiiAreOuter
 )
 ;
 aCtx
@@ -8551,9 +8531,6 @@ bgAreaGfx
 aClipState
 .
 mClippedRadii
-aClipState
-.
-mRadiiAreOuter
 )
 ;
 aCtx
