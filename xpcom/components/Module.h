@@ -107,6 +107,16 @@ UnloadFuncPtr
 (
 )
 ;
+enum
+ProcessSelector
+{
+ANY_PROCESS
+=
+0
+MAIN_PROCESS_ONLY
+CONTENT_PROCESS_ONLY
+}
+;
 struct
 CIDEntry
 {
@@ -124,6 +134,9 @@ getFactoryProc
 ConstructorProcPtr
 constructorProc
 ;
+ProcessSelector
+processSelector
+;
 }
 ;
 struct
@@ -138,6 +151,9 @@ nsID
 const
 *
 cid
+;
+ProcessSelector
+processSelector
 ;
 }
 ;
