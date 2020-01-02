@@ -151,6 +151,16 @@ _OPT
 .
 OBJ
 /
+^
+js
+/
+src
+/
+.
+*
+-
+obj
+/
 #
 SpiderMonkey
 configury
