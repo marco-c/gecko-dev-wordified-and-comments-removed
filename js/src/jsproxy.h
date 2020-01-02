@@ -1826,6 +1826,12 @@ PROXY_EXTRA_SLOT
 =
 2
 ;
+const
+uint32_t
+PROXY_MINIMUM_SLOTS
+=
+4
+;
 inline
 BaseProxyHandler
 *
