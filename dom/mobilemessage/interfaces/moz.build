@@ -123,11 +123,6 @@ nsIDOMSmsFilter
 idl
 '
 '
-nsIDOMSmsSegmentInfo
-.
-idl
-'
-'
 nsIMmsService
 .
 idl
