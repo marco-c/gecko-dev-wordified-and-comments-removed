@@ -1393,3 +1393,15 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+browser
+.
+cache
+.
+use_new_backend_temp
+"
+false
+)
+;
