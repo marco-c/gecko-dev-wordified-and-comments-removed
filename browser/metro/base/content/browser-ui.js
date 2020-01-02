@@ -661,6 +661,12 @@ init
 (
 )
 ;
+SelectionHelperUI
+.
+init
+(
+)
+;
 messageManager
 .
 addMessageListener
