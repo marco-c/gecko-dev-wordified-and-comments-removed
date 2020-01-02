@@ -13764,6 +13764,7 @@ MOZ_ASSERT
 (
 extra_
 <
+=
 MAX_PROTO_CHAIN_DEPTH
 )
 ;
