@@ -1905,7 +1905,7 @@ twitterCDN
 test_mode
 "
 :
-true
+false
 }
 ]
 }
