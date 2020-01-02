@@ -447,6 +447,17 @@ aStack
 ;
 #
 endif
+class
+ThreadHangStats
+;
+void
+RecordThreadHangStats
+(
+ThreadHangStats
+&
+aStats
+)
+;
 void
 WriteFailedProfileLock
 (
