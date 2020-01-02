@@ -14361,6 +14361,15 @@ zone
 >
 types
 ;
+if
+(
+types
+:
+:
+CompilerOutput
+*
+output
+=
 ionScript
 -
 >
@@ -14372,6 +14381,8 @@ compilerOutput
 (
 types
 )
+)
+output
 -
 >
 invalidate

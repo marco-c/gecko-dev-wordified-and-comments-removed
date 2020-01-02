@@ -868,6 +868,9 @@ FreeOp
 fop
 bool
 releaseTypes
+bool
+*
+oom
 )
 ;
 bool

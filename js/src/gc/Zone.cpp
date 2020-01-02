@@ -463,6 +463,9 @@ FreeOp
 fop
 bool
 releaseTypes
+bool
+*
+oom
 )
 {
 if
@@ -501,6 +504,7 @@ sweep
 (
 fop
 releaseTypes
+oom
 )
 ;
 }
