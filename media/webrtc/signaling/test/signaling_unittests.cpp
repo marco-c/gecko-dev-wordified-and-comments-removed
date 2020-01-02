@@ -1757,9 +1757,10 @@ ER
 ;
 }
 ;
-NS_IMPL_ISUPPORTS0
+NS_IMPL_ISUPPORTS1
 (
 TestObserver
+nsISupportsWeakReference
 )
 NS_IMETHODIMP
 TestObserver
