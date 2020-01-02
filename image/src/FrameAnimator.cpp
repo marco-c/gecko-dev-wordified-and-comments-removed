@@ -229,6 +229,9 @@ timeout
 {
 return
 TimeStamp
+:
+:
+NowLoRes
 (
 )
 +
@@ -237,13 +240,9 @@ TimeDuration
 :
 FromMilliseconds
 (
-static_cast
-<
-double
->
-(
-UINT64_MAX
-)
+31536000
+.
+0
 )
 ;
 }
