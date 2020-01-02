@@ -125,16 +125,6 @@ js
 )
 content
 /
-cli
-.
-js
-(
-cli
-.
-js
-)
-content
-/
 addons
 .
 js
