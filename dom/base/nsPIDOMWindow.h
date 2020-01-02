@@ -1755,8 +1755,8 @@ bool
 DispatchCustomEvent
 (
 const
-char
-*
+nsAString
+&
 aEventName
 )
 =
