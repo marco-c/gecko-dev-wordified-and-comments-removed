@@ -1,5 +1,12 @@
 #
 include
+<
+initguid
+.
+h
+>
+#
+include
 "
 DrawTargetD2D1
 .

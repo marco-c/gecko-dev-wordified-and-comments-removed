@@ -327,14 +327,6 @@ WIN32
 ]
 =
 True
-DEFINES
-[
-'
-INITGUID
-'
-]
-=
-True
 #
 For
 Direct2D

@@ -63,13 +63,6 @@ h
 >
 #
 include
-<
-initguid
-.
-h
->
-#
-include
 "
 WinUtils
 .

@@ -135,13 +135,6 @@ h
 #
 include
 <
-initguid
-.
-h
->
-#
-include
-<
 d3d9
 .
 h

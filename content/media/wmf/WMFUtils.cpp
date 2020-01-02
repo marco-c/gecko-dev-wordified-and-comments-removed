@@ -77,6 +77,13 @@ VideoUtils
 h
 "
 #
+include
+<
+initguid
+.
+h
+>
+#
 ifdef
 WMF_MUST_DEFINE_AAC_MFT_CLSID
 DEFINE_GUID

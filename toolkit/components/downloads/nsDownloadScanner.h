@@ -13,9 +13,6 @@ WIN32_LEAN_AND_MEAN
 #
 endif
 #
-define
-INITGUID
-#
 include
 <
 windows

@@ -29,13 +29,6 @@ h
 #
 include
 <
-initguid
-.
-h
->
-#
-include
-<
 wmsdkidl
 .
 h

@@ -152,6 +152,11 @@ WMFSourceReaderCallback
 .
 cpp
 '
+]
+SOURCES
++
+=
+[
 '
 WMFUtils
 .
