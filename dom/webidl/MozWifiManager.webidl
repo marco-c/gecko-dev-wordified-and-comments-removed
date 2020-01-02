@@ -1954,7 +1954,7 @@ seconds
 /
 attribute
 EventHandler
-onconnectionInfoUpdate
+onconnectioninfoupdate
 ;
 /
 *
@@ -2017,7 +2017,7 @@ seconds
 /
 attribute
 EventHandler
-onstationInfoUpdate
+onstationinfoupdate
 ;
 }
 ;
