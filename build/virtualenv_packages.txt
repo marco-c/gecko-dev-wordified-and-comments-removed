@@ -157,6 +157,15 @@ dom
 bindings
 /
 parser
+mozilla
+.
+pth
+:
+layout
+/
+tools
+/
+reftest
 moztreedocs
 .
 pth
