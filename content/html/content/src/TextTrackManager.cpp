@@ -306,7 +306,7 @@ SetReadyState
 HTMLTrackElement
 :
 :
-LOADED
+READY_STATE_LOADED
 )
 ;
 AddCues
@@ -779,7 +779,7 @@ ReadyState
 HTMLTrackElement
 :
 :
-LOADING
+READY_STATE_LOADING
 )
 {
 mPendingTextTracks
