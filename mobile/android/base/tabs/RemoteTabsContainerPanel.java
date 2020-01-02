@@ -5,7 +5,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 ;
 import
 org
@@ -52,7 +52,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 TabsPanel
 .

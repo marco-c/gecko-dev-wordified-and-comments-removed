@@ -85,7 +85,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 RemoteTabsContainerPanel
 xmlns
@@ -138,7 +138,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 RemoteTabsList
 style
@@ -197,7 +197,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 RemoteTabsContainerPanel
 >

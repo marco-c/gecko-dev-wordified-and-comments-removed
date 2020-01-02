@@ -163,7 +163,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 TabsPanel
 TabsPanelToolbar
@@ -255,7 +255,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 TabsPanel
 TabsListContainer
@@ -292,7 +292,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 TabsTray
 android
@@ -356,7 +356,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 PrivateTabsPanel
 android
@@ -399,7 +399,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 RemoteTabsPanel
 android

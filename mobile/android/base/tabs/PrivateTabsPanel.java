@@ -5,7 +5,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 ;
 import
 java
@@ -48,7 +48,7 @@ mozilla
 .
 gecko
 .
-tabspanel
+tabs
 .
 TabsPanel
 .
