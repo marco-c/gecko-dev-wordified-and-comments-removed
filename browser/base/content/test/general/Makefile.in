@@ -889,6 +889,10 @@ browser_CTP_data_urls
 .
 js
 \
+browser_CTP_resize
+.
+js
+\
 browser_ctrlTab
 .
 js
@@ -1403,6 +1407,10 @@ plugin_clickToPlayDeny
 html
 \
 plugin_hidden_to_visible
+.
+html
+\
+plugin_small
 .
 html
 \
