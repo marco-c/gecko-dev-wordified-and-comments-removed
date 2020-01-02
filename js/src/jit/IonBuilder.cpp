@@ -18724,7 +18724,7 @@ target
 targetType
 -
 >
-watchStateChange
+watchStateChangeForInlinedCall
 (
 constraints
 (
@@ -22227,7 +22227,7 @@ newScript
 templateType
 -
 >
-watchStateChange
+watchStateChangeForNewScriptTemplate
 (
 constraints
 (
@@ -34128,7 +34128,7 @@ tarr
 tarrType
 -
 >
-watchStateChange
+watchStateChangeForTypedArrayBuffer
 (
 constraints
 (
