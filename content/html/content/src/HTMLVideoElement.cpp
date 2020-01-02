@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsIDOMProgressEvent
-.
-h
-"
-#
-include
-"
 MediaError
 .
 h
