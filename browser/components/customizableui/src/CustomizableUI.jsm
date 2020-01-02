@@ -11418,11 +11418,6 @@ customindex
 matchesFilter
 )
 {
-if
-(
-firstWindow
-)
-{
 let
 toolbarId
 =
@@ -11448,6 +11443,11 @@ removeAttribute
 toolbarId
 )
 ;
+if
+(
+firstWindow
+)
+{
 win
 .
 document
