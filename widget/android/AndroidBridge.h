@@ -203,9 +203,6 @@ mobilemessage
 struct
 SmsFilterData
 ;
-struct
-SmsSegmentInfoData
-;
 }
 }
 namespace
