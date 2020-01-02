@@ -66022,8 +66022,11 @@ Support
 for
 Firefox
 Accounts
-in
-B2G
+(
+services
+/
+fxaccounts
+)
 dnl
 =
 =
