@@ -355,6 +355,16 @@ py
 '
     
 '
+build
+/
+valgrind
+/
+mach_commands
+.
+py
+'
+    
+'
 dom
 /
 bindings
