@@ -1324,6 +1324,13 @@ BluetoothHfpManager
 (
 )
 :
+mPhoneType
+(
+PhoneType
+:
+:
+NONE
+)
 mController
 (
 nullptr

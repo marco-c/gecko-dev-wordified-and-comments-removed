@@ -1113,6 +1113,14 @@ BluetoothHfpManager
 BluetoothHfpManager
 (
 )
+:
+mPhoneType
+(
+PhoneType
+:
+:
+NONE
+)
 {
 Reset
 (
