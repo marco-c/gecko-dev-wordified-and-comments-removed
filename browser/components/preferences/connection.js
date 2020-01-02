@@ -240,6 +240,11 @@ backupServerURLPref
 .
 value
 =
+backupServerURLPref
+.
+value
+|
+|
 proxyServerURLPref
 .
 value
@@ -248,6 +253,11 @@ backupPortPref
 .
 value
 =
+backupPortPref
+.
+value
+|
+|
 proxyPortPref
 .
 value
