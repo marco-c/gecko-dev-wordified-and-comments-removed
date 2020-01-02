@@ -1092,6 +1092,8 @@ buff
 ;
 #
 else
+:
+:
 vsnprintf
 (
 buff
@@ -1100,6 +1102,8 @@ aFormat
 args
 )
 ;
+:
+:
 snprintf
 (
 mDest
