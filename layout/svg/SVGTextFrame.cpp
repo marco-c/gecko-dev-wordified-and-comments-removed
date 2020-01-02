@@ -1199,6 +1199,9 @@ uint8_t
 aDominantBaseline
 )
 {
+WritingMode
+writingMode
+;
 switch
 (
 aDominantBaseline
@@ -1232,8 +1235,9 @@ return
 aFrame
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+writingMode
 )
 ;
 }
@@ -1323,8 +1327,9 @@ return
 aFrame
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+writingMode
 )
 ;
 }
@@ -2994,8 +2999,14 @@ topEdge
 mFrame
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+mFrame
+-
+>
+GetWritingMode
+(
+)
 )
 -
 ascent

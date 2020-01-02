@@ -10479,6 +10479,15 @@ nsHTMLReflowMetrics
 aChildDesiredSize
 )
 {
+WritingMode
+wm
+=
+aChildDesiredSize
+.
+GetWritingMode
+(
+)
+;
 if
 (
 aChildDesiredSize
@@ -10504,6 +10513,7 @@ nsLayoutUtils
 :
 GetFirstLineBaseline
 (
+wm
 aFrame
 &
 ascent
@@ -10527,8 +10537,9 @@ SetBlockStartAscent
 aFrame
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+wm
 )
 )
 ;

@@ -23194,8 +23194,11 @@ frameTopOffset
 f
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+WritingMode
+(
+)
 )
 ;
 }
@@ -41901,8 +41904,10 @@ nscoord
 nsTextFrame
 :
 :
-GetBaseline
+GetLogicalBaseline
 (
+WritingMode
+aWritingMode
 )
 const
 {

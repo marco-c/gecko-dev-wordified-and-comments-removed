@@ -1829,9 +1829,12 @@ deltaICoord
 }
 mBStartEdge
 =
-aNewAvailSpace
+availSpace
 .
-y
+BStart
+(
+lineWM
+)
 ;
 mImpactedByFloats
 =
@@ -6138,8 +6141,9 @@ pfd
 mFrame
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+lineWM
 )
 ;
 }
@@ -6428,8 +6432,9 @@ mAscent
 aFrame
 -
 >
-GetBaseline
+GetLogicalBaseline
 (
+lineWM
 )
 ;
 }
@@ -7047,7 +7052,7 @@ lineBSize
 mLineBox
 -
 >
-SetAscent
+SetLogicalAscent
 (
 baselineBCoord
 -
@@ -7143,7 +7148,7 @@ mFinalLineBSize
 mLineBox
 -
 >
-GetAscent
+GetLogicalAscent
 (
 )
 )

@@ -295,6 +295,11 @@ const
 nscoord
 GetRowBaseline
 (
+mozilla
+:
+:
+WritingMode
+aWritingMode
 )
 ;
 virtual

@@ -1747,7 +1747,7 @@ aDISize
 ;
 }
 nscoord
-GetAscent
+GetLogicalAscent
 (
 )
 const
@@ -1757,7 +1757,7 @@ mAscent
 ;
 }
 void
-SetAscent
+SetLogicalAscent
 (
 nscoord
 aAscent

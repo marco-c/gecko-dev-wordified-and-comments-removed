@@ -1802,6 +1802,8 @@ nsTableRowFrame
 :
 GetRowBaseline
 (
+WritingMode
+aWritingMode
 )
 {
 if

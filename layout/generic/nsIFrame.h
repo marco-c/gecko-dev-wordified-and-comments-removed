@@ -2721,8 +2721,13 @@ const
 ;
 virtual
 nscoord
-GetBaseline
+GetLogicalBaseline
 (
+mozilla
+:
+:
+WritingMode
+aWritingMode
 )
 const
 =
@@ -2736,8 +2741,11 @@ GetCaretBaseline
 const
 {
 return
-GetBaseline
+GetLogicalBaseline
 (
+GetWritingMode
+(
+)
 )
 ;
 }
