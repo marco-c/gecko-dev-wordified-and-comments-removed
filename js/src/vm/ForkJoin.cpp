@@ -9480,15 +9480,10 @@ return
 true
 ;
 }
-const
-JSJitInfo
-js
-:
-:
-intrinsic_SetForkJoinTargetRegionInfo
-=
 JS_JITINFO_NATIVE_PARALLEL
 (
+intrinsic_SetForkJoinTargetRegionInfo
+intrinsic_SetForkJoinTargetRegionInfo
 intrinsic_SetForkJoinTargetRegionPar
 )
 ;
