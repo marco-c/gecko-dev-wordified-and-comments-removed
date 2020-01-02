@@ -438,9 +438,6 @@ mBlinkTimer
 uint32_t
 mBlinkRate
 ;
-float
-mCaretAspectRatio
-;
 bool
 mVisible
 ;
