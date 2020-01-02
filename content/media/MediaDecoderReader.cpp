@@ -1265,7 +1265,13 @@ format
 ]
 =
 {
+ImageFormat
+:
+:
 PLANAR_YCBCR
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 }
 ;
@@ -1348,6 +1354,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 |
 |
@@ -1362,6 +1371,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 "
 Wrong
@@ -1926,6 +1938,9 @@ mDisplay
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 ;
 v
@@ -1969,6 +1984,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 "
 Wrong
@@ -2109,6 +2127,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 {

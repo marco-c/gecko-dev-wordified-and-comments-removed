@@ -4822,7 +4822,10 @@ aTexture
 ;
 mStereoMode
 =
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 ;
 MOZ_COUNT_CTOR
 (

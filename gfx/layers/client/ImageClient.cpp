@@ -807,6 +807,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 {
@@ -1088,6 +1091,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 SHARED_TEXTURE
 )
 {
@@ -1927,6 +1933,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 &
 &
@@ -2076,6 +2085,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 SHARED_TEXTURE
 &
 &
@@ -2157,6 +2169,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 SHARED_RGB
 &
 &
@@ -2249,6 +2264,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 )
 {
@@ -2417,6 +2435,9 @@ GetFormat
 )
 =
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 {
@@ -2630,7 +2651,7 @@ ImageClientSingle
 CreateImage
 (
 const
-uint32_t
+ImageFormat
 *
 aFormats
 uint32_t
@@ -2668,6 +2689,9 @@ i
 )
 {
 case
+ImageFormat
+:
+:
 PLANAR_YCBCR
 :
 img
@@ -2686,6 +2710,9 @@ forget
 )
 ;
 case
+ImageFormat
+:
+:
 SHARED_RGB
 :
 img
@@ -2707,6 +2734,9 @@ forget
 ifdef
 MOZ_WIDGET_GONK
 case
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 :
 img
@@ -2725,6 +2755,10 @@ forget
 ;
 #
 endif
+default
+:
+continue
+;
 }
 }
 return
@@ -2741,7 +2775,7 @@ DeprecatedImageClientSingle
 CreateImage
 (
 const
-uint32_t
+ImageFormat
 *
 aFormats
 uint32_t
@@ -2779,6 +2813,9 @@ i
 )
 {
 case
+ImageFormat
+:
+:
 PLANAR_YCBCR
 :
 img
@@ -2799,6 +2836,9 @@ forget
 )
 ;
 case
+ImageFormat
+:
+:
 SHARED_RGB
 :
 img
@@ -2822,6 +2862,9 @@ forget
 ifdef
 MOZ_WIDGET_GONK
 case
+ImageFormat
+:
+:
 GRALLOC_PLANAR_YCBCR
 :
 img
@@ -2840,6 +2883,10 @@ forget
 ;
 #
 endif
+default
+:
+continue
+;
 }
 }
 return

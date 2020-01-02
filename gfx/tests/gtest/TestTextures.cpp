@@ -1706,7 +1706,10 @@ clientData
 .
 mStereoMode
 =
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 ;
 clientData
 .

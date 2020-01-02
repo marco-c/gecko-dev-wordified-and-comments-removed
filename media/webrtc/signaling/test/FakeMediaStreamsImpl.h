@@ -794,7 +794,10 @@ mozilla
 layers
 :
 :
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 ;
 mozilla
 :
@@ -929,6 +932,9 @@ aRecycleBin
 Image
 (
 nsnull
+ImageFormat
+:
+:
 PLANAR_YCBCR
 )
 mBufferSize

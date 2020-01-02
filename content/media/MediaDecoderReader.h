@@ -105,7 +105,10 @@ mDisplay
 )
 mStereoMode
 (
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 )
 mHasVideo
 (

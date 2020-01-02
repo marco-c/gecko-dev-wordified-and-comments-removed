@@ -266,6 +266,9 @@ return
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 ;
 nsRefPtr
@@ -445,7 +448,10 @@ data
 .
 mStereoMode
 =
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 ;
 videoImage
 -

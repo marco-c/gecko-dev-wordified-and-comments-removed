@@ -4595,6 +4595,9 @@ GetImageContainer
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 ;
 PlanarYCbCrImage

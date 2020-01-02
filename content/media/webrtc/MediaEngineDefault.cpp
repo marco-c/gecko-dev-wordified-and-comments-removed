@@ -499,7 +499,10 @@ aData
 .
 mStereoMode
 =
-STEREO_MODE_MONO
+StereoMode
+:
+:
+MONO
 ;
 }
 static
@@ -900,6 +903,9 @@ mCr
 ImageFormat
 format
 =
+ImageFormat
+:
+:
 PLANAR_YCBCR
 ;
 nsRefPtr
