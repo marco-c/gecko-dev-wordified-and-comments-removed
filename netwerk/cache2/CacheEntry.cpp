@@ -479,6 +479,12 @@ Callback
 (
 )
 {
+ProxyRelease
+(
+mCallback
+mTargetThread
+)
+;
 -
 -
 mEntry
