@@ -144,6 +144,12 @@ isEmergency
 bool
 isConference
 ;
+bool
+isSwitchable
+;
+bool
+isMergeable
+;
 }
 ;
 }

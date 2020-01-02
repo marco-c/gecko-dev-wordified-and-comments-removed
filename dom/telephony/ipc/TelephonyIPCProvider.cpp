@@ -890,6 +890,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 for
@@ -928,6 +932,8 @@ aIsActive
 aIsOutgoing
 aIsEmergency
 aIsConference
+aIsSwitchable
+aIsMergeable
 )
 ;
 }
@@ -1025,6 +1031,10 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+aIsSwitchable
+bool
+aIsMergeable
 )
 {
 MOZ_CRASH
