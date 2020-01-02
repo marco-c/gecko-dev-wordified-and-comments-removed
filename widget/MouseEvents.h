@@ -907,6 +907,10 @@ overflowDeltaY
 .
 0
 )
+mViewPortIsOverscrolled
+(
+false
+)
 {
 }
 double
@@ -1047,6 +1051,9 @@ overflowDeltaX
 double
 overflowDeltaY
 ;
+bool
+mViewPortIsOverscrolled
+;
 void
 AssignWheelEventData
 (
@@ -1135,6 +1142,12 @@ overflowDeltaY
 aEvent
 .
 overflowDeltaY
+;
+mViewPortIsOverscrolled
+=
+aEvent
+.
+mViewPortIsOverscrolled
 ;
 }
 }
