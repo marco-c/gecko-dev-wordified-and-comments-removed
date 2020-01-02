@@ -2712,7 +2712,7 @@ colorTex
 surf
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -2721,7 +2721,7 @@ target
 surf
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -2738,7 +2738,7 @@ colorRB
 surf
 -
 >
-Renderbuffer
+ProdRenderbuffer
 (
 )
 ;
@@ -2993,7 +2993,7 @@ colorTex
 surf
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -3002,7 +3002,7 @@ target
 surf
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -3019,7 +3019,7 @@ colorRB
 surf
 -
 >
-Renderbuffer
+ProdRenderbuffer
 (
 )
 ;

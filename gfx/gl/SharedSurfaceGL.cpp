@@ -68,7 +68,7 @@ void
 SharedSurface_GL
 :
 :
-Copy
+ProdCopy
 (
 SharedSurface_GL
 *
@@ -158,14 +158,14 @@ alpha
 )
 )
 ;
-Copy
+ProdCopy
 (
 src
 tempSurf
 factory
 )
 ;
-Copy
+ProdCopy
 (
 tempSurf
 dest
@@ -191,7 +191,7 @@ AttachmentType
 Screen
 )
 {
-SharedSurface
+SharedSurface_GL
 *
 origLocked
 =
@@ -271,7 +271,7 @@ destTex
 dest
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -281,7 +281,7 @@ destTarget
 dest
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -336,7 +336,7 @@ destRB
 dest
 -
 >
-Renderbuffer
+ProdRenderbuffer
 (
 )
 ;
@@ -436,7 +436,7 @@ AttachmentType
 Screen
 )
 {
-SharedSurface
+SharedSurface_GL
 *
 origLocked
 =
@@ -516,7 +516,7 @@ srcTex
 src
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -526,7 +526,7 @@ srcTarget
 src
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -581,7 +581,7 @@ srcRB
 src
 -
 >
-Renderbuffer
+ProdRenderbuffer
 (
 )
 ;
@@ -687,7 +687,7 @@ srcTex
 src
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -697,7 +697,7 @@ srcTarget
 src
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -723,7 +723,7 @@ destTex
 dest
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -733,7 +733,7 @@ destTarget
 dest
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -790,7 +790,7 @@ destRB
 dest
 -
 >
-Renderbuffer
+ProdRenderbuffer
 (
 )
 ;
@@ -872,7 +872,7 @@ srcRB
 src
 -
 >
-Renderbuffer
+ProdRenderbuffer
 (
 )
 ;
@@ -905,7 +905,7 @@ destTex
 dest
 -
 >
-Texture
+ProdTexture
 (
 )
 ;
@@ -915,7 +915,7 @@ destTarget
 dest
 -
 >
-TextureTarget
+ProdTextureTarget
 (
 )
 ;
@@ -975,7 +975,7 @@ destRB
 dest
 -
 >
-Renderbuffer
+ProdRenderbuffer
 (
 )
 ;

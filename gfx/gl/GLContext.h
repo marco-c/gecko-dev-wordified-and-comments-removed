@@ -222,9 +222,6 @@ namespace
 gfx
 {
 class
-SharedSurface
-;
-class
 SourceSurface
 ;
 class
@@ -257,6 +254,9 @@ GLBlitTextureImageHelper
 ;
 class
 GLReadTexImageHelper
+;
+class
+SharedSurface_GL
 ;
 }
 namespace
@@ -10325,7 +10325,7 @@ DestroyScreenBuffer
 (
 )
 ;
-SharedSurface
+SharedSurface_GL
 *
 mLockedSurface
 ;
@@ -10334,7 +10334,7 @@ public
 void
 LockSurface
 (
-SharedSurface
+SharedSurface_GL
 *
 surf
 )
@@ -10353,7 +10353,7 @@ surf
 void
 UnlockSurface
 (
-SharedSurface
+SharedSurface_GL
 *
 surf
 )
@@ -10371,7 +10371,7 @@ mLockedSurface
 nullptr
 ;
 }
-SharedSurface
+SharedSurface_GL
 *
 GetLockedSurface
 (
@@ -10408,7 +10408,7 @@ PublishFrame
 (
 )
 ;
-SharedSurface
+SharedSurface_GL
 *
 RequestFrame
 (

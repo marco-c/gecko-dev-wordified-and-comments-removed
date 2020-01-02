@@ -55,6 +55,13 @@ h
 #
 include
 "
+SharedSurfaceGL
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -603,7 +610,7 @@ if
 mGLContext
 )
 {
-SharedSurface
+SharedSurface_GL
 *
 surf
 =
