@@ -10261,6 +10261,9 @@ tell
 position
 )
 ;
+if
+(
+!
 parser
 -
 >
@@ -10271,6 +10274,9 @@ seek
 position
 tokenStream
 )
+)
+return
+false
 ;
 ParseContext
 <
@@ -10377,6 +10383,9 @@ tell
 position
 )
 ;
+if
+(
+!
 tokenStream
 .
 seek
@@ -10387,6 +10396,9 @@ parser
 >
 tokenStream
 )
+)
+return
+false
 ;
 pn
 -
