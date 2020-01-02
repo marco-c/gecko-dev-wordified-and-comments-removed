@@ -131,7 +131,7 @@ aStatus
 MOZ_OVERRIDE
 ;
 virtual
-nsresult
+void
 DoReflow
 (
 nsPresContext

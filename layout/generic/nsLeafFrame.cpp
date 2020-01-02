@@ -208,7 +208,7 @@ aMetrics
 )
 ;
 }
-nsresult
+void
 nsLeafFrame
 :
 :
@@ -361,9 +361,6 @@ aMetrics
 SetOverflowAreasToDesiredBounds
 (
 )
-;
-return
-NS_OK
 ;
 }
 nscoord
