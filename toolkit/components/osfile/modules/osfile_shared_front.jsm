@@ -1185,6 +1185,13 @@ options
 ;
 if
 (
+"
+compression
+"
+in
+options
+&
+&
 options
 .
 compression
@@ -1354,6 +1361,13 @@ buffer
 }
 if
 (
+"
+compression
+"
+in
+options
+&
+&
 options
 .
 compression
