@@ -228,13 +228,6 @@ using
 namespace
 mozilla
 ;
-static
-NS_DEFINE_CID
-(
-kRDFServiceCID
-NS_RDFSERVICE_CID
-)
-;
 nsIRDFService
 *
 nsXULContentUtils
@@ -318,7 +311,7 @@ rv
 =
 CallGetService
 (
-kRDFServiceCID
+NS_RDFSERVICE_CID
 &
 gRDF
 )

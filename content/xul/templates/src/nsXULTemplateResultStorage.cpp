@@ -33,13 +33,6 @@ nsXULTemplateResultStorage
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kRDFServiceCID
-NS_RDFSERVICE_CID
-)
-;
 NS_IMPL_ISUPPORTS1
 (
 nsXULTemplateResultStorage
@@ -63,7 +56,7 @@ rdfService
 =
 do_GetService
 (
-kRDFServiceCID
+NS_RDFSERVICE_CID
 )
 ;
 rdfService
