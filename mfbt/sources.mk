@@ -83,6 +83,10 @@ Compression
 .
 cpp
 \
+FloatingPoint
+.
+cpp
+\
 HashFunctions
 .
 cpp
