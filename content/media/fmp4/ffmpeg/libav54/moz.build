@@ -101,7 +101,7 @@ UNIFIED_SOURCES
 .
 .
 /
-FFmpegAACDecoder
+FFmpegAudioDecoder
 .
 cpp
 '

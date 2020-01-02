@@ -348,7 +348,7 @@ MediaDataDecoder
 WMFDecoderModule
 :
 :
-CreateAACDecoder
+CreateAudioDecoder
 (
 const
 mp4_demuxer

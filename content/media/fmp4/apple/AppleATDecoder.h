@@ -191,6 +191,9 @@ mHaveOutput
 AudioStreamBasicDescription
 mOutputFormat
 ;
+AudioFileTypeID
+mFileType
+;
 void
 SetupDecoder
 (

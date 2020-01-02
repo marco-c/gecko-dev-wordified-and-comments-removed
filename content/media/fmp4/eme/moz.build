@@ -98,7 +98,7 @@ EXPORTS
 =
 [
 '
-EMEAACDecoder
+EMEAudioDecoder
 .
 h
 '
@@ -118,7 +118,7 @@ UNIFIED_SOURCES
 =
 [
 '
-EMEAACDecoder
+EMEAudioDecoder
 .
 cpp
 '

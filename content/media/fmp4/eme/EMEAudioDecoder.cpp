@@ -1,7 +1,7 @@
 #
 include
 "
-EMEAACDecoder
+EMEAudioDecoder
 .
 h
 "
@@ -96,10 +96,10 @@ h
 namespace
 mozilla
 {
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
-EMEAACDecoder
+EMEAudioDecoder
 (
 CDMProxy
 *
@@ -167,7 +167,7 @@ aCallback
 mMonitor
 (
 "
-EMEAACDecoder
+EMEAudioDecoder
 "
 )
 mFlushComplete
@@ -176,17 +176,17 @@ false
 )
 {
 }
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 ~
-EMEAACDecoder
+EMEAudioDecoder
 (
 )
 {
 }
 nsresult
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Init
@@ -300,7 +300,7 @@ NS_OK
 ;
 }
 nsresult
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Input
@@ -355,7 +355,7 @@ NS_OK
 ;
 }
 nsresult
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Flush
@@ -394,7 +394,7 @@ NS_NewRunnableMethod
 (
 this
 &
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpFlush
@@ -444,7 +444,7 @@ NS_OK
 ;
 }
 nsresult
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Drain
@@ -471,7 +471,7 @@ NS_NewRunnableMethod
 (
 this
 &
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpDrain
@@ -500,7 +500,7 @@ NS_OK
 ;
 }
 nsresult
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Shutdown
@@ -527,7 +527,7 @@ NS_NewRunnableMethod
 (
 this
 &
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpShutdown
@@ -556,7 +556,7 @@ NS_OK
 ;
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Decoded
@@ -930,7 +930,7 @@ forget
 ;
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 InputDataExhausted
@@ -953,7 +953,7 @@ InputExhausted
 ;
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 DrainComplete
@@ -976,7 +976,7 @@ DrainComplete
 ;
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 ResetComplete
@@ -1014,7 +1014,7 @@ NotifyAll
 }
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Error
@@ -1033,7 +1033,7 @@ IsOnGMPThread
 EME_LOG
 (
 "
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Error
@@ -1053,7 +1053,7 @@ GmpShutdown
 ;
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 Terminated
@@ -1073,7 +1073,7 @@ GmpShutdown
 ;
 }
 nsresult
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpInit
@@ -1217,7 +1217,7 @@ NS_OK
 ;
 }
 nsresult
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpInput
@@ -1379,7 +1379,7 @@ NS_OK
 ;
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpFlush
@@ -1429,7 +1429,7 @@ NotifyAll
 }
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpDrain
@@ -1470,7 +1470,7 @@ DrainComplete
 }
 }
 void
-EMEAACDecoder
+EMEAudioDecoder
 :
 :
 GmpShutdown

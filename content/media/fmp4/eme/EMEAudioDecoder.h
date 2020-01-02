@@ -52,7 +52,7 @@ namespace
 mozilla
 {
 class
-EMEAACDecoder
+EMEAudioDecoder
 :
 public
 MediaDataDecoder
@@ -75,7 +75,7 @@ AudioDecoderConfig
 ;
 public
 :
-EMEAACDecoder
+EMEAudioDecoder
 (
 CDMProxy
 *
@@ -93,7 +93,7 @@ aCallback
 )
 ;
 ~
-EMEAACDecoder
+EMEAudioDecoder
 (
 )
 ;
@@ -204,7 +204,7 @@ public
 :
 DeliverSample
 (
-EMEAACDecoder
+EMEAudioDecoder
 *
 aDecoder
 mp4_demuxer
@@ -250,7 +250,7 @@ private
 :
 nsRefPtr
 <
-EMEAACDecoder
+EMEAudioDecoder
 >
 mDecoder
 ;
@@ -275,7 +275,7 @@ public
 :
 InitTask
 (
-EMEAACDecoder
+EMEAudioDecoder
 *
 aDecoder
 )
@@ -307,7 +307,7 @@ NS_OK
 nsresult
 mResult
 ;
-EMEAACDecoder
+EMEAudioDecoder
 *
 mDecoder
 ;
