@@ -2306,13 +2306,12 @@ return
 true
 ;
 return
-nsXPCComponents
-:
-:
+scope
+-
+>
 AttachComponentsObject
 (
 cx
-scope
 )
 ;
 }
