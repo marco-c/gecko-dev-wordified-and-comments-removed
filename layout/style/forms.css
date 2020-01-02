@@ -43,6 +43,20 @@ only
 xul
 )
 ;
+%
+ifdef
+ANDROID
+%
+define
+INPUT_TYPE_COLOR_UNSUPPORTED
+%
+elifdef
+MOZ_WIDGET_GONK
+%
+define
+INPUT_TYPE_COLOR_UNSUPPORTED
+%
+endif
 *
 |
 *
@@ -2474,6 +2488,9 @@ important
 ;
 }
 button
+%
+ifndef
+INPUT_TYPE_COLOR_UNSUPPORTED
 input
 [
 type
@@ -2482,6 +2499,8 @@ type
 color
 "
 ]
+%
+endif
 input
 [
 type
@@ -2668,6 +2687,9 @@ block
 button
 :
 hover
+%
+ifndef
+INPUT_TYPE_COLOR_UNSUPPORTED
 input
 [
 type
@@ -2678,6 +2700,8 @@ color
 ]
 :
 hover
+%
+endif
 input
 [
 type
@@ -2766,6 +2790,9 @@ button
 active
 :
 hover
+%
+ifndef
+INPUT_TYPE_COLOR_UNSUPPORTED
 input
 [
 type
@@ -2778,6 +2805,8 @@ color
 active
 :
 hover
+%
+endif
 input
 [
 type
@@ -2891,6 +2920,9 @@ moz
 focus
 -
 inner
+%
+ifndef
+INPUT_TYPE_COLOR_UNSUPPORTED
 input
 [
 type
@@ -2907,6 +2939,8 @@ moz
 focus
 -
 inner
+%
+endif
 input
 [
 type
@@ -3009,6 +3043,9 @@ moz
 focus
 -
 inner
+%
+ifndef
+INPUT_TYPE_COLOR_UNSUPPORTED
 input
 [
 type
@@ -3030,6 +3067,8 @@ moz
 focus
 -
 inner
+%
+endif
 input
 [
 type
@@ -3139,6 +3178,9 @@ active
 button
 :
 disabled
+%
+ifndef
+INPUT_TYPE_COLOR_UNSUPPORTED
 input
 [
 type
@@ -3161,6 +3203,8 @@ color
 ]
 :
 disabled
+%
+endif
 input
 [
 type

@@ -4485,3 +4485,15 @@ numscrollportheights
 1
 )
 ;
+pref
+(
+"
+dom
+.
+forms
+.
+color
+"
+false
+)
+;
