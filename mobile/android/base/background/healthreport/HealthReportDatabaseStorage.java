@@ -2158,11 +2158,6 @@ RESTRICT
 "
 )
 ;
-createAddonsEnvironmentsView
-(
-db
-)
-;
 }
 private
 void
@@ -2373,6 +2368,8 @@ execSQL
 "
 DROP
 VIEW
+IF
+EXISTS
 environments_with_addons
 "
 )
@@ -2465,11 +2462,6 @@ DEFAULT
 "
 )
 ;
-createAddonsEnvironmentsView
-(
-db
-)
-;
 }
 private
 void
@@ -2486,6 +2478,8 @@ execSQL
 "
 DROP
 VIEW
+IF
+EXISTS
 environments_with_addons
 "
 )

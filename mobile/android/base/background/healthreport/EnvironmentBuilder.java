@@ -571,14 +571,11 @@ getAddonsJSON
 if
 (
 addons
-=
+!
 =
 null
 )
 {
-return
-;
-}
 SuppressWarnings
 (
 "
@@ -778,6 +775,7 @@ key
 ex
 )
 ;
+}
 }
 }
 e
