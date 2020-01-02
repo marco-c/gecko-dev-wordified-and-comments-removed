@@ -137,6 +137,9 @@ ArrayBufferViewOrBlobOrStringOrFormData
 struct
 MobileIdOptions
 ;
+class
+ServiceWorkerContainer
+;
 }
 }
 #
@@ -270,13 +273,6 @@ AudioChannelManager
 ;
 #
 endif
-}
-namespace
-workers
-{
-class
-ServiceWorkerContainer
-;
 }
 class
 Navigator
@@ -998,9 +994,6 @@ aRv
 endif
 already_AddRefed
 <
-workers
-:
-:
 ServiceWorkerContainer
 >
 ServiceWorker
@@ -1417,9 +1410,6 @@ mTimeManager
 ;
 nsRefPtr
 <
-workers
-:
-:
 ServiceWorkerContainer
 >
 mServiceWorkerContainer

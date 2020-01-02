@@ -185,11 +185,6 @@ AppNotificationServiceOptions
 webidl
 '
 '
-Apps
-.
-webidl
-'
-'
 APZTestData
 .
 webidl
@@ -1676,6 +1671,11 @@ webidl
 '
 '
 ServiceWorkerGlobalScope
+.
+webidl
+'
+'
+ServiceWorkerRegistration
 .
 webidl
 '
