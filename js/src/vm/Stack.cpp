@@ -6541,7 +6541,7 @@ i
 script
 -
 >
-nslots
+nfixed
 (
 )
 )
@@ -6553,7 +6553,9 @@ i
 script
 -
 >
-nfixed
+bindings
+.
+numVars
 (
 )
 )
