@@ -171,7 +171,7 @@ R
 .
 id
 .
-remote_tabs_setup_containing_layout
+remote_tabs_verification_containing_layout
 )
 ;
 final
