@@ -1349,8 +1349,6 @@ nsIPrincipal
 *
 aPrincipal
 bool
-aAllowIfNoScriptContext
-bool
 *
 result
 )
