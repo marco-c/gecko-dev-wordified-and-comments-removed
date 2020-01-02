@@ -217,6 +217,16 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+DestroyFrom
+(
+nsIFrame
+*
+aDestructRoot
+)
+MOZ_OVERRIDE
+;
+virtual
+void
 AddInlineMinWidth
 (
 nsRenderingContext
@@ -573,6 +583,9 @@ eDontReparentFrames
 eInFirstLine
 =
 2
+eForDestroy
+=
+4
 }
 ;
 bool
