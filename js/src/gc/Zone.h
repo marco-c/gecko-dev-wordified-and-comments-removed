@@ -849,14 +849,6 @@ nullptr
 )
 ;
 }
-void
-markTypes
-(
-JSTracer
-*
-trc
-)
-;
 js
 :
 :
