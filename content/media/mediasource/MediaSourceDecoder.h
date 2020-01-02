@@ -142,6 +142,16 @@ MediaDecoder
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsresult
+GetSeekable
+(
+TimeRanges
+*
+aSeekable
+)
+MOZ_OVERRIDE
+;
 void
 AttachMediaSource
 (

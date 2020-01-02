@@ -339,14 +339,6 @@ MediaSourceReadyState
 aState
 )
 ;
-void
-GetBuffered
-(
-TimeRanges
-*
-aRanges
-)
-;
 MediaSourceDecoder
 *
 GetDecoder
