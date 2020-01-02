@@ -373,9 +373,11 @@ argc
 <
 1
 )
+{
 return
 3
 ;
+}
 XRE_SetProcessType
 (
 argv
