@@ -82,8 +82,10 @@ GetFrameSequence
 (
 )
 ;
+already_AddRefed
+<
 imgFrame
-*
+>
 GetFrame
 (
 uint32_t
@@ -91,8 +93,10 @@ aIndex
 )
 const
 ;
+already_AddRefed
+<
 imgFrame
-*
+>
 RawGetFrame
 (
 uint32_t
@@ -117,8 +121,10 @@ uint32_t
 framenum
 )
 ;
+already_AddRefed
+<
 imgFrame
-*
+>
 SwapFrame
 (
 uint32_t

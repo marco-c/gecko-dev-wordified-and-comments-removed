@@ -210,8 +210,10 @@ LockAndGetData
 ;
 }
 }
+already_AddRefed
+<
 imgFrame
-*
+>
 FrameSequence
 :
 :
@@ -290,7 +292,7 @@ framenum
 return
 ret
 .
-Forget
+GetFrame
 (
 )
 ;
@@ -333,9 +335,8 @@ Length
 i
 )
 {
-imgFrame
-*
-frame
+FrameDataPair
+fdp
 =
 mFrames
 .
@@ -349,7 +350,7 @@ FrameDataPair
 ;
 NS_ABORT_IF_FALSE
 (
-frame
+fdp
 "
 Null
 frame
@@ -363,7 +364,7 @@ array
 n
 +
 =
-frame
+fdp
 -
 >
 SizeOfExcludingThisWithComputedFallbackIfHeap
