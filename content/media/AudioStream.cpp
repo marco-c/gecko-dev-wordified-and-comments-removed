@@ -1942,8 +1942,10 @@ aLatencyRequest
 LowLatency
 )
 {
+RefPtr
+<
 AudioInitTask
-*
+>
 init
 =
 new
