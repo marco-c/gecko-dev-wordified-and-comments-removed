@@ -51,6 +51,11 @@ mHostName
 OCSPResponseType
 mORT
 ;
+const
+char
+*
+mAdditionalCertName
+;
 }
 ;
 SECItemArray
@@ -65,6 +70,10 @@ aCert
 PLArenaPool
 *
 aArena
+const
+char
+*
+aAdditionalCertName
 )
 ;
 #

@@ -56,6 +56,10 @@ aCert
 PLArenaPool
 *
 aArena
+const
+char
+*
+aAdditionalCertName
 )
 {
 if
@@ -373,9 +377,7 @@ otherCert
 (
 PK11_FindCertFromNickname
 (
-"
-ocspOtherEndEntity
-"
+aAdditionalCertName
 nullptr
 )
 )
@@ -531,9 +533,7 @@ ca
 =
 PK11_FindCertFromNickname
 (
-"
-otherCA
-"
+aAdditionalCertName
 nullptr
 )
 ;
