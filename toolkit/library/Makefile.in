@@ -658,6 +658,13 @@ MOZ_B2G_RIL
 (
 MOZ_B2G_BT
 )
+(
+filter
+gonk
+(
+MOZ_WIDGET_TOOLKIT
+)
+)
 )
 )
 #
@@ -666,7 +673,6 @@ STATIC_LIBS
 +
 =
 mozipcunixsocket_s
-mozkeystore_s
 endif
 #
 }
@@ -681,6 +687,7 @@ STATIC_LIBS
 +
 =
 moznetd_s
+mozkeystore_s
 endif
 ifdef
 MOZ_B2G_CAMERA
