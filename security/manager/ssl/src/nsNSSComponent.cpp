@@ -4156,7 +4156,7 @@ security
 .
 use_mozillapkix_verification
 "
-false
+true
 )
 )
 {
