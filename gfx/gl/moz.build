@@ -440,6 +440,16 @@ SharedSurfaceANGLE
 .
 h
 '
+#
+Needs
+<
+windows
+.
+h
+>
+for
+HANDLE
+.
 '
 WGLLibrary
 .
