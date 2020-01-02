@@ -381,3 +381,12 @@ srcdir
 genTables
 .
 py
+gfxUtils
+.
+(
+OBJ_SUFFIX
+)
+:
+PremultiplyTables
+.
+h

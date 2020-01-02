@@ -1795,15 +1795,6 @@ find
 -
 1
 :
-GENERATED_FILES
-=
-[
-'
-xptcstubsdef_asm
-.
-solx86
-'
-]
 if
 CONFIG
 [

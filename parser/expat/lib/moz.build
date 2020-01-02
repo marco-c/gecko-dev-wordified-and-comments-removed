@@ -136,12 +136,3 @@ FINAL_LIBRARY
 '
 gkmedias
 '
-GENERATED_FILES
-=
-[
-'
-moz_extensions
-.
-c
-'
-]

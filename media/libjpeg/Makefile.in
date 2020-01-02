@@ -128,3 +128,12 @@ srcdir
 genTables
 .
 py
+jchuff
+.
+(
+OBJ_SUFFIX
+)
+:
+jpeg_nbits_table
+.
+h

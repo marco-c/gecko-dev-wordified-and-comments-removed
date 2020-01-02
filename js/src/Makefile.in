@@ -4158,6 +4158,15 @@ um
 -
 mof
 ^
+Probes
+.
+(
+OBJ_SUFFIX
+)
+:
+ETWProvider
+.
+h
 ETWProvider
 .
 res

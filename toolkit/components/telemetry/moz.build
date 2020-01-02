@@ -214,12 +214,3 @@ FINAL_LIBRARY
 '
 xul
 '
-GENERATED_FILES
-=
-[
-'
-TelemetryHistogramData
-.
-inc
-'
-]
