@@ -3981,9 +3981,6 @@ JSVAL_VOID
 ;
 SandboxOptions
 options
-(
-cx
-)
 ;
 nsresult
 rv
