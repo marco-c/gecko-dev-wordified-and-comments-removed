@@ -8895,6 +8895,13 @@ get
 (
 cx
 wrapper
+Traits
+:
+:
+HasPrototype
+?
+receiver
+:
 wrapper
 id
 vp
@@ -8944,6 +8951,13 @@ set
 (
 cx
 wrapper
+Traits
+:
+:
+HasPrototype
+?
+receiver
+:
 wrapper
 id
 strict
