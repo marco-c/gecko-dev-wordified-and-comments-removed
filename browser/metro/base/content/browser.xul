@@ -3450,6 +3450,11 @@ layer
 "
 true
 "
+observes
+=
+"
+bcast_windowState
+"
 >
 <
 hbox

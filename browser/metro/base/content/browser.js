@@ -3413,6 +3413,12 @@ active
 =
 true
 ;
+BrowserUI
+.
+update
+(
+)
+;
 if
 (
 isFirstTab
@@ -3431,12 +3437,6 @@ else
 BrowserUI
 .
 updateURI
-(
-)
-;
-BrowserUI
-.
-update
 (
 )
 ;
