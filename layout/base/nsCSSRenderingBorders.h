@@ -478,11 +478,6 @@ DrawNoCompositeColorSolidBorder
 )
 ;
 void
-DrawNoCompositeColorSolidBorderAzure
-(
-)
-;
-void
 DrawRectangularCompositeColors
 (
 )

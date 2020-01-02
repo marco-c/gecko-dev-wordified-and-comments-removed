@@ -72,17 +72,6 @@ pattern
 return
 false
 ;
-if
-(
-!
-aContext
--
->
-IsCairo
-(
-)
-)
-{
 pattern
 -
 >
@@ -96,7 +85,6 @@ GetDrawTarget
 )
 )
 ;
-}
 aContext
 -
 >
