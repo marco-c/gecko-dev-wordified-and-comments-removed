@@ -4607,12 +4607,6 @@ false
 }
 if
 (
-rec
--
->
-addr_info
-&
-&
 !
 mShutdown
 )
