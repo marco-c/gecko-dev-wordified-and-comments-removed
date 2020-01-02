@@ -93,10 +93,6 @@ XULTreeBuilder
 )
 #
 endif
-DOMCI_CLASS
-(
-DOMStringList
-)
 #
 ifdef
 MOZ_XUL

@@ -146,9 +146,6 @@ apply
 *
 /
 interface
-DOMStringList
-;
-interface
 HTMLPropertiesCollection
 :
 HTMLCollection

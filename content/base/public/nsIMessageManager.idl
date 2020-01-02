@@ -99,9 +99,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMDOMStringList
-;
-interface
 nsIDOMWindow
 ;
 interface

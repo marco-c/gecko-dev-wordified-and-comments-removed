@@ -114,9 +114,6 @@ interface
 nsIDOMWindow
 ;
 interface
-nsIDOMDOMStringList
-;
-interface
 nsIAccessiblePivot
 ;
 /
@@ -336,7 +333,7 @@ states
 .
 *
 /
-nsIDOMDOMStringList
+nsISupports
 getStringStates
 (
 in

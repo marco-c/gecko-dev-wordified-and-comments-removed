@@ -267,17 +267,6 @@ dom
 /
 interfaces
 /
-core
-'
-nsIDOMDOMStringList
-.
-*
-'
-#
-dom
-/
-interfaces
-/
 storage
 '
 nsIDOMToString

@@ -2136,7 +2136,13 @@ aDoDeleteSelection
 nsresult
 InsertFromDataTransfer
 (
-nsIDOMDataTransfer
+mozilla
+:
+:
+dom
+:
+:
+DataTransfer
 *
 aDataTransfer
 int32_t

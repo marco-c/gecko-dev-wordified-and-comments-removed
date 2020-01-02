@@ -170,9 +170,6 @@ interface
 nsIDOMText
 ;
 interface
-nsIDOMDOMStringList
-;
-interface
 nsIDOMClientRect
 ;
 interface

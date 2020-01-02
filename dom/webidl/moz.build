@@ -475,6 +475,11 @@ DOMSettableTokenList
 webidl
 '
 '
+DOMStringList
+.
+webidl
+'
+'
 DOMStringMap
 .
 webidl

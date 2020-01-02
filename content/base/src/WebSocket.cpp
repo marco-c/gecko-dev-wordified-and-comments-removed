@@ -226,17 +226,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-DOMStringList
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h

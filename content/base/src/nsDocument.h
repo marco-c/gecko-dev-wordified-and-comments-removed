@@ -4657,7 +4657,13 @@ aSheetSet
 MOZ_OVERRIDE
 ;
 virtual
-nsIDOMDOMStringList
+mozilla
+:
+:
+dom
+:
+:
+DOMStringList
 *
 StyleSheetSets
 (

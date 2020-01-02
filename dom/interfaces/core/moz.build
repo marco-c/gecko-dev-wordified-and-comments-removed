@@ -143,11 +143,6 @@ nsIDOMDOMImplementation
 idl
 '
 '
-nsIDOMDOMStringList
-.
-idl
-'
-'
 nsIDOMElement
 .
 idl

@@ -112,9 +112,6 @@ interface
 nsIDOMCSSPrimitiveValue
 ;
 interface
-nsIDOMDOMStringList
-;
-interface
 nsIDOMNode
 ;
 interface
