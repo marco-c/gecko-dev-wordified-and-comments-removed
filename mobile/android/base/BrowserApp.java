@@ -10990,7 +10990,6 @@ openOptionsMenu
 {
 if
 (
-(
 !
 hasTabsSideBar
 (
@@ -11001,18 +11000,8 @@ areTabsShown
 (
 )
 )
-|
-|
-mBrowserToolbar
-.
-isEditing
-(
-)
-)
-{
 return
 ;
-}
 if
 (
 mMenuPanel
