@@ -3117,7 +3117,10 @@ PNG_SIMPLIFIED_WRITE_SUPPORTED
 PNG_FUNCTION
 (
 void
+(
+PNGCBAPI
 png_safe_error
+)
 (
 png_structp
 png_nonconst_ptr
@@ -3265,6 +3268,7 @@ abort
 ifdef
 PNG_WARNINGS_SUPPORTED
 void
+PNGCBAPI
 png_safe_warning
 (
 png_structp

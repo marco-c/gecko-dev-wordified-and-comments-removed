@@ -718,6 +718,9 @@ defined
 PNG_PRIVATE
 )
 #
+ifdef
+__has_extension
+#
 if
 __has_extension
 (
@@ -745,6 +748,8 @@ libpng
 )
 )
 )
+#
+endif
 #
 endif
 #
