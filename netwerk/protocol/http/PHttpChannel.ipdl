@@ -648,6 +648,8 @@ child
 :
 OnStartRequest
 (
+nsresult
+channelStatus
 nsHttpResponseHead
 responseHead
 bool
@@ -692,7 +694,9 @@ message
 OnTransportAndData
 (
 nsresult
-status
+channelStatus
+nsresult
+transportStatus
 uint64_t
 progress
 uint64_t
@@ -708,7 +712,7 @@ count
 OnStopRequest
 (
 nsresult
-statusCode
+channelStatus
 )
 ;
 OnProgress
