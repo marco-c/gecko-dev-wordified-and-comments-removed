@@ -503,6 +503,17 @@ toObjectOrNull
 (
 )
 ;
+if
+(
+wrapped
+)
+wrapped
+=
+MaybeForwarded
+(
+wrapped
+)
+;
 }
 if
 (

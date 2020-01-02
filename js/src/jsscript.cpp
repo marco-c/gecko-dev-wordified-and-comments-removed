@@ -18975,8 +18975,11 @@ sourceObject
 {
 JS_ASSERT
 (
+MaybeForwarded
+(
 sourceObject
 (
+)
 )
 -
 >

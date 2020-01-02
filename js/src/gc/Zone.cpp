@@ -638,7 +638,7 @@ PHASE_SWEEP_TABLES_BREAKPOINT
 ;
 JS_ASSERT
 (
-isGCSweeping
+isGCSweepingOrCompacting
 (
 )
 )
@@ -679,8 +679,11 @@ JSScript
 (
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+isGCSweeping
+(
+)
 script
 -
 >
@@ -825,6 +828,11 @@ toJSObjectRef
 ;
 JS_ASSERT_IF
 (
+isGCSweeping
+(
+)
+&
+&
 dbgobj
 -
 >
