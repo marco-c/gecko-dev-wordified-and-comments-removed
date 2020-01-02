@@ -387,6 +387,8 @@ nsPIDOMWindow
 mWindow
 ;
 static
+:
+:
 WindowTable
 *
 sActiveWindows

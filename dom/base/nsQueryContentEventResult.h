@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_dom_nsQueryContentEventResult_h
+#
+define
+mozilla_dom_nsQueryContentEventResult_h
+#
 include
 "
 nsIQueryContentEventResult
@@ -97,3 +103,5 @@ mReversed
 ;
 }
 ;
+#
+endif
