@@ -286,6 +286,13 @@ Debugger
 :
 OptionsPopupHidden
 "
+LAYOUT_CHANGED
+:
+"
+Debugger
+:
+LayoutChanged
+"
 }
 ;
 Cu
@@ -1333,7 +1340,7 @@ navigate
 {
 DebuggerView
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -1403,7 +1410,7 @@ this
 .
 ThreadState
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -1411,7 +1418,7 @@ this
 .
 StackFrames
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -1419,7 +1426,7 @@ this
 .
 SourceScripts
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -1807,7 +1814,7 @@ return
 }
 DebuggerView
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -1815,7 +1822,7 @@ this
 .
 SourceScripts
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -2076,7 +2083,7 @@ ignoreCaughtExceptions
 ;
 this
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -2139,7 +2146,7 @@ _update
 )
 ;
 }
-_handleTabNavigation
+handleTabNavigation
 :
 function
 (
@@ -2461,7 +2468,7 @@ _onBlackBoxChange
 ;
 this
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -2566,7 +2573,7 @@ _onBlackBoxChange
 )
 ;
 }
-_handleTabNavigation
+handleTabNavigation
 :
 function
 (
@@ -4364,7 +4371,7 @@ _onBlackBoxChange
 ;
 this
 .
-_handleTabNavigation
+handleTabNavigation
 (
 )
 ;
@@ -4456,7 +4463,7 @@ clear
 )
 ;
 }
-_handleTabNavigation
+handleTabNavigation
 :
 function
 (
@@ -7618,6 +7625,20 @@ function
 DebuggerController
 .
 _target
+}
+"
+gHostType
+"
+:
+{
+get
+:
+function
+(
+)
+DebuggerView
+.
+_hostType
 }
 "
 gClient
