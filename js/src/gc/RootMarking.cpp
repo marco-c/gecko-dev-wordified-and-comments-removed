@@ -2562,12 +2562,18 @@ VALARRAY
 :
 {
 AutoValueArray
+<
+1
+>
 *
 array
 =
 static_cast
 <
 AutoValueArray
+<
+1
+>
 *
 >
 (
@@ -2586,7 +2592,7 @@ length
 array
 -
 >
-start
+begin
 (
 )
 "
