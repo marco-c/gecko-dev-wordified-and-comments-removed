@@ -76,13 +76,6 @@ if
 CONFIG
 [
 '
-MOZ_B2G_RIL
-'
-]
-and
-CONFIG
-[
-'
 ENABLE_TESTS
 '
 ]
