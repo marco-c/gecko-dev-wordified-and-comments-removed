@@ -6125,6 +6125,16 @@ mozilla
 CSSIntPoint
 &
 aScroll
+const
+mozilla
+:
+:
+dom
+:
+:
+ScrollOptions
+&
+aOptions
 )
 ;
 bool
