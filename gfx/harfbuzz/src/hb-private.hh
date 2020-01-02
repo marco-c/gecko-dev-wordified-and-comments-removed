@@ -1065,7 +1065,6 @@ mask
 ;
 #
 else
-register
 uint32_t
 y
 ;
@@ -1177,7 +1176,6 @@ number
 ;
 #
 else
-register
 unsigned
 int
 n_bits
@@ -1253,7 +1251,6 @@ number
 ;
 #
 else
-register
 unsigned
 int
 n_bits
