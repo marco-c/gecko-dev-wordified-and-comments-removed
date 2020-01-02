@@ -229,8 +229,6 @@ Encoded
 GMPVideoEncodedFrame
 *
 aEncodedFrame
-GMPBufferType
-aBufferType
 const
 nsTArray
 <

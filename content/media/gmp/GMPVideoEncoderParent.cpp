@@ -773,10 +773,6 @@ GMPVideoEncodedFrameData
 &
 aEncodedFrame
 const
-GMPBufferType
-&
-aBufferType
-const
 nsTArray
 <
 uint8_t
@@ -812,7 +808,6 @@ mCallback
 Encoded
 (
 f
-aBufferType
 aCodecSpecificInfo
 )
 ;

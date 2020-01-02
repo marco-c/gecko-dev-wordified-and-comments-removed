@@ -284,10 +284,6 @@ bool
 &
 aMissingFrames
 const
-GMPBufferType
-&
-aBufferType
-const
 nsTArray
 <
 uint8_t

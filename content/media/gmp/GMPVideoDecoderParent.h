@@ -134,8 +134,6 @@ GMPVideoEncodedFrame
 aInputFrame
 bool
 aMissingFrames
-GMPBufferType
-aBufferType
 const
 nsTArray
 <

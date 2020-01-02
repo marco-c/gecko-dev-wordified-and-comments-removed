@@ -281,8 +281,6 @@ GMPVideoEncodedFrame
 aInputFrame
 bool
 aMissingFrames
-GMPBufferType
-aBufferType
 const
 nsTArray
 <
@@ -403,7 +401,6 @@ SendDecode
 (
 frameData
 aMissingFrames
-aBufferType
 aCodecSpecificInfo
 aRenderTimeMs
 )

@@ -172,8 +172,6 @@ GMPVideoEncodedFrame
 aInputFrame
 bool
 aMissingFrames
-GMPBufferType
-aBufferType
 const
 uint8_t
 *
