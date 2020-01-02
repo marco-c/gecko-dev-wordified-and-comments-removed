@@ -7329,6 +7329,16 @@ endif
 #
 ifdef
 MOZ_DMD
+if
+(
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+)
+{
 :
 :
 JS_DefineFunctions
@@ -7338,6 +7348,7 @@ aGlobalObj
 DMDFunctions
 )
 ;
+}
 #
 endif
 #

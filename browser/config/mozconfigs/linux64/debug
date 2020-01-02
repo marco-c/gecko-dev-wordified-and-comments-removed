@@ -9,6 +9,12 @@ ac_add_options
 -
 enable
 -
+dmd
+ac_add_options
+-
+-
+enable
+-
 signmar
 .
 topsrcdir
