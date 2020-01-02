@@ -150,6 +150,11 @@ DeltaMode
 (
 )
 ;
+private
+:
+int32_t
+mAppUnitsPerDevPixel
+;
 }
 ;
 }
