@@ -4867,16 +4867,11 @@ NS_PREFBRANCH_PREFCHANGE_TOPIC_ID
 if
 (
 !
-strcmp
-(
-NS_ConvertUTF16toUTF8
+NS_strcmp
 (
 aData
-)
-.
-get
+MOZ_UTF16
 (
-)
 "
 image
 .
@@ -4884,6 +4879,7 @@ http
 .
 accept
 "
+)
 )
 )
 {
