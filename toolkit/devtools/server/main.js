@@ -2082,17 +2082,6 @@ _listeners
 length
 ;
 }
-get
-_listener
-(
-)
-{
-return
-this
-.
-listeningSockets
-;
-}
 openListener
 :
 function
