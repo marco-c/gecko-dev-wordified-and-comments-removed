@@ -9778,7 +9778,7 @@ onLaunch
 =
 None
              
-detectShutdownLeaks
+webapprtChrome
 =
 False
              
@@ -10038,7 +10038,17 @@ testUrl
 )
       
 if
-detectShutdownLeaks
+mozinfo
+.
+info
+[
+"
+debug
+"
+]
+and
+not
+webapprtChrome
 :
         
 shutdownLeaks
@@ -12255,26 +12265,6 @@ options
 )
 ;
       
-detectShutdownLeaks
-=
-mozinfo
-.
-info
-[
-"
-debug
-"
-]
-and
-options
-.
-browserChrome
-and
-not
-options
-.
-webapprtChrome
-      
 log
 .
 info
@@ -12349,9 +12339,11 @@ onLaunch
 =
 onLaunch
                              
-detectShutdownLeaks
+webapprtChrome
 =
-detectShutdownLeaks
+options
+.
+webapprtChrome
                              
 screenshotOnFail
 =
