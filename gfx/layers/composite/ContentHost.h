@@ -170,9 +170,7 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
+nsAutoPtr
 .
 h
 "
@@ -1371,7 +1369,7 @@ mBufferRotation
 ;
 nsTArray
 <
-UniquePtr
+nsAutoPtr
 <
 Request
 >

@@ -11,15 +11,6 @@ nsRegion
 .
 h
 "
-#
-include
-"
-mozilla
-/
-UniquePtr
-.
-h
-"
 class
 nsPresContext
 ;
@@ -65,10 +56,8 @@ LayerProperties
 {
 }
 static
-UniquePtr
-<
 LayerProperties
->
+*
 CloneFrom
 (
 Layer

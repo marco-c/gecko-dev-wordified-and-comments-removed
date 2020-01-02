@@ -1505,10 +1505,8 @@ mFPS
 {
 mFPS
 =
-MakeUnique
-<
+new
 FPSState
->
 (
 )
 ;
