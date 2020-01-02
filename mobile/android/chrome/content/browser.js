@@ -10746,7 +10746,7 @@ nsILoginManagerStorage
 ;
 storage
 .
-init
+initialize
 (
 )
 ;
