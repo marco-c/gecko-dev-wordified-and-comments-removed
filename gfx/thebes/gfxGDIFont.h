@@ -48,6 +48,13 @@ cairo
 .
 h
 "
+#
+include
+"
+usp10
+.
+h
+"
 class
 gfxGDIFont
 :
@@ -350,6 +357,9 @@ uint32_t
 >
 >
 mGlyphIDs
+;
+SCRIPT_CACHE
+mScriptCache
 ;
 nsAutoPtr
 <
