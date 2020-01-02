@@ -467,6 +467,17 @@ gfx
 h
 "
 #
+include
+"
+mozilla
+/
+gfx
+/
+BorrowedContext
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
