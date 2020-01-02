@@ -171,6 +171,17 @@ hb
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+2D
+.
+h
+"
 typedef
 struct
 _cairo_scaled_font
