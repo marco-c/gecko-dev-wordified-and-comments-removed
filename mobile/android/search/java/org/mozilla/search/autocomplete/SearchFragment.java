@@ -524,7 +524,7 @@ autoCompleteAdapter
 )
 )
 ;
-transitionToRunning
+transitionToWaiting
 (
 )
 ;
