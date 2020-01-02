@@ -363,6 +363,9 @@ __VA_ARGS__
 &
 \
 (
+int
+)
+(
 MOZ_PASTE_PREFIX_AND_ARG_COUNT
 (
 0
@@ -371,10 +374,9 @@ MOZ_PASTE_PREFIX_AND_ARG_COUNT
 __VA_ARGS__
 )
 )
-<
+=
+=
 0
-.
-1
 \
 "
 MOZ_STATIC_ASSERT_VALID_ARG_COUNT
