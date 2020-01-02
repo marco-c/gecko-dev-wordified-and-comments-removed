@@ -1235,13 +1235,6 @@ macro
 (
 _
 _
-regexpData
-)
-\
-macro
-(
-_
-_
 interpreterStack
 )
 \
