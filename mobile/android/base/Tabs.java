@@ -1411,6 +1411,7 @@ getId
 tabId
 ;
 }
+RobocopTarget
 public
 synchronized
 Tab
@@ -1467,6 +1468,7 @@ id
 )
 ;
 }
+RobocopTarget
 public
 synchronized
 void
