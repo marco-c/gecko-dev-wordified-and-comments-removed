@@ -2728,6 +2728,12 @@ nsIDOMNSEditableElement
 {
 aElement
 .
+blur
+(
+)
+;
+aElement
+.
 focus
 (
 )
