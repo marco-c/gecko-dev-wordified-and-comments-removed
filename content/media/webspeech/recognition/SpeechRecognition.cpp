@@ -2748,9 +2748,8 @@ aRv
 {
 if
 (
-!
 mCurrentState
-=
+!
 =
 STATE_IDLE
 )
