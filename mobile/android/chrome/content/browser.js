@@ -20814,6 +20814,15 @@ document
 )
 ;
 }
+if
+(
+BrowserApp
+.
+selectedTab
+=
+=
+this
+)
 HelperApps
 .
 updatePageAction
