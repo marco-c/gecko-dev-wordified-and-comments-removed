@@ -115,12 +115,6 @@ nsPicoService
 (
 )
 ;
-virtual
-~
-nsPicoService
-(
-)
-;
 static
 nsPicoService
 *
@@ -145,6 +139,12 @@ Shutdown
 ;
 private
 :
+virtual
+~
+nsPicoService
+(
+)
+;
 void
 Init
 (
