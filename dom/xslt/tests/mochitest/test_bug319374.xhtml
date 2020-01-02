@@ -419,10 +419,6 @@ e
 return
 SpecialPowers
 .
-unwrap
-(
-SpecialPowers
-.
 wrap
 (
 document
@@ -431,7 +427,6 @@ document
 getAnonymousNodes
 (
 e
-)
 )
 ;
 }
@@ -687,7 +682,12 @@ try
 var
 xp2
 =
+SpecialPowers
+.
+wrap
+(
 xp
+)
 .
 evaluate
 (
@@ -734,10 +734,13 @@ iterateNext
 ;
 ok
 (
+SpecialPowers
+.
+compare
+(
 resultAttr
-=
-=
 anonAttr1
+)
 "
 XPathEvaluator
 returned
