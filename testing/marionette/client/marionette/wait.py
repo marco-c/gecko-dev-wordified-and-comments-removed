@@ -3,6 +3,8 @@ collections
 import
 errors
 import
+sys
+import
 time
 DEFAULT_TIMEOUT
 =
@@ -826,7 +828,11 @@ e
                 
 last_exc
 =
-e
+sys
+.
+exc_info
+(
+)
             
 if
 isinstance
@@ -873,16 +879,6 @@ self
 interval
 )
         
-if
-last_exc
-is
-not
-None
-:
-            
-raise
-last_exc
-        
 raise
 errors
 .
@@ -907,6 +903,10 @@ now
 -
 start
 )
+            
+cause
+=
+last_exc
 )
 def
 until_pred
