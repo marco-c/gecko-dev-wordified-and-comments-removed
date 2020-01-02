@@ -184,9 +184,7 @@ name
 arrowPopupWidth
 "
 >
-dimen
-/
-arrow_popup_width
+400dp
 <
 /
 item
