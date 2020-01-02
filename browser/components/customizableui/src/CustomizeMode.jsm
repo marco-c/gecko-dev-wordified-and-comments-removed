@@ -585,13 +585,6 @@ this
 .
 document
 ;
-CustomizableUI
-.
-addListener
-(
-this
-)
-;
 let
 deck
 =
@@ -758,6 +751,13 @@ this
 .
 _showPanelCustomizationPlaceholders
 (
+)
+;
+CustomizableUI
+.
+addListener
+(
+this
 )
 ;
 yield
