@@ -197,7 +197,7 @@ aAfter
 ;
 }
 virtual
-void
+bool
 RemoveChild
 (
 Layer
@@ -205,8 +205,9 @@ Layer
 aChild
 )
 {
-NS_ASSERTION
+if
 (
+!
 BasicManager
 (
 )
@@ -215,6 +216,10 @@ BasicManager
 InConstruction
 (
 )
+)
+{
+NS_ERROR
+(
 "
 Can
 only
@@ -226,6 +231,11 @@ phase
 "
 )
 ;
+return
+false
+;
+}
+return
 ContainerLayer
 :
 :

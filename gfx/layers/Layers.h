@@ -4431,7 +4431,7 @@ aAfter
 )
 ;
 virtual
-void
+bool
 RemoveChild
 (
 Layer
@@ -5625,7 +5625,7 @@ false
 ;
 }
 virtual
-void
+bool
 RemoveChild
 (
 Layer
@@ -5636,6 +5636,9 @@ aChild
 MOZ_CRASH
 (
 )
+;
+return
+false
 ;
 }
 virtual

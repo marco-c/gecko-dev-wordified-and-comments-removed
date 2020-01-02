@@ -431,7 +431,7 @@ nullptr
 )
 {
 }
-void
+bool
 RemoveChild
 (
 Layer
@@ -439,6 +439,9 @@ Layer
 aChild
 )
 {
+return
+true
+;
 }
 bool
 InsertAfter
