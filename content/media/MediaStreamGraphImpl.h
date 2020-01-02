@@ -287,6 +287,11 @@ aFinalUpdate
 )
 ;
 bool
+AllFinishedStreamsNotified
+(
+)
+;
+bool
 ShouldUpdateMainThread
 (
 )
@@ -712,8 +717,8 @@ WAITSTATE_WAKING_UP
 WaitState
 mWaitState
 ;
-uint32_t
-mNonRealtimeTicksToProcess
+GraphTime
+mEndTime
 ;
 bool
 mNeedAnotherIteration
