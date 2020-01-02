@@ -98,3 +98,13 @@ Persian
 !
 define
 fa_rtl
+;
+Uyghur
+!
+define
+ug_rtl
+;
+Urdu
+!
+define
+ur_rtl
