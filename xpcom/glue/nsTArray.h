@@ -6276,7 +6276,7 @@ aFlags
 =
 CycleCollectionEdgeNameArrayFlag
 ;
-size_t
+uint32_t
 length
 =
 aField
@@ -6287,7 +6287,7 @@ Length
 ;
 for
 (
-size_t
+uint32_t
 i
 =
 0
