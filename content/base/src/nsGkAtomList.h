@@ -14325,13 +14325,6 @@ _displayportbase
 )
 GK_ATOM
 (
-CriticalDisplayPort
-"
-_critical_displayport
-"
-)
-GK_ATOM
-(
 color_picker_available
 "
 color
