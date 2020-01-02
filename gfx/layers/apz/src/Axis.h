@@ -91,7 +91,7 @@ OVERSCROLL_BOTH
 void
 UpdateWithTouchAtDevicePoint
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 uint32_t
 aTimestampMs
@@ -100,7 +100,7 @@ aTimestampMs
 void
 StartTouch
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 uint32_t
 aTimestampMs
@@ -172,7 +172,7 @@ PanDistance
 float
 PanDistance
 (
-ScreenIntCoord
+ScreenCoord
 aPos
 )
 ;
@@ -291,7 +291,7 @@ GetPageEnd
 )
 const
 ;
-ScreenIntCoord
+ScreenCoord
 GetPos
 (
 )
@@ -342,13 +342,13 @@ const
 ;
 protected
 :
-ScreenIntCoord
+ScreenCoord
 mPos
 ;
 uint32_t
 mPosTimeMs
 ;
-ScreenIntCoord
+ScreenCoord
 mStartPos
 ;
 float

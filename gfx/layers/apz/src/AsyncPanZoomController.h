@@ -738,8 +738,7 @@ GetVelocityVector
 (
 )
 ;
-ScreenIntPoint
-&
+ScreenPoint
 GetFirstTouchScreenPoint
 (
 const
