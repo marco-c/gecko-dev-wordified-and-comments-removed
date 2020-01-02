@@ -32,6 +32,10 @@ GLContext
 {
 public
 :
+MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
+(
+GLContextGLX
+)
 static
 already_AddRefed
 <
