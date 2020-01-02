@@ -324,12 +324,6 @@ nsIDOMNode
 aSource
 )
 ;
-~
-nsPrefetchNode
-(
-)
-{
-}
 nsresult
 OpenChannel
 (
@@ -366,6 +360,12 @@ mSource
 ;
 private
 :
+~
+nsPrefetchNode
+(
+)
+{
+}
 nsRefPtr
 <
 nsPrefetchService

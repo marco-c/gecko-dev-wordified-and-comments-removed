@@ -316,12 +316,6 @@ HandlerClass
 aClass
 )
 ;
-virtual
-~
-nsMIMEInfoBase
-(
-)
-;
 void
 SetMIMEType
 (
@@ -377,6 +371,12 @@ Length
 }
 protected
 :
+virtual
+~
+nsMIMEInfoBase
+(
+)
+;
 virtual
 nsresult
 LaunchDefaultWithFile

@@ -299,13 +299,13 @@ nsPrefetchService
 aService
 )
 ;
+private
+:
 ~
 nsPrefetchQueueEnumerator
 (
 )
 ;
-private
-:
 void
 Increment
 (

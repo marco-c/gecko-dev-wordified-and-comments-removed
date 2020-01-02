@@ -55,12 +55,6 @@ ExternalHelperAppChild
 (
 )
 ;
-virtual
-~
-ExternalHelperAppChild
-(
-)
-;
 void
 SetHandler
 (
@@ -87,6 +81,12 @@ MOZ_OVERRIDE
 ;
 private
 :
+virtual
+~
+ExternalHelperAppChild
+(
+)
+;
 nsresult
 DivertToParent
 (

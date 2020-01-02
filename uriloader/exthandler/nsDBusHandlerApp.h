@@ -34,6 +34,8 @@ nsDBusHandlerApp
 )
 {
 }
+protected
+:
 virtual
 ~
 nsDBusHandlerApp
@@ -41,8 +43,6 @@ nsDBusHandlerApp
 )
 {
 }
-protected
-:
 nsString
 mName
 ;

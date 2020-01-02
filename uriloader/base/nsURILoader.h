@@ -99,13 +99,13 @@ nsURILoader
 (
 )
 ;
+protected
+:
 ~
 nsURILoader
 (
 )
 ;
-protected
-:
 nsresult
 OpenChannel
 (

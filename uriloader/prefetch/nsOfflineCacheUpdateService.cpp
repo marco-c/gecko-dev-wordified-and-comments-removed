@@ -631,6 +631,12 @@ aDocument
 }
 private
 :
+~
+nsOfflineCachePendingUpdate
+(
+)
+{
+}
 nsRefPtr
 <
 nsOfflineCacheUpdateService

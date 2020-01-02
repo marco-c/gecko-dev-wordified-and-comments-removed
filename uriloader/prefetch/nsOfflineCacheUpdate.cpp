@@ -551,6 +551,12 @@ Begin
 ;
 private
 :
+~
+nsManifestCheck
+(
+)
+{
+}
 static
 NS_METHOD
 ReadManifest

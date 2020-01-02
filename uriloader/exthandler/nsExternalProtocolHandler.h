@@ -69,13 +69,13 @@ nsExternalProtocolHandler
 (
 )
 ;
+protected
+:
 ~
 nsExternalProtocolHandler
 (
 )
 ;
-protected
-:
 bool
 HaveExternalProtocolHandler
 (
