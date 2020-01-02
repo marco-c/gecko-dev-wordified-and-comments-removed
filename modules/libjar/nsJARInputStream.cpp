@@ -1120,16 +1120,9 @@ mOutCrc
 =
 mInCrc
 )
-{
-NS_NOTREACHED
-(
-0
-)
-;
 return
 NS_ERROR_FILE_CORRUPTED
 ;
-}
 }
 return
 NS_OK
