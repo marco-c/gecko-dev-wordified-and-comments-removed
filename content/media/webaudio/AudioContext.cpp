@@ -86,6 +86,13 @@ h
 #
 include
 "
+AudioChannelService
+.
+h
+"
+#
+include
+"
 AudioDestinationNode
 .
 h
@@ -599,6 +606,12 @@ AudioContext
 (
 window
 false
+AudioChannelService
+:
+:
+GetDefaultAudioChannel
+(
+)
 )
 ;
 RegisterWeakMemoryReporter
