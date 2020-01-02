@@ -1149,6 +1149,15 @@ if
 (
 xhr
 .
+channel
+instanceof
+Ci
+.
+nsIHttpChannel
+&
+&
+xhr
+.
 status
 !
 =
