@@ -153,11 +153,6 @@ nsIDOMDragEvent
 idl
 '
 '
-nsIDOMElementReplaceEvent
-.
-idl
-'
-'
 nsIDOMEvent
 .
 idl

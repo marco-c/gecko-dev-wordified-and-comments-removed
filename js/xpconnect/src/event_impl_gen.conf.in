@@ -139,9 +139,6 @@ StyleSheetChangeEvent
 '
 StyleSheetApplicableStateChangeEvent
 '
-'
-ElementReplaceEvent
-'
 #
 ifdef
 MOZ_WEBSPEECH

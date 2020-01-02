@@ -2680,11 +2680,6 @@ DOMTransactionEvent
 webidl
 '
 '
-ElementReplaceEvent
-.
-webidl
-'
-'
 HashChangeEvent
 .
 webidl
