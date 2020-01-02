@@ -98,11 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMPermissionSettings
-.
-idl
-'
-'
 nsIPermissionPromptService
 .
 idl

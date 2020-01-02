@@ -129,7 +129,7 @@ in
 aRequest
 after
 consulting
-nsIDOMPermissionSettings
+PermissionSettings
 etc
 .
 *

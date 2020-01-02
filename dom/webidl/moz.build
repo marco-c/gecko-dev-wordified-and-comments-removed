@@ -1405,6 +1405,11 @@ PeriodicWave
 webidl
 '
 '
+PermissionSettings
+.
+webidl
+'
+'
 PhoneNumberService
 .
 webidl
