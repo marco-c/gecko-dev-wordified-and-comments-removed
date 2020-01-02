@@ -4516,15 +4516,7 @@ ErrorResult
 &
 aError
 )
-{
-return
-CloneNode
-(
-true
-aError
-)
 ;
-}
 already_AddRefed
 <
 nsINode
