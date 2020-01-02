@@ -176,6 +176,14 @@ RoboCopException
 .
 java
 \
+RobocopShare1
+.
+java
+\
+RobocopShare2
+.
+java
+\
 RobocopUtils
 .
 java
