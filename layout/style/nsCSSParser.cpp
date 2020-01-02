@@ -19659,13 +19659,6 @@ StyleRule
 (
 slist
 declaration
-)
-;
-rule
--
->
-SetLineNumberAndColumnNumber
-(
 linenum
 colnum
 )
