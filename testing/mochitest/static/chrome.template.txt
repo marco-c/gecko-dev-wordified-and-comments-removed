@@ -139,7 +139,7 @@ chrome
 :
 /
 /
-mochitkit
+mochikit
 /
 content
 /
