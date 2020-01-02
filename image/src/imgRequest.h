@@ -231,6 +231,11 @@ nsresult
 aStatus
 )
 ;
+void
+ContinueEvict
+(
+)
+;
 nsresult
 LockImage
 (
@@ -432,6 +437,11 @@ Cancel
 (
 nsresult
 aStatus
+)
+;
+void
+EvictFromCache
+(
 )
 ;
 void
