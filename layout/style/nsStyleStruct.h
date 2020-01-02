@@ -594,7 +594,7 @@ SetNull
 void
 SetImageData
 (
-imgIRequest
+imgRequestProxy
 *
 aImage
 )
@@ -650,7 +650,7 @@ return
 mType
 ;
 }
-imgIRequest
+imgRequestProxy
 *
 GetImageData
 (
@@ -951,7 +951,7 @@ mType
 ;
 union
 {
-imgIRequest
+imgRequestProxy
 *
 mImage
 ;
