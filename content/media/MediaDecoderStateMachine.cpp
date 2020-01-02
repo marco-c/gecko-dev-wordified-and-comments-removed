@@ -12254,6 +12254,17 @@ AssertCurrentThreadInMonitor
 ;
 if
 (
+mState
+!
+=
+DECODER_STATE_DECODING
+)
+{
+return
+;
+}
+if
+(
 IsPlaying
 (
 )
