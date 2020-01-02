@@ -771,6 +771,12 @@ CheckConsole
 ;
 private
 :
+~
+nsNativeAppSupportWin
+(
+)
+{
+}
 static
 void
 HandleCommandLine
