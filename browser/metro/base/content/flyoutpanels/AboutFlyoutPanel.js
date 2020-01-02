@@ -322,12 +322,6 @@ button
 return
 ;
 }
-FlyoutPanelsUI
-.
-hide
-(
-)
-;
 let
 url
 =
