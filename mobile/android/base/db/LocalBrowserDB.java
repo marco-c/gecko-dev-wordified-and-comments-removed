@@ -1439,7 +1439,15 @@ DBUtils
 .
 concatenateWhere
 (
+Combined
+.
+HISTORY_ID
++
 "
+<
+>
+-
+1
 "
 Combined
 .
