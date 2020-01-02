@@ -2782,6 +2782,13 @@ JSObject
 pmetadata
 )
 {
+JS_CHECK_RECURSION_DONT_REPORT
+(
+cx
+return
+true
+)
+;
 Rooted
 <
 SavedFrame
