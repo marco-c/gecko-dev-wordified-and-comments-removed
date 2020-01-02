@@ -107,6 +107,16 @@ NullableTestInterface
 interface
 TestExternalInterface
 ;
+[
+AvailableIn
+=
+PrivilegedApps
+Pref
+=
+"
+xyz
+"
+]
 interface
 TestRenamedInterface
 {
@@ -678,6 +688,9 @@ OnlyForUseInConstructor
 )
 arg3
 )
+AvailableIn
+=
+CertifiedApps
 NamedConstructor
 =
 Test

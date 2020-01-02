@@ -5834,6 +5834,14 @@ identifier
 =
 =
 "
+AvailableIn
+"
+or
+                  
+identifier
+=
+=
+"
 Func
 "
 )
@@ -18139,6 +18147,14 @@ identifier
 =
 =
 "
+AvailableIn
+"
+or
+              
+identifier
+=
+=
+"
 NewObject
 "
 )
@@ -21981,6 +21997,14 @@ identifier
 =
 "
 Func
+"
+or
+              
+identifier
+=
+=
+"
+AvailableIn
 "
 or
               
