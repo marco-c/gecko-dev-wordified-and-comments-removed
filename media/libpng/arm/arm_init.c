@@ -13,6 +13,9 @@ pngpriv
 h
 "
 #
+ifdef
+PNG_READ_SUPPORTED
+#
 if
 PNG_ARM_NEON_OPT
 >
@@ -649,5 +652,7 @@ png_read_filter_row_paeth4_neon
 ;
 }
 }
+#
+endif
 #
 endif

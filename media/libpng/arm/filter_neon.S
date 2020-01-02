@@ -37,8 +37,8 @@ libpng
 .
 17
 [
-June
-27
+July
+18
 2013
 ]
 *
@@ -149,6 +149,9 @@ executable
 /
 #
 endif
+#
+ifdef
+PNG_READ_SUPPORTED
 #
 if
 PNG_ARM_NEON_OPT
@@ -1464,5 +1467,12 @@ endif
 PNG_ARM_NEON_OPT
 >
 0
+*
+/
+#
+endif
+/
+*
+PNG_READ_SUPPORTED
 *
 /
