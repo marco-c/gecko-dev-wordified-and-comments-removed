@@ -10902,6 +10902,9 @@ isConstant
 )
 )
 {
+#
+ifdef
+DEBUG
 const
 Nursery
 &
@@ -10946,6 +10949,8 @@ toObject
 )
 )
 ;
+#
+endif
 }
 else
 {
@@ -11086,6 +11091,9 @@ isConstant
 )
 )
 {
+#
+ifdef
+DEBUG
 const
 Nursery
 &
@@ -11130,6 +11138,8 @@ toObject
 )
 )
 ;
+#
+endif
 }
 else
 {
