@@ -214,11 +214,6 @@ DataStoreDB
 .
 jsm
 '
-'
-DataStoreServiceInternal
-.
-jsm
-'
 ]
 MOCHITEST_MANIFESTS
 +
