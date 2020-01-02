@@ -1457,10 +1457,6 @@ obj_lookupElement
 ArrayBufferObject
 :
 :
-obj_lookupSpecial
-ArrayBufferObject
-:
-:
 obj_defineGeneric
 ArrayBufferObject
 :
@@ -1470,10 +1466,6 @@ ArrayBufferObject
 :
 :
 obj_defineElement
-ArrayBufferObject
-:
-:
-obj_defineSpecial
 ArrayBufferObject
 :
 :
@@ -1489,10 +1481,6 @@ obj_getElement
 ArrayBufferObject
 :
 :
-obj_getSpecial
-ArrayBufferObject
-:
-:
 obj_setGeneric
 ArrayBufferObject
 :
@@ -1502,10 +1490,6 @@ ArrayBufferObject
 :
 :
 obj_setElement
-ArrayBufferObject
-:
-:
-obj_setSpecial
 ArrayBufferObject
 :
 :
@@ -1522,10 +1506,6 @@ ArrayBufferObject
 :
 :
 obj_deleteElement
-ArrayBufferObject
-:
-:
-obj_deleteSpecial
 nullptr
 nullptr
 nullptr
