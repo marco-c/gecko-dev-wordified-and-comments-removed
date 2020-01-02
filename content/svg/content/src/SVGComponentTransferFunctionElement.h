@@ -296,6 +296,11 @@ sEnumInfo
 ;
 }
 ;
+NS_DEFINE_STATIC_IID_ACCESSOR
+(
+SVGComponentTransferFunctionElement
+NS_SVG_FE_COMPONENT_TRANSFER_FUNCTION_ELEMENT_CID
+)
 }
 }
 nsresult
