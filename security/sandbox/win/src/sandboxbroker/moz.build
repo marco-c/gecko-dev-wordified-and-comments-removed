@@ -101,7 +101,7 @@ sandboxbroker
 LIBRARY_NAME
 =
 '
-sandboxbroker_s
+sandboxbroker
 '
 EXPORT_LIBRARY
 =

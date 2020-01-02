@@ -409,7 +409,7 @@ sandboxbroker
 (
 LIB_PREFIX
 )
-sandboxbroker_s
+sandboxbroker
 .
 (
 LIB_SUFFIX
