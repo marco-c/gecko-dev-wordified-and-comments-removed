@@ -61143,7 +61143,7 @@ iccInfo
 .
 isDisplayNetworkNameRequired
 =
-false
+true
 ;
 iccInfo
 .
