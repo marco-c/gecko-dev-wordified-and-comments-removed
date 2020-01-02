@@ -85,7 +85,11 @@ h
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -403,9 +407,9 @@ NodeInfoManager
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;

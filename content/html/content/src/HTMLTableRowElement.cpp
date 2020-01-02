@@ -693,9 +693,15 @@ nullptr
 }
 }
 }
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 nodeInfo
 ;

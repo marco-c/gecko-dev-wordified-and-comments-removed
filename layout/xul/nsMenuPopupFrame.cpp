@@ -6751,7 +6751,10 @@ if
 parentContent
 )
 {
-nsINodeInfo
+dom
+:
+:
+NodeInfo
 *
 ni
 =

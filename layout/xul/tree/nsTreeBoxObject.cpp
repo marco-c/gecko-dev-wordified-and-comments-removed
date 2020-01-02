@@ -230,7 +230,13 @@ GetNextChild
 )
 )
 {
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 *
 ni
 =

@@ -193,7 +193,13 @@ SVGFEImageElement
 (
 already_AddRefed
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 &
 aNodeInfo

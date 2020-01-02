@@ -1517,7 +1517,7 @@ child
 }
 else
 {
-nsINodeInfo
+NodeInfo
 *
 ni
 =

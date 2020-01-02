@@ -2185,7 +2185,7 @@ nodeInfoManager
 =
 aNewNodeInfoManager
 ;
-nsINodeInfo
+NodeInfo
 *
 nodeInfo
 =
@@ -2194,9 +2194,9 @@ aNode
 >
 mNodeInfo
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 newNodeInfo
 ;

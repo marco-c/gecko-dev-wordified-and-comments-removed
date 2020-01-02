@@ -114,6 +114,13 @@ nsTextNode
 .
 h
 "
+#
+include
+"
+nsNameSpaceManager
+.
+h
+"
 using
 namespace
 mozilla

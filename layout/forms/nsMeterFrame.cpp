@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h

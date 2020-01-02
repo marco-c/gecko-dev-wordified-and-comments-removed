@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -549,9 +553,9 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;

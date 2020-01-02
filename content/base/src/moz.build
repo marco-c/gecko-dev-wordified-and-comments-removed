@@ -796,11 +796,6 @@ nsNoDataProtocolContentPolicy
 cpp
 '
 '
-nsNodeInfo
-.
-cpp
-'
-'
 nsNodeUtils
 .
 cpp

@@ -150,7 +150,11 @@ h
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -1575,7 +1579,10 @@ document
 return
 E_FAIL
 ;
-nsINodeInfo
+dom
+:
+:
+NodeInfo
 *
 nodeInfo
 =

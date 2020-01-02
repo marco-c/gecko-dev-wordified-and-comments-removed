@@ -219,7 +219,13 @@ char16_t
 aAtts
 uint32_t
 aAttsCount
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 *
 aNodeInfo
 uint32_t

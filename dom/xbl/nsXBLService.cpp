@@ -3887,7 +3887,7 @@ true
 ;
 }
 }
-nsINodeInfo
+NodeInfo
 *
 ni
 =

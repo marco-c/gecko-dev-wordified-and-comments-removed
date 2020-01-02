@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

@@ -91,7 +91,13 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 *
 aNodeInfo
 nsINode

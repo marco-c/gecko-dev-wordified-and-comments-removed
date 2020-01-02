@@ -398,9 +398,15 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 nodeInfo
 ;

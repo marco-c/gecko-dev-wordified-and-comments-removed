@@ -50,7 +50,13 @@ Element
 aInstancePtrResult
 already_AddRefed
 <
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 >
 &
 &

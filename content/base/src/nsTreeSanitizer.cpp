@@ -6777,7 +6777,13 @@ AsElement
 (
 )
 ;
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 *
 nodeInfo
 =

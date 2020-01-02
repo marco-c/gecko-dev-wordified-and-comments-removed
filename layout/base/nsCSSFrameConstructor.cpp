@@ -977,7 +977,11 @@ aContext
 #
 include
 "
-nsINodeInfo
+mozilla
+/
+dom
+/
+NodeInfo
 .
 h
 "
@@ -6673,9 +6677,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;
@@ -7407,9 +7411,9 @@ pseudoStyleContext
 )
 return
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+NodeInfo
 >
 nodeInfo
 ;

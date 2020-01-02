@@ -1879,7 +1879,13 @@ nsAttrAndChildArray
 :
 SetAndTakeAttr
 (
-nsINodeInfo
+mozilla
+:
+:
+dom
+:
+:
+NodeInfo
 *
 aName
 nsAttrValue

@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

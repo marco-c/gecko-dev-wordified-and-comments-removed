@@ -259,9 +259,12 @@ TouchCaretPrefEnabled
 )
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+dom
+:
+:
+NodeInfo
 >
 nodeInfo
 ;
