@@ -2055,13 +2055,6 @@ null
 return
 ;
 }
-tab
-.
-updateURL
-(
-url
-)
-;
 }
 else
 {
