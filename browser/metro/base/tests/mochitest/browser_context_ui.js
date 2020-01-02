@@ -1939,6 +1939,11 @@ mozilla
 "
 )
 ;
+yield
+hideNavBar
+(
+)
+;
 ok
 (
 !
