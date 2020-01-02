@@ -308,9 +308,9 @@ defaultZoomValue
 :
 '
 '
-ifAvailableShowOutlineOnLoad
+sidebarViewOnLoad
 :
-false
+0
 enableHandToolOnLoad
 :
 false
