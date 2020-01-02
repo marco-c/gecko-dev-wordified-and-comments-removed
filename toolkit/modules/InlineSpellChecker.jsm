@@ -1028,8 +1028,6 @@ me
 selectDictionary
 (
 val
-me
-.
 menu
 .
 ownerDocument
