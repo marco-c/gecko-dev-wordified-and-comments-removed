@@ -8625,7 +8625,6 @@ isMainProcess
 )
 )
 {
-return
 this
 .
 notifyObservers
@@ -8634,6 +8633,8 @@ subject
 topic
 data
 )
+;
+return
 ;
 }
 var
