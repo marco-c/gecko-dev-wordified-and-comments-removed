@@ -3407,7 +3407,7 @@ nsIContent
 aFirstNewContent
 )
 {
-size_t
+int32_t
 insertionIndex
 ;
 if
@@ -3439,10 +3439,8 @@ MOZ_ASSERT
 insertionIndex
 !
 =
-aPoint
 -
->
-NoIndex
+1
 )
 ;
 +
@@ -3457,9 +3455,7 @@ insertionIndex
 aPoint
 -
 >
-mInsertedChildren
-.
-Length
+InsertedChildrenLength
 (
 )
 ;
@@ -4302,7 +4298,7 @@ point
 break
 ;
 }
-size_t
+uint32_t
 index
 =
 aAppend
@@ -4310,9 +4306,7 @@ aAppend
 point
 -
 >
-mInsertedChildren
-.
-Length
+InsertedChildrenLength
 (
 )
 :
@@ -4343,7 +4337,7 @@ GetPreviousSibling
 )
 )
 {
-size_t
+int32_t
 pointIndex
 =
 point
@@ -4359,10 +4353,8 @@ if
 pointIndex
 !
 =
-point
 -
->
-NoIndex
+1
 )
 {
 index
