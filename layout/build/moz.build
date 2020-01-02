@@ -241,14 +241,6 @@ src
 /
 content
 /
-canvas
-/
-src
-'
-'
-/
-content
-/
 html
 /
 content
@@ -328,6 +320,12 @@ base
 dom
 /
 camera
+'
+'
+/
+dom
+/
+canvas
 '
 '
 /

@@ -11,7 +11,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -34,7 +34,7 @@ nodes
 html
 b
 /
-content
+dom
 /
 canvas
 /
@@ -60,7 +60,7 @@ html
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -86,7 +86,7 @@ html
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -257,7 +257,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -276,7 +276,7 @@ test
 html
 b
 /
-content
+dom
 /
 canvas
 /
@@ -298,7 +298,7 @@ html
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -320,7 +320,7 @@ html
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -643,7 +643,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -664,7 +664,7 @@ utils
 js
 b
 /
-content
+dom
 /
 canvas
 /
@@ -688,7 +688,7 @@ js
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -712,7 +712,7 @@ js
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -1071,7 +1071,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -1090,7 +1090,7 @@ pre
 js
 b
 /
-content
+dom
 /
 canvas
 /
@@ -1112,7 +1112,7 @@ js
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -1134,7 +1134,7 @@ js
 +
 b
 /
-content
+dom
 /
 canvas
 /

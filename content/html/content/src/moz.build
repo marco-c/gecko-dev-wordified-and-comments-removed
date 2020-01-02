@@ -899,14 +899,6 @@ src
 /
 content
 /
-canvas
-/
-src
-'
-'
-/
-content
-/
 html
 /
 document
@@ -935,6 +927,12 @@ src
 dom
 /
 base
+'
+'
+/
+dom
+/
+canvas
 '
 '
 /

@@ -254,14 +254,6 @@ src
 /
 content
 /
-canvas
-/
-src
-'
-'
-/
-content
-/
 html
 /
 content
@@ -359,6 +351,12 @@ bluetooth
 dom
 /
 camera
+'
+'
+/
+dom
+/
+canvas
 '
 '
 /

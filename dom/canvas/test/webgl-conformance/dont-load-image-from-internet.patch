@@ -11,7 +11,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -30,7 +30,7 @@ readPixelsBadArgs
 html
 b
 /
-content
+dom
 /
 canvas
 /
@@ -52,7 +52,7 @@ html
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -74,7 +74,7 @@ html
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -216,7 +216,7 @@ com
 /
 tests
 /
-content
+dom
 /
 canvas
 /
@@ -245,7 +245,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -264,7 +264,7 @@ texImage2DHTML
 html
 b
 /
-content
+dom
 /
 canvas
 /
@@ -286,7 +286,7 @@ html
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -308,7 +308,7 @@ html
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -1041,7 +1041,7 @@ com
 /
 tests
 /
-content
+dom
 /
 canvas
 /
@@ -1074,7 +1074,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -1093,7 +1093,7 @@ texSubImage2DHTML
 html
 b
 /
-content
+dom
 /
 canvas
 /
@@ -1115,7 +1115,7 @@ html
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -1137,7 +1137,7 @@ html
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -1870,7 +1870,7 @@ com
 /
 tests
 /
-content
+dom
 /
 canvas
 /
@@ -1903,7 +1903,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -1924,7 +1924,7 @@ conformance
 html
 b
 /
-content
+dom
 /
 canvas
 /
@@ -1948,7 +1948,7 @@ html
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -1972,7 +1972,7 @@ html
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -2122,7 +2122,7 @@ com
 /
 tests
 /
-content
+dom
 /
 canvas
 /
@@ -2159,7 +2159,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -2174,7 +2174,7 @@ opengl_logo
 jpg
 b
 /
-content
+dom
 /
 canvas
 /
@@ -5280,7 +5280,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -5299,7 +5299,7 @@ logo
 png
 b
 /
-content
+dom
 /
 canvas
 /

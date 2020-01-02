@@ -11,7 +11,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -28,7 +28,7 @@ extensions
 txt
 b
 /
-content
+dom
 /
 canvas
 /
@@ -48,7 +48,7 @@ txt
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -68,7 +68,7 @@ txt
 +
 b
 /
-content
+dom
 /
 canvas
 /
@@ -163,7 +163,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -186,7 +186,7 @@ anisotropic
 html
 b
 /
-content
+dom
 /
 canvas
 /
@@ -223,7 +223,7 @@ null
 +
 b
 /
-content
+dom
 /
 canvas
 /

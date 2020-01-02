@@ -4,7 +4,7 @@ diff
 git
 a
 /
-content
+dom
 /
 canvas
 /
@@ -23,7 +23,7 @@ harness
 js
 b
 /
-content
+dom
 /
 canvas
 /
@@ -45,7 +45,7 @@ js
 -
 a
 /
-content
+dom
 /
 canvas
 /
@@ -67,7 +67,7 @@ js
 +
 b
 /
-content
+dom
 /
 canvas
 /

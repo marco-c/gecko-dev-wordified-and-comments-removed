@@ -18,7 +18,7 @@ com
 /
 tests
 /
-content
+dom
 /
 canvas
 /
