@@ -295,7 +295,7 @@ aFlexItem
 const
 nsHTMLReflowState
 &
-aParentReflowState
+aItemReflowState
 const
 FlexboxAxisTracker
 &
