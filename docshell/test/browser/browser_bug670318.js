@@ -176,6 +176,12 @@ function
 (
 )
 true
+OnHistoryReplaceEntry
+:
+function
+(
+)
+true
 QueryInterface
 :
 XPCOMUtils

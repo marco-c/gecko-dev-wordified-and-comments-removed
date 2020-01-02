@@ -24012,6 +24012,14 @@ return
 true
 ;
 }
+OnHistoryReplaceEntry
+:
+function
+(
+aIndex
+)
+{
+}
 get
 metadata
 (
