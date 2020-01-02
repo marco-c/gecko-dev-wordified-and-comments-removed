@@ -1198,8 +1198,9 @@ height
 0
 )
 {
-NS_WARNING
+MOZ_ASSERT
 (
+false
 "
 Empty
 picture
