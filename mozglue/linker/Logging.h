@@ -330,14 +330,8 @@ while
 if
 defined
 (
-HAVE_64BIT_OS
+__LP64__
 )
-|
-|
-__SIZEOF_POINTER__
-=
-=
-8
 #
 define
 PRIxAddr
