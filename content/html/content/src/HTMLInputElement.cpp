@@ -21902,6 +21902,17 @@ newEnd
 }
 break
 ;
+default
+:
+MOZ_CRASH
+(
+"
+Unknown
+mode
+!
+"
+)
+;
 }
 Optional
 <
