@@ -32,4 +32,11 @@ Exception
 e
 )
 ;
+void
+handleBackoff
+(
+int
+backoffSeconds
+)
+;
 }
