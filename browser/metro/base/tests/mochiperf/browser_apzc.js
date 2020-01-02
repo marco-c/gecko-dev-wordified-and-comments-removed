@@ -1084,6 +1084,9 @@ desc
 "
 high
 "
+shareAxis
+:
+0
 }
 {
 value
@@ -1094,6 +1097,9 @@ desc
 "
 average
 "
+shareAxis
+:
+0
 }
 ]
 )
@@ -1456,6 +1462,9 @@ desc
 "
 high
 "
+shareAxis
+:
+0
 }
 {
 value
@@ -1468,6 +1477,9 @@ desc
 "
 average
 "
+shareAxis
+:
+0
 }
 ]
 )
