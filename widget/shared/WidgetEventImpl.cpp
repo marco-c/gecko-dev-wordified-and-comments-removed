@@ -181,7 +181,7 @@ return
 mClass
 =
 =
-NS_QUERY_CONTENT_EVENT
+eQueryContentEventClass
 ;
 }
 bool
@@ -769,7 +769,7 @@ deltaZ
 ;
 }
 case
-NS_QUERY_CONTENT_EVENT
+eQueryContentEventClass
 :
 case
 NS_SELECTION_EVENT

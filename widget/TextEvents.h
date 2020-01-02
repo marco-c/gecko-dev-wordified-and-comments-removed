@@ -1075,7 +1075,7 @@ WidgetGUIEvent
 aIsTrusted
 aMessage
 aWidget
-NS_QUERY_CONTENT_EVENT
+eQueryContentEventClass
 )
 mSucceeded
 (
