@@ -102,8 +102,7 @@ revisionId
 "
 "
 ;
-unsigned
-long
+DataStoreKey
 id
 =
 0
@@ -147,8 +146,7 @@ revisionId
 ;
 readonly
 attribute
-unsigned
-long
+DataStoreKey
 id
 ;
 readonly
