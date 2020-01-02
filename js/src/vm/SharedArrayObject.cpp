@@ -742,7 +742,11 @@ vp
 ;
 if
 (
-argc
+args
+.
+length
+(
+)
 >
 0
 &
