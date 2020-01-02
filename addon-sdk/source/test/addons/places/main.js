@@ -65,7 +65,7 @@ test
 -
 places
 -
-bookmarks
+events
 '
 )
 require
@@ -79,7 +79,7 @@ test
 -
 places
 -
-events
+bookmarks
 '
 )
 require
