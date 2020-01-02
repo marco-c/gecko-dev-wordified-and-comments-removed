@@ -256,11 +256,6 @@ bool
 clean
 )
 ;
-nsresult
-ReadTablesFromPrefs
-(
-)
-;
 nsRefPtr
 <
 nsUrlClassifierDBServiceWorker
