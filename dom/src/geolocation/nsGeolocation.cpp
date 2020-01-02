@@ -158,17 +158,6 @@ PermissionMessageUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-ScriptSettings
-.
-h
-"
 class
 nsIPrincipal
 ;
@@ -1089,9 +1078,6 @@ GeoPositionErrorCallback
 aCallback
 )
 {
-AutoSystemCaller
-asc
-;
 nsAutoMicroTask
 mt
 ;
@@ -1940,9 +1926,6 @@ Shutdown
 )
 ;
 }
-AutoSystemCaller
-asc
-;
 nsAutoMicroTask
 mt
 ;
