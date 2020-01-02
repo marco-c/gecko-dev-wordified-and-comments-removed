@@ -28244,6 +28244,15 @@ i
 if
 (
 needsArgsObj
+&
+&
+info
+(
+)
+.
+argsObjAliasesFormals
+(
+)
 )
 {
 JS_ASSERT
