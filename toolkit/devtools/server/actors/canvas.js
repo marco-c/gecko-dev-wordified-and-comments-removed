@@ -1077,6 +1077,9 @@ ANIMATION_GENERATORS
 performReload
 :
 reload
+storeCalls
+:
+true
 }
 )
 ;
