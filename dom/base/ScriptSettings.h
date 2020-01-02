@@ -164,6 +164,7 @@ mOlder
 }
 ;
 class
+MOZ_STACK_CLASS
 AutoJSAPI
 {
 public
