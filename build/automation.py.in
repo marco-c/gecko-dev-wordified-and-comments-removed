@@ -3290,6 +3290,9 @@ False
 dmdPath
 =
 None
+lsanPath
+=
+None
 )
 :
 if
