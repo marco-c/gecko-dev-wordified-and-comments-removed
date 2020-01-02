@@ -501,7 +501,7 @@ m_executablePool
 (
 NULL
 )
-m_size
+m_allocSize
 (
 0
 )
@@ -516,7 +516,7 @@ ExecutablePool
 *
 executablePool
 size_t
-size
+allocSize
 )
 :
 m_code
@@ -527,9 +527,9 @@ m_executablePool
 (
 executablePool
 )
-m_size
+m_allocSize
 (
-size
+allocSize
 )
 {
 }
@@ -573,7 +573,7 @@ memset
 (
 addr
 0xcc
-m_size
+m_allocSize
 )
 ;
 #
@@ -583,6 +583,8 @@ m_executablePool
 >
 release
 (
+m_allocSize
+REGEXP_CODE
 )
 ;
 m_executablePool
@@ -601,13 +603,13 @@ m_code
 ;
 }
 size_t
-size
+allocSize
 (
 )
 const
 {
 return
-m_size
+m_allocSize
 ;
 }
 MacroAssemblerCodePtr
@@ -618,7 +620,7 @@ ExecutablePool
 m_executablePool
 ;
 size_t
-m_size
+m_allocSize
 ;
 }
 ;
