@@ -178,9 +178,14 @@ list
 let
 records
 =
+Cu
+.
+waiveXrays
+(
 msg
 .
 records
+)
 ;
 ok
 (

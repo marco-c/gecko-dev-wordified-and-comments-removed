@@ -1,3 +1,10 @@
+const
+Cu
+=
+SpecialPowers
+.
+Cu
+;
 let
 pendingEmulatorCmdCount
 =
@@ -6,8 +13,6 @@ pendingEmulatorCmdCount
 let
 Promise
 =
-SpecialPowers
-.
 Cu
 .
 import
@@ -1043,7 +1048,12 @@ value
 let
 field1
 =
+Cu
+.
+waiveXrays
+(
 record1
+)
 [
 value
 ]
@@ -1051,7 +1061,12 @@ value
 let
 field2
 =
+Cu
+.
+waiveXrays
+(
 record2
+)
 [
 value
 ]
