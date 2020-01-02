@@ -296,8 +296,6 @@ test1
 example
 .
 com
-:
-80
 "
 ;
 for
@@ -552,8 +550,6 @@ test1
 example
 .
 com
-:
-80
 "
 ;
 for
@@ -773,8 +769,6 @@ http
 example
 .
 com
-:
-80
 "
 ;
 for
@@ -970,8 +964,6 @@ test1
 example
 .
 com
-:
-80
 "
 ;
 for

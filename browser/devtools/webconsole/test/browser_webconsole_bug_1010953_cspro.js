@@ -71,8 +71,6 @@ http
 example
 .
 com
-:
-80
 "
 )
 .
@@ -124,8 +122,6 @@ http
 example
 .
 com
-:
-80
 "
 )
 .

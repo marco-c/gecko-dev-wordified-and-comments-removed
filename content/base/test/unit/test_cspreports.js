@@ -346,7 +346,9 @@ var
 policy
 =
 "
-allow
+default
+-
+src
 '
 none
 '
@@ -447,7 +449,7 @@ appendPolicy
 policy
 selfuri
 useReportOnlyPolicy
-false
+true
 )
 ;
 var
