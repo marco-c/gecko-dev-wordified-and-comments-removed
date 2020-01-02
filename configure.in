@@ -72552,6 +72552,14 @@ MOZ_CAIRO_OSLIBS
 MOZ_CAIRO_OSLIBS
 XLDFLAGS
 -
+lXext
+-
+lXdamage
+-
+lXfixes
+-
+lXcomposite
+-
 lXrender
 "
 fi
