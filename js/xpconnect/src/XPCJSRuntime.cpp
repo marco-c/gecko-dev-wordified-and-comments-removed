@@ -15304,6 +15304,7 @@ aXPConnect
 :
 CycleCollectedJSRuntime
 (
+nullptr
 32L
 *
 1024L

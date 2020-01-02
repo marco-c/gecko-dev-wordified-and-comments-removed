@@ -986,12 +986,9 @@ AtomStateOffsetToName
 cx
 -
 >
-runtime
+names
 (
 )
--
->
-atomState
 offset
 )
 )
@@ -1722,12 +1719,9 @@ AtomStateOffsetToName
 cx
 -
 >
-runtime
+names
 (
 )
--
->
-atomState
 offset
 )
 )

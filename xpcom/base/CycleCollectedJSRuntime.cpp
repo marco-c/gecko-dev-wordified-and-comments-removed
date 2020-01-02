@@ -1722,6 +1722,9 @@ CycleCollectedJSRuntime
 :
 CycleCollectedJSRuntime
 (
+JSRuntime
+*
+aParentRuntime
 uint32_t
 aMaxbytes
 JSUseHelperThreads
@@ -1761,6 +1764,7 @@ JS_NewRuntime
 (
 aMaxbytes
 aUseHelperThreads
+aParentRuntime
 )
 ;
 if

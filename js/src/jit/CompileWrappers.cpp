@@ -365,12 +365,13 @@ names
 )
 {
 return
+*
 runtime
 (
 )
 -
 >
-atomState
+commonNames
 ;
 }
 const
@@ -384,6 +385,7 @@ staticStrings
 )
 {
 return
+*
 runtime
 (
 )

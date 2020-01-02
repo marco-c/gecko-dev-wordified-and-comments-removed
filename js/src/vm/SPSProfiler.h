@@ -163,6 +163,11 @@ SPSProfiler
 (
 )
 ;
+bool
+init
+(
+)
+;
 uint32_t
 *
 *

@@ -589,8 +589,9 @@ runtimeFromAnyThread
 )
 -
 >
-atomState
-.
+commonNames
+-
+>
 empty
 ;
 return
