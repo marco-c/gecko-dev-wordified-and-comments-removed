@@ -56,10 +56,6 @@ using
 namespace
 js
 ;
-using
-namespace
-JS
-;
 DebuggerMemory
 *
 DebuggerMemory
@@ -217,9 +213,6 @@ JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-DebuggerMemory
-:
-:
 JSSLOT_COUNT
 )
 JS_PropertyStub
@@ -317,9 +310,6 @@ cx
 js_GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
-DebuggerMemory
-:
-:
 class_
 .
 name
@@ -358,9 +348,6 @@ cx
 js_GetErrorMessage
 nullptr
 JSMSG_INCOMPATIBLE_PROTO
-DebuggerMemory
-:
-:
 class_
 .
 name
@@ -798,13 +785,7 @@ JS_PSGS
 "
 trackingAllocationSites
 "
-DebuggerMemory
-:
-:
 getTrackingAllocationSites
-DebuggerMemory
-:
-:
 setTrackingAllocationSites
 0
 )
