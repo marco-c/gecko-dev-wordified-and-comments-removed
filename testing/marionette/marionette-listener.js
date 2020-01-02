@@ -5394,6 +5394,14 @@ command
 '
 press
 '
+&
+&
+command
+!
+=
+'
+wait
+'
 )
 {
 if
