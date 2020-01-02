@@ -522,10 +522,10 @@ JS_EnumerateStub
 SafeGlobalResolve
 JS_ConvertStub
 SafeFinalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 TraceXPCGlobal
 }
 ;

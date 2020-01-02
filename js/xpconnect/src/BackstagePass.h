@@ -88,7 +88,7 @@ ForgetGlobalObject
 {
 mGlobal
 =
-NULL
+nullptr
 ;
 }
 virtual

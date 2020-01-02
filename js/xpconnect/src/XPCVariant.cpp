@@ -44,7 +44,7 @@ mozilla
 NS_IMPL_CLASSINFO
 (
 XPCVariant
-NULL
+nullptr
 0
 XPCVARIANT_CID
 )

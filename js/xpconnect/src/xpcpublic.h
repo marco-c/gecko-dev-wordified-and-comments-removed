@@ -1291,7 +1291,7 @@ size_t
 *
 rtTotal
 =
-NULL
+nullptr
 )
 ;
 bool

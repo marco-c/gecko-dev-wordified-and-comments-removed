@@ -89,12 +89,12 @@ nsWrapperCache
 *
 aCache
 =
-NULL
+nullptr
 )
 :
 mCanonical
 (
-NULL
+nullptr
 )
 mObject
 (
@@ -125,7 +125,7 @@ mCache
 else
 mCache
 =
-NULL
+nullptr
 ;
 }
 }
@@ -199,7 +199,7 @@ mCanonical
 ;
 mCanonical
 =
-NULL
+nullptr
 ;
 return
 mCanonicalStrong

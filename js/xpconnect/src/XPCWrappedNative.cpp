@@ -6053,8 +6053,8 @@ propertyHolder
 JS_NewObjectWithGivenProto
 (
 cx
-NULL
-NULL
+nullptr
+nullptr
 aNewParent
 )
 ;
@@ -8142,7 +8142,7 @@ MOZ_ASSERT
 wrapper
 =
 =
-NULL
+nullptr
 )
 ;
 return
@@ -8191,7 +8191,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 }
 else
@@ -8229,7 +8229,7 @@ if
 wrapper
 )
 return
-NULL
+nullptr
 ;
 }
 if

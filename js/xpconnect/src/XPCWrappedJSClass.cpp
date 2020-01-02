@@ -266,7 +266,7 @@ mErrorReporterSet
 JS_SetErrorReporter
 (
 mJSContext
-NULL
+nullptr
 )
 ;
 }
@@ -7160,11 +7160,11 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 FinalizeStub
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 bool

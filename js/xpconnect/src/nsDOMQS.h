@@ -484,7 +484,7 @@ rv
 *
 ppThis
 =
-NULL
+nullptr
 ;
 /
 *

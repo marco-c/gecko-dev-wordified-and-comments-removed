@@ -11744,7 +11744,7 @@ iter
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -12355,7 +12355,7 @@ JS_NewArrayObject
 (
 cx
 0
-NULL
+nullptr
 )
 ;
 if
@@ -12817,7 +12817,7 @@ toObject
 )
 )
 :
-NULL
+nullptr
 ;
 if
 (

@@ -99,7 +99,7 @@ ForgetGlobalObject
 {
 mGlobalJSObject
 =
-NULL
+nullptr
 ;
 }
 private

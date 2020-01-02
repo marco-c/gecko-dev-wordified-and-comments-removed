@@ -1205,7 +1205,7 @@ cx
 rv
 ifaceName
 memberId
-NULL
+nullptr
 )
 ;
 }
@@ -1338,7 +1338,7 @@ cx
 rv
 ifaceName
 memberId
-NULL
+nullptr
 )
 ;
 }
@@ -1579,7 +1579,7 @@ cx
 rv
 ifaceName
 memberId
-NULL
+nullptr
 paramnum
 )
 ;
@@ -1679,7 +1679,7 @@ cx
 rv
 ifaceName
 propId
-NULL
+nullptr
 0
 )
 ;
@@ -1792,7 +1792,7 @@ JSREPORT_STRICT
 |
 JSREPORT_STRICT_MODE_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_GETTER_ONLY
 )
 ;
@@ -1820,7 +1820,7 @@ JSREPORT_STRICT
 |
 JSREPORT_STRICT_MODE_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_GETTER_ONLY
 )
 ;
@@ -3369,7 +3369,7 @@ v
 *
 pstr
 =
-NULL
+nullptr
 ;
 return
 true

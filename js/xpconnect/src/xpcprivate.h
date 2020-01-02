@@ -11755,7 +11755,7 @@ XPCJSContextStack
 :
 mSafeJSContext
 (
-NULL
+nullptr
 )
 {
 }
@@ -11791,7 +11791,7 @@ IsEmpty
 (
 )
 ?
-NULL
+nullptr
 :
 mStack
 [
