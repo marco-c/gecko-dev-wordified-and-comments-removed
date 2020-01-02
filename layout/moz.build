@@ -196,6 +196,11 @@ PARALLEL_DIRS
 =
 [
 '
+mathml
+/
+tests
+'
+'
 xul
 /
 test
