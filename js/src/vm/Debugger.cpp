@@ -313,7 +313,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MORE_ARGS_NEEDED
 name
 s
@@ -375,7 +375,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_NONNULL_OBJECT
 )
 ;
@@ -452,7 +452,7 @@ not
 an
 identifier
 "
-NULL
+nullptr
 )
 ;
 return
@@ -499,7 +499,7 @@ GlobalObject
 *
 global
 =
-NULL
+nullptr
 )
 :
 frame
@@ -773,7 +773,7 @@ enabledCount
 )
 trapHandler
 (
-NULL
+nullptr
 )
 trapClosure
 (
@@ -987,7 +987,7 @@ trapClosure
 ;
 trapHandler
 =
-NULL
+nullptr
 ;
 trapClosure
 =
@@ -1084,7 +1084,7 @@ breakpoints
 )
 )
 return
-NULL
+nullptr
 ;
 return
 Breakpoint
@@ -1350,7 +1350,7 @@ debugger
 breakpoints
 )
 ?
-NULL
+nullptr
 :
 fromDebuggerLinks
 (
@@ -1389,7 +1389,7 @@ site
 breakpoints
 )
 ?
-NULL
+nullptr
 :
 fromSiteLinks
 (
@@ -1416,7 +1416,7 @@ dbg
 )
 uncaughtExceptionHook
 (
-NULL
+nullptr
 )
 enabled
 (
@@ -1839,7 +1839,7 @@ cx
 &
 DebuggerFrame_class
 proto
-NULL
+nullptr
 )
 ;
 if
@@ -1981,7 +1981,7 @@ isUndefined
 (
 )
 ?
-NULL
+nullptr
 :
 &
 v
@@ -2893,8 +2893,8 @@ runtime
 defaultFreeOp
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -3067,7 +3067,7 @@ cx
 &
 DebuggerEnv_class
 proto
-NULL
+nullptr
 TenuredObject
 )
 ;
@@ -3287,7 +3287,7 @@ cx
 &
 DebuggerObject_class
 proto
-NULL
+nullptr
 TenuredObject
 )
 ;
@@ -3515,7 +3515,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_EXPECTED_TYPE
 "
 Debugger
@@ -3575,7 +3575,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 owner
 .
 isUndefined
@@ -3820,7 +3820,7 @@ return
 handleUncaughtExceptionHelper
 (
 ac
-NULL
+nullptr
 callHook
 )
 ;
@@ -4442,7 +4442,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_BAD_RESUMPTION
 )
 ;
@@ -6772,7 +6772,7 @@ frame
 )
 handler
 0
-NULL
+nullptr
 &
 rval
 )
@@ -6976,7 +6976,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_RESUMPTION_VALUE_DISALLOWED
 )
 ;
@@ -8200,7 +8200,7 @@ e
 front
 (
 )
-NULL
+nullptr
 &
 e
 )
@@ -8385,7 +8385,7 @@ removeDebuggeeGlobal
 fop
 global
 compartmentEnum
-NULL
+nullptr
 )
 ;
 }
@@ -8613,10 +8613,10 @@ Debugger
 :
 :
 finalize
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 Debugger
 :
 :
@@ -8663,7 +8663,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -8702,7 +8702,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -8720,7 +8720,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 Debugger
@@ -8742,7 +8742,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -9268,7 +9268,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_CALLABLE_OR_UNDEFINED
 )
 ;
@@ -9827,7 +9827,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_ASSIGN_FUNCTION_OR_NULL
 "
 uncaughtExceptionHook
@@ -9896,7 +9896,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 argument
@@ -9910,7 +9910,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -9957,7 +9957,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 obj
 =
@@ -9995,7 +9995,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 obj
@@ -10012,7 +10012,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -10032,7 +10032,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 argument
@@ -10046,7 +10046,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -10441,8 +10441,8 @@ defaultFreeOp
 (
 )
 global
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 args
@@ -10547,7 +10547,7 @@ front
 (
 )
 dmgc
-NULL
+nullptr
 &
 e
 )
@@ -11049,7 +11049,7 @@ defaultFreeOp
 (
 )
 dbg
-NULL
+nullptr
 )
 ;
 return
@@ -11151,7 +11151,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_CCW_REQUIRED
 "
 Debugger
@@ -11249,7 +11249,7 @@ Debugger
 :
 jsclass
 proto
-NULL
+nullptr
 )
 )
 ;
@@ -11530,7 +11530,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_CANT_DEBUG_GLOBAL
 )
 ;
@@ -11607,7 +11607,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_LOOP
 )
 ;
@@ -11765,7 +11765,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_NOT_IDLE
 )
 ;
@@ -12473,7 +12473,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 query
@@ -12567,7 +12567,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_QUERY_LINE_WITHOUT_URL
 )
 ;
@@ -12606,7 +12606,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_BAD_LINE
 )
 ;
@@ -12629,7 +12629,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UNEXPECTED_TYPE
 "
 query
@@ -12721,7 +12721,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_QUERY_INNERMOST_WITHOUT_LINE_URL
 )
 ;
@@ -12793,7 +12793,7 @@ cx
 runtime
 (
 )
-NULL
+nullptr
 this
 considerScript
 )
@@ -14241,11 +14241,11 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 DebuggerScript_trace
 }
 ;
@@ -14305,7 +14305,7 @@ cx
 &
 DebuggerScript_class
 proto
-NULL
+nullptr
 )
 ;
 if
@@ -14314,7 +14314,7 @@ if
 scriptobj
 )
 return
-NULL
+nullptr
 ;
 scriptobj
 -
@@ -14418,7 +14418,7 @@ if
 scriptobj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -14439,7 +14439,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 CrossCompartmentKey
@@ -14488,7 +14488,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -14551,7 +14551,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -14583,7 +14583,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 clsname
 fnname
@@ -14599,7 +14599,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -14624,7 +14624,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 clsname
 fnname
@@ -14635,7 +14635,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -15590,7 +15590,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_BAD_OFFSET
 )
 ;
@@ -17520,7 +17520,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_BAD_LINE
 )
 ;
@@ -17978,7 +17978,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_NOT_DEBUGGING
 )
 ;
@@ -18238,7 +18238,7 @@ else
 {
 pc
 =
-NULL
+nullptr
 ;
 }
 RootedObject
@@ -18554,7 +18554,7 @@ defaultFreeOp
 (
 )
 dbg
-NULL
+nullptr
 )
 ;
 args
@@ -18774,7 +18774,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NO_CONSTRUCTOR
 "
 Debugger
@@ -19075,11 +19075,11 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 DebuggerSource_trace
 }
 ;
@@ -19139,7 +19139,7 @@ cx
 &
 DebuggerSource_class
 proto
-NULL
+nullptr
 )
 ;
 if
@@ -19148,7 +19148,7 @@ if
 sourceobj
 )
 return
-NULL
+nullptr
 ;
 sourceobj
 -
@@ -19252,7 +19252,7 @@ if
 sourceobj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -19273,7 +19273,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 CrossCompartmentKey
@@ -19322,7 +19322,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -19365,7 +19365,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NO_CONSTRUCTOR
 "
 Debugger
@@ -19416,7 +19416,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -19452,7 +19452,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -19472,7 +19472,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -19488,7 +19488,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -19503,7 +19503,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -20008,7 +20008,7 @@ obj
 >
 setPrivate
 (
-NULL
+nullptr
 )
 ;
 }
@@ -20095,7 +20095,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -20131,7 +20131,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -20151,7 +20151,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -20184,7 +20184,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -20199,7 +20199,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -20211,7 +20211,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_NOT_LIVE
 "
 Debugger
@@ -20221,7 +20221,7 @@ Frame
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }
@@ -21040,7 +21040,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Arguments
@@ -21502,8 +21502,8 @@ names
 .
 length
 fargcVal
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -21617,7 +21617,7 @@ get
 (
 )
 )
-NULL
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
@@ -21650,7 +21650,7 @@ else
 {
 argsobj
 =
-NULL
+nullptr
 ;
 }
 args
@@ -22189,7 +22189,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_CALLABLE_OR_UNDEFINED
 )
 ;
@@ -22422,7 +22422,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_CALLABLE_OR_UNDEFINED
 )
 ;
@@ -22585,7 +22585,7 @@ script
 (
 )
 :
-NULL
+nullptr
 )
 ;
 RootedScript
@@ -22614,7 +22614,7 @@ get
 (
 )
 length
-NULL
+nullptr
 frame
 ?
 1
@@ -22749,7 +22749,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NOT_EXPECTED_TYPE
 fullMethodName
 "
@@ -22928,7 +22928,7 @@ char
 *
 url
 =
-NULL
+nullptr
 ;
 unsigned
 lineNumber
@@ -23195,7 +23195,7 @@ JSObject
 :
 :
 class_
-NULL
+nullptr
 env
 )
 ;
@@ -23275,8 +23275,8 @@ cx
 env
 id
 val
-NULL
-NULL
+nullptr
+nullptr
 0
 0
 0
@@ -23590,7 +23590,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NO_CONSTRUCTOR
 "
 Debugger
@@ -23826,11 +23826,11 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 DebuggerObject_trace
 }
 ;
@@ -23872,7 +23872,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -23908,7 +23908,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -23928,7 +23928,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -23946,7 +23946,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -23961,7 +23961,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -24126,7 +24126,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NO_CONSTRUCTOR
 "
 Debugger
@@ -27278,7 +27278,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -27346,7 +27346,7 @@ Value
 *
 callArgv
 =
-NULL
+nullptr
 ;
 AutoValueVector
 argv
@@ -27398,7 +27398,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BAD_APPLY_ARGS
 js_apply_str
 )
@@ -27958,7 +27958,7 @@ a
 global
 object
 "
-NULL
+nullptr
 )
 ;
 return
@@ -27981,7 +27981,7 @@ a
 global
 object
 "
-NULL
+nullptr
 )
 ;
 return
@@ -28085,7 +28085,7 @@ rval
 )
 dbg
 referent
-NULL
+nullptr
 )
 ;
 }
@@ -28182,7 +28182,7 @@ rval
 )
 dbg
 referent
-NULL
+nullptr
 )
 ;
 }
@@ -28665,11 +28665,11 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 DebuggerEnv_trace
 }
 ;
@@ -28711,7 +28711,7 @@ cx
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSObject
@@ -28747,7 +28747,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -28767,7 +28767,7 @@ name
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -28785,7 +28785,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_INCOMPATIBLE_PROTO
 "
 Debugger
@@ -28800,7 +28800,7 @@ object
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -28950,7 +28950,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_NO_CONSTRUCTOR
 "
 Debugger
@@ -29249,7 +29249,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_NO_SCOPE_OBJECT
 )
 ;
@@ -30261,7 +30261,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_DEBUG_VARIABLE_NOT_FOUND
 )
 ;
@@ -30500,8 +30500,8 @@ Debugger
 :
 :
 methods
-NULL
-NULL
+nullptr
+nullptr
 debugCtor
 .
 address
@@ -30530,8 +30530,8 @@ DebuggerFrame_construct
 0
 DebuggerFrame_properties
 DebuggerFrame_methods
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -30555,8 +30555,8 @@ DebuggerScript_construct
 0
 DebuggerScript_properties
 DebuggerScript_methods
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -30580,8 +30580,8 @@ DebuggerSource_construct
 0
 DebuggerSource_properties
 DebuggerSource_methods
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -30605,8 +30605,8 @@ DebuggerObject_construct
 0
 DebuggerObject_properties
 DebuggerObject_methods
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -30630,8 +30630,8 @@ DebuggerEnv_construct
 0
 DebuggerEnv_properties
 DebuggerEnv_methods
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if

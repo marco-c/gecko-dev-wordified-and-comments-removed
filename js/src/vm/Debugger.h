@@ -506,7 +506,7 @@ key
 .
 unsafeSet
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2343,12 +2343,12 @@ JSTrapHandler
 *
 handlerp
 =
-NULL
+nullptr
 Value
 *
 closurep
 =
-NULL
+nullptr
 )
 ;
 void
@@ -2498,7 +2498,7 @@ breakpoints
 )
 )
 return
-NULL
+nullptr
 ;
 return
 Breakpoint

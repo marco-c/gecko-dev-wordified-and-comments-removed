@@ -169,7 +169,7 @@ Value
 *
 vp
 =
-NULL
+nullptr
 )
 ;
 inline

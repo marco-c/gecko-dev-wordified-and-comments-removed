@@ -180,7 +180,7 @@ currentMaybeWithDST
 =
 time
 (
-NULL
+nullptr
 )
 ;
 if

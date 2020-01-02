@@ -55,7 +55,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 BooleanObject
 &

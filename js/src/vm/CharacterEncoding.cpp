@@ -728,7 +728,7 @@ asJSContext
 (
 )
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
 ;
@@ -1095,7 +1095,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_MALFORMED_UTF8_CHAR
 buffer
 )
@@ -1116,7 +1116,7 @@ JS_ReportErrorNumber
 (
 cx
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_BUFFER_TOO_SMALL
 )
 ;
@@ -1157,7 +1157,7 @@ JS_ReportErrorFlagsAndNumber
 cx
 JSREPORT_ERROR
 js_GetErrorMessage
-NULL
+nullptr
 JSMSG_UTF8_CHAR_TOO_LARGE
 buffer
 )
@@ -1771,7 +1771,7 @@ countAction
 (
 cx
 src
-NULL
+nullptr
 outlen
 &
 isAscii
