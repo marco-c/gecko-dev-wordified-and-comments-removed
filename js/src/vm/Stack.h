@@ -2326,13 +2326,9 @@ hasReturnValue
 const
 {
 return
-!
-!
-(
 flags_
 &
 HAS_RVAL
-)
 ;
 }
 MutableHandleValue
@@ -2343,10 +2339,8 @@ returnValue
 if
 (
 !
+hasReturnValue
 (
-flags_
-&
-HAS_RVAL
 )
 )
 rval_
