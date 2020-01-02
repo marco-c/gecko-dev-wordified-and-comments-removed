@@ -1061,7 +1061,7 @@ NO_GLYPH
 -
 1
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 int32_t
 SMALL_GLYPH_RUN
