@@ -276,6 +276,8 @@ aFormat
 CompositorD3D11
 *
 aCompositor
+TextureFlags
+aFlags
 )
 :
 mCompositor
@@ -288,7 +290,7 @@ aFormat
 )
 mFlags
 (
-0
+aFlags
 )
 mCurrentTile
 (
@@ -1904,6 +1906,9 @@ aCompositor
 ;
 if
 (
+mCompositor
+&
+&
 mCompositor
 !
 =
@@ -4046,6 +4051,7 @@ SurfaceFormat
 :
 A8
 mCompositor
+TEXTURE_DISALLOW_BIGIMAGE
 )
 ;
 srcCb
@@ -4058,6 +4064,7 @@ SurfaceFormat
 :
 A8
 mCompositor
+TEXTURE_DISALLOW_BIGIMAGE
 )
 ;
 srcCr
@@ -4070,6 +4077,7 @@ SurfaceFormat
 :
 A8
 mCompositor
+TEXTURE_DISALLOW_BIGIMAGE
 )
 ;
 mFirstSource

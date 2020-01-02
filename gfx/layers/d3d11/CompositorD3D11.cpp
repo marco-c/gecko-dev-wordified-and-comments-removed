@@ -1596,6 +1596,7 @@ SurfaceFormat
 :
 UNKNOWN
 this
+aFlags
 )
 ;
 return
