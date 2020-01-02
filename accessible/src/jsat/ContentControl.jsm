@@ -1347,17 +1347,6 @@ if
 focusedAcc
 &
 &
-this
-.
-vc
-.
-position
-=
-=
-=
-focusedAcc
-&
-&
 focusedAcc
 .
 role
