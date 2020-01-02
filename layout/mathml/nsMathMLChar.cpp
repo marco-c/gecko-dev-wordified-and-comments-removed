@@ -7662,6 +7662,14 @@ DRAW_NORMAL
 case
 DRAW_VARIANT
 :
+if
+(
+mGlyphs
+[
+0
+]
+)
+{
 mGlyphs
 [
 0
@@ -7697,6 +7705,7 @@ nullptr
 nullptr
 )
 ;
+}
 break
 ;
 case
