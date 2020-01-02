@@ -7743,6 +7743,8 @@ Address
 (
 GlobalReg
 AsmJSActivationGlobalDataOffset
+-
+AsmJSGlobalRegBias
 )
 dest
 )

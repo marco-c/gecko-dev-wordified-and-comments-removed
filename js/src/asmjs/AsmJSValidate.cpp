@@ -40598,6 +40598,8 @@ AsmJSModule
 heapGlobalDataOffset
 (
 )
+-
+AsmJSGlobalRegBias
 )
 )
 ;
@@ -40628,6 +40630,8 @@ AsmJSModule
 heapGlobalDataOffset
 (
 )
+-
+AsmJSGlobalRegBias
 )
 HeapReg
 )
