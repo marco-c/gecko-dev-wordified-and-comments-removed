@@ -313,13 +313,10 @@ nsDNSService2
 .
 h
 "
-NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
+NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsIDNSService
 nsDNSService
-:
-:
-GetXPCOMSingleton
+Init
 )
 #
 include
@@ -3437,7 +3434,7 @@ Create
 kNS_DNSSERVICE_CID
 false
 nullptr
-nsIDNSServiceConstructor
+nsDNSServiceConstructor
 }
 {
 &
