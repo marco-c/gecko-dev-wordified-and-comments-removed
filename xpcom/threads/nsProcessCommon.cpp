@@ -38,13 +38,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prio
 .
 h

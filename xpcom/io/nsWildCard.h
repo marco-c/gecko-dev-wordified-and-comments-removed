@@ -7,13 +7,6 @@ nsWildCard_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nscore
 .
 h

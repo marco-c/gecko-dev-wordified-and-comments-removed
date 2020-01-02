@@ -7,13 +7,6 @@ nsTextFormatter_h___
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 prio
 .
 h
