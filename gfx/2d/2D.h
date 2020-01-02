@@ -1050,10 +1050,7 @@ GetDataSurface
 (
 )
 ;
-DebugOnly
-<
 bool
->
 mIsMapped
 ;
 }
