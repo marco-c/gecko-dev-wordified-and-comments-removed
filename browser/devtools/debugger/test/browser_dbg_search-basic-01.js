@@ -1211,7 +1211,7 @@ EventUtils
 sendKey
 (
 "
-ENTER
+RETURN
 "
 gDebugger
 )
@@ -2594,7 +2594,7 @@ EventUtils
 sendKey
 (
 "
-ENTER
+RETURN
 "
 gDebugger
 )
@@ -3129,7 +3129,7 @@ EventUtils
 sendKey
 (
 "
-ENTER
+RETURN
 "
 gDebugger
 )

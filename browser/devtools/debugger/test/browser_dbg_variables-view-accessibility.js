@@ -472,7 +472,7 @@ yield
 synthesizeKeyAndWaitForElement
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }
@@ -510,7 +510,7 @@ yield
 synthesizeKeyAndWaitForElement
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 shiftKey

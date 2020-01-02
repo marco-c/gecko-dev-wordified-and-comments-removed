@@ -5207,11 +5207,6 @@ aEvent
 .
 DOM_VK_RETURN
 :
-case
-aEvent
-.
-DOM_VK_ENTER
-:
 if
 (
 this

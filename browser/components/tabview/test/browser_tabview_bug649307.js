@@ -93,9 +93,6 @@ keys
 RETURN
 "
 "
-ENTER
-"
-"
 ESCAPE
 "
 ]

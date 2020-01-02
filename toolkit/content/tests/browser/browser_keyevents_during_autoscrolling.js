@@ -462,7 +462,7 @@ RETURN
 sendKey
 (
 "
-ENTER
+RETURN
 "
 )
 ;
@@ -490,7 +490,7 @@ TAB
 sendKey
 (
 "
-ENTER
+RETURN
 "
 )
 ;

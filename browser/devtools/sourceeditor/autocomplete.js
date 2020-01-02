@@ -943,11 +943,6 @@ DOM_VK_DELETE
 case
 event
 .
-DOM_VK_ENTER
-:
-case
-event
-.
 DOM_VK_RETURN
 :
 private

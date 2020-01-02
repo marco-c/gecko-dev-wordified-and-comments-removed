@@ -1909,7 +1909,7 @@ is
 selected
 so
 pressing
-ENTER
+RETURN
 should
 close
 /
@@ -2034,7 +2034,7 @@ function
 sendKey
 (
 "
-ENTER
+RETURN
 "
 )
 ;
@@ -2528,7 +2528,7 @@ function
 sendKey
 (
 "
-ENTER
+RETURN
 "
 )
 ;
@@ -2801,7 +2801,7 @@ function
 sendKey
 (
 "
-ENTER
+RETURN
 "
 )
 ;

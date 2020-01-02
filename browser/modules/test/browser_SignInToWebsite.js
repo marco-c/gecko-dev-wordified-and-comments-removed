@@ -3407,7 +3407,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }

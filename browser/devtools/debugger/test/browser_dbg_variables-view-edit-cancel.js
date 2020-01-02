@@ -203,7 +203,7 @@ of
 ESCAPE
 "
 "
-ENTER
+RETURN
 "
 ]
 )

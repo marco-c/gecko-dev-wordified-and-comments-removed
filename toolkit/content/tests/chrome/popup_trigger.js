@@ -4288,7 +4288,7 @@ function
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }
@@ -5713,7 +5713,7 @@ VK_DOWN
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }

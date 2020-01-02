@@ -529,7 +529,7 @@ VK_DOWN
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }

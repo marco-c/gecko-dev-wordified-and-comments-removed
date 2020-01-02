@@ -1319,7 +1319,7 @@ true
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }
@@ -1399,7 +1399,7 @@ true
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 shiftKey

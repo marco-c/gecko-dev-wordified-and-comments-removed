@@ -2014,7 +2014,6 @@ matchedTabsFromOtherWindows
 ;
 if
 (
-(
 event
 .
 keyCode
@@ -2023,17 +2022,6 @@ keyCode
 event
 .
 DOM_VK_RETURN
-|
-|
-event
-.
-keyCode
-=
-=
-event
-.
-DOM_VK_ENTER
-)
 &
 &
 (

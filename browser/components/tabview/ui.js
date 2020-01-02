@@ -4552,11 +4552,6 @@ KeyEvent
 .
 DOM_VK_RETURN
 :
-case
-KeyEvent
-.
-DOM_VK_ENTER
-:
 activeGroupItem
 =
 GroupItems

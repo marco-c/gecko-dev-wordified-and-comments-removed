@@ -4019,7 +4019,7 @@ EventUtils
 sendKey
 (
 "
-ENTER
+RETURN
 "
 gDebugger
 )

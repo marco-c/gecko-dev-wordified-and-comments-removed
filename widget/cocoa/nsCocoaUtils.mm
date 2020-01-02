@@ -4280,11 +4280,6 @@ NSEnterCharacter
 )
 KEYCODE_ENTRY
 (
-VK_ENTER
-NSEnterCharacter
-)
-KEYCODE_ENTRY
-(
 VK_SHIFT
 0
 )

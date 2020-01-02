@@ -441,7 +441,7 @@ openSubMenu_invoke
 synthesizeKey
 (
 "
-VK_ENTER
+VK_RETURN
 "
 {
 }
