@@ -470,11 +470,6 @@ DOMImplementation
 webidl
 '
 '
-DOMMMIError
-.
-webidl
-'
-'
 DOMParser
 .
 webidl
@@ -2723,6 +2718,11 @@ WEBIDL_FILES
 +
 =
 [
+'
+DOMMMIError
+.
+webidl
+'
 '
 IccCardLockError
 .
