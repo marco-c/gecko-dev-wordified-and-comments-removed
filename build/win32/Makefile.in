@@ -67,8 +67,6 @@ rules
 mk
 ifdef
 WIN32_REDIST_DIR
-ifndef
-MOZ_DEBUG
 ifeq
 (
 1600
@@ -187,10 +185,6 @@ f
 FINAL_TARGET
 )
 endif
-endif
-#
-!
-MOZ_DEBUG
 endif
 #
 WIN32_REDIST_DIR

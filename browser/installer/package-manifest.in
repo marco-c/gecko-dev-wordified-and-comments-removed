@@ -449,9 +449,6 @@ hang
 ui
 BIN_SUFFIX
 #
-ifndef
-MOZ_DEBUG
-#
 if
 MOZ_MSVC_REDIST
 =
@@ -499,8 +496,6 @@ BINPATH
 msvcr120
 .
 dll
-#
-endif
 #
 endif
 #

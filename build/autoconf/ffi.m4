@@ -403,6 +403,13 @@ rtl
 if
 test
 -
+z
+"
+MOZ_NO_DEBUG_RTL
+"
+-
+a
+-
 n
 "
 MOZ_DEBUG

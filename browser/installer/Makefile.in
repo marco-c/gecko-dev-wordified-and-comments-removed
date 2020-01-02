@@ -296,6 +296,8 @@ any
 .
 ifdef
 WIN32_REDIST_DIR
+ifdef
+MOZ_NO_DEBUG_RTL
 DEFINES
 +
 =
@@ -305,6 +307,7 @@ DMOZ_MSVC_REDIST
 (
 _MSC_VER
 )
+endif
 endif
 ifneq
 (
