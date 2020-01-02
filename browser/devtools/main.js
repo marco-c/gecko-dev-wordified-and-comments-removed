@@ -806,6 +806,9 @@ tooltip
 "
 toolboxStrings
 )
+inMenu
+:
+false
 isTargetSupported
 :
 function
@@ -970,6 +973,9 @@ tooltip
 "
 webConsoleStrings
 )
+inMenu
+:
+true
 isTargetSupported
 :
 function
@@ -1122,6 +1128,9 @@ tooltip
 "
 inspectorStrings
 )
+inMenu
+:
+true
 preventClosingOnKey
 :
 true
@@ -1329,6 +1338,9 @@ tooltip
 "
 debuggerStrings
 )
+inMenu
+:
+true
 isTargetSupported
 :
 function
@@ -1466,6 +1478,9 @@ tooltip2
 "
 styleEditorStrings
 )
+inMenu
+:
+true
 isTargetSupported
 :
 function
@@ -1612,6 +1627,9 @@ tooltip2
 "
 profilerStrings
 )
+inMenu
+:
+true
 isTargetSupported
 :
 function
@@ -1771,6 +1789,9 @@ tooltip
 "
 netMonitorStrings
 )
+inMenu
+:
+true
 isTargetSupported
 :
 function
@@ -1893,6 +1914,9 @@ tooltip
 "
 scratchpadStrings
 )
+inMenu
+:
+false
 isTargetSupported
 :
 function

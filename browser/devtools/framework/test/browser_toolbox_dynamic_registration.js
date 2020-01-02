@@ -135,6 +135,9 @@ label
 Test
 Tool
 "
+inMenu
+:
+true
 isTargetSupported
 :
 function
