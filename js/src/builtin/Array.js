@@ -3354,9 +3354,6 @@ return
 sliceId
 ;
 }
-return
-undefined
-;
 }
 function
 ArrayReducePar
@@ -3649,9 +3646,6 @@ return
 sliceId
 ;
 }
-return
-undefined
-;
 }
 function
 ArrayScanPar
@@ -4138,9 +4132,6 @@ return
 sliceId
 ;
 }
-return
-undefined
-;
 }
 function
 ArrayScatterPar
@@ -4435,9 +4426,6 @@ t
 )
 ;
 }
-return
-undefined
-;
 }
 function
 ArrayFilterPar
@@ -4942,9 +4930,6 @@ return
 sliceId
 ;
 }
-return
-undefined
-;
 }
 function
 ArrayStaticBuild
@@ -5232,9 +5217,6 @@ return
 sliceId
 ;
 }
-return
-undefined
-;
 }
 SetScriptHints
 (
