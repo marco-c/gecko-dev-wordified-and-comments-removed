@@ -39,6 +39,16 @@ blockForEvent
 )
 ;
 public
+void
+blockForEvent
+(
+long
+millis
+boolean
+failOnTimeout
+)
+;
+public
 String
 blockForEventData
 (

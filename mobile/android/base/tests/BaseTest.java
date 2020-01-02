@@ -420,6 +420,14 @@ LONG_PRESS_TIME
 ;
 private
 static
+final
+int
+GECKO_READY_WAIT_MS
+=
+180000
+;
+private
+static
 Class
 <
 Activity
@@ -515,6 +523,8 @@ geckoReadyExpector
 .
 blockForEvent
 (
+GECKO_READY_WAIT_MS
+true
 )
 ;
 }
