@@ -761,6 +761,8 @@ nickname
 unsigned
 long
 filterLimit
+=
+0
 ;
 }
 ;
