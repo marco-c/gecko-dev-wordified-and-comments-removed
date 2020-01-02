@@ -128,6 +128,13 @@ MozNdefRecord
 records
 )
 ;
+DOMRequest
+sendFile
+(
+Blob
+blob
+)
+;
 }
 ;
 /
