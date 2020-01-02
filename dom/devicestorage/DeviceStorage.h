@@ -1447,7 +1447,15 @@ nsString
 mLastStatus
 ;
 void
-DispatchMountChangeEvent
+DispatchStatusChangeEvent
+(
+nsAString
+&
+aStatus
+)
+;
+void
+DispatchStorageStatusChangeEvent
 (
 nsAString
 &
