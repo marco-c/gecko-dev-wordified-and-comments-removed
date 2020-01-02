@@ -3588,6 +3588,10 @@ trygl
 prefix
 )
 ;
+MakeCurrent
+(
+)
+;
 if
 (
 mInitialized

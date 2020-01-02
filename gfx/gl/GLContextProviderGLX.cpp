@@ -3466,10 +3466,6 @@ Init
 (
 )
 {
-MakeCurrent
-(
-)
-;
 SetupLookupFunction
 (
 )

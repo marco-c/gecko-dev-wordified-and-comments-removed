@@ -578,10 +578,6 @@ Init
 (
 )
 {
-MakeCurrent
-(
-)
-;
 if
 (
 !
