@@ -6848,11 +6848,13 @@ true
 pref
 (
 "
-firefox
+identity
 .
-accounts
+fxaccounts
 .
-remoteUrl
+remote
+.
+uri
 "
 "
 https
