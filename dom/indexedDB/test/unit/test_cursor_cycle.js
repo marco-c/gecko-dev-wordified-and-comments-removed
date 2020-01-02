@@ -135,12 +135,6 @@ Bob
 yield
 undefined
 ;
-eval
-(
-'
-'
-)
-;
 db
 .
 transaction

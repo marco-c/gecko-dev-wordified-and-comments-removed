@@ -78,12 +78,6 @@ onerror
 =
 errorHandler
 ;
-eval
-(
-'
-'
-)
-;
 for
 each
 (
