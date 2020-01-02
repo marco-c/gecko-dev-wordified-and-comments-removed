@@ -481,6 +481,11 @@ skippedFirings
 =
 false
 ;
+var
+lastUpdateTime
+=
+null
+;
 function
 tryFire
 (
@@ -735,7 +740,6 @@ ID
 timerID
 )
 ;
-let
 lastUpdateTime
 =
 getPref
