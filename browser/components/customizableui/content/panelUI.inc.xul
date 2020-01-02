@@ -83,6 +83,11 @@ level
 "
 top
 "
+hidden
+=
+"
+true
+"
 consumeoutsideclicks
 =
 "
@@ -708,6 +713,11 @@ level
 =
 "
 top
+"
+hidden
+=
+"
+true
 "
 consumeoutsideclicks
 =

@@ -11173,6 +11173,14 @@ target
 .
 ownerDocument
 ;
+this
+.
+_panel
+.
+hidden
+=
+false
+;
 let
 anchor
 =
