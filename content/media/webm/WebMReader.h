@@ -527,6 +527,14 @@ aOffset
 )
 ;
 virtual
+int64_t
+GetEvictionOffset
+(
+double
+aTime
+)
+;
+virtual
 bool
 IsMediaSeekable
 (
