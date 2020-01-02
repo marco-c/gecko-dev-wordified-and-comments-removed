@@ -136,8 +136,8 @@ GLSurfaceView
 .
 Renderer
 {
-private
 static
+final
 String
 TAG
 =
@@ -455,7 +455,6 @@ context
 ;
 }
 }
-private
 static
 void
 checkEglError
