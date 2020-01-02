@@ -767,6 +767,9 @@ mMainThreadObjectsForgotten
 WorkerType
 mWorkerType
 ;
+TimeStamp
+mCreationTimeStamp
+;
 protected
 :
 nsRefPtr
@@ -1567,6 +1570,16 @@ return
 mLoadInfo
 .
 mResolvedScriptURI
+;
+}
+TimeStamp
+CreationTimeStamp
+(
+)
+const
+{
+return
+mCreationTimeStamp
 ;
 }
 nsIPrincipal
