@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-MODULE_NAME
-=
-xpconnect_test
 JS_FILES
 =
 \
