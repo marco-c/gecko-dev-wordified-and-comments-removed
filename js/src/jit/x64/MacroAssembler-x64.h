@@ -7597,7 +7597,7 @@ addressOfIonTop
 void
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 Register

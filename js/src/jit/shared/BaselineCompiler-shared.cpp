@@ -177,7 +177,7 @@ CallVMPhase
 phase
 )
 {
-IonCode
+JitCode
 *
 code
 =

@@ -500,7 +500,7 @@ osrFrame
 )
 )
 ;
-EnterIonCode
+EnterJitCode
 enter
 =
 cx
@@ -2284,7 +2284,7 @@ JSTracer
 trc
 )
 {
-MarkIonCode
+MarkJitCode
 (
 trc
 &
@@ -4991,7 +4991,7 @@ popFront
 )
 )
 {
-IonCode
+JitCode
 *
 code
 =

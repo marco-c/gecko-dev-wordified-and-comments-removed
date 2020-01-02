@@ -552,7 +552,7 @@ sizeof
 jit
 :
 :
-IonCode
+JitCode
 )
 }
 ;
@@ -681,7 +681,7 @@ OFFSET
 jit
 :
 :
-IonCode
+JitCode
 )
 }
 ;
@@ -714,12 +714,12 @@ FINALIZE_LAZY_SCRIPT
 static
 const
 AllocKind
-FinalizePhaseIonCode
+FinalizePhaseJitCode
 [
 ]
 =
 {
-FINALIZE_IONCODE
+FINALIZE_JITCODE
 }
 ;
 static
@@ -734,7 +734,7 @@ FinalizePhases
 {
 FinalizePhaseStrings
 FinalizePhaseScripts
-FinalizePhaseIonCode
+FinalizePhaseJitCode
 }
 ;
 static
@@ -781,7 +781,7 @@ AllocKind
 )
 sizeof
 (
-FinalizePhaseIonCode
+FinalizePhaseJitCode
 )
 /
 sizeof
@@ -812,7 +812,7 @@ PHASE_SWEEP_SCRIPT
 gcstats
 :
 :
-PHASE_SWEEP_IONCODE
+PHASE_SWEEP_JITCODE
 }
 ;
 static
@@ -2074,7 +2074,7 @@ budget
 )
 ;
 case
-FINALIZE_IONCODE
+FINALIZE_JITCODE
 :
 #
 ifdef
@@ -2100,7 +2100,7 @@ FinalizeTypedArenas
 jit
 :
 :
-IonCode
+JitCode
 >
 (
 fop
@@ -7168,7 +7168,7 @@ void
 ArenaLists
 :
 :
-queueIonCodeForSweep
+queueJitCodeForSweep
 (
 FreeOp
 *
@@ -7193,13 +7193,13 @@ gcStats
 gcstats
 :
 :
-PHASE_SWEEP_IONCODE
+PHASE_SWEEP_JITCODE
 )
 ;
 queueForForegroundSweep
 (
 fop
-FINALIZE_IONCODE
+FINALIZE_JITCODE
 )
 ;
 }
@@ -18428,7 +18428,7 @@ allocator
 .
 arenas
 .
-queueIonCodeForSweep
+queueJitCodeForSweep
 (
 &
 fop

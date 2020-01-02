@@ -5185,7 +5185,7 @@ maxArgc
 class
 ParallelIonInvoke
 {
-EnterIonCode
+EnterJitCode
 enter_
 ;
 void
@@ -5281,7 +5281,7 @@ parallelIonScript
 (
 )
 ;
-IonCode
+JitCode
 *
 code
 =

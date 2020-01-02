@@ -104,7 +104,7 @@ AllMask
 )
 )
 ;
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -1592,7 +1592,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -1613,7 +1613,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -1627,7 +1627,7 @@ return
 code
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -1789,7 +1789,7 @@ InvalidationBailoutStack
 rsp
 )
 ;
-IonCode
+JitCode
 *
 bailoutTail
 =
@@ -1823,7 +1823,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -1844,7 +1844,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -1858,7 +1858,7 @@ return
 code
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -2239,7 +2239,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -2260,7 +2260,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -2465,7 +2465,7 @@ void
 rsp
 )
 ;
-IonCode
+JitCode
 *
 bailoutTail
 =
@@ -2494,7 +2494,7 @@ bailoutTail
 )
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -2521,7 +2521,7 @@ tables
 )
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -2549,7 +2549,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -2570,7 +2570,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -2584,7 +2584,7 @@ return
 code
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -3460,7 +3460,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 wrapper
 =
@@ -3489,7 +3489,7 @@ nullptr
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 wrapper
 "
@@ -3520,7 +3520,7 @@ return
 wrapper
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -3674,7 +3674,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -3695,7 +3695,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -3739,7 +3739,7 @@ HandleDebugTrapFn
 HandleDebugTrap
 )
 ;
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -3822,7 +3822,7 @@ masm
 scratch3
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -3952,7 +3952,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 codeDbg
 =
@@ -3973,7 +3973,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 codeDbg
 "
@@ -3987,7 +3987,7 @@ return
 codeDbg
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -4014,7 +4014,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -4035,7 +4035,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "
@@ -4049,7 +4049,7 @@ return
 code
 ;
 }
-IonCode
+JitCode
 *
 JitRuntime
 :
@@ -4078,7 +4078,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -4099,7 +4099,7 @@ OTHER_CODE
 #
 ifdef
 JS_ION_PERF
-writePerfSpewerIonCodeProfile
+writePerfSpewerJitCodeProfile
 (
 code
 "

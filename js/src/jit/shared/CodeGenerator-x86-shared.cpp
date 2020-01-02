@@ -1942,7 +1942,7 @@ frameSize
 )
 )
 ;
-IonCode
+JitCode
 *
 handler
 =
@@ -1974,7 +1974,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 }
@@ -9933,7 +9933,7 @@ uintptr_t
 )
 )
 ;
-IonCode
+JitCode
 *
 thunk
 =

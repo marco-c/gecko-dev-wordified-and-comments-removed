@@ -76,7 +76,7 @@ MacroAssembler
 &
 masm
 ;
-IonCode
+JitCode
 *
 fail
 (
@@ -99,7 +99,7 @@ template
 AllowGC
 allowGC
 >
-IonCode
+JitCode
 *
 newCode
 (
@@ -201,7 +201,7 @@ bytesNeeded
 +
 sizeof
 (
-IonCode
+JitCode
 *
 )
 +
@@ -258,7 +258,7 @@ result
 +
 sizeof
 (
-IonCode
+JitCode
 *
 )
 ;
@@ -284,11 +284,11 @@ codeStart
 -
 result
 ;
-IonCode
+JitCode
 *
 code
 =
-IonCode
+JitCode
 :
 :
 New
@@ -399,7 +399,7 @@ template
 AllowGC
 allowGC
 >
-IonCode
+JitCode
 *
 newCode
 (
@@ -440,7 +440,7 @@ kind
 )
 ;
 }
-IonCode
+JitCode
 *
 newCodeForIonScript
 (

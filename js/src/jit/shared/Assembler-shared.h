@@ -995,7 +995,7 @@ enum
 Kind
 {
 HARDCODED
-IONCODE
+JITCODE
 }
 ;
 }
@@ -1872,7 +1872,7 @@ endif
 }
 CodeLocationJump
 (
-IonCode
+JitCode
 *
 code
 CodeOffsetJump
@@ -1935,7 +1935,7 @@ endif
 void
 repoint
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler
@@ -2102,7 +2102,7 @@ setUninitialized
 }
 CodeLocationLabel
 (
-IonCode
+JitCode
 *
 code
 CodeOffsetLabel
@@ -2122,7 +2122,7 @@ code
 }
 CodeLocationLabel
 (
-IonCode
+JitCode
 *
 code
 )
@@ -2203,7 +2203,7 @@ raw_
 void
 repoint
 (
-IonCode
+JitCode
 *
 code
 MacroAssembler

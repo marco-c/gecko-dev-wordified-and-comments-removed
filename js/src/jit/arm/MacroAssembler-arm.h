@@ -3288,7 +3288,7 @@ CallReg
 void
 call
 (
-IonCode
+JitCode
 *
 c
 )
@@ -3317,7 +3317,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 RelocStyle
@@ -3363,7 +3363,7 @@ ScratchRegister
 void
 branch
 (
-IonCode
+JitCode
 *
 c
 )
@@ -3392,7 +3392,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 RelocStyle
@@ -3768,7 +3768,7 @@ label
 CodeOffsetLabel
 toggledCall
 (
-IonCode
+JitCode
 *
 target
 bool
@@ -7758,7 +7758,7 @@ offset
 void
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 )
@@ -7766,7 +7766,7 @@ target
 void
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 Register

@@ -848,7 +848,7 @@ kind
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 writeRelocation
 (
@@ -925,7 +925,7 @@ TraceJumpRelocations
 JSTracer
 *
 trc
-IonCode
+JitCode
 *
 code
 CompactBufferReader
@@ -2166,7 +2166,7 @@ reloc
 void
 jmp
 (
-IonCode
+JitCode
 *
 target
 )
@@ -2185,7 +2185,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 }
@@ -2194,7 +2194,7 @@ j
 (
 Condition
 cond
-IonCode
+JitCode
 *
 target
 )
@@ -2214,14 +2214,14 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 }
 void
 call
 (
-IonCode
+JitCode
 *
 target
 )
@@ -2250,7 +2250,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 }
@@ -2325,7 +2325,7 @@ eax
 CodeOffsetLabel
 toggledCall
 (
-IonCode
+JitCode
 *
 target
 bool
@@ -2372,7 +2372,7 @@ raw
 Relocation
 :
 :
-IONCODE
+JITCODE
 )
 ;
 JS_ASSERT

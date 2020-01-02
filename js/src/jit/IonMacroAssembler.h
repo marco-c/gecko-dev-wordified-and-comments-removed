@@ -3354,7 +3354,7 @@ jitRuntime
 (
 )
 ;
-IonCode
+JitCode
 *
 preBarrier
 =
@@ -4297,7 +4297,7 @@ f
 void
 enterFakeExitFrame
 (
-IonCode
+JitCode
 *
 codeVal
 =
@@ -4380,7 +4380,7 @@ Register
 slice
 Register
 scratch
-IonCode
+JitCode
 *
 codeVal
 =
@@ -4396,7 +4396,7 @@ Register
 scratch
 ExecutionMode
 executionMode
-IonCode
+JitCode
 *
 codeVal
 =
@@ -4439,7 +4439,7 @@ offset
 void
 link
 (
-IonCode
+JitCode
 *
 code
 )
@@ -4604,7 +4604,7 @@ ret
 uint32_t
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 )
@@ -4639,7 +4639,7 @@ ret
 uint32_t
 callWithExitFrame
 (
-IonCode
+JitCode
 *
 target
 Register

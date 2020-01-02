@@ -1425,7 +1425,7 @@ name
 void
 updateCode
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -1466,7 +1466,7 @@ ICStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 )
@@ -1513,7 +1513,7 @@ Kind
 kind
 Trait
 trait
-IonCode
+JitCode
 *
 stubCode
 )
@@ -2046,14 +2046,14 @@ next_
 ;
 }
 inline
-IonCode
+JitCode
 *
-ionCode
+jitCode
 (
 )
 {
 return
-IonCode
+JitCode
 :
 :
 FromExecutable
@@ -2347,7 +2347,7 @@ ICFallbackStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 )
@@ -2381,7 +2381,7 @@ Kind
 kind
 Trait
 trait
-IonCode
+JitCode
 *
 stubCode
 )
@@ -2743,7 +2743,7 @@ ICMonitoredStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -2849,7 +2849,7 @@ ICMonitoredFallbackStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 )
@@ -2949,7 +2949,7 @@ ICUpdatedStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 )
@@ -3284,7 +3284,7 @@ MacroAssembler
 masm
 Handle
 <
-IonCode
+JitCode
 *
 >
 genCode
@@ -3294,7 +3294,7 @@ return
 true
 ;
 }
-IonCode
+JitCode
 *
 getStubCode
 (
@@ -3714,7 +3714,7 @@ ICStubSpace
 ;
 ICUseCount_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -3740,7 +3740,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -3839,7 +3839,7 @@ ICStubSpace
 ;
 ICProfiler_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -3865,7 +3865,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -3974,7 +3974,7 @@ script_
 ;
 ICProfiler_PushFunction
 (
-IonCode
+JitCode
 *
 stubCode
 const
@@ -3996,7 +3996,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 const
@@ -4221,7 +4221,7 @@ TypeCheckPrimitiveSetStub
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 uint16_t
@@ -4275,7 +4275,7 @@ updateTypesAndCode
 (
 uint16_t
 flags
-IonCode
+JitCode
 *
 code
 )
@@ -4589,7 +4589,7 @@ BYTECODE_INDEX
 ;
 ICTypeMonitor_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 ICMonitoredFallbackStub
@@ -4749,7 +4749,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICMonitoredFallbackStub
@@ -5161,7 +5161,7 @@ ICStubSpace
 ;
 ICTypeMonitor_PrimitiveSet
 (
-IonCode
+JitCode
 *
 stubCode
 uint16_t
@@ -5187,7 +5187,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 uint16_t
@@ -5349,7 +5349,7 @@ obj_
 ;
 ICTypeMonitor_SingleObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleObject
@@ -5367,7 +5367,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleObject
@@ -5503,7 +5503,7 @@ type_
 ;
 ICTypeMonitor_TypeObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -5521,7 +5521,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleTypeObject
@@ -5659,7 +5659,7 @@ ICStubSpace
 ;
 ICTypeUpdate_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -5685,7 +5685,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -5784,7 +5784,7 @@ ICStubSpace
 ;
 ICTypeUpdate_PrimitiveSet
 (
-IonCode
+JitCode
 *
 stubCode
 uint16_t
@@ -5810,7 +5810,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 uint16_t
@@ -5972,7 +5972,7 @@ obj_
 ;
 ICTypeUpdate_SingleObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleObject
@@ -5990,7 +5990,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleObject
@@ -6126,7 +6126,7 @@ type_
 ;
 ICTypeUpdate_TypeObject
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -6144,7 +6144,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleTypeObject
@@ -6277,7 +6277,7 @@ ICStubSpace
 ;
 ICThis_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -6303,7 +6303,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -6405,7 +6405,7 @@ templateObject_
 ;
 ICNewArray_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 JSObject
@@ -6438,7 +6438,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 JSObject
@@ -6564,7 +6564,7 @@ templateObject_
 ;
 ICNewObject_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 JSObject
@@ -6597,7 +6597,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 JSObject
@@ -6720,7 +6720,7 @@ ICStubSpace
 ;
 ICCompare_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -6753,7 +6753,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -6852,7 +6852,7 @@ ICStubSpace
 ;
 ICCompare_Int32
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -6878,7 +6878,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -6980,7 +6980,7 @@ ICStubSpace
 ;
 ICCompare_Double
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -7006,7 +7006,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -7108,7 +7108,7 @@ ICStubSpace
 ;
 ICCompare_NumberWithUndefined
 (
-IonCode
+JitCode
 *
 stubCode
 bool
@@ -7140,7 +7140,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 bool
@@ -7307,7 +7307,7 @@ ICStubSpace
 ;
 ICCompare_String
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -7333,7 +7333,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -7435,7 +7435,7 @@ ICStubSpace
 ;
 ICCompare_Boolean
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -7461,7 +7461,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -7563,7 +7563,7 @@ ICStubSpace
 ;
 ICCompare_Object
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -7589,7 +7589,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -7691,7 +7691,7 @@ ICStubSpace
 ;
 ICCompare_ObjectWithUndefined
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -7717,7 +7717,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -7893,7 +7893,7 @@ ICStubSpace
 ;
 ICCompare_Int32WithBoolean
 (
-IonCode
+JitCode
 *
 stubCode
 bool
@@ -7925,7 +7925,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 bool
@@ -8101,7 +8101,7 @@ ICStubSpace
 ;
 ICToBool_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -8134,7 +8134,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -8233,7 +8233,7 @@ ICStubSpace
 ;
 ICToBool_Int32
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -8259,7 +8259,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -8358,7 +8358,7 @@ ICStubSpace
 ;
 ICToBool_String
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -8384,7 +8384,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -8483,7 +8483,7 @@ ICStubSpace
 ;
 ICToBool_NullUndefined
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -8509,7 +8509,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -8608,7 +8608,7 @@ ICStubSpace
 ;
 ICToBool_Double
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -8634,7 +8634,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -8733,7 +8733,7 @@ ICStubSpace
 ;
 ICToBool_Object
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -8759,7 +8759,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -8858,7 +8858,7 @@ ICStubSpace
 ;
 ICToNumber_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -8884,7 +8884,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -8983,7 +8983,7 @@ ICStubSpace
 ;
 ICBinaryArith_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -9031,7 +9031,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -9194,7 +9194,7 @@ ICStubSpace
 ;
 ICBinaryArith_Int32
 (
-IonCode
+JitCode
 *
 stubCode
 bool
@@ -9223,7 +9223,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 bool
@@ -9399,7 +9399,7 @@ ICStubSpace
 ;
 ICBinaryArith_StringConcat
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -9422,7 +9422,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -9521,7 +9521,7 @@ ICStubSpace
 ;
 ICBinaryArith_StringObjectConcat
 (
-IonCode
+JitCode
 *
 stubCode
 bool
@@ -9550,7 +9550,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 bool
@@ -9702,7 +9702,7 @@ ICStubSpace
 ;
 ICBinaryArith_Double
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -9725,7 +9725,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -9827,7 +9827,7 @@ ICStubSpace
 ;
 ICBinaryArith_BooleanWithInt32
 (
-IonCode
+JitCode
 *
 stubCode
 bool
@@ -9884,7 +9884,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 bool
@@ -10138,7 +10138,7 @@ ICStubSpace
 ;
 ICBinaryArith_DoubleWithInt32
 (
-IonCode
+JitCode
 *
 stubCode
 bool
@@ -10167,7 +10167,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 bool
@@ -10335,7 +10335,7 @@ ICStubSpace
 ;
 ICUnaryArith_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -10369,7 +10369,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -10487,7 +10487,7 @@ ICStubSpace
 ;
 ICUnaryArith_Int32
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -10510,7 +10510,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -10612,7 +10612,7 @@ ICStubSpace
 ;
 ICUnaryArith_Double
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -10635,7 +10635,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -10737,7 +10737,7 @@ ICStubSpace
 ;
 ICGetElem_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -10784,7 +10784,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -11026,7 +11026,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11157,7 +11157,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11268,7 +11268,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11342,7 +11342,7 @@ ICStubSpace
 ;
 ICGetElem_NativeSlot
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11387,7 +11387,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -11452,7 +11452,7 @@ holderShape_
 ;
 ICGetElem_NativePrototypeSlot
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11485,7 +11485,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -11611,7 +11611,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11699,7 +11699,7 @@ ICStubSpace
 ;
 ICGetElem_NativePrototypeCallNative
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11750,7 +11750,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -11818,7 +11818,7 @@ ICStubSpace
 ;
 ICGetElem_NativePrototypeCallScripted
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -11869,7 +11869,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -12475,7 +12475,7 @@ ICStubSpace
 ;
 ICGetElem_String
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -12501,7 +12501,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -12603,7 +12603,7 @@ shape_
 ;
 ICGetElem_Dense
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -12624,7 +12624,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -12838,7 +12838,7 @@ shape_
 ;
 ICGetElem_TypedArray
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -12858,7 +12858,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleShape
@@ -13051,7 +13051,7 @@ private
 :
 ICGetElem_Arguments
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -13093,7 +13093,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -13316,7 +13316,7 @@ ICStubSpace
 ;
 ICSetElem_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -13349,7 +13349,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -13483,7 +13483,7 @@ type_
 ;
 ICSetElem_Dense
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -13503,7 +13503,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleShape
@@ -13723,7 +13723,7 @@ type_
 ;
 ICSetElem_DenseAdd
 (
-IonCode
+JitCode
 *
 stubCode
 types
@@ -13871,7 +13871,7 @@ shapes_
 ;
 ICSetElem_DenseAddImpl
 (
-IonCode
+JitCode
 *
 stubCode
 types
@@ -13949,7 +13949,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 types
@@ -14213,7 +14213,7 @@ shape_
 ;
 ICSetElem_TypedArray
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -14235,7 +14235,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleShape
@@ -14471,7 +14471,7 @@ ICStubSpace
 ;
 ICIn_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -14497,7 +14497,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -14596,7 +14596,7 @@ ICStubSpace
 ;
 ICGetName_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -14629,7 +14629,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -14761,7 +14761,7 @@ slot_
 ;
 ICGetName_Global
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -14784,7 +14784,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -14992,7 +14992,7 @@ offset_
 ;
 ICGetName_Scope
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -15033,7 +15033,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -15312,7 +15312,7 @@ ICStubSpace
 ;
 ICBindName_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -15338,7 +15338,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -15437,7 +15437,7 @@ ICStubSpace
 ;
 ICGetIntrinsic_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -15463,7 +15463,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -15590,7 +15590,7 @@ value_
 ;
 ICGetIntrinsic_Constant
 (
-IonCode
+JitCode
 *
 stubCode
 HandleValue
@@ -15613,7 +15613,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleValue
@@ -15747,7 +15747,7 @@ ICStubSpace
 ;
 ICGetProp_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -15780,7 +15780,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -15931,7 +15931,7 @@ MacroAssembler
 masm
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -16019,7 +16019,7 @@ ICStubSpace
 ;
 ICGetProp_ArrayLength
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -16042,7 +16042,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -16139,7 +16139,7 @@ ICStubSpace
 ;
 ICGetProp_TypedArrayLength
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -16162,7 +16162,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -16267,7 +16267,7 @@ offset_
 ;
 ICGetProp_Primitive
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -16290,7 +16290,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -16562,7 +16562,7 @@ ICStubSpace
 ;
 ICGetProp_StringLength
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -16585,7 +16585,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -16691,7 +16691,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -16767,7 +16767,7 @@ ICStubSpace
 ;
 ICGetProp_Native
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -16800,7 +16800,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -16858,7 +16858,7 @@ holderShape_
 ;
 ICGetProp_NativePrototype
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -16885,7 +16885,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -17291,7 +17291,7 @@ ICGetPropCallGetter
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -17538,7 +17538,7 @@ protected
 :
 ICGetProp_CallScripted
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -17580,7 +17580,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -17752,7 +17752,7 @@ protected
 :
 ICGetProp_CallNative
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -17794,7 +17794,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -17993,7 +17993,7 @@ ICStub
 :
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -18190,7 +18190,7 @@ ICStubSpace
 ;
 ICGetProp_CallDOMProxyNative
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -18242,7 +18242,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -18315,7 +18315,7 @@ public
 :
 ICGetProp_CallDOMProxyWithGenerationNative
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -18378,7 +18378,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -18615,7 +18615,7 @@ pcOffset_
 ;
 ICGetProp_DOMProxyShadowed
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -18643,7 +18643,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -18880,7 +18880,7 @@ protected
 :
 ICGetProp_ArgumentsLength
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -18906,7 +18906,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -19044,7 +19044,7 @@ ICStubSpace
 ;
 ICSetProp_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -19077,7 +19077,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -19179,7 +19179,7 @@ MacroAssembler
 masm
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -19253,7 +19253,7 @@ offset_
 ;
 ICSetProp_Native
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -19275,7 +19275,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleTypeObject
@@ -19514,7 +19514,7 @@ offset_
 ;
 ICSetProp_NativeAdd
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -19677,7 +19677,7 @@ shapes_
 ;
 ICSetProp_NativeAddImpl
 (
-IonCode
+JitCode
 *
 stubCode
 HandleTypeObject
@@ -19703,7 +19703,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleTypeObject
@@ -20022,7 +20022,7 @@ ICSetPropCallSetter
 (
 Kind
 kind
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -20255,7 +20255,7 @@ protected
 :
 ICSetProp_CallScripted
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -20293,7 +20293,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleShape
@@ -20456,7 +20456,7 @@ protected
 :
 ICSetProp_CallNative
 (
-IonCode
+JitCode
 *
 stubCode
 HandleShape
@@ -20494,7 +20494,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 HandleShape
@@ -20776,7 +20776,7 @@ private
 :
 ICCall_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 bool
@@ -20817,7 +20817,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 bool
@@ -20937,7 +20937,7 @@ MacroAssembler
 masm
 Handle
 <
-IonCode
+JitCode
 *
 >
 code
@@ -21043,7 +21043,7 @@ pcOffset_
 ;
 ICCall_Scripted
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -21068,7 +21068,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -21174,7 +21174,7 @@ pcOffset_
 ;
 ICCall_AnyScripted
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -21210,7 +21210,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -21490,7 +21490,7 @@ pcOffset_
 ;
 ICCall_Native
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -21515,7 +21515,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -21772,7 +21772,7 @@ pcOffset_
 ;
 ICCall_ScriptedApplyArray
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -21808,7 +21808,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -21972,7 +21972,7 @@ pcOffset_
 ;
 ICCall_ScriptedApplyArguments
 (
-IonCode
+JitCode
 *
 stubCode
 ICStub
@@ -22008,7 +22008,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 ICStub
@@ -22184,7 +22184,7 @@ defaultTarget_
 ;
 ICTableSwitch
 (
-IonCode
+JitCode
 *
 stubCode
 void
@@ -22234,7 +22234,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 void
@@ -22354,7 +22354,7 @@ ICStubSpace
 ;
 ICIteratorNew_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -22380,7 +22380,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -22479,7 +22479,7 @@ ICStubSpace
 ;
 ICIteratorMore_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -22505,7 +22505,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -22604,7 +22604,7 @@ ICStubSpace
 ;
 ICIteratorMore_Native
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -22630,7 +22630,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -22729,7 +22729,7 @@ ICStubSpace
 ;
 ICIteratorNext_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -22755,7 +22755,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -22891,7 +22891,7 @@ ICStubSpace
 ;
 ICIteratorNext_Native
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -22917,7 +22917,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -23016,7 +23016,7 @@ ICStubSpace
 ;
 ICIteratorClose_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -23042,7 +23042,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -23141,7 +23141,7 @@ ICStubSpace
 ;
 ICInstanceOf_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -23167,7 +23167,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -23266,7 +23266,7 @@ ICStubSpace
 ;
 ICTypeOf_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -23292,7 +23292,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -23391,7 +23391,7 @@ ICStubSpace
 ;
 ICTypeOf_Typed
 (
-IonCode
+JitCode
 *
 stubCode
 JSType
@@ -23437,7 +23437,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 JSType
@@ -23605,7 +23605,7 @@ templateObject_
 ;
 ICRest_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 JSObject
@@ -23645,7 +23645,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 JSObject
@@ -23770,7 +23770,7 @@ ICStubSpace
 ;
 ICRetSub_Fallback
 (
-IonCode
+JitCode
 *
 stubCode
 )
@@ -23803,7 +23803,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 )
@@ -23911,7 +23911,7 @@ addr_
 ;
 ICRetSub_Resume
 (
-IonCode
+JitCode
 *
 stubCode
 uint32_t
@@ -23949,7 +23949,7 @@ New
 ICStubSpace
 *
 space
-IonCode
+JitCode
 *
 code
 uint32_t

@@ -236,7 +236,7 @@ current
 SnapshotWriter
 snapshots_
 ;
-IonCode
+JitCode
 *
 deoptTable_
 ;

@@ -388,7 +388,7 @@ macro
 (
 Other
 IsLiveGCThing
-ionCodesGCHeap
+jitCodesGCHeap
 )
 \
 macro

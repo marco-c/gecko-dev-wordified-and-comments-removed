@@ -699,12 +699,12 @@ lazyscript
 break
 ;
 case
-JSTRACE_IONCODE
+JSTRACE_JITCODE
 :
 name
 =
 "
-ioncode
+jitcode
 "
 ;
 break
@@ -1144,7 +1144,7 @@ case
 JSTRACE_LAZY_SCRIPT
 :
 case
-JSTRACE_IONCODE
+JSTRACE_JITCODE
 :
 case
 JSTRACE_SHAPE

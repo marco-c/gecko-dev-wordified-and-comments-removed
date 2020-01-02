@@ -67,7 +67,7 @@ namespace
 jit
 {
 class
-IonCode
+JitCode
 ;
 class
 IonScript
@@ -294,11 +294,11 @@ UnownedBaseShape
 )
 DeclMarker
 (
-IonCode
+JitCode
 jit
 :
 :
-IonCode
+JitCode
 )
 DeclMarker
 (
@@ -956,7 +956,7 @@ HeapPtr
 jit
 :
 :
-IonCode
+JitCode
 >
 *
 code
@@ -966,7 +966,7 @@ char
 name
 )
 {
-MarkIonCode
+MarkJitCode
 (
 trc
 code
@@ -1210,13 +1210,13 @@ js
 jit
 :
 :
-IonCode
+JitCode
 >
 code
 )
 {
 return
-IsIonCodeAboutToBeFinalized
+IsJitCodeAboutToBeFinalized
 (
 code
 .

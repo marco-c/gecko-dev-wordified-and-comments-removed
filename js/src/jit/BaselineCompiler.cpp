@@ -543,7 +543,7 @@ linker
 masm
 )
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -3382,7 +3382,7 @@ hasBreakpointsAt
 pc
 )
 ;
-IonCode
+JitCode
 *
 handler
 =

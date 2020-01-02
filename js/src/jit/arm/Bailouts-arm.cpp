@@ -175,7 +175,7 @@ void
 )
 ]
 ;
-IonCode
+JitCode
 *
 code
 =
@@ -695,7 +695,7 @@ runtimeFromMainThread
 (
 )
 ;
-IonCode
+JitCode
 *
 code
 =

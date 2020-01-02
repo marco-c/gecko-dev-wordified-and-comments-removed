@@ -804,7 +804,7 @@ footer
 )
 -
 >
-ionCode
+jitCode
 (
 )
 =
@@ -842,7 +842,7 @@ footer
 )
 -
 >
-ionCode
+jitCode
 (
 )
 =
@@ -880,7 +880,7 @@ footer
 )
 -
 >
-ionCode
+jitCode
 (
 )
 =
@@ -918,7 +918,7 @@ footer
 )
 -
 >
-ionCode
+jitCode
 (
 )
 =
@@ -5260,7 +5260,7 @@ uintptr_t
 footer
 -
 >
-ionCode
+jitCode
 (
 )
 )
@@ -5367,7 +5367,7 @@ oolNativeExit
 gc
 :
 :
-MarkIonCodeRoot
+MarkJitCodeRoot
 (
 trc
 oolnative
@@ -5476,7 +5476,7 @@ oolPropertyOpExit
 gc
 :
 :
-MarkIonCodeRoot
+MarkJitCodeRoot
 (
 trc
 oolgetter
@@ -5603,7 +5603,7 @@ oolProxyExit
 gc
 :
 :
-MarkIonCodeRoot
+MarkJitCodeRoot
 (
 trc
 oolproxy
@@ -5854,13 +5854,13 @@ args
 return
 ;
 }
-MarkIonCodeRoot
+MarkJitCodeRoot
 (
 trc
 footer
 -
 >
-addressOfIonCode
+addressOfJitCode
 (
 )
 "

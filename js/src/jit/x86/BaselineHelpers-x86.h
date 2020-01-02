@@ -260,7 +260,7 @@ inline
 void
 EmitTailCallVM
 (
-IonCode
+JitCode
 *
 target
 MacroAssembler
@@ -423,7 +423,7 @@ inline
 void
 EmitCallVM
 (
-IonCode
+JitCode
 *
 target
 MacroAssembler
@@ -924,7 +924,7 @@ EmitCallTypeUpdateIC
 MacroAssembler
 &
 masm
-IonCode
+JitCode
 *
 code
 uint32_t

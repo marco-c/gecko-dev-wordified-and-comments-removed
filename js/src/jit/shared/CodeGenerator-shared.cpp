@@ -3413,7 +3413,7 @@ pushedArgs_
 ;
 #
 endif
-IonCode
+JitCode
 *
 wrapper
 =
