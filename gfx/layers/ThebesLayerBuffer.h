@@ -1172,12 +1172,12 @@ nsIntSize
 aSize
 )
 ;
-void
+bool
 EnsureBuffer
 (
 )
 ;
-void
+bool
 EnsureBufferOnWhite
 (
 )
