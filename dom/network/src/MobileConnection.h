@@ -70,6 +70,8 @@ nsDOMEventTargetHelper
 )
 MobileConnection
 (
+uint32_t
+aClientId
 )
 ;
 void
@@ -116,7 +118,7 @@ CheckPermission
 const
 char
 *
-type
+aType
 )
 ;
 }
