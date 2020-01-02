@@ -1838,11 +1838,17 @@ return
 entryResumePoint
 (
 )
+?
+entryResumePoint
+(
+)
 -
 >
 caller
 (
 )
+:
+nullptr
 ;
 }
 void
