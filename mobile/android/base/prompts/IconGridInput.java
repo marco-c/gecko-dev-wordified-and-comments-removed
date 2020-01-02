@@ -235,8 +235,6 @@ mIconSize
 private
 int
 mSelected
-=
-0
 ;
 private
 JSONArray

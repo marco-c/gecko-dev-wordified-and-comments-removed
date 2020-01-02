@@ -72,8 +72,6 @@ private
 static
 boolean
 mRecordingFrames
-=
-false
 ;
 private
 static
@@ -92,8 +90,6 @@ private
 static
 boolean
 mRecordingCheckerboard
-=
-false
 ;
 private
 static

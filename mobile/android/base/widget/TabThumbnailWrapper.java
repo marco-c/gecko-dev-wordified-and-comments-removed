@@ -46,8 +46,6 @@ FrameLayout
 private
 boolean
 mRecording
-=
-false
 ;
 private
 static

@@ -269,8 +269,6 @@ mFrom
 private
 boolean
 mRefreshing
-=
-false
 ;
 private
 int
@@ -294,14 +292,10 @@ mMediumAnimationDuration
 private
 float
 mFromPercentage
-=
-0
 ;
 private
 float
 mCurrPercentage
-=
-0
 ;
 private
 int

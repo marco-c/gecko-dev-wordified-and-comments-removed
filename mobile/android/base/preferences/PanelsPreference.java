@@ -211,8 +211,6 @@ preferenceView
 protected
 boolean
 mIsHidden
-=
-false
 ;
 private
 boolean

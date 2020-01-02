@@ -126,8 +126,6 @@ protected
 static
 Allocator
 sInstance
-=
-null
 ;
 public
 static

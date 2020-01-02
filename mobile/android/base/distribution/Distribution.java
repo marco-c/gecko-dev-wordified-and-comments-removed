@@ -598,8 +598,6 @@ STATE_UNKNOWN
 private
 File
 distributionDir
-=
-null
 ;
 private
 final

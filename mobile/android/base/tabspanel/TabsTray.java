@@ -313,14 +313,10 @@ mPendingClosedTabs
 private
 int
 mCloseAnimationCount
-=
-0
 ;
 private
 int
 mCloseAllAnimationCount
-=
-0
 ;
 private
 TabSwipeGestureListener
@@ -345,8 +341,6 @@ ANIMATION_CASCADE_DELAY
 private
 int
 mOriginalSize
-=
-0
 ;
 public
 TabsTray

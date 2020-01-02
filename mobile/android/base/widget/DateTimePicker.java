@@ -241,8 +241,6 @@ true
 private
 boolean
 mWeekEnabled
-=
-false
 ;
 private
 boolean
@@ -265,8 +263,6 @@ true
 private
 boolean
 mCalendarEnabled
-=
-false
 ;
 private
 boolean

@@ -84,8 +84,6 @@ ANIMATION_DURATION
 private
 boolean
 mAnimating
-=
-false
 ;
 public
 AnimatedHeightLayout

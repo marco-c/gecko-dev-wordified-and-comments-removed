@@ -318,8 +318,6 @@ private
 static
 boolean
 mInitialized
-=
-false
 ;
 PromptListAdapter
 (

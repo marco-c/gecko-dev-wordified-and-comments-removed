@@ -137,8 +137,6 @@ mMediaStop
 private
 boolean
 mInflated
-=
-false
 ;
 public
 MediaCastingBar

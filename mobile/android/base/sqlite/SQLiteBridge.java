@@ -109,8 +109,6 @@ protected
 volatile
 long
 mDbPointer
-=
-0L
 ;
 private
 long
@@ -121,14 +119,10 @@ mQueryResults
 private
 boolean
 mTransactionSuccess
-=
-false
 ;
 private
 boolean
 mInTransaction
-=
-false
 ;
 private
 static

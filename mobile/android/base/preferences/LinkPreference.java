@@ -45,8 +45,6 @@ Preference
 private
 String
 mUrl
-=
-null
 ;
 public
 LinkPreference

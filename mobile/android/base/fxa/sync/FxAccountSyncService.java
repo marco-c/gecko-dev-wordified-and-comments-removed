@@ -51,8 +51,6 @@ private
 static
 FxAccountSyncAdapter
 syncAdapter
-=
-null
 ;
 Override
 public

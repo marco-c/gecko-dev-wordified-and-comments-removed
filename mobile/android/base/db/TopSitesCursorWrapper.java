@@ -290,8 +290,6 @@ currentPosition
 private
 int
 pinnedBefore
-=
-0
 ;
 private
 int

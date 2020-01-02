@@ -12,8 +12,6 @@ static
 private
 ISmsManager
 sInstance
-=
-null
 ;
 static
 public

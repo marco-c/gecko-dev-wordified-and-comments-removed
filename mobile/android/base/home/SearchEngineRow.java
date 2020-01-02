@@ -256,8 +256,6 @@ mEditSuggestionListener
 private
 int
 mSelectedView
-=
-0
 ;
 public
 SearchEngineRow

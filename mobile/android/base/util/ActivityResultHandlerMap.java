@@ -37,8 +37,6 @@ ActivityResultHandler
 private
 int
 mCounter
-=
-0
 ;
 public
 synchronized

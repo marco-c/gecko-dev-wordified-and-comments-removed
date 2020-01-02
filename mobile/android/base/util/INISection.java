@@ -66,8 +66,6 @@ INIParser
 private
 String
 mName
-=
-null
 ;
 public
 String
@@ -95,8 +93,6 @@ name
 private
 boolean
 mDebug
-=
-false
 ;
 protected
 Hashtable

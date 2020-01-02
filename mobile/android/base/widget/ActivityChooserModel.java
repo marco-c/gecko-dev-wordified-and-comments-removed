@@ -528,8 +528,6 @@ true
 private
 boolean
 mReadShareHistoryCalled
-=
-false
 ;
 private
 boolean
@@ -540,8 +538,6 @@ true
 private
 boolean
 mReloadActivities
-=
-false
 ;
 private
 OnChooseActivityListener

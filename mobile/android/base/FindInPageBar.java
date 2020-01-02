@@ -140,8 +140,6 @@ mFindText
 private
 boolean
 mInflated
-=
-false
 ;
 public
 FindInPageBar

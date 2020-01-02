@@ -326,8 +326,6 @@ private
 static
 boolean
 sMigrationDone
-=
-false
 ;
 public
 HomeConfigPrefsBackend

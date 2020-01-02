@@ -657,8 +657,6 @@ private
 static
 boolean
 sStarted
-=
-false
 ;
 private
 static
@@ -698,8 +696,6 @@ private
 static
 Timer
 sPollTimer
-=
-null
 ;
 private
 AndroidGamepadManager

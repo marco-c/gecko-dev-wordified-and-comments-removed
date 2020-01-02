@@ -465,8 +465,6 @@ mClearableNotifications
 private
 boolean
 mInitialized
-=
-false
 ;
 private
 static

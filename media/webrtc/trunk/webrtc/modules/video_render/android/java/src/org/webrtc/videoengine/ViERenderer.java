@@ -96,8 +96,6 @@ private
 static
 SurfaceHolder
 g_localRenderer
-=
-null
 ;
 public
 static

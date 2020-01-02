@@ -311,8 +311,6 @@ mType
 private
 boolean
 mIsDirty
-=
-false
 ;
 private
 int

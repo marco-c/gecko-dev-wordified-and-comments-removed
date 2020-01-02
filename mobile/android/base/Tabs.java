@@ -289,8 +289,6 @@ mAccountManager
 private
 OnAccountsUpdateListener
 mAccountListener
-=
-null
 ;
 public
 static

@@ -35,8 +35,6 @@ private
 volatile
 boolean
 mCancelled
-=
-false
 ;
 private
 final

@@ -371,8 +371,6 @@ private
 volatile
 int
 mRecordingCount
-=
-0
 ;
 private
 String

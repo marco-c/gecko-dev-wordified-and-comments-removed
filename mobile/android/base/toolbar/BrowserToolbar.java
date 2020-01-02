@@ -698,14 +698,10 @@ tabletDisplayModeViews
 private
 boolean
 hidForwardButtonOnStartEditing
-=
-false
 ;
 private
 boolean
 shouldShrinkURLBar
-=
-false
 ;
 private
 OnActivateListener

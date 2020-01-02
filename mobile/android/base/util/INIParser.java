@@ -80,8 +80,6 @@ INISection
 private
 File
 mFile
-=
-null
 ;
 private
 Hashtable

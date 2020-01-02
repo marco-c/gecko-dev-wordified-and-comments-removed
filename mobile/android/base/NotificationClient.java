@@ -72,8 +72,6 @@ mHandler
 private
 boolean
 mReady
-=
-false
 ;
 private
 final

@@ -41,8 +41,6 @@ GeckoActivityStatus
 private
 boolean
 mGeckoActivityOpened
-=
-false
 ;
 public
 void

@@ -195,14 +195,10 @@ CONNECTIVITY_ACTION
 private
 boolean
 mShouldBeListening
-=
-false
 ;
 private
 boolean
 mShouldNotify
-=
-false
 ;
 private
 volatile

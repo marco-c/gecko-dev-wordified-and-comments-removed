@@ -85,8 +85,6 @@ WebRtcAudioRecord
 private
 AudioRecord
 _audioRecord
-=
-null
 ;
 private
 Context
@@ -121,14 +119,10 @@ true
 private
 boolean
 _isRecording
-=
-false
 ;
 private
 int
 _bufferedRecSamples
-=
-0
 ;
 WebRtcAudioRecord
 (
