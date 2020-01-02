@@ -1,9 +1,9 @@
-#
-filter
-substitution
 prefix
 =
 prefix
+exec_prefix
+=
+exec_prefix
 libdir
 =
 libdir
@@ -38,7 +38,7 @@ libdir
 }
 -
 l
-LIBRARY_NAME
+JS_LIBRARY_NAME
 Cflags
 :
 -
@@ -47,7 +47,7 @@ include
 includedir
 }
 /
-LIBRARY_NAME
+JS_LIBRARY_NAME
 /
 js
 /
@@ -60,4 +60,4 @@ I
 includedir
 }
 /
-LIBRARY_NAME
+JS_LIBRARY_NAME
