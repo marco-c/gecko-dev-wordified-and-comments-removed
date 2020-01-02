@@ -368,15 +368,6 @@ PreallocatedProcessReady
 )
 ;
 static
-void
-RunAfterPreallocatedProcessReady
-(
-nsIRunnable
-*
-aRequest
-)
-;
-static
 already_AddRefed
 <
 ContentParent

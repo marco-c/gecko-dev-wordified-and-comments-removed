@@ -122,15 +122,6 @@ PreallocatedProcessReady
 (
 )
 ;
-static
-void
-RunAfterPreallocatedProcessReady
-(
-nsIRunnable
-*
-aRunnable
-)
-;
 #
 endif
 private
