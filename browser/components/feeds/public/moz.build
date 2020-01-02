@@ -103,11 +103,6 @@ nsIFeedResultService
 idl
 '
 '
-nsIFeedWriter
-.
-idl
-'
-'
 nsIWebContentConverterRegistrar
 .
 idl
