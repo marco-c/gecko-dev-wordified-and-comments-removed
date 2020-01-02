@@ -610,6 +610,16 @@ false
 pref
 (
 "
+dom
+.
+compartment_per_addon
+"
+false
+)
+;
+pref
+(
+"
 browser
 .
 sessionhistory
