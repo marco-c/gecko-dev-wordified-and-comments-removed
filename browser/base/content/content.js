@@ -1249,7 +1249,7 @@ aEvent
 {
 if
 (
-event
+aEvent
 .
 target
 .
@@ -1291,14 +1291,14 @@ true
 ;
 if
 (
-event
+aEvent
 .
 target
 .
 documentElement
 )
 {
-event
+aEvent
 .
 target
 .
