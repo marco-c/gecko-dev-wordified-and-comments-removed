@@ -1030,6 +1030,13 @@ ShadowLayerUtilsX11
 .
 h
 '
+'
+opengl
+/
+X11TextureSourceOGL
+.
+h
+'
 ]
 SOURCES
 +
@@ -1060,6 +1067,13 @@ cpp
 ipc
 /
 ShadowLayerUtilsX11
+.
+cpp
+'
+'
+opengl
+/
+X11TextureSourceOGL
 .
 cpp
 '
