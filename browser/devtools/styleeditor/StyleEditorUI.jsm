@@ -1046,16 +1046,6 @@ if
 file
 )
 {
-this
-.
-emit
-(
-"
-error
-"
-LOAD_ERROR
-)
-;
 return
 ;
 }
