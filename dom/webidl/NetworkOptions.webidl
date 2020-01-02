@@ -145,8 +145,9 @@ removeNetworkRoute
 setWifiTethering
 "
 .
-DOMString
-netmask
+unsigned
+long
+prefixLength
 ;
 /
 /
