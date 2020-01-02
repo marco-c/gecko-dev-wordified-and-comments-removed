@@ -2718,7 +2718,7 @@ if
 (
 module
 .
-containsPC
+containsFunctionPC
 (
 (
 void
@@ -2742,7 +2742,7 @@ get_pc
 &
 module
 .
-containsPC
+containsFunctionPC
 (
 faultingAddress
 )
@@ -3736,7 +3736,7 @@ if
 !
 module
 .
-containsPC
+containsFunctionPC
 (
 pc
 )
@@ -3748,7 +3748,7 @@ if
 (
 module
 .
-containsPC
+containsFunctionPC
 (
 faultingAddress
 )
@@ -5099,7 +5099,7 @@ if
 !
 module
 .
-containsPC
+containsFunctionPC
 (
 pc
 )
@@ -5111,7 +5111,7 @@ if
 (
 module
 .
-containsPC
+containsFunctionPC
 (
 faultingAddress
 )
@@ -6173,7 +6173,7 @@ if
 !
 module
 .
-containsPC
+containsFunctionPC
 (
 pc
 )
@@ -6185,7 +6185,7 @@ if
 (
 module
 .
-containsPC
+containsFunctionPC
 (
 faultingAddress
 )

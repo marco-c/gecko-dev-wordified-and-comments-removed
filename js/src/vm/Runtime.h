@@ -2043,6 +2043,7 @@ js
 :
 AsmJSActivation
 *
+volatile
 asmJSActivationStack_
 ;
 js

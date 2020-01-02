@@ -607,6 +607,16 @@ h
 /
 public
 /
+ProfilingFrameIterator
+.
+h
+'
+'
+.
+.
+/
+public
+/
 ProfilingStack
 .
 h
