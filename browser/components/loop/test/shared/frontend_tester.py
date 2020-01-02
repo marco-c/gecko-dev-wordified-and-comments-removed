@@ -198,6 +198,15 @@ self
 setUp
 (
 )
+        
+self
+.
+marionette
+.
+set_search_timeout
+(
+10000
+)
     
 def
 set_server_prefix
