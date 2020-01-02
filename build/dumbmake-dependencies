@@ -55,6 +55,7 @@ parser
 js
 /
 src
+mfbt
 js
 /
 xpconnect
@@ -63,7 +64,6 @@ js
 xpconnect
 /
 loader
-mfbt
 view
 caps
 xpfe
