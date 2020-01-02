@@ -11,6 +11,8 @@ shutil
 import
 subprocess
 import
+sys
+import
 tempfile
 import
 time
@@ -50,7 +52,6 @@ from
 errors
 import
 TimeoutException
-ScriptTimeoutException
 class
 ArchContext
 (
@@ -1587,8 +1588,31 @@ isSystemMessageListenerReady
 )
         
 except
-ScriptTimeoutException
 :
+            
+exc_name
+=
+sys
+.
+exc_info
+(
+)
+[
+0
+]
+.
+__name__
+            
+if
+exc_name
+!
+=
+'
+ScriptTimeoutException
+'
+:
+                
+raise
             
 print
 '
