@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsNSSComponent
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

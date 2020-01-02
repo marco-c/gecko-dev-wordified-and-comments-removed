@@ -16,7 +16,7 @@ include
 "
 insanity
 /
-ScopedPtr
+pkixtypes
 .
 h
 "
@@ -66,8 +66,13 @@ Flags
 flags
 =
 0
-CERTCertList
-*
+insanity
+:
+:
+pkix
+:
+:
+ScopedCERTCertList
 *
 validationChain
 =
