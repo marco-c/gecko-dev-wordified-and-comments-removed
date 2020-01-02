@@ -606,7 +606,7 @@ label
 &
 options
 .
-enablePersistentLogging
+enablePersistentLogs
 .
 label
 ;
@@ -617,7 +617,7 @@ tooltiptext
 &
 options
 .
-enablePersistentLogging
+enablePersistentLogs
 .
 tooltip
 ;

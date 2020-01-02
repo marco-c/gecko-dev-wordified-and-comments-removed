@@ -1817,7 +1817,7 @@ NOTE
 (
 options
 .
-enablePersistentLogging
+enablePersistentLogs
 .
 label
 )
@@ -1872,7 +1872,7 @@ panel
 ENTITY
 options
 .
-enablePersistentLogging
+enablePersistentLogs
 .
 label
 "
@@ -1886,7 +1886,7 @@ logs
 ENTITY
 options
 .
-enablePersistentLogging
+enablePersistentLogs
 .
 tooltip
 "
