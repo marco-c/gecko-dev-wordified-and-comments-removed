@@ -173,6 +173,8 @@ base
 jars
 /
 *
+.
+jar
 libs
 /
 #
