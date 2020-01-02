@@ -178,8 +178,6 @@ bool
 aMemoryOnly
 bool
 aPriority
-bool
-aKeyIsHash
 CacheFileListener
 *
 aCallback
@@ -461,6 +459,11 @@ aKey
 mKey
 ;
 }
+bool
+IsDoomed
+(
+)
+;
 private
 :
 friend
@@ -746,9 +749,6 @@ mDataIsDirty
 ;
 bool
 mWritingMetadata
-;
-bool
-mKeyIsHash
 ;
 nsresult
 mStatus

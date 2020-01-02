@@ -261,6 +261,11 @@ CacheFileOutputStream
 cpp
 '
 '
+CacheFileUtils
+.
+cpp
+'
+'
 CacheIndex
 .
 cpp

@@ -290,6 +290,11 @@ IsReferenced
 )
 const
 ;
+bool
+IsFileDoomed
+(
+)
+;
 double
 GetFrecency
 (
