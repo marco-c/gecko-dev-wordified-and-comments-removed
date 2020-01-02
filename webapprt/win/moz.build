@@ -299,3 +299,10 @@ HEAP
 0x40000
 '
 ]
+RCINCLUDE
+=
+'
+webapprt
+.
+rc
+'

@@ -157,6 +157,13 @@ win_dirent
 cpp
 '
 ]
+RCINCLUDE
+=
+'
+updater
+.
+rc
+'
 DEFINES
 [
 '

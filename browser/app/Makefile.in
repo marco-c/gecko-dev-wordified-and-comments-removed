@@ -316,11 +316,6 @@ OS_ARCH
 )
 WINNT
 )
-RCINCLUDE
-=
-splash
-.
-rc
 #
 Rebuild
 firefox

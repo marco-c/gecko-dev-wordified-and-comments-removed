@@ -150,3 +150,10 @@ True
 NO_PGO
 =
 True
+RCINCLUDE
+=
+'
+CommandExecuteHandler
+.
+rc
+'

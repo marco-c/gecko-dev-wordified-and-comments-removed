@@ -217,11 +217,6 @@ oleaut32
 version
 winspool
 )
-RCINCLUDE
-=
-splash
-.
-rc
 endif
 include
 (

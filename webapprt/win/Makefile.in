@@ -185,11 +185,6 @@ call
 EXPAND_LIBNAME
 shell32
 )
-RCINCLUDE
-=
-webapprt
-.
-rc
 #
 Uninstaller
 ifdef

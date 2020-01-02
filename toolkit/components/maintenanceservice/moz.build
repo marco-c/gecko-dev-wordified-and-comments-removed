@@ -220,3 +220,10 @@ ENTRY
 wmainCRTStartup
 '
 ]
+RCINCLUDE
+=
+'
+maintenanceservice
+.
+rc
+'

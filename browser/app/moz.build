@@ -265,6 +265,13 @@ OS_ARCH
 WINNT
 '
 :
+RCINCLUDE
+=
+'
+splash
+.
+rc
+'
 DEFINES
 [
 '

@@ -1296,6 +1296,14 @@ bar
 res
 '
             
+RCINCLUDE
+=
+'
+bar
+.
+rc
+'
+            
 DEFFILE
 =
 '

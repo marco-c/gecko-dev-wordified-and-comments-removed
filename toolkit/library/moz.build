@@ -157,6 +157,13 @@ xpcom
 base
 '
 ]
+RCINCLUDE
+=
+'
+xulrunner
+.
+rc
+'
 #
 component
 libraries

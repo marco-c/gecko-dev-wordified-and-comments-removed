@@ -166,11 +166,6 @@ LIB_SUFFIX
 (
 NULL
 )
-RCINCLUDE
-=
-crashreporter
-.
-rc
 OS_LIBS
 +
 =

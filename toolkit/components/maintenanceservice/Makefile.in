@@ -135,11 +135,6 @@ update
 common
 )
 endif
-RCINCLUDE
-=
-maintenanceservice
-.
-rc
 OS_LIBS
 +
 =

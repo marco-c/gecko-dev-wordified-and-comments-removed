@@ -160,3 +160,10 @@ WIN32_EXE_LDFLAGS
 municode
 '
 ]
+RCINCLUDE
+=
+'
+HangUIDlg
+.
+rc
+'
