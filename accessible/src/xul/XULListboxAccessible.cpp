@@ -2485,6 +2485,10 @@ checkbox
 eCaseMatters
 )
 ;
+mType
+=
+eXULListItemType
+;
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (
