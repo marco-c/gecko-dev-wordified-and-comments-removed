@@ -869,16 +869,6 @@ psetter
 (
 psetter_
 )
-getterRoot
-(
-cx
-pgetter_
-)
-setterRoot
-(
-cx
-psetter_
-)
 {
 JS_ASSERT_IF
 (

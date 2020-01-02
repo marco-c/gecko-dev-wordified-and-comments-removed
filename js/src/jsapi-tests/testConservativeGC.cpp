@@ -3,13 +3,6 @@ if
 !
 defined
 (
-JSGC_ROOT_ANALYSIS
-)
-&
-&
-!
-defined
-(
 JSGC_USE_EXACT_ROOTING
 )
 #

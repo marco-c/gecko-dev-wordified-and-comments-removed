@@ -1751,11 +1751,6 @@ size_t
 outlen
 )
 {
-MaybeCheckStackRoots
-(
-cx
-)
-;
 *
 outlen
 =

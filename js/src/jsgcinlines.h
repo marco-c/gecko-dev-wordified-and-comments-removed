@@ -1958,11 +1958,6 @@ ncx
 )
 ;
 }
-MaybeCheckStackRoots
-(
-ncx
-)
-;
 }
 return
 true

@@ -9069,14 +9069,6 @@ p
 >
 shape
 ;
-SkipRoot
-skip
-(
-cx
-&
-p
-)
-;
 Rooted
 <
 TaggedProto

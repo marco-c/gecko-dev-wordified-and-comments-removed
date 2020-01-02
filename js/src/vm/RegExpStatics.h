@@ -724,12 +724,6 @@ InitBuffer
 (
 )
 )
-skip
-(
-cx
-&
-statics
-)
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
@@ -845,9 +839,6 @@ pendingInput
 }
 RegExpStatics
 statics
-;
-SkipRoot
-skip
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
