@@ -98,10 +98,7 @@ nsAString
 &
 aType
 const
-InfallibleTArray
-<
-BluetoothNamedValue
->
+BluetoothValue
 &
 aData
 )
