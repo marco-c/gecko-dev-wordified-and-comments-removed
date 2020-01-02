@@ -1321,9 +1321,6 @@ Release
 return
 ;
 }
-#
-ifndef
-MOZ_B2G
 bool
 avail
 =
@@ -1353,8 +1350,6 @@ avail
 return
 ;
 }
-#
-endif
 webrtc
 :
 :

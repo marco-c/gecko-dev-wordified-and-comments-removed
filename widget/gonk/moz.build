@@ -169,11 +169,6 @@ EXPORTS
 =
 [
 '
-GonkPermission
-.
-h
-'
-'
 OrientationObserver
 .
 h
@@ -315,11 +310,6 @@ cpp
 '
 '
 GonkMemoryPressureMonitoring
-.
-cpp
-'
-'
-GonkPermission
 .
 cpp
 '
