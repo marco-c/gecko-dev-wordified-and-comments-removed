@@ -1014,11 +1014,8 @@ NS_GET_IID
 nsISupports
 )
 false
+&
 v
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
