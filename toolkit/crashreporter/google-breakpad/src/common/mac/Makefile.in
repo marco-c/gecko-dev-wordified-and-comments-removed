@@ -66,16 +66,6 @@ srcdir
 /
 .
 .
-HOST_CMMSRCS
-=
-\
-dump_syms
-.
-mm
-\
-(
-NULL
-)
 include
 (
 topsrcdir

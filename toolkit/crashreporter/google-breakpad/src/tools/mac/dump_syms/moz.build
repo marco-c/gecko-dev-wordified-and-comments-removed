@@ -93,3 +93,13 @@ MPL
 0
 /
 .
+HOST_SOURCES
++
+=
+[
+'
+dump_syms_tool
+.
+mm
+'
+]

@@ -96,16 +96,6 @@ mac
 (
 NULL
 )
-HOST_CMMSRCS
-=
-\
-dump_syms_tool
-.
-mm
-\
-(
-NULL
-)
 HOST_LIBS
 +
 =

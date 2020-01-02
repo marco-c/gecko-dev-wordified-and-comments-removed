@@ -197,6 +197,16 @@ HOST_SOURCES
 +
 =
 SOURCES
+HOST_SOURCES
++
+=
+[
+'
+dump_syms
+.
+mm
+'
+]
 HOST_LIBRARY_NAME
 =
 '

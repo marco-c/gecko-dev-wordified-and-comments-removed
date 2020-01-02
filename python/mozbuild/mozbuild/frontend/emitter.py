@@ -1000,6 +1000,15 @@ HOST_CSRCS
                 
 '
 .
+mm
+'
+:
+'
+HOST_CMMSRCS
+'
+                
+'
+.
 cc
 '
 :
