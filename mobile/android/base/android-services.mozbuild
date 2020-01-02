@@ -7470,6 +7470,13 @@ java
 '
 fxa
 /
+FirefoxAccounts
+.
+java
+'
+'
+fxa
+/
 login
 /
 BaseRequestDelegate
