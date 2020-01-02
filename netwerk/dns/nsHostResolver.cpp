@@ -4227,14 +4227,14 @@ h
 #
 include
 "
-Windns
+windns
 .
 h
 "
 #
 include
 "
-Windows
+windows
 .
 h
 "
