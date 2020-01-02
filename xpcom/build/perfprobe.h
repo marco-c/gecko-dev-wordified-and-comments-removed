@@ -119,6 +119,8 @@ Trigger
 (
 )
 ;
+protected
+:
 ~
 Probe
 (
@@ -126,8 +128,6 @@ Probe
 {
 }
 ;
-protected
-:
 Probe
 (
 const
@@ -216,13 +216,13 @@ IsActive
 (
 )
 ;
+protected
+:
 ~
 ProbeManager
 (
 )
 ;
-protected
-:
 nsresult
 StartSession
 (
