@@ -198,7 +198,6 @@ btn
 &
 btn
 <
-=
 MAX_CONFIG_LINES
 +
 1
@@ -272,7 +271,6 @@ btn
 &
 btn
 <
-=
 MAX_CONFIG_LINES
 +
 1
