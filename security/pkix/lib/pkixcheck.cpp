@@ -1919,7 +1919,7 @@ endEntityOrCA
 requiredPolicy
 cert
 .
-GetNSSCert
+GetDER
 (
 )
 &
