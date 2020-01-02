@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-iteration
-.
-js
-"
-)
-;
 var
 map
 =
@@ -46,9 +35,8 @@ var
 iter
 =
 map
-[
-std_iterator
-]
+.
+iterator
 (
 )
 ;

@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-iteration
-.
-js
-"
-)
-;
 function
 range
 (
@@ -96,7 +85,6 @@ s
 '
 01234
 /
-56789
 '
 )
 ;

@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-iteration
-.
-js
-"
-)
-;
 eval
 (
 "
@@ -22,9 +11,8 @@ x
 Array
 .
 prototype
-[
-std_iterator
-]
+.
+iterator
 =
 function
 (

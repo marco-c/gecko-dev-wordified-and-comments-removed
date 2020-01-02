@@ -54,13 +54,6 @@ GeneratorFunctionPrototype
 .
 prototype
 ;
-var
-std_iterator
-=
-"
-iterator
-"
-;
 function
 TestGeneratorFunctionInstance
 (
@@ -298,6 +291,9 @@ expected_property_names
 =
 [
 "
+iterator
+"
+"
 next
 "
 "
@@ -306,7 +302,6 @@ throw
 "
 constructor
 "
-std_iterator
 ]
 ;
 var
