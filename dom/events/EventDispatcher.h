@@ -285,6 +285,7 @@ EventChainVisitor
 {
 public
 :
+explicit
 EventChainPostVisitor
 (
 EventChainVisitor

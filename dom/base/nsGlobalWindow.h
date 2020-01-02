@@ -1744,6 +1744,7 @@ ErrorResult
 aRv
 )
 ;
+explicit
 nsGlobalWindow
 (
 nsGlobalWindow
@@ -7086,6 +7087,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMCHROMEWINDOW
+explicit
 nsGlobalChromeWindow
 (
 nsGlobalWindow
@@ -7326,6 +7328,7 @@ nsIDOMModalContentWindow
 {
 public
 :
+explicit
 nsGlobalModalWindow
 (
 nsGlobalWindow

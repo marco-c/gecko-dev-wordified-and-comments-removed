@@ -1480,6 +1480,7 @@ SelectorCacheKey
 {
 public
 :
+explicit
 SelectorCacheKey
 (
 const
@@ -6876,6 +6877,7 @@ nsAutoSyncOperation
 {
 public
 :
+explicit
 nsAutoSyncOperation
 (
 nsIDocument

@@ -149,6 +149,7 @@ nsAttrKey
 *
 KeyTypePointer
 ;
+explicit
 nsAttrHashKey
 (
 KeyTypePointer
@@ -322,6 +323,7 @@ mozilla
 ErrorResult
 ErrorResult
 ;
+explicit
 nsDOMAttributeMap
 (
 Element

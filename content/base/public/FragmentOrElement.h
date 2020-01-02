@@ -125,6 +125,7 @@ nsINodeList
 {
 public
 :
+explicit
 nsChildContentList
 (
 nsINode
@@ -229,6 +230,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 nsNode3Tearoff
 )
 NS_DECL_NSIDOMXPATHNSRESOLVER
+explicit
 nsNode3Tearoff
 (
 nsINode
@@ -270,6 +272,7 @@ nsIWeakReference
 {
 public
 :
+explicit
 nsNodeWeakReference
 (
 nsINode
@@ -329,6 +332,7 @@ nsISupportsWeakReference
 {
 public
 :
+explicit
 nsNodeSupportsWeakRefTearoff
 (
 nsINode
@@ -384,6 +388,7 @@ nsIContent
 {
 public
 :
+explicit
 FragmentOrElement
 (
 already_AddRefed
@@ -400,6 +405,7 @@ NodeInfo
 aNodeInfo
 )
 ;
+explicit
 FragmentOrElement
 (
 already_AddRefed

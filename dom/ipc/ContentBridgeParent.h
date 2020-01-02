@@ -42,6 +42,7 @@ nsIContentParent
 {
 public
 :
+explicit
 ContentBridgeParent
 (
 Transport

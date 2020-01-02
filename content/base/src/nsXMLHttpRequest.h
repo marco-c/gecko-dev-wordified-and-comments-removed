@@ -374,6 +374,7 @@ nsIXMLHttpRequestEventTarget
 {
 protected
 :
+explicit
 nsXHREventTarget
 (
 mozilla
@@ -488,6 +489,7 @@ nsIXMLHttpRequestUpload
 {
 public
 :
+explicit
 nsXMLHttpRequestUpload
 (
 mozilla
@@ -1184,6 +1186,7 @@ Uninitialized
 )
 {
 }
+explicit
 RequestBody
 (
 const
@@ -1210,6 +1213,7 @@ mArrayBuffer
 aArrayBuffer
 ;
 }
+explicit
 RequestBody
 (
 const
@@ -1236,6 +1240,7 @@ mArrayBufferView
 aArrayBufferView
 ;
 }
+explicit
 RequestBody
 (
 nsIDOMBlob
@@ -1255,6 +1260,7 @@ mBlob
 aBlob
 ;
 }
+explicit
 RequestBody
 (
 nsIDocument
@@ -1274,6 +1280,7 @@ mDocument
 aDocument
 ;
 }
+explicit
 RequestBody
 (
 const
@@ -1295,6 +1302,7 @@ mString
 aString
 ;
 }
+explicit
 RequestBody
 (
 nsFormData
@@ -1315,6 +1323,7 @@ mFormData
 aFormData
 ;
 }
+explicit
 RequestBody
 (
 nsIInputStream
@@ -2808,6 +2817,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsXMLHttpRequestXPCOMifier
 nsIStreamListener
 )
+explicit
 nsXMLHttpRequestXPCOMifier
 (
 nsXMLHttpRequest
@@ -2946,6 +2956,7 @@ return
 NS_OK
 ;
 }
+explicit
 nsXHRParseEndListener
 (
 nsIXMLHttpRequest

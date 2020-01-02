@@ -139,6 +139,7 @@ LayerManager
 ;
 public
 :
+explicit
 HTMLCanvasElement
 (
 already_AddRefed

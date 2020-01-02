@@ -481,6 +481,7 @@ error
 ;
 protected
 :
+explicit
 IDBRequest
 (
 IDBDatabase
@@ -488,6 +489,7 @@ IDBDatabase
 aDatabase
 )
 ;
+explicit
 IDBRequest
 (
 nsPIDOMWindow
@@ -703,6 +705,7 @@ upgradeneeded
 ;
 protected
 :
+explicit
 IDBOpenDBRequest
 (
 nsPIDOMWindow

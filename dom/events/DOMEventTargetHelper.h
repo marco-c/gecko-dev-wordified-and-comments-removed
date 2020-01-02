@@ -140,6 +140,7 @@ false
 )
 {
 }
+explicit
 DOMEventTargetHelper
 (
 nsPIDOMWindow
@@ -170,6 +171,7 @@ SetIsDOMBinding
 )
 ;
 }
+explicit
 DOMEventTargetHelper
 (
 DOMEventTargetHelper

@@ -53,6 +53,7 @@ nsAString
 *
 KeyTypePointer
 ;
+explicit
 nsNameSpaceKey
 (
 KeyTypePointer

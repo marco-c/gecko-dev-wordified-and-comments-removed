@@ -984,6 +984,7 @@ ArrayType
 ;
 public
 :
+explicit
 TypedArrayCreator
 (
 const
@@ -1232,6 +1233,7 @@ ArrayType
 {
 public
 :
+explicit
 RootedTypedArray
 (
 JSContext

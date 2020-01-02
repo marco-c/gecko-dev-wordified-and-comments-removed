@@ -114,6 +114,7 @@ MOZ_FINAL
 {
 public
 :
+explicit
 nsXBLBinding
 (
 nsXBLPrototypeBinding

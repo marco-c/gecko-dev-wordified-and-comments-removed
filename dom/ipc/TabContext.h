@@ -344,6 +344,7 @@ MaybeInvalidTabContext
 {
 public
 :
+explicit
 MaybeInvalidTabContext
 (
 const

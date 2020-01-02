@@ -52,6 +52,7 @@ nullptr
 )
 {
 }
+explicit
 Principal
 (
 nsIPrincipal

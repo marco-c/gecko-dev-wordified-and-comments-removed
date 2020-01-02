@@ -61,6 +61,7 @@ nsStyledElementBase
 protected
 :
 inline
+explicit
 nsStyledElementNotElementCSSInlineStyle
 (
 already_AddRefed
@@ -189,6 +190,7 @@ nsStyledElementNotElementCSSInlineStyle
 protected
 :
 inline
+explicit
 nsStyledElement
 (
 already_AddRefed

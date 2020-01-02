@@ -853,6 +853,7 @@ nsAttrAndChildArray
 #
 ifdef
 MOZILLA_INTERNAL_API
+explicit
 nsINode
 (
 already_AddRefed

@@ -692,6 +692,7 @@ mInBubblingPhase
 }
 }
 ;
+explicit
 EventListenerManager
 (
 dom

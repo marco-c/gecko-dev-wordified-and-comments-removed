@@ -133,6 +133,7 @@ IMEState
 #
 ifdef
 MOZILLA_INTERNAL_API
+explicit
 nsIContent
 (
 already_AddRefed
