@@ -1540,6 +1540,11 @@ RTCPeerConnection
 webidl
 '
 '
+RTCPeerConnectionStatic
+.
+webidl
+'
+'
 RTCSessionDescription
 .
 webidl

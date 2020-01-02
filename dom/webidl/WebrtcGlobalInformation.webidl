@@ -138,6 +138,9 @@ getAllStats
 (
 WebrtcGlobalStatisticsCallback
 callback
+optional
+DOMString
+pcIdFilter
 )
 ;
 [

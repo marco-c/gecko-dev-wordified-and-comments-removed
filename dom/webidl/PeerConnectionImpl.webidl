@@ -488,6 +488,11 @@ attribute
 PCImplSipccState
 sipccState
 ;
+readonly
+attribute
+DOMString
+id
+;
 attribute
 DOMString
 peerIdentity

@@ -725,6 +725,14 @@ RTCIdentityAssertion
 ?
 peerIdentity
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+DOMString
+id
+;
 sequence
 <
 MediaStream
