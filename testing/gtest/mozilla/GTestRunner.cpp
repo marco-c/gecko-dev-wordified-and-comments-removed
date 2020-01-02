@@ -565,7 +565,7 @@ ScopedXPCOM
 xpcom
 (
 "
-AsyncPanZoomController
+GTest
 "
 )
 ;
