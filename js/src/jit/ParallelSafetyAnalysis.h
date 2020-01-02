@@ -106,6 +106,9 @@ CallTargetVector
 bool
 AddPossibleCallees
 (
+JSContext
+*
+cx
 MIRGraph
 &
 graph
