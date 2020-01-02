@@ -256,13 +256,6 @@ ELFHACK_BUILD
 !
 defined
 (
-ELFDYNSTRGC_BUILD
-)
-&
-&
-!
-defined
-(
 __ASSEMBLER__
 )
 #
