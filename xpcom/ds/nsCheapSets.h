@@ -66,6 +66,16 @@ nsCheapSet
 (
 )
 {
+Clear
+(
+)
+;
+}
+void
+Clear
+(
+)
+{
 switch
 (
 mState
@@ -114,6 +124,10 @@ state
 break
 ;
 }
+mState
+=
+ZERO
+;
 }
 nsresult
 Put
