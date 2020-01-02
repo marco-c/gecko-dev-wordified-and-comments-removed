@@ -9694,6 +9694,7 @@ query
 >
 report
 =
+new
 RTCStatsReportInternalConstruct
 (
 NS_ConvertASCIItoUTF16
@@ -9739,7 +9740,8 @@ query
 -
 >
 report
-.
+-
+>
 mLocalSdp
 .
 Construct
@@ -9758,7 +9760,8 @@ query
 -
 >
 report
-.
+-
+>
 mRemoteSdp
 .
 Construct
@@ -11004,7 +11007,8 @@ query
 -
 >
 report
-.
+-
+>
 mInboundRTPStreamStats
 .
 Value
@@ -11119,7 +11123,8 @@ query
 -
 >
 report
-.
+-
+>
 mOutboundRTPStreamStats
 .
 Value
@@ -11318,7 +11323,8 @@ query
 -
 >
 report
-.
+-
+>
 mOutboundRTPStreamStats
 .
 Value
@@ -11549,7 +11555,8 @@ query
 -
 >
 report
-.
+-
+>
 mInboundRTPStreamStats
 .
 Value
@@ -11608,13 +11615,10 @@ query
 -
 >
 now
-&
-(
 query
 -
 >
 report
-)
 )
 ;
 }
@@ -11792,6 +11796,7 @@ pco
 >
 OnGetStatsSuccess
 (
+*
 query
 -
 >

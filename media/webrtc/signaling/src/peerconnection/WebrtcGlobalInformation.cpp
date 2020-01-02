@@ -285,6 +285,7 @@ Value
 .
 AppendElement
 (
+*
 (
 *
 q
@@ -1116,7 +1117,8 @@ query
 -
 >
 report
-.
+-
+>
 mIceCandidateStats
 .
 WasPassed
@@ -1131,7 +1133,8 @@ query
 -
 >
 report
-.
+-
+>
 mClosed
 .
 Construct
@@ -1208,7 +1211,8 @@ query
 -
 >
 report
-.
+-
+>
 mIceCandidatePairStats
 .
 Value
@@ -1233,7 +1237,8 @@ query
 -
 >
 report
-.
+-
+>
 mIceCandidatePairStats
 .
 Value
@@ -1330,7 +1335,8 @@ query
 -
 >
 report
-.
+-
+>
 mIceCandidateStats
 .
 Value
@@ -1355,7 +1361,8 @@ query
 -
 >
 report
-.
+-
+>
 mIceCandidateStats
 .
 Value
@@ -1681,6 +1688,7 @@ mStatsForClosedPeerConnections
 .
 AppendElement
 (
+*
 query
 -
 >
