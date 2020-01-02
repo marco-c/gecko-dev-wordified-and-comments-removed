@@ -1567,7 +1567,7 @@ pushInlineFrame
 JSContext
 *
 cx
-FrameRegs
+InterpreterRegs
 &
 regs
 const
@@ -1763,7 +1763,7 @@ InterpreterStack
 :
 popInlineFrame
 (
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -1846,7 +1846,7 @@ DONE
 break
 ;
 case
-SCRIPTED
+INTERP
 :
 interpFrame
 (

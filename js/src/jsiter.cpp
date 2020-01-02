@@ -8117,7 +8117,7 @@ JSContext
 *
 cx
 const
-FrameRegs
+InterpreterRegs
 &
 stackRegs
 )

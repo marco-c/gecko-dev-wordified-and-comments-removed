@@ -354,7 +354,7 @@ endif
 ToBooleanOp
 (
 const
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -403,7 +403,7 @@ LooseEqualityOp
 JSContext
 *
 cx
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -4847,7 +4847,7 @@ cx
 ScopeIter
 &
 si
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -4887,7 +4887,7 @@ ForcedReturn
 JSContext
 *
 cx
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -4924,7 +4924,7 @@ JSContext
 *
 cx
 const
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -5009,7 +5009,7 @@ JSContext
 *
 cx
 const
-FrameRegs
+InterpreterRegs
 &
 regs
 )
@@ -5204,7 +5204,7 @@ HandleError
 JSContext
 *
 cx
-FrameRegs
+InterpreterRegs
 &
 regs
 )

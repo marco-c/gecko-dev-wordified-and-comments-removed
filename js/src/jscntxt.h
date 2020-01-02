@@ -1853,7 +1853,7 @@ current
 js
 :
 :
-FrameRegs
+InterpreterRegs
 &
 interpreterRegs
 (
