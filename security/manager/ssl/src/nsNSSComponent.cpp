@@ -4281,6 +4281,9 @@ OCSP_ENABLED_DEFAULT
 bool
 ocspRequired
 =
+ocspEnabled
+&
+&
 Preferences
 :
 :
@@ -4362,17 +4365,6 @@ enable_ocsp_stapling
 true
 )
 ;
-if
-(
-!
-ocspEnabled
-)
-{
-ocspStaplingEnabled
-=
-false
-;
-}
 PublicSSLState
 (
 )
