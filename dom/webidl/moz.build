@@ -415,11 +415,6 @@ DeviceStorage
 webidl
 '
 '
-Directory
-.
-webidl
-'
-'
 Document
 .
 webidl
@@ -2375,6 +2370,11 @@ webidl
 '
 '
 PeerConnectionObserverEnums
+.
+webidl
+'
+'
+WebrtcGlobalInformation
 .
 webidl
 '
