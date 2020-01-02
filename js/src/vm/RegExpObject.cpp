@@ -2830,6 +2830,14 @@ MatchPairs
 matches
 )
 {
+SkipRoot
+skip
+(
+cx
+&
+chars
+)
+;
 if
 (
 !
