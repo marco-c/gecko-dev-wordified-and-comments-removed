@@ -225,7 +225,7 @@ aStatement
 let
 dbConnection
 =
-Downloads
+MetroDownloadsView
 .
 manager
 .
@@ -552,7 +552,7 @@ aResult
 let
 dlMgr
 =
-Downloads
+MetroDownloadsView
 .
 manager
 ;
@@ -1133,11 +1133,11 @@ false
 "
 Check
 that
-Downloads
+MetroDownloadsView
 .
 _progressNotificationInfo
 and
-Downloads
+MetroDownloadsView
 .
 _downloadCount
 \
@@ -1176,7 +1176,7 @@ through
 download
 objects
 in
-Downloads
+MetroDownloadsView
 .
 _progressNotificationInfo
 \
@@ -1382,7 +1382,7 @@ Get
 some
 download
 from
-Downloads
+MetroDownloadsView
 .
 _progressNotificationInfo
 \

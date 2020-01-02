@@ -3869,7 +3869,7 @@ progress
 oncommand
 =
 "
-Downloads
+MetroDownloadsView
 .
 onDownloadButton
 (
