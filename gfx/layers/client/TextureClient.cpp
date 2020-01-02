@@ -489,6 +489,10 @@ TextureFlags
 aFlags
 )
 :
+mRefCount
+(
+0
+)
 mID
 (
 0
