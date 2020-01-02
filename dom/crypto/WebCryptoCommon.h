@@ -80,14 +80,6 @@ SHA
 "
 #
 define
-WEBCRYPTO_ALG_SHA224
-"
-SHA
--
-224
-"
-#
-define
 WEBCRYPTO_ALG_SHA384
 "
 SHA

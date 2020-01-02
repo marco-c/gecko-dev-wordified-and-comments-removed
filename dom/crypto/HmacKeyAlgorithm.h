@@ -133,15 +133,6 @@ CKM_SHA_1_HMAC
 break
 ;
 case
-CKM_SHA224
-:
-mMechanism
-=
-CKM_SHA224_HMAC
-;
-break
-;
-case
 CKM_SHA256
 :
 mMechanism
