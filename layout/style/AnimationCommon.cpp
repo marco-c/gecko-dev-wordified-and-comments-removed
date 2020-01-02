@@ -1027,6 +1027,12 @@ ResolveStyleWithReplacement
 aElement
 aParentStyle
 oldStyle
+nsRestyleHint
+(
+eRestyle_CSSTransitions
+|
+eRestyle_CSSAnimations
+)
 )
 ;
 nsChangeHint

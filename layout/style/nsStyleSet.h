@@ -458,6 +458,8 @@ aNewParentContext
 nsStyleContext
 *
 aOldStyleContext
+nsRestyleHint
+aReplacements
 )
 ;
 already_AddRefed
