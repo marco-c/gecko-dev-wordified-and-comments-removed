@@ -1448,9 +1448,7 @@ d3
 .
 js
 (
-webaudioeditor
-/
-lib
+shared
 /
 d3
 .

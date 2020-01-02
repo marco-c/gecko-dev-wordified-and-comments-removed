@@ -329,6 +329,16 @@ javascript
 src
 =
 "
+chrome
+:
+/
+/
+browser
+/
+content
+/
+devtools
+/
 d3
 .
 js
