@@ -544,7 +544,7 @@ Custom
 <
 !
 ENTITY
-runtimePanel_nosimulator
+runtimePanel_installsimulator
 "
 Install
 Simulator
