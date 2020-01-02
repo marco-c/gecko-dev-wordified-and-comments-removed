@@ -930,7 +930,7 @@ return
 true
 ;
 }
-void
+bool
 ASessionDescription
 :
 :
@@ -1046,8 +1046,9 @@ lu
 x
 )
 ;
-CHECK
+if
 (
+!
 findAttribute
 (
 index
@@ -1055,7 +1056,11 @@ key
 desc
 )
 )
+{
+return
+false
 ;
+}
 sprintf
 (
 key
@@ -1089,6 +1094,9 @@ clear
 )
 ;
 }
+return
+true
+;
 }
 bool
 ASessionDescription
