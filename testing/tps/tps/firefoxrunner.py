@@ -91,12 +91,6 @@ binary
         
 self
 .
-runner
-=
-None
-        
-self
-.
 installdir
 =
 None
@@ -435,16 +429,6 @@ download_build
 (
 )
         
-if
-self
-.
-runner
-is
-None
-:
-            
-self
-.
 runner
 =
 FirefoxRunner
@@ -459,6 +443,7 @@ binary
 self
 .
 binary
+                               
 env
 =
 env
@@ -467,8 +452,6 @@ cmdargs
 args
 )
         
-self
-.
 runner
 .
 start
@@ -479,8 +462,6 @@ timeout
 )
         
 return
-self
-.
 runner
 .
 wait
