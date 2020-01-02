@@ -9912,6 +9912,13 @@ GetReentrantMonitor
 )
 )
 ;
+mDecodeTaskQueue
+-
+>
+AwaitIdle
+(
+)
+;
 mReader
 -
 >
