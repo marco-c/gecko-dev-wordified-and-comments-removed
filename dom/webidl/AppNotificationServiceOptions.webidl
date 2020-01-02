@@ -115,6 +115,12 @@ id
 "
 ;
 DOMString
+dbId
+=
+"
+"
+;
+DOMString
 dir
 =
 "
