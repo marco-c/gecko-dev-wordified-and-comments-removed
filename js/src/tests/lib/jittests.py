@@ -4464,30 +4464,11 @@ Test
 CacheDir
 )
     
-for
-path
-in
-os
-.
-listdir
-(
-JS_TESTS_DIR
-)
-:
-        
 dm
 .
 pushDir
 (
-os
-.
-path
-.
-join
-(
 JS_TESTS_DIR
-path
-)
 posixpath
 .
 join
@@ -4496,8 +4477,10 @@ jit_tests_dir
 '
 tests
 '
-path
 )
+timeout
+=
+600
 )
     
 dm
