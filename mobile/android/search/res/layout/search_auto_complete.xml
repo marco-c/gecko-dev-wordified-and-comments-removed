@@ -120,13 +120,6 @@ orientation
 "
 vertical
 "
-android
-:
-clickable
-=
-"
-false
-"
 tools
 :
 context

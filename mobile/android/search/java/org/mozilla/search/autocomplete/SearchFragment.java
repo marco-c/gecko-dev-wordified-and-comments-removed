@@ -452,6 +452,13 @@ transitionToWaiting
 }
 )
 ;
+mainView
+.
+setClickable
+(
+false
+)
+;
 editText
 =
 (
