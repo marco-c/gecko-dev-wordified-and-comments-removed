@@ -312,14 +312,6 @@ while
 endif
 #
 define
-JS_BEGIN_EXTERN_C
-MOZ_BEGIN_EXTERN_C
-#
-define
-JS_END_EXTERN_C
-MOZ_END_EXTERN_C
-#
-define
 JS_BIT
 (
 n
