@@ -22,17 +22,6 @@ testAboutPage
 extends
 PixelTest
 {
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 private
 void
 ensureTitleMatches

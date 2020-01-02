@@ -22,16 +22,6 @@ testBookmarksPanel
 extends
 AboutHomeTest
 {
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testBookmarksPanel

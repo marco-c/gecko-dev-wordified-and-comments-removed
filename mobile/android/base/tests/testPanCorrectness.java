@@ -22,17 +22,6 @@ testPanCorrectness
 extends
 PixelTest
 {
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testPanCorrectness

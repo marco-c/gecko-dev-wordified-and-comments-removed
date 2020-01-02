@@ -128,17 +128,6 @@ static
 String
 DESKTOP_BOOKMARK_URL
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testBookmarkFolders

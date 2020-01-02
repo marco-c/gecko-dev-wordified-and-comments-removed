@@ -62,17 +62,6 @@ WAIT_FOR_BOOKMARKED_TIMEOUT
 =
 10000
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testBookmark

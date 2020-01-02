@@ -95,17 +95,6 @@ URL
 null
 ;
 }
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 SuppressWarnings
 (
 "

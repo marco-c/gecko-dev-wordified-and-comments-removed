@@ -106,17 +106,6 @@ READER_ICON_MAX_WAIT_MS
 =
 15000
 ;
-Override
-protected
-int
-getTestType
-(
-)
-{
-return
-TEST_MOCHITEST
-;
-}
 public
 void
 testReaderMode
