@@ -166,8 +166,6 @@ MediaStream
 stream
 TrackID
 track_id
-int
-level
 RefPtr
 <
 MediaSessionConduit
@@ -196,10 +194,6 @@ stream
 track_id_
 (
 track_id
-)
-level_
-(
-level
 )
 conduit_
 (
@@ -359,17 +353,6 @@ const
 {
 return
 track_id_
-;
-}
-virtual
-int
-level
-(
-)
-const
-{
-return
-level_
 ;
 }
 bool
@@ -709,9 +692,6 @@ stream_
 ;
 TrackID
 track_id_
-;
-int
-level_
 ;
 RefPtr
 <
@@ -1080,8 +1060,6 @@ DOMMediaStream
 domstream
 TrackID
 track_id
-int
-level
 RefPtr
 <
 MediaSessionConduit
@@ -1112,7 +1090,6 @@ GetStream
 (
 )
 track_id
-level
 conduit
 rtp_transport
 rtcp_transport
@@ -1500,8 +1477,6 @@ MediaStream
 stream
 TrackID
 track_id
-int
-level
 RefPtr
 <
 MediaSessionConduit
@@ -1527,7 +1502,6 @@ main_thread
 sts_thread
 stream
 track_id
-level
 conduit
 rtp_transport
 rtcp_transport
@@ -1589,8 +1563,6 @@ MediaStream
 stream
 TrackID
 track_id
-int
-level
 RefPtr
 <
 AudioSessionConduit
@@ -1615,7 +1587,6 @@ main_thread
 sts_thread
 stream
 track_id
-level
 conduit
 rtp_transport
 rtcp_transport
@@ -1839,8 +1810,6 @@ MediaStream
 stream
 TrackID
 track_id
-int
-level
 RefPtr
 <
 VideoSessionConduit
@@ -1865,7 +1834,6 @@ main_thread
 sts_thread
 stream
 track_id
-level
 conduit
 rtp_transport
 rtcp_transport
