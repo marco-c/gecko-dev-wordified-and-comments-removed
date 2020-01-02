@@ -881,7 +881,7 @@ proxy
 id
 &
 desc
-JSRESOLVE_ASSIGNING
+0
 )
 )
 return
@@ -1097,7 +1097,7 @@ proxy
 id
 &
 desc
-JSRESOLVE_ASSIGNING
+0
 )
 )
 return
@@ -14714,7 +14714,7 @@ proxy
 id
 &
 desc
-JSRESOLVE_ASSIGNING
+0
 )
 )
 return
@@ -16968,7 +16968,7 @@ obj
 id
 &
 desc
-JSRESOLVE_ASSIGNING
+0
 )
 )
 return

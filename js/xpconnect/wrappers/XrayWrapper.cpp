@@ -9853,7 +9853,7 @@ wrapper
 id
 &
 existing_desc
-JSRESOLVE_ASSIGNING
+0
 )
 )
 return
