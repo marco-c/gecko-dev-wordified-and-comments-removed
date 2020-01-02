@@ -22996,6 +22996,11 @@ obj
 &
 &
 funAtom
+&
+&
+options
+.
+defineOnScope
 )
 {
 Rooted
