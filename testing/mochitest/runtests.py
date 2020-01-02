@@ -748,6 +748,17 @@ warn
 env
 [
 "
+LD_LIBRARY_PATH
+"
+]
+=
+self
+.
+_xrePath
+    
+env
+[
+"
 ASAN_OPTIONS
 "
 ]
@@ -5855,6 +5866,17 @@ self
 xrePath
 )
     
+env
+[
+"
+LD_LIBRARY_PATH
+"
+]
+=
+self
+.
+xrePath
+    
 self
 .
 process
@@ -6913,6 +6935,17 @@ options
 .
 xrePath
 )
+    
+env
+[
+"
+LD_LIBRARY_PATH
+"
+]
+=
+options
+.
+xrePath
     
 bin_suffix
 =
