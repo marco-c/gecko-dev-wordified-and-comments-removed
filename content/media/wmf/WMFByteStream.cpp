@@ -321,6 +321,7 @@ WMFByteStream
 IO
 "
 )
+4
 )
 ;
 NS_ENSURE_TRUE

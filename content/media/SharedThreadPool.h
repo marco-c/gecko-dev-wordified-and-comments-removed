@@ -75,6 +75,10 @@ const
 nsCString
 &
 aName
+uint32_t
+aThreadLimit
+=
+4
 )
 ;
 NS_IMETHOD
@@ -139,6 +143,13 @@ virtual
 ~
 SharedThreadPool
 (
+)
+;
+nsresult
+EnsureThreadLimitIsAtLeast
+(
+uint32_t
+aThreadLimit
 )
 ;
 const
