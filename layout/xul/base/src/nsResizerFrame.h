@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsTitleBarFrame
 .
 h
@@ -99,7 +108,7 @@ aPresContext
 mozilla
 :
 :
-WidgetGUIEvent
+WidgetMouseEvent
 *
 aEvent
 )
