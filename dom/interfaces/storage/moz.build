@@ -112,11 +112,6 @@ nsIDOMStorageManager
 .
 idl
 '
-'
-nsIDOMToString
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
