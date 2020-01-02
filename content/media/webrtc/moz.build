@@ -126,11 +126,6 @@ EXPORTS
 =
 [
 '
-AudioOutputObserver
-.
-h
-'
-'
 LoadManager
 .
 h

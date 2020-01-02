@@ -360,13 +360,6 @@ NullTransport
 .
 h
 "
-#
-include
-"
-AudioOutputObserver
-.
-h
-"
 namespace
 mozilla
 {
@@ -1150,10 +1143,6 @@ mInitDone
 (
 false
 )
-mStarted
-(
-false
-)
 mEchoOn
 (
 false
@@ -1461,9 +1450,6 @@ mTrackID
 bool
 mInitDone
 ;
-bool
-mStarted
-;
 nsString
 mDeviceName
 ;
@@ -1540,10 +1526,6 @@ Release
 ;
 #
 endif
-gFarendObserver
-=
-nullptr
-;
 }
 void
 Shutdown
