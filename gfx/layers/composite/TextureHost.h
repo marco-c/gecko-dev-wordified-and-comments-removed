@@ -204,6 +204,9 @@ class
 CompositableBackendSpecificData
 ;
 class
+CompositableParentManager
+;
+class
 SurfaceDescriptor
 ;
 class
@@ -892,9 +895,9 @@ PTextureParent
 *
 CreateIPDLActor
 (
-ISurfaceAllocator
+CompositableParentManager
 *
-aAllocator
+aManager
 const
 SurfaceDescriptor
 &

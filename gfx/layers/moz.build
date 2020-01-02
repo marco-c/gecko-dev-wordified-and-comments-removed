@@ -890,6 +890,13 @@ h
 '
 ipc
 /
+AsyncTransactionTracker
+.
+h
+'
+'
+ipc
+/
 CompositableForwarder
 .
 h
@@ -1749,6 +1756,13 @@ cpp
 '
 '
 ImageLayers
+.
+cpp
+'
+'
+ipc
+/
+AsyncTransactionTracker
 .
 cpp
 '
