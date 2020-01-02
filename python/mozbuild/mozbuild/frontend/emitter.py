@@ -738,6 +738,12 @@ varmap
 dict
 (
             
+ANDROID_GENERATED_RESFILES
+=
+'
+ANDROID_GENERATED_RESFILES
+'
+            
 ANDROID_RESFILES
 =
 '
