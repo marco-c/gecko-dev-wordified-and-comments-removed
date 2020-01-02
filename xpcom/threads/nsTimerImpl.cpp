@@ -2597,6 +2597,10 @@ Fire
 (
 )
 ;
+mTimer
+=
+nullptr
+;
 return
 NS_OK
 ;
