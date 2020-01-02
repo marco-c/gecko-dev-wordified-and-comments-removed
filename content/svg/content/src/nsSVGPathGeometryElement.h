@@ -247,11 +247,6 @@ GetFillRule
 (
 )
 ;
-Float
-GetStrokeWidth
-(
-)
-;
 }
 ;
 #
