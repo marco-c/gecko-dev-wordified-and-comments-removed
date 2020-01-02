@@ -3891,7 +3891,7 @@ NS_ENSURE_STATE
 context
 )
 ;
-AutoPushJSContext
+AutoPushJSContextForErrorReporting
 cx
 (
 context

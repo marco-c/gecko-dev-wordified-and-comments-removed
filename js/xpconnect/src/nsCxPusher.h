@@ -401,6 +401,10 @@ mCx
 }
 }
 ;
+typedef
+AutoPushJSContext
+AutoPushJSContextForErrorReporting
+;
 }
 #
 endif
