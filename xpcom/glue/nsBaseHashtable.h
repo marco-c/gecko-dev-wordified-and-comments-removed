@@ -452,7 +452,7 @@ this
 >
 mTable
 .
-entrySize
+ops
 "
 nsBaseHashtable
 was
@@ -526,7 +526,7 @@ this
 >
 mTable
 .
-entrySize
+ops
 "
 nsBaseHashtable
 was
