@@ -246,7 +246,6 @@ js_pod_calloc
 JSDStaticLock
 >
 (
-1
 )
 )
 |
