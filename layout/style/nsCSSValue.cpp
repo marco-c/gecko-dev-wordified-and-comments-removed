@@ -8859,7 +8859,7 @@ gradient
 >
 mBgPos
 .
-mXValue
+mYValue
 .
 GetUnit
 (
