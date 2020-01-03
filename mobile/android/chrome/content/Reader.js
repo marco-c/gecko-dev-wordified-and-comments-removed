@@ -1628,7 +1628,6 @@ null
 }
 )
 ;
-;
 }
 )
 _getSavedArticle
