@@ -226,6 +226,11 @@ nsISecurityUITelemetry
 idl
 '
 '
+nsISiteSecurityService
+.
+idl
+'
+'
 nsISSLStatus
 .
 idl

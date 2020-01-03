@@ -563,11 +563,6 @@ nsISimpleStreamListener
 idl
 '
 '
-nsISiteSecurityService
-.
-idl
-'
-'
 nsISocketTransport
 .
 idl
