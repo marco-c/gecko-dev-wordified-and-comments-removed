@@ -4826,10 +4826,10 @@ GetDeviceFamily
 (
 IntelHD3000
 )
-nsIGfxInfo
+GfxDriverInfo
 :
 :
-FEATURE_DIRECT2D
+allFeatures
 nsIGfxInfo
 :
 :
