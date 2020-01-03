@@ -1799,7 +1799,7 @@ object
 !
 desc
 .
-isEnumerable
+enumerable
 (
 )
 )

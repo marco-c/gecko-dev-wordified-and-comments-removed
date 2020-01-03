@@ -543,7 +543,7 @@ if
 !
 ownDesc
 .
-isWritable
+writable
 (
 )
 )
@@ -921,7 +921,7 @@ object
 &
 desc
 .
-isEnumerable
+enumerable
 (
 )
 )

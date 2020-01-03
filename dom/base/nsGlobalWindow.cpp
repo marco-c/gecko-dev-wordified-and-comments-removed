@@ -4328,9 +4328,10 @@ if
 false
 &
 &
+!
 desc
 .
-isPermanent
+configurable
 (
 )
 &

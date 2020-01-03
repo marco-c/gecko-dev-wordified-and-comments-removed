@@ -5872,10 +5872,9 @@ continue
 ;
 if
 (
-!
 desc
 .
-isPermanent
+configurable
 (
 )
 |
@@ -5899,7 +5898,7 @@ isDataDescriptor
 &
 desc
 .
-isWritable
+writable
 (
 )
 )
@@ -17731,7 +17730,7 @@ if
 (
 desc
 .
-hasGetterOrSetterObject
+isAccessorDescriptor
 (
 )
 )

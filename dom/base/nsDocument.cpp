@@ -27402,9 +27402,10 @@ return
 }
 if
 (
+!
 desc
 .
-isPermanent
+configurable
 (
 )
 )

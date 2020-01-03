@@ -2011,7 +2011,15 @@ if
 (
 desc
 .
-isReadonly
+isDataDescriptor
+(
+)
+&
+&
+!
+desc
+.
+writable
 (
 )
 )

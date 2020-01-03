@@ -2133,9 +2133,10 @@ object
 )
 &
 &
+!
 pd
 .
-isPermanent
+configurable
 (
 )
 )

@@ -1852,7 +1852,7 @@ enumerable
 =
 desc
 .
-isEnumerable
+enumerable
 (
 )
 ;
@@ -6306,7 +6306,7 @@ if
 (
 desc
 .
-isEnumerable
+enumerable
 (
 )
 )
