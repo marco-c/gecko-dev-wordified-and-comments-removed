@@ -2219,9 +2219,11 @@ saveDocument
 (
 win
 .
-content
+gBrowser
 .
-document
+selectedBrowser
+.
+contentDocumentAsCPOW
 )
 ;
 }

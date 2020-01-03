@@ -281,11 +281,11 @@ oncommand
 "
 saveDocument
 (
-window
+gBrowser
 .
-content
+selectedBrowser
 .
-document
+contentDocumentAsCPOW
 )
 ;
 "
