@@ -38,11 +38,10 @@ ThreadLocalPlatform
 AllocateSlot
 (
 SlotType
-*
+&
 slot
 )
 {
-*
 slot
 =
 TlsAlloc
@@ -51,7 +50,6 @@ TlsAlloc
 ;
 CHECK_NE
 (
-*
 slot
 TLS_OUT_OF_INDEXES
 )
@@ -64,6 +62,7 @@ ThreadLocalPlatform
 FreeSlot
 (
 SlotType
+&
 slot
 )
 {
@@ -104,6 +103,7 @@ ThreadLocalPlatform
 GetValueFromSlot
 (
 SlotType
+&
 slot
 )
 {
@@ -121,6 +121,7 @@ ThreadLocalPlatform
 SetValueInSlot
 (
 SlotType
+&
 slot
 void
 *

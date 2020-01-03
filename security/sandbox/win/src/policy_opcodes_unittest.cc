@@ -74,10 +74,14 @@ member
 \
 g_nt
 .
+#
+#
 member
 =
 reinterpret_cast
 <
+#
+#
 member
 #
 #
@@ -103,6 +107,8 @@ NULL
 =
 g_nt
 .
+#
+#
 member
 )
 \
@@ -1058,7 +1064,11 @@ opcode_maker
 MakeOpNumberMatch
 (
 0
-42UL
+unsigned
+long
+(
+42
+)
 kPolNone
 )
 ;

@@ -141,9 +141,6 @@ kRegisterAtExit
 =
 true
 ;
-#
-ifndef
-NDEBUG
 static
 const
 bool
@@ -151,8 +148,6 @@ kAllowedToAccessOnNonjoinableThread
 =
 false
 ;
-#
-endif
 }
 ;
 template
@@ -176,9 +171,6 @@ kRegisterAtExit
 =
 false
 ;
-#
-ifndef
-NDEBUG
 static
 const
 bool
@@ -186,8 +178,6 @@ kAllowedToAccessOnNonjoinableThread
 =
 true
 ;
-#
-endif
 }
 ;
 template
@@ -459,7 +449,7 @@ base
 subtle
 :
 :
-Acquire_Load
+NoBarrier_Load
 (
 &
 instance_

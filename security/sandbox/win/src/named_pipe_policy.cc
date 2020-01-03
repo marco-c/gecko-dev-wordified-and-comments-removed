@@ -256,10 +256,10 @@ ClientInfo
 &
 client_info
 const
-base
+std
 :
 :
-string16
+wstring
 &
 name
 DWORD

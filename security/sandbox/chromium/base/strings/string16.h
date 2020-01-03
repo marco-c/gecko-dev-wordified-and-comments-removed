@@ -586,5 +586,17 @@ string16_char_traits
 ;
 #
 endif
+using
+base
+:
+:
+char16
+;
+using
+base
+:
+:
+string16
+;
 #
 endif

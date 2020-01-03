@@ -86,9 +86,6 @@ strlen
 wcslenFunction
 wcslen
 ;
-memcpyFunction
-memcpy
-;
 }
 ;
 enum

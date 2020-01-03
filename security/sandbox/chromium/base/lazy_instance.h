@@ -115,9 +115,6 @@ kRegisterOnExit
 =
 true
 ;
-#
-ifndef
-NDEBUG
 static
 const
 bool
@@ -125,8 +122,6 @@ kAllowedToAccessOnNonjoinableThread
 =
 false
 ;
-#
-endif
 static
 Type
 *
@@ -249,9 +244,6 @@ kRegisterOnExit
 =
 false
 ;
-#
-ifndef
-NDEBUG
 static
 const
 bool
@@ -259,8 +251,6 @@ kAllowedToAccessOnNonjoinableThread
 =
 true
 ;
-#
-endif
 static
 Type
 *

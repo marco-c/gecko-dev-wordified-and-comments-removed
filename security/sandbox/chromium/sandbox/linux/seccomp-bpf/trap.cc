@@ -767,10 +767,7 @@ handler
 }
 rc
 =
-Syscall
-:
-:
-Call
+SandboxSyscall
 (
 sigsys
 .

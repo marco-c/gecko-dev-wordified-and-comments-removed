@@ -488,7 +488,7 @@ SBOX_TEST_FAILED
 TEST
 (
 SyncPolicyTest
-DISABLED_TestEvent
+TestEvent
 )
 {
 TestRunner
@@ -740,7 +740,7 @@ test4
 TEST
 (
 SyncPolicyTest
-DISABLED_TestEventReadOnly
+TestEventReadOnly
 )
 {
 TestRunner

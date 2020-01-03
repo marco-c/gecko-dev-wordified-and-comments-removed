@@ -17,12 +17,8 @@ namespace
 base_icu
 {
 typedef
-int32
+uint32
 UChar32
-;
-typedef
-uint16
-UChar
 ;
 typedef
 int8
@@ -898,11 +894,7 @@ CBU16_LEAD
 (
 supplementary
 )
-\
 (
-base_icu
-:
-:
 UChar
 )
 (
@@ -923,11 +915,7 @@ CBU16_TRAIL
 (
 supplementary
 )
-\
 (
-base_icu
-:
-:
 UChar
 )
 (

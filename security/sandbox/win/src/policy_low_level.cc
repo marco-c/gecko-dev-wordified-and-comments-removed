@@ -796,10 +796,10 @@ last_call
 int
 *
 skip_count
-base
+std
 :
 :
-string16
+wstring
 *
 fragment
 )
@@ -1123,10 +1123,10 @@ skip_count
 =
 0
 ;
-base
+std
 :
 :
-string16
+wstring
 fragment
 ;
 while

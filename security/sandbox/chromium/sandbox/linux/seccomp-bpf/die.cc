@@ -96,10 +96,7 @@ ExitGroup
 (
 )
 {
-Syscall
-:
-:
-Call
+SandboxSyscall
 (
 __NR_exit_group
 1
@@ -111,10 +108,7 @@ SIGSEGV
 SIG_DFL
 )
 ;
-Syscall
-:
-:
-Call
+SandboxSyscall
 (
 __NR_prctl
 PR_SET_DUMPABLE
@@ -153,10 +147,7 @@ for
 ;
 )
 {
-Syscall
-:
-:
-Call
+SandboxSyscall
 (
 __NR_exit_group
 1
@@ -380,10 +371,7 @@ ignore_result
 (
 HANDLE_EINTR
 (
-Syscall
-:
-:
-Call
+SandboxSyscall
 (
 __NR_write
 2

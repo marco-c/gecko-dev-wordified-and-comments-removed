@@ -65,6 +65,12 @@ HANDLE
 effective_token
 )
 {
+DCHECK
+(
+!
+init_
+)
+;
 if
 (
 init_
@@ -1247,10 +1253,10 @@ std
 :
 vector
 <
-base
+std
 :
 :
-string16
+wstring
 >
 *
 exceptions
