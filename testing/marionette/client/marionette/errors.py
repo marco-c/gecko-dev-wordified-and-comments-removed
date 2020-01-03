@@ -111,6 +111,10 @@ FRAME_SEND_FAILURE_ERROR
 =
 55
     
+UNSUPPORTED_OPERATION
+=
+405
+    
 MARIONETTE_ERROR
 =
 500
@@ -648,6 +652,14 @@ MarionetteException
 pass
 class
 FrameSendFailureError
+(
+MarionetteException
+)
+:
+    
+pass
+class
+UnsupportedOperationException
 (
 MarionetteException
 )
