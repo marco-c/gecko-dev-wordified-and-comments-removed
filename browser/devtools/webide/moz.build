@@ -180,4 +180,11 @@ store
 .
 js
 '
+'
+modules
+/
+utils
+.
+js
+'
 ]

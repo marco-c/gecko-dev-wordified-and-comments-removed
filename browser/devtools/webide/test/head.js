@@ -780,6 +780,16 @@ store
 object
 .
 projects
+.
+map
+(
+p
+=
+>
+p
+.
+location
+)
 ;
 for
 (
@@ -808,8 +818,6 @@ projects
 [
 i
 ]
-.
-location
 )
 ;
 }
