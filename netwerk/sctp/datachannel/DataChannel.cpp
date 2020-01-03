@@ -9304,7 +9304,10 @@ channel
 mStream
 )
 ;
-}
+SendOutgoingStreamReset
+(
+)
+;
 NS_DispatchToMainThread
 (
 new
@@ -9319,6 +9322,7 @@ channel
 )
 )
 ;
+}
 mStreams
 [
 channel
