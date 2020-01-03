@@ -1322,6 +1322,14 @@ registerGlobalExceptionHandler
 (
 )
 {
+if
+(
+systemUncaughtHandler
+=
+=
+null
+)
+{
 systemUncaughtHandler
 =
 Thread
@@ -1330,6 +1338,7 @@ getDefaultUncaughtExceptionHandler
 (
 )
 ;
+}
 Thread
 .
 setDefaultUncaughtExceptionHandler
@@ -9383,7 +9392,9 @@ if
 (
 AppConstants
 .
-ANDROID_DOWNLOADS_INTEGRATION
+Versions
+.
+feature12Plus
 )
 {
 final
