@@ -14,6 +14,9 @@ h
 class
 nsRubyBaseContainerFrame
 ;
+class
+nsRubyTextContainerFrame
+;
 nsContainerFrame
 *
 NS_NewRubyFrame
@@ -238,6 +241,15 @@ aBaseContainer
 nsReflowStatus
 &
 aStatus
+)
+;
+nsRubyBaseContainerFrame
+*
+PullOneSegment
+(
+ContinuationTraversingState
+&
+aState
 )
 ;
 nscoord
