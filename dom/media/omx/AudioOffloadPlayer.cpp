@@ -1630,7 +1630,7 @@ mObserver
 MediaDecoder
 :
 :
-SeekingStopped
+SimulateSeekResolvedForAudioOffload
 MediaDecoderEventVisibility
 :
 :
@@ -2406,7 +2406,7 @@ mObserver
 MediaDecoder
 :
 :
-SeekingStopped
+SimulateSeekResolvedForAudioOffload
 MediaDecoderEventVisibility
 :
 :
