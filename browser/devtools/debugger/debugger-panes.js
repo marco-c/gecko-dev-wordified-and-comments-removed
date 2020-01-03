@@ -11290,9 +11290,7 @@ L10N
 getStr
 (
 "
-Drag
-and
-dropEvents
+dragAndDropEvents
 "
 )
 ;
@@ -11655,8 +11653,7 @@ L10N
 getStr
 (
 "
-Pointer
-lockEvents
+pointerLockEvents
 "
 )
 ;
