@@ -145,7 +145,7 @@ listdir
 (
 OUR_DIR
 )
-            
+             
 if
 p
 .
@@ -497,7 +497,7 @@ _state
 version
 '
 ]
-            
+                         
 WebIDLCodegenManagerState
 .
 VERSION

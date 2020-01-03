@@ -46,7 +46,7 @@ category
 '
 misc
 '
-        
+             
 description
 =
 '
@@ -71,7 +71,7 @@ nargs
 '
 +
 '
-        
+                     
 help
 =
 '
@@ -138,7 +138,7 @@ category
 '
 testing
 '
-        
+             
 description
 =
 '
@@ -170,7 +170,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -214,7 +214,7 @@ other
 -
 licenses
 '
-            
+                        
 '
 ply
 '
