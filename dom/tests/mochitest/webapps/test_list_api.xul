@@ -396,6 +396,11 @@ getAll
 "
 function
 "
+getIcon
+:
+"
+function
+"
 getNotInstalled
 :
 "
