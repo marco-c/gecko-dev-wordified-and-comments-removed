@@ -569,14 +569,11 @@ TrackInfo
 TrackType
 mType
 ;
-uint32_t
-mNextSampleIndex
-;
 media
 :
 :
-TimeUnit
-mNextSampleTime
+TimeIntervals
+mBufferedRanges
 ;
 Monitor
 mMonitor
