@@ -235,6 +235,17 @@ properties
 ref
 .
 html
+fuzzy
+-
+if
+(
+Android
+|
+|
+B2G
+16
+22
+)
 =
 =
 background
@@ -253,6 +264,9 @@ zoom
 ref
 .
 html
+#
+Bug
+1128229
 =
 =
 background
