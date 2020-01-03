@@ -147,6 +147,11 @@ TestThreadPool
 .
 cpp
 '
+'
+TestTimeStamp
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
