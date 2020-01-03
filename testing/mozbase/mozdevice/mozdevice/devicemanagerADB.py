@@ -5500,12 +5500,21 @@ self
 )
 :
         
+def
+_noOutput
+(
+line
+)
+:
+            
+pass
+        
 try
 :
             
-self
-.
-_checkCmd
+proc
+=
+ProcessHandler
 (
 [
 "
@@ -5516,6 +5525,24 @@ zip
 ?
 "
 ]
+storeOutput
+=
+False
+processOutputLine
+=
+_noOutput
+)
+            
+proc
+.
+run
+(
+)
+            
+proc
+.
+wait
+(
 )
         
 except
