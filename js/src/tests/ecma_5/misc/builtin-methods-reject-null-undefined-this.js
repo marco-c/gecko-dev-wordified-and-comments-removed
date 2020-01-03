@@ -232,9 +232,6 @@ Date
 :
 [
 "
-toString
-"
-"
 toDateString
 "
 "
