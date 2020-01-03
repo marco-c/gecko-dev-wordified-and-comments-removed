@@ -340,10 +340,10 @@ return
 NS_OK
 ;
 }
-*
 _vp
-=
-STRING_TO_JSVAL
+-
+>
+setString
 (
 str
 )

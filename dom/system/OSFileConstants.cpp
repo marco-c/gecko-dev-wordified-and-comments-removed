@@ -2769,7 +2769,10 @@ Value
 valValue
 (
 cx
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 strValue
 )
@@ -3093,7 +3096,10 @@ Value
 valVersion
 (
 cx
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 strVersion
 )
@@ -3197,7 +3203,10 @@ Value
 valVersion
 (
 cx
-STRING_TO_JSVAL
+JS
+:
+:
+StringValue
 (
 strVersion
 )
