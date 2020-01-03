@@ -769,7 +769,7 @@ this
 .
 view
 .
-highlight
+selectElement
 (
 null
 )
@@ -815,7 +815,7 @@ this
 .
 view
 .
-highlight
+selectElement
 (
 this
 .
@@ -1209,7 +1209,7 @@ this
 .
 view
 .
-highlight
+selectElement
 (
 null
 )
@@ -1294,7 +1294,7 @@ this
 .
 view
 .
-highlight
+selectElement
 (
 null
 )
@@ -1340,7 +1340,7 @@ this
 .
 view
 .
-highlight
+selectElement
 (
 this
 .

@@ -5972,7 +5972,7 @@ null
 ;
 this
 .
-highlight
+selectElement
 (
 element
 )
@@ -6352,7 +6352,7 @@ destroy
 )
 ;
 }
-highlight
+selectElement
 :
 function
 (

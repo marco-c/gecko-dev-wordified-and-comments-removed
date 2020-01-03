@@ -1391,7 +1391,7 @@ refreshPanel
 ;
 }
 }
-highlight
+selectElement
 :
 function
 (
