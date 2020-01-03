@@ -596,17 +596,12 @@ nsPoint
 aPoint
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 nsCString
 ToString
 (
 )
 const
 ;
-#
-endif
 uint32_t
 GetCommonRoundedRectCount
 (

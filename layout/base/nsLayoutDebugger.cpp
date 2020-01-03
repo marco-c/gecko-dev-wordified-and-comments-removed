@@ -391,9 +391,6 @@ NS_ERROR_FAILURE
 }
 #
 endif
-#
-ifdef
-MOZ_DUMP_PAINTING
 std
 :
 :
@@ -640,6 +637,9 @@ aBuilder
 snap
 )
 ;
+#
+ifdef
+MOZ_DUMP_PAINTING
 if
 (
 aDumpHtml
@@ -716,6 +716,8 @@ BeginReading
 )
 ;
 }
+#
+endif
 aStream
 <
 <
@@ -1130,6 +1132,9 @@ WriteDebugInfo
 aStream
 )
 ;
+#
+ifdef
+MOZ_DUMP_PAINTING
 if
 (
 aDumpHtml
@@ -1154,6 +1159,8 @@ a
 "
 ;
 }
+#
+endif
 uint32_t
 key
 =
@@ -1241,6 +1248,9 @@ layer
 ;
 }
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
 if
 (
 aItem
@@ -1287,6 +1297,8 @@ get
 )
 ;
 }
+#
+endif
 aStream
 <
 <
@@ -1509,6 +1521,9 @@ aDumpHtml
 )
 ;
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
 static
 void
 PrintDisplayListSetItem

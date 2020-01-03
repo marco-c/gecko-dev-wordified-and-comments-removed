@@ -597,9 +597,6 @@ void
 aCallbackData
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 static
 void
 DumpRetainedLayerTree
@@ -619,8 +616,6 @@ aDumpHtml
 false
 )
 ;
-#
-endif
 void
 AddLayerDisplayItem
 (

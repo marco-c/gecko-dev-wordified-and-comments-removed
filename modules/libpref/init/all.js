@@ -14606,9 +14606,6 @@ frame_rate
 1
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 pref
 (
 "
@@ -14623,8 +14620,6 @@ dump
 false
 )
 ;
-#
-endif
 pref
 (
 "

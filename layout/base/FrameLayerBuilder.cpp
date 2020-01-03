@@ -22004,9 +22004,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 FrameLayerBuilder
 :
@@ -22038,8 +22035,6 @@ aDumpHtml
 )
 ;
 }
-#
-endif
 gfx
 :
 :
