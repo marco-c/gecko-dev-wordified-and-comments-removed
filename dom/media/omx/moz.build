@@ -186,7 +186,7 @@ AudioOutput
 h
 '
 '
-AudioSink
+GonkAudioSink
 .
 h
 '

@@ -34,7 +34,7 @@ h
 #
 include
 "
-AudioSink
+GonkAudioSink
 .
 h
 "
@@ -45,7 +45,7 @@ class
 AudioOutput
 :
 public
-AudioSink
+GonkAudioSink
 {
 typedef
 android

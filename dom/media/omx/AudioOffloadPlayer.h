@@ -319,7 +319,7 @@ android
 :
 sp
 <
-AudioSink
+GonkAudioSink
 >
 mAudioSink
 ;
@@ -383,7 +383,7 @@ static
 size_t
 AudioSinkCallback
 (
-AudioSink
+GonkAudioSink
 *
 aAudioSink
 void
@@ -394,7 +394,7 @@ aSize
 void
 *
 aMe
-AudioSink
+GonkAudioSink
 :
 :
 cb_event_t
@@ -468,7 +468,7 @@ android
 :
 sp
 <
-AudioSink
+GonkAudioSink
 >
 &
 aSink
