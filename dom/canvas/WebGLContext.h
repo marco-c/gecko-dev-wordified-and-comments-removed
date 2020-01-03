@@ -5915,10 +5915,10 @@ InitWebGL2
 (
 )
 ;
-GLenum
+TexFormat
 BaseTexFormat
 (
-GLenum
+TexInternalFormat
 internalFormat
 )
 const
