@@ -2177,13 +2177,12 @@ XInitThreads
 endif
 #
 if
-defined
-(
 MOZ_WIDGET_GTK
-)
-g_thread_init
+=
+=
+2
+XRE_GlibInit
 (
-nullptr
 )
 ;
 #
