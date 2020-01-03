@@ -2718,17 +2718,6 @@ security
 .
 ssl3
 .
-dhe_dss_aes_128_sha
-"
-TLS_DHE_DSS_WITH_AES_128_CBC_SHA
-false
-}
-{
-"
-security
-.
-ssl3
-.
 ecdhe_rsa_rc4_128_sha
 "
 TLS_ECDHE_RSA_WITH_RC4_128_SHA
