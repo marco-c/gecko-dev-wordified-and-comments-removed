@@ -707,12 +707,7 @@ stateType
 mState
 ;
 uint32_t
-mRequestHeadersDone
-:
-1
-;
-uint32_t
-mOpenGenerated
+mAllHeadersSent
 :
 1
 ;
@@ -746,11 +741,6 @@ char
 uint32_t
 uint32_t
 *
-)
-;
-nsresult
-GenerateOpen
-(
 )
 ;
 void
