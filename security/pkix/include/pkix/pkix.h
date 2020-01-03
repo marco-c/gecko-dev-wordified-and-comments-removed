@@ -66,7 +66,6 @@ TrustDomain
 &
 trustDomain
 const
-struct
 CertID
 &
 certID

@@ -849,7 +849,6 @@ RegisterErrorTable
 {
 static
 const
-struct
 PRErrorMessage
 ErrorTableText
 [
@@ -1038,7 +1037,6 @@ address
 ;
 static
 const
-struct
 PRErrorTable
 ErrorTable
 =
