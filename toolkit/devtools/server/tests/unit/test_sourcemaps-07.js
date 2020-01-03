@@ -125,7 +125,7 @@ content
 "
 )
 ;
-gClient
+gThreadClient
 .
 addOneTimeListener
 (

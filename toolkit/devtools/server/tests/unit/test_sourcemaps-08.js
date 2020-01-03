@@ -112,7 +112,7 @@ test_source_maps
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (

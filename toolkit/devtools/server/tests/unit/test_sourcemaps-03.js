@@ -525,7 +525,7 @@ js
 ]
 )
 ;
-gClient
+gThreadClient
 .
 addListener
 (
@@ -562,7 +562,7 @@ size
 return
 ;
 }
-gClient
+gThreadClient
 .
 removeListener
 (

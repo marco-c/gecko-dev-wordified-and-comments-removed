@@ -160,7 +160,7 @@ promise
 =
 waitForNewSource
 (
-client
+threadClient
 SOURCE_URL
 )
 ;

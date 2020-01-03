@@ -86,7 +86,7 @@ test_simple_new_source
 (
 )
 {
-gClient
+gThreadClient
 .
 addOneTimeListener
 (
