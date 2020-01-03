@@ -196,6 +196,7 @@ PR_FAILURE
 }
 class
 NSSTestKeyPair
+final
 :
 public
 TestKeyPair
@@ -228,7 +229,6 @@ privateKey
 )
 {
 }
-virtual
 Result
 SignData
 (
@@ -245,6 +245,7 @@ ByteString
 signature
 )
 const
+override
 {
 if
 (
@@ -447,13 +448,13 @@ return
 Success
 ;
 }
-virtual
 TestKeyPair
 *
 Clone
 (
 )
 const
+override
 {
 ScopedSECKEYPrivateKey
 privateKeyCopy

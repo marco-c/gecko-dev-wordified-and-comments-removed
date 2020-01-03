@@ -49,13 +49,13 @@ test
 ;
 class
 CreateEncodedOCSPRequestTrustDomain
+final
 :
 public
 TrustDomain
 {
 private
 :
-virtual
 Result
 GetCertTrust
 (
@@ -67,6 +67,7 @@ Input
 TrustLevel
 &
 )
+override
 {
 ADD_FAILURE
 (
@@ -79,7 +80,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 FindIssuer
 (
@@ -88,6 +88,7 @@ IssuerChecker
 &
 Time
 )
+override
 {
 ADD_FAILURE
 (
@@ -100,7 +101,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -116,6 +116,7 @@ const
 Input
 *
 )
+override
 {
 ADD_FAILURE
 (
@@ -128,7 +129,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -137,6 +137,7 @@ DERArray
 &
 Time
 )
+override
 {
 ADD_FAILURE
 (
@@ -149,7 +150,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -158,6 +158,7 @@ SignedDataWithSignature
 &
 Input
 )
+override
 {
 ADD_FAILURE
 (
@@ -170,7 +171,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -182,6 +182,7 @@ digestBuf
 size_t
 digestBufLen
 )
+override
 {
 return
 TestDigestBuf
@@ -192,13 +193,13 @@ digestBufLen
 )
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+override
 {
 ADD_FAILURE
 (

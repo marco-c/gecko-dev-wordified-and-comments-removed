@@ -45,6 +45,7 @@ Reader
 ;
 class
 Input
+final
 {
 public
 :
@@ -282,6 +283,7 @@ GetLength
 }
 class
 Reader
+final
 {
 public
 :
@@ -880,6 +882,7 @@ end
 }
 class
 Mark
+final
 {
 private
 :

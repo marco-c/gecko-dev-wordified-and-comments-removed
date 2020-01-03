@@ -47,6 +47,7 @@ pkix
 {
 class
 Time
+final
 {
 public
 :

@@ -184,13 +184,13 @@ extensions
 }
 class
 TrustEverythingTrustDomain
+final
 :
 public
 TrustDomain
 {
 private
 :
-virtual
 Result
 GetCertTrust
 (
@@ -204,6 +204,7 @@ TrustLevel
 &
 trustLevel
 )
+override
 {
 trustLevel
 =
@@ -216,7 +217,6 @@ return
 Success
 ;
 }
-virtual
 Result
 FindIssuer
 (
@@ -225,6 +225,7 @@ IssuerChecker
 &
 Time
 )
+override
 {
 ADD_FAILURE
 (
@@ -237,7 +238,6 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckRevocation
 (
@@ -253,12 +253,12 @@ const
 Input
 *
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 IsChainValid
 (
@@ -267,12 +267,12 @@ DERArray
 &
 Time
 )
+override
 {
 return
 Success
 ;
 }
-virtual
 Result
 VerifySignedData
 (
@@ -283,6 +283,7 @@ signedData
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestVerifySignedData
@@ -292,7 +293,6 @@ subjectPublicKeyInfo
 )
 ;
 }
-virtual
 Result
 DigestBuf
 (
@@ -301,6 +301,7 @@ uint8_t
 *
 size_t
 )
+override
 {
 ADD_FAILURE
 (
@@ -313,13 +314,13 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
-virtual
 Result
 CheckPublicKey
 (
 Input
 subjectPublicKeyInfo
 )
+override
 {
 return
 TestCheckPublicKey

@@ -82,6 +82,7 @@ IssuerChecker
 }
 class
 PathBuildingStep
+final
 :
 public
 TrustDomain
@@ -177,6 +178,7 @@ bool
 &
 keepGoing
 )
+override
 ;
 Result
 CheckResult

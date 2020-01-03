@@ -35,6 +35,7 @@ T
 >
 class
 ScopedPtr
+final
 {
 public
 :
