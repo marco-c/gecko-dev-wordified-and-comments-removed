@@ -282,7 +282,7 @@ take
 &
 timeout
 =
-3
+5
 &
 reportID
 =
