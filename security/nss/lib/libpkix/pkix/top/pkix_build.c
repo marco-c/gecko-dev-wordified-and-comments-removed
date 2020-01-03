@@ -2466,10 +2466,10 @@ date2
 =
 NULL
 ;
-PKIX_Boolean
+PKIX_Int32
 result
 =
-PKIX_FALSE
+0
 ;
 PKIX_ENTER
 (
@@ -2564,7 +2564,7 @@ PKIX_OBJECTCOMPARATORFAILED
 *
 pResult
 =
-!
+-
 result
 ;
 cleanup

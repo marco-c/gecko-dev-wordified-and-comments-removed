@@ -39,6 +39,12 @@ gtest
 .
 h
 "
+std
+:
+:
+string
+g_working_dir_path
+;
 int
 main
 (
@@ -62,11 +68,7 @@ argc
 argv
 )
 ;
-std
-:
-:
-string
-path
+g_working_dir_path
 =
 "
 .
@@ -104,7 +106,7 @@ d
 )
 )
 {
-path
+g_working_dir_path
 =
 argv
 [
@@ -121,7 +123,7 @@ i
 }
 NSS_Initialize
 (
-path
+g_working_dir_path
 .
 c_str
 (
