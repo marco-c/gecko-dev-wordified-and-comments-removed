@@ -1259,6 +1259,10 @@ gtk_print_settings_copy
 )
 STUB
 (
+gtk_print_settings_foreach
+)
+STUB
+(
 gtk_print_settings_get
 )
 STUB
