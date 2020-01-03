@@ -65960,9 +65960,7 @@ contactType
 )
 {
 case
-"
-adn
-"
+GECKO_CARDCONTACT_TYPE_ADN
 :
 if
 (
@@ -65999,9 +65997,7 @@ onerror
 break
 ;
 case
-"
-fdn
-"
+GECKO_CARDCONTACT_TYPE_FDN
 :
 ICCRecordHelper
 .
@@ -66015,9 +66011,7 @@ onerror
 break
 ;
 case
-"
-sdn
-"
+GECKO_CARDCONTACT_TYPE_SDN
 :
 let
 ICCUtilsHelper
@@ -66117,9 +66111,7 @@ contactType
 )
 {
 case
-"
-adn
-"
+GECKO_CARDCONTACT_TYPE_ADN
 :
 if
 (
@@ -66187,9 +66179,7 @@ onerror
 break
 ;
 case
-"
-fdn
-"
+GECKO_CARDCONTACT_TYPE_FDN
 :
 ICCRecordHelper
 .
@@ -66484,9 +66474,7 @@ contactType
 )
 {
 case
-"
-adn
-"
+GECKO_CARDCONTACT_TYPE_ADN
 :
 if
 (
@@ -66526,9 +66514,7 @@ onerror
 break
 ;
 case
-"
-fdn
-"
+GECKO_CARDCONTACT_TYPE_FDN
 :
 if
 (
