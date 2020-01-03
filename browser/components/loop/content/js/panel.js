@@ -1216,6 +1216,14 @@ function
 (
 )
 {
+navigator
+.
+mozLoop
+.
+openFxASettings
+(
+)
+;
 }
 handleClickAuthEntry
 :
@@ -1383,6 +1391,9 @@ onClick
 this
 .
 handleClickSettingsEntry
+displayed
+:
+false
 icon
 :
 "
@@ -2278,7 +2289,7 @@ navigator
 .
 mozLoop
 .
-loggedInToFxA
+userProfile
 )
 {
 return
