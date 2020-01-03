@@ -14726,7 +14726,6 @@ pn_next
 {
 if
 (
-!
 element
 -
 >
@@ -14735,7 +14734,8 @@ isKind
 PNK_ELISION
 )
 )
-{
+continue
+;
 ParseNode
 *
 target
@@ -14905,7 +14905,6 @@ ok
 return
 false
 ;
-}
 }
 }
 else
