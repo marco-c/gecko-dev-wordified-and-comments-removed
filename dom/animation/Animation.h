@@ -261,14 +261,11 @@ nullptr
 ;
 }
 enum
+class
 LimitBehavior
 {
 AutoRewind
-=
-0
 Continue
-=
-1
 }
 ;
 KeyframeEffectReadonly
