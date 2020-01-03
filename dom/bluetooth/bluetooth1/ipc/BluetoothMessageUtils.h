@@ -79,7 +79,7 @@ dom
 bluetooth
 :
 :
-NUM_TYPE
+TYPE_INVALID
 >
 {
 }
