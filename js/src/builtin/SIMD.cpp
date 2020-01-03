@@ -1493,7 +1493,7 @@ SimdTypeDescr
 cx
 funcProto
 global
-TenuredObject
+SingletonObject
 )
 ;
 if
@@ -1647,7 +1647,7 @@ TypedProto
 cx
 objProto
 nullptr
-TenuredObject
+SingletonObject
 )
 ;
 if
