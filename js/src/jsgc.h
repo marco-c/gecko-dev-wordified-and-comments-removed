@@ -191,15 +191,6 @@ GetCPUCount
 )
 ;
 enum
-HeapState
-{
-Idle
-Tracing
-MajorCollecting
-MinorCollecting
-}
-;
-enum
 ThreadType
 {
 MainThread

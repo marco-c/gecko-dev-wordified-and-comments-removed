@@ -4618,6 +4618,16 @@ false
 ;
 }
 }
+MOZ_ASSERT
+(
+rt
+-
+>
+isHeapMajorCollecting
+(
+)
+)
+;
 if
 (
 keep
@@ -4626,6 +4636,8 @@ keep
 rt
 -
 >
+gc
+.
 isHeapCompacting
 (
 )

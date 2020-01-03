@@ -659,6 +659,8 @@ isHeapMajorCollecting
 rt
 -
 >
+gc
+.
 isHeapCompacting
 (
 )
