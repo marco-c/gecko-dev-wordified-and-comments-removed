@@ -1134,7 +1134,7 @@ mMutex
 ;
 if
 (
-mActorDestoryed
+mActorDestroyed
 )
 return
 false
@@ -1176,7 +1176,7 @@ Mutex
 mMutex
 ;
 bool
-mActorDestoryed
+mActorDestroyed
 ;
 nsTArray
 <
