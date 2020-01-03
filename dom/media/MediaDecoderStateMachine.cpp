@@ -9706,6 +9706,10 @@ HasAudio
 HasVideo
 (
 )
+&
+&
+!
+mSentFirstFrameLoadedEvent
 )
 {
 mAmpleAudioThresholdUsecs
