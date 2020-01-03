@@ -147,7 +147,7 @@ layout_width
 "
 dimen
 /
-tabs_panel_indicator_width
+tabs_panel_button_width
 "
 android
 :
@@ -163,7 +163,7 @@ minWidth
 "
 dimen
 /
-tabs_panel_indicator_width
+tabs_panel_button_width
 "
 android
 :
