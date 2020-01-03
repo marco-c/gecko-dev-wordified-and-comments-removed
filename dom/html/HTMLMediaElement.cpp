@@ -13920,6 +13920,10 @@ StopProgress
 )
 ;
 }
+AddRemoveSelfReference
+(
+)
+;
 }
 void
 HTMLMediaElement
@@ -15911,6 +15915,11 @@ CanActivateAutoplay
 )
 |
 |
+(
+mMediaSource
+?
+mProgressTimer
+:
 mNetworkState
 =
 =
@@ -15918,6 +15927,7 @@ nsIDOMHTMLMediaElement
 :
 :
 NETWORK_LOADING
+)
 )
 ;
 if
