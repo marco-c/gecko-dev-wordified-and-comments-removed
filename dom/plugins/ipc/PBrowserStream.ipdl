@@ -245,6 +245,15 @@ __delete__
 ;
 parent
 :
+async
+AsyncNPP_NewStreamResult
+(
+NPError
+rv
+uint16_t
+stype
+)
+;
 intr
 NPN_RequestRead
 (
