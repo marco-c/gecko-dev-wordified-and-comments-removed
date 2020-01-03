@@ -623,6 +623,12 @@ displayResults
 =
 true
 ;
+var
+gServerAddress
+;
+var
+SERVER_PORT
+;
 function
 runServer
 (
@@ -992,6 +998,7 @@ serverAlive
 0
 )
 ;
+var
 data
 =
 "
@@ -2477,6 +2484,7 @@ RegExp
 testPrefix
 )
 ;
+var
 pathPieces
 =
 filename
@@ -2850,6 +2858,7 @@ invisible
 "
 "
 ;
+var
 spacer
 =
 "
