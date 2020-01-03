@@ -361,7 +361,7 @@ this
 virtual
 JSObject
 *
-WrapObject
+WrapNode
 (
 JSContext
 *

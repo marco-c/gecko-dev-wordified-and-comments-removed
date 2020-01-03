@@ -1571,7 +1571,7 @@ JSObject
 Attr
 :
 :
-WrapObject
+WrapNode
 (
 JSContext
 *
