@@ -192,6 +192,13 @@ layout_height
 "
 match_parent
 "
+android
+:
+enabled
+=
+"
+false
+"
 >
 <
 LinearLayout
