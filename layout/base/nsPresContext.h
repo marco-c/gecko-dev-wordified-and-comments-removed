@@ -3487,6 +3487,11 @@ endif
 protected
 :
 void
+Destroy
+(
+)
+;
+void
 InvalidatePaintedLayers
 (
 )
