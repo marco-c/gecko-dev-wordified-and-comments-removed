@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -838,12 +831,6 @@ nsresult
 FetchPermissions
 (
 )
-;
-nsCOMPtr
-<
-nsIObserverService
->
-mObserverService
 ;
 nsCOMPtr
 <
