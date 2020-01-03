@@ -1187,7 +1187,7 @@ if
 acc
 )
 return
-false
+true
 ;
 auto
 type
@@ -1388,10 +1388,10 @@ aID
 if
 (
 !
-aID
+acc
 )
 return
-false
+true
 ;
 #
 define
