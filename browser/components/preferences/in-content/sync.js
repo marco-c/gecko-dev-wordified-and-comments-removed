@@ -2311,7 +2311,9 @@ style
 removeProperty
 (
 "
-background
+list
+-
+style
 -
 image
 "
@@ -2442,7 +2444,7 @@ fxaProfileImage
 .
 style
 .
-backgroundImage
+listStyleImage
 =
 bgImage
 ;
