@@ -10605,6 +10605,9 @@ aRv
 AutoNoJSAPI
 nojsapi
 ;
+nsresult
+rv
+;
 nsCOMPtr
 <
 nsISupports
@@ -10614,6 +10617,8 @@ implISupports
 do_CreateInstance
 (
 aContractId
+&
+rv
 )
 ;
 if
@@ -10639,7 +10644,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_FAILURE
+rv
 )
 ;
 return
@@ -10676,7 +10681,6 @@ initReturn
 aCx
 )
 ;
-nsresult
 rv
 =
 gpi
@@ -10753,6 +10757,8 @@ implWrapped
 do_QueryInterface
 (
 implISupports
+&
+rv
 )
 ;
 MOZ_ASSERT
@@ -10781,7 +10787,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_FAILURE
+rv
 )
 ;
 return
