@@ -247,9 +247,7 @@ this
 _onBodyClick
 )
 ;
-this
-.
-documentBody
+rootObject
 .
 addEventListener
 (
@@ -288,6 +286,15 @@ getDOMNode
 (
 )
 ;
+if
+(
+!
+menuNode
+)
+{
+return
+;
+}
 var
 menuNodeRect
 =
@@ -414,9 +421,7 @@ this
 _onBodyClick
 )
 ;
-this
-.
-documentBody
+rootObject
 .
 removeEventListener
 (

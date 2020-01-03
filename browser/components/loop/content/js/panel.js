@@ -932,11 +932,6 @@ ul
 className
 :
 availabilityDropdown
-onMouseLeave
-:
-this
-.
-hideDropdownMenu
 }
 React
 .
@@ -2107,11 +2102,6 @@ state
 showMenu
 }
 )
-onMouseLeave
-:
-this
-.
-hideDropdownMenu
 }
 React
 .
