@@ -28559,6 +28559,9 @@ MOZ_OVERRIDE
 {
 if
 (
+false
+&
+&
 regexp
 (
 )
@@ -28743,6 +28746,9 @@ MOZ_OVERRIDE
 {
 if
 (
+false
+&
+&
 regexp
 (
 )
@@ -28993,6 +28999,9 @@ MOZ_OVERRIDE
 {
 if
 (
+false
+&
+&
 pattern
 (
 )
