@@ -347,7 +347,7 @@ aTracker
 ;
 AnimationPlayerCollection
 *
-GetAnimationPlayers
+GetAnimations
 (
 dom
 :

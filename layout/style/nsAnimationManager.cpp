@@ -1058,7 +1058,7 @@ AnimationPlayerCollection
 *
 collection
 =
-GetAnimationPlayers
+GetAnimations
 (
 aElement
 aStyleContext
@@ -1598,7 +1598,7 @@ else
 {
 collection
 =
-GetAnimationPlayers
+GetAnimations
 (
 aElement
 aStyleContext
