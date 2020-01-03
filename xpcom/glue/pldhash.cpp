@@ -2505,9 +2505,8 @@ if
 entry
 )
 {
-PL_DHashTableRawRemove
+RawRemove
 (
-this
 entry
 )
 ;
