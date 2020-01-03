@@ -385,6 +385,12 @@ not
 :
 hover
 )
+:
+not
+(
+.
+selected
+)
 .
 remove
 -
@@ -400,6 +406,10 @@ remove
 -
 button
 {
+padding
+:
+0
+;
 width
 :
 16px
