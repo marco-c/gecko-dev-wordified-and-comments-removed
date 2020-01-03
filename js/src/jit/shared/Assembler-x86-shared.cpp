@@ -531,7 +531,7 @@ TraceDataRelocations
 trc
 masm
 .
-buffer
+data
 (
 )
 reader
