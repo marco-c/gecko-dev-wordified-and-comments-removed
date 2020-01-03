@@ -227,7 +227,7 @@ isFunctionFrame
 ?
 iter
 .
-callee
+calleeTemplate
 (
 )
 -
