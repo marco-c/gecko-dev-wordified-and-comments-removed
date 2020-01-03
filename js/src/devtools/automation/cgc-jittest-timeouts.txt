@@ -1,3 +1,10 @@
+asm
+.
+js
+/
+testParallelCompile
+.
+js
 auto
 -
 regress
