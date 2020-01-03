@@ -1168,7 +1168,7 @@ iframe
 addEventListener
 (
 "
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 "
 function
 selectchangeforselectall
@@ -1181,7 +1181,7 @@ iframe
 removeEventListener
 (
 "
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 "
 selectchangeforselectall
 true
@@ -1192,7 +1192,7 @@ ok
 true
 "
 got
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 event
 .
 "
