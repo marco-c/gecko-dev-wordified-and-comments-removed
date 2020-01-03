@@ -11688,6 +11688,14 @@ currentTimeChanged
 "
 )
 ;
+mDropAudioUntilNextDiscontinuity
+=
+false
+;
+mDropVideoUntilNextDiscontinuity
+=
+false
+;
 nsresult
 rv
 =
