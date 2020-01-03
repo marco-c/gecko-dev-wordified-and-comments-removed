@@ -7347,6 +7347,7 @@ aOther
 )
 ;
 }
+explicit
 nsAutoArrayBase
 (
 const
