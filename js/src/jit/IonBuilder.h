@@ -3586,6 +3586,15 @@ char
 reason
 )
 ;
+bool
+hasCommonInliningPath
+(
+const
+JSScript
+*
+scriptToInline
+)
+;
 InliningDecision
 canInlineTarget
 (
