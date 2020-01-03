@@ -2130,6 +2130,12 @@ SeekTarget
 aTarget
 )
 ;
+bool
+IsHeuristicDormantSupported
+(
+)
+const
+;
 MediaPromiseRequestHolder
 <
 SeekPromise
