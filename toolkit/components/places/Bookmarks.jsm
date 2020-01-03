@@ -4969,6 +4969,12 @@ url
 =
 :
 url
+AND
+_grandParentId
+<
+>
+:
+tags_folder
 ORDER
 BY
 b
@@ -4983,6 +4989,11 @@ info
 url
 .
 href
+tags_folder
+:
+PlacesUtils
+.
+tagsFolderId
 }
 )
 ;
