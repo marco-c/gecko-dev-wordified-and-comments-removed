@@ -188,8 +188,6 @@ nsString
 [
 ]
 filterNames
-nsString
-displayDirectory
 )
 ;
 child
