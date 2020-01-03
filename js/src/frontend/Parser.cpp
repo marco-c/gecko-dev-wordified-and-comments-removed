@@ -35960,6 +35960,16 @@ newRegExp
 (
 )
 {
+MOZ_ASSERT
+(
+!
+options
+(
+)
+.
+selfHostingMode
+)
+;
 const
 char16_t
 *

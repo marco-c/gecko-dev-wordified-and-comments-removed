@@ -6239,6 +6239,15 @@ regexp_test_no_statics
 2
 0
 )
+JS_FN
+(
+"
+regexp_construct_no_statics
+"
+regexp_construct_no_statics
+2
+0
+)
 JS_FS_END
 }
 ;
