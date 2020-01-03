@@ -143,7 +143,7 @@ abs_delta
 =
 abs_delta
 ;
-vpx_memcpy
+memcpy
 (
 seg
 -
@@ -722,6 +722,7 @@ TileInfo
 tile
 MODE_INFO
 *
+*
 mi
 int
 *
@@ -787,8 +788,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -842,8 +841,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -891,8 +888,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -941,6 +936,7 @@ TileInfo
 *
 tile
 MODE_INFO
+*
 *
 mi
 int
@@ -1021,8 +1017,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -1038,8 +1032,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -1364,7 +1356,7 @@ t_nopred_prob
 PREDICTION_PROBS
 ]
 ;
-vpx_memset
+memset
 (
 seg
 -
@@ -1380,7 +1372,7 @@ tree_probs
 )
 )
 ;
-vpx_memset
+memset
 (
 seg
 -
@@ -1422,6 +1414,7 @@ tile
 ;
 MODE_INFO
 *
+*
 mi_ptr
 ;
 vp9_tile_init
@@ -1438,7 +1431,7 @@ mi_ptr
 cm
 -
 >
-mi
+mi_grid_visible
 +
 tile
 .
@@ -1473,6 +1466,7 @@ mi_stride
 )
 {
 MODE_INFO
+*
 *
 mi
 =
@@ -1644,7 +1638,7 @@ temporal_update
 =
 1
 ;
-vpx_memcpy
+memcpy
 (
 seg
 -
@@ -1657,7 +1651,7 @@ t_pred_tree
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 seg
 -
@@ -1680,7 +1674,7 @@ temporal_update
 =
 0
 ;
-vpx_memcpy
+memcpy
 (
 seg
 -
@@ -1725,7 +1719,7 @@ update_data
 =
 0
 ;
-vpx_memset
+memset
 (
 seg
 -

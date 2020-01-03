@@ -1,6 +1,8 @@
 #
 include
 "
+.
+/
 vpx_config
 .
 h
@@ -11,6 +13,8 @@ RTCD_C
 #
 include
 "
+.
+/
 vpx_scale_rtcd
 .
 h

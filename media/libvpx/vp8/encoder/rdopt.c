@@ -43,6 +43,15 @@ h
 #
 include
 "
+.
+/
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
 tokenize
 .
 h
@@ -2362,7 +2371,7 @@ sse1
 }
 else
 {
-vp8_variance8x8
+vpx_variance8x8
 (
 uptr
 pre_stride
@@ -2372,7 +2381,7 @@ uv_stride
 sse2
 )
 ;
-vp8_variance8x8
+vpx_variance8x8
 (
 vptr
 pre_stride
@@ -2630,7 +2639,7 @@ ENTROPY_CONTEXT
 *
 tl
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above
@@ -2646,7 +2655,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left
@@ -3190,23 +3199,27 @@ templ
 *
 l
 ;
-DECLARE_ALIGNED_ARRAY
+DECLARE_ALIGNED
 (
 16
 unsigned
 char
 best_predictor
+[
 16
 *
 4
+]
 )
 ;
-DECLARE_ALIGNED_ARRAY
+DECLARE_ALIGNED
 (
 16
 short
 best_dqcoeff
+[
 16
+]
 )
 ;
 int
@@ -3452,7 +3465,7 @@ b
 predictor
 )
 ;
-vpx_memcpy
+memcpy
 (
 best_dqcoeff
 b
@@ -3570,7 +3583,7 @@ int
 *
 bmode_costs
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above
@@ -3586,7 +3599,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left
@@ -4129,7 +4142,7 @@ ENTROPY_CONTEXT
 *
 tl
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above
@@ -4145,7 +4158,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left
@@ -5758,7 +5771,7 @@ ENTROPY_CONTEXT
 *
 tl_b
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above
@@ -5774,7 +5787,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left
@@ -5988,7 +6001,7 @@ ENTROPY_CONTEXT
 *
 tl_s
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_above_s
@@ -6000,7 +6013,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 t_left_s
@@ -6821,7 +6834,7 @@ best_label_rd
 =
 this_rd
 ;
-vpx_memcpy
+memcpy
 (
 ta_b
 ta_s
@@ -6831,7 +6844,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 tl_b
 tl_s
@@ -6843,7 +6856,7 @@ ENTROPY_CONTEXT_PLANES
 ;
 }
 }
-vpx_memcpy
+memcpy
 (
 ta
 ta_b
@@ -6853,7 +6866,7 @@ ENTROPY_CONTEXT_PLANES
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 tl
 tl_b
@@ -7140,7 +7153,7 @@ i
 BEST_SEG_INFO
 bsi
 ;
-vpx_memset
+memset
 (
 &
 bsi
@@ -9202,10 +9215,6 @@ vcnt
 2
 ]
 ;
-find
-=
-1
-;
 *
 sr
 =
@@ -9381,7 +9390,6 @@ xd
 dst
 .
 y_stride
-UINT_MAX
 )
 ;
 }
@@ -9450,7 +9458,6 @@ xd
 dst
 .
 y_stride
-UINT_MAX
 )
 ;
 }
@@ -9497,7 +9504,6 @@ xd
 dst
 .
 y_stride
-UINT_MAX
 )
 ;
 near_sad
@@ -9534,7 +9540,6 @@ xd
 dst
 .
 y_stride
-UINT_MAX
 )
 ;
 near_sad
@@ -9580,7 +9585,6 @@ xd
 dst
 .
 y_stride
-UINT_MAX
 )
 ;
 }
@@ -9745,7 +9749,6 @@ pre_y_stride
 *
 16
 pre_y_stride
-UINT_MAX
 )
 ;
 if
@@ -9782,7 +9785,6 @@ pre_y_buffer
 -
 16
 pre_y_stride
-UINT_MAX
 )
 ;
 near_sad
@@ -9807,7 +9809,6 @@ b
 src_stride
 pre_y_buffer
 pre_y_stride
-UINT_MAX
 )
 ;
 if
@@ -9844,7 +9845,6 @@ pre_y_buffer
 +
 16
 pre_y_stride
-UINT_MAX
 )
 ;
 if
@@ -9883,7 +9883,6 @@ pre_y_stride
 *
 16
 pre_y_stride
-UINT_MAX
 )
 ;
 }
@@ -10368,7 +10367,7 @@ encode_breakout
 ;
 var
 =
-vp8_variance16x16
+vpx_variance16x16
 (
 *
 (
@@ -11102,7 +11101,7 @@ rd
 =
 this_rd
 ;
-vpx_memcpy
+memcpy
 (
 &
 best_mode
@@ -11125,7 +11124,7 @@ MB_MODE_INFO
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 best_mode
@@ -11462,7 +11461,7 @@ intra_rd
 =
 INT_MAX
 ;
-vpx_memset
+memset
 (
 mode_mv_sb
 0
@@ -11472,7 +11471,7 @@ mode_mv_sb
 )
 )
 ;
-vpx_memset
+memset
 (
 &
 best_mode
@@ -11487,7 +11486,7 @@ mbmode
 )
 )
 ;
-vpx_memset
+memset
 (
 &
 best_mode
@@ -12941,10 +12940,6 @@ mv
 .
 as_int
 ;
-n
-=
-0
-;
 further_steps
 =
 (
@@ -14389,10 +14384,6 @@ x
 skip
 )
 {
-best_mode_index
-=
-mode_index
-;
 *
 returnrate
 =
@@ -14549,7 +14540,7 @@ partitioning
 return
 ;
 }
-vpx_memcpy
+memcpy
 (
 &
 x
@@ -14672,7 +14663,7 @@ mv
 .
 as_int
 ;
-vpx_memcpy
+memcpy
 (
 x
 -

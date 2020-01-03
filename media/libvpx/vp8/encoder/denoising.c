@@ -1907,7 +1907,7 @@ return
 1
 ;
 }
-vpx_memset
+memset
 (
 denoiser
 -
@@ -1968,7 +1968,7 @@ return
 1
 ;
 }
-vpx_memset
+memset
 (
 denoiser
 -
@@ -2011,7 +2011,7 @@ return
 1
 ;
 }
-vpx_memset
+memset
 (
 denoiser
 -
@@ -2043,7 +2043,7 @@ num_mb_cols
 1
 )
 ;
-vpx_memset
+memset
 (
 denoiser
 -

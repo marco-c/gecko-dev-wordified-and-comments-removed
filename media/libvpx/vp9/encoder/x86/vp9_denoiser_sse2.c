@@ -883,7 +883,7 @@ shift
 r
 )
 {
-vpx_memcpy
+memcpy
 (
 sig_buffer
 [
@@ -893,7 +893,7 @@ sig
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 sig_buffer
 [
@@ -907,7 +907,7 @@ sig_stride
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 mc_running_buffer
 [
@@ -917,7 +917,7 @@ mc_running_avg_y
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 mc_running_buffer
 [
@@ -931,7 +931,7 @@ mc_avg_y_stride
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_buffer
 [
@@ -941,7 +941,7 @@ running_avg_y
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_buffer
 [
@@ -963,7 +963,7 @@ width
 4
 )
 {
-vpx_memcpy
+memcpy
 (
 sig_buffer
 [
@@ -981,7 +981,7 @@ sig_stride
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 sig_buffer
 [
@@ -999,7 +999,7 @@ sig_stride
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 mc_running_buffer
 [
@@ -1017,7 +1017,7 @@ mc_avg_y_stride
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 mc_running_buffer
 [
@@ -1035,7 +1035,7 @@ mc_avg_y_stride
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_buffer
 [
@@ -1053,7 +1053,7 @@ avg_y_stride
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_buffer
 [
@@ -1105,7 +1105,7 @@ l21
 acc_diff
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_avg_y
 running_buffer
@@ -1115,7 +1115,7 @@ r
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_avg_y
 +
@@ -1137,7 +1137,7 @@ width
 4
 )
 {
-vpx_memcpy
+memcpy
 (
 running_avg_y
 +
@@ -1155,7 +1155,7 @@ width
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_avg_y
 +
@@ -1334,7 +1334,7 @@ k_delta
 acc_diff
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_avg_y
 running_buffer
@@ -1344,7 +1344,7 @@ r
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_avg_y
 +
@@ -1366,7 +1366,7 @@ width
 4
 )
 {
-vpx_memcpy
+memcpy
 (
 running_avg_y
 +
@@ -1384,7 +1384,7 @@ width
 width
 )
 ;
-vpx_memcpy
+memcpy
 (
 running_avg_y
 +

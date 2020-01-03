@@ -824,7 +824,7 @@ dst
 bne
 vp8_dequant_idct_loop2_v6
 ;
-vpx_memset
+memset
 sub
 r0
 r0

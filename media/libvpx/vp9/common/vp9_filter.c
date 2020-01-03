@@ -16,12 +16,16 @@ vp9_filter
 .
 h
 "
+DECLARE_ALIGNED
+(
+256
 const
 InterpKernel
 vp9_bilinear_filters
 [
 SUBPEL_SHIFTS
 ]
+)
 =
 {
 {

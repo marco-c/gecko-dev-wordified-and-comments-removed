@@ -233,8 +233,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -642,7 +640,7 @@ i
 }
 else
 {
-vpx_memset
+memset
 (
 a
 has_eob
@@ -761,7 +759,7 @@ i
 }
 else
 {
-vpx_memset
+memset
 (
 l
 has_eob

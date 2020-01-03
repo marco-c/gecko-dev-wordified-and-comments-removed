@@ -314,6 +314,10 @@ MACROBLOCK
 x
 BLOCK_SIZE
 bsize
+int
+mi_row
+int
+mi_col
 )
 ;
 typedef

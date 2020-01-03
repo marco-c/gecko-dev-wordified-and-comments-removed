@@ -17,6 +17,7 @@ endif
 void
 vp9_temporal_filter_init
 (
+void
 )
 ;
 void

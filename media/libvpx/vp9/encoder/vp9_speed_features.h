@@ -500,12 +500,9 @@ NOT_IN_USE
 RELAXED_NEIGHBORING_MIN_MAX
 =
 1
-CONSTRAIN_NEIGHBORING_MIN_MAX
-=
-2
 STRICT_NEIGHBORING_MIN_MAX
 =
-3
+2
 }
 AUTO_MIN_MAX_MODE
 ;
@@ -698,6 +695,9 @@ AUTO_MIN_MAX_MODE
 auto_min_max_partition_size
 ;
 BLOCK_SIZE
+rd_auto_partition_min_limit
+;
+BLOCK_SIZE
 default_min_partition_size
 ;
 BLOCK_SIZE
@@ -763,6 +763,12 @@ int
 intra_uv_mode_mask
 [
 TX_SIZES
+]
+;
+int
+intra_y_mode_bsize_mask
+[
+BLOCK_SIZES
 ]
 ;
 int

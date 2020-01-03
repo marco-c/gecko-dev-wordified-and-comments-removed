@@ -36,6 +36,7 @@ C
 endif
 typedef
 struct
+vp9_writer
 {
 unsigned
 int

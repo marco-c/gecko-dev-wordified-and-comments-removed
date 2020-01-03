@@ -12,7 +12,7 @@ include
 "
 .
 /
-vpx_scale_rtcd
+vp9_rtcd
 .
 h
 "
@@ -21,7 +21,16 @@ include
 "
 .
 /
-vp9_rtcd
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
+.
+/
+vpx_scale_rtcd
 .
 h
 "
@@ -1067,7 +1076,7 @@ BLOCK_16X16
 vdiff
 =
 (
-vp9_variance16x16
+vpx_variance16x16
 (
 y
 y_stride
@@ -1086,7 +1095,7 @@ sse
 sad
 =
 (
-vp9_sad16x16
+vpx_sad16x16
 (
 y
 y_stride
@@ -1113,7 +1122,7 @@ BLOCK_32X32
 vdiff
 =
 (
-vp9_variance32x32
+vpx_variance32x32
 (
 y
 y_stride
@@ -1132,7 +1141,7 @@ sse
 sad
 =
 (
-vp9_sad32x32
+vpx_sad32x32
 (
 y
 y_stride
@@ -1152,7 +1161,7 @@ else
 vdiff
 =
 (
-vp9_variance64x64
+vpx_variance64x64
 (
 y
 y_stride
@@ -1171,7 +1180,7 @@ sse
 sad
 =
 (
-vp9_sad64x64
+vpx_sad64x64
 (
 y
 y_stride

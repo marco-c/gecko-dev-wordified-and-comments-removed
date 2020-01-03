@@ -17,6 +17,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -13315,7 +13324,7 @@ outptr
 )
 ;
 else
-vpx_memset
+memset
 (
 outptr
 0
@@ -16181,7 +16190,7 @@ x3
 )
 )
 {
-vpx_memset
+memset
 (
 output
 0
@@ -16684,7 +16693,7 @@ x7
 )
 )
 {
-vpx_memset
+memset
 (
 output
 0
@@ -20203,7 +20212,7 @@ x15
 )
 )
 {
-vpx_memset
+memset
 (
 output
 0
@@ -27521,7 +27530,7 @@ bd
 )
 ;
 else
-vpx_memset
+memset
 (
 outptr
 0

@@ -180,6 +180,9 @@ int
 frames_till_gf_update_due
 ;
 int
+min_gf_interval
+;
+int
 max_gf_interval
 ;
 int
@@ -250,6 +253,9 @@ bits_off_target
 ;
 int64_t
 vbr_bits_off_target
+;
+int64_t
+vbr_bits_off_target_fast
 ;
 int
 decimation_factor
@@ -383,6 +389,7 @@ bit_depth
 void
 vp9_rc_init_minq_luts
 (
+void
 )
 ;
 void
@@ -606,7 +613,7 @@ cpi
 )
 ;
 void
-vp9_rc_set_gf_max_interval
+vp9_rc_set_gf_interval_range
 (
 const
 struct

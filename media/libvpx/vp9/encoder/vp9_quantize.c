@@ -17,6 +17,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -146,7 +155,7 @@ eob
 -
 1
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -159,7 +168,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -289,7 +298,7 @@ eob
 -
 1
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -302,7 +311,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -515,7 +524,7 @@ eob
 -
 1
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -528,7 +537,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -668,7 +677,7 @@ eob
 -
 1
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -681,7 +690,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -891,7 +900,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -904,7 +913,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -1140,7 +1149,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -1153,7 +1162,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -1388,7 +1397,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -1401,7 +1410,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -1667,7 +1676,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -1680,7 +1689,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -1986,7 +1995,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -1999,7 +2008,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -2375,7 +2384,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -2388,7 +2397,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -2781,7 +2790,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -2794,7 +2803,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -3182,7 +3191,7 @@ void
 )
 iscan
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
@@ -3195,7 +3204,7 @@ qcoeff_ptr
 )
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0
@@ -4699,8 +4708,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi

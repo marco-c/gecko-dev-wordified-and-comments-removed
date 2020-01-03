@@ -106,7 +106,7 @@ Src
 )
 ;
 \
-vpx_memcpy
+memcpy
 (
 Dest
 Src
@@ -145,7 +145,7 @@ Src
 )
 ;
 \
-vpx_memcpy
+memcpy
 (
 Dest
 Src
@@ -166,7 +166,7 @@ vp8_zero
 (
 Dest
 )
-vpx_memset
+memset
 (
 &
 Dest
@@ -184,7 +184,7 @@ vp8_zero_array
 Dest
 N
 )
-vpx_memset
+memset
 (
 Dest
 0

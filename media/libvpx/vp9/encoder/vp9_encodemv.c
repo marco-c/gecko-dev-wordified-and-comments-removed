@@ -95,6 +95,7 @@ CLASS0_SIZE
 void
 vp9_entropy_mv_init
 (
+void
 )
 {
 vp9_tokens_from_tree
@@ -1782,8 +1783,6 @@ mi
 [
 0
 ]
-.
-src_mi
 ;
 const
 MB_MODE_INFO

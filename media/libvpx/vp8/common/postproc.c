@@ -2502,14 +2502,14 @@ char
 )
 ppl
 ;
-vpx_memset
+memset
 (
 ylptr
 mb_ppl
 16
 )
 ;
-vpx_memset
+memset
 (
 uvlptr
 mb_ppl
@@ -2791,7 +2791,7 @@ void
 )
 flag
 ;
-vpx_memset
+memset
 (
 limits
 (
@@ -2962,8 +2962,9 @@ limits
 }
 }
 }
+static
 double
-vp8_gaussian
+gaussian
 (
 double
 sigma
@@ -3106,7 +3107,7 @@ int
 +
 256
 *
-vp8_gaussian
+gaussian
 (
 sigma
 0
@@ -4902,7 +4903,7 @@ post_proc_buffer_int_used
 =
 1
 ;
-vpx_memset
+memset
 (
 (
 &

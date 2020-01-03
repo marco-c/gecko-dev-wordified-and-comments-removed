@@ -14,6 +14,9 @@ VERSION_PATCH
 define
 VERSION_EXTRA
 "
+488
+-
+ge67d45d
 "
 #
 define
@@ -46,6 +49,10 @@ v1
 4
 .
 0
+-
+488
+-
+ge67d45d
 "
 #
 define
@@ -56,4 +63,8 @@ v1
 4
 .
 0
+-
+488
+-
+ge67d45d
 "

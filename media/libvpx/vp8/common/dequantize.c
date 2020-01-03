@@ -156,7 +156,7 @@ dest
 stride
 )
 ;
-vpx_memset
+memset
 (
 input
 0

@@ -8,6 +8,24 @@ h
 #
 include
 "
+.
+/
+vp9_rtcd
+.
+h
+"
+#
+include
+"
+.
+/
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
 vpx_mem
 /
 vpx_mem
@@ -324,8 +342,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -341,8 +357,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -394,7 +408,7 @@ mv_row_max
 tmp_row_max
 ;
 return
-vp9_sad16x16
+vpx_sad16x16
 (
 x
 -
@@ -497,7 +511,7 @@ tmp_mv
 ;
 err
 =
-vp9_sad16x16
+vpx_sad16x16
 (
 x
 -
@@ -701,7 +715,7 @@ err
 ;
 err
 =
-vp9_sad16x16
+vpx_sad16x16
 (
 x
 -
@@ -842,8 +856,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -910,7 +922,7 @@ stride
 ;
 err
 =
-vp9_sad16x16
+vpx_sad16x16
 (
 x
 -
@@ -1590,8 +1602,6 @@ mi
 [
 0
 ]
-.
-src_mi
 =
 &
 mi_local
@@ -2435,7 +2445,7 @@ mbgraph_stats
 i
 ]
 ;
-vpx_memset
+memset
 (
 frame_stats
 -

@@ -421,7 +421,7 @@ xd
 >
 mb_segement_abs_delta
 ;
-vpx_memcpy
+memcpy
 (
 mbd
 -
@@ -440,7 +440,7 @@ segment_feature_data
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 mbd
 -
@@ -459,7 +459,7 @@ ref_lf_deltas
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 mbd
 -
@@ -512,7 +512,7 @@ mbc
 0
 ]
 ;
-vpx_memcpy
+memcpy
 (
 mbd
 -
@@ -531,7 +531,7 @@ dequant_y1_dc
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 mbd
 -
@@ -550,7 +550,7 @@ dequant_y1
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 mbd
 -
@@ -569,7 +569,7 @@ dequant_y2
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 mbd
 -
@@ -831,7 +831,7 @@ frame_corrupt_residual
 =
 1
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -856,7 +856,7 @@ corruption_detected
 =
 1
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -1024,7 +1024,7 @@ mbmi
 .
 mb_skip_coeff
 )
-vpx_memset
+memset
 (
 xd
 -
@@ -1334,7 +1334,7 @@ dst
 dst_stride
 )
 ;
-vpx_memset
+memset
 (
 b
 -
@@ -1471,7 +1471,7 @@ xd
 qcoeff
 )
 ;
-vpx_memset
+memset
 (
 b
 -
@@ -1535,7 +1535,7 @@ xd
 qcoeff
 )
 ;
-vpx_memset
+memset
 (
 b
 -
@@ -2031,7 +2031,7 @@ pc
 >
 above_context
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -3009,7 +3009,7 @@ mb_rows
 1
 )
 {
-vpx_memcpy
+memcpy
 (
 (
 pbi
@@ -3043,7 +3043,7 @@ recon_y_stride
 16
 )
 ;
-vpx_memcpy
+memcpy
 (
 (
 pbi
@@ -3077,7 +3077,7 @@ recon_uv_stride
 8
 )
 ;
-vpx_memcpy
+memcpy
 (
 (
 pbi
@@ -5375,7 +5375,7 @@ if
 filter_level
 )
 {
-vpx_memset
+memset
 (
 pbi
 -
@@ -5397,7 +5397,7 @@ y_width
 5
 )
 ;
-vpx_memset
+memset
 (
 pbi
 -
@@ -5429,7 +5429,7 @@ y_width
 5
 )
 ;
-vpx_memset
+memset
 (
 pbi
 -
@@ -5479,7 +5479,7 @@ j
 +
 )
 {
-vpx_memset
+memset
 (
 pbi
 -
@@ -5500,7 +5500,7 @@ char
 1
 )
 ;
-vpx_memset
+memset
 (
 pbi
 -
@@ -5526,7 +5526,7 @@ char
 1
 )
 ;
-vpx_memset
+memset
 (
 pbi
 -
@@ -5571,7 +5571,7 @@ j
 +
 )
 {
-vpx_memset
+memset
 (
 pbi
 -
@@ -5588,7 +5588,7 @@ char
 16
 )
 ;
-vpx_memset
+memset
 (
 pbi
 -
@@ -5605,7 +5605,7 @@ char
 8
 )
 ;
-vpx_memset
+memset
 (
 pbi
 -

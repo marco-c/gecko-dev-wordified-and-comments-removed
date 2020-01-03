@@ -867,7 +867,7 @@ frame_corrupt_residual
 =
 1
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -892,7 +892,7 @@ corruption_detected
 =
 1
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -1060,7 +1060,7 @@ mbmi
 .
 mb_skip_coeff
 )
-vpx_memset
+memset
 (
 xd
 -
@@ -1247,7 +1247,7 @@ dst
 dst_stride
 )
 ;
-vpx_memset
+memset
 (
 b
 -
@@ -1384,7 +1384,7 @@ xd
 qcoeff
 )
 ;
-vpx_memset
+memset
 (
 b
 -
@@ -1448,7 +1448,7 @@ xd
 qcoeff
 )
 ;
-vpx_memset
+memset
 (
 b
 -
@@ -1708,7 +1708,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr1
 src_ptr1
@@ -1772,7 +1772,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr1
 src_ptr1
@@ -1824,7 +1824,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr1
 src_ptr1
@@ -1938,7 +1938,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr2
 src_ptr2
@@ -2017,7 +2017,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr2
 src_ptr2
@@ -2077,7 +2077,7 @@ i
 +
 )
 {
-vpx_memcpy
+memcpy
 (
 dest_ptr2
 src_ptr2
@@ -2206,7 +2206,7 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 dest_ptr1
 src_ptr1
@@ -2216,7 +2216,7 @@ src_ptr1
 Border
 )
 ;
-vpx_memset
+memset
 (
 dest_ptr2
 src_ptr2
@@ -2309,7 +2309,7 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 dest_ptr1
 src_ptr1
@@ -2319,7 +2319,7 @@ src_ptr1
 Border
 )
 ;
-vpx_memset
+memset
 (
 dest_ptr2
 src_ptr2
@@ -2389,7 +2389,7 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 dest_ptr1
 src_ptr1
@@ -2399,7 +2399,7 @@ src_ptr1
 Border
 )
 ;
-vpx_memset
+memset
 (
 dest_ptr2
 src_ptr2
@@ -2826,7 +2826,7 @@ pc
 >
 above_context
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -4784,7 +4784,7 @@ frame_type
 KEY_FRAME
 )
 {
-vpx_memcpy
+memcpy
 (
 pc
 -
@@ -4809,7 +4809,7 @@ vp8_default_coef_probs
 pc
 )
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -4832,7 +4832,7 @@ mb_segement_abs_delta
 =
 SEGMENT_DELTADATA
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -4848,7 +4848,7 @@ ref_lf_deltas
 )
 )
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -5657,15 +5657,10 @@ data
 =
 7
 ;
-clear
-+
-=
-7
-;
 }
 else
 {
-vpx_memcpy
+memcpy
 (
 &
 xd
@@ -5679,7 +5674,7 @@ YV12_BUFFER_CONFIG
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 &
 xd
@@ -5873,7 +5868,7 @@ vp8_read_bit
 bc
 )
 ;
-vpx_memset
+memset
 (
 xd
 -
@@ -6007,7 +6002,7 @@ xd
 update_mb_segmentation_map
 )
 {
-vpx_memset
+memset
 (
 xd
 -
@@ -6765,7 +6760,7 @@ refresh_entropy_probs
 0
 )
 {
-vpx_memcpy
+memcpy
 (
 &
 pc
@@ -7087,7 +7082,7 @@ independent_partitions
 ;
 }
 }
-vpx_memset
+memset
 (
 xd
 -
@@ -7147,7 +7142,7 @@ pbi
 }
 #
 endif
-vpx_memset
+memset
 (
 pc
 -
@@ -7345,7 +7340,7 @@ refresh_entropy_probs
 0
 )
 {
-vpx_memcpy
+memcpy
 (
 &
 pc

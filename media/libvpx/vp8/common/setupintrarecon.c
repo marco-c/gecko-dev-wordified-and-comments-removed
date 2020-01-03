@@ -25,7 +25,7 @@ ybf
 int
 i
 ;
-vpx_memset
+memset
 (
 ybf
 -
@@ -85,7 +85,7 @@ char
 )
 129
 ;
-vpx_memset
+memset
 (
 ybf
 -
@@ -145,7 +145,7 @@ char
 )
 129
 ;
-vpx_memset
+memset
 (
 ybf
 -
@@ -214,7 +214,7 @@ YV12_BUFFER_CONFIG
 ybf
 )
 {
-vpx_memset
+memset
 (
 ybf
 -
@@ -236,7 +236,7 @@ y_width
 5
 )
 ;
-vpx_memset
+memset
 (
 ybf
 -
@@ -258,7 +258,7 @@ uv_width
 5
 )
 ;
-vpx_memset
+memset
 (
 ybf
 -

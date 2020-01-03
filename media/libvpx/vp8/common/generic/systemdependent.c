@@ -53,6 +53,17 @@ onyxc_int
 h
 "
 #
+include
+"
+vp8
+/
+common
+/
+systemdependent
+.
+h
+"
+#
 if
 CONFIG_MULTITHREAD
 #

@@ -339,10 +339,6 @@ n
 "
 )
 ;
-mb_index
-=
-0
-;
 fprintf
 (
 mvs
@@ -621,10 +617,6 @@ mvs
 n
 "
 )
-;
-mb_index
-=
-0
 ;
 fprintf
 (

@@ -317,7 +317,7 @@ return
 -
 1
 ;
-vpx_memset
+memset
 (
 int_fb_list
 -

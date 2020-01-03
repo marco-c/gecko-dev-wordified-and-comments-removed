@@ -103,6 +103,17 @@ VP8_COMP
 cpi
 )
 ;
+extern
+int
+vp8_drop_encodedframe_overshoot
+(
+VP8_COMP
+*
+cpi
+int
+Q
+)
+;
 #
 ifdef
 __cplusplus

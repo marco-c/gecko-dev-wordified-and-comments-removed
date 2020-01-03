@@ -3,6 +3,15 @@ include
 "
 .
 /
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
+.
+/
 vpx_scale_rtcd
 .
 h
@@ -207,7 +216,7 @@ y_buffer
 +
 yoffset
 ;
-vpx_memcpy
+memcpy
 (
 dst_y
 src_y
@@ -384,7 +393,7 @@ sse
 Total
 +
 =
-vp8_mse16x16
+vpx_mse16x16
 (
 src
 +
@@ -615,11 +624,6 @@ filt_val
 ;
 int
 best_filt_val
-=
-cm
--
->
-filter_level
 ;
 YV12_BUFFER_CONFIG
 *
@@ -1212,11 +1216,6 @@ filt_high
 ;
 int
 filt_mid
-=
-cm
--
->
-filter_level
 ;
 int
 filt_low
@@ -1253,7 +1252,7 @@ cm
 >
 frame_to_show
 ;
-vpx_memset
+memset
 (
 ss_err
 0

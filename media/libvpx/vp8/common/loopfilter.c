@@ -398,7 +398,7 @@ block_inside_limit
 =
 1
 ;
-vpx_memset
+memset
 (
 lfi
 -
@@ -411,7 +411,7 @@ block_inside_limit
 SIMD_WIDTH
 )
 ;
-vpx_memset
+memset
 (
 lfi
 -
@@ -430,7 +430,7 @@ block_inside_limit
 SIMD_WIDTH
 )
 ;
-vpx_memset
+memset
 (
 lfi
 -
@@ -515,7 +515,7 @@ i
 +
 )
 {
-vpx_memset
+memset
 (
 lfi
 -
@@ -698,7 +698,7 @@ mbd
 mode_ref_lf_delta_enabled
 )
 {
-vpx_memset
+memset
 (
 lfi
 -

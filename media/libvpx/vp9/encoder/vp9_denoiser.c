@@ -987,8 +987,6 @@ mi
 [
 0
 ]
-.
-src_mi
 -
 >
 mbmi
@@ -2059,7 +2057,7 @@ y_height
 r
 )
 {
-vpx_memcpy
+memcpy
 (
 destbuf
 srcbuf

@@ -49,9 +49,6 @@ pbi
 MACROBLOCKD
 *
 xd
-FRAME_COUNTS
-*
-counts
 const
 struct
 TileInfo

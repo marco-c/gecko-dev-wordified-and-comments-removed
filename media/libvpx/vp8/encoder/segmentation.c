@@ -77,7 +77,7 @@ refresh_golden_frame
 )
 )
 {
-vpx_memset
+memset
 (
 cpi
 -

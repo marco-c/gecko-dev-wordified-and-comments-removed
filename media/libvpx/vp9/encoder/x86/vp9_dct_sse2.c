@@ -15,6 +15,15 @@ h
 #
 include
 "
+.
+/
+vp9_rtcd
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -712,6 +721,7 @@ res
 )
 ;
 }
+static
 void
 fdct4_sse2
 (
@@ -1059,6 +1069,7 @@ in
 )
 ;
 }
+static
 void
 fadst4_sse2
 (
@@ -6281,6 +6292,7 @@ tr1_7
 )
 ;
 }
+static
 void
 fdct8_sse2
 (
@@ -7261,6 +7273,7 @@ in
 )
 ;
 }
+static
 void
 fadst8_sse2
 (
@@ -9986,6 +9999,7 @@ res1
 )
 ;
 }
+static
 void
 fdct16_8col
 (
@@ -14106,6 +14120,7 @@ v
 )
 ;
 }
+static
 void
 fadst16_8col
 (
@@ -20638,6 +20653,7 @@ s
 )
 ;
 }
+static
 void
 fdct16_sse2
 (
@@ -20666,6 +20682,7 @@ in1
 )
 ;
 }
+static
 void
 fadst16_sse2
 (
@@ -21945,6 +21962,7 @@ j
 void
 vp9_highbd_fht16x16_sse2
 (
+const
 int16_t
 *
 input
@@ -22221,9 +22239,9 @@ encoder
 /
 x86
 /
-vp9_dct_impl_sse2
+vp9_dct_sse2_impl
 .
-c
+h
 "
 #
 undef
@@ -22251,9 +22269,9 @@ encoder
 /
 x86
 /
-vp9_dct32x32_sse2
+vp9_dct32x32_sse2_impl
 .
-c
+h
 "
 #
 undef
@@ -22278,9 +22296,9 @@ encoder
 /
 x86
 /
-vp9_dct32x32_sse2
+vp9_dct32x32_sse2_impl
 .
-c
+h
 "
 #
 undef
@@ -22319,9 +22337,9 @@ encoder
 /
 x86
 /
-vp9_dct_impl_sse2
+vp9_dct_sse2_impl
 .
-c
+h
 "
 #
 undef
@@ -22349,9 +22367,9 @@ encoder
 /
 x86
 /
-vp9_dct32x32_sse2
+vp9_dct32x32_sse2_impl
 .
-c
+h
 "
 #
 undef
@@ -22376,9 +22394,9 @@ encoder
 /
 x86
 /
-vp9_dct32x32_sse2
+vp9_dct32x32_sse2_impl
 .
-c
+h
 "
 #
 undef

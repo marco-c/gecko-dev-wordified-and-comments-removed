@@ -1,3 +1,12 @@
+#
+include
+"
+.
+/
+vp8_rtcd
+.
+h
+"
 static
 const
 int

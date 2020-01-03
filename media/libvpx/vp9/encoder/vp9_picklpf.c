@@ -33,6 +33,15 @@ h
 #
 include
 "
+vpx_ports
+/
+mem
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -412,7 +421,7 @@ MAX_LOOP_FILTER
 1
 ]
 ;
-vpx_memset
+memset
 (
 ss_err
 0xFF

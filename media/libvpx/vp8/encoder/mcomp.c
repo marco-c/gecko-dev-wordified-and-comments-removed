@@ -1,6 +1,24 @@
 #
 include
 "
+.
+/
+vp8_rtcd
+.
+h
+"
+#
+include
+"
+.
+/
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
 onyx_int
 .
 h
@@ -6039,7 +6057,6 @@ what
 what_stride
 this_offset
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -6223,7 +6240,6 @@ what
 what_stride
 this_offset
 in_what_stride
-bestsad
 )
 ;
 CHECK_BETTER
@@ -6308,7 +6324,6 @@ what
 what_stride
 this_offset
 in_what_stride
-bestsad
 )
 ;
 CHECK_BETTER
@@ -6465,7 +6480,6 @@ what
 what_stride
 this_offset
 in_what_stride
-bestsad
 )
 ;
 CHECK_BETTER
@@ -6558,7 +6572,6 @@ what
 what_stride
 this_offset
 in_what_stride
-bestsad
 )
 ;
 CHECK_BETTER
@@ -6745,7 +6758,6 @@ what
 what_stride
 this_offset
 in_what_stride
-bestsad
 )
 ;
 CHECK_BETTER
@@ -6832,7 +6844,6 @@ what
 what_stride
 this_offset
 in_what_stride
-bestsad
 )
 ;
 CHECK_BETTER
@@ -7230,7 +7241,6 @@ what
 what_stride
 in_what
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -7411,7 +7421,6 @@ what
 what_stride
 check_here
 in_what_stride
-bestsad
 )
 ;
 if
@@ -7932,7 +7941,6 @@ what
 what_stride
 in_what
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -8435,7 +8443,6 @@ what
 what_stride
 check_here
 in_what_stride
-bestsad
 )
 ;
 if
@@ -8933,7 +8940,6 @@ what
 what_stride
 bestaddress
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -9068,7 +9074,6 @@ what
 what_stride
 check_here
 in_what_stride
-bestsad
 )
 ;
 this_mv
@@ -9503,7 +9508,6 @@ what
 what_stride
 bestaddress
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -9755,7 +9759,6 @@ what
 what_stride
 check_here
 in_what_stride
-bestsad
 )
 ;
 if
@@ -10077,13 +10080,15 @@ ref_col
 +
 distance
 ;
-DECLARE_ALIGNED_ARRAY
+DECLARE_ALIGNED
 (
 16
 unsigned
-short
+int
 sad_array8
+[
 8
+]
 )
 ;
 unsigned
@@ -10211,7 +10216,6 @@ what
 what_stride
 bestaddress
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -10584,7 +10588,6 @@ what
 what_stride
 check_here
 in_what_stride
-bestsad
 )
 ;
 if
@@ -10976,7 +10979,6 @@ what
 what_stride
 best_address
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -11131,7 +11133,6 @@ what
 what_stride
 check_here
 in_what_stride
-bestsad
 )
 ;
 if
@@ -11572,7 +11573,6 @@ what
 what_stride
 best_address
 in_what_stride
-UINT_MAX
 )
 +
 mvsad_err_cost
@@ -11993,7 +11993,6 @@ what
 what_stride
 check_here
 in_what_stride
-bestsad
 )
 ;
 if
@@ -12473,7 +12472,7 @@ init_mv_ref_counts
 (
 )
 {
-vpx_memset
+memset
 (
 mv_ref_ct
 0
@@ -12483,7 +12482,7 @@ mv_ref_ct
 )
 )
 ;
-vpx_memset
+memset
 (
 mv_mode_cts
 0

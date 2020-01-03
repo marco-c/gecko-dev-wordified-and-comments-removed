@@ -306,7 +306,7 @@ pbi
 return
 NULL
 ;
-vpx_memset
+memset
 (
 pbi
 0
@@ -1338,6 +1338,7 @@ return
 err
 ;
 }
+static
 int
 check_fragments_for_errors
 (

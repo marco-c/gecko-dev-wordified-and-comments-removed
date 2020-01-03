@@ -869,7 +869,7 @@ VP8_COMMON
 pc
 )
 {
-vpx_memcpy
+memcpy
 (
 pc
 -

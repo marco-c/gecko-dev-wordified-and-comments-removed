@@ -359,14 +359,14 @@ b
 >
 zbin_extra
 ;
-vpx_memset
+memset
 (
 qcoeff_ptr
 0
 32
 )
 ;
-vpx_memset
+memset
 (
 dqcoeff_ptr
 0

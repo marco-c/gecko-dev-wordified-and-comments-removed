@@ -42,9 +42,9 @@ encoder
 /
 x86
 /
-vp9_dct32x32_avx2
+vp9_dct32x32_avx2_impl
 .
-c
+h
 "
 #
 undef
@@ -69,9 +69,9 @@ encoder
 /
 x86
 /
-vp9_dct32x32_avx2
+vp9_dct32x32_avx2_impl
 .
-c
+h
 "
 #
 undef

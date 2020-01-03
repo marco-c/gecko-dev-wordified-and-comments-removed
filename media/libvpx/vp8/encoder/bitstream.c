@@ -7466,7 +7466,7 @@ refresh_entropy_probs
 0
 )
 {
-vpx_memcpy
+memcpy
 (
 &
 cpi
@@ -7823,7 +7823,7 @@ i
 +
 )
 {
-vpx_memmove
+memmove
 (
 dp
 cpi

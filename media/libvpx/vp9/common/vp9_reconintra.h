@@ -37,6 +37,7 @@ endif
 void
 vp9_init_intra_predictors
 (
+void
 )
 ;
 void

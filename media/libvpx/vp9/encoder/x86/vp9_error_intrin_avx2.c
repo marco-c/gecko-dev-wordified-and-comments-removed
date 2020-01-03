@@ -8,6 +8,15 @@ h
 #
 include
 "
+.
+/
+vp9_rtcd
+.
+h
+"
+#
+include
+"
 vpx
 /
 vpx_integer

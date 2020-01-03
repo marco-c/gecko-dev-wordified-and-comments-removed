@@ -495,7 +495,7 @@ VP8_COMMON
 x
 )
 {
-vpx_memcpy
+memcpy
 (
 x
 -
@@ -510,7 +510,7 @@ vp8_ymode_prob
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 x
 -
@@ -525,7 +525,7 @@ vp8_uv_mode_prob
 )
 )
 ;
-vpx_memcpy
+memcpy
 (
 x
 -
@@ -553,7 +553,7 @@ VP8_BINTRAMODES
 ]
 )
 {
-vpx_memcpy
+memcpy
 (
 p
 vp8_bmode_prob

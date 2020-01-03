@@ -28,6 +28,7 @@ endif
 void
 vp9_entropy_mv_init
 (
+void
 )
 ;
 void

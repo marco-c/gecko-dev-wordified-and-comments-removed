@@ -17,6 +17,15 @@ h
 #
 include
 "
+.
+/
+vpx_scale_rtcd
+.
+h
+"
+#
+include
+"
 vpx
 /
 vpx_integer
@@ -29,6 +38,15 @@ include
 vpx_mem
 /
 vpx_mem
+.
+h
+"
+#
+include
+"
+vpx_ports
+/
+mem
 .
 h
 "
@@ -144,7 +162,7 @@ height
 i
 )
 {
-vpx_memset
+memset
 (
 dst_ptr1
 src_ptr1
@@ -154,7 +172,7 @@ src_ptr1
 extend_left
 )
 ;
-vpx_memset
+memset
 (
 dst_ptr2
 src_ptr2
@@ -241,7 +259,7 @@ extend_top
 i
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr1
 src_ptr1
@@ -269,7 +287,7 @@ extend_bottom
 i
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr2
 src_ptr2
@@ -479,7 +497,7 @@ extend_top
 i
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr1
 src_ptr1
@@ -512,7 +530,7 @@ extend_bottom
 i
 )
 {
-vpx_memcpy
+memcpy
 (
 dst_ptr2
 src_ptr2
@@ -1377,7 +1395,7 @@ CONVERT_TO_SHORTPTR
 src8
 )
 ;
-vpx_memcpy
+memcpy
 (
 dst
 src
@@ -1694,7 +1712,7 @@ y_height
 row
 )
 {
-vpx_memcpy
+memcpy
 (
 dst
 src
@@ -1753,7 +1771,7 @@ uv_height
 row
 )
 {
-vpx_memcpy
+memcpy
 (
 dst
 src
@@ -1812,7 +1830,7 @@ uv_height
 row
 )
 {
-vpx_memcpy
+memcpy
 (
 dst
 src
@@ -1932,7 +1950,7 @@ y_height
 row
 )
 {
-vpx_memcpy
+memcpy
 (
 dst16
 src16
@@ -1987,7 +2005,7 @@ y_height
 row
 )
 {
-vpx_memcpy
+memcpy
 (
 dst
 src

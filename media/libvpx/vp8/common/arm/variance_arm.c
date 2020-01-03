@@ -8,7 +8,18 @@ h
 #
 include
 "
+.
+/
 vp8_rtcd
+.
+h
+"
+#
+include
+"
+.
+/
+vpx_dsp_rtcd
 .
 h
 "
@@ -34,6 +45,9 @@ filter
 .
 h
 "
+#
+if
+CONFIG_VP8_ENCODER
 #
 if
 HAVE_MEDIA
@@ -138,7 +152,7 @@ VFilter
 )
 ;
 return
-vp8_variance8x8_armv6
+vpx_variance8x8_media
 (
 second_pass
 8
@@ -323,7 +337,7 @@ VFilter
 ;
 var
 =
-vp8_variance16x16_armv6
+vpx_variance16x16_media
 (
 second_pass
 16
@@ -484,5 +498,7 @@ sse
 )
 ;
 }
+#
+endif
 #
 endif

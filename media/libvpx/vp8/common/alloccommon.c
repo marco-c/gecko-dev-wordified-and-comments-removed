@@ -8,6 +8,13 @@ h
 #
 include
 "
+alloccommon
+.
+h
+"
+#
+include
+"
 blockd
 .
 h
@@ -566,7 +573,7 @@ post_proc_buffer_int_used
 =
 0
 ;
-vpx_memset
+memset
 (
 &
 oci
@@ -583,7 +590,7 @@ postproc_state
 )
 )
 ;
-vpx_memset
+memset
 (
 oci
 -
@@ -911,7 +918,7 @@ clamp_type
 =
 RECON_CLAMP_REQUIRED
 ;
-vpx_memset
+memset
 (
 oci
 -

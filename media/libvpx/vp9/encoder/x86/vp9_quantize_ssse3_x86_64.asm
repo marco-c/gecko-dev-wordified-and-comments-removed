@@ -1864,6 +1864,12 @@ m0
 m3
 2
 %
+else
+psrlw
+m0
+m3
+1
+%
 endif
 mova
 [
@@ -2061,11 +2067,6 @@ abs
 (
 m10
 )
-%
-ifidn
-%
-1
-fp_32x32
 pcmpgtw
 m7
 m6
@@ -2086,8 +2087,6 @@ r2
 jz
 .
 skip_iter
-%
-endif
 pcmpeqw
 m7
 m7
@@ -2373,11 +2372,6 @@ mmsize
 jl
 .
 ac_only_loop
-%
-ifidn
-%
-1
-fp_32x32
 jmp
 .
 accumulate_eob
@@ -2434,8 +2428,6 @@ mmsize
 jl
 .
 ac_only_loop
-%
-endif
 .
 accumulate_eob
 :
