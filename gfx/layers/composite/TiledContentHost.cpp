@@ -3216,9 +3216,6 @@ get
 (
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 if
 (
 gfxPrefs
@@ -3261,12 +3258,7 @@ false
 )
 ;
 }
-#
-endif
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 TiledContentHost
 :
@@ -3582,7 +3574,5 @@ w
 ;
 }
 }
-#
-endif
 }
 }

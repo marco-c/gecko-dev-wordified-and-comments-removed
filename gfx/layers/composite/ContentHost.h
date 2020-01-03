@@ -494,9 +494,6 @@ aCompositor
 )
 MOZ_OVERRIDE
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 virtual
 TemporaryRef
 <
@@ -527,15 +524,9 @@ aPrefix
 =
 "
 "
-bool
-aDumpHtml
-=
-false
 )
 MOZ_OVERRIDE
 ;
-#
-endif
 virtual
 void
 PrintInfo
