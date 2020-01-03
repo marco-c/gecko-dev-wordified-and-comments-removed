@@ -37,7 +37,7 @@ mozilla
 /
 dom
 /
-ServiceWorkerClientBinding
+ClientBinding
 .
 h
 "
@@ -98,7 +98,7 @@ aCx
 )
 {
 return
-ServiceWorkerClientBinding
+ClientBinding
 :
 :
 Wrap

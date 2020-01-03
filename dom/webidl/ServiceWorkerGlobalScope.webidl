@@ -173,7 +173,7 @@ caches
 ;
 readonly
 attribute
-ServiceWorkerClients
+Clients
 clients
 ;
 [

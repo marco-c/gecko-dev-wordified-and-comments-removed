@@ -162,7 +162,7 @@ request
 ;
 readonly
 attribute
-ServiceWorkerClient
+Client
 client
 ;
 /
@@ -219,7 +219,7 @@ EventInit
 Request
 request
 ;
-ServiceWorkerClient
+Client
 client
 ;
 boolean
