@@ -7125,14 +7125,9 @@ shape
 {
 if
 (
-obj
--
->
-is
-<
-TypedArrayObject
->
+IsAnyTypedArray
 (
+obj
 )
 )
 {
