@@ -4227,13 +4227,10 @@ aPresContext
 aReflowState
 kidFrame
 kidAvailSize
-uint32_t
-(
 nsHTMLReflowState
 :
 :
 CALLER_WILL_INIT
-)
 )
 ;
 InitChildReflowState
