@@ -859,6 +859,10 @@ gtk_file_chooser_set_select_multiple
 )
 STUB
 (
+gtk_file_chooser_widget_get_type
+)
+STUB
+(
 gtk_file_filter_add_pattern
 )
 STUB
