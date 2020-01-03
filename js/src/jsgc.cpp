@@ -13903,11 +13903,6 @@ MOZ_ASSERT
 mustCollectNow
 )
 ;
-js_ReportOutOfMemory
-(
-cx
-)
-;
 return
 nullptr
 ;
