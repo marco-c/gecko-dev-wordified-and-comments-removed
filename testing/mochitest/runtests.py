@@ -10995,17 +10995,19 @@ minidumps
 "
 )
       
-crashed
+crash_count
 =
 mozcrash
 .
-check_for_crashes
+log_crashes
 (
+self
+.
+log
 minidump_path
-                                           
 symbolsPath
-                                           
-test_name
+                                         
+test
 =
 self
 .
@@ -11013,7 +11015,7 @@ lastTestSeen
 )
       
 if
-crashed
+crash_count
 or
 zombieProcesses
 :
