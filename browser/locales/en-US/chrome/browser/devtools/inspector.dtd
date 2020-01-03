@@ -448,9 +448,6 @@ inspectorHTMLPasteExtraSubmenu
 label
 "
 Paste
-.
-.
-.
 "
 >
 <
@@ -460,7 +457,7 @@ inspectorHTMLPasteExtraSubmenu
 .
 accesskey
 "
-T
+t
 "
 >
 <
