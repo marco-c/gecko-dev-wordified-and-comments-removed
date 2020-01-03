@@ -1472,7 +1472,16 @@ emitUint16Operand
 JSOp
 op
 uint32_t
-i
+operand
+)
+;
+bool
+emitUint32Operand
+(
+JSOp
+op
+uint32_t
+operand
 )
 ;
 bool

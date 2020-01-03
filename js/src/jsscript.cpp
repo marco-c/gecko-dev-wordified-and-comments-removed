@@ -16393,7 +16393,7 @@ filename
 *
 linenop
 =
-GET_UINT16
+GET_UINT32
 (
 pc
 +

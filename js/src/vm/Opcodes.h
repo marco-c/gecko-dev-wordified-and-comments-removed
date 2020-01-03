@@ -2277,10 +2277,10 @@ JSOP_LINENO
 lineno
 "
 NULL
-3
+5
 0
 0
-JOF_UINT16
+JOF_UINT32
 )
 \
 \
