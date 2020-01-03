@@ -366,10 +366,6 @@ PreallocatedProcessManagerImpl
 (
 )
 :
-mEnabled
-(
-false
-)
 #
 ifdef
 MOZ_NUWA_PROCESS
@@ -383,6 +379,10 @@ false
 )
 #
 endif
+mEnabled
+(
+false
+)
 mShutdown
 (
 false
