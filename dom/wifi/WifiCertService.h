@@ -90,12 +90,6 @@ WifiCertService
 ;
 nsCOMPtr
 <
-nsIThread
->
-mRequestThread
-;
-nsCOMPtr
-<
 nsIWifiEventListener
 >
 mListener
