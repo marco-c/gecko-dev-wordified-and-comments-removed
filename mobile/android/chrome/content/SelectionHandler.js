@@ -4080,6 +4080,7 @@ aElement
 return
 (
 (
+(
 aElement
 instanceof
 HTMLInputElement
@@ -4099,6 +4100,13 @@ aElement
 instanceof
 HTMLTextAreaElement
 )
+)
+&
+&
+!
+aElement
+.
+readOnly
 )
 ;
 }
