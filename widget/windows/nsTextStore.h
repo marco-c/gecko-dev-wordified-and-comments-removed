@@ -1252,6 +1252,17 @@ nullptr
 )
 ;
 HRESULT
+RestartComposition
+(
+ITfCompositionView
+*
+aCompositionView
+ITfRange
+*
+aNewRange
+)
+;
+HRESULT
 RecordCompositionStartAction
 (
 ITfCompositionView
