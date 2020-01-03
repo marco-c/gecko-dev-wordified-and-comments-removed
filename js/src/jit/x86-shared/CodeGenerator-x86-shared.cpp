@@ -2619,7 +2619,12 @@ JITCODE
 ;
 }
 return
-true
+!
+masm
+.
+oom
+(
+)
 ;
 }
 class
