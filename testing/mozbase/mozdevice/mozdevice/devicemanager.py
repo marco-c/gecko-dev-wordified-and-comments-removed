@@ -724,20 +724,6 @@ memory
 stats
           
 -
-memtotal
--
-total
-memory
-available
-on
-the
-device
-for
-example
-927208
-kB
-          
--
 process
 -
 list
