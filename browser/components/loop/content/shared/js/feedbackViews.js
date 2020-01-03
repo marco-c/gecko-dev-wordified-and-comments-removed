@@ -75,6 +75,14 @@ mixins
 var
 WINDOW_AUTOCLOSE_TIMEOUT_IN_SECONDS
 =
+loop
+.
+shared
+.
+views
+.
+WINDOW_AUTOCLOSE_TIMEOUT_IN_SECONDS
+=
 5
 ;
 var

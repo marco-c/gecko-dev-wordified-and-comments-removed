@@ -6575,6 +6575,15 @@ props
 .
 activeRoomStore
 }
+feedbackStore
+=
+{
+this
+.
+props
+.
+feedbackStore
+}
 dispatcher
 =
 {
