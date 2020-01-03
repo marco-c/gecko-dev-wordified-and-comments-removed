@@ -505,11 +505,6 @@ CSS
 webidl
 '
 '
-CSSAnimation
-.
-webidl
-'
-'
 CSSLexer
 .
 webidl
@@ -531,11 +526,6 @@ webidl
 '
 '
 CSSStyleSheet
-.
-webidl
-'
-'
-CSSTransition
 .
 webidl
 '
