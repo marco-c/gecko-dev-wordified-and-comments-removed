@@ -1185,17 +1185,12 @@ endif
 #
 ifdef
 PNG_READ_CHECK_FOR_INVALID_INDEX_SUPPORTED
-#
-ifndef
-PR_LOGGING
 png_set_check_for_invalid_index
 (
 mPNG
 0
 )
 ;
-#
-endif
 #
 endif
 #
