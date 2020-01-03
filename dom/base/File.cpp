@@ -560,13 +560,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 File
 )
-tmp
--
->
-mImpl
-=
-nullptr
-;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mParent
