@@ -5312,6 +5312,15 @@ GattAdv
 advData
 )
 ;
+BT_APPEND_NAMED_VALUE
+(
+properties
+"
+Type
+"
+TYPE_OF_DEVICE_BLE
+)
+;
 BluetoothService
 *
 bs
