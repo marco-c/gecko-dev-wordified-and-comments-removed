@@ -2735,6 +2735,11 @@ XPathExpression
 webidl
 '
 '
+XPathNSResolver
+.
+webidl
+'
+'
 XPathResult
 .
 webidl
