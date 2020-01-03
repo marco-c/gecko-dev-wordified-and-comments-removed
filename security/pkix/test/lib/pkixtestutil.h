@@ -361,8 +361,8 @@ version
 Input
 signature
 const
-SECItem
-*
+ByteString
+&
 serialNumber
 const
 ByteString
@@ -398,13 +398,9 @@ ScopedSECKEYPrivateKey
 privateKey
 )
 ;
-SECItem
-*
+ByteString
 CreateEncodedSerialNumber
 (
-PLArenaPool
-*
-arena
 long
 value
 )
