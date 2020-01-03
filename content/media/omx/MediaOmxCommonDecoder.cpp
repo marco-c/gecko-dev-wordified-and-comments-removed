@@ -131,6 +131,15 @@ MediaDecoder
 #
 endif
 }
+MediaOmxCommonDecoder
+:
+:
+~
+MediaOmxCommonDecoder
+(
+)
+{
+}
 void
 MediaOmxCommonDecoder
 :

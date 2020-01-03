@@ -164,6 +164,12 @@ aReader
 ;
 protected
 :
+virtual
+~
+MediaOmxCommonDecoder
+(
+)
+;
 void
 PauseStateMachine
 (

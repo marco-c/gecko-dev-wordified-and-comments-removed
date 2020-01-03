@@ -7,15 +7,6 @@ h
 "
 #
 include
-<
-stagefright
-/
-MediaSource
-.
-h
->
-#
-include
 "
 MediaCodecReader
 .
