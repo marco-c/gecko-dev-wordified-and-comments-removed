@@ -481,6 +481,7 @@ ProfilerMarkerPayload
 {
 public
 :
+explicit
 TouchDataPayload
 (
 const
