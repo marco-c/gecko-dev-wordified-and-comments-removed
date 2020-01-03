@@ -950,6 +950,7 @@ function
 *
 (
 browser
+url
 )
 {
 let
@@ -967,9 +968,7 @@ itemData
 {
 url
 :
-browser
-.
-currentURI
+url
 title
 :
 metadata
