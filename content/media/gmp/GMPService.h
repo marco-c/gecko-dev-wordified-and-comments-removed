@@ -125,7 +125,7 @@ GeckoMediaPluginService
 (
 )
 ;
-void
+nsresult
 Init
 (
 )
@@ -409,6 +409,12 @@ nsCOMPtr
 nsITimer
 >
 mAsyncShutdownTimeout
+;
+nsCOMPtr
+<
+nsIFile
+>
+mStorageBaseDir
 ;
 }
 ;
