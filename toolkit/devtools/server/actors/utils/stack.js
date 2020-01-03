@@ -53,8 +53,7 @@ this
 .
 _lastEventSize
 =
--
-1
+0
 ;
 }
 initFrames
@@ -104,8 +103,7 @@ this
 .
 _lastEventSize
 =
--
-1
+0
 ;
 }
 clearFrames
@@ -160,8 +158,7 @@ this
 .
 _lastEventSize
 =
--
-1
+0
 ;
 }
 addFrame
@@ -367,6 +364,7 @@ if
 (
 index
 >
+=
 this
 .
 _lastEventSize
@@ -379,8 +377,6 @@ index
 this
 .
 _lastEventSize
--
-1
 ]
 =
 this
