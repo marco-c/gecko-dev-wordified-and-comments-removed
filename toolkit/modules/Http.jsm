@@ -18,9 +18,6 @@ Cc
 interfaces
 :
 Ci
-utils
-:
-Cu
 }
 =
 Components
@@ -365,13 +362,6 @@ catch
 e
 )
 {
-Cu
-.
-reportError
-(
-e
-)
-;
 if
 (
 aOptions
