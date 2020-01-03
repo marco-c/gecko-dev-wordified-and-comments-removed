@@ -4236,6 +4236,13 @@ mozpointerlockerror
 )
 GK_ATOM
 (
+mozprivatebrowsing
+"
+mozprivatebrowsing
+"
+)
+GK_ATOM
+(
 moz_opaque
 "
 moz
