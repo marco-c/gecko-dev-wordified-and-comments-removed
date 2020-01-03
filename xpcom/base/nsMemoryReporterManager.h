@@ -268,6 +268,12 @@ ResidentFast
 ;
 static
 int64_t
+ResidentPeak
+(
+)
+;
+static
+int64_t
 ResidentUnique
 (
 )
