@@ -4724,6 +4724,15 @@ servicePackMinor
 servicePack
 .
 minor
+installYear
+:
+getSysinfoProperty
+(
+"
+installYear
+"
+null
+)
 #
 endif
 locale
