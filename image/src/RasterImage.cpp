@@ -829,6 +829,10 @@ ToIntSize
 )
 mImageFlags
 )
+Lifetime
+:
+:
+Transient
 )
 ;
 return
@@ -1100,7 +1104,7 @@ failed
 SurfaceCache
 :
 :
-RemoveIfPresent
+RemoveSurface
 (
 ImageKey
 (
@@ -1525,9 +1529,12 @@ nullptr
 SurfaceCache
 :
 :
-Discard
+RemoveImage
+(
+ImageKey
 (
 this
+)
 )
 ;
 mAnim
