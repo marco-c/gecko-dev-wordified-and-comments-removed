@@ -1019,6 +1019,13 @@ appinfo
 .
 platformVersion
 "
+specificationLevel
+"
+:
+"
+1
+"
+"
 raisesAccessibilityExceptions
 "
 :
