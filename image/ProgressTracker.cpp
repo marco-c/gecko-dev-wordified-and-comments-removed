@@ -153,13 +153,6 @@ aProgress
 FLAG_ONLOAD_BLOCKED
 )
 {
-MOZ_ASSERT
-(
-aProgress
-&
-FLAG_DECODE_STARTED
-)
-;
 }
 if
 (
@@ -180,7 +173,7 @@ MOZ_ASSERT
 aProgress
 &
 (
-FLAG_FRAME_COMPLETE
+FLAG_SIZE_AVAILABLE
 |
 FLAG_HAS_ERROR
 )
