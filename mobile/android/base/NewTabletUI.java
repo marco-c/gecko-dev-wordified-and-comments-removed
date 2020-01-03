@@ -26,6 +26,15 @@ mozilla
 .
 gecko
 .
+AppConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 preferences
 .
 GeckoPreferences
@@ -51,7 +60,10 @@ final
 boolean
 DEFAULT
 =
-false
+!
+AppConstants
+.
+RELEASE_BUILD
 ;
 private
 static
