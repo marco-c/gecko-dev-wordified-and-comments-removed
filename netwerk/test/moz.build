@@ -140,6 +140,13 @@ xpcshell
 ini
 '
 '
+unit
+/
+xpcshell_b2g
+.
+ini
+'
+'
 unit_ipc
 /
 xpcshell
