@@ -3573,6 +3573,11 @@ version
 aAddon
 .
 version
+multiprocessCompatible
+:
+aAddon
+.
+multiprocessCompatible
 }
 ;
 }
