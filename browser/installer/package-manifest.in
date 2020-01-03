@@ -910,6 +910,13 @@ RESPATH
 /
 components
 /
+compartments
+.
+xpt
+RESPATH
+/
+components
+/
 composer
 .
 xpt

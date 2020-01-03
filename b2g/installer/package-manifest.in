@@ -649,6 +649,13 @@ components
 commandlines
 .
 xpt
+RESPATH
+/
+components
+/
+compartments
+.
+xpt
 BINPATH
 /
 components
