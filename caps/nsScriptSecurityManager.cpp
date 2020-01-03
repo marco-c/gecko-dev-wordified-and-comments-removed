@@ -5987,7 +5987,7 @@ https
 site
 )
 ;
-return
+continue
 ;
 }
 nsCOMPtr
