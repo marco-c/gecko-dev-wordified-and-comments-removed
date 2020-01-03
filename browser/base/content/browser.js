@@ -16137,7 +16137,6 @@ function
 (
 engine
 source
-selection
 )
 {
 BrowserUITelemetry
@@ -16145,8 +16144,6 @@ BrowserUITelemetry
 countSearchEvent
 (
 source
-null
-selection
 )
 ;
 #

@@ -930,9 +930,6 @@ engine
 "
 abouthome
 "
-data
-.
-selection
 )
 ;
 #
