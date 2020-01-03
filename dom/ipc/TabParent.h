@@ -131,6 +131,13 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+nsIDOMEventListener
+.
+h
+"
 class
 nsFrameLoader
 ;
@@ -209,6 +216,8 @@ TabParent
 :
 public
 PBrowserParent
+public
+nsIDOMEventListener
 public
 nsITabParent
 public
@@ -321,6 +330,7 @@ mBrowserDOMWindow
 aBrowserDOMWindow
 ;
 }
+NS_DECL_NSIDOMEVENTLISTENER
 already_AddRefed
 <
 nsILoadContext
@@ -2023,6 +2033,9 @@ mDimensions
 ;
 ScreenOrientation
 mOrientation
+;
+nsIntPoint
+mChromeDisp
 ;
 float
 mDPI
