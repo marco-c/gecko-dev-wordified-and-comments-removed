@@ -1642,10 +1642,6 @@ mm
 if
 (
 kbID
-!
-=
-=
-null
 )
 {
 this
