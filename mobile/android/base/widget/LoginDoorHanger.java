@@ -1108,6 +1108,12 @@ LoginDoorHanger
 this
 )
 ;
+dialog
+.
+dismiss
+(
+)
+;
 }
 }
 )
