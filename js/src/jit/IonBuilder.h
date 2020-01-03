@@ -3775,14 +3775,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineArraySplice
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineMathAbs
 (
 CallInfo
