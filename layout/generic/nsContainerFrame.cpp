@@ -2920,7 +2920,7 @@ devMinSize
 devMaxSize
 )
 ;
-nsIntSize
+LayoutDeviceIntSize
 windowSize
 =
 aWidget
@@ -2928,7 +2928,7 @@ aWidget
 >
 ClientToWindowSize
 (
-nsIntSize
+LayoutDeviceIntSize
 (
 200
 200

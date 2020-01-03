@@ -11666,14 +11666,14 @@ y
 )
 ;
 }
-nsIntSize
+LayoutDeviceIntSize
 nsWindow
 :
 :
 ClientToWindowSize
 (
 const
-nsIntSize
+LayoutDeviceIntSize
 &
 aClientSize
 )
@@ -11745,7 +11745,7 @@ WindowExStyle
 )
 ;
 return
-nsIntSize
+LayoutDeviceIntSize
 (
 r
 .
