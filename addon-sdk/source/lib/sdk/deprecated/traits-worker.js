@@ -467,7 +467,17 @@ this
 .
 _emitToContent
 (
+Cu
+.
+cloneInto
+(
 args
+this
+.
+_addonWorker
+.
+_window
+)
 )
 ;
 }
