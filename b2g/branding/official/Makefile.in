@@ -97,6 +97,16 @@ app
 .
 icns
 \
+background
+.
+png
+\
+disk
+.
+icns
+\
+dsstore
+\
 (
 NULL
 )
