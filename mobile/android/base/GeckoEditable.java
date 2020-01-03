@@ -5204,6 +5204,14 @@ append
 "
 )
 ;
+if
+(
+args
+!
+=
+null
+)
+{
 for
 (
 Object
@@ -5247,6 +5255,7 @@ length
 2
 )
 ;
+}
 }
 if
 (
