@@ -22193,6 +22193,13 @@ firstResponder
 =
 =
 mView
+&
+&
+!
+[
+window
+attachedSheet
+]
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
