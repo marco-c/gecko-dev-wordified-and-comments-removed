@@ -2363,6 +2363,10 @@ kVideo
 ;
 if
 (
+!
+mIsEncrypted
+&
+&
 mSharedDecoderManager
 )
 {
@@ -5297,6 +5301,10 @@ SetIdle
 {
 if
 (
+!
+mIsEncrypted
+&
+&
 mSharedDecoderManager
 &
 &
