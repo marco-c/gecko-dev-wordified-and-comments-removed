@@ -438,14 +438,6 @@ url
 classifier
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_CAPTIVEDETECT
-'
-]
-:
 DIRS
 +
 =

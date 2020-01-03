@@ -1752,9 +1752,6 @@ crypto
 component
 .
 xpt
-#
-ifdef
-MOZ_CAPTIVEDETECT
 RESPATH
 /
 components
@@ -1762,8 +1759,6 @@ components
 captivedetect
 .
 xpt
-#
-endif
 RESPATH
 /
 components
@@ -3708,9 +3703,6 @@ HealthReportService
 js
 #
 endif
-#
-ifdef
-MOZ_CAPTIVEDETECT
 RESPATH
 /
 components
@@ -3725,8 +3717,6 @@ components
 captivedetect
 .
 js
-#
-endif
 RESPATH
 /
 components
