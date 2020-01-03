@@ -413,7 +413,7 @@ DragMode
 mDragMode
 ;
 bool
-mAPZenabled
+mAsyncPanZoomEnabled
 ;
 bool
 mEndCaretVisible
