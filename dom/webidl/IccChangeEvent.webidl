@@ -101,6 +101,16 @@ icc
 .
 enabled
 "
+CheckPermissions
+=
+"
+mobileconnection
+"
+AvailableIn
+=
+"
+CertifiedApps
+"
 Constructor
 (
 DOMString

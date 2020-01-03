@@ -2230,6 +2230,11 @@ CheckPermissions
 "
 mobileconnection
 "
+AvailableIn
+=
+"
+CertifiedApps
+"
 UnsafeInPrerendering
 ]
 readonly

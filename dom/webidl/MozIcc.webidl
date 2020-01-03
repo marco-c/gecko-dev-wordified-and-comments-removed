@@ -920,6 +920,16 @@ icc
 .
 enabled
 "
+CheckPermissions
+=
+"
+mobileconnection
+"
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 interface
 MozIcc
