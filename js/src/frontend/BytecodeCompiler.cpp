@@ -2241,6 +2241,7 @@ nullptr
 }
 if
 (
+!
 Emit1
 (
 cx
@@ -2248,8 +2249,6 @@ cx
 bce
 JSOP_RETRVAL
 )
-<
-0
 )
 return
 nullptr

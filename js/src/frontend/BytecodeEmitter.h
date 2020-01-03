@@ -1018,7 +1018,7 @@ errorNumber
 ;
 }
 ;
-ptrdiff_t
+bool
 Emit1
 (
 ExclusiveContext
@@ -1031,7 +1031,7 @@ JSOp
 op
 )
 ;
-ptrdiff_t
+bool
 Emit2
 (
 ExclusiveContext
