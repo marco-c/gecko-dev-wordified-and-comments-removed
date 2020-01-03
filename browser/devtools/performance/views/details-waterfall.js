@@ -93,6 +93,7 @@ details
 pane
 "
 )
+TIMELINE_BLUEPRINT
 )
 ;
 this
