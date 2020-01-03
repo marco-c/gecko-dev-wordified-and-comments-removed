@@ -218,6 +218,12 @@ GeckoProcessType
 type
 )
 ;
+static
+uint32_t
+GetUniqueID
+(
+)
+;
 bool
 AsyncLaunch
 (
@@ -664,6 +670,10 @@ IPC
 Message
 >
 mQueue
+;
+static
+uint32_t
+sNextUniqueID
 ;
 }
 ;

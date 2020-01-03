@@ -2290,10 +2290,6 @@ bool
 mIsBlocklisted
 ;
 static
-uint32_t
-sNextRunID
-;
-static
 bool
 sInstantiated
 ;
