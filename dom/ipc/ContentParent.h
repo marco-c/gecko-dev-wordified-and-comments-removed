@@ -607,6 +607,9 @@ aPluginId
 nsresult
 *
 aRv
+uint32_t
+*
+aRunID
 )
 override
 ;

@@ -4910,6 +4910,9 @@ aPluginId
 nsresult
 *
 aRv
+uint32_t
+*
+aRunID
 )
 {
 *
@@ -4930,6 +4933,7 @@ aPluginId
 this
 false
 aRv
+aRunID
 )
 ;
 }
@@ -4953,6 +4957,11 @@ aRv
 =
 NS_OK
 ;
+uint32_t
+dummy
+=
+0
+;
 return
 mozilla
 :
@@ -4966,6 +4975,8 @@ aPluginId
 this
 true
 aRv
+&
+dummy
 )
 ;
 }

@@ -433,6 +433,14 @@ mPluginName
 mPluginVersion
 ;
 }
+nsresult
+GetRunID
+(
+uint32_t
+*
+aRunID
+)
+;
 protected
 :
 virtual
@@ -1368,6 +1376,9 @@ mSurrogateInstances
 nsresult
 mAsyncNewRv
 ;
+uint32_t
+mRunID
+;
 }
 ;
 class
@@ -2259,6 +2270,10 @@ mOfflineObserver
 ;
 bool
 mIsBlocklisted
+;
+static
+uint32_t
+sNextRunID
 ;
 static
 bool

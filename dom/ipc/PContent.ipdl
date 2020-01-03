@@ -2769,12 +2769,14 @@ sync
 LoadPlugin
 (
 uint32_t
-pluginId
+aPluginId
 )
 returns
 (
 nsresult
-rv
+aResult
+uint32_t
+aRunID
 )
 ;
 /
