@@ -13,9 +13,3 @@ transport
 .
 /
 marionette
-/
-driver
-.
-.
-/
-marionette
