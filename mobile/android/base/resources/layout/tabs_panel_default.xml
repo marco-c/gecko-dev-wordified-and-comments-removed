@@ -212,7 +212,9 @@ android
 layout_height
 =
 "
-match_parent
+dimen
+/
+browser_toolbar_height
 "
 android
 :

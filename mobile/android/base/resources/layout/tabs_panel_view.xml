@@ -177,6 +177,13 @@ background_tabs
 "
 android
 :
+orientation
+=
+"
+vertical
+"
+android
+:
 visibility
 =
 "
