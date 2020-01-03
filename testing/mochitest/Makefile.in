@@ -60,15 +60,6 @@ NO_JS_MANIFEST
 MOZ_CHROME_FILE_FORMAT
 =
 jar
-#
-Used
-in
-install
-.
-rdf
-USE_EXTENSION_MANIFEST
-=
-1
 _DEST_DIR
 =
 (

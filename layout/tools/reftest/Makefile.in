@@ -67,15 +67,6 @@ MPL
 0
 /
 .
-#
-Used
-in
-install
-.
-rdf
-USE_EXTENSION_MANIFEST
-=
-1
 _DEST_DIR
 =
 (

@@ -60,15 +60,6 @@ NO_JS_MANIFEST
 MOZ_CHROME_FILE_FORMAT
 =
 flat
-#
-Used
-in
-install
-.
-rdf
-USE_EXTENSION_MANIFEST
-=
-1
 TEST_EXTENSIONS_DIR
 =
 (

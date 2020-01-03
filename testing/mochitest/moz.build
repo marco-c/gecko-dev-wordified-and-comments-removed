@@ -148,6 +148,9 @@ jar
 mn
 '
 ]
+USE_EXTENSION_MANIFEST
+=
+True
 DIST_FILES
 +
 =

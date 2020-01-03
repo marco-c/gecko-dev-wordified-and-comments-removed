@@ -3259,6 +3259,10 @@ WIN32_EXE_LDFLAGS
 '
 LD_VERSION_SCRIPT
 '
+            
+'
+USE_EXTENSION_MANIFEST
+'
         
 ]
         

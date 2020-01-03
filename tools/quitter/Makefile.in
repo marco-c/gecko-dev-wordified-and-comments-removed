@@ -63,12 +63,3 @@ org
 NO_JS_MANIFEST
 =
 1
-#
-Used
-in
-install
-.
-rdf
-USE_EXTENSION_MANIFEST
-=
-1
