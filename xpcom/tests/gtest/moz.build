@@ -158,11 +158,6 @@ TestSynchronization
 cpp
 '
 '
-TestTArray
-.
-cpp
-'
-'
 TestThreadPool
 .
 cpp
