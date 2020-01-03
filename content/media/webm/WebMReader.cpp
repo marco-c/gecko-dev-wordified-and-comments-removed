@@ -150,6 +150,13 @@ layers
 #
 ifdef
 PR_LOGGING
+#
+include
+"
+prprf
+.
+h
+"
 extern
 PRLogModuleInfo
 *
