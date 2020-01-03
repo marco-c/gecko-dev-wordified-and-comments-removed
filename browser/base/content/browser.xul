@@ -8201,7 +8201,7 @@ icons
 "
 >
 <
-image
+toolbarbutton
 id
 =
 "
@@ -8214,6 +8214,7 @@ button
 class
 =
 "
+tabbable
 urlbar
 -
 icon
@@ -8237,7 +8238,18 @@ onclick
 "
 gPopupBlockerObserver
 .
-onReportButtonClick
+onReportButtonEvent
+(
+event
+)
+;
+"
+onkeypress
+=
+"
+gPopupBlockerObserver
+.
+onReportButtonEvent
 (
 event
 )
