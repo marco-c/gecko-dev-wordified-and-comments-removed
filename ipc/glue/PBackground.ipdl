@@ -73,6 +73,10 @@ protocol
 PFileDescriptorSet
 ;
 include
+protocol
+PVsync
+;
+include
 DOMTypes
 ;
 include
@@ -100,6 +104,9 @@ PBlob
 manages
 PFileDescriptorSet
 ;
+manages
+PVsync
+;
 parent
 :
 /
@@ -126,6 +133,10 @@ PBackgroundIDBFactory
 (
 LoggingInfo
 loggingInfo
+)
+;
+PVsync
+(
 )
 ;
 both
