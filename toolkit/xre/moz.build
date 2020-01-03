@@ -166,6 +166,16 @@ XPIDL_MODULE
 '
 xulapp
 '
+EXPORTS
++
+=
+[
+'
+nsAppRunner
+.
+h
+'
+]
 if
 CONFIG
 [

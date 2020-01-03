@@ -56,6 +56,13 @@ gfx2DGlue
 .
 h
 "
+#
+include
+"
+nsAppRunner
+.
+h
+"
 namespace
 mozilla
 {
@@ -108,6 +115,10 @@ backend
 {
 if
 (
+!
+gIsGtest
+&
+&
 sBackend
 !
 =

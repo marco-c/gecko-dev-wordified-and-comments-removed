@@ -784,6 +784,15 @@ Destroy
 (
 )
 ;
+static
+void
+SetShadowProperties
+(
+Layer
+*
+aLayer
+)
+;
 void
 NotifyChildCreated
 (

@@ -132,6 +132,11 @@ TestColorNames
 cpp
 '
 '
+TestCompositor
+.
+cpp
+'
+'
 TestGfxPrefs
 .
 cpp

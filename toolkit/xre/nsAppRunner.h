@@ -154,6 +154,10 @@ extern
 bool
 gLogConsoleErrors
 ;
+extern
+bool
+gIsGtest
+;
 nsresult
 NS_CreateNativeAppSupport
 (
