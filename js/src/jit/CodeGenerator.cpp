@@ -10263,7 +10263,7 @@ info
 fun
 -
 >
-isMethod
+allowSuperProperty
 (
 )
 )

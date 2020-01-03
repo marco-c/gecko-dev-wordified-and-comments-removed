@@ -20647,7 +20647,7 @@ MOZ_ASSERT
 func
 -
 >
-isMethod
+allowSuperProperty
 (
 )
 )
@@ -20831,7 +20831,7 @@ MOZ_ASSERT
 (
 callee
 .
-isMethod
+allowSuperProperty
 (
 )
 )
