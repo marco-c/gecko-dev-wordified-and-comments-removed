@@ -54,6 +54,12 @@ border
 :
 none
 ;
+background
+-
+color
+:
+transparent
+;
 }
 treecol
 treecolpicker
