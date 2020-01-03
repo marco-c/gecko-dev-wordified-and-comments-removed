@@ -331,7 +331,12 @@ is2D
 aLayer
 -
 >
-GetBaseTransform
+AsLayerComposite
+(
+)
+-
+>
+GetShadowTransform
 (
 )
 .
