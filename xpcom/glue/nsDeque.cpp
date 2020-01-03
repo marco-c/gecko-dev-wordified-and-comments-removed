@@ -489,6 +489,7 @@ mCapacity
 *
 sizeof
 (
+*
 mData
 )
 )
