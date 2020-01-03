@@ -307,8 +307,8 @@ eUnit_CSSValuePair
 eUnit_CSSValueTriplet
 eUnit_CSSRect
 eUnit_Dasharray
-eUnit_Filter
 eUnit_Shadow
+eUnit_Filter
 eUnit_Transform
 eUnit_BackgroundPosition
 eUnit_CSSValuePairList
