@@ -20228,6 +20228,9 @@ XP_MACOSX
 )
 accelDisabled
 =
+accelDisabled
+|
+|
 !
 nsCocoaFeatures
 :
