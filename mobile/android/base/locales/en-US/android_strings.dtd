@@ -3661,7 +3661,7 @@ List
 Localization
 note
 (
-reading_list_time_minutes
+reading_list_time_minutes2
 )
 :
 This
@@ -3714,7 +3714,7 @@ possible
 <
 !
 ENTITY
-reading_list_time_minutes
+reading_list_time_minutes2
 "
 &
 formatD
