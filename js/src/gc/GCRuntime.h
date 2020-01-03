@@ -2206,7 +2206,7 @@ defaultSliceBudget
 const
 {
 return
-sliceBudget
+defaultTimeBudget_
 ;
 }
 bool
@@ -3867,7 +3867,7 @@ bool
 interFrameGC
 ;
 int64_t
-sliceBudget
+defaultTimeBudget_
 ;
 bool
 incrementalAllowed
