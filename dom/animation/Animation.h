@@ -886,6 +886,7 @@ return
 mTiming
 ;
 }
+virtual
 const
 nsString
 &

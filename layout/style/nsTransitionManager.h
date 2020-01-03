@@ -150,6 +150,15 @@ return
 this
 ;
 }
+virtual
+const
+nsString
+&
+Name
+(
+)
+const
+;
 nsCSSProperty
 TransitionProperty
 (
