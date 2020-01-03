@@ -6197,15 +6197,16 @@ NS_TRACE_MALLOC_DISABLE_STACKS
 self
 .
 env
-[
-"
+.
+setdefault
+(
+'
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
-"
-]
-=
-"
+'
+'
 1
-"
+'
+)
     
 def
 buildEnvironment

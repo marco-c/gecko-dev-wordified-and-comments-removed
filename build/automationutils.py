@@ -3157,15 +3157,16 @@ MOZ_CRASHREPORTER_DISABLE
 '
   
 env
-[
+.
+setdefault
+(
 '
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
 '
-]
-=
 '
 1
 '
+)
   
 env
 .
