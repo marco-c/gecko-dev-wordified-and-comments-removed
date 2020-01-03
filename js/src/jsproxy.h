@@ -1324,6 +1324,7 @@ MutableHandleValue
 vp
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
