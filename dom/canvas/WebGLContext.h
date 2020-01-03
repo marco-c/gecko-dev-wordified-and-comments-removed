@@ -1482,6 +1482,15 @@ IsContextLost
 mHeight
 ;
 }
+layers
+:
+:
+LayersBackend
+GetCompositorBackendType
+(
+)
+const
+;
 void
 GetContextAttributes
 (
