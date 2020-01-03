@@ -127,6 +127,9 @@ h
 ifdef
 XP_WIN
 #
+define
+XRE_DONT_SUPPORT_XPSP2
+#
 include
 "
 nsWindowsWMain

@@ -19,6 +19,9 @@ windows
 h
 >
 #
+define
+XRE_DONT_SUPPORT_XPSP2
+#
 include
 "
 nsWindowsWMain
