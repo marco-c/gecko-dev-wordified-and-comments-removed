@@ -1963,17 +1963,6 @@ searchStr
 text
 "
 ;
-synthesizeComposition
-(
-{
-type
-:
-"
-compositionstart
-"
-}
-)
-;
 synthesizeCompositionChange
 (
 {
