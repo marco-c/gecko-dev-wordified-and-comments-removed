@@ -34830,11 +34830,14 @@ GetParentNode
 (
 )
 ;
+NS_ENSURE_STATE
+(
+parent
+)
+;
 int32_t
 parOffset
 =
-parent
-?
 parent
 -
 >
@@ -34843,9 +34846,6 @@ IndexOf
 &
 aNodeLeft
 )
-:
--
-1
 ;
 nsCOMPtr
 <
