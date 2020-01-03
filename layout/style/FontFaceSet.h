@@ -592,6 +592,11 @@ FontFace
 aFontFace
 )
 ;
+uint32_t
+Size
+(
+)
+;
 FontFace
 *
 IndexedGetter
@@ -607,7 +612,13 @@ uint32_t
 Length
 (
 )
+{
+return
+Size
+(
+)
 ;
+}
 private
 :
 ~
