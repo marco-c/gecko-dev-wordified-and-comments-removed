@@ -17,7 +17,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )

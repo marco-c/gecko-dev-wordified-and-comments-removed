@@ -31,7 +31,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )

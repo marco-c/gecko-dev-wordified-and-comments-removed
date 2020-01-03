@@ -15,7 +15,6 @@ html
 ;
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -44,7 +43,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -54,10 +52,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -1331,10 +1325,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;
