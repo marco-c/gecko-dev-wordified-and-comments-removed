@@ -71,7 +71,6 @@ notifications
 stubGetPermsAndCacheMedia
 fakeAudioXHR
 dispatcher
-feedbackStore
 WEBSOCKET_REASONS
 =
 loop
@@ -116,8 +115,17 @@ NotificationCollection
 (
 )
 ;
+loop
+.
+store
+.
+StoreMixin
+.
+register
+(
+{
 feedbackStore
-=
+:
 new
 loop
 .
@@ -131,6 +139,8 @@ feedbackClient
 :
 {
 }
+}
+)
 }
 )
 ;
@@ -735,9 +745,9 @@ sdk
 :
 {
 }
-feedbackStore
+dispatcher
 :
-feedbackStore
+dispatcher
 }
 )
 ;
@@ -3732,6 +3742,9 @@ client
 helper
 :
 helper
+dispatcher
+:
+dispatcher
 notifications
 :
 notifications
@@ -3747,9 +3760,6 @@ standaloneAppStore
 activeRoomStore
 :
 activeRoomStore
-feedbackStore
-:
-feedbackStore
 }
 )
 )
@@ -6544,9 +6554,6 @@ sdk
 :
 {
 }
-feedbackStore
-:
-feedbackStore
 onAfterFeedbackReceived
 :
 function
