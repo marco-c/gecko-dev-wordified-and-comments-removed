@@ -1458,6 +1458,9 @@ defines
 '
 WEBRTC_GONK
 '
+'
+WEBRTC_DIRECT_TRACE
+'
 ]
 }
 ]
