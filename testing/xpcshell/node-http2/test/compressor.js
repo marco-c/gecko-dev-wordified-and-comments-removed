@@ -1973,6 +1973,7 @@ encoded
 ;
 }
 )
+;
 describe
 (
 '
@@ -2054,6 +2055,7 @@ equal
 (
 decoded
 )
+;
 }
 table
 =
@@ -2102,12 +2104,14 @@ equal
 (
 decoded
 )
+;
 }
 }
 )
 ;
 }
 )
+;
 }
 )
 ;
@@ -3627,8 +3631,10 @@ buffer
 }
 }
 )
+;
 }
 )
+;
 }
 )
 ;
