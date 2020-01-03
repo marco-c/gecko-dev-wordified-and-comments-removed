@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIProgrammingLanguage
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

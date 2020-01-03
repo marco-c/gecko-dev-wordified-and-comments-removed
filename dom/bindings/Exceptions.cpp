@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsIProgrammingLanguage
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

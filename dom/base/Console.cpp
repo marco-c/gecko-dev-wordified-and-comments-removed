@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsIProgrammingLanguage
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
