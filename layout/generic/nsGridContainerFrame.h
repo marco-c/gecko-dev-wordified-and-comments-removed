@@ -480,11 +480,12 @@ MOZ_ASSERT
 (
 aStart
 >
+=
 0
 "
 expected
 a
-1
+zero
 -
 based
 line
@@ -509,14 +510,6 @@ HypotheticalEnd
 const
 {
 return
-IsAuto
-(
-)
-?
-mEnd
-+
-1
-:
 mEnd
 ;
 }
@@ -997,6 +990,8 @@ nsStyleGridLine
 :
 :
 kMinLine
+-
+1
 )
 &
 &
@@ -1014,6 +1009,8 @@ nsStyleGridLine
 :
 :
 kMinLine
+-
+1
 )
 )
 ;
