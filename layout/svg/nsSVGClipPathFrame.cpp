@@ -1412,7 +1412,7 @@ clipPathUnits
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
