@@ -749,11 +749,6 @@ DispatchCompositionStart
 )
 ;
 bool
-DispatchCompositionEnd
-(
-)
-;
-bool
 DispatchCompositionChangeEvent
 (
 const
@@ -762,6 +757,15 @@ nsAString
 aCompositionString
 bool
 aIsCommit
+)
+;
+bool
+DispatchCompositionEventsForCommit
+(
+const
+nsAString
+&
+aCommitString
 )
 ;
 }
