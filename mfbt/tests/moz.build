@@ -136,6 +136,9 @@ TestFloatingPoint
 TestIntegerPrintfMacros
 '
 '
+TestIntegerRange
+'
+'
 TestJSONWriter
 '
 '
