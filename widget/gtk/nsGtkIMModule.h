@@ -308,12 +308,6 @@ OnUpdateComposition
 (
 )
 ;
-static
-bool
-IsVirtualKeyboardOpened
-(
-)
-;
 protected
 :
 nsWindow
