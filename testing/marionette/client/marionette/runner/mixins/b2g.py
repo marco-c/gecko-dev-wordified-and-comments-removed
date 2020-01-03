@@ -554,6 +554,27 @@ getLogcat
 (
 )
                 
+if
+len
+(
+logcat
+)
+=
+=
+1
+:
+                    
+logcat
+=
+logcat
+[
+0
+]
+.
+splitlines
+(
+)
+                
 latest
 =
 [
@@ -789,6 +810,12 @@ context
 :
         
 if
+"
+IOError
+"
+in
+output
+or
 "
 Broken
 pipe
