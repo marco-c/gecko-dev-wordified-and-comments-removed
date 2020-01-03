@@ -161,17 +161,6 @@ Worker
 interface
 Crypto
 {
-[
-Pref
-=
-"
-dom
-.
-webcrypto
-.
-enabled
-"
-]
 readonly
 attribute
 SubtleCrypto
