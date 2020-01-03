@@ -186,12 +186,6 @@ MediaSystemResourceManager
 (
 )
 ;
-static
-bool
-IsMediaSystemResourceManagerEnabled
-(
-)
-;
 void
 OpenIPC
 (
