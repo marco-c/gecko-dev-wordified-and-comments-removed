@@ -512,6 +512,9 @@ EmptyLog
 #
 endif
 #
+undef
+LOG_ASSERT
+#
 define
 LOG_ASSERT
 (

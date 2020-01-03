@@ -206,6 +206,8 @@ aSVGElement
 {
 bool
 val
+=
+false
 ;
 nsresult
 rv

@@ -235,6 +235,9 @@ dom
 bluetooth
 ;
 #
+undef
+LOG
+#
 define
 LOG
 (
