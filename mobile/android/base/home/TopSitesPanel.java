@@ -1832,10 +1832,6 @@ String
 searchTerm
 )
 {
-mPosition
-=
-position
-;
 final
 FragmentManager
 manager
@@ -1865,6 +1861,10 @@ dialog
 null
 )
 {
+mPosition
+=
+position
+;
 dialog
 =
 PinSiteDialog
@@ -1873,7 +1873,6 @@ newInstance
 (
 )
 ;
-}
 dialog
 .
 setOnSiteSelectedListener
@@ -1896,6 +1895,7 @@ manager
 TAG_PIN_SITE
 )
 ;
+}
 }
 Override
 public
