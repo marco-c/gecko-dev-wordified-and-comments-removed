@@ -3747,6 +3747,12 @@ AsmJSActivationGlobalDataOffset
 )
 ;
 }
+void
+loadAsmJSHeapRegisterFromGlobalData
+(
+)
+{
+}
 static
 bool
 canUseInSingleByteInstruction

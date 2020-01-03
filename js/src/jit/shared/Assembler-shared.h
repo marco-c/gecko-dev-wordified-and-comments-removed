@@ -2370,6 +2370,17 @@ AsmJSActivationGlobalDataOffset
 static
 const
 unsigned
+AsmJSHeapGlobalDataOffset
+=
+sizeof
+(
+void
+*
+)
+;
+static
+const
+unsigned
 AsmJSNaN64GlobalDataOffset
 =
 2
