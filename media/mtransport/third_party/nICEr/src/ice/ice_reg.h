@@ -204,6 +204,16 @@ password
 "
 #
 define
+NR_ICE_REG_ICE_TCP_DISABLE
+"
+ice
+.
+tcp
+.
+disable
+"
+#
+define
 NR_ICE_REG_ICE_TCP_SO_SOCK_COUNT
 "
 ice

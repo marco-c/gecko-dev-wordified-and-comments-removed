@@ -1593,6 +1593,8 @@ bool
 set_interface_priorities
 bool
 allow_loopback
+bool
+tcp_enabled
 )
 {
 RefPtr
@@ -2356,6 +2358,17 @@ char
 )
 NR_ICE_REG_ICE_TCP_LISTEN_BACKLOG
 ice_tcp_listen_backlog
+)
+;
+NR_reg_set_char
+(
+(
+char
+*
+)
+NR_ICE_REG_ICE_TCP_DISABLE
+!
+tcp_enabled
 )
 ;
 if
