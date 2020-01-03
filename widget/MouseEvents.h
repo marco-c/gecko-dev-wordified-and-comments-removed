@@ -231,6 +231,10 @@ pressure
 (
 0
 )
+hitCluster
+(
+false
+)
 inputSource
 (
 nsIDOMMouseEvent
@@ -329,6 +333,9 @@ buttons
 float
 pressure
 ;
+bool
+hitCluster
+;
 uint16_t
 inputSource
 ;
@@ -379,6 +386,12 @@ pressure
 aEvent
 .
 pressure
+;
+hitCluster
+=
+aEvent
+.
+hitCluster
 ;
 inputSource
 =
