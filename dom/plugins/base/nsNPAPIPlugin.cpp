@@ -12354,8 +12354,6 @@ return
 NPERR_NO_ERROR
 ;
 }
-break
-;
 default
 :
 ;
