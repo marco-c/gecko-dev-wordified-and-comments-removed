@@ -641,6 +641,12 @@ suppression
 ref
 .
 html
+fails
+-
+if
+(
+B2G
+)
 =
 =
 line
@@ -663,6 +669,9 @@ suppression
 ref
 .
 html
+#
+bug
+1156169
 =
 =
 line
