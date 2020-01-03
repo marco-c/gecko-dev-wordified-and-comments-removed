@@ -188,7 +188,7 @@ caseSensitiveValue
 bool
 IsCSSEditableProperty
 (
-nsIContent
+nsINode
 *
 aNode
 nsIAtom
@@ -408,7 +408,7 @@ aStyleType
 bool
 IsCSSEquivalentToHTMLInlineStyleSet
 (
-nsIContent
+nsINode
 *
 aContent
 nsIAtom
