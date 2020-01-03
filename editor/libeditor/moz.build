@@ -111,7 +111,7 @@ ChangeAttributeTxn
 cpp
 '
 '
-ChangeCSSInlineStyleTxn
+ChangeStyleTxn
 .
 cpp
 '
