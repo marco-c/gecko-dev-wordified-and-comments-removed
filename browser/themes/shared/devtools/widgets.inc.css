@@ -8622,6 +8622,12 @@ background
 :
 transparent
 ;
+pointer
+-
+events
+:
+none
+;
 }
 .
 tree
