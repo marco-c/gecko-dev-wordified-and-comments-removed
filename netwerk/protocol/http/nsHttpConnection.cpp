@@ -775,7 +775,7 @@ LOG
 (
 (
 "
-TakeSubTranscations
+TakeSubTransactions
 somehow
 called
 after
@@ -794,7 +794,7 @@ MOZ_ASSERT
 (
 false
 "
-TakeSubTranscations
+TakeSubTransactions
 somehow
 called
 after
