@@ -310,7 +310,7 @@ double
 scaleFactor
 ;
 bool
-hasAlpha
+isOpaque
 ;
 }
 ;
