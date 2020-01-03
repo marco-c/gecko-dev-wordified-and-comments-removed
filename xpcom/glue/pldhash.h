@@ -266,10 +266,14 @@ mOps
 int16_t
 mHashShift
 ;
+protected
+:
 mutable
 uint16_t
 mRecursionLevel
 ;
+private
+:
 uint32_t
 mEntrySize
 ;

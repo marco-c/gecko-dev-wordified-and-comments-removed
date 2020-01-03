@@ -612,3 +612,6 @@ tests
 gtest
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
