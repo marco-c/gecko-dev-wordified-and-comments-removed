@@ -1580,6 +1580,19 @@ p_memsz
 ;
 #
 endif
+if
+(
+MOZ_UNLIKELY
+(
+Logging
+:
+:
+isVerbose
+(
+)
+)
+)
+{
 elf
 -
 >
@@ -1590,6 +1603,7 @@ oneLibLoaded
 "
 )
 ;
+}
 DEBUG_LOG
 (
 "

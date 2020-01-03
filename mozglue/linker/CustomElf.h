@@ -146,6 +146,7 @@ const
 ;
 public
 :
+virtual
 void
 stats
 (
