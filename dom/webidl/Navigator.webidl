@@ -1940,6 +1940,7 @@ Navigator
 :
 HasCameraSupport
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
