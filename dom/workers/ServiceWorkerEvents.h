@@ -118,9 +118,6 @@ namespace
 dom
 {
 class
-Blob
-;
-class
 Request
 ;
 class
@@ -721,7 +718,7 @@ mozilla
 dom
 :
 :
-Blob
+File
 *
 Blob
 (

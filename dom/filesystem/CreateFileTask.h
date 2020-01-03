@@ -41,7 +41,7 @@ namespace
 dom
 {
 class
-Blob
+File
 ;
 class
 FileImpl
@@ -67,7 +67,7 @@ const
 nsAString
 &
 aPath
-Blob
+File
 *
 aBlobData
 InfallibleTArray
@@ -192,7 +192,7 @@ mTargetRealPath
 ;
 nsRefPtr
 <
-Blob
+File
 >
 mBlobData
 ;

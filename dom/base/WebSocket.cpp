@@ -8466,7 +8466,7 @@ WebSocket
 :
 Send
 (
-Blob
+File
 &
 aData
 ErrorResult

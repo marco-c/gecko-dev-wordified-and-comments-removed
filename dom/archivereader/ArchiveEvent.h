@@ -83,11 +83,9 @@ aFilename
 0
 ;
 virtual
-already_AddRefed
-<
+nsIDOMFile
+*
 File
->
-GetFile
 (
 ArchiveReader
 *

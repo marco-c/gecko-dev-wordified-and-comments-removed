@@ -51,7 +51,7 @@ nsTArray
 <
 nsRefPtr
 <
-Blob
+File
 >
 >
 mBlobs

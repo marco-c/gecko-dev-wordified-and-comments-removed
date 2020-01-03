@@ -109,7 +109,7 @@ dom
 :
 File
 *
-aFile
+aBlob
 )
 =
 0
@@ -335,7 +335,7 @@ dom
 :
 File
 *
-aFile
+aBlob
 )
 override
 ;

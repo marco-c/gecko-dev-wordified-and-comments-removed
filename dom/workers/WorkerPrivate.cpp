@@ -2008,7 +2008,7 @@ forget
 }
 already_AddRefed
 <
-Blob
+File
 >
 ReadBlobOrFileNoWrap
 (
@@ -2172,14 +2172,12 @@ globalScope
 }
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
-Blob
-:
-:
-Create
+new
+File
 (
 parent
 blobImpl
@@ -2217,7 +2215,7 @@ aBlobOrFile
 {
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
@@ -2466,7 +2464,7 @@ dummy
 ;
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
@@ -3119,7 +3117,7 @@ aClosure
 {
 nsRefPtr
 <
-Blob
+File
 >
 blob
 ;
@@ -3468,7 +3466,7 @@ aClosure
 {
 nsRefPtr
 <
-Blob
+File
 >
 blob
 ;

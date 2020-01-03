@@ -2400,7 +2400,7 @@ FileHandleBase
 GetInputStream
 (
 const
-Blob
+File
 &
 aValue
 uint64_t
@@ -2411,13 +2411,13 @@ ErrorResult
 aRv
 )
 {
-Blob
+File
 &
 file
 =
 const_cast
 <
-Blob
+File
 &
 >
 (
