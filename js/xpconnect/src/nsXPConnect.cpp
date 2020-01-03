@@ -4526,13 +4526,6 @@ NS_IsMainThread
 )
 )
 ;
-mRuntime
--
->
-OnBeforeProcessNextEvent
-(
-)
-;
 if
 (
 aMayWait
@@ -4650,13 +4643,6 @@ Promise
 :
 :
 PerformMicroTaskCheckpoint
-(
-)
-;
-mRuntime
--
->
-OnAfterMicroTaskCheckPoint
 (
 )
 ;
