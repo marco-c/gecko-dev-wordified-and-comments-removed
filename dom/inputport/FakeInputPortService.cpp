@@ -113,6 +113,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (
@@ -211,6 +212,7 @@ nsITimer
 *
 aTimer
 )
+override
 {
 InputPortData
 *
