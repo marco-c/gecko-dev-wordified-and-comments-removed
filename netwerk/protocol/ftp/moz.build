@@ -213,11 +213,8 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
 /
-.
-.
+netwerk
 /
 base
 '
