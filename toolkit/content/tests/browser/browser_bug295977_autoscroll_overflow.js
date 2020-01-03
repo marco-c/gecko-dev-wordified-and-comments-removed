@@ -1969,7 +1969,7 @@ timeCompensation
 {
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkScroll
 )
@@ -2423,7 +2423,7 @@ paste
 ;
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkScroll
 )

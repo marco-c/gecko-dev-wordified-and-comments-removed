@@ -748,9 +748,11 @@ ltr
 var
 startTime
 =
-window
+performance
 .
-mozAnimationStartTime
+now
+(
+)
 ;
 var
 self
@@ -798,7 +800,7 @@ self
 .
 _alive
 )
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 nextStep
 )
@@ -933,7 +935,7 @@ width
 *
 position
 ;
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 nextStep
 )
@@ -946,7 +948,7 @@ e
 {
 }
 }
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 nextStep
 )

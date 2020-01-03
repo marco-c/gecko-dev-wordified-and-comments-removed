@@ -246,7 +246,7 @@ skipFrames
 {
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkScroll
 )
@@ -399,7 +399,7 @@ contentWindow
 ;
 window
 .
-mozRequestAnimationFrame
+requestAnimationFrame
 (
 checkScroll
 )
