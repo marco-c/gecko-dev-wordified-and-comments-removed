@@ -4710,7 +4710,9 @@ if
 !
 metrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -4728,7 +4730,9 @@ GetDisplayportCoverage
 (
 metrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 transform
 screenRect
 )
@@ -4744,7 +4748,9 @@ GetDisplayportCoverage
 (
 metrics
 .
-mDisplayPort
+GetDisplayPort
+(
+)
 transform
 screenRect
 )
