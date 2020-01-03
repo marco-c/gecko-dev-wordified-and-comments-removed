@@ -791,8 +791,10 @@ imgINotificationObserver
 :
 :
 DECODE_COMPLETE
-&
-&
+)
+{
+if
+(
 mFireEventsOnDecode
 )
 {
@@ -845,6 +847,7 @@ load
 )
 )
 ;
+}
 }
 UpdateImageState
 (
