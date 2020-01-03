@@ -696,6 +696,8 @@ layoutFromMode
 Mode
 (
 mode
+&
+MODE_MASK
 )
 )
 ;
