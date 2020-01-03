@@ -88,6 +88,8 @@ DOMString
 keyword
 MozInterAppMessagePort
 port
+DOMString
+from
 )
 JSImplementation
 =
@@ -121,6 +123,11 @@ readonly
 attribute
 MozInterAppMessagePort
 port
+;
+readonly
+attribute
+DOMString
+from
 ;
 }
 ;

@@ -1193,6 +1193,7 @@ aAllowedSubAppManifestURLs
 aTarget
 aOuterWindowID
 aRequestID
+aPubPageURL
 )
 {
 if
@@ -1224,6 +1225,13 @@ aAllowedSubAppManifestURLs
 "
 +
 aAllowedSubAppManifestURLs
++
+"
+aPubPageURL
+:
+"
++
+aPubPageURL
 )
 ;
 }
@@ -1452,6 +1460,9 @@ aKeyword
 messagePortID
 :
 messagePortID
+pubPageURL
+:
+aPubPageURL
 }
 Services
 .
@@ -1772,6 +1783,13 @@ aMessage
 rules
 ;
 let
+pubPageURL
+=
+aMessage
+.
+pubPageURL
+;
+let
 pubAppManifestURL
 =
 aMessage
@@ -1841,6 +1859,7 @@ pubAppManifestURL
 aTarget
 outerWindowID
 requestID
+pubPageURL
 )
 ;
 return
@@ -2042,6 +2061,7 @@ allowedSubAppManifestURLs
 aTarget
 outerWindowID
 requestID
+pubPageURL
 )
 ;
 return
@@ -2136,6 +2156,12 @@ function
 aData
 )
 {
+aData
+.
+pubPageURL
+=
+pubPageURL
+;
 this
 .
 _handleSelectedApps
@@ -2174,6 +2200,7 @@ component
 +
 aError
 )
+;
 }
 this
 .
@@ -2189,6 +2216,9 @@ keyword
 manifestURL
 :
 pubAppManifestURL
+pubPageURL
+:
+pubPageURL
 selectedApps
 :
 [
@@ -2242,6 +2272,9 @@ keyword
 manifestURL
 :
 pubAppManifestURL
+pubPageURL
+:
+pubPageURL
 selectedApps
 :
 [
@@ -3641,6 +3674,13 @@ aData
 manifestURL
 ;
 let
+pubPageURL
+=
+aData
+.
+pubPageURL
+;
+let
 keyword
 =
 aData
@@ -3736,6 +3776,7 @@ allowedSubAppManifestURLs
 target
 outerWindowID
 requestID
+pubPageURL
 )
 ;
 }

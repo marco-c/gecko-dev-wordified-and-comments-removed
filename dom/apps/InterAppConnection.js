@@ -462,6 +462,12 @@ port
 =
 null
 ;
+this
+.
+from
+=
+null
+;
 }
 ;
 InterAppConnectionRequest
@@ -531,6 +537,7 @@ function
 (
 aKeyword
 aPort
+aFrom
 )
 {
 if
@@ -554,6 +561,13 @@ aPort
 "
 +
 aPort
++
+"
+aFrom
+:
+"
++
+aFrom
 )
 ;
 this
@@ -567,6 +581,12 @@ this
 port
 =
 aPort
+;
+this
+.
+from
+=
+aFrom
 ;
 }
 }
@@ -647,6 +667,9 @@ aMessage
 .
 keyword
 port
+aMessage
+.
+pubPageURL
 )
 ;
 return
