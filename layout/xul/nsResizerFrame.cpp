@@ -513,7 +513,7 @@ height
 )
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 refPoint
 ;
 if
@@ -532,6 +532,11 @@ mMouseDownPoint
 =
 refPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 aEvent
 -
 >
@@ -540,6 +545,7 @@ widget
 >
 WidgetToScreenOffset
 (
+)
 )
 ;
 mTrackingMouseMove
@@ -696,7 +702,7 @@ GetPrimaryFrame
 )
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 refPoint
 ;
 if
@@ -711,11 +717,16 @@ refPoint
 return
 NS_OK
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 screenPoint
-(
+=
 refPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 aEvent
 -
 >
@@ -727,7 +738,7 @@ WidgetToScreenOffset
 )
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 mouseMove
 (
 screenPoint

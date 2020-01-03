@@ -6541,7 +6541,7 @@ int8_t
 aHorizontalSide
 int8_t
 aVerticalSide
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aChange
 )
