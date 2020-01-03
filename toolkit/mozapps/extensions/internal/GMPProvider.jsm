@@ -2656,6 +2656,7 @@ removeAndDeletePluginDirectory
 this
 .
 _gmpPath
+true
 )
 ;
 }
