@@ -98,7 +98,7 @@ testing
 description
 =
 '
-Runs
+Run
 the
 jetpack
 test
