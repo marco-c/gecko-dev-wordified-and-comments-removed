@@ -2587,6 +2587,9 @@ MOZ_B2G_BT_DAEMON
 =
 1
 fi
+MOZ_NFC
+=
+1
 ;
 ;
 *
