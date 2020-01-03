@@ -1613,6 +1613,10 @@ mD3D11DeviceInitialized
 (
 false
 )
+mIsWARP
+(
+false
+)
 {
 mUseClearTypeForDownloadableFonts
 =
@@ -8230,6 +8234,10 @@ MOZ_CRASH
 )
 ;
 }
+mIsWARP
+=
+true
+;
 reporterWARP
 .
 SetSuccessful

@@ -161,3 +161,12 @@ xul
 FAIL_ON_WARNINGS
 =
 True
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_CAIRO_CFLAGS
+'
+]
