@@ -957,7 +957,6 @@ self
         
 return
 False
-;
     
 def
 isUnion
@@ -1137,8 +1136,7 @@ recursion
         
 if
 visited
-=
-=
+is
 None
 :
             
@@ -5109,7 +5107,6 @@ additionalMembers
 iface
 .
 originalMembers
-;
             
 for
 additionalMember
@@ -8165,8 +8162,8 @@ method
 )
                     
 elif
-not
 newMethod
+not
 in
 self
 .
@@ -9669,7 +9666,6 @@ self
         
 return
 True
-;
     
 def
 canBeEmpty
@@ -12952,7 +12948,6 @@ self
         
 return
 False
-;
     
 def
 isString
@@ -12963,7 +12958,6 @@ self
         
 return
 False
-;
     
 def
 isByteString
@@ -20569,7 +20563,6 @@ value
 location
 ]
 )
-;
             
 return
 self
@@ -26874,7 +26867,6 @@ self
 location
 ]
 )
-;
                 
 self
 .
@@ -26948,7 +26940,6 @@ self
 location
 ]
 )
-;
                 
 self
 .
@@ -30757,7 +30748,6 @@ self
 location
 ]
 )
-;
         
 elif
 identifier
@@ -30792,7 +30782,6 @@ self
 location
 ]
 )
-;
         
 elif
 identifier
@@ -31458,7 +31447,6 @@ self
 implementor
 =
 implementor
-;
         
 self
 .
@@ -35571,8 +35559,7 @@ p
         
 if
 integerType
-=
-=
+is
 None
 :
             

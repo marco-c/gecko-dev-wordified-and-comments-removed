@@ -241,7 +241,6 @@ self
 .
 topobjdir
 )
-;
         
 from
 runtests
