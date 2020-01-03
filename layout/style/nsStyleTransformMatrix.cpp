@@ -550,9 +550,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 *
 aRefBox
@@ -651,7 +651,7 @@ SpecifiedCalcToComputedCalc
 aValue
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 )
 ;
 percent
@@ -679,7 +679,7 @@ CalcLength
 aValue
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 )
 ;
 }
@@ -759,9 +759,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -867,7 +867,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -892,7 +892,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -930,9 +930,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -1182,7 +1182,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1207,7 +1207,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1232,7 +1232,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 nullptr
 )
 ;
@@ -1263,9 +1263,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -1331,7 +1331,7 @@ GetListValue
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 nsPresContext
 :
@@ -1377,7 +1377,7 @@ GetListValue
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 nsPresContext
 :
@@ -1438,9 +1438,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -1482,7 +1482,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1520,9 +1520,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -1564,7 +1564,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1602,9 +1602,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 )
 {
 NS_PRECONDITION
@@ -1643,7 +1643,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 nullptr
 )
 ;
@@ -1675,9 +1675,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -1730,7 +1730,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1768,7 +1768,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1807,9 +1807,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -1851,7 +1851,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1876,7 +1876,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 &
 aRefBox
 &
@@ -1901,7 +1901,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 nullptr
 )
 ;
@@ -3120,9 +3120,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 )
 {
 NS_PRECONDITION
@@ -3157,7 +3157,7 @@ Item
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 nullptr
 )
 ;
@@ -3189,9 +3189,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -3233,7 +3233,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;
@@ -3248,7 +3248,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;
@@ -3263,7 +3263,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 )
 ;
 break
@@ -3277,7 +3277,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;
@@ -3292,7 +3292,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;
@@ -3442,7 +3442,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;
@@ -3457,7 +3457,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;
@@ -3472,7 +3472,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;
@@ -3487,7 +3487,7 @@ aMatrix
 aData
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 )
 ;
 break
@@ -3563,9 +3563,9 @@ aContext
 nsPresContext
 *
 aPresContext
-bool
+RuleNodeCacheConditions
 &
-aCanStoreInRuleTree
+aConditions
 TransformReferenceBox
 &
 aRefBox
@@ -3693,7 +3693,7 @@ GetArrayValue
 )
 aContext
 aPresContext
-aCanStoreInRuleTree
+aConditions
 aRefBox
 )
 ;

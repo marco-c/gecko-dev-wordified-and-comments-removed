@@ -520,6 +520,11 @@ IncrementalClearCOMRuleArray
 h
 '
 '
+RuleNodeCacheConditions
+.
+h
+'
+'
 StyleAnimationValue
 .
 h
@@ -884,6 +889,11 @@ cpp
 '
 '
 nsTransitionManager
+.
+cpp
+'
+'
+RuleNodeCacheConditions
 .
 cpp
 '

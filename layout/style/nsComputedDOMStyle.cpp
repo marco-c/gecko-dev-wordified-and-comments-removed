@@ -5017,7 +5017,7 @@ nsSize
 )
 )
 ;
-bool
+RuleNodeCacheConditions
 dummy
 ;
 gfx3DMatrix
