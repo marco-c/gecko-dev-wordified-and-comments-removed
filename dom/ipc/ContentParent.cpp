@@ -139,6 +139,13 @@ h
 #
 include
 "
+imgIContainer
+.
+h
+"
+#
+include
+"
 mozIApplication
 .
 h
