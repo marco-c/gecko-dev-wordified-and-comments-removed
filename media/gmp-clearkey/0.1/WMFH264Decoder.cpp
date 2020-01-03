@@ -5,6 +5,11 @@ WMFH264Decoder
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 wmf
 {

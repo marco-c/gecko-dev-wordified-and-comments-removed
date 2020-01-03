@@ -59,13 +59,6 @@ Endian
 .
 h
 "
-#
-include
-"
-pk11pub
-.
-h
-"
 using
 namespace
 mozilla
