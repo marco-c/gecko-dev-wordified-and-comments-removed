@@ -2768,9 +2768,9 @@ data
 ;
 if
 (
-!
 NS_WARN_IF
 (
+!
 SharedMessagePortMessage
 :
 :
