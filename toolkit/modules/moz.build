@@ -286,6 +286,11 @@ Promise
 jsm
 '
 '
+PromiseUtils
+.
+jsm
+'
+'
 PropertyListUtils
 .
 jsm
