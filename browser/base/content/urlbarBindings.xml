@@ -8180,9 +8180,7 @@ xul
 let
 addEngines
 =
-getBrowser
-(
-)
+gBrowser
 .
 mCurrentBrowser
 .

@@ -2940,9 +2940,7 @@ i
 var
 addengines
 =
-getBrowser
-(
-)
+gBrowser
 .
 mCurrentBrowser
 .
