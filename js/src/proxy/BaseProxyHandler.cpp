@@ -1310,10 +1310,12 @@ cx
 if
 (
 !
-getEnumerablePropertyKeys
+GetPropertyKeys
 (
 cx
 proxy
+0
+&
 props
 )
 )
