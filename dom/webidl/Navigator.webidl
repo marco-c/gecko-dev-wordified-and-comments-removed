@@ -507,6 +507,11 @@ See
 bug
 679971
 .
+[
+Exposed
+=
+Window
+]
 boolean
 taintEnabled
 (
