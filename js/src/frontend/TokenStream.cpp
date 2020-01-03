@@ -8732,9 +8732,16 @@ append
 c
 )
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 }
 JSAtom
 *
