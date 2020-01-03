@@ -12734,7 +12734,7 @@ int
 getWebsiteType
 (
 String
-webisteType
+websiteType
 )
 {
 initWebsiteTypesMap
@@ -12748,7 +12748,7 @@ mWebsiteTypesMap
 .
 get
 (
-webisteType
+websiteType
 .
 toLowerCase
 (

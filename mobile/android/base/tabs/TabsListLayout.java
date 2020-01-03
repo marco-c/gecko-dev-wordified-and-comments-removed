@@ -437,7 +437,7 @@ null
 ;
 item
 .
-setCloseVisibile
+setCloseVisible
 (
 true
 )
@@ -1829,7 +1829,7 @@ view
 ;
 tab
 .
-setCloseVisibile
+setCloseVisible
 (
 true
 )
@@ -2725,7 +2725,7 @@ TabsLayoutItemView
 mSwipeView
 )
 .
-setCloseVisibile
+setCloseVisible
 (
 false
 )

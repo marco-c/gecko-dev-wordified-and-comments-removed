@@ -182,7 +182,7 @@ SUCCESS
 Override
 public
 String
-getSuccessMesssage
+getSuccessMessage
 (
 )
 {

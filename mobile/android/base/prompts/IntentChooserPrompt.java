@@ -41,13 +41,6 @@ GeckoActionProvider
 import
 android
 .
-app
-.
-Activity
-;
-import
-android
-.
 content
 .
 ComponentName
@@ -554,7 +547,7 @@ infos
 =
 provider
 .
-getSortedActivites
+getSortedActivities
 (
 )
 ;

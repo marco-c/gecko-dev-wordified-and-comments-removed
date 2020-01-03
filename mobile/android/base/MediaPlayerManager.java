@@ -1384,7 +1384,7 @@ categoryForCast
 (
 ChromeCast
 .
-MIRROR_RECIEVER_APP_ID
+MIRROR_RECEIVER_APP_ID
 )
 )
 .

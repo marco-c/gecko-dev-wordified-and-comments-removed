@@ -744,7 +744,7 @@ ArrayList
 <
 ResolveInfo
 >
-getSortedActivites
+getSortedActivities
 (
 )
 {

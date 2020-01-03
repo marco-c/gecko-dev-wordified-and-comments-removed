@@ -702,7 +702,7 @@ LOG_TAG
 No
 need
 to
-verifiy
+verify
 Firefox
 Account
 that

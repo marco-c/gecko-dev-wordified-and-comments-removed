@@ -2360,7 +2360,7 @@ GeckoSmsManager
 SMS
 sending
 was
-successfull
+successful
 !
 "
 )

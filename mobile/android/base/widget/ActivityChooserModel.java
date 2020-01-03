@@ -352,18 +352,6 @@ weight
 public
 static
 final
-String
-DEFAULT_HISTORY_FILE_NAME
-=
-"
-activity_choser_model_history
-.
-xml
-"
-;
-public
-static
-final
 int
 DEFAULT_HISTORY_MAX_LENGTH
 =
@@ -536,7 +524,7 @@ mReloadActivities
 ;
 private
 OnChooseActivityListener
-mActivityChoserModelPolicy
+mActivityChooserModelPolicy
 ;
 public
 static
@@ -921,7 +909,7 @@ chosenName
 ;
 if
 (
-mActivityChoserModelPolicy
+mActivityChooserModelPolicy
 !
 =
 null
@@ -940,7 +928,7 @@ final
 boolean
 handled
 =
-mActivityChoserModelPolicy
+mActivityChooserModelPolicy
 .
 onChooseActivity
 (
@@ -996,7 +984,7 @@ synchronized
 mInstanceLock
 )
 {
-mActivityChoserModelPolicy
+mActivityChooserModelPolicy
 =
 listener
 ;

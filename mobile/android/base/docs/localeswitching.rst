@@ -387,7 +387,7 @@ been
 reset
 to
 the
-sytem
+system
 locale
 .
 For

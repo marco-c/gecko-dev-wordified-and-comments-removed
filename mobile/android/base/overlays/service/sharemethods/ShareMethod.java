@@ -79,7 +79,7 @@ shareData
 public
 abstract
 String
-getSuccessMesssage
+getSuccessMessage
 (
 )
 ;
