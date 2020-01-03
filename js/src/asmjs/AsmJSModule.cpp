@@ -5590,7 +5590,12 @@ AsmJSModuleObject
 :
 class_
 nullptr
-nullptr
+JS
+:
+:
+NullPtr
+(
+)
 )
 ;
 if

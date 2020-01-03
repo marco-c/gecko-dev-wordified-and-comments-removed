@@ -172,8 +172,11 @@ create
 ExclusiveContext
 *
 cx
+Handle
+<
 GlobalObject
 *
+>
 parent
 )
 {
@@ -188,7 +191,13 @@ RegExpStaticsObject
 (
 cx
 nullptr
+GlobalObject
+:
+:
+upcast
+(
 parent
+)
 )
 ;
 if

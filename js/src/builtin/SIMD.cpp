@@ -1715,7 +1715,13 @@ SimdTypeDescr
 (
 cx
 funcProto
+GlobalObject
+:
+:
+upcast
+(
 global
+)
 SingletonObject
 )
 ;
@@ -1887,7 +1893,9 @@ TypedProto
 (
 cx
 objProto
-nullptr
+NullPtr
+(
+)
 SingletonObject
 )
 ;
