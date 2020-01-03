@@ -5190,6 +5190,15 @@ GLuint
 index
 )
 ;
+GLenum
+GetCurrentBinding
+(
+WebGLBuffer
+*
+buffer
+)
+const
+;
 protected
 :
 WebGLRefPtr
@@ -7276,8 +7285,6 @@ char
 *
 info
 )
-=
-0
 ;
 virtual
 bool

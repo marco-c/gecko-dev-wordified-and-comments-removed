@@ -1035,6 +1035,7 @@ if
 !
 separate
 )
+{
 ErrorInvalidValue
 (
 "
@@ -1051,14 +1052,18 @@ size
 and
 [
 writeOffset
+"
+"
 writeOffset
 +
 size
 )
 overlap
 "
+info
 )
 ;
+}
 return
 separate
 ;
