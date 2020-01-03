@@ -658,10 +658,6 @@ aCall
 void
 EnqueueEnumerationAck
 (
-const
-nsAString
-&
-aType
 )
 ;
 already_AddRefed
