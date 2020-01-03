@@ -1620,6 +1620,8 @@ compartment
 -
 >
 principals
+(
+)
 )
 ;
 RootedObject

@@ -7202,9 +7202,10 @@ true
 compartment
 -
 >
-isSystem
-=
+setIsSystem
+(
 true
+)
 ;
 if
 (

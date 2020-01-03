@@ -16397,6 +16397,8 @@ comp
 -
 >
 principals
+(
+)
 )
 JS_DropPrincipals
 (
@@ -16405,6 +16407,8 @@ comp
 -
 >
 principals
+(
+)
 )
 ;
 js_delete

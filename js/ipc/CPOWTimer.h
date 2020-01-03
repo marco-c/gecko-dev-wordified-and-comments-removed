@@ -17,11 +17,15 @@ JSObject
 class
 MOZ_STACK_CLASS
 CPOWTimer
+final
 {
 public
 :
+explicit
+inline
 CPOWTimer
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 startInterval
@@ -31,6 +35,8 @@ PR_IntervalNow
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 CPOWTimer
@@ -39,6 +45,7 @@ CPOWTimer
 ;
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 PRIntervalTime
 startInterval
 ;

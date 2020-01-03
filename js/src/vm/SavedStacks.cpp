@@ -1780,6 +1780,8 @@ compartment
 -
 >
 principals
+(
+)
 ;
 RootedSavedFrame
 rootedFrame
@@ -2189,6 +2191,8 @@ compartment
 -
 >
 principals
+(
+)
 obj
 -
 >
@@ -2198,6 +2202,8 @@ compartment
 -
 >
 principals
+(
+)
 )
 )
 {
@@ -3110,6 +3116,8 @@ compartment
 -
 >
 principals
+(
+)
 ;
 js
 :
@@ -4683,6 +4691,8 @@ compartment
 -
 >
 principals
+(
+)
 )
 ;
 +
