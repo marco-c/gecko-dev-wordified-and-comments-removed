@@ -411,6 +411,10 @@ dbus
 -
 python
 \
+python
+-
+virtualenv
+\
 ;
 yum
 install

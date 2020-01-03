@@ -171,10 +171,6 @@ wasteful
 yum
 clean
 all
-pip
-install
-virtualenv
-;
 mkdir
 Documents
 ;
