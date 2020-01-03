@@ -11632,18 +11632,6 @@ nsISupports
 ctxt
 )
 {
-nsCOMPtr
-<
-nsISupports
->
-context
-=
-mContext
-.
-forget
-(
-)
-;
 if
 (
 !
@@ -11893,7 +11881,7 @@ mRequest
 >
 SetLoadId
 (
-context
+mContext
 )
 ;
 mRequest
@@ -12078,7 +12066,7 @@ mHadInsecureRedirect
 aRequest
 channel
 mNewEntry
-context
+mContext
 loadingPrincipal
 corsmode
 refpol
@@ -12204,10 +12192,6 @@ nsresult
 status
 )
 {
-mContext
-=
-nullptr
-;
 if
 (
 !
