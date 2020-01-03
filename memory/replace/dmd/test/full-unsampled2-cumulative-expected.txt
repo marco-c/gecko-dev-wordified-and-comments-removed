@@ -122,6 +122,11 @@ stats
 =
 yes
 '
+Mode
+=
+'
+cumulative
+'
 Sample
 -
 below

@@ -3926,6 +3926,7 @@ printInvocation
 (
 n
 dmdEnvVar
+mode
 sampleBelowSize
 )
 :
@@ -3976,6 +3977,23 @@ DMD
 '
 +
 dmdEnvVar
++
+'
+\
+'
+'
+)
+        
+out
+(
+'
+Mode
+=
+\
+'
+'
++
+mode
 +
 '
 \
@@ -4062,6 +4080,7 @@ printInvocation
 '
 '
 dmdEnvVar
+mode
 sampleBelowSize
 )
     
@@ -4077,6 +4096,7 @@ dmdEnvVar
 [
 0
 ]
+mode
 sampleBelowSize
 [
 0
@@ -4092,6 +4112,7 @@ dmdEnvVar
 [
 1
 ]
+mode
 sampleBelowSize
 [
 1

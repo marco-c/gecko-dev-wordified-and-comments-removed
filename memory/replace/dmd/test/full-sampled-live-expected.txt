@@ -113,6 +113,11 @@ below
 =
 128
 '
+Mode
+=
+'
+live
+'
 Sample
 -
 below
