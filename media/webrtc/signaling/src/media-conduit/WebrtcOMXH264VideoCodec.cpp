@@ -3723,10 +3723,15 @@ mBitRateKbps
 (
 0
 )
+#
+ifdef
+OMX_IDR_NEEDED_FOR_BITRATE
 mBitRateAtLastIDR
 (
 0
 )
+#
+endif
 mOMXConfigured
 (
 false
@@ -4355,6 +4360,9 @@ mOMXConfigured
 =
 true
 ;
+#
+ifdef
+OMX_IDR_NEEDED_FOR_BITRATE
 mLastIDRTime
 =
 TimeStamp
@@ -4368,6 +4376,8 @@ mBitRateAtLastIDR
 =
 mBitRateKbps
 ;
+#
+endif
 }
 if
 (
@@ -4406,6 +4416,9 @@ RequestIDRFrame
 (
 )
 ;
+#
+ifdef
+OMX_IDR_NEEDED_FOR_BITRATE
 mLastIDRTime
 =
 TimeStamp
@@ -4643,6 +4656,8 @@ mBitRateAtLastIDR
 mBitRateKbps
 ;
 }
+#
+endif
 }
 layers
 :
