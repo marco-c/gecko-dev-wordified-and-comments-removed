@@ -790,16 +790,6 @@ nsCrashOnException
 cpp
 '
 ]
-UNIFIED_SOURCES
-+
-=
-[
-'
-nsErrorAssertsC
-.
-c
-'
-]
 MSVC_ENABLE_PGO
 =
 True
