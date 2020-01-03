@@ -15676,7 +15676,7 @@ ShortJump
 ;
 as_break
 (
-MAX_BREAK_CODE
+BREAK_STACK_UNALIGNED
 )
 ;
 bind
