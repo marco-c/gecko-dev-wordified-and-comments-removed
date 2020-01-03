@@ -1753,7 +1753,6 @@ CallFrameInfo
 :
 :
 Reporter
-final
 {
 public
 :

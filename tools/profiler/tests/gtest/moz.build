@@ -119,6 +119,16 @@ LulTest
 .
 cpp
 '
+'
+LulTestDwarf
+.
+cpp
+'
+'
+LulTestInfrastructure
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
