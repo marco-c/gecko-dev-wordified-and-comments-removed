@@ -119,6 +119,8 @@ const
 GraphicsFilter
 &
 aFilter
+gfxFloat
+aOpacity
 const
 gfxMatrix
 &
@@ -233,6 +235,14 @@ gfxContext
 :
 :
 OPERATOR_SOURCE
+&
+&
+aOpacity
+=
+=
+1
+.
+0
 )
 {
 dt
@@ -303,9 +313,7 @@ fillRect
 pattern
 DrawOptions
 (
-1
-.
-0f
+aOpacity
 op
 aaMode
 )
@@ -487,6 +495,8 @@ const
 GraphicsFilter
 &
 aFilter
+gfxFloat
+aOpacity
 const
 gfxMatrix
 &
@@ -495,7 +505,17 @@ aTransform
 {
 if
 (
+(
 aRepeat
+|
+|
+aOpacity
+!
+=
+1
+.
+0
+)
 &
 &
 !
@@ -524,6 +544,7 @@ aContext
 aFillRect
 aRepeat
 aFilter
+aOpacity
 aTransform
 )
 ;
@@ -656,6 +677,9 @@ aContext
 aFillRect
 false
 aFilter
+1
+.
+0
 aTransform
 )
 ;
@@ -733,6 +757,8 @@ const
 GraphicsFilter
 &
 aFilter
+gfxFloat
+aOpacity
 const
 gfxMatrix
 &
@@ -772,6 +798,7 @@ aContext
 aFillRect
 true
 aFilter
+aOpacity
 aTransform
 )
 ;
@@ -822,8 +849,9 @@ aFillRect
 aContext
 -
 >
-Fill
+FillWithOpacity
 (
+aOpacity
 )
 ;
 mPattern
