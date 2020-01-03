@@ -540,6 +540,14 @@ aCodeNameIndex
 )
 ;
 static
+uint32_t
+ComputeKeyCodeFromKeyNameIndex
+(
+KeyNameIndex
+aKeyNameIndex
+)
+;
+static
 void
 GetDOMKeyName
 (
