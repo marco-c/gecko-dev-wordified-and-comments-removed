@@ -685,7 +685,7 @@ end
 &
 trackingProtection
 .
-detectedBlocked2
+detectedBlocked3
 ;
 <
 /
@@ -709,7 +709,7 @@ end
 &
 trackingProtection
 .
-detectedNotBlocked2
+detectedNotBlocked3
 ;
 <
 /
@@ -735,7 +735,7 @@ end
 &
 trackingProtection
 .
-notDetected2
+notDetected3
 ;
 <
 /
