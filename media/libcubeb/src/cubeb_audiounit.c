@@ -108,7 +108,7 @@ endif
 #
 define
 CUBEB_STREAM_MAX
-16
+8
 #
 define
 NBUFS
