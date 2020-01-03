@@ -1313,7 +1313,9 @@ JitFrameLayout
 *
 fp_
 ;
+const
 MachineState
+*
 machine_
 ;
 IonScript
@@ -1358,7 +1360,8 @@ const
 {
 return
 machine_
-.
+-
+>
 has
 (
 reg
@@ -1375,7 +1378,8 @@ const
 {
 return
 machine_
-.
+-
+>
 read
 (
 reg
@@ -1392,7 +1396,8 @@ const
 {
 return
 machine_
-.
+-
+>
 has
 (
 reg
@@ -1409,7 +1414,8 @@ const
 {
 return
 machine_
-.
+-
+>
 read
 (
 reg
@@ -1782,13 +1788,16 @@ moreInstructions
 }
 public
 :
-explicit
 SnapshotIterator
 (
 const
 JitFrameIterator
 &
 iter
+const
+MachineState
+*
+machineState
 )
 ;
 SnapshotIterator
@@ -2122,6 +2131,9 @@ pc_
 ;
 uint32_t
 numActualArgs_
+;
+MachineState
+machine_
 ;
 struct
 Nop

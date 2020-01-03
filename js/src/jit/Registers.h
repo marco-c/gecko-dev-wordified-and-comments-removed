@@ -641,6 +641,9 @@ MachineState
 (
 )
 {
+#
+ifndef
+JS_CODEGEN_NONE
 for
 (
 unsigned
@@ -715,6 +718,8 @@ i
 0x200
 )
 ;
+#
+endif
 }
 static
 MachineState

@@ -2003,6 +2003,17 @@ iter
 SnapshotIterator
 (
 iter
+activation
+-
+>
+bailoutData
+(
+)
+-
+>
+machineState
+(
+)
 )
 activation_
 (
