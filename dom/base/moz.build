@@ -745,6 +745,11 @@ dom
 =
 [
 '
+AnonymousContent
+.
+h
+'
+'
 Attr
 .
 h
@@ -1004,6 +1009,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AnonymousContent
+.
+cpp
+'
 '
 Attr
 .

@@ -185,6 +185,11 @@ AnimationTimeline
 webidl
 '
 '
+AnonymousContent
+.
+webidl
+'
+'
 AppInfo
 .
 webidl
