@@ -2327,7 +2327,7 @@ cursorCallback
 mDOMCursor
 =
 new
-DOMCursor
+MobileMessageCursor
 (
 GetOwner
 (
@@ -2340,11 +2340,12 @@ nsRefPtr
 DOMCursor
 >
 cursor
-=
+(
 cursorCallback
 -
 >
 mDOMCursor
+)
 ;
 return
 cursor
@@ -2568,7 +2569,7 @@ cursorCallback
 mDOMCursor
 =
 new
-DOMCursor
+MobileMessageCursor
 (
 GetOwner
 (
@@ -2581,11 +2582,12 @@ nsRefPtr
 DOMCursor
 >
 cursor
-=
+(
 cursorCallback
 -
 >
 mDOMCursor
+)
 ;
 return
 cursor

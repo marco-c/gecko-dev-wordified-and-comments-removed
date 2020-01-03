@@ -18906,7 +18906,10 @@ callback
 .
 notifyCursorResult
 (
+[
 domMessage
+]
+1
 )
 ;
 }
@@ -19303,7 +19306,10 @@ callback
 .
 notifyCursorResult
 (
+[
 thread
+]
+1
 )
 ;
 }
