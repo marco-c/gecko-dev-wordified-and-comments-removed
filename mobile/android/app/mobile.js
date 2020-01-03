@@ -7646,3 +7646,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+browser
+.
+tabs
+.
+showAudioPlayingIcon
+"
+false
+)
+;

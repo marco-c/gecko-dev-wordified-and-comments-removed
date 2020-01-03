@@ -570,6 +570,9 @@ FAVICON
 case
 RECORDING_CHANGE
 :
+case
+AUDIO_PLAYING_CHANGE
+:
 tabStripView
 .
 updateTab
