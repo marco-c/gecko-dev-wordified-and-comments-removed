@@ -95,6 +95,7 @@ mReferent
 }
 nsSupportsWeakReference
 *
+MOZ_WEAK_REF
 mReferent
 ;
 }

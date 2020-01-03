@@ -11,6 +11,15 @@ stdint
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFile
 ;
@@ -22,6 +31,7 @@ size
 ;
 nsIFile
 *
+MOZ_WEAK_REF
 directory
 ;
 const
@@ -64,6 +74,7 @@ flags
 ;
 nsIFile
 *
+MOZ_WEAK_REF
 xreDirectory
 ;
 const

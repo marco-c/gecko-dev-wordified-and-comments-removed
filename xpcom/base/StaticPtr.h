@@ -399,6 +399,7 @@ Release
 }
 T
 *
+MOZ_STRONG_REF
 mRawPtr
 ;
 }

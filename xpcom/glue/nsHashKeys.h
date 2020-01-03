@@ -1487,6 +1487,7 @@ protected
 :
 T
 *
+MOZ_WEAK_REF
 mKey
 ;
 }
