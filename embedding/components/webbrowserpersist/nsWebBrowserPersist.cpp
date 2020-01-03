@@ -1275,6 +1275,8 @@ aCacheKey
 nsIURI
 *
 aReferrer
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostData
@@ -1296,6 +1298,7 @@ SavePrivacyAwareURI
 aURI
 aCacheKey
 aReferrer
+aReferrerPolicy
 aPostData
 aExtraHeaders
 aFile
@@ -1326,6 +1329,8 @@ aCacheKey
 nsIURI
 *
 aReferrer
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostData
@@ -1388,6 +1393,7 @@ SaveURIInternal
 aURI
 aCacheKey
 aReferrer
+aReferrerPolicy
 aPostData
 aExtraHeaders
 fileAsURI
@@ -4394,6 +4400,8 @@ aCacheKey
 nsIURI
 *
 aReferrer
+uint32_t
+aReferrerPolicy
 nsIInputStream
 *
 aPostData
@@ -4747,9 +4755,10 @@ aReferrer
 httpChannel
 -
 >
-SetReferrer
+SetReferrerWithPolicy
 (
 aReferrer
+aReferrerPolicy
 )
 ;
 }
@@ -9582,6 +9591,13 @@ SaveURIInternal
 uri
 nullptr
 nullptr
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 nullptr
 nullptr
 fileAsURI

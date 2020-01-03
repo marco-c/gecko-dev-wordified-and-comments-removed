@@ -930,6 +930,17 @@ SaveURI
 imageURI
 nullptr
 docURI
+content
+-
+>
+OwnerDoc
+(
+)
+-
+>
+GetReferrerPolicy
+(
+)
 nullptr
 nullptr
 mBackgroundFile

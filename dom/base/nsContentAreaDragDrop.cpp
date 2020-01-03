@@ -737,6 +737,13 @@ SavePrivacyAwareURI
 sourceURI
 nullptr
 nullptr
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 nullptr
 nullptr
 inDestFile
