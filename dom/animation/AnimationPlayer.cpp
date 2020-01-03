@@ -2648,7 +2648,9 @@ currentFinishedState
 ;
 mPreviousCurrentTime
 =
-currentTime
+GetCurrentTime
+(
+)
 ;
 }
 void
