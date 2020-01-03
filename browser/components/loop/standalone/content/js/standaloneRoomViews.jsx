@@ -2245,6 +2245,17 @@ wrapper
 "
 >
 <
+div
+className
+=
+"
+beta
+-
+logo
+"
+/
+>
+<
 StandaloneRoomHeader
 /
 >
