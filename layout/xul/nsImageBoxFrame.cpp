@@ -2015,9 +2015,6 @@ ImageContainer
 >
 container
 ;
-nsresult
-rv
-=
 imgCon
 -
 >
@@ -2028,12 +2025,6 @@ getter_AddRefs
 (
 container
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-nullptr
 )
 ;
 return
