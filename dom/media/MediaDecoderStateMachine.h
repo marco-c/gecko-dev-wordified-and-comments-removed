@@ -875,13 +875,6 @@ Reset
 (
 )
 ;
-private
-:
-void
-AcquireMonitorAndInvokeDecodeError
-(
-)
-;
 protected
 :
 virtual
