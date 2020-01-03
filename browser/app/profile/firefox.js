@@ -15441,7 +15441,7 @@ contextInConversations
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -15547,18 +15547,6 @@ cert_pinning
 enforcement_level
 "
 1
-)
-;
-pref
-(
-"
-security
-.
-onecrl
-.
-maximum_staleness_in_seconds
-"
-0
 )
 ;
 pref
