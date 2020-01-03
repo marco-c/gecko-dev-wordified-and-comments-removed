@@ -5099,7 +5099,7 @@ aFinishReporting
 aFinishReportingData
 aAnonymize
 false
-nsString
+EmptyString
 (
 )
 )

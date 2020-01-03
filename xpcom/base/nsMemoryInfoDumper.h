@@ -52,16 +52,6 @@ ifdef
 MOZ_DMD
 static
 nsresult
-DumpDMD
-(
-const
-nsAString
-&
-aIdentifier
-)
-;
-static
-nsresult
 OpenDMDFile
 (
 const
