@@ -52587,9 +52587,7 @@ Remove
 dupes
 MOZ_EXTENSIONS
 =
-{
-PERL
-}
+PYTHON
 {
 srcdir
 }
@@ -52600,7 +52598,7 @@ unix
 /
 uniq
 .
-pl
+py
 {
 MOZ_EXTENSIONS
 }
@@ -74586,9 +74584,7 @@ Remove
 dupes
 NECKO_PROTOCOLS
 =
-{
-PERL
-}
+PYTHON
 {
 srcdir
 }
@@ -74599,7 +74595,7 @@ unix
 /
 uniq
 .
-pl
+py
 {
 NECKO_PROTOCOLS
 }

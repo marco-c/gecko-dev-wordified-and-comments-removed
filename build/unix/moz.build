@@ -135,11 +135,3 @@ DIRS
 elfhack
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-test
-'
-]
