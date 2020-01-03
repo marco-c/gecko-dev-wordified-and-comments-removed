@@ -687,12 +687,23 @@ s
 dir_path
 f
 )
+                            
 for
 f
 in
 sorted
 (
 files
+key
+=
+lambda
+x
+:
+x
+.
+lower
+(
+)
 )
 ]
                 
