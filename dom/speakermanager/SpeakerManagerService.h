@@ -148,12 +148,6 @@ aSpeakerManager
 )
 ;
 }
-static
-void
-Shutdown
-(
-)
-;
 protected
 :
 SpeakerManagerService
@@ -177,6 +171,12 @@ TurnOnSpeaker
 (
 bool
 aEnable
+)
+;
+static
+void
+Shutdown
+(
 )
 ;
 nsTArray
