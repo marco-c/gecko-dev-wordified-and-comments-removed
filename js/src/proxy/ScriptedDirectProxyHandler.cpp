@@ -5999,12 +5999,6 @@ cx
 RevokeProxy
 0
 0
-cx
--
->
-global
-(
-)
 AtomToId
 (
 cx

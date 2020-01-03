@@ -356,7 +356,6 @@ ccx
 callback
 argc
 0
-nullptr
 GetName
 (
 )

@@ -5059,7 +5059,6 @@ native
 op
 nargs
 0
-nullptr
 id
 )
 ;

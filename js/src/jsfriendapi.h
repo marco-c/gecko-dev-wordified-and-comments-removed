@@ -2964,9 +2964,6 @@ unsigned
 nargs
 unsigned
 flags
-JSObject
-*
-parent
 jsid
 id
 )
