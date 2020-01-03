@@ -9169,10 +9169,6 @@ nsMediaElementEvents
 )
 ;
 }
-EnsureStateWatchingLog
-(
-)
-;
 #
 endif
 mAudioChannel

@@ -48,11 +48,6 @@ PRLogModuleInfo
 *
 gStateWatchingLog
 ;
-void
-EnsureStateWatchingLog
-(
-)
-;
 #
 define
 WATCH_LOG
