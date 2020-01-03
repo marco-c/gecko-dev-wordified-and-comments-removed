@@ -1820,10 +1820,6 @@ LOAD_END
 "
 *
 "
-POST_COMPARTMENT
-"
-*
-"
 PAGE_HIDE
 "
 *
