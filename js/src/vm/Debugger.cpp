@@ -31223,10 +31223,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 EvaluateInEnv
 (
 JSContext
