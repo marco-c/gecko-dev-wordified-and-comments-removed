@@ -406,6 +406,14 @@ short
 height
 )
 ;
+bool
+SelectSendFrameRate
+(
+unsigned
+int
+framerate
+)
+;
 virtual
 MediaConduitErrorCode
 SendVideoFrame
@@ -1053,6 +1061,10 @@ mReceivingWidth
 unsigned
 short
 mReceivingHeight
+;
+unsigned
+int
+mSendingFramerate
 ;
 bool
 mVideoLatencyTestEnable
