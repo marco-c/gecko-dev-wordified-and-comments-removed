@@ -420,6 +420,16 @@ allow
 ;
 protected
 :
+enum
+StreamState
+{
+eStreamStopped
+=
+0
+eNewStreamCalled
+eStreamTypeSet
+}
+;
 virtual
 ~
 nsNPAPIPluginStreamListener
@@ -453,8 +463,8 @@ mStreamBufferByteCount
 int32_t
 mStreamType
 ;
-bool
-mStreamStarted
+StreamState
+mStreamState
 ;
 bool
 mStreamCleanedUp
