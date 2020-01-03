@@ -6349,6 +6349,7 @@ if
 (
 ip
 )
+{
 PlacesControllerDragHelper
 .
 onDrop
@@ -6356,7 +6357,18 @@ onDrop
 ip
 aDataTransfer
 )
+.
+then
+(
+null
+Components
+.
+utils
+.
+reportError
+)
 ;
+}
 PlacesControllerDragHelper
 .
 currentDropTarget

@@ -2654,6 +2654,16 @@ event
 .
 dataTransfer
 )
+.
+then
+(
+null
+Components
+.
+utils
+.
+reportError
+)
 ;
 event
 .
