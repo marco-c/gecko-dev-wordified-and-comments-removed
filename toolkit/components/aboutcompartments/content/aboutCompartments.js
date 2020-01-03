@@ -486,7 +486,7 @@ textContent
 =
 comp
 .
-label
+compartmentName
 ;
 time
 .
