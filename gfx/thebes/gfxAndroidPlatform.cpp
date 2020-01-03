@@ -1882,6 +1882,12 @@ ANDROID_VERSION
 =
 =
 19
+|
+|
+ANDROID_VERSION
+>
+=
+21
 )
 nsRefPtr
 <
