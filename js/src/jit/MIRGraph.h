@@ -540,7 +540,7 @@ int
 discardDepth
 )
 ;
-void
+bool
 linkOsrValues
 (
 MStart
