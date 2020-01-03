@@ -942,14 +942,14 @@ uint32_t
 len
 ;
 const
-HheaTable
+MetricsHeader
 *
 hhea
 =
 reinterpret_cast
 <
 const
-HheaTable
+MetricsHeader
 *
 >
 (
@@ -968,7 +968,7 @@ len
 =
 sizeof
 (
-HheaTable
+MetricsHeader
 )
 )
 {

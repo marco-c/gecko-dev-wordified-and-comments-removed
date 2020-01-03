@@ -11675,6 +11675,8 @@ uint32_t
 aHash
 int32_t
 aRunScript
+bool
+aVertical
 int32_t
 aAppUnitsPerDevUnit
 uint32_t
@@ -11948,6 +11950,7 @@ aText
 0
 aLength
 aRunScript
+aVertical
 sw
 )
 ;
@@ -12267,6 +12270,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxShapedText
 *
 aShapedText
@@ -12321,6 +12326,7 @@ BeginReading
 aOffset
 aLength
 aScript
+aVertical
 aShapedText
 )
 ;
@@ -12344,6 +12350,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxShapedText
 *
 aShapedText
@@ -12359,6 +12367,10 @@ if
 FontCanSupportGraphite
 (
 )
+&
+&
+!
+aVertical
 )
 {
 if
@@ -12403,6 +12415,7 @@ aText
 aOffset
 aLength
 aScript
+aVertical
 aShapedText
 )
 ;
@@ -12441,6 +12454,7 @@ aText
 aOffset
 aLength
 aScript
+aVertical
 aShapedText
 )
 ;
@@ -12576,6 +12590,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxTextRun
 *
 aTextRun
@@ -12725,6 +12741,7 @@ aText
 aOffset
 fragLen
 aScript
+aVertical
 aTextRun
 )
 ;
@@ -12807,6 +12824,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxTextRun
 *
 aTextRun
@@ -12908,6 +12927,7 @@ aOffset
 fragStart
 length
 aScript
+aVertical
 aTextRun
 )
 ;
@@ -13199,6 +13219,8 @@ uint32_t
 aRunLength
 int32_t
 aRunScript
+bool
+aVertical
 )
 {
 if
@@ -13356,6 +13378,7 @@ aString
 aRunStart
 aRunLength
 aRunScript
+aVertical
 aTextRun
 )
 ;
@@ -13596,6 +13619,7 @@ aRunStart
 wordStart
 length
 aRunScript
+aVertical
 aTextRun
 )
 ;
@@ -13665,6 +13689,7 @@ wordStart
 length
 hash
 aRunScript
+aVertical
 appUnitsPerDevUnit
 wordFlags
 tp
@@ -13722,10 +13747,17 @@ TEXT_ORIENT_VERTICAL_MIXED
 {
 orientation
 =
+aVertical
+?
 gfxTextRunFactory
 :
 :
 TEXT_ORIENT_VERTICAL_UPRIGHT
+:
+gfxTextRunFactory
+:
+:
+TEXT_ORIENT_VERTICAL_SIDEWAYS_RIGHT
 ;
 }
 if
@@ -13774,6 +13806,7 @@ HashMix
 '
 )
 aRunScript
+aVertical
 appUnitsPerDevUnit
 flags
 |
@@ -13979,6 +14012,8 @@ uint32_t
 aRunLength
 int32_t
 aRunScript
+bool
+aVertical
 )
 ;
 template
@@ -14004,6 +14039,8 @@ uint32_t
 aRunLength
 int32_t
 aRunScript
+bool
+aVertical
 )
 ;
 template
@@ -14073,6 +14110,17 @@ uint32_t
 runStart
 =
 0
+;
+bool
+vertical
+=
+aOrientation
+=
+=
+gfxTextRunFactory
+:
+:
+TEXT_ORIENT_VERTICAL_UPRIGHT
 ;
 for
 (
@@ -14357,6 +14405,7 @@ aOffset
 runStart
 runLength
 aScript
+vertical
 )
 )
 {
@@ -14509,6 +14558,7 @@ Length
 (
 )
 aScript
+vertical
 )
 )
 {
@@ -14611,6 +14661,7 @@ aOffset
 runStart
 runLength
 aScript
+vertical
 )
 )
 {
@@ -15423,14 +15474,14 @@ false
 ;
 }
 const
-HheaTable
+MetricsHeader
 *
 hhea
 =
 reinterpret_cast
 <
 const
-HheaTable
+MetricsHeader
 *
 >
 (
@@ -15448,7 +15499,7 @@ len
 <
 sizeof
 (
-HheaTable
+MetricsHeader
 )
 )
 {
@@ -16908,14 +16959,14 @@ hheaTable
 )
 {
 const
-HheaTable
+MetricsHeader
 *
 hhea
 =
 reinterpret_cast
 <
 const
-HheaTable
+MetricsHeader
 *
 >
 (
@@ -16934,7 +16985,7 @@ len
 =
 sizeof
 (
-HheaTable
+MetricsHeader
 )
 )
 {
@@ -17004,14 +17055,14 @@ vheaTable
 )
 {
 const
-HheaTable
+MetricsHeader
 *
 vhea
 =
 reinterpret_cast
 <
 const
-HheaTable
+MetricsHeader
 *
 >
 (
@@ -17030,7 +17081,7 @@ len
 =
 sizeof
 (
-HheaTable
+MetricsHeader
 )
 )
 {

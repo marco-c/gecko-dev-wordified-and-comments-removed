@@ -304,6 +304,8 @@ uint32_t
 aLength
 int32_t
 aScript
+bool
+aVertical
 gfxShapedText
 *
 aShapedText

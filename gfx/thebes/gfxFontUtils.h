@@ -2851,7 +2851,7 @@ maxMemType1
 }
 ;
 struct
-HheaTable
+MetricsHeader
 {
 AutoSwap_PRUint32
 version
@@ -2902,7 +2902,7 @@ AutoSwap_PRInt16
 metricDataFormat
 ;
 AutoSwap_PRUint16
-numOfLongHorMetrics
+numOfLongMetrics
 ;
 }
 ;
