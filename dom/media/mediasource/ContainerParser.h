@@ -96,6 +96,11 @@ return
 mHasInitData
 ;
 }
+bool
+HasCompleteInitData
+(
+)
+;
 static
 ContainerParser
 *
