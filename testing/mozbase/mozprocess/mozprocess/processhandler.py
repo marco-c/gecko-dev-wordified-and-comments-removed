@@ -4822,11 +4822,24 @@ callback
 )
 :
         
-for
-line
-in
-stream
+while
+True
 :
+            
+line
+=
+stream
+.
+readline
+(
+)
+            
+if
+not
+line
+:
+                
+break
             
 queue
 .
