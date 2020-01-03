@@ -164,6 +164,13 @@ h
 '
 ipc
 /
+MobileConnectionIPCService
+.
+h
+'
+'
+ipc
+/
 MobileConnectionParent
 .
 h
@@ -182,6 +189,13 @@ cpp
 ipc
 /
 MobileConnectionChild
+.
+cpp
+'
+'
+ipc
+/
+MobileConnectionIPCService
 .
 cpp
 '
