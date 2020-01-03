@@ -367,8 +367,7 @@ GetVersion
 const
 ;
 const
-nsCString
-&
+uint32_t
 GetPluginId
 (
 )
@@ -666,7 +665,7 @@ mDescription
 nsCString
 mVersion
 ;
-nsCString
+uint32_t
 mPluginId
 ;
 nsTArray

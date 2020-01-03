@@ -109,6 +109,12 @@ Event
 {
 readonly
 attribute
+unsigned
+long
+pluginID
+;
+readonly
+attribute
 DOMString
 pluginDumpID
 ;
@@ -146,6 +152,12 @@ PluginCrashedEventInit
 :
 EventInit
 {
+unsigned
+long
+pluginID
+=
+0
+;
 DOMString
 pluginDumpID
 =

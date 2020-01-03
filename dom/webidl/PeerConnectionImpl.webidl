@@ -482,8 +482,6 @@ long
 pluginId
 DOMString
 name
-DOMString
-pluginDumpID
 )
 ;
 /

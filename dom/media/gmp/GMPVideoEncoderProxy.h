@@ -204,7 +204,7 @@ aEnable
 ;
 virtual
 const
-uint64_t
+uint32_t
 ParentID
 (
 )

@@ -107,8 +107,7 @@ GMPDecryptorParent
 {
 }
 const
-nsACString
-&
+uint32_t
 GMPDecryptorParent
 :
 :

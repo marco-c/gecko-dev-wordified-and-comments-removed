@@ -178,8 +178,7 @@ void
 SetPluginId
 (
 const
-nsCString
-&
+uint32_t
 aPluginId
 )
 {
@@ -189,8 +188,7 @@ aPluginId
 ;
 }
 const
-nsCString
-&
+uint32_t
 GetPluginId
 (
 )
@@ -356,7 +354,7 @@ mParent
 nsCString
 mDisplayName
 ;
-nsCString
+uint32_t
 mPluginId
 ;
 }

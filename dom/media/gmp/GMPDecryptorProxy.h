@@ -232,8 +232,7 @@ GMPDecryptorProxy
 }
 virtual
 const
-nsACString
-&
+uint32_t
 GetPluginId
 (
 )
