@@ -42,12 +42,12 @@ WebGLTransformFeedback
 MOZ_FINAL
 :
 public
+nsWrapperCache
+public
 WebGLBindableName
 <
 GLenum
 >
-public
-nsWrapperCache
 public
 WebGLRefCountedObject
 <
