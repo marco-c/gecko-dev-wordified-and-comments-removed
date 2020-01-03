@@ -442,7 +442,7 @@ namespace
 mozilla
 {
 double
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 ToSeconds
@@ -461,7 +461,7 @@ kNsPerSecd
 ;
 }
 double
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 ToSecondsSigDigits
@@ -501,7 +501,7 @@ kNsPerSecd
 ;
 }
 int64_t
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 TicksFromMilliseconds
@@ -517,7 +517,7 @@ kNsPerMsd
 ;
 }
 int64_t
-TimeDurationPlatformUtils
+BaseTimeDurationPlatformUtils
 :
 :
 ResolutionInTicks
