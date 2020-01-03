@@ -523,6 +523,9 @@ _parentIsContentActor
 transferredResponseSize
 :
 true
+evaluateJSAsync
+:
+true
 }
 ;
 }
