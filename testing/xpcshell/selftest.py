@@ -383,6 +383,16 @@ do_load_child_test_harness
 )
 ;
   
+do_test_pending
+(
+"
+test
+child
+assertion
+"
+)
+;
+  
 sendCommand
 (
 "
@@ -394,6 +404,7 @@ true
 )
 ;
 "
+do_test_finished
 )
 ;
   
@@ -3112,6 +3123,27 @@ a
 usable
 test
 state
+.
+This
+test
+has
+a
+spurious
+failure
+when
+        
+run
+using
+|
+mach
+python
+-
+test
+|
+.
+See
+bug
+1103226
 .
         
 "
