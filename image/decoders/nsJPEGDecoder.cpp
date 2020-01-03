@@ -2193,6 +2193,11 @@ output_scanline
 =
 0
 ;
+if
+(
+mDownscaler
+)
+{
 mDownscaler
 -
 >
@@ -2200,6 +2205,7 @@ ResetForNextProgressivePass
 (
 )
 ;
+}
 }
 }
 mState
