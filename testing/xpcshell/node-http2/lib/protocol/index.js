@@ -4,8 +4,6 @@ VERSION
 =
 '
 h2
--
-16
 '
 ;
 exports
