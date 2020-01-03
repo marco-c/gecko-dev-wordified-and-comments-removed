@@ -2898,7 +2898,7 @@ str
 =
 :
 :
-JS_InternUCStringN
+JS_AtomizeAndPinUCStringN
 (
 cx
 utf16name

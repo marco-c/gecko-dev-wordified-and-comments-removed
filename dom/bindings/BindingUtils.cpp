@@ -2885,7 +2885,7 @@ JSString
 nameStr
 (
 cx
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 name

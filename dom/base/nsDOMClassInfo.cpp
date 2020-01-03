@@ -1304,7 +1304,7 @@ str
 =
 :
 :
-JS_InternString
+JS_AtomizeAndPinString
 (
 _cx
 _str

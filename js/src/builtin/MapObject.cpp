@@ -3409,7 +3409,7 @@ v
 toString
 (
 )
-DoNotInternAtom
+DoNotPinAtom
 )
 ;
 if

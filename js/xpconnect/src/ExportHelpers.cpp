@@ -2104,7 +2104,7 @@ funName
 )
 funName
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 "

@@ -13323,7 +13323,7 @@ twoByteRange
 if
 (
 !
-JS_InternUCStringN
+JS_AtomizeAndPinUCStringN
 (
 cx
 chars

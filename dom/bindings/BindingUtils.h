@@ -7639,7 +7639,7 @@ aObj
 static
 inline
 bool
-InternJSString
+AtomizeAndPinJSString
 (
 JSContext
 *
@@ -7661,7 +7661,7 @@ str
 =
 :
 :
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 chars
@@ -10635,7 +10635,7 @@ growBy
 )
 &
 &
-InternJSString
+AtomizeAndPinJSString
 (
 cx
 *
@@ -13299,14 +13299,14 @@ proto
 ;
 }
 class
-InternedStringId
+PinnedStringId
 {
 jsid
 id
 ;
 public
 :
-InternedStringId
+PinnedStringId
 (
 )
 :
@@ -13332,7 +13332,7 @@ JSString
 *
 str
 =
-JS_InternString
+JS_AtomizeAndPinString
 (
 cx
 string

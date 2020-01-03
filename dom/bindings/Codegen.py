@@ -86507,7 +86507,7 @@ n
                 
 '
 !
-InternJSString
+AtomizeAndPinJSString
 (
 aCx
 %
@@ -106521,7 +106521,7 @@ binaryMemberName
 )
                                
 "
-InternedStringId
+PinnedStringId
 "
 visibility
 =

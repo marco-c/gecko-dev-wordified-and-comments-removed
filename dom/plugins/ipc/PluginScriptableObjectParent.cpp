@@ -108,7 +108,7 @@ PluginIdentifier
 &
 aIdentifier
 bool
-aIntern
+aAtomizeAndPin
 =
 false
 )
@@ -162,7 +162,7 @@ PluginIdentifier
 &
 aIdentifier
 bool
-aIntern
+aAtomizeAndPin
 )
 :
 mFailed
@@ -249,12 +249,12 @@ return
 }
 if
 (
-aIntern
+aAtomizeAndPin
 )
 {
 str
 =
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 mCx
 str

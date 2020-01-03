@@ -40754,7 +40754,7 @@ strlen
 (
 s
 )
-InternAtom
+PinAtom
 )
 ;
 if

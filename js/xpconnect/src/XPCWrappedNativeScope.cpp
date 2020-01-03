@@ -4110,7 +4110,7 @@ toString
 ;
 str
 =
-JS_InternJSString
+JS_AtomizeAndPinJSString
 (
 cx
 str
