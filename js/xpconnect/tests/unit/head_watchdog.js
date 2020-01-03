@@ -113,6 +113,9 @@ max_script_run_time
 seconds
 )
 ;
+return
+oldTimeout
+;
 }
 function
 busyWait
