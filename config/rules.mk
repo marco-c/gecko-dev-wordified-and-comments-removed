@@ -5923,13 +5923,6 @@ WINNT
 &
 !
 GCC
-(
-RM
-)
-foodummyfilefoo
-(
-DELETE_AFTER_LINK
-)
 chmod
 +
 x
