@@ -34,7 +34,7 @@ h
 #
 include
 "
-nsIVoicemailProvider
+nsIVoicemailService
 .
 h
 "
@@ -87,9 +87,9 @@ Voicemail
 nsPIDOMWindow
 *
 aWindow
-nsIVoicemailProvider
+nsIVoicemailService
 *
-aProvider
+aService
 )
 ;
 nsPIDOMWindow
@@ -181,9 +181,9 @@ private
 :
 nsCOMPtr
 <
-nsIVoicemailProvider
+nsIVoicemailService
 >
-mProvider
+mService
 ;
 nsRefPtr
 <

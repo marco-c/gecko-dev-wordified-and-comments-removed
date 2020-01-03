@@ -28,7 +28,7 @@ jsm
 )
 ;
 const
-VOICEMAIL_PROVIDER_CONTRACTID
+VOICEMAIL_SERVICE_CONTRACTID
 =
 "
 mozilla
@@ -670,9 +670,9 @@ verify
 bind
 (
 null
-VOICEMAIL_PROVIDER_CONTRACTID
+VOICEMAIL_SERVICE_CONTRACTID
 "
-nsIVoicemailProvider
+nsIVoicemailService
 "
 "
 voicemailDefaultServiceId
