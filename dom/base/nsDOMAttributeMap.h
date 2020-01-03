@@ -82,7 +82,7 @@ public
 int32_t
 mNamespaceID
 ;
-nsIAtom
+void
 *
 mLocalName
 ;
