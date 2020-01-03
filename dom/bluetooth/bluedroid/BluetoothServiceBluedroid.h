@@ -101,6 +101,9 @@ SspReplyResultHandler
 class
 StartDiscoveryResultHandler
 ;
+class
+GetDeviceRequest
+;
 public
 :
 BluetoothServiceBluedroid
@@ -1329,12 +1332,9 @@ mIsFirstTimeToggleOffBt
 ;
 nsTArray
 <
-nsRefPtr
-<
-BluetoothReplyRunnable
+GetDeviceRequest
 >
->
-mSetAdapterPropertyRunnables
+mGetDeviceRequests
 ;
 nsTArray
 <
@@ -1343,7 +1343,7 @@ nsRefPtr
 BluetoothReplyRunnable
 >
 >
-mGetDeviceRunnables
+mSetAdapterPropertyRunnables
 ;
 nsTArray
 <
