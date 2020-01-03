@@ -828,6 +828,13 @@ originalURL
 "
 current
 "
+{
+"
+allowPinnedTabHostChange
+"
+:
+true
+}
 )
 ;
 }
@@ -854,6 +861,13 @@ url
 "
 current
 "
+{
+"
+allowPinnedTabHostChange
+"
+:
+true
+}
 )
 ;
 }
