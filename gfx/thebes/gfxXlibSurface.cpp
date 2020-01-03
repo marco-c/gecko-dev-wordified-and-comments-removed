@@ -123,10 +123,6 @@ using
 namespace
 mozilla
 ;
-#
-define
-XLIB_IMAGE_SIDE_SIZE_LIMIT
-0x7fff
 gfxXlibSurface
 :
 :
