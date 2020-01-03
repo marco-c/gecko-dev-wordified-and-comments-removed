@@ -259,7 +259,13 @@ update
 (
 )
 ;
-void
+[
+Throws
+]
+Promise
+<
+boolean
+>
 unregister
 (
 )
