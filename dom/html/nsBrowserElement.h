@@ -410,6 +410,16 @@ ErrorResult
 aRv
 )
 ;
+void
+SetNFCFocus
+(
+bool
+isFocus
+ErrorResult
+&
+aRv
+)
+;
 protected
 :
 NS_IMETHOD_
