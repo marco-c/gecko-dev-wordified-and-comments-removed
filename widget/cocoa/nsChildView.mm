@@ -31302,11 +31302,6 @@ window
 [
 %
 ]
-key
-event
-[
-%
-]
 window
 is
 key
@@ -31324,7 +31319,6 @@ i
 "
 self
 window
-theEvent
 [
 window
 isKeyWindow
