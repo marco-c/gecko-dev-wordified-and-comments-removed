@@ -1061,6 +1061,9 @@ mD3D11ReadbackManager
 bool
 mIsWARP
 ;
+bool
+mCanInitMediaDevice
+;
 virtual
 void
 GetPlatformCMSOutputProfile
