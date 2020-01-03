@@ -1444,12 +1444,6 @@ while
 parent
 instanceof
 View
-&
-&
-parent
-!
-=
-null
 )
 ;
 left

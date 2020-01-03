@@ -9288,16 +9288,8 @@ enable
 if
 (
 mCameraView
-!
-=
-null
-&
-&
-(
-mCameraView
 instanceof
 SurfaceView
-)
 )
 {
 if

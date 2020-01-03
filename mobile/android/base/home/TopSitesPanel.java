@@ -1537,12 +1537,6 @@ getMenuInfo
 ;
 if
 (
-menuInfo
-=
-=
-null
-|
-|
 !
 (
 menuInfo

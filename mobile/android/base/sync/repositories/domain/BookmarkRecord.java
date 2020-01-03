@@ -1793,12 +1793,6 @@ equalPayloads
 ;
 if
 (
-o
-=
-=
-null
-|
-|
 !
 (
 o

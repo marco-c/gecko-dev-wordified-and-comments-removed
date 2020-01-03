@@ -497,12 +497,6 @@ notification
 if
 (
 notification
-!
-=
-null
-&
-&
-notification
 instanceof
 AlertNotification
 )
