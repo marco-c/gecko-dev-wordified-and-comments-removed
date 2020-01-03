@@ -1870,6 +1870,12 @@ if
 this
 .
 _formattingEnabled
+|
+|
+!
+this
+.
+editor
 )
 return
 ;
