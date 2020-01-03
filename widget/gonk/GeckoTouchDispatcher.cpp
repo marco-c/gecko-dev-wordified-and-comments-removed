@@ -1285,7 +1285,10 @@ min
 (
 touchDiff
 /
+int64_t
+(
 2
+)
 mMaxPredict
 )
 ;
