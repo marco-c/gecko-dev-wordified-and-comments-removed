@@ -430,6 +430,8 @@ d
 s
 %
 s
+%
+s
 }
 "
 \
@@ -460,6 +462,11 @@ nsITelemetry_kind
            
 name_index
 exp_index
+histogram
+.
+dataset
+(
+)
            
 "
 true

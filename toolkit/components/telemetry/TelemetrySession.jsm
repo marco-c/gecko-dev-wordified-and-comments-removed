@@ -2150,6 +2150,11 @@ Telemetry
 .
 registeredHistograms
 (
+Ci
+.
+nsITelemetry
+.
+DATASET_EXTENDED
 [
 ]
 )
@@ -2339,6 +2344,11 @@ Telemetry
 .
 registeredKeyedHistograms
 (
+Ci
+.
+nsITelemetry
+.
+DATASET_EXTENDED
 [
 ]
 )
@@ -3736,6 +3746,11 @@ Telemetry
 .
 registeredHistograms
 (
+Ci
+.
+nsITelemetry
+.
+DATASET_EXTENDED
 [
 ]
 )
