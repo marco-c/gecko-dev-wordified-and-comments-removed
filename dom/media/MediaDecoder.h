@@ -596,11 +596,6 @@ UpdateDecodedStream
 )
 ;
 void
-DestroyDecodedStream
-(
-)
-;
-void
 RecreateDecodedStream
 (
 int64_t
