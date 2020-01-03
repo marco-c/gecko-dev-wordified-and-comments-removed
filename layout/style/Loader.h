@@ -1199,6 +1199,7 @@ mObservers
 ;
 nsIDocument
 *
+MOZ_NON_OWNING_REF
 mDocument
 ;
 uint32_t
