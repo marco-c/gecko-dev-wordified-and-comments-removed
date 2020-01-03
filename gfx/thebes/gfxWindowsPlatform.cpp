@@ -412,6 +412,11 @@ NativeSurfaceType
 CAIRO_SURFACE
 )
 ;
+if
+(
+surf
+)
+{
 cairo_surface_type_t
 surfaceType
 =
@@ -483,6 +488,7 @@ scaled
 mDC
 )
 ;
+}
 }
 if
 (
