@@ -220,7 +220,7 @@ mTaskQueue
 new
 FlushableMediaTaskQueue
 (
-GetMediaThreadPool
+GetMediaDecodeThreadPool
 (
 )
 )

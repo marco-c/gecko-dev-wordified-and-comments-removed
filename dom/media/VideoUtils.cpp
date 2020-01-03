@@ -1552,7 +1552,7 @@ TemporaryRef
 <
 SharedThreadPool
 >
-GetMediaThreadPool
+GetMediaDecodeThreadPool
 (
 )
 {
@@ -1566,7 +1566,7 @@ NS_LITERAL_CSTRING
 (
 "
 Media
-Playback
+Decode
 "
 )
 Preferences
@@ -2030,7 +2030,7 @@ mTaskQueue
 new
 MediaTaskQueue
 (
-GetMediaThreadPool
+GetMediaDecodeThreadPool
 (
 )
 )
@@ -2072,7 +2072,7 @@ mTaskQueue
 new
 FlushableMediaTaskQueue
 (
-GetMediaThreadPool
+GetMediaDecodeThreadPool
 (
 )
 )

@@ -251,7 +251,7 @@ mTaskQueue
 new
 MediaTaskQueue
 (
-GetMediaThreadPool
+GetMediaDecodeThreadPool
 (
 )
 )
