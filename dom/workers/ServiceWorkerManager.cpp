@@ -14354,7 +14354,7 @@ mContentPolicyType
 loadInfo
 -
 >
-GetContentPolicyType
+InternalContentPolicyType
 (
 )
 ;
