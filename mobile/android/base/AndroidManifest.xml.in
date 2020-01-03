@@ -3829,7 +3829,7 @@ launchMode
 "
 singleTop
 "
-ensure
+ensures
 onNewIntent
 is
 called

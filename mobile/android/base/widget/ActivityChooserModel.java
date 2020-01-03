@@ -1779,12 +1779,10 @@ packageManager
 {
 if
 (
-getOtherSyncedClientCount
+!
+hasOtherSyncClients
 (
 )
-<
-=
-0
 )
 {
 continue
@@ -4189,8 +4187,8 @@ true
 }
 }
 private
-int
-getOtherSyncedClientCount
+boolean
+hasOtherSyncClients
 (
 )
 {
@@ -4210,6 +4208,8 @@ db
 clientsCount
 (
 )
+>
+0
 ;
 }
 private
