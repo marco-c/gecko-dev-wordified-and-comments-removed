@@ -1028,6 +1028,11 @@ ROOM_STATES
 .
 FAILED
 :
+case
+ROOM_STATES
+.
+FULL
+:
 {
 return
 loop
