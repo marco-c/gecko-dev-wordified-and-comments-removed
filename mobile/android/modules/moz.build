@@ -197,11 +197,6 @@ SharedPreferences
 jsm
 '
 '
-SimpleServiceDiscovery
-.
-jsm
-'
-'
 SSLExceptions
 .
 jsm
@@ -221,11 +216,6 @@ EXTRA_PP_JS_MODULES
 +
 =
 [
-'
-RokuApp
-.
-jsm
-'
 '
 WebappManager
 .
