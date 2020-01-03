@@ -14583,6 +14583,9 @@ stalled
 ;
 if
 (
+mLoadingSrc
+&
+&
 IsMediaSourceURI
 (
 mLoadingSrc
