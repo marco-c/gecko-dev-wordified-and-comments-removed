@@ -868,8 +868,10 @@ HasDataError
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 IsSizeDecode
@@ -1028,10 +1030,12 @@ HasError
 (
 )
 )
+{
 FinishInternal
 (
 )
 ;
+}
 if
 (
 mInFrame
@@ -1042,10 +1046,12 @@ HasError
 (
 )
 )
+{
 PostFrameStop
 (
 )
 ;
+}
 if
 (
 !
