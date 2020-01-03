@@ -465,13 +465,6 @@ function
 res
 )
 {
-URL
-.
-revokeObjectURL
-(
-url
-)
-;
 ok
 (
 true
