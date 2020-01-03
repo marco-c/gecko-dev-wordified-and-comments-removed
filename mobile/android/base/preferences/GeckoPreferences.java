@@ -825,14 +825,14 @@ private
 static
 final
 String
-PREFS_ZOOMED_VIEW_ENABLED
+PREFS_DISABLE_ZOOMED_VIEW
 =
 "
 ui
 .
 zoomedview
 .
-enabled
+disabled
 "
 ;
 private
@@ -3777,7 +3777,7 @@ continue
 else
 if
 (
-PREFS_ZOOMED_VIEW_ENABLED
+PREFS_DISABLE_ZOOMED_VIEW
 .
 equals
 (

@@ -4940,11 +4940,11 @@ string
 name
 =
 "
-pref_magnifying_glass_enabled
+pref_prevent_magnifying_glass
 "
 >
 &
-pref_magnifying_glass_enabled
+pref_prevent_magnifying_glass
 ;
 <
 /
@@ -4955,11 +4955,11 @@ string
 name
 =
 "
-pref_magnifying_glass_enabled_summary
+pref_prevent_magnifying_glass_summary
 "
 >
 &
-pref_magnifying_glass_enabled_summary
+pref_prevent_magnifying_glass_summary
 ;
 <
 /
