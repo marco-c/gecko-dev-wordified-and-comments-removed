@@ -471,6 +471,11 @@ mStatus
 -
 1
 )
+mErrorCode
+(
+-
+1
+)
 mSessionId
 (
 -
@@ -529,6 +534,9 @@ mType
 ;
 int32_t
 mStatus
+;
+int32_t
+mErrorCode
 ;
 int32_t
 mSessionId

@@ -103,6 +103,9 @@ type
 long
 status
 ;
+NfcErrorMessage
+errorMsg
+;
 long
 sessionId
 ;

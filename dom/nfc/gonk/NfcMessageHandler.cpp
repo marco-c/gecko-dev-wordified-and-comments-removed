@@ -749,7 +749,7 @@ type
 ;
 aOptions
 .
-mStatus
+mErrorCode
 =
 aParcel
 .
@@ -880,7 +880,7 @@ kConfigResponse
 ;
 aOptions
 .
-mStatus
+mErrorCode
 =
 aParcel
 .
@@ -1019,7 +1019,7 @@ kReadNDEFResponse
 ;
 aOptions
 .
-mStatus
+mErrorCode
 =
 aParcel
 .
@@ -1068,7 +1068,7 @@ if
 (
 aOptions
 .
-mStatus
+mErrorCode
 =
 =
 NfcErrorCode
