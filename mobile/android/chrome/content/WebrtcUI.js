@@ -729,9 +729,6 @@ aCallID
 )
 ;
 }
-positive
-:
-true
 }
 ]
 ;

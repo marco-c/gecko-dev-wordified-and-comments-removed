@@ -257,7 +257,7 @@ doorhanger_login_edit_toggle
 "
 android
 :
-layout_marginTop
+paddingTop
 =
 "
 dimen

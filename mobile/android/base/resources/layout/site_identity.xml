@@ -429,7 +429,7 @@ identity_run_by
 "
 android
 :
-layout_marginTop
+paddingTop
 =
 "
 dimen
@@ -529,7 +529,7 @@ Light
 "
 android
 :
-layout_marginTop
+paddingTop
 =
 "
 dimen
@@ -592,7 +592,7 @@ link_blue
 "
 android
 :
-layout_marginTop
+paddingTop
 =
 "
 dimen
@@ -601,7 +601,7 @@ doorhanger_section_padding_large
 "
 android
 :
-layout_marginBottom
+paddingBottom
 =
 "
 dimen
