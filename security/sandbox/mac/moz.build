@@ -115,11 +115,13 @@ Sandbox
 mm
 '
 ]
-FINAL_LIBRARY
-=
+Library
+(
 '
-xul
+mozsandbox
 '
+)
+;
 FAIL_ON_WARNINGS
 =
 True
