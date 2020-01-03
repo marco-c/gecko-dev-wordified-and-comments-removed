@@ -78,11 +78,7 @@ owner
 }
 workerType
 :
-build
--
-c4
--
-2xlarge
+b2gbuild
 provisionerId
 :
 aws

@@ -36,6 +36,11 @@ Desktop
 build_type
 }
 }
+workerType
+:
+b2gbuild
+-
+desktop
 scopes
 :
 -

@@ -30,6 +30,11 @@ Mulet
 Linux
 x64
 Opt
+workerType
+:
+b2gbuild
+-
+desktop
 scopes
 :
 -
