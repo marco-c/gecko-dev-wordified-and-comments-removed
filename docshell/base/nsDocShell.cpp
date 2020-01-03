@@ -36060,6 +36060,7 @@ if
 (
 currentLoadGroup
 )
+{
 currentLoadGroup
 -
 >
@@ -36070,6 +36071,7 @@ nullptr
 NS_BINDING_RETARGETED
 )
 ;
+}
 aOpenedChannel
 -
 >
@@ -50662,6 +50664,7 @@ if
 (
 sURIFixup
 )
+{
 rv
 =
 sURIFixup
@@ -50676,6 +50679,7 @@ baseURI
 )
 )
 ;
+}
 if
 (
 baseURI
@@ -54385,9 +54389,6 @@ nsIServiceWorkerManager
 >
 swm
 =
-mozilla
-:
-:
 services
 :
 :
@@ -54469,9 +54470,6 @@ nsIServiceWorkerManager
 >
 swm
 =
-mozilla
-:
-:
 services
 :
 :

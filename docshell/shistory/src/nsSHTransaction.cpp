@@ -83,6 +83,7 @@ if
 (
 aPrev
 )
+{
 aPrev
 -
 >
@@ -91,6 +92,7 @@ SetNext
 this
 )
 ;
+}
 SetPrev
 (
 aPrev

@@ -158,13 +158,13 @@ CompareFrames
 (
 nsISHEntry
 *
-prevEntry
+aPrevEntry
 nsISHEntry
 *
-nextEntry
+aNextEntry
 nsIDocShell
 *
-rootDocShell
+aRootDocShell
 long
 aLoadType
 bool
@@ -193,7 +193,7 @@ aIndex
 long
 aLoadType
 uint32_t
-histCmd
+aHistCmd
 )
 ;
 #

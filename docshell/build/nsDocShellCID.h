@@ -7,7 +7,6 @@ nsDocShellCID_h__
 #
 define
 NS_GLOBALHISTORY2_CONTRACTID
-\
 "
 mozilla
 .
@@ -24,7 +23,6 @@ history
 #
 define
 NS_DOWNLOADHISTORY_CONTRACTID
-\
 "
 mozilla
 .
@@ -41,7 +39,6 @@ history
 #
 define
 NS_WEBNAVIGATION_INFO_CONTRACTID
-\
 "
 mozilla
 .
@@ -104,6 +101,7 @@ history
 #
 define
 NS_EXTERNALURLHANDLERSERVICE_CONTRACTID
+\
 "
 mozilla
 .
