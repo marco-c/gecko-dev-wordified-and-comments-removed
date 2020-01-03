@@ -443,11 +443,6 @@ gen_template
 pl
 '
 '
-gl
-.
-json
-'
-'
 harness
 .
 xul
