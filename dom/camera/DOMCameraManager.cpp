@@ -116,17 +116,6 @@ mozilla
 /
 dom
 /
-CameraManagerBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 PermissionMessageUtils
 .
 h
