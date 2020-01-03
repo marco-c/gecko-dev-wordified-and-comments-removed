@@ -695,6 +695,9 @@ label
 label
 >
 <
+hbox
+>
+<
 menulist
 id
 =
@@ -801,6 +804,10 @@ menupopup
 <
 /
 menulist
+>
+<
+/
+hbox
 >
 <
 /
@@ -1337,6 +1344,9 @@ label
 label
 >
 <
+hbox
+>
+<
 menulist
 id
 =
@@ -1416,6 +1426,10 @@ menulist
 >
 <
 /
+hbox
+>
+<
+/
 description
 >
 <
@@ -1460,6 +1474,9 @@ label
 <
 /
 label
+>
+<
+hbox
 >
 <
 menulist
@@ -1563,6 +1580,10 @@ menupopup
 <
 /
 menulist
+>
+<
+/
+hbox
 >
 <
 /
