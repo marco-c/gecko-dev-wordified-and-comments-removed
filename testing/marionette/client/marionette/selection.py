@@ -929,7 +929,7 @@ self
 .
 element
 .
-location
+rect
 [
 '
 x
@@ -939,7 +939,7 @@ self
 .
 element
 .
-location
+rect
 [
 '
 y
