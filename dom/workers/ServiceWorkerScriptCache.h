@@ -59,6 +59,10 @@ nsresult
 aStatus
 bool
 aInCacheAndEqual
+const
+nsAString
+&
+aNewCacheName
 )
 =
 0
