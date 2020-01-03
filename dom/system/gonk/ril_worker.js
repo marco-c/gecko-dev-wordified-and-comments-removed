@@ -15974,14 +15974,9 @@ newCall
 isOutgoing
 =
 !
-(
 newCall
 .
-state
-=
-=
-CALL_STATE_INCOMING
-)
+isMT
 ;
 newCall
 .
