@@ -195,11 +195,6 @@ any
 more
 .
 Bug
-1061335
+609976
 -
 CLOBBER
-for
-Win32
-compiler
-update
-.
