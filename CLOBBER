@@ -195,13 +195,9 @@ any
 more
 .
 Bug
-1152821
+1153796
 :
 Merge
-BluetoothCommon
-.
-h
-variants
-into
-single
-file
+Bluetooth
+backend
+interfaces
