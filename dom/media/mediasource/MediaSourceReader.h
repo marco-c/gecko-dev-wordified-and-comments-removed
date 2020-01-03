@@ -592,10 +592,6 @@ SwitchAudioReader
 (
 int64_t
 aTarget
-int64_t
-aTolerance
-=
-0
 )
 ;
 SwitchReaderResult
@@ -603,10 +599,6 @@ SwitchVideoReader
 (
 int64_t
 aTarget
-int64_t
-aTolerance
-=
-0
 )
 ;
 void
