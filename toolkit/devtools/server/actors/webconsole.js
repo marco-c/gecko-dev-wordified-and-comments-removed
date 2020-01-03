@@ -523,6 +523,9 @@ _parentIsContentActor
 evaluateJSAsync
 :
 true
+transferredResponseSize
+:
+true
 }
 ;
 }
@@ -6420,6 +6423,11 @@ aContent
 text
 .
 length
+transferredSize
+:
+aContent
+.
+transferredSize
 discardResponseBody
 :
 aDiscardedResponseBody
