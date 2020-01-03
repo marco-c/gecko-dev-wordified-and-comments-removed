@@ -384,6 +384,13 @@ MediaDecoderReader
 aNewReader
 )
 ;
+void
+WaitForTimeRange
+(
+double
+aTime
+)
+;
 nsRefPtr
 <
 MediaDecoderReader

@@ -210,12 +210,7 @@ aDuration
 )
 ;
 void
-WaitForData
-(
-)
-;
-void
-NotifyGotData
+NotifyTimeRangesChanged
 (
 )
 ;
