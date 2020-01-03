@@ -29244,6 +29244,10 @@ setMovable
 (
 )
 ;
+setGuard
+(
+)
+;
 }
 public
 :
