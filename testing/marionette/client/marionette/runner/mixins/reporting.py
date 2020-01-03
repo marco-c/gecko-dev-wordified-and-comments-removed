@@ -2349,9 +2349,20 @@ debug
 {
 }
         
-try
+if
+self
+.
+marionette
+.
+session
+is
+not
+None
 :
             
+try
+:
+                
 self
 .
 marionette
@@ -2364,7 +2375,7 @@ marionette
 .
 CONTEXT_CHROME
 )
-            
+                
 debug
 [
 '
@@ -2379,7 +2390,7 @@ marionette
 screenshot
 (
 )
-            
+                
 self
 .
 marionette
@@ -2392,7 +2403,7 @@ marionette
 .
 CONTEXT_CONTENT
 )
-            
+                
 debug
 [
 '
@@ -2405,7 +2416,7 @@ self
 marionette
 .
 page_source
-            
+                
 self
 .
 marionette
@@ -2413,7 +2424,7 @@ marionette
 switch_to_frame
 (
 )
-            
+                
 debug
 [
 '
@@ -2522,16 +2533,16 @@ separators
 '
 )
 )
-        
+            
 except
 :
-            
+                
 logger
 =
 get_default_logger
 (
 )
-            
+                
 logger
 .
 warning
