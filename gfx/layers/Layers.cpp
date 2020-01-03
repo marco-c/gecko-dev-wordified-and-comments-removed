@@ -7038,6 +7038,7 @@ RefLayerAttributes
 GetReferentId
 (
 )
+mEventRegionsOverride
 )
 ;
 }
