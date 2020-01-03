@@ -1838,6 +1838,9 @@ dictionaries
 ClipboardCapabilities
 *
 clipboardCaps
+DomainPolicyClone
+*
+domainPolicy
 )
 override
 ;
