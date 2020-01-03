@@ -2175,9 +2175,6 @@ FrameScriptInfo
 >
 mDelayedFrameScripts
 ;
-bool
-mNeedLayerTreeReadyNotification
-;
 private
 :
 typedef
