@@ -408,6 +408,13 @@ aLoopCount
 void
 OnDecodingComplete
 (
+bool
+aIsAnimated
+)
+;
+void
+MarkAnimationDecoded
+(
 )
 ;
 void
