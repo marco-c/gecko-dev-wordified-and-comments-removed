@@ -3264,6 +3264,7 @@ ff
 ;
 if
 (
+(
 ff
 =
 FindFamily
@@ -3273,6 +3274,7 @@ NS_LITERAL_STRING
 "
 Arial
 "
+)
 )
 )
 )

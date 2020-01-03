@@ -942,6 +942,7 @@ false
 ;
 if
 (
+(
 D2D10Device
 =
 mozilla
@@ -955,6 +956,7 @@ Factory
 :
 GetDirect3D10Device
 (
+)
 )
 )
 {
@@ -1076,6 +1078,7 @@ NS_OK
 ;
 if
 (
+(
 gdi32Handle
 =
 LoadLibrary
@@ -1087,6 +1090,7 @@ gdi32
 .
 dll
 "
+)
 )
 )
 )

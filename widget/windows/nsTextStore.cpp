@@ -17704,6 +17704,7 @@ GetActiveTIPKeyboardDescription
 if
 (
 (
+(
 sDoNotReturnNoLayoutErrorToFreeChangJie
 &
 &
@@ -17725,6 +17726,7 @@ activeTIPKeyboardDescription
 Equals
 (
 TIP_NAME_EASY_CHANGJEI
+)
 )
 )
 &
