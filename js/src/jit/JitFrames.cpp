@@ -2147,14 +2147,6 @@ compartment
 isDebuggee
 (
 )
-&
-&
-cx
--
->
-isExceptionPending
-(
-)
 )
 {
 bool
