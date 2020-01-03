@@ -3156,6 +3156,10 @@ mMarkedCCGeneration
 (
 0
 )
+mServiceWorkersTestingEnabled
+(
+false
+)
 {
 }
 nsPIDOMWindow
