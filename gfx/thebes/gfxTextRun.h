@@ -679,6 +679,14 @@ aLength
 PropertyProvider
 *
 aProvider
+PropertyProvider
+:
+:
+Spacing
+*
+aSpacing
+=
+nullptr
 )
 ;
 virtual
