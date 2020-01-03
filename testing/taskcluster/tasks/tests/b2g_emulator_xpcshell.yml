@@ -31,6 +31,9 @@ test
 run
 payload
 :
+maxRunTime
+:
+6000
 command
 :
 -
