@@ -1472,16 +1472,6 @@ _
 (
 neg
 )
-\
-_
-(
-load
-)
-\
-_
-(
-store
-)
 #
 define
 FORALL_SIMD_OP
