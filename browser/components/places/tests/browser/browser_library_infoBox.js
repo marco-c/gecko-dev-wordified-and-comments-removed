@@ -695,6 +695,8 @@ nextTest
 )
 ;
 }
+PlacesTestUtils
+.
 addVisits
 (
 {
@@ -723,7 +725,10 @@ history
 .
 TRANSITION_TYPED
 }
-window
+)
+.
+then
+(
 addVisitsCallback
 )
 ;

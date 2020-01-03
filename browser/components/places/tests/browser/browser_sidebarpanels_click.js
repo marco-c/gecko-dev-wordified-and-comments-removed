@@ -269,6 +269,8 @@ _uri
 TEST_URL
 )
 ;
+PlacesTestUtils
+.
 addVisits
 (
 {
@@ -292,7 +294,10 @@ history
 .
 TRANSITION_TYPED
 }
-window
+)
+.
+then
+(
 aCallback
 )
 ;

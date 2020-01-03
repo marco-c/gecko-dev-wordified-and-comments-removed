@@ -719,12 +719,8 @@ after
 midnight
 .
 yield
-new
-Promise
-(
-resolve
-=
->
+PlacesTestUtils
+.
 addVisits
 (
 [
@@ -844,8 +840,6 @@ history
 TRANSITION_TYPED
 }
 ]
-resolve
-)
 )
 ;
 /

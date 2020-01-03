@@ -576,6 +576,8 @@ context
 "
 )
 ;
+PlacesTestUtils
+.
 addVisits
 (
 [
@@ -632,10 +634,14 @@ history
 TRANSITION_DOWNLOAD
 }
 ]
-window
-function
+)
+.
+then
+(
 (
 )
+=
+>
 {
 PlacesUtils
 .
