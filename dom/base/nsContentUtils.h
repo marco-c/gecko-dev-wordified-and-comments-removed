@@ -4615,10 +4615,8 @@ static
 nsresult
 SendKeyEvent
 (
-nsCOMPtr
-<
 nsIWidget
->
+*
 aWidget
 const
 nsAString
