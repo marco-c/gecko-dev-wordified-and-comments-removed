@@ -201,6 +201,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 base
 /
 histogram
@@ -7831,6 +7838,13 @@ rv
 )
 return
 1
+;
+gfxPrefs
+:
+:
+GetSingleton
+(
+)
 ;
 {
 JS
