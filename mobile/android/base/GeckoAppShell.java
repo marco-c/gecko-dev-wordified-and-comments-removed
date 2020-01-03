@@ -182,6 +182,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+WrapForJNI
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 AppConstants
 .
 Versions
@@ -295,19 +306,6 @@ gecko
 mozglue
 .
 RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-generatorannotations
-.
-WrapElementForJNI
 ;
 import
 org
@@ -2332,7 +2330,7 @@ String
 data
 )
 ;
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -2361,7 +2359,7 @@ e
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -2388,7 +2386,7 @@ type
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -2424,7 +2422,7 @@ actionHint
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -2678,7 +2676,7 @@ ms
 }
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -2766,7 +2764,7 @@ runUiThreadCallback
 (
 )
 ;
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -2952,7 +2950,7 @@ return
 lastKnownLocation
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -3246,7 +3244,7 @@ null
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -3262,7 +3260,7 @@ locationHighAccuracyEnabled
 enable
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -3708,7 +3706,7 @@ aSensortype
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -3988,7 +3986,7 @@ aSensortype
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -4023,7 +4021,7 @@ startup
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -4058,7 +4056,7 @@ shutdown
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -4101,7 +4099,7 @@ service_id
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -4132,7 +4130,7 @@ true
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 static
 void
 scheduleRestart
@@ -4148,7 +4146,7 @@ doRestart
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 static
 void
 createShortcut
@@ -4836,7 +4834,7 @@ return
 bitmap
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -4894,7 +4892,7 @@ intent
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -4990,7 +4988,7 @@ intent
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -5012,7 +5010,7 @@ getHWEncoderCapability
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -5395,7 +5393,7 @@ aAction
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -5424,7 +5422,7 @@ aMimeType
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -5739,7 +5737,7 @@ return
 true
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 boolean
@@ -6921,7 +6919,7 @@ set
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -7107,7 +7105,7 @@ contentIntent
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -7143,7 +7141,7 @@ aAlertText
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -7273,7 +7271,7 @@ aAlertName
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -7317,7 +7315,7 @@ return
 sDensityDpi
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 float
@@ -7358,7 +7356,7 @@ getMemSize
 HIGH_MEMORY_DEVICE_THRESHOLD_MB
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -7492,7 +7490,7 @@ sScreenDepth
 aScreenDepth
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -7521,7 +7519,7 @@ fullscreen
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -7711,7 +7709,7 @@ milliseconds
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -7754,7 +7752,7 @@ milliseconds
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -7854,7 +7852,7 @@ repeat
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -7879,7 +7877,7 @@ cancel
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -7911,7 +7909,7 @@ showInputMethodPicker
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -7943,7 +7941,7 @@ run
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -8016,7 +8014,7 @@ defaultPrevented
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 boolean
@@ -8085,7 +8083,7 @@ return
 true
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 boolean
@@ -8141,7 +8139,7 @@ return
 true
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 int
@@ -8421,7 +8419,7 @@ LINK_TYPE_UNKNOWN
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -8646,7 +8644,7 @@ return
 result
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -9527,7 +9525,7 @@ e
 {
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -9886,7 +9884,7 @@ pm
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 boolean
@@ -9939,7 +9937,7 @@ true
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -9998,7 +9996,7 @@ isFullScreen
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -11151,7 +11149,7 @@ className
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -11305,7 +11303,7 @@ static
 ContextGetter
 sContextGetter
 ;
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -11623,7 +11621,7 @@ byte
 ]
 sCameraBuffer
 ;
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12266,7 +12264,7 @@ return
 result
 ;
 }
-WrapElementForJNI
+WrapForJNI
 static
 synchronized
 void
@@ -12351,7 +12349,7 @@ null
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -12366,7 +12364,7 @@ enableNotifications
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12402,7 +12400,7 @@ disposeNative
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -12417,7 +12415,7 @@ disableNotifications
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12442,7 +12440,7 @@ getCurrentInformation
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12470,7 +12468,7 @@ uri
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12544,7 +12542,7 @@ uri
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12626,7 +12624,7 @@ title
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 static
 void
 hideProgressDialog
@@ -12634,7 +12632,7 @@ hideProgressDialog
 )
 {
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12682,7 +12680,7 @@ aRequestId
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12727,7 +12725,7 @@ aRequestId
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12772,7 +12770,7 @@ aRequestId
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12843,7 +12841,7 @@ aRequestId
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -12888,7 +12886,7 @@ aRequestId
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -12923,7 +12921,7 @@ aListId
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 RobocopTarget
 public
 static
@@ -12987,7 +12985,7 @@ FocusedInput
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -13016,7 +13014,7 @@ getCurrentInformation
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -13055,7 +13053,7 @@ enableNotifications
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -13094,7 +13092,7 @@ disableNotifications
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -13123,7 +13121,7 @@ getScreenOrientation
 value
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -13142,7 +13140,7 @@ enableNotifications
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -13161,7 +13159,7 @@ disableNotifications
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -13183,7 +13181,7 @@ aOrientation
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -13202,7 +13200,7 @@ unlock
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 boolean
@@ -13286,7 +13284,7 @@ return
 true
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 void
@@ -13318,7 +13316,7 @@ state
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -13374,7 +13372,7 @@ id
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -13402,7 +13400,7 @@ null
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 static
 boolean
@@ -13469,7 +13467,7 @@ return
 false
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 stubName
 =
@@ -14018,7 +14016,7 @@ show
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -14042,7 +14040,7 @@ getInputStream
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -14165,7 +14163,7 @@ return
 null
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -14190,7 +14188,7 @@ getContentType
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 static
 String
 getExternalPublicDirectory
@@ -14364,7 +14362,7 @@ getAbsolutePath
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 static
 int
 getMaxTouchPoints

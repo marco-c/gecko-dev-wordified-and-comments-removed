@@ -28,7 +28,9 @@ mozilla
 .
 gecko
 .
-AppConstants
+annotation
+.
+WrapForJNI
 ;
 import
 org
@@ -37,11 +39,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-generatorannotations
-.
-WrapElementForJNI
+AppConstants
 ;
 import
 android
@@ -105,7 +103,7 @@ Object
 ]
 data
 ;
-WrapElementForJNI
+WrapForJNI
 public
 MatrixBlobCursor
 (
@@ -176,7 +174,7 @@ allocationStack
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 public
 MatrixBlobCursor
 (
@@ -352,7 +350,7 @@ endIndex
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 void
 addRow
@@ -427,7 +425,7 @@ columnCount
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 public
 void
 addRow
@@ -573,7 +571,7 @@ rowCount
 +
 ;
 }
-WrapElementForJNI
+WrapForJNI
 private
 void
 addRow

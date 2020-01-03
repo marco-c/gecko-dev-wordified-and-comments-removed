@@ -14,11 +14,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 ;
 import
 org
@@ -210,7 +208,7 @@ isRTL
 false
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =

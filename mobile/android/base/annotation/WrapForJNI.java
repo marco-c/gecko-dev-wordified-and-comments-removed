@@ -5,9 +5,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-generatorannotations
+annotation
 ;
 import
 java
@@ -70,7 +68,7 @@ RUNTIME
 )
 public
 interface
-WrapElementForJNI
+WrapForJNI
 {
 String
 stubName

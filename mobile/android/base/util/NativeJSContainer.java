@@ -14,11 +14,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 ;
 import
 org
@@ -31,8 +29,7 @@ mozglue
 .
 JNITarget
 ;
-JNITarget
-WrapElementForJNI
+WrapForJNI
 public
 final
 class

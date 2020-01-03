@@ -33,11 +33,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-generatorannotations
-.
-WrapElementForJNI
+WrapForJNI
 ;
 import
 java
@@ -698,7 +696,7 @@ null
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -767,7 +765,7 @@ aSampleId
 )
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -861,7 +859,7 @@ return
 0
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -957,7 +955,7 @@ return
 null
 ;
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -1026,7 +1024,7 @@ start
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -1059,7 +1057,7 @@ true
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
@@ -1092,7 +1090,7 @@ false
 ;
 }
 }
-WrapElementForJNI
+WrapForJNI
 (
 allowMultithread
 =
