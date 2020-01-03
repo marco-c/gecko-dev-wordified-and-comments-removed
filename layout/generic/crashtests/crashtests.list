@@ -2890,6 +2890,17 @@ load
 750066
 .
 html
+pref
+(
+dom
+.
+meta
+-
+viewport
+.
+enabled
+true
+)
 test
 -
 pref
