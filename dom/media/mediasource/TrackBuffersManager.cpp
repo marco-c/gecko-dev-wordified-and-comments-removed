@@ -7593,6 +7593,16 @@ ResetAppendState
 (
 )
 ;
+MSE_DEBUG
+(
+"
+NextInsertionIndex
+got
+reset
+.
+"
+)
+;
 }
 else
 if
