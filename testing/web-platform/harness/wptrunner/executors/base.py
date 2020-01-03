@@ -662,11 +662,24 @@ debug_args
         
 self
 .
-last_protocol
+last_environment
 =
+{
+"
+protocol
+"
+:
 "
 http
 "
+                                 
+"
+prefs
+"
+:
+[
+]
+}
         
 self
 .
@@ -832,21 +845,21 @@ run
 if
 test
 .
-protocol
+environment
 !
 =
 self
 .
-last_protocol
+last_environment
 :
             
 self
 .
-on_protocol_change
+on_environment_change
 (
 test
 .
-protocol
+environment
 )
         
 try
@@ -916,11 +929,11 @@ message
         
 self
 .
-last_protocol
+last_environment
 =
 test
 .
-protocol
+environment
         
 self
 .
@@ -1004,7 +1017,12 @@ server_url
 (
 test
 .
+environment
+[
+"
 protocol
+"
+]
 )
 test
 .
@@ -1055,10 +1073,10 @@ run
 pass
     
 def
-on_protocol_change
+on_environment_change
 (
 self
-new_protocol
+new_environment
 )
 :
         
