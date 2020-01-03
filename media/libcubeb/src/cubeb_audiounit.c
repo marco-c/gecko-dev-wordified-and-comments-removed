@@ -1502,17 +1502,6 @@ ctx
 int
 r
 ;
-assert
-(
-ctx
--
->
-active_streams
-=
-=
-0
-)
-;
 r
 =
 pthread_mutex_destroy
