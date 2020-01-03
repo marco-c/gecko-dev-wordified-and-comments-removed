@@ -1682,6 +1682,13 @@ ScriptedDirectProxyHandler
 cpp
 '
 '
+proxy
+/
+ScriptedIndirectProxyHandler
+.
+cpp
+'
+'
 vm
 /
 ArgumentsObject
