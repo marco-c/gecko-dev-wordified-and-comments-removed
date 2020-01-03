@@ -1671,6 +1671,9 @@ addons
 .
 LinkedStateMixin
 ]
+maxRoomNameLength
+:
+124
 propTypes
 :
 {
@@ -2857,6 +2860,11 @@ context
 -
 name
 "
+maxLength
+:
+this
+.
+maxRoomNameLength
 onKeyDown
 :
 this
