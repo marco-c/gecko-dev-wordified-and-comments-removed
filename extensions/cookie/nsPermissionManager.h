@@ -968,6 +968,11 @@ int64_t
 aModificationTime
 )
 ;
+nsresult
+FetchPermissions
+(
+)
+;
 nsCOMPtr
 <
 nsIObserverService
