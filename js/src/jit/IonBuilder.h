@@ -3937,7 +3937,7 @@ target
 )
 ;
 InliningStatus
-inlineSimdInt32x4BinaryArith
+inlineSimdBinaryArith
 (
 CallInfo
 &
@@ -3949,10 +3949,15 @@ MSimdBinaryArith
 :
 Operation
 op
+SimdTypeDescr
+:
+:
+Type
+type
 )
 ;
 InliningStatus
-inlineSimdInt32x4BinaryBitwise
+inlineSimdBinaryBitwise
 (
 CallInfo
 &
@@ -3964,6 +3969,11 @@ MSimdBinaryBitwise
 :
 Operation
 op
+SimdTypeDescr
+:
+:
+Type
+type
 )
 ;
 InliningStatus
