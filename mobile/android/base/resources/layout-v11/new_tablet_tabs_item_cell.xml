@@ -139,13 +139,6 @@ TabsItem
 "
 android
 :
-focusable
-=
-"
-true
-"
-android
-:
 id
 =
 "
@@ -385,7 +378,7 @@ happen
 -
 >
 <
-ImageButton
+ImageView
 android
 :
 id
