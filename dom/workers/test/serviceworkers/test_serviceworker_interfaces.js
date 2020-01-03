@@ -415,6 +415,12 @@ PerformanceMeasure
 Promise
 "
 "
+PushManager
+"
+"
+PushSubscription
+"
+"
 Request
 "
 "
