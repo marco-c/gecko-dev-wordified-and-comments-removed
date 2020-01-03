@@ -1094,6 +1094,7 @@ testElement
 "
 background
 :
+red
 url
 (
 \
@@ -1120,7 +1121,6 @@ scroll
 %
 0
 %
-red
 "
 inspector
 )
@@ -1177,6 +1177,7 @@ true
 background
 "
 "
+red
 url
 (
 \
@@ -1203,7 +1204,6 @@ scroll
 %
 0
 %
-red
 "
 "
 shortcut
@@ -1212,6 +1212,8 @@ correctly
 set
 "
 "
+#
+F00
 url
 (
 \
@@ -1238,8 +1240,6 @@ scroll
 %
 0
 %
-#
-F00
 "
 )
 ;

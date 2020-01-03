@@ -1224,6 +1224,7 @@ textProps
 "
 background
 :
+blue
 none
 repeat
 scroll
@@ -1231,7 +1232,6 @@ scroll
 %
 0
 %
-blue
 "
 "
 Paragraph
@@ -1410,6 +1410,7 @@ white
 ;
 background
 :
+black
 none
 repeat
 scroll
@@ -1417,7 +1418,6 @@ scroll
 %
 0
 %
-black
 "
 "
 Paragraph
