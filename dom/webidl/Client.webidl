@@ -182,6 +182,9 @@ attribute
 FrameType
 frameType
 ;
+[
+Throws
+]
 Promise
 <
 WindowClient

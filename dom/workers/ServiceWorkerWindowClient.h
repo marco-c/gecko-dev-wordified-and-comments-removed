@@ -133,6 +133,9 @@ Promise
 >
 Focus
 (
+ErrorResult
+&
+aRv
 )
 const
 ;
