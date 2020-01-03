@@ -1141,6 +1141,13 @@ className
 {
 availabilityDropdown
 }
+onMouseLeave
+=
+{
+this
+.
+hideDropdownMenu
+}
 >
 <
 li
@@ -2305,6 +2312,13 @@ state
 showMenu
 }
 )
+}
+onMouseLeave
+=
+{
+this
+.
+hideDropdownMenu
 }
 >
 <
