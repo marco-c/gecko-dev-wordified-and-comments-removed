@@ -333,10 +333,7 @@ receiver_guard_shape
 "
 )
 ;
-if
-(
-group_
-)
+else
 TraceEdge
 (
 trc
