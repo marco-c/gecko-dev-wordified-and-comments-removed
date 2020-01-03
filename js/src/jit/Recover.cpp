@@ -4330,6 +4330,15 @@ result
 cx
 )
 ;
+types
+:
+:
+AutoEnterAnalysis
+enter
+(
+cx
+)
+;
 JSObject
 *
 res
