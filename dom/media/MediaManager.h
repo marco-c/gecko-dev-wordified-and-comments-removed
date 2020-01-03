@@ -376,6 +376,14 @@ mVideoSource
 =
 aVideoSource
 ;
+mLastEndTimeAudio
+=
+0
+;
+mLastEndTimeVideo
+=
+0
+;
 mStream
 -
 >
@@ -862,6 +870,7 @@ aGraph
 mStream
 kAudioTrack
 aDesiredTime
+mLastEndTimeAudio
 )
 ;
 }
@@ -879,6 +888,7 @@ aGraph
 mStream
 kVideoTrack
 aDesiredTime
+mLastEndTimeVideo
 )
 ;
 }
@@ -1012,6 +1022,12 @@ nsRefPtr
 SourceMediaStream
 >
 mStream
+;
+StreamTime
+mLastEndTimeAudio
+;
+StreamTime
+mLastEndTimeVideo
 ;
 bool
 mFinished

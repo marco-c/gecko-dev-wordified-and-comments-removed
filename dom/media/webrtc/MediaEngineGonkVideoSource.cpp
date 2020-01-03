@@ -185,6 +185,9 @@ TrackID
 aID
 StreamTime
 aDesiredTime
+StreamTime
+&
+aLastEndTime
 )
 {
 VideoSegment
@@ -212,7 +215,7 @@ delta
 =
 aDesiredTime
 -
-mProducedDuration
+aLastEndTime
 ;
 LOGFRAME
 (
@@ -301,7 +304,7 @@ segment
 )
 )
 {
-mProducedDuration
+aLastEndTime
 =
 aDesiredTime
 ;

@@ -352,11 +352,6 @@ delta
 size
 )
 ;
-mProducedDuration
-+
-=
-delta
-;
 return
 aSource
 -
