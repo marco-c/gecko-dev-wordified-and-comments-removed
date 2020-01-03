@@ -1993,6 +1993,9 @@ sqlite
 processed
 .
 def
+(
+NSS_EXTRA_SYMBOLS_FILE
+)
 echo
 LIBRARY
 nss3
@@ -2079,6 +2082,9 @@ sqlite_def_file
 nspr_def_file
 )
 (
+NSS_EXTRA_SYMBOLS_FILE
+)
+(
 call
 py_action
 convert_def_file
@@ -2094,16 +2100,7 @@ XULPPFLAGS
 )
 -
 o
-\
-(
-nss_def_file
-)
-(
-sqlite_def_file
-)
-(
-nspr_def_file
-)
+^
 )
 GARBAGE
 +
