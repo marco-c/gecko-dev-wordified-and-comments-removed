@@ -386,6 +386,9 @@ Decoder
 :
 Decode
 (
+IResumable
+*
+aOnResume
 )
 {
 MOZ_ASSERT
@@ -410,6 +413,16 @@ SourceBufferIterator
 "
 )
 ;
+IResumable
+*
+onResume
+=
+aOnResume
+?
+aOnResume
+:
+this
+;
 while
 (
 !
@@ -432,7 +445,7 @@ mIterator
 >
 AdvanceOrScheduleResume
 (
-this
+onResume
 )
 ;
 if
