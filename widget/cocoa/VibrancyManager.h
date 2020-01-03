@@ -65,6 +65,7 @@ VibrancyType
 LIGHT
 DARK
 TOOLTIP
+MENU
 }
 ;
 class
