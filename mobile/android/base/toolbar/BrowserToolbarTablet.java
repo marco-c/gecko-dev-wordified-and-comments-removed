@@ -71,7 +71,7 @@ util
 AttributeSet
 ;
 class
-BrowserToolbarNewTablet
+BrowserToolbarTablet
 extends
 BrowserToolbarTabletBase
 {
@@ -105,7 +105,7 @@ boolean
 backButtonWasEnabledOnStartEditing
 ;
 public
-BrowserToolbarNewTablet
+BrowserToolbarTablet
 (
 final
 Context

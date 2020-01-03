@@ -3017,13 +3017,6 @@ java
 '
 toolbar
 /
-BrowserToolbarNewTablet
-.
-java
-'
-'
-toolbar
-/
 BrowserToolbarPhone
 .
 java
@@ -3039,6 +3032,13 @@ java
 toolbar
 /
 BrowserToolbarPreHC
+.
+java
+'
+'
+toolbar
+/
+BrowserToolbarTablet
 .
 java
 '
