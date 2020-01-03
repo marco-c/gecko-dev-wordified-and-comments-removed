@@ -2921,14 +2921,6 @@ ArenaHeader
 empty
 )
 ;
-void
-wipeDuringParallelExecution
-(
-JSRuntime
-*
-rt
-)
-;
 enum
 KeepArenasEnum
 {

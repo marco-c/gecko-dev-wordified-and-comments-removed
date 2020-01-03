@@ -698,7 +698,11 @@ allocator
 (
 )
 const
+{
+return
+allocator_
 ;
+}
 inline
 AllowGC
 allowGC
@@ -780,7 +784,11 @@ T
 thing
 )
 const
+{
+return
+true
 ;
+}
 void
 *
 onOutOfMemory

@@ -2689,12 +2689,6 @@ trc
 )
 ;
 }
-bool
-inParallelSection
-(
-)
-const
-;
 void
 setAboutToOverflow
 (

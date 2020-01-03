@@ -911,17 +911,6 @@ global
 ;
 public
 :
-void
-adoptWorkerAllocator
-(
-js
-:
-:
-Allocator
-*
-workerAllocator
-)
-;
 js
 :
 :
