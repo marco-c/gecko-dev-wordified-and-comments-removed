@@ -1108,6 +1108,17 @@ rt
 isHeapBusy
 (
 )
+&
+&
+!
+rt
+-
+>
+gc
+.
+isBackgroundSweeping
+(
+)
 !
 InFreeList
 (
