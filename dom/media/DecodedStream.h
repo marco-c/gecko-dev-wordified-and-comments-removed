@@ -41,6 +41,15 @@ include
 "
 mozilla
 /
+MozPromise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 nsRefPtr
 .
 h
@@ -186,7 +195,10 @@ MediaData
 aVideoQueue
 )
 ;
-void
+nsRefPtr
+<
+GenericPromise
+>
 StartPlayback
 (
 int64_t
@@ -275,7 +287,7 @@ HasConsumers
 )
 const
 ;
-bool
+void
 SendData
 (
 )
