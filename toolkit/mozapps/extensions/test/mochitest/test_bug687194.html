@@ -480,6 +480,10 @@ install
 .
 addListener
 (
+SpecialPowers
+.
+wrapCallbackObject
+(
 {
 onInstallEnded
 :
@@ -507,6 +511,7 @@ addon
 ;
 }
 }
+)
 )
 ;
 install
@@ -586,6 +591,10 @@ installation
 let
 listener
 =
+SpecialPowers
+.
+wrapCallbackObject
+(
 {
 onUninstalled
 :
@@ -596,12 +605,7 @@ removedAddon
 {
 if
 (
-SpecialPowers
-.
-wrap
-(
 removedAddon
-)
 .
 id
 =
@@ -637,6 +641,7 @@ next
 }
 }
 }
+)
 ;
 AddonManager
 .
