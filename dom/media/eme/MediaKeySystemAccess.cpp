@@ -754,6 +754,7 @@ Cdm_disabled
 }
 if
 (
+(
 !
 WMFDecoderModule
 :
@@ -768,6 +769,13 @@ WMFDecoderModule
 :
 :
 HasAAC
+(
+)
+)
+|
+|
+!
+EMEVoucherFileExists
 (
 )
 )
