@@ -1018,15 +1018,6 @@ nsIAtom
 aLocalName
 )
 ;
-static
-bool
-IsHTMLVoid
-(
-nsIAtom
-*
-aLocalName
-)
-;
 enum
 ParseHTMLIntegerResultFlags
 {

@@ -969,6 +969,15 @@ void
 aData
 )
 ;
+static
+bool
+IsHTMLVoid
+(
+nsIAtom
+*
+aLocalName
+)
+;
 protected
 :
 virtual
