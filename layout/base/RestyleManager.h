@@ -825,6 +825,8 @@ RebuildAllStyleData
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 ;
 void
@@ -1180,6 +1182,9 @@ mHoverGeneration
 ;
 nsChangeHint
 mRebuildAllExtraHint
+;
+nsRestyleHint
+mRebuildAllRestyleHint
 ;
 mozilla
 :

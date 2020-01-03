@@ -8130,6 +8130,7 @@ RestyleManager
 RebuildAllStyleData
 (
 aExtraHint
+eRestyle_Subtree
 )
 ;
 }
