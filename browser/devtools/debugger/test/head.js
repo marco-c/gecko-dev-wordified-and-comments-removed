@@ -291,6 +291,7 @@ jsm
 let
 {
 DebuggerClient
+ObjectClient
 }
 =
 Cu
