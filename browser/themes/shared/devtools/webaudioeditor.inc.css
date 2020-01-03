@@ -405,7 +405,7 @@ text
 {
 cursor
 :
-pointer
+default
 ;
 font
 -
@@ -471,6 +471,15 @@ fill
 :
 #
 f0f1f2
+;
+}
+.
+nodes
+text
+{
+cursor
+:
+pointer
 ;
 }
 #
