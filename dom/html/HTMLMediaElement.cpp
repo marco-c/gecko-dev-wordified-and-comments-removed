@@ -3430,6 +3430,13 @@ HTMLMediaElement
 :
 :
 PRELOAD_NONE
+&
+&
+!
+IsMediaStreamURI
+(
+mLoadingSrc
+)
 )
 {
 SuspendLoad
@@ -4176,6 +4183,13 @@ HTMLMediaElement
 :
 :
 PRELOAD_NONE
+&
+&
+!
+IsMediaStreamURI
+(
+mLoadingSrc
+)
 )
 {
 SuspendLoad
