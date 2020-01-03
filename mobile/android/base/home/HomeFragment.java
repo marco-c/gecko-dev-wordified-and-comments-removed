@@ -1042,6 +1042,7 @@ Favicons
 .
 getPreferredSizeFaviconForPage
 (
+context
 info
 .
 url

@@ -2671,6 +2671,9 @@ Favicons
 .
 getFaviconURLForPageURL
 (
+getContext
+(
+)
 url
 )
 ;
@@ -5278,6 +5281,9 @@ Favicons
 .
 getSizedFavicon
 (
+getContext
+(
+)
 url
 tab
 .
@@ -9648,6 +9654,9 @@ Favicons
 .
 getSizedFavicon
 (
+getContext
+(
+)
 tab
 .
 getURL
