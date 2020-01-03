@@ -3041,6 +3041,12 @@ return
 target
 .
 isAddon
+&
+&
+!
+target
+.
+chrome
 ;
 }
 build
