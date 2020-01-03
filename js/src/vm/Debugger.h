@@ -1258,6 +1258,9 @@ allocationsLogLength
 size_t
 maxAllocationsLogLength
 ;
+bool
+allocationsLogOverflowed
+;
 static
 const
 size_t
