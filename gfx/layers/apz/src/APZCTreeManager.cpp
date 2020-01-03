@@ -956,8 +956,7 @@ AsyncPanZoomController
 aOutParent
 AsyncPanZoomController
 *
-&
-aOutNextSibling
+aNextSibling
 TreeBuildingState
 &
 aState
@@ -1492,10 +1491,10 @@ GetContentDescription
 ;
 if
 (
-aOutNextSibling
+aNextSibling
 )
 {
-aOutNextSibling
+aNextSibling
 -
 >
 SetPrevSibling

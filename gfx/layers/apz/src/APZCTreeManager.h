@@ -652,8 +652,7 @@ AsyncPanZoomController
 aOutParent
 AsyncPanZoomController
 *
-&
-aOutNextSibling
+aNextSibling
 TreeBuildingState
 &
 aState
