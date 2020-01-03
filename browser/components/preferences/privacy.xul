@@ -951,7 +951,7 @@ accesskey
 =
 "
 &
-trackingProtection2
+trackingProtection3
 .
 accesskey
 ;
@@ -960,7 +960,7 @@ label
 =
 "
 &
-trackingProtection2
+trackingProtection3
 .
 label
 ;
@@ -1069,7 +1069,7 @@ label
 =
 "
 &
-dntTrackingNotOkay2
+dntTrackingNotOkay3
 .
 label
 ;
@@ -1078,7 +1078,7 @@ accesskey
 =
 "
 &
-dntTrackingNotOkay2
+dntTrackingNotOkay3
 .
 accesskey
 ;
