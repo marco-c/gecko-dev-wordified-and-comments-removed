@@ -5287,6 +5287,9 @@ systemMemoryPressureRecoveryPollMS
 5000
 )
 ;
+#
+ifndef
+DEBUG
 pref
 (
 "
@@ -5315,6 +5318,8 @@ delayMs
 5000
 )
 ;
+#
+endif
 pref
 (
 "
