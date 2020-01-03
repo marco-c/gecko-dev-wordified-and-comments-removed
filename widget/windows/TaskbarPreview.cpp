@@ -1674,12 +1674,8 @@ nMsg
 WM_DESTROY
 )
 {
-preview
--
->
-mWnd
-=
-nullptr
+return
+false
 ;
 }
 else
