@@ -98,6 +98,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsITelephonyCallInfo
+.
+idl
+'
+'
 nsITelephonyService
 .
 idl
@@ -182,6 +187,11 @@ TelephonyCallback
 h
 '
 '
+TelephonyCallInfo
+.
+h
+'
+'
 TelephonyCommon
 .
 h
@@ -249,6 +259,11 @@ cpp
 '
 '
 TelephonyCallId
+.
+cpp
+'
+'
+TelephonyCallInfo
 .
 cpp
 '
