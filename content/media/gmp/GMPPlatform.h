@@ -148,8 +148,8 @@ MOZ_OVERRIDE
 ;
 private
 :
-Mutex
-mMutex
+Monitor
+mMonitor
 ;
 }
 ;

@@ -963,7 +963,7 @@ GMPMutexImpl
 (
 )
 :
-mMutex
+mMonitor
 (
 "
 gmp
@@ -1012,7 +1012,7 @@ Acquire
 (
 )
 {
-mMutex
+mMonitor
 .
 Lock
 (
@@ -1027,7 +1027,7 @@ Release
 (
 )
 {
-mMutex
+mMonitor
 .
 Unlock
 (
