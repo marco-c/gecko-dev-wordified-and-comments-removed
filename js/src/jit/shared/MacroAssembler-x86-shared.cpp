@@ -1039,6 +1039,8 @@ scratch
 Label
 *
 label
+bool
+maybeNonZero
 )
 {
 #
@@ -1050,6 +1052,11 @@ JS_CODEGEN_X86
 Label
 nonZero
 ;
+if
+(
+maybeNonZero
+)
+{
 xorpd
 (
 ScratchDoubleReg
@@ -1065,6 +1072,7 @@ ScratchDoubleReg
 nonZero
 )
 ;
+}
 movmskpd
 (
 reg
