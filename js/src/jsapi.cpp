@@ -28460,6 +28460,9 @@ which
 )
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 PropertySpecNameIsDigits
@@ -28528,6 +28531,8 @@ return
 true
 ;
 }
+#
+endif
 JS_PUBLIC_API
 (
 bool

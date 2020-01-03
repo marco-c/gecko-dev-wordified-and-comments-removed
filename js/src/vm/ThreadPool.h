@@ -365,14 +365,14 @@ ParallelJob
 *
 job_
 ;
+#
+ifdef
+DEBUG
 JSRuntime
 *
 const
 runtime_
 ;
-#
-ifdef
-DEBUG
 mozilla
 :
 :

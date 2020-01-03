@@ -1011,13 +1011,13 @@ job_
 (
 nullptr
 )
+#
+ifdef
+DEBUG
 runtime_
 (
 rt
 )
-#
-ifdef
-DEBUG
 stolenSlices_
 (
 0

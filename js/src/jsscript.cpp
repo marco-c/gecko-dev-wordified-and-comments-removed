@@ -529,7 +529,13 @@ numBodyLevelLexicals
 LOCALNO_LIMIT
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 uint64_t
+>
 totalSlots
 =
 uint64_t
