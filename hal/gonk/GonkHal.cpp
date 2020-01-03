@@ -5004,17 +5004,6 @@ define
 KLOG_SIZE_BUFFER
 KLOG_WRITE
 #
-else
-#
-warning
-"
-Please
-remove
-KLOG_UNREAD_SIZE
-compatability
-def
-"
-#
 endif
 int
 msg_buf_size
