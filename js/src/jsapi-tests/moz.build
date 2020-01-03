@@ -244,6 +244,11 @@ testGCAllocator
 cpp
 '
 '
+testGCChunkPool
+.
+cpp
+'
+'
 testGCExactRooting
 .
 cpp
