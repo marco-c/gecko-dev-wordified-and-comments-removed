@@ -306,12 +306,12 @@ wrap_content
 "
 android
 :
-layout_marginRight
+padding
 =
 "
 dimen
 /
-find_in_page_matchcase_margin_right
+find_in_page_matchcase_padding
 "
 android
 :
