@@ -951,10 +951,6 @@ WebGLContextUnchecked
 (
 nullptr
 )
-mBypassShaderValidation
-(
-false
-)
 mNeedsFakeNoAlpha
 (
 false
@@ -995,6 +991,10 @@ false
 mPixelStoreColorspaceConversion
 =
 BROWSER_DEFAULT_WEBGL
+;
+mShaderValidation
+=
+true
 ;
 mFakeBlackStatus
 =
@@ -1447,10 +1447,6 @@ mBoundUniformBuffer
 nullptr
 ;
 mCurrentProgram
-=
-nullptr
-;
-mActiveProgramLinkInfo
 =
 nullptr
 ;
