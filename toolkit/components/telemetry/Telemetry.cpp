@@ -3457,6 +3457,15 @@ never
 )
 &
 &
+strcmp
+(
+expiration
+"
+default
+"
+)
+&
+&
 (
 mozilla
 :
