@@ -2455,8 +2455,9 @@ android
 divider
 "
 >
-#
-E7ECF0
+color
+/
+divider_light
 <
 /
 item
@@ -6045,8 +6046,9 @@ android
 childDivider
 "
 >
-#
-E7ECF0
+color
+/
+divider_light
 <
 /
 item
