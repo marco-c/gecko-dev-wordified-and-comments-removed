@@ -288,6 +288,9 @@ media
 messages
 '
 '
+mobileconnection
+'
+'
 notification
 '
 '
@@ -451,9 +454,6 @@ icc
 '
 '
 cellbroadcast
-'
-'
-mobileconnection
 '
 '
 voicemail
