@@ -3457,6 +3457,9 @@ xpcDir
 self
 .
 remoteScriptsDir
+timeout
+=
+600
 retryLimit
 =
 10
