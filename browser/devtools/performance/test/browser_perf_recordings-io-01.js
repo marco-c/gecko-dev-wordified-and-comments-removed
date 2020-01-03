@@ -123,6 +123,11 @@ exportRecording
 (
 "
 "
+PerformanceController
+.
+getCurrentRecording
+(
+)
 file
 )
 ;

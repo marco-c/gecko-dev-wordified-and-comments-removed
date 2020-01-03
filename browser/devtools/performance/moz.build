@@ -84,6 +84,15 @@ io
 js
 '
 '
+modules
+/
+recording
+-
+model
+.
+js
+'
+'
 panel
 .
 js
