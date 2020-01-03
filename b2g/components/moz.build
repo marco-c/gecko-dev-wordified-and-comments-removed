@@ -131,6 +131,11 @@ B2GPresentationDevicePrompt
 js
 '
 '
+BootstrapCommandLine
+.
+js
+'
+'
 ContentPermissionPrompt
 .
 js
@@ -283,6 +288,11 @@ EXTRA_JS_MODULES
 [
 '
 AlertsHelper
+.
+jsm
+'
+'
+Bootstraper
 .
 jsm
 '

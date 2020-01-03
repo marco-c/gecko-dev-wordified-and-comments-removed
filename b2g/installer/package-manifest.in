@@ -2788,6 +2788,13 @@ CommandLine
 js
 #
 endif
+BINPATH
+/
+components
+/
+BootstrapCommandLine
+.
+js
 #
 ifdef
 MOZ_UPDATER
