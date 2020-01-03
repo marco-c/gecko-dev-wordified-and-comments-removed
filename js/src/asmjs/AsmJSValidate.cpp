@@ -36089,7 +36089,7 @@ type
 )
 ;
 case
-AsmJSSimdOperation_reciprocal
+AsmJSSimdOperation_reciprocalApproximation
 :
 return
 CheckSimdUnary
@@ -36100,13 +36100,13 @@ opType
 MSimdUnaryArith
 :
 :
-reciprocal
+reciprocalApproximation
 def
 type
 )
 ;
 case
-AsmJSSimdOperation_reciprocalSqrt
+AsmJSSimdOperation_reciprocalSqrtApproximation
 :
 return
 CheckSimdUnary
@@ -36117,7 +36117,7 @@ opType
 MSimdUnaryArith
 :
 :
-reciprocalSqrt
+reciprocalSqrtApproximation
 def
 type
 )

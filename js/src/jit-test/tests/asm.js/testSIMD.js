@@ -13959,7 +13959,7 @@ CheckRecp
 CheckUnaryF4
 (
 '
-reciprocal
+reciprocalApproximation
 '
 function
 (
@@ -14008,7 +14008,7 @@ CheckRecp
 CheckUnaryF4
 (
 '
-reciprocalSqrt
+reciprocalSqrtApproximation
 '
 function
 (

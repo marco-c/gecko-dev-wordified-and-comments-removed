@@ -3185,7 +3185,7 @@ typename
 T
 >
 struct
-Rec
+RecApprox
 {
 static
 inline
@@ -3210,7 +3210,7 @@ typename
 T
 >
 struct
-RecSqrt
+RecSqrtApprox
 {
 static
 inline

@@ -90,7 +90,7 @@ SIMD
 .
 float32x4
 .
-reciprocalSqrt
+reciprocalSqrtApproximation
 (
 a
 )
@@ -149,7 +149,7 @@ SIMD
 .
 float32x4
 .
-reciprocalSqrt
+reciprocalSqrtApproximation
 (
 d
 )
@@ -222,7 +222,7 @@ SIMD
 .
 float32x4
 .
-reciprocalSqrt
+reciprocalSqrtApproximation
 (
 g
 )

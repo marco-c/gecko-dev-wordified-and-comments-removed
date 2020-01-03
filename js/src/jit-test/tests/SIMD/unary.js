@@ -240,7 +240,7 @@ SIMD
 .
 float32x4
 .
-reciprocal
+reciprocalApproximation
 (
 f4
 )
@@ -268,7 +268,7 @@ SIMD
 .
 float32x4
 .
-reciprocalSqrt
+reciprocalSqrtApproximation
 (
 f4
 )
