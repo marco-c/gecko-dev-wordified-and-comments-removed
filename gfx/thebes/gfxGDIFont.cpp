@@ -2326,10 +2326,16 @@ return
 width
 ;
 }
-DCFromContext
+DCFromDrawTarget
 dc
 (
+*
 aCtx
+-
+>
+GetDrawTarget
+(
+)
 )
 ;
 AutoSelectFont
