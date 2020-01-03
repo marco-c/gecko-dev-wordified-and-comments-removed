@@ -3313,7 +3313,7 @@ test
 .
 pcLocal
 .
-checkMSids
+checkMsids
 (
 )
 ;
@@ -3329,7 +3329,7 @@ test
 .
 pcRemote
 .
-checkMSids
+checkMsids
 (
 )
 ;
