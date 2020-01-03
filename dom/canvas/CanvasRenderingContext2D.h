@@ -621,6 +621,9 @@ class
 CanvasRenderingContext2DUserData
 ;
 class
+CanvasDrawObserver
+;
+class
 CanvasRenderingContext2D
 MOZ_FINAL
 :
@@ -3723,6 +3726,15 @@ SkiaGLTex
 )
 const
 ;
+CanvasDrawObserver
+*
+mDrawObserver
+;
+void
+RemoveDrawObserver
+(
+)
+;
 bool
 mIsEntireFrameInvalid
 ;
@@ -4951,6 +4963,10 @@ cssPixel
 friend
 struct
 CanvasBidiProcessor
+;
+friend
+class
+CanvasDrawObserver
 ;
 }
 ;

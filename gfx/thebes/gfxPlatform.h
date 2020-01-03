@@ -952,6 +952,12 @@ mContentBackendBitmask
 }
 virtual
 bool
+HaveChoiceOfHWAndSWCanvas
+(
+)
+;
+virtual
+bool
 UseAcceleratedSkiaCanvas
 (
 )
