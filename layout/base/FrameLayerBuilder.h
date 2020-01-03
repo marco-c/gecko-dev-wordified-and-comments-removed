@@ -963,13 +963,6 @@ aFrame
 nullptr
 )
 ;
-DisplayItemData
-(
-DisplayItemData
-&
-toCopy
-)
-;
 ~
 DisplayItemData
 (
