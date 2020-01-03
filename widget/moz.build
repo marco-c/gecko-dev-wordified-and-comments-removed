@@ -177,6 +177,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIGfxInfo2
+.
+idl
+'
+'
 nsIJumpListBuilder
 .
 idl
