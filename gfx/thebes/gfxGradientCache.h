@@ -102,6 +102,12 @@ aExtend
 ;
 static
 void
+PurgeAllCaches
+(
+)
+;
+static
+void
 Shutdown
 (
 )
