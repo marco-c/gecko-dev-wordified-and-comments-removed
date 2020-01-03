@@ -1065,6 +1065,10 @@ FIRFilter
 (
 )
 {
+filterCoeffsAlign
+=
+NULL
+;
 filterCoeffsUnalign
 =
 NULL

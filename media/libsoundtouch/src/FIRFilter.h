@@ -90,7 +90,6 @@ numSamples
 uint
 numChannels
 )
-const
 ;
 public
 :
@@ -136,7 +135,6 @@ numSamples
 uint
 numChannels
 )
-const
 ;
 uint
 getLength
