@@ -133,14 +133,6 @@ debuggerClient
 ;
 this
 .
-collector
-=
-options
-.
-collector
-;
-this
-.
 onNetworkEvent
 =
 this
@@ -1851,7 +1843,7 @@ promise
 =
 this
 .
-collector
+webConsoleClient
 .
 getString
 (
