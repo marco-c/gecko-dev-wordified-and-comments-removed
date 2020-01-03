@@ -241,6 +241,16 @@ aExtents
 )
 const
 ;
+bool
+UseVerticalPresentationForms
+(
+)
+const
+{
+return
+mUseVerticalPresentationForms
+;
+}
 static
 hb_script_t
 GetHBScriptUsedForShaping
@@ -453,6 +463,9 @@ mInitialized
 ;
 bool
 mVerticalInitialized
+;
+bool
+mUseVerticalPresentationForms
 ;
 mutable
 bool
