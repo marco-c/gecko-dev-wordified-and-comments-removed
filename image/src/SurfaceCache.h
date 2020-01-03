@@ -585,6 +585,15 @@ aImageKey
 ;
 static
 void
+UnlockSurfaces
+(
+const
+ImageKey
+aImageKey
+)
+;
+static
+void
 RemoveSurface
 (
 const
