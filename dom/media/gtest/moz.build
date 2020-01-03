@@ -118,6 +118,11 @@ TestGMPRemoveAndDelete
 cpp
 '
 '
+TestIntervalSet
+.
+cpp
+'
+'
 TestMP4Demuxer
 .
 cpp
