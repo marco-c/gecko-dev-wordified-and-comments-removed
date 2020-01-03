@@ -201,9 +201,6 @@ let
 Agent
 =
 {
-hasWrittenState
-:
-false
 Paths
 :
 null
