@@ -193,6 +193,7 @@ jar
 classes
 .
 txt
+FORCE
 (
 sdk_processor
 )
