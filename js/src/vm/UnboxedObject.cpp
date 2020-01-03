@@ -2287,7 +2287,7 @@ layout
 getAllocKind
 (
 )
-MaybeSingletonObject
+TenuredObject
 )
 ;
 if

@@ -660,7 +660,6 @@ NewObjectKind
 {
 GenericObject
 SingletonObject
-MaybeSingletonObject
 TenuredObject
 }
 ;

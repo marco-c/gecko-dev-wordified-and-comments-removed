@@ -53153,7 +53153,7 @@ CreateThisForFunction
 (
 cx
 fun
-MaybeSingletonObject
+TenuredObject
 )
 ;
 if

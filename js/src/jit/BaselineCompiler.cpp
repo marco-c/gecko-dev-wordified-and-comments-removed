@@ -6280,10 +6280,7 @@ pushArg
 (
 ImmWord
 (
-js
-:
-:
-MaybeSingletonObject
+TenuredObject
 )
 )
 ;
