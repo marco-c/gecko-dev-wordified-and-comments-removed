@@ -9000,12 +9000,6 @@ PlainObject
 (
 cx
 proto
-cx
--
->
-global
-(
-)
 allocKind
 newKind
 )
