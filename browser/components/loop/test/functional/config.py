@@ -142,16 +142,6 @@ seen
 "
     
 "
-loop
-.
-screenshare
-.
-enabled
-"
-:
-True
-    
-"
 media
 .
 navigator
