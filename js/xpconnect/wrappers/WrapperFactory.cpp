@@ -368,14 +368,6 @@ newMap
 XPC_WRAPPER_MAP_LENGTH
 )
 ;
-MOZ_ASSERT
-(
-scope
--
->
-mWaiverWrapperMap
-)
-;
 }
 if
 (
