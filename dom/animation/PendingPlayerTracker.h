@@ -81,6 +81,15 @@ aPlayer
 )
 const
 ;
+void
+StartPendingPlayers
+(
+const
+TimeStamp
+&
+aReadyTime
+)
+;
 private
 :
 ~
