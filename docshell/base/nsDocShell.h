@@ -2363,6 +2363,9 @@ mOpener
 nsWeakPtr
 mOpenedRemote
 ;
+uint32_t
+mJSRunToCompletionDepth
+;
 bool
 mProfileTimelineRecording
 ;

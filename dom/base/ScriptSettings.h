@@ -53,6 +53,9 @@ nsIScriptContext
 class
 nsIDocument
 ;
+class
+nsIDocShell
+;
 namespace
 mozilla
 {
@@ -143,6 +146,16 @@ InitScriptSettings
 ;
 void
 DestroyScriptSettings
+(
+)
+;
+void
+UseEntryScriptProfiling
+(
+)
+;
+void
+UnuseEntryScriptProfiling
 (
 )
 ;
@@ -636,6 +649,10 @@ nsIPrincipal
 GetWebIDLCallerPrincipal
 (
 )
+;
+nsIDocShell
+*
+mDocShellForJSRunToCompletion
 ;
 }
 ;
