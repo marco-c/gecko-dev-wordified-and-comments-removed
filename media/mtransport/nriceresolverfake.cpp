@@ -367,6 +367,10 @@ resource
 transport_protocol
 :
 IPPROTO_UDP
+resource
+-
+>
+address_family
 cb
 cb_arg
 )
@@ -476,6 +480,10 @@ pending
 -
 >
 hostname_
+pending
+-
+>
+address_family_
 )
 ;
 if

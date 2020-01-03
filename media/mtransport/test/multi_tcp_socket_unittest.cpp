@@ -545,7 +545,7 @@ tries
 {
 r
 =
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 (
 char

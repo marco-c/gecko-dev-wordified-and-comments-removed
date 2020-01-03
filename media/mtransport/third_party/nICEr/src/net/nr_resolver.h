@@ -36,6 +36,9 @@ stun_turn
 UCHAR
 transport_protocol
 ;
+UCHAR
+address_family
+;
 }
 nr_resolver_resource
 ;

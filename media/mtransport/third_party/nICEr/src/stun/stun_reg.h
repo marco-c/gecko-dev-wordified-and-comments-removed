@@ -68,6 +68,14 @@ allow_loopback
 "
 #
 define
+NR_STUN_REG_PREF_ALLOW_LINK_LOCAL_ADDRS
+"
+stun
+.
+allow_link_local
+"
+#
+define
 NR_STUN_REG_PREF_ADDRESS_PRFX
 "
 stun

@@ -711,6 +711,10 @@ bool
 tcp_enabled
 =
 true
+bool
+allow_link_local
+=
+false
 )
 ;
 static

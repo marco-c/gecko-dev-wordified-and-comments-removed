@@ -408,7 +408,7 @@ real_socket_
 }
 r
 =
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 turn_server_
 .
@@ -918,7 +918,7 @@ offset
 ;
 r
 =
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 host
 .
@@ -1465,7 +1465,7 @@ offset
 ;
 r
 =
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 host
 .
@@ -2249,7 +2249,7 @@ addr
 ;
 if
 (
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 g_turn_server
 .
@@ -2338,6 +2338,7 @@ NrIceCtx
 :
 Create
 dummy
+false
 false
 false
 false

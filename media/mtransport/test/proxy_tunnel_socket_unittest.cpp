@@ -484,7 +484,7 @@ handle
 nr_transport_addr
 addr
 ;
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 (
 char
@@ -623,7 +623,7 @@ get_nr_resolver
 int
 r
 =
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 (
 char
@@ -648,7 +648,7 @@ r
 ;
 r
 =
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 (
 char

@@ -301,7 +301,7 @@ TestNat
 nr_transport_addr
 address
 ;
-nr_ip4_str_port_to_transport_addr
+nr_str_port_to_transport_addr
 (
 ip_str
 0
