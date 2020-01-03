@@ -162,8 +162,9 @@ android
 textColor
 =
 "
-#
-eeeeee
+color
+/
+text_color_primary_inverse
 "
 android
 :
