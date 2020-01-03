@@ -600,7 +600,7 @@ registers
 move
 a2
 sp
-addi
+PTR_ADDI
 a2
 FRAMESZ
 #
@@ -616,7 +616,7 @@ a7
 move
 a3
 sp
-addi
+PTR_ADDI
 a3
 A1OFF
 #
@@ -632,7 +632,7 @@ f19
 move
 a4
 sp
-addi
+PTR_ADDI
 a4
 F13OFF
 #

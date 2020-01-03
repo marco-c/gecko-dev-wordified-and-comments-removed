@@ -357,7 +357,7 @@ bytes
 *
 num
 params
-subu
+PTR_SUBU
 sp
 sp
 v0
@@ -384,7 +384,7 @@ int
 and
 fp
 regs
-subu
+PTR_SUBU
 sp
 64
 #
@@ -408,7 +408,7 @@ save
 the
 arg
 stack
-subu
+PTR_SUBU
 sp
 sp
 16
@@ -514,17 +514,17 @@ be
 saved
 in
 t9
-lw
+PTR_L
 t9
 0
 (
 a0
 )
-addu
+PTR_ADDU
 t9
 t9
 t1
-lw
+PTR_L
 t9
 (
 t9
@@ -536,7 +536,7 @@ save
 area
 from
 invoke_copy_to_stack
-subu
+PTR_SUBU
 t1
 t3
 64
