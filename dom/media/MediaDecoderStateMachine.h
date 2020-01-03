@@ -75,6 +75,13 @@ h
 #
 include
 "
+MediaEventSource
+.
+h
+"
+#
+include
+"
 MediaMetadataManager
 .
 h
@@ -1086,7 +1093,7 @@ void
 OnAudioPopped
 (
 const
-AudioData
+MediaData
 *
 aSample
 )
@@ -1095,7 +1102,7 @@ void
 OnVideoPopped
 (
 const
-VideoData
+MediaData
 *
 aSample
 )
@@ -3431,6 +3438,12 @@ MozPromiseRequestHolder
 GenericPromise
 >
 mAudioSinkPromise
+;
+MediaEventListener
+mAudioQueueListener
+;
+MediaEventListener
+mVideoQueueListener
 ;
 private
 :
