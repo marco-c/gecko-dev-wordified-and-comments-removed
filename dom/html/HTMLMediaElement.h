@@ -2754,9 +2754,6 @@ mMediaInfo
 bool
 mIsEncrypted
 ;
-EncryptionInfo
-mPendingEncryptedInitData
-;
 bool
 mDownloadSuspendedByCache
 ;
