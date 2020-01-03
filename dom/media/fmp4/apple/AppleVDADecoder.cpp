@@ -1187,12 +1187,6 @@ mDisplayWidth
 mDisplayHeight
 )
 ;
-info
-.
-mHasVideo
-=
-true
-;
 gfx
 :
 :

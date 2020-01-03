@@ -1421,12 +1421,6 @@ mDisplay
 =
 displaySize
 ;
-mVideoInfo
-.
-mHasVideo
-=
-true
-;
 GetDefaultStride
 (
 mediaType

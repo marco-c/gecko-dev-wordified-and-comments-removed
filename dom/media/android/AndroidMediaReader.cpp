@@ -345,12 +345,6 @@ NS_ERROR_FAILURE
 }
 mHasVideo
 =
-mInfo
-.
-mVideo
-.
-mHasVideo
-=
 true
 ;
 mInfo
@@ -440,12 +434,6 @@ numChannels
 sampleRate
 )
 ;
-mHasAudio
-=
-mInfo
-.
-mAudio
-.
 mHasAudio
 =
 true

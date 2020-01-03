@@ -372,14 +372,6 @@ mInfo
 .
 mVideo
 .
-mHasVideo
-=
-true
-;
-mInfo
-.
-mVideo
-.
 mDisplay
 =
 display

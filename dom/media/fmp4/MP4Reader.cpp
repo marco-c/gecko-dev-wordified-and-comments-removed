@@ -1941,12 +1941,6 @@ mIndexReady
 =
 true
 ;
-mInfo
-.
-mVideo
-.
-mHasVideo
-=
 mVideo
 .
 mActive
@@ -1984,12 +1978,6 @@ mDemuxer
 )
 ;
 }
-mInfo
-.
-mAudio
-.
-mHasAudio
-=
 mAudio
 .
 mActive
