@@ -2383,6 +2383,9 @@ button
 yield
 clicked
 ;
+yield
+willStart
+;
 ok
 (
 button
@@ -2425,9 +2428,6 @@ locked
 .
 "
 )
-;
-yield
-willStart
 ;
 let
 stateChanged
@@ -2712,6 +2712,9 @@ button
 yield
 clicked
 ;
+yield
+willStop
+;
 ok
 (
 !
@@ -2755,9 +2758,6 @@ locked
 .
 "
 )
-;
-yield
-willStop
 ;
 let
 stateChanged
