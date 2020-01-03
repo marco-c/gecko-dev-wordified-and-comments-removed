@@ -7603,7 +7603,7 @@ bool
 js
 :
 :
-HasObjectMovedOp
+HasObjectMovedOpIfRequired
 (
 JSObject
 *
@@ -7611,6 +7611,17 @@ obj
 )
 {
 return
+obj
+-
+>
+is
+<
+GlobalObject
+>
+(
+)
+|
+|
 !
 !
 GetObjectClass

@@ -192,7 +192,7 @@ MOZ_ASSERT
 js
 :
 :
-HasObjectMovedOp
+HasObjectMovedOpIfRequired
 (
 aWrapper
 )
