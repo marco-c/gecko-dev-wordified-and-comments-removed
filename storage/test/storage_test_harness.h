@@ -931,6 +931,7 @@ mozIStorageResultSet
 *
 aResultSet
 )
+MOZ_OVERRIDE
 ;
 void
 blocking_async_execute

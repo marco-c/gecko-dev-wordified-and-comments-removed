@@ -89,6 +89,7 @@ sqlite3_stmt
 *
 aStatement
 )
+MOZ_OVERRIDE
 ;
 }
 }

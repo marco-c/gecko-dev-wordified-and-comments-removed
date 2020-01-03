@@ -188,6 +188,7 @@ nsIID
 *
 _array
 )
+MOZ_OVERRIDE
 {
 return
 NS_CI_INTERFACE_GETTER_NAME
@@ -210,6 +211,7 @@ nsISupports
 *
 _helper
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -253,6 +255,7 @@ char
 *
 _contractID
 )
+MOZ_OVERRIDE
 {
 *
 _contractID
@@ -271,6 +274,7 @@ char
 *
 _desc
 )
+MOZ_OVERRIDE
 {
 *
 _desc
@@ -289,6 +293,7 @@ nsCID
 *
 _id
 )
+MOZ_OVERRIDE
 {
 *
 _id
@@ -306,6 +311,7 @@ uint32_t
 *
 _language
 )
+MOZ_OVERRIDE
 {
 *
 _language
@@ -326,6 +332,7 @@ uint32_t
 *
 _flags
 )
+MOZ_OVERRIDE
 {
 *
 _flags
@@ -343,6 +350,7 @@ nsCID
 *
 _cid
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_AVAILABLE
