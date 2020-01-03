@@ -2245,14 +2245,6 @@ lir
 )
 ;
 bool
-visitAsmJSCall
-(
-LAsmJSCall
-*
-lir
-)
-;
-bool
 visitAsmJSParameter
 (
 LAsmJSParameter
