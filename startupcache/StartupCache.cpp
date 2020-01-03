@@ -516,7 +516,7 @@ nullptr
 }
 #
 ifdef
-MOZ_DISABLE_STARTUP_CACHE
+MOZ_DISABLE_STARTUPCACHE
 return
 nullptr
 ;
