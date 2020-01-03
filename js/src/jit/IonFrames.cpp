@@ -3678,7 +3678,7 @@ takeIonReturnOverride
 (
 )
 ;
-JitFrameIterator
+DebugModeOSRVolatileJitFrameIterator
 iter
 (
 cx
