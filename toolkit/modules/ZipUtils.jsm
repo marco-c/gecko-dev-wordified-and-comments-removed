@@ -1121,7 +1121,9 @@ set
 permissions
 "
 +
-aPermissions
+FileUtils
+.
+PERMS_FILE
 .
 toString
 (
@@ -1135,6 +1137,11 @@ on
 target
 .
 path
++
+"
+"
++
+e
 +
 "
 \
