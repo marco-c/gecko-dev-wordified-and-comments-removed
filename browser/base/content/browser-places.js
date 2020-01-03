@@ -2177,6 +2177,11 @@ if
 (
 !
 organizer
+|
+|
+organizer
+.
+closed
 )
 {
 openDialog
