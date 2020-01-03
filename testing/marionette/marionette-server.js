@@ -11737,10 +11737,11 @@ getCommandId
 if
 (
 appName
+!
 =
 =
 "
-B2G
+Firefox
 "
 )
 {
@@ -11752,7 +11753,7 @@ sendError
 Not
 supported
 on
-B2G
+mobile
 "
 405
 null
