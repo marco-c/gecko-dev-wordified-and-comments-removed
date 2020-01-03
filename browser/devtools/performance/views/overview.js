@@ -653,9 +653,18 @@ resolution
 )
 {
 let
-interval
+recording
 =
 PerformanceController
+.
+getCurrentRecording
+(
+)
+;
+let
+interval
+=
+recording
 .
 getInterval
 (
@@ -664,7 +673,7 @@ getInterval
 let
 markers
 =
-PerformanceController
+recording
 .
 getMarkers
 (
@@ -673,7 +682,7 @@ getMarkers
 let
 memory
 =
-PerformanceController
+recording
 .
 getMemory
 (
@@ -682,7 +691,7 @@ getMemory
 let
 timestamps
 =
-PerformanceController
+recording
 .
 getTicks
 (

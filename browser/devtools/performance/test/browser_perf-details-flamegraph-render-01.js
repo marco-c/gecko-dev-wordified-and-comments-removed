@@ -40,6 +40,10 @@ waitUntil
 >
 PerformanceController
 .
+getCurrentRecording
+(
+)
+.
 getMarkers
 (
 )
