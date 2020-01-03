@@ -769,6 +769,7 @@ mozGetFileNameArray
 ;
 [
 ChromeOnly
+Throws
 ]
 void
 mozSetFileNameArray
