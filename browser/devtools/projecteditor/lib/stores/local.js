@@ -686,14 +686,8 @@ addChild
 resource
 )
 ;
-throw
-new
-Task
-.
-Result
-(
+return
 resource
-)
 ;
 }
 .
