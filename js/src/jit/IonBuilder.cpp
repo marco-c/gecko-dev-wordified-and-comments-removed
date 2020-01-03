@@ -39242,7 +39242,9 @@ TypeSet
 }
 Value
 vp
-=
+;
+JS_ALWAYS_TRUE
+(
 script
 (
 )
@@ -39252,9 +39254,12 @@ global
 (
 )
 .
-existingIntrinsicValue
+maybeGetIntrinsicValue
 (
 name
+&
+vp
+)
 )
 ;
 MOZ_ASSERT
