@@ -803,7 +803,7 @@ mPaintData
 .
 mCriticalDisplayPort
 =
-RoundedOut
+RoundedToInt
 (
 ApplyParentLayerToLayerTransform
 (
