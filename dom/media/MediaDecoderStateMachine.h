@@ -180,8 +180,6 @@ aVolume
 void
 SetAudioCaptured
 (
-bool
-aCapture
 )
 ;
 bool
@@ -347,6 +345,12 @@ aTarget
 ;
 double
 GetCurrentTime
+(
+)
+const
+;
+int64_t
+GetCurrentTimeUs
 (
 )
 const
