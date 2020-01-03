@@ -1606,7 +1606,10 @@ mRangeParent
 int32_t
 mRangeOffset
 ;
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mCachedMousePoint
 ;
 mozilla

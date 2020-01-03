@@ -2595,7 +2595,7 @@ aTriggerContent
 {
 mCachedMousePoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
@@ -2993,7 +2993,7 @@ rootDocumentRootFrame
 ;
 mCachedMousePoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 rootDocPresContext
 -
@@ -3620,7 +3620,7 @@ PresContext
 ;
 mCachedMousePoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 pc
 -
@@ -3676,7 +3676,7 @@ mCachedMousePoint
 rootWidget
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 ;
@@ -6062,13 +6062,7 @@ event
 .
 refPoint
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 mCachedMousePoint
-)
 ;
 event
 .
@@ -6092,7 +6086,7 @@ status
 ;
 mCachedMousePoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
