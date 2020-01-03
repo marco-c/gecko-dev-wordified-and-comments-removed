@@ -3934,4 +3934,9 @@ MediaKeySession
 .
 webidl
 '
+'
+MediaKeySystemAccess
+.
+webidl
+'
 ]
