@@ -194,9 +194,11 @@ comp
 ;
 for
 (
-ALL_ALLOC_KINDS
-(
+auto
 thingKind
+:
+AllAllocKinds
+(
 )
 )
 {
@@ -716,9 +718,11 @@ SkipAtoms
 ;
 for
 (
-OBJECT_ALLOC_KINDS
-(
+auto
 thingKind
+:
+ObjectAllocKinds
+(
 )
 )
 {
