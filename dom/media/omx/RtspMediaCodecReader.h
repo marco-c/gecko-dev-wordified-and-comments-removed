@@ -140,16 +140,6 @@ aTags
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
-codecReserved
-(
-Track
-&
-aTrack
-)
-MOZ_OVERRIDE
-;
 private
 :
 RtspMediaResource

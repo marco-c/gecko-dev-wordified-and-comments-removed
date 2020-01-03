@@ -1350,6 +1350,12 @@ MediaDecoderOwner
 NextFrameStatus
 mLastFrameStatus
 ;
+bool
+mDecodingFrozenAtStateMetadata
+;
+bool
+mDecodingFrozenAtStateDecoding
+;
 }
 ;
 }
