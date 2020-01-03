@@ -371,7 +371,7 @@ StructuredCloneHelper
 (
 )
 ;
-bool
+void
 Write
 (
 JSContext
@@ -388,9 +388,12 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 ;
-bool
+void
 Write
 (
 JSContext
@@ -418,9 +421,12 @@ JS
 Value
 >
 aTransfer
+ErrorResult
+&
+aRv
 )
 ;
-bool
+void
 Read
 (
 nsISupports
@@ -440,6 +446,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -456,7 +465,7 @@ ErrorResult
 aRv
 )
 ;
-bool
+void
 ReadFromBuffer
 (
 nsISupports
@@ -481,6 +490,9 @@ JS
 Value
 >
 aValue
+ErrorResult
+&
+aRv
 )
 ;
 void
