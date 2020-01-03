@@ -591,8 +591,7 @@ vector
 )
 ;
 static
-void
-*
+BufferContents
 stealContents
 (
 JSContext
