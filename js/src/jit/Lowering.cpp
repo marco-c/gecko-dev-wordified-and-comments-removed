@@ -11511,7 +11511,7 @@ alloc
 )
 LFloat32ToDouble
 (
-useRegisterAtStart
+useRegister
 (
 opd
 )
