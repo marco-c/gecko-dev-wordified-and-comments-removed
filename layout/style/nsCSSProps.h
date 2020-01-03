@@ -2898,6 +2898,13 @@ kCounterSystemKTable
 static
 const
 KTableValue
+kCounterSymbolsSystemKTable
+[
+]
+;
+static
+const
+KTableValue
 kCounterRangeKTable
 [
 ]
