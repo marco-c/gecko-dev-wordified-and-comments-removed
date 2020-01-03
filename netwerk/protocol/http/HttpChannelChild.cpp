@@ -2093,6 +2093,15 @@ mProgressSink
 ;
 if
 (
+status
+=
+=
+NS_OK
+)
+return
+;
+if
+(
 mProgressSink
 &
 &
