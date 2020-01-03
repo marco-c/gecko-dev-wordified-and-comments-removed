@@ -1687,6 +1687,12 @@ nsCString
 name
 )
 ;
+JSRuntime
+*
+GetJSRuntime
+(
+)
+;
 }
 namespace
 mozilla
