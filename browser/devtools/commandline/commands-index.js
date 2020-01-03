@@ -138,6 +138,13 @@ gcli
 /
 commands
 /
+rulers
+"
+"
+gcli
+/
+commands
+/
 screenshot
 "
 "

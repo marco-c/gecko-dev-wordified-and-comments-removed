@@ -211,6 +211,13 @@ js
 '
 commands
 /
+rulers
+.
+js
+'
+'
+commands
+/
 screenshot
 .
 js
