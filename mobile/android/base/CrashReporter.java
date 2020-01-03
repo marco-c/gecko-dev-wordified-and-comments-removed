@@ -862,7 +862,7 @@ true
 ;
 editor
 .
-commit
+apply
 (
 )
 ;
