@@ -25481,6 +25481,12 @@ AutoCompartment
 ac
 (
 cx
+script
+-
+>
+compartment
+(
+)
 )
 ;
 if
