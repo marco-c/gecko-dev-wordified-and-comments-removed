@@ -3463,6 +3463,13 @@ Dispatcher
 )
 .
 isRequired
+localPosterUrl
+:
+React
+.
+PropTypes
+.
+string
 mozLoop
 :
 React
@@ -3472,13 +3479,6 @@ PropTypes
 object
 .
 isRequired
-localPosterUrl
-:
-React
-.
-PropTypes
-.
-string
 remotePosterUrl
 :
 React
