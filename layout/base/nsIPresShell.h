@@ -3369,6 +3369,16 @@ AssumeAllImagesVisible
 =
 0
 ;
+nsresult
+HasRuleProcessorUsedByMultipleStyleSets
+(
+uint32_t
+aSheetType
+bool
+*
+aRetVal
+)
+;
 protected
 :
 virtual
