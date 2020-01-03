@@ -120,6 +120,15 @@ tests
 /
 test
 -
+Interpreter
+.
+cpp
+'
+'
+tests
+/
+test
+-
 jsid
 .
 cpp
