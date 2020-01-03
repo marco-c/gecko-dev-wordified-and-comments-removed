@@ -285,12 +285,6 @@ forget
 )
 ;
 }
-bool
-IsLoading
-(
-)
-const
-;
 uint32_t
 GetImageStatus
 (

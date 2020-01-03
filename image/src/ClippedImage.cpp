@@ -629,11 +629,16 @@ if
 progressTracker
 &
 &
+!
+(
 progressTracker
 -
 >
-IsLoading
+GetProgress
 (
+)
+&
+FLAG_LOAD_COMPLETE
 )
 )
 {
