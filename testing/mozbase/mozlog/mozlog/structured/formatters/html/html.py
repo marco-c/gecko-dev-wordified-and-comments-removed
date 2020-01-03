@@ -1107,6 +1107,15 @@ base64
 b64encode
 (
 content
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 )
                 
 links_html
