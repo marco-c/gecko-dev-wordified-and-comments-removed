@@ -4556,7 +4556,7 @@ ArrayBufferObject
 (
 )
 .
-isAsmJSArrayBuffer
+isAsmJS
 (
 )
 )
