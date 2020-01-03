@@ -40,16 +40,8 @@ nsCharSetProber
 {
 public
 :
-explicit
 nsEUCJPProber
 (
-bool
-aIsPreferredLanguage
-)
-:
-mIsPreferredLanguage
-(
-aIsPreferredLanguage
 )
 {
 mCodingSM
@@ -145,9 +137,6 @@ mLastChar
 [
 2
 ]
-;
-bool
-mIsPreferredLanguage
 ;
 }
 ;

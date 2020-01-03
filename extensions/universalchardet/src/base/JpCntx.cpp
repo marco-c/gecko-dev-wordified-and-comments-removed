@@ -7225,8 +7225,6 @@ JapaneseContextAnalysis
 :
 Reset
 (
-bool
-aIsPreferredLanguage
 )
 {
 mTotalRel
@@ -7270,11 +7268,7 @@ false
 ;
 mDataThreshold
 =
-aIsPreferredLanguage
-?
 0
-:
-MINIMUM_DATA_THRESHOLD
 ;
 }
 #

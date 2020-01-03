@@ -15,10 +15,6 @@ h
 define
 ENOUGH_DATA_THRESHOLD
 1024
-#
-define
-MINIMUM_DATA_THRESHOLD
-4
 class
 CharDistributionAnalysis
 {
@@ -30,7 +26,6 @@ CharDistributionAnalysis
 {
 Reset
 (
-false
 )
 ;
 }
@@ -124,8 +119,6 @@ void
 void
 Reset
 (
-bool
-aIsPreferredLanguage
 )
 {
 mDone
@@ -142,11 +135,7 @@ mFreqChars
 ;
 mDataThreshold
 =
-aIsPreferredLanguage
-?
 0
-:
-MINIMUM_DATA_THRESHOLD
 ;
 }
 bool

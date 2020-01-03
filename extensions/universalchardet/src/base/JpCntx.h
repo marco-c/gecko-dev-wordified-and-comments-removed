@@ -45,7 +45,6 @@ JapaneseContextAnalysis
 {
 Reset
 (
-false
 )
 ;
 }
@@ -155,8 +154,6 @@ void
 void
 Reset
 (
-bool
-aIsPreferredLanguage
 )
 ;
 bool

@@ -59,13 +59,10 @@ nsXPCOMDetector
 :
 nsXPCOMDetector
 (
-uint32_t
-aLanguageFilter
 )
 :
 nsUniversalDetector
 (
-aLanguageFilter
 )
 {
 }
@@ -370,13 +367,10 @@ nsXPCOMStringDetector
 :
 nsXPCOMStringDetector
 (
-uint32_t
-aLanguageFilter
 )
 :
 nsUniversalDetector
 (
-aLanguageFilter
 )
 {
 }
