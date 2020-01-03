@@ -1302,12 +1302,6 @@ sampleSize
 ;
 sample
 .
-mDecodeTime
-=
-decodeTime
-;
-sample
-.
 mCompositionRange
 =
 Interval

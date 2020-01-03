@@ -317,9 +317,6 @@ mozilla
 MediaByteRange
 mByteRange
 ;
-Microseconds
-mDecodeTime
-;
 Interval
 <
 Microseconds
