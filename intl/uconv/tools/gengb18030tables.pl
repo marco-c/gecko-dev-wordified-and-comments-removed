@@ -1515,7 +1515,7 @@ cp936uniq
 .
 txt
 >
-gbkuniq2b
+gbkuniq
 .
 uf
 \
@@ -1534,7 +1534,7 @@ cp936uniq
 .
 txt
 >
-gbkuniq2b
+gbkuniq
 .
 uf
 "
@@ -1551,7 +1551,7 @@ cp936uniq
 .
 txt
 >
-gbkuniq2b
+gbkuniq
 .
 ut
 \
@@ -1570,7 +1570,7 @@ cp936uniq
 .
 txt
 >
-gbkuniq2b
+gbkuniq
 .
 ut
 "
