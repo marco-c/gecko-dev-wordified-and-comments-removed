@@ -2762,6 +2762,11 @@ roomsFxA
 return
 ;
 }
+let
+oldDirty
+=
+gDirty
+;
 gDirty
 =
 true
@@ -2770,6 +2775,10 @@ this
 .
 getAll
 (
+oldDirty
+?
+null
+:
 version
 (
 )
