@@ -389,6 +389,11 @@ Destroy
 (
 )
 ;
+void
+OnForceComposeToTarget
+(
+)
+;
 private
 :
 virtual
