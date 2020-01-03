@@ -7298,7 +7298,7 @@ if
 JS
 :
 :
-FunctionSpecNameIsSymbol
+PropertySpecNameIsSymbol
 (
 spec
 -
