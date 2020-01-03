@@ -488,7 +488,6 @@ mInterceptedChannel
 >
 Cancel
 (
-NS_ERROR_INTERCEPTION_FAILED
 )
 ;
 mInterceptedChannel

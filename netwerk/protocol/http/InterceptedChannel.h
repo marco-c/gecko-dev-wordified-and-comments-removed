@@ -251,8 +251,6 @@ override
 NS_IMETHOD
 Cancel
 (
-nsresult
-aStatus
 )
 override
 ;
@@ -370,8 +368,6 @@ override
 NS_IMETHOD
 Cancel
 (
-nsresult
-aStatus
 )
 override
 ;

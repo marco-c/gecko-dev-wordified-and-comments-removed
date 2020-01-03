@@ -278,18 +278,8 @@ InterceptedJARChannel
 :
 Cancel
 (
-nsresult
-aStatus
 )
 {
-MOZ_ASSERT
-(
-NS_FAILED
-(
-aStatus
-)
-)
-;
 if
 (
 !
@@ -308,7 +298,7 @@ mChannel
 >
 Cancel
 (
-aStatus
+NS_BINDING_ABORTED
 )
 ;
 NS_ENSURE_SUCCESS
