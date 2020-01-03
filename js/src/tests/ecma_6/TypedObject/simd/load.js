@@ -482,7 +482,7 @@ ta
 -
 1
 )
-TypeError
+RangeError
 )
 ;
 var
@@ -606,7 +606,7 @@ lastValidArgLoad
 +
 1
 )
-TypeError
+RangeError
 )
 ;
 C
@@ -662,7 +662,7 @@ lastValidArgLoadX
 +
 1
 )
-TypeError
+RangeError
 )
 ;
 C
@@ -718,7 +718,7 @@ lastValidArgLoadXY
 +
 1
 )
-TypeError
+RangeError
 )
 ;
 C
@@ -774,7 +774,7 @@ lastValidArgLoadXYZ
 +
 1
 )
-TypeError
+RangeError
 )
 ;
 }
