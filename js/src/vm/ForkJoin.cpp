@@ -182,6 +182,9 @@ mozilla
 :
 ThreadLocal
 ;
+#
+if
+0
 static
 bool
 ExecuteSequentially
@@ -405,6 +408,8 @@ return
 true
 ;
 }
+#
+endif
 ThreadLocal
 <
 ForkJoinContext
@@ -450,6 +455,9 @@ return
 true
 ;
 }
+#
+if
+0
 namespace
 js
 {
@@ -9608,3 +9616,5 @@ return
 true
 ;
 }
+#
+endif

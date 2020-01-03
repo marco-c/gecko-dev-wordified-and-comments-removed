@@ -8512,9 +8512,6 @@ case
 Bailout_NonSymbolInput
 :
 case
-Bailout_GuardThreadExclusive
-:
-case
 Bailout_InitialState
 :
 case

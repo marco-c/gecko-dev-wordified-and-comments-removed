@@ -681,7 +681,6 @@ enum
 ExecutionMode
 {
 SequentialExecution
-ParallelExecution
 DefinitePropertiesAnalysis
 ArgumentsUsageAnalysis
 }
@@ -707,14 +706,6 @@ SequentialExecution
 return
 "
 SequentialExecution
-"
-;
-case
-ParallelExecution
-:
-return
-"
-ParallelExecution
 "
 ;
 case
@@ -750,7 +741,7 @@ const
 unsigned
 NumExecutionModes
 =
-ParallelExecution
+SequentialExecution
 +
 1
 ;
