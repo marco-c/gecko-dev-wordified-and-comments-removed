@@ -1180,7 +1180,6 @@ zoom
 ref
 .
 html
-random
 =
 =
 animate
@@ -1199,10 +1198,6 @@ degrees
 ref
 .
 html
-#
-Bug
-1157455
-random
 =
 =
 animate
@@ -1225,9 +1220,6 @@ zoom
 ref
 .
 html
-#
-Bug
-1157455
 !
 =
 animate
