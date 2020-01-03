@@ -3444,7 +3444,6 @@ default
 ref
 .
 html
-fails
 =
 =
 image
@@ -3463,10 +3462,6 @@ resize
 ref
 .
 html
-#
-Bug
-1160635
-fails
 =
 =
 image
@@ -3485,6 +3480,3 @@ resize
 ref
 .
 html
-#
-Bug
-1160635
