@@ -5976,6 +5976,8 @@ Firefox
 "
 )
 {
+this
+.
 sendError
 (
 "
