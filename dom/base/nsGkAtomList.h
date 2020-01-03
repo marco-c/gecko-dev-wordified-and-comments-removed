@@ -14928,6 +14928,15 @@ nl
 )
 GK_ATOM
 (
+x_math
+"
+x
+-
+math
+"
+)
+GK_ATOM
+(
 TypingTxnName
 "
 Typing
