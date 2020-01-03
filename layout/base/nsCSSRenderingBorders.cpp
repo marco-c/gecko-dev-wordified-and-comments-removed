@@ -8510,6 +8510,8 @@ path
 color
 )
 ;
+return
+;
 }
 bool
 hasCompositeColors
