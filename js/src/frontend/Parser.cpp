@@ -3015,7 +3015,7 @@ ParseHandler
 :
 newObjectBox
 (
-NativeObject
+JSObject
 *
 obj
 )

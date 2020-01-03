@@ -1302,7 +1302,7 @@ ObjectBox
 *
 newObjectBox
 (
-NativeObject
+JSObject
 *
 obj
 )

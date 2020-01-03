@@ -5249,7 +5249,7 @@ ObjectBox
 :
 ObjectBox
 (
-NativeObject
+JSObject
 *
 object
 ObjectBox
