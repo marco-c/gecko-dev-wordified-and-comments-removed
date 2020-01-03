@@ -4398,9 +4398,17 @@ _key
 >
 data
 )
+{
+oaes_key_destroy
+(
+&
+_key
+)
+;
 return
 OAES_RET_MEM
 ;
+}
 for
 (
 _i
