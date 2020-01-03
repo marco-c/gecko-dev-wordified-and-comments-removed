@@ -461,13 +461,6 @@ h
 #
 include
 "
-nsInterfaceHashtable
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

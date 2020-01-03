@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsInterfaceHashtable
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
