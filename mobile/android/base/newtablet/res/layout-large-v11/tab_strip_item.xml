@@ -151,15 +151,6 @@ match_parent
 "
 android
 :
-background
-=
-"
-drawable
-/
-new_tablet_tab_strip_item_bg
-"
-android
-:
 paddingLeft
 =
 "
