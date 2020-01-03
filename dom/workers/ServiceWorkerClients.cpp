@@ -860,9 +860,12 @@ nullptr
 promise
 -
 >
-MaybeReject
+MaybeResolve
 (
-NS_ERROR_NOT_AVAILABLE
+JS
+:
+:
+UndefinedHandleValue
 )
 ;
 return
