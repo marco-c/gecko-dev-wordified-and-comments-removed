@@ -6482,6 +6482,13 @@ const
 ;
 inline
 bool
+IsTableCaption
+(
+)
+const
+;
+inline
+bool
 IsBlockInside
 (
 )

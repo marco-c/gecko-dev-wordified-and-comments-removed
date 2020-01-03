@@ -13732,13 +13732,6 @@ sliderFrame
 )
 GK_ATOM
 (
-tableCaptionFrame
-"
-TableCaptionFrame
-"
-)
-GK_ATOM
-(
 tableCellFrame
 "
 TableCellFrame
