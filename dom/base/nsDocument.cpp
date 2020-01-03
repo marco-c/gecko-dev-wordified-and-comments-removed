@@ -16153,6 +16153,9 @@ rv
 if
 (
 csp
+&
+&
+aURI
 )
 {
 bool
