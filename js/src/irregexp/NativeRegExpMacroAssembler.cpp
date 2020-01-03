@@ -380,13 +380,14 @@ sp
 ;
 masm
 .
-moveStackPtrTo
+Mov
 (
 masm
 .
-getStackPointer
+GetStackPointer64
 (
 )
+sp
 )
 ;
 #
