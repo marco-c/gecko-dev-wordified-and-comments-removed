@@ -210,6 +210,13 @@ FlameGraphUtils
 createFlameGraphDataFromSamples
 (
 samples
+{
+flattenRecursion
+:
+Prefs
+.
+flattenTreeRecursion
+}
 )
 ;
 this
