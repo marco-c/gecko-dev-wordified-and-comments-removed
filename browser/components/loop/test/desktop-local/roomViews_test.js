@@ -412,7 +412,7 @@ READY
 describe
 (
 "
-DesktopRoomControllerView
+DesktopRoomConversationView
 "
 function
 (
@@ -436,13 +436,12 @@ loop
 .
 roomViews
 .
-DesktopRoomControllerView
+DesktopRoomConversationView
 (
 {
-mozLoop
+dispatcher
 :
-{
-}
+dispatcher
 roomStore
 :
 roomStore
