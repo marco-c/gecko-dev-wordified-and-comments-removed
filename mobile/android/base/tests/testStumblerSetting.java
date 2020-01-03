@@ -137,7 +137,7 @@ blockForGeckoReady
 ;
 selectMenuItem
 (
-mStringHelper
+StringHelper
 .
 SETTINGS_LABEL
 )
@@ -150,7 +150,7 @@ mSolo
 .
 waitForText
 (
-mStringHelper
+StringHelper
 .
 SETTINGS_LABEL
 )
@@ -162,7 +162,7 @@ did
 not
 load
 "
-mStringHelper
+StringHelper
 .
 SETTINGS_LABEL
 )
@@ -174,7 +174,7 @@ section
 ^
 "
 +
-mStringHelper
+StringHelper
 .
 MOZILLA_SECTION_LABEL
 +
@@ -200,7 +200,7 @@ itemTitle
 ^
 "
 +
-mStringHelper
+StringHelper
 .
 LOCATION_SERVICES_LABEL
 +

@@ -59,7 +59,7 @@ url
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -102,7 +102,7 @@ url
 ;
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )

@@ -54,7 +54,7 @@ blockForReady
 String
 url
 =
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 ;
@@ -74,7 +74,7 @@ url
 ;
 url
 =
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 ;
@@ -94,7 +94,7 @@ url
 ;
 url
 =
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
 ;
@@ -122,7 +122,7 @@ mToolbar
 .
 assertTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -137,7 +137,7 @@ mToolbar
 .
 assertTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -152,7 +152,7 @@ mToolbar
 .
 assertTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -167,7 +167,7 @@ mToolbar
 .
 assertTitle
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )

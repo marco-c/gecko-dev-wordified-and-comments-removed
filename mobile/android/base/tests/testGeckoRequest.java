@@ -243,7 +243,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 getHarnessUrlForJavascript
 (

@@ -154,7 +154,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 ABOUT_HOME_URL
 )
@@ -176,7 +176,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 ABOUT_FIREFOX_URL
 )
@@ -198,7 +198,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 ABOUT_HOME_URL
 )
@@ -248,7 +248,7 @@ NavigationHelper
 .
 enterAndLoadUrl
 (
-mStringHelper
+StringHelper
 .
 ABOUT_HOME_URL
 )

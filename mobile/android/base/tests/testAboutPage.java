@@ -69,7 +69,7 @@ blockForGeckoReady
 String
 url
 =
-mStringHelper
+StringHelper
 .
 ABOUT_SCHEME
 ;
@@ -87,7 +87,7 @@ url
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -134,10 +134,10 @@ DOMContentLoaded
 ;
 selectSettingsItem
 (
-mStringHelper
+StringHelper
 .
 MOZILLA_SECTION_LABEL
-mStringHelper
+StringHelper
 .
 ABOUT_LABEL
 )
@@ -168,7 +168,7 @@ unregisterListener
 ;
 verifyUrlBarTitle
 (
-mStringHelper
+StringHelper
 .
 ABOUT_SCHEME
 )

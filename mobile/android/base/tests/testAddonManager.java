@@ -56,7 +56,7 @@ final
 String
 aboutAddonsURL
 =
-mStringHelper
+StringHelper
 .
 ABOUT_ADDONS_URL
 ;
@@ -66,7 +66,7 @@ blockForGeckoReady
 ;
 selectMenuItem
 (
-mStringHelper
+StringHelper
 .
 ADDONS_LABEL
 )
@@ -175,7 +175,7 @@ blankURL
 =
 getAbsoluteUrl
 (
-mStringHelper
+StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -221,7 +221,7 @@ blankURL
 ;
 selectMenuItem
 (
-mStringHelper
+StringHelper
 .
 ADDONS_LABEL
 )
