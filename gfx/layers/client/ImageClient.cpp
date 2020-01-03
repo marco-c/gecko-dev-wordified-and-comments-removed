@@ -1400,6 +1400,10 @@ CompositableClient
 aFwd
 aFlags
 )
+mLayer
+(
+nullptr
+)
 mType
 (
 aType
@@ -1476,10 +1480,6 @@ IMAGE_BRIDGE
 mAsyncContainerID
 (
 0
-)
-mLayer
-(
-nullptr
 )
 {
 }
