@@ -6824,7 +6824,6 @@ contact
 }
 }
 let
-(
 getAllStore
 =
 txn
@@ -6833,8 +6832,7 @@ objectStore
 (
 SAVED_GETALL_STORE_NAME
 )
-)
-{
+;
 getAllStore
 .
 clear
@@ -6845,7 +6843,6 @@ onerror
 =
 errorCb
 ;
-}
 }
 .
 bind
