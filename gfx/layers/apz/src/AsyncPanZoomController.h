@@ -388,6 +388,12 @@ GetTransformToLastDispatchedPaint
 )
 const
 ;
+bool
+IsCurrentlyCheckerboarding
+(
+)
+const
+;
 static
 const
 LayerMargin
@@ -1521,7 +1527,7 @@ bool
 OverscrollBy
 (
 const
-ScreenPoint
+CSSPoint
 &
 aOverscroll
 )
