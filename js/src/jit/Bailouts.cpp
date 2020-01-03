@@ -248,7 +248,10 @@ runtime
 TraceLogTimestamp
 (
 logger
-TraceLogger_Bailout
+TraceLogger
+:
+:
+Bailout
 )
 ;
 JitSpew
@@ -542,7 +545,10 @@ runtime
 TraceLogTimestamp
 (
 logger
-TraceLogger_Invalidation
+TraceLogger
+:
+:
+Invalidation
 )
 ;
 JitSpew
