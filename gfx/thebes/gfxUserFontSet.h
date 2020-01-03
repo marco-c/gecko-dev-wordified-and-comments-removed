@@ -546,6 +546,7 @@ FLAG_FORMAT_NOT_USED
 )
 }
 ;
+virtual
 already_AddRefed
 <
 gfxUserFontEntry
@@ -578,6 +579,8 @@ gfxSparseBitSet
 *
 aUnicodeRanges
 )
+=
+0
 ;
 already_AddRefed
 <
