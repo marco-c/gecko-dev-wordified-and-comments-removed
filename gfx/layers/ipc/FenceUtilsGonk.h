@@ -53,7 +53,6 @@ FenceHandle
 )
 {
 }
-explicit
 FenceHandle
 (
 const
@@ -68,7 +67,6 @@ Fence
 aFence
 )
 ;
-explicit
 FenceHandle
 (
 const
@@ -128,15 +126,6 @@ isValid
 )
 ;
 }
-void
-Merge
-(
-const
-FenceHandle
-&
-aFenceHandle
-)
-;
 android
 :
 :
@@ -163,7 +152,6 @@ FenceHandleFromChild
 )
 {
 }
-explicit
 FenceHandleFromChild
 (
 const
@@ -178,7 +166,6 @@ Fence
 aFence
 )
 ;
-explicit
 FenceHandleFromChild
 (
 const

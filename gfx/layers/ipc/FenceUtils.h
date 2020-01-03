@@ -87,16 +87,6 @@ return
 false
 ;
 }
-void
-Merge
-(
-const
-FenceHandle
-&
-aFenceHandle
-)
-{
-}
 }
 ;
 struct
