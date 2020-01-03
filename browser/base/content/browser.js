@@ -36011,6 +36011,8 @@ crashes
 |
 customizing
 |
+downloads
+|
 healthreport
 |
 home
