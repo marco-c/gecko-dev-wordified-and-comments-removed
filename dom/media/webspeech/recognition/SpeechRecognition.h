@@ -285,7 +285,7 @@ SpeechRecognition
 {
 public
 :
-MOZ_DECLARE_REFCOUNTED_TYPENAME
+MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 SpeechRecognition
 )
