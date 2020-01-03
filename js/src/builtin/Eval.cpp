@@ -1933,6 +1933,13 @@ compiled
 )
 ;
 }
+Value
+newTargetVal
+=
+NullValue
+(
+)
+;
 return
 ExecuteKernel
 (
@@ -1945,6 +1952,7 @@ script
 *
 scopeobj
 thisv
+newTargetVal
 ExecuteType
 (
 evalType
@@ -1979,6 +1987,8 @@ HandleScript
 callerScript
 HandleValue
 thisValue
+HandleValue
+newTargetValue
 HandleString
 str
 jsbytecode
@@ -2532,6 +2542,7 @@ script
 *
 scopeobj
 nthisValue
+newTargetValue
 ExecuteType
 (
 DIRECT_EVAL
@@ -2991,6 +3002,9 @@ script
 *
 scope
 thisv
+UndefinedValue
+(
+)
 EXECUTE_GLOBAL
 NullFramePtr
 (
