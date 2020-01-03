@@ -2564,9 +2564,6 @@ groupbox
 groupbox
 >
 <
-vbox
->
-<
 caption
 >
 <
@@ -2621,11 +2618,6 @@ id
 =
 "
 fxaSyncComputerName
-"
-class
-=
-"
-plain
 "
 disabled
 =
@@ -2717,10 +2709,6 @@ hbox
 <
 /
 hbox
->
-<
-/
-vbox
 >
 <
 /
