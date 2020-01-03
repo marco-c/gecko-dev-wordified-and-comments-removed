@@ -8872,6 +8872,7 @@ if
 importBookmarks
 )
 {
+yield
 this
 .
 _distributionCustomizer
@@ -9050,6 +9051,7 @@ e
 }
 try
 {
+yield
 this
 .
 _distributionCustomizer
