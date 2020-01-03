@@ -3316,6 +3316,11 @@ values
 if
 (
 links
+&
+&
+links
+.
+sortedLinks
 )
 {
 linkLists

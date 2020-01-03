@@ -30,6 +30,11 @@ PREF_NEWTAB_COLUMNS
 )
 ;
 yield
+addNewTabPageTab
+(
+)
+;
+yield
 setLinks
 (
 "
