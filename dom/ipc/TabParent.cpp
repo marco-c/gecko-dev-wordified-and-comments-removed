@@ -7333,6 +7333,11 @@ uint32_t
 aSeqno
 )
 {
+*
+aSeqno
+=
+mIMESeqno
+;
 nsCOMPtr
 <
 nsIWidget
@@ -7360,11 +7365,6 @@ return
 true
 ;
 }
-*
-aSeqno
-=
-mIMESeqno
-;
 mIMETabParent
 =
 aFocus
