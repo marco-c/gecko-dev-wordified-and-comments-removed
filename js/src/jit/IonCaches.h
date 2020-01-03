@@ -440,10 +440,12 @@ rejoinLabel_
 )
 {
 }
-virtual
 void
 disable
 (
+IonScript
+*
+ion
 )
 ;
 inline

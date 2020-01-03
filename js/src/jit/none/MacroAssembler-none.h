@@ -5613,6 +5613,10 @@ PatchJump
 CodeLocationJump
 &
 CodeLocationLabel
+ReprotectCode
+reprotect
+=
+DontReprotect
 )
 {
 MOZ_CRASH

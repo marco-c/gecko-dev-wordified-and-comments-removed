@@ -13544,7 +13544,15 @@ runtime
 canUseSignalHandlers
 (
 )
+&
+&
+!
+ExecutableAllocator
+:
+:
+nonWritableJitCode
 )
+{
 lir
 =
 new
@@ -13557,7 +13565,9 @@ LInterruptCheckImplicit
 (
 )
 ;
+}
 else
+{
 lir
 =
 new
@@ -13570,6 +13580,7 @@ LInterruptCheck
 (
 )
 ;
+}
 add
 (
 lir

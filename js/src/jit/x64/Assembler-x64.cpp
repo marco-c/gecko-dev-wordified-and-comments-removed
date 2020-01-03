@@ -816,6 +816,8 @@ entry
 uint8_t
 *
 target
+ReprotectCode
+reprotect
 )
 {
 uint8_t
@@ -838,6 +840,18 @@ sizeof
 void
 *
 )
+)
+;
+MaybeAutoWritableJitCode
+awjc
+(
+index
+sizeof
+(
+void
+*
+)
+reprotect
 )
 ;
 *
