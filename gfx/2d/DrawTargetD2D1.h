@@ -651,6 +651,16 @@ SurfaceFormat
 aFormat
 )
 ;
+bool
+Init
+(
+ID3D11Texture2D
+*
+aTexture
+SurfaceFormat
+aFormat
+)
+;
 uint32_t
 GetByteSize
 (
