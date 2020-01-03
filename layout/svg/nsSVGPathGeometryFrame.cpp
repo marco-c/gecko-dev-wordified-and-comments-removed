@@ -2150,15 +2150,6 @@ Height
 0
 )
 {
-nsSVGUtils
-:
-:
-SetupCairoStrokeBBoxGeometry
-(
-this
-tmpCtx
-)
-;
 pathExtents
 .
 MoveTo
