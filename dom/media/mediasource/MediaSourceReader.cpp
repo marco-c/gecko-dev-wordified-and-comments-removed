@@ -1346,7 +1346,7 @@ AdjustEndTime
 (
 &
 mLastVideoTime
-mAudioReader
+mVideoReader
 )
 ;
 }
