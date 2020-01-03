@@ -1417,6 +1417,13 @@ aFrame
 nsFloatManager
 &
 aFloatManager
+mozilla
+:
+:
+WritingMode
+aWM
+nscoord
+aContainerWidth
 )
 ;
 bool
@@ -1604,6 +1611,13 @@ RecoverFloats
 nsFloatManager
 &
 aFloatManager
+mozilla
+:
+:
+WritingMode
+aWM
+nscoord
+aContainerWidth
 )
 ;
 void
