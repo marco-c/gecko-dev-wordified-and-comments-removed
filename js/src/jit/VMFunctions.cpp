@@ -3993,6 +3993,10 @@ Baseline
 TraceLogStopEvent
 (
 logger
+TraceLogger
+:
+:
+Scripts
 )
 ;
 return
