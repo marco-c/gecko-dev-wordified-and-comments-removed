@@ -2726,6 +2726,12 @@ JSOP_SETNAME
 op
 =
 =
+JSOP_STRICTSETNAME
+|
+|
+op
+=
+=
 JSOP_SETGNAME
 )
 ?

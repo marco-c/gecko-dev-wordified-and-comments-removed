@@ -2971,6 +2971,12 @@ op
 =
 =
 JSOP_STRICTSETPROP
+|
+|
+op
+=
+=
+JSOP_STRICTSETNAME
 ;
 }
 inline
@@ -3008,6 +3014,12 @@ op
 =
 =
 JSOP_SETNAME
+|
+|
+op
+=
+=
+JSOP_STRICTSETNAME
 |
 |
 op

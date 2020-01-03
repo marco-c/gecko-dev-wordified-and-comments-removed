@@ -1549,6 +1549,13 @@ JSOP_SETNAME
 pc
 =
 =
+JSOP_STRICTSETNAME
+|
+|
+*
+pc
+=
+=
 JSOP_SETGNAME
 )
 ;
@@ -1573,6 +1580,13 @@ global
 bool
 strict
 =
+*
+pc
+=
+=
+JSOP_STRICTSETNAME
+|
+|
 script
 -
 >
