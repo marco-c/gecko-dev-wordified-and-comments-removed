@@ -469,11 +469,6 @@ CreateExtractor
 (
 )
 ;
-void
-UpdateIsWaitingMediaResources
-(
-)
-;
 android
 :
 :
@@ -485,9 +480,6 @@ android
 MediaExtractor
 >
 mExtractor
-;
-bool
-mIsWaitingResources
 ;
 private
 :
