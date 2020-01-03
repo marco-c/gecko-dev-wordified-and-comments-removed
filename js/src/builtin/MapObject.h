@@ -532,6 +532,13 @@ methods
 [
 ]
 ;
+static
+const
+JSPropertySpec
+staticProperties
+[
+]
+;
 ValueMap
 *
 getData
@@ -949,6 +956,13 @@ static
 const
 JSFunctionSpec
 methods
+[
+]
+;
+static
+const
+JSPropertySpec
+staticProperties
 [
 ]
 ;

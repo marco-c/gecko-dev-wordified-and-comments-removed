@@ -134,3 +134,12 @@ M
 ;
 }
 }
+function
+MapSpecies
+(
+)
+{
+return
+this
+;
+}

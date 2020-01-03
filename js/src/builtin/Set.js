@@ -128,3 +128,12 @@ S
 ;
 }
 }
+function
+SetSpecies
+(
+)
+{
+return
+this
+;
+}
