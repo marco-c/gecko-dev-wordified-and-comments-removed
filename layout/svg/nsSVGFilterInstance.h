@@ -394,6 +394,7 @@ ComputeBounds
 ;
 const
 nsStyleFilter
+&
 mFilter
 ;
 nsIFrame
