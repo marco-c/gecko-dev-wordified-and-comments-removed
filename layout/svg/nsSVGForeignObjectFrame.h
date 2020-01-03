@@ -283,12 +283,13 @@ nsRenderingContext
 *
 aContext
 const
+gfxMatrix
+&
+aTransform
+const
 nsIntRect
 *
 aDirtyRect
-nsIFrame
-*
-aTransformRoot
 =
 nullptr
 )

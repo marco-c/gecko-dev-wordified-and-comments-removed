@@ -29,12 +29,13 @@ nsIFrame
 *
 aTarget
 const
+gfxMatrix
+&
+aTransform
+const
 nsIntRect
 *
 aDirtyRect
-nsIFrame
-*
-aTransformRoot
 )
 =
 0
