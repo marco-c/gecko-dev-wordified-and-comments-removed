@@ -4459,17 +4459,6 @@ java
 '
 com
 /
-readystatesoftware
-/
-systembartint
-/
-SystemBarTintManager
-.
-java
-'
-'
-com
-/
 squareup
 /
 picasso
