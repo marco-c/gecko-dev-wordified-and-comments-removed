@@ -255,6 +255,8 @@ style
 /
 ShareOverlayTextAppearance
 .
+Header
+.
 Title
 "
 android
@@ -318,6 +320,8 @@ textAppearance
 style
 /
 ShareOverlayTextAppearance
+.
+Header
 .
 Subtitle
 "
