@@ -6918,10 +6918,8 @@ aBounds
 if
 (
 mWindow
-)
-{
-if
-(
+&
+&
 !
 mAttachedToParent
 )
@@ -6946,7 +6944,6 @@ height
 false
 )
 ;
-}
 }
 else
 if
