@@ -311,11 +311,6 @@ RecentWindow
 jsm
 '
 '
-UITour
-.
-jsm
-'
-'
 webrtcUI
 .
 jsm
