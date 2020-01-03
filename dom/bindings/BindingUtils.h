@@ -12143,7 +12143,6 @@ aCx
 aHandler
 proxyPrivateVal
 aProto
-nullptr
 options
 )
 )
