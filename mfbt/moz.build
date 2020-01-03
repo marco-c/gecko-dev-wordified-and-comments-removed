@@ -265,6 +265,11 @@ IntegerTypeTraits
 h
 '
 '
+JSONWriter
+.
+h
+'
+'
 Likely
 .
 h
@@ -599,6 +604,11 @@ cpp
 '
 '
 HashFunctions
+.
+cpp
+'
+'
+JSONWriter
 .
 cpp
 '
