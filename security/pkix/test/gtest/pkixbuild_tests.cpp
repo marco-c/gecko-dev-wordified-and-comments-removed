@@ -207,7 +207,10 @@ oneDayAfterNow
 subjectDER
 extensions
 issuerKey
-sha256WithRSAEncryption
+SignatureAlgorithm
+:
+:
+rsa_pkcs1_with_sha256
 subjectKey
 )
 )
@@ -1650,7 +1653,10 @@ rootKey
 get
 (
 )
-sha256WithRSAEncryption
+SignatureAlgorithm
+:
+:
+rsa_pkcs1_with_sha256
 unusedSubjectKey
 )
 )
