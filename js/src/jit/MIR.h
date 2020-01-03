@@ -43380,6 +43380,7 @@ info_
 ;
 protected
 :
+explicit
 MGetDOMProperty
 (
 const
@@ -43902,6 +43903,7 @@ MGetDOMMember
 public
 MGetDOMProperty
 {
+explicit
 MGetDOMMember
 (
 const

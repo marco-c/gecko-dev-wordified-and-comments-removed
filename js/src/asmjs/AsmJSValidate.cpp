@@ -32566,6 +32566,7 @@ formalType_
 ;
 public
 :
+explicit
 CheckSimdScalarArgs
 (
 AsmJSSimdType

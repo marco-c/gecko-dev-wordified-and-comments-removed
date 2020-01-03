@@ -16396,6 +16396,7 @@ LIR_HEADER
 (
 TypedObjectDescr
 )
+explicit
 LTypedObjectDescr
 (
 const

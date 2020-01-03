@@ -3682,6 +3682,7 @@ map
 ;
 public
 :
+explicit
 LazyArrayBufferTable
 (
 JSContext
