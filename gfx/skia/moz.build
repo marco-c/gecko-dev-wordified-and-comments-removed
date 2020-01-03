@@ -9463,17 +9463,6 @@ SkXfermode_opts_none
 .
 cpp
 '
-'
-trunk
-/
-src
-/
-ports
-/
-SkDiscardableMemory_none
-.
-cpp
-'
 ]
 #
 can
