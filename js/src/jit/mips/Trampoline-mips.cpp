@@ -6279,9 +6279,9 @@ masm
 .
 ma_addu
 (
+scratch2
 StackPointer
 scratch1
-scratch2
 )
 ;
 masm
@@ -6434,9 +6434,9 @@ masm
 .
 ma_addu
 (
+scratch1
 scratch2
 scratch3
-scratch1
 )
 ;
 masm
