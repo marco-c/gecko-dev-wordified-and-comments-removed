@@ -6177,6 +6177,9 @@ break
 ;
 }
 case
+JSTRY_FOR_OF
+:
+case
 JSTRY_LOOP
 :
 break
