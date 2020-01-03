@@ -137,13 +137,6 @@ kPersistentPropertiesCID
 NS_IPERSISTENTPROPERTIES_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kIOServiceCID
-NS_IOSERVICE_CID
-)
-;
 int
 main
 (
