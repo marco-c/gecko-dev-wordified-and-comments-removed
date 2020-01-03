@@ -1700,6 +1700,11 @@ Notification
 webidl
 '
 '
+NotificationEvent
+.
+webidl
+'
+'
 NotifyPaintEvent
 .
 webidl

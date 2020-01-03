@@ -6712,6 +6712,7 @@ change
 click
 dblclick
 mouseup
+notificationclick
 reset
 submit
 touchend
