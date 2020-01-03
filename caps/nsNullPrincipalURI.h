@@ -94,7 +94,6 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 size_t
@@ -107,7 +106,6 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
-MOZ_OVERRIDE
 ;
 explicit
 nsNullPrincipalURI

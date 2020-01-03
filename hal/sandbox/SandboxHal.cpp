@@ -2190,7 +2190,6 @@ NetworkInformation
 &
 aNetworkInfo
 )
-MOZ_OVERRIDE
 {
 unused
 <
@@ -2319,7 +2318,6 @@ ScreenConfiguration
 &
 aScreenConfiguration
 )
-MOZ_OVERRIDE
 {
 unused
 <
@@ -2936,7 +2934,6 @@ SensorData
 &
 aSensorData
 )
-MOZ_OVERRIDE
 {
 unused
 <
@@ -3066,7 +3063,6 @@ WakeLockInformation
 &
 aWakeLockInfo
 )
-MOZ_OVERRIDE
 {
 unused
 <
@@ -3133,7 +3129,6 @@ SwitchEvent
 &
 aSwitchEvent
 )
-MOZ_OVERRIDE
 {
 unused
 <
@@ -3184,7 +3179,6 @@ int64_t
 &
 aClockDeltaMS
 )
-MOZ_OVERRIDE
 {
 unused
 <
@@ -3203,7 +3197,6 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
-MOZ_OVERRIDE
 {
 unused
 <
@@ -3576,7 +3569,6 @@ int64_t
 &
 aClockDeltaMS
 )
-MOZ_OVERRIDE
 {
 hal
 :
@@ -3599,7 +3591,6 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
-MOZ_OVERRIDE
 {
 hal
 :
