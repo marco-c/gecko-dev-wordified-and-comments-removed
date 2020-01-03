@@ -2415,7 +2415,7 @@ aWindowID
 )
 ;
 bool
-IsWindowActivelyCapturing
+IsActivelyCapturingOrHasAPermission
 (
 uint64_t
 aWindowId
