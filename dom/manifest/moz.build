@@ -113,9 +113,9 @@ ManifestProcessor
 jsm
 '
 '
-manifestValueExtractor
+ManifestValueExtractor
 .
-js
+jsm
 '
 ]
 MOCHITEST_MANIFESTS
