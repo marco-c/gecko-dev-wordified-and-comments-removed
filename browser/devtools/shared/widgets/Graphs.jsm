@@ -1341,6 +1341,17 @@ this
 _height
 ;
 }
+get
+isMouseActive
+(
+)
+{
+return
+this
+.
+_isMouseActive
+;
+}
 ready
 :
 function

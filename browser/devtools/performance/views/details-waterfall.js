@@ -32,7 +32,7 @@ markers
 ]
 rangeChangeDebounceTime
 :
-10
+75
 initialize
 :
 function
