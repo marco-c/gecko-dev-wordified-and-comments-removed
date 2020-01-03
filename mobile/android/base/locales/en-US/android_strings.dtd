@@ -1861,12 +1861,11 @@ data
 <
 !
 ENTITY
-pref_clear_on_exit_title
+pref_clear_on_exit_title2
 "
-Always
-clear
-when
-quitting
+Clear
+on
+exit
 "
 >
 <
