@@ -1309,7 +1309,7 @@ masm
 .
 call
 (
-Operand
+Address
 (
 ebp
 ARG_JITCODE
