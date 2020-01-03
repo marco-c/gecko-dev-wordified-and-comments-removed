@@ -1631,7 +1631,7 @@ aReflowState
 )
 ;
 void
-SyncAnnotationContainersBounds
+SyncAnnotationBounds
 (
 PerFrameData
 *
