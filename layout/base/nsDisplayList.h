@@ -7697,6 +7697,15 @@ nsIFrame
 aFrame
 )
 ;
+void
+AddInactiveScrollPort
+(
+const
+nsRect
+&
+aRect
+)
+;
 const
 nsRegion
 &
