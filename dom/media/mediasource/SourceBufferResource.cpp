@@ -229,8 +229,7 @@ ReadInternal
 aBuffer
 aCount
 aBytes
-!
-aBytes
+true
 )
 ;
 }
@@ -514,8 +513,7 @@ aOffset
 aBuffer
 aCount
 aBytes
-!
-aBytes
+true
 )
 ;
 }
