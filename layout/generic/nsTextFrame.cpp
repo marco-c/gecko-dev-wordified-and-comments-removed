@@ -2670,6 +2670,9 @@ nsTextFragment
 aFrag
 uint32_t
 aPos
+nsIFrame
+*
+aFrame
 const
 nsStyleText
 *
@@ -2762,6 +2765,7 @@ aStyleText
 >
 NewlineIsSignificant
 (
+aFrame
 )
 ;
 default
@@ -2995,7 +2999,7 @@ return
 aStyleText
 -
 >
-NewlineIsSignificant
+NewlineIsSignificantStyle
 (
 )
 &
@@ -7679,6 +7683,7 @@ textStyle1
 >
 NewlineIsSignificant
 (
+aFrame1
 )
 &
 &
@@ -15992,6 +15997,7 @@ run
 GetOriginalOffset
 (
 )
+mFrame
 mTextStyle
 )
 )
@@ -34466,6 +34472,7 @@ StyleText
 >
 NewlineIsSignificant
 (
+this
 )
 &
 &
@@ -36588,6 +36595,7 @@ textStyle
 >
 NewlineIsSignificant
 (
+this
 )
 ;
 bool
@@ -37448,6 +37456,7 @@ textStyle
 >
 NewlineIsSignificant
 (
+this
 )
 ;
 bool
@@ -39891,6 +39900,7 @@ textStyle
 >
 NewlineIsSignificant
 (
+this
 )
 )
 {
@@ -42107,6 +42117,7 @@ textStyle
 >
 NewlineIsSignificant
 (
+this
 )
 &
 &
@@ -42916,6 +42927,9 @@ static
 char16_t
 TransformChar
 (
+nsTextFrame
+*
+aFrame
 const
 nsStyleText
 *
@@ -42946,6 +42960,7 @@ aStyle
 >
 NewlineIsSignificant
 (
+aFrame
 )
 ?
 aChar
@@ -43283,6 +43298,7 @@ Append
 (
 TransformChar
 (
+textFrame
 textStyle
 textFrame
 -
@@ -44117,6 +44133,7 @@ StyleText
 >
 NewlineIsSignificant
 (
+this
 )
 ;
 }

@@ -105,6 +105,13 @@ h
 "
 #
 include
+"
+nsStyleStructInlines
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -4729,6 +4736,7 @@ StyleText
 >
 NewlineIsSignificant
 (
+frame
 )
 )
 {

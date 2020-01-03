@@ -6350,7 +6350,7 @@ NS_STYLE_WHITESPACE_PRE_SPACE
 ;
 }
 bool
-NewlineIsSignificant
+NewlineIsSignificantStyle
 (
 )
 const
@@ -6479,6 +6479,17 @@ nsCSSShadowArray
 *
 GetTextShadow
 (
+)
+const
+;
+inline
+bool
+NewlineIsSignificant
+(
+const
+nsIFrame
+*
+aContextFrame
 )
 const
 ;
