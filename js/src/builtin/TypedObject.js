@@ -3691,9 +3691,9 @@ elementType
 }
 else
 {
-ThrowError
+ThrowTypeError
 (
-JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 }
@@ -4256,9 +4256,9 @@ iterationSpace
 i
 ]
 )
-ThrowError
+ThrowTypeError
 (
-JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 var
@@ -4717,9 +4717,9 @@ length
 <
 1
 )
-ThrowError
+ThrowTypeError
 (
-JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_BAD_ARGS
 )
 ;
 if
