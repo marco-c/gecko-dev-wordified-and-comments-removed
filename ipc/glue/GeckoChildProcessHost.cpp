@@ -502,7 +502,10 @@ exePath
 =
 FilePath
 (
+char16ptr_t
+(
 gGREPath
+)
 )
 ;
 #
@@ -3542,6 +3545,9 @@ break
 case
 GeckoProcessType_GMPlugin
 :
+#
+ifdef
+MOZ_SANDBOX
 if
 (
 !
@@ -3577,6 +3583,8 @@ shouldSandboxCurrentProcess
 true
 ;
 }
+#
+endif
 break
 ;
 case
@@ -3665,6 +3673,12 @@ if
 defined
 (
 XP_WIN
+)
+&
+&
+defined
+(
+MOZ_SANDBOX
 )
 if
 (

@@ -93,14 +93,7 @@ if
 CONFIG
 [
 '
-MOZ_CONTENT_SANDBOX
-'
-]
-or
-CONFIG
-[
-'
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 '
 ]
 :
