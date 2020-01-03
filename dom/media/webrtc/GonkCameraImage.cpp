@@ -79,7 +79,7 @@ nsresult
 GonkCameraImage
 :
 :
-GetBuffer
+GetMediaBuffer
 (
 android
 :
@@ -157,7 +157,7 @@ nsresult
 GonkCameraImage
 :
 :
-SetBuffer
+SetMediaBuffer
 (
 android
 :
@@ -204,7 +204,7 @@ nsresult
 GonkCameraImage
 :
 :
-ClearBuffer
+ClearMediaBuffer
 (
 )
 {
