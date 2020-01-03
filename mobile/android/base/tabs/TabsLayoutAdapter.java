@@ -97,6 +97,11 @@ Context
 mContext
 ;
 private
+final
+int
+mTabLayoutId
+;
+private
 ArrayList
 <
 Tab
@@ -113,6 +118,8 @@ TabsLayoutAdapter
 (
 Context
 context
+int
+tabLayoutId
 )
 {
 mContext
@@ -127,6 +134,10 @@ from
 (
 mContext
 )
+;
+mTabLayoutId
+=
+tabLayoutId
 ;
 }
 final
@@ -368,11 +379,7 @@ mInflater
 .
 inflate
 (
-R
-.
-layout
-.
-tabs_layout_item_view
+mTabLayoutId
 parent
 false
 )

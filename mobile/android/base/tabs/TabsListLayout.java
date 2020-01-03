@@ -470,6 +470,11 @@ context
 super
 (
 context
+R
+.
+layout
+.
+tabs_layout_item_view
 )
 ;
 mCloseOnClickListener
