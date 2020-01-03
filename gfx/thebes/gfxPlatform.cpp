@@ -711,6 +711,11 @@ mozilla
 :
 gfx
 ;
+void
+InitLayersAccelerationPrefs
+(
+)
+;
 class
 SRGBOverrideObserver
 final
@@ -2392,6 +2397,10 @@ StaticInit
 ;
 #
 endif
+InitLayersAccelerationPrefs
+(
+)
+;
 InitLayersIPC
 (
 )
