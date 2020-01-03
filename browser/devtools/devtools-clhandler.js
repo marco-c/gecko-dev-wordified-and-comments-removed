@@ -29,15 +29,6 @@ enabled
 "
 devtools
 .
-debugger
-.
-chrome
--
-enabled
-"
-"
-devtools
-.
 chrome
 .
 enabled
