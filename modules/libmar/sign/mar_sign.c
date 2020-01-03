@@ -2373,6 +2373,11 @@ i
 +
 )
 {
+free
+(
+extractedSignature
+)
+;
 if
 (
 fseeko
