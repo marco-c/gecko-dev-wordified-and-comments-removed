@@ -208,8 +208,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
-MediaDecoderEventVisibility
-aEventVisibility
+bool
+aRestoredFromDormant
 )
 {
 MOZ_ASSERT
@@ -225,7 +225,7 @@ MediaDecoder
 FirstFrameLoaded
 (
 aInfo
-aEventVisibility
+aRestoredFromDormant
 )
 ;
 ReentrantMonitorAutoEnter
@@ -760,8 +760,6 @@ MediaOmxCommonDecoder
 :
 PlaybackPositionChanged
 (
-MediaDecoderEventVisibility
-aEventVisibility
 )
 {
 MOZ_ASSERT
@@ -826,17 +824,6 @@ GetMediaTimeSecs
 if
 (
 mOwner
-&
-&
-(
-aEventVisibility
-!
-=
-MediaDecoderEventVisibility
-:
-:
-Suppressed
-)
 &
 &
 lastTime

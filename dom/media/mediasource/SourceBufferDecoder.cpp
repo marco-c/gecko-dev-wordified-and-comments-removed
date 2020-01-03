@@ -340,8 +340,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
-MediaDecoderEventVisibility
-aEventVisibility
+bool
+aRestoredFromDormant
 )
 {
 MSE_DEBUG
@@ -363,8 +363,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
-MediaDecoderEventVisibility
-aEventVisibility
+bool
+aRestoredFromDormant
 )
 {
 MSE_DEBUG
