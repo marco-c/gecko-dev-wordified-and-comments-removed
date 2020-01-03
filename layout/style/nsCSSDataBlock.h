@@ -630,6 +630,13 @@ nsCSSCompressedDataBlock
 *
 *
 aImportantBlock
+const
+nsTArray
+<
+uint32_t
+>
+&
+aOrder
 )
 ;
 void
