@@ -781,6 +781,11 @@ CleanUp
 (
 )
 ;
+NPError
+NP_Shutdown
+(
+)
+;
 const
 char
 *
@@ -1264,6 +1269,9 @@ mQuirks
 ;
 bool
 mIsChrome
+;
+bool
+mHasShutdown
 ;
 Transport
 *

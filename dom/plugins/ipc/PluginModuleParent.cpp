@@ -10492,6 +10492,9 @@ if
 IsChrome
 (
 )
+&
+&
+mHadLocalInstance
 )
 {
 ok
