@@ -7328,6 +7328,8 @@ value
 to
 itself
 for
+"
+"
 NaN
 checking
 can
@@ -8684,6 +8686,8 @@ memmovable
 because
 of
 the
+"
+"
 MOZ_NON_MEMMOVABLE
 annotation
 on
