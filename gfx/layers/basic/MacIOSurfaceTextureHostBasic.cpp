@@ -10,17 +10,6 @@ include
 "
 mozilla
 /
-layers
-/
-BasicCompositor
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 MacIOSurface

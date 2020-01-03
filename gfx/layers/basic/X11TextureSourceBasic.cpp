@@ -8,17 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-BasicCompositor
-.
-h
-"
-#
-include
-"
 gfxXlibSurface
 .
 h

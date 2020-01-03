@@ -193,6 +193,10 @@ BasicCompositor
 >
 (
 mCompositor
+.
+get
+(
+)
 )
 mSurface
 )
@@ -220,6 +224,10 @@ CompositorOGL
 >
 (
 mCompositor
+.
+get
+(
+)
 )
 mSurface
 )

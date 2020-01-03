@@ -157,8 +157,10 @@ X11TextureHost
 endif
 protected
 :
+RefPtr
+<
 Compositor
-*
+>
 mCompositor
 ;
 RefPtr

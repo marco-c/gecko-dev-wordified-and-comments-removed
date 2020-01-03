@@ -55,17 +55,6 @@ mozilla
 /
 layers
 /
-CompositorOGL
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 SharedBufferManagerParent
 .
 h

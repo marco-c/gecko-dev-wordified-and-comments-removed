@@ -11,17 +11,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-CompositorOGL
-.
-h
-"
-#
-include
-"
 gfxXlibSurface
 .
 h

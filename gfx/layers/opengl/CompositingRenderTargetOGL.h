@@ -589,8 +589,10 @@ InitializeImpl
 InitParams
 mInitParams
 ;
+RefPtr
+<
 CompositorOGL
-*
+>
 mCompositor
 ;
 GLContext
