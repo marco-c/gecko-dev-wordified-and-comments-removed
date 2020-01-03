@@ -1087,6 +1087,12 @@ ConfigureAPZCTreeManager
 )
 override
 ;
+void
+ConfigureAPZControllerThread
+(
+)
+override
+;
 already_AddRefed
 <
 GeckoContentController

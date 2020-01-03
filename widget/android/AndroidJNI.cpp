@@ -4125,6 +4125,7 @@ MakeApzInputEvent
 input
 guid
 blockId
+status
 )
 )
 ;
