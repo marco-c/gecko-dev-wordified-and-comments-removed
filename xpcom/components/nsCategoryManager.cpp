@@ -1618,7 +1618,7 @@ InitMemoryReporter
 (
 )
 {
-RegisterWeakMemoryReporter
+RegisterStrongMemoryReporter
 (
 this
 )
@@ -1632,11 +1632,6 @@ nsCategoryManager
 (
 )
 {
-UnregisterWeakMemoryReporter
-(
-this
-)
-;
 mTable
 .
 Clear
