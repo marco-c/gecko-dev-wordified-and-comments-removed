@@ -5352,7 +5352,6 @@ SetComputedWidth
 computedWidth
 )
 ;
-return
 nsBlockFrame
 :
 :
@@ -5363,6 +5362,10 @@ aDesiredSize
 state
 aStatus
 )
+;
+aStatus
+=
+NS_FRAME_COMPLETE
 ;
 }
 void
