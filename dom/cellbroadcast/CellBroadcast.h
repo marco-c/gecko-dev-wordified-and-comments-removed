@@ -34,7 +34,7 @@ h
 #
 include
 "
-nsICellBroadcastProvider
+nsICellBroadcastService
 .
 h
 "
@@ -106,9 +106,9 @@ CellBroadcast
 nsPIDOMWindow
 *
 aWindow
-nsICellBroadcastProvider
+nsICellBroadcastService
 *
-aProvider
+aService
 )
 ;
 nsPIDOMWindow
@@ -141,12 +141,6 @@ received
 )
 private
 :
-nsCOMPtr
-<
-nsICellBroadcastProvider
->
-mProvider
-;
 nsRefPtr
 <
 Listener
