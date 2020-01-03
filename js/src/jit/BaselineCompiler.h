@@ -774,6 +774,11 @@ JSOP_THROW
 \
 _
 (
+JSOP_THROWING
+)
+\
+_
+(
 JSOP_TRY
 )
 \
