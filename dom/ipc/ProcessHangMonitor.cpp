@@ -2864,7 +2864,9 @@ aPluginName
 tag
 -
 >
-mName
+Name
+(
+)
 ;
 return
 NS_OK
