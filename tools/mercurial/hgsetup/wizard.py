@@ -1854,6 +1854,19 @@ print
 '
 )
         
+if
+hg_version
+<
+LooseVersion
+(
+'
+3
+.
+5
+'
+)
+:
+            
 self
 .
 prompt_native_extension
@@ -1862,7 +1875,7 @@ c
 '
 progress
 '
-            
+                
 '
 Would
 you
