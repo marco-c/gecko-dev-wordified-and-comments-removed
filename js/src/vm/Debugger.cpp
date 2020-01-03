@@ -16104,9 +16104,12 @@ Debugger
 debugger
 ;
 {
-auto
+AutoInitGCManagedObject
+<
+Debugger
+>
 dbg
-=
+(
 cx
 -
 >
@@ -16120,6 +16123,7 @@ obj
 .
 get
 (
+)
 )
 )
 ;
