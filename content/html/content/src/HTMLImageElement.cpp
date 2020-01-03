@@ -3874,15 +3874,11 @@ void
 HTMLImageElement
 :
 :
-PictureSourceMediaChanged
+PictureSourceMediaOrTypeChanged
 (
 nsIContent
 *
 aSourceNode
-const
-nsAString
-&
-aNewValue
 bool
 aNotify
 )
