@@ -38,9 +38,6 @@ class
 CancelDiscoveryResultHandler
 ;
 class
-CleanupTask
-;
-class
 CreateBondResultHandler
 ;
 class
@@ -68,10 +65,10 @@ class
 RemoveBondResultHandler
 ;
 class
-SetAdapterPropertyResultHandler
+SetAdapterPropertyDiscoverableResultHandler
 ;
 class
-SetupAfterEnabledTask
+SetAdapterPropertyResultHandler
 ;
 class
 SspReplyResultHandler
