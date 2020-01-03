@@ -2476,7 +2476,7 @@ int
 kb
 =
 (
-unsigned
+uintptr_t
 )
 locales
 [
