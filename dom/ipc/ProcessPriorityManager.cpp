@@ -4486,9 +4486,9 @@ SendFlushMemory
 NS_LITERAL_STRING
 (
 "
-low
+lowering
 -
-memory
+priority
 "
 )
 )
