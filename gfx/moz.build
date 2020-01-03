@@ -227,3 +227,13 @@ TEST_DIRS
 tests
 '
 ]
+SPHINX_TREES
+[
+'
+gfx
+'
+]
+=
+'
+docs
+'
