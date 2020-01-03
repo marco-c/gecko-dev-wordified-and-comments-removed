@@ -1029,6 +1029,11 @@ fp
 1
 )
 {
+fclose
+(
+fp
+)
+;
 return
 -
 1
@@ -1059,6 +1064,11 @@ fp
 1
 )
 {
+fclose
+(
+fp
+)
+;
 return
 -
 1
