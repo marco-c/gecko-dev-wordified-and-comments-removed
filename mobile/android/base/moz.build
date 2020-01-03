@@ -739,6 +739,13 @@ java
 '
 util
 /
+WeakReferenceHandler
+.
+java
+'
+'
+util
+/
 WebActivityMapper
 .
 java
