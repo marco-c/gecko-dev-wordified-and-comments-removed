@@ -88,14 +88,10 @@ true
 ;
 assertEq
 (
+'
+'
++
 e
-.
-toString
-(
-)
-.
-contains
-(
 "
 ReferenceError
 :
@@ -104,8 +100,6 @@ is
 not
 defined
 "
-)
-true
 )
 ;
 }

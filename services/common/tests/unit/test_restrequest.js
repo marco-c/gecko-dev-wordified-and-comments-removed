@@ -4796,16 +4796,9 @@ onComplete
 error
 )
 {
-do_check_true
+do_check_eq
 (
 error
-.
-toString
-(
-)
-.
-contains
-(
 "
 ReferenceError
 :
@@ -4814,7 +4807,6 @@ is
 not
 defined
 "
-)
 )
 ;
 do_check_eq

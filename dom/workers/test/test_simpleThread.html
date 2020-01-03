@@ -380,14 +380,11 @@ target
 worker
 )
 ;
-ok
+is
 (
 otherEvent
 .
 message
-.
-contains
-(
 "
 ReferenceError
 :
@@ -396,7 +393,6 @@ is
 not
 defined
 "
-)
 )
 ;
 gotErrors
