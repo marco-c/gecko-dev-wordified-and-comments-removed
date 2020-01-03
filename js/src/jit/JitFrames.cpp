@@ -4751,7 +4751,7 @@ a
 endif
 static
 void
-MarkThisAndExtraActualArguments
+MarkExtraActualArguments
 (
 JSTracer
 *
@@ -4837,20 +4837,6 @@ layout
 >
 argv
 (
-)
-;
-gc
-:
-:
-MarkValueRoot
-(
-trc
-argv
-"
-ion
--
-thisv
-"
 )
 ;
 for
@@ -5055,7 +5041,7 @@ ionScriptFromCalleeToken
 )
 ;
 }
-MarkThisAndExtraActualArguments
+MarkExtraActualArguments
 (
 trc
 frame
@@ -5464,7 +5450,7 @@ calleeToken
 )
 )
 ;
-MarkThisAndExtraActualArguments
+MarkExtraActualArguments
 (
 trc
 frame
