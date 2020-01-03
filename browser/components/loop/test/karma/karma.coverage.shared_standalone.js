@@ -150,6 +150,15 @@ vendor
 js
 "
 "
+test
+/
+karma
+/
+head
+.
+js
+"
+"
 content
 /
 shared
