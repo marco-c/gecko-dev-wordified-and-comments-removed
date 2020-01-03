@@ -1305,6 +1305,7 @@ SetLength
 FftSize
 (
 )
+fallible
 )
 )
 {
@@ -1613,6 +1614,7 @@ SetLength
 FftSize
 (
 )
+fallible
 )
 )
 {
@@ -1652,6 +1654,7 @@ SetLength
 FrequencyBinCount
 (
 )
+fallible
 )
 )
 {
