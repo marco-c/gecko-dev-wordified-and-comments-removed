@@ -2402,6 +2402,14 @@ try
 {
 this
 .
+connection
+.
+resetOptions
+(
+)
+;
+this
+.
 selectedRuntime
 .
 connect
