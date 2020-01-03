@@ -577,6 +577,9 @@ op
 )
 {
 forEachInner
+<
+Op
+>
 (
 op
 root
@@ -1055,6 +1058,9 @@ node
 return
 ;
 forEachInner
+<
+Op
+>
 (
 op
 node
@@ -1072,6 +1078,9 @@ item
 )
 ;
 forEachInner
+<
+Op
+>
 (
 op
 node
