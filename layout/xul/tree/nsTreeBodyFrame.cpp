@@ -17737,10 +17737,15 @@ color
 (
 ToDeviceColor
 (
-GetVisitedDependentColor
+meterContext
+-
+>
+StyleColor
 (
-eCSSProperty_color
 )
+-
+>
+mColor
 )
 )
 ;
