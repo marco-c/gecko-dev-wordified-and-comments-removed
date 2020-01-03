@@ -1782,6 +1782,15 @@ stlport
 stlport
 -
 isystem
+_topsrcdir
+/
+build
+/
+stlport
+/
+overrides
+-
+isystem
 android_ndk
 /
 sources
