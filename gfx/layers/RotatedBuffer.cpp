@@ -3617,14 +3617,6 @@ SurfaceMode
 SURFACE_COMPONENT_ALPHA
 )
 {
-MOZ_ASSERT
-(
-mDTBuffer
-&
-&
-mDTBufferOnWhite
-)
-;
 if
 (
 !
@@ -3635,6 +3627,11 @@ mDTBuffer
 mDTBufferOnWhite
 )
 {
+MOZ_ASSERT
+(
+false
+)
+;
 return
 nullptr
 ;
