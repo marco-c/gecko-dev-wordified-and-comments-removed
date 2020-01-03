@@ -272,6 +272,11 @@ CALL_WAKELOCK_TIMEOUT
 5000
 ;
 const
+CDMA_FIRST_CALL_INDEX
+=
+1
+;
+const
 CDMA_SECOND_CALL_INDEX
 =
 2
@@ -2422,7 +2427,6 @@ function
 (
 aClientId
 aNumber
-aParentId
 )
 {
 let
@@ -2457,7 +2461,7 @@ isMergeable
 true
 parentId
 :
-aParentId
+CDMA_FIRST_CALL_INDEX
 }
 ;
 this
@@ -3521,7 +3525,6 @@ aClientId
 response
 .
 number
-currentCdmaCallIndex
 )
 ;
 }
