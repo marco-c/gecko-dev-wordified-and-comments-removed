@@ -1997,6 +1997,14 @@ rc
 ;
 #
 endif
+sqlite3_config
+(
+SQLITE_CONFIG_PAGECACHE
+NULL
+0
+0
+)
+;
 rc
 =
 :
