@@ -3578,6 +3578,13 @@ BINPATH
 /
 components
 /
+PaymentProvider
+.
+js
+BINPATH
+/
+components
+/
 Payment
 .
 manifest
@@ -4969,6 +4976,13 @@ BINPATH
 components
 /
 PaymentGlue
+.
+js
+BINPATH
+/
+components
+/
+PaymentProviderStrategy
 .
 js
 BINPATH

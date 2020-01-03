@@ -108,6 +108,11 @@ nsIPaymentFlowInfo
 idl
 '
 '
+nsIPaymentProviderStrategy
+.
+idl
+'
+'
 nsIPaymentUIGlue
 .
 idl

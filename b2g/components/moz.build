@@ -176,6 +176,11 @@ PaymentGlue
 js
 '
 '
+PaymentProviderStrategy
+.
+js
+'
+'
 ProcessGlobal
 .
 js
