@@ -575,11 +575,6 @@ aGetIfActiveCall
 false
 )
 ;
-bool
-HasDialingCall
-(
-)
-;
 already_AddRefed
 <
 Promise
