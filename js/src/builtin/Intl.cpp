@@ -2910,6 +2910,8 @@ toObject
 )
 nullptr
 JSPROP_GETTER
+|
+JSPROP_SHARED
 )
 )
 {
@@ -5572,6 +5574,8 @@ toObject
 )
 nullptr
 JSPROP_GETTER
+|
+JSPROP_SHARED
 )
 )
 {
@@ -8030,6 +8034,8 @@ toObject
 )
 nullptr
 JSPROP_GETTER
+|
+JSPROP_SHARED
 )
 )
 {

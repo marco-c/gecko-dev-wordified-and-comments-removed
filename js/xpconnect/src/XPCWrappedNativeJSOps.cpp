@@ -1365,6 +1365,8 @@ propFlags
 |
 =
 JSPROP_GETTER
+|
+JSPROP_SHARED
 ;
 propFlags
 &
