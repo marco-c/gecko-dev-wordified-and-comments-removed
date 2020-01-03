@@ -785,6 +785,13 @@ setAnchor
 this
 )
 ;
+mSiteIdentityPopup
+.
+setOnVisibilityChangeListener
+(
+mActivity
+)
+;
 mStop
 =
 (
