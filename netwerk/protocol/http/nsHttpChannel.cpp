@@ -7574,7 +7574,7 @@ mCacheEntry
 &
 &
 !
-mLoadedFromApplicationCache
+mCacheEntryIsReadOnly
 )
 {
 rv
