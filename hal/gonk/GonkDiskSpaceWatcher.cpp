@@ -747,7 +747,7 @@ errno
 ENOSYS
 )
 {
-NS_WARNING
+printf_stderr
 (
 "
 Warning
@@ -793,7 +793,7 @@ endif
 }
 else
 {
-NS_WARNING
+printf_stderr
 (
 "
 Error
