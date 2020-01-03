@@ -49,7 +49,7 @@ jsm
 )
 ;
 let
-OpenH264Scope
+GMPScope
 =
 Cu
 .
@@ -66,7 +66,7 @@ modules
 /
 addons
 /
-OpenH264Provider
+GMPProvider
 .
 jsm
 "
@@ -1997,7 +1997,7 @@ Object
 .
 defineProperty
 (
-OpenH264Scope
+GMPScope
 "
 GMPInstallManager
 "
@@ -2143,7 +2143,7 @@ OPENH264_PLUGIN_ID
 )
 ;
 delete
-OpenH264Scope
+GMPScope
 .
 GMPInstallManager
 ;

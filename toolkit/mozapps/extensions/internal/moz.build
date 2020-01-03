@@ -125,12 +125,12 @@ Content
 js
 '
 '
-LightweightThemeImageOptimizer
+GMPProvider
 .
 jsm
 '
 '
-OpenH264Provider
+LightweightThemeImageOptimizer
 .
 jsm
 '

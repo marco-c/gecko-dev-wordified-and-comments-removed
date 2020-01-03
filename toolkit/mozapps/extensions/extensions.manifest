@@ -314,7 +314,7 @@ addon
 provider
 -
 module
-OpenH264Provider
+GMPProvider
 resource
 :
 /
@@ -325,7 +325,7 @@ modules
 /
 addons
 /
-OpenH264Provider
+GMPProvider
 .
 jsm
 #
