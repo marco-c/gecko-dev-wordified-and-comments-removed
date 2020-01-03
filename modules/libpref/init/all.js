@@ -12966,6 +12966,10 @@ default
 -
 src
 *
+data
+:
+blob
+:
 ;
 script
 -
