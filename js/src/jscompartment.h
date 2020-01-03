@@ -1494,14 +1494,6 @@ table
 )
 ;
 void
-fixupCrossCompartmentWrappers
-(
-JSTracer
-*
-trc
-)
-;
-void
 fixupAfterMovingGC
 (
 )
