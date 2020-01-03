@@ -541,6 +541,11 @@ key3
 .
 db
 "
+"
+signedInUser
+.
+json
+"
 ]
 )
 ;
