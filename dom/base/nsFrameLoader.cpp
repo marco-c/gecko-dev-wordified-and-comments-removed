@@ -928,7 +928,7 @@ IsLoadedAsData
 aOwner
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
@@ -1555,7 +1555,7 @@ mOwnerContent
 mOwnerContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -3715,7 +3715,7 @@ mOwnerContent
 mOwnerContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
@@ -3741,7 +3741,7 @@ LayerManagerForDocument
 mOwnerContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
@@ -4170,7 +4170,7 @@ ourDoc
 ourContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -4181,7 +4181,7 @@ otherDoc
 otherContent
 -
 >
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -5360,7 +5360,7 @@ ourDoc
 ourContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
@@ -5371,7 +5371,7 @@ otherDoc
 otherContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
@@ -7208,7 +7208,7 @@ IsStaticDocument
 mOwnerContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )

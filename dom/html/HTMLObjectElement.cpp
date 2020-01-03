@@ -274,7 +274,7 @@ true
 ;
 if
 (
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -785,7 +785,7 @@ if
 aNotify
 &
 &
-IsInDoc
+IsInComposedDoc
 (
 )
 &
@@ -859,7 +859,7 @@ if
 aNotify
 &
 &
-IsInDoc
+IsInComposedDoc
 (
 )
 &
@@ -1688,7 +1688,7 @@ aNotify
 if
 (
 !
-IsInDoc
+IsInComposedDoc
 (
 )
 |

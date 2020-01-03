@@ -634,7 +634,7 @@ if
 aContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
@@ -14159,7 +14159,7 @@ if
 thisContent
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
