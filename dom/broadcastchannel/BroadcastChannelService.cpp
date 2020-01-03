@@ -272,10 +272,6 @@ const
 nsACString
 &
 aOrigin
-uint64_t
-aAppId
-bool
-aIsInBrowserElement
 const
 nsAString
 &
@@ -472,8 +468,6 @@ PromiseFlatCString
 (
 aOrigin
 )
-aAppId
-aIsInBrowserElement
 PromiseFlatString
 (
 aChannel

@@ -75,12 +75,6 @@ nsCString
 &
 aOrigin
 const
-uint64_t
-aAppId
-const
-bool
-aIsInBrowserElement
-const
 nsString
 &
 aChannel
@@ -92,10 +86,6 @@ private
 :
 BroadcastChannelParent
 (
-const
-PrincipalInfo
-&
-aPrincipalInfo
 const
 nsACString
 &
@@ -151,12 +141,6 @@ mOrigin
 ;
 nsString
 mChannel
-;
-uint64_t
-mAppId
-;
-bool
-mIsInBrowserElement
 ;
 bool
 mPrivateBrowsing
