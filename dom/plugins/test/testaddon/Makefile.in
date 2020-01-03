@@ -150,6 +150,8 @@ testdir
 (
 addon_file_name
 )
+ifdef
+COMPILE_ENVIRONMENT
 libs
 :
 :
@@ -206,3 +208,4 @@ plugins
 name
 )
 )
+endif

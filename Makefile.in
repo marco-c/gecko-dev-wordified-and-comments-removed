@@ -268,6 +268,8 @@ ifndef
 JS_STANDALONE
 ifndef
 LIBXUL_SDK
+ifdef
+COMPILE_ENVIRONMENT
 (
 TIERS
 )
@@ -290,6 +292,7 @@ src
 config
 .
 status
+endif
 endif
 endif
 endif
@@ -704,6 +707,8 @@ ifndef
 JS_STANDALONE
 ifndef
 LIBXUL_SDK
+ifdef
+COMPILE_ENVIRONMENT
 install_manifest_depends
 +
 =
@@ -729,6 +734,7 @@ status
 (
 NULL
 )
+endif
 endif
 endif
 .

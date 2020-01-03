@@ -798,6 +798,8 @@ nsinstall
 py
 there
 .
+ifdef
+COMPILE_ENVIRONMENT
 ifneq
 (
 (
@@ -824,6 +826,7 @@ CURRENT_DIRS
 config
 /
 host
+endif
 endif
 endif
 endif
