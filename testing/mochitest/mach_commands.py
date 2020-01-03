@@ -531,7 +531,7 @@ MOZ_MACBUNDLE_NAME
 Contents
 '
 '
-Resources
+MacOS
 '
 appname
 )
