@@ -16,10 +16,6 @@ PTestUrgency
 {
 parent
 :
-prio
-(
-high
-)
 sync
 Test1
 (

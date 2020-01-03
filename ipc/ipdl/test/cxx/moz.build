@@ -150,11 +150,6 @@ TestBridgeMain
 cpp
 '
 '
-TestCancel
-.
-cpp
-'
-'
 TestCrashCleanup
 .
 cpp
@@ -390,11 +385,6 @@ ipdl
 '
 '
 PTestBridgeSub
-.
-ipdl
-'
-'
-PTestCancel
 .
 ipdl
 '
