@@ -13221,6 +13221,17 @@ IsLayersIdRoot
 )
 )
 ;
+mFrameMetrics
+.
+SetUsesContainerScrolling
+(
+aLayerMetrics
+.
+UsesContainerScrolling
+(
+)
+)
+;
 if
 (
 scrollOffsetUpdated
