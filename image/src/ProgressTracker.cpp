@@ -1356,7 +1356,7 @@ FLAG_HAS_SIZE
 NOTIFY_IMAGE_OBSERVERS
 (
 aProxies
-OnStartContainer
+OnSizeAvailable
 (
 )
 )
@@ -1422,7 +1422,7 @@ FLAG_FRAME_STOPPED
 NOTIFY_IMAGE_OBSERVERS
 (
 aProxies
-OnStopFrame
+OnFrameComplete
 (
 )
 )
@@ -1497,7 +1497,7 @@ image
 NOTIFY_IMAGE_OBSERVERS
 (
 aProxies
-OnStopDecode
+OnDecodeComplete
 (
 )
 )
@@ -1513,7 +1513,7 @@ FLAG_REQUEST_STOPPED
 NOTIFY_IMAGE_OBSERVERS
 (
 aProxies
-OnStopRequest
+OnLoadComplete
 (
 aProgress
 &
@@ -1808,7 +1808,7 @@ FLAG_REQUEST_STOPPED
 aProxy
 -
 >
-OnStopRequest
+OnLoadComplete
 (
 true
 )

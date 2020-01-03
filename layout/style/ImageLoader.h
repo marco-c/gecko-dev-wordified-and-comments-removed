@@ -338,7 +338,7 @@ aClosure
 )
 ;
 nsresult
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *
@@ -349,7 +349,7 @@ aImage
 )
 ;
 nsresult
-OnStopFrame
+OnFrameComplete
 (
 imgIRequest
 *
@@ -365,7 +365,7 @@ aRequest
 )
 ;
 nsresult
-FrameChanged
+OnFrameUpdate
 (
 imgIRequest
 *

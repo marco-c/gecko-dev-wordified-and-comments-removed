@@ -441,7 +441,7 @@ OnStartDecode
 )
 ;
 void
-OnStartContainer
+OnSizeAvailable
 (
 )
 ;
@@ -455,12 +455,12 @@ aRect
 )
 ;
 void
-OnStopFrame
+OnFrameComplete
 (
 )
 ;
 void
-OnStopDecode
+OnDecodeComplete
 (
 )
 ;
@@ -485,7 +485,7 @@ OnImageIsAnimated
 )
 ;
 void
-OnStopRequest
+OnLoadComplete
 (
 bool
 aLastPart

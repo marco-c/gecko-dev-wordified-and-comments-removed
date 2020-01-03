@@ -405,7 +405,7 @@ const
 protected
 :
 nsresult
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *

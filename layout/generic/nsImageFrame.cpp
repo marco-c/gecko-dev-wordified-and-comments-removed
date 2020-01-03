@@ -1256,7 +1256,7 @@ image
 )
 )
 ;
-OnStartContainer
+OnSizeAvailable
 (
 currentRequest
 image
@@ -2318,7 +2318,7 @@ aType
 const
 nsIntRect
 *
-aData
+aRect
 )
 {
 if
@@ -2350,7 +2350,7 @@ image
 )
 ;
 return
-OnStartContainer
+OnSizeAvailable
 (
 aRequest
 image
@@ -2369,10 +2369,10 @@ FRAME_UPDATE
 )
 {
 return
-OnDataAvailable
+OnFrameUpdate
 (
 aRequest
-aData
+aRect
 )
 ;
 }
@@ -2430,7 +2430,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 return
-OnStopRequest
+OnLoadComplete
 (
 aRequest
 status
@@ -2496,7 +2496,7 @@ nsresult
 nsImageFrame
 :
 :
-OnStartContainer
+OnSizeAvailable
 (
 imgIRequest
 *
@@ -2703,7 +2703,7 @@ nsresult
 nsImageFrame
 :
 :
-OnDataAvailable
+OnFrameUpdate
 (
 imgIRequest
 *
@@ -2902,7 +2902,7 @@ nsresult
 nsImageFrame
 :
 :
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *

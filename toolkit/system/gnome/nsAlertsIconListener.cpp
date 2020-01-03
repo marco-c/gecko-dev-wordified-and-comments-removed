@@ -626,7 +626,7 @@ LOAD_COMPLETE
 )
 {
 return
-OnStopRequest
+OnLoadComplete
 (
 aRequest
 )
@@ -644,7 +644,7 @@ FRAME_COMPLETE
 )
 {
 return
-OnStopFrame
+OnFrameComplete
 (
 aRequest
 )
@@ -658,7 +658,7 @@ nsresult
 nsAlertsIconListener
 :
 :
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *
@@ -748,7 +748,7 @@ nsresult
 nsAlertsIconListener
 :
 :
-OnStopFrame
+OnFrameComplete
 (
 imgIRequest
 *

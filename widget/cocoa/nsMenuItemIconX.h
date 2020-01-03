@@ -109,7 +109,7 @@ Destroy
 protected
 :
 nsresult
-OnStopFrame
+OnFrameComplete
 (
 imgIRequest
 *

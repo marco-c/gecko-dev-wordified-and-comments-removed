@@ -775,7 +775,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 return
-OnStopRequest
+OnLoadComplete
 (
 aRequest
 status
@@ -863,7 +863,7 @@ nsresult
 nsImageLoadingContent
 :
 :
-OnStopRequest
+OnLoadComplete
 (
 imgIRequest
 *

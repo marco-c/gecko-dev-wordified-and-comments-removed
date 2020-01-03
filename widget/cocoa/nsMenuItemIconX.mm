@@ -2066,7 +2066,7 @@ FRAME_COMPLETE
 )
 {
 return
-OnStopFrame
+OnFrameComplete
 (
 aRequest
 )
@@ -2116,7 +2116,7 @@ nsresult
 nsMenuItemIconX
 :
 :
-OnStopFrame
+OnFrameComplete
 (
 imgIRequest
 *
