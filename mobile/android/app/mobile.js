@@ -5112,6 +5112,16 @@ enabled
 true
 )
 ;
+pref
+(
+"
+apz
+.
+allow_zooming
+"
+true
+)
+;
 #
 endif
 pref

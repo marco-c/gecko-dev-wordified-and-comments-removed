@@ -3539,6 +3539,16 @@ pref
 "
 apz
 .
+allow_zooming
+"
+false
+)
+;
+pref
+(
+"
+apz
+.
 asyncscroll
 .
 throttle

@@ -34534,7 +34534,7 @@ nsViewportInfo
 aDisplaySize
 defaultScale
 false
-true
+false
 )
 ;
 }
@@ -34555,7 +34555,7 @@ nsViewportInfo
 aDisplaySize
 defaultScale
 false
-true
+false
 )
 ;
 }
