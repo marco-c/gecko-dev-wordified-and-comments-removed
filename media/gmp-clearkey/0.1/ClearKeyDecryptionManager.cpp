@@ -849,7 +849,7 @@ mCallback
 RejectPromise
 (
 aPromiseId
-kGMPAbortError
+kGMPInvalidAccessError
 nullptr
 0
 )
