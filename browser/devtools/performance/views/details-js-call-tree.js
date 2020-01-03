@@ -4,7 +4,7 @@ strict
 "
 ;
 let
-CallTreeView
+JsCallTreeView
 =
 Heritage
 .
@@ -155,7 +155,7 @@ emit
 (
 EVENTS
 .
-CALL_TREE_RENDERED
+JS_CALL_TREE_RENDERED
 )
 ;
 }
@@ -356,6 +356,13 @@ container
 =
 (
 "
+#
+js
+-
+calltree
+-
+view
+>
 .
 call
 -
@@ -379,6 +386,13 @@ root
 attachTo
 (
 container
+)
+;
+root
+.
+toggleAllocations
+(
+false
 )
 ;
 let

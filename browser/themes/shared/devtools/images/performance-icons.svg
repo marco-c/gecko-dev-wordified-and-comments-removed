@@ -609,7 +609,7 @@ rect
 x
 =
 "
-3px
+0px
 "
 y
 =
@@ -619,7 +619,7 @@ y
 width
 =
 "
-7px
+8px
 "
 height
 =
@@ -643,7 +643,7 @@ rect
 x
 =
 "
-6px
+0px
 "
 y
 =
@@ -653,7 +653,7 @@ y
 width
 =
 "
-6px
+11px
 "
 height
 =
@@ -677,7 +677,7 @@ rect
 x
 =
 "
-9px
+0px
 "
 y
 =
@@ -687,7 +687,7 @@ y
 width
 =
 "
-5px
+6px
 "
 height
 =

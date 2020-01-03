@@ -245,6 +245,7 @@ _destroyed
 return
 ;
 }
+yield
 this
 .
 _connection

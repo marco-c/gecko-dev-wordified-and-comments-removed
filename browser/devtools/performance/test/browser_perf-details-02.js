@@ -27,8 +27,8 @@ panelWin
 let
 {
 WaterfallView
-CallTreeView
-FlameGraphView
+JsCallTreeView
+JsFlameGraphView
 }
 =
 panel
@@ -66,7 +66,7 @@ DetailsView
 .
 whenViewSelected
 (
-CallTreeView
+JsCallTreeView
 )
 ;
 let
@@ -86,6 +86,8 @@ DetailsView
 selectView
 (
 "
+js
+-
 calltree
 "
 )
@@ -107,7 +109,7 @@ DetailsView
 .
 isViewSelected
 (
-CallTreeView
+JsCallTreeView
 )
 "
 The
@@ -130,7 +132,7 @@ DetailsView
 .
 whenViewSelected
 (
-FlameGraphView
+JsFlameGraphView
 )
 ;
 notified
@@ -149,6 +151,8 @@ DetailsView
 selectView
 (
 "
+js
+-
 flamegraph
 "
 )
@@ -170,7 +174,7 @@ DetailsView
 .
 isViewSelected
 (
-FlameGraphView
+JsFlameGraphView
 )
 "
 The

@@ -18,7 +18,7 @@ let
 {
 EVENTS
 DetailsView
-JsCallTreeView
+MemoryCallTreeView
 }
 =
 panel
@@ -30,7 +30,7 @@ DetailsView
 selectView
 (
 "
-js
+memory
 -
 calltree
 "
@@ -42,7 +42,7 @@ DetailsView
 .
 isViewSelected
 (
-JsCallTreeView
+MemoryCallTreeView
 )
 "
 The
@@ -72,10 +72,10 @@ rendered
 =
 once
 (
-JsCallTreeView
+MemoryCallTreeView
 EVENTS
 .
-JS_CALL_TREE_RENDERED
+MEMORY_CALL_TREE_RENDERED
 )
 ;
 yield
@@ -91,7 +91,7 @@ ok
 (
 true
 "
-JsCallTreeView
+MemoryCallTreeView
 rendered
 after
 recording
@@ -117,10 +117,10 @@ rendered
 =
 once
 (
-JsCallTreeView
+MemoryCallTreeView
 EVENTS
 .
-JS_CALL_TREE_RENDERED
+MEMORY_CALL_TREE_RENDERED
 )
 ;
 yield
@@ -136,7 +136,7 @@ ok
 (
 true
 "
-JsCallTreeView
+MemoryCallTreeView
 rendered
 again
 after

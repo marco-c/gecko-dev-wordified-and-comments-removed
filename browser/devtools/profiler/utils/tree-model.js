@@ -406,6 +406,7 @@ location
 line
 column
 category
+allocations
 }
 )
 {
@@ -432,6 +433,15 @@ this
 category
 =
 category
+;
+this
+.
+allocations
+=
+allocations
+|
+|
+0
 ;
 this
 .

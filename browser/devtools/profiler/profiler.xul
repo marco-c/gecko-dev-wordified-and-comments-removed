@@ -1154,7 +1154,7 @@ profilerUI
 .
 table
 .
-totalDuration
+totalDuration2
 ;
 "
 /
@@ -1226,7 +1226,7 @@ profilerUI
 .
 table
 .
-selfDuration
+selfDuration2
 ;
 "
 /

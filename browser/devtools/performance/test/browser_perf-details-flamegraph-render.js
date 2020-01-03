@@ -18,7 +18,7 @@ let
 {
 EVENTS
 DetailsView
-FlameGraphView
+JsFlameGraphView
 }
 =
 panel
@@ -30,6 +30,8 @@ DetailsView
 selectView
 (
 "
+js
+-
 flamegraph
 "
 )
@@ -40,7 +42,7 @@ DetailsView
 .
 isViewSelected
 (
-FlameGraphView
+JsFlameGraphView
 )
 "
 The
@@ -69,10 +71,10 @@ rendered
 =
 once
 (
-FlameGraphView
+JsFlameGraphView
 EVENTS
 .
-FLAMEGRAPH_RENDERED
+JS_FLAMEGRAPH_RENDERED
 )
 ;
 yield
@@ -88,7 +90,7 @@ ok
 (
 true
 "
-FlameGraphView
+JsFlameGraphView
 rendered
 after
 recording
@@ -114,10 +116,10 @@ rendered
 =
 once
 (
-FlameGraphView
+JsFlameGraphView
 EVENTS
 .
-FLAMEGRAPH_RENDERED
+JS_FLAMEGRAPH_RENDERED
 )
 ;
 yield
@@ -133,7 +135,7 @@ ok
 (
 true
 "
-FlameGraphView
+JsFlameGraphView
 rendered
 again
 after
