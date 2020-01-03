@@ -9024,6 +9024,10 @@ mHasVideo
 (
 false
 )
+mIsEncrypted
+(
+false
+)
 mDownloadSuspendedByCache
 (
 false
@@ -13178,6 +13182,13 @@ aInfo
 HasVideo
 (
 )
+;
+mIsEncrypted
+=
+aInfo
+-
+>
+mIsEncrypted
 ;
 mTags
 =

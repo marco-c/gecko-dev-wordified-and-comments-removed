@@ -337,6 +337,14 @@ unrestricted
 double
 duration
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+isEncrypted
+;
 /
 /
 TODO

@@ -1081,6 +1081,16 @@ Duration
 const
 ;
 bool
+IsEncrypted
+(
+)
+const
+{
+return
+mIsEncrypted
+;
+}
+bool
 Paused
 (
 )
@@ -2705,6 +2715,9 @@ mHasAudio
 ;
 bool
 mHasVideo
+;
+bool
+mIsEncrypted
 ;
 bool
 mDownloadSuspendedByCache
