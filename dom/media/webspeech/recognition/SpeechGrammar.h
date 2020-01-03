@@ -191,6 +191,9 @@ nsISupports
 >
 mParent
 ;
+nsString
+mSrc
+;
 }
 ;
 }
