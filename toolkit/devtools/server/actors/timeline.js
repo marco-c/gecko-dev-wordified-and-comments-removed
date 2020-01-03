@@ -813,11 +813,9 @@ this
 "
 memory
 "
-Date
+this
 .
-now
-(
-)
+_startTime
 this
 .
 _memoryActor
