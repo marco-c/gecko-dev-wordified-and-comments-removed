@@ -821,8 +821,8 @@ mAnim
 uint32_t
 mLockCount
 ;
-nsCString
-mSourceDataMimeType
+eDecoderType
+mDecoderType
 ;
 int32_t
 mDecodeCount
