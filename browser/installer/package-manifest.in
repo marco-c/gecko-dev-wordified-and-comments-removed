@@ -3418,7 +3418,7 @@ RESPATH
 /
 components
 /
-PushServiceLauncher
+PushNotificationService
 .
 js
 RESPATH
