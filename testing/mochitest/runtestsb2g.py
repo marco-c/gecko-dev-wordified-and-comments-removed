@@ -55,8 +55,7 @@ MochitestUtilsMixin
 from
 mochitest_options
 import
-B2GOptions
-MochitestOptions
+MochitestArgumentParser
 from
 marionette
 import
@@ -2527,7 +2526,6 @@ options
 def
 run_remote_mochitests
 (
-parser
 options
 )
 :
@@ -2643,15 +2641,6 @@ int
 port
 )
     
-options
-=
-parser
-.
-verifyRemoteOptions
-(
-options
-)
-    
 if
 (
 options
@@ -2708,16 +2697,6 @@ remote_log_file
 options
 .
 remoteLogFile
-)
-    
-options
-=
-parser
-.
-verifyOptions
-(
-options
-mochitest
 )
     
 if
@@ -2823,7 +2802,6 @@ retVal
 def
 run_desktop_mochitests
 (
-parser
 options
 )
 :
@@ -2940,17 +2918,6 @@ options
 profile_data_dir
 )
     
-options
-=
-MochitestOptions
-.
-verifyOptions
-(
-parser
-options
-mochitest
-)
-    
 if
 options
 is
@@ -3040,17 +3007,13 @@ main
     
 parser
 =
-B2GOptions
+MochitestArgumentParser
 (
-)
-    
-structured
-.
-commandline
-.
-add_logging_group
-(
-parser
+app
+=
+'
+b2g
+'
 )
     
 options
@@ -3069,7 +3032,6 @@ desktop
         
 run_desktop_mochitests
 (
-parser
 options
 )
     
@@ -3078,7 +3040,6 @@ else
         
 run_remote_mochitests
 (
-parser
 options
 )
 if
