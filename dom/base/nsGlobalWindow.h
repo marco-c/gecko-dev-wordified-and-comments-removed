@@ -586,6 +586,14 @@ ErrorResult
 aError
 )
 ;
+extern
+const
+js
+:
+:
+Class
+OuterWindowProxyClass
+;
 struct
 nsTimeout
 final
