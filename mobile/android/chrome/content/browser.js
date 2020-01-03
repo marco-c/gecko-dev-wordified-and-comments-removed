@@ -1617,12 +1617,7 @@ Share
 "
 Reader
 :
-ShowToast
-"
-"
-Reader
-:
-ToolbarVisibility
+ToolbarHidden
 "
 "
 Reader
