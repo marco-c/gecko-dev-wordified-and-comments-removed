@@ -270,6 +270,11 @@ IntegerTypeTraits
 h
 '
 '
+IteratorTraits
+.
+h
+'
+'
 JSONWriter
 .
 h
