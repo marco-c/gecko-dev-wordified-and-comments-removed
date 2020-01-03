@@ -1,7 +1,5 @@
 import
 os
-import
-mozcrash
 from
 mozprocess
 import
@@ -21,8 +19,6 @@ from
 mozrunner
 import
 FirefoxRunner
-import
-mozcrash
 from
 mozcrash
 import

@@ -680,8 +680,6 @@ tree
 patch
 Create
 a
-branch
-containing
 a
 git
 commit
