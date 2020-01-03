@@ -161,16 +161,6 @@ override
 {
 }
 virtual
-void
-UpdateReadyStateForData
-(
-NextFrameStatus
-aNextFrame
-)
-override
-{
-}
-virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer

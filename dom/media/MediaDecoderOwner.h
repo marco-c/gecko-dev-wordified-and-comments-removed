@@ -204,16 +204,6 @@ NEXT_FRAME_UNINITIALIZED
 }
 ;
 virtual
-void
-UpdateReadyStateForData
-(
-NextFrameStatus
-aNextFrame
-)
-=
-0
-;
-virtual
 bool
 IsActive
 (
