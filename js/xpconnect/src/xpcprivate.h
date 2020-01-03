@@ -12932,6 +12932,10 @@ sameZoneAs
 (
 cx
 )
+freshZone
+(
+false
+)
 invisibleToDebugger
 (
 false
@@ -12984,6 +12988,9 @@ JS
 :
 RootedObject
 sameZoneAs
+;
+bool
+freshZone
 ;
 bool
 invisibleToDebugger
