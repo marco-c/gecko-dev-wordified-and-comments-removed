@@ -1004,9 +1004,6 @@ rv
 }
 rv
 =
-FileUtils
-:
-:
 BodyDeleteDir
 (
 aDBDir
