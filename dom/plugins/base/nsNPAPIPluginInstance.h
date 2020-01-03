@@ -582,15 +582,6 @@ nsPluginInstanceOwner
 aOwner
 )
 ;
-nsresult
-ShowStatus
-(
-const
-char
-*
-message
-)
-;
 nsNPAPIPlugin
 *
 GetPlugin
