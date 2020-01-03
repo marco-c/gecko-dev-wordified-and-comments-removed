@@ -929,9 +929,6 @@ shouldDefineConstructor
 )
 )
 {
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -1087,9 +1084,6 @@ ctor
 )
 )
 ;
-types
-:
-:
 AddTypePropertyId
 (
 cx

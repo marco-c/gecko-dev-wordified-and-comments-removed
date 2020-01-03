@@ -540,9 +540,6 @@ releaseTypes
 =
 false
 ;
-types
-:
-:
 AutoClearTypeInferenceStateOnOOM
 oom
 (

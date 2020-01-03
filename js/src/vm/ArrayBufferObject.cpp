@@ -315,13 +315,6 @@ js
 :
 gc
 ;
-using
-namespace
-js
-:
-:
-types
-;
 bool
 js
 :
@@ -2452,9 +2445,6 @@ neuter
 "
 )
 ;
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx

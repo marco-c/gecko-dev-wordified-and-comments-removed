@@ -53,13 +53,6 @@ js
 :
 gc
 ;
-using
-namespace
-js
-:
-:
-types
-;
 JS_STATIC_ASSERT
 (
 AllocKinds

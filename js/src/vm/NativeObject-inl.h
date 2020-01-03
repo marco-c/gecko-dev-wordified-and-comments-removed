@@ -397,13 +397,13 @@ Value
 val
 )
 {
-types
+TypeSet
 :
 :
 Type
 thisType
 =
-types
+TypeSet
 :
 :
 GetValueType
@@ -419,7 +419,7 @@ index
 0
 |
 |
-types
+TypeSet
 :
 :
 GetValueType
@@ -435,9 +435,6 @@ index
 =
 thisType
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -479,9 +476,6 @@ shouldConvertDoubleElements
 )
 )
 ;
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -511,9 +505,6 @@ uint32_t
 index
 )
 {
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx
@@ -547,9 +538,6 @@ uint32_t
 index
 )
 {
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx
@@ -623,9 +611,6 @@ isNative
 )
 )
 ;
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx
@@ -1492,9 +1477,6 @@ setOverwritten
 (
 )
 ;
-types
-:
-:
 AddTypePropertyId
 (
 cx

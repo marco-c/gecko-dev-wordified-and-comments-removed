@@ -555,9 +555,6 @@ pc
 )
 )
 ;
-types
-:
-:
 TypeScript
 :
 :
@@ -1712,9 +1709,6 @@ isUndefined
 (
 )
 )
-types
-:
-:
 TypeScript
 :
 :
@@ -2023,9 +2017,6 @@ isUndefined
 (
 )
 )
-types
-:
-:
 TypeScript
 :
 :
@@ -3011,9 +3002,6 @@ rval
 return
 false
 ;
-types
-:
-:
 TypeScript
 :
 :

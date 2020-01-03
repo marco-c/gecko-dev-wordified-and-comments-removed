@@ -14025,9 +14025,6 @@ isString
 )
 \
 ?
-types
-:
-:
 IdToTypeId
 (
 AtomToId
@@ -14584,9 +14581,6 @@ isJSContext
 (
 )
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -14604,9 +14598,6 @@ else
 if
 (
 !
-types
-:
-:
 HasTypePropertyId
 (
 obj
@@ -14677,9 +14668,6 @@ isJSContext
 (
 )
 )
-types
-:
-:
 AddTypePropertyId
 (
 cx
@@ -14697,9 +14685,6 @@ else
 if
 (
 !
-types
-:
-:
 HasTypePropertyId
 (
 obj

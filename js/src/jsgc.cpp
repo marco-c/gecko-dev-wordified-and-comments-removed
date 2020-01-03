@@ -9954,9 +9954,6 @@ isPreservingCode
 )
 )
 ;
-types
-:
-:
 AutoClearTypeInferenceStateOnOOM
 oom
 (
@@ -24336,9 +24333,6 @@ SweepThing
 JSScript
 *
 script
-types
-:
-:
 AutoClearTypeInferenceStateOnOOM
 *
 oom
@@ -24360,9 +24354,6 @@ SweepThing
 ObjectGroup
 *
 group
-types
-:
-:
 AutoClearTypeInferenceStateOnOOM
 *
 oom
@@ -24620,9 +24611,6 @@ sweepZone
 >
 arenas
 ;
-types
-:
-:
 AutoClearTypeInferenceStateOnOOM
 oom
 (

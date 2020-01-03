@@ -5810,9 +5810,6 @@ false
 ;
 if
 (
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -5885,9 +5882,6 @@ hasDefaultSetter
 (
 )
 )
-types
-:
-:
 MarkTypePropertyNonData
 (
 cx
@@ -5905,9 +5899,6 @@ writable
 (
 )
 )
-types
-:
-:
 MarkTypePropertyNonWritable
 (
 cx
@@ -8171,13 +8162,7 @@ shape
 hasDefaultGetter
 (
 )
-js
-:
-:
-types
-:
-:
-TypeHasProperty
+ObjectGroupHasProperty
 (
 cx
 obj
@@ -11233,9 +11218,6 @@ attrsp
 &
 JSPROP_READONLY
 )
-types
-:
-:
 MarkTypePropertyNonWritable
 (
 cx

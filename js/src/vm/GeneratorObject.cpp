@@ -47,13 +47,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-types
-;
 JSObject
 *
 GeneratorObject

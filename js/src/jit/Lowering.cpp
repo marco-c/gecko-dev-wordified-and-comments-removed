@@ -13718,9 +13718,6 @@ ins
 )
 {
 const
-types
-:
-:
 TemporaryTypeSet
 *
 types
@@ -13931,10 +13928,7 @@ types
 >
 hasType
 (
-types
-:
-:
-Type
+TypeSet
 :
 :
 AnyObjectType
@@ -14050,9 +14044,6 @@ ins
 )
 {
 const
-types
-:
-:
 TemporaryTypeSet
 *
 types

@@ -4811,9 +4811,6 @@ TempOptimizationTypeInfoVector
 *
 types_
 ;
-types
-:
-:
 TypeSet
 :
 :

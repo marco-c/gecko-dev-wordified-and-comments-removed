@@ -18028,9 +18028,6 @@ if
 id
 !
 =
-types
-:
-:
 IdToTypeId
 (
 id
@@ -32461,9 +32458,6 @@ if
 id
 !
 =
-types
-:
-:
 IdToTypeId
 (
 id

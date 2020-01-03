@@ -4652,9 +4652,6 @@ JSPROP_SHARED
 )
 )
 ;
-types
-:
-:
 MarkTypePropertyNonData
 (
 cx

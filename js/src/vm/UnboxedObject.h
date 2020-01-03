@@ -173,9 +173,6 @@ properties_
 size_t
 size_
 ;
-types
-:
-:
 TypeNewScript
 *
 newScript_
@@ -245,9 +242,6 @@ return
 properties_
 ;
 }
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -262,9 +256,6 @@ newScript_
 void
 setNewScript
 (
-types
-:
-:
 TypeNewScript
 *
 newScript
@@ -723,9 +714,6 @@ templateShape
 ObjectGroup
 *
 group
-types
-:
-:
 PreliminaryObjectArray
 *
 objects

@@ -300,9 +300,6 @@ site_
 MIRType
 mirType_
 ;
-types
-:
-:
 TypeSet
 :
 :
@@ -369,9 +366,6 @@ mirType
 bool
 trackTypeSet
 (
-types
-:
-:
 TemporaryTypeSet
 *
 typeSet
@@ -380,7 +374,7 @@ typeSet
 bool
 trackType
 (
-types
+TypeSet
 :
 :
 Type
@@ -411,9 +405,6 @@ mirType_
 ;
 }
 const
-types
-:
-:
 TypeSet
 :
 :
@@ -1437,7 +1428,7 @@ op
 struct
 IonTrackedTypeWithAddendum
 {
-types
+TypeSet
 :
 :
 Type
@@ -1476,7 +1467,7 @@ constructor
 explicit
 IonTrackedTypeWithAddendum
 (
-types
+TypeSet
 :
 :
 Type
@@ -1495,7 +1486,7 @@ HasNothing
 }
 IonTrackedTypeWithAddendum
 (
-types
+TypeSet
 :
 :
 Type
@@ -1527,7 +1518,7 @@ offset
 }
 IonTrackedTypeWithAddendum
 (
-types
+TypeSet
 :
 :
 Type

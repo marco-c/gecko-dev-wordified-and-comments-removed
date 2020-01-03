@@ -328,13 +328,6 @@ js
 gc
 ;
 using
-namespace
-js
-:
-:
-types
-;
-using
 mozilla
 :
 :
@@ -7027,9 +7020,6 @@ pc
 nullptr
 )
 {
-types
-:
-:
 TypeScript
 :
 :
@@ -20414,9 +20404,6 @@ cx
 return
 false
 ;
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx

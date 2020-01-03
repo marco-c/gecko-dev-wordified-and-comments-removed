@@ -981,9 +981,6 @@ arenas
 js
 :
 :
-types
-:
-:
 TypeZone
 types
 ;

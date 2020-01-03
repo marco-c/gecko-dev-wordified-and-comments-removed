@@ -949,9 +949,6 @@ bool
 succeeded
 )
 {
-types
-:
-:
 MarkTypePropertyNonData
 (
 cx
@@ -1068,9 +1065,6 @@ unsigned
 attrsp
 )
 {
-types
-:
-:
 MarkTypePropertyNonData
 (
 cx
@@ -4347,9 +4341,6 @@ types
 activeAnalysis
 )
 {
-types
-:
-:
 AutoEnterAnalysis
 enter
 (

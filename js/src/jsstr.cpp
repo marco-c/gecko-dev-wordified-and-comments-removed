@@ -328,13 +328,6 @@ namespace
 js
 :
 :
-types
-;
-using
-namespace
-js
-:
-:
 unicode
 ;
 using
@@ -19601,7 +19594,7 @@ AddTypePropertyId
 cx
 group
 JSID_VOID
-Type
+TypeSet
 :
 :
 StringType

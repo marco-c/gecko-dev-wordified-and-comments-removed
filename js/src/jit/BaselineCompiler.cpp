@@ -515,9 +515,6 @@ cx
 return
 Method_Error
 ;
-types
-:
-:
 AutoEnterAnalysis
 autoEnterAnalysis
 (
@@ -1426,9 +1423,6 @@ bytecodeTypeMap
 (
 )
 ;
-types
-:
-:
 FillBytecodeTypeMap
 (
 script

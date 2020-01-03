@@ -60,9 +60,6 @@ length
 INT32_MAX
 )
 {
-types
-:
-:
 MarkObjectGroupFlags
 (
 cx

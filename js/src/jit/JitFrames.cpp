@@ -11146,9 +11146,6 @@ return
 true
 ;
 }
-types
-:
-:
 AutoEnterAnalysis
 enter
 (

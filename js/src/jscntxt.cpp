@@ -1274,9 +1274,6 @@ next
 (
 )
 )
-types
-:
-:
 PrintTypes
 (
 cx

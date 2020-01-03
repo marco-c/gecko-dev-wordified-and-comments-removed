@@ -2185,9 +2185,6 @@ nargs
 (
 )
 )
-types
-:
-:
 TypeScript
 :
 :
