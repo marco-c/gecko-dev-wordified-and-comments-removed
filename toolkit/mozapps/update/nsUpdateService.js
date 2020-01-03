@@ -11926,6 +11926,8 @@ _showPrompt
 update
 )
 ;
+return
+;
 }
 if
 (
