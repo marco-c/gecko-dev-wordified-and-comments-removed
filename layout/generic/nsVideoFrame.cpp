@@ -1084,17 +1084,6 @@ this
 )
 )
 ;
-layer
--
->
-SetContentFlags
-(
-Layer
-:
-:
-CONTENT_OPAQUE
-)
-;
 gfxPoint
 p
 =
