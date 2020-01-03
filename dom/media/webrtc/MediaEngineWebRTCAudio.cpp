@@ -199,7 +199,7 @@ msg
 )
 NS_IMPL_ISUPPORTS0
 (
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 )
 StaticRefPtr
 <
@@ -781,7 +781,7 @@ mSamplesSaved
 }
 }
 void
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 GetName
@@ -808,7 +808,7 @@ return
 ;
 }
 void
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 GetUUID
@@ -835,7 +835,7 @@ return
 ;
 }
 nsresult
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Config
@@ -1342,7 +1342,7 @@ distance
 ;
 }
 nsresult
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Allocate
@@ -1525,7 +1525,7 @@ NS_OK
 ;
 }
 nsresult
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Deallocate
@@ -1619,7 +1619,7 @@ NS_OK
 ;
 }
 nsresult
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Start
@@ -1823,7 +1823,7 @@ NS_OK
 ;
 }
 nsresult
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Stop
@@ -1953,7 +1953,7 @@ NS_OK
 ;
 }
 void
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 NotifyPull
@@ -1989,7 +1989,7 @@ aDesiredTime
 ;
 }
 void
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Init
@@ -2284,7 +2284,7 @@ true
 }
 }
 void
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Shutdown
@@ -2476,7 +2476,7 @@ int16_t
 sample
 ;
 void
-MediaEngineWebRTCAudioSource
+MediaEngineWebRTCMicrophoneSource
 :
 :
 Process
