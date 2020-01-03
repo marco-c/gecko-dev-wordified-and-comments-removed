@@ -130,6 +130,11 @@ geo
 :
 PERM_UNKNOWN
 "
+push
+"
+:
+PERM_DENY
+"
 indexedDB
 "
 :
@@ -174,7 +179,7 @@ fullscreen
 const
 TEST_PERMS_COUNT
 =
-8
+9
 ;
 function
 test

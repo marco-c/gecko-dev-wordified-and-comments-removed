@@ -85,6 +85,12 @@ Object
 Proxy
 "
 "
+PushEvent
+"
+"
+PushMessageData
+"
+"
 RangeError
 "
 "
