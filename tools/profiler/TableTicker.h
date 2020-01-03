@@ -805,6 +805,7 @@ TickSample
 *
 sample
 )
+MOZ_OVERRIDE
 ;
 virtual
 SyncProfile
@@ -812,12 +813,14 @@ SyncProfile
 GetBacktrace
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 RequestSave
 (
 )
+MOZ_OVERRIDE
 {
 mSaveRequested
 =
@@ -850,6 +853,7 @@ void
 HandleSaveRequest
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1042,6 +1046,7 @@ ProfileThreads
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mProfileThreads
