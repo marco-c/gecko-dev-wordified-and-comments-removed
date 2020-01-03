@@ -465,7 +465,6 @@ enabled
 readonly
 attribute
 DOMString
-?
 currentSrc
 ;
 }
