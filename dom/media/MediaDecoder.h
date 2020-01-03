@@ -2025,6 +2025,12 @@ DecodedStreamData
 >
 mDecodedStream
 ;
+bool
+mIsDormant
+;
+bool
+mIsExitingDormant
+;
 PlayState
 mPlayState
 ;
