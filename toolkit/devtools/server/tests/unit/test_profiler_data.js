@@ -63,7 +63,8 @@ activate_profiler
 (
 client
 actor
-startTime
+(
+)
 =
 >
 {
@@ -71,7 +72,6 @@ test_data
 (
 client
 actor
-startTime
 (
 )
 =
@@ -168,9 +168,6 @@ isActive
 ;
 callback
 (
-response
-.
-currentTime
 )
 ;
 }
@@ -254,7 +251,6 @@ test_data
 (
 client
 actor
-startTime
 callback
 )
 {
@@ -343,7 +339,6 @@ type
 "
 getProfile
 "
-startTime
 }
 response
 =
