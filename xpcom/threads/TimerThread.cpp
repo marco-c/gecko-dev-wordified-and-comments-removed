@@ -960,9 +960,6 @@ timer
 =
 nullptr
 ;
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -1016,8 +1013,6 @@ ToMilliseconds
 )
 ;
 }
-#
-endif
 {
 MonitorAutoUnlock
 unlock
@@ -1254,9 +1249,6 @@ waitFor
 ;
 }
 }
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
@@ -1316,8 +1308,6 @@ waitFor
 )
 ;
 }
-#
-endif
 }
 mWaiting
 =
