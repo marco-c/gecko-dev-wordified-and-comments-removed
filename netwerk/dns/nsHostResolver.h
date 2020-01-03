@@ -283,6 +283,15 @@ int
 grace
 )
 ;
+void
+CopyExpirationTimesFrom
+(
+const
+nsHostRecord
+*
+aFromHostRecord
+)
+;
 bool
 HasUsableResult
 (
