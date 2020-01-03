@@ -1221,6 +1221,7 @@ processType
 crashType
 id
 date
+metadata
 )
 {
 return
@@ -1253,6 +1254,7 @@ processType
 crashType
 id
 date
+metadata
 )
 )
 {
@@ -3822,6 +3824,7 @@ processType
 crashType
 id
 date
+metadata
 )
 {
 if
@@ -3969,6 +3972,9 @@ classifications
 :
 [
 ]
+metadata
+:
+metadata
 }
 )
 ;
@@ -4011,6 +4017,7 @@ processType
 crashType
 id
 date
+metadata
 )
 {
 return
@@ -4024,6 +4031,7 @@ processType
 crashType
 id
 date
+metadata
 )
 ;
 }
@@ -4528,6 +4536,19 @@ this
 _o
 .
 classifications
+;
+}
+get
+metadata
+(
+)
+{
+return
+this
+.
+_o
+.
+metadata
 ;
 }
 }
