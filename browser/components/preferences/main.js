@@ -899,10 +899,6 @@ addTab
 about
 :
 accounts
-?
-action
-=
-migrateToDevEdition
 "
 )
 ;
