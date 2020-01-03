@@ -194,6 +194,8 @@ nsIntRegion
 >
 &
 aClipRegion
+bool
+aForceDispatchToContent
 )
 ;
 bool
@@ -226,6 +228,12 @@ const
 ParentLayerPoint
 &
 aPoint
+)
+const
+;
+bool
+GetForceDispatchToContent
+(
 )
 const
 ;
@@ -293,6 +301,9 @@ Maybe
 nsIntRegion
 >
 mClipRegion
+;
+bool
+mForceDispatchToContent
 ;
 }
 ;
