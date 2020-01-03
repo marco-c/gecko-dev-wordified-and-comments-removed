@@ -192,6 +192,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+File
+"
+]
+)
+;
 let
 CtypesHelpers
 =
@@ -2003,6 +2014,7 @@ fileReader
 .
 readAsText
 (
+new
 File
 (
 aFile
