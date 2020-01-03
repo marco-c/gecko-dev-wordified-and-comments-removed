@@ -227,6 +227,14 @@ aFinishWhenEnded
 )
 ;
 void
+RemoveOutputStream
+(
+MediaStream
+*
+aStream
+)
+;
+void
 SetDormant
 (
 bool
@@ -242,6 +250,11 @@ InitializationTask
 ;
 void
 DispatchAudioCaptured
+(
+)
+;
+void
+DispatchAudioUncaptured
 (
 )
 ;
