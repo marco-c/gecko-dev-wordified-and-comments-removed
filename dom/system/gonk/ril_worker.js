@@ -37126,6 +37126,9 @@ readSeptetsToString
 call
 (
 bufAdapter
+Math
+.
+floor
 (
 length
 *
@@ -37574,6 +37577,9 @@ readSeptetsToString
 call
 (
 bufAdapter
+Math
+.
+floor
 (
 pageLengths
 [
@@ -38291,6 +38297,10 @@ this
 .
 readSeptetsToString
 (
+Math
+.
+floor
+(
 (
 (
 len
@@ -38304,6 +38314,7 @@ spareBits
 )
 /
 7
+)
 0
 PDU_NL_IDENTIFIER_DEFAULT
 PDU_NL_IDENTIFIER_DEFAULT
@@ -49145,11 +49156,16 @@ GsmPDUHelper
 .
 readSeptetsToString
 (
+Math
+.
+floor
+(
 length
 *
 8
 /
 7
+)
 0
 0
 0
