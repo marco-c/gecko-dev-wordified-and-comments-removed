@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIX509Cert
-.
-h
-"
-#
-include
-"
 nsNSSCertificate
 .
 h
@@ -68,16 +61,6 @@ nsXPIDLString
 .
 h
 "
-#
-ifdef
-PR_LOGGING
-extern
-PRLogModuleInfo
-*
-gPIPNSSLog
-;
-#
-endif
 NS_IMPL_ISUPPORTS
 (
 nsNSSCertificateFakeTransport
@@ -110,12 +93,14 @@ if
 (
 mCertSerialization
 )
+{
 SECITEM_FreeItem
 (
 mCertSerialization
 true
 )
 ;
+}
 }
 NS_IMETHODIMP
 nsNSSCertificateFakeTransport
@@ -126,7 +111,6 @@ GetDbKey
 char
 *
 *
-aDbKey
 )
 {
 NS_NOTREACHED
@@ -151,7 +135,6 @@ GetWindowTitle
 (
 nsAString
 &
-aWindowTitle
 )
 {
 NS_NOTREACHED
@@ -176,7 +159,6 @@ GetNickname
 (
 nsAString
 &
-aNickname
 )
 {
 NS_NOTREACHED
@@ -201,7 +183,6 @@ GetEmailAddress
 (
 nsAString
 &
-aEmailAddress
 )
 {
 NS_NOTREACHED
@@ -226,12 +207,10 @@ GetEmailAddresses
 (
 uint32_t
 *
-aLength
 char16_t
 *
 *
 *
-aAddresses
 )
 {
 NS_NOTREACHED
@@ -257,10 +236,8 @@ ContainsEmailAddress
 const
 nsAString
 &
-aEmailAddress
 bool
 *
-result
 )
 {
 NS_NOTREACHED
@@ -285,7 +262,6 @@ GetCommonName
 (
 nsAString
 &
-aCommonName
 )
 {
 NS_NOTREACHED
@@ -310,7 +286,6 @@ GetOrganization
 (
 nsAString
 &
-aOrganization
 )
 {
 NS_NOTREACHED
@@ -335,7 +310,6 @@ GetIssuerCommonName
 (
 nsAString
 &
-aCommonName
 )
 {
 NS_NOTREACHED
@@ -360,7 +334,6 @@ GetIssuerOrganization
 (
 nsAString
 &
-aOrganization
 )
 {
 NS_NOTREACHED
@@ -385,7 +358,6 @@ GetIssuerOrganizationUnit
 (
 nsAString
 &
-aOrganizationUnit
 )
 {
 NS_NOTREACHED
@@ -411,7 +383,6 @@ GetIssuer
 nsIX509Cert
 *
 *
-aIssuer
 )
 {
 NS_NOTREACHED
@@ -436,7 +407,6 @@ GetOrganizationalUnit
 (
 nsAString
 &
-aOrganizationalUnit
 )
 {
 NS_NOTREACHED
@@ -462,7 +432,6 @@ GetChain
 nsIArray
 *
 *
-_rvChain
 )
 {
 NS_NOTREACHED
@@ -487,7 +456,6 @@ GetSubjectName
 (
 nsAString
 &
-_subjectName
 )
 {
 NS_NOTREACHED
@@ -512,7 +480,6 @@ GetIssuerName
 (
 nsAString
 &
-_issuerName
 )
 {
 NS_NOTREACHED
@@ -537,7 +504,6 @@ GetSerialNumber
 (
 nsAString
 &
-_serialNumber
 )
 {
 NS_NOTREACHED
@@ -562,7 +528,6 @@ GetSha256Fingerprint
 (
 nsAString
 &
-aSha256Fingerprint
 )
 {
 NS_NOTREACHED
@@ -587,7 +552,6 @@ GetSha1Fingerprint
 (
 nsAString
 &
-aSha1Fingerprint
 )
 {
 NS_NOTREACHED
@@ -612,7 +576,6 @@ GetTokenName
 (
 nsAString
 &
-aTokenName
 )
 {
 NS_NOTREACHED
@@ -637,11 +600,9 @@ GetRawDER
 (
 uint32_t
 *
-aLength
 uint8_t
 *
 *
-aArray
 )
 {
 NS_NOTREACHED
@@ -667,7 +628,6 @@ GetValidity
 nsIX509CertValidity
 *
 *
-aValidity
 )
 {
 NS_NOTREACHED
@@ -691,18 +651,14 @@ nsNSSCertificateFakeTransport
 GetUsagesArray
 (
 bool
-localOnly
 uint32_t
 *
-_verified
 uint32_t
 *
-_count
 char16_t
 *
 *
 *
-_usages
 )
 {
 NS_NOTREACHED
@@ -726,13 +682,10 @@ nsNSSCertificateFakeTransport
 GetUsagesString
 (
 bool
-localOnly
 uint32_t
 *
-_verified
 nsAString
 &
-_usages
 )
 {
 NS_NOTREACHED
@@ -758,7 +711,6 @@ GetASN1Structure
 nsIASN1Object
 *
 *
-aASN1Structure
 )
 {
 NS_NOTREACHED
@@ -783,10 +735,8 @@ Equals
 (
 nsIX509Cert
 *
-other
 bool
 *
-result
 )
 {
 NS_NOTREACHED
@@ -809,7 +759,7 @@ nsNSSCertificateFakeTransport
 :
 GetSha256SubjectPublicKeyInfoDigest
 (
-nsACString_internal
+nsACString
 &
 )
 {
@@ -1082,7 +1032,6 @@ nsNSSCertificateFakeTransport
 GetHelperForLanguage
 (
 uint32_t
-language
 nsISupports
 *
 *

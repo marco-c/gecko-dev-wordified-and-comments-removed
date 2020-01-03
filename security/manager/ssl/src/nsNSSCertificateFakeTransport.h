@@ -1,13 +1,13 @@
 #
 ifndef
-_NS_NSSCERTIFICATECHILD_H_
+nsNSSCertificateFakeTransport_h
 #
 define
-_NS_NSSCERTIFICATECHILD_H_
+nsNSSCertificateFakeTransport_h
 #
 include
 "
-nsIX509Cert
+nsIClassInfo
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIClassInfo
+nsIX509Cert
 .
 h
 "
