@@ -213,11 +213,11 @@ options
 )
 {
 let
-samples
+thread
 =
 RecordingUtils
 .
-getSamplesFromAllocations
+getProfileThreadFromAllocations
 (
 allocations
 )
@@ -244,7 +244,7 @@ threadNode
 new
 ThreadNode
 (
-samples
+thread
 {
 startTime
 endTime

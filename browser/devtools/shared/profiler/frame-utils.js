@@ -815,6 +815,7 @@ cache
 index
 frameTable
 stringTable
+allocationsTable
 )
 {
 let
@@ -847,6 +848,7 @@ InflatedFrame
 index
 frameTable
 stringTable
+allocationsTable
 )
 ;
 }
@@ -861,6 +863,7 @@ InflatedFrame
 index
 frameTable
 stringTable
+allocationsTable
 )
 {
 const
@@ -967,6 +970,19 @@ category
 |
 |
 CATEGORY_OTHER
+;
+this
+.
+allocations
+=
+allocationsTable
+?
+allocationsTable
+[
+index
+]
+:
+0
 ;
 this
 .

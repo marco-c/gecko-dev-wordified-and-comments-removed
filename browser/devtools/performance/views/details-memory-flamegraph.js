@@ -267,11 +267,11 @@ getAllocations
 )
 ;
 let
-samples
+thread
 =
 RecordingUtils
 .
-getSamplesFromAllocations
+getProfileThreadFromAllocations
 (
 allocations
 )
@@ -281,9 +281,9 @@ data
 =
 FlameGraphUtils
 .
-createFlameGraphDataFromSamples
+createFlameGraphDataFromThread
 (
-samples
+thread
 {
 invertStack
 :

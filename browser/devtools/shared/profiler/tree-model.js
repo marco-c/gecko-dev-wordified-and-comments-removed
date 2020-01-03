@@ -238,6 +238,7 @@ samples
 stackTable
 frameTable
 stringTable
+allocationsTable
 }
 =
 thread
@@ -266,6 +267,7 @@ samples
 stackTable
 frameTable
 stringTable
+allocationsTable
 options
 )
 ;
@@ -299,6 +301,7 @@ samples
 stackTable
 frameTable
 stringTable
+allocationsTable
 options
 )
 {
@@ -711,6 +714,7 @@ inflatedFrameCache
 frameIndex
 frameTable
 stringTable
+allocationsTable
 )
 ;
 mutableFrameKeyOptions
@@ -1226,7 +1230,7 @@ this
 .
 allocations
 =
-0
+allocations
 ;
 this
 .
