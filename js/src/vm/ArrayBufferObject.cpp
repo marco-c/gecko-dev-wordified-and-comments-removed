@@ -8167,6 +8167,9 @@ getter
 NewFunction
 (
 cx
+js
+:
+:
 NullPtr
 (
 )
@@ -8180,6 +8183,9 @@ JSFunction
 :
 NATIVE_FUN
 global
+js
+:
+:
 NullPtr
 (
 )
