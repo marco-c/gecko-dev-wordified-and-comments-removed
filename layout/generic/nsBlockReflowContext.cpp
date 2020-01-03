@@ -1217,6 +1217,15 @@ aClearance
 }
 }
 }
+else
+{
+mBStartMargin
+.
+Zero
+(
+)
+;
+}
 nscoord
 tI
 =
