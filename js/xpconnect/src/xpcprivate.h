@@ -12710,6 +12710,11 @@ rtcIdentityProvider
 :
 1
 ;
+bool
+fetch
+:
+1
+;
 }
 ;
 already_AddRefed
