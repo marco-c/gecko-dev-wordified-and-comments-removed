@@ -914,9 +914,6 @@ true
 ;
 nsIntRegion
 contentVisibleRegion
-(
-aBounds
-)
 ;
 for
 (
@@ -963,7 +960,7 @@ y
 ;
 contentVisibleRegion
 .
-AndWith
+OrWith
 (
 rect
 )
