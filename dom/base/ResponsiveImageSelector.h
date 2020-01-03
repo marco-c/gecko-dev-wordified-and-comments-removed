@@ -176,7 +176,12 @@ aURL
 )
 ;
 int
-GetBestCandidateIndex
+GetSelectedCandidateIndex
+(
+)
+;
+void
+ClearSelectedCandidate
 (
 )
 ;
@@ -201,7 +206,7 @@ ResponsiveImageCandidate
 mCandidates
 ;
 int
-mBestCandidateIndex
+mSelectedCandidateIndex
 ;
 nsTArray
 <
