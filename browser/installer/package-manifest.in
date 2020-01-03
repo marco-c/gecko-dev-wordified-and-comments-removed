@@ -398,7 +398,7 @@ searchplugins
 #
 ifdef
 XP_WIN32
-RESPATH
+BINPATH
 /
 uninstall
 /
