@@ -929,7 +929,7 @@ checkFilesAfterUpdateSuccess
 (
 getApplyDirFile
 false
-false
+true
 )
 ;
 gSwitchApp
