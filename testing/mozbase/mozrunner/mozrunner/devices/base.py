@@ -384,6 +384,15 @@ remote_dump_dir
 local_dump_dir
 )
         
+if
+os
+.
+listdir
+(
+local_dump_dir
+)
+:
+            
 for
 f
 in
@@ -396,7 +405,7 @@ listFiles
 remote_dump_dir
 )
 :
-            
+                
 self
 .
 dm
