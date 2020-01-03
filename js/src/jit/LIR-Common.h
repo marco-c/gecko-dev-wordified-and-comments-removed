@@ -814,6 +814,7 @@ LInstructionHelper
 {
 public
 :
+explicit
 LSimdSwizzleBase
 (
 const
@@ -970,6 +971,7 @@ LIR_HEADER
 SimdSwizzleI
 )
 ;
+explicit
 LSimdSwizzleI
 (
 const
@@ -999,6 +1001,7 @@ LIR_HEADER
 SimdSwizzleF
 )
 ;
+explicit
 LSimdSwizzleF
 (
 const
@@ -15928,6 +15931,7 @@ LIR_HEADER
 (
 TypedObjectUnsizedLength
 )
+explicit
 LTypedObjectUnsizedLength
 (
 const

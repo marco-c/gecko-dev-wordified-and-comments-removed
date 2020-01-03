@@ -775,6 +775,7 @@ initialized_
 ;
 public
 :
+explicit
 RInstructionResults
 (
 IonJSFrameLayout
@@ -886,6 +887,7 @@ const
 FallbackConsequence
 consequence
 ;
+explicit
 MaybeReadFallback
 (
 const
