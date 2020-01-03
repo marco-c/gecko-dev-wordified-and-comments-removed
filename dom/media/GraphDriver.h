@@ -277,6 +277,16 @@ mNextDriver
 mPreviousDriver
 ;
 }
+GraphDriver
+*
+NextDriver
+(
+)
+{
+return
+mNextDriver
+;
+}
 virtual
 TimeStamp
 GetCurrentTimeStamp
