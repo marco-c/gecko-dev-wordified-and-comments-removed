@@ -548,6 +548,8 @@ bool
 aVisible
 )
 ;
+#
+endif
 void
 UpdateDocumentActiveState
 (
@@ -555,8 +557,6 @@ bool
 aIsActive
 )
 ;
-#
-endif
 void
 SetFrame
 (
