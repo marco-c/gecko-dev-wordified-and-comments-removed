@@ -156,7 +156,7 @@ Attributes
 h
 "
 class
-nsICertificatePrincipal
+nsIX509Cert
 ;
 class
 nsIInputStream
@@ -338,9 +338,9 @@ mParsedManifest
 ;
 nsCOMPtr
 <
-nsICertificatePrincipal
+nsIX509Cert
 >
-mPrincipal
+mSigningCert
 ;
 int16_t
 mGlobalStatus

@@ -128,11 +128,6 @@ nsICertificateDialogs
 idl
 '
 '
-nsICertificatePrincipal
-.
-idl
-'
-'
 nsICertOverrideService
 .
 idl

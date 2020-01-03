@@ -150,11 +150,6 @@ CryptoTask
 cpp
 '
 '
-nsCertificatePrincipal
-.
-cpp
-'
-'
 nsCertOverrideService
 .
 cpp
