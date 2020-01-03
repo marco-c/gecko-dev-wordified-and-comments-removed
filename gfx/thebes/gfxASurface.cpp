@@ -2546,6 +2546,7 @@ aClosure
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 const
 size_t

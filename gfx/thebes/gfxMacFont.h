@@ -232,6 +232,7 @@ FontCacheSizes
 aSizes
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -247,6 +248,7 @@ FontCacheSizes
 aSizes
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 FontType

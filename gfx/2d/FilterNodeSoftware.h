@@ -65,6 +65,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeSoftware
+MOZ_OVERRIDE
 )
 virtual
 ~
@@ -178,6 +179,7 @@ FilterNodeSoftware
 *
 aFilter
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -404,6 +406,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTransformSoftware
+MOZ_OVERRIDE
 )
 FilterNodeTransformSoftware
 (
@@ -531,6 +534,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeBlendSoftware
+MOZ_OVERRIDE
 )
 FilterNodeBlendSoftware
 (
@@ -633,6 +637,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeMorphologySoftware
+MOZ_OVERRIDE
 )
 FilterNodeMorphologySoftware
 (
@@ -751,6 +756,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeColorMatrixSoftware
+MOZ_OVERRIDE
 )
 virtual
 const
@@ -865,6 +871,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeFloodSoftware
+MOZ_OVERRIDE
 )
 virtual
 const
@@ -959,6 +966,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTileSoftware
+MOZ_OVERRIDE
 )
 virtual
 const
@@ -1059,6 +1067,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeComponentTransferSoftware
+MOZ_OVERRIDE
 )
 FilterNodeComponentTransferSoftware
 (
@@ -1186,6 +1195,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTableTransferSoftware
+MOZ_OVERRIDE
 )
 virtual
 const
@@ -1309,6 +1319,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeDiscreteTransferSoftware
+MOZ_OVERRIDE
 )
 virtual
 const
@@ -1432,6 +1443,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeLinearTransformSoftware
+MOZ_OVERRIDE
 )
 FilterNodeLinearTransferSoftware
 (
@@ -1538,6 +1550,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeGammaTransferSoftware
+MOZ_OVERRIDE
 )
 FilterNodeGammaTransferSoftware
 (
@@ -1658,6 +1671,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeConvolveMatrixSoftware
+MOZ_OVERRIDE
 )
 FilterNodeConvolveMatrixSoftware
 (
@@ -1918,6 +1932,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeDisplacementMapSoftware
+MOZ_OVERRIDE
 )
 FilterNodeDisplacementMapSoftware
 (
@@ -2046,6 +2061,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeTurbulenceSoftware
+MOZ_OVERRIDE
 )
 FilterNodeTurbulenceSoftware
 (
@@ -2189,6 +2205,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeArithmeticCombineSoftware
+MOZ_OVERRIDE
 )
 FilterNodeArithmeticCombineSoftware
 (
@@ -2304,6 +2321,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeCompositeSoftware
+MOZ_OVERRIDE
 )
 FilterNodeCompositeSoftware
 (
@@ -2406,6 +2424,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeBlurXYSoftware
+MOZ_OVERRIDE
 )
 protected
 :
@@ -2484,6 +2503,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeGaussianBlurSoftware
+MOZ_OVERRIDE
 )
 FilterNodeGaussianBlurSoftware
 (
@@ -2548,6 +2568,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeDirectionalBlurSoftware
+MOZ_OVERRIDE
 )
 FilterNodeDirectionalBlurSoftware
 (
@@ -2626,6 +2647,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeCropSoftware
+MOZ_OVERRIDE
 )
 virtual
 const
@@ -2726,6 +2748,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodePremultiplySoftware
+MOZ_OVERRIDE
 )
 virtual
 const
@@ -2802,6 +2825,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 FilterNodeUnpremultiplySoftware
+MOZ_OVERRIDE
 )
 virtual
 const

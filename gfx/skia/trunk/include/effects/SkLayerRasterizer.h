@@ -171,6 +171,7 @@ CreateMode
 mode
 )
 const
+SK_OVERRIDE
 ;
 private
 :

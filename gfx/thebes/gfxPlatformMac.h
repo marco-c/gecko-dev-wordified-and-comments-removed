@@ -114,6 +114,7 @@ gfxFont
 *
 aFont
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetStandardFamilyName
@@ -126,6 +127,7 @@ nsAString
 &
 aFamilyName
 )
+MOZ_OVERRIDE
 ;
 gfxFontGroup
 *
@@ -146,6 +148,7 @@ gfxUserFontSet
 *
 aUserFontSet
 )
+MOZ_OVERRIDE
 ;
 virtual
 gfxFontEntry
@@ -163,6 +166,7 @@ aStretch
 bool
 aItalic
 )
+MOZ_OVERRIDE
 ;
 virtual
 gfxPlatformFontList
@@ -170,6 +174,7 @@ gfxPlatformFontList
 CreatePlatformFontList
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 gfxFontEntry
@@ -193,6 +198,7 @@ aFontData
 uint32_t
 aLength
 )
+MOZ_OVERRIDE
 ;
 bool
 IsFontFormatSupported
@@ -203,6 +209,7 @@ aFontURI
 uint32_t
 aFormatFlags
 )
+MOZ_OVERRIDE
 ;
 nsresult
 GetFontList
@@ -221,11 +228,13 @@ nsString
 &
 aListOfFonts
 )
+MOZ_OVERRIDE
 ;
 nsresult
 UpdateFontList
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -246,6 +255,7 @@ char
 &
 aFontList
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -310,6 +320,7 @@ size_t
 &
 size
 )
+MOZ_OVERRIDE
 ;
 static
 uint32_t

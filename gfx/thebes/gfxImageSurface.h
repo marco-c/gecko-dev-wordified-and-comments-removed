@@ -145,6 +145,7 @@ GetSize
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mSize
@@ -284,6 +285,7 @@ gfxImageSurface
 GetAsImageSurface
 (
 )
+MOZ_OVERRIDE
 ;
 static
 long

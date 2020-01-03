@@ -94,6 +94,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetSkia
+MOZ_OVERRIDE
 )
 DrawTargetSkia
 (
@@ -119,6 +120,7 @@ GetBackendType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 BackendType
@@ -135,12 +137,14 @@ SourceSurface
 Snapshot
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntSize
 GetSize
 (
 )
+MOZ_OVERRIDE
 {
 return
 mSize
@@ -151,6 +155,7 @@ void
 Flush
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -184,6 +189,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -209,6 +215,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -234,6 +241,7 @@ aSigma
 CompositionOp
 aOperator
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -244,6 +252,7 @@ Rect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -261,6 +270,7 @@ IntPoint
 &
 aDestination
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -283,6 +293,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -313,6 +324,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -347,6 +359,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -377,6 +390,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -399,6 +413,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -430,6 +445,7 @@ aRenderingOptions
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -452,6 +468,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -475,6 +492,7 @@ DrawOptions
 (
 )
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -485,6 +503,7 @@ Path
 *
 aPath
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -495,12 +514,14 @@ Rect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 PopClip
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -523,6 +544,7 @@ SurfaceFormat
 aFormat
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -536,6 +558,7 @@ SourceSurface
 aSurface
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -550,6 +573,7 @@ NativeSurface
 aSurface
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -566,6 +590,7 @@ SurfaceFormat
 aFormat
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -583,6 +608,7 @@ FillRule
 FILL_WINDING
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -605,6 +631,7 @@ ExtendMode
 CLAMP
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 TemporaryRef
@@ -616,6 +643,7 @@ CreateFilter
 FilterType
 aType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -626,6 +654,7 @@ Matrix
 &
 aTransform
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -635,6 +664,7 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
+MOZ_OVERRIDE
 ;
 bool
 Init

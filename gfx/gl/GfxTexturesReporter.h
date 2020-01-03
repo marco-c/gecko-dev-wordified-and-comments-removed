@@ -124,6 +124,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 MOZ_COLLECT_REPORT
 (

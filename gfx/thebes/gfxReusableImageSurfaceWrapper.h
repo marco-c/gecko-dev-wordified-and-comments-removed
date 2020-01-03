@@ -82,6 +82,7 @@ Type
 GetType
 (
 )
+MOZ_OVERRIDE
 {
 return
 TYPE_IMAGE
