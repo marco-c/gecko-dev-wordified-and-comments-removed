@@ -3634,11 +3634,11 @@ SimpleTest_setTimeoutShim
 (
 )
 {
-var
-testSuiteSupported
-=
-false
-;
+if
+(
+parentRunner
+)
+{
 switch
 (
 SimpleTest
@@ -3755,6 +3755,7 @@ arguments
 ]
 )
 ;
+}
 }
 }
 }
