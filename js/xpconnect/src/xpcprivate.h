@@ -8321,11 +8321,6 @@ nsISupports
 aCOMObj
 )
 ;
-nsresult
-RescueOrphans
-(
-)
-;
 void
 FlatJSObjectFinalized
 (
