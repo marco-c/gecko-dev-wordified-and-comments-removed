@@ -2711,13 +2711,8 @@ run
 Did
 you
 pass
-an
 invalid
--
--
-test
--
-path
+test_paths
 ?
 "
 )

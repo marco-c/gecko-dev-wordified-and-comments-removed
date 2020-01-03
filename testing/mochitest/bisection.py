@@ -60,22 +60,6 @@ contents
         
 self
 .
-testRoot
-=
-harness
-.
-testRoot
-        
-self
-.
-testRootAbs
-=
-harness
-.
-testRootAbs
-        
-self
-.
 repeat
 =
 10
