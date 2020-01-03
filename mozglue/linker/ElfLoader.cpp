@@ -4837,6 +4837,13 @@ signalHandlingSlow
 true
 )
 {
+Logging
+:
+:
+Init
+(
+)
+;
 oldStack
 .
 ss_flags
