@@ -1304,7 +1304,7 @@ gXPCOMThreadsShutDown
 extern
 char16_t
 *
-gGREPath
+gGREBinPath
 ;
 namespace
 mozilla
