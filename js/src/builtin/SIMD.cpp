@@ -1953,7 +1953,7 @@ cx
 ;
 typeDescr
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 SimdTypeDescr
 >
@@ -2124,7 +2124,7 @@ cx
 ;
 proto
 =
-NewObjectWithProto
+NewObjectWithGivenProto
 <
 TypedProto
 >
