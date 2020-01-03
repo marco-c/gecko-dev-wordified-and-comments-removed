@@ -312,13 +312,9 @@ false
 ;
 boolean
 attributes
-=
-false
 ;
 boolean
 characterData
-=
-false
 ;
 boolean
 subtree
@@ -327,13 +323,9 @@ false
 ;
 boolean
 attributeOldValue
-=
-false
 ;
 boolean
 characterDataOldValue
-=
-false
 ;
 sequence
 <
