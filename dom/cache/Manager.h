@@ -725,6 +725,11 @@ nsID
 aDeletedBodyIdList
 )
 ;
+void
+MaybeAllowContextToClose
+(
+)
+;
 nsRefPtr
 <
 ManagerId
