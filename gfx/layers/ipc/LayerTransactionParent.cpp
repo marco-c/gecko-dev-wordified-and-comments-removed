@@ -961,7 +961,7 @@ profiler_tracing
 Paint
 "
 "
-Composite
+LayerTransaction
 "
 TRACING_INTERVAL_START
 )
@@ -3413,6 +3413,17 @@ severity
 )
 ;
 }
+profiler_tracing
+(
+"
+Paint
+"
+"
+LayerTransaction
+"
+TRACING_INTERVAL_END
+)
+;
 return
 true
 ;
