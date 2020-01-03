@@ -606,6 +606,10 @@ aItemId
 const
 nsACString
 &
+aBookmarkGuid
+const
+nsACString
+&
 aURI
 const
 nsACString
