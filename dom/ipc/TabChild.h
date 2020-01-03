@@ -1995,6 +1995,14 @@ double
 aScale
 )
 ;
+void
+GetMaxTouchPoints
+(
+uint32_t
+*
+aTouchPoints
+)
+;
 ScreenOrientation
 GetOrientation
 (

@@ -926,6 +926,14 @@ aObserver
 )
 override
 ;
+virtual
+uint32_t
+GetMaxTouchPoints
+(
+)
+const
+override
+;
 protected
 :
 bool
