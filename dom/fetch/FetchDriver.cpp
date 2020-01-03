@@ -2859,7 +2859,7 @@ get
 ;
 result
 .
-ClearMessage
+SuppressException
 (
 )
 ;

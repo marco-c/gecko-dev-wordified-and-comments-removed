@@ -785,7 +785,7 @@ mCacheId
 ;
 mResult
 .
-ClearMessage
+SuppressException
 (
 )
 ;
@@ -1982,7 +1982,7 @@ Failed
 {
 headerRv
 .
-ClearMessage
+SuppressException
 (
 )
 ;
@@ -2023,7 +2023,7 @@ Failed
 {
 headerRv
 .
-ClearMessage
+SuppressException
 (
 )
 ;

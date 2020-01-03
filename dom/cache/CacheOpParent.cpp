@@ -959,7 +959,7 @@ void_t
 ;
 aRv
 .
-ClearMessage
+SuppressException
 (
 )
 ;
