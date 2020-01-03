@@ -254,11 +254,6 @@ PageMenu
 jsm
 '
 '
-PermissionsUtils
-.
-jsm
-'
-'
 PopupNotifications
 .
 jsm
