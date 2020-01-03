@@ -1802,7 +1802,6 @@ aUseUserFontSet
 gfxFloat
 zeroWidth
 =
-(
 fm
 -
 >
@@ -1818,10 +1817,13 @@ GetFirstValidFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 .
 zeroOrAveCharWidth
-)
 ;
 return
 ScaleCoordRound

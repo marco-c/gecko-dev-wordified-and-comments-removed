@@ -745,6 +745,10 @@ GetFirstValidFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
 }

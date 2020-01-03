@@ -16703,6 +16703,10 @@ GetFirstValidFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
 gfxFloat

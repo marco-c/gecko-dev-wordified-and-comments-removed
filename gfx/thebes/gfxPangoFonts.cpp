@@ -6675,6 +6675,10 @@ font
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
 if

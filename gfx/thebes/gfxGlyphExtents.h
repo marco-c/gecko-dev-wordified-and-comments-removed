@@ -7,6 +7,13 @@ GFX_GLYPHEXTENTS_H
 #
 include
 "
+gfxFont
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -36,9 +43,6 @@ h
 "
 class
 gfxContext
-;
-class
-gfxFont
 ;
 struct
 gfxRect
@@ -164,6 +168,11 @@ GetTightGlyphExtentsAppUnits
 gfxFont
 *
 aFont
+gfxFont
+:
+:
+Orientation
+aOrientation
 gfxContext
 *
 aContext

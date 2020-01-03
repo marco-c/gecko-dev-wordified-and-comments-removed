@@ -3356,6 +3356,10 @@ aFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 .
 aveCharWidth
@@ -4047,6 +4051,7 @@ mFUnitsConvFactor
 {
 GetMetrics
 (
+eHorizontal
 )
 ;
 }
@@ -9368,6 +9373,7 @@ height
 =
 GetMetrics
 (
+eHorizontal
 )
 .
 maxAscent
@@ -10723,6 +10729,29 @@ GetAppUnitsPerDevUnit
 (
 )
 ;
+gfxFont
+:
+:
+Orientation
+orientation
+=
+aTextRun
+-
+>
+IsVertical
+(
+)
+?
+gfxFont
+:
+:
+eVertical
+:
+gfxFont
+:
+:
+eHorizontal
+;
 const
 gfxFont
 :
@@ -10733,6 +10762,7 @@ fontMetrics
 =
 GetMetrics
 (
+orientation
 )
 ;
 RunMetrics
@@ -11063,6 +11093,7 @@ extents
 GetTightGlyphExtentsAppUnits
 (
 this
+orientation
 aRefContext
 glyphIndex
 &
@@ -11268,6 +11299,7 @@ extents
 GetTightGlyphExtentsAppUnits
 (
 this
+orientation
 aRefContext
 glyphIndex
 &
@@ -14933,6 +14965,8 @@ SetupGlyphExtents
 gfxContext
 *
 aContext
+Orientation
+aOrientation
 uint32_t
 aGlyphID
 bool
@@ -15083,6 +15117,7 @@ fontMetrics
 =
 GetMetrics
 (
+aOrientation
 )
 ;
 int32_t
@@ -17404,6 +17439,7 @@ case
 return
 GetMetrics
 (
+eHorizontal
 )
 .
 zeroOrAveCharWidth
@@ -17414,6 +17450,7 @@ case
 return
 GetMetrics
 (
+eHorizontal
 )
 .
 spaceWidth

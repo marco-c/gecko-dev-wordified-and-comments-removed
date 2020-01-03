@@ -8567,6 +8567,10 @@ font
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
 }
@@ -28045,6 +28049,10 @@ firstFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 )
 ;
@@ -31541,6 +31549,10 @@ firstFont
 >
 GetMetrics
 (
+gfxFont
+:
+:
+eHorizontal
 )
 ;
 gfxFloat
