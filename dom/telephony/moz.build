@@ -141,6 +141,11 @@ TelephonyCallId
 .
 h
 '
+'
+USSDSession
+.
+h
+'
 ]
 EXPORTS
 .
@@ -239,6 +244,11 @@ cpp
 '
 '
 TelephonyDialCallback
+.
+cpp
+'
+'
+USSDSession
 .
 cpp
 '
