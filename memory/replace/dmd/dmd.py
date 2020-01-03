@@ -1591,6 +1591,21 @@ frameTable
 ]
     
 if
+mode
+=
+=
+'
+scan
+'
+:
+        
+mode
+=
+'
+live
+'
+    
+if
 not
 mode
 in
