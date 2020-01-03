@@ -976,7 +976,7 @@ browser
 -
 destroyed
 '
-false
+true
 )
 ;
 this
@@ -4731,8 +4731,6 @@ subject
 this
 .
 _frameLoader
-.
-tabParent
 )
 {
 Services
@@ -4764,7 +4762,6 @@ this
 .
 _doCommandHandlerBinder
 )
-;
 }
 break
 ;
