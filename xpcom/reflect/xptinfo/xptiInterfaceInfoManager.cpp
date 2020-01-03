@@ -1325,10 +1325,12 @@ aInterfaces
 ;
 }
 struct
+MOZ_STACK_CLASS
 ArrayAndPrefix
 {
 nsISupportsArray
 *
+MOZ_NON_OWNING_REF
 array
 ;
 const
