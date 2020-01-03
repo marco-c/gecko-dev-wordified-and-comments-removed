@@ -3004,6 +3004,15 @@ AnimationArray
 aAnimations
 )
 ;
+void
+StartPendingAnimations
+(
+const
+TimeStamp
+&
+aReadyTime
+)
+;
 Animation
 *
 AddAnimationForNextTransaction

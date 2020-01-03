@@ -2586,6 +2586,14 @@ Now
 (
 )
 ;
+mRoot
+-
+>
+StartPendingAnimations
+(
+mAnimationReadyTime
+)
+;
 }
 #
 ifdef
