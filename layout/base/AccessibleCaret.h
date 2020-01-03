@@ -427,9 +427,7 @@ aRect
 width
 /
 2
-aRect
-.
-height
+0
 )
 ;
 }
