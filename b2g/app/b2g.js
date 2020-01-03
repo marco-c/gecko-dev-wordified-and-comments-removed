@@ -6701,7 +6701,7 @@ selectioncaret
 .
 enabled
 "
-true
+false
 )
 ;
 pref
