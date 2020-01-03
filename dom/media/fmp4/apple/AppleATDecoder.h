@@ -142,10 +142,7 @@ AudioDecoderConfig
 &
 mConfig
 ;
-mozilla
-:
-:
-Vector
+nsTArray
 <
 uint8_t
 >
@@ -221,10 +218,7 @@ AudioStreamBasicDescription
 &
 aDesc
 const
-mozilla
-:
-:
-Vector
+nsTArray
 <
 uint8_t
 >

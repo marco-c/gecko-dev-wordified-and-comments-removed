@@ -1453,10 +1453,7 @@ AudioStreamBasicDescription
 &
 aDesc
 const
-mozilla
-:
-:
-Vector
+nsTArray
 <
 uint8_t
 >
@@ -1508,7 +1505,7 @@ mMagicCookieSize
 =
 aExtraData
 .
-length
+Length
 (
 )
 ;
@@ -1518,7 +1515,7 @@ mMagicCookie
 =
 aExtraData
 .
-begin
+Elements
 (
 )
 ;
@@ -1774,7 +1771,7 @@ aSample
 !
 mMagicCookie
 .
-length
+Length
 (
 )
 )
@@ -1811,12 +1808,13 @@ GetInputAudioDescription
 inputFormat
 mMagicCookie
 .
-length
+Length
 (
 )
 ?
 mMagicCookie
 :
+*
 mConfig
 .
 extra_data
@@ -2146,7 +2144,7 @@ decoder
 >
 mMagicCookie
 .
-append
+AppendElements
 (
 data
 .
@@ -2331,7 +2329,7 @@ mFileStreamError
 |
 mMagicCookie
 .
-length
+Length
 (
 )
 )
