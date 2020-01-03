@@ -1936,6 +1936,14 @@ ins
 )
 ;
 bool
+visitSimdUnaryArith
+(
+MSimdUnaryArith
+*
+ins
+)
+;
+bool
 visitSimdBinaryComp
 (
 MSimdBinaryComp

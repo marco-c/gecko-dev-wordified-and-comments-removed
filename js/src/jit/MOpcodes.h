@@ -64,6 +64,11 @@ SimdSignMask
 \
 _
 (
+SimdUnaryArith
+)
+\
+_
+(
 SimdBinaryComp
 )
 \
