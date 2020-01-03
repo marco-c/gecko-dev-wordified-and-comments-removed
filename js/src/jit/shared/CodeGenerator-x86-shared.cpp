@@ -15136,7 +15136,7 @@ case
 MSimdBinaryArith
 :
 :
-Add
+Op_add
 :
 masm
 .
@@ -15153,7 +15153,7 @@ case
 MSimdBinaryArith
 :
 :
-Sub
+Op_sub
 :
 masm
 .
@@ -15170,7 +15170,7 @@ case
 MSimdBinaryArith
 :
 :
-Mul
+Op_mul
 :
 {
 if
@@ -15315,7 +15315,7 @@ case
 MSimdBinaryArith
 :
 :
-Div
+Op_div
 :
 break
 ;
@@ -15323,7 +15323,7 @@ case
 MSimdBinaryArith
 :
 :
-Max
+Op_max
 :
 break
 ;
@@ -15331,7 +15331,7 @@ case
 MSimdBinaryArith
 :
 :
-Min
+Op_min
 :
 break
 ;
@@ -15339,13 +15339,13 @@ case
 MSimdBinaryArith
 :
 :
-MinNum
+Op_minNum
 :
 case
 MSimdBinaryArith
 :
 :
-MaxNum
+Op_maxNum
 :
 break
 ;
@@ -15432,7 +15432,7 @@ case
 MSimdBinaryArith
 :
 :
-Add
+Op_add
 :
 masm
 .
@@ -15449,7 +15449,7 @@ case
 MSimdBinaryArith
 :
 :
-Sub
+Op_sub
 :
 masm
 .
@@ -15466,7 +15466,7 @@ case
 MSimdBinaryArith
 :
 :
-Mul
+Op_mul
 :
 masm
 .
@@ -15483,7 +15483,7 @@ case
 MSimdBinaryArith
 :
 :
-Div
+Op_div
 :
 masm
 .
@@ -15500,7 +15500,7 @@ case
 MSimdBinaryArith
 :
 :
-Max
+Op_max
 :
 {
 FloatRegister
@@ -15593,7 +15593,7 @@ case
 MSimdBinaryArith
 :
 :
-Min
+Op_min
 :
 {
 FloatRegister
@@ -15644,7 +15644,7 @@ case
 MSimdBinaryArith
 :
 :
-MinNum
+Op_minNum
 :
 {
 FloatRegister
@@ -15845,7 +15845,7 @@ case
 MSimdBinaryArith
 :
 :
-MaxNum
+Op_maxNum
 :
 {
 FloatRegister
