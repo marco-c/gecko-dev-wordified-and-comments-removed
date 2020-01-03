@@ -1877,8 +1877,18 @@ self
 verbose
 :
             
-color
+if
+self
+.
+terminal
+is
+not
+None
+:
+                
+status
 =
+(
 self
 .
 terminal
@@ -1892,6 +1902,10 @@ self
 terminal
 .
 green
+)
+(
+status
+)
             
 rv
 =
@@ -1902,10 +1916,7 @@ join
 (
 [
 subtest
-color
-(
 status
-)
 message
 ]
 )
