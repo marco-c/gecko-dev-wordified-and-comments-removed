@@ -1243,7 +1243,7 @@ data
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -1848,7 +1848,7 @@ bytepp
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -2651,7 +2651,8 @@ end
 )
 ;
 }
-uint32_t
+long
+int
 frameDelayUs
 =
 1000000
@@ -2687,7 +2688,7 @@ parts
 i
 ]
 ;
-uint32_t
+int32_t
 j
 =
 0
@@ -2908,6 +2909,9 @@ wchar_t
 }
 if
 (
+(
+uint32_t
+)
 buf
 -
 >
@@ -2919,6 +2923,9 @@ frame
 height
 &
 &
+(
+uint32_t
+)
 buf
 -
 >
@@ -2953,6 +2960,9 @@ bytepp
 else
 if
 (
+(
+uint32_t
+)
 buf
 -
 >
@@ -2964,6 +2974,9 @@ frame
 height
 &
 &
+(
+uint32_t
+)
 buf
 -
 >
@@ -3060,7 +3073,7 @@ bytepp
 ;
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -3152,13 +3165,13 @@ Frame
 delay
 is
 %
-d
+ld
 us
 but
 decoding
 took
 %
-d
+ld
 us
 "
 frameDelayUs
