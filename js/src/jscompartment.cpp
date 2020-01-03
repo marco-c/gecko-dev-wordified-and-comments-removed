@@ -296,10 +296,6 @@ globalWriteBarriered
 (
 false
 )
-neuteredTypedObjects
-(
-0
-)
 propertyTree
 (
 thisForCtor

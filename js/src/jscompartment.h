@@ -918,9 +918,6 @@ regExps
 bool
 globalWriteBarriered
 ;
-int32_t
-neuteredTypedObjects
-;
 public
 :
 void
