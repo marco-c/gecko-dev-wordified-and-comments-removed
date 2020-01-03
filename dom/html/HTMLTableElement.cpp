@@ -4043,7 +4043,7 @@ paddingLeft
 aData
 -
 >
-ValueForPaddingLeftValue
+ValueForPaddingLeft
 (
 )
 ;
@@ -4073,7 +4073,7 @@ paddingRight
 aData
 -
 >
-ValueForPaddingRightValue
+ValueForPaddingRight
 (
 )
 ;
