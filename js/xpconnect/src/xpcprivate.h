@@ -6118,6 +6118,14 @@ GET_IT
 WANT_PRECREATE
 )
 bool
+WantCreate
+(
+)
+GET_IT
+(
+WANT_CREATE
+)
+bool
 WantAddProperty
 (
 )
