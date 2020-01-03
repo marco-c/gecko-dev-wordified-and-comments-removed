@@ -3130,9 +3130,9 @@ require
 "
 sdk
 /
-core
-/
 event
+/
+core
 "
 )
 ;
