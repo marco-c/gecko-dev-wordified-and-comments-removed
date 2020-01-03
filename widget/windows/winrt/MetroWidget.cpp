@@ -6929,8 +6929,6 @@ OnFocusChange
 true
 this
 mInputContext
-.
-mIMEState
 )
 ;
 case
@@ -6945,8 +6943,6 @@ OnFocusChange
 false
 this
 mInputContext
-.
-mIMEState
 )
 ;
 case
