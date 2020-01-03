@@ -213,6 +213,15 @@ data
 )
 ;
 nsresult
+RemoveCrashReportAnnotation
+(
+const
+nsACString
+&
+key
+)
+;
+nsresult
 AppendAppNotesToCrashReport
 (
 const
