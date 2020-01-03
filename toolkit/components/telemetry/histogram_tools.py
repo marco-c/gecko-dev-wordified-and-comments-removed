@@ -328,16 +328,6 @@ current
 =
 dmin
     
-if
-current
-=
-=
-0
-:
-current
-=
-1
-    
 ret_array
 [
 1
@@ -1306,7 +1296,7 @@ linear_buckets
 count
 '
 :
-exponential_buckets
+linear_buckets
                   
 '
 enumerated
@@ -1394,7 +1384,7 @@ count
 :
 Histogram
 .
-count_bucket_parameters
+boolean_flag_bucket_parameters
             
 '
 enumerated
@@ -1486,12 +1476,6 @@ always_allowed_keys
             
 '
 flag
-'
-:
-always_allowed_keys
-            
-'
-count
 '
 :
 always_allowed_keys
@@ -1823,22 +1807,6 @@ return
 1
 2
 3
-)
-    
-staticmethod
-    
-def
-count_bucket_parameters
-(
-definition
-)
-:
-        
-return
-(
-1
-10000
-100
 )
     
 staticmethod
