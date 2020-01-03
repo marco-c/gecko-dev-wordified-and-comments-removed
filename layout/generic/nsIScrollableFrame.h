@@ -650,6 +650,15 @@ const
 =
 0
 ;
+virtual
+void
+MarkScrollbarsDirtyForReflow
+(
+)
+const
+=
+0
+;
 }
 ;
 #
