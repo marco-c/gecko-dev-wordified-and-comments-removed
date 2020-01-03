@@ -35,6 +35,10 @@ multicol3
 #
 Pagination
 tests
+asserts
+(
+3
+)
 =
 =
 abspos
@@ -53,6 +57,9 @@ breaking
 ref
 .
 xhtml
+#
+bug
+1067755
 =
 =
 abspos
