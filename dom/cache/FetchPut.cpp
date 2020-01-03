@@ -2094,6 +2094,15 @@ mListener
 return
 ;
 }
+nsRefPtr
+<
+FetchPut
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mListener
 -
 >
