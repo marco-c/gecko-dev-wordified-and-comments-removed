@@ -1735,6 +1735,11 @@ ServiceWorkerRegistration
 webidl
 '
 '
+SettingChangeNotification
+.
+webidl
+'
+'
 SettingsManager
 .
 webidl
