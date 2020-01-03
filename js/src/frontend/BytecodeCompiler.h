@@ -29,9 +29,6 @@ LifoAlloc
 class
 ScriptSourceObject
 ;
-class
-StaticEvalObject
-;
 struct
 SourceCompressionTask
 ;
@@ -52,12 +49,6 @@ HandleObject
 scopeChain
 HandleScript
 evalCaller
-Handle
-<
-StaticEvalObject
-*
->
-evalStaticScope
 const
 ReadOnlyCompileOptions
 &

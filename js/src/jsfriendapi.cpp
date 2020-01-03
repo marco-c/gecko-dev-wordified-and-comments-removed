@@ -1831,7 +1831,7 @@ NoGC
 >
 :
 :
-Function
+FUNCTION
 )
 curr
 =

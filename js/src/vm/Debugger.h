@@ -3856,9 +3856,6 @@ HandleValue
 thisv
 AbstractFramePtr
 frame
-jsbytecode
-*
-pc
 mozilla
 :
 :

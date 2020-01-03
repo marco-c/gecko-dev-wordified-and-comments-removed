@@ -23057,7 +23057,7 @@ script
 )
 -
 >
-getStaticBlockScope
+getStaticScope
 (
 pc
 )

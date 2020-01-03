@@ -872,7 +872,7 @@ pc
 ;
 extern
 void
-UnwindAllScopesInFrame
+UnwindAllScopes
 (
 JSContext
 *
