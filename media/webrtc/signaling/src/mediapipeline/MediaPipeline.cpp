@@ -6463,6 +6463,11 @@ kVideoI420
 0
 )
 ;
+free
+(
+yuv
+)
+;
 }
 else
 {
