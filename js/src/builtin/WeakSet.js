@@ -75,6 +75,11 @@ value
 ThrowError
 (
 JSMSG_NOT_NONNULL_OBJECT
+DecompileArg
+(
+0
+value
+)
 )
 ;
 callFunction

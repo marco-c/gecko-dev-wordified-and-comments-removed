@@ -1639,6 +1639,10 @@ cx
 js_GetErrorMessage
 nullptr
 JSMSG_NOT_NONNULL_OBJECT
+InformalValueTypeName
+(
+thisValue
+)
 )
 ;
 return

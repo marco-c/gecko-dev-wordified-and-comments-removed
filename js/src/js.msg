@@ -1017,10 +1017,12 @@ function
 MSG_DEF
 (
 JSMSG_NOT_NONNULL_OBJECT
-0
+1
 JSEXN_TYPEERR
 "
-value
+{
+0
+}
 is
 not
 a
