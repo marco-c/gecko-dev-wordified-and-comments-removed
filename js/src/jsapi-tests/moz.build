@@ -194,6 +194,11 @@ testDefinePropertyIgnoredAttributes
 cpp
 '
 '
+testDifferentNewTargetInvokeConstructor
+.
+cpp
+'
+'
 testEnclosingFunction
 .
 cpp
