@@ -4877,12 +4877,6 @@ ZealLimit
 =
 14
 ;
-extern
-const
-char
-*
-ZealModeHelpText
-;
 enum
 VerifierType
 {
@@ -4893,6 +4887,12 @@ PostBarrierVerifier
 #
 ifdef
 JS_GC_ZEAL
+extern
+const
+char
+*
+ZealModeHelpText
+;
 void
 VerifyBarriers
 (
