@@ -674,6 +674,10 @@ CreateTextRangeArray
 GtkIMContext
 *
 aContext
+const
+nsAString
+&
+aLastDispatchedData
 )
 ;
 void
