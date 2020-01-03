@@ -96,10 +96,11 @@ n
 '
 )
     
+staticmethod
+    
 def
 update_granularity
 (
-self
 )
 :
 return
@@ -224,10 +225,11 @@ self
 .
 counters_width
     
+staticmethod
+    
 def
 update_granularity
 (
-self
 )
 :
         
