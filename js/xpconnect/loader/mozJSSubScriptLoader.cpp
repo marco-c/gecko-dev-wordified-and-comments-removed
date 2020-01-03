@@ -1885,13 +1885,12 @@ else
 {
 ok
 =
-JS_ExecuteScriptVersion
+JS_ExecuteScript
 (
 cx
 targetObj
 script
 retval
-version
 )
 ;
 }

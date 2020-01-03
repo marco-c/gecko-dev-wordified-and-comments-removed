@@ -4172,12 +4172,11 @@ script
 {
 ok
 =
-JS_ExecuteScriptVersion
+JS_ExecuteScript
 (
 cx
 obj
 script
-JSVERSION_LATEST
 )
 ;
 }
