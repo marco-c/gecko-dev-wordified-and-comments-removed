@@ -247,7 +247,7 @@ args
 MOZ_LOG
 (
 gOfflineCacheUpdateLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -261,7 +261,7 @@ LOG_ENABLED
 MOZ_LOG_TEST
 (
 gOfflineCacheUpdateLog
-4
+PR_LOG_DEBUG
 )
 namespace
 mozilla

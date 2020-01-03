@@ -214,7 +214,7 @@ args
 MOZ_LOG
 (
 gPrefetchLog
-4
+PR_LOG_DEBUG
 args
 )
 #
@@ -228,7 +228,7 @@ LOG_ENABLED
 MOZ_LOG_TEST
 (
 gPrefetchLog
-4
+PR_LOG_DEBUG
 )
 #
 define

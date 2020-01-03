@@ -144,7 +144,7 @@ g_Spaces
 MOZ_LOG_TEST
 (
 g_LogMod
-1
+PR_LOG_ERROR
 )
 )
 {
@@ -306,7 +306,7 @@ CAN_RUN
 MOZ_LOG_TEST
 (
 g_LogMod
-1
+PR_LOG_ERROR
 )
 ;
 }

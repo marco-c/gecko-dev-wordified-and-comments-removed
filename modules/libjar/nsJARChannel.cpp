@@ -236,7 +236,7 @@ LOG_ENABLED
 MOZ_LOG_TEST
 (
 gJarProtocolLog
-4
+PR_LOG_DEBUG
 )
 class
 nsJARInputThunk
