@@ -543,10 +543,14 @@ widgets
 async
 UpdatePluginConfigurations
 (
+nsIntPoint
+aContentOffset
+nsIntRegion
+aVisibleRegion
 PluginWindowData
 [
 ]
-plugins
+aPlugins
 )
 ;
 parent

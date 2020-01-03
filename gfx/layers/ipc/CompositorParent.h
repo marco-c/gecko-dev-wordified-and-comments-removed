@@ -1011,6 +1011,9 @@ PluginWindowData
 >
 mPluginData
 ;
+bool
+mUpdatedPluginDataAvailable
+;
 }
 ;
 static
