@@ -790,6 +790,11 @@ class
 SourceSurfaceSkia
 ;
 void
+SnapshotDestroyed
+(
+)
+;
+void
 MarkChanged
 (
 )
@@ -838,10 +843,8 @@ SkCanvas
 >
 mCanvas
 ;
-RefPtr
-<
 SourceSurfaceSkia
->
+*
 mSnapshot
 ;
 }
