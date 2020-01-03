@@ -96,6 +96,7 @@ aWorkerPrivate
 Promise
 *
 aWorkerPromise
+const
 JSStructuredCloneCallbacks
 *
 aCallbacks
@@ -264,6 +265,7 @@ mWorkerPromise
 bool
 mCleanedUp
 ;
+const
 JSStructuredCloneCallbacks
 *
 mCallbacks

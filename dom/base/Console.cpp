@@ -550,6 +550,8 @@ workers
 )
 ;
 }
+static
+const
 JSStructuredCloneCallbacks
 gConsoleCallbacks
 =

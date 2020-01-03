@@ -11874,6 +11874,7 @@ DOMGCSliceCallback
 )
 ;
 static
+const
 JSStructuredCloneCallbacks
 cloneCallbacks
 =
@@ -11894,6 +11895,7 @@ cloneCallbacks
 )
 ;
 static
+const
 JS
 :
 :

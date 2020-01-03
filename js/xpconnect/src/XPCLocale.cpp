@@ -177,6 +177,7 @@ JSRuntime
 rt
 )
 {
+const
 JSLocaleCallbacks
 *
 lc
@@ -235,12 +236,14 @@ localeToUnicode
 LocaleToUnicode
 )
 ;
+const
 XPCLocaleCallbacks
 *
 ths
 =
 static_cast
 <
+const
 XPCLocaleCallbacks
 *
 >
@@ -256,7 +259,14 @@ AssertThreadSafety
 )
 ;
 return
+const_cast
+<
+XPCLocaleCallbacks
+*
+>
+(
 ths
+)
 ;
 }
 static
@@ -1038,6 +1048,7 @@ void
 AssertThreadSafety
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1206,6 +1217,7 @@ JSRuntime
 rt
 )
 {
+const
 XPCLocaleCallbacks
 *
 lc
