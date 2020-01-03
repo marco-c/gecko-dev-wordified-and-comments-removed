@@ -1436,15 +1436,6 @@ _isSignedIn
 )
 )
 {
-/
-/
-XXX
-to
-be
-implemented
--
-bug
-979845
 navigator
 .
 mozLoop
