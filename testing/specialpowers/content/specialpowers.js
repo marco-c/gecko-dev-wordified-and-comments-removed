@@ -153,12 +153,10 @@ _messageListener
 )
 ;
 let
-(
 self
 =
 this
-)
-{
+;
 Services
 .
 obs
@@ -259,7 +257,6 @@ destroyed
 false
 )
 ;
-}
 }
 SpecialPowers
 .
