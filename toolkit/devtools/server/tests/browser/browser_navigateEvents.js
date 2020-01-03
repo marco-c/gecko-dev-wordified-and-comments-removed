@@ -898,13 +898,13 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 addTab
 (
 URL1
+)
+.
+then
+(
 function
 (
 doc
