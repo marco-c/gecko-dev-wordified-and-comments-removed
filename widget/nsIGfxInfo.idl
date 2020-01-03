@@ -375,10 +375,11 @@ Don
 '
 t
 assign
+any
+value
+<
+=
 0
-or
--
-1
 *
 /
 /
@@ -543,6 +544,10 @@ Whether
 Stagefright
 is
 supported
+starting
+in
+17
+.
 *
 /
 const
@@ -559,6 +564,10 @@ Hardware
 acceleration
 is
 supported
+starting
+in
+31
+.
 *
 /
 const
@@ -576,6 +585,9 @@ is
 supported
 for
 layers
+starting
+in
+32
 .
 *
 /
@@ -594,6 +606,9 @@ video
 decoding
 is
 supported
+starting
+in
+36
 .
 *
 /
@@ -612,6 +627,9 @@ is
 supported
 for
 ANGLE
+starting
+in
+38
 .
 *
 /
