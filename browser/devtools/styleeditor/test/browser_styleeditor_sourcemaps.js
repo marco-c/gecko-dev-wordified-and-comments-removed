@@ -411,16 +411,6 @@ function
 (
 )
 {
-Services
-.
-prefs
-.
-setBoolPref
-(
-PREF
-true
-)
-;
 let
 {
 UI
