@@ -660,6 +660,9 @@ mIndexID
 ;
 nsRefPtr
 <
+a11y
+:
+:
 Accessible
 >
 mAccessItem
