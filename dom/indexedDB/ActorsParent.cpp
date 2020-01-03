@@ -10410,6 +10410,13 @@ recursive_triggers
 ON
 ;
 "
+"
+PRAGMA
+read_uncommitted
+=
+TRUE
+;
+"
 ;
 nsresult
 rv
