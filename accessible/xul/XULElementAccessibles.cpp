@@ -350,15 +350,13 @@ parent
 parent
 -
 >
-Tag
+IsXULElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 caption
+)
 )
 {
 Accessible
