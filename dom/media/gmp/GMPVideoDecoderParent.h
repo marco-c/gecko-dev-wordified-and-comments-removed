@@ -388,6 +388,11 @@ Recv__delete__
 )
 override
 ;
+void
+UnblockResetAndDrain
+(
+)
+;
 bool
 mIsOpen
 ;
@@ -396,6 +401,12 @@ mShuttingDown
 ;
 bool
 mActorDestroyed
+;
+bool
+mIsAwaitingResetComplete
+;
+bool
+mIsAwaitingDrainComplete
 ;
 nsRefPtr
 <
