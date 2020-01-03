@@ -1333,7 +1333,7 @@ when
 )
 ;
 static
-JSObject
+SavedFrame
 *
 getObjectAllocationSite
 (

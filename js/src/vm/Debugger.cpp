@@ -37167,7 +37167,7 @@ return
 true
 ;
 }
-JSObject
+SavedFrame
 *
 Debugger
 :
@@ -37221,7 +37221,16 @@ isSavedFrameAndNotProto
 metadata
 )
 ?
+&
 metadata
+-
+>
+as
+<
+SavedFrame
+>
+(
+)
 :
 nullptr
 ;
