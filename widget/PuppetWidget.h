@@ -476,6 +476,15 @@ aEvent
 )
 override
 ;
+nsEventStatus
+DispatchInputEvent
+(
+WidgetInputEvent
+*
+aEvent
+)
+override
+;
 NS_IMETHOD
 CaptureRollupEvents
 (

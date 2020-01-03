@@ -1332,6 +1332,7 @@ WidgetInputEvent
 *
 aEvent
 )
+override
 ;
 nsEventStatus
 DispatchAPZAwareEvent
