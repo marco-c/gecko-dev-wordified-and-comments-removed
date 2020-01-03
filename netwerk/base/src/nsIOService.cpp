@@ -2704,6 +2704,9 @@ loadInfo
 if
 (
 loadInfo
+&
+&
+loadInfo
 -
 >
 GetLoadingSandboxed
