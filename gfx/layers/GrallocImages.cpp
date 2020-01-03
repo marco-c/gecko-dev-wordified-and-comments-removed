@@ -116,7 +116,7 @@ mozilla
 namespace
 layers
 {
-uint32_t
+int32_t
 GrallocImage
 :
 :

@@ -4411,6 +4411,9 @@ continue
 if
 (
 (
+(
+size_t
+)
 ret
 +
 written
