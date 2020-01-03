@@ -2803,14 +2803,13 @@ MSE_DEBUG
 Found
 invalid
 data
-ignoring
-for
-now
 "
 )
 ;
-NeedMoreData
+RejectAppend
 (
+NS_ERROR_FAILURE
+__func__
 )
 ;
 return
