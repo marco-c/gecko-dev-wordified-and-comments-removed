@@ -82,7 +82,6 @@ const
 {
 dbg_assert
 dumpn
-update
 fetch
 }
 =
@@ -2773,7 +2772,9 @@ _state
 attached
 "
 ;
-update
+Object
+.
+assign
 (
 this
 .
@@ -2996,7 +2997,9 @@ wrongState
 }
 ;
 }
-update
+Object
+.
+assign
 (
 this
 .
@@ -18786,7 +18789,9 @@ PauseScopedActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 PauseScopedObjectActor
 .
@@ -18796,7 +18801,9 @@ ObjectActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 PauseScopedObjectActor
 .
@@ -18984,7 +18991,9 @@ return
 }
 )
 ;
-update
+Object
+.
+assign
 (
 PauseScopedObjectActor
 .
@@ -19964,7 +19973,9 @@ breakpointActorMap
 .
 deleteActor
 (
-update
+Object
+.
+assign
 (
 {
 }
@@ -21039,7 +21050,9 @@ ThreadActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 ChromeDebuggerActor
 .
@@ -21091,7 +21104,9 @@ ThreadActor
 prototype
 )
 ;
-update
+Object
+.
+assign
 (
 AddonThreadActor
 .
