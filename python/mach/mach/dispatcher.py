@@ -1492,6 +1492,17 @@ default
         
 elif
 extra
+and
+handler
+.
+cls
+.
+__name__
+!
+=
+'
+DeprecatedCommands
+'
 :
             
 raise
