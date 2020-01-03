@@ -1019,7 +1019,7 @@ R
 .
 drawable
 .
-new_tablet_default_favicon
+toolbar_favicon_default
 )
 ;
 return

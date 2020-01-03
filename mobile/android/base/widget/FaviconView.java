@@ -743,7 +743,7 @@ R
 .
 drawable
 .
-favicon
+favicon_globe
 )
 ;
 mDominantColor
