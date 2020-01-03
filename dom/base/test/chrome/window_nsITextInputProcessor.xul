@@ -7065,7 +7065,7 @@ iframe
 removeEventListener
 (
 "
-DOMContentLoaded
+load
 "
 arguments
 .
