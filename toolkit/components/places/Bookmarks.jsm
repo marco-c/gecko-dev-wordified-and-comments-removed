@@ -1764,7 +1764,7 @@ item
 parentGuid
 updatedItem
 .
-newParentGuid
+parentGuid
 ]
 )
 ;
