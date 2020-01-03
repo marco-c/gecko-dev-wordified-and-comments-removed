@@ -9936,7 +9936,7 @@ if
 (
 detectCrashes
 .
-DisableAcceleration
+Crashed
 (
 )
 )
