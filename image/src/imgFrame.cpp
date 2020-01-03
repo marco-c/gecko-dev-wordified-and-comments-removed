@@ -2111,6 +2111,11 @@ ToRect
 (
 aRegion
 .
+Intersect
+(
+available
+)
+.
 Rect
 (
 )
@@ -2161,6 +2166,11 @@ FillRect
 ToRect
 (
 aRegion
+.
+Intersect
+(
+available
+)
 .
 Rect
 (
@@ -2541,6 +2551,10 @@ if
 (
 !
 surf
+&
+&
+!
+mSinglePixel
 )
 {
 return
