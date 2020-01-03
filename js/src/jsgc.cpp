@@ -16206,7 +16206,7 @@ fop
 bool
 keepAtleastOne
 bool
-lastGC
+destroyingRuntime
 )
 {
 JSRuntime
@@ -16317,7 +16317,7 @@ dontDelete
 )
 |
 |
-lastGC
+destroyingRuntime
 )
 {
 if
@@ -16402,7 +16402,7 @@ FreeOp
 *
 fop
 bool
-lastGC
+destroyingRuntime
 )
 {
 AutoLockGC
@@ -16534,7 +16534,7 @@ hasMarkedCompartments
 )
 |
 |
-lastGC
+destroyingRuntime
 )
 {
 zone
@@ -16568,7 +16568,7 @@ sweepCompartments
 (
 fop
 false
-lastGC
+destroyingRuntime
 )
 ;
 MOZ_ASSERT
@@ -16601,7 +16601,7 @@ sweepCompartments
 (
 fop
 true
-lastGC
+destroyingRuntime
 )
 ;
 }
@@ -23632,7 +23632,7 @@ GCRuntime
 beginSweepPhase
 (
 bool
-lastGC
+destroyingRuntime
 )
 {
 MOZ_ASSERT
@@ -23665,7 +23665,7 @@ PHASE_SWEEP
 sweepOnBackgroundThread
 =
 !
-lastGC
+destroyingRuntime
 &
 &
 !
@@ -24607,7 +24607,7 @@ GCRuntime
 endSweepPhase
 (
 bool
-lastGC
+destroyingRuntime
 )
 {
 gcstats
@@ -24631,7 +24631,7 @@ rt
 ;
 MOZ_ASSERT_IF
 (
-lastGC
+destroyingRuntime
 !
 sweepOnBackgroundThread
 )
@@ -24786,13 +24786,13 @@ purge
 if
 (
 !
-lastGC
+destroyingRuntime
 )
 sweepZones
 (
 &
 fop
-lastGC
+destroyingRuntime
 )
 ;
 }
@@ -24868,13 +24868,13 @@ lock
 }
 if
 (
-lastGC
+destroyingRuntime
 )
 sweepZones
 (
 &
 fop
-lastGC
+destroyingRuntime
 )
 ;
 }
@@ -26829,7 +26829,7 @@ rt
 )
 ;
 bool
-lastGC
+destroyingRuntime
 =
 (
 reason
@@ -26979,7 +26979,7 @@ return
 if
 (
 !
-lastGC
+destroyingRuntime
 )
 pushZealSelectedObjects
 (
@@ -27101,7 +27101,7 @@ SWEEP
 ;
 beginSweepPhase
 (
-lastGC
+destroyingRuntime
 )
 ;
 if
@@ -27143,7 +27143,7 @@ break
 ;
 endSweepPhase
 (
-lastGC
+destroyingRuntime
 )
 ;
 incrementalState
