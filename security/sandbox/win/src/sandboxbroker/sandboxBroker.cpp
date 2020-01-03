@@ -1214,6 +1214,11 @@ MITIGATION_SEHOP
 sandbox
 :
 :
+MITIGATION_DEP_NO_ATL_THUNK
+|
+sandbox
+:
+:
 MITIGATION_DEP
 ;
 result
