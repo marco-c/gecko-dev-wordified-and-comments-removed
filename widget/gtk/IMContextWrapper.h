@@ -115,6 +115,12 @@ IsEnabled
 )
 const
 ;
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+const
+;
 void
 OnFocusWindow
 (
