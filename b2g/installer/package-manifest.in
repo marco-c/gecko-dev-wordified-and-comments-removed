@@ -5062,6 +5062,13 @@ components
 B2GAppMigrator
 .
 js
+BINPATH
+/
+components
+/
+B2GPresentationDevicePrompt
+.
+js
 #
 ifndef
 MOZ_WIDGET_GONK

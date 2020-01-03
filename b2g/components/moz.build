@@ -126,6 +126,11 @@ B2GAppMigrator
 js
 '
 '
+B2GPresentationDevicePrompt
+.
+js
+'
+'
 ContentPermissionPrompt
 .
 js
