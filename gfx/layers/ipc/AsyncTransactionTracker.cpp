@@ -455,7 +455,7 @@ lock
 sHolderLock
 )
 ;
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 [
 aTransactionTracker
 -
@@ -518,7 +518,7 @@ AsyncTransactionTracker
 iterator
 it
 =
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 find
 (
@@ -530,7 +530,7 @@ if
 it
 !
 =
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 end
 (
@@ -547,7 +547,7 @@ NotifyComplete
 (
 )
 ;
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 erase
 (
@@ -585,7 +585,7 @@ AsyncTransactionTracker
 iterator
 it
 =
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 find
 (
@@ -597,7 +597,7 @@ if
 it
 !
 =
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 end
 (
@@ -754,7 +754,7 @@ for
 (
 it
 =
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 begin
 (
@@ -763,7 +763,7 @@ begin
 it
 !
 =
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 end
 (
@@ -785,7 +785,7 @@ NotifyCancel
 )
 ;
 }
-mAsyncTransactionTrackeres
+mAsyncTransactionTrackers
 .
 clear
 (
