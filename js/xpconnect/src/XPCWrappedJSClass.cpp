@@ -792,9 +792,16 @@ cx
 if
 (
 !
-xpc
+AccessCheck
 :
 :
+isChrome
+(
+jsobj
+)
+|
+|
+!
 AccessCheck
 :
 :
@@ -803,7 +810,7 @@ isChrome
 js
 :
 :
-GetObjectCompartment
+UncheckedUnwrap
 (
 jsobj
 )
