@@ -235,3 +235,14 @@ CONFIG
 MOZ_ICU_CFLAGS
 '
 ]
+if
+CONFIG
+[
+'
+GNU_CXX
+'
+]
+:
+FAIL_ON_WARNINGS
+=
+True
