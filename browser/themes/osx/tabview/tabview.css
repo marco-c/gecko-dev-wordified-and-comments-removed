@@ -31,6 +31,19 @@ size
 12px
 ;
 }
+media
+not
+(
+-
+moz
+-
+mac
+-
+yosemite
+-
+theme
+)
+{
 #
 bg
 {
@@ -69,6 +82,7 @@ EDEDED
 D8D8D8
 )
 ;
+}
 }
 .
 tab
