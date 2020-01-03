@@ -448,7 +448,7 @@ cx
 HandleObject
 obj
 WarnOnceFlag
-slot
+flag
 unsigned
 errorNumber
 )
