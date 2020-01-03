@@ -20167,6 +20167,15 @@ aContent
 IsEditable
 (
 )
+&
+&
+!
+aContent
+-
+>
+IsInNativeAnonymousSubtree
+(
+)
 )
 {
 aContent
