@@ -1038,11 +1038,6 @@ this
 .
 _handleShareTabs
 }
-className
-=
-"
-disabled
-"
 >
 {
 l10n
