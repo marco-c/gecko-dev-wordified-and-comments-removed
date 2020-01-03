@@ -1482,7 +1482,7 @@ IsStylePaused
 newPlayer
 -
 >
-IsPaused
+IsPausedOrPausing
 (
 )
 )
@@ -1514,7 +1514,7 @@ IsStylePaused
 newPlayer
 -
 >
-IsPaused
+IsPausedOrPausing
 (
 )
 )

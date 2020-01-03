@@ -1486,7 +1486,7 @@ const
 {
 if
 (
-IsPaused
+IsPausedOrPausing
 (
 )
 |

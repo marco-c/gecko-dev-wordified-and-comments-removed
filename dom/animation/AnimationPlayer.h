@@ -539,7 +539,7 @@ EmptyString
 ;
 }
 bool
-IsPaused
+IsPausedOrPausing
 (
 )
 const
@@ -554,6 +554,15 @@ AnimationPlayState
 :
 :
 Paused
+|
+|
+mPendingState
+=
+=
+PendingState
+:
+:
+PausePending
 ;
 }
 bool
