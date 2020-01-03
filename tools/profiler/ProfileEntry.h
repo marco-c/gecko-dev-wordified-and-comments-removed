@@ -478,6 +478,8 @@ JSStreamWriter
 b
 int
 aThreadId
+float
+aSinceTime
 JSRuntime
 *
 rt
@@ -494,6 +496,8 @@ JSStreamWriter
 b
 int
 aThreadId
+float
+aSinceTime
 )
 ;
 void
@@ -633,6 +637,10 @@ std
 ostream
 &
 stream
+float
+aSinceTime
+=
+0
 )
 ;
 JSObject
@@ -642,6 +650,10 @@ ToJSObject
 JSContext
 *
 aCx
+float
+aSinceTime
+=
+0
 )
 ;
 PseudoStack
@@ -665,6 +677,10 @@ StreamJSObject
 JSStreamWriter
 &
 b
+float
+aSinceTime
+=
+0
 )
 ;
 void

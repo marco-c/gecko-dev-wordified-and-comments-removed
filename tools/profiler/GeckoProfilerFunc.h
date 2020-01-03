@@ -203,6 +203,8 @@ char
 *
 mozilla_sampler_get_profile
 (
+float
+aSinceTime
 )
 ;
 JSObject
@@ -212,6 +214,8 @@ mozilla_sampler_get_profile_data
 JSContext
 *
 aCx
+float
+aSinceTime
 )
 ;
 extern
