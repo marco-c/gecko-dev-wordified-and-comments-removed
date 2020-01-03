@@ -1530,6 +1530,13 @@ kNeckoStandaloneModule
 nullptr
 )
 ;
+RegisterModule
+(
+&
+kStunUDPSocketFilterHandlerModule
+nullptr
+)
+;
 #
 else
 RegisterModule
