@@ -314,6 +314,10 @@ GetPrincipal
 ;
 if
 (
+!
+streamPrincipal
+|
+|
 NS_FAILED
 (
 docPrincipal
