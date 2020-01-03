@@ -2445,9 +2445,14 @@ DestroyMediaStream
 (
 )
 {
+bool
+hadStream
+=
+mStream
+;
 if
 (
-mStream
+hadStream
 )
 {
 mStream
@@ -2468,6 +2473,9 @@ DestroyMediaStream
 ;
 if
 (
+hadStream
+&
+&
 Context
 (
 )
