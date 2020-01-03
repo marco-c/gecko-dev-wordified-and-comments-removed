@@ -6039,7 +6039,7 @@ message_
 }
 private
 :
-void
+bool
 populateUncaughtExceptionReport
 (
 JSContext
@@ -6050,7 +6050,7 @@ cx
 .
 )
 ;
-void
+bool
 populateUncaughtExceptionReportVA
 (
 JSContext
