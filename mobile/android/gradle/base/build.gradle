@@ -28,17 +28,6 @@ gradle
 "
 android
 {
-defaultConfig
-{
-applicationId
-'
-org
-.
-mozilla
-.
-gecko
-'
-}
 buildTypes
 {
 release
