@@ -480,16 +480,6 @@ SetImageFactory
 originalIF
 )
 ;
-GetContainer
-(
-)
--
->
-NotifyPaintedImage
-(
-image
-)
-;
 }
 already_AddRefed
 <

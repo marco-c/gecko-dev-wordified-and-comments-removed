@@ -855,10 +855,6 @@ mDroppedImageCount
 (
 0
 )
-mPreviousImagePainted
-(
-false
-)
 mCurrentImageComposited
 (
 false
@@ -1269,10 +1265,6 @@ mCurrentImageTimeStamp
 aTimeStamp
 ;
 }
-CurrentImageChanged
-(
-)
-;
 }
 void
 ImageContainer
@@ -1690,6 +1682,10 @@ mon
 (
 mReentrantMonitor
 )
+;
++
++
+mPaintCount
 ;
 while
 (
