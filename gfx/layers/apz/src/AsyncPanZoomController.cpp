@@ -4312,6 +4312,9 @@ ANIMATING_ZOOM
 case
 SMOOTH_SCROLL
 :
+case
+OVERSCROLL_ANIMATION
+:
 CurrentTouchBlock
 (
 )

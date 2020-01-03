@@ -16,7 +16,6 @@ HitTestResult
 HitNothing
 HitLayer
 HitDispatchToContentRegion
-HitOverscrolledApzc
 }
 ;
 }
