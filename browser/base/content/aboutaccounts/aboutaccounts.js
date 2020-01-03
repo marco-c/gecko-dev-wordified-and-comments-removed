@@ -961,14 +961,8 @@ accountData
 verified
 )
 {
-show
+openPrefs
 (
-"
-stage
-"
-"
-manage
-"
 )
 ;
 }

@@ -215,6 +215,12 @@ removeCurrentTab
 (
 )
 ;
+gBrowser
+.
+removeCurrentTab
+(
+)
+;
 yield
 fxAccounts
 .
