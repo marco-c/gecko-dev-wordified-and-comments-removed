@@ -3027,7 +3027,6 @@ getString
 "
 resource
 "
-null
 )
 )
 )
