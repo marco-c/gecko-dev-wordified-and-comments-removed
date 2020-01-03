@@ -12267,6 +12267,17 @@ if
 options
 .
 browserChrome
+and
+not
+(
+options
+.
+subsuite
+and
+options
+.
+e10s
+)
 :
       
 options
