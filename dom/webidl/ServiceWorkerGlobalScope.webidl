@@ -160,6 +160,11 @@ attribute
 Clients
 clients
 ;
+readonly
+attribute
+ServiceWorkerRegistration
+registration
+;
 attribute
 EventHandler
 oninstall

@@ -196,7 +196,7 @@ work
 Exposed
 =
 (
-ServiceWorker
+Worker
 Window
 )
 ]

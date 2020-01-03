@@ -67,6 +67,9 @@ Promise
 class
 RequestOrUSVString
 ;
+class
+ServiceWorkerRegistrationWorkerThread
+;
 namespace
 cache
 {
@@ -759,6 +762,12 @@ ServiceWorkerClients
 >
 mClients
 ;
+nsRefPtr
+<
+ServiceWorkerRegistrationWorkerThread
+>
+mRegistration
+;
 ~
 ServiceWorkerGlobalScope
 (
@@ -819,6 +828,12 @@ mScope
 ServiceWorkerClients
 *
 Clients
+(
+)
+;
+ServiceWorkerRegistrationWorkerThread
+*
+Registration
 (
 )
 ;

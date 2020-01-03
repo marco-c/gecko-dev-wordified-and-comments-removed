@@ -442,6 +442,9 @@ ServiceWorker
 ServiceWorkerGlobalScope
 "
 "
+ServiceWorkerRegistration
+"
+"
 TextDecoder
 "
 "
