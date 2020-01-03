@@ -5881,7 +5881,7 @@ defaultLeakThreshold
 tab
 "
 :
-10000
+14000
             
 "
 geckomediaplugin
