@@ -827,9 +827,9 @@ mozilla
 .
 gecko
 .
-toolbar
+widget
 .
-ActionBarViewFlipper
+GeckoViewFlipper
 android
 :
 id
@@ -854,7 +854,7 @@ layout_height
 "
 dimen
 /
-browser_toolbar_height
+browser_toolbar_height_flipper
 "
 android
 :
@@ -986,9 +986,9 @@ mozilla
 .
 gecko
 .
-toolbar
+widget
 .
-ActionBarViewFlipper
+GeckoViewFlipper
 >
 <
 /
