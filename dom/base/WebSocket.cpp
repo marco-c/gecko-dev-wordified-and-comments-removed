@@ -9061,6 +9061,15 @@ AssertIsOnTargetThread
 (
 )
 ;
+if
+(
+mDisconnected
+)
+{
+return
+NS_OK
+;
+}
 int64_t
 readyState
 =
