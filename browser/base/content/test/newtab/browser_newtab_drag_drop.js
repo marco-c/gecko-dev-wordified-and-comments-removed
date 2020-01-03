@@ -9,11 +9,6 @@ requestLongerTimeout
 )
 ;
 yield
-addNewTabPageTab
-(
-)
-;
-yield
 setLinks
 (
 "
