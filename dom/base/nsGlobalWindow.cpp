@@ -6047,11 +6047,6 @@ if
 mObserver
 )
 {
-NS_ADDREF
-(
-mObserver
-)
-;
 nsCOMPtr
 <
 nsIObserverService
@@ -6120,10 +6115,6 @@ else
 Freeze
 (
 )
-;
-mObserver
-=
-nullptr
 ;
 }
 gRefCnt
@@ -7331,11 +7322,6 @@ mObserver
 >
 Forget
 (
-)
-;
-NS_RELEASE
-(
-mObserver
 )
 ;
 }
