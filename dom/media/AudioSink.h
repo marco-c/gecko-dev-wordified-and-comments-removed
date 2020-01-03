@@ -247,6 +247,9 @@ mStartTime
 int64_t
 mWritten
 ;
+int64_t
+mLastGoodPosition
+;
 AudioInfo
 mInfo
 ;
