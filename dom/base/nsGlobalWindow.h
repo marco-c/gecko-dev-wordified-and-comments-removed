@@ -8231,6 +8231,11 @@ FireOnNewGlobalObject
 (
 )
 ;
+void
+DisconnectEventTargetObjects
+(
+)
+;
 protected
 :
 bool
