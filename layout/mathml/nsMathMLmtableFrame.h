@@ -325,7 +325,7 @@ RestyleTable
 )
 ;
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aColIndex
@@ -333,7 +333,7 @@ aColIndex
 MOZ_OVERRIDE
 ;
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aStartColIndex
@@ -343,7 +343,7 @@ aEndColIndex
 MOZ_OVERRIDE
 ;
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aRowIndex
@@ -351,7 +351,7 @@ aRowIndex
 MOZ_OVERRIDE
 ;
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aStartRowIndex

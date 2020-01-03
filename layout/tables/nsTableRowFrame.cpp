@@ -1491,7 +1491,7 @@ height
 =
 aTableFrame
 .
-GetCellSpacingY
+GetRowSpacing
 (
 rowX
 )
@@ -3159,7 +3159,7 @@ cellAvailWidth
 =
 aTableFrame
 .
-GetCellSpacingX
+GetColSpacing
 (
 colIndex
 +
@@ -3360,7 +3360,7 @@ space
 =
 aTableFrame
 .
-GetCellSpacingX
+GetColSpacing
 (
 colX
 -
@@ -3536,7 +3536,7 @@ space
 =
 aTableFrame
 .
-GetCellSpacingX
+GetColSpacing
 (
 colX
 -
@@ -4760,7 +4760,7 @@ x
 =
 aTableFrame
 .
-GetCellSpacingX
+GetColSpacing
 (
 cellColIndex
 )
@@ -5610,7 +5610,7 @@ shift
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowIndex
 )
@@ -5676,7 +5676,7 @@ shift
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 GetRowIndex
 (
@@ -6112,7 +6112,7 @@ width
 tableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 cellColIndex
 )
@@ -6138,7 +6138,7 @@ x
 tableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 cellColIndex
 )
@@ -6234,7 +6234,7 @@ height
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowFrame
 -

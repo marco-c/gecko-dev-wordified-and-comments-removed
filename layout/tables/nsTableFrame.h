@@ -1244,7 +1244,7 @@ aColIndex
 ;
 virtual
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aColIndex
@@ -1252,7 +1252,7 @@ aColIndex
 ;
 virtual
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aStartColIndex
@@ -1262,7 +1262,7 @@ aEndColIndex
 ;
 virtual
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aRowIndex
@@ -1270,7 +1270,7 @@ aRowIndex
 ;
 virtual
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aStartRowIndex
@@ -1281,12 +1281,12 @@ aEndRowIndex
 private
 :
 nscoord
-GetCellSpacingX
+GetColSpacing
 (
 )
 ;
 nscoord
-GetCellSpacingY
+GetRowSpacing
 (
 )
 ;

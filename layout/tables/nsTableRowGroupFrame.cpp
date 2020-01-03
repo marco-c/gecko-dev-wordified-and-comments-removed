@@ -1668,7 +1668,7 @@ cellSpacingY
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowFrame
 -
@@ -2158,7 +2158,7 @@ y
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 GetStartRowIndex
 (
@@ -2961,7 +2961,7 @@ cellSpacingY
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 startRowIndex
 +
@@ -3702,7 +3702,7 @@ heightOfRows
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 0
 numRows
@@ -4113,7 +4113,7 @@ rowHeight
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 startRowIndex
 +
@@ -4307,7 +4307,7 @@ height
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 GetStartRowIndex
 (
@@ -5465,7 +5465,7 @@ cellSpacingY
 aTableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowFrame
 -
@@ -7722,7 +7722,7 @@ cellSpacing
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 startRowIndex
 std
@@ -7833,7 +7833,7 @@ cellSpacing
 tableFrame
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1

@@ -1112,7 +1112,7 @@ left
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
@@ -1125,7 +1125,7 @@ right
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 0
 )
@@ -1156,7 +1156,7 @@ left
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 columnIndex
 -
@@ -1172,7 +1172,7 @@ right
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 columnIndex
 +
@@ -1189,7 +1189,7 @@ left
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 columnIndex
 -
@@ -1205,7 +1205,7 @@ right
 table
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 columnIndex
 )
@@ -1226,7 +1226,7 @@ top
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 -
 1
@@ -1239,7 +1239,7 @@ bottom
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 0
 )
@@ -1270,7 +1270,7 @@ top
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowIndex
 -
@@ -1286,7 +1286,7 @@ bottom
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowIndex
 +
@@ -1303,7 +1303,7 @@ top
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowIndex
 -
@@ -1319,7 +1319,7 @@ bottom
 table
 -
 >
-GetCellSpacingY
+GetRowSpacing
 (
 rowIndex
 )
@@ -4245,7 +4245,7 @@ nscoord
 nsMathMLmtableFrame
 :
 :
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aColIndex
@@ -4260,7 +4260,7 @@ return
 nsTableFrame
 :
 :
-GetCellSpacingX
+GetColSpacing
 (
 aColIndex
 )
@@ -4373,7 +4373,7 @@ nscoord
 nsMathMLmtableFrame
 :
 :
-GetCellSpacingX
+GetColSpacing
 (
 int32_t
 aStartColIndex
@@ -4390,7 +4390,7 @@ return
 nsTableFrame
 :
 :
-GetCellSpacingX
+GetColSpacing
 (
 aStartColIndex
 aEndColIndex
@@ -4586,7 +4586,7 @@ nscoord
 nsMathMLmtableFrame
 :
 :
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aRowIndex
@@ -4601,7 +4601,7 @@ return
 nsTableFrame
 :
 :
-GetCellSpacingY
+GetRowSpacing
 (
 aRowIndex
 )
@@ -4714,7 +4714,7 @@ nscoord
 nsMathMLmtableFrame
 :
 :
-GetCellSpacingY
+GetRowSpacing
 (
 int32_t
 aStartRowIndex
@@ -4731,7 +4731,7 @@ return
 nsTableFrame
 :
 :
-GetCellSpacingY
+GetRowSpacing
 (
 aStartRowIndex
 aEndRowIndex

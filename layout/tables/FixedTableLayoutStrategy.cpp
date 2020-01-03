@@ -133,7 +133,7 @@ result
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
@@ -198,7 +198,7 @@ spacing
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 col
 )
@@ -641,7 +641,7 @@ tableWidth
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
@@ -1167,7 +1167,7 @@ spacing
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 col
 )

@@ -1936,7 +1936,7 @@ add
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 colCount
 )
@@ -2009,7 +2009,7 @@ add
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 col
 -
@@ -3006,7 +3006,7 @@ subtract
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 col
 -
@@ -3030,7 +3030,7 @@ subtract
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 -
 1
@@ -3039,7 +3039,7 @@ GetCellSpacingX
 mTableFrame
 -
 >
-GetCellSpacingX
+GetColSpacing
 (
 aColCount
 )
