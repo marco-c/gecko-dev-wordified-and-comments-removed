@@ -105,7 +105,6 @@ carry_buf_len
 ;
 unsigned
 int
-linelen
 pos
 ;
 const
@@ -161,10 +160,6 @@ carry_buf_len
 =
 0
 ;
-linelen
-=
-0
-;
 while
 (
 *
@@ -211,6 +206,8 @@ p
 +
 +
 ;
+unsigned
+int
 linelen
 =
 p
