@@ -1,12 +1,15 @@
 obj
 =
-wrap
+new
+Proxy
 (
 Number
 .
 bind
 (
 )
+{
+}
 )
 ;
 Object

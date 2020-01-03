@@ -11,9 +11,12 @@ strict
 }
 g
 =
-wrap
+new
+Proxy
 (
 f
+{
+}
 )
 ;
 Object

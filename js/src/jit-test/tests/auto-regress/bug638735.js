@@ -32,9 +32,12 @@ function
 ;
 ox1
 =
-wrap
+new
+Proxy
 (
 o
+{
+}
 )
 ;
 }

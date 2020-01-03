@@ -87,9 +87,12 @@ f3
 ;
 f4
 =
-wrap
+new
+Proxy
 (
 f7
+{
+}
 )
 ;
 }

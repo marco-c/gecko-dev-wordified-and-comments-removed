@@ -1,12 +1,12 @@
 var
 x
 =
-wrap
-.
-call
+new
+Proxy
 (
-x
 Function
+{
+}
 )
 ;
 if

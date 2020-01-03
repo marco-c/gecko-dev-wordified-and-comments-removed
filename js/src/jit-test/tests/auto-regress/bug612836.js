@@ -1,4 +1,7 @@
-wrap
+new
+Proxy
 (
 this
+{
+}
 )

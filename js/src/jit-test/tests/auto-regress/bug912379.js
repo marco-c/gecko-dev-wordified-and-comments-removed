@@ -29,9 +29,12 @@ a
 \
 }
 \
-wrap
+new
+Proxy
 (
 x
+{
+}
 )
 ;
 \
