@@ -7501,7 +7501,7 @@ MOZ_ASSERT
 lazy
 -
 >
-source
+scriptSource
 (
 )
 -
@@ -7525,7 +7525,7 @@ chars
 lazy
 -
 >
-source
+scriptSource
 (
 )
 -
