@@ -2894,7 +2894,7 @@ true
 bool
 ret
 =
-CheckForInterrupt
+HandleExecutionInterrupt
 (
 act
 -
@@ -3745,13 +3745,13 @@ runtimeAddressForJit
 )
 ;
 case
-AsmJSImm_RuntimeInterruptUint32
+AsmJSImm_RuntimeInterrupt
 :
 return
 cx
 -
 >
-runtimeAddressOfInterruptUint32
+runtimeAddressOfInterrupt
 (
 )
 ;
