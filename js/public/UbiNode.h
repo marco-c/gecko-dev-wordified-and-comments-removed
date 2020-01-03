@@ -521,13 +521,12 @@ return
 this
 ;
 }
-explicit
 Node
 (
 JS
 :
 :
-Value
+HandleValue
 value
 )
 ;
