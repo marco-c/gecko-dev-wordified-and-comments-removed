@@ -294,6 +294,11 @@ MozMtpStorage
 cpp
 '
 '
+NetIdManager
+.
+cpp
+'
+'
 NetworkUtils
 .
 cpp
