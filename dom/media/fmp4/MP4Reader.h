@@ -313,6 +313,11 @@ MOZ_OVERRIDE
 ;
 private
 :
+bool
+InitDemuxer
+(
+)
+;
 void
 ReturnOutput
 (
@@ -495,6 +500,15 @@ SizeOfQueue
 TrackType
 aTrack
 )
+;
+nsRefPtr
+<
+MP4Stream
+>
+mStream
+;
+int64_t
+mTimestampOffset
 ;
 nsAutoPtr
 <

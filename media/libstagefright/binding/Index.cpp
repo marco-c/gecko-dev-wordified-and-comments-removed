@@ -343,10 +343,6 @@ return
 nullptr
 ;
 }
-Next
-(
-)
-;
 nsAutoPtr
 <
 MP4Sample
@@ -693,6 +689,10 @@ iv_size
 ;
 }
 }
+Next
+(
+)
+;
 return
 sample
 .
