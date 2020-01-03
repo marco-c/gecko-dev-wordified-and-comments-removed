@@ -249,7 +249,7 @@ friend
 class
 MediaSourceTrackDemuxer
 ;
-void
+bool
 ScanSourceBuffersForContent
 (
 )
