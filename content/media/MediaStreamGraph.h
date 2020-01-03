@@ -2706,6 +2706,7 @@ uint32_t
 aTicksToProcess
 )
 ;
+virtual
 void
 DispatchToMainThreadAfterStreamStateUpdate
 (
