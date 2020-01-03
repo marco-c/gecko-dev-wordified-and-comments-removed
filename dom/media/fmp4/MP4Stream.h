@@ -234,6 +234,10 @@ Pin
 )
 {
 mResource
+.
+GetResource
+(
+)
 -
 >
 Pin
@@ -251,6 +255,10 @@ Unpin
 )
 {
 mResource
+.
+GetResource
+(
+)
 -
 >
 Unpin
@@ -284,10 +292,7 @@ Clear
 }
 private
 :
-nsRefPtr
-<
-MediaResource
->
+MediaResourceIndex
 mResource
 ;
 Maybe
