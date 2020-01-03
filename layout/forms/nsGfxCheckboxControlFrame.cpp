@@ -8,6 +8,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
