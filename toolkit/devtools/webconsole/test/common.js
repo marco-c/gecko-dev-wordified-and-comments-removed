@@ -502,7 +502,7 @@ aState
 .
 dbgClient
 .
-attachProcess
+getProcess
 (
 )
 .

@@ -2603,7 +2603,7 @@ traceClient
 )
 ;
 }
-attachProcess
+getProcess
 :
 function
 (
@@ -2622,7 +2622,7 @@ root
 type
 :
 "
-attachProcess
+getProcess
 "
 }
 if

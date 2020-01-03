@@ -1195,7 +1195,7 @@ connect
 {
 client
 .
-attachProcess
+getProcess
 (
 )
 .

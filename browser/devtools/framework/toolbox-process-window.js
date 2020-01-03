@@ -365,7 +365,7 @@ else
 {
 gClient
 .
-attachProcess
+getProcess
 (
 )
 .

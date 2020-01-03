@@ -9714,7 +9714,7 @@ connect
 {
 client
 .
-attachProcess
+getProcess
 (
 )
 .

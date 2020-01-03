@@ -3111,7 +3111,7 @@ return
 }
 client
 .
-attachProcess
+getProcess
 (
 contentProcesses
 [

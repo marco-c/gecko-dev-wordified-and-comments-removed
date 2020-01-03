@@ -1130,7 +1130,7 @@ processes
 }
 ;
 }
-onAttachProcess
+onGetProcess
 :
 function
 (
@@ -1201,7 +1201,7 @@ wrongParameter
 message
 :
 "
-attachProcess
+getProcess
 requires
 a
 valid
@@ -1553,14 +1553,14 @@ prototype
 .
 onListProcesses
 "
-attachProcess
+getProcess
 "
 :
 RootActor
 .
 prototype
 .
-onAttachProcess
+onGetProcess
 "
 echo
 "
