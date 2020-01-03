@@ -294,7 +294,6 @@ preferences
 main
 .
 js
-*
 content
 /
 browser
@@ -467,7 +466,6 @@ preferences
 tabs
 .
 js
-*
 content
 /
 browser
