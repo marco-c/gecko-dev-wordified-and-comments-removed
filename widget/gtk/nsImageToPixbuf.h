@@ -62,6 +62,7 @@ imgIContainer
 *
 aImage
 )
+MOZ_OVERRIDE
 ;
 static
 GdkPixbuf

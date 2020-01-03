@@ -158,6 +158,7 @@ int16_t
 *
 aPrintRange
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrintRange
@@ -165,6 +166,7 @@ SetPrintRange
 int16_t
 aPrintRange
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetStartPageRange
@@ -173,6 +175,7 @@ int32_t
 *
 aStartPageRange
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetStartPageRange
@@ -180,6 +183,7 @@ SetStartPageRange
 int32_t
 aStartPageRange
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetEndPageRange
@@ -188,6 +192,7 @@ int32_t
 *
 aEndPageRange
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetEndPageRange
@@ -195,6 +200,7 @@ SetEndPageRange
 int32_t
 aEndPageRange
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPrintReversed
@@ -203,6 +209,7 @@ bool
 *
 aPrintReversed
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrintReversed
@@ -210,6 +217,7 @@ SetPrintReversed
 bool
 aPrintReversed
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPrintInColor
@@ -218,6 +226,7 @@ bool
 *
 aPrintInColor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrintInColor
@@ -225,6 +234,7 @@ SetPrintInColor
 bool
 aPrintInColor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetOrientation
@@ -233,6 +243,7 @@ int32_t
 *
 aOrientation
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetOrientation
@@ -240,6 +251,7 @@ SetOrientation
 int32_t
 aOrientation
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetToFileName
@@ -249,6 +261,7 @@ char16_t
 *
 aToFileName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetToFileName
@@ -258,6 +271,7 @@ char16_t
 *
 aToFileName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPrinterName
@@ -267,6 +281,7 @@ char16_t
 *
 aPrinter
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrinterName
@@ -276,6 +291,7 @@ char16_t
 *
 aPrinter
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNumCopies
@@ -284,6 +300,7 @@ int32_t
 *
 aNumCopies
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetNumCopies
@@ -291,6 +308,7 @@ SetNumCopies
 int32_t
 aNumCopies
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetScaling
@@ -299,6 +317,7 @@ double
 *
 aScaling
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetScaling
@@ -306,6 +325,7 @@ SetScaling
 double
 aScaling
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPaperName
@@ -315,6 +335,7 @@ char16_t
 *
 aPaperName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPaperName
@@ -324,6 +345,7 @@ char16_t
 *
 aPaperName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetUnwriteableMarginInTwips
@@ -332,6 +354,7 @@ nsIntMargin
 &
 aUnwriteableMargin
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetUnwriteableMarginTop
@@ -339,6 +362,7 @@ SetUnwriteableMarginTop
 double
 aUnwriteableMarginTop
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetUnwriteableMarginLeft
@@ -346,6 +370,7 @@ SetUnwriteableMarginLeft
 double
 aUnwriteableMarginLeft
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetUnwriteableMarginBottom
@@ -353,6 +378,7 @@ SetUnwriteableMarginBottom
 double
 aUnwriteableMarginBottom
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetUnwriteableMarginRight
@@ -360,6 +386,7 @@ SetUnwriteableMarginRight
 double
 aUnwriteableMarginRight
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPaperWidth
@@ -368,6 +395,7 @@ double
 *
 aPaperWidth
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPaperWidth
@@ -375,6 +403,7 @@ SetPaperWidth
 double
 aPaperWidth
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPaperHeight
@@ -383,6 +412,7 @@ double
 *
 aPaperHeight
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPaperHeight
@@ -390,6 +420,7 @@ SetPaperHeight
 double
 aPaperHeight
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPaperSizeUnit
@@ -397,6 +428,7 @@ SetPaperSizeUnit
 int16_t
 aPaperSizeUnit
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetEffectivePageSize
@@ -408,11 +440,13 @@ double
 *
 aHeight
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetupSilentPrinting
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPageRanges
@@ -424,6 +458,7 @@ int32_t
 &
 aPages
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetResolution
@@ -432,6 +467,7 @@ int32_t
 *
 aResolution
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetResolution
@@ -439,6 +475,7 @@ SetResolution
 int32_t
 aResolution
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDuplex
@@ -447,6 +484,7 @@ int32_t
 *
 aDuplex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDuplex
@@ -454,6 +492,7 @@ SetDuplex
 int32_t
 aDuplex
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -491,6 +530,7 @@ nsIPrintSettings
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -500,6 +540,7 @@ nsIPrintSettings
 *
 aPS
 )
+MOZ_OVERRIDE
 ;
 GtkUnit
 GetGTKUnit

@@ -110,6 +110,7 @@ contentType
 )
 MOZ_OVERRIDE
 ;
+virtual
 mozilla
 :
 :
@@ -138,7 +139,9 @@ gfxFont
 *
 aFont
 )
+MOZ_OVERRIDE
 ;
+virtual
 nsresult
 GetFontList
 (
@@ -156,12 +159,16 @@ nsString
 &
 aListOfFonts
 )
+MOZ_OVERRIDE
 ;
+virtual
 nsresult
 UpdateFontList
 (
 )
+MOZ_OVERRIDE
 ;
+virtual
 nsresult
 GetStandardFamilyName
 (
@@ -173,7 +180,9 @@ nsAString
 &
 aFamilyName
 )
+MOZ_OVERRIDE
 ;
+virtual
 gfxFontGroup
 *
 CreateFontGroup
@@ -193,6 +202,7 @@ gfxUserFontSet
 *
 aUserFontSet
 )
+MOZ_OVERRIDE
 ;
 virtual
 gfxFontEntry
@@ -210,6 +220,7 @@ aStretch
 bool
 aItalic
 )
+MOZ_OVERRIDE
 ;
 virtual
 gfxFontEntry
@@ -233,6 +244,7 @@ aFontData
 uint32_t
 aLength
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -244,6 +256,7 @@ aFontURI
 uint32_t
 aFormatFlags
 )
+MOZ_OVERRIDE
 ;
 #
 if
@@ -377,6 +390,7 @@ gfxImageFormat
 GetOffscreenFormat
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int
@@ -384,6 +398,7 @@ GetScreenDepth
 (
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -406,6 +421,7 @@ size_t
 &
 size
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef

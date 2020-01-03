@@ -74,6 +74,7 @@ nsIdleService
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+virtual
 bool
 PollIdleTime
 (
@@ -81,6 +82,7 @@ uint32_t
 *
 aIdleTime
 )
+MOZ_OVERRIDE
 ;
 static
 already_AddRefed
@@ -150,10 +152,12 @@ nsIdleServiceGTK
 (
 )
 ;
+virtual
 bool
 UsePollMode
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

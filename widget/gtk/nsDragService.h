@@ -193,11 +193,13 @@ aRegion
 uint32_t
 aActionType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 StartDragSession
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EndDragSession
@@ -205,6 +207,7 @@ EndDragSession
 bool
 aDoneDrag
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCanDrop
@@ -212,6 +215,7 @@ SetCanDrop
 bool
 aCanDrop
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCanDrop
@@ -220,6 +224,7 @@ bool
 *
 aCanDrop
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNumDropItems
@@ -228,6 +233,7 @@ uint32_t
 *
 aNumItems
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetData
@@ -238,6 +244,7 @@ aTransferable
 uint32_t
 aItemIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsDataFlavorSupported
@@ -250,6 +257,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 static
 nsDragService

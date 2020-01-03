@@ -89,6 +89,7 @@ nsRect
 &
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetWidgetBorder
@@ -105,6 +106,7 @@ nsIntMargin
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -122,6 +124,7 @@ nsIntMargin
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -139,6 +142,7 @@ nsRect
 *
 aOverflowRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetMinimumWidgetSize
@@ -158,6 +162,7 @@ bool
 *
 aIsOverridable
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WidgetStateChanged
@@ -174,11 +179,13 @@ bool
 *
 aShouldRepaint
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ThemeChanged
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -195,6 +202,7 @@ aFrame
 uint8_t
 aWidgetType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -205,6 +213,7 @@ WidgetIsContainer
 uint8_t
 aWidgetType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -217,10 +226,12 @@ aWidgetType
 )
 MOZ_OVERRIDE
 ;
+virtual
 bool
 ThemeNeedsComboboxDropmarker
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Transparency
@@ -232,6 +243,7 @@ aFrame
 uint8_t
 aWidgetType
 )
+MOZ_OVERRIDE
 ;
 nsNativeThemeGTK
 (

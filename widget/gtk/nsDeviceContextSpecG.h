@@ -112,6 +112,7 @@ gfxASurface
 *
 surface
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -125,6 +126,7 @@ aPS
 bool
 aIsPrintPreview
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BeginDocument
@@ -141,16 +143,19 @@ aStartPage
 int32_t
 aEndPage
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 EndDocument
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BeginPage
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -160,6 +165,7 @@ NS_IMETHOD
 EndPage
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
