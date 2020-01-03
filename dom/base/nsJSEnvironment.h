@@ -546,6 +546,12 @@ get
 nullptr
 ;
 }
+static
+void
+NotifyDidPaint
+(
+)
+;
 protected
 :
 virtual

@@ -216,6 +216,13 @@ h
 #
 include
 "
+nsJSEnvironment
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Telemetry
@@ -5688,6 +5695,13 @@ XPConnect
 )
 -
 >
+NotifyDidPaint
+(
+)
+;
+nsJSContext
+:
+:
 NotifyDidPaint
 (
 )
