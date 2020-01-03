@@ -311,11 +311,6 @@ RemoteFinder
 jsm
 '
 '
-RemotePageManager
-.
-jsm
-'
-'
 RemoteSecurityUI
 .
 jsm
