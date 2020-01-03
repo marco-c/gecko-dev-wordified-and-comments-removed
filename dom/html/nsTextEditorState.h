@@ -195,7 +195,8 @@ InitializeKeyboardEventListeners
 (
 )
 ;
-void
+MOZ_WARN_UNUSED_RESULT
+bool
 SetValue
 (
 const
