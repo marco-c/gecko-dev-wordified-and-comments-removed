@@ -317,11 +317,13 @@ return
 type
 ;
 }
-static
 already_AddRefed
 <
 Decoder
 >
+DecoderFactory
+:
+:
 GetDecoder
 (
 DecoderType

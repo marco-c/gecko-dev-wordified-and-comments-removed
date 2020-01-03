@@ -681,6 +681,8 @@ aBuffer
 uint32_t
 aCount
 )
+=
+0
 ;
 virtual
 void
