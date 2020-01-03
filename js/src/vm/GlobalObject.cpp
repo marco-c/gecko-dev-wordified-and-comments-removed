@@ -1382,8 +1382,8 @@ names
 .
 undefined
 UndefinedHandleValue
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -1582,8 +1582,8 @@ names
 .
 undefined
 UndefinedHandleValue
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -2197,8 +2197,8 @@ names
 .
 prototype
 protoVal
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -2221,8 +2221,8 @@ names
 .
 constructor
 ctorVal
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 ;

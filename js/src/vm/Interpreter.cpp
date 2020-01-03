@@ -19085,6 +19085,7 @@ pobj
 =
 parent
 )
+{
 return
 JSObject
 :
@@ -19095,11 +19096,12 @@ cx
 parent
 name
 rval
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 attrs
 )
 ;
+}
 MOZ_ASSERT
 (
 parent
@@ -19132,6 +19134,7 @@ configurable
 (
 )
 )
+{
 return
 JSObject
 :
@@ -19142,11 +19145,12 @@ cx
 parent
 name
 rval
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 attrs
 )
 ;
+}
 if
 (
 shape
@@ -20392,7 +20396,7 @@ val
 ;
 setter
 =
-nullptr
+JS_StrictPropertyStub
 ;
 attrs
 |
@@ -20418,7 +20422,7 @@ JSOP_INITELEM_SETTER
 ;
 getter
 =
-nullptr
+JS_PropertyStub
 ;
 setter
 =

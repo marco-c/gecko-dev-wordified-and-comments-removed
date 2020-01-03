@@ -1497,8 +1497,8 @@ cx
 varobj
 name
 rval
-nullptr
-nullptr
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
