@@ -104,8 +104,9 @@ separator
 {
 padding
 :
-5px
-10px
+.
+5rem
+1rem
 ;
 font
 -
@@ -148,10 +149,6 @@ contact
 -
 separator
 {
-height
-:
-24px
-;
 background
 -
 color
@@ -568,7 +565,7 @@ absolute
 ;
 right
 :
-10px
+1rem
 ;
 top
 :
@@ -1254,6 +1251,6 @@ margin
 -
 top
 :
-14px
+1rem
 ;
 }
