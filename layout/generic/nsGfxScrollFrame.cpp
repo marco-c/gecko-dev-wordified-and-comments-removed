@@ -13191,6 +13191,15 @@ nullptr
 ;
 }
 }
+aBuilder
+-
+>
+StoreDirtyRectForScrolledContents
+(
+mOuter
+dirtyRect
+)
+;
 mOuter
 -
 >
