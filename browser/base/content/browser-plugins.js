@@ -2573,10 +2573,9 @@ crashReportCallback
 {
 PluginCrashReporter
 .
-submitGMPCrashReport
+submitCrashReport
 (
-pluginDumpID
-browserDumpID
+runID
 )
 ;
 }
