@@ -698,7 +698,7 @@ mRecords
 i
 ]
 ;
-NDEFRecord
+MozNDEFRecordOptions
 &
 record
 =
@@ -718,18 +718,6 @@ AppendElement
 record
 .
 mTnf
-.
-Construct
-(
-)
-;
-record
-.
-mTnf
-.
-Value
-(
-)
 =
 recordStruct
 .
