@@ -1,5 +1,9 @@
 FROM
-taskcluster
+quay
+.
+io
+/
+mozilla
 /
 builder
 :
@@ -7,7 +11,7 @@ builder
 .
 5
 .
-6
+5
 MAINTAINER
 Wander
 Lairson
