@@ -857,10 +857,7 @@ html
 >
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

@@ -33,10 +33,7 @@ browser_inspector_highlight_after_transition
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

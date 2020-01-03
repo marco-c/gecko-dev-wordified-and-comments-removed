@@ -58,10 +58,7 @@ theme
 toggling
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

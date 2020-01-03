@@ -91,10 +91,7 @@ browser_cmd_csscoverage_sheetD
 css
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

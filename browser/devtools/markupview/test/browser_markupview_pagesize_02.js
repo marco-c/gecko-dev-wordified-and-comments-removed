@@ -30,10 +30,7 @@ pagesize
 5
 )
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

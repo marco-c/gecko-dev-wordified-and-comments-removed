@@ -19,10 +19,7 @@ DIV_COLOR
 0000FF
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
