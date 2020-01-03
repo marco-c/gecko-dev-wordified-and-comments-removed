@@ -66,9 +66,9 @@ UnixSocketConnector
 aConnector
 int
 aDelayMs
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -92,9 +92,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop

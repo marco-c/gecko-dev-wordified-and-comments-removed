@@ -126,9 +126,9 @@ protected
 :
 ConnectionOrientedSocketIO
 (
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -143,9 +143,9 @@ aConnector
 ;
 ConnectionOrientedSocketIO
 (
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
@@ -186,9 +186,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop

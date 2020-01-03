@@ -296,9 +296,9 @@ PrepareAccept
 UnixSocketConnector
 *
 aConnector
-nsIThread
+MessageLoop
 *
-aConsumerThread
+aConsumerLoop
 MessageLoop
 *
 aIOLoop
