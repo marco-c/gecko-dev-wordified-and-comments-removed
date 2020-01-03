@@ -1036,6 +1036,11 @@ ContextGetter
 java
 '
 '
+CrashHandler
+.
+java
+'
+'
 CustomEditText
 .
 java
