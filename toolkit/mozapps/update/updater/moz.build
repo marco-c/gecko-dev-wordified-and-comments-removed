@@ -479,6 +479,11 @@ crypt32
 dll
 '
 '
+comctl32
+.
+dll
+'
+'
 userenv
 .
 dll
