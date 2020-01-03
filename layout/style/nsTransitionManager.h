@@ -83,6 +83,17 @@ ElementPropertyTransition
 nsIDocument
 *
 aDocument
+dom
+:
+:
+Element
+*
+aTarget
+nsCSSPseudoElements
+:
+:
+Type
+aPseudoType
 const
 AnimationTiming
 &
@@ -95,6 +106,8 @@ dom
 Animation
 (
 aDocument
+aTarget
+aPseudoType
 aTiming
 EmptyString
 (

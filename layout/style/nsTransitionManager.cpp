@@ -2406,6 +2406,13 @@ aElement
 OwnerDoc
 (
 )
+aElement
+aNewStyleContext
+-
+>
+GetPseudoType
+(
+)
 timing
 )
 ;

@@ -1164,6 +1164,7 @@ newPlayers
 BuildAnimations
 (
 aStyleContext
+aElement
 timeline
 newPlayers
 )
@@ -1911,6 +1912,12 @@ aStyleContext
 dom
 :
 :
+Element
+*
+aTarget
+dom
+:
+:
 AnimationTimeline
 *
 aTimeline
@@ -2136,6 +2143,13 @@ mPresContext
 -
 >
 Document
+(
+)
+aTarget
+aStyleContext
+-
+>
+GetPseudoType
 (
 )
 timing
