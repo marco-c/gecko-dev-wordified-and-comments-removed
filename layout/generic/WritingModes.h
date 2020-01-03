@@ -51,6 +51,17 @@ namespace
 mozilla
 {
 enum
+PhysicalAxis
+{
+eAxisVertical
+=
+0x0
+eAxisHorizontal
+=
+0x1
+}
+;
+enum
 LogicalAxis
 {
 eLogicalAxisBlock
