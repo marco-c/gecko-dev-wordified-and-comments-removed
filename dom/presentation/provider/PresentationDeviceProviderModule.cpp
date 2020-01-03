@@ -139,7 +139,10 @@ kPresentationDeviceProviderCategories
 {
 #
 if
-0
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 {
 PRESENTATION_DEVICE_PROVIDER_CATEGORY
 "
