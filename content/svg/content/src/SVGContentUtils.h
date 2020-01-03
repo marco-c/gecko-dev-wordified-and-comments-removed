@@ -446,6 +446,13 @@ mSmallArray
 ;
 }
 ;
+enum
+StrokeOptionFlags
+{
+eAllStrokeOptions
+eIgnoreStrokeDashing
+}
+;
 static
 void
 GetStrokeOptions
@@ -462,6 +469,10 @@ aStyleContext
 gfxTextContextPaint
 *
 aContextPaint
+StrokeOptionFlags
+aFlags
+=
+eAllStrokeOptions
 )
 ;
 static
