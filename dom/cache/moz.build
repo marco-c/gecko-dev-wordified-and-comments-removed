@@ -502,3 +502,17 @@ mochitest
 ini
 '
 ]
+MOCHITEST_CHROME_MANIFESTS
++
+=
+[
+'
+test
+/
+mochitest
+/
+chrome
+.
+ini
+'
+]
