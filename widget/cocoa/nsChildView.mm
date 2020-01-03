@@ -28344,9 +28344,13 @@ return
 mGeckoChild
 -
 >
-DispatchWindowEvent
+DispatchAPZAwareEvent
 (
 wheelEvent
+.
+AsInputEvent
+(
+)
 )
 ;
 if
