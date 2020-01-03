@@ -3704,6 +3704,7 @@ mMediaEmulated
 ;
 nsILinkHandler
 *
+MOZ_NON_OWNING_REF
 mLinkHandler
 ;
 nsCOMPtr
