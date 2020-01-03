@@ -3319,7 +3319,7 @@ LOG
 "
 ERROR
 :
-NS_OpenURI
+NS_NewChannel
 failed
 for
 %

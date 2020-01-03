@@ -172,9 +172,6 @@ TestIncrementalDownload
 TestOpen
 '
 '
-TestPageLoad
-'
-'
 TestProtocols
 '
 '
@@ -216,9 +213,6 @@ TestIDN
 '
 #
 TestIOThreads
-'
-#
-TestPerf
 '
 #
 TestSocketTransport
