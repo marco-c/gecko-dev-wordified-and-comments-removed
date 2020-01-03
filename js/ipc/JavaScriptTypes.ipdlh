@@ -252,6 +252,15 @@ nsIID
 /
 }
 ;
+union
+JSIDVariant
+{
+nsString
+;
+int32_t
+;
+}
+;
 struct
 ReturnSuccess
 {

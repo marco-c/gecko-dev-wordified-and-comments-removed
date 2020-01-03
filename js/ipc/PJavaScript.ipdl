@@ -206,7 +206,7 @@ GetPropertyDescriptor
 (
 uint64_t
 objId
-nsString
+JSIDVariant
 id
 )
 returns
@@ -222,7 +222,7 @@ GetOwnPropertyDescriptor
 (
 uint64_t
 objId
-nsString
+JSIDVariant
 id
 )
 returns
@@ -238,7 +238,7 @@ DefineProperty
 (
 uint64_t
 objId
-nsString
+JSIDVariant
 id
 PPropertyDescriptor
 descriptor
@@ -254,7 +254,7 @@ Delete
 (
 uint64_t
 objId
-nsString
+JSIDVariant
 id
 )
 returns
@@ -270,7 +270,7 @@ Has
 (
 uint64_t
 objId
-nsString
+JSIDVariant
 id
 )
 returns
@@ -286,7 +286,7 @@ HasOwn
 (
 uint64_t
 objId
-nsString
+JSIDVariant
 id
 )
 returns
@@ -304,7 +304,7 @@ uint64_t
 objId
 ObjectVariant
 receiver
-nsString
+JSIDVariant
 id
 )
 returns
@@ -322,7 +322,7 @@ uint64_t
 objId
 ObjectVariant
 receiver
-nsString
+JSIDVariant
 id
 bool
 strict

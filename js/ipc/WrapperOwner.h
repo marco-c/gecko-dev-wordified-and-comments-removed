@@ -736,7 +736,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -758,7 +758,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -780,7 +780,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 const
@@ -803,7 +803,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -825,7 +825,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -847,7 +847,7 @@ ObjectId
 &
 objId
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -873,7 +873,7 @@ ObjectVariant
 &
 receiverVar
 const
-nsString
+JSIDVariant
 &
 id
 ReturnStatus
@@ -899,7 +899,7 @@ ObjectVariant
 &
 receiverVar
 const
-nsString
+JSIDVariant
 &
 id
 const
