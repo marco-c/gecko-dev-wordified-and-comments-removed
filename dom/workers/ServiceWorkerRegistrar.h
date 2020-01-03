@@ -186,6 +186,11 @@ nsACString
 aScope
 )
 ;
+void
+RemoveAll
+(
+)
+;
 protected
 :
 void

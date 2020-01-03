@@ -2003,11 +2003,6 @@ aDomain
 )
 ;
 async
-RemoveServiceWorkerRegistrations
-(
-)
-;
-async
 DataStoreNotify
 (
 uint32_t

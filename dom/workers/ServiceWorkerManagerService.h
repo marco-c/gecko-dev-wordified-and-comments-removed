@@ -140,6 +140,13 @@ nsAString
 aScope
 )
 ;
+void
+PropagateRemoveAll
+(
+uint64_t
+aParentID
+)
+;
 private
 :
 ServiceWorkerManagerService

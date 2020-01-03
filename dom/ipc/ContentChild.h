@@ -1470,13 +1470,6 @@ override
 ;
 virtual
 bool
-RecvRemoveServiceWorkerRegistrations
-(
-)
-override
-;
-virtual
-bool
 RecvNotifyVisited
 (
 const

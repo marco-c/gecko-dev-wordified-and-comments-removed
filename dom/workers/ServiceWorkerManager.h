@@ -864,6 +864,16 @@ nsAString
 aScope
 )
 ;
+void
+PropagateRemoveAll
+(
+)
+;
+void
+RemoveAll
+(
+)
+;
 already_AddRefed
 <
 ServiceWorkerRegistrationInfo

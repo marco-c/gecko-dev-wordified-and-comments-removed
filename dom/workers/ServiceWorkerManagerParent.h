@@ -135,6 +135,13 @@ override
 ;
 virtual
 bool
+RecvPropagateRemoveAll
+(
+)
+override
+;
+virtual
+bool
 RecvShutdown
 (
 )

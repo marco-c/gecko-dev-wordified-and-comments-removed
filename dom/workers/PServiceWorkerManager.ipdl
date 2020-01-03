@@ -126,6 +126,10 @@ nsString
 scope
 )
 ;
+PropagateRemoveAll
+(
+)
+;
 Shutdown
 (
 )
@@ -152,6 +156,10 @@ PrincipalInfo
 principalInfo
 nsString
 scope
+)
+;
+NotifyRemoveAll
+(
 )
 ;
 __delete__
