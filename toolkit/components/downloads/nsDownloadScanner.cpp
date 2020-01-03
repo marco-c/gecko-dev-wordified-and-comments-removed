@@ -1914,6 +1914,7 @@ mStateSync
 ;
 if
 (
+(
 gotExpectedState
 =
 (
@@ -1921,6 +1922,7 @@ mStatus
 =
 =
 expectedState
+)
 )
 )
 mStatus
@@ -2385,6 +2387,7 @@ queueItemsLeft
 |
 |
 (
+(
 WAIT_OBJECT_0
 +
 1
@@ -2408,6 +2411,7 @@ waitStatus
 !
 =
 WAIT_FAILED
+)
 )
 {
 Scan
