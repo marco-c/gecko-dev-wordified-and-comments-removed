@@ -1355,7 +1355,7 @@ BREAK
 ;
 ll
 =
-PR_LOG_ALWAYS
+PR_LOG_ERROR
 ;
 break
 ;
@@ -1376,7 +1376,7 @@ ABORT
 ;
 ll
 =
-PR_LOG_ALWAYS
+PR_LOG_ERROR
 ;
 break
 ;

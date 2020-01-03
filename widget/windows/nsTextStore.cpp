@@ -2910,7 +2910,7 @@ aList
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -3961,7 +3961,7 @@ false
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -4009,7 +4009,7 @@ Destroy
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -4449,7 +4449,7 @@ Truncate
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -4598,7 +4598,7 @@ mActiveTIPKeyboardDescription
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -4872,7 +4872,7 @@ S_FALSE
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -4968,7 +4968,7 @@ false
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -5213,7 +5213,7 @@ continue
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -5287,7 +5287,7 @@ true
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -5865,7 +5865,7 @@ SetCapacity
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -5897,7 +5897,7 @@ nsTextStore
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -5929,7 +5929,7 @@ aWidget
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -6208,7 +6208,7 @@ false
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -6272,7 +6272,7 @@ Destroy
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -6455,7 +6455,7 @@ Clear
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -6644,7 +6644,7 @@ dwMask
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -6960,7 +6960,7 @@ punk
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -7180,7 +7180,7 @@ phrSession
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -7329,7 +7329,7 @@ TS_LF_SYNC
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -7491,7 +7491,7 @@ mLock
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -7649,7 +7649,7 @@ mLockQueued
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -7776,7 +7776,7 @@ mLock
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -7944,7 +7944,7 @@ mSink
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -8016,7 +8016,7 @@ service
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -8078,7 +8078,7 @@ mSink
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -8131,7 +8131,7 @@ Destroy
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -8210,7 +8210,7 @@ TS_LF_SYNC
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -8248,7 +8248,7 @@ S_OK
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -9432,7 +9432,7 @@ continue
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -9483,7 +9483,7 @@ pdcs
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -9586,7 +9586,7 @@ pacpResultEnd
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -9738,7 +9738,7 @@ cch
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -9801,7 +9801,7 @@ pcFetched
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -10057,7 +10057,7 @@ pcFetched
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -13539,7 +13539,7 @@ false
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -14029,7 +14029,7 @@ pSelection
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -14326,7 +14326,7 @@ else
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -14385,7 +14385,7 @@ pacpNext
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -15070,7 +15070,7 @@ length
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -15188,7 +15188,7 @@ pChange
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -15474,7 +15474,7 @@ E_FAIL
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -15560,7 +15560,7 @@ ppDataObject
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -15613,7 +15613,7 @@ ppunk
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -15667,7 +15667,7 @@ pfInsertable
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -15731,7 +15731,7 @@ pChange
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16166,7 +16166,7 @@ aFilterAttrs
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16257,7 +16257,7 @@ i
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16345,7 +16345,7 @@ paFilterAttrs
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16413,7 +16413,7 @@ dwFlags
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16488,7 +16488,7 @@ dwFlags
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16623,7 +16623,7 @@ E_INVALIDARG
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16816,7 +16816,7 @@ E_INVALIDARG
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -16902,7 +16902,7 @@ i
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -17168,7 +17168,7 @@ S_OK
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -17239,7 +17239,7 @@ pacp
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -17437,7 +17437,7 @@ pvcView
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -17509,7 +17509,7 @@ TEXTSTORE_DEFAULT_VIEW
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -17563,7 +17563,7 @@ pacp
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -18349,7 +18349,7 @@ offset
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -18404,7 +18404,7 @@ pfClipped
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -19415,7 +19415,7 @@ CreateNativeCaret
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -19505,7 +19505,7 @@ prc
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -19665,7 +19665,7 @@ E_FAIL
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -20120,7 +20120,7 @@ phwnd
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -20257,7 +20257,7 @@ GetWindowHandle
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -20325,7 +20325,7 @@ pChange
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -20919,7 +20919,7 @@ acpNewEnd
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -21408,7 +21408,7 @@ pChange
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -21873,7 +21873,7 @@ aPreserveSelection
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -22152,7 +22152,7 @@ action
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -22193,7 +22193,7 @@ pfOk
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -22427,7 +22427,7 @@ TRUE
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -22468,7 +22468,7 @@ pRangeNew
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -22680,7 +22680,7 @@ true
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -22814,7 +22814,7 @@ if
 MOZ_LOG_TEST
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 )
 )
 {
@@ -22873,7 +22873,7 @@ E_FAIL
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -22984,7 +22984,7 @@ pComposition
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -23193,7 +23193,7 @@ hr
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -23237,7 +23237,7 @@ pdwCookie
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -23603,7 +23603,7 @@ Cookie
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -23649,7 +23649,7 @@ dwCookie
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -23839,7 +23839,7 @@ UnadviseSink
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -24874,7 +24874,7 @@ IsComposing
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -24969,7 +24969,7 @@ mNewEndOffset
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -25168,7 +25168,7 @@ IsComposing
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -25218,7 +25218,7 @@ mIsRecordingActionsWithoutLock
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -25262,7 +25262,7 @@ else
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -25328,7 +25328,7 @@ NS_ERROR_FAILURE
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -26395,7 +26395,7 @@ mStart
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -27346,7 +27346,7 @@ nsTextStoreWidgets
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -27435,7 +27435,7 @@ BrowserTabsRemoteAutostart
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -28101,7 +28101,7 @@ disabledContext
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -28327,7 +28327,7 @@ true
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF
@@ -28464,7 +28464,7 @@ void
 MOZ_LOG
 (
 sTextStoreLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 (
 "
 TSF

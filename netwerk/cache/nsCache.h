@@ -82,14 +82,14 @@ CacheLogInit
 )
 #
 define
-CACHE_LOG_ALWAYS
+CACHE_LOG_INFO
 (
 args
 )
 MOZ_LOG
 (
 gCacheLog
-PR_LOG_ALWAYS
+PR_LOG_INFO
 args
 )
 #
