@@ -468,6 +468,24 @@ MOZ_TBPL_PARSER
 1
 "
         
+if
+not
+mozinfo
+.
+has_sandbox
+:
+          
+env
+[
+"
+MOZ_DISABLE_GMP_SANDBOX
+"
+]
+=
+"
+1
+"
+        
 return
 env
     
