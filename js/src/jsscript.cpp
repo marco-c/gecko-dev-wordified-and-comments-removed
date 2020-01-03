@@ -14387,13 +14387,6 @@ setScript
 script
 )
 ;
-funbox
--
->
-switchStaticScopeToFunction
-(
-)
-;
 }
 bool
 JSScript
