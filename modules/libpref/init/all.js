@@ -21413,8 +21413,8 @@ false
 ifdef
 NS_ENABLE_TSF
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+RELEASE_BUILD
 pref
 (
 "
