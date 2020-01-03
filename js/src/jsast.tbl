@@ -661,6 +661,16 @@ comprehensionBlock
 )
 ASTDEF
 (
+AST_COMP_IF
+"
+ComprehensionIf
+"
+"
+comprehensionIf
+"
+)
+ASTDEF
+(
 AST_ARRAY_PATT
 "
 ArrayPattern
