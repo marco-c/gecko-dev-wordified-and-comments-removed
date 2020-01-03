@@ -597,12 +597,12 @@ registerAddonHistogram
 (
 ADDON_NAME
 ADDON_HISTOGRAM
-1
-5
-6
 Telemetry
 .
 HISTOGRAM_LINEAR
+1
+5
+6
 )
 ;
 let
