@@ -59,9 +59,6 @@ VideoDecoderConfig
 class
 AudioDecoderConfig
 ;
-class
-MP4Sample
-;
 }
 class
 nsIThreadPool
@@ -69,6 +66,12 @@ nsIThreadPool
 namespace
 mozilla
 {
+class
+MediaRawData
+;
+class
+DataBuffer
+;
 namespace
 layers
 {
@@ -461,10 +464,7 @@ virtual
 nsresult
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

@@ -63,6 +63,13 @@ DecoderData
 .
 h
 "
+#
+include
+"
+MediaData
+.
+h
+"
 class
 MediaTaskQueue
 ;
@@ -78,8 +85,10 @@ std
 :
 deque
 <
+nsRefPtr
+<
 VP8Sample
-*
+>
 >
 VP8SampleQueue
 ;
@@ -200,7 +209,7 @@ Decode
 bool
 Demux
 (
-nsAutoPtr
+nsRefPtr
 <
 VP8Sample
 >
@@ -230,8 +239,10 @@ nsACString
 aMimeType
 )
 ;
+already_AddRefed
+<
 VP8Sample
-*
+>
 PopSample
 (
 )
@@ -275,7 +286,7 @@ mDecoderConfig
 VP8SampleQueue
 mSampleQueue
 ;
-nsAutoPtr
+nsRefPtr
 <
 VP8Sample
 >

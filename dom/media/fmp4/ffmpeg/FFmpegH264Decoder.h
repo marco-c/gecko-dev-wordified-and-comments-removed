@@ -112,10 +112,7 @@ virtual
 nsresult
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -150,10 +147,7 @@ private
 void
 DecodeFrame
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -161,10 +155,7 @@ aSample
 DecodeResult
 DoDecodeFrame
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

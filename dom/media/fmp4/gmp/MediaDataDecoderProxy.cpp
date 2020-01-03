@@ -5,6 +5,13 @@ MediaDataDecoderProxy
 .
 h
 "
+#
+include
+"
+MediaData
+.
+h
+"
 namespace
 mozilla
 {
@@ -111,10 +118,7 @@ MediaDataDecoderProxy
 :
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

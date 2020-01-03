@@ -115,10 +115,7 @@ virtual
 HRESULT
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

@@ -245,10 +245,7 @@ virtual
 nsresult
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

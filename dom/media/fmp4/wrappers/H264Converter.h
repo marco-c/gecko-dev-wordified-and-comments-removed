@@ -70,10 +70,7 @@ virtual
 nsresult
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -159,10 +156,7 @@ CreateDecoder
 nsresult
 CreateDecoderAndInit
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -170,10 +164,7 @@ aSample
 nsresult
 CheckForSPSChange
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -181,10 +172,7 @@ aSample
 void
 UpdateConfigFromExtraData
 (
-mp4_demuxer
-:
-:
-ByteBuffer
+DataBuffer
 *
 aExtraData
 )

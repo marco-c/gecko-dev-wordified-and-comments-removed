@@ -71,10 +71,7 @@ virtual
 nsresult
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -124,10 +121,7 @@ mSession
 nsresult
 SubmitFrame
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

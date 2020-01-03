@@ -237,10 +237,7 @@ android
 status_t
 SendSampleToOMX
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

@@ -344,10 +344,7 @@ virtual
 nsresult
 Input
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )
@@ -404,10 +401,7 @@ GMPVideoEncodedFrame
 Ptr
 CreateFrame
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 )

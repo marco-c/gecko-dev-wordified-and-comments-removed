@@ -57,8 +57,13 @@ Index
 aIndex
 )
 ;
-MP4Sample
-*
+already_AddRefed
+<
+mozilla
+:
+:
+MediaRawData
+>
 GetNext
 (
 )

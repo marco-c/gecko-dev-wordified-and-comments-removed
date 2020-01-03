@@ -35,9 +35,7 @@ h
 #
 include
 "
-mp4_demuxer
-/
-DecoderData
+MediaData
 .
 h
 "
@@ -160,10 +158,7 @@ GMPAudioSamplesImpl
 :
 GMPAudioSamplesImpl
 (
-mp4_demuxer
-:
-:
-MP4Sample
+MediaRawData
 *
 aSample
 uint32_t
@@ -181,7 +176,7 @@ mTimeStamp
 aSample
 -
 >
-composition_timestamp
+mTime
 )
 mChannels
 (
@@ -199,11 +194,11 @@ AppendElements
 aSample
 -
 >
-data
+mData
 aSample
 -
 >
-size
+mSize
 )
 ;
 if
@@ -211,7 +206,7 @@ if
 aSample
 -
 >
-crypto
+mCrypto
 .
 valid
 )
@@ -224,7 +219,7 @@ GMPEncryptedBufferDataImpl
 aSample
 -
 >
-crypto
+mCrypto
 )
 ;
 }
