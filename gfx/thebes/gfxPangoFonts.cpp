@@ -4373,10 +4373,6 @@ FamilyFace
 )
 )
 ;
-mSkipUpdateUserFonts
-=
-true
-;
 }
 gfxPangoFontGroup
 :

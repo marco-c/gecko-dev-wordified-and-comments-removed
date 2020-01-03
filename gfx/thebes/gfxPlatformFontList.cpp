@@ -3420,7 +3420,15 @@ gfxFontFamily
 *
 fallback
 =
-FindFamilyByCanonicalName
+gfxPlatformFontList
+:
+:
+PlatformFontList
+(
+)
+-
+>
+FindFamily
 (
 familyName
 )
@@ -3717,9 +3725,6 @@ const
 nsAString
 &
 aFamily
-nsIAtom
-*
-aLanguage
 bool
 aUseSystemFonts
 )
