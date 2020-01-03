@@ -98,6 +98,11 @@ SOURCES
 =
 [
 '
+TestBadImplicitConversionCtor
+.
+cpp
+'
+'
 TestCustomHeap
 .
 cpp
