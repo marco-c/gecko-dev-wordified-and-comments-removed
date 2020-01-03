@@ -2889,6 +2889,16 @@ value
 ptr
 ;
 }
+T
+get
+(
+)
+const
+{
+return
+value
+;
+}
 const
 T
 *

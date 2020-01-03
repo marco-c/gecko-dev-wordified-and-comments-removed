@@ -1407,7 +1407,7 @@ asPtr
 (
 )
 ;
-MarkPermanentAtom
+TraceProcessGlobalRoot
 (
 trc
 atom
@@ -1480,7 +1480,7 @@ i
 +
 +
 )
-MarkWellKnownSymbol
+TraceProcessGlobalRoot
 (
 trc
 wks
@@ -1490,6 +1490,13 @@ get
 (
 i
 )
+.
+get
+(
+)
+"
+well_known_symbol
+"
 )
 ;
 }

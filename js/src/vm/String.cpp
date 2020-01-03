@@ -4691,7 +4691,7 @@ i
 +
 +
 )
-MarkPermanentAtom
+TraceProcessGlobalRoot
 (
 trc
 unitStaticTable
@@ -4724,7 +4724,7 @@ i
 +
 +
 )
-MarkPermanentAtom
+TraceProcessGlobalRoot
 (
 trc
 length2StaticTable
@@ -4755,7 +4755,7 @@ i
 +
 +
 )
-MarkPermanentAtom
+TraceProcessGlobalRoot
 (
 trc
 intStaticTable
