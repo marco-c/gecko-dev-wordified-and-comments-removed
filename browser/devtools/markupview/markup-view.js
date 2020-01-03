@@ -989,7 +989,6 @@ this
 showNode
 (
 nodeFront
-true
 )
 .
 then
@@ -2157,7 +2156,6 @@ showNode
 selection
 .
 nodeFront
-true
 )
 .
 then
@@ -4018,6 +4016,8 @@ function
 (
 aNode
 centered
+=
+true
 )
 {
 let
