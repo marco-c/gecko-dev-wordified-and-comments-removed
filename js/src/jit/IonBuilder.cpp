@@ -41557,6 +41557,10 @@ alloc
 object
 index
 value
+IsStrictSetPC
+(
+pc
+)
 )
 ;
 current
