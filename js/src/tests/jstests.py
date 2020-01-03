@@ -2265,21 +2265,21 @@ skipped_tests
 test_list
 )
         
-skip_list
+test_count
 :
 [
-iterable
-<
-Test
->
+int
 ]
-Tests
-found
-but
-skipped
-.
+Number
+of
+tests
+that
+will
+be
+in
+test_gen
         
-test_list
+test_gen
 :
 [
 iterable
@@ -2410,7 +2410,18 @@ __file__
 )
 )
     
-test_list
+test_count
+=
+manifest
+.
+count_tests
+(
+test_dir
+requested_paths
+excluded_paths
+)
+    
+test_gen
 =
 manifest
 .
@@ -2422,11 +2433,6 @@ excluded_paths
                               
 xul_tester
 )
-    
-skip_list
-=
-[
-]
     
 if
 options
@@ -2441,7 +2447,7 @@ make_manifests
 options
 .
 make_manifests
-test_list
+test_gen
 )
         
 sys
@@ -2503,30 +2509,32 @@ if
 flags_list
 :
         
-new_test_list
-=
-[
-]
-        
+def
+flag_gen
+(
+tests
+)
+:
+            
 for
 test
 in
-test_list
+tests
 :
-            
+                
 for
 jitflags
 in
 flags_list
 :
-                
+                    
 tmp_test
 =
 copy
 (
 test
 )
-                
+                    
 tmp_test
 .
 jitflags
@@ -2537,7 +2545,7 @@ test
 .
 jitflags
 )
-                
+                    
 tmp_test
 .
 jitflags
@@ -2546,17 +2554,16 @@ extend
 (
 jitflags
 )
-                
-new_test_list
-.
-append
-(
+                    
+yield
 tmp_test
-)
         
-test_list
+test_gen
 =
-new_test_list
+flag_gen
+(
+test_gen
+)
     
 if
 options
@@ -2604,21 +2611,21 @@ readlines
 ]
 )
         
-test_list
+test_gen
 =
-[
+(
 _
 for
 _
 in
-test_list
+test_gen
 if
 _
 .
 path
 in
 paths
-]
+)
     
 if
 options
@@ -2640,14 +2647,14 @@ os
 .
 sep
         
-test_list
+test_gen
 =
-[
+(
 _
 for
 _
 in
-test_list
+test_gen
 if
 pattern
 not
@@ -2655,7 +2662,7 @@ in
 _
 .
 path
-]
+)
     
 if
 not
@@ -2664,20 +2671,20 @@ options
 random
 :
         
-test_list
+test_gen
 =
-[
+(
 _
 for
 _
 in
-test_list
+test_gen
 if
 not
 _
 .
 random
-]
+)
     
 if
 options
@@ -2691,20 +2698,20 @@ run_skipped
 =
 True
         
-test_list
+test_gen
 =
-[
+(
 _
 for
 _
 in
-test_list
+test_gen
 if
 not
 _
 .
 enable
-]
+)
     
 if
 not
@@ -2713,23 +2720,24 @@ options
 run_slow_tests
 :
         
-test_list
+test_gen
 =
-[
+(
 _
 for
 _
 in
-test_list
+test_gen
 if
 not
 _
 .
 slow
-]
+)
     
 return
-test_list
+test_count
+test_gen
 def
 main
 (
@@ -2779,7 +2787,8 @@ path
 return
 1
     
-test_list
+test_count
+test_gen
 =
 load_tests
 (
@@ -2789,8 +2798,10 @@ excluded_paths
 )
     
 if
-not
-test_list
+test_count
+=
+=
+0
 :
         
 print
@@ -2824,7 +2835,10 @@ debug
 if
 len
 (
-test_list
+list
+(
+test_gen
+)
 )
 >
 1
@@ -2853,7 +2867,7 @@ one
 for
 tc
 in
-test_list
+test_gen
 :
                 
 print
@@ -2876,7 +2890,7 @@ return
         
 cmd
 =
-test_list
+test_gen
 [
 0
 ]
@@ -2959,10 +2973,7 @@ results
 ResultsSink
 (
 options
-len
-(
-test_list
-)
+test_count
 )
         
 try
@@ -2973,7 +2984,7 @@ out
 in
 run_all_tests
 (
-test_list
+test_gen
 prefix
 results
 options

@@ -1129,6 +1129,13 @@ options
     
 tests
 =
+list
+(
+tests
+)
+    
+tests
+=
 tests
 [
 :
