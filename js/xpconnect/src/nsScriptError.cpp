@@ -56,16 +56,10 @@ nsIDocShell
 .
 h
 "
-NS_IMPL_ISUPPORTS
-(
-nsScriptError
-nsIConsoleMessage
-nsIScriptError
-)
-nsScriptError
+nsScriptErrorBase
 :
 :
-nsScriptError
+nsScriptErrorBase
 (
 )
 :
@@ -115,17 +109,17 @@ false
 )
 {
 }
-nsScriptError
+nsScriptErrorBase
 :
 :
 ~
-nsScriptError
+nsScriptErrorBase
 (
 )
 {
 }
 void
-nsScriptError
+nsScriptErrorBase
 :
 :
 InitializeOnMainThread
@@ -257,7 +251,7 @@ true
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetMessageMoz
@@ -313,7 +307,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetLogLevel
@@ -384,7 +378,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetErrorMessage
@@ -406,7 +400,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetSourceName
@@ -428,7 +422,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetSourceLine
@@ -450,7 +444,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetLineNumber
@@ -470,7 +464,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetColumnNumber
@@ -490,7 +484,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetFlags
@@ -510,7 +504,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetCategory
@@ -534,7 +528,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetStack
@@ -557,7 +551,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 SetStack
@@ -574,7 +568,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 Init
@@ -627,7 +621,7 @@ EmptyCString
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 InitWithWindowID
@@ -727,7 +721,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 ToString
@@ -1076,7 +1070,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetOuterWindowID
@@ -1142,7 +1136,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetInnerWindowID
@@ -1162,7 +1156,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetTimeStamp
@@ -1182,7 +1176,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsScriptError
+nsScriptErrorBase
 :
 :
 GetIsFromPrivateWindow
@@ -1247,3 +1241,9 @@ return
 NS_OK
 ;
 }
+NS_IMPL_ISUPPORTS
+(
+nsScriptError
+nsIConsoleMessage
+nsIScriptError
+)

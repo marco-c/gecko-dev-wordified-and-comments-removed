@@ -103,9 +103,6 @@ HandleObject
 aStack
 )
 :
-nsScriptError
-(
-)
 mStack
 (
 aStack
