@@ -123,6 +123,16 @@ aStreamFd
 )
 override
 ;
+nsresult
+Duplicate
+(
+UnixSocketConnector
+*
+&
+aConnector
+)
+override
+;
 private
 :
 nsresult
