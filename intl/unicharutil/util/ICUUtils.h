@@ -100,6 +100,7 @@ LanguageTagIterForContent
 {
 public
 :
+explicit
 LanguageTagIterForContent
 (
 nsIContent
