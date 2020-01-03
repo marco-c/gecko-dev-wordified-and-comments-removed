@@ -212,12 +212,12 @@ EXTRA_PP_JS_MODULES
 =
 [
 '
-TelemetryController
+TelemetryEnvironment
 .
 jsm
 '
 '
-TelemetryEnvironment
+TelemetryPing
 .
 jsm
 '
@@ -228,9 +228,6 @@ jsm
 '
 ]
 FAIL_ON_WARNINGS
-=
-True
-MSVC_ENABLE_PGO
 =
 True
 include

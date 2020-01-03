@@ -412,9 +412,6 @@ S
 '
         
 ]
-MSVC_ENABLE_PGO
-=
-True
 FINAL_LIBRARY
 =
 '

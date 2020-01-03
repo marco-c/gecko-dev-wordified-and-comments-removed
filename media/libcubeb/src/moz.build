@@ -399,9 +399,6 @@ USE_AUDIOTRACK
 ]
 =
 True
-MSVC_ENABLE_PGO
-=
-True
 if
 CONFIG
 [

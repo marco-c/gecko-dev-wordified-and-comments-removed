@@ -1324,9 +1324,6 @@ CONFIG
 _MSC_VER
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 include
 (
 '

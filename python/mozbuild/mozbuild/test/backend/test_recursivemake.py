@@ -2549,21 +2549,6 @@ FAIL_ON_WARNINGS
 ]
             
 '
-MSVC_ENABLE_PGO
-'
-:
-[
-                
-'
-MSVC_ENABLE_PGO
-:
-=
-1
-'
-            
-]
-            
-'
 VISIBILITY_FLAGS
 '
 :

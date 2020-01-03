@@ -3460,9 +3460,6 @@ pm_stub
 cpp
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 HostSimplePrograms
 (
 [

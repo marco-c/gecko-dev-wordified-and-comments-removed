@@ -157,9 +157,6 @@ ZipWriterModule
 cpp
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 FINAL_LIBRARY
 =
 '

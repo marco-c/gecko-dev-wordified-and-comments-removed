@@ -132,9 +132,6 @@ MOZ_PLACES
 '
 ]
 :
-MSVC_ENABLE_PGO
-=
-True
 XPIDL_SOURCES
 +
 =

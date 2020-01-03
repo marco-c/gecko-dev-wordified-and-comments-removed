@@ -131,9 +131,6 @@ xptcstubsdef
 inc
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 LOCAL_INCLUDES
 +
 =

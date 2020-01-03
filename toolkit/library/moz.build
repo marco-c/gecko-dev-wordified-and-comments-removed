@@ -100,9 +100,6 @@ Libxul
 name
 )
 :
-MSVC_ENABLE_PGO
-=
-True
 if
 CONFIG
 [
@@ -416,9 +413,6 @@ StaticXULComponentsStart
 cpp
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 #
 This
 combined

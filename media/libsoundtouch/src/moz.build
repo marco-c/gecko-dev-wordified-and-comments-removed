@@ -249,9 +249,6 @@ CONFIG
 MMX_FLAGS
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 if
 CONFIG
 [

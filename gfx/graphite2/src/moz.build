@@ -362,9 +362,6 @@ UtfCodec
 cpp
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 if
 CONFIG
 [

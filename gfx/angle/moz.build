@@ -1206,9 +1206,6 @@ include
 src
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 if
 CONFIG
 [

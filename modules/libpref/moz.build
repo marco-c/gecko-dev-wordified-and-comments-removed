@@ -219,9 +219,6 @@ prefapi
 cpp
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 include
 (
 '

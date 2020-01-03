@@ -155,9 +155,6 @@ NECKO_COOKIES
 '
 ]
 :
-MSVC_ENABLE_PGO
-=
-True
 EXPORTS
 .
 mozilla

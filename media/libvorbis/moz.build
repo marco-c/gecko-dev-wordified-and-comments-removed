@@ -360,9 +360,6 @@ HAVE_ALLOCA_H
 ]
 =
 True
-MSVC_ENABLE_PGO
-=
-True
 if
 CONFIG
 [

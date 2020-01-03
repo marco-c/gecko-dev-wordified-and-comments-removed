@@ -9659,9 +9659,6 @@ SkBlitRow_opts_SSE4_asm
 S
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 FINAL_LIBRARY
 =
 '

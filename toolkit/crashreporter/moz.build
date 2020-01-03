@@ -552,9 +552,6 @@ KeyValueParser
 jsm
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 include
 (
 '

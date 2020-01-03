@@ -480,9 +480,6 @@ Library
 breakpad_common_s
 '
 )
-MSVC_ENABLE_PGO
-=
-True
 FINAL_LIBRARY
 =
 '

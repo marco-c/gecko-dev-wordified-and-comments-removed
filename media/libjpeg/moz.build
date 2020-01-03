@@ -1000,9 +1000,6 @@ jsimd_none
 c
 '
 ]
-MSVC_ENABLE_PGO
-=
-True
 if
 CONFIG
 [
