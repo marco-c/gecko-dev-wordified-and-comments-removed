@@ -1557,7 +1557,10 @@ ReleaseCriticalResources
 )
 ;
 }
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 MediaCodecReader
 :
 :
@@ -1569,6 +1572,7 @@ ReleaseResources
 (
 )
 ;
+return
 MediaDecoderReader
 :
 :

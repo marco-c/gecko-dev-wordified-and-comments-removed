@@ -154,7 +154,10 @@ BreakCycles
 )
 ;
 virtual
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )
