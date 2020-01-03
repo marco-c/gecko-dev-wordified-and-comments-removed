@@ -967,12 +967,12 @@ places
 [
 i
 ]
+)
 =
 =
 "
 string
 "
-)
 )
 {
 places
