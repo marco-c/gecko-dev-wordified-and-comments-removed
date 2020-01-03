@@ -104,17 +104,7 @@ SOURCES
 =
 [
 '
-certificatecheck
-.
-cpp
-'
-'
 maintenanceservice
-.
-cpp
-'
-'
-registrycertificates
 .
 cpp
 '
