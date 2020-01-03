@@ -460,7 +460,7 @@ h
 ;
 using
 struct
-ResourceMapping
+SubstitutionMapping
 from
 "
 mozilla
@@ -773,7 +773,7 @@ ChromePackage
 ;
 OverrideMapping
 ;
-ResourceMapping
+SubstitutionMapping
 ;
 }
 ;
@@ -2021,10 +2021,10 @@ ChromePackage
 [
 ]
 packages
-ResourceMapping
+SubstitutionMapping
 [
 ]
-resources
+substitutions
 OverrideMapping
 [
 ]

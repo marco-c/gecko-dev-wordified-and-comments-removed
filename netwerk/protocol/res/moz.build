@@ -102,6 +102,11 @@ nsIResProtocolHandler
 .
 idl
 '
+'
+nsISubstitutingProtocolHandler
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
@@ -114,6 +119,11 @@ SOURCES
 [
 '
 nsResProtocolHandler
+.
+cpp
+'
+'
+SubstitutingProtocolHandler
 .
 cpp
 '

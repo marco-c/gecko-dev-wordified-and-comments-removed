@@ -22,7 +22,7 @@ struct
 ChromePackage
 ;
 struct
-ResourceMapping
+SubstitutionMapping
 ;
 struct
 OverrideMapping
@@ -52,7 +52,7 @@ aPackages
 const
 InfallibleTArray
 <
-ResourceMapping
+SubstitutionMapping
 >
 &
 aResources
@@ -185,10 +185,10 @@ aOverride
 )
 ;
 void
-RegisterResource
+RegisterSubstitution
 (
 const
-ResourceMapping
+SubstitutionMapping
 &
 aResource
 )

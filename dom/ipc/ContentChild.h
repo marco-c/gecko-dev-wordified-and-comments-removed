@@ -92,7 +92,7 @@ class
 nsIObserver
 ;
 struct
-ResourceMapping
+SubstitutionMapping
 ;
 struct
 OverrideMapping
@@ -1323,7 +1323,7 @@ ChromePackage
 packages
 InfallibleTArray
 <
-ResourceMapping
+SubstitutionMapping
 >
 &
 &
