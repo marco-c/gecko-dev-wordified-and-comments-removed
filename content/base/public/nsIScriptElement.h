@@ -116,7 +116,7 @@ aFromParser
 :
 mLineNumber
 (
-1
+0
 )
 mAlreadyStarted
 (
