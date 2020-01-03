@@ -3266,6 +3266,14 @@ Layer
 aSubtree
 )
 {
+if
+(
+mDestroyed
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 !
