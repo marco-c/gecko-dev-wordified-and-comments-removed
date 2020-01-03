@@ -175,6 +175,16 @@ android
 "
 android
 :
+id
+=
+"
++
+id
+/
+search_engine_icon_container
+"
+android
+:
 layout_height
 =
 "
