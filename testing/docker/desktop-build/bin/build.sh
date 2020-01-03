@@ -8,7 +8,11 @@ bash
 vex
 set
 -
+v
+-
 x
+-
+e
 #
 Inputs
 with
