@@ -210,6 +210,11 @@ aDormant
 private
 :
 void
+InitializationTask
+(
+)
+;
+void
 Shutdown
 (
 )
