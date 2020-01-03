@@ -4757,10 +4757,9 @@ WasNativeCompositionEndEventDiscarded
 aCompositionEvent
 -
 >
-message
-=
-=
-NS_COMPOSITION_END
+CausesDOMCompositionEndEvent
+(
+)
 )
 {
 TextCompositionArray
