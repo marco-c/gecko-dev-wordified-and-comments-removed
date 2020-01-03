@@ -1747,7 +1747,6 @@ mDecodedStream
 .
 RecreateData
 (
-this
 aStartTimeUSecs
 aGraph
 -
@@ -1962,7 +1961,8 @@ os
 >
 Init
 (
-this
+&
+mDecodedStream
 aStream
 )
 ;
@@ -2295,6 +2295,10 @@ media
 .
 decoder
 "
+)
+mDecodedStream
+(
+mReentrantMonitor
 )
 mPlayState
 (
