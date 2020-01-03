@@ -64,6 +64,12 @@ inContent
 true
 )
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 function
 setupFakeHandler
 (
