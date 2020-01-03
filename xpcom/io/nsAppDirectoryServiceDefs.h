@@ -152,6 +152,12 @@ SrchPluginsDL
 "
 #
 define
+NS_APP_DISTRIBUTION_SEARCH_DIR_LIST
+"
+SrchPluginsDistDL
+"
+#
+define
 NS_SHARED
 "
 SHARED
