@@ -178,6 +178,7 @@ TransportCallback
 (
 )
 ;
+virtual
 int
 SendPacket
 (
@@ -190,6 +191,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 int
 TransportPackets

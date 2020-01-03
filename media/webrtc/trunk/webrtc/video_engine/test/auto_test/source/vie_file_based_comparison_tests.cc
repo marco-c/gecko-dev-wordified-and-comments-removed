@@ -383,6 +383,9 @@ base
 interfaces
 .
 network
+interfaces
+.
+rtp_rtcp
 video_channel
 device_name
 )

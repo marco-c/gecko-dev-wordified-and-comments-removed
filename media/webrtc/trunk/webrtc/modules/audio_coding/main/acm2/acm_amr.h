@@ -122,14 +122,6 @@ InternalCreateEncoder
 (
 )
 ;
-void
-InternalDestructEncoderInst
-(
-void
-*
-ptr_inst
-)
-;
 int16_t
 SetBitRateSafe
 (

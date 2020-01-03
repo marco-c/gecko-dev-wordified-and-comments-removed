@@ -7,6 +7,8 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_SOURCE_PITCH_LAG_TABLES_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

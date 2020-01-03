@@ -970,12 +970,11 @@ r1
 0
 ble
 END_MIN_VALUE_W16
-vmov
+vdup
 .
-i16
+16
 q12
-#
-0x7FFF
+r2
 cmp
 r1
 #

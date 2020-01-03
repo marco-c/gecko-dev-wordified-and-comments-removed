@@ -58,7 +58,7 @@ const
 size_t
 kAudioLevelLength
 =
-2
+4
 ;
 const
 size_t
@@ -101,6 +101,10 @@ break
 case
 kRtpExtensionAudioLevel
 :
+length
+=
+kAudioLevelLength
+;
 break
 ;
 case
@@ -167,6 +171,14 @@ const
 RTPExtensionType
 type
 )
+;
+bool
+IsRegistered
+(
+RTPExtensionType
+type
+)
+const
 ;
 int32_t
 GetType

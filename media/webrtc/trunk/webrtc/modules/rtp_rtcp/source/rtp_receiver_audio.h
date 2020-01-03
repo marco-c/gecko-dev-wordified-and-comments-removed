@@ -269,7 +269,7 @@ OVERRIDE
 void
 PossiblyRemoveExistingPayloadType
 (
-ModuleRTPUtility
+RtpUtility
 :
 :
 PayloadTypeMap

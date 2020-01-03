@@ -425,12 +425,6 @@ frame
 num_channels_
 )
 ;
-frame
-.
-energy_
-=
-0
-;
 }
 int
 AudioFrameOperations

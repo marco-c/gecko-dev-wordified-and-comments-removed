@@ -1,9 +1,0 @@
-namespace
-webrtc
-{
-bool
-IsOSLionOrLater
-(
-)
-;
-}

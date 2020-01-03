@@ -7,6 +7,8 @@ MODULES_AUDIO_CODING_CODECS_G722_MAIN_INTERFACE_G722_INTERFACE_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

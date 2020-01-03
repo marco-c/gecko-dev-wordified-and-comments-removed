@@ -554,9 +554,11 @@ ref_frame
 I420VideoFrame
 test_frame
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 ref_buffer
 (
@@ -567,9 +569,11 @@ frame_length
 ]
 )
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 test_buffer
 (

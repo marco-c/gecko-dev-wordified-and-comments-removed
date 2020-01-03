@@ -14,11 +14,9 @@ include
 "
 webrtc
 /
-modules
+system_wrappers
 /
-remote_bitrate_estimator
-/
-include
+interface
 /
 rtp_to_ntp
 .
@@ -64,9 +62,6 @@ latest_timestamp
 )
 {
 }
-synchronization
-:
-:
 RtcpList
 rtcp
 ;

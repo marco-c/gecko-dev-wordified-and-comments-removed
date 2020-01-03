@@ -3086,8 +3086,6 @@ echo_energy_adapt
 =
 echo_energy_adapt_r
 +
-WEBRTC_SPL_UMUL_16_16
-(
 aecm
 -
 >
@@ -3095,11 +3093,11 @@ channelAdapt16
 [
 i
 ]
+*
 far_spectrum
 [
 i
 ]
-)
 ;
 }
 void
@@ -3710,8 +3708,6 @@ channelAdapt32
 i
 ]
 =
-WEBRTC_SPL_LSHIFT_W32
-(
 (
 int32_t
 )
@@ -3722,7 +3718,8 @@ channelStored
 [
 i
 ]
+<
+<
 16
-)
 ;
 }

@@ -1056,13 +1056,11 @@ NULL
 )
 _totalMemory
 (
--
-1
+0
 )
 _availableMemory
 (
--
-1
+0
 )
 {
 _screenUpdateThread

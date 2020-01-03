@@ -64,13 +64,6 @@ protected
 :
 enum
 {
-kId
-=
-4711
-}
-;
-enum
-{
 kSampleRate
 =
 90000
@@ -86,7 +79,6 @@ clock_
 )
 media_opt_
 (
-kId
 &
 clock_
 )

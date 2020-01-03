@@ -141,6 +141,7 @@ VCMPacketizationCallback
 transport
 )
 ;
+virtual
 int32_t
 SendData
 (
@@ -171,6 +172,7 @@ RTPVideoHeader
 *
 videoHdr
 )
+OVERRIDE
 ;
 void
 RegisterReceiverVCM
@@ -304,6 +306,7 @@ VCMRTPEncodeCompleteCallback
 )
 {
 }
+virtual
 int32_t
 SendData
 (
@@ -334,6 +337,7 @@ RTPVideoHeader
 *
 videoHdr
 )
+OVERRIDE
 ;
 float
 EncodedBytes
@@ -433,6 +437,7 @@ VCMDecodeCompleteCallback
 )
 {
 }
+virtual
 int32_t
 FrameToRender
 (
@@ -443,6 +448,7 @@ I420VideoFrame
 &
 videoFrame
 )
+OVERRIDE
 ;
 int32_t
 DecodedBytes
@@ -513,6 +519,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 virtual
 int
@@ -527,6 +534,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 void
 SetLossPct
@@ -674,6 +682,7 @@ rtp
 )
 {
 }
+virtual
 int32_t
 ResendPackets
 (
@@ -684,6 +693,7 @@ sequenceNumbers
 uint16_t
 length
 )
+OVERRIDE
 ;
 private
 :
@@ -704,10 +714,12 @@ VCMFrameTypeCallback
 {
 public
 :
+virtual
 int32_t
 RequestKeyFrame
 (
 )
+OVERRIDE
 ;
 }
 ;
@@ -736,6 +748,7 @@ _bitrate
 )
 {
 }
+virtual
 int32_t
 SendStatistics
 (
@@ -746,6 +759,7 @@ const
 uint32_t
 frameRate
 )
+OVERRIDE
 ;
 void
 set_framerate
@@ -812,6 +826,7 @@ _rtp
 rtp
 ;
 }
+virtual
 int32_t
 ProtectionRequest
 (
@@ -833,6 +848,7 @@ uint32_t
 *
 sent_fec_rate_bps
 )
+OVERRIDE
 ;
 FecProtectionParams
 DeltaFecParameters

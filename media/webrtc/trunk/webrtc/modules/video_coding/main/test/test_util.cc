@@ -976,7 +976,7 @@ return
 webrtc
 :
 :
-kRtpVideoNone
+kRtpVideoGeneric
 ;
 }
 }

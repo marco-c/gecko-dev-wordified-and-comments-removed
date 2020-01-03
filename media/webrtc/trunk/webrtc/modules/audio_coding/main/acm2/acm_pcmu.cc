@@ -112,7 +112,6 @@ bitstream_len_byte
 =
 WebRtcG711_EncodeU
 (
-NULL
 &
 in_audio_
 [
@@ -182,17 +181,6 @@ InternalCreateEncoder
 return
 0
 ;
-}
-void
-ACMPCMU
-:
-:
-InternalDestructEncoderInst
-(
-void
-*
-)
-{
 }
 void
 ACMPCMU

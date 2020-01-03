@@ -244,7 +244,6 @@ VideoCodingModule
 :
 Create
 (
-0
 clock_
 .
 get

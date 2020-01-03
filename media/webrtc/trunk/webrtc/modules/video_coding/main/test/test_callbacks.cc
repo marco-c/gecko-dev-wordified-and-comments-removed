@@ -378,6 +378,14 @@ pictureId
 ;
 break
 ;
+case
+webrtc
+:
+:
+kRtpVideoGeneric
+:
+break
+;
 default
 :
 assert
@@ -1378,9 +1386,6 @@ double
 randVal
 =
 (
-std
-:
-:
 rand
 (
 )

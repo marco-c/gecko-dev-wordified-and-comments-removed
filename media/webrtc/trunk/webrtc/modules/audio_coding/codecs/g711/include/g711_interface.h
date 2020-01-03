@@ -7,6 +7,8 @@ MODULES_AUDIO_CODING_CODECS_G711_MAIN_INTERFACE_G711_INTERFACE_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -32,9 +34,6 @@ endif
 int16_t
 WebRtcG711_EncodeA
 (
-void
-*
-state
 int16_t
 *
 speechIn
@@ -48,9 +47,6 @@ encoded
 int16_t
 WebRtcG711_EncodeU
 (
-void
-*
-state
 int16_t
 *
 speechIn
@@ -64,9 +60,6 @@ encoded
 int16_t
 WebRtcG711_DecodeA
 (
-void
-*
-state
 int16_t
 *
 encoded
@@ -83,9 +76,6 @@ speechType
 int16_t
 WebRtcG711_DecodeU
 (
-void
-*
-state
 int16_t
 *
 encoded
@@ -102,9 +92,6 @@ speechType
 int
 WebRtcG711_DurationEst
 (
-void
-*
-state
 const
 uint8_t
 *

@@ -84,12 +84,13 @@ x_hi
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 x
 [
 i
 ]
+>
+>
 16
 )
 ;
@@ -98,12 +99,13 @@ y_hi
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 y
 [
 i
 ]
+>
+>
 16
 )
 ;
@@ -123,7 +125,6 @@ x_low
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 (
 x
@@ -133,6 +134,8 @@ i
 -
 temp
 )
+>
+>
 1
 )
 ;
@@ -152,7 +155,6 @@ y_low
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 (
 y
@@ -162,6 +164,8 @@ i
 -
 temp
 )
+>
+>
 1
 )
 ;

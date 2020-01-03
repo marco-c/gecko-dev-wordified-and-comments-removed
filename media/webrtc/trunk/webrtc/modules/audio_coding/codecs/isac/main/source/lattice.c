@@ -27,6 +27,13 @@ memory
 h
 >
 #
+include
+<
+string
+.
+h
+>
+#
 ifdef
 WEBRTC_ANDROID
 #

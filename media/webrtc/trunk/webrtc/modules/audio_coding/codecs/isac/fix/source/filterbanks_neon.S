@@ -1228,7 +1228,7 @@ sample0_ch2
 ;
 b0_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 state0_ch1
@@ -1236,7 +1236,7 @@ state0_ch1
 ;
 b0_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 state0_ch2
@@ -1291,7 +1291,7 @@ b0_ch2
 ;
 state0_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 <
@@ -1308,7 +1308,7 @@ sample0_ch1
 ;
 state0_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 <
@@ -1451,7 +1451,7 @@ sample0_ch2
 ;
 b1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 state0_ch1
@@ -1459,7 +1459,7 @@ state0_ch1
 ;
 b0_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 state1_ch1
@@ -1474,7 +1474,7 @@ Q16
 Q16
 b1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 state0_ch2
@@ -1489,7 +1489,7 @@ Q16
 Q16
 b0_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 state1_ch2
@@ -1584,7 +1584,7 @@ b0_ch2
 ;
 state0_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 <
@@ -1601,7 +1601,7 @@ sample1_ch1
 ;
 state1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 <
@@ -1618,7 +1618,7 @@ sample0_ch1
 ;
 state0_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 <
@@ -1635,7 +1635,7 @@ sample1_ch2
 ;
 state1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 <
@@ -1760,7 +1760,7 @@ sample1_ch2
 ;
 b2_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 state0_ch1
@@ -1768,7 +1768,7 @@ state0_ch1
 ;
 b1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 state1_ch1
@@ -1783,7 +1783,7 @@ Q16
 Q16
 b2_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 state0_ch2
@@ -1798,7 +1798,7 @@ Q16
 Q16
 b1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 state1_ch2
@@ -1893,7 +1893,7 @@ b1_ch2
 ;
 state0_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 <
@@ -1910,7 +1910,7 @@ sample0_ch1
 ;
 state1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 <
@@ -1927,7 +1927,7 @@ sample1_ch1
 ;
 state0_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 <
@@ -1944,7 +1944,7 @@ sample0_ch2
 ;
 state1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 <
@@ -2152,7 +2152,7 @@ sample0_ch2
 ;
 b1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 state0_ch1
@@ -2160,7 +2160,7 @@ state0_ch1
 ;
 b0_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 state1_ch1
@@ -2168,7 +2168,7 @@ state1_ch1
 ;
 b1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 state0_ch2
@@ -2176,7 +2176,7 @@ state0_ch2
 ;
 b0_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 state1_ch2
@@ -2264,7 +2264,7 @@ b0_ch2
 ;
 state0_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 <
@@ -2281,7 +2281,7 @@ sample1_ch1
 ;
 state1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch1
 <
@@ -2298,7 +2298,7 @@ sample0_ch1
 ;
 state0_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 <
@@ -2315,7 +2315,7 @@ sample1_ch2
 ;
 state1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a0_ch2
 <
@@ -2429,7 +2429,7 @@ sample1_ch2
 ;
 b1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 state1_ch1
@@ -2444,7 +2444,7 @@ Q16
 Q16
 b1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 state1_ch2
@@ -2499,7 +2499,7 @@ b1_ch2
 ;
 state1_ch1
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch1
 <
@@ -2516,7 +2516,7 @@ sample1_ch1
 ;
 state1_ch2
 =
-WEBRTC_SPL_ADD_SAT_W32
+WebRtcSpl_AddSatW32
 (
 a1_ch2
 <

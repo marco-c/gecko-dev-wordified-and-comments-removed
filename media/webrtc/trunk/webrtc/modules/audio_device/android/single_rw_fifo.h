@@ -103,10 +103,12 @@ capacity_
 }
 private
 :
-scoped_array
+scoped_ptr
 <
 int8_t
 *
+[
+]
 >
 queue_
 ;

@@ -135,6 +135,7 @@ Channel
 (
 )
 ;
+virtual
 int32_t
 SendData
 (
@@ -159,6 +160,7 @@ RTPFragmentationHeader
 *
 fragmentation
 )
+OVERRIDE
 ;
 void
 RegisterReceiverACM

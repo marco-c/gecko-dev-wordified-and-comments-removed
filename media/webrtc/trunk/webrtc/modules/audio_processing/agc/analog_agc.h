@@ -47,7 +47,7 @@ h
 "
 #
 ifdef
-AGC_DEBUG
+WEBRTC_AGC_DEBUG_DUMP
 #
 include
 <
@@ -281,6 +281,9 @@ minOutput
 int32_t
 zeroCtrlMax
 ;
+int32_t
+lastInMicLevel
+;
 int16_t
 scale
 ;
@@ -303,7 +306,7 @@ digitalAgc
 ;
 #
 ifdef
-AGC_DEBUG
+WEBRTC_AGC_DEBUG_DUMP
 FILE
 *
 fpt

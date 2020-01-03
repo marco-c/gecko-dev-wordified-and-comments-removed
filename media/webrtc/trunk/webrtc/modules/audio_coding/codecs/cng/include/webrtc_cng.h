@@ -7,6 +7,8 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_CNG_MAIN_INTERFACE_WEBRTC_CNG_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

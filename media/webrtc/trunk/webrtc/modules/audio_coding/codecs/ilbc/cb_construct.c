@@ -239,11 +239,14 @@ j
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
+(
 (
 a32
 +
 8192
+)
+>
+>
 14
 )
 ;

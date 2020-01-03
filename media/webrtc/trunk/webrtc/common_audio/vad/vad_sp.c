@@ -85,6 +85,7 @@ kSmoothingUp
 void
 WebRtcVad_Downsampling
 (
+const
 int16_t
 *
 signal_in

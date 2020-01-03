@@ -1001,8 +1001,9 @@ n
 "
 )
 ;
-getchar
+getc
 (
+stdin
 )
 ;
 }
@@ -2707,8 +2708,9 @@ n
 "
 )
 ;
-getchar
+getc
 (
+stdin
 )
 ;
 }

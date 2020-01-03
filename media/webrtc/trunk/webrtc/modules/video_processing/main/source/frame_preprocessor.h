@@ -133,13 +133,6 @@ enable
 )
 ;
 int32_t
-SetMaxFramerate
-(
-uint32_t
-max_frame_rate
-)
-;
-int32_t
 SetTargetResolution
 (
 uint32_t
@@ -216,9 +209,6 @@ id_
 VideoContentMetrics
 *
 content_metrics_
-;
-uint32_t
-max_frame_rate_
 ;
 I420VideoFrame
 resampled_frame_

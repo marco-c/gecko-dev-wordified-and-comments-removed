@@ -269,7 +269,6 @@ VideoCodingModule
 :
 Create
 (
-1
 clock
 &
 event_factory
@@ -536,6 +535,11 @@ VP8
 .
 pictureId
 ;
+break
+;
+case
+kVideoCodecVP9
+:
 break
 ;
 default

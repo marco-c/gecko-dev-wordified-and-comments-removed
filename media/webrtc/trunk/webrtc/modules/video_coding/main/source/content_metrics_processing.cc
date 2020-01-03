@@ -165,7 +165,7 @@ VCMContentMetricsProcessing
 :
 UpdateFrameRate
 (
-float
+uint32_t
 frameRate
 )
 {

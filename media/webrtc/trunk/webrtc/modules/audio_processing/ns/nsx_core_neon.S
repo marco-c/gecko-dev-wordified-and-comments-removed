@@ -104,6 +104,9 @@ Bit
 -
 exact
 .
+.
+syntax
+unified
 #
 include
 "
@@ -1037,7 +1040,7 @@ cmp
 r2
 #
 0
-streqh
+strheq
 r3
 [
 r12
@@ -1826,6 +1829,7 @@ r12
 tmp16no2
 sub
 r2
+r2
 r12
 lsr
 #
@@ -1853,6 +1857,7 @@ r12
 #
 2
 add
+r2
 r2
 r3
 lsr

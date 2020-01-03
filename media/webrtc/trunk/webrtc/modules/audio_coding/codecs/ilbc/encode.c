@@ -1,5 +1,12 @@
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 defines
 .
@@ -1604,7 +1611,7 @@ MEM_LF_TBL
 SUBL
 )
 ;
-WEBRTC_SPL_MEMMOVE_W16
+memmove
 (
 mem
 mem
@@ -1614,6 +1621,12 @@ SUBL
 CB_MEML
 -
 SUBL
+)
+*
+sizeof
+(
+*
+mem
 )
 )
 ;
@@ -2101,7 +2114,7 @@ MEM_LF_TBL
 SUBL
 )
 ;
-WEBRTC_SPL_MEMMOVE_W16
+memmove
 (
 mem
 mem
@@ -2111,6 +2124,12 @@ SUBL
 CB_MEML
 -
 SUBL
+)
+*
+sizeof
+(
+*
+mem
 )
 )
 ;

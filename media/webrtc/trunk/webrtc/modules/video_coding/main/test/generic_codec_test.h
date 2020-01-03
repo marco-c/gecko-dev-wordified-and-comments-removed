@@ -283,6 +283,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 virtual
 int
@@ -297,6 +298,7 @@ data
 int
 len
 )
+OVERRIDE
 {
 return
 0
@@ -368,6 +370,7 @@ _timeStamp
 )
 {
 }
+virtual
 int32_t
 SendData
 (
@@ -406,6 +409,7 @@ RTPVideoHeader
 *
 videoHdr
 )
+OVERRIDE
 ;
 private
 :

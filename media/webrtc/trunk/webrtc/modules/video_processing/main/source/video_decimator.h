@@ -56,14 +56,7 @@ enable
 )
 ;
 int32_t
-SetMaxFramerate
-(
-uint32_t
-max_frame_rate
-)
-;
-int32_t
-SetTargetframe_rate
+SetTargetFramerate
 (
 uint32_t
 frame_rate
@@ -126,9 +119,6 @@ target_frame_rate_
 ;
 float
 incoming_frame_rate_
-;
-uint32_t
-max_frame_rate_
 ;
 int64_t
 incoming_frame_times_

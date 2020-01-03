@@ -349,9 +349,6 @@ random_seed_
 ;
 random_seed_
 =
-std
-:
-:
 rand
 (
 )

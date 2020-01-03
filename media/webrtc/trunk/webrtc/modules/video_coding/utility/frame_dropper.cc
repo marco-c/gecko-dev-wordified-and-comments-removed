@@ -364,7 +364,7 @@ frameSizeKbits
 >
 _keyFrameSizeAvgKbits
 .
-Value
+filtered
 (
 )
 )
@@ -374,7 +374,7 @@ frameSizeKbits
 =
 _keyFrameSizeAvgKbits
 .
-Value
+filtered
 (
 )
 ;
@@ -390,7 +390,7 @@ if
 (
 _keyFrameRatio
 .
-Value
+filtered
 (
 )
 >
@@ -403,7 +403,7 @@ Value
 /
 _keyFrameRatio
 .
-Value
+filtered
 (
 )
 <
@@ -421,7 +421,7 @@ int32_t
 /
 _keyFrameRatio
 .
-Value
+filtered
 (
 )
 +
@@ -541,7 +541,7 @@ if
 (
 _keyFrameRatio
 .
-Value
+filtered
 (
 )
 >
@@ -552,7 +552,7 @@ Value
 /
 _keyFrameRatio
 .
-Value
+filtered
 (
 )
 <
@@ -564,13 +564,13 @@ T
 =
 _keyFrameSizeAvgKbits
 .
-Value
+filtered
 (
 )
 *
 _keyFrameRatio
 .
-Value
+filtered
 (
 )
 ;
@@ -582,7 +582,7 @@ T
 =
 _keyFrameSizeAvgKbits
 .
-Value
+filtered
 (
 )
 /
@@ -829,7 +829,7 @@ if
 (
 _dropRatio
 .
-Value
+filtered
 (
 )
 >
@@ -848,7 +848,7 @@ denom
 -
 _dropRatio
 .
-Value
+filtered
 (
 )
 ;
@@ -930,7 +930,7 @@ if
 (
 _dropRatio
 .
-Value
+filtered
 (
 )
 >
@@ -984,7 +984,7 @@ if
 (
 _dropRatio
 .
-Value
+filtered
 (
 )
 >
@@ -995,7 +995,7 @@ Value
 &
 _dropRatio
 .
-Value
+filtered
 (
 )
 <
@@ -1009,7 +1009,7 @@ denom
 =
 _dropRatio
 .
-Value
+filtered
 (
 )
 ;
@@ -1067,7 +1067,7 @@ if
 (
 _dropRatio
 .
-Value
+filtered
 (
 )
 <
@@ -1239,7 +1239,7 @@ inputFrameRate
 -
 _dropRatio
 .
-Value
+filtered
 (
 )
 )

@@ -223,7 +223,7 @@ seq_num
 )
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 AssignUWord16ToBuffer

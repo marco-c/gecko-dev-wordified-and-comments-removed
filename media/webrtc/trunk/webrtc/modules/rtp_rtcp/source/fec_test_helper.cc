@@ -578,7 +578,7 @@ kRtpMarkerBitMask
 0
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 AssignUWord16ToBuffer
@@ -592,7 +592,7 @@ header
 sequenceNumber
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 AssignUWord32ToBuffer
@@ -606,7 +606,7 @@ header
 timestamp
 )
 ;
-ModuleRTPUtility
+RtpUtility
 :
 :
 AssignUWord32ToBuffer

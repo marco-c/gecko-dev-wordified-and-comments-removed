@@ -141,12 +141,14 @@ int32_t
 TimeUntilNextProcess
 (
 )
+OVERRIDE
 ;
 virtual
 int32_t
 Process
 (
 )
+OVERRIDE
 ;
 private
 :

@@ -100,8 +100,6 @@ RTPReceiverStrategy
 *
 CreateVideoStrategy
 (
-int32_t
-id
 RtpData
 *
 data_callback

@@ -201,6 +201,7 @@ WebRtcVad_CalcVad48khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame
@@ -214,6 +215,7 @@ WebRtcVad_CalcVad32khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame
@@ -227,6 +229,7 @@ WebRtcVad_CalcVad16khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame
@@ -240,6 +243,7 @@ WebRtcVad_CalcVad8khz
 VadInstT
 *
 inst
+const
 int16_t
 *
 speech_frame

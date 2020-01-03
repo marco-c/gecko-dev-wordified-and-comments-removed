@@ -751,7 +751,6 @@ stream_len
 =
 WebRtcG711_EncodeA
 (
-NULL
 shortdata
 framelength
 streamdata
@@ -799,7 +798,6 @@ err
 =
 WebRtcG711_DecodeA
 (
-NULL
 streamdata
 stream_len
 decoded
@@ -824,7 +822,6 @@ stream_len
 =
 WebRtcG711_EncodeU
 (
-NULL
 shortdata
 framelength
 streamdata
@@ -872,7 +869,6 @@ err
 =
 WebRtcG711_DecodeU
 (
-NULL
 streamdata
 stream_len
 decoded

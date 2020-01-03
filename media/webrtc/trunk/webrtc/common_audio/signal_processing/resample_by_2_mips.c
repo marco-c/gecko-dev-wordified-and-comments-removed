@@ -82,7 +82,7 @@ const
 int16_t
 *
 in
-int16_t
+int
 len
 int16_t
 *
@@ -95,7 +95,7 @@ filtState
 int32_t
 out32
 ;
-int16_t
+int
 i
 len1
 ;

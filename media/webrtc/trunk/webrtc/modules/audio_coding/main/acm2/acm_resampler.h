@@ -15,7 +15,7 @@ resampler
 /
 include
 /
-resampler
+push_resampler
 .
 h
 "
@@ -31,9 +31,6 @@ h
 namespace
 webrtc
 {
-class
-CriticalSectionWrapper
-;
 namespace
 acm2
 {
@@ -64,6 +61,8 @@ int
 out_freq_hz
 int
 num_audio_channels
+int
+out_capacity_samples
 int16_t
 *
 out_audio
@@ -71,12 +70,11 @@ out_audio
 ;
 private
 :
-Resampler
+PushResampler
+<
+int16_t
+>
 resampler_
-;
-CriticalSectionWrapper
-*
-resampler_crit_sect_
 ;
 }
 ;

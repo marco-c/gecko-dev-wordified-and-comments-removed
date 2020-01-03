@@ -64,6 +64,13 @@ webrtc
 class
 Clock
 ;
+enum
+RateControlType
+{
+kMimdControl
+kAimdControl
+}
+;
 class
 RemoteBitrateObserver
 {
@@ -259,6 +266,8 @@ observer
 Clock
 *
 clock
+RateControlType
+control_type
 uint32_t
 min_bitrate_bps
 )
@@ -295,6 +304,8 @@ observer
 Clock
 *
 clock
+RateControlType
+control_type
 uint32_t
 min_bitrate_bps
 )

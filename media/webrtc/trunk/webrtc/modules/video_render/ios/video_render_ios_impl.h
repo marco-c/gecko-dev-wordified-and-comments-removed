@@ -353,8 +353,13 @@ CriticalSectionWrapper
 *
 crit_sec_
 ;
+webrtc
+:
+:
+scoped_ptr
+<
 VideoRenderIosGles20
-*
+>
 ptr_ios_render_
 ;
 }

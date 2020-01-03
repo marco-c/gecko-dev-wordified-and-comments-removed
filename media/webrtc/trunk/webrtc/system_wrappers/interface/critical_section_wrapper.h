@@ -9,7 +9,9 @@ include
 "
 webrtc
 /
-common_types
+base
+/
+thread_annotations
 .
 h
 "
@@ -18,11 +20,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
-/
-thread_annotations
+common_types
 .
 h
 "

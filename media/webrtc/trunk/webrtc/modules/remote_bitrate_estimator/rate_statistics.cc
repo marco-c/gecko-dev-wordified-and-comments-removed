@@ -11,6 +11,13 @@ rate_statistics
 .
 h
 "
+#
+include
+<
+assert
+.
+h
+>
 namespace
 webrtc
 {

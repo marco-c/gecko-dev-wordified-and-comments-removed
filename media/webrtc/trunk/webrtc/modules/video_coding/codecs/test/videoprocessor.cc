@@ -1756,9 +1756,11 @@ height
 )
 )
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 image_buffer
 (
@@ -1858,9 +1860,11 @@ height
 )
 )
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 image_buffer
 (

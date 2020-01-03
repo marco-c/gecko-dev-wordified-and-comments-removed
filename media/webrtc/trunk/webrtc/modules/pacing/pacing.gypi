@@ -137,6 +137,16 @@ paced_sender
 h
 '
 '
+bitrate_prober
+.
+cc
+'
+'
+bitrate_prober
+.
+h
+'
+'
 paced_sender
 .
 cc

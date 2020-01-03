@@ -218,6 +218,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 virtual
 int
@@ -232,6 +233,7 @@ data
 int
 len
 )
+OVERRIDE
 ;
 virtual
 void

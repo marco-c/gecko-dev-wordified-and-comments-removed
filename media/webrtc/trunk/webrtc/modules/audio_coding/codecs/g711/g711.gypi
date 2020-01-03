@@ -151,6 +151,13 @@ g711_interface
 h
 '
 '
+include
+/
+audio_encoder_pcm
+.
+h
+'
+'
 g711_interface
 .
 c
@@ -164,6 +171,11 @@ c
 g711
 .
 h
+'
+'
+audio_encoder_pcm
+.
+cc
 '
 ]
 }

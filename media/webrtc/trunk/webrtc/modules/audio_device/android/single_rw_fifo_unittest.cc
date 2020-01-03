@@ -430,9 +430,11 @@ protected
 SingleRwFifo
 fifo_
 ;
-scoped_array
+scoped_ptr
 <
 int8_t
+[
+]
 >
 buffer_
 [

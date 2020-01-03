@@ -58,9 +58,11 @@ buffer
 int
 buffer_size
 uint32_t
-time_stamp
+timestamp
 int64_t
-render_time
+ntp_time_ms
+int64_t
+render_time_ms
 void
 *
 handle

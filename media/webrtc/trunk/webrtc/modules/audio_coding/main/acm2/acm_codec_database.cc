@@ -48,7 +48,7 @@ modules
 /
 audio_coding
 /
-neteq4
+neteq
 /
 interface
 /

@@ -37,7 +37,7 @@ VadInst
 handle
 )
 ;
-int
+void
 WebRtcVad_Free
 (
 VadInst
@@ -71,6 +71,7 @@ VadInst
 handle
 int
 fs
+const
 int16_t
 *
 audio_frame

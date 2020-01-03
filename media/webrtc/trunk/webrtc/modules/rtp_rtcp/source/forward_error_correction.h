@@ -267,8 +267,6 @@ RecoveredPacketList
 ;
 ForwardErrorCorrection
 (
-int32_t
-id
 )
 ;
 virtual
@@ -588,9 +586,6 @@ uint8_t
 *
 packet
 )
-;
-int32_t
-id_
 ;
 std
 :

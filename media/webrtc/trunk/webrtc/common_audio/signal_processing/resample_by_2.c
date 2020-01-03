@@ -256,7 +256,7 @@ const
 int16_t
 *
 in
-int16_t
+int
 len
 int16_t
 *
@@ -273,7 +273,7 @@ diff
 in32
 out32
 ;
-int16_t
+int
 i
 ;
 register
@@ -620,7 +620,7 @@ const
 int16_t
 *
 in
-int16_t
+int
 len
 int16_t
 *
@@ -637,7 +637,7 @@ diff
 in32
 out32
 ;
-int16_t
+int
 i
 ;
 register

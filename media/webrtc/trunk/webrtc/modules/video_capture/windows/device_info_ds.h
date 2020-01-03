@@ -112,15 +112,6 @@ NumberOfDevices
 (
 )
 ;
-int32_t
-Refresh
-(
-)
-{
-return
-0
-;
-}
 virtual
 int32_t
 GetDeviceName
@@ -249,6 +240,10 @@ private
 ICreateDevEnum
 *
 _dsDevEnum
+;
+IEnumMoniker
+*
+_dsMonikerDevEnum
 ;
 bool
 _CoUninitializeIsRequired

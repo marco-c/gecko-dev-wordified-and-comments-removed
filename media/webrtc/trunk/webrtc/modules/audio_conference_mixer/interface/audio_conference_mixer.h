@@ -123,6 +123,7 @@ const
 int32_t
 id
 )
+OVERRIDE
 =
 0
 ;
@@ -131,6 +132,7 @@ int32_t
 TimeUntilNextProcess
 (
 )
+OVERRIDE
 =
 0
 ;
@@ -139,6 +141,7 @@ int32_t
 Process
 (
 )
+OVERRIDE
 =
 0
 ;

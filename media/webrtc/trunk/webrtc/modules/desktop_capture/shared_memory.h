@@ -31,7 +31,9 @@ include
 "
 webrtc
 /
-typedefs
+base
+/
+constructormagic
 .
 h
 "
@@ -40,11 +42,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
-/
-constructor_magic
+typedefs
 .
 h
 "

@@ -341,7 +341,7 @@ video_frame_types
 ;
 protected
 :
-int32_t
+void
 VerifyAndAllocate
 (
 const

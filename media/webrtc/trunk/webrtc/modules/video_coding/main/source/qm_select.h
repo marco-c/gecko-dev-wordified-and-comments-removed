@@ -543,13 +543,6 @@ VCMResolutionScale
 qm
 )
 ;
-void
-SetCPULoadState
-(
-CPULoadState
-state
-)
-;
 private
 :
 void
@@ -752,9 +745,6 @@ kDownActionHistorySize
 ;
 int
 num_layers_
-;
-CPULoadState
-loadstate_
 ;
 }
 ;

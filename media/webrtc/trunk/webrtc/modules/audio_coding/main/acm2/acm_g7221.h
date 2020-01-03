@@ -106,14 +106,6 @@ InternalCreateEncoder
 (
 )
 ;
-void
-InternalDestructEncoderInst
-(
-void
-*
-ptr_inst
-)
-;
 int32_t
 operational_rate_
 ;

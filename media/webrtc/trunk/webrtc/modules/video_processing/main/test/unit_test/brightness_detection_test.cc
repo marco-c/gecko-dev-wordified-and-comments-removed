@@ -74,9 +74,11 @@ warningCount
 =
 0
 ;
-scoped_array
+scoped_ptr
 <
 uint8_t
+[
+]
 >
 video_buffer
 (

@@ -69,7 +69,7 @@ Reset
 void
 UpdateFrameRate
 (
-float
+uint32_t
 frameRate
 )
 ;

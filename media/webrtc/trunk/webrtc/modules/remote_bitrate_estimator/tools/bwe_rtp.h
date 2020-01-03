@@ -25,10 +25,10 @@ class
 RtpHeaderParser
 ;
 namespace
-rtpplayer
+test
 {
 class
-RtpPacketSourceInterface
+RtpFileReader
 ;
 }
 }
@@ -56,10 +56,10 @@ observer
 webrtc
 :
 :
-rtpplayer
+test
 :
 :
-RtpPacketSourceInterface
+RtpFileReader
 *
 *
 rtp_reader

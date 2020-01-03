@@ -385,7 +385,7 @@ K
 *
 pptr
 =
-WEBRTC_SPL_ADD_SAT_W16
+WebRtcSpl_AddSatW16
 (
 *
 pptr
@@ -443,7 +443,7 @@ K
 *
 pptr
 =
-WEBRTC_SPL_ADD_SAT_W16
+WebRtcSpl_AddSatW16
 (
 *
 (
@@ -487,7 +487,7 @@ K
 *
 wptr
 =
-WEBRTC_SPL_ADD_SAT_W16
+WebRtcSpl_AddSatW16
 (
 *
 wptr

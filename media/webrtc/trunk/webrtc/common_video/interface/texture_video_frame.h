@@ -148,6 +148,15 @@ videoFrame
 OVERRIDE
 ;
 virtual
+I420VideoFrame
+*
+CloneFrame
+(
+)
+const
+OVERRIDE
+;
+virtual
 void
 SwapFrame
 (

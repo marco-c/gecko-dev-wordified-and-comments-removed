@@ -61,7 +61,7 @@ WebRtcSpl_AllPassQMF
 int32_t
 *
 in_data
-int16_t
+int
 data_length
 int32_t
 *
@@ -75,7 +75,7 @@ int32_t
 filter_state
 )
 {
-int16_t
+int
 k
 ;
 int32_t
@@ -83,7 +83,7 @@ diff
 ;
 diff
 =
-WEBRTC_SPL_SUB_SAT_W32
+WebRtcSpl_SubSatW32
 (
 in_data
 [
@@ -130,7 +130,7 @@ k
 {
 diff
 =
-WEBRTC_SPL_SUB_SAT_W32
+WebRtcSpl_SubSatW32
 (
 in_data
 [
@@ -191,7 +191,7 @@ data_length
 ;
 diff
 =
-WEBRTC_SPL_SUB_SAT_W32
+WebRtcSpl_SubSatW32
 (
 out_data
 [
@@ -238,7 +238,7 @@ k
 {
 diff
 =
-WEBRTC_SPL_SUB_SAT_W32
+WebRtcSpl_SubSatW32
 (
 out_data
 [
@@ -299,7 +299,7 @@ data_length
 ;
 diff
 =
-WEBRTC_SPL_SUB_SAT_W32
+WebRtcSpl_SubSatW32
 (
 in_data
 [
@@ -346,7 +346,7 @@ k
 {
 diff
 =
-WEBRTC_SPL_SUB_SAT_W32
+WebRtcSpl_SubSatW32
 (
 in_data
 [
@@ -582,6 +582,7 @@ i
 {
 tmp
 =
+(
 filter1
 [
 i
@@ -593,14 +594,10 @@ i
 ]
 +
 1024
-;
-tmp
-=
-WEBRTC_SPL_RSHIFT_W32
-(
-tmp
-11
 )
+>
+>
+11
 ;
 low_band
 [
@@ -614,6 +611,7 @@ tmp
 ;
 tmp
 =
+(
 filter1
 [
 i
@@ -625,14 +623,10 @@ i
 ]
 +
 1024
-;
-tmp
-=
-WEBRTC_SPL_RSHIFT_W32
-(
-tmp
-11
 )
+>
+>
+11
 ;
 high_band
 [
@@ -823,7 +817,6 @@ i
 {
 tmp
 =
-WEBRTC_SPL_RSHIFT_W32
 (
 filter2
 [
@@ -831,8 +824,10 @@ i
 ]
 +
 512
-10
 )
+>
+>
+10
 ;
 out_data
 [
@@ -848,7 +843,6 @@ tmp
 ;
 tmp
 =
-WEBRTC_SPL_RSHIFT_W32
 (
 filter1
 [
@@ -856,8 +850,10 @@ i
 ]
 +
 512
-10
 )
+>
+>
+10
 ;
 out_data
 [

@@ -33,9 +33,6 @@ Standard
 Stress
 =
 2
-Unit
-=
-3
 CPU
 =
 4

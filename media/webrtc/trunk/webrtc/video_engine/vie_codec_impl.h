@@ -177,7 +177,7 @@ enable
 ;
 virtual
 int
-GetSendCodecStatistics
+GetSendCodecStastistics
 (
 const
 int
@@ -195,7 +195,7 @@ const
 ;
 virtual
 int
-GetReceiveCodecStatistics
+GetReceiveCodecStastistics
 (
 const
 int
@@ -239,11 +239,9 @@ bitrate
 const
 ;
 virtual
-unsigned
 int
-GetDiscardedPackets
+GetNumDiscardedPackets
 (
-const
 int
 video_channel
 )

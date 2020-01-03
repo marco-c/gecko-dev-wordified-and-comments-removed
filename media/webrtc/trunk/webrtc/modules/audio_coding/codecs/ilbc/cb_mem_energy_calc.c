@@ -106,11 +106,10 @@ ppo
 energy
 +
 =
-WEBRTC_SPL_RSHIFT_W32
-(
 tmp
+>
+>
 scale
-)
 ;
 energy
 =
@@ -161,9 +160,10 @@ eW16_ptr
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 tmp
+>
+>
 16
 )
 ;

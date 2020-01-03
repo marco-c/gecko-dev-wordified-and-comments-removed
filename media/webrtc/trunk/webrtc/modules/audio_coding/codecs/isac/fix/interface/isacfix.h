@@ -7,6 +7,8 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_FIX_INTERFACE_ISACFIX_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -91,7 +93,7 @@ const
 int16_t
 *
 speechIn
-int16_t
+uint8_t
 *
 encoded
 )
@@ -131,7 +133,7 @@ ISACFIX_MainStruct
 *
 ISAC_main_inst
 const
-uint16_t
+uint8_t
 *
 encoded
 int32_t
@@ -149,7 +151,7 @@ ISACFIX_MainStruct
 *
 ISAC_main_inst
 const
-uint16_t
+uint8_t
 *
 encoded
 int32_t
@@ -169,7 +171,7 @@ ISACFIX_MainStruct
 *
 ISAC_main_inst
 const
-uint16_t
+uint8_t
 *
 encoded
 int16_t
@@ -242,9 +244,11 @@ int16_t
 WebRtcIsacfix_ReadFrameLen
 (
 const
-int16_t
+uint8_t
 *
 encoded
+int
+encoded_len_bytes
 int16_t
 *
 frameLength
@@ -346,7 +350,7 @@ int16_t
 bweIndex
 float
 scale
-int16_t
+uint8_t
 *
 encoded
 )
@@ -376,9 +380,11 @@ int16_t
 WebRtcIsacfix_ReadBwIndex
 (
 const
-int16_t
+uint8_t
 *
 encoded
+int
+encoded_len_bytes
 int16_t
 *
 rateIndex

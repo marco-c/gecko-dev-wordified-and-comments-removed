@@ -132,6 +132,18 @@ DirectTransport
 (
 )
 ;
+void
+SetConfig
+(
+const
+FakeNetworkPipe
+:
+:
+Config
+&
+config
+)
+;
 virtual
 void
 StopSending
@@ -209,6 +221,7 @@ thread_
 ;
 Clock
 *
+const
 clock_
 ;
 bool

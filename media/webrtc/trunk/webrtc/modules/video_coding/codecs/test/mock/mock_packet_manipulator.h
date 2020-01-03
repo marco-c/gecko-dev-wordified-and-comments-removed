@@ -46,11 +46,7 @@ include
 "
 webrtc
 /
-common_video
-/
-interface
-/
-video_image
+typedefs
 .
 h
 "
@@ -59,7 +55,7 @@ include
 "
 webrtc
 /
-typedefs
+video_frame
 .
 h
 "

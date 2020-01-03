@@ -86,9 +86,11 @@ unsigned
 char
 *
 frame_buffer
+int64_t
+ntp_time_ms
 unsigned
 int
-time_stamp90KHz
+timestamp
 unsigned
 int
 width
@@ -138,7 +140,8 @@ DeliverFrame
 (
 frame_buffer
 size
-time_stamp90KHz
+ntp_time_ms
+timestamp
 webrtc
 :
 :

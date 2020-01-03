@@ -1159,10 +1159,6 @@ dtor
 "
 )
 ;
-delete
-&
-_renderCritSect
-;
 if
 (
 _jvm
@@ -1323,6 +1319,10 @@ __FUNCTION__
 }
 }
 }
+delete
+&
+_renderCritSect
+;
 }
 int32_t
 AndroidNativeOpenGl2Channel

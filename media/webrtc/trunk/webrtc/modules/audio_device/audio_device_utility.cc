@@ -139,12 +139,6 @@ WEBRTC_LINUX
 |
 defined
 (
-WEBRTC_BSD
-)
-|
-|
-defined
-(
 WEBRTC_MAC
 )
 #
@@ -240,8 +234,9 @@ newt
 ;
 if
 (
-getchar
+getc
 (
+stdin
 )
 =
 =
@@ -251,8 +246,9 @@ n
 '
 )
 {
-getchar
+getc
 (
+stdin
 )
 ;
 }

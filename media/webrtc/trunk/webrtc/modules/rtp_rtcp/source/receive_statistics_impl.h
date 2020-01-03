@@ -447,15 +447,6 @@ TimeUntilNextProcess
 )
 OVERRIDE
 ;
-void
-ChangeSsrc
-(
-uint32_t
-from_ssrc
-uint32_t
-to_ssrc
-)
-;
 virtual
 void
 RegisterRtcpStatisticsCallback

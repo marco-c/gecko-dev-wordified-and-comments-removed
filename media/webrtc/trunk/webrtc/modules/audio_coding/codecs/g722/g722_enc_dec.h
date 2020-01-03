@@ -9,6 +9,15 @@ _G722_ENC_DEC_H_
 define
 _G722_ENC_DEC_H_
 #
+include
+"
+webrtc
+/
+typedefs
+.
+h
+"
+#
 define
 WEBRTC_INT16_MAX
 32767

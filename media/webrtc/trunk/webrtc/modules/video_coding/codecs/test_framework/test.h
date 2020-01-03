@@ -197,9 +197,6 @@ RandUniform
 {
 return
 (
-std
-:
-:
 rand
 (
 )

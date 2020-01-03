@@ -861,9 +861,11 @@ bitmap_info
 .
 bmHeight
 ;
-scoped_array
+scoped_ptr
 <
 uint32_t
+[
+]
 >
 mask_data
 (
@@ -1169,7 +1171,7 @@ stride
 (
 )
 *
-width
+height
 )
 ;
 }

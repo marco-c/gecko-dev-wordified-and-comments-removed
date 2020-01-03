@@ -84,9 +84,11 @@ samples_per_10_ms_
 int
 bytes_per_10_ms_
 ;
-scoped_array
+scoped_ptr
 <
 int8_t
+[
+]
 >
 cache_buffer_
 ;

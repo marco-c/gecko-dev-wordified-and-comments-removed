@@ -19,6 +19,12 @@ algorithm
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

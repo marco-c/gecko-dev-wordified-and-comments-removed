@@ -106,6 +106,7 @@ VCMPacketizationCallback
 transport
 )
 ;
+virtual
 int32_t
 SendData
 (
@@ -145,6 +146,7 @@ RTPVideoHeader
 *
 videoHdr
 )
+OVERRIDE
 ;
 void
 RegisterReceiverVCM
@@ -261,6 +263,7 @@ VCMReceiveCallback
 receiveCallback
 )
 ;
+virtual
 int32_t
 FrameToRender
 (
@@ -271,6 +274,7 @@ I420VideoFrame
 &
 videoFrame
 )
+OVERRIDE
 ;
 int32_t
 DecodedBytes

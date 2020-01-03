@@ -70,11 +70,10 @@ i
 ;
 k
 =
-WEBRTC_SPL_RSHIFT_W16
-(
 freq
+>
+>
 8
-)
 ;
 diff
 =
@@ -121,11 +120,10 @@ k
 int16_t
 )
 (
-WEBRTC_SPL_RSHIFT_W32
-(
 tmpW32
+>
+>
 12
-)
 )
 ;
 }

@@ -280,6 +280,10 @@ severity_
 )
 kTraceUndefined
 0
+"
+%
+s
+"
 str
 .
 c_str

@@ -30,6 +30,12 @@ algorithm
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -2341,9 +2347,11 @@ kNackListSize
 +
 5
 ;
-scoped_array
+scoped_ptr
 <
 uint16_t
+[
+]
 >
 seq_num_lost
 (

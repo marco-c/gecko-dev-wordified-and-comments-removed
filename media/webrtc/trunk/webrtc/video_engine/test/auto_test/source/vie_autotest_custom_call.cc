@@ -10902,7 +10902,7 @@ error
 vie_codec
 -
 >
-GetReceiveCodecStatistics
+GetReceiveCodecStastistics
 (
 video_channel
 key_frames
@@ -10963,7 +10963,7 @@ error
 vie_codec
 -
 >
-GetSendCodecStatistics
+GetSendCodecStastistics
 (
 video_channel
 key_frames
@@ -11090,7 +11090,7 @@ discarded_packets
 vie_codec
 -
 >
-GetDiscardedPackets
+GetNumDiscardedPackets
 (
 video_channel
 )

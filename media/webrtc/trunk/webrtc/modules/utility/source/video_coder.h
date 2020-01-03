@@ -48,8 +48,6 @@ public
 :
 VideoCoder
 (
-uint32_t
-instanceID
 )
 ;
 ~
@@ -114,6 +112,7 @@ plName
 ;
 private
 :
+virtual
 int32_t
 FrameToRender
 (
@@ -121,7 +120,9 @@ I420VideoFrame
 &
 videoFrame
 )
+OVERRIDE
 ;
+virtual
 int32_t
 SendData
 (
@@ -144,6 +145,7 @@ RTPVideoHeader
 *
 rtpTypeHdr
 )
+OVERRIDE
 ;
 VideoCodingModule
 *

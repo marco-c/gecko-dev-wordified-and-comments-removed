@@ -97,6 +97,9 @@ payloadType
 uint32_t
 timestamp
 ;
+int64_t
+ntp_time_ms_
+;
 uint16_t
 seqNum
 ;

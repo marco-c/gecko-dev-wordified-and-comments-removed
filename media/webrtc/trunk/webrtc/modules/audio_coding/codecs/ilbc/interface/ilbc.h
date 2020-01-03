@@ -7,6 +7,8 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ILBC_MAIN_INTERFACE_ILBC_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

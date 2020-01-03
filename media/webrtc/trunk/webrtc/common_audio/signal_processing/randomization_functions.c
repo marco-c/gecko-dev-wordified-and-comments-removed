@@ -15,6 +15,13 @@ h
 "
 static
 const
+uint32_t
+kMaxSeedUsed
+=
+0x80000000
+;
+static
+const
 int16_t
 kRandNTable
 [
@@ -783,8 +790,9 @@ kRandNTable
 10492
 }
 ;
+static
 uint32_t
-WebRtcSpl_IncreaseSeed
+IncreaseSeed
 (
 uint32_t
 *
@@ -813,7 +821,7 @@ int32_t
 )
 &
 (
-WEBRTC_SPL_MAX_SEED_USED
+kMaxSeedUsed
 -
 1
 )
@@ -838,7 +846,7 @@ return
 int16_t
 )
 (
-WebRtcSpl_IncreaseSeed
+IncreaseSeed
 (
 seed
 )
@@ -859,7 +867,7 @@ seed
 return
 kRandNTable
 [
-WebRtcSpl_IncreaseSeed
+IncreaseSeed
 (
 seed
 )

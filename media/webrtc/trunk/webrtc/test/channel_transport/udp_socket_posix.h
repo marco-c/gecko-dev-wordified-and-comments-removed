@@ -201,15 +201,8 @@ CloseBlocking
 )
 OVERRIDE
 ;
-virtual
 SOCKET
 GetFd
-(
-)
-;
-virtual
-int32_t
-GetError
 (
 )
 ;
@@ -271,9 +264,6 @@ _incomingCb
 ;
 CallbackObj
 _obj
-;
-int32_t
-_error
 ;
 SOCKET
 _socket

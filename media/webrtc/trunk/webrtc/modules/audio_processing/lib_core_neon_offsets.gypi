@@ -131,11 +131,8 @@ lib_intermediate_name
 '
 :
 '
-<
 (
-android_src
-)
-/
+abspath
 (
 call
 intermediates
@@ -145,6 +142,10 @@ dir
 for
 STATIC_LIBRARIES
 lib_core_neon_offsets
+(
+gyp_var_prefix
+)
+)
 )
 /
 lib_core_neon_offsets

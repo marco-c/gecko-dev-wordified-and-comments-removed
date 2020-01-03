@@ -23,14 +23,6 @@ public
 :
 VCMRttFilter
 (
-int32_t
-vcmId
-=
-0
-int32_t
-receiverId
-=
-0
 )
 ;
 VCMRttFilter
@@ -94,12 +86,6 @@ buf
 uint32_t
 length
 )
-;
-int32_t
-_vcmId
-;
-int32_t
-_receiverId
 ;
 bool
 _gotNonZeroUpdate

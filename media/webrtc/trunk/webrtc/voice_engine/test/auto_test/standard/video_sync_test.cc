@@ -106,11 +106,6 @@ playout_buffer_delay_ms
 =
 0
 ;
-int
-avsync_offset_ms
-=
-0
-;
 EXPECT_EQ
 (
 0
@@ -124,8 +119,6 @@ channel_
 jitter_buffer_delay_ms
 &
 playout_buffer_delay_ms
-&
-avsync_offset_ms
 )
 )
 ;
@@ -615,13 +608,6 @@ kMinimumReasonableDelayEstimateMs
 )
 ;
 }
-#
-if
-!
-defined
-(
-WEBRTC_ANDROID
-)
 TEST_F
 (
 VideoSyncTest
@@ -644,5 +630,3 @@ ignored
 )
 ;
 }
-#
-endif

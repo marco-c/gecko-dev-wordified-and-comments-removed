@@ -216,7 +216,7 @@ WebRtcSpl_DownsampleFastNeon
 ;
 WebRtcSpl_ScaleAndAddVectorsWithRound
 =
-WebRtcSpl_ScaleAndAddVectorsWithRoundNeon
+WebRtcSpl_ScaleAndAddVectorsWithRoundC
 ;
 WebRtcSpl_CreateRealFFT
 =

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -183,9 +187,10 @@ tmpW16
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 tmpW32
+>
+>
 14
 )
 ;
@@ -283,9 +288,10 @@ tmpW16
 (
 int16_t
 )
-WEBRTC_SPL_RSHIFT_W32
 (
 tmpW32
+>
+>
 15
 )
 ;

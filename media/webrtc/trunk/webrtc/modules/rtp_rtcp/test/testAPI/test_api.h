@@ -224,6 +224,7 @@ data
 int
 len
 )
+OVERRIDE
 {
 _count
 +
@@ -287,7 +288,13 @@ uint8_t
 (
 data
 )
+static_cast
+<
+size_t
+>
+(
 len
+)
 &
 header
 )
@@ -378,6 +385,7 @@ data
 int
 len
 )
+OVERRIDE
 {
 if
 (
@@ -460,6 +468,7 @@ WebRtcRTPHeader
 *
 rtpHeader
 )
+OVERRIDE
 {
 EXPECT_LE
 (

@@ -174,9 +174,11 @@ bytes_per_pixel_
 int
 bytes_per_row_
 ;
-scoped_array
+scoped_ptr
 <
 DiffInfo
+[
+]
 >
 diff_info_
 ;

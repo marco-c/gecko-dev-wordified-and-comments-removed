@@ -133,6 +133,7 @@ private
 :
 static
 jint
+JNICALL
 CreateOpenGLNativeStatic
 (
 JNIEnv
@@ -158,6 +159,7 @@ height
 ;
 static
 void
+JNICALL
 DrawNativeStatic
 (
 JNIEnv

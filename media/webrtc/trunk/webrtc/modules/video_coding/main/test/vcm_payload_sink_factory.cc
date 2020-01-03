@@ -249,6 +249,7 @@ WebRtcRTPHeader
 *
 rtp_header
 )
+OVERRIDE
 {
 return
 vcm_
@@ -274,6 +275,7 @@ packet
 int
 packet_length
 )
+OVERRIDE
 {
 return
 true
@@ -290,6 +292,7 @@ sequence_numbers
 uint16_t
 length
 )
+OVERRIDE
 {
 stream_
 -
@@ -539,10 +542,6 @@ CreateCriticalSection
 sinks_
 (
 )
-next_id_
-(
-1
-)
 {
 assert
 (
@@ -615,9 +614,6 @@ VideoCodingModule
 :
 Create
 (
-next_id_
-+
-+
 clock_
 null_event_factory_
 .

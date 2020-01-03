@@ -134,17 +134,6 @@ void
 ACMRED
 :
 :
-InternalDestructEncoderInst
-(
-void
-*
-)
-{
-}
-void
-ACMRED
-:
-:
 DestructEncoderSafe
 (
 )

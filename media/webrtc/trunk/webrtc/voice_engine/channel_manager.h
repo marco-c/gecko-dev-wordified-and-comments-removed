@@ -14,11 +14,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-atomic32
+constructormagic
 .
 h
 "
@@ -31,7 +29,7 @@ system_wrappers
 /
 interface
 /
-constructor_magic
+atomic32
 .
 h
 "

@@ -7,6 +7,8 @@ WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_FIX_SOURCE_STRUCTS_H_
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -39,6 +43,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -48,8 +54,10 @@ struct
 Bitstreamstruct_dec
 {
 uint16_t
-*
 stream
+[
+INTERNAL_STREAM_SIZE_W16
+]
 ;
 uint32_t
 W_upper
@@ -62,6 +70,9 @@ stream_index
 ;
 int16_t
 full
+;
+int
+stream_size
 ;
 }
 Bitstr_dec

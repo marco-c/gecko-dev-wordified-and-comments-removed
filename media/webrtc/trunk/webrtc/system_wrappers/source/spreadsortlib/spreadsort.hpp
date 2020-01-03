@@ -34,14 +34,6 @@ constants
 .
 hpp
 "
-#
-ifdef
-getchar
-#
-undef
-getchar
-#
-endif
 namespace
 boost
 {

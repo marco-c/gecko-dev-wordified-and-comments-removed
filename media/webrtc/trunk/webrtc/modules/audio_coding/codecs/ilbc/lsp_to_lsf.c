@@ -165,11 +165,9 @@ diff
 freq
 =
 (
-int16_t
-)
-WEBRTC_SPL_LSHIFT_W16
-(
 k
+<
+<
 9
 )
 +
