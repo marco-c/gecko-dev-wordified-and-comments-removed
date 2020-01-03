@@ -1353,6 +1353,12 @@ mVelocity
 )
 <
 0
+|
+|
+mVelocity
+=
+=
+0
 ;
 if
 (
