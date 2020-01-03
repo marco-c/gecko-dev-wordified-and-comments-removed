@@ -19,7 +19,9 @@ h
 #
 include
 <
-cstdint
+stdint
+.
+h
 >
 #
 include
