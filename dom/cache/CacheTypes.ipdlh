@@ -251,9 +251,6 @@ nsCString
 method
 ;
 nsCString
-url
-;
-nsCString
 urlWithoutQuery
 ;
 nsCString
