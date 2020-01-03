@@ -520,14 +520,6 @@ uint32_t
 aStretchHint
 =
 NS_STRETCH_NORMAL
-float
-aMaxSize
-=
-NS_MATHML_OPERATOR_SIZE_INFINITY
-bool
-aMaxSizeIsAbsolute
-=
-false
 )
 ;
 void

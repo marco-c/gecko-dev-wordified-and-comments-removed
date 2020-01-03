@@ -7626,10 +7626,6 @@ float
 aFontSizeInflation
 uint32_t
 aStretchHint
-float
-aMaxSize
-bool
-aMaxSizeIsAbsolute
 )
 {
 nsBoundingMetrics
