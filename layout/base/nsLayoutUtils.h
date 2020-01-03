@@ -226,12 +226,6 @@ class
 nsContainerFrame
 ;
 class
-gfxASurface
-;
-class
-gfxDrawable
-;
-class
 nsView
 ;
 class
@@ -3424,12 +3418,6 @@ SurfaceFromElementResult
 SurfaceFromElementResult
 (
 )
-;
-nsRefPtr
-<
-gfxASurface
->
-mSurface
 ;
 mozilla
 :
