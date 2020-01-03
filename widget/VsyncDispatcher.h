@@ -197,6 +197,16 @@ RefreshTimerVsyncDispatcher
 (
 )
 ;
+void
+UpdateVsyncStatus
+(
+)
+;
+bool
+NeedsVsync
+(
+)
+;
 Mutex
 mRefreshTimersLock
 ;
