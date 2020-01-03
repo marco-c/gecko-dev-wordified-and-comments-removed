@@ -139,6 +139,16 @@ jar
 mn
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+UrlClassifierTestUtils
+.
+jsm
+'
+]
 #
 DEFINES
 [
