@@ -200,7 +200,10 @@ ctypes
 .
 char
 .
-ptr
+array
+(
+4096
+)
 }
 ]
 )
