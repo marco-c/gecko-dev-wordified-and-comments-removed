@@ -32,6 +32,9 @@ public
 explicit
 CallbackInterface
 (
+JSContext
+*
+aCx
 JS
 :
 :
@@ -48,6 +51,7 @@ aIncumbentGlobal
 :
 CallbackObject
 (
+aCx
 aCallback
 aIncumbentGlobal
 )

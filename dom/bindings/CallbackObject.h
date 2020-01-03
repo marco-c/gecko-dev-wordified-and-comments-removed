@@ -153,6 +153,9 @@ CallbackObject
 explicit
 CallbackObject
 (
+JSContext
+*
+aCx
 JS
 :
 :
