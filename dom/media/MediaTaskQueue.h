@@ -187,6 +187,7 @@ Move
 aRunnable
 )
 AbortIfFlushing
+aFailureHandling
 aReason
 )
 ;
@@ -297,6 +298,8 @@ nsIRunnable
 aRunnable
 DispatchMode
 aMode
+DispatchFailureHandling
+aFailureHandling
 DispatchReason
 aReason
 =
