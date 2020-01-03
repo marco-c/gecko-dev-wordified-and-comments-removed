@@ -789,13 +789,6 @@ run
 mozilla
 .
 sh
-BINPATH
-/
-mozilla
--
-xremote
--
-client
 #
 endif
 #
