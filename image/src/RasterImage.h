@@ -749,6 +749,17 @@ uint32_t
 aFlags
 )
 ;
+void
+RecoverFromLossOfFrames
+(
+const
+nsIntSize
+&
+aSize
+uint32_t
+aFlags
+)
+;
 private
 :
 nsIntSize
