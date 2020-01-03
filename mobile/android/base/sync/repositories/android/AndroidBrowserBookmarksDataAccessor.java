@@ -235,17 +235,6 @@ BrowserContract
 .
 Bookmarks
 .
-READING_LIST_FOLDER_GUID
-+
-"
-'
-'
-"
-+
-BrowserContract
-.
-Bookmarks
-.
 PINNED_FOLDER_GUID
 +
 "
