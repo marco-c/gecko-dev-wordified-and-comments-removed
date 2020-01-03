@@ -3438,6 +3438,13 @@ mGeometryChanged
 )
 )
 {
+LayerScope
+:
+:
+SetHWComposed
+(
+)
+;
 if
 (
 mFPS

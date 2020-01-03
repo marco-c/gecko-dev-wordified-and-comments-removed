@@ -113,6 +113,12 @@ CleanLayer
 (
 )
 ;
+static
+void
+SetHWComposed
+(
+)
+;
 private
 :
 static
