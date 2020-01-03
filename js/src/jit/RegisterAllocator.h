@@ -970,7 +970,7 @@ LIRGraph
 &
 graph
 ;
-RegisterSet
+AllocatableRegisterSet
 allRegisters_
 ;
 InstructionDataMap

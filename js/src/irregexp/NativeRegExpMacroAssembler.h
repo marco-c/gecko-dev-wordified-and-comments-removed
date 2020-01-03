@@ -807,7 +807,7 @@ exit_with_exception_label_
 jit
 :
 :
-GeneralRegisterSet
+LiveGeneralRegisterSet
 savedNonVolatileRegisters
 ;
 struct

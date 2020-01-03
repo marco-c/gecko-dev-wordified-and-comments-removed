@@ -3466,7 +3466,7 @@ obj
 )
 )
 ;
-RegisterSet
+AllocatableRegisterSet
 domProxyRegSet
 (
 RegisterSet
@@ -3492,7 +3492,7 @@ tempVal
 =
 domProxyRegSet
 .
-takeValueOperand
+takeAnyValue
 (
 )
 ;
@@ -4575,7 +4575,7 @@ JSObject
 holder
 HandleShape
 shape
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 object
@@ -4608,7 +4608,7 @@ icSaveLive
 liveRegs
 )
 ;
-RegisterSet
+AllocatableRegisterSet
 regSet
 (
 RegisterSet
@@ -4634,7 +4634,7 @@ scratchReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -4653,7 +4653,7 @@ argJSContextReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -4662,7 +4662,7 @@ argUintNReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -4671,7 +4671,7 @@ argVpReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -4912,7 +4912,7 @@ argJSContextReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -4921,7 +4921,7 @@ argUintNReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -4930,7 +4930,7 @@ argVpReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -4944,7 +4944,7 @@ argIdReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -5514,7 +5514,7 @@ JSObject
 holder
 HandleShape
 shape
-RegisterSet
+LiveRegisterSet
 &
 liveRegs
 Register
@@ -7476,7 +7476,7 @@ attacher
 PropertyName
 *
 name
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 object
@@ -7512,7 +7512,7 @@ icSaveLive
 liveRegs
 )
 ;
-RegisterSet
+AllocatableRegisterSet
 regSet
 (
 RegisterSet
@@ -7538,7 +7538,7 @@ argJSContextReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -7547,7 +7547,7 @@ argProxyReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -7556,7 +7556,7 @@ argIdReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -7565,7 +7565,7 @@ argVpReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -7574,7 +7574,7 @@ scratch
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -10955,7 +10955,7 @@ StubAttacher
 attacher
 HandleId
 propId
-RegisterSet
+LiveRegisterSet
 liveRegs
 Register
 object
@@ -10981,7 +10981,7 @@ icSaveLive
 liveRegs
 )
 ;
-RegisterSet
+AllocatableRegisterSet
 regSet
 (
 RegisterSet
@@ -11007,7 +11007,7 @@ argJSContextReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11016,7 +11016,7 @@ argProxyReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11025,7 +11025,7 @@ argIdReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11034,7 +11034,7 @@ argValueReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11043,7 +11043,7 @@ argStrictReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11052,7 +11052,7 @@ scratch
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11304,7 +11304,7 @@ proxyFailures
 Label
 proxySuccess
 ;
-RegisterSet
+AllocatableRegisterSet
 regSet
 (
 RegisterSet
@@ -11356,7 +11356,7 @@ scratch
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11716,7 +11716,7 @@ value
 Label
 *
 failure
-RegisterSet
+LiveRegisterSet
 liveRegs
 void
 *
@@ -11724,7 +11724,7 @@ returnAddr
 )
 {
 {
-RegisterSet
+AllocatableRegisterSet
 regSet
 (
 RegisterSet
@@ -11770,7 +11770,7 @@ scratchReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11915,7 +11915,7 @@ icSaveLive
 liveRegs
 )
 ;
-RegisterSet
+AllocatableRegisterSet
 regSet
 (
 RegisterSet
@@ -11961,7 +11961,7 @@ scratchReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11980,7 +11980,7 @@ argJSContextReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -11989,7 +11989,7 @@ argVpReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -12062,7 +12062,7 @@ argUintNReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -12252,7 +12252,7 @@ argResultReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -12342,7 +12342,7 @@ argJSContextReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -12351,7 +12351,7 @@ argValueReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -12365,7 +12365,7 @@ argIdReg
 =
 regSet
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -17076,14 +17076,15 @@ length
 failures
 )
 ;
-RegisterSet
+LiveRegisterSet
 volatileRegs
-=
+(
 RegisterSet
 :
 :
 Volatile
 (
+)
 )
 ;
 masm
@@ -17203,12 +17204,8 @@ pop
 objReg
 )
 ;
-RegisterSet
+LiveRegisterSet
 ignore
-=
-RegisterSet
-(
-)
 ;
 ignore
 .
@@ -19038,21 +19035,32 @@ gpr
 )
 ;
 }
-RegisterSet
+AllocatableRegisterSet
 regs
-=
+(
 RegisterSet
 :
 :
 Volatile
 (
 )
+)
+;
+LiveRegisterSet
+save
+(
+regs
+.
+asLiveSet
+(
+)
+)
 ;
 masm
 .
 PushRegsInMask
 (
-regs
+save
 )
 ;
 regs
@@ -19067,7 +19075,7 @@ temp
 =
 regs
 .
-takeGeneral
+takeAnyGeneral
 (
 )
 ;
@@ -19106,12 +19114,8 @@ ReturnReg
 indexReg
 )
 ;
-RegisterSet
+LiveRegisterSet
 ignore
-=
-RegisterSet
-(
-)
 ;
 ignore
 .
@@ -19124,12 +19128,7 @@ masm
 .
 PopRegsInMaskIgnore
 (
-RegisterSet
-:
-:
-Volatile
-(
-)
+save
 ignore
 )
 ;

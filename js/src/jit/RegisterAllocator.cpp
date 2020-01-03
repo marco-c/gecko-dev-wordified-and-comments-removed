@@ -1186,9 +1186,8 @@ liveRegs
 (
 )
 .
-empty
+emptyFloat
 (
-true
 )
 &
 &
@@ -1199,9 +1198,8 @@ liveRegs
 (
 )
 .
-empty
+emptyGeneral
 (
-false
 )
 )
 ;

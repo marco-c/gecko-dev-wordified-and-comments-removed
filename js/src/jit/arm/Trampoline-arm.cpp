@@ -871,7 +871,7 @@ type
 EnterJitBaseline
 )
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 GeneralRegisterSet
@@ -3391,9 +3391,9 @@ masm
 cx
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
-=
+(
 GeneralRegisterSet
 (
 Register
@@ -3403,6 +3403,7 @@ Codes
 :
 :
 WrapperMask
+)
 )
 ;
 JS_STATIC_ASSERT
@@ -4284,7 +4285,7 @@ masm
 cx
 )
 ;
-RegisterSet
+LiveRegisterSet
 save
 ;
 if
@@ -4301,6 +4302,10 @@ jitSupportsFloatingPoint
 )
 {
 save
+.
+set
+(
+)
 =
 RegisterSet
 (
@@ -4324,6 +4329,10 @@ VolatileDoubleMask
 else
 {
 save
+.
+set
+(
+)
 =
 RegisterSet
 (

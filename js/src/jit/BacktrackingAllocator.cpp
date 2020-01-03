@@ -41,10 +41,14 @@ init
 (
 )
 {
-RegisterSet
+LiveRegisterSet
 remainingRegisters
 (
 allRegisters_
+.
+asLiveSet
+(
+)
 )
 ;
 while
@@ -52,9 +56,8 @@ while
 !
 remainingRegisters
 .
-empty
+emptyGeneral
 (
-false
 )
 )
 {
@@ -65,7 +68,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeUnaliasedGeneral
+takeAnyGeneral
 (
 )
 )
@@ -89,9 +92,8 @@ while
 !
 remainingRegisters
 .
-empty
+emptyFloat
 (
-true
 )
 )
 {
@@ -102,7 +104,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeUnaliasedFloat
+takeAnyFloat
 (
 )
 )

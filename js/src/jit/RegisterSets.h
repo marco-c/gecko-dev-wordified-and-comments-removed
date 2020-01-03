@@ -5735,14 +5735,14 @@ fpu
 }
 ;
 inline
-GeneralRegisterSet
+LiveGeneralRegisterSet
 SavedNonVolatileRegisters
 (
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 unused
 )
 {
-GeneralRegisterSet
+LiveGeneralRegisterSet
 result
 ;
 for

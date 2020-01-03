@@ -445,10 +445,14 @@ registerCount
 =
 0
 ;
-RegisterSet
+LiveRegisterSet
 remainingRegisters
 (
 allRegisters_
+.
+asLiveSet
+(
+)
 )
 ;
 while
@@ -456,9 +460,8 @@ while
 !
 remainingRegisters
 .
-empty
+emptyGeneral
 (
-false
 )
 )
 registers
@@ -474,7 +477,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeUnaliasedGeneral
+takeAnyGeneral
 (
 )
 )
@@ -484,9 +487,8 @@ while
 !
 remainingRegisters
 .
-empty
+emptyFloat
 (
-true
 )
 )
 registers
@@ -502,7 +504,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeUnaliasedFloat
+takeAnyFloat
 (
 )
 )

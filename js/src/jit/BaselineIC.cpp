@@ -5193,7 +5193,7 @@ ValueOperand
 val
 Register
 scratch
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 )
 {
@@ -5250,6 +5250,10 @@ BaselineTailCallReg
 #
 endif
 saveRegs
+.
+set
+(
+)
 =
 GeneralRegisterSet
 :
@@ -5257,6 +5261,10 @@ GeneralRegisterSet
 Intersect
 (
 saveRegs
+.
+set
+(
+)
 GeneralRegisterSet
 :
 :
@@ -6485,7 +6493,7 @@ noCompiledCode
 )
 ;
 }
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -11981,7 +11989,7 @@ R1
 ExtractTemp1
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -18093,7 +18101,7 @@ Address
 generationAddr
 Register
 scratch
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 &
 domProxyRegSet
 Label
@@ -23125,12 +23133,13 @@ Register
 objReg
 )
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
-=
+(
 availableGeneralRegs
 (
 0
+)
 )
 ;
 regs
@@ -23229,12 +23238,13 @@ Register
 objReg
 )
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
-=
+(
 availableGeneralRegs
 (
 0
+)
 )
 ;
 regs
@@ -23608,7 +23618,7 @@ R1
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -24140,12 +24150,13 @@ valAddr
 skipNoSuchMethod
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
-=
+(
 availableGeneralRegs
 (
 0
+)
 )
 ;
 regs
@@ -24640,7 +24651,7 @@ R1
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -24847,7 +24858,7 @@ R1
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -25037,7 +25048,7 @@ val
 =
 regs
 .
-takeValueOperand
+takeAnyValue
 (
 )
 ;
@@ -25552,7 +25563,7 @@ R0
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -25917,7 +25928,7 @@ R1
 ExtractTemp1
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -26081,7 +26092,7 @@ NormalArgumentsObject
 :
 class_
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -26527,7 +26538,7 @@ val
 =
 regs
 .
-takeValueOperand
+takeAnyValue
 (
 )
 ;
@@ -28866,7 +28877,7 @@ R1
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -29361,7 +29372,7 @@ takeAny
 (
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 ;
 emitPostWriteBarrierSlot
@@ -29747,7 +29758,7 @@ R1
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -30420,7 +30431,7 @@ takeAny
 (
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 ;
 emitPostWriteBarrierSlot
@@ -30902,7 +30913,7 @@ R0
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -33616,7 +33627,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -39305,7 +39316,7 @@ type
 )
 ;
 }
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -39860,7 +39871,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -40223,7 +40234,7 @@ val
 =
 regs
 .
-takeValueOperand
+takeAnyValue
 (
 )
 ;
@@ -40665,7 +40676,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -40945,7 +40956,7 @@ failure
 Label
 failureLeaveStubFrame
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -41412,7 +41423,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -41818,7 +41829,7 @@ generationAddr
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -41907,7 +41918,7 @@ failure
 )
 ;
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 domProxyRegSet
 (
 GeneralRegisterSet
@@ -42562,7 +42573,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -43332,7 +43343,7 @@ MacroAssembler
 masm
 )
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -43459,7 +43470,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -43636,7 +43647,7 @@ masm
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -46427,7 +46438,7 @@ R0
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -46701,7 +46712,7 @@ takeAny
 (
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 ;
 saveRegs
@@ -46976,7 +46987,7 @@ R0
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -47541,7 +47552,7 @@ takeAny
 (
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 ;
 saveRegs
@@ -47635,7 +47646,7 @@ R0
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -47774,7 +47785,7 @@ pop
 object
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 ;
 saveRegs
@@ -47964,7 +47975,7 @@ R0
 failure
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -48134,7 +48145,7 @@ pop
 object
 )
 ;
-GeneralRegisterSet
+LiveGeneralRegisterSet
 saveRegs
 ;
 saveRegs
@@ -48604,7 +48615,7 @@ masm
 2
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -49237,7 +49248,7 @@ masm
 2
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -53578,7 +53589,7 @@ pushCallArguments
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
@@ -53860,7 +53871,7 @@ pushSpreadCallArguments
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
@@ -54100,7 +54111,7 @@ guardFunApply
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 Register
 argcReg
@@ -54195,7 +54206,7 @@ applyThing
 FunApply_Array
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regsx
 =
 regs
@@ -54749,7 +54760,7 @@ pushCallerArguments
 MacroAssembler
 &
 masm
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 )
 {
@@ -54924,7 +54935,7 @@ MacroAssembler
 masm
 Address
 arrayVal
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 )
 {
@@ -55179,7 +55190,7 @@ scratchReg
 )
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -55734,7 +55745,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -56968,12 +56979,13 @@ MacroAssembler
 masm
 )
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
-=
+(
 availableGeneralRegs
 (
 0
+)
 )
 ;
 Label
@@ -57437,12 +57449,13 @@ MacroAssembler
 masm
 )
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
-=
+(
 availableGeneralRegs
 (
 0
+)
 )
 ;
 Address
@@ -57649,7 +57662,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -58096,7 +58109,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -58477,7 +58490,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -58892,7 +58905,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -59286,7 +59299,7 @@ masm
 Label
 failure
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -60995,7 +61008,7 @@ R0
 ExtractTemp0
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -61906,7 +61919,7 @@ ExtractTemp0
 Label
 failureRestoreR1
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs
@@ -62972,7 +62985,7 @@ rethrow
 )
 ;
 {
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 availableGeneralRegs

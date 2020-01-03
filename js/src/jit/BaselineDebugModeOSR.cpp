@@ -4928,7 +4928,7 @@ FinishBaselineDebugModeOSR
 )
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 jumpRegs
 (
 GeneralRegisterSet
@@ -5058,7 +5058,7 @@ masm
 cx
 )
 ;
-GeneralRegisterSet
+AllocatableGeneralRegisterSet
 regs
 (
 GeneralRegisterSet
