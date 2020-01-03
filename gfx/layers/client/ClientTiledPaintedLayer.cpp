@@ -2199,7 +2199,7 @@ bounds
 ;
 wholeTiles
 .
-Inflate
+InflateToMultiple
 (
 nsIntSize
 (
