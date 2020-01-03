@@ -118,10 +118,14 @@ indexOf
 )
 {
 throw
+new
+Error
+(
 "
 Invalid
 hostname
 "
+)
 ;
 }
 }
@@ -239,6 +243,9 @@ aLogin
 )
 {
 throw
+new
+Error
+(
 "
 login
 values
@@ -248,6 +255,7 @@ t
 contain
 nulls
 "
+)
 ;
 }
 if
@@ -287,6 +295,9 @@ indexOf
 )
 {
 throw
+new
+Error
+(
 "
 login
 values
@@ -296,6 +307,7 @@ t
 contain
 nulls
 "
+)
 ;
 }
 if
@@ -321,6 +333,9 @@ n
 )
 {
 throw
+new
+Error
+(
 "
 login
 values
@@ -330,6 +345,7 @@ t
 contain
 newlines
 "
+)
 ;
 }
 if
@@ -355,6 +371,9 @@ formSubmitURL
 )
 {
 throw
+new
+Error
+(
 "
 login
 values
@@ -364,6 +383,7 @@ t
 be
 periods
 "
+)
 ;
 }
 if
@@ -385,12 +405,16 @@ indexOf
 )
 {
 throw
+new
+Error
+(
 "
 bad
 parens
 in
 hostname
 "
+)
 ;
 }
 }
@@ -722,6 +746,9 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 Unexpected
 propertybag
@@ -732,6 +759,7 @@ item
 prop
 .
 name
+)
 ;
 }
 }
@@ -739,6 +767,9 @@ name
 else
 {
 throw
+new
+Error
+(
 "
 newLoginData
 needs
@@ -747,6 +778,7 @@ expected
 interface
 !
 "
+)
 ;
 }
 if
@@ -770,6 +802,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 Can
 '
@@ -785,6 +820,7 @@ empty
 hostname
 .
 "
+)
 ;
 }
 if
@@ -798,6 +834,9 @@ null
 )
 {
 throw
+new
+Error
+(
 "
 Can
 '
@@ -811,6 +850,7 @@ null
 username
 .
 "
+)
 ;
 }
 if
@@ -834,6 +874,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 Can
 '
@@ -849,6 +892,7 @@ empty
 password
 .
 "
+)
 ;
 }
 if
@@ -878,6 +922,9 @@ null
 )
 {
 throw
+new
+Error
+(
 "
 Can
 '
@@ -893,6 +940,7 @@ and
 formSubmitURL
 .
 "
+)
 ;
 }
 }
@@ -915,6 +963,9 @@ null
 )
 {
 throw
+new
+Error
+(
 "
 Can
 '
@@ -930,13 +981,16 @@ and
 formSubmitURL
 .
 "
+)
 ;
 }
 }
 else
 {
 throw
-"
+new
+Error
+(
 Can
 '
 t
@@ -950,6 +1004,7 @@ or
 formSubmitURL
 .
 "
+)
 ;
 }
 this

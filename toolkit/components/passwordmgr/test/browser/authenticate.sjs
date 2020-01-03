@@ -228,6 +228,9 @@ length
 2
 )
 throw
+new
+Error
+(
 "
 Couldn
 '
@@ -239,6 +242,7 @@ header
 "
 +
 authHeader
+)
 ;
 var
 userpass
@@ -289,6 +293,9 @@ length
 3
 )
 throw
+new
+Error
+(
 "
 Couldn
 '
@@ -300,6 +307,7 @@ header
 "
 +
 userpass
+)
 ;
 actual_user
 =
