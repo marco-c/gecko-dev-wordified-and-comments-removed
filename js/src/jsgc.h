@@ -3751,6 +3751,12 @@ join
 ;
 }
 bool
+isRunningOutsideLock
+(
+)
+const
+;
+bool
 isRunning
 (
 )
