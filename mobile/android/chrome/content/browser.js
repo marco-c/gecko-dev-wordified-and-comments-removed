@@ -18630,6 +18630,7 @@ aURI
 &
 browser
 )
+{
 browser
 .
 loadURIWithFlags
@@ -18643,6 +18644,7 @@ null
 null
 )
 ;
+}
 return
 browser
 ;

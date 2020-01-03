@@ -6303,6 +6303,8 @@ loadStartupTab
 (
 String
 url
+int
+flags
 )
 {
 if
@@ -6328,6 +6330,7 @@ super
 loadStartupTab
 (
 url
+flags
 )
 ;
 }
