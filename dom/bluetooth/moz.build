@@ -121,11 +121,6 @@ BluetoothInterface
 cpp
 '
 '
-BluetoothInterfaceHelpers
-.
-cpp
-'
-'
 BluetoothUtils
 .
 cpp

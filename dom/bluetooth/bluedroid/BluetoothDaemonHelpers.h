@@ -981,6 +981,16 @@ aOut
 )
 ;
 nsresult
+Convert
+(
+nsresult
+aIn
+BluetoothStatus
+&
+aOut
+)
+;
+nsresult
 PackPDU
 (
 bool
