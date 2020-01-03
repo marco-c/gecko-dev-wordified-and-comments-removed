@@ -190,6 +190,17 @@ else
 false
 #
 endif
+E10S_TESTING_ONLY
+:
+#
+ifdef
+E10S_TESTING_ONLY
+true
+#
+else
+false
+#
+endif
 MOZ_APP_VERSION
 :
 "
