@@ -280,16 +280,6 @@ R
 raw
 .
 bookmarkdefaults_favicon_support
-R
-.
-raw
-.
-bookmarkdefaults_favicon_restricted_support
-R
-.
-raw
-.
-bookmarkdefaults_favicon_restricted_webmaker
 }
 ;
 public
