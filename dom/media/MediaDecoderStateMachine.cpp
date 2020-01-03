@@ -1823,9 +1823,7 @@ mInfo
 .
 mAudio
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 AudioSegment
 *
@@ -1901,9 +1899,7 @@ mInfo
 .
 mVideo
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 VideoSegment
 *
@@ -2008,9 +2004,7 @@ mInfo
 .
 mAudio
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 nsAutoTArray
 <
@@ -2188,9 +2182,7 @@ mInfo
 .
 mVideo
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 nsAutoTArray
 <
@@ -2836,9 +2828,7 @@ mInfo
 .
 mAudio
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 if
 (
@@ -2965,9 +2955,7 @@ mInfo
 .
 mVideo
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 if
 (

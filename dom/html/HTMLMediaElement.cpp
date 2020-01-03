@@ -8028,9 +8028,7 @@ mMediaInfo
 .
 mAudio
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 out
 -
@@ -8062,9 +8060,7 @@ mMediaInfo
 .
 mVideo
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 out
 -
@@ -14185,9 +14181,7 @@ aInfo
 >
 mAudio
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 out
 .
@@ -14222,9 +14216,7 @@ aInfo
 >
 mVideo
 .
-mTrackInfo
-.
-mOutputId
+mTrackId
 ;
 out
 .
