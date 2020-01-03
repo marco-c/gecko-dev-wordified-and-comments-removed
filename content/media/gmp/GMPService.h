@@ -166,9 +166,9 @@ GMPParent
 SelectPluginForAPI
 (
 const
-nsAString
+nsACString
 &
-aOrigin
+aNodeId
 const
 nsCString
 &
@@ -181,7 +181,7 @@ nsCString
 &
 aTags
 bool
-aCloneCrossOrigin
+aCloneCrossNodeIds
 =
 true
 )
