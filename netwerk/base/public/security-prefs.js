@@ -290,7 +290,7 @@ ssl3
 .
 dhe_dss_aes_128_sha
 "
-true
+false
 )
 ;
 pref
