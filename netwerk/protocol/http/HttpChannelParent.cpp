@@ -1031,7 +1031,6 @@ aSecurityFlags
 aContentPolicyType
 nullptr
 nullptr
-nullptr
 loadFlags
 ios
 )
