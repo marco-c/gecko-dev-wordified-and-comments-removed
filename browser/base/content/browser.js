@@ -9173,6 +9173,14 @@ PrintUtils
 .
 print
 (
+gBrowser
+.
+selectedBrowser
+.
+contentWindowAsCPOW
+gBrowser
+.
+selectedBrowser
 )
 ;
 break
