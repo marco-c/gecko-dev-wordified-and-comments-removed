@@ -304,6 +304,11 @@ SOURCES
 =
 [
 '
+GeckoTouchDispatcher
+.
+cpp
+'
+'
 GfxInfo
 .
 cpp
