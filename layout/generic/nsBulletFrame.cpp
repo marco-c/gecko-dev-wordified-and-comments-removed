@@ -4459,6 +4459,17 @@ if
 isBullet
 )
 {
+if
+(
+!
+style
+-
+>
+IsNone
+(
+)
+)
+{
 aText
 .
 Append
@@ -4467,6 +4478,7 @@ Append
 '
 )
 ;
+}
 }
 else
 {
