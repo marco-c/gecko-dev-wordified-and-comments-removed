@@ -64,6 +64,15 @@ mozilla
 .
 gecko
 .
+GeckoApplication
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 NewTabletUI
 ;
 import

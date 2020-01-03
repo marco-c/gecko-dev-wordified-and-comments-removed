@@ -259,7 +259,6 @@ verifyTabCount
 2
 )
 ;
-final
 ArrayList
 <
 String

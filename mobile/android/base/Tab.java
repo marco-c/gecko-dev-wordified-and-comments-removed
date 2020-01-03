@@ -263,11 +263,6 @@ int
 mId
 ;
 private
-final
-BrowserDB
-mDB
-;
-private
 long
 mLastUsed
 ;
@@ -567,19 +562,6 @@ mAppContext
 context
 .
 getApplicationContext
-(
-)
-;
-mDB
-=
-GeckoProfile
-.
-get
-(
-context
-)
-.
-getDB
 (
 )
 ;
@@ -1105,7 +1087,6 @@ STORE
 {
 saveThumbnailToDB
 (
-mDB
 )
 ;
 }
@@ -1113,7 +1094,6 @@ else
 {
 clearThumbnailFromDB
 (
-mDB
 )
 ;
 }
@@ -1400,16 +1380,6 @@ getContentResolver
 )
 ;
 final
-URLMetadata
-urlMetadata
-=
-mDB
-.
-getURLMetadata
-(
-)
-;
-final
 Map
 <
 String
@@ -1417,7 +1387,7 @@ Object
 >
 data
 =
-urlMetadata
+URLMetadata
 .
 fromJSON
 (
@@ -1440,7 +1410,7 @@ run
 (
 )
 {
-urlMetadata
+URLMetadata
 .
 save
 (
@@ -2065,7 +2035,7 @@ return
 }
 mBookmark
 =
-mDB
+BrowserDB
 .
 isBookmark
 (
@@ -2136,7 +2106,7 @@ null
 )
 return
 ;
-mDB
+BrowserDB
 .
 addBookmark
 (
@@ -2208,7 +2178,7 @@ null
 )
 return
 ;
-mDB
+BrowserDB
 .
 removeBookmarksWithURL
 (
@@ -2873,7 +2843,6 @@ getInstance
 getAndProcessThumbnailFor
 (
 tab
-mDB
 )
 ;
 }
@@ -2897,9 +2866,6 @@ protected
 void
 saveThumbnailToDB
 (
-final
-BrowserDB
-db
 )
 {
 final
@@ -2939,7 +2905,7 @@ null
 return
 ;
 }
-db
+BrowserDB
 .
 updateThumbnailForUrl
 (
@@ -2963,9 +2929,6 @@ private
 void
 clearThumbnailFromDB
 (
-final
-BrowserDB
-db
 )
 {
 try
@@ -2986,7 +2949,7 @@ null
 )
 return
 ;
-db
+BrowserDB
 .
 updateThumbnailForUrl
 (
