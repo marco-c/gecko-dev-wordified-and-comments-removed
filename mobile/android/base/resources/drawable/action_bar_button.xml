@@ -111,6 +111,13 @@ state_pressed
 "
 true
 "
+android
+:
+state_enabled
+=
+"
+true
+"
 >
 <
 shape

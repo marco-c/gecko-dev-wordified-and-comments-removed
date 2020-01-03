@@ -3330,14 +3330,7 @@ position
 )
 {
 return
-getItem
-(
-position
-)
-.
-isEnabled
-(
-)
+true
 ;
 }
 public
