@@ -939,11 +939,7 @@ GetData
 SkCanvas
 destCanvas
 (
-new
-SkBitmapDevice
-(
 destBitmap
-)
 )
 ;
 IntSize
