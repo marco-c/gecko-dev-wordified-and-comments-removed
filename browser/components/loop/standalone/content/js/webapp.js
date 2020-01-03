@@ -1513,7 +1513,7 @@ loop
 .
 config
 .
-guestSupportUrl
+generalSupportUrl
 }
 mozL10n
 .

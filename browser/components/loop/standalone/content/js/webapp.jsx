@@ -1839,7 +1839,7 @@ loop
 .
 config
 .
-guestSupportUrl
+generalSupportUrl
 }
 >
 {

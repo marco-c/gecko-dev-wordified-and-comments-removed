@@ -982,7 +982,7 @@ loop
 .
 config
 .
-roomsSupportUrl
+generalSupportUrl
 }
 >
 <
