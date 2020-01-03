@@ -19,7 +19,7 @@ mozilla
 /
 dom
 /
-Headers
+InternalHeaders
 .
 h
 "
@@ -60,9 +60,8 @@ aStatusText
 mHeaders
 (
 new
-Headers
+InternalHeaders
 (
-nullptr
 HeadersGuardEnum
 :
 :

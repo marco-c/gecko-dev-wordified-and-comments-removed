@@ -112,6 +112,11 @@ Headers
 h
 '
 '
+InternalHeaders
+.
+h
+'
+'
 InternalRequest
 .
 h
@@ -143,6 +148,11 @@ cpp
 '
 '
 Headers
+.
+cpp
+'
+'
+InternalHeaders
 .
 cpp
 '

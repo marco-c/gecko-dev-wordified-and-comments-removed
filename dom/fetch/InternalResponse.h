@@ -7,6 +7,13 @@ mozilla_dom_InternalResponse_h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h
@@ -28,6 +35,9 @@ mozilla
 namespace
 dom
 {
+class
+InternalHeaders
+;
 class
 InternalResponse
 MOZ_FINAL
@@ -164,9 +174,9 @@ return
 mStatusText
 ;
 }
-Headers
+InternalHeaders
 *
-Headers_
+Headers
 (
 )
 {
@@ -239,7 +249,7 @@ mStatusText
 ;
 nsRefPtr
 <
-Headers
+InternalHeaders
 >
 mHeaders
 ;
