@@ -5256,7 +5256,7 @@ aWindow
 }
 }
 void
-SuspendWorkersForWindow
+FreezeWorkersForWindow
 (
 nsPIDOMWindow
 *
@@ -5286,7 +5286,7 @@ runtime
 runtime
 -
 >
-SuspendWorkersForWindow
+FreezeWorkersForWindow
 (
 aWindow
 )
@@ -5294,7 +5294,7 @@ aWindow
 }
 }
 void
-ResumeWorkersForWindow
+ThawWorkersForWindow
 (
 nsPIDOMWindow
 *
@@ -5324,7 +5324,7 @@ runtime
 runtime
 -
 >
-ResumeWorkersForWindow
+ThawWorkersForWindow
 (
 aWindow
 )
@@ -10043,7 +10043,7 @@ void
 RuntimeService
 :
 :
-SuspendWorkersForWindow
+FreezeWorkersForWindow
 (
 nsPIDOMWindow
 *
@@ -10142,7 +10142,7 @@ index
 ]
 -
 >
-Suspend
+Freeze
 (
 cx
 aWindow
@@ -10162,7 +10162,7 @@ void
 RuntimeService
 :
 :
-ResumeWorkersForWindow
+ThawWorkersForWindow
 (
 nsPIDOMWindow
 *
@@ -10261,7 +10261,7 @@ index
 ]
 -
 >
-SynchronizeAndResume
+Thaw
 (
 cx
 aWindow

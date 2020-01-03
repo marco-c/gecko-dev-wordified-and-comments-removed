@@ -1122,7 +1122,7 @@ NS_IsMainThread
 mSharedWorker
 -
 >
-IsSuspended
+IsFrozen
 (
 )
 )

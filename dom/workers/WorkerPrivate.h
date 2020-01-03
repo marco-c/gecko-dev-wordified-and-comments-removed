@@ -394,9 +394,6 @@ WorkerPrivateParent
 public
 DOMEventTargetHelper
 {
-class
-SynchronizeAndResumeRunnable
-;
 protected
 :
 class
@@ -516,12 +513,6 @@ nsIRunnable
 >
 mQueuedRunnables
 ;
-nsRevocableEventPtr
-<
-SynchronizeAndResumeRunnable
->
-mSynchronizeRunnable
-;
 nsTArray
 <
 nsCString
@@ -549,7 +540,7 @@ Status
 mParentStatus
 ;
 bool
-mParentSuspended
+mParentFrozen
 ;
 bool
 mIsChromeWorker
@@ -874,7 +865,7 @@ Killing
 ;
 }
 bool
-Suspend
+Freeze
 (
 JSContext
 *
@@ -885,18 +876,7 @@ aWindow
 )
 ;
 bool
-Resume
-(
-JSContext
-*
-aCx
-nsPIDOMWindow
-*
-aWindow
-)
-;
-bool
-SynchronizeAndResume
+Thaw
 (
 JSContext
 *
@@ -1302,7 +1282,7 @@ mParent
 ;
 }
 bool
-IsSuspended
+IsFrozen
 (
 )
 const
@@ -1312,7 +1292,7 @@ AssertIsOnParentThread
 )
 ;
 return
-mParentSuspended
+mParentFrozen
 ;
 }
 bool
@@ -2417,7 +2397,7 @@ Status
 mStatus
 ;
 bool
-mSuspended
+mFrozen
 ;
 bool
 mTimerRunning
@@ -2665,7 +2645,7 @@ Closing
 ;
 }
 bool
-SuspendInternal
+FreezeInternal
 (
 JSContext
 *
@@ -2673,7 +2653,7 @@ aCx
 )
 ;
 bool
-ResumeInternal
+ThawInternal
 (
 JSContext
 *

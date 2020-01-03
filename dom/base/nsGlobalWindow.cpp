@@ -54494,7 +54494,7 @@ dom
 workers
 :
 :
-SuspendWorkersForWindow
+FreezeWorkersForWindow
 (
 this
 )
@@ -54986,7 +54986,7 @@ dom
 workers
 :
 :
-ResumeWorkersForWindow
+ThawWorkersForWindow
 (
 this
 )
