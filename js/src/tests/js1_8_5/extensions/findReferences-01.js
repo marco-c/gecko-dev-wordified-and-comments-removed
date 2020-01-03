@@ -212,8 +212,6 @@ p
 '
 shape
 ;
-base
-;
 getter
 '
 g
@@ -228,8 +226,6 @@ referencesVia
 p
 '
 shape
-;
-base
 ;
 setter
 '
@@ -268,8 +264,6 @@ p
 '
 shape
 ;
-base
-;
 getter
 '
 g
@@ -284,8 +278,6 @@ referencesVia
 q
 '
 shape
-;
-base
 ;
 getter
 '
@@ -316,8 +308,6 @@ shape
 ;
 parent
 ;
-base
-;
 getter
 '
 g
@@ -334,8 +324,6 @@ q
 shape
 ;
 parent
-;
-base
 ;
 getter
 '
