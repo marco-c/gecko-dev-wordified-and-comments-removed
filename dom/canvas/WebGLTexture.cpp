@@ -268,8 +268,8 @@ WebGLContext
 :
 GetBitsPerTexel
 (
-mWebGLInternalFormat
-mWebGLType
+mInternalFormat
+mType
 )
 ;
 return
@@ -1847,7 +1847,7 @@ ImageInfoBase
 (
 )
 .
-mWebGLType
+mType
 =
 =
 LOCAL_GL_FLOAT
@@ -2013,7 +2013,7 @@ ImageInfoBase
 (
 )
 .
-mWebGLType
+mType
 =
 =
 LOCAL_GL_HALF_FLOAT_OES
@@ -2890,14 +2890,14 @@ internalformat
 =
 imageInfo
 .
-mWebGLInternalFormat
+mInternalFormat
 ;
 TexType
 type
 =
 imageInfo
 .
-mWebGLType
+mType
 ;
 WebGLTexelFormat
 texelformat

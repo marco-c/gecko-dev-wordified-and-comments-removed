@@ -5993,7 +5993,7 @@ if
 (
 imageInfo
 .
-WebGLInternalFormat
+InternalFormat
 (
 )
 !
@@ -6003,7 +6003,7 @@ internalFormat
 |
 imageInfo
 .
-WebGLType
+Type
 (
 )
 !

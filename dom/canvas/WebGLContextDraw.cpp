@@ -3332,7 +3332,7 @@ ImageInfoBase
 (
 )
 .
-WebGLInternalFormat
+InternalFormat
 (
 )
 )
