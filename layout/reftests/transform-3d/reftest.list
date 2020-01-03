@@ -202,6 +202,15 @@ cocoaWidget
 17
 3
 )
+fuzzy
+-
+if
+(
+!
+layersGPUAccelerated
+102
+243
+)
 =
 =
 preserve3d

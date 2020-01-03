@@ -273,13 +273,10 @@ fuzzy
 -
 if
 (
-asyncPanZoom
-&
-&
 !
 layersGPUAccelerated
 102
-1770
+2070
 )
 HTTP
 (
