@@ -127,6 +127,11 @@ height
 .
 2
 ;
+color
+:
+#
+333
+;
 margin
 :
 0
@@ -2598,14 +2603,6 @@ inline
 -
 link
 {
-font
--
-size
-:
-1
-.
-25rem
-;
 line
 -
 height
