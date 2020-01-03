@@ -1231,7 +1231,7 @@ uint32_t
 addr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 location
 !
@@ -1276,7 +1276,7 @@ thing
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 js

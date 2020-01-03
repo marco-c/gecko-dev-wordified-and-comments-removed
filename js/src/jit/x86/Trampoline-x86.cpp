@@ -1027,7 +1027,7 @@ pop
 framePtr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jitcode
 !
@@ -1639,7 +1639,7 @@ masm
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 =
@@ -2755,12 +2755,12 @@ VMFunction
 f
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 -
@@ -3045,7 +3045,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 .
@@ -3497,7 +3497,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 .
@@ -3693,7 +3693,7 @@ PushRegsInMask
 save
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 PreBarrierReg
 =

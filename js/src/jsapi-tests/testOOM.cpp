@@ -74,7 +74,7 @@ ch
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ch
 =

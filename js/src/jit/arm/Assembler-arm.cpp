@@ -420,7 +420,7 @@ Register
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -461,7 +461,7 @@ Register
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -502,7 +502,7 @@ Register
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -543,7 +543,7 @@ Register
 r
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -594,7 +594,7 @@ InvalidReg
 return
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -645,7 +645,7 @@ InvalidReg
 return
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -696,7 +696,7 @@ InvalidReg
 return
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -1026,7 +1026,7 @@ encode
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 _isInvalid
@@ -2467,7 +2467,7 @@ invalid
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 decode
 (
@@ -2533,7 +2533,7 @@ extractCond
 c
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jump
 -
@@ -2644,7 +2644,7 @@ flush
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinished
@@ -2825,7 +2825,7 @@ uint8_t
 buffer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 )
@@ -3266,7 +3266,7 @@ extractImm
 targ_top
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 top
 -
@@ -3328,7 +3328,7 @@ InstBranchReg
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 realBranch
 -
@@ -3660,7 +3660,7 @@ extractImm
 targ_top
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 top
 -
@@ -4487,7 +4487,7 @@ masmrel32
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 code
 =
@@ -4616,7 +4616,7 @@ AbsoluteLabel
 absoluteLabel
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 absoluteLabel
@@ -4915,7 +4915,7 @@ imm2shift
 &
 0xff
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 (
@@ -4942,7 +4942,7 @@ imm2
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 imm1shift
@@ -4954,7 +4954,7 @@ imm1shift
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 imm2shift
@@ -5178,7 +5178,7 @@ imm1shift
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 imm1shift
@@ -5222,7 +5222,7 @@ imm2shift
 &
 0xff
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 imm1shift
@@ -5234,7 +5234,7 @@ imm1shift
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 imm2shift
@@ -5449,7 +5449,7 @@ OpCmp
 case
 OpTst
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 =
@@ -5635,7 +5635,7 @@ int
 amt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 <
@@ -5670,7 +5670,7 @@ int
 amt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 1
 <
@@ -5705,7 +5705,7 @@ int
 amt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 1
 <
@@ -5740,7 +5740,7 @@ int
 amt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 1
 <
@@ -5777,7 +5777,7 @@ int
 amt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 1
 <
@@ -6031,13 +6031,13 @@ which
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 _isInvalid
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 =
@@ -6079,7 +6079,7 @@ which
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 _isInvalid
@@ -6093,14 +6093,14 @@ kind
 Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 code_
 <
 16
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <
@@ -6122,7 +6122,7 @@ Single
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 =
@@ -6150,7 +6150,7 @@ which
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 _isInvalid
@@ -6164,14 +6164,14 @@ kind
 Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 code_
 <
 16
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <
@@ -6193,7 +6193,7 @@ Int
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 =
@@ -6221,7 +6221,7 @@ which
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 _isInvalid
@@ -6235,14 +6235,14 @@ kind
 Double
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 code_
 <
 16
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <
@@ -6264,7 +6264,7 @@ UInt
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 =
@@ -6302,7 +6302,7 @@ isMissing
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 _isInvalid
@@ -6545,7 +6545,7 @@ uint32_t
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 !
@@ -7435,7 +7435,7 @@ Instruction
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasMOVWT
 (
@@ -7484,7 +7484,7 @@ Instruction
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HasMOVWT
 (
@@ -7984,7 +7984,7 @@ uint32_t
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mode
 =
@@ -8014,7 +8014,7 @@ getBase
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 =
@@ -8147,7 +8147,7 @@ index_
 =
 index
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index_
 =
@@ -8162,7 +8162,7 @@ cond
 >
 28
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cond_
 =
@@ -8212,7 +8212,7 @@ VFPRegister
 destReg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 destReg
 .
@@ -8225,7 +8225,7 @@ index_
 =
 index
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index_
 =
@@ -8240,7 +8240,7 @@ cond
 >
 28
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cond_
 =
@@ -8356,7 +8356,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ONES
 =
@@ -8374,7 +8374,7 @@ index_
 =
 index
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index_
 =
@@ -8473,12 +8473,12 @@ size
 case
 8
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSigned
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ls
 !
@@ -8521,7 +8521,7 @@ if
 IsSigned
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ls
 !
@@ -8717,7 +8717,7 @@ uint32_t
 data
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 addr
 -
@@ -8812,7 +8812,7 @@ extractCond
 orig_cond
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 orig_cond
 =
@@ -8952,7 +8952,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 .
@@ -9017,7 +9017,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 .
@@ -9325,7 +9325,7 @@ getIndex
 -
 8
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 -
 1024
@@ -9997,7 +9997,7 @@ getOffset
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 check
 =
@@ -10275,7 +10275,7 @@ getOffset
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 check
 =
@@ -10358,7 +10358,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -10419,7 +10419,7 @@ uint32_t
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 sz
@@ -10431,7 +10431,7 @@ blob
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 VfpTag
@@ -10916,7 +10916,7 @@ sz
 =
 IsDouble
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idx
 =
@@ -10937,7 +10937,7 @@ vt2
 =
 InvalidReg
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 f2c
 =
@@ -10955,7 +10955,7 @@ idx
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 idx
 =
@@ -11112,7 +11112,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 vd
@@ -11187,7 +11187,7 @@ doToZero
 =
 VcvtToFPSCR
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 vd
 .
@@ -11325,7 +11325,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 vd
 .
@@ -11369,7 +11369,7 @@ sx
 -
 imm5
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 imm5
 >
@@ -11502,7 +11502,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 <
@@ -11582,7 +11582,7 @@ Condition
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 imm
 .
@@ -11699,7 +11699,7 @@ editSrc
 b
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 branch
 .
@@ -12240,7 +12240,7 @@ offset
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -12383,7 +12383,7 @@ Instruction
 i_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i_
 -
@@ -12747,7 +12747,7 @@ Header
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ONES
 =
@@ -12971,7 +12971,7 @@ pool
 -
 start
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 size
@@ -12990,7 +12990,7 @@ size
 >
 2
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 <
@@ -13163,7 +13163,7 @@ dest
 rs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uint32_t
@@ -13811,7 +13811,7 @@ raw
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -13901,7 +13901,7 @@ raw
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -13914,7 +13914,7 @@ InstBImm
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 *
@@ -13932,7 +13932,7 @@ ptr
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 toRD
 (
@@ -14015,7 +14015,7 @@ skipPool
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14061,7 +14061,7 @@ next
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14084,7 +14084,7 @@ next
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14191,7 +14191,7 @@ skipPool
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14237,7 +14237,7 @@ next
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14260,7 +14260,7 @@ next
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14329,7 +14329,7 @@ skipPool
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14363,7 +14363,7 @@ Instruction
 inst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inst
 -
@@ -14412,7 +14412,7 @@ extractOp2
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 .
@@ -14429,7 +14429,7 @@ Imm8
 heapSize
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 imm8

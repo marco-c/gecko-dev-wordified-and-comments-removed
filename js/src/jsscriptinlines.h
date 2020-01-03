@@ -321,7 +321,7 @@ JSFunction
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -428,7 +428,7 @@ getCallerFunction
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 savedCallerFun
 (
@@ -504,7 +504,7 @@ regexps
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -529,7 +529,7 @@ vector
 index
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -572,7 +572,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPC
 (
@@ -692,7 +692,7 @@ JSObject
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shouldCloneAtCallsite
 (
@@ -707,14 +707,14 @@ isCallsiteClone_
 =
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isCallsiteClone
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -

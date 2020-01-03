@@ -791,7 +791,7 @@ RegisterID
 reg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSubregH
 (
@@ -16441,7 +16441,7 @@ XMMRegisterID
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mask
 <
@@ -16515,7 +16515,7 @@ XMMRegisterID
 dst
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mask
 <

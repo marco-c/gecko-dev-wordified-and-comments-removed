@@ -782,7 +782,7 @@ cx
 global
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -958,7 +958,7 @@ initialLength
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 <
@@ -1178,7 +1178,7 @@ hasDefaultGetter
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -1505,7 +1505,7 @@ HandleValue
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pc
@@ -1579,7 +1579,7 @@ isUnqualifiedVarObj
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 scope
@@ -1657,7 +1657,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 varobj
 -
@@ -2048,7 +2048,7 @@ MutableHandleValue
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -2436,7 +2436,7 @@ bool
 done
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -2575,7 +2575,7 @@ MutableHandleValue
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -2797,7 +2797,7 @@ HandleValue
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 val
@@ -2875,7 +2875,7 @@ JSOp
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -2889,7 +2889,7 @@ op
 JSOP_INITELEM_INC
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3965,7 +3965,7 @@ cx
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 InParallelSection
@@ -4095,7 +4095,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 fun_
 -
@@ -4178,7 +4178,7 @@ result
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -4193,7 +4193,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 status
 =

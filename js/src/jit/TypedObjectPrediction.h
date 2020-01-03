@@ -110,7 +110,7 @@ proto
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 predictionKind
 (
@@ -135,7 +135,7 @@ descr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 predictionKind
 (
@@ -160,7 +160,7 @@ prefix
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 predictionKind
 (

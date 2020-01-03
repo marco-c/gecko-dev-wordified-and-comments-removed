@@ -111,7 +111,7 @@ CodeKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -423,7 +423,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -

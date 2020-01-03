@@ -916,7 +916,7 @@ ValueOperand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 .
@@ -1265,7 +1265,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 src
 !
@@ -1363,7 +1363,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1399,7 +1399,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1435,7 +1435,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1471,7 +1471,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1507,7 +1507,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1543,7 +1543,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1579,7 +1579,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1615,7 +1615,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1658,7 +1658,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1701,7 +1701,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1744,7 +1744,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1797,7 +1797,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2708,7 +2708,7 @@ ImmWord
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 !
@@ -2806,7 +2806,7 @@ ImmGCPtr
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 !
@@ -2856,7 +2856,7 @@ ImmGCPtr
 rhs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lhs
@@ -3205,7 +3205,7 @@ uint32_t
 amount
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 amount
 <
@@ -3326,7 +3326,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 !
@@ -3747,7 +3747,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 !
@@ -3821,7 +3821,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 !
@@ -5397,7 +5397,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5450,7 +5450,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5489,7 +5489,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5542,7 +5542,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5581,7 +5581,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5623,7 +5623,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5662,7 +5662,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5715,7 +5715,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -6361,7 +6361,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -6449,7 +6449,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 .
@@ -6502,7 +6502,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -6648,7 +6648,7 @@ ValueOperand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 src
 !
@@ -7054,7 +7054,7 @@ Register
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 !
@@ -7253,7 +7253,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -7291,7 +7291,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -7320,7 +7320,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -7349,7 +7349,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -7378,7 +7378,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -7413,7 +7413,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -8535,7 +8535,7 @@ offset
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nextInsn
 <

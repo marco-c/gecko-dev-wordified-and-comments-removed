@@ -66,7 +66,7 @@ resolve
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 resolved
@@ -269,7 +269,7 @@ exitFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -279,7 +279,7 @@ type
 JitFrame_Exit
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFakeExitFrame
@@ -313,7 +313,7 @@ iter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -341,7 +341,7 @@ isBaselineStub
 +
 iter
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .

@@ -288,7 +288,7 @@ table
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNegativeZero
 (
@@ -299,7 +299,7 @@ IsNegativeZero
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsNegativeZero
@@ -311,7 +311,7 @@ IsNegativeZero
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hash
 (

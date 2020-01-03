@@ -600,7 +600,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArrayBuffer
 (
@@ -632,7 +632,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArrayBuffer
 (
@@ -666,7 +666,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArrayBuffer
 (
@@ -762,7 +762,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArrayBuffer
 (
@@ -1291,7 +1291,7 @@ BufferContents
 newContents
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer
 -
@@ -1475,7 +1475,7 @@ BufferContents
 newContents
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isAsmJSArrayBuffer
@@ -1490,7 +1490,7 @@ ownsData
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newContents
 .
@@ -1552,7 +1552,7 @@ if
 viewDataPointer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newContents
 )
@@ -1774,7 +1774,7 @@ FreeOp
 fop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1904,7 +1904,7 @@ false
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer
 -
@@ -2060,7 +2060,7 @@ cx
 newContents
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 =
@@ -2116,7 +2116,7 @@ dataPointer
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -2199,7 +2199,7 @@ bool
 usesSignalHandlers
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 usesSignalHandlers
@@ -2450,7 +2450,7 @@ FreeOp
 fop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ownsData
 (
@@ -2773,7 +2773,7 @@ Value
 +
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int
 (
@@ -2833,7 +2833,7 @@ true
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -2898,7 +2898,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2912,7 +2912,7 @@ getClass
 class_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gc
@@ -3152,7 +3152,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArrayBuffer
 (
@@ -3164,7 +3164,7 @@ thisv
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3928,7 +3928,7 @@ ArrayBufferViewObject
 view
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3971,7 +3971,7 @@ lookupForAdd
 obj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gc
@@ -4013,7 +4013,7 @@ value
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 views
@@ -4238,7 +4238,7 @@ lookup
 obj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -4276,7 +4276,7 @@ pkey
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 views
@@ -4358,7 +4358,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nurseryKeys
 .
@@ -4476,7 +4476,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 nurseryKeys
@@ -5561,7 +5561,7 @@ uint32_t
 nbytes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 <
@@ -5597,7 +5597,7 @@ void
 data
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 )
@@ -5856,7 +5856,7 @@ void
 data
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 )

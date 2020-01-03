@@ -935,7 +935,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -963,7 +963,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -1004,7 +1004,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -2376,7 +2376,7 @@ value1
 value2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 equal
 )
@@ -2590,7 +2590,7 @@ exception
 format
 )
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 MessageParameterCount
 (
@@ -3164,7 +3164,7 @@ runtime
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -3227,7 +3227,7 @@ runtime
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -3235,7 +3235,7 @@ rt
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -3328,7 +3328,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3363,7 +3363,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -3445,7 +3445,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -3474,7 +3474,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -4736,7 +4736,7 @@ AssertHeapIsIdle
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 origobj
 !
@@ -4744,7 +4744,7 @@ origobj
 target
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 origobj
@@ -4758,7 +4758,7 @@ CrossCompartmentWrapperObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 target
@@ -4977,7 +4977,7 @@ MOZ_CRASH
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Wrapper
 :
@@ -5067,7 +5067,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -7657,7 +7657,7 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -7891,7 +7891,7 @@ edgeName
 edgeNameSize
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -8348,7 +8348,7 @@ if
 startThing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 startKind
 =
@@ -8593,7 +8593,7 @@ dtrc
 .
 ok
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 >
@@ -8610,7 +8610,7 @@ parent
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 =
@@ -8660,7 +8660,7 @@ JSTracer
 trc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_IsGCMarkingTracer
 (
@@ -9042,7 +9042,7 @@ uint32_t
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 =
@@ -9064,7 +9064,7 @@ JSGCParamKey
 key
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 =
@@ -9489,7 +9489,7 @@ UINTPTR_MAX
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -9551,7 +9551,7 @@ kind
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -9781,7 +9781,7 @@ unsigned
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -10005,7 +10005,7 @@ CHECK_REQUEST
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 !
@@ -10013,7 +10013,7 @@ obj
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hint
 =
@@ -10170,7 +10170,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -10184,7 +10184,7 @@ type
 JSTYPE_FUNCTION
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -10712,7 +10712,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -10760,7 +10760,7 @@ CHECK_REQUEST
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -10774,7 +10774,7 @@ ScopeObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 |
@@ -11248,7 +11248,7 @@ CHECK_REQUEST
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -11270,7 +11270,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -11501,7 +11501,7 @@ JSObject
 global
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 -
@@ -11638,7 +11638,7 @@ HandleObject
 parent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -11700,7 +11700,7 @@ JSObject
 :
 class_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -11712,7 +11712,7 @@ JSFunction
 class_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -11772,7 +11772,7 @@ HandleObject
 parent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -11834,7 +11834,7 @@ JSObject
 :
 class_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -11846,7 +11846,7 @@ JSFunction
 class_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -13444,7 +13444,7 @@ attrs
 JSPROP_NATIVE_ACCESSORS
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -14655,7 +14655,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 getterValue
 .
@@ -14776,7 +14776,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 setterValue
 .
@@ -15972,7 +15972,7 @@ flags
 JSPROP_NATIVE_ACCESSORS
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ps
 -
@@ -16040,7 +16040,7 @@ flags
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ps
@@ -16064,7 +16064,7 @@ propertyOp
 op
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ps
 -
@@ -16333,7 +16333,7 @@ setter
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -16427,7 +16427,7 @@ attributesRef
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -16439,7 +16439,7 @@ getter
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -16451,7 +16451,7 @@ setter
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -18347,7 +18347,7 @@ i
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 iterobj
 -
@@ -18418,7 +18418,7 @@ previous
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -18493,7 +18493,7 @@ getPrivate
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -18633,7 +18633,7 @@ HandleValueArray
 contents
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -18702,7 +18702,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -18976,7 +18976,7 @@ JSSecurityCallbacks
 scb
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scb
 !
@@ -19069,12 +19069,12 @@ JSDestroyPrincipalsOp
 destroyPrincipals
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 destroyPrincipals
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -19115,7 +19115,7 @@ char
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -19233,7 +19233,7 @@ HandleId
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_STRING
 (
@@ -19241,7 +19241,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -19263,7 +19263,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 native
 )
@@ -19343,7 +19343,7 @@ unsigned
 nargs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_STRING
 (
@@ -19351,7 +19351,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -20072,7 +20072,7 @@ toPrivate
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 fs
@@ -20169,7 +20169,7 @@ JSFunctionSpec
 fs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -20361,7 +20361,7 @@ getClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 =
@@ -20471,7 +20471,7 @@ fs
 selfHostedName
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fs
@@ -20482,7 +20482,7 @@ call
 op
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fs
@@ -20660,7 +20660,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -20771,7 +20771,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -20880,7 +20880,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -20947,7 +20947,7 @@ cx
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -21227,7 +21227,7 @@ FileContents
 buffer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fp_
 )
@@ -22061,7 +22061,7 @@ MutableHandleScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -22540,7 +22540,7 @@ void
 callbackData
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanCompileOffThread
 (
@@ -22583,7 +22583,7 @@ void
 token
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -22925,7 +22925,7 @@ JSScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -22983,7 +22983,7 @@ MutableHandleFunction
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -23561,7 +23561,7 @@ unsigned
 indent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -23708,7 +23708,7 @@ unsigned
 indent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -23777,7 +23777,7 @@ unsigned
 indent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -23854,7 +23854,7 @@ cx
 scriptArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -24155,7 +24155,7 @@ cx
 optionsArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -24266,7 +24266,7 @@ script
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -25196,7 +25196,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -25292,7 +25292,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -25438,7 +25438,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -26240,12 +26240,12 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 (
@@ -26732,7 +26732,7 @@ size_t
 plength
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 plength
 )
@@ -26820,7 +26820,7 @@ size_t
 plength
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 plength
 )
@@ -27117,7 +27117,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -27177,7 +27177,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -28227,7 +28227,7 @@ if
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 writtenLength
 <
@@ -28239,7 +28239,7 @@ return
 writtenLength
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 writtenLength
 <
@@ -28275,7 +28275,7 @@ size_t
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 writtenLength
 =
@@ -29739,7 +29739,7 @@ CHECK_REQUEST
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -30505,7 +30505,7 @@ js_ReportUncaughtException
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -32238,7 +32238,7 @@ maybeGlobal
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 )
@@ -32443,7 +32443,7 @@ cx
 autoGCRooters
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 !
@@ -32490,7 +32490,7 @@ cx
 autoGCRooters
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 !
@@ -32936,7 +32936,7 @@ compartment
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 compartment
 )

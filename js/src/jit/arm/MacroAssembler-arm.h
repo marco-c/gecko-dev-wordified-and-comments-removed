@@ -235,7 +235,7 @@ Register
 reg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 !
@@ -2838,7 +2838,7 @@ int32_t
 sign
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sign
 =
@@ -5932,7 +5932,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -6090,7 +6090,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -6174,7 +6174,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -7066,7 +7066,7 @@ s0
 d1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 d1
 !
@@ -7074,7 +7074,7 @@ d1
 ScratchRegister
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 d0
 !
@@ -7180,7 +7180,7 @@ BaseIndex
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 .
@@ -7400,7 +7400,7 @@ BaseIndex
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 .
@@ -8044,7 +8044,7 @@ uint32_t
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 %
@@ -9097,7 +9097,7 @@ BaseIndex
 addr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 addr
 .
@@ -9186,7 +9186,7 @@ BaseIndex
 addr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 addr
 .

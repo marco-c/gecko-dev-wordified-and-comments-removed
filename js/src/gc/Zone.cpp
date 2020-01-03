@@ -176,7 +176,7 @@ jitUsingBarriers_
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reinterpret_cast
 <
@@ -367,7 +367,7 @@ isAtomsZone
 this
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 runtimeFromMainThread
@@ -582,7 +582,7 @@ isEmpty
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isGCSweepingOrCompacting
 (
@@ -664,7 +664,7 @@ IsScriptAboutToBeFinalized
 script
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 =
@@ -1283,7 +1283,7 @@ Value
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 .

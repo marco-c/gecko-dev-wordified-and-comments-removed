@@ -180,7 +180,7 @@ size_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 HelperThreadState
@@ -224,7 +224,7 @@ AsmJSParallelTask
 asmData
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 asmData
 -
@@ -232,7 +232,7 @@ asmData
 mir
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 asmData
 -
@@ -1850,7 +1850,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 OffThreadParsingMustWaitForGC
@@ -2062,14 +2062,14 @@ ensureInitialized
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUseExtraThreads
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 =
@@ -2405,7 +2405,7 @@ lock
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isLocked
@@ -2443,7 +2443,7 @@ unlock
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -2499,7 +2499,7 @@ uint32_t
 millis
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -2537,7 +2537,7 @@ millis
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 status
 =
@@ -2567,7 +2567,7 @@ CondVar
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -2593,7 +2593,7 @@ CondVar
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -2617,7 +2617,7 @@ canStartAsmJSCompile
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -2881,7 +2881,7 @@ bool
 remove
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -2899,7 +2899,7 @@ empty
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 remove
@@ -3005,7 +3005,7 @@ lowestPriorityUnpausedIonCompileAtThreshold
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -3116,7 +3116,7 @@ highestPriorityPausedIonCompile
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -3155,7 +3155,7 @@ i
 pause
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 threads
 [
@@ -3207,7 +3207,7 @@ pendingIonCompileHasSufficientPriority
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -3268,7 +3268,7 @@ canStartParseTask
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -3493,7 +3493,7 @@ break
 }
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 parseTask
 )
@@ -3520,7 +3520,7 @@ cx
 =
 maybecx
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3735,7 +3735,7 @@ JSProto_Null
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 =
@@ -3777,7 +3777,7 @@ global
 key
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newProto
 )
@@ -4077,7 +4077,7 @@ IsNuwaProcess
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 NuwaMarkCurrentThread
 !
@@ -4117,7 +4117,7 @@ handleAsmJSWorkload
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -4128,7 +4128,7 @@ isLocked
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -4139,7 +4139,7 @@ canStartAsmJSCompile
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idle
 (
@@ -4372,7 +4372,7 @@ handleIonWorkload
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -4383,7 +4383,7 @@ isLocked
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -4394,7 +4394,7 @@ canStartIonCompile
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idle
 (
@@ -4432,7 +4432,7 @@ lowestPriorityUnpausedIonCompileAtThreshold
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 other
 -
@@ -4662,7 +4662,7 @@ highestPriorityPausedIonCompile
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 other
 -
@@ -4803,7 +4803,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 thread
 )
@@ -4999,7 +4999,7 @@ handleParseWorkload
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -5010,7 +5010,7 @@ isLocked
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -5021,7 +5021,7 @@ canStartParseTask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idle
 (
@@ -5179,7 +5179,7 @@ handleCompressionWorkload
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -5190,7 +5190,7 @@ isLocked
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -5201,7 +5201,7 @@ canStartCompressionTask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idle
 (
@@ -5358,7 +5358,7 @@ SourceCompressionTask
 task
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -5455,7 +5455,7 @@ active
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 compressed
@@ -5595,7 +5595,7 @@ compressed
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 active
@@ -5622,7 +5622,7 @@ ScriptSource
 ss
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLocked
 (
@@ -5736,7 +5736,7 @@ handleGCHelperWorkload
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -5747,7 +5747,7 @@ isLocked
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 HelperThreadState
 (
@@ -5758,14 +5758,14 @@ canStartGCHelperTask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 idle
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gcHelperState
@@ -5810,7 +5810,7 @@ threadLoop
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUseExtraThreads
 (
@@ -5902,7 +5902,7 @@ while
 true
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 idle
 (

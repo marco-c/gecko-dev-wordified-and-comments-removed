@@ -722,7 +722,7 @@ Equal
 failure
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 =
@@ -734,7 +734,7 @@ r4
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =

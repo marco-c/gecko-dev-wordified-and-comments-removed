@@ -215,7 +215,7 @@ CodeOffsetLabel
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 .
@@ -265,7 +265,7 @@ fixup
 masm
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 .
@@ -413,7 +413,7 @@ firstStub
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasStub
 (
@@ -1214,7 +1214,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentStub_
 )
@@ -1232,7 +1232,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentStub_
 )
@@ -1310,7 +1310,7 @@ other
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 icEntry_
 =
@@ -1320,7 +1320,7 @@ other
 icEntry_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fallbackStub_
 =
@@ -1659,7 +1659,7 @@ kind_
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stubCode
 !
@@ -1706,7 +1706,7 @@ kind_
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stubCode
 !
@@ -1833,7 +1833,7 @@ toFallbackStub
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFallback
 (
@@ -1859,7 +1859,7 @@ toFallbackStub
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFallback
 (
@@ -1886,7 +1886,7 @@ toMonitoredStub
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMonitored
 (
@@ -1912,7 +1912,7 @@ toMonitoredStub
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMonitored
 (
@@ -1939,7 +1939,7 @@ toMonitoredFallbackStub
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMonitoredFallback
 (
@@ -1965,7 +1965,7 @@ toMonitoredFallbackStub
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isMonitoredFallback
 (
@@ -1992,7 +1992,7 @@ toUpdatedStub
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isUpdated
 (
@@ -2018,7 +2018,7 @@ toUpdatedStub
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isUpdated
 (
@@ -2079,7 +2079,7 @@ kindName
 const
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 #
@@ -2121,7 +2121,7 @@ kindName
 )
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 #
@@ -2263,7 +2263,7 @@ lastStub
 >
 next_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastStub
 -
@@ -2354,7 +2354,7 @@ Kind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsValidKind
 (
@@ -2475,7 +2475,7 @@ allocatedInFallbackSpace
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 next
 (
@@ -2579,7 +2579,7 @@ lastStubPtrAddr_
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 trait
 =
@@ -2636,7 +2636,7 @@ ICEntry
 icEntry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 icEntry_
 =
@@ -2644,7 +2644,7 @@ icEntry_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastStubPtrAddr_
 =
@@ -2674,7 +2674,7 @@ ICStub
 stub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 lastStubPtrAddr_
@@ -2683,7 +2683,7 @@ lastStubPtrAddr_
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stub
 -
@@ -2927,7 +2927,7 @@ ICStub
 monitorStub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 firstMonitorStub_
 &
@@ -2954,7 +2954,7 @@ ICStub
 monitorFallback
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 monitorFallback
 -
@@ -3207,7 +3207,7 @@ iter
 =
 firstUpdateStub_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -3244,7 +3244,7 @@ next
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -3616,7 +3616,7 @@ All
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 regs
@@ -3633,7 +3633,7 @@ defined
 (
 JS_CODEGEN_ARM
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 regs
@@ -3657,7 +3657,7 @@ defined
 (
 JS_CODEGEN_MIPS
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 regs
@@ -3668,7 +3668,7 @@ BaselineTailCallReg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 regs
@@ -4486,7 +4486,7 @@ kind
 stubCode
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -4500,7 +4500,7 @@ kind
 TypeUpdate_PrimitiveSet
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 &
@@ -4532,7 +4532,7 @@ JitCode
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 &
@@ -4589,7 +4589,7 @@ type
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 <
@@ -4597,7 +4597,7 @@ type
 JSVAL_TYPE_OBJECT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -4750,7 +4750,7 @@ updateStub
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 existingStub_
 )
@@ -4916,7 +4916,7 @@ setNext
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 lastMonitorStubPtrAddr_
@@ -4952,7 +4952,7 @@ numOptimizedMonitorStubs_
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 firstMonitorStub_
 =
@@ -4967,7 +4967,7 @@ stub
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 firstMonitorStub_
 !
@@ -5094,7 +5094,7 @@ mainFallbackStub
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasFallbackStub_
 )
@@ -5237,13 +5237,13 @@ ICEntry
 icEntry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasFallbackStub_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 icEntry_
 =
@@ -5251,7 +5251,7 @@ icEntry_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastMonitorStubPtrAddr_
 =
@@ -5563,7 +5563,7 @@ ICStubSpace
 space
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 existingStub_
@@ -6188,7 +6188,7 @@ ICStubSpace
 space
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 existingStub_
@@ -10144,7 +10144,7 @@ BinaryArith_BooleanWithInt32
 stubCode
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhsIsBool
 |
@@ -10359,7 +10359,7 @@ rhsIsBool_
 rhsIsBool
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op_
 =
@@ -10391,7 +10391,7 @@ op_
 JSOP_BITXOR
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhsIsBool_
 |
@@ -11480,7 +11480,7 @@ offset_
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -11494,7 +11494,7 @@ kind
 GetElem_NativePrototypeSlot
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 acctype
 =
@@ -12620,7 +12620,7 @@ ICStub
 GetElem_NativeSlot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj_
 =
@@ -12647,7 +12647,7 @@ offset_
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj_
 !
@@ -12732,7 +12732,7 @@ holderShape
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -14191,7 +14191,7 @@ toImpl
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ProtoChainDepth
 =
@@ -14270,7 +14270,7 @@ type
 ProtoChainDepth
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shapes
 -
@@ -14421,7 +14421,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -15530,7 +15530,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -17668,7 +17668,7 @@ ICStub
 GetProp_Native
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj_
 =
@@ -17692,7 +17692,7 @@ offset_
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj_
 !
@@ -17700,7 +17700,7 @@ obj_
 holder_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -18394,7 +18394,7 @@ pcOffset_
 pcOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -18548,7 +18548,7 @@ cx
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -21143,7 +21143,7 @@ toImpl
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ProtoChainDepth
 =
@@ -21822,7 +21822,7 @@ pcOffset_
 pcOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -25621,7 +25621,7 @@ uint16_t
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSType
 (

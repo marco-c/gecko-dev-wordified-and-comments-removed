@@ -310,7 +310,7 @@ uint32_t
 data
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 <
@@ -349,7 +349,7 @@ uint32_t
 data
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 <
@@ -415,7 +415,7 @@ bits_
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBogus
 (
@@ -482,7 +482,7 @@ Value
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 )
@@ -494,7 +494,7 @@ uintptr_t
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 bits_
@@ -815,7 +815,7 @@ toConstant
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isConstantValue
 (
@@ -1277,7 +1277,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -1361,7 +1361,7 @@ VREG_SHIFT
 &
 VREG_MASK
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 !
@@ -1379,7 +1379,7 @@ registerCode
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 policy
 (
@@ -1961,7 +1961,7 @@ bits_
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBogusTemp
 (
@@ -2334,7 +2334,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -2429,7 +2429,7 @@ getReusedInput
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 policy
 (
@@ -2996,13 +2996,13 @@ uint32_t
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 id_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 id
 )
@@ -3645,7 +3645,7 @@ LInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 at
@@ -3683,7 +3683,7 @@ label
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isTrivial
@@ -3994,7 +3994,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 false
 )
@@ -4013,7 +4013,7 @@ MBasicBlock
 successor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 false
 )
@@ -4026,7 +4026,7 @@ input
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numOperands
 (
@@ -4050,7 +4050,7 @@ output
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numDefs
 (
@@ -4237,7 +4237,7 @@ RecoverOffset
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 recoverOffset_
 =
@@ -4593,7 +4593,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -4635,7 +4635,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -4676,7 +4676,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -4702,7 +4702,7 @@ LAllocation
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -4773,7 +4773,7 @@ SnapshotOffset
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 snapshotOffset_
 =
@@ -4793,7 +4793,7 @@ BailoutId
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bailoutId_
 =
@@ -4962,7 +4962,7 @@ assertInvariants
 #
 ifndef
 JS_NUNBOX32
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 valueRegs
@@ -4993,7 +4993,7 @@ bits
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 gcRegs
@@ -5303,7 +5303,7 @@ slot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 alloc
 .
@@ -5576,7 +5576,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 alloc
 .
@@ -6305,7 +6305,7 @@ slot
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 alloc
 .
@@ -6375,7 +6375,7 @@ slot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 alloc
 .
@@ -6409,7 +6409,7 @@ offset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 encoded
 (
@@ -6466,7 +6466,7 @@ uint32_t
 osiCallPointOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 osiCallPointOffset_
@@ -6661,7 +6661,7 @@ next
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 more
 (
@@ -7212,13 +7212,13 @@ LSnapshot
 snapshot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 entrySnapshot_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 snapshot
 -
@@ -7251,7 +7251,7 @@ entrySnapshot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entrySnapshot_
 )
@@ -7397,7 +7397,7 @@ toRegister
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isRegister
 (
@@ -7676,7 +7676,7 @@ name
 \
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 #
@@ -7732,7 +7732,7 @@ type
 )
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 #
@@ -7783,7 +7783,7 @@ type
 const
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 #
@@ -7856,7 +7856,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -7918,7 +7918,7 @@ Type
 type2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 type1

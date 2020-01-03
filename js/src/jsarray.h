@@ -55,7 +55,7 @@ JSID_TO_INT
 id
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 >

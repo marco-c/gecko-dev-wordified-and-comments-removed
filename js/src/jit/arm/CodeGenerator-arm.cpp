@@ -187,7 +187,7 @@ generatePrologue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gen
@@ -225,7 +225,7 @@ generateEpilogue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gen
@@ -300,7 +300,7 @@ frameSize
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -1115,7 +1115,7 @@ bailed
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 label
 -
@@ -1125,7 +1125,7 @@ used
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 label
@@ -1395,7 +1395,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 first
 =
@@ -1679,7 +1679,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 first
 =
@@ -1937,7 +1937,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -1989,7 +1989,7 @@ input
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 =
@@ -3293,7 +3293,7 @@ skip
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -3396,7 +3396,7 @@ skip
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -3479,7 +3479,7 @@ Imm32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -3875,7 +3875,7 @@ canTruncateRemainder
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -4270,7 +4270,7 @@ skip
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -4439,7 +4439,7 @@ isTruncated
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -4594,7 +4594,7 @@ mir
 Label
 done
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callTemp
 .
@@ -4722,7 +4722,7 @@ skip
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -4848,7 +4848,7 @@ isTruncated
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -5076,7 +5076,7 @@ isTruncated
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -5238,7 +5238,7 @@ isTruncated
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -5314,7 +5314,7 @@ getDef
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 input
@@ -6334,7 +6334,7 @@ ToStackOffset
 a
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 offset
@@ -7844,7 +7844,7 @@ frameSize
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 class_
 !
@@ -7852,7 +7852,7 @@ class_
 NO_FRAME_SIZE_CLASS_ID
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 class_
 <
@@ -8083,7 +8083,7 @@ getDef
 TYPE_INDEX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 box
@@ -9038,7 +9038,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -9249,7 +9249,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -9489,7 +9489,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -9710,7 +9710,7 @@ LCompareVAndBranch
 RhsInput
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -11318,7 +11318,7 @@ isConstant
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -11343,7 +11343,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrImm
 >
@@ -11922,7 +11922,7 @@ isConstant
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -11947,7 +11947,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrImm
 >
@@ -12551,7 +12551,7 @@ skip
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -12796,7 +12796,7 @@ skip
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -12952,7 +12952,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 =
@@ -12960,7 +12960,7 @@ lhs
 r0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 =
@@ -12968,7 +12968,7 @@ rhs
 r1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -13432,7 +13432,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (

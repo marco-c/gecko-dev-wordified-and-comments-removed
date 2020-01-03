@@ -52,7 +52,7 @@ size_t
 chunkSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 RoundUpPow2
 (
@@ -98,7 +98,7 @@ BumpChunk
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 AlignPtr
 (
@@ -266,7 +266,7 @@ last
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curSize_
 =
@@ -453,7 +453,7 @@ newChunk
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 latest
 &
@@ -492,7 +492,7 @@ computedSizeOfIncludingThis
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 computedChunkSize
 =
@@ -520,13 +520,13 @@ LifoAlloc
 other
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 markCount
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 other
@@ -627,13 +627,13 @@ LifoAlloc
 other
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 markCount
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 latest
 =

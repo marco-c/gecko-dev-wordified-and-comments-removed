@@ -264,7 +264,7 @@ VerifyPreTracer
 )
 jstrc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -1175,7 +1175,7 @@ thing
 thingp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 node
 -
@@ -1377,7 +1377,7 @@ trc
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS
@@ -1464,7 +1464,7 @@ setNeedsIncrementalBarrier
 false
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -1975,7 +1975,7 @@ JSTRACE_OBJECT
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 trc

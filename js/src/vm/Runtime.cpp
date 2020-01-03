@@ -1465,7 +1465,7 @@ JSRuntime
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isHeapBusy
@@ -1596,7 +1596,7 @@ finishSelfHosting
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 exclusiveAccessOwner
@@ -1611,7 +1611,7 @@ PR_DestroyLock
 exclusiveAccessLock
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 numExclusiveThreads
@@ -1621,7 +1621,7 @@ mainThreadHasExclusiveAccess
 =
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 interruptLockOwner
@@ -1856,7 +1856,7 @@ liveRuntimesCount
 -
 -
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 oldCount
 >
@@ -2543,13 +2543,13 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 execAlloc_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2600,13 +2600,13 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 mathCache_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3171,7 +3171,7 @@ Zone
 zone
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -3203,7 +3203,7 @@ Zone
 zone
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -3299,7 +3299,7 @@ get
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pt
 &
@@ -3348,7 +3348,7 @@ which
 case
 ExclusiveAccessLock
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 exclusiveAccessOwner
 !
@@ -3361,7 +3361,7 @@ PR_GetCurrentThread
 case
 HelperThreadStateLock
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 HelperThreadState
@@ -3376,7 +3376,7 @@ isLocked
 case
 InterruptLock
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 currentThreadOwnsInterruptLock

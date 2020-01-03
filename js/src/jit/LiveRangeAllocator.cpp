@@ -416,7 +416,7 @@ post
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pre
 -
@@ -716,14 +716,14 @@ CodePosition
 to
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 <
 to
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ranges_
 .
@@ -813,7 +813,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 <
@@ -822,7 +822,7 @@ first
 to
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 to
 >
@@ -875,7 +875,7 @@ CodePosition
 to
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 <
@@ -1586,7 +1586,7 @@ LiveInterval
 after
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 >
@@ -1603,7 +1603,7 @@ end
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 after
 -
@@ -1939,7 +1939,7 @@ UsePosition
 use
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 uses_
 .
@@ -2032,7 +2032,7 @@ policy
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 policy
 !
@@ -2256,7 +2256,7 @@ getFirstInterval
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 intervals_
@@ -3048,7 +3048,7 @@ addLiveRegister
 reg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 .
@@ -3886,7 +3886,7 @@ isRegister
 forLSRA
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 NextInstructionHasFixedUses
@@ -4007,7 +4007,7 @@ toUse
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inputUse
 -
@@ -4023,7 +4023,7 @@ LUse
 REGISTER
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inputUse
 -
@@ -4257,7 +4257,7 @@ temp
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -4637,7 +4637,7 @@ i
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 vregs
 [
@@ -4715,7 +4715,7 @@ true
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -5296,7 +5296,7 @@ while
 true
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 loopBlock
 -
@@ -5550,7 +5550,7 @@ loopBlock
 osrBlock
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 loopWorkList
 .
@@ -5706,7 +5706,7 @@ dumpVregs
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 vregs
 [
@@ -5885,7 +5885,7 @@ ranges_
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 range
 -

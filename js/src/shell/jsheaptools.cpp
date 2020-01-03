@@ -1653,7 +1653,7 @@ lookup
 cell
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -1958,7 +1958,7 @@ next
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 next
 +
@@ -2121,7 +2121,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_IsArrayObject
 (

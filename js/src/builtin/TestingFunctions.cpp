@@ -4091,7 +4091,7 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -6454,7 +6454,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 InParallelSection
@@ -7834,7 +7834,7 @@ uint64_t
 aData
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 data
@@ -7876,7 +7876,7 @@ size_t
 nbytes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 <
@@ -8234,7 +8234,7 @@ CloneBufferObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .

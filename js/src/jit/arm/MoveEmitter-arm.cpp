@@ -181,7 +181,7 @@ framePushed
 -
 pushedAtCycle_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -231,7 +231,7 @@ framePushed
 -
 pushedAtSpill_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -288,7 +288,7 @@ base
 StackPointer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 .
@@ -325,7 +325,7 @@ disp
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 .
@@ -377,7 +377,7 @@ reg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 .
@@ -909,7 +909,7 @@ MoveOp
 :
 GENERAL
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 slotId
 =
@@ -1169,7 +1169,7 @@ isGeneralReg
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -1237,7 +1237,7 @@ tempReg
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -1287,7 +1287,7 @@ disp
 reg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 to
 .
@@ -1423,7 +1423,7 @@ singleOverlay
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -1573,7 +1573,7 @@ floatReg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -1707,7 +1707,7 @@ isCycleEnd
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inCycle_
 )
@@ -1728,7 +1728,7 @@ cycleEndSlot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inCycle_
 >
@@ -1850,7 +1850,7 @@ assertDone
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inCycle_
 =

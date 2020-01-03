@@ -147,7 +147,7 @@ AllocKind
 allocKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ForkJoinContext
 :
@@ -218,7 +218,7 @@ JSObject
 object
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ForkJoinContext
 :
@@ -337,7 +337,7 @@ TypedObject
 typedObj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 typedObj
 -
@@ -390,7 +390,7 @@ ForkJoinContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ForkJoinContext
 :
@@ -500,7 +500,7 @@ ForkJoinContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ForkJoinContext
 :
@@ -620,7 +620,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -652,7 +652,7 @@ nativeLookupPure
 name
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 &
@@ -934,7 +934,7 @@ HandleValue
 input
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 .
@@ -3111,7 +3111,7 @@ depth
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 func
 -
@@ -3160,12 +3160,12 @@ HandleObject
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 -
@@ -3178,7 +3178,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 res
@@ -3189,7 +3189,7 @@ getDenseInitializedLength
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 -

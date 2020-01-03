@@ -334,7 +334,7 @@ if
 enteredProxy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 context
 -
@@ -3383,7 +3383,7 @@ MutableHandleObject
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy
 -
@@ -3446,7 +3446,7 @@ bool
 bp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy
 -
@@ -3680,7 +3680,7 @@ returnValue
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -4564,7 +4564,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -4712,12 +4712,12 @@ lookupWrapper
 key
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 p
@@ -4859,7 +4859,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -4911,7 +4911,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy
 -
@@ -4951,7 +4951,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5001,7 +5001,7 @@ JSObject
 old
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5123,7 +5123,7 @@ callee
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy
 -
@@ -5185,7 +5185,7 @@ callee
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy
 -
@@ -5418,7 +5418,7 @@ this
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getParent
 (
@@ -5433,7 +5433,7 @@ global
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getClass
 (
@@ -5447,7 +5447,7 @@ ProxyObject
 class_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 getClass
@@ -5460,7 +5460,7 @@ ext
 innerObject
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getTaggedProto
 (

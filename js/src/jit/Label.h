@@ -84,7 +84,7 @@ offset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bound
 (
@@ -125,7 +125,7 @@ int32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bound
@@ -141,7 +141,7 @@ bound_
 =
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset_
 =
@@ -171,7 +171,7 @@ int32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bound
@@ -188,7 +188,7 @@ offset_
 =
 offset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset_
 =

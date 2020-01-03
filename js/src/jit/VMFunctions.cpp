@@ -1515,7 +1515,7 @@ HandleObject
 templateObject
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObject
@@ -1526,7 +1526,7 @@ hasSingletonType
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObject
@@ -1710,7 +1710,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1831,7 +1831,7 @@ uint32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2055,7 +2055,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2641,7 +2641,7 @@ cx
 name
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 &
@@ -3647,7 +3647,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -3680,7 +3680,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3830,7 +3830,7 @@ true
 case
 JSTRAP_RETURN
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -4301,7 +4301,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 arrRes
@@ -4312,7 +4312,7 @@ getDenseInitializedLength
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arrRes
 -
@@ -4492,7 +4492,7 @@ pc
 script
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -4507,7 +4507,7 @@ debugMode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -4845,7 +4845,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -4970,7 +4970,7 @@ int32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 descr
 -
@@ -4983,7 +4983,7 @@ SizedTypeDescr
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 owner
 -
@@ -5064,12 +5064,12 @@ HandleString
 repl
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 string
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 repl
 )
@@ -5119,17 +5119,17 @@ HandleString
 repl
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 string
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pattern
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 repl
 )
@@ -5172,7 +5172,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -5199,7 +5199,7 @@ iter
 activations
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -5235,7 +5235,7 @@ script
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -5555,7 +5555,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5573,7 +5573,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5636,7 +5636,7 @@ isTenured
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5664,7 +5664,7 @@ getAllocKind
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 >
@@ -5690,7 +5690,7 @@ gc
 FINALIZE_OBJECT_LAST
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5744,7 +5744,7 @@ runtime
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -5766,7 +5766,7 @@ isAtom
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -5788,7 +5788,7 @@ zone
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -5806,7 +5806,7 @@ zone
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -5824,7 +5824,7 @@ runtime
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -5834,7 +5834,7 @@ isAligned
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -5872,7 +5872,7 @@ isFatInline
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -5893,7 +5893,7 @@ isExternal
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -5922,7 +5922,7 @@ isFlat
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -5943,7 +5943,7 @@ FINALIZE_FAT_INLINE_STRING
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -5988,7 +5988,7 @@ runtime
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -6009,7 +6009,7 @@ zone
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sym
 -
@@ -6027,7 +6027,7 @@ runtime
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sym
 -
@@ -6051,7 +6051,7 @@ description
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 -
@@ -6068,7 +6068,7 @@ desc
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 sym
 -
@@ -6171,7 +6171,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -

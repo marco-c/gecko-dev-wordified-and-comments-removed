@@ -602,7 +602,7 @@ characters_
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 last_added_
 =
@@ -747,7 +747,7 @@ length
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 last_added_
 =
@@ -780,7 +780,7 @@ length
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 last_added_
 =
@@ -1134,7 +1134,7 @@ ParseOctalLiteral
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 '
 0
@@ -1459,7 +1459,7 @@ ParseClassCharacterEscape
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 (
@@ -1472,7 +1472,7 @@ current
 '
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 has_next
 (
@@ -1880,7 +1880,7 @@ ParseCharacterClass
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 (
@@ -2258,7 +2258,7 @@ CharacterRange
 char_range
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 char_class
@@ -2562,7 +2562,7 @@ int
 higher_limit
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lower_limit
 <
@@ -2635,7 +2635,7 @@ int
 index_out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 '
 \
@@ -2648,7 +2648,7 @@ current
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 '
 1
@@ -2838,7 +2838,7 @@ int
 max_out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 (
@@ -3275,7 +3275,7 @@ JSMSG_MISSING_PAREN
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 INITIAL
 =
@@ -3318,7 +3318,7 @@ ReportError
 JSMSG_UNMATCHED_RIGHT_PAREN
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 INITIAL
 !
@@ -3441,7 +3441,7 @@ group_type
 GROUPING
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 group_type
 =

@@ -307,7 +307,7 @@ ValueInput
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -323,7 +323,7 @@ Base
 compartment
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 k
@@ -361,7 +361,7 @@ invisibleToDebugger
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 Base
@@ -430,7 +430,7 @@ Lookup
 l
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Base
 :
@@ -682,7 +682,7 @@ zone
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 k
 =
@@ -778,12 +778,12 @@ lookup
 zone
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 -
@@ -2933,7 +2933,7 @@ toJSObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 object
 )
@@ -2954,7 +2954,7 @@ toJSObjectRef
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 object
 )
@@ -3292,7 +3292,7 @@ GlobalObject
 global
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 global

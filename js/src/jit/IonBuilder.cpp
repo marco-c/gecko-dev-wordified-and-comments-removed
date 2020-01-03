@@ -308,7 +308,7 @@ CompileInfo
 info
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 )
@@ -944,7 +944,7 @@ abortReason_
 =
 AbortReason_Disable
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -969,7 +969,7 @@ ArgumentsUsageAnalysis
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 !
@@ -1022,7 +1022,7 @@ clearForBackEnd
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 analysisContext
@@ -1175,7 +1175,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -1569,7 +1569,7 @@ bool
 gotLambda
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 targets
 .
@@ -1578,7 +1578,7 @@ empty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 gotLambda
 )
@@ -1741,7 +1741,7 @@ getTypeObject
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 typeObj
 )
@@ -1824,7 +1824,7 @@ append
 fun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 appendOk
 )
@@ -4298,7 +4298,7 @@ empty
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -4318,7 +4318,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 loopDepth_
 =
@@ -4683,7 +4683,7 @@ callerBuilder
 >
 current
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessor
 =
@@ -4897,7 +4897,7 @@ nargs
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -5132,7 +5132,7 @@ numOperands
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 -
@@ -5229,7 +5229,7 @@ int32_t
 argIndex
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 param
 -
@@ -5303,7 +5303,7 @@ rewriteParameters
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 (
@@ -6042,7 +6042,7 @@ lineno
 current
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 (
@@ -6521,7 +6521,7 @@ break
 case
 MIRType_MagicOptimizedArguments
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 lazyArguments_
 )
@@ -6546,7 +6546,7 @@ default
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 =
@@ -6604,7 +6604,7 @@ if
 osrBlock
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 (
@@ -6661,7 +6661,7 @@ OSR_PHI_POSITION
 =
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 preheader
 -
@@ -6878,7 +6878,7 @@ for
 ;
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 <
@@ -7242,7 +7242,7 @@ JSOP_POS
 case
 JSOP_TOID
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -7271,7 +7271,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 popped
 [
@@ -9034,7 +9034,7 @@ jsop_in
 case
 JSOP_SETRVAL
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -9161,7 +9161,7 @@ processControlEnd
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 current
@@ -9914,13 +9914,13 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 current
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 loopDepth_
 )
@@ -10011,7 +10011,7 @@ if
 current
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 -
@@ -10159,12 +10159,12 @@ MBasicBlock
 successor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 loopDepth_
 )
@@ -10784,7 +10784,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -10796,7 +10796,7 @@ pc
 JSOP_IFNE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 )
@@ -10966,7 +10966,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -11357,7 +11357,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -11708,7 +11708,7 @@ edge
 next
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 head
 )
@@ -12062,7 +12062,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -12377,7 +12377,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -12517,7 +12517,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -12540,7 +12540,7 @@ try_
 successor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 current
@@ -12651,7 +12651,7 @@ jssrcnote
 sn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -12659,7 +12659,7 @@ op
 JSOP_GOTO
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -12749,7 +12749,7 @@ i
 cfgEntry
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cfg
 .
@@ -12845,7 +12845,7 @@ i
 cfgEntry
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cfg
 .
@@ -12897,7 +12897,7 @@ break
 }
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 )
@@ -12970,7 +12970,7 @@ JSOp
 op
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -13065,7 +13065,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 )
@@ -13133,7 +13133,7 @@ JSOp
 op
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -13214,7 +13214,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 )
@@ -13582,7 +13582,7 @@ pc
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -13714,7 +13714,7 @@ note
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ifne
 =
@@ -13725,7 +13725,7 @@ expected_ifne
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -13810,7 +13810,7 @@ offset
 +
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ifne
 >
@@ -13826,7 +13826,7 @@ GetNextPc
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -13838,7 +13838,7 @@ loopHead
 JSOP_LOOPHEAD
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 loopHead
 =
@@ -14116,7 +14116,7 @@ jssrcnote
 sn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -14162,14 +14162,14 @@ pc
 +
 ifneOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ifne
 >
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -14184,7 +14184,7 @@ pc
 JSOP_LOOPHEAD
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 GetNextPc
 (
@@ -14479,7 +14479,7 @@ jssrcnote
 sn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -14571,7 +14571,7 @@ condpc
 ifne
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -14583,7 +14583,7 @@ bodyStart
 JSOP_GOTO
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bodyStart
 +
@@ -14614,7 +14614,7 @@ op
 JSOP_NOP
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -14648,7 +14648,7 @@ loopHead
 =
 bodyStart
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -14660,7 +14660,7 @@ bodyStart
 JSOP_LOOPHEAD
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ifne
 +
@@ -15071,7 +15071,7 @@ jssrcnote
 sn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -15079,7 +15079,7 @@ op
 JSOP_TABLESWITCH
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -15124,7 +15124,7 @@ GET_JUMP_OFFSET
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 defaultpc
 >
@@ -15260,7 +15260,7 @@ GET_JUMP_OFFSET
 pc2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 casepc
 >
@@ -15379,7 +15379,7 @@ moveBlockToEnd
 defaultcase
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tableswitch
 -
@@ -15401,7 +15401,7 @@ low
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tableswitch
 -
@@ -16989,7 +16989,7 @@ jsop_label
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -17012,7 +17012,7 @@ GET_JUMP_OFFSET
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 endpc
 >
@@ -17066,7 +17066,7 @@ jsop_condswitch
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -17092,7 +17092,7 @@ gsn
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -17149,7 +17149,7 @@ nbBodies
 =
 2
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 <
@@ -17188,7 +17188,7 @@ gsn
 curCase
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 caseSn
 &
@@ -17224,7 +17224,7 @@ GetNextPc
 curCase
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 <
@@ -17263,7 +17263,7 @@ lastTarget
 curTarget
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -17286,7 +17286,7 @@ curCase
 +
 curCase
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curCase
 <
@@ -17341,7 +17341,7 @@ nbBodies
 return
 ControlStatus_Error
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -17600,7 +17600,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -17613,7 +17613,7 @@ CFGState
 COND_SWITCH_CASE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 state
@@ -17623,12 +17623,12 @@ condswitch
 breaks
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -17745,7 +17745,7 @@ casePc
 =
 JSOP_DEFAULT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -17802,7 +17802,7 @@ defaultTarget
 bodyTarget
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -17869,7 +17869,7 @@ bodyBlock
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastTarget
 =
@@ -17877,7 +17877,7 @@ lastTarget
 bodyTarget
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 currentIdx
 >
@@ -17958,7 +17958,7 @@ uint32_t
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastTarget
 <
@@ -17996,7 +17996,7 @@ defaultIdx
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defaultTarget
 <
@@ -18010,7 +18010,7 @@ true
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 defaultTarget
 <
@@ -18123,7 +18123,7 @@ inspector
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cmpResult
@@ -18209,7 +18209,7 @@ ControlStatus_Error
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 caseIsDefault
 )
@@ -18272,7 +18272,7 @@ if
 caseIsDefault
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentIdx
 =
@@ -18408,7 +18408,7 @@ CFGState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -18421,7 +18421,7 @@ CFGState
 COND_SWITCH_BODY
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 <
@@ -18458,7 +18458,7 @@ condswitch
 .
 currentIdx
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 currentIdx
 <
@@ -18654,7 +18654,7 @@ JSOp
 op
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -18692,7 +18692,7 @@ GetJumpOffset
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 joinStart
 >
@@ -18930,7 +18930,7 @@ GetJumpOffset
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 falseStart
 >
@@ -19079,21 +19079,21 @@ sn
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 trueEnd
 >
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 trueEnd
 <
 falseStart
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -19105,7 +19105,7 @@ trueEnd
 JSOP_GOTO
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -19130,14 +19130,14 @@ GetJumpOffset
 trueEnd
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 falseEnd
 >
 trueEnd
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 falseEnd
 >
@@ -19232,7 +19232,7 @@ jsop_try
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -19265,7 +19265,7 @@ finally
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInlineBuilder
@@ -19322,7 +19322,7 @@ gsn
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -19345,7 +19345,7 @@ sn
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -19357,7 +19357,7 @@ endpc
 JSOP_GOTO
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 GetJumpOffset
 (
@@ -19515,7 +19515,7 @@ successor
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 (
@@ -20755,7 +20755,7 @@ JSFunction
 target
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -20765,7 +20765,7 @@ hasScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsIonInlinablePC
 (
@@ -21311,7 +21311,7 @@ abortedNewScriptPropertiesTypes
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 types
@@ -21685,7 +21685,7 @@ MBasicBlock
 bottom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 returns
 .
@@ -22385,7 +22385,7 @@ numInlineable
 1
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 choiceSet
 .
@@ -22417,7 +22417,7 @@ MDefinition
 thisDef
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cache
 -
@@ -23290,7 +23290,7 @@ MBasicBlock
 fallbackTarget
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callInfo
 .
@@ -23316,7 +23316,7 @@ isTypeBarrier
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dispatch
 -
@@ -23453,7 +23453,7 @@ numFormals
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 preCallResumePoint
 -
@@ -23560,7 +23560,7 @@ takePriorResumePoint
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 propTable
 -
@@ -23573,7 +23573,7 @@ pc
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 priorResumePoint
 !
@@ -23636,7 +23636,7 @@ pop
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 checkObject
 =
@@ -23663,7 +23663,7 @@ isGetPropertyCache
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fallbackInfo
 .
@@ -23714,7 +23714,7 @@ toTypeBarrier
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 barrier
 -
@@ -23727,7 +23727,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 barrier
 -
@@ -23742,7 +23742,7 @@ isGetPropertyCache
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 barrier
 -
@@ -23884,7 +23884,7 @@ MGetPropertyCache
 maybeCache
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsIonInlinablePC
 (
@@ -23892,7 +23892,7 @@ pc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 choiceSet
 .
@@ -24218,7 +24218,7 @@ resultTypeSet
 :
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 targets
 .
@@ -24474,7 +24474,7 @@ if
 maybeCache
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callInfo
 .
@@ -24571,7 +24571,7 @@ status
 InliningStatus_NotInlined
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 -
@@ -24581,7 +24581,7 @@ isNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 =
@@ -24732,7 +24732,7 @@ numEntries
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dispatch
 -
@@ -24994,7 +24994,7 @@ end
 dispatch
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 returnBlock
 -
@@ -25062,7 +25062,7 @@ templateDeclEnvObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObj
@@ -27591,7 +27591,7 @@ resultTypeSet
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -29293,7 +29293,7 @@ NEWARRAY
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObject
 -
@@ -29702,7 +29702,7 @@ NEWOBJECT
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObject
 -
@@ -31243,7 +31243,7 @@ jsbytecode
 loopEntry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 LoopEntryCanIonOsr
 (
@@ -31251,7 +31251,7 @@ loopEntry
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 loopEntry
 =
@@ -31670,7 +31670,7 @@ argsObjAliasesFormals
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 argsObj
 &
@@ -32009,7 +32009,7 @@ linkOsrValues
 start
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessor
 -
@@ -32027,7 +32027,7 @@ stackDepth
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 (
@@ -32606,7 +32606,7 @@ Mode
 mode
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -33868,7 +33868,7 @@ JSFunction
 func
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 func
 &
@@ -33983,7 +33983,7 @@ replace
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 barrier
 )
@@ -34107,7 +34107,7 @@ type
 MIRType_Value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -34345,7 +34345,7 @@ NameToId
 name
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 staticObject
 -
@@ -34369,7 +34369,7 @@ CallObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 staticObject
 -
@@ -35042,7 +35042,7 @@ NameToId
 name
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 staticObject
 -
@@ -35212,7 +35212,7 @@ pop
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 obj
@@ -35722,7 +35722,7 @@ vp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 types
 -
@@ -35759,7 +35759,7 @@ PropertyName
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 analysis
 (
@@ -36253,7 +36253,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -36313,7 +36313,7 @@ isUseless
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 TypeDescr
 :
@@ -36663,7 +36663,7 @@ int32_t
 elemSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 objPrediction
 .
@@ -36684,7 +36684,7 @@ scalarType
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elemSize
 =
@@ -36771,7 +36771,7 @@ size
 elemType
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 =
@@ -36916,7 +36916,7 @@ int32_t
 elemSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 objPrediction
 .
@@ -37216,7 +37216,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -37304,7 +37304,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -37643,7 +37643,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -37711,7 +37711,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -37910,7 +37910,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -37943,7 +37943,7 @@ MIRType_MagicOptimizedArguments
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -38109,7 +38109,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -38150,7 +38150,7 @@ setImplicitlyUsedUnchecked
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -38189,7 +38189,7 @@ isInt32
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inliningDepth_
 >
@@ -38305,7 +38305,7 @@ MDefinition
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -38990,7 +38990,7 @@ add
 load
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 knownType
 =
@@ -39768,7 +39768,7 @@ nullptr
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ptr
@@ -40493,7 +40493,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -40553,7 +40553,7 @@ isUseless
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 TypeDescr
 :
@@ -40696,7 +40696,7 @@ scalarType
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elemSize
 =
@@ -40790,7 +40790,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -41124,7 +41124,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -41197,7 +41197,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -41368,7 +41368,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -41425,7 +41425,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -41864,7 +41864,7 @@ TemporaryTypeSet
 AmbiguousDoubleConversion
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 -
@@ -41977,7 +41977,7 @@ writeHole
 writeOutOfBounds
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 safety
 =
@@ -42522,7 +42522,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 safety
 =
@@ -42939,7 +42939,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 lazyArguments_
 )
@@ -42976,7 +42976,7 @@ getTemplateObject
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObject
 -
@@ -45361,7 +45361,7 @@ MIRType
 slotType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -45894,7 +45894,7 @@ TemporaryTypeSet
 types
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -46083,7 +46083,7 @@ MDefinition
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -46222,7 +46222,7 @@ PropertyName
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -46333,7 +46333,7 @@ TemporaryTypeSet
 types
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -46386,7 +46386,7 @@ testString
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 testString
@@ -46743,7 +46743,7 @@ TemporaryTypeSet
 types
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -46975,7 +46975,7 @@ TemporaryTypeSet
 types
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -47689,7 +47689,7 @@ TemporaryTypeSet
 types
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -47841,7 +47841,7 @@ name
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 )
@@ -48170,7 +48170,7 @@ TemporaryTypeSet
 types
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -49108,7 +49108,7 @@ MDefinition
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -49459,7 +49459,7 @@ bool
 isDOM
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -49506,7 +49506,7 @@ Setter
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 setter
 -
@@ -49801,7 +49801,7 @@ TemporaryTypeSet
 objTypes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -50106,7 +50106,7 @@ TemporaryTypeSet
 objTypes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -50217,7 +50217,7 @@ name
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 )
@@ -50514,7 +50514,7 @@ name
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 )
@@ -50606,7 +50606,7 @@ TemporaryTypeSet
 objTypes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 emitted
@@ -50955,7 +50955,7 @@ getFlags
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 origFlags
@@ -51342,7 +51342,7 @@ uint32_t
 arg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 analysis_
 .
@@ -51473,7 +51473,7 @@ argumentsAliasesFormals
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 (
@@ -51704,7 +51704,7 @@ if
 otherUses
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 -
@@ -51779,7 +51779,7 @@ MIRType_Double
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 -
@@ -51827,7 +51827,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -51890,7 +51890,7 @@ attrs
 =
 JSPROP_PERMANENT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -51903,7 +51903,7 @@ isForEval
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 analysis
 (
@@ -52007,7 +52007,7 @@ function
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 analysis
 (
@@ -53197,7 +53197,7 @@ nonLazyScript
 outerScript
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 environment
 -
@@ -53295,7 +53295,7 @@ nonLazyScript
 outerScript
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 singletonScope
 -
@@ -54885,7 +54885,7 @@ proto
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 .
@@ -55076,7 +55076,7 @@ MDefinition
 ownerOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 typedObj
 -
@@ -55089,7 +55089,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 -

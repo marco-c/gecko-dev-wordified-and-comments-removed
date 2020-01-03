@@ -1266,7 +1266,7 @@ obj
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )

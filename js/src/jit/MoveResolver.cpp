@@ -82,7 +82,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (

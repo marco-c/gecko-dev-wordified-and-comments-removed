@@ -82,7 +82,7 @@ kind_
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 !
@@ -114,7 +114,7 @@ position_
 at
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 !
@@ -145,7 +145,7 @@ allocation_
 fixed
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fixed
@@ -185,7 +185,7 @@ position_
 at
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fixed
@@ -249,7 +249,7 @@ allocation
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 allocation_
@@ -277,7 +277,7 @@ virtualRegister
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocation_
 .
@@ -286,7 +286,7 @@ isUse
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -334,7 +334,7 @@ Requirement
 newRequirement
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newRequirement
 .
@@ -397,7 +397,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 newRequirement
 .
@@ -1028,7 +1028,7 @@ to
 t
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 <
@@ -1316,7 +1316,7 @@ start
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ranges_
@@ -1342,7 +1342,7 @@ end
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ranges_
@@ -1410,7 +1410,7 @@ CodePosition
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ranges_
 [
@@ -1535,7 +1535,7 @@ vreg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasVreg
 (
@@ -1590,7 +1590,7 @@ Requirement
 requirement
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 requirement
 .
@@ -1914,7 +1914,7 @@ bool
 isTemp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 &
@@ -2073,7 +2073,7 @@ lastInterval
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numIntervals
 (
@@ -2104,7 +2104,7 @@ LiveInterval
 interval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 intervals_
 [
@@ -2154,7 +2154,7 @@ LiveInterval
 interval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -2164,7 +2164,7 @@ numRanges
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -2614,7 +2614,7 @@ LAllocation
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 alloc
 -
@@ -3046,7 +3046,7 @@ getInterval
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -3059,7 +3059,7 @@ vreg
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -3209,7 +3209,7 @@ Type
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 from

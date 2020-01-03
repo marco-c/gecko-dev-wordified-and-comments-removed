@@ -190,7 +190,7 @@ RoundUpPow2
 length
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 <

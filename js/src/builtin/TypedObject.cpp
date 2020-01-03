@@ -330,7 +330,7 @@ int32_t
 align
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsPowerOfTwo
 (
@@ -1396,7 +1396,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -5091,7 +5091,7 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -5150,7 +5150,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -5205,7 +5205,7 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -5266,7 +5266,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -6280,7 +6280,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -6393,7 +6393,7 @@ length
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 typeDescr
 (
@@ -6473,7 +6473,7 @@ typedMem
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isAttached
 (
@@ -6961,7 +6961,7 @@ int32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 =
@@ -7095,7 +7095,7 @@ int32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 >
@@ -7103,7 +7103,7 @@ offset
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 size_t
@@ -7188,7 +7188,7 @@ int32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 typedObj
 .
@@ -7273,7 +7273,7 @@ offset
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 owner
 -
@@ -7443,7 +7443,7 @@ int32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -7456,7 +7456,7 @@ size
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 +
@@ -8328,7 +8328,7 @@ MutableHandleShape
 propp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -8630,7 +8630,7 @@ MutableHandleShape
 propp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -8899,7 +8899,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -9250,7 +9250,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -9449,7 +9449,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 typeDescr
 -
@@ -9554,7 +9554,7 @@ bool
 strict
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -9845,7 +9845,7 @@ bool
 strict
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -10011,7 +10011,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 descr
 -
@@ -10645,7 +10645,7 @@ idp
 int32_t
 index
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -10860,7 +10860,7 @@ index
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -11105,7 +11105,7 @@ GetGCKindSlots
 allocKind
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 DATA_SLOT
 =
@@ -11678,7 +11678,7 @@ int32_t
 bufferLength
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 >
@@ -11686,7 +11686,7 @@ size
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 alignment
 >
@@ -11778,7 +11778,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -12286,7 +12286,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -13099,7 +13099,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -13111,7 +13111,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13251,7 +13251,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -13263,7 +13263,7 @@ length
 3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13292,7 +13292,7 @@ SizedTypeDescr
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13321,7 +13321,7 @@ TypedObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13469,7 +13469,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -13481,7 +13481,7 @@ length
 3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13533,7 +13533,7 @@ TypedObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 handle
@@ -13644,7 +13644,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -13656,7 +13656,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13685,7 +13685,7 @@ TypedObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13729,7 +13729,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 typedObj
 .
@@ -13848,7 +13848,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -13860,7 +13860,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -13938,7 +13938,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -13950,7 +13950,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14028,7 +14028,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -14107,7 +14107,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -14185,7 +14185,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -14197,7 +14197,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14209,7 +14209,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14300,7 +14300,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -14312,7 +14312,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14324,7 +14324,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14434,7 +14434,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -14446,7 +14446,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14458,7 +14458,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14549,7 +14549,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -14561,7 +14561,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14573,7 +14573,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14741,7 +14741,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -14753,7 +14753,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -14844,7 +14844,7 @@ global
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 )
@@ -14910,7 +14910,7 @@ global
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 )
@@ -14976,7 +14976,7 @@ global
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 )
@@ -15044,7 +15044,7 @@ vp
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -15057,7 +15057,7 @@ length
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15087,7 +15087,7 @@ TypedObject
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15100,7 +15100,7 @@ isInt32
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15163,7 +15163,7 @@ API
 *
 /
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 %
@@ -15313,7 +15313,7 @@ vp
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -15326,7 +15326,7 @@ length
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15356,7 +15356,7 @@ TypedObject
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15419,7 +15419,7 @@ API
 *
 /
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 %
@@ -15554,7 +15554,7 @@ vp
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -15567,7 +15567,7 @@ length
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15597,7 +15597,7 @@ TypedObject
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15660,7 +15660,7 @@ API
 *
 /
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 %
@@ -15789,7 +15789,7 @@ vp
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -15802,7 +15802,7 @@ length
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15832,7 +15832,7 @@ TypedObject
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -15895,7 +15895,7 @@ API
 *
 /
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 %
@@ -16013,7 +16013,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -16047,7 +16047,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -16622,7 +16622,7 @@ size_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 >

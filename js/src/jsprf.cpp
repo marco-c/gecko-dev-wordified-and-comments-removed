@@ -1422,7 +1422,7 @@ fmt1
 -
 fmt0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 amount
@@ -1496,7 +1496,7 @@ while
 p
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 p
@@ -1522,7 +1522,7 @@ fin
 d
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 strlen
 (
@@ -2456,7 +2456,7 @@ case
 G
 '
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -2520,7 +2520,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -2883,7 +2883,7 @@ nas
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -4249,7 +4249,7 @@ TYPE_UINTN
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -4287,7 +4287,7 @@ case
 G
 '
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -4422,7 +4422,7 @@ default
 #
 if
 0
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -4923,7 +4923,7 @@ ap
 int
 rv
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int32_t
 (
@@ -4996,7 +4996,7 @@ ss
 uint32_t
 n
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 int32_t
 (

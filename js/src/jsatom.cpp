@@ -976,7 +976,7 @@ asPropertyName
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -1618,13 +1618,13 @@ transformToPermanentAtoms
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parentRuntime
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 permanentAtoms
 &
@@ -2196,12 +2196,12 @@ lookup
 lookup
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 -
@@ -2215,7 +2215,7 @@ asPtr
 atom
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ib
 =
@@ -2489,7 +2489,7 @@ MutableHandleId
 idp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >
@@ -2598,7 +2598,7 @@ HandleType
 arg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 arg

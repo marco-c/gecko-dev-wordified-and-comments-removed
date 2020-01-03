@@ -1040,7 +1040,7 @@ bind
 start_regexp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 num_saved_registers_
 >
@@ -1210,7 +1210,7 @@ used
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 num_saved_registers_
 >
@@ -2080,7 +2080,7 @@ labelPatches
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -2277,7 +2277,7 @@ reg
 by
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 >
@@ -2285,7 +2285,7 @@ reg
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 <
@@ -3325,7 +3325,7 @@ temp2
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mode_
 =
@@ -3966,7 +3966,7 @@ current_position
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mode_
 =
@@ -4726,7 +4726,7 @@ cp_offset
 characters
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cp_offset
 >
@@ -4735,7 +4735,7 @@ cp_offset
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cp_offset
 <
@@ -4850,7 +4850,7 @@ current_character
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 characters
 =
@@ -4869,7 +4869,7 @@ current_character
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mode_
 =
@@ -4877,7 +4877,7 @@ mode_
 CHAR16
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 characters
 <
@@ -5020,7 +5020,7 @@ nullptr
 temp0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 label
@@ -5168,7 +5168,7 @@ PushBacktrack
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 !
@@ -5279,7 +5279,7 @@ PopBacktrack
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 target
 !
@@ -5810,7 +5810,7 @@ register_index
 to
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 register_index
 >
@@ -5891,7 +5891,7 @@ reg_from
 reg_to
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg_from
 <
@@ -6437,7 +6437,7 @@ branch
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 =
@@ -6526,7 +6526,7 @@ done
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 =
@@ -6688,7 +6688,7 @@ Imm32
 done
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CHAR16
 =

@@ -103,7 +103,7 @@ ParseContext
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 parserPC

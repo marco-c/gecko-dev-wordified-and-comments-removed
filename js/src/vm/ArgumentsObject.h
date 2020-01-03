@@ -290,7 +290,7 @@ toInt32
 >
 PACKED_BITS_COUNT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argc
 <
@@ -381,7 +381,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -499,7 +499,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -526,7 +526,7 @@ args
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -551,7 +551,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -577,7 +577,7 @@ args
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lhs

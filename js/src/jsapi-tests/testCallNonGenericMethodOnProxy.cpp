@@ -93,7 +93,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCustomClass
 (

@@ -394,7 +394,7 @@ BEGIN_TEST
 testSetProperty_InheritedGlobalSetter
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (

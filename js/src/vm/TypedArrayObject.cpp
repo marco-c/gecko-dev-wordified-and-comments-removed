@@ -636,7 +636,7 @@ hasBuffer
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 old
 -
@@ -1248,7 +1248,7 @@ ArrayTypeIsUnsigned
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -1305,7 +1305,7 @@ d
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -1350,7 +1350,7 @@ AllocKind
 allocKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
@@ -1853,7 +1853,7 @@ viewData
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bufferByteLength
 -
@@ -1863,7 +1863,7 @@ arrayByteOffset
 arrayByteLength
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arrayByteOffset
 <
@@ -1872,7 +1872,7 @@ bufferByteLength
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2323,7 +2323,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArrayBuffer
 (
@@ -3862,7 +3862,7 @@ T
 >
 ArrayType
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsArrayBuffer
 (
@@ -3874,7 +3874,7 @@ thisv
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4356,7 +4356,7 @@ JSObject
 protoArg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 byteOffset
 <
@@ -4364,7 +4364,7 @@ byteOffset
 INT32_MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 byteLength
 <
@@ -4496,7 +4496,7 @@ TypedArrayObject
 SINGLETON_TYPE_BYTE_LENGTH
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -4617,7 +4617,7 @@ arrayBuffer
 byteOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 byteOffset
 +
@@ -4632,7 +4632,7 @@ byteLength
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dvobj
 .
@@ -4892,7 +4892,7 @@ byteOffset
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 byteOffset
 <
@@ -4900,7 +4900,7 @@ byteOffset
 INT32_MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 byteLength
 <
@@ -5635,7 +5635,7 @@ bool
 wantSwap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 reinterpret_cast
@@ -5729,7 +5729,7 @@ bool
 wantSwap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 reinterpret_cast
@@ -6267,7 +6267,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -6392,7 +6392,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -6517,7 +6517,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -6642,7 +6642,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -6767,7 +6767,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -6892,7 +6892,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7017,7 +7017,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7145,7 +7145,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7273,7 +7273,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7395,7 +7395,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7517,7 +7517,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7639,7 +7639,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7761,7 +7761,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -7883,7 +7883,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -8005,7 +8005,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -8127,7 +8127,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 (
@@ -11529,7 +11529,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -11606,7 +11606,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -11683,7 +11683,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -11760,7 +11760,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -11837,7 +11837,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -11914,7 +11914,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -11991,7 +11991,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -12068,7 +12068,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t
@@ -12145,7 +12145,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 int32_t

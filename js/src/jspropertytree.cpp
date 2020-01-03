@@ -246,7 +246,7 @@ Shape
 child
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parent
@@ -257,7 +257,7 @@ inDictionary
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 child
@@ -266,7 +266,7 @@ child
 parent
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 child
@@ -277,7 +277,7 @@ inDictionary
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 child
 -
@@ -295,7 +295,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -367,7 +367,7 @@ toShape
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 !
@@ -375,7 +375,7 @@ shape
 child
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -485,7 +485,7 @@ Shape
 child
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 child
@@ -496,7 +496,7 @@ inDictionary
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 child
 -
@@ -524,7 +524,7 @@ isShape
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kidp
 -
@@ -565,7 +565,7 @@ toHash
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hash
 -
@@ -632,7 +632,7 @@ front
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 r
@@ -688,7 +688,7 @@ cx
 parentArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
@@ -840,7 +840,7 @@ barrier
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmp
 =
@@ -881,7 +881,7 @@ arenaHeader
 allocatedDuringIncremental
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 -
@@ -1026,7 +1026,7 @@ shape
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
@@ -1155,7 +1155,7 @@ arenaHeader
 >
 zone
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -1166,7 +1166,7 @@ needsIncrementalBarrier
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1348,7 +1348,7 @@ Shape
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -1380,7 +1380,7 @@ getAllocKind
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -1540,7 +1540,7 @@ toShape
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 kids
 .
@@ -1756,7 +1756,7 @@ isShape
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 toShape
 (
@@ -1769,7 +1769,7 @@ aKid
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isHash
 (
@@ -1801,7 +1801,7 @@ aKid
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 ptr
@@ -1846,7 +1846,7 @@ propid
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_VOID
@@ -1925,7 +1925,7 @@ fp
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_SYMBOL
 (
@@ -2199,7 +2199,7 @@ if
 parent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 level
 =
@@ -2207,7 +2207,7 @@ level
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_EMPTY
 (
@@ -2290,7 +2290,7 @@ toShape
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kid
 -
@@ -2364,7 +2364,7 @@ front
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kid
 -

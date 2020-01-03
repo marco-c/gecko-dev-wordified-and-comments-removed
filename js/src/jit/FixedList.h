@@ -174,7 +174,7 @@ size_t
 num
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 num
 <
@@ -317,7 +317,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -343,7 +343,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <

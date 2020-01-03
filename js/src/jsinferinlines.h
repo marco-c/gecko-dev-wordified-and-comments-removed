@@ -130,7 +130,7 @@ ion
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isValid
 (
@@ -157,7 +157,7 @@ mode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ion
 !
@@ -309,7 +309,7 @@ asTypeObjectNoBarrier
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isTypeObject
 (
@@ -334,7 +334,7 @@ asSingleObjectNoBarrier
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isSingleObject
 (
@@ -806,7 +806,7 @@ jsid
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JSID_IS_EMPTY
@@ -1645,7 +1645,7 @@ return
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2503,7 +2503,7 @@ unsigned
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -2573,7 +2573,7 @@ TYPESET
 typeArray
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -2739,7 +2739,7 @@ bottom
 2
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 bytecodeMap
 [
@@ -2784,7 +2784,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -3033,7 +3033,7 @@ JSProtoKey
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 UseNewTypeForInitializer
@@ -3211,7 +3211,7 @@ getClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 !
@@ -3219,7 +3219,7 @@ key
 JSProto_Null
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -3240,7 +3240,7 @@ kind
 SingletonObject
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3771,7 +3771,7 @@ unsigned
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 >
@@ -3779,7 +3779,7 @@ count
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 <
@@ -4060,7 +4060,7 @@ newCapacity
 capacity
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 converting
@@ -4286,7 +4286,7 @@ count
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 values
 =
@@ -4701,7 +4701,7 @@ objectKey
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isObject
 (
@@ -4932,7 +4932,7 @@ uint32_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 <
@@ -5014,7 +5014,7 @@ next
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 constraintList
@@ -5139,7 +5139,7 @@ getObjectCount
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unknownObject
@@ -5183,7 +5183,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -5202,7 +5202,7 @@ baseObjectCount
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -5585,7 +5585,7 @@ uint32_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 <
@@ -5627,7 +5627,7 @@ jsid
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -5640,7 +5640,7 @@ compartment
 activeAnalysis
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_VOID
 (
@@ -5682,7 +5682,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unknownProperties
@@ -5783,7 +5783,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -5845,7 +5845,7 @@ jsid
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_VOID
 (
@@ -5887,7 +5887,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unknownProperties
@@ -5969,7 +5969,7 @@ unsigned
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -5988,7 +5988,7 @@ basePropertyCount
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =

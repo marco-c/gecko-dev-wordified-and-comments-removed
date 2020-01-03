@@ -307,7 +307,7 @@ uint32_t
 stackSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -315,7 +315,7 @@ type
 PR_USER_THREAD
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 priority
 =
@@ -685,7 +685,7 @@ PRThreadPrivateDTOR
 destructor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -711,7 +711,7 @@ destructor
 return
 PR_FAILURE
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 gTLSKeyCount
 +

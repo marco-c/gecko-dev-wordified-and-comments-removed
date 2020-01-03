@@ -52,7 +52,7 @@ MInstruction
 mir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -99,7 +99,7 @@ if
 BOX_PIECES
 >
 1
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -171,7 +171,7 @@ LDefinition
 def
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lir
@@ -454,7 +454,7 @@ uint32_t
 operand
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -551,7 +551,7 @@ Policy
 policy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lir
@@ -705,7 +705,7 @@ setMir
 mir
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lir
 -
@@ -958,7 +958,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -1145,7 +1145,7 @@ MDefinition
 as
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCompatibleLIRCoercion
 (
@@ -1444,7 +1444,7 @@ this
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -2329,7 +2329,7 @@ uint32_t
 reusedInput
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 -
@@ -2421,7 +2421,7 @@ MInstruction
 mir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -2445,7 +2445,7 @@ if
 mir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 =
@@ -2610,7 +2610,7 @@ Policy
 policy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -2654,7 +2654,7 @@ Policy
 policy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -2694,7 +2694,7 @@ Policy
 policy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -

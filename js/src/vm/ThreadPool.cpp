@@ -672,7 +672,7 @@ IsNuwaProcess
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 NuwaMarkCurrentThread
 !

@@ -4800,7 +4800,7 @@ str
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 props
 .

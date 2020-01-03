@@ -868,7 +868,7 @@ JSTracer
 trc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tag_
 =
@@ -2041,7 +2041,7 @@ trc
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 tag_
 >
@@ -2877,7 +2877,7 @@ activation
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 act
 -
@@ -2914,7 +2914,7 @@ TraceRootsOrUsedSaved
 rootsSource
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -2928,7 +2928,7 @@ GCMarker
 GrayCallback
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 traceOrMark
 =
@@ -2942,7 +2942,7 @@ traceOrMark
 MarkRuntime
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rootsSource
 =
@@ -2956,7 +2956,7 @@ rootsSource
 UseSavedRoots
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -3548,7 +3548,7 @@ profilingScripts
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 =

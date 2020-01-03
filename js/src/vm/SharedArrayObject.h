@@ -101,7 +101,7 @@ length
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer
 =

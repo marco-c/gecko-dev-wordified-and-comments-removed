@@ -103,7 +103,7 @@ fp_
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 indentLevel_
 >
@@ -2469,7 +2469,7 @@ endFunction
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inFunction_
 )

@@ -63,7 +63,7 @@ EntryIndex
 pentry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 proto
@@ -192,7 +192,7 @@ InitialHeap
 heap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -208,7 +208,7 @@ hasObjectMetadataCallback
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 unsigned
 (
@@ -332,7 +332,7 @@ kind
 heap
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -342,7 +342,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 allowGC
 =

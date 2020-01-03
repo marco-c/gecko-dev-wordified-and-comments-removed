@@ -631,7 +631,7 @@ asGlobalSharedContext
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGlobalSharedContext
 (
@@ -843,7 +843,7 @@ GeneratorKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isGenerator
@@ -972,7 +972,7 @@ setDefinitelyNeedsArgsObj
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 funCxFlags
 .
@@ -1106,7 +1106,7 @@ asFunctionBox
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionBox
 (
@@ -1288,12 +1288,12 @@ staticBlock
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNestedScope
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isBlockScope
 )
@@ -1592,7 +1592,7 @@ stmt
 isNestedScope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -

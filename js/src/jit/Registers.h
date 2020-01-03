@@ -166,7 +166,7 @@ uint32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -234,7 +234,7 @@ code
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uint32_t
@@ -375,7 +375,7 @@ ret
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aliasIdx
 =

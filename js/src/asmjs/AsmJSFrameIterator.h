@@ -279,7 +279,7 @@ Reason
 reason
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ExtractReasonKind
 (
@@ -408,7 +408,7 @@ stackAddress
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done

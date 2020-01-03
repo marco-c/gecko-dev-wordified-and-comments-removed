@@ -874,7 +874,7 @@ int
 reg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 >
@@ -882,7 +882,7 @@ reg
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 <

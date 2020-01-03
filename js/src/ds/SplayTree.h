@@ -321,7 +321,7 @@ last
 item
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cmp
 )
@@ -347,7 +347,7 @@ last
 >
 right
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parentPointer
@@ -397,7 +397,7 @@ lookup
 v
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 last
 &
@@ -423,7 +423,7 @@ splay
 last
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 last
 =
@@ -630,7 +630,7 @@ T
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 root
 )
@@ -788,7 +788,7 @@ Node
 node
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 node
 )
@@ -823,7 +823,7 @@ rotate
 node
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 node
 =
@@ -958,7 +958,7 @@ parent
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 -
@@ -1151,7 +1151,7 @@ if
 node
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 root
@@ -1203,7 +1203,7 @@ node
 left
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 node
 -
@@ -1230,7 +1230,7 @@ left
 minimum
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 C
 :
@@ -1259,7 +1259,7 @@ node
 right
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 node
 -

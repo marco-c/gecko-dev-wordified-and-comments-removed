@@ -92,7 +92,7 @@ asmJSIter
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -130,7 +130,7 @@ asmJSIter
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done

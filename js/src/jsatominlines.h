@@ -66,7 +66,7 @@ asPtr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bits
 !
@@ -906,7 +906,7 @@ JSAtomState
 names
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 <
@@ -970,7 +970,7 @@ JSAtomState
 atomState
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 <

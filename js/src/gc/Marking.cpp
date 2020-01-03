@@ -620,7 +620,7 @@ JSTracer
 trc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IS_GC_MARKING_TRACER
 (
@@ -822,12 +822,12 @@ thingp
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingp
 )
@@ -839,7 +839,7 @@ thing
 *
 thingp
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 thingp
@@ -924,7 +924,7 @@ thing
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 -
@@ -934,7 +934,7 @@ zone
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 -
@@ -957,7 +957,7 @@ runtime
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -989,7 +989,7 @@ IS_GC_MARKING_TRACER
 trc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -1013,7 +1013,7 @@ requireGCTracer
 isGcMarkingTracer
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 -
@@ -1023,7 +1023,7 @@ isAligned
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 MapTypeToTraceKind
 <
@@ -1132,7 +1132,7 @@ zone
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1319,7 +1319,7 @@ callback
 #
 ifdef
 JSGC_FJGENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ForkJoinContext
@@ -1330,7 +1330,7 @@ current
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 trc
@@ -1598,7 +1598,7 @@ setTracingName
 name
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 atom
 -
@@ -1651,7 +1651,7 @@ thing
 JSTRACE_STRING
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 =
@@ -2018,12 +2018,12 @@ T
 thingp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 thingp
@@ -2238,12 +2238,12 @@ T
 thingp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 thingp
@@ -2535,7 +2535,7 @@ T
 thingp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingp
 )
@@ -3350,12 +3350,12 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 thingp
@@ -3617,7 +3617,7 @@ setTracingName
 name
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingp
 )
@@ -4087,7 +4087,7 @@ isMarkable
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -4182,7 +4182,7 @@ thing
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -4560,7 +4560,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -4667,7 +4667,7 @@ obj
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -4729,7 +4729,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -4836,7 +4836,7 @@ obj
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -5021,7 +5021,7 @@ uint32_t
 nslots
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5118,7 +5118,7 @@ getMarkColor
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 color
 =
@@ -5140,7 +5140,7 @@ cell
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 color
 =
@@ -5196,7 +5196,7 @@ GRAY
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -5492,7 +5492,7 @@ rt
 thing
 )
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 thing
@@ -5516,7 +5516,7 @@ rt
 thing
 )
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 thing
@@ -5588,7 +5588,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -5732,7 +5732,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -5796,7 +5796,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -5852,7 +5852,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -5906,7 +5906,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -5972,7 +5972,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -6029,7 +6029,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -6098,7 +6098,7 @@ runtime
 thing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -6393,7 +6393,7 @@ baseUnowned
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 -
@@ -6450,7 +6450,7 @@ runtime
 str
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -6460,7 +6460,7 @@ isMarked
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -6492,7 +6492,7 @@ base
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -6617,7 +6617,7 @@ runtime
 rope
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rope
 -
@@ -6819,7 +6819,7 @@ position
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 savedPos
 <
@@ -6858,7 +6858,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 savedPos
 =
@@ -7047,7 +7047,7 @@ runtime
 sym
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -7290,7 +7290,7 @@ JSObject
 prevParent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 )
@@ -7333,7 +7333,7 @@ getter
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmp
 =
@@ -7378,7 +7378,7 @@ setter
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmp
 =
@@ -7425,7 +7425,7 @@ parent
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 =
@@ -8249,7 +8249,7 @@ arr
 >
 obj
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -8288,7 +8288,7 @@ getDenseInitializedLength
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 arr
 -
@@ -8394,7 +8394,7 @@ vp
 nfixed
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 arr
 -
@@ -8431,7 +8431,7 @@ vp
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 arr
 -
@@ -8653,7 +8653,7 @@ vp
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -8768,7 +8768,7 @@ vp
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 vpp
@@ -8828,7 +8828,7 @@ tag
 SavedValueArrayTag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -8979,7 +8979,7 @@ ValueArrayTag
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -9018,7 +9018,7 @@ pop
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 addr2
 <
@@ -9026,7 +9026,7 @@ addr2
 addr3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 addr3
@@ -9110,7 +9110,7 @@ return
 ;
 scan_value_array
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 <
@@ -9174,7 +9174,7 @@ runtime
 str
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 runtime
 (
@@ -9254,7 +9254,7 @@ runtime
 obj2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -9749,7 +9749,7 @@ scan_value_array
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 <
@@ -9807,7 +9807,7 @@ flag
 comparmentCheckFlag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 flag
@@ -10429,7 +10429,7 @@ thing
 kind
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 childTracer
@@ -10458,7 +10458,7 @@ tracer
 tracingShape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 tracer
@@ -10479,7 +10479,7 @@ return
 }
 do
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS

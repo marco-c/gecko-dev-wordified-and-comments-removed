@@ -505,7 +505,7 @@ takeFloat
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 registerCount
 <
@@ -897,7 +897,7 @@ uint32_t
 vreg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 )
@@ -911,7 +911,7 @@ virtualRegisters
 vreg
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 )
@@ -1432,7 +1432,7 @@ getBlock
 blockIndex
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -2208,7 +2208,7 @@ virtualRegister
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 use
 -

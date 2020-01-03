@@ -517,7 +517,7 @@ isCycleEnd
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inCycle_
 )
@@ -548,7 +548,7 @@ isCycleBegin
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inCycle_
@@ -816,7 +816,7 @@ disp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 .
@@ -898,7 +898,7 @@ reg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 .
@@ -966,7 +966,7 @@ disp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 .
@@ -1024,7 +1024,7 @@ reg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 .
@@ -1410,7 +1410,7 @@ MoveOp
 :
 INT32X4
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 !
@@ -1419,7 +1419,7 @@ pushedAtCycle_
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 -
@@ -1485,7 +1485,7 @@ MoveOp
 :
 FLOAT32X4
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 !
@@ -1494,7 +1494,7 @@ pushedAtCycle_
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 -
@@ -1560,7 +1560,7 @@ MoveOp
 :
 FLOAT32
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 !
@@ -1569,7 +1569,7 @@ pushedAtCycle_
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 -
@@ -1638,7 +1638,7 @@ MoveOp
 :
 DOUBLE
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 !
@@ -1647,7 +1647,7 @@ pushedAtCycle_
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 -
@@ -1719,7 +1719,7 @@ INT32
 #
 ifdef
 JS_CODEGEN_X64
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 !
@@ -1728,7 +1728,7 @@ pushedAtCycle_
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedAtCycle_
 -
@@ -1799,7 +1799,7 @@ MoveOp
 :
 GENERAL
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -1892,7 +1892,7 @@ isGeneralReg
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -1919,7 +1919,7 @@ reg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -2030,7 +2030,7 @@ isGeneralReg
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -2141,7 +2141,7 @@ endif
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -2314,7 +2314,7 @@ floatReg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -2441,7 +2441,7 @@ floatReg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -2568,7 +2568,7 @@ floatReg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -2695,7 +2695,7 @@ floatReg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 .
@@ -2736,7 +2736,7 @@ assertDone
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inCycle_

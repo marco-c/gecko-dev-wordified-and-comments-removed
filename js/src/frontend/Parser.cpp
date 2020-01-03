@@ -322,7 +322,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -602,7 +602,7 @@ Kind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -655,7 +655,7 @@ name
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 decls_
@@ -745,7 +745,7 @@ pn_blockid
 start
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pnu
 -
@@ -756,7 +756,7 @@ pn_blockid
 bodyid
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pnu
 -
@@ -950,7 +950,7 @@ Definition
 :
 ARG
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 sc
 -
@@ -1242,7 +1242,7 @@ PND_LET
 PND_BOUND
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -1372,7 +1372,7 @@ Kind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 decls_
@@ -1485,7 +1485,7 @@ DefinitionNode
 prevDecl
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 decls_
 .
@@ -1575,7 +1575,7 @@ isFunctionBox
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newDecl
 -
@@ -1588,7 +1588,7 @@ isFreeVar
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 oldDecl
 -
@@ -1598,7 +1598,7 @@ isBound
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 oldDecl
@@ -1650,7 +1650,7 @@ setOp
 JSOP_GETARG
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args_
 [
@@ -1685,7 +1685,7 @@ newDecl
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsLocalOp
 (
@@ -1706,7 +1706,7 @@ setOp
 JSOP_GETLOCAL
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 vars_
 [
@@ -1759,7 +1759,7 @@ JSAtom
 atom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ParseHandler
 :
@@ -2045,7 +2045,7 @@ bindings
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sc
 -
@@ -2055,7 +2055,7 @@ isFunctionBox
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args_
 .
@@ -2066,7 +2066,7 @@ length
 ARGNO_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 vars_
 .
@@ -2878,7 +2878,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 &
@@ -3034,7 +3034,7 @@ funCxFlags
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -3210,7 +3210,7 @@ GeneratorKind
 generatorKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 &
@@ -4167,7 +4167,7 @@ null
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fn
 -
@@ -5019,7 +5019,7 @@ FunctionBodyType
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -5032,7 +5032,7 @@ isFunctionBox
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pc
@@ -5091,7 +5091,7 @@ null
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -5099,7 +5099,7 @@ type
 ExpressionBody
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_HAS_EXPR_CLOSURES
 )
@@ -5160,7 +5160,7 @@ generatorKind
 case
 NotGenerator
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -5176,7 +5176,7 @@ break
 case
 LegacyGenerator
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -5240,7 +5240,7 @@ break
 case
 StarGenerator
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 !
@@ -5248,7 +5248,7 @@ kind
 Arrow
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -5341,7 +5341,7 @@ pnu
 pn_link
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pnu
 -
@@ -5351,7 +5351,7 @@ isUsed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pnu
@@ -5420,7 +5420,7 @@ getKind
 PNK_FUNCTION
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -5535,7 +5535,7 @@ lhs
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -5546,7 +5546,7 @@ PNK_NAME
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -5557,7 +5557,7 @@ PN_NAME
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -6281,7 +6281,7 @@ pn_dflags
 =
 PND_BOUND
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -6371,7 +6371,7 @@ fn
 >
 pn_funbox
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 funbox
 =
@@ -6464,7 +6464,7 @@ FullParseHandler
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -6978,7 +6978,7 @@ duplicatedArg
 =
 pn
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 handler
 .
@@ -7098,7 +7098,7 @@ parser
 >
 pc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -7746,7 +7746,7 @@ TOK_ASSIGN
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parenFreeArrow
@@ -8014,7 +8014,7 @@ funName
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dn
@@ -8025,7 +8025,7 @@ isUsed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -8241,7 +8241,7 @@ funName
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fn
 -
@@ -8365,7 +8365,7 @@ if
 bodyLevel
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -8422,7 +8422,7 @@ isFree
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pc
@@ -8434,7 +8434,7 @@ sc
 strict
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -8636,7 +8636,7 @@ nextLazyInnerFunction
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fun
@@ -10050,7 +10050,7 @@ pn_xflags
 PNX_DESTRUCT
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10061,7 +10061,7 @@ pn_funbox
 funbox
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -10287,7 +10287,7 @@ key
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 =
@@ -10952,7 +10952,7 @@ kind
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -11196,7 +11196,7 @@ Statement
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 directives
 =
@@ -11847,7 +11847,7 @@ functionStmt
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -12052,7 +12052,7 @@ functionExpr
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -13863,7 +13863,7 @@ topStmt
 staticScope
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 !
@@ -13927,7 +13927,7 @@ StaticBlockObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 blockObj
@@ -14763,7 +14763,7 @@ unsigned
 msg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -14774,7 +14774,7 @@ PNK_CALL
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -14785,7 +14785,7 @@ PN_LIST
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15094,7 +15094,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -15833,7 +15833,7 @@ TokenKind
 tt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -15918,7 +15918,7 @@ StmtInfoPC
 stmt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 blockObj
 )
@@ -16214,7 +16214,7 @@ StmtInfoPC
 stmt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 blockObj
 )
@@ -16331,7 +16331,7 @@ LetContext
 letContext
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -16557,7 +16557,7 @@ JSMSG_CURLY_AFTER_LET
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 letContext
 =
@@ -16708,7 +16708,7 @@ blockStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -16842,7 +16842,7 @@ ParseHandler
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 handler
 .
@@ -16962,7 +16962,7 @@ VarContext
 varContext
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -17658,7 +17658,7 @@ stmt
 isBlockScope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -17768,7 +17768,7 @@ PNX_POPVAR
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stmt
@@ -17777,7 +17777,7 @@ stmt
 isBlockScope
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 !
@@ -17788,7 +17788,7 @@ pc
 topScopeStmt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stmt
 -
@@ -17826,7 +17826,7 @@ type
 STMT_FINALLY
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stmt
@@ -17942,7 +17942,7 @@ pc
 >
 blockNode
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 tmp
@@ -18252,7 +18252,7 @@ importDeclaration
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -18895,7 +18895,7 @@ exportDeclaration
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -20280,7 +20280,7 @@ forStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -20577,7 +20577,7 @@ PN_LIST
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 !
@@ -20883,7 +20883,7 @@ pn2
 >
 pn_left
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -20917,7 +20917,7 @@ PNK_NAME
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 blockObj
@@ -21517,7 +21517,7 @@ forStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -21979,7 +21979,7 @@ switchStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -22463,7 +22463,7 @@ continueStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -22721,7 +22721,7 @@ breakStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -22940,7 +22940,7 @@ returnStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -23162,7 +23162,7 @@ yieldExpression
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -23195,7 +23195,7 @@ case
 StarGenerator
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -23324,7 +23324,7 @@ exprNode
 case
 NotGenerator
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -23336,7 +23336,7 @@ versionNumber
 JSVERSION_1_7
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -23444,7 +23444,7 @@ case
 LegacyGenerator
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -23598,7 +23598,7 @@ null
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -24105,7 +24105,7 @@ throwStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -24277,7 +24277,7 @@ tryStatement
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -24489,7 +24489,7 @@ StaticBlockObject
 JSMSG_TOO_MANY_CATCH_VARS
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 .
@@ -25606,7 +25606,7 @@ ParseNodeKind
 pnk
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pnk
 >
@@ -25614,7 +25614,7 @@ pnk
 PNK_BINOP_FIRST
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pnk
 <
@@ -25664,7 +25664,7 @@ TokenKind
 tok
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 TokenKindIsBinaryOp
 (
@@ -25743,7 +25743,7 @@ PNK_LIMIT
 return
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pnk
 >
@@ -25751,7 +25751,7 @@ pnk
 PNK_BINOP_FIRST
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pnk
 <
@@ -25992,7 +25992,7 @@ depth
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 <
@@ -26001,7 +26001,7 @@ PRECEDENCE_CLASSES
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 =
@@ -26838,7 +26838,7 @@ NotGenerator
 }
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 tokenStream
@@ -27758,7 +27758,7 @@ level
 +
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 level
 >
@@ -27815,7 +27815,7 @@ ParseHandler
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -28201,7 +28201,7 @@ isUsed
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -28222,7 +28222,7 @@ pn
 >
 pn_lexdef
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -28332,7 +28332,7 @@ StmtInfoPC
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stmt
@@ -28364,7 +28364,7 @@ JSOP_CALLEE
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pc
@@ -28876,7 +28876,7 @@ context
 TokenKind
 tt
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -28899,7 +28899,7 @@ if
 isGenexp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 comprehensionKind
 =
@@ -28964,7 +28964,7 @@ null
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 blockid
 <
@@ -28975,7 +28975,7 @@ pn
 pn_blockid
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 blockid
 <
@@ -28985,7 +28985,7 @@ pc
 blockidGen
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -29006,7 +29006,7 @@ blockid
 =
 blockid
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 adjust
 <
@@ -29075,7 +29075,7 @@ null
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 -
@@ -29361,7 +29361,7 @@ pn_iflags
 JSITER_ENUMERATE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -29548,7 +29548,7 @@ null
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -29559,7 +29559,7 @@ JSOP_ITER
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn2
 -
@@ -29569,7 +29569,7 @@ pn_iflags
 JSITER_ENUMERATE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 headKind
 =
@@ -29933,7 +29933,7 @@ setKind
 PNK_ARRAYCOMP
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 array
 -
@@ -30134,7 +30134,7 @@ Node
 innerStmt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 comprehensionKind
 =
@@ -30148,7 +30148,7 @@ comprehensionKind
 StarGenerator
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 !
@@ -30393,7 +30393,7 @@ asFunctionBox
 >
 funCxFlags
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 genFunbox
 -
@@ -30454,7 +30454,7 @@ null
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 comprehensionKind
 =
@@ -30602,7 +30602,7 @@ ParseNode
 expr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -30828,7 +30828,7 @@ GeneratorKind
 comprehensionKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -31230,7 +31230,7 @@ GeneratorKind
 comprehensionKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -31452,7 +31452,7 @@ begin
 bodyExpr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 comprehensionKind
 =
@@ -31526,7 +31526,7 @@ GeneratorKind
 comprehensionKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -31714,7 +31714,7 @@ uint32_t
 begin
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -32242,7 +32242,7 @@ bool
 allowCallSyntax
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -33350,7 +33350,7 @@ arrayInitializer
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -33915,7 +33915,7 @@ objectLiteral
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -34502,7 +34502,7 @@ JSOP_INITPROP
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -34907,7 +34907,7 @@ isName
 propname
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 atom
 )
@@ -35226,7 +35226,7 @@ TokenKind
 tt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -35709,7 +35709,7 @@ parenExprOrGeneratorComprehension
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .
@@ -35982,7 +35982,7 @@ exprInParens
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tokenStream
 .

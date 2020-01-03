@@ -64,12 +64,12 @@ T
 ref
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ref
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isInside
 (

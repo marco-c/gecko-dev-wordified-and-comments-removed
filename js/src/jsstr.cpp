@@ -1020,7 +1020,7 @@ ch
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ni
 =
@@ -2683,7 +2683,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsString
 (
@@ -2868,7 +2868,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsString
 (
@@ -3188,7 +3188,7 @@ len
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 begin
 <
@@ -6176,7 +6176,7 @@ uint32_t
 patLen
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 <
@@ -6999,7 +6999,7 @@ char
 pat
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <
@@ -8002,7 +8002,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stack
 .
@@ -8038,7 +8038,7 @@ front
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cur
@@ -8059,7 +8059,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -11680,7 +11680,7 @@ obj_
 =
 regexp
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ObjectClassIs
 (
@@ -11995,7 +11995,7 @@ fm
 pat_
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pat
 )
@@ -12153,7 +12153,7 @@ regExpObject
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 regExpIsObject
 (
@@ -13468,7 +13468,7 @@ JSLinearString
 string
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 string
 )
@@ -13541,7 +13541,7 @@ JSObject
 func
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 func
 )
@@ -13904,7 +13904,7 @@ size_t
 skip
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 dp
@@ -14052,7 +14052,7 @@ cp
 -
 dp
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 num
 <
@@ -14432,14 +14432,14 @@ rdata
 elembase
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rdata
 .
 lambda
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rdata
@@ -14455,7 +14455,7 @@ getOps
 lookupProperty
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rdata
@@ -15168,7 +15168,7 @@ getMatches
 0
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 match
@@ -15178,7 +15178,7 @@ isUndefined
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 match
 .
@@ -15808,7 +15808,7 @@ size_t
 repLength
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 firstDollarIndex
 <
@@ -16279,7 +16279,7 @@ newReplace
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 textstr
 -
@@ -16625,7 +16625,7 @@ size_t
 rangesLen
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rangesLen
 )
@@ -17365,7 +17365,7 @@ length
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rdata
@@ -18910,7 +18910,7 @@ endIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFailure
@@ -18928,7 +18928,7 @@ length
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFailure
@@ -19160,14 +19160,14 @@ index
 continue
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 lastEndIndex
 <
 endIndex
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sepLength
 <
@@ -19175,7 +19175,7 @@ sepLength
 strLength
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastEndIndex
 +
@@ -19868,7 +19868,7 @@ res
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -22096,7 +22096,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -22465,7 +22465,7 @@ StringObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -22508,7 +22508,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -22826,7 +22826,7 @@ HandleType
 arg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 arg
@@ -24159,12 +24159,12 @@ int32_t
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str2
 )
@@ -24303,7 +24303,7 @@ length
 +
 i
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 unsigned
 (
@@ -27186,7 +27186,7 @@ utf8Length
 =
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ucs4Char
 <
@@ -27422,7 +27422,7 @@ ESCAPE_MORE
 }
 state
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 quote
 =
@@ -27750,7 +27750,7 @@ break
 case
 ESCAPE_START
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 '
 '
@@ -27844,7 +27844,7 @@ if
 buffer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <

@@ -531,7 +531,7 @@ bind
 notZero
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 .
@@ -660,7 +660,7 @@ Imm32
 failure
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 .
@@ -774,7 +774,7 @@ bind
 done
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .
@@ -786,7 +786,7 @@ payloadReg
 edx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .
@@ -867,7 +867,7 @@ break
 case
 JSOP_LSH
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .

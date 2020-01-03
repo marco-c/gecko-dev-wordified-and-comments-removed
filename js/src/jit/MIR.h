@@ -497,7 +497,7 @@ other
 consumer_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 other
@@ -567,7 +567,7 @@ producer
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 producer_
 !
@@ -599,7 +599,7 @@ consumer
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 consumer_
 !
@@ -1156,7 +1156,7 @@ uint32_t
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 &
@@ -1184,7 +1184,7 @@ uint32_t
 flags
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 flags
 &
@@ -1743,7 +1743,7 @@ range
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -1765,7 +1765,7 @@ Range
 range
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -1907,7 +1907,7 @@ id
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block_
 )
@@ -1966,7 +1966,7 @@ flag
 )
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasFlags
@@ -1999,7 +1999,7 @@ flag
 )
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 hasFlags
 (
@@ -2445,7 +2445,7 @@ virtualRegister
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLowered
 (
@@ -2492,7 +2492,7 @@ to
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 -
@@ -2529,7 +2529,7 @@ to
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 -
@@ -2820,7 +2820,7 @@ store
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isEffectful
@@ -2836,7 +2836,7 @@ isEffectful
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getAliasSet
 (
@@ -2996,7 +2996,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current_
 !
@@ -5165,7 +5165,7 @@ z
 w
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -5187,7 +5187,7 @@ SimdTypeToScalarType
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scalarType
 =
@@ -5200,7 +5200,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scalarType
 =
@@ -5213,7 +5213,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scalarType
 =
@@ -5226,7 +5226,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scalarType
 =
@@ -5363,7 +5363,7 @@ MUnaryInstruction
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -5385,7 +5385,7 @@ SimdTypeToScalarType
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scalarType
 =
@@ -5514,7 +5514,7 @@ value_
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -5943,7 +5943,7 @@ lane_
 lane
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -5956,7 +5956,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -5974,7 +5974,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsSimdType
@@ -5983,7 +5983,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SimdTypeToScalarType
 (
@@ -6872,7 +6872,7 @@ op
 Sub
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSimdType
 (
@@ -6880,7 +6880,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -6898,7 +6898,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -8093,7 +8093,7 @@ MDefinition
 operand
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -8162,7 +8162,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -8185,7 +8185,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -8243,7 +8243,7 @@ MBasicBlock
 successor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 successors_
 .
@@ -8263,7 +8263,7 @@ low_
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 successors_
@@ -8299,7 +8299,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -8325,7 +8325,7 @@ MBasicBlock
 successor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -8450,7 +8450,7 @@ MBasicBlock
 block
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 successors_
 .
@@ -8494,7 +8494,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -8535,7 +8535,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -8600,7 +8600,7 @@ operand
 MOZ_FINAL
 MOZ_OVERRIDE
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -9929,7 +9929,7 @@ initialHeap_
 initialHeap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObject
@@ -13872,7 +13872,7 @@ AliasSet
 Any
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 compareType_
 <
@@ -14180,7 +14180,7 @@ MDefinition
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -14354,7 +14354,7 @@ type
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -14596,7 +14596,7 @@ bailoutKind
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fallible
 (
@@ -14699,7 +14699,7 @@ makeInfallible
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mode
 (
@@ -19054,7 +19054,7 @@ isMax_
 isMax
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -19276,7 +19276,7 @@ implicitTruncate_
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -19498,7 +19498,7 @@ operandIsNeverZero_
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -19748,7 +19748,7 @@ MIRType
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -20251,7 +20251,7 @@ MIRType
 powerType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 powerType
 =
@@ -22417,7 +22417,7 @@ canBeNegativeDividend
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 specialization_
 =
@@ -22435,7 +22435,7 @@ canBeDivideByZero
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 specialization_
 =
@@ -22453,7 +22453,7 @@ canBePowerOfTwoDivisor
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 specialization_
 =
@@ -22578,7 +22578,7 @@ left
 right
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -22729,7 +22729,7 @@ left
 right
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 left
 -
@@ -23638,7 +23638,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -26746,7 +26746,7 @@ info_
 info
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info_
@@ -26754,7 +26754,7 @@ info_
 singletonType
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info_
@@ -27415,7 +27415,7 @@ elements
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -28433,7 +28433,7 @@ MUnaryInstruction
 object
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 object
 -
@@ -28694,7 +28694,7 @@ object
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 object
 -
@@ -28707,7 +28707,7 @@ type
 MIRType_Object
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 -
@@ -29109,7 +29109,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -29122,7 +29122,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 -
@@ -29399,7 +29399,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -29575,7 +29575,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -29588,7 +29588,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -29868,7 +29868,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -29881,7 +29881,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -29894,7 +29894,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initLength
 -
@@ -30168,7 +30168,7 @@ MIRType
 elementType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 elementType
 !
@@ -30286,7 +30286,7 @@ needsHoleCheck_
 =
 needsHoleCheck
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -30299,7 +30299,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -30506,7 +30506,7 @@ initOperand
 value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -30519,7 +30519,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -31367,7 +31367,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -31380,7 +31380,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -31393,7 +31393,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arrayType
 >
@@ -31688,7 +31688,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -31701,7 +31701,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arrayType
 >
@@ -32250,7 +32250,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -32263,7 +32263,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -32276,7 +32276,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arrayType
 >
@@ -32612,7 +32612,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -32625,7 +32625,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 -
@@ -32638,7 +32638,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -32651,7 +32651,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arrayType
 >
@@ -33165,7 +33165,7 @@ displacement_
 displacement
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 -
@@ -33178,7 +33178,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -33946,7 +33946,7 @@ MResumePoint
 resumePoint
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 priorResumePoint_
 =
@@ -34050,7 +34050,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -34078,7 +34078,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -34297,7 +34297,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inlinePropertyTable_
 =
@@ -35180,7 +35180,7 @@ MDefinition
 operand
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -35237,7 +35237,7 @@ index
 MOZ_FINAL
 MOZ_OVERRIDE
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -35262,7 +35262,7 @@ const
 MOZ_FINAL
 MOZ_OVERRIDE
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -35286,7 +35286,7 @@ const
 MOZ_FINAL
 MOZ_OVERRIDE
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -35326,7 +35326,7 @@ const
 MOZ_FINAL
 MOZ_OVERRIDE
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 u
 =
@@ -35353,7 +35353,7 @@ operand
 MOZ_FINAL
 MOZ_OVERRIDE
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 =
@@ -35381,7 +35381,7 @@ MBasicBlock
 successor
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -35470,7 +35470,7 @@ const
 MOZ_FINAL
 MOZ_OVERRIDE
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -35598,7 +35598,7 @@ MBasicBlock
 block
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasFallback
@@ -35618,7 +35618,7 @@ getFallback
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasFallback
 (
@@ -37185,7 +37185,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slots
 -
@@ -37329,7 +37329,7 @@ getAliasSet
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slots
 (
@@ -37694,7 +37694,7 @@ needsBarrier_
 barrier
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slots
 -
@@ -37833,7 +37833,7 @@ MIRType
 slotType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slotType
 !
@@ -39649,12 +39649,12 @@ info_
 jitinfo
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jitinfo
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jitinfo
 -
@@ -39689,7 +39689,7 @@ isDomMovable
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jitinfo
 -
@@ -40005,7 +40005,7 @@ AliasSet
 DOMProperty
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 aliasSet
 =
@@ -41239,7 +41239,7 @@ setMovable
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elements
 -
@@ -41252,7 +41252,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 -
@@ -41265,7 +41265,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initLength
 -
@@ -43797,7 +43797,7 @@ type_
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 )
@@ -43982,7 +43982,7 @@ templateObject_
 templateObject
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 -
@@ -45047,7 +45047,7 @@ class_
 clasp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 object
 -
@@ -45758,7 +45758,7 @@ isConstant_
 isConstant
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -46597,7 +46597,7 @@ internal
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -46618,7 +46618,7 @@ dynamic
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -46638,7 +46638,7 @@ builtin
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -46789,7 +46789,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -46833,7 +46833,7 @@ dynamicCalleeOperandIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callee_
 .
@@ -46848,7 +46848,7 @@ Callee
 Dynamic
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numArgs
 (
@@ -47149,7 +47149,7 @@ toDefinition
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDefinition
 (
@@ -47173,7 +47173,7 @@ toResumePoint
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isResumePoint
 (
@@ -47197,7 +47197,7 @@ toInstruction
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isPhi
@@ -47224,7 +47224,7 @@ toInstruction
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isPhi
@@ -47250,7 +47250,7 @@ toControlInstruction
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isControlInstruction
 (

@@ -314,7 +314,7 @@ env
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 isEnabled
 (
@@ -402,7 +402,7 @@ heapEnd
 -
 decommitStart
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 decommitStart
 =
@@ -414,7 +414,7 @@ Alignment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 decommitSize
 =
@@ -533,7 +533,7 @@ disable
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isEmpty
 (
@@ -574,7 +574,7 @@ isEmpty
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 runtime_
 )
@@ -660,7 +660,7 @@ isEnabled
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isEmpty
 (
@@ -701,7 +701,7 @@ size_t
 numDynamic
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 >
@@ -881,14 +881,14 @@ size_t
 size
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isEnabled
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 runtime
@@ -901,7 +901,7 @@ isHeapBusy
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 position
 (
@@ -992,12 +992,12 @@ uint32_t
 nslots
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 >
@@ -1110,7 +1110,7 @@ uint32_t
 nelems
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nelems
 >
@@ -1614,7 +1614,7 @@ ArrayObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1806,7 +1806,7 @@ numFixedSlots
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsBackgroundFinalized
@@ -1815,7 +1815,7 @@ kind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CanBeFinalizedInBackground
 (
@@ -1930,14 +1930,14 @@ uint32_t
 nslots
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isInside
 (
@@ -1945,7 +1945,7 @@ oldSlots
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInside
@@ -2000,7 +2000,7 @@ VALUES_PER_HEADER
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isInside
 (
@@ -2008,7 +2008,7 @@ oldHeader
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInside
@@ -2126,7 +2126,7 @@ HeapSlot
 old
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInside
@@ -2136,7 +2136,7 @@ pSlotsElems
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsWriteableAddress
 (
@@ -3052,7 +3052,7 @@ TypedArrayObject
 FIXED_DATA_START
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 src
 -
@@ -3327,7 +3327,7 @@ srcHeader
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 src
 -
@@ -3438,7 +3438,7 @@ HeapSlot
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 >

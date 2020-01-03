@@ -151,7 +151,7 @@ reg_argv
 =
 IntArgReg2
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 OsrFrameReg
 =
@@ -1167,7 +1167,7 @@ pop
 framePtr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg_code
 !
@@ -1926,7 +1926,7 @@ masm
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 =
@@ -2825,12 +2825,12 @@ VMFunction
 f
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 functionWrappers_
 -
@@ -3150,7 +3150,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 .
@@ -3554,7 +3554,7 @@ break
 case
 Type_Double
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -3620,7 +3620,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 .
@@ -3781,7 +3781,7 @@ PushRegsInMask
 regs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 PreBarrierReg
 =

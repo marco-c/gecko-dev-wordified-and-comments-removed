@@ -632,7 +632,7 @@ function
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 this
@@ -822,7 +822,7 @@ if
 inited_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 filteredOutCompilations
 !
@@ -2227,7 +2227,7 @@ JitSpewChannel
 channel
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 LoggingChecked
 )
@@ -2262,7 +2262,7 @@ JitSpewChannel
 channel
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 LoggingChecked
 )
@@ -2291,7 +2291,7 @@ JitSpewChannel
 channel
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 LoggingChecked
 )

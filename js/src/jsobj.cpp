@@ -650,7 +650,7 @@ global
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -672,7 +672,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -3159,7 +3159,7 @@ unsigned
 errorNumber
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js_ErrorFormatString
 [
@@ -3279,7 +3279,7 @@ nullptr
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js_ErrorFormatString
 [
@@ -3973,7 +3973,7 @@ obj2
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -4008,7 +4008,7 @@ shape
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -4084,7 +4084,7 @@ isDataDescriptor
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -4139,7 +4139,7 @@ attributes
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -4182,7 +4182,7 @@ v
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 =
@@ -4675,7 +4675,7 @@ break
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -4854,7 +4854,7 @@ isDataDescriptor
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shapeDataDescriptor
 )
@@ -4959,7 +4959,7 @@ shapeHasDefaultSetter
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -5300,7 +5300,7 @@ JS_StrictPropertyStub
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 desc
 .
@@ -6741,7 +6741,7 @@ cx
 obj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 =
@@ -7086,7 +7086,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -7643,7 +7643,7 @@ clasp
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -8087,7 +8087,7 @@ GlobalObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -8362,7 +8362,7 @@ clasp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -8846,7 +8846,7 @@ clasp
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -9030,12 +9030,12 @@ NewObjectKind
 newKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 allocKind
 <
@@ -9558,7 +9558,7 @@ templateObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 templateObject
 -
@@ -9895,7 +9895,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 &
@@ -10194,7 +10194,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -10817,7 +10817,7 @@ HandleObject
 to
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 from
@@ -10837,7 +10837,7 @@ isNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 -
@@ -11168,7 +11168,7 @@ getPrivate
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -11236,7 +11236,7 @@ getSingletonsAsTemplates
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -11316,7 +11316,7 @@ newKind
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -11543,7 +11543,7 @@ v
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -11561,7 +11561,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -11861,7 +11861,7 @@ mode
 XDR_ENCODE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -12006,7 +12006,7 @@ mode
 XDR_ENCODE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -12023,7 +12023,7 @@ JSObject
 class_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -12289,7 +12289,7 @@ tmpValue
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -12430,7 +12430,7 @@ hasSlot
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isArray
 )
@@ -12438,7 +12438,7 @@ isArray
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -12659,7 +12659,7 @@ atom
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 idType
 =
@@ -13214,7 +13214,7 @@ shape
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 srcObj
 -
@@ -13227,7 +13227,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 srcObj
 -
@@ -13237,7 +13237,7 @@ denseElementsAreCopyOnWrite
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 srcObj
 -
@@ -13563,7 +13563,7 @@ cx
 bArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 -
@@ -13958,7 +13958,7 @@ newafixed
 -
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 reserved
 .
@@ -13968,7 +13968,7 @@ newafixed
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reserved
 .
@@ -14136,7 +14136,7 @@ TradeGutsReserved
 reserved
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 -
@@ -14154,7 +14154,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 -
@@ -14181,7 +14181,7 @@ JSFunction
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInsideNursery
@@ -14292,7 +14292,7 @@ tenuredSizeOfThis
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 a
@@ -14318,7 +14318,7 @@ RegExpObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 a
@@ -14344,7 +14344,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 a
@@ -14419,7 +14419,7 @@ JSObject_Slots16
 value
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 <
@@ -14922,7 +14922,7 @@ HandleObject
 b
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBackgroundFinalized
 (
@@ -14956,7 +14956,7 @@ getAllocKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 -
@@ -15072,7 +15072,7 @@ key
 JSProto_Null
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -15085,7 +15085,7 @@ GlobalObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -15202,7 +15202,7 @@ JSObject
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -15278,7 +15278,7 @@ JSProtoKey
 key
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -15822,7 +15822,7 @@ cx
 protoProto_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -15830,7 +15830,7 @@ clasp
 addProperty
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -15838,7 +15838,7 @@ clasp
 delProperty
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -15846,7 +15846,7 @@ clasp
 getProperty
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -15854,7 +15854,7 @@ clasp
 setProperty
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -15862,7 +15862,7 @@ clasp
 enumerate
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -15870,7 +15870,7 @@ clasp
 resolve
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 -
@@ -15979,7 +15979,7 @@ size_t
 newSpan
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -15990,7 +15990,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 oldSpan
 !
@@ -16159,7 +16159,7 @@ HandleShape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -16170,7 +16170,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -16181,7 +16181,7 @@ inDictionaryMode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -16192,7 +16192,7 @@ inDictionary
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -16210,7 +16210,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -16308,7 +16308,7 @@ Shape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inDictionaryMode
@@ -16316,7 +16316,7 @@ inDictionaryMode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -16327,7 +16327,7 @@ inDictionary
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -16342,7 +16342,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastProperty
 (
@@ -16385,14 +16385,14 @@ numFixedSlots
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newFixed
 <
 oldFixed
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -16405,7 +16405,7 @@ slotSpan
 oldFixed
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -16418,7 +16418,7 @@ slotSpan
 newFixed
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dynamicSlotsCount
 (
@@ -16438,7 +16438,7 @@ getClass
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dynamicSlotsCount
 (
@@ -16478,7 +16478,7 @@ uint32_t
 span
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -16489,7 +16489,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -16808,7 +16808,7 @@ uint32_t
 newCount
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -16819,7 +16819,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newCount
 >
@@ -16844,7 +16844,7 @@ newCount
 SLOT_CAPACITY_MIN
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newCount
 <
@@ -17045,7 +17045,7 @@ uint32_t
 newCount
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -17056,7 +17056,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newCount
 <
@@ -17181,7 +17181,7 @@ index
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 value
@@ -17243,7 +17243,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 =
@@ -17418,14 +17418,14 @@ uint32_t
 newElementsHint
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 requiredCapacity
 >
@@ -17439,7 +17439,7 @@ getDenseCapacity
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 requiredCapacity
 >
@@ -18478,14 +18478,14 @@ uint32_t
 reqCapacity
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nonProxyIsExtensible
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 canHaveNonEmptyElements
 (
@@ -18509,7 +18509,7 @@ getDenseCapacity
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 oldCapacity
 <
@@ -18624,7 +18624,7 @@ lengthIsWritable
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reqCapacity
 <
@@ -18672,7 +18672,7 @@ ObjectElements
 :
 VALUES_PER_HEADER
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newCapacity
 >
@@ -18819,7 +18819,7 @@ uint32_t
 reqCapacity
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -18830,7 +18830,7 @@ this
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 canHaveNonEmptyElements
 (
@@ -18863,7 +18863,7 @@ getDenseCapacity
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reqCapacity
 <
@@ -18989,7 +18989,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -18999,7 +18999,7 @@ denseElementsAreCopyOnWrite
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -19807,7 +19807,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -19862,7 +19862,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -20068,14 +20068,14 @@ protoKey
 JSProto_Null
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSProto_Null
 <
 protoKey
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 protoKey
 <
@@ -20526,7 +20526,7 @@ uint32_t
 slotp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -20547,7 +20547,7 @@ slotSpan
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 >
@@ -20607,7 +20607,7 @@ SHAPE_INVALID_SLOT
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 last
 <
@@ -20745,7 +20745,7 @@ uint32_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -20971,7 +20971,7 @@ cx
 objArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -20981,7 +20981,7 @@ isNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -21162,7 +21162,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -21491,7 +21491,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -21551,7 +21551,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -22890,7 +22890,7 @@ JSObject
 ED_OK
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 setter
 =
@@ -23043,7 +23043,7 @@ unsigned
 attrs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -23724,7 +23724,7 @@ isNative
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj2
 !
@@ -24980,7 +24980,7 @@ nogc
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -25802,7 +25802,7 @@ MutableHandleType
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pobj
 -
@@ -26200,7 +26200,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cxArg
 -
@@ -26211,7 +26211,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -27475,7 +27475,7 @@ Value
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pobj
 -
@@ -27511,7 +27511,7 @@ slot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 vp
@@ -28482,7 +28482,7 @@ bool
 strict
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cxArg
 -
@@ -28831,7 +28831,7 @@ nullptr
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -28998,7 +28998,7 @@ strict
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -30996,7 +30996,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hint
 =
@@ -31528,7 +31528,7 @@ flags
 JSCLASS_NEW_ENUMERATE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enumerate
 !
@@ -31564,7 +31564,7 @@ obj
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 enum_op
 =
@@ -31742,7 +31742,7 @@ JSProtoKey
 protoKey
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSProto_Null
 <
@@ -31750,7 +31750,7 @@ JSProto_Null
 protoKey
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 protoKey
 <
@@ -32096,7 +32096,7 @@ toBoolean
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -32136,7 +32136,7 @@ bool
 reportScanStack
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 val
@@ -32146,7 +32146,7 @@ isMagic
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 val
@@ -32233,7 +32233,7 @@ size_t
 bufsize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -

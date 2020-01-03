@@ -366,7 +366,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -1047,7 +1047,7 @@ principals
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 compartment
 -
@@ -1266,7 +1266,7 @@ JSFunctionSpecWithHelp
 fs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -1797,7 +1797,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -1814,7 +1814,7 @@ ProxyObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -1914,7 +1914,7 @@ JSObject
 objB
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 objA
 -
@@ -2189,7 +2189,7 @@ cx
 objArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -2308,7 +2308,7 @@ cx
 parentArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -2436,7 +2436,7 @@ cx
 parentArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_STRING
 (
@@ -2444,7 +2444,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -2535,7 +2535,7 @@ size_t
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -2589,7 +2589,7 @@ Value
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -3135,7 +3135,7 @@ void
 thing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 )
@@ -3709,7 +3709,7 @@ bool
 showThisProps
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -4753,7 +4753,7 @@ clearPendingException
 }
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -6063,7 +6063,7 @@ if
 restartVerifier
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gc
 -
@@ -6197,7 +6197,7 @@ obj
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -6329,7 +6329,7 @@ zone
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -6657,7 +6657,7 @@ comp
 zone
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 comp
@@ -7019,7 +7019,7 @@ defaultJSContextCallback
 rt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -7028,7 +7028,7 @@ return
 cx
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -7307,7 +7307,7 @@ HandleValue
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -7317,7 +7317,7 @@ isNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <

@@ -149,7 +149,7 @@ CharT
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 s
 <
@@ -1448,7 +1448,7 @@ str
 quote
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 !
@@ -1501,7 +1501,7 @@ length
 quote
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 !

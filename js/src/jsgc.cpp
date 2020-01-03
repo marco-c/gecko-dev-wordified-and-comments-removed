@@ -1124,7 +1124,7 @@ JSObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -1157,7 +1157,7 @@ checkSynchronizedWithFreeList
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocated
 (
@@ -1257,7 +1257,7 @@ arenaAddress
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 freeList
 -
@@ -1426,7 +1426,7 @@ size_t
 thingSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 %
@@ -1436,7 +1436,7 @@ CellSize
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 <
@@ -1444,7 +1444,7 @@ thingSize
 255
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 .
@@ -1453,7 +1453,7 @@ allocated
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingKind
 =
@@ -1465,7 +1465,7 @@ getAllocKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thingSize
 =
@@ -1477,7 +1477,7 @@ getThingSize
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -1485,7 +1485,7 @@ aheader
 hasDelayedMarking
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -1493,7 +1493,7 @@ aheader
 markOverflow
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -1672,7 +1672,7 @@ nmarked
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newListTail
 =
@@ -1695,7 +1695,7 @@ return
 nmarked
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 firstThingOrSuccessorOfLastMarkedThing
 !
@@ -1785,7 +1785,7 @@ length
 thingSize
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nfree
 +
@@ -2336,7 +2336,7 @@ if
 chunk
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 emptyCount
@@ -2346,7 +2346,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 emptyCount
 )
@@ -2456,7 +2456,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2489,7 +2489,7 @@ removeAndPopFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -2570,7 +2570,7 @@ front
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -2580,7 +2580,7 @@ unused
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 chunkSet
@@ -2685,7 +2685,7 @@ popFront
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 chunkPool
 .
@@ -2755,7 +2755,7 @@ chunk
 chunkListHead
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 chunk
@@ -2871,7 +2871,7 @@ Chunk
 chunk
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 )
@@ -2903,7 +2903,7 @@ ChunkInfo
 info
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numArenasFreeCommitted
 >
@@ -3134,14 +3134,14 @@ Chunk
 insertPoint
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasAvailableArenas
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -3149,7 +3149,7 @@ info
 prevp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -3175,7 +3175,7 @@ if
 insertBefore
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 insertBefore
 -
@@ -3222,7 +3222,7 @@ removeFromAvailableList
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -3245,7 +3245,7 @@ info
 next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -3377,7 +3377,7 @@ fetchNextDecommittedArena
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -3387,7 +3387,7 @@ numArenasFreeCommitted
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -3470,7 +3470,7 @@ ChunkInfo
 info
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -3498,7 +3498,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -3507,7 +3507,7 @@ numArenasFreeCommitted
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -3576,7 +3576,7 @@ AllocKind
 thingKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasAvailableArenas
 (
@@ -3808,7 +3808,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -3908,7 +3908,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 -
@@ -3918,7 +3918,7 @@ allocated
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -4026,7 +4026,7 @@ numArenasFree
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -4034,7 +4034,7 @@ info
 prevp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 info
@@ -4057,7 +4057,7 @@ unused
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 info
 .
@@ -4067,7 +4067,7 @@ prevp
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 unused
 (
@@ -4106,7 +4106,7 @@ Chunk
 chunk
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -4116,7 +4116,7 @@ unused
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 chunkSet
 .
@@ -4340,7 +4340,7 @@ chunk
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -4354,7 +4354,7 @@ numArenasFreeCommitted
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -4364,7 +4364,7 @@ unused
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 chunkSet
@@ -4405,7 +4405,7 @@ lookupForAdd
 chunk
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 p
@@ -5375,7 +5375,7 @@ isEnabled
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nursery
 .
@@ -5399,7 +5399,7 @@ generationalDisabled
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nursery
 .
@@ -5844,7 +5844,7 @@ JSGCMode
 value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mode
 =
@@ -5939,7 +5939,7 @@ highFrequencyLowLimitBytes_
 +
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 highFrequencyHighLimitBytes_
 >
@@ -5979,7 +5979,7 @@ highFrequencyHighLimitBytes_
 -
 1
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 highFrequencyHighLimitBytes_
 >
@@ -6114,7 +6114,7 @@ maxEmptyChunkCount_
 =
 minEmptyChunkCount_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 maxEmptyChunkCount_
 >
@@ -6141,7 +6141,7 @@ minEmptyChunkCount_
 =
 maxEmptyChunkCount_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 maxEmptyChunkCount_
 >
@@ -6419,7 +6419,7 @@ maxEmptyChunkCount
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 =
@@ -6445,7 +6445,7 @@ size_t
 limit
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isHeapBusy
@@ -7767,7 +7767,7 @@ lowLimit
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 factor
 >
@@ -7775,7 +7775,7 @@ factor
 minRatio
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 factor
 <
@@ -7912,14 +7912,14 @@ ArenaSize
 *
 gcHeapGrowthFactor_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 amount
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 gcTriggerBytes_
 >
@@ -8302,7 +8302,7 @@ BFS_DONE
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 bfs
@@ -8345,7 +8345,7 @@ arenaAfterCursor
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -8445,7 +8445,7 @@ thingKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 )
@@ -8504,7 +8504,7 @@ chunk
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 al
 -
@@ -8564,7 +8564,7 @@ insertAtCursor
 aheader
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -8685,7 +8685,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 InParallelSection
 (
@@ -8864,7 +8864,7 @@ enableCompactingGC
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compactingDisabled
 >
@@ -9132,7 +9132,7 @@ arena
 *
 arenap
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 arena
 )
@@ -9501,7 +9501,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 -
@@ -9511,7 +9511,7 @@ allocated
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -9520,7 +9520,7 @@ aheader
 hasDelayedMarking
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -9529,7 +9529,7 @@ aheader
 markOverflow
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -9675,7 +9675,7 @@ arena
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 arena
 -
@@ -9832,7 +9832,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -9842,7 +9842,7 @@ isGCFinished
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -9948,7 +9948,7 @@ isGCCompacting
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsForwarded
@@ -9960,7 +9960,7 @@ thing
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessZone
 (
@@ -10090,7 +10090,7 @@ false
 oom
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 oom
@@ -10344,7 +10344,7 @@ updatePointersToRelocatedCells
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -10803,7 +10803,7 @@ getCell
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsForwarded
 (
@@ -10820,7 +10820,7 @@ Forwarded
 src
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 src
 -
@@ -10840,7 +10840,7 @@ BLACK
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 src
 -
@@ -11044,7 +11044,7 @@ AllocKind
 thingKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsBackgroundFinalized
@@ -11073,7 +11073,7 @@ AllocKind
 thingKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 backgroundFinalizeState
 [
@@ -11149,7 +11149,7 @@ thingKind
 budget
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 arenas
@@ -11180,7 +11180,7 @@ AllocKind
 thingKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsBackgroundFinalized
@@ -11189,7 +11189,7 @@ thingKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 backgroundFinalizeState
 [
@@ -11200,7 +11200,7 @@ thingKind
 BFS_DONE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 arenaListsToSweep
@@ -11247,7 +11247,7 @@ AllocKind
 thingKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBackgroundFinalized
 (
@@ -11255,7 +11255,7 @@ thingKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fop
@@ -11293,7 +11293,7 @@ isEmpty
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 backgroundFinalizeState
 [
@@ -11307,7 +11307,7 @@ BFS_DONE
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 backgroundFinalizeState
 [
@@ -11370,7 +11370,7 @@ bool
 onBackgroundThread
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 listHead
 )
@@ -11430,7 +11430,7 @@ thingKind
 budget
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 listHead
@@ -11490,7 +11490,7 @@ runtime
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lists
 -
@@ -11880,7 +11880,7 @@ AllocKind
 thingKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 InParallelSection
@@ -11986,7 +11986,7 @@ AllocKind
 thingKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -12371,7 +12371,7 @@ runGC
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 allowGC
 )
@@ -12444,7 +12444,7 @@ zone
 >
 allocator
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 allocator
 .
@@ -12477,7 +12477,7 @@ runtimeFromMainThread
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -12487,7 +12487,7 @@ isHeapMajorCollecting
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -12958,7 +12958,7 @@ Zone
 zone
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -13221,7 +13221,7 @@ chunk
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -13248,7 +13248,7 @@ info
 next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 next
 -
@@ -13423,7 +13423,7 @@ aheader
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -13433,7 +13433,7 @@ hasAvailableArenas
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 chunk
@@ -13510,7 +13510,7 @@ insertPoint
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -13797,7 +13797,7 @@ assertBackgroundSweepingFinished
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sweepingZones
@@ -13842,7 +13842,7 @@ FINALIZE_LIMIT
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -13858,7 +13858,7 @@ i
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -14041,7 +14041,7 @@ gc
 lock
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state_
 =
@@ -14077,7 +14077,7 @@ state
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -14103,7 +14103,7 @@ State
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -14130,7 +14130,7 @@ State
 newState
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 thread
@@ -14206,7 +14206,7 @@ waitForBackgroundThread
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -14254,7 +14254,7 @@ work
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUseExtraThreads
 (
@@ -14267,7 +14267,7 @@ lock
 rt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 thread
@@ -14329,7 +14329,7 @@ doSweep
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 (
@@ -14387,7 +14387,7 @@ chunk
 )
 break
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 chunk
 -
@@ -14433,7 +14433,7 @@ wantBackgroundAllocation
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 (
@@ -14485,7 +14485,7 @@ bool
 shouldShrink
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUseExtraThreads
 (
@@ -14501,7 +14501,7 @@ lock
 rt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 (
@@ -14511,7 +14511,7 @@ state
 IDLE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sweepFlag
@@ -14539,7 +14539,7 @@ startBackgroundShrink
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUseExtraThreads
 (
@@ -14556,7 +14556,7 @@ state
 case
 IDLE
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sweepFlag
@@ -14969,7 +14969,7 @@ read
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -15138,7 +15138,7 @@ write
 =
 read
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 zones
 .
@@ -15150,7 +15150,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -15248,7 +15248,7 @@ false
 lastGC
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -15770,7 +15770,7 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingCompartment
 =
@@ -16003,7 +16003,7 @@ kind
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thing
 -
@@ -16254,7 +16254,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -16265,7 +16265,7 @@ isCollecting
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -16293,7 +16293,7 @@ FINALIZE_LIMIT
 +
 i
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -16510,7 +16510,7 @@ isGCScheduled
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 atomsZone
@@ -16590,7 +16590,7 @@ start
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 marker
@@ -16598,7 +16598,7 @@ marker
 callback
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IS_GC_MARKING_TRACER
 (
@@ -17047,7 +17047,7 @@ Phase
 phase
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 marker
 .
@@ -17156,7 +17156,7 @@ budget
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 marker
 .
@@ -17258,7 +17258,7 @@ zone
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isIncremental
@@ -17784,7 +17784,7 @@ incrementalState
 =
 MARK_ROOTS
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 gcmarker
 -
@@ -18006,7 +18006,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -18081,7 +18081,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -18103,7 +18103,7 @@ Mark
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 gc
 -
@@ -18556,7 +18556,7 @@ computeNonIncrementalMarkingForValidation
 #
 ifdef
 JS_GC_MARKING_VALIDATION
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 markingValidator
@@ -18690,7 +18690,7 @@ needsIncrementalBarrier
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -18855,7 +18855,7 @@ key
 .
 kind
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 !
@@ -18953,7 +18953,7 @@ w
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -19298,7 +19298,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -19371,7 +19371,7 @@ nextNodeInGroup
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -19458,7 +19458,7 @@ nextNodeInGroup
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -19489,7 +19489,7 @@ if
 abortSweepAfterCurrentGroup
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isIncremental
@@ -19517,7 +19517,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -19526,7 +19526,7 @@ zone
 gcNextGraphComponent
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -19627,7 +19627,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -19662,7 +19662,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsGrayListObject
 (
@@ -19729,7 +19729,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsGrayListObject
 (
@@ -19836,7 +19836,7 @@ JSObject
 src
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsGrayListObject
 (
@@ -19915,7 +19915,7 @@ src
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 src
 -
@@ -19973,7 +19973,7 @@ false
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 )
@@ -19993,7 +19993,7 @@ uint32_t
 color
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 color
 =
@@ -20160,7 +20160,7 @@ CrossCompartmentPointerReferent
 src
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dst
 -
@@ -20706,7 +20706,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -20778,7 +20778,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -20851,7 +20851,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -21889,7 +21889,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -21948,7 +21948,7 @@ bool
 lastGC
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 abortSweepAfterCurrentGroup
@@ -22025,7 +22025,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 c
@@ -22926,7 +22926,7 @@ grayBitsValid
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sweepingZones
@@ -23110,7 +23110,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 c
@@ -23202,7 +23202,7 @@ compactPhase
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -23216,7 +23216,7 @@ isEmpty
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sweepOnBackgroundThread
@@ -23327,7 +23327,7 @@ finishCollection
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 marker
 .
@@ -23411,7 +23411,7 @@ isCollecting
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -23448,7 +23448,7 @@ active
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -23459,7 +23459,7 @@ isCollecting
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -23509,7 +23509,7 @@ gc
 heapState
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -23521,7 +23521,7 @@ isAllocAllowed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -23534,7 +23534,7 @@ heapState
 Idle
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 heapState
 !
@@ -23565,7 +23565,7 @@ isEmpty
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -23619,7 +23619,7 @@ AutoTraceSession
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 runtime
 -
@@ -23796,7 +23796,7 @@ runtime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -23973,7 +23973,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -24024,7 +24024,7 @@ incrementalState
 =
 NO_INCREMENTAL
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 marker
@@ -24166,7 +24166,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -24192,7 +24192,7 @@ FINALIZE_LIMIT
 +
 i
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -24324,7 +24324,7 @@ isGCMarking
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 zone
 -
@@ -24349,7 +24349,7 @@ DontUpdateJit
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 zone
@@ -24550,7 +24550,7 @@ Reason
 reason
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -24807,7 +24807,7 @@ finished
 )
 break
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 marker
 .
@@ -24958,7 +24958,7 @@ break
 }
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 false
 )
@@ -24976,7 +24976,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -25453,7 +25453,7 @@ majorGCNumber
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -26775,7 +26775,7 @@ lock
 rt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -27053,7 +27053,7 @@ enableGenerationalGC
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generationalDisabled
 >
@@ -27486,7 +27486,7 @@ JSCompartment
 target
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 -
@@ -27498,7 +27498,7 @@ mergeable
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 -
@@ -27578,7 +27578,7 @@ JSScript
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -27640,7 +27640,7 @@ BaseShape
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 -
@@ -27759,7 +27759,7 @@ next
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 c
 .
@@ -28096,7 +28096,7 @@ bool
 enabled
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isHeapMajorCollecting
@@ -28119,7 +28119,7 @@ bool
 enabled
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isHeapMajorCollecting
@@ -28146,7 +28146,7 @@ JSObject
 object
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isHeapMajorCollecting
@@ -28188,7 +28188,7 @@ bool
 enabled
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isHeapMajorCollecting
@@ -28568,7 +28568,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 "
@@ -29001,7 +29001,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -29067,7 +29067,7 @@ JSGCTraceKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cell
 )
@@ -29079,7 +29079,7 @@ IsInsideNursery
 cell
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -29088,7 +29088,7 @@ JSTRACE_OBJECT
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 MapAllocToTraceKind
 (
@@ -29414,7 +29414,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gc

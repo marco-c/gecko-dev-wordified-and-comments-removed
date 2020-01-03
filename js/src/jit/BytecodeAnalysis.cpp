@@ -102,7 +102,7 @@ end
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 >
@@ -361,7 +361,7 @@ chkpc
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 infos_
@@ -398,7 +398,7 @@ script_
 offset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackDepth
 >
@@ -416,7 +416,7 @@ stackDepth
 =
 ndefs
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackDepth
 <
@@ -688,7 +688,7 @@ script_
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 SN_TYPE
 (
@@ -711,7 +711,7 @@ sn
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -734,7 +734,7 @@ GET_JUMP_OFFSET
 endOfTry
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 afterTry
 >
@@ -1025,7 +1025,7 @@ GetBytecodeLength
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fallthrough
 <

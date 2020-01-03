@@ -1502,7 +1502,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 srcArgs
 .
@@ -1728,7 +1728,7 @@ hasSecurityPolicy
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 thisObj
@@ -2378,7 +2378,7 @@ JSObject
 wrapper
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 wrapper
 -
@@ -2415,7 +2415,7 @@ DeadObjectProxy
 singleton
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsDeadProxyObject
 (
@@ -2662,7 +2662,7 @@ cx
 newTargetArg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 wobj
 -
@@ -2675,7 +2675,7 @@ CrossCompartmentWrapperObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 newTarget
@@ -2701,7 +2701,7 @@ wrappedObject
 wobj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 origTarget
 )
@@ -2771,7 +2771,7 @@ lookupWrapper
 origv
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 p
@@ -2866,7 +2866,7 @@ MOZ_CRASH
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 Wrapper
 :
@@ -2880,7 +2880,7 @@ wobj
 newTarget
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 wobj
 -

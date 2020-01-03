@@ -286,7 +286,7 @@ ConservativeGCData
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasStackToScan
@@ -1351,7 +1351,7 @@ assertCanLock
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 currentThreadOwnsGCLock
@@ -1370,7 +1370,7 @@ PR_Lock
 lock
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lockOwner
@@ -1393,7 +1393,7 @@ unlockGC
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lockOwner
 =
@@ -1443,7 +1443,7 @@ allowAlloc
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isAllocAllowed
@@ -1483,7 +1483,7 @@ leaveUnsafeRegion
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inUnsafeRegion
 >
@@ -1522,7 +1522,7 @@ enableStrictProxyChecking
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 disableStrictProxyCheckingCount
 >
@@ -1817,7 +1817,7 @@ incObjectsMarkedInDeadZone
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 manipulatingDeadZones
 )

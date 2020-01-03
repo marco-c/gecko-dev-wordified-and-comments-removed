@@ -74,7 +74,7 @@ while
 true
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shift
 <
@@ -161,7 +161,7 @@ readByte
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer_
 <
@@ -268,7 +268,7 @@ readNativeEndianUint32_t
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -392,7 +392,7 @@ more
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer_
 <
@@ -488,7 +488,7 @@ uint32_t
 byte
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 byte
 <
@@ -715,7 +715,7 @@ uint32_t
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 (

@@ -833,7 +833,7 @@ GetPointer
 ionScriptDataOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ionScript
 -
@@ -887,14 +887,14 @@ callee
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isScripted
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -1000,7 +1000,7 @@ script
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isScripted
 (
@@ -1034,7 +1034,7 @@ calleeToken
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 )
@@ -1105,7 +1105,7 @@ pcRes
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBaselineJS
 (
@@ -1418,7 +1418,7 @@ isFakeExitFrame
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 SizeOfFramePrefix
 (
@@ -1469,7 +1469,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type_
 !
@@ -2122,7 +2122,7 @@ case
 JSTRY_ITER
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -2151,7 +2151,7 @@ length
 JSOP_ENDITER
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tn
 -
@@ -2421,7 +2421,7 @@ bool
 calledDebugEpilogue
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -2430,7 +2430,7 @@ isBaselineJS
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -2540,7 +2540,7 @@ status
 case
 JSTRAP_ERROR
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -2559,7 +2559,7 @@ JSTRAP_CONTINUE
 case
 JSTRAP_THROW
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2708,7 +2708,7 @@ length
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -3339,7 +3339,7 @@ defaultFreeOp
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 rfe
 -
@@ -3675,7 +3675,7 @@ false
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -4031,7 +4031,7 @@ JitFrame_Unwound_BaselineStub
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 -
@@ -4331,7 +4331,7 @@ jsFrame
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CalleeTokenIsFunction
 (
@@ -5327,7 +5327,7 @@ JitFrameIterator
 frame
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -5367,7 +5367,7 @@ maybeStubPtr
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ICStub
 :
@@ -5848,7 +5848,7 @@ args
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 f
 -
@@ -5935,7 +5935,7 @@ footer
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -7497,7 +7497,7 @@ trc
 #
 ifdef
 JSGC_FJGENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -7527,7 +7527,7 @@ isFJMinorCollecting
 ;
 #
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 trc
 -
@@ -7728,7 +7728,7 @@ JitFrame_Unwound_Rectifier
 +
 it
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -7787,7 +7787,7 @@ JitFrame_Unwound_BaselineStub
 +
 it
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -7821,7 +7821,7 @@ Hash
 retAddr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 retAddr
 !
@@ -7959,7 +7959,7 @@ pc
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -8444,7 +8444,7 @@ instructionResults_
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 snapshotOffset
 <
@@ -10265,7 +10265,7 @@ index
 -
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 moreAllocations
 (
@@ -10327,7 +10327,7 @@ ionScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -10370,7 +10370,7 @@ ionScriptFromCalleeToken
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 (
@@ -10380,7 +10380,7 @@ type
 JitFrame_IonJS
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 checkInvalidation
@@ -10768,7 +10768,7 @@ findNextFrame
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 more
 (
@@ -10874,7 +10874,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsIonInlinablePC
 (
@@ -10912,7 +10912,7 @@ pc_
 JSOP_FUNCALL
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 GET_ARGC
 (
@@ -11599,7 +11599,7 @@ pc
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCallPC
 (
@@ -11678,7 +11678,7 @@ numActualArgs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isExitFrameLayout
 <
@@ -11825,7 +11825,7 @@ dumpBaseline
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBaselineJS
 (
@@ -12833,7 +12833,7 @@ verifyReturnAddressUsingNativeToBytecodeMap
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 returnAddressToFp_
 !
@@ -13001,7 +13001,7 @@ depth
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 >
@@ -13014,7 +13014,7 @@ depth
 UINT32_MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 location
 .
@@ -13160,7 +13160,7 @@ idx
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 idx
 <
@@ -13301,7 +13301,7 @@ code
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inlineFrames
 .
@@ -13397,7 +13397,7 @@ calleeToken
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 token
 )
@@ -13448,7 +13448,7 @@ osiPointReturnAddress
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rawBase
 <

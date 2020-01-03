@@ -378,7 +378,7 @@ case
 JSOP_DIV
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 .
@@ -390,7 +390,7 @@ scratchReg
 rax
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .
@@ -402,7 +402,7 @@ valueReg
 rdx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 .
@@ -550,7 +550,7 @@ case
 JSOP_MOD
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 .
@@ -562,7 +562,7 @@ scratchReg
 rax
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 .
@@ -574,7 +574,7 @@ valueReg
 rdx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R1
 .

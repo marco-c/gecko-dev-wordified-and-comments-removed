@@ -390,7 +390,7 @@ Label
 miss
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -410,7 +410,7 @@ BarrierKind
 TypeSet
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 types
@@ -527,7 +527,7 @@ DoubleType
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 types
 -
@@ -735,7 +735,7 @@ emit
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -810,7 +810,7 @@ Label
 miss
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 types
@@ -821,7 +821,7 @@ unknown
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 types
@@ -841,7 +841,7 @@ AnyObjectType
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 types
 -
@@ -851,7 +851,7 @@ getObjectCount
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -865,7 +865,7 @@ matched
 BranchGCPtr
 lastBranch
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lastBranch
@@ -2592,7 +2592,7 @@ fail
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNurseryAllocable
 (
@@ -2600,7 +2600,7 @@ allocKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initialHeap
 !
@@ -2998,14 +2998,14 @@ regNBytes
 =
 CallTempReg0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nbytes
 <
@@ -3166,7 +3166,7 @@ Label
 fail
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocKind
 >
@@ -3318,7 +3318,7 @@ Label
 fail
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObj
@@ -3347,7 +3347,7 @@ getAllocKind
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 allocKind
 >
@@ -3436,7 +3436,7 @@ getAllocKind
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 allocKind
 >
@@ -3671,7 +3671,7 @@ Label
 fail
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNurseryAllocable
 (
@@ -3995,7 +3995,7 @@ getAllocKind
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 allocKind
 >
@@ -4015,7 +4015,7 @@ gc
 FINALIZE_OBJECT_LAST
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObject
@@ -4365,7 +4365,7 @@ uint32_t
 nslots
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 =
@@ -4389,7 +4389,7 @@ getClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 >
@@ -4514,7 +4514,7 @@ templateObj
 nslots
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 startOfUndefined
 <
@@ -4780,7 +4780,7 @@ temp
 =
 slots
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObj
@@ -4940,7 +4940,7 @@ offsetOfFlags
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateObj
@@ -5138,7 +5138,7 @@ Label
 fail
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEqualityOp
 (
@@ -5772,7 +5772,7 @@ All
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 regs
@@ -8545,7 +8545,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -8823,7 +8823,7 @@ MIRType
 outputType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -9790,7 +9790,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -10151,7 +10151,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSFunction
 :
@@ -10169,7 +10169,7 @@ uint32_t
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSFunction
 :

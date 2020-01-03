@@ -325,7 +325,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 <
@@ -1151,7 +1151,7 @@ isLoopBackedge
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 loop_
 -
@@ -1282,7 +1282,7 @@ getAliasSet
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 set
 .
@@ -1550,7 +1550,7 @@ outer
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 loop_
 =

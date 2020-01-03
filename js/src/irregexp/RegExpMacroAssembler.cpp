@@ -50,7 +50,7 @@ size_t
 byteLength
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 byteLength
 %
@@ -315,7 +315,7 @@ int
 by
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 by
 >
@@ -323,7 +323,7 @@ by
 kMinCPOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 by
 <
@@ -412,7 +412,7 @@ advance_current_end_
 =
 kInvalidPC
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 label
@@ -758,7 +758,7 @@ Label
 on_no_match
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start_reg
 >
@@ -766,7 +766,7 @@ start_reg
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start_reg
 <
@@ -802,7 +802,7 @@ Label
 on_no_match
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start_reg
 >
@@ -810,7 +810,7 @@ start_reg
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start_reg
 <
@@ -1365,7 +1365,7 @@ int
 characters
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cp_offset
 >
@@ -1373,7 +1373,7 @@ cp_offset
 kMinCPOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cp_offset
 <
@@ -1418,7 +1418,7 @@ BC_LOAD_2_CURRENT_CHARS
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 characters
 =
@@ -1463,7 +1463,7 @@ BC_LOAD_2_CURRENT_CHARS_UNCHECKED
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 characters
 =
@@ -1623,7 +1623,7 @@ int
 by
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 by
 >
@@ -1736,7 +1736,7 @@ int
 reg_to
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reg_from
 <
@@ -1945,7 +1945,7 @@ uint32_t
 word
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc_
 <
@@ -1996,7 +1996,7 @@ uint32_t
 word
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc_
 <
@@ -2047,7 +2047,7 @@ uint32_t
 word
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc_
 <

@@ -135,7 +135,7 @@ i
 )
 break
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 descrA
 .
@@ -948,7 +948,7 @@ extractType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (
@@ -1124,7 +1124,7 @@ length
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ofArrayKind
 (
@@ -1284,7 +1284,7 @@ arrayElementType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ofArrayKind
 (
@@ -1469,7 +1469,7 @@ fieldIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 (

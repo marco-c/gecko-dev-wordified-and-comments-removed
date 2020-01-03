@@ -283,7 +283,7 @@ bool
 aFlag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t
@@ -359,7 +359,7 @@ T
 t
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t
@@ -425,7 +425,7 @@ bool
 aFlag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t
@@ -868,7 +868,7 @@ U
 alignment
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsPowerOfTwo
 (
@@ -998,7 +998,7 @@ bitIndex
 /
 BitArrayElementBits
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 wordIndex
 <

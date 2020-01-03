@@ -488,7 +488,7 @@ assertInvariants
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lower_
 <
@@ -516,7 +516,7 @@ upper_
 JSVAL_INT_MAX
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 max_exponent_
 <
@@ -552,7 +552,7 @@ canHaveFractionalPart_
 MaxInt32Exponent
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 max_exponent_
 +
@@ -574,7 +574,7 @@ upper_
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 max_exponent_
 +
@@ -596,7 +596,7 @@ lower_
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -610,7 +610,7 @@ JSVAL_INT_MIN
 MaxInt32Exponent
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -624,7 +624,7 @@ JSVAL_INT_MAX
 30
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -638,7 +638,7 @@ UINT32_MAX
 MaxUInt32Exponent
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -805,7 +805,7 @@ FloorLog2
 max
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -1904,7 +1904,7 @@ exponent
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 canBeInfiniteOrNaN
@@ -1936,7 +1936,7 @@ lower
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasInt32LowerBound
 (
@@ -1953,7 +1953,7 @@ upper
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasInt32UpperBound
 (
@@ -2144,7 +2144,7 @@ true
 IncludesInfinityAndNaN
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isUnknown
 (

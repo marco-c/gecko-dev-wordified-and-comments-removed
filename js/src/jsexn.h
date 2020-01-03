@@ -122,7 +122,7 @@ JSExnType
 exn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSEXN_ERR
 <
@@ -130,7 +130,7 @@ JSEXN_ERR
 exn
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 exn
 <
@@ -171,7 +171,7 @@ key
 JSProto_Error
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 >
@@ -179,7 +179,7 @@ type
 JSEXN_ERR
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 <

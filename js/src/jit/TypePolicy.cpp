@@ -401,7 +401,7 @@ alloc
 ins
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -616,7 +616,7 @@ MInstruction
 def
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -905,7 +905,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -924,7 +924,7 @@ type
 MIRType_Boolean
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -1095,7 +1095,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -1114,7 +1114,7 @@ type
 MIRType_String
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 def
 -
@@ -1181,7 +1181,7 @@ inputType
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -1707,7 +1707,7 @@ outputType
 MIRType_Value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inputType
 !
@@ -1747,7 +1747,7 @@ inputType
 MIRType_Value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 outputType
 !
@@ -1769,7 +1769,7 @@ outputType
 MIRType_MagicOptimizedArguments
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins
@@ -1856,7 +1856,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -2212,7 +2212,7 @@ typePolicySpecialization
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 specialization
 =
@@ -3596,7 +3596,7 @@ MInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3799,7 +3799,7 @@ MInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4006,7 +4006,7 @@ MInstruction
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4766,7 +4766,7 @@ curValue
 value
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 -
@@ -4916,7 +4916,7 @@ Scalar
 :
 Uint8Clamped
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 -
@@ -5092,7 +5092,7 @@ toStoreTypedArrayElement
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 store
 -
@@ -5110,7 +5110,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 store
 -
@@ -5174,7 +5174,7 @@ toStoreTypedArrayElementHole
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 store
 -
@@ -5192,7 +5192,7 @@ type
 MIRType_Elements
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 store
 -
@@ -5210,7 +5210,7 @@ type
 MIRType_Int32
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 store
 -

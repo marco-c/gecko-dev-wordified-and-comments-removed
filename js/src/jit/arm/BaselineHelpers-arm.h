@@ -122,7 +122,7 @@ offsetOfFirstStub
 BaselineStubReg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -192,7 +192,7 @@ monitorStubOffset
 BaselineStubReg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -281,7 +281,7 @@ uint32_t
 argSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -352,7 +352,7 @@ reverseOffsetOfFrameSize
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 BaselineTailCallReg
 =
@@ -511,7 +511,7 @@ Register
 scratch
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scratch
 !
@@ -714,7 +714,7 @@ int
 values
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 values
 >
@@ -781,7 +781,7 @@ discard
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 values
 >
@@ -891,7 +891,7 @@ uint32_t
 objectOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -1151,7 +1151,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R2
 =
@@ -1197,7 +1197,7 @@ offsetOfStubCode
 r0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 BaselineTailCallReg
 =

@@ -591,7 +591,7 @@ returnType
 Type_Bool
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 returnType
 =
@@ -629,7 +629,7 @@ VMFunction
 o
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 wrapped
@@ -708,7 +708,7 @@ mode
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 unsigned
@@ -736,7 +736,7 @@ VMFunction
 info
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 unsigned
@@ -3243,7 +3243,7 @@ disable
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 disabled_

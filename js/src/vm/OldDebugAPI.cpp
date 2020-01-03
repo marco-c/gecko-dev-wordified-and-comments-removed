@@ -373,7 +373,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -603,7 +603,7 @@ scriptSource
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 )

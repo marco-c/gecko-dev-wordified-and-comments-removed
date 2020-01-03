@@ -598,7 +598,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentStub_
 !
@@ -679,7 +679,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentStub_
 -
@@ -730,7 +730,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentStub_
 -
@@ -743,7 +743,7 @@ next
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 currentStub_
 !
@@ -751,7 +751,7 @@ currentStub_
 fallbackStub_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unlinked_
@@ -3854,7 +3854,7 @@ ICStub
 stub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stub
 -
@@ -3877,7 +3877,7 @@ next
 this
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastStubPtrAddr_
 =
@@ -3928,7 +3928,7 @@ if
 prev
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 prev
 -
@@ -3957,7 +3957,7 @@ next
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 icEntry
 (
@@ -3989,7 +3989,7 @@ next
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 numOptimizedStubs_
 >
@@ -4383,7 +4383,7 @@ ICStubSpace
 space
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fallbackMonitorStub_
 =
@@ -4470,7 +4470,7 @@ ICStubSpace
 space
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 firstUpdateStub_
 =
@@ -4689,7 +4689,7 @@ newStubCode
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entersStubFrame_
 =
@@ -4942,7 +4942,7 @@ bool
 calledIntoIon
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entersStubFrame_
 )
@@ -4970,7 +4970,7 @@ Label
 skip
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -5116,7 +5116,7 @@ ICStub
 SetProp_CallNative
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entersStubFrame_
 )
@@ -5491,12 +5491,12 @@ void
 jitcodePtr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jitcodePtr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -5525,7 +5525,7 @@ if
 isLoopEntry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 LoopEntryCanIonOsr
 (
@@ -5801,7 +5801,7 @@ ionScript
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -5826,7 +5826,7 @@ hasSPSInstrumentation
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ion
 -
@@ -6153,7 +6153,7 @@ IonOsrTempData
 infoPtr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 infoPtr
 )
@@ -6218,7 +6218,7 @@ pc
 =
 JSOP_LOOPENTRY
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isLoopEntry
@@ -6283,7 +6283,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -6837,7 +6837,7 @@ runtime
 >
 spsProfiler
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 profiler
 -
@@ -6928,7 +6928,7 @@ ICStub
 Profiler_PushFunction
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 icEntry
 -
@@ -7342,7 +7342,7 @@ isPrimitive
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 val
@@ -7518,7 +7518,7 @@ if
 existingStub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasStub
@@ -7886,7 +7886,7 @@ isMonitored
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -8014,7 +8014,7 @@ monitorsThis
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 =
@@ -8054,7 +8054,7 @@ argument
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 =
@@ -8170,7 +8170,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -8379,7 +8379,7 @@ R0
 success
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -8843,7 +8843,7 @@ if
 existingStub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasTypeUpdateStub
@@ -9265,7 +9265,7 @@ ICStub
 SetElem_DenseAdd
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -9306,7 +9306,7 @@ ICStub
 SetProp_NativeAdd
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -9655,7 +9655,7 @@ R0
 success
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -9983,7 +9983,7 @@ MutableHandleValue
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -10200,7 +10200,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -10808,7 +10808,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 "
@@ -11541,7 +11541,7 @@ isObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stub
@@ -11850,7 +11850,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -11961,7 +11961,7 @@ R1
 failure
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEqualityOp
 (
@@ -12327,7 +12327,7 @@ R1
 failure
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEqualityOp
 (
@@ -12446,7 +12446,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEqualityOp
 (
@@ -13043,7 +13043,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 arg
@@ -13455,7 +13455,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -14172,7 +14172,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -14751,7 +14751,7 @@ op
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 .
@@ -14886,7 +14886,7 @@ String
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 .
@@ -15164,7 +15164,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 ret
 .
@@ -15657,7 +15657,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -15740,7 +15740,7 @@ MutableHandleValue
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 .
@@ -15749,7 +15749,7 @@ isString
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 .
@@ -15987,7 +15987,7 @@ HandleValue
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 .
@@ -16061,7 +16061,7 @@ if
 lhsIsString
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 .
@@ -16104,7 +16104,7 @@ toString
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rhs
 .
@@ -16539,7 +16539,7 @@ MoveOp
 DOUBLE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ReturnDoubleReg
 =
@@ -16711,7 +16711,7 @@ R1
 ExtractTemp1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op_
 =
@@ -16988,7 +16988,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -17760,7 +17760,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -17841,7 +17841,7 @@ FloatReg0
 failure
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -18026,12 +18026,12 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFixed
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 )
@@ -18085,7 +18085,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCacheableDOMProxy
 (
@@ -18221,7 +18221,7 @@ if
 expandoAndGenerationAddr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 generationAddr
 )
@@ -18519,12 +18519,12 @@ obj
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 domProxyHasGeneration
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shadowsResult
 )
@@ -19066,7 +19066,7 @@ isDOMProxy
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isScripted
 )
@@ -19604,7 +19604,7 @@ bool
 isScripted
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isScripted
 )
@@ -20132,7 +20132,7 @@ continue
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -20434,7 +20434,7 @@ continue
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -21711,7 +21711,7 @@ Magic
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isCallElem
@@ -22404,7 +22404,7 @@ op
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -22651,7 +22651,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -23197,7 +23197,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -23543,7 +23543,7 @@ masm
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -23584,7 +23584,7 @@ R1
 ExtractTemp1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Register
 (
@@ -24140,7 +24140,7 @@ endif
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 acctype_
 =
@@ -24160,7 +24160,7 @@ ICGetElemNativeStub
 ScriptedGetter
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -24218,7 +24218,7 @@ objReg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 acctype_
 =
@@ -25375,7 +25375,7 @@ ICGetElem_Arguments
 Magic
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isCallElem_
@@ -25574,7 +25574,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -25885,7 +25885,7 @@ JS_BITS_PER_BYTE
 :
 value
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shift
 =
@@ -26418,7 +26418,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -26764,7 +26764,7 @@ shape
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 iter
@@ -27124,7 +27124,7 @@ pc
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -27269,7 +27269,7 @@ op
 JSOP_INITELEM_ARRAY
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -27361,7 +27361,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 stack
 [
@@ -28037,7 +28037,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -28866,7 +28866,7 @@ AutoShapeVector
 shapes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shapes
 -
@@ -28935,7 +28935,7 @@ getProto
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 curProto
@@ -30847,7 +30847,7 @@ HandlePropertyName
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 -
@@ -30930,7 +30930,7 @@ hasSlot
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -31787,7 +31787,7 @@ pc
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -32017,7 +32017,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -32518,7 +32518,7 @@ pc
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -32621,7 +32621,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -32765,7 +32765,7 @@ pc
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -33184,7 +33184,7 @@ bool
 attached
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -33200,7 +33200,7 @@ isString
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 .
@@ -33632,7 +33632,7 @@ GetDOMProxyExpandoSlot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 expandoSlot
@@ -33962,7 +33962,7 @@ bool
 attached
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -34353,7 +34353,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 !
@@ -34361,7 +34361,7 @@ obj
 holder
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -34516,7 +34516,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -34583,7 +34583,7 @@ if
 isDOMProxy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 !
@@ -34807,7 +34807,7 @@ domProxyShadowsResult
 Shadows
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 =
@@ -34950,7 +34950,7 @@ bool
 attached
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -35062,7 +35062,7 @@ global
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 .
@@ -35766,7 +35766,7 @@ op
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -35792,7 +35792,7 @@ op
 JSOP_GETXPROP
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stub
@@ -36195,7 +36195,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 attached
@@ -36260,7 +36260,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -38311,7 +38311,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -39447,7 +39447,7 @@ expandoSlot
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -39458,7 +39458,7 @@ ICStub
 GetProp_CallDOMProxyWithGenerationNative
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 expandoSlot
@@ -40082,7 +40082,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -40726,7 +40726,7 @@ bool
 attached
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *
@@ -41172,7 +41172,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 !
@@ -41180,7 +41180,7 @@ obj
 holder
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -41322,7 +41322,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 !
@@ -41330,7 +41330,7 @@ obj
 holder
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -41514,7 +41514,7 @@ op
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -41918,7 +41918,7 @@ attached
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 attached
@@ -41984,7 +41984,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -43748,7 +43748,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -43954,7 +43954,7 @@ HandleValue
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -46263,7 +46263,7 @@ isNativeConstructor
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stub
@@ -46574,7 +46574,7 @@ MutableHandleValue
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -46604,7 +46604,7 @@ length
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -46775,7 +46775,7 @@ args
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 res
 .
@@ -46791,7 +46791,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 .
@@ -46800,7 +46800,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 .
@@ -47132,7 +47132,7 @@ op
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argc
 =
@@ -47397,7 +47397,7 @@ vp
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -47836,7 +47836,7 @@ Register
 argcReg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 regs
@@ -48413,7 +48413,7 @@ failure
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 applyThing
 =
@@ -49396,7 +49396,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 R0
 =
@@ -49705,7 +49705,7 @@ takeAny
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSReturnOperand
 =
@@ -49996,7 +49996,7 @@ scratchReg
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argcReg
 !
@@ -50146,7 +50146,7 @@ if
 calleeScript_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -50484,7 +50484,7 @@ createdThisIsObject
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 JSReturnOperand
 =
@@ -50836,7 +50836,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -50844,7 +50844,7 @@ ArgumentsRectifierReg
 code
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -50920,7 +50920,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -52455,7 +52455,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -52463,7 +52463,7 @@ ArgumentsRectifierReg
 target
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -52868,7 +52868,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -52876,7 +52876,7 @@ ArgumentsRectifierReg
 target
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -53055,7 +53055,7 @@ scratchReg
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argcReg
 !
@@ -53511,7 +53511,7 @@ noUnderflow
 )
 ;
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -53519,7 +53519,7 @@ ArgumentsRectifierReg
 code
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ArgumentsRectifierReg
 !
@@ -55375,7 +55375,7 @@ setString
 string
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -55568,7 +55568,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type_
 !
@@ -55576,7 +55576,7 @@ type_
 JSTYPE_NULL
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type_
 !
@@ -55584,7 +55584,7 @@ type_
 JSTYPE_FUNCTION
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type_
 !
@@ -55781,7 +55781,7 @@ RetSub
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 .
@@ -55790,7 +55790,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 .
@@ -56549,7 +56549,7 @@ pcOffset_
 pcOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -56563,7 +56563,7 @@ kind
 GetElem_NativePrototypeCallScripted
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 acctype
 =
@@ -57004,7 +57004,7 @@ uint16_t
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 extra_
 =
@@ -57108,7 +57108,7 @@ type_
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 protoChainDepth
 <
@@ -57228,7 +57228,7 @@ uint8_t
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 extra_
 =
@@ -57333,7 +57333,7 @@ NumHops
 MAX_HOPS
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shapes
 -
@@ -57907,7 +57907,7 @@ pcOffset_
 pcOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -57977,7 +57977,7 @@ receiverShape_
 receiverShape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -58385,7 +58385,7 @@ offset_
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 protoChainDepth
 <
@@ -58438,7 +58438,7 @@ newType
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shapes
 -
@@ -58541,7 +58541,7 @@ offset_
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 protoChainDepth_
 <
@@ -58601,7 +58601,7 @@ pcOffset_
 pcOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -59275,7 +59275,7 @@ pcOffset_
 pcOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -59295,7 +59295,7 @@ ICStub
 GetProp_CallDOMProxyWithGenerationNative
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy_
 -

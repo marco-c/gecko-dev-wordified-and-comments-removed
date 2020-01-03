@@ -313,7 +313,7 @@ getpid
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 RECV_SIZEOF
 (
@@ -325,7 +325,7 @@ chud_client_acquire_msg
 0x24
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -503,7 +503,7 @@ name1
 =
 name
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -614,7 +614,7 @@ msgh_id
 =
 SHARK_MSG_STOP
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 RECV_SIZEOF
 (
@@ -626,7 +626,7 @@ chud_client_stop_msg
 0x18
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -762,7 +762,7 @@ getpid
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 RECV_SIZEOF
 (
@@ -774,7 +774,7 @@ chud_client_release_msg
 0x24
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (

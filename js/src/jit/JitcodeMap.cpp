@@ -73,7 +73,7 @@ depth
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPointer
 (
@@ -117,7 +117,7 @@ findRegionEntry
 ptrOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regionIdx
 <
@@ -165,7 +165,7 @@ scriptPcIterator
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 locationIter
 .
@@ -349,7 +349,7 @@ depth
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPointer
 (
@@ -357,7 +357,7 @@ ptr
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script_
 -
@@ -439,7 +439,7 @@ depth
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPointer
 (
@@ -478,7 +478,7 @@ rejoinAddr
 entry
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -584,7 +584,7 @@ JitcodeGlobalEntry
 ent2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -760,7 +760,7 @@ JitcodeGlobalEntry
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 )
@@ -815,7 +815,7 @@ ptr
 result
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 success
 )
@@ -833,7 +833,7 @@ JitcodeGlobalEntry
 entry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -1483,7 +1483,7 @@ ENC2_PC_DELTA_MASK
 >
 ENC2_PC_DELTA_SHIFT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pcDelta
@@ -1583,7 +1583,7 @@ pcDelta
 =
 pcDeltaU
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pcDelta
@@ -1609,7 +1609,7 @@ pcDelta
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 firstByte
@@ -1688,7 +1688,7 @@ pcDelta
 =
 pcDeltaU
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pcDelta
@@ -1734,7 +1734,7 @@ NativeToBytecode
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 <
@@ -1849,7 +1849,7 @@ nextEntry
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nextNativeOffset
 >
@@ -2229,14 +2229,14 @@ NativeToBytecode
 entry
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 runLength
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 runLength
 <
@@ -2244,7 +2244,7 @@ runLength
 MAX_RUN_LENGTH
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 -
@@ -2402,7 +2402,7 @@ script
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 scriptIdx
 <
@@ -2585,7 +2585,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 [
@@ -2641,7 +2641,7 @@ i
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nextNativeOffset
 >
@@ -2669,7 +2669,7 @@ int32_t
 curBytecodeOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsDeltaEncodeable
 (
@@ -2882,7 +2882,7 @@ nativeOffset_
 scriptDepth_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scriptDepth_
 >
@@ -3055,7 +3055,7 @@ IonEntry
 SizedScriptList
 SizedScriptList
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numScripts
 >
@@ -3255,7 +3255,7 @@ numRegions
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 regions
 >
@@ -3302,7 +3302,7 @@ regionEntry
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nextEntry
 .
@@ -3455,7 +3455,7 @@ uint32_t
 numRegionsOut
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tableOffsetOut
 !
@@ -3463,7 +3463,7 @@ tableOffsetOut
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numRegionsOut
 !
@@ -3471,7 +3471,7 @@ numRegionsOut
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 writer
 .
@@ -3483,7 +3483,7 @@ length
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scriptListSize
 >
@@ -3652,14 +3652,14 @@ curEntry
 end
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 runLength
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 runLength
 <

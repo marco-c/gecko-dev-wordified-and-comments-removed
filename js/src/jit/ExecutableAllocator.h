@@ -301,7 +301,7 @@ willDestroy
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 m_refCount
 !
@@ -505,7 +505,7 @@ addRef
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 m_refCount
 )
@@ -525,7 +525,7 @@ CodeKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <
@@ -613,7 +613,7 @@ available
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 m_end
 >
@@ -715,7 +715,7 @@ pageSize
 16
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 m_smallPools
 .
@@ -830,7 +830,7 @@ CodeKind
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 roundUpAllocationSize
 (
@@ -896,7 +896,7 @@ n
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 )
@@ -913,7 +913,7 @@ ExecutablePool
 pool
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pool
 -
@@ -951,7 +951,7 @@ pool
 m_allocation
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 m_pools
 .
@@ -1110,7 +1110,7 @@ granularity
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 >

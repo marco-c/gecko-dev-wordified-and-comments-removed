@@ -209,7 +209,7 @@ false
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 inCall_
 )
@@ -241,7 +241,7 @@ void
 *
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -396,7 +396,7 @@ descriptor
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 phase
 =

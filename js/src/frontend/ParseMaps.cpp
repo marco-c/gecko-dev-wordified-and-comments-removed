@@ -831,7 +831,7 @@ value
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -909,7 +909,7 @@ atom
 )
 continue
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 -

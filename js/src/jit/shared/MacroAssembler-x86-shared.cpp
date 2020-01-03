@@ -176,7 +176,7 @@ iter
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 diffG
 =
@@ -233,7 +233,7 @@ diffF
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 numDouble
 =
@@ -282,7 +282,7 @@ diffF
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 numSimd
 =
@@ -290,7 +290,7 @@ numSimd
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 diffF
 =
@@ -461,7 +461,7 @@ iter
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 numSimd
 =
@@ -529,7 +529,7 @@ freeStack
 reservedF
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numDouble
 =
@@ -537,7 +537,7 @@ numDouble
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 diffF
 =
@@ -656,7 +656,7 @@ reservedG
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 diffG
 =
@@ -677,7 +677,7 @@ Register
 output
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 !
@@ -900,7 +900,7 @@ currentOffset
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 framePushed
 (

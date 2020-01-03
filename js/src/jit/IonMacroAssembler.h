@@ -488,7 +488,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInitialized
 (
@@ -664,7 +664,7 @@ MacroAssembler
 masm
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInitialized
 (
@@ -795,7 +795,7 @@ icx
 temp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -2783,7 +2783,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSFunction
 :
@@ -2801,7 +2801,7 @@ uint32_t
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSFunction
 :
@@ -2869,7 +2869,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSFunction
 :
@@ -2887,7 +2887,7 @@ uint32_t
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSFunction
 :
@@ -3003,7 +3003,7 @@ JSID_TO_STRING
 id
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 (
@@ -3018,7 +3018,7 @@ JSID_TYPE_MASK
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_TYPE_STRING
 =
@@ -3317,7 +3317,7 @@ Address
 addr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 addr
 .
@@ -3558,7 +3558,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -4192,7 +4192,7 @@ valueReg
 scratch
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 .
@@ -4947,7 +4947,7 @@ JitCode
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 oom
@@ -6500,7 +6500,7 @@ arg1f
 arg2
 )
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFloatingPointType
 (
@@ -7704,7 +7704,7 @@ restoreFrameAlignmentForICArguments
 aic
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 framePushed
 (
@@ -7735,7 +7735,7 @@ DEBUG
 Label
 ok
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsPowerOfTwo
 (

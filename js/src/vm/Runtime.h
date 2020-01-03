@@ -1171,7 +1171,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1351,7 +1351,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 unsigned
 (
@@ -1367,7 +1367,7 @@ entries
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry_
 =
@@ -1390,7 +1390,7 @@ entries
 entry_
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -2315,7 +2315,7 @@ pt
 pt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pt
@@ -2343,7 +2343,7 @@ defined
 (
 JS_MIPS_SIMULATOR
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pt
@@ -2379,7 +2379,7 @@ defined
 (
 JS_MIPS_SIMULATOR
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pt
@@ -2657,7 +2657,7 @@ AutoLockForInterrupt
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -2956,7 +2956,7 @@ execAlloc
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 execAlloc_
 )
@@ -3902,7 +3902,7 @@ parseMapPool
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentThreadHasExclusiveAccess
 (
@@ -3930,7 +3930,7 @@ addActiveCompilation
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentThreadHasExclusiveAccess
 (
@@ -3947,7 +3947,7 @@ removeActiveCompilation
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentThreadHasExclusiveAccess
 (
@@ -3978,7 +3978,7 @@ keepAtoms
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -4098,7 +4098,7 @@ atoms
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentThreadHasExclusiveAccess
 (
@@ -4116,7 +4116,7 @@ atomsCompartment
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentThreadHasExclusiveAccess
 (
@@ -4168,7 +4168,7 @@ symbolRegistry
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentThreadHasExclusiveAccess
 (
@@ -4239,7 +4239,7 @@ scriptDataTable
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 currentThreadHasExclusiveAccess
 (
@@ -4813,7 +4813,7 @@ get
 >
 jitJSContext
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -4979,7 +4979,7 @@ void
 p
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 !
@@ -5087,12 +5087,12 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 runtime
@@ -5221,7 +5221,7 @@ keepAtoms_
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pt
 -
@@ -5252,7 +5252,7 @@ runtimeIfOnOwnerThread
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -5282,7 +5282,7 @@ uintptr_t
 limit
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 runtime_
 -
@@ -5307,7 +5307,7 @@ runtimeFromMainThread
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -5393,7 +5393,7 @@ removeActiveCompilation
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 activeCompilations
 )
@@ -5851,7 +5851,7 @@ get
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pt
@@ -5891,7 +5891,7 @@ get
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pt
 -

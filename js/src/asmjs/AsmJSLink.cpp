@@ -581,7 +581,7 @@ HandleValue
 importVal
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 global
 .
@@ -2473,7 +2473,7 @@ get
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 module
@@ -4514,7 +4514,7 @@ pod
 .
 endCodeOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 >
@@ -4774,7 +4774,7 @@ pod
 .
 endCodeOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 >
@@ -5282,7 +5282,7 @@ fun
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 func
 .
@@ -6708,7 +6708,7 @@ out
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -6762,7 +6762,7 @@ strict
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -

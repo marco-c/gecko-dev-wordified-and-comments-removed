@@ -136,7 +136,7 @@ WeakMapBase
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInList
@@ -156,7 +156,7 @@ JSTracer
 tracer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInList
 (
@@ -171,7 +171,7 @@ tracer
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tracer
 -
@@ -282,7 +282,7 @@ JSTracer
 tracer
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tracer
 -
@@ -588,7 +588,7 @@ m
 >
 next
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 m
 -
@@ -788,7 +788,7 @@ front
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 -
@@ -806,7 +806,7 @@ isGCMarking
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 map
@@ -1172,7 +1172,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsWeakMap
 (
@@ -1354,7 +1354,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsWeakMap
 (
@@ -1462,7 +1462,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsWeakMap
 (
@@ -1672,7 +1672,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsWeakMap
 (
@@ -1936,7 +1936,7 @@ GetDOMProxyHandlerFamily
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2237,7 +2237,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 -
@@ -2334,7 +2334,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsWeakMap
 (
@@ -3267,7 +3267,7 @@ bool
 defineMembers
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -

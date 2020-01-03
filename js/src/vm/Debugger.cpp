@@ -567,7 +567,7 @@ global
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 frame
@@ -641,7 +641,7 @@ frontFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -665,7 +665,7 @@ frontDebugger
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -689,7 +689,7 @@ removeFrontFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -715,7 +715,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -811,7 +811,7 @@ enabledCount
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -904,7 +904,7 @@ FreeOp
 fop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enabledCount
 >
@@ -1067,7 +1067,7 @@ handler
 handler
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 handler
 -
@@ -1583,7 +1583,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1702,7 +1702,7 @@ memory
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasMemory
 (
@@ -1936,7 +1936,7 @@ hook
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 >
@@ -2694,7 +2694,7 @@ rval
 nextValue
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2712,7 +2712,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -2786,7 +2786,7 @@ frontDebugger
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dbg
 =
@@ -2916,7 +2916,7 @@ false
 case
 JSTRAP_ERROR
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -2979,7 +2979,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 env
@@ -5152,12 +5152,12 @@ OnDebuggerStatement
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 -
@@ -5276,12 +5276,12 @@ OnExceptionUnwind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 -
@@ -5488,12 +5488,12 @@ OnEnterFrame
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 -
@@ -5606,12 +5606,12 @@ OnNewScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 -
@@ -5725,7 +5725,7 @@ Hook
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 =
@@ -6146,7 +6146,7 @@ cx
 compileAndGoGlobal_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -6994,7 +6994,7 @@ compileAndGo
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 stepperCount
 =
@@ -7008,7 +7008,7 @@ stepModeCount
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 stepperCount
 <
@@ -7201,12 +7201,12 @@ OnNewGlobalObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hook
 -
@@ -7330,7 +7330,7 @@ vp
 true
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -7362,7 +7362,7 @@ GlobalObject
 global
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS_CLIST_IS_EMPTY
@@ -7457,7 +7457,7 @@ fromOnNewGlobalObjectWatchersLink
 link
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dbg
 -
@@ -7580,7 +7580,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -7611,7 +7611,7 @@ DebuggerVector
 dbgs
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 dbgs
@@ -7664,7 +7664,7 @@ dbgp
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dbgs
 .
@@ -8071,7 +8071,7 @@ getDebuggers
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 debuggers
 )
@@ -8625,7 +8625,7 @@ value
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 MaybeForwarded
 (
@@ -8869,7 +8869,7 @@ getDebuggers
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 debuggers
@@ -9515,7 +9515,7 @@ if
 enabled
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_CLIST_IS_EMPTY
 (
@@ -9549,7 +9549,7 @@ onNewGlobalObjectWatchers
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS_CLIST_IS_EMPTY
@@ -9613,7 +9613,7 @@ Hook
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 >
@@ -9682,7 +9682,7 @@ Hook
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 >
@@ -10147,7 +10147,7 @@ oldHook
 newHook
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_CLIST_IS_EMPTY
 (
@@ -10189,7 +10189,7 @@ oldHook
 newHook
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS_CLIST_IS_EMPTY
@@ -11907,7 +11907,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 -
@@ -12581,7 +12581,7 @@ global
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 -
@@ -12637,7 +12637,7 @@ Enum
 debugEnum
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 debuggees
 .
@@ -12808,7 +12808,7 @@ this
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 !
@@ -14233,7 +14233,7 @@ GlobalObject
 global
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compartments
 .
@@ -14277,7 +14277,7 @@ matchAllDebuggeeGlobals
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compartments
 .
@@ -15639,7 +15639,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -15788,7 +15788,7 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
@@ -15864,7 +15864,7 @@ get
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -15991,7 +15991,7 @@ nullptr
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 GetScriptReferent
 (
@@ -16114,7 +16114,7 @@ thisobj
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GetScriptReferent
@@ -16793,7 +16793,7 @@ scriptSource
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 )
@@ -17612,7 +17612,7 @@ colspan
 =
 SN_COLSPAN_DOMAIN
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrdiff_t
 (
@@ -18674,7 +18674,7 @@ toObject
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offsetsv
 .
@@ -19530,7 +19530,7 @@ frontDebugger
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dbg
 =
@@ -19650,7 +19650,7 @@ iter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -20876,7 +20876,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -21025,7 +21025,7 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
@@ -21101,7 +21101,7 @@ get
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -21228,7 +21228,7 @@ nullptr
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 GetSourceReferent
 (
@@ -21764,7 +21764,7 @@ source
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ss
 )
@@ -24173,7 +24173,7 @@ thisobj
 frame
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 >
@@ -24426,7 +24426,7 @@ isUndefined
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 argumentsv
 .
@@ -24536,7 +24536,7 @@ thisobj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -25160,7 +25160,7 @@ JSSLOT_DEBUGFRAME_ONSTEP_HANDLER
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsValidHook
 (
@@ -25434,7 +25434,7 @@ JSSLOT_DEBUGFRAME_ONPOP_HANDLER
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsValidHook
 (
@@ -25624,7 +25624,7 @@ thisValue
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -27235,7 +27235,7 @@ getPrivate
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -27312,7 +27312,7 @@ getPrivate
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 )
@@ -28027,7 +28027,7 @@ script
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -30360,7 +30360,7 @@ obj
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -31908,7 +31908,7 @@ rval
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInnerObject
@@ -32590,13 +32590,13 @@ getPrivate
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 env
 )
 ;
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 env
@@ -33018,7 +33018,7 @@ obj
 =
 env
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -33287,12 +33287,12 @@ getPrivate
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 env
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 env

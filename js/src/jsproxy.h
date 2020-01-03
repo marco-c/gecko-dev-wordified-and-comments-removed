@@ -1403,7 +1403,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsProxy
 (
@@ -1439,7 +1439,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsProxy
 (
@@ -1465,7 +1465,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsProxy
 (
@@ -1497,7 +1497,7 @@ size_t
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsProxy
 (
@@ -1527,7 +1527,7 @@ BaseProxyHandler
 handler
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsProxy
 (
@@ -1561,7 +1561,7 @@ Value
 extra
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsProxy
 (
@@ -1569,7 +1569,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <
@@ -1894,7 +1894,7 @@ returnValue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 allowed

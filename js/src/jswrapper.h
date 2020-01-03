@@ -89,7 +89,7 @@ JSObject
 protoArg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proto_
 )

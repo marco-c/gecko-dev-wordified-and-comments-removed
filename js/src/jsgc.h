@@ -359,7 +359,7 @@ AllocKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 >
@@ -442,7 +442,7 @@ AllocKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 >
@@ -519,7 +519,7 @@ AllocKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 >
@@ -601,7 +601,7 @@ Class
 clasp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 <
@@ -751,7 +751,7 @@ size_t
 numFixedSlots
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numFixedSlots
 <
@@ -774,7 +774,7 @@ AllocKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsBackgroundFinalized
@@ -783,7 +783,7 @@ kind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 <
@@ -915,7 +915,7 @@ flags
 JSCLASS_HAS_PRIVATE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nslots
 >
@@ -994,7 +994,7 @@ ArenaHeader
 aheader
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 )
@@ -1411,7 +1411,7 @@ check
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 other
 .
@@ -1648,7 +1648,7 @@ size_t
 thingsPerArena
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thingsPerArena
 &
@@ -1714,7 +1714,7 @@ size_t
 nfree
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nfree
 <
@@ -1979,7 +1979,7 @@ FINALIZE_LIMIT
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 backgroundFinalizeState
 [
@@ -2290,7 +2290,7 @@ FINALIZE_LIMIT
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 backgroundFinalizeState
 [
@@ -2557,7 +2557,7 @@ arenaHeader
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 aheader
@@ -2652,7 +2652,7 @@ arenaHeader
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 freeList
 -
@@ -2727,7 +2727,7 @@ hasFreeThings
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 freeList
 -
@@ -2762,7 +2762,7 @@ kind
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 aheader
 )
@@ -2902,7 +2902,7 @@ freeLists
 +
 i
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 freeLists
 [
@@ -2924,7 +2924,7 @@ AllocKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 freeLists
 [
@@ -3552,7 +3552,7 @@ void
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 array
 <
@@ -3721,7 +3721,7 @@ shouldShrink
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBackgroundSweeping
 (
@@ -3757,7 +3757,7 @@ Chunk
 chunk
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -3807,7 +3807,7 @@ Chunk
 l
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -3823,7 +3823,7 @@ ChunkMask
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -4248,7 +4248,7 @@ forwardingAddress
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isForwarded
 (
@@ -4421,7 +4421,7 @@ toSymbol
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 value
@@ -4568,7 +4568,7 @@ toSymbol
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 value

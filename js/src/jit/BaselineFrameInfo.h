@@ -173,7 +173,7 @@ type
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 !
@@ -207,7 +207,7 @@ knownType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasKnownType
 (
@@ -243,7 +243,7 @@ constant
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind_
 =
@@ -265,7 +265,7 @@ reg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind_
 =
@@ -292,7 +292,7 @@ localSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind_
 =
@@ -314,7 +314,7 @@ argSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind_
 =
@@ -728,7 +728,7 @@ setStack
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 spIndex
 =
@@ -748,7 +748,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -997,7 +997,7 @@ uint32_t
 local
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 local
 <
@@ -1110,7 +1110,7 @@ local
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 local
 <
@@ -1141,7 +1141,7 @@ arg
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 arg
 <
@@ -1288,7 +1288,7 @@ value
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 -
@@ -1315,7 +1315,7 @@ stack
 0
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <

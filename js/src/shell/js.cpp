@@ -1598,7 +1598,7 @@ JS_GetContextPrivate
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 )
@@ -4926,7 +4926,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS_IsExceptionPending
@@ -5274,7 +5274,7 @@ HandleObject
 cache
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CacheEntry_isCacheEntry
 (
@@ -5323,7 +5323,7 @@ uint32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CacheEntry_isCacheEntry
 (
@@ -5420,7 +5420,7 @@ uint32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CacheEntry_isCacheEntry
 (
@@ -9705,7 +9705,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -10224,7 +10224,7 @@ offset
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -10284,7 +10284,7 @@ offset
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -10356,7 +10356,7 @@ break
 case
 SRC_TRY
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -10399,7 +10399,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 0
 )
@@ -10674,7 +10674,7 @@ n
 ;
 do
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tn
 -
@@ -16295,7 +16295,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gWatchdogThread
@@ -16545,7 +16545,7 @@ gWatchdogWakeup
 sleepDuration
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 status
 =
@@ -16631,7 +16631,7 @@ if
 gWatchdogThread
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gWatchdogHasTimeout
@@ -18581,7 +18581,7 @@ hadAbortedSyntaxParse
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -18689,7 +18689,7 @@ IDLE
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 token
@@ -18725,7 +18725,7 @@ alm
 monitor
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 =
@@ -18733,13 +18733,13 @@ state
 COMPILING
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 token
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 )
@@ -18772,7 +18772,7 @@ alm
 monitor
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 =
@@ -18780,18 +18780,18 @@ state
 COMPILING
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 token
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newToken
 )
@@ -18858,7 +18858,7 @@ wait
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 source
 )
@@ -18872,7 +18872,7 @@ source
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 token
 )
@@ -19581,7 +19581,7 @@ char
 ptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 this
@@ -20799,7 +20799,7 @@ dst
 0
 '
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 escaped
 +
@@ -23335,7 +23335,7 @@ done
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 .
@@ -23347,7 +23347,7 @@ stackAddress
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lastStackAddress
 <
@@ -29021,7 +29021,7 @@ JSJitGetterCallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -29034,7 +29034,7 @@ GetDomClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 =
@@ -29085,7 +29085,7 @@ JSJitSetterCallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -29098,7 +29098,7 @@ GetDomClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 =
@@ -29132,7 +29132,7 @@ JSJitMethodCallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -29145,7 +29145,7 @@ GetDomClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 =
@@ -29569,7 +29569,7 @@ obj
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -30120,7 +30120,7 @@ fd_
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jsCacheOpened
 =
@@ -30495,7 +30495,7 @@ serializedSize
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 jsCacheOpened
 =
@@ -30797,7 +30797,7 @@ false
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 (
@@ -30897,7 +30897,7 @@ MS_SYNC
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 (
@@ -30944,7 +30944,7 @@ serializedSize
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 jsCacheOpened
 =

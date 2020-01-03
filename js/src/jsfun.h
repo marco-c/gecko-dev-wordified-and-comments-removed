@@ -256,7 +256,7 @@ isHeavyweight
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInterpretedLazy
@@ -765,7 +765,7 @@ setIsSelfHostedBuiltin
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isSelfHostedBuiltin
@@ -784,7 +784,7 @@ setIsSelfHostedConstructor
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isSelfHostedConstructor
@@ -803,7 +803,7 @@ setIsFunctionPrototype
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFunctionPrototype
@@ -924,18 +924,18 @@ JSAtom
 atom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 atom_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 atom
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasGuessedAtom
@@ -978,7 +978,7 @@ environment
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreted
 (
@@ -1001,7 +1001,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreted
 (
@@ -1034,7 +1034,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreted
 (
@@ -1159,14 +1159,14 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreted
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -1325,14 +1325,14 @@ nonLazyScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasScript
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 u
 .
@@ -1412,7 +1412,7 @@ mutableScript
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreted
 (
@@ -1448,7 +1448,7 @@ lazyScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpretedLazy
 (
@@ -1484,7 +1484,7 @@ lazyScriptOrNull
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpretedLazy
 (
@@ -1560,7 +1560,7 @@ generatorKind
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isSelfHostedBuiltin
 (
@@ -1636,7 +1636,7 @@ JSScript
 script_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasScript
 (
@@ -1658,7 +1658,7 @@ JSScript
 script_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasScript
 (
@@ -1683,7 +1683,7 @@ JSScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpretedLazy
 (
@@ -1740,7 +1740,7 @@ LazyScript
 lazy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInterpreted
 (
@@ -1775,7 +1775,7 @@ native
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -1814,7 +1814,7 @@ parallelNative
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasParallelNative
 (
@@ -1862,7 +1862,7 @@ JSJitInfo
 jitinfo
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 native
 )
@@ -1892,7 +1892,7 @@ jitInfo
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -1916,7 +1916,7 @@ JSJitInfo
 data
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -2113,7 +2113,7 @@ getBoundFunctionTarget
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBoundFunction
 (
@@ -2757,7 +2757,7 @@ toExtended
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isExtended
 (
@@ -2793,7 +2793,7 @@ toExtended
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isExtended
 (
@@ -2824,14 +2824,14 @@ initializeExtended
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isExtended
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -2909,7 +2909,7 @@ Value
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <
@@ -2961,7 +2961,7 @@ Value
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <
@@ -3009,7 +3009,7 @@ which
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <

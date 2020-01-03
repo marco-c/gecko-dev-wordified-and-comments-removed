@@ -120,7 +120,7 @@ level
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFree
@@ -138,7 +138,7 @@ slot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFree
@@ -218,7 +218,7 @@ slot_
 =
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isFree
 (
@@ -1057,7 +1057,7 @@ pn_link
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 <
@@ -1129,7 +1129,7 @@ pn_link
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 <
@@ -1194,7 +1194,7 @@ getKind
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_type
 <
@@ -1215,7 +1215,7 @@ ParseNodeKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 <
@@ -1848,13 +1848,13 @@ pn_parens
 =
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn_used
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn_defn
@@ -1954,13 +1954,13 @@ expr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn_used
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -1985,7 +1985,7 @@ lexdef
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_used
 |
@@ -1995,7 +1995,7 @@ isDeoptimized
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2384,7 +2384,7 @@ frameLevel
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2412,7 +2412,7 @@ frameSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2440,7 +2440,7 @@ functionIsHoisted
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2456,7 +2456,7 @@ getKind
 PNK_FUNCTION
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isOp
 (
@@ -2533,7 +2533,7 @@ getKind
 PNK_SEMI
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2774,7 +2774,7 @@ generatorExpr
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isKind
 (
@@ -2800,7 +2800,7 @@ callee
 >
 pn_body
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 body
 -
@@ -2833,7 +2833,7 @@ last
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2841,7 +2841,7 @@ pn_arity
 PN_LIST
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_count
 !
@@ -2877,7 +2877,7 @@ DecimalPoint
 decimalPoint
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2885,7 +2885,7 @@ pn_arity
 PN_NULLARY
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getKind
 (
@@ -2917,7 +2917,7 @@ makeEmpty
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -2955,7 +2955,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -3031,7 +3031,7 @@ ParseNode
 pn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_arity
 =
@@ -3039,7 +3039,7 @@ pn_arity
 PN_LIST
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -3158,7 +3158,7 @@ as
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 NodeType
 :
@@ -3196,7 +3196,7 @@ as
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 NodeType
 :
@@ -4120,7 +4120,7 @@ pn_blockid
 =
 blockid
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_blockid
 =
@@ -4349,7 +4349,7 @@ PN_NULLARY
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -4666,17 +4666,17 @@ end
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 condition
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 thenExpr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elseExpr
 )
@@ -5019,7 +5019,7 @@ end
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lhs
 !
@@ -5027,7 +5027,7 @@ lhs
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 !
@@ -5281,7 +5281,7 @@ isFreeVar
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDefn
 (
@@ -5369,7 +5369,7 @@ return
 VAR
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 getKind
 (
@@ -5521,7 +5521,7 @@ flag
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn_defn
 |
@@ -5588,7 +5588,7 @@ pn
 pn_link
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -5597,7 +5597,7 @@ pn
 pn_defn
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -5633,7 +5633,7 @@ markAsAssigned
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -5688,7 +5688,7 @@ Definition
 )
 this
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lexdef
 (
@@ -5751,7 +5751,7 @@ PNK_ARRAY
 case
 PNK_OBJECT
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 isOp
 (
@@ -5882,7 +5882,7 @@ unsigned
 numFormals
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fn
 -
@@ -5902,7 +5902,7 @@ fn
 >
 pn_body
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argsBody
 -
@@ -5949,7 +5949,7 @@ numFormals
 -
 -
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argsBody
 -

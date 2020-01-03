@@ -1048,7 +1048,7 @@ payloadReg
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baseReg
 !
@@ -1060,7 +1060,7 @@ typeReg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 indexReg
 !
@@ -1095,7 +1095,7 @@ payloadReg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baseReg
 !
@@ -1107,7 +1107,7 @@ payloadReg
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 indexReg
 !
@@ -1192,7 +1192,7 @@ ValueOperand
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 .
@@ -1638,7 +1638,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1674,7 +1674,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1710,7 +1710,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1746,7 +1746,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1802,7 +1802,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1838,7 +1838,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1874,7 +1874,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1910,7 +1910,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1946,7 +1946,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1989,7 +1989,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2034,7 +2034,7 @@ Address
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2082,7 +2082,7 @@ Address
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2121,7 +2121,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2159,7 +2159,7 @@ Operand
 operand
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2198,7 +2198,7 @@ Register
 tag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2260,7 +2260,7 @@ Operand
 operand
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2301,7 +2301,7 @@ Address
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2337,7 +2337,7 @@ Operand
 operand
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2392,7 +2392,7 @@ Address
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2428,7 +2428,7 @@ Operand
 operand
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2786,7 +2786,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2827,7 +2827,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2868,7 +2868,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2909,7 +2909,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2950,7 +2950,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -2991,7 +2991,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -3032,7 +3032,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -3073,7 +3073,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -3128,7 +3128,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -3169,7 +3169,7 @@ BaseIndex
 address
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -3242,7 +3242,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -3759,7 +3759,7 @@ uint32_t
 amount
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 amount
 <
@@ -5355,7 +5355,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -5736,7 +5736,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 !
@@ -5823,7 +5823,7 @@ FloatRegister
 dest
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dest
 !

@@ -162,7 +162,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -173,7 +173,7 @@ pc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JOF_OPTYPE
 (
@@ -258,7 +258,7 @@ while
 true
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ssi
@@ -1086,7 +1086,7 @@ callObjShape
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -1145,7 +1145,7 @@ numFixedSlots
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CanBeFinalizedInBackground
 (
@@ -1367,7 +1367,7 @@ cx
 enclosing
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 )
@@ -1439,7 +1439,7 @@ AbstractFramePtr
 frame
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -1559,7 +1559,7 @@ AbstractFramePtr
 frame
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -1735,7 +1735,7 @@ InitialHeap
 heap
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNurseryAllocable
 (
@@ -1909,7 +1909,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -2328,7 +2328,7 @@ HandleObject
 staticWith
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 staticWith
 -
@@ -3234,7 +3234,7 @@ cx
 frame
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -3347,7 +3347,7 @@ getParent
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3398,7 +3398,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -3409,7 +3409,7 @@ inDictionaryMode
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3518,7 +3518,7 @@ val
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3760,7 +3760,7 @@ bool
 redeclared
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_ATOM
 (
@@ -3768,7 +3768,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -4142,7 +4142,7 @@ redeclared
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 redeclared
@@ -4170,7 +4170,7 @@ aliased
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 aliased
 =
@@ -4316,7 +4316,7 @@ shapes
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -4326,7 +4326,7 @@ hasDefaultGetter
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -4350,7 +4350,7 @@ propid
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_ATOM
 (
@@ -4691,7 +4691,7 @@ redeclared
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 redeclared
@@ -5741,7 +5741,7 @@ scope
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasScopeObject
 (
@@ -5771,7 +5771,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -5850,7 +5850,7 @@ break
 case
 Block
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 staticScope_
 &
@@ -5912,7 +5912,7 @@ break
 case
 With
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 staticScope_
 &
@@ -5928,7 +5928,7 @@ StaticWithObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasScopeObject_
 )
@@ -6045,7 +6045,7 @@ if
 staticScope_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 staticScope_
 -
@@ -6117,7 +6117,7 @@ if
 staticScope_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 staticScope_
 -
@@ -6130,7 +6130,7 @@ StaticBlockObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 staticScope_
@@ -6185,7 +6185,7 @@ hasCallObj
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cur_
 =
@@ -6227,7 +6227,7 @@ hasCallObj
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cur_
 =
@@ -6266,12 +6266,12 @@ StaticWithObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cur_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cur_
 -
@@ -6417,7 +6417,7 @@ script
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cur_
@@ -6431,7 +6431,7 @@ ScopeObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame_
 .
@@ -6733,7 +6733,7 @@ accessResult
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 debugScope
@@ -7070,7 +7070,7 @@ true
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bi
 -
@@ -7428,7 +7428,7 @@ blockIndexToLocalIndex
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 local
 <
@@ -7518,7 +7518,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 scope
 -
@@ -9340,7 +9340,7 @@ HandleObject
 enclosing
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scope
 .
@@ -9397,7 +9397,7 @@ obj
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 enclosing
@@ -9509,7 +9509,7 @@ maybeSnapshot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 scope
@@ -9550,7 +9550,7 @@ JSObject
 o
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 maybeSnapshot
 (
@@ -9667,7 +9667,7 @@ ProxyObject
 proxy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 proxy
 -
@@ -10124,7 +10124,7 @@ DebugScopes
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 missingScopes
 .
@@ -10924,7 +10924,7 @@ scope
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUseDebugScopeMaps
 (
@@ -10971,7 +10971,7 @@ DebugScopeObject
 debugScope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -10988,7 +10988,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -11033,7 +11033,7 @@ scopes
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 scopes
@@ -11111,7 +11111,7 @@ ScopeIter
 si
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 si
@@ -11165,7 +11165,7 @@ si
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CanUseDebugScopeMaps
 (
@@ -11204,7 +11204,7 @@ DebugScopeObject
 debugScope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 si
@@ -11214,7 +11214,7 @@ hasScopeObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -11287,7 +11287,7 @@ scopes
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 scopes
@@ -11358,7 +11358,7 @@ si
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 scopes
@@ -11447,7 +11447,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frame
@@ -11934,7 +11934,7 @@ scopes
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 si
 .
@@ -12389,7 +12389,7 @@ hasScopeObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 si
 .
@@ -12486,7 +12486,7 @@ prevUpToDate
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -12676,7 +12676,7 @@ DeclEnvObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CallObjectLambdaName
 (
@@ -12851,7 +12851,7 @@ ScopeIter
 Call
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 si
@@ -12917,7 +12917,7 @@ DeclEnvObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CallObjectLambdaName
 (
@@ -13180,7 +13180,7 @@ enclosingScope
 )
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 o
@@ -13383,7 +13383,7 @@ cx
 fun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -

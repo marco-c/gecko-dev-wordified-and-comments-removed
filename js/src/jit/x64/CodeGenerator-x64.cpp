@@ -763,7 +763,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -908,7 +908,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -1077,7 +1077,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEqualityOp
 (
@@ -1180,7 +1180,7 @@ LCompareVAndBranch
 RhsInput
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -1503,7 +1503,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrImm
 >
@@ -1936,7 +1936,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrImm
 >
@@ -2400,7 +2400,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -2602,7 +2602,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (

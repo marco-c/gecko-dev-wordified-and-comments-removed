@@ -3133,7 +3133,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsScopeObject
@@ -3556,7 +3556,7 @@ size_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -3628,7 +3628,7 @@ Value
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -3736,7 +3736,7 @@ size_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -7842,7 +7842,7 @@ data
 \
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 GetObjectClass
 (
@@ -9778,7 +9778,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -9871,7 +9871,7 @@ Function
 func
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -9943,7 +9943,7 @@ JSAtom
 atom
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 (
@@ -9969,7 +9969,7 @@ size_t
 atom
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :
@@ -10137,7 +10137,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_VOID
 (

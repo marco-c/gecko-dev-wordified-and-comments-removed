@@ -1772,7 +1772,7 @@ JSFunction
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -1790,7 +1790,7 @@ isAsmJSNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fun
@@ -1803,7 +1803,7 @@ isFunctionPrototype
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInternalFunctionObject
@@ -1812,7 +1812,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -2204,7 +2204,7 @@ name
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsInternalFunctionObject
@@ -2579,7 +2579,7 @@ isInterpretedLazy
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fun
@@ -2994,7 +2994,7 @@ setFunction
 fun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -3891,7 +3891,7 @@ functionCtor
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ctor
 =
@@ -4022,7 +4022,7 @@ proto
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 =
@@ -4762,7 +4762,7 @@ end
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 braced
@@ -4800,7 +4800,7 @@ start
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 bodyStart
@@ -5576,7 +5576,7 @@ if
 funCon
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 buildBody
@@ -5940,7 +5940,7 @@ nullptr
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fun
@@ -6141,7 +6141,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFunctionObject
 (
@@ -6269,7 +6269,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsFunctionObject
 (
@@ -6626,7 +6626,7 @@ iter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -6994,7 +6994,7 @@ getBoundFunctionThis
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBoundFunction
 (
@@ -7024,14 +7024,14 @@ which
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBoundFunction
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <
@@ -7058,7 +7058,7 @@ getBoundFunctionArgumentCount
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBoundFunction
 (
@@ -7089,7 +7089,7 @@ HandleFunction
 fun
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -7420,7 +7420,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 lazy
 -
@@ -7606,7 +7606,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -7699,7 +7699,7 @@ nonLazyScript
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -7709,7 +7709,7 @@ isRelazifiable
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 compartment
@@ -7722,7 +7722,7 @@ hasBeenEntered
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 compartment
@@ -7802,7 +7802,7 @@ if
 lazy
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isSelfHostedBuiltin
@@ -7848,21 +7848,21 @@ lazyScript
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isSelfHostedBuiltin
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isExtended
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getExtendedSlot
 (
@@ -7925,7 +7925,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -8590,7 +8590,7 @@ JSMSG_BAD_FORMAL
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -8772,7 +8772,7 @@ generatorKind
 =
 StarGenerator
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 generatorKind
 !
@@ -9458,7 +9458,7 @@ formals
 i
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -9942,7 +9942,7 @@ NewObjectKind
 newKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocKind
 =
@@ -9962,7 +9962,7 @@ JSFunction
 ExtendedFinalizeKind
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -9985,7 +9985,7 @@ FinalizeKind
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (
@@ -10020,7 +10020,7 @@ if
 funobj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 funobj
 -
@@ -10033,7 +10033,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 funobj
 -
@@ -10173,7 +10173,7 @@ isInterpreted
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 native
@@ -10202,7 +10202,7 @@ parent
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -10212,7 +10212,7 @@ isNative
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 native
 )
@@ -10279,12 +10279,12 @@ NewObjectKind
 newKindArg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fun
@@ -10985,7 +10985,7 @@ isObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thisv
 .
@@ -11055,7 +11055,7 @@ isString
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -11078,7 +11078,7 @@ isNumber
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -11101,7 +11101,7 @@ isBoolean
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -11124,7 +11124,7 @@ isSymbol
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 !
@@ -11139,7 +11139,7 @@ class_
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 thisv
 .
@@ -11456,7 +11456,7 @@ JSFunction
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -
@@ -11474,7 +11474,7 @@ isNativeConstructor
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 -

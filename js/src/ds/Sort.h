@@ -37,7 +37,7 @@ size_t
 nelems
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nelems
 !
@@ -102,7 +102,7 @@ Comparator
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 run1
 >
@@ -110,7 +110,7 @@ run1
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 run2
 >

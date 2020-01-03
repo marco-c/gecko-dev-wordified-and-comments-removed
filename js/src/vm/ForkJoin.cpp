@@ -1246,7 +1246,7 @@ waitBackgroundSweepEnd
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -1262,7 +1262,7 @@ needsIncrementalBarrier
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -1322,7 +1322,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -1334,7 +1334,7 @@ length
 5
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1346,7 +1346,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1365,7 +1365,7 @@ JSFunction
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1377,7 +1377,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1389,7 +1389,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1401,7 +1401,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -1415,7 +1415,7 @@ toInt32
 NumForkJoinModes
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -2195,7 +2195,7 @@ SpewEndOp
 status
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 worklist_
 .
@@ -3001,7 +3001,7 @@ lineno
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -3062,7 +3062,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -3298,7 +3298,7 @@ hasParallelIonScript
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 worklistData_
 [
@@ -3326,7 +3326,7 @@ clearHasUncompiledCallTarget
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 worklistData_
 [
@@ -3373,7 +3373,7 @@ ExecutionStatus
 status
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 worklist_
 [
@@ -3528,7 +3528,7 @@ ExecutionStatus
 status
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 )
@@ -5722,7 +5722,7 @@ ExecutionStatus
 status
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ForkJoinContext
 :
@@ -6077,7 +6077,7 @@ argv_
 2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 argc
 <
@@ -7052,7 +7052,7 @@ compartment
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -7178,7 +7178,7 @@ invoke
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ok
 =
@@ -7252,7 +7252,7 @@ ForkJoinContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx_
 -
@@ -7265,7 +7265,7 @@ runtime
 interruptPar
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx_
@@ -7842,7 +7842,7 @@ acquireJSContext
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 acquiredJSContext_
@@ -7864,7 +7864,7 @@ releaseJSContext
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 acquiredJSContext_
 )
@@ -9510,7 +9510,7 @@ SpewOps
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 >
@@ -9789,7 +9789,7 @@ SpewCompile
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 >
@@ -10397,7 +10397,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argc
 =
@@ -10405,7 +10405,7 @@ argc
 3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -10434,7 +10434,7 @@ TypedObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -10446,7 +10446,7 @@ isInt32
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [

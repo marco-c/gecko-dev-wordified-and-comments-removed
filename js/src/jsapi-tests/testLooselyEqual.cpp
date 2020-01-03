@@ -343,7 +343,7 @@ copysign
 _copysign
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 copysign
 (
@@ -363,7 +363,7 @@ toDouble
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 copysign
 (

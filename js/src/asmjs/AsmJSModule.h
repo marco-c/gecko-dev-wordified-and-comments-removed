@@ -372,7 +372,7 @@ scalar_
 =
 v
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lit
@@ -416,7 +416,7 @@ simd_
 =
 c
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 lit
 .
@@ -445,7 +445,7 @@ toInt32
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -481,7 +481,7 @@ toDouble
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -505,7 +505,7 @@ toFloat
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 =
@@ -532,7 +532,7 @@ scalarValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which_
 !
@@ -576,7 +576,7 @@ simdValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isSimd
 (
@@ -846,7 +846,7 @@ varIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -872,7 +872,7 @@ varInitKind
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -900,7 +900,7 @@ varInitNumLit
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -910,7 +910,7 @@ which_
 Variable
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -942,7 +942,7 @@ varInitCoercion
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -952,7 +952,7 @@ which_
 Variable
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -985,7 +985,7 @@ varImportField
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -995,7 +995,7 @@ which_
 Variable
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1020,7 +1020,7 @@ ffiField
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1040,7 +1040,7 @@ ffiIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1065,7 +1065,7 @@ viewName
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1088,7 +1088,7 @@ viewType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1113,7 +1113,7 @@ mathName
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1133,7 +1133,7 @@ mathBuiltinFunction
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1157,7 +1157,7 @@ simdCtorType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1182,7 +1182,7 @@ simdCtorName
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1203,7 +1203,7 @@ simdOperationName
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1223,7 +1223,7 @@ simdOperation
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1249,7 +1249,7 @@ simdOperationType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1276,7 +1276,7 @@ constantName
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1296,7 +1296,7 @@ constantKind
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1322,7 +1322,7 @@ constantValue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -1465,7 +1465,7 @@ unsigned
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 interpCodeOffset_
@@ -1483,7 +1483,7 @@ unsigned
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ionCodeOffset_
@@ -1850,7 +1850,7 @@ unsigned
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pod
 .
@@ -2281,7 +2281,7 @@ entry
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2314,7 +2314,7 @@ profilingJump
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2337,7 +2337,7 @@ profilingEpilogue
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2360,7 +2360,7 @@ profilingReturn
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2392,7 +2392,7 @@ functionNameIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2414,7 +2414,7 @@ module
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2446,7 +2446,7 @@ module
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2472,7 +2472,7 @@ functionLineNumber
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunction
 (
@@ -2492,7 +2492,7 @@ thunkTarget
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isThunk
 (
@@ -2756,7 +2756,7 @@ name
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 -
@@ -2914,7 +2914,7 @@ blocksVector
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 -
@@ -3012,7 +3012,7 @@ defined
 (
 JS_CODEGEN_ARM
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -3112,7 +3112,7 @@ size_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -3141,7 +3141,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -3616,7 +3616,7 @@ scriptSource
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scriptSource_
 )
@@ -3769,7 +3769,7 @@ PropertyName
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -3801,7 +3801,7 @@ PropertyName
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -3833,7 +3833,7 @@ PropertyName
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -3902,7 +3902,7 @@ uint32_t
 globalIndex
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4083,7 +4083,7 @@ uint32_t
 globalIndex
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4183,7 +4183,7 @@ uint32_t
 ffiIndex
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4252,7 +4252,7 @@ PropertyName
 field
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4305,7 +4305,7 @@ PropertyName
 field
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4352,7 +4352,7 @@ PropertyName
 field
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4510,7 +4510,7 @@ PropertyName
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4598,7 +4598,7 @@ startFunctionBodies
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinishedWithModulePrologue
@@ -4612,7 +4612,7 @@ funcPtrTableAndExitBytes_
 =
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -4627,7 +4627,7 @@ uint32_t
 len
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -4735,7 +4735,7 @@ AsmJSFunctionLabels
 labels
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isFinished
@@ -4743,7 +4743,7 @@ isFinished
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 name
 -
@@ -4847,7 +4847,7 @@ unsigned
 exitIndex
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -4941,7 +4941,7 @@ numExits
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -4964,7 +4964,7 @@ unsigned
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -4988,7 +4988,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5012,7 +5012,7 @@ uint32_t
 globalDataOffset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5025,7 +5025,7 @@ isFinished
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsPowerOfTwo
 (
@@ -5105,7 +5105,7 @@ IonScriptCounts
 counts
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5155,7 +5155,7 @@ unsigned
 column
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5193,7 +5193,7 @@ numProfiledFunctions
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5216,7 +5216,7 @@ unsigned
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5255,7 +5255,7 @@ BasicBlocksVector
 basicBlocks
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5299,7 +5299,7 @@ numPerfBlocksFunctions
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5322,7 +5322,7 @@ unsigned
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5345,7 +5345,7 @@ size_t
 functionBytes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -5364,7 +5364,7 @@ functionBytes_
 =
 functionBytes
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithFunctionBodies
 (
@@ -5393,7 +5393,7 @@ ReturnType
 returnType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithFunctionBodies
 (
@@ -5406,14 +5406,14 @@ isFinished
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 srcStart_
 <
 funcSrcBegin
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 funcSrcBegin
 <
@@ -5471,7 +5471,7 @@ numExportedFunctions
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithFunctionBodies
 (
@@ -5496,7 +5496,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithFunctionBodies
 (
@@ -5518,7 +5518,7 @@ unsigned
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithFunctionBodies
 (
@@ -5565,7 +5565,7 @@ hasArrayView
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5584,7 +5584,7 @@ numFFIs
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5603,7 +5603,7 @@ srcEndBeforeCurly
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5624,7 +5624,7 @@ srcEndAfterCurly
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5646,14 +5646,14 @@ codeBase
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -5676,7 +5676,7 @@ functionBytes
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5695,7 +5695,7 @@ codeBytes
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5717,7 +5717,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5751,7 +5751,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5787,14 +5787,14 @@ exit
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 exit
 .
@@ -5820,14 +5820,14 @@ exit
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 exit
 .
@@ -5887,7 +5887,7 @@ offsetOfGlobalData
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -5907,7 +5907,7 @@ globalData
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -6077,7 +6077,7 @@ heapDatum
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -6263,14 +6263,14 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -6300,14 +6300,14 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -6347,7 +6347,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -6380,7 +6380,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -6464,7 +6464,7 @@ index
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 g
 .
@@ -6513,14 +6513,14 @@ globalDataOffset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 globalDataOffset
 <
@@ -6552,7 +6552,7 @@ exitIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinishedWithModulePrologue
 (
@@ -6579,7 +6579,7 @@ exitIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -6612,7 +6612,7 @@ exitIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -6654,7 +6654,7 @@ RelativeLink
 link
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFinished
 (
@@ -6726,7 +6726,7 @@ setIsDynamicallyLinked
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isDynamicallyLinked
@@ -6738,7 +6738,7 @@ dynamicallyLinked_
 =
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isDynamicallyLinked
 (
@@ -6799,7 +6799,7 @@ func
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDynamicallyLinked
 (
@@ -6827,7 +6827,7 @@ interruptExit
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDynamicallyLinked
 (
@@ -6845,7 +6845,7 @@ maybeHeap
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDynamicallyLinked
 (
@@ -6865,7 +6865,7 @@ maybeHeapBufferObject
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDynamicallyLinked
 (
@@ -6882,7 +6882,7 @@ heapLength
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDynamicallyLinked
 (
@@ -6908,7 +6908,7 @@ profilingEnabled
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDynamicallyLinked
 (

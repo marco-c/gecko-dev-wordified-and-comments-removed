@@ -445,7 +445,7 @@ setUnreachable
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unreachable_
@@ -1120,7 +1120,7 @@ domIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isDead
@@ -1169,7 +1169,7 @@ block
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 block
@@ -1253,7 +1253,7 @@ lastIns
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasLastIns
 (
@@ -1401,7 +1401,7 @@ MInstruction
 at
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 at
 -
@@ -1457,7 +1457,7 @@ MInstruction
 at
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 at
 -
@@ -1511,14 +1511,14 @@ hasUniqueBackedge
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLoopHeader
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numPredecessors
 (
@@ -1544,7 +1544,7 @@ backedge
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasUniqueBackedge
 (
@@ -1569,7 +1569,7 @@ loopHeaderOfBackedge
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLoopBackedge
 (
@@ -1594,7 +1594,7 @@ loopPredecessor
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isLoopHeader
 (
@@ -1875,7 +1875,7 @@ numDominated
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 numDominated_
 !
@@ -2061,7 +2061,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -2101,7 +2101,7 @@ LBlock
 lir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lir_
@@ -2261,7 +2261,7 @@ BytecodeSite
 site
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 site
 .
@@ -2882,7 +2882,7 @@ MBasicBlock
 block
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -2918,7 +2918,7 @@ MBasicBlock
 block
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -3045,7 +3045,7 @@ MBasicBlock
 osrBlock
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 osrBlock_

@@ -1076,7 +1076,7 @@ asRope
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isRope
 (
@@ -1114,7 +1114,7 @@ asLinear
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -1163,7 +1163,7 @@ asDependent
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isDependent
 (
@@ -1204,7 +1204,7 @@ asFlat
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isFlat
 (
@@ -1250,7 +1250,7 @@ asExtensible
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isExtensible
 (
@@ -1291,7 +1291,7 @@ asInline
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isInline
 (
@@ -1358,7 +1358,7 @@ asExternal
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isExternal
 (
@@ -1443,7 +1443,7 @@ asAtom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isAtom
 (
@@ -2034,7 +2034,7 @@ leftChild
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isRope
 (
@@ -2059,7 +2059,7 @@ rightChild
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isRope
 (
@@ -2195,7 +2195,7 @@ nonInlineCharsRaw
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInline
@@ -2317,7 +2317,7 @@ nogc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInline
@@ -2325,7 +2325,7 @@ isInline
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasLatin1Chars
 (
@@ -2358,7 +2358,7 @@ nogc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInline
@@ -2366,7 +2366,7 @@ isInline
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTwoByteChars
 (
@@ -2474,7 +2474,7 @@ nogc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -2527,7 +2527,7 @@ nogc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -2942,7 +2942,7 @@ indexp
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -3141,7 +3141,7 @@ capacity
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -3287,7 +3287,7 @@ nogc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -3297,7 +3297,7 @@ isInline
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasLatin1Chars
 (
@@ -3326,7 +3326,7 @@ nogc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -3336,7 +3336,7 @@ isInline
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTwoByteChars
 (
@@ -3805,7 +3805,7 @@ externalFinalizer
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -4335,7 +4335,7 @@ uint32_t
 u
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasUint
 (
@@ -4375,7 +4375,7 @@ int32_t
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasInt
 (
@@ -4415,7 +4415,7 @@ char16_t
 c
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasUnit
 (
@@ -4764,7 +4764,7 @@ uint32_t
 u
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 u
 <
@@ -5204,7 +5204,7 @@ char16_t
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -5427,14 +5427,14 @@ base
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasBase
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 d
@@ -5839,7 +5839,7 @@ rawLatin1Chars
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -5849,7 +5849,7 @@ isLinear
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasLatin1Chars
 (
@@ -5886,7 +5886,7 @@ rawTwoByteChars
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :
@@ -5896,7 +5896,7 @@ isLinear
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTwoByteChars
 (
@@ -5940,7 +5940,7 @@ DEBUG
 uint32_t
 dummy
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isIndex

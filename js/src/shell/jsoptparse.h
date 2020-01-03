@@ -686,7 +686,7 @@ end
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 -
@@ -715,7 +715,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -735,7 +735,7 @@ front
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -756,7 +756,7 @@ argno
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty

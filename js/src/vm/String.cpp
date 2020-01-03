@@ -133,7 +133,7 @@ isRope
 return
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isLinear
 (
@@ -149,7 +149,7 @@ isDependent
 return
 0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isFlat
 (
@@ -1212,7 +1212,7 @@ popCopy
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 =
@@ -1582,7 +1582,7 @@ char16_t
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 -
@@ -1658,7 +1658,7 @@ u2
 .
 left
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 child
 -
@@ -2122,7 +2122,7 @@ str
 this
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 =
@@ -2389,7 +2389,7 @@ Tag_VisitRightChild
 goto
 visit_right_child
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 flattenData
@@ -3092,7 +3092,7 @@ ExclusiveContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSString
 :

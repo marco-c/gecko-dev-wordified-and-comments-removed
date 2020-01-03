@@ -392,7 +392,7 @@ JSOp
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -524,7 +524,7 @@ cs
 .
 nuses
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js_CodeSpec
 [
@@ -554,7 +554,7 @@ pc
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -629,7 +629,7 @@ js_CodeSpec
 op
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cs
 .
@@ -903,7 +903,7 @@ size_t
 which
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 which
 <
@@ -1226,7 +1226,7 @@ Sprinter
 sp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -2002,7 +2002,7 @@ uint32_t
 depth
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 =
@@ -2210,7 +2210,7 @@ code
 .
 stackDepth
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 operand
 >
@@ -2219,7 +2219,7 @@ operand
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 uint32_t
 (
@@ -2397,7 +2397,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -2409,7 +2409,7 @@ length
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 codeArray_
 [
@@ -2456,7 +2456,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -2567,7 +2567,7 @@ script_
 offset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackDepth
 >
@@ -2580,7 +2580,7 @@ stackDepth
 =
 nuses
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackDepth
 +
@@ -2629,7 +2629,7 @@ break
 case
 JSOP_CASE
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 ndefs
 =
@@ -2642,7 +2642,7 @@ break
 case
 JSOP_DUP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 ndefs
 =
@@ -2671,7 +2671,7 @@ break
 case
 JSOP_DUP2
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 ndefs
 =
@@ -2717,7 +2717,7 @@ case
 JSOP_DUPAT
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ndefs
 =
@@ -2745,7 +2745,7 @@ GET_UINT24
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <
@@ -2776,7 +2776,7 @@ break
 case
 JSOP_SWAP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 ndefs
 =
@@ -2850,7 +2850,7 @@ uint32_t
 offsetStack
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -2969,7 +2969,7 @@ parse
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 codeArray_
@@ -3150,7 +3150,7 @@ JSOp
 *
 pc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 <
@@ -3525,7 +3525,7 @@ op
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 successorOffset
 <
@@ -4045,7 +4045,7 @@ if
 sn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 SN_IS_TERMINATOR
@@ -5907,7 +5907,7 @@ print_int
 case
 JOF_UINT24
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -5975,7 +5975,7 @@ print_int
 case
 JOF_INT32
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 op
 =
@@ -6083,7 +6083,7 @@ size_t
 newSize
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newSize
 >
@@ -6218,7 +6218,7 @@ init
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initialized
@@ -6289,12 +6289,12 @@ checkInvariants
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 size_t
@@ -6304,7 +6304,7 @@ offset
 size
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 [
@@ -6362,7 +6362,7 @@ off
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 off
 >
@@ -6397,7 +6397,7 @@ size_t
 off
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 off
 <
@@ -7831,7 +7831,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -8113,7 +8113,7 @@ script
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 atom
 )
@@ -8738,12 +8738,12 @@ unsigned
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -8785,7 +8785,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 local
 <
@@ -8809,7 +8809,7 @@ nbodyfixed
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 )
@@ -8826,7 +8826,7 @@ nargs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -9219,7 +9219,7 @@ numFrameSlots
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 >
@@ -9368,7 +9368,7 @@ char
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 spindex
 <
@@ -9478,7 +9478,7 @@ callee
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -9707,7 +9707,7 @@ char
 res
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 formalIndex
 >
@@ -9734,7 +9734,7 @@ frameIter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 frameIter
@@ -9820,7 +9820,7 @@ callee
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -9910,7 +9910,7 @@ current
 +
 formalIndex
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 formalStackIndex
 >
@@ -10245,7 +10245,7 @@ runtime
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -10417,7 +10417,7 @@ profilingScripts
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -10636,7 +10636,7 @@ scriptAndCountsVector
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt

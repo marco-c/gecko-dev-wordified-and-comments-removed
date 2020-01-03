@@ -244,7 +244,7 @@ frameSize
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 class_
 !
@@ -252,7 +252,7 @@ class_
 NO_FRAME_SIZE_CLASS_ID
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 class_
 <
@@ -499,7 +499,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 a
@@ -760,7 +760,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -971,7 +971,7 @@ rhs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -1211,7 +1211,7 @@ output
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsEqualityOp
 (
@@ -1399,7 +1399,7 @@ LCompareVAndBranch
 RhsInput
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -2348,7 +2348,7 @@ float
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -3275,7 +3275,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -3492,7 +3492,7 @@ type
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumberType
 (
@@ -3864,7 +3864,7 @@ AddCacheState
 addState
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -3960,7 +3960,7 @@ AddCacheState
 addState
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4056,7 +4056,7 @@ AddCacheState
 addState
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -4139,7 +4139,7 @@ AddCacheState
 addState
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -

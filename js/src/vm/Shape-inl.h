@@ -158,7 +158,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasDefaultGetter
@@ -653,7 +653,7 @@ recoverFromOutOfMemory
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 start
@@ -966,7 +966,7 @@ Shape
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -

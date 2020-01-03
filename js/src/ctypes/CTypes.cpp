@@ -4412,12 +4412,12 @@ fnproto
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ctor
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fnproto
 )
@@ -4635,7 +4635,7 @@ fun
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ctor
 )
@@ -5196,7 +5196,7 @@ ctor
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 clasp
 =
@@ -5957,7 +5957,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCTypesGlobal
 (
@@ -6314,12 +6314,12 @@ JSCTypesCallbacks
 callbacks
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callbacks
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCTypesGlobal
 (
@@ -7747,7 +7747,7 @@ toBoolean
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 result
@@ -9508,7 +9508,7 @@ cp
 -
 '
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cp
 >
@@ -9601,7 +9601,7 @@ MutableHandleValue
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parentObj
@@ -9616,7 +9616,7 @@ parentObj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 parentObj
@@ -9626,7 +9626,7 @@ parentObj
 ownResult
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 wantPrimitive
@@ -10410,7 +10410,7 @@ cx
 targetType_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -15562,7 +15562,7 @@ typeProto
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
@@ -16331,7 +16331,7 @@ toPrivate
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fninfo
 )
@@ -16464,7 +16464,7 @@ JSObject
 typeObj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCType
 (
@@ -16506,7 +16506,7 @@ JSObject
 t2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCType
 (
@@ -16869,7 +16869,7 @@ size_t
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -16939,7 +16939,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 .
@@ -16963,7 +16963,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -16983,7 +16983,7 @@ obj
 SLOT_SIZE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 size
@@ -17033,7 +17033,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -17053,7 +17053,7 @@ obj
 SLOT_SIZE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 .
@@ -17096,7 +17096,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -17145,7 +17145,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -17298,7 +17298,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -17403,12 +17403,12 @@ toObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -17454,7 +17454,7 @@ CTypeProtoSlot
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCType
 (
@@ -17489,12 +17489,12 @@ proto
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -17514,7 +17514,7 @@ proto
 slot
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 .
@@ -18453,7 +18453,7 @@ bool
 bp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -18492,12 +18492,12 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 prototype
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CData
 :
@@ -18600,7 +18600,7 @@ JSObject
 objArg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -18638,12 +18638,12 @@ objTypeProto
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 objTypeProto
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -18663,7 +18663,7 @@ objTypeProto
 SLOT_CTYPES
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 valCTypes
 .
@@ -19607,7 +19607,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -19630,7 +19630,7 @@ obj
 SLOT_TARGET_T
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 type
@@ -21567,7 +21567,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21578,7 +21578,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21601,7 +21601,7 @@ obj
 SLOT_ELEMENT_T
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 type
@@ -21634,7 +21634,7 @@ size_t
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21645,7 +21645,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21718,7 +21718,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 .
@@ -21742,7 +21742,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21753,7 +21753,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21776,7 +21776,7 @@ obj
 SLOT_LENGTH
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 length
@@ -21830,7 +21830,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21841,7 +21841,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -21855,7 +21855,7 @@ obj
 TYPE_array
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -22317,7 +22317,7 @@ SLOT_LENGTH
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -24460,7 +24460,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -24471,7 +24471,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -24485,7 +24485,7 @@ obj
 TYPE_struct
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -24717,7 +24717,7 @@ fieldType
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 structSize
 =
@@ -24725,7 +24725,7 @@ structSize
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 structAlign
 =
@@ -24826,7 +24826,7 @@ get
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 status
 =
@@ -24834,7 +24834,7 @@ status
 FFI_OK
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 structSize
 =
@@ -24845,7 +24845,7 @@ ffiType
 size
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 structAlign
 =
@@ -25472,7 +25472,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -25483,7 +25483,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -25506,7 +25506,7 @@ obj
 SLOT_FIELDINFO
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 slot
@@ -25558,7 +25558,7 @@ JSFlatString
 name
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -25569,7 +25569,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -25666,7 +25666,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -25677,7 +25677,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -25691,7 +25691,7 @@ obj
 TYPE_struct
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -27045,7 +27045,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -27202,7 +27202,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 typeCode
 =
@@ -28569,7 +28569,7 @@ jsval
 errVal
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -29862,7 +29862,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -29873,7 +29873,7 @@ obj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -29896,7 +29896,7 @@ obj
 SLOT_FNINFO
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 slot
@@ -30371,7 +30371,7 @@ cx
 errVal_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fnObj
 )
@@ -30414,7 +30414,7 @@ GetFunctionInfo
 typeObj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fninfo
@@ -30423,7 +30423,7 @@ fninfo
 mIsVariadic
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 GetABICode
 (
@@ -30493,12 +30493,12 @@ proto
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 proto
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -30573,7 +30573,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -31023,22 +31023,22 @@ void
 userData
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cif
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 userData
 )
@@ -31152,7 +31152,7 @@ GetFunctionInfo
 typeObj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cif
 =
@@ -31492,7 +31492,7 @@ fninfo
 mReturnType
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 copySize
 <
@@ -31707,12 +31707,12 @@ bool
 ownResult
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 typeObj
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -31723,7 +31723,7 @@ typeObj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -31734,7 +31734,7 @@ typeObj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ownResult
 |
@@ -31767,7 +31767,7 @@ typeObj
 SLOT_PROTO
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 .
@@ -31798,7 +31798,7 @@ typeObj
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
@@ -32128,7 +32128,7 @@ JSObject
 dataObj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CData
 :
@@ -32158,7 +32158,7 @@ toObjectOrNull
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -32185,7 +32185,7 @@ JSObject
 dataObj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CData
 :
@@ -32224,12 +32224,12 @@ toPrivate
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 buffer
@@ -36389,7 +36389,7 @@ obj
 SLOT_DATAFINALIZER_VALTYPE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 valType
 .
@@ -36433,7 +36433,7 @@ obj
 SLOT_DATAFINALIZER_CODETYPE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 valCodePtrType
 .
@@ -36465,12 +36465,12 @@ GetBaseType
 objCodePtrType
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 objCodeType
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CType
 :
@@ -36749,7 +36749,7 @@ obj
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 CDataFinalizer
 :
@@ -36979,7 +36979,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 Int64
 :
@@ -37508,7 +37508,7 @@ toObjectOrNull
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -38429,7 +38429,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -38609,7 +38609,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (
@@ -39487,7 +39487,7 @@ toObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_GetClass
 (

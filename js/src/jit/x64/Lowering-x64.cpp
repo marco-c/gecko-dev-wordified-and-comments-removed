@@ -82,7 +82,7 @@ bool
 useAtStart
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -148,7 +148,7 @@ reg1
 Register
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -394,7 +394,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 box
 -
@@ -518,7 +518,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -622,7 +622,7 @@ MAsmJSUnsignedToDouble
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -682,7 +682,7 @@ MAsmJSUnsignedToFloat32
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -753,7 +753,7 @@ ptr
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -
@@ -896,7 +896,7 @@ ptr
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -

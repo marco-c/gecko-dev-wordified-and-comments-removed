@@ -241,7 +241,7 @@ n
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 =
@@ -283,7 +283,7 @@ Value
 extra
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 =
@@ -317,7 +317,7 @@ size_t
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 =
@@ -349,7 +349,7 @@ size_t
 n
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 >
@@ -357,7 +357,7 @@ n
 PROXY_MINIMUM_SLOTS
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 n
 <

@@ -263,7 +263,7 @@ front
 key
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gc
@@ -276,7 +276,7 @@ k
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gc
@@ -294,7 +294,7 @@ value
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 k
 =
@@ -491,7 +491,7 @@ popFront
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gc

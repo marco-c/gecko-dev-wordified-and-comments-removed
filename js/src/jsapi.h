@@ -396,7 +396,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -426,7 +426,7 @@ unsigned
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -2662,7 +2662,7 @@ size_t
 len
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 startIndex
 +
@@ -2736,7 +2736,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -3415,7 +3415,7 @@ take
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ownsChars_
 )
@@ -5188,7 +5188,7 @@ mContext
 =
 cx
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_IsInRequest
 (
@@ -5212,7 +5212,7 @@ JSAutoCheckRequest
 #
 ifdef
 JS_DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_IsInRequest
 (
@@ -7992,7 +7992,7 @@ i
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 idArray
 )
@@ -9658,7 +9658,7 @@ zonePointer
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -16960,7 +16960,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 funObj
 )
@@ -17667,7 +17667,7 @@ jsid
 id
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_STRING
 (
@@ -17699,7 +17699,7 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_StringIsFlat
 (
@@ -17927,7 +17927,7 @@ str
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -17968,7 +17968,7 @@ char
 bytes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 mBytes
@@ -17991,13 +17991,13 @@ JSString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 mBytes
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )
@@ -18043,13 +18043,13 @@ HandleString
 str
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 mBytes
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 )

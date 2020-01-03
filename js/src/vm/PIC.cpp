@@ -103,7 +103,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initialized_
@@ -506,7 +506,7 @@ bool
 optimized
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 array
 -
@@ -519,7 +519,7 @@ ArrayObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 optimized
 )
@@ -577,7 +577,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized_
 )
@@ -589,7 +589,7 @@ disabled_
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isArrayStateStillSane
 (
@@ -825,7 +825,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -946,7 +946,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 disabled_
@@ -1013,7 +1013,7 @@ eraseChain
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 disabled_
@@ -1471,7 +1471,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx

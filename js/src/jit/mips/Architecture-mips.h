@@ -1725,7 +1725,7 @@ other
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInvalid
@@ -1733,7 +1733,7 @@ isInvalid
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 other
@@ -1890,7 +1890,7 @@ code
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isInvalid

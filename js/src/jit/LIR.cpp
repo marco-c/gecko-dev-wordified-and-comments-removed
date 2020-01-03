@@ -150,7 +150,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 constantPoolMap_
 .
@@ -738,7 +738,7 @@ rbegin
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 last
 -
@@ -748,7 +748,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 last
 -
@@ -2646,7 +2646,7 @@ LSnapshot
 snapshot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 snapshot_
@@ -3020,7 +3020,7 @@ TempAllocator
 alloc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 safepoint_
@@ -3037,7 +3037,7 @@ LSafepoint
 alloc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint_
 )

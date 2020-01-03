@@ -106,7 +106,7 @@ runningInJit
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Max
 (
@@ -339,7 +339,7 @@ argsObjAliasesFormals
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callObj
 &
@@ -555,7 +555,7 @@ nargs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numActuals
 <
@@ -563,7 +563,7 @@ numActuals
 totalArgs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numFormals
 <
@@ -571,7 +571,7 @@ numFormals
 totalArgs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Max
 (
@@ -764,7 +764,7 @@ nargs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numActuals
 <
@@ -772,7 +772,7 @@ numActuals
 totalArgs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numFormals
 <
@@ -780,7 +780,7 @@ numFormals
 totalArgs
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 Max
 (
@@ -1321,7 +1321,7 @@ ArgumentsObject
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argsobj
 .
@@ -1333,7 +1333,7 @@ initialLength
 numActuals
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 argsobj
@@ -1362,7 +1362,7 @@ AbstractFramePtr
 frame
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -1589,7 +1589,7 @@ calleeToken
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -1948,7 +1948,7 @@ initialLength
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_ATOM
 (
@@ -2048,7 +2048,7 @@ attrs
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -2177,7 +2177,7 @@ true
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_ATOM
 (
@@ -2691,7 +2691,7 @@ arg
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_ATOM
 (
@@ -2786,7 +2786,7 @@ attrs
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -2873,7 +2873,7 @@ true
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSID_IS_ATOM
 (

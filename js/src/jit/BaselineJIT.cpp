@@ -186,7 +186,7 @@ R0
 return
 SlotInR0
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 stackVal
 -
@@ -203,7 +203,7 @@ return
 SlotInR1
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 stackVal
 -
@@ -470,7 +470,7 @@ IonExec_Aborted
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -623,7 +623,7 @@ clearRunningInJit
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -851,7 +851,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -1233,7 +1233,7 @@ JSScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -1244,7 +1244,7 @@ hasBaselineScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -1254,7 +1254,7 @@ canBaselineCompile
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsBaselineEnabled
 (
@@ -1398,7 +1398,7 @@ bool
 osr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 jit
 :
@@ -1557,7 +1557,7 @@ nonLazyScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 original
 !
@@ -1883,7 +1883,7 @@ Method_CantCompile
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 state
 .
@@ -2371,7 +2371,7 @@ script
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 fop
 -
@@ -2412,7 +2412,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -2441,7 +2441,7 @@ size_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -2691,7 +2691,7 @@ maybeICEntryFromReturnOffset
 returnOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 result
 )
@@ -3064,7 +3064,7 @@ curEntry
 +
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 curEntry
 -
@@ -3109,7 +3109,7 @@ uint8_t
 returnAddr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 returnAddr
 >
@@ -3121,7 +3121,7 @@ raw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 returnAddr
 <
@@ -3172,7 +3172,7 @@ uint8_t
 returnAddr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 returnAddr
 >
@@ -3184,7 +3184,7 @@ raw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 returnAddr
 <
@@ -3437,7 +3437,7 @@ CompactBufferWriter
 entries
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entries
 .
@@ -3448,7 +3448,7 @@ length
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entries
 .
@@ -3599,7 +3599,7 @@ pcOffset
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 >
@@ -3619,7 +3619,7 @@ pcMappingIndexEntry
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pcOffset
 >
@@ -3659,7 +3659,7 @@ entry
 .
 nativeOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -3670,7 +3670,7 @@ curPC
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curPC
 <
@@ -3789,7 +3789,7 @@ uint8_t
 nativeAddress
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -3802,7 +3802,7 @@ baselineScript
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeAddress
 >
@@ -3815,7 +3815,7 @@ raw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeAddress
 <
@@ -3891,7 +3891,7 @@ bool
 isReturn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -3904,7 +3904,7 @@ baselineScript
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeOffset
 <
@@ -3949,7 +3949,7 @@ nativeOffset
 break
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 >
@@ -4010,7 +4010,7 @@ entry
 .
 nativeOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -4141,7 +4141,7 @@ uint8_t
 nativeAddress
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -4154,7 +4154,7 @@ baselineScript
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeAddress
 >
@@ -4167,7 +4167,7 @@ raw
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeAddress
 <
@@ -4218,7 +4218,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -4314,7 +4314,7 @@ entry
 .
 nativeOffset
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -4454,7 +4454,7 @@ bool
 enable
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enable
 =
@@ -4770,7 +4770,7 @@ zone
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lastStub
 -
@@ -4843,7 +4843,7 @@ next
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stub
 -

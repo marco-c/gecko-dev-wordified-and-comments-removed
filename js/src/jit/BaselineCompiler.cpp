@@ -499,7 +499,7 @@ autoEnterAnalysis
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -841,7 +841,7 @@ entry
 nativeOffset
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 entry
@@ -885,7 +885,7 @@ toByte
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -1115,7 +1115,7 @@ code
 ;
 #
 endif
-JS_ASSERT
+MOZ_ASSERT
 (
 pcMappingIndexEntries
 .
@@ -1138,7 +1138,7 @@ pcMappingIndexEntries
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pcEntries
 .
@@ -1629,7 +1629,7 @@ n
 -
 toPushExtra
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 toPush
 %
@@ -1639,7 +1639,7 @@ LOOP_UNROLL_FACTOR
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 toPush
 >
@@ -3421,7 +3421,7 @@ pc
 loopEntryInCatchOrFinally
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -3443,7 +3443,7 @@ if
 allowOsr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -3711,12 +3711,12 @@ emitDebugTrap
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 debugMode_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -3799,7 +3799,7 @@ back
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 &
@@ -3888,7 +3888,7 @@ toggledJump
 noPush
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -3934,7 +3934,7 @@ bind
 noPush
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 spsPushToggleOffset_
 .
@@ -4027,7 +4027,7 @@ emitBody
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pc
 =
@@ -4386,7 +4386,7 @@ pc
 #
 endif
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -7973,7 +7973,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 key
 =
@@ -10199,7 +10199,7 @@ attrs
 =
 JSPROP_PERMANENT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 attrs
 <
@@ -10537,7 +10537,7 @@ emitInitPropGetterSetter
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -10742,7 +10742,7 @@ emitInitElemGetterSetter
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -11803,7 +11803,7 @@ emitCall
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCallPC
 (
@@ -11904,7 +11904,7 @@ emitSpreadCall
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCallPC
 (
@@ -13477,7 +13477,7 @@ emit_JSOP_RETURN
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -13510,7 +13510,7 @@ emit_JSOP_RETRVAL
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frame
 .
@@ -14130,7 +14130,7 @@ emit_JSOP_CALLEE
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 function
 (

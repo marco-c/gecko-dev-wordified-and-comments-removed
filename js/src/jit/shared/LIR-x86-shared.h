@@ -419,7 +419,7 @@ mir
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir_
 -
@@ -696,7 +696,7 @@ mir
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir_
 -

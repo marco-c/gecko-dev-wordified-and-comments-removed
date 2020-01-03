@@ -444,7 +444,7 @@ Binding
 bindingArray
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 self
@@ -453,7 +453,7 @@ self
 callObjShape_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -
@@ -464,7 +464,7 @@ bindingArrayAndFlag_
 TEMPORARY_STORAGE_BIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -477,7 +477,7 @@ TEMPORARY_STORAGE_BIT
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numArgs
 <
@@ -485,7 +485,7 @@ numArgs
 ARGC_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numVars
 <
@@ -493,7 +493,7 @@ numVars
 LOCALNO_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numBlockScoped
 <
@@ -501,7 +501,7 @@ numBlockScoped
 LOCALNO_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numBodyLevelLexicals
 <
@@ -527,7 +527,7 @@ uint64_t
 numBlockScoped
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 totalSlots
 <
@@ -535,7 +535,7 @@ totalSlots
 LOCALNO_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 UINT32_MAX
 -
@@ -801,7 +801,7 @@ continue
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 added
@@ -951,7 +951,7 @@ shape
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -963,7 +963,7 @@ slot
 +
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 =
@@ -971,7 +971,7 @@ slot
 nslots
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -1008,14 +1008,14 @@ Binding
 newBindingArray
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bindingArrayUsingTemporaryStorage
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1114,7 +1114,7 @@ srcScript
 >
 data
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 off
 >
@@ -1122,7 +1122,7 @@ off
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -1616,7 +1616,7 @@ uint32_t
 bindingIndex
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bindingIndex
 <
@@ -1967,7 +1967,7 @@ SCRIPT_HOLE
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 .
@@ -3269,7 +3269,7 @@ mainOffset
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -4046,7 +4046,7 @@ JSVersion
 version
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 version_
@@ -4204,12 +4204,12 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enclosingScript
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 enclosingScript
 -
@@ -4343,7 +4343,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -4612,7 +4612,7 @@ IsLegacyGenerator
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -5426,7 +5426,7 @@ enclosingStaticScopeIndex
 UINT32_MAX
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enclosingStaticScopeIndex
 <
@@ -5670,7 +5670,7 @@ NoGC
 FUNCTION
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ssi
 .
@@ -5719,7 +5719,7 @@ block
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 funEnclosingScopeIndex
 <
@@ -5741,7 +5741,7 @@ staticWith
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 funEnclosingScopeIndex
 <
@@ -5788,7 +5788,7 @@ fun
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 funEnclosingScopeIndex
 <
@@ -5959,7 +5959,7 @@ trynotes
 >
 vector
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -6663,7 +6663,7 @@ mode
 XDR_DECODE
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 lazy
@@ -6755,7 +6755,7 @@ JSObject
 object
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 compartment
 (
@@ -6839,7 +6839,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasScriptCounts
@@ -7063,7 +7063,7 @@ pc
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -7168,7 +7168,7 @@ hasScriptCounts_
 =
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -7246,7 +7246,7 @@ JSScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -7284,7 +7284,7 @@ lookup
 script
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -7307,7 +7307,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPC
 (
@@ -8072,7 +8072,7 @@ bool
 worked
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ss
@@ -8192,7 +8192,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scriptSource
 (
@@ -8263,7 +8263,7 @@ ScriptSource
 source
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cache_
@@ -8301,7 +8301,7 @@ char16_t
 chars
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cache_
 &
@@ -8342,7 +8342,7 @@ if
 charsToFree_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cache_
@@ -8371,7 +8371,7 @@ if
 cache_
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 source_
 )
@@ -8401,7 +8401,7 @@ ScriptSource
 ss
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 holder_
@@ -8432,7 +8432,7 @@ AutoHoldEntry
 holder
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 holder_
 =
@@ -8462,7 +8462,7 @@ AutoHoldEntry
 holder
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 holder_
@@ -8530,7 +8530,7 @@ AutoHoldEntry
 holder
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 holder_
@@ -9062,7 +9062,7 @@ uint32_t
 stop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 <
@@ -9130,7 +9130,7 @@ uint32_t
 stop
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 <
@@ -9198,7 +9198,7 @@ bool
 ownsChars
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -9249,7 +9249,7 @@ HashNumber
 hash
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -9338,7 +9338,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -9346,7 +9346,7 @@ dataType
 DataCompressed
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inCompressedSourceSet
@@ -9437,7 +9437,7 @@ ExclusiveContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -9537,7 +9537,7 @@ SourceCompressionTask
 task
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasSourceData
@@ -11032,7 +11032,7 @@ linenoBuf
 introducer
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 checkLen
 =
@@ -11061,13 +11061,13 @@ ReadOnlyCompileOptions
 options
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 filename_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 introducerFilename_
@@ -11101,7 +11101,7 @@ options
 hasIntroductionInfo
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 options
 .
@@ -11242,7 +11242,7 @@ char
 filename
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 filename_
@@ -11278,7 +11278,7 @@ char16_t
 displayURL
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 displayURL
 )
@@ -11382,7 +11382,7 @@ char16_t
 sourceMapURL
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sourceMapURL
 )
@@ -11682,7 +11682,7 @@ atoms
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reinterpret_cast
 <
@@ -11753,7 +11753,7 @@ uint32_t
 nsrcnotes
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 !
@@ -11761,7 +11761,7 @@ script
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ssd
 !
@@ -12003,7 +12003,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -12081,7 +12081,7 @@ JSRuntime
 rt
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -12680,7 +12680,7 @@ uint32_t
 bufEnd
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bufStart
 <
@@ -12783,7 +12783,7 @@ options
 .
 version
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -12924,7 +12924,7 @@ data
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 size_t
 (
@@ -13026,7 +13026,7 @@ dataSize_
 =
 size
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nTypeSets
 <
@@ -13186,7 +13186,7 @@ nconsts
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reinterpret_cast
 <
@@ -13586,7 +13586,7 @@ cursor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 =
@@ -13715,7 +13715,7 @@ BytecodeEmitter
 bce
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -13731,7 +13731,7 @@ count
 INDEX_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -13744,7 +13744,7 @@ length
 INDEX_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bce
 -
@@ -13861,7 +13861,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -14331,7 +14331,7 @@ true
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 funbox
@@ -14366,7 +14366,7 @@ if
 funbox
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 bce
@@ -14836,7 +14836,7 @@ code
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cache
 .
@@ -15031,7 +15031,7 @@ cache
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cache
 .
@@ -15363,7 +15363,7 @@ colspan
 =
 SN_COLSPAN_DOMAIN
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrdiff_t
 (
@@ -15819,7 +15819,7 @@ pc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 JSOp
 (
@@ -15841,7 +15841,7 @@ pc
 JSOP_SPREADEVAL
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 (
@@ -16125,7 +16125,7 @@ NewObjectKind
 newKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 src
@@ -17726,7 +17726,7 @@ NewObjectKind
 newKind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 clone
 -
@@ -17748,12 +17748,12 @@ nonLazyScript
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -17911,7 +17911,7 @@ debugScript
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasDebugScript_
 )
@@ -17927,7 +17927,7 @@ compartment
 >
 debugScriptMap
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -17946,7 +17946,7 @@ lookup
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -17969,7 +17969,7 @@ releaseDebugScript
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasDebugScript_
 )
@@ -17985,7 +17985,7 @@ compartment
 >
 debugScriptMap
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 map
 )
@@ -18004,7 +18004,7 @@ lookup
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 )
@@ -18088,7 +18088,7 @@ pc
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 site
 -
@@ -18101,7 +18101,7 @@ firstBreakpoint
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getBreakpointSite
 (
@@ -18535,7 +18535,7 @@ debug
 >
 stepMode
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 count
 >
@@ -18691,7 +18691,7 @@ pc
 )
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 site
 )
@@ -19100,7 +19100,7 @@ sourceObject
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 MaybeForwarded
 (
@@ -19429,7 +19429,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPC
 (
@@ -19566,7 +19566,7 @@ vector
 check
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 checkNote
 -
@@ -19800,7 +19800,7 @@ pc
 =
 JSOP_ARGUMENTS_LENGTH
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pc
@@ -19913,7 +19913,7 @@ HandleScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -19923,7 +19923,7 @@ functionNonDelazifying
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -19933,7 +19933,7 @@ analyzedArgsUsage
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -19955,7 +19955,7 @@ needsArgsObj
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -20244,7 +20244,7 @@ column_
 column
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 begin
 <
@@ -20264,7 +20264,7 @@ JSScript
 script
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 &
@@ -20286,7 +20286,7 @@ resetScript
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 script_
 )
@@ -20310,7 +20310,7 @@ ScriptSourceObject
 sourceObject
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 sourceObject_
@@ -20339,7 +20339,7 @@ compartment
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 function_
 -

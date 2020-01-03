@@ -324,7 +324,7 @@ uint32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 !
@@ -336,7 +336,7 @@ uint32_t
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsValidAsmJSHeapLength
 (
@@ -506,7 +506,7 @@ addReference
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 -
@@ -563,7 +563,7 @@ dataPointer
 -
 AsmJSPageSize
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -675,7 +675,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSharedArrayBuffer
 (
@@ -1177,7 +1177,7 @@ obj
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1259,7 +1259,7 @@ getReservedSlot
 RAWBUF_SLOT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -1473,7 +1473,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -1775,7 +1775,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsSharedArrayBuffer
 (

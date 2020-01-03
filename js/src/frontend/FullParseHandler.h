@@ -69,7 +69,7 @@ size_t
 size
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 size
 =
@@ -1184,7 +1184,7 @@ TokenPos
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 .
@@ -1199,7 +1199,7 @@ pn_pos
 begin
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 body
 -
@@ -1588,7 +1588,7 @@ isShorthand
 false
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 literal
 -
@@ -1663,7 +1663,7 @@ JSOp
 op
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 literal
 -
@@ -1773,7 +1773,7 @@ PC
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 list
 -
@@ -2016,7 +2016,7 @@ uint32_t
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 expr
 -
@@ -2275,7 +2275,7 @@ TokenPos
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 =
@@ -2562,7 +2562,7 @@ TokenPos
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pos
 .
@@ -2792,7 +2792,7 @@ FunctionBox
 funbox
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -2941,7 +2941,7 @@ begin
 =
 begin
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -3002,7 +3002,7 @@ end
 =
 end
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -3254,7 +3254,7 @@ unsigned
 flag
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 -
@@ -3537,7 +3537,7 @@ Definition
 dn
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -3548,7 +3548,7 @@ isUsed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pn
@@ -3559,7 +3559,7 @@ isDefn
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pn
 !
@@ -3570,7 +3570,7 @@ dn
 dn_uses
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dn
 -
@@ -3677,7 +3677,7 @@ pnu
 pn_link
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 pnu
 -
@@ -3687,7 +3687,7 @@ isUsed
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 pnu
@@ -3880,7 +3880,7 @@ nextLazyInnerFunction
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 lazyInnerFunctionIndex
 <

@@ -611,7 +611,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 c
 <
@@ -636,7 +636,7 @@ u00
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 c
@@ -1708,7 +1708,7 @@ isCallable
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JS_IsArrayObject
 (
@@ -2353,7 +2353,7 @@ StringifyContext
 scx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsFilteredValue
@@ -2508,7 +2508,7 @@ sb
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -3183,7 +3183,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 gap
 .

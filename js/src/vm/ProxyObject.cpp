@@ -94,7 +94,7 @@ clasp
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isValidProxyClass
 (

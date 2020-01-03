@@ -232,7 +232,7 @@ copyStackTop
 -
 offset_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 p
 >
@@ -396,7 +396,7 @@ framePushed_
 0
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bufferTotal_
 >
@@ -423,13 +423,13 @@ init
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 buffer_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bufferUsed_
 =
@@ -584,7 +584,7 @@ enlarge
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 buffer_
 !
@@ -737,7 +737,7 @@ info
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 header_
 =
@@ -762,7 +762,7 @@ takeBuffer
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 header_
 =
@@ -1196,7 +1196,7 @@ popValue
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bufferUsed_
 >
@@ -1207,7 +1207,7 @@ Value
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 framePushed_
 >
@@ -1282,7 +1282,7 @@ SlotLocation
 loc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 PCMappingSlotInfo
 :
@@ -1348,7 +1348,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 loc
 =
@@ -1659,7 +1659,7 @@ offset
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 =
@@ -1690,7 +1690,7 @@ defined
 (
 JS_CODEGEN_X86
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 BaselineFrameReg
 =
@@ -1755,7 +1755,7 @@ prevType
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 priorType
 =
@@ -2024,7 +2024,7 @@ baselineSetPropReturnAddr
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsCallPC
 (
@@ -2592,7 +2592,7 @@ HAS_CALL_OBJ
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -2644,7 +2644,7 @@ environment
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -2655,7 +2655,7 @@ isForEval
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 script
 -
@@ -2713,7 +2713,7 @@ read
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -2902,7 +2902,7 @@ thisvOffset
 =
 thisv
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -2958,7 +2958,7 @@ if
 callerPC
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 startFrameFormals
 .
@@ -3287,7 +3287,7 @@ IsSetPropPC
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 exprStackSlots
 >
@@ -3664,7 +3664,7 @@ hasIonReturnOverride
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 invalidate
 )
@@ -3945,7 +3945,7 @@ op
 JSOP_FUNCALL
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 expectedDepth
 -
@@ -3980,7 +3980,7 @@ pc
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 exprStackSlots
 -
@@ -3993,7 +3993,7 @@ expectedDepth
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 exprStackSlots
 =
@@ -4236,7 +4236,7 @@ getChainFallback
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fallbackStub
 -
@@ -4544,7 +4544,7 @@ numUnsynced
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numUnsynced
 <
@@ -4717,12 +4717,12 @@ scopeChain
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numUnsynced
 =
@@ -5101,7 +5101,7 @@ icEntryFromPCOffset
 pcOff
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsInlinableFallback
 (
@@ -5162,7 +5162,7 @@ framePushed
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsInlinableFallback
 (
@@ -5219,7 +5219,7 @@ virtualPointerAtStackOffset
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsIonInlinablePC
 (
@@ -5259,7 +5259,7 @@ IsSetPropPC
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 actualArgc
 +
@@ -5269,7 +5269,7 @@ actualArgc
 exprStackSlots
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 savedCallerArgs
 .
@@ -5354,7 +5354,7 @@ op
 JSOP_FUNCALL
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 actualArgc
 >
@@ -5366,7 +5366,7 @@ actualArgc
 -
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 actualArgc
 +
@@ -5593,7 +5593,7 @@ callee
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 .
@@ -5694,7 +5694,7 @@ cx
 pc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 baselineCallReturnAddr
 )
@@ -6018,7 +6018,7 @@ getArgumentsRectifierReturnAddr
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rectReturnAddr
 )
@@ -6070,7 +6070,7 @@ ExceptionBailoutInfo
 excInfo
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -6082,7 +6082,7 @@ mainThread
 suppressGC
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bailoutInfo
 !
@@ -6090,7 +6090,7 @@ bailoutInfo
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 bailoutInfo
@@ -6131,7 +6131,7 @@ TraceLogger
 Baseline
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -6149,7 +6149,7 @@ prevType
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 prevFrameType
 =
@@ -6720,7 +6720,7 @@ moreFrames
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 callPC
@@ -6735,12 +6735,12 @@ handleException
 )
 break
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nextCallee
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 callPC
 )
@@ -6772,7 +6772,7 @@ if
 topCaller
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 frameNo
 =
@@ -7082,7 +7082,7 @@ lineno
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 outerScript
@@ -7195,7 +7195,7 @@ lineno
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 outerScript
@@ -7300,7 +7300,7 @@ lineno
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 outerScript
@@ -7654,7 +7654,7 @@ bailoutInfo
 >
 numFrames
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numFrames
 >
@@ -7721,7 +7721,7 @@ cx
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -7755,7 +7755,7 @@ frameno
 numFrames
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 iter

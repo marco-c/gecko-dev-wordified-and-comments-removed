@@ -300,7 +300,7 @@ Node
 t
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 t
 -
@@ -338,7 +338,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -378,7 +378,7 @@ back
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -408,7 +408,7 @@ Node
 item
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 item
 -
@@ -488,7 +488,7 @@ tail_
 =
 at
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 at
 -
@@ -531,7 +531,7 @@ T
 to
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 to
 -
@@ -742,7 +742,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 modifyCount_
 =
@@ -808,7 +808,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 modifyCount_
 =
@@ -839,7 +839,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 modifyCount_
 =
@@ -1328,7 +1328,7 @@ popFront
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -1367,7 +1367,7 @@ popBack
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 empty
@@ -1434,7 +1434,7 @@ Node
 item
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 item
 -
@@ -1445,7 +1445,7 @@ prev
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 item
 -
@@ -1523,7 +1523,7 @@ Node
 item
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 item
 -
@@ -1534,7 +1534,7 @@ prev
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 item
 -
@@ -2413,12 +2413,12 @@ T
 adding
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tail
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 tail
@@ -2427,7 +2427,7 @@ tail
 next
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 adding
 -
@@ -2435,7 +2435,7 @@ adding
 tail
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 adding

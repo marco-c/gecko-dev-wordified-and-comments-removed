@@ -948,7 +948,7 @@ Value
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 value
 .
@@ -1190,7 +1190,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -1273,7 +1273,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -1372,7 +1372,7 @@ v
 #
 ifdef
 JSGC_INCREMENTAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -1425,7 +1425,7 @@ v
 #
 ifdef
 JSGC_INCREMENTAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -1533,7 +1533,7 @@ barrier
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmp
 =
@@ -1557,7 +1557,7 @@ vp
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -1633,7 +1633,7 @@ vp
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -1709,12 +1709,12 @@ vp
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 vp
 -
@@ -1724,7 +1724,7 @@ isMarkable
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -1924,7 +1924,7 @@ barrier
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str
 =
@@ -2005,7 +2005,7 @@ barrier
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 sym
 =
@@ -2131,7 +2131,7 @@ T
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -2541,7 +2541,7 @@ pre
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -2592,7 +2592,7 @@ pre
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -2714,7 +2714,7 @@ T
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -2760,7 +2760,7 @@ pre
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -2815,7 +2815,7 @@ pre
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -3007,7 +3007,7 @@ T
 ptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -
@@ -3191,7 +3191,7 @@ pre
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -3301,7 +3301,7 @@ pre
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 GCMethods
@@ -3403,7 +3403,7 @@ post
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 GCMethods
 <
@@ -3446,7 +3446,7 @@ relocate
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT
+MOZ_ASSERT
 (
 GCMethods
 <
@@ -4428,7 +4428,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedValue
@@ -4472,7 +4472,7 @@ s
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedValue
@@ -4594,7 +4594,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 preconditionForSet
 (
@@ -4604,7 +4604,7 @@ slot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedValue
@@ -4649,7 +4649,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 preconditionForSet
 (
@@ -4660,7 +4660,7 @@ slot
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedValue
@@ -4749,7 +4749,7 @@ Value
 target
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 preconditionForWriteBarrierPost
 (
@@ -4997,7 +4997,7 @@ HeapSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allowWrite
 (

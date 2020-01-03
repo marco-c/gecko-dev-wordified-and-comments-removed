@@ -495,7 +495,7 @@ getParenCount
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isCompiled
 (
@@ -785,7 +785,7 @@ RegExpShared
 re
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 initialized
@@ -850,7 +850,7 @@ re
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 initialized
 (
@@ -1649,7 +1649,7 @@ RegExpShared
 shared
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 maybeShared

@@ -99,7 +99,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 input
 )
@@ -140,7 +140,7 @@ length
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numPairs
 >
@@ -202,7 +202,7 @@ isUndefined
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 !
@@ -358,7 +358,7 @@ test
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 test
 =
@@ -404,7 +404,7 @@ test
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 test
 =
@@ -1523,7 +1523,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsRegExp
 (
@@ -1710,7 +1710,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsRegExp
 (
@@ -2640,7 +2640,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -3525,7 +3525,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3537,7 +3537,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsRegExp
 (
@@ -3548,7 +3548,7 @@ args
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3753,7 +3753,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3765,7 +3765,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 IsRegExp
 (
@@ -3776,7 +3776,7 @@ args
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [

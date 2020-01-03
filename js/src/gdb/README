@@ -133,7 +133,7 @@ cpp
 :
 4495
 4495
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 defineHow

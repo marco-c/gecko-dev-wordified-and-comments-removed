@@ -51,7 +51,7 @@ Value
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 CurrentThreadIsIonCompiling
@@ -126,7 +126,7 @@ toSymbol
 )
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 value

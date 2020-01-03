@@ -560,7 +560,7 @@ this
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 isTenured
 (
@@ -583,7 +583,7 @@ getAllocKind
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -648,7 +648,7 @@ ExclusiveContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 canRemoveLastProperty
 (
@@ -702,7 +702,7 @@ canRemoveLastProperty
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inDictionaryMode
@@ -794,7 +794,7 @@ setShouldConvertDoubleElements
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 <
@@ -832,7 +832,7 @@ clearShouldConvertDoubleElements
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 <
@@ -1024,7 +1024,7 @@ Value
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shouldConvertDoubleElements
@@ -1214,7 +1214,7 @@ ExclusiveContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -1254,7 +1254,7 @@ uint32_t
 extra
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -1265,7 +1265,7 @@ this
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -1273,7 +1273,7 @@ denseElementsAreCopyOnWrite
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 +
@@ -1432,7 +1432,7 @@ uint32_t
 extra
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 writeToIndexWouldMarkNotPacked
@@ -1470,7 +1470,7 @@ uint32_t
 extra
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -1481,7 +1481,7 @@ this
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -1502,7 +1502,7 @@ watched
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getDenseCapacity
 (
@@ -1581,7 +1581,7 @@ uint32_t
 extra
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -1789,7 +1789,7 @@ uint32_t
 extra
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 writeToIndexWouldMarkNotPacked
@@ -1904,7 +1904,7 @@ uint32_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dstStart
 +
@@ -1916,7 +1916,7 @@ getDenseCapacity
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -1936,7 +1936,7 @@ defined
 (
 JSGC_GENERATIONAL
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 js
@@ -1988,7 +1988,7 @@ isMarkable
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 js
@@ -2145,7 +2145,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2237,7 +2237,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -2248,7 +2248,7 @@ hasSingletonType
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -2333,12 +2333,12 @@ TypeObject
 newType
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 newType
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasSingletonType
@@ -2387,7 +2387,7 @@ isLazy
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2480,7 +2480,7 @@ isLazy
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -2904,7 +2904,7 @@ HandleTypeObject
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 &
@@ -2912,7 +2912,7 @@ shape
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -2930,7 +2930,7 @@ getObjectClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -3471,7 +3471,7 @@ HandleTypeObject
 type
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 &
@@ -3479,7 +3479,7 @@ shape
 type
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -3497,7 +3497,7 @@ getObjectClass
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 type
 -
@@ -3540,7 +3540,7 @@ gc
 TenuredHeap
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -4998,7 +4998,7 @@ JSNative
 native
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj
@@ -5012,7 +5012,7 @@ ProxyObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -5409,7 +5409,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 preferredType
 !
@@ -5688,7 +5688,7 @@ if
 proto
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 JSCLASS_CACHED_PROTO_KEY
 (
@@ -6121,7 +6121,7 @@ newKind
 GenericObject
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 baseobj
 -
@@ -6138,7 +6138,7 @@ JSObject
 class_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 baseobj
@@ -6869,7 +6869,7 @@ JSObject
 pmetadata
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 *

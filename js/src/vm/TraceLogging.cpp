@@ -1049,7 +1049,7 @@ jitTop
 SequentialExecution
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -1091,7 +1091,7 @@ JitFrame_Unwound_Rectifier
 +
 it
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -1150,7 +1150,7 @@ JitFrame_Unwound_BaselineStub
 +
 it
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 .
@@ -1186,7 +1186,7 @@ Baseline
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 act
 -
@@ -1212,7 +1212,7 @@ current
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fp
@@ -1325,7 +1325,7 @@ return
 true
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 enabled
 =

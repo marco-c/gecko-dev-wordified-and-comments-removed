@@ -196,7 +196,7 @@ if
 evalInFramePrev
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 evalInFramePrev
 .
@@ -252,7 +252,7 @@ iter
 cx
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 .
@@ -268,7 +268,7 @@ isGlobalFrame
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 iter
@@ -372,7 +372,7 @@ script
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isGlobalFrame
 (
@@ -484,7 +484,7 @@ Value
 othersp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 othervp
 =
@@ -497,7 +497,7 @@ generatorArgsSnapshotBegin
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 othersp
 >
@@ -510,7 +510,7 @@ slots
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 othersp
 <
@@ -936,7 +936,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 (
@@ -1106,7 +1106,7 @@ NoGC
 :
 BLOCK
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 i
@@ -1159,7 +1159,7 @@ NoGC
 :
 WITH
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 i
@@ -1212,7 +1212,7 @@ NoGC
 :
 FUNCTION
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 scope
 -
@@ -1363,7 +1363,7 @@ script
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isGeneratorFrame
@@ -1371,7 +1371,7 @@ isGeneratorFrame
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -1472,7 +1472,7 @@ nullptr
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 isNonEvalFunctionFrame
 (
@@ -1603,7 +1603,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isYielding
@@ -1717,7 +1717,7 @@ isDebuggerFrame
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 scopeChain
@@ -1743,7 +1743,7 @@ isDebuggerFrame
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 (
@@ -1779,7 +1779,7 @@ GlobalObject
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 (
@@ -1806,7 +1806,7 @@ isGlobalFrame
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 scopeChain
@@ -1825,7 +1825,7 @@ ScopeObject
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 isNonEvalFunctionFrame
 (
@@ -1957,7 +1957,7 @@ StaticBlockObject
 block
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 .
@@ -2021,7 +2021,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain_
 -
@@ -2075,7 +2075,7 @@ onPopWith
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scopeChain
 (
@@ -2312,7 +2312,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 sp
 >
@@ -2732,7 +2732,7 @@ codeEnd
 -
 JSOP_RETRVAL_LENGTH
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 pc
@@ -3028,7 +3028,7 @@ popInterpreterFrame
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -3144,7 +3144,7 @@ DONE
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 activation
 -
@@ -3154,7 +3154,7 @@ cx
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -3422,7 +3422,7 @@ activations_
 continue
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 activation
 -
@@ -3495,7 +3495,7 @@ continue
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 data_
@@ -3904,7 +3904,7 @@ jitFrames_
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data
 .
@@ -3983,7 +3983,7 @@ pc
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -4017,7 +4017,7 @@ popJitFrame
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -4127,7 +4127,7 @@ popAsmJSFrame
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -4386,7 +4386,7 @@ Data
 data_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -4547,7 +4547,7 @@ isFunctionFrame
 case
 JIT
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -4661,7 +4661,7 @@ isGlobalFrame
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -4762,7 +4762,7 @@ isEvalFrame
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -4803,7 +4803,7 @@ isNonEvalFunctionFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -4932,7 +4932,7 @@ functionDisplayAtom
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNonEvalFunctionFrame
 (
@@ -5318,7 +5318,7 @@ isConstructing
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -5598,7 +5598,7 @@ break
 case
 INTERP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 interpFrame
 (
@@ -5699,7 +5699,7 @@ data_
 .
 interpFrames_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -5849,7 +5849,7 @@ data_
 .
 jitFrames_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -5919,7 +5919,7 @@ break
 case
 INTERP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -5959,7 +5959,7 @@ callee
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -6014,7 +6014,7 @@ break
 case
 INTERP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -6080,7 +6080,7 @@ break
 case
 INTERP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 isFunctionFrame
 (
@@ -6117,7 +6117,7 @@ numActualArgs
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -6289,7 +6289,7 @@ callObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callee
 (
@@ -6401,7 +6401,7 @@ cx
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -6822,7 +6822,7 @@ nfixed
 case
 INTERP
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 data_
 .
@@ -7270,7 +7270,7 @@ checkAliasing
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 <
@@ -7296,7 +7296,7 @@ numVars
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 script
@@ -7533,7 +7533,7 @@ bool
 active
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -7548,7 +7548,7 @@ activation_
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 active
 !
@@ -8573,7 +8573,7 @@ exitAsmJS
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fp_
 =
@@ -8581,7 +8581,7 @@ fp_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 module_
 .
@@ -8612,7 +8612,7 @@ asJSContext
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -8664,7 +8664,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -8739,7 +8739,7 @@ registerProfiling
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isProfiling
 (
@@ -8784,7 +8784,7 @@ unregisterProfiling
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isProfiling
 (
@@ -8810,7 +8810,7 @@ runtime
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cx_
 -
@@ -8910,7 +8910,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 )
@@ -9052,7 +9052,7 @@ activation_
 )
 return
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9108,7 +9108,7 @@ done
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9137,7 +9137,7 @@ operator
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9145,7 +9145,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9225,7 +9225,7 @@ RegisterState
 state
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9233,7 +9233,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9275,7 +9275,7 @@ iteratorConstruct
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9283,7 +9283,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9324,7 +9324,7 @@ iteratorDestroy
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9332,7 +9332,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9363,7 +9363,7 @@ iteratorDone
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9371,7 +9371,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9404,7 +9404,7 @@ stackAddress
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9412,7 +9412,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -
@@ -9446,7 +9446,7 @@ label
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -9454,7 +9454,7 @@ done
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 activation_
 -

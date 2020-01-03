@@ -343,7 +343,7 @@ compilingAsmJS
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 graph
 -
@@ -683,7 +683,7 @@ MInstruction
 mir
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 )
@@ -795,7 +795,7 @@ isNativeToBytecodeMapEnabled
 return
 true
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 site
 .
@@ -804,7 +804,7 @@ tree
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 site
 .
@@ -885,7 +885,7 @@ nativeToBytecodeList_
 lastIdx
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeOffset
 >
@@ -1523,7 +1523,7 @@ isStackSlot
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 a
 -
@@ -1555,7 +1555,7 @@ slot
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 -
 int32_t
@@ -2093,7 +2093,7 @@ break
 default
 :
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -2398,7 +2398,7 @@ mode
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 mode
 !
@@ -2865,7 +2865,7 @@ LSnapshot
 snapshot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 snapshot
 -
@@ -2924,7 +2924,7 @@ mode
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 frameClass_
 !
@@ -3286,7 +3286,7 @@ nextCallee
 continue
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 tree
 -
@@ -3392,7 +3392,7 @@ JitCode
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeScriptListLength_
 =
@@ -3400,7 +3400,7 @@ nativeToBytecodeScriptListLength_
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeScriptList_
 =
@@ -3408,7 +3408,7 @@ nativeToBytecodeScriptList_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeMap_
 =
@@ -3416,7 +3416,7 @@ nativeToBytecodeMap_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeMapSize_
 =
@@ -3424,7 +3424,7 @@ nativeToBytecodeMapSize_
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeTableOffset_
 =
@@ -3432,7 +3432,7 @@ nativeToBytecodeTableOffset_
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeNumRegions_
 =
@@ -3501,14 +3501,14 @@ cx
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeScriptListLength_
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeScriptList_
 !
@@ -3567,14 +3567,14 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 tableOffset
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numRegions
 >
@@ -3694,14 +3694,14 @@ code
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeScriptListLength_
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeScriptList_
 !
@@ -3709,7 +3709,7 @@ nativeToBytecodeScriptList_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeMap_
 !
@@ -3717,21 +3717,21 @@ nativeToBytecodeMap_
 nullptr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeMapSize_
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeTableOffset_
 >
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nativeToBytecodeNumRegions_
 >
@@ -3747,7 +3747,7 @@ nativeToBytecodeMap_
 +
 nativeToBytecodeTableOffset_
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 uintptr_t
 (
@@ -3778,7 +3778,7 @@ JitcodeIonTable
 tablePtr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ionTable
 -
@@ -3791,7 +3791,7 @@ numRegions
 nativeToBytecodeNumRegions_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ionTable
 -
@@ -3826,7 +3826,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ionTable
 -
@@ -3875,7 +3875,7 @@ regionEntry
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 entry
 .
@@ -3931,7 +3931,7 @@ scriptIdx
 pcOffset
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 scriptIdx
 <
@@ -3947,7 +3947,7 @@ nativeToBytecodeScriptList_
 scriptIdx
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 pcOffset
 <
@@ -4068,7 +4068,7 @@ curPcOffset
 pcDelta
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curNativeOffset
 <
@@ -4081,7 +4081,7 @@ instructionsSize
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 curPcOffset
 <
@@ -4248,7 +4248,7 @@ nop
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 masm
 .
@@ -5298,7 +5298,7 @@ Register
 dynStack
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 .
@@ -5351,7 +5351,7 @@ mirRaw
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -5423,7 +5423,7 @@ endif
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 pushedArgs_
 =
@@ -6136,7 +6136,7 @@ spIncrement
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 sizeof
@@ -6661,7 +6661,7 @@ oolEntry
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 iter
 -
@@ -7010,7 +7010,7 @@ numLocations
 +
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 numLocations
 !
@@ -7037,7 +7037,7 @@ int
 d
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 d
 >

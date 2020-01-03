@@ -343,7 +343,7 @@ HeapSlot
 )
 elementsPtr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 elementsHeapPtr
 !
@@ -363,7 +363,7 @@ fromElements
 elementsHeapPtr
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 header
@@ -504,7 +504,7 @@ getElementsHeader
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 header

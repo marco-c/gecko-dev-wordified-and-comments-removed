@@ -145,7 +145,7 @@ WrapperOptions
 options
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 parent
 )
@@ -237,7 +237,7 @@ JSObject
 wrapper
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 wrapper
 -
@@ -286,7 +286,7 @@ JSObject
 wrapper
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 wrapper
 -
@@ -668,7 +668,7 @@ HandleObject
 parent
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 obj

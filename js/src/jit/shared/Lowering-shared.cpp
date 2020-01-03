@@ -199,7 +199,7 @@ ins
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 "
@@ -1031,7 +1031,7 @@ BailoutKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -1091,13 +1091,13 @@ BailoutKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 osiPoint_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 ins

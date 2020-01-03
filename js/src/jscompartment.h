@@ -449,7 +449,7 @@ CrossCompartmentKey
 key
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 IsPoisonedPtr
@@ -737,7 +737,7 @@ runtimeFromMainThread
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -2117,7 +2117,7 @@ AssertCompartmentUnchanged
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -

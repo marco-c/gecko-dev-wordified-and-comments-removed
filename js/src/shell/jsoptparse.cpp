@@ -122,7 +122,7 @@ Option
 \
 {
 \
-JS_ASSERT
+MOZ_ASSERT
 (
 is
 #
@@ -207,7 +207,7 @@ asValued
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isValued
 (
@@ -472,7 +472,7 @@ it
 '
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isspace
@@ -512,7 +512,7 @@ limit
 +
 limit
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 limit
 -
@@ -528,7 +528,7 @@ limit
 -
 it
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tokLen
 )
@@ -1543,7 +1543,7 @@ char
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 i
@@ -2087,7 +2087,7 @@ char
 argv
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 inputArgc
 >

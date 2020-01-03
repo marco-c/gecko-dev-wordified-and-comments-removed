@@ -190,7 +190,7 @@ SlotLocation
 topSlotLoc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ValidSlotLocation
 (
@@ -223,7 +223,7 @@ SlotLocation
 nextSlotLoc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ValidSlotLocation
 (
@@ -231,7 +231,7 @@ topSlotLoc
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ValidSlotLocation
 (
@@ -911,7 +911,7 @@ JitCode
 code
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 method_
@@ -941,7 +941,7 @@ JSObject
 templateScope
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 templateScope_
@@ -1314,7 +1314,7 @@ bytecodeTypeMap
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bytecodeTypeMapOffset_
 )

@@ -689,7 +689,7 @@ i
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 !
@@ -882,7 +882,7 @@ i
 =
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 =
@@ -1104,7 +1104,7 @@ filenameSize
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 cursor
 +
@@ -2788,7 +2788,7 @@ void
 userRef
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reportp
 )

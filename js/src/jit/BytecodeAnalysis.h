@@ -70,7 +70,7 @@ unsigned
 depth
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 depth
 <
@@ -155,7 +155,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 infos_
 [

@@ -454,7 +454,7 @@ JSID_TYPE_MASK
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 js
@@ -475,7 +475,7 @@ sym
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 JS

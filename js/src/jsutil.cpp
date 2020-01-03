@@ -323,7 +323,7 @@ unsigned
 bin
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 bin
 <
@@ -364,7 +364,7 @@ JS_BIT
 bin
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 logscale
 =

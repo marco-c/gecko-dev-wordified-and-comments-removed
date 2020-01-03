@@ -673,7 +673,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -688,7 +688,7 @@ shouldCloneAtCallsite
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 fun
@@ -704,7 +704,7 @@ enclosingStaticScope
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 types
 :
@@ -715,7 +715,7 @@ fun
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fun
 -
@@ -1318,7 +1318,7 @@ mode
 DCM_FORCE_GC
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 rt
@@ -1387,7 +1387,7 @@ THING_ROOT_LIMIT
 +
 i
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 thingGCRooters
 [
@@ -1410,7 +1410,7 @@ alreadyStartedSlow
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 link
 )
@@ -1423,7 +1423,7 @@ link
 ;
 do
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 !
@@ -1510,7 +1510,7 @@ void
 userRef
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reportp
 )
@@ -1889,7 +1889,7 @@ report
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cx
@@ -2440,7 +2440,7 @@ id
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -2451,7 +2451,7 @@ configurable
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shape
@@ -2462,7 +2462,7 @@ writable
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 shape
 -
@@ -3172,7 +3172,7 @@ efs
 >
 argCount
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 argCount
 <
@@ -3192,7 +3192,7 @@ if
 messageArgsPassed
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 reportp
@@ -3524,7 +3524,7 @@ fmt
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 d
 <
@@ -3579,7 +3579,7 @@ fmt
 +
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 expandedArgs
 =
@@ -3671,7 +3671,7 @@ error
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 reportp
@@ -4292,12 +4292,12 @@ JSErrorReport
 reportp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 message
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reportp
 )
@@ -4450,7 +4450,7 @@ nullptr
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -4627,7 +4627,7 @@ bytes
 bool
 ok
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js_ErrorFormatString
 [
@@ -4640,7 +4640,7 @@ argCount
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 js_ErrorFormatString
 [
@@ -4778,7 +4778,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -4805,7 +4805,7 @@ runtime
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 rt
 -
@@ -5172,7 +5172,7 @@ asForkJoinContext
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isForkJoinContext
 (
@@ -5343,7 +5343,7 @@ innermostGenerator_
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 static_cast
 <
@@ -5373,7 +5373,7 @@ JSContext
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 resolvingList
@@ -5390,7 +5390,7 @@ MutableHandleValue
 rval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 throwing
 )
@@ -5486,7 +5486,7 @@ JSGenerator
 gen
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 gen
@@ -5518,7 +5518,7 @@ JSGenerator
 gen
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 innermostGenerator_
 =
@@ -5610,7 +5610,7 @@ restoreFrameChain
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 enterCompartmentDepth_
 =
@@ -6321,7 +6321,7 @@ cx
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -6347,7 +6347,7 @@ isHeapBusy
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -6408,7 +6408,7 @@ if
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -
@@ -6434,7 +6434,7 @@ isHeapBusy
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
 (
@@ -6477,7 +6477,7 @@ if
 cx
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cx
 -

@@ -94,7 +94,7 @@ buf
 return
 nullptr
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 capacity
 >
@@ -861,7 +861,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .

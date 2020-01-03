@@ -392,7 +392,7 @@ CONSTANT
 KIND_MASK
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t
@@ -408,7 +408,7 @@ NAME_MASK
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 uintptr_t
@@ -640,13 +640,13 @@ unsigned
 numBlockScoped
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 callObjShape_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numVars_
 =
@@ -654,14 +654,14 @@ numVars_
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numBlockScoped
 <
 LOCALNO_LIMIT
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 numBlockScoped
 >
@@ -1481,7 +1481,7 @@ decref
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 refs
 !
@@ -1587,7 +1587,7 @@ length
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSourceData
 (
@@ -1604,7 +1604,7 @@ argumentsNotIncluded
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasSourceData
 (
@@ -1682,7 +1682,7 @@ uncompressedChars
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -1704,7 +1704,7 @@ ownsUncompressedChars
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -1727,7 +1727,7 @@ compressedData
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -1749,7 +1749,7 @@ compressedBytes
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -1771,7 +1771,7 @@ compressedHash
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -1794,7 +1794,7 @@ parent
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dataType
 =
@@ -1924,7 +1924,7 @@ introductionType
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasIntroductionType
 (
@@ -2071,7 +2071,7 @@ introductionOffset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasIntroductionOffset
 (
@@ -2089,7 +2089,7 @@ uint32_t
 offset
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasIntroductionOffset
@@ -2097,7 +2097,7 @@ hasIntroductionOffset
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -2566,7 +2566,7 @@ unsigned
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 val
 <
@@ -3449,7 +3449,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPC
 (
@@ -3477,7 +3477,7 @@ offset
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 offset
 <
@@ -3883,7 +3883,7 @@ cacheForEval
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isActiveEval
 (
@@ -3910,7 +3910,7 @@ uncacheForEval
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isCachedEval
 (
@@ -4209,7 +4209,7 @@ argumentsBytecode
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 code
 (
@@ -4334,7 +4334,7 @@ GeneratorKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isGenerator
@@ -4376,7 +4376,7 @@ needsArgsObj
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 analyzedArgsUsage
 (
@@ -4515,7 +4515,7 @@ ionScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasIonScript
 (
@@ -4684,7 +4684,7 @@ baselineScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasBaselineScript
 (
@@ -4738,7 +4738,7 @@ IonBuilder
 builder
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 builder
@@ -4779,7 +4779,7 @@ pendingIonBuilder
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasIonScript
 (
@@ -4856,7 +4856,7 @@ parallelIonScript
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasParallelIonScript
 (
@@ -5758,7 +5758,7 @@ consts
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasConsts
 (
@@ -5792,7 +5792,7 @@ objects
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasObjects
 (
@@ -5826,7 +5826,7 @@ regexps
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasRegexps
 (
@@ -5860,7 +5860,7 @@ trynotes
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasTrynotes
 (
@@ -5894,7 +5894,7 @@ blockScopes
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 hasBlockScopes
 (
@@ -5946,7 +5946,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -5975,7 +5975,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPC
 (
@@ -6040,7 +6040,7 @@ pc
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPC
 (
@@ -6093,7 +6093,7 @@ objects
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -6137,7 +6137,7 @@ jsbytecode
 pc
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 containsPC
 (
@@ -6250,7 +6250,7 @@ consts
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -6754,7 +6754,7 @@ operator
 int
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -6793,7 +6793,7 @@ frameIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -6832,7 +6832,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -6862,7 +6862,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -6990,7 +6990,7 @@ operator
 int
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -7020,7 +7020,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -7043,7 +7043,7 @@ operator
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -7061,7 +7061,7 @@ frameIndex
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -7081,7 +7081,7 @@ scopeSlot
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 done
@@ -7699,7 +7699,7 @@ GeneratorKind
 kind
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 isGenerator
@@ -7707,7 +7707,7 @@ isGenerator
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 kind
 !

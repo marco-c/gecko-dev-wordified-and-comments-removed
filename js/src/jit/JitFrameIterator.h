@@ -309,7 +309,7 @@ jsFrame
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isScripted
 (
@@ -557,7 +557,7 @@ frameSize
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 type_
 !
@@ -649,7 +649,7 @@ behavior
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isBaselineJS
 (
@@ -1973,7 +1973,7 @@ callee
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 callee_
 )
@@ -2190,7 +2190,7 @@ snapshotIterator
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 parent_s
 .

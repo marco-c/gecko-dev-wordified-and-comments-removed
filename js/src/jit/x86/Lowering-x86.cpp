@@ -149,7 +149,7 @@ bool
 useAtStart
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -235,7 +235,7 @@ Register
 reg2
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 mir
 -
@@ -248,7 +248,7 @@ type
 MIRType_Value
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg1
 !
@@ -569,7 +569,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 inner
 -
@@ -772,7 +772,7 @@ getOperand
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 opd
 -
@@ -919,7 +919,7 @@ MAX_VIRTUAL_REGISTERS
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 typeVreg
 +
@@ -1087,7 +1087,7 @@ MAsmJSUnsignedToDouble
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -1150,7 +1150,7 @@ MAsmJSUnsignedToFloat32
 ins
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 ins
 -
@@ -1227,7 +1227,7 @@ ptr
 LAllocation
 ptrAlloc
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -
@@ -1277,7 +1277,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrValue
 >
@@ -1362,7 +1362,7 @@ LAsmJSStoreHeap
 *
 lir
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptr
 -
@@ -1412,7 +1412,7 @@ toInt32
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 ptrValue
 >

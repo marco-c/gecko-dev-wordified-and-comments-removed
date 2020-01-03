@@ -1450,7 +1450,7 @@ initializerValue
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initializerValue
 .
@@ -1459,7 +1459,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 initializerValue
 .
@@ -1870,7 +1870,7 @@ getInternalsValue
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getInternalsValue
 .
@@ -1879,7 +1879,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getInternalsValue
 .
@@ -2660,7 +2660,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3098,7 +3098,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3171,7 +3171,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -3183,7 +3183,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -3999,7 +3999,7 @@ UCOL_ON
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 equal
 (
@@ -4184,7 +4184,7 @@ uCaseFirst
 UCOL_LOWER_FIRST
 ;
 else
-JS_ASSERT
+MOZ_ASSERT
 (
 equal
 (
@@ -4340,12 +4340,12 @@ MutableHandleValue
 result
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 str1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 str2
 )
@@ -4568,7 +4568,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -4580,7 +4580,7 @@ length
 3
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -4592,7 +4592,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -4604,7 +4604,7 @@ isString
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -5324,7 +5324,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -5762,7 +5762,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -5835,7 +5835,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -5847,7 +5847,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -6360,7 +6360,7 @@ UNUM_CURRENCY
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 equal
 (
@@ -6396,7 +6396,7 @@ UNUM_PERCENT
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 equal
 (
@@ -7062,7 +7062,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -7074,7 +7074,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -7086,7 +7086,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -7784,7 +7784,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -8222,7 +8222,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -8362,7 +8362,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -8374,7 +8374,7 @@ length
 1
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -8750,7 +8750,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -8762,7 +8762,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -8774,7 +8774,7 @@ isString
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -9776,7 +9776,7 @@ argc
 vp
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 .
@@ -9788,7 +9788,7 @@ length
 2
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -9800,7 +9800,7 @@ isObject
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 [
@@ -10090,7 +10090,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -

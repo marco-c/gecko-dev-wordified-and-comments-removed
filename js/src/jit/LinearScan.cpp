@@ -253,7 +253,7 @@ dequeue
 nullptr
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 -
@@ -268,7 +268,7 @@ isBogus
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 -
@@ -412,7 +412,7 @@ position
 prevPosition
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 position
 >
@@ -453,7 +453,7 @@ it
 *
 i
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 -
@@ -561,7 +561,7 @@ it
 *
 i
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 it
 -
@@ -659,7 +659,7 @@ Requirement
 FIXED
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 req
@@ -1000,7 +1000,7 @@ spill
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 req
 -
@@ -1157,7 +1157,7 @@ getPhi
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -1207,7 +1207,7 @@ successor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 to
 )
@@ -1250,7 +1250,7 @@ lir
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessor
 -
@@ -1297,7 +1297,7 @@ predecessor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 )
@@ -1454,7 +1454,7 @@ successor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 to
 )
@@ -1515,7 +1515,7 @@ predecessor
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 from
 )
@@ -1564,7 +1564,7 @@ isStackSlot
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 vreg
 -
@@ -1574,7 +1574,7 @@ canonicalSpill
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 vreg
@@ -1609,7 +1609,7 @@ numPredecessors
 1
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 predecessor
 -
@@ -1746,7 +1746,7 @@ LAllocation
 allocation
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -1906,7 +1906,7 @@ getInterval
 k
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 =
@@ -2048,7 +2048,7 @@ false
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 UseCompatibleWith
 (
@@ -2282,7 +2282,7 @@ alloc
 inputAlloc
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 inputAlloc
@@ -2332,7 +2332,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 DefinitionCompatibleWith
 (
@@ -2689,7 +2689,7 @@ insData
 start
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 =
@@ -2923,7 +2923,7 @@ mustSpillAtDefinition
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 -
@@ -3372,7 +3372,7 @@ reg
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsTraceable
 (
@@ -3896,7 +3896,7 @@ reg
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 &
 vregs
@@ -3948,7 +3948,7 @@ CodePosition
 pos
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -3985,7 +3985,7 @@ vreg
 )
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 reg
 )
@@ -4033,7 +4033,7 @@ newInterval
 return
 false
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -4045,7 +4045,7 @@ numRanges
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 newInterval
 -
@@ -4216,7 +4216,7 @@ CodePosition
 MIN
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 fixedPos
 >
@@ -4228,7 +4228,7 @@ start
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fixedPos
 <
@@ -4367,7 +4367,7 @@ bits
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -4385,7 +4385,7 @@ start
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -4401,7 +4401,7 @@ start
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -4674,7 +4674,7 @@ start
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 nextActive
 !
@@ -4820,7 +4820,7 @@ previous
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 splitPos
 <
@@ -4890,7 +4890,7 @@ canonicalSpill
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 allocation
 =
@@ -5324,7 +5324,7 @@ interval
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 current
 -
@@ -5417,7 +5417,7 @@ canonicalSpill
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 other
 -
@@ -5487,7 +5487,7 @@ current
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 stackSlot
 <
@@ -5833,7 +5833,7 @@ getAllocation
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 alloc
@@ -8021,7 +8021,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -8033,7 +8033,7 @@ numRanges
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -8070,7 +8070,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 canCoexist
 (
@@ -8108,7 +8108,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -8120,7 +8120,7 @@ numRanges
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -8138,7 +8138,7 @@ start
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 i
@@ -8181,7 +8181,7 @@ j
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 i
@@ -8191,7 +8191,7 @@ i
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 canCoexist
 (
@@ -8224,7 +8224,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 canCoexist
 (
@@ -8262,7 +8262,7 @@ i
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 i
@@ -8278,7 +8278,7 @@ isUse
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -8305,7 +8305,7 @@ isRegister
 )
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 i
 -
@@ -8323,7 +8323,7 @@ start
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 i
@@ -8366,7 +8366,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 i
@@ -8401,7 +8401,7 @@ j
 +
 +
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 i
@@ -8478,7 +8478,7 @@ j
 +
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 i
@@ -8488,7 +8488,7 @@ i
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 canCoexist
 (
@@ -8556,7 +8556,7 @@ j
 i
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 j
 =
@@ -8577,7 +8577,7 @@ break
 ;
 }
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 found
 )
@@ -8876,7 +8876,7 @@ LiveInterval
 interval
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -8897,7 +8897,7 @@ Requirement
 NONE
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 interval
 -
@@ -9866,7 +9866,7 @@ if
 prev
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 prev
 -

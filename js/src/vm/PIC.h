@@ -154,7 +154,7 @@ next_
 next
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 next_
 )
@@ -200,13 +200,13 @@ CatStub
 stub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 next_
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stub
@@ -297,12 +297,12 @@ CatStub
 stub
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stub
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 stub
@@ -413,7 +413,7 @@ if
 previous
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 previous
 -
@@ -441,7 +441,7 @@ next
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 stub
 =
@@ -534,7 +534,7 @@ shape_
 shape
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 shape_
 )
@@ -799,7 +799,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 js
 :

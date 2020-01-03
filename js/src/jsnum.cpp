@@ -319,7 +319,7 @@ i
 ]
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 '
@@ -538,7 +538,7 @@ start
 +
 +
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 (
 '
@@ -745,7 +745,7 @@ bit
 0
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 bit
 =
@@ -1101,7 +1101,7 @@ double
 dp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 <
@@ -1109,7 +1109,7 @@ start
 end
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 2
 <
@@ -1406,7 +1406,7 @@ double
 dp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 start
 <
@@ -1446,7 +1446,7 @@ c
 *
 s
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 '
 0
@@ -3627,7 +3627,7 @@ break
 ;
 default
 :
-JS_ASSERT
+MOZ_ASSERT
 (
 base
 >
@@ -3747,7 +3747,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumber
 (
@@ -3931,7 +3931,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumber
 (
@@ -4368,7 +4368,7 @@ remainder
 -
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tmpDest
 -
@@ -4395,7 +4395,7 @@ tmpSrc
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tmpDest
 -
@@ -4424,7 +4424,7 @@ tmpDest
 =
 thousandsLength
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmpDest
 -
@@ -4481,7 +4481,7 @@ nint
 '
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tmpDest
 -
@@ -4510,7 +4510,7 @@ tmpDest
 =
 decimalLength
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 tmpDest
 -
@@ -4541,7 +4541,7 @@ nint
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 tmpDest
 -
@@ -4742,7 +4742,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumber
 (
@@ -5021,7 +5021,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumber
 (
@@ -5140,7 +5140,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumber
 (
@@ -5270,7 +5270,7 @@ CallArgs
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 IsNumber
 (
@@ -6208,7 +6208,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 obj
 -
@@ -6512,7 +6512,7 @@ DEBUG
 int32_t
 _
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 mozilla
@@ -6827,7 +6827,7 @@ i
 -
 10
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 StaticStrings
 :
@@ -6893,7 +6893,7 @@ len
 base
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cbuf
@@ -7211,7 +7211,7 @@ return
 nullptr
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cbuf
@@ -7550,7 +7550,7 @@ toInt32
 cstrlen
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 cstrlen
 =
@@ -7601,7 +7601,7 @@ cstr
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 cbuf
@@ -8010,7 +8010,7 @@ double
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -8020,7 +8020,7 @@ isNumber
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -8126,7 +8126,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 v
 .
@@ -8162,7 +8162,7 @@ double
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -8342,7 +8342,7 @@ int64_t
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -8422,7 +8422,7 @@ uint64_t
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -8516,7 +8516,7 @@ int32_t
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -8674,7 +8674,7 @@ uint32_t
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v
@@ -8818,7 +8818,7 @@ uint16_t
 out
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 v

@@ -468,7 +468,7 @@ markUnsafe
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 unsafe_
@@ -1932,14 +1932,14 @@ block
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 unsafe
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -2665,7 +2665,7 @@ alloc
 )
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 oldInstruction
 -
@@ -3310,7 +3310,7 @@ block
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -

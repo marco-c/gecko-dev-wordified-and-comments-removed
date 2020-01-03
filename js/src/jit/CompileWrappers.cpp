@@ -93,7 +93,7 @@ mainThread
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 onMainThread
 (

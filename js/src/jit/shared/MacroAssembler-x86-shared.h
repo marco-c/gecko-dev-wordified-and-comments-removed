@@ -205,7 +205,7 @@ label
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -333,7 +333,7 @@ label
 return
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -1217,7 +1217,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1270,7 +1270,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1325,7 +1325,7 @@ Label
 label
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 cond
 =
@@ -1518,7 +1518,7 @@ uint32_t
 args
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 args
 %
@@ -3201,7 +3201,7 @@ uint32_t
 x
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 r
 <

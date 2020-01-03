@@ -279,7 +279,7 @@ Stat
 s
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 s
 <

@@ -1511,7 +1511,7 @@ size_t
 slot
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 >
@@ -1660,7 +1660,7 @@ size_t
 end
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 end
 <
@@ -1670,7 +1670,7 @@ getDenseInitializedLength
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -1743,14 +1743,14 @@ Value
 value
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 slot
 <
@@ -1833,7 +1833,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -1865,7 +1865,7 @@ index
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -1895,7 +1895,7 @@ uint32_t
 index
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -1928,7 +1928,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -1961,7 +1961,7 @@ Value
 v
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 index
 <
@@ -2057,7 +2057,7 @@ getProto
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 uninlinedIsProxy
@@ -2620,7 +2620,7 @@ uint32_t
 capacity
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -2694,7 +2694,7 @@ ObjectElements
 header
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 hasDynamicElements
@@ -2711,7 +2711,7 @@ elements
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 hasDynamicElements
 (
@@ -2724,14 +2724,14 @@ getDenseCapacity
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 getElementsHeader
 (
@@ -2828,14 +2828,14 @@ uint32_t
 length
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 length
 <
@@ -2845,7 +2845,7 @@ getDenseCapacity
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -2920,7 +2920,7 @@ Value
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -2934,7 +2934,7 @@ getDenseInitializedLength
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -2976,7 +2976,7 @@ Value
 val
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -2990,7 +2990,7 @@ getDenseInitializedLength
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -3187,7 +3187,7 @@ uint32_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dstStart
 +
@@ -3199,7 +3199,7 @@ getDenseCapacity
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -3330,7 +3330,7 @@ uint32_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dstStart
 +
@@ -3342,7 +3342,7 @@ getDenseCapacity
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -3407,7 +3407,7 @@ uint32_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 dstStart
 +
@@ -3419,7 +3419,7 @@ getDenseCapacity
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 srcStart
 +
@@ -3431,7 +3431,7 @@ getDenseInitializedLength
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -3679,7 +3679,7 @@ uint32_t
 count
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 shadowZone
@@ -3692,7 +3692,7 @@ needsIncrementalBarrier
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 dstStart
 +
@@ -3704,7 +3704,7 @@ getDenseCapacity
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 srcStart
 +
@@ -3716,7 +3716,7 @@ getDenseCapacity
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 denseElementsAreCopyOnWrite
@@ -3759,7 +3759,7 @@ shouldConvertDoubleElements
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 getClass
 (
@@ -3799,7 +3799,7 @@ denseElementsAreCopyOnWrite
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 isNative
 (
@@ -5042,7 +5042,7 @@ MutableHandleValue
 vp
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 !
@@ -6047,7 +6047,7 @@ as
 (
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 -
@@ -6085,7 +6085,7 @@ as
 )
 const
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 this
 -
@@ -6351,7 +6351,7 @@ JSObject
 this
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 self
 -

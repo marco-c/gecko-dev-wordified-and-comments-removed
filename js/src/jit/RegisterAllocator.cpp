@@ -137,7 +137,7 @@ getBlock
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 block
 -
@@ -239,7 +239,7 @@ getPhi
 j
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phi
 -
@@ -644,7 +644,7 @@ bool
 populateSafepoints
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 instructions
@@ -757,7 +757,7 @@ next
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 alloc
@@ -801,7 +801,7 @@ getDef
 i
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 def
@@ -1599,7 +1599,7 @@ virtualRegister
 vreg
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 def
@@ -1619,7 +1619,7 @@ true
 }
 else
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 def
@@ -1678,7 +1678,7 @@ isBogusTemp
 (
 )
 )
-JS_ASSERT
+MOZ_ASSERT
 (
 *
 temp
@@ -1975,7 +1975,7 @@ safepoint
 (
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 )
@@ -2029,7 +2029,7 @@ addLiveRegister
 reg
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 -
@@ -2131,7 +2131,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 -
@@ -2199,7 +2199,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 -
@@ -2329,7 +2329,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 -
@@ -2400,7 +2400,7 @@ return
 false
 ;
 }
-JS_ASSERT
+MOZ_ASSERT
 (
 safepoint
 -
@@ -3664,7 +3664,7 @@ insData
 ins
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 data
@@ -3680,7 +3680,7 @@ isPhi
 )
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 data
@@ -3779,7 +3779,7 @@ insData
 ins
 ]
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 data

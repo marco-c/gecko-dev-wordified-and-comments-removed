@@ -4171,7 +4171,7 @@ a
 "
 )
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 fp
 )
@@ -5099,7 +5099,7 @@ Phase
 phase
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 phaseStartTimes
@@ -5111,7 +5111,7 @@ phase
 #
 ifdef
 DEBUG
-JS_ASSERT
+MOZ_ASSERT
 (
 phases
 [
@@ -5138,7 +5138,7 @@ phaseNestingDepth
 :
 PHASE_NO_PARENT
 ;
-JS_ASSERT
+MOZ_ASSERT
 (
 phaseNestingDepth
 <
@@ -5314,7 +5314,7 @@ int64_t
 window
 )
 {
-JS_ASSERT
+MOZ_ASSERT
 (
 !
 slices
