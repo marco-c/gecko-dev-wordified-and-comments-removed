@@ -29,6 +29,13 @@ unused
 h
 "
 BEGIN_BLUETOOTH_NAMESPACE
+using
+namespace
+mozilla
+:
+:
+ipc
+;
 const
 int
 BluetoothDaemonSocketModule

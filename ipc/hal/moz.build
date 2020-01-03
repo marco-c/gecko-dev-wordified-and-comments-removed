@@ -121,6 +121,11 @@ DaemonSocketPDU
 .
 h
 '
+'
+DaemonSocketPDUHelpers
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
