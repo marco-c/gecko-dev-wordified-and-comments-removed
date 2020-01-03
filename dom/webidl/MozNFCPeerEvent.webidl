@@ -112,8 +112,9 @@ CheckPermissions
 =
 "
 nfc
+nfc
 -
-write
+share
 "
 AvailableIn
 =

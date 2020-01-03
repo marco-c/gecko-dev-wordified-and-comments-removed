@@ -112,11 +112,6 @@ CheckPermissions
 =
 "
 nfc
--
-read
-nfc
--
-write
 "
 AvailableIn
 =

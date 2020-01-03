@@ -166,6 +166,13 @@ device
 /
 [
 Throws
+CheckPermissions
+=
+"
+nfc
+-
+share
+"
 ]
 Promise
 <
