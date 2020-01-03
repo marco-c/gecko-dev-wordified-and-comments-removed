@@ -206,6 +206,11 @@ new
 tab
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 const
 kWinOpenDefault
 =
