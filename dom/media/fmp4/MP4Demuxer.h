@@ -442,6 +442,9 @@ mQueuedSample
 bool
 mNeedReIndex
 ;
+bool
+mNeedSPSForTelemetry
+;
 Monitor
 mMonitor
 ;
