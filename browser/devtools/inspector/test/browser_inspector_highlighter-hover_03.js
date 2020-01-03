@@ -53,10 +53,7 @@ p
 >
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -69,14 +66,9 @@ inspector
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_PAGE
-)
-.
-then
-(
-openInspector
 )
 ;
 info

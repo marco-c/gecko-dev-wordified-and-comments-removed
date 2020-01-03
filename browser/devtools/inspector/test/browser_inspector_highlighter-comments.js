@@ -23,10 +23,7 @@ comments
 html
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -35,6 +32,7 @@ function
 {
 let
 {
+toolbox
 inspector
 }
 =
@@ -86,6 +84,7 @@ id1
 "
 )
 ;
+yield
 assertHighlighterShownOn
 (
 "
@@ -117,6 +116,7 @@ hoverComment
 (
 )
 ;
+yield
 assertHighlighterHidden
 (
 )
@@ -148,6 +148,7 @@ id1
 "
 )
 ;
+yield
 assertHighlighterShownOn
 (
 "
@@ -182,6 +183,7 @@ id2
 "
 )
 ;
+yield
 assertHighlighterShownOn
 (
 "
@@ -217,6 +219,7 @@ script
 "
 )
 ;
+yield
 assertHighlighterHidden
 (
 )
@@ -247,6 +250,7 @@ id3
 "
 )
 ;
+yield
 assertHighlighterShownOn
 (
 "
@@ -283,6 +287,7 @@ id4
 "
 )
 ;
+yield
 assertHighlighterHidden
 (
 )
@@ -337,6 +342,7 @@ promise
 ;
 }
 function
+*
 hoverElement
 (
 selector
@@ -362,13 +368,11 @@ view
 let
 container
 =
-getContainerForRawNode
-(
-markupView
-getNode
+yield
+getContainerForSelector
 (
 selector
-)
+inspector
 )
 ;
 return
@@ -435,6 +439,7 @@ container
 }
 }
 function
+*
 assertHighlighterShownOn
 (
 selector
@@ -451,8 +456,10 @@ selector
 let
 highlightNode
 =
+yield
 getHighlitNode
 (
+toolbox
 )
 ;
 is
@@ -475,16 +482,24 @@ selector
 ;
 }
 function
+*
 assertHighlighterHidden
 (
 )
 {
+let
+isVisible
+=
+yield
+isHighlighting
+(
+toolbox
+)
+;
 ok
 (
 !
-isHighlighting
-(
-)
+isVisible
 "
 Highlighter
 is

@@ -44,10 +44,7 @@ object
 >
 "
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *
@@ -90,7 +87,9 @@ node
 yield
 selectNode
 (
-objectNode
+"
+object
+"
 inspector
 )
 ;

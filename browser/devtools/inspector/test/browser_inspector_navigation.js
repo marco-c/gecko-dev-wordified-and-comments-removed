@@ -61,10 +61,7 @@ org
 +
 TEST_URL_FILE
 ;
-let
-test
-=
-asyncTest
+add_task
 (
 function
 *

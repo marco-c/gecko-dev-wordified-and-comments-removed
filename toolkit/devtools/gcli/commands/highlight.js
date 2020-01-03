@@ -72,7 +72,8 @@ MAX_HIGHLIGHTED_ELEMENTS
 =
 100
 ;
-let
+exports
+.
 highlighters
 =
 [
@@ -88,6 +89,8 @@ for
 let
 highlighter
 of
+exports
+.
 highlighters
 )
 {
@@ -98,10 +101,13 @@ destroy
 )
 ;
 }
+exports
+.
 highlighters
+.
+length
 =
-[
-]
+0
 ;
 }
 exports
@@ -564,6 +570,8 @@ region
 }
 )
 ;
+exports
+.
 highlighters
 .
 push
