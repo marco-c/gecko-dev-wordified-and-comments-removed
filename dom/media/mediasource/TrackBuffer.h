@@ -41,6 +41,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -347,7 +356,10 @@ mType
 int64_t
 mLastStartTimestamp
 ;
+Maybe
+<
 int64_t
+>
 mLastEndTimestamp
 ;
 MediaInfo
