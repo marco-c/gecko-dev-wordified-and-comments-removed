@@ -3094,6 +3094,11 @@ clut_table_data
 0
 ]
 ;
+if
+(
+clut_offset
+)
+{
 for
 (
 i
@@ -3148,6 +3153,7 @@ grid_points
 "
 )
 ;
+}
 }
 }
 lut
