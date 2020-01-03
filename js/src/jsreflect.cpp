@@ -3920,7 +3920,7 @@ RootedObject
 array
 (
 cx
-NewDenseAllocatedArray
+NewDenseFullyAllocatedArray
 (
 cx
 uint32_t

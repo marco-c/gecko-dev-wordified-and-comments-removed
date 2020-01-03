@@ -28,6 +28,11 @@ uint32_t
 EagerAllocationMaxLength
 =
 2048
+-
+ObjectElements
+:
+:
+VALUES_PER_HEADER
 ;
 static
 const
