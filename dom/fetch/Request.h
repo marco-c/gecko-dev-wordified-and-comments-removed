@@ -51,17 +51,6 @@ RequestBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
 class
 nsPIDOMWindow
 ;
@@ -79,6 +68,9 @@ InternalHeaders
 ;
 class
 Promise
+;
+class
+RequestOrScalarValueString
 ;
 class
 Request

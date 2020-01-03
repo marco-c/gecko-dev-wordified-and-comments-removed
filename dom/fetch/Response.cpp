@@ -42,6 +42,17 @@ mozilla
 /
 dom
 /
+FetchBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Headers
 .
 h

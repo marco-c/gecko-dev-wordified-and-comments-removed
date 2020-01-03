@@ -1296,6 +1296,17 @@ mozilla
 /
 dom
 /
+BlobBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BrowserElementDictionariesBinding
 .
 h

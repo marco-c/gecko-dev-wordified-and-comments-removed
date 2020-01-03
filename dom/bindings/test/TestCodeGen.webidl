@@ -7002,12 +7002,12 @@ long
 nullableEventInitOrLong
 ;
 (
-Node
+HTMLElement
 or
 long
 )
 ?
-nullableNodeOrLong
+nullableHTMLElementOrLong
 ;
 /
 /

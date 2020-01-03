@@ -37,6 +37,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

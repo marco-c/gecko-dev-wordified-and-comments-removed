@@ -102,17 +102,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -270,6 +259,9 @@ FilePropertyBag
 ;
 class
 FileImpl
+;
+class
+OwningArrayBufferOrArrayBufferViewOrBlobOrString
 ;
 class
 File

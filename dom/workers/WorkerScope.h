@@ -42,17 +42,6 @@ RequestBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
 namespace
 mozilla
 {
@@ -67,6 +56,9 @@ Function
 ;
 class
 Promise
+;
+class
+RequestOrScalarValueString
 ;
 }
 }

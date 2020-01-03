@@ -63,17 +63,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

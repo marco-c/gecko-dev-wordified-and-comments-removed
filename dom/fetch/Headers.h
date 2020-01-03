@@ -18,17 +18,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-UnionTypes
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -69,6 +58,9 @@ MozMap
 ;
 class
 HeadersOrByteStringSequenceSequenceOrByteStringMozMap
+;
+class
+OwningHeadersOrByteStringSequenceSequenceOrByteStringMozMap
 ;
 class
 Headers
