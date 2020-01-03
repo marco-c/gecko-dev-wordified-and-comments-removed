@@ -1775,10 +1775,13 @@ id
 /
 ^
 setting
-getter
--
-only
+a
 property
+that
+has
+only
+a
+getter
 /
 '
 id

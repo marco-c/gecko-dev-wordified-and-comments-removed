@@ -1762,7 +1762,6 @@ return
 js_ReportGetterOnlyAssignment
 (
 cx
-id
 strict
 )
 ;
