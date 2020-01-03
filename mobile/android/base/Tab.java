@@ -536,14 +536,6 @@ Color
 WHITE
 ;
 public
-static
-final
-int
-MAX_HISTORY_LIST_SIZE
-=
-50
-;
-public
 enum
 ErrorType
 {
