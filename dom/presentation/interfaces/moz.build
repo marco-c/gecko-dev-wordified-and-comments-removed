@@ -123,6 +123,16 @@ nsIPresentationDeviceProvider
 idl
 '
 '
+nsIPresentationListener
+.
+idl
+'
+'
+nsIPresentationService
+.
+idl
+'
+'
 nsIPresentationSessionRequest
 .
 idl
