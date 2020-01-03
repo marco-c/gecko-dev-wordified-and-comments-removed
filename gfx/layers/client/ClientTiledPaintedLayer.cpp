@@ -1524,6 +1524,12 @@ aCallback
 aCallbackData
 )
 ;
+mPaintData
+.
+mPaintFinished
+=
+true
+;
 return
 true
 ;
