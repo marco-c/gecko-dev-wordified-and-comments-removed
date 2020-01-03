@@ -29300,7 +29300,6 @@ JSOP_SUB
 JSOP_MUL
 JSOP_DIV
 JSOP_MOD
-JSOP_POW
 }
 ;
 static
@@ -29397,7 +29396,6 @@ PrecedenceTable
 10
 10
 10
-11
 }
 ;
 static
@@ -29405,7 +29403,7 @@ const
 int
 PRECEDENCE_CLASSES
 =
-11
+10
 ;
 static
 int
@@ -30387,19 +30385,6 @@ PNK_MODASSIGN
 op
 =
 JSOP_MOD
-;
-break
-;
-case
-TOK_POWASSIGN
-:
-kind
-=
-PNK_POWASSIGN
-;
-op
-=
-JSOP_POW
 ;
 break
 ;
