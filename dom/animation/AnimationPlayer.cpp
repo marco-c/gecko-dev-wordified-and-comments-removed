@@ -289,6 +289,10 @@ PlayFromJS
 (
 )
 {
+FlushStyle
+(
+)
+;
 Play
 (
 eUpdateStyle
