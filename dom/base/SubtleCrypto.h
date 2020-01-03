@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsPIDOMWindow
+nsIGlobalObject
 .
 h
 "
@@ -88,12 +88,12 @@ public
 explicit
 SubtleCrypto
 (
-nsPIDOMWindow
+nsIGlobalObject
 *
-aWindow
+aParent
 )
 ;
-nsPIDOMWindow
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -101,7 +101,7 @@ GetParentObject
 const
 {
 return
-mWindow
+mParent
 ;
 }
 virtual
@@ -457,9 +457,9 @@ private
 :
 nsCOMPtr
 <
-nsPIDOMWindow
+nsIGlobalObject
 >
-mWindow
+mParent
 ;
 }
 ;
