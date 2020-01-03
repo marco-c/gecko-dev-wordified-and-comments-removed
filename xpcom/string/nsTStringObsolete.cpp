@@ -1734,7 +1734,7 @@ EnsureMutable
 (
 )
 )
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
@@ -1772,7 +1772,7 @@ EnsureMutable
 (
 )
 )
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
@@ -1826,7 +1826,7 @@ EnsureMutable
 (
 )
 )
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
@@ -1887,7 +1887,7 @@ EnsureMutable
 (
 )
 )
-NS_ABORT_OOM
+AllocFailed
 (
 mLength
 )
