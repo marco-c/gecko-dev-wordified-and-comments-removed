@@ -5451,8 +5451,6 @@ mode
 AFTER_GL_CALL
 ;
 }
-private
-:
 void
 raw_fReadPixels
 (
@@ -5500,8 +5498,6 @@ mHeavyGLCallsSinceLastFlush
 true
 ;
 }
-public
-:
 void
 fReadPixels
 (

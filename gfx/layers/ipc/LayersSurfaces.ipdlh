@@ -411,6 +411,14 @@ yflip
 ;
 }
 ;
+struct
+ShSurfDescriptor
+{
+uintptr_t
+surf
+;
+}
+;
 /
 *
 *
@@ -498,6 +506,8 @@ SurfaceStreamDescriptor
 SurfaceDescriptorMacIOSurface
 ;
 NewSurfaceDescriptorGralloc
+;
+ShSurfDescriptor
 ;
 null_t
 ;
