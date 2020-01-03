@@ -581,12 +581,8 @@ WebSocketImpl
 *
 mImpl
 ;
-workers
-:
-:
-WorkerPrivate
-*
-mWorkerPrivate
+bool
+mIsMainThread
 ;
 bool
 mKeepingAlive
