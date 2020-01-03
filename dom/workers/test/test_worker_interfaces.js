@@ -315,16 +315,10 @@ b2g
 true
 }
 "
-DOMCursor
-"
-"
 DOMError
 "
 "
 DOMException
-"
-"
-DOMRequest
 "
 "
 DOMStringList
@@ -388,6 +382,9 @@ MessageEvent
 "
 "
 MessagePort
+"
+"
+Notification
 "
 "
 Performance
