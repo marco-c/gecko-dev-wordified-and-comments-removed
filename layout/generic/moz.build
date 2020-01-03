@@ -660,6 +660,13 @@ ScrollbarActivity
 .
 h
 '
+]
+EXPORTS
+.
+mozilla
++
+=
+[
 '
 WritingModes
 .
