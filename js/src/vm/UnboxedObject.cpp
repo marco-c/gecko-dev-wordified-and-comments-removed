@@ -11070,9 +11070,11 @@ properties
 ;
 if
 (
-sizeof
+UnboxedPlainObject
+:
+:
+offsetOfData
 (
-JSObject
 )
 +
 layoutSize
