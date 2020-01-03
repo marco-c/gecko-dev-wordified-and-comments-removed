@@ -160,6 +160,11 @@ ContentLinkHandler
 jsm
 '
 '
+ContentObservers
+.
+jsm
+'
+'
 ContentSearch
 .
 jsm
