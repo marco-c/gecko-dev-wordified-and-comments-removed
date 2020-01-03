@@ -1762,6 +1762,13 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 nsCOMPtr
 <
 nsIFile
