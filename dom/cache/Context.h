@@ -362,6 +362,17 @@ Context
 )
 ;
 void
+Init
+(
+Action
+*
+aInitAction
+Context
+*
+aOldContext
+)
+;
+void
 Start
 (
 )
