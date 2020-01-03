@@ -521,9 +521,7 @@ TelemetryContract
 Method
 .
 SUGGESTION
-"
-suggest
-"
+position
 )
 ;
 searchListener
