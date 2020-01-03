@@ -225,9 +225,6 @@ JSContext
 cx
 MutableHandleValue
 rval
-IonScript
-*
-ionScript
 )
 :
 cx_
@@ -236,10 +233,6 @@ cx
 )
 ionScript_
 (
-ionScript
-?
-ionScript
-:
 GetTopJitJSScript
 (
 cx

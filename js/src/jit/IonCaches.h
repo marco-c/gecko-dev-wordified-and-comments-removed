@@ -1529,15 +1529,11 @@ CanAttachArrayLength
 CanAttachCallGetter
 }
 ;
-typedef
-JSContext
-*
-Context
-;
 bool
 allowArrayLength
 (
-Context
+JSContext
+*
 cx
 HandleObject
 obj
@@ -1577,9 +1573,6 @@ HandleObject
 obj
 HandlePropertyName
 name
-void
-*
-returnAddr
 bool
 *
 emitted
@@ -1770,6 +1763,8 @@ update
 JSContext
 *
 cx
+HandleScript
+outerScript
 size_t
 cacheIndex
 HandleObject
@@ -2082,6 +2077,8 @@ update
 JSContext
 *
 cx
+HandleScript
+outerScript
 size_t
 cacheIndex
 HandleObject
@@ -2421,9 +2418,6 @@ Value
 idval
 HandlePropertyName
 name
-void
-*
-returnAddr
 )
 ;
 bool
@@ -2486,6 +2480,8 @@ update
 JSContext
 *
 cx
+HandleScript
+outerScript
 size_t
 cacheIndex
 HandleObject
@@ -2818,6 +2814,8 @@ update
 JSContext
 *
 cx
+HandleScript
+outerScript
 size_t
 cacheIndex
 HandleObject
@@ -2956,6 +2954,8 @@ update
 JSContext
 *
 cx
+HandleScript
+outerScript
 size_t
 cacheIndex
 HandleObject
@@ -3130,6 +3130,8 @@ update
 JSContext
 *
 cx
+HandleScript
+outerScript
 size_t
 cacheIndex
 HandleObject
