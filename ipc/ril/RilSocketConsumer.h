@@ -11,6 +11,9 @@ nsAutoPtr
 .
 h
 "
+class
+JSContext
+;
 namespace
 mozilla
 {
@@ -29,6 +32,9 @@ virtual
 void
 ReceiveSocketData
 (
+JSContext
+*
+aCx
 int
 aIndex
 nsAutoPtr
