@@ -65,6 +65,7 @@ JS
 :
 Value
 path
+const
 JSCTypesCallbacks
 *
 callbacks

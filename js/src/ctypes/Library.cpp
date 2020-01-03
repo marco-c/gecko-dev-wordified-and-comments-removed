@@ -331,6 +331,7 @@ JSContext
 cx
 jsval
 path_
+const
 JSCTypesCallbacks
 *
 callbacks
