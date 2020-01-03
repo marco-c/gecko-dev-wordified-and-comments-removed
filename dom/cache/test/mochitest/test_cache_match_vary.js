@@ -338,16 +338,12 @@ h
 return
 fetch
 (
-new
-Request
-(
 requestURL
 {
 headers
 :
 h
 }
-)
 )
 ;
 }
@@ -524,7 +520,7 @@ WhatToVary
 "
 :
 "
-Cookie
+Custom
 "
 }
 )
@@ -597,7 +593,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -659,7 +655,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -767,7 +763,7 @@ WhatToVary
 "
 )
 "
-Cookie
+Custom
 "
 "
 The
@@ -791,7 +787,7 @@ WhatToVary
 "
 :
 "
-Cookie
+Custom
 "
 }
 )
@@ -858,7 +854,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -919,7 +915,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -1467,10 +1463,10 @@ WhatToVary
 "
 :
 "
-Cookie
+Custom
 "
 "
-Cookie
+Custom
 "
 :
 "
@@ -1508,7 +1504,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -1548,7 +1544,7 @@ a
 non
 -
 matching
-Cookie
+Custom
 header
 should
 not
@@ -1572,7 +1568,7 @@ headers
 :
 {
 "
-Cookie
+Custom
 "
 :
 "
@@ -1631,6 +1627,8 @@ WhatToVary
 Foo
 /
 Bar
+Custom
+-
 User
 -
 Agent
@@ -1665,6 +1663,8 @@ headers
 :
 {
 "
+Custom
+-
 User
 -
 Agent
@@ -1705,6 +1705,8 @@ a
 non
 -
 matching
+Custom
+-
 User
 -
 Agent
@@ -1731,6 +1733,8 @@ headers
 :
 {
 "
+Custom
+-
 User
 -
 Agent
@@ -1850,9 +1854,13 @@ WhatToVary
 "
 :
 "
+Custom
+-
 Referer
 \
-tAccept
+tCustom
+-
+Accept
 -
 Encoding
 "
@@ -1886,6 +1894,8 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
@@ -1931,6 +1941,8 @@ a
 non
 -
 matching
+Custom
+-
 Referer
 header
 should
@@ -1955,6 +1967,8 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
@@ -2025,6 +2039,8 @@ headers
 :
 {
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2065,6 +2081,8 @@ a
 non
 -
 matching
+Custom
+-
 Accept
 -
 Encoding
@@ -2091,6 +2109,8 @@ headers
 :
 {
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2156,6 +2176,8 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
@@ -2213,6 +2235,8 @@ headers
 :
 {
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2272,12 +2296,16 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
 "
 "
 "
+Custom
+-
 Accept
 -
 Encoding
@@ -2318,6 +2346,8 @@ a
 non
 -
 matching
+Custom
+-
 Accept
 -
 Encoding
@@ -2344,12 +2374,16 @@ headers
 :
 {
 "
+Custom
+-
 Referer
 "
 :
 "
 "
 "
+Custom
+-
 Accept
 -
 Encoding
