@@ -193,7 +193,7 @@ using
 lul
 :
 :
-UniqueString
+UniqueStringUniverse
 ;
 using
 lul
@@ -561,6 +561,9 @@ SecMap
 smap
 uintptr_t
 text_bias
+UniqueStringUniverse
+*
+usu
 void
 (
 *
@@ -709,6 +712,7 @@ handler
 num_dw_regs
 &
 module_reporter
+usu
 summ
 )
 ;
@@ -1757,6 +1761,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *
@@ -2050,6 +2057,7 @@ false
 big_endian
 smap
 text_bias
+usu
 log
 )
 ;
@@ -2187,6 +2195,7 @@ text_section
 big_endian
 smap
 text_bias
+usu
 log
 )
 ;
@@ -2719,6 +2728,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *
@@ -2912,6 +2924,7 @@ info
 smap
 rx_avma
 rx_size
+usu
 log
 )
 )
@@ -3171,6 +3184,7 @@ info
 smap
 rx_avma
 rx_size
+usu
 log
 )
 )
@@ -3214,6 +3228,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *
@@ -3297,6 +3314,7 @@ debug_dirs
 smap
 rx_avma
 rx_size
+usu
 log
 )
 ;
@@ -3329,6 +3347,7 @@ debug_dirs
 smap
 rx_avma
 rx_size
+usu
 log
 )
 ;
@@ -3359,6 +3378,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *
@@ -3411,6 +3433,7 @@ debug_dirs
 smap
 rx_avma
 rx_size
+usu
 log
 )
 ;

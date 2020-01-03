@@ -50,13 +50,6 @@ h
 #
 include
 "
-UnwinderThread2
-.
-h
-"
-#
-include
-"
 nsMemoryReporterManager
 .
 h
@@ -1413,11 +1406,6 @@ sRegisteredThreads
 push_back
 (
 info
-)
-;
-uwt__register_thread_for_profiling
-(
-stackTop
 )
 ;
 return

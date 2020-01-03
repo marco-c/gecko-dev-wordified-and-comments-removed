@@ -181,11 +181,6 @@ UNIFIED_SOURCES
 =
 [
 '
-BreakpadSampler
-.
-cpp
-'
-'
 JSStreamWriter
 .
 cpp
@@ -247,11 +242,6 @@ cpp
 '
 '
 ThreadResponsiveness
-.
-cpp
-'
-'
-UnwinderThread2
 .
 cpp
 '
@@ -337,7 +327,11 @@ LulMain
 cpp
 '
 '
-LulRWLock
+platform
+-
+linux
+-
+lul
 .
 cpp
 '

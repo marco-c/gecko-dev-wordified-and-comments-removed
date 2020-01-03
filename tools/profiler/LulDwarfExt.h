@@ -2161,6 +2161,9 @@ num_dw_regs
 Reporter
 *
 reporter
+UniqueStringUniverse
+*
+usu
 Summariser
 *
 summ
@@ -2169,6 +2172,10 @@ summ
 summ_
 (
 summ
+)
+usu_
+(
+usu
 )
 num_dw_regs_
 (
@@ -2329,6 +2336,10 @@ i
 Summariser
 *
 summ_
+;
+UniqueStringUniverse
+*
+usu_
 ;
 const
 unsigned
