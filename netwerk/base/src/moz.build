@@ -292,6 +292,11 @@ nsNetAddr
 cpp
 '
 '
+nsNetStrings
+.
+cpp
+'
+'
 nsNetUtil
 .
 cpp

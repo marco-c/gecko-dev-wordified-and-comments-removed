@@ -4950,6 +4950,7 @@ preflightChannel
 )
 uri
 loadInfo
+nullptr
 loadGroup
 nullptr
 loadFlags
@@ -4982,6 +4983,7 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
 loadGroup
 nullptr
 loadFlags

@@ -1330,6 +1330,7 @@ nsIContentPolicy
 :
 TYPE_OTHER
 nullptr
+nullptr
 callbacks
 )
 ;
@@ -1602,6 +1603,7 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
+nullptr
 nullptr
 callbacks
 )
