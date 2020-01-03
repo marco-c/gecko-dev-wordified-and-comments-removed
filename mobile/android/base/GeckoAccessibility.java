@@ -1068,6 +1068,17 @@ e
 }
 public
 static
+boolean
+isEnabled
+(
+)
+{
+return
+sEnabled
+;
+}
+public
+static
 void
 sendAccessibilityEvent
 (
