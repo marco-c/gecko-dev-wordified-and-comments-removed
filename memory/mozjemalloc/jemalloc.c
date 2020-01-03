@@ -400,7 +400,7 @@ endif
 define
 JEMALLOC_MUNMAP
 #
-undef
+define
 JEMALLOC_RECYCLE
 #
 ifndef
