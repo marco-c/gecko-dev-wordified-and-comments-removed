@@ -11917,7 +11917,10 @@ runtime
 >
 onOutOfMemoryCanGC
 (
-NULL
+AllocFunction
+:
+:
+Malloc
 JSRuntime
 :
 :
