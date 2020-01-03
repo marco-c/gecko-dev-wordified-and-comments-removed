@@ -10,6 +10,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 from
 mozpack
 .
@@ -672,9 +674,7 @@ clone
 .
 relpath
 =
-mozpack
-.
-path
+mozpath
 .
 rebase
 (
@@ -700,15 +700,11 @@ self
 :
         
 return
-mozpack
-.
-path
+mozpath
 .
 normpath
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -821,9 +817,7 @@ self
 :
         
 return
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1577,9 +1571,7 @@ clone
 .
 target
 =
-mozpack
-.
-path
+mozpath
 .
 rebase
 (
@@ -2184,9 +2176,7 @@ file
     
 base
 =
-mozpack
-.
-path
+mozpath
 .
 dirname
 (

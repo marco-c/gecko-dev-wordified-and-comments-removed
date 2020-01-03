@@ -23,6 +23,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 errno
 from
@@ -214,9 +216,7 @@ partial_path
             
 partial_path
 =
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -470,9 +470,7 @@ paths
 )
                     
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -522,9 +520,7 @@ paths
 )
                 
 if
-mozpack
-.
-path
+mozpath
 .
 basedir
 (

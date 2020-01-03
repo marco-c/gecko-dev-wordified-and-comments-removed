@@ -6,6 +6,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 os
 import
@@ -666,9 +668,7 @@ srcdir_path
             
 return
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -708,9 +708,7 @@ self
 _find_manifest
 (
 suite
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -721,9 +719,7 @@ test_file
 0
 ]
                 
-mozpack
-.
-path
+mozpath
 .
 basename
 (
@@ -935,9 +931,7 @@ reftest
                 
 test_file
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -960,9 +954,7 @@ crashtest
                 
 test_file
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -998,9 +990,7 @@ test_file
             
 test_file
 =
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1039,9 +1029,7 @@ path
 .
 exists
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1924,9 +1912,7 @@ path
 .
 exists
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (

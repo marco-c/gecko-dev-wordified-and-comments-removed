@@ -89,6 +89,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 from
 tempfile
 import
@@ -7283,9 +7285,7 @@ in
 finder
                                      
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (

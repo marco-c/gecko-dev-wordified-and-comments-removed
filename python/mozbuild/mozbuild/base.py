@@ -11,6 +11,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 multiprocessing
 import
@@ -4578,9 +4580,7 @@ base_dir
 :
                 
 return
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -4589,9 +4589,7 @@ base_dir
 )
         
 return
-mozpack
-.
-path
+mozpath
 .
 normsep
 (
@@ -4608,9 +4606,7 @@ self
 :
         
 return
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -4632,9 +4628,7 @@ self
 :
         
 return
-mozpack
-.
-path
+mozpath
 .
 join
 (

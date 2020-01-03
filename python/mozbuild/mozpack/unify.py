@@ -44,6 +44,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 struct
 import
@@ -528,9 +530,7 @@ gives
 a
 list
 of
-mozpack
-.
-path
+mozpath
 .
 match
 patterns
@@ -1078,9 +1078,7 @@ _sorted
 :
             
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -1229,9 +1227,7 @@ unify_file
 '
         
 if
-mozpack
-.
-path
+mozpath
 .
 basename
 (

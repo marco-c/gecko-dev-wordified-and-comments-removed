@@ -68,6 +68,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 buildconfig
 from
@@ -1531,9 +1533,7 @@ if
 not
 any
 (
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -2339,9 +2339,7 @@ machine
 (
 )
 in
-mozpack
-.
-path
+mozpath
 .
 split
 (
@@ -2674,9 +2672,7 @@ copier
 .
 add
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -2713,9 +2709,7 @@ SIGN_LIBS
                 
 libbase
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -2931,9 +2925,7 @@ LIBXUL_SDK
             
 gre_path
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -2983,9 +2975,7 @@ for
 p
 in
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (

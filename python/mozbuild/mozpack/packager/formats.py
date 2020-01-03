@@ -25,6 +25,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 from
 mozpack
 .
@@ -507,9 +509,7 @@ _frozen_bases
 True
         
 return
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -577,9 +577,7 @@ else
             
 name
 =
-mozpack
-.
-path
+mozpath
 .
 basename
 (
@@ -590,15 +588,11 @@ base
         
 path
 =
-mozpack
-.
-path
+mozpath
 .
 normpath
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -630,9 +624,7 @@ path
 :
             
 assert
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -663,9 +655,7 @@ base
                 
 parent
 =
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -676,9 +666,7 @@ base
                 
 relbase
 =
-mozpack
-.
-path
+mozpath
 .
 basename
 (
@@ -689,17 +677,13 @@ base
                 
 relpath
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
 relbase
                                             
-mozpack
-.
-path
+mozpath
 .
 basename
 (
@@ -757,15 +741,11 @@ content
         
 interfaces_path
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -799,9 +779,7 @@ self
 ManifestInterfaces
 (
                 
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -1020,9 +998,7 @@ _frozen_chrome
 True
         
 return
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -1104,9 +1080,7 @@ jar
 .
 contains
 (
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1126,9 +1100,7 @@ jar
 .
 add
 (
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1202,9 +1174,7 @@ base
         
 basepath
 =
-mozpack
-.
-path
+mozpath
 .
 split
 (
@@ -1216,9 +1186,7 @@ relpath
         
 chromepath
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1239,9 +1207,7 @@ chromepath
 .
 move
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1457,9 +1423,7 @@ jar
             
 contains
 (
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1678,9 +1642,7 @@ copier
 .
 add
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -1701,9 +1663,7 @@ omnijars
 base
 ]
 base
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1792,9 +1752,7 @@ entry
 .
 move
 (
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1888,9 +1846,7 @@ copier
 .
 contains
 (
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1961,9 +1917,7 @@ path
         
 path
 =
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -1974,9 +1928,7 @@ base
 if
 any
 (
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -2009,9 +1961,7 @@ False
         
 path
 =
-mozpack
-.
-path
+mozpath
 .
 split
 (

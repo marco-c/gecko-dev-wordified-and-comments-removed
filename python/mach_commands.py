@@ -13,6 +13,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 os
 import
@@ -331,9 +333,7 @@ search_dirs
                 
 test
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -419,9 +419,7 @@ glob
 .
 glob
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -442,9 +440,7 @@ glob
 .
 glob
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (

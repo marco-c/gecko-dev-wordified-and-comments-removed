@@ -1433,6 +1433,8 @@ import
 mozpack
 .
 path
+as
+mozpath
         
 from
 tempfile
@@ -1496,9 +1498,7 @@ idl
                 
 p
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (

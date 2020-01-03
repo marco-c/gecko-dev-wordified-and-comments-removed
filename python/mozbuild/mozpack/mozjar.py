@@ -30,6 +30,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 JAR_STORED
 =
 ZIP_STORED
@@ -4179,9 +4181,7 @@ it
         
 name
 =
-mozpack
-.
-path
+mozpath
 .
 normsep
 (
@@ -5876,9 +5876,7 @@ path
 )
             
 return
-mozpack
-.
-path
+mozpath
 .
 normsep
 (

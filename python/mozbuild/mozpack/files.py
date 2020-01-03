@@ -80,6 +80,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 from
 collections
 import
@@ -2333,9 +2335,7 @@ depfile
             
 target
 =
-mozpack
-.
-path
+mozpath
 .
 normpath
 (
@@ -4803,9 +4803,7 @@ to
 base
 using
         
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -4955,9 +4953,7 @@ _find_glob
 (
 '
 '
-mozpack
-.
-path
+mozpath
 .
 split
 (
@@ -5087,9 +5083,7 @@ ignore
 :
             
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -5145,9 +5139,7 @@ self
 .
 _find
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -5238,9 +5230,7 @@ ignore
 :
             
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -5338,9 +5328,7 @@ self
 :
                 
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -5412,16 +5400,12 @@ base
 :
                 
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
 p
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -5479,9 +5463,7 @@ ignore
 :
                 
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -5543,9 +5525,7 @@ startswith
 continue
                 
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -5565,9 +5545,7 @@ self
 .
 _find_glob
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -5598,9 +5576,7 @@ self
 .
 _find_glob
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -5787,9 +5763,7 @@ _files
 :
                 
 if
-mozpack
-.
-path
+mozpath
 .
 match
 (
@@ -5870,9 +5844,7 @@ _files
 :
                 
 if
-mozpack
-.
-path
+mozpath
 .
 basedir
 (

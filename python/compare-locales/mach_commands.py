@@ -273,9 +273,7 @@ l10n_ini
                 
 l10n_ini
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -311,9 +309,7 @@ l10n_base
                 
 l10n_base
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -380,9 +376,7 @@ try
                 
 merge_dir
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (

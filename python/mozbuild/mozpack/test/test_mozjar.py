@@ -47,6 +47,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 import
 os
 class
@@ -2699,9 +2701,7 @@ p
 :
 \
             
-mozpack
-.
-path
+mozpath
 .
 normsep
 (

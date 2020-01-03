@@ -37,6 +37,8 @@ import
 mozpack
 .
 path
+as
+mozpath
 from
 collections
 import
@@ -1737,9 +1739,7 @@ file
 )
             
 if
-mozpack
-.
-path
+mozpath
 .
 basename
 (
@@ -1760,9 +1760,7 @@ _addons
 .
 add
 (
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -1827,9 +1825,7 @@ path
             
 b
 =
-mozpack
-.
-path
+mozpath
 .
 normsep
 (
@@ -2057,9 +2053,7 @@ all_bases
 =
 set
 (
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -2135,9 +2129,7 @@ self
 _included_manifests
                                
 if
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -2420,9 +2412,7 @@ prefix
 '
         
 if
-mozpack
-.
-path
+mozpath
 .
 basedir
 (
@@ -2441,9 +2431,7 @@ bin
 :
             
 return
-mozpack
-.
-path
+mozpath
 .
 relpath
 (
@@ -2531,9 +2519,7 @@ p
             
 dest
 =
-mozpack
-.
-path
+mozpath
 .
 join
 (
@@ -2665,9 +2651,7 @@ auto_root_manifest
 paths
 =
 [
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
@@ -2683,15 +2667,11 @@ _manifests
             
 path
 =
-mozpack
-.
-path
+mozpath
 .
 dirname
 (
-mozpack
-.
-path
+mozpath
 .
 commonprefix
 (
@@ -2709,9 +2689,7 @@ _finder
 .
 find
 (
-mozpack
-.
-path
+mozpath
 .
 join
 (
