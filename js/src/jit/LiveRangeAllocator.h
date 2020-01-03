@@ -647,7 +647,7 @@ inline
 bool
 DefinitionCompatibleWith
 (
-LInstruction
+LNode
 *
 ins
 const
@@ -833,7 +833,7 @@ LDefinition
 *
 FindReusingDefinition
 (
-LInstruction
+LNode
 *
 ins
 LAllocation
@@ -1833,7 +1833,7 @@ const
 class
 VirtualRegister
 {
-LInstruction
+LNode
 *
 ins_
 ;
@@ -1897,7 +1897,7 @@ init
 TempAllocator
 &
 alloc
-LInstruction
+LNode
 *
 ins
 LDefinition
@@ -1979,7 +1979,7 @@ block
 )
 ;
 }
-LInstruction
+LNode
 *
 ins
 (
@@ -3622,6 +3622,21 @@ ifdef
 CHECK_OSIPOINT_REGISTERS
 if
 (
+reg
+-
+>
+ins
+(
+)
+-
+>
+isInstruction
+(
+)
+)
+{
+if
+(
 LSafepoint
 *
 safepoint
@@ -3630,6 +3645,11 @@ reg
 -
 >
 ins
+(
+)
+-
+>
+toInstruction
 (
 )
 -
@@ -3651,6 +3671,7 @@ toRegister
 )
 )
 ;
+}
 #
 endif
 start

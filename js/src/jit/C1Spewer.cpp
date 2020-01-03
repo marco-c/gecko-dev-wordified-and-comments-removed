@@ -580,7 +580,7 @@ DumpLIR
 FILE
 *
 fp
-LInstruction
+LNode
 *
 ins
 )
@@ -639,7 +639,7 @@ fp
 LinearScanAllocator
 *
 regalloc
-LInstruction
+LNode
 *
 ins
 size_t

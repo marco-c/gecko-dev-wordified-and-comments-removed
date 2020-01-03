@@ -2386,6 +2386,11 @@ ins
 )
 -
 >
+toInstruction
+(
+)
+-
+>
 snapshot
 (
 )
@@ -2662,7 +2667,7 @@ start
 (
 )
 ;
-LInstruction
+LNode
 *
 ins
 =
@@ -4886,7 +4891,7 @@ getAllocation
 )
 )
 ;
-LInstruction
+LNode
 *
 other
 =

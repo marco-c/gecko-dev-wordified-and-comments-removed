@@ -182,7 +182,7 @@ class
 CodeGeneratorShared
 :
 public
-LInstructionVisitor
+LElementVisitor
 {
 js
 :

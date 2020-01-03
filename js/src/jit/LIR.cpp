@@ -1693,7 +1693,7 @@ RECOVERED_INPUT
 }
 }
 void
-LInstruction
+LNode
 :
 :
 printName
@@ -1783,7 +1783,7 @@ i
 ;
 }
 void
-LInstruction
+LNode
 :
 :
 printName
@@ -2578,7 +2578,7 @@ toString
 ;
 }
 void
-LInstruction
+LNode
 :
 :
 printOperands
@@ -2732,7 +2732,7 @@ n
 endif
 }
 void
-LInstruction
+LNode
 :
 :
 dump
@@ -3001,7 +3001,7 @@ fp
 }
 }
 void
-LInstruction
+LNode
 :
 :
 dump

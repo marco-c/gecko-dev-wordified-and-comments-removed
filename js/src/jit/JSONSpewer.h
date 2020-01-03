@@ -54,7 +54,7 @@ class
 LinearScanAllocator
 ;
 class
-LInstruction
+LNode
 ;
 class
 JSONSpewer
@@ -249,7 +249,7 @@ mir
 void
 spewLIns
 (
-LInstruction
+LNode
 *
 ins
 )
