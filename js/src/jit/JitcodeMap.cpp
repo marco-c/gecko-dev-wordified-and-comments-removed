@@ -4512,7 +4512,7 @@ else
 entry
 -
 >
-sweep
+sweepChildren
 (
 rt
 )
@@ -4681,7 +4681,7 @@ JitcodeGlobalEntry
 BaselineEntry
 :
 :
-sweep
+sweepChildren
 (
 )
 {
@@ -5006,7 +5006,7 @@ JitcodeGlobalEntry
 IonEntry
 :
 :
-sweep
+sweepChildren
 (
 )
 {
@@ -5349,7 +5349,7 @@ JitcodeGlobalEntry
 IonCacheEntry
 :
 :
-sweep
+sweepChildren
 (
 JSRuntime
 *
@@ -5373,7 +5373,7 @@ entry
 ;
 entry
 .
-sweep
+sweepChildren
 (
 rt
 )

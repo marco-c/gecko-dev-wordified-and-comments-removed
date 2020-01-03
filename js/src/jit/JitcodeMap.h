@@ -1501,7 +1501,7 @@ trc
 )
 ;
 void
-sweep
+sweepChildren
 (
 )
 ;
@@ -1756,7 +1756,7 @@ trc
 )
 ;
 void
-sweep
+sweepChildren
 (
 )
 ;
@@ -2009,7 +2009,7 @@ trc
 )
 ;
 void
-sweep
+sweepChildren
 (
 JSRuntime
 *
@@ -3995,7 +3995,7 @@ markedAny
 ;
 }
 void
-sweep
+sweepChildren
 (
 JSRuntime
 *
@@ -4016,7 +4016,7 @@ ionEntry
 (
 )
 .
-sweep
+sweepChildren
 (
 )
 ;
@@ -4029,7 +4029,7 @@ baselineEntry
 (
 )
 .
-sweep
+sweepChildren
 (
 )
 ;
@@ -4042,7 +4042,7 @@ ionCacheEntry
 (
 )
 .
-sweep
+sweepChildren
 (
 rt
 )
