@@ -1027,14 +1027,11 @@ p
 \
 n
 "
-static_cast
-<
+(
 void
 *
->
-(
-aChildWindow
 )
+aChildWindow
 )
 ;
 mWidget

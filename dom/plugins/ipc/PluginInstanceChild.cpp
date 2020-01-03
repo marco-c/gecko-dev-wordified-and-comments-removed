@@ -6760,6 +6760,7 @@ message
 =
 WM_MOUSEACTIVATE
 )
+{
 self
 -
 >
@@ -6768,6 +6769,7 @@ CallPluginFocusChange
 true
 )
 ;
+}
 if
 (
 (
@@ -6793,6 +6795,9 @@ message
 )
 {
 case
+WM_CHILDACTIVATE
+:
+case
 WM_KILLFOCUS
 :
 ReplyMessage
@@ -6811,6 +6816,7 @@ message
 =
 WM_KILLFOCUS
 )
+{
 self
 -
 >
@@ -6819,6 +6825,7 @@ CallPluginFocusChange
 false
 )
 ;
+}
 if
 (
 message
@@ -6987,6 +6994,7 @@ message
 =
 WM_CLOSE
 )
+{
 self
 -
 >
@@ -6994,6 +7002,7 @@ DestroyPluginWindow
 (
 )
 ;
+}
 if
 (
 message
@@ -7001,12 +7010,14 @@ message
 =
 WM_NCDESTROY
 )
+{
 RemoveProp
 (
 hWnd
 kPluginInstanceChildProperty
 )
 ;
+}
 return
 res
 ;
