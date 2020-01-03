@@ -415,6 +415,11 @@ ChromeNotifications
 webidl
 '
 '
+ChromeUtils
+.
+webidl
+'
+'
 Client
 .
 webidl
