@@ -146,6 +146,9 @@ getAll
 (
 )
 ;
+[
+UnsafeInPrerendering
+]
 DOMRequest
 add
 (
@@ -158,6 +161,9 @@ any
 data
 )
 ;
+[
+UnsafeInPrerendering
+]
 void
 remove
 (
