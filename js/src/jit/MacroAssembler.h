@@ -1717,15 +1717,11 @@ public
 void
 setupAlignedABICall
 (
-uint32_t
-args
 )
 ;
 void
 setupUnalignedABICall
 (
-uint32_t
-args
 Register
 scratch
 )

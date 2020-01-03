@@ -778,7 +778,6 @@ masm
 .
 setupAlignedABICall
 (
-2
 )
 ;
 masm

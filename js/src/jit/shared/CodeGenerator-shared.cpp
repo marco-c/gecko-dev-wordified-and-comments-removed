@@ -7606,7 +7606,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 dest
 )
 ;

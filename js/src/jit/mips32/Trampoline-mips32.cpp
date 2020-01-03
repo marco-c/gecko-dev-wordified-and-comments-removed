@@ -1470,7 +1470,6 @@ masm
 .
 setupUnalignedABICall
 (
-3
 scratch
 )
 ;
@@ -2162,7 +2161,6 @@ masm
 .
 setupAlignedABICall
 (
-3
 )
 ;
 masm
@@ -3300,7 +3298,6 @@ masm
 .
 setupAlignedABICall
 (
-2
 )
 ;
 masm
@@ -4057,11 +4054,6 @@ masm
 .
 setupAlignedABICall
 (
-f
-.
-argc
-(
-)
 )
 ;
 masm
@@ -4843,7 +4835,6 @@ masm
 .
 setupUnalignedABICall
 (
-2
 a2
 )
 ;

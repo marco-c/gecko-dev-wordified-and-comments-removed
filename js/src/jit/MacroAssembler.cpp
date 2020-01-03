@@ -8379,7 +8379,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -9107,7 +9106,6 @@ ReturnReg
 ;
 setupUnalignedABICall
 (
-1
 scratch
 )
 ;
@@ -9464,7 +9462,6 @@ monitorStub
 ;
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -9660,7 +9657,6 @@ resumeAddr
 ;
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -10021,7 +10017,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -10199,7 +10194,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-1
 temp
 )
 ;
@@ -10330,7 +10324,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -10444,7 +10437,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -10546,7 +10538,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -10654,7 +10645,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -10756,7 +10746,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -10858,7 +10847,6 @@ takeAnyGeneral
 ;
 setupUnalignedABICall
 (
-2
 temp
 )
 ;
@@ -14672,8 +14660,6 @@ MacroAssembler
 :
 setupAlignedABICall
 (
-uint32_t
-args
 )
 {
 setupABICall

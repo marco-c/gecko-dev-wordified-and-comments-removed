@@ -3554,7 +3554,6 @@ masm
 .
 setupAlignedABICall
 (
-2
 )
 ;
 masm
@@ -4460,7 +4459,6 @@ masm
 .
 setupAlignedABICall
 (
-2
 )
 ;
 masm
@@ -12158,7 +12156,6 @@ masm
 .
 setupAlignedABICall
 (
-4
 )
 ;
 masm
@@ -12544,7 +12541,6 @@ masm
 .
 setupAlignedABICall
 (
-3
 )
 ;
 masm
@@ -13275,7 +13271,6 @@ masm
 .
 setupAlignedABICall
 (
-3
 )
 ;
 masm
@@ -14129,7 +14124,6 @@ masm
 .
 setupAlignedABICall
 (
-2
 )
 ;
 masm
@@ -15146,7 +15140,6 @@ masm
 .
 setupUnalignedABICall
 (
-1
 temp2
 )
 ;
