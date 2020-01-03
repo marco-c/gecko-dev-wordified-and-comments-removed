@@ -2,7 +2,18 @@ import
 sys
 os
 xpidl
-makeutils
+from
+mozbuild
+.
+makeutil
+import
+write_dep_makefile
+from
+mozbuild
+.
+util
+import
+FileAvoidWrite
 def
 findIDL
 (
@@ -100,24 +111,6 @@ includePath
 eventidl
 )
     
-if
-not
-idlFile
-in
-makeutils
-.
-dependencies
-:
-        
-makeutils
-.
-dependencies
-.
-append
-(
-idlFile
-)
-    
 idl
 =
 p
@@ -145,6 +138,7 @@ p
     
 return
 idl
+idlFile
 class
 Configuration
 :
@@ -259,6 +253,12 @@ fd
 conf
 )
 :
+    
+idl_paths
+=
+set
+(
+)
     
 fd
 .
@@ -421,6 +421,7 @@ simple_events
 :
         
 idl
+idl_path
 =
 loadEventIDL
 (
@@ -429,6 +430,13 @@ options
 .
 incdirs
 e
+)
+        
+idl_paths
+.
+add
+(
+idl_path
 )
         
 for
@@ -785,6 +793,9 @@ endif
 n
 "
 )
+    
+return
+idl_paths
 def
 interfaceAttributeTypes
 (
@@ -932,6 +943,12 @@ conf
 )
 :
     
+idl_paths
+=
+set
+(
+)
+    
 fd
 .
 write
@@ -1022,6 +1039,7 @@ simple_events
 :
         
 idl
+idl_path
 =
 loadEventIDL
 (
@@ -1030,6 +1048,13 @@ options
 .
 incdirs
 e
+)
+        
+idl_paths
+.
+add
+(
+idl_path
 )
         
 types
@@ -1088,8 +1113,9 @@ conf
 simple_events
 :
         
-print_cpp
-(
+idl
+idl_path
+=
 loadEventIDL
 (
 p
@@ -1098,10 +1124,24 @@ options
 incdirs
 e
 )
+        
+idl_paths
+.
+add
+(
+idl_path
+)
+        
+print_cpp
+(
+idl
 fd
 conf
 e
 )
+    
+return
+idl_paths
 def
 attributeVariableTypeAndName
 (
@@ -2259,64 +2299,63 @@ options
 config
 )
     
-makeutils
-.
-targets
-.
-append
-(
-options
-.
-stub_output
-)
-    
 with
-open
+FileAvoidWrite
 (
 options
 .
-stub_output
-'
-w
-'
+header_output
 )
 as
 fh
 :
         
+idl_paths
+=
+print_header_file
+(
+fh
+conf
+)
+    
+with
+FileAvoidWrite
+(
+options
+.
+stub_output
+)
+as
+fh
+:
+        
+idl_paths
+|
+=
 print_cpp_file
 (
 fh
 conf
 )
     
-makeutils
-.
-writeMakeDependOutput
+with
+FileAvoidWrite
 (
 options
 .
 makedepend_output
 )
-    
-with
-open
-(
-options
-.
-header_output
-'
-w
-'
-)
 as
 fh
 :
         
-print_header_file
+write_dep_makefile
 (
 fh
-conf
+options
+.
+stub_output
+idl_paths
 )
 if
 __name__
