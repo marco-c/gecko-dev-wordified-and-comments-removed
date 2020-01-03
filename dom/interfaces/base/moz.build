@@ -158,11 +158,6 @@ nsIDOMCrypto
 idl
 '
 '
-nsIDOMGlobalObjectConstructor
-.
-idl
-'
-'
 nsIDOMGlobalPropertyInitializer
 .
 idl
