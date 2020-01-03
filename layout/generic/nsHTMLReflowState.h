@@ -2496,13 +2496,13 @@ NS_FRAME_IS_DIRTY
 )
 |
 |
-IsHResize
+IsIResize
 (
 )
 |
 |
 (
-IsVResize
+IsBResize
 (
 )
 &
@@ -2515,7 +2515,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_CONTAINS_RELATIVE_HEIGHT
+NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 )
 ;

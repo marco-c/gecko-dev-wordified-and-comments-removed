@@ -2081,7 +2081,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_CONTAINS_RELATIVE_HEIGHT
+NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 |
 |
@@ -2090,7 +2090,7 @@ aState
 >
 mReflowState
 .
-ComputedHeight
+ComputedBSize
 (
 )
 !
@@ -2103,7 +2103,7 @@ aState
 >
 mReflowState
 .
-ComputedMinHeight
+ComputedMinBSize
 (
 )
 >
@@ -2115,7 +2115,7 @@ aState
 >
 mReflowState
 .
-ComputedMaxHeight
+ComputedMaxBSize
 (
 )
 !
