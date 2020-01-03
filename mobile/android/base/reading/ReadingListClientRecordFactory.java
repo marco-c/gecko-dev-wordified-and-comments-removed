@@ -1138,6 +1138,15 @@ object
 .
 remove
 (
+"
+stored_on
+"
+)
+;
+object
+.
+remove
+(
 ReadingListItems
 .
 CONTENT_STATUS
