@@ -8305,11 +8305,9 @@ onclick
 "
 ReadingListUI
 .
-togglePageByBrowser
+buttonClick
 (
-gBrowser
-.
-selectedBrowser
+event
 )
 ;
 "

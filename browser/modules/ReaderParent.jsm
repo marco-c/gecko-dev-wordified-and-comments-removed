@@ -1143,8 +1143,6 @@ browser
 ;
 }
 buttonClick
-:
-function
 (
 event
 )
