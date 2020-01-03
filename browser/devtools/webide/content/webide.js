@@ -1995,6 +1995,9 @@ message
 if
 (
 e
+&
+&
+e
 .
 error
 &
@@ -2080,6 +2083,11 @@ error_operationFail
 message
 )
 ;
+if
+(
+e
+)
+{
 console
 .
 error
@@ -2087,6 +2095,7 @@ error
 e
 )
 ;
+}
 }
 this
 .
@@ -2901,6 +2910,16 @@ initConnectionTelemetry
 (
 )
 )
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 return
 this
@@ -2909,9 +2928,8 @@ busyUntil
 (
 promise
 "
-connecting
+Connecting
 to
-runtime
 "
 +
 name
