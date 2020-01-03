@@ -4559,17 +4559,6 @@ frame
 )
 ;
 bool
-FreshenBlockScope
-(
-JSContext
-*
-cx
-BaselineFrame
-*
-frame
-)
-;
-bool
 DebugLeaveBlock
 (
 JSContext
