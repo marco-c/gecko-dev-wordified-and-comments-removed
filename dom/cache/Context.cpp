@@ -1068,6 +1068,14 @@ NS_IsMainThread
 if
 (
 mCanceled
+|
+|
+QuotaManager
+:
+:
+IsShuttingDown
+(
+)
 )
 {
 resolver
