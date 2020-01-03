@@ -904,10 +904,8 @@ return
 false
 ;
 }
-final
-int
-actualCount
-=
+return
+(
 searchResultList
 .
 getAdapter
@@ -927,12 +925,6 @@ getAdapter
 getCount
 (
 )
--
-1
-;
-return
-(
-actualCount
 =
 =
 expectedCount
