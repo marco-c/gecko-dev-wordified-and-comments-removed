@@ -2845,7 +2845,6 @@ protected
 :
 BitSet
 *
-*
 liveIn
 ;
 VirtualRegisterMap

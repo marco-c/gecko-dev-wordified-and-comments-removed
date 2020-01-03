@@ -240,6 +240,15 @@ lastOsiPointOffset_
 (
 0
 )
+safepoints_
+(
+graph
+-
+>
+totalSlotCount
+(
+)
+)
 nativeToBytecodeMap_
 (
 nullptr

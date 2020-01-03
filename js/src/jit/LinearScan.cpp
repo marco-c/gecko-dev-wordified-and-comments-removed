@@ -1378,7 +1378,7 @@ false
 }
 }
 BitSet
-*
+&
 live
 =
 liveIn
@@ -1399,15 +1399,14 @@ BitSet
 Iterator
 liveRegId
 (
-*
 live
 )
 ;
 liveRegId
 ;
++
++
 liveRegId
-+
-+
 )
 {
 LinearScanVirtualRegister
