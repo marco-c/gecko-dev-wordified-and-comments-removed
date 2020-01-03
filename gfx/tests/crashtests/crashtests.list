@@ -649,6 +649,15 @@ load
 4
 .
 html
+asserts
+-
+if
+(
+gtkWidget
+0
+-
+1
+)
 load
 798853
 .
