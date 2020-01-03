@@ -1975,9 +1975,6 @@ ContextT
 ct
 HandleAtom
 atom
-int
-*
-slotp
 typename
 ContextT
 :
@@ -1985,6 +1982,8 @@ ContextT
 StmtInfo
 *
 stmt
+=
+nullptr
 )
 ;
 }
