@@ -89,6 +89,11 @@ SQLiteStore
 .
 jsm
 '
+'
+Sync
+.
+jsm
+'
 ]
 TESTING_JS_MODULES
 +
