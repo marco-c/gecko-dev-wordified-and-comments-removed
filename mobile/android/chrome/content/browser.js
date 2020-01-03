@@ -22904,6 +22904,17 @@ href
 )
 )
 {
+Services
+.
+search
+.
+init
+(
+(
+)
+=
+>
+{
 let
 visibleEngines
 =
@@ -23085,6 +23096,9 @@ Messaging
 sendRequest
 (
 newEngineMessage
+)
+;
+}
 )
 ;
 }
