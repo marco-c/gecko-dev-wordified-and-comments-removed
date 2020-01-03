@@ -5792,6 +5792,7 @@ height
 =
 0
 )
+{
 this
 .
 tree
@@ -5806,6 +5807,7 @@ true
 "
 )
 ;
+}
 else
 {
 if
