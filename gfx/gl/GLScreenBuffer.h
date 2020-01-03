@@ -452,6 +452,9 @@ mNeedsBlit
 GLenum
 mUserReadBufferMode
 ;
+GLenum
+mUserDrawBufferMode
+;
 GLuint
 mUserDrawFB
 ;
@@ -729,6 +732,13 @@ border
 ;
 void
 SetReadBuffer
+(
+GLenum
+userMode
+)
+;
+void
+SetDrawBuffer
 (
 GLenum
 userMode
