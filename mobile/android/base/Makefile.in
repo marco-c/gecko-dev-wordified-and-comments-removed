@@ -556,10 +556,6 @@ thirdparty
 .
 jar
 \
-websockets
-.
-jar
-\
 (
 NULL
 )
