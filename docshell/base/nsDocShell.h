@@ -2372,6 +2372,9 @@ nsDOMNavigationTiming
 >
 mTiming
 ;
+bool
+mBlankTiming
+;
 FrameType
 mFrameType
 ;
