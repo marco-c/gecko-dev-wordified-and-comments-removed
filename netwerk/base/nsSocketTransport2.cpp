@@ -8119,7 +8119,7 @@ if
 gIOService
 -
 >
-IsOffline
+IsShutdown
 (
 )
 &
