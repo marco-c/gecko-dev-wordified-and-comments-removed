@@ -806,16 +806,6 @@ hasBufferedGrayRoots
 const
 ;
 void
-startBufferingGrayRoots
-(
-)
-;
-void
-endBufferingGrayRoots
-(
-)
-;
-void
 resetBufferedGrayRoots
 (
 )
