@@ -996,6 +996,7 @@ kChunkSize
 mRWBuf
 mDataSize
 false
+false
 this
 )
 ;
