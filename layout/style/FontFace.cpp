@@ -361,6 +361,11 @@ mRule
 =
 aRule
 ;
+if
+(
+aUserFontEntry
+)
+{
 obj
 -
 >
@@ -377,6 +382,7 @@ LoadState
 )
 )
 ;
+}
 return
 obj
 .
