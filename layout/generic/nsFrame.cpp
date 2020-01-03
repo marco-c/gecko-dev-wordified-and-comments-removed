@@ -13113,11 +13113,12 @@ break
 }
 frame
 =
-frame
--
->
-GetParent
+nsLayoutUtils
+:
+:
+GetParentOrPlaceholderFor
 (
+frame
 )
 ;
 }
