@@ -1604,7 +1604,8 @@ InternalHeaders
 >
 requestHeaders
 =
-ToInternalHeaders
+new
+InternalHeaders
 (
 aRequest
 .
@@ -1686,7 +1687,8 @@ InternalHeaders
 >
 cachedRequestHeaders
 =
-ToInternalHeaders
+new
+InternalHeaders
 (
 cachedRequest
 .
@@ -1701,7 +1703,8 @@ InternalHeaders
 >
 cachedResponseHeaders
 =
-ToInternalHeaders
+new
+InternalHeaders
 (
 cachedResponse
 .
