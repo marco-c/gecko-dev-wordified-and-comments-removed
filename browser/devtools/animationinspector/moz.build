@@ -105,3 +105,17 @@ browser
 ini
 '
 ]
+EXTRA_JS_MODULES
+.
+devtools
+.
+animationinspector
++
+=
+[
+'
+components
+.
+js
+'
+]
