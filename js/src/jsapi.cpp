@@ -22780,6 +22780,8 @@ SourceBufferHolder
 srcBuf
 MutableHandleFunction
 fun
+HandleObject
+enclosingStaticScope
 )
 {
 MOZ_ASSERT
@@ -22971,6 +22973,7 @@ fun
 options
 formals
 srcBuf
+enclosingStaticScope
 )
 )
 return
@@ -23076,6 +23079,8 @@ size_t
 length
 MutableHandleFunction
 fun
+HandleObject
+enclosingStaticScope
 )
 {
 SourceBufferHolder
@@ -23103,6 +23108,7 @@ nargs
 argnames
 srcBuf
 fun
+enclosingStaticScope
 )
 ;
 }

@@ -114,6 +114,8 @@ JS
 SourceBufferHolder
 &
 srcBuf
+HandleObject
+enclosingStaticScope
 )
 ;
 bool

@@ -4884,6 +4884,9 @@ fun
 options
 formals
 srcBuf
+NullPtr
+(
+)
 )
 )
 return

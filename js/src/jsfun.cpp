@@ -9774,6 +9774,9 @@ fun
 options
 formals
 srcBuf
+NullPtr
+(
+)
 )
 ;
 args

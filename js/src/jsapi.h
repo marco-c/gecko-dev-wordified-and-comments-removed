@@ -16211,6 +16211,12 @@ JS
 :
 MutableHandleFunction
 fun
+HandleObject
+enclosingStaticScope
+=
+NullPtr
+(
+)
 )
 ;
 extern
@@ -16299,6 +16305,12 @@ JS
 :
 MutableHandleFunction
 fun
+HandleObject
+enclosingStaticScope
+=
+NullPtr
+(
+)
 )
 ;
 }
