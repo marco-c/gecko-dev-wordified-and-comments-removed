@@ -4840,11 +4840,16 @@ org
 name
 :
 themeName
+#
+ifdef
+XP_WIN
 accentcolor
 :
 "
 transparent
 "
+#
+endif
 headerURL
 :
 "
