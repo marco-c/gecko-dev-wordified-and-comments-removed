@@ -8534,6 +8534,11 @@ uri
 nsCString
 spec
 ;
+if
+(
+uri
+)
+{
 uri
 -
 >
@@ -8542,6 +8547,7 @@ GetSpec
 spec
 )
 ;
+}
 LOG
 (
 (
@@ -8552,8 +8558,12 @@ HttpBaseChannel
 SetupReplacementChannel
 adding
 redirect
+\
+'
 %
 s
+\
+'
 "
 "
 [
