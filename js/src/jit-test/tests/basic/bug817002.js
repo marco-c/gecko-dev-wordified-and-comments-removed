@@ -45,7 +45,7 @@ subarray
 \
 gcslice
 (
-12
+11
 )
 ;
 \
