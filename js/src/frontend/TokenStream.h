@@ -3265,12 +3265,6 @@ CharBuffer
 tokenbuf
 ;
 bool
-maybeEOL
-[
-256
-]
-;
-bool
 maybeStrSpecial
 [
 256
