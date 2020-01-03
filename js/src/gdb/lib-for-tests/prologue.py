@@ -103,6 +103,7 @@ expected
         
 raise
 AssertionError
+(
 "
 "
 "
@@ -124,6 +125,7 @@ r
 (
 expected
 actual
+)
 )
 def
 assert_pretty
@@ -278,7 +280,7 @@ printer
 \
 n
 "
-                               
+                             
 "
 %
 s
@@ -288,7 +290,7 @@ s
 \
 n
 "
-                               
+                             
 "
 '
 info
@@ -301,7 +303,7 @@ says
 \
 n
 "
-                               
+                             
 "
 %
 s
@@ -385,9 +387,16 @@ width
 try
 :
     
-execfile
+exec
+(
+open
 (
 testscript
+)
+.
+read
+(
+)
 )
 except
 AssertionError
