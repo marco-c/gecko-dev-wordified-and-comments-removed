@@ -1,11 +1,4 @@
 #
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
-#
 ifdef
 ACCESSIBILITY
 MOZ_SERVICE
@@ -114,8 +107,6 @@ service
 1
 "
 )
-#
-endif
 MOZ_SERVICE
 (
 ObserverService
@@ -131,13 +122,6 @@ service
 ;
 1
 "
-)
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
 )
 MOZ_SERVICE
 (
@@ -286,7 +270,5 @@ history
 ifdef
 MOZ_USE_NAMESPACE
 }
-#
-endif
 #
 endif

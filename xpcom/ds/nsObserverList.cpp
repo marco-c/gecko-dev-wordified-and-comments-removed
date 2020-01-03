@@ -458,13 +458,6 @@ UnmarkGrayStrongObservers
 (
 )
 {
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 for
 (
 uint32_t
@@ -510,8 +503,6 @@ asObserver
 ;
 }
 }
-#
-endif
 }
 NS_IMPL_ISUPPORTS
 (

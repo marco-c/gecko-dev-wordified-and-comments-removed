@@ -165,9 +165,6 @@ chrome
 '
 build
 '
-'
-libxpcomrt
-'
 ]
 if
 CONFIG
