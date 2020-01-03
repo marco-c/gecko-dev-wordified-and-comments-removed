@@ -2203,6 +2203,15 @@ wait_array
 ]
 )
 ;
+is_playing
+=
+false
+;
+hr
+=
+-
+1
+;
 break
 ;
 default
