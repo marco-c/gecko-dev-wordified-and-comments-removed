@@ -4059,6 +4059,12 @@ this
 _pendingMessages
 .
 length
+&
+&
+!
+this
+.
+_pendingOperation
 )
 {
 this
