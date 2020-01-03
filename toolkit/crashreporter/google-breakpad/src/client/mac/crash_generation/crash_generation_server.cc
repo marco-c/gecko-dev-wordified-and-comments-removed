@@ -50,6 +50,13 @@ inl
 .
 h
 "
+#
+include
+"
+pthread
+.
+h
+"
 namespace
 google_breakpad
 {
