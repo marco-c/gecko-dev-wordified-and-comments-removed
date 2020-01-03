@@ -127,6 +127,16 @@ gfxFloat
 aOpacity
 )
 {
+if
+(
+!
+mSourceSurface
+)
+{
+return
+true
+;
+}
 gfxRect
 samplingRect
 =
