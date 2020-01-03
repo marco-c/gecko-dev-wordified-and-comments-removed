@@ -7441,7 +7441,7 @@ SOCKET_CONNECTED
 mNtfChannel
 -
 >
-CloseSocket
+Close
 (
 )
 ;
@@ -7574,7 +7574,7 @@ NTF_CHANNEL
 mCmdChannel
 -
 >
-CloseSocket
+Close
 (
 )
 ;
@@ -8179,7 +8179,7 @@ SOCKET_CONNECTED
 mCmdChannel
 -
 >
-CloseSocket
+Close
 (
 )
 ;
@@ -8363,7 +8363,7 @@ mInterface
 mCmdChannel
 -
 >
-CloseSocket
+Close
 (
 )
 ;

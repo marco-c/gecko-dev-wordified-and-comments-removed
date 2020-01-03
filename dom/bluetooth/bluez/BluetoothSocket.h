@@ -146,7 +146,7 @@ Disconnect
 (
 )
 {
-CloseSocket
+Close
 (
 )
 ;
@@ -240,7 +240,7 @@ aBuffer
 override
 ;
 void
-CloseSocket
+Close
 (
 )
 override

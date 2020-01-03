@@ -2154,7 +2154,7 @@ void
 BluetoothDaemonConnection
 :
 :
-CloseSocket
+Close
 (
 )
 {
