@@ -5,8 +5,16 @@ Elfxx_h
 define
 Elfxx_h
 #
-ifdef
+if
+defined
+(
 ANDROID
+)
+&
+&
+__ANDROID_API__
+<
+21
 #
 include
 <
