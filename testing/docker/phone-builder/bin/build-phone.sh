@@ -62,6 +62,8 @@ mozharness
 revision
 test
 TARGET
+test
+VARIANT
 if
 !
 validate_task
@@ -334,6 +336,12 @@ debug_flag
 disable
 -
 mock
+\
+-
+-
+variant
+=
+VARIANT
 \
 -
 -
