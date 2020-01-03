@@ -58,6 +58,15 @@ COORDINATE_EPSILON
 .
 01f
 ;
+bool
+FuzzyEqualsCoordinate
+(
+float
+aValue1
+float
+aValue2
+)
+;
 struct
 FrameMetrics
 ;

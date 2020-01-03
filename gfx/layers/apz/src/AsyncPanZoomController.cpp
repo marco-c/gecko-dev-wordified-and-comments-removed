@@ -787,7 +787,7 @@ aPoint
 )
 {
 return
-FuzzyEqualsMultiplicative
+FuzzyEqualsAdditive
 (
 aPoint
 .
@@ -798,7 +798,7 @@ x
 )
 &
 &
-FuzzyEqualsMultiplicative
+FuzzyEqualsAdditive
 (
 aPoint
 .
