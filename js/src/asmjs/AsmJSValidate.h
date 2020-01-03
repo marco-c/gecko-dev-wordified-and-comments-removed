@@ -189,7 +189,7 @@ AsmJSMappedSize
 jit
 :
 :
-AsmJSImmediateRange
+AsmJSCheckedImmediateRange
 +
 AsmJSPageSize
 ;
