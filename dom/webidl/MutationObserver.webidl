@@ -326,6 +326,13 @@ attribute
 MutationCallback
 mutationCallback
 ;
+[
+ChromeOnly
+]
+attribute
+boolean
+mergeAttributeRecords
+;
 }
 ;
 callback
