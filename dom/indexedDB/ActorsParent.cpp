@@ -43107,10 +43107,11 @@ index
 uint32_t
 appId
 =
+static_cast
+<
 TabParent
-:
-:
-GetFrom
+*
+>
 (
 browsers
 [
