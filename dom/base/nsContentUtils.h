@@ -4038,6 +4038,12 @@ XPCOMShutdown
 (
 )
 ;
+static
+bool
+IsPDFJSEnabled
+(
+)
+;
 enum
 ContentViewerType
 {
