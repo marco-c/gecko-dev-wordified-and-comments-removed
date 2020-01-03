@@ -822,17 +822,6 @@ mSourceBuffer
 uint32_t
 mFrameCount
 ;
-Progress
-mNotifyProgress
-;
-nsIntRect
-mNotifyInvalidRect
-;
-bool
-mNotifying
-:
-1
-;
 bool
 mHasSize
 :
