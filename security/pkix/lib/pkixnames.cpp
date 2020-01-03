@@ -6734,6 +6734,11 @@ case
 Z
 '
 :
+case
+'
+_
+'
+:
 labelIsAllNumeric
 =
 false
