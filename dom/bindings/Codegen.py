@@ -7920,14 +7920,6 @@ h
 "
 )
                 
-isSequence
-=
-f
-.
-isSequence
-(
-)
-                
 f
 =
 f
@@ -8019,8 +8011,6 @@ interface
 isCallback
 (
 )
-or
-isSequence
 :
                                 
 headers
@@ -32115,10 +32105,6 @@ name
 =
 type
 .
-unroll
-(
-)
-.
 name
         
 arrayType
@@ -43196,6 +43182,32 @@ inner
 identifier
 .
 name
+    
+if
+type
+.
+isArray
+(
+)
+or
+type
+.
+isSequence
+(
+)
+or
+type
+.
+isMozMap
+(
+)
+:
+        
+return
+str
+(
+type
+)
     
 return
 type
@@ -88052,10 +88064,6 @@ False
             
 return
 type
-.
-unroll
-(
-)
 .
 name
 True
