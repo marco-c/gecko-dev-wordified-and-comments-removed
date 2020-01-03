@@ -50557,10 +50557,6 @@ accessType_
 bool
 needsBoundsCheck_
 ;
-Label
-*
-outOfBoundsLabel_
-;
 unsigned
 numSimdElems_
 ;
@@ -50575,11 +50571,6 @@ Type
 accessType
 bool
 needsBoundsCheck
-Label
-*
-outOfBoundsLabel
-=
-nullptr
 unsigned
 numSimdElems
 =
@@ -50593,10 +50584,6 @@ accessType
 needsBoundsCheck_
 (
 needsBoundsCheck
-)
-outOfBoundsLabel_
-(
-outOfBoundsLabel
 )
 numSimdElems_
 (
@@ -50646,17 +50633,6 @@ removeBoundsCheck
 needsBoundsCheck_
 =
 false
-;
-}
-Label
-*
-outOfBoundsLabel
-(
-)
-const
-{
-return
-outOfBoundsLabel_
 ;
 }
 unsigned
@@ -50713,9 +50689,6 @@ MDefinition
 ptr
 bool
 needsBoundsCheck
-Label
-*
-outOfBoundsLabel
 unsigned
 numSimdElems
 MemoryBarrierBits
@@ -50732,7 +50705,6 @@ MAsmJSHeapAccess
 (
 accessType
 needsBoundsCheck
-outOfBoundsLabel
 numSimdElems
 )
 barrierBefore_
@@ -50910,11 +50882,6 @@ MDefinition
 ptr
 bool
 needsBoundsCheck
-Label
-*
-outOfBoundsLabel
-=
-nullptr
 unsigned
 numSimdElems
 =
@@ -50939,7 +50906,6 @@ MAsmJSLoadHeap
 accessType
 ptr
 needsBoundsCheck
-outOfBoundsLabel
 numSimdElems
 barrierBefore
 barrierAfter
@@ -51058,9 +51024,6 @@ MDefinition
 v
 bool
 needsBoundsCheck
-Label
-*
-outOfBoundsLabel
 unsigned
 numSimdElems
 MemoryBarrierBits
@@ -51078,7 +51041,6 @@ MAsmJSHeapAccess
 (
 accessType
 needsBoundsCheck
-outOfBoundsLabel
 numSimdElems
 )
 barrierBefore_
@@ -51128,11 +51090,6 @@ MDefinition
 v
 bool
 needsBoundsCheck
-Label
-*
-outOfBoundsLabel
-=
-nullptr
 unsigned
 numSimdElems
 =
@@ -51158,7 +51115,6 @@ accessType
 ptr
 v
 needsBoundsCheck
-outOfBoundsLabel
 numSimdElems
 barrierBefore
 barrierAfter
