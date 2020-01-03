@@ -76,13 +76,6 @@ rsa
 rsa
 '
 '
-dsa
-'
-:
-'
-dsa
-'
-'
 p384
 '
 :
@@ -179,13 +172,6 @@ generate_certs
 (
 )
 :
-    
-CertUtils
-.
-init_dsa
-(
-db
-)
     
 ee_ext_text
 =
