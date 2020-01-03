@@ -76,6 +76,10 @@ mDecodeFlags
 (
 0
 )
+mBytesDecoded
+(
+0
+)
 mDecodeDone
 (
 false
@@ -326,7 +330,7 @@ aStrategy
 DECODE_ASYNC
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 HasDecoderError
@@ -345,6 +349,11 @@ error
 !
 "
 )
+;
+mBytesDecoded
++
+=
+aCount
 ;
 if
 (

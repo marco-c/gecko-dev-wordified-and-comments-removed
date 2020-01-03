@@ -1532,9 +1532,6 @@ DecodeRequest
 >
 mDecodeRequest
 ;
-size_t
-mBytesDecoded
-;
 bool
 mInDecoder
 ;
