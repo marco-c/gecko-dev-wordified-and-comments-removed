@@ -151,6 +151,11 @@ DashboardTypes
 .
 h
 '
+'
+OfflineObserver
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -478,6 +483,11 @@ cpp
 '
 '
 nsSocketTransportService2
+.
+cpp
+'
+'
+OfflineObserver
 .
 cpp
 '
