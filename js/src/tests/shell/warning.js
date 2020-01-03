@@ -101,7 +101,7 @@ assertEq
 warning
 .
 columnNumber
-1
+2
 )
 ;
 clearLastWarning

@@ -1723,6 +1723,10 @@ computeLine
 columnNumber
 )
 ;
++
++
+columnNumber
+;
 }
 RootedObject
 stack
@@ -4229,6 +4233,12 @@ ownedReport
 .
 column
 )
+;
++
++
+ownedReport
+.
+column
 ;
 ownedReport
 .
