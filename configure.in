@@ -17804,14 +17804,6 @@ LDFLAGS
 LDFLAGS
 -
 static
--
-libgcc
--
-static
--
-libstdc
-+
-+
 "
 NSPR_LDFLAGS
 =

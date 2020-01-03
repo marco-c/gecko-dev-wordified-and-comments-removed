@@ -14469,14 +14469,6 @@ LDFLAGS
 LDFLAGS
 -
 static
--
-libgcc
--
-static
--
-libstdc
-+
-+
 "
 #
 Use
