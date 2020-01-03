@@ -501,12 +501,6 @@ Player
 )
 )
 ;
-#
-if
-defined
-(
-_X86_
-)
 AddSandboxAllowedFile
 (
 aAllowedFilesReadWrite
@@ -522,8 +516,6 @@ NS_LITERAL_STRING
 )
 )
 ;
-#
-endif
 }
 #
 endif
