@@ -184,7 +184,7 @@ SetDefaultVolumeControlChannel
 int32_t
 aChannel
 bool
-aHidden
+aVisible
 )
 ;
 bool
@@ -384,7 +384,7 @@ SetDefaultVolumeControlChannelInternal
 int32_t
 aChannel
 bool
-aHidden
+aVisible
 uint64_t
 aChildID
 )

@@ -2077,13 +2077,13 @@ SetDefaultVolumeControlChannel
 int32_t
 aChannel
 bool
-aHidden
+aVisible
 )
 {
 SetDefaultVolumeControlChannelInternal
 (
 aChannel
-aHidden
+aVisible
 CONTENT_PROCESS_ID_MAIN
 )
 ;
@@ -2097,7 +2097,7 @@ SetDefaultVolumeControlChannelInternal
 int32_t
 aChannel
 bool
-aHidden
+aVisible
 uint64_t
 aChildID
 )
@@ -2119,7 +2119,7 @@ if
 (
 (
 !
-aHidden
+aVisible
 &
 &
 mDefChannelChildID
