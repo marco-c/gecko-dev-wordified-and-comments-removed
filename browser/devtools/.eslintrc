@@ -95,6 +95,11 @@ XPCOMUtils
 "
 :
 true
+"
+XPCNativeWrapper
+"
+:
+true
 }
 "
 rules
