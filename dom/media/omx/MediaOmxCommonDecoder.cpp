@@ -1000,7 +1000,7 @@ GetAudioChannel
 ;
 }
 return
-CreateStateMachine
+CreateStateMachineFromReader
 (
 mReader
 )

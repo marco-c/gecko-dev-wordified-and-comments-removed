@@ -60,7 +60,7 @@ MediaDecoderStateMachine
 MediaCodecDecoder
 :
 :
-CreateStateMachine
+CreateStateMachineFromReader
 (
 MediaOmxCommonReader
 *

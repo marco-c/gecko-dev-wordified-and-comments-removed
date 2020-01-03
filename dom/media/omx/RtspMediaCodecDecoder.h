@@ -46,7 +46,7 @@ MOZ_OVERRIDE
 virtual
 MediaDecoderStateMachine
 *
-CreateStateMachine
+CreateStateMachineFromReader
 (
 MediaOmxCommonReader
 *
