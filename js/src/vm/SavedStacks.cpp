@@ -1191,7 +1191,7 @@ JSSLOT_LINE
 return
 v
 .
-toInt32
+toPrivateUint32
 (
 )
 ;
@@ -1217,7 +1217,7 @@ JSSLOT_COLUMN
 return
 v
 .
-toInt32
+toPrivateUint32
 (
 )
 ;
@@ -1458,7 +1458,7 @@ source
 setReservedSlot
 (
 JSSLOT_LINE
-NumberValue
+PrivateUint32Value
 (
 lookup
 -
@@ -1470,7 +1470,7 @@ line
 setReservedSlot
 (
 JSSLOT_COLUMN
-NumberValue
+PrivateUint32Value
 (
 lookup
 -
