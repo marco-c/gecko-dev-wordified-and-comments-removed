@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsWidgetInitData
 .
 h
@@ -974,8 +981,10 @@ nsView
 *
 mParent
 ;
+nsCOMPtr
+<
 nsIWidget
-*
+>
 mWindow
 ;
 nsView
