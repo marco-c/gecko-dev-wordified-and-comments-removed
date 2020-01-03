@@ -1848,6 +1848,12 @@ case
 eCSSProperty_border_end
 :
 case
+eCSSProperty_border_block_start
+:
+case
+eCSSProperty_border_block_end
+:
+case
 eCSSProperty__moz_column_rule
 :
 case
