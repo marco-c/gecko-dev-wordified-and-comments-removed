@@ -1503,7 +1503,7 @@ client
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -1653,7 +1653,7 @@ mSlots
 ;
 for
 (
-int
+size_t
 i
 =
 0
