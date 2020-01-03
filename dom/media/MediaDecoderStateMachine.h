@@ -1548,15 +1548,6 @@ TimeStamp
 aTimeStamp
 )
 ;
-public
-:
-void
-OnAudioEndTimeUpdate
-(
-int64_t
-aAudioEndTime
-)
-;
 private
 :
 void
@@ -3134,9 +3125,6 @@ mCurrentPosition
 }
 protected
 :
-int64_t
-mAudioEndTime
-;
 int64_t
 AudioEndTime
 (
