@@ -286,6 +286,15 @@ off
 enable_lazy_trace_alloc
 '
 :
+1
+if
+CONFIG
+[
+'
+RELEASE_BUILD
+'
+]
+else
 0
 '
 use_x11
