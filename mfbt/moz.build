@@ -395,6 +395,11 @@ SHA1
 h
 '
 '
+SizePrintfMacros
+.
+h
+'
+'
 SplayTree
 .
 h
