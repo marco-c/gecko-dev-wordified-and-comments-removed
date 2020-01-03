@@ -257,7 +257,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -604,7 +604,7 @@ Run
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

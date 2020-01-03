@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -288,7 +288,7 @@ nullptr
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 SharedThreadPool
 >
@@ -498,7 +498,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >
