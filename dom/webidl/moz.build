@@ -335,6 +335,16 @@ BrowserElementDictionaries
 webidl
 '
 '
+Cache
+.
+webidl
+'
+'
+CacheStorage
+.
+webidl
+'
+'
 CallsList
 .
 webidl
