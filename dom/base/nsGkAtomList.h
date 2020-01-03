@@ -4837,6 +4837,13 @@ onchange
 )
 GK_ATOM
 (
+oncharacteristicchanged
+"
+oncharacteristicchanged
+"
+)
+GK_ATOM
+(
 onchargingchange
 "
 onchargingchange

@@ -328,7 +328,7 @@ Services
 .
 telemetry
 .
-canRecord
+canRecordExtended
 ;
 Services
 .
