@@ -324,6 +324,17 @@ zip
 "
 "
 {
+objdir
+}
+/
+dist
+/
+test_packages
+.
+json
+"
+"
+{
 workdir
 }
 /
