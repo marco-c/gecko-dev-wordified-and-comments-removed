@@ -58,13 +58,16 @@ CompositingRenderTargetOGL
 (
 )
 {
+if
+(
 mGL
 -
 >
 MakeCurrent
 (
 )
-;
+)
+{
 mGL
 -
 >
@@ -85,6 +88,7 @@ fDeleteFramebuffers
 mFBO
 )
 ;
+}
 }
 void
 CompositingRenderTargetOGL
