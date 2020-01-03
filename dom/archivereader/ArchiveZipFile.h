@@ -221,7 +221,7 @@ ArchiveZipFileImpl
 virtual
 already_AddRefed
 <
-nsIDOMBlob
+DOMFileImpl
 >
 CreateSlice
 (

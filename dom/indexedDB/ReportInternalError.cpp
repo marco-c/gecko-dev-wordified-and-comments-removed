@@ -28,7 +28,15 @@ nsPrintfCString
 .
 h
 "
-BEGIN_INDEXEDDB_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+namespace
+indexedDB
+{
 void
 ReportInternalError
 (
@@ -119,4 +127,6 @@ indexedDB
 )
 ;
 }
-END_INDEXEDDB_NAMESPACE
+}
+}
+}

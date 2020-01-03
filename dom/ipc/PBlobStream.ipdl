@@ -93,7 +93,7 @@ PBlobStream
 manager
 PBlob
 ;
-both
+child
 :
 __delete__
 (
