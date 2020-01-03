@@ -119,10 +119,16 @@ imgIContainer
 FLAG_SYNC_DECODE
 )
 ;
+if
+(
+mImage
+)
+{
 FinishObserving
 (
 )
 ;
+}
 }
 virtual
 void
