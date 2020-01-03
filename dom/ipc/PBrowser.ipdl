@@ -3173,6 +3173,14 @@ for
 these
 functions
 .
+RequestFlingSnap
+(
+ViewID
+aScrollID
+CSSPoint
+aDestination
+)
+;
 AcknowledgeScrollUpdate
 (
 ViewID
