@@ -8372,3 +8372,9 @@ forget
 )
 ;
 }
+#
+undef
+LOG_ENABLED
+#
+undef
+LOG
