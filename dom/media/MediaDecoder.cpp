@@ -498,6 +498,10 @@ PRLogModuleInfo
 *
 gMediaTimerLog
 ;
+PRLogModuleInfo
+*
+gMediaSampleLog
+;
 void
 MediaDecoder
 :
@@ -546,6 +550,15 @@ PR_NewLogModule
 (
 "
 MediaTimer
+"
+)
+;
+gMediaSampleLog
+=
+PR_NewLogModule
+(
+"
+MediaSample
 "
 )
 ;
