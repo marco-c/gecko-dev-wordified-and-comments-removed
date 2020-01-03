@@ -3365,7 +3365,7 @@ mPhoneAudioAgent
 mPhoneAudioAgent
 -
 >
-NotifyStoppedPlaying
+StopPlaying
 (
 )
 ;
@@ -3470,7 +3470,7 @@ rv
 mPhoneAudioAgent
 -
 >
-NotifyStartedPlaying
+StartPlaying
 (
 &
 volume

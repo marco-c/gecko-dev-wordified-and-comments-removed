@@ -830,7 +830,7 @@ mAudioChannelAgentEnabled
 mAudioChannelAgent
 -
 >
-NotifyStoppedPlaying
+StopPlaying
 (
 )
 ;
@@ -2028,7 +2028,7 @@ true
 mAudioChannelAgent
 -
 >
-NotifyStartedPlaying
+StartPlaying
 (
 &
 volume
