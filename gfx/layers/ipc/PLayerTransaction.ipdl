@@ -399,6 +399,10 @@ uint64_t
 id
 TargetConfig
 targetConfig
+PluginWindowData
+[
+]
+plugins
 bool
 isFirstPaint
 bool
@@ -451,6 +455,10 @@ uint64_t
 id
 TargetConfig
 targetConfig
+PluginWindowData
+[
+]
+plugins
 bool
 isFirstPaint
 bool

@@ -144,6 +144,13 @@ AsyncChildMessageData
 >
 AsyncChildMessageArray
 ;
+typedef
+InfallibleTArray
+<
+PluginWindowData
+>
+PluginsArray
+;
 public
 :
 LayerTransactionParent
@@ -420,6 +427,10 @@ const
 TargetConfig
 &
 targetConfig
+PluginsArray
+&
+&
+aPlugins
 const
 bool
 &
@@ -465,6 +476,10 @@ const
 TargetConfig
 &
 targetConfig
+PluginsArray
+&
+&
+aPlugins
 const
 bool
 &
