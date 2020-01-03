@@ -364,10 +364,6 @@ TestThreads
 '
 #
 '
-TestXPIDLString
-'
-#
-'
 TestAtoms
 '
 #

@@ -172,6 +172,11 @@ TestUTF
 .
 cpp
 '
+'
+TestXPIDLString
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
