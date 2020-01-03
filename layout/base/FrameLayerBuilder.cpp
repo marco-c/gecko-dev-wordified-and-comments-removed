@@ -24909,7 +24909,7 @@ nsIntRegion
 aRegionToDraw
 const
 nsIntRegion
-&
+*
 aDirtyRegion
 DrawRegionClip
 aClip
@@ -25227,6 +25227,11 @@ entry
 mItems
 builder
 aDirtyRegion
+?
+*
+aDirtyRegion
+:
+aRegionToDraw
 offset
 appUnitsPerDevPixel
 userData
@@ -25239,6 +25244,11 @@ userData
 mYScale
 )
 ;
+if
+(
+aDirtyRegion
+)
+{
 userData
 -
 >
@@ -25246,6 +25256,7 @@ mNeedsRecomputeVisibility
 =
 false
 ;
+}
 }
 nsRenderingContext
 rc
