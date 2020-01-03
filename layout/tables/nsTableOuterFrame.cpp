@@ -1573,6 +1573,7 @@ offsets
 (
 aChildFrame
 aRenderingContext
+aWM
 aCBSize
 .
 ISize

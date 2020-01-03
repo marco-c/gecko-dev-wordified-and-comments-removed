@@ -816,6 +816,7 @@ aFrame
 mReflowState
 .
 rendContext
+wm
 mContentArea
 .
 ISize
@@ -994,6 +995,7 @@ os
 (
 aFrame
 aRenderingContext
+aWritingMode
 aContentArea
 .
 ISize
@@ -3276,6 +3278,7 @@ aFloat
 mReflowState
 .
 rendContext
+wm
 mReflowState
 .
 ComputedISize
