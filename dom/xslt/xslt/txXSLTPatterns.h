@@ -16,6 +16,13 @@ h
 #
 include
 "
+txExpandedName
+.
+h
+"
+#
+include
+"
 txExpr
 .
 h
