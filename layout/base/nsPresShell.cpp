@@ -40205,7 +40205,7 @@ if
 view
 )
 return
-true
+mIsActive
 ;
 view
 =
