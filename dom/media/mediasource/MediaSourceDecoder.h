@@ -297,6 +297,14 @@ MediaDecoderReader
 aReader
 )
 ;
+void
+GetMozDebugReaderData
+(
+nsAString
+&
+aString
+)
+;
 private
 :
 void
