@@ -392,6 +392,17 @@ afterLogo
 <
 !
 ENTITY
+drmContent
+.
+label
+"
+DRM
+content
+"
+>
+<
+!
+ENTITY
 playDRMContent
 .
 label
