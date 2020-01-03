@@ -5624,6 +5624,9 @@ true
 #
 ifndef
 MOZ_MULET
+#
+ifndef
+DEBUG
 pref
 (
 "
@@ -5634,6 +5637,8 @@ reuseGlobal
 true
 )
 ;
+#
+endif
 #
 endif
 pref

@@ -1873,6 +1873,13 @@ defined
 (
 MOZ_MULET
 )
+&
+&
+!
+defined
+(
+DEBUG
+)
 mReuseLoaderGlobal
 =
 true
