@@ -1450,9 +1450,6 @@ case
 PNK_THIS
 :
 case
-PNK_LETEXPR
-:
-case
 PNK_ELISION
 :
 case

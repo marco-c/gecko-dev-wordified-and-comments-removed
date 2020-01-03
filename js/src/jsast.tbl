@@ -381,16 +381,6 @@ yieldExpression
 )
 ASTDEF
 (
-AST_LET_EXPR
-"
-LetExpression
-"
-"
-letExpression
-"
-)
-ASTDEF
-(
 AST_CLASS_EXPR
 "
 ClassExpression

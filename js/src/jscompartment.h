@@ -2000,9 +2000,6 @@ DeprecatedExpressionClosure
 DeprecatedLetBlock
 =
 4
-DeprecatedLetExpression
-=
-5
 DeprecatedNoSuchMethod
 =
 6

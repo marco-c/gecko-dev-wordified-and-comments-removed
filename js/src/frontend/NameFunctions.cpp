@@ -1779,9 +1779,6 @@ case
 PNK_ELEM
 :
 case
-PNK_LETEXPR
-:
-case
 PNK_COLON
 :
 case

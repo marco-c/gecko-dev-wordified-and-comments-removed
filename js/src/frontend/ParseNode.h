@@ -562,11 +562,6 @@ LETBLOCK
 \
 F
 (
-LETEXPR
-)
-\
-F
-(
 IMPORT
 )
 \

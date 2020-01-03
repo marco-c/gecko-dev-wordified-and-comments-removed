@@ -21727,7 +21727,7 @@ bool
 BytecodeEmitter
 :
 :
-emitLet
+emitLetBlock
 (
 ParseNode
 *
@@ -33756,12 +33756,9 @@ break
 case
 PNK_LETBLOCK
 :
-case
-PNK_LETEXPR
-:
 ok
 =
-emitLet
+emitLetBlock
 (
 pn
 )
