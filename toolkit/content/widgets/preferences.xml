@@ -9805,6 +9805,7 @@ disarm
 (
 )
 ;
+}
 element
 .
 _deferredValueUpdateTask
@@ -9813,7 +9814,6 @@ arm
 (
 )
 ;
-}
 }
 }
 ]
