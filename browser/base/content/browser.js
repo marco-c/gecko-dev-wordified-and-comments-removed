@@ -23634,6 +23634,15 @@ Reader
 :
 PushState
 "
+{
+isArticle
+:
+gBrowser
+.
+selectedBrowser
+.
+isArticle
+}
 )
 ;
 return
