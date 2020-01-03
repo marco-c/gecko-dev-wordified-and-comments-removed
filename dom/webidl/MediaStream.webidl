@@ -288,8 +288,6 @@ MediaStream
 :
 EventTarget
 {
-/
-/
 readonly
 attribute
 DOMString
