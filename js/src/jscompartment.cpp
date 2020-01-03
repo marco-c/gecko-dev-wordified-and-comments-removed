@@ -3145,7 +3145,7 @@ JSTRACE_SCRIPT
 ;
 keyDying
 =
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 reinterpret_cast
 <

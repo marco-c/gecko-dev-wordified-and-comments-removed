@@ -256,10 +256,7 @@ isEvalFrame
 (
 )
 )
-gc
-:
-:
-MarkScriptRoot
+TraceRoot
 (
 trc
 &

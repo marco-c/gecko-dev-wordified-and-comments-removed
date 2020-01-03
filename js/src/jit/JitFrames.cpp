@@ -4659,7 +4659,7 @@ CalleeTokenToScript
 token
 )
 ;
-MarkScriptRoot
+TraceRoot
 (
 trc
 &

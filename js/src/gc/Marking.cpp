@@ -6195,16 +6195,6 @@ SharedTypedArrayObject
 )
 DeclMarkerImpl
 (
-Script
-JSScript
-)
-DeclMarkerImpl
-(
-LazyScript
-LazyScript
-)
-DeclMarkerImpl
-(
 String
 JSAtom
 )

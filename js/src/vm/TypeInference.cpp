@@ -6691,7 +6691,7 @@ res
 {
 if
 (
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 script_
@@ -21675,7 +21675,7 @@ script
 ;
 if
 (
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 script

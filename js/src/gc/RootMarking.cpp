@@ -552,7 +552,7 @@ MarkExactStackRootList
 <
 JSScript
 *
-MarkScriptRoot
+TraceRoot
 >
 (
 trc
@@ -568,7 +568,7 @@ MarkExactStackRootList
 <
 LazyScript
 *
-MarkLazyScriptRoot
+TraceRoot
 >
 (
 trc
@@ -1412,7 +1412,7 @@ this
 >
 vector
 ;
-MarkScriptRootRange
+TraceRootRange
 (
 trc
 vector
@@ -2695,7 +2695,7 @@ JSScript
 :
 markChainIfNotNull
 <
-MarkScriptRoot
+TraceRoot
 >
 (
 trc
@@ -3120,7 +3120,7 @@ i
 +
 +
 )
-MarkScriptRoot
+TraceRoot
 (
 trc
 &
@@ -3361,7 +3361,7 @@ hasScriptCounts
 )
 )
 {
-MarkScriptRoot
+TraceRoot
 (
 trc
 &

@@ -7881,7 +7881,7 @@ if
 script
 )
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -19807,7 +19807,7 @@ maybeLazyScript
 (
 )
 )
-MarkLazyScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -19930,7 +19930,7 @@ if
 (
 script_
 )
-MarkScript
+TraceEdge
 (
 trc
 &

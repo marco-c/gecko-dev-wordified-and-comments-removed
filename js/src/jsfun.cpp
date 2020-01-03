@@ -3579,7 +3579,7 @@ trc
 }
 else
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -3614,7 +3614,7 @@ s
 lazy_
 )
 {
-MarkLazyScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -7670,7 +7670,7 @@ hasScript
 (
 )
 )
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -7750,7 +7750,7 @@ resetScript
 (
 )
 ;
-MarkLazyScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

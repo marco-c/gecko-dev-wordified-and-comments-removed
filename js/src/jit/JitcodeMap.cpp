@@ -4302,14 +4302,14 @@ trc
 if
 (
 !
-IsScriptMarked
+IsMarkedUnbarriered
 (
 &
 script_
 )
 )
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -4344,7 +4344,7 @@ sweep
 {
 MOZ_ALWAYS_FALSE
 (
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 script_
@@ -4364,7 +4364,7 @@ isMarkedFromAnyThread
 )
 {
 return
-IsScriptMarked
+IsMarkedUnbarriered
 (
 &
 script_
@@ -4422,7 +4422,7 @@ i
 if
 (
 !
-IsScriptMarked
+IsMarkedUnbarriered
 (
 &
 sizedScriptList
@@ -4439,7 +4439,7 @@ script
 )
 )
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -4557,7 +4557,7 @@ hasAllocationSite
 &
 &
 !
-IsScriptMarked
+IsMarkedUnbarriered
 (
 &
 iter
@@ -4567,7 +4567,7 @@ script
 )
 )
 {
-MarkScriptUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -4676,7 +4676,7 @@ i
 )
 MOZ_ALWAYS_FALSE
 (
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 sizedScriptList
@@ -4754,7 +4754,7 @@ hasAllocationSite
 )
 MOZ_ALWAYS_FALSE
 (
-IsScriptAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 iter
@@ -4820,7 +4820,7 @@ i
 if
 (
 !
-IsScriptMarked
+IsMarkedUnbarriered
 (
 &
 sizedScriptList
