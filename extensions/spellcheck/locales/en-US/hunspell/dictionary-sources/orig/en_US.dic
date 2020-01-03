@@ -1,4 +1,4 @@
-48722
+48743
 0
 /
 nm
@@ -32665,6 +32665,7 @@ M
 ammonia
 /
 M
+ammonium
 ammunition
 /
 M
@@ -38490,6 +38491,7 @@ M
 biomass
 /
 M
+biomedical
 bionic
 /
 S
@@ -56218,6 +56220,7 @@ MS
 dopa
 /
 M
+dopamine
 dope
 /
 MZGDRS
@@ -59107,6 +59110,7 @@ endoscopic
 endoscopy
 /
 M
+endothelial
 endothermic
 endow
 /
@@ -59736,6 +59740,8 @@ episode
 SM
 episodic
 episodically
+epistemic
+epistemological
 epistemology
 epistle
 /
@@ -70851,6 +70857,7 @@ M
 health
 /
 M
+healthcare
 healthful
 /
 PY
@@ -82315,6 +82322,7 @@ S
 macron
 /
 MS
+macrophages
 macroscopic
 mad
 /
@@ -86007,6 +86015,9 @@ U
 mitigation
 /
 M
+mitochondria
+mitochondrial
+mitochondrion
 mitoses
 mitosis
 /
@@ -86113,6 +86124,9 @@ STM
 modal
 /
 SM
+modality
+/
+S
 modded
 modding
 mode
@@ -87771,6 +87785,7 @@ M
 myna
 /
 MS
+myocardial
 myocardium
 myopia
 /
@@ -94785,6 +94800,9 @@ M
 peptic
 /
 MS
+peptide
+/
+S
 peradventure
 /
 M
@@ -94933,6 +94951,7 @@ perfumery
 SM
 perfunctorily
 perfunctory
+perfusion
 pergola
 /
 SM
@@ -97221,6 +97240,8 @@ poetess
 /
 MS
 poetic
+/
+S
 poetical
 /
 Y
@@ -102430,6 +102451,7 @@ SM
 reactionary
 /
 SM
+reactivity
 read
 /
 ZGMRBJS
@@ -110717,6 +110739,7 @@ DSXGN
 situation
 /
 M
+situational
 six
 /
 MSH
@@ -114725,6 +114748,7 @@ stenographic
 stenography
 /
 M
+stenosis
 stentorian
 step
 /
@@ -120342,6 +120366,7 @@ PY
 timelessness
 /
 M
+timeline
 timeliness
 /
 UM
@@ -125389,6 +125414,7 @@ verruca
 /
 SM
 verrucae
+versa
 versatile
 versatility
 /
@@ -126884,6 +126910,7 @@ M
 waster
 /
 M
+wastewater
 wastrel
 /
 SM
