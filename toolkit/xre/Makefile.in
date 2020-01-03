@@ -140,13 +140,6 @@ mozbuild
 milestone
 .
 py
--
--
-topsrcdir
-=
-(
-topsrcdir
-)
 )
 (
 call
