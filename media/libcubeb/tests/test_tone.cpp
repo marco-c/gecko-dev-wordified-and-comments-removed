@@ -345,9 +345,9 @@ cb_user_data
 user_data
 ;
 int
-ret
+r
 ;
-ret
+r
 =
 cubeb_init
 (
@@ -362,7 +362,7 @@ example
 ;
 if
 (
-ret
+r
 !
 =
 CUBEB_OK
@@ -382,7 +382,7 @@ n
 )
 ;
 return
-ret
+r
 ;
 }
 params
@@ -451,7 +451,7 @@ position
 =
 0
 ;
-ret
+r
 =
 cubeb_stream_init
 (
@@ -474,7 +474,7 @@ user_data
 ;
 if
 (
-ret
+r
 !
 =
 CUBEB_OK
@@ -494,7 +494,7 @@ n
 )
 ;
 return
-ret
+r
 ;
 }
 cubeb_stream_start
