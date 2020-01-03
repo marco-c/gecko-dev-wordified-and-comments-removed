@@ -3800,8 +3800,6 @@ work
 void
 startBackgroundSweep
 (
-bool
-shouldShrink
 )
 ;
 void
