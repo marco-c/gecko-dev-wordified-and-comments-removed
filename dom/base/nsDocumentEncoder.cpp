@@ -5972,6 +5972,9 @@ commonParent
 )
 )
 ;
+#
+ifndef
+MOZ_THUNDERBIRD
 for
 (
 nsCOMPtr
@@ -6129,6 +6132,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsIHTMLDocument
