@@ -513,6 +513,17 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
+void
+CloneAndDispatchAs
+(
+const
+WidgetCompositionEvent
+*
+aCompositionEvent
+uint32_t
+aMessage
+)
+;
 bool
 WasNativeCompositionEndEventDiscarded
 (
