@@ -569,7 +569,11 @@ By
 CSS_SELECTOR
 "
 .
-rooms
+new
+-
+room
+-
+view
 .
 btn
 -
