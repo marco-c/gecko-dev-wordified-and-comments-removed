@@ -1564,7 +1564,7 @@ join
 (
 modulesDir
 "
-promise
+Promise
 -
 backend
 .
