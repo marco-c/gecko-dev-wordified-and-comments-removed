@@ -37,6 +37,11 @@ jsm
 "
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 frame_script
 (
