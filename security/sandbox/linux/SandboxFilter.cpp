@@ -946,6 +946,14 @@ Allow
 (
 SYSCALL
 (
+readlinkat
+)
+)
+;
+Allow
+(
+SYSCALL
+(
 prctl
 )
 )
