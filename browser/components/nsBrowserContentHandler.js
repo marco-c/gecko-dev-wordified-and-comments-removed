@@ -4391,6 +4391,14 @@ formParam
 "
 WNSBOX
 "
+|
+|
+formParam
+=
+=
+"
+WNSFC2
+"
 )
 {
 var
