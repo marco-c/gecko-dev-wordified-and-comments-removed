@@ -1,10 +1,4 @@
 import
-ctypes
-import
-errno
-import
-json
-import
 os
 import
 platform
@@ -12,8 +6,6 @@ import
 re
 import
 sys
-import
-mozfile
 _os
 =
 os
@@ -650,6 +642,12 @@ linux
 '
 :
     
+import
+ctypes
+    
+import
+errno
+    
 PR_SET_SECCOMP
 =
 22
@@ -922,6 +920,12 @@ new_info
 basestring
 )
 :
+        
+import
+mozfile
+        
+import
+json
         
 f
 =
@@ -1382,6 +1386,9 @@ parse_args
 if
 args
 :
+        
+import
+json
         
 for
 arg
