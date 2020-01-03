@@ -1333,7 +1333,7 @@ ListenMobileConnAndIccInfo
 true
 )
 ;
-BT_LOGR
+BT_LOGD
 (
 "
 %

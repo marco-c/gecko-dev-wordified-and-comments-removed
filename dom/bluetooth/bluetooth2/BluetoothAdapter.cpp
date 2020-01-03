@@ -1926,12 +1926,10 @@ Paired
 true
 )
 ;
-nsRefPtr
-<
-BluetoothDevice
->
-pairedDevice
-=
+mDevices
+.
+AppendElement
+(
 BluetoothDevice
 :
 :
@@ -1945,12 +1943,6 @@ BluetoothValue
 props
 )
 )
-;
-mDevices
-.
-AppendElement
-(
-pairedDevice
 )
 ;
 }
@@ -3341,9 +3333,7 @@ name
 )
 )
 ;
-BT_ENSURE_TRUE_REJECT
-(
-NS_SUCCEEDED
+BT_ENSURE_SUCCESS_REJECT
 (
 bs
 -
@@ -3360,7 +3350,6 @@ BluetoothVoidReplyRunnable
 (
 nullptr
 promise
-)
 )
 )
 promise
@@ -3506,9 +3495,7 @@ aDiscoverable
 )
 )
 ;
-BT_ENSURE_TRUE_REJECT
-(
-NS_SUCCEEDED
+BT_ENSURE_SUCCESS_REJECT
 (
 bs
 -
@@ -3525,7 +3512,6 @@ BluetoothVoidReplyRunnable
 (
 nullptr
 promise
-)
 )
 )
 promise
