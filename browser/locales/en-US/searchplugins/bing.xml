@@ -766,11 +766,11 @@ json
 template
 =
 "
-http
+https
 :
 /
 /
-api
+www
 .
 bing
 .
@@ -850,7 +850,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
