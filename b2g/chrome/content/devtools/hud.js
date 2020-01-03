@@ -286,9 +286,6 @@ _telemetry
 :
 false
 registerWatcher
-:
-function
-dwp_registerWatcher
 (
 watcher
 )
@@ -304,9 +301,6 @@ watcher
 ;
 }
 init
-:
-function
-dwp_init
 (
 )
 {
@@ -491,9 +485,6 @@ enabled
 ;
 }
 uninit
-:
-function
-dwp_uninit
 (
 )
 {
@@ -552,9 +543,6 @@ _client
 ;
 }
 trackFrame
-:
-function
-dwp_trackFrame
 (
 frame
 )
@@ -633,9 +621,6 @@ target
 ;
 }
 untrackFrame
-:
-function
-dwp_untrackFrame
 (
 frame
 )
@@ -693,8 +678,6 @@ frame
 }
 }
 onFrameCreated
-:
-function
 (
 frame
 isFirstAppFrame
@@ -730,8 +713,6 @@ frame
 ;
 }
 onFrameDestroyed
-:
-function
 (
 frame
 isLastAppFrame
@@ -767,9 +748,6 @@ frame
 ;
 }
 log
-:
-function
-dwp_log
 (
 message
 )
@@ -890,9 +868,6 @@ appManifestURL
 ;
 }
 register
-:
-function
-target_register
 (
 metric
 )
@@ -909,9 +884,6 @@ metric
 ;
 }
 update
-:
-function
-target_update
 (
 metric
 message
@@ -1082,9 +1054,6 @@ data
 ;
 }
 bump
-:
-function
-target_bump
 (
 metric
 message
@@ -1122,9 +1091,6 @@ message
 ;
 }
 clear
-:
-function
-target_clear
 (
 metric
 )
@@ -1144,9 +1110,6 @@ metric
 ;
 }
 destroy
-:
-function
-target_destroy
 (
 )
 {
@@ -1165,9 +1128,6 @@ _send
 ;
 }
 _send
-:
-function
-target_send
 (
 data
 )
@@ -1211,9 +1171,6 @@ metric
 ;
 }
 _sendTelemetryEvent
-:
-function
-target_sendTelemetryEvent
 (
 metric
 )
@@ -1445,9 +1402,6 @@ CORS
 '
 ]
 init
-:
-function
-cw_init
 (
 client
 )
@@ -1602,9 +1556,6 @@ consoleListener
 ;
 }
 trackTarget
-:
-function
-cw_trackTarget
 (
 target
 )
@@ -1706,9 +1657,6 @@ target
 ;
 }
 untrackTarget
-:
-function
-cw_untrackTarget
 (
 target
 )
@@ -1773,9 +1721,6 @@ consoleActor
 ;
 }
 consoleListener
-:
-function
-cw_consoleListener
 (
 type
 packet
@@ -2206,9 +2151,6 @@ output
 ;
 }
 formatSourceURL
-:
-function
-cw_formatSourceURL
 (
 packet
 )
@@ -2266,9 +2208,6 @@ source
 ;
 }
 handleTelemetryMessage
-:
-function
-cw_handleTelemetryMessage
 (
 target
 packet
@@ -2455,8 +2394,6 @@ _active
 :
 false
 init
-:
-function
 (
 client
 )
@@ -2489,8 +2426,6 @@ this
 ;
 }
 settingsListener
-:
-function
 (
 value
 )
@@ -2580,8 +2515,6 @@ jank
 }
 }
 trackTarget
-:
-function
 (
 target
 )
@@ -2679,8 +2612,6 @@ start
 }
 }
 untrackTarget
-:
-function
 (
 target
 )
@@ -2782,9 +2713,6 @@ _active
 :
 false
 init
-:
-function
-mw_init
 (
 client
 )
@@ -2849,9 +2777,6 @@ update
 }
 }
 update
-:
-function
-mw_update
 (
 )
 {
@@ -2991,9 +2916,6 @@ active
 ;
 }
 measure
-:
-function
-mw_measure
 (
 target
 )
@@ -3330,9 +3252,6 @@ timer
 ;
 }
 formatMemory
-:
-function
-mw_formatMemory
 (
 bytes
 )
@@ -3427,9 +3346,6 @@ B
 ;
 }
 trackTarget
-:
-function
-mw_trackTarget
 (
 target
 )
@@ -3487,9 +3403,6 @@ target
 }
 }
 untrackTarget
-:
-function
-mw_untrackTarget
 (
 target
 )
