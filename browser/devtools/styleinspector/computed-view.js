@@ -4439,11 +4439,9 @@ isDark
 property
 -
 view
-theme
+row
 -
-bg
--
-darker
+striped
 "
 :
 "
@@ -4491,11 +4489,9 @@ isDark
 property
 -
 content
-theme
+row
 -
-bg
--
-darker
+striped
 "
 :
 "
