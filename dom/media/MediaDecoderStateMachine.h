@@ -757,6 +757,10 @@ DestroyData
 (
 )
 ;
+mResource
+=
+nullptr
+;
 mDecoder
 =
 nullptr
@@ -3525,6 +3529,12 @@ nsRefPtr
 DecodedStream
 >
 mDecodedStream
+;
+nsRefPtr
+<
+MediaResource
+>
+mResource
 ;
 private
 :
