@@ -550,16 +550,10 @@ gActivityTLS
 BAD_TLS_INDEX
 |
 |
-NS_PTR_TO_INT32
-(
 PR_GetThreadPrivate
 (
 gActivityTLS
 )
-)
-!
-=
-0
 )
 {
 if
