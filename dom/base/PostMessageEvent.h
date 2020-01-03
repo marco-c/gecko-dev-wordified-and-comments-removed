@@ -119,8 +119,6 @@ JS
 Value
 >
 aTransfer
-bool
-aSubsumes
 nsPIDOMWindow
 *
 aWindow
