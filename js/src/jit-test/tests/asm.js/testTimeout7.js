@@ -149,6 +149,14 @@ b2
 <
 =
 0xffffff
+|
+|
+len
+(
+b2
+)
+>
+0x80000000
 )
 return
 false
