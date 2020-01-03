@@ -1952,6 +1952,14 @@ ins
 )
 ;
 bool
+visitSimdShuffle
+(
+MSimdShuffle
+*
+ins
+)
+;
+bool
 visitSimdUnaryArith
 (
 MSimdUnaryArith

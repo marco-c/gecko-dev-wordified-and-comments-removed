@@ -1372,6 +1372,14 @@ lir
 )
 ;
 bool
+visitSimdShuffle
+(
+LSimdShuffle
+*
+lir
+)
+;
+bool
 visitSimdUnaryArithIx4
 (
 LSimdUnaryArithIx4
