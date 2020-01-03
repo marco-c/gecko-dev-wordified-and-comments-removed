@@ -74,10 +74,6 @@ aValue
 init
 (
 aValue
-.
-take
-(
-)
 )
 ;
 }
@@ -350,6 +346,8 @@ void
 init
 (
 U
+&
+&
 aValue
 )
 {
