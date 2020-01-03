@@ -247,6 +247,8 @@ DUNICODE
 D_UNICODE
 ifndef
 JS_STANDALONE
+ifndef
+MOZ_PROFILE_USE
 #
 Generate
 a
@@ -315,6 +317,7 @@ print
 buildid
 >
 buildid
+endif
 endif
 endif
 ifdef
@@ -624,7 +627,6 @@ FINAL_LINK_LIBS
 (
 FINAL_LINK_COMP_NAMES
 )
-buildid
 (
 srcdir
 )
