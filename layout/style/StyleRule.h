@@ -792,6 +792,17 @@ nsCSSPseudoElements
 ePseudo_NotPseudoElement
 ;
 }
+#
+ifdef
+DEBUG
+nsCString
+RestrictedSelectorToString
+(
+)
+const
+;
+#
+endif
 private
 :
 void
@@ -825,6 +836,8 @@ mozilla
 CSSStyleSheet
 *
 aSheet
+bool
+aUseStandardNamespacePrefixes
 )
 const
 ;
@@ -842,6 +855,8 @@ CSSStyleSheet
 aSheet
 bool
 aIsNegated
+bool
+aUseStandardNamespacePrefixes
 )
 const
 ;
