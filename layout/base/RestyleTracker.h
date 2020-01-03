@@ -1489,6 +1489,19 @@ cur
 "
 )
 ;
+if
+(
+!
+(
+curData
+-
+>
+mRestyleHint
+&
+eRestyle_ForceDescendants
+)
+)
+{
 curData
 -
 >
@@ -1499,6 +1512,7 @@ AppendElement
 aElement
 )
 ;
+}
 }
 }
 mHaveLaterSiblingRestyles
