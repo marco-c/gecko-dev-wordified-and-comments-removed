@@ -16977,6 +16977,10 @@ loadType
 !
 =
 LOAD_PUSHSTATE
+&
+&
+!
+aCloneRef
 )
 {
 nsCOMPtr
