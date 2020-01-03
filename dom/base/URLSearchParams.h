@@ -295,6 +295,7 @@ nsString
 &
 aRetval
 )
+const
 {
 Serialize
 (
