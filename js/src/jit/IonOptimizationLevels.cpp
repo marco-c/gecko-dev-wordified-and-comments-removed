@@ -101,7 +101,7 @@ true
 ;
 registerAllocator_
 =
-RegisterAllocator_LSRA
+RegisterAllocator_Backtracking
 ;
 inlineMaxTotalBytecodeLength_
 =
