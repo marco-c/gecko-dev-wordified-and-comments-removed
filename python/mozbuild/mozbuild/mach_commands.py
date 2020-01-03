@@ -5098,6 +5098,10 @@ target
 '
 gtest
 '
+                       
+print_directory
+=
+False
 ensure_exit_code
 =
 True

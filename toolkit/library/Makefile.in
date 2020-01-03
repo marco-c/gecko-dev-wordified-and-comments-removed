@@ -232,7 +232,15 @@ MAKE
 )
 -
 C
+(
+DEPTH
+)
+toolkit
+/
+library
+/
 gtest
+/
 target
 LINK_GTEST
 =
