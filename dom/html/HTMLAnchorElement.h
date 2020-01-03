@@ -139,11 +139,7 @@ aIgnoreTabindex
 )
 const
 override
-{
-return
-true
 ;
-}
 NS_DECL_NSIDOMHTMLANCHORELEMENT
 NS_DECL_SIZEOF_EXCLUDING_THIS
 virtual
