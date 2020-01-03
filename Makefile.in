@@ -668,6 +668,9 @@ include
 public
 private
 sdk
+xpi
+-
+stage
 )
 \
 _tests

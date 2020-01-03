@@ -68,6 +68,8 @@ DirectoryTraversal
     
 Exports
     
+FinalTargetFiles
+    
 GeneratedEventWebIDLFile
     
 GeneratedInclude
@@ -4069,6 +4071,34 @@ yield
 InstallationTarget
 (
 context
+)
+        
+final_target_files
+=
+context
+.
+get
+(
+'
+FINAL_TARGET_FILES
+'
+)
+        
+if
+final_target_files
+:
+            
+yield
+FinalTargetFiles
+(
+context
+final_target_files
+context
+[
+'
+FINAL_TARGET
+'
+]
 )
         
 host_libname
