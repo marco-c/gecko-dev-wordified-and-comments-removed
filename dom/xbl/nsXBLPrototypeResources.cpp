@@ -314,6 +314,10 @@ return
 NS_OK
 ;
 }
+mRuleProcessor
+=
+nullptr
+;
 nsTArray
 <
 nsRefPtr
@@ -577,7 +581,6 @@ nsStyleSet
 :
 eDocSheet
 nullptr
-mRuleProcessor
 )
 ;
 }
