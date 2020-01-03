@@ -2445,8 +2445,8 @@ nullptr
 nsresult
 StripFormattingNodes
 (
-nsIDOMNode
-*
+nsIContent
+&
 aNode
 bool
 aOnlyList
