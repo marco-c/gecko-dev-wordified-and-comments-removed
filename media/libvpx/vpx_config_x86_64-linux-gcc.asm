@@ -60,7 +60,7 @@ equ
 1
 HAVE_AVX2
 equ
-1
+0
 HAVE_ALTIVEC
 equ
 0

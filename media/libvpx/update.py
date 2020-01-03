@@ -2636,6 +2636,19 @@ enable
 pic
 '
 ]
+            
+configure
++
+=
+[
+'
+-
+-
+disable
+-
+avx2
+'
+]
         
 if
 target
