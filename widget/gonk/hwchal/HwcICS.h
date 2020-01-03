@@ -72,9 +72,9 @@ void
 SetEGLInfo
 (
 hwc_display_t
-aDpy
+aEGLDisplay
 hwc_surface_t
-aSur
+aEGLSurface
 )
 override
 ;
@@ -184,12 +184,12 @@ mHwc
 nullptr
 ;
 hwc_display_t
-mDpy
+mEGLDisplay
 =
 nullptr
 ;
 hwc_surface_t
-mSur
+mEGLSurface
 =
 nullptr
 ;

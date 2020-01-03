@@ -229,9 +229,9 @@ void
 SetEGLInfo
 (
 hwc_display_t
-aDpy
+aEGLDisplay
 hwc_surface_t
-aSur
+aEGLSurface
 )
 =
 0

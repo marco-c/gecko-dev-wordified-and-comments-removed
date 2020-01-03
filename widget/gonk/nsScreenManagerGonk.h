@@ -354,12 +354,12 @@ aGLContext
 )
 ;
 hwc_display_t
-GetDpy
+GetEGLDisplay
 (
 )
 ;
 hwc_surface_t
-GetSur
+GetEGLSurface
 (
 )
 ;
@@ -432,10 +432,10 @@ DisplayType
 mDisplayType
 ;
 hwc_display_t
-mDpy
+mEGLDisplay
 ;
 hwc_surface_t
-mSur
+mEGLSurface
 ;
 mozilla
 :
