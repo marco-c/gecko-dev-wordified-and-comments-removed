@@ -2386,7 +2386,7 @@ findRenderedDOMComponentWithClass
 (
 view
 "
-btn
+button
 -
 email
 "
@@ -2408,7 +2408,7 @@ querySelector
 (
 "
 .
-btn
+button
 -
 email
 "
@@ -2530,7 +2530,7 @@ querySelector
 (
 "
 .
-btn
+button
 -
 copy
 "
@@ -2660,7 +2660,7 @@ querySelector
 (
 "
 .
-btn
+button
 -
 copy
 "
@@ -2784,7 +2784,7 @@ querySelector
 (
 "
 .
-btn
+button
 -
 email
 "
