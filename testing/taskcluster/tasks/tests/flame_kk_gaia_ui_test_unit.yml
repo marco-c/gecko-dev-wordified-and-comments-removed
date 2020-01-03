@@ -25,7 +25,7 @@ TC
 Gaia
 Python
 Integration
-Sanity
+Unit
 Tests
 '
 description
@@ -33,7 +33,6 @@ description
 Gaia
 Python
 Integration
-Sanity
 Tests
 run
 workerType
@@ -41,9 +40,6 @@ workerType
 testdroid
 -
 device
-retries
-:
-0
 payload
 :
 env
@@ -71,7 +67,7 @@ sims
 "
 :
 "
-1
+0
 "
 "
 build
@@ -203,10 +199,6 @@ restart
 type
 =
 b2g
-+
-sanity
--
-dsds
 -
 -
 log
@@ -250,7 +242,7 @@ gaiatest
 /
 tests
 /
-functional
+unit
 /
 manifest
 .
@@ -318,7 +310,7 @@ Gip
 symbol
 :
 '
-s
+u
 '
 productName
 :

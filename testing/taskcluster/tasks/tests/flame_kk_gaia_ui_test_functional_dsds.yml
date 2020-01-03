@@ -25,7 +25,8 @@ TC
 Gaia
 Python
 Integration
-Sanity
+Functional
+DSDS
 Tests
 '
 description
@@ -33,7 +34,8 @@ description
 Gaia
 Python
 Integration
-Sanity
+Functional
+DSDS
 Tests
 run
 workerType
@@ -41,9 +43,6 @@ workerType
 testdroid
 -
 device
-retries
-:
-0
 payload
 :
 env
@@ -71,7 +70,7 @@ sims
 "
 :
 "
-1
+2
 "
 "
 build
@@ -204,8 +203,6 @@ type
 =
 b2g
 +
-sanity
--
 dsds
 -
 -
@@ -318,7 +315,9 @@ Gip
 symbol
 :
 '
-s
+f
+-
+dsds
 '
 productName
 :
