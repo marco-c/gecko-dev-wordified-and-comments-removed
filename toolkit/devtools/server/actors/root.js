@@ -292,6 +292,9 @@ true
 editOuterHTML
 :
 true
+pasteHTML
+:
+true
 highlightable
 :
 true
