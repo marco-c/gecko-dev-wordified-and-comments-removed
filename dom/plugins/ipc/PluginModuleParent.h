@@ -1648,6 +1648,10 @@ MessageLoop
 *
 aMsgLoop
 const
+nsCString
+&
+aMonitorDescription
+const
 nsAString
 &
 aBrowserDumpId

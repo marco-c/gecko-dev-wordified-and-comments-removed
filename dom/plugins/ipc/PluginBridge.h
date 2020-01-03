@@ -60,7 +60,11 @@ TerminatePlugin
 uint32_t
 aPluginId
 const
-nsString
+nsCString
+&
+aMonitorDescription
+const
+nsAString
 &
 aBrowserDumpId
 )
