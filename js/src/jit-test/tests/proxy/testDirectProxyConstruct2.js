@@ -10,9 +10,6 @@ js
 )
 ;
 var
-p
-;
-var
 target
 =
 function
@@ -31,7 +28,6 @@ function
 (
 target1
 args
-newTarget
 )
 {
 assertEq
@@ -72,16 +68,11 @@ args
 3
 )
 ;
-assertEq
-(
-newTarget
-p
-)
-;
 }
 }
 for
 (
+let
 p
 of
 [

@@ -21655,10 +21655,6 @@ Register
 argcReg
 bool
 isJitCall
-bool
-isConstructing
-=
-false
 )
 ;
 void
@@ -21673,8 +21669,6 @@ Register
 argcReg
 bool
 isJitCall
-bool
-isConstructing
 )
 ;
 void
@@ -21688,8 +21682,6 @@ argcReg
 Label
 *
 failure
-bool
-isConstructing
 )
 ;
 Register

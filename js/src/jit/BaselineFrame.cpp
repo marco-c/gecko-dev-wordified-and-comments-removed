@@ -197,10 +197,6 @@ TraceRootRange
 (
 trc
 numArgs
-+
-isConstructing
-(
-)
 argv
 (
 )

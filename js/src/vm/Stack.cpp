@@ -2368,10 +2368,6 @@ trc
 argc
 +
 2
-+
-isConstructing
-(
-)
 argv_
 -
 2
