@@ -761,11 +761,6 @@ SharedBuffer
 h
 '
 '
-SharedThreadPool
-.
-h
-'
-'
 StreamBuffer
 .
 h
@@ -829,6 +824,11 @@ h
 '
 '
 MozPromise
+.
+h
+'
+'
+SharedThreadPool
 .
 h
 '
