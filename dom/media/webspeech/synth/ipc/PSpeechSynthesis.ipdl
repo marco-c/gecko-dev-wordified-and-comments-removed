@@ -177,6 +177,12 @@ bool
 aIsDefault
 )
 ;
+IsSpeakingChanged
+(
+bool
+aIsSpeaking
+)
+;
 parent
 :
 __delete__
@@ -200,7 +206,7 @@ aPitch
 )
 ;
 sync
-ReadVoiceList
+ReadVoicesAndState
 (
 )
 returns
@@ -213,6 +219,12 @@ nsString
 [
 ]
 aDefaults
+bool
+aIsSpeaking
+)
+;
+DropGlobalQueue
+(
 )
 ;
 }

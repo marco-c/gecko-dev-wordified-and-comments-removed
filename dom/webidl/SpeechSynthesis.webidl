@@ -217,5 +217,13 @@ getVoices
 (
 )
 ;
+[
+ChromeOnly
+]
+void
+dropGlobalQueue
+(
+)
+;
 }
 ;

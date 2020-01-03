@@ -74,7 +74,7 @@ aWhy
 override
 ;
 bool
-RecvReadVoiceList
+RecvReadVoicesAndState
 (
 InfallibleTArray
 <
@@ -88,6 +88,15 @@ nsString
 >
 *
 aDefaults
+bool
+*
+aIsSpeaking
+)
+override
+;
+bool
+RecvDropGlobalQueue
+(
 )
 override
 ;
