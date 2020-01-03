@@ -1176,6 +1176,11 @@ emitArgumentTypeChecks
 (
 )
 ;
+void
+emitIsDebuggeeCheck
+(
+)
+;
 bool
 emitDebugPrologue
 (
