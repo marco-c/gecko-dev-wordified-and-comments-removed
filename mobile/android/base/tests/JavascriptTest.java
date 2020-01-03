@@ -194,7 +194,7 @@ url
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 getHarnessUrlForJavascript
 (

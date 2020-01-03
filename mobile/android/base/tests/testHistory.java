@@ -64,7 +64,7 @@ url
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -74,7 +74,7 @@ url2
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -84,7 +84,7 @@ url3
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
 )
@@ -356,7 +356,7 @@ mFirstChild
 ;
 verifyUrlBarTitle
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
 )

@@ -196,7 +196,7 @@ final
 String
 url
 =
-StringHelper
+mStringHelper
 .
 ROBOCOP_INPUT_URL
 +
