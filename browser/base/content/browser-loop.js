@@ -1494,9 +1494,7 @@ listener
 null
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 outerWindowID
 )
@@ -1835,9 +1833,7 @@ browser
 |
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 ;
 let
 box
@@ -1965,9 +1961,7 @@ listener
 null
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 outerWindowID
 )

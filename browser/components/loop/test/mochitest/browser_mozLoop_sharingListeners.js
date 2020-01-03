@@ -774,9 +774,7 @@ getNotificationBox
 (
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 )
 ;
 return

@@ -174,9 +174,7 @@ is
 (
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
+selectedBrowser
 .
 currentURI
 .
