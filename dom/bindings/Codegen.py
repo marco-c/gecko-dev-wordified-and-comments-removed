@@ -13784,6 +13784,25 @@ MakeClearCachedValueNativeName
 (
 member
 )
+def
+IDLToCIdentifier
+(
+name
+)
+:
+    
+return
+name
+.
+replace
+(
+"
+-
+"
+"
+_
+"
+)
 class
 MethodDefiner
 (
@@ -15148,12 +15167,15 @@ get
 "
 nativeName
 "
+IDLToCIdentifier
+(
 m
 [
 "
 name
 "
 ]
+)
 )
                 
 if
@@ -15829,11 +15851,14 @@ accessor
 get_
 '
 +
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
                 
 jitinfo
 =
@@ -15902,17 +15927,23 @@ GenericBindingGetter
                 
 jitinfo
 =
+(
 "
 &
 %
 s_getterinfo
 "
 %
+                           
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
+)
             
 return
 "
@@ -15993,11 +16024,14 @@ accessor
 set_
 '
 +
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
                 
 jitinfo
 =
@@ -16071,11 +16105,14 @@ jitinfo
 s_setterinfo
 "
 %
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
             
 return
 "
@@ -17170,11 +17207,14 @@ false
                     
 name
 =
+IDLToCIdentifier
+(
 m
 .
 identifier
 .
 name
+)
 )
         
 ret
@@ -50394,11 +50434,14 @@ upper
 (
 )
 +
+IDLToCIdentifier
+(
 name
 [
 1
 :
 ]
+)
 class
 CGGenericMethod
 (
@@ -51053,11 +51096,14 @@ CppKeywords
 .
 checkMethodName
 (
+IDLToCIdentifier
+(
 method
 .
 identifier
 .
 name
+)
 )
         
 args
@@ -52914,11 +52960,14 @@ method
         
 name
 =
+IDLToCIdentifier
+(
 method
 .
 identifier
 .
 name
+)
         
 CGAbstractStaticBindingMethod
 .
@@ -53328,11 +53377,14 @@ name
 get_
 '
 +
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
         
 args
 =
@@ -53896,11 +53948,14 @@ name
 get_
 '
 +
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
         
 CGAbstractStaticBindingMethod
 .
@@ -54369,11 +54424,14 @@ name
 set_
 '
 +
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
         
 args
 =
@@ -54575,11 +54633,14 @@ name
 set_
 '
 +
+IDLToCIdentifier
+(
 attr
 .
 identifier
 .
 name
+)
         
 CGAbstractStaticBindingMethod
 .
@@ -55735,6 +55796,9 @@ getterinfo
 s_getterinfo
 "
 %
+                          
+IDLToCIdentifier
+(
 self
 .
 member
@@ -55742,6 +55806,7 @@ member
 identifier
 .
 name
+)
 )
             
 getter
@@ -55756,6 +55821,9 @@ get_
 s
 "
 %
+                      
+IDLToCIdentifier
+(
 self
 .
 member
@@ -55763,6 +55831,7 @@ member
 identifier
 .
 name
+)
 )
             
 getterinfal
@@ -56026,6 +56095,9 @@ setterinfo
 s_setterinfo
 "
 %
+                              
+IDLToCIdentifier
+(
 self
 .
 member
@@ -56033,6 +56105,7 @@ member
 identifier
 .
 name
+)
 )
                 
 setter
@@ -56047,6 +56120,9 @@ set_
 s
 "
 %
+                          
+IDLToCIdentifier
+(
 self
 .
 member
@@ -56054,6 +56130,7 @@ member
 identifier
 .
 name
+)
 )
                 
 result
@@ -56116,20 +56193,8 @@ methodinfo
 s_methodinfo
 "
 %
-self
-.
-member
-.
-identifier
-.
-name
-)
-            
-name
-=
-CppKeywords
-.
-checkMethodName
+                          
+IDLToCIdentifier
 (
 self
 .
@@ -56138,6 +56203,26 @@ member
 identifier
 .
 name
+)
+)
+            
+name
+=
+CppKeywords
+.
+checkMethodName
+(
+                
+IDLToCIdentifier
+(
+self
+.
+member
+.
+identifier
+.
+name
+)
 )
             
 if
@@ -57516,16 +57601,29 @@ n
 %
             
 (
+IDLToCIdentifier
+(
 method
 .
 identifier
 .
 name
+)
+             
+CppKeywords
+.
+checkMethodName
+(
+                 
+IDLToCIdentifier
+(
 method
 .
 identifier
 .
 name
+)
+)
 )
 )
 def
@@ -80979,20 +81077,13 @@ upper
 (
 )
 +
+IDLToCIdentifier
+(
 name
 [
 1
 :
 ]
-.
-replace
-(
-"
--
-"
-"
-_
-"
 )
     
 def
@@ -82564,16 +82655,9 @@ name
 :
         
 return
-name
-.
-replace
+IDLToCIdentifier
 (
-"
--
-"
-"
-_
-"
+name
 )
 +
 "
