@@ -9246,7 +9246,12 @@ devPixelOffset
 aCtx
 -
 >
-PushState
+ThebesContext
+(
+)
+-
+>
+Save
 (
 )
 ;
@@ -9269,7 +9274,12 @@ tm
 aCtx
 -
 >
-PopState
+ThebesContext
+(
+)
+-
+>
+Restore
 (
 )
 ;

@@ -1868,7 +1868,12 @@ bottom
 }
 aRenderingContext
 .
-PushState
+ThebesContext
+(
+)
+-
+>
+Save
 (
 )
 ;
@@ -1920,7 +1925,12 @@ aAscent
 ;
 aRenderingContext
 .
-PopState
+ThebesContext
+(
+)
+-
+>
+Restore
 (
 )
 ;

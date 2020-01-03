@@ -472,7 +472,12 @@ appUnitsPerDevPixel
 aCtx
 -
 >
-PushState
+ThebesContext
+(
+)
+-
+>
+Save
 (
 )
 ;
@@ -514,7 +519,12 @@ tm
 aCtx
 -
 >
-PopState
+ThebesContext
+(
+)
+-
+>
+Restore
 (
 )
 ;

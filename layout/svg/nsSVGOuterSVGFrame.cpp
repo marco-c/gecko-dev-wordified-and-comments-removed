@@ -2640,7 +2640,12 @@ appUnitsPerDevPixel
 aContext
 -
 >
-PushState
+ThebesContext
+(
+)
+-
+>
+Save
 (
 )
 ;
@@ -2678,7 +2683,12 @@ contentAreaDirtyRect
 aContext
 -
 >
-PopState
+ThebesContext
+(
+)
+-
+>
+Restore
 (
 )
 ;
