@@ -310,14 +310,6 @@ removal
 ref
 .
 html
-fuzzy
--
-if
-(
-winWidget
-35
-1
-)
 =
 =
 dynamic
@@ -336,9 +328,6 @@ removal
 ref
 .
 html
-#
-bug
-1111891
 =
 =
 float
