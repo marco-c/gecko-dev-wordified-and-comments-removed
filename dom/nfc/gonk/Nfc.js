@@ -1963,7 +1963,7 @@ function
 registerSession
 (
 id
-techList
+isP2P
 )
 {
 if
@@ -2008,18 +2008,7 @@ toString
 )
 isP2P
 :
-techList
-.
-indexOf
-(
-"
-P2P
-"
-)
-!
-=
--
-1
+isP2P
 }
 ;
 return
@@ -2620,7 +2609,7 @@ message
 sessionId
 message
 .
-techList
+isP2P
 )
 ;
 let

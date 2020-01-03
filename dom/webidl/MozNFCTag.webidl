@@ -101,12 +101,6 @@ enum
 NFCTechType
 {
 "
-NDEF
-"
-"
-P2P
-"
-"
 NFC_A
 "
 "

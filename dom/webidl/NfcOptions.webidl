@@ -132,6 +132,9 @@ majorVersion
 long
 minorVersion
 ;
+boolean
+isP2P
+;
 sequence
 <
 NFCTechType
