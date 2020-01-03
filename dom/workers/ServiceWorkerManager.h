@@ -1024,11 +1024,15 @@ aURL
 )
 ;
 NS_IMETHODIMP
-GetServiceWorkerForWindow
+GetServiceWorkerForScope
 (
 nsIDOMWindow
 *
 aWindow
+const
+nsAString
+&
+aScope
 WhichServiceWorker
 aWhichWorker
 nsISupports
