@@ -223,15 +223,6 @@ h
 "
 ;
 using
-CSSSize
-from
-"
-Units
-.
-h
-"
-;
-using
 LayoutDeviceIntRect
 from
 "
@@ -3336,9 +3327,9 @@ fd
 ;
 UpdateDimensions
 (
-CSSRect
+IntRect
 rect
-CSSSize
+ScreenIntSize
 size
 ScreenOrientation
 orientation
