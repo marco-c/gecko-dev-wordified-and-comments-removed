@@ -3003,6 +3003,15 @@ browser
 /
 components
 /
+360seProfileMigrator
+.
+js
+RESPATH
+/
+browser
+/
+components
+/
 IEProfileMigrator
 .
 js
