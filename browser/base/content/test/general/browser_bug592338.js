@@ -364,7 +364,7 @@ add
 makeURI
 (
 "
-http
+https
 :
 /
 /
