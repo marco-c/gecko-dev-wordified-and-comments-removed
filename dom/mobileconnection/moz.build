@@ -177,6 +177,11 @@ MobileConnectionParent
 .
 h
 '
+'
+MobileCallForwardingOptions
+.
+h
+'
 ]
 XPIDL_SOURCES
 +
@@ -259,6 +264,11 @@ cpp
 ipc
 /
 MobileConnectionParent
+.
+cpp
+'
+'
+MobileCallForwardingOptions
 .
 cpp
 '
