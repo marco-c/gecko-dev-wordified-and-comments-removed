@@ -236,14 +236,6 @@ memalign
 +
 intptr_t
 (
-valloc
-(
-4096
-)
-)
-+
-intptr_t
-(
 strdup
 (
 "

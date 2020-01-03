@@ -196,11 +196,6 @@ r
 '
 memalign
 '
-        
-r
-'
-valloc
-'
     
 ]
     
