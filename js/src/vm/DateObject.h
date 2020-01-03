@@ -150,11 +150,6 @@ const
 Class
 class_
 ;
-static
-const
-Class
-protoClass_
-;
 inline
 const
 js

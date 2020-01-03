@@ -256,15 +256,9 @@ prototype
 "
 output
 :
-/
-Object
-\
-{
-.
-*
-\
-}
-/
+"
+Date
+"
 printOutput
 :
 "
@@ -277,7 +271,7 @@ true
 variablesViewLabel
 :
 "
-Object
+Date
 "
 }
 {
