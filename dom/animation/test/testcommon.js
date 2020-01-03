@@ -268,6 +268,9 @@ assert_true
 assert_false
 "
 "
+assert_class_string
+"
+"
 assert_throws
 "
 "
