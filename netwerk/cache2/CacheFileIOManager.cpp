@@ -13686,7 +13686,7 @@ AppendNative
 (
 NS_LITERAL_CSTRING
 (
-ENTRIES_DIR
+kEntriesDir
 )
 )
 ;
@@ -13737,7 +13737,7 @@ rv
 CheckAndCreateDir
 (
 mCacheDirectory
-ENTRIES_DIR
+kEntriesDir
 false
 )
 ;
@@ -14640,7 +14640,7 @@ true
 {
 leaf
 =
-TRASH_DIR
+kTrashDir
 ;
 leaf
 .
@@ -15795,7 +15795,7 @@ Length
 <
 strlen
 (
-TRASH_DIR
+kTrashDir
 )
 )
 {
@@ -15810,7 +15810,7 @@ StringBeginsWith
 leafName
 NS_LITERAL_CSTRING
 (
-TRASH_DIR
+kTrashDir
 )
 )
 )
@@ -16766,7 +16766,7 @@ AppendNative
 (
 NS_LITERAL_CSTRING
 (
-ENTRIES_DIR
+kEntriesDir
 )
 )
 ;
@@ -16934,7 +16934,7 @@ AppendNative
 (
 NS_LITERAL_CSTRING
 (
-DOOMED_DIR
+kDoomedDir
 )
 )
 ;
@@ -17521,7 +17521,7 @@ rv
 CheckAndCreateDir
 (
 mCacheDirectory
-ENTRIES_DIR
+kEntriesDir
 false
 )
 ;
@@ -17536,7 +17536,7 @@ rv
 CheckAndCreateDir
 (
 mCacheDirectory
-DOOMED_DIR
+kDoomedDir
 true
 )
 ;
@@ -18619,13 +18619,13 @@ rv
 SyncRemoveDir
 (
 mCacheDirectory
-ENTRIES_DIR
+kEntriesDir
 )
 ;
 SyncRemoveDir
 (
 mCacheDirectory
-DOOMED_DIR
+kDoomedDir
 )
 ;
 mFailedTrashDirs

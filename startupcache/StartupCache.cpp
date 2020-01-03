@@ -437,9 +437,13 @@ return
 NS_OK
 ;
 }
-#
-define
-STARTUP_CACHE_NAME
+static
+const
+char
+sStartupCacheName
+[
+]
+=
 "
 startupCache
 .
@@ -449,6 +453,7 @@ SC_WORDSIZE
 .
 "
 SC_ENDIAN
+;
 StartupCache
 *
 StartupCache
@@ -900,7 +905,7 @@ AppendNative
 (
 NS_LITERAL_CSTRING
 (
-STARTUP_CACHE_NAME
+sStartupCacheName
 )
 )
 ;

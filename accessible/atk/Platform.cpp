@@ -1609,9 +1609,13 @@ sShouldEnable
 ;
 #
 endif
-#
-define
-GCONF_A11Y_KEY
+static
+const
+char
+sGconfAccessibilityKey
+[
+]
+=
 "
 /
 desktop
@@ -1622,6 +1626,7 @@ interface
 /
 accessibility
 "
+;
 nsresult
 rv
 =
@@ -1657,7 +1662,7 @@ GetBool
 (
 NS_LITERAL_CSTRING
 (
-GCONF_A11Y_KEY
+sGconfAccessibilityKey
 )
 &
 sShouldEnable
