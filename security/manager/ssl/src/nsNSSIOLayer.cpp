@@ -347,7 +347,7 @@ const
 bool
 FALSE_START_REQUIRE_NPN_DEFAULT
 =
-true
+false
 ;
 }
 #
