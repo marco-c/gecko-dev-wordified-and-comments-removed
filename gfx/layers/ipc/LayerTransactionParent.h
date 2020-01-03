@@ -531,6 +531,9 @@ virtual
 bool
 RecvSetAsyncScrollOffset
 (
+PLayerParent
+*
+aLayer
 const
 FrameMetrics
 :

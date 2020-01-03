@@ -602,9 +602,8 @@ transform
 The
 next
 time
-the
+this
 layer
-tree
 is
 composited
 add
@@ -617,10 +616,6 @@ in
 /
 CSS
 pixels
-for
-the
-given
-ViewID
 .
 /
 /
@@ -635,6 +630,8 @@ scrolling
 async
 SetAsyncScrollOffset
 (
+PLayer
+layer
 ViewID
 id
 int32_t
