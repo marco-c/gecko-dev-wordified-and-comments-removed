@@ -104,13 +104,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-nsIDOMMediaStream
-.
-h
-"
 class
 nsIDOMWindow
 ;
@@ -1033,7 +1026,7 @@ class
 Fake_DOMMediaStream
 :
 public
-nsIDOMMediaStream
+nsISupports
 {
 protected
 :

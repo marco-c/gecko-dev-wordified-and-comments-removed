@@ -1659,7 +1659,7 @@ size
 nsresult
 AddStream
 (
-nsIDOMMediaStream
+DOMMediaStream
 *
 aMediaStream
 uint32_t
@@ -1672,7 +1672,7 @@ stream_id
 nsresult
 RemoveStream
 (
-nsIDOMMediaStream
+DOMMediaStream
 *
 aMediaStream
 uint32_t

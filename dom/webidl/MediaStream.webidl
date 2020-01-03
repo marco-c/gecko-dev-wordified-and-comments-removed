@@ -218,6 +218,8 @@ null
 ;
 interface
 MediaStream
+:
+EventTarget
 {
 /
 /

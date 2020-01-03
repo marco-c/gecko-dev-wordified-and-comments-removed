@@ -177,11 +177,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMMediaStream
-.
-idl
-'
-'
 nsIDOMNavigatorUserMedia
 .
 idl
