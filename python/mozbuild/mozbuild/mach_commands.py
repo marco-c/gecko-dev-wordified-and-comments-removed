@@ -5510,6 +5510,7 @@ mach_command
 params
 remote
 background
+noprofile
 )
 :
     
@@ -5666,6 +5667,9 @@ P
 not
 in
 params
+and
+not
+noprofile
 :
         
 path
@@ -5920,6 +5924,38 @@ Mac
 '
 )
     
+CommandArgument
+(
+'
++
+noprofile
+'
+'
++
+n
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Do
+not
+pass
+the
+-
+profile
+argument
+by
+default
+.
+'
+)
+    
 def
 run
 (
@@ -5927,6 +5963,7 @@ self
 params
 remote
 background
+noprofile
 )
 :
         
@@ -5938,6 +5975,7 @@ self
 params
 remote
 background
+noprofile
 )
         
 if
@@ -6236,6 +6274,38 @@ code
 '
 )
     
+CommandArgument
+(
+'
++
+noprofile
+'
+'
++
+n
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Do
+not
+pass
+the
+-
+profile
+argument
+by
+default
+.
+'
+)
+    
 def
 debug
 (
@@ -6246,6 +6316,7 @@ background
 debugger
 debugparams
 slowscript
+noprofile
 )
 :
         
@@ -6552,6 +6623,9 @@ P
 not
 in
 params
+and
+not
+noprofile
 :
             
 path
