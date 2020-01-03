@@ -109,9 +109,6 @@ media
 '
 svg
 '
-'
-xul
-'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +

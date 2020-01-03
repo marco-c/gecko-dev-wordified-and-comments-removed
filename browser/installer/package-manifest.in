@@ -2035,13 +2035,6 @@ BINPATH
 /
 components
 /
-xuldoc
-.
-xpt
-BINPATH
-/
-components
-/
 xultmpl
 .
 xpt

@@ -7,7 +7,7 @@ document
 (
 mozilla
 /
-content
+dom
 /
 xul
 /
