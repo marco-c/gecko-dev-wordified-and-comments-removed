@@ -197,6 +197,12 @@ nsIPresentationService
 >
 mService
 ;
+nsTArray
+<
+nsString
+>
+mSessionIds
+;
 }
 ;
 class
