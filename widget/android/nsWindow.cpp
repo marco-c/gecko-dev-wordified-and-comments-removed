@@ -7693,6 +7693,14 @@ notification
 .
 mTextChangeData
 .
+mStartOffset
+=
+0
+;
+notification
+.
+mTextChangeData
+.
 mRemovedEndOffset
 =
 notification
