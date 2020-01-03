@@ -277,8 +277,12 @@ return
 sHalfLifeHours
 *
 60
+.
+0F
 *
 60
+.
+0F
 ;
 }
 static
@@ -431,7 +435,7 @@ uint32_t
 sCompressionLevel
 ;
 static
-uint32_t
+float
 sHalfLifeHours
 ;
 static
