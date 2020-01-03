@@ -1291,6 +1291,7 @@ mEditableClient
 setUpdateGecko
 (
 false
+false
 )
 ;
 return
@@ -1324,6 +1325,16 @@ mBatchEditCount
 0
 )
 {
+boolean
+forceUpdate
+=
+!
+mBatchTextChanged
+&
+&
+!
+mBatchSelectionChanged
+;
 if
 (
 mBatchTextChanged
@@ -1376,6 +1387,7 @@ mEditableClient
 setUpdateGecko
 (
 true
+forceUpdate
 )
 ;
 }

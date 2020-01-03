@@ -2874,6 +2874,8 @@ setUpdateGecko
 (
 boolean
 update
+boolean
+force
 )
 {
 if
@@ -2918,7 +2920,7 @@ update
 {
 icUpdateGecko
 (
-false
+force
 )
 ;
 }
