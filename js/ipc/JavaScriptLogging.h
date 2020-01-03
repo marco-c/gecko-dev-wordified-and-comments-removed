@@ -658,6 +658,10 @@ p
 side
 objDesc
 id
+.
+serialNumber
+(
+)
 ptr
 )
 ;

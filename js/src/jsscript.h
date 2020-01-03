@@ -213,7 +213,6 @@ BytecodeEmitter
 ;
 }
 }
-typedef
 enum
 JSTryNoteKind
 {
@@ -222,7 +221,6 @@ JSTRY_FINALLY
 JSTRY_ITER
 JSTRY_LOOP
 }
-JSTryNoteKind
 ;
 struct
 JSTryNote
@@ -7742,6 +7740,8 @@ void
 *
 table_
 ;
+protected
+:
 #
 if
 JS_BITS_PER_WORD
@@ -7753,6 +7753,8 @@ padding
 ;
 #
 endif
+private
+:
 struct
 PackedView
 {
