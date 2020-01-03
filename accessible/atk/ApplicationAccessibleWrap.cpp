@@ -310,7 +310,7 @@ nsString
 aName
 )
 {
-GetAppName
+AppName
 (
 aName
 )

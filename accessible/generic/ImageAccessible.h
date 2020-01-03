@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIAccessibleImage
+xpcAccessibleImage
 .
 h
 "
@@ -33,7 +33,7 @@ ImageAccessible
 public
 LinkableAccessible
 public
-nsIAccessibleImage
+xpcAccessibleImage
 {
 public
 :
@@ -48,7 +48,6 @@ aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIACCESSIBLEIMAGE
 virtual
 a11y
 :
@@ -103,6 +102,18 @@ uint8_t
 aIndex
 )
 MOZ_OVERRIDE
+;
+nsIntPoint
+Position
+(
+uint32_t
+aCoordType
+)
+;
+nsIntSize
+Size
+(
+)
 ;
 protected
 :
