@@ -2229,7 +2229,7 @@ setNetworkKey
 curNetworkKey
 )
 {
-gNetworkService
+netUtil
 .
 disableInterface
 (
@@ -2241,7 +2241,7 @@ function
 ok
 )
 {
-gNetworkService
+netUtil
 .
 enableInterface
 (
@@ -2329,7 +2329,7 @@ function
 )
 ;
 }
-gNetworkService
+netUtil
 .
 configureInterface
 (
@@ -3047,7 +3047,7 @@ function
 callback
 )
 {
-gNetworkService
+netUtil
 .
 configureInterface
 (
@@ -3081,7 +3081,7 @@ data
 }
 )
 ;
-gNetworkService
+netUtil
 .
 resetConnections
 (
@@ -4980,7 +4980,7 @@ function
 (
 )
 {
-gNetworkService
+netUtil
 .
 disableInterface
 (
@@ -5495,7 +5495,7 @@ supplicantStarted
 =
 true
 ;
-gNetworkService
+netUtil
 .
 enableInterface
 (
@@ -5667,7 +5667,7 @@ state
 UNINITIALIZED
 "
 ;
-gNetworkService
+netUtil
 .
 disableInterface
 (
