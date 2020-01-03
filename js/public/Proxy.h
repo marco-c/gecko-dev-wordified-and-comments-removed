@@ -573,8 +573,6 @@ JSPropertyDescriptor
 desc
 )
 const
-=
-0
 ;
 virtual
 bool
