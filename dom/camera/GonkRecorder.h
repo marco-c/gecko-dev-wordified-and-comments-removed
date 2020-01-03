@@ -348,6 +348,9 @@ GonkRecorder
 ;
 private
 :
+struct
+WrappedMediaSource
+;
 sp
 <
 IMediaRecorderClient
@@ -365,6 +368,12 @@ sp
 MediaWriter
 >
 mWriter
+;
+sp
+<
+WrappedMediaSource
+>
+mWriterSource
 ;
 int
 mOutputFd
@@ -510,6 +519,12 @@ MediaWriter
 >
 *
 mediaWriter
+sp
+<
+WrappedMediaSource
+>
+*
+mediaSource
 )
 ;
 void
