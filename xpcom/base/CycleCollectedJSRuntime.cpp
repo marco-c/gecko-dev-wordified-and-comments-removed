@@ -2777,7 +2777,7 @@ aCb
 .
 NoteXPCOMChild
 (
-UnwrapDOMObject
+UnwrapPossiblyNotInitializedDOMObject
 <
 nsISupports
 >
@@ -2800,7 +2800,7 @@ aCb
 .
 NoteNativeChild
 (
-UnwrapDOMObject
+UnwrapPossiblyNotInitializedDOMObject
 <
 void
 >
