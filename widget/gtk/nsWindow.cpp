@@ -2627,6 +2627,7 @@ rollupListener
 Rollup
 (
 0
+false
 nullptr
 nullptr
 )
@@ -20100,6 +20101,7 @@ rollupListener
 Rollup
 (
 popupsToRollup
+true
 usePoint
 ?
 &
