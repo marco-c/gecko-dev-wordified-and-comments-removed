@@ -178,21 +178,18 @@ MediaDecoderReader
 *
 aCloneDonor
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
 ResetDecode
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 DecodeAudioData
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -204,7 +201,6 @@ aKeyframeSkip
 int64_t
 aTimeThreshold
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -218,7 +214,6 @@ MetadataTags
 *
 aTags
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsRefPtr
@@ -245,7 +240,6 @@ TimeRanges
 *
 aBuffered
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -267,7 +261,6 @@ bool
 HasAudio
 (
 )
-MOZ_OVERRIDE
 {
 return
 mInfo
@@ -282,7 +275,6 @@ bool
 HasVideo
 (
 )
-MOZ_OVERRIDE
 {
 return
 mInfo
