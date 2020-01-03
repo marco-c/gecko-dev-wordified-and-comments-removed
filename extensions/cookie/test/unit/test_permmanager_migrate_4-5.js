@@ -753,7 +753,7 @@ https
 foo
 .
 com
-!
+^
 appId
 =
 1000
@@ -774,7 +774,7 @@ https
 foo
 .
 com
-!
+^
 appId
 =
 2000
@@ -873,7 +873,7 @@ http
 bar
 .
 ca
-!
+^
 appId
 =
 1000
@@ -894,7 +894,7 @@ https
 bar
 .
 ca
-!
+^
 appId
 =
 1000
@@ -915,7 +915,7 @@ http
 bar
 .
 ca
-!
+^
 appId
 =
 1000
@@ -940,7 +940,7 @@ https
 bar
 .
 ca
-!
+^
 appId
 =
 1000
@@ -1030,7 +1030,7 @@ foo
 com
 :
 8000
-!
+^
 appId
 =
 1000
@@ -1053,7 +1053,7 @@ foo
 com
 :
 8000
-!
+^
 appId
 =
 2000

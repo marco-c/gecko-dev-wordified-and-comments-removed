@@ -627,7 +627,7 @@ appId
 42
 }
 '
-!
+^
 appId
 =
 42
@@ -643,7 +643,7 @@ appId
 42
 }
 '
-!
+^
 appId
 =
 42
@@ -663,7 +663,7 @@ http
 example
 .
 org
-!
+^
 appId
 =
 42
@@ -719,7 +719,7 @@ inBrowser
 true
 }
 '
-!
+^
 inBrowser
 =
 1
@@ -735,7 +735,7 @@ inBrowser
 true
 }
 '
-!
+^
 inBrowser
 =
 1
@@ -755,7 +755,7 @@ http
 example
 .
 org
-!
+^
 inBrowser
 =
 1
@@ -820,7 +820,7 @@ inBrowser
 true
 }
 '
-!
+^
 appId
 =
 42
@@ -843,7 +843,7 @@ inBrowser
 true
 }
 '
-!
+^
 appId
 =
 42
@@ -867,7 +867,7 @@ http
 example
 .
 org
-!
+^
 appId
 =
 42
@@ -923,7 +923,7 @@ inBrowser
 true
 }
 '
-!
+^
 appId
 =
 42
@@ -951,7 +951,7 @@ example
 com
 :
 123
-!
+^
 appId
 =
 42
@@ -1001,7 +1001,7 @@ dummy
 "
 }
 '
-!
+^
 addonId
 =
 dummy
@@ -1021,7 +1021,7 @@ http
 example
 .
 org
-!
+^
 addonId
 =
 dummy
