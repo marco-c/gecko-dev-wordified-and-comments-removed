@@ -835,6 +835,15 @@ GetDocument
 )
 const
 ;
+already_AddRefed
+<
+nsIPresShell
+>
+GetPresShell
+(
+)
+const
+;
 void
 SetCSSViewport
 (
