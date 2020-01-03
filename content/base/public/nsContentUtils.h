@@ -3324,6 +3324,9 @@ CreateBlobBuffer
 JSContext
 *
 aCx
+nsISupports
+*
+aParent
 const
 nsACString
 &

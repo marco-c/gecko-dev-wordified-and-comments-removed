@@ -141,9 +141,6 @@ apply
 .
 *
 /
-interface
-Blob
-;
 [
 Constructor
 Exposed

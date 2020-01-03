@@ -58,6 +58,13 @@ h
 #
 include
 "
+nsDOMFile
+.
+h
+"
+#
+include
+"
 nsGeolocation
 .
 h
@@ -4742,10 +4749,8 @@ IsBlob
 )
 )
 {
-nsCOMPtr
-<
-nsIDOMBlob
->
+DOMFile
+&
 blob
 =
 aData
@@ -4761,8 +4766,7 @@ GetAsBlob
 rv
 =
 blob
--
->
+.
 GetInternalStream
 (
 getter_AddRefs
@@ -4796,8 +4800,7 @@ type
 rv
 =
 blob
--
->
+.
 GetType
 (
 type

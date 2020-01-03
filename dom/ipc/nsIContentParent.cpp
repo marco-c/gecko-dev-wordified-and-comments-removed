@@ -707,7 +707,7 @@ nsIContentParent
 :
 GetOrCreateActorForBlob
 (
-nsIDOMBlob
+DOMFile
 *
 aBlob
 )
@@ -730,14 +730,7 @@ DOMFileImpl
 >
 blobImpl
 =
-static_cast
-<
-DOMFile
-*
->
-(
 aBlob
-)
 -
 >
 Impl

@@ -40,7 +40,7 @@ h
 #
 include
 "
-nsIDOMFile
+nsDOMFile
 .
 h
 "

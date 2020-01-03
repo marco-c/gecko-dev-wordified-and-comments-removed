@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsDOMFile
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -35,6 +42,13 @@ Attributes
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 USING_ARCHIVEREADER_NAMESPACE
 #
 define
@@ -1405,6 +1419,9 @@ const
 nsAString
 &
 aContentType
+ErrorResult
+&
+aRv
 )
 {
 nsRefPtr

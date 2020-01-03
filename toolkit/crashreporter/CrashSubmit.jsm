@@ -40,6 +40,19 @@ jsm
 "
 )
 ;
+Components
+.
+utils
+.
+importGlobalProperties
+(
+[
+'
+File
+'
+]
+)
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -1773,6 +1786,7 @@ append
 "
 upload_file_minidump
 "
+new
 File
 (
 this
@@ -1797,6 +1811,7 @@ append
 "
 memory_report
 "
+new
 File
 (
 this
@@ -1855,6 +1870,7 @@ upload_file_minidump_
 i
 .
 name
+new
 File
 (
 i

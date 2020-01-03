@@ -57,6 +57,9 @@ class
 nsIFile
 ;
 class
+nsPIDOMWindow
+;
+class
 nsFilePickerProxy
 :
 public
@@ -244,6 +247,12 @@ const
 nsAString
 &
 )
+;
+nsCOMPtr
+<
+nsPIDOMWindow
+>
+mParent
 ;
 nsCOMArray
 <

@@ -265,6 +265,7 @@ return
 new
 DOMFile
 (
+aArchiveReader
 new
 ArchiveZipFileImpl
 (

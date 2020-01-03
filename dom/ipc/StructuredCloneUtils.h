@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIDOMFile
+nsDOMFile
 .
 h
 "
@@ -48,9 +48,9 @@ StructuredCloneClosure
 {
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMBlob
+DOMFile
 >
 >
 mBlobs

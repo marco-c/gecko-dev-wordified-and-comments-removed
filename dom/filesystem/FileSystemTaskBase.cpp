@@ -803,7 +803,14 @@ cp
 >
 GetOrCreateActorForBlob
 (
+static_cast
+<
+DOMFile
+*
+>
+(
 aFile
+)
 )
 ;
 }
