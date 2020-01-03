@@ -1461,6 +1461,11 @@ pingData
 .
 environment
 =
+aOptions
+.
+overrideEnvironment
+|
+|
 TelemetryEnvironment
 .
 currentEnvironment
