@@ -123,6 +123,19 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+generatorannotations
+.
+WrapElementForJNI
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils
@@ -290,6 +303,7 @@ volatile
 boolean
 mPendingANR
 ;
+WrapElementForJNI
 private
 static
 native
@@ -300,6 +314,7 @@ boolean
 unwind
 )
 ;
+WrapElementForJNI
 private
 static
 native
@@ -308,6 +323,7 @@ getNativeStack
 (
 )
 ;
+WrapElementForJNI
 private
 static
 native

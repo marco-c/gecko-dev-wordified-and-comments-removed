@@ -1360,14 +1360,6 @@ mozilla
 .
 gecko
 .
-ANRReporter
-\
-org
-.
-mozilla
-.
-gecko
-.
 GeckoAppShell
 \
 org
