@@ -631,7 +631,7 @@ pcRemote
 ;
 }
 function
-PC_LOCAL_NEW_VIDEOTRACK_CHECK_MEDIA_FLOW_PRESENT
+PC_LOCAL_NEW_VIDEOTRACK_WAIT_FOR_MEDIA_FLOW
 (
 test
 )
@@ -641,7 +641,7 @@ test
 .
 pcLocal
 .
-checkMediaFlowPresent
+waitForMediaFlow
 (
 )
 ;
@@ -695,7 +695,7 @@ pcLocal
 ;
 }
 function
-PC_REMOTE_NEW_VIDEOTRACK_CHECK_MEDIA_FLOW_PRESENT_1
+PC_REMOTE_NEW_VIDEOTRACK_WAIT_FOR_MEDIA_FLOW_1
 (
 test
 )
@@ -705,7 +705,7 @@ test
 .
 pcRemote
 .
-checkMediaFlowPresent
+waitForMediaFlow
 (
 )
 ;
@@ -726,7 +726,7 @@ pcLocal
 ;
 }
 function
-PC_REMOTE_NEW_VIDEOTRACK_CHECK_MEDIA_FLOW_PRESENT_2
+PC_REMOTE_NEW_VIDEOTRACK_WAIT_FOR_MEDIA_FLOW_2
 (
 test
 )
@@ -736,7 +736,7 @@ test
 .
 pcRemote
 .
-checkMediaFlowPresent
+waitForMediaFlow
 (
 )
 ;
@@ -837,7 +837,7 @@ succeed
 ;
 }
 function
-PC_REMOTE_NEW_SAME_VIDEOTRACK_CHECK_MEDIA_FLOW_PRESENT
+PC_REMOTE_NEW_SAME_VIDEOTRACK_WAIT_FOR_MEDIA_FLOW
 (
 test
 )
@@ -847,7 +847,7 @@ test
 .
 pcRemote
 .
-checkMediaFlowPresent
+waitForMediaFlow
 (
 )
 ;

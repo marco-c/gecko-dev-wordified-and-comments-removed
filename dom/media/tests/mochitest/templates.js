@@ -3261,7 +3261,7 @@ checkMediaTracks
 ;
 }
 function
-PC_LOCAL_CHECK_MEDIA_FLOW_PRESENT
+PC_LOCAL_WAIT_FOR_MEDIA_FLOW
 (
 test
 )
@@ -3271,13 +3271,13 @@ test
 .
 pcLocal
 .
-checkMediaFlowPresent
+waitForMediaFlow
 (
 )
 ;
 }
 function
-PC_REMOTE_CHECK_MEDIA_FLOW_PRESENT
+PC_REMOTE_WAIT_FOR_MEDIA_FLOW
 (
 test
 )
@@ -3287,7 +3287,7 @@ test
 .
 pcRemote
 .
-checkMediaFlowPresent
+waitForMediaFlow
 (
 )
 ;
