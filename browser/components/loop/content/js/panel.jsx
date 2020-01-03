@@ -4903,11 +4903,6 @@ btn
 btn
 -
 info
-new
--
-room
--
-button
 "
 onClick
 =
