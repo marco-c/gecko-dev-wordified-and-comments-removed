@@ -1,12 +1,3 @@
-importScripts
-(
-"
-utils
-.
-js
-"
-)
-;
 function
 ok
 (
