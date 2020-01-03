@@ -6925,6 +6925,9 @@ StoreMixin
 register
 (
 {
+activeRoomStore
+:
+activeRoomStore
 feedbackStore
 :
 feedbackStore

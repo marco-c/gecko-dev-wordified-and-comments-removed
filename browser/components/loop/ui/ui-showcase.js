@@ -1128,6 +1128,9 @@ StoreMixin
 register
 (
 {
+activeRoomStore
+:
+activeRoomStore
 conversationStore
 :
 conversationStore
