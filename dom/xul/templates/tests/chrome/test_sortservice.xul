@@ -209,14 +209,12 @@ Four
 ]
 "
 "
-[
 "
 Four
 One
 Three
 Two
 "
-]
 ]
 [
 [
@@ -236,14 +234,12 @@ Four
 "
 integer
 "
-[
 "
 Four
 One
 Three
 Two
 "
-]
 ]
 [
 [
@@ -263,14 +259,12 @@ Four
 "
 descending
 "
-[
 "
 Two
 Three
 One
 Four
 "
-]
 ]
 [
 [
@@ -291,14 +285,12 @@ Four
 descending
 integer
 "
-[
 "
 Two
 Three
 One
 Four
 "
-]
 ]
 [
 [
@@ -320,7 +312,6 @@ integer
 cat
 descending
 "
-[
 "
 Two
 Three
@@ -328,7 +319,6 @@ One
 Four
 "
 ]
-]
 [
 [
 "
@@ -364,7 +354,6 @@ Four
 ]
 "
 "
-[
 "
 1
 12
@@ -377,7 +366,6 @@ Four
 7
 98
 "
-]
 ]
 [
 [
@@ -415,7 +403,6 @@ Four
 "
 integer
 "
-[
 "
 1
 2
@@ -428,7 +415,6 @@ integer
 222
 240
 "
-]
 ]
 [
 [
@@ -467,7 +453,6 @@ integer
 ascending
 integer
 "
-[
 "
 1
 2
@@ -480,7 +465,6 @@ integer
 222
 240
 "
-]
 ]
 [
 [
@@ -519,7 +503,6 @@ integer
 integer
 descending
 "
-[
 "
 240
 222
@@ -532,7 +515,6 @@ descending
 2
 1
 "
-]
 ]
 [
 [
@@ -552,14 +534,12 @@ candy
 "
 comparecase
 "
-[
 "
 Candy
 Cat
 candy
 cat
 "
-]
 ]
 [
 [
@@ -585,7 +565,6 @@ Two
 "
 integer
 "
-[
 "
 1
 22
@@ -594,7 +573,6 @@ integer
 One
 Two
 "
-]
 ]
 ]
 ;

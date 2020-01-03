@@ -357,7 +357,7 @@ initDOMRequestHelperTest
 aMessages
 )
 {
-is
+is_loosely
 (
 dummy
 .
@@ -383,7 +383,7 @@ undefined
 "
 )
 ;
-is
+is_loosely
 (
 dummy
 .
@@ -462,7 +462,7 @@ destroyDOMRequestHelper
 (
 )
 ;
-is
+is_loosely
 (
 dummy
 .
@@ -488,7 +488,7 @@ undefined
 "
 )
 ;
-is
+is_loosely
 (
 dummy
 .
@@ -2791,7 +2791,7 @@ id
 is
 (
 req
-null
+undefined
 "
 No
 request

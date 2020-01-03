@@ -1130,7 +1130,10 @@ is
 deck
 .
 selectedIndex
+String
+(
 expectedIndex
+)
 "
 Should
 have
@@ -1181,7 +1184,10 @@ is
 deck
 .
 selectedIndex
+String
+(
 expectedIndex
+)
 "
 Should
 have
@@ -1233,7 +1239,10 @@ is
 deck
 .
 selectedIndex
+String
+(
 expectedIndex
+)
 "
 The
 selectedIndex
@@ -1297,7 +1306,10 @@ is
 deck
 .
 selectedIndex
+String
+(
 expectedIndex
+)
 "
 Should
 have
@@ -1360,7 +1372,10 @@ is
 deck
 .
 selectedIndex
+String
+(
 expectedIndex
+)
 "
 Should
 have

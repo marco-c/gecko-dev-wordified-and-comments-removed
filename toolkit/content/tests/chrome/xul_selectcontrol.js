@@ -959,7 +959,7 @@ is
 removeditem
 .
 control
-null
+undefined
 testid
 +
 "

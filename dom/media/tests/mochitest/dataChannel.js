@@ -271,7 +271,6 @@ test
 var
 contents
 =
-[
 "
 At
 vero
@@ -287,7 +286,6 @@ ea
 rebum
 .
 "
-]
 ;
 var
 blob
@@ -295,7 +293,9 @@ blob
 new
 Blob
 (
+[
 contents
+]
 {
 "
 type

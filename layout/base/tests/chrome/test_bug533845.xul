@@ -514,7 +514,9 @@ document
 body
 .
 textContent
+"
 1
+"
 "
 Should
 have

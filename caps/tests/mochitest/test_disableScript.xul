@@ -798,11 +798,14 @@ function
 {
 is
 (
+String
+(
 ifr
 .
 contentWindow
 .
 location
+)
 frameURI
 "
 Successful

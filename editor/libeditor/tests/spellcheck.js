@@ -53,6 +53,7 @@ if
 numWords
 !
 =
+=
 aMisspelledWords
 .
 length
@@ -81,11 +82,14 @@ i
 var
 word
 =
+String
+(
 sel
 .
 getRangeAt
 (
 i
+)
 )
 ;
 is
@@ -111,6 +115,7 @@ if
 (
 word
 !
+=
 =
 aMisspelledWords
 [

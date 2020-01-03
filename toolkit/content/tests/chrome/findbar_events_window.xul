@@ -462,7 +462,10 @@ getSelection
 ;
 is
 (
+String
+(
 selected
+)
 "
 "
 "

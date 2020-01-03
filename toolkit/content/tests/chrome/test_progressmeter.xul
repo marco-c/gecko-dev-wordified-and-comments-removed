@@ -556,7 +556,9 @@ is
 n1
 .
 max
+"
 200
+"
 "
 max
 changed
@@ -580,7 +582,9 @@ is
 n1
 .
 value
+"
 120
+"
 "
 max
 lowered

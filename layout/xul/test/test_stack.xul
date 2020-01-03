@@ -3308,6 +3308,7 @@ expectedval
 ;
 is
 (
++
 actual
 expectedval
 child
@@ -3903,9 +3904,12 @@ getBoundingClientRect
 ;
 is
 (
+String
+(
 stackRect
 .
 width
+)
 child
 .
 getAttribute
@@ -3937,9 +3941,12 @@ dynamic
 ;
 is
 (
+String
+(
 stackRect
 .
 height
+)
 child
 .
 getAttribute

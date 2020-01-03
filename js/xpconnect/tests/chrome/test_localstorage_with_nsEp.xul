@@ -354,7 +354,9 @@ test_localstorage_with_nsEp
 "
 sb
 )
+"
 3
+"
 )
 ;
 is
@@ -364,7 +366,9 @@ iwin
 localStorage
 .
 test_localstorage_with_nsEp
+"
 3
+"
 )
 ;
 iwin

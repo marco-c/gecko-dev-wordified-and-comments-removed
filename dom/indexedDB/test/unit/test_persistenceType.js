@@ -304,7 +304,7 @@ event
 target
 .
 result
-null
+undefined
 "
 Got
 no
