@@ -2630,7 +2630,6 @@ tabScrolling
 onset
 =
 "
-return
 this
 .
 setAttribute
