@@ -277,6 +277,10 @@ value
 struct
 v4l2_control
 control
+=
+{
+0
+}
 ;
 control
 .
@@ -1344,6 +1348,12 @@ return
 struct
 v4l2_capability
 cap
+=
+{
+{
+0
+}
+}
 ;
 int
 rc
@@ -2267,6 +2277,10 @@ return
 struct
 v4l2_frequency
 freq
+=
+{
+0
+}
 ;
 int
 rc
