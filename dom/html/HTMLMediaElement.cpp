@@ -20123,15 +20123,11 @@ bool
 aMuted
 )
 {
-NS_ENSURE_TRUE
+MOZ_ASSERT
 (
-nsContentUtils
-:
-:
-IsCallerChrome
+NS_IsMainThread
 (
 )
-NS_ERROR_NOT_AVAILABLE
 )
 ;
 UpdateChannelMuteState
