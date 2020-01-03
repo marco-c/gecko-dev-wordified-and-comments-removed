@@ -257,7 +257,7 @@ ModeChange
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-Nonconvert
+NonConvert
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
@@ -277,7 +277,7 @@ JunjaMode
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-HalfWidth
+Hankaku
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
@@ -297,11 +297,11 @@ Katakana
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-RomanCharacters
+Romaji
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
-FullWidth
+Zenkaku
 )
 DEFINE_KEYNAME_WITH_SAME_NAME
 (
