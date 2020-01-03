@@ -700,12 +700,15 @@ URL
 returned
 by
 server
+:
+'
 "
 +
 room_url
 +
                       
 "
+'
 has
 invalid
 scheme
