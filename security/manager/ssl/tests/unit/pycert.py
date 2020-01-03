@@ -2763,13 +2763,6 @@ buildIDPath
 with
 open
 (
-'
-%
-s
-/
-buildid
-'
-%
 buildIDPath
 )
 as
