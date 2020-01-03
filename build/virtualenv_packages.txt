@@ -238,6 +238,15 @@ pth
 python
 /
 pyasn1
+pyasn1_modules
+.
+pth
+:
+python
+/
+pyasn1
+-
+modules
 bitstring
 .
 pth
@@ -259,3 +268,10 @@ pth
 python
 /
 requests
+rsa
+.
+pth
+:
+python
+/
+rsa

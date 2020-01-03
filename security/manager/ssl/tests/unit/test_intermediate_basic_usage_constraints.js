@@ -51,7 +51,7 @@ name
 +
 "
 .
-der
+pem
 "
 ;
 addCertFromFile
@@ -92,7 +92,7 @@ i
 ]
 ;
 let
-certDER
+certPEM
 =
 readFile
 (
@@ -107,7 +107,7 @@ certNick
 +
 "
 .
-der
+pem
 "
 )
 false
@@ -119,12 +119,12 @@ push
 (
 certdb
 .
-constructX509
+constructX509FromBase64
 (
-certDER
-certDER
-.
-length
+pemToBase64
+(
+certPEM
+)
 )
 )
 ;

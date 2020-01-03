@@ -101,6 +101,14 @@ DIRS
 tlsserver
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+test_intermediate_basic_usage_constraints
+'
+]
 if
 not
 CONFIG
