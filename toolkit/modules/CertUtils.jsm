@@ -1,8 +1,3 @@
-#
-if
-0
-#
-endif
 this
 .
 EXPORTED_SYMBOLS
