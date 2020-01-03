@@ -1843,7 +1843,6 @@ mDecodedStream
 >
 SendData
 (
-mVolume
 mSameOriginMedia
 )
 ;
@@ -5384,6 +5383,14 @@ mVolume
 )
 ;
 }
+mDecodedStream
+-
+>
+SetVolume
+(
+mVolume
+)
+;
 }
 void
 MediaDecoderStateMachine
