@@ -520,6 +520,9 @@ customNetworkRequest
 this
 .
 _parentIsContentActor
+transferredResponseSize
+:
+true
 }
 ;
 }
@@ -6345,6 +6348,11 @@ aContent
 text
 .
 length
+transferredSize
+:
+aContent
+.
+transferredSize
 discardResponseBody
 :
 aDiscardedResponseBody
