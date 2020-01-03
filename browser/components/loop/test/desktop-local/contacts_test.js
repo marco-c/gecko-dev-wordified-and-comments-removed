@@ -1753,7 +1753,7 @@ cb
 (
 null
 {
-total
+success
 :
 42
 }
