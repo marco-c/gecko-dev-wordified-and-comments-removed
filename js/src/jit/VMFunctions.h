@@ -3869,6 +3869,8 @@ HandleShape
 shape
 HandleTypeObject
 type
+uint32_t
+lexicalBegin
 )
 ;
 JSObject
@@ -3880,6 +3882,8 @@ JSContext
 cx
 HandleShape
 shape
+uint32_t
+lexicalBegin
 )
 ;
 JSObject

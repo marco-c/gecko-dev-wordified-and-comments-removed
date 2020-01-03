@@ -2843,6 +2843,8 @@ HandleShape
 shape
 HandleTypeObject
 type
+uint32_t
+lexicalBegin
 )
 {
 JSObject
@@ -2857,6 +2859,7 @@ create
 cx
 shape
 type
+lexicalBegin
 )
 ;
 if
@@ -2910,6 +2913,8 @@ JSContext
 cx
 HandleShape
 shape
+uint32_t
+lexicalBegin
 )
 {
 JSObject
@@ -2923,6 +2928,7 @@ createSingleton
 (
 cx
 shape
+lexicalBegin
 )
 ;
 if
