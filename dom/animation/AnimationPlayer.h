@@ -192,6 +192,10 @@ mIsPreviousStateFinished
 (
 false
 )
+mFinishedAtLastComposeStyle
+(
+false
+)
 mIsRelevant
 (
 false
@@ -1001,6 +1005,9 @@ mIsRunningOnCompositor
 ;
 bool
 mIsPreviousStateFinished
+;
+bool
+mFinishedAtLastComposeStyle
 ;
 bool
 mIsRelevant
