@@ -188,11 +188,6 @@ SessionStore
 js
 '
 '
-Sidebar
-.
-js
-'
-'
 SiteSpecificUserAgent
 .
 js
