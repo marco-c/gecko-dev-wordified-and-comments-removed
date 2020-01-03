@@ -34512,9 +34512,11 @@ i
 .
 name
 UndefinedHandleValue
-JSPROP_ENUMERATE
+JSPROP_READONLY
 |
 JSPROP_SHARED
+|
+JSPROP_ENUMERATE
 getters
 [
 i
@@ -34668,9 +34670,11 @@ i
 .
 name
 UndefinedHandleValue
-JSPROP_ENUMERATE
+JSPROP_READONLY
 |
 JSPROP_SHARED
+|
+JSPROP_ENUMERATE
 zoneGetters
 [
 i
