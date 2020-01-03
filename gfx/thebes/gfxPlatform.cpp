@@ -10905,7 +10905,7 @@ if
 gfxPrefs
 :
 :
-AsyncPanZoomEnabled
+AsyncPanZoomEnabledDoNotUseDirectly
 (
 )
 )
