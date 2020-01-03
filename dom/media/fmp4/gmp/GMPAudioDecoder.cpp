@@ -5,6 +5,13 @@ GMPAudioDecoder
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 namespace
 mozilla
 {

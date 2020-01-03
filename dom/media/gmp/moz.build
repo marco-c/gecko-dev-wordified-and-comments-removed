@@ -103,6 +103,11 @@ XPIDL_SOURCES
 =
 [
 '
+mozIGeckoMediaPluginChromeService
+.
+idl
+'
+'
 mozIGeckoMediaPluginService
 .
 idl
@@ -426,6 +431,11 @@ GMPService
 h
 '
 '
+GMPServiceParent
+.
+h
+'
+'
 GMPSharedMemManager
 .
 h
@@ -618,6 +628,11 @@ cpp
 '
 '
 GMPService
+.
+cpp
+'
+'
+GMPServiceParent
 .
 cpp
 '

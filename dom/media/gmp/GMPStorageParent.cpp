@@ -231,7 +231,7 @@ NS_ERROR_INVALID_ARG
 }
 nsCOMPtr
 <
-mozIGeckoMediaPluginService
+mozIGeckoMediaPluginChromeService
 >
 mps
 =
@@ -2148,7 +2148,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-mozIGeckoMediaPluginService
+mozIGeckoMediaPluginChromeService
 >
 mps
 =
