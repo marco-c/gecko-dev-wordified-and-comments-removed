@@ -531,6 +531,15 @@ actors
 /
 utils
 /
+audionodes
+.
+json
+'
+'
+actors
+/
+utils
+/
 automation
 -
 timeline
