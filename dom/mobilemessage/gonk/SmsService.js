@@ -4109,7 +4109,7 @@ cardState
 =
 Ci
 .
-nsIIccProvider
+nsIIcc
 .
 CARD_STATE_READY
 )
