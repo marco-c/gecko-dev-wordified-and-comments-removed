@@ -96,9 +96,6 @@ DownloadsLogger
 =
 {
 _generateLogMessage
-:
-function
-_generateLogMessage
 (
 args
 )
@@ -234,9 +231,6 @@ join
 ;
 }
 log
-:
-function
-DL_log
 (
 .
 .
@@ -275,9 +269,6 @@ output
 ;
 }
 reportError
-:
-function
-DL_reportError
 (
 .
 .

@@ -267,8 +267,6 @@ _taskbarProgress
 :
 null
 registerIndicator
-:
-function
 (
 aBrowserWindow
 )
@@ -408,8 +406,6 @@ reportError
 }
 }
 _attachIndicator
-:
-function
 (
 aWindow
 )
@@ -532,8 +528,6 @@ false
 ;
 }
 onSummaryChanged
-:
-function
 (
 )
 {

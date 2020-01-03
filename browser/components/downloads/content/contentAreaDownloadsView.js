@@ -24,9 +24,6 @@ ContentAreaDownloadsView
 =
 {
 init
-:
-function
-CADV_init
 (
 )
 {
