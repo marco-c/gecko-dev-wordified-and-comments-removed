@@ -188,6 +188,13 @@ attribute
 USVString
 url
 ;
+[
+Throws
+]
+attribute
+boolean
+finalURL
+;
 readonly
 attribute
 unsigned

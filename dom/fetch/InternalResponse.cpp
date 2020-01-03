@@ -49,6 +49,10 @@ ResponseType
 :
 Default
 )
+mFinalURL
+(
+false
+)
 mStatus
 (
 aStatus
@@ -98,6 +102,12 @@ mURL
 aOther
 .
 mURL
+)
+mFinalURL
+(
+aOther
+.
+mFinalURL
 )
 mStatus
 (
