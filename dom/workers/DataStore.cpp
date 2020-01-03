@@ -161,7 +161,14 @@ aScope
 :
 DOMEventTargetHelper
 (
+static_cast
+<
+DOMEventTargetHelper
+*
+>
+(
 aScope
+)
 )
 {
 }
