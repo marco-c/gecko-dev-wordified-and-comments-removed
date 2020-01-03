@@ -3645,11 +3645,14 @@ inherits
 value
 =
 origin
+tooltiptext
+=
+origin
 "
 crop
 =
 "
-end
+center
 "
 /
 >
