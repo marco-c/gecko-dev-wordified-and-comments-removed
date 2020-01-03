@@ -540,6 +540,17 @@ return
 mNPNToken
 ;
 }
+const
+nsCString
+&
+GetUsername
+(
+)
+{
+return
+mUsername
+;
+}
 bool
 UsingProxy
 (
