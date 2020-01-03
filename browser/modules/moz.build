@@ -215,11 +215,6 @@ PanelFrame
 jsm
 '
 '
-ProcessHangMonitor
-.
-jsm
-'
-'
 RemotePrompt
 .
 jsm
