@@ -3219,14 +3219,6 @@ GetStatusTracker
 statusTracker
 -
 >
-ApplyDifference
-(
-diff
-)
-;
-statusTracker
--
->
 SyncNotifyDifference
 (
 diff
