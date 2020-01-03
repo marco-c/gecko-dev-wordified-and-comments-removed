@@ -3075,7 +3075,7 @@ null
 {
 aCallback
 .
-notifyDialSuccess
+notifyDialCallSuccess
 (
 response
 .
@@ -3090,7 +3090,7 @@ else
 {
 aCallback
 .
-notifyDialSuccess
+notifyDialCallSuccess
 (
 CDMA_SECOND_CALL_INDEX
 response

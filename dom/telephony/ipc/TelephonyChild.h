@@ -288,7 +288,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvNotifyDialSuccess
+RecvNotifyDialCallSuccess
 (
 const
 uint32_t

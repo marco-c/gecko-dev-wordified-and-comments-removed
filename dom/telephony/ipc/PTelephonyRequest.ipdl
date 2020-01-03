@@ -176,7 +176,7 @@ nsString
 aError
 )
 ;
-NotifyDialSuccess
+NotifyDialCallSuccess
 (
 uint32_t
 aCallIndex

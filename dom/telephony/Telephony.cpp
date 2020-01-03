@@ -342,7 +342,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-NotifyDialSuccess
+NotifyDialCallSuccess
 (
 uint32_t
 aCallIndex
