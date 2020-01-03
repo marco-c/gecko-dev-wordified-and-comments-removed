@@ -247,6 +247,11 @@ int64_t
 aEnd
 )
 ;
+void
+Abort
+(
+)
+;
 #
 ifdef
 MOZ_EME
