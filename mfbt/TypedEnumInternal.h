@@ -101,16 +101,8 @@ defined
 _MSC_VER
 )
 #
-if
-_MSC_VER
->
-=
-1400
-#
 define
 MOZ_HAVE_CXX11_ENUM_TYPE
-#
-endif
 #
 if
 _MSC_VER
