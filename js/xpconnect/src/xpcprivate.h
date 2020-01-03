@@ -2276,6 +2276,10 @@ NowLoRes
 (
 )
 ;
+mSlowScriptSecondHalf
+=
+false
+;
 }
 void
 OnAfterProcessNextEvent
@@ -2290,6 +2294,10 @@ mozilla
 TimeStamp
 (
 )
+;
+mSlowScriptSecondHalf
+=
+false
 ;
 }
 nsTArray
@@ -2488,6 +2496,9 @@ nsRefPtr
 AsyncFreeSnowWhite
 >
 mAsyncSnowWhiteFreer
+;
+bool
+mSlowScriptSecondHalf
 ;
 mozilla
 :
