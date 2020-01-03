@@ -298,6 +298,10 @@ const
 void
 SnapBackOverscrolledApzc
 (
+const
+AsyncPanZoomController
+*
+aStart
 )
 const
 ;

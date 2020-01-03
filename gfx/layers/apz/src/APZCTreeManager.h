@@ -424,14 +424,6 @@ bool
 aHandoff
 )
 ;
-void
-SnapBackOverscrolledApzc
-(
-AsyncPanZoomController
-*
-aStart
-)
-;
 nsRefPtr
 <
 const
