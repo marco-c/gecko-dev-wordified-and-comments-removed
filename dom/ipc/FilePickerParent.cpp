@@ -472,10 +472,17 @@ parent
 >
 GetOrCreateActorForBlob
 (
+static_cast
+<
+DOMFile
+*
+>
+(
 aDomfiles
 [
 i
 ]
+)
 )
 ;
 if
@@ -661,6 +668,7 @@ DOMFile
 :
 CreateFromFile
 (
+nullptr
 file
 )
 ;
@@ -709,6 +717,7 @@ DOMFile
 :
 CreateFromFile
 (
+nullptr
 file
 )
 ;

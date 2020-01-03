@@ -75,7 +75,7 @@ h
 #
 include
 "
-nsIDOMFile
+nsDOMFile
 .
 h
 "
@@ -1043,8 +1043,8 @@ nsDOMDataChannel
 :
 Send
 (
-nsIDOMBlob
-*
+DOMFile
+&
 aData
 ErrorResult
 &
@@ -1075,8 +1075,7 @@ nsresult
 rv
 =
 aData
--
->
+.
 GetInternalStream
 (
 getter_AddRefs
@@ -1109,8 +1108,7 @@ msgLength
 rv
 =
 aData
--
->
+.
 GetSize
 (
 &
@@ -1696,6 +1694,9 @@ nsContentUtils
 CreateBlobBuffer
 (
 cx
+GetOwner
+(
+)
 aData
 &
 jsData

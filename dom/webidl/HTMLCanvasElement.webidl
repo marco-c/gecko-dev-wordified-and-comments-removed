@@ -162,9 +162,6 @@ document
 *
 /
 interface
-Blob
-;
-interface
 nsIInputStreamCallback
 ;
 interface

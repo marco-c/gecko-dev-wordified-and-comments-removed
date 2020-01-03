@@ -371,9 +371,15 @@ DOMFile
 :
 CreateMemoryFile
 (
+nullptr
 mImgData
 mImgSize
 mType
+)
+;
+MOZ_ASSERT
+(
+blob
 )
 ;
 rv

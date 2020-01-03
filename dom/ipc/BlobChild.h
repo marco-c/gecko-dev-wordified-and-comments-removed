@@ -269,14 +269,6 @@ GetBlobImpl
 (
 )
 ;
-already_AddRefed
-<
-nsIDOMBlob
->
-GetBlob
-(
-)
-;
 bool
 SetMysteryBlobInfo
 (

@@ -26,6 +26,17 @@ utils
 ;
 Cu
 .
+importGlobalProperties
+(
+[
+'
+Blob
+'
+]
+)
+;
+Cu
+.
 import
 (
 "

@@ -108,9 +108,6 @@ class
 nsDOMDeviceStorage
 ;
 class
-nsIDOMBlob
-;
-class
 nsIPrincipal
 ;
 class

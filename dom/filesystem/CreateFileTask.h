@@ -32,9 +32,6 @@ ErrorResult
 h
 "
 class
-nsIDOMBlob
-;
-class
 nsIInputStream
 ;
 namespace
@@ -43,6 +40,9 @@ mozilla
 namespace
 dom
 {
+class
+DOMFile
+;
 class
 DOMFileImpl
 ;
@@ -67,7 +67,7 @@ const
 nsAString
 &
 aPath
-nsIDOMBlob
+DOMFile
 *
 aBlobData
 InfallibleTArray
@@ -190,9 +190,9 @@ mPromise
 nsString
 mTargetRealPath
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMBlob
+DOMFile
 >
 mBlobData
 ;

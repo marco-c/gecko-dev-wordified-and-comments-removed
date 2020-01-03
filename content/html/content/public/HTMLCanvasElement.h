@@ -67,9 +67,6 @@ class
 nsICanvasRenderingContextInternal
 ;
 class
-nsIDOMFile
-;
-class
 nsITimerCallback
 ;
 namespace
@@ -95,6 +92,9 @@ SourceSurface
 namespace
 dom
 {
+class
+DOMFile
+;
 class
 FileCallback
 ;
@@ -379,7 +379,7 @@ aRv
 }
 already_AddRefed
 <
-nsIDOMFile
+DOMFile
 >
 MozGetAsFile
 (

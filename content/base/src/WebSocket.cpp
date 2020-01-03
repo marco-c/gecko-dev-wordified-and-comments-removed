@@ -3894,6 +3894,9 @@ nsContentUtils
 CreateBlobBuffer
 (
 cx
+GetOwner
+(
+)
 aData
 &
 jsData
@@ -5260,8 +5263,8 @@ WebSocket
 :
 Send
 (
-nsIDOMBlob
-*
+DOMFile
+&
 aData
 ErrorResult
 &
@@ -5292,8 +5295,7 @@ nsresult
 rv
 =
 aData
--
->
+.
 GetInternalStream
 (
 getter_AddRefs
@@ -5326,8 +5328,7 @@ msgLength
 rv
 =
 aData
--
->
+.
 GetSize
 (
 &

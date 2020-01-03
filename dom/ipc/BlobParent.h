@@ -362,14 +362,6 @@ GetBlobImpl
 (
 )
 ;
-already_AddRefed
-<
-nsIDOMBlob
->
-GetBlob
-(
-)
-;
 void
 AssertIsOnOwningThread
 (

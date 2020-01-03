@@ -42,9 +42,6 @@ nsTArray
 h
 "
 class
-nsIDOMBlob
-;
-class
 nsIInputStream
 ;
 namespace
@@ -53,6 +50,9 @@ mozilla
 namespace
 dom
 {
+class
+DOMFile
+;
 namespace
 indexedDB
 {
@@ -74,9 +74,9 @@ SerializedStructuredCloneWriteInfo
 struct
 StructuredCloneFile
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMBlob
+DOMFile
 >
 mFile
 ;

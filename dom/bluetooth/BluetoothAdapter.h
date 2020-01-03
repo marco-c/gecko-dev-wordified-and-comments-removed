@@ -50,6 +50,9 @@ namespace
 dom
 {
 class
+DOMFile
+;
+class
 DOMRequest
 ;
 struct
@@ -510,8 +513,8 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
-*
+DOMFile
+&
 aBlob
 ErrorResult
 &

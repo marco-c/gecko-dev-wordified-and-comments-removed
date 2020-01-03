@@ -159,6 +159,9 @@ namespace
 dom
 {
 class
+DOMFile
+;
+class
 WebSocket
 MOZ_FINAL
 :
@@ -479,8 +482,8 @@ aRv
 void
 Send
 (
-nsIDOMBlob
-*
+DOMFile
+&
 aData
 ErrorResult
 &

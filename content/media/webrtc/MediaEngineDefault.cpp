@@ -1001,6 +1001,7 @@ DOMFile
 :
 CreateFromFile
 (
+nullptr
 localFile
 )
 ;

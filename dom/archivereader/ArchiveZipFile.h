@@ -233,6 +233,9 @@ const
 nsAString
 &
 aContentType
+ErrorResult
+&
+aRv
 )
 MOZ_OVERRIDE
 ;

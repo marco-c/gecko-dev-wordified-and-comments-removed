@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 nsIXULRuntime
 .
 h

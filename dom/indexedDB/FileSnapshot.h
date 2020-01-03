@@ -147,12 +147,15 @@ else
 #
 endif
 virtual
-nsresult
+void
 GetMozFullPathInternal
 (
 nsAString
 &
 aFullPath
+ErrorResult
+&
+aRv
 )
 MOZ_OVERRIDE
 ;
@@ -207,6 +210,9 @@ const
 nsAString
 &
 aContentType
+ErrorResult
+&
+aRv
 )
 MOZ_OVERRIDE
 ;
