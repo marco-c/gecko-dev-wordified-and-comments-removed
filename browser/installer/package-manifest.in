@@ -398,7 +398,7 @@ searchplugins
 #
 ifdef
 XP_WIN32
-BINPATH
+RESPATH
 /
 uninstall
 /
@@ -838,6 +838,15 @@ RESPATH
 components
 /
 autoconfig
+.
+xpt
+RESPATH
+/
+components
+/
+browser
+-
+element
 .
 xpt
 RESPATH
