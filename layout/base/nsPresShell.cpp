@@ -17977,6 +17977,10 @@ nsIAtom
 aAttribute
 int32_t
 aModType
+const
+nsAttrValue
+*
+aNewValue
 )
 {
 NS_PRECONDITION
