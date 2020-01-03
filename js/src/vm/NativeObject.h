@@ -6235,6 +6235,7 @@ nonNativeSetProperty
 (
 cx
 obj
+receiver
 id
 vp
 strict
@@ -6329,6 +6330,7 @@ nonNativeSetElement
 (
 cx
 obj
+receiver
 index
 vp
 strict
