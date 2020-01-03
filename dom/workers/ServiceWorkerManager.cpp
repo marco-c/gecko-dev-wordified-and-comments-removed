@@ -5516,7 +5516,7 @@ documentURI
 doc
 -
 >
-GetBaseURI
+GetDocumentURI
 (
 )
 ;
