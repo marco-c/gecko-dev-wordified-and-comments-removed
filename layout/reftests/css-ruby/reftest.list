@@ -12,12 +12,11 @@ ruby
 enabled
 true
 )
-fails
 asserts
 (
 3
 -
-7
+20
 )
 =
 =
