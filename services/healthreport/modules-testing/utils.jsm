@@ -1066,9 +1066,6 @@ function
 request
 )
 {
-let
-promise
-=
 reporter
 .
 requestDataUpload
@@ -1088,9 +1085,6 @@ this
 request
 )
 ;
-return
-promise
-;
 }
 listener
 .
@@ -1101,9 +1095,6 @@ function
 request
 )
 {
-let
-promise
-=
 reporter
 .
 deleteRemoteData
@@ -1122,9 +1113,6 @@ call
 this
 request
 )
-;
-return
-promise
 ;
 }
 let
