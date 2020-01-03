@@ -1546,6 +1546,9 @@ true
 ;
 }
 writeSuggestionPref
+:
+function
+PPP_writeSuggestionPref
 (
 )
 {
@@ -1590,9 +1593,6 @@ bookmark
 "
 "
 openpage
-"
-"
-searches
 "
 ]
 .
