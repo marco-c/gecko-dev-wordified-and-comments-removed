@@ -598,7 +598,7 @@ bool
 mInWhitespace
 ;
 bool
-mPreFormatted
+mPreFormattedMail
 ;
 bool
 mStartedOutput

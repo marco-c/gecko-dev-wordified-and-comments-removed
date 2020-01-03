@@ -361,7 +361,7 @@ mInWhitespace
 =
 false
 ;
-mPreFormatted
+mPreFormattedMail
 =
 false
 ;
@@ -2115,7 +2115,7 @@ printf
 (
 "
 Set
-mPreFormatted
+mPreFormattedMail
 based
 on
 style
@@ -2129,7 +2129,7 @@ n
 ;
 #
 endif
-mPreFormatted
+mPreFormattedMail
 =
 true
 ;
@@ -2287,7 +2287,7 @@ printf
 (
 "
 Set
-mPreFormatted
+mPreFormattedMail
 based
 on
 style
@@ -2299,7 +2299,7 @@ n
 ;
 #
 endif
-mPreFormatted
+mPreFormattedMail
 =
 true
 ;
@@ -2315,7 +2315,7 @@ mInWhitespace
 =
 true
 ;
-mPreFormatted
+mPreFormattedMail
 =
 false
 ;
@@ -4711,7 +4711,7 @@ OutputPreformatted
 |
 |
 (
-mPreFormatted
+mPreFormattedMail
 &
 &
 !
@@ -6781,7 +6781,7 @@ break
 if
 (
 (
-mPreFormatted
+mPreFormattedMail
 &
 &
 !
@@ -6796,7 +6796,7 @@ IsInPre
 &
 &
 !
-mPreFormatted
+mPreFormattedMail
 )
 |
 |
@@ -6849,7 +6849,7 @@ IsInPre
 &
 &
 !
-mPreFormatted
+mPreFormattedMail
 )
 "
 Mixed
@@ -7586,7 +7586,7 @@ bol
 &
 &
 !
-mPreFormatted
+mPreFormattedMail
 &
 &
 !
@@ -7658,7 +7658,7 @@ bol
 ;
 if
 (
-mPreFormatted
+mPreFormattedMail
 |
 |
 (
