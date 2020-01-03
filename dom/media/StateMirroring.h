@@ -846,6 +846,7 @@ T
 Ref
 (
 )
+const
 {
 return
 *
@@ -858,6 +859,7 @@ T
 &
 (
 )
+const
 {
 return
 Ref
@@ -1729,6 +1731,7 @@ T
 Ref
 (
 )
+const
 {
 return
 *
@@ -1741,6 +1744,7 @@ T
 &
 (
 )
+const
 {
 return
 Ref
