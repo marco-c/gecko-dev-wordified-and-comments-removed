@@ -714,7 +714,7 @@ PostUpdate
 )
 ;
 void
-CancelPendingPlay
+CancelPendingTasks
 (
 )
 ;
