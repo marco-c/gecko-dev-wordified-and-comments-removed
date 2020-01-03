@@ -1143,6 +1143,12 @@ expr
 -
 1
 ]
+__attribute__
+(
+(
+unused
+)
+)
 ;
 #
 endif
@@ -4109,7 +4115,6 @@ X
 )
 (
 void
-*
 )
 X
 ;

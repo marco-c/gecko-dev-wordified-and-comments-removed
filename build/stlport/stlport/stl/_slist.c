@@ -795,11 +795,6 @@ _Tp
 >
 _Node
 ;
-typedef
-_STLP_PRIV
-_Slist_node_base
-_Node_base
-;
 if
 (
 __that

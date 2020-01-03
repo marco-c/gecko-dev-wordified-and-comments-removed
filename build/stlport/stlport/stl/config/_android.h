@@ -73,7 +73,6 @@ _STLP_USE_NO_EXTERN_RANGE_ERRORS
 #
 define
 _STLP_NO_VENDOR_MATH_L
-1
 #
 include
 <

@@ -422,6 +422,13 @@ __arm__
 \
 defined
 (
+__le32__
+)
+|
+|
+\
+defined
+(
 __sh__
 )
 #
