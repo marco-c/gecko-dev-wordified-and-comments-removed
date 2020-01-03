@@ -607,11 +607,6 @@ aGraph
 nullptr
 )
 ;
-void
-UpdateStreamBlockingForStateMachinePlaying
-(
-)
-;
 DecodedStreamData
 *
 GetDecodedStream
