@@ -463,9 +463,6 @@ WAITSTATE_WAKING_UP
 WaitState
 mWaitState
 ;
-bool
-mNeedAnotherIteration
-;
 TimeStamp
 mCurrentTimeStamp
 ;
