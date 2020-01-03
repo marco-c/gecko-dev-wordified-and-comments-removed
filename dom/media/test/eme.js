@@ -1000,7 +1000,11 @@ addEventListener
 "
 error
 "
-bail
+function
+(
+)
+{
+info
 (
 token
 +
@@ -1011,6 +1015,8 @@ fetching
 +
 fragmentFile
 )
+;
+}
 )
 ;
 req
@@ -1020,7 +1026,11 @@ addEventListener
 "
 abort
 "
-bail
+function
+(
+)
+{
+info
 (
 token
 +
@@ -1031,6 +1041,8 @@ fetching
 +
 fragmentFile
 )
+;
+}
 )
 ;
 Log
