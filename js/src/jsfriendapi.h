@@ -831,6 +831,14 @@ HandleObject
 obj
 )
 ;
+typedef
+enum
+{
+MakeNonConfigurableIntoConfigurable
+CopyNonConfigurableAsIs
+}
+PropertyCopyBehavior
+;
 extern
 JS_FRIEND_API
 (
@@ -856,6 +864,10 @@ JS
 :
 HandleObject
 obj
+PropertyCopyBehavior
+copyBehavior
+=
+CopyNonConfigurableAsIs
 )
 ;
 extern

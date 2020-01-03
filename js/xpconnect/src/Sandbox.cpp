@@ -2204,6 +2204,7 @@ cx
 id
 unwrappedProto
 obj
+MakeNonConfigurableIntoConfigurable
 )
 )
 return
