@@ -55,7 +55,7 @@ class
 nsIPercentBSizeObserver
 ;
 struct
-nsHypotheticalBox
+nsHypotheticalPosition
 ;
 template
 <
@@ -3025,7 +3025,7 @@ aCBSize
 )
 ;
 void
-CalculateHypotheticalBox
+CalculateHypotheticalPosition
 (
 nsPresContext
 *
@@ -3037,9 +3037,9 @@ const
 nsHTMLReflowState
 *
 cbrs
-nsHypotheticalBox
+nsHypotheticalPosition
 &
-aHypotheticalBox
+aHypotheticalPos
 nsIAtom
 *
 aFrameType
