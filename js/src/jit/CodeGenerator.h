@@ -2867,7 +2867,7 @@ LInstruction
 ins
 Register
 obj
-ConstantOrRegister
+TypedOrValueRegister
 index
 TypedOrValueRegister
 output
