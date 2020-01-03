@@ -271,6 +271,17 @@ alreadyDeferred
 )
 )
 ;
+var
+role
+=
+query
+.
+role
+|
+|
+"
+"
+;
 if
 (
 allowCancel
@@ -579,6 +590,7 @@ packageSize
 appName
 devName
 devUrl
+role
 )
 ;
 addZipEntry
@@ -995,6 +1007,7 @@ packageSize
 appName
 devName
 devUrl
+role
 )
 ;
 response
@@ -1418,6 +1431,7 @@ packageSize
 appName
 developerName
 developerUrl
+role
 )
 {
 var
@@ -1481,6 +1495,15 @@ DEVELOPERURLTOKEN
 /
 g
 developerUrl
+)
+.
+replace
+(
+/
+ROLETOKEN
+/
+g
+role
 )
 ;
 return

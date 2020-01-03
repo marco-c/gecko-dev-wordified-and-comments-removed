@@ -82,6 +82,7 @@ makeResource
 templatePath
 version
 apptype
+role
 )
 {
 let
@@ -130,6 +131,15 @@ ICONTOKEN
 /
 g
 icon
+)
+.
+replace
+(
+/
+ROLE
+/
+g
+role
 )
 ;
 /
@@ -459,6 +469,13 @@ type
 +
 apptype
 ;
+var
+role
+=
+query
+.
+role
+;
 /
 /
 Get
@@ -690,6 +707,7 @@ makeResource
 template
 version
 apptype
+role
 )
 )
 ;
@@ -782,6 +800,7 @@ makeResource
 gAppcacheTemplatePath
 version
 apptype
+role
 )
 )
 ;
@@ -833,6 +852,7 @@ makeResource
 gWidgetTemplatePath
 version
 apptype
+role
 )
 )
 ;
@@ -871,6 +891,7 @@ makeResource
 gAppTemplatePath
 version
 apptype
+role
 )
 )
 ;
