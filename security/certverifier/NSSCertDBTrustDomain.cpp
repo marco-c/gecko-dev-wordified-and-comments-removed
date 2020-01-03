@@ -1998,6 +1998,16 @@ stapledOCSPResponseResult
 }
 }
 else
+if
+(
+endEntityOrCA
+=
+=
+EndEntityOrCA
+:
+:
+MustBeEndEntity
+)
 {
 mOCSPStaplingStatus
 =
