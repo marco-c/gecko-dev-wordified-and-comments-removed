@@ -1131,10 +1131,10 @@ context
 ;
 if
 (
-ENCODING_FAILED
-(
 response
-)
+=
+=
+ENCODING_FAILED
 )
 {
 PrintPRError
