@@ -269,9 +269,6 @@ media
 messages
 '
 '
-mobileconnection
-'
-'
 power
 '
 '
@@ -429,6 +426,9 @@ icc
 '
 '
 cellbroadcast
+'
+'
+mobileconnection
 '
 '
 voicemail

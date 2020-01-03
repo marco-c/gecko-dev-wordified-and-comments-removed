@@ -188,10 +188,6 @@ PMemoryReportRequest
 ;
 include
 protocol
-PMobileConnection
-;
-include
-protocol
 PNecko
 ;
 include
@@ -1005,9 +1001,6 @@ PIndexedDB
 ;
 manages
 PMemoryReportRequest
-;
-manages
-PMobileConnection
 ;
 manages
 PNecko
@@ -2007,12 +2000,6 @@ PHal
 ;
 PIndexedDB
 (
-)
-;
-PMobileConnection
-(
-uint32_t
-clientId
 )
 ;
 PNecko
