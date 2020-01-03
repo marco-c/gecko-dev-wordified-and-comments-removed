@@ -4381,15 +4381,6 @@ gDumpedConditionSandbox
 true
 ;
 }
-sandbox
-.
-supportsRepeatResampling
-=
-!
-sandbox
-.
-cocoaWidget
-;
 return
 sandbox
 ;
