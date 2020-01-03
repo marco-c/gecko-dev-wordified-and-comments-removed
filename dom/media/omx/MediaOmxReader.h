@@ -122,9 +122,6 @@ int32_t
 mSkipCount
 ;
 bool
-mUseParserDuration
-;
-bool
 mIsShutdown
 ;
 protected

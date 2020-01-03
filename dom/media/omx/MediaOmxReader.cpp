@@ -511,10 +511,6 @@ mSkipCount
 (
 0
 )
-mUseParserDuration
-(
-false
-)
 mIsShutdown
 (
 false
@@ -1120,8 +1116,7 @@ IsMP3
 )
 )
 {
-int64_t
-duration
+mLastParserDuration
 =
 mMP3FrameParser
 .
@@ -1129,9 +1124,10 @@ GetDuration
 (
 )
 ;
+}
 if
 (
-duration
+mLastParserDuration
 >
 =
 0
@@ -1148,14 +1144,6 @@ GetReentrantMonitor
 )
 )
 ;
-mUseParserDuration
-=
-true
-;
-mLastParserDuration
-=
-duration
-;
 mDecoder
 -
 >
@@ -1164,7 +1152,6 @@ SetMediaDuration
 mLastParserDuration
 )
 ;
-}
 }
 else
 {
@@ -2283,9 +2270,6 @@ duration
 !
 =
 mLastParserDuration
-&
-&
-mUseParserDuration
 )
 {
 ReentrantMonitorAutoEnter
