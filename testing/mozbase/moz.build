@@ -131,6 +131,9 @@ mozinfo
 mozinstall
 '
 '
+mozleak
+'
+'
 mozlog
 '
 '

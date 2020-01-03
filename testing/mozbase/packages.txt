@@ -79,6 +79,15 @@ testing
 mozbase
 /
 mozinstall
+mozleak
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozleak
 mozlog
 .
 pth

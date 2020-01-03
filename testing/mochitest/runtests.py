@@ -100,8 +100,6 @@ automationutils
 import
 (
     
-processLeakLog
-    
 dumpScreen
     
 printstatus
@@ -182,6 +180,8 @@ mozrunner
 utils
 import
 test_environment
+import
+mozleak
 here
 =
 os
@@ -14703,12 +14703,33 @@ stopServers
 (
 )
         
-processLeakLog
+mozleak
+.
+process_leak_log
 (
+            
 self
 .
 leak_report_file
+            
+leak_thresholds
+=
 options
+.
+leakThresholds
+            
+ignore_missing_leaks
+=
+options
+.
+ignoreMissingLeaks
+            
+log
+=
+self
+.
+log
+        
 )
         
 if

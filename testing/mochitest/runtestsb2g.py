@@ -41,10 +41,6 @@ insert
 here
 )
 from
-automationutils
-import
-processLeakLog
-from
 runtests
 import
 Mochitest
@@ -71,6 +67,8 @@ import
 structured
 import
 mozinfo
+import
+mozleak
 class
 B2GMochitest
 (
@@ -1722,12 +1720,33 @@ self
 leak_report_file
 )
             
-processLeakLog
+mozleak
+.
+process_leak_log
 (
+                
 local_leak_file
 .
 name
+                
+leak_thresholds
+=
 options
+.
+leakThresholds
+                
+ignore_missing_leaks
+=
+options
+.
+ignoreMissingLeaks
+                
+log
+=
+self
+.
+log
+            
 )
         
 except

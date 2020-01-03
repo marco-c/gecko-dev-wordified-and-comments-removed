@@ -51,6 +51,12 @@ mozinstall
 /
 mozbase
 /
+mozleak
+.
+.
+/
+mozbase
+/
 mozlog
 .
 .
