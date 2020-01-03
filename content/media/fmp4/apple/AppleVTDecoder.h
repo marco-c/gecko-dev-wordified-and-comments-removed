@@ -232,6 +232,16 @@ CreateDecoderSpecification
 (
 )
 ;
+CFDictionaryRef
+CreateDecoderExtensions
+(
+)
+;
+CFDictionaryRef
+CreateOutputConfiguration
+(
+)
+;
 }
 ;
 }

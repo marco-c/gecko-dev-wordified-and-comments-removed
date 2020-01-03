@@ -61,9 +61,7 @@ Unlink
 ;
 static
 CFStringRef
-GetPropHWAccel
-(
-)
+skPropHWAccel
 ;
 private
 :
@@ -75,10 +73,6 @@ sLink
 static
 nsrefcnt
 sRefCount
-;
-static
-CFStringRef
-skPropHWAccel
 ;
 static
 enum

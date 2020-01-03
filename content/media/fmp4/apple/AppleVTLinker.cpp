@@ -417,16 +417,4 @@ return
 address
 ;
 }
-CFStringRef
-AppleVTLinker
-:
-:
-GetPropHWAccel
-(
-)
-{
-return
-skPropHWAccel
-;
-}
 }
