@@ -2113,9 +2113,9 @@ context
 clicks
 on
 the
-input
-field
+textbox
 itself
+.
 if
 (
 event
@@ -2124,8 +2124,6 @@ target
 !
 =
 this
-.
-inputField
 )
 return
 ;
