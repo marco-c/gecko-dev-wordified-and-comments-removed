@@ -4193,7 +4193,6 @@ function
 aManifest
 aOrigin
 aManifestURL
-aLang
 )
 {
 if
@@ -4271,17 +4270,6 @@ _manifest
 aManifest
 ;
 let
-locale
-=
-aLang
-;
-if
-(
-!
-locale
-)
-{
-let
 chrome
 =
 Cc
@@ -4315,6 +4303,7 @@ Ci
 nsIToolkitChromeRegistry
 )
 ;
+let
 locale
 =
 chrome
@@ -4330,7 +4319,6 @@ toLowerCase
 (
 )
 ;
-}
 this
 .
 _localeRoot

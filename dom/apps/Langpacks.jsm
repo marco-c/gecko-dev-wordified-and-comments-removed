@@ -1399,9 +1399,6 @@ manifestURL
 aData
 .
 entryPoint
-aData
-.
-lang
 )
 .
 then

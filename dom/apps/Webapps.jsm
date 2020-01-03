@@ -25027,7 +25027,6 @@ function
 (
 aManifestURL
 aEntryPoint
-aLang
 )
 {
 let
@@ -25132,7 +25131,6 @@ origin
 app
 .
 manifestURL
-aLang
 )
 ;
 return
