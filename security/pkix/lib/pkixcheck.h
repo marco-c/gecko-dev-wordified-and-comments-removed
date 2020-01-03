@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_pkix__pkixcheck_h
+mozilla_pkix_pkixcheck_h
 #
 define
-mozilla_pkix__pkixcheck_h
+mozilla_pkix_pkixcheck_h
 #
 include
 "

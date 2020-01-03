@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_pkix__pkixtypes_h
+mozilla_pkix_pkixtypes_h
 #
 define
-mozilla_pkix__pkixtypes_h
+mozilla_pkix_pkixtypes_h
 #
 include
 "
