@@ -413,6 +413,9 @@ virtual
 void
 Pause
 (
+ErrorResult
+&
+aRv
 )
 ;
 bool
@@ -505,10 +508,14 @@ AutoRewind
 void
 PauseFromJS
 (
+ErrorResult
+&
+aRv
 )
 {
 Pause
 (
+aRv
 )
 ;
 }
@@ -804,6 +811,9 @@ aLimitBehavior
 void
 DoPause
 (
+ErrorResult
+&
+aRv
 )
 ;
 void

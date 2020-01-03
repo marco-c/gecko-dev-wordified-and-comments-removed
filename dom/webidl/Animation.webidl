@@ -292,6 +292,7 @@ play
 )
 ;
 [
+Throws
 BinaryName
 =
 "
