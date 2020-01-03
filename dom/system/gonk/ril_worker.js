@@ -44002,7 +44002,7 @@ record
 .
 lineControl
 .
-recerse
+reverse
 =
 Buf
 .
@@ -44029,7 +44029,7 @@ PDU_CDMA_INFO_REC_TYPE_T53_CLIR
 :
 record
 .
-cause
+clirCause
 =
 Buf
 .
