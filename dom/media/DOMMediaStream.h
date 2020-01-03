@@ -131,17 +131,6 @@ MediaTrackListListener
 class
 MediaStreamDirectListener
 ;
-enum
-{
-kVideoTrack
-=
-1
-kAudioTrack
-=
-2
-kTrackCount
-}
-;
 #
 define
 NS_DOMMEDIASTREAM_IID

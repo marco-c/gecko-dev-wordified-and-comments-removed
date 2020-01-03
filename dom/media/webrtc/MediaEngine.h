@@ -66,6 +66,17 @@ class
 File
 ;
 }
+enum
+{
+kVideoTrack
+=
+1
+kAudioTrack
+=
+2
+kTrackCount
+}
+;
 class
 MediaEngineVideoSource
 ;
