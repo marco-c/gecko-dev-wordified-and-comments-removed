@@ -102,6 +102,10 @@ PCompositable
 ;
 include
 protocol
+PImageContainer
+;
+include
+protocol
 PLayer
 ;
 include
@@ -238,6 +242,9 @@ PTexture
 manages
 PMediaSystemResourceManager
 ;
+manages
+PImageContainer
+;
 child
 :
 async
@@ -247,6 +254,15 @@ AsyncParentMessageData
 [
 ]
 aMessages
+)
+;
+async
+DidComposite
+(
+ImageCompositeNotification
+[
+]
+aNotifications
 )
 ;
 parent
@@ -421,6 +437,8 @@ PCompositable
 (
 TextureInfo
 aInfo
+PImageContainer
+aImageContainer
 )
 returns
 (
@@ -439,6 +457,11 @@ aTextureFlags
 ;
 async
 PMediaSystemResourceManager
+(
+)
+;
+async
+PImageContainer
 (
 )
 ;

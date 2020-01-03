@@ -617,6 +617,9 @@ CompositableClient
 :
 Connect
 (
+ImageContainer
+*
+aImageContainer
 )
 {
 if
@@ -644,6 +647,7 @@ GetForwarder
 Connect
 (
 this
+aImageContainer
 )
 ;
 return

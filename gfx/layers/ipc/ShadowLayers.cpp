@@ -1862,6 +1862,12 @@ mTimeStamp
 t
 .
 mPictureRect
+t
+.
+mFrameID
+t
+.
+mProducerID
 )
 )
 ;
@@ -4311,6 +4317,9 @@ Connect
 CompositableClient
 *
 aCompositable
+ImageContainer
+*
+aImageContainer
 )
 {
 #

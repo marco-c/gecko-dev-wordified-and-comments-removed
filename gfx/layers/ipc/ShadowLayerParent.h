@@ -167,6 +167,11 @@ why
 )
 override
 ;
+void
+Disconnect
+(
+)
+;
 nsRefPtr
 <
 Layer

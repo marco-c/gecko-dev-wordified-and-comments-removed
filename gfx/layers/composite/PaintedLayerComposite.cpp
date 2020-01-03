@@ -618,6 +618,7 @@ mBuffer
 >
 Composite
 (
+this
 effectChain
 GetEffectiveOpacity
 (

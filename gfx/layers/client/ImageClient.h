@@ -429,6 +429,9 @@ virtual
 bool
 Connect
 (
+ImageContainer
+*
+aImageContainer
 )
 override
 {

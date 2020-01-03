@@ -137,6 +137,9 @@ class
 EditReply
 ;
 class
+ImageContainer
+;
+class
 Layer
 ;
 class
@@ -185,12 +188,16 @@ ShadowLayerForwarder
 (
 )
 ;
+virtual
 void
 Connect
 (
 CompositableClient
 *
 aCompositable
+ImageContainer
+*
+aImageContainer
 )
 override
 ;

@@ -79,9 +79,6 @@ APZCTreeManager
 class
 TargetConfig
 ;
-class
-LayerTransactionParent
-;
 struct
 TextureFactoryIdentifier
 ;
@@ -150,16 +147,6 @@ layers
 :
 TargetConfig
 TargetConfig
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-LayerTransactionParent
-LayerTransactionParent
 ;
 typedef
 mozilla

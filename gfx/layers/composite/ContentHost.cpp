@@ -172,6 +172,9 @@ ContentHostTexture
 :
 Composite
 (
+LayerComposite
+*
+aLayer
 EffectChain
 &
 aEffectChain

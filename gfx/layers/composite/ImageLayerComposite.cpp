@@ -449,6 +449,7 @@ mImageHost
 >
 Composite
 (
+this
 effectChain
 GetEffectiveOpacity
 (
