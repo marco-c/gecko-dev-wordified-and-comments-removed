@@ -475,10 +475,10 @@ onRuleViewRefresh
 once
 (
 view
-.
-element
 "
-CssRuleViewRefreshed
+ruleview
+-
+refreshed
 "
 )
 ;

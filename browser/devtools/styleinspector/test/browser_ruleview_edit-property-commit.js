@@ -534,10 +534,10 @@ yield
 once
 (
 view
-.
-element
 "
-CssRuleViewChanged
+ruleview
+-
+changed
 "
 )
 ;

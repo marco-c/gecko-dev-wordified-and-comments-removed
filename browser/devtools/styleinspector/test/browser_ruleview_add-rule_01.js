@@ -408,10 +408,10 @@ onRuleViewChanged
 once
 (
 view
-.
-element
 "
-CssRuleViewChanged
+ruleview
+-
+changed
 "
 )
 ;

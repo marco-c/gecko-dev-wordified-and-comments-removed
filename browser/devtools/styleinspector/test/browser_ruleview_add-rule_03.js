@@ -265,10 +265,10 @@ onRuleViewChanged
 once
 (
 view
-.
-element
 "
-CssRuleViewChanged
+ruleview
+-
+changed
 "
 )
 ;
@@ -674,10 +674,10 @@ onRuleViewRefresh
 once
 (
 view
-.
-element
 "
-CssRuleViewRefreshed
+ruleview
+-
+refreshed
 "
 )
 ;
