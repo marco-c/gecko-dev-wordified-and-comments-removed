@@ -32,8 +32,6 @@ example
 .
 com
 "
-+
-CORS_SJS_PATH
 visibleOnNewEvent
 :
 false
@@ -63,8 +61,6 @@ example
 .
 com
 "
-+
-CORS_SJS_PATH
 visibleOnNewEvent
 :
 false
