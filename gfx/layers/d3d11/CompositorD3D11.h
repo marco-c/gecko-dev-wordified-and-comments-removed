@@ -507,14 +507,6 @@ MOZ_OVERRIDE
 }
 virtual
 void
-AbortFrame
-(
-)
-MOZ_OVERRIDE
-{
-}
-virtual
-void
 PrepareViewport
 (
 const

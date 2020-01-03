@@ -611,14 +611,6 @@ aTransform
 ;
 virtual
 void
-AbortFrame
-(
-)
-=
-0
-;
-virtual
-void
 PrepareViewport
 (
 const
