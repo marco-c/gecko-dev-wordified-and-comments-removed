@@ -99,9 +99,6 @@ nsEnumeratorUtils
 h
 "
 #
-ifdef
-PR_LOGGING
-#
 include
 "
 prlog
@@ -128,8 +125,6 @@ nsRDFLog
 =
 nullptr
 ;
-#
-endif
 class
 CompositeEnumeratorImpl
 ;
@@ -1460,9 +1455,6 @@ mUpdateBatchNest
 0
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 nsRDFLog
@@ -1479,8 +1471,6 @@ RDF
 "
 )
 ;
-#
-endif
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (

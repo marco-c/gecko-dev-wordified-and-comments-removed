@@ -228,9 +228,6 @@ kISupportsIID
 NS_ISUPPORTS_IID
 )
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
@@ -238,8 +235,6 @@ gLog
 =
 nullptr
 ;
-#
-endif
 class
 BlobImpl
 ;
@@ -2814,9 +2809,6 @@ rv
 return
 rv
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -2831,8 +2823,6 @@ nsRDFService
 "
 )
 ;
-#
-endif
 return
 NS_OK
 ;
