@@ -476,6 +476,7 @@ nsBasePrincipal
 {
 public
 :
+explicit
 nsExpandedPrincipal
 (
 nsTArray
