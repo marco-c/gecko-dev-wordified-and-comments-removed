@@ -611,15 +611,9 @@ case
 None
 :
 return
-RemoteTabsStaticFragment
-.
-newInstance
+new
+RemoteTabsExpandableListFragment
 (
-R
-.
-layout
-.
-remote_tabs_needs_upgrade
 )
 ;
 case
