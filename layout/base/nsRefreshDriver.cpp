@@ -7296,6 +7296,10 @@ DidRefresh
 )
 ;
 }
+ConfigureHighPrecision
+(
+)
+;
 NS_ASSERTION
 (
 mInRefresh
