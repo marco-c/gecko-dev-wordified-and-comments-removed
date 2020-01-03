@@ -18559,6 +18559,19 @@ self
 descriptor
 .
 name
+            
+parentProto
+=
+"
+parentProto
+"
+            
+getParentProto
+=
+CGGeneric
+(
+getParentProto
+)
         
 else
 :
@@ -18574,6 +18587,16 @@ protoCache
 "
 nullptr
 "
+            
+parentProto
+=
+"
+nullptr
+"
+            
+getParentProto
+=
+None
         
 if
 needInterfaceObject
@@ -18827,7 +18850,9 @@ CreateInterfaceObjects
 (
 aCx
 aGlobal
+{
 parentProto
+}
                                         
 {
 protoClass
@@ -18872,6 +18897,10 @@ aDefineOnGlobal
 protoClass
 =
 protoClass
+            
+parentProto
+=
+parentProto
             
 protoCache
 =
@@ -19417,10 +19446,7 @@ CGList
 (
             
 [
-CGGeneric
-(
 getParentProto
-)
 CGGeneric
 (
 getConstructorProto
