@@ -755,6 +755,14 @@ usr
 /
 lib64
 "
+        
+"
+I_PREFER_A_SUBOPTIMAL_MERCURIAL_EXPERIENCE
+"
+:
+"
+1
+"
     
 }
 }
