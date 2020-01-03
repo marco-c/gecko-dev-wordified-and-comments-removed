@@ -5,9 +5,13 @@ io
 /
 mozilla
 /
-gecko
--
 base
+:
+0
+.
+0
+.
+2
 MAINTAINER
 Jonas
 Finnemann
