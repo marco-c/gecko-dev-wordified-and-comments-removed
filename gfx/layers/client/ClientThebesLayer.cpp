@@ -811,10 +811,15 @@ SCROLLABLE
 &
 #
 endif
-gfxPrefs
+gfxPlatform
 :
 :
-LayersTilesEnabled
+GetPlatform
+(
+)
+-
+>
+UseTiling
 (
 )
 &
