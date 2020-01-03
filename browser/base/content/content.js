@@ -668,14 +668,14 @@ width
 =
 content
 .
-scrollWidth
+innerWidth
 ;
 let
 height
 =
 content
 .
-scrollHeight
+innerHeight
 ;
 let
 viewport
