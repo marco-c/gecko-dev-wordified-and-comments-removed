@@ -646,6 +646,16 @@ nsCSSProperty
 aProperty
 )
 ;
+AnimationCollection
+*
+GetAnimationCollection
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
 protected
 :
 PRCList
