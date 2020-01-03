@@ -603,6 +603,8 @@ profile
 final
 String
 filename
+boolean
+shouldPerformJavaScriptCallback
 )
 {
 ThreadUtils
@@ -685,6 +687,16 @@ put
 urls
 "
 jsonArray
+)
+;
+data
+.
+put
+(
+"
+shouldNotifyTabsOpenedToJava
+"
+shouldPerformJavaScriptCallback
 )
 ;
 GeckoAppShell
