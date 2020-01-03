@@ -2424,6 +2424,16 @@ JSString
 *
 asyncCauseForNewActivations
 ;
+JS
+:
+:
+dbg
+:
+:
+AutoEntryMonitor
+*
+entryMonitor
+;
 js
 :
 :

@@ -546,6 +546,10 @@ asyncCauseForNewActivations
 (
 nullptr
 )
+entryMonitor
+(
+nullptr
+)
 parentRuntime
 (
 parentRuntime
