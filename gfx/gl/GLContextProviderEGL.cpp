@@ -3292,7 +3292,7 @@ if
 GLContext
 :
 :
-DebugMode
+ShouldSpew
 (
 )
 )

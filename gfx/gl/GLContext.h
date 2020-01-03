@@ -1096,10 +1096,6 @@ char
 *
 *
 extList
-bool
-verbose
-=
-false
 )
 {
 char
@@ -1115,7 +1111,9 @@ extStr
 ;
 if
 (
-verbose
+ShouldSpew
+(
+)
 )
 printf_stderr
 (
@@ -1213,7 +1211,9 @@ i
 {
 if
 (
-verbose
+ShouldSpew
+(
+)
 )
 printf_stderr
 (
@@ -13851,6 +13851,12 @@ public
 :
 void
 FlushIfHeavyGLCallsSinceLastFlush
+(
+)
+;
+static
+bool
+ShouldSpew
 (
 )
 ;
