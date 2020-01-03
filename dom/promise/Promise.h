@@ -318,11 +318,11 @@ ResolvePromiseCallback
 ;
 friend
 class
-ThenableResolverTask
+PromiseResolveThenableJob
 ;
 friend
 class
-FastThenableResolverTask
+FastPromiseResolveThenableJob
 ;
 friend
 class
