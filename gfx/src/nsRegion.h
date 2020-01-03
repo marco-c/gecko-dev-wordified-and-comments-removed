@@ -590,7 +590,8 @@ TmpRect
 )
 ;
 }
-void
+nsRegion
+&
 OrWith
 (
 const
@@ -599,6 +600,7 @@ nsRegion
 aOther
 )
 {
+return
 Or
 (
 *
@@ -607,7 +609,8 @@ aOther
 )
 ;
 }
-void
+nsRegion
+&
 OrWith
 (
 const
@@ -616,6 +619,7 @@ nsRect
 aOther
 )
 {
+return
 Or
 (
 *
@@ -751,7 +755,8 @@ aRect2
 )
 ;
 }
-void
+nsRegion
+&
 XorWith
 (
 const
@@ -760,6 +765,7 @@ nsRegion
 aOther
 )
 {
+return
 Xor
 (
 *
@@ -768,7 +774,8 @@ aOther
 )
 ;
 }
-void
+nsRegion
+&
 XorWith
 (
 const
@@ -777,6 +784,7 @@ nsRect
 aOther
 )
 {
+return
 Xor
 (
 *
@@ -915,7 +923,8 @@ aAppUnitsPerPixel
 )
 const
 ;
-void
+nsRegion
+&
 SubOut
 (
 const
@@ -924,6 +933,7 @@ nsRegion
 aOther
 )
 {
+return
 Sub
 (
 *
@@ -932,7 +942,8 @@ aOther
 )
 ;
 }
-void
+nsRegion
+&
 SubOut
 (
 const
@@ -941,6 +952,7 @@ nsRect
 aOther
 )
 {
+return
 Sub
 (
 *
@@ -2445,7 +2457,8 @@ return
 this
 ;
 }
-void
+nsIntRegion
+&
 OrWith
 (
 const
@@ -2454,6 +2467,7 @@ nsIntRegion
 aOther
 )
 {
+return
 Or
 (
 *
@@ -2462,7 +2476,8 @@ aOther
 )
 ;
 }
-void
+nsIntRegion
+&
 OrWith
 (
 const
@@ -2471,6 +2486,7 @@ nsIntRect
 aOther
 )
 {
+return
 Or
 (
 *
@@ -2594,7 +2610,8 @@ aRect2
 )
 ;
 }
-void
+nsIntRegion
+&
 XorWith
 (
 const
@@ -2603,6 +2620,7 @@ nsIntRegion
 aOther
 )
 {
+return
 Xor
 (
 *
@@ -2611,7 +2629,8 @@ aOther
 )
 ;
 }
-void
+nsIntRegion
+&
 XorWith
 (
 const
@@ -2620,6 +2639,7 @@ nsIntRect
 aOther
 )
 {
+return
 Xor
 (
 *
@@ -2743,7 +2763,8 @@ aRect2
 )
 ;
 }
-void
+nsIntRegion
+&
 SubOut
 (
 const
@@ -2752,6 +2773,7 @@ nsIntRegion
 aOther
 )
 {
+return
 Sub
 (
 *
@@ -2760,7 +2782,8 @@ aOther
 )
 ;
 }
-void
+nsIntRegion
+&
 SubOut
 (
 const
@@ -2769,6 +2792,7 @@ nsIntRect
 aOther
 )
 {
+return
 Sub
 (
 *
