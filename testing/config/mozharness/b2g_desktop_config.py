@@ -23,16 +23,6 @@ options
 "
 -
 -
-console
--
-level
-=
-INFO
-"
-                
-"
--
--
 total
 -
 chunks
