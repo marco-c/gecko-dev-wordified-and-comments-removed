@@ -3776,6 +3776,14 @@ getClass
 proto
 )
 ;
+if
+(
+!
+type
+)
+return
+matchResultTemplateObject_
+;
 templateObject
 -
 >
