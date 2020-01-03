@@ -244,6 +244,7 @@ panelWin
 yield
 onMutated
 ;
+yield
 assertAttributes
 (
 "
@@ -451,6 +452,7 @@ panelWin
 yield
 onMutated
 ;
+yield
 assertAttributes
 (
 "

@@ -150,9 +150,10 @@ correctly
 "
 )
 ;
+yield
 assertAttributes
 (
-element
+selector
 test
 .
 expectedAttributes
@@ -219,9 +220,10 @@ correctly
 "
 )
 ;
+yield
 assertAttributes
 (
-element
+selector
 {
 }
 )
@@ -381,6 +383,7 @@ with
 "
 )
 ;
+yield
 assertAttributes
 (
 test
@@ -519,6 +522,7 @@ edition
 "
 )
 ;
+yield
 assertAttributes
 (
 test
@@ -553,6 +557,7 @@ undoChange
 inspector
 )
 ;
+yield
 assertAttributes
 (
 test
@@ -587,6 +592,7 @@ redoChange
 inspector
 )
 ;
+yield
 assertAttributes
 (
 test
