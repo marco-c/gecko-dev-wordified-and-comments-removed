@@ -523,6 +523,10 @@ return
 ;
 #
 endif
+default
+:
+break
+;
 }
 #
 if
