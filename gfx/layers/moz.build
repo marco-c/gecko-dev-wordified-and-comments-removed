@@ -747,6 +747,13 @@ h
 '
 client
 /
+SingleTiledContentClient
+.
+h
+'
+'
+client
+/
 TextureClient
 .
 h
@@ -1751,6 +1758,13 @@ cpp
 client
 /
 ImageClient
+.
+cpp
+'
+'
+client
+/
+SingleTiledContentClient
 .
 cpp
 '
