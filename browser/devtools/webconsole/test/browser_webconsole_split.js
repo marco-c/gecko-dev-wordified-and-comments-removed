@@ -320,7 +320,7 @@ yield
 openAndCheckPanel
 (
 "
-performance
+jsprofiler
 "
 )
 ;
