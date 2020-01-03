@@ -83,7 +83,7 @@ size_t
 mStackTraceTable
 ;
 size_t
-mBlockTable
+mLiveBlockTable
 ;
 Sizes
 (
