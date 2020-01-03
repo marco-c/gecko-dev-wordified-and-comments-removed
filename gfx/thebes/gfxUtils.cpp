@@ -2147,9 +2147,10 @@ FILTER_FAST
 .
 0
 gfxMatrix
-:
-:
-Translation
+(
+)
+.
+Translate
 (
 needed
 .
@@ -2184,9 +2185,10 @@ gfxSurfaceDrawable
 surface
 size
 gfxMatrix
-:
-:
-Translation
+(
+)
+.
+Translate
 (
 -
 needed
