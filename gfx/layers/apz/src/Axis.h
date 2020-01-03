@@ -384,7 +384,7 @@ ParentLayerCoord
 mFirstOverscrollAnimationSample
 ;
 ParentLayerCoord
-mOverscrollOffset
+mLastOverscrollPeak
 ;
 float
 mOverscrollScale
