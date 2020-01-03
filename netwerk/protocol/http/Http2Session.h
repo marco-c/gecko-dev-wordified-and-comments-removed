@@ -859,6 +859,14 @@ errorType
 )
 ;
 void
+CleanupStream
+(
+uint32_t
+nsresult
+errorType
+)
+;
+void
 CloseStream
 (
 Http2Stream
