@@ -1484,6 +1484,38 @@ Date
 "
 ]
     
+sequences
+=
+[
+"
+sequence
+<
+long
+>
+"
+"
+sequence
+<
+short
+>
+"
+]
+    
+arrays
+=
+[
+"
+long
+[
+]
+"
+"
+short
+[
+]
+"
+]
+    
 nonUserObjects
 =
 nonObjects
@@ -1491,6 +1523,8 @@ nonObjects
 interfaces
 +
 dates
++
+sequences
     
 otherObjects
 =
@@ -1521,6 +1555,8 @@ UnrelatedInterface
 otherObjects
 +
 dates
++
+sequences
 )
     
 mozMaps
@@ -1542,23 +1578,6 @@ Dict
 MozMap
 <
 long
->
-"
-]
-    
-sequences
-=
-[
-"
-sequence
-<
-long
->
-"
-"
-sequence
-<
-short
 >
 "
 ]
@@ -1856,9 +1875,20 @@ sequence
 long
 >
 "
-nonUserObjects
+                       
+allBut
+(
+argTypes
+sequences
 +
-mozMaps
+arrays
++
+[
+"
+object
+"
+]
+)
 )
     
 setDistinguishable
@@ -1869,9 +1899,20 @@ sequence
 short
 >
 "
-nonUserObjects
+                       
+allBut
+(
+argTypes
+sequences
 +
-mozMaps
+arrays
++
+[
+"
+object
+"
+]
+)
 )
     
 setDistinguishable
@@ -1883,8 +1924,6 @@ object
 >
 "
 nonUserObjects
-+
-sequences
 )
     
 setDistinguishable
@@ -1896,8 +1935,6 @@ Dict
 >
 "
 nonUserObjects
-+
-sequences
 )
     
 setDistinguishable
@@ -1909,8 +1946,6 @@ long
 >
 "
 nonUserObjects
-+
-sequences
 )
     
 setDistinguishable
@@ -1920,7 +1955,11 @@ long
 [
 ]
 "
+allBut
+(
 nonUserObjects
+sequences
+)
 )
     
 setDistinguishable
@@ -1930,7 +1969,11 @@ short
 [
 ]
 "
+allBut
+(
 nonUserObjects
+sequences
+)
 )
     
 setDistinguishable
