@@ -298,9 +298,9 @@ PNG
 -
 only
 clients
+/
+/
 always
-/
-/
 display
 the
 first
@@ -340,9 +340,9 @@ frame
 even
 if
 skipped
+/
+/
 is
-/
-/
 always
 included
 in
@@ -377,10 +377,10 @@ sequence
 "
 will
 repeat
+/
+/
 forever
 .
-/
-/
 /
 /
 /
@@ -463,6 +463,8 @@ moving
 to
 the
 next
+/
+/
 frame
 .
 /
@@ -500,6 +502,8 @@ the
 next
 frame
 .
+/
+/
 See
 APNG
 spec

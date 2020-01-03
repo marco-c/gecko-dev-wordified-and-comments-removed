@@ -227,6 +227,7 @@ to
 be
 removed
 from
+*
 the
 cache
 .
@@ -277,6 +278,7 @@ mime
 type
 such
 as
+*
 '
 image
 /
@@ -311,8 +313,8 @@ a
 URI
 it
 will
-succeed
 *
+succeed
 but
 come
 back
@@ -374,9 +376,9 @@ browsing
 notifications
 .
 This
+*
 entails
 clearing
-*
 the
 chrome
 and
@@ -384,6 +386,7 @@ content
 caches
 whenever
 the
+*
 last
 -
 pb
@@ -393,7 +396,6 @@ context
 exited
 notification
 is
-*
 observed
 .
 *

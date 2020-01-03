@@ -638,8 +638,8 @@ the
 case
 of
 any
-error
 *
+error
 an
 exception
 will
@@ -1086,8 +1086,8 @@ convert
 to
 any
 particular
-destination
 *
+destination
 space
 .
 *
@@ -2760,8 +2760,8 @@ which
 restricts
 the
 set
-of
 *
+of
 pixels
 we
 '
@@ -2774,8 +2774,8 @@ when
 drawing
 ;
 this
-is
 *
+is
 only
 of
 use
@@ -2787,6 +2787,7 @@ to
 draw
 with
 pixel
+*
 snapping
 .
 *
@@ -3009,6 +3010,7 @@ decodes
 some
 of
 the
+*
 image
 .
 *
