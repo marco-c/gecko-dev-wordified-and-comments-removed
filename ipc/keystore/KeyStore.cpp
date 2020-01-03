@@ -1119,7 +1119,7 @@ readString16
 (
 )
 ;
-size_t
+ssize_t
 signDataSize
 =
 data
@@ -1143,6 +1143,9 @@ signDataSize
 0
 &
 &
+(
+size_t
+)
 signDataSize
 <
 =
@@ -1184,6 +1187,9 @@ sign
 (
 name
 signData
+(
+size_t
+)
 signDataSize
 &
 signResult
