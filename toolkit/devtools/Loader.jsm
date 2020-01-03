@@ -129,7 +129,9 @@ jsm
 )
 ;
 let
-loader
+{
+Loader
+}
 =
 Cu
 .
@@ -155,8 +157,6 @@ js
 {
 }
 )
-.
-Loader
 ;
 let
 promise
@@ -204,6 +204,9 @@ SrcdirProvider
 "
 require
 "
+"
+loader
+"
 ]
 ;
 let
@@ -226,7 +229,7 @@ toolkit
 loader
 "
 :
-loader
+Loader
 "
 PromiseDebugging
 "
@@ -488,7 +491,7 @@ this
 loader
 =
 new
-loader
+Loader
 .
 Loader
 (
@@ -1030,7 +1033,7 @@ function
 reason
 )
 {
-loader
+Loader
 .
 unload
 (
@@ -1664,7 +1667,7 @@ this
 loader
 =
 new
-loader
+Loader
 .
 Loader
 (
@@ -1901,7 +1904,7 @@ function
 reason
 )
 {
-loader
+Loader
 .
 unload
 (
@@ -2699,7 +2702,7 @@ uri
 let
 module
 =
-loader
+Loader
 .
 Module
 (
@@ -2708,7 +2711,7 @@ uri
 )
 ;
 return
-loader
+Loader
 .
 load
 (
@@ -2750,7 +2753,7 @@ this
 .
 _main
 =
-loader
+Loader
 .
 main
 (
@@ -2999,7 +3002,7 @@ this
 .
 require
 =
-loader
+Loader
 .
 Require
 (
@@ -3187,6 +3190,10 @@ Firefox
 this
 .
 devtools
+=
+this
+.
+loader
 =
 new
 DevToolsLoader

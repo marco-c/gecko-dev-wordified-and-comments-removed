@@ -220,8 +220,6 @@ xul
 const
 {
 require
-devtools
-:
 loader
 }
 =

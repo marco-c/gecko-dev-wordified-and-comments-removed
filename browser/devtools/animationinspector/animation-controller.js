@@ -42,8 +42,6 @@ jsm
 ;
 let
 {
-devtools
-:
 loader
 require
 }
