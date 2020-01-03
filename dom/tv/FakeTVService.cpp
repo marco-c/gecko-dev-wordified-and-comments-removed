@@ -963,6 +963,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 nsITVProgramData
 *
@@ -1216,6 +1217,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 return
 mSourceListener

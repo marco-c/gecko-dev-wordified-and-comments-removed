@@ -132,6 +132,7 @@ void_t
 &
 aVoid
 )
+MOZ_OVERRIDE
 ;
 void
 Notify
@@ -144,6 +145,7 @@ SystemTimezoneChangeInformation
 &
 aSystemTimezoneChangeInfo
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -225,6 +225,7 @@ nsString
 &
 aBinaryType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

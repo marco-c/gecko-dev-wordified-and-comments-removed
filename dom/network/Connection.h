@@ -113,6 +113,7 @@ NetworkInformation
 &
 aNetworkInfo
 )
+MOZ_OVERRIDE
 ;
 virtual
 JSObject

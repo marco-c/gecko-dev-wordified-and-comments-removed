@@ -97,6 +97,7 @@ BatteryInformation
 &
 aBatteryInfo
 )
+MOZ_OVERRIDE
 ;
 nsPIDOMWindow
 *

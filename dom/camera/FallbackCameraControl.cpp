@@ -412,6 +412,7 @@ nsresult
 StartPreviewImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -422,6 +423,7 @@ nsresult
 StopPreviewImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -432,6 +434,7 @@ nsresult
 AutoFocusImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -442,6 +445,7 @@ nsresult
 StartFaceDetectionImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -452,6 +456,7 @@ nsresult
 StopFaceDetectionImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -462,6 +467,7 @@ nsresult
 TakePictureImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -492,6 +498,7 @@ nsresult
 StopRecordingImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -502,6 +509,7 @@ nsresult
 PushParametersImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED
@@ -512,6 +520,7 @@ nsresult
 PullParametersImpl
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_INITIALIZED

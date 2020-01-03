@@ -124,6 +124,7 @@ WakeLockInformation
 &
 aWakeLockInfo
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <

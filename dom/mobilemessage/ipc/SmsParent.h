@@ -150,8 +150,9 @@ void
 ActorDestroy
 (
 ActorDestroyReason
-why
+aWhy
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

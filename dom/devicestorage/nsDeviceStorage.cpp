@@ -12914,6 +12914,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -12976,6 +12977,7 @@ nsIArray
 *
 aTypes
 )
+MOZ_OVERRIDE
 {
 nsCString
 type
@@ -13063,6 +13065,7 @@ nsIPrincipal
 *
 aRequestingPrincipal
 )
+MOZ_OVERRIDE
 {
 NS_IF_ADDREF
 (
@@ -13084,6 +13087,7 @@ nsIDOMWindow
 *
 aRequestingWindow
 )
+MOZ_OVERRIDE
 {
 NS_IF_ADDREF
 (
@@ -13105,6 +13109,7 @@ nsIDOMElement
 *
 aRequestingElement
 )
+MOZ_OVERRIDE
 {
 *
 aRequestingElement
@@ -13119,6 +13124,7 @@ NS_IMETHOD
 Cancel
 (
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -13153,6 +13159,7 @@ JS
 HandleValue
 aChoices
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

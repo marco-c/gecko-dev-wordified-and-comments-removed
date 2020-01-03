@@ -18975,6 +18975,7 @@ aBackgroundThread
 NS_INLINE_DECL_REFCOUNTING
 (
 QuotaClient
+MOZ_OVERRIDE
 )
 virtual
 mozilla

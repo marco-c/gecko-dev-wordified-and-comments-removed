@@ -471,6 +471,7 @@ void
 virtualDestroyNSSReference
 (
 )
+MOZ_OVERRIDE
 ;
 void
 destructorSafeDestroyNSSReference

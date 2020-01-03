@@ -362,6 +362,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -564,6 +565,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 {
 JSAutoCompartment
 ac
