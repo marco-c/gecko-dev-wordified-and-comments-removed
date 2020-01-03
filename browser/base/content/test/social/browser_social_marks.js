@@ -2103,9 +2103,7 @@ btn
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 .
 indexOf
 (
@@ -2114,6 +2112,9 @@ about
 :
 socialerror
 ?
+mode
+=
+tryAgainOnly
 "
 )
 0
@@ -2124,6 +2125,12 @@ page
 is
 showing
 "
++
+btn
+.
+contentDocument
+.
+documentURI
 )
 ;
 ensureBrowserTabClosed

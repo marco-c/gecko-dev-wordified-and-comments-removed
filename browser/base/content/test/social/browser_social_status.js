@@ -1541,9 +1541,7 @@ frame
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 .
 indexOf
 (
@@ -1552,6 +1550,9 @@ about
 :
 socialerror
 ?
+mode
+=
+tryAgainOnly
 "
 )
 0
@@ -1567,9 +1568,7 @@ frame
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 )
 ;
 panel

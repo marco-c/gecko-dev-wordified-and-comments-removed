@@ -489,6 +489,9 @@ about
 :
 socialerror
 ?
+mode
+=
+workerFailure
 "
 )
 =

@@ -409,9 +409,7 @@ sbrowser
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 .
 indexOf
 (
@@ -420,6 +418,9 @@ about
 :
 socialerror
 ?
+mode
+=
+tryAgainOnly
 "
 )
 =
@@ -451,9 +452,7 @@ sbrowser
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 .
 indexOf
 (
@@ -462,6 +461,9 @@ about
 :
 socialerror
 ?
+mode
+=
+tryAgainOnly
 "
 )
 =
@@ -500,9 +502,7 @@ sbrowser
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 manifest
 .
 sidebarURL
@@ -668,9 +668,7 @@ firstChild
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 ;
 ok
 (
@@ -683,6 +681,9 @@ about
 :
 socialerror
 ?
+mode
+=
+compactInfo
 "
 )
 =
@@ -749,9 +750,7 @@ firstChild
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 ;
 ok
 (
@@ -764,6 +763,9 @@ about
 :
 socialerror
 ?
+mode
+=
+compactInfo
 "
 )
 =
@@ -889,9 +891,7 @@ chat
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 .
 indexOf
 (
@@ -900,6 +900,9 @@ about
 :
 socialerror
 ?
+mode
+=
+tryAgainOnly
 "
 )
 =
@@ -979,9 +982,7 @@ chat
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 url
 "
 correct
@@ -1099,9 +1100,7 @@ chat
 .
 contentDocument
 .
-location
-.
-href
+documentURI
 .
 indexOf
 (
@@ -1110,6 +1109,9 @@ about
 :
 socialerror
 ?
+mode
+=
+tryAgainOnly
 "
 )
 =
