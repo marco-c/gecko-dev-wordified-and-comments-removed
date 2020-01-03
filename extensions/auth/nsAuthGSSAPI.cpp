@@ -1176,13 +1176,10 @@ prefix
 if
 (
 !
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 gNegotiateLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 )
 {

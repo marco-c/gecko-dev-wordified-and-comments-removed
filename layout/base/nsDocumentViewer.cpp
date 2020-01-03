@@ -717,13 +717,7 @@ MOZ_LOG
 GetPrintingLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 _p1
 )
 ;

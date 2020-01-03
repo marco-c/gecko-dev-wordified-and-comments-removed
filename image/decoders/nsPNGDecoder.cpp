@@ -718,10 +718,7 @@ MOZ_LOG
 GetPNGDecoderAccountingLog
 (
 )
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 PNGDecoderAccounting
@@ -3713,10 +3710,7 @@ MOZ_LOG
 GetPNGLog
 (
 )
-LogLevel
-:
-:
-Error
+PR_LOG_ERROR
 (
 "
 libpng
@@ -3755,10 +3749,7 @@ MOZ_LOG
 GetPNGLog
 (
 )
-LogLevel
-:
-:
-Warning
+PR_LOG_WARNING
 (
 "
 libpng

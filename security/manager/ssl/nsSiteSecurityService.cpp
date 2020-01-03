@@ -235,13 +235,7 @@ MOZ_LOG
 GetSSSLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+4
 args
 )
 SiteHSTSState

@@ -128,13 +128,7 @@ MOZ_LOG
 GetProxyLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 static

@@ -249,13 +249,7 @@ MOZ_LOG
 GetLayoutPrintingLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 _p1
 )
 nsSimplePageSequenceFrame

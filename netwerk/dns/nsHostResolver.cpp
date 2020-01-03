@@ -298,13 +298,7 @@ args
 MOZ_LOG
 (
 gHostResolverLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 #

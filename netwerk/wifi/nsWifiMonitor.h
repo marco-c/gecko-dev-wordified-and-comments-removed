@@ -150,13 +150,7 @@ args
 MOZ_LOG
 (
 gWifiMonitorLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 class

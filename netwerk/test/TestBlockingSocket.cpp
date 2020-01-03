@@ -114,13 +114,7 @@ args
 MOZ_LOG
 (
 gTestLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 static

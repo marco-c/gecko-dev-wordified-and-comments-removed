@@ -443,13 +443,7 @@ MOZ_LOG
 GetThreadLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 NS_DECL_CI_INTERFACE_GETTER

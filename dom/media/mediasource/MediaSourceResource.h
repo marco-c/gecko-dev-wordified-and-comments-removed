@@ -50,13 +50,7 @@ MOZ_LOG
 GetMediaSourceLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 MediaSourceResource

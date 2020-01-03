@@ -12011,13 +12011,10 @@ allowed
 )
 ;
 return
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 sLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 ;
 }

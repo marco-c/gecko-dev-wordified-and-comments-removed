@@ -138,13 +138,7 @@ args
 MOZ_LOG
 (
 gFTPLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 namespace

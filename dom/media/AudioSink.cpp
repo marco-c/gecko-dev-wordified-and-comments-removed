@@ -47,10 +47,7 @@ msg
 MOZ_LOG
 (
 gMediaDecoderLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 AudioSink
@@ -78,10 +75,9 @@ msg
 MOZ_LOG
 (
 gMediaDecoderLog
-LogLevel
-:
-:
-Verbose
+PR_LOG_DEBUG
++
+1
 (
 "
 AudioSink

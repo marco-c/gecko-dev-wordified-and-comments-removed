@@ -1093,13 +1093,10 @@ i
 {
 if
 (
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 gCacheLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 )
 {

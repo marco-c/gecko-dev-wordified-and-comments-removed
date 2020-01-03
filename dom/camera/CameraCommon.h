@@ -55,10 +55,7 @@ GetCameraLog
 (
 )
 (
-mozilla
-:
-:
-LogLevel
+PRLogModuleLevel
 )
 type
 (
@@ -75,13 +72,7 @@ DOM_CAMERA_LOGA
 )
 DOM_CAMERA_LOG
 (
-mozilla
-:
-:
-LogLevel
-:
-:
-Error
+0
 __VA_ARGS__
 )
 enum
