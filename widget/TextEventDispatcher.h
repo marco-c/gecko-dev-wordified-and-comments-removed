@@ -349,6 +349,10 @@ mForTests
 bool
 mIsComposing
 ;
+static
+bool
+sDispatchKeyEventsDuringComposition
+;
 nsresult
 BeginInputTransactionInternal
 (
