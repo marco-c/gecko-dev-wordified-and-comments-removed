@@ -34997,7 +34997,7 @@ mouseover
 )
 msg
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 ;
 else
 if
@@ -35013,7 +35013,7 @@ mouseout
 )
 msg
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 ;
 else
 if

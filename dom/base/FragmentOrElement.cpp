@@ -3138,7 +3138,7 @@ mEvent
 message
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 |
 |
 aVisitor
@@ -3149,7 +3149,7 @@ mEvent
 message
 =
 =
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 |
 |
 aVisitor
@@ -3517,7 +3517,7 @@ mEvent
 message
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 )
 ?
 "

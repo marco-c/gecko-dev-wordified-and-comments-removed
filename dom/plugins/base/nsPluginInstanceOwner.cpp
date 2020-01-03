@@ -8069,13 +8069,13 @@ message
 )
 {
 case
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 :
 return
 NPCocoaEventMouseEntered
 ;
 case
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 :
 return
 NPCocoaEventMouseExited
@@ -8227,7 +8227,7 @@ anEvent
 message
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 |
 |
 anEvent
@@ -8236,7 +8236,7 @@ anEvent
 message
 =
 =
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 )
 {
 nsPoint
@@ -9726,7 +9726,7 @@ anEvent
 message
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 |
 |
 anEvent
@@ -9734,7 +9734,7 @@ anEvent
 message
 =
 =
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 |
 |
 anEvent
@@ -10193,10 +10193,10 @@ message
 )
 {
 case
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 :
 case
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 :
 {
 XCrossingEvent
@@ -10216,7 +10216,7 @@ anEvent
 message
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 ?
 EnterNotify
 :

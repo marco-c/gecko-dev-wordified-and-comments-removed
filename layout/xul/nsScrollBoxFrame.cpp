@@ -344,10 +344,10 @@ message
 )
 {
 case
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 :
 case
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 :
 if
 (
@@ -373,10 +373,10 @@ mIsTrusted
 break
 ;
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 case
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 :
 StopRepeat
 (

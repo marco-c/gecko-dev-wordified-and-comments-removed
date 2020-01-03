@@ -26569,9 +26569,9 @@ msg
 =
 aEnter
 ?
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 :
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 ;
 WidgetMouseEvent
 event

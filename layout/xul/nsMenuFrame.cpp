@@ -2220,7 +2220,7 @@ aEvent
 message
 =
 =
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 )
 {
 if

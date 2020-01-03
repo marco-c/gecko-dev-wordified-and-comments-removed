@@ -459,7 +459,7 @@ NS_DRAGDROP_EVENT_START
 aEventType
 <
 =
-NS_DRAGDROP_LEAVE_SYNTH
+NS_DRAGDROP_LEAVE
 )
 {
 CacheExternalDragFormats

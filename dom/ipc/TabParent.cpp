@@ -5429,7 +5429,7 @@ event
 message
 =
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 |
 |
 event
@@ -5437,7 +5437,7 @@ event
 message
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 )
 {
 mTabSetsCursor
@@ -5477,7 +5477,7 @@ event
 message
 =
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 |
 |
 event
@@ -5485,7 +5485,7 @@ event
 message
 =
 =
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 )
 {
 mTabSetsCursor

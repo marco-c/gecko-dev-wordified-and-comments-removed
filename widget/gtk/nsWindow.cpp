@@ -10415,7 +10415,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 this
 WidgetMouseEvent
 :
@@ -10602,7 +10602,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 this
 WidgetMouseEvent
 :

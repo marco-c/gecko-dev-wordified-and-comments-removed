@@ -205,7 +205,7 @@ aEventStatus
 break
 ;
 case
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 :
 mCursorOnThis
 =

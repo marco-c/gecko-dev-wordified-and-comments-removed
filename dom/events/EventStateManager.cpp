@@ -2320,7 +2320,7 @@ mouseEvent
 message
 !
 =
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 &
 &
 mouseEvent
@@ -2329,7 +2329,7 @@ mouseEvent
 message
 !
 =
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 )
 |
 |
@@ -2733,7 +2733,7 @@ break
 ;
 }
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 if
 (
@@ -5366,13 +5366,13 @@ case
 NS_CONTEXTMENU
 :
 case
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 :
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 case
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 :
 return
 true
@@ -14195,7 +14195,7 @@ dispatchedToContentProcess
 break
 ;
 case
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 :
 if
 (
@@ -15917,13 +15917,13 @@ NS_MOUSEENTER
 aMessage
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 |
 |
 aMessage
 =
 =
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 )
 )
 {
@@ -16120,7 +16120,7 @@ if
 aMessage
 =
 =
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 )
 {
 nsAutoPtr
@@ -16132,7 +16132,7 @@ remoteEvent
 CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 aRelatedContent
 remoteEvent
 )
@@ -16165,7 +16165,7 @@ if
 aMessage
 =
 =
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 )
 {
 nsAutoPtr
@@ -16177,7 +16177,7 @@ remoteEvent
 CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
-NS_MOUSE_ENTER
+NS_MOUSE_ENTER_WIDGET
 aRelatedContent
 remoteEvent
 )
@@ -16716,7 +16716,7 @@ isPointer
 ?
 NS_POINTER_OUT
 :
-NS_MOUSE_EXIT_SYNTH
+NS_MOUSE_OUT
 wrapper
 -
 >
@@ -17000,7 +17000,7 @@ isPointer
 ?
 NS_POINTER_OVER
 :
-NS_MOUSE_ENTER_SYNTH
+NS_MOUSE_OVER
 aContent
 lastOverElement
 )
@@ -17559,7 +17559,7 @@ case
 NS_POINTER_CANCEL
 :
 case
-NS_MOUSE_EXIT
+NS_MOUSE_EXIT_WIDGET
 :
 {
 OverOutElementsWrapper
@@ -17999,7 +17999,7 @@ PresContext
 (
 )
 aDragEvent
-NS_DRAGDROP_EXIT_SYNTH
+NS_DRAGDROP_EXIT
 targetContent
 lastContent
 sLastDragOverFrame
@@ -18030,7 +18030,7 @@ PresContext
 (
 )
 aDragEvent
-NS_DRAGDROP_LEAVE_SYNTH
+NS_DRAGDROP_LEAVE
 targetContent
 lastContent
 sLastDragOverFrame
@@ -18089,7 +18089,7 @@ FireDragEnterOrExit
 (
 lastDragOverFramePresContext
 aDragEvent
-NS_DRAGDROP_EXIT_SYNTH
+NS_DRAGDROP_EXIT
 nullptr
 lastContent
 sLastDragOverFrame
@@ -18099,7 +18099,7 @@ FireDragEnterOrExit
 (
 lastDragOverFramePresContext
 aDragEvent
-NS_DRAGDROP_LEAVE_SYNTH
+NS_DRAGDROP_LEAVE
 nullptr
 lastContent
 sLastDragOverFrame
@@ -18277,13 +18277,13 @@ if
 aMsg
 =
 =
-NS_DRAGDROP_LEAVE_SYNTH
+NS_DRAGDROP_LEAVE
 |
 |
 aMsg
 =
 =
-NS_DRAGDROP_EXIT_SYNTH
+NS_DRAGDROP_EXIT
 |
 |
 aMsg
