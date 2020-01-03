@@ -111,10 +111,6 @@ void
 (
 )
 ;
-TestInterface
-implements
-ImplementedInterface
-;
 enum
 MyTestEnum
 {

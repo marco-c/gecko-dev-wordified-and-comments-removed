@@ -1466,3 +1466,7 @@ Element
 implements
 Animatable
 ;
+Element
+implements
+GeometryUtils
+;

@@ -2737,3 +2737,7 @@ Document
 implements
 OnErrorEventHandlerForNodes
 ;
+Document
+implements
+GeometryUtils
+;

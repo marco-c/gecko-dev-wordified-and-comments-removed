@@ -146,7 +146,7 @@ SVGElement
 {
 }
 ;
-SVGFEMergeElement
+SVGFEFloodElement
 implements
 SVGFilterPrimitiveStandardAttributes
 ;

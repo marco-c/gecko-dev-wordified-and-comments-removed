@@ -26314,6 +26314,12 @@ self
 implementee
 =
 implementee
+        
+self
+.
+_finished
+=
+False
     
 def
 finish
@@ -26322,6 +26328,14 @@ self
 scope
 )
 :
+        
+if
+self
+.
+_finished
+:
+            
+return
         
 assert
 (
@@ -26527,6 +26541,18 @@ addImplementedInterface
 (
 implementee
 )
+        
+self
+.
+implementor
+=
+implementor
+        
+self
+.
+implementee
+=
+implementee
     
 def
 validate

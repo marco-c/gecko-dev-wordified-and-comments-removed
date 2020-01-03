@@ -182,3 +182,7 @@ wholeText
 ;
 }
 ;
+Text
+implements
+GeometryUtils
+;
