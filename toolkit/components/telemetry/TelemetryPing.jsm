@@ -4619,6 +4619,10 @@ if
 Telemetry
 .
 canSend
+&
+&
+!
+aTesting
 )
 {
 Telemetry
