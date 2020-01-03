@@ -57,7 +57,7 @@ test_menu_show_navbar
 (
 )
 {
-ise
+is
 (
 button
 .
@@ -233,7 +233,7 @@ CustomizableUI
 AREA_PANEL
 )
 ;
-ise
+is
 (
 PanelUI
 .
