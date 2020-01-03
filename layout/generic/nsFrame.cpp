@@ -11394,10 +11394,9 @@ isPositioned
 disp
 -
 >
-mPosition
-=
-=
-NS_STYLE_POSITION_STICKY
+IsPositionForcingStackingContext
+(
+)
 |
 |
 pos
