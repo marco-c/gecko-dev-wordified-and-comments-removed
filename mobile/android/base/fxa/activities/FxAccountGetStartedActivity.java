@@ -97,12 +97,6 @@ mozilla
 .
 gecko
 .
-sync
-.
-setup
-.
-activities
-.
 LocaleAware
 ;
 import

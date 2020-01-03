@@ -4,12 +4,6 @@ org
 mozilla
 .
 gecko
-.
-sync
-.
-setup
-.
-activities
 ;
 import
 org

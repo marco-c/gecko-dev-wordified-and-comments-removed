@@ -84,12 +84,6 @@ mozilla
 .
 gecko
 .
-sync
-.
-setup
-.
-activities
-.
 LocaleAware
 .
 LocaleAwareFragmentActivity

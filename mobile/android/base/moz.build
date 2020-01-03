@@ -2253,6 +2253,11 @@ LightweightThemeDrawable
 java
 '
 '
+LocaleAware
+.
+java
+'
+'
 LocaleManager
 .
 java
