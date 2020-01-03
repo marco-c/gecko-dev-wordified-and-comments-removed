@@ -871,7 +871,7 @@ Complete
 ;
 }
 void
-ResetDecode
+Reset
 (
 )
 ;
@@ -1160,16 +1160,6 @@ JustExitedQuickBuffering
 ;
 void
 UpdateReadyState
-(
-)
-;
-void
-ResetPlayback
-(
-)
-;
-void
-FlushDecoding
 (
 )
 ;
