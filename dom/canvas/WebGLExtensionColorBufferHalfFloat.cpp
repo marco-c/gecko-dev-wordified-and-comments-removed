@@ -116,6 +116,14 @@ GLFeature
 :
 renderbuffer_color_half_float
 )
+|
+|
+gl
+-
+>
+IsANGLE
+(
+)
 ;
 }
 IMPL_WEBGL_EXTENSION_GOOP

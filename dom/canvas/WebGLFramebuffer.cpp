@@ -632,6 +632,12 @@ LOCAL_GL_FLOAT
 type
 =
 =
+LOCAL_GL_HALF_FLOAT_OES
+|
+|
+type
+=
+=
 LOCAL_GL_HALF_FLOAT
 ;
 }
