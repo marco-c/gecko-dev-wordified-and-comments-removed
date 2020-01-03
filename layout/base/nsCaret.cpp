@@ -3178,7 +3178,11 @@ pos
 eSelectBeginLine
 eDirPrevious
 0
+nsPoint
+(
 0
+0
+)
 false
 true
 false
@@ -3319,7 +3323,11 @@ pos
 eSelectEndLine
 eDirNext
 0
+nsPoint
+(
 0
+0
+)
 false
 true
 false
