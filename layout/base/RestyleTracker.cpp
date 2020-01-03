@@ -998,6 +998,16 @@ Category
 CSS
 )
 ;
+{
+RestyleManager
+:
+:
+ReframingStyleContexts
+reframingStyleContexts
+(
+mRestyleManager
+)
+;
 mRestyleManager
 -
 >
@@ -1681,6 +1691,7 @@ currentRestyle
 mChangeHint
 )
 ;
+}
 }
 }
 }
