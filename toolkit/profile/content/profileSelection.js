@@ -567,6 +567,14 @@ selectedProfile
 .
 profile
 ;
+gProfileService
+.
+defaultProfile
+=
+selectedProfile
+.
+profile
+;
 updateStartupPrefs
 (
 )
