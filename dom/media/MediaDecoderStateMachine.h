@@ -1117,7 +1117,7 @@ PreservesPitchChanged
 ;
 MediaQueue
 <
-AudioData
+MediaData
 >
 &
 AudioQueue
@@ -1130,7 +1130,7 @@ mAudioQueue
 }
 MediaQueue
 <
-VideoData
+MediaData
 >
 &
 VideoQueue
@@ -2529,13 +2529,13 @@ mVideoDecodeStartTime
 ;
 MediaQueue
 <
-AudioData
+MediaData
 >
 mAudioQueue
 ;
 MediaQueue
 <
-VideoData
+MediaData
 >
 mVideoQueue
 ;
