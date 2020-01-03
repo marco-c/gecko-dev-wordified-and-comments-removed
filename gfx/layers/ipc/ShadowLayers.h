@@ -383,16 +383,6 @@ aTileLayerDescriptor
 )
 override
 ;
-void
-AttachAsyncCompositable
-(
-PLayerTransactionChild
-*
-aLayer
-uint64_t
-aID
-)
-;
 virtual
 void
 RemoveTextureFromCompositable
