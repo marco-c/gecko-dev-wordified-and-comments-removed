@@ -409,6 +409,8 @@ shadow
 ff0
 ;
 }
+.
+pdfPresentationMode
 :
 -
 moz
@@ -433,6 +435,8 @@ border
 0
 ;
 }
+.
+pdfPresentationMode
 :
 fullscreen
 .
@@ -724,6 +728,8 @@ important
 }
 #
 viewerContainer
+.
+pdfPresentationMode
 :
 -
 moz
@@ -781,6 +787,8 @@ none
 }
 #
 viewerContainer
+.
+pdfPresentationMode
 :
 fullscreen
 {
@@ -831,6 +839,8 @@ select
 none
 ;
 }
+.
+pdfPresentationMode
 :
 -
 moz
@@ -851,6 +861,8 @@ display
 none
 ;
 }
+.
+pdfPresentationMode
 :
 fullscreen
 a
@@ -866,6 +878,8 @@ display
 none
 ;
 }
+.
+pdfPresentationMode
 :
 -
 moz
@@ -883,6 +897,8 @@ cursor
 none
 ;
 }
+.
+pdfPresentationMode
 :
 fullscreen
 .
@@ -895,14 +911,16 @@ cursor
 none
 ;
 }
-#
-viewerContainer
 .
-presentationControls
-#
-viewerContainer
+pdfPresentationMode
 .
-presentationControls
+pdfPresentationModeControls
+>
+*
+.
+pdfPresentationMode
+.
+pdfPresentationModeControls
 .
 textLayer
 >
