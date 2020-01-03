@@ -13723,6 +13723,12 @@ hide
 (
 )
 ;
+mFindInPageBar
+.
+hide
+(
+)
+;
 refreshToolbarHeight
 (
 )
@@ -14285,12 +14291,6 @@ R
 color
 .
 white
-)
-;
-mFindInPageBar
-.
-hide
-(
 )
 ;
 }
