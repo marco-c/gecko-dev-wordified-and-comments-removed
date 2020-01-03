@@ -8198,7 +8198,13 @@ mAudioSink
 new
 AudioSink
 (
-this
+mAudioQueue
+mDecoder
+-
+>
+GetReentrantMonitor
+(
+)
 GetMediaTime
 (
 )
