@@ -753,6 +753,9 @@ mAsyncShutdownInProgress
 int
 mChildPid
 ;
+bool
+mHoldingSelfRef
+;
 }
 ;
 }
