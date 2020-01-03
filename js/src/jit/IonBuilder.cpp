@@ -16221,8 +16221,6 @@ TemporaryTypeSet
 *
 type
 =
-type
-=
 subject
 -
 >
