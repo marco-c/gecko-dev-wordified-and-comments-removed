@@ -949,7 +949,7 @@ mGMPService
 >
 HasPluginForAPI
 (
-NS_LITERAL_CSTRING
+NS_LITERAL_STRING
 (
 "
 "
@@ -994,7 +994,7 @@ mGMPService
 >
 HasPluginForAPI
 (
-NS_LITERAL_CSTRING
+NS_LITERAL_STRING
 (
 "
 "
