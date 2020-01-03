@@ -833,6 +833,10 @@ ORIGIN_MAIN
 :
 ORIGIN_CONTENT
 )
+mMayBeIMEUnaware
+(
+false
+)
 {
 }
 bool
@@ -877,6 +881,9 @@ ORIGIN_CONTENT
 ;
 Origin
 mOrigin
+;
+bool
+mMayBeIMEUnaware
 ;
 bool
 IsOriginMainProcess
