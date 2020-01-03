@@ -2776,7 +2776,6 @@ correct
 '
 )
 ;
-let
 sliceTest
 =
 true
@@ -3418,7 +3417,7 @@ one
 ;
 assert
 .
-ok
+equal
 (
 flatLong
 .

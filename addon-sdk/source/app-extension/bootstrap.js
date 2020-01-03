@@ -1391,6 +1391,11 @@ staticArgs
 options
 .
 staticArgs
+noQuit
+:
+options
+.
+no_quit
 preferencesBranch
 :
 options
