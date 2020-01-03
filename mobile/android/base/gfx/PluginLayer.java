@@ -185,11 +185,6 @@ IntSize
 0
 0
 )
-TileLayer
-.
-PaintMode
-.
-NORMAL
 )
 ;
 mView
