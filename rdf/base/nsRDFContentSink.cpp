@@ -254,6 +254,7 @@ WillParse
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillBuildModel
@@ -261,6 +262,7 @@ WillBuildModel
 nsDTDMode
 aDTDMode
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DidBuildModel
@@ -268,18 +270,21 @@ DidBuildModel
 bool
 aTerminated
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillInterrupt
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillResume
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetParser
@@ -288,6 +293,7 @@ nsParserBase
 *
 aParser
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -296,6 +302,7 @@ FlushPendingNotifications
 mozFlushType
 aType
 )
+MOZ_OVERRIDE
 {
 }
 NS_IMETHOD
@@ -305,6 +312,7 @@ nsACString
 &
 aCharset
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -316,6 +324,7 @@ nsISupports
 GetTarget
 (
 )
+MOZ_OVERRIDE
 {
 return
 nullptr
@@ -328,6 +337,7 @@ nsIURI
 *
 aURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetDataSource
@@ -336,6 +346,7 @@ nsIRDFDataSource
 *
 aDataSource
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDataSource
@@ -345,6 +356,7 @@ nsIRDFDataSource
 &
 aDataSource
 )
+MOZ_OVERRIDE
 ;
 static
 int32_t
