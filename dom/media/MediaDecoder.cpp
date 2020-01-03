@@ -1228,6 +1228,13 @@ IsDestroyed
 )
 )
 {
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -1237,6 +1244,7 @@ Destroy
 (
 )
 ;
+}
 mOutputStreams
 .
 RemoveElementAt
@@ -1257,6 +1265,13 @@ ChangeExplicitBlockerCount
 1
 )
 ;
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -1272,6 +1287,7 @@ mPort
 =
 nullptr
 ;
+}
 }
 mDecodedStream
 =
@@ -3571,6 +3587,13 @@ IsDestroyed
 )
 )
 {
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -3580,6 +3603,7 @@ Destroy
 (
 )
 ;
+}
 mOutputStreams
 .
 RemoveElementAt
@@ -3606,6 +3630,13 @@ Finish
 (
 )
 ;
+if
+(
+os
+.
+mPort
+)
+{
 os
 .
 mPort
@@ -3615,6 +3646,7 @@ Destroy
 (
 )
 ;
+}
 os
 .
 mStream
