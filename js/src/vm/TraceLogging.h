@@ -447,6 +447,8 @@ text
 uint32_t
 createTextId
 (
+TraceLoggerTextId
+type
 JSScript
 *
 script
@@ -455,6 +457,8 @@ script
 uint32_t
 createTextId
 (
+TraceLoggerTextId
+type
 const
 JS
 :
@@ -469,6 +473,8 @@ private
 uint32_t
 createTextId
 (
+TraceLoggerTextId
+type
 const
 char
 *
@@ -929,6 +935,8 @@ TraceLogCreateTextId
 TraceLoggerThread
 *
 logger
+TraceLoggerTextId
+type
 JSScript
 *
 script
@@ -947,6 +955,7 @@ logger
 >
 createTextId
 (
+type
 script
 )
 ;
@@ -963,6 +972,8 @@ TraceLogCreateTextId
 TraceLoggerThread
 *
 logger
+TraceLoggerTextId
+type
 const
 JS
 :
@@ -985,6 +996,7 @@ logger
 >
 createTextId
 (
+type
 compileOptions
 )
 ;
