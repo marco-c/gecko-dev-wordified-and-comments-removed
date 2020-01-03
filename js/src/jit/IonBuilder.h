@@ -1640,6 +1640,8 @@ addMaybeCopyElementsForWrite
 MDefinition
 *
 object
+bool
+checkNative
 )
 ;
 MInstruction
@@ -5023,6 +5025,10 @@ unboxedType
 MDefinition
 *
 value
+bool
+preBarrier
+=
+true
 )
 ;
 bool
