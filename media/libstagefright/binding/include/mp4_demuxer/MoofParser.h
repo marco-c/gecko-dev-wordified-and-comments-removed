@@ -855,6 +855,11 @@ HasMetadata
 (
 )
 ;
+MediaByteRange
+FirstCompleteMediaSegment
+(
+)
+;
 mozilla
 :
 :
@@ -925,6 +930,12 @@ nsTArray
 Moof
 >
 mMoofs
+;
+nsTArray
+<
+MediaByteRange
+>
+mMediaRanges
 ;
 bool
 mIsAudio

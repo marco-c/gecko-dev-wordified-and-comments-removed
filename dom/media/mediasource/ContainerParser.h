@@ -18,6 +18,13 @@ nsString
 .
 h
 "
+#
+include
+"
+MediaResource
+.
+h
+"
 namespace
 mozilla
 {
@@ -116,6 +123,11 @@ HasCompleteInitData
 (
 )
 ;
+MediaByteRange
+MediaSegmentRange
+(
+)
+;
 static
 ContainerParser
 *
@@ -143,6 +155,9 @@ mResource
 ;
 bool
 mHasInitData
+;
+MediaByteRange
+mCompleteByteRange
 ;
 const
 nsCString
