@@ -11962,6 +11962,9 @@ GTEST_OS_SYMBIAN
 |
 |
 GTEST_OS_ZOS
+|
+|
+GTEST_OS_IOS
 const
 bool
 use_color
