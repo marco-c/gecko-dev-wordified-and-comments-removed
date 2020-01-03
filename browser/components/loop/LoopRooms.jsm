@@ -406,8 +406,6 @@ emit
 joined
 "
 room
-.
-roomToken
 participant
 )
 ;
@@ -455,8 +453,6 @@ emit
 left
 "
 room
-.
-roomToken
 participant
 )
 ;

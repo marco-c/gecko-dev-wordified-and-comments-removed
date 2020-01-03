@@ -825,7 +825,7 @@ onRoomJoined
 function
 (
 e
-roomToken
+room
 participant
 )
 {
@@ -834,6 +834,8 @@ participants
 =
 gExpectedJoins
 [
+room
+.
 roomToken
 ]
 ;
@@ -901,6 +903,8 @@ length
 delete
 gExpectedJoins
 [
+room
+.
 roomToken
 ]
 ;
@@ -913,7 +917,7 @@ onRoomLeft
 function
 (
 e
-roomToken
+room
 participant
 )
 {
@@ -922,6 +926,8 @@ participants
 =
 gExpectedLeaves
 [
+room
+.
 roomToken
 ]
 ;
@@ -989,6 +995,8 @@ length
 delete
 gExpectedLeaves
 [
+room
+.
 roomToken
 ]
 ;
