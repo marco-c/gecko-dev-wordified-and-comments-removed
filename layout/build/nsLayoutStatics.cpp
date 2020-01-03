@@ -195,6 +195,13 @@ h
 #
 include
 "
+nsPrincipal
+.
+h
+"
+#
+include
+"
 nsRange
 .
 h
@@ -1445,6 +1452,13 @@ InitializeStatics
 )
 ;
 nsRefreshDriver
+:
+:
+InitializeStatics
+(
+)
+;
+nsPrincipal
 :
 :
 InitializeStatics

@@ -27678,7 +27678,15 @@ false
 ;
 }
 return
-true
+mSheetPrincipal
+&
+&
+mSheetPrincipal
+-
+>
+IsOnCSSUnprefixingWhitelist
+(
+)
 ;
 }
 bool
