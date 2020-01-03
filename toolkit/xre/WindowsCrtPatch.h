@@ -340,6 +340,10 @@ if
 !
 strcmp
 (
+(
+char
+*
+)
 import
 -
 >
