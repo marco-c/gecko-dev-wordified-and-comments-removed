@@ -8328,7 +8328,10 @@ IsEmpty
 nsresult
 rv
 ;
-auto
+nsRefPtr
+<
+nsStructuredCloneContainer
+>
 container
 =
 new
@@ -8517,7 +8520,10 @@ isNull
 return
 ;
 }
-auto
+nsRefPtr
+<
+nsStructuredCloneContainer
+>
 dataObjectContainer
 =
 new
@@ -8598,7 +8604,10 @@ IsEmpty
 return
 ;
 }
-auto
+nsRefPtr
+<
+nsStructuredCloneContainer
+>
 container
 =
 new
