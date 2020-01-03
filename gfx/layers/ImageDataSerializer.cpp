@@ -15,7 +15,11 @@ h
 #
 include
 "
-gfxPoint
+mozilla
+/
+gfx
+/
+Point
 .
 h
 "

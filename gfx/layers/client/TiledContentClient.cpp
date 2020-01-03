@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsSize
-.
-h
-"
-#
-include
-"
 gfxReusableSharedImageSurfaceWrapper
 .
 h

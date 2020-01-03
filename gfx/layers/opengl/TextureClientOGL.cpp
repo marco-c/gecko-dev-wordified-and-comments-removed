@@ -39,7 +39,11 @@ h
 #
 include
 "
-nsSize
+mozilla
+/
+gfx
+/
+Point
 .
 h
 "

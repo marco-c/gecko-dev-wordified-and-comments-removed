@@ -280,13 +280,6 @@ h
 #
 include
 "
-nsSize
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
