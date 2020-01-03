@@ -55,7 +55,6 @@ js
 proxy_innerObject
 nullptr
 false
-nullptr
 )
 )
 ;
