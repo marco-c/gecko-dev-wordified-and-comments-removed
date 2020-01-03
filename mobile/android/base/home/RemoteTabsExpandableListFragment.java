@@ -1226,6 +1226,7 @@ layout
 .
 home_remote_tabs_child
 null
+true
 )
 ;
 mList
