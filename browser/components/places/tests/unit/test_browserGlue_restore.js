@@ -91,7 +91,7 @@ getService
 (
 Ci
 .
-nsIBrowserGlue
+nsISupports
 )
 ;
 let
