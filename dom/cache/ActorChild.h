@@ -64,6 +64,10 @@ const
 ;
 protected
 :
+ActorChild
+(
+)
+;
 ~
 ActorChild
 (
