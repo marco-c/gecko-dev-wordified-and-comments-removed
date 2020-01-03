@@ -1878,6 +1878,11 @@ interpolatematrix
 )
 CSS_KEY
 (
+isolate
+isolate
+)
+CSS_KEY
+(
 invert
 invert
 )
