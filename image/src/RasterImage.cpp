@@ -3730,6 +3730,14 @@ backwards
 ;
 if
 (
+mError
+)
+{
+return
+;
+}
+if
+(
 aNewFrameCount
 >
 mFrameCount
