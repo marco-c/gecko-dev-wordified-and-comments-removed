@@ -376,29 +376,19 @@ Z
                 
 continue
         
-prog
-=
 command
-[
-0
-]
-        
-basename
 =
-os
+subprocess
 .
-path
-.
-basename
+list2cmdline
 (
-prog
+command
 )
         
 if
-basename
-=
-=
 name
+in
+command
 :
             
 retval
