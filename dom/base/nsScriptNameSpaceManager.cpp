@@ -1439,9 +1439,7 @@ sizeof
 (
 GlobalNameMapEntry
 )
-fallible_t
-(
-)
+fallible
 GLOBALNAME_HASHTABLE_INITIAL_LENGTH
 )
 ;
@@ -1463,9 +1461,7 @@ sizeof
 (
 GlobalNameMapEntry
 )
-fallible_t
-(
-)
+fallible
 GLOBALNAME_HASHTABLE_INITIAL_LENGTH
 )
 ;

@@ -7254,12 +7254,6 @@ bool
 aSetValueChanged
 )
 {
-mozilla
-:
-:
-fallible_t
-fallible
-;
 if
 (
 mEditor

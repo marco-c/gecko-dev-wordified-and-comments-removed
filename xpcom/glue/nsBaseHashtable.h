@@ -329,9 +329,10 @@ Put
 (
 aKey
 aData
-fallible_t
-(
-)
+mozilla
+:
+:
+fallible
 )
 )
 {

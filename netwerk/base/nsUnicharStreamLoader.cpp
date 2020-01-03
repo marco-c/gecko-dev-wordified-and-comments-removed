@@ -82,9 +82,7 @@ mRawData
 SetCapacity
 (
 SNIFFING_BUFFER_SIZE
-fallible_t
-(
-)
+fallible
 )
 )
 return
@@ -851,9 +849,7 @@ mBuffer
 SetCapacity
 (
 capacity
-fallible_t
-(
-)
+fallible
 )
 )
 {

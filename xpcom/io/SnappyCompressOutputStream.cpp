@@ -354,11 +354,7 @@ reset
 (
 new
 (
-(
-fallible_t
-(
-)
-)
+fallible
 )
 char
 [
@@ -589,11 +585,7 @@ reset
 (
 new
 (
-(
-fallible_t
-(
-)
-)
+fallible
 )
 char
 [

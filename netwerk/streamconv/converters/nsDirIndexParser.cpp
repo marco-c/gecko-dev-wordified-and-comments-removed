@@ -1453,9 +1453,7 @@ SetLength
 len
 +
 aCount
-fallible_t
-(
-)
+fallible
 )
 )
 return

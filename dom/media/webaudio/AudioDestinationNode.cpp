@@ -256,15 +256,6 @@ mNumberOfChannels
 )
 )
 {
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 for
 (
 uint32_t

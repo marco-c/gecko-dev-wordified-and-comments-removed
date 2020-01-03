@@ -10029,9 +10029,7 @@ aOut
 SetCapacity
 (
 mLength
-fallible_t
-(
-)
+fallible
 )
 )
 {

@@ -931,14 +931,6 @@ sp
 "
 ;
 const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
-const
 uint32_t
 kFileCopyBufferSize
 =

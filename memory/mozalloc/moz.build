@@ -103,11 +103,6 @@ mozilla
 =
 [
 '
-fallible
-.
-h
-'
-'
 mozalloc
 .
 h

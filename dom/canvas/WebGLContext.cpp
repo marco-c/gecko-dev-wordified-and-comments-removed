@@ -4729,15 +4729,6 @@ map
 )
 return
 ;
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 uint8_t
 *
 imageBuffer

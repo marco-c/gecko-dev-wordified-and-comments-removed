@@ -520,9 +520,7 @@ data
 Assign
 (
 aData
-fallible_t
-(
-)
+fallible
 )
 ;
 if

@@ -866,9 +866,7 @@ SetCapacity
 length
 +
 1
-fallible_t
-(
-)
+fallible
 )
 NS_ERROR_OUT_OF_MEMORY
 )

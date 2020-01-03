@@ -287,9 +287,10 @@ e
 PutEntry
 (
 aKey
-fallible_t
-(
-)
+mozilla
+:
+:
+fallible
 )
 ;
 if

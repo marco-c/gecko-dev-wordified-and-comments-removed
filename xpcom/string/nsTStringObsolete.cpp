@@ -2013,7 +2013,7 @@ aNewValue
 const
 fallible_t
 &
-fallible
+aFallible
 )
 {
 return
@@ -2027,7 +2027,7 @@ nsTDependentString_CharT
 (
 aNewValue
 )
-fallible
+aFallible
 )
 ;
 }
@@ -2054,9 +2054,10 @@ ReplaceSubstring
 (
 aTarget
 aNewValue
-fallible_t
-(
-)
+mozilla
+:
+:
+fallible
 )
 )
 {

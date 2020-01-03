@@ -420,12 +420,7 @@ this
 PutEntry
 (
 aKey
-mozilla
-:
-:
-fallible_t
-(
-)
+fallible
 )
 ;
 if

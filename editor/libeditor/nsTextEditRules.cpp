@@ -4967,9 +4967,7 @@ aInString
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {

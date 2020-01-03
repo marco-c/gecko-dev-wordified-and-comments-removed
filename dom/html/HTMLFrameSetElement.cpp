@@ -1021,15 +1021,6 @@ commaX
 )
 ;
 }
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 nsFramesetSpec
 *
 specs

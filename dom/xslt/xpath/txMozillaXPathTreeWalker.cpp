@@ -2380,9 +2380,7 @@ aResult
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 ;
 return

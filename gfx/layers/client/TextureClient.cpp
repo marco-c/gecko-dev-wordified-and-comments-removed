@@ -3147,15 +3147,6 @@ MOZ_ASSERT
 mBuffer
 )
 ;
-static
-const
-fallible_t
-fallible
-=
-fallible_t
-(
-)
-;
 mBuffer
 =
 new

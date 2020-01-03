@@ -1977,9 +1977,7 @@ aSrcEnd
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {
@@ -2114,9 +2112,7 @@ aSrcEnd
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 return

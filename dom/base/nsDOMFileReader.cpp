@@ -1419,9 +1419,7 @@ buf
 oldLen
 +
 aCount
-fallible_t
-(
-)
+fallible
 )
 ;
 NS_ENSURE_TRUE
@@ -2178,9 +2176,7 @@ AppendASCIItoUTF16
 (
 encodedData
 aResult
-fallible_t
-(
-)
+fallible
 )
 )
 {

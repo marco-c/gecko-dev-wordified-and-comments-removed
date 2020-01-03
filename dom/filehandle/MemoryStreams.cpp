@@ -107,9 +107,7 @@ GetMutableData
 &
 dummy
 aSize
-fallible_t
-(
-)
+fallible
 )
 ;
 NS_ENSURE_TRUE

@@ -9627,9 +9627,7 @@ aDest
 SetLength
 (
 srcLength
-fallible_t
-(
-)
+fallible
 )
 )
 {

@@ -1645,9 +1645,7 @@ wdata
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {

@@ -457,9 +457,7 @@ utf8str
 mozilla
 :
 :
-fallible_t
-(
-)
+fallible
 )
 )
 {

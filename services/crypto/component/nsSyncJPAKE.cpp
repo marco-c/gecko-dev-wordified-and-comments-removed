@@ -95,7 +95,7 @@ using
 mozilla
 :
 :
-fallible_t
+fallible
 ;
 static
 bool
@@ -501,9 +501,7 @@ SetCapacity
 2
 *
 len
-fallible_t
-(
-)
+fallible
 )
 )
 return
@@ -2051,9 +2049,7 @@ out
 SetCapacity
 (
 len
-fallible_t
-(
-)
+fallible
 )
 )
 {

@@ -2260,9 +2260,7 @@ aString
 SetLength
 (
 length
-fallible_t
-(
-)
+fallible
 )
 )
 {

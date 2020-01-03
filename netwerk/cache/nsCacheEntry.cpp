@@ -1423,9 +1423,7 @@ sizeof
 (
 nsCacheEntryHashTableEntry
 )
-fallible_t
-(
-)
+fallible
 256
 )
 ;

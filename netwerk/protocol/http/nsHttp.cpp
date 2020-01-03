@@ -419,9 +419,7 @@ sizeof
 (
 PLDHashEntryStub
 )
-fallible_t
-(
-)
+fallible
 NUM_HTTP_ATOMS
 +
 10

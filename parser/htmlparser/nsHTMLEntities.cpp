@@ -322,9 +322,7 @@ sizeof
 (
 EntityNodeEntry
 )
-fallible_t
-(
-)
+fallible
 NS_HTML_ENTITY_COUNT
 )
 )
@@ -346,9 +344,7 @@ sizeof
 (
 EntityNodeEntry
 )
-fallible_t
-(
-)
+fallible
 NS_HTML_ENTITY_COUNT
 )
 )
