@@ -268,10 +268,9 @@ NS_ERROR_SEVERITY_ERROR
 MODULE
 code
 )
-typedef
 enum
 class
-tag_nsresult
+nsresult
 :
 uint32_t
 {
@@ -299,7 +298,6 @@ h
 undef
 ERROR
 }
-nsresult
 ;
 const
 nsresult
