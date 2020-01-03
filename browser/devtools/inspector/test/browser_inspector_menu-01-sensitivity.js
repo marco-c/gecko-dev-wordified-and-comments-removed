@@ -142,6 +142,13 @@ pseudo
 -
 focus
 "
+"
+node
+-
+menu
+-
+scrollnodeintoview
+"
 ]
 .
 concat
