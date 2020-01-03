@@ -1057,7 +1057,9 @@ classycle_jar
 (
 ALL_JARS
 )
-java
+(
+JAVA
+)
 -
 cp
 (
@@ -1261,7 +1263,9 @@ REPORT_BUILD
 (
 TOUCH
 )
-java
+(
+JAVA
+)
 \
 -
 Xmx512m
@@ -1407,7 +1411,9 @@ REPORT_BUILD
 (
 TOUCH
 )
-java
+(
+JAVA
+)
 \
 -
 Xmx512m
@@ -3386,6 +3392,7 @@ fails
 CONSTRAINED_AAPT_CONFIGURATIONS
 :
 =
+mdpi
 hdpi
 define
 aapt_command
