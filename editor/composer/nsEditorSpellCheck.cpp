@@ -649,6 +649,7 @@ nsIContentPref
 *
 aPref
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -694,6 +695,7 @@ HandleCompletion
 uint16_t
 reason
 )
+MOZ_OVERRIDE
 {
 mSpellCheck
 -
@@ -713,6 +715,7 @@ HandleError
 nsresult
 error
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK

@@ -76,6 +76,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -90,6 +91,7 @@ nsISupports
 *
 aCommandRefCon
 )
+MOZ_OVERRIDE
 =
 0
 ;
