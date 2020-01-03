@@ -138,6 +138,11 @@ loop
 =
 [
 '
+CardDavImporter
+.
+jsm
+'
+'
 LoopContacts
 .
 jsm
