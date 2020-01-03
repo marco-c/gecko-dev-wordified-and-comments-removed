@@ -15802,12 +15802,12 @@ bottom
 )
 BORDER_WIDTH_CASE
 (
-eCSSProperty_border_left_width_value
+eCSSProperty_border_left_width
 left
 )
 BORDER_WIDTH_CASE
 (
-eCSSProperty_border_right_width_value
+eCSSProperty_border_right_width
 right
 )
 BORDER_WIDTH_CASE
@@ -15857,7 +15857,7 @@ aComputedValue
 break
 ;
 case
-eCSSProperty_border_left_color_value
+eCSSProperty_border_left_color
 :
 ExtractBorderColor
 (
@@ -15870,7 +15870,7 @@ aComputedValue
 break
 ;
 case
-eCSSProperty_border_right_color_value
+eCSSProperty_border_right_color
 :
 ExtractBorderColor
 (
