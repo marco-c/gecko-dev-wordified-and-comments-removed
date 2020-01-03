@@ -11639,6 +11639,7 @@ upper
 +
 elemSize
 <
+=
 minHeapLength
 )
 {
@@ -11746,6 +11747,7 @@ upper
 +
 elemSize
 <
+=
 minHeapLength
 )
 {
