@@ -477,11 +477,6 @@ gfxMatrix
 matrix
 )
 ;
-void
-IdentityMatrix
-(
-)
-;
 gfxMatrix
 CurrentMatrix
 (

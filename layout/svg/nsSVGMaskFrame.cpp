@@ -1001,8 +1001,11 @@ maskArea
 aContext
 -
 >
-IdentityMatrix
+SetMatrix
 (
+gfxMatrix
+(
+)
 )
 ;
 gfxRect

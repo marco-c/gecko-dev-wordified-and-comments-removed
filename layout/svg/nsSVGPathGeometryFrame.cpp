@@ -2036,8 +2036,11 @@ aToBBoxUserspace
 tmpCtx
 -
 >
-IdentityMatrix
+SetMatrix
 (
+gfxMatrix
+(
+)
 )
 ;
 gfxRect
@@ -3087,8 +3090,11 @@ IsSingular
 aContext
 -
 >
-IdentityMatrix
+SetMatrix
 (
+gfxMatrix
+(
+)
 )
 ;
 aContext

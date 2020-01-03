@@ -2360,8 +2360,11 @@ Save
 mContext
 -
 >
-IdentityMatrix
+SetMatrix
 (
+gfxMatrix
+(
+)
 )
 ;
 gfxRect
