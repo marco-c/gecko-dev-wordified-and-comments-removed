@@ -219,6 +219,11 @@ nsPluginNativeWindow
 h
 '
 '
+nsPluginNativeWindowGtk
+.
+h
+'
+'
 nsPluginPlayPreviewInfo
 .
 h
