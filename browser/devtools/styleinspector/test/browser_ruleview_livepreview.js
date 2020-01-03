@@ -272,6 +272,7 @@ editor
 yield
 focusEditableField
 (
+ruleView
 propEditor
 .
 valueSpan
