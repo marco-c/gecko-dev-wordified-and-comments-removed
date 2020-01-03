@@ -840,6 +840,11 @@ Headers
 webidl
 '
 '
+HeapSnapshot
+.
+webidl
+'
+'
 History
 .
 webidl
