@@ -1375,7 +1375,7 @@ c
 +
 args
                 
-canCreateJob
+can_create_job
 =
 winprocess
 .
@@ -1383,9 +1383,21 @@ CanCreateJobObject
 (
 )
                 
+can_nest_jobs
+=
+self
+.
+_can_nest_jobs
+(
+)
+                
 if
 not
-canCreateJob
+(
+can_create_job
+or
+can_nest_jobs
+)
 and
 not
 self
@@ -1427,7 +1439,7 @@ winprocess
 CREATE_UNICODE_ENVIRONMENT
                 
 if
-canCreateJob
+can_create_job
 :
                     
 creationflags
@@ -1437,7 +1449,13 @@ winprocess
 .
 CREATE_BREAKAWAY_FROM_JOB
                 
-else
+if
+not
+(
+can_create_job
+or
+can_nest_jobs
+)
 :
                     
 print
@@ -1516,7 +1534,11 @@ self
 .
 _ignore_children
 and
-canCreateJob
+(
+can_create_job
+or
+can_nest_jobs
+)
 :
                     
 try
@@ -1813,6 +1835,45 @@ i
 .
 Close
 (
+)
+            
+def
+_can_nest_jobs
+(
+self
+)
+:
+                
+winver
+=
+sys
+.
+getwindowsversion
+(
+)
+                
+return
+(
+winver
+.
+major
+>
+6
+or
+                        
+winver
+.
+major
+=
+=
+6
+and
+winver
+.
+minor
+>
+=
+2
 )
             
 def
