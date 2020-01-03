@@ -153,6 +153,10 @@ test_addons_DEST
 (
 TESTROOT
 )
+test_addons_TARGET
+:
+=
+misc
 sinclude
 (
 topsrcdir
