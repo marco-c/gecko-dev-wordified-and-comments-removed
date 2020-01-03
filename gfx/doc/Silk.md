@@ -287,7 +287,7 @@ img
 src
 =
 "
-architecture
+silkArchitecture
 .
 png
 "
