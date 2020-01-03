@@ -81,6 +81,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
