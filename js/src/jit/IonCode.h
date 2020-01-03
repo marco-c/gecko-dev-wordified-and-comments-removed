@@ -1960,11 +1960,6 @@ purgeCaches
 )
 ;
 void
-destroyCaches
-(
-)
-;
-void
 unlinkFromRuntime
 (
 FreeOp
