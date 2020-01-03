@@ -900,6 +900,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -907,6 +908,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "
@@ -1386,6 +1388,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -1393,6 +1396,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "
@@ -2318,6 +2322,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -2325,6 +2330,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "
@@ -3188,6 +3194,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -3195,6 +3202,7 @@ fputs
 out
 )
 ;
+}
 nsAutoString
 buffer
 ;
@@ -3914,6 +3922,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -3921,6 +3930,7 @@ fputs
 out
 )
 ;
+}
 nsAutoCString
 str
 ;
@@ -5040,6 +5050,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -5047,6 +5058,7 @@ fputs
 out
 )
 ;
+}
 nsAutoString
 buffer
 ;
@@ -7821,6 +7833,7 @@ i
 0
 ;
 )
+{
 fputs
 (
 "
@@ -7828,6 +7841,7 @@ fputs
 out
 )
 ;
+}
 fprintf
 (
 out
@@ -8805,6 +8819,7 @@ index
 0
 ;
 )
+{
 fputs
 (
 "
@@ -8812,6 +8827,7 @@ fputs
 out
 )
 ;
+}
 nsAutoString
 tmp
 ;
@@ -9543,6 +9559,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -9550,6 +9567,7 @@ fputs
 out
 )
 ;
+}
 fprintf
 (
 out
@@ -10772,6 +10790,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -10779,6 +10798,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "
@@ -11270,6 +11290,7 @@ indent
 0
 ;
 )
+{
 fputs
 (
 "
@@ -11277,6 +11298,7 @@ fputs
 out
 )
 ;
+}
 fputs
 (
 "

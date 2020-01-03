@@ -998,6 +998,7 @@ indent
 -
 indent
 )
+{
 fputs
 (
 "
@@ -1005,6 +1006,7 @@ fputs
 out
 )
 ;
+}
 Attrs
 (
 )
