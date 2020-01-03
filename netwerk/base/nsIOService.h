@@ -153,7 +153,13 @@ file
 http
 "
 "
+https
+"
+"
 jar
+"
+"
+data
 "
 "
 resource
