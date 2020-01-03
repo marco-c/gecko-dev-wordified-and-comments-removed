@@ -46,11 +46,6 @@ nsCommandParams
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICOMMANDPARAMS
-nsresult
-Init
-(
-)
-;
 protected
 :
 virtual
@@ -497,7 +492,7 @@ PLDHashEntryHdr
 aEntry
 )
 ;
-PLDHashTable
+PLDHashTable2
 mValuesHash
 ;
 static
