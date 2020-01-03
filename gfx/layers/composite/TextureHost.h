@@ -1282,17 +1282,6 @@ return
 false
 ;
 }
-virtual
-TextureHostOGL
-*
-AsHostOGL
-(
-)
-{
-return
-nullptr
-;
-}
 void
 AddCompositableRef
 (
