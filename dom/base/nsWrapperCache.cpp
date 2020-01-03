@@ -375,10 +375,7 @@ if
 (
 aPtr
 .
-is
-<
-JSObject
->
+isObject
 (
 )
 )
@@ -388,13 +385,9 @@ callback
 >
 NoteJSObject
 (
-&
 aPtr
 .
-as
-<
-JSObject
->
+toObject
 (
 )
 )
