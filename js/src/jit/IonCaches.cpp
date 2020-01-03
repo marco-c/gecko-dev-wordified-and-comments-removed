@@ -14262,9 +14262,7 @@ object
 value
 (
 )
-needsTypeBarrier
-(
-)
+checkTypeset
 )
 ;
 return
