@@ -296,6 +296,8 @@ LOCAL_INCLUDES
 '
 /
 image
+/
+src
 '
 ]
 FINAL_LIBRARY
