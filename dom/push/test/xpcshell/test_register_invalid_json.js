@@ -7,6 +7,7 @@ const
 {
 PushDB
 PushService
+PushServiceWebSocket
 }
 =
 serviceExports
@@ -119,7 +120,7 @@ registers
 =
 0
 ;
-PushService
+PushServiceWebSocket
 .
 _generateID
 =
@@ -134,6 +135,20 @@ PushService
 init
 (
 {
+serverURI
+:
+"
+wss
+:
+/
+/
+push
+.
+example
+.
+org
+/
+"
 networkInfo
 :
 new
