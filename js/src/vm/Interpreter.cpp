@@ -342,14 +342,14 @@ XP_WIN
 #
 include
 <
-Processthreadsapi
+processthreadsapi
 .
 h
 >
 #
 include
 <
-Windows
+windows
 .
 h
 >
