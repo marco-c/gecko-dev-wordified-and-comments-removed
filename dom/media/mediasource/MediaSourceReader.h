@@ -599,6 +599,7 @@ SwitchSourceResult
 SwitchAudioSource
 (
 int64_t
+*
 aTarget
 )
 ;
@@ -606,6 +607,7 @@ SwitchSourceResult
 SwitchVideoSource
 (
 int64_t
+*
 aTarget
 )
 ;
