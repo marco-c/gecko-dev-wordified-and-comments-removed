@@ -272,6 +272,10 @@ aName
 nsHtml5HtmlAttributes
 *
 aAttributes
+nsIContent
+*
+*
+aIntendedParent
 )
 ;
 nsIContent
