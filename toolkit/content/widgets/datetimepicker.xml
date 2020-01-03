@@ -331,8 +331,6 @@ inherits
 =
 "
 context
-disabled
-readonly
 "
 >
 <
@@ -9024,12 +9022,6 @@ if
 this
 .
 disabled
-&
-&
-!
-this
-.
-readOnly
 )
 {
 var
@@ -9632,8 +9624,6 @@ inherits
 =
 "
 context
-disabled
-readonly
 "
 >
 <
