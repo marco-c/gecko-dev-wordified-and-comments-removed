@@ -622,16 +622,6 @@ areTabsShown
 Override
 public
 void
-setToolBarButtonsAlpha
-(
-float
-alpha
-)
-{
-}
-Override
-public
-void
 startEditing
 (
 final
