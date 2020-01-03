@@ -37,13 +37,6 @@ h
 #
 include
 "
-AudioChannelAgent
-.
-h
-"
-#
-include
-"
 android_audio
 /
 AudioSystem
@@ -261,12 +254,6 @@ hal
 SwitchObserver
 >
 mObserver
-;
-nsCOMPtr
-<
-nsIAudioChannelAgent
->
-mPhoneAudioAgent
 ;
 #
 ifdef
