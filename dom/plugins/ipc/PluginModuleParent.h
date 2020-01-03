@@ -1223,11 +1223,6 @@ MOZ_OVERRIDE
 }
 #
 endif
-static
-PluginModuleContentParent
-*
-sSavedModuleParent
-;
 }
 ;
 class
