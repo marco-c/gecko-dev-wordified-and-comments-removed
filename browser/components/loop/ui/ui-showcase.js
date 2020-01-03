@@ -282,6 +282,10 @@ mozLoop
 navigator
 .
 mozLoop
+sdkDriver
+:
+{
+}
 }
 )
 ;

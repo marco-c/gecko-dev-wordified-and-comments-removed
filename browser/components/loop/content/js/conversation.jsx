@@ -3875,6 +3875,15 @@ props
 .
 roomStore
 }
+dispatcher
+=
+{
+this
+.
+props
+.
+dispatcher
+}
 /
 >
 )
@@ -4185,6 +4194,9 @@ mozLoop
 navigator
 .
 mozLoop
+sdkDriver
+:
+sdkDriver
 }
 )
 ;

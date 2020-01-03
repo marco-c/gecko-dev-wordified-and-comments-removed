@@ -2368,6 +2368,10 @@ dispatcher
 mozLoop
 :
 fakeMozLoop
+sdkDriver
+:
+{
+}
 }
 )
 ;
