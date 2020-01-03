@@ -5734,6 +5734,17 @@ IsHardwareAccelerated
 )
 ;
 }
+while
+(
+decoder
+.
+mOutput
+.
+Length
+(
+)
+)
+{
 nsRefPtr
 <
 MediaData
@@ -5812,6 +5823,8 @@ reset
 (
 )
 ;
+break
+;
 }
 else
 {
@@ -5872,6 +5885,7 @@ output
 mKeyframe
 )
 ;
+}
 }
 }
 else
