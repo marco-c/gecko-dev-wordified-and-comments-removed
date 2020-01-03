@@ -129,8 +129,11 @@ BYTE
 >
 mUserData
 ;
-int64_t
-mAudioFrameOffset
+media
+:
+:
+TimeUnit
+mAudioTimeOffset
 ;
 int64_t
 mAudioFrameSum
