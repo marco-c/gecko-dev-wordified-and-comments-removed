@@ -3482,19 +3482,6 @@ scopes
 )
 )
         
-graph
-[
-'
-scopes
-'
-]
-=
-[
-"
-*
-"
-]
-        
 if
 params
 [
