@@ -49,14 +49,6 @@ promiseSearchComplete
 (
 )
 ;
-yield
-promisePopupShown
-(
-gURLBar
-.
-popup
-)
-;
 let
 firstResult
 =

@@ -45,14 +45,6 @@ promiseSearchComplete
 (
 )
 ;
-yield
-promisePopupShown
-(
-gURLBar
-.
-popup
-)
-;
 ok
 (
 gURLBar
