@@ -1160,13 +1160,10 @@ AllocKind
 ACCESSOR_SHAPE
 |
 |
+IsObjectAllocKind
+(
 kind
-<
-=
-AllocKind
-:
-:
-OBJECT_LAST
+)
 )
 ;
 if
