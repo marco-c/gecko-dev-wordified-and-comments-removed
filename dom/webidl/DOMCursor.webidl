@@ -94,7 +94,7 @@ MPL
 interface
 DOMCursor
 :
-DOMRequest
+EventTarget
 {
 readonly
 attribute
@@ -110,4 +110,8 @@ continue
 )
 ;
 }
+;
+DOMCursor
+implements
+DOMRequestShared
 ;
