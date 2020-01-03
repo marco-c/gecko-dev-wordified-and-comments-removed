@@ -634,7 +634,7 @@ insideEval
 ;
 const
 bool
-insideNonGlobalEval
+hasGlobalScope
 :
 1
 ;
@@ -683,7 +683,7 @@ StaticEvalObject
 >
 evalStaticScope
 bool
-insideNonGlobalEval
+hasGlobalScope
 uint32_t
 lineNum
 EmitterMode

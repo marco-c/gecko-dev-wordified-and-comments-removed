@@ -3278,8 +3278,6 @@ HandleObject
 enclosingScope
 HandleFunction
 fun
-PollutedGlobalScopeOption
-polluted
 )
 ;
 extern
