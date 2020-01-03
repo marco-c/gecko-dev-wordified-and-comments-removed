@@ -2721,6 +2721,9 @@ token
 continue
 ;
 }
+#
+ifndef
+MOZ_BINARY_EXTENSIONS
 if
 (
 directive
@@ -2759,6 +2762,8 @@ token
 continue
 ;
 }
+#
+endif
 if
 (
 directive
