@@ -1108,7 +1108,6 @@ html
 double_borders_ref
 .
 html
-fails
 =
 =
 border
@@ -1127,7 +1126,3 @@ rtl
 ref
 .
 html
-#
-see
-bug
-1157569
