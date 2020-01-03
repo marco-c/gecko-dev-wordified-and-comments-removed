@@ -910,6 +910,14 @@ StyleBackground
 )
 ;
 }
+void
+MoveTo
+(
+nsStyleContext
+*
+aNewParent
+)
+;
 #
 ifdef
 DEBUG
@@ -1212,7 +1220,6 @@ const
 endif
 nsStyleContext
 *
-const
 mParent
 ;
 nsStyleContext
