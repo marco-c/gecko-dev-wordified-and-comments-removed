@@ -326,11 +326,9 @@ let
 data
 =
 {
-host
+uri
 :
 aURI
-.
-asciiHost
 }
 ;
 let
