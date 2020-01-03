@@ -1399,10 +1399,11 @@ HandleObject
 receiver
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -1441,7 +1442,7 @@ target
 receiver
 id
 vp
-strict
+result
 )
 ;
 }

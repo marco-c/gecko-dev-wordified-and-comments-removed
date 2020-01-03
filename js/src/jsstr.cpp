@@ -11731,7 +11731,6 @@ names
 lastIndex
 &
 zero
-true
 )
 ;
 }

@@ -46134,10 +46134,9 @@ rhs
 if
 (
 !
-SetProperty
+PutProperty
 (
 cx
-obj
 obj
 id
 &

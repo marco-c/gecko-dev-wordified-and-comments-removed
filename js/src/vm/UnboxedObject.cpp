@@ -2308,8 +2308,9 @@ HandleId
 id
 MutableHandleValue
 vp
-bool
-strict
+ObjectOpResult
+&
+result
 )
 {
 const
@@ -2378,7 +2379,11 @@ vp
 )
 )
 return
-true
+result
+.
+succeed
+(
+)
 ;
 if
 (
@@ -2400,7 +2405,7 @@ obj
 receiver
 id
 vp
-strict
+result
 )
 ;
 }
@@ -2412,8 +2417,8 @@ obj
 receiver
 id
 vp
-strict
 false
+result
 )
 ;
 }
@@ -2425,7 +2430,7 @@ obj
 receiver
 id
 vp
-strict
+result
 )
 ;
 }

@@ -209,10 +209,6 @@ JSIDVariant
 &
 id
 const
-bool
-&
-strict
-const
 JSVariant
 &
 value

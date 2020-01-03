@@ -2671,8 +2671,6 @@ Handle
 jsid
 >
 id
-bool
-strict
 JS
 :
 :
@@ -2684,6 +2682,12 @@ JS
 Value
 >
 vp
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE
@@ -3353,8 +3357,6 @@ Handle
 jsid
 >
 id
-bool
-strict
 JS
 :
 :
@@ -3366,6 +3368,12 @@ JS
 Value
 >
 vp
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 const
 MOZ_OVERRIDE

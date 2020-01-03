@@ -4042,15 +4042,12 @@ continue
 if
 (
 !
-SetElement
+DefineElement
 (
 cx
 array
-array
 i
-&
 val
-false
 )
 )
 return

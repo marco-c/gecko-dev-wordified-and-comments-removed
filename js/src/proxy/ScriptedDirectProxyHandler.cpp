@@ -4240,10 +4240,11 @@ HandleObject
 receiver
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -4341,8 +4342,8 @@ cx
 proxy
 receiver
 id
-strict
 vp
+result
 )
 ;
 RootedValue
@@ -4572,7 +4573,11 @@ success
 )
 ;
 return
-true
+result
+.
+succeed
+(
+)
 ;
 }
 bool

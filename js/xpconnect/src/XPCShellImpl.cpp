@@ -3530,10 +3530,11 @@ HandleObject
 obj
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 {
 #
@@ -3786,7 +3787,11 @@ valstr
 #
 endif
 return
-true
+result
+.
+succeed
+(
+)
 ;
 }
 static

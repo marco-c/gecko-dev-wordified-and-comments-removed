@@ -721,8 +721,6 @@ Handle
 jsid
 >
 id
-bool
-strict
 JS
 :
 :
@@ -734,6 +732,12 @@ JS
 Value
 >
 vp
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 ;
 static
@@ -5825,8 +5829,6 @@ Handle
 jsid
 >
 id
-bool
-strict
 JS
 :
 :
@@ -5838,6 +5840,12 @@ JS
 Value
 >
 vp
+JS
+:
+:
+ObjectOpResult
+&
+result
 )
 {
 NPObject
@@ -6097,7 +6105,11 @@ false
 ;
 }
 return
-true
+result
+.
+succeed
+(
+)
 ;
 }
 static

@@ -437,10 +437,6 @@ JSIDVariant
 &
 id
 const
-bool
-&
-strict
-const
 JSVariant
 &
 value
@@ -467,7 +463,6 @@ objId
 )
 receiverVar
 id
-strict
 value
 rs
 result
@@ -1209,10 +1204,6 @@ JSIDVariant
 &
 id
 const
-bool
-&
-strict
-const
 JSVariant
 &
 value
@@ -1237,7 +1228,6 @@ serialize
 )
 receiverVar
 id
-strict
 value
 rs
 result

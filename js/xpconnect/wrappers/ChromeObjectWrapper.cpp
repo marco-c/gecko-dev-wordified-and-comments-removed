@@ -137,10 +137,11 @@ HandleObject
 receiver
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -170,8 +171,8 @@ cx
 wrapper
 receiver
 id
-strict
 vp
+result
 )
 ;
 }

@@ -1972,6 +1972,9 @@ elemi
 ]
 )
 ;
+ObjectOpResult
+ignored
+;
 if
 (
 !
@@ -1983,7 +1986,7 @@ arrobj
 idx
 &
 tmp
-false
+ignored
 )
 )
 return

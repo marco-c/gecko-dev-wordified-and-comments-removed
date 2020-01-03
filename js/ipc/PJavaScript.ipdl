@@ -368,8 +368,6 @@ ObjectVariant
 receiver
 JSIDVariant
 id
-bool
-strict
 JSVariant
 value
 )

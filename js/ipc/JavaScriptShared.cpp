@@ -3122,10 +3122,11 @@ HandleObject
 obj
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 {
 JS_ReportError

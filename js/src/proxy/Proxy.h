@@ -230,10 +230,11 @@ HandleObject
 receiver
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 ;
 static

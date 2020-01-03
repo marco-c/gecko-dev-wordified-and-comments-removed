@@ -777,10 +777,11 @@ HandleObject
 receiver
 HandleId
 id
-bool
-strict
 MutableHandleValue
 vp
+ObjectOpResult
+&
+result
 )
 const
 {
@@ -833,8 +834,8 @@ cx
 wrapper
 receiverCopy
 id
-strict
 vp
+result
 )
 NOTHING
 )
