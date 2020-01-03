@@ -18,6 +18,13 @@ BluetoothInterface
 .
 h
 "
+#
+include
+"
+BluetoothInterfaceHelpers
+.
+h
+"
 BEGIN_BLUETOOTH_NAMESPACE
 using
 namespace
@@ -154,6 +161,9 @@ AcceptWatcher
 class
 ConnectWatcher
 ;
+class
+ListenInitOp
+;
 uint8_t
 SocketFlags
 (
@@ -164,7 +174,7 @@ aAuth
 )
 ;
 typedef
-BluetoothDaemonInterfaceRunnable0
+BluetoothResultRunnable0
 <
 BluetoothSocketResultHandler
 void
@@ -172,7 +182,7 @@ void
 ResultRunnable
 ;
 typedef
-BluetoothDaemonInterfaceRunnable1
+BluetoothResultRunnable1
 <
 BluetoothSocketResultHandler
 void
@@ -182,7 +192,7 @@ int
 IntResultRunnable
 ;
 typedef
-BluetoothDaemonInterfaceRunnable1
+BluetoothResultRunnable1
 <
 BluetoothSocketResultHandler
 void
@@ -192,12 +202,11 @@ BluetoothStatus
 ErrorRunnable
 ;
 typedef
-BluetoothDaemonInterfaceRunnable3
+BluetoothResultRunnable3
 <
 BluetoothSocketResultHandler
 void
 int
-const
 nsString
 int
 int
