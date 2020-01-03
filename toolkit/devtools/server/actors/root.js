@@ -297,6 +297,12 @@ true
 getUniqueSelector
 :
 true
+noBlackBoxing
+:
+false
+noPrettyPrinting
+:
+false
 }
 sayHello
 :
