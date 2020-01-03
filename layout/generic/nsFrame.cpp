@@ -42850,7 +42850,9 @@ if
 (
 NS_FRAME_LOG_TEST
 (
-gLogModule
+GetLogModuleInfo
+(
+)
 NS_FRAME_TRACE_CALLS
 )
 )
@@ -42918,7 +42920,9 @@ if
 (
 NS_FRAME_LOG_TEST
 (
-gLogModule
+GetLogModuleInfo
+(
+)
 NS_FRAME_TRACE_CALLS
 )
 )
@@ -43015,7 +43019,9 @@ if
 (
 NS_FRAME_LOG_TEST
 (
-gLogModule
+GetLogModuleInfo
+(
+)
 NS_FRAME_TRACE_CALLS
 )
 )
