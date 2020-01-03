@@ -4019,6 +4019,11 @@ mQuirkSheetAdded
 :
 1
 ;
+unsigned
+mNeedsPrefUpdate
+:
+1
+;
 #
 ifdef
 RESTYLE_LOGGING
