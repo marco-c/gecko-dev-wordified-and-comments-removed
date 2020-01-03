@@ -4817,7 +4817,7 @@ MetroWidget
 ContentGetAllowedTouchBehavior
 (
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
