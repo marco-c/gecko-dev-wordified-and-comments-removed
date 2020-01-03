@@ -1928,8 +1928,10 @@ nsIStreamListener
 {
 protected
 :
+nsRefPtr
+<
 XULDocument
-*
+>
 mDocument
 ;
 bool
