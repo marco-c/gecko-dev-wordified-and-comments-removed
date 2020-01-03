@@ -693,6 +693,12 @@ mTotalBytesRead
 )
 ;
 }
+virtual
+uint32_t
+Version
+(
+)
+;
 private
 :
 enum
