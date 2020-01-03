@@ -1266,6 +1266,8 @@ HandleObject
 parent
 HandleValue
 thisv
+HandleValue
+newTargetv
 )
 ;
 bool
