@@ -366,11 +366,10 @@ PREF_GETADDONS_CACHE_ENABLED
 true
 )
 ;
-gInternalManager
+AddonManagerInternal
 .
-notify
+backgroundUpdateCheck
 (
-null
 )
 ;
 }

@@ -682,7 +682,7 @@ aTimer
 {
 AddonManagerPrivate
 .
-backgroundUpdateCheck
+backgroundUpdateTimerHandler
 (
 )
 ;
