@@ -222,6 +222,12 @@ target
 .
 result
 )
+{
+count
++
+=
+1
+;
 e
 .
 target
@@ -231,6 +237,7 @@ result
 continue
 (
 )
+}
 }
 )
 txn
@@ -245,6 +252,12 @@ function
 (
 )
 {
+assert_equals
+(
+count
+100
+)
+;
 this
 .
 done

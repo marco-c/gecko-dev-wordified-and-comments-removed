@@ -2116,8 +2116,8 @@ pull
 request
 is
 accepted
-detele
-youre
+delete
+your
 branch
 (
 see
