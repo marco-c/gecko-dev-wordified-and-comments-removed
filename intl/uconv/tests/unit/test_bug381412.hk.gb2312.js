@@ -2,9 +2,9 @@ const
 charset
 =
 "
-hz
+HZ
 -
-gb
+GB
 -
 2312
 "
@@ -216,6 +216,12 @@ new
 ScriptableUnicodeConverter
 (
 )
+;
+converter
+.
+isInternal
+=
+true
 ;
 converter
 .
