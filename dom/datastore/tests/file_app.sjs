@@ -350,13 +350,11 @@ data
 "
 ;
 let
-(
 str
 =
 {
 }
-)
-{
+;
 let
 read
 =
@@ -405,7 +403,6 @@ read
 0
 )
 ;
-}
 cis
 .
 close
