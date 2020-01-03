@@ -71,6 +71,9 @@ PCacheStreamControl
 include
 InputStreamParams
 ;
+include
+ChannelInfo
+;
 using
 HeadersGuardEnum
 from
@@ -334,8 +337,8 @@ headersGuard
 CacheReadStreamOrVoid
 body
 ;
-nsCString
-securityInfo
+IPCChannelInfo
+channelInfo
 ;
 }
 ;
