@@ -174,13 +174,6 @@ h
 #
 include
 "
-nsIDOMDeviceStorage
-.
-h
-"
-#
-include
-"
 nsIDOMDOMCursor
 .
 h
@@ -2582,10 +2575,6 @@ DataContainerEvent
 DEFINE_SHIM
 (
 DataTransfer
-)
-DEFINE_SHIM
-(
-DeviceStorage
 )
 DEFINE_SHIM
 (
