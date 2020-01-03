@@ -101,6 +101,8 @@ aAlertCookie
 nsIObserver
 *
 aAlertListener
+bool
+aInPrivateBrowsing
 )
 ;
 void
@@ -330,6 +332,8 @@ const
 nsAString
 &
 aImageUrl
+bool
+aInPrivateBrowsing
 )
 ;
 nsresult

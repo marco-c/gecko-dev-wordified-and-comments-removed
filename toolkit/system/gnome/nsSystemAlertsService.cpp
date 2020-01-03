@@ -123,6 +123,8 @@ aData
 nsIPrincipal
 *
 aPrincipal
+bool
+aInPrivateBrowsing
 )
 {
 nsRefPtr
@@ -156,6 +158,7 @@ aAlertText
 aAlertTextClickable
 aAlertCookie
 aAlertListener
+aInPrivateBrowsing
 )
 ;
 }

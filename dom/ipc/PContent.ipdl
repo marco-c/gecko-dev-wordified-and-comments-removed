@@ -2858,6 +2858,8 @@ nsString
 data
 Principal
 principal
+bool
+inPrivateBrowsing
 )
 ;
 CloseAlert

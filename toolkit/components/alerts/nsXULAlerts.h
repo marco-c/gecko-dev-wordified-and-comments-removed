@@ -89,6 +89,8 @@ const
 nsAString
 &
 aLang
+bool
+aInPrivateBrowsing
 )
 ;
 nsresult

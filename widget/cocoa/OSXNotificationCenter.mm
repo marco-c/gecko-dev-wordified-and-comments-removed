@@ -1048,6 +1048,8 @@ aData
 nsIPrincipal
 *
 aPrincipal
+bool
+aInPrivateBrowsing
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -1400,6 +1402,13 @@ aPrincipal
 nullptr
 this
 nullptr
+aInPrivateBrowsing
+?
+nsIRequest
+:
+:
+LOAD_ANONYMOUS
+:
 nsIRequest
 :
 :

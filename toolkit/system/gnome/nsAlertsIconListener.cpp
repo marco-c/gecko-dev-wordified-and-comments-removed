@@ -984,6 +984,8 @@ const
 nsAString
 &
 aImageUrl
+bool
+aInPrivateBrowsing
 )
 {
 if
@@ -1084,6 +1086,13 @@ nullptr
 nullptr
 this
 nullptr
+aInPrivateBrowsing
+?
+nsIRequest
+:
+:
+LOAD_ANONYMOUS
+:
 nsIRequest
 :
 :
@@ -1280,6 +1289,8 @@ aAlertCookie
 nsIObserver
 *
 aAlertListener
+bool
+aInPrivateBrowsing
 )
 {
 if
@@ -1628,6 +1639,7 @@ return
 StartRequest
 (
 aImageUrl
+aInPrivateBrowsing
 )
 ;
 }
