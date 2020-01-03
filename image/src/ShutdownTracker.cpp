@@ -70,6 +70,7 @@ const
 char16_t
 *
 )
+MOZ_OVERRIDE
 {
 if
 (

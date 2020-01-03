@@ -139,6 +139,7 @@ void
 FinishInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -146,12 +147,14 @@ NeedsNewFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 AllocateFrame
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

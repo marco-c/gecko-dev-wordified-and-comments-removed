@@ -274,12 +274,14 @@ nsresult
 StartAnimation
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 StopAnimation
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 Init
@@ -291,6 +293,7 @@ aMimeType
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIntRect
@@ -345,6 +348,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 size_t
@@ -356,6 +360,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 void
 Discard
@@ -1152,6 +1157,7 @@ bool
 ShouldAnimate
 (
 )
+MOZ_OVERRIDE
 ;
 friend
 class

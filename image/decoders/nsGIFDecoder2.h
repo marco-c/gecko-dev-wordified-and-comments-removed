@@ -75,6 +75,7 @@ void
 FinishInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Telemetry
@@ -84,6 +85,7 @@ ID
 SpeedHistogram
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

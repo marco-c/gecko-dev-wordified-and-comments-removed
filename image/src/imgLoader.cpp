@@ -271,6 +271,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
