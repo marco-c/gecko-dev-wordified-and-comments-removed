@@ -1150,7 +1150,6 @@ forget
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
 Pair
 <
 already_AddRefed
