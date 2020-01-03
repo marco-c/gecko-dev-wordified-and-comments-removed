@@ -74,6 +74,10 @@ ServiceWorkerPeriodicUpdater
 >
 sInstance
 ;
+static
+bool
+sPeriodicUpdatesEnabled
+;
 }
 ;
 }

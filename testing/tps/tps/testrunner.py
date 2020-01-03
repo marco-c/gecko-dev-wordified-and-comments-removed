@@ -421,6 +421,20 @@ max_resumed_crashes
 :
 -
 1
+        
+'
+dom
+.
+serviceWorkers
+.
+periodic
+-
+updates
+.
+enabled
+'
+:
+False
     
 }
     

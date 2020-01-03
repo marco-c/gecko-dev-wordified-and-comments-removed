@@ -1071,6 +1071,23 @@ notifiedOptOut
 =
 999
         
+prefs
+[
+"
+dom
+.
+serviceWorkers
+.
+periodic
+-
+updates
+.
+enabled
+"
+]
+=
+False
+        
 profile
 .
 set_preferences

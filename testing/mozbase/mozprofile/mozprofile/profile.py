@@ -2409,6 +2409,20 @@ dummy
 /
 '
                    
+'
+dom
+.
+serviceWorkers
+.
+periodic
+-
+updates
+.
+enabled
+'
+:
+False
+                   
 }
 class
 MetroFirefoxProfile
@@ -2654,6 +2668,20 @@ telemetry
 dummy
 /
 '
+                   
+'
+dom
+.
+serviceWorkers
+.
+periodic
+-
+updates
+.
+enabled
+'
+:
+False
                    
 }
 class
