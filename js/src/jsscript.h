@@ -714,14 +714,6 @@ Binding
 bindingArray
 )
 ;
-bool
-initTrivial
-(
-ExclusiveContext
-*
-cx
-)
-;
 void
 updateNumBlockScoped
 (
