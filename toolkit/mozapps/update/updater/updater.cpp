@@ -372,6 +372,13 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+defined
+(
+XP_MACOSX
+)
 #
 include
 "
@@ -10187,6 +10194,13 @@ MOZ_VERIFY_MAR_SIGNATURE
 defined
 (
 XP_WIN
+)
+&
+&
+!
+defined
+(
+XP_MACOSX
 )
 if
 (
