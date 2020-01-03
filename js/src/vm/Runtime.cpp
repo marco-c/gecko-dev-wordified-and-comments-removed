@@ -3314,6 +3314,17 @@ isHeapBusy
 return
 nullptr
 ;
+if
+(
+!
+oom
+:
+:
+IsSimulatedOOMAllocation
+(
+)
+)
+{
 gc
 .
 onOutOfMallocMemory
@@ -3389,6 +3400,7 @@ p
 return
 p
 ;
+}
 if
 (
 maybecx
