@@ -41,7 +41,7 @@ import
 tempfile
 outputVersion
 =
-2
+3
 allocatorFns
 =
 [
@@ -3947,6 +3947,25 @@ n
 )
 )
         
+if
+dmdEnvVar
+=
+=
+None
+:
+            
+out
+(
+'
+DMD
+is
+undefined
+'
+)
+        
+else
+:
+            
 out
 (
 '

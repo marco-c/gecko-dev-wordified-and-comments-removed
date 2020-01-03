@@ -111,7 +111,11 @@ Invocation
 DMD
 =
 '
-1
+-
+-
+mode
+=
+live
 '
 Sample
 -

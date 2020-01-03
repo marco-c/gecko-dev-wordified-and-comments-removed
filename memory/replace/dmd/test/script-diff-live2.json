@@ -3,7 +3,7 @@
 version
 "
 :
-2
+3
 "
 invocation
 "
@@ -14,6 +14,11 @@ dmdEnvVar
 "
 :
 "
+-
+-
+mode
+=
+live
 -
 -
 sample
