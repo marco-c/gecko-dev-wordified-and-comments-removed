@@ -212,11 +212,6 @@ type
 "
 ;
 const
-TEST_PING_RETENTION
-=
-180
-;
-const
 PLATFORM_VERSION
 =
 "
@@ -402,9 +397,6 @@ aSendClientId
 addEnvironment
 :
 aSendEnvironment
-retentionDays
-:
-TEST_PING_RETENTION
 }
 ;
 return
