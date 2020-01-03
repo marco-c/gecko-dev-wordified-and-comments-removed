@@ -1015,6 +1015,15 @@ mTable
 )
 )
 ;
+aOther
+.
+mTable
+.
+SetOps
+(
+nullptr
+)
+;
 }
 template
 <
