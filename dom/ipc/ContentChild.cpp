@@ -10368,7 +10368,7 @@ bool
 ContentChild
 :
 :
-AnswerGetProfile
+RecvGetProfile
 (
 nsCString
 *

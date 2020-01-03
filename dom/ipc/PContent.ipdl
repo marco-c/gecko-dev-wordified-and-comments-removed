@@ -2104,7 +2104,11 @@ StopProfiler
 (
 )
 ;
-intr
+prio
+(
+high
+)
+sync
 GetProfile
 (
 )
