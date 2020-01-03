@@ -420,6 +420,9 @@ findActionFromEvent
 e
 .
 target
+this
+.
+_parent
 )
 ;
 if
