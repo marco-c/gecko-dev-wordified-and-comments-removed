@@ -69,15 +69,6 @@ nsPluginNativeWindowGtk
 h
 "
 #
-else
-#
-include
-"
-nsPluginNativeWindow
-.
-h
-"
-#
 endif
 using
 namespace
