@@ -996,14 +996,6 @@ JSObject
 global
 )
 ;
-bool
-IsDebuggerSandbox
-(
-JSObject
-*
-object
-)
-;
 extern
 bool
 GetterOnlyJSNative
