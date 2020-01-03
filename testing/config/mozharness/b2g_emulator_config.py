@@ -768,7 +768,7 @@ manifest
 =
 tests
 /
-xpcshell_b2g
+xpcshell
 .
 ini
 "

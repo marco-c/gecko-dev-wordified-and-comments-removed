@@ -1707,7 +1707,7 @@ _tests
 /
 xpcshell
 /
-xpcshell_android
+xpcshell
 .
 ini
 '
@@ -2680,7 +2680,7 @@ self
 .
 xpcshell_dir
 '
-xpcshell_b2g
+xpcshell
 .
 ini
 '
