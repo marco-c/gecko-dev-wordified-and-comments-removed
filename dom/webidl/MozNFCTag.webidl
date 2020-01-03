@@ -385,7 +385,6 @@ tag
 *
 /
 [
-Pure
 Constant
 ]
 readonly
