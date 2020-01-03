@@ -992,6 +992,15 @@ isFake
 ;
 }
 ;
+union
+MaybeFileDesc
+{
+FileDescriptor
+;
+void_t
+;
+}
+;
 intr
 protocol
 PContent
@@ -1447,7 +1456,7 @@ bool
 anonymize
 bool
 minimizeMemoryUsage
-FileDescriptor
+MaybeFileDesc
 DMDFile
 )
 ;
