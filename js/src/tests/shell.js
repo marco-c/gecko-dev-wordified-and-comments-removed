@@ -2558,9 +2558,6 @@ return
 deriv
 ;
 }
-return
-0
-;
 }
 function
 compareSource
