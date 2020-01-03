@@ -287,6 +287,11 @@ nsUpdateService
 .
 manifest
 '
+'
+nsUpdateServiceStub
+.
+js
+'
 ]
 EXTRA_PP_COMPONENTS
 +
@@ -294,11 +299,6 @@ EXTRA_PP_COMPONENTS
 [
 '
 nsUpdateService
-.
-js
-'
-'
-nsUpdateServiceStub
 .
 js
 '
