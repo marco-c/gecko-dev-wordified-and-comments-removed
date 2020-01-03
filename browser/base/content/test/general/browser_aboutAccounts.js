@@ -1334,8 +1334,7 @@ promiseNewTabLoadEvent
 "
 about
 :
-blank
-?
+robots
 "
 )
 ;
@@ -1635,8 +1634,7 @@ promiseNewTabLoadEvent
 "
 about
 :
-blank
-?
+robots
 "
 )
 ;
