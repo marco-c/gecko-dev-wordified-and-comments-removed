@@ -569,6 +569,7 @@ define
 [
 MOZ_RUN_ALL_SUBCONFIGURES
 ]
+[
 MOZ_RUN_SUBCONFIGURES
 (
 [
@@ -582,6 +583,7 @@ skip
 skip_subconfigures
 ]
 )
+]
 )
 dnl
 Print
