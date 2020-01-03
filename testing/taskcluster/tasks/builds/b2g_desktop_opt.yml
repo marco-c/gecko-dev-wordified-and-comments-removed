@@ -40,6 +40,13 @@ objects
 -
 opt
 '
+workerType
+:
+b2g
+-
+desktop
+-
+opt
 payload
 :
 cache

@@ -28,9 +28,9 @@ Mulet
 Linux
 workerType
 :
-b2gbuild
+mulet
 -
-desktop
+opt
 scopes
 :
 -

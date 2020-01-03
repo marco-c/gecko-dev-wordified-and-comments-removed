@@ -40,6 +40,13 @@ objects
 -
 debug
 '
+workerType
+:
+b2g
+-
+desktop
+-
+debug
 extra
 :
 treeherder
