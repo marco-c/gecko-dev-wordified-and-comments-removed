@@ -438,6 +438,12 @@ AppendSpacingToPadding
 nsFontMetrics
 *
 aFontMetrics
+mozilla
+:
+:
+LogicalMargin
+*
+aPadding
 )
 ;
 void
@@ -454,6 +460,12 @@ nsHTMLReflowMetrics
 aMetrics
 float
 aFontSizeInflation
+mozilla
+:
+:
+LogicalMargin
+*
+aPadding
 )
 ;
 void
