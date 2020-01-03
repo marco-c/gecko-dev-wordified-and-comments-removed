@@ -809,7 +809,7 @@ moz_no_arith_expr_in_arg
 )
 #
 define
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 __attribute__
 (
 (
@@ -823,7 +823,7 @@ moz_strong_ref
 )
 #
 define
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 __attribute__
 (
 (
@@ -913,10 +913,10 @@ define
 MOZ_HEAP_ALLOCATOR
 #
 define
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 #
 define
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 #
 endif
 #

@@ -349,7 +349,7 @@ private
 :
 nsISupports
 *
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 mRawPtr
 ;
 }
@@ -399,7 +399,7 @@ private
 :
 nsISupports
 *
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 mRawPtr
 ;
 nsresult
@@ -825,7 +825,7 @@ NS_MAY_ALIAS_PTR
 (
 nsISupports
 )
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 mRawPtr
 ;
 void
@@ -1052,7 +1052,7 @@ private
 :
 T
 *
-MOZ_STRONG_REF
+MOZ_OWNING_REF
 mRawPtr
 ;
 #

@@ -31,7 +31,7 @@ size
 ;
 nsIFile
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 directory
 ;
 const
@@ -74,7 +74,7 @@ flags
 ;
 nsIFile
 *
-MOZ_WEAK_REF
+MOZ_NON_OWNING_REF
 xreDirectory
 ;
 const
