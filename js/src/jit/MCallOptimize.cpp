@@ -7426,7 +7426,7 @@ alloc
 last
 cases
 [
-2
+i
 ]
 returnType
 max
