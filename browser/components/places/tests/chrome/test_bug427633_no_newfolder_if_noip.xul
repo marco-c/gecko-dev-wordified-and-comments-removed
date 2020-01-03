@@ -584,7 +584,7 @@ ok
 (
 gEditItemOverlay
 .
-_initialized
+initialized
 "
 gEditItemOverlay
 is
