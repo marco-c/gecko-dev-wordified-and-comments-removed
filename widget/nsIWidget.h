@@ -3400,6 +3400,15 @@ const
 =
 0
 ;
+virtual
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+=
+0
+;
 NS_IMETHOD
 EnableDragDrop
 (

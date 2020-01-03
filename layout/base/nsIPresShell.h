@@ -2915,6 +2915,14 @@ GetLayerManager
 0
 ;
 virtual
+bool
+AsyncPanZoomEnabled
+(
+)
+=
+0
+;
+virtual
 void
 SetIgnoreViewportScrolling
 (

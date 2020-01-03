@@ -2570,6 +2570,12 @@ CSSPoint
 aPoint
 )
 ;
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+;
 void
 ApzAwareEventRoutingToChild
 (

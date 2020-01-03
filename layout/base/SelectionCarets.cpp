@@ -223,6 +223,13 @@ h
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 TouchCaret
 .
 h
@@ -637,9 +644,9 @@ MOZ_WIDGET_GONK
 )
 mUseAsyncPanZoom
 =
-gfxPrefs
-:
-:
+mPresShell
+-
+>
 AsyncPanZoomEnabled
 (
 )

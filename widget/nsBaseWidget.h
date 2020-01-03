@@ -1363,6 +1363,13 @@ aTargets
 const
 override
 ;
+bool
+AsyncPanZoomEnabled
+(
+)
+const
+override
+;
 void
 NotifyWindowDestroyed
 (

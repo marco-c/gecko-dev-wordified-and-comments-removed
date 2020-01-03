@@ -991,6 +991,12 @@ ProgressivePaintDoNotUseDirectly
 )
 ;
 }
+static
+bool
+AsyncPanZoomEnabled
+(
+)
+;
 void
 GetAzureBackendInfo
 (

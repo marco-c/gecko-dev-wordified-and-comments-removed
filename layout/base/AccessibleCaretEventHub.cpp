@@ -22,6 +22,13 @@ h
 #
 include
 "
+Layers
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h
@@ -1633,9 +1640,9 @@ MOZ_WIDGET_GONK
 )
 mUseAsyncPanZoom
 =
-gfxPrefs
-:
-:
+mPresShell
+-
+>
 AsyncPanZoomEnabled
 (
 )
