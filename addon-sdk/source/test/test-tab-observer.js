@@ -288,6 +288,8 @@ done
 require
 (
 "
+sdk
+/
 test
 "
 )

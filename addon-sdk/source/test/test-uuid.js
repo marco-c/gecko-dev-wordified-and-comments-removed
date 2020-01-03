@@ -207,6 +207,8 @@ value
 require
 (
 '
+sdk
+/
 test
 '
 )

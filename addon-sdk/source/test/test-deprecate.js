@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 const
 deprecate
@@ -848,7 +848,6 @@ testDeprecateSettingToggle
 function
 (
 assert
-done
 )
 {
 let
@@ -968,10 +967,6 @@ new
 deprecation
 warnings
 '
-)
-;
-done
-(
 )
 ;
 }
@@ -1194,6 +1189,8 @@ fire
 require
 (
 "
+sdk
+/
 test
 "
 )

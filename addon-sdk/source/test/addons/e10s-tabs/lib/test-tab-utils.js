@@ -21,7 +21,6 @@ utils
 ;
 const
 {
-isGlobalPBSupported
 isWindowPBSupported
 isTabPBSupported
 }
@@ -172,7 +171,7 @@ isWindowPBSupported
 {
 exports
 .
-testGetTabs
+testGetTabsPWPB
 =
 function
 (
@@ -437,7 +436,7 @@ isTabPBSupported
 {
 exports
 .
-testGetTabs
+testGetTabsPTPB
 =
 function
 (
