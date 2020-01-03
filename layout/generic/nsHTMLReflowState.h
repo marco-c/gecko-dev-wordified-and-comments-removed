@@ -2514,10 +2514,6 @@ aOutsideBoxSizing
 void
 CalculateBlockSideMargins
 (
-nscoord
-aAvailISize
-nscoord
-aComputedISize
 nsIAtom
 *
 aFrameType
