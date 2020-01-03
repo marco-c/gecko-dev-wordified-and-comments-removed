@@ -140,6 +140,13 @@ SIMD
 int32x4
 ;
 var
+ci4
+=
+i4
+.
+check
+;
+var
 f4
 =
 global
@@ -850,7 +857,7 @@ one4
 ;
 }
 return
-i4
+ci4
 (
 count4
 )
@@ -980,7 +987,7 @@ y
 {
 m4
 =
-i4
+ci4
 (
 mandelPixelX4
 (
