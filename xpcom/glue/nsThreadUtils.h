@@ -1041,6 +1041,7 @@ template
 typename
 A
 >
+explicit
 StoreCopyPassByValue
 (
 A
@@ -1123,6 +1124,7 @@ template
 typename
 A
 >
+explicit
 StoreCopyPassByConstLRef
 (
 A
@@ -1204,6 +1206,7 @@ template
 typename
 A
 >
+explicit
 StoreCopyPassByLRef
 (
 A
@@ -1286,6 +1289,7 @@ template
 typename
 A
 >
+explicit
 StoreCopyPassByRRef
 (
 A
@@ -1374,6 +1378,7 @@ template
 typename
 A
 >
+explicit
 StoreRefPassByLRef
 (
 A
@@ -1448,6 +1453,7 @@ template
 typename
 A
 >
+explicit
 StoreConstRefPassByConstLRef
 (
 const
@@ -1523,6 +1529,7 @@ template
 typename
 A
 >
+explicit
 StorensRefPtrPassByPtr
 (
 A
@@ -1598,6 +1605,7 @@ template
 typename
 A
 >
+explicit
 StorePtrPassByPtr
 (
 A
@@ -1671,6 +1679,7 @@ template
 typename
 A
 >
+explicit
 StoreConstPtrPassByConstPtr
 (
 A
@@ -1742,6 +1751,7 @@ template
 typename
 A
 >
+explicit
 StoreCopyPassByConstPtr
 (
 A
@@ -1824,6 +1834,7 @@ template
 typename
 A
 >
+explicit
 StoreCopyPassByPtr
 (
 A
@@ -2375,6 +2386,7 @@ template
 typename
 A0
 >
+explicit
 nsRunnableMethodArguments
 (
 A0

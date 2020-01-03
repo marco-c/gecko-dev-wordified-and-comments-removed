@@ -223,6 +223,7 @@ template
 typename
 I
 >
+MOZ_IMPLICIT
 nsAutoPtr
 (
 nsAutoPtr
@@ -269,6 +270,7 @@ template
 typename
 I
 >
+MOZ_IMPLICIT
 nsAutoPtr
 (
 nsAutoPtr

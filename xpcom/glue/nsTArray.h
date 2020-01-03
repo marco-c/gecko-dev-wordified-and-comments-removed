@@ -9091,6 +9091,7 @@ template
 typename
 Allocator
 >
+explicit
 nsAutoArrayBase
 (
 nsTArray_Impl

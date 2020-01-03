@@ -280,6 +280,7 @@ template
 typename
 I
 >
+MOZ_IMPLICIT
 nsRefPtr
 (
 already_AddRefed
@@ -305,6 +306,7 @@ template
 typename
 I
 >
+MOZ_IMPLICIT
 nsRefPtr
 (
 already_AddRefed
@@ -331,6 +333,7 @@ template
 typename
 I
 >
+MOZ_IMPLICIT
 nsRefPtr
 (
 nsRefPtr

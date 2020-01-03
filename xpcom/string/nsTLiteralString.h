@@ -17,6 +17,7 @@ template
 size_type
 N
 >
+explicit
 nsTLiteralString_CharT
 (
 const
