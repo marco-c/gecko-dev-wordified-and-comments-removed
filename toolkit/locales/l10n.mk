@@ -1487,7 +1487,12 @@ install
 .
 rdf
 )
-cd
+(
+call
+py_action
+zip
+-
+C
 (
 DIST
 )
@@ -1501,14 +1506,6 @@ locale
 (
 AB_CD
 )
-&
-&
-\
-(
-ZIP
-)
--
-r9D
 (
 LANGPACK_FILE
 )
@@ -1521,6 +1518,7 @@ PKG_ZIP_DIRS
 chrome
 .
 manifest
+)
 #
 This
 variable

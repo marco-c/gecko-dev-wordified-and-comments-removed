@@ -945,10 +945,9 @@ UNPACKAGE
 MAKE_SDK
 =
 (
-ZIP
-)
--
-r9D
+call
+py_action
+zip
 (
 SDK
 )
@@ -957,6 +956,7 @@ MOZ_APP_NAME
 )
 -
 sdk
+)
 endif
 ifeq
 (
