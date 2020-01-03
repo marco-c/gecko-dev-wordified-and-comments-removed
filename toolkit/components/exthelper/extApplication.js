@@ -2607,6 +2607,7 @@ extIExtensions
 )
 }
 ;
+var
 gExtensionObserver
 =
 new
@@ -2614,6 +2615,7 @@ ExtensionObserver
 (
 )
 ;
+var
 gPreferenceObserver
 =
 new
