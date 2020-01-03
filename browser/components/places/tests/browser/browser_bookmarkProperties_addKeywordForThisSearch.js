@@ -78,16 +78,7 @@ search
 yield
 withBookmarksDialog
 (
-function
-*
-(
-)
-{
 AddKeywordForSearchField
-(
-)
-;
-}
 function
 *
 (

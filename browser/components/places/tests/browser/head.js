@@ -1451,9 +1451,9 @@ dialog
 "
 )
 ;
-yield
-openFn
+executeSoon
 (
+openFn
 )
 ;
 info
