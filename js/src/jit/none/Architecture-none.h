@@ -696,6 +696,17 @@ MOZ_CRASH
 )
 ;
 }
+SetType
+alignedOrDominatedAliasedSet
+(
+)
+const
+{
+MOZ_CRASH
+(
+)
+;
+}
 template
 <
 typename

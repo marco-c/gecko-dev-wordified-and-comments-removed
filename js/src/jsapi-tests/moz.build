@@ -544,6 +544,11 @@ testJitRangeAnalysis
 cpp
 '
 '
+testJitRegisterSet
+.
+cpp
+'
+'
 testJitRValueAlloc
 .
 cpp
