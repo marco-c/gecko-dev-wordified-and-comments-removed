@@ -51,6 +51,14 @@ s
 ]
             
 "
+mac_res_subdir
+"
+:
+"
+MacOS
+"
+            
+"
 run_filename
 "
 :
@@ -119,6 +127,14 @@ tbpl
 "
             
 ]
+            
+"
+mac_res_subdir
+"
+:
+"
+MacOS
+"
             
 "
 run_filename
@@ -273,6 +289,14 @@ s
 ]
             
 "
+mac_res_subdir
+"
+:
+"
+MacOS
+"
+            
+"
 run_filename
 "
 :
@@ -318,6 +342,14 @@ s
 "
             
 ]
+            
+"
+mac_res_subdir
+"
+:
+"
+MacOS
+"
             
 "
 run_filename
@@ -406,6 +438,14 @@ s
 "
             
 ]
+            
+"
+mac_res_subdir
+"
+:
+"
+MacOS
+"
             
 "
 run_filename
@@ -554,6 +594,14 @@ quiet
 ]
             
 "
+mac_res_subdir
+"
+:
+"
+MacOS
+"
+            
+"
 run_filename
 "
 :
@@ -630,6 +678,14 @@ s
 "
             
 ]
+            
+"
+mac_res_subdir
+"
+:
+"
+MacOS
+"
             
 "
 run_filename
