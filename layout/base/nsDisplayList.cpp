@@ -17072,6 +17072,10 @@ ToReferenceFrame
 (
 )
 )
+mNeedsCustomScrollClip
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
