@@ -767,7 +767,7 @@ GCC_MINOR_VERSION
 "
 -
 lt
-6
+7
 |
 |
 test
@@ -786,7 +786,7 @@ Only
 GCC
 4
 .
-6
+7
 or
 newer
 supported
