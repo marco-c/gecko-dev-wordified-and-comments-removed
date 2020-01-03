@@ -95,7 +95,7 @@ MPL
 /
 include
 protocol
-PGMP
+PGMPContent
 ;
 include
 GMPTypes
@@ -142,7 +142,7 @@ protocol
 PGMPVideoDecoder
 {
 manager
-PGMP
+PGMPContent
 ;
 child
 :
@@ -244,6 +244,11 @@ Error
 (
 GMPErr
 aErr
+)
+;
+async
+Shutdown
+(
 )
 ;
 async

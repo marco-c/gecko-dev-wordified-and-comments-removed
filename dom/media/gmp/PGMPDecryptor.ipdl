@@ -95,7 +95,7 @@ MPL
 /
 include
 protocol
-PGMP
+PGMPContent
 ;
 include
 GMPTypes
@@ -166,7 +166,7 @@ protocol
 PGMPDecryptor
 {
 manager
-PGMP
+PGMPContent
 ;
 child
 :
@@ -356,6 +356,11 @@ uint8_t
 [
 ]
 aBuffer
+)
+;
+async
+Shutdown
+(
 )
 ;
 }

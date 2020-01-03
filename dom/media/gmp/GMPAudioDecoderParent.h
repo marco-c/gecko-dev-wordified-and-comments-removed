@@ -67,7 +67,7 @@ namespace
 gmp
 {
 class
-GMPParent
+GMPContentParent
 ;
 class
 GMPAudioDecoderParent
@@ -87,7 +87,7 @@ GMPAudioDecoderParent
 explicit
 GMPAudioDecoderParent
 (
-GMPParent
+GMPContentParent
 *
 aPlugin
 )
@@ -213,6 +213,13 @@ override
 ;
 virtual
 bool
+RecvShutdown
+(
+)
+override
+;
+virtual
+bool
 Recv__delete__
 (
 )
@@ -226,7 +233,7 @@ mShuttingDown
 ;
 nsRefPtr
 <
-GMPParent
+GMPContentParent
 >
 mPlugin
 ;

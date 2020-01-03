@@ -54,7 +54,7 @@ namespace
 gmp
 {
 class
-GMPParent
+GMPContentParent
 ;
 class
 GMPDecryptorParent
@@ -74,7 +74,7 @@ GMPDecryptorParent
 explicit
 GMPDecryptorParent
 (
-GMPParent
+GMPContentParent
 *
 aPlugin
 )
@@ -427,6 +427,13 @@ aCaps
 override
 ;
 virtual
+bool
+RecvShutdown
+(
+)
+override
+;
+virtual
 void
 ActorDestroy
 (
@@ -450,7 +457,7 @@ mShuttingDown
 ;
 nsRefPtr
 <
-GMPParent
+GMPContentParent
 >
 mPlugin
 ;

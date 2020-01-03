@@ -93,7 +93,7 @@ GMPDecryptorChild
 :
 GMPDecryptorChild
 (
-GMPChild
+GMPContentChild
 *
 aPlugin
 const

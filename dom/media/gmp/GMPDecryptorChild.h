@@ -54,7 +54,7 @@ namespace
 gmp
 {
 class
-GMPChild
+GMPContentChild
 ;
 class
 GMPDecryptorChild
@@ -76,7 +76,7 @@ GMPDecryptorChild
 explicit
 GMPDecryptorChild
 (
-GMPChild
+GMPContentChild
 *
 aPlugin
 const
@@ -505,7 +505,7 @@ GMPDecryptor
 *
 mSession
 ;
-GMPChild
+GMPContentChild
 *
 mPlugin
 ;
