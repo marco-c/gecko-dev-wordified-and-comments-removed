@@ -130,8 +130,9 @@ LayerTransactionParent
 *
 aLayerTree
 )
-{
-}
+=
+0
+;
 virtual
 void
 GetAPZTestData
