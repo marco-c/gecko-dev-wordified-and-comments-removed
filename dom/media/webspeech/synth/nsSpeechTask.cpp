@@ -281,6 +281,7 @@ NS_IMPL_CYCLE_COLLECTION
 nsSpeechTask
 mSpeechSynthesis
 mUtterance
+mCallback
 )
 ;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
