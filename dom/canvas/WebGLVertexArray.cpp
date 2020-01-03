@@ -93,7 +93,7 @@ context
 :
 WebGLBindableName
 <
-GLenum
+VAOBinding
 >
 (
 )

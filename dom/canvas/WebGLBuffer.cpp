@@ -53,7 +53,7 @@ context
 :
 WebGLBindableName
 <
-GLenum
+BufferBinding
 >
 (
 )
