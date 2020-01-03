@@ -6190,6 +6190,16 @@ Value
 )
 )
 ;
+FinishPersistentRootedChain
+(
+roots
+.
+heapRoots_
+[
+THING_ROOT_TRACEABLE
+]
+)
+;
 }
 void
 GCRuntime
