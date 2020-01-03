@@ -401,6 +401,11 @@ ServiceWorkerRegistration
 cpp
 '
 '
+ServiceWorkerScriptCache
+.
+cpp
+'
+'
 ServiceWorkerWindowClient
 .
 cpp

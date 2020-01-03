@@ -135,6 +135,12 @@ scriptSpec
 nsCString
 currentWorkerURL
 ;
+nsString
+activeCacheName
+;
+nsString
+waitingCacheName
+;
 PrincipalInfo
 principal
 ;
