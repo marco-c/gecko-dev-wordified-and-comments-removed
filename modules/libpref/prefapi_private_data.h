@@ -33,15 +33,6 @@ PrefSetting
 ;
 }
 }
-enum
-pref_SaveTypes
-{
-SAVE_NONSHARED
-SAVE_SHARED
-SAVE_ALL
-SAVE_ALL_AND_DEFAULTS
-}
-;
 struct
 pref_saveArgs
 {
@@ -49,9 +40,6 @@ char
 *
 *
 prefArray
-;
-pref_SaveTypes
-saveTypes
 ;
 }
 ;

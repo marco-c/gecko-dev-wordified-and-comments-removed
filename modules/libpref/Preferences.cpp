@@ -4266,12 +4266,6 @@ prefArray
 =
 valueArray
 ;
-saveArgs
-.
-saveTypes
-=
-SAVE_ALL
-;
 PL_DHashTableEnumerate
 (
 gHashTable
