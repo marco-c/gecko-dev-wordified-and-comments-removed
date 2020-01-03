@@ -2159,7 +2159,7 @@ contentBrowser
 addEventListener
 (
 '
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 '
 this
 true
@@ -2385,7 +2385,7 @@ contentBrowser
 removeEventListener
 (
 '
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 '
 this
 true
@@ -3099,7 +3099,7 @@ break
 ;
 case
 '
-mozbrowserselectionchange
+mozbrowserselectionstatechanged
 '
 :
 let
@@ -3197,7 +3197,7 @@ sendChromeEvent
 type
 :
 '
-selectionchange
+selectionstatechanged
 '
 detail
 :

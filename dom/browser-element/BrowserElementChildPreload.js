@@ -364,7 +364,7 @@ _pendingSetInputMethodActive
 ;
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 =
 false
 ;
@@ -639,11 +639,11 @@ false
 addEventListener
 (
 '
-mozselectionchange
+mozselectionstatechanged
 '
 this
 .
-_selectionChangeHandler
+_selectionStateChangedHandler
 .
 bind
 (
@@ -3035,7 +3035,7 @@ detail
 )
 ;
 }
-_selectionChangeHandler
+_selectionStateChangedHandler
 :
 function
 (
@@ -3084,7 +3084,7 @@ isMouseUp
 (
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -3114,14 +3114,14 @@ if
 !
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 )
 {
 if
 (
 e
 .
-reasons
+states
 .
 length
 =
@@ -3131,7 +3131,7 @@ length
 |
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -3146,7 +3146,7 @@ drag
 |
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -3161,7 +3161,7 @@ keypress
 |
 e
 .
-reasons
+states
 .
 indexOf
 (
@@ -3209,7 +3209,7 @@ isCollapsed
 {
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 =
 true
 ;
@@ -3218,7 +3218,7 @@ else
 {
 this
 .
-_forceDispatchSelectionChange
+_forceDispatchSelectionStateChanged
 =
 false
 ;
@@ -3321,11 +3321,11 @@ paste
 zoomFactor
 :
 zoomFactor
-reasons
+states
 :
 e
 .
-reasons
+states
 isCollapsed
 :
 (
@@ -3424,7 +3424,7 @@ parent
 sendAsyncMsg
 (
 '
-selectionchange
+selectionstatechanged
 '
 detail
 )

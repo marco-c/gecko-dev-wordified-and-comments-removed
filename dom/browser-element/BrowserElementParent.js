@@ -1043,12 +1043,12 @@ this
 .
 _gotDOMRequestResult
 "
-selectionchange
+selectionstatechanged
 "
 :
 this
 .
-_handleSelectionChange
+_handleSelectionStateChanged
 "
 scrollviewchange
 "
@@ -2098,7 +2098,7 @@ sendUnblockMsg
 ;
 }
 }
-_handleSelectionChange
+_handleSelectionStateChanged
 :
 function
 (
@@ -2113,7 +2113,7 @@ this
 _createEvent
 (
 '
-selectionchange
+selectionstatechanged
 '
 data
 .

@@ -92,7 +92,7 @@ MPL
 *
 /
 enum
-SelectionChangeReason
+SelectionState
 {
 "
 drag
@@ -118,7 +118,7 @@ collapsetoend
 }
 ;
 dictionary
-SelectionChangeEventInit
+SelectionStateChangedEventInit
 :
 EventInit
 {
@@ -136,9 +136,9 @@ null
 ;
 sequence
 <
-SelectionChangeReason
+SelectionState
 >
-reasons
+states
 =
 [
 ]
@@ -151,13 +151,13 @@ Constructor
 DOMString
 type
 optional
-SelectionChangeEventInit
+SelectionStateChangedEventInit
 eventInit
 )
 ChromeOnly
 ]
 interface
-SelectionChangeEvent
+SelectionStateChangedEvent
 :
 Event
 {
@@ -180,9 +180,9 @@ readonly
 attribute
 sequence
 <
-SelectionChangeReason
+SelectionState
 >
-reasons
+states
 ;
 }
 ;
