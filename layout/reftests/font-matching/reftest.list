@@ -536,7 +536,7 @@ MULET
 :
 Bug
 1144079
--
+:
 Re
 -
 enable
@@ -548,7 +548,6 @@ taskcluster
 -
 specific
 disables
-.
 =
 =
 localized
@@ -1375,7 +1374,7 @@ MULET
 :
 Bug
 1144079
--
+:
 Re
 -
 enable
@@ -1387,7 +1386,6 @@ taskcluster
 -
 specific
 disables
-.
 #
 Bug
 1060791

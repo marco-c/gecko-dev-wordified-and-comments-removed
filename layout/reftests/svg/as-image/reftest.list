@@ -47,7 +47,7 @@ MULET
 :
 Bug
 1144079
--
+:
 Re
 -
 enable
@@ -59,7 +59,6 @@ taskcluster
 -
 specific
 disables
-.
 skip
 -
 if
@@ -1163,7 +1162,7 @@ MULET
 :
 Bug
 1144079
--
+:
 Re
 -
 enable
@@ -1175,7 +1174,6 @@ taskcluster
 -
 specific
 disables
-.
 =
 =
 img

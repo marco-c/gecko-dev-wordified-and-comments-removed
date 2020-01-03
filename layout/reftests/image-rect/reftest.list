@@ -257,6 +257,9 @@ Android
 |
 |
 B2G
+|
+|
+Mulet
 16
 22
 )
@@ -281,6 +284,17 @@ html
 #
 Bug
 1128229
+#
+Bug
+1153574
+fuzzy
+-
+if
+(
+Mulet
+2
+11
+)
 =
 =
 background
@@ -299,6 +313,9 @@ zoom
 ref
 .
 html
+#
+Bug
+1153574
 =
 =
 background
