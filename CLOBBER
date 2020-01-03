@@ -194,9 +194,6 @@ changes
 any
 more
 .
-Bug
-1191675
-to
-fix
-xpcshell
-failures
+Merge
+day
+clobber
