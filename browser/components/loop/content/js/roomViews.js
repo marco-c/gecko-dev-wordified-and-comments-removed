@@ -1637,6 +1637,13 @@ LinkedStateMixin
 propTypes
 :
 {
+availableContext
+:
+React
+.
+PropTypes
+.
+object
 dispatcher
 :
 React

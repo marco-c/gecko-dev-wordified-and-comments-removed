@@ -116,9 +116,7 @@ React
 .
 PropTypes
 .
-component
-.
-isRequired
+element
 reset
 :
 React
