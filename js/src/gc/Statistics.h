@@ -268,7 +268,7 @@ startTimingMutator
 (
 )
 ;
-void
+bool
 stopTimingMutator
 (
 double
@@ -522,9 +522,6 @@ phaseStartTimes
 PHASE_LIMIT
 ]
 ;
-bool
-timingMutator
-;
 int64_t
 timedGCStart
 ;
@@ -571,6 +568,15 @@ MAX_NESTING
 ;
 size_t
 phaseNestingDepth
+;
+Phase
+suspendedPhases
+[
+MAX_NESTING
+]
+;
+size_t
+suspendedPhaseNestingDepth
 ;
 Vector
 <
