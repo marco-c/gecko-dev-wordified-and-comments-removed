@@ -1422,9 +1422,6 @@ mView
 nsString
 mString
 ;
-nsString
-mLastData
-;
 LONG
 mStart
 ;
