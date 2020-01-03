@@ -11,6 +11,9 @@ mozilla
 namespace
 gfx
 {
+UserDataKey
+sDisablePixelSnapping
+;
 void
 AppendRoundedRectToPath
 (
