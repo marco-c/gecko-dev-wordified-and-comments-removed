@@ -7190,9 +7190,7 @@ aData
 CpowIdHolder
 cpows
 (
-GetCPOWManager
-(
-)
+this
 aCpows
 )
 ;

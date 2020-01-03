@@ -886,9 +886,7 @@ aData
 CpowIdHolder
 cpows
 (
-GetCPOWManager
-(
-)
+this
 aCpows
 )
 ;
@@ -1038,9 +1036,7 @@ aData
 CpowIdHolder
 cpows
 (
-GetCPOWManager
-(
-)
+this
 aCpows
 )
 ;
@@ -1184,9 +1180,7 @@ aData
 CpowIdHolder
 cpows
 (
-GetCPOWManager
-(
-)
+this
 aCpows
 )
 ;
