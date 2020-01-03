@@ -4451,13 +4451,6 @@ BINPATH
 /
 res
 /
-langGroups
-.
-properties
-BINPATH
-/
-res
-/
 language
 .
 properties
