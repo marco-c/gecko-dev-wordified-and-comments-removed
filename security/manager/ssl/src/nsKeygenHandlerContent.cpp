@@ -168,7 +168,7 @@ unused
 child
 -
 >
-SendFormProcessValue
+SendKeygenProcessValue
 (
 oldValue
 challengeValue
@@ -270,7 +270,7 @@ GetSingleton
 )
 -
 >
-SendFormProvideContent
+SendKeygenProvideContent
 (
 &
 attribute

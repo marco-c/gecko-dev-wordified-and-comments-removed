@@ -3127,7 +3127,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvFormProcessValue
+RecvKeygenProcessValue
 (
 const
 nsString
@@ -3153,7 +3153,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-RecvFormProvideContent
+RecvKeygenProvideContent
 (
 nsString
 *

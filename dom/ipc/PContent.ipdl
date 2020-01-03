@@ -3631,7 +3631,7 @@ prio
 urgent
 )
 sync
-FormProcessValue
+KeygenProcessValue
 (
 nsString
 oldValue
@@ -3666,7 +3666,7 @@ elements
 *
 /
 sync
-FormProvideContent
+KeygenProvideContent
 (
 )
 returns
