@@ -90,9 +90,6 @@ aFeature
 nsIGlobalObject
 *
 aGlobal
-nsISupports
-*
-aParent
 Promise
 *
 aPromise
@@ -102,10 +99,6 @@ mGlobal
 (
 aGlobal
 )
-mParent
-(
-aParent
-)
 mPromise
 (
 aPromise
@@ -114,11 +107,6 @@ aPromise
 MOZ_ASSERT
 (
 mGlobal
-)
-;
-MOZ_ASSERT
-(
-mParent
 )
 ;
 MOZ_ASSERT
