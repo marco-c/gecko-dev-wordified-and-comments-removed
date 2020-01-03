@@ -4497,6 +4497,17 @@ makefile_content
 )
 :
         
+if
+b
+'
+EXTERNALLY_MANAGED_MAKE_FILE
+'
+in
+makefile_content
+:
+            
+return
+        
 for
 x
 in
