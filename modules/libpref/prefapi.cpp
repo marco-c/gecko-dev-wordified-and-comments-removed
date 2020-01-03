@@ -355,7 +355,7 @@ otherKey
 )
 ;
 }
-PLDHashTable2
+PLDHashTable
 *
 gHashTable
 ;
@@ -667,7 +667,7 @@ gHashTable
 gHashTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 pref_HashTableOps

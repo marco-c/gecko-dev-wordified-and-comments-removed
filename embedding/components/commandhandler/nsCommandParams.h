@@ -492,7 +492,7 @@ PLDHashEntryHdr
 aEntry
 )
 ;
-PLDHashTable2
+PLDHashTable
 mValuesHash
 ;
 static

@@ -383,7 +383,7 @@ sJSObjWrappersAccessible
 false
 ;
 static
-PLDHashTable2
+PLDHashTable
 *
 sNPObjWrappers
 ;
@@ -1730,7 +1730,7 @@ false
 sNPObjWrappers
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 PL_DHashGetStubOps
 (
@@ -8972,13 +8972,13 @@ nppcx
 npp
 )
 {
-PLDHashTable2
+PLDHashTable
 *
 tmp
 =
 static_cast
 <
-PLDHashTable2
+PLDHashTable
 *
 >
 (

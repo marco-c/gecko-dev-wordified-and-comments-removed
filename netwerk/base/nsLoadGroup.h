@@ -183,7 +183,7 @@ nsIRequest
 >
 mDefaultLoadRequest
 ;
-PLDHashTable2
+PLDHashTable
 mRequests
 ;
 nsWeakPtr

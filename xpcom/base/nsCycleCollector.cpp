@@ -2485,7 +2485,7 @@ mRootCount
 ;
 private
 :
-PLDHashTable2
+PLDHashTable
 mPtrToNodeMap
 ;
 bool

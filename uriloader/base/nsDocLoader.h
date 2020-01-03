@@ -822,7 +822,7 @@ mCurrentTotalProgress
 int64_t
 mMaxTotalProgress
 ;
-PLDHashTable2
+PLDHashTable
 mRequestInfoHash
 ;
 int64_t

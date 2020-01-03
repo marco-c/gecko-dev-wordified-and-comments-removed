@@ -119,7 +119,7 @@ nsIFrame
 *
 mRootFrame
 ;
-PLDHashTable2
+PLDHashTable
 mPlaceholderMap
 ;
 UndisplayedMap

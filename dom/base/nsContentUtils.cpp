@@ -2172,7 +2172,7 @@ NS_PARSER_CID
 )
 ;
 static
-PLDHashTable2
+PLDHashTable
 *
 sEventListenerManagersHash
 ;
@@ -2671,7 +2671,7 @@ EventListenerManagerHashInitEntry
 sEventListenerManagersHash
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 hash_table_ops

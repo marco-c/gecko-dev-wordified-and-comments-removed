@@ -82,7 +82,7 @@ nsDependentCString
 *
 mNameArray
 ;
-PLDHashTable2
+PLDHashTable
 mNameTable
 ;
 nsDependentCString

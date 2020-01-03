@@ -3279,7 +3279,7 @@ StartupCache
 *
 mCache
 ;
-PLDHashTable2
+PLDHashTable
 mMap
 ;
 bool

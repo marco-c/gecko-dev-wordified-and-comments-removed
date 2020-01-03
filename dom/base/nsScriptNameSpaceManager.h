@@ -705,10 +705,10 @@ aClassName
 nullptr
 )
 ;
-PLDHashTable2
+PLDHashTable
 mGlobalNames
 ;
-PLDHashTable2
+PLDHashTable
 mNavigatorNames
 ;
 }

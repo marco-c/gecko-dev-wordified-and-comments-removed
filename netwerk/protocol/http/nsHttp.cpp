@@ -126,7 +126,7 @@ value
 }
 ;
 static
-PLDHashTable2
+PLDHashTable
 *
 sAtomTable
 ;
@@ -398,7 +398,7 @@ sLock
 sAtomTable
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 ops

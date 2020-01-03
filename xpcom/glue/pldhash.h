@@ -838,10 +838,6 @@ delete
 }
 ;
 typedef
-PLDHashTable
-PLDHashTable2
-;
-typedef
 PLDHashNumber
 (
 *

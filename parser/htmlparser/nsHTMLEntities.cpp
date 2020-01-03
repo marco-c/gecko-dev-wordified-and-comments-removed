@@ -237,12 +237,12 @@ nullptr
 }
 ;
 static
-PLDHashTable2
+PLDHashTable
 *
 gEntityToUnicode
 ;
 static
-PLDHashTable2
+PLDHashTable
 *
 gUnicodeToEntity
 ;
@@ -314,7 +314,7 @@ gTableRefCnt
 gEntityToUnicode
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 EntityToUnicodeOps
@@ -328,7 +328,7 @@ NS_HTML_ENTITY_COUNT
 gUnicodeToEntity
 =
 new
-PLDHashTable2
+PLDHashTable
 (
 &
 UnicodeToEntityOps

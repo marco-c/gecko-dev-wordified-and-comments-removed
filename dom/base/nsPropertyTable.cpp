@@ -122,7 +122,7 @@ nsIAtom
 >
 mName
 ;
-PLDHashTable2
+PLDHashTable
 mObjectValueMap
 ;
 NSPropertyDtorFunc

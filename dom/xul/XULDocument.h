@@ -2016,7 +2016,7 @@ friend
 class
 ParserObserver
 ;
-PLDHashTable2
+PLDHashTable
 *
 mBroadcasterMap
 ;

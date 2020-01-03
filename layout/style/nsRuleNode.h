@@ -1124,7 +1124,7 @@ nsRuleNode
 *
 asList
 ;
-PLDHashTable2
+PLDHashTable
 *
 asHash
 ;
@@ -1213,7 +1213,7 @@ mChildren
 asList
 ;
 }
-PLDHashTable2
+PLDHashTable
 *
 ChildrenHash
 (
@@ -1221,7 +1221,7 @@ ChildrenHash
 {
 return
 (
-PLDHashTable2
+PLDHashTable
 *
 )
 (
@@ -1279,7 +1279,7 @@ aList
 void
 SetChildrenHash
 (
-PLDHashTable2
+PLDHashTable
 *
 aHashtable
 )
@@ -1310,7 +1310,7 @@ mChildren
 asHash
 =
 (
-PLDHashTable2
+PLDHashTable
 *
 )
 (

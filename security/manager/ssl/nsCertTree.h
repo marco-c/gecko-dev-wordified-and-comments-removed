@@ -543,7 +543,7 @@ mNumOrgs
 int32_t
 mNumRows
 ;
-PLDHashTable2
+PLDHashTable
 mCompareCache
 ;
 nsCOMPtr

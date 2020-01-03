@@ -376,7 +376,7 @@ nsISupports
 >
 mCurrentToplevelSecurityInfo
 ;
-PLDHashTable2
+PLDHashTable
 mTransferringRequests
 ;
 }
