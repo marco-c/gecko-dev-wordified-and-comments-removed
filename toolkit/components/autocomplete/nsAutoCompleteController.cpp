@@ -5648,13 +5648,10 @@ OpenPopup
 else
 if
 (
-result
-!
+mSearchesOngoing
 =
-nsIAutoCompleteResult
-:
-:
-RESULT_NOMATCH_ONGOING
+=
+0
 )
 {
 ClosePopup
