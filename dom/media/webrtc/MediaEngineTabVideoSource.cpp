@@ -563,7 +563,7 @@ MediaEngineTabVideoSource
 :
 GetUUID
 (
-nsAString_internal
+nsACString_internal
 &
 aUuid
 )
@@ -572,12 +572,9 @@ aUuid
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
 "
-uuid
+tab
 "
-)
 )
 ;
 }

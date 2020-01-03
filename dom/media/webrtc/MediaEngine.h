@@ -258,7 +258,7 @@ virtual
 void
 GetUUID
 (
-nsAString
+nsACString
 &
 )
 =

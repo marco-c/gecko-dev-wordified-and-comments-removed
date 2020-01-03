@@ -94,10 +94,6 @@ PMessagePort
 ;
 include
 protocol
-PMedia
-;
-include
-protocol
 PServiceWorkerManager
 ;
 include
@@ -192,9 +188,6 @@ manages
 PMessagePort
 ;
 manages
-PMedia
-;
-manages
 PServiceWorkerManager
 ;
 manages
@@ -232,10 +225,6 @@ loggingInfo
 )
 ;
 PVsync
-(
-)
-;
-PMedia
 (
 )
 ;

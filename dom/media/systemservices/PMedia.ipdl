@@ -60,10 +60,6 @@ include
 protocol
 PContent
 ;
-include
-protocol
-PBackground
-;
 namespace
 mozilla
 {
@@ -74,7 +70,7 @@ protocol
 PMedia
 {
 manager
-PBackground
+PContent
 ;
 parent
 :

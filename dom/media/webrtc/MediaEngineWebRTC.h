@@ -792,10 +792,7 @@ mDeviceUUID
 .
 Assign
 (
-NS_ConvertUTF8toUTF16
-(
 uuid
-)
 )
 ;
 Init
@@ -817,7 +814,7 @@ virtual
 void
 GetUUID
 (
-nsAString
+nsACString
 &
 aUUID
 )
@@ -1096,7 +1093,7 @@ mStarted
 nsString
 mDeviceName
 ;
-nsString
+nsCString
 mDeviceUUID
 ;
 bool

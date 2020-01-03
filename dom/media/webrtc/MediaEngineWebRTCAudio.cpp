@@ -813,7 +813,7 @@ MediaEngineWebRTCAudioSource
 :
 GetUUID
 (
-nsAString
+nsACString
 &
 aUUID
 )

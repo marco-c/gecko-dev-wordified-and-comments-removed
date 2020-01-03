@@ -200,6 +200,10 @@ PImageBridge
 ;
 include
 protocol
+PMedia
+;
+include
+protocol
 PMemoryReportRequest
 ;
 include
@@ -1518,6 +1522,9 @@ PHal
 ;
 manages
 PIcc
+;
+manages
+PMedia
 ;
 manages
 PMemoryReportRequest
@@ -3319,6 +3326,10 @@ PTelephony
 )
 ;
 PVoicemail
+(
+)
+;
+PMedia
 (
 )
 ;
