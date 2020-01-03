@@ -172,6 +172,11 @@ attribute
 USVString
 scope
 ;
+void
+update
+(
+)
+;
 [
 Throws
 ]

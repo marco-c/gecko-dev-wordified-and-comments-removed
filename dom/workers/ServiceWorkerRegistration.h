@@ -153,6 +153,11 @@ aScope
 mScope
 ;
 }
+void
+Update
+(
+)
+;
 already_AddRefed
 <
 Promise
