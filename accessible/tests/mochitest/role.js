@@ -482,6 +482,13 @@ nsIAccessibleRole
 ROLE_STATUSBAR
 ;
 const
+ROLE_SWITCH
+=
+nsIAccessibleRole
+.
+ROLE_SWITCH
+;
+const
 ROLE_TABLE
 =
 nsIAccessibleRole

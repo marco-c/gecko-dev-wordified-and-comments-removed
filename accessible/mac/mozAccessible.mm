@@ -2458,6 +2458,17 @@ return
 AXDefinition
 "
 ;
+case
+roles
+:
+:
+SWITCH
+:
+return
+"
+AXSwitch
+"
+;
 default
 :
 break
