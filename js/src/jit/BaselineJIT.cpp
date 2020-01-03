@@ -2197,7 +2197,7 @@ JSTracer
 trc
 )
 {
-MarkJitCode
+TraceEdge
 (
 trc
 &

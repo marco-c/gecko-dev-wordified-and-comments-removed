@@ -178,7 +178,7 @@ if
 (
 constructorCode_
 )
-MarkJitCode
+TraceEdge
 (
 trc
 &

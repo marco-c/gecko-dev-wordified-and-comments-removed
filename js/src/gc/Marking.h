@@ -490,14 +490,6 @@ thingp
 ;
 DeclMarker
 (
-JitCode
-jit
-:
-:
-JitCode
-)
-DeclMarker
-(
 Object
 NativeObject
 )

@@ -843,7 +843,7 @@ jitCode
 (
 )
 ;
-MarkJitCodeUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

@@ -2849,7 +2849,7 @@ compilation
 .
 jitCode
 )
-MarkJitCode
+TraceEdge
 (
 trc
 &
@@ -4583,15 +4583,12 @@ compilation
 jitCode
 &
 &
-IsJitCodeAboutToBeFinalized
+IsAboutToBeFinalized
 (
+&
 compilation
 .
 jitCode
-.
-unsafeGet
-(
-)
 )
 )
 {
