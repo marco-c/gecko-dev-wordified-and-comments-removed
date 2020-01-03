@@ -4832,7 +4832,7 @@ clientID
 null
 )
 ;
-do_check_neq
+do_check_eq
 (
 reporter
 .
