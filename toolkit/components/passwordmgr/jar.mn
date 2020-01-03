@@ -152,3 +152,17 @@ passwordManagerCommon
 .
 js
 )
+content
+/
+passwordmgr
+/
+recipes
+.
+json
+(
+content
+/
+recipes
+.
+json
+)
