@@ -16708,7 +16708,7 @@ path
 element
 -
 >
-GetPathForLengthOrPositionMeasuring
+GetOrBuildPathForMeasuring
 (
 )
 ;

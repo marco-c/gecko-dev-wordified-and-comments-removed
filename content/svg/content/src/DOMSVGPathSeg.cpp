@@ -811,11 +811,6 @@ propName
 )
 ;
 \
-InvalidateCachedList
-(
-)
-;
-\
 }
 else
 {
