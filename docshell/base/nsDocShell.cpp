@@ -19819,7 +19819,7 @@ error
 AssignLiteral
 (
 "
-cspFrameAncestorBlocked
+cspBlocked
 "
 )
 ;

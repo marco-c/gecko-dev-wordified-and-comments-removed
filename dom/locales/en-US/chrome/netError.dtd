@@ -2096,7 +2096,7 @@ p
 <
 !
 ENTITY
-cspFrameAncestorBlocked
+cspBlocked
 .
 title
 "
@@ -2110,7 +2110,7 @@ Policy
 <
 !
 ENTITY
-cspFrameAncestorBlocked
+cspBlocked
 .
 longDesc
 "
