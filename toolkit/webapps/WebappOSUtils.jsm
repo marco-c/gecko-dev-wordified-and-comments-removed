@@ -2048,6 +2048,14 @@ function
 aApp
 )
 {
+#
+ifdef
+MOZ_WIDGET_ANDROID
+return
+true
+;
+#
+endif
 let
 uniqueName
 =
