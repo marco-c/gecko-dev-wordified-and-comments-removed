@@ -495,6 +495,16 @@ if
 (
 aInstall
 .
+state
+=
+=
+AddonManager
+.
+STATE_DOWNLOAD_FAILED
+|
+|
+aInstall
+.
 addon
 .
 appDisabled
