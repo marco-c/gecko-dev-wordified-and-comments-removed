@@ -269,7 +269,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-iterate
+enumerate
 (
 JSContext
 *
@@ -283,8 +283,6 @@ JSObject
 *
 >
 wrapper
-unsigned
-flags
 JS
 :
 :

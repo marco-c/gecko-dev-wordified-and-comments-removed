@@ -3380,7 +3380,7 @@ xpc
 SandboxProxyHandler
 :
 :
-iterate
+enumerate
 (
 JSContext
 *
@@ -3394,8 +3394,6 @@ JSObject
 *
 >
 proxy
-unsigned
-flags
 JS
 :
 :
@@ -3412,11 +3410,10 @@ return
 BaseProxyHandler
 :
 :
-iterate
+enumerate
 (
 cx
 proxy
-flags
 objp
 )
 ;
