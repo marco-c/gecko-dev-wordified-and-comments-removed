@@ -297,6 +297,11 @@ reduction
 "
 :
 {
+"
+param
+"
+:
+true
 }
 "
 attack
@@ -548,6 +553,11 @@ pan
 "
 :
 {
+"
+param
+"
+:
+true
 }
 }
 }
