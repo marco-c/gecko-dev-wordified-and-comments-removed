@@ -1163,17 +1163,10 @@ not
 package
 :
             
-raise
-DMError
-(
+package
+=
 "
-unable
-to
-find
-focused
-app
 "
-)
         
 return
 package
