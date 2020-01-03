@@ -198,7 +198,7 @@ style
 "
 width
 :
-35em
+40em
 ;
 "
 ondialogaccept
@@ -299,6 +299,11 @@ columns
 >
 <
 column
+flex
+=
+"
+1
+"
 /
 >
 <
@@ -322,9 +327,7 @@ control
 "
 oldpw
 "
-value
-=
-"
+>
 &
 setPassword
 .
@@ -332,8 +335,9 @@ oldPassword
 .
 label
 ;
-"
+<
 /
+label
 >
 <
 textbox
@@ -480,9 +484,7 @@ control
 "
 pw1
 "
-value
-=
-"
+>
 &
 setPassword
 .
@@ -490,8 +492,9 @@ newPassword
 .
 label
 ;
-"
+<
 /
+label
 >
 <
 textbox
@@ -533,9 +536,7 @@ control
 "
 pw2
 "
-value
-=
-"
+>
 &
 setPassword
 .
@@ -543,8 +544,9 @@ reenterPassword
 .
 label
 ;
-"
+<
 /
+label
 >
 <
 textbox
