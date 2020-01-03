@@ -184,6 +184,14 @@ pruneProxyHeaders
 false
 )
 ;
+void
+ParseHeaderSet
+(
+char
+*
+buffer
+)
+;
 uint32_t
 Count
 (

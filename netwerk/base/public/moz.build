@@ -288,6 +288,11 @@ nsIForcePendingChannel
 idl
 '
 '
+nsIHttpPushListener
+.
+idl
+'
+'
 nsIIncrementalDownload
 .
 idl
