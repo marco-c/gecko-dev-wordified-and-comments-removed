@@ -133,9 +133,6 @@ IDBObjectStore
 dictionary
 IDBObjectStoreParameters
 {
-/
-/
-TODO
 (
 DOMString
 or
@@ -145,11 +142,6 @@ DOMString
 >
 )
 ?
-keyPath
-=
-null
-;
-any
 keyPath
 =
 null
