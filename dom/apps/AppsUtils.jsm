@@ -2272,6 +2272,11 @@ case
 web
 "
 :
+case
+"
+trusted
+"
+:
 return
 Ci
 .
