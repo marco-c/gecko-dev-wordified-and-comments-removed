@@ -2313,6 +2313,8 @@ True
 )
 )
         
+self
+.
 operations
 =
 {
@@ -2413,12 +2415,16 @@ m
                 
 if
 not
+self
+.
 operations
 [
 operation
 ]
 :
                     
+self
+.
 operations
 [
 operation
@@ -2608,12 +2614,6 @@ m
 )
 :
                         
-self
-.
-proxy
-=
-True
-                        
 if
 m
 .
@@ -2785,6 +2785,33 @@ iface
 .
 parent
             
+self
+.
+proxy
+=
+(
+self
+.
+supportsIndexedProperties
+(
+)
+or
+                          
+(
+self
+.
+supportsNamedProperties
+(
+)
+and
+                           
+not
+self
+.
+hasNamedPropertiesObject
+)
+)
+            
 if
 self
 .
@@ -2794,6 +2821,8 @@ proxy
 if
 (
 not
+self
+.
 operations
 [
 '
@@ -2803,6 +2832,8 @@ IndexedGetter
 and
                     
 (
+self
+.
 operations
 [
 '
@@ -2811,6 +2842,8 @@ IndexedSetter
 ]
 or
                      
+self
+.
 operations
 [
 '
@@ -2819,6 +2852,8 @@ IndexedDeleter
 ]
 or
                      
+self
+.
 operations
 [
 '
@@ -2871,6 +2906,8 @@ location
 if
 (
 not
+self
+.
 operations
 [
 '
@@ -2880,6 +2917,8 @@ NamedGetter
 and
                     
 (
+self
+.
 operations
 [
 '
@@ -2888,6 +2927,8 @@ NamedSetter
 ]
 or
                      
+self
+.
 operations
 [
 '
@@ -2896,6 +2937,8 @@ NamedDeleter
 ]
 or
                      
+self
+.
 operations
 [
 '
@@ -2970,12 +3013,6 @@ iface
 iface
 .
 parent
-        
-self
-.
-operations
-=
-operations
         
 self
 .
@@ -4039,6 +4076,41 @@ self
 interface
 .
 hasInterfacePrototypeObject
+(
+)
+    
+property
+    
+def
+hasNamedPropertiesObject
+(
+self
+)
+:
+        
+if
+self
+.
+interface
+.
+isExternal
+(
+)
+:
+            
+return
+False
+        
+return
+self
+.
+isGlobal
+(
+)
+and
+self
+.
+supportsNamedProperties
 (
 )
     
