@@ -3356,6 +3356,10 @@ certdi
 -
 >
 mAddonInfo
+.
+get
+(
+)
 :
 nullptr
 ;
