@@ -161,7 +161,6 @@ mTrex
 mMdhd
 mEdts
 mSinf
-mTimestampOffset
 )
 ;
 if
@@ -1206,8 +1205,6 @@ aEdts
 Sinf
 &
 aSinf
-Microseconds
-aTimestampOffset
 )
 :
 mRange
@@ -1217,10 +1214,6 @@ aBox
 Range
 (
 )
-)
-mTimestampOffset
-(
-aTimestampOffset
 )
 mMaxRoundingError
 (
@@ -2493,8 +2486,6 @@ ToMicroseconds
 (
 decodeTime
 )
-+
-mTimestampOffset
 ;
 sample
 .
@@ -2520,8 +2511,6 @@ aEdts
 .
 mMediaStart
 )
-+
-mTimestampOffset
 aMdhd
 .
 ToMicroseconds
@@ -2539,8 +2528,6 @@ aEdts
 .
 mMediaStart
 )
-+
-mTimestampOffset
 )
 ;
 decodeTime

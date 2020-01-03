@@ -179,6 +179,13 @@ ErrorResult
 aRv
 )
 ;
+void
+Shift
+(
+double
+aOffset
+)
+;
 private
 :
 ~

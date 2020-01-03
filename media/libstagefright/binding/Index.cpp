@@ -1168,8 +1168,6 @@ Stream
 aSource
 uint32_t
 aTrackId
-Microseconds
-aTimestampOffset
 Monitor
 *
 aMonitor
@@ -1200,7 +1198,6 @@ MoofParser
 (
 aSource
 aTrackId
-aTimestampOffset
 aMonitor
 )
 ;

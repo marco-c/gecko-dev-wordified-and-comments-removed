@@ -1061,16 +1061,6 @@ if
 gotMedia
 )
 {
-start
-+
-=
-aTimestampOffset
-;
-end
-+
-=
-aTimestampOffset
-;
 if
 (
 mLastEndTimestamp

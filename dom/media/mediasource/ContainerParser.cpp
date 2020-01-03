@@ -1622,7 +1622,6 @@ MoofParser
 (
 mStream
 0
-0
 &
 mMonitor
 )
