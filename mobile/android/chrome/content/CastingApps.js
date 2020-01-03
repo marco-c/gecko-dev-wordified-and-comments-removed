@@ -145,14 +145,10 @@ dial
 filters
 :
 {
-server
-:
-null
-modelName
+manufacturer
 :
 "
-Eureka
-Dongle
+openflint
 "
 }
 factory
