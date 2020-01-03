@@ -1276,11 +1276,7 @@ nrSamples
 {
 if
 (
-&
 stt
--
->
-vadFarend
 =
 =
 NULL

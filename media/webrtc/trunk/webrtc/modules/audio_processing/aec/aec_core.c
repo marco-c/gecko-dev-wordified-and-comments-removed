@@ -4401,8 +4401,7 @@ l1_norm
 (
 float
 )
-(
-fabs
+abs
 (
 i
 -
@@ -4416,7 +4415,6 @@ delay_histogram
 [
 i
 ]
-)
 ;
 }
 *

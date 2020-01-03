@@ -763,7 +763,7 @@ deltaFS
 ;
 if
 (
-abs
+fabs
 (
 deviation
 )
@@ -1236,7 +1236,7 @@ sigma
 exp
 (
 -
-abs
+fabs
 (
 static_cast
 <

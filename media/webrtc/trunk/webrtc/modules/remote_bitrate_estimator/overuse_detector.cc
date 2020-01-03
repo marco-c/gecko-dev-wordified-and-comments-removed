@@ -1380,7 +1380,7 @@ num_of_deltas_
 60
 )
 *
-fabsf
+fabs
 (
 offset_
 )
@@ -1390,7 +1390,7 @@ threshold_
 ;
 if
 (
-fabsf
+fabs
 (
 residual
 )
@@ -2285,7 +2285,7 @@ offset_
 ;
 if
 (
-fabsf
+fabs
 (
 T
 )
