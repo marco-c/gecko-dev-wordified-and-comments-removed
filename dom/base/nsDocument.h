@@ -4607,6 +4607,7 @@ RequestFullScreen
 Element
 *
 aElement
+const
 mozilla
 :
 :
@@ -4616,10 +4617,6 @@ dom
 FullScreenOptions
 &
 aOptions
-bool
-aWasCallerChrome
-bool
-aNotifyOnOriginChange
 )
 ;
 void

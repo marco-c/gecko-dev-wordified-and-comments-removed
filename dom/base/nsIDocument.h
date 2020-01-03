@@ -532,6 +532,16 @@ VRHMDInfo
 >
 mVRHMDDevice
 ;
+bool
+mIsCallerChrome
+=
+false
+;
+bool
+mShouldNotifyNewOrigin
+=
+true
+;
 }
 ;
 }
