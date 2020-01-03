@@ -1438,6 +1438,13 @@ this
 _sourceBrowser
 .
 contentWindowAsCPOW
+|
+|
+this
+.
+_sourceBrowser
+.
+contentWindow
 }
 )
 ;
