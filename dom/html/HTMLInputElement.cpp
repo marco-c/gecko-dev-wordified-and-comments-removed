@@ -13634,6 +13634,8 @@ HTMLInputElement
 :
 IsInteractiveHTMLContent
 (
+bool
+aIgnoreTabindex
 )
 const
 {

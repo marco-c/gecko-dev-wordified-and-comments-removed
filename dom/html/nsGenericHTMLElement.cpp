@@ -9060,6 +9060,8 @@ nsGenericHTMLElement
 :
 IsInteractiveHTMLContent
 (
+bool
+aIgnoreTabindex
 )
 const
 {
@@ -9081,6 +9083,11 @@ keygen
 )
 |
 |
+(
+!
+aIgnoreTabindex
+&
+&
 HasAttr
 (
 kNameSpaceID_None
@@ -9088,6 +9095,7 @@ nsGkAtoms
 :
 :
 tabindex
+)
 )
 ;
 }

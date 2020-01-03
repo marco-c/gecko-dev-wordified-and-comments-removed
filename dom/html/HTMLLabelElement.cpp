@@ -318,6 +318,7 @@ AsElement
 >
 IsInteractiveHTMLContent
 (
+true
 )
 )
 {

@@ -652,6 +652,8 @@ HTMLImageElement
 :
 IsInteractiveHTMLContent
 (
+bool
+aIgnoreTabindex
 )
 const
 {
