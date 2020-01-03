@@ -26,7 +26,7 @@ get
 :
 function
 (
-browser
+browserOrTab
 )
 {
 return
@@ -34,7 +34,7 @@ TabStateCacheInternal
 .
 get
 (
-browser
+browserOrTab
 )
 ;
 }
@@ -42,7 +42,7 @@ update
 :
 function
 (
-browser
+browserOrTab
 newData
 )
 {
@@ -50,7 +50,7 @@ TabStateCacheInternal
 .
 update
 (
-browser
+browserOrTab
 newData
 )
 ;
@@ -72,7 +72,7 @@ get
 :
 function
 (
-browser
+browserOrTab
 )
 {
 return
@@ -82,7 +82,7 @@ _data
 .
 get
 (
-browser
+browserOrTab
 .
 permanentKey
 )
@@ -92,7 +92,7 @@ update
 :
 function
 (
-browser
+browserOrTab
 newData
 )
 {
@@ -105,7 +105,7 @@ _data
 .
 get
 (
-browser
+browserOrTab
 .
 permanentKey
 )
@@ -168,7 +168,7 @@ _data
 .
 set
 (
-browser
+browserOrTab
 .
 permanentKey
 data
