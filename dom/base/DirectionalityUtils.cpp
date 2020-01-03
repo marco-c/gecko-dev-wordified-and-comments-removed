@@ -1175,7 +1175,7 @@ map
 ;
 }
 static
-PLDHashOperator
+nsCheapSetOperator
 SetNodeDirection
 (
 nsPtrHashKey
@@ -1233,11 +1233,11 @@ true
 )
 ;
 return
-PL_DHASH_NEXT
+OpNext
 ;
 }
 static
-PLDHashOperator
+nsCheapSetOperator
 ResetNodeDirection
 (
 nsPtrHashKey
@@ -1367,11 +1367,11 @@ dirAutoSetBy
 ;
 }
 return
-PL_DHASH_REMOVE
+OpRemove
 ;
 }
 static
-PLDHashOperator
+nsCheapSetOperator
 ClearEntry
 (
 nsPtrHashKey
@@ -1415,7 +1415,7 @@ dirAutoSetBy
 )
 ;
 return
-PL_DHASH_REMOVE
+OpRemove
 ;
 }
 public
