@@ -2010,6 +2010,9 @@ DeprecatedNoSuchMethod
 DeprecatedFlagsArgument
 =
 7
+RegExpSourceProperty
+=
+8
 DeprecatedLanguageExtensionCount
 }
 ;
