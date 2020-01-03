@@ -2764,6 +2764,15 @@ WindowID
 )
 )
 ;
+if
+(
+!
+winData
+)
+{
+return
+;
+}
 nsTObserverArray
 <
 AudioChannelAgent
