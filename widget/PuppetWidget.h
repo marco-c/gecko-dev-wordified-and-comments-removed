@@ -989,8 +989,10 @@ aCancel
 nsresult
 NotifyIMEOfFocusChange
 (
-bool
-aFocus
+const
+IMENotification
+&
+aIMENotification
 )
 ;
 nsresult
@@ -1005,6 +1007,10 @@ aIMENotification
 nsresult
 NotifyIMEOfUpdateComposition
 (
+const
+IMENotification
+&
+aIMENotification
 )
 ;
 nsresult
@@ -1028,6 +1034,10 @@ aIMENotification
 nsresult
 NotifyIMEOfPositionChange
 (
+const
+IMENotification
+&
+aIMENotification
 )
 ;
 bool
