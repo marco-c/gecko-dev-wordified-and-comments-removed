@@ -24,17 +24,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-TimeRanges
-.
-h
-"
-#
-include
-"
 MediaResource
 .
 h

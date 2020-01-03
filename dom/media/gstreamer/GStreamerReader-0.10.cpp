@@ -59,17 +59,6 @@ include
 "
 mozilla
 /
-dom
-/
-TimeRanges
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Endian
 .
 h
