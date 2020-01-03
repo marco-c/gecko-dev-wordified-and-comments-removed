@@ -427,11 +427,8 @@ aRv
 )
 ;
 bool
-GetInterimResults
+InterimResults
 (
-ErrorResult
-&
-aRv
 )
 const
 ;
@@ -440,9 +437,6 @@ SetInterimResults
 (
 bool
 aArg
-ErrorResult
-&
-aRv
 )
 ;
 uint32_t
@@ -1060,6 +1054,9 @@ nsRefPtr
 SpeechGrammarList
 >
 mSpeechGrammarList
+;
+bool
+mInterimResults
 ;
 void
 ProcessTestEventRequest

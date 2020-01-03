@@ -196,9 +196,6 @@ attribute
 boolean
 continuous
 ;
-[
-Throws
-]
 attribute
 boolean
 interimResults
