@@ -770,7 +770,6 @@ removals
 #
 ifdef
 XP_MACOSX
-precomplete
 DIR_MACOS
 active
 -
