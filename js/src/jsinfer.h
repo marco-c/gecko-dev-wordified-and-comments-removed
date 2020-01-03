@@ -5009,6 +5009,10 @@ isOwnProperty
 CompilerConstraintList
 *
 constraints
+bool
+allowEmptyTypesForGlobal
+=
+false
 )
 ;
 bool

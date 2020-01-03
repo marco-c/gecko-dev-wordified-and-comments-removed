@@ -549,6 +549,10 @@ JSFunction
 *
 *
 commonGetter
+Shape
+*
+*
+globalShape
 )
 ;
 JSObject
