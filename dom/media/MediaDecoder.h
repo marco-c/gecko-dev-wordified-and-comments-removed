@@ -596,15 +596,6 @@ aFinishWhenEnded
 )
 ;
 virtual
-void
-RemoveOutputStream
-(
-MediaStream
-*
-aStream
-)
-;
-virtual
 double
 GetDuration
 (

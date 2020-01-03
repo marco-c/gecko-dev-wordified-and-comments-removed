@@ -2597,12 +2597,6 @@ mPlaybackStreamInputPort
 ;
 nsRefPtr
 <
-MediaInputPort
->
-mCaptureStreamPort
-;
-nsRefPtr
-<
 DOMMediaStream
 >
 mPlaybackStream
@@ -2843,9 +2837,6 @@ mIsCasting
 ;
 bool
 mAudioCaptured
-;
-bool
-mAudioCapturedByWindow
 ;
 bool
 mPlayingBeforeSeek
