@@ -380,6 +380,9 @@ GL_ARB_texture_rectangle
 GL_ARB_texture_storage
 "
 "
+GL_ARB_texture_swizzle
+"
+"
 GL_ARB_transform_feedback2
 "
 "

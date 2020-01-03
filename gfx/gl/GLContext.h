@@ -319,6 +319,7 @@ texture_half_float
 texture_half_float_linear
 texture_non_power_of_two
 texture_storage
+texture_swizzle
 transform_feedback2
 uniform_buffer_object
 uniform_matrix_nonsquare
@@ -944,6 +945,7 @@ ARB_texture_float
 ARB_texture_non_power_of_two
 ARB_texture_rectangle
 ARB_texture_storage
+ARB_texture_swizzle
 ARB_transform_feedback2
 ARB_uniform_buffer_object
 ARB_vertex_array_object
