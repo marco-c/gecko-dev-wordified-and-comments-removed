@@ -1262,6 +1262,17 @@ found_stdout_logger
 False
     
 if
+args
+is
+None
+:
+        
+args
+=
+{
+}
+    
+if
 not
 hasattr
 (
