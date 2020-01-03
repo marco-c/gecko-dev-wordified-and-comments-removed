@@ -661,6 +661,13 @@ style
 TextAppearance_Widget_DoorHanger_Small
 )
 ;
+mDivider
+.
+setBackgroundColor
+(
+mDividerColor
+)
+;
 }
 }
 public
