@@ -304,7 +304,6 @@ cell
 .
 row
 )
-true
 )
 ;
 if
