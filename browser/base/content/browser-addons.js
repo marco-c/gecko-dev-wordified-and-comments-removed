@@ -307,9 +307,6 @@ now
 )
 +
 30000
-removeOnDismissal
-:
-true
 }
 ;
 let
