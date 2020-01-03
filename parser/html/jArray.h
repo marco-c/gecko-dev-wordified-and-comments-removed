@@ -409,17 +409,8 @@ decltype
 (
 nullptr
 )
-n
 )
 {
-MOZ_ASSERT
-(
-n
-=
-=
-nullptr
-)
-;
 delete
 [
 ]
