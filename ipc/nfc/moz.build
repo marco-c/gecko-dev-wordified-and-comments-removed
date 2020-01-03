@@ -78,11 +78,6 @@ ipc
 =
 [
 '
-Nfc
-.
-h
-'
-'
 NfcConnector
 .
 h
@@ -92,11 +87,6 @@ SOURCES
 +
 =
 [
-'
-Nfc
-.
-cpp
-'
 '
 NfcConnector
 .
