@@ -1891,6 +1891,17 @@ aRanges
 Union
 (
 r
+double
+(
+mParser
+-
+>
+GetRoundingError
+(
+)
+)
+/
+USECS_PER_S
 )
 ;
 }
