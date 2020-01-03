@@ -427,6 +427,9 @@ mNeedsComposite
 bool
 mIsObservingVsync
 ;
+int32_t
+mVsyncNotificationsSkipped
+;
 nsRefPtr
 <
 CompositorParent
