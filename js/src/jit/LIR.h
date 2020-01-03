@@ -2262,14 +2262,6 @@ VREG_SHIFT
 &
 VREG_MASK
 ;
-JS_ASSERT
-(
-index
-!
-=
-0
-)
-;
 return
 index
 ;
