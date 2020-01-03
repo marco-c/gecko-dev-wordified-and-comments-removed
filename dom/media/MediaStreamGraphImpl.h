@@ -725,14 +725,6 @@ aFlags
 0
 )
 ;
-GraphTime
-GetAudioPosition
-(
-MediaStream
-*
-aStream
-)
-;
 void
 NotifyHasCurrentData
 (
