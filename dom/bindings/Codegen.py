@@ -13926,8 +13926,16 @@ workers
 or
 member
 .
-isExposedInAnyWorker
+exposureSet
+!
+=
+set
 (
+[
+"
+Window
+"
+]
 )
 def
 clearableCachedAttrs
