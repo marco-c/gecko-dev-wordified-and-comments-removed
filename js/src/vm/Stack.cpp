@@ -6140,7 +6140,7 @@ global
 bool
 useSameScript
 =
-CloneFunctionObjectUseSameScript
+CanReuseScriptForClone
 (
 fun
 -
