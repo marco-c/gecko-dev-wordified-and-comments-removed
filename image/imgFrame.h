@@ -923,6 +923,9 @@ mHasNoAlpha
 bool
 mAborted
 ;
+bool
+mOptimizable
+;
 IntSize
 mImageSize
 ;
@@ -950,9 +953,6 @@ mSinglePixel
 ;
 bool
 mCompositingFailed
-;
-bool
-mOptimizable
 ;
 }
 ;
