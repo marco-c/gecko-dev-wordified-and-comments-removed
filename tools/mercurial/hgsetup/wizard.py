@@ -2757,6 +2757,7 @@ STDOUT
 )
         
 return
+b
 "
 Traceback
 "
