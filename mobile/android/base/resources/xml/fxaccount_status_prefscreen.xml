@@ -452,8 +452,9 @@ android
 title
 =
 "
-Sync
-now
+string
+/
+fxaccount_status_sync_now
 "
 android
 :
