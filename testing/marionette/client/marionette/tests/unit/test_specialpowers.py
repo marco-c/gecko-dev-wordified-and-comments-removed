@@ -2,7 +2,6 @@ from
 marionette_test
 import
 MarionetteTestCase
-skip_if_b2g
 from
 errors
 import
@@ -30,8 +29,6 @@ testvalue
 "
 blabla
 "
-    
-skip_if_b2g
     
 def
 test_prefs
