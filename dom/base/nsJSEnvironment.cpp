@@ -5361,7 +5361,7 @@ sRuntime
 JS
 :
 :
-IncrementalGC
+IncrementalGCSlice
 (
 sRuntime
 aReason
@@ -5435,7 +5435,7 @@ NonShrinkingGC
 JS
 :
 :
-IncrementalGC
+StartIncrementalGC
 (
 sRuntime
 aReason
