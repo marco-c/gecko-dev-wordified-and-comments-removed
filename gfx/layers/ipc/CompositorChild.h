@@ -256,6 +256,14 @@ TabChild
 aTabChild
 )
 ;
+void
+CancelNotifyAfterRemotePaint
+(
+TabChild
+*
+aTabChild
+)
+;
 private
 :
 virtual
