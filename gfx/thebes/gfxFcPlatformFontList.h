@@ -855,6 +855,13 @@ gfxFontFamily
 >
 mGenericMappings
 ;
+nsRefPtrHashtable
+<
+nsCStringHashKey
+gfxFontFamily
+>
+mFcSubstituteCache
+;
 nsCOMPtr
 <
 nsITimer
