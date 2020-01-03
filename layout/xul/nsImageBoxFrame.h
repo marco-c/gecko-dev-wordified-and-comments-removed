@@ -461,9 +461,6 @@ mUseSrcAttr
 bool
 mSuppressStyleCheck
 ;
-bool
-mFireEventOnDecode
-;
 }
 ;
 class
