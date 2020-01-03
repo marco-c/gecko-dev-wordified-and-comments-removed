@@ -1705,16 +1705,6 @@ ServiceWorker
 webidl
 '
 '
-ServiceWorkerClient
-.
-webidl
-'
-'
-ServiceWorkerClients
-.
-webidl
-'
-'
 ServiceWorkerContainer
 .
 webidl
