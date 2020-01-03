@@ -372,14 +372,6 @@ Visual
 visual
 )
 ;
-virtual
-gfxMemoryLocation
-GetMemoryLocation
-(
-)
-const
-override
-;
 #
 if
 defined

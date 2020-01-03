@@ -486,13 +486,6 @@ return
 false
 ;
 }
-virtual
-gfxMemoryLocation
-GetMemoryLocation
-(
-)
-const
-;
 static
 int32_t
 BytePerPixelFromFormat

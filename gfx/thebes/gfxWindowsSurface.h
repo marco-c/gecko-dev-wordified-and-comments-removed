@@ -252,13 +252,6 @@ GetSize
 )
 const
 ;
-virtual
-gfxMemoryLocation
-GetMemoryLocation
-(
-)
-const
-;
 private
 :
 void
