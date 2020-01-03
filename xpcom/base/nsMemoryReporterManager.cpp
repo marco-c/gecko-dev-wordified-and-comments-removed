@@ -2610,6 +2610,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 int64_t
 amount
@@ -2780,6 +2781,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 int64_t
 amount
@@ -2950,6 +2952,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 struct
 rusage
@@ -3220,6 +3223,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 int64_t
 amount
@@ -3493,6 +3497,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 jemalloc_stats_t
 stats
@@ -4203,6 +4208,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 size_t
 Main
@@ -4334,6 +4340,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 return
 MOZ_COLLECT_REPORT
@@ -6871,6 +6878,7 @@ nsISupports
 *
 aWrappedExplicit
 )
+MOZ_OVERRIDE
 {
 if
 (

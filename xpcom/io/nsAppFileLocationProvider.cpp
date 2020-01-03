@@ -2169,6 +2169,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 while
 (
@@ -2259,6 +2260,7 @@ nsISupports
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 if
 (

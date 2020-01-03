@@ -71,6 +71,7 @@ uint32_t
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -91,6 +92,7 @@ nsISupports
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 QueryElementAt
@@ -106,6 +108,7 @@ void
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -153,6 +156,7 @@ nsISupports
 *
 aValue
 )
+MOZ_OVERRIDE
 {
 return
 ReplaceElementAt
@@ -173,6 +177,7 @@ nsISupports
 *
 aElement
 )
+MOZ_OVERRIDE
 {
 return
 (
@@ -192,18 +197,8 @@ nsISupports
 *
 aElement
 )
-{
-return
-(
-nsresult
-)
-RemoveElement
-(
-aElement
-0
-)
+MOZ_OVERRIDE
 ;
-}
 NS_IMETHOD_
 (
 bool
@@ -215,6 +210,7 @@ aFrom
 int32_t
 aTo
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Enumerate
@@ -224,12 +220,14 @@ nsIEnumerator
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Clear
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -242,6 +240,7 @@ nsISupportsArray
 *
 aOther
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -254,6 +253,7 @@ nsISupports
 *
 aPossibleElement
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -270,6 +270,7 @@ aStartIndex
 =
 0
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -282,6 +283,7 @@ nsISupports
 *
 aPossibleElement
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetIndexOf
@@ -293,6 +295,7 @@ int32_t
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -318,6 +321,7 @@ int32_t
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -342,6 +346,7 @@ int32_t
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -367,6 +372,7 @@ aElement
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -380,6 +386,7 @@ aElement
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -390,6 +397,7 @@ RemoveElementAt
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 {
 return
 RemoveElementsAt
@@ -403,22 +411,6 @@ NS_IMETHOD_
 (
 bool
 )
-RemoveElement
-(
-const
-nsISupports
-*
-aElement
-uint32_t
-aStartIndex
-=
-0
-)
-;
-NS_IMETHOD_
-(
-bool
-)
 RemoveLastElement
 (
 const
@@ -426,6 +418,7 @@ nsISupports
 *
 aElement
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DeleteLastElement
@@ -434,6 +427,7 @@ nsISupports
 *
 aElement
 )
+MOZ_OVERRIDE
 {
 return
 (
@@ -454,6 +448,7 @@ DeleteElementAt
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 {
 return
 (
@@ -478,6 +473,7 @@ nsISupportsArray
 *
 aElements
 )
+MOZ_OVERRIDE
 {
 return
 InsertElementsAt
@@ -492,6 +488,7 @@ Compact
 (
 void
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Clone
@@ -501,6 +498,7 @@ nsISupportsArray
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -514,6 +512,7 @@ aOther
 uint32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -526,6 +525,7 @@ aIndex
 uint32_t
 aCount
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -536,6 +536,7 @@ SizeTo
 int32_t
 aSize
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -545,10 +546,7 @@ DeleteArray
 void
 )
 ;
-NS_IMETHOD_
-(
 void
-)
 GrowArrayBy
 (
 int32_t

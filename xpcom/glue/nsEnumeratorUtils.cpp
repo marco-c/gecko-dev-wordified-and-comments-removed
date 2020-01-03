@@ -62,6 +62,7 @@ nsAString
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 static
 EmptyEnumeratorImpl
@@ -254,6 +255,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNext
@@ -263,6 +265,7 @@ nsISupports
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 explicit
 nsSingletonEnumerator
@@ -501,6 +504,7 @@ bool
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNext
@@ -510,6 +514,7 @@ nsISupports
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 nsUnionEnumerator
 (

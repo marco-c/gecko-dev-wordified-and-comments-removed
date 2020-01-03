@@ -244,6 +244,7 @@ nsIAsyncInputStream
 *
 aStream
 )
+MOZ_OVERRIDE
 {
 mStream
 =
@@ -289,6 +290,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -493,6 +495,7 @@ nsIAsyncOutputStream
 *
 aStream
 )
+MOZ_OVERRIDE
 {
 mStream
 =
@@ -538,6 +541,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -1343,6 +1347,7 @@ nsIAsyncInputStream
 *
 aSource
 )
+MOZ_OVERRIDE
 {
 PostContinuationEvent
 (
@@ -1359,6 +1364,7 @@ nsIAsyncOutputStream
 *
 aSink
 )
+MOZ_OVERRIDE
 {
 PostContinuationEvent
 (
@@ -1372,6 +1378,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 Process
 (

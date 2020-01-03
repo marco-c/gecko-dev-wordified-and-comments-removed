@@ -1138,6 +1138,7 @@ NS_IMETHODIMP
 OnFinish
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_UNEXPECTED
@@ -1155,6 +1156,7 @@ aCCLog
 bool
 aIsParent
 )
+MOZ_OVERRIDE
 {
 return
 mCallback
@@ -1735,6 +1737,7 @@ nsISupports
 *
 aData
 )
+MOZ_OVERRIDE
 {
 nsAutoCString
 process
@@ -1920,6 +1923,7 @@ nsISupports
 *
 aData
 )
+MOZ_OVERRIDE
 {
 mWriter
 -
@@ -2055,6 +2059,7 @@ nsISupports
 *
 aData
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <

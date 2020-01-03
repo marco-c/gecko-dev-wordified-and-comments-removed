@@ -427,6 +427,7 @@ nsACString
 &
 name
 )
+MOZ_OVERRIDE
 \
 {
 name
@@ -448,6 +449,7 @@ nsACString
 &
 process
 )
+MOZ_OVERRIDE
 \
 {
 process
@@ -468,6 +470,7 @@ nsACString
 &
 desc
 )
+MOZ_OVERRIDE
 \
 {
 _desc_Function

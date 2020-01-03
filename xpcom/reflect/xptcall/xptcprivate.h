@@ -186,6 +186,7 @@ Stub
 n
 (
 )
+MOZ_OVERRIDE
 ;
 #
 else
@@ -210,6 +211,7 @@ uint64_t
 uint64_t
 uint64_t
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -226,6 +228,7 @@ Sentinel
 n
 (
 )
+MOZ_OVERRIDE
 ;
 class
 nsXPTCStubBase

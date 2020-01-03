@@ -45,6 +45,7 @@ void
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -54,6 +55,7 @@ AddRef
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 1
@@ -67,6 +69,7 @@ Release
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 1

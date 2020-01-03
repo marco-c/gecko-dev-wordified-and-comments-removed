@@ -5801,6 +5801,7 @@ nsICycleCollectorListener
 *
 aListener
 )
+MOZ_OVERRIDE
 {
 SetAllTraces
 (
@@ -5825,6 +5826,7 @@ bool
 *
 aAllTraces
 )
+MOZ_OVERRIDE
 {
 *
 aAllTraces
@@ -5842,6 +5844,7 @@ bool
 *
 aDisableLog
 )
+MOZ_OVERRIDE
 {
 *
 aDisableLog
@@ -5858,6 +5861,7 @@ SetDisableLog
 bool
 aDisableLog
 )
+MOZ_OVERRIDE
 {
 mDisableLog
 =
@@ -5874,6 +5878,7 @@ bool
 *
 aWantAfterProcessing
 )
+MOZ_OVERRIDE
 {
 *
 aWantAfterProcessing
@@ -5890,6 +5895,7 @@ SetWantAfterProcessing
 bool
 aWantAfterProcessing
 )
+MOZ_OVERRIDE
 {
 mWantAfterProcessing
 =
@@ -5907,6 +5913,7 @@ nsICycleCollectorLogSink
 *
 aLogSink
 )
+MOZ_OVERRIDE
 {
 NS_ADDREF
 (
@@ -5927,6 +5934,7 @@ nsICycleCollectorLogSink
 *
 aLogSink
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -5950,6 +5958,7 @@ NS_IMETHOD
 Begin
 (
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -6086,6 +6095,7 @@ char
 *
 aObjectDescription
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6211,6 +6221,7 @@ aObjectDescription
 uint64_t
 aCompartmentAddress
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6381,6 +6392,7 @@ char
 *
 aEdgeName
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6497,6 +6509,7 @@ aKeyDelegate
 uint64_t
 aValue
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6561,6 +6574,7 @@ NoteIncrementalRoot
 uint64_t
 aAddress
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6594,6 +6608,7 @@ NS_IMETHOD
 BeginResults
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6633,6 +6648,7 @@ aAddress
 uint32_t
 aKnownEdges
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6724,6 +6740,7 @@ DescribeGarbage
 uint64_t
 aAddress
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6802,6 +6819,7 @@ NS_IMETHOD
 End
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -6844,6 +6862,7 @@ bool
 *
 aCanContinue
 )
+MOZ_OVERRIDE
 {
 if
 (

@@ -2351,6 +2351,9 @@ define
 NS_INLINE_DECL_REFCOUNTING
 (
 _class
+.
+.
+.
 )
 \
 public
@@ -2364,6 +2367,7 @@ AddRef
 (
 void
 )
+__VA_ARGS__
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -2426,6 +2430,7 @@ Release
 (
 void
 )
+__VA_ARGS__
 {
 \
 MOZ_ASSERT
@@ -2520,6 +2525,9 @@ define
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 _class
+.
+.
+.
 )
 \
 public
@@ -2533,6 +2541,7 @@ AddRef
 (
 void
 )
+__VA_ARGS__
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -2595,6 +2604,7 @@ Release
 (
 void
 )
+__VA_ARGS__
 {
 \
 MOZ_ASSERT
