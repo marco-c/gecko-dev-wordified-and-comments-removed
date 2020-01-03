@@ -479,6 +479,8 @@ expired
 example
 .
 com
+:
+HSTS
 \
 t0
 \
@@ -510,6 +512,8 @@ notexpired
 example
 .
 com
+:
+HSTS
 \
 t0
 \
@@ -541,6 +545,8 @@ bugzilla
 mozilla
 .
 org
+:
+HSTS
 \
 t0
 \
@@ -572,6 +578,8 @@ incsubdomain
 example
 .
 com
+:
+HSTS
 \
 t0
 \
@@ -603,6 +611,8 @@ login
 persona
 .
 org
+:
+HSTS
 \
 t0
 \
