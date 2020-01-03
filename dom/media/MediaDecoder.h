@@ -585,12 +585,6 @@ IsFinishedOnMainThread
 ;
 }
 int64_t
-mLastAudioPacketTime
-;
-int64_t
-mLastAudioPacketEndTime
-;
-int64_t
 mAudioFramesWritten
 ;
 int64_t
@@ -598,6 +592,9 @@ mInitialTime
 ;
 int64_t
 mNextVideoTime
+;
+int64_t
+mNextAudioTime
 ;
 MediaDecoder
 *
