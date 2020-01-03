@@ -106,6 +106,7 @@ uint32_t
 int32_t
 *
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -140,6 +141,7 @@ int32_t
 *
 port
 )
+MOZ_OVERRIDE
 ;
 void
 ParseAfterScheme
@@ -163,6 +165,7 @@ int32_t
 *
 pathLen
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -215,6 +218,7 @@ int32_t
 *
 port
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ParseUserInfo
@@ -238,6 +242,7 @@ int32_t
 *
 passwordLen
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ParseServerInfo
@@ -258,6 +263,7 @@ int32_t
 *
 port
 )
+MOZ_OVERRIDE
 ;
 void
 ParseAfterScheme
@@ -281,6 +287,7 @@ int32_t
 *
 pathLen
 )
+MOZ_OVERRIDE
 ;
 }
 ;

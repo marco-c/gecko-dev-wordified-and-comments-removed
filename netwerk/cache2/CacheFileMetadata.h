@@ -857,6 +857,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnDataWritten
@@ -871,6 +872,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnDataRead
@@ -884,6 +886,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnFileDoomed
@@ -894,6 +897,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnEOFSet
@@ -904,6 +908,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnFileRenamed
@@ -914,6 +919,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 size_t
 SizeOfExcludingThis

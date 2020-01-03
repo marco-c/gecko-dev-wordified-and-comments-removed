@@ -440,6 +440,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -473,6 +474,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -505,6 +507,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -534,6 +537,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -560,6 +564,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -589,6 +594,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (

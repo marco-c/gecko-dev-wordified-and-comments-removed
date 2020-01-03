@@ -1178,6 +1178,7 @@ nsHostRecord
 *
 nsresult
 )
+MOZ_OVERRIDE
 ;
 bool
 EqualsAsyncListener
@@ -1186,6 +1187,7 @@ nsIDNSListener
 *
 aListener
 )
+MOZ_OVERRIDE
 ;
 size_t
 SizeOfIncludingThis
@@ -1196,6 +1198,7 @@ mozilla
 MallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 nsRefPtr
 <

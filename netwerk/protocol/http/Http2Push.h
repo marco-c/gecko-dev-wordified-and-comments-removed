@@ -147,6 +147,7 @@ uint32_t
 uint32_t
 *
 )
+MOZ_OVERRIDE
 ;
 nsresult
 WriteSegments
@@ -157,12 +158,14 @@ uint32_t
 uint32_t
 *
 )
+MOZ_OVERRIDE
 ;
 nsILoadGroupConnectionInfo
 *
 LoadGroupConnectionInfo
 (
 )
+MOZ_OVERRIDE
 {
 return
 mLoadGroupCI
@@ -242,6 +245,7 @@ bool
 HasSink
 (
 )
+MOZ_OVERRIDE
 {
 return
 !

@@ -879,6 +879,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnDataWritten
@@ -893,6 +894,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -925,6 +927,7 @@ aBuf
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -954,6 +957,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -983,6 +987,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (
@@ -1012,6 +1017,7 @@ aHandle
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 MOZ_CRASH
 (

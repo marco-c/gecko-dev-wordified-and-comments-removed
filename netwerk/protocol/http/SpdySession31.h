@@ -125,11 +125,13 @@ bool
 nsIInterfaceRequestor
 *
 )
+MOZ_OVERRIDE
 ;
 bool
 CanReuse
 (
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -144,6 +146,7 @@ bool
 RoomForMoreStreams
 (
 )
+MOZ_OVERRIDE
 ;
 uint32_t
 ReadTimeoutTick
@@ -151,11 +154,13 @@ ReadTimeoutTick
 PRIntervalTime
 now
 )
+MOZ_OVERRIDE
 ;
 PRIntervalTime
 IdleTime
 (
 )
+MOZ_OVERRIDE
 ;
 uint32_t
 RegisterStreamID
@@ -516,6 +521,7 @@ TransactionHasDataToWrite
 nsAHttpTransaction
 *
 )
+MOZ_OVERRIDE
 ;
 void
 TransactionHasDataToWrite
@@ -533,6 +539,7 @@ size
 bool
 forceCommitment
 )
+MOZ_OVERRIDE
 ;
 nsresult
 BufferOutput
@@ -602,6 +609,7 @@ nsCString
 &
 log
 )
+MOZ_OVERRIDE
 ;
 uint32_t
 SendingChunkSize

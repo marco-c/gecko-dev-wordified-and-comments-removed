@@ -81,6 +81,7 @@ nsISupports
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Close
@@ -92,6 +93,7 @@ nsACString
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SendMsg
@@ -101,6 +103,7 @@ nsACString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SendBinaryMsg
@@ -110,6 +113,7 @@ nsACString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SendBinaryStream
@@ -120,6 +124,7 @@ aStream
 uint32_t
 aLength
 )
+MOZ_OVERRIDE
 ;
 nsresult
 SendBinaryStream
@@ -139,6 +144,7 @@ nsISupports
 *
 aSecurityInfo
 )
+MOZ_OVERRIDE
 ;
 void
 AddIPDLReference

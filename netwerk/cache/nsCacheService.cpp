@@ -955,6 +955,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 if
 (

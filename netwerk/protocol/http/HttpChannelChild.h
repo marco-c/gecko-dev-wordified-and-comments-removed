@@ -233,16 +233,19 @@ Cancel
 nsresult
 status
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Suspend
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Resume
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSecurityInfo
@@ -252,6 +255,7 @@ nsISupports
 *
 aSecurityInfo
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AsyncOpen
@@ -263,6 +267,7 @@ nsISupports
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetRequestHeader
@@ -278,6 +283,7 @@ aValue
 bool
 aMerge
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RedirectTo
@@ -286,6 +292,7 @@ nsIURI
 *
 newURI
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetupFallbackChannel
@@ -295,6 +302,7 @@ char
 *
 aFallbackKey
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetLocalAddress
@@ -303,6 +311,7 @@ nsACString
 &
 addr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetLocalPort
@@ -311,6 +320,7 @@ int32_t
 *
 port
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRemoteAddress
@@ -319,6 +329,7 @@ nsACString
 &
 addr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRemotePort
@@ -327,6 +338,7 @@ int32_t
 *
 port
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPriority
@@ -334,6 +346,7 @@ SetPriority
 int32_t
 value
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetClassFlags
@@ -341,6 +354,7 @@ SetClassFlags
 uint32_t
 inFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddClassFlags
@@ -348,6 +362,7 @@ AddClassFlags
 uint32_t
 inFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ClearClassFlags
@@ -355,6 +370,7 @@ ClearClassFlags
 uint32_t
 inFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ResumeAt
@@ -366,6 +382,7 @@ nsACString
 &
 entityID
 )
+MOZ_OVERRIDE
 ;
 void
 AddIPDLReference
@@ -495,6 +512,7 @@ ResourceTimingStruct
 &
 timing
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvOnProgress
@@ -606,6 +624,7 @@ void
 DoNotifyListenerCleanup
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

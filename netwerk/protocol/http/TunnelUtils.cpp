@@ -3221,6 +3221,7 @@ NS_IMETHODIMP
 Close
 (
 )
+MOZ_OVERRIDE
 {
 mTLSFilter
 =
@@ -3242,6 +3243,7 @@ uint64_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mStream
@@ -3260,6 +3262,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mStream
@@ -3285,6 +3288,7 @@ uint32_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mStream
@@ -3540,6 +3544,7 @@ NS_IMETHODIMP
 Close
 (
 )
+MOZ_OVERRIDE
 {
 mTLSFilter
 =
@@ -3558,6 +3563,7 @@ NS_IMETHODIMP
 Flush
 (
 )
+MOZ_OVERRIDE
 {
 return
 mStream
@@ -3575,6 +3581,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mStream
@@ -3600,6 +3607,7 @@ uint32_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mStream
@@ -3626,6 +3634,7 @@ uint32_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 return
 mStream

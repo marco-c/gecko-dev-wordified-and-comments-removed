@@ -351,6 +351,7 @@ bool
 *
 reset
 )
+MOZ_OVERRIDE
 ;
 \
 void
@@ -360,6 +361,7 @@ nsAHttpTransaction
 *
 nsresult
 )
+MOZ_OVERRIDE
 ;
 \
 nsresult
@@ -377,24 +379,28 @@ nsIAsyncOutputStream
 *
 *
 )
+MOZ_OVERRIDE
 ;
 \
 bool
 IsPersistent
 (
 )
+MOZ_OVERRIDE
 ;
 \
 bool
 IsReused
 (
 )
+MOZ_OVERRIDE
 ;
 \
 void
 DontReuse
 (
 )
+MOZ_OVERRIDE
 ;
 \
 nsresult
@@ -405,6 +411,7 @@ char
 *
 uint32_t
 )
+MOZ_OVERRIDE
 ;
 \
 nsHttpConnection
@@ -412,6 +419,7 @@ nsHttpConnection
 TakeHttpConnection
 (
 )
+MOZ_OVERRIDE
 ;
 \
 uint32_t
@@ -420,6 +428,7 @@ CancelPipeline
 nsresult
 originalReason
 )
+MOZ_OVERRIDE
 ;
 \
 nsAHttpTransaction
@@ -429,6 +438,7 @@ Classifier
 Classification
 (
 )
+MOZ_OVERRIDE
 ;
 \
 /
@@ -464,6 +474,8 @@ nsHttpConnectionInfo
 *
 result
 )
+\
+MOZ_OVERRIDE
 \
 {
 \
@@ -510,6 +522,8 @@ nsISupports
 result
 )
 \
+MOZ_OVERRIDE
+\
 {
 \
 if
@@ -550,6 +564,7 @@ nsresult
 ResumeSend
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -582,6 +597,7 @@ nsresult
 ResumeRecv
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -614,6 +630,7 @@ nsresult
 ForceSend
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -646,6 +663,7 @@ nsresult
 ForceRecv
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -680,6 +698,8 @@ Transport
 (
 )
 \
+MOZ_OVERRIDE
+\
 {
 \
 if
@@ -711,6 +731,7 @@ uint32_t
 Version
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -739,6 +760,7 @@ bool
 IsProxyConnectInProgress
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -759,6 +781,7 @@ bool
 LastTransactionExpectedNoContent
 (
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -781,6 +804,8 @@ SetLastTransactionExpectedNoContent
 bool
 val
 )
+\
+MOZ_OVERRIDE
 \
 {
 \
@@ -808,6 +833,8 @@ Classifier
 newclass
 )
 \
+MOZ_OVERRIDE
+\
 {
 \
 if
@@ -833,6 +860,7 @@ int64_t
 BytesWritten
 (
 )
+MOZ_OVERRIDE
 \
 {
 return
@@ -858,6 +886,8 @@ nsIInterfaceRequestor
 *
 aCallbacks
 )
+\
+MOZ_OVERRIDE
 \
 {
 \

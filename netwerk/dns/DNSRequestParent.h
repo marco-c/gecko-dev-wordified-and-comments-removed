@@ -78,11 +78,13 @@ nsresult
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 bool
 Recv__delete__
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

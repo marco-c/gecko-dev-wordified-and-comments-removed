@@ -86,6 +86,7 @@ CacheFileChunk
 *
 aChunk
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnChunkWritten
@@ -96,6 +97,7 @@ CacheFileChunk
 *
 aChunk
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnChunkAvailable
@@ -108,6 +110,7 @@ CacheFileChunk
 *
 aChunk
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnChunkUpdated
@@ -116,6 +119,7 @@ CacheFileChunk
 *
 aChunk
 )
+MOZ_OVERRIDE
 ;
 void
 NotifyCloseListener

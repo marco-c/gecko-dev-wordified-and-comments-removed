@@ -537,6 +537,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -556,6 +557,7 @@ Cancel
 nsresult
 reason
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_ARG
 (
@@ -657,6 +659,7 @@ nsCString
 &
 newPACURL
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -4839,6 +4842,7 @@ nsCString
 &
 newPACURL
 )
+MOZ_OVERRIDE
 {
 MutexAutoLock
 lock

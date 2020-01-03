@@ -594,6 +594,7 @@ int32_t
 *
 aMode
 )
+MOZ_OVERRIDE
 {
 *
 aMode
@@ -611,6 +612,7 @@ uint32_t
 *
 aAppId
 )
+MOZ_OVERRIDE
 {
 *
 aAppId

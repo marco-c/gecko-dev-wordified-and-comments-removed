@@ -218,6 +218,7 @@ PRTime
 *
 lastModifiedTime
 )
+MOZ_OVERRIDE
 {
 *
 lastModifiedTime
@@ -234,6 +235,7 @@ SetLastModifiedTime
 PRTime
 lastModifiedTime
 )
+MOZ_OVERRIDE
 {
 mLastModifiedTime
 =
@@ -272,6 +274,7 @@ ForcePending
 bool
 aForcePending
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -297,6 +300,7 @@ nsIChannel
 *
 channel
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -308,12 +312,14 @@ nsString
 &
 statusArg
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 OnCallbacksChanged
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

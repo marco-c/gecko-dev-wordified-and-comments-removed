@@ -404,6 +404,7 @@ nsILoadGroupConnectionInfo
 LoadGroupConnectionInfo
 (
 )
+MOZ_OVERRIDE
 {
 return
 mLoadGroupCI
@@ -1156,6 +1157,7 @@ void
 OnTokenBucketAdmitted
 (
 )
+MOZ_OVERRIDE
 ;
 void
 CancelPacing

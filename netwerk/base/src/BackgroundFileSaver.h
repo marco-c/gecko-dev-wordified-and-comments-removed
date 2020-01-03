@@ -114,6 +114,7 @@ void
 virtualDestroyNSSReference
 (
 )
+MOZ_OVERRIDE
 ;
 static
 uint32_t
@@ -475,6 +476,7 @@ void
 virtualDestroyNSSReference
 (
 )
+MOZ_OVERRIDE
 {
 }
 private

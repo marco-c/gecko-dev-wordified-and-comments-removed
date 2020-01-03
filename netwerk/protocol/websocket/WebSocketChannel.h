@@ -254,6 +254,7 @@ nsISupports
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Close
@@ -265,6 +266,7 @@ nsACString
 &
 aReason
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SendMsg
@@ -274,6 +276,7 @@ nsACString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SendBinaryMsg
@@ -283,6 +286,7 @@ nsACString
 &
 aMsg
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SendBinaryStream
@@ -293,6 +297,7 @@ aStream
 uint32_t
 length
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetSecurityInfo
@@ -302,6 +307,7 @@ nsISupports
 *
 aSecurityInfo
 )
+MOZ_OVERRIDE
 ;
 WebSocketChannel
 (

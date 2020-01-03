@@ -136,16 +136,19 @@ Cancel
 nsresult
 status
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Suspend
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Resume
 (
 )
+MOZ_OVERRIDE
 ;
 explicit
 FTPChannelChild
@@ -175,6 +178,7 @@ nsISupports
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 IsPending
@@ -183,6 +187,7 @@ bool
 *
 result
 )
+MOZ_OVERRIDE
 ;
 nsresult
 OpenContentStream

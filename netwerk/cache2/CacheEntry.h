@@ -493,6 +493,7 @@ aResult
 bool
 aIsNew
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnFileDoomed
@@ -500,6 +501,7 @@ OnFileDoomed
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 ;
 nsRefPtr
 <

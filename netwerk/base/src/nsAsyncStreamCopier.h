@@ -76,6 +76,7 @@ aCloseSource
 bool
 aCloseSink
 )
+MOZ_OVERRIDE
 ;
 nsAsyncStreamCopier
 (
