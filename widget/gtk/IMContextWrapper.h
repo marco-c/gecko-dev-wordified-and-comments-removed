@@ -867,6 +867,8 @@ const
 gchar
 *
 aUTF8CompositionString
+int32_t
+aUTF16CaretOffset
 TextRange
 &
 aTextRange
