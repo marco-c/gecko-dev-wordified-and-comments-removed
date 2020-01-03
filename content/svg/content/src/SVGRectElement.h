@@ -125,6 +125,16 @@ const
 MOZ_OVERRIDE
 ;
 virtual
+void
+GetAsSimplePath
+(
+SimplePath
+*
+aSimplePath
+)
+MOZ_OVERRIDE
+;
+virtual
 TemporaryRef
 <
 Path
