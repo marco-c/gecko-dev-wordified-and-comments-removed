@@ -718,7 +718,7 @@ updateLocalsToFrameSlots
 ;
 StmtInfoBCE
 *
-topStmt
+innermostStmt
 (
 )
 const
@@ -726,14 +726,14 @@ const
 return
 stmtStack
 .
-top
+innermost
 (
 )
 ;
 }
 StmtInfoBCE
 *
-topScopeStmt
+innermostScopeStmt
 (
 )
 const
@@ -741,7 +741,7 @@ const
 return
 stmtStack
 .
-topScopal
+innermostScopal
 (
 )
 ;

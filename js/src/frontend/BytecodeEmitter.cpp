@@ -294,11 +294,11 @@ StmtInfoBase
 {
 StmtInfoBCE
 *
-down
+enclosing
 ;
 StmtInfoBCE
 *
-downScope
+enclosingScope
 ;
 ptrdiff_t
 update
@@ -1721,13 +1721,13 @@ StatementName
 (
 StmtInfoBCE
 *
-topStmt
+stmt
 )
 {
 if
 (
 !
-topStmt
+stmt
 )
 return
 js_script_str
@@ -1737,7 +1737,7 @@ statementName
 [
 uint16_t
 (
-topStmt
+stmt
 -
 >
 type
@@ -1754,7 +1754,7 @@ TokenStream
 ts
 StmtInfoBCE
 *
-topStmt
+stmt
 )
 {
 ts
@@ -1764,7 +1764,7 @@ reportError
 JSMSG_NEED_DIET
 StatementName
 (
-topStmt
+stmt
 )
 )
 ;
@@ -2248,7 +2248,7 @@ LoopStmtInfo
 :
 fromStmtInfo
 (
-topStmt
+innermostStmt
 (
 )
 )
@@ -2532,7 +2532,7 @@ stmt
 bce
 -
 >
-topScopeStmt
+innermostScopeStmt
 (
 )
 )
@@ -2717,7 +2717,7 @@ stmt
 bce
 -
 >
-topStmt
+innermostStmt
 (
 )
 ;
@@ -2731,7 +2731,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 {
 switch
@@ -3232,7 +3232,7 @@ isLoop
 ;
 LoopStmtInfo
 *
-downLoop
+enclosingLoop
 =
 nullptr
 ;
@@ -3245,7 +3245,7 @@ outer
 stmt
 -
 >
-down
+enclosing
 ;
 outer
 ;
@@ -3254,7 +3254,7 @@ outer
 outer
 -
 >
-down
+enclosing
 )
 {
 if
@@ -3267,7 +3267,7 @@ isLoop
 )
 )
 {
-downLoop
+enclosingLoop
 =
 LoopStmtInfo
 :
@@ -3296,9 +3296,9 @@ stmt
 >
 loopDepth
 =
-downLoop
+enclosingLoop
 ?
-downLoop
+enclosingLoop
 -
 >
 loopDepth
@@ -3366,15 +3366,16 @@ stackDepth
 ;
 if
 (
-downLoop
+enclosingLoop
 )
+{
 stmt
 -
 >
 canIonOsr
 =
 (
-downLoop
+enclosingLoop
 -
 >
 canIonOsr
@@ -3386,7 +3387,7 @@ stmt
 stackDepth
 =
 =
-downLoop
+enclosingLoop
 -
 >
 stackDepth
@@ -3394,7 +3395,9 @@ stackDepth
 loopSlots
 )
 ;
+}
 else
+{
 stmt
 -
 >
@@ -3408,6 +3411,7 @@ stackDepth
 =
 loopSlots
 ;
+}
 }
 JSObject
 *
@@ -3424,7 +3428,7 @@ StmtInfoBCE
 *
 stmt
 =
-topScopeStmt
+innermostScopeStmt
 (
 )
 )
@@ -3782,7 +3786,7 @@ StmtInfoBCE
 *
 stmt
 =
-topScopeStmt
+innermostScopeStmt
 (
 )
 )
@@ -4077,7 +4081,7 @@ StmtInfoBCE
 *
 stmt
 =
-topScopeStmt
+innermostScopeStmt
 (
 )
 )
@@ -4137,7 +4141,7 @@ enclosingStaticScope
 ;
 stmtStack
 .
-linkAsTopScopal
+linkAsInnermostScopal
 (
 stmt
 *
@@ -4184,7 +4188,7 @@ popStatement
 if
 (
 !
-topStmt
+innermostStmt
 (
 )
 -
@@ -4196,7 +4200,7 @@ isTrying
 {
 backPatch
 (
-topStmt
+innermostStmt
 (
 )
 -
@@ -4214,7 +4218,7 @@ JSOP_GOTO
 ;
 backPatch
 (
-topStmt
+innermostStmt
 (
 )
 -
@@ -4222,7 +4226,7 @@ topStmt
 continues
 code
 (
-topStmt
+innermostStmt
 (
 )
 -
@@ -4256,7 +4260,7 @@ MOZ_ASSERT
 stmt
 =
 =
-topScopeStmt
+innermostScopeStmt
 (
 )
 )
@@ -5290,7 +5294,7 @@ StmtInfoBCE
 *
 stmt
 =
-topScopeStmt
+innermostScopeStmt
 (
 )
 )
@@ -6046,7 +6050,7 @@ MOZ_ASSERT
 bceOfDef
 -
 >
-topScopeStmt
+innermostScopeStmt
 (
 )
 -
@@ -6069,7 +6073,7 @@ stmt
 bceOfDef
 -
 >
-topScopeStmt
+innermostScopeStmt
 (
 )
 ;
@@ -7159,7 +7163,7 @@ StmtInfoBCE
 *
 stmt
 =
-topStmt
+innermostStmt
 (
 )
 ;
@@ -7170,7 +7174,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 {
 if
@@ -10188,7 +10192,7 @@ StmtInfoBCE
 *
 stmt
 =
-topStmt
+innermostStmt
 (
 )
 ;
@@ -10199,7 +10203,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 {
 if
@@ -10314,7 +10318,7 @@ StmtInfoBCE
 *
 stmt
 =
-topStmt
+innermostStmt
 (
 )
 ;
@@ -10325,7 +10329,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 {
 if
@@ -21593,7 +21597,7 @@ StmtInfoBCE
 *
 stmt
 =
-topStmt
+innermostStmt
 (
 )
 ;
@@ -21632,7 +21636,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 ;
 MOZ_ASSERT
 (
@@ -23845,7 +23849,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 !
 =
@@ -24423,7 +24427,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 !
 =
@@ -24905,7 +24909,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 !
 =
@@ -24931,15 +24935,15 @@ forLoopRequiresFreshening
 {
 StmtInfoBCE
 *
-parent
+enclosing
 =
 stmtInfo
 .
-down
+enclosing
 ;
 MOZ_ASSERT
 (
-parent
+enclosing
 -
 >
 type
@@ -24953,7 +24957,7 @@ BLOCK
 ;
 MOZ_ASSERT
 (
-parent
+enclosing
 -
 >
 isBlockScope
@@ -24961,7 +24965,7 @@ isBlockScope
 ;
 if
 (
-parent
+enclosing
 -
 >
 staticScope
@@ -26145,7 +26149,7 @@ JSOP_NOP
 MOZ_ASSERT
 (
 !
-topStmt
+innermostStmt
 (
 )
 )
@@ -26516,7 +26520,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 !
 =
@@ -26837,7 +26841,7 @@ StmtInfoBCE
 *
 stmt
 =
-topStmt
+innermostStmt
 (
 )
 ;
@@ -26876,7 +26880,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 ;
 noteType
 =
@@ -26912,7 +26916,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 ;
 noteType
 =
@@ -26962,7 +26966,7 @@ StmtInfoBCE
 *
 stmt
 =
-topStmt
+innermostStmt
 (
 )
 ;
@@ -27018,7 +27022,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 ;
 }
 stmt
@@ -27043,7 +27047,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 ;
 }
 return
@@ -27073,7 +27077,7 @@ StmtInfoBCE
 *
 stmt
 =
-topStmt
+innermostStmt
 (
 )
 ;
@@ -27084,7 +27088,7 @@ stmt
 stmt
 -
 >
-down
+enclosing
 )
 {
 if
@@ -28704,12 +28708,12 @@ false
 ;
 if
 (
-topStmt
+innermostStmt
 (
 )
 &
 &
-topStmt
+innermostStmt
 (
 )
 -
@@ -28723,7 +28727,7 @@ StmtType
 LABEL
 &
 &
-topStmt
+innermostStmt
 (
 )
 -
@@ -36567,7 +36571,7 @@ parser
 -
 >
 tokenStream
-topStmt
+innermostStmt
 (
 )
 )
