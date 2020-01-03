@@ -2553,7 +2553,7 @@ aNewBookmarkId
 PRTime
 dateAdded
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;
@@ -3036,7 +3036,7 @@ bookmark
 .
 lastModified
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;
@@ -3579,7 +3579,7 @@ aItemId
 PRTime
 dateAdded
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;
@@ -3836,7 +3836,7 @@ aGUID
 PRTime
 dateAdded
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;
@@ -5309,7 +5309,7 @@ LAST_MODIFIED
 folder
 .
 id
-PR_Now
+RoundedPRNow
 (
 )
 )
@@ -6158,7 +6158,7 @@ rv
 PRTime
 now
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;
@@ -6746,6 +6746,13 @@ PRTime
 aValue
 )
 {
+aValue
+=
+RoundToMilliseconds
+(
+aValue
+)
+;
 nsCOMPtr
 <
 mozIStorageStatement
@@ -6931,7 +6938,10 @@ bookmark
 .
 dateAdded
 =
+RoundToMilliseconds
+(
 aDateAdded
+)
 ;
 rv
 =
@@ -7095,7 +7105,10 @@ bookmark
 .
 lastModified
 =
+RoundToMilliseconds
+(
 aLastModified
+)
 ;
 rv
 =
@@ -7364,8 +7377,11 @@ bookmark
 .
 lastModified
 =
-PR_Now
+RoundToMilliseconds
 (
+RoundedPRNow
+(
+)
 )
 ;
 rv
@@ -9655,7 +9671,7 @@ bookmark
 .
 lastModified
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;
@@ -11466,7 +11482,7 @@ bookmark
 .
 lastModified
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;
@@ -13492,7 +13508,7 @@ bookmark
 .
 lastModified
 =
-PR_Now
+RoundedPRNow
 (
 )
 ;

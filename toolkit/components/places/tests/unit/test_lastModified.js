@@ -93,7 +93,7 @@ setItemLastModified
 itemId
 dateAdded
 +
-1
+1000
 )
 ;
 do_check_true
@@ -109,7 +109,7 @@ itemId
 =
 dateAdded
 +
-1
+1000
 )
 ;
 do_check_true
@@ -136,7 +136,7 @@ setItemDateAdded
 itemId
 dateAdded
 +
-2
+2000
 )
 ;
 do_check_true
@@ -152,7 +152,7 @@ itemId
 =
 dateAdded
 +
-2
+2000
 )
 ;
 do_check_eq

@@ -579,7 +579,7 @@ setItemLastModified
 bm1
 bm2lm
 +
-1
+1000
 )
 ;
 [
