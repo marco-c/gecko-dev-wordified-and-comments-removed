@@ -49514,9 +49514,7 @@ MAryInstruction
 4
 >
 public
-MixPolicy
-<
-MixPolicy
+Mix4Policy
 <
 ObjectPolicy
 <
@@ -49526,9 +49524,6 @@ IntPolicy
 <
 1
 >
->
-MixPolicy
-<
 IntPolicy
 <
 2
@@ -49536,7 +49531,6 @@ IntPolicy
 IntPolicy
 <
 3
->
 >
 >
 :
