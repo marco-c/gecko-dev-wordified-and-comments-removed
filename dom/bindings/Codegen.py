@@ -73293,7 +73293,7 @@ supportsIndexedProperties
 set
 +
 =
-fill
+dedent
 (
                 
 "
@@ -73313,32 +73313,17 @@ id
 )
 {
                   
+*
+defined
+=
+true
+;
+                  
 return
-js
-:
-:
-IsInNonStrictPropertySet
-(
-cx
-)
-                         
-?
 opresult
 .
-succeed
+failNoIndexedSetter
 (
-)
-                         
-:
-ThrowErrorMessage
-(
-cx
-MSG_NO_INDEXED_SETTER
-"
-{
-name
-}
-"
 )
 ;
                 
@@ -73347,14 +73332,6 @@ name
 "
 "
 "
-                
-name
-=
-self
-.
-descriptor
-.
-name
 )
         
 namedSetter
@@ -73538,32 +73515,17 @@ found
 )
 {
                       
+*
+defined
+=
+true
+;
+                      
 return
-js
-:
-:
-IsInNonStrictPropertySet
-(
-cx
-)
-                             
-?
 opresult
 .
-succeed
+failNoNamedSetter
 (
-)
-                             
-:
-ThrowErrorMessage
-(
-cx
-MSG_NO_NAMED_SETTER
-"
-{
-name
-}
-"
 )
 ;
                     
@@ -73590,14 +73552,6 @@ found
 define
 (
 )
-                    
-name
-=
-self
-.
-descriptor
-.
-name
 )
             
 set
