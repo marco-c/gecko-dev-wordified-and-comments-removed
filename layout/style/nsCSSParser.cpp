@@ -25346,11 +25346,6 @@ AssertInitialState
 (
 )
 ;
-if
-(
-declaration
-)
-{
 for
 (
 ;
@@ -25404,7 +25399,6 @@ true
 {
 break
 ;
-}
 }
 }
 }
