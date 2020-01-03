@@ -970,6 +970,16 @@ severity
 ;
 }
 }
+void
+UnusedApzTransformWarning
+(
+)
+{
+mUnusedApzTransformWarning
+=
+true
+;
+}
 private
 :
 nsIntRegion
@@ -1066,6 +1076,9 @@ mozilla
 :
 TimeStamp
 mWarnTime
+;
+bool
+mUnusedApzTransformWarning
 ;
 RefPtr
 <
