@@ -205,9 +205,6 @@ NeckoChannelParams
 include
 PBrowserOrId
 ;
-include
-PBackgroundSharedTypes
-;
 using
 class
 IPC
@@ -434,8 +431,6 @@ PBrowserOrId
 browser
 SerializedLoadContext
 loadContext
-PrincipalInfo
-requestingPrincipalInfo
 )
 ;
 PTCPServerSocket

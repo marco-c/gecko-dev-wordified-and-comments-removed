@@ -768,10 +768,6 @@ const
 SerializedLoadContext
 &
 aSerialized
-const
-PrincipalInfo
-&
-requestingPrincipal
 )
 {
 NS_NOTREACHED
