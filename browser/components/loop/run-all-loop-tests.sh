@@ -73,7 +73,6 @@ browser
 components
 /
 loop
-#
 ESLINT
 =
 standalone
@@ -84,7 +83,6 @@ node_modules
 bin
 /
 eslint
-#
 if
 [
 -
@@ -101,7 +99,6 @@ ESLINT
 ]
 ;
 then
-#
 echo
 '
 running
@@ -124,7 +121,6 @@ for
 error
 info
 '
-#
 (
 cd
 {
@@ -139,7 +135,6 @@ ESLINT
 }
 .
 )
-#
 echo
 '
 eslint
@@ -147,7 +142,6 @@ run
 finished
 .
 '
-#
 fi
 .
 /
