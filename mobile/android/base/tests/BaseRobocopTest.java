@@ -89,6 +89,12 @@ util
 .
 Log
 ;
+SuppressWarnings
+(
+"
+unchecked
+"
+)
 public
 abstract
 class
@@ -202,12 +208,6 @@ protected
 String
 mRootPath
 ;
-SuppressWarnings
-(
-"
-unchecked
-"
-)
 public
 BaseRobocopTest
 (
