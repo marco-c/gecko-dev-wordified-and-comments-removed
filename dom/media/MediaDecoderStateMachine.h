@@ -2004,9 +2004,6 @@ Canonical
 <
 NextFrameStatus
 >
-:
-:
-Holder
 mNextFrameStatus
 ;
 public
