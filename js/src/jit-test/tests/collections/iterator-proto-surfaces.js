@@ -33,6 +33,7 @@ Object
 .
 getPrototypeOf
 (
+new
 constructor
 (
 )

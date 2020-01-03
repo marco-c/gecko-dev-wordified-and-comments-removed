@@ -12,6 +12,7 @@ js
 var
 map
 =
+new
 Map
 (
 )

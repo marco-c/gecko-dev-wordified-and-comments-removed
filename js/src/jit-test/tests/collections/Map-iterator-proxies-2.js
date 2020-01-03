@@ -95,6 +95,7 @@ g
 eval
 (
 "
+new
 Map
 (
 [
@@ -140,8 +141,11 @@ x
 var
 next_fn
 =
+(
+new
 Map
 (
+)
 )
 [
 Symbol

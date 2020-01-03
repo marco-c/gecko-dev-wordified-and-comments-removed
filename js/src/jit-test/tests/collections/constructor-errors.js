@@ -137,6 +137,7 @@ function
 (
 )
 {
+new
 Map
 (
 v

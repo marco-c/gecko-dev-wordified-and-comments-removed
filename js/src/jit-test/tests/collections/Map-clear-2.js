@@ -1,6 +1,7 @@
 var
 m
 =
+new
 Map
 (
 [

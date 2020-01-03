@@ -55,6 +55,7 @@ function
 (
 )
 {
+new
 Map
 (
 it

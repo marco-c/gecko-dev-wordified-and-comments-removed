@@ -1,11 +1,13 @@
 var
 m1
 =
+new
 Map
 (
 )
 m2
 =
+new
 Map
 (
 )

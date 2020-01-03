@@ -42,6 +42,7 @@ four
 var
 m
 =
+new
 Map
 (
 data

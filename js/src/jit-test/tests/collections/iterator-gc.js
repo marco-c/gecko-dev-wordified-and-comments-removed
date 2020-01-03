@@ -83,6 +83,7 @@ element
 ;
 test
 (
+new
 Map
 (
 [

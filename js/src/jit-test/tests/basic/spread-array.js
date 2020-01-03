@@ -352,6 +352,7 @@ assertEqArray
 .
 .
 .
+new
 Map
 (
 [

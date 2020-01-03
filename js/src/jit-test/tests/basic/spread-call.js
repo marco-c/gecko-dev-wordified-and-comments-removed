@@ -393,6 +393,7 @@ arg
 )
 (
 f
+new
 Map
 (
 [

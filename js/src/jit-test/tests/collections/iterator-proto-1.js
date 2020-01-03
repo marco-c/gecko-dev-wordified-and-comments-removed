@@ -84,9 +84,11 @@ test
 ;
 test
 (
+new
 Map
 (
 )
+new
 Map
 (
 [

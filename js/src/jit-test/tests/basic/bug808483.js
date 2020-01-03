@@ -15,6 +15,7 @@ ArrayBuffer
 \
 y
 =
+new
 Map
 (
 )

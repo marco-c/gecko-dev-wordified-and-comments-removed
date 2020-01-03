@@ -23,6 +23,7 @@ serialize
 evalcx
 (
 "
+new
 Map
 (
 [

@@ -15,6 +15,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -32,6 +33,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -49,6 +51,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -77,6 +80,7 @@ function
 (
 )
 {
+new
 Map
 (
 [
@@ -101,6 +105,7 @@ function
 (
 )
 {
+new
 Map
 (
 [

@@ -19,12 +19,14 @@ b
 var
 m1
 =
+new
 Map
 (
 data
 )
 m2
 =
+new
 Map
 (
 data
