@@ -459,8 +459,6 @@ inline
 bool
 NPStringIdentifierIsPermanent
 (
-NPP
-npp
 NPIdentifier
 id
 )

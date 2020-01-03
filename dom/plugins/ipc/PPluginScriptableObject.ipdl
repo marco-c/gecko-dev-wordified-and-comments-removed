@@ -98,8 +98,7 @@ protocol
 PPluginInstance
 ;
 include
-protocol
-PPluginIdentifier
+PluginTypes
 ;
 using
 struct
@@ -203,7 +202,7 @@ methods
 intr
 HasMethod
 (
-PPluginIdentifier
+PluginIdentifier
 aId
 )
 returns
@@ -215,7 +214,7 @@ aHasMethod
 intr
 Invoke
 (
-PPluginIdentifier
+PluginIdentifier
 aId
 Variant
 [
@@ -249,7 +248,7 @@ aSuccess
 intr
 HasProperty
 (
-PPluginIdentifier
+PluginIdentifier
 aId
 )
 returns
@@ -261,7 +260,7 @@ aHasProperty
 intr
 SetProperty
 (
-PPluginIdentifier
+PluginIdentifier
 aId
 Variant
 aValue
@@ -275,7 +274,7 @@ aSuccess
 intr
 RemoveProperty
 (
-PPluginIdentifier
+PluginIdentifier
 aId
 )
 returns
@@ -290,7 +289,7 @@ Enumerate
 )
 returns
 (
-PPluginIdentifier
+PluginIdentifier
 [
 ]
 aProperties
@@ -485,7 +484,7 @@ parent
 intr
 GetParentProperty
 (
-PPluginIdentifier
+PluginIdentifier
 aId
 )
 returns
@@ -501,7 +500,7 @@ child
 intr
 GetChildProperty
 (
-PPluginIdentifier
+PluginIdentifier
 aId
 )
 returns
