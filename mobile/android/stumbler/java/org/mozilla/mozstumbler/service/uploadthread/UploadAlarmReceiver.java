@@ -197,6 +197,15 @@ intent
 boolean
 isRepeating
 =
+(
+intent
+=
+=
+null
+)
+?
+true
+:
 intent
 .
 getBooleanExtra
