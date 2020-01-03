@@ -35,3 +35,4 @@ toctree
 maxdepth
 :
 1
+UITelemetry
