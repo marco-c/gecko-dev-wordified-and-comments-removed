@@ -706,6 +706,7 @@ function
 *
 (
 url
+hostType
 )
 {
 let
@@ -726,6 +727,8 @@ toolbox
 yield
 openInspector
 (
+null
+hostType
 )
 ;
 return
@@ -749,6 +752,7 @@ function
 *
 (
 cb
+hostType
 )
 {
 info
@@ -865,6 +869,7 @@ target
 "
 inspector
 "
+hostType
 )
 ;
 yield
