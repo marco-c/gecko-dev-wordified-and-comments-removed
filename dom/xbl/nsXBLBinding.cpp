@@ -4391,7 +4391,10 @@ JS_SetReservedSlot
 (
 proto
 0
-PRIVATE_TO_JSVAL
+JS
+:
+:
+PrivateValue
 (
 aProtoBinding
 )

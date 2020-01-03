@@ -13153,7 +13153,10 @@ SetReservedSlot
 (
 aGlobal
 DOM_OBJECT_SLOT
-PRIVATE_TO_JSVAL
+JS
+:
+:
+PrivateValue
 (
 aNative
 )
