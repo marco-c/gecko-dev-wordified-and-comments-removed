@@ -539,6 +539,9 @@ SendGainToStream
 1
 .
 0f
+"
+gain
+"
 )
 )
 {

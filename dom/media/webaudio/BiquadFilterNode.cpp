@@ -1154,6 +1154,9 @@ SendFrequencyToStream
 350
 .
 f
+"
+frequency
+"
 )
 )
 mDetune
@@ -1166,6 +1169,9 @@ SendDetuneToStream
 0
 .
 f
+"
+detune
+"
 )
 )
 mQ
@@ -1178,6 +1184,9 @@ SendQToStream
 1
 .
 f
+"
+Q
+"
 )
 )
 mGain
@@ -1190,6 +1199,9 @@ SendGainToStream
 0
 .
 f
+"
+gain
+"
 )
 )
 {

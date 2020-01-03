@@ -1690,6 +1690,9 @@ SendFrequencyToStream
 440
 .
 0f
+"
+frequency
+"
 )
 )
 mDetune
@@ -1702,6 +1705,9 @@ SendDetuneToStream
 0
 .
 0f
+"
+detune
+"
 )
 )
 mStartCalled

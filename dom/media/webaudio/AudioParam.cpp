@@ -140,6 +140,10 @@ CallbackType
 aCallback
 float
 aDefaultValue
+const
+char
+*
+aName
 )
 :
 AudioParamTimeline
@@ -157,6 +161,10 @@ aCallback
 mDefaultValue
 (
 aDefaultValue
+)
+mName
+(
+aName
 )
 {
 }

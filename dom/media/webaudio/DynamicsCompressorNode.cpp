@@ -823,6 +823,9 @@ SendThresholdToStream
 24
 .
 f
+"
+threshold
+"
 )
 )
 mKnee
@@ -835,6 +838,9 @@ SendKneeToStream
 30
 .
 f
+"
+knee
+"
 )
 )
 mRatio
@@ -847,6 +853,9 @@ SendRatioToStream
 12
 .
 f
+"
+ratio
+"
 )
 )
 mReduction
@@ -863,6 +872,9 @@ SendAttackToStream
 0
 .
 003f
+"
+attack
+"
 )
 )
 mRelease
@@ -875,6 +887,9 @@ SendReleaseToStream
 0
 .
 25f
+"
+release
+"
 )
 )
 {

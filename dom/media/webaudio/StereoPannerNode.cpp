@@ -863,6 +863,9 @@ SendPanToStream
 0
 .
 f
+"
+pan
+"
 )
 )
 {
