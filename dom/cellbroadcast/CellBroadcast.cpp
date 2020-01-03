@@ -122,6 +122,7 @@ NS_FORWARD_SAFE_NSICELLBROADCASTLISTENER
 (
 mCellBroadcast
 )
+explicit
 Listener
 (
 CellBroadcast

@@ -145,6 +145,7 @@ NS_FORWARD_SAFE_NSIVOICEMAILLISTENER
 (
 mVoicemail
 )
+explicit
 Listener
 (
 Voicemail

@@ -108,6 +108,7 @@ Updater
 {
 public
 :
+explicit
 Updater
 (
 ImportLoader
