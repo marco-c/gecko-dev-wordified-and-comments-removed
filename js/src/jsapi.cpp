@@ -24760,7 +24760,7 @@ const
 Latin1Char
 *
 )
-JS_Latin1InternedStringChars
+JS_GetLatin1InternedStringChars
 (
 const
 JS
