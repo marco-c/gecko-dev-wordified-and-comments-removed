@@ -25468,6 +25468,16 @@ right
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+MOZ_OVERRIDE
+;
 bool
 congruentTo
 (
