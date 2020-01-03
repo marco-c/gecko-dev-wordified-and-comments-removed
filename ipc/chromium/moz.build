@@ -305,15 +305,6 @@ src
 /
 base
 /
-lazy_instance
-.
-cc
-'
-'
-src
-/
-base
-/
 lock
 .
 cc
