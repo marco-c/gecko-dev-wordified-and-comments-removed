@@ -279,6 +279,14 @@ RestyleTracker
 aTracker
 )
 ;
+void
+NotifyCollectionUpdated
+(
+AnimationPlayerCollection
+&
+aCollection
+)
+;
 enum
 FlushFlags
 {
