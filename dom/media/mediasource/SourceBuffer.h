@@ -244,11 +244,6 @@ ErrorResult
 aRv
 )
 ;
-TimeIntervals
-GetTimeIntervals
-(
-)
-;
 double
 TimestampOffset
 (
