@@ -449,7 +449,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_EXPIRED_CERTIFICATE
+ERROR_INVALID_DER_TIME
 CheckValidity
 (
 validity
@@ -490,7 +490,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_EXPIRED_CERTIFICATE
+ERROR_INVALID_DER_TIME
 CheckValidity
 (
 validity
@@ -531,7 +531,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_NOT_YET_VALID_CERTIFICATE
+ERROR_INVALID_DER_TIME
 CheckValidity
 (
 validity
@@ -759,7 +759,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_NOT_YET_VALID_CERTIFICATE
+ERROR_INVALID_DER_TIME
 CheckValidity
 (
 validity
