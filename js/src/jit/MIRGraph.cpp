@@ -107,7 +107,7 @@ Label
 *
 outOfBoundsLabel
 bool
-usesSignalHandlersForOOB
+usesSignalHandlersForAsmJSOOB
 )
 :
 compartment
@@ -196,9 +196,9 @@ outOfBoundsLabel_
 (
 outOfBoundsLabel
 )
-usesSignalHandlersForOOB_
+usesSignalHandlersForAsmJSOOB_
 (
-usesSignalHandlersForOOB
+usesSignalHandlersForAsmJSOOB
 )
 options
 (

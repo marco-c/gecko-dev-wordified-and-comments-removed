@@ -362,7 +362,7 @@ mir
 ;
 inline
 LAllocation
-useRegisterOrNonNegativeConstantAtStart
+useRegisterOrZeroAtStart
 (
 MDefinition
 *

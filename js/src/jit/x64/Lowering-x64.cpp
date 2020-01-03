@@ -854,11 +854,12 @@ MIRType_Int32
 LAllocation
 ptrAlloc
 =
-ins
+gen
 -
 >
-needsBoundsCheck
+needsAsmJSBoundsCheckBranch
 (
+ins
 )
 ?
 useRegisterAtStart
@@ -866,7 +867,7 @@ useRegisterAtStart
 ptr
 )
 :
-useRegisterOrNonNegativeConstantAtStart
+useRegisterOrZeroAtStart
 (
 ptr
 )
@@ -925,11 +926,12 @@ MIRType_Int32
 LAllocation
 ptrAlloc
 =
-ins
+gen
 -
 >
-needsBoundsCheck
+needsAsmJSBoundsCheckBranch
 (
+ins
 )
 ?
 useRegisterAtStart
@@ -937,7 +939,7 @@ useRegisterAtStart
 ptr
 )
 :
-useRegisterOrNonNegativeConstantAtStart
+useRegisterOrZeroAtStart
 (
 ptr
 )

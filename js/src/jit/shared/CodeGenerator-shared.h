@@ -2269,6 +2269,8 @@ Scalar
 :
 Type
 type
+unsigned
+numElems
 const
 Operand
 &
