@@ -1350,6 +1350,11 @@ EnqueueLoadedMetadataEvent
 (
 )
 ;
+void
+EnqueueFirstFrameLoadedEvent
+(
+)
+;
 nsresult
 EnqueueDecodeFirstFrameTask
 (
@@ -1992,10 +1997,13 @@ NextFrameStatus
 mLastFrameStatus
 ;
 bool
-mDecodingFrozenAtStateMetadata
+mDecodingFrozenAtStateDecoding
 ;
 bool
-mDecodingFrozenAtStateDecoding
+mSentLoadedMetadataEvent
+;
+bool
+mSentFirstFrameLoadedEvent
 ;
 }
 ;

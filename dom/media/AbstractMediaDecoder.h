@@ -282,6 +282,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
 )
 =
 0
@@ -315,6 +317,8 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
+bool
+aRestoredFromDromant
 )
 =
 0
@@ -546,6 +550,8 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
 )
 :
 mDecoder
@@ -559,6 +565,10 @@ aInfo
 mTags
 (
 aTags
+)
+mRestoredFromDromant
+(
+aRestoredFromDromant
 )
 {
 }
@@ -580,6 +590,9 @@ MetadataTags
 >
 mTags
 ;
+bool
+mRestoredFromDromant
+;
 }
 ;
 class
@@ -607,6 +620,10 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
+=
+false
 )
 :
 MetadataContainer
@@ -614,6 +631,7 @@ MetadataContainer
 aDecoder
 aInfo
 aTags
+aRestoredFromDromant
 )
 {
 }
@@ -630,6 +648,7 @@ MetadataLoaded
 (
 mInfo
 mTags
+mRestoredFromDromant
 )
 ;
 return
@@ -658,6 +677,10 @@ nsAutoPtr
 MediaInfo
 >
 aInfo
+bool
+aRestoredFromDromant
+=
+false
 )
 :
 MetadataContainer
@@ -671,6 +694,7 @@ MetadataTags
 (
 nullptr
 )
+aRestoredFromDromant
 )
 {
 }
@@ -686,6 +710,7 @@ mDecoder
 FirstFrameLoaded
 (
 mInfo
+mRestoredFromDromant
 )
 ;
 return
@@ -719,6 +744,10 @@ nsAutoPtr
 MetadataTags
 >
 aTags
+bool
+aRestoredFromDromant
+=
+false
 )
 :
 MetadataContainer
@@ -726,6 +755,7 @@ MetadataContainer
 aDecoder
 aInfo
 aTags
+aRestoredFromDromant
 )
 {
 }
@@ -760,6 +790,7 @@ MetadataLoaded
 (
 info
 mTags
+mRestoredFromDromant
 )
 ;
 mDecoder
@@ -768,6 +799,7 @@ mDecoder
 FirstFrameLoaded
 (
 mInfo
+mRestoredFromDromant
 )
 ;
 return
