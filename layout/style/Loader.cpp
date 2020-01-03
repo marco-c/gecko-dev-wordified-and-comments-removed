@@ -6902,6 +6902,7 @@ corsListener
 Init
 (
 channel
+true
 )
 ;
 if
