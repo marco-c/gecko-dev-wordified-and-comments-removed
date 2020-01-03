@@ -430,6 +430,9 @@ struct
 AudioChunk
 ;
 class
+CameraPreviewMediaStream
+;
+class
 MediaStream
 :
 public
@@ -808,6 +811,17 @@ virtual
 AudioNodeStream
 *
 AsAudioNodeStream
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+CameraPreviewMediaStream
+*
+AsCameraPreviewStream
 (
 )
 {
