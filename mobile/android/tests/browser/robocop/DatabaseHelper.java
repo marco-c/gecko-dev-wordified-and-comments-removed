@@ -289,7 +289,7 @@ uri
 }
 protected
 void
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 String
 title
@@ -325,16 +325,12 @@ ok
 true
 "
 Inserting
-/
-updating
 a
 new
 bookmark
 "
 "
 Inserting
-/
-updating
 the
 bookmark
 with

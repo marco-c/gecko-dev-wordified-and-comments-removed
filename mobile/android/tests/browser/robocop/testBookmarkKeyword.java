@@ -44,7 +44,7 @@ testkeyword
 ;
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 mStringHelper
 .

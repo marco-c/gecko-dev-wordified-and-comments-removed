@@ -202,7 +202,7 @@ bookmarklet
 ;
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 title
 js

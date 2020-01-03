@@ -368,7 +368,7 @@ uri
 ;
 public
 abstract
-void
+boolean
 addBookmark
 (
 ContentResolver

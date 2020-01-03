@@ -93,7 +93,7 @@ initializeProfile
 ;
 mDatabaseHelper
 .
-addOrUpdateMobileBookmark
+addMobileBookmark
 (
 mStringHelper
 .
