@@ -2606,6 +2606,9 @@ mHasTaskbarIconBeenCreated
 bool
 mMouseTransparent
 ;
+bool
+mSendingSetText
+;
 TimeStamp
 mLastPaintEndTime
 ;
