@@ -5136,6 +5136,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_RDFITRIPLEVISITOR
+explicit
 QNameCollector
 (
 nsRDFXMLSerializer

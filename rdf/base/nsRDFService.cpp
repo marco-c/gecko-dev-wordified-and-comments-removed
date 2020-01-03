@@ -1354,6 +1354,7 @@ NS_DECL_NSIRDFNODE
 NS_DECL_NSIRDFLITERAL
 protected
 :
+explicit
 LiteralImpl
 (
 const
@@ -1911,6 +1912,7 @@ nsIRDFDate
 {
 public
 :
+explicit
 DateImpl
 (
 const
@@ -2296,6 +2298,7 @@ nsIRDFInt
 {
 public
 :
+explicit
 IntImpl
 (
 int32_t
