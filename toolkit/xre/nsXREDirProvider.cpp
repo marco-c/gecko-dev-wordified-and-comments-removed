@@ -1763,7 +1763,7 @@ rv
 =
 GetFile
 (
-XRE_EXECUTABLE_FILE
+NS_GRE_DIR
 &
 persistent
 getter_AddRefs
@@ -1784,7 +1784,7 @@ rv
 file
 -
 >
-SetNativeLeafName
+AppendNative
 (
 NS_LITERAL_CSTRING
 (
