@@ -2371,6 +2371,15 @@ captype
 abbv
 )
 ;
+#
+ifdef
+MOZILLA_CLIENT
+abbv
+=
+1
+;
+#
+endif
 if
 (
 wl
