@@ -2410,7 +2410,7 @@ nsPrintfCString
 (
 "
 %
-04X
+0X
 "
 aCode
 )
