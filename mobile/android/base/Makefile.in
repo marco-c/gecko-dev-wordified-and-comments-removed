@@ -3728,6 +3728,14 @@ installer
 stage
 -
 package
+(
+MKDIR
+)
+-
+p
+(
+D
+)
 rsync
 -
 -
