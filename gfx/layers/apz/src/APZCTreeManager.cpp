@@ -1573,7 +1573,10 @@ apzc
 >
 SetLayerHitTestData
 (
+EventRegions
+(
 unobscured
+)
 aAncestorTransform
 )
 ;
@@ -1801,9 +1804,12 @@ aObscured
 apzc
 -
 >
-AddHitTestRegion
+AddHitTestRegions
+(
+EventRegions
 (
 unobscured
+)
 )
 ;
 APZCTM_LOG
@@ -5430,7 +5436,7 @@ HasPositiveWCoord
 aApzc
 -
 >
-VisibleRegionContains
+HitRegionContains
 (
 ParentLayerPoint
 :
