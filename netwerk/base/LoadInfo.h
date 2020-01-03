@@ -138,6 +138,10 @@ uint64_t
 aOuterWindowID
 uint64_t
 aParentOuterWindowID
+bool
+aEnforceSecurity
+bool
+aInitialSecurityCheckDone
 nsTArray
 <
 nsCOMPtr
@@ -218,6 +222,12 @@ mOuterWindowID
 ;
 uint64_t
 mParentOuterWindowID
+;
+bool
+mEnforceSecurity
+;
+bool
+mInitialSecurityCheckDone
 ;
 nsTArray
 <

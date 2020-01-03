@@ -379,6 +379,12 @@ outerWindowID
 uint64_t
 parentOuterWindowID
 ;
+bool
+enforceSecurity
+;
+bool
+initialSecurityCheckDone
+;
 PrincipalInfo
 [
 ]
