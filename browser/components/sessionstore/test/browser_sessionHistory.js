@@ -169,7 +169,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -221,7 +222,8 @@ purgeSessionHistory
 "
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -333,7 +335,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -407,7 +410,8 @@ hashchange
 "
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -586,7 +590,8 @@ back
 "
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -763,7 +768,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -851,7 +857,8 @@ browser
 false
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -961,7 +968,8 @@ hashchange
 "
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1067,7 +1075,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1143,7 +1152,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1253,7 +1263,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1354,7 +1365,8 @@ entry
 }
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1459,7 +1471,8 @@ entry2
 }
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -1658,7 +1671,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

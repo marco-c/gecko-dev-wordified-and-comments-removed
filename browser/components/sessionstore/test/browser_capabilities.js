@@ -137,7 +137,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -245,7 +246,8 @@ robots
 }
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

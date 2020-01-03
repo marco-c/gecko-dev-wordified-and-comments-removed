@@ -88,7 +88,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -105,9 +106,8 @@ getTabState
 tab
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )
@@ -190,9 +190,8 @@ set
 "
 )
 ;
-gBrowser
-.
-removeTab
+yield
+promiseRemoveTab
 (
 tab
 )

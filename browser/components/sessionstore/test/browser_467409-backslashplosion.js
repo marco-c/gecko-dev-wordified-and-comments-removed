@@ -158,6 +158,7 @@ tab
 STATE
 )
 ;
+yield
 checkState
 (
 "
@@ -173,6 +174,7 @@ tab
 STATE2
 )
 ;
+yield
 checkState
 (
 "
@@ -188,6 +190,7 @@ tab
 STATE3
 )
 ;
+yield
 checkState
 (
 "
@@ -207,13 +210,15 @@ tab
 )
 ;
 function
+*
 checkState
 (
 prefix
 tab
 )
 {
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

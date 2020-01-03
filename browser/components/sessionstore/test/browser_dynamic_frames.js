@@ -137,7 +137,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -428,7 +429,8 @@ promiseBrowserLoaded
 browser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
@@ -575,7 +577,8 @@ browser
 false
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

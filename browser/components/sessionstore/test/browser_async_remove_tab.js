@@ -57,7 +57,8 @@ foobar
 r
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

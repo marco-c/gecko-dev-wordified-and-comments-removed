@@ -813,7 +813,8 @@ promiseTabRestored
 tab
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -73,7 +78,8 @@ tab
 linkedBrowser
 )
 ;
-TabState
+yield
+TabStateFlusher
 .
 flush
 (
