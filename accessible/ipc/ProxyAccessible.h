@@ -206,6 +206,15 @@ aName
 const
 ;
 void
+Value
+(
+nsString
+&
+aValue
+)
+const
+;
+void
 Description
 (
 nsString
