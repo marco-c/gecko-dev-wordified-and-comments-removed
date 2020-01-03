@@ -22,6 +22,7 @@ let
 EVENTS
 TimelineController
 TimelineView
+TIMELINE_BLUEPRINT
 }
 =
 panel
@@ -280,6 +281,18 @@ markers
 i
 ]
 ;
+let
+name
+=
+TIMELINE_BLUEPRINT
+[
+m
+.
+name
+]
+.
+label
+;
 is
 (
 (
@@ -305,8 +318,6 @@ getAttribute
 value
 "
 )
-m
-.
 name
 "
 sidebar
