@@ -692,17 +692,6 @@ p
 =
 =
 eCSSProperty__x_system_font
-|
-|
-nsCSSProps
-:
-:
-PropHasFlags
-(
-*
-p
-CSS_PROPERTY_DIRECTIONAL_SOURCE
-)
 )
 {
 continue
