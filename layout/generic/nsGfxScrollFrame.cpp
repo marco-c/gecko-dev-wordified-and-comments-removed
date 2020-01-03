@@ -19796,6 +19796,9 @@ aBuilder
 IsInWillChangeBudget
 (
 mOuter
+GetScrollPositionClampingScrollPortSize
+(
+)
 )
 )
 {

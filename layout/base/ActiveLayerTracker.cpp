@@ -1238,6 +1238,12 @@ aBuilder
 IsInWillChangeBudget
 (
 aFrame
+aFrame
+-
+>
+GetSize
+(
+)
 )
 )
 )
@@ -1280,6 +1286,12 @@ aBuilder
 IsInWillChangeBudget
 (
 aFrame
+aFrame
+-
+>
+GetSize
+(
+)
 )
 )
 )
