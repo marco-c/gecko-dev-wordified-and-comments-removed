@@ -27,6 +27,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 PendingPlayerTracker
 mPlayPendingSet
+mDocument
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (

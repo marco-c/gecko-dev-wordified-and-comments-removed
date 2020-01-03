@@ -32352,6 +32352,7 @@ mPendingPlayerTracker
 new
 PendingPlayerTracker
 (
+this
 )
 ;
 }
