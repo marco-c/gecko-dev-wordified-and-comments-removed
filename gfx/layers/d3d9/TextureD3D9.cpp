@@ -4118,7 +4118,7 @@ aCompositor
 ;
 }
 }
-NewTextureSource
+TextureSource
 *
 TextureHostD3D9
 :
@@ -4376,7 +4376,7 @@ texture
 return
 ;
 }
-NewTextureSource
+TextureSource
 *
 DXGITextureHostD3D9
 :

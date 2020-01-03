@@ -108,7 +108,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (
@@ -163,7 +163,7 @@ mCompositor
 ;
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 mTextureSource
 ;

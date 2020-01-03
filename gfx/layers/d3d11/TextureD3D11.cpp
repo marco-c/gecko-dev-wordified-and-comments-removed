@@ -2205,7 +2205,7 @@ mIsLocked
 false
 ;
 }
-NewTextureSource
+TextureSource
 *
 DXGITextureHostD3D11
 :

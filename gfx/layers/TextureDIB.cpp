@@ -518,7 +518,7 @@ GetContentType
 )
 ;
 }
-NewTextureSource
+TextureSource
 *
 DIBTextureHost
 :

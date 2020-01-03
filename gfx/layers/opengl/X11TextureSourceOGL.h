@@ -41,7 +41,7 @@ X11TextureSourceOGL
 public
 TextureSourceOGL
 public
-NewTextureSource
+TextureSource
 {
 public
 :

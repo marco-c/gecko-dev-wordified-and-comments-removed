@@ -1209,7 +1209,7 @@ class
 GLTextureSource
 :
 public
-NewTextureSource
+TextureSource
 public
 TextureSourceOGL
 {
@@ -1388,7 +1388,7 @@ class
 SurfaceTextureSource
 :
 public
-NewTextureSource
+TextureSource
 public
 TextureSourceOGL
 {
@@ -1649,7 +1649,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (
@@ -1748,7 +1748,7 @@ class
 EGLImageTextureSource
 :
 public
-NewTextureSource
+TextureSource
 public
 TextureSourceOGL
 {
@@ -2006,7 +2006,7 @@ const
 MOZ_OVERRIDE
 ;
 virtual
-NewTextureSource
+TextureSource
 *
 GetTextureSources
 (

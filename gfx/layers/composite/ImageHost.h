@@ -391,7 +391,7 @@ MOZ_OVERRIDE
 virtual
 TemporaryRef
 <
-NewTextureSource
+TextureSource
 >
 GetTextureSource
 (

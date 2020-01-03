@@ -229,7 +229,7 @@ return
 }
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 source
 =
@@ -239,7 +239,7 @@ GetTextureSource
 ;
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 sourceOnWhite
 =
@@ -1069,7 +1069,7 @@ aFilter
 {
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 source
 =
@@ -1079,7 +1079,7 @@ GetTextureSource
 ;
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 sourceOnWhite
 =
@@ -2030,7 +2030,7 @@ Clear
 )
 ;
 }
-NewTextureSource
+TextureSource
 *
 ContentHostIncremental
 :
@@ -2048,7 +2048,7 @@ return
 mSource
 ;
 }
-NewTextureSource
+TextureSource
 *
 ContentHostIncremental
 :

@@ -397,7 +397,7 @@ return
 }
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 source
 =
@@ -1334,7 +1334,7 @@ false
 }
 TemporaryRef
 <
-NewTextureSource
+TextureSource
 >
 ImageHost
 :
@@ -1377,7 +1377,7 @@ aFilter
 {
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 source
 =
