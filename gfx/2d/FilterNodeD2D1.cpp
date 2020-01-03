@@ -2284,7 +2284,10 @@ FilterType
 "
 <
 <
+hexa
+(
 hr
+)
 ;
 return
 nullptr
