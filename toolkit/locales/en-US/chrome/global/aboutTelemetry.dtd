@@ -115,6 +115,17 @@ span
 ENTITY
 aboutTelemetry
 .
+generalDataSection
+"
+General
+Data
+"
+>
+<
+!
+ENTITY
+aboutTelemetry
+.
 slowSqlSection
 "
 Slow
