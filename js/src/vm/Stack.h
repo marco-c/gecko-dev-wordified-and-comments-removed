@@ -5429,6 +5429,9 @@ JSObject
 *
 scopeChain
 (
+JSContext
+*
+cx
 )
 const
 ;
@@ -5436,6 +5439,9 @@ CallObject
 &
 callObj
 (
+JSContext
+*
+cx
 )
 const
 ;
@@ -5474,6 +5480,7 @@ JSContext
 *
 cx
 )
+const
 ;
 Value
 returnValue

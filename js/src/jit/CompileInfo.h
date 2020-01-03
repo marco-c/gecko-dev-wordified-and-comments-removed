@@ -1954,6 +1954,14 @@ slot
 thisSlot
 (
 )
+|
+|
+slot
+=
+=
+scopeChainSlot
+(
+)
 )
 return
 true
