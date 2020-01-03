@@ -155,6 +155,15 @@ aRegion
 ;
 mInvalidRegion
 .
+SimplifyOutwardByArea
+(
+200
+*
+200
+)
+;
+mInvalidRegion
+.
 SimplifyOutward
 (
 20
