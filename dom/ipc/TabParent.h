@@ -715,7 +715,7 @@ override
 ;
 virtual
 bool
-RecvNotifyIMETextHint
+RecvUpdateContentCache
 (
 const
 ContentCache
@@ -738,17 +738,6 @@ aEventMessage
 bool
 *
 aConsumedByIME
-)
-override
-;
-virtual
-bool
-RecvNotifyIMEEditorRect
-(
-const
-ContentCache
-&
-aContentCache
 )
 override
 ;

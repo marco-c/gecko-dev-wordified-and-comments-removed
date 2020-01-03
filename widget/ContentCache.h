@@ -950,6 +950,9 @@ mIsComposing
 bool
 mRequestedToCommitOrCancelComposition
 ;
+bool
+mIsChrome
+;
 friend
 struct
 IPC
