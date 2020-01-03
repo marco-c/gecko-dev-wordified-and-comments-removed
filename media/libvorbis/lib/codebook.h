@@ -213,15 +213,6 @@ step
 )
 ;
 extern
-int
-_ilog
-(
-unsigned
-int
-v
-)
-;
-extern
 long
 _book_maptype1_quantvals
 (

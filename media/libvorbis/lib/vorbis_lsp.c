@@ -1686,13 +1686,6 @@ i
 m
 ;
 double
-lastdelta
-=
-0
-.
-f
-;
-double
 *
 defl
 =
@@ -1962,10 +1955,6 @@ new
 12
 )
 break
-;
-lastdelta
-=
-delta
 ;
 }
 r

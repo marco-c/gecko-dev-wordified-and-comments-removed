@@ -282,7 +282,7 @@ opb
 i
 -
 count
-_ilog
+ov_ilog
 (
 c
 -
@@ -306,7 +306,7 @@ opb
 i
 -
 count
-_ilog
+ov_ilog
 (
 c
 -
@@ -760,7 +760,7 @@ _eofout
 ;
 if
 (
-_ilog
+ov_ilog
 (
 s
 -
@@ -768,7 +768,7 @@ s
 dim
 )
 +
-_ilog
+ov_ilog
 (
 s
 -
@@ -1068,7 +1068,7 @@ num
 oggpack_read
 (
 opb
-_ilog
+ov_ilog
 (
 s
 -

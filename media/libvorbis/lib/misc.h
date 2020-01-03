@@ -34,6 +34,14 @@ vorbis_block
 vb
 )
 ;
+extern
+int
+ov_ilog
+(
+ogg_uint32_t
+v
+)
+;
 #
 ifdef
 ANALYSIS
