@@ -2940,6 +2940,12 @@ aLevel
 )
 ;
 static
+void
+PerformMainThreadMicroTaskCheckpoint
+(
+)
+;
+static
 nsresult
 ProcessViewportInfo
 (

@@ -417,6 +417,12 @@ T
 aArg
 )
 ;
+static
+void
+PerformMicroTaskCheckpoint
+(
+)
+;
 nsIGlobalObject
 *
 GetParentObject
@@ -685,7 +691,7 @@ Promise
 ;
 static
 void
-DispatchToMainOrWorkerThread
+DispatchToMicroTask
 (
 nsIRunnable
 *

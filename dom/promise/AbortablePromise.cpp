@@ -411,7 +411,7 @@ DoAbort
 Promise
 :
 :
-DispatchToMainOrWorkerThread
+DispatchToMicroTask
 (
 runnable
 )
