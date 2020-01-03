@@ -11,6 +11,15 @@ quit
 (
 )
 ;
+gczeal
+(
+0
+)
+;
+gc
+(
+)
+;
 schedulegc
 (
 this
