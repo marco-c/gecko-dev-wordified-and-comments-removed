@@ -907,6 +907,14 @@ WidgetPaintsBackground
 (
 )
 ;
+virtual
+uint32_t
+GetMaxTouchPoints
+(
+)
+const
+override
+;
 protected
 :
 void
@@ -1120,6 +1128,10 @@ mChildren
 nsWindow
 *
 mParent
+;
+nsWindow
+*
+mFocus
 ;
 double
 mStartDist
