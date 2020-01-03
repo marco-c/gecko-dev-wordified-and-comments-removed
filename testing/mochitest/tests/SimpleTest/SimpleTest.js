@@ -4368,7 +4368,7 @@ focus
 "
 )
 ;
-desiredWindow
+childDesiredWindow
 .
 addEventListener
 (
