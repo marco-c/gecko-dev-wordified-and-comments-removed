@@ -7036,7 +7036,7 @@ uint8_t
 *
 faultingAddress
 =
-static_cast
+reinterpret_cast
 <
 uint8_t
 *
