@@ -1993,6 +1993,7 @@ SampleSet
 sample
 )
 ;
+virtual
 void
 Clear
 (
@@ -2829,6 +2830,12 @@ const
 SampleSet
 &
 sample
+)
+;
+virtual
+void
+Clear
+(
 )
 ;
 private
