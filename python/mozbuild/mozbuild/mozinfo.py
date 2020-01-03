@@ -1035,11 +1035,25 @@ buildapp
 in
 d
 and
+(
+d
+[
+'
+os
+'
+]
+=
+=
+'
+mac
+'
+or
 '
 bits
 '
 in
 d
+)
 :
         
 d
