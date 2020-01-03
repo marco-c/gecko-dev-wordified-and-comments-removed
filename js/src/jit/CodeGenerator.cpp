@@ -21606,7 +21606,11 @@ skip
 Address
 addr
 (
-StackPointer
+masm
+.
+getStackPointer
+(
+)
 ArgToStackOffset
 (
 (

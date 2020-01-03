@@ -14247,7 +14247,9 @@ addr
 base
 !
 =
-StackPointer
+getStackPointer
+(
+)
 )
 ;
 pushValue
