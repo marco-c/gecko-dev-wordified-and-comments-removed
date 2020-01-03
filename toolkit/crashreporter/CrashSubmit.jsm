@@ -1805,6 +1805,13 @@ generateUUID
 toString
 (
 )
+.
+slice
+(
+1
+-
+1
+)
 ;
 let
 manager
