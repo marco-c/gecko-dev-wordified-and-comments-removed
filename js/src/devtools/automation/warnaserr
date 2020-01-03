@@ -12,10 +12,8 @@ optimize
 -
 enable
 -
-sm
--
-fail
--
-on
--
 warnings
+-
+as
+-
+errors
