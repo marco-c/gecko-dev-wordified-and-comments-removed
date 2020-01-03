@@ -386,9 +386,7 @@ reload
 (
 )
 ;
-let
-msg
-=
+return
 l10n
 .
 lookupFormat
@@ -401,13 +399,6 @@ args
 .
 srcdir
 ]
-)
-;
-throw
-new
-Error
-(
-msg
 )
 ;
 }
