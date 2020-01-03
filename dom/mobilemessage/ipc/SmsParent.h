@@ -356,6 +356,15 @@ GetSmscAddressRequest
 aRequest
 )
 ;
+bool
+DoRequest
+(
+const
+SetSmscAddressRequest
+&
+aRequest
+)
+;
 nsresult
 SendReply
 (
