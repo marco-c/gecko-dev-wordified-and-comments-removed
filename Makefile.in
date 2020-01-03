@@ -666,6 +666,7 @@ addprefix
 dist
 /
 bin
+branding
 idl
 include
 public
