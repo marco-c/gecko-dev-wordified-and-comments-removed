@@ -1740,6 +1740,11 @@ copyCmd
 accesskey
 ;
 "
+selection
+=
+"
+any
+"
 /
 >
 <
