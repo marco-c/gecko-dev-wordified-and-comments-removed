@@ -152,7 +152,9 @@ MOZTTDIR
 =
 topsrcdir
 /
-moztt
+moz
+-
+tt
 .
 "
 topsrcdir

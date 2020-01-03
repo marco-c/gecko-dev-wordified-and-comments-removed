@@ -146,7 +146,9 @@ MOZTTDIR
 =
 topsrcdir
 /
-moztt
+moz
+-
+tt
 #
 Build
 simulator

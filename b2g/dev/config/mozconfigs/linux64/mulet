@@ -56,4 +56,6 @@ MOZTTDIR
 =
 topsrcdir
 /
-moztt
+moz
+-
+tt
