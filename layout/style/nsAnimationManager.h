@@ -234,7 +234,7 @@ CSSAnimationPlayer
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 aTimeline
 )
@@ -700,7 +700,7 @@ mozilla
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 aTimeline
 mozilla

@@ -380,9 +380,6 @@ namespace
 dom
 {
 class
-AnimationTimeline
-;
-class
 AnonymousContent
 ;
 class
@@ -402,6 +399,9 @@ CustomElementDefinition
 ;
 class
 DocumentFragment
+;
+class
+DocumentTimeline
 ;
 class
 DocumentType
@@ -4535,7 +4535,7 @@ mozilla
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 Timeline
 (

@@ -2240,13 +2240,11 @@ http
 :
 /
 /
-dev
+w3c
 .
-w3
+github
 .
-org
-/
-fxtf
+io
 /
 web
 -
@@ -2278,7 +2276,7 @@ IsWebAnimationsEnabled
 ]
 readonly
 attribute
-AnimationTimeline
+DocumentTimeline
 timeline
 ;
 }

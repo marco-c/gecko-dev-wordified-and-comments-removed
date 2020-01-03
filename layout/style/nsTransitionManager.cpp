@@ -1739,7 +1739,7 @@ return
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 timeline
 =

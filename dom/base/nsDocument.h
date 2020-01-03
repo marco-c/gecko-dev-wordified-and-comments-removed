@@ -2632,7 +2632,7 @@ mozilla
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 Timeline
 (
@@ -6413,9 +6413,9 @@ mozilla
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 >
-mAnimationTimeline
+mDocumentTimeline
 ;
 enum
 ViewportType

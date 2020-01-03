@@ -1251,7 +1251,7 @@ aElement
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 timeline
 =
@@ -2112,7 +2112,7 @@ aTarget
 dom
 :
 :
-AnimationTimeline
+DocumentTimeline
 *
 aTimeline
 AnimationPlayerPtrArray

@@ -145,6 +145,11 @@ AnimationTimeline
 .
 h
 '
+'
+DocumentTimeline
+.
+h
+'
 ]
 EXPORTS
 .
@@ -152,6 +157,11 @@ mozilla
 +
 =
 [
+'
+AnimationUtils
+.
+h
+'
 '
 PendingPlayerTracker
 .
@@ -179,6 +189,11 @@ cpp
 '
 '
 AnimationTimeline
+.
+cpp
+'
+'
+DocumentTimeline
 .
 cpp
 '

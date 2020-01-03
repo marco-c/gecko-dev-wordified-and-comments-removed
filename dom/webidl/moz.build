@@ -590,6 +590,11 @@ DocumentFragment
 webidl
 '
 '
+DocumentTimeline
+.
+webidl
+'
+'
 DocumentType
 .
 webidl
