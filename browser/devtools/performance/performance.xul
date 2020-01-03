@@ -2040,9 +2040,7 @@ disabled
 -
 message
 "
-value
-=
-"
+>
 Realtime
 recording
 data
@@ -2053,8 +2051,9 @@ non
 multiprocess
 Firefox
 .
-"
+<
 /
+label
 >
 <
 label
@@ -2071,9 +2070,7 @@ e10s
 -
 message
 "
-value
-=
-"
+>
 Enable
 multiprocess
 Firefox
@@ -2086,8 +2083,9 @@ data
 in
 realtime
 .
-"
+<
 /
+label
 >
 <
 label
@@ -2323,9 +2321,7 @@ disabled
 -
 message
 "
-value
-=
-"
+>
 Realtime
 recording
 data
@@ -2336,8 +2332,9 @@ non
 multiprocess
 Firefox
 .
-"
+<
 /
+label
 >
 <
 label
@@ -2354,9 +2351,7 @@ e10s
 -
 message
 "
-value
-=
-"
+>
 Enable
 multiprocess
 Firefox
@@ -2369,8 +2364,9 @@ data
 in
 realtime
 .
-"
+<
 /
+label
 >
 <
 label
