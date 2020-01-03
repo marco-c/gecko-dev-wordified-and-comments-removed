@@ -617,7 +617,7 @@ stringByAppendingPathComponent
 "
 Contents
 /
-MacOS
+Resources
 /
 updater
 .
