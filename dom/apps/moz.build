@@ -225,6 +225,11 @@ InterAppCommService
 jsm
 '
 '
+Langpacks
+.
+jsm
+'
+'
 OfflineCacheInstaller
 .
 jsm
