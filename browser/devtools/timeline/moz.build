@@ -84,6 +84,15 @@ js
 '
 widgets
 /
+marker
+-
+details
+.
+js
+'
+'
+widgets
+/
 markers
 -
 overview

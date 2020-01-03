@@ -308,6 +308,8 @@ selectedPanel
 timeline
 -
 waterfall
+-
+container
 "
 )
 "
