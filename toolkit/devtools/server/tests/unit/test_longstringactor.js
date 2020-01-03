@@ -14,7 +14,7 @@ server
 /
 actors
 /
-script
+object
 "
 )
 ;
@@ -108,7 +108,9 @@ registeredPool
 longStringActors
 :
 {
-longString1
+[
+string
+]
 :
 actor
 }
@@ -138,9 +140,7 @@ registeredPool
 .
 longStringActors
 [
-actor
-.
-actorID
+TEST_STRING
 ]
 actor
 )
@@ -159,9 +159,7 @@ registeredPool
 .
 longStringActors
 [
-actor
-.
-actorID
+TEST_STRING
 ]
 void
 0
