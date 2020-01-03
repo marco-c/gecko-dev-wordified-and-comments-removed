@@ -27243,6 +27243,11 @@ sourceDescription
 "
 value
 "
+                                
+nestingLevel
+=
+"
+"
 )
 :
     
@@ -28540,6 +28545,24 @@ declArgs
 declArgs
 )
     
+def
+incrementNestingLevel
+(
+)
+:
+        
+return
+1
+if
+nestingLevel
+is
+"
+"
+else
++
++
+nestingLevel
+    
 assert
 not
 (
@@ -28721,6 +28744,12 @@ s
 "
 %
 sourceDescription
+            
+nestingLevel
+=
+incrementNestingLevel
+(
+)
 )
         
 if
@@ -28844,6 +28873,11 @@ val
 "
 temp
 "
++
+str
+(
+nestingLevel
+)
                 
 "
 declName
@@ -28852,6 +28886,11 @@ declName
 "
 slot
 "
++
+str
+(
+nestingLevel
+)
                 
 "
 holderName
@@ -28860,6 +28899,11 @@ holderName
 "
 tempHolder
 "
++
+str
+(
+nestingLevel
+)
                 
 "
 passedToJSImpl
@@ -28888,6 +28932,9 @@ JS
 :
 ForOfIterator
 iter
+{
+nestingLevel
+}
 (
 cx
 )
@@ -28897,6 +28944,9 @@ if
 (
 !
 iter
+{
+nestingLevel
+}
 .
 init
 (
@@ -28925,6 +28975,9 @@ if
 (
 !
 iter
+{
+nestingLevel
+}
 .
 valueIsIterable
 (
@@ -28944,6 +28997,9 @@ sequenceType
 }
 &
 arr
+{
+nestingLevel
+}
 =
 {
 arrayRef
@@ -28961,6 +29017,9 @@ JS
 Value
 >
 temp
+{
+nestingLevel
+}
 (
 cx
 )
@@ -28974,19 +29033,31 @@ true
               
 bool
 done
+{
+nestingLevel
+}
 ;
               
 if
 (
 !
 iter
+{
+nestingLevel
+}
 .
 next
 (
 &
 temp
+{
+nestingLevel
+}
 &
 done
+{
+nestingLevel
+}
 )
 )
 {
@@ -29001,6 +29072,9 @@ exceptionCode
 if
 (
 done
+{
+nestingLevel
+}
 )
 {
                 
@@ -29014,8 +29088,14 @@ elementType
 }
 *
 slotPtr
+{
+nestingLevel
+}
 =
 arr
+{
+nestingLevel
+}
 .
 AppendElement
 (
@@ -29026,6 +29106,9 @@ if
 (
 !
 slotPtr
+{
+nestingLevel
+}
 )
 {
                 
@@ -29047,9 +29130,15 @@ elementType
 }
 &
 slot
+{
+nestingLevel
+}
 =
 *
 slotPtr
+{
+nestingLevel
+}
 ;
               
 *
@@ -29092,6 +29181,13 @@ define
 elementConversion
 =
 elementConversion
+            
+nestingLevel
+=
+str
+(
+nestingLevel
+)
 )
         
 templateBody
@@ -29365,6 +29461,12 @@ s
 "
 %
 sourceDescription
+            
+nestingLevel
+=
+incrementNestingLevel
+(
+)
 )
         
 if
