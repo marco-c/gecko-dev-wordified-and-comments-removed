@@ -19516,7 +19516,7 @@ aStartNode
 aStartNode
 -
 >
-GetParent
+GetParentElementCrossingShadowRoot
 (
 )
 )
@@ -19591,7 +19591,7 @@ aStartNode
 aStartNode
 -
 >
-GetParent
+GetParentElementCrossingShadowRoot
 (
 )
 )
