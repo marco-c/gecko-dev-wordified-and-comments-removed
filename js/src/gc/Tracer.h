@@ -1004,6 +1004,14 @@ Symbol
 sym
 )
 ;
+void
+eagerlyMarkChildren
+(
+LazyScript
+*
+thing
+)
+;
 template
 <
 typename

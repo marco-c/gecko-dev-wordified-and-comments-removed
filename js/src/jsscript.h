@@ -8642,6 +8642,10 @@ cx
 )
 const
 ;
+friend
+class
+GCMarker
+;
 void
 traceChildren
 (
