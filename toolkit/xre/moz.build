@@ -1055,14 +1055,6 @@ CONFIG
 MOZ_PANGO_CFLAGS
 '
 ]
-if
-CONFIG
-[
-'
-_MSC_VER
-'
-]
-:
 FAIL_ON_WARNINGS
 =
 True
