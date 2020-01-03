@@ -216,7 +216,7 @@ const
 uint32_t
 kGrowthSize
 =
-64
+32
 *
 1024
 ;
