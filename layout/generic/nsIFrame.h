@@ -2120,6 +2120,12 @@ aWritingMode
 )
 ;
 }
+nsRect
+GetNormalRect
+(
+)
+const
+;
 nsPoint
 GetNormalPosition
 (
