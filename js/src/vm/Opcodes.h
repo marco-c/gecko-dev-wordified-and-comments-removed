@@ -853,7 +853,7 @@ spreadnew
 "
 NULL
 1
-3
+4
 1
 JOF_BYTE
 |

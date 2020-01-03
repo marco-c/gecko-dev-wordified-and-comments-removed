@@ -2984,6 +2984,13 @@ numActualArgs
 )
 -
 1
+-
+fp_
+-
+>
+isConstructing
+(
+)
 ;
 fp_
 =
@@ -3384,6 +3391,10 @@ InvokeArgs
 JSContext
 *
 cx
+bool
+construct
+=
+false
 )
 :
 v_
@@ -3397,6 +3408,10 @@ init
 (
 unsigned
 argc
+bool
+construct
+=
+false
 )
 {
 if
@@ -3409,6 +3424,8 @@ resize
 2
 +
 argc
++
+construct
 )
 )
 return
@@ -3432,6 +3449,10 @@ begin
 (
 )
 )
+;
+constructing_
+=
+construct
 ;
 return
 true
