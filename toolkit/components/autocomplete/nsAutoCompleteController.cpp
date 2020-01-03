@@ -4023,6 +4023,15 @@ input
 =
 mInput
 ;
+nsCOMArray
+<
+nsIAutoCompleteSearch
+>
+searchesCopy
+(
+mSearches
+)
+;
 for
 (
 uint32_t
@@ -4032,7 +4041,7 @@ i
 ;
 i
 <
-mSearches
+searchesCopy
 .
 Length
 (
@@ -4049,7 +4058,7 @@ nsIAutoCompleteSearch
 >
 search
 =
-mSearches
+searchesCopy
 [
 i
 ]
