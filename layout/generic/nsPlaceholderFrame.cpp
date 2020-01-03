@@ -708,7 +708,7 @@ mContent
 mContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 :

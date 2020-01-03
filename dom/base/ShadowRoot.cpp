@@ -2533,6 +2533,16 @@ aContainer
 =
 =
 aHost
+&
+&
+nsContentUtils
+:
+:
+IsInSameAnonymousTree
+(
+aContainer
+aContent
+)
 )
 {
 return
