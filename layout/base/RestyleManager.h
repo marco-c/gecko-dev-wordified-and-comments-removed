@@ -994,6 +994,12 @@ animations
 ;
 }
 static
+uint32_t
+StructsToLog
+(
+)
+;
+static
 nsCString
 StructNamesToString
 (
