@@ -330,10 +330,6 @@ nsIntRect
 aTargetBounds
 ScreenRotation
 aRotation
-const
-nsIntRect
-&
-aClientBounds
 dom
 :
 :
@@ -365,10 +361,6 @@ true
 mTargetRotation
 =
 aRotation
-;
-mClientBounds
-=
-aClientBounds
 ;
 mTargetOrientation
 =
@@ -671,9 +663,6 @@ mTargetBounds
 ScreenRotation
 mTargetRotation
 ;
-nsIntRect
-mClientBounds
-;
 dom
 :
 :
@@ -854,10 +843,6 @@ nsIntRect
 aTargetBounds
 ScreenRotation
 aRotation
-const
-nsIntRect
-&
-aClientBounds
 dom
 :
 :
@@ -901,7 +886,6 @@ Begin
 (
 aTargetBounds
 aRotation
-aClientBounds
 aOrientation
 )
 ;
@@ -3529,10 +3513,6 @@ mTxn
 -
 >
 mTargetRotation
-mTxn
--
->
-mClientBounds
 mTxn
 -
 >

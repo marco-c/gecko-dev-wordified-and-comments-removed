@@ -183,13 +183,6 @@ layers
 Layer
 *
 aRoot
-const
-gfx
-:
-:
-Matrix
-&
-aGLWorldTransform
 bool
 aGeometryChanged
 )
@@ -284,13 +277,6 @@ gfx
 Matrix
 &
 aParentTransform
-const
-gfx
-:
-:
-Matrix
-&
-aGLWorldTransform
 )
 ;
 void

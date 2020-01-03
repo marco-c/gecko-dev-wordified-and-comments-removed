@@ -3986,13 +3986,6 @@ const
 RenderTargetIntRect
 &
 aCurrentScissorRect
-const
-gfx
-:
-:
-Matrix
-*
-aWorldTransform
 )
 ;
 virtual

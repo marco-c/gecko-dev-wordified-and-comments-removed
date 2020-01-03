@@ -1159,9 +1159,6 @@ aCallbackData
 EndTransactionFlags
 )
 ;
-nsIntRect
-mTargetBounds
-;
 LayerRefArray
 mKeepAlive
 ;

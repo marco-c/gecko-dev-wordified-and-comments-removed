@@ -414,13 +414,6 @@ const
 gfx
 :
 :
-Matrix
-&
-aTransform
-const
-gfx
-:
-:
 Rect
 &
 aRenderBounds
@@ -484,13 +477,6 @@ gfx
 IntSize
 &
 aSize
-const
-gfx
-:
-:
-Matrix
-&
-aWorldTransform
 )
 MOZ_OVERRIDE
 ;

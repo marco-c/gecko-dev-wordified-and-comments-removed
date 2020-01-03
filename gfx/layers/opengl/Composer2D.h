@@ -59,13 +59,6 @@ TryRender
 Layer
 *
 aRoot
-const
-gfx
-:
-:
-Matrix
-&
-aWorldTransform
 bool
 aGeometryChanged
 )

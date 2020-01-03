@@ -558,9 +558,6 @@ naturalBounds
 ScreenRotation
 rotation
 ;
-nsIntRect
-clientBounds
-;
 ScreenOrientation
 orientation
 ;

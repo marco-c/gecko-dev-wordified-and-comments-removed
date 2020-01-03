@@ -3389,7 +3389,7 @@ UpdateRenderBounds
 (
 aTargetConfig
 .
-clientBounds
+naturalBounds
 (
 )
 )
