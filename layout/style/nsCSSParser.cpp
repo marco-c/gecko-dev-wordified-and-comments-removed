@@ -55191,6 +55191,8 @@ ParseVariant
 (
 aValue
 VARIANT_INHERIT
+|
+VARIANT_STRING
 nullptr
 )
 )
