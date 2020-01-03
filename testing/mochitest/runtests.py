@@ -12609,6 +12609,10 @@ chunkByDir
 =
 0
     
+result
+=
+1
+    
 inputTestPath
 =
 self
