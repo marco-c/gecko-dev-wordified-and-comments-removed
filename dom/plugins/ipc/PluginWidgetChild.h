@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_plugins_PluginWidgetParent_h
+mozilla_plugins_PluginWidgetChild_h
 #
 define
-mozilla_plugins_PluginWidgetParent_h
+mozilla_plugins_PluginWidgetChild_h
 #
 include
 "
