@@ -1933,6 +1933,9 @@ DeprecatedLetBlock
 DeprecatedLetExpression
 =
 5
+DeprecatedNoSuchMethod
+=
+6
 DeprecatedLanguageExtensionCount
 }
 ;
