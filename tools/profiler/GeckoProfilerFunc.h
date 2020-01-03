@@ -214,6 +214,11 @@ JSContext
 aCx
 )
 ;
+extern
+"
+C
+"
+{
 void
 mozilla_sampler_save_profile_to_file
 (
@@ -223,6 +228,7 @@ char
 aFilename
 )
 ;
+}
 const
 char
 *
