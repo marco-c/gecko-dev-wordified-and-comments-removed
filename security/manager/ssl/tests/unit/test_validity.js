@@ -143,7 +143,7 @@ loadCert
 rootCertFileName
 }
 .
-der
+pem
 "
 CTu
 CTu
@@ -165,7 +165,7 @@ loadCert
 intCertFileName
 }
 .
-der
+pem
 "
 "
 )
@@ -180,7 +180,7 @@ certFromFile
 endEntityCertFileName
 }
 .
-der
+pem
 )
 certificateUsageSSLServer
 expectedResult
