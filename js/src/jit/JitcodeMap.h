@@ -1983,6 +1983,12 @@ entries_
 (
 )
 {
+tree_
+.
+disableCheckCoherency
+(
+)
+;
 }
 ~
 JitcodeGlobalTable
