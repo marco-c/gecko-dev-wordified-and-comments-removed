@@ -1229,6 +1229,12 @@ connectionHint
 {
 if
 (
+apiClient
+!
+=
+null
+&
+&
 !
 apiClient
 .
@@ -2368,6 +2374,12 @@ connectionHint
 {
 if
 (
+apiClient
+=
+=
+null
+|
+|
 !
 apiClient
 .
