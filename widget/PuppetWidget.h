@@ -1236,7 +1236,7 @@ mDrawTarget
 nsIMEUpdatePreference
 mIMEPreferenceOfParent
 ;
-ContentCache
+ContentCacheInChild
 mContentCache
 ;
 bool

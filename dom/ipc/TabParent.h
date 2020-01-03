@@ -2411,7 +2411,7 @@ TabParent
 *
 mIMETabParent
 ;
-ContentCache
+ContentCacheInParent
 mContentCache
 ;
 nsIntRect
