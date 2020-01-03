@@ -3792,7 +3792,7 @@ true
 describe
 (
 "
-OutgoingConversationView
+CallControllerView
 "
 function
 (
@@ -3820,7 +3820,7 @@ loop
 .
 conversationViews
 .
-OutgoingConversationView
+CallControllerView
 {
 dispatcher
 :
@@ -4652,7 +4652,7 @@ loop
 .
 conversationViews
 "
-IncomingCallView
+AcceptCallView
 "
 )
 ;
@@ -7196,7 +7196,7 @@ mediaUp
 describe
 (
 "
-IncomingCallView
+AcceptCallView
 "
 function
 (
@@ -7320,7 +7320,7 @@ loop
 .
 conversationViews
 .
-IncomingCallView
+AcceptCallView
 {
 model
 :
@@ -7375,7 +7375,7 @@ loop
 .
 conversationViews
 .
-IncomingCallView
+AcceptCallView
 {
 model
 :
@@ -7458,7 +7458,7 @@ loop
 .
 conversationViews
 .
-IncomingCallView
+AcceptCallView
 {
 model
 :
@@ -7539,7 +7539,7 @@ loop
 .
 conversationViews
 .
-IncomingCallView
+AcceptCallView
 {
 model
 :
@@ -7674,7 +7674,7 @@ loop
 .
 conversationViews
 .
-IncomingCallView
+AcceptCallView
 {
 model
 :
@@ -7812,7 +7812,7 @@ loop
 .
 conversationViews
 .
-IncomingCallView
+AcceptCallView
 {
 model
 :
@@ -7952,7 +7952,7 @@ loop
 .
 conversationViews
 .
-IncomingCallView
+AcceptCallView
 {
 model
 :

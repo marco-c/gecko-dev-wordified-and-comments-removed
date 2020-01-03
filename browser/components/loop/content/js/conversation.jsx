@@ -155,13 +155,13 @@ conversationViews
 IncomingConversationView
 ;
 var
-OutgoingConversationView
+CallControllerView
 =
 loop
 .
 conversationViews
 .
-OutgoingConversationView
+CallControllerView
 ;
 var
 CallIdentifierView
@@ -427,7 +427,7 @@ outgoing
 return
 (
 <
-OutgoingConversationView
+CallControllerView
 dispatcher
 =
 {

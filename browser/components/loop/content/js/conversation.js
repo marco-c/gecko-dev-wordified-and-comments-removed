@@ -68,13 +68,13 @@ conversationViews
 IncomingConversationView
 ;
 var
-OutgoingConversationView
+CallControllerView
 =
 loop
 .
 conversationViews
 .
-OutgoingConversationView
+CallControllerView
 ;
 var
 CallIdentifierView
@@ -296,7 +296,7 @@ React
 .
 createElement
 (
-OutgoingConversationView
+CallControllerView
 {
 dispatcher
 :
