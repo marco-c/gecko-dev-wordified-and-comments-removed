@@ -65,6 +65,13 @@ addressOfJitTop
 const
 void
 *
+addressOfJitActivation
+(
+)
+;
+const
+void
+*
 addressOfJitStackLimit
 (
 )

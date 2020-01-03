@@ -1987,6 +1987,16 @@ JSContext
 *
 jitJSContext
 ;
+js
+:
+:
+jit
+:
+:
+JitActivation
+*
+jitActivation
+;
 private
 :
 mozilla
