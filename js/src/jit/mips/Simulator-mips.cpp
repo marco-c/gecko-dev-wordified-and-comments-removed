@@ -17722,7 +17722,11 @@ entry_stack
 &
 =
 ~
+(
 ABIStackAlignment
+-
+1
+)
 ;
 intptr_t
 *
