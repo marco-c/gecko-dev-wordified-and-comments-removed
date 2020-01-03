@@ -181,7 +181,6 @@ win
 "
 load
 "
-10000
 )
 ;
 yield
@@ -200,7 +199,6 @@ tabs
 "
 SSTabRestored
 "
-10000
 )
 ;
 is
