@@ -75,11 +75,6 @@ aDelayMs
 )
 ;
 void
-Close
-(
-)
-;
-void
 GetSocketAddr
 (
 nsAString
@@ -97,7 +92,7 @@ aBuffer
 override
 ;
 void
-CloseSocket
+Close
 (
 )
 override
