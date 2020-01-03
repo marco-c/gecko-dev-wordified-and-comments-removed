@@ -3575,9 +3575,9 @@ browser
 .
 fullscreen
 .
-animateUp
+animate
 "
-1
+true
 )
 ;
 pref
