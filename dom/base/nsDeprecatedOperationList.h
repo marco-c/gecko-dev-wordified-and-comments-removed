@@ -126,3 +126,7 @@ DEPRECATED_OPERATION
 (
 ImportXULIntoContent
 )
+DEPRECATED_OPERATION
+(
+PannerNodeDoppler
+)

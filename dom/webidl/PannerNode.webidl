@@ -221,6 +221,13 @@ double
 z
 )
 ;
+[
+Deprecated
+=
+"
+PannerNodeDoppler
+"
+]
 void
 setVelocity
 (
