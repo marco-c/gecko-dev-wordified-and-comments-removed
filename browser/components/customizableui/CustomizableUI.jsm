@@ -897,13 +897,6 @@ call
 -
 button
 "
-"
-social
--
-share
--
-button
-"
 ]
 defaultCollapsed
 :

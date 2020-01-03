@@ -19490,6 +19490,7 @@ SocialUI
 .
 updateState
 (
+location
 )
 ;
 }
