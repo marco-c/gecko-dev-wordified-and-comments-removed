@@ -1223,6 +1223,9 @@ if
 testMozbrowserEvent
 )
 {
+var
+win
+=
 content
 .
 window
@@ -1234,6 +1237,12 @@ about
 :
 blank
 "
+)
+;
+win
+.
+close
+(
 )
 ;
 content
