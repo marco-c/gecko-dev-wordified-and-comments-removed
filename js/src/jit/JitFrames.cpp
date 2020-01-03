@@ -4825,7 +4825,7 @@ nonLazyScript
 )
 -
 >
-argumentsAliasesFormals
+argumentsHasVarBinding
 (
 )
 ?
