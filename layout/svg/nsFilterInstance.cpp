@@ -2143,8 +2143,8 @@ GetDrawTarget
 (
 )
 ;
-AutoSaveTransform
-autoSR
+AutoRestoreTransform
+autoRestoreTransform
 (
 dt
 )

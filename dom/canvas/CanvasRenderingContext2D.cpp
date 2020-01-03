@@ -1984,8 +1984,8 @@ Style
 STROKE
 )
 ;
-AutoSaveTransform
-autoSaveTransform
+AutoRestoreTransform
+autoRestoreTransform
 (
 mFinalTarget
 )
@@ -19333,8 +19333,8 @@ scale
 height
 )
 ;
-AutoSaveTransform
-autoSR
+AutoRestoreTransform
+autoRestoreTransform
 (
 mTarget
 )
