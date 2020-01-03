@@ -400,6 +400,7 @@ FlushQueue
 ;
 }
 class
+MOZ_STACK_CLASS
 AutoEventEnqueuer
 {
 public
@@ -440,8 +441,10 @@ EndForcedQueueing
 }
 private
 :
+nsRefPtr
+<
 ChannelEventQueue
-*
+>
 mEventQueue
 ;
 }
