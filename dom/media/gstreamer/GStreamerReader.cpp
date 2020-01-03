@@ -2500,8 +2500,7 @@ n_video
 )
 {
 mInfo
--
->
+.
 mVideo
 =
 VideoInfo
@@ -2516,8 +2515,7 @@ n_audio
 )
 {
 mInfo
--
->
+.
 mAudio
 =
 AudioInfo
