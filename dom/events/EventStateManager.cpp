@@ -10290,13 +10290,13 @@ y
 0
 ;
 }
-nsIScrollbarMediator
+nsIScrollableFrame
 :
 :
 ScrollSnapMode
 snapMode
 =
-nsIScrollbarMediator
+nsIScrollableFrame
 :
 :
 DISABLE_SNAP
