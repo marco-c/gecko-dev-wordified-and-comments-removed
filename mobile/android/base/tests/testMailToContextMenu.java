@@ -68,12 +68,12 @@ StringHelper
 ROBOCOP_BIG_MAILTO_URL
 )
 ;
-loadAndPaint
+inputAndLoadUrl
 (
 MAILTO_PAGE_URL
 )
 ;
-verifyPageTitle
+waitForText
 (
 MAILTO_PAGE_TITLE
 )
