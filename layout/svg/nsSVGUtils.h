@@ -1297,7 +1297,7 @@ float
 aOpacity
 gfxTextContextPaint
 *
-aOuterContextPaint
+aContextPaint
 )
 ;
 static
