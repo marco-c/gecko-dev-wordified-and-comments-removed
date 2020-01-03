@@ -55,7 +55,7 @@ first
 nsecond
 "
 class
-TestExceptionType
+TestErrors
 (
 marionette_test
 .
@@ -486,7 +486,7 @@ element
 )
 )
 class
-TestAllExceptions
+TestAllErrors
 (
 marionette_test
 .
