@@ -314,6 +314,14 @@ nsIAtom
 aAtom
 )
 ;
+bool
+HasDefinedARIAHidden
+(
+nsIContent
+*
+aContent
+)
+;
 class
 AttrIterator
 {
