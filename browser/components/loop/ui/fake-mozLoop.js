@@ -75,5 +75,8 @@ function
 {
 }
 }
+fxAEnabled
+:
+true
 }
 ;

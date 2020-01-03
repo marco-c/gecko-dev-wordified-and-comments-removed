@@ -52,7 +52,7 @@ utils
 const
 PANEL_MIN_HEIGHT
 =
-200
+190
 ;
 const
 PANEL_MIN_WIDTH
