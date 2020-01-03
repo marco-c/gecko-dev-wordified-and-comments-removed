@@ -4658,10 +4658,6 @@ mRootElementStyleFrame
 ;
 nsContainerFrame
 *
-mFixedContainingBlock
-;
-nsContainerFrame
-*
 mDocElementContainingBlock
 ;
 nsIFrame
