@@ -416,7 +416,7 @@ _tabbox
 tabs
 ;
 let
-allTabsToolbar
+allTabsContainer
 =
 this
 .
@@ -426,7 +426,7 @@ createElementNS
 (
 XULNS
 "
-toolbar
+box
 "
 )
 ;
@@ -436,11 +436,11 @@ _tabbox
 .
 insertBefore
 (
-allTabsToolbar
+allTabsContainer
 tabs
 )
 ;
-allTabsToolbar
+allTabsContainer
 .
 appendChild
 (
@@ -563,7 +563,7 @@ true
 "
 )
 ;
-allTabsToolbar
+allTabsContainer
 .
 appendChild
 (
@@ -726,7 +726,7 @@ _tabbox
 querySelector
 (
 "
-toolbar
+box
 "
 )
 .
