@@ -107,6 +107,11 @@ StartInternal
 (
 )
 ;
+nsresult
+IsTrackerWhitelisted
+(
+)
+;
 public
 :
 static
