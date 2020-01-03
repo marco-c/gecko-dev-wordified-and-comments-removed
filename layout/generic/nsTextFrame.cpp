@@ -9434,15 +9434,13 @@ GetContent
 )
 -
 >
-Tag
+IsMathMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 mtext_
+)
 )
 )
 {

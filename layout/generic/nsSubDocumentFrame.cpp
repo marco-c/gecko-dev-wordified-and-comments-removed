@@ -3748,15 +3748,13 @@ GetParent
 )
 -
 >
-Tag
+IsHTMLElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 frameset
+)
 )
 {
 nsIFrame

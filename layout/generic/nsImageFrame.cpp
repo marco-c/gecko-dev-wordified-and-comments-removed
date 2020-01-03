@@ -6090,7 +6090,12 @@ content
 content
 -
 >
-Tag
+NodeInfo
+(
+)
+-
+>
+NameAtom
 (
 )
 altText
