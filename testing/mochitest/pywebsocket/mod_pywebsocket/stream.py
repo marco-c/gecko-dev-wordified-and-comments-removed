@@ -106,3 +106,9 @@ mod_pywebsocket
 _stream_hybi
 import
 create_text_frame
+from
+mod_pywebsocket
+.
+_stream_hybi
+import
+create_closing_handshake_body

@@ -8557,11 +8557,11 @@ websocket
 .
 extensions
 .
-stream
+permessage
 -
 deflate
 "
-false
+true
 )
 ;
 pref

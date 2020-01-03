@@ -8,6 +8,8 @@ class
 "
 "
 "
+import
+socket
 from
 mod_pywebsocket
 import
@@ -327,7 +329,10 @@ string
 "
 "
         
-bytes
+try
+:
+            
+read_bytes
 =
 self
 .
@@ -339,16 +344,16 @@ read
 (
 length
 )
-        
+            
 if
 not
-bytes
+read_bytes
 :
-            
+                
 raise
 ConnectionTerminatedException
 (
-                
+                    
 '
 Receiving
 %
@@ -365,7 +370,7 @@ closed
 connection
 '
 %
-                
+                    
 (
 length
 (
@@ -379,15 +384,81 @@ remote_addr
 )
 )
 )
-        
+            
 return
-bytes
+read_bytes
+        
+except
+socket
+.
+error
+e
+:
+            
+raise
+ConnectionTerminatedException
+(
+                
+'
+Receiving
+%
+d
+byte
+failed
+.
+socket
+.
+error
+(
+%
+s
+)
+occurred
+'
+%
+                
+(
+length
+e
+)
+)
+        
+except
+IOError
+e
+:
+            
+raise
+ConnectionTerminatedException
+(
+                
+'
+Receiving
+%
+d
+byte
+failed
+.
+IOError
+(
+%
+s
+)
+occurred
+'
+%
+                
+(
+length
+e
+)
+)
     
 def
 _write
 (
 self
-bytes
+bytes_to_write
 )
 :
         
@@ -434,7 +505,7 @@ connection
 .
 write
 (
-bytes
+bytes_to_write
 )
         
 except
@@ -519,7 +590,7 @@ string
 "
 "
         
-bytes
+read_bytes
 =
 [
 ]
@@ -530,7 +601,7 @@ length
 0
 :
             
-new_bytes
+new_read_bytes
 =
 self
 .
@@ -539,11 +610,11 @@ _read
 length
 )
             
-bytes
+read_bytes
 .
 append
 (
-new_bytes
+new_read_bytes
 )
             
 length
@@ -551,7 +622,7 @@ length
 =
 len
 (
-new_bytes
+new_read_bytes
 )
         
 return
@@ -560,7 +631,7 @@ return
 .
 join
 (
-bytes
+read_bytes
 )
     
 def
@@ -606,7 +677,7 @@ string
 "
 "
         
-bytes
+read_bytes
 =
 [
 ]
@@ -633,7 +704,7 @@ delim_char
                 
 break
             
-bytes
+read_bytes
 .
 append
 (
@@ -646,5 +717,5 @@ return
 .
 join
 (
-bytes
+read_bytes
 )
