@@ -1443,6 +1443,11 @@ aRegion
 nullptr
 )
 ;
+void
+InitSize
+(
+)
+;
 RefPtr
 <
 Compositor
