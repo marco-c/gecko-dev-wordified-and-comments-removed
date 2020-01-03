@@ -126,6 +126,11 @@ testArrayBuffer
 cpp
 '
 '
+testArrayBufferView
+.
+cpp
+'
+'
 testBindCallable
 .
 cpp
