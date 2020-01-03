@@ -898,17 +898,17 @@ CODE_OPEN_CHANNEL_BY_URI
 var
 Cc
 =
-Components
+SpecialPowers
 .
-classes
+Cc
 ;
     
 var
 Ci
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 ;
     
 var
@@ -1055,17 +1055,17 @@ CODE_READ_CONTENT
 var
 Cc
 =
-Components
+SpecialPowers
 .
-classes
+Cc
 ;
     
 var
 Ci
 =
-Components
+SpecialPowers
 .
-interfaces
+Ci
 ;
     
 var
@@ -1293,16 +1293,9 @@ marionette
 execute_script
 (
 x
-                                                         
 new_sandbox
 =
 False
-                                                         
-sandbox
-=
-'
-system
-'
 )
     
 def
@@ -1667,16 +1660,9 @@ marionette
 execute_script
 (
 x
-                                                         
 new_sandbox
 =
 False
-                                                         
-sandbox
-=
-'
-system
-'
 )
         
 self

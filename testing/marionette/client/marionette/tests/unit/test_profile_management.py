@@ -69,17 +69,6 @@ int
 3
 }
 )
-        
-self
-.
-marionette
-.
-set_context
-(
-'
-chrome
-'
-)
     
 def
 test_preferences_are_set
@@ -98,9 +87,7 @@ execute_script
 (
 "
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
@@ -126,9 +113,7 @@ execute_script
 (
 "
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getCharPref
 (
@@ -154,9 +139,7 @@ execute_script
 (
 "
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getIntPref
 (
@@ -214,9 +197,7 @@ execute_script
 (
 "
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
@@ -258,17 +239,6 @@ False
 }
 )
         
-self
-.
-marionette
-.
-set_context
-(
-'
-chrome
-'
-)
-        
 bool_value
 =
 self
@@ -279,9 +249,7 @@ execute_script
 (
 "
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
@@ -322,17 +290,6 @@ clean
 True
 )
         
-self
-.
-marionette
-.
-set_context
-(
-'
-chrome
-'
-)
-        
 with
 self
 .
@@ -340,7 +297,9 @@ assertRaisesRegexp
 (
 JavascriptException
 "
-NS_ERROR_UNEXPECTED
+Error
+getting
+pref
 "
 )
 :
@@ -355,9 +314,7 @@ execute_script
 (
 "
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
@@ -407,17 +364,6 @@ restart
 (
 )
         
-self
-.
-marionette
-.
-set_context
-(
-'
-chrome
-'
-)
-        
 bool_value
 =
 self
@@ -428,9 +374,7 @@ execute_script
 (
 "
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
@@ -467,9 +411,7 @@ marionette
 execute_script
 (
 "
-Services
-.
-prefs
+SpecialPowers
 .
 setBoolPref
 (
@@ -497,17 +439,6 @@ in_app
 True
 )
         
-self
-.
-marionette
-.
-set_context
-(
-'
-chrome
-'
-)
-        
 bool_value
 =
 self
@@ -521,9 +452,7 @@ execute_script
 "
           
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
@@ -561,9 +490,7 @@ execute_script
 "
 "
           
-Services
-.
-prefs
+SpecialPowers
 .
 setBoolPref
 (
@@ -579,9 +506,7 @@ false
 ;
           
 return
-Services
-.
-prefs
+SpecialPowers
 .
 getBoolPref
 (
