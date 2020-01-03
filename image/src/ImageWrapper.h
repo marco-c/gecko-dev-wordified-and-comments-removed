@@ -52,9 +52,9 @@ MOZ_OVERRIDE
 virtual
 already_AddRefed
 <
-imgStatusTracker
+ProgressTracker
 >
-GetStatusTracker
+GetProgressTracker
 (
 )
 MOZ_OVERRIDE

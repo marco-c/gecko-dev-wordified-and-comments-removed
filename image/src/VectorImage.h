@@ -213,9 +213,9 @@ protected
 explicit
 VectorImage
 (
-imgStatusTracker
+ProgressTracker
 *
-aStatusTracker
+aProgressTracker
 =
 nullptr
 ImageURL
@@ -323,9 +323,9 @@ mHasPendingInvalidation
 ;
 nsAutoPtr
 <
-imgStatusTrackerInit
+ProgressTrackerInit
 >
-mStatusTrackerInit
+mProgressTrackerInit
 ;
 friend
 class

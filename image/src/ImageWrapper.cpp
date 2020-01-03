@@ -98,12 +98,12 @@ aFlags
 }
 already_AddRefed
 <
-imgStatusTracker
+ProgressTracker
 >
 ImageWrapper
 :
 :
-GetStatusTracker
+GetProgressTracker
 (
 )
 {
@@ -111,7 +111,7 @@ return
 mInnerImage
 -
 >
-GetStatusTracker
+GetProgressTracker
 (
 )
 ;

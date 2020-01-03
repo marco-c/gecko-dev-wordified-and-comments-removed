@@ -281,7 +281,7 @@ imgRequestProxy
 cpp
 '
 '
-imgStatusTracker
+ProgressTracker
 .
 cpp
 '
