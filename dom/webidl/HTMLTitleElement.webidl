@@ -133,7 +133,7 @@ HTMLTitleElement
 HTMLElement
 {
 [
-SetterThrows
+Throws
 ]
 attribute
 DOMString
