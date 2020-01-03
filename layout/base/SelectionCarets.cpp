@@ -1644,14 +1644,6 @@ mVisible
 mEndCaretVisible
 )
 ;
-mPresShell
--
->
-SetMayHaveTouchCaret
-(
-mVisible
-)
-;
 }
 void
 SelectionCarets

@@ -1196,15 +1196,6 @@ mMayHaveTouchEventListener
 ;
 }
 bool
-MayHaveScrollWheelEventListener
-(
-)
-{
-return
-mMayHaveScrollWheelEventListener
-;
-}
-bool
 MayHaveMouseEnterLeaveEventListener
 (
 )
@@ -1753,11 +1744,6 @@ mMayHaveSystemGroupListeners
 ;
 uint32_t
 mMayHaveTouchEventListener
-:
-1
-;
-uint32_t
-mMayHaveScrollWheelEventListener
 :
 1
 ;

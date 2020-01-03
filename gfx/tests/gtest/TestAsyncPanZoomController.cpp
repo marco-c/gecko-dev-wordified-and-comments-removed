@@ -1270,7 +1270,7 @@ Destroy
 ;
 }
 void
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 {
@@ -3954,7 +3954,7 @@ SetFrameMetrics
 originalMetrics
 )
 ;
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 ;
@@ -5176,7 +5176,7 @@ DoPanWithPreventDefaultTest
 (
 )
 {
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 ;
@@ -6585,7 +6585,7 @@ bool
 aPreventDefault
 )
 {
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 ;
@@ -8264,7 +8264,7 @@ APZCGestureDetectorTester
 DoubleTap
 )
 {
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 ;
@@ -8393,7 +8393,7 @@ APZCGestureDetectorTester
 DoubleTapNotZoomable
 )
 {
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 ;
@@ -8522,7 +8522,7 @@ APZCGestureDetectorTester
 DoubleTapPreventDefaultFirstOnly
 )
 {
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 ;
@@ -8651,7 +8651,7 @@ APZCGestureDetectorTester
 DoubleTapPreventDefaultBoth
 )
 {
-SetMayHaveTouchListeners
+MakeApzcWaitForMainThread
 (
 )
 ;

@@ -1172,12 +1172,6 @@ uint32_t
 aTouchPoints
 )
 ;
-bool
-NeedToWaitForContent
-(
-)
-const
-;
 void
 ResetInputState
 (
