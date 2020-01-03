@@ -878,7 +878,7 @@ schemaVersion
 &
 schemaVersion
 <
-DBSchema
+db
 :
 :
 kMaxWipeSchemaVersion
@@ -928,7 +928,7 @@ conn
 }
 rv
 =
-DBSchema
+db
 :
 :
 InitializeConnection
