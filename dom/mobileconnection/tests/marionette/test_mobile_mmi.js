@@ -228,10 +228,12 @@ aError
 .
 serviceCode
 "
+scUssd
 "
 "
-No
-serviceCode
+Service
+code
+USSD
 "
 )
 ;
