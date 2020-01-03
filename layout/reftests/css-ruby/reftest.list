@@ -40,7 +40,6 @@ autohiding
 ref
 .
 html
-fails
 =
 =
 autohiding
@@ -55,9 +54,6 @@ autohiding
 ref
 .
 html
-#
-bug
-1107701
 =
 =
 box
@@ -620,12 +616,6 @@ transform
 ref
 .
 html
-fails
--
-if
-(
-cocoaWidget
-)
 =
 =
 relative
@@ -644,9 +634,6 @@ positioning
 ref
 .
 html
-#
-bug
-1120280
 =
 =
 relative
