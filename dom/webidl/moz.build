@@ -325,11 +325,6 @@ BoxObject
 webidl
 '
 '
-BrowserElement
-.
-webidl
-'
-'
 BrowserElementDictionaries
 .
 webidl
@@ -2686,6 +2681,11 @@ webidl
 '
 '
 VideoTrackList
+.
+webidl
+'
+'
+VRDevice
 .
 webidl
 '

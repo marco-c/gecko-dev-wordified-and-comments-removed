@@ -932,6 +932,17 @@ aRv
 ;
 #
 endif
+already_AddRefed
+<
+Promise
+>
+GetVRDevices
+(
+ErrorResult
+&
+aRv
+)
+;
 #
 ifdef
 MOZ_B2G_FM

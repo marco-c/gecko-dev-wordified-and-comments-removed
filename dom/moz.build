@@ -411,6 +411,9 @@ resourcestats
 '
 manifest
 '
+'
+vr
+'
 ]
 if
 CONFIG

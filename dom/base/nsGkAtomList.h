@@ -16627,3 +16627,12 @@ onboundary
 )
 #
 endif
+GK_ATOM
+(
+vr_state
+"
+vr
+-
+state
+"
+)
