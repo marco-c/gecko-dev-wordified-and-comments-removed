@@ -938,6 +938,16 @@ Substr
 \
 _
 (
+BinarySharedStub
+)
+\
+_
+(
+UnarySharedStub
+)
+\
+_
+(
 Lambda
 )
 \
