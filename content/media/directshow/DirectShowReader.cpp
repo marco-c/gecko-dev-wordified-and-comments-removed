@@ -24,7 +24,7 @@ h
 #
 include
 "
-dshow
+DirectShowUtils
 .
 h
 "
@@ -39,13 +39,6 @@ h
 include
 "
 SourceFilter
-.
-h
-"
-#
-include
-"
-DirectShowUtils
 .
 h
 "
