@@ -62,6 +62,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
