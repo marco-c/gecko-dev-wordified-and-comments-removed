@@ -340,10 +340,7 @@ length
 }
 ;
 typedef
-std
-:
-:
-vector
+nsTArray
 <
 IPCByteRange
 >

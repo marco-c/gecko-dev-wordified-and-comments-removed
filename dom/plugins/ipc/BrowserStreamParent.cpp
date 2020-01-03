@@ -166,7 +166,7 @@ if
 (
 ranges
 .
-size
+Length
 (
 )
 >
@@ -186,7 +186,7 @@ NPByteRange
 [
 ranges
 .
-size
+Length
 (
 )
 ]
@@ -203,7 +203,7 @@ i
 <
 ranges
 .
-size
+Length
 (
 )
 ;
@@ -260,7 +260,7 @@ rp
 [
 ranges
 .
-size
+Length
 (
 )
 -
