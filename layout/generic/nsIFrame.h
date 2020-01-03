@@ -2159,6 +2159,10 @@ GetNormalPosition
 (
 )
 aContainerWidth
+-
+mRect
+.
+width
 )
 ;
 }
