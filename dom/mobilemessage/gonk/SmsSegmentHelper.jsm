@@ -509,12 +509,12 @@ headerLen
 7
 )
 ;
+}
 segmentSeptets
 -
 =
 headerSeptets
 ;
-}
 let
 segments
 =
