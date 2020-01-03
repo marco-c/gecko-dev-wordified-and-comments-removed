@@ -3115,6 +3115,16 @@ CPULoadState
 state
 )
 {
+CriticalSectionScoped
+lock
+(
+crit_sect_
+.
+get
+(
+)
+)
+;
 loadstate_
 =
 state
