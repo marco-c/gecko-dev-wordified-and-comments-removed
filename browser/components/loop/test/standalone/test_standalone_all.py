@@ -36,7 +36,7 @@ frontend_tester
 import
 BaseTestFrontendUnits
 class
-TestDesktopUnits
+TestStandaloneUnits
 (
 BaseTestFrontendUnits
 )
@@ -51,7 +51,7 @@ self
         
 super
 (
-TestDesktopUnits
+TestStandaloneUnits
 self
 )
 .

@@ -250,7 +250,20 @@ marionette
 .
 set_search_timeout
 (
-60000
+120000
+)
+        
+self
+.
+marionette
+.
+timeouts
+(
+"
+page
+load
+"
+120000
 )
     
 def
