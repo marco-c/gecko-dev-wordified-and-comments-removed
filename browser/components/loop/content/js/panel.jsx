@@ -3288,15 +3288,6 @@ loop
 .
 Client
 (
-{
-baseServerUrl
-:
-navigator
-.
-mozLoop
-.
-serverUrl
-}
 )
 ;
 var
