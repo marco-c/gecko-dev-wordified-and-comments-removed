@@ -1330,7 +1330,8 @@ promiseNewTabLoadEvent
 "
 about
 :
-robots
+blank
+?
 "
 )
 ;
@@ -1630,7 +1631,8 @@ promiseNewTabLoadEvent
 "
 about
 :
-robots
+blank
+?
 "
 )
 ;
