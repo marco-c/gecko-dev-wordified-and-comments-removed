@@ -627,17 +627,6 @@ aEventTime
 {
 if
 (
-aTouch
-.
-mType
-=
-=
-MultiTouchInput
-:
-:
-MULTITOUCH_START
-&
-&
 mCompositorVsyncObserver
 )
 {
