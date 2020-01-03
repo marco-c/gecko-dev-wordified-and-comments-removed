@@ -143,6 +143,15 @@ WeakPtr
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -1476,8 +1485,10 @@ nsIProperties
 >
 mProperties
 ;
+UniquePtr
+<
 FrameAnimator
-*
+>
 mAnim
 ;
 uint32_t

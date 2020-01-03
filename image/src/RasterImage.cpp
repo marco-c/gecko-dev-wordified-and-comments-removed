@@ -1628,10 +1628,6 @@ mFrameDecodeFlags
 (
 DECODE_FLAGS_DEFAULT
 )
-mAnim
-(
-nullptr
-)
 mLockCount
 (
 0
@@ -1912,9 +1908,6 @@ UnlockImageData
 ;
 }
 }
-delete
-mAnim
-;
 mAnim
 =
 nullptr
@@ -4188,8 +4181,10 @@ mAnim
 {
 mAnim
 =
-new
+MakeUnique
+<
 FrameAnimator
+>
 (
 mFrameBlender
 mAnimationMode
@@ -6169,9 +6164,6 @@ if
 mAnim
 )
 {
-delete
-mAnim
-;
 mAnim
 =
 nullptr
