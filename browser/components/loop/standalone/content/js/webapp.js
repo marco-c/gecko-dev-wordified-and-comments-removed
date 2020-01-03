@@ -704,7 +704,7 @@ mozL10n
 get
 (
 "
-clientShortname
+clientShortname2
 "
 )
 )
