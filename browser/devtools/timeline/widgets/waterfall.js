@@ -1428,13 +1428,6 @@ if
 (
 marker
 .
-detail
-&
-&
-marker
-.
-detail
-.
 causeName
 )
 {
@@ -1455,8 +1448,6 @@ blueprint
 .
 label
 marker
-.
-detail
 .
 causeName
 )
