@@ -167,6 +167,14 @@ uint32_t
 aBound
 )
 {
+MOZ_ASSERT
+(
+aBound
+!
+=
+0
+)
+;
 return
 uint32_t
 (

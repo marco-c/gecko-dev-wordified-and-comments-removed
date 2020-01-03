@@ -3639,6 +3639,11 @@ ChaosMode
 :
 HashTableIteration
 )
+&
+&
+capacity
+>
+0
 )
 {
 mEntryAddr
