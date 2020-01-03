@@ -161,6 +161,13 @@ RF_EVENT_STATE_CHANGE
 ;
 this
 .
+SYSTEM_APP_ID
+=
+-
+1
+;
+this
+.
 EXPORTED_SYMBOLS
 =
 Object
