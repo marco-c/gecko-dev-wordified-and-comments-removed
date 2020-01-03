@@ -11304,6 +11304,11 @@ MarkExtensionSupported
 OES_rgb8_rgba8
 )
 ;
+MarkExtensionSupported
+(
+EXT_texture_format_BGRA8888
+)
+;
 }
 if
 (
