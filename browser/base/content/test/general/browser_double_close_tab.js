@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 const
 TEST_PAGE
 =
@@ -240,10 +241,9 @@ resolveOuter
 {
 waitForDialog
 (
-function
-(
 dialogNode
-)
+=
+>
 {
 waitForDialogDestroyed
 (
@@ -263,7 +263,7 @@ doCompletion
 setTimeout
 (
 resolveOuter
-10
+0
 )
 ;
 info
