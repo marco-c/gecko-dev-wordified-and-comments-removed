@@ -181,13 +181,6 @@ GetInitialState
 )
 ;
 }
-virtual
-~
-SwitchHandler
-(
-)
-{
-}
 bool
 CheckEvent
 (
@@ -268,6 +261,13 @@ mDevice
 }
 protected
 :
+virtual
+~
+SwitchHandler
+(
+)
+{
+}
 virtual
 const
 char
