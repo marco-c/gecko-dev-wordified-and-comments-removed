@@ -183,6 +183,8 @@ bool
 is_ascii
 bool
 match_only
+bool
+force_bytecode
 )
 ;
 template
