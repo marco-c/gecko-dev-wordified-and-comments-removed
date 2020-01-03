@@ -2531,13 +2531,6 @@ excludeFromRecents
 "
 true
 "
-android
-:
-noHistory
-=
-"
-true
-"
 /
 >
 <
