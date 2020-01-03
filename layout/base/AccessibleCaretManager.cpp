@@ -3925,6 +3925,11 @@ y
 ;
 if
 (
+dragDownBoundaryY
+>
+0
+&
+&
 adjustedPoint
 .
 y
