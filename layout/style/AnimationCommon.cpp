@@ -2884,6 +2884,14 @@ true
 }
 if
 (
+!
+mStyleRuleRefreshTime
+.
+IsNull
+(
+)
+&
+&
 (
 aTime
 -
