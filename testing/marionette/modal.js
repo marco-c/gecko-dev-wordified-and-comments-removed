@@ -353,9 +353,11 @@ win
 .
 parent
 )
+{
 return
 win
 ;
+}
 }
 return
 null
@@ -392,6 +394,7 @@ if
 (
 win
 )
+{
 return
 win
 .
@@ -399,6 +402,7 @@ Dialog
 .
 ui
 ;
+}
 return
 this
 .

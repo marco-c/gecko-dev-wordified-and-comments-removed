@@ -717,12 +717,14 @@ s
 in
 this
 )
+{
 return
 this
 [
 s
 ]
 ;
+}
 return
 null
 ;
@@ -1211,6 +1213,7 @@ args
 =
 null
 )
+{
 msg
 =
 args
@@ -1218,7 +1221,9 @@ args
 0
 ]
 ;
+}
 else
+{
 msg
 =
 Array
@@ -1232,6 +1237,7 @@ call
 args
 )
 ;
+}
 this
 .
 sendAsync
@@ -1687,6 +1693,7 @@ modal
 .
 COMMON_DIALOG_LOADED
 )
+{
 winr
 =
 Cu
@@ -1696,6 +1703,7 @@ getWeakReference
 subject
 )
 ;
+}
 this
 .
 dialog
@@ -1856,12 +1864,14 @@ if
 (
 cmdId
 )
+{
 msg
 .
 command_id
 =
 cmdId
 ;
+}
 if
 (
 curRemoteFrame
@@ -2689,6 +2699,7 @@ exists
 (
 )
 )
+{
 file
 .
 remove
@@ -2696,6 +2707,7 @@ remove
 true
 )
 ;
+}
 }
 ;
 GeckoDriver
@@ -2880,6 +2892,7 @@ if
 (
 mainContent
 )
+{
 this
 .
 mainContentFrameId
@@ -2890,6 +2903,7 @@ curBrowser
 .
 curFrameId
 ;
+}
 this
 .
 curBrowser
@@ -2968,12 +2982,14 @@ curBrowser
 .
 isNewSession
 )
+{
 this
 .
 newSessionCommandId
 =
 null
 ;
+}
 }
 return
 [
@@ -3062,6 +3078,7 @@ frameRegsPending
 >
 0
 )
+{
 this
 .
 curBrowser
@@ -3070,6 +3087,7 @@ frameRegsPending
 -
 -
 ;
+}
 if
 (
 this
@@ -3469,8 +3487,10 @@ win
 .
 document
 )
+{
 return
 ;
+}
 win
 .
 removeEventListener
@@ -3985,9 +4005,11 @@ length
 =
 0
 )
+{
 return
 to
 ;
+}
 throw
 new
 SessionNotCreatedError
@@ -4134,6 +4156,7 @@ ctx
 =
 null
 )
+{
 throw
 new
 WebDriverError
@@ -4146,6 +4169,7 @@ val
 }
 )
 ;
+}
 this
 .
 context
@@ -4579,6 +4603,7 @@ passed
 undefined
 )
 )
+{
 throw
 new
 WebDriverError
@@ -4592,6 +4617,7 @@ called
 "
 )
 ;
+}
 if
 (
 !
@@ -4650,12 +4676,14 @@ if
 !
 scriptTimeout
 )
+{
 scriptTimeout
 =
 this
 .
 scriptTimeout
 ;
+}
 if
 (
 typeof
@@ -4666,10 +4694,12 @@ newSandbox
 undefined
 "
 )
+{
 newSandbox
 =
 true
 ;
+}
 if
 (
 this
@@ -4897,8 +4927,10 @@ this
 .
 sandbox
 )
+{
 return
 ;
+}
 }
 this
 .
@@ -4933,6 +4965,7 @@ inactivityTimer
 =
 null
 )
+{
 this
 .
 inactivityTimer
@@ -4941,6 +4974,7 @@ cancel
 (
 )
 ;
+}
 return
 this
 .
@@ -4957,6 +4991,7 @@ if
 !
 directInject
 )
+{
 script
 =
 let
@@ -4980,6 +5015,7 @@ __marionetteParams
 )
 ;
 ;
+}
 this
 .
 executeScriptInSandbox
@@ -5047,6 +5083,7 @@ isNaN
 ms
 )
 )
+{
 throw
 new
 WebDriverError
@@ -5058,6 +5095,7 @@ Number
 "
 )
 ;
+}
 this
 .
 scriptTimeout
@@ -5118,6 +5156,7 @@ parameters
 .
 async
 )
+{
 yield
 this
 .
@@ -5132,7 +5171,9 @@ parameters
 async
 )
 ;
+}
 else
+{
 this
 .
 execute
@@ -5142,6 +5183,7 @@ resp
 true
 )
 ;
+}
 break
 ;
 case
@@ -5276,12 +5318,14 @@ if
 !
 scriptTimeout
 )
+{
 scriptTimeout
 =
 this
 .
 scriptTimeout
 ;
+}
 if
 (
 typeof
@@ -5292,10 +5336,12 @@ newSandbox
 undefined
 "
 )
+{
 newSandbox
 =
 true
 ;
+}
 if
 (
 this
@@ -5660,17 +5706,21 @@ isError
 val
 )
 )
+{
 reject
 (
 val
 )
 ;
+}
 else
+{
 resolve
 (
 val
 )
 ;
+}
 }
 if
 (
@@ -5681,6 +5731,7 @@ inactivityTimer
 =
 null
 )
+{
 that
 .
 inactivityTimer
@@ -5689,6 +5740,7 @@ cancel
 (
 )
 ;
+}
 }
 ;
 let
@@ -5802,8 +5854,10 @@ this
 .
 sandbox
 )
+{
 return
 ;
+}
 }
 this
 .
@@ -6320,6 +6374,7 @@ appName
 Firefox
 "
 )
+{
 throw
 new
 UnknownError
@@ -6333,6 +6388,7 @@ context
 "
 )
 ;
+}
 this
 .
 getCurrentWindow
@@ -6485,11 +6541,14 @@ readyState
 complete
 "
 )
+{
 resolve
 (
 )
 ;
+}
 else
+{
 checkTimer
 .
 initWithCallback
@@ -6503,6 +6562,7 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
+}
 }
 else
 {
@@ -7485,6 +7545,7 @@ appName
 Firefox
 "
 )
+{
 throw
 new
 WebDriverError
@@ -7501,6 +7562,7 @@ mobile
 "
 )
 ;
+}
 let
 x
 =
@@ -7538,6 +7600,7 @@ isNaN
 y
 )
 )
+{
 throw
 new
 UnknownError
@@ -7553,6 +7616,7 @@ integers
 "
 )
 ;
+}
 let
 win
 =
@@ -8019,6 +8083,7 @@ this
 .
 curFrame
 )
+{
 resp
 .
 value
@@ -8038,6 +8103,7 @@ curFrame
 frameElement
 )
 ;
+}
 break
 ;
 case
@@ -8997,6 +9063,7 @@ isNaN
 ms
 )
 )
+{
 throw
 new
 WebDriverError
@@ -9008,6 +9075,7 @@ Number
 "
 )
 ;
+}
 this
 .
 searchTimeout
@@ -9056,6 +9124,7 @@ isNaN
 ms
 )
 )
+{
 throw
 new
 WebDriverError
@@ -9067,6 +9136,7 @@ Number
 "
 )
 ;
+}
 switch
 (
 typ
@@ -11442,8 +11512,10 @@ appName
 B2G
 "
 )
+{
 return
 ;
+}
 let
 nwins
 =
@@ -11482,6 +11554,7 @@ win
 .
 gBrowser
 )
+{
 nwins
 +
 =
@@ -11493,11 +11566,14 @@ browsers
 .
 length
 ;
+}
 else
+{
 nwins
 +
 +
 ;
+}
 }
 if
 (
@@ -11527,6 +11603,7 @@ mm
 =
 globalMessageManager
 )
+{
 this
 .
 mm
@@ -11536,6 +11613,7 @@ removeDelayedFrameScript
 FRAME_SCRIPT
 )
 ;
+}
 if
 (
 this
@@ -11544,6 +11622,7 @@ curBrowser
 .
 tab
 )
+{
 this
 .
 curBrowser
@@ -11552,7 +11631,9 @@ closeTab
 (
 )
 ;
+}
 else
+{
 this
 .
 getCurrentWindow
@@ -11563,6 +11644,7 @@ close
 (
 )
 ;
+}
 }
 catch
 (
@@ -11611,8 +11693,10 @@ appName
 B2G
 "
 )
+{
 return
 ;
+}
 let
 nwins
 =
@@ -11930,6 +12014,7 @@ this
 .
 mainFrame
 )
+{
 this
 .
 mainFrame
@@ -11938,6 +12023,7 @@ focus
 (
 )
 ;
+}
 this
 .
 sessionId
@@ -12203,8 +12289,10 @@ hash
 -
 1
 )
+{
 return
 ;
+}
 this
 .
 importedScriptHashes
@@ -12491,6 +12579,7 @@ appName
 B2G
 "
 )
+{
 doc
 =
 win
@@ -12499,7 +12588,9 @@ document
 .
 body
 ;
+}
 else
+{
 doc
 =
 win
@@ -12516,6 +12607,7 @@ window
 0
 ]
 ;
+}
 let
 docRect
 =
@@ -12855,6 +12947,7 @@ mozOr
 <
 0
 )
+{
 throw
 new
 WebDriverError
@@ -12868,6 +12961,7 @@ or
 }
 )
 ;
+}
 let
 win
 =
@@ -12889,6 +12983,7 @@ mozLockOrientation
 mozOr
 )
 )
+{
 throw
 new
 WebDriverError
@@ -12904,6 +12999,7 @@ or
 }
 )
 ;
+}
 }
 ;
 GeckoDriver
@@ -12970,6 +13066,7 @@ appName
 Firefox
 "
 )
+{
 throw
 new
 UnsupportedOperationError
@@ -12982,6 +13079,7 @@ mobile
 "
 )
 ;
+}
 let
 width
 =
@@ -13036,6 +13134,7 @@ screen
 .
 availHeight
 )
+{
 throw
 new
 UnsupportedOperationError
@@ -13049,6 +13148,7 @@ maximize
 "
 )
 ;
+}
 win
 .
 resizeTo
@@ -13082,6 +13182,7 @@ appName
 Firefox
 "
 )
+{
 throw
 new
 UnsupportedOperationError
@@ -13094,6 +13195,7 @@ mobile
 "
 )
 ;
+}
 let
 win
 =
@@ -13148,6 +13250,7 @@ this
 .
 dialog
 )
+{
 throw
 new
 NoAlertOpenError
@@ -13167,6 +13270,7 @@ dialog
 "
 )
 ;
+}
 let
 {
 button0
@@ -13218,6 +13322,7 @@ this
 .
 dialog
 )
+{
 throw
 new
 NoAlertOpenError
@@ -13237,6 +13342,7 @@ dialog
 "
 )
 ;
+}
 let
 {
 button0
@@ -13281,6 +13387,7 @@ this
 .
 dialog
 )
+{
 throw
 new
 NoAlertOpenError
@@ -13301,6 +13408,7 @@ text
 "
 )
 ;
+}
 let
 {
 infoBody
@@ -13341,6 +13449,7 @@ this
 .
 dialog
 )
+{
 throw
 new
 NoAlertOpenError
@@ -13362,6 +13471,7 @@ dialog
 "
 )
 ;
+}
 let
 {
 loginContainer
@@ -13380,6 +13490,7 @@ loginContainer
 .
 hidden
 )
+{
 throw
 new
 ElementNotVisibleError
@@ -13395,6 +13506,7 @@ input
 "
 )
 ;
+}
 let
 win
 =
@@ -13582,6 +13694,7 @@ json
 .
 log
 )
+{
 this
 .
 marionetteLog
@@ -13595,6 +13708,7 @@ json
 log
 )
 ;
+}
 break
 ;
 case
@@ -13697,6 +13811,7 @@ json
 .
 storePrevious
 )
+{
 this
 .
 previousFrameElement
@@ -13705,6 +13820,7 @@ this
 .
 currentFrameElement
 ;
+}
 this
 .
 currentFrameElement
@@ -15272,9 +15388,11 @@ tabmodalPromptShowing
 "
 )
 )
+{
 return
 null
 ;
+}
 let
 modals
 =
@@ -15580,6 +15698,7 @@ this
 .
 tab
 )
+{
 this
 .
 switchToTab
@@ -15591,6 +15710,7 @@ browser
 selectedIndex
 )
 ;
+}
 if
 (
 target
@@ -15681,18 +15801,22 @@ tab
 =
 null
 )
+{
 return
 false
 ;
+}
 if
 (
 this
 .
 _hasRemotenessChange
 )
+{
 return
 true
 ;
+}
 let
 currentIsRemote
 =
@@ -15744,8 +15868,10 @@ this
 .
 _hasRemotenessChange
 )
+{
 return
 ;
+}
 this
 .
 _hasRemotenessChange
@@ -15794,6 +15920,7 @@ hasRemotenessChange
 (
 )
 )
+{
 this
 .
 pendingCommands
@@ -15803,10 +15930,13 @@ push
 cb
 )
 ;
+}
 else
+{
 cb
 (
 )
 ;
+}
 }
 ;
