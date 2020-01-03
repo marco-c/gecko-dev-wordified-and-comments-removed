@@ -3410,9 +3410,6 @@ bool
 mDisabledHardwareAcceleration
 ;
 bool
-mDecodingFrozenAtStateDecoding
-;
-bool
 mSentLoadedMetadataEvent
 ;
 bool
