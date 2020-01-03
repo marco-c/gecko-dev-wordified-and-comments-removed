@@ -90,6 +90,7 @@ SiteSecurityState
 {
 public
 :
+explicit
 SiteSecurityState
 (
 nsCString
