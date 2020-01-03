@@ -1776,6 +1776,13 @@ init
 =
 >
 {
+if
+(
+this
+.
+formatValue
+)
+{
 this
 .
 _searchServiceInitialized
@@ -1788,6 +1795,7 @@ formatValue
 (
 )
 ;
+}
 }
 )
 ;
