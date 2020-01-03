@@ -11524,7 +11524,7 @@ pps
 >
 AsyncResolve
 (
-mURI
+mHttpChannel
 nsIProtocolProxyService
 :
 :
@@ -12140,9 +12140,9 @@ OnProxyAvailable
 nsICancelable
 *
 aRequest
-nsIURI
+nsIChannel
 *
-aURI
+aChannel
 nsIProxyInfo
 *
 pi
