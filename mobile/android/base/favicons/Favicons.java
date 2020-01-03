@@ -1990,7 +1990,7 @@ R
 .
 drawable
 .
-favicon_search
+search_icon_inactive
 )
 )
 ;
