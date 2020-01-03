@@ -264,6 +264,8 @@ maxRunTime
 command
 :
 -
+bin
+/
 build
 -
 b2g
