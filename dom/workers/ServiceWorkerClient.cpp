@@ -669,7 +669,6 @@ aCx
 messageData
 WorkerStructuredCloneCallbacks
 (
-true
 )
 &
 closure
@@ -963,7 +962,6 @@ callbacks
 =
 WorkerStructuredCloneCallbacks
 (
-false
 )
 ;
 WorkerStructuredCloneClosure
