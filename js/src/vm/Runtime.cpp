@@ -1642,6 +1642,12 @@ finishAtoms
 (
 )
 ;
+gc
+.
+finishRoots
+(
+)
+;
 beingDestroyed_
 =
 true

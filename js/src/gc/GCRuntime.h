@@ -987,6 +987,11 @@ maxNurseryBytes
 )
 ;
 void
+finishRoots
+(
+)
+;
+void
 finish
 (
 )
