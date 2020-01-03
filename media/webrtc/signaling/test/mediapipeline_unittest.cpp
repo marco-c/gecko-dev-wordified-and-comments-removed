@@ -1239,6 +1239,9 @@ sts_target
 (
 )
 audio_
+"
+audio_track_fake_uuid
+"
 1
 false
 audio_conduit_
@@ -1464,6 +1467,9 @@ audio_
 GetStream
 (
 )
+"
+audio_track_fake_uuid
+"
 1
 1
 static_cast
