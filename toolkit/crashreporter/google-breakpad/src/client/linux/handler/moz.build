@@ -118,11 +118,6 @@ minidump_descriptor
 cc
 '
 ]
-XPI_NAME
-=
-'
-crashreporter
-'
 FINAL_LIBRARY
 =
 '
