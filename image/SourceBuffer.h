@@ -83,6 +83,9 @@ nsTArray
 .
 h
 "
+class
+nsIInputStream
+;
 namespace
 mozilla
 {
@@ -666,6 +669,16 @@ char
 aData
 size_t
 aLength
+)
+;
+nsresult
+AppendFromInputStream
+(
+nsIInputStream
+*
+aInputStream
+uint32_t
+aCount
 )
 ;
 void
