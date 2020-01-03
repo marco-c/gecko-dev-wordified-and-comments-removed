@@ -2147,6 +2147,7 @@ mSrcIndex
 ;
 nsFontFaceLoader
 *
+MOZ_NON_OWNING_REF
 mLoader
 ;
 gfxUserFontSet
