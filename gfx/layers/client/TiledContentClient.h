@@ -906,8 +906,6 @@ aCreatedTextureClient
 nsIntRegion
 &
 aAddPaintedRegion
-bool
-aCanRerasterizeValidRegion
 RefPtr
 <
 TextureClient
@@ -1065,8 +1063,6 @@ const
 nsIntRegion
 &
 aDirtyRegion
-bool
-aCanRerasterizeValidRegion
 nsIntRegion
 &
 aAddPaintedRegion
