@@ -1664,10 +1664,7 @@ DrawPixelSnapped
 (
 ctx
 aDrawable
-ThebesIntSize
-(
 mSize
-)
 ImageRegion
 :
 :
@@ -2516,10 +2513,7 @@ new
 gfxSurfaceDrawable
 (
 aSurface
-ThebesIntSize
-(
 size
-)
 )
 mFormat
 )
@@ -2691,10 +2685,7 @@ new
 gfxSurfaceDrawable
 (
 newsurf
-ThebesIntSize
-(
 size
-)
 )
 target
 -

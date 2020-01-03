@@ -1977,10 +1977,7 @@ Decode
 (
 Some
 (
-ThebesIntSize
-(
 requestedSize
-)
 )
 aFlags
 )
@@ -6676,10 +6673,7 @@ false
 ;
 if
 (
-ThebesIntSize
-(
 finalSize
-)
 !
 =
 aSize

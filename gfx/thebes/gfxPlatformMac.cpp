@@ -492,10 +492,7 @@ newSurface
 new
 gfxQuartzSurface
 (
-ThebesIntSize
-(
 size
-)
 OptimalFormatForContent
 (
 contentType

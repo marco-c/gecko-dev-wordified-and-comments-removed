@@ -3203,10 +3203,7 @@ uint8_t
 rect
 .
 pBits
-ThebesIntSize
-(
 mSize
-)
 rect
 .
 Pitch

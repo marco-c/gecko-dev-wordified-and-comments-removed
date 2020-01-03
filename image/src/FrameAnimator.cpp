@@ -1593,10 +1593,7 @@ newFrame
 >
 InitForDecoder
 (
-ThebesIntSize
-(
 mSize
-)
 SurfaceFormat
 :
 :
@@ -2117,10 +2114,7 @@ newFrame
 >
 InitForDecoder
 (
-ThebesIntSize
-(
 mSize
-)
 SurfaceFormat
 :
 :

@@ -3441,10 +3441,7 @@ surf
 new
 gfxWindowsSurface
 (
-ThebesIntSize
-(
 size
-)
 OptimalFormatForContent
 (
 contentType
@@ -3468,10 +3465,7 @@ surf
 new
 gfxD2DSurface
 (
-ThebesIntSize
-(
 size
-)
 OptimalFormatForContent
 (
 contentType
@@ -3499,10 +3493,7 @@ surf
 new
 gfxImageSurface
 (
-ThebesIntSize
-(
 size
-)
 OptimalFormatForContent
 (
 contentType

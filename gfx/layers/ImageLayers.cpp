@@ -152,17 +152,11 @@ sourceRect
 .
 SizeTo
 (
-gfx
-:
-:
-ThebesIntSize
-(
 mContainer
 -
 >
 GetCurrentSize
 (
-)
 )
 )
 ;
