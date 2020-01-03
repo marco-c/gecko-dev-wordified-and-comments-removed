@@ -455,6 +455,12 @@ size_t
 trackIndex
 )
 ;
+inline
+bool
+isValidState
+(
+)
+;
 bool
 isLiveStream
 (
