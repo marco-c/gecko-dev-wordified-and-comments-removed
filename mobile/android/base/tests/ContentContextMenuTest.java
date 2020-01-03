@@ -46,7 +46,7 @@ final
 int
 MAX_TEST_TIMEOUT
 =
-10000
+30000
 ;
 protected
 void
