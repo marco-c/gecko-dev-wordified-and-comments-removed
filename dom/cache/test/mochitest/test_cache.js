@@ -1439,7 +1439,7 @@ function
 (
 )
 {
-workerTestDone
+testDone
 (
 )
 ;
