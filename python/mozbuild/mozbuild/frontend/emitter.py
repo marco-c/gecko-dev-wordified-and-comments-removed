@@ -102,6 +102,8 @@ JARManifest
     
 JavaScriptModules
     
+JsPreferenceFile
+    
 Library
     
 Linkable
@@ -3554,6 +3556,27 @@ Resources
 context
 resources
 defines
+)
+        
+for
+pref
+in
+sorted
+(
+context
+[
+'
+JS_PREFERENCE_FILES
+'
+]
+)
+:
+            
+yield
+JsPreferenceFile
+(
+context
+pref
 )
         
 for
