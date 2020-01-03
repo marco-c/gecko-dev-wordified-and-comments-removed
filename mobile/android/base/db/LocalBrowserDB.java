@@ -516,6 +516,15 @@ MIN_VALUE
 private
 static
 final
+long
+FOLDER_NOT_FOUND
+=
+-
+1L
+;
+private
+static
+final
 boolean
 logDebug
 =
@@ -916,6 +925,7 @@ int
 offset
 )
 {
+final
 long
 folderID
 =
@@ -932,8 +942,7 @@ if
 folderID
 =
 =
--
-1L
+FOLDER_NOT_FOUND
 )
 {
 Log
@@ -1560,8 +1569,9 @@ return
 offset
 ;
 }
+final
 long
-folderId
+folderID
 =
 getFolderIdFromGuid
 (
@@ -1573,11 +1583,10 @@ MOBILE_FOLDER_GUID
 ;
 if
 (
-folderId
+folderID
 =
 =
--
-1L
+FOLDER_NOT_FOUND
 )
 {
 Log
@@ -1775,7 +1784,7 @@ else
 {
 parent
 =
-folderId
+folderID
 ;
 pos
 =
@@ -4827,8 +4836,7 @@ col
 )
 {
 return
--
-1
+FOLDER_NOT_FOUND
 ;
 }
 final
