@@ -458,6 +458,11 @@ AbstractMediaDecoder
 h
 '
 '
+AbstractThread
+.
+h
+'
+'
 AudioBufferUtils
 .
 h
@@ -829,6 +834,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AbstractThread
+.
+cpp
+'
+'
 AudioChannelFormat
 .
 cpp
@@ -935,11 +945,6 @@ cpp
 '
 '
 MediaManager
-.
-cpp
-'
-'
-MediaPromise
 .
 cpp
 '
