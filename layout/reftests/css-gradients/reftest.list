@@ -4125,16 +4125,6 @@ gradient
 ref
 .
 html
-fails
--
-if
-(
-browserIsRemote
-&
-&
-!
-B2G
-)
 =
 =
 large
