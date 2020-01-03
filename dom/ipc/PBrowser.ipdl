@@ -1805,7 +1805,7 @@ prio
 (
 urgent
 )
-async
+sync
 SetInputContext
 (
 int32_t
