@@ -136,6 +136,14 @@ aActualBelow
 ;
 virtual
 void
+FullscreenChanged
+(
+bool
+aInFullscreen
+)
+;
+virtual
+void
 WindowActivated
 (
 )

@@ -141,6 +141,17 @@ aSizeMode
 )
 {
 }
+void
+nsIWidgetListener
+:
+:
+FullscreenChanged
+(
+bool
+aInFullscreen
+)
+{
+}
 bool
 nsIWidgetListener
 :
