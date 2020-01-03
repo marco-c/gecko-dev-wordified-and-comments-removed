@@ -2898,8 +2898,15 @@ FakeSSLStatus
 =
 function
 (
+certificate
 )
 {
+this
+.
+serverCert
+=
+certificate
+;
 }
 ;
 FakeSSLStatus
