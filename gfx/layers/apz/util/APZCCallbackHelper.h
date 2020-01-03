@@ -137,9 +137,6 @@ static
 void
 UpdateSubFrame
 (
-nsIContent
-*
-aContent
 FrameMetrics
 &
 aMetrics
