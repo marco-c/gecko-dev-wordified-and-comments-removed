@@ -868,6 +868,17 @@ SurfaceFormat
 aFormat
 )
 ;
+virtual
+bool
+CanRenderContentToDataSurface
+(
+)
+const
+{
+return
+false
+;
+}
 bool
 SupportsAzureContentForDrawTarget
 (
