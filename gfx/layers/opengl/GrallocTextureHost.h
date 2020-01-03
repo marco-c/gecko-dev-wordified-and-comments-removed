@@ -201,13 +201,6 @@ UnbindTextureSource
 )
 override
 ;
-virtual
-FenceHandle
-GetAndResetReleaseFenceHandle
-(
-)
-override
-;
 #
 if
 defined
@@ -243,6 +236,13 @@ gfx
 DataSourceSurface
 >
 GetAsSurface
+(
+)
+override
+;
+virtual
+void
+WaitAcquireFenceHandleSyncComplete
 (
 )
 override
