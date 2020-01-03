@@ -1669,16 +1669,6 @@ T
 4
 |
 |
-(
-sizeof
-(
-uintptr_t
-)
-=
-=
-8
-&
-&
 sizeof
 (
 T
@@ -1686,7 +1676,6 @@ T
 =
 =
 8
-)
 "
 mozilla
 /
@@ -1699,9 +1688,9 @@ supports
 -
 bit
 and
-pointer
+64
 -
-sized
+bit
 types
 "
 )
