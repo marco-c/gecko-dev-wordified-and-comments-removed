@@ -59,14 +59,14 @@ services
 .
 common
 .
-tokenserverclient
+log
 .
 logger
 .
-level
+tokenserverclient
 "
 "
-Info
+Debug
 "
 )
 ;
