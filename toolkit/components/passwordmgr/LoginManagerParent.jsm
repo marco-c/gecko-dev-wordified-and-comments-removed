@@ -1343,6 +1343,7 @@ function
 browser
 loginFormOrigin
 login
+inputElement
 }
 )
 {
@@ -1416,6 +1417,17 @@ login
 )
 )
 ;
+let
+objects
+=
+inputElement
+?
+{
+inputElement
+}
+:
+null
+;
 browser
 .
 messageManager
@@ -1434,6 +1446,7 @@ logins
 jsLogins
 recipes
 }
+objects
 )
 ;
 }
