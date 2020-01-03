@@ -699,6 +699,7 @@ mUploadArgs
 mUseWifiOnly
 &
 &
+!
 mUploadArgs
 .
 mNetworkUtils
