@@ -50,4 +50,5 @@ maxdepth
 1
 localeswitching
 uitelemetry
+adjust
 gradle
