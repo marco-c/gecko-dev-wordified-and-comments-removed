@@ -445,12 +445,14 @@ GetBlobImpl
 ;
 nsRefPtr
 <
-File
+Blob
 >
 blob
 =
-new
-File
+Blob
+:
+:
+Create
 (
 mRequest
 -

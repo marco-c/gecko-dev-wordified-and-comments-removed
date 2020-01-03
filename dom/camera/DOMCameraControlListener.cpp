@@ -1383,10 +1383,10 @@ nsIDOMBlob
 >
 picture
 =
-File
+Blob
 :
 :
-CreateMemoryFile
+CreateMemoryBlob
 (
 mDOMCameraControl
 .

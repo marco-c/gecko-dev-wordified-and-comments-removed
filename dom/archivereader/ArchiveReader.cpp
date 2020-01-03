@@ -118,7 +118,7 @@ const
 GlobalObject
 &
 aGlobal
-File
+Blob
 &
 aBlob
 const
@@ -222,7 +222,7 @@ ArchiveReader
 :
 ArchiveReader
 (
-File
+Blob
 &
 aBlob
 nsPIDOMWindow
@@ -523,9 +523,9 @@ Ready
 (
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+File
 >
 >
 &

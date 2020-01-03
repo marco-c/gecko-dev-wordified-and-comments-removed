@@ -27347,7 +27347,7 @@ blobLen
 ;
 nsRefPtr
 <
-File
+Blob
 >
 blob
 ;
@@ -27375,10 +27375,10 @@ mozilla
 dom
 :
 :
-File
+Blob
 :
 :
-CreateMemoryFile
+CreateMemoryBlob
 (
 aParent
 blobData
@@ -27398,7 +27398,7 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
-GetOrCreateDOMReflector
+ToJSValue
 (
 aCx
 blob

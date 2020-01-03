@@ -214,7 +214,7 @@ already_AddRefed
 dom
 :
 :
-File
+Blob
 >
 EncodedBufferCache
 :
@@ -241,7 +241,7 @@ nsRefPtr
 dom
 :
 :
-File
+Blob
 >
 blob
 ;
@@ -255,10 +255,10 @@ blob
 dom
 :
 :
-File
+Blob
 :
 :
-CreateTemporaryFileBlob
+CreateTemporaryBlob
 (
 aParent
 mFD
@@ -382,10 +382,10 @@ blob
 dom
 :
 :
-File
+Blob
 :
 :
-CreateMemoryFile
+CreateMemoryBlob
 (
 aParent
 blobData

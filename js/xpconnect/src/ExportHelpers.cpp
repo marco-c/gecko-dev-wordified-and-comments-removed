@@ -545,12 +545,14 @@ cx
 {
 nsRefPtr
 <
-File
+Blob
 >
 blob
 =
-new
-File
+Blob
+:
+:
+Create
 (
 global
 cloneData
@@ -565,7 +567,7 @@ idx
 if
 (
 !
-GetOrCreateDOMReflector
+ToJSValue
 (
 cx
 blob
@@ -800,7 +802,7 @@ closure
 )
 ;
 {
-File
+Blob
 *
 blob
 =

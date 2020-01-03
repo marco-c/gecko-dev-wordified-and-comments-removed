@@ -28714,6 +28714,10 @@ Truncate
 (
 )
 ;
+mIsFile
+=
+false
+;
 }
 private
 :

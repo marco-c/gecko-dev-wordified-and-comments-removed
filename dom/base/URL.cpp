@@ -552,7 +552,7 @@ const
 GlobalObject
 &
 aGlobal
-File
+Blob
 &
 aBlob
 const
