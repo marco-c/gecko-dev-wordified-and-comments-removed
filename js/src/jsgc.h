@@ -140,15 +140,6 @@ SWEEP
 COMPACT
 }
 ;
-const
-char
-*
-TraceKindAsAscii
-(
-JSGCTraceKind
-kind
-)
-;
 template
 <
 typename
