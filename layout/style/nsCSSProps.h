@@ -2334,13 +2334,6 @@ kAlignSelfKTable
 static
 const
 KTableValue
-kFlexBasisKTable
-[
-]
-;
-static
-const
-KTableValue
 kFlexDirectionKTable
 [
 ]

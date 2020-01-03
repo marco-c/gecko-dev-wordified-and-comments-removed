@@ -4039,7 +4039,7 @@ CSS_PROPERTY_STORES_CALC
 VARIANT_AHKLP
 |
 VARIANT_CALC
-kFlexBasisKTable
+kWidthKTable
 offsetof
 (
 nsStylePosition
