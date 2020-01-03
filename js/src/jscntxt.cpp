@@ -2416,7 +2416,7 @@ callee
 >
 as
 <
-NativeObject
+JSFunction
 >
 (
 )

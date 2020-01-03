@@ -588,7 +588,7 @@ types
 TypeObject
 *
 type
-HandleNativeObject
+HandlePlainObject
 baseobj
 Vector
 <

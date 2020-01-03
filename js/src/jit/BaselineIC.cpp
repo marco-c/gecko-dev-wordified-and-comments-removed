@@ -10703,7 +10703,7 @@ NewObject
 "
 )
 ;
-RootedNativeObject
+RootedPlainObject
 templateObject
 (
 cx
@@ -44936,7 +44936,7 @@ obj
 >
 is
 <
-JSObject
+PlainObject
 >
 (
 )
@@ -44952,7 +44952,7 @@ obj
 .
 as
 <
-NativeObject
+PlainObject
 >
 (
 )
@@ -50237,7 +50237,7 @@ prototype
 )
 )
 ;
-RootedNativeObject
+RootedPlainObject
 templateObject
 (
 cx

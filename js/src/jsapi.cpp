@@ -11685,7 +11685,7 @@ clasp
 clasp
 =
 &
-JSObject
+PlainObject
 :
 :
 class_
@@ -11819,7 +11819,7 @@ clasp
 clasp
 =
 &
-JSObject
+PlainObject
 :
 :
 class_
@@ -15739,7 +15739,7 @@ clasp
 clasp
 =
 &
-JSObject
+PlainObject
 :
 :
 class_

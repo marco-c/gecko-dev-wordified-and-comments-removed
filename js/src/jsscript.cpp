@@ -5395,7 +5395,7 @@ obj
 >
 is
 <
-JSObject
+PlainObject
 >
 (
 )

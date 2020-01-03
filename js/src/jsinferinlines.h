@@ -1230,7 +1230,7 @@ JSProto_Object
 :
 return
 &
-JSObject
+PlainObject
 :
 :
 class_
@@ -2525,7 +2525,7 @@ FixObjectType
 ExclusiveContext
 *
 cx
-NativeObject
+PlainObject
 *
 obj
 )

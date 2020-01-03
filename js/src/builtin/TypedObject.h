@@ -262,13 +262,6 @@ NativeObject
 {
 public
 :
-static
-const
-Class
-class_
-;
-public
-:
 TypedProto
 &
 typedProto
@@ -1699,7 +1692,7 @@ const
 ;
 private
 :
-NativeObject
+ArrayObject
 &
 fieldInfoObject
 (
@@ -1720,13 +1713,13 @@ toObject
 .
 as
 <
-NativeObject
+ArrayObject
 >
 (
 )
 ;
 }
-NativeObject
+ArrayObject
 &
 maybeForwardedFieldInfoObject
 (
@@ -1752,7 +1745,7 @@ toObject
 >
 as
 <
-NativeObject
+ArrayObject
 >
 (
 )
