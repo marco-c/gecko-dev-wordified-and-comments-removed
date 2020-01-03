@@ -150,15 +150,6 @@ TrackMapEntry
 >
 mTrackMap
 ;
-TrackID
-mNextAvailableTrackID
-;
-nsTArray
-<
-TrackID
->
-mUsedTracks
-;
 }
 ;
 }
