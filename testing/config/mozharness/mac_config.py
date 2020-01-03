@@ -652,12 +652,4 @@ xpcshell
 }
     
 }
-    
-"
-mac_res_subdir
-"
-:
-"
-MacOS
-"
 }
