@@ -2199,7 +2199,6 @@ nsContentUtils
 :
 UnmarkGrayJSListenersInCCGenerationDocuments
 (
-sGeneration
 )
 ;
 break
