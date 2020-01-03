@@ -197,6 +197,16 @@ aReason
 )
 ;
 void
+DoVideoSeek
+(
+)
+;
+void
+DoAudioSeek
+(
+)
+;
+void
 OnVideoSeekCompleted
 (
 int64_t
