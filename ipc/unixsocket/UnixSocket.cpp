@@ -2033,6 +2033,7 @@ new
 SocketIOSendTask
 <
 UnixSocketConsumerIO
+UnixSocketRawData
 >
 (
 mIO
