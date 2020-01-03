@@ -2237,9 +2237,6 @@ bool
 mUseLayersAcceleration
 ;
 bool
-mForceLayersAcceleration
-;
-bool
 mMultiProcessWindow
 ;
 bool

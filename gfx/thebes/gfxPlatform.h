@@ -1495,6 +1495,12 @@ char
 }
 static
 bool
+InSafeMode
+(
+)
+;
+static
+bool
 OffMainThreadCompositingEnabled
 (
 )
