@@ -60,7 +60,7 @@ include
 "
 jit
 /
-IonSpewer
+JitSpewer
 .
 h
 "
@@ -984,7 +984,7 @@ js
 jit
 :
 :
-IonSpewEnabled
+JitSpewEnabled
 (
 js
 :
@@ -992,7 +992,7 @@ js
 jit
 :
 :
-IonSpew_Codegen
+JitSpew_Codegen
 )
 )
 {
@@ -1062,7 +1062,7 @@ js
 jit
 :
 :
-IonSpew
+JitSpew
 (
 js
 :
@@ -1070,7 +1070,7 @@ js
 jit
 :
 :
-IonSpew_Codegen
+JitSpew_Codegen
 "
 %
 s
@@ -1118,7 +1118,7 @@ js
 jit
 :
 :
-IonSpewEnabled
+JitSpewEnabled
 (
 js
 :
@@ -1126,7 +1126,7 @@ js
 jit
 :
 :
-IonSpew_Codegen
+JitSpew_Codegen
 )
 )
 {
@@ -1177,7 +1177,7 @@ js
 jit
 :
 :
-IonSpew
+JitSpew
 (
 js
 :
@@ -1185,7 +1185,7 @@ js
 jit
 :
 :
-IonSpew_Codegen
+JitSpew_Codegen
 "
 %
 s

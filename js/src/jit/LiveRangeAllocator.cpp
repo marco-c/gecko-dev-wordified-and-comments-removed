@@ -3161,9 +3161,9 @@ buildLivenessInfo
 (
 )
 {
-IonSpew
+JitSpew
 (
-IonSpew_RegAlloc
+JitSpew_RegAlloc
 "
 Beginning
 liveness
@@ -5507,9 +5507,9 @@ false
 ;
 }
 }
-IonSpew
+JitSpew
 (
-IonSpew_RegAlloc
+JitSpew_RegAlloc
 "
 Liveness
 analysis
@@ -5519,9 +5519,9 @@ complete
 ;
 if
 (
-IonSpewEnabled
+JitSpewEnabled
 (
-IonSpew_RegAlloc
+JitSpew_RegAlloc
 )
 )
 {

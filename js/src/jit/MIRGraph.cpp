@@ -39,7 +39,7 @@ include
 "
 jit
 /
-IonSpewer
+JitSpewer
 .
 h
 "
@@ -299,9 +299,9 @@ va_list
 ap
 )
 {
-IonSpewVA
+JitSpewVA
 (
-IonSpew_Abort
+JitSpew_Abort
 message
 ap
 )

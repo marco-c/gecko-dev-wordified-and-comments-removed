@@ -19,7 +19,7 @@ include
 "
 jit
 /
-IonSpewer
+JitSpewer
 .
 h
 "
@@ -259,9 +259,9 @@ pcToOffset
 pc
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_BaselineOp
+JitSpew_BaselineOp
 "
 Analyzing
 op

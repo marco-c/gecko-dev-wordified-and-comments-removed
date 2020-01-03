@@ -966,9 +966,9 @@ CanonicalizeARMHwCapFlags
 flags
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Codegen
+JitSpew_Codegen
 "
 ARM
 HWCAP
@@ -1337,9 +1337,9 @@ CanonicalizeARMHwCapFlags
 flags
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Codegen
+JitSpew_Codegen
 "
 ARM
 HWCAP

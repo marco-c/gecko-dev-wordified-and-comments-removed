@@ -58,7 +58,7 @@ include
 "
 jit
 /
-IonSpewer
+JitFrameIterator
 .
 h
 "
@@ -67,7 +67,7 @@ include
 "
 jit
 /
-JitFrameIterator
+JitSpewer
 .
 h
 "
@@ -550,9 +550,9 @@ nfixed
 +
 exprStack
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Snapshots
+JitSpew_Snapshots
 "
 Starting
 frame
@@ -596,9 +596,9 @@ pc
 )
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Snapshots
+JitSpew_Snapshots
 "
 Writing
 pc
@@ -657,9 +657,9 @@ readUnsigned
 (
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Snapshots
+JitSpew_Snapshots
 "
 Read
 RResumePoint

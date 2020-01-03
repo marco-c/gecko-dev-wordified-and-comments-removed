@@ -1259,13 +1259,6 @@ cpp
 '
 jit
 /
-IonSpewer
-.
-cpp
-'
-'
-jit
-/
 JitcodeMap
 .
 cpp
@@ -1274,6 +1267,13 @@ cpp
 jit
 /
 JitOptions
+.
+cpp
+'
+'
+jit
+/
+JitSpewer
 .
 cpp
 '

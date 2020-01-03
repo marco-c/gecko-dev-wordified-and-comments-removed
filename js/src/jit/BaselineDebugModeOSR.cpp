@@ -1226,9 +1226,9 @@ jsbytecode
 pc
 )
 {
-IonSpew
+JitSpew
 (
-IonSpew_BaselineDebugModeOSR
+JitSpew_BaselineDebugModeOSR
 "
 Patch
 return
@@ -1296,9 +1296,9 @@ ICStub
 newStub
 )
 {
-IonSpew
+JitSpew
 (
-IonSpew_BaselineDebugModeOSR
+JitSpew_BaselineDebugModeOSR
 "
 Patch
 stub
@@ -2137,9 +2137,9 @@ expectedDebugMode
 return
 true
 ;
-IonSpew
+JitSpew
 (
-IonSpew_BaselineDebugModeOSR
+JitSpew_BaselineDebugModeOSR
 "
 Recompiling
 (

@@ -529,9 +529,9 @@ UnrollCount
 =
 10
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Unrolling
+JitSpew_Unrolling
 "
 Attempting
 to
@@ -840,9 +840,9 @@ isInterruptCheck
 )
 continue
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Unrolling
+JitSpew_Unrolling
 "
 Aborting
 :
@@ -989,9 +989,9 @@ continue
 return
 ;
 }
-IonSpew
+JitSpew
 (
-IonSpew_Unrolling
+JitSpew_Unrolling
 "
 Unrolling
 loop

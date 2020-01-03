@@ -21,7 +21,7 @@ include
 "
 jit
 /
-IonSpewer
+JitSpewer
 .
 h
 "
@@ -25355,7 +25355,7 @@ resumePoint
 {
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 Current
 resume
@@ -25376,7 +25376,7 @@ resumePoint
 ;
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 frame
 count
@@ -25401,7 +25401,7 @@ ins
 {
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 taken
 after
@@ -25414,7 +25414,7 @@ ins
 >
 printName
 (
-IonSpewFile
+JitSpewFile
 )
 ;
 }
@@ -25422,7 +25422,7 @@ else
 {
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 taken
 at
@@ -25442,7 +25442,7 @@ id
 }
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 \
 n
@@ -25451,7 +25451,7 @@ n
 ;
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 pc
 :
@@ -25568,7 +25568,7 @@ i
 ;
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 slot
 %
@@ -25586,12 +25586,12 @@ in
 >
 printName
 (
-IonSpewFile
+JitSpewFile
 )
 ;
 fprintf
 (
-IonSpewFile
+JitSpewFile
 "
 \
 n
@@ -25863,9 +25863,9 @@ resumePoint
 ;
 if
 (
-IonSpewEnabled
+JitSpewEnabled
 (
-IonSpew_Snapshots
+JitSpew_Snapshots
 )
 &
 &
@@ -25901,9 +25901,9 @@ entryResumePoint
 ;
 if
 (
-IonSpewEnabled
+JitSpewEnabled
 (
-IonSpew_Snapshots
+JitSpew_Snapshots
 )
 &
 &

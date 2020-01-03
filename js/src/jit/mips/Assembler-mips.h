@@ -54,7 +54,7 @@ include
 "
 jit
 /
-IonSpewer
+JitCompartment
 .
 h
 "
@@ -63,7 +63,7 @@ include
 "
 jit
 /
-JitCompartment
+JitSpewer
 .
 h
 "

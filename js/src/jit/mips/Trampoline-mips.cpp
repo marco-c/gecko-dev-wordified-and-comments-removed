@@ -37,7 +37,7 @@ include
 "
 jit
 /
-IonSpewer
+JitCompartment
 .
 h
 "
@@ -46,7 +46,7 @@ include
 "
 jit
 /
-JitCompartment
+JitSpewer
 .
 h
 "
@@ -2214,9 +2214,9 @@ cx
 OTHER_CODE
 )
 ;
-IonSpew
+JitSpew
 (
-IonSpew_Invalidate
+JitSpew_Invalidate
 "
 invalidation
 thunk

@@ -69,7 +69,7 @@ include
 "
 jit
 /
-IonSpewer
+JitSpewer
 .
 h
 "
@@ -17321,9 +17321,9 @@ ObjectVector
 targets
 )
 {
-IonSpew
+JitSpew
 (
-IonSpew_Inlining
+JitSpew_Inlining
 "
 Got
 inlineable
@@ -17430,9 +17430,9 @@ i
 +
 ;
 }
-IonSpew
+JitSpew
 (
-IonSpew_Inlining
+JitSpew_Inlining
 "
 %
 d

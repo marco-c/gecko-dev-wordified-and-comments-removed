@@ -7169,9 +7169,9 @@ size_t
 size
 )
 {
-IonSpewCont
+JitSpewCont
 (
-IonSpew_CacheFlush
+JitSpew_CacheFlush
 "
 [
 %
