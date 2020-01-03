@@ -8276,7 +8276,7 @@ PresContext
 PresShell
 (
 )
-LayerMargin
+ScreenMargin
 (
 )
 gfxPrefs
