@@ -7,6 +7,8 @@ mozilla_dom_cache_ActioChild_h
 #
 include
 "
+mozilla
+/
 nsRefPtr
 .
 h

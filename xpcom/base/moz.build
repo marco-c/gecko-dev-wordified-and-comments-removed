@@ -331,11 +331,6 @@ nsQueryObject
 h
 '
 '
-nsRefPtr
-.
-h
-'
-'
 nsTraceRefcnt
 .
 h
