@@ -168,6 +168,10 @@ ANDROID_RES_DIRS
 '
     
 '
+ASFLAGS
+'
+    
+'
 CMSRCS
 '
     

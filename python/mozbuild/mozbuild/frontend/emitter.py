@@ -3566,6 +3566,10 @@ CMFLAGS
 CMMFLAGS
 '
 '
+ASFLAGS
+'
+                  
+'
 LDFLAGS
 '
 ]
