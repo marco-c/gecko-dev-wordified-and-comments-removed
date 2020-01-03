@@ -626,6 +626,15 @@ fix
 \
 macro
 (
+flags
+flags
+"
+flags
+"
+)
+\
+macro
+(
 float32
 float32
 "
