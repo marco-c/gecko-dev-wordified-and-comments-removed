@@ -67,7 +67,7 @@ WebGLVertexArray
 public
 nsWrapperCache
 public
-WebGLBindableName
+WebGLBindable
 <
 VAOBinding
 >
@@ -173,6 +173,16 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 WebGLVertexArray
 )
+GLuint
+GLName
+(
+)
+const
+{
+return
+mGLName
+;
+}
 void
 EnsureAttrib
 (
@@ -243,6 +253,9 @@ IsDeleted
 )
 ;
 }
+;
+GLuint
+mGLName
 ;
 nsTArray
 <
