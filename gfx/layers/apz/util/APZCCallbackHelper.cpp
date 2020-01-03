@@ -895,11 +895,12 @@ GetAsyncZoom
 .
 scale
 ;
-aUtils
--
->
+nsLayoutUtils
+:
+:
 SetResolutionAndScaleTo
 (
+aPresShell
 presShellResolution
 )
 ;
