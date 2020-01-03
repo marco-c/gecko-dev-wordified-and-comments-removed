@@ -42,13 +42,6 @@ Vector
 .
 h
 >
-#
-include
-"
-nsTArray
-.
-h
-"
 namespace
 stagefright
 {
@@ -257,7 +250,7 @@ sync
 }
 ;
 virtual
-nsTArray
+Vector
 <
 Indice
 >
