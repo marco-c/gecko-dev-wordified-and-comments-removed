@@ -13713,17 +13713,6 @@ GetFormat
 )
 )
 {
-MOZ_ASSERT
-(
-"
-Invalid
-sampling
-rect
-size
-!
-"
-)
-;
 return
 nullptr
 ;
