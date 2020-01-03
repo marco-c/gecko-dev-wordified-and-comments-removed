@@ -948,6 +948,13 @@ Setter
 Normal
 }
 ;
+enum
+PropListType
+{
+ObjectLiteral
+ClassBody
+}
+;
 template
 <
 typename
@@ -1882,13 +1889,6 @@ Node
 exprInParens
 (
 )
-;
-enum
-PropListType
-{
-ObjectLiteral
-ClassBody
-}
 ;
 bool
 methodDefinition
