@@ -6148,6 +6148,9 @@ uint8_t
 mHyphens
 ;
 uint8_t
+mRubyAlign
+;
+uint8_t
 mRubyPosition
 ;
 uint8_t
