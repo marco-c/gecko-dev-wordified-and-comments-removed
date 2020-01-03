@@ -1778,7 +1778,7 @@ Element
 *
 docElement
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -1996,7 +1996,7 @@ html_doc
 (
 do_QueryInterface
 (
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )
