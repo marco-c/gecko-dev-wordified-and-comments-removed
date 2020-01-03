@@ -3569,6 +3569,12 @@ if
 InterruptStackDepth
 (
 )
+&
+&
+!
+AwaitingIncomingMessage
+(
+)
 )
 {
 NS_RUNTIMEABORT
