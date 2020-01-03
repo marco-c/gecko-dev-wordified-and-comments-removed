@@ -11,8 +11,8 @@ mozlog
 .
 structured
 import
-structuredlog
 commandline
+get_default_logger
 class
 TestAssertion
 (
@@ -174,7 +174,6 @@ def
 __init__
 (
 self
-logger
 )
 :
         
@@ -182,7 +181,14 @@ self
 .
 logger
 =
-logger
+get_default_logger
+(
+component
+=
+'
+TestRunner
+'
+)
     
 def
 gather_tests
@@ -485,7 +491,6 @@ runner
 =
 TestRunner
 (
-logger
 )
     
 try

@@ -910,6 +910,13 @@ py
 :
 func
 :
+~
+mozlog
+.
+structured
+.
+structuredlog
+.
 get_default_logger
 .
     
