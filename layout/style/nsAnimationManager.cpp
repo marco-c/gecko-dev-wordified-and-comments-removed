@@ -1476,6 +1476,13 @@ RemoveElementAt
 oldIdx
 )
 ;
+oldPlayer
+-
+>
+UpdateRelevance
+(
+)
+;
 }
 }
 }

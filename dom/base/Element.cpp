@@ -14510,15 +14510,7 @@ if
 player
 -
 >
-HasCurrentSource
-(
-)
-|
-|
-player
--
->
-HasInEffectSource
+IsRelevant
 (
 )
 )
