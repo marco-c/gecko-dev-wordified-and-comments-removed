@@ -931,6 +931,11 @@ deferred
 .
 resolve
 (
+win
+.
+UI
+.
+_updatePromise
 )
 ;
 }
