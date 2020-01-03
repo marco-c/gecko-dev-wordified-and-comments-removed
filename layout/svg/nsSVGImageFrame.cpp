@@ -1631,7 +1631,7 @@ TYPE_VECTOR
 SVGImageContext
 context
 (
-nsIntSize
+CSSIntSize
 (
 width
 height

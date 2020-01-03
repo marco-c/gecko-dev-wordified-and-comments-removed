@@ -28446,7 +28446,7 @@ size
 ImageRegion
 region
 ;
-nsIntSize
+CSSIntSize
 svgViewportSize
 ;
 bool
@@ -28486,7 +28486,7 @@ ImageRegion
 &
 aRegion
 const
-nsIntSize
+CSSIntSize
 &
 aSVGViewportSize
 )
@@ -29068,7 +29068,7 @@ intImageSize
 height
 )
 ;
-nsIntSize
+CSSIntSize
 svgViewportSize
 =
 currentMatrix
@@ -29077,9 +29077,17 @@ IsIdentity
 (
 )
 ?
+CSSIntSize
+(
 intImageSize
+.
+width
+intImageSize
+.
+height
+)
 :
-nsIntSize
+CSSIntSize
 (
 NSAppUnitsToIntPixels
 (
@@ -30511,7 +30519,7 @@ imgIContainer
 *
 aImage
 const
-nsIntSize
+CSSIntSize
 &
 aImageSize
 GraphicsFilter

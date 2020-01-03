@@ -20,6 +20,13 @@ SVGPreserveAspectRatio
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 namespace
 mozilla
 {
@@ -42,7 +49,7 @@ mGlobalOpacity
 }
 SVGImageContext
 (
-nsIntSize
+CSSIntSize
 aViewportSize
 Maybe
 <
@@ -72,7 +79,7 @@ aOpacity
 {
 }
 const
-nsIntSize
+CSSIntSize
 &
 GetViewportSize
 (
@@ -226,7 +233,7 @@ Hash
 )
 ;
 }
-nsIntSize
+CSSIntSize
 mViewportSize
 ;
 Maybe

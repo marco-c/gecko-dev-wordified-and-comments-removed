@@ -23655,7 +23655,7 @@ case
 eStyleImageType_Image
 :
 {
-nsIntSize
+CSSIntSize
 imageSize
 (
 nsPresContext

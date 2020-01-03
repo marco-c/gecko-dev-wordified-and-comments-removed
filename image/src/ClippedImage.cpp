@@ -1458,7 +1458,7 @@ aInnerAndClipSize
 second
 )
 ;
-nsIntSize
+CSSIntSize
 vSize
 (
 aOldContext

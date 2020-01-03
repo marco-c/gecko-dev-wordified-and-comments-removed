@@ -3484,7 +3484,7 @@ imgIContainer
 *
 aImage
 const
-nsIntSize
+CSSIntSize
 &
 aImageSize
 GraphicsFilter
