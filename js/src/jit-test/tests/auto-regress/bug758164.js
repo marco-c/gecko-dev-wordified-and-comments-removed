@@ -7,7 +7,7 @@ evaluate
 "
 gcslice
 (
-1
+0
 )
 ;
 "

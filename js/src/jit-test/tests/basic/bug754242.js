@@ -12,7 +12,7 @@ g1
 ;
 gcslice
 (
-1
+0
 )
 ;
 function
