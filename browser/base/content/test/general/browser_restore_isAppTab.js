@@ -1,3 +1,8 @@
+const
+{
+TabStateFlusher
+}
+=
 Cu
 .
 import
@@ -16,6 +21,8 @@ TabStateFlusher
 .
 jsm
 "
+{
+}
 )
 ;
 const

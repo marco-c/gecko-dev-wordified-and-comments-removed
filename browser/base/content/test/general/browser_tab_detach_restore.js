@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+TabStateFlusher
+}
+=
 Cu
 .
 import
@@ -21,6 +26,8 @@ TabStateFlusher
 .
 jsm
 "
+{
+}
 )
 ;
 add_task
