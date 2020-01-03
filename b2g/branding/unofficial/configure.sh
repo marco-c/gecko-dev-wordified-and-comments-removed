@@ -62,6 +62,17 @@ mozilla
 b2g_
 echo
 USER
+|
+sed
+'
+s
+/
+-
+/
+_
+/
+g
+'
 MOZ_APP_DISPLAYNAME
 =
 B2G
