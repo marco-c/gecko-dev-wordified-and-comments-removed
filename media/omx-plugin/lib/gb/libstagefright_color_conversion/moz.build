@@ -119,15 +119,12 @@ libstagefright_color_conversion
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 stagefright_color_conversion
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

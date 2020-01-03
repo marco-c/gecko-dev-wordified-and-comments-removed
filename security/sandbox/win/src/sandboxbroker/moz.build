@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-Library
+SharedLibrary
 (
 '
 sandboxbroker
@@ -130,9 +130,6 @@ sandboxBroker
 h
 '
 ]
-FORCE_SHARED_LIB
-=
-True
 for
 var
 in

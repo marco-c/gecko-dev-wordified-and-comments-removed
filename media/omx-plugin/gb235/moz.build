@@ -103,15 +103,12 @@ OmxPlugin235
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 omxplugingb235
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

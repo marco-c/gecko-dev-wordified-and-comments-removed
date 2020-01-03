@@ -103,7 +103,7 @@ injector
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 breakpadinjector
@@ -124,9 +124,6 @@ config
 mozbuild
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

@@ -113,15 +113,12 @@ libmalloc
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 jprof
 '
 )
-FORCE_SHARED_LIB
-=
-True
 DEFINES
 [
 '

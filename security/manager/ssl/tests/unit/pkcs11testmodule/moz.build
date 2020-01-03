@@ -103,15 +103,12 @@ pkcs11testmodule
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 pkcs11testmodule
 '
 )
-FORCE_SHARED_LIB
-=
-True
 #
 C_GetFunctionList
 needs

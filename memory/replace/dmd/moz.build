@@ -174,15 +174,12 @@ strcpy
 c
 '
 ]
-Library
+SharedLibrary
 (
 '
 dmd
 '
 )
-FORCE_SHARED_LIB
-=
-True
 DEFINES
 [
 '

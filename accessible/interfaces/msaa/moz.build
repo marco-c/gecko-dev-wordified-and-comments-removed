@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-Library
+SharedLibrary
 (
 '
 AccessibleMarshal
@@ -139,9 +139,6 @@ ISimpleDOMText_p
 c
 '
 ]
-FORCE_SHARED_LIB
-=
-True
 DEFINES
 [
 '

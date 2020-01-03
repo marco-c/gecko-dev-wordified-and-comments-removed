@@ -174,15 +174,12 @@ OmxPlugin
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 omxplugin
 '
 )
-FORCE_SHARED_LIB
-=
-True
 if
 CONFIG
 [

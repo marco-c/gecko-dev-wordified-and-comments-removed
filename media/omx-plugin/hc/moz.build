@@ -103,15 +103,12 @@ OmxPluginHoneycomb
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 omxpluginhc
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

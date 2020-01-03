@@ -119,15 +119,12 @@ libutils
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 utils
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

@@ -96,15 +96,12 @@ MPL
 FAIL_ON_WARNINGS
 =
 True
-Library
+SharedLibrary
 (
 '
 mozsandbox
 '
 )
-FORCE_SHARED_LIB
-=
-True
 EXPORTS
 .
 mozilla

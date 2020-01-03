@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-Library
+Libxul
 (
 '
 xul
@@ -120,14 +120,3 @@ static
 xul
 '
 ]
-include
-(
-'
-.
-.
-/
-libxul
-.
-mozbuild
-'
-)

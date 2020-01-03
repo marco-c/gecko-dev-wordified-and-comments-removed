@@ -103,15 +103,12 @@ vmwarerecordinghelper
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 vmwarerecordinghelper
 '
 )
-FORCE_SHARED_LIB
-=
-True
 DEFFILE
 =
 '

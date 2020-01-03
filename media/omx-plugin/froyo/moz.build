@@ -103,15 +103,12 @@ OmxPluginFroyo
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 omxpluginfroyo
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

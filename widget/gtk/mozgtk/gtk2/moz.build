@@ -114,7 +114,7 @@ GTK3_SYMBOLS
 ]
 =
 True
-Library
+SharedLibrary
 (
 '
 mozgtk2
@@ -125,9 +125,6 @@ SONAME
 '
 mozgtk
 '
-FORCE_SHARED_LIB
-=
-True
 #
 If
 LDFLAGS

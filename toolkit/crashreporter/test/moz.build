@@ -206,7 +206,7 @@ nsTestCrasher
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 testcrasher
@@ -222,9 +222,6 @@ CrashTestUtils
 jsm
 '
 ]
-FORCE_SHARED_LIB
-=
-True
 DEFINES
 [
 '

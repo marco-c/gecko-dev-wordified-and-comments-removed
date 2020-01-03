@@ -381,15 +381,12 @@ USE_LIBS
 libGLESv2
 '
 ]
-Library
+SharedLibrary
 (
 '
 libEGL
 '
 )
-FORCE_SHARED_LIB
-=
-True
 RCFILE
 =
 SRCDIR

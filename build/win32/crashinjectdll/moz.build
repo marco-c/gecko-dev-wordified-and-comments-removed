@@ -103,15 +103,12 @@ crashinjectdll
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 crashinjectdll
 '
 )
-FORCE_SHARED_LIB
-=
-True
 DEFFILE
 =
 SRCDIR

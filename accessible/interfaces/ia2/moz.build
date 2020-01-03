@@ -93,15 +93,12 @@ MPL
 0
 /
 .
-Library
+SharedLibrary
 (
 '
 IA2Marshal
 '
 )
-FORCE_SHARED_LIB
-=
-True
 DEFINES
 [
 '

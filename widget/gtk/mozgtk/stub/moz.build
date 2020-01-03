@@ -127,7 +127,7 @@ var
 ]
 =
 True
-Library
+SharedLibrary
 (
 '
 mozgtk_stub
@@ -138,6 +138,3 @@ SONAME
 '
 mozgtk
 '
-FORCE_SHARED_LIB
-=
-True

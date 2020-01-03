@@ -119,15 +119,12 @@ libstagefright
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 stagefright
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

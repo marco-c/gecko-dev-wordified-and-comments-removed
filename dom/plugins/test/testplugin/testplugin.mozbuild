@@ -263,9 +263,6 @@ OS_LIBS
 msimg32
 '
 ]
-FORCE_SHARED_LIB
-=
-True
 #
 must
 link

@@ -103,15 +103,12 @@ OmxPlugin236
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 omxplugingb
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

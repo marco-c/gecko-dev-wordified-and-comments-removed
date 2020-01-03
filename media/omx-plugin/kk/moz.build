@@ -103,15 +103,12 @@ OmxPluginKitKat
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 omxpluginkk
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

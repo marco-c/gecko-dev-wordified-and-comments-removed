@@ -150,7 +150,7 @@ test
 cpp
 '
 ]
-Library
+SharedLibrary
 (
 '
 jsctypes
@@ -158,9 +158,6 @@ jsctypes
 test
 '
 )
-FORCE_SHARED_LIB
-=
-True
 LOCAL_INCLUDES
 +
 =

@@ -181,7 +181,7 @@ pthread_atfork
 c
 '
 ]
-Library
+SharedLibrary
 (
 '
 replace_jemalloc
@@ -195,9 +195,6 @@ USE_LIBS
 jemalloc
 '
 ]
-FORCE_SHARED_LIB
-=
-True
 DEFINES
 [
 '

@@ -104,7 +104,7 @@ secondplugin
 javaplugin
 '
 ]
-Library
+SharedLibrary
 (
 '
 nptest
