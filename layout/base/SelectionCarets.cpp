@@ -3938,6 +3938,14 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
+fs
+-
+>
+MaintainSelection
+(
+eSelectNoAmount
+)
+;
 nsIFrame
 *
 scrollable
