@@ -279,7 +279,14 @@ fails
 -
 if
 (
-gtkWidget
+xulRuntime
+.
+widgetToolkit
+=
+=
+"
+gtk2
+"
 )
 !
 =
