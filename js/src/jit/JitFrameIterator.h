@@ -459,13 +459,6 @@ return
 returnAddressToFp_
 ;
 }
-uint8_t
-*
-resumeAddressToFp
-(
-)
-const
-;
 inline
 size_t
 prevFrameLocalSize
