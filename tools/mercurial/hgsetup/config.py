@@ -259,7 +259,31 @@ Exception
 )
 :
     
-pass
+def
+__init__
+(
+self
+line
+msg
+)
+:
+        
+self
+.
+line
+=
+line
+        
+super
+(
+Exception
+self
+)
+.
+__init__
+(
+msg
+)
 class
 MercurialConfig
 (
@@ -349,9 +373,13 @@ f
 :
                 
 for
+i
 line
 in
+enumerate
+(
 f
+)
 :
                     
 if
@@ -369,6 +397,9 @@ include
 raise
 ParseException
 (
+i
++
+1
                             
 '
 %
@@ -396,6 +427,9 @@ startswith
 raise
 ParseException
 (
+i
++
+1
                             
 '
 semicolon
