@@ -3484,6 +3484,9 @@ this
 shouldRenderRemoteVideo
 (
 )
+isLoading
+:
+false
 mediaType
 :
 "
@@ -3537,6 +3540,9 @@ props
 video
 .
 enabled
+isLoading
+:
+false
 mediaType
 :
 "

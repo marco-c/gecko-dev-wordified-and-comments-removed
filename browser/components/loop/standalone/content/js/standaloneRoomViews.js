@@ -1995,6 +1995,9 @@ function
 )
 {
 return
+!
+!
+(
 this
 .
 state
@@ -2022,6 +2025,7 @@ this
 state
 .
 mediaConnected
+)
 ;
 }
 _shouldRenderScreenShareLoading

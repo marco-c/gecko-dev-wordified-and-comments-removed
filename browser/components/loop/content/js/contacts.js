@@ -662,6 +662,10 @@ button
 -
 close
 "
+caption
+:
+"
+"
 onClick
 :
 this

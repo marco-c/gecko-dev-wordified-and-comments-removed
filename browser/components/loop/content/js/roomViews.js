@@ -1664,13 +1664,6 @@ LinkedStateMixin
 propTypes
 :
 {
-availableContext
-:
-React
-.
-PropTypes
-.
-object
 dispatcher
 :
 React
@@ -2052,11 +2045,7 @@ return
 {
 availableContext
 :
-this
-.
-props
-.
-availableContext
+null
 show
 :
 this
@@ -3514,6 +3503,9 @@ function
 )
 {
 return
+!
+!
+(
 this
 .
 state
@@ -3541,6 +3533,7 @@ this
 state
 .
 mediaConnected
+)
 ;
 }
 handleAddContextClick
@@ -3693,6 +3686,11 @@ this
 state
 .
 screenSharingState
+|
+|
+SCREEN_SHARE_STATES
+.
+INACTIVE
 visible
 :
 true

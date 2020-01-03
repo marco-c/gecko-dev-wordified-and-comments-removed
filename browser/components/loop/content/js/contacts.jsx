@@ -975,6 +975,10 @@ button
 -
 close
 "
+caption
+=
+"
+"
 onClick
 =
 {
