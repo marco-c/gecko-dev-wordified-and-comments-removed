@@ -276,6 +276,9 @@ spsPushToggleOffset
 )
 #
 ifdef
+JS_TRACE_LOGGING
+#
+ifdef
 DEBUG
 traceLoggerScriptsEnabled_
 (
@@ -298,6 +301,8 @@ traceLoggerExitToggleOffset
 traceLoggerScriptEvent_
 (
 )
+#
+endif
 postDebugPrologueOffset_
 (
 postDebugPrologueOffset
@@ -4669,6 +4674,9 @@ enable
 #
 endif
 }
+#
+ifdef
+JS_TRACE_LOGGING
 void
 BaselineScript
 :
@@ -5051,6 +5059,8 @@ enable
 #
 endif
 }
+#
+endif
 void
 BaselineScript
 :
@@ -5655,6 +5665,9 @@ enable
 }
 }
 }
+#
+ifdef
+JS_TRACE_LOGGING
 void
 jit
 :
@@ -5869,6 +5882,8 @@ enable
 }
 }
 }
+#
+endif
 static
 void
 MarkActiveBaselineScripts
