@@ -99,6 +99,15 @@ MP4Metadata
 (
 )
 ;
+static
+bool
+HasCompleteMetadata
+(
+Stream
+*
+aSource
+)
+;
 uint32_t
 GetNumberTracks
 (
