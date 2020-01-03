@@ -7703,7 +7703,9 @@ NS_ERROR_INVALID_ARG
 ;
 }
 let
+[
 closedTab
+]
 =
 closedTabs
 .
@@ -7711,10 +7713,6 @@ splice
 (
 aIndex
 1
-)
-.
-shift
-(
 )
 ;
 let
