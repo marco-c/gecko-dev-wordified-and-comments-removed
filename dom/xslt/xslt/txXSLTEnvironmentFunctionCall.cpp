@@ -36,6 +36,13 @@ h
 #
 include
 "
+txExpandedName
+.
+h
+"
+#
+include
+"
 txNamespaceMap
 .
 h
