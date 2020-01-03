@@ -3363,10 +3363,7 @@ aURI
 requestingNode
 triggeringPrincipal
 securityFlags
-nsIContentPolicy
-:
-:
-TYPE_IMAGE
+aPolicyType
 nullptr
 callbacks
 aLoadFlags
@@ -3394,10 +3391,7 @@ aResult
 aURI
 triggeringPrincipal
 securityFlags
-nsIContentPolicy
-:
-:
-TYPE_IMAGE
+aPolicyType
 nullptr
 callbacks
 aLoadFlags
