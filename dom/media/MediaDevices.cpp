@@ -54,6 +54,13 @@ h
 #
 include
 "
+MediaTrackConstraints
+.
+h
+"
+#
+include
+"
 nsIEventTarget
 .
 h

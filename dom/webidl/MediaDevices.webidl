@@ -165,14 +165,9 @@ attribute
 EventHandler
 ondevicechange
 ;
-/
-/
-static
-Dictionary
+MediaTrackSupportedConstraints
 getSupportedConstraints
 (
-DOMString
-kind
 )
 ;
 [

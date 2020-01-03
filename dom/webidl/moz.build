@@ -1495,6 +1495,11 @@ MediaTrackConstraintSet
 webidl
 '
 '
+MediaTrackSupportedConstraints
+.
+webidl
+'
+'
 MenuBoxObject
 .
 webidl

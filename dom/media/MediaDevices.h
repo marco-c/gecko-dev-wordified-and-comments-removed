@@ -59,6 +59,9 @@ Promise
 struct
 MediaStreamConstraints
 ;
+struct
+MediaTrackSupportedConstraints
+;
 #
 define
 MOZILLA_DOM_MEDIADEVICES_IMPLEMENTATION_IID
@@ -125,6 +128,16 @@ JSObject
 aGivenProto
 )
 override
+;
+void
+GetSupportedConstraints
+(
+MediaTrackSupportedConstraints
+&
+aResult
+)
+{
+}
 ;
 already_AddRefed
 <

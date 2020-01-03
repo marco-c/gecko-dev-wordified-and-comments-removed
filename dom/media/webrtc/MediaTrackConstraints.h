@@ -35,6 +35,17 @@ MediaTrackConstraintSetBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MediaTrackSupportedConstraintsBinding
+.
+h
+"
 namespace
 mozilla
 {
