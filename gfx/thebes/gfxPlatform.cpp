@@ -4825,6 +4825,11 @@ CreateContextFlags
 :
 :
 REQUIRE_COMPAT_PROFILE
+|
+CreateContextFlags
+:
+:
+ALLOW_OFFLINE_RENDERER
 )
 ;
 if
