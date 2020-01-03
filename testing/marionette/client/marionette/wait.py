@@ -864,12 +864,6 @@ exc_info
 )
             
 if
-isinstance
-(
-rv
-bool
-)
-and
 not
 rv
 :
