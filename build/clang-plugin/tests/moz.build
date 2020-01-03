@@ -158,6 +158,11 @@ TestNoArithmeticExprInArgument
 cpp
 '
 '
+TestNoDuplicateRefCntMember
+.
+cpp
+'
+'
 TestNonHeapClass
 .
 cpp
