@@ -139,7 +139,7 @@ is
 :
 ref
 :
-firefox_health_report
+healthreport
 .
 Relationship
 to
