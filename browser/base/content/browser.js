@@ -5902,6 +5902,12 @@ init
 (
 )
 ;
+ReadingListUI
+.
+init
+(
+)
+;
 #
 ifdef
 XP_WIN
@@ -7635,12 +7641,6 @@ window
 )
 ;
 gMenuButtonUpdateBadge
-.
-init
-(
-)
-;
-ReadingListUI
 .
 init
 (
