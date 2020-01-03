@@ -9429,7 +9429,7 @@ argc
 vp
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
@@ -9485,7 +9485,7 @@ argc
 vp
 )
 ;
-TraceLogger
+TraceLoggerThread
 *
 logger
 =

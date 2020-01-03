@@ -3939,7 +3939,7 @@ true
 )
 )
 {
-TraceLogger
+TraceLoggerThread
 *
 logger
 =
