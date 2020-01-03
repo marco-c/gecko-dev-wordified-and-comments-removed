@@ -2281,9 +2281,6 @@ bool
 mAllowContentRetargeting
 ;
 bool
-mAllowContentRetargetingOnChildren
-;
-bool
 mCreatingDocument
 ;
 bool
