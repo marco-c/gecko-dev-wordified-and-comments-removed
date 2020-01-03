@@ -311,6 +311,11 @@ PluginContent
 jsm
 '
 '
+ReaderParent
+.
+jsm
+'
+'
 RecentWindow
 .
 jsm
