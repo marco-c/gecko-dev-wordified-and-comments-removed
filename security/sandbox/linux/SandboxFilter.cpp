@@ -764,6 +764,14 @@ select
 ;
 #
 endif
+Allow
+(
+SYSCALL
+(
+pselect6
+)
+)
+;
 #
 if
 SYSCALL_EXISTS
