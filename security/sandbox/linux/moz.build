@@ -152,7 +152,9 @@ SOURCES
 .
 /
 chromium
--
+/
+base
+/
 shim
 /
 base
@@ -349,7 +351,9 @@ security
 sandbox
 /
 chromium
--
+/
+base
+/
 shim
 '
 ]
