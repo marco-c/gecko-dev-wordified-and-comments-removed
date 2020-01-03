@@ -235,12 +235,6 @@ twice
 "
 )
 ;
-mIsElemFullscreen
-=
-aData
-.
-mIsElemFullscreen
-;
 if
 (
 aData
