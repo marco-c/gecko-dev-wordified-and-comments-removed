@@ -1426,11 +1426,6 @@ TITLE_BAR_LABEL_ARR
 }
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-&
-&
 InputOptionsUtils
 .
 supportsVoiceRecognizer
