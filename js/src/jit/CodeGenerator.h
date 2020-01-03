@@ -1960,6 +1960,14 @@ lir
 )
 ;
 void
+visitArraySlice
+(
+LArraySlice
+*
+lir
+)
+;
+void
 visitArrayJoin
 (
 LArrayJoin
