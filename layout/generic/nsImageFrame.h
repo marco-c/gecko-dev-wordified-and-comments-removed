@@ -1017,8 +1017,10 @@ nsRect
 aFrameInvalidRect
 )
 ;
+nsRefPtr
+<
 nsImageMap
-*
+>
 mImageMap
 ;
 nsCOMPtr

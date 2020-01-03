@@ -828,10 +828,9 @@ Destroy
 (
 )
 ;
-NS_RELEASE
-(
 mImageMap
-)
+=
+nullptr
 ;
 #
 ifdef
@@ -8379,11 +8378,6 @@ mImageMap
 new
 nsImageMap
 (
-)
-;
-NS_ADDREF
-(
-mImageMap
 )
 ;
 mImageMap
