@@ -4939,6 +4939,15 @@ EventListenerManager
 aElm
 )
 ;
+static
+bool
+HasDocumentLevelListenersForApzAwareEvents
+(
+nsIPresShell
+*
+aShell
+)
+;
 private
 :
 static
