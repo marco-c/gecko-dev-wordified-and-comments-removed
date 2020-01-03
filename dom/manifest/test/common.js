@@ -150,7 +150,7 @@ jsonText
 manifestURL
 :
 manifestURL
-docLocation
+docURL
 :
 docLocation
 }
