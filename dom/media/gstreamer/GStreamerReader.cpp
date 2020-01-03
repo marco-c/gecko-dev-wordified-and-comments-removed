@@ -4208,7 +4208,7 @@ IsDataCachedToEndOfResource
 &
 mDuration
 .
-ReadOnWrongThread
+Ref
 (
 )
 .
@@ -4222,7 +4222,7 @@ duration
 =
 mDuration
 .
-ReadOnWrongThread
+Ref
 (
 )
 .
