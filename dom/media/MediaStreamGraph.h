@@ -1947,9 +1947,6 @@ mID
 TrackRate
 mInputRate
 ;
-TrackRate
-mOutputRate
-;
 nsAutoRef
 <
 SpeexResamplerState
