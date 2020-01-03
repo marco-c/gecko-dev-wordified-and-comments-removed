@@ -2677,6 +2677,15 @@ startp
 +
 centralOffset
 ;
+if
+(
+buf
+<
+startp
+)
+return
+NS_ERROR_FILE_CORRUPTED
+;
 uint32_t
 sig
 =
