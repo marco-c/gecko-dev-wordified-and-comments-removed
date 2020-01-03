@@ -599,7 +599,6 @@ yield
 expandComputedViewPropertyByIndex
 (
 view
-inspector
 0
 )
 ;
