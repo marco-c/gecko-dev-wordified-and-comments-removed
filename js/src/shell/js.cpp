@@ -2114,12 +2114,6 @@ if
 JS_ExecuteScript
 (
 cx
-cx
--
->
-global
-(
-)
 script
 )
 )
@@ -2285,12 +2279,6 @@ if
 JS_ExecuteScript
 (
 cx
-cx
--
->
-global
-(
-)
 script
 &
 result
@@ -7000,7 +6988,6 @@ if
 JS_ExecuteScript
 (
 cx
-global
 script
 args
 .
@@ -7998,12 +7985,6 @@ if
 JS_ExecuteScript
 (
 cx
-cx
--
->
-global
-(
-)
 script
 )
 )
@@ -15530,7 +15511,6 @@ cx
 JS_ExecuteScript
 (
 cx
-global
 script
 &
 result
@@ -19310,12 +19290,6 @@ return
 JS_ExecuteScript
 (
 cx
-cx
--
->
-global
-(
-)
 script
 args
 .

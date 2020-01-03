@@ -20541,8 +20541,6 @@ JS_ExecuteScript
 JSContext
 *
 cx
-HandleObject
-obj
 HandleScript
 scriptArg
 MutableHandleValue
@@ -20553,7 +20551,12 @@ return
 ExecuteScript
 (
 cx
-obj
+cx
+-
+>
+global
+(
+)
 scriptArg
 rval
 .
@@ -20573,8 +20576,6 @@ JS_ExecuteScript
 JSContext
 *
 cx
-HandleObject
-obj
 HandleScript
 scriptArg
 )
@@ -20583,7 +20584,12 @@ return
 ExecuteScript
 (
 cx
-obj
+cx
+-
+>
+global
+(
+)
 scriptArg
 nullptr
 )

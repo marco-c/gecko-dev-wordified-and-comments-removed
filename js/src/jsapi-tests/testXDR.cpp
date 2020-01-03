@@ -277,7 +277,6 @@ CHECK
 JS_ExecuteScript
 (
 cx
-global
 script
 &
 v2
@@ -402,7 +401,6 @@ CHECK
 JS_ExecuteScript
 (
 cx
-global
 script
 )
 )

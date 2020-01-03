@@ -15504,11 +15504,6 @@ cx
 JS
 :
 :
-HandleObject
-obj
-JS
-:
-:
 HandleScript
 script
 JS
@@ -15528,11 +15523,6 @@ JS_ExecuteScript
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-obj
 JS
 :
 :

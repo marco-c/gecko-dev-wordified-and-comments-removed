@@ -1860,7 +1860,6 @@ ok
 JS_ExecuteScript
 (
 cx
-targetObj
 script
 retval
 )

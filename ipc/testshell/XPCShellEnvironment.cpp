@@ -977,7 +977,6 @@ if
 JS_ExecuteScript
 (
 cx
-obj
 script
 )
 )
@@ -1812,7 +1811,6 @@ void
 JS_ExecuteScript
 (
 cx
-global
 script
 &
 result
@@ -1968,7 +1966,6 @@ ok
 JS_ExecuteScript
 (
 cx
-global
 script
 &
 result
@@ -3073,7 +3070,6 @@ ok
 JS_ExecuteScript
 (
 cx
-global
 script
 &
 result
