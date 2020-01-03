@@ -5680,9 +5680,8 @@ tempFloat
 ;
 masm
 .
-xorpd
+zeroDouble
 (
-ScratchDoubleReg
 ScratchDoubleReg
 )
 ;
@@ -5773,7 +5772,7 @@ skip
 }
 masm
 .
-addsd
+addDouble
 (
 input
 temp
@@ -6207,9 +6206,8 @@ tempFloat
 ;
 masm
 .
-xorps
+zeroFloat32
 (
-ScratchFloat32Reg
 ScratchFloat32Reg
 )
 ;
@@ -6300,7 +6298,7 @@ skip
 }
 masm
 .
-addss
+addFloat32
 (
 input
 temp

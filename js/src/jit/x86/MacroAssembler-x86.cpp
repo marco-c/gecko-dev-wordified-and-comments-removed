@@ -327,7 +327,7 @@ return
 ;
 masm
 .
-addsd_mr
+vaddsd_mr
 (
 reinterpret_cast
 <
@@ -344,6 +344,11 @@ uses
 prev
 (
 )
+)
+dest
+.
+code
+(
 )
 dest
 .
@@ -620,7 +625,7 @@ return
 ;
 masm
 .
-addss_mr
+vaddss_mr
 (
 reinterpret_cast
 <
@@ -637,6 +642,11 @@ uses
 prev
 (
 )
+)
+dest
+.
+code
+(
 )
 dest
 .
