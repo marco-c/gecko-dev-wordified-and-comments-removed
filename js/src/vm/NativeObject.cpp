@@ -7830,6 +7830,8 @@ JSContext
 *
 cx
 HandleObject
+obj
+HandleObject
 receiver
 HandleShape
 shape
@@ -7900,7 +7902,7 @@ shape
 getterOp
 (
 )
-receiver
+obj
 id
 vp
 )
@@ -8163,6 +8165,18 @@ if
 CallGetter
 (
 cx
+MaybeRooted
+<
+JSObject
+*
+allowGC
+>
+:
+:
+toHandle
+(
+obj
+)
 MaybeRooted
 <
 JSObject
