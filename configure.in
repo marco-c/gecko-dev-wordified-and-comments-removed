@@ -63102,6 +63102,11 @@ pthread_mutex_lock
 -
 wrap
 =
+pthread_mutex_trylock
+-
+-
+wrap
+=
 pthread_join
 -
 -
