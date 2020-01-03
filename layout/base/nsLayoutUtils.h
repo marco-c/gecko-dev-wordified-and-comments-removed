@@ -4989,6 +4989,15 @@ nsIPresShell
 aShell
 )
 ;
+static
+float
+GetResolution
+(
+nsIPresShell
+*
+aPresShell
+)
+;
 private
 :
 static
