@@ -219,6 +219,11 @@ EXTRA_COMPONENTS
 =
 [
 '
+CommandLine
+.
+js
+'
+'
 OopCommandLine
 .
 js

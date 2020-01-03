@@ -2618,6 +2618,13 @@ components
 OopCommandLine
 .
 js
+BINPATH
+/
+components
+/
+CommandLine
+.
+js
 #
 endif
 #
