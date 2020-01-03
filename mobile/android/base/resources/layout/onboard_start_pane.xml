@@ -136,6 +136,16 @@ true
 ScrollView
 android
 :
+id
+=
+"
++
+id
+/
+onboard_content
+"
+android
+:
 layout_width
 =
 "
