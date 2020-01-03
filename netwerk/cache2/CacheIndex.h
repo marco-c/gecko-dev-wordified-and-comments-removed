@@ -3074,6 +3074,15 @@ _retval
 ;
 static
 nsresult
+GetEntryFileCount
+(
+uint32_t
+*
+_retval
+)
+;
+static
+nsresult
 GetCacheStats
 (
 nsILoadContextInfo
