@@ -17,6 +17,8 @@ time
 import
 zipfile
 import
+tempfile
+import
 mozfile
 import
 mozinfo
@@ -471,24 +473,6 @@ Path
 to
 install
 to
-(
-to
-ensure
-we
-do
-not
-overwrite
-any
-existent
-                 
-files
-the
-folder
-should
-not
-exist
-yet
-)
     
 "
 "
@@ -539,10 +523,6 @@ file
 '
 )
     
-did_we_create
-=
-False
-    
 if
 not
 os
@@ -555,10 +535,6 @@ dest
 )
 :
         
-did_we_create
-=
-True
-        
 os
 .
 makedirs
@@ -566,16 +542,35 @@ makedirs
 dest
 )
     
+else
+:
+        
+dest
+=
+tempfile
+.
+mkdtemp
+(
+prefix
+=
+"
+mozinstall
+"
+dir
+=
+dest
+)
+    
 trbk
+=
+None
+    
+install_dir
 =
 None
     
 try
 :
-        
-install_dir
-=
-None
         
 if
 zipfile
@@ -670,34 +665,36 @@ exc_info
 (
 )
         
-if
-did_we_create
+try
 :
             
-try
+if
+install_dir
 :
                 
 uninstall
 (
-dest
+install_dir
 )
-            
+        
 except
 :
-                
+            
+pass
+        
 try
 :
-                    
+            
 mozfile
 .
 remove
 (
 dest
 )
-                
+        
 except
 :
-                    
+            
 pass
         
 if
