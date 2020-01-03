@@ -392,6 +392,17 @@ aNumSamples
 0
 ;
 virtual
+bool
+GetSamplesMayBlock
+(
+)
+const
+{
+return
+true
+;
+}
+virtual
 void
 Reset
 (

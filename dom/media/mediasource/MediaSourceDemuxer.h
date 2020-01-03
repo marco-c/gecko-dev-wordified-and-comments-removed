@@ -484,6 +484,17 @@ BreakCycles
 )
 override
 ;
+bool
+GetSamplesMayBlock
+(
+)
+const
+override
+{
+return
+false
+;
+}
 void
 NotifyTimeRangesChanged
 (

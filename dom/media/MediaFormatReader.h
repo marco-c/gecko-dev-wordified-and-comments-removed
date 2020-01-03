@@ -407,6 +407,16 @@ aAudio
 )
 override
 ;
+bool
+UseBufferingHeuristics
+(
+)
+override
+{
+return
+mTrackDemuxersMayBlock
+;
+}
 private
 :
 bool
@@ -1412,6 +1422,9 @@ mIsEncrypted
 }
 bool
 mIsEncrypted
+;
+bool
+mTrackDemuxersMayBlock
 ;
 bool
 IsSeeking
