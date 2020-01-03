@@ -267,6 +267,15 @@ aSessionId
 )
 ;
 void
+OnResolveLoadSessionPromise
+(
+uint32_t
+aPromiseId
+bool
+aSuccess
+)
+;
+void
 OnSessionMessage
 (
 const

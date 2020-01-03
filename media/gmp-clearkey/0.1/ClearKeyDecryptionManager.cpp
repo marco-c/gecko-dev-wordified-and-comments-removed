@@ -701,12 +701,10 @@ aSessionIdLength
 mCallback
 -
 >
-RejectPromise
+ResolveLoadSessionPromise
 (
 aPromiseId
-kGMPNotSupportedError
-nullptr
-0
+false
 )
 ;
 CK_LOGD

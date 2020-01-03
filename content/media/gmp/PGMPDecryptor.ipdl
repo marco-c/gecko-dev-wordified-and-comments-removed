@@ -242,6 +242,14 @@ nsCString
 aSessionId
 )
 ;
+ResolveLoadSessionPromise
+(
+uint32_t
+aPromiseId
+bool
+aSuccess
+)
+;
 ResolvePromise
 (
 uint32_t
