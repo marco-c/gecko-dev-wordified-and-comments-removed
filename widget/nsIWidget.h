@@ -3560,15 +3560,6 @@ aCallbackData
 0
 ;
 NS_IMETHOD
-SetLayersAcceleration
-(
-bool
-aEnabled
-)
-=
-0
-;
-NS_IMETHOD
 GetToggledKeyState
 (
 uint32_t

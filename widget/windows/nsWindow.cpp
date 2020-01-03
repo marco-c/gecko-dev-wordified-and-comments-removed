@@ -2445,6 +2445,10 @@ mLayerManager
 =
 nullptr
 ;
+DestroyCompositor
+(
+)
+;
 ClearCachedResources
 (
 )
@@ -12684,6 +12688,16 @@ if
 mLayerManager
 )
 {
+MOZ_ASSERT
+(
+!
+mCompositorParent
+&
+&
+!
+mCompositorChild
+)
+;
 mLayerManager
 =
 CreateBasicLayerManager
