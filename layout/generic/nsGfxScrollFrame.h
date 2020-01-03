@@ -895,8 +895,6 @@ nullptr
 void
 ScrollVisual
 (
-nsPoint
-aOldScrolledFramePosition
 )
 ;
 void
