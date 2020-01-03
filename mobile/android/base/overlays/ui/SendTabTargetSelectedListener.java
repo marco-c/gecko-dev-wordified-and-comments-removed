@@ -21,4 +21,10 @@ String
 targetGUID
 )
 ;
+public
+void
+onSendTabActionSelected
+(
+)
+;
 }
