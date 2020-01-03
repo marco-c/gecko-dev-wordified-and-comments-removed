@@ -6,8 +6,8 @@ pngpriv
 h
 "
 typedef
-png_libpng_version_1_6_13
-Your_png_h_is_not_version_1_6_13
+png_libpng_version_1_6_14
+Your_png_h_is_not_version_1_6_14
 ;
 #
 ifdef
@@ -2919,10 +2919,10 @@ version
 .
 6
 .
-13
+14
 -
-August
-21
+October
+23
 2014
 "
 PNG_STRING_NEWLINE
@@ -2984,10 +2984,10 @@ version
 .
 6
 .
-13
+14
 -
-August
-21
+October
+23
 2014
 \
 Copyright
@@ -8003,6 +8003,9 @@ unsigned
 int
 i
 ;
+#
+ifdef
+PNG_SET_OPTION_SUPPORTED
 if
 (
 (
@@ -8025,6 +8028,8 @@ PNG_OPTION_ON
 return
 0
 ;
+#
+endif
 for
 (
 i

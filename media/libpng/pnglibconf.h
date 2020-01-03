@@ -82,9 +82,6 @@ PNG_sRGB_PROFILE_CHECKS
 -
 1
 #
-define
-PNG_SET_OPTION_SUPPORTED
-#
 ifdef
 _MSC_VER
 #
@@ -328,9 +325,6 @@ define
 PNG_16BIT_SUPPORTED
 #
 define
-PNG_CHECK_cHRM_SUPPORTED
-#
-define
 PNG_FLOATING_ARITHMETIC_SUPPORTED
 #
 define
@@ -345,11 +339,11 @@ PNG_SETJMP_SUPPORTED
 define
 PNG_STDIO_SUPPORTED
 #
-define
-PNG_TEXT_SUPPORTED
-#
 ifdef
 PR_LOGGING
+#
+define
+PNG_CHECK_cHRM_SUPPORTED
 #
 define
 PNG_ERROR_TEXT_SUPPORTED
@@ -1334,10 +1328,6 @@ MOZ_PNG_set_mem_fn
 define
 png_set_oFFs
 MOZ_PNG_set_oFFs
-#
-define
-png_set_option
-MOZ_PNG_set_option
 #
 define
 png_set_packing

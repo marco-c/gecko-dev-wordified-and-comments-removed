@@ -1904,6 +1904,9 @@ row_info
 width
 )
 ;
+#
+ifdef
+PNG_WARNINGS_SUPPORTED
 if
 (
 png_ptr
@@ -2171,6 +2174,8 @@ defined
 #
 endif
 }
+#
+endif
 #
 ifdef
 PNG_READ_INTERLACING_SUPPORTED

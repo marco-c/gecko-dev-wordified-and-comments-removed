@@ -1189,7 +1189,6 @@ PNG_SET_OPTION_SUPPORTED
 )
 &
 &
-\
 defined
 (
 PNG_MAXIMUM_INFLATE_WINDOW
@@ -10521,7 +10520,7 @@ prefix_length
 if
 (
 compressed
-!
+=
 =
 0
 )

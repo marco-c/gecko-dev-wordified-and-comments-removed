@@ -3727,8 +3727,6 @@ png_const_charp
 key
 png_const_charp
 text
-png_size_t
-text_len
 int
 compression
 )

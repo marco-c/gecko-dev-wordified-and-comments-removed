@@ -527,7 +527,7 @@ png_ptr
 length
 exceeds
 PNG
-maxima
+maximum
 "
 )
 ;
@@ -941,6 +941,18 @@ zowner
 0
 )
 {
+#
+if
+defined
+(
+PNG_WARNINGS_SUPPORTED
+)
+|
+|
+defined
+(
+PNG_ERROR_TEXT_SUPPORTED
+)
 char
 msg
 [
@@ -998,6 +1010,8 @@ zstream
 "
 )
 ;
+#
+endif
 #
 if
 PNG_LIBPNG_BUILD_BASE_TYPE
@@ -2377,6 +2391,9 @@ key_len
 return
 0
 ;
+#
+ifdef
+PNG_WARNINGS_SUPPORTED
 if
 (
 *
@@ -2441,6 +2458,8 @@ character
 )
 ;
 }
+#
+endif
 return
 key_len
 ;
@@ -6369,8 +6388,6 @@ png_const_charp
 key
 png_const_charp
 text
-png_size_t
-text_len
 int
 compression
 )
@@ -6396,10 +6413,6 @@ png_write_zTXt
 "
 )
 ;
-PNG_UNUSED
-(
-text_len
-)
 if
 (
 compression
