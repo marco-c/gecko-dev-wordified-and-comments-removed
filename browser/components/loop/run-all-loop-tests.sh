@@ -267,7 +267,9 @@ test
 mochitest
 browser
 /
-modules
+components
+/
+uitour
 /
 test
 /
