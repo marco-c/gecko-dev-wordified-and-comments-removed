@@ -1227,6 +1227,15 @@ SynchronouslyClose
 )
 ;
 bool
+WasTransactionCanceled
+(
+int
+transaction
+int
+prio
+)
+;
+bool
 ShouldDeferMessage
 (
 const
