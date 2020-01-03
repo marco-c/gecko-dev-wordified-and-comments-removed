@@ -169,8 +169,9 @@ android
 textColor
 =
 "
-#
-FF43484E
+color
+/
+text_and_tabs_tray_grey
 "
 android
 :
