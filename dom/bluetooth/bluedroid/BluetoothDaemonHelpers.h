@@ -415,6 +415,16 @@ aOut
 nsresult
 Convert
 (
+int
+aIn
+int32_t
+&
+aOut
+)
+;
+nsresult
+Convert
+(
 int32_t
 aIn
 BluetoothDeviceType

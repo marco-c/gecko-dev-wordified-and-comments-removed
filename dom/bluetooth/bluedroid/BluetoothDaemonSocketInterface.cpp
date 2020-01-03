@@ -114,7 +114,7 @@ aServiceUuid
 PackConversion
 <
 int
-uint16_t
+int32_t
 >
 (
 aChannel
@@ -249,7 +249,7 @@ aUuid
 PackConversion
 <
 int
-int16_t
+int32_t
 >
 (
 aChannel
