@@ -93,6 +93,9 @@ egl
 class
 Display
 ;
+class
+Surface
+;
 }
 namespace
 gl
@@ -1230,9 +1233,12 @@ RenderTarget
 *
 createRenderTarget
 (
-SwapChain
+egl
+:
+:
+Surface
 *
-swapChain
+eglSurface
 bool
 depth
 )

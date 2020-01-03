@@ -689,6 +689,8 @@ GLsizei
 height
 GLsizei
 depth
+GLenum
+internalFormatOverride
 )
 {
 mRenderer
@@ -848,6 +850,16 @@ dxgiFormatInfo
 .
 internalFormat
 ;
+if
+(
+internalFormatOverride
+)
+{
+mInternalFormat
+=
+internalFormatOverride
+;
+}
 }
 }
 RenderTarget11

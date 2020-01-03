@@ -81,6 +81,8 @@ renderer
 IDirect3DSurface9
 *
 surface
+GLenum
+internalFormatOverride
 )
 {
 mRenderer
@@ -172,6 +174,16 @@ description
 MultiSampleType
 )
 ;
+if
+(
+internalFormatOverride
+)
+{
+mInternalFormat
+=
+internalFormatOverride
+;
+}
 }
 }
 RenderTarget9
