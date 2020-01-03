@@ -274,6 +274,10 @@ NO_DIST_INSTALL
 '
     
 '
+NO_JS_MANIFEST
+'
+    
+'
 OS_LIBS
 '
     

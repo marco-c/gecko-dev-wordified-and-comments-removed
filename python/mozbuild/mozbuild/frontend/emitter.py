@@ -3263,6 +3263,10 @@ LD_VERSION_SCRIPT
 '
 USE_EXTENSION_MANIFEST
 '
+            
+'
+NO_JS_MANIFEST
+'
         
 ]
         
