@@ -205,14 +205,9 @@ com
 "
 useHardFail
 ?
-getXPCOMStatusFromNSS
-(
 SEC_ERROR_OCSP_SERVER_ERROR
-)
 :
-Cr
-.
-NS_OK
+PRErrorCodeSuccess
 clearSessionCache
 )
 ;
