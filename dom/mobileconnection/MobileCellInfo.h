@@ -36,12 +36,13 @@ MobileCellInfo
 MOZ_FINAL
 :
 public
-nsISupports
+nsIMobileCellInfo
 public
 nsWrapperCache
 {
 public
 :
+NS_DECL_NSIMOBILECELLINFO
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
