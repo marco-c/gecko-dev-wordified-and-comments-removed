@@ -25796,7 +25796,7 @@ if
 (
 JitSpewEnabled
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 )
 &
 &
@@ -25834,7 +25834,7 @@ if
 (
 JitSpewEnabled
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 )
 &
 &

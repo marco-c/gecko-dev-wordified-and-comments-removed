@@ -1577,7 +1577,7 @@ OTHER_CODE
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 invalidation
 thunk

@@ -306,7 +306,7 @@ ap
 {
 JitSpewVA
 (
-JitSpew_Abort
+JitSpew_IonAbort
 message
 ap
 )

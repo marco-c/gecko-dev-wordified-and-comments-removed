@@ -424,7 +424,7 @@ Bailout
 ;
 JitSpew
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 "
 Took
 bailout
@@ -684,7 +684,7 @@ Invalidation
 ;
 JitSpew
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 "
 Took
 invalidation
@@ -845,7 +845,7 @@ jsFrame
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 Bailout
 failed
@@ -879,7 +879,7 @@ Recursion
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 orig
 calleeToken
@@ -900,7 +900,7 @@ calleeToken
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 orig
 frameSize
@@ -920,7 +920,7 @@ prevFrameLocalSize
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 orig
 ra
@@ -954,7 +954,7 @@ frame
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 new
 calleeToken
@@ -975,7 +975,7 @@ calleeToken
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 new
 frameSize
@@ -995,7 +995,7 @@ prevFrameLocalSize
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 new
 ra
@@ -1495,7 +1495,7 @@ setHadFrequentBailouts
 ;
 JitSpew
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 "
 Invalidating
 due

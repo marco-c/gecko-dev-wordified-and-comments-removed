@@ -1651,7 +1651,7 @@ pc_
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 Cache
 %
@@ -1716,7 +1716,7 @@ else
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 Cache
 %
@@ -8167,7 +8167,7 @@ emitted
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 Invalidating
 from
@@ -14780,7 +14780,7 @@ cacheable
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 GETELEM
 uncacheable
@@ -17866,7 +17866,7 @@ shouldDisable
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 Disable
 inline
@@ -21368,7 +21368,7 @@ scopeChain
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 Non
 -
@@ -21419,7 +21419,7 @@ scopeChain
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 Scope
 chain
@@ -21618,7 +21618,7 @@ else
 {
 JitSpew
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 "
 BINDNAME
 uncacheable

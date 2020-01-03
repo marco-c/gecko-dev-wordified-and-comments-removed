@@ -1130,7 +1130,7 @@ nullptr
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Generating
 LIR
@@ -1566,7 +1566,7 @@ nullptr
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Generating
 LIR
@@ -2657,13 +2657,13 @@ if
 (
 JitSpewEnabled
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 )
 )
 {
 JitSpewHeader
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 )
 ;
 fprintf

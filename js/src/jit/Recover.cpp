@@ -547,7 +547,7 @@ exprStack
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Starting
 frame
@@ -593,7 +593,7 @@ pc
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Writing
 pc
@@ -654,7 +654,7 @@ readUnsigned
 ;
 JitSpew
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 "
 Read
 RResumePoint

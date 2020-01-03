@@ -353,7 +353,7 @@ EnableIonDebugLogging
 {
 EnableChannel
 (
-JitSpew_Logs
+JitSpew_IonLogs
 )
 ;
 ionspewer
@@ -1354,7 +1354,7 @@ aborts
 )
 EnableChannel
 (
-JitSpew_Abort
+JitSpew_IonAbort
 )
 ;
 if
@@ -1399,7 +1399,7 @@ scripts
 )
 EnableChannel
 (
-JitSpew_Scripts
+JitSpew_IonScripts
 )
 ;
 if
@@ -1414,7 +1414,7 @@ mir
 )
 EnableChannel
 (
-JitSpew_MIR
+JitSpew_IonMIR
 )
 ;
 if
@@ -1519,7 +1519,7 @@ snapshots
 )
 EnableChannel
 (
-JitSpew_Snapshots
+JitSpew_IonSnapshots
 )
 ;
 if
@@ -1549,7 +1549,7 @@ bailouts
 )
 EnableChannel
 (
-JitSpew_Bailouts
+JitSpew_IonBailouts
 )
 ;
 if
@@ -1564,7 +1564,7 @@ osi
 )
 EnableChannel
 (
-JitSpew_Invalidate
+JitSpew_IonInvalidate
 )
 ;
 if
@@ -1579,7 +1579,7 @@ caches
 )
 EnableChannel
 (
-JitSpew_InlineCaches
+JitSpew_IonIC
 )
 ;
 if
