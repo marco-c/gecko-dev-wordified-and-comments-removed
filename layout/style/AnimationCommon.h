@@ -1594,10 +1594,14 @@ HasCurrentAnimations
 const
 ;
 bool
-HasCurrentAnimationsForProperty
+HasCurrentAnimationsForProperties
 (
+const
 nsCSSProperty
-aProperty
+*
+aProperties
+size_t
+aPropertyCount
 )
 const
 ;
