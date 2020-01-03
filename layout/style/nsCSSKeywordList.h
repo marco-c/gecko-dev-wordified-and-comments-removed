@@ -719,16 +719,6 @@ CSS_KEY
 -
 moz
 -
-show
--
-background
-_moz_show_background
-)
-CSS_KEY
-(
--
-moz
--
 stack
 _moz_stack
 )

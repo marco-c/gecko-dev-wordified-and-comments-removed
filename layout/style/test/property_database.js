@@ -27911,14 +27911,6 @@ other_values
 "
 hide
 "
-"
--
-moz
--
-show
--
-background
-"
 ]
 invalid_values
 :

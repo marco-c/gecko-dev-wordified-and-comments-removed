@@ -8925,12 +8925,8 @@ mSpan
 struct
 nsStyleTableBorder
 {
-explicit
 nsStyleTableBorder
 (
-nsPresContext
-*
-aContext
 )
 ;
 nsStyleTableBorder
