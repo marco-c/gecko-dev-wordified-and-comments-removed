@@ -547,6 +547,11 @@ aLayer
 Layer
 *
 aTransformedSubtreeRoot
+FrameMetrics
+:
+:
+ViewID
+aTransformScrollId
 const
 gfx
 :
