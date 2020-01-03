@@ -764,11 +764,6 @@ GetUserMediaRequest
 h
 '
 '
-MediaDeviceInfo
-.
-h
-'
-'
 MediaDevices
 .
 h
@@ -940,11 +935,6 @@ cpp
 '
 '
 MediaDecoderStateMachine
-.
-cpp
-'
-'
-MediaDeviceInfo
 .
 cpp
 '
