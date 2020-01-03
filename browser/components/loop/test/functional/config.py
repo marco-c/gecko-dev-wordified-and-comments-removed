@@ -127,16 +127,6 @@ seen
 True
     
 "
-loop
-.
-seenToS
-"
-:
-"
-seen
-"
-    
-"
 media
 .
 navigator
