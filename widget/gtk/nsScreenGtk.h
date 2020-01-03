@@ -193,6 +193,12 @@ aScreenInfo
 #
 endif
 static
+gint
+GetGtkMonitorScaleFactor
+(
+)
+;
+static
 double
 GetDPIScale
 (
