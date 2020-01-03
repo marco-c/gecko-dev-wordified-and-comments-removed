@@ -184,6 +184,22 @@ args
 .
 python_script
     
+sys
+.
+path
+.
+append
+(
+os
+.
+path
+.
+dirname
+(
+script
+)
+)
+    
 with
 open
 (
