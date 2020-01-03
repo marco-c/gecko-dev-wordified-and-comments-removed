@@ -192,17 +192,6 @@ onUnload
 (
 )
 {
-window
-.
-removeEventListener
-(
-"
-unload
-"
-onUnload
-false
-)
-;
 for
 (
 let
