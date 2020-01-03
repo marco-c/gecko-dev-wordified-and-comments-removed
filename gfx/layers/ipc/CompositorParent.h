@@ -816,6 +816,17 @@ uint64_t
 aId
 )
 ;
+static
+void
+PostInsertVsyncProfilerMarker
+(
+mozilla
+:
+:
+TimeStamp
+aVsyncTimestamp
+)
+;
 float
 ComputeRenderIntegrity
 (
