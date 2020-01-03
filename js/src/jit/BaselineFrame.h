@@ -1516,7 +1516,7 @@ isEvalFrame
 ;
 }
 bool
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 const

@@ -6668,7 +6668,7 @@ isGlobalFrame
 |
 frame_
 .
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 )

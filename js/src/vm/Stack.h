@@ -647,7 +647,7 @@ const
 ;
 inline
 bool
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 const
@@ -979,7 +979,7 @@ FUNCTION
 EVAL
 =
 0x4
-DEBUGGER
+DEBUGGER_EVAL
 =
 0x8
 CONSTRUCTING
@@ -2418,7 +2418,7 @@ USE_NEW_TYPE
 ;
 }
 bool
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 const
@@ -2429,7 +2429,7 @@ return
 (
 flags_
 &
-DEBUGGER
+DEBUGGER_EVAL
 )
 ;
 }

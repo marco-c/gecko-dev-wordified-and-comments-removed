@@ -3072,7 +3072,7 @@ bool
 AbstractFramePtr
 :
 :
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 const
@@ -3089,7 +3089,7 @@ asInterpreterFrame
 )
 -
 >
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 ;
@@ -3105,7 +3105,7 @@ asBaselineFrame
 )
 -
 >
-isDebuggerFrame
+isDebuggerEvalFrame
 (
 )
 ;
