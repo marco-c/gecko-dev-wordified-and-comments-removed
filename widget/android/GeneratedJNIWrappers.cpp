@@ -4205,6 +4205,17 @@ GeckoAppShell
 :
 PumpMessageLoop
 (
+mozilla
+:
+:
+jni
+:
+:
+Object
+:
+:
+Param
+a0
 )
 {
 return
@@ -4224,6 +4235,7 @@ Call
 (
 nullptr
 nullptr
+a0
 )
 ;
 }

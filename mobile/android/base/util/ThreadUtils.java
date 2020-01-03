@@ -121,11 +121,6 @@ sGeckoHandler
 ;
 public
 static
-MessageQueue
-sGeckoQueue
-;
-public
-static
 volatile
 Thread
 sGeckoThread
