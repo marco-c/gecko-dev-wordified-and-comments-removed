@@ -1855,6 +1855,8 @@ MaybeInitTiming
 (
 )
 ;
+public
+:
 class
 RestorePresentationEvent
 :
@@ -1898,6 +1900,8 @@ mDocShell
 ;
 }
 ;
+protected
+:
 bool
 JustStartedNetworkLoad
 (
