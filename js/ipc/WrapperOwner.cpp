@@ -4212,9 +4212,11 @@ OBJECT_EXTRA_BITS
 ;
 if
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 obj
 )
 )

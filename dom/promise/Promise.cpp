@@ -5002,9 +5002,11 @@ isObject
 )
 &
 &
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-aCx
 &
 then
 .

@@ -1413,9 +1413,11 @@ Xrayable
 }
 if
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 propObj
 )
 )
@@ -9244,9 +9246,11 @@ obj
 ;
 MOZ_ASSERT
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 obj
 )
 )

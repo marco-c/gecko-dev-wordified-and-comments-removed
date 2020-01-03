@@ -99,9 +99,11 @@ isObject
 |
 |
 !
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 &
 aCallable
 .

@@ -7478,9 +7478,11 @@ isPrimitive
 )
 &
 &
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 v
 .
 toObjectOrNull

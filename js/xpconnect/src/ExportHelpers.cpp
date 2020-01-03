@@ -634,9 +634,11 @@ true
 }
 if
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 obj
 )
 )
@@ -1625,9 +1627,11 @@ funObj
 if
 (
 !
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 funObj
 )
 )

@@ -2622,9 +2622,11 @@ sandboxProtoProxy
 {
 MOZ_ASSERT
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 callable
 )
 )
@@ -3063,9 +3065,11 @@ toObject
 ;
 if
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 val
 )
 )

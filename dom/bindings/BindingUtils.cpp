@@ -8884,9 +8884,11 @@ false
 }
 MOZ_ASSERT
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 &
 toString
 .

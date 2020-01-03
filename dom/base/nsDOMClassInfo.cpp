@@ -6672,9 +6672,11 @@ NS_ERROR_UNEXPECTED
 }
 NS_ENSURE_STATE
 (
-JS_ObjectIsCallable
+JS
+:
+:
+IsCallable
 (
-cx
 &
 funval
 .
