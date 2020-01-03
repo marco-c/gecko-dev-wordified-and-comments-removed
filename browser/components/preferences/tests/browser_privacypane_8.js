@@ -137,7 +137,6 @@ remember
 remember
 "
 )
-reset_preferences
 ]
 )
 ;
