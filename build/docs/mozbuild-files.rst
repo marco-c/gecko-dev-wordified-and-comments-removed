@@ -665,6 +665,7 @@ moz
 .
 build
 )
+.
 2
 .
 Evaluate
@@ -677,6 +678,7 @@ in
 a
 new
 sandbox
+.
 3
 .
 Emit
@@ -696,6 +698,7 @@ from
 the
 executed
 sandbox
+.
 4
 .
 Extract
@@ -1076,7 +1079,7 @@ and
 doesn
 '
 t
-utilize
+use
 DIRS
 variables
 to
@@ -1144,7 +1147,7 @@ taken
 .
 Instead
 of
-utilizing
+using
 content
 from
 within

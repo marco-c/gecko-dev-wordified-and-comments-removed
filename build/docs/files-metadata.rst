@@ -108,7 +108,7 @@ metadata
 is
 defined
 by
-utilizing
+using
 the
 :
 ref
