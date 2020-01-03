@@ -6164,6 +6164,9 @@ defaultArea
 CustomizableUI
 .
 AREA_NAVBAR
+showInPrivateBrowsing
+:
+false
 introducedInVersion
 :
 4
