@@ -95,7 +95,7 @@ emulator
 -
 l
 :
-platfoms
+platforms
 :
 -
 b2g
@@ -127,7 +127,7 @@ emulator
 -
 kk
 :
-platfoms
+platforms
 :
 -
 b2g
@@ -161,7 +161,7 @@ x86
 -
 l
 :
-platfoms
+platforms
 :
 -
 b2g
@@ -184,7 +184,7 @@ x86
 -
 kk
 :
-platfoms
+platforms
 :
 -
 b2g
@@ -205,7 +205,7 @@ emulator
 -
 jb
 :
-platfoms
+platforms
 :
 -
 b2g
@@ -235,7 +235,7 @@ b2g_emulator_jb_debug
 yml
 emulator
 :
-platfoms
+platforms
 :
 -
 b2g
