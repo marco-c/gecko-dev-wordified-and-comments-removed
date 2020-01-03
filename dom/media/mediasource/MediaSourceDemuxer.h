@@ -196,6 +196,17 @@ GetCrypto
 )
 override
 ;
+bool
+ShouldComputeStartTime
+(
+)
+const
+override
+{
+return
+false
+;
+}
 void
 AttachSourceBuffer
 (

@@ -225,6 +225,17 @@ NotifyDataRemoved
 )
 {
 }
+virtual
+bool
+ShouldComputeStartTime
+(
+)
+const
+{
+return
+true
+;
+}
 protected
 :
 virtual
