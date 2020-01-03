@@ -473,6 +473,17 @@ event
 )
 ;
 "
+position
+=
+"
+topcenter
+bottomleft
+"
+flip
+=
+"
+none
+"
 role
 =
 "
