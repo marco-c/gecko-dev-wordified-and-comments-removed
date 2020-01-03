@@ -243,6 +243,8 @@ xulrunnerStubName
 =
 "
 xulrunner
+-
+stub
 "
     
 def
