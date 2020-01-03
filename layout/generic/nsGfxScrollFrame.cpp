@@ -13744,6 +13744,8 @@ const
 ContainerLayerParameters
 &
 aParameters
+bool
+aIsForCaret
 )
 const
 {
@@ -13786,6 +13788,17 @@ needsParentLayerClip
 false
 ;
 }
+const
+DisplayItemClip
+*
+ancestorClip
+=
+aIsForCaret
+?
+mAncestorClipForCaret
+:
+mAncestorClip
+;
 nsPoint
 toReferenceFrame
 =
@@ -13901,10 +13914,10 @@ res
 }
 if
 (
-mAncestorClip
+ancestorClip
 &
 &
-mAncestorClip
+ancestorClip
 -
 >
 HasClip
@@ -13914,7 +13927,7 @@ HasClip
 {
 clip
 =
-mAncestorClip
+ancestorClip
 -
 >
 GetClipRect
@@ -14125,7 +14138,7 @@ result
 .
 clip
 =
-mAncestorClip
+ancestorClip
 ;
 return
 Some

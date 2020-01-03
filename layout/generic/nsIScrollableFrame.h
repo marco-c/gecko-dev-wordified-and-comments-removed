@@ -728,6 +728,8 @@ const
 ContainerLayerParameters
 &
 aParameters
+bool
+aIsForCaret
 )
 const
 =

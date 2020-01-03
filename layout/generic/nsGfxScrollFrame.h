@@ -1484,6 +1484,8 @@ const
 ContainerLayerParameters
 &
 aParameters
+bool
+aIsForCaret
 )
 const
 ;
@@ -3311,6 +3313,8 @@ const
 ContainerLayerParameters
 &
 aParameters
+bool
+aIsForCaret
 )
 const
 override
@@ -3323,6 +3327,7 @@ ComputeFrameMetrics
 aLayer
 aContainerReferenceFrame
 aParameters
+aIsForCaret
 )
 ;
 }
@@ -5167,6 +5172,8 @@ const
 ContainerLayerParameters
 &
 aParameters
+bool
+aIsForCaret
 )
 const
 override
@@ -5179,6 +5186,7 @@ ComputeFrameMetrics
 aLayer
 aContainerReferenceFrame
 aParameters
+aIsForCaret
 )
 ;
 }
