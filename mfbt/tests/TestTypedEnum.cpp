@@ -132,16 +132,8 @@ defined
 _MSC_VER
 )
 #
-if
-_MSC_VER
->
-=
-1700
-#
 define
 MOZ_HAVE_IS_LITERAL
-#
-endif
 #
 endif
 #
