@@ -1041,9 +1041,6 @@ cellFrame
 >
 IntrinsicISizeOffsets
 (
-aReflowState
-.
-rendContext
 )
 ;
 float

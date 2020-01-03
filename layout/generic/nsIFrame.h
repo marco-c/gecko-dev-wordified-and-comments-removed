@@ -4513,9 +4513,6 @@ virtual
 IntrinsicISizeOffsetData
 IntrinsicISizeOffsets
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 =
 0
@@ -4523,9 +4520,6 @@ aRenderingContext
 IntrinsicISizeOffsetData
 IntrinsicBSizeOffsets
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 ;
 virtual

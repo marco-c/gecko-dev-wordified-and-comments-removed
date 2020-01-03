@@ -355,7 +355,6 @@ aFrame
 >
 IntrinsicISizeOffsets
 (
-aRenderingContext
 )
 ;
 if

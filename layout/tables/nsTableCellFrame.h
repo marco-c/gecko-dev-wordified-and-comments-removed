@@ -463,9 +463,6 @@ virtual
 IntrinsicISizeOffsetData
 IntrinsicISizeOffsets
 (
-nsRenderingContext
-*
-aRenderingContext
 )
 override
 ;

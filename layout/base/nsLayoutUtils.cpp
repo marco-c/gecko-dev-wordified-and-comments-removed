@@ -23009,7 +23009,6 @@ aFrame
 >
 IntrinsicISizeOffsets
 (
-aRenderingContext
 )
 ;
 result
