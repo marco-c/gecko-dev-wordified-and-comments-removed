@@ -3540,17 +3540,6 @@ aLoadFlags
 }
 else
 {
-MOZ_ASSERT
-(
-nsContentUtils
-:
-:
-IsSystemPrincipal
-(
-triggeringPrincipal
-)
-)
-;
 rv
 =
 NS_NewChannel
