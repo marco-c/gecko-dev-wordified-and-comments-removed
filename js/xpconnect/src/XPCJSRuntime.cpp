@@ -4686,6 +4686,7 @@ char16_t
 *
 aData
 )
+MOZ_OVERRIDE
 {
 RefreshWatchdog
 (
@@ -7553,6 +7554,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 return
 MOZ_COLLECT_REPORT
@@ -12920,6 +12922,7 @@ closure
 bool
 anonymize
 )
+MOZ_OVERRIDE
 {
 Data
 data

@@ -98,6 +98,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
+MOZ_OVERRIDE
 {
 return
 mPrincipal
@@ -108,6 +109,7 @@ JSObject
 GetGlobalJSObject
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetWrapper
