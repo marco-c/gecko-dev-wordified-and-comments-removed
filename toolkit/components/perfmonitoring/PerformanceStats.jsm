@@ -482,6 +482,12 @@ isActive
 x
 )
 {
+performanceStatsService
+.
+isMonitoringJank
+=
+x
+;
 }
 get
 isActive
@@ -489,7 +495,9 @@ isActive
 )
 {
 return
-true
+performanceStatsService
+.
+isMonitoringJank
 ;
 }
 extract
@@ -732,6 +740,12 @@ isActive
 x
 )
 {
+performanceStatsService
+.
+isMonitoringCPOW
+=
+x
+;
 }
 get
 isActive
@@ -739,7 +753,9 @@ isActive
 )
 {
 return
-true
+performanceStatsService
+.
+isMonitoringCPOW
 ;
 }
 extract
@@ -1654,9 +1670,3 @@ probes
 )
 ;
 }
-performanceStatsService
-.
-isStopwatchActive
-=
-true
-;
