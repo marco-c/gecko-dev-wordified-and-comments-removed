@@ -197,6 +197,12 @@ InTestingMode
 (
 )
 ;
+static
+bool
+FullSynchronous
+(
+)
+;
 already_AddRefed
 <
 FileManager
@@ -437,6 +443,10 @@ mFileMutex
 static
 bool
 sIsMainProcess
+;
+static
+bool
+sFullSynchronousMode
 ;
 static
 mozilla
