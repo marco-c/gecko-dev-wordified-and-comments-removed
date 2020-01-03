@@ -3394,8 +3394,6 @@ cx
 AllocatableGeneralRegisterSet
 regs
 (
-GeneralRegisterSet
-(
 Register
 :
 :
@@ -3403,7 +3401,6 @@ Codes
 :
 :
 WrapperMask
-)
 )
 ;
 JS_STATIC_ASSERT
