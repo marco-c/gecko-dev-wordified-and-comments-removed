@@ -9160,6 +9160,8 @@ REQUEST_TO_CANCEL_COMPOSITION
 ;
 if
 (
+!
+!
 GetIMEComposition
 (
 )
