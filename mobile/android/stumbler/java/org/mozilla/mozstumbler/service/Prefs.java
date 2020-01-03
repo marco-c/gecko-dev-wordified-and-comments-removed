@@ -244,10 +244,6 @@ getSharedPreferences
 PREFS_FILE
 Context
 .
-MODE_MULTI_PROCESS
-|
-Context
-.
 MODE_PRIVATE
 )
 ;
