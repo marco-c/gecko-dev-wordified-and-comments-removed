@@ -162,13 +162,6 @@ fitCenter
 "
 android
 :
-paddingLeft
-=
-"
-4dip
-"
-android
-:
 paddingRight
 =
 "
