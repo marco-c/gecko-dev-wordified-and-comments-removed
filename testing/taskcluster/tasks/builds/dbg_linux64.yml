@@ -5,6 +5,8 @@ from
 '
 tasks
 /
+builds
+/
 opt_linux64
 .
 yml
