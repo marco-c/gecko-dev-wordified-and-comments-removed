@@ -36,7 +36,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "

@@ -168,7 +168,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -3436,7 +3436,7 @@ exists
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 testLoadHistograms
 (
@@ -3808,7 +3808,7 @@ histogramsFile
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 testLoadHistograms
 (
@@ -7514,7 +7514,7 @@ mtime
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 testLoadHistograms
 (
@@ -7555,7 +7555,7 @@ gIsAndroid
 const
 dir
 =
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 ;
@@ -7592,7 +7592,7 @@ shutdown
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 loadSavedPings
 (
@@ -7602,7 +7602,7 @@ Assert
 .
 equal
 (
-TelemetryFile
+TelemetryStorage
 .
 pingsLoaded
 expectedPings
@@ -7611,7 +7611,7 @@ expectedPings
 let
 pingsIterator
 =
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -8488,7 +8488,7 @@ shutdown
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePingToFile
 (
@@ -8557,7 +8557,7 @@ Path
 .
 join
 (
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 abortedSessionPing
@@ -8599,7 +8599,7 @@ directory
 const
 OVERDUE_PING_FILE_AGE
 =
-TelemetryFile
+TelemetryStorage
 .
 OVERDUE_PING_FILE_AGE
 +

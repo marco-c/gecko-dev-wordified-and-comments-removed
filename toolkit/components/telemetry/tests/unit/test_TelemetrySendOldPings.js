@@ -95,7 +95,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -240,7 +240,7 @@ ONE_MINUTE_MS
 const
 EXPIRED_PING_FILE_AGE
 =
-TelemetryFile
+TelemetryStorage
 .
 MAX_PING_FILE_AGE
 +
@@ -249,7 +249,7 @@ ONE_MINUTE_MS
 const
 OVERDUE_PING_FILE_AGE
 =
-TelemetryFile
+TelemetryStorage
 .
 OVERDUE_PING_FILE_AGE
 +
@@ -294,7 +294,7 @@ RECENT_PINGS
 const
 LRU_PINGS
 =
-TelemetryFile
+TelemetryStorage
 .
 MAX_LRU_PINGS
 ;
@@ -677,7 +677,7 @@ resetTelemetry
 let
 gen
 =
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -855,7 +855,7 @@ setup
 let
 directory
 =
-TelemetryFile
+TelemetryStorage
 .
 pingDirectoryPath
 ;
@@ -1060,7 +1060,7 @@ startTelemetry
 let
 gen
 =
-TelemetryFile
+TelemetryStorage
 .
 popPendingPings
 (
@@ -1323,7 +1323,7 @@ file
 ]
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -1332,7 +1332,7 @@ true
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -1341,7 +1341,7 @@ true
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -1350,7 +1350,7 @@ true
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePingToFile
 (
@@ -1633,7 +1633,7 @@ slug
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (

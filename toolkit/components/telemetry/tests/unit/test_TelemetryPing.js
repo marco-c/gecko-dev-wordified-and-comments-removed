@@ -109,7 +109,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -952,7 +952,7 @@ foo
 "
 }
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -961,7 +961,7 @@ true
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
@@ -970,7 +970,7 @@ false
 )
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 cleanupPingFile
 (

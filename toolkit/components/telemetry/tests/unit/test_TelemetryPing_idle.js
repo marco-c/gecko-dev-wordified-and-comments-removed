@@ -91,7 +91,7 @@ gre
 /
 modules
 /
-TelemetryFile
+TelemetryStorage
 .
 jsm
 "
@@ -264,7 +264,7 @@ payload
 }
 ;
 yield
-TelemetryFile
+TelemetryStorage
 .
 savePing
 (
