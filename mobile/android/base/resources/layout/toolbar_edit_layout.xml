@@ -211,6 +211,15 @@ string
 /
 url_bar_default_text
 "
+android
+:
+drawableRight
+=
+"
+drawable
+/
+ab_mic
+"
 gecko
 :
 autoUpdateTheme
