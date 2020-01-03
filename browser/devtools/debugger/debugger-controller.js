@@ -5291,6 +5291,12 @@ if
 aResponse
 .
 error
+|
+|
+!
+aResponse
+.
+sources
 )
 {
 let
