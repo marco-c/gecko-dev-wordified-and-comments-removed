@@ -2066,6 +2066,9 @@ GMPLoader
 "
 )
 ;
+delete
+platformAPI
+;
 return
 false
 ;
@@ -2102,6 +2105,9 @@ sandbox
 info
 "
 )
+;
+delete
+platformAPI
 ;
 return
 false
@@ -2150,6 +2156,9 @@ load
 GMP
 "
 )
+;
+delete
+platformAPI
 ;
 return
 false
