@@ -4611,6 +4611,10 @@ mUseContentXBLScope
 ;
 }
 ;
+#
+define
+XPC_FUNCTION_NATIVE_MEMBER_SLOT
+0
 class
 XPCNativeMember
 {
