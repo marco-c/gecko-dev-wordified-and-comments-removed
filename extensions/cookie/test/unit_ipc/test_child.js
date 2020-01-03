@@ -274,7 +274,7 @@ cookie2
 )
 pm
 .
-DENY_ACTION
+PROMPT_ACTION
 )
 ;
 do_check_eq
@@ -491,7 +491,7 @@ cookie2
 )
 pm
 .
-DENY_ACTION
+PROMPT_ACTION
 )
 ;
 do_check_eq
