@@ -3890,11 +3890,10 @@ break
 case
 MIRType_Float32x4
 :
-defineReuseInput
+define
 (
 lir
 ins
-0
 )
 ;
 break
