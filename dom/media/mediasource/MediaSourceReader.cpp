@@ -4851,6 +4851,17 @@ if
 IsEnded
 (
 )
+&
+&
+sourceRanges
+-
+>
+GetEndTime
+(
+)
+>
+=
+0
 )
 {
 sourceRanges
