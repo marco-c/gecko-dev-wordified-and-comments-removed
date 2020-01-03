@@ -131,6 +131,11 @@ isPicking
 =
 false
 ;
+let
+isNodeFrontHighlighted
+=
+false
+;
 exported
 .
 release
@@ -680,6 +685,10 @@ nodeFront
 return
 ;
 }
+isNodeFrontHighlighted
+=
+true
+;
 if
 (
 isRemoteHighlightable
@@ -859,6 +868,9 @@ testing
 ;
 if
 (
+isNodeFrontHighlighted
+&
+&
 forceHide
 &
 &
@@ -872,6 +884,10 @@ isRemoteHighlightable
 )
 )
 {
+isNodeFrontHighlighted
+=
+false
+;
 yield
 toolbox
 .
