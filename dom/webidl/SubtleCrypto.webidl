@@ -415,6 +415,16 @@ hash
 ;
 }
 ;
+dictionary
+EcKeyImportParams
+:
+Algorithm
+{
+NamedCurve
+namedCurve
+;
+}
+;
 /
 *
 *
