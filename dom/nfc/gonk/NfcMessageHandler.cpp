@@ -66,7 +66,7 @@ h
 >
 #
 define
-CHROMIUM_LOG
+NMH_LOG
 (
 args
 .
@@ -795,7 +795,7 @@ break
 ;
 default
 :
-CHROMIUM_LOG
+NMH_LOG
 (
 "
 Nfcd
@@ -1467,7 +1467,7 @@ mMinorVersion
 NFCD_MINOR_VERSION
 )
 {
-CHROMIUM_LOG
+NMH_LOG
 (
 "
 NFCD

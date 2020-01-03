@@ -133,12 +133,6 @@ OMX_Audio
 h
 "
 #
-define
-LOG_TAG
-"
-GonkAudioDecoderManager
-"
-#
 include
 <
 android
@@ -149,7 +143,7 @@ h
 >
 #
 define
-ALOG
+GADM_LOG
 (
 .
 .
@@ -158,7 +152,9 @@ ALOG
 __android_log_print
 (
 ANDROID_LOG_DEBUG
-LOG_TAG
+"
+GonkAudioDecoderManager
+"
 __VA_ARGS__
 )
 #
@@ -423,7 +419,7 @@ format
 new
 AMessage
 ;
-ALOG
+GADM_LOG
 (
 "
 Init
@@ -590,7 +586,7 @@ mDecoder
 }
 else
 {
-ALOG
+GADM_LOG
 (
 "
 Failed
@@ -644,7 +640,7 @@ nullptr
 )
 )
 {
-ALOG
+GADM_LOG
 (
 "
 Audio
@@ -964,7 +960,7 @@ android
 INFO_OUTPUT_BUFFERS_CHANGED
 :
 {
-ALOG
+GADM_LOG
 (
 "
 Decoder
@@ -997,7 +993,7 @@ android
 ERROR_END_OF_STREAM
 :
 {
-ALOG
+GADM_LOG
 (
 "
 Got
@@ -1052,7 +1048,7 @@ data
 nullptr
 )
 {
-ALOG
+GADM_LOG
 (
 "
 Failed
@@ -1081,7 +1077,7 @@ case
 ETIMEDOUT
 :
 {
-ALOG
+GADM_LOG
 (
 "
 Timeout
@@ -1101,7 +1097,7 @@ NS_ERROR_UNEXPECTED
 default
 :
 {
-ALOG
+GADM_LOG
 (
 "
 Decoder
@@ -1184,7 +1180,7 @@ mDecoder
 nullptr
 )
 {
-ALOG
+GADM_LOG
 (
 "
 Decoder
@@ -1243,7 +1239,7 @@ if
 rv
 )
 {
-ALOG
+GADM_LOG
 (
 "
 Failed

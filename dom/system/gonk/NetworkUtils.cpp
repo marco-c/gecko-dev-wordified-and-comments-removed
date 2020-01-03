@@ -136,7 +136,7 @@ if
 _DEBUG
 #
 define
-DEBUG
+NU_DBG
 (
 args
 .
@@ -157,7 +157,7 @@ args
 else
 #
 define
-DEBUG
+NU_DBG
 (
 args
 .
@@ -2072,7 +2072,7 @@ s
 GET_CURRENT_COMMAND
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 Sending
@@ -2126,7 +2126,7 @@ CommandCallback
 aCallback
 )
 {
-DEBUG
+NU_DBG
 (
 "
 Preparing
@@ -5434,7 +5434,7 @@ code
 )
 )
 {
-DEBUG
+NU_DBG
 (
 "
 Receiving
@@ -5446,7 +5446,7 @@ netd
 "
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 =
@@ -5526,7 +5526,7 @@ linkdownReason
 )
 )
 {
-DEBUG
+NU_DBG
 (
 "
 Wifi
@@ -5555,7 +5555,7 @@ nextNetdCommand
 return
 ;
 }
-DEBUG
+NU_DBG
 (
 "
 Receiving
@@ -5576,7 +5576,7 @@ gCurrentCommand
 command
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 =
@@ -7643,7 +7643,7 @@ NetworkParams
 aOptions
 )
 {
-DEBUG
+NU_DBG
 (
 "
 setNetworkInterfaceAlarms
@@ -7684,7 +7684,7 @@ NetworkParams
 aOptions
 )
 {
-DEBUG
+NU_DBG
 (
 "
 enableNetworkInterfaceAlarm
@@ -7725,7 +7725,7 @@ NetworkParams
 aOptions
 )
 {
-DEBUG
+NU_DBG
 (
 "
 disableNetworkInterfaceAlarms
@@ -7766,7 +7766,7 @@ NetworkParams
 aOptions
 )
 {
-DEBUG
+NU_DBG
 (
 "
 setWifiOperationMode
@@ -7931,7 +7931,7 @@ if
 enable
 )
 {
-DEBUG
+NU_DBG
 (
 "
 Starting
@@ -7965,7 +7965,7 @@ wifiTetheringFail
 }
 else
 {
-DEBUG
+NU_DBG
 (
 "
 Stopping
@@ -8135,7 +8135,7 @@ if
 enable
 )
 {
-DEBUG
+NU_DBG
 (
 "
 Starting
@@ -8169,7 +8169,7 @@ usbTetheringFail
 }
 else
 {
-DEBUG
+NU_DBG
 (
 "
 Stopping
@@ -8837,7 +8837,7 @@ aType
 #
 ifdef
 _DEBUG
-DEBUG
+NU_DBG
 (
 "
 Dump
@@ -8846,7 +8846,7 @@ params
 "
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 ifname
@@ -8860,7 +8860,7 @@ mIfname
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 ip
@@ -8874,7 +8874,7 @@ mIp
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 link
@@ -8888,7 +8888,7 @@ mLink
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 prefix
@@ -8902,7 +8902,7 @@ mPrefix
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 wifiStartIp
@@ -8916,7 +8916,7 @@ mWifiStartIp
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 wifiEndIp
@@ -8930,7 +8930,7 @@ mWifiEndIp
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 usbStartIp
@@ -8944,7 +8944,7 @@ mUsbStartIp
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 usbEndIp
@@ -8958,7 +8958,7 @@ mUsbEndIp
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 dnsserver1
@@ -8972,7 +8972,7 @@ mDns1
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 dnsserver2
@@ -8986,7 +8986,7 @@ mDns2
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 internalIfname
@@ -9000,7 +9000,7 @@ mInternalIfname
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 externalIfname
@@ -9026,7 +9026,7 @@ WIFI
 )
 )
 {
-DEBUG
+NU_DBG
 (
 "
 wifictrlinterfacename
@@ -9040,7 +9040,7 @@ mWifictrlinterfacename
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 ssid
@@ -9054,7 +9054,7 @@ mSsid
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 security
@@ -9068,7 +9068,7 @@ mSecurity
 )
 )
 ;
-DEBUG
+NU_DBG
 (
 "
 key

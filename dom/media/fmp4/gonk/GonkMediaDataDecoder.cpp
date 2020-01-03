@@ -43,15 +43,6 @@ prlog
 h
 "
 #
-define
-LOG_TAG
-"
-GonkMediaDataDecoder
-(
-blake
-)
-"
-#
 include
 <
 android
@@ -62,7 +53,7 @@ h
 >
 #
 define
-ALOG
+GMDD_LOG
 (
 .
 .
@@ -71,7 +62,12 @@ ALOG
 __android_log_print
 (
 ANDROID_LOG_DEBUG
-LOG_TAG
+"
+GonkMediaDataDecoder
+(
+blake
+)
+"
 __VA_ARGS__
 )
 #
@@ -331,7 +327,7 @@ data
 "
 )
 ;
-ALOG
+GMDD_LOG
 (
 "
 Failed
@@ -488,7 +484,7 @@ data
 "
 )
 ;
-ALOG
+GMDD_LOG
 (
 "
 Failed
