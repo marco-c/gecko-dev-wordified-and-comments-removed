@@ -3340,10 +3340,6 @@ ZWNJ
 define
 ZWJ
 0x200D
-#
-define
-ALM
-0x061C
 static
 inline
 bool
@@ -3373,12 +3369,6 @@ aChar
 =
 =
 ZWJ
-|
-|
-aChar
-=
-=
-ALM
 ;
 }
 void
