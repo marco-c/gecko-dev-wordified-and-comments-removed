@@ -3052,11 +3052,6 @@ JS
 :
 HandleObject
 obj
-JS
-:
-:
-HandleObject
-parent
 )
 ;
 typedef
