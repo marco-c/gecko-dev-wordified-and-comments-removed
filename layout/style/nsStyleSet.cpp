@@ -12090,6 +12090,10 @@ int32_t
 aModType
 bool
 aAttrHasChanged
+const
+nsAttrValue
+*
+aOtherValue
 TreeMatchContext
 &
 aTreeMatchContext
@@ -12102,6 +12106,7 @@ aElement
 aAttribute
 aModType
 aAttrHasChanged
+aOtherValue
 aTreeMatchContext
 )
 mHint
@@ -12186,6 +12191,10 @@ int32_t
 aModType
 bool
 aAttrHasChanged
+const
+nsAttrValue
+*
+aOtherValue
 )
 {
 TreeMatchContext
@@ -12220,6 +12229,7 @@ aElement
 aAttribute
 aModType
 aAttrHasChanged
+aOtherValue
 treeContext
 )
 ;

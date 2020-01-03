@@ -855,6 +855,10 @@ int32_t
 aModType
 bool
 aAttrHasChanged
+const
+nsAttrValue
+*
+aOtherValue
 )
 ;
 bool

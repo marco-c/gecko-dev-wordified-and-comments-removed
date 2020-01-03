@@ -2058,6 +2058,10 @@ int32_t
 aModType
 bool
 aAttrHasChanged
+const
+nsAttrValue
+*
+aOtherValue
 TreeMatchContext
 &
 aTreeMatchContext
@@ -2073,6 +2077,10 @@ aTreeMatchContext
 mAttribute
 (
 aAttribute
+)
+mOtherValue
+(
+aOtherValue
 )
 mModType
 (
@@ -2101,6 +2109,11 @@ here
 nsIAtom
 *
 mAttribute
+;
+const
+nsAttrValue
+*
+mOtherValue
 ;
 int32_t
 mModType

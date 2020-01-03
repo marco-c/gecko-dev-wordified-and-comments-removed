@@ -5446,6 +5446,10 @@ nsIAtom
 aAttribute
 int32_t
 aModType
+const
+nsAttrValue
+*
+aNewValue
 )
 {
 nsRestyleHint
@@ -5465,6 +5469,7 @@ aElement
 aAttribute
 aModType
 false
+aNewValue
 )
 ;
 PostRestyleEvent
@@ -5491,6 +5496,10 @@ nsIAtom
 aAttribute
 int32_t
 aModType
+const
+nsAttrValue
+*
+aOldValue
 )
 {
 nsCOMPtr
@@ -5846,6 +5855,7 @@ aElement
 aAttribute
 aModType
 true
+aOldValue
 )
 ;
 PostRestyleEvent

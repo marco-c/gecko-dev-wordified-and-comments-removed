@@ -18030,6 +18030,7 @@ aElement
 aNameSpaceID
 aAttribute
 aModType
+aNewValue
 )
 ;
 VERIFY_STYLE_TREE
@@ -18108,6 +18109,7 @@ aElement
 aNameSpaceID
 aAttribute
 aModType
+aOldValue
 )
 ;
 VERIFY_STYLE_TREE
