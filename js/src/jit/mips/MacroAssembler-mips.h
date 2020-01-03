@@ -7697,7 +7697,7 @@ Register
 callee
 )
 {
-call
+callJit
 (
 callee
 )
