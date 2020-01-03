@@ -438,6 +438,7 @@ return
 ril
 .
 numRadioInterfaces
+;
 }
 return
 Services
