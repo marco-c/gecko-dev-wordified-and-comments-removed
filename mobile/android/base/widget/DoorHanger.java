@@ -104,15 +104,6 @@ gecko
 .
 R
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-Tabs
-;
 public
 abstract
 class
