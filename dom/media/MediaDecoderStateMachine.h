@@ -2091,6 +2091,15 @@ mNetworkDuration
 ;
 Mirror
 <
+Maybe
+<
+double
+>
+>
+mExplicitDuration
+;
+Mirror
+<
 MediaDecoder
 :
 :

@@ -346,9 +346,6 @@ MediaSourceReader
 >
 mReader
 ;
-double
-mMediaSourceDuration
-;
 }
 ;
 }
