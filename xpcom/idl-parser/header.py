@@ -22,12 +22,17 @@ line
 "
 import
 sys
+import
 os
 .
 path
+import
 re
+import
 xpidl
+import
 itertools
+import
 glob
 printdoccomments
 =

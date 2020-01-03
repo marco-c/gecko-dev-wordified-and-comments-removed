@@ -23,6 +23,7 @@ import
 sys
 import
 xpidl
+import
 xpt
 TypeMap
 =
