@@ -10394,9 +10394,6 @@ JSFunction
 :
 class_
 proto
-NullPtr
-(
-)
 allocKind
 newKind
 )
@@ -10795,9 +10792,6 @@ JSFunction
 :
 class_
 cloneProto
-NullPtr
-(
-)
 allocKind
 newKind
 )

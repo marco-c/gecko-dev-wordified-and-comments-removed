@@ -3485,8 +3485,6 @@ Class
 clasp
 HandleObject
 proto
-HandleObject
-parent
 gc
 :
 :
@@ -3510,8 +3508,6 @@ Class
 clasp
 HandleObject
 proto
-HandleObject
-parent
 gc
 :
 :
@@ -3529,7 +3525,6 @@ NewObjectWithClassProtoCommon
 cx
 clasp
 proto
-parent
 allocKind
 newKind
 )
@@ -3549,8 +3544,6 @@ Class
 clasp
 HandleObject
 proto
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -3577,7 +3570,6 @@ NewObjectWithClassProto
 cx
 clasp
 proto
-parent
 allocKind
 newKind
 )
@@ -3622,9 +3614,6 @@ T
 :
 class_
 proto
-NullPtr
-(
-)
 allocKind
 newKind
 )
@@ -3680,9 +3669,6 @@ T
 :
 class_
 proto
-NullPtr
-(
-)
 newKind
 )
 ;
@@ -3731,9 +3717,6 @@ NewObjectWithClassProto
 (
 cx
 clasp
-NullPtr
-(
-)
 NullPtr
 (
 )
