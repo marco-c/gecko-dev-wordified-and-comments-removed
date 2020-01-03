@@ -197,6 +197,13 @@ mCacheMode
 =
 mCacheMode
 ;
+copy
+-
+>
+mCreatedByFetchEvent
+=
+mCreatedByFetchEvent
+;
 return
 copy
 .
@@ -440,6 +447,12 @@ mUseURLCredentials
 aOther
 .
 mUseURLCredentials
+)
+mCreatedByFetchEvent
+(
+aOther
+.
+mCreatedByFetchEvent
 )
 {
 }
