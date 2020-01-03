@@ -1004,15 +1004,6 @@ constant
 "
 Gecko
 "
-boolean
-taintEnabled
-(
-)
-;
-/
-/
-constant
-false
 readonly
 attribute
 DOMString
