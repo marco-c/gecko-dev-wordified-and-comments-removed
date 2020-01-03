@@ -196,7 +196,7 @@ call
 "
 )
 ;
-is
+ok
 (
 all
 (
@@ -216,11 +216,15 @@ target
 )
 .
 length
+>
+=
 4
 "
 There
 should
 be
+at
+least
 4
 functions
 on

@@ -11305,6 +11305,16 @@ sas
 cx
 asyncStackObj
 asyncCauseString
+JS
+:
+:
+AutoSetAsyncStackForNewCalls
+:
+:
+AsyncCallKind
+:
+:
+EXPLICIT
 )
 ;
 if
