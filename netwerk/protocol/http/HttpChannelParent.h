@@ -355,6 +355,10 @@ bool
 &
 allowSpdy
 const
+bool
+&
+allowAltSvc
+const
 OptionalFileDescriptorSet
 &
 aFds

@@ -6796,6 +6796,14 @@ allowSpdy
 =
 mAllowSpdy
 ;
+openArgs
+.
+allowAltSvc
+(
+)
+=
+mAllowAltSvc
+;
 propagateLoadInfo
 (
 mLoadInfo

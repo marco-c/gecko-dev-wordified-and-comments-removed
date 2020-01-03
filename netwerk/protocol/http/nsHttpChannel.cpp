@@ -5486,6 +5486,15 @@ ProcessAltService
 if
 (
 !
+mAllowAltSvc
+)
+{
+return
+;
+}
+if
+(
+!
 gHttpHandler
 -
 >
@@ -20672,6 +20681,9 @@ mapping
 ;
 if
 (
+mAllowAltSvc
+&
+&
 (
 scheme
 .
