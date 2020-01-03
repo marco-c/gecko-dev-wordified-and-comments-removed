@@ -9985,9 +9985,6 @@ oldEnabled
 MOZ_ASSERT
 (
 mCaret
-|
-|
-mTouchCaret
 )
 ;
 if
@@ -10004,6 +10001,7 @@ mCaretEnabled
 )
 ;
 }
+}
 if
 (
 mTouchCaret
@@ -10016,7 +10014,6 @@ SyncVisibilityWithCaret
 (
 )
 ;
-}
 }
 return
 NS_OK
