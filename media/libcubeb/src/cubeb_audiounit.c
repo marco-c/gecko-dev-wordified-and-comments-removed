@@ -1607,9 +1607,6 @@ r
 UInt32
 size
 ;
-AudioDeviceID
-output_device_id
-;
 AudioValueRange
 latency_range
 ;
@@ -2956,9 +2953,6 @@ float
 volume
 )
 {
-AudioDeviceID
-id
-;
 OSStatus
 r
 ;
