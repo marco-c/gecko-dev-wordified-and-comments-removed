@@ -116,6 +116,10 @@ mIsFirstPaint
 (
 false
 )
+mPainted
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -426,7 +430,7 @@ this
 ;
 RefreshViewportSize
 (
-true
+mPainted
 )
 ;
 }
@@ -528,6 +532,10 @@ this
 )
 ;
 mIsFirstPaint
+=
+true
+;
+mPainted
 =
 true
 ;
