@@ -972,10 +972,10 @@ signedIn
 .
 engines
 .
-caption
+label
 "
 Sync
-between
+across
 all
 devices
 "
