@@ -744,8 +744,15 @@ reportString
 ;
 #
 else
-PR_LogPrint
+printf
 (
+"
+GFX
+ERROR
+:
+%
+s
+"
 reportString
 )
 ;
