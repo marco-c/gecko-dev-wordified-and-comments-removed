@@ -260,6 +260,9 @@ _build
 '
 _staging
 '
+'
+_venv
+'
 ]
 pygments_style
 =
