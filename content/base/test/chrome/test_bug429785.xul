@@ -311,7 +311,7 @@ var
 listener
 =
 {
-QueryInteface
+QueryInterface
 :
 function
 (
