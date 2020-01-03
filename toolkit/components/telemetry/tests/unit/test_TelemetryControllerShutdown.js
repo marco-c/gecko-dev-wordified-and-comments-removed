@@ -441,6 +441,7 @@ identity
 primaryPort
 )
 ;
+yield
 TelemetryController
 .
 submitExternalPing
