@@ -865,6 +865,8 @@ clearHistory
 (
 ContentResolver
 cr
+boolean
+clearSearchHistory
 )
 {
 }

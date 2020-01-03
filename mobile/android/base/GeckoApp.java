@@ -2644,6 +2644,9 @@ mPrivateBrowsingSession
 void
 handleClearHistory
 (
+final
+boolean
+clearSearchHistory
 )
 {
 final
@@ -2681,6 +2684,7 @@ clearHistory
 getContentResolver
 (
 )
+clearSearchHistory
 )
 ;
 }
@@ -3302,6 +3306,15 @@ event
 {
 handleClearHistory
 (
+message
+.
+optBoolean
+(
+"
+clearSearchHistory
+"
+false
+)
 )
 ;
 callback

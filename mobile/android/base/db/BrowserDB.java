@@ -340,6 +340,8 @@ clearHistory
 (
 ContentResolver
 cr
+boolean
+clearSearchHistory
 )
 ;
 public
