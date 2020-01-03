@@ -7590,6 +7590,7 @@ build
 ;
 }
 private
+static
 class
 SpecialFoldersCursorWrapper
 extends
@@ -7639,6 +7640,7 @@ mIndexOffset
 ;
 }
 }
+Override
 public
 int
 getCount
@@ -7655,6 +7657,7 @@ getCount
 mIndexOffset
 ;
 }
+Override
 public
 boolean
 moveToPosition
@@ -7676,9 +7679,11 @@ if
 (
 mAtDesktopBookmarksPosition
 )
+{
 return
 true
 ;
+}
 return
 super
 .
@@ -7690,6 +7695,7 @@ mIndexOffset
 )
 ;
 }
+Override
 public
 long
 getLong
@@ -7703,6 +7709,7 @@ if
 !
 mAtDesktopBookmarksPosition
 )
+{
 return
 super
 .
@@ -7711,6 +7718,7 @@ getLong
 columnIndex
 )
 ;
+}
 if
 (
 columnIndex
@@ -7735,6 +7743,7 @@ return
 1
 ;
 }
+Override
 public
 int
 getInt
@@ -7748,6 +7757,7 @@ if
 !
 mAtDesktopBookmarksPosition
 )
+{
 return
 super
 .
@@ -7756,6 +7766,7 @@ getInt
 columnIndex
 )
 ;
+}
 if
 (
 columnIndex
@@ -7771,11 +7782,13 @@ _ID
 &
 mAtDesktopBookmarksPosition
 )
+{
 return
 Bookmarks
 .
 FAKE_DESKTOP_FOLDER_ID
 ;
+}
 if
 (
 columnIndex
@@ -7788,16 +7801,19 @@ Bookmarks
 TYPE
 )
 )
+{
 return
 Bookmarks
 .
 TYPE_FOLDER
 ;
+}
 return
 -
 1
 ;
 }
+Override
 public
 String
 getString
@@ -7811,6 +7827,7 @@ if
 !
 mAtDesktopBookmarksPosition
 )
+{
 return
 super
 .
@@ -7819,6 +7836,7 @@ getString
 columnIndex
 )
 ;
+}
 if
 (
 columnIndex
@@ -7834,11 +7852,13 @@ GUID
 &
 mAtDesktopBookmarksPosition
 )
+{
 return
 Bookmarks
 .
 FAKE_DESKTOP_FOLDER_GUID
 ;
+}
 return
 "
 "
