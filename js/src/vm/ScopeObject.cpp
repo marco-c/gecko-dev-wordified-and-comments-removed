@@ -7112,7 +7112,8 @@ argsObj
 public
 :
 static
-int
+const
+char
 family
 ;
 static
@@ -8620,7 +8621,8 @@ nullptr
 }
 ;
 }
-int
+const
+char
 DebugScopeProxy
 :
 :
