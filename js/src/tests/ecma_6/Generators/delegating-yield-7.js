@@ -61,6 +61,7 @@ expected
 return
 yield
 *
+new
 Proxy
 (
 results
