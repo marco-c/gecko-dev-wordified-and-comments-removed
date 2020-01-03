@@ -175,6 +175,11 @@ TestHangs
 cpp
 '
 '
+TestHighestPrio
+.
+cpp
+'
+'
 TestInterruptErrorCleanup
 .
 cpp
@@ -439,6 +444,11 @@ ipdl
 '
 '
 PTestHangs
+.
+ipdl
+'
+'
+PTestHighestPrio
 .
 ipdl
 '

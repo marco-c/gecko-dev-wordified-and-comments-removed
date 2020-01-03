@@ -142,7 +142,7 @@ localService
 ;
 }
 ;
-intr
+sync
 protocol
 PSpeechSynthesis
 {

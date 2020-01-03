@@ -16800,7 +16800,7 @@ MOZ_RELEASE_ASSERT
 ipc
 :
 :
-ProcessingUrgentMessages
+ParentProcessIsBlocked
 (
 )
 )

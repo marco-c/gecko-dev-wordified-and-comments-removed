@@ -484,7 +484,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-AnswerRpcMessage
+RecvRpcMessage
 (
 const
 nsString

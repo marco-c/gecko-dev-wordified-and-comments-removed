@@ -926,7 +926,7 @@ bool
 nsIContentParent
 :
 :
-AnswerRpcMessage
+RecvRpcMessage
 (
 const
 nsString

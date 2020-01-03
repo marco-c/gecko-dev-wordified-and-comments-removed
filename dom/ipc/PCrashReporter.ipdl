@@ -143,7 +143,7 @@ file_offset
 ;
 }
 ;
-intr
+async
 protocol
 PCrashReporter
 {
