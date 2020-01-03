@@ -978,6 +978,11 @@ return
 staticScope_
 ;
 }
+void
+switchStaticScopeToFunction
+(
+)
+;
 GeneratorKind
 generatorKind
 (

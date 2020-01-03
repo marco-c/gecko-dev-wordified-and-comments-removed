@@ -746,6 +746,13 @@ innermostScopeStmt
 )
 ;
 }
+JSObject
+*
+innermostStaticScope
+(
+)
+const
+;
 bool
 isAliasedName
 (
@@ -1303,12 +1310,6 @@ StmtType
 type
 ptrdiff_t
 top
-)
-;
-JSObject
-*
-enclosingStaticScope
-(
 )
 ;
 unsigned
