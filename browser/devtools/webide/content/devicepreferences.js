@@ -1979,6 +1979,9 @@ hide
 }
 }
 }
+let
+getAllPrefs
+;
 function
 BuildUI
 (
@@ -2072,6 +2075,8 @@ AppManager
 preferenceFront
 )
 {
+getAllPrefs
+=
 AppManager
 .
 preferenceFront
@@ -2079,6 +2084,8 @@ preferenceFront
 getAllPrefs
 (
 )
+;
+getAllPrefs
 .
 then
 (
