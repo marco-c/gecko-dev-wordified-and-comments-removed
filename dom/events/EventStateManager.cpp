@@ -3257,6 +3257,17 @@ case
 NS_QUERY_EDITOR_RECT
 :
 {
+if
+(
+RemoteQueryContentEvent
+(
+aEvent
+)
+)
+{
+break
+;
+}
 ContentEventHandler
 handler
 (
