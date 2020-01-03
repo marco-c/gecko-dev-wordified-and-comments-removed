@@ -12496,6 +12496,7 @@ UniquePtr
 TimelineMarker
 >
 &
+&
 aMarker
 )
 {

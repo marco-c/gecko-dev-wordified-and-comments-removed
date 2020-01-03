@@ -4683,7 +4683,10 @@ docShell
 >
 AddProfileTimelineMarker
 (
+Move
+(
 marker
+)
 )
 ;
 }
