@@ -8363,8 +8363,6 @@ XPCWrappedNative
 wrapper
 )
 ;
-public
-:
 static
 nsresult
 GetUsedOnly
@@ -8469,15 +8467,6 @@ const
 nsIID
 &
 iid
-)
-;
-XPCWrappedNativeTearOff
-*
-LocateTearOff
-(
-XPCNativeInterface
-*
-aInterface
 )
 ;
 XPCWrappedNativeTearOff
@@ -8857,8 +8846,6 @@ JS_BIT
 )
 }
 ;
-private
-:
 bool
 Init
 (
