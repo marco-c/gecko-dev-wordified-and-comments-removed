@@ -4148,15 +4148,6 @@ defaults
 /
 autoconfig
 /
-platform
-.
-js
-RESPATH
-/
-defaults
-/
-autoconfig
-/
 prefcalls
 .
 js

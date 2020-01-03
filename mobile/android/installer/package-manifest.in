@@ -3085,15 +3085,6 @@ defaults
 /
 autoconfig
 /
-platform
-.
-js
-BINPATH
-/
-defaults
-/
-autoconfig
-/
 prefcalls
 .
 js
