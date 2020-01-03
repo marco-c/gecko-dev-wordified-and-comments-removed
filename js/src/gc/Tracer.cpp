@@ -178,7 +178,7 @@ char
 name
 )
 {
-MarkIdUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 idp
@@ -331,7 +331,7 @@ char
 name
 )
 {
-MarkIdUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 idp
