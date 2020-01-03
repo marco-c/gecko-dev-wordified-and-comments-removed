@@ -69,6 +69,7 @@ rhs
 Length
 (
 )
+fallible
 )
 )
 {

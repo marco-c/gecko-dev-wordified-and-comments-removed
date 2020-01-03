@@ -236,6 +236,7 @@ mItems
 SetCapacity
 (
 aSize
+fallible
 )
 ;
 }

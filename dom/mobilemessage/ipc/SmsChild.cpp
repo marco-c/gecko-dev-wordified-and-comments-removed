@@ -1474,6 +1474,7 @@ autoArray
 SetCapacity
 (
 length
+fallible
 )
 )
 ;
@@ -1494,6 +1495,7 @@ messages
 SetCapacity
 (
 length
+fallible
 )
 )
 ;
@@ -1611,6 +1613,7 @@ autoArray
 SetCapacity
 (
 length
+fallible
 )
 )
 ;
@@ -1631,6 +1634,7 @@ threads
 SetCapacity
 (
 length
+fallible
 )
 )
 ;

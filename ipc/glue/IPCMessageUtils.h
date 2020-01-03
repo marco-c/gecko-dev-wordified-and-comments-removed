@@ -2050,6 +2050,10 @@ aResult
 SetCapacity
 (
 length
+mozilla
+:
+:
+fallible
 )
 )
 {

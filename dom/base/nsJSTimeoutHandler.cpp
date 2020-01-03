@@ -1656,6 +1656,7 @@ args
 SetCapacity
 (
 argCount
+fallible
 )
 )
 {

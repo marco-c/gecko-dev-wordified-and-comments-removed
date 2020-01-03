@@ -605,6 +605,10 @@ mByteData
 SetCapacity
 (
 STRING_BUFFER_SIZE
+mozilla
+:
+:
+fallible
 )
 |
 |
@@ -614,6 +618,10 @@ mUnicharData
 SetCapacity
 (
 STRING_BUFFER_SIZE
+mozilla
+:
+:
+fallible
 )
 )
 {

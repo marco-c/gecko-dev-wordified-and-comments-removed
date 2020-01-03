@@ -1411,6 +1411,7 @@ sockets
 SetCapacity
 (
 length
+fallible
 )
 )
 {
@@ -1897,6 +1898,7 @@ connections
 SetCapacity
 (
 length
+fallible
 )
 )
 {
@@ -2090,6 +2092,7 @@ active
 Length
 (
 )
+fallible
 )
 |
 |
@@ -2111,6 +2114,7 @@ idle
 Length
 (
 )
+fallible
 )
 |
 |
@@ -2132,6 +2136,7 @@ halfOpens
 Length
 (
 )
+fallible
 )
 )
 {
@@ -2984,6 +2989,7 @@ websockets
 SetCapacity
 (
 length
+fallible
 )
 )
 {
@@ -3438,6 +3444,7 @@ entries
 SetCapacity
 (
 length
+fallible
 )
 )
 {
@@ -3533,6 +3540,7 @@ hostaddr
 Length
 (
 )
+fallible
 )
 )
 {

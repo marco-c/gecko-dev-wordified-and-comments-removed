@@ -38699,6 +38699,10 @@ argc
 {
 index
 }
+mozilla
+:
+:
+fallible
 )
 )
 {

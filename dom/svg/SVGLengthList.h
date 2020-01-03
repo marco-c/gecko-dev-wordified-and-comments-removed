@@ -172,6 +172,7 @@ mLengths
 SetCapacity
 (
 size
+fallible
 )
 ;
 }

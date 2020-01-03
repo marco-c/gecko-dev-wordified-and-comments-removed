@@ -3098,6 +3098,7 @@ aData
 SetCapacity
 (
 count
+fallible
 )
 )
 {
@@ -3215,6 +3216,7 @@ mAddPrefixes
 SetCapacity
 (
 count
+fallible
 )
 )
 {
@@ -3363,6 +3365,7 @@ mSubPrefixes
 SetCapacity
 (
 count
+fallible
 )
 )
 {

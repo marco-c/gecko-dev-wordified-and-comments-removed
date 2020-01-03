@@ -737,6 +737,7 @@ srcArr
 Length
 (
 )
+fallible
 )
 )
 {

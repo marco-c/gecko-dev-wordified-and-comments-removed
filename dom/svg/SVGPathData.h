@@ -330,6 +330,7 @@ mData
 SetCapacity
 (
 aSize
+fallible
 )
 ;
 }
