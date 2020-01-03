@@ -1480,11 +1480,6 @@ jscompartment
 cpp
 '
 '
-jscrashreport
-.
-cpp
-'
-'
 jsdate
 .
 cpp
