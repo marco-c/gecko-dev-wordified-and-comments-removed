@@ -25,6 +25,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerTypeTraits
 .
 h
@@ -1894,6 +1903,7 @@ CheckedInt
 U
 aValue
 )
+MOZ_NO_ARITHMETIC_EXPR_IN_ARGUMENT
 :
 mValue
 (
