@@ -230,6 +230,9 @@ nsString
 >
 mEntryTypes
 ;
+bool
+mConnected
+;
 }
 ;
 }
