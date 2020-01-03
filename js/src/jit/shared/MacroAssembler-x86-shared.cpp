@@ -1107,7 +1107,7 @@ nonZero
 )
 ;
 }
-movmskpd
+vmovmskpd
 (
 reg
 scratch

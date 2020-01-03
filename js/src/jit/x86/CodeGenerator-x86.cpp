@@ -5687,7 +5687,7 @@ ScratchDoubleReg
 ;
 masm
 .
-ucomisd
+vucomisd
 (
 ScratchDoubleReg
 input
@@ -5797,7 +5797,7 @@ ScratchDoubleReg
 ;
 masm
 .
-ucomisd
+vucomisd
 (
 ScratchDoubleReg
 temp
@@ -6214,7 +6214,7 @@ ScratchFloat32Reg
 ;
 masm
 .
-ucomiss
+vucomiss
 (
 ScratchFloat32Reg
 input
@@ -6324,7 +6324,7 @@ ScratchFloat32Reg
 ;
 masm
 .
-ucomiss
+vucomiss
 (
 ScratchFloat32Reg
 temp
