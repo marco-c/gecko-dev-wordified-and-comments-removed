@@ -365,6 +365,7 @@ _completeConnection
 :
 function
 (
+progressState
 )
 {
 if
@@ -387,6 +388,7 @@ connectDetails
 .
 resolve
 (
+progressState
 )
 ;
 this
@@ -757,6 +759,9 @@ this
 .
 _completeConnection
 (
+msg
+.
+state
 )
 ;
 break

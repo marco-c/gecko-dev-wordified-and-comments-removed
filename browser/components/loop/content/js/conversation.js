@@ -1989,6 +1989,7 @@ then
 (
 function
 (
+progressStatus
 )
 {
 this
@@ -1997,6 +1998,18 @@ setState
 (
 {
 callStatus
+:
+progressStatus
+=
+=
+=
+"
+terminated
+"
+?
+"
+close
+"
 :
 "
 incoming
