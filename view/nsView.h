@@ -468,6 +468,11 @@ aForceRepaint
 ;
 }
 void
+SetNeedsWindowPropertiesSync
+(
+)
+;
+void
 AttachWidgetEventHandler
 (
 nsIWidget
@@ -1027,6 +1032,9 @@ mWidgetIsTopLevel
 ;
 bool
 mForcedRepaint
+;
+bool
+mNeedsWindowPropertiesSync
 ;
 }
 ;

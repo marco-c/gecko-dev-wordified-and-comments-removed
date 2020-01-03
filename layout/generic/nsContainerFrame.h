@@ -399,6 +399,13 @@ aFlags
 0
 )
 ;
+enum
+{
+SET_ASYNC
+=
+0x01
+}
+;
 static
 void
 SyncWindowProperties
@@ -415,8 +422,8 @@ aView
 nsRenderingContext
 *
 aRC
-=
-nullptr
+uint32_t
+aFlags
 )
 ;
 static
