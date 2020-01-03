@@ -3314,6 +3314,11 @@ PSpeechSynthesis
 (
 )
 ;
+prio
+(
+urgent
+)
+async
 PStorage
 (
 )

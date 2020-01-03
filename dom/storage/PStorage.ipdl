@@ -151,6 +151,12 @@ process
 .
 *
 /
+prio
+(
+normal
+upto
+urgent
+)
 sync
 protocol
 PStorage
@@ -165,6 +171,10 @@ __delete__
 (
 )
 ;
+prio
+(
+urgent
+)
 sync
 Preload
 (
