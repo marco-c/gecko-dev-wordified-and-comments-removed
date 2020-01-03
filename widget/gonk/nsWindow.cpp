@@ -1422,7 +1422,7 @@ return
 ;
 }
 }
-DispatchEventForAPZ
+ProcessUntransformedAPZEvent
 (
 &
 event
