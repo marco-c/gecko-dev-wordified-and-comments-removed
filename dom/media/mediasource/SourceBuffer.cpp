@@ -2367,6 +2367,9 @@ StartUpdating
 ;
 MOZ_ASSERT
 (
+mIsUsingFormatReader
+|
+|
 mAppendMode
 =
 =
