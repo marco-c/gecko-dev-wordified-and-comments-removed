@@ -554,6 +554,11 @@ JSOP_DELELEM
 \
 _
 (
+JSOP_STRICTDELELEM
+)
+\
+_
+(
 JSOP_IN
 )
 \
@@ -595,6 +600,11 @@ JSOP_CALLPROP
 _
 (
 JSOP_DELPROP
+)
+\
+_
+(
+JSOP_STRICTDELPROP
 )
 \
 _
