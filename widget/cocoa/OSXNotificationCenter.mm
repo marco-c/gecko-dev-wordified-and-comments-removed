@@ -2180,13 +2180,15 @@ rv
 )
 &
 &
-imgStatus
 !
-=
+(
+imgStatus
+&
 imgIRequest
 :
 :
 STATUS_ERROR
+)
 )
 {
 nsCOMPtr
