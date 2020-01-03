@@ -3209,7 +3209,7 @@ try
 {
 GeckoAppShell
 .
-scheduleComposite
+invalidateAndScheduleComposite
 (
 )
 ;

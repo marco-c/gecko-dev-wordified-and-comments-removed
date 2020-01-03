@@ -1623,7 +1623,7 @@ public
 static
 native
 void
-scheduleComposite
+invalidateAndScheduleComposite
 (
 )
 ;

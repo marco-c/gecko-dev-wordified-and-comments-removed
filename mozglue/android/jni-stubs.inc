@@ -1105,7 +1105,7 @@ typedef
 void
 (
 *
-Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite_t
+Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite_t
 )
 (
 JNIEnv
@@ -1114,8 +1114,8 @@ jclass
 )
 ;
 static
-Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite_t
-f_Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite
+Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite_t
+f_Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 ;
 extern
 "
@@ -1124,7 +1124,7 @@ C
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite
+Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 (
 JNIEnv
 *
@@ -1136,7 +1136,7 @@ arg1
 if
 (
 !
-f_Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite
+f_Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 )
 {
 arg0
@@ -1171,7 +1171,7 @@ loaded
 return
 ;
 }
-f_Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite
+f_Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 (
 arg0
 arg1
@@ -1186,10 +1186,10 @@ JNI_BINDINGS
 xul_dlsym
 (
 "
-Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite
+Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 "
 &
-f_Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite
+f_Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 )
 ;
 #

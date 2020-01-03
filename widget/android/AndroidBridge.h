@@ -1444,7 +1444,7 @@ mAPIVersion
 ;
 }
 void
-ScheduleComposite
+InvalidateAndScheduleComposite
 (
 )
 ;

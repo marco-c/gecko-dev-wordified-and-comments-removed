@@ -2589,7 +2589,7 @@ endif
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_scheduleComposite
+Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 (
 JNIEnv
 *
@@ -2599,7 +2599,7 @@ jclass
 nsWindow
 :
 :
-ScheduleComposite
+InvalidateAndScheduleComposite
 (
 )
 ;

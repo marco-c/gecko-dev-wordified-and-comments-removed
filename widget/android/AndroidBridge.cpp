@@ -8680,14 +8680,14 @@ void
 AndroidBridge
 :
 :
-ScheduleComposite
+InvalidateAndScheduleComposite
 (
 )
 {
 nsWindow
 :
 :
-ScheduleComposite
+InvalidateAndScheduleComposite
 (
 )
 ;
