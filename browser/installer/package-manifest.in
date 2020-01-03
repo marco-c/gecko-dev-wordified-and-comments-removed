@@ -4805,17 +4805,6 @@ DLL_PREFIX
 sandboxbroker
 DLL_SUFFIX
 #
-elif
-defined
-(
-XP_LINUX
-)
-BINPATH
-/
-DLL_PREFIX
-mozsandbox
-DLL_SUFFIX
-#
 endif
 #
 endif
