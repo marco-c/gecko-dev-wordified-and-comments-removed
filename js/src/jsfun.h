@@ -73,7 +73,7 @@ EXTENDED
 IS_FUN_PROTO
 =
 0x0010
-EXPR_CLOSURE
+EXPR_BODY
 =
 0x0020
 HAS_GUESSED_ATOM
@@ -139,7 +139,7 @@ NATIVE_CTOR
 |
 IS_FUN_PROTO
 |
-EXPR_CLOSURE
+EXPR_BODY
 |
 HAS_GUESSED_ATOM
 |
@@ -412,7 +412,7 @@ IS_FUN_PROTO
 ;
 }
 bool
-isExprClosure
+isExprBody
 (
 )
 const
@@ -422,7 +422,7 @@ flags
 (
 )
 &
-EXPR_CLOSURE
+EXPR_BODY
 ;
 }
 bool
@@ -828,14 +828,14 @@ IS_FUN_PROTO
 ;
 }
 void
-setIsExprClosure
+setIsExprBody
 (
 )
 {
 flags_
 |
 =
-EXPR_CLOSURE
+EXPR_BODY
 ;
 }
 void

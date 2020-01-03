@@ -18621,7 +18621,7 @@ JS_HAS_EXPR_CLOSURES
 func
 -
 >
-isExprClosure
+isExprBody
 (
 )
 ;
