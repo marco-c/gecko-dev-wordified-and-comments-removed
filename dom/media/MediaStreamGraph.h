@@ -1253,8 +1253,6 @@ EnsureTrack
 (
 TrackID
 aTrack
-TrackRate
-aSampleRate
 )
 ;
 void

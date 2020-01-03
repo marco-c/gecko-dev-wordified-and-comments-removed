@@ -1268,7 +1268,6 @@ data
 -
 >
 mID
-mSampleRate
 data
 -
 >
@@ -5621,19 +5620,6 @@ AudioSegment
 ;
 AudioSegment
 output
-;
-MOZ_ASSERT
-(
-track
--
->
-GetRate
-(
-)
-=
-=
-mSampleRate
-)
 ;
 TrackTicks
 offset
@@ -10097,8 +10083,6 @@ EnsureTrack
 (
 TrackID
 aTrackId
-TrackRate
-aSampleRate
 )
 {
 StreamBuffer
@@ -10189,7 +10173,6 @@ mBuffer
 AddTrack
 (
 aTrackId
-aSampleRate
 0
 segment
 .

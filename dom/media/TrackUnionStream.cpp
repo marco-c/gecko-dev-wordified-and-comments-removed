@@ -1051,16 +1051,6 @@ id
 maxTrackID
 ;
 }
-TrackRate
-rate
-=
-aTrack
--
->
-GetRate
-(
-)
-;
 TrackTicks
 outputStart
 =
@@ -1158,7 +1148,6 @@ mBuffer
 AddTrack
 (
 id
-rate
 outputStart
 segment
 .
