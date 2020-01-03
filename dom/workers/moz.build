@@ -605,6 +605,15 @@ chrome
 .
 ini
 '
+'
+test
+/
+serviceworkers
+/
+chrome
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
