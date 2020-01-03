@@ -661,6 +661,17 @@ UndefineCaretBidiLevel
 )
 ;
 nsresult
+PhysicalMove
+(
+int16_t
+aDirection
+int16_t
+aAmount
+bool
+aExtend
+)
+;
+nsresult
 CharacterMove
 (
 bool
