@@ -175,9 +175,14 @@ onLoadPermission
 var
 uri
 =
+BrowserUtils
+.
+makeURIFromCPOW
+(
 gDocument
 .
 documentURIObject
+)
 ;
 var
 permTab
