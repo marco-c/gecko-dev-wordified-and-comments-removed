@@ -5742,6 +5742,17 @@ return
 1
 ;
 }
+bool
+IsSpaceGlyphInvisible
+(
+gfxContext
+*
+aRefContext
+gfxTextRun
+*
+aTextRun
+)
+;
 void
 AddGlyphChangeObserver
 (

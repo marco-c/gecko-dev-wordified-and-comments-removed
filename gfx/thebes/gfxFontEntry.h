@@ -1261,6 +1261,16 @@ mSkipDefaultFeatureSpaceCheck
 1
 ;
 bool
+mSpaceGlyphIsInvisible
+:
+1
+;
+bool
+mSpaceGlyphIsInvisibleInitialized
+:
+1
+;
+bool
 mHasGraphiteTables
 :
 1
