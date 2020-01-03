@@ -6839,6 +6839,7 @@ aSize
 ;
 if
 (
+!
 onBudget
 )
 {
@@ -6922,11 +6923,6 @@ params
 ]
 =
 {
-usageStr
-.
-get
-(
-)
 multiplierStr
 .
 get
@@ -6957,7 +6953,7 @@ WarnOnceAbout
 nsIDocument
 :
 :
-eWillChangeOverBudgetIgnored
+eIgnoringWillChangeOverBudget
 false
 params
 ArrayLength
