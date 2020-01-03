@@ -247,7 +247,11 @@ patch
 (
 if
 (
+filter
+1
+(
 MOZ_AUTOMATION_UPDATE_PACKAGING
+)
 )
 automation
 -
