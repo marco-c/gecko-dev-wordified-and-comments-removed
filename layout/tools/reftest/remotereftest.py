@@ -2845,6 +2845,11 @@ server
 options
 .
 remoteWebServer
+port
+=
+options
+.
+httpPort
 )
         
 profileDir
