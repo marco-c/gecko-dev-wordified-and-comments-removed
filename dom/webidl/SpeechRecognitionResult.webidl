@@ -184,7 +184,7 @@ index
 readonly
 attribute
 boolean
-isFinal
+final
 ;
 }
 ;

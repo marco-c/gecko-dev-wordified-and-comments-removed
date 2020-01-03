@@ -181,7 +181,7 @@ mozilla
 dom
 :
 :
-SpeechGrammar
+SpeechGrammarList
 *
 nsISpeechGrammarCompilationCallback
 *

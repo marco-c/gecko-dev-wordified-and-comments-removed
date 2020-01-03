@@ -192,7 +192,7 @@ speechend
 speechstart
 "
 "
-soundend
+soundent
 "
 :
 "

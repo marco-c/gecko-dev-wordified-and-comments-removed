@@ -138,7 +138,7 @@ aIndex
 )
 ;
 bool
-IsFinal
+Final
 (
 )
 const
