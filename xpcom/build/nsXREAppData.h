@@ -37,6 +37,11 @@ name
 const
 char
 *
+remotingName
+;
+const
+char
+*
 version
 ;
 const

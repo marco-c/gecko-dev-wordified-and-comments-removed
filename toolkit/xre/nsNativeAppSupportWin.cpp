@@ -1642,7 +1642,7 @@ NS_ConvertUTF8toUTF16
 gAppData
 -
 >
-name
+remotingName
 )
 .
 get
