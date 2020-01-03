@@ -214,12 +214,6 @@ OmxDecoder
 h
 "
 #
-define
-LOG_TAG
-"
-OmxDecoder
-"
-#
 include
 <
 android
@@ -230,7 +224,7 @@ h
 >
 #
 define
-ALOG
+OD_LOG
 (
 .
 .
@@ -239,7 +233,9 @@ ALOG
 __android_log_print
 (
 ANDROID_LOG_DEBUG
-LOG_TAG
+"
+OmxDecoder
+"
 __VA_ARGS__
 )
 #
@@ -3273,7 +3269,7 @@ err
 OK
 )
 {
-ALOG
+OD_LOG
 (
 "
 Unexpected

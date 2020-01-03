@@ -38,12 +38,6 @@ AudioSink
 .
 h
 "
-#
-define
-LOG_TAG
-"
-AudioOffloadPlayer
-"
 namespace
 mozilla
 {
