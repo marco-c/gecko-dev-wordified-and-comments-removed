@@ -1270,7 +1270,7 @@ amount
 =
 mJSChannels
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

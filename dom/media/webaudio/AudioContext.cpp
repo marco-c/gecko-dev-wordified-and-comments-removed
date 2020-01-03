@@ -4484,7 +4484,7 @@ amount
 =
 mDecodeJobs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

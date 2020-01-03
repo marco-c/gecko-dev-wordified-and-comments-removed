@@ -198,7 +198,7 @@ amount
 =
 m_preDelayBuffers
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

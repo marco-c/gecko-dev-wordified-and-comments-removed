@@ -328,7 +328,7 @@ amount
 =
 mContents
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

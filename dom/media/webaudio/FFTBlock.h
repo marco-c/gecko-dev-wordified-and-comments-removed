@@ -1049,7 +1049,7 @@ amount
 =
 mOutputBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

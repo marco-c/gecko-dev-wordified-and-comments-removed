@@ -2901,7 +2901,7 @@ size
 mBuffer
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
 aMallocSizeOf
 )

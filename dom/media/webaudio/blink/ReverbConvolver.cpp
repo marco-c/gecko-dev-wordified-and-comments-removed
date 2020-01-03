@@ -509,7 +509,7 @@ amount
 =
 m_stages
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -563,7 +563,7 @@ amount
 =
 m_backgroundStages
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

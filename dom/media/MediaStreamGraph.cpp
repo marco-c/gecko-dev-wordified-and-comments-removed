@@ -10218,7 +10218,7 @@ amount
 =
 mAudioOutputs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -10228,7 +10228,7 @@ amount
 =
 mVideoOutputs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -10248,7 +10248,7 @@ amount
 =
 mListeners
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -10258,7 +10258,7 @@ amount
 =
 mMainThreadListeners
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -10268,7 +10268,7 @@ amount
 =
 mDisabledTrackIDs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -10298,7 +10298,7 @@ amount
 =
 mConsumers
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

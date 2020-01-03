@@ -371,7 +371,7 @@ n
 array
 -
 >
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

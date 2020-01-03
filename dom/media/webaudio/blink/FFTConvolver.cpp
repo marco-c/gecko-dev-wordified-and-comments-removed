@@ -129,7 +129,7 @@ amount
 =
 m_inputBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -139,7 +139,7 @@ amount
 =
 m_outputBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -149,7 +149,7 @@ amount
 =
 m_lastOverlapBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

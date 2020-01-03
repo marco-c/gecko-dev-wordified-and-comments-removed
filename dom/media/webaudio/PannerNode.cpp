@@ -1305,7 +1305,7 @@ amount
 =
 mSources
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

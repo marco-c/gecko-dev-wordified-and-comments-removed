@@ -1267,7 +1267,7 @@ n
 =
 mIndexDeltas
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1300,7 +1300,7 @@ mIndexDeltas
 i
 ]
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1311,7 +1311,7 @@ n
 =
 mIndexPrefixes
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

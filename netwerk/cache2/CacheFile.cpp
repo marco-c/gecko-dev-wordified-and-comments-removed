@@ -9095,7 +9095,7 @@ n
 =
 mInputs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -9168,7 +9168,7 @@ n
 =
 mObjsToRelease
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

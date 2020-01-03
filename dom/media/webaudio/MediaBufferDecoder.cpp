@@ -2605,7 +2605,7 @@ amount
 =
 mChannelBuffers
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

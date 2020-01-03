@@ -6983,7 +6983,7 @@ n
 =
 mListeners
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -2048,7 +2048,7 @@ aMallocSizeOf
 +
 mSafeDirs
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

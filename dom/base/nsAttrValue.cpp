@@ -8465,7 +8465,7 @@ mValue
 mAtomArray
 -
 >
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
 aMallocSizeOf
 )

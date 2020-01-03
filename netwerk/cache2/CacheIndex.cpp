@@ -18014,7 +18014,7 @@ n
 =
 mFrecencyArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -18024,7 +18024,7 @@ n
 =
 mDiskConsumptionObservers
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

@@ -2178,7 +2178,7 @@ size
 =
 mTrackBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

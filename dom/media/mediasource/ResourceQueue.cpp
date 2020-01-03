@@ -181,7 +181,7 @@ size
 mData
 -
 >
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

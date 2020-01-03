@@ -7072,7 +7072,7 @@ n
 =
 mCallbacks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

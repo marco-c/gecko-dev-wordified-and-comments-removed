@@ -85,7 +85,7 @@ amount
 =
 m_buffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

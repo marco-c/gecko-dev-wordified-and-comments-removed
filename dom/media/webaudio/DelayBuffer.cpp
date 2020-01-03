@@ -52,7 +52,7 @@ amount
 =
 mChunks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -97,7 +97,7 @@ amount
 =
 mUpmixChannels
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

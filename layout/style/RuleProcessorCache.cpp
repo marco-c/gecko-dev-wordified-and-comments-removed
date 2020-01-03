@@ -1072,7 +1072,7 @@ n
 =
 mEntries
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1093,7 +1093,7 @@ e
 .
 mDocumentEntries
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -1027,7 +1027,7 @@ amount
 =
 mBiquads
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

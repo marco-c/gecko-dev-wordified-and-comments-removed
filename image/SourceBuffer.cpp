@@ -1721,7 +1721,7 @@ n
 =
 mChunks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -6389,7 +6389,7 @@ mFontListSize
 =
 mNonExistingFonts
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -7762,7 +7762,7 @@ total
 =
 mGlyphRuns
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

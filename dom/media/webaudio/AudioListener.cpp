@@ -584,7 +584,7 @@ amount
 =
 mPanners
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

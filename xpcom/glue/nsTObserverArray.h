@@ -640,7 +640,7 @@ Compact
 ;
 }
 size_t
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mozilla
 :
@@ -653,7 +653,7 @@ const
 return
 mArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

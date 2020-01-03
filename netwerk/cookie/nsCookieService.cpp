@@ -3019,7 +3019,7 @@ amount
 =
 mCookies
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -3143,7 +3143,7 @@ amount
 =
 hostArray
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

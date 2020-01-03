@@ -215,7 +215,7 @@ amount
 =
 mLastChunks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

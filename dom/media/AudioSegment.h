@@ -112,7 +112,7 @@ amount
 =
 mBuffers
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -145,7 +145,7 @@ mBuffers
 i
 ]
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -803,7 +803,7 @@ amount
 =
 mChannelData
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -3525,7 +3525,7 @@ this
 ;
 }
 size_t
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 mozilla
 :
@@ -3572,7 +3572,7 @@ Hdr
 ;
 }
 size_t
-SizeOfIncludingThis
+ShallowSizeOfIncludingThis
 (
 mozilla
 :
@@ -3588,7 +3588,7 @@ aMallocSizeOf
 this
 )
 +
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -519,7 +519,7 @@ amount
 =
 mBuffer
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1186,7 +1186,7 @@ amount
 =
 mCurve
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

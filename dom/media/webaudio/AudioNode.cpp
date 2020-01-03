@@ -393,7 +393,7 @@ amount
 =
 mInputNodes
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -437,7 +437,7 @@ amount
 =
 mOutputNodes
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -447,7 +447,7 @@ amount
 =
 mOutputParams
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -1199,7 +1199,7 @@ amount
 =
 mChunks
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -280,7 +280,7 @@ amount
 =
 m_tempL1
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -290,7 +290,7 @@ amount
 =
 m_tempL2
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -300,7 +300,7 @@ amount
 =
 m_tempR1
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -310,7 +310,7 @@ amount
 =
 m_tempR2
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

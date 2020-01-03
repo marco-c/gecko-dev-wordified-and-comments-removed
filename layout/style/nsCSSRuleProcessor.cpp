@@ -3577,7 +3577,7 @@ entry
 >
 mRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -3648,7 +3648,7 @@ n
 =
 mUniversalRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4274,7 +4274,7 @@ entry
 >
 mSelectors
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4388,7 +4388,7 @@ n
 =
 mStateSelectors
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4420,7 +4420,7 @@ n
 =
 mPossiblyNegatedClassSelectors
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4430,7 +4430,7 @@ n
 =
 mPossiblyNegatedIDSelectors
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4478,7 +4478,7 @@ n
 =
 mFontFaceRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4488,7 +4488,7 @@ n
 =
 mKeyframesRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4498,7 +4498,7 @@ n
 =
 mFontFeatureValuesRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4508,7 +4508,7 @@ n
 =
 mPageRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -4518,7 +4518,7 @@ n
 =
 mCounterStyleRules
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -12820,7 +12820,7 @@ n
 =
 mSheets
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -429,7 +429,7 @@ amount
 =
 m_convolvers
 .
-SizeOfExcludingThis
+ShallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
