@@ -48,7 +48,7 @@ h
 #
 include
 "
-nsIDOMTCPSocket
+nsITCPServerSocketInternal
 .
 h
 "

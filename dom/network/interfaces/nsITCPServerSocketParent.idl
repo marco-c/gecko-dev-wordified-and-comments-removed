@@ -63,15 +63,8 @@ domstubs
 .
 idl
 "
-#
-include
-"
-nsITCPSocketParent
-.
-idl
-"
 interface
-nsIDOMTCPServerSocket
+nsITCPSocketParent
 ;
 /
 *
