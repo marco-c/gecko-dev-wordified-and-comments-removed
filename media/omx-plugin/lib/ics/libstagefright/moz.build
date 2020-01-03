@@ -93,9 +93,9 @@ MPL
 0
 /
 .
-NO_DIST_INSTALL
+DIST_INSTALL
 =
-True
+False
 if
 CONFIG
 [

@@ -113,9 +113,9 @@ Build
 Config
 '
 )
-NO_DIST_INSTALL
+DIST_INSTALL
 =
-True
+False
 #
 For
 sanity
