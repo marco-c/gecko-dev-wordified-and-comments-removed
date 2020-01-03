@@ -7424,3 +7424,15 @@ longtap
 false
 )
 ;
+pref
+(
+"
+selectioncaret
+.
+visibility
+.
+affectscaret
+"
+true
+)
+;
