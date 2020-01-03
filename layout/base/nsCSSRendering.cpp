@@ -20585,7 +20585,7 @@ aVertical
 rect
 .
 x
--
++
 =
 lineThickness
 /
@@ -21400,7 +21400,7 @@ aVertical
 rect
 .
 x
--
++
 =
 lineThickness
 /
