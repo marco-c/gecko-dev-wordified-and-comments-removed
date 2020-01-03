@@ -152,6 +152,9 @@ nullptr
 }
 TemporaryRef
 <
+gfx
+:
+:
 SourceSurface
 >
 GLImage
