@@ -56,6 +56,30 @@ Tools
 Development
 Libraries
 '
+        
+]
+        
+self
+.
+packages
+=
+[
+            
+'
+autoconf213
+'
+            
+'
+mercurial
+'
+        
+]
+        
+self
+.
+browser_group_packages
+=
+[
             
 '
 GNOME
@@ -67,7 +91,7 @@ Development
         
 self
 .
-packages
+browser_packages
 =
 [
             
@@ -77,10 +101,6 @@ alsa
 lib
 -
 devel
-'
-            
-'
-autoconf213
 '
             
 '
@@ -125,10 +145,6 @@ static
 libXt
 -
 devel
-'
-            
-'
-mercurial
 '
             
 '
@@ -186,6 +202,33 @@ yum_install
 self
 .
 packages
+)
+    
+def
+install_browser_packages
+(
+self
+)
+:
+        
+self
+.
+yum_groupinstall
+(
+*
+self
+.
+browser_group_packages
+)
+        
+self
+.
+yum_install
+(
+*
+self
+.
+browser_packages
 )
     
 def
