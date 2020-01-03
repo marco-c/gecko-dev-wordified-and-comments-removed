@@ -92,6 +92,9 @@ MPL
 *
 /
 interface
+WindowProxy
+;
+interface
 DragEvent
 :
 MouseEvent
@@ -114,7 +117,7 @@ boolean
 canBubble
 boolean
 cancelable
-Window
+WindowProxy
 ?
 aView
 long

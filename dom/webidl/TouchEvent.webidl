@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+interface
+WindowProxy
+;
 [
 Func
 =
@@ -159,7 +162,7 @@ boolean
 canBubble
 boolean
 cancelable
-Window
+WindowProxy
 ?
 view
 long

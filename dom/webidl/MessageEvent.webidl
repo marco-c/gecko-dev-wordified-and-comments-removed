@@ -124,6 +124,9 @@ work
 messageevent
 *
 /
+interface
+WindowProxy
+;
 [
 Constructor
 (
@@ -373,7 +376,7 @@ DOMString
 lastEventId
 ;
 (
-Window
+WindowProxy
 or
 MessagePort
 )

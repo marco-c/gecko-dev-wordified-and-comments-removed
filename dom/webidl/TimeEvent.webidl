@@ -156,6 +156,9 @@ apply
 *
 /
 interface
+WindowProxy
+;
+interface
 TimeEvent
 :
 Event
@@ -176,7 +179,7 @@ initTimeEvent
 (
 DOMString
 aType
-Window
+WindowProxy
 ?
 aView
 long
