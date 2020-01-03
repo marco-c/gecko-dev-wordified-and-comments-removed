@@ -168,6 +168,14 @@ SENotPresentError
 ;
 this
 .
+ERROR_ILLEGALPARAMETER
+=
+"
+SEIllegalParameterError
+"
+;
+this
+.
 TYPE_UICC
 =
 "
