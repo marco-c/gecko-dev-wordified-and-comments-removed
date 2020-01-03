@@ -246,8 +246,6 @@ LOCAL_INCLUDES
 .
 .
 /
-shared
-/
 x11
 '
 ]

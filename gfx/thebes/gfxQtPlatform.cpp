@@ -21,15 +21,6 @@ qplatformnativeinterface
 h
 >
 #
-include
-<
-qpa
-/
-qplatformintegration
-.
-h
->
-#
 endif
 #
 include
