@@ -3169,8 +3169,6 @@ Handle
 TaggedProto
 >
 proto
-HandleObject
-parent
 gc
 :
 :
@@ -3197,8 +3195,6 @@ Handle
 TaggedProto
 >
 proto
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -3225,7 +3221,6 @@ NewObjectWithGivenTaggedProto
 cx
 clasp
 proto
-parent
 allocKind
 newKind
 )
@@ -3249,8 +3244,6 @@ Handle
 TaggedProto
 >
 proto
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -3270,7 +3263,6 @@ T
 :
 class_
 proto
-parent
 newKind
 )
 ;
@@ -3323,9 +3315,6 @@ AsTaggedProto
 (
 proto
 )
-NullPtr
-(
-)
 allocKind
 newKind
 )
@@ -3359,9 +3348,6 @@ clasp
 AsTaggedProto
 (
 proto
-)
-NullPtr
-(
 )
 newKind
 )
@@ -3398,9 +3384,6 @@ cx
 AsTaggedProto
 (
 proto
-)
-NullPtr
-(
 )
 newKind
 )
@@ -3447,9 +3430,6 @@ class_
 AsTaggedProto
 (
 proto
-)
-NullPtr
-(
 )
 allocKind
 newKind

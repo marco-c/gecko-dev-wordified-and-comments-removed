@@ -239,9 +239,6 @@ NewObjectWithGivenTaggedProto
 cx
 clasp
 proto
-NullPtr
-(
-)
 allocKind
 newKind
 )
