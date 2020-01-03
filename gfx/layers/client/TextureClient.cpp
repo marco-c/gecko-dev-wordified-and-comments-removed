@@ -3165,10 +3165,15 @@ MOZ_ASSERT
 aSize
 .
 width
-*
+>
+0
+&
+&
 aSize
 .
 height
+>
+0
 )
 ;
 int
