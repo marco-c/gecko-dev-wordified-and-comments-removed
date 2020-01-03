@@ -141,6 +141,15 @@ TARGET
 '
 emulator
 '
+B2G_DEBUG
+:
+'
+{
+{
+debug
+}
+}
+'
 B2G_CONFIG
 :
 '
