@@ -1031,6 +1031,12 @@ as
 a
 list
 of
+        
+'
+\
+n
+'
+terminated
 strings
         
 "
@@ -1061,7 +1067,7 @@ d
 +
 filterSpecs
         
-lines
+output
 =
 self
 .
@@ -1075,13 +1081,30 @@ self
 .
 _logcatNeedsRoot
 )
+        
+lines
+=
+output
 .
-split
+replace
 (
 '
 \
 r
+\
+n
 '
+'
+\
+n
+'
+)
+.
+splitlines
+(
+keepends
+=
+True
 )
         
 for

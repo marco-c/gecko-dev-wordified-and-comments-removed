@@ -2320,11 +2320,30 @@ print
 Automation
 Error
 :
-Logcat
-is
-truncated
-!
+java
+exception
+in
+logcat
+at
+line
+%
+d
+of
+%
+d
+:
+%
+s
 "
+%
+(
+i
+len
+(
+logcat
+)
+line
+)
             
 break
     
