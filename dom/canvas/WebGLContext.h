@@ -1363,6 +1363,8 @@ kMaxColorAttachments
 void
 ForceClearFramebufferWithDefaultValues
 (
+bool
+fakeNoAlpha
 GLbitfield
 mask
 const

@@ -2719,6 +2719,7 @@ webgl
 >
 ForceClearFramebufferWithDefaultValues
 (
+false
 mask
 colorAttachmentsMask
 )

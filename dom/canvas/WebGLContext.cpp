@@ -5783,6 +5783,7 @@ true
 ;
 ForceClearFramebufferWithDefaultValues
 (
+mNeedsFakeNoAlpha
 clearMask
 colorAttachmentsMask
 )
@@ -5794,6 +5795,8 @@ WebGLContext
 :
 ForceClearFramebufferWithDefaultValues
 (
+bool
+fakeNoAlpha
 GLbitfield
 mask
 const
@@ -6005,7 +6008,7 @@ fColorMask
 ;
 if
 (
-mNeedsFakeNoAlpha
+fakeNoAlpha
 )
 {
 gl
