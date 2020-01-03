@@ -264,7 +264,7 @@ gecko
 .
 widget
 .
-ThemedTextView
+FadedTextView
 android
 :
 id
@@ -306,6 +306,13 @@ layout_weight
 1
 .
 0
+"
+gecko
+:
+fadeWidth
+=
+"
+40dip
 "
 gecko
 :
