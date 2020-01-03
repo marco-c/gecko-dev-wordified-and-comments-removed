@@ -278,6 +278,9 @@ allowChromeProcess
 profilerDataFilterable
 :
 true
+profilerBufferStatus
+:
+true
 }
 sayHello
 :
