@@ -909,6 +909,7 @@ PAINTING
 )
 {
 return
+(
 gfxPrefs
 :
 :
@@ -917,7 +918,13 @@ LayoutEventRegionsEnabledDoNotUseDirectly
 )
 |
 |
-mAsyncPanZoomEnabled
+gfxPrefs
+:
+:
+AsyncPanZoomEnabled
+(
+)
+)
 ;
 }
 return
@@ -2784,9 +2791,6 @@ mIsBuildingForPopup
 ;
 bool
 mForceLayerForScrollParent
-;
-bool
-mAsyncPanZoomEnabled
 ;
 }
 ;

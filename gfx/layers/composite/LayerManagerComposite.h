@@ -960,13 +960,6 @@ return
 mLastFrameMissedHWC
 ;
 }
-bool
-AsyncPanZoomEnabled
-(
-)
-const
-override
-;
 private
 :
 nsIntRegion

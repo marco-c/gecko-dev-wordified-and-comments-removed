@@ -3193,8 +3193,6 @@ TextureFactoryIdentifier
 textureFactoryIdentifier
 uint64_t
 layersId
-bool
-asyncPanZoomEnabled
 )
 ;
 /
@@ -3403,8 +3401,6 @@ PRenderFrame
 renderFrame
 bool
 parentIsActive
-bool
-asyncPanZoomEnabled
 )
 ;
 LoadURL
