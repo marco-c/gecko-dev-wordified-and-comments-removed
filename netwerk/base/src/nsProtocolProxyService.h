@@ -419,6 +419,11 @@ ResetPACThread
 (
 )
 ;
+nsresult
+ReloadNetworkPAC
+(
+)
+;
 public
 :
 struct
