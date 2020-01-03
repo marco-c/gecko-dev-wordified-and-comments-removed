@@ -303,9 +303,9 @@ OrderedDict
         
 self
 .
-active_tiers
+tier_status
 =
-set
+OrderedDict
 (
 )
         
@@ -366,6 +366,15 @@ duration
 None
             
 )
+            
+self
+.
+tier_status
+[
+tier
+]
+=
+None
     
 def
 begin_tier
@@ -390,6 +399,17 @@ begun
 "
 "
 "
+        
+self
+.
+tier_status
+[
+tier
+]
+=
+'
+active
+'
         
 t
 =
@@ -421,15 +441,6 @@ begin_phase
 (
 tier
 )
-        
-self
-.
-active_tiers
-.
-add
-(
-tier
-)
     
 def
 finish_tier
@@ -454,6 +465,17 @@ finished
 "
 "
 "
+        
+self
+.
+tier_status
+[
+tier
+]
+=
+'
+finished
+'
         
 t
 =
@@ -492,60 +514,6 @@ finish_phase
 (
 tier
 )
-        
-self
-.
-active_tiers
-.
-remove
-(
-tier
-)
-    
-def
-tier_status
-(
-self
-)
-:
-        
-for
-tier
-state
-in
-self
-.
-tiers
-.
-items
-(
-)
-:
-            
-active
-=
-tier
-in
-self
-.
-active_tiers
-            
-finished
-=
-state
-[
-'
-finish_time
-'
-]
-is
-not
-None
-            
-yield
-tier
-active
-finished
     
 def
 tiered_resource_usage
