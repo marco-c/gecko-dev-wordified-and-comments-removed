@@ -6852,3 +6852,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+dom
+.
+tv
+.
+enabled
+"
+true
+)
+;
