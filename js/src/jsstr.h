@@ -100,7 +100,7 @@ JSString
 *
 ConcatStrings
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 typename
@@ -604,7 +604,7 @@ FreePolicy
 >
 DuplicateString
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -629,7 +629,7 @@ FreePolicy
 >
 DuplicateString
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -1050,7 +1050,7 @@ char16_t
 *
 InflateString
 (
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const

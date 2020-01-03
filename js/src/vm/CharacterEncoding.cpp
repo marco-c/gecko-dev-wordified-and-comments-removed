@@ -43,7 +43,7 @@ LossyTwoByteCharsToNewLatin1CharsZ
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -784,7 +784,7 @@ CharsToNewUTF8CharsZ
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -912,7 +912,7 @@ CharsToNewUTF8CharsZ
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
@@ -937,7 +937,7 @@ CharsToNewUTF8CharsZ
 js
 :
 :
-ThreadSafeContext
+ExclusiveContext
 *
 cx
 const
