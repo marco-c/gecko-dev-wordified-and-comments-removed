@@ -3684,12 +3684,12 @@ sIsResourceTimingEnabled
 }
 static
 bool
-ShouldEncodeURLHash
+EncodeDecodeURLHash
 (
 )
 {
 return
-sEncodeURLHash
+sEncodeDecodeURLHash
 ;
 }
 static
@@ -4637,7 +4637,7 @@ sIsExperimentalAutocompleteEnabled
 ;
 static
 bool
-sEncodeURLHash
+sEncodeDecodeURLHash
 ;
 static
 nsHtml5StringParser

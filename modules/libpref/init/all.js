@@ -754,9 +754,9 @@ dom
 .
 url
 .
-encode_hash
+encode_decode_hash
 "
-true
+false
 )
 ;
 #

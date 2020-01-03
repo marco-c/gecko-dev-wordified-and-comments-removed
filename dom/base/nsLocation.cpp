@@ -1269,11 +1269,10 @@ ref
 ;
 if
 (
-!
 nsContentUtils
 :
 :
-ShouldEncodeURLHash
+EncodeDecodeURLHash
 (
 )
 )
@@ -1424,7 +1423,7 @@ char16_t
 )
 )
 ;
-AppendASCIItoUTF16
+AppendUTF8toUTF16
 (
 ref
 aHash

@@ -1862,11 +1862,10 @@ char16_t
 ;
 if
 (
-!
 nsContentUtils
 :
 :
-ShouldEncodeURLHash
+EncodeDecodeURLHash
 (
 )
 )
