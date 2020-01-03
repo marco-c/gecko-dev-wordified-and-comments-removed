@@ -387,6 +387,7 @@ bool
 SupportsIsindexSubmission
 (
 )
+override
 {
 return
 true
@@ -401,6 +402,7 @@ nsAString
 &
 aValue
 )
+override
 ;
 protected
 :
