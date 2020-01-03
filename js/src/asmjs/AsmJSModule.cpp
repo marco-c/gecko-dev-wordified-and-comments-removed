@@ -4575,10 +4575,7 @@ hasLengthCheck
 size_t
 scalarByteSize
 =
-1
-<
-<
-TypedArrayShift
+TypedArrayElemSize
 (
 access
 .
@@ -4738,10 +4735,7 @@ hasLengthCheck
 size_t
 scalarByteSize
 =
-1
-<
-<
-TypedArrayShift
+TypedArrayElemSize
 (
 access
 .
