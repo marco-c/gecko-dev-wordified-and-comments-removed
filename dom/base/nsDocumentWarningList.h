@@ -1,4 +1,4 @@
 DOCUMENT_WARNING
 (
-WillChangeBudget
+WillChangeOverBudgetIgnored
 )
