@@ -109,11 +109,9 @@ const
 MediaInfo
 *
 aInfo
-nsAutoPtr
-<
 const
 MetadataTags
->
+*
 aTags
 )
 =

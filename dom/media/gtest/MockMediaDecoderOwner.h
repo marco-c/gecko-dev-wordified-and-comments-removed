@@ -89,11 +89,9 @@ const
 MediaInfo
 *
 aInfo
-nsAutoPtr
-<
 const
 MetadataTags
->
+*
 aTags
 )
 MOZ_OVERRIDE
