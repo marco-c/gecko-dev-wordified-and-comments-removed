@@ -444,6 +444,11 @@ ErrorNames
 h
 '
 '
+HoldDropJSObjects
+.
+h
+'
+'
 LinuxUtils
 .
 h

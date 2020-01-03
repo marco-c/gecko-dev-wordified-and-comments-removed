@@ -467,11 +467,6 @@ GenericFactory
 h
 '
 '
-HoldDropJSObjects
-.
-h
-'
-'
 IntentionalCrash
 .
 h
