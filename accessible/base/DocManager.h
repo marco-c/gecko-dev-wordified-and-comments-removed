@@ -185,6 +185,7 @@ aDocument
 )
 ;
 }
+static
 void
 RemoteDocShutdown
 (
@@ -199,7 +200,7 @@ bool
 >
 result
 =
-mRemoteDocuments
+sRemoteDocuments
 .
 RemoveElement
 (
@@ -223,6 +224,7 @@ document
 )
 ;
 }
+static
 void
 RemoteDocAdded
 (
@@ -234,7 +236,7 @@ aDoc
 MOZ_ASSERT
 (
 !
-mRemoteDocuments
+sRemoteDocuments
 .
 Contains
 (
@@ -252,7 +254,7 @@ doc
 "
 )
 ;
-mRemoteDocuments
+sRemoteDocuments
 .
 AppendElement
 (
@@ -453,12 +455,13 @@ XPCDocumentHashtable
 XPCDocumentHashtable
 mXPCDocumentCache
 ;
+static
 nsTArray
 <
 DocAccessibleParent
 *
 >
-mRemoteDocuments
+sRemoteDocuments
 ;
 }
 ;

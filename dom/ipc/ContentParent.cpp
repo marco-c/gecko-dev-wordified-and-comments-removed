@@ -13050,11 +13050,12 @@ MOZ_ASSERT
 aParentID
 )
 ;
-GetAccService
-(
-)
--
->
+a11y
+:
+:
+DocManager
+:
+:
 RemoteDocAdded
 (
 doc
