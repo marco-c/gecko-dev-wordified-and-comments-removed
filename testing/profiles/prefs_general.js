@@ -2223,16 +2223,6 @@ true
 user_pref
 (
 "
-loop
-.
-throttled
-"
-false
-)
-;
-user_pref
-(
-"
 browser
 .
 uitour
