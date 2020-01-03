@@ -8290,6 +8290,9 @@ cpows
 ;
 if
 (
+aCpows
+&
+&
 !
 cc
 -
@@ -8464,6 +8467,9 @@ cpows
 ;
 if
 (
+aCpows
+&
+&
 !
 cc
 -
