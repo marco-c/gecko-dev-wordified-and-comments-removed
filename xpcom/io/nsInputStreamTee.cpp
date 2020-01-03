@@ -1525,12 +1525,11 @@ return
 rv
 ;
 }
-NS_ADDREF
-(
-*
-aResult
-=
 tee
+.
+forget
+(
+aResult
 )
 ;
 return
