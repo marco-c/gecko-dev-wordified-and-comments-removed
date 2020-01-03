@@ -230,6 +230,15 @@ actors
 '
 actors
 /
+actor
+-
+registry
+.
+js
+'
+'
+actors
+/
 call
 -
 watcher

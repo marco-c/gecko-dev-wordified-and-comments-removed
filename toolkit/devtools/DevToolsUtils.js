@@ -325,6 +325,7 @@ who
 aName
 ;
 }
+return
 exports
 .
 reportException
