@@ -112,6 +112,11 @@ TestGCPostBarriers
 .
 cpp
 '
+'
+TestThreadUtils
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 =
