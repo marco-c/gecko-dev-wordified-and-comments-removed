@@ -1219,15 +1219,7 @@ weavePrefsDeck
 #
 hasFxaAccount
 >
-hbox
-:
-not
-(
-#
-tosPP
--
-normal
-)
+vbox
 >
 label
 #
@@ -1243,7 +1235,7 @@ not
 #
 tosPP
 -
-small
+normal
 )
 >
 label
