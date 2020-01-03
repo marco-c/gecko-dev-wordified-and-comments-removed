@@ -376,6 +376,11 @@ nsDocElementCreatedNotificationRunner
 h
 '
 '
+nsDocumentWarningList
+.
+h
+'
+'
 nsDOMAttributeMap
 .
 h
