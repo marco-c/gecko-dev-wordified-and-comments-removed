@@ -164,10 +164,6 @@ promise
 require
 (
 "
-projecteditor
-/
-helpers
-/
 promise
 "
 )

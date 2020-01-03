@@ -193,15 +193,6 @@ lib
 /
 helpers
 /
-promise
-.
-js
-'
-'
-lib
-/
-helpers
-/
 prompts
 .
 js
