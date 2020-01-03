@@ -6044,7 +6044,10 @@ dst
 1
 ]
 =
-scaleFactor
+src
+[
+3
+]
 ;
 }
 template
@@ -7101,7 +7104,10 @@ dst
 1
 ]
 =
-scaleFactor
+src
+[
+3
+]
 ;
 }
 template
