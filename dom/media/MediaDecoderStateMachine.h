@@ -511,6 +511,7 @@ int64_t
 GetCurrentTimeViaMediaStreamSync
 (
 )
+const
 ;
 void
 SendStreamData
@@ -556,6 +557,7 @@ bool
 IsPlaying
 (
 )
+const
 ;
 void
 NotifyWaitingForResourcesStatusChanged
@@ -873,16 +875,19 @@ int64_t
 GetAudioClock
 (
 )
+const
 ;
 int64_t
 GetVideoStreamPosition
 (
 )
+const
 ;
 int64_t
 GetClock
 (
 )
+const
 ;
 nsresult
 DropAudioUpToSeekTarget

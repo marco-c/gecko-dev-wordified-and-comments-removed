@@ -4961,6 +4961,7 @@ MediaDecoderStateMachine
 IsPlaying
 (
 )
+const
 {
 AssertCurrentThreadInMonitor
 (
@@ -5260,6 +5261,7 @@ MediaDecoderStateMachine
 GetCurrentTimeViaMediaStreamSync
 (
 )
+const
 {
 AssertCurrentThreadInMonitor
 (
@@ -11878,6 +11880,7 @@ MediaDecoderStateMachine
 GetAudioClock
 (
 )
+const
 {
 AssertCurrentThreadInMonitor
 (
@@ -11918,6 +11921,7 @@ MediaDecoderStateMachine
 GetVideoStreamPosition
 (
 )
+const
 {
 AssertCurrentThreadInMonitor
 (
@@ -11972,6 +11976,7 @@ MediaDecoderStateMachine
 GetClock
 (
 )
+const
 {
 AssertCurrentThreadInMonitor
 (
