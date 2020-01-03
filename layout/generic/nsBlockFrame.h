@@ -1305,7 +1305,7 @@ nsLineBox
 *
 aLine
 nscoord
-aDY
+aDeltaBCoord
 )
 ;
 void
