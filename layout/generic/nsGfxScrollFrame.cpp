@@ -4103,12 +4103,9 @@ IsRootOfNativeAnonymousSubtree
 GetScrollbarStyles
 (
 )
-=
-=
-ScrollbarStyles
+.
+IsHiddenInBothDirections
 (
-NS_STYLE_OVERFLOW_HIDDEN
-NS_STYLE_OVERFLOW_HIDDEN
 )
 )
 {
@@ -13702,6 +13699,7 @@ ScrollbarStyles
 (
 NS_STYLE_OVERFLOW_HIDDEN
 NS_STYLE_OVERFLOW_HIDDEN
+NS_STYLE_SCROLL_BEHAVIOR_AUTO
 )
 ;
 }
@@ -13734,6 +13732,10 @@ disp
 -
 >
 mOverflowY
+disp
+-
+>
+mScrollBehavior
 )
 ;
 }
@@ -13743,7 +13745,7 @@ result
 presContext
 -
 >
-GetViewportOverflowOverride
+GetViewportScrollbarStylesOverride
 (
 )
 ;

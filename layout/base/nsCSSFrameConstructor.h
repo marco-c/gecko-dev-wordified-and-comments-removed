@@ -69,6 +69,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+ScrollbarStyles
+.
+h
+"
 struct
 nsFrameItems
 ;

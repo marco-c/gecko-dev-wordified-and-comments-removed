@@ -936,10 +936,11 @@ mPPScale
 .
 0f
 )
-mViewportStyleOverflow
+mViewportStyleScrollbar
 (
 NS_STYLE_OVERFLOW_AUTO
 NS_STYLE_OVERFLOW_AUTO
+NS_STYLE_SCROLL_BEHAVIOR_AUTO
 )
 mImageAnimationModePref
 (
