@@ -105,6 +105,13 @@ Attributes
 h
 "
 #
+include
+"
+Units
+.
+h
+"
+#
 ifdef
 KeyPress
 #
@@ -1259,8 +1266,11 @@ PopupResized
 nsIFrame
 *
 aFrame
-nsIntSize
-ASize
+mozilla
+:
+:
+LayoutDeviceIntSize
+aSize
 )
 ;
 void
