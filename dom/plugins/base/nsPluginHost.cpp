@@ -650,13 +650,6 @@ h
 "
 #
 endif
-#
-include
-"
-npapi
-.
-h
-"
 using
 namespace
 mozilla
