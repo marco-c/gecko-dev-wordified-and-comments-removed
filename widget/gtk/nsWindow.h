@@ -1012,8 +1012,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-bool
-aRepaint
 )
 ;
 void
@@ -1027,8 +1025,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-bool
-aRepaint
 )
 ;
 void
