@@ -73,12 +73,7 @@ AsmJSUInt32ToFloat32
 \
 _
 (
-UDiv
-)
-\
-_
-(
-UMod
+UDivOrMod
 )
 \
 _
