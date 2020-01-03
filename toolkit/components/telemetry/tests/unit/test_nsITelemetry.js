@@ -2396,7 +2396,7 @@ snapshot
 ;
 Telemetry
 .
-canRecord
+canRecordExtended
 =
 false
 ;
@@ -2425,7 +2425,7 @@ snapshot
 ;
 Telemetry
 .
-canRecord
+canRecordExtended
 =
 true
 ;

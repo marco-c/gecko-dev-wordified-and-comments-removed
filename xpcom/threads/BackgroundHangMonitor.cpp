@@ -2442,7 +2442,7 @@ if
 Telemetry
 :
 :
-CanRecord
+CanRecordExtended
 (
 )
 )
@@ -2509,7 +2509,7 @@ if
 Telemetry
 :
 :
-CanRecord
+CanRecordExtended
 (
 )
 )

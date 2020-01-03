@@ -513,7 +513,7 @@ SCM_NOTHING
 Telemetry
 :
 :
-CanRecord
+CanRecordExtended
 (
 )
 )

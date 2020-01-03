@@ -30768,7 +30768,7 @@ Services
 .
 telemetry
 .
-canRecord
+canRecordExtended
 |
 |
 this
