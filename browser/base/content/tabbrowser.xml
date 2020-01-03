@@ -20309,7 +20309,7 @@ tab
 .
 TAB_SWITCH_TIMEOUT
 :
-300
+400
 /
 *
 ms
