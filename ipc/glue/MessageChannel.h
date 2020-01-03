@@ -391,6 +391,12 @@ empty
 )
 ;
 }
+int32_t
+GetTopmostMessageRoutingId
+(
+)
+const
+;
 void
 FlushPendingInterruptQueue
 (
