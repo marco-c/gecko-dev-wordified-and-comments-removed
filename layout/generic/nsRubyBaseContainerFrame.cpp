@@ -1735,6 +1735,14 @@ aReflowState
 mLineLayout
 )
 ;
+lineLayout
+-
+>
+SetSuppressLineWrap
+(
+true
+)
+;
 lineLayouts
 .
 AppendElement

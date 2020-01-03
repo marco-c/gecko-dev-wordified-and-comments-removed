@@ -522,15 +522,6 @@ justification
 ref
 .
 html
-asserts
--
-if
-(
-winWidget
-0
--
-1
-)
 =
 =
 line
@@ -549,9 +540,6 @@ breaking
 ref
 .
 html
-#
-bug
-1133697
 =
 =
 line
