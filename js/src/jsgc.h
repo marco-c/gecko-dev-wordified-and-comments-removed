@@ -4586,6 +4586,13 @@ friend
 class
 MinorCollectionTracer
 ;
+friend
+class
+js
+:
+:
+TenuringTracer
+;
 static
 const
 uintptr_t

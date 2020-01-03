@@ -1224,16 +1224,6 @@ strictCompartmentChecking
 ;
 }
 ;
-void
-SetMarkStackLimit
-(
-JSRuntime
-*
-rt
-size_t
-limit
-)
-;
 bool
 IsBufferingGrayRoots
 (
@@ -1242,10 +1232,6 @@ JSTracer
 trc
 )
 ;
-}
-namespace
-js
-{
 namespace
 gc
 {
