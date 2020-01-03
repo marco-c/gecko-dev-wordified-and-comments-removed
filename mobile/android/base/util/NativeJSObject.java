@@ -18,7 +18,7 @@ mozglue
 .
 generatorannotations
 .
-WrapEntireClassForJNI
+WrapElementForJNI
 ;
 import
 org
@@ -50,7 +50,7 @@ os
 Bundle
 ;
 JNITarget
-WrapEntireClassForJNI
+WrapElementForJNI
 public
 class
 NativeJSObject

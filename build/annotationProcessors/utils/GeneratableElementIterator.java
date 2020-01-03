@@ -303,7 +303,7 @@ mozglue
 .
 generatorannotations
 .
-WrapEntireClassForJNI
+WrapElementForJNI
 "
 )
 )

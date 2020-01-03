@@ -445,15 +445,6 @@ java
 '
 mozglue
 /
-generatorannotations
-/
-WrapEntireClassForJNI
-.
-java
-'
-'
-mozglue
-/
 JNIObject
 .
 java
