@@ -25817,13 +25817,6 @@ aMessage
 data
 .
 selectionInfo
-disableSetDesktopBackground
-:
-aMessage
-.
-data
-.
-disableSetDesktopBg
 }
 ;
 let
