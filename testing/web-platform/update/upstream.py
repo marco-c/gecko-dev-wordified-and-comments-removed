@@ -663,7 +663,7 @@ s
 %
 state
 .
-test_manifest
+old_manifest
 .
 rev
 )
@@ -705,7 +705,7 @@ checkout
 (
 state
 .
-test_manifest
+old_manifest
 .
 rev
 state
