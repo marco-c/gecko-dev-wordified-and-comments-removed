@@ -24893,10 +24893,9 @@ aShrinking
 JS
 :
 :
-GCForReason
+ShrinkingGC
 (
 rt
-GC_SHRINK
 JS
 :
 :
@@ -24939,7 +24938,6 @@ JS
 GCForReason
 (
 rt
-GC_NORMAL
 JS
 :
 :
