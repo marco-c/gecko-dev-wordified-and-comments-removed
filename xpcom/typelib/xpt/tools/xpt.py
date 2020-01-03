@@ -5576,6 +5576,10 @@ False
 builtinclass
 =
 False
+                 
+main_process_scriptable_only
+=
+False
 )
 :
         
@@ -5644,6 +5648,12 @@ self
 builtinclass
 =
 builtinclass
+        
+self
+.
+main_process_scriptable_only
+=
+main_process_scriptable_only
         
 if
 self
@@ -6153,7 +6163,7 @@ B
 flags
 &
 =
-0xE0
+0xf0
         
 if
 flags
@@ -6188,6 +6198,18 @@ flags
 self
 .
 builtinclass
+=
+True
+        
+if
+flags
+&
+0x10
+:
+            
+self
+.
+main_process_scriptable_only
 =
 True
         
@@ -6483,6 +6505,17 @@ flags
 |
 =
 0x20
+        
+if
+self
+.
+main_process_scriptable_only
+:
+            
+flags
+|
+=
+0x10
         
 file
 .

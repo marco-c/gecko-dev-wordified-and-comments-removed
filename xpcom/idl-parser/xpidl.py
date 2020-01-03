@@ -4341,6 +4341,10 @@ noscript
 =
 False
     
+main_process_scriptable_only
+=
+False
+    
 def
 setuuid
 (
@@ -4424,6 +4428,19 @@ deprecated
 =
 True
     
+def
+setmain_process_scriptable_only
+(
+self
+)
+:
+        
+self
+.
+main_process_scriptable_only
+=
+True
+    
 actions
 =
 {
@@ -4492,6 +4509,15 @@ lambda
 self
 :
 True
+)
+        
+'
+main_process_scriptable_only
+'
+:
+(
+False
+setmain_process_scriptable_only
 )
         
 }
@@ -4728,6 +4754,24 @@ append
 "
 \
 tfunction
+\
+n
+"
+)
+        
+if
+self
+.
+main_process_scriptable_only
+:
+            
+l
+.
+append
+(
+"
+\
+tmain_process_scriptable_only
 \
 n
 "
