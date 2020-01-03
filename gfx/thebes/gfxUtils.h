@@ -774,6 +774,10 @@ sDumpPainting
 ;
 static
 bool
+sDumpPaintingIntermediate
+;
+static
+bool
 sDumpPaintingToFile
 ;
 static

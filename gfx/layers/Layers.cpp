@@ -6395,7 +6395,7 @@ if
 gfxUtils
 :
 :
-sDumpPainting
+sDumpPaintingIntermediate
 )
 {
 useIntermediateSurface
