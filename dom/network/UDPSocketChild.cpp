@@ -95,6 +95,10 @@ mIPCOpen
 =
 false
 ;
+mSocket
+=
+nullptr
+;
 this
 -
 >
