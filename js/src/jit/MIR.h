@@ -2685,6 +2685,14 @@ TempAllocator
 alloc
 )
 ;
+void
+replaceAllLiveUsesWith
+(
+MDefinition
+*
+dom
+)
+;
 virtual
 bool
 updateForReplacement
