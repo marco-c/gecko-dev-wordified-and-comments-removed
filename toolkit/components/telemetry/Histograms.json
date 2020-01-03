@@ -2539,6 +2539,9 @@ NoSuchMethod
 FlagsArgument
 =
 7
+RegExpSourceProp
+=
+8
 "
 }
 "
