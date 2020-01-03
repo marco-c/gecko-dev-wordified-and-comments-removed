@@ -22992,6 +22992,12 @@ this
 STATE_LOADED
 )
 ;
+this
+.
+finishTabSwitch
+(
+)
+;
 if
 (
 this
