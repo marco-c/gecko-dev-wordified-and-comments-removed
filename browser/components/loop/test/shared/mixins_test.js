@@ -940,7 +940,7 @@ sinon
 .
 assert
 .
-calledOnce
+calledTwice
 (
 onDocumentVisibleStub
 )
