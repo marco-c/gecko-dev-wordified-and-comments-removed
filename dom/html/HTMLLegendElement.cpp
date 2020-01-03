@@ -72,6 +72,7 @@ HTMLLegendElement
 GetFieldSet
 (
 )
+const
 {
 nsIContent
 *

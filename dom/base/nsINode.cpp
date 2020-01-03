@@ -12878,3 +12878,17 @@ enabled
 )
 ;
 }
+nsINode
+*
+nsINode
+:
+:
+GetScopeChainParent
+(
+)
+const
+{
+return
+nullptr
+;
+}
