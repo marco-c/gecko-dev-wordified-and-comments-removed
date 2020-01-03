@@ -6722,6 +6722,11 @@ UnsetFlags
 NODE_FORCE_XBL_BINDINGS
 )
 ;
+bool
+clearBindingParent
+=
+true
+;
 #
 ifdef
 MOZ_XUL
@@ -6750,11 +6755,13 @@ SetXULBindingParent
 nullptr
 )
 ;
+clearBindingParent
+=
+false
+;
 }
-else
 #
 endif
-{
 nsDOMSlots
 *
 slots
@@ -6768,6 +6775,11 @@ if
 slots
 )
 {
+if
+(
+clearBindingParent
+)
+{
 slots
 -
 >
@@ -6775,6 +6787,7 @@ mBindingParent
 =
 nullptr
 ;
+}
 slots
 -
 >
@@ -6782,7 +6795,6 @@ mContainingShadow
 =
 nullptr
 ;
-}
 }
 if
 (
