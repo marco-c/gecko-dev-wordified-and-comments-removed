@@ -143,6 +143,11 @@ TestNonHeapClass
 cpp
 '
 '
+TestNoRefcountedInsideLambdas
+.
+cpp
+'
+'
 TestStackClass
 .
 cpp
