@@ -3271,7 +3271,7 @@ provider
 .
 use_corelocation
 "
-true
+false
 )
 )
 {
