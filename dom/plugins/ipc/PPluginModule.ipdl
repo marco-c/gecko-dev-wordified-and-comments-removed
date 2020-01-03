@@ -286,6 +286,11 @@ ProcessNativeEventsInInterruptCall
 ;
 child
 :
+async
+DisableFlashProtectedMode
+(
+)
+;
 /
 /
 Forces
