@@ -199,6 +199,12 @@ invalidateDuringPaint
 bool
 slowPaint
 ;
+bool
+playingAudio
+;
+bool
+audioMuted
+;
 int32_t
 winX
 ;
