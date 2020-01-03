@@ -983,10 +983,6 @@ EnterPresShell
 nsIFrame
 *
 aReferenceFrame
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 void
@@ -1000,10 +996,6 @@ LeavePresShell
 nsIFrame
 *
 aReferenceFrame
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 bool
@@ -2036,9 +2028,6 @@ mCaretFrame
 ;
 nsRect
 mCaretRect
-;
-nsRect
-mPrevDirtyRect
 ;
 uint32_t
 mFirstFrameMarkedForDisplay

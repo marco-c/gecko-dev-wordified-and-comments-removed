@@ -1922,7 +1922,6 @@ aBuilder
 EnterPresShell
 (
 subdocRootFrame
-dirty
 )
 ;
 }
@@ -2283,7 +2282,6 @@ aBuilder
 LeavePresShell
 (
 subdocRootFrame
-dirty
 )
 ;
 if
