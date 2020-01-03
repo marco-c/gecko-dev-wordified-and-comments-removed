@@ -453,6 +453,11 @@ LoadExtensionBundleDirectories
 )
 ;
 void
+LoadAppBundleDirs
+(
+)
+;
+void
 Append
 (
 nsIFile
