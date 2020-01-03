@@ -387,6 +387,16 @@ return
 mCustomContentContainer
 ;
 }
+void
+ShowCustomContentContainer
+(
+)
+;
+void
+HideCustomContentContainer
+(
+)
+;
 NS_IMETHOD
 SetHasFocus
 (
