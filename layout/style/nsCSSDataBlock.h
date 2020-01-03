@@ -677,6 +677,11 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
+nsCSSProps
+:
+:
+EnabledState
+aEnabledState
 bool
 aIsImportant
 bool

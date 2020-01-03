@@ -2868,7 +2868,7 @@ aPropID
 nsCSSProps
 :
 :
-eEnabledForAllContent
+eIgnoreEnabledState
 )
 {
 ClearLonghandProperty
@@ -2947,6 +2947,11 @@ nsCSSExpandedDataBlock
 aFromBlock
 nsCSSProperty
 aPropID
+nsCSSProps
+:
+:
+EnabledState
+aEnabledState
 bool
 aIsImportant
 bool
@@ -2994,10 +2999,7 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aPropID
-nsCSSProps
-:
-:
-eEnabledForAllContent
+aEnabledState
 )
 {
 changed
