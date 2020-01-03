@@ -403,6 +403,12 @@ _data
 data
 ;
 }
+Cu
+.
+skipCOWCallableChecks
+(
+)
+;
 TCPSocketEvent
 .
 prototype

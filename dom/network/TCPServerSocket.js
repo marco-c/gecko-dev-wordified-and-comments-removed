@@ -193,6 +193,12 @@ useWin
 null
 ;
 }
+Cu
+.
+skipCOWCallableChecks
+(
+)
+;
 TCPServerSocket
 .
 prototype

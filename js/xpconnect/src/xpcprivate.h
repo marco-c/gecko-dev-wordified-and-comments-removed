@@ -13936,6 +13936,10 @@ forcePermissiveCOWs
 (
 false
 )
+skipCOWCallableChecks
+(
+false
+)
 scriptability
 (
 c
@@ -14045,6 +14049,9 @@ universalXPConnectEnabled
 ;
 bool
 forcePermissiveCOWs
+;
+bool
+skipCOWCallableChecks
 ;
 bool
 wrapperDenialWarnings
