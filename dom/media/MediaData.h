@@ -443,6 +443,7 @@ VideoData
 >
 Create
 (
+const
 VideoInfo
 &
 aInfo
@@ -479,6 +480,7 @@ VideoData
 >
 Create
 (
+const
 VideoInfo
 &
 aInfo
@@ -512,6 +514,7 @@ VideoData
 >
 Create
 (
+const
 VideoInfo
 &
 aInfo
@@ -545,6 +548,7 @@ VideoData
 >
 Create
 (
+const
 VideoInfo
 &
 aInfo
@@ -580,6 +584,7 @@ VideoData
 >
 CreateFromImage
 (
+const
 VideoInfo
 &
 aInfo
@@ -616,6 +621,7 @@ VideoData
 >
 ShallowCopyUpdateDuration
 (
+const
 VideoData
 *
 aOther
@@ -630,6 +636,7 @@ VideoData
 >
 ShallowCopyUpdateTimestamp
 (
+const
 VideoData
 *
 aOther
@@ -644,6 +651,7 @@ VideoData
 >
 ShallowCopyUpdateTimestampAndDuration
 (
+const
 VideoData
 *
 aOther
@@ -660,6 +668,7 @@ SetVideoDataToImage
 PlanarYCbCrImage
 *
 aVideoImage
+const
 VideoInfo
 &
 aInfo
