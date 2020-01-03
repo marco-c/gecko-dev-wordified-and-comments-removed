@@ -656,6 +656,13 @@ mCompositableChild
 return
 ;
 }
+mForwarder
+-
+>
+SendPendingAsyncMessges
+(
+)
+;
 mCompositableChild
 -
 >

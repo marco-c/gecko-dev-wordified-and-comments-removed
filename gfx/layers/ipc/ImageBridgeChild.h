@@ -790,8 +790,9 @@ IsSameProcess
 const
 MOZ_OVERRIDE
 ;
+virtual
 void
-SendPendingAsyncMessge
+SendPendingAsyncMessges
 (
 )
 ;

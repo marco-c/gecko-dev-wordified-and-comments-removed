@@ -682,8 +682,9 @@ Composite
 (
 )
 ;
+virtual
 void
-SendPendingAsyncMessge
+SendPendingAsyncMessges
 (
 )
 ;
@@ -890,6 +891,15 @@ private
 Transaction
 *
 mTxn
+;
+std
+:
+:
+vector
+<
+AsyncChildMessageData
+>
+mPendingAsyncMessages
 ;
 DiagnosticTypes
 mDiagnosticTypes
