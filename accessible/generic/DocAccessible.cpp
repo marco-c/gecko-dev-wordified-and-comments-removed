@@ -1927,12 +1927,11 @@ IPCAccessibilityActive
 )
 )
 {
-DocAccessibleChild
-:
-:
-Send__delete__
-(
 mIPCDoc
+-
+>
+Shutdown
+(
 )
 ;
 MOZ_ASSERT

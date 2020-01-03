@@ -365,6 +365,14 @@ aID
 return
 mDoc
 ;
+if
+(
+!
+mDoc
+)
+return
+nullptr
+;
 return
 mDoc
 -

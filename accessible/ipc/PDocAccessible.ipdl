@@ -253,7 +253,7 @@ PBrowser
 ;
 parent
 :
-__delete__
+Shutdown
 (
 )
 ;
@@ -347,6 +347,10 @@ aID
 ;
 child
 :
+__delete__
+(
+)
+;
 /
 /
 Accessible
