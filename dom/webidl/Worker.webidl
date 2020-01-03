@@ -190,6 +190,7 @@ Exposed
 (
 Window
 Worker
+System
 )
 ]
 interface
@@ -256,6 +257,7 @@ Exposed
 (
 Window
 Worker
+System
 )
 ]
 interface

@@ -100,6 +100,12 @@ optional
 ErrorEventInit
 eventInitDict
 )
+Exposed
+=
+(
+Window
+System
+)
 ]
 interface
 ErrorEvent
