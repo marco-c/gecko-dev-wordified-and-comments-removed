@@ -132,7 +132,7 @@ bool
 aWrapping
 bool
 *
-didFind
+aDidFind
 )
 ;
 nsresult
@@ -185,7 +185,7 @@ GetDocShellFromWindow
 (
 nsIDOMWindow
 *
-inWindow
+aWindow
 )
 ;
 void
