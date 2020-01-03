@@ -151,12 +151,6 @@ MediaTrackConstraintSet
 {
 sequence
 <
-DOMString
->
-require
-;
-sequence
-<
 MediaTrackConstraintSet
 >
 advanced

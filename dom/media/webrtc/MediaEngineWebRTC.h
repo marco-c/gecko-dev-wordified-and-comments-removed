@@ -474,7 +474,10 @@ nsresult
 Allocate
 (
 const
-VideoTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const
@@ -821,7 +824,10 @@ nsresult
 Allocate
 (
 const
-AudioTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const

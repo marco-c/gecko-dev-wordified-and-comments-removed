@@ -287,7 +287,10 @@ MediaEngineDefaultVideoSource
 Allocate
 (
 const
-VideoTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const
@@ -1586,7 +1589,10 @@ MediaEngineDefaultAudioSource
 Allocate
 (
 const
-AudioTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const

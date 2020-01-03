@@ -170,6 +170,11 @@ MediaEngineWebRTCVideo
 .
 cpp
 '
+'
+MediaTrackConstraints
+.
+cpp
+'
 ]
 #
 MediaEngineWebRTC

@@ -579,7 +579,10 @@ MediaEngineGonkVideoSource
 Allocate
 (
 const
-VideoTrackConstraintsN
+dom
+:
+:
+MediaTrackConstraints
 &
 aConstraints
 const
