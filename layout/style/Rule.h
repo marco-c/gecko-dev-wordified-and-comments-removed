@@ -401,6 +401,7 @@ mSheet
 ;
 GroupRule
 *
+MOZ_NON_OWNING_REF
 mParentRule
 ;
 uint32_t
