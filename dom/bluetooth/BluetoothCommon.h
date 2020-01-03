@@ -912,6 +912,12 @@ requestmediaplaystatus
 "
 #
 define
+GATT_CHARACTERISTIC_CHANGED_ID
+"
+characteristicchanged
+"
+#
+define
 GATT_CONNECTION_STATE_CHANGED_ID
 "
 connectionstatechanged
@@ -1905,7 +1911,7 @@ mCharId
 uint16_t
 mLength
 ;
-uint8_t
+bool
 mIsNotify
 ;
 }

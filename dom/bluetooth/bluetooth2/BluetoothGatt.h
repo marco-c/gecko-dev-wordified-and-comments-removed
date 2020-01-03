@@ -139,6 +139,11 @@ mServices
 }
 IMPL_EVENT_HANDLER
 (
+characteristicchanged
+)
+;
+IMPL_EVENT_HANDLER
+(
 connectionstatechanged
 )
 ;
@@ -270,6 +275,15 @@ aUuidString
 ;
 void
 HandleServicesDiscovered
+(
+const
+BluetoothValue
+&
+aValue
+)
+;
+void
+HandleCharacteristicChanged
 (
 const
 BluetoothValue

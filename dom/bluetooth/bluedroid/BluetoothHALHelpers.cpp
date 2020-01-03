@@ -1701,9 +1701,14 @@ aOut
 .
 mIsNotify
 =
+(
 aIn
 .
 is_notify
+!
+=
+0
+)
 ;
 return
 NS_OK
