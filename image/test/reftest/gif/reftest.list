@@ -488,6 +488,16 @@ parts
 .
 "
 )
+#
+(
+Disabled
+due
+to
+bug
+1079627
+.
+)
+#
 skip
 -
 if
