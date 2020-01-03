@@ -1920,6 +1920,14 @@ ins
 )
 ;
 bool
+visitMemoryBarrier
+(
+MMemoryBarrier
+*
+ins
+)
+;
+bool
 visitSimdExtractElement
 (
 MSimdExtractElement
