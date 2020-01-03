@@ -48,11 +48,11 @@ prettyprinters
 import
 mozilla
 .
-Interpreter
+GCCellPtr
 import
 mozilla
 .
-jsid
+Interpreter
 import
 mozilla
 .
@@ -68,11 +68,15 @@ JSSymbol
 import
 mozilla
 .
-jsval
+Root
 import
 mozilla
 .
-Root
+jsid
+import
+mozilla
+.
+jsval
 try
 :
     
