@@ -376,6 +376,12 @@ IsInEffect
 )
 ;
 }
+bool
+CanThrottle
+(
+)
+const
+;
 Nullable
 <
 TimeDuration
