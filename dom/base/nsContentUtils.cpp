@@ -26018,6 +26018,11 @@ principal
 )
 )
 ;
+if
+(
+principal
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -26062,6 +26067,7 @@ uri
 aOrigin
 )
 ;
+}
 }
 }
 aOrigin
