@@ -146,6 +146,13 @@ GetOverscroll
 )
 const
 ;
+void
+StartOverscrollAnimation
+(
+float
+aVelocity
+)
+;
 bool
 SampleOverscrollAnimation
 (
@@ -153,6 +160,11 @@ const
 TimeDuration
 &
 aDelta
+)
+;
+void
+EndOverscrollAnimation
+(
 )
 ;
 bool
@@ -461,7 +473,7 @@ aOverscroll
 const
 ;
 void
-StopSamplingOverscrollAnimation
+ClearOverscrollAnimationState
 (
 )
 ;
