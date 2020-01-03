@@ -372,6 +372,7 @@ labelName
 className
 =
 "
+plain
 marker
 -
 details
@@ -384,6 +385,7 @@ labelValue
 className
 =
 "
+plain
 marker
 -
 details
