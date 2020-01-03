@@ -647,6 +647,16 @@ mips
 '
 )
 :
+SOURCES
++
+=
+[
+'
+BlurLS3
+.
+cpp
+'
+]
 if
 CONFIG
 [
