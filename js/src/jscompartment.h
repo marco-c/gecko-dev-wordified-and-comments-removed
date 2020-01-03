@@ -1956,6 +1956,9 @@ DeprecatedLetExpression
 DeprecatedNoSuchMethod
 =
 6
+DeprecatedFlagsArgument
+=
+7
 DeprecatedLanguageExtensionCount
 }
 ;
