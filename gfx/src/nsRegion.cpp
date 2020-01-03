@@ -1397,12 +1397,6 @@ destRect
 =
 boxes
 ;
-pixman_box32_t
-*
-rect
-=
-tmpRect
-;
 while
 (
 topRectsEnd
@@ -1495,6 +1489,10 @@ totalArea
 aThreshold
 )
 {
+pixman_box32_t
+*
+rect
+;
 rect
 =
 MergeRects
