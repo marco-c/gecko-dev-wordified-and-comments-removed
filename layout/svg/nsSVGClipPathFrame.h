@@ -35,7 +35,7 @@ nsSVGUtils
 h
 "
 class
-nsRenderingContext
+gfxContext
 ;
 class
 nsISVGChildFrame
@@ -113,8 +113,8 @@ MOZ_OVERRIDE
 nsresult
 ApplyClipOrPaintClipMask
 (
-nsRenderingContext
-*
+gfxContext
+&
 aContext
 nsIFrame
 *

@@ -2888,7 +2888,8 @@ clipPathFrame
 >
 ApplyClipOrPaintClipMask
 (
-aContext
+*
+gfx
 aFrame
 aTransform
 )
@@ -3129,7 +3130,8 @@ clipPathFrame
 >
 ApplyClipOrPaintClipMask
 (
-aContext
+*
+gfx
 aFrame
 aTransform
 )
