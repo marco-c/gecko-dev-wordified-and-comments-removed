@@ -116,6 +116,10 @@ aParent
 nullptr
 )
 ;
+Box
+(
+)
+;
 bool
 IsAvailable
 (
