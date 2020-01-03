@@ -3241,6 +3241,7 @@ if
 (
 parent
 )
+{
 atkParent
 =
 GetWrapperFor
@@ -3248,6 +3249,9 @@ GetWrapperFor
 parent
 )
 ;
+}
+else
+{
 atkParent
 =
 AccessibleWrap
@@ -3263,6 +3267,7 @@ OuterDocOfRemoteBrowser
 )
 )
 ;
+}
 }
 if
 (
