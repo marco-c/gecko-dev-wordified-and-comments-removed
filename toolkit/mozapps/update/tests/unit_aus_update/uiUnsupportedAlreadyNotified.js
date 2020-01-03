@@ -63,10 +63,6 @@ standardInit
 (
 )
 ;
-start_httpserver
-(
-)
-;
 let
 registrar
 =
