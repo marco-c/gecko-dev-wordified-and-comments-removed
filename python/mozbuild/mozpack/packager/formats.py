@@ -176,6 +176,9 @@ methods
 add_base
 (
 path
+[
+addon
+]
 )
         
 Register
@@ -187,10 +190,13 @@ an
 application
 or
 GRE
+or
+an
+addon
 .
+        
 Base
 directories
-        
 usually
 contain
 a
@@ -199,17 +205,35 @@ manifest
 (
 manifests
 not
+        
 included
 in
 any
 other
-        
 manifest
 )
 named
 chrome
 .
 manifest
+.
+        
+The
+optional
+boolean
+addon
+argument
+tells
+whether
+the
+base
+directory
+        
+is
+that
+of
+an
+addon
 .
     
 -
@@ -383,6 +407,13 @@ _bases
         
 self
 .
+_addons
+=
+[
+]
+        
+self
+.
 _frozen_bases
 =
 False
@@ -392,6 +423,9 @@ add_base
 (
 self
 base
+addon
+=
+False
 )
 :
         
@@ -413,6 +447,26 @@ _bases
 self
 .
 _bases
+.
+append
+(
+base
+)
+        
+if
+addon
+and
+base
+not
+in
+self
+.
+_addons
+:
+            
+self
+.
+_addons
 .
 append
 (
@@ -1416,7 +1470,7 @@ chrome
 class
 OmniJarFormatter
 (
-FlatFormatter
+JarFormatter
 )
 :
     
@@ -1456,12 +1510,14 @@ non_resources
 )
 :
         
-FlatFormatter
+JarFormatter
 .
 __init__
 (
 self
 copier
+compress
+optimize
 )
         
 self
@@ -1479,30 +1535,18 @@ omnijar_name
         
 self
 .
-_compress
-=
-compress
-        
-self
-.
-_optimize
-=
-optimize
-        
-self
-.
 _non_resources
 =
 non_resources
     
 def
-_get_omnijar
+_get_formatter
 (
 self
 path
-create
+is_resource
 =
-True
+None
 )
 :
         
@@ -1512,7 +1556,10 @@ True
         
 Return
 the
-omnijar
+(
+sub
+)
+formatter
 corresponding
 to
 the
@@ -1520,18 +1567,15 @@ given
 path
 its
 base
-directory
         
+directory
 and
 the
 path
-translated
+relative
 to
-be
-under
-the
-omnijar
-.
+that
+base
 .
         
 '
@@ -1547,6 +1591,54 @@ _get_base
 path
 )
         
+use_omnijar
+=
+base
+not
+in
+self
+.
+_addons
+        
+if
+use_omnijar
+:
+            
+if
+is_resource
+is
+None
+:
+                
+is_resource
+=
+self
+.
+is_resource
+(
+path
+base
+)
+            
+use_omnijar
+=
+is_resource
+        
+if
+not
+use_omnijar
+:
+            
+return
+super
+(
+OmniJarFormatter
+self
+)
+'
+'
+path
+        
 if
 not
 base
@@ -1555,17 +1647,6 @@ self
 .
 omnijars
 :
-            
-if
-not
-create
-:
-                
-return
-None
-'
-'
-path
             
 omnijar
 =
@@ -1639,38 +1720,21 @@ content
 )
 :
         
-if
-self
-.
-is_resource
-(
-path
-)
-:
-            
 formatter
 base
 path
 =
 self
 .
-_get_omnijar
+_get_formatter
 (
 path
 )
         
-else
-:
-            
 formatter
-=
-self
-        
-FlatFormatter
 .
 add
 (
-formatter
 path
 content
 )
@@ -1694,7 +1758,11 @@ ManifestBinaryComponent
 formatter
 base
 =
+super
+(
+OmniJarFormatter
 self
+)
 '
 '
         
@@ -1707,11 +1775,15 @@ path
 =
 self
 .
-_get_omnijar
+_get_formatter
 (
 entry
 .
 base
+                                                        
+is_resource
+=
+True
 )
         
 entry
@@ -1733,11 +1805,10 @@ base
 )
 )
         
-FlatFormatter
+formatter
 .
 add_manifest
 (
-formatter
 entry
 )
     
@@ -1756,16 +1827,15 @@ path
 =
 self
 .
-_get_omnijar
+_get_formatter
 (
 path
 )
         
-FlatFormatter
+formatter
 .
 add_interfaces
 (
-formatter
 path
 content
 )
@@ -1841,6 +1911,9 @@ is_resource
 (
 self
 path
+base
+=
+None
 )
 :
         
@@ -1871,6 +1944,12 @@ archive
 '
 '
         
+if
+base
+is
+None
+:
+            
 base
 =
 self
@@ -1991,10 +2070,16 @@ path
 .
 endswith
 (
+(
 '
 .
 js
 '
+'
+.
+xpt
+'
+)
 )
         
 if
