@@ -464,6 +464,10 @@ jar
 (
 ANDROID_COMPAT_LIB
 )
+:
+(
+ANDROID_RECYCLERVIEW_LIB
+)
 #
 We
 also
