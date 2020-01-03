@@ -4280,6 +4280,12 @@ void
 aPropertyValue
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+sDestroyedFrame
+)
+;
 sDestroyedFrame
 =
 aFrame
