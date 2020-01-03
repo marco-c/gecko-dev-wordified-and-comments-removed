@@ -9163,9 +9163,8 @@ payload
 )
 {
 return
-ObjectValue
+ObjectOrNullValue
 (
-*
 reinterpret_cast
 <
 JSObject

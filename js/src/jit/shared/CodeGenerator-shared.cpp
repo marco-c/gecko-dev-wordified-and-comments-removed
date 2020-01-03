@@ -2073,6 +2073,9 @@ case
 MIRType_Object
 :
 case
+MIRType_ObjectOrNull
+:
+case
 MIRType_Boolean
 :
 case
@@ -2098,6 +2101,15 @@ allocIndex
 JSValueType
 valueType
 =
+(
+type
+=
+=
+MIRType_ObjectOrNull
+)
+?
+JSVAL_TYPE_OBJECT
+:
 ValueTypeFromMIRType
 (
 type
