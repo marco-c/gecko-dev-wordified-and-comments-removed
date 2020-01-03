@@ -7973,14 +7973,16 @@ cx
 obj
 js_Math_str
 Math
-0
+JSPROP_RESOLVING
 JS_STUBGETTER
 JS_STUBSETTER
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !

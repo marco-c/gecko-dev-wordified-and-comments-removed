@@ -6782,12 +6782,14 @@ Atomics
 AtomicsValue
 nullptr
 nullptr
-0
+JSPROP_RESOLVING
 )
 )
+{
 return
 nullptr
 ;
+}
 global
 -
 >

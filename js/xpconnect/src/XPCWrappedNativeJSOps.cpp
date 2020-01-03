@@ -790,6 +790,11 @@ char
 *
 name
 ;
+propFlags
+|
+=
+JSPROP_RESOLVING
+;
 if
 (
 set
@@ -1651,6 +1656,15 @@ resolved
 resolved
 =
 true
+;
+desc
+.
+attributesRef
+(
+)
+|
+=
+JSPROP_RESOLVING
 ;
 return
 JS_DefinePropertyById

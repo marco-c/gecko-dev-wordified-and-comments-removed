@@ -353,7 +353,7 @@ cx
 obj
 id
 allValue
-0
+JSPROP_RESOLVING
 )
 )
 return

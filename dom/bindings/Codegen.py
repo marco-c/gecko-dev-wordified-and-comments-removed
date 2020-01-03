@@ -54001,9 +54001,21 @@ value
 isUndefined
 (
 )
-&
-&
-                
+)
+{
+              
+desc
+.
+attributesRef
+(
+)
+|
+=
+JSPROP_RESOLVING
+;
+              
+if
+(
 !
 JS_DefinePropertyById
 (
@@ -54014,10 +54026,12 @@ desc
 )
 )
 {
-              
+                
 return
 false
 ;
+              
+}
             
 }
             

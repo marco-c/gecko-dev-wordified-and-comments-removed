@@ -953,6 +953,8 @@ unsigned
 attrs
 =
 JSPROP_READONLY
+|
+JSPROP_RESOLVING
 ;
 nsCOMPtr
 <
