@@ -1051,6 +1051,8 @@ const
 JsepSession
 &
 session
+bool
+restartGathering
 )
 ;
 void
