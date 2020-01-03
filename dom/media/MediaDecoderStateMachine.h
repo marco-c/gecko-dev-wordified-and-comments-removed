@@ -1327,7 +1327,7 @@ StopAudioThread
 (
 )
 ;
-nsresult
+void
 StartAudioThread
 (
 )
@@ -3545,6 +3545,12 @@ nsRefPtr
 MediaResource
 >
 mResource
+;
+MozPromiseRequestHolder
+<
+GenericPromise
+>
+mAudioSinkPromise
 ;
 private
 :
