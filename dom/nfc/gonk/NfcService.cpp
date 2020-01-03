@@ -79,6 +79,17 @@ include
 "
 mozilla
 /
+ipc
+/
+NfcConnector
+.
+h
+"
+#
+include
+"
+mozilla
+/
 unused
 .
 h
@@ -1863,6 +1874,7 @@ Listen
 new
 NfcConnector
 (
+mListenSocketName
 )
 mConsumer
 )
