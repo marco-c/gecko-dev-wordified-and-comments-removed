@@ -3128,6 +3128,8 @@ const
 LAllocation
 *
 index
+int32_t
+offsetAdjustment
 )
 ;
 bool
@@ -3139,6 +3141,8 @@ const
 LAllocation
 *
 index
+int32_t
+offsetAdjustment
 LSnapshot
 *
 snapshot
