@@ -495,6 +495,14 @@ CompilerConstraintList
 constraints
 )
 ;
+void
+watchStateChangeForUnboxedConvertedToNative
+(
+CompilerConstraintList
+*
+constraints
+)
+;
 HeapTypeSetKey
 property
 (

@@ -1835,6 +1835,14 @@ lir
 )
 ;
 void
+visitConvertUnboxedObjectToNative
+(
+LConvertUnboxedObjectToNative
+*
+lir
+)
+;
+void
 emitArrayPopShift
 (
 LInstruction

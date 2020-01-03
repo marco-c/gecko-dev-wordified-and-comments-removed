@@ -1344,6 +1344,14 @@ ins
 )
 ;
 void
+visitConvertUnboxedObjectToNative
+(
+MConvertUnboxedObjectToNative
+*
+ins
+)
+;
+void
 visitEffectiveAddress
 (
 MEffectiveAddress
