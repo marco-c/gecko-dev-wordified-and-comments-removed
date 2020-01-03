@@ -823,6 +823,17 @@ GetD3D11MediaDevice
 mozilla
 :
 :
+TemporaryRef
+<
+ID3D11Device
+>
+CreateD3D11DecoderDevice
+(
+)
+;
+mozilla
+:
+:
 layers
 :
 :
