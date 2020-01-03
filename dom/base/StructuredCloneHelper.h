@@ -767,15 +767,6 @@ nsRefPtr
 MessagePortBase
 >
 >
-mTransferringPort
-;
-nsTArray
-<
-nsRefPtr
-<
-MessagePortBase
->
->
 mTransferredPorts
 ;
 nsTArray
