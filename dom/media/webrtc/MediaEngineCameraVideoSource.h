@@ -336,6 +336,13 @@ aPrefs
 Monitor
 mMonitor
 ;
+nsTArray
+<
+SourceMediaStream
+*
+>
+mSources
+;
 nsRefPtr
 <
 layers
@@ -357,13 +364,6 @@ mImageContainer
 int
 mWidth
 mHeight
-;
-nsTArray
-<
-SourceMediaStream
-*
->
-mSources
 ;
 bool
 mInitDone
