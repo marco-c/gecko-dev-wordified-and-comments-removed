@@ -6458,8 +6458,8 @@ names
 .
 NaN
 valueNaN
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -6480,8 +6480,8 @@ names
 .
 Infinity
 valueInfinity
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
