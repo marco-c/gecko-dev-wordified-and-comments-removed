@@ -111,7 +111,7 @@ h
 #
 include
 "
-nsPrintingPromptServiceProxy
+nsPrintingProxy
 .
 h
 "
@@ -179,7 +179,7 @@ ifdef
 PROXY_PRINTING
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsPrintingPromptServiceProxy
+nsPrintingProxy
 Init
 )
 #
@@ -307,7 +307,7 @@ MAIN_PROCESS_ONLY
 kNS_PRINTINGPROMPTSERVICE_CID
 false
 nullptr
-nsPrintingPromptServiceProxyConstructor
+nsPrintingProxyConstructor
 mozilla
 :
 :
