@@ -1595,16 +1595,6 @@ schemeIs
 https
 "
 )
-|
-|
-uri
-.
-schemeIs
-(
-"
-file
-"
-)
 )
 )
 {
