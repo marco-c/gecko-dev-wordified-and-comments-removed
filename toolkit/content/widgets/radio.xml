@@ -3255,7 +3255,7 @@ if
 !
 this
 .
-radioGroup
+control
 )
 return
 ;
@@ -3264,9 +3264,9 @@ radioList
 =
 this
 .
-radioGroup
+control
 .
-mRadioChildren
+_radioChildren
 ;
 if
 (
