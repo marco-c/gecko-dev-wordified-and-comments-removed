@@ -182,11 +182,6 @@ nsIRilMobileMessageDatabaseService
 .
 idl
 '
-'
-nsISmsMessenger
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
