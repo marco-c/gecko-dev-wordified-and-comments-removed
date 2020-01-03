@@ -601,6 +601,15 @@ h
 '
 apz
 /
+src
+/
+AsyncPanZoomAnimation
+.
+h
+'
+'
+apz
+/
 testutil
 /
 APZTestData
