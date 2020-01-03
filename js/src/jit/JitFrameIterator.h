@@ -1911,6 +1911,9 @@ computeScopeChain
 (
 Value
 scopeChainValue
+MaybeReadFallback
+&
+fallback
 bool
 *
 hasCallObj
@@ -2106,6 +2109,7 @@ computeScopeChain
 (
 scopeChainValue
 hasCallObj
+fallback
 )
 ;
 if
@@ -2479,6 +2483,7 @@ return
 computeScopeChain
 (
 v
+fallback
 )
 ;
 }
