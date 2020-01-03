@@ -173,7 +173,7 @@ Notify
 )
 ;
 void
-TuruOnSpeaker
+TurnOnSpeaker
 (
 bool
 aEnable
