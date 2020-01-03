@@ -977,6 +977,14 @@ result
 )
 ;
 }
+result
+-
+>
+mBits
+|
+=
+NS_STYLE_IS_SHARED
+;
 }
 return
 result
