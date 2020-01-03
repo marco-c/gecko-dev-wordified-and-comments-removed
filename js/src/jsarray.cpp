@@ -15954,6 +15954,17 @@ ArrayKeys
 0
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+includes
+"
+"
+ArrayIncludes
+"
+2
+0
+)
 JS_FS_END
 }
 ;
