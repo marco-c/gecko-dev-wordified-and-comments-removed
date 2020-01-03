@@ -4037,6 +4037,17 @@ mHeight
 gl
 -
 >
+fScissor
+(
+0
+0
+mWidth
+mHeight
+)
+;
+gl
+-
+>
 fBindFramebuffer
 (
 LOCAL_GL_FRAMEBUFFER
