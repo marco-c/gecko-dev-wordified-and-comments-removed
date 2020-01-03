@@ -358,7 +358,7 @@ null
 assertCountIsAndClose
 (
 c
-7
+6
 "
 All
 non
