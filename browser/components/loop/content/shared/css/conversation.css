@@ -2373,9 +2373,7 @@ fx
 -
 embedded
 .
-OT_video
--
-container
+OT_subscriber
 .
 OT_video
 -
@@ -2450,7 +2448,7 @@ conversation
 .
 OT_publisher
 .
-OT_video
+OT_widget
 -
 container
 {
@@ -2494,7 +2492,7 @@ conversation
 .
 OT_publisher
 .
-OT_video
+OT_widget
 -
 container
 video
@@ -2521,7 +2519,7 @@ preview
 .
 OT_publisher
 .
-OT_video
+OT_widget
 -
 container
 .
@@ -2539,7 +2537,7 @@ preview
 .
 OT_publisher
 .
-OT_video
+OT_widget
 -
 container
 video

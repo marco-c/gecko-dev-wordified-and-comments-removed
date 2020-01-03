@@ -785,7 +785,7 @@ media
 .
 OT_subscriber
 .
-OT_video
+OT_widget
 -
 container
 "
