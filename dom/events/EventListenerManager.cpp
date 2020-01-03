@@ -7142,11 +7142,6 @@ HasEventHandler
 )
 )
 {
-JS
-:
-:
-ExposeObjectToActiveJS
-(
 typedHandler
 .
 Ptr
@@ -7154,9 +7149,8 @@ Ptr
 )
 -
 >
-Callable
+MarkForCC
 (
-)
 )
 ;
 }
@@ -7210,7 +7204,7 @@ GetWebIDLCallback
 )
 -
 >
-Callback
+MarkForCC
 (
 )
 ;
