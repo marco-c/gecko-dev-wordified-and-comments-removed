@@ -86,12 +86,12 @@ style
 name
 =
 "
-TabsList
+TabsLayout
 "
 parent
 =
 "
-TabsListBase
+TabsLayoutBase
 "
 >
 <

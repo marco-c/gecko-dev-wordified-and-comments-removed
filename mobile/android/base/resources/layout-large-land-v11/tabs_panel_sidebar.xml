@@ -308,7 +308,7 @@ gecko
 tabs
 .
 TabsPanel
-PanelViewContainer
+TabsLayoutContainer
 "
 android
 :
@@ -375,7 +375,7 @@ style
 "
 style
 /
-TabsList
+TabsLayout
 "
 android
 :

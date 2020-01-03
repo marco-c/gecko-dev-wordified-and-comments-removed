@@ -5390,8 +5390,7 @@ style
 !
 -
 -
-TabsTray
-List
+TabsLayout
 -
 -
 >
@@ -5400,7 +5399,7 @@ style
 name
 =
 "
-TabsListBase
+TabsLayoutBase
 "
 >
 <
@@ -5450,12 +5449,12 @@ style
 name
 =
 "
-TabsList
+TabsLayout
 "
 parent
 =
 "
-TabsListBase
+TabsLayoutBase
 "
 >
 <
@@ -6659,7 +6658,7 @@ style
 !
 -
 -
-TabsTray
+TabsLayout
 Row
 -
 -
@@ -6669,7 +6668,7 @@ style
 name
 =
 "
-TabRowTextAppearance
+TabLayoutItemTextAppearance
 "
 >
 <
@@ -6726,7 +6725,7 @@ style
 !
 -
 -
-TabsTray
+TabsLayout
 RemoteTabs
 Row
 Url
@@ -6738,7 +6737,7 @@ style
 name
 =
 "
-TabRowTextAppearance
+TabLayoutItemTextAppearance
 .
 Url
 "

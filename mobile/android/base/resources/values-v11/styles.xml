@@ -593,7 +593,7 @@ style
 !
 -
 -
-TabsTray
+TabsLayout
 ActionBar
 -
 -
@@ -605,7 +605,7 @@ name
 "
 ActionBar
 .
-TabsTray
+TabsLayout
 "
 >
 <

@@ -3464,7 +3464,7 @@ AdapterView
 <
 ListAdapter
 >
-getTabsList
+getTabsLayout
 (
 )
 {
@@ -3538,7 +3538,7 @@ ListAdapter
 >
 view
 =
-getTabsList
+getTabsLayout
 (
 )
 ;

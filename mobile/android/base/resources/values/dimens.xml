@@ -1382,7 +1382,7 @@ dimen
 name
 =
 "
-tabs_tray_horizontal_height
+tabs_layout_horizontal_height
 "
 >
 156dp

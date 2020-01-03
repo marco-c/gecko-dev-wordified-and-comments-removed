@@ -378,7 +378,7 @@ reason
 scrolling
 in
 the
-TabsListLayout
+TabsLayout
 does
 not
 work
@@ -419,14 +419,14 @@ id
 +
 id
 /
-private_tabs_tray
+private_tabs_layout
 "
 style
 =
 "
 style
 /
-TabsList
+TabsLayout
 "
 android
 :
