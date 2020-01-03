@@ -172,6 +172,11 @@ popup
 -
 mainView
 "
+flex
+=
+"
+1
+"
 >
 <
 !
@@ -475,6 +480,15 @@ vbox
 <
 /
 hbox
+>
+<
+spacer
+flex
+=
+"
+1
+"
+/
 >
 <
 !
