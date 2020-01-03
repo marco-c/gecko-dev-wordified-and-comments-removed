@@ -6739,7 +6739,7 @@ struct
 -
 assertions
 .
-enabed
+enabled
 "
 )
 ;
