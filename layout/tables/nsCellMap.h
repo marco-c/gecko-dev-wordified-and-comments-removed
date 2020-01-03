@@ -539,7 +539,10 @@ ExpandZeroColSpans
 void
 ResetTopStart
 (
-uint8_t
+mozilla
+:
+:
+LogicalSide
 aSide
 nsCellMap
 &
@@ -560,7 +563,7 @@ SetBCBorderEdge
 mozilla
 :
 :
-Side
+LogicalSide
 aEdge
 nsCellMap
 &
@@ -600,7 +603,7 @@ aXPos
 mozilla
 :
 :
-Side
+LogicalSide
 aOwner
 nscoord
 aSubSize
