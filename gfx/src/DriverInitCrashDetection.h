@@ -67,11 +67,7 @@ DisableAcceleration
 (
 )
 const
-{
-return
-sDisableAcceleration
 ;
-}
 enum
 class
 TelemetryState
@@ -157,10 +153,6 @@ aState
 ;
 private
 :
-static
-bool
-sDisableAcceleration
-;
 static
 bool
 sEnvironmentHasBeenUpdated
