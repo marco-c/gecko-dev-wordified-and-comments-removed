@@ -72,6 +72,13 @@ namespace
 mozilla
 {
 namespace
+gl
+{
+class
+SharedSurface
+;
+}
+namespace
 layers
 {
 class
