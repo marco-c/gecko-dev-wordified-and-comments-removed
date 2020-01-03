@@ -173,7 +173,11 @@ get
 snippetsVersion
 (
 )
+{
+return
 STARTPAGE_VERSION
+;
+}
 get
 showKnowYourRights
 (
