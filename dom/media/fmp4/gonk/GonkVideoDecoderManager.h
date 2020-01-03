@@ -206,12 +206,6 @@ override
 ;
 virtual
 void
-AllocateMediaResources
-(
-)
-;
-virtual
-void
 ReleaseMediaResources
 (
 )
@@ -600,10 +594,6 @@ layers
 ImageContainer
 >
 mImageContainer
-;
-MediaDataDecoderCallback
-*
-mCallback
 ;
 android
 :
