@@ -325,10 +325,10 @@ parser
 m4
 leak
 :
-TypeCompartment
+ObjectGroup
 :
 :
-fixObjectGroup
+fixPlainObjectGroup
 #
 Bug
 982111
