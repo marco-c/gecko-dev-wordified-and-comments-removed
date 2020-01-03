@@ -77,6 +77,9 @@ class
 nsHttpRequestHead
 ;
 class
+NullHttpTransaction
+;
+class
 TLSFilterTransaction
 ;
 class
@@ -233,6 +236,13 @@ MOZ_OVERRIDE
 ;
 bool
 IsNullTransaction
+(
+)
+MOZ_OVERRIDE
+;
+NullHttpTransaction
+*
+QueryNullTransaction
 (
 )
 MOZ_OVERRIDE
