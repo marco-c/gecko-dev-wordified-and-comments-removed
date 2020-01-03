@@ -185,6 +185,15 @@ char
 aMsgId
 )
 ;
+void
+AddBase
+(
+const
+nsString
+&
+aValue
+)
+;
 private
 :
 void
@@ -441,6 +450,9 @@ char16_t
 sPi
 [
 ]
+;
+bool
+mSeenBase
 ;
 }
 ;

@@ -88,6 +88,7 @@ eTreeOpSvgLoad
 eTreeOpMaybeComplainAboutCharset
 eTreeOpAddClass
 eTreeOpAddViewSourceHref
+eTreeOpAddViewSourceBase
 eTreeOpAddError
 eTreeOpAddLineNumberId
 eTreeOpAddErrorAtom
