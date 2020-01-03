@@ -53,16 +53,6 @@ gmp
 class
 GMPVideoi420FrameData
 ;
-static
-bool
-CheckFrameData
-(
-const
-GMPVideoi420FrameData
-&
-aFrameData
-)
-;
 class
 GMPVideoi420FrameImpl
 :
