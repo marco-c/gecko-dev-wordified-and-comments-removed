@@ -1730,14 +1730,6 @@ CCApp_Task
 return
 ;
 }
-(
-void
-)
-cprAdjustRelativeThreadPriority
-(
-CCPROVIDER_THREAD_RELATIVE_PRIORITY
-)
-;
 debug_bind_keyword
 (
 "
