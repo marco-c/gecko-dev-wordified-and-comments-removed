@@ -2285,6 +2285,7 @@ frequency_
 ;
 public
 :
+explicit
 AutoLeaveZeal
 (
 JSContext
