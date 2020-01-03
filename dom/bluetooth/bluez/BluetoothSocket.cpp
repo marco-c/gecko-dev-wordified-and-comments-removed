@@ -2352,6 +2352,10 @@ c
 new
 BluetoothUnixSocketConnector
 (
+NS_ConvertUTF16toUTF8
+(
+aDeviceAddress
+)
 mType
 aChannel
 mAuth
@@ -2456,6 +2460,10 @@ c
 new
 BluetoothUnixSocketConnector
 (
+NS_LITERAL_CSTRING
+(
+BLUETOOTH_ADDRESS_NONE
+)
 mType
 aChannel
 mAuth
