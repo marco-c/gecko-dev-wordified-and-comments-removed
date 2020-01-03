@@ -11131,6 +11131,8 @@ aRestyleHint
 (
 eRestyle_Subtree
 |
+eRestyle_ChangeAnimationPhaseDescendants
+|
 eRestyle_ForceDescendants
 )
 )
@@ -16333,6 +16335,9 @@ StyleAttribute
 "
 "
 ChangeAnimationPhase
+"
+"
+ChangeAnimationPhaseDescendants
 "
 "
 Force
