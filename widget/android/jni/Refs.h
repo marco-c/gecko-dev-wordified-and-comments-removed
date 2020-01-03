@@ -110,7 +110,7 @@ class
 Cls
 >
 struct
-Param
+ParamImpl
 {
 typedef
 Ref
@@ -120,6 +120,23 @@ Cls
 Type
 ;
 }
+;
+template
+<
+class
+Cls
+>
+using
+Param
+=
+typename
+ParamImpl
+<
+Cls
+>
+:
+:
+Type
 ;
 enum
 class
@@ -253,7 +270,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 jni
 :
 :
@@ -261,9 +277,6 @@ Param
 <
 Object
 >
-:
-:
-Type
 &
 Param
 ;
@@ -335,7 +348,6 @@ GlobalRef
 ;
 typedef
 const
-typename
 jni
 :
 :
@@ -343,9 +355,6 @@ Param
 <
 Self
 >
-:
-:
-Type
 &
 Param
 ;
@@ -439,7 +448,7 @@ template
 <
 >
 struct
-Param
+ParamImpl
 <
 String
 >
@@ -2264,7 +2273,7 @@ nsString
 }
 ;
 class
-Param
+ParamImpl
 <
 String
 >
