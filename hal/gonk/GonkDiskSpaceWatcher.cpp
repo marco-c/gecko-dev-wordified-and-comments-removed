@@ -726,6 +726,8 @@ fanotify_init
 (
 FAN_CLASS_NOTIF
 FAN_CLOEXEC
+|
+O_LARGEFILE
 )
 ;
 if
