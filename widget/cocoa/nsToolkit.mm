@@ -317,7 +317,7 @@ MOZ_COUNT_CTOR
 nsToolkit
 )
 ;
-RegisterForSleepWakeNotifcations
+RegisterForSleepWakeNotifications
 (
 )
 ;
@@ -335,7 +335,7 @@ MOZ_COUNT_DTOR
 nsToolkit
 )
 ;
-RemoveSleepWakeNotifcations
+RemoveSleepWakeNotifications
 (
 )
 ;
@@ -580,7 +580,7 @@ nsresult
 nsToolkit
 :
 :
-RegisterForSleepWakeNotifcations
+RegisterForSleepWakeNotifications
 (
 )
 {
@@ -669,7 +669,7 @@ void
 nsToolkit
 :
 :
-RemoveSleepWakeNotifcations
+RemoveSleepWakeNotifications
 (
 )
 {
