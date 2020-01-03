@@ -189,6 +189,9 @@ nativeGroup_
 HeapPtrShape
 nativeShape_
 ;
+HeapPtrObjectGroup
+replacementNewGroup_
+;
 public
 :
 UnboxedLayout
@@ -218,6 +221,10 @@ nativeGroup_
 nullptr
 )
 nativeShape_
+(
+nullptr
+)
+replacementNewGroup_
 (
 nullptr
 )

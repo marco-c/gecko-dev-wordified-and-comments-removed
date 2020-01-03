@@ -951,6 +951,9 @@ detachNewScript
 (
 bool
 writeBarrier
+ObjectGroup
+*
+replacement
 )
 ;
 ObjectGroupFlags
@@ -1751,6 +1754,11 @@ clearNewScript
 ExclusiveContext
 *
 cx
+ObjectGroup
+*
+replacement
+=
+nullptr
 )
 ;
 bool
