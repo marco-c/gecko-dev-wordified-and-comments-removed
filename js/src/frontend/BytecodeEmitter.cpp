@@ -29515,18 +29515,18 @@ for
 (
 ParseNode
 *
-member
+propdef
 =
 pn
 -
 >
 pn_head
 ;
-member
+propdef
 ;
-member
+propdef
 =
-member
+propdef
 -
 >
 pn_next
@@ -29539,7 +29539,7 @@ UpdateSourceCoordNotes
 (
 cx
 bce
-member
+propdef
 -
 >
 pn_pos
@@ -29552,7 +29552,7 @@ false
 ;
 if
 (
-member
+propdef
 -
 >
 isKind
@@ -29568,7 +29568,7 @@ EmitTree
 (
 cx
 bce
-member
+propdef
 -
 >
 pn_kid
@@ -29601,7 +29601,7 @@ ParseNode
 *
 key
 =
-member
+propdef
 -
 >
 pn_left
@@ -29754,7 +29754,7 @@ EmitTree
 (
 cx
 bce
-member
+propdef
 -
 >
 pn_right
@@ -29766,7 +29766,7 @@ false
 JSOp
 op
 =
-member
+propdef
 -
 >
 getOp
