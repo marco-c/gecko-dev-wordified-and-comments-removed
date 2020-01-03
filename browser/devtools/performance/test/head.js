@@ -374,6 +374,17 @@ html
 "
 ;
 const
+MARKERS_URL
+=
+EXAMPLE_URL
++
+"
+doc_markers
+.
+html
+"
+;
+const
 MEMORY_SAMPLE_PROB_PREF
 =
 "
