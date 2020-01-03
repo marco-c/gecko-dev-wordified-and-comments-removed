@@ -150,7 +150,7 @@ webide
 .
 enableLocalRuntime
 "
-false
+true
 )
 ;
 pref
