@@ -21657,9 +21657,11 @@ InlinePropertyTable
 :
 trimTo
 (
+const
 ObjectVector
 &
 targets
+const
 BoolVector
 &
 choiceSet
@@ -21764,6 +21766,7 @@ InlinePropertyTable
 :
 trimToTargets
 (
+const
 ObjectVector
 &
 targets

@@ -10186,13 +10186,6 @@ sweepRegExps
 c
 -
 >
-sweepCallsiteClones
-(
-)
-;
-c
--
->
 sweepSavedStacks
 (
 )
@@ -22767,13 +22760,6 @@ next
 )
 )
 {
-c
--
->
-sweepCallsiteClones
-(
-)
-;
 c
 -
 >

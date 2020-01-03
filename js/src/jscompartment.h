@@ -1051,17 +1051,6 @@ endif
 js
 :
 :
-CallsiteCloneTable
-callsiteClones
-;
-void
-sweepCallsiteClones
-(
-)
-;
-js
-:
-:
 ReadBarrieredScriptSourceObject
 selfHostingScriptSource
 ;
