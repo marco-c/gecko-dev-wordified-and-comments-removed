@@ -481,7 +481,7 @@ if
 mozilla
 :
 :
-IsWin2003OrLater
+IsXPSP3OrLater
 (
 )
 )
