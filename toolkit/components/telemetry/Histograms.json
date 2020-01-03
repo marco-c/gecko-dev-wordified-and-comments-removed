@@ -5809,7 +5809,7 @@ cpp_guard
 "
 :
 "
-XP_MACOSX
+XP_DARWIN
 "
 }
 "
