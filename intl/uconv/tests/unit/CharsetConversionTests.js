@@ -116,12 +116,6 @@ ConvertToUnicode
 (
 inText
 )
-+
-converter
-.
-Finish
-(
-)
 ;
 }
 catch
