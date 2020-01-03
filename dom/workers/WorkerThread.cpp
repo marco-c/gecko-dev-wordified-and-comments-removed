@@ -975,7 +975,7 @@ mThread
 )
 ;
 return
-mRunningEvent
+mNestedEventLoopDepth
 ;
 }
 NS_IMPL_ISUPPORTS

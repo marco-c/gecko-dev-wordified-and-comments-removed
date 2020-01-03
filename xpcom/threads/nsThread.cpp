@@ -1572,7 +1572,7 @@ mThread
 (
 nullptr
 )
-mRunningEvent
+mNestedEventLoopDepth
 (
 0
 )
@@ -2670,7 +2670,7 @@ n
 "
 this
 aMayWait
-mRunningEvent
+mNestedEventLoopDepth
 )
 )
 ;
@@ -2724,7 +2724,7 @@ aMayWait
 &
 &
 (
-mRunningEvent
+mNestedEventLoopDepth
 >
 0
 |
@@ -3020,7 +3020,7 @@ OnProcessNextEvent
 (
 this
 reallyWait
-mRunningEvent
+mNestedEventLoopDepth
 )
 ;
 }
@@ -3044,7 +3044,7 @@ OnProcessNextEvent
 (
 this
 reallyWait
-mRunningEvent
+mNestedEventLoopDepth
 )
 ;
 }
@@ -3054,13 +3054,13 @@ OnProcessNextEvent
 (
 this
 reallyWait
-mRunningEvent
+mNestedEventLoopDepth
 )
 )
 ;
 +
 +
-mRunningEvent
+mNestedEventLoopDepth
 ;
 #
 ifdef
@@ -3202,7 +3202,7 @@ NS_ERROR_UNEXPECTED
 }
 -
 -
-mRunningEvent
+mNestedEventLoopDepth
 ;
 #
 ifdef
@@ -3236,7 +3236,7 @@ nullptr
 &
 &
 (
-mRunningEvent
+mNestedEventLoopDepth
 =
 =
 0
@@ -3304,7 +3304,7 @@ NOTIFY_EVENT_OBSERVERS
 AfterProcessNextEvent
 (
 this
-mRunningEvent
+mNestedEventLoopDepth
 *
 aResult
 )
@@ -3321,7 +3321,7 @@ obs
 AfterProcessNextEvent
 (
 this
-mRunningEvent
+mNestedEventLoopDepth
 *
 aResult
 )
@@ -3341,7 +3341,7 @@ sMainThreadObserver
 AfterProcessNextEvent
 (
 this
-mRunningEvent
+mNestedEventLoopDepth
 *
 aResult
 )
@@ -3595,7 +3595,7 @@ NS_ERROR_NOT_SAME_THREAD
 *
 aDepth
 =
-mRunningEvent
+mNestedEventLoopDepth
 ;
 return
 NS_OK

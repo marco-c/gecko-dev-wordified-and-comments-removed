@@ -483,7 +483,7 @@ PRThread
 mThread
 ;
 uint32_t
-mRunningEvent
+mNestedEventLoopDepth
 ;
 uint32_t
 mStackSize
