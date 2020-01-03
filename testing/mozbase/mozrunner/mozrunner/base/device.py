@@ -916,6 +916,9 @@ def
 check_for_crashes
 (
 self
+dump_save_path
+=
+None
 test_name
 =
 None
@@ -948,9 +951,15 @@ check_for_crashes
 (
             
 self
+            
 dump_directory
 =
 dump_dir
+            
+dump_save_path
+=
+dump_save_path
+            
 test_name
 =
 test_name
