@@ -930,6 +930,11 @@ bool
 aIsMainThread
 )
 {
+MOZ_ASSERT
+(
+aCx
+)
+;
 mCx
 =
 aCx
