@@ -3456,6 +3456,14 @@ File
 >
 mFiles
 ;
+#
+ifndef
+MOZ_CHILD_PERMISSIONS
+nsString
+mFirstFilePath
+;
+#
+endif
 nsRefPtr
 <
 FileList
