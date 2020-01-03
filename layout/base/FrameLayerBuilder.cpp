@@ -23167,7 +23167,7 @@ if
 gfxUtils
 :
 :
-sDumpPainting
+sDumpPaintItems
 )
 {
 DebugPaintItem
