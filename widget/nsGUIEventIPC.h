@@ -2555,6 +2555,9 @@ bool
 ;
 if
 (
+rv
+&
+&
 !
 isNull
 )
