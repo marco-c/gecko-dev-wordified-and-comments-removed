@@ -133,7 +133,7 @@ el
 querySelector
 (
 "
-.
+#
 filters
 "
 )
@@ -467,7 +467,11 @@ first
 (
 )
 .
-offsetTop
+getBoundingClientRect
+(
+)
+.
+top
 >
 =
 boundaries
@@ -547,7 +551,11 @@ last
 (
 )
 .
-offsetTop
+getBoundingClientRect
+(
+)
+.
+bottom
 <
 =
 boundaries

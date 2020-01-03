@@ -191,7 +191,10 @@ el
 querySelector
 (
 "
-button
+#
+add
+-
+filter
 "
 )
 ;
@@ -387,6 +390,13 @@ filter
 placeholder
 )
 {
+let
+i
+=
+index
++
+1
+;
 const
 input
 =
@@ -404,9 +414,7 @@ nth
 child
 (
 {
-index
-+
-1
+i
 }
 )
 input
