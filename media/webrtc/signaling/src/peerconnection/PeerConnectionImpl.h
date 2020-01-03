@@ -1042,9 +1042,6 @@ Error
 kNoError
 =
 0
-kInvalidCandidateType
-=
-2
 kInvalidMediastreamTrack
 =
 3

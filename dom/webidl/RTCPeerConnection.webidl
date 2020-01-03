@@ -140,8 +140,8 @@ RTCPeerConnectionErrorCallback
 =
 void
 (
-DOMString
-errorInformation
+DOMError
+error
 )
 ;
 callback
