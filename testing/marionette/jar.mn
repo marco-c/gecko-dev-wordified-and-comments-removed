@@ -199,6 +199,16 @@ ChromeUtils
 .
 js
 )
+content
+/
+error
+.
+js
+(
+error
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
