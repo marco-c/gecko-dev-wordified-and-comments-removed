@@ -40,7 +40,7 @@ WebGLTransformFeedback
 (
 WebGLContext
 *
-context
+webgl
 GLuint
 tf
 )
@@ -54,7 +54,7 @@ tf
 )
 WebGLContextBoundObject
 (
-context
+webgl
 )
 mMode
 (
@@ -69,7 +69,7 @@ mIsPaused
 false
 )
 {
-context
+mContext
 -
 >
 mTransformFeedbacks
