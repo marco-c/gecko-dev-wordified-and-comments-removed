@@ -48,6 +48,10 @@ prettyprinters
 import
 mozilla
 .
+Interpreter
+import
+mozilla
+.
 jsid
 import
 mozilla

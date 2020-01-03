@@ -588,6 +588,12 @@ self
 mod_jsval
 =
 None
+        
+self
+.
+mod_Interpreter
+=
+None
 def
 implemented_types
 (
