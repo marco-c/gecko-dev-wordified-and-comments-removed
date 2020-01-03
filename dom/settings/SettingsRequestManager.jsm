@@ -3265,6 +3265,15 @@ data
 lockID
 )
 ;
+this
+.
+removeLock
+(
+data
+.
+lockID
+)
+;
 return
 Promise
 .
