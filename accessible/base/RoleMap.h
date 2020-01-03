@@ -1728,7 +1728,7 @@ MATHML_ROW
 mathml
 row
 "
-ATK_ROLE_PANEL
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1781,7 +1781,7 @@ MATHML_FENCED
 mathml
 fenced
 "
-ATK_ROLE_PANEL
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1794,7 +1794,7 @@ MATHML_ENCLOSED
 mathml
 enclosed
 "
-ATK_ROLE_PANEL
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1807,7 +1807,7 @@ MATHML_STYLE
 mathml
 style
 "
-ATK_ROLE_PANEL
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1820,7 +1820,7 @@ MATHML_SUB
 mathml
 sub
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1833,7 +1833,7 @@ MATHML_SUP
 mathml
 sup
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1847,7 +1847,7 @@ mathml
 sub
 sup
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1860,7 +1860,7 @@ MATHML_UNDER
 mathml
 under
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1873,7 +1873,7 @@ MATHML_OVER
 mathml
 over
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1887,7 +1887,7 @@ mathml
 under
 over
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1900,7 +1900,7 @@ MATHML_MULTISCRIPTS
 mathml
 multiscripts
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1967,7 +1967,7 @@ MATHML_ACTION
 mathml
 action
 "
-ATK_ROLE_UNKNOWN
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN
@@ -1980,7 +1980,7 @@ MATHML_ERROR
 mathml
 error
 "
-ATK_ROLE_PANEL
+ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 0
 IA2_ROLE_UNKNOWN

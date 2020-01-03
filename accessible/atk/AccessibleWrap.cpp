@@ -2569,7 +2569,7 @@ aAtkObj
 >
 role
 =
-ATK_ROLE_PANEL
+ATK_ROLE_SECTION
 ;
 else
 if
