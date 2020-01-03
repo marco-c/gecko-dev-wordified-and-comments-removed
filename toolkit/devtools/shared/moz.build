@@ -122,4 +122,16 @@ storage
 .
 js
 '
+'
+worker
+-
+helper
+.
+js
+'
+'
+worker
+.
+js
+'
 ]

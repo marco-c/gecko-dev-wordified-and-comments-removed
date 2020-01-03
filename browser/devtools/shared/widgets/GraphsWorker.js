@@ -34,6 +34,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /

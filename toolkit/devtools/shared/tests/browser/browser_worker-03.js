@@ -4,12 +4,12 @@ DevToolsWorker
 workerify
 }
 =
-devtools
-.
 require
 (
 "
 devtools
+/
+toolkit
 /
 shared
 /
