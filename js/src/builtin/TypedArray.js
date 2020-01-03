@@ -429,7 +429,7 @@ TypedArrayIndexOf
 searchElement
 fromIndex
 =
-undefined
+0
 )
 {
 if
