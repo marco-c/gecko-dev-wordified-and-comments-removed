@@ -140,6 +140,9 @@ public
 :
 GonkVideoDecoderManager
 (
+MediaTaskQueue
+*
+aTaskQueue
 mozilla
 :
 :
@@ -571,6 +574,11 @@ aPTS
 int64_t
 &
 aDuration
+)
+;
+void
+ClearQueueFrameTime
+(
 )
 ;
 uint32_t

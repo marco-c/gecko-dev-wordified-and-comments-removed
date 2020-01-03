@@ -219,6 +219,9 @@ GonkAudioDecoderManager
 :
 GonkAudioDecoderManager
 (
+MediaTaskQueue
+*
+aTaskQueue
 const
 mp4_demuxer
 :
@@ -230,6 +233,7 @@ aConfig
 :
 GonkDecoderManager
 (
+aTaskQueue
 )
 mAudioChannels
 (
