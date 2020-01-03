@@ -28655,7 +28655,7 @@ JS_FN_HELP
 assertRecoveredOnBailout
 "
 testingFunc_assertRecoveredOnBailout
-1
+2
 0
 "
 assertRecoveredOnBailout
