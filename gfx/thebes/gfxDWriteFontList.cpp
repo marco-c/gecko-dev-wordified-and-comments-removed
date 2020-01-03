@@ -8345,6 +8345,13 @@ BundledFontFileEnumerator
 =
 delete
 ;
+virtual
+~
+BundledFontFileEnumerator
+(
+)
+{
+}
 nsRefPtr
 <
 IDWriteFactory
@@ -8614,6 +8621,13 @@ BundledFontLoader
 =
 delete
 ;
+virtual
+~
+BundledFontLoader
+(
+)
+{
+}
 }
 ;
 IFACEMETHODIMP
