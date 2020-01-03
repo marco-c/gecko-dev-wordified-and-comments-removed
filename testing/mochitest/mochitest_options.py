@@ -5355,6 +5355,12 @@ tab
 "
 :
 10000
+            
+"
+geckomediaplugin
+"
+:
+1000
         
 }
         
