@@ -1953,6 +1953,7 @@ getBoundingClientRect
 (
 )
 ;
+return
 synthesizeMouse
 (
 aTarget
