@@ -95,22 +95,29 @@ do_delayed_imports
 global
 marionette
     
+global
+errors
+    
 try
 :
         
 import
 marionette
+        
+from
+marionette
+import
+errors
     
 except
 ImportError
 :
         
-import
+from
 marionette_driver
-.
+import
 marionette
-as
-marionette
+errors
 class
 MarionetteTestExecutor
 (
@@ -881,8 +888,6 @@ extra_timeout
         
 except
 IOError
-marionette
-.
 errors
 .
 InvalidResponseException
@@ -927,8 +932,6 @@ timeout
 )
         
 except
-marionette
-.
 errors
 .
 ScriptTimeoutException
@@ -976,8 +979,6 @@ except
 socket
 .
 timeout
-marionette
-.
 errors
 .
 InvalidResponseException
@@ -1571,8 +1572,6 @@ full_url
 )
                 
 except
-marionette
-.
 errors
 .
 MarionetteException
