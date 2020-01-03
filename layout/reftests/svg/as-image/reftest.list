@@ -1992,11 +1992,13 @@ html
 #
 bug
 773482
-skip
+fuzzy
 -
 if
 (
 B2G
+68
+4
 )
 =
 =
@@ -2016,9 +2018,6 @@ simple
 ref
 .
 html
-#
-bug
-773482
 =
 =
 svg
