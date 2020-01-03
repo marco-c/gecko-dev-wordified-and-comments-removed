@@ -879,7 +879,7 @@ bool
 mFalseStartRequireNPN
 ;
 bool
-mFalseStartRequireForwardSecrecy
+mUseStaticFallbackList
 ;
 uint16_t
 mVersionFallbackLimit
