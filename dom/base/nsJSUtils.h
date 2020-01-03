@@ -161,6 +161,7 @@ aFunctionObject
 )
 ;
 struct
+MOZ_STACK_CLASS
 EvaluateOptions
 {
 bool
@@ -172,9 +173,18 @@ reportUncaught
 bool
 needResult
 ;
+JS
+:
+:
+AutoObjectVector
+scopeChain
+;
 explicit
 EvaluateOptions
 (
+JSContext
+*
+cx
 )
 :
 coerceToString
@@ -188,6 +198,10 @@ true
 needResult
 (
 true
+)
+scopeChain
+(
+cx
 )
 {
 }
@@ -263,7 +277,7 @@ Handle
 JSObject
 *
 >
-aScopeObject
+aEvaluationGlobal
 JS
 :
 :
@@ -314,7 +328,7 @@ Handle
 JSObject
 *
 >
-aScopeObject
+aEvaluationGlobal
 JS
 :
 :
@@ -363,7 +377,7 @@ Handle
 JSObject
 *
 >
-aScopeObject
+aEvaluationGlobal
 JS
 :
 :
@@ -399,7 +413,7 @@ Handle
 JSObject
 *
 >
-aScopeObject
+aEvaluationGlobal
 JS
 :
 :
