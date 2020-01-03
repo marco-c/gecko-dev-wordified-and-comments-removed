@@ -50,13 +50,6 @@ h
 #
 include
 "
-gfxPoint3D
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h

@@ -275,13 +275,6 @@ h
 #
 include
 "
-gfxPoint3D
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h

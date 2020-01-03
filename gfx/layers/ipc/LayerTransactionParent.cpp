@@ -41,13 +41,6 @@ h
 #
 include
 "
-gfxPoint3D
-.
-h
-"
-#
-include
-"
 CompositableTransactionParent
 .
 h
@@ -3713,10 +3706,10 @@ scale
 =
 1
 ;
-gfxPoint3D
+Point3D
 scaledOrigin
 ;
-gfxPoint3D
+Point3D
 transformOrigin
 ;
 for
@@ -3804,7 +3797,7 @@ appUnitsPerDevPixel
 ;
 scaledOrigin
 =
-gfxPoint3D
+Point3D
 (
 NS_round
 (
@@ -3889,7 +3882,7 @@ scaledOrigin
 z
 )
 ;
-gfxPoint3D
+Point3D
 basis
 =
 -

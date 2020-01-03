@@ -157,6 +157,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 static
 StyleAnimationValue
 :
@@ -7052,7 +7059,7 @@ const
 gfxMatrix
 &
 aMatrix
-gfxPoint3D
+Point3D
 &
 aScale
 float
@@ -7063,7 +7070,7 @@ aShear
 gfxQuaternion
 &
 aRotate
-gfxPoint3D
+Point3D
 &
 aTranslate
 )
@@ -7346,7 +7353,7 @@ const
 gfx3DMatrix
 &
 aMatrix
-gfxPoint3D
+Point3D
 &
 aScale
 float
@@ -7357,7 +7364,7 @@ aShear
 gfxQuaternion
 &
 aRotate
-gfxPoint3D
+Point3D
 &
 aTranslate
 gfxPointH3D
@@ -7879,7 +7886,7 @@ double
 aProgress
 )
 {
-gfxPoint3D
+Point3D
 scale1
 (
 1
@@ -7918,7 +7925,7 @@ shear1
 0f
 }
 ;
-gfxPoint3D
+Point3D
 scale2
 (
 1
@@ -8044,7 +8051,7 @@ SetTransposedVector
 perspective
 )
 ;
-gfxPoint3D
+Point3D
 translate
 =
 InterpolateNumerically
@@ -8200,7 +8207,7 @@ xyshear
 )
 ;
 }
-gfxPoint3D
+Point3D
 scale
 =
 InterpolateNumerically
@@ -8215,7 +8222,7 @@ if
 scale
 !
 =
-gfxPoint3D
+Point3D
 (
 1
 .
@@ -9651,7 +9658,7 @@ case
 eCSSKeyword_rotate3d
 :
 {
-gfxPoint3D
+Point3D
 vector1
 (
 a1
@@ -9695,7 +9702,7 @@ Normalize
 (
 )
 ;
-gfxPoint3D
+Point3D
 vector2
 (
 a2
