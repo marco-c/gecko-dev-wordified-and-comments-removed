@@ -768,13 +768,6 @@ h
 '
 client
 /
-TextureClientSharedSurface
-.
-h
-'
-'
-client
-/
 TiledContentClient
 .
 h
@@ -1735,13 +1728,6 @@ cpp
 client
 /
 TextureClientRecycleAllocator
-.
-cpp
-'
-'
-client
-/
-TextureClientSharedSurface
 .
 cpp
 '

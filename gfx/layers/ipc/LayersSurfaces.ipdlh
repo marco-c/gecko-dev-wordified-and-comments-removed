@@ -326,7 +326,7 @@ struct
 SurfaceDescriptorMacIOSurface
 {
 uint32_t
-surfaceId
+surface
 ;
 double
 scaleFactor
@@ -428,6 +428,14 @@ isOpaque
 ;
 }
 ;
+struct
+SharedSurfaceDescriptor
+{
+uintptr_t
+surf
+;
+}
+;
 /
 *
 *
@@ -515,6 +523,8 @@ EGLImageDescriptor
 SurfaceDescriptorMacIOSurface
 ;
 NewSurfaceDescriptorGralloc
+;
+SharedSurfaceDescriptor
 ;
 null_t
 ;
