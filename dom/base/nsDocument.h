@@ -6285,11 +6285,6 @@ MaybeRescheduleAnimationFrameNotifications
 (
 )
 ;
-void
-MaybeClearBoxObjectTable
-(
-)
-;
 nsDocument
 (
 const
