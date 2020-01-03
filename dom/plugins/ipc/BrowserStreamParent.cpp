@@ -276,6 +276,13 @@ error
 NPERR_NO_ERROR
 )
 {
+streamListener
+-
+>
+ResumeRequest
+(
+)
+;
 parent
 :
 :
