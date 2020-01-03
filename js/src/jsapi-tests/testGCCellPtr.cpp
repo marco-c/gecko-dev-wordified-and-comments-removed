@@ -425,11 +425,14 @@ js
 gc
 :
 :
+detail
+:
+:
 GetGCThingRuntime
 (
 scriptcell
 .
-asCell
+unsafeAsUIntPtr
 (
 )
 )

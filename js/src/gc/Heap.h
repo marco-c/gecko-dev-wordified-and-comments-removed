@@ -2912,9 +2912,15 @@ uintptr_t
 maskp
 )
 {
+detail
+:
+:
 GetGCThingMarkWordAndMask
 (
+uintptr_t
+(
 cell
+)
 color
 wordp
 maskp
