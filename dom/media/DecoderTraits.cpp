@@ -1408,14 +1408,6 @@ EmptyString
 )
 )
 {
-#
-ifdef
-MOZ_OMX_DECODER
-return
-false
-;
-#
-else
 bool
 haveAAC
 haveMP3
@@ -1452,8 +1444,6 @@ haveH264
 haveMP3
 )
 ;
-#
-endif
 }
 #
 endif
