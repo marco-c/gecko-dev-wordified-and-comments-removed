@@ -1104,6 +1104,12 @@ aOutput
 )
 ;
 }
+aDestination
+.
+NotifyInputsChanged
+(
+)
+;
 Context
 (
 )
@@ -1724,6 +1730,13 @@ mOutputNodes
 RemoveElementAt
 (
 i
+)
+;
+output
+-
+>
+NotifyInputsChanged
+(
 )
 ;
 if

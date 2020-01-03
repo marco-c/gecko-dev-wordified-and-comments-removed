@@ -228,6 +228,13 @@ aRv
 )
 ;
 virtual
+void
+NotifyInputsChanged
+(
+)
+{
+}
+virtual
 uint16_t
 NumberOfInputs
 (
