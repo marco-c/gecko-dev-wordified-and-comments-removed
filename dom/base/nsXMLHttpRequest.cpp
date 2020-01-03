@@ -12326,15 +12326,6 @@ INHIBIT_CACHING
 ;
 }
 else
-if
-(
-!
-(
-mState
-&
-XML_HTTP_REQUEST_ASYNC
-)
-)
 {
 AddLoadFlags
 (
