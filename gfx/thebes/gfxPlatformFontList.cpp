@@ -2859,9 +2859,10 @@ gfxPlatformFontList
 :
 SystemFindFontForChar
 (
-const
 uint32_t
 aCh
+uint32_t
+aNextCh
 int32_t
 aRunScript
 const
@@ -2961,6 +2962,7 @@ fontEntry
 CommonFontFallback
 (
 aCh
+aNextCh
 aRunScript
 aStyle
 &
@@ -3323,9 +3325,10 @@ gfxPlatformFontList
 :
 CommonFontFallback
 (
-const
 uint32_t
 aCh
+uint32_t
+aNextCh
 int32_t
 aRunScript
 const
@@ -3362,6 +3365,7 @@ GetPlatform
 GetCommonFallbackFonts
 (
 aCh
+aNextCh
 aRunScript
 defaultFallbacks
 )

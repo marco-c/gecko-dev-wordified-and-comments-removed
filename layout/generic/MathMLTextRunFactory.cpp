@@ -2411,6 +2411,7 @@ FindFontForChar
 (
 ch2
 0
+0
 HB_SCRIPT_COMMON
 nullptr
 &

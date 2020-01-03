@@ -1390,7 +1390,7 @@ virtual
 void
 GetCommonFallbackFonts
 (
-const
+uint32_t
 uint32_t
 int32_t
 nsTArray

@@ -2124,6 +2124,8 @@ uint32_t
 ch
 uint32_t
 prevCh
+uint32_t
+aNextCh
 int32_t
 aRunScript
 gfxFont
@@ -2145,7 +2147,6 @@ uint32_t
 aCh
 )
 ;
-virtual
 already_AddRefed
 <
 gfxFont
@@ -2154,6 +2155,8 @@ WhichSystemFontSupportsChar
 (
 uint32_t
 aCh
+uint32_t
+aNextCh
 int32_t
 aRunScript
 )
