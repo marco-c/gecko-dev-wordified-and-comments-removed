@@ -11,7 +11,6 @@ cpr_types
 .
 h
 "
-__BEGIN_DECLS
 #
 include
 <
@@ -56,6 +55,5 @@ cpr_strncasecmp
 strncasecmp
 #
 endif
-__END_DECLS
 #
 endif
