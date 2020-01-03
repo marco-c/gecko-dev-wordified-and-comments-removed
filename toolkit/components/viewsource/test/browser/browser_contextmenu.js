@@ -442,6 +442,11 @@ synthesizeMouseAtCenter
 (
 popupNode
 {
+type
+:
+"
+contextmenu
+"
 button
 :
 2
