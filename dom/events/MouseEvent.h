@@ -261,15 +261,6 @@ aRelatedTarget
 )
 ;
 }
-void
-InitializeExtraMouseEventDictionaryMembers
-(
-const
-MouseEventInit
-&
-aParam
-)
-;
 bool
 GetModifierState
 (
@@ -311,7 +302,7 @@ aRv
 )
 ;
 int32_t
-MovementX
+MozMovementX
 (
 )
 {
@@ -324,7 +315,7 @@ x
 ;
 }
 int32_t
-MovementY
+MozMovementY
 (
 )
 {
