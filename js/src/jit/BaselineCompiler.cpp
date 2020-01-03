@@ -15928,6 +15928,8 @@ GeneratorThrowFn
 (
 JSContext
 *
+BaselineFrame
+*
 HandleObject
 HandleValue
 uint32_t
@@ -15943,7 +15945,7 @@ FunctionInfo
 GeneratorThrowFn
 >
 (
-js
+jit
 :
 :
 GeneratorThrowOrClose
@@ -16945,6 +16947,14 @@ reverseOffsetOfFrameSize
 )
 )
 ;
+masm
+.
+loadBaselineFramePtr
+(
+BaselineFrameReg
+scratch2
+)
+;
 prepareVMCall
 (
 )
@@ -16965,6 +16975,11 @@ retVal
 pushArg
 (
 genObj
+)
+;
+pushArg
+(
+scratch2
 )
 ;
 JitCode
