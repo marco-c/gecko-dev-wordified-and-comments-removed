@@ -2402,12 +2402,6 @@ PlatformDecoderModule
 CreateCDMWrapper
 (
 proxy
-HasAudio
-(
-)
-HasVideo
-(
-)
 )
 ;
 NS_ENSURE_TRUE

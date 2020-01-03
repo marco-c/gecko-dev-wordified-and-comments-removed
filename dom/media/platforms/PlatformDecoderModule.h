@@ -138,10 +138,6 @@ CreateCDMWrapper
 CDMProxy
 *
 aProxy
-bool
-aHasAudio
-bool
-aHasVideo
 )
 ;
 #
