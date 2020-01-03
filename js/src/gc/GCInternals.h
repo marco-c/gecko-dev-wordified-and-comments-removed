@@ -463,7 +463,7 @@ JSTracer
 (
 rt
 Visit
-TraceWeakMapKeysValues
+TraceWeakMapValues
 )
 {
 }

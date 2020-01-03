@@ -1968,11 +1968,6 @@ unsetAllocDuringSweep
 (
 )
 ;
-void
-unmarkAll
-(
-)
-;
 }
 ;
 struct

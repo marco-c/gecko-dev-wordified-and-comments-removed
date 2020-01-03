@@ -276,7 +276,8 @@ finish
 =
 0
 ;
-HeapPtrObject
+JSObject
+*
 memberOf
 ;
 JSCompartment
