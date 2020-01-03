@@ -55,10 +55,7 @@ GetCameraLog
 (
 )
 (
-mozilla
-:
-:
-LogLevel
+PRLogModuleLevel
 )
 type
 (

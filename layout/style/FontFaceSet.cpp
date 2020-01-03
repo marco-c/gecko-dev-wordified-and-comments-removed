@@ -244,13 +244,7 @@ gfxUserFontSet
 GetUserFontsLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 #
@@ -258,7 +252,7 @@ define
 LOG_ENABLED
 (
 )
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 gfxUserFontSet
 :
@@ -267,10 +261,7 @@ GetUserFontsLog
 (
 )
 \
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 #
 define

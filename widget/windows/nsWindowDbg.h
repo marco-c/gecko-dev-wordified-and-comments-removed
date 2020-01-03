@@ -66,13 +66,7 @@ _arg
 MOZ_LOG
 (
 gWindowsLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 (
 _arg

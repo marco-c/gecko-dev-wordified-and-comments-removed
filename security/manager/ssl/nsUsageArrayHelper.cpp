@@ -502,10 +502,7 @@ previousCheckResult
 MOZ_LOG
 (
 gPIPNSSLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 error

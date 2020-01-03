@@ -111,7 +111,7 @@ r
 {
 MOZ_MTLOG
 (
-ML_ERROR
+PR_LOG_ERROR
 "
 Error
 formatting

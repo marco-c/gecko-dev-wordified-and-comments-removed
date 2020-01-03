@@ -131,10 +131,7 @@ VTT_LOG
 MOZ_LOG
 (
 gTextTrackLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 __VA_ARGS__
 )

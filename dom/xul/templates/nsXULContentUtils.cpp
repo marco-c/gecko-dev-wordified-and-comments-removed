@@ -1629,10 +1629,7 @@ get
 MOZ_LOG
 (
 gXULTemplateLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 Error

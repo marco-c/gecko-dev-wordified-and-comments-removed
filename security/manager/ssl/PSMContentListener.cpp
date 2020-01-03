@@ -402,10 +402,7 @@ context
 MOZ_LOG
 (
 gPIPNSSLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 CertDownloader
@@ -472,10 +469,7 @@ aLength
 MOZ_LOG
 (
 gPIPNSSLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 CertDownloader
@@ -543,10 +537,7 @@ aStatus
 MOZ_LOG
 (
 gPIPNSSLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 CertDownloader
@@ -1427,10 +1418,7 @@ gPIPNSSLog
 MOZ_LOG
 (
 gPIPNSSLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 PSMContentListener

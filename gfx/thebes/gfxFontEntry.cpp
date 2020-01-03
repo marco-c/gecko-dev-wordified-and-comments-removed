@@ -6528,13 +6528,10 @@ if
 (
 MOZ_UNLIKELY
 (
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 log
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 )
 )
 )
@@ -6564,10 +6561,7 @@ mCh
 MOZ_LOG
 (
 log
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 \
 (
 "

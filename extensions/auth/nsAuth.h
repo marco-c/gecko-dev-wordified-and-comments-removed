@@ -35,13 +35,7 @@ args
 MOZ_LOG
 (
 gNegotiateLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 #

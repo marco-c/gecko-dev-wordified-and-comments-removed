@@ -255,10 +255,7 @@ mAudioInitCounter
 ;
 TRACK_LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 Init
@@ -809,10 +806,7 @@ mVideoInitCounter
 ;
 TRACK_LOG
 (
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 Init

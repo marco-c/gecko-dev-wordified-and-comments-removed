@@ -852,10 +852,7 @@ GetLoggingModule
 (
 )
 \
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 \
 _args
 )

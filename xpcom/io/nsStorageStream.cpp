@@ -177,13 +177,7 @@ MOZ_LOG
 GetStorageStreamLog
 (
 )
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 nsStorageStream

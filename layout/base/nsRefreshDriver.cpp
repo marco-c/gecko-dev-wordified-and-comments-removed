@@ -379,13 +379,7 @@ LOG
 MOZ_LOG
 (
 gLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_NOTICE
 (
 __VA_ARGS__
 )

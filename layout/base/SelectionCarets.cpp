@@ -273,10 +273,7 @@ message
 MOZ_LOG
 (
 gSelectionCaretsLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 \
 (
 "
@@ -321,10 +318,7 @@ message
 MOZ_LOG
 (
 gSelectionCaretsLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 \
 (
 "

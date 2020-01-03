@@ -472,10 +472,7 @@ aCertID
 MOZ_LOG
 (
 gCertVerifierLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 aMessage
 &
@@ -1132,10 +1129,7 @@ mMutex
 MOZ_LOG
 (
 gCertVerifierLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 OCSPCache

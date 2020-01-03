@@ -84,13 +84,7 @@ msg
 MOZ_LOG
 (
 gVP8TrackEncoderLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 \
 (
 msg

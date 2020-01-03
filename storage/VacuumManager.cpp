@@ -1090,13 +1090,10 @@ get
 endif
 if
 (
-MOZ_LOG_TEST
+PR_LOG_TEST
 (
 gStorageLog
-LogLevel
-:
-:
-Error
+PR_LOG_ERROR
 )
 )
 {
@@ -1143,10 +1140,7 @@ rv
 MOZ_LOG
 (
 gStorageLog
-LogLevel
-:
-:
-Error
+PR_LOG_ERROR
 (
 "
 Vacuum

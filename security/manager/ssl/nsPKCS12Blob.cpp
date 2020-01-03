@@ -2842,10 +2842,7 @@ PORT_GetError
 MOZ_LOG
 (
 gPIPNSSLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 PKCS12
@@ -2866,10 +2863,7 @@ prerr
 MOZ_LOG
 (
 gPIPNSSLog
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 PKCS12

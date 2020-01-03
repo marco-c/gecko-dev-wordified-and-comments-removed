@@ -65,13 +65,7 @@ args
 MOZ_LOG
 (
 gRequestObserverProxyLog
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 args
 )
 nsARequestObserverEvent

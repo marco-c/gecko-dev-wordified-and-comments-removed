@@ -1576,10 +1576,7 @@ txLog
 :
 :
 xslt
-LogLevel
-:
-:
-Debug
+PR_LOG_DEBUG
 (
 "
 Retrieve

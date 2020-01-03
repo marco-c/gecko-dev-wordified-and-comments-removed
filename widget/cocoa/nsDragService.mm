@@ -2334,10 +2334,7 @@ flavorStr
 MOZ_LOG
 (
 sCocoaLog
-LogLevel
-:
-:
-Info
+PR_LOG_ALWAYS
 (
 "
 nsDragService
