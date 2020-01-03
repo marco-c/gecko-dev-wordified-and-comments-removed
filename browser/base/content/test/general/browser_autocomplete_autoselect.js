@@ -100,7 +100,15 @@ return
 }
 registerCleanupFunction
 (
-promiseClearHistory
+(
+)
+=
+>
+PlacesTestUtils
+.
+clearHistory
+(
+)
 )
 ;
 let

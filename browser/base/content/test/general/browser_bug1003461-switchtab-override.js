@@ -474,7 +474,9 @@ deferred
 promise
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

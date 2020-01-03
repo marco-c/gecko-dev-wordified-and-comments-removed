@@ -223,7 +223,9 @@ ex
 {
 }
 return
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
