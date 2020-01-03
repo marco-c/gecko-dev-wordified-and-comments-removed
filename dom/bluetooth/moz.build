@@ -121,11 +121,6 @@ BluetoothHidManager
 cpp
 '
 '
-BluetoothInterface
-.
-cpp
-'
-'
 BluetoothManager
 .
 cpp
@@ -322,7 +317,7 @@ cpp
 '
 bluedroid
 /
-BluetoothHALInterface
+BluetoothInterface
 .
 cpp
 '
