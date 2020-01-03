@@ -3139,6 +3139,12 @@ marionette
 '
 ]
     
+options
+.
+runByDir
+=
+False
+    
 retVal
 =
 mochitest
