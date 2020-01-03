@@ -194,8 +194,6 @@ socket
 .
 /
 streamconv
-/
-converters
 '
 '
 .
@@ -203,7 +201,7 @@ converters
 /
 streamconv
 /
-src
+converters
 '
 ]
 protocols
