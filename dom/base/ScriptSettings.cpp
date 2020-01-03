@@ -606,6 +606,9 @@ if
 (
 !
 entryWin
+&
+&
+global
 )
 {
 entryWin
