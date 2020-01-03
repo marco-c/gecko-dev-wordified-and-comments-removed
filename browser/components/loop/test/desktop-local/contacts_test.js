@@ -1780,6 +1780,9 @@ successL10n
 import_contacts_success_message
 "
 {
+num
+:
+42
 total
 :
 42
