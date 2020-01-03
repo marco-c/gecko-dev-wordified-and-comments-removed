@@ -441,7 +441,9 @@ identity
 primaryPort
 )
 ;
-yield
+let
+submissionPromise
+=
 TelemetryController
 .
 submitExternalPing
@@ -472,6 +474,9 @@ sendTelemetry
 _trigger
 (
 )
+;
+yield
+submissionPromise
 ;
 Assert
 .
