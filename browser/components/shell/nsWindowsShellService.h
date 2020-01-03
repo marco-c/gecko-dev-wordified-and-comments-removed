@@ -80,7 +80,7 @@ aIsDefaultBrowser
 )
 ;
 nsresult
-LaunchControlPanelDefaultPrograms
+LaunchControlPanelDefaultsSelectionUI
 (
 )
 ;
