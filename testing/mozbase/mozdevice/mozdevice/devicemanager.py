@@ -1102,8 +1102,6 @@ n
 .
 splitlines
 (
-keepends
-=
 True
 )
         
