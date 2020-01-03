@@ -186,6 +186,11 @@ PaymentProviderStrategy
 js
 '
 '
+PresentationRequestUIGlue
+.
+js
+'
+'
 ProcessGlobal
 .
 js

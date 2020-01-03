@@ -5580,6 +5580,13 @@ components
 B2GPresentationDevicePrompt
 .
 js
+RESPATH
+/
+components
+/
+PresentationRequestUIGlue
+.
+js
 #
 ifndef
 MOZ_WIDGET_GONK
