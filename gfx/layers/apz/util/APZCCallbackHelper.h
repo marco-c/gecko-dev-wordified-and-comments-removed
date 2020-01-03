@@ -181,15 +181,6 @@ aViewIdOut
 ;
 static
 void
-InitializeRootDisplayport
-(
-nsIPresShell
-*
-aPresShell
-)
-;
-static
-void
 RequestFlingSnap
 (
 const
