@@ -2067,6 +2067,7 @@ CheckPermissions
 mobileconnection
 mobilenetwork
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -2095,6 +2096,7 @@ CheckPermissions
 "
 cellbroadcast
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -2123,6 +2125,7 @@ CheckPermissions
 "
 voicemail
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -2151,6 +2154,7 @@ CheckPermissions
 "
 mobileconnection
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -2180,6 +2184,7 @@ CheckPermissions
 "
 telephony
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -2303,6 +2308,7 @@ CheckPermissions
 "
 bluetooth
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
@@ -2330,6 +2336,7 @@ CheckPermissions
 "
 fmradio
 "
+UnsafeInPrerendering
 ]
 readonly
 attribute
