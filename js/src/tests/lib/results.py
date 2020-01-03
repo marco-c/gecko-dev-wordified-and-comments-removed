@@ -817,12 +817,17 @@ self
 .
 options
 .
-tinderbox
+format
+=
+=
+'
+automation
+'
 :
                 
 self
 .
-print_tinderbox_result
+print_automation_result
 (
                     
 '
@@ -1231,7 +1236,12 @@ self
 .
 options
 .
-tinderbox
+format
+=
+=
+'
+automation
+'
 :
                 
 if
@@ -1318,7 +1328,7 @@ RANDOM
                         
 self
 .
-print_tinderbox_result
+print_automation_result
 (
                             
 label
@@ -1356,7 +1366,7 @@ random
                 
 self
 .
-print_tinderbox_result
+print_automation_result
 (
                     
 self
@@ -1476,7 +1486,12 @@ self
 .
 options
 .
-tinderbox
+format
+=
+=
+'
+automation
+'
 :
             
 self
@@ -2007,7 +2022,7 @@ self
 groups
     
 def
-print_tinderbox_result
+print_automation_result
 (
 self
 label
@@ -2018,7 +2033,7 @@ None
 skip
 =
 False
-                               
+                                
 time
 =
 None
