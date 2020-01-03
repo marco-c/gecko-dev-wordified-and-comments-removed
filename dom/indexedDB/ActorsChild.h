@@ -1699,7 +1699,7 @@ class
 BackgroundVersionChangeTransactionChild
 ;
 class
-DelayedDeleteRunnable
+DelayedActionRunnable
 ;
 IDBRequest
 *
