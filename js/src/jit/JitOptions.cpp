@@ -315,7 +315,7 @@ false
 SET_DEFAULT
 (
 disableScalarReplacement
-true
+false
 )
 ;
 SET_DEFAULT
