@@ -50,7 +50,13 @@ args
 MOZ_LOG
 (
 webSocketLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

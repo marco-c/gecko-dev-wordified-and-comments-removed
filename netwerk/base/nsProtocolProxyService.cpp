@@ -278,7 +278,13 @@ net
 GetProxyLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

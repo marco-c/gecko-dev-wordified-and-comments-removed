@@ -129,7 +129,13 @@ MOZ_LOG
 GetObserverServiceLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 x
 )
 namespace

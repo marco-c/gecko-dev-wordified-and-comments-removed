@@ -460,7 +460,10 @@ MOZ_LOG
 GetPPMLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 \
 (
 "
@@ -488,7 +491,10 @@ MOZ_LOG
 GetPPMLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 \
 (
 "

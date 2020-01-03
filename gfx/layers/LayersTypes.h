@@ -87,7 +87,10 @@ LayerManager
 GetLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 _args
 )
 #
@@ -118,7 +121,10 @@ LayerManager
 GetLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 _args
 )
 ;

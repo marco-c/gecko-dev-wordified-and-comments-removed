@@ -245,6 +245,12 @@ using
 mozilla
 :
 :
+LogLevel
+;
+using
+mozilla
+:
+:
 RefPtr
 ;
 /
@@ -2568,7 +2574,10 @@ flavorStr
 MOZ_LOG
 (
 sCocoaLog
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 (
 "
 writing

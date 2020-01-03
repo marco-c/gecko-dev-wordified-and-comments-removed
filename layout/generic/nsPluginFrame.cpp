@@ -702,7 +702,10 @@ MOZ_LOG
 GetObjectFrameLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Created
@@ -731,7 +734,10 @@ MOZ_LOG
 GetObjectFrameLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 nsPluginFrame
@@ -840,7 +846,10 @@ MOZ_LOG
 GetObjectFrameLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Initializing

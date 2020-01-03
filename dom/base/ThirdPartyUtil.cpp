@@ -99,7 +99,13 @@ args
 MOZ_LOG
 (
 gThirdPartyLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 nsresult

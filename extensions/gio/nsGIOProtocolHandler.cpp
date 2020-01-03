@@ -134,7 +134,13 @@ args
 MOZ_LOG
 (
 sGIOLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 static

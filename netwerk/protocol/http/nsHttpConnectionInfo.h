@@ -120,7 +120,10 @@ nsHttpConnectionInfo
 MOZ_LOG
 (
 gHttpLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Destroying

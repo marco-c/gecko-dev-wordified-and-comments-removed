@@ -93,6 +93,12 @@ using
 mozilla
 :
 :
+LogLevel
+;
+using
+mozilla
+:
+:
 unused
 ;
 static
@@ -1879,7 +1885,10 @@ if
 MOZ_LOG_TEST
 (
 gResLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -1897,7 +1906,10 @@ spec
 MOZ_LOG
 (
 gResLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 %

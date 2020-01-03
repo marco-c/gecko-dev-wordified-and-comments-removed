@@ -185,7 +185,10 @@ idx
 MOZ_LOG
 (
 gPublicKeyPinningTelemetryLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 pkpinTelem
@@ -292,7 +295,10 @@ idx
 MOZ_LOG
 (
 gPublicKeyPinningTelemetryLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 pkpinTelem

@@ -301,7 +301,10 @@ slot
 MOZ_LOG
 (
 gCertVerifierLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 BuiltInRoot
@@ -576,7 +579,10 @@ keySizeStatus
 MOZ_LOG
 (
 gCertVerifierLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Top

@@ -2932,7 +2932,10 @@ rv
 MOZ_LOG
 (
 gPIPNSSLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Verifying

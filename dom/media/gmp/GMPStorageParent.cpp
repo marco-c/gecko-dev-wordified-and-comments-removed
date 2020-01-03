@@ -145,7 +145,13 @@ MOZ_LOG
 GetGMPLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 msg
 )
 #

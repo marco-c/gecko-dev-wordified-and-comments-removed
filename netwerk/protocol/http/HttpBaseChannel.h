@@ -2080,7 +2080,10 @@ status
 MOZ_LOG
 (
 gHttpLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 HttpAsyncAborter
@@ -2164,7 +2167,10 @@ mSuspendCount
 MOZ_LOG
 (
 gHttpLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 Waiting

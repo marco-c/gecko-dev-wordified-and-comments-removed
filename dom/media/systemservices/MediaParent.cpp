@@ -104,7 +104,13 @@ args
 MOZ_LOG
 (
 gMediaParentLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #
