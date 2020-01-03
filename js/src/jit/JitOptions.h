@@ -224,6 +224,9 @@ osrPcMismatchesBeforeRecompile
 uint32_t
 smallFunctionMaxBytecodeLength_
 ;
+bool
+disableUnboxedObjects
+;
 JitOptions
 (
 )
