@@ -116,11 +116,6 @@ dom
 =
 [
 '
-DOMMMIError
-.
-h
-'
-'
 MobileCellInfo
 .
 h
@@ -243,11 +238,6 @@ UNIFIED_SOURCES
 [
 '
 Assertions
-.
-cpp
-'
-'
-DOMMMIError
 .
 cpp
 '
