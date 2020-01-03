@@ -223,6 +223,9 @@ SpeechSynthesisVoice
 >
 mVoiceCache
 ;
+bool
+mHoldQueue
+;
 }
 ;
 }
