@@ -2770,6 +2770,13 @@ message
 records
 )
 {
+gMessageManager
+.
+callDefaultFoundHandler
+(
+message
+)
+;
 }
 else
 {
