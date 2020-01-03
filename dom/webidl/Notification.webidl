@@ -158,6 +158,7 @@ optional
 NotificationOptions
 options
 )
+UnsafeInPrerendering
 ]
 interface
 Notification
