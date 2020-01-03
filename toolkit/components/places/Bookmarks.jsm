@@ -288,9 +288,11 @@ info
 type
 :
 {
-required
+defaultValue
 :
-true
+this
+.
+TYPE_BOOKMARK
 }
 index
 :
@@ -6197,7 +6199,7 @@ prop
 undefined
 )
 {
-normalizedInput
+input
 [
 prop
 ]
