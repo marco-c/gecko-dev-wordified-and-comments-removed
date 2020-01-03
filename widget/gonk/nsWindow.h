@@ -470,17 +470,6 @@ MOZ_OVERRIDE
 ;
 protected
 :
-already_AddRefed
-<
-GeckoContentController
->
-CreateRootContentController
-(
-)
-MOZ_OVERRIDE
-;
-protected
-:
 nsWindow
 *
 mParent
