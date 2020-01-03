@@ -11127,6 +11127,13 @@ NS_NATIVE_WIDGET
 case
 NS_NATIVE_WINDOW
 :
+return
+(
+void
+*
+)
+mWnd
+;
 case
 NS_NATIVE_SHAREABLE_WINDOW
 :
@@ -11135,7 +11142,13 @@ return
 void
 *
 )
+WinUtils
+:
+:
+GetTopLevelHWND
+(
 mWnd
+)
 ;
 case
 NS_NATIVE_GRAPHIC
