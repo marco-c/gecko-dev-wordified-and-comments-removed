@@ -80,6 +80,11 @@ GetPosition
 (
 )
 ;
+bool
+HasUnplayedFrames
+(
+)
+;
 void
 PrepareToShutdown
 (
