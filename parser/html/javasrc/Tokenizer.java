@@ -10760,12 +10760,13 @@ clearStrBufAndAppend
 c
 )
 ;
-additional
-=
+setAdditionalAndRememberAmpersandLocation
+(
 '
 \
 u0000
 '
+)
 ;
 returnState
 =
