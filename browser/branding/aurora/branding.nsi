@@ -390,3 +390,12 @@ COMMON_TEXT_COLOR_FADED
 define
 COMMON_BKGRD_COLOR
 0x0F1B26
+#
+Enable
+DeveloperEdition
+-
+specific
+behavior
+!
+define
+DEV_EDITION

@@ -11367,6 +11367,9 @@ SetAsDefaultAppUser
 FunctionEnd
 Function
 LaunchApp
+!
+ifndef
+DEV_EDITION
 FindWindow
 0
 "
@@ -11402,6 +11405,8 @@ Return
 {
 EndIf
 }
+!
+endif
 StrCpy
 FirefoxLaunchCode
 "
