@@ -50,7 +50,8 @@ mStatus
 )
 mContentLength
 (
-UINT64_MAX
+-
+1
 )
 mCacheControlPrivate
 (

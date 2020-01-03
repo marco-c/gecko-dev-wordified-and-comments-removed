@@ -9387,9 +9387,9 @@ nsITransport
 trans
 nsresult
 status
-uint64_t
+int64_t
 progress
-uint64_t
+int64_t
 progressMax
 )
 {

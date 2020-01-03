@@ -9290,7 +9290,7 @@ nsITransport
 aTransport
 nsresult
 aStatus
-uint64_t
+int64_t
 aProgress
 )
 {

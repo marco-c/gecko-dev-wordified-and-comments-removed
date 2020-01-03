@@ -2325,9 +2325,9 @@ request
 nsISupports
 *
 ctxt
-uint64_t
+int64_t
 progress
-uint64_t
+int64_t
 progressMax
 )
 {

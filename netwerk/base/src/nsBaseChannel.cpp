@@ -2219,9 +2219,9 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+int64_t
 progress
-uint64_t
+int64_t
 progressMax
 )
 {
@@ -2736,7 +2736,7 @@ rv
 )
 )
 {
-uint64_t
+int64_t
 prog
 =
 offset
@@ -2773,10 +2773,10 @@ nsBaseChannel
 >
 mChannel
 ;
-uint64_t
+int64_t
 mProgress
 ;
-uint64_t
+int64_t
 mContentLength
 ;
 public
@@ -2786,9 +2786,9 @@ OnTransportStatusAsyncEvent
 nsBaseChannel
 *
 aChannel
-uint64_t
+int64_t
 aProgress
-uint64_t
+int64_t
 aContentLength
 )
 :

@@ -166,9 +166,9 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+int64_t
 progress
-uint64_t
+int64_t
 progressMax
 )
 :
@@ -266,10 +266,10 @@ mTransport
 nsresult
 mStatus
 ;
-uint64_t
+int64_t
 mProgress
 ;
-uint64_t
+int64_t
 mProgressMax
 ;
 }
@@ -290,9 +290,9 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+int64_t
 progress
-uint64_t
+int64_t
 progressMax
 )
 {

@@ -239,10 +239,10 @@ mPushBackMax
 uint32_t
 mHttp1xTransactionCount
 ;
-uint64_t
+int64_t
 mReceivingFromProgress
 ;
-uint64_t
+int64_t
 mSendingToProgress
 ;
 bool

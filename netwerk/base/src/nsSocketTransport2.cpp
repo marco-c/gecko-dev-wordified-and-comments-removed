@@ -3839,6 +3839,7 @@ if
 (
 sink
 )
+{
 sink
 -
 >
@@ -3847,9 +3848,11 @@ OnTransportStatus
 this
 status
 progress
-UINT64_MAX
+-
+1
 )
 ;
+}
 }
 nsresult
 nsSocketTransport
