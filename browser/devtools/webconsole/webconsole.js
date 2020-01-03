@@ -19308,6 +19308,12 @@ Iframe
 Sandbox
 "
 :
+case
+"
+Tracking
+Protection
+"
+:
 return
 CATEGORY_SECURITY
 ;
