@@ -149,6 +149,11 @@ PublicKeyPinningService
 .
 cpp
 '
+'
+RootCertificateTelemetryUtils
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
