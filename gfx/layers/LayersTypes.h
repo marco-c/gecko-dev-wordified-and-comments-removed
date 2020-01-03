@@ -507,6 +507,15 @@ mHitRegion
 nsIntRegion
 mDispatchToContentHitRegion
 ;
+nsIntRegion
+mNoActionRegion
+;
+nsIntRegion
+mHorizontalPanRegion
+;
+nsIntRegion
+mVerticalPanRegion
+;
 EventRegions
 (
 )
