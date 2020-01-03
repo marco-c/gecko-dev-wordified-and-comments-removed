@@ -691,6 +691,12 @@ TimeUnit
 >
 mHighestEndTimestamp
 ;
+Maybe
+<
+TimeUnit
+>
+mLongestFrameDuration
+;
 bool
 mNeedRandomAccessPoint
 ;
