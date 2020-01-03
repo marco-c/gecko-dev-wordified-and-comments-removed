@@ -54,7 +54,7 @@ function
 let
 {
 inspector
-toolbox
+testActor
 }
 =
 yield
@@ -97,6 +97,7 @@ size
 ]
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -122,6 +123,7 @@ right
 ]
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -144,6 +146,7 @@ size
 ]
 highlighter
 inspector
+testActor
 )
 ;
 yield
@@ -164,6 +167,7 @@ selector
 expectedProperties
 highlighterFront
 inspector
+testActor
 )
 {
 info
@@ -234,9 +238,10 @@ size
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -247,6 +252,7 @@ size
 "
 hidden
 "
+highlighterFront
 )
 ;
 }
@@ -255,9 +261,10 @@ else
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -269,6 +276,7 @@ name
 "
 hidden
 "
+highlighterFront
 )
 ;
 }
@@ -326,9 +334,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighterFront
 ID
 +
 "
@@ -340,6 +349,7 @@ name
 "
 hidden
 "
+highlighterFront
 )
 ;
 is
