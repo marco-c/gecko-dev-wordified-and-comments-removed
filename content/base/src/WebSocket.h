@@ -796,6 +796,9 @@ nsIPrincipal
 >
 mPrincipal
 ;
+nsWeakPtr
+mOriginDocument
+;
 uint32_t
 mOutgoingBufferedAmount
 ;
