@@ -495,7 +495,7 @@ pc
 )
 ;
 bool
-hasSeenNonStringIterNext
+hasSeenNonStringIterMore
 (
 jsbytecode
 *

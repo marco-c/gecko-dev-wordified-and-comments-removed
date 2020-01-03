@@ -924,12 +924,12 @@ IteratorStart
 \
 _
 (
-IteratorNext
+IteratorMore
 )
 \
 _
 (
-IteratorMore
+IsNoIter
 )
 \
 _

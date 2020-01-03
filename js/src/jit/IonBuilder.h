@@ -3201,12 +3201,12 @@ flags
 )
 ;
 bool
-jsop_iternext
+jsop_itermore
 (
 )
 ;
 bool
-jsop_itermore
+jsop_isnoiter
 (
 )
 ;

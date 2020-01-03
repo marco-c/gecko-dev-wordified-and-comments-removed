@@ -1798,12 +1798,6 @@ tempLifoAlloc
 unsigned
 outstandingRequests
 ;
-js
-:
-:
-Value
-iterValue
-;
 bool
 jitIsBroken
 ;
