@@ -1807,7 +1807,7 @@ mPreservesPitch
 }
 protected
 :
-int64_t
+double
 mDuration
 ;
 bool
