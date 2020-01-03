@@ -111,7 +111,7 @@ EXT_transform_feedback
 GLContext
 :
 :
-NV_transform_feedback
+NV_transform_feedback2
 GLContext
 :
 :
@@ -944,9 +944,9 @@ Extensions_End
 }
 {
 "
-transform_feedback
+transform_feedback2
 "
-300
+400
 300
 GLContext
 :
@@ -956,11 +956,11 @@ Extension_None
 GLContext
 :
 :
-EXT_transform_feedback
+ARB_transform_feedback2
 GLContext
 :
 :
-NV_transform_feedback
+NV_transform_feedback2
 GLContext
 :
 :
