@@ -65,6 +65,13 @@ nsIRunnable
 aRunnable
 )
 {
+MediaTaskQueue
+:
+:
+AssertInTailDispatchIfNeeded
+(
+)
+;
 nsCOMPtr
 <
 nsIRunnable

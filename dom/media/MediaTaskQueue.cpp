@@ -66,6 +66,8 @@ TemporaryRef
 SharedThreadPool
 >
 aPool
+bool
+aRequireTailDispatch
 )
 :
 mPool
@@ -96,6 +98,10 @@ false
 mIsFlushing
 (
 false
+)
+mRequireTailDispatch
+(
+aRequireTailDispatch
 )
 {
 MOZ_COUNT_CTOR
@@ -142,6 +148,10 @@ nsIRunnable
 aRunnable
 )
 {
+AssertInTailDispatchIfNeeded
+(
+)
+;
 MonitorAutoLock
 mon
 (
@@ -195,6 +205,10 @@ nsIRunnable
 aRunnable
 )
 {
+AssertInTailDispatchIfNeeded
+(
+)
+;
 MonitorAutoLock
 mon
 (
@@ -690,6 +704,10 @@ nsIRunnable
 aRunnable
 )
 {
+AssertInTailDispatchIfNeeded
+(
+)
+;
 MonitorAutoLock
 mon
 (
