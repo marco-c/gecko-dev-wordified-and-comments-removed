@@ -3992,6 +3992,13 @@ SelectionCarets
 this
 )
 ;
+mSelectionCarets
+-
+>
+Init
+(
+)
+;
 }
 NS_ADDREF
 (
