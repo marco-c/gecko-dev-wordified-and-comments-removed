@@ -1,9 +1,9 @@
 #
 ifndef
-dom_mobileconnection_src_ipc_MobileConnectionIPCSerialiser_h
+mozilla_dom_mobileconnection_MobileConnectionIPCSerialiser_h
 #
 define
-dom_mobileconnection_src_ipc_MobileConnectionIPCSerialiser_h
+mozilla_dom_mobileconnection_MobileConnectionIPCSerialiser_h
 #
 include
 "
@@ -49,6 +49,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 MozMobileConnectionBinding
 .
 h

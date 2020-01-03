@@ -128,6 +128,9 @@ mozilla
 namespace
 dom
 {
+namespace
+mobileconnection
+{
 sync
 protocol
 PMobileConnection
@@ -533,9 +536,14 @@ SetRadioEnabledRequest
 /
 /
 namespace
-mozilla
+mobileconnection
 }
 /
 /
 namespace
 dom
+}
+/
+/
+namespace
+mozilla
