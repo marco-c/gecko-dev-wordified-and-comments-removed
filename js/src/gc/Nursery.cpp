@@ -189,6 +189,7 @@ FreeHugeSlotsTask
 public
 GCParallelTask
 {
+explicit
 FreeHugeSlotsTask
 (
 FreeOp
