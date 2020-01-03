@@ -1,10 +1,7 @@
 from
 marionette
-.
-marionette_test
 import
 MarionetteTestCase
-skip_if_e10s
 from
 marionette_driver
 .
@@ -17,8 +14,6 @@ TestWindowHandles
 MarionetteTestCase
 )
 :
-    
-skip_if_e10s
     
 def
 test_new_tab_window_handles
@@ -512,14 +507,6 @@ self
 )
 :
         
-start_tab
-=
-self
-.
-marionette
-.
-current_window_handle
-        
 opener_page
 =
 self
@@ -543,6 +530,14 @@ navigate
 (
 opener_page
 )
+        
+start_tab
+=
+self
+.
+marionette
+.
+current_window_handle
         
 self
 .
@@ -758,8 +753,6 @@ switch_to_window
 (
 start_tab
 )
-    
-skip_if_e10s
     
 def
 test_tab_and_window_handles

@@ -3,14 +3,8 @@ marionette
 .
 marionette_test
 import
-(
-    
 MarionetteTestCase
-    
 skip_if_b2g
-    
-skip_if_e10s
-)
 from
 marionette_driver
 .
@@ -1055,8 +1049,6 @@ get_url
 '
 '
     
-skip_if_e10s
-    
 def
 test_shouldnt_error_if_nonexistent_url_used
 (
@@ -1180,8 +1172,6 @@ type
 inst
 )
 )
-    
-skip_if_e10s
     
 skip_if_b2g
     
