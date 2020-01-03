@@ -4351,7 +4351,7 @@ PositionCoord
 ;
 static
 void
-ComputeBackgroundAnchorCoord
+ComputeObjectAnchorCoord
 (
 const
 PositionCoord
@@ -4427,9 +4427,11 @@ aOriginBounds
 ;
 }
 }
-static
 void
-ComputeBackgroundAnchorPoint
+nsImageRenderer
+:
+:
+ComputeObjectAnchorPoint
 (
 const
 nsStyleBackground
@@ -4454,7 +4456,7 @@ nsPoint
 aAnchorPoint
 )
 {
-ComputeBackgroundAnchorCoord
+ComputeObjectAnchorCoord
 (
 aPos
 .
@@ -4477,7 +4479,7 @@ aAnchorPoint
 x
 )
 ;
-ComputeBackgroundAnchorCoord
+ComputeObjectAnchorCoord
 (
 aPos
 .
@@ -14792,7 +14794,10 @@ intrinsicSize
 imageSize
 )
 ;
-ComputeBackgroundAnchorPoint
+nsImageRenderer
+:
+:
+ComputeObjectAnchorPoint
 (
 aLayer
 .
