@@ -68,6 +68,8 @@ gDebugger
 .
 DebuggerView
 .
+Filtering
+.
 FilteredSources
 .
 _autoSelectFirstItem
@@ -77,6 +79,8 @@ false
 gDebugger
 .
 DebuggerView
+.
+Filtering
 .
 FilteredFunctions
 .

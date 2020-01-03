@@ -82,6 +82,8 @@ gDebugger
 .
 DebuggerView
 .
+Filtering
+.
 FilteredSources
 ;
 gSearchBox
