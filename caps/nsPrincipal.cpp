@@ -2584,7 +2584,7 @@ com
 NS_LITERAL_CSTRING
 (
 "
-www
+cdn
 .
 kuaidi100
 .
