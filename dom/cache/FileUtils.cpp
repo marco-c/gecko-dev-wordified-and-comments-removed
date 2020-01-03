@@ -1480,14 +1480,6 @@ rv
 NS_OK
 ;
 }
-MOZ_ASSERT
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-;
 }
 return
 NS_OK
