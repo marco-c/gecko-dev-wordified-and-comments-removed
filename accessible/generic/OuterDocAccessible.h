@@ -18,6 +18,9 @@ namespace
 a11y
 {
 class
+ProxyAccessible
+;
+class
 OuterDocAccessible
 final
 :
@@ -37,6 +40,13 @@ aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+ProxyAccessible
+*
+RemoteChildDoc
+(
+)
+const
+;
 virtual
 void
 Shutdown
