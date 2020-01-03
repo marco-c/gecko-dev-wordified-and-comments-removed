@@ -20,6 +20,13 @@ SoundTouch
 h
 "
 #
+include
+"
+SoundTouchFactory
+.
+h
+"
+#
 pragma
 GCC
 visibility

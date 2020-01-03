@@ -115,6 +115,11 @@ soundtouch_config
 h
 '
 '
+SoundTouchFactory
+.
+h
+'
+'
 STTypes
 .
 h
@@ -166,6 +171,11 @@ cpp
 '
 '
 SoundTouch
+.
+cpp
+'
+'
+SoundTouchFactory
 .
 cpp
 '
