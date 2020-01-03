@@ -2018,6 +2018,14 @@ mIsDestroyed
 return
 ;
 }
+IMEStateManager
+:
+:
+OnTabParentDestroying
+(
+this
+)
+;
 RemoveWindowListeners
 (
 )
