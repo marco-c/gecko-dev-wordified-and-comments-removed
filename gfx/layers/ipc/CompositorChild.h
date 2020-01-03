@@ -264,6 +264,12 @@ TabChild
 aTabChild
 )
 ;
+static
+void
+ShutDown
+(
+)
+;
 private
 :
 virtual
