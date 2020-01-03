@@ -270,6 +270,18 @@ dom
 cache
 :
 :
+DBSchema
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+cache
+:
+:
 FileUtils
 ;
 using
@@ -295,21 +307,6 @@ cache
 :
 :
 SyncDBAction
-;
-using
-mozilla
-:
-:
-dom
-:
-:
-cache
-:
-:
-db
-:
-:
-CreateSchema
 ;
 class
 SetupAction
@@ -389,6 +386,9 @@ TRANSACTION_IMMEDIATE
 ;
 rv
 =
+DBSchema
+:
+:
 CreateSchema
 (
 aConn
@@ -1661,7 +1661,7 @@ TRANSACTION_IMMEDIATE
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 DeleteCache
@@ -1831,7 +1831,7 @@ override
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 CacheMatch
@@ -2130,7 +2130,7 @@ override
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 CacheMatchAll
@@ -3005,7 +3005,7 @@ return
 }
 rv
 =
-db
+DBSchema
 :
 :
 CachePut
@@ -3843,7 +3843,7 @@ TRANSACTION_IMMEDIATE
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 CacheDelete
@@ -4054,7 +4054,7 @@ override
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 CacheKeys
@@ -4352,7 +4352,7 @@ override
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 StorageMatch
@@ -4634,7 +4634,7 @@ CacheId
 cacheId
 ;
 return
-db
+DBSchema
 :
 :
 StorageGetCacheId
@@ -4776,7 +4776,7 @@ cacheFound
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 StorageGetCacheId
@@ -4820,7 +4820,7 @@ rv
 }
 rv
 =
-db
+DBSchema
 :
 :
 CreateCache
@@ -4847,7 +4847,7 @@ rv
 }
 rv
 =
-db
+DBSchema
 :
 :
 StoragePutCache
@@ -5031,7 +5031,7 @@ exists
 nsresult
 rv
 =
-db
+DBSchema
 :
 :
 StorageGetCacheId
@@ -5080,7 +5080,7 @@ NS_OK
 }
 rv
 =
-db
+DBSchema
 :
 :
 StorageForgetCache
@@ -5303,7 +5303,7 @@ aConn
 override
 {
 return
-db
+DBSchema
 :
 :
 StorageGetKeys
