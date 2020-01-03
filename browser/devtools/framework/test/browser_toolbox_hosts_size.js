@@ -179,7 +179,7 @@ iframe
 clientHeight
 nboxHeight
 -
-10
+25
 "
 The
 iframe
@@ -243,7 +243,7 @@ iframe
 clientWidth
 nboxWidth
 -
-10
+25
 "
 The
 iframe

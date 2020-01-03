@@ -94,6 +94,11 @@ jsm
 "
 )
 ;
+const
+MIN_PAGE_SIZE
+=
+25
+;
 exports
 .
 Hosts
@@ -299,7 +304,7 @@ _nbox
 .
 clientHeight
 -
-10
+MIN_PAGE_SIZE
 )
 ;
 this
@@ -686,7 +691,7 @@ _sidebar
 .
 clientWidth
 -
-10
+MIN_PAGE_SIZE
 )
 ;
 this
