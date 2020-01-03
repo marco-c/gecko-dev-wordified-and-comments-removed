@@ -1033,6 +1033,12 @@ resolve
 }
 )
 ;
+gURLBar
+.
+focus
+(
+)
+;
 searchBar
 .
 focus

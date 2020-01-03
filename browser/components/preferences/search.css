@@ -42,6 +42,14 @@ height
 22px
 ;
 }
+#
+oneClickProvidersList
+{
+height
+:
+178px
+;
+}
 .
 checkbox
 -
@@ -68,5 +76,11 @@ margin
 :
 3px
 3px
+;
+max
+-
+width
+:
+16px
 ;
 }
