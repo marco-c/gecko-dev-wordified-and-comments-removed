@@ -235,10 +235,6 @@ gfx
 Matrix4x4
 Matrix4x4
 ;
-typedef
-uint32_t
-TouchBehaviorFlags
-;
 public
 :
 enum
@@ -504,14 +500,6 @@ Default
 void
 ClearOverscroll
 (
-)
-;
-TouchBehaviorFlags
-GetAllowedTouchBehavior
-(
-ScreenIntPoint
-&
-aPoint
 )
 ;
 bool

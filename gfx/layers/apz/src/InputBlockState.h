@@ -402,10 +402,6 @@ CancelableBlockState
 {
 public
 :
-typedef
-uint32_t
-TouchBehaviorFlags
-;
 explicit
 TouchBlockState
 (
