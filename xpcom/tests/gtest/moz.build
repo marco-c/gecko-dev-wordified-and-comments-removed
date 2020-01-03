@@ -113,6 +113,11 @@ TestExpirationTracker
 cpp
 '
 '
+TestPipes
+.
+cpp
+'
+'
 TestSnappyStreams
 .
 cpp
