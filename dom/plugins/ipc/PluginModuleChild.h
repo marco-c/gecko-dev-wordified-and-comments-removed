@@ -671,11 +671,8 @@ override
 ;
 virtual
 bool
-AnswerGetProfile
+RecvGatherProfile
 (
-nsCString
-*
-aProfile
 )
 override
 ;
