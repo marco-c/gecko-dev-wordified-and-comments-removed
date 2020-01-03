@@ -876,7 +876,7 @@ clear
 (
 )
 .
-commit
+apply
 (
 )
 ;
@@ -1225,7 +1225,7 @@ clear
 (
 )
 .
-commit
+apply
 (
 )
 ;
