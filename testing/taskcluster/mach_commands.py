@@ -2833,14 +2833,40 @@ tests_url
 =
 tests_url
                 
-test_parameters
+test_definition
+=
+templates
+.
+load
+(
+test
 [
 '
-total_chunks
+task
 '
 ]
+{
+}
+)
+[
+'
+task
+'
+]
+                
+chunk_config
 =
-1
+test_definition
+[
+'
+extra
+'
+]
+[
+'
+chunks
+'
+]
                 
 if
 '
@@ -2850,10 +2876,10 @@ in
 test
 :
                     
-test_parameters
+chunk_config
 [
 '
-total_chunks
+total
 '
 ]
 =
@@ -2864,16 +2890,30 @@ chunks
 '
 ]
                 
+test_parameters
+[
+'
+total_chunks
+'
+]
+=
+chunk_config
+[
+'
+total
+'
+]
+                
 for
 chunk
 in
 range
 (
 1
-test_parameters
+chunk_config
 [
 '
-total_chunks
+total
 '
 ]
 +
@@ -2902,7 +2942,6 @@ only_chunks
 :
                         
 continue
-;
                     
 test_parameters
 [
