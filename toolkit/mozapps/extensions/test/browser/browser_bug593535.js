@@ -37,6 +37,8 @@ test
 (
 )
 {
+return
+;
 waitForExplicitFinish
 (
 )

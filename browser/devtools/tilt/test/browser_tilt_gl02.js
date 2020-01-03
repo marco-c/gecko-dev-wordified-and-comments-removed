@@ -39,10 +39,6 @@ isWebGLSupported
 )
 )
 {
-aborting
-(
-)
-;
 info
 (
 "
@@ -97,10 +93,6 @@ if
 isWebGLAvailable
 )
 {
-aborting
-(
-)
-;
 return
 ;
 }

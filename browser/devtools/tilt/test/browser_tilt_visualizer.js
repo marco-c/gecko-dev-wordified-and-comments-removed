@@ -16,10 +16,6 @@ isTiltEnabled
 )
 )
 {
-aborting
-(
-)
-;
 info
 (
 "
@@ -47,10 +43,6 @@ isWebGLSupported
 )
 )
 {
-aborting
-(
-)
-;
 info
 (
 "
