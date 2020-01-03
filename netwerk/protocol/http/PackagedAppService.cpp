@@ -3193,7 +3193,7 @@ mixed
 *
 "
 downloader
-nullptr
+this
 getter_AddRefs
 (
 mimeConverter

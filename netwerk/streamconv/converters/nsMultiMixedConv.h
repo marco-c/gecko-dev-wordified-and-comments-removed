@@ -475,6 +475,9 @@ uint32_t
 mCurrentPartID
 ;
 bool
+mHasAppContentType
+;
+bool
 mPackagedApp
 ;
 nsAutoPtr
