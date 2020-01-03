@@ -895,6 +895,17 @@ compute_bin_unused
 narenas
 )
 ;
+stats
+-
+>
+waste
+-
+=
+stats
+-
+>
+bin_unused
+;
 }
 MOZ_JEMALLOC_API
 void
