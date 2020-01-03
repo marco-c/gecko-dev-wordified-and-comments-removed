@@ -194,6 +194,17 @@ aExpected
 aCallback
 )
 {
+info
+(
+Testing
+with
+input
+:
+{
+aTyped
+}
+)
+;
 gURLBar
 .
 inputField
@@ -306,7 +317,7 @@ http
 :
 /
 /
-a
+au
 "
 "
 http
