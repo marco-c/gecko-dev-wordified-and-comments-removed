@@ -86,6 +86,11 @@ _attrs
 new
 Set
 (
+[
+"
+muted
+"
+]
 )
 _skipAttrs
 :
