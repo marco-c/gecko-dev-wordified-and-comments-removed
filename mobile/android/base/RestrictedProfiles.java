@@ -278,7 +278,7 @@ VERSION_CODES
 .
 JELLY_BEAN_MR2
 )
-private
+public
 static
 boolean
 isRestrictedProfile
