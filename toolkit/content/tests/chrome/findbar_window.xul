@@ -1919,7 +1919,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2008,7 +2008,7 @@ composition
 "
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "

@@ -4007,7 +4007,7 @@ locale
 ;
 }
 function
-synthesizeText
+synthesizeCompositionChange
 (
 aEvent
 aWindow

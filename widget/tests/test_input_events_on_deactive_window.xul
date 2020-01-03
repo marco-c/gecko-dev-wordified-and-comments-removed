@@ -1174,7 +1174,7 @@ clear
 input
 first
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1410,7 +1410,7 @@ clear
 /
 commit
 composition
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "

@@ -1648,7 +1648,7 @@ compositionstart
 input
 raw
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1702,7 +1702,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1761,7 +1761,7 @@ length
 /
 /
 convert
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1818,7 +1818,7 @@ length
 /
 /
 commit
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1913,7 +1913,7 @@ compositionstart
 input
 raw
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -1972,7 +1972,7 @@ length
 cancel
 the
 composition
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2063,7 +2063,7 @@ compositionstart
 input
 raw
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2117,7 +2117,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2173,7 +2173,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2234,7 +2234,7 @@ length
 /
 /
 convert
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2291,7 +2291,7 @@ length
 /
 /
 commit
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2683,7 +2683,7 @@ compositionstart
 input
 raw
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2737,7 +2737,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2793,7 +2793,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2851,7 +2851,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2914,7 +2914,7 @@ length
 /
 /
 convert
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -2973,7 +2973,7 @@ length
 /
 /
 commit
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -4415,7 +4415,7 @@ compositionstart
 input
 first
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -4552,7 +4552,7 @@ caretRect
 input
 second
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -4816,7 +4816,7 @@ wrong
 input
 third
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -5085,7 +5085,7 @@ moves
 the
 caret
 left
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -5369,7 +5369,7 @@ moves
 the
 caret
 left
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -5647,7 +5647,7 @@ height
 "
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -5758,7 +5758,7 @@ return
 /
 /
 backspace
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -5867,7 +5867,7 @@ return
 re
 -
 input
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -5975,7 +5975,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -6087,7 +6087,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -6203,7 +6203,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -6323,7 +6323,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -6450,7 +6450,7 @@ return
 /
 /
 convert
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -6584,7 +6584,7 @@ change
 the
 selected
 clause
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -6716,7 +6716,7 @@ return
 /
 reset
 clauses
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -6918,7 +6918,7 @@ commit
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -7186,7 +7186,7 @@ compositionstart
 /
 input
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -7300,7 +7300,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -7414,7 +7414,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -7532,7 +7532,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -7660,7 +7660,7 @@ commit
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -7882,7 +7882,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -7994,7 +7994,7 @@ remove
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -8102,7 +8102,7 @@ input
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -8213,7 +8213,7 @@ return
 cancel
 the
 composition
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -8371,7 +8371,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -8471,7 +8471,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -8571,7 +8571,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -8759,7 +8759,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -8861,7 +8861,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -9065,7 +9065,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -9165,7 +9165,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -9425,7 +9425,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -9531,7 +9531,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -9631,7 +9631,7 @@ runCompositionTest
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -10619,7 +10619,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -11159,7 +11159,7 @@ input
 "
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -11620,7 +11620,7 @@ g
 at
 committing
 .
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -12127,7 +12127,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -12181,7 +12181,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -12906,7 +12906,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -12960,7 +12960,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -13693,7 +13693,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -13747,7 +13747,7 @@ length
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -17038,7 +17038,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -17510,7 +17510,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -17897,7 +17897,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -18249,7 +18249,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -18646,7 +18646,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -19054,7 +19054,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -19473,7 +19473,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -19899,7 +19899,7 @@ iframe2
 contentWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -20328,7 +20328,7 @@ iframe2
 contentWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -20810,7 +20810,7 @@ iframe2
 contentWindow
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -21759,7 +21759,7 @@ dispatching
 compositionstart
 "
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -21872,7 +21872,7 @@ keydown
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -22142,7 +22142,7 @@ compositionstart
 }
 )
 ;
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -22908,7 +22908,7 @@ compositionstart
 /
 input
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -23018,7 +23018,7 @@ convert
 them
 #
 1
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -23120,7 +23120,7 @@ convert
 them
 #
 2
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -23220,7 +23220,7 @@ return
 /
 commit
 them
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -23714,7 +23714,7 @@ compositionstart
 input
 first
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -23811,7 +23811,7 @@ return
 input
 second
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -23912,7 +23912,7 @@ return
 input
 third
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24017,7 +24017,7 @@ return
 input
 fourth
 character
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24124,7 +24124,7 @@ return
 /
 /
 backspace
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24229,7 +24229,7 @@ return
 re
 -
 input
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24333,7 +24333,7 @@ kDesc
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24441,7 +24441,7 @@ kDesc
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24553,7 +24553,7 @@ kDesc
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24669,7 +24669,7 @@ kDesc
 return
 ;
 }
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24792,7 +24792,7 @@ return
 /
 /
 convert
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -24922,7 +24922,7 @@ commit
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -25070,7 +25070,7 @@ compositionstart
 /
 input
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -25172,7 +25172,7 @@ commit
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -25573,7 +25573,7 @@ compositionstart
 /
 input
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -25671,7 +25671,7 @@ commit
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -25824,7 +25824,7 @@ compositionstart
 /
 input
 characters
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
@@ -25926,7 +25926,7 @@ commit
 the
 composition
 string
-synthesizeText
+synthesizeCompositionChange
 (
 {
 "
