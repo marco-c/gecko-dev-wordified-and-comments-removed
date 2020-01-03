@@ -785,8 +785,10 @@ nsTextControlFrame
 *
 mBoundFrame
 ;
+nsRefPtr
+<
 nsTextInputListener
-*
+>
 mTextListener
 ;
 nsAutoPtr
