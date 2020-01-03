@@ -594,6 +594,9 @@ mFormat
 EGLImage
 mEGLImage
 ;
+bool
+mIsOpaque
+;
 }
 ;
 }

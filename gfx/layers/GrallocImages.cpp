@@ -370,6 +370,14 @@ BackendType
 NONE
 )
 ;
+textureClient
+-
+>
+SetIsOpaque
+(
+true
+)
+;
 bool
 result
 =

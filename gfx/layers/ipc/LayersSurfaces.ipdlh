@@ -398,6 +398,9 @@ Bug
 IntSize
 size
 ;
+bool
+isOpaque
+;
 }
 ;
 struct
