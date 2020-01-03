@@ -6200,7 +6200,6 @@ nsIContentPolicy
 :
 :
 TYPE_OTHER
-nullptr
 loadGroup
 req
 )

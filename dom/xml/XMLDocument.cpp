@@ -2209,7 +2209,6 @@ nsIContentPolicy
 :
 :
 TYPE_XMLHTTPREQUEST
-nullptr
 loadGroup
 req
 nsIRequest

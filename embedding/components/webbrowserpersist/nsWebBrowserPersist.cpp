@@ -4595,7 +4595,6 @@ nsIContentPolicy
 :
 TYPE_OTHER
 nullptr
-nullptr
 static_cast
 <
 nsIInterfaceRequestor
