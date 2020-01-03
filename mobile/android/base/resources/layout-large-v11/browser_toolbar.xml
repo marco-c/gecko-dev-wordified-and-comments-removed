@@ -753,15 +753,6 @@ layout_marginRight
 "
 16dp
 "
-android
-:
-layout
-=
-"
-layout
-/
-new_tablet_tabs_counter
-"
 /
 >
 <
