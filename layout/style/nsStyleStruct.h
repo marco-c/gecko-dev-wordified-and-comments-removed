@@ -5169,6 +5169,9 @@ mFlexWrap
 uint8_t
 mJustifyContent
 ;
+uint8_t
+mObjectFit
+;
 int32_t
 mOrder
 ;

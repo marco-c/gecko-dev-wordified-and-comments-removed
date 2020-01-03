@@ -560,6 +560,11 @@ MixBlendMode
 )
 COMPUTED_STYLE_PROP
 (
+object_fit
+ObjectFit
+)
+COMPUTED_STYLE_PROP
+(
 opacity
 Opacity
 )
