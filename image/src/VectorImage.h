@@ -151,6 +151,12 @@ aLastPart
 override
 ;
 void
+OnSurfaceDiscarded
+(
+)
+override
+;
+void
 InvalidateObserversOnNextRefreshDriverTick
 (
 )
@@ -276,8 +282,14 @@ SVGParseCompleteListener
 >
 mParseCompleteListener
 ;
+uint32_t
+mLockCount
+;
 bool
 mIsInitialized
+;
+bool
+mDiscardable
 ;
 bool
 mIsFullyLoaded
