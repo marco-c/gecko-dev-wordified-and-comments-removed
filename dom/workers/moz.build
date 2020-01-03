@@ -162,6 +162,11 @@ ServiceWorkerManager
 h
 '
 '
+ServiceWorkerPeriodicUpdater
+.
+h
+'
+'
 WorkerDebuggerManager
 .
 h
@@ -387,6 +392,11 @@ cpp
 '
 '
 ServiceWorkerManager
+.
+cpp
+'
+'
+ServiceWorkerPeriodicUpdater
 .
 cpp
 '
