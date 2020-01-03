@@ -526,7 +526,8 @@ RecvBridgeEm
 {
 if
 (
-!
+NS_FAILED
+(
 PTestBridgeMainSub
 :
 :
@@ -534,6 +535,7 @@ Bridge
 (
 gBridgeMainChild
 this
+)
 )
 )
 fail
