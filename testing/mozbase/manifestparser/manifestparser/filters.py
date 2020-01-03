@@ -1253,7 +1253,13 @@ start
 =
 0
             
-else
+elif
+start
+<
+len
+(
+chunk_tests
+)
 :
                 
 start
@@ -1286,7 +1292,13 @@ len
 tests
 )
             
-else
+elif
+end
+<
+len
+(
+chunk_tests
+)
 :
                 
 end
