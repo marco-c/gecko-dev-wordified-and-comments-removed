@@ -121,6 +121,12 @@ DataAtOffset
 DataSourceSurface
 *
 aSurface
+DataSourceSurface
+:
+:
+MappedSurface
+*
+aMap
 IntPoint
 aPoint
 )
