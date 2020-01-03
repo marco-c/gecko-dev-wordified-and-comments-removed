@@ -2674,6 +2674,7 @@ AppendElements
 (
 aData
 aLength
+fallible
 )
 )
 {

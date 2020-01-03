@@ -7494,6 +7494,7 @@ aFontFaces
 Length
 (
 )
+fallible
 )
 ;
 MOZ_ASSERT

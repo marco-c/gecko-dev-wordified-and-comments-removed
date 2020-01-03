@@ -6980,6 +6980,7 @@ buffer
 AppendElements
 (
 bufferSize
+fallible
 )
 )
 {
@@ -9902,6 +9903,7 @@ tempBuf
 AppendElements
 (
 contentLength
+fallible
 )
 ;
 if
@@ -11059,6 +11061,7 @@ buffer
 AppendElements
 (
 bufferSize
+fallible
 )
 ;
 if
@@ -11540,6 +11543,7 @@ tempBuf
 AppendElements
 (
 contentLength
+fallible
 )
 ;
 if
@@ -27705,6 +27709,7 @@ prevailingSelectionsBuffer
 AppendElements
 (
 aContentLength
+fallible
 )
 ;
 if
@@ -28470,6 +28475,7 @@ selectedCharsBuffer
 AppendElements
 (
 aContentLength
+fallible
 )
 ;
 if
@@ -36876,6 +36882,7 @@ AppendElements
 flowEndInTextRun
 -
 start
+fallible
 )
 ;
 if

@@ -283,6 +283,7 @@ AppendElements
 (
 aData
 aLength
+fallible
 )
 ;
 }

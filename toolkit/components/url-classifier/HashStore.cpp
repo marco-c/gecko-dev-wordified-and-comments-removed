@@ -1885,6 +1885,7 @@ aStorePrefixes
 AppendElements
 (
 adds
+fallible
 )
 ;
 EntrySort

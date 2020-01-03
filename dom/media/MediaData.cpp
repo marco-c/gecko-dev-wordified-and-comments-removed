@@ -2498,6 +2498,7 @@ AppendElements
 (
 aData
 aSize
+fallible
 )
 )
 ;
@@ -2509,6 +2510,7 @@ mBuffer
 AppendElements
 (
 RAW_DATA_ALIGNMENT
+fallible
 )
 )
 ;
@@ -2620,6 +2622,7 @@ AppendElements
 (
 mData
 mSize
+fallible
 )
 )
 ;
@@ -2634,6 +2637,7 @@ mBuffer
 AppendElements
 (
 RAW_DATA_ALIGNMENT
+fallible
 )
 )
 ;

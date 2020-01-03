@@ -8941,6 +8941,7 @@ Value
 AppendElements
 (
 mKeyUsages
+fallible
 )
 )
 {

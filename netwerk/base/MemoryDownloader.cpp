@@ -228,6 +228,7 @@ AppendElements
 (
 aFromRawSegment
 aCount
+fallible
 )
 )
 {
