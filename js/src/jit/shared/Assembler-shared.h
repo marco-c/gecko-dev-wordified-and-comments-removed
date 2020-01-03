@@ -2991,7 +2991,7 @@ AsmJSExit
 :
 Builtin_ATan2D
 AsmJSImm_Runtime
-AsmJSImm_RuntimeInterrupt
+AsmJSImm_RuntimeInterruptUint32
 AsmJSImm_StackLimit
 AsmJSImm_ReportOverRecursed
 AsmJSImm_OnDetached
