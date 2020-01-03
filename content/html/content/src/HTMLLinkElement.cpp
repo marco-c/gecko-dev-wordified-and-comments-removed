@@ -1235,6 +1235,13 @@ aNotify
 true
 )
 ;
+if
+(
+IsInUncomposedDoc
+(
+)
+)
+{
 CreateAndDispatchEvent
 (
 OwnerDoc
@@ -1248,6 +1255,7 @@ DOMLinkChanged
 )
 )
 ;
+}
 }
 if
 (
@@ -1582,6 +1590,13 @@ aNotify
 false
 )
 ;
+if
+(
+IsInUncomposedDoc
+(
+)
+)
+{
 CreateAndDispatchEvent
 (
 OwnerDoc
@@ -1595,6 +1610,7 @@ DOMLinkChanged
 )
 )
 ;
+}
 }
 return
 rv
