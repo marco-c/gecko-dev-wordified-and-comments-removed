@@ -1086,9 +1086,9 @@ PAGE_2
 )
 ;
 yield
-promiseBrowserLoaded
+promiseTabRestored
 (
-browser
+newTab
 )
 ;
 ok
