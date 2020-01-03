@@ -26,6 +26,10 @@ from
 selection
 import
 SelectionManager
+from
+gestures
+import
+long_press_without_contextmenu
 class
 SelectionCaretsTest
 (
@@ -327,22 +331,17 @@ caret_location
 (
 )
         
+long_press_without_contextmenu
+(
 self
 .
-actions
-.
-long_press
-(
+marionette
 el
 self
 .
 _long_press_time
 x
 y
-)
-.
-perform
-(
 )
     
 def
