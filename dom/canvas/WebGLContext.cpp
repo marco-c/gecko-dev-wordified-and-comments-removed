@@ -3878,6 +3878,16 @@ disabled
 false
 )
 ;
+disabled
+|
+=
+gfxPlatform
+:
+:
+InSafeMode
+(
+)
+;
 if
 (
 disabled
