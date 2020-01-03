@@ -5182,7 +5182,6 @@ SavedFrame
 :
 class_
 proto
-global
 )
 )
 ;

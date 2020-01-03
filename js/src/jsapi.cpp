@@ -9057,12 +9057,6 @@ NewObjectWithGivenProto
 cx
 clasp
 proto
-JS
-:
-:
-NullPtr
-(
-)
 )
 ;
 }

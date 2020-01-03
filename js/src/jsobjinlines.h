@@ -3305,8 +3305,6 @@ Class
 clasp
 HandleObject
 proto
-HandleObject
-parent
 gc
 :
 :
@@ -3325,7 +3323,9 @@ AsTaggedProto
 (
 proto
 )
-parent
+NullPtr
+(
+)
 allocKind
 newKind
 )
@@ -3345,8 +3345,6 @@ Class
 clasp
 HandleObject
 proto
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -3362,7 +3360,9 @@ AsTaggedProto
 (
 proto
 )
-parent
+NullPtr
+(
+)
 newKind
 )
 ;
@@ -3382,8 +3382,6 @@ ExclusiveContext
 cx
 HandleObject
 proto
-HandleObject
-parent
 NewObjectKind
 newKind
 =
@@ -3401,7 +3399,9 @@ AsTaggedProto
 (
 proto
 )
-parent
+NullPtr
+(
+)
 newKind
 )
 ;
@@ -3421,8 +3421,6 @@ ExclusiveContext
 cx
 HandleObject
 proto
-HandleObject
-parent
 gc
 :
 :
@@ -3450,7 +3448,9 @@ AsTaggedProto
 (
 proto
 )
-parent
+NullPtr
+(
+)
 allocKind
 newKind
 )

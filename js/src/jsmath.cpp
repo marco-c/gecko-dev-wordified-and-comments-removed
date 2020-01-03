@@ -7952,7 +7952,6 @@ cx
 &
 MathClass
 proto
-obj
 SingletonObject
 )
 )

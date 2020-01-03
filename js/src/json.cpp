@@ -4454,7 +4454,6 @@ cx
 &
 JSONClass
 proto
-global
 SingletonObject
 )
 )

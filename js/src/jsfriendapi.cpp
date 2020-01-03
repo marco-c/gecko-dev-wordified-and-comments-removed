@@ -560,9 +560,6 @@ clasp
 NullPtr
 (
 )
-NullPtr
-(
-)
 SingletonObject
 )
 )

@@ -5614,9 +5614,6 @@ class_
 NullPtr
 (
 )
-NullPtr
-(
-)
 )
 ;
 if

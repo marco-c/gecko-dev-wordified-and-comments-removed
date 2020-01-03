@@ -667,9 +667,6 @@ NewObjectWithGivenProto
 cx
 clasp
 proto
-NullPtr
-(
-)
 )
 ;
 if

@@ -2491,7 +2491,6 @@ SIMDObject
 :
 class_
 objProto
-global
 SingletonObject
 )
 )
