@@ -34,6 +34,9 @@ namespace
 storage
 {
 class
+Statement
+;
+class
 StatementRow
 final
 :

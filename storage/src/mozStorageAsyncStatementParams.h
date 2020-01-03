@@ -37,6 +37,9 @@ namespace
 storage
 {
 class
+AsyncStatement
+;
+class
 AsyncStatementParams
 final
 :
