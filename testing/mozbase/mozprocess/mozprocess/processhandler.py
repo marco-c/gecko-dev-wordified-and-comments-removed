@@ -2048,6 +2048,23 @@ unexpectedly
 closed
 "
                             
+self
+.
+_process_events
+.
+put
+(
+{
+self
+.
+pid
+:
+'
+FINISHED
+'
+}
+)
+                            
 break
                         
 elif
