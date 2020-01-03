@@ -29497,7 +29497,7 @@ type
 Type
 :
 :
-Signed
+Intish
 ;
 return
 true
@@ -29696,10 +29696,7 @@ rhsDef
 *
 type
 =
-Type
-:
-:
-Signed
+rhsType
 ;
 return
 true
@@ -29908,7 +29905,7 @@ type
 Type
 :
 :
-Signed
+Intish
 ;
 return
 true
@@ -30300,7 +30297,7 @@ type
 Type
 :
 :
-Signed
+Intish
 ;
 return
 true
