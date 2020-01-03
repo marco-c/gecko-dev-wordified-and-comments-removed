@@ -13736,9 +13736,6 @@ alloc
 )
 LAsmJSInterruptCheck
 (
-temp
-(
-)
 ins
 -
 >
