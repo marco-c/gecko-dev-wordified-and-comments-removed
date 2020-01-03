@@ -66,6 +66,7 @@ nsIAnonymousContentCreator
 {
 public
 :
+explicit
 nsFileControlFrame
 (
 nsStyleContext
@@ -287,6 +288,7 @@ nsIDOMEventListener
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 MouseListener
 (
 nsFileControlFrame
@@ -340,6 +342,7 @@ nsRunnable
 {
 public
 :
+explicit
 SyncDisabledStateEvent
 (
 nsFileControlFrame
@@ -407,6 +410,7 @@ MouseListener
 {
 public
 :
+explicit
 DnDListener
 (
 nsFileControlFrame

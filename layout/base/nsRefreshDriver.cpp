@@ -275,6 +275,7 @@ RefreshDriverTimer
 {
 public
 :
+explicit
 RefreshDriverTimer
 (
 double
@@ -805,6 +806,7 @@ RefreshDriverTimer
 {
 public
 :
+explicit
 SimpleTimerBasedRefreshDriverTimer
 (
 double
@@ -920,6 +922,7 @@ SimpleTimerBasedRefreshDriverTimer
 {
 public
 :
+explicit
 PreciseRefreshDriverTimer
 (
 double
@@ -1633,6 +1636,7 @@ RefreshDriverTimer
 {
 public
 :
+explicit
 InactiveRefreshDriverTimer
 (
 double
@@ -3969,6 +3973,7 @@ Now
 struct
 DocumentFrameCallbacks
 {
+explicit
 DocumentFrameCallbacks
 (
 nsIDocument

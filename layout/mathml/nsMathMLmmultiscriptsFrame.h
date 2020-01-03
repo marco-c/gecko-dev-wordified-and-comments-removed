@@ -98,6 +98,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsMathMLmmultiscriptsFrame
 (
 nsStyleContext

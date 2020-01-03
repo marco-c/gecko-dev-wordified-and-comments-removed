@@ -81,6 +81,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGForeignObjectFrame
 (
 nsStyleContext

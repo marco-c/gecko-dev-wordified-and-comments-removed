@@ -57,6 +57,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGInnerSVGFrame
 (
 nsStyleContext

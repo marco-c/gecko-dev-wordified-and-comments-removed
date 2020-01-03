@@ -683,6 +683,7 @@ InvalidateFrameSubtree
 }
 protected
 :
+explicit
 nsTableRowGroupFrame
 (
 nsStyleContext

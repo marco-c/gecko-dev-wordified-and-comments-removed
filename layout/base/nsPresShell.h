@@ -1867,6 +1867,7 @@ RenderingState
 struct
 RenderingState
 {
+explicit
 RenderingState
 (
 PresShell
@@ -1911,6 +1912,7 @@ mRenderFlags
 struct
 AutoSaveRestoreRenderingState
 {
+explicit
 AutoSaveRestoreRenderingState
 (
 PresShell
@@ -2323,6 +2325,7 @@ DelayedInputEvent
 {
 public
 :
+explicit
 DelayedMouseEvent
 (
 mozilla
@@ -2343,6 +2346,7 @@ DelayedInputEvent
 {
 public
 :
+explicit
 DelayedKeyEvent
 (
 mozilla

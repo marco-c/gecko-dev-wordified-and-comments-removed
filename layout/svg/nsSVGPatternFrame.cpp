@@ -166,6 +166,7 @@ AutoPatternReferencer
 {
 public
 :
+explicit
 AutoPatternReferencer
 (
 nsSVGPatternFrame

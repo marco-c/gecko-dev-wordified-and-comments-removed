@@ -21509,6 +21509,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsOverflowChecker
 (
 nsTreeBodyFrame

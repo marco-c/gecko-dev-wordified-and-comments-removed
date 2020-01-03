@@ -62,6 +62,7 @@ nsTextNode
 >
 mText
 ;
+explicit
 nsGenConNode
 (
 int32_t

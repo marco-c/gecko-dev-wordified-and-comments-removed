@@ -50,6 +50,7 @@ nsIFormControlFrame
 {
 public
 :
+explicit
 nsHTMLButtonControlFrame
 (
 nsStyleContext

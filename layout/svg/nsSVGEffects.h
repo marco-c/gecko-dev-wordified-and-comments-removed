@@ -334,6 +334,7 @@ nsReferencedElement
 {
 public
 :
+explicit
 SourceReference
 (
 nsSVGIDRenderingObserver

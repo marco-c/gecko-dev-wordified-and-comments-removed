@@ -1025,6 +1025,7 @@ nsScriptSuppressor
 {
 public
 :
+explicit
 nsScriptSuppressor
 (
 nsPrintEngine
@@ -16889,6 +16890,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsPrintCompletionEvent
 (
 nsIDocumentViewerPrint

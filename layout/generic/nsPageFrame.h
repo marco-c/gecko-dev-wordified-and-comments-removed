@@ -158,6 +158,7 @@ aPt
 ;
 protected
 :
+explicit
 nsPageFrame
 (
 nsStyleContext
@@ -284,6 +285,7 @@ public
 nsLeafFrame
 {
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsPageBreakFrame
 (
 nsStyleContext

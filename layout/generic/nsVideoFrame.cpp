@@ -1199,6 +1199,7 @@ nsRunnable
 {
 public
 :
+explicit
 DispatchResizeToControls
 (
 nsIContent

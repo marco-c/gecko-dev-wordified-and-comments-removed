@@ -115,6 +115,7 @@ nsMediaQueryResultCacheKey
 {
 public
 :
+explicit
 nsMediaQueryResultCacheKey
 (
 nsIAtom

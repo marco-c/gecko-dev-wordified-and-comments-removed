@@ -98,6 +98,7 @@ nsBulletFrame
 NS_DECL_QUERYFRAME
 #
 endif
+explicit
 nsBulletFrame
 (
 nsStyleContext

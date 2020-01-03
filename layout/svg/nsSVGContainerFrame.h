@@ -111,6 +111,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGContainerFrame
 (
 nsStyleContext
@@ -291,6 +292,7 @@ nsISVGChildFrame
 {
 protected
 :
+explicit
 nsSVGDisplayContainerFrame
 (
 nsStyleContext

@@ -18,6 +18,15 @@ nsCoord
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFrame
 ;
@@ -177,6 +186,7 @@ nullptr
 )
 {
 }
+MOZ_IMPLICIT
 nsAutoLineIterator
 (
 nsILineIterator

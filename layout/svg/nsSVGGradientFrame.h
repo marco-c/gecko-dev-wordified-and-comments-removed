@@ -98,6 +98,7 @@ nsSVGGradientFrameBase
 {
 protected
 :
+explicit
 nsSVGGradientFrame
 (
 nsStyleContext
@@ -377,6 +378,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGLinearGradientFrame
 (
 nsStyleContext
@@ -544,6 +546,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGRadialGradientFrame
 (
 nsStyleContext

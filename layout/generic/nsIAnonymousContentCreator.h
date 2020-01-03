@@ -46,6 +46,7 @@ nsIAnonymousContentCreator
 struct
 ContentInfo
 {
+explicit
 ContentInfo
 (
 nsIContent

@@ -85,6 +85,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGGenericContainerFrame
 (
 nsStyleContext

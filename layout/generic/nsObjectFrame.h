@@ -702,6 +702,7 @@ aOwner
 ;
 protected
 :
+explicit
 nsObjectFrame
 (
 nsStyleContext
@@ -866,6 +867,7 @@ nsRunnable
 {
 public
 :
+explicit
 PluginEventNotifier
 (
 const

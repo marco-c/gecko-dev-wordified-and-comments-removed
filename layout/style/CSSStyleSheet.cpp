@@ -312,6 +312,7 @@ CSSRuleList
 {
 public
 :
+explicit
 CSSRuleListImpl
 (
 CSSStyleSheet

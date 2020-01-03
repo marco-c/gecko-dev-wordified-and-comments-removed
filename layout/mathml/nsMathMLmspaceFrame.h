@@ -89,6 +89,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsMathMLmspaceFrame
 (
 nsStyleContext

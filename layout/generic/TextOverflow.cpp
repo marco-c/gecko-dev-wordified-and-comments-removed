@@ -137,6 +137,7 @@ LazyReferenceContextGetter
 {
 public
 :
+explicit
 LazyReferenceRenderingContextGetterFromFrame
 (
 nsIFrame

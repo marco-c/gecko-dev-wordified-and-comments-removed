@@ -2352,6 +2352,7 @@ mBreakType
 struct
 ExtraData
 {
+explicit
 ExtraData
 (
 const
@@ -2378,6 +2379,7 @@ ExtraBlockData
 public
 ExtraData
 {
+explicit
 ExtraBlockData
 (
 const
@@ -2406,6 +2408,7 @@ ExtraInlineData
 public
 ExtraData
 {
+explicit
 ExtraInlineData
 (
 const

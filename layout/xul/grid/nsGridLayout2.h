@@ -395,6 +395,7 @@ aSize
 ;
 protected
 :
+explicit
 nsGridLayout2
 (
 nsIPresShell

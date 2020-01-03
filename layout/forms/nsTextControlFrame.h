@@ -806,6 +806,7 @@ nsRunnable
 {
 public
 :
+explicit
 EditorInitializer
 (
 nsTextControlFrame
@@ -858,6 +859,7 @@ nsRunnable
 {
 public
 :
+explicit
 ScrollOnFocusEvent
 (
 nsTextControlFrame

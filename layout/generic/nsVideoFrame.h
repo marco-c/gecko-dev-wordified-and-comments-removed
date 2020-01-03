@@ -101,6 +101,7 @@ mozilla
 ContainerLayerParameters
 ContainerLayerParameters
 ;
+explicit
 nsVideoFrame
 (
 nsStyleContext

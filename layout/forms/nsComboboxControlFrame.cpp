@@ -354,6 +354,7 @@ return
 NS_OK
 ;
 }
+explicit
 nsComboButtonListener
 (
 nsComboboxControlFrame
@@ -1577,6 +1578,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsResizeDropdownAtFinalPosition
 (
 nsComboboxControlFrame
@@ -2119,6 +2121,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsAsyncRollup
 (
 nsComboboxControlFrame
@@ -2182,6 +2185,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsAsyncResize
 (
 nsComboboxControlFrame

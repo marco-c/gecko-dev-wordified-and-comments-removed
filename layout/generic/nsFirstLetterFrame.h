@@ -35,6 +35,7 @@ nsFirstLetterFrame
 )
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsFirstLetterFrame
 (
 nsStyleContext

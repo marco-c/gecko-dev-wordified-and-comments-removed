@@ -8913,6 +8913,7 @@ nsDisplayWrapper
 {
 public
 :
+explicit
 nsXULEventRedirectorWrapper
 (
 nsIFrame

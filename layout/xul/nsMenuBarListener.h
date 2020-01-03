@@ -52,6 +52,7 @@ nsIDOMEventListener
 {
 public
 :
+explicit
 nsMenuBarListener
 (
 nsMenuBarFrame

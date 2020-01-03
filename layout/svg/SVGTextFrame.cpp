@@ -3263,6 +3263,7 @@ TextNodeIterator
 {
 public
 :
+explicit
 TextNodeIterator
 (
 nsIContent
@@ -3590,6 +3591,7 @@ mCurrent
 struct
 TextNodeCorrespondence
 {
+explicit
 TextNodeCorrespondence
 (
 uint32_t
@@ -3722,6 +3724,7 @@ aRoot
 ;
 private
 :
+explicit
 TextNodeCorrespondenceRecorder
 (
 SVGTextFrame
@@ -4412,6 +4415,7 @@ TextFrameIterator
 {
 public
 :
+explicit
 TextFrameIterator
 (
 SVGTextFrame
@@ -5217,6 +5221,7 @@ eAllFrames
 eVisibleFrames
 }
 ;
+explicit
 TextRenderedRunIterator
 (
 SVGTextFrame
@@ -7545,6 +7550,7 @@ nsCharClipDisplayItem
 {
 public
 :
+explicit
 SVGCharClipDisplayItem
 (
 const

@@ -103,6 +103,7 @@ css
 ImageValue
 Image
 ;
+explicit
 ImageLoader
 (
 nsIDocument

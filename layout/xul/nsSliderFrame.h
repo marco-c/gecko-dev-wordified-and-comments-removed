@@ -90,6 +90,7 @@ nsSliderFrame
 *
 mSlider
 ;
+explicit
 nsSliderMediator
 (
 nsSliderFrame

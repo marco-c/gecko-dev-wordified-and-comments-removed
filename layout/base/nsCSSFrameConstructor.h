@@ -1859,6 +1859,7 @@ Iterator
 {
 public
 :
+explicit
 Iterator
 (
 FrameConstructionItemList

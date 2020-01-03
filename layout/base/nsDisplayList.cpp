@@ -8256,6 +8256,7 @@ aFrame
 struct
 FramesWithDepth
 {
+explicit
 FramesWithDepth
 (
 float

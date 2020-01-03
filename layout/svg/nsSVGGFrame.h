@@ -52,6 +52,7 @@ aContext
 ;
 protected
 :
+explicit
 nsSVGGFrame
 (
 nsStyleContext

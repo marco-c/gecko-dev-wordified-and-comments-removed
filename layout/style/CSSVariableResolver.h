@@ -70,6 +70,7 @@ EnumerateVariableReferencesData
 ;
 public
 :
+explicit
 CSSVariableResolver
 (
 CSSVariableValues

@@ -6584,6 +6584,7 @@ mozilla
 TimeDuration
 TimeDuration
 ;
+explicit
 AsyncScroll
 (
 nsPoint

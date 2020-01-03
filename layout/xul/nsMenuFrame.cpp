@@ -960,6 +960,7 @@ nsIReflowCallback
 {
 public
 :
+explicit
 nsASyncMenuInitialization
 (
 nsIFrame

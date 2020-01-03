@@ -81,6 +81,7 @@ nsIFormControlFrame
 {
 public
 :
+explicit
 nsImageControlFrame
 (
 nsStyleContext

@@ -69,6 +69,7 @@ LayerActivity
 {
 public
 :
+explicit
 LayerActivity
 (
 nsIFrame

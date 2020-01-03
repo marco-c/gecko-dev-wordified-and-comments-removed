@@ -187,6 +187,7 @@ UpdateColor
 ;
 private
 :
+explicit
 nsColorControlFrame
 (
 nsStyleContext

@@ -97,6 +97,7 @@ nsTableCellFrame
 )
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsTableCellFrame
 (
 nsStyleContext
@@ -926,6 +927,7 @@ nsTableCellFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsBCTableCellFrame
 (
 nsStyleContext

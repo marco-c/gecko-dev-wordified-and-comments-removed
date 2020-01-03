@@ -1574,6 +1574,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsTableFrame
 (
 nsStyleContext
@@ -2827,6 +2828,7 @@ nsTableIterator
 {
 public
 :
+explicit
 nsTableIterator
 (
 nsIFrame
@@ -2834,6 +2836,7 @@ nsIFrame
 aSource
 )
 ;
+explicit
 nsTableIterator
 (
 nsFrameList

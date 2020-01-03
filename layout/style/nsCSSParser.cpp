@@ -1135,6 +1135,7 @@ nsAutoParseCompoundProperty
 {
 public
 :
+explicit
 nsAutoParseCompoundProperty
 (
 CSSParserImpl
@@ -1275,6 +1276,7 @@ nsAutoSuppressErrors
 {
 public
 :
+explicit
 nsAutoSuppressErrors
 (
 CSSParserImpl

@@ -99,6 +99,7 @@ mType
 }
 protected
 :
+explicit
 nsITableLayoutStrategy
 (
 Type

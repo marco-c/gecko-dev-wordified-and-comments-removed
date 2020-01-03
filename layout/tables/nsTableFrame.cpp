@@ -19474,6 +19474,7 @@ BCMapCellIterator
 struct
 BCMapCellInfo
 {
+explicit
 BCMapCellInfo
 (
 nsTableFrame
@@ -22459,6 +22460,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsDelayedCalcBCBorders
 (
 nsIFrame
@@ -29876,6 +29878,7 @@ BCPaintBorderIterator
 {
 public
 :
+explicit
 BCPaintBorderIterator
 (
 nsTableFrame

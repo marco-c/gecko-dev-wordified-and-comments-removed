@@ -97,6 +97,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsGridContainerFrame
 (
 nsStyleContext

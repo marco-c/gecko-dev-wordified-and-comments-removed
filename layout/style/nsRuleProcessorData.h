@@ -792,6 +792,7 @@ AutoAncestorPusher
 {
 public
 :
+explicit
 AutoAncestorPusher
 (
 TreeMatchContext
@@ -1047,6 +1048,7 @@ AutoParentDisplayBasedStyleFixupSkipper
 {
 public
 :
+explicit
 AutoParentDisplayBasedStyleFixupSkipper
 (
 TreeMatchContext

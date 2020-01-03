@@ -79,6 +79,7 @@ nsSVGPaintServerFrameBase
 {
 protected
 :
+explicit
 nsSVGPaintServerFrame
 (
 nsStyleContext

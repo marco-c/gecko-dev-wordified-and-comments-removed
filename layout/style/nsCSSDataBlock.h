@@ -67,6 +67,7 @@ friend
 class
 nsCSSExpandedDataBlock
 ;
+explicit
 nsCSSCompressedDataBlock
 (
 uint32_t

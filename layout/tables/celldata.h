@@ -200,6 +200,7 @@ friend
 class
 BCCellData
 ;
+explicit
 CellData
 (
 nsTableCellFrame
@@ -604,6 +605,7 @@ CellData
 {
 public
 :
+explicit
 BCCellData
 (
 nsTableCellFrame

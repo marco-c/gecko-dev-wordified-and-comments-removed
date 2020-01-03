@@ -153,6 +153,7 @@ MOZ_OVERRIDE
 endif
 protected
 :
+explicit
 nsPageContentFrame
 (
 nsStyleContext

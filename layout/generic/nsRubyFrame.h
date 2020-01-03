@@ -155,6 +155,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsRubyFrame
 (
 nsStyleContext

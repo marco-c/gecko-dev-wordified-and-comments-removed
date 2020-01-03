@@ -51,6 +51,7 @@ aContext
 ;
 protected
 :
+explicit
 SVGFEUnstyledLeafFrame
 (
 nsStyleContext

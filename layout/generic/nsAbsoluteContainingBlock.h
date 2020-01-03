@@ -39,6 +39,7 @@ nsIFrame
 ChildListID
 ChildListID
 ;
+explicit
 nsAbsoluteContainingBlock
 (
 ChildListID

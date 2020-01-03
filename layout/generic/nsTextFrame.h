@@ -121,6 +121,7 @@ friend
 class
 nsDisplayText
 ;
+explicit
 nsTextFrame
 (
 nsStyleContext
@@ -1212,6 +1213,7 @@ DrawPathCallbacks
 :
 gfxTextRunDrawCallbacks
 {
+explicit
 DrawPathCallbacks
 (
 bool

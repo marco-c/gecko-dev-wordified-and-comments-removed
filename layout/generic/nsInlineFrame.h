@@ -484,6 +484,7 @@ false
 }
 }
 ;
+explicit
 nsInlineFrame
 (
 nsStyleContext
@@ -733,6 +734,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsFirstLineFrame
 (
 nsStyleContext

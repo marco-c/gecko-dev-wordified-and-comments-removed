@@ -174,6 +174,7 @@ nsStyleContext
 aContext
 )
 ;
+explicit
 nsRubyBaseFrame
 (
 nsStyleContext

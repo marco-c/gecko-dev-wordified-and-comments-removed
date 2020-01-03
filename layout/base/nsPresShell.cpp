@@ -1479,6 +1479,7 @@ ReflowCounter
 {
 public
 :
+explicit
 ReflowCounter
 (
 ReflowCountMgr
@@ -1621,6 +1622,7 @@ IndiReflowCounter
 {
 public
 :
+explicit
 IndiReflowCounter
 (
 ReflowCountMgr
@@ -2116,6 +2118,7 @@ nsAutoCauseReflowNotifier
 {
 public
 :
+explicit
 nsAutoCauseReflowNotifier
 (
 PresShell
@@ -2184,6 +2187,7 @@ EventDispatchingCallback
 {
 public
 :
+explicit
 nsPresShellEventCB
 (
 PresShell
@@ -2430,6 +2434,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsBeforeFirstPaintDispatcher
 (
 nsIDocument
@@ -16738,6 +16743,7 @@ nsITimerCallback
 {
 public
 :
+explicit
 PaintTimerCallBack
 (
 PresShell

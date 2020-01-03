@@ -110,6 +110,7 @@ mHeightOfARow
 }
 protected
 :
+explicit
 nsSelectsAreaFrame
 (
 nsStyleContext

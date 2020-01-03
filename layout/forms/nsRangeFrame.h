@@ -83,6 +83,7 @@ friend
 class
 nsDisplayRangeFocusRing
 ;
+explicit
 nsRangeFrame
 (
 nsStyleContext

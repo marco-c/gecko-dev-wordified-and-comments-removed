@@ -92,6 +92,7 @@ nsMathMLmfencedFrame
 ;
 public
 :
+explicit
 nsMathMLContainerFrame
 (
 nsStyleContext
@@ -1053,6 +1054,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmathBlockFrame
 (
 nsStyleContext
@@ -1397,6 +1399,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmathInlineFrame
 (
 nsStyleContext

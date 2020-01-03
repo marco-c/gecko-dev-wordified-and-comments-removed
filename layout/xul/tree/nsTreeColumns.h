@@ -486,6 +486,7 @@ nsTreeColumns
 ;
 public
 :
+explicit
 nsTreeColumns
 (
 nsTreeBodyFrame

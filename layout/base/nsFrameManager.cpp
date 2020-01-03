@@ -273,6 +273,7 @@ UndisplayedMap
 {
 public
 :
+explicit
 UndisplayedMap
 (
 uint32_t

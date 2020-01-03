@@ -404,6 +404,7 @@ InvalidateFrameSubtree
 }
 protected
 :
+explicit
 nsTableColGroupFrame
 (
 nsStyleContext

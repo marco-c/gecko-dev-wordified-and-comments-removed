@@ -771,6 +771,7 @@ friend
 class
 ElementRestyler
 ;
+explicit
 RestyleTracker
 (
 Element

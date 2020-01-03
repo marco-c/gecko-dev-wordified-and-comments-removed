@@ -87,6 +87,7 @@ aContext
 ;
 protected
 :
+explicit
 SVGFEImageFrame
 (
 nsStyleContext

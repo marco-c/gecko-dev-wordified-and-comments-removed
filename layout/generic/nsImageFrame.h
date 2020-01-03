@@ -141,6 +141,7 @@ nsImageListener
 ;
 public
 :
+explicit
 nsImageListener
 (
 nsImageFrame
@@ -216,6 +217,7 @@ LayerManager
 LayerManager
 ;
 NS_DECL_FRAMEARENA_HELPERS
+explicit
 nsImageFrame
 (
 nsStyleContext

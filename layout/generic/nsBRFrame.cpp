@@ -284,6 +284,7 @@ MOZ_OVERRIDE
 endif
 protected
 :
+explicit
 BRFrame
 (
 nsStyleContext

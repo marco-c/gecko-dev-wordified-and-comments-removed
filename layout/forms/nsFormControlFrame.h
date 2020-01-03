@@ -37,6 +37,7 @@ nsIFormControlFrame
 {
 public
 :
+explicit
 nsFormControlFrame
 (
 nsStyleContext

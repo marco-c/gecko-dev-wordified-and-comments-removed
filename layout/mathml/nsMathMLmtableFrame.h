@@ -137,6 +137,7 @@ eMathML
 }
 protected
 :
+explicit
 nsMathMLmtableOuterFrame
 (
 nsStyleContext
@@ -427,6 +428,7 @@ mUseCSSSpacing
 }
 protected
 :
+explicit
 nsMathMLmtableFrame
 (
 nsStyleContext
@@ -668,6 +670,7 @@ RestyleTable
 }
 protected
 :
+explicit
 nsMathMLmtrFrame
 (
 nsStyleContext
@@ -813,6 +816,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsMathMLmtdFrame
 (
 nsStyleContext
@@ -992,6 +996,7 @@ FirstChild
 }
 protected
 :
+explicit
 nsMathMLmtdInnerFrame
 (
 nsStyleContext

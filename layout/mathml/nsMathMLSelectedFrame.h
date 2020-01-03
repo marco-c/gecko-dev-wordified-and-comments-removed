@@ -128,6 +128,7 @@ GetFrameId
 ;
 protected
 :
+explicit
 nsMathMLSelectedFrame
 (
 nsStyleContext

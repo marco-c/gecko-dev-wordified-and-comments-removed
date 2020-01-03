@@ -122,6 +122,7 @@ AutoFilterReferencer
 {
 public
 :
+explicit
 AutoFilterReferencer
 (
 nsSVGFilterFrame

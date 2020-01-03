@@ -1008,6 +1008,7 @@ mFrames
 ;
 protected
 :
+explicit
 nsBlockFrame
 (
 nsStyleContext
@@ -2190,6 +2191,7 @@ nsAutoOOFFrameList
 nsFrameList
 mList
 ;
+explicit
 nsAutoOOFFrameList
 (
 nsBlockFrame
@@ -2452,6 +2454,7 @@ AutoNoisyIndenter
 {
 public
 :
+explicit
 AutoNoisyIndenter
 (
 bool

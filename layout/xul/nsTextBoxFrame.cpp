@@ -650,6 +650,7 @@ nsIReflowCallback
 {
 public
 :
+explicit
 nsAsyncAccesskeyUpdate
 (
 nsIFrame

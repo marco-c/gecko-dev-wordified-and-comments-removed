@@ -107,6 +107,7 @@ MOZ_OVERRIDE
 ;
 protected
 :
+explicit
 nsMathMLmunderoverFrame
 (
 nsStyleContext

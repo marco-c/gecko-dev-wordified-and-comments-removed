@@ -649,6 +649,7 @@ MOZ_OVERRIDE
 endif
 protected
 :
+explicit
 nsTableRowFrame
 (
 nsStyleContext

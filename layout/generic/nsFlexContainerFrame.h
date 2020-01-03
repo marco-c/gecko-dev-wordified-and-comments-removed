@@ -168,6 +168,7 @@ IsHorizontal
 ;
 protected
 :
+explicit
 nsFlexContainerFrame
 (
 nsStyleContext
