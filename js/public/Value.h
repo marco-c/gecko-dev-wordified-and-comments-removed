@@ -5672,15 +5672,9 @@ gc
 :
 ExposeGCThingToActiveJS
 (
-v
-.
-toGCThing
+GCCellPtr
 (
-)
 v
-.
-gcKind
-(
 )
 )
 ;
