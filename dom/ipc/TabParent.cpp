@@ -9570,6 +9570,12 @@ RecvOnEventNeedingAckReceived
 (
 )
 {
+mContentCache
+.
+OnEventNeedingAckReceived
+(
+)
+;
 return
 true
 ;
@@ -10445,6 +10451,13 @@ return
 true
 ;
 }
+mContentCache
+.
+OnSelectionEvent
+(
+event
+)
+;
 return
 PBrowserParent
 :
