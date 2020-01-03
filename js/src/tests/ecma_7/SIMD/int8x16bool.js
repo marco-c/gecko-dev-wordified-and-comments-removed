@@ -1,9 +1,9 @@
 var
-int8x16
+Int8x16
 =
 SIMD
 .
-int8x16
+Int8x16
 ;
 function
 test
@@ -13,7 +13,7 @@ test
 var
 a
 =
-int8x16
+Int8x16
 .
 bool
 (

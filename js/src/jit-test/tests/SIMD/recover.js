@@ -123,7 +123,7 @@ a
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 i
 i
@@ -197,7 +197,7 @@ a
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 i
 i

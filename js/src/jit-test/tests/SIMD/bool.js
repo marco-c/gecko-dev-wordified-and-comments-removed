@@ -55,7 +55,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 bool
 (
@@ -80,7 +80,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 bool
 (
@@ -105,7 +105,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 bool
 (

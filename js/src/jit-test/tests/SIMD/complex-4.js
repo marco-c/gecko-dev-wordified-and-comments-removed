@@ -58,7 +58,7 @@ f4
 =
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 f4add

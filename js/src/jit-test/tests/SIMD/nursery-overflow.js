@@ -53,14 +53,14 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 i4sub
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 sub
 ;

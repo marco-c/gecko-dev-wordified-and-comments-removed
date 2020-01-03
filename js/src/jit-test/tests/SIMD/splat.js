@@ -46,7 +46,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 splat
 (
@@ -64,7 +64,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 splat
 (

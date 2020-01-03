@@ -1,26 +1,16 @@
 var
-float32x4
+Float32x4
 =
 SIMD
 .
-float32x4
+Float32x4
 ;
 var
-float64x2
+Float64x2
 =
 SIMD
 .
-float64x2
-;
-var
-summary
-=
-'
-float32x4
-/
-float64x2
-clamp
-'
+Float64x2
 ;
 function
 test
@@ -30,7 +20,7 @@ test
 var
 a
 =
-float32x4
+Float32x4
 (
 -
 20
@@ -44,7 +34,7 @@ float32x4
 var
 lower
 =
-float32x4
+Float32x4
 (
 2
 1
@@ -55,7 +45,7 @@ float32x4
 var
 upper
 =
-float32x4
+Float32x4
 (
 2
 .
@@ -70,7 +60,7 @@ c
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 clamp
 (
@@ -116,7 +106,7 @@ w
 var
 d
 =
-float32x4
+Float32x4
 (
 -
 13
@@ -136,7 +126,7 @@ float32x4
 var
 lower1
 =
-float32x4
+Float32x4
 (
 2
 .
@@ -155,7 +145,7 @@ float32x4
 var
 upper1
 =
-float32x4
+Float32x4
 (
 2
 .
@@ -176,7 +166,7 @@ f
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 clamp
 (
@@ -248,7 +238,7 @@ fround
 var
 g
 =
-float32x4
+Float32x4
 (
 4
 -
@@ -261,7 +251,7 @@ Infinity
 var
 lower2
 =
-float32x4
+Float32x4
 (
 5
 -
@@ -275,7 +265,7 @@ Infinity
 var
 upper2
 =
-float32x4
+Float32x4
 (
 Infinity
 5
@@ -288,7 +278,7 @@ i
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 clamp
 (
@@ -334,7 +324,7 @@ w
 var
 j
 =
-float64x2
+Float64x2
 (
 -
 20
@@ -344,7 +334,7 @@ float64x2
 var
 k
 =
-float64x2
+Float64x2
 (
 2
 .
@@ -355,7 +345,7 @@ float64x2
 var
 lower3
 =
-float64x2
+Float64x2
 (
 2
 1
@@ -364,7 +354,7 @@ float64x2
 var
 upper3
 =
-float64x2
+Float64x2
 (
 2
 .
@@ -375,7 +365,7 @@ float64x2
 var
 l
 =
-float64x2
+Float64x2
 .
 clamp
 (
@@ -403,7 +393,7 @@ y
 var
 m
 =
-float64x2
+Float64x2
 .
 clamp
 (
@@ -433,7 +423,7 @@ y
 var
 n
 =
-float64x2
+Float64x2
 (
 -
 5
@@ -443,7 +433,7 @@ float64x2
 var
 lower4
 =
-float64x2
+Float64x2
 (
 -
 Infinity
@@ -453,7 +443,7 @@ Infinity
 var
 upper4
 =
-float64x2
+Float64x2
 (
 +
 Infinity
@@ -464,7 +454,7 @@ Infinity
 var
 p
 =
-float64x2
+Float64x2
 .
 clamp
 (

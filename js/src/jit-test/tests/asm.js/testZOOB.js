@@ -2374,11 +2374,11 @@ shift
 scale
 disp
 '
-float32x4
+Float32x4
 '
 SIMD
 .
-float32x4
+Float32x4
 )
 ;
 }
@@ -2398,11 +2398,11 @@ shift
 scale
 disp
 '
-int32x4
+Int32x4
 '
 SIMD
 .
-int32x4
+Int32x4
 )
 ;
 }

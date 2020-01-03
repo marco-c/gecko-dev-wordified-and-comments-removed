@@ -95,7 +95,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -108,7 +108,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -148,7 +148,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 not
 (
@@ -168,7 +168,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 neg
 (
@@ -194,7 +194,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 abs
 (
@@ -216,7 +216,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 sqrt
 (
@@ -238,7 +238,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 reciprocalApproximation
 (
@@ -266,7 +266,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 reciprocalSqrtApproximation
 (
@@ -299,7 +299,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 not
 (
@@ -323,7 +323,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 neg
 (

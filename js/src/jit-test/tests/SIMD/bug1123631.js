@@ -15,11 +15,11 @@ quit
 )
 ;
 var
-float64x2
+Float64x2
 =
 SIMD
 .
-float64x2
+Float64x2
 ;
 function
 test
@@ -29,7 +29,7 @@ test
 var
 a
 =
-float64x2
+Float64x2
 (
 1
 2

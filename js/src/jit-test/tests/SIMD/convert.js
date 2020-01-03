@@ -105,7 +105,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -118,7 +118,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -158,7 +158,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 fromInt32x4
 (
@@ -178,7 +178,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 fromInt32x4Bits
 (
@@ -200,7 +200,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 fromFloat32x4
 (
@@ -220,7 +220,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 fromFloat32x4Bits
 (
@@ -244,14 +244,6 @@ uglyDuckling
 val
 )
 {
-print
-(
-'
-entering
-uglyDuckling
-'
-)
-;
 val
 =
 Math
@@ -289,7 +281,7 @@ v
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 i
 <
@@ -304,7 +296,7 @@ val
 )
 SIMD
 .
-int32x4
+Int32x4
 .
 fromFloat32x4
 (
@@ -354,14 +346,6 @@ dontBail
 (
 )
 {
-print
-(
-'
-entering
-dontbail
-'
-)
-;
 for
 (
 var
@@ -383,7 +367,7 @@ v
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 i
 <
@@ -405,7 +389,7 @@ pow
 )
 SIMD
 .
-int32x4
+Int32x4
 .
 fromFloat32x4
 (

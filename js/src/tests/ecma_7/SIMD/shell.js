@@ -679,7 +679,7 @@ pt
 =
 SIMD
 .
-int8x16
+Int8x16
 .
 prototype
 )
@@ -696,7 +696,7 @@ pt
 =
 SIMD
 .
-int16x8
+Int16x8
 .
 prototype
 )
@@ -714,7 +714,7 @@ pt
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 prototype
 |
@@ -725,7 +725,7 @@ pt
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 prototype
 )
@@ -743,7 +743,7 @@ pt
 =
 SIMD
 .
-float64x2
+Float64x2
 .
 prototype
 )
@@ -781,7 +781,7 @@ t
 =
 SIMD
 .
-int8x16
+Int8x16
 )
 return
 16
@@ -794,7 +794,7 @@ t
 =
 SIMD
 .
-int16x8
+Int16x8
 )
 return
 8
@@ -807,7 +807,7 @@ t
 =
 SIMD
 .
-int32x4
+Int32x4
 |
 |
 t
@@ -815,7 +815,7 @@ t
 =
 SIMD
 .
-float32x4
+Float32x4
 )
 return
 4
@@ -828,7 +828,7 @@ t
 =
 SIMD
 .
-float64x2
+Float64x2
 )
 return
 2

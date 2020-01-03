@@ -211,7 +211,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 ci4
@@ -570,7 +570,7 @@ glob
 .
 SIMD
 .
-float32x4
+Float32x4
 ;
 function
 f
@@ -1107,7 +1107,7 @@ glob
 .
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 i4load
@@ -1137,7 +1137,7 @@ glob
 .
 SIMD
 .
-float32x4
+Float32x4
 ;
 var
 f4load
@@ -1804,7 +1804,7 @@ glob
 .
 SIMD
 .
-float32x4
+Float32x4
 ;
 var
 f4l
@@ -2003,7 +2003,7 @@ vec
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 5
 6
@@ -2016,7 +2016,7 @@ vec2
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 0
 1
@@ -2459,7 +2459,7 @@ vec
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 5
 6
@@ -2472,7 +2472,7 @@ vec2
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 0
 1
@@ -4613,7 +4613,7 @@ SIZE
 )
 ;
 var
-mfloat32x4
+mFloat32x4
 =
 asmLink
 (
@@ -4631,7 +4631,7 @@ heap
 MakeCodeFor
 (
 '
-float32x4
+Float32x4
 '
 )
 )
@@ -4644,7 +4644,7 @@ buffer
 ;
 TestPartialLoads
 (
-mfloat32x4
+mFloat32x4
 f32
 (
 i
@@ -4702,10 +4702,10 @@ i
 ;
 TestPartialStores
 (
-mfloat32x4
+mFloat32x4
 f32
 '
-float32x4
+Float32x4
 '
 42
 -
@@ -4728,7 +4728,7 @@ buffer
 )
 ;
 var
-mint32x4
+mInt32x4
 =
 asmLink
 (
@@ -4746,7 +4746,7 @@ heap
 MakeCodeFor
 (
 '
-int32x4
+Int32x4
 '
 )
 )
@@ -4759,7 +4759,7 @@ buffer
 ;
 TestPartialLoads
 (
-mint32x4
+mInt32x4
 i32
 (
 i
@@ -4800,10 +4800,10 @@ i
 ;
 TestPartialStores
 (
-mint32x4
+mInt32x4
 i32
 '
-int32x4
+Int32x4
 '
 42
 -

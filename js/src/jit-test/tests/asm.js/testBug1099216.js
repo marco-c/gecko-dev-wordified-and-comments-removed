@@ -68,7 +68,7 @@ global
 .
 SIMD
 .
-float32x4
+Float32x4
 ;
 var
 fsp
@@ -160,7 +160,7 @@ m
 .
 SIMD
 .
-int32x4
+Int32x4
 var
 h
 =
@@ -241,7 +241,7 @@ global
 .
 SIMD
 .
-float32x4
+Float32x4
 function
 p
 (

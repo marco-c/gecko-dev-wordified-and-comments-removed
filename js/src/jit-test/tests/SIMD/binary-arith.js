@@ -31,7 +31,7 @@ i1
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -44,7 +44,7 @@ i2
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 4
 3
@@ -57,7 +57,7 @@ f1
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -70,7 +70,7 @@ f2
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 4
 3
@@ -98,7 +98,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 add
 (
@@ -125,7 +125,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 sub
 (
@@ -152,7 +152,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 mul
 (
@@ -179,7 +179,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 add
 (
@@ -206,7 +206,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 sub
 (
@@ -233,7 +233,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 mul
 (

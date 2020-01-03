@@ -47,7 +47,7 @@ i1
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -60,7 +60,7 @@ i2
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 5
 6
@@ -85,7 +85,7 @@ f1
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 -
 .
@@ -101,7 +101,7 @@ f2
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 42
 .
@@ -316,7 +316,7 @@ r
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 shuffle
 (
@@ -363,7 +363,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 shuffle
 (
@@ -388,7 +388,7 @@ r
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 shuffle
 (
@@ -435,7 +435,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shuffle
 (
@@ -467,7 +467,7 @@ i1
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -480,7 +480,7 @@ i2
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 5
 6
@@ -527,7 +527,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 shuffle
 (

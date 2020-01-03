@@ -199,7 +199,7 @@ f1
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -212,7 +212,7 @@ f2
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 4
 3
@@ -240,7 +240,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 and
 (
@@ -261,7 +261,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 or
 (
@@ -282,7 +282,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 xor
 (

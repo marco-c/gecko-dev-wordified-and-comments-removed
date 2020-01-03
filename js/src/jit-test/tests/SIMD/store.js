@@ -141,7 +141,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 42
 43
@@ -245,7 +245,7 @@ testStore
 {
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -261,7 +261,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -277,7 +277,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -293,7 +293,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -309,7 +309,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -325,7 +325,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -341,7 +341,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -357,7 +357,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (
@@ -379,7 +379,7 @@ testStore1
 {
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -395,7 +395,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -411,7 +411,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -427,7 +427,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -443,7 +443,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -459,7 +459,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -475,7 +475,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -491,7 +491,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store1
 (
@@ -513,7 +513,7 @@ testStore2
 {
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -529,7 +529,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -545,7 +545,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -561,7 +561,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -577,7 +577,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -593,7 +593,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -609,7 +609,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -625,7 +625,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store2
 (
@@ -647,7 +647,7 @@ testStore3
 {
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -663,7 +663,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -679,7 +679,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -695,7 +695,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -711,7 +711,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -727,7 +727,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -743,7 +743,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -759,7 +759,7 @@ check
 ;
 SIMD
 .
-float32x4
+Float32x4
 .
 store3
 (
@@ -867,7 +867,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 42
 43
@@ -900,7 +900,7 @@ try
 {
 SIMD
 .
-float32x4
+Float32x4
 .
 store
 (

@@ -31,7 +31,7 @@ f1
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -44,7 +44,7 @@ i1
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -86,7 +86,7 @@ assertEqVec
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 check
 (
@@ -99,7 +99,7 @@ assertEqVec
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 check
 (

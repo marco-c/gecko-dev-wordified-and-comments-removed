@@ -31,7 +31,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -44,7 +44,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -72,7 +72,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 replaceLane
 (
@@ -92,7 +92,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 replaceLane
 (
@@ -112,7 +112,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 replaceLane
 (
@@ -132,7 +132,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 replaceLane
 (
@@ -152,7 +152,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 replaceLane
 (
@@ -172,7 +172,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 replaceLane
 (
@@ -192,7 +192,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 replaceLane
 (
@@ -212,7 +212,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 replaceLane
 (
@@ -244,7 +244,7 @@ f4
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -257,7 +257,7 @@ i4
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -293,7 +293,7 @@ x
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 replaceLane
 (
@@ -373,7 +373,7 @@ x
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 replaceLane
 (
@@ -453,7 +453,7 @@ x
 =
 SIMD
 .
-int32x4
+Int32x4
 .
 replaceLane
 (
@@ -535,7 +535,7 @@ x
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 replaceLane
 (
@@ -615,7 +615,7 @@ x
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 replaceLane
 (
@@ -695,7 +695,7 @@ x
 =
 SIMD
 .
-float32x4
+Float32x4
 .
 replaceLane
 (

@@ -22,7 +22,7 @@ trigger
 )
 ;
 function
-int32x4FromTypeBits
+Int32x4FromTypeBits
 (
 type
 vec
@@ -35,7 +35,7 @@ type
 =
 SIMD
 .
-int32x4
+Int32x4
 )
 return
 vec
@@ -47,12 +47,12 @@ type
 =
 SIMD
 .
-float32x4
+Float32x4
 )
 return
 SIMD
 .
-int32x4
+Int32x4
 .
 fromFloat32x4Bits
 (
@@ -75,16 +75,16 @@ ifFalse
 )
 {
 var
-int32x4
+Int32x4
 =
 SIMD
 .
-int32x4
+Int32x4
 ;
 var
 tv
 =
-int32x4FromTypeBits
+Int32x4FromTypeBits
 (
 type
 ifTrue
@@ -93,7 +93,7 @@ ifTrue
 var
 fv
 =
-int32x4FromTypeBits
+Int32x4FromTypeBits
 (
 type
 ifFalse
@@ -102,7 +102,7 @@ ifFalse
 var
 tr
 =
-int32x4
+Int32x4
 .
 and
 (
@@ -113,11 +113,11 @@ tv
 var
 fr
 =
-int32x4
+Int32x4
 .
 and
 (
-int32x4
+Int32x4
 .
 not
 (
@@ -129,7 +129,7 @@ fv
 var
 orApplied
 =
-int32x4
+Int32x4
 .
 or
 (
@@ -143,7 +143,7 @@ converted
 type
 =
 =
-int32x4
+Int32x4
 ?
 orApplied
 :
@@ -171,7 +171,7 @@ f1
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -184,7 +184,7 @@ f2
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 NaN
 Infinity
@@ -200,7 +200,7 @@ i1
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 2
 3
@@ -213,7 +213,7 @@ i2
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 13
 37
@@ -226,7 +226,7 @@ TTFT
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 -
 1
@@ -242,7 +242,7 @@ TFTF
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 -
 1
@@ -257,7 +257,7 @@ mask
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 0xdeadbeef
 0xbaadf00d
@@ -285,7 +285,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 select
 (
@@ -313,7 +313,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 select
 (
@@ -341,7 +341,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 select
 (
@@ -369,7 +369,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 select
 (
@@ -397,7 +397,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 bitselect
 (
@@ -409,7 +409,7 @@ bitselect
 (
 SIMD
 .
-float32x4
+Float32x4
 mask
 f1
 f2
@@ -420,7 +420,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 bitselect
 (
@@ -432,7 +432,7 @@ bitselect
 (
 SIMD
 .
-int32x4
+Int32x4
 mask
 i1
 i2

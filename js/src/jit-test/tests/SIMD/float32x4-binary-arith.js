@@ -105,7 +105,7 @@ f1
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -118,7 +118,7 @@ f2
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 4
 3
@@ -146,7 +146,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 div
 (
@@ -173,7 +173,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 min
 (
@@ -194,7 +194,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 max
 (
@@ -215,7 +215,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 minNum
 (
@@ -234,7 +234,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 maxNum
 (

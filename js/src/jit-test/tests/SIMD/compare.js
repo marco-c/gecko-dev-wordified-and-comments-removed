@@ -46,7 +46,7 @@ f1
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 1
 2
@@ -59,7 +59,7 @@ f2
 =
 SIMD
 .
-float32x4
+Float32x4
 (
 NaN
 Infinity
@@ -75,7 +75,7 @@ i1
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -89,7 +89,7 @@ i2
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 -
@@ -118,7 +118,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 lessThan
 (
@@ -142,7 +142,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 lessThanOrEqual
 (
@@ -166,7 +166,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 equal
 (
@@ -190,7 +190,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 notEqual
 (
@@ -214,7 +214,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 greaterThan
 (
@@ -238,7 +238,7 @@ assertEqX4
 (
 SIMD
 .
-int32x4
+Int32x4
 .
 greaterThanOrEqual
 (
@@ -262,7 +262,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 lessThan
 (
@@ -286,7 +286,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 lessThanOrEqual
 (
@@ -310,7 +310,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 equal
 (
@@ -334,7 +334,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 notEqual
 (
@@ -358,7 +358,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 greaterThan
 (
@@ -382,7 +382,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 greaterThanOrEqual
 (

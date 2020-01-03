@@ -674,7 +674,7 @@ macro
 float32x4
 float32x4
 "
-float32x4
+Float32x4
 "
 )
 \
@@ -692,7 +692,7 @@ macro
 float64x2
 float64x2
 "
-float64x2
+Float64x2
 "
 )
 \
@@ -908,7 +908,7 @@ macro
 int8x16
 int8x16
 "
-int8x16
+Int8x16
 "
 )
 \
@@ -917,7 +917,7 @@ macro
 int16x8
 int16x8
 "
-int16x8
+Int16x8
 "
 )
 \
@@ -926,7 +926,7 @@ macro
 int32x4
 int32x4
 "
-int32x4
+Int32x4
 "
 )
 \

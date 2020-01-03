@@ -145,7 +145,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -164,7 +164,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -183,7 +183,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -202,7 +202,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -224,7 +224,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -246,7 +246,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -268,7 +268,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -290,7 +290,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -321,7 +321,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -342,7 +342,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -363,7 +363,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -394,7 +394,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -425,7 +425,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -456,7 +456,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (
@@ -493,7 +493,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -512,7 +512,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -531,7 +531,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -550,7 +550,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -572,7 +572,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -594,7 +594,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -616,7 +616,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -638,7 +638,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -669,7 +669,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -690,7 +690,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -711,7 +711,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -742,7 +742,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -773,7 +773,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -804,7 +804,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load1
 (
@@ -841,7 +841,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -860,7 +860,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -879,7 +879,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -898,7 +898,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -920,7 +920,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -942,7 +942,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -964,7 +964,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -986,7 +986,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -1017,7 +1017,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -1038,7 +1038,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -1059,7 +1059,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -1090,7 +1090,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -1121,7 +1121,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -1152,7 +1152,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load2
 (
@@ -1189,7 +1189,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1208,7 +1208,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1227,7 +1227,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1246,7 +1246,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1268,7 +1268,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1290,7 +1290,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1312,7 +1312,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1334,7 +1334,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1365,7 +1365,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1386,7 +1386,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1407,7 +1407,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1438,7 +1438,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1469,7 +1469,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1500,7 +1500,7 @@ assertEqX4
 (
 SIMD
 .
-float32x4
+Float32x4
 .
 load3
 (
@@ -1641,7 +1641,7 @@ try
 {
 SIMD
 .
-float32x4
+Float32x4
 .
 load
 (

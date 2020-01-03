@@ -1,23 +1,23 @@
 var
-int8x16
+Int8x16
 =
 SIMD
 .
-int8x16
+Int8x16
 ;
 var
-int16x8
+Int16x8
 =
 SIMD
 .
-int16x8
+Int16x8
 ;
 var
-int32x4
+Int32x4
 =
 SIMD
 .
-int32x4
+Int32x4
 ;
 function
 lsh8
@@ -367,7 +367,7 @@ var
 v
 of
 [
-int8x16
+Int8x16
 (
 -
 1
@@ -394,7 +394,7 @@ int8x16
 15
 16
 )
-int8x16
+Int8x16
 (
 INT8_MAX
 INT8_MIN
@@ -429,7 +429,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int8x16
+Int8x16
 .
 shiftLeftByScalar
 lsh8
@@ -439,7 +439,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int8x16
+Int8x16
 .
 shiftRightArithmeticByScalar
 rsh8
@@ -449,7 +449,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int8x16
+Int8x16
 .
 shiftRightLogicalByScalar
 ursh8
@@ -460,7 +460,7 @@ testBinaryScalarFunc
 (
 v
 undefined
-int8x16
+Int8x16
 .
 shiftLeftByScalar
 lsh8
@@ -472,7 +472,7 @@ v
 3
 .
 5
-int8x16
+Int8x16
 .
 shiftLeftByScalar
 lsh8
@@ -482,7 +482,7 @@ testBinaryScalarFunc
 (
 v
 good
-int8x16
+Int8x16
 .
 shiftLeftByScalar
 lsh8
@@ -495,7 +495,7 @@ var
 v
 of
 [
-int16x8
+Int16x8
 (
 -
 1
@@ -510,7 +510,7 @@ int16x8
 7
 8
 )
-int16x8
+Int16x8
 (
 INT16_MAX
 INT16_MIN
@@ -545,7 +545,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int16x8
+Int16x8
 .
 shiftLeftByScalar
 lsh16
@@ -555,7 +555,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int16x8
+Int16x8
 .
 shiftRightArithmeticByScalar
 rsh16
@@ -565,7 +565,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int16x8
+Int16x8
 .
 shiftRightLogicalByScalar
 ursh16
@@ -576,7 +576,7 @@ testBinaryScalarFunc
 (
 v
 undefined
-int16x8
+Int16x8
 .
 shiftLeftByScalar
 lsh16
@@ -588,7 +588,7 @@ v
 3
 .
 5
-int16x8
+Int16x8
 .
 shiftLeftByScalar
 lsh16
@@ -598,7 +598,7 @@ testBinaryScalarFunc
 (
 v
 good
-int16x8
+Int16x8
 .
 shiftLeftByScalar
 lsh16
@@ -611,7 +611,7 @@ var
 v
 of
 [
-int32x4
+Int32x4
 (
 -
 1
@@ -620,7 +620,7 @@ int32x4
 3
 4
 )
-int32x4
+Int32x4
 (
 INT32_MAX
 INT32_MIN
@@ -655,7 +655,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 lsh32
@@ -665,7 +665,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 rsh32
@@ -675,7 +675,7 @@ testBinaryScalarFunc
 (
 v
 bits
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 ursh32
@@ -686,7 +686,7 @@ testBinaryScalarFunc
 (
 v
 undefined
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 lsh32
@@ -698,7 +698,7 @@ v
 3
 .
 5
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 lsh32
@@ -708,7 +708,7 @@ testBinaryScalarFunc
 (
 v
 good
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 lsh32
@@ -720,7 +720,7 @@ v
 =
 SIMD
 .
-int8x16
+Int8x16
 (
 1
 2
@@ -748,7 +748,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 shiftLeftByScalar
 (
@@ -766,7 +766,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 shiftRightArithmeticByScalar
 (
@@ -784,7 +784,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int8x16
+Int8x16
 .
 shiftRightLogicalByScalar
 (
@@ -799,7 +799,7 @@ v
 =
 SIMD
 .
-int16x8
+Int16x8
 (
 1
 2
@@ -819,7 +819,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 shiftLeftByScalar
 (
@@ -837,7 +837,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 shiftRightArithmeticByScalar
 (
@@ -855,7 +855,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int16x8
+Int16x8
 .
 shiftRightLogicalByScalar
 (
@@ -870,7 +870,7 @@ v
 =
 SIMD
 .
-int32x4
+Int32x4
 (
 1
 2
@@ -886,7 +886,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftLeftByScalar
 (
@@ -904,7 +904,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightArithmeticByScalar
 (
@@ -922,7 +922,7 @@ assertThrowsInstanceOf
 >
 SIMD
 .
-int32x4
+Int32x4
 .
 shiftRightLogicalByScalar
 (
