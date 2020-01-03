@@ -246,7 +246,7 @@ return
 mEGLImage
 ;
 }
-void
+bool
 Lock
 (
 )
