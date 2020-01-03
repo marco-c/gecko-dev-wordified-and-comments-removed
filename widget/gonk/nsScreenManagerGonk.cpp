@@ -1893,7 +1893,7 @@ false
 }
 mMirroringScreen
 =
-mMirroringScreen
+aScreen
 ;
 return
 true
