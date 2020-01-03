@@ -9132,9 +9132,10 @@ getNext
 ;
 }
 }
-static
-inline
 bool
+jit
+:
+:
 OffThreadCompilationAvailable
 (
 JSContext
@@ -10248,9 +10249,10 @@ reason
 }
 if
 (
-OffThreadCompilationAvailable
+options
+.
+offThreadCompilationAvailable
 (
-cx
 )
 )
 {

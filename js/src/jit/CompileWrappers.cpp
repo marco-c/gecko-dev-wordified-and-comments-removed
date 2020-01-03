@@ -954,6 +954,10 @@ spsSlowAssertionsEnabled_
 (
 false
 )
+offThreadCompilationAvailable_
+(
+false
+)
 {
 }
 JitCompileOptions
@@ -1022,6 +1026,13 @@ spsProfiler
 .
 slowAssertionsEnabled
 (
+)
+;
+offThreadCompilationAvailable_
+=
+OffThreadCompilationAvailable
+(
+cx
 )
 ;
 }
