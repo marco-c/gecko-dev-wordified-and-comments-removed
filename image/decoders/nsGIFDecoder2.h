@@ -168,6 +168,16 @@ count2
 0
 )
 ;
+void
+CheckForTransparency
+(
+gfx
+:
+:
+IntRect
+aFrameRect
+)
+;
 inline
 int
 ClearCode
