@@ -549,15 +549,6 @@ thing
 )
 ;
 }
-extern
-bool
-xpc_GCThingIsGrayCCThing
-(
-void
-*
-thing
-)
-;
 inline
 JSScript
 *
