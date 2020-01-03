@@ -3274,7 +3274,7 @@ l10n
 get
 (
 "
-feedback_window_will_close_in
+feedback_window_will_close_in2
 "
 {
 countdown
