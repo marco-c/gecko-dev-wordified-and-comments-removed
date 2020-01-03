@@ -37758,7 +37758,7 @@ case
 OptionParser
 :
 :
-ParseHelp
+EarlyExit
 :
 return
 EXIT_SUCCESS
