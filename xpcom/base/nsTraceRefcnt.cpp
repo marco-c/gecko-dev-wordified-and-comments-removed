@@ -6647,7 +6647,11 @@ nullptr
 PR_SetThreadPrivate
 (
 gActivityTLS
-NS_INT32_TO_PTR
+reinterpret_cast
+<
+void
+*
+>
 (
 !
 aLegal
