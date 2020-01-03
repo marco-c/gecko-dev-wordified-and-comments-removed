@@ -18,6 +18,32 @@ js
 this
 )
 ;
+let
+NS
+=
+{
+}
+;
+subscriptLoader
+.
+loadSubScript
+(
+"
+resource
+:
+/
+/
+gre
+/
+components
+/
+TelephonyService
+.
+js
+"
+NS
+)
+;
 function
 run_test
 (
@@ -28,66 +54,23 @@ run_next_test
 )
 ;
 }
-let
-worker
-;
 function
 parseMMI
 (
-mmi
+mmiString
 )
 {
-if
-(
-!
-worker
-)
-{
-worker
-=
-newWorker
-(
-{
-postRILMessage
-:
-function
-(
-data
-)
-{
-}
-postMessage
-:
-function
-(
-message
-)
-{
-}
-}
-)
-;
-}
-let
-context
-=
-worker
-.
-ContextPool
-.
-_contexts
-[
-0
-]
-;
 return
-context
+NS
 .
-RIL
+TelephonyService
+.
+prototype
 .
 _parseMMI
 (
-mmi
+mmiString
+false
 )
 ;
 }
@@ -107,9 +90,10 @@ parseMMI
 "
 )
 ;
-do_check_null
+equal
 (
 mmi
+null
 )
 ;
 run_next_test
@@ -133,9 +117,10 @@ parseMMI
 (
 )
 ;
-do_check_null
+equal
 (
 mmi
+null
 )
 ;
 run_next_test
@@ -162,7 +147,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -172,7 +157,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -180,7 +165,7 @@ procedure
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -188,7 +173,7 @@ serviceCode
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -196,7 +181,7 @@ sia
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -204,7 +189,7 @@ sib
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -212,7 +197,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -220,7 +205,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -252,9 +237,10 @@ parseMMI
 "
 )
 ;
-do_check_null
+equal
 (
 mmi
+null
 )
 ;
 run_next_test
@@ -281,7 +267,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -291,7 +277,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -299,7 +285,7 @@ procedure
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -307,7 +293,7 @@ serviceCode
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -315,7 +301,7 @@ sia
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -323,7 +309,7 @@ sib
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -331,7 +317,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -339,7 +325,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -371,9 +357,10 @@ parseMMI
 "
 )
 ;
-do_check_null
+equal
 (
 mmi
+null
 )
 ;
 run_next_test
@@ -401,7 +388,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -412,7 +399,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -420,7 +407,7 @@ procedure
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -428,7 +415,7 @@ serviceCode
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -436,7 +423,7 @@ sia
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -444,7 +431,7 @@ sib
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -452,7 +439,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -460,7 +447,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -494,7 +481,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -506,7 +493,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -514,7 +501,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -524,7 +511,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -532,7 +519,7 @@ sia
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -540,7 +527,7 @@ sib
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -548,7 +535,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -556,7 +543,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -593,7 +580,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -607,7 +594,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -615,7 +602,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -625,7 +612,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -635,7 +622,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -643,7 +630,7 @@ sib
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -651,7 +638,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -659,7 +646,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -697,7 +684,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -712,7 +699,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -720,7 +707,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -730,7 +717,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -739,7 +726,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -749,7 +736,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -757,7 +744,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -765,7 +752,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -804,7 +791,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -820,7 +807,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -828,7 +815,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -838,7 +825,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -847,7 +834,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -856,7 +843,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -866,7 +853,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -874,7 +861,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -913,7 +900,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -929,7 +916,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -937,7 +924,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -947,7 +934,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -957,7 +944,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -967,7 +954,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -975,7 +962,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -983,7 +970,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1023,7 +1010,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1040,7 +1027,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1048,7 +1035,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1058,7 +1045,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1068,7 +1055,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1077,7 +1064,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1087,7 +1074,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1095,7 +1082,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1135,7 +1122,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1152,7 +1139,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1160,7 +1147,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1170,7 +1157,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1179,7 +1166,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1189,7 +1176,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1199,7 +1186,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1207,7 +1194,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1247,7 +1234,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1264,7 +1251,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1272,7 +1259,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1282,7 +1269,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1291,7 +1278,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1300,7 +1287,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1309,7 +1296,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1319,7 +1306,7 @@ pwd
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1355,7 +1342,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1367,7 +1354,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1375,7 +1362,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1385,7 +1372,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1393,7 +1380,7 @@ sia
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1401,7 +1388,7 @@ sib
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1409,7 +1396,7 @@ sic
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1417,7 +1404,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1459,7 +1446,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1477,7 +1464,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1485,7 +1472,7 @@ procedure
 MMI_PROCEDURE_ACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1495,7 +1482,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1505,7 +1492,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1515,7 +1502,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1525,7 +1512,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1533,7 +1520,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1574,7 +1561,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1592,7 +1579,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1600,7 +1587,7 @@ procedure
 MMI_PROCEDURE_DEACTIVATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1610,7 +1597,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1620,7 +1607,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1630,7 +1617,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1640,7 +1627,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1648,7 +1635,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1690,7 +1677,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1709,7 +1696,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1717,7 +1704,7 @@ procedure
 MMI_PROCEDURE_INTERROGATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1727,7 +1714,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1737,7 +1724,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1747,7 +1734,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1757,7 +1744,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1765,7 +1752,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1807,7 +1794,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1826,7 +1813,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1834,7 +1821,7 @@ procedure
 MMI_PROCEDURE_REGISTRATION
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1844,7 +1831,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1854,7 +1841,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1864,7 +1851,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1874,7 +1861,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1882,7 +1869,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1924,7 +1911,7 @@ parseMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1943,7 +1930,7 @@ fullMMI
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1951,7 +1938,7 @@ procedure
 MMI_PROCEDURE_ERASURE
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1961,7 +1948,7 @@ serviceCode
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1971,7 +1958,7 @@ sia
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1981,7 +1968,7 @@ sib
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1991,7 +1978,7 @@ sic
 "
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
@@ -1999,7 +1986,7 @@ pwd
 undefined
 )
 ;
-do_check_eq
+equal
 (
 mmi
 .
