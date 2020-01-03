@@ -1248,6 +1248,17 @@ z
 )
 ;
 void
+getFpFromStack
+(
+int32_t
+*
+stack
+double
+*
+x1
+)
+;
+void
 setCallResultDouble
 (
 double
