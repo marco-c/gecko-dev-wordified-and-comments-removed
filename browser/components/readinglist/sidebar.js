@@ -230,9 +230,7 @@ template
 "
 )
 ;
-this
-.
-list
+document
 .
 addEventListener
 (
@@ -244,7 +242,7 @@ event
 >
 this
 .
-onListClick
+onClick
 (
 event
 )
@@ -1803,7 +1801,7 @@ return
 null
 ;
 }
-onListClick
+onClick
 (
 event
 )
