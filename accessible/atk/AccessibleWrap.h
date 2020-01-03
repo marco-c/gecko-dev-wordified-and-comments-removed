@@ -159,14 +159,6 @@ aCreate
 true
 )
 ;
-void
-SetMaiHyperlink
-(
-MaiHyperlink
-*
-aMaiHyperlink
-)
-;
 static
 const
 char
