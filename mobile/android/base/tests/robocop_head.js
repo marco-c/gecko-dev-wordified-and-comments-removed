@@ -116,8 +116,8 @@ str
 ;
 }
 }
+{
 let
-(
 ios
 =
 Components
@@ -147,8 +147,7 @@ interfaces
 .
 nsIIOService2
 )
-)
-{
+;
 ios
 .
 manageOfflineStatus
@@ -340,7 +339,6 @@ classes
 )
 {
 let
-(
 crashReporter
 =
 Components
@@ -370,8 +368,7 @@ interfaces
 .
 nsICrashReporter
 )
-)
-{
+;
 crashReporter
 .
 enabled
@@ -386,7 +383,6 @@ do_get_cwd
 (
 )
 ;
-}
 }
 }
 catch
@@ -1365,7 +1361,6 @@ _register_protocol_handlers
 )
 {
 let
-(
 ios
 =
 Components
@@ -1395,8 +1390,7 @@ interfaces
 .
 nsIIOService
 )
-)
-{
+;
 let
 protocolHandler
 =
@@ -1562,7 +1556,6 @@ common
 modulesURI
 )
 ;
-}
 }
 }
 function
