@@ -83,6 +83,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsSplittableFrame
 .
 h

@@ -41,6 +41,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsGfxScrollFrame
 .
 h

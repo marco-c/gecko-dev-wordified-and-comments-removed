@@ -52,6 +52,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsLineBox
 .
 h

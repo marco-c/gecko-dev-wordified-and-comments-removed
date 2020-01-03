@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h

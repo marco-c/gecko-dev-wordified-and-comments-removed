@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

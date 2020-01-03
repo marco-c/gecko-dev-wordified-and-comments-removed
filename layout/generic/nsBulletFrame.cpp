@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsFontMetrics
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
