@@ -6276,7 +6276,7 @@ cx
 if
 (
 !
-JS_GetPropertyDescriptorById
+GetPropertyDescriptor
 (
 cx
 proto

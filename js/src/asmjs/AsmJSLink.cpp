@@ -386,7 +386,7 @@ Proxy
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -406,7 +406,7 @@ field
 if
 (
 !
-JS_GetPropertyDescriptorById
+GetPropertyDescriptor
 (
 cx
 obj

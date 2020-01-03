@@ -289,6 +289,11 @@ testGCStoreBufferRemoval
 cpp
 '
 '
+testGetPropertyDescriptor
+.
+cpp
+'
+'
 testHashTable
 .
 cpp

@@ -684,7 +684,7 @@ INVOKE_ON_PROTOTYPE
 cx
 handler
 proxy
-JS_GetPropertyDescriptorById
+GetPropertyDescriptor
 (
 cx
 proto
