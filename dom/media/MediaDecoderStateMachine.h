@@ -1397,6 +1397,11 @@ EnsureAudioDecodeTaskQueued
 (
 )
 ;
+void
+RequestAudioData
+(
+)
+;
 nsresult
 DispatchVideoDecodeTaskIfNeeded
 (
@@ -1404,6 +1409,11 @@ DispatchVideoDecodeTaskIfNeeded
 ;
 nsresult
 EnsureVideoDecodeTaskQueued
+(
+)
+;
+void
+RequestVideoData
 (
 )
 ;
