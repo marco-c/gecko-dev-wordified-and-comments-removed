@@ -4599,7 +4599,6 @@ return
 false
 ;
 }
-else
 if
 (
 (
