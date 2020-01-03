@@ -660,7 +660,7 @@ IntSize
 100
 100
 )
-true
+TEST_CASE_IS_FUZZY
 )
 ;
 }
