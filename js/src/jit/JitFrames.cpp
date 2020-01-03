@@ -13015,7 +13015,7 @@ script
 )
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
