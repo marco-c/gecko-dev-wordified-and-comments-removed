@@ -693,8 +693,10 @@ TraverseObjectShim
 void
 *
 aData
-void
-*
+JS
+:
+:
+GCCellPtr
 aThing
 )
 ;
