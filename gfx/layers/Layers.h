@@ -3705,6 +3705,17 @@ return
 mMaskLayer
 ;
 }
+bool
+GetVisibleRegionRelativeToRootLayer
+(
+nsIntRegion
+&
+aResult
+nsIntPoint
+*
+aLayerOffset
+)
+;
 AnimationArray
 &
 GetAnimations
