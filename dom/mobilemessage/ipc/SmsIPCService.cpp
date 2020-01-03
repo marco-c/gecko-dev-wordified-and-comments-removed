@@ -884,7 +884,7 @@ aHasEndDate
 ;
 data
 .
-startDate
+endDate
 (
 )
 =
