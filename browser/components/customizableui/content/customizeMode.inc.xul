@@ -711,7 +711,7 @@ customizeMode
 .
 deveditionTheme
 .
-label
+label2
 ;
 "
 oncommand
@@ -721,6 +721,14 @@ gCustomizeMode
 .
 toggleDevEditionTheme
 (
+this
+.
+hasAttribute
+(
+'
+checked
+'
+)
 )
 "
 type

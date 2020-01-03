@@ -7445,12 +7445,11 @@ customizeMode
 .
 deveditionTheme
 .
-label
+label2
 "
 Use
-&
-brandShortName
-;
+Developer
+Edition
 Theme
 "
 >
