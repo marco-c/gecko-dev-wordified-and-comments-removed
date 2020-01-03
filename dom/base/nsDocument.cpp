@@ -26928,7 +26928,7 @@ mPrototype
 {
 protoObject
 =
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 aCx
 nullptr

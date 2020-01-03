@@ -12156,7 +12156,7 @@ aReflector
 .
 set
 (
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 aCx
 aClass

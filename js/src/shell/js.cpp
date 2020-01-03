@@ -29713,7 +29713,7 @@ RootedObject
 domObj
 (
 cx
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 &

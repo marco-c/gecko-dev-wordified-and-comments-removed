@@ -2471,7 +2471,7 @@ constructorProto
 ;
 constructor
 =
-JS_NewObject
+JS_NewObjectWithGivenProto
 (
 cx
 Jsvalify
