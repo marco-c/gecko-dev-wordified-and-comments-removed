@@ -7,15 +7,6 @@ VPX_PORTS_VPX_TIMER_H_
 #
 include
 "
-.
-/
-vpx_config
-.
-h
-"
-#
-include
-"
 vpx
 /
 vpx_integer
@@ -186,7 +177,6 @@ endif
 }
 ;
 static
-INLINE
 void
 vpx_usec_timer_start
 (
@@ -227,7 +217,6 @@ NULL
 endif
 }
 static
-INLINE
 void
 vpx_usec_timer_mark
 (
@@ -268,7 +257,6 @@ NULL
 endif
 }
 static
-INLINE
 int64_t
 vpx_usec_timer_elapsed
 (
@@ -384,7 +372,6 @@ dummy
 }
 ;
 static
-INLINE
 void
 vpx_usec_timer_start
 (
@@ -396,7 +383,6 @@ t
 {
 }
 static
-INLINE
 void
 vpx_usec_timer_mark
 (
@@ -408,8 +394,7 @@ t
 {
 }
 static
-INLINE
-int
+long
 vpx_usec_timer_elapsed
 (
 struct

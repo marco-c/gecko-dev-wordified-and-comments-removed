@@ -5,7 +5,6 @@ usr
 /
 bin
 /
-env
 perl
 #
 #
@@ -821,8 +820,7 @@ r0
 "
 #
 "
-addne
-r0
+add
 r0
 r2
 "

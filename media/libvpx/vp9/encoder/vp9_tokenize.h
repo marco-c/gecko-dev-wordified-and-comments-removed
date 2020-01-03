@@ -149,7 +149,7 @@ bsize
 ;
 extern
 const
-int16_t
+int
 *
 vp9_dct_value_cost_ptr
 ;

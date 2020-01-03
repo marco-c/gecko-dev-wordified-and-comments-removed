@@ -9,12 +9,16 @@ vp9_prob
 .
 h
 "
+DECLARE_ALIGNED
+(
+16
 const
 uint8_t
 vp9_norm
 [
 256
 ]
+)
 =
 {
 0

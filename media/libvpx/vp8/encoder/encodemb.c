@@ -1333,6 +1333,17 @@ block
 ib
 ]
 ;
+#
+if
+0
+vp8_strict_quantize_b
+(
+b
+d
+)
+;
+#
+endif
 dequant_ptr
 =
 d

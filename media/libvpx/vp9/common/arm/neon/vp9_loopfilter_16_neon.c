@@ -7,15 +7,6 @@ vp9_rtcd
 .
 h
 "
-#
-include
-"
-vpx
-/
-vpx_integer
-.
-h
-"
 void
 vp9_lpf_horizontal_8_dual_neon
 (

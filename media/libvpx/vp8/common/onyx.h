@@ -399,7 +399,8 @@ arnr_strength
 int
 arnr_type
 ;
-vpx_fixed_buf_t
+struct
+vpx_fixed_buf
 two_pass_stats_in
 ;
 struct

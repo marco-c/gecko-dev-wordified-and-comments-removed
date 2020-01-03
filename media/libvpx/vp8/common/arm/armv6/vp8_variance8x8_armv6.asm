@@ -328,7 +328,7 @@ r4
 r4
 r7
 ;
-subtract
+substract
 negative
 differences
 from
@@ -527,7 +527,7 @@ r4
 r4
 r7
 ;
-subtract
+substract
 negative
 differences
 from

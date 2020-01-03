@@ -3487,7 +3487,7 @@ mm7
 =
 q1
 ;
-transpose
+tranpose
 and
 write
 back

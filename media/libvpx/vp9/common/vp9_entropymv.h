@@ -68,7 +68,7 @@ ref
 ;
 #
 define
-MV_UPDATE_PROB
+NMV_UPDATE_PROB
 252
 #
 define

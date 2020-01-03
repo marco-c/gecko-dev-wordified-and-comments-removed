@@ -522,7 +522,7 @@ when
 manipulating
 ;
 output
-whether
+wethere
 reading
 or
 storing
@@ -720,7 +720,7 @@ when
 manipulating
 ;
 output
-whether
+wethere
 reading
 or
 storing
@@ -2235,7 +2235,7 @@ the
 ;
 additions
 /
-subtractions
+substractions
 before
 the
 multiplies
@@ -2368,7 +2368,7 @@ do
 some
 addition
 /
-subtractions
+substractions
 (
 to
 get
@@ -2435,7 +2435,7 @@ do
 more
 addition
 /
-subtractions
+substractions
 vadd
 .
 s32

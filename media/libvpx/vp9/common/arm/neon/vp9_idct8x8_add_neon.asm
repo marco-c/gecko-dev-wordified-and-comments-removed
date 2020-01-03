@@ -89,7 +89,7 @@ vp9_idct8x8_64_add_neon
 |
 EXPORT
 |
-vp9_idct8x8_12_add_neon
+vp9_idct8x8_10_add_neon
 |
 ARM
 REQUIRE8
@@ -2001,7 +2001,7 @@ vp9_idct8x8_64_add_neon
 |
 ;
 void
-vp9_idct8x8_12_add_neon
+vp9_idct8x8_10_add_neon
 (
 int16_t
 *
@@ -2028,7 +2028,7 @@ int
 dest_stride
 )
 |
-vp9_idct8x8_12_add_neon
+vp9_idct8x8_10_add_neon
 |
 PROC
 push
@@ -3369,6 +3369,6 @@ lr
 ENDP
 ;
 |
-vp9_idct8x8_12_add_neon
+vp9_idct8x8_10_add_neon
 |
 END

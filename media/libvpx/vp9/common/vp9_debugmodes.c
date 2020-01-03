@@ -99,7 +99,6 @@ cm
 FILE
 *
 file
-const
 char
 *
 descriptor
@@ -109,6 +108,8 @@ member_offset
 {
 int
 mi_row
+;
+int
 mi_col
 ;
 int
@@ -119,9 +120,12 @@ mi_index
 MODE_INFO
 *
 *
-mi
+mi_8x8
 =
-NULL
+cm
+-
+>
+mi_grid_visible
 ;
 int
 rows
@@ -218,7 +222,7 @@ char
 )
 (
 &
-mi
+mi_8x8
 [
 mi_index
 ]
@@ -268,7 +272,6 @@ vp9_print_modes_and_motion_vectors
 VP9_COMMON
 *
 cm
-const
 char
 *
 file
@@ -300,9 +303,12 @@ a
 MODE_INFO
 *
 *
-mi
+mi_8x8
 =
-NULL
+cm
+-
+>
+mi_grid_visible
 ;
 int
 rows
@@ -472,7 +478,7 @@ mvs
 %
 4d
 "
-mi
+mi_8x8
 [
 mi_index
 ]
@@ -488,7 +494,7 @@ mv
 as_mv
 .
 row
-mi
+mi_8x8
 [
 mi_index
 ]

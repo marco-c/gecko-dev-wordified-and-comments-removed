@@ -11,7 +11,7 @@ vp9
 /
 encoder
 /
-vp9_encoder
+vp9_onyx_int
 .
 h
 "
@@ -25,7 +25,7 @@ C
 {
 #
 endif
-void
+int64_t
 vp9_pick_inter_mode
 (
 VP9_COMP
@@ -52,9 +52,6 @@ int64_t
 returndistortion
 BLOCK_SIZE
 bsize
-PICK_MODE_CONTEXT
-*
-ctx
 )
 ;
 #

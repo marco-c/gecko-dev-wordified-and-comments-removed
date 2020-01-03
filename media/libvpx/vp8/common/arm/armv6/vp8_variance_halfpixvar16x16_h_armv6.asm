@@ -365,7 +365,7 @@ r8
 r8
 r5
 ;
-subtract
+substract
 negative
 differences
 from
@@ -574,7 +574,7 @@ r8
 r8
 r5
 ;
-subtract
+substract
 negative
 differences
 from
@@ -783,7 +783,7 @@ r8
 r8
 r5
 ;
-subtract
+substract
 negative
 differences
 from
@@ -1012,7 +1012,7 @@ r8
 r8
 r5
 ;
-subtract
+substract
 negative
 differences
 from

@@ -268,7 +268,6 @@ ctx
 vpx_codec_iface_t
 *
 iface
-const
 vpx_codec_dec_cfg_t
 *
 cfg
