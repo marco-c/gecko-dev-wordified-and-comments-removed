@@ -710,6 +710,11 @@ cloneInto
 blueprint
 {
 }
+{
+cloneFunctions
+:
+true
+}
 )
 ;
 let
