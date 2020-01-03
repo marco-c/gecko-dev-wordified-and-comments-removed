@@ -175,7 +175,7 @@ aRecord
 ;
 }
 ;
-GMPErr
+void
 GMPOpenRecord
 (
 const
