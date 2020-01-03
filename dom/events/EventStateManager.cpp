@@ -8266,6 +8266,11 @@ change
 )
 ;
 }
+EnsureDocument
+(
+mPresContext
+)
+;
 nsContentUtils
 :
 :
