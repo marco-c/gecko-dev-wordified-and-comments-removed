@@ -196,9 +196,6 @@ OS_ARCH
 in
 (
 '
-NetBSD
-'
-'
 GNU
 '
 )
@@ -245,6 +242,9 @@ Linux
 '
 '
 FreeBSD
+'
+'
+NetBSD
 '
 '
 OpenBSD
