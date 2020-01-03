@@ -60,6 +60,12 @@ emulator
 -
 kk
 -
+emulator
+-
+x86
+-
+kk
+-
 linux32_gecko
 #
 b2g
