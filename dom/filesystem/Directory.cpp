@@ -92,6 +92,17 @@ FileSystemUtils
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+#
 ifdef
 CreateDirectory
 #

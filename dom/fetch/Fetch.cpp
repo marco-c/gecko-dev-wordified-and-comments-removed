@@ -44,17 +44,6 @@ mozilla
 /
 dom
 /
-FetchBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 URLSearchParams
 .
 h

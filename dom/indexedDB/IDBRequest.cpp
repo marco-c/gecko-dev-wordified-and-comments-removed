@@ -135,6 +135,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

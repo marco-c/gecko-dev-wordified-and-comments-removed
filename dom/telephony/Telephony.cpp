@@ -61,6 +61,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h

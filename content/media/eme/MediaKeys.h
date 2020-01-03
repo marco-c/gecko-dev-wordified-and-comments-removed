@@ -89,6 +89,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+#
+include
+"
 mozIGeckoMediaPluginService
 .
 h
@@ -102,9 +113,6 @@ CDMProxy
 namespace
 dom
 {
-class
-ArrayBufferViewOrArrayBuffer
-;
 class
 MediaKeySession
 ;
