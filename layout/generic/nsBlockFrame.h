@@ -1621,11 +1621,13 @@ NS_BLOCK_HAS_OVERFLOW_OUT_OF_FLOWS
 ;
 }
 void
+DrainSelfPushedFloats
+(
+)
+;
+void
 DrainPushedFloats
 (
-nsBlockReflowState
-&
-aState
 )
 ;
 void

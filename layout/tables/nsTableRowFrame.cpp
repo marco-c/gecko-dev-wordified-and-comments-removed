@@ -825,6 +825,10 @@ list
 "
 )
 ;
+DrainSelfOverflowList
+(
+)
+;
 const
 nsFrameList
 :
@@ -1014,6 +1018,10 @@ with
 different
 parent
 "
+)
+;
+DrainSelfOverflowList
+(
 )
 ;
 const

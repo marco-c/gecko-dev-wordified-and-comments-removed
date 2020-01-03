@@ -7004,6 +7004,10 @@ list
 "
 )
 ;
+DrainSelfOverflowList
+(
+)
+;
 ClearRowCursor
 (
 )
@@ -7239,6 +7243,10 @@ with
 different
 parent
 "
+)
+;
+DrainSelfOverflowList
+(
 )
 ;
 ClearRowCursor

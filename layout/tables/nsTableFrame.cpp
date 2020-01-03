@@ -10356,6 +10356,10 @@ mDisplay
 )
 )
 {
+DrainSelfOverflowList
+(
+)
+;
 mFrames
 .
 AppendFrame
@@ -11308,6 +11312,10 @@ unexpected
 child
 list
 "
+)
+;
+DrainSelfOverflowList
+(
 )
 ;
 const
