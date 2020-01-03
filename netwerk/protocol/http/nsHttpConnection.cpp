@@ -5228,7 +5228,7 @@ mTLSFilter
 {
 nsCOMPtr
 <
-nsISupports
+nsIAsyncInputStream
 >
 ref1
 (
@@ -5237,7 +5237,7 @@ mSocketIn
 ;
 nsCOMPtr
 <
-nsISupports
+nsIAsyncOutputStream
 >
 ref2
 (
@@ -5249,8 +5249,8 @@ mTLSFilter
 >
 newIODriver
 (
-mSocketIn
-mSocketOut
+ref1
+ref2
 getter_AddRefs
 (
 mSocketIn
