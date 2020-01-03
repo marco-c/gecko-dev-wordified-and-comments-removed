@@ -3733,6 +3733,17 @@ FirstIdle
 )
 ;
 async
+AudioChannelServiceStatus
+(
+bool
+aActiveTelephonyChannel
+bool
+aContentOrNormalChannel
+bool
+aAnyActiveChannel
+)
+;
+async
 AudioChannelChangeDefVolChannel
 (
 int32_t
