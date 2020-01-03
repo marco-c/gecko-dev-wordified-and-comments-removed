@@ -616,8 +616,8 @@ GarbageCollection
 "
 )
 "
+Incremental
 GC
-Event
 "
 "
 getMarkerClassName
