@@ -148,8 +148,13 @@ bool
 aResult
 )
 {
+*
+aResult
+=
+false
+;
 return
-NS_ERROR_NOT_AVAILABLE
+NS_OK
 ;
 }
 NS_IMETHODIMP
