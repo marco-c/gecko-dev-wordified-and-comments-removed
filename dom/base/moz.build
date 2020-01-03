@@ -801,14 +801,6 @@ network
 /
 src
 /
-geolocation
-'
-'
-.
-.
-/
-src
-/
 storage
 '
 '
@@ -856,6 +848,12 @@ xul
 document
 /
 src
+'
+'
+/
+dom
+/
+geolocation
 '
 '
 /

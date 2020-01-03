@@ -357,15 +357,13 @@ canvas
 /
 dom
 /
-indexedDB
+geolocation
 '
 '
 /
 dom
 /
-src
-/
-geolocation
+indexedDB
 '
 '
 /

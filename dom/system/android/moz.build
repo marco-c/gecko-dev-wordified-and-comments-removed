@@ -139,8 +139,6 @@ LOCAL_INCLUDES
 /
 dom
 /
-src
-/
 geolocation
 '
 ]

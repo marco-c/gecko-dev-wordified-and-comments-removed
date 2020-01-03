@@ -337,6 +337,12 @@ filesystem
 /
 dom
 /
+geolocation
+'
+'
+/
+dom
+/
 media
 '
 '
@@ -344,14 +350,6 @@ media
 dom
 /
 speakermanager
-'
-'
-/
-dom
-/
-src
-/
-geolocation
 '
 '
 /

@@ -552,14 +552,6 @@ LOCAL_INCLUDES
 /
 src
 /
-geolocation
-'
-'
-.
-.
-/
-src
-/
 storage
 '
 '
@@ -631,6 +623,12 @@ dom
 fmradio
 /
 ipc
+'
+'
+/
+dom
+/
+geolocation
 '
 '
 /

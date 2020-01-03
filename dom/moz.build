@@ -257,6 +257,9 @@ filesystem
 fmradio
 '
 '
+geolocation
+'
+'
 asmjscache
 '
 '
