@@ -370,6 +370,17 @@ size
 ;
 }
 get
+isRoot
+(
+)
+{
+return
+!
+this
+.
+parent
+}
+get
 childrenSorted
 (
 )
