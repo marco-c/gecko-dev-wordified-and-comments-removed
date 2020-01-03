@@ -885,7 +885,7 @@ out
 println
 (
 "
-looking
+Looking
 up
 :
 "
@@ -1422,6 +1422,7 @@ CodeGenerator
 (
 clazz
 generatedName
+true
 )
 ;
 stubInitializer
