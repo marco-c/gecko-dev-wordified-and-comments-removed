@@ -1225,6 +1225,7 @@ Role
 ;
 }
 return
+(
 tableRole
 =
 =
@@ -1241,6 +1242,16 @@ roles
 :
 :
 TREE_TABLE
+|
+|
+tableRole
+=
+=
+roles
+:
+:
+MATHML_TABLE
+)
 ?
 table
 :
