@@ -9609,7 +9609,7 @@ y
 foo
 ;
 "
-varDecl
+letDecl
 (
 [
 {
@@ -11178,7 +11178,7 @@ join
 "
 ;
 "
-varDecl
+letDecl
 (
 pattPatts
 [

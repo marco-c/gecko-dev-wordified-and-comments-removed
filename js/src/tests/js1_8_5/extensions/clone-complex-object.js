@@ -1765,7 +1765,6 @@ recursiveobj
 yield
 recursiveobj
 ;
-let
 obj
 =
 new
@@ -1900,7 +1899,6 @@ Object
 (
 )
 ;
-let
 obj
 =
 new
@@ -1951,7 +1949,6 @@ Object
 (
 )
 ;
-let
 obj
 =
 new
