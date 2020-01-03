@@ -8838,7 +8838,7 @@ nullptr
 ;
 }
 void
-MLoadTypedArrayElement
+MLoadUnboxedScalar
 :
 :
 computeRange
@@ -13228,7 +13228,7 @@ MDefinition
 :
 :
 TruncateKind
-MStoreTypedArrayElement
+MStoreUnboxedScalar
 :
 :
 operandTruncateKind

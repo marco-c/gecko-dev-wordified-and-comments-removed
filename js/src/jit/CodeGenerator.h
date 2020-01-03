@@ -1931,9 +1931,9 @@ lir
 )
 ;
 void
-visitLoadTypedArrayElement
+visitLoadUnboxedScalar
 (
-LLoadTypedArrayElement
+LLoadUnboxedScalar
 *
 lir
 )
@@ -1947,9 +1947,9 @@ lir
 )
 ;
 void
-visitStoreTypedArrayElement
+visitStoreUnboxedScalar
 (
-LStoreTypedArrayElement
+LStoreUnboxedScalar
 *
 lir
 )

@@ -18845,7 +18845,7 @@ getOperand
 }
 ;
 class
-LLoadTypedArrayElement
+LLoadUnboxedScalar
 :
 public
 LInstructionHelper
@@ -18859,9 +18859,9 @@ public
 :
 LIR_HEADER
 (
-LoadTypedArrayElement
+LoadUnboxedScalar
 )
-LLoadTypedArrayElement
+LLoadUnboxedScalar
 (
 const
 LAllocation
@@ -18897,7 +18897,7 @@ temp
 ;
 }
 const
-MLoadTypedArrayElement
+MLoadUnboxedScalar
 *
 mir
 (
@@ -18908,7 +18908,7 @@ return
 mir_
 -
 >
-toLoadTypedArrayElement
+toLoadUnboxedScalar
 (
 )
 ;
@@ -19113,7 +19113,7 @@ getOperand
 }
 ;
 class
-LStoreTypedArrayElement
+LStoreUnboxedScalar
 :
 public
 LInstructionHelper
@@ -19127,9 +19127,9 @@ public
 :
 LIR_HEADER
 (
-StoreTypedArrayElement
+StoreUnboxedScalar
 )
-LStoreTypedArrayElement
+LStoreUnboxedScalar
 (
 const
 LAllocation
@@ -19165,7 +19165,7 @@ value
 ;
 }
 const
-MStoreTypedArrayElement
+MStoreUnboxedScalar
 *
 mir
 (
@@ -19176,7 +19176,7 @@ return
 mir_
 -
 >
-toStoreTypedArrayElement
+toStoreUnboxedScalar
 (
 )
 ;
