@@ -8083,6 +8083,10 @@ SwapMessageQueues
 )
 ;
 }
+mFlushSourcesNow
+=
+false
+;
 return
 true
 ;
@@ -13851,6 +13855,14 @@ mForceShutDown
 false
 )
 mPostedRunInStableStateEvent
+(
+false
+)
+mFlushSourcesNow
+(
+false
+)
+mFlushSourcesOnNextIteration
 (
 false
 )
