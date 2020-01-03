@@ -510,7 +510,7 @@ masm
 framePushed
 (
 )
-StackAlignment
+ABIStackAlignment
 )
 -
 masm

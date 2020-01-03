@@ -8154,7 +8154,7 @@ module_
 (
 module
 )
-errorRejoinSP_
+entrySP_
 (
 nullptr
 )
@@ -8280,7 +8280,7 @@ this
 (
 void
 )
-errorRejoinSP_
+entrySP_
 ;
 }
 AsmJSActivation
