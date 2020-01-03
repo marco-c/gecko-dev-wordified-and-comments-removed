@@ -201,7 +201,7 @@ Bug
 dictionary
 MobileLegacyMediaTrackConstraintSet
 {
-VideoFacingModeEnum
+DOMString
 facingMode
 ;
 }
