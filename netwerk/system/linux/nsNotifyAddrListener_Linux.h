@@ -207,6 +207,12 @@ aEventID
 )
 ;
 void
+checkLink
+(
+void
+)
+;
+void
 OnNetlinkMessage
 (
 int
