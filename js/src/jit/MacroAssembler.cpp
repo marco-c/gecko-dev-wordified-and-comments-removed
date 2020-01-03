@@ -750,16 +750,6 @@ AnyObjectType
 ;
 MOZ_ASSERT
 (
-types
--
->
-getObjectCount
-(
-)
-)
-;
-MOZ_ASSERT
-(
 scratch
 !
 =
