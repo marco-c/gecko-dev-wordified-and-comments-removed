@@ -207,14 +207,14 @@ validThrough
 bool
 expired
 ;
-private
-:
 Context
 (
 const
 Context
 &
 )
+=
+delete
 ;
 void
 operator
@@ -224,6 +224,8 @@ const
 Context
 &
 )
+=
+delete
 ;
 }
 ;
