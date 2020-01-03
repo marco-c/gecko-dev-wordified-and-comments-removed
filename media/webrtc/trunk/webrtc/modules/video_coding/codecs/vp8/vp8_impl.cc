@@ -857,7 +857,7 @@ raw_
 vpx_img_wrap
 (
 NULL
-IMG_FMT_I420
+VPX_IMG_FMT_I420
 codec_
 .
 width
