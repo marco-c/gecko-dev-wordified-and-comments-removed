@@ -8,8 +8,16 @@ mozilla_Char16_h
 ifdef
 __cplusplus
 #
-ifdef
+if
+defined
+(
 _MSC_VER
+)
+&
+&
+_MSC_VER
+<
+1900
 #
 define
 MOZ_UTF16_HELPER
