@@ -2218,6 +2218,13 @@ srv
 !
 =
 SQLITE_DONE
+&
+&
+PR_LOG_TEST
+(
+gStorageLog
+PR_LOG_DEBUG
+)
 )
 {
 nsAutoCString

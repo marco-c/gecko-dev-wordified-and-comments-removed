@@ -3825,6 +3825,15 @@ setClosedState
 }
 #
 endif
+if
+(
+PR_LOG_TEST
+(
+gStorageLog
+PR_LOG_NOTICE
+)
+)
+{
 nsAutoCString
 leafName
 (
@@ -3871,6 +3880,7 @@ get
 )
 )
 ;
+}
 {
 MutexAutoLock
 lockedScope
