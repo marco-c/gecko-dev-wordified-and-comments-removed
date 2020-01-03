@@ -912,6 +912,7 @@ resetCanvasPreview
 function
 (
 )
+{
 this
 .
 resizeCanvasPreview
@@ -919,6 +920,8 @@ resizeCanvasPreview
 0
 0
 )
+;
+}
 resizeCanvasPreview
 :
 function
