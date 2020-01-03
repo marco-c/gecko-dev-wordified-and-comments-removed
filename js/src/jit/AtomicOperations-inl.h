@@ -53,11 +53,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 AtomicOperations
 -
-mips
+mips32
 .
 h
 "

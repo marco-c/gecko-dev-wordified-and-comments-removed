@@ -43,11 +43,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Assembler
 -
-mips
+mips32
 .
 h
 "

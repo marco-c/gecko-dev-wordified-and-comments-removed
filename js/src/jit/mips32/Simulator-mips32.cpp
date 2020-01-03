@@ -3,11 +3,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Simulator
 -
-mips
+mips32
 .
 h
 "
@@ -68,11 +68,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Assembler
 -
-mips
+mips32
 .
 h
 "

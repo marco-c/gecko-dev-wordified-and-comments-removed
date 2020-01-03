@@ -55,11 +55,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Simulator
 -
-mips
+mips32
 .
 h
 "

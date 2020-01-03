@@ -91,11 +91,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 SharedICRegisters
 -
-mips
+mips32
 .
 h
 "

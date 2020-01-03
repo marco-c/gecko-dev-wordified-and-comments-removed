@@ -91,11 +91,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 LOpcodes
 -
-mips
+mips32
 .
 h
 "

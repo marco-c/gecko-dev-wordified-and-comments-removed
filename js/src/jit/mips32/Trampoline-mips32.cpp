@@ -64,11 +64,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Bailouts
 -
-mips
+mips32
 .
 h
 "
@@ -77,11 +77,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 SharedICHelpers
 -
-mips
+mips32
 .
 h
 "

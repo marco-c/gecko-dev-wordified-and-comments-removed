@@ -100,11 +100,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 Lowering
 -
-mips
+mips32
 .
 h
 "

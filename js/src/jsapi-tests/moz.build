@@ -534,7 +534,7 @@ cpp
 '
 testJitMoveEmitterCycles
 -
-mips
+mips32
 .
 cpp
 '

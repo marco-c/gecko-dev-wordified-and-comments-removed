@@ -8301,11 +8301,11 @@ include
 "
 jit
 /
-mips
+mips32
 /
 LIR
 -
-mips
+mips32
 .
 h
 "
