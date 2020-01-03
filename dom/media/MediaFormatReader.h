@@ -135,6 +135,11 @@ aDecoder
 MediaDataDemuxer
 *
 aDemuxer
+MediaTaskQueue
+*
+aBorrowedTaskQueue
+=
+nullptr
 )
 ;
 virtual

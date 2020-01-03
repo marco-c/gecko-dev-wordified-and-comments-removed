@@ -143,6 +143,11 @@ MP4Reader
 AbstractMediaDecoder
 *
 aDecoder
+MediaTaskQueue
+*
+aBorrowedTaskQueue
+=
+nullptr
 )
 ;
 virtual

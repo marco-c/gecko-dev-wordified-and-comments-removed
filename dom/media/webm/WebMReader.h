@@ -572,6 +572,11 @@ WebMReader
 AbstractMediaDecoder
 *
 aDecoder
+MediaTaskQueue
+*
+aBorrowedTaskQueue
+=
+nullptr
 )
 ;
 protected

@@ -815,11 +815,15 @@ MP4Reader
 AbstractMediaDecoder
 *
 aDecoder
+MediaTaskQueue
+*
+aBorrowedTaskQueue
 )
 :
 MediaDecoderReader
 (
 aDecoder
+aBorrowedTaskQueue
 )
 mAudio
 (

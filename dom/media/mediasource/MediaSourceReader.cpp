@@ -3174,6 +3174,9 @@ aType
 AbstractMediaDecoder
 *
 aDecoder
+MediaTaskQueue
+*
+aBorrowedTaskQueue
 )
 {
 #
@@ -3266,6 +3269,7 @@ GetResource
 (
 )
 )
+aBorrowedTaskQueue
 )
 )
 :
@@ -3279,6 +3283,7 @@ new
 MP4Reader
 (
 aDecoder
+aBorrowedTaskQueue
 )
 )
 ;
@@ -3307,6 +3312,7 @@ new
 WebMReader
 (
 aDecoder
+aBorrowedTaskQueue
 )
 ;
 }
@@ -3344,13 +3350,6 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
-(
-GetTaskQueue
-(
-)
-)
-;
 nsRefPtr
 <
 SourceBufferDecoder
@@ -3379,6 +3378,9 @@ CreateReaderForType
 (
 aType
 decoder
+GetTaskQueue
+(
+)
 )
 )
 ;
@@ -3413,16 +3415,6 @@ SetStartTime
 )
 ;
 }
-reader
--
->
-SetBorrowedTaskQueue
-(
-GetTaskQueue
-(
-)
-)
-;
 #
 ifdef
 MOZ_FMP4
