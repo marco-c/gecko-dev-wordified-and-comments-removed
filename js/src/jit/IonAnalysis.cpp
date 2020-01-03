@@ -7924,10 +7924,9 @@ unmarkBlocks
 (
 )
 ;
-return
-true
-;
 }
+else
+{
 for
 (
 ReversePostorderIterator
@@ -8025,6 +8024,7 @@ removeBlockIncludingPhis
 block
 )
 ;
+}
 }
 return
 AccountForCFGChanges
