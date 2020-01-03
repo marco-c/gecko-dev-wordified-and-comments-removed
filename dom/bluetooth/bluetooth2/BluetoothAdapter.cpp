@@ -4700,10 +4700,7 @@ NodePrincipal
 >
 GetOrigin
 (
-getter_Copies
-(
 appOrigin
-)
 )
 ;
 return
