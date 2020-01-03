@@ -175,8 +175,9 @@ Append
 mStorageName
 )
 ;
-mIsTesting
+mRequiresPermissionChecks
 =
+!
 mozilla
 :
 :
