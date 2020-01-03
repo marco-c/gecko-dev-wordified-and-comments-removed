@@ -216,6 +216,17 @@ MOZ_ASSERT
 ok
 )
 ;
+bridge
+-
+>
+mMessageManager
+-
+>
+InitWithCallback
+(
+bridge
+)
+;
 return
 bridge
 .

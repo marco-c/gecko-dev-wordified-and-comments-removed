@@ -205,7 +205,7 @@ nsFrameMessageManager
 :
 NewProcessMessageManager
 (
-this
+true
 )
 ;
 }

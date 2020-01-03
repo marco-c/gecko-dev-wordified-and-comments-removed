@@ -9343,7 +9343,7 @@ nsFrameMessageManager
 :
 NewProcessMessageManager
 (
-nullptr
+false
 )
 ;
 return
@@ -9361,15 +9361,8 @@ nsFrameMessageManager
 :
 NewProcessMessageManager
 (
-mozilla
-:
-:
-dom
-:
-:
-nsIContentParent
-*
-aProcess
+bool
+aIsRemote
 )
 {
 if
@@ -9422,7 +9415,7 @@ mm
 ;
 if
 (
-aProcess
+aIsRemote
 )
 {
 mm
@@ -9430,7 +9423,7 @@ mm
 new
 nsFrameMessageManager
 (
-aProcess
+nullptr
 nsFrameMessageManager
 :
 :

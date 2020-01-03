@@ -10034,6 +10034,14 @@ bool
 aSendRegisteredChrome
 )
 {
+mMessageManager
+-
+>
+InitWithCallback
+(
+this
+)
+;
 ProcessPriorityManager
 :
 :
