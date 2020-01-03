@@ -1016,7 +1016,7 @@ bool
 ConvertToGecko
 (
 const
-ParentLayerPoint
+ScreenIntPoint
 &
 aPoint
 CSSPoint
@@ -1042,7 +1042,7 @@ nsEventStatus
 GenerateSingleTap
 (
 const
-ParentLayerPoint
+ScreenIntPoint
 &
 aPoint
 mozilla

@@ -225,7 +225,7 @@ mTouches
 0
 ]
 .
-mLocalScreenPoint
+mScreenPoint
 aTouch
 .
 modifiers
