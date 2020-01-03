@@ -48050,10 +48050,13 @@ GetWindow
 )
 -
 >
-SetFullScreenInternal
+SetFullscreenInternal
 (
+nsPIDOMWindow
+:
+:
+eForFullscreenAPI
 mValue
-false
 mHMD
 )
 ;
