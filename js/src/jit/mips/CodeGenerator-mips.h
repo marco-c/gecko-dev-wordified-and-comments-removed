@@ -945,6 +945,15 @@ ins
 ;
 virtual
 bool
+visitMinMaxF
+(
+LMinMaxF
+*
+ins
+)
+;
+virtual
+bool
 visitAbsD
 (
 LAbsD
