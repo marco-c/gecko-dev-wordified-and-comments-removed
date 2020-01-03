@@ -821,7 +821,7 @@ __errsumm
 =
 0
 ;
-__uint32_t
+uint32_t
 *
 mxcsr
 =
@@ -937,7 +937,7 @@ defined
 (
 __amd64__
 )
-__uint16_t
+uint16_t
 *
 cw
 =
@@ -958,7 +958,7 @@ cw
 =
 FPU_EXCEPTION_MASK
 ;
-__uint16_t
+uint16_t
 *
 sw
 =
@@ -980,7 +980,7 @@ sw
 ~
 FPU_STATUS_FLAGS
 ;
-__uint32_t
+uint32_t
 *
 mxcsr
 =
