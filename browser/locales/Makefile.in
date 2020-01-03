@@ -604,6 +604,16 @@ txt
 )
 )
 ddg
+SEARCHPLUGINS_FILENAMES
+=
+(
+subst
+:
+hidden
+(
+SEARCHPLUGINS_NAMES
+)
+)
 SEARCHPLUGINS_PATH
 :
 =
@@ -630,7 +640,7 @@ addsuffix
 .
 xml
 (
-SEARCHPLUGINS_NAMES
+SEARCHPLUGINS_FILENAMES
 )
 )
 (
