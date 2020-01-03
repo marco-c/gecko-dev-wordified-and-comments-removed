@@ -445,10 +445,6 @@ mNonRuleFacesDirty
 (
 false
 )
-mReadyIsResolved
-(
-true
-)
 mHasLoadingFontFaces
 (
 false
@@ -6490,9 +6486,6 @@ RunDOMEventWhenSafe
 ;
 if
 (
-mReadyIsResolved
-&
-&
 PrefEnabled
 (
 )
@@ -6539,10 +6532,6 @@ swap
 (
 ready
 )
-;
-mReadyIsResolved
-=
-false
 ;
 }
 }
@@ -6778,7 +6767,13 @@ CheckLoadingFinished
 {
 if
 (
-mReadyIsResolved
+mStatus
+=
+=
+FontFaceSetLoadStatus
+:
+:
+Loaded
 )
 {
 return
@@ -6813,10 +6808,6 @@ MaybeResolve
 (
 this
 )
-;
-mReadyIsResolved
-=
-true
 ;
 }
 nsTArray
