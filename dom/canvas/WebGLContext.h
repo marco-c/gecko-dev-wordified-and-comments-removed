@@ -7209,6 +7209,13 @@ object
 private
 :
 virtual
+WebGLVertexArray
+*
+CreateVertexArrayImpl
+(
+)
+;
+virtual
 bool
 ValidateAttribPointerType
 (

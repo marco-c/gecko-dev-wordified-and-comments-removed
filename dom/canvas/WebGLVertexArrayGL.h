@@ -16,11 +16,14 @@ mozilla
 {
 class
 WebGLVertexArrayGL
-final
 :
 public
 WebGLVertexArray
 {
+friend
+class
+WebGLVertexArray
+;
 public
 :
 virtual
@@ -44,7 +47,7 @@ GenVertexArray
 )
 override
 ;
-private
+protected
 :
 explicit
 WebGLVertexArrayGL
@@ -70,10 +73,6 @@ DeleteOnce
 )
 ;
 }
-friend
-class
-WebGLVertexArray
-;
 }
 ;
 }

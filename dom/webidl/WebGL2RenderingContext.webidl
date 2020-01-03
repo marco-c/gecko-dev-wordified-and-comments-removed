@@ -220,8 +220,6 @@ WebGLTransformFeedback
 {
 }
 ;
-/
-*
 [
 Pref
 =
@@ -240,8 +238,6 @@ WebGLVertexArrayObject
 {
 }
 ;
-*
-/
 [
 Pref
 =
@@ -3462,8 +3458,6 @@ Array
 Objects
 *
 /
-/
-*
 WebGLVertexArrayObject
 ?
 createVertexArray
@@ -3497,7 +3491,5 @@ WebGLVertexArrayObject
 array
 )
 ;
-*
-/
 }
 ;

@@ -219,6 +219,11 @@ TextMetrics
 .
 h
 '
+'
+WebGLVertexArrayObject
+.
+h
+'
 ]
 #
 http
@@ -687,6 +692,11 @@ cpp
 '
 '
 WebGLVertexArrayGL
+.
+cpp
+'
+'
+WebGLVertexArrayObject
 .
 cpp
 '

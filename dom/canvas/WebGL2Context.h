@@ -2369,6 +2369,14 @@ info
 )
 ;
 virtual
+WebGLVertexArray
+*
+CreateVertexArrayImpl
+(
+)
+override
+;
+virtual
 bool
 ValidateAttribPointerType
 (
