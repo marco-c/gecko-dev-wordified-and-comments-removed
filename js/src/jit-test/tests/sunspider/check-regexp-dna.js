@@ -7042,9 +7042,6 @@ subs
 [
 k
 ]
-"
-g
-"
 )
 assertEq
 (
