@@ -3990,6 +3990,8 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 {
 MOZ_ASSERT
@@ -4147,6 +4149,7 @@ ProcessTouchEvent
 touchEvent
 aGuid
 aInputBlockId
+aApzResponse
 )
 ;
 }
@@ -4312,6 +4315,7 @@ ProcessUntransformedAPZEvent
 aEvent
 guid
 inputBlockId
+result
 )
 ;
 }

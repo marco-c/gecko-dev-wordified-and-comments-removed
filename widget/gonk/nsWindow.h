@@ -316,6 +316,8 @@ aGuid
 const
 uint64_t
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 ;
 NS_IMETHOD

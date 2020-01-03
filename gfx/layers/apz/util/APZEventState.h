@@ -227,6 +227,8 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 ;
 void
@@ -269,7 +271,7 @@ APZEventState
 (
 )
 ;
-void
+bool
 SendPendingTouchPreventedResponse
 (
 bool

@@ -1685,6 +1685,8 @@ ScrollableLayerGuid
 aGuid
 uint64_t
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 ;
 const

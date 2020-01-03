@@ -1258,6 +1258,8 @@ const
 uint64_t
 &
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 :
 mInput
@@ -1271,6 +1273,10 @@ aGuid
 mInputBlockId
 (
 aInputBlockId
+)
+mApzResponse
+(
+aApzResponse
 )
 {
 }
@@ -1292,6 +1298,7 @@ DispatchTouchEventForAPZ
 mInput
 mGuid
 mInputBlockId
+mApzResponse
 )
 ;
 }
@@ -1309,6 +1316,9 @@ mGuid
 ;
 uint64_t
 mInputBlockId
+;
+nsEventStatus
+mApzResponse
 ;
 }
 ;
@@ -1352,7 +1362,7 @@ uint64_t
 inputBlockId
 ;
 nsEventStatus
-rv
+result
 =
 mAPZC
 -
@@ -1368,7 +1378,7 @@ inputBlockId
 ;
 if
 (
-rv
+result
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -1385,6 +1395,7 @@ DispatchTouchInputOnMainThread
 aInput
 guid
 inputBlockId
+result
 )
 )
 ;
@@ -1406,6 +1417,8 @@ aGuid
 const
 uint64_t
 aInputBlockId
+nsEventStatus
+aApzResponse
 )
 {
 MOZ_ASSERT
@@ -1435,6 +1448,7 @@ ProcessUntransformedAPZEvent
 event
 aGuid
 aInputBlockId
+aApzResponse
 )
 ;
 }

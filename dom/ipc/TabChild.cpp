@@ -10924,6 +10924,7 @@ ProcessTouchEvent
 localEvent
 aGuid
 aInputBlockId
+nsEventStatus_eIgnore
 )
 ;
 return
