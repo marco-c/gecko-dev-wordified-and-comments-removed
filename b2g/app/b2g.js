@@ -6726,7 +6726,7 @@ stretch_factor
 "
 0
 .
-5
+15
 "
 )
 ;
@@ -6742,7 +6742,7 @@ spring_stiffness
 "
 0
 .
-001
+002
 "
 )
 ;
@@ -6758,7 +6758,7 @@ spring_friction
 "
 0
 .
-015
+02
 "
 )
 ;
