@@ -3161,7 +3161,7 @@ trackOptimizationOutcome
 TrackedOutcome
 :
 :
-ArrayProtoIndexedProps
+ProtoIndexedProps
 )
 ;
 return
@@ -3928,7 +3928,7 @@ trackOptimizationOutcome
 TrackedOutcome
 :
 :
-ArrayProtoIndexedProps
+ProtoIndexedProps
 )
 ;
 return
@@ -4409,7 +4409,7 @@ trackOptimizationOutcome
 TrackedOutcome
 :
 :
-ArrayProtoIndexedProps
+ProtoIndexedProps
 )
 ;
 return
