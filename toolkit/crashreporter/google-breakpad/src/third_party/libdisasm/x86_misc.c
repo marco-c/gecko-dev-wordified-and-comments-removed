@@ -52,8 +52,16 @@ ia32_settings_t
 ia32_settings
 ;
 #
-ifdef
+if
+defined
+(
 _MSC_VER
+)
+&
+&
+_MSC_VER
+<
+1900
 #
 define
 snprintf

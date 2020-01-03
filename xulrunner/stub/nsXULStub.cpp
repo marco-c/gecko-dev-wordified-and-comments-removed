@@ -58,6 +58,17 @@ io
 h
 >
 #
+if
+defined
+(
+_MSC_VER
+)
+&
+&
+_MSC_VER
+<
+1900
+#
 define
 snprintf
 _snprintf
@@ -65,6 +76,8 @@ _snprintf
 define
 vsnprintf
 _vsnprintf
+#
+endif
 #
 define
 strcasecmp
