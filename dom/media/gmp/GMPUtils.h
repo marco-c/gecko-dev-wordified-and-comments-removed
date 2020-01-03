@@ -50,10 +50,9 @@ template
 typename
 T
 >
-struct
+using
 GMPUnique
-{
-typedef
+=
 mozilla
 :
 :
@@ -65,9 +64,6 @@ DestroyPolicy
 T
 >
 >
-Ptr
-;
-}
 ;
 }
 #

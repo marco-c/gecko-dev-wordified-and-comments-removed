@@ -394,9 +394,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 aInputFrame
 bool
 aMissingFrames
@@ -454,9 +451,6 @@ GMPUnique
 <
 GMPVideoEncodedFrameImpl
 >
-:
-:
-Ptr
 inputFrameImpl
 (
 static_cast

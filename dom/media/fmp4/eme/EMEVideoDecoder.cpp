@@ -135,9 +135,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 EMEVideoDecoder
 :
 :
@@ -152,9 +149,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 frame
 =
 GMPVideoDecoder

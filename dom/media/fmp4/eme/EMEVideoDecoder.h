@@ -165,9 +165,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 CreateFrame
 (
 MediaRawData

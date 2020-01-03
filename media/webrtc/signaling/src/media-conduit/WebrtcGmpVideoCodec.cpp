@@ -1511,9 +1511,6 @@ GMPUnique
 <
 GMPVideoi420Frame
 >
-:
-:
-Ptr
 frame
 (
 static_cast
@@ -3300,9 +3297,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 frame
 (
 static_cast

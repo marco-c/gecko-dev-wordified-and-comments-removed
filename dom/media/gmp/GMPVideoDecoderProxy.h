@@ -121,9 +121,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 aInputFrame
 bool
 aMissingFrames

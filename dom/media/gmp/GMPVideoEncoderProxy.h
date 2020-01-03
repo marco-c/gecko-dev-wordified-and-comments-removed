@@ -149,9 +149,6 @@ GMPUnique
 <
 GMPVideoi420Frame
 >
-:
-:
-Ptr
 aInputFrame
 const
 nsTArray

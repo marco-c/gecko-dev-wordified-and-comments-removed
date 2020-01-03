@@ -1353,9 +1353,6 @@ GMPUnique
 <
 GMPVideoEncodedFrame
 >
-:
-:
-Ptr
 frame
 (
 static_cast
