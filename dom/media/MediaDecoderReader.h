@@ -469,9 +469,12 @@ MetadataTags
 *
 aTags
 )
-=
-0
+{
+MOZ_CRASH
+(
+)
 ;
+}
 virtual
 void
 ReadUpdatedMetadata

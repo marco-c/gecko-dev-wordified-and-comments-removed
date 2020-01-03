@@ -53,6 +53,15 @@ MediaDecoderReader
 {
 public
 :
+typedef
+MediaPromise
+<
+bool
+bool
+true
+>
+MediaResourcePromise
+;
 MediaOmxCommonReader
 (
 AbstractMediaDecoder
