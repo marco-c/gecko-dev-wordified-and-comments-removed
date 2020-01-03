@@ -15,9 +15,7 @@ task
 :
 workerType
 :
-b2gbuild
--
-emulator
+flame
 -
 kk
 scopes
