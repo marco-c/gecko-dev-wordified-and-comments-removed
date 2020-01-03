@@ -103,6 +103,16 @@ aIsDefault
 )
 override
 ;
+bool
+RecvIsSpeakingChanged
+(
+const
+bool
+&
+aIsSpeaking
+)
+override
+;
 protected
 :
 SpeechSynthesisChild

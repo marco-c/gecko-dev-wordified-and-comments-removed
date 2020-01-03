@@ -182,6 +182,11 @@ SpeechSynthesisVoice
 aResult
 )
 ;
+void
+DropGlobalQueue
+(
+)
+;
 private
 :
 virtual
