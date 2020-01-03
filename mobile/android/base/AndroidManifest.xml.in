@@ -81,6 +81,15 @@ MOZ_ANDROID_SHARED_ID
 "
 #
 endif
+android
+:
+theme
+=
+"
+style
+/
+FilteredTouches
+"
 >
 <
 uses
