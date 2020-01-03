@@ -2456,6 +2456,9 @@ JSString
 *
 asyncCauseForNewActivations
 ;
+bool
+asyncCallIsExplicit
+;
 JS
 :
 :
