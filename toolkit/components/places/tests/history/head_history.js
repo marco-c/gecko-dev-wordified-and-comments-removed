@@ -55,9 +55,6 @@ do_get_file
 .
 .
 /
-.
-.
-/
 head_common
 .
 js
