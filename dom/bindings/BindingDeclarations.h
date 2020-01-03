@@ -139,6 +139,7 @@ nsAString
 &
 aJSON
 )
+const
 ;
 private
 :
