@@ -9047,15 +9047,8 @@ MDefinition
 operand
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-!
-n
--
->
-isResumePoint
-(
-)
 !
 operand
 -

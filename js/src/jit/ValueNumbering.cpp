@@ -1357,17 +1357,6 @@ getOperand
 i
 )
 ;
-if
-(
-op
--
->
-isDiscarded
-(
-)
-)
-continue
-;
 resume
 -
 >
