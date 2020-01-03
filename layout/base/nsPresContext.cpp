@@ -6643,7 +6643,7 @@ aZoom
 NS_ASSERTION
 (
 !
-mSupressResizeReflow
+mSuppressResizeReflow
 "
 two
 zooms
@@ -6658,7 +6658,7 @@ impossible
 "
 )
 ;
-mSupressResizeReflow
+mSuppressResizeReflow
 =
 true
 ;
@@ -6698,7 +6698,7 @@ AppUnitsPerDevPixelChanged
 (
 )
 ;
-mSupressResizeReflow
+mSuppressResizeReflow
 =
 false
 ;

@@ -2587,13 +2587,13 @@ GetPaintFlashing
 const
 ;
 bool
-SupressingResizeReflow
+SuppressingResizeReflow
 (
 )
 const
 {
 return
-mSupressResizeReflow
+mSuppressResizeReflow
 ;
 }
 virtual
@@ -4050,7 +4050,7 @@ mPostedFlushCounterStyles
 1
 ;
 unsigned
-mSupressResizeReflow
+mSuppressResizeReflow
 :
 1
 ;

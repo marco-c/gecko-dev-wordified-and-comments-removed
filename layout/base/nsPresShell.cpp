@@ -9257,7 +9257,7 @@ GetPresContext
 )
 -
 >
-SupressingResizeReflow
+SuppressingResizeReflow
 (
 )
 )
