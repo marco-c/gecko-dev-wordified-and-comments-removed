@@ -457,6 +457,13 @@ phaseNestingDepth
 ]
 ;
 }
+static
+const
+size_t
+MAX_NESTING
+=
+20
+;
 private
 :
 JSRuntime
@@ -653,13 +660,6 @@ preBytes
 ;
 int64_t
 maxPauseInInterval
-;
-static
-const
-size_t
-MAX_NESTING
-=
-8
 ;
 Phase
 phaseNesting
