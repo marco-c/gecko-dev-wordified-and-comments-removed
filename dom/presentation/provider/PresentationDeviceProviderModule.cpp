@@ -139,16 +139,7 @@ kPresentationDeviceProviderCategories
 {
 #
 if
-defined
-(
-MOZ_WIDGET_GONK
-)
-&
-&
-ANDROID_VERSION
->
-=
-16
+0
 {
 PRESENTATION_DEVICE_PROVIDER_CATEGORY
 "
