@@ -18,6 +18,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsRefPtr
 .
 h
@@ -45,6 +52,10 @@ MOZ_FINAL
 public
 PVsyncChild
 {
+NS_INLINE_DECL_REFCOUNTING
+(
+VsyncChild
+)
 friend
 class
 mozilla
@@ -109,6 +120,9 @@ MOZ_OVERRIDE
 ;
 bool
 mObservingVsync
+;
+bool
+mIsShutdown
 ;
 nsRefPtr
 <
