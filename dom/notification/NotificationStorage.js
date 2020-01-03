@@ -465,7 +465,7 @@ origin
 data
 :
 data
-behavior
+mozbehavior
 :
 behavior
 }
@@ -1112,7 +1112,7 @@ notification
 data
 notification
 .
-behavior
+mozbehavior
 )
 ;
 }
