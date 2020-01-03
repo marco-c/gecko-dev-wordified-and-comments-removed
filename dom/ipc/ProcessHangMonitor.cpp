@@ -181,6 +181,7 @@ PProcessHangMonitorChild
 {
 public
 :
+explicit
 HangMonitorChild
 (
 ProcessHangMonitor
@@ -552,6 +553,7 @@ PProcessHangMonitorParent
 {
 public
 :
+explicit
 HangMonitorParent
 (
 ProcessHangMonitor
