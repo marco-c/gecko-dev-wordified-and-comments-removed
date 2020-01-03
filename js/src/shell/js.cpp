@@ -33321,7 +33321,7 @@ str
 ;
 }
 int32_t
-useCount
+warmUpCounter
 =
 op
 .
@@ -33340,7 +33340,7 @@ compile
 ;
 if
 (
-useCount
+warmUpCounter
 >
 =
 0
@@ -33352,10 +33352,10 @@ js_JitOptions
 .
 setUsesBeforeCompile
 (
-useCount
+warmUpCounter
 )
 ;
-useCount
+warmUpCounter
 =
 op
 .
@@ -33374,7 +33374,7 @@ compile
 ;
 if
 (
-useCount
+warmUpCounter
 >
 =
 0
@@ -33386,7 +33386,7 @@ js_JitOptions
 .
 baselineUsesBeforeCompile
 =
-useCount
+warmUpCounter
 ;
 if
 (

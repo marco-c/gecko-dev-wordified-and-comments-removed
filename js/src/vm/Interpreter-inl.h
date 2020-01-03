@@ -3912,7 +3912,7 @@ canIonCompile
 script_
 -
 >
-incUseCount
+incWarmUpCounter
 (
 5
 )

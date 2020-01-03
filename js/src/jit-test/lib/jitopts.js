@@ -131,7 +131,7 @@ enable
 '
 baseline
 .
-usecount
+warmup
 .
 trigger
 '
@@ -162,7 +162,7 @@ enable
 '
 ion
 .
-usecount
+warmup
 .
 trigger
 '
@@ -178,7 +178,7 @@ enable
 '
 baseline
 .
-usecount
+warmup
 .
 trigger
 '
@@ -209,7 +209,7 @@ enable
 '
 ion
 .
-usecount
+warmup
 .
 trigger
 '
@@ -225,7 +225,7 @@ enable
 '
 baseline
 .
-usecount
+warmup
 .
 trigger
 '
@@ -256,7 +256,7 @@ enable
 '
 ion
 .
-usecount
+warmup
 .
 trigger
 '
@@ -265,7 +265,7 @@ trigger
 '
 baseline
 .
-usecount
+warmup
 .
 trigger
 '

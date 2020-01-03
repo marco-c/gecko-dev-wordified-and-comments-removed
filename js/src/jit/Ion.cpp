@@ -14143,7 +14143,7 @@ ParallelExecution
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;
@@ -16356,7 +16356,7 @@ script
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;

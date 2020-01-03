@@ -480,7 +480,7 @@ _
 \
 _
 (
-UseCount_Fallback
+WarmUpCounter_Fallback
 )
 \
 \
@@ -2391,7 +2391,7 @@ case
 Call_ScriptedFunCall
 :
 case
-UseCount_Fallback
+WarmUpCounter_Fallback
 :
 case
 GetElem_NativeSlot
@@ -3950,7 +3950,7 @@ op
 }
 ;
 class
-ICUseCount_Fallback
+ICWarmUpCounter_Fallback
 :
 public
 ICFallbackStub
@@ -3960,7 +3960,7 @@ class
 ICStubSpace
 ;
 explicit
-ICUseCount_Fallback
+ICWarmUpCounter_Fallback
 (
 JitCode
 *
@@ -3972,7 +3972,7 @@ ICFallbackStub
 ICStub
 :
 :
-UseCount_Fallback
+WarmUpCounter_Fallback
 stubCode
 )
 {
@@ -3981,7 +3981,7 @@ public
 :
 static
 inline
-ICUseCount_Fallback
+ICWarmUpCounter_Fallback
 *
 New
 (
@@ -4007,7 +4007,7 @@ space
 >
 allocate
 <
-ICUseCount_Fallback
+ICWarmUpCounter_Fallback
 >
 (
 code
@@ -4046,11 +4046,11 @@ cx
 ICStub
 :
 :
-UseCount_Fallback
+WarmUpCounter_Fallback
 )
 {
 }
-ICUseCount_Fallback
+ICWarmUpCounter_Fallback
 *
 getStub
 (
@@ -4060,7 +4060,7 @@ space
 )
 {
 return
-ICUseCount_Fallback
+ICWarmUpCounter_Fallback
 :
 :
 New

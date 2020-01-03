@@ -3,7 +3,7 @@ setJitCompilerOption
 "
 baseline
 .
-usecount
+warmup
 .
 trigger
 "
@@ -15,7 +15,7 @@ setJitCompilerOption
 "
 ion
 .
-usecount
+warmup
 .
 trigger
 "

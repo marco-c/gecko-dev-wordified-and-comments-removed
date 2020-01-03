@@ -6238,7 +6238,7 @@ offthreadIonCompilation
 JS_SetGlobalJitCompilerOption
 (
 rt
-JSJITCOMPILER_BASELINE_USECOUNT_TRIGGER
+JSJITCOMPILER_BASELINE_WARMUP_TRIGGER
 useBaselineEager
 ?
 0
@@ -6250,7 +6250,7 @@ useBaselineEager
 JS_SetGlobalJitCompilerOption
 (
 rt
-JSJITCOMPILER_ION_USECOUNT_TRIGGER
+JSJITCOMPILER_ION_WARMUP_TRIGGER
 useIonEager
 ?
 0

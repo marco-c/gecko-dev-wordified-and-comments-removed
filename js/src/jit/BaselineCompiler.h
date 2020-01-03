@@ -1056,7 +1056,7 @@ emitInterruptCheck
 )
 ;
 bool
-emitUseCountIncrement
+emitWarmUpCounterIncrement
 (
 bool
 allowOsr

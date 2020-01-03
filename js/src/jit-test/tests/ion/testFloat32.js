@@ -318,7 +318,7 @@ setJitCompilerOption
 "
 ion
 .
-usecount
+warmup
 .
 trigger
 "

@@ -1096,7 +1096,7 @@ script
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;

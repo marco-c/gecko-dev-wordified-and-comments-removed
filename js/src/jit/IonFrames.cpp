@@ -2204,7 +2204,7 @@ bailedOutForDebugMode
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;
@@ -2872,7 +2872,7 @@ isExceptionPending
 script
 -
 >
-resetUseCount
+resetWarmUpCounter
 (
 )
 ;
