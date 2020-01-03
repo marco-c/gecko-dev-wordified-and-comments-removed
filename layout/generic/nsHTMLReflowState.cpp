@@ -2394,7 +2394,7 @@ dirty
 nsFontInflationData
 :
 :
-UpdateFontInflationDataWidthFor
+UpdateFontInflationDataISizeFor
 (
 *
 this

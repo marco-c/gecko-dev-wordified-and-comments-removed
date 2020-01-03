@@ -1693,8 +1693,8 @@ mAutoQualityMinFontSizePixelsPref
 )
 ;
 }
-float
-ScreenWidthInchesForFontInflation
+gfxSize
+ScreenSizeInchesForFontInflation
 (
 bool
 *
@@ -3737,8 +3737,8 @@ mTextZoom
 float
 mFullZoom
 ;
-float
-mLastFontInflationScreenWidth
+gfxSize
+mLastFontInflationScreenSize
 ;
 int32_t
 mCurAppUnitsPerDevPixel
