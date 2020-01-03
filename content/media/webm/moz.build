@@ -98,6 +98,11 @@ EXPORTS
 =
 [
 '
+WebMBufferedParser
+.
+h
+'
+'
 WebMDecoder
 .
 h

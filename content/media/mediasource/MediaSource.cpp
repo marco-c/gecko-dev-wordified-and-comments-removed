@@ -1037,10 +1037,8 @@ SourceBuffer
 >
 sourceBuffer
 =
+new
 SourceBuffer
-:
-:
-Create
 (
 this
 NS_ConvertUTF16toUTF8
