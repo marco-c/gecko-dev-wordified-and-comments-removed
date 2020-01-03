@@ -3023,13 +3023,6 @@ obj
 MOZ_ASSERT
 (
 obj
-&
-&
-!
-IsPoisonedPtr
-(
-obj
-)
 )
 ;
 ObjectBox
@@ -3359,13 +3352,6 @@ generatorKind
 MOZ_ASSERT
 (
 fun
-&
-&
-!
-IsPoisonedPtr
-(
-fun
-)
 )
 ;
 FunctionBox

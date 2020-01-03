@@ -1944,15 +1944,6 @@ Value
 v
 )
 {
-MOZ_ASSERT
-(
-!
-IsPoisonedValue
-(
-v
-)
-)
-;
 this
 -
 >

@@ -155,12 +155,6 @@ using
 JS
 :
 :
-IsPoisonedValue
-;
-using
-JS
-:
-:
 MagicValue
 ;
 using
@@ -210,12 +204,6 @@ JS
 :
 :
 UndefinedValue
-;
-using
-JS
-:
-:
-IsPoisonedPtr
 ;
 using
 JS

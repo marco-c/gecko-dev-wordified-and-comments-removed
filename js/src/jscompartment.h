@@ -497,17 +497,6 @@ CrossCompartmentKey
 key
 )
 {
-MOZ_ASSERT
-(
-!
-IsPoisonedPtr
-(
-key
-.
-wrapped
-)
-)
-;
 static_assert
 (
 sizeof
