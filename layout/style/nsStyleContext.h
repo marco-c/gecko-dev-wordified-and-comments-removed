@@ -993,6 +993,10 @@ FILE
 out
 int32_t
 aIndent
+bool
+aListDescendants
+=
+true
 )
 ;
 static

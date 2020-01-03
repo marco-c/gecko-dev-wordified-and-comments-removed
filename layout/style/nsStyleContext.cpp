@@ -4070,6 +4070,8 @@ FILE
 out
 int32_t
 aIndent
+bool
+aListDescendants
 )
 {
 nsAutoCString
@@ -4307,6 +4309,11 @@ get
 }
 if
 (
+aListDescendants
+)
+{
+if
+(
 nullptr
 !
 =
@@ -4330,6 +4337,7 @@ out
 aIndent
 +
 1
+aListDescendants
 )
 ;
 child
@@ -4374,6 +4382,7 @@ out
 aIndent
 +
 1
+aListDescendants
 )
 ;
 child
@@ -4392,6 +4401,7 @@ mEmptyChild
 child
 )
 ;
+}
 }
 }
 #
