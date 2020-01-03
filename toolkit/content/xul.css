@@ -5813,6 +5813,13 @@ group
 2147483646
 ;
 }
+slider
+{
+overflow
+:
+hidden
+;
+}
 scrollbox
 {
 -
