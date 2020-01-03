@@ -98,6 +98,11 @@ SOURCES
 =
 [
 '
+BaseElf
+.
+cpp
+'
+'
 CustomElf
 .
 cpp
