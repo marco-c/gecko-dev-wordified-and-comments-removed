@@ -195,9 +195,8 @@ any
 more
 .
 Bug
-1186748
-needed
-a
-CLOBBER
-yet
-again
+1191675
+to
+fix
+xpcshell
+failures
