@@ -5569,13 +5569,6 @@ endif
 endif
 endif
 endif
-ifndef
-CROSS_COMPILE
-(
-call
-CHECK_STDCXX
-)
-endif
 #
 On
 Darwin
