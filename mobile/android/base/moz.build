@@ -2517,11 +2517,6 @@ MotionEventInterceptor
 java
 '
 '
-NewTabletUI
-.
-java
-'
-'
 NotificationClient
 .
 java
