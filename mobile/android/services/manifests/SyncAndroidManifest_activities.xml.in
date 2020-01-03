@@ -687,6 +687,9 @@ filter
 /
 receiver
 >
+#
+ifndef
+MOZ_ANDROID_SHARE_OVERLAY
 <
 activity
 android
@@ -844,3 +847,5 @@ filter
 /
 activity
 >
+#
+endif
