@@ -435,6 +435,10 @@ MakeNotifier
 (
 aMirror
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 }
@@ -581,6 +585,10 @@ r
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 }
@@ -1396,6 +1404,10 @@ r
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 mCanonical
@@ -1498,6 +1510,10 @@ r
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 mCanonical
