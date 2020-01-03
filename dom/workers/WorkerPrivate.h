@@ -2047,6 +2047,9 @@ mWorkerPrivate
 bool
 mIsEnabled
 ;
+bool
+mIsInitialized
+;
 nsTArray
 <
 nsCOMPtr

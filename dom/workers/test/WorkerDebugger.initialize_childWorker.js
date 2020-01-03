@@ -13,3 +13,12 @@ function
 {
 }
 ;
+debugger
+;
+postMessage
+(
+"
+worker
+"
+)
+;
