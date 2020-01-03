@@ -310,13 +310,6 @@ MOZ_ASSERT
 (
 aProgress
 &
-FLAG_DECODE_STARTED
-)
-;
-MOZ_ASSERT
-(
-aProgress
-&
 FLAG_SIZE_AVAILABLE
 )
 ;
