@@ -580,6 +580,7 @@ class
 gfxPlatform
 {
 friend
+class
 SRGBOverrideObserver
 ;
 public
