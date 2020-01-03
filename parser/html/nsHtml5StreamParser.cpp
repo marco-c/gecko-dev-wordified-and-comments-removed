@@ -4364,16 +4364,6 @@ rv
 )
 )
 {
-if
-(
-XRE_GetProcessType
-(
-)
-!
-=
-GeckoProcessType_Content
-)
-{
 NS_WARNING
 (
 "
@@ -4391,7 +4381,6 @@ thread
 "
 )
 ;
-}
 }
 if
 (
