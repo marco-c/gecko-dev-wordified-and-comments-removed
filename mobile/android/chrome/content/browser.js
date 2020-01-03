@@ -3661,7 +3661,7 @@ isAllowed
 (
 ParentalControls
 .
-INSTALL_EXTENSIONS
+INSTALL_EXTENSION
 )
 )
 {

@@ -14597,7 +14597,7 @@ RestrictedProfiles
 .
 Restriction
 .
-DISALLOW_INSTALL_EXTENSIONS
+DISALLOW_INSTALL_EXTENSION
 )
 )
 ;
