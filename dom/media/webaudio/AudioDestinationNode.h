@@ -333,6 +333,12 @@ mAudioChannelAgent
 ;
 nsRefPtr
 <
+MediaInputPort
+>
+mCaptureStreamPort
+;
+nsRefPtr
+<
 Promise
 >
 mOfflineRenderingPromise
@@ -357,6 +363,9 @@ mExtraCurrentTimeSinceLastStartedBlocking
 ;
 bool
 mExtraCurrentTimeUpdatedSinceLastStableState
+;
+bool
+mCaptured
 ;
 }
 ;
