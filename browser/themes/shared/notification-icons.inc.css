@@ -2633,16 +2633,15 @@ translateX
 ;
 }
 }
-%
-ifdef
-XP_MACOSX
 media
 (
 min
 -
 resolution
 :
-2dppx
+1
+.
+1dppx
 )
 {
 #
@@ -2682,6 +2681,9 @@ png
 fill
 ;
 }
+%
+ifdef
+XP_MACOSX
 .
 default
 -
@@ -4137,6 +4139,6 @@ png
 )
 ;
 }
-}
 %
 endif
+}
