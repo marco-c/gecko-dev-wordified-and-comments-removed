@@ -1597,6 +1597,11 @@ mAllowExperiments
 1
 ;
 uint32_t
+mDebugObservations
+:
+1
+;
+uint32_t
 mHandlerActive
 :
 1
