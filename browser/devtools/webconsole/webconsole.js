@@ -5857,6 +5857,16 @@ element
 break
 ;
 }
+case
+"
+timeStamp
+"
+:
+{
+return
+null
+;
+}
 default
 :
 Cu
