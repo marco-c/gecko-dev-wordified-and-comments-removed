@@ -1,5 +1,7 @@
+from
+__future__
 import
-os
+absolute_import
 import
 mozinfo
 import
