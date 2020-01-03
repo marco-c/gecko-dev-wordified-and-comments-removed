@@ -2391,6 +2391,8 @@ length
 "
 ctorNargs
 JSPROP_READONLY
+|
+JSPROP_PERMANENT
 )
 )
 {
