@@ -109,6 +109,11 @@ AutoTimelineMarker
 .
 h
 '
+'
+TimelineConsumers
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -121,6 +126,11 @@ cpp
 '
 '
 AutoTimelineMarker
+.
+cpp
+'
+'
+TimelineConsumers
 .
 cpp
 '

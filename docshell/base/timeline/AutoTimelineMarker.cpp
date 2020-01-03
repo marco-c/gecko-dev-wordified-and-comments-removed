@@ -42,12 +42,13 @@ false
 ;
 if
 (
-nsDocShell
+!
+TimelineConsumers
 :
 :
-gProfileTimelineRecordingsCount
->
-0
+IsEmpty
+(
+)
 )
 {
 aDocShell
