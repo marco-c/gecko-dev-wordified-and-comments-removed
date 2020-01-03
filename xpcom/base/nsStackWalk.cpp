@@ -3535,9 +3535,18 @@ __GLIBC__
 2
 |
 |
-__GLIBC_MINOR
+(
+__GLIBC__
+=
+=
+2
+&
+&
+__GLIBC_MINOR__
 >
+=
 1
+)
 #
 define
 HAVE___LIBC_STACK_END
@@ -3554,6 +3563,7 @@ endif
 if
 HAVE___LIBC_STACK_END
 extern
+MOZ_EXPORT
 void
 *
 __libc_stack_end
