@@ -2810,7 +2810,7 @@ sb
 =
 this
 .
-_stringBundle
+_accountsStringBundle
 ;
 let
 title
@@ -2820,7 +2820,7 @@ sb
 GetStringFromName
 (
 "
-firefoxAccountsVerificationSentTitle
+verificationSentTitle
 "
 )
 ;
@@ -2832,7 +2832,7 @@ sb
 formatStringFromName
 (
 "
-firefoxAccountsVerificationSentHeading
+verificationSentHeading
 "
 [
 data
@@ -2850,7 +2850,7 @@ sb
 GetStringFromName
 (
 "
-firefoxAccountVerificationSentDescription
+verificationSentDescription
 "
 )
 ;
