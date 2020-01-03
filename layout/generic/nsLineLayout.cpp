@@ -4862,6 +4862,9 @@ Translate
 (
 lineWM
 tPt
+ContainerWidth
+(
+)
 )
 ;
 int32_t
@@ -5293,6 +5296,9 @@ Untranslate
 (
 oldWM
 tPt
+ContainerWidth
+(
+)
 )
 ;
 NS_ASSERTION

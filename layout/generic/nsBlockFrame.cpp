@@ -9738,6 +9738,7 @@ Translate
 (
 wm
 oPt
+containerWidth
 )
 ;
 bool
@@ -9771,6 +9772,7 @@ Untranslate
 (
 oldWM
 oPt
+containerWidth
 )
 ;
 if
@@ -29171,6 +29173,7 @@ Translate
 (
 aWM
 pos
+aContainerWidth
 )
 ;
 block
@@ -29189,6 +29192,7 @@ Untranslate
 (
 oldWM
 pos
+aContainerWidth
 )
 ;
 }
