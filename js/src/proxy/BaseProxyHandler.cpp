@@ -1828,7 +1828,7 @@ bool
 BaseProxyHandler
 :
 :
-slice
+getElements
 (
 JSContext
 *
@@ -1839,8 +1839,9 @@ uint32_t
 begin
 uint32_t
 end
-HandleObject
-result
+ElementAdder
+*
+adder
 )
 const
 {
@@ -1856,14 +1857,14 @@ return
 js
 :
 :
-SliceSlowly
+GetElementsWithAdder
 (
 cx
 proxy
 proxy
 begin
 end
-result
+adder
 )
 ;
 }

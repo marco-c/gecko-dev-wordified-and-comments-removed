@@ -2780,7 +2780,7 @@ unwatch
 nullptr
 /
 *
-slice
+getElements
 *
 /
                       
@@ -75567,7 +75567,7 @@ define
 )
 )
 class
-CGDOMJSProxyHandler_slice
+CGDOMJSProxyHandler_getElements
 (
 ClassMethod
 )
@@ -75642,17 +75642,14 @@ end
 Argument
 (
 '
-JS
+js
 :
 :
-Handle
-<
-JSObject
+ElementAdder
 *
->
 '
 '
-array
+adder
 '
 )
 ]
@@ -75663,7 +75660,7 @@ __init__
 (
 self
 "
-slice
+getElements
 "
 "
 bool
@@ -75728,16 +75725,12 @@ successCode
 :
 (
 "
-js
-:
-:
-UnsafeDefineElement
+adder
+-
+>
+append
 (
 cx
-array
-index
--
-begin
 temp
 )
 ;
@@ -75949,14 +75942,14 @@ return
 js
 :
 :
-SliceSlowly
+GetElementsWithAdder
 (
 cx
 proto
 proxy
 ourEnd
 end
-array
+adder
 )
 ;
             
@@ -76377,7 +76370,7 @@ methods
 .
 append
 (
-CGDOMJSProxyHandler_slice
+CGDOMJSProxyHandler_getElements
 (
 descriptor
 )
