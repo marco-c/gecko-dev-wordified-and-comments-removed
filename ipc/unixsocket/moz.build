@@ -107,6 +107,11 @@ ConnectionOrientedSocket
 h
 '
 '
+DataSocket
+.
+h
+'
+'
 ListenSocket
 .
 h
@@ -133,6 +138,11 @@ SOURCES
 [
 '
 ConnectionOrientedSocket
+.
+cpp
+'
+'
+DataSocket
 .
 cpp
 '

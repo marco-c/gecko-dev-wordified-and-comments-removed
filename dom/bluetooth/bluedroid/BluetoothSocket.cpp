@@ -186,7 +186,7 @@ ipc
 :
 UnixFdWatcher
 protected
-SocketIOBase
+DataSocketIO
 {
 public
 :
@@ -218,7 +218,7 @@ UnixFdWatcher
 (
 aIOLoop
 )
-SocketIOBase
+DataSocketIO
 (
 MAX_READ_SIZE
 )
@@ -398,9 +398,9 @@ false
 )
 ;
 }
-SocketConsumerBase
+DataSocket
 *
-GetConsumer
+GetDataSocket
 (
 )
 {
@@ -419,7 +419,7 @@ GetSocketBase
 )
 {
 return
-GetConsumer
+GetDataSocket
 (
 )
 ;

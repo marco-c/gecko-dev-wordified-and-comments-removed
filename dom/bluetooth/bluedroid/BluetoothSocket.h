@@ -18,7 +18,7 @@ mozilla
 /
 ipc
 /
-SocketBase
+DataSocket
 .
 h
 "
@@ -42,7 +42,7 @@ mozilla
 ipc
 :
 :
-SocketConsumerBase
+DataSocket
 {
 public
 :

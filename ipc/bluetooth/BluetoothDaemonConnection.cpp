@@ -53,6 +53,17 @@ mozilla
 /
 ipc
 /
+DataSocket
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 UnixSocketWatcher
 .
 h

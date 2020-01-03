@@ -11,7 +11,7 @@ mozilla
 /
 ipc
 /
-SocketBase
+DataSocket
 .
 h
 "
@@ -38,7 +38,7 @@ class
 StreamSocket
 :
 public
-SocketConsumerBase
+DataSocket
 public
 ConnectionOrientedSocket
 {
