@@ -112,6 +112,11 @@ EMEH264Decoder
 .
 h
 '
+'
+SamplesWaitingForKey
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -129,6 +134,11 @@ cpp
 '
 '
 EMEH264Decoder
+.
+cpp
+'
+'
+SamplesWaitingForKey
 .
 cpp
 '
