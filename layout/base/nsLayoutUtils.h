@@ -4330,6 +4330,14 @@ ComputeSuitableScaleForAnimation
 nsIContent
 *
 aContent
+const
+nsSize
+&
+aVisibleSize
+const
+nsSize
+&
+aDisplaySize
 )
 ;
 static
