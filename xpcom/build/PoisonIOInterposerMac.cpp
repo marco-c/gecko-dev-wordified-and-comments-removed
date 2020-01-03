@@ -189,6 +189,13 @@ fcntl
 h
 >
 #
+include
+<
+unistd
+.
+h
+>
+#
 ifdef
 MOZ_REPLACE_MALLOC
 #
