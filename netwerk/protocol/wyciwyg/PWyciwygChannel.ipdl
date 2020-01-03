@@ -179,6 +179,8 @@ URIParams
 uri
 PrincipalInfo
 requestingPrincipalInfo
+PrincipalInfo
+triggeringPrincipalInfo
 uint32_t
 securityFlags
 uint32_t

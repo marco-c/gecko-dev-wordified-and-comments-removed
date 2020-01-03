@@ -466,6 +466,9 @@ fds
 PrincipalInfo
 requestingPrincipalInfo
 ;
+PrincipalInfo
+triggeringPrincipalInfo
+;
 uint32_t
 securityFlags
 ;
@@ -688,6 +691,9 @@ uploadStream
 ;
 PrincipalInfo
 requestingPrincipalInfo
+;
+PrincipalInfo
+triggeringPrincipalInfo
 ;
 uint32_t
 securityFlags
