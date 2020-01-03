@@ -3679,6 +3679,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -4099,6 +4100,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -4269,8 +4271,6 @@ if
 runUpdate
 )
 {
-try
-{
 let
 appMigrator
 =
@@ -4290,6 +4290,17 @@ migrator
 1
 "
 ]
+;
+if
+(
+appMigrator
+)
+{
+try
+{
+appMigrator
+=
+appMigrator
 .
 createInstance
 (
@@ -4358,6 +4369,7 @@ migration
 "
 )
 ;
+}
 }
 #
 ifdef
@@ -16559,11 +16571,10 @@ jsonManifest
 ;
 }
 for
-each
 (
 let
 prop
-in
+of
 [
 "
 installState
