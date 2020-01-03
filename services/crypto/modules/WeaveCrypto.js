@@ -658,8 +658,9 @@ nss3
 var
 nsslib
 ;
-try
-{
+#
+ifdef
+MOZ_NATIVE_NSS
 this
 .
 log
@@ -682,12 +683,8 @@ open
 path
 )
 ;
-}
-catch
-(
-e
-)
-{
+#
+else
 let
 file
 =
@@ -718,7 +715,8 @@ log
 (
 "
 Trying
-again
+NSS
+library
 with
 path
 "
@@ -739,7 +737,8 @@ file
 path
 )
 ;
-}
+#
+endif
 this
 .
 log
