@@ -252,7 +252,7 @@ kRGBA_8888_ANPBitmapFormat
 :
 colorType
 =
-kRGBA_8888_SkColorType
+kN32_SkColorType
 ;
 break
 ;
