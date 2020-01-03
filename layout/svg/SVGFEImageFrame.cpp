@@ -307,7 +307,6 @@ imageLoader
 >
 DecrementVisibleCount
 (
-false
 )
 ;
 }
