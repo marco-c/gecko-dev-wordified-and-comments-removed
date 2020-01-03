@@ -1962,6 +1962,9 @@ self
 )
 :
         
+try
+:
+            
 p
 =
 subprocess
@@ -1979,20 +1982,20 @@ exe
 h
 '
 ]
-                             
+                                 
 stdout
 =
 subprocess
 .
 PIPE
-                             
+                                 
 stderr
 =
 subprocess
 .
 STDOUT
 )
-        
+            
 return
 p
 .
@@ -2017,6 +2020,12 @@ startswith
 winrm
 '
 )
+        
+except
+:
+            
+return
+False
     
 def
 remove_objdir
