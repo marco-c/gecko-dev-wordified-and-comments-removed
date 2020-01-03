@@ -243,7 +243,7 @@ OS_ARCH
 Darwin
 '
 :
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
