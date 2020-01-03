@@ -85,6 +85,7 @@ nsString
 &
 aCommand
 )
+MOZ_OVERRIDE
 ;
 bool
 DeallocPTestShellCommandParent
@@ -93,6 +94,7 @@ PTestShellCommandParent
 *
 aActor
 )
+MOZ_OVERRIDE
 ;
 bool
 CommandDone
