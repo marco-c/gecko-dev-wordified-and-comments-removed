@@ -994,7 +994,7 @@ yield
 showInfoPromise
 (
 "
-trackingProtection
+urlbar
 "
 "
 another

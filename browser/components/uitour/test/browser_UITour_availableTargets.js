@@ -333,6 +333,9 @@ search
 searchIcon
 "
 "
+trackingProtection
+"
+"
 urlbar
 "
 .
@@ -506,6 +509,9 @@ search
 searchIcon
 "
 "
+trackingProtection
+"
+"
 urlbar
 "
 .
@@ -677,6 +683,9 @@ quit
 readerMode
 -
 urlBar
+"
+"
+trackingProtection
 "
 "
 urlbar
