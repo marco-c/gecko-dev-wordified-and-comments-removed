@@ -215,9 +215,13 @@ Unlink
 (
 )
 {
-mStyleSheet
-=
+nsStyleLinkElement
+:
+:
+SetStyleSheet
+(
 nullptr
+)
 ;
 }
 void
