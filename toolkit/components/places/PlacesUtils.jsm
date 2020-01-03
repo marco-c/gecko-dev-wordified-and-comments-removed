@@ -2253,6 +2253,8 @@ getReversedHost
 (
 url
 )
+{
+return
 url
 .
 host
@@ -2276,6 +2278,8 @@ join
 "
 .
 "
+;
+}
 wrapNode
 (
 aNode
