@@ -1375,7 +1375,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -4393,7 +4393,7 @@ GlobalObject
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -4580,16 +4580,14 @@ GlobalObject
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 "
 Only
 scripts
 with
-non
--
-syntactic
+polluted
 scopes
 can
 be
@@ -6141,12 +6139,6 @@ ScopeIter
 :
 :
 Eval
-:
-case
-ScopeIter
-:
-:
-NonSyntactic
 :
 break
 ;
@@ -11824,7 +11816,7 @@ JSOP_BINDNAME
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -16330,7 +16322,7 @@ JSOP_IMPLICITTHIS
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -21403,7 +21395,7 @@ if
 (
 si
 .
-hasSyntacticScopeObject
+hasScopeObject
 (
 )
 &
