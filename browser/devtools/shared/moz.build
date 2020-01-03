@@ -203,6 +203,13 @@ jsm
 '
 widgets
 /
+GraphsWorker
+.
+js
+'
+'
+widgets
+/
 SideMenuWidget
 .
 jsm

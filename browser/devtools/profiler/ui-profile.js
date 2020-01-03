@@ -1656,12 +1656,6 @@ FRAMERATE_GRAPH_HEIGHT
 ;
 graph
 .
-minDistanceBetweenPoints
-=
-1
-;
-graph
-.
 dataOffsetX
 =
 beginAt
