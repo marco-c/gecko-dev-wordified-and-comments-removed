@@ -79,7 +79,7 @@ rv
 aPrincipal
 -
 >
-GetOrigin
+GetOriginNoSuffix
 (
 origin
 )

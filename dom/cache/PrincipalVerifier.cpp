@@ -572,7 +572,7 @@ rv
 principal
 -
 >
-GetOrigin
+GetOriginNoSuffix
 (
 origin
 )

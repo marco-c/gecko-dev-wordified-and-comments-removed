@@ -765,7 +765,7 @@ rv
 aPrincipal
 -
 >
-GetOrigin
+GetOriginNoSuffix
 (
 aHost
 )

@@ -4698,7 +4698,7 @@ NodePrincipal
 )
 -
 >
-GetOrigin
+GetOriginNoSuffix
 (
 appOrigin
 )

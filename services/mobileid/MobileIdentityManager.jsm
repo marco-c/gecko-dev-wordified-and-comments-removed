@@ -1239,12 +1239,10 @@ this
 _iccInfo
 ;
 #
-else
+endif
 return
 null
 ;
-#
-endif
 }
 get
 iccIds
@@ -1331,12 +1329,10 @@ this
 _iccIds
 ;
 #
-else
+endif
 return
 null
 ;
-#
-endif
 }
 get
 credStore
@@ -3897,7 +3893,7 @@ creds
 msisdn
 aPrincipal
 .
-origin
+originNoSuffix
 creds
 .
 sessionToken
@@ -3950,7 +3946,7 @@ creds
 msisdn
 aPrincipal
 .
-origin
+originNoSuffix
 creds
 .
 sessionToken
@@ -3971,7 +3967,7 @@ verificationFlow
 promptResult
 aPrincipal
 .
-origin
+originNoSuffix
 )
 ;
 }
@@ -4404,7 +4400,7 @@ getByOrigin
 (
 aPrincipal
 .
-origin
+originNoSuffix
 )
 .
 then
@@ -4437,7 +4433,7 @@ origin
 :
 aPrincipal
 .
-origin
+originNoSuffix
 }
 )
 ;
@@ -4509,7 +4505,7 @@ creds
 newCreds
 principal
 .
-origin
+originNoSuffix
 )
 ;
 }
@@ -4747,7 +4743,7 @@ creds
 newCreds
 principal
 .
-origin
+originNoSuffix
 )
 ;
 }
@@ -4839,7 +4835,7 @@ generateAssertion
 creds
 principal
 .
-origin
+originNoSuffix
 )
 ;
 }
