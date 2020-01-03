@@ -3232,6 +3232,13 @@ ended
 )
 )
 ;
+mNode
+-
+>
+DestroyMediaStream
+(
+)
+;
 return
 NS_OK
 ;
@@ -3253,10 +3260,6 @@ EndedEventDispatcher
 (
 this
 )
-)
-;
-DestroyMediaStream
-(
 )
 ;
 MarkInactive
