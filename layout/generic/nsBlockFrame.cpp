@@ -5793,7 +5793,7 @@ NS_FRAME_IS_DIRTY
 reflowState
 -
 >
-IsHResize
+IsIResize
 (
 )
 )
@@ -10300,7 +10300,7 @@ aState
 .
 mReflowState
 .
-IsVResize
+IsBResize
 (
 )
 &
@@ -10844,7 +10844,7 @@ aState
 .
 mReflowState
 .
-IsVResize
+IsBResize
 (
 )
 |
