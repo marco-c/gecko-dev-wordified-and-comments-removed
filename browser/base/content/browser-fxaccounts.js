@@ -1349,6 +1349,16 @@ userData
 =
 >
 {
+if
+(
+window
+.
+closed
+)
+{
+return
+;
+}
 this
 .
 panelUILabel
