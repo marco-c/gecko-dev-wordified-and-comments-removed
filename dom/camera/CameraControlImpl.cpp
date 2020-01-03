@@ -359,10 +359,10 @@ state
 =
 {
 "
-open
-"
-"
 closed
+"
+"
+open
 "
 "
 failed
