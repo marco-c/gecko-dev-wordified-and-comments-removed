@@ -1857,6 +1857,8 @@ getReversedHost
 (
 url
 )
+{
+return
 url
 .
 host
@@ -1880,6 +1882,8 @@ join
 "
 .
 "
+;
+}
 wrapNode
 :
 function

@@ -1956,6 +1956,8 @@ _element
 (
 aID
 )
+{
+return
 document
 .
 getElementById
@@ -1966,6 +1968,8 @@ editBMPanel_
 +
 aID
 )
+;
+}
 uninitPanel
 (
 aHideCollapsibleElements
