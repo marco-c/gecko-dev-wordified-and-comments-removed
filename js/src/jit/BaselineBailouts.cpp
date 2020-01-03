@@ -294,7 +294,7 @@ get
 struct
 BaselineStackBuilder
 {
-IonBailoutIterator
+JitFrameIterator
 &
 iter_
 ;
@@ -345,7 +345,7 @@ framePushed_
 ;
 BaselineStackBuilder
 (
-IonBailoutIterator
+JitFrameIterator
 &
 iter
 size_t
@@ -402,6 +402,15 @@ bufferTotal_
 >
 =
 HeaderSize
+(
+)
+)
+;
+MOZ_ASSERT
+(
+iter
+.
+isBailoutJS
 (
 )
 )
@@ -1849,7 +1858,7 @@ public
 SnapshotIteratorForBailout
 (
 const
-IonBailoutIterator
+JitFrameIterator
 &
 iter
 )
@@ -1867,6 +1876,15 @@ jsFrame
 )
 )
 {
+MOZ_ASSERT
+(
+iter
+.
+isBailoutJS
+(
+)
+)
+;
 }
 bool
 init
@@ -6060,7 +6078,7 @@ cx
 JitActivation
 *
 activation
-IonBailoutIterator
+JitFrameIterator
 &
 iter
 bool
@@ -6140,7 +6158,7 @@ MOZ_ASSERT
 (
 iter
 .
-isIonJS
+isBailoutJS
 (
 )
 )

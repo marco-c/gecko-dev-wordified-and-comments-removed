@@ -158,9 +158,6 @@ class
 JitFrameIterator
 ;
 class
-IonBailoutIterator
-;
-class
 RematerializedFrame
 ;
 }
