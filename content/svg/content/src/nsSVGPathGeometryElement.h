@@ -218,17 +218,6 @@ GetPathForLengthOrPositionMeasuring
 (
 )
 ;
-mozilla
-:
-:
-TemporaryRef
-<
-PathBuilder
->
-CreatePathBuilder
-(
-)
-;
 FillRule
 GetFillRule
 (
