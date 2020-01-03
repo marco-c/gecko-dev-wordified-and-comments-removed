@@ -10093,6 +10093,11 @@ GetCenteredFontBaseline
 (
 fm
 minimumLineBSize
+lineWM
+.
+IsLineInverted
+(
+)
 )
 ;
 nscoord

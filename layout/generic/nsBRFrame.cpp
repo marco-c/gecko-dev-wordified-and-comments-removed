@@ -522,6 +522,11 @@ GetCenteredFontBaseline
 (
 fm
 logicalHeight
+wm
+.
+IsLineInverted
+(
+)
 )
 )
 ;

@@ -2306,6 +2306,11 @@ GetCenteredFontBaseline
 (
 fontMet
 lineHeight
+wm
+.
+IsLineInverted
+(
+)
 )
 +
 aReflowState

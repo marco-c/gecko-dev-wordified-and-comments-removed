@@ -3064,6 +3064,8 @@ nsFontMetrics
 aFontMetrics
 nscoord
 aLineHeight
+bool
+aIsInverted
 )
 ;
 static
