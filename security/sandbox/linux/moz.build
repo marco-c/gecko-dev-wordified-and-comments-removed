@@ -389,6 +389,9 @@ DIRS
 =
 [
 '
+common
+'
+'
 glue
 '
 ]
