@@ -73,6 +73,7 @@ enum
 Reason
 {
 SHUTDOWN
+CANCELED
 }
 ;
 WaitForDataRejectValue
