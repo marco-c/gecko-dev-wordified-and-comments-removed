@@ -5064,7 +5064,7 @@ origin
 change
 "
 {
-origin
+originNoSuffix
 :
 e
 .
@@ -5072,7 +5072,7 @@ target
 .
 nodePrincipal
 .
-origin
+originNoSuffix
 }
 )
 ;

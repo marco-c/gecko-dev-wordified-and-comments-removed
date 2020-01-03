@@ -3364,7 +3364,7 @@ DOMFullscreen
 NewOrigin
 "
 {
-origin
+originNoSuffix
 :
 this
 .
@@ -3372,7 +3372,7 @@ _fullscreenDoc
 .
 nodePrincipal
 .
-origin
+originNoSuffix
 }
 )
 ;
