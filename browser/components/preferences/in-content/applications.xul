@@ -533,6 +533,11 @@ id
 "
 focusSearch1
 "
+oncommand
+=
+"
+;
+"
 /
 >
 <
@@ -555,6 +560,11 @@ id
 =
 "
 focusSearch2
+"
+oncommand
+=
+"
+;
 "
 /
 >
