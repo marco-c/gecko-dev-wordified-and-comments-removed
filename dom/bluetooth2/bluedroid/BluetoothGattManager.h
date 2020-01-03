@@ -150,7 +150,7 @@ HandleShutdown
 void
 RegisterClientNotification
 (
-int
+BluetoothGattStatus
 aStatus
 int
 aClientIf
@@ -182,7 +182,7 @@ ConnectNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 int
 aClientIf
@@ -198,7 +198,7 @@ DisconnectNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 int
 aClientIf
@@ -214,7 +214,7 @@ SearchCompleteNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -236,7 +236,7 @@ GetCharacteristicNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -256,7 +256,7 @@ GetDescriptorNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -278,7 +278,7 @@ GetIncludedServiceNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -298,7 +298,7 @@ int
 aConnId
 int
 aIsRegister
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattServiceId
@@ -328,7 +328,7 @@ ReadCharacteristicNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattReadParam
@@ -342,7 +342,7 @@ WriteCharacteristicNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattWriteParam
@@ -356,7 +356,7 @@ ReadDescriptorNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattReadParam
@@ -370,7 +370,7 @@ WriteDescriptorNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 const
 BluetoothGattWriteParam
@@ -384,7 +384,7 @@ ExecuteWriteNotification
 (
 int
 aConnId
-int
+BluetoothGattStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -400,7 +400,7 @@ nsAString
 aBdAddr
 int
 aRssi
-int
+BluetoothGattStatus
 aStatus
 )
 MOZ_OVERRIDE
@@ -408,7 +408,7 @@ MOZ_OVERRIDE
 void
 ListenNotification
 (
-int
+BluetoothGattStatus
 aStatus
 int
 aServerIf

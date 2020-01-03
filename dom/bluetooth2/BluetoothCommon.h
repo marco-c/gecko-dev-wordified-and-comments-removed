@@ -1387,6 +1387,13 @@ mValues
 ;
 }
 ;
+enum
+BluetoothGattStatus
+{
+GATT_STATUS_SUCCESS
+GATT_STATUS_ERROR
+}
+;
 struct
 BluetoothGattAdvData
 {
