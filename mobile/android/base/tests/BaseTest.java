@@ -834,6 +834,10 @@ mActivity
 mAsserter
 )
 ;
+throwIfHttpGetFails
+(
+)
+;
 throwIfScreenNotOn
 (
 )

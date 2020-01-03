@@ -393,6 +393,10 @@ initHelpers
 (
 )
 ;
+throwIfHttpGetFails
+(
+)
+;
 throwIfScreenNotOn
 (
 )
