@@ -69,9 +69,6 @@ MediaStreamList
 :
 MediaStreamList
 (
-sipcc
-:
-:
 PeerConnectionImpl
 *
 peerConnection
@@ -294,7 +291,7 @@ media
 )
 -
 >
-GetLocalStream
+GetLocalStreamByIndex
 (
 index
 )
@@ -313,7 +310,7 @@ media
 )
 -
 >
-GetRemoteStream
+GetRemoteStreamByIndex
 (
 index
 )
