@@ -7217,6 +7217,10 @@ mCleanedUp
 =
 true
 ;
+StartDying
+(
+)
+;
 mEventTargetObjects
 .
 EnumerateEntries
