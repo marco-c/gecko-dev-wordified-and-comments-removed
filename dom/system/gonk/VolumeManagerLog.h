@@ -27,6 +27,9 @@ endif
 undef
 LOG
 #
+undef
+ERR
+#
 define
 LOG
 (
@@ -60,6 +63,9 @@ VOLUME_MANAGER_LOG_TAG
 #
 args
 )
+#
+undef
+DBG
 #
 if
 USE_DEBUG

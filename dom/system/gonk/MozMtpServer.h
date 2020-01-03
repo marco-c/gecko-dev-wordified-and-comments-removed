@@ -106,6 +106,11 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MozMtpServer
 )
+bool
+Init
+(
+)
+;
 void
 Run
 (
@@ -146,6 +151,9 @@ nsCOMPtr
 nsIThread
 >
 mServerThread
+;
+ScopedClose
+mMtpUsbFd
 ;
 }
 ;

@@ -45,6 +45,12 @@ USE_DEBUG
 undef
 LOG
 #
+undef
+LOGW
+#
+undef
+ERR
+#
 define
 LOG
 (
@@ -101,6 +107,9 @@ OpenFileFinder
 #
 args
 )
+#
+undef
+DBG
 #
 if
 USE_DEBUG
