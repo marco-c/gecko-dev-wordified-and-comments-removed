@@ -2314,12 +2314,6 @@ Tester_finish
 aSkipSummary
 )
 {
-TabDestroyObserver
-.
-destroy
-(
-)
-;
 this
 .
 Promise
@@ -2427,6 +2421,12 @@ nextTest
 }
 else
 {
+TabDestroyObserver
+.
+destroy
+(
+)
+;
 Services
 .
 console
