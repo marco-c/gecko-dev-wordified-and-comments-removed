@@ -32,6 +32,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 PlatformDecoderModule
 .
 h
@@ -709,6 +716,9 @@ mHasVideo
 ;
 bool
 mHasAudio
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;

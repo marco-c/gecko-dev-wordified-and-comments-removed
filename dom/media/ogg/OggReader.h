@@ -61,6 +61,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 OggCodecState
 .
 h
@@ -778,6 +785,9 @@ mIsChained
 ;
 int64_t
 mDecodedAudioFrames
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;

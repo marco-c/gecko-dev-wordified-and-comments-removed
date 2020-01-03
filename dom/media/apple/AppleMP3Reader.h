@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 MP3FrameParser
 .
 h
@@ -251,6 +258,9 @@ mAudioConverter
 ;
 MP3FrameParser
 mMP3FrameParser
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;

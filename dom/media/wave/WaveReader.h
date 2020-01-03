@@ -18,6 +18,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -288,6 +295,9 @@ mWaveLength
 ;
 int64_t
 mWavePCMOffset
+;
+MediaResourceIndex
+mResource
 ;
 }
 ;

@@ -38,6 +38,9 @@ struct
 MOZ_EXPORT
 MediaSource
 ;
+class
+MediaStreamSource
+;
 }
 namespace
 mozilla
@@ -118,6 +121,13 @@ dom
 :
 AudioChannel
 mAudioChannel
+;
+android
+:
+:
+MediaStreamSource
+*
+mStreamSource
 ;
 }
 ;
