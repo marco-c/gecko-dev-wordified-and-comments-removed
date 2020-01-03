@@ -843,6 +843,10 @@ RequestContentRepaint
 FrameMetrics
 &
 aFrameMetrics
+bool
+aThrottled
+=
+true
 )
 ;
 void
@@ -1150,6 +1154,11 @@ TouchBehaviorFlags
 >
 &
 aBehaviors
+)
+;
+void
+FlushRepaintForNewInputBlock
+(
 )
 ;
 private

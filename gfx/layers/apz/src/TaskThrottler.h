@@ -155,6 +155,11 @@ return
 mOutstanding
 ;
 }
+void
+CancelPendingTask
+(
+)
+;
 TimeDuration
 TimeSinceLastRequest
 (
