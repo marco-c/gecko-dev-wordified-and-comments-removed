@@ -8114,10 +8114,6 @@ MediaStreamGraphImpl
 OneIteration
 (
 GraphTime
-aFrom
-GraphTime
-aTo
-GraphTime
 aStateEnd
 )
 {
