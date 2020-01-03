@@ -356,5 +356,16 @@ TracingMetadata
 aMetaData
 )
 ;
+void
+mozilla_sampler_log
+(
+const
+char
+*
+fmt
+va_list
+args
+)
+;
 #
 endif

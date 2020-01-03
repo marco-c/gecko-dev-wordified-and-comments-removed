@@ -2714,9 +2714,8 @@ bar
 )
 #
 endif
-static
 void
-profiler_log
+mozilla_sampler_log
 (
 const
 char
@@ -2997,7 +2996,7 @@ Startup
 ;
 set_stderr_callback
 (
-profiler_log
+mozilla_sampler_log
 )
 ;
 const
