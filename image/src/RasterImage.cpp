@@ -1917,8 +1917,6 @@ nsIntSize
 aSize
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
 )
 {
 MOZ_ASSERT
@@ -2012,19 +2010,13 @@ ThebesIntSize
 requestedSize
 )
 aFlags
-aShouldSyncNotify
 )
 ;
 if
 (
-(
 aFlags
 &
 FLAG_SYNC_DECODE
-)
-&
-&
-aShouldSyncNotify
 )
 {
 ref
@@ -2094,9 +2086,6 @@ ref
 &
 &
 mHasSourceData
-&
-&
-aShouldSyncNotify
 &
 &
 (
@@ -2424,8 +2413,6 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
 )
 {
 if
@@ -2455,7 +2442,6 @@ aWhichFrame
 )
 mSize
 aFlags
-aShouldSyncNotify
 )
 ;
 if
@@ -2739,8 +2725,6 @@ uint32_t
 aWhichFrame
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
 )
 {
 MOZ_ASSERT
@@ -2778,7 +2762,6 @@ aWhichFrame
 )
 mSize
 aFlags
-aShouldSyncNotify
 )
 ;
 if
@@ -2867,7 +2850,6 @@ CopyFrame
 (
 aWhichFrame
 aFlags
-aShouldSyncNotify
 )
 ;
 }
@@ -2913,8 +2895,7 @@ surface
 GetFrameInternal
 (
 FRAME_CURRENT
-FLAG_NONE
-false
+FLAG_ASYNC_NOTIFY
 )
 ;
 if
@@ -5370,8 +5351,6 @@ nsIntSize
 aSize
 uint32_t
 aFlags
-bool
-aShouldSyncNotify
 )
 {
 if
@@ -5399,11 +5378,6 @@ DecodeStrategy
 :
 ASYNC
 ;
-if
-(
-aShouldSyncNotify
-)
-{
 if
 (
 aFlags
@@ -5434,7 +5408,6 @@ DecodeStrategy
 :
 SYNC_FOR_SMALL_IMAGES
 ;
-}
 }
 Decode
 (
@@ -5603,7 +5576,6 @@ LookupFrame
 0
 targetSize
 flags
-shouldSyncDecodeIfFast
 )
 ;
 return
