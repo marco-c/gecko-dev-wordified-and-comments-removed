@@ -3045,6 +3045,7 @@ column
 :
 column
 }
+;
 }
 )
 ;
