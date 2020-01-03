@@ -79,6 +79,16 @@ include
 protocol
 PFileDescriptorSet
 ;
+using
+struct
+nsID
+from
+"
+nsID
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -143,8 +153,8 @@ startedReadingCurrent
 struct
 RemoteInputStreamParams
 {
-PBlob
-remoteBlob
+nsID
+id
 ;
 }
 ;

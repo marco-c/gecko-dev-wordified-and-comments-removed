@@ -123,16 +123,6 @@ InputStreamParams
 ;
 using
 struct
-nsID
-from
-"
-nsID
-.
-h
-"
-;
-using
-struct
 mozilla
 :
 :
