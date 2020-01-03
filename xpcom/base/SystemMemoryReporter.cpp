@@ -3562,7 +3562,7 @@ SCNu32
 SCNu64
 ;
 const
-size_t
+int
 kNumFields
 =
 3
