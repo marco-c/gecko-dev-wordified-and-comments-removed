@@ -712,6 +712,13 @@ nsString
 >
 mCurDir
 ;
+bool
+mHasHashOrNonce
+;
+nsCSPKeywordSrc
+*
+mUnsafeInlineKeywordSrc
+;
 cspTokens
 mTokens
 ;
