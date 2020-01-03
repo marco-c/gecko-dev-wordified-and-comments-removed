@@ -4815,12 +4815,6 @@ T
 )
 ;
 }
-mozilla
-:
-:
-MallocSizeOf
-debuggerMallocSizeOf
-;
 }
 ;
 namespace
