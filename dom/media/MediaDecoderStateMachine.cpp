@@ -444,13 +444,6 @@ endif
 static
 const
 uint32_t
-BUFFERING_WAIT_S
-=
-30
-;
-static
-const
-uint32_t
 LOW_AUDIO_USECS
 =
 300000
@@ -857,7 +850,12 @@ IsRealTime
 ?
 0
 :
-BUFFERING_WAIT_S
+mReader
+-
+>
+GetBufferingWait
+(
+)
 ;
 mLowDataThresholdUsecs
 =

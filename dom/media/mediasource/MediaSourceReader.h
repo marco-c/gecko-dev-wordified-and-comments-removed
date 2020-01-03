@@ -210,6 +210,16 @@ return
 0
 ;
 }
+virtual
+uint32_t
+GetBufferingWait
+(
+)
+{
+return
+0
+;
+}
 bool
 IsMediaSeekable
 (
