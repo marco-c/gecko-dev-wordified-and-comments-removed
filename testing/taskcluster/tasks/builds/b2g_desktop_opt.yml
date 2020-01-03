@@ -30,7 +30,7 @@ worker
 :
 cache
 :
-build
+workspace
 -
 b2g
 -
@@ -44,7 +44,7 @@ payload
 :
 cache
 :
-build
+workspace
 -
 b2g
 -
@@ -60,12 +60,8 @@ home
 /
 worker
 /
-object
--
-folder
+workspace
 '
-payload
-:
 env
 :
 MOZCONFIG

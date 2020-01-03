@@ -54,6 +54,8 @@ maxRunTime
 command
 :
 -
+with_workspace
+-
 build
 -
 phone

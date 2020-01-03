@@ -14,18 +14,6 @@ from
 StringIO
 import
 StringIO
-DEFAULT_OBJDIR
-=
-"
-/
-home
-/
-worker
-/
-object
--
-folder
-"
 gecko_dir
 =
 sys
@@ -97,7 +85,12 @@ None
     
 topobjdir
 =
-DEFAULT_OBJDIR
+sys
+.
+argv
+[
+2
+]
 print
 (
 topobjdir

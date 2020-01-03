@@ -30,7 +30,7 @@ worker
 :
 cache
 :
-build
+workspace
 -
 emulator
 -
@@ -73,7 +73,7 @@ payload
 :
 cache
 :
-build
+workspace
 -
 emulator
 -
@@ -86,9 +86,7 @@ home
 /
 worker
 /
-object
--
-folder
+workspace
 env
 :
 TARGET
