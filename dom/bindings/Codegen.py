@@ -73292,11 +73292,6 @@ bool
 decls
 =
 "
-bool
-result
-;
-\
-n
 "
                     
 if
