@@ -2066,7 +2066,10 @@ Get
 (
 )
 ;
-nsTArray
+std
+:
+:
+queue
 <
 nsCOMPtr
 <
@@ -2087,7 +2090,7 @@ if
 (
 microtaskQueue
 .
-IsEmpty
+empty
 (
 )
 )
@@ -2126,9 +2129,8 @@ runnable
 =
 microtaskQueue
 .
-ElementAt
+front
 (
-0
 )
 ;
 MOZ_ASSERT
@@ -2138,9 +2140,8 @@ runnable
 ;
 microtaskQueue
 .
-RemoveElementAt
+pop
 (
-0
 )
 ;
 nsresult
@@ -2193,7 +2194,7 @@ while
 !
 microtaskQueue
 .
-IsEmpty
+empty
 (
 )
 )
@@ -5301,7 +5302,10 @@ Get
 (
 )
 ;
-nsTArray
+std
+:
+:
+queue
 <
 nsCOMPtr
 <
@@ -5320,7 +5324,7 @@ GetPromiseMicroTaskQueue
 ;
 microtaskQueue
 .
-AppendElement
+push
 (
 aRunnable
 )

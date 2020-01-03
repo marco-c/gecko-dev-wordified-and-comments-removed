@@ -4216,7 +4216,10 @@ mPendingException
 aException
 ;
 }
-nsTArray
+std
+:
+:
+queue
 <
 nsCOMPtr
 <
