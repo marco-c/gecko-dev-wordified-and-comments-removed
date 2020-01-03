@@ -670,6 +670,7 @@ w3c_pointer_events
 .
 enabled
 "
+UnsafeInPrerendering
 ]
 void
 setPointerCapture
@@ -875,6 +876,9 @@ FullScreenAPI
 >
 *
 /
+[
+UnsafeInPrerendering
+]
 void
 mozRequestFullScreen
 (
@@ -937,6 +941,9 @@ html
 >
 *
 /
+[
+UnsafeInPrerendering
+]
 void
 mozRequestPointerLock
 (
