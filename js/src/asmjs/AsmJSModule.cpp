@@ -13515,6 +13515,9 @@ atEnd
 return
 true
 ;
+if
+(
+!
 parser
 .
 tokenStream
@@ -13528,6 +13531,9 @@ srcEndBeforeCurly
 (
 )
 )
+)
+return
+false
 ;
 {
 AutoFlushICache

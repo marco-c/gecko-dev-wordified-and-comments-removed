@@ -9521,6 +9521,9 @@ column
 (
 )
 ;
+if
+(
+!
 tokenStream
 .
 advance
@@ -9539,6 +9542,9 @@ end
 -
 userbufBase
 )
+)
+return
+false
 ;
 *
 pbodyProcessed
