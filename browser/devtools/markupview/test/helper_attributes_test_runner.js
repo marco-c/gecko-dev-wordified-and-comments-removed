@@ -483,12 +483,14 @@ container
 .
 editor
 .
-attrs
-[
+attrElements
+.
+get
+(
 test
 .
 name
-]
+)
 .
 querySelector
 (

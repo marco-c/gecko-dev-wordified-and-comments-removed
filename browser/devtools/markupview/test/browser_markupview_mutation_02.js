@@ -812,10 +812,12 @@ container
 .
 editor
 .
-attrs
-[
+attrElements
+.
+get
+(
 attribute
-]
+)
 "
 Attribute
 exists
