@@ -1746,6 +1746,11 @@ FrameMetrics
 ViewID
 mScrollParentID
 ;
+const
+DisplayItemClip
+*
+mAncestorClip
+;
 bool
 mNeverHasVerticalScrollbar
 :
