@@ -652,9 +652,7 @@ addFromPrincipal
 request
 .
 principal
-perm
-.
-type
+access
 Ci
 .
 nsIPermissionManager
@@ -686,9 +684,7 @@ addFromPrincipal
 request
 .
 principal
-perm
-.
-type
+access
 Ci
 .
 nsIPermissionManager
@@ -744,9 +740,7 @@ addFromPrincipal
 request
 .
 principal
-perm
-.
-type
+access
 Ci
 .
 nsIPermissionManager
