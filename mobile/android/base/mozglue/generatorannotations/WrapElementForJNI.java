@@ -98,4 +98,11 @@ narrowChars
 default
 false
 ;
+boolean
+catchException
+(
+)
+default
+false
+;
 }
