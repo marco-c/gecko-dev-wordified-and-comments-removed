@@ -2272,11 +2272,6 @@ type
 "
 checkbox
 "
-checked
-=
-"
-true
-"
 command
 =
 "
