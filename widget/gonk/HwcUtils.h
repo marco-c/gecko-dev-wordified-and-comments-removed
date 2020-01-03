@@ -122,6 +122,9 @@ aBufferRect
 RectVector
 *
 aVisibleRegionScreen
+bool
+&
+aIsVisible
 )
 ;
 static
