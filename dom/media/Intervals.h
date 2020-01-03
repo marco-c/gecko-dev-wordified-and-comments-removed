@@ -2006,9 +2006,6 @@ mIntervals
 .
 mStart
 firstEnd
-aInterval
-.
-mFuzz
 )
 ;
 ElemType
@@ -2022,9 +2019,6 @@ LastElement
 )
 .
 mEnd
-aInterval
-.
-mFuzz
 )
 ;
 SelfType
