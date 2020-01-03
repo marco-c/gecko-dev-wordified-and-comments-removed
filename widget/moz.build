@@ -689,6 +689,11 @@ TouchEvents
 h
 '
 '
+VsyncDispatcher
+.
+h
+'
+'
 WidgetUtils
 .
 h
@@ -840,6 +845,11 @@ cpp
 '
 '
 SharedWidgetUtils
+.
+cpp
+'
+'
+VsyncDispatcher
 .
 cpp
 '
