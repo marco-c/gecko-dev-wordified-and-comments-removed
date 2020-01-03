@@ -108,6 +108,11 @@ TestCustomHeap
 cpp
 '
 '
+TestGlobalClass
+.
+cpp
+'
+'
 TestMustOverride
 .
 cpp
