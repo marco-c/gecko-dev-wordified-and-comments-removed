@@ -2303,7 +2303,7 @@ sMessageLoop
 >
 set_hang_timeouts
 (
-512
+128
 8192
 )
 ;
