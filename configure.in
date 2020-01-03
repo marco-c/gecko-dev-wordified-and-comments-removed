@@ -24638,6 +24638,12 @@ AC_SUBST
 (
 MOZ_USE_PTHREADS
 )
+MOZ_CHECK_HEADERS
+(
+pthread
+.
+h
+)
 fi
 dnl
 Checks
