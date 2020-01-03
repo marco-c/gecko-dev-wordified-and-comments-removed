@@ -52,11 +52,13 @@ sstream
 >
 #
 include
-<
-assert
+"
+mozilla
+/
+Assertions
 .
 h
->
+"
 #
 include
 "
@@ -149,7 +151,7 @@ mCallback
 nullptr
 )
 {
-assert
+MOZ_ASSERT
 (
 !
 sInstance
@@ -191,7 +193,7 @@ string
 aMessage
 )
 {
-assert
+MOZ_ASSERT
 (
 sInstance
 )

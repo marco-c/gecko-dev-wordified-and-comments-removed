@@ -6,13 +6,6 @@ algorithm
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 ctype
 .
 h
@@ -209,7 +202,7 @@ mozilla
 :
 BigEndian
 ;
-assert
+MOZ_ASSERT
 (
 aIV
 .
@@ -274,7 +267,7 @@ uint8_t
 aIV
 )
 {
-assert
+MOZ_ASSERT
 (
 aIV
 .
@@ -286,7 +279,7 @@ size
 CLEARKEY_KEY_LEN
 )
 ;
-assert
+MOZ_ASSERT
 (
 aKey
 .
@@ -393,7 +386,7 @@ enc
 encLen
 )
 ;
-assert
+MOZ_ASSERT
 (
 encLen
 >

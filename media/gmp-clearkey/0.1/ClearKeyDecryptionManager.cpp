@@ -1,13 +1,6 @@
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 sstream
 >
 #
@@ -35,6 +28,15 @@ h
 include
 "
 ClearKeyUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Assertions
 .
 h
 "
@@ -442,7 +444,7 @@ GetNewSessionId
 (
 )
 ;
-assert
+MOZ_ASSERT
 (
 mSessions
 .
@@ -1005,7 +1007,7 @@ mSessions
 sessionId
 ]
 ;
-assert
+MOZ_ASSERT
 (
 session
 )
@@ -1050,7 +1052,7 @@ it
 +
 )
 {
-assert
+MOZ_ASSERT
 (
 mDecryptors
 .
@@ -1616,7 +1618,7 @@ Size
 )
 ;
 }
-assert
+MOZ_ASSERT
 (
 aMetadata
 -
