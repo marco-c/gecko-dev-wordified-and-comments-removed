@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsIDOMHTMLTableElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -67,6 +74,8 @@ final
 :
 public
 nsGenericHTMLElement
+public
+nsIDOMHTMLTableElement
 {
 public
 :

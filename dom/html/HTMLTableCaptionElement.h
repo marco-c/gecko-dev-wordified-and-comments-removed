@@ -20,6 +20,13 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLTableCaptionElem
+.
+h
+"
 namespace
 mozilla
 {
@@ -32,6 +39,8 @@ final
 :
 public
 nsGenericHTMLElement
+public
+nsIDOMHTMLTableCaptionElement
 {
 public
 :
@@ -62,6 +71,8 @@ SetHasWeirdParserInsertionMode
 )
 ;
 }
+NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIDOMHTMLTABLECAPTIONELEMENT
 void
 GetAlign
 (
