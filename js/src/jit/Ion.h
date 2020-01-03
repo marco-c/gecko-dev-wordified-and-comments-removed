@@ -768,6 +768,11 @@ JitSupportsSimd
 (
 )
 ;
+bool
+JitSupportsAtomics
+(
+)
+;
 }
 }
 #
