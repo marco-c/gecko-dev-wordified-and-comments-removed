@@ -762,6 +762,9 @@ bool
 mUsingSpdy
 ;
 bool
+mTestedSpdy
+;
+bool
 mSpdyPreferred
 ;
 bool
@@ -1392,6 +1395,9 @@ RestrictConnections
 (
 nsConnectionEntry
 *
+bool
+=
+false
 )
 ;
 nsresult
