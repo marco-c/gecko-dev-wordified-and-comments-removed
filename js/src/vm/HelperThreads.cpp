@@ -1034,7 +1034,7 @@ compartment
 )
 -
 >
-isDebuggee
+debuggerObservesAsmJS
 (
 )
 )
