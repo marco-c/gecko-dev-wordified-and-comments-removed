@@ -706,17 +706,6 @@ aNumPackets
 )
 MOZ_OVERRIDE
 ;
-virtual
-void
-EnergyInfoNotification
-(
-const
-BluetoothActivityEnergyInfo
-&
-aInfo
-)
-MOZ_OVERRIDE
-;
 protected
 :
 static
