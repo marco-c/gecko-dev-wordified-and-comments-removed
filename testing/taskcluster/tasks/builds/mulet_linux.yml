@@ -105,6 +105,12 @@ mulet
 -
 linux
 -
+{
+{
+project
+}
+}
+-
 workspace
 '
 -
@@ -144,6 +150,12 @@ build
 mulet
 -
 linux
+-
+{
+{
+project
+}
+}
 -
 workspace
 :

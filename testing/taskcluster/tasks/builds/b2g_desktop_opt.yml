@@ -39,6 +39,12 @@ cache
 :
 workspace
 -
+{
+{
+project
+}
+}
+-
 b2g
 -
 desktop
@@ -99,6 +105,12 @@ payload
 cache
 :
 workspace
+-
+{
+{
+project
+}
+}
 -
 b2g
 -
