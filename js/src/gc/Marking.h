@@ -282,6 +282,17 @@ shape
 )
 ;
 void
+MarkCycleCollectorChildren
+(
+JSTracer
+*
+trc
+ObjectGroup
+*
+group
+)
+;
+void
 PushArena
 (
 GCMarker
