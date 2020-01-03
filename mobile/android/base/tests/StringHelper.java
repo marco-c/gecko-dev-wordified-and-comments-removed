@@ -442,6 +442,17 @@ public
 static
 final
 String
+CONTEXT_MENU_UNPIN_SITE
+=
+"
+Unpin
+Site
+"
+;
+public
+static
+final
+String
 [
 ]
 CONTEXT_MENU_ITEMS_IN_PRIVATE_TAB
