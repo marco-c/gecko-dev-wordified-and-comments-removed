@@ -5088,7 +5088,7 @@ FormatUsageInfo
 FormatUsageAuthority
 :
 :
-GetInfo
+GetUsage
 (
 EffectiveFormat
 format
@@ -5228,7 +5228,7 @@ FormatUsageInfo
 *
 usage
 =
-GetInfo
+GetUsage
 (
 effectiveFormat
 )

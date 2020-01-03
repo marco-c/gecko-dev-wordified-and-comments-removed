@@ -443,7 +443,7 @@ effectiveFormat
 ;
 FormatUsageInfo
 *
-GetInfo
+GetUsage
 (
 EffectiveFormat
 format
@@ -451,7 +451,7 @@ format
 ;
 FormatUsageInfo
 *
-GetInfo
+GetUsage
 (
 const
 FormatInfo
@@ -460,7 +460,7 @@ format
 )
 {
 return
-GetInfo
+GetUsage
 (
 format
 -
