@@ -531,8 +531,6 @@ toFloat64Array
 (
 )
 ;
-stringifier
-;
 }
 ;
 [
