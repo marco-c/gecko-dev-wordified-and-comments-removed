@@ -7,6 +7,13 @@ nsTablePainter_h__
 #
 include
 "
+imgIContainer
+.
+h
+"
+#
+include
+"
 celldata
 .
 h
@@ -37,6 +44,16 @@ nsTableCellFrame
 class
 TableBackgroundPainter
 {
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 public
 :
 enum
@@ -77,7 +94,7 @@ TableBackgroundPainter
 (
 )
 ;
-void
+DrawResult
 PaintTable
 (
 nsTableFrame
@@ -91,7 +108,7 @@ bool
 aPaintTableBackground
 )
 ;
-void
+DrawResult
 PaintRowGroup
 (
 nsTableRowGroupFrame
@@ -99,7 +116,7 @@ nsTableRowGroupFrame
 aFrame
 )
 ;
-void
+DrawResult
 PaintRow
 (
 nsTableRowFrame
@@ -112,7 +129,7 @@ private
 struct
 TableBackgroundData
 ;
-void
+DrawResult
 PaintTableFrame
 (
 nsTableFrame
@@ -130,7 +147,7 @@ nsMargin
 aDeflate
 )
 ;
-void
+DrawResult
 PaintRowGroup
 (
 nsTableRowGroupFrame
@@ -142,7 +159,7 @@ bool
 aPassThrough
 )
 ;
-void
+DrawResult
 PaintRow
 (
 nsTableRowFrame
@@ -158,7 +175,7 @@ bool
 aPassThrough
 )
 ;
-void
+DrawResult
 PaintCell
 (
 nsTableCellFrame
