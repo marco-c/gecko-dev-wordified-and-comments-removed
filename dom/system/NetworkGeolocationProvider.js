@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Components
 .
 utils
@@ -1633,8 +1638,6 @@ dropping
 }
 }
 ;
-try
-{
 Services
 .
 obs
@@ -1647,7 +1650,7 @@ false
 )
 ;
 let
-settings
+settingsService
 =
 Cc
 [
@@ -1661,6 +1664,16 @@ settingsService
 1
 "
 ]
+;
+if
+(
+settingsService
+)
+{
+let
+settings
+=
+settingsService
 .
 getService
 (
@@ -1693,12 +1706,6 @@ SETTINGS_DEBUG_ENABLED
 settingsCallback
 )
 ;
-}
-catch
-(
-ex
-)
-{
 }
 if
 (
@@ -2738,7 +2745,7 @@ function
 LOG
 (
 "
-gls
+server
 returned
 status
 :
