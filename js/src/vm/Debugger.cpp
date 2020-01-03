@@ -32547,6 +32547,11 @@ setCompileAndGo
 true
 )
 .
+setHasPollutedScope
+(
+true
+)
+.
 setForEval
 (
 true
