@@ -6160,6 +6160,13 @@ onstksessionend
 )
 GK_ATOM
 (
+onstorageareachanged
+"
+onstorageareachanged
+"
+)
+GK_ATOM
+(
 onsubmit
 "
 onsubmit
