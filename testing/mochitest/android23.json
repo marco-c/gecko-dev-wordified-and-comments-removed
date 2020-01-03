@@ -11,13 +11,6 @@ excludetests
 :
 {
 "
-robocop
-"
-:
-"
-TIMED_OUT
-"
-"
 dom
 /
 html

@@ -34,12 +34,5 @@ mochitest
 -
 gl
 "
-"
-robocop
-"
-:
-"
-TIMED_OUT
-"
 }
 }
