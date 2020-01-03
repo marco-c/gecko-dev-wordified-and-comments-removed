@@ -657,6 +657,10 @@ data
 let
 referer
 =
+payload
+.
+referer
+?
 Services
 .
 io
@@ -669,6 +673,8 @@ referer
 null
 null
 )
+:
+null
 ;
 switch
 (
