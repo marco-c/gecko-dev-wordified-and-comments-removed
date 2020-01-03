@@ -7320,6 +7320,15 @@ mBStartEdge
 lineBSize
 )
 ;
+mFinalLineBSize
+=
+lineBSize
+;
+if
+(
+mGotLineBox
+)
+{
 mLineBox
 -
 >
@@ -7343,10 +7352,6 @@ mIStart
 lineBSize
 mContainerWidth
 )
-;
-mFinalLineBSize
-=
-lineBSize
 ;
 mLineBox
 -
@@ -7454,6 +7459,7 @@ GetLogicalAscent
 ;
 #
 endif
+}
 }
 void
 nsLineLayout
@@ -10370,6 +10376,10 @@ mHasBullet
 bool
 isLastLine
 =
+!
+mGotLineBox
+|
+|
 (
 !
 mLineBox
