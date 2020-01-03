@@ -1239,6 +1239,13 @@ CodeAlignment
 ;
 static
 const
+uint32_t
+JitStackAlignment
+=
+8
+;
+static
+const
 bool
 SupportsSimd
 =

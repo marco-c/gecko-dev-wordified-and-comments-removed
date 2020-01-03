@@ -1788,6 +1788,17 @@ scratchReg
 }
 masm
 .
+assertStackAlignment
+(
+JitStackAlignment
+sizeof
+(
+uintptr_t
+)
+)
+;
+masm
+.
 ma_callJitHalfPush
 (
 reg_code
