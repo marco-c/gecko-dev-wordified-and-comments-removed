@@ -1360,11 +1360,6 @@ Location
 webidl
 '
 '
-MediaDeviceInfo
-.
-webidl
-'
-'
 MediaDevices
 .
 webidl

@@ -93,10 +93,6 @@ protocol
 PVsync
 ;
 include
-protocol
-PMedia
-;
-include
 DOMTypes
 ;
 include
@@ -182,9 +178,6 @@ PFileDescriptorSet
 manages
 PVsync
 ;
-manages
-PMedia
-;
 parent
 :
 /
@@ -214,10 +207,6 @@ loggingInfo
 )
 ;
 PVsync
-(
-)
-;
-PMedia
 (
 )
 ;
