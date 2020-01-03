@@ -55,10 +55,6 @@ DocAccessibleParent
 aDoc
 role
 aRole
-const
-nsString
-&
-aName
 )
 :
 mParent
@@ -80,10 +76,6 @@ aRole
 mOuterDoc
 (
 false
-)
-mName
-(
-aName
 )
 {
 MOZ_COUNT_CTOR
@@ -191,6 +183,15 @@ State
 )
 const
 ;
+void
+Name
+(
+nsString
+&
+aName
+)
+const
+;
 uintptr_t
 GetWrapper
 (
@@ -286,9 +287,6 @@ bool
 mOuterDoc
 :
 1
-;
-nsString
-mName
 ;
 }
 ;

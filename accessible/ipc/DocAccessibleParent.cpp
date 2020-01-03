@@ -375,11 +375,6 @@ ID
 aParent
 this
 role
-newChild
-.
-Name
-(
-)
 )
 ;
 aParent
