@@ -70,6 +70,11 @@ Attributes
 h
 "
 #
+ifdef
+MOZ_LOGGING
+#
+endif
+#
 include
 "
 prlog

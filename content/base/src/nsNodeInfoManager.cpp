@@ -155,6 +155,15 @@ dom
 NodeInfo
 ;
 #
+ifdef
+MOZ_LOGGING
+#
+define
+FORCE_PR_LOG
+1
+#
+endif
+#
 include
 "
 prlog

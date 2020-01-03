@@ -17,6 +17,14 @@ MathAlgorithms
 h
 "
 #
+ifdef
+MOZ_LOGGING
+#
+define
+FORCE_PR_LOG
+#
+endif
+#
 include
 "
 prlog

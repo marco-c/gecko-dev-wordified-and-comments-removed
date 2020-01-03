@@ -13,6 +13,17 @@ PACKAGE_TYPE_NTLM
 }
 ;
 #
+if
+defined
+(
+MOZ_LOGGING
+)
+#
+define
+FORCE_PR_LOG
+#
+endif
+#
 include
 "
 prlog

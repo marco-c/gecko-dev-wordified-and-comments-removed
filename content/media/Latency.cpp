@@ -1,4 +1,7 @@
 #
+define
+FORCE_PR_LOG
+#
 include
 "
 Latency
