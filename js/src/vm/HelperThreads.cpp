@@ -4961,10 +4961,7 @@ AutoTraceLog
 logCompile
 (
 logger
-TraceLogger
-:
-:
-IonCompilation
+TraceLogger_IonCompilation
 )
 ;
 JSRuntime
@@ -5297,10 +5294,7 @@ AutoTraceLog
 logPaused
 (
 logger
-TraceLogger
-:
-:
-IonCompilationPaused
+TraceLogger_IonCompilationPaused
 )
 ;
 HelperThread

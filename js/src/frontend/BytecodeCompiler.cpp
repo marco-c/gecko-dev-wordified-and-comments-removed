@@ -1190,10 +1190,7 @@ AutoTraceLog
 typeLogger
 (
 logger
-TraceLogger
-:
-:
-ParserCompileScript
+TraceLogger_ParserCompileScript
 )
 ;
 MOZ_ASSERT_IF
@@ -2528,10 +2525,7 @@ AutoTraceLog
 typeLogger
 (
 logger
-TraceLogger
-:
-:
-ParserCompileLazy
+TraceLogger_ParserCompileLazy
 )
 ;
 Parser
@@ -2913,10 +2907,7 @@ AutoTraceLog
 typeLogger
 (
 logger
-TraceLogger
-:
-:
-ParserCompileFunction
+TraceLogger_ParserCompileFunction
 )
 ;
 if
