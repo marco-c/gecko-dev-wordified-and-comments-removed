@@ -251,6 +251,11 @@ aPresContext
 nsRenderingContext
 *
 aRC
+mozilla
+:
+:
+WritingMode
+aWM
 )
 =
 0
