@@ -1054,7 +1054,9 @@ addEnvironment
 |
 false
 ;
-return
+const
+testOnly
+=
 Impl
 .
 submitExternalPing
@@ -1063,6 +1065,9 @@ aType
 aPayload
 aOptions
 )
+;
+return
+testOnly
 ;
 }
 getCurrentPingData
