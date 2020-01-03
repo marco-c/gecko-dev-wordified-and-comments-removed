@@ -1465,6 +1465,9 @@ CreateFromFile
 (
 aWindow
 aFile
+aBag
+.
+mTemporary
 )
 ;
 uint64_t
