@@ -209,8 +209,8 @@ ExpectMoreAudioData
 (
 )
 ;
-void
-WaitForAudioToPlay
+bool
+WaitingForAudioToPlay
 (
 )
 ;
