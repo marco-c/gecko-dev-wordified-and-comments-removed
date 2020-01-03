@@ -7853,13 +7853,6 @@ blockIndex
 endIndex
 )
 {
-MOZ_ASSERT
-(
-endIndex
->
-0
-)
-;
 int32_t
 cacheBlockIndex
 =
