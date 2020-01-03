@@ -504,6 +504,17 @@ mozbuild
 /
 test
 /
+test_dotproperties
+.
+py
+'
+'
+mozbuild
+/
+mozbuild
+/
+test
+/
 test_expression
 .
 py
