@@ -8,6 +8,9 @@ class
 SyncProfile
 ;
 class
+JSStreamWriter
+;
+class
 ProfilerBacktrace
 {
 public
