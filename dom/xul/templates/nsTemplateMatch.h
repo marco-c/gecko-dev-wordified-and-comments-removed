@@ -7,6 +7,15 @@ nsTemplateMatch_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -270,6 +279,7 @@ nsTemplateMatch
 &
 aMatch
 )
+MOZ_DELETE
 ;
 void
 operator
@@ -280,6 +290,7 @@ nsTemplateMatch
 &
 aMatch
 )
+MOZ_DELETE
 ;
 }
 ;
