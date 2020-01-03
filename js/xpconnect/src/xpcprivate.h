@@ -6126,14 +6126,6 @@ GET_IT
 WANT_ADDPROPERTY
 )
 bool
-WantDelProperty
-(
-)
-GET_IT
-(
-WANT_DELPROPERTY
-)
-bool
 WantGetProperty
 (
 )
