@@ -4736,6 +4736,12 @@ case
 nsIGfxInfo
 :
 :
+FEATURE_BLOCKED_MISMATCHED_VERSION
+:
+case
+nsIGfxInfo
+:
+:
 FEATURE_BLOCKED_DEVICE
 :
 case
