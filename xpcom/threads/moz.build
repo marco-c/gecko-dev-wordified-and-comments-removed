@@ -215,6 +215,11 @@ LazyIdleThread
 h
 '
 '
+MozPromise
+.
+h
+'
+'
 SharedThreadPool
 .
 h

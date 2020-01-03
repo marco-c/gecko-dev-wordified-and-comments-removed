@@ -828,11 +828,6 @@ MediaManager
 h
 '
 '
-MozPromise
-.
-h
-'
-'
 StateMirroring
 .
 h
