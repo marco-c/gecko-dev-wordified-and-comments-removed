@@ -723,6 +723,11 @@ widget
 =
 [
 '
+IMEData
+.
+h
+'
+'
 PuppetBidiKeyboard
 .
 h
