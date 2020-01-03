@@ -4444,7 +4444,7 @@ Ci
 .
 nsITimer
 .
-TYPE_ONESHOT
+TYPE_ONE_SHOT
 )
 ;
 }
@@ -5163,7 +5163,7 @@ Ci
 .
 nsITimer
 .
-TYPE_ONESHOT
+TYPE_ONE_SHOT
 )
 ;
 }
@@ -5246,7 +5246,7 @@ Ci
 .
 nsITimer
 .
-TYPE_ONESHOT
+TYPE_ONE_SHOT
 )
 ;
 }
@@ -5659,7 +5659,7 @@ Ci
 .
 nsITimer
 .
-TYPE_ONESHOT
+TYPE_ONE_SHOT
 )
 ;
 }
