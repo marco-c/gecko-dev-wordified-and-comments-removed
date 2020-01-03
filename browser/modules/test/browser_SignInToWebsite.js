@@ -1944,15 +1944,6 @@ opened
 "
 )
 ;
-ok
-(
-authWin
-.
-contentWindow
-.
-location
-)
-;
 }
 )
 ;
