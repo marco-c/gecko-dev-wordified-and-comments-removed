@@ -29,6 +29,11 @@ SimdValueX4
 \
 _
 (
+SimdSplatX4
+)
+\
+_
+(
 SimdConstant
 )
 \

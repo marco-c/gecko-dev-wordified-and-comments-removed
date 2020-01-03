@@ -58,6 +58,11 @@ SimdValueX4
 \
 _
 (
+SimdSplatX4
+)
+\
+_
+(
 Int32x4
 )
 \

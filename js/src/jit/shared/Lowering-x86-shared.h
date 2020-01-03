@@ -318,6 +318,14 @@ MForkJoinGetSlice
 ins
 )
 ;
+bool
+visitSimdSplatX4
+(
+MSimdSplatX4
+*
+ins
+)
+;
 }
 ;
 }
