@@ -240,6 +240,11 @@ RemotePrompt
 jsm
 '
 '
+SelfSupportBackend
+.
+jsm
+'
+'
 SitePermissions
 .
 jsm
