@@ -2025,6 +2025,13 @@ UnpinForSeek
 (
 )
 ;
+const
+char
+*
+PlayStateStr
+(
+)
+;
 MediaDecoderOwner
 *
 mOwner
