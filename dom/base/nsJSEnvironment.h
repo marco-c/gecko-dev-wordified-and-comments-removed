@@ -591,11 +591,6 @@ Value
 aArgv
 )
 ;
-void
-ReportPendingException
-(
-)
-;
 private
 :
 void
