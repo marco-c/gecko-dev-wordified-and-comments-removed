@@ -743,6 +743,11 @@ child
 null
 )
 {
+resetTransforms
+(
+child
+)
+;
 mTabLocations
 .
 append
