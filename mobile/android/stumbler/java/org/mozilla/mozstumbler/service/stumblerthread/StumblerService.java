@@ -14,6 +14,13 @@ android
 .
 content
 .
+Context
+;
+import
+android
+.
+content
+.
 Intent
 ;
 import
@@ -121,23 +128,6 @@ stumblerthread
 scanners
 .
 ScanManager
-;
-import
-org
-.
-mozilla
-.
-mozstumbler
-.
-service
-.
-stumblerthread
-.
-scanners
-.
-cellscanner
-.
-CellScanner
 ;
 import
 org
@@ -404,6 +394,8 @@ public
 Prefs
 getPrefs
 (
+Context
+c
 )
 {
 return
@@ -411,6 +403,7 @@ Prefs
 .
 getInstance
 (
+c
 )
 ;
 }
@@ -561,7 +554,7 @@ init
 {
 Prefs
 .
-createGlobalInstance
+getInstance
 (
 this
 )
@@ -688,6 +681,9 @@ Prefs
 .
 getInstance
 (
+StumblerService
+.
+this
 )
 .
 setFirefoxScanEnabled
@@ -822,6 +818,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 getFirefoxScanEnabled
@@ -899,6 +896,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 getLastAttemptedUploadTime
@@ -953,6 +951,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 setLastAttemptedUploadTime
@@ -981,6 +980,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 setFirefoxScanEnabled
@@ -1016,6 +1016,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 getMozApiKey
@@ -1028,6 +1029,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 setMozApiKey
@@ -1063,6 +1065,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 getUserAgent
@@ -1075,6 +1078,7 @@ Prefs
 .
 getInstance
 (
+this
 )
 .
 setUserAgent
