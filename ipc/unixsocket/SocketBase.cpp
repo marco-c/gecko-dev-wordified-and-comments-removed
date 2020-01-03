@@ -326,11 +326,11 @@ return
 res
 ;
 }
-SocketConsumerBase
+SocketBase
 :
 :
 ~
-SocketConsumerBase
+SocketBase
 (
 )
 {
@@ -344,7 +344,7 @@ SOCKET_DISCONNECTED
 ;
 }
 SocketConnectionStatus
-SocketConsumerBase
+SocketBase
 :
 :
 GetConnectionStatus
@@ -364,7 +364,7 @@ mConnectionStatus
 ;
 }
 int
-SocketConsumerBase
+SocketBase
 :
 :
 GetSuggestedConnectDelayMs
@@ -384,7 +384,7 @@ mConnectDelayMs
 ;
 }
 void
-SocketConsumerBase
+SocketBase
 :
 :
 NotifySuccess
@@ -414,7 +414,7 @@ OnConnectSuccess
 ;
 }
 void
-SocketConsumerBase
+SocketBase
 :
 :
 NotifyError
@@ -448,7 +448,7 @@ OnConnectError
 ;
 }
 void
-SocketConsumerBase
+SocketBase
 :
 :
 NotifyDisconnect
@@ -482,7 +482,7 @@ OnDisconnect
 ;
 }
 uint32_t
-SocketConsumerBase
+SocketBase
 :
 :
 CalculateConnectDelayMs
@@ -562,10 +562,10 @@ return
 connectDelayMs
 ;
 }
-SocketConsumerBase
+SocketBase
 :
 :
-SocketConsumerBase
+SocketBase
 (
 )
 :
@@ -584,7 +584,7 @@ mConnectDelayMs
 {
 }
 void
-SocketConsumerBase
+SocketBase
 :
 :
 SetConnectionStatus
@@ -597,6 +597,15 @@ mConnectionStatus
 =
 aConnectionStatus
 ;
+}
+SocketConsumerBase
+:
+:
+~
+SocketConsumerBase
+(
+)
+{
 }
 SocketIOBase
 :
