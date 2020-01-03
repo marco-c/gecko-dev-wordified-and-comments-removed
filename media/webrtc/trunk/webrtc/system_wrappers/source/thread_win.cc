@@ -1022,7 +1022,7 @@ if
 hwnd_
 =
 =
-nullptr
+NULL
 )
 {
 WNDCLASSW
@@ -1033,7 +1033,7 @@ hModule
 =
 GetModuleHandle
 (
-nullptr
+NULL
 )
 ;
 if
@@ -1096,10 +1096,10 @@ L
 0
 0
 0
-nullptr
-nullptr
+NULL
+NULL
 hModule
-nullptr
+NULL
 )
 ;
 assert
@@ -1183,7 +1183,7 @@ SetTimer
 hwnd_
 kTimerId
 milliseconds
-nullptr
+NULL
 )
 ;
 return
