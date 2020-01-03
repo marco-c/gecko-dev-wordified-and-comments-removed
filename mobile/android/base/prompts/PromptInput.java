@@ -1264,6 +1264,15 @@ HH
 mm
 "
 mValue
+.
+replace
+(
+"
+T
+"
+"
+"
+)
 DateTimePicker
 .
 PickersState
@@ -1589,6 +1598,9 @@ yyyy
 MM
 -
 dd
+'
+T
+'
 HH
 :
 mm
