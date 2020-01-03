@@ -4755,6 +4755,12 @@ _getPrefData
 )
 }
 ;
+this
+.
+_updateSearchEngine
+(
+)
+;
 }
 _updateProfile
 :
