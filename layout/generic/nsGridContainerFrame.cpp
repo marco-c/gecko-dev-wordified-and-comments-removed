@@ -1819,7 +1819,7 @@ ImplicitNamedAreasProperty
 ;
 }
 }
-uint32_t
+int32_t
 nsGridContainerFrame
 :
 :
@@ -1875,7 +1875,7 @@ IsAuto
 )
 )
 ;
-uint32_t
+int32_t
 line
 =
 0
@@ -2486,7 +2486,7 @@ end
 )
 ;
 }
-uint32_t
+int32_t
 start
 =
 0
@@ -2646,7 +2646,7 @@ std
 :
 max
 (
-1U
+1
 end
 -
 1
@@ -2936,7 +2936,7 @@ LineRange
 )
 ;
 }
-uint32_t
+int32_t
 end
 =
 ResolveLine
@@ -2994,8 +2994,11 @@ LineRange
 clamped
 (
 end
-1U
+1
+int32_t
+(
 aGridEnd
+)
 )
 )
 ;
@@ -3009,7 +3012,7 @@ IsAuto
 )
 )
 {
-uint32_t
+int32_t
 start
 =
 ResolveLine
@@ -3067,10 +3070,7 @@ int32_t
 aGridEnd
 )
 -
-int32_t
-(
 start
-)
 1
 )
 ;
@@ -3081,8 +3081,11 @@ LineRange
 clamped
 (
 start
-1U
+1
+int32_t
+(
 aGridEnd
+)
 )
 0
 )
@@ -3132,8 +3135,11 @@ clamped
 r
 .
 mStart
-1U
+1
+int32_t
+(
 aGridEnd
+)
 )
 ;
 r
@@ -3145,8 +3151,11 @@ clamped
 r
 .
 mEnd
-1U
+1
+int32_t
+(
 aGridEnd
+)
 )
 ;
 MOZ_ASSERT
@@ -4797,7 +4806,10 @@ minor
 .
 mStart
 <
+int32_t
+(
 cursorMinor
+)
 )
 {
 +
