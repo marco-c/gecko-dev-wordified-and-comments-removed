@@ -11493,6 +11493,12 @@ alpha
 format
 .
 alpha
+|
+|
+!
+caps
+.
+alpha
 )
 ;
 MOZ_ASSERT
