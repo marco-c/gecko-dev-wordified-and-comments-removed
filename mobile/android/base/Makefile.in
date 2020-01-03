@@ -1488,6 +1488,9 @@ gecko
 browser
 .
 jar
+constants
+.
+jar
 gecko
 -
 mozglue
@@ -1601,9 +1604,7 @@ JAVA
 )
 -
 classpath
-gecko
--
-mozglue
+constants
 .
 jar
 :
