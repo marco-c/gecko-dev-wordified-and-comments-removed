@@ -229,6 +229,7 @@ DATA
 CERT_TimeChoiceTemplate
 DATA
 CERT_VerifyCertificate
+CERT_VerifyCertName
 CERT_VerifySignedDataWithPublicKeyInfo
 DER_AsciiToTime_Util
 DER_DecodeTimeChoice_Util
