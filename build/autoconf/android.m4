@@ -244,6 +244,7 @@ target
 in
 arm
 -
+*
 linux
 *
 -
