@@ -2016,7 +2016,6 @@ Translate
 (
 wm
 oPt
-mContainerWidth
 )
 ;
 if
@@ -2320,7 +2319,6 @@ Untranslate
 (
 oldWM
 oPt
-mContainerWidth
 )
 ;
 }
@@ -3064,7 +3062,6 @@ Translate
 (
 wm
 oPt
-mContainerWidth
 )
 ;
 mBCoord
@@ -4548,7 +4545,6 @@ Untranslate
 (
 oldWM
 oPt
-mContainerWidth
 )
 ;
 return

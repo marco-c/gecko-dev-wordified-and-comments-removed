@@ -1318,7 +1318,6 @@ Translate
 (
 mWritingMode
 tPt
-mContainerWidth
 )
 ;
 mFrame
@@ -1341,7 +1340,6 @@ Untranslate
 (
 oldWM
 tPt
-mContainerWidth
 )
 ;
 #
