@@ -2883,17 +2883,6 @@ true
 postData
 :
 postData
-allowPopups
-:
-url
-.
-startsWith
-(
-"
-javascript
-:
-"
-)
 }
 )
 ;
@@ -18381,6 +18370,9 @@ getter
 CDATA
 [
 return
+!
+!
+(
 this
 .
 notification
@@ -18394,6 +18386,7 @@ Ci
 nsIWebProgressListener
 .
 STATE_BLOCKED_TRACKING_CONTENT
+)
 ;
 ]
 ]
