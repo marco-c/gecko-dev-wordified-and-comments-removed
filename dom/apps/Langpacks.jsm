@@ -396,11 +396,11 @@ lang
 push
 (
 {
-version
+revision
 :
 current
 .
-version
+revision
 name
 :
 current
@@ -1076,7 +1076,7 @@ if
 !
 item
 .
-version
+revision
 )
 {
 debug
@@ -1086,7 +1086,7 @@ Error
 :
 missing
 '
-version
+revision
 '
 in
 languages
@@ -1107,7 +1107,7 @@ if
 typeof
 item
 .
-version
+revision
 !
 =
 =
@@ -1131,7 +1131,7 @@ lang
 +
 "
 .
-version
+revision
 must
 be
 a
@@ -1145,7 +1145,7 @@ a
 typeof
 item
 .
-version
+revision
 )
 )
 ;
@@ -1453,11 +1453,11 @@ lang
 ]
 ;
 let
-version
+revision
 =
 item
 .
-version
+revision
 ;
 let
 name
@@ -1521,9 +1521,9 @@ langs
 lang
 ]
 .
-version
+revision
 >
-version
+revision
 )
 {
 if
@@ -1573,9 +1573,9 @@ lang
 ]
 =
 {
-version
+revision
 :
-version
+revision
 target
 :
 platformVersion
