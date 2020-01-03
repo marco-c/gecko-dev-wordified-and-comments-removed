@@ -187,6 +187,8 @@ Music
 mkdir
 Videos
 ;
+mkdir
+artifacts
 hg
 clone
 http
