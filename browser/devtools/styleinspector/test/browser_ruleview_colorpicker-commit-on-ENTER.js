@@ -197,6 +197,7 @@ onShown
 yield
 simulateColorPickerChange
 (
+ruleView
 cPicker
 [
 0

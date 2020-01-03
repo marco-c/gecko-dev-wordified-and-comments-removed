@@ -376,6 +376,7 @@ colors
 yield
 simulateColorPickerChange
 (
+ruleView
 picker
 rgba
 {
@@ -596,6 +597,7 @@ colors
 yield
 simulateColorPickerChange
 (
+ruleView
 picker
 rgba
 {
@@ -846,6 +848,7 @@ colors
 yield
 simulateColorPickerChange
 (
+ruleView
 picker
 rgba
 {
