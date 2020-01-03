@@ -346,7 +346,7 @@ h
 #
 include
 "
-DriverInitCrashDetection
+DriverCrashGuard
 .
 h
 "
@@ -9929,7 +9929,7 @@ mAcceleration
 return
 ;
 }
-DriverInitCrashDetection
+DriverCrashGuard
 detectCrashes
 ;
 if
