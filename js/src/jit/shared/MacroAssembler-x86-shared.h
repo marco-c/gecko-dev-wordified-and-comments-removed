@@ -6681,6 +6681,14 @@ offset
 void
 callWithExitFrame
 (
+Label
+*
+target
+)
+;
+void
+callWithExitFrame
+(
 JitCode
 *
 target
