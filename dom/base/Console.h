@@ -27,15 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-JSObjectHolder
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -90,6 +81,9 @@ nsIPrincipal
 ;
 class
 nsIProfiler
+;
+class
+nsIXPConnectJSObjectHolder
 ;
 namespace
 mozilla
@@ -797,7 +791,7 @@ MethodName
 aMethodName
 )
 ;
-JSObject
+nsIXPConnectJSObjectHolder
 *
 GetOrCreateSandbox
 (
@@ -821,9 +815,9 @@ nsIConsoleAPIStorage
 >
 mStorage
 ;
-nsRefPtr
+nsCOMPtr
 <
-JSObjectHolder
+nsIXPConnectJSObjectHolder
 >
 mSandbox
 ;
