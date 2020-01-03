@@ -1037,6 +1037,14 @@ wm
 IsVertical
 (
 )
+&
+&
+!
+wm
+.
+IsSideways
+(
+)
 )
 {
 orientation
