@@ -608,7 +608,7 @@ return
 true
 ;
 }
-bool
+void
 addArrayElement
 (
 Node
@@ -617,9 +617,6 @@ Node
 element
 )
 {
-return
-true
-;
 }
 Node
 newObjectLiteral
