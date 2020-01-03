@@ -98,6 +98,11 @@ SimdBinaryArithFx4
 \
 _
 (
+SimdBinaryBitwiseX4
+)
+\
+_
+(
 Value
 )
 \

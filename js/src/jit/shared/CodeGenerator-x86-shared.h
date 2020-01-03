@@ -1323,6 +1323,14 @@ lir
 )
 ;
 bool
+visitSimdBinaryBitwiseX4
+(
+LSimdBinaryBitwiseX4
+*
+lir
+)
+;
+bool
 visitOutOfLineBailout
 (
 OutOfLineBailout
