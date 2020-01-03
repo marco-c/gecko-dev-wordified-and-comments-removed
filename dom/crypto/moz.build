@@ -187,14 +187,6 @@ manager
 /
 ssl
 '
-'
-/
-security
-/
-pkix
-/
-include
-'
 ]
 MOCHITEST_MANIFESTS
 +
