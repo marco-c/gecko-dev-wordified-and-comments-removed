@@ -585,7 +585,7 @@ script
 MarkExactStackRootList
 <
 jsid
-MarkIdRoot
+TraceRoot
 >
 (
 trc
@@ -745,10 +745,7 @@ tag_
 IDARRAY
 )
 ;
-gc
-:
-:
-MarkIdRange
+TraceRange
 (
 trc
 idArray
@@ -758,7 +755,9 @@ length
 idArray
 -
 >
-vector
+begin
+(
+)
 "
 JSAutoIdArray
 .
@@ -818,7 +817,7 @@ this
 >
 idArray
 ;
-MarkIdRange
+TraceRange
 (
 trc
 ida
@@ -828,7 +827,9 @@ length
 ida
 -
 >
-vector
+begin
+(
+)
 "
 JS
 :
@@ -972,7 +973,7 @@ this
 >
 vector
 ;
-MarkIdRootRange
+TraceRootRange
 (
 trc
 vector
@@ -1041,7 +1042,7 @@ i
 +
 )
 {
-MarkIdRoot
+TraceRoot
 (
 trc
 &
@@ -2232,7 +2233,7 @@ base
 "
 )
 ;
-MarkIdRoot
+TraceRoot
 (
 trc
 (
@@ -2750,7 +2751,7 @@ jsid
 :
 markChain
 <
-MarkIdRoot
+TraceRoot
 >
 (
 trc

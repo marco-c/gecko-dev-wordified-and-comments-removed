@@ -6785,10 +6785,7 @@ vp
 "
 )
 ;
-gc
-:
-:
-MarkIdRoot
+TraceRoot
 (
 trc
 oolgetter
@@ -6911,10 +6908,7 @@ vp
 "
 )
 ;
-gc
-:
-:
-MarkIdRoot
+TraceRoot
 (
 trc
 oolproxy
