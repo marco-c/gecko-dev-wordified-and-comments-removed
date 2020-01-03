@@ -67,6 +67,7 @@ nsRenderingContext
 )
 {
 }
+explicit
 nsRenderingContext
 (
 gfxContext
@@ -80,6 +81,7 @@ aThebesContext
 )
 {
 }
+explicit
 nsRenderingContext
 (
 already_AddRefed
@@ -97,6 +99,7 @@ aThebesContext
 )
 {
 }
+explicit
 nsRenderingContext
 (
 DrawTarget

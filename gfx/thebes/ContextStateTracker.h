@@ -76,6 +76,7 @@ ContextState
 {
 public
 :
+explicit
 ContextState
 (
 const

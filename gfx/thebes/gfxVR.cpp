@@ -780,6 +780,7 @@ nsIScreen
 {
 public
 :
+explicit
 FakeScreen
 (
 const
@@ -1083,6 +1084,7 @@ VRHMDManagerOculusImpl
 ;
 public
 :
+explicit
 HMDInfoOculus
 (
 ovrHmd

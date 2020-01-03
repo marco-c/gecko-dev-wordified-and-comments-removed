@@ -2020,6 +2020,7 @@ mLockedBits
 ;
 public
 :
+explicit
 AutoLockBits
 (
 gfx

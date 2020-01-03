@@ -744,6 +744,7 @@ LogForwarder
 {
 public
 :
+explicit
 CrashStatsLogForwarder
 (
 const

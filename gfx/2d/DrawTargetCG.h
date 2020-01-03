@@ -399,6 +399,7 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 GlyphRenderingOptionsCG
 )
+explicit
 GlyphRenderingOptionsCG
 (
 const

@@ -361,6 +361,7 @@ nsRunnable
 {
 public
 :
+explicit
 DecodeWorker
 (
 RasterImage
