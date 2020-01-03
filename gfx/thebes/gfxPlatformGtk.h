@@ -296,6 +296,12 @@ GetDPI
 (
 )
 ;
+static
+double
+GetDPIScale
+(
+)
+;
 bool
 UseXRender
 (
