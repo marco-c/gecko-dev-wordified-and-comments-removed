@@ -6633,6 +6633,9 @@ Expression
 Statement
 Arrow
 Method
+ClassConstructor
+Getter
+Setter
 }
 ;
 static
