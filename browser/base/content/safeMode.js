@@ -303,13 +303,6 @@ resetSupported
 )
 )
 {
-populateResetPane
-(
-"
-resetProfileItems
-"
-)
-;
 document
 .
 getElementById
