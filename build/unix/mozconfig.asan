@@ -75,10 +75,6 @@ ASANFLAGS
 =
 "
 -
-fsanitize
-=
-address
--
 Dxmalloc
 =
 myxmalloc
@@ -96,15 +92,6 @@ CXXFLAGS
 =
 "
 ASANFLAGS
-"
-export
-LDFLAGS
-=
-"
--
-fsanitize
-=
-address
 "
 #
 Enable
