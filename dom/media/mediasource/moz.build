@@ -147,6 +147,11 @@ MediaSourceUtils
 cpp
 '
 '
+ResourceQueue
+.
+cpp
+'
+'
 SourceBuffer
 .
 cpp
