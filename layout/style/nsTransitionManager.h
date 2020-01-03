@@ -342,10 +342,7 @@ aProperty
 )
 ;
 }
-already_AddRefed
-<
-nsIStyleRule
->
+void
 StyleContextChanged
 (
 mozilla
@@ -360,7 +357,10 @@ aElement
 nsStyleContext
 *
 aOldStyleContext
+nsRefPtr
+<
 nsStyleContext
+>
 *
 aNewStyleContext
 )
