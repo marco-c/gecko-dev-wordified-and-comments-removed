@@ -156,8 +156,12 @@ false
 }
 mMsecSinceEpoch
 =
-js_DateGetMsecSinceEpoch
+js
+:
+:
+DateGetMsecSinceEpoch
 (
+aCx
 obj
 )
 ;

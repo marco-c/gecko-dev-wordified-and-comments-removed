@@ -5059,8 +5059,11 @@ context
 double
 d
 =
-js_DateGetMsecSinceEpoch
+DateGetMsecSinceEpoch
 (
+context
+(
+)
 obj
 )
 ;
