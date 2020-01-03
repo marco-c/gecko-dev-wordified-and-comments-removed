@@ -5234,7 +5234,7 @@ logTag
 "
 %
 s
-RTP
+RTCP
 Processing
 Failed
 %
