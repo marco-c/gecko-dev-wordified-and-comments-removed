@@ -615,7 +615,7 @@ mKeyedMutex
 AcquireSync
 (
 0
-INFINITE
+10000
 )
 ;
 if
