@@ -3044,8 +3044,10 @@ return
 rv
 ;
 }
-JSONWriter
-jsonWriter
+dmd
+:
+:
+AnalyzeReports
 (
 MakeUnique
 <
@@ -3054,14 +3056,6 @@ GZWriterWrapper
 (
 gzWriter
 )
-)
-;
-dmd
-:
-:
-AnalyzeReports
-(
-jsonWriter
 )
 ;
 rv
