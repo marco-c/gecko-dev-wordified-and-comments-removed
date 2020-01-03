@@ -1652,8 +1652,6 @@ Launch
 )
 ;
 }
-break
-;
 case
 nsIMacShellService
 :
@@ -1714,8 +1712,6 @@ Launch
 )
 ;
 }
-break
-;
 }
 if
 (
