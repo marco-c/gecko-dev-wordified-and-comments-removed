@@ -1781,6 +1781,9 @@ mOldTransaction
 int32_t
 mTimedOutMessageSeqno
 ;
+int
+mTimedOutMessagePriority
+;
 nsAutoPtr
 <
 Message
