@@ -623,6 +623,16 @@ uint8_t
 mCtxType
 )
 ;
+float
+GetIntrinsicWidth
+(
+)
+;
+float
+GetIntrinsicHeight
+(
+)
+;
 bool
 HasViewBoxRect
 (
