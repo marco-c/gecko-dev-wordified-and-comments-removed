@@ -1017,6 +1017,13 @@ exports
 {
 }
 ;
+module
+.
+exports
+=
+{
+}
+;
 require
 (
 '
