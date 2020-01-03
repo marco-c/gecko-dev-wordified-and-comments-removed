@@ -913,11 +913,11 @@ true
 )
 mEnableAltSvc
 (
-true
+false
 )
 mEnableAltSvcOE
 (
-true
+false
 )
 mSpdySendingChunkSize
 (
@@ -7352,7 +7352,7 @@ GetBoolPref
 HTTP_PREF
 (
 "
-atsvc
+altsvc
 .
 enabled
 "
@@ -7398,7 +7398,7 @@ GetBoolPref
 HTTP_PREF
 (
 "
-atsvc
+altsvc
 .
 oe
 "
