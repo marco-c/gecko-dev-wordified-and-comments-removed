@@ -13229,6 +13229,16 @@ message_logger
 dump_buffered
 (
 )
+            
+if
+result
+=
+=
+-
+1
+:
+                
+break
         
 if
 options
