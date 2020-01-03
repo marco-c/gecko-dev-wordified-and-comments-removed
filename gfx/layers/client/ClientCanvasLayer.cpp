@@ -556,7 +556,7 @@ IsANGLE
 )
 &
 &
-DoesD3D11DeviceWork
+DoesD3D11TextureSharingWork
 (
 gfxWindowsPlatform
 :

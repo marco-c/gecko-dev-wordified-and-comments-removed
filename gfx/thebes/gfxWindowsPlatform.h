@@ -1049,6 +1049,14 @@ mPrefFonts
 }
 ;
 bool
+DoesD3D11TextureSharingWork
+(
+ID3D11Device
+*
+device
+)
+;
+bool
 DoesD3D11DeviceWork
 (
 ID3D11Device
