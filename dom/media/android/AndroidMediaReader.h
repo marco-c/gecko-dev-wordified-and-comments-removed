@@ -215,7 +215,10 @@ aTags
 )
 ;
 virtual
-void
+nsRefPtr
+<
+SeekPromise
+>
 Seek
 (
 int64_t
@@ -227,6 +230,7 @@ aEndTime
 int64_t
 aCurrentTime
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRefPtr

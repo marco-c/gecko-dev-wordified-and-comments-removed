@@ -146,7 +146,13 @@ mExtractor
 nullptr
 ;
 }
-void
+nsRefPtr
+<
+MediaDecoderReader
+:
+:
+SeekPromise
+>
 RtspMediaCodecReader
 :
 :
@@ -170,6 +176,7 @@ SeekTime
 aTime
 )
 ;
+return
 MediaCodecReader
 :
 :

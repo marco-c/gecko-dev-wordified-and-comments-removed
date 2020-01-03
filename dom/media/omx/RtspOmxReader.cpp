@@ -149,7 +149,13 @@ return
 NS_OK
 ;
 }
-void
+nsRefPtr
+<
+MediaDecoderReader
+:
+:
+SeekPromise
+>
 RtspOmxReader
 :
 :
@@ -186,6 +192,7 @@ EnablePlayoutDelay
 )
 ;
 }
+return
 MediaOmxReader
 :
 :

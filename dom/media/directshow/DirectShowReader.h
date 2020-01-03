@@ -138,7 +138,10 @@ aTags
 )
 MOZ_OVERRIDE
 ;
-void
+nsRefPtr
+<
+SeekPromise
+>
 Seek
 (
 int64_t
