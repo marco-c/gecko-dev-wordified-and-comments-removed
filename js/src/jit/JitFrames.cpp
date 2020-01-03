@@ -5338,9 +5338,6 @@ has
 iter
 )
 )
-gc
-:
-:
 TraceGenericPointerRoot
 (
 trc
@@ -7483,9 +7480,6 @@ VMFunction
 :
 RootCell
 :
-gc
-:
-:
 TraceGenericPointerRoot
 (
 trc
@@ -7741,9 +7735,6 @@ VMFunction
 :
 :
 RootCell
-:
-gc
-:
 :
 TraceGenericPointerRoot
 (

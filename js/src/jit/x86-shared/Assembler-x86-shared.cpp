@@ -372,9 +372,6 @@ ptr
 )
 )
 ;
-gc
-:
-:
 TraceManuallyBarrieredGenericPointerEdge
 (
 trc

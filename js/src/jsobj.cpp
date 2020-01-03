@@ -24098,7 +24098,7 @@ trc
 func
 )
 ;
-MarkObjectSlots
+TraceObjectSlots
 (
 trc
 nobj
