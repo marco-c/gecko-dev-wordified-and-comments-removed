@@ -281,7 +281,7 @@ vp
 const
 {
 return
-DefaultValue
+OrdinaryToPrimitive
 (
 cx
 wrapper

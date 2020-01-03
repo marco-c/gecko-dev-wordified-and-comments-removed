@@ -4584,10 +4584,16 @@ OrdinaryToPrimitive
 JSContext
 *
 cx
+JS
+:
+:
 HandleObject
 obj
 JSType
 type
+JS
+:
+:
 MutableHandleValue
 vp
 )
