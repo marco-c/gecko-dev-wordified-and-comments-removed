@@ -35296,6 +35296,7 @@ state
 open
 "
 )
+{
 this
 .
 setPopupMessages
@@ -35303,6 +35304,13 @@ setPopupMessages
 newMode
 )
 ;
+this
+.
+updateSitePermissions
+(
+)
+;
+}
 this
 .
 _mode
