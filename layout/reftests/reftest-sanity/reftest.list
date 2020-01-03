@@ -2679,7 +2679,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 |
 |
 !
@@ -2744,7 +2744,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 |
 |
 !
@@ -2776,7 +2776,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncZoom
 )
 !
 =
@@ -2806,7 +2806,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncZoom
 )
 =
 =

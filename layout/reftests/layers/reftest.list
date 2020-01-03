@@ -115,7 +115,7 @@ skip
 -
 if
 (
-asyncPanZoom
+asyncPan
 )
 !
 =
@@ -310,7 +310,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 )
 !
 =
@@ -331,7 +331,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 )
 !
 =
@@ -352,7 +352,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 )
 !
 =
@@ -387,7 +387,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 )
 !
 =
@@ -423,7 +423,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 )
 !
 =
@@ -447,7 +447,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 )
 !
 =

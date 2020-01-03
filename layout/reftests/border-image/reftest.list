@@ -773,7 +773,7 @@ fuzzy
 -
 if
 (
-asyncPanZoom
+asyncPan
 &
 &
 !

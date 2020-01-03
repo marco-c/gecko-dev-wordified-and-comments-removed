@@ -86,7 +86,7 @@ skip
 if
 (
 !
-asyncPanZoom
+asyncPan
 )
 =
 =

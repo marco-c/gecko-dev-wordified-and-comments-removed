@@ -264,7 +264,7 @@ fuzzy
 -
 if
 (
-asyncPanZoom
+asyncPan
 &
 &
 layersGPUAccelerated

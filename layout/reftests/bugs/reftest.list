@@ -29119,7 +29119,7 @@ fuzzy
 -
 if
 (
-asyncPanZoom
+asyncPan
 &
 &
 !
@@ -31275,7 +31275,7 @@ fuzzy
 -
 if
 (
-asyncPanZoom
+asyncPan
 &
 &
 !
@@ -33025,7 +33025,7 @@ fuzzy
 -
 if
 (
-asyncPanZoom
+asyncPan
 190
 510
 )
@@ -33033,7 +33033,7 @@ fuzzy
 -
 if
 (
-asyncPanZoom
+asyncPan
 &
 &
 !
@@ -33893,7 +33893,7 @@ fuzzy
 -
 if
 (
-asyncPanZoom
+asyncPan
 &
 &
 !
