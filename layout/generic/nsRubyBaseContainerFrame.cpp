@@ -1271,6 +1271,17 @@ aFlags
 )
 const
 {
+if
+(
+aFlags
+&
+eSupportsCSSTransforms
+)
+{
+return
+false
+;
+}
 return
 nsContainerFrame
 :
