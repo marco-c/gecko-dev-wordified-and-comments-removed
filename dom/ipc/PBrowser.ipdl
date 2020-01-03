@@ -2996,6 +2996,17 @@ int32_t
 aCy
 )
 ;
+prio
+(
+high
+)
+sync
+SynthesizedMouseWheelEvent
+(
+WidgetWheelEvent
+event
+)
+;
 child
 :
 /
