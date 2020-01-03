@@ -25,6 +25,10 @@ StringIO
 import
 StringIO
 from
+itertools
+import
+chain
+from
 reftest
 import
 ReftestManifest
@@ -156,202 +160,252 @@ MOZBUILD_VARIABLES
 =
 [
     
+b
 '
 ANDROID_GENERATED_RESFILES
 '
     
+b
 '
 ANDROID_RES_DIRS
 '
     
+b
 '
 ASFLAGS
 '
     
+b
 '
 CMSRCS
 '
     
+b
 '
 CMMSRCS
 '
     
+b
 '
 CPP_UNIT_TESTS
 '
     
+b
 '
 DIRS
 '
     
+b
 '
 DIST_INSTALL
 '
     
+b
 '
 EXTRA_DSO_LDOPTS
 '
     
+b
 '
 EXTRA_JS_MODULES
 '
     
+b
 '
 EXTRA_PP_COMPONENTS
 '
     
+b
 '
 EXTRA_PP_JS_MODULES
 '
     
+b
 '
 FORCE_SHARED_LIB
 '
     
+b
 '
 FORCE_STATIC_LIB
 '
     
+b
 '
 FINAL_LIBRARY
 '
     
+b
 '
 HOST_CSRCS
 '
     
+b
 '
 HOST_CMMSRCS
 '
     
+b
 '
 HOST_EXTRA_LIBS
 '
     
+b
 '
 HOST_LIBRARY_NAME
 '
     
+b
 '
 HOST_PROGRAM
 '
     
+b
 '
 HOST_SIMPLE_PROGRAMS
 '
     
+b
 '
 IS_COMPONENT
 '
     
+b
 '
 JAR_MANIFEST
 '
     
+b
 '
 JAVA_JAR_TARGETS
 '
     
+b
 '
 LD_VERSION_SCRIPT
 '
     
+b
 '
 LIBRARY_NAME
 '
     
+b
 '
 LIBS
 '
     
+b
 '
 MAKE_FRAMEWORK
 '
     
+b
 '
 MODULE
 '
     
+b
 '
 NO_DIST_INSTALL
 '
     
+b
 '
 NO_EXPAND_LIBS
 '
     
+b
 '
 NO_INTERFACES_MANIFEST
 '
     
+b
 '
 NO_JS_MANIFEST
 '
     
+b
 '
 OS_LIBS
 '
     
+b
 '
 PARALLEL_DIRS
 '
     
+b
 '
 PREF_JS_EXPORTS
 '
     
+b
 '
 PROGRAM
 '
     
+b
 '
 PYTHON_UNIT_TESTS
 '
     
+b
 '
 RESOURCE_FILES
 '
     
+b
 '
 SDK_HEADERS
 '
     
+b
 '
 SDK_LIBRARY
 '
     
+b
 '
 SHARED_LIBRARY_LIBS
 '
     
+b
 '
 SHARED_LIBRARY_NAME
 '
     
+b
 '
 SIMPLE_PROGRAMS
 '
     
+b
 '
 SONAME
 '
     
+b
 '
 STATIC_LIBRARY_NAME
 '
     
+b
 '
 TEST_DIRS
 '
     
+b
 '
 TOOL_DIRS
 '
     
+b
 '
 XPCSHELL_TESTS
 '
     
+b
 '
 XPIDL_MODULE
 '
@@ -360,74 +414,135 @@ DEPRECATED_VARIABLES
 =
 [
     
+b
 '
 ANDROID_RESFILES
 '
     
+b
 '
 EXPORT_LIBRARY
 '
     
+b
 '
 EXTRA_LIBS
 '
     
+b
 '
 HOST_LIBS
 '
     
+b
 '
 LIBXUL_LIBRARY
 '
     
+b
 '
 MOCHITEST_A11Y_FILES
 '
     
+b
 '
 MOCHITEST_BROWSER_FILES
 '
     
+b
 '
 MOCHITEST_BROWSER_FILES_PARTS
 '
     
+b
 '
 MOCHITEST_CHROME_FILES
 '
     
+b
 '
 MOCHITEST_FILES
 '
     
+b
 '
 MOCHITEST_FILES_PARTS
 '
     
+b
 '
 MOCHITEST_METRO_FILES
 '
     
+b
 '
 MOCHITEST_ROBOCOP_FILES
 '
     
+b
 '
 MOZ_CHROME_FILE_FORMAT
 '
     
+b
 '
 SHORT_LIBNAME
 '
     
+b
 '
 TESTING_JS_MODULES
 '
     
+b
 '
 TESTING_JS_MODULE_DIR
 '
 ]
+MOZBUILD_VARIABLES_MESSAGE
+=
+'
+It
+should
+only
+be
+defined
+in
+moz
+.
+build
+files
+.
+'
+DEPRECATED_VARIABLES_MESSAGE
+=
+(
+    
+'
+This
+variable
+has
+been
+deprecated
+.
+It
+does
+nothing
+.
+It
+must
+be
+removed
+'
+    
+'
+in
+order
+to
+build
+.
+'
+)
 class
 BackendMakeFile
 (
@@ -4646,48 +4761,101 @@ makefile_content
 return
         
 for
+l
+in
+makefile_content
+.
+splitlines
+(
+)
+:
+            
+l
+=
+l
+.
+strip
+(
+)
+            
+if
+l
+.
+startswith
+(
+b
+'
+#
+'
+)
+:
+                
+continue
+            
+for
+x
+in
+chain
+(
+MOZBUILD_VARIABLES
+DEPRECATED_VARIABLES
+)
+:
+                
+if
+x
+not
+in
+l
+:
+                    
+continue
+                
+if
+re
+.
+search
+(
+r
+'
+\
+b
+%
+s
+\
+s
+*
+[
+:
+?
++
+]
+?
+=
+'
+%
+x
+l
+)
+:
+                    
+if
 x
 in
 MOZBUILD_VARIABLES
 :
-            
-if
-re
-.
-search
-(
-r
-'
-^
-[
-^
-#
-]
-*
-\
-b
-%
-s
-\
-s
-*
-[
-:
-?
-+
-]
-?
+                        
+message
 =
-'
-%
-x
-makefile_content
-re
-.
-M
-)
+MOZBUILD_VARIABLES_MESSAGE
+                    
+else
 :
-                
+                        
+message
+=
+DEPRECATED_VARIABLES_MESSAGE
+                    
 raise
 Exception
 (
@@ -4701,114 +4869,15 @@ in
 %
 s
 .
-It
-should
+%
+s
 '
-                    
-'
-only
-be
-defined
-in
-moz
-.
-build
-files
-.
-'
+                                    
 %
 (
 x
 makefile_in
-)
-)
-        
-for
-x
-in
-DEPRECATED_VARIABLES
-:
-            
-if
-re
-.
-search
-(
-r
-'
-^
-[
-^
-#
-]
-*
-\
-b
-%
-s
-\
-s
-*
-[
-:
-?
-+
-]
-?
-=
-'
-%
-x
-makefile_content
-re
-.
-M
-)
-:
-                
-raise
-Exception
-(
-'
-Variable
-%
-s
-is
-defined
-in
-%
-s
-.
-This
-variable
-'
-                    
-'
-has
-been
-deprecated
-.
-It
-does
-nothing
-.
-It
-must
-be
-removed
-'
-                    
-'
-in
-order
-to
-build
-.
-'
-%
-(
-x
-makefile_in
+message
 )
 )
     
