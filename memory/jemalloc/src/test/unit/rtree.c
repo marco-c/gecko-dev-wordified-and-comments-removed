@@ -46,8 +46,8 @@ rtree
 rtree_new
 (
 i
-imalloc
-idalloc
+malloc
+free
 )
 ;
 assert_u_eq
@@ -118,8 +118,8 @@ rtree
 rtree_new
 (
 i
-imalloc
-idalloc
+malloc
+free
 )
 ;
 rtree_set
@@ -268,8 +268,8 @@ rtree
 rtree_new
 (
 i
-imalloc
-idalloc
+malloc
+free
 )
 ;
 for
@@ -529,8 +529,8 @@ rtree
 rtree_new
 (
 i
-imalloc
-idalloc
+malloc
+free
 )
 ;
 uintptr_t

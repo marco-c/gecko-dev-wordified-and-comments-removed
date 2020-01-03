@@ -16,6 +16,9 @@ static
 bool
 ckh_grow
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -25,6 +28,9 @@ static
 void
 ckh_shrink
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -653,6 +659,7 @@ tbucket
 ;
 if
 (
+!
 ckh_try_bucket_insert
 (
 ckh
@@ -660,9 +667,6 @@ bucket
 key
 data
 )
-=
-=
-false
 )
 return
 (
@@ -748,6 +752,7 @@ lg_curbuckets
 ;
 if
 (
+!
 ckh_try_bucket_insert
 (
 ckh
@@ -755,9 +760,6 @@ bucket
 key
 data
 )
-=
-=
-false
 )
 return
 (
@@ -790,6 +792,7 @@ lg_curbuckets
 ;
 if
 (
+!
 ckh_try_bucket_insert
 (
 ckh
@@ -797,9 +800,6 @@ bucket
 key
 data
 )
-=
-=
-false
 )
 return
 (
@@ -945,6 +945,9 @@ static
 bool
 ckh_grow
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -1043,6 +1046,7 @@ ckhc_t
 )
 ipalloc
 (
+tsd
 usize
 CACHELINE
 true
@@ -1093,18 +1097,17 @@ LG_CKH_BUCKET_CELLS
 ;
 if
 (
+!
 ckh_rebuild
 (
 ckh
 tab
 )
-=
-=
-false
 )
 {
 idalloc
 (
+tsd
 tab
 )
 ;
@@ -1113,6 +1116,7 @@ break
 }
 idalloc
 (
+tsd
 ckh
 -
 >
@@ -1150,6 +1154,9 @@ static
 void
 ckh_shrink
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -1217,6 +1224,7 @@ ckhc_t
 )
 ipalloc
 (
+tsd
 usize
 CACHELINE
 true
@@ -1262,18 +1270,17 @@ LG_CKH_BUCKET_CELLS
 ;
 if
 (
+!
 ckh_rebuild
 (
 ckh
 tab
 )
-=
-=
-false
 )
 {
 idalloc
 (
+tsd
 tab
 )
 ;
@@ -1294,6 +1301,7 @@ return
 }
 idalloc
 (
+tsd
 ckh
 -
 >
@@ -1330,6 +1338,9 @@ endif
 bool
 ckh_new
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -1556,6 +1567,7 @@ ckhc_t
 )
 ipalloc
 (
+tsd
 usize
 CACHELINE
 true
@@ -1595,6 +1607,9 @@ ret
 void
 ckh_delete
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -1711,6 +1726,7 @@ nrelocs
 endif
 idalloc
 (
+tsd
 ckh
 -
 >
@@ -1901,6 +1917,9 @@ true
 bool
 ckh_insert
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -1964,6 +1983,7 @@ if
 (
 ckh_grow
 (
+tsd
 ckh
 )
 )
@@ -1992,6 +2012,9 @@ ret
 bool
 ckh_remove
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -2155,6 +2178,7 @@ lg_minbuckets
 {
 ckh_shrink
 (
+tsd
 ckh
 )
 ;

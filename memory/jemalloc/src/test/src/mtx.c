@@ -7,6 +7,15 @@ jemalloc_test
 .
 h
 "
+#
+ifndef
+_CRT_SPINCOUNT
+#
+define
+_CRT_SPINCOUNT
+4000
+#
+endif
 bool
 mtx_init
 (

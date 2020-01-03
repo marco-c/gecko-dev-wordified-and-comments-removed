@@ -44,6 +44,9 @@ h
 jemalloc_protos
 .
 h
+jemalloc_typedefs
+.
+h
 jemalloc_mangle
 .
 h

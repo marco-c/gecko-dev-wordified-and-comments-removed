@@ -322,7 +322,7 @@ assert_ptr_not_null
 p
 "
 Unexpected
-allocm
+mallocx
 (
 )
 failure

@@ -131,6 +131,9 @@ JEMALLOC_H_EXTERNS
 bool
 ckh_new
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -147,6 +150,9 @@ keycomp
 void
 ckh_delete
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -182,6 +188,9 @@ data
 bool
 ckh_insert
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh
@@ -198,6 +207,9 @@ data
 bool
 ckh_remove
 (
+tsd_t
+*
+tsd
 ckh_t
 *
 ckh

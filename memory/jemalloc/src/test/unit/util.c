@@ -356,7 +356,7 @@ e
 e
 #
 define
-UMAX
+KUMAX
 (
 x
 )
@@ -488,7 +488,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 42
 )
@@ -505,7 +505,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 42
 )
@@ -522,7 +522,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 -
 42
@@ -539,7 +539,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 042
 )
@@ -556,7 +556,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 042
 )
@@ -573,7 +573,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 -
 042
@@ -590,7 +590,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0x42
 )
@@ -607,7 +607,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0x42
 )
@@ -624,7 +624,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 -
 0x42
@@ -641,7 +641,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -657,7 +657,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 1
 )
@@ -673,7 +673,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 42
 )
@@ -689,7 +689,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 42
 )
@@ -705,7 +705,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 42
 )
@@ -722,7 +722,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -739,7 +739,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 42
 )
@@ -755,7 +755,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 7
 )
@@ -771,7 +771,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 8
 )
@@ -788,7 +788,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -805,7 +805,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -822,7 +822,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -839,7 +839,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -856,7 +856,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -872,7 +872,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 10
 )
@@ -888,7 +888,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 10
 )
@@ -905,7 +905,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 0
 )
@@ -922,7 +922,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 1
 )
@@ -939,7 +939,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 7
 )
@@ -956,7 +956,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 9
 )
@@ -973,7 +973,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 9
 )
@@ -990,7 +990,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 15
 )
@@ -1007,7 +1007,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 15
 )
@@ -1024,7 +1024,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 15
 )
@@ -1041,7 +1041,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 15
 )
@@ -1058,7 +1058,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 35
 )
@@ -1075,7 +1075,7 @@ ERR
 (
 0
 )
-UMAX
+KUMAX
 (
 35
 )
@@ -1087,7 +1087,7 @@ undef
 ERR
 #
 undef
-UMAX
+KUMAX
 unsigned
 i
 ;
@@ -1300,7 +1300,6 @@ define
 TEST
 (
 expected_str_untruncated
-fmt
 .
 .
 .
@@ -1314,7 +1313,7 @@ malloc_snprintf
 (
 buf
 len
-fmt
+__VA_ARGS__
 )
 ;
 \
@@ -1600,7 +1599,6 @@ define
 TEST
 (
 expected_str
-fmt
 .
 .
 .
@@ -1617,7 +1615,7 @@ sizeof
 (
 buf
 )
-fmt
+__VA_ARGS__
 )
 ;
 \

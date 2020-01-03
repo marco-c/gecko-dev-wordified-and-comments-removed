@@ -64,6 +64,9 @@ void
 *
 chunk_alloc_dss
 (
+void
+*
+new_addr
 size_t
 size
 size_t

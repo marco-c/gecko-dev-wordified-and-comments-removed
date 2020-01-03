@@ -12,7 +12,6 @@ b
 cmp
 neg_cmp
 pri
-fmt
 .
 .
 .
@@ -138,7 +137,7 @@ sizeof
 (
 message
 )
-fmt
+__VA_ARGS__
 )
 ;
 \
@@ -162,7 +161,6 @@ assert_ptr_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -181,7 +179,7 @@ b
 "
 p
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -189,7 +187,6 @@ assert_ptr_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -208,14 +205,13 @@ b
 "
 p
 "
-fmt
+__VA_ARGS__
 )
 #
 define
 assert_ptr_null
 (
 a
-fmt
 .
 .
 .
@@ -234,14 +230,13 @@ NULL
 "
 p
 "
-fmt
+__VA_ARGS__
 )
 #
 define
 assert_ptr_not_null
 (
 a
-fmt
 .
 .
 .
@@ -260,7 +255,7 @@ NULL
 "
 p
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -268,7 +263,6 @@ assert_c_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -285,7 +279,7 @@ b
 "
 c
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -293,7 +287,6 @@ assert_c_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -310,7 +303,7 @@ b
 "
 c
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -318,7 +311,6 @@ assert_c_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -334,7 +326,7 @@ b
 "
 c
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -342,7 +334,6 @@ assert_c_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -358,7 +349,7 @@ b
 "
 c
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -366,7 +357,6 @@ assert_c_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -382,7 +372,7 @@ b
 "
 c
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -390,7 +380,6 @@ assert_c_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -406,7 +395,7 @@ b
 "
 c
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -414,7 +403,6 @@ assert_x_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -432,7 +420,7 @@ b
 #
 x
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -440,7 +428,6 @@ assert_x_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -458,7 +445,7 @@ b
 #
 x
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -466,7 +453,6 @@ assert_x_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -483,7 +469,7 @@ b
 #
 x
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -491,7 +477,6 @@ assert_x_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -508,7 +493,7 @@ b
 #
 x
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -516,7 +501,6 @@ assert_x_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -533,7 +517,7 @@ b
 #
 x
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -541,7 +525,6 @@ assert_x_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -558,7 +541,7 @@ b
 #
 x
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -566,7 +549,6 @@ assert_d_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -583,7 +565,7 @@ b
 "
 d
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -591,7 +573,6 @@ assert_d_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -608,7 +589,7 @@ b
 "
 d
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -616,7 +597,6 @@ assert_d_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -632,7 +612,7 @@ b
 "
 d
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -640,7 +620,6 @@ assert_d_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -656,7 +635,7 @@ b
 "
 d
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -664,7 +643,6 @@ assert_d_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -680,7 +658,7 @@ b
 "
 d
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -688,7 +666,6 @@ assert_d_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -704,7 +681,7 @@ b
 "
 d
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -712,7 +689,6 @@ assert_u_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -729,7 +705,7 @@ b
 "
 u
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -737,7 +713,6 @@ assert_u_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -754,7 +729,7 @@ b
 "
 u
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -762,7 +737,6 @@ assert_u_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -778,7 +752,7 @@ b
 "
 u
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -786,7 +760,6 @@ assert_u_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -802,7 +775,7 @@ b
 "
 u
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -810,7 +783,6 @@ assert_u_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -826,7 +798,7 @@ b
 "
 u
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -834,7 +806,6 @@ assert_u_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -850,7 +821,7 @@ b
 "
 u
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -858,7 +829,6 @@ assert_ld_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -876,7 +846,7 @@ b
 "
 ld
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -884,7 +854,6 @@ assert_ld_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -902,7 +871,7 @@ b
 "
 ld
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -910,7 +879,6 @@ assert_ld_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -927,7 +895,7 @@ b
 "
 ld
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -935,7 +903,6 @@ assert_ld_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -952,7 +919,7 @@ b
 "
 ld
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -960,7 +927,6 @@ assert_ld_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -977,7 +943,7 @@ b
 "
 ld
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -985,7 +951,6 @@ assert_ld_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1002,7 +967,7 @@ b
 "
 ld
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1010,7 +975,6 @@ assert_lu_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -1029,7 +993,7 @@ b
 "
 lu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1037,7 +1001,6 @@ assert_lu_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -1056,7 +1019,7 @@ b
 "
 lu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1064,7 +1027,6 @@ assert_lu_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1082,7 +1044,7 @@ b
 "
 lu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1090,7 +1052,6 @@ assert_lu_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -1108,7 +1069,7 @@ b
 "
 lu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1116,7 +1077,6 @@ assert_lu_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -1134,7 +1094,7 @@ b
 "
 lu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1142,7 +1102,6 @@ assert_lu_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1160,7 +1119,7 @@ b
 "
 lu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1168,7 +1127,6 @@ assert_qd_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -1187,7 +1145,7 @@ b
 "
 qd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1195,7 +1153,6 @@ assert_qd_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -1214,7 +1171,7 @@ b
 "
 qd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1222,7 +1179,6 @@ assert_qd_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1240,7 +1196,7 @@ b
 "
 qd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1248,7 +1204,6 @@ assert_qd_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -1266,7 +1221,7 @@ b
 "
 qd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1274,7 +1229,6 @@ assert_qd_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -1292,7 +1246,7 @@ b
 "
 qd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1300,7 +1254,6 @@ assert_qd_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1318,7 +1271,7 @@ b
 "
 qd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1326,7 +1279,6 @@ assert_qu_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -1346,7 +1298,7 @@ b
 "
 qu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1354,7 +1306,6 @@ assert_qu_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -1374,7 +1325,7 @@ b
 "
 qu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1382,7 +1333,6 @@ assert_qu_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1401,7 +1351,7 @@ b
 "
 qu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1409,7 +1359,6 @@ assert_qu_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -1428,7 +1377,7 @@ b
 "
 qu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1436,7 +1385,6 @@ assert_qu_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -1455,7 +1403,7 @@ b
 "
 qu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1463,7 +1411,6 @@ assert_qu_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1482,7 +1429,7 @@ b
 "
 qu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1490,7 +1437,6 @@ assert_jd_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -1508,7 +1454,7 @@ b
 "
 jd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1516,7 +1462,6 @@ assert_jd_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -1534,7 +1479,7 @@ b
 "
 jd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1542,7 +1487,6 @@ assert_jd_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1559,7 +1503,7 @@ b
 "
 jd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1567,7 +1511,6 @@ assert_jd_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -1584,7 +1527,7 @@ b
 "
 jd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1592,7 +1535,6 @@ assert_jd_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -1609,7 +1551,7 @@ b
 "
 jd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1617,7 +1559,6 @@ assert_jd_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1634,7 +1575,7 @@ b
 "
 jd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1642,7 +1583,6 @@ assert_ju_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -1660,7 +1600,7 @@ b
 "
 ju
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1668,7 +1608,6 @@ assert_ju_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -1686,7 +1625,7 @@ b
 "
 ju
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1694,7 +1633,6 @@ assert_ju_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1711,7 +1649,7 @@ b
 "
 ju
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1719,7 +1657,6 @@ assert_ju_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -1736,7 +1673,7 @@ b
 "
 ju
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1744,7 +1681,6 @@ assert_ju_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -1761,7 +1697,7 @@ b
 "
 ju
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1769,7 +1705,6 @@ assert_ju_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1786,7 +1721,7 @@ b
 "
 ju
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1794,7 +1729,6 @@ assert_zd_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -1812,7 +1746,7 @@ b
 "
 zd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1820,7 +1754,6 @@ assert_zd_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -1838,7 +1771,7 @@ b
 "
 zd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1846,7 +1779,6 @@ assert_zd_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1863,7 +1795,7 @@ b
 "
 zd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1871,7 +1803,6 @@ assert_zd_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -1888,7 +1819,7 @@ b
 "
 zd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1896,7 +1827,6 @@ assert_zd_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -1913,7 +1843,7 @@ b
 "
 zd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1921,7 +1851,6 @@ assert_zd_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -1938,7 +1867,7 @@ b
 "
 zd
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1946,7 +1875,6 @@ assert_zu_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -1964,7 +1892,7 @@ b
 "
 zu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1972,7 +1900,6 @@ assert_zu_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -1990,7 +1917,7 @@ b
 "
 zu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -1998,7 +1925,6 @@ assert_zu_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2015,7 +1941,7 @@ b
 "
 zu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2023,7 +1949,6 @@ assert_zu_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -2040,7 +1965,7 @@ b
 "
 zu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2048,7 +1973,6 @@ assert_zu_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -2065,7 +1989,7 @@ b
 "
 zu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2073,7 +1997,6 @@ assert_zu_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2090,7 +2013,7 @@ b
 "
 zu
 "
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2098,7 +2021,6 @@ assert_d32_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -2114,7 +2036,7 @@ b
 !
 =
 PRId32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2122,7 +2044,6 @@ assert_d32_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -2138,7 +2059,7 @@ b
 =
 =
 PRId32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2146,7 +2067,6 @@ assert_d32_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2161,7 +2081,7 @@ b
 >
 =
 PRId32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2169,7 +2089,6 @@ assert_d32_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -2184,7 +2103,7 @@ b
 \
 >
 PRId32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2192,7 +2111,6 @@ assert_d32_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -2207,7 +2125,7 @@ b
 \
 <
 PRId32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2215,7 +2133,6 @@ assert_d32_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2230,7 +2147,7 @@ b
 <
 =
 PRId32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2238,7 +2155,6 @@ assert_u32_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -2254,7 +2170,7 @@ b
 !
 =
 PRIu32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2262,7 +2178,6 @@ assert_u32_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -2278,7 +2193,7 @@ b
 =
 =
 PRIu32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2286,7 +2201,6 @@ assert_u32_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2301,7 +2215,7 @@ b
 >
 =
 PRIu32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2309,7 +2223,6 @@ assert_u32_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -2324,7 +2237,7 @@ b
 \
 >
 PRIu32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2332,7 +2245,6 @@ assert_u32_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -2347,7 +2259,7 @@ b
 \
 <
 PRIu32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2355,7 +2267,6 @@ assert_u32_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2370,7 +2281,7 @@ b
 <
 =
 PRIu32
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2378,7 +2289,6 @@ assert_d64_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -2394,7 +2304,7 @@ b
 !
 =
 PRId64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2402,7 +2312,6 @@ assert_d64_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -2418,7 +2327,7 @@ b
 =
 =
 PRId64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2426,7 +2335,6 @@ assert_d64_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2441,7 +2349,7 @@ b
 >
 =
 PRId64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2449,7 +2357,6 @@ assert_d64_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -2464,7 +2371,7 @@ b
 \
 >
 PRId64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2472,7 +2379,6 @@ assert_d64_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -2487,7 +2393,7 @@ b
 \
 <
 PRId64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2495,7 +2401,6 @@ assert_d64_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2510,7 +2415,7 @@ b
 <
 =
 PRId64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2518,7 +2423,6 @@ assert_u64_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -2534,7 +2438,7 @@ b
 !
 =
 PRIu64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2542,7 +2446,6 @@ assert_u64_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -2558,7 +2461,7 @@ b
 =
 =
 PRIu64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2566,7 +2469,6 @@ assert_u64_lt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2581,7 +2483,7 @@ b
 >
 =
 PRIu64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2589,7 +2491,6 @@ assert_u64_le
 (
 a
 b
-fmt
 .
 .
 .
@@ -2604,7 +2505,7 @@ b
 \
 >
 PRIu64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2612,7 +2513,6 @@ assert_u64_ge
 (
 a
 b
-fmt
 .
 .
 .
@@ -2627,7 +2527,7 @@ b
 \
 <
 PRIu64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2635,7 +2535,6 @@ assert_u64_gt
 (
 a
 b
-fmt
 .
 .
 .
@@ -2650,7 +2549,7 @@ b
 <
 =
 PRIu64
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -2658,7 +2557,6 @@ assert_b_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -2791,7 +2689,7 @@ sizeof
 (
 message
 )
-fmt
+__VA_ARGS__
 )
 ;
 \
@@ -2815,7 +2713,6 @@ assert_b_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -2948,7 +2845,7 @@ sizeof
 (
 message
 )
-fmt
+__VA_ARGS__
 )
 ;
 \
@@ -2971,7 +2868,6 @@ define
 assert_true
 (
 a
-fmt
 .
 .
 .
@@ -2980,14 +2876,13 @@ assert_b_eq
 (
 a
 true
-fmt
+__VA_ARGS__
 )
 #
 define
 assert_false
 (
 a
-fmt
 .
 .
 .
@@ -2996,7 +2891,7 @@ assert_b_eq
 (
 a
 false
-fmt
+__VA_ARGS__
 )
 #
 define
@@ -3004,7 +2899,6 @@ assert_str_eq
 (
 a
 b
-fmt
 .
 .
 .
@@ -3116,7 +3010,7 @@ sizeof
 (
 message
 )
-fmt
+__VA_ARGS__
 )
 ;
 \
@@ -3140,7 +3034,6 @@ assert_str_ne
 (
 a
 b
-fmt
 .
 .
 .
@@ -3253,7 +3146,7 @@ sizeof
 (
 message
 )
-fmt
+__VA_ARGS__
 )
 ;
 \
@@ -3275,7 +3168,6 @@ while
 define
 assert_not_reached
 (
-fmt
 .
 .
 .
@@ -3334,7 +3226,7 @@ sizeof
 (
 message
 )
-fmt
+__VA_ARGS__
 )
 ;
 \
@@ -3421,7 +3313,6 @@ p_test_fini
 define
 test
 (
-tests
 .
 .
 .
@@ -3429,7 +3320,7 @@ tests
 \
 p_test
 (
-tests
+__VA_ARGS__
 NULL
 )
 #

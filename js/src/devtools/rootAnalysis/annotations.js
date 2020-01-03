@@ -28,6 +28,16 @@ je_malloc_message
 :
 true
 "
+chunk_dalloc
+"
+:
+true
+"
+chunk_alloc
+"
+:
+true
+"
 __conv
 "
 :
