@@ -123,7 +123,11 @@ JS
 SourceBufferHolder
 &
 srcBuf
-HandleObject
+Handle
+<
+ScopeObject
+*
+>
 enclosingStaticScope
 )
 ;
