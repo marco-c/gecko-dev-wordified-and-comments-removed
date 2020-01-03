@@ -7464,6 +7464,20 @@ httpd
 stop
 (
 )
+        
+if
+self
+.
+marionette
+:
+            
+self
+.
+marionette
+.
+cleanup
+(
+)
     
 __del__
 =
