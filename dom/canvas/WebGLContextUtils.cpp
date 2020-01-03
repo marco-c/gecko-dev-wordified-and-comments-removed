@@ -4291,9 +4291,7 @@ mBoundDrawFramebuffer
 mBoundDrawFramebuffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;
@@ -4311,9 +4309,7 @@ mBoundReadFramebuffer
 mBoundReadFramebuffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;
@@ -4343,9 +4339,7 @@ mBoundDrawFramebuffer
 mBoundDrawFramebuffer
 -
 >
-GLName
-(
-)
+mGLName
 :
 0
 ;
