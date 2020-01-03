@@ -3797,6 +3797,33 @@ self
 test_suite
 )
         
+error_summary_file
+=
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+abs_blob_upload_dir
+'
+]
+                                          
+'
+%
+s_errorsummary
+.
+log
+'
+%
+self
+.
+test_suite
+)
+        
 str_format_values
 =
 {
@@ -3945,6 +3972,12 @@ raw_log_file
 '
 :
 raw_log_file
+            
+'
+error_summary_file
+'
+:
+error_summary_file
             
 '
 dm_trans

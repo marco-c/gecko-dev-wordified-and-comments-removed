@@ -2815,6 +2815,28 @@ log
 '
 )
         
+error_summary_file
+=
+os
+.
+path
+.
+join
+(
+dirs
+[
+'
+abs_blob_upload_dir
+'
+]
+                                          
+'
+marionette_errorsummary
+.
+log
+'
+)
+        
 config_fmt_args
 =
 {
@@ -3038,6 +3060,12 @@ raw_log_file
 '
 :
 raw_log_file
+            
+'
+error_summary_file
+'
+:
+error_summary_file
             
 '
 gecko_log
