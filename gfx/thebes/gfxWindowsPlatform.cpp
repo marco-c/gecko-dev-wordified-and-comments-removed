@@ -2268,9 +2268,6 @@ BackendType
 DIRECT2D
 )
 ;
-#
-ifdef
-USE_D2D1_1
 if
 (
 gfxPrefs
@@ -2326,8 +2323,6 @@ DIRECT2D1_1
 }
 else
 {
-#
-endif
 defaultBackend
 =
 BackendType
@@ -2335,12 +2330,7 @@ BackendType
 :
 DIRECT2D
 ;
-#
-ifdef
-USE_D2D1_1
 }
-#
-endif
 }
 else
 {
@@ -2802,9 +2792,6 @@ mD2DDevice
 )
 ;
 }
-#
-ifdef
-USE_D2D1_1
 ScopedGfxFeatureReporter
 reporter1_1
 (
@@ -2832,8 +2819,6 @@ SetSuccessful
 )
 ;
 }
-#
-endif
 #
 endif
 }
@@ -8410,9 +8395,6 @@ SetExceptionMode
 0
 )
 ;
-#
-ifdef
-USE_D2D1_1
 if
 (
 Factory
@@ -8534,8 +8516,6 @@ mD3D11ContentDevice
 )
 ;
 }
-#
-endif
 d3d11Module
 .
 disown

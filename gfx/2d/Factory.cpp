@@ -108,17 +108,12 @@ DrawTargetD2D
 h
 "
 #
-ifdef
-USE_D2D1_1
-#
 include
 "
 DrawTargetD2D1
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -831,9 +826,6 @@ Factory
 :
 mD3D10Device
 ;
-#
-ifdef
-USE_D2D1_1
 ID3D11Device
 *
 Factory
@@ -848,8 +840,6 @@ Factory
 :
 mD2D1Device
 ;
-#
-endif
 #
 endif
 DrawEventRecorder
@@ -1376,9 +1366,6 @@ newTarget
 break
 ;
 }
-#
-ifdef
-USE_D2D1_1
 case
 BackendType
 :
@@ -1419,8 +1406,6 @@ newTarget
 break
 ;
 }
-#
-endif
 #
 elif
 defined
@@ -2753,9 +2738,6 @@ return
 mD3D10Device
 ;
 }
-#
-ifdef
-USE_D2D1_1
 TemporaryRef
 <
 DrawTarget
@@ -2968,8 +2950,6 @@ D2DFactory1
 )
 ;
 }
-#
-endif
 TemporaryRef
 <
 GlyphRenderingOptions
@@ -3030,9 +3010,6 @@ D2DCleanup
 (
 )
 {
-#
-ifdef
-USE_D2D1_1
 if
 (
 mD2D1Device
@@ -3057,8 +3034,6 @@ CleanupD2D
 (
 )
 ;
-#
-endif
 DrawTargetD2D
 :
 :
