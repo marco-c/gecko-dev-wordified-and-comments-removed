@@ -3,11 +3,13 @@ thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 "
 TypeError
 :
-aValue
-.
-content
-is
+can
+'
+t
+convert
 undefined
+to
+object
 "
 )
 ;

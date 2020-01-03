@@ -2123,6 +2123,11 @@ pattern
 )
 ;
 bool
+emitToObject
+(
+)
+;
+bool
 emitIterator
 (
 )
