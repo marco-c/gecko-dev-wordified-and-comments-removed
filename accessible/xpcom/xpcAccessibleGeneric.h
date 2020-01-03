@@ -59,6 +59,7 @@ xpcAccessibleValue
 {
 public
 :
+explicit
 xpcAccessibleGeneric
 (
 Accessible

@@ -55,6 +55,7 @@ nsIAccessibleDocument
 {
 public
 :
+explicit
 xpcAccessibleDocument
 (
 DocAccessible

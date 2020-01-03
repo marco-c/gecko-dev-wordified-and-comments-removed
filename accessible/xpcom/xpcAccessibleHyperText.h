@@ -59,6 +59,7 @@ nsIAccessibleHyperText
 {
 public
 :
+explicit
 xpcAccessibleHyperText
 (
 Accessible

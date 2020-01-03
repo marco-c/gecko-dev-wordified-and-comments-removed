@@ -2955,6 +2955,7 @@ AutoTreeMutation
 {
 public
 :
+explicit
 AutoTreeMutation
 (
 Accessible

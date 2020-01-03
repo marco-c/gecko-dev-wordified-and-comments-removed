@@ -34,6 +34,7 @@ nsIAccessibleImage
 {
 public
 :
+explicit
 xpcAccessibleImage
 (
 Accessible
