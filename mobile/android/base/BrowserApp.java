@@ -13950,11 +13950,9 @@ panelId
 if
 (
 !
-getProfile
-(
-)
+RestrictedProfiles
 .
-inGuestMode
+isUserRestricted
 (
 )
 )
