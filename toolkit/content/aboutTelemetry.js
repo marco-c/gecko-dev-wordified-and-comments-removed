@@ -4377,6 +4377,9 @@ aMeasurements
 {
 if
 (
+value
+&
+&
 (
 typeof
 value
