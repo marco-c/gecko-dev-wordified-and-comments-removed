@@ -7250,16 +7250,8 @@ if
 mDoRebuildAllStyleData
 )
 {
-RebuildAllStyleData
+ProcessPendingRestyles
 (
-nsChangeHint
-(
-0
-)
-nsRestyleHint
-(
-0
-)
 )
 ;
 }
