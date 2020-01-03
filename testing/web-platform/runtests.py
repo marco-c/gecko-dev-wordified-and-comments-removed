@@ -54,7 +54,7 @@ __main__
 "
 :
     
-success
+rv
 =
 wptrunner
 .
@@ -62,14 +62,9 @@ main
 (
 )
     
-if
-not
-success
-:
-        
 sys
 .
 exit
 (
-1
+rv
 )
