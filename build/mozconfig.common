@@ -127,9 +127,6 @@ of
 this
 file
 .
-MOZ_CRASHREPORTER_UPLOAD_FULL_SYMBOLS
-=
-1
 mk_add_options
 AUTOCLOBBER
 =
