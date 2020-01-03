@@ -3840,6 +3840,7 @@ preventDefault
 ;
 }
 }
+}
 json
 .
 noReferrer
@@ -3850,7 +3851,6 @@ linkHasNoReferrer
 (
 node
 )
-}
 sendAsyncMessage
 (
 "
