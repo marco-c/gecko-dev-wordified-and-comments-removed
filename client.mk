@@ -1643,6 +1643,10 @@ mozconfig
 .
 mk
 :
+(
+TOPSRCDIR
+)
+/
 client
 .
 mk
