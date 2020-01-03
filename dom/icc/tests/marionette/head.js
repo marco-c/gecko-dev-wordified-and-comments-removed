@@ -34,6 +34,13 @@ DEFAULT_PIN
 0000
 "
 ;
+const
+DEFAULT_PUK
+=
+"
+12345678
+"
+;
 Promise
 .
 defer
