@@ -120,10 +120,6 @@ SoftwareVsyncThread
 "
 )
 ;
-EnableVsync
-(
-)
-;
 }
 void
 SoftwareDisplay

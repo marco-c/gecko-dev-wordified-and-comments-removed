@@ -1902,11 +1902,12 @@ public
 OSXDisplay
 (
 )
-{
-EnableVsync
+:
+mDisplayLink
 (
+nullptr
 )
-;
+{
 }
 ~
 OSXDisplay
