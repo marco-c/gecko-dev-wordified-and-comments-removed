@@ -3112,7 +3112,6 @@ NS_ERROR_NOT_AVAILABLE
 ;
 BT_ENSURE_TRUE_REJECT
 (
-!
 mLeScanHandleArray
 .
 Contains
