@@ -140,6 +140,7 @@ requestSuspension
 }
 public
 :
+explicit
 nsHtml5TreeBuilder
 (
 nsHtml5OplessBuilder

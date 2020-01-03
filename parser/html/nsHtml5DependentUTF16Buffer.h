@@ -27,6 +27,7 @@ nsHtml5UTF16Buffer
 {
 public
 :
+explicit
 nsHtml5DependentUTF16Buffer
 (
 const

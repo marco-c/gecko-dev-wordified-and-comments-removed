@@ -219,6 +219,7 @@ mExecutor
 ;
 public
 :
+explicit
 nsHtml5ExecutorReflusher
 (
 nsHtml5TreeOpExecutor
@@ -1246,6 +1247,7 @@ mStartTime
 endif
 public
 :
+explicit
 nsHtml5FlushLoopGuard
 (
 nsHtml5TreeOpExecutor
