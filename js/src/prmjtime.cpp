@@ -85,6 +85,21 @@ mmsystem
 h
 >
 #
+if
+_MSC_VER
+>
+=
+1400
+#
+define
+NS_HAVE_INVALID_PARAMETER_HANDLER
+1
+#
+endif
+#
+ifdef
+NS_HAVE_INVALID_PARAMETER_HANDLER
+#
 include
 <
 crtdbg
@@ -98,6 +113,8 @@ stdlib
 .
 h
 >
+#
+endif
 #
 include
 "
@@ -805,7 +822,7 @@ true
 endif
 #
 ifdef
-XP_WIN
+NS_HAVE_INVALID_PARAMETER_HANDLER
 static
 void
 PRMJ_InvalidParameterHandler
@@ -877,7 +894,7 @@ fake_tm_year
 ;
 #
 ifdef
-XP_WIN
+NS_HAVE_INVALID_PARAMETER_HANDLER
 _invalid_parameter_handler
 oldHandler
 ;
@@ -1175,7 +1192,7 @@ tm_isdst
 ;
 #
 ifdef
-XP_WIN
+NS_HAVE_INVALID_PARAMETER_HANDLER
 oldHandler
 =
 _set_invalid_parameter_handler
@@ -1206,7 +1223,7 @@ a
 ;
 #
 ifdef
-XP_WIN
+NS_HAVE_INVALID_PARAMETER_HANDLER
 _set_invalid_parameter_handler
 (
 oldHandler
