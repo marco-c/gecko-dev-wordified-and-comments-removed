@@ -275,6 +275,7 @@ nsIContentIterator
 {
 public
 :
+explicit
 nsFindContentIterator
 (
 bool

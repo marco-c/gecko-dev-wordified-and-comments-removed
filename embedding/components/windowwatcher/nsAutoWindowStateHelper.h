@@ -26,6 +26,7 @@ nsAutoWindowStateHelper
 {
 public
 :
+explicit
 nsAutoWindowStateHelper
 (
 nsPIDOMWindow

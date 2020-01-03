@@ -76,6 +76,7 @@ nsISimpleEnumerator
 {
 public
 :
+explicit
 nsGroupsEnumerator
 (
 nsControllerCommandGroup
@@ -526,6 +527,7 @@ nsISimpleEnumerator
 {
 public
 :
+explicit
 nsNamedGroupEnumerator
 (
 nsTArray
