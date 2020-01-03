@@ -1490,6 +1490,16 @@ GetDocument
 )
 )
 ;
+if
+(
+!
+document
+)
+{
+return
+false
+;
+}
 nsViewportInfo
 viewportInfo
 =
