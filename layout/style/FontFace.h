@@ -257,6 +257,14 @@ gfxUserFontEntry
 aEntry
 )
 ;
+bool
+GetFamilyName
+(
+nsString
+&
+aResult
+)
+;
 static
 already_AddRefed
 <
