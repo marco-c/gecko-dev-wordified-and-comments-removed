@@ -964,7 +964,7 @@ Extensions_End
 }
 {
 "
-renderbuffer_float
+renderbuffer_color_float
 "
 GLVersion
 :
@@ -995,7 +995,7 @@ Extensions_End
 }
 {
 "
-renderbuffer_half_float
+renderbuffer_color_half_float
 "
 GLVersion
 :
