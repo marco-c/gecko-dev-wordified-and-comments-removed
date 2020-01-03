@@ -181,16 +181,10 @@ EventTarget
 /
 recognition
 parameters
-[
-Throws
-]
 attribute
 SpeechGrammarList
 grammars
 ;
-[
-Throws
-]
 attribute
 DOMString
 lang
