@@ -54,9 +54,6 @@ MPL
 0
 /
 .
-MOZ_CHROME_FILE_FORMAT
-=
-jar
 _DEST_DIR
 =
 (
