@@ -2770,7 +2770,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+ThreadsafeIsCallerChrome
 (
 )
 )
@@ -2883,6 +2883,13 @@ ErrorResult
 aRv
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 if
 (
 !
@@ -3026,7 +3033,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+ThreadsafeIsCallerChrome
 (
 )
 )
