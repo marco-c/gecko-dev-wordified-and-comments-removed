@@ -4827,12 +4827,6 @@ IsSuspended
 (
 )
 {
-MutexAutoLock
-lock
-(
-mLock
-)
-;
 return
 mSuspendCount
 >
