@@ -256,7 +256,7 @@ i
 {
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =

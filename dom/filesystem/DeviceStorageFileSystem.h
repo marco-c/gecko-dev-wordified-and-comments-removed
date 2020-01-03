@@ -94,7 +94,7 @@ virtual
 bool
 GetRealPath
 (
-BlobImpl
+FileImpl
 *
 aFile
 nsAString

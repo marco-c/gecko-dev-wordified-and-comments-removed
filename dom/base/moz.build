@@ -1210,7 +1210,7 @@ MessagePortList
 cpp
 '
 '
-MultipartBlobImpl
+MultipartFileImpl
 .
 cpp
 '

@@ -929,9 +929,9 @@ realPath
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
-blob
+file
 ;
 if
 (
@@ -942,7 +942,7 @@ IsFile
 )
 )
 {
-blob
+file
 =
 aPath
 .
@@ -1050,7 +1050,7 @@ RemoveTask
 (
 mFileSystem
 mPath
-blob
+file
 realPath
 aRecursive
 aRv

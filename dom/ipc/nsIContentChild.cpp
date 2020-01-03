@@ -453,7 +453,7 @@ aBlob
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =
@@ -470,7 +470,7 @@ blobImpl
 )
 ;
 return
-GetOrCreateActorForBlobImpl
+GetOrCreateActorForFileImpl
 (
 blobImpl
 )
@@ -481,9 +481,9 @@ BlobChild
 nsIContentChild
 :
 :
-GetOrCreateActorForBlobImpl
+GetOrCreateActorForFileImpl
 (
-BlobImpl
+FileImpl
 *
 aImpl
 )

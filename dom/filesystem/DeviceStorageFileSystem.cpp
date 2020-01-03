@@ -518,7 +518,7 @@ DeviceStorageFileSystem
 :
 GetRealPath
 (
-BlobImpl
+FileImpl
 *
 aFile
 nsAString

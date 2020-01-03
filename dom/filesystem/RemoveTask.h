@@ -38,7 +38,7 @@ namespace
 dom
 {
 class
-BlobImpl
+FileImpl
 ;
 class
 Promise
@@ -61,9 +61,9 @@ const
 nsAString
 &
 aDirPath
-BlobImpl
+FileImpl
 *
-aTargetBlob
+aTargetFile
 const
 nsAString
 &
@@ -174,9 +174,9 @@ mDirRealPath
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
-mTargetBlobImpl
+mTargetFileImpl
 ;
 nsString
 mTargetRealPath

@@ -426,7 +426,7 @@ data
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =
@@ -701,7 +701,7 @@ actor
 =
 GetBlobParent
 (
-mTargetBlobImpl
+mTargetFileImpl
 )
 ;
 if
@@ -781,7 +781,7 @@ blobChild
 )
 )
 ;
-mTargetBlobImpl
+mTargetFileImpl
 =
 actor
 -
@@ -1279,10 +1279,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mTargetBlobImpl
+mTargetFileImpl
 =
 new
-BlobImplFile
+FileImplFile
 (
 file
 )
@@ -1353,10 +1353,10 @@ return
 NS_ERROR_DOM_FILESYSTEM_UNKNOWN_ERR
 ;
 }
-mTargetBlobImpl
+mTargetFileImpl
 =
 new
-BlobImplFile
+FileImplFile
 (
 file
 )
@@ -1470,7 +1470,7 @@ mFileSystem
 GetWindow
 (
 )
-mTargetBlobImpl
+mTargetFileImpl
 )
 ;
 mPromise

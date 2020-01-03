@@ -704,7 +704,7 @@ FileSystemTaskBase
 :
 GetBlobParent
 (
-BlobImpl
+FileImpl
 *
 aFile
 )
@@ -819,7 +819,7 @@ return
 cp
 -
 >
-GetOrCreateActorForBlobImpl
+GetOrCreateActorForFileImpl
 (
 aFile
 )

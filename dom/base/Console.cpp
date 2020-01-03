@@ -282,10 +282,10 @@ nsTArray
 <
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 >
-mBlobs
+mFiles
 ;
 }
 ;
@@ -343,7 +343,7 @@ MOZ_ASSERT
 data
 -
 >
-mBlobs
+mFiles
 .
 Length
 (
@@ -386,7 +386,7 @@ mParent
 data
 -
 >
-mBlobs
+mFiles
 .
 ElementAt
 (
@@ -520,7 +520,7 @@ CONSOLE_TAG_BLOB
 data
 -
 >
-mBlobs
+mFiles
 .
 Length
 (
@@ -535,7 +535,7 @@ false
 data
 -
 >
-mBlobs
+mFiles
 .
 AppendElement
 (

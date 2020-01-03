@@ -1536,7 +1536,7 @@ NS_IsMainThread
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =

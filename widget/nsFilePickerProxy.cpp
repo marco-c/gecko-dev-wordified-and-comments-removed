@@ -548,7 +548,7 @@ PBlobChild
 *
 >
 &
-blobs
+files
 =
 aFiles
 .
@@ -556,7 +556,7 @@ get_InputFiles
 (
 )
 .
-blobsChild
+filesChild
 (
 )
 ;
@@ -569,7 +569,7 @@ i
 ;
 i
 <
-blobs
+files
 .
 Length
 (
@@ -590,7 +590,7 @@ BlobChild
 *
 >
 (
-blobs
+files
 [
 i
 ]
@@ -598,7 +598,7 @@ i
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =

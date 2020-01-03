@@ -12583,9 +12583,9 @@ get_PBlobChild
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
-blobImpl
+fileImpl
 =
 blob
 -
@@ -12600,7 +12600,7 @@ path
 ErrorResult
 result
 ;
-blobImpl
+fileImpl
 -
 >
 GetMozFullPathInternal
@@ -12623,7 +12623,7 @@ variant
 >
 SetAsISupports
 (
-blobImpl
+fileImpl
 )
 ;
 }

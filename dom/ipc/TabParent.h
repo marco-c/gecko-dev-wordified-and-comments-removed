@@ -2521,7 +2521,7 @@ mozilla
 dom
 :
 :
-BlobImpl
+FileImpl
 >
 mBlobData
 ;

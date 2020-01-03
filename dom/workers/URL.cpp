@@ -276,7 +276,7 @@ WorkerMainThreadRunnable
 {
 private
 :
-BlobImpl
+FileImpl
 *
 mBlobImpl
 ;
@@ -291,7 +291,7 @@ CreateURLRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-BlobImpl
+FileImpl
 *
 aBlobImpl
 const
@@ -373,7 +373,7 @@ AssertIsOnMainThread
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 newBlobImplHolder
 ;
@@ -3865,7 +3865,7 @@ cx
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =

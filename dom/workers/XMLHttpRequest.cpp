@@ -8603,7 +8603,7 @@ return
 }
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 =

@@ -44,7 +44,7 @@ h
 #
 include
 "
-MultipartBlobImpl
+MultipartFileImpl
 .
 h
 "

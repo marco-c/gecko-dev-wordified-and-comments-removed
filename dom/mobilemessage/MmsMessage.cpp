@@ -509,7 +509,7 @@ contentParent
 {
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =
@@ -557,7 +557,7 @@ contentChild
 {
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =
@@ -2034,7 +2034,7 @@ location
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 impl
 =

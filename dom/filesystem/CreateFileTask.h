@@ -44,7 +44,7 @@ class
 Blob
 ;
 class
-BlobImpl
+FileImpl
 ;
 class
 Promise
@@ -213,9 +213,9 @@ mReplace
 ;
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
-mTargetBlobImpl
+mTargetFileImpl
 ;
 }
 ;

@@ -1030,7 +1030,7 @@ blob
 {
 nsRefPtr
 <
-BlobImpl
+FileImpl
 >
 blobImpl
 ;
@@ -1045,13 +1045,13 @@ blobImpl
 )
 )
 ;
-BlobImpl
+FileImpl
 *
 blob
 =
 static_cast
 <
-BlobImpl
+FileImpl
 *
 >
 (
