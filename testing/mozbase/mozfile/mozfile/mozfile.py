@@ -1087,6 +1087,7 @@ def
 _update_permissions
 (
 path
+st
 )
 :
         
@@ -1116,29 +1117,20 @@ path
             
 return
         
-stats
-=
-os
-.
-stat
-(
-path
-)
-        
 if
-os
+stat
 .
-path
-.
-isfile
+S_ISREG
 (
-path
+st
+.
+st_mode
 )
 :
             
 mode
 =
-stats
+st
 .
 st_mode
 |
@@ -1147,19 +1139,19 @@ stat
 S_IWUSR
         
 elif
-os
+stat
 .
-path
-.
-isdir
+S_ISDIR
 (
-path
+st
+.
+st_mode
 )
 :
             
 mode
 =
-stats
+st
 .
 st_mode
 |
@@ -1187,30 +1179,28 @@ mode
 )
 )
     
-if
-not
+try
+:
+        
+st
+=
 os
 .
-path
-.
-exists
+stat
 (
 path
 )
+    
+except
+os
+.
+error
 :
         
 return
     
-if
-os
-.
-path
-.
-isfile
-(
-path
-)
-or
+is_link
+=
 os
 .
 path
@@ -1219,11 +1209,29 @@ islink
 (
 path
 )
+    
+if
+stat
+.
+S_ISREG
+(
+st
+.
+st_mode
+)
+or
+is_link
 :
         
+if
+not
+is_link
+:
+            
 _update_permissions
 (
 path
+st
 )
         
 _call_with_windows_retry
@@ -1237,19 +1245,20 @@ path
 )
     
 elif
-os
+stat
 .
-path
-.
-isdir
+S_ISDIR
 (
-path
+st
+.
+st_mode
 )
 :
         
 _update_permissions
 (
 path
+st
 )
         
 for
@@ -1273,8 +1282,8 @@ dirs
 files
 :
                 
-_update_permissions
-(
+fpath
+=
 os
 .
 path
@@ -1283,6 +1292,16 @@ join
 (
 root
 entry
+)
+                
+_update_permissions
+(
+fpath
+os
+.
+stat
+(
+fpath
 )
 )
         
