@@ -2587,6 +2587,15 @@ _ABS_DIST
 )
 '
 \
+-
+-
+appname
+'
+(
+MOZ_APP_NAME
+)
+'
+\
 '
 (
 _ABS_DIST
