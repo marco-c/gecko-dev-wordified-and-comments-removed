@@ -3937,6 +3937,15 @@ aLetterSpacing
 )
 ;
 static
+uint32_t
+GetTextRunOrientFlagsForStyle
+(
+nsStyleContext
+*
+aStyleContext
+)
+;
+static
 void
 GetRectDifferenceStrips
 (

@@ -2324,6 +2324,8 @@ GetEllipsisTextRun
 (
 int32_t
 aAppUnitsPerDevPixel
+uint32_t
+aFlags
 LazyReferenceContextGetter
 &
 aRefContextGetter
