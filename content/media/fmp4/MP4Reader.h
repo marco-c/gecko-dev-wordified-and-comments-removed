@@ -390,10 +390,12 @@ IsWaitingOnCodecResource
 (
 )
 ;
+virtual
 bool
 IsWaitingOnCDMResource
 (
 )
+MOZ_OVERRIDE
 ;
 nsAutoPtr
 <

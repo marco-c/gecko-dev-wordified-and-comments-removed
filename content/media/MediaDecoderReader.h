@@ -99,6 +99,16 @@ false
 }
 virtual
 bool
+IsWaitingOnCDMResource
+(
+)
+{
+return
+false
+;
+}
+virtual
+bool
 IsDormantNeeded
 (
 )
