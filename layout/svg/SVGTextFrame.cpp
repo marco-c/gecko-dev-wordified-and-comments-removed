@@ -7964,7 +7964,7 @@ SetFillRule
 nsSVGUtils
 :
 :
-ThebesFillRule
+ToFillRule
 (
 mFrame
 -
@@ -8522,7 +8522,7 @@ SetFillRule
 nsSVGUtils
 :
 :
-ThebesFillRule
+ToFillRule
 (
 mFrame
 -

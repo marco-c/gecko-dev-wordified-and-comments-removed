@@ -2843,9 +2843,6 @@ aTransform
 )
 )
 ;
-gfxContext
-:
-:
 FillRule
 oldFillRull
 =
@@ -2873,10 +2870,10 @@ gfx
 >
 SetFillRule
 (
-gfxContext
+FillRule
 :
 :
-FILL_RULE_EVEN_ODD
+FILL_EVEN_ODD
 )
 ;
 else
@@ -2885,10 +2882,10 @@ gfx
 >
 SetFillRule
 (
-gfxContext
+FillRule
 :
 :
-FILL_RULE_WINDING
+FILL_WINDING
 )
 ;
 if
@@ -3036,7 +3033,7 @@ SetFillRule
 nsSVGUtils
 :
 :
-ThebesFillRule
+ToFillRule
 (
 StyleSVG
 (
