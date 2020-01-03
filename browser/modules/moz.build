@@ -296,6 +296,11 @@ AboutHome
 jsm
 '
 '
+PluginContent
+.
+jsm
+'
+'
 RecentWindow
 .
 jsm
