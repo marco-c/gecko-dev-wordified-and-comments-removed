@@ -431,14 +431,14 @@ result
 .
 state
 "
-insecure
+weak
 "
 "
 state
 =
 =
 '
-insecure
+weak
 '
 if
 securityState
