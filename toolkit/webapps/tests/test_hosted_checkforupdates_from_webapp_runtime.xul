@@ -615,8 +615,8 @@ app
 manifestURL
 )
 ;
+{
 let
-(
 deferred
 =
 Promise
@@ -624,8 +624,7 @@ Promise
 defer
 (
 )
-)
-{
+;
 request
 .
 onerror

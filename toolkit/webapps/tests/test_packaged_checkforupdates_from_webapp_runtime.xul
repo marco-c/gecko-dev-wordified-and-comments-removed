@@ -609,8 +609,8 @@ app
 manifestURL
 )
 ;
+{
 let
-(
 deferred
 =
 Promise
@@ -618,8 +618,7 @@ Promise
 defer
 (
 )
-)
-{
+;
 request
 .
 onerror
@@ -674,8 +673,8 @@ null
 "
 )
 ;
+{
 let
-(
 deferred
 =
 Promise
@@ -683,8 +682,7 @@ Promise
 defer
 (
 )
-)
-{
+;
 appObject
 .
 ondownloaderror
@@ -720,7 +718,6 @@ deferred
 promise
 ;
 }
-;
 while
 (
 !
