@@ -491,6 +491,13 @@ Type
 )
 const
 ;
+inline
+bool
+StoresOwnData
+(
+)
+const
+;
 void
 Reset
 (
