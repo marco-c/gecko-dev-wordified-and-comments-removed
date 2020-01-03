@@ -711,7 +711,10 @@ nscoord
 *
 mColSizes
 ;
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 mFirstDragPoint
 ;
 int32_t

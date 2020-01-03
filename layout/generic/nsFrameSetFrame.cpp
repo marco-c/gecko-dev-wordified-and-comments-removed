@@ -6666,16 +6666,10 @@ aBorder
 ;
 mFirstDragPoint
 =
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 aEvent
 -
 >
 refPoint
-)
 ;
 if
 (
