@@ -1016,9 +1016,6 @@ bool
 mDemuxerInitialized
 ;
 bool
-mFoundSPSForTelemetry
-;
-bool
 mIsEncrypted
 ;
 bool
