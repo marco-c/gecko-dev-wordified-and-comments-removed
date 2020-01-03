@@ -1469,8 +1469,6 @@ isHelpAvailable
 ;
 dictionary
 MozStkBrowserSetting
-:
-MozStkIconContainer
 {
 /
 *
@@ -1530,8 +1528,6 @@ mode
 ;
 dictionary
 MozStkSetUpCall
-:
-MozStkIconContainer
 {
 /
 *
