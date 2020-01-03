@@ -108,6 +108,8 @@ do
 bool
 cond
 =
+!
+!
 (
 c
 )

@@ -13145,6 +13145,8 @@ IsOffscreen
 const
 {
 return
+!
+!
 mScreen
 ;
 }
