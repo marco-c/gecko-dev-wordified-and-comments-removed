@@ -321,11 +321,6 @@ LoadContext
 nsIPrincipal
 *
 aPrincipal
-nsILoadContext
-*
-aOptionalBase
-=
-nullptr
 )
 ;
 private

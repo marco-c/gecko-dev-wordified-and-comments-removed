@@ -3575,11 +3575,6 @@ aResult
 nsIPrincipal
 *
 aPrincipal
-nsILoadGroup
-*
-aOptionalBase
-=
-nullptr
 )
 ;
 bool
