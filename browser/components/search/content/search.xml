@@ -9812,15 +9812,11 @@ value
 =
 data
 ;
-document
-.
-getBindingParent
-(
 this
-)
 .
-openSuggestionsPanel
+onTextEntered
 (
+event
 )
 ;
 }
