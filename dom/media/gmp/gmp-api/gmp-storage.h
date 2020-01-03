@@ -24,7 +24,7 @@ h
 define
 GMP_MAX_RECORD_SIZE
 (
-1024
+10
 *
 1024
 *
@@ -33,7 +33,7 @@ GMP_MAX_RECORD_SIZE
 #
 define
 GMP_MAX_RECORD_NAME_SIZE
-200
+2000
 class
 GMPRecord
 {
