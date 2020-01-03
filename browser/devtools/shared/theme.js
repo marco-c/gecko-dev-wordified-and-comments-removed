@@ -399,6 +399,13 @@ newTheme
 =
 >
 {
+let
+oldTheme
+=
+getTheme
+(
+)
+;
 Services
 .
 prefs
@@ -435,9 +442,7 @@ newValue
 newTheme
 oldValue
 :
-getTheme
-(
-)
+oldTheme
 }
 )
 ;
