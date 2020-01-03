@@ -202,6 +202,11 @@ aCORSMode
 )
 ;
 void
+ClearLoader
+(
+)
+;
+void
 AddProxy
 (
 imgRequestProxy
@@ -554,6 +559,11 @@ bool
 block
 )
 const
+;
+bool
+HasConsumers
+(
+)
 ;
 public
 :
