@@ -1845,6 +1845,7 @@ double
 *
 aValue
 )
+override
 ;
 virtual
 bool
@@ -1862,6 +1863,7 @@ bool
 *
 aRetVal
 )
+override
 ;
 virtual
 bool
@@ -1875,6 +1877,7 @@ double
 *
 aValue
 )
+override
 ;
 virtual
 bool
@@ -1888,6 +1891,7 @@ double
 *
 aValue
 )
+override
 ;
 virtual
 bool
@@ -1901,6 +1905,7 @@ double
 *
 aStep
 )
+override
 ;
 virtual
 bool
