@@ -8510,6 +8510,9 @@ vp
 if
 (
 !
+jit
+:
+:
 IsBaselineEnabled
 (
 cx
@@ -8672,6 +8675,9 @@ vp
 if
 (
 !
+jit
+:
+:
 IsIonEnabled
 (
 cx

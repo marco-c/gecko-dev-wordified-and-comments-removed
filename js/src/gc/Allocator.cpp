@@ -1900,6 +1900,9 @@ runtimeFromAnyThread
 (
 )
 ;
+mozilla
+:
+:
 Maybe
 <
 AutoLockGC
