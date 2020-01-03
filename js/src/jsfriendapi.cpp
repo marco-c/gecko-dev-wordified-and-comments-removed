@@ -3411,11 +3411,9 @@ callback
 rt
 -
 >
-setTelemetryCallback
-(
-rt
+telemetryCallback
+=
 callback
-)
 ;
 }
 JS_FRIEND_API
