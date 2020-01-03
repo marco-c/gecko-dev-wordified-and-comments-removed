@@ -58,14 +58,6 @@ i
 -
 )
 {
-document
-.
-activeElement
-.
-blur
-(
-)
-;
 EventUtils
 .
 synthesizeKey
