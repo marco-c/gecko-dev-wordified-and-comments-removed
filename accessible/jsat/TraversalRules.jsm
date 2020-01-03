@@ -4,13 +4,6 @@ strict
 '
 ;
 const
-Cc
-=
-Components
-.
-classes
-;
-const
 Ci
 =
 Components
@@ -23,13 +16,6 @@ Cu
 Components
 .
 utils
-;
-const
-Cr
-=
-Components
-.
-results
 ;
 this
 .
@@ -573,6 +559,9 @@ ROWHEADER
 Roles
 .
 STATUSBAR
+Roles
+.
+SWITCH
 ]
 ;
 var
@@ -1204,6 +1193,9 @@ CHECKBUTTON
 Roles
 .
 CHECK_MENU_ITEM
+Roles
+.
+SWITCH
 ]
 )
 Graphic
@@ -1469,6 +1461,9 @@ CHECKBUTTON
 Roles
 .
 CHECK_MENU_ITEM
+Roles
+.
+SWITCH
 ]
 )
 _shouldSkipImage
