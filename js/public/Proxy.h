@@ -862,7 +862,7 @@ false
 }
 ;
 class
-JS_PUBLIC_API
+JS_FRIEND_API
 (
 DirectProxyHandler
 )
