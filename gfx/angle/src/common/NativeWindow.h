@@ -31,6 +31,9 @@ platform
 .
 h
 "
+#
+ifdef
+ANGLE_ENABLE_D3D11
 typedef
 IDXGISwapChain
 DXGISwapChain
@@ -39,6 +42,8 @@ typedef
 IDXGIFactory
 DXGIFactory
 ;
+#
+endif
 namespace
 rx
 {
@@ -99,6 +104,9 @@ mWindow
 TRUE
 ;
 }
+#
+ifdef
+ANGLE_ENABLE_D3D11
 HRESULT
 createSwapChain
 (
@@ -120,6 +128,8 @@ DXGISwapChain
 swapChain
 )
 ;
+#
+endif
 inline
 EGLNativeWindowType
 getNativeWindow

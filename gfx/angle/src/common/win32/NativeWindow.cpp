@@ -53,6 +53,9 @@ window
 )
 {
 }
+#
+ifdef
+ANGLE_ENABLE_D3D11
 HRESULT
 NativeWindow
 :
@@ -249,5 +252,7 @@ swapChain
 )
 ;
 }
+#
+endif
 }
 ;
