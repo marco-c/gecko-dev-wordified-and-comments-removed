@@ -2390,7 +2390,10 @@ activeTab
 .
 detach
 (
+)
+;
 cleanupAndResolve
+(
 )
 ;
 }
