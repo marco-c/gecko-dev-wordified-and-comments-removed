@@ -47218,6 +47218,9 @@ info
 if
 (
 gLiveDatabaseHashtable
+&
+&
+gLiveDatabaseHashtable
 -
 >
 Get
