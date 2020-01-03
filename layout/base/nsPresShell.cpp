@@ -11340,6 +11340,9 @@ SelectionCaretPrefEnabled
 &
 &
 mSelectionCarets
+&
+&
+mSelectionCarets
 -
 >
 GetVisibility
