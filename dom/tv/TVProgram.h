@@ -209,9 +209,6 @@ mDescription
 nsString
 mRating
 ;
-bool
-mIsInterrupting
-;
 nsTArray
 <
 nsString
