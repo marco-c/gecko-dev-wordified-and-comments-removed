@@ -864,6 +864,11 @@ FlushDecoding
 (
 )
 ;
+void
+ResyncAudioClock
+(
+)
+;
 int64_t
 GetAudioClock
 (
