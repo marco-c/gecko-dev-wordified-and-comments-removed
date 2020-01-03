@@ -25269,12 +25269,6 @@ temp
 )
 )
 ;
-assignSnapshot
-(
-lir
-Bailout_BoundsCheck
-)
-;
 define
 (
 lir
@@ -25326,12 +25320,6 @@ lanesUses
 temp
 (
 )
-)
-;
-assignSnapshot
-(
-lir
-Bailout_BoundsCheck
 )
 ;
 define
