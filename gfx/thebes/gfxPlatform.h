@@ -159,6 +159,9 @@ gl
 class
 SkiaGLGlue
 ;
+class
+GLContext
+;
 }
 namespace
 gfx
@@ -1897,6 +1900,15 @@ DeviceInitData
 aOut
 )
 ;
+bool
+CanDetachSurfaceTexture
+(
+)
+{
+return
+mCanDetachSurfaceTexture
+;
+}
 protected
 :
 gfxPlatform
@@ -2344,6 +2356,9 @@ layers
 :
 LayersBackend
 mCompositorBackend
+;
+bool
+mCanDetachSurfaceTexture
 ;
 }
 ;
