@@ -191,13 +191,6 @@ jsm
 '
 widgets
 /
-Graphs
-.
-jsm
-'
-'
-widgets
-/
 GraphsWorker
 .
 js
@@ -384,6 +377,13 @@ js
 widgets
 /
 FlameGraph
+.
+js
+'
+'
+widgets
+/
+Graphs
 .
 js
 '
