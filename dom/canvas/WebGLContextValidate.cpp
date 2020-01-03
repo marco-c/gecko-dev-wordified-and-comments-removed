@@ -7187,6 +7187,12 @@ Clear
 (
 )
 ;
+mBoundSamplers
+.
+Clear
+(
+)
+;
 mBoundArrayBuffer
 =
 nullptr
@@ -7341,6 +7347,13 @@ mGLMaxTextureUnits
 )
 ;
 mBound3DTextures
+.
+SetLength
+(
+mGLMaxTextureUnits
+)
+;
+mBoundSamplers
 .
 SetLength
 (

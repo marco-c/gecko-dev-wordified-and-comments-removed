@@ -1434,6 +1434,12 @@ Clear
 (
 )
 ;
+mBoundSamplers
+.
+Clear
+(
+)
+;
 mBoundArrayBuffer
 =
 nullptr
@@ -8400,6 +8406,7 @@ mExtensions
 mBound2DTextures
 mBoundCubeMapTextures
 mBound3DTextures
+mBoundSamplers
 mBoundArrayBuffer
 mBoundCopyReadBuffer
 mBoundCopyWriteBuffer
