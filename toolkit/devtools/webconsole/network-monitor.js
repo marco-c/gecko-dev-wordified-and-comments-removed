@@ -2610,6 +2610,7 @@ owner
 addRequestHeaders
 (
 headers
+aExtraStringData
 )
 ;
 httpActivity
@@ -3079,6 +3080,7 @@ owner
 addResponseStart
 (
 response
+aExtraStringData
 )
 ;
 }
