@@ -137,7 +137,10 @@ ProjectTo2D
 (
 )
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 clipRect
 =
 aLayer
@@ -335,7 +338,10 @@ char
 *
 aColor
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 aRect
 )
 {
@@ -456,7 +462,10 @@ RenderTraceInvalidateStart
 (
 aLayer
 aColor
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 )
 )

@@ -6335,7 +6335,7 @@ gfxUtils
 sDumpPainting
 )
 {
-nsIntRect
+IntRect
 rect
 ;
 if
@@ -6345,7 +6345,7 @@ mUseExternalSurfaceSize
 {
 rect
 =
-nsIntRect
+IntRect
 (
 0
 0

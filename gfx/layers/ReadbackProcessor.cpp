@@ -407,7 +407,7 @@ _32
 )
 )
 ;
-nsIntRect
+IntRect
 rectInBackground
 (
 transformOffset
@@ -530,7 +530,7 @@ ViewAs
 ParentLayerPixel
 >
 (
-nsIntRect
+IntRect
 (
 transformOffset
 aLayer
@@ -864,7 +864,7 @@ PaintedLayer
 newBackground
 )
 ;
-nsIntRect
+IntRect
 updateRect
 =
 aLayer

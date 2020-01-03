@@ -71,7 +71,10 @@ char
 *
 aColor
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 aRect
 )
 ;
@@ -218,7 +221,10 @@ char
 *
 aColor
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 aRect
 )
 {

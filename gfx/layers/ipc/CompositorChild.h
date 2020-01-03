@@ -346,7 +346,10 @@ SurfaceDescriptor
 &
 inSnapshot
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 dirtyRect
 )

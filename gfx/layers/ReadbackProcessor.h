@@ -63,7 +63,10 @@ ReadbackLayer
 *
 mLayer
 ;
-nsIntRect
+gfx
+:
+:
+IntRect
 mUpdateRect
 ;
 uint64_t

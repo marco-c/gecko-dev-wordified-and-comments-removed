@@ -4085,7 +4085,7 @@ Round
 (
 )
 ;
-nsIntRect
+IntRect
 tmp
 ;
 if
@@ -9539,7 +9539,7 @@ aRegion
 while
 (
 const
-nsIntRect
+IntRect
 *
 sr
 =
@@ -12041,7 +12041,7 @@ return
 ;
 }
 const
-nsIntRect
+IntRect
 &
 bounds
 =
@@ -12160,7 +12160,7 @@ permitSubpixelAA
 )
 ;
 }
-nsIntRect
+IntRect
 ToOutsideIntRect
 (
 const
@@ -12181,7 +12181,7 @@ RoundOut
 )
 ;
 return
-nsIntRect
+IntRect
 (
 r
 .

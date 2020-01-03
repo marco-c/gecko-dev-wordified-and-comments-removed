@@ -386,7 +386,10 @@ aVisibleRegion
 while
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 *
 rect
 =

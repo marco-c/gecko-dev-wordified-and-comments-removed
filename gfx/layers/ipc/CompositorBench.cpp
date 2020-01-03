@@ -2368,7 +2368,7 @@ Now
 (
 )
 ;
-nsIntRect
+IntRect
 screenRect
 (
 aScreenRect
@@ -2390,7 +2390,7 @@ aCompositor
 >
 BeginFrame
 (
-nsIntRect
+IntRect
 (
 screenRect
 .
