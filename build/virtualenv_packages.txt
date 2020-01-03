@@ -99,14 +99,6 @@ licenses
 /
 ply
 /
-codegen
-.
-pth
-:
-python
-/
-codegen
-/
 mock
 .
 pth
