@@ -2112,9 +2112,11 @@ span
 ENTITY
 oldSecurityProtocol
 .
-longDesc
+longDesc2
 "
-Firefox
+&
+brandShortName
+;
 cannot
 guarantee
 the
