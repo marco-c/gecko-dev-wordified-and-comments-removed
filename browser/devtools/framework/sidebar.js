@@ -1280,6 +1280,13 @@ this
 _tabbox
 .
 tabpanels
+&
+&
+this
+.
+_tabbox
+.
+tabpanels
 .
 hasChildNodes
 (
@@ -1332,6 +1339,13 @@ remove
 }
 while
 (
+this
+.
+_tabbox
+.
+tabs
+&
+&
 this
 .
 _tabbox
