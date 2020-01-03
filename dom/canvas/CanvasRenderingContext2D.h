@@ -3188,6 +3188,7 @@ int32_t
 *
 aFormat
 )
+MOZ_OVERRIDE
 ;
 nsString
 GetHitRegion
@@ -3203,6 +3204,7 @@ Point
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 bool
 GetHitRegionRect
@@ -3214,6 +3216,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 ;
 protected
 :

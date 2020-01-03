@@ -803,8 +803,9 @@ WrapObject
 (
 JSContext
 *
-cx
+aCx
 )
+MOZ_OVERRIDE
 =
 0
 ;
