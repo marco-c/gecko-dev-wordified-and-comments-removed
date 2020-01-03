@@ -1906,6 +1906,11 @@ do_GetInterface
 docShell
 )
 ;
+if
+(
+tabChild
+)
+{
 static_cast
 <
 TabChild
@@ -1927,6 +1932,7 @@ nullptr
 0
 )
 ;
+}
 }
 }
 }
