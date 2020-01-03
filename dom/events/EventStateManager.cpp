@@ -16137,6 +16137,16 @@ aRelatedContent
 remoteEvent
 )
 ;
+remoteEvent
+-
+>
+exit
+=
+WidgetMouseEvent
+:
+:
+eTopLevel
+;
 mCurrentTarget
 =
 targetFrame
