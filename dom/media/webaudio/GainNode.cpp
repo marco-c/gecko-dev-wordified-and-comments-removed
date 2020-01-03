@@ -76,6 +76,7 @@ AudioNode
 )
 class
 GainNodeEngine
+final
 :
 public
 AudioNodeEngine

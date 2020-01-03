@@ -76,6 +76,7 @@ AudioNode
 )
 class
 OscillatorNodeEngine
+final
 :
 public
 AudioNodeEngine
@@ -2371,6 +2372,7 @@ IsFinished
 {
 class
 EndedEventDispatcher
+final
 :
 public
 nsRunnable
@@ -2391,10 +2393,11 @@ aNode
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (

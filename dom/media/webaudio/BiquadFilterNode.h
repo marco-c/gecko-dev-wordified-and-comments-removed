@@ -40,6 +40,7 @@ AudioContext
 ;
 class
 BiquadFilterNode
+final
 :
 public
 AudioNode

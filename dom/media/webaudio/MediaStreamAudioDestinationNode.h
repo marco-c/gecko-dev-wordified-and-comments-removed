@@ -19,6 +19,7 @@ dom
 {
 class
 MediaStreamAudioDestinationNode
+final
 :
 public
 AudioNode

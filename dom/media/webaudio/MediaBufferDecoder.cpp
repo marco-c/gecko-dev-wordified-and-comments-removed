@@ -216,6 +216,7 @@ dom
 ;
 class
 ReportResultTask
+final
 :
 public
 nsRunnable
@@ -317,6 +318,7 @@ Done
 ;
 class
 MediaDecodeTask
+final
 :
 public
 nsRunnable
@@ -817,6 +819,7 @@ true
 }
 class
 AutoResampler
+final
 {
 public
 :

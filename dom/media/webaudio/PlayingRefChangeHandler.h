@@ -26,6 +26,7 @@ dom
 {
 class
 PlayingRefChangeHandler
+final
 :
 public
 nsRunnable

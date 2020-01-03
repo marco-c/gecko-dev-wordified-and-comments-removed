@@ -32,6 +32,7 @@ mozilla
 {
 class
 FFTBlock
+final
 {
 public
 :

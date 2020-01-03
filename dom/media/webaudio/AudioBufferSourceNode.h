@@ -29,6 +29,7 @@ AudioParam
 ;
 class
 AudioBufferSourceNode
+final
 :
 public
 AudioNode

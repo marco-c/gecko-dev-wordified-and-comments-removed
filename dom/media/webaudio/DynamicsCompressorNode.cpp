@@ -95,6 +95,7 @@ AudioNode
 )
 class
 DynamicsCompressorNodeEngine
+final
 :
 public
 AudioNodeEngine
@@ -639,6 +640,7 @@ NS_IsMainThread
 ;
 class
 Command
+final
 :
 public
 nsRunnable
@@ -664,10 +666,11 @@ aReduction
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 nsRefPtr
 <

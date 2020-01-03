@@ -26,6 +26,7 @@ dom
 {
 class
 ConvolverNode
+final
 :
 public
 AudioNode

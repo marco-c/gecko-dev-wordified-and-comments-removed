@@ -166,6 +166,7 @@ gWebAudioOutputKey
 ;
 class
 OfflineDestinationNodeEngine
+final
 :
 public
 AudioNodeEngine
@@ -653,6 +654,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsRefPtr
 <
@@ -956,6 +958,7 @@ mBufferAllocated
 ;
 class
 InputMutedRunnable
+final
 :
 public
 nsRunnable
@@ -985,6 +988,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -1063,6 +1067,7 @@ mInputMuted
 ;
 class
 DestinationNodeEngine
+final
 :
 public
 AudioNodeEngine

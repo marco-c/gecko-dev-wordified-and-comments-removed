@@ -34,6 +34,7 @@ mozilla
 {
 class
 DelayBuffer
+final
 {
 typedef
 dom

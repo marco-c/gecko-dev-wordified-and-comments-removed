@@ -47,6 +47,7 @@ AudioNode
 )
 class
 ChannelMergerNodeEngine
+final
 :
 public
 AudioNodeEngine

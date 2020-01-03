@@ -32,6 +32,7 @@ mozilla
 {
 class
 AudioNodeExternalInputStream
+final
 :
 public
 AudioNodeStream

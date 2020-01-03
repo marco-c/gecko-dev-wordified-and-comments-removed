@@ -386,6 +386,7 @@ SendChannelMixingParametersToStream
 }
 struct
 InputNode
+final
 {
 ~
 InputNode

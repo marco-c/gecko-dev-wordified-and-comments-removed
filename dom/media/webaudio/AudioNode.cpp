@@ -1666,6 +1666,7 @@ return
 }
 class
 RunnableRelease
+final
 :
 public
 nsRunnable

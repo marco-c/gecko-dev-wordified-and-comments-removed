@@ -65,6 +65,7 @@ dom
 {
 struct
 AudioTimelineEvent
+final
 {
 enum
 Type

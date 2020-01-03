@@ -114,11 +114,13 @@ AudioNode
 )
 class
 SharedBuffers
+final
 {
 private
 :
 class
 OutputQueue
+final
 {
 public
 :
@@ -873,6 +875,7 @@ mDroppingBuffers
 ;
 class
 ScriptProcessorNodeEngine
+final
 :
 public
 AudioNodeEngine
@@ -1431,6 +1434,7 @@ playbackTick
 ;
 class
 Command
+final
 :
 public
 nsRunnable
@@ -1518,10 +1522,11 @@ forget
 }
 }
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 nsRefPtr
 <

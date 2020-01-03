@@ -41,6 +41,7 @@ mozilla
 {
 class
 BufferDecoder
+final
 :
 public
 AbstractMediaDecoder
