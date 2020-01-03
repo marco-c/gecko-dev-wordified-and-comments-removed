@@ -245,6 +245,13 @@ nsFilterInstance
 nsIFrame
 *
 aTargetFrame
+const
+nsTArray
+<
+nsStyleFilter
+>
+&
+aFilterChain
 nsSVGFilterPaintCallback
 *
 aPaintCallback
@@ -373,6 +380,13 @@ aTargetDT
 nsresult
 BuildPrimitives
 (
+const
+nsTArray
+<
+nsStyleFilter
+>
+&
+aFilterChain
 )
 ;
 nsresult
