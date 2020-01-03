@@ -9050,17 +9050,6 @@ sLoadingInProgress
 =
 false
 ;
-PokeGC
-(
-JS
-:
-:
-gcreason
-:
-:
-LOAD_END
-)
-;
 }
 static
 bool
