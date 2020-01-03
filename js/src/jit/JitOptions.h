@@ -182,6 +182,9 @@ disableAma
 bool
 eagerCompilation
 ;
+bool
+forceInlineCaches
+;
 mozilla
 :
 :

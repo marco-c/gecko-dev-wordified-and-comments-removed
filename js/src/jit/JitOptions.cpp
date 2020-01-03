@@ -456,6 +456,12 @@ eagerCompilation
 false
 )
 ;
+SET_DEFAULT
+(
+forceInlineCaches
+false
+)
+;
 const
 char
 *
