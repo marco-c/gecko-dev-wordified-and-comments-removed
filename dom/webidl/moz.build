@@ -1985,6 +1985,11 @@ Screen
 webidl
 '
 '
+ScreenOrientation
+.
+webidl
+'
+'
 ScriptProcessorNode
 .
 webidl
