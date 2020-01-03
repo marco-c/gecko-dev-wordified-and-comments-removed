@@ -146,13 +146,6 @@ XRE_IsParentProcess
 )
 )
 ;
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 }
 void
 CompositorVsyncDispatcher
