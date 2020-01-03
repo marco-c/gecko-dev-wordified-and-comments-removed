@@ -111,10 +111,8 @@ fsmdef_dcbs
 #
 define
 FSMXFR_NULL_DIALSTRING
-'
-\
-0
-'
+"
+"
 static
 fsmxfr_xcb_t
 *
@@ -138,6 +136,7 @@ static
 const
 char
 *
+const
 fsmxfr_state_names
 [
 ]
