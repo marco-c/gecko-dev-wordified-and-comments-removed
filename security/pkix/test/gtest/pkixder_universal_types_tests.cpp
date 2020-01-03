@@ -1275,7 +1275,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 GeneralizedTime
 (
 reader
@@ -1311,7 +1311,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 TimeChoice
 (
 reader
@@ -1335,7 +1335,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 TimeChoiceForEquivalentUTCTime
 (
 generalizedTimeDER
@@ -1545,7 +1545,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 GeneralizedTime
 (
 gt
@@ -1570,7 +1570,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 TimeChoice
 (
 tc_gt
@@ -1606,7 +1606,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 TimeChoice
 (
 tc_utc
@@ -3124,7 +3124,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 GeneralizedTime
 (
 reader
@@ -3160,7 +3160,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 TimeChoice
 (
 reader
@@ -3950,7 +3950,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 GeneralizedTime
 (
 reader
@@ -3986,7 +3986,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 TimeChoice
 (
 reader

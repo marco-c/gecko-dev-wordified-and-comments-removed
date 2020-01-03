@@ -1231,7 +1231,7 @@ return
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 ;
 }
 if
@@ -1254,7 +1254,7 @@ return
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 ;
 }
 value
@@ -1377,7 +1377,7 @@ return
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 ;
 }
 return
@@ -1548,7 +1548,7 @@ TimeChoice
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 )
 ;
 }
@@ -1575,7 +1575,7 @@ return
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 ;
 }
 days
@@ -2175,7 +2175,7 @@ return
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 ;
 }
 if
@@ -2192,7 +2192,7 @@ return
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 ;
 }
 if
@@ -2210,7 +2210,7 @@ return
 Result
 :
 :
-ERROR_INVALID_TIME
+ERROR_INVALID_DER_TIME
 ;
 }
 uint64_t
