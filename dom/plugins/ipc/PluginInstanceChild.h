@@ -272,7 +272,7 @@ endif
 protected
 :
 bool
-AnswerNPP_SetWindow
+AnswerCreateChildPluginWindow
 (
 const
 NPRemoteWindow
@@ -280,7 +280,17 @@ NPRemoteWindow
 window
 NPRemoteWindow
 *
-aChildWindowToBeAdopted
+aCreatedChild
+)
+override
+;
+bool
+AnswerNPP_SetWindow
+(
+const
+NPRemoteWindow
+&
+window
 )
 override
 ;
