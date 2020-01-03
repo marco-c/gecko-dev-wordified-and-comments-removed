@@ -533,6 +533,12 @@ false
 ;
 init
 .
+mUtterance
+=
+this
+;
+init
+.
 mCharIndex
 =
 aCharIndex

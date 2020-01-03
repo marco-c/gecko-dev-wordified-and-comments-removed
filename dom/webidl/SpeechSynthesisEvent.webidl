@@ -178,6 +178,11 @@ Event
 {
 readonly
 attribute
+SpeechSynthesisUtterance
+utterance
+;
+readonly
+attribute
 unsigned
 long
 charIndex
@@ -200,6 +205,10 @@ SpeechSynthesisEventInit
 :
 EventInit
 {
+required
+SpeechSynthesisUtterance
+utterance
+;
 unsigned
 long
 charIndex
