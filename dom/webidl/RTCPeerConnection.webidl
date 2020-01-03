@@ -649,6 +649,9 @@ getConfiguration
 (
 )
 ;
+[
+UnsafeInPrerendering
+]
 sequence
 <
 MediaStream
@@ -657,6 +660,9 @@ getLocalStreams
 (
 )
 ;
+[
+UnsafeInPrerendering
+]
 sequence
 <
 MediaStream
@@ -665,6 +671,9 @@ getRemoteStreams
 (
 )
 ;
+[
+UnsafeInPrerendering
+]
 MediaStream
 ?
 getStreamById

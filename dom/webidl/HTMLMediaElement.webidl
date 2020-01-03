@@ -640,6 +640,7 @@ stream
 capture
 [
 Throws
+UnsafeInPrerendering
 ]
 MediaStream
 mozCaptureStream
@@ -648,6 +649,7 @@ mozCaptureStream
 ;
 [
 Throws
+UnsafeInPrerendering
 ]
 MediaStream
 mozCaptureStreamUntilEnded

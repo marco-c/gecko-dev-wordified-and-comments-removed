@@ -2466,6 +2466,7 @@ Navigator
 :
 HasUserMediaSupport
 "
+UnsafeInPrerendering
 ]
 void
 mozGetUserMedia
