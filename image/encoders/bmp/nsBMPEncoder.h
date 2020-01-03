@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_image_encoders_bmp_nsBMPEncoder_h
+#
+define
+mozilla_image_encoders_bmp_nsBMPEncoder_h
+#
 include
 "
 mozilla
@@ -274,3 +280,5 @@ mNotifyThreshold
 ;
 }
 ;
+#
+endif
