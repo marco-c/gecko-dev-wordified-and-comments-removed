@@ -4226,13 +4226,6 @@ index
 )
 {
 let
-target
-=
-aEvent
-.
-originalTarget
-;
-let
 source
 =
 "
@@ -4286,6 +4279,13 @@ instanceof
 MouseEvent
 )
 {
+let
+target
+=
+aEvent
+.
+originalTarget
+;
 type
 =
 "
