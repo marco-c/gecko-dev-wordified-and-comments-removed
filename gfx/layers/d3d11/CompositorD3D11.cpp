@@ -5072,7 +5072,7 @@ height
 mSize
 .
 width
-=
+<
 =
 0
 |
@@ -5080,7 +5080,7 @@ width
 mSize
 .
 height
-=
+<
 =
 0
 )
