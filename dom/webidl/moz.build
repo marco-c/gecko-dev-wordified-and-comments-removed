@@ -3084,6 +3084,11 @@ SpeechSynthesis
 webidl
 '
 '
+SpeechSynthesisErrorEvent
+.
+webidl
+'
+'
 SpeechSynthesisEvent
 .
 webidl
@@ -3885,6 +3890,11 @@ GENERATED_EVENTS_WEBIDL_FILES
 [
 '
 SpeechRecognitionEvent
+.
+webidl
+'
+'
+SpeechSynthesisErrorEvent
 .
 webidl
 '
