@@ -12743,12 +12743,6 @@ lock
 mMutex
 )
 ;
-if
-(
-!
-mFinished
-)
-{
 TrackData
 *
 track
@@ -12771,7 +12765,6 @@ mCommands
 =
 TRACK_END
 ;
-}
 }
 if
 (
