@@ -7938,6 +7938,12 @@ kind
 =
 =
 Arrow
+|
+|
+kind
+=
+=
+Method
 ;
 if
 (
