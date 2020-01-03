@@ -9187,7 +9187,6 @@ GetParent
 bool
 shouldHidePlugin
 =
-(
 !
 lts
 .
@@ -9203,13 +9202,6 @@ mRoot
 GetParent
 (
 )
-)
-&
-&
-!
-lts
-.
-mUpdatedPluginDataAvailable
 ;
 if
 (
