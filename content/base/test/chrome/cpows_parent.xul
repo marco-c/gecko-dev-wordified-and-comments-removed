@@ -1788,7 +1788,7 @@ Xrays
 "
 )
 ;
-todo_is
+is
 (
 unprivilegedObject
 .
@@ -1806,10 +1806,6 @@ should
 get
 waivable
 Xrays
--
-see
-bug
-1065811
 "
 )
 ;

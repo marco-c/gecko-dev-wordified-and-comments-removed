@@ -3510,7 +3510,9 @@ JSObject
 *
 obj
 =
-findObjectById
+objects_
+.
+find
 (
 objId
 )
@@ -3520,7 +3522,14 @@ if
 obj
 )
 {
-objectIds_
+objectIdMap
+(
+objId
+.
+hasXrayWaiver
+(
+)
+)
 .
 remove
 (

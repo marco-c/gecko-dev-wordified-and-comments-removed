@@ -511,7 +511,9 @@ obj
 shared
 -
 >
-findObjectById
+objects_
+.
+find
 (
 id
 )
