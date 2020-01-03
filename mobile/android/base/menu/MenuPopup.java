@@ -286,7 +286,11 @@ anchor
 {
 setHeight
 (
-mPopupMinHeight
+mPanel
+.
+getHeight
+(
+)
 )
 ;
 final
