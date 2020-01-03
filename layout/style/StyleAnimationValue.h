@@ -47,6 +47,9 @@ nsCSSValue
 h
 "
 class
+nsIFrame
+;
+class
 nsStyleContext
 ;
 class
@@ -781,6 +784,16 @@ aBuffer
 )
 ;
 }
+gfxSize
+GetScaleValue
+(
+const
+nsIFrame
+*
+aForFrame
+)
+const
+;
 explicit
 StyleAnimationValue
 (

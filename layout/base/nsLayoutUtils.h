@@ -1634,6 +1634,15 @@ aFrame
 )
 ;
 static
+gfxSize
+GetTransformToAncestorScaleExcludingAnimated
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsIFrame
 *
 FindNearestCommonAncestorFrame

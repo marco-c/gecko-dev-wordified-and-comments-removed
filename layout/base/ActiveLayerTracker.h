@@ -111,6 +111,15 @@ aFrame
 )
 ;
 static
+bool
+IsScaleSubjectToAnimation
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 TransferActivityToContent
 (
