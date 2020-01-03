@@ -26,9 +26,9 @@ js
 -
 enable
 -
-arm
--
 simulator
+=
+arm
 -
 -
 target

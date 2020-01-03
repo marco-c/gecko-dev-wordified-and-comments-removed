@@ -23637,7 +23637,7 @@ simulatorMarkSP
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 svc
 (
 vixl
@@ -23656,7 +23656,7 @@ simulatorCheckSP
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 svc
 (
 vixl

@@ -21539,7 +21539,7 @@ true
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 typedef
 Vector
@@ -21901,7 +21901,7 @@ vp
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 CallArgs
 args
@@ -22000,7 +22000,7 @@ vp
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 CallArgs
 args
@@ -35232,7 +35232,7 @@ endif
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 if
 (
@@ -35300,7 +35300,7 @@ stopAt
 elif
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 if
 (
@@ -38222,7 +38222,7 @@ endif
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 |
 |
@@ -38303,7 +38303,7 @@ instructions
 elif
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 |
 |

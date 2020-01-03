@@ -2,7 +2,7 @@
 if
 defined
 (
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 )
 #
 include

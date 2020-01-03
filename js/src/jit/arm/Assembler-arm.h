@@ -9974,7 +9974,7 @@ JS_CODEGEN_ARM_HARDFP
 |
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 static
 inline
@@ -10026,7 +10026,7 @@ JS_CODEGEN_ARM_HARDFP
 |
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 static
 inline

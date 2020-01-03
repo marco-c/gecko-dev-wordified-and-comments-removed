@@ -17912,11 +17912,8 @@ msg
 )
 {
 #
-if
-defined
-(
-JS_ARM_SIMULATOR
-)
+ifdef
+JS_SIMULATOR_ARM
 MOZ_ASSERT
 (
 sizeof
@@ -18105,7 +18102,7 @@ JS_CODEGEN_ARM_HARDFP
 |
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 usedFloatSlots_
 =
@@ -18264,7 +18261,7 @@ JS_CODEGEN_ARM_HARDFP
 |
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 void
 MacroAssemblerARMCompat
@@ -18648,7 +18645,7 @@ JS_CODEGEN_ARM_HARDFP
 |
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 void
 MacroAssemblerARMCompat
@@ -18939,7 +18936,7 @@ type
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 if
 (
@@ -19123,7 +19120,7 @@ JS_CODEGEN_ARM_HARDFP
 |
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 if
 (
@@ -19614,7 +19611,7 @@ DEBUG
 &
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 static
 void
@@ -19723,7 +19720,7 @@ result
 {
 #
 ifdef
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 MOZ_ASSERT
 (
 passedArgs_

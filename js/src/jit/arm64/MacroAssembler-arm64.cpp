@@ -1924,7 +1924,7 @@ DEBUG
 &
 defined
 (
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 )
 static
 void
@@ -2033,7 +2033,7 @@ result
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 MOZ_ASSERT
 (
 passedIntArgs_

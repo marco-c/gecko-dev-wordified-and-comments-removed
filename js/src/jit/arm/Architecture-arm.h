@@ -2907,11 +2907,8 @@ GetARMFlags
 )
 ;
 #
-if
-defined
-(
-JS_ARM_SIMULATOR
-)
+ifdef
+JS_SIMULATOR_ARM
 bool
 UseHardFpABI
 (

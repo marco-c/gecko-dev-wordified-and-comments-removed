@@ -152,7 +152,7 @@ GetCacheType
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 return
 0
 ;
@@ -206,7 +206,7 @@ length
 {
 #
 ifdef
-JS_ARM64_SIMULATOR
+JS_SIMULATOR_ARM64
 USE
 (
 address

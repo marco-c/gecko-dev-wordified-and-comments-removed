@@ -84,7 +84,7 @@ flags
 ;
 #
 ifdef
-JS_MIPS_SIMULATOR
+JS_SIMULATOR_MIPS
 isSet
 =
 true

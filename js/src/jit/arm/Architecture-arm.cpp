@@ -13,7 +13,7 @@ h
 "
 #
 ifndef
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 #
 include
 <
@@ -76,7 +76,7 @@ ANDROID
 |
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 #
 define
@@ -625,7 +625,7 @@ HWCAP_ALIGNMENT_FAULT
 if
 defined
 (
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 )
 else
 if
@@ -887,11 +887,8 @@ align
 n
 "
 #
-if
-defined
-(
-JS_ARM_SIMULATOR
-)
+ifdef
+JS_SIMULATOR_ARM
 "
 hardfp
 \
@@ -998,7 +995,7 @@ return
 ;
 #
 ifdef
-JS_ARM_SIMULATOR
+JS_SIMULATOR_ARM
 flags
 =
 HWCAP_ARMv7
@@ -1477,11 +1474,8 @@ HWCAP_IDIVA
 ;
 }
 #
-if
-defined
-(
-JS_ARM_SIMULATOR
-)
+ifdef
+JS_SIMULATOR_ARM
 bool
 UseHardFpABI
 (
