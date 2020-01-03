@@ -1638,14 +1638,12 @@ networkTypes
 .
 replace
 (
-"
+/
 -
 auto
-"
-"
-"
-"
+/
 g
+"
 "
 )
 .
