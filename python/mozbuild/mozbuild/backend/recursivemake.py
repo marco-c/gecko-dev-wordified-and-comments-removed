@@ -5671,10 +5671,14 @@ tests
 .
 add_pattern_symlink
 (
-obj
-.
-srcdir
 p
+[
+0
+]
+p
+[
+1
+]
 path
 )
         
