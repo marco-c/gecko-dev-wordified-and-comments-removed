@@ -105,7 +105,6 @@ CheckPermissions
 =
 "
 telephony
-mobileconnection
 "
 AvailableIn
 =
@@ -152,17 +151,6 @@ session
 is
 ended
 .
-readonly
-attribute
-boolean
-sessionEnded
-;
-/
-/
-deprecated
-.
-Bug
-1070831
 }
 ;
 dictionary
@@ -187,11 +175,6 @@ USSDSession
 session
 =
 null
-;
-boolean
-sessionEnded
-=
-false
 ;
 }
 ;
