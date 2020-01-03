@@ -4642,11 +4642,7 @@ classic
 /
 browser
 /
-preferences
-/
-in
--
-content
+fxa
 /
 default
 -
@@ -4661,7 +4657,7 @@ svg
 /
 shared
 /
-incontentprefs
+fxa
 /
 default
 -

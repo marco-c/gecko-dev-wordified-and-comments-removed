@@ -2087,7 +2087,7 @@ button
 )
 ;
 let
-panelbutton
+fxaContainer
 =
 document
 .
@@ -2096,9 +2096,9 @@ getElementById
 "
 PanelUI
 -
-fxa
+footer
 -
-status
+fxa
 "
 )
 ;
@@ -2128,7 +2128,7 @@ Assert
 .
 equal
 (
-panelbutton
+fxaContainer
 .
 getAttribute
 (
@@ -2164,7 +2164,7 @@ Assert
 ok
 (
 !
-panelbutton
+fxaContainer
 .
 hasAttribute
 (
