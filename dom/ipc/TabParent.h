@@ -767,6 +767,10 @@ virtual
 bool
 RecvOnEventNeedingAckReceived
 (
+const
+uint32_t
+&
+aMessage
 )
 override
 ;

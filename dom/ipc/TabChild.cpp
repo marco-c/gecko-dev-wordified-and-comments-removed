@@ -12022,6 +12022,9 @@ unused
 <
 SendOnEventNeedingAckReceived
 (
+event
+.
+message
 )
 ;
 WidgetCompositionEvent
@@ -12065,6 +12068,9 @@ unused
 <
 SendOnEventNeedingAckReceived
 (
+event
+.
+message
 )
 ;
 WidgetSelectionEvent

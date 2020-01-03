@@ -9555,6 +9555,10 @@ TabParent
 :
 RecvOnEventNeedingAckReceived
 (
+const
+uint32_t
+&
+aMessage
 )
 {
 nsCOMPtr
@@ -9591,6 +9595,7 @@ mContentCache
 OnEventNeedingAckReceived
 (
 widget
+aMessage
 )
 ;
 return

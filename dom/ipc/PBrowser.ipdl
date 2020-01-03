@@ -1773,6 +1773,17 @@ parent
 process
 .
 *
+*
+message
+The
+message
+value
+of
+the
+received
+event
+.
+*
 /
 prio
 (
@@ -1781,6 +1792,8 @@ urgent
 async
 OnEventNeedingAckReceived
 (
+uint32_t
+message
 )
 ;
 /

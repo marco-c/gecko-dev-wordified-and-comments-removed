@@ -5760,6 +5760,8 @@ OnEventNeedingAckReceived
 nsIWidget
 *
 aWidget
+uint32_t
+aMessage
 )
 {
 MOZ_LOG
@@ -5783,9 +5785,13 @@ aWidget
 0x
 %
 p
+"
+"
+aMessage
+=
+%
+s
 )
-"
-"
 mPendingEventsNeedingAck
 =
 %
@@ -5793,6 +5799,10 @@ u
 "
 this
 aWidget
+GetEventMessageName
+(
+aMessage
+)
 mPendingEventsNeedingAck
 )
 )
