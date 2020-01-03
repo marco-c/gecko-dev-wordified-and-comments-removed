@@ -738,7 +738,7 @@ layout
 const
 {
 return
-type
+group
 (
 )
 -
@@ -809,8 +809,8 @@ create
 JSContext
 *
 cx
-HandleTypeObject
-type
+HandleObjectGroup
+group
 NewObjectKind
 newKind
 )
@@ -858,9 +858,9 @@ templateShape
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 types
 :
 :

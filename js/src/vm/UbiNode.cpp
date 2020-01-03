@@ -599,7 +599,7 @@ ptr
 break
 ;
 case
-JSTRACE_TYPE_OBJECT
+JSTRACE_OBJECT_GROUP
 :
 construct
 (
@@ -611,7 +611,7 @@ js
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 >
 (
@@ -1611,7 +1611,7 @@ js
 types
 :
 :
-TypeObject
+ObjectGroup
 >
 :
 :
@@ -1628,7 +1628,7 @@ js
 types
 :
 :
-TypeObject
+ObjectGroup
 "
 )
 ;
@@ -1722,7 +1722,7 @@ js
 types
 :
 :
-TypeObject
+ObjectGroup
 >
 ;
 }

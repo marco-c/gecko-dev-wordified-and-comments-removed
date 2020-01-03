@@ -249,7 +249,7 @@ MapTypeToFinalizeKind
 types
 :
 :
-TypeObject
+ObjectGroup
 >
 {
 static
@@ -257,7 +257,7 @@ const
 AllocKind
 kind
 =
-FINALIZE_TYPE_OBJECT
+FINALIZE_OBJECT_GROUP
 ;
 }
 ;
@@ -1991,7 +1991,7 @@ gcScriptArenasToUpdate
 ;
 ArenaHeader
 *
-gcTypeObjectArenasToUpdate
+gcObjectGroupArenasToUpdate
 ;
 ArenaList
 savedObjectArenas
@@ -2105,7 +2105,7 @@ gcScriptArenasToUpdate
 =
 nullptr
 ;
-gcTypeObjectArenasToUpdate
+gcObjectGroupArenasToUpdate
 =
 nullptr
 ;

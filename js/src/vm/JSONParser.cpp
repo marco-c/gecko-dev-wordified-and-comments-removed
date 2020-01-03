@@ -3646,7 +3646,7 @@ compartment
 >
 types
 .
-fixObjectType
+fixObjectGroup
 (
 cx
 obj
@@ -3806,7 +3806,7 @@ compartment
 >
 types
 .
-fixArrayType
+fixArrayGroup
 (
 cx
 obj

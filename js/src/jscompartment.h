@@ -1037,8 +1037,8 @@ js
 types
 :
 :
-NewTypeObjectTable
-newTypeObjects
+NewObjectGroupTable
+newObjectGroups
 ;
 js
 :
@@ -1046,11 +1046,11 @@ js
 types
 :
 :
-NewTypeObjectTable
-lazyTypeObjects
+NewObjectGroupTable
+lazyObjectGroups
 ;
 void
-sweepNewTypeObjectTable
+sweepNewObjectGroupTable
 (
 js
 :
@@ -1058,7 +1058,7 @@ js
 types
 :
 :
-NewTypeObjectTable
+NewObjectGroupTable
 &
 table
 )
@@ -1067,12 +1067,12 @@ table
 ifdef
 JSGC_HASH_TABLE_CHECKS
 void
-checkTypeObjectTablesAfterMovingGC
+checkObjectGroupTablesAfterMovingGC
 (
 )
 ;
 void
-checkTypeObjectTableAfterMovingGC
+checkObjectGroupTableAfterMovingGC
 (
 js
 :
@@ -1080,7 +1080,7 @@ js
 types
 :
 :
-NewTypeObjectTable
+NewObjectGroupTable
 &
 table
 )
@@ -1539,7 +1539,7 @@ sweepCrossCompartmentWrappers
 )
 ;
 void
-sweepTypeObjectTables
+sweepObjectGroupTables
 (
 )
 ;
@@ -1611,7 +1611,7 @@ fixupInitialShapeTable
 )
 ;
 void
-fixupNewTypeObjectTable
+fixupNewObjectGroupTable
 (
 js
 :
@@ -1619,7 +1619,7 @@ js
 types
 :
 :
-NewTypeObjectTable
+NewObjectGroupTable
 &
 table
 )

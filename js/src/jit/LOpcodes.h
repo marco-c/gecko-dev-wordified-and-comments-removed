@@ -488,7 +488,7 @@ FunctionDispatch
 \
 _
 (
-TypeObjectDispatch
+ObjectGroupDispatch
 )
 \
 _
@@ -978,7 +978,7 @@ GuardShapePolymorphic
 \
 _
 (
-GuardObjectType
+GuardObjectGroup
 )
 \
 _

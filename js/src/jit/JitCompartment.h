@@ -479,7 +479,7 @@ shapePreBarrier_
 ;
 JitCode
 *
-typeObjectPreBarrier_
+objectGroupPreBarrier_
 ;
 JitCode
 *
@@ -1144,10 +1144,10 @@ return
 shapePreBarrier_
 ;
 case
-MIRType_TypeObject
+MIRType_ObjectGroup
 :
 return
-typeObjectPreBarrier_
+objectGroupPreBarrier_
 ;
 default
 :

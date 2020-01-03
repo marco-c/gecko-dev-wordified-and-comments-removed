@@ -1361,7 +1361,7 @@ getTemp
 }
 ;
 class
-LGuardObjectType
+LGuardObjectGroup
 :
 public
 LInstructionHelper
@@ -1375,10 +1375,10 @@ public
 :
 LIR_HEADER
 (
-GuardObjectType
+GuardObjectGroup
 )
 ;
-LGuardObjectType
+LGuardObjectGroup
 (
 const
 LAllocation
@@ -1404,7 +1404,7 @@ temp
 ;
 }
 const
-MGuardObjectType
+MGuardObjectGroup
 *
 mir
 (
@@ -1415,7 +1415,7 @@ return
 mir_
 -
 >
-toGuardObjectType
+toGuardObjectGroup
 (
 )
 ;

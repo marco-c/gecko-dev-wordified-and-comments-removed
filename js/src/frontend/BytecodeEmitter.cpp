@@ -20798,7 +20798,7 @@ count
 types
 :
 :
-FixArrayType
+FixArrayGroup
 (
 cx
 obj
@@ -21168,7 +21168,7 @@ false
 types
 :
 :
-FixObjectType
+FixObjectGroup
 (
 cx
 obj
@@ -21279,7 +21279,7 @@ ArrayObject
 JSObject
 :
 :
-setSingletonType
+setSingleton
 (
 cx
 obj

@@ -44,7 +44,7 @@ namespace
 types
 {
 struct
-TypeObject
+ObjectGroup
 ;
 }
 typedef
@@ -78,10 +78,10 @@ Handle
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 >
-HandleTypeObject
+HandleObjectGroup
 ;
 typedef
 JS
@@ -213,10 +213,10 @@ Rooted
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 >
-RootedTypeObject
+RootedObjectGroup
 ;
 typedef
 JS

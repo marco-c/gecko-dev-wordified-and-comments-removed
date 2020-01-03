@@ -523,9 +523,9 @@ MOZ_CRASH
 ;
 }
 void
-visitGuardObjectType
+visitGuardObjectGroup
 (
-MGuardObjectType
+MGuardObjectGroup
 *
 ins
 )

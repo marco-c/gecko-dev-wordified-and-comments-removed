@@ -4224,7 +4224,7 @@ clonedAtCallsite
 )
 ;
 bool
-inlineTypeObjectFallback
+inlineObjectGroupFallback
 (
 CallInfo
 &
@@ -4232,7 +4232,7 @@ callInfo
 MBasicBlock
 *
 dispatchBlock
-MTypeObjectDispatch
+MObjectGroupDispatch
 *
 dispatch
 MGetPropertyCache
@@ -4628,9 +4628,9 @@ const
 BaselineInspector
 :
 :
-TypeObjectVector
+ObjectGroupVector
 &
-unboxedTypes
+unboxedGroups
 )
 ;
 types

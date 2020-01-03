@@ -10094,9 +10094,9 @@ void
 CodeGeneratorARM
 :
 :
-visitGuardObjectType
+visitGuardObjectGroup
 (
-LGuardObjectType
+LGuardObjectGroup
 *
 guard
 )
@@ -10139,7 +10139,7 @@ DtrOffImm
 JSObject
 :
 :
-offsetOfType
+offsetOfGroup
 (
 )
 )
@@ -10162,7 +10162,7 @@ mir
 )
 -
 >
-typeObject
+group
 (
 )
 )

@@ -519,11 +519,11 @@ Symbol
 )
 DeclMarker
 (
-TypeObject
+ObjectGroup
 types
 :
 :
-TypeObject
+ObjectGroup
 )
 #
 undef

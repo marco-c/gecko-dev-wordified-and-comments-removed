@@ -1095,10 +1095,10 @@ MIRType_Slots
 MIRType_Elements
 MIRType_Pointer
 MIRType_Shape
-MIRType_TypeObject
+MIRType_ObjectGroup
 MIRType_Last
 =
-MIRType_TypeObject
+MIRType_ObjectGroup
 MIRType_Float32x4
 =
 MIRType_Float32

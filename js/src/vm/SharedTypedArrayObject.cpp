@@ -664,14 +664,14 @@ nullptr
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 =
 cx
 -
 >
-getNewType
+getNewGroup
 (
 obj
 -
@@ -692,7 +692,7 @@ get
 if
 (
 !
-type
+group
 )
 return
 nullptr
@@ -700,9 +700,9 @@ nullptr
 obj
 -
 >
-setType
+setGroup
 (
-type
+group
 )
 ;
 return
@@ -805,7 +805,7 @@ newKind
 =
 script
 ?
-UseNewTypeForInitializer
+UseSingletonForInitializer
 (
 script
 pc
@@ -850,7 +850,7 @@ if
 types
 :
 :
-SetInitializerObjectType
+SetInitializerObjectGroup
 (
 cx
 script

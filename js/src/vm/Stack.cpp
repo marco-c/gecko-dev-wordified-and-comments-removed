@@ -1356,7 +1356,7 @@ CreateThisForFunction
 (
 cx
 callee
-useNewType
+createSingleton
 (
 )
 ?

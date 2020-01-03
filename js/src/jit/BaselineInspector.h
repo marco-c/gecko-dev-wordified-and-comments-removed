@@ -408,12 +408,12 @@ Vector
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 4
 JitAllocPolicy
 >
-TypeObjectVector
+ObjectGroupVector
 ;
 bool
 maybeInfoForPropertyOp
@@ -424,9 +424,9 @@ pc
 ShapeVector
 &
 nativeShapes
-TypeObjectVector
+ObjectGroupVector
 &
-unboxedTypes
+unboxedGroups
 )
 ;
 SetElemICInspector

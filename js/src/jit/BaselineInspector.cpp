@@ -348,9 +348,9 @@ pc
 ShapeVector
 &
 nativeShapes
-TypeObjectVector
+ObjectGroupVector
 &
-unboxedTypes
+unboxedGroups
 )
 {
 MOZ_ASSERT
@@ -364,7 +364,7 @@ empty
 ;
 MOZ_ASSERT
 (
-unboxedTypes
+unboxedGroups
 .
 empty
 (
@@ -428,9 +428,9 @@ nullptr
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 =
 nullptr
 ;
@@ -496,7 +496,7 @@ isGetProp_Unboxed
 )
 )
 {
-type
+group
 =
 stub
 -
@@ -506,7 +506,7 @@ toGetProp_Unboxed
 )
 -
 >
-type
+group
 (
 )
 ;
@@ -522,7 +522,7 @@ isSetProp_Unboxed
 )
 )
 {
-type
+group
 =
 stub
 -
@@ -532,7 +532,7 @@ toSetProp_Unboxed
 )
 -
 >
-type
+group
 (
 )
 ;
@@ -545,7 +545,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (
@@ -638,7 +638,7 @@ i
 ;
 i
 <
-unboxedTypes
+unboxedGroups
 .
 length
 (
@@ -651,13 +651,13 @@ i
 {
 if
 (
-unboxedTypes
+unboxedGroups
 [
 i
 ]
 =
 =
-type
+group
 )
 {
 found
@@ -675,11 +675,11 @@ found
 &
 &
 !
-unboxedTypes
+unboxedGroups
 .
 append
 (
-type
+group
 )
 )
 return
@@ -727,7 +727,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (
@@ -758,7 +758,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (
@@ -774,7 +774,7 @@ length
 (
 )
 +
-unboxedTypes
+unboxedGroups
 .
 length
 (
@@ -789,7 +789,7 @@ clear
 (
 )
 ;
-unboxedTypes
+unboxedGroups
 .
 clear
 (

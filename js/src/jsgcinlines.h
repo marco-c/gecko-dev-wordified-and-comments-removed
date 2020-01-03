@@ -2929,9 +2929,9 @@ inline
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-NewTypeObject
+NewObjectGroup
 (
 js
 :
@@ -2950,7 +2950,7 @@ AllocateNonObject
 types
 :
 :
-TypeObject
+ObjectGroup
 js
 :
 :

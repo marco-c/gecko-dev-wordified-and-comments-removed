@@ -138,7 +138,7 @@ if
 fun
 -
 >
-hasSingletonType
+isSingleton
 (
 )
 )

@@ -1473,7 +1473,7 @@ name
 =
 obj
 .
-hasSingletonType
+isSingleton
 (
 )
 ?

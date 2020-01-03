@@ -1111,7 +1111,7 @@ templateObject
 )
 -
 >
-hasSingletonType
+isSingleton
 (
 )
 )
@@ -5050,14 +5050,14 @@ void
 LIRGenerator
 :
 :
-visitTypeObjectDispatch
+visitObjectGroupDispatch
 (
-MTypeObjectDispatch
+MObjectGroupDispatch
 *
 ins
 )
 {
-LTypeObjectDispatch
+LObjectGroupDispatch
 *
 lir
 =
@@ -5067,7 +5067,7 @@ alloc
 (
 )
 )
-LTypeObjectDispatch
+LObjectGroupDispatch
 (
 useRegister
 (
@@ -12725,7 +12725,7 @@ info
 (
 )
 .
-useNewTypeForClone
+useSingletonForClone
 )
 {
 LLambdaForSingleton

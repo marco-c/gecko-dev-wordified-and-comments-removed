@@ -147,7 +147,7 @@ namespace
 types
 {
 struct
-TypeObject
+ObjectGroup
 ;
 }
 namespace
@@ -458,12 +458,12 @@ Vector
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 0
 SystemAllocPolicy
 >
-TypeObjectList
+ObjectGroupList
 ;
 void
 collect
@@ -479,9 +479,9 @@ gcreason
 :
 Reason
 reason
-TypeObjectList
+ObjectGroupList
 *
-pretenureTypes
+pretenureGroups
 )
 ;
 template

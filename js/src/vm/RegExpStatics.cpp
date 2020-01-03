@@ -284,7 +284,7 @@ cx
 types
 :
 :
-MarkTypeObjectFlags
+MarkObjectGroupFlags
 (
 cx
 cx

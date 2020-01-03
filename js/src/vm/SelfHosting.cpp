@@ -1836,14 +1836,14 @@ false
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-newtype
+newgroup
 =
 types
 :
 :
-GetTypeCallerInitObject
+GetCallerInitGroup
 (
 cx
 JSProto_Array
@@ -1852,7 +1852,7 @@ JSProto_Array
 if
 (
 !
-newtype
+newgroup
 )
 return
 false
@@ -1860,9 +1860,9 @@ false
 buffer
 -
 >
-setType
+setGroup
 (
-newtype
+newgroup
 )
 ;
 NativeObject
@@ -3063,7 +3063,7 @@ ArrayObject
 obj
 -
 >
-hasLazyType
+hasLazyGroup
 (
 )
 &
@@ -3072,7 +3072,7 @@ hasLazyType
 obj
 -
 >
-type
+group
 (
 )
 -

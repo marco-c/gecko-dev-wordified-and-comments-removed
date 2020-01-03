@@ -2437,7 +2437,7 @@ global
 )
 -
 >
-getType
+getGroup
 (
 cx
 )
@@ -2455,7 +2455,7 @@ neuter
 types
 :
 :
-MarkTypeObjectFlags
+MarkObjectGroupFlags
 (
 cx
 cx

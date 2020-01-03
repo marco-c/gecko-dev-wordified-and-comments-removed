@@ -203,7 +203,7 @@ node
 edge
 :
 "
-type
+group
 "
 }
 {
@@ -217,7 +217,7 @@ ANY
 edge
 :
 "
-type_proto
+group_proto
 "
 }
 {

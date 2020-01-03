@@ -148,7 +148,7 @@ namespace
 types
 {
 struct
-TypeObject
+ObjectGroup
 ;
 }
 namespace
@@ -726,7 +726,7 @@ MapTypeToTraceKind
 types
 :
 :
-TypeObject
+ObjectGroup
 >
 {
 static
@@ -734,7 +734,7 @@ const
 JSGCTraceKind
 kind
 =
-JSTRACE_TYPE_OBJECT
+JSTRACE_OBJECT_GROUP
 ;
 }
 ;
@@ -4240,10 +4240,10 @@ HeapPtr
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 >
-HeapPtrTypeObject
+HeapPtrObjectGroup
 ;
 typedef
 PreBarriered
@@ -4379,10 +4379,10 @@ ReadBarriered
 types
 :
 :
-TypeObject
+ObjectGroup
 *
 >
-ReadBarrieredTypeObject
+ReadBarrieredObjectGroup
 ;
 typedef
 ReadBarriered

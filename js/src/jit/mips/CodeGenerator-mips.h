@@ -1532,9 +1532,9 @@ guard
 )
 ;
 void
-visitGuardObjectType
+visitGuardObjectGroup
 (
-LGuardObjectType
+LGuardObjectGroup
 *
 guard
 )

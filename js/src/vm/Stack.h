@@ -785,7 +785,7 @@ const
 ;
 inline
 bool
-useNewType
+createSingleton
 (
 )
 const
@@ -1044,7 +1044,7 @@ HAS_PUSHED_SPS_FRAME
 RUNNING_IN_JIT
 =
 0x20000
-USE_NEW_TYPE
+CREATE_SINGLETON
 =
 0x40000
 }
@@ -2417,7 +2417,7 @@ HAS_ARGS_OBJ
 ;
 }
 void
-setUseNewType
+setCreateSingleton
 (
 )
 {
@@ -2431,11 +2431,11 @@ isConstructing
 flags_
 |
 =
-USE_NEW_TYPE
+CREATE_SINGLETON
 ;
 }
 bool
-useNewType
+createSingleton
 (
 )
 const
@@ -2450,7 +2450,7 @@ isConstructing
 return
 flags_
 &
-USE_NEW_TYPE
+CREATE_SINGLETON
 ;
 }
 bool

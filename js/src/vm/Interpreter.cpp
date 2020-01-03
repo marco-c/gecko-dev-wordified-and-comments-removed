@@ -1965,7 +1965,7 @@ newKind
 =
 invoke
 .
-useNewType
+createSingleton
 (
 )
 ?
@@ -2740,7 +2740,7 @@ pc
 ;
 if
 (
-UseNewType
+UseSingletonForNewObject
 (
 cx
 script
@@ -2749,7 +2749,7 @@ pc
 )
 state
 .
-setUseNewType
+setCreateSingleton
 (
 )
 ;
@@ -7805,12 +7805,6 @@ cx
 ;
 RootedFunction
 rootFunction0
-(
-cx
-)
-;
-RootedTypeObject
-rootType0
 (
 cx
 )
@@ -13479,9 +13473,9 @@ INITIAL_CONSTRUCT
 INITIAL_NONE
 ;
 bool
-newType
+createSingleton
 =
-UseNewType
+UseSingletonForNewObject
 (
 cx
 script
@@ -13508,18 +13502,18 @@ initial
 ;
 if
 (
-newType
+createSingleton
 )
 state
 .
-setUseNewType
+setCreateSingleton
 (
 )
 ;
 if
 (
 !
-newType
+createSingleton
 &
 &
 jit
@@ -13731,7 +13725,7 @@ error
 ;
 if
 (
-newType
+createSingleton
 )
 REGS
 .
@@ -13740,7 +13734,7 @@ fp
 )
 -
 >
-setUseNewType
+setCreateSingleton
 (
 )
 ;
@@ -16193,7 +16187,7 @@ JSProto_Array
 {
 newKind
 =
-UseNewTypeForInitializer
+UseSingletonForInitializer
 (
 script
 REGS
@@ -16231,7 +16225,7 @@ GuessObjectGCKind
 ;
 newKind
 =
-UseNewTypeForInitializer
+UseSingletonForInitializer
 (
 script
 REGS
@@ -16264,7 +16258,7 @@ obj
 |
 |
 !
-SetInitializerObjectType
+SetInitializerObjectGroup
 (
 cx
 script
@@ -16313,7 +16307,7 @@ rootObject0
 NewObjectKind
 newKind
 =
-UseNewTypeForInitializer
+UseSingletonForInitializer
 (
 script
 REGS
@@ -16343,7 +16337,7 @@ obj
 |
 |
 !
-SetInitializerObjectType
+SetInitializerObjectGroup
 (
 cx
 script
@@ -16477,7 +16471,7 @@ rootObject1
 NewObjectKind
 newKind
 =
-UseNewTypeForInitializer
+UseSingletonForInitializer
 (
 script
 REGS
@@ -16514,7 +16508,7 @@ obj
 |
 |
 !
-SetInitializerObjectType
+SetInitializerObjectGroup
 (
 cx
 script
@@ -20467,7 +20461,7 @@ functionNonDelazifying
 )
 -
 >
-getType
+getGroup
 (
 cx
 )
@@ -20478,7 +20472,7 @@ false
 types
 :
 :
-MarkTypeObjectFlags
+MarkObjectGroupFlags
 (
 cx
 script

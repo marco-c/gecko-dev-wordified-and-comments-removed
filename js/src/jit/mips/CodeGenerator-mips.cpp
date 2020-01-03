@@ -10798,9 +10798,9 @@ void
 CodeGeneratorMIPS
 :
 :
-visitGuardObjectType
+visitGuardObjectGroup
 (
-LGuardObjectType
+LGuardObjectGroup
 *
 guard
 )
@@ -10841,7 +10841,7 @@ obj
 JSObject
 :
 :
-offsetOfType
+offsetOfGroup
 (
 )
 )
@@ -10890,7 +10890,7 @@ mir
 )
 -
 >
-typeObject
+group
 (
 )
 )

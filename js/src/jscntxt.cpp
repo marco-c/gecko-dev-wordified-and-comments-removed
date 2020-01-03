@@ -685,7 +685,7 @@ MOZ_ASSERT
 types
 :
 :
-UseNewTypeForClone
+UseSingletonForClone
 (
 fun
 )

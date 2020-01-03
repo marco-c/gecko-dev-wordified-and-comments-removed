@@ -854,8 +854,8 @@ JSContext
 cx
 HandleShape
 shape
-HandleTypeObject
-type
+HandleObjectGroup
+group
 uint32_t
 lexicalBegin
 )

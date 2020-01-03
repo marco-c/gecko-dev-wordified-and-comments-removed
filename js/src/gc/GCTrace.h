@@ -20,7 +20,7 @@ namespace
 types
 {
 struct
-TypeObject
+ObjectGroup
 ;
 }
 namespace
@@ -136,9 +136,9 @@ js
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 )
 ;
 #
@@ -268,9 +268,9 @@ js
 types
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 )
 {
 }

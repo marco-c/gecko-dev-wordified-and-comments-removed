@@ -506,7 +506,7 @@ if
 obj
 -
 >
-hasSingletonType
+isSingleton
 (
 )
 )
@@ -2408,7 +2408,7 @@ get
 )
 -
 >
-type
+group
 -
 >
 proto

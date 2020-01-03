@@ -2465,7 +2465,7 @@ namespace
 shadow
 {
 struct
-TypeObject
+ObjectGroup
 {
 const
 Class
@@ -2543,9 +2543,9 @@ shape
 shadow
 :
 :
-TypeObject
+ObjectGroup
 *
-type
+group
 ;
 JS
 :
@@ -2806,7 +2806,7 @@ obj
 )
 -
 >
-type
+group
 -
 >
 clasp

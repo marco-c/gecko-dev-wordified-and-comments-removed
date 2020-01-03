@@ -1233,7 +1233,7 @@ toGuardShape
 }
 ;
 class
-LGuardObjectType
+LGuardObjectGroup
 :
 public
 LInstructionHelper
@@ -1247,10 +1247,10 @@ public
 :
 LIR_HEADER
 (
-GuardObjectType
+GuardObjectGroup
 )
 explicit
-LGuardObjectType
+LGuardObjectGroup
 (
 const
 LAllocation
@@ -1266,7 +1266,7 @@ in
 ;
 }
 const
-MGuardObjectType
+MGuardObjectGroup
 *
 mir
 (
@@ -1277,7 +1277,7 @@ return
 mir_
 -
 >
-toGuardObjectType
+toGuardObjectGroup
 (
 )
 ;

@@ -8004,7 +8004,7 @@ toFunctionDispatch
 }
 ;
 class
-LTypeObjectDispatch
+LObjectGroupDispatch
 :
 public
 LInstructionHelper
@@ -8018,10 +8018,10 @@ public
 :
 LIR_HEADER
 (
-TypeObjectDispatch
+ObjectGroupDispatch
 )
 ;
-LTypeObjectDispatch
+LObjectGroupDispatch
 (
 const
 LAllocation
@@ -8060,7 +8060,7 @@ getTemp
 )
 ;
 }
-MTypeObjectDispatch
+MObjectGroupDispatch
 *
 mir
 (
@@ -8070,7 +8070,7 @@ return
 mir_
 -
 >
-toTypeObjectDispatch
+toObjectGroupDispatch
 (
 )
 ;
