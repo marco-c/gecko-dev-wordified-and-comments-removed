@@ -519,6 +519,7 @@ aRv
 )
 ;
 }
+virtual
 void
 CancelFromStyle
 (
