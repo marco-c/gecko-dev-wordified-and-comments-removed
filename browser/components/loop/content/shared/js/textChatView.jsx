@@ -681,7 +681,14 @@ React
 .
 PropTypes
 .
-array
+arrayOf
+(
+React
+.
+PropTypes
+.
+object
+)
 .
 isRequired
 }

@@ -1528,14 +1528,13 @@ tests
 *
 /
 /
-*
-hidden
+/
+Hidden
 until
 date
 is
 available
-*
-/
+.
 "
 hide
 "
