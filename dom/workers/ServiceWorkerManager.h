@@ -200,6 +200,9 @@ nsTObserverArray
 .
 h
 "
+class
+mozIApplicationClearPrivateDataParams
+;
 namespace
 mozilla
 {
@@ -1612,9 +1615,9 @@ aRegistration
 void
 RemoveAllRegistrations
 (
-nsIPrincipal
+mozIApplicationClearPrivateDataParams
 *
-aPrincipal
+aParams
 )
 ;
 nsRefPtr
