@@ -87,6 +87,8 @@ registration
 (
 '
 '
+'
+'
 )
 function
 (
@@ -100,8 +102,7 @@ error
 =
 =
 '
-Database
-error
+NotFoundError
 '
 ;
 }
