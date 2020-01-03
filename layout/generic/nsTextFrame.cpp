@@ -10344,6 +10344,7 @@ forget
 )
 mathFlags
 sstyScriptLevel
+fontInflation
 )
 ;
 }
