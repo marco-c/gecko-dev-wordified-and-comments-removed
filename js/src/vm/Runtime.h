@@ -1770,6 +1770,12 @@ js
 ImmutableSymbolPtr
 match
 ;
+js
+:
+:
+ImmutableSymbolPtr
+species
+;
 const
 ImmutableSymbolPtr
 &

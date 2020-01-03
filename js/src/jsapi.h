@@ -17762,6 +17762,7 @@ uint32_t
 {
 iterator
 match
+species
 InSymbolRegistry
 =
 0xfffffffe
@@ -17774,7 +17775,7 @@ const
 size_t
 WellKnownSymbolLimit
 =
-2
+3
 ;
 JS_PUBLIC_API
 (
