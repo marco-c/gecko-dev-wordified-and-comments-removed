@@ -10143,6 +10143,16 @@ nullptr
 )
 ;
 }
+else
+{
+nsBaseWidget
+:
+:
+ConfigureAPZControllerThread
+(
+)
+;
+}
 }
 nsIntRect
 nsChildView
