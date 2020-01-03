@@ -882,7 +882,7 @@ aHint
 ;
 CREATE_SHADOW
 (
-Thebes
+Painted
 )
 ;
 return
@@ -910,7 +910,7 @@ aHint
 ;
 CREATE_SHADOW
 (
-Thebes
+Painted
 )
 ;
 return

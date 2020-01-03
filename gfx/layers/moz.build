@@ -1826,6 +1826,13 @@ cpp
 '
 composite
 /
+PaintedLayerComposite
+.
+cpp
+'
+'
+composite
+/
 TextRenderer
 .
 cpp
@@ -1834,13 +1841,6 @@ cpp
 composite
 /
 TextureHost
-.
-cpp
-'
-'
-composite
-/
-PaintedLayerComposite
 .
 cpp
 '

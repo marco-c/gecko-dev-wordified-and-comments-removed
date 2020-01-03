@@ -3236,7 +3236,7 @@ case
 Layer
 :
 :
-TYPE_THEBES
+TYPE_PAINTED
 :
 {
 CompositableHost

@@ -288,7 +288,7 @@ MOZ_LAYER_DECL_NAME
 "
 PaintedLayerComposite
 "
-TYPE_THEBES
+TYPE_PAINTED
 )
 protected
 :

@@ -642,7 +642,7 @@ aManager
 )
 ;
 void
-AddThebesDisplayItem
+AddPaintedDisplayItem
 (
 PaintedLayerData
 *
