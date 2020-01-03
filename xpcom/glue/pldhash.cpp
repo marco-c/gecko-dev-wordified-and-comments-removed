@@ -3724,7 +3724,6 @@ mTable
 ;
 }
 }
-MOZ_ALWAYS_INLINE
 bool
 PLDHashTable
 :
