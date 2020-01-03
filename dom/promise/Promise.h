@@ -462,7 +462,7 @@ aArg
 )
 ;
 static
-void
+bool
 PerformMicroTaskCheckpoint
 (
 )
