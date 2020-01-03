@@ -1115,7 +1115,7 @@ isTranslation
 aLayer
 -
 >
-HasMaskLayers
+GetMaskLayer
 (
 )
 &

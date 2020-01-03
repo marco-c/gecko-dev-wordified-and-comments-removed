@@ -13319,17 +13319,6 @@ GetClipRect
 ;
 mFrameMetrics
 .
-SetMaskLayerIndex
-(
-aLayerMetrics
-.
-GetMaskLayerIndex
-(
-)
-)
-;
-mFrameMetrics
-.
 SetIsLayersIdRoot
 (
 aLayerMetrics

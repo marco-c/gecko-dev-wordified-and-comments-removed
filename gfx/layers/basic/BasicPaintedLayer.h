@@ -408,7 +408,7 @@ SetEmpty
 )
 ;
 }
-ComputeEffectiveTransformForMaskLayers
+ComputeEffectiveTransformForMaskLayer
 (
 aTransformToSurface
 )
