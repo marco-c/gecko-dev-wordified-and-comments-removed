@@ -8545,6 +8545,17 @@ remove
 ;
 }
 }
+aEvent
+.
+target
+.
+removeAttribute
+(
+"
+height
+"
+)
+;
 }
 _onUIChange
 :
