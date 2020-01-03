@@ -11,9 +11,6 @@ stdint
 .
 h
 >
-class
-nsIAtom
-;
 const
 uint8_t
 kRangeCyrillic
@@ -349,14 +346,6 @@ FindCharUnicodeRange
 (
 uint32_t
 ch
-)
-;
-nsIAtom
-*
-LangGroupFromUnicodeRange
-(
-uint8_t
-unicodeRange
 )
 ;
 #
