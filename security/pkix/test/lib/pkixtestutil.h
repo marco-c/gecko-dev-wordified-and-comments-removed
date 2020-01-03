@@ -446,9 +446,6 @@ public
 :
 OCSPResponseContext
 (
-PLArenaPool
-*
-arena
 const
 CertID
 &
@@ -459,10 +456,6 @@ std
 time_t
 time
 )
-;
-PLArenaPool
-*
-arena
 ;
 const
 CertID
@@ -565,8 +558,7 @@ includeNextUpdate
 ;
 }
 ;
-SECItem
-*
+ByteString
 CreateEncodedOCSPResponse
 (
 OCSPResponseContext
