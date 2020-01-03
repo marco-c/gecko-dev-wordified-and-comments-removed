@@ -227,6 +227,13 @@ h
 "
 #
 include
+"
+DecodedStream
+.
+h
+"
+#
+include
 <
 algorithm
 >

@@ -97,6 +97,9 @@ class
 AudioSink
 ;
 class
+DecodedStreamData
+;
+class
 MediaDecoderStateMachine
 {
 friend
@@ -115,13 +118,6 @@ MediaDecoderOwner
 :
 NextFrameStatus
 NextFrameStatus
-;
-typedef
-MediaDecoder
-:
-:
-DecodedStreamData
-DecodedStreamData
 ;
 MediaDecoderStateMachine
 (

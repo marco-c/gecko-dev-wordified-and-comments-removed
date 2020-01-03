@@ -4920,6 +4920,9 @@ s
 mOperation
 =
 =
+dom
+:
+:
 AudioContextOperation
 :
 :
@@ -4942,6 +4945,9 @@ s
 mOperation
 !
 =
+dom
+:
+:
 AudioContextOperation
 :
 :
