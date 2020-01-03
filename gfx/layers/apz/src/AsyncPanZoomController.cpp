@@ -1184,6 +1184,7 @@ StateChangeNotificationBlocker
 {
 public
 :
+explicit
 StateChangeNotificationBlocker
 (
 AsyncPanZoomController
