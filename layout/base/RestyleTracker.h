@@ -1518,6 +1518,9 @@ cur
 ;
 if
 (
+curData
+&
+&
 !
 (
 curData
