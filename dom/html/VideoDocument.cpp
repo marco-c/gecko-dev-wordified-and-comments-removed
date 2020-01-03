@@ -576,6 +576,7 @@ fileName
 GetFileName
 (
 fileName
+aChannel
 )
 ;
 SetTitle

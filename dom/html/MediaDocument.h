@@ -171,6 +171,9 @@ GetFileName
 nsAString
 &
 aResult
+nsIChannel
+*
+aChannel
 )
 ;
 nsresult
@@ -189,6 +192,9 @@ const
 nsACString
 &
 aTypeStr
+nsIChannel
+*
+aChannel
 const
 char
 *

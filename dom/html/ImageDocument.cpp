@@ -3595,6 +3595,7 @@ MediaDocument
 UpdateTitleAndCharset
 (
 typeStr
+mChannel
 formatNames
 mImageWidth
 mImageHeight
