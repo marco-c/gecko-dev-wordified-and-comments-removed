@@ -1278,9 +1278,10 @@ obj
 MOZ_ASSERT
 (
 from
-=
-=
-JSVAL_NULL
+.
+isNull
+(
+)
 )
 ;
 *

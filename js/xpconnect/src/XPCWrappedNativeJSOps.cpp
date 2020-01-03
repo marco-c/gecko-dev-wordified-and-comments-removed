@@ -2222,9 +2222,9 @@ JSTYPE_BOOLEAN
 :
 vp
 .
-set
+setBoolean
 (
-JSVAL_TRUE
+true
 )
 ;
 return

@@ -832,8 +832,10 @@ true
 mStateData
 .
 mResponse
-=
-JSVAL_NULL
+.
+setNull
+(
+)
 ;
 }
 bool

@@ -3243,7 +3243,12 @@ Value
 valDebug
 (
 cx
-JSVAL_TRUE
+JS
+:
+:
+TrueValue
+(
+)
 )
 ;
 if

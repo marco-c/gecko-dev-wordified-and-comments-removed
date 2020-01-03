@@ -478,10 +478,12 @@ mozIStorageValueArray
 VALUE_TYPE_NULL
 )
 {
-*
 _vp
-=
-JSVAL_NULL
+-
+>
+setNull
+(
+)
 ;
 }
 else

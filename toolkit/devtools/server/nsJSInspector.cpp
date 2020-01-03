@@ -239,7 +239,12 @@ mRequestors
 )
 mLastRequestor
 (
-JSVAL_NULL
+JS
+:
+:
+NullValue
+(
+)
 )
 {
 }
@@ -462,7 +467,12 @@ mNestedLoopLevel
 else
 mLastRequestor
 =
-JSVAL_NULL
+JS
+:
+:
+NullValue
+(
+)
 ;
 }
 else
