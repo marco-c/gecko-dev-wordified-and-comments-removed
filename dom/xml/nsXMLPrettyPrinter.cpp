@@ -479,7 +479,12 @@ nsSyncLoadService
 LoadDocument
 (
 xslUri
-nullptr
+nsContentUtils
+:
+:
+GetSystemPrincipal
+(
+)
 nullptr
 true
 getter_AddRefs
