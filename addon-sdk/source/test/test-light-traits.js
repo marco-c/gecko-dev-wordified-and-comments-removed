@@ -73,6 +73,8 @@ tests
 require
 (
 "
+sdk
+/
 test
 "
 )

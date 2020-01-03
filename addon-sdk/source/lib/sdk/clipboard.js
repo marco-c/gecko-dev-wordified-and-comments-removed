@@ -34,6 +34,13 @@ SeaMonkey
 "
 *
 "
+"
+Thunderbird
+"
+:
+"
+*
+"
 }
 }
 ;
@@ -515,7 +522,6 @@ html
 "
 :
 let
-(
 str
 =
 Cc
@@ -539,8 +545,7 @@ Ci
 .
 nsISupportsString
 )
-)
-{
+;
 str
 .
 data
@@ -571,9 +576,6 @@ length
 2
 )
 ;
-}
-let
-(
 str
 =
 Cc
@@ -597,6 +599,8 @@ Ci
 .
 nsISupportsString
 )
+;
+let
 converter
 =
 Cc
@@ -620,8 +624,7 @@ Ci
 .
 nsIFeedTextConstruct
 )
-)
-{
+;
 converter
 .
 type
@@ -678,7 +681,6 @@ length
 2
 )
 ;
-}
 break
 ;
 case

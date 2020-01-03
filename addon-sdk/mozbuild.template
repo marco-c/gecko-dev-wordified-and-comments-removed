@@ -176,15 +176,4 @@ Startup
 .
 js
 '
-'
-source
-/
-modules
-/
-system
-/
-XulApp
-.
-js
-'
 ]

@@ -2175,6 +2175,8 @@ test
 .
 run
 (
+module
+.
 exports
 )
 ;

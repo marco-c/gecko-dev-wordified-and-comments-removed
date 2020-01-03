@@ -808,6 +808,8 @@ test
 .
 run
 (
+module
+.
 exports
 )
 ;

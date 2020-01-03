@@ -499,6 +499,8 @@ done
 require
 (
 "
+sdk
+/
 test
 "
 )

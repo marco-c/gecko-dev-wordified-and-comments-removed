@@ -52,6 +52,7 @@ md5
 packages
 /
 *
+node_modules
 #
 Python
 *

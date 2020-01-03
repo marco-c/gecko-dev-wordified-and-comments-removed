@@ -2758,6 +2758,20 @@ tests
 continue
                     
 if
+reqname
+.
+endswith
+(
+"
+.
+jsm
+"
+)
+:
+                        
+continue
+                    
+if
 not
 self
 .

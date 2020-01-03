@@ -20,7 +20,7 @@ traceback
 const
 REQUIRE_LINE_NO
 =
-30
+29
 ;
 exports
 .
@@ -467,6 +467,8 @@ number
 require
 (
 '
+sdk
+/
 test
 '
 )

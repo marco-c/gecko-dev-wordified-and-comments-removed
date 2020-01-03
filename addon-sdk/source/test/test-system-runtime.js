@@ -167,6 +167,8 @@ platform
 require
 (
 "
+sdk
+/
 test
 "
 )
