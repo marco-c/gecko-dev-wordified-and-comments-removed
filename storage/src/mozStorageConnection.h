@@ -319,6 +319,14 @@ sqlite3
 aDBConn
 )
 ;
+void
+shutdownAsyncThread
+(
+nsIThread
+*
+aAsyncThread
+)
+;
 nsCString
 getFilename
 (
@@ -504,6 +512,12 @@ mAsyncExecutionThread
 ;
 bool
 mAsyncExecutionThreadShuttingDown
+;
+DebugOnly
+<
+bool
+>
+mAsyncExecutionThreadIsAlive
 ;
 bool
 mConnectionClosed
