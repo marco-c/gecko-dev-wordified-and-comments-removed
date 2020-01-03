@@ -1279,7 +1279,16 @@ pn
 )
 {
 return
+(
+pn
+=
+=
+NodeString
+)
+?
 NodeGeneric
+:
+pn
 ;
 }
 void
