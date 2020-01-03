@@ -24,9 +24,7 @@ TC
 ]
 Reftest
 Sanity
-(
 OOP
-)
 '
 description
 :
@@ -214,12 +212,6 @@ from_now
 '
 extra
 :
-treeherderEnv
-:
--
-production
--
-staging
 treeherder
 :
 groupName
@@ -229,6 +221,8 @@ Sanity
 OOP
 groupSymbol
 :
+tc
+-
 Rs
 -
 oop
