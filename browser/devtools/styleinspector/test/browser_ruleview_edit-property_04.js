@@ -229,7 +229,7 @@ unset
 )
 ;
 yield
-testPreviewDisableProperty
+testEditDisableProperty
 (
 view
 ruleEditor
@@ -243,7 +243,7 @@ VK_ESCAPE
 )
 ;
 yield
-testPreviewDisableProperty
+testEditDisableProperty
 (
 view
 ruleEditor
@@ -257,7 +257,7 @@ VK_ESCAPE
 )
 ;
 yield
-testPreviewDisableProperty
+testEditDisableProperty
 (
 view
 ruleEditor
@@ -271,7 +271,7 @@ VK_TAB
 )
 ;
 yield
-testPreviewDisableProperty
+testEditDisableProperty
 (
 view
 ruleEditor
@@ -287,7 +287,7 @@ VK_RETURN
 }
 function
 *
-testPreviewDisableProperty
+testEditDisableProperty
 (
 view
 ruleEditor
@@ -305,13 +305,6 @@ focusEditableField
 view
 editableField
 )
-;
-yield
-ruleEditor
-.
-rule
-.
-_applyingModifications
 ;
 ok
 (
@@ -393,16 +386,14 @@ is
 (
 newValue
 "
-blue
 "
 "
 background
 -
 color
 should
-have
-been
-previewed
+remain
+unset
 .
 "
 )
@@ -565,8 +556,7 @@ background
 -
 color
 should
-have
-been
+remain
 unset
 .
 "

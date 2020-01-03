@@ -242,7 +242,7 @@ onRuleViewChanged
 waitRuleViewChanged
 (
 view
-6
+5
 )
 ;
 yield
