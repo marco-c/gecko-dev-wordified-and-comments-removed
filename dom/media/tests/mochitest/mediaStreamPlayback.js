@@ -89,7 +89,7 @@ is
 (
 this
 .
-mediaStream
+mediaElement
 .
 currentTime
 0
