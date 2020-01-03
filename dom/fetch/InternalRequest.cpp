@@ -253,6 +253,16 @@ mOrigin
 copy
 -
 >
+mContext
+=
+nsIContentPolicy
+:
+:
+TYPE_FETCH
+;
+copy
+-
+>
 mMode
 =
 mMode

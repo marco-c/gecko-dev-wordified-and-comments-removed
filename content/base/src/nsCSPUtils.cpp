@@ -3024,6 +3024,12 @@ nsIContentPolicy
 :
 TYPE_BEACON
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_FETCH
+:
 return
 CSP_CONNECT_SRC
 ;

@@ -1215,6 +1215,9 @@ case
 TYPE_DTD
 :
 case
+TYPE_FETCH
+:
+case
 TYPE_FONT
 :
 case

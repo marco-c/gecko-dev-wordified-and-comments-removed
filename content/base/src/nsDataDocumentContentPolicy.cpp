@@ -501,6 +501,15 @@ nsIContentPolicy
 :
 :
 TYPE_XSLT
+|
+|
+aContentType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_FETCH
 )
 {
 *
