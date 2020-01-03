@@ -173,6 +173,14 @@ MP4Reader
 cpp
 '
 ]
+DIRS
++
+=
+[
+'
+gmp
+'
+]
 if
 CONFIG
 [
