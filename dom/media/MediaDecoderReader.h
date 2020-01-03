@@ -621,16 +621,6 @@ return
 mTaskQueue
 ;
 }
-void
-ClearDecoder
-(
-)
-{
-mDecoder
-=
-nullptr
-;
-}
 virtual
 bool
 IsAsync

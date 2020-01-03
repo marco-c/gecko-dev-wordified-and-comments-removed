@@ -343,6 +343,12 @@ MOZ_ASSERT
 mShutdown
 )
 ;
+MOZ_ASSERT
+(
+!
+mDecoder
+)
+;
 ResetDecode
 (
 )
@@ -1447,6 +1453,10 @@ __func__
 )
 ;
 }
+mDecoder
+=
+nullptr
+;
 return
 p
 ;
