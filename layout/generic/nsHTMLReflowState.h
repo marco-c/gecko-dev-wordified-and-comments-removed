@@ -57,13 +57,6 @@ nsIPercentHeightObserver
 struct
 nsHypotheticalBox
 ;
-namespace
-mozilla
-{
-class
-RubyReflowState
-;
-}
 template
 <
 class
@@ -694,13 +687,6 @@ mFloatManager
 nsLineLayout
 *
 mLineLayout
-;
-mozilla
-:
-:
-RubyReflowState
-*
-mRubyReflowState
 ;
 const
 nsHTMLReflowState
