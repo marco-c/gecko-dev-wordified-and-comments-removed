@@ -861,6 +861,7 @@ RESULT_TYPE_QUERY
 nodeAncestors
 :
 function
+*
 PU_nodeAncestors
 (
 aNode

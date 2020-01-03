@@ -443,10 +443,9 @@ ancestors
 [
 x
 for
-each
 (
 x
-in
+of
 PlacesUtils
 .
 nodeAncestors
@@ -1644,7 +1643,7 @@ for
 (
 let
 ancestor
-in
+of
 ancestors
 )
 {
