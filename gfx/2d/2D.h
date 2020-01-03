@@ -505,6 +505,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 PatternType
@@ -573,6 +574,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 PatternType
@@ -665,6 +667,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 PatternType
@@ -764,6 +767,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 PatternType
@@ -1027,6 +1031,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 SurfaceType
@@ -1112,6 +1117,7 @@ DataSourceSurface
 GetDataSurface
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

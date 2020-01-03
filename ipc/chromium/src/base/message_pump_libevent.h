@@ -278,18 +278,21 @@ Delegate
 *
 delegate
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 Quit
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ScheduleWork
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -300,6 +303,7 @@ TimeTicks
 &
 delayed_work_time
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -460,6 +464,7 @@ OnFileCanWriteWithoutBlocking
 (
 int
 )
+MOZ_OVERRIDE
 {
 }
 private
@@ -472,6 +477,7 @@ int
 aFd
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 ;
 nsAutoPtr
 <

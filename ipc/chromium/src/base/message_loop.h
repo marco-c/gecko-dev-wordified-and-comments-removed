@@ -361,6 +361,7 @@ void
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MessageLoop
 :
@@ -868,6 +869,7 @@ bool
 DoWork
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -880,12 +882,14 @@ TimeTicks
 *
 next_delayed_work_time
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 DoIdleWork
 (
 )
+MOZ_OVERRIDE
 ;
 Type
 type_

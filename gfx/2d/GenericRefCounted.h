@@ -145,6 +145,7 @@ void
 AddRef
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -218,6 +219,7 @@ void
 Release
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
