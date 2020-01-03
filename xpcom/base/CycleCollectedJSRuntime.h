@@ -404,6 +404,10 @@ mMergedZones
 =
 false
 ;
+mAnyManual
+=
+false
+;
 mVisitedRefCounted
 =
 0
@@ -434,6 +438,9 @@ mForcedGC
 ;
 bool
 mMergedZones
+;
+bool
+mAnyManual
 ;
 uint32_t
 mVisitedRefCounted
