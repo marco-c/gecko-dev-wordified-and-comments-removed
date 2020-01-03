@@ -1149,6 +1149,16 @@ mCacheEntry
 }
 }
 else
+if
+(
+PR_LOG_TEST
+(
+GetImgLog
+(
+)
+PR_LOG_DEBUG
+)
+)
 {
 nsAutoCString
 spec
