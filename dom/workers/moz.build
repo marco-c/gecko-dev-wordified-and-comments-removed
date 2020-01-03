@@ -211,6 +211,11 @@ Navigator
 h
 '
 '
+Performance
+.
+h
+'
+'
 ServiceWorker
 .
 h
@@ -282,6 +287,11 @@ cpp
 '
 '
 Navigator
+.
+cpp
+'
+'
+Performance
 .
 cpp
 '

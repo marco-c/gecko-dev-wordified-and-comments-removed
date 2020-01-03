@@ -260,6 +260,9 @@ MessageEvent
 MessagePort
 "
 "
+Performance
+"
+"
 Promise
 "
 "

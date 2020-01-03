@@ -771,6 +771,9 @@ mWorkerType
 TimeStamp
 mCreationTimeStamp
 ;
+TimeStamp
+mNowBaseTimeStamp
+;
 protected
 :
 nsRefPtr
@@ -1564,6 +1567,16 @@ const
 {
 return
 mCreationTimeStamp
+;
+}
+TimeStamp
+NowBaseTimeStamp
+(
+)
+const
+{
+return
+mNowBaseTimeStamp
 ;
 }
 nsIPrincipal
