@@ -5835,6 +5835,8 @@ nsIContent
 aNode
 uint32_t
 aContentOffset
+CaretAssociateHint
+aHint
 )
 {
 nsIFrame
@@ -5852,7 +5854,7 @@ GetFrameForNodeOffset
 (
 aNode
 aContentOffset
-mHint
+aHint
 &
 OffsetNotUsed
 )
@@ -6170,6 +6172,7 @@ BidiLevelFromClick
 (
 aNewFocus
 aContentOffset
+aHint
 )
 ;
 PostReason
