@@ -41391,9 +41391,7 @@ if
 (
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 obj
 )
 &
@@ -41537,9 +41535,7 @@ if
 (
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 obj
 )
 )
@@ -43320,9 +43316,7 @@ UndefinedType
 !
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 obj
 )
 ;
@@ -46190,9 +46184,7 @@ if
 (
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 object
 )
 &
@@ -46474,9 +46466,7 @@ guardHoles
 =
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 object
 )
 ;
@@ -46696,9 +46686,7 @@ writeOutOfBounds
 !
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 obj
 )
 ;
@@ -56309,9 +56297,6 @@ protoBarrier
 PropertyReadOnPrototypeNeedsTypeBarrier
 (
 this
-constraints
-(
-)
 obj
 name
 types
@@ -63223,9 +63208,7 @@ if
 (
 ElementAccessHasExtraIndexedProperty
 (
-constraints
-(
-)
+this
 obj
 )
 )
