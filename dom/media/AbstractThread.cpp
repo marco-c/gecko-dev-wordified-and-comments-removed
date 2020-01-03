@@ -122,7 +122,7 @@ void
 AbstractThread
 :
 :
-EnsureMainThreadSingleton
+InitStatics
 (
 )
 {
@@ -133,12 +133,12 @@ NS_IsMainThread
 )
 )
 ;
-if
+MOZ_ASSERT
 (
 !
 sMainThread
 )
-{
+;
 nsCOMPtr
 <
 nsIThread
@@ -178,6 +178,5 @@ ClearOnShutdown
 sMainThread
 )
 ;
-}
 }
 }

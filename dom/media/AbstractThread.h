@@ -101,7 +101,7 @@ MainThread
 ;
 static
 void
-EnsureMainThreadSingleton
+InitStatics
 (
 )
 ;
