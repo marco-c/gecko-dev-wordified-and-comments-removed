@@ -99,14 +99,8 @@ maxLogLength
 yield
 gFront
 .
-_request
+getConfiguration
 (
-"
-memory
-"
-"
-getAllocationsSettings
-"
 )
 ;
 yield
