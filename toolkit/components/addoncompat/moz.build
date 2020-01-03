@@ -111,6 +111,11 @@ addoncompat
 manifest
 '
 '
+defaultShims
+.
+js
+'
+'
 multiprocessShims
 .
 js
