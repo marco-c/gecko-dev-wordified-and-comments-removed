@@ -2915,19 +2915,6 @@ DetachFromTopLevelWidget
 ;
 }
 }
-nsRefPtr
-<
-nsDeviceContext
->
-dx
-=
-mViewManager
--
->
-GetDeviceContext
-(
-)
-;
 nsresult
 rv
 =
@@ -2943,7 +2930,6 @@ nsIWidget
 UsePuppetWidgets
 (
 )
-dx
 )
 ;
 if

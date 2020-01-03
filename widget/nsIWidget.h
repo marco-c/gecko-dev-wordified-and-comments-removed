@@ -1775,9 +1775,6 @@ AttachViewToTopLevel
 (
 bool
 aUseAttachedEvents
-nsDeviceContext
-*
-aContext
 )
 =
 0

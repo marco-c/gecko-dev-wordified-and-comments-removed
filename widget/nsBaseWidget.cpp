@@ -1369,9 +1369,6 @@ AttachViewToTopLevel
 (
 bool
 aUseAttachedEvents
-nsDeviceContext
-*
-aContext
 )
 {
 NS_ASSERTION

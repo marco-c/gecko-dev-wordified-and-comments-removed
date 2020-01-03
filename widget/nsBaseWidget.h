@@ -1216,9 +1216,6 @@ AttachViewToTopLevel
 (
 bool
 aUseAttachedEvents
-nsDeviceContext
-*
-aContext
 )
 MOZ_OVERRIDE
 ;
