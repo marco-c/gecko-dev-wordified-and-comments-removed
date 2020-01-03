@@ -444,6 +444,11 @@ Debug
 h
 '
 '
+DebuggerOnGCRunnable
+.
+h
+'
+'
 DeferredFinalize
 .
 h
@@ -558,6 +563,11 @@ cpp
 '
 '
 Debug
+.
+cpp
+'
+'
+DebuggerOnGCRunnable
 .
 cpp
 '
