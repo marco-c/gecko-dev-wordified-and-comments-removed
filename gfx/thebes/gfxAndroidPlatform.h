@@ -160,7 +160,7 @@ aFont
 )
 ;
 void
-GetSystemFontList
+GetFontList
 (
 InfallibleTArray
 <
