@@ -32,7 +32,7 @@ FrameSendFailureError
 FrameSendNotInitializedError
 "
 "
-IllegalArgumentError
+InvalidArgumentError
 "
 "
 InvalidElementStateError
@@ -755,7 +755,7 @@ prototype
 ;
 this
 .
-IllegalArgumentError
+InvalidArgumentError
 =
 function
 (
@@ -775,7 +775,7 @@ this
 name
 =
 "
-IllegalArgumentError
+InvalidArgumentError
 "
 ;
 this
@@ -783,13 +783,13 @@ this
 status
 =
 "
-illegal
+invalid
 argument
 "
 ;
 }
 ;
-IllegalArgumentError
+InvalidArgumentError
 .
 prototype
 =
