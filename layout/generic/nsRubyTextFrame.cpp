@@ -157,11 +157,9 @@ aLists
 {
 if
 (
-GetStateBits
+IsAutoHidden
 (
 )
-&
-NS_RUBY_TEXT_FRAME_AUTOHIDE
 )
 {
 return
@@ -212,11 +210,9 @@ aStatus
 ;
 if
 (
-GetStateBits
+IsAutoHidden
 (
 )
-&
-NS_RUBY_TEXT_FRAME_AUTOHIDE
 )
 {
 WritingMode
