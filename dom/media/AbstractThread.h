@@ -102,6 +102,16 @@ aFailureHandling
 AssertDispatchSuccess
 )
 ;
+virtual
+bool
+IsDispatchReliable
+(
+)
+{
+return
+true
+;
+}
 static
 AbstractThread
 *
