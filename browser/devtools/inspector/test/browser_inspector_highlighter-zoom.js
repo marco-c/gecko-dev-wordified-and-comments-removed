@@ -274,12 +274,9 @@ level
 yield
 isNodeCorrectlyHighlighted
 (
-getNode
-(
 "
 div
 "
-)
 toolbox
 )
 ;
