@@ -134,9 +134,6 @@ APZUtils
 .
 h
 "
-class
-nsIntRegion
-;
 namespace
 mozilla
 {

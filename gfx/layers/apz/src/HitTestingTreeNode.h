@@ -190,7 +190,7 @@ aTransform
 const
 Maybe
 <
-nsIntRegion
+ParentLayerIntRegion
 >
 &
 aClipRegion
@@ -300,7 +300,7 @@ mTransform
 ;
 Maybe
 <
-nsIntRegion
+ParentLayerIntRegion
 >
 mClipRegion
 ;

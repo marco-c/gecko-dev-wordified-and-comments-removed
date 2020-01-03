@@ -545,7 +545,7 @@ aTransform
 const
 Maybe
 <
-nsIntRegion
+ParentLayerIntRegion
 >
 &
 aClipRegion
