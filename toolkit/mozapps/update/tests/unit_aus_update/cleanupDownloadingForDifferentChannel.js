@@ -7,7 +7,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -202,7 +202,7 @@ getUpdatesXMLFile
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 verifying

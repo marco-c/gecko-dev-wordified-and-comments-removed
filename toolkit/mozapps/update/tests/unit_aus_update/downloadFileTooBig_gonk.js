@@ -38,7 +38,7 @@ standardInit
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

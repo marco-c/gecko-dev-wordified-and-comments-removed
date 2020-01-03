@@ -7,7 +7,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -109,7 +109,7 @@ append
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -150,7 +150,7 @@ append
 FILE_UPDATE_STATUS
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -176,7 +176,7 @@ exists
 )
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -195,7 +195,7 @@ activeUpdate
 null
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

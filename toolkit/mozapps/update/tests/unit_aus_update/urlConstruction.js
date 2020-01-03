@@ -165,7 +165,7 @@ PRODUCT
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -237,7 +237,7 @@ VERSION
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -309,7 +309,7 @@ BUILD_ID
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -381,7 +381,7 @@ BUILD_TARGET
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -557,7 +557,7 @@ LOCALE
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -594,7 +594,7 @@ catch
 e
 )
 {
-logTestInfo
+debugDump
 (
 "
 The
@@ -664,7 +664,7 @@ CHANNEL
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -743,7 +743,7 @@ CHANNEL
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -849,7 +849,7 @@ PLATFORM_VERSION
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -921,7 +921,7 @@ OS_VERSION
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1635,7 +1635,7 @@ DISTRIBUTION
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1717,7 +1717,7 @@ DISTRIBUTION_VERSION
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1792,7 +1792,7 @@ url
 =
 URL_PREFIX
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1876,7 +1876,7 @@ extra
 param
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1889,22 +1889,6 @@ already
 has
 a
 param
--
-"
-+
-url
-)
-;
-logTestInfo
-(
-"
-testing
-url
-constructed
-that
-has
-a
-parameter
 -
 "
 +
@@ -1994,7 +1978,7 @@ CUSTOM
 %
 "
 ;
-logTestInfo
+debugDump
 (
 "
 testing

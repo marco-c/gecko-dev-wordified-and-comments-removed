@@ -13,7 +13,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -78,7 +78,7 @@ gExpectedCount
 =
 aExpectedCount
 ;
-logTestInfo
+debugDump
 (
 aMsg
 Components
@@ -227,7 +227,7 @@ run_test_pt02
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -895,7 +895,7 @@ run_test_pt03
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing

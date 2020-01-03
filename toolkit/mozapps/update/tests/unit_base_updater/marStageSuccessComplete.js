@@ -353,7 +353,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -424,7 +424,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -470,7 +470,7 @@ distribution
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -585,7 +585,7 @@ init
 helperBin
 )
 ;
-logTestInfo
+debugDump
 (
 "
 Running

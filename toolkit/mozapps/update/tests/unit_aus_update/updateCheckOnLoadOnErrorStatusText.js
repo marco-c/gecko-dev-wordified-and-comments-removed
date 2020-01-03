@@ -16,7 +16,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -110,7 +110,7 @@ gExpectedStatusCode
 =
 aExpectedStatusCode
 ;
-logTestInfo
+debugDump
 (
 aMsg
 Components
@@ -180,7 +180,7 @@ gExpectedStatusCode
 =
 399
 ;
-logTestInfo
+debugDump
 (
 "
 testing

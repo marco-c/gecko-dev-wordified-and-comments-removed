@@ -7,7 +7,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -105,7 +105,7 @@ standardInit
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -124,7 +124,7 @@ activeUpdate
 null
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -159,7 +159,7 @@ append
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -200,7 +200,7 @@ append
 FILE_UPDATE_VERSION
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

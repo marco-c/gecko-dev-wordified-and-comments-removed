@@ -3,6 +3,10 @@ run_test
 (
 )
 {
+DEBUG_AUS_TEST
+=
+true
+;
 if
 (
 !
@@ -181,7 +185,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking
@@ -284,7 +288,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -369,7 +373,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking

@@ -3,6 +3,10 @@ run_test
 (
 )
 {
+DEBUG_AUS_TEST
+=
+true
+;
 if
 (
 !
@@ -141,7 +145,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking

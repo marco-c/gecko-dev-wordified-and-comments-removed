@@ -7,7 +7,7 @@ setupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -82,7 +82,7 @@ if
 IS_WIN
 )
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -102,7 +102,7 @@ getPerInstallationMutexName
 )
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -121,7 +121,7 @@ handle
 null
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -148,7 +148,7 @@ gAUS
 canCheckForUpdates
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -175,7 +175,7 @@ gAUS
 canApplyUpdates
 )
 ;
-logTestInfo
+debugDump
 (
 "
 destroying
@@ -188,7 +188,7 @@ closeHandle
 handle
 )
 }
-logTestInfo
+debugDump
 (
 "
 testing
@@ -207,7 +207,7 @@ gAUS
 canCheckForUpdates
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -231,7 +231,7 @@ if
 IS_WIN
 )
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -251,7 +251,7 @@ getPerInstallationMutexName
 )
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing

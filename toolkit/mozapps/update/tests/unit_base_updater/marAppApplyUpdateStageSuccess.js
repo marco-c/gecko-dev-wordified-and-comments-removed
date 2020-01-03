@@ -492,7 +492,7 @@ append
 FILE_UPDATE_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -540,7 +540,7 @@ IS_WIN
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -568,7 +568,7 @@ exists
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -609,7 +609,7 @@ append
 FILE_BACKUP_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -650,7 +650,7 @@ DIR_UPDATES
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -693,7 +693,7 @@ FILE_UPDATE_LOG
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -742,7 +742,7 @@ IS_WIN
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -772,7 +772,7 @@ exists
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -812,7 +812,7 @@ FILE_BACKUP_LOG
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1103,7 +1103,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1221,7 +1221,7 @@ getUpdatesPatchDir
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1260,7 +1260,7 @@ append
 FILE_UPDATE_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1300,7 +1300,7 @@ append
 FILE_LAST_LOG
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1346,7 +1346,7 @@ IS_WIN
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -1374,7 +1374,7 @@ exists
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 testing

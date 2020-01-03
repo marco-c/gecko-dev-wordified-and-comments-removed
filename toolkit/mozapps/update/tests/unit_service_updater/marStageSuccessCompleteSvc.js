@@ -254,7 +254,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking
@@ -357,7 +357,7 @@ if
 IS_MACOSX
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -442,7 +442,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking
@@ -554,7 +554,7 @@ init
 helperBin
 )
 ;
-logTestInfo
+debugDump
 (
 "
 Running

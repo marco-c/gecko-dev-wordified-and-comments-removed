@@ -342,7 +342,7 @@ running
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking

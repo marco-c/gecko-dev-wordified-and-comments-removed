@@ -627,7 +627,7 @@ gEnvLdLibraryPath
 var
 DEBUG_AUS_TEST
 =
-true
+false
 ;
 var
 DEBUG_TEST_LOG
@@ -3694,7 +3694,7 @@ setupTestCommon
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -3958,7 +3958,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -4044,7 +4044,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -4103,7 +4103,7 @@ e
 }
 }
 }
-logTestInfo
+debugDump
 (
 "
 finish
@@ -4120,7 +4120,7 @@ cleanupTestCommon
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -4415,7 +4415,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -4507,7 +4507,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -4597,7 +4597,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 attempting
@@ -4659,7 +4659,7 @@ resetEnvironment
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -4911,6 +4911,11 @@ PREF_APP_UPDATE_SHOW_INSTALLED_UI
 false
 )
 ;
+if
+(
+DEBUG_AUS_TEST
+)
+{
 Services
 .
 prefs
@@ -4921,6 +4926,7 @@ PREF_APP_UPDATE_LOG
 true
 )
 ;
+}
 }
 function
 setTestFilesAndDirsForFailure
@@ -5664,7 +5670,7 @@ return
 null
 ;
 }
-logTestInfo
+debugDump
 (
 "
 SHGetSpecialFolderPath
@@ -6375,7 +6381,7 @@ path
 relPathUpdates
 )
 ;
-logTestInfo
+debugDump
 (
 "
 returning
@@ -6613,7 +6619,7 @@ initWithPath
 pathUpdates
 )
 ;
-logTestInfo
+debugDump
 (
 "
 returning
@@ -6724,7 +6730,7 @@ file
 .
 WFA_READWRITE
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -6829,7 +6835,7 @@ file
 .
 WFA_READONLY
 ;
-logTestInfo
+debugDump
 (
 "
 removing
@@ -7241,7 +7247,7 @@ gCallbackArgs
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 running
@@ -7515,7 +7521,7 @@ n
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 testing
@@ -7541,7 +7547,7 @@ exitValue
 aExpectedExitValue
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -7601,7 +7607,7 @@ stageUpdate
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -7667,7 +7673,7 @@ resetEnvironment
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -7957,7 +7963,7 @@ init
 helperBin
 )
 ;
-logTestInfo
+debugDump
 (
 "
 checking
@@ -8023,7 +8029,7 @@ installed
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 service
@@ -8326,7 +8332,7 @@ setupAppFiles
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -8627,7 +8633,7 @@ inGreDir
 }
 )
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -8764,7 +8770,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 unable
@@ -9238,7 +9244,7 @@ args
 length
 )
 ;
-logTestInfo
+debugDump
 (
 "
 verifying
@@ -9337,7 +9343,7 @@ Service
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 using
@@ -9397,7 +9403,7 @@ Service
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 using
@@ -9531,7 +9537,7 @@ buildMaintSvcBin
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 installed
@@ -9824,7 +9830,7 @@ readServiceLogFile
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 the
@@ -9984,7 +9990,7 @@ waitServiceApps
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 waiting
@@ -10061,7 +10067,7 @@ init
 helperBin
 )
 ;
-logTestInfo
+debugDump
 (
 "
 stopping
@@ -10191,12 +10197,11 @@ failures
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 service
 stopped
-.
 "
 )
 ;
@@ -10212,7 +10217,7 @@ waitForApplicationStop
 aApplication
 )
 {
-logTestInfo
+debugDump
 (
 "
 waiting
@@ -10225,11 +10230,7 @@ aApplication
 to
 stop
 if
-"
-+
-"
 necessary
-.
 .
 .
 "
@@ -10588,7 +10589,7 @@ init
 launchBin
 )
 ;
-logTestInfo
+debugDump
 (
 "
 launching
@@ -10652,7 +10653,7 @@ status
 STATE_PENDING_SVC
 )
 {
-logTestInfo
+debugDump
 (
 "
 still
@@ -10799,7 +10800,7 @@ n
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 testing
@@ -11124,7 +11125,7 @@ path
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 failed
@@ -12791,7 +12792,7 @@ compareLogContents
 updateLogContents
 )
 {
-logTestInfo
+debugDump
 (
 "
 log
@@ -12870,7 +12871,7 @@ aCheckString
 1
 )
 {
-logTestInfo
+debugDump
 (
 "
 log
@@ -12934,7 +12935,7 @@ aStageDirExists
 aToBeDeletedDirExists
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -12973,7 +12974,7 @@ fileName
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13057,9 +13058,8 @@ toString
 "
 ;
 }
-logPerms
-+
-=
+debugDump
+(
 "
 compare
 permissions
@@ -13077,10 +13077,7 @@ toString
 +
 "
 "
-;
-logPerms
 +
-=
 "
 updated
 permissions
@@ -13095,10 +13092,6 @@ toString
 (
 8
 )
-;
-logTestInfo
-(
-logPerms
 )
 ;
 do_check_eq
@@ -13153,7 +13146,7 @@ fileContents1
 fileContents2
 )
 {
-logTestInfo
+debugDump
 (
 "
 file
@@ -13205,7 +13198,7 @@ exists
 }
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13248,7 +13241,7 @@ relPathDir
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13321,7 +13314,7 @@ aTestFile
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13400,7 +13393,7 @@ aSubDir
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13458,7 +13451,7 @@ aTestFile
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13511,7 +13504,7 @@ aStageDirExists
 aToBeDeletedDirExists
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13550,7 +13543,7 @@ fileName
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13634,9 +13627,8 @@ toString
 "
 ;
 }
-logPerms
-+
-=
+debugDump
+(
 "
 compare
 permissions
@@ -13654,10 +13646,7 @@ toString
 +
 "
 "
-;
-logPerms
 +
-=
 "
 updated
 permissions
@@ -13672,10 +13661,6 @@ toString
 (
 8
 )
-;
-logTestInfo
-(
-logPerms
 )
 ;
 do_check_eq
@@ -13730,7 +13715,7 @@ fileContents1
 fileContents2
 )
 {
-logTestInfo
+debugDump
 (
 "
 file
@@ -13782,7 +13767,7 @@ exists
 }
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13826,7 +13811,7 @@ relPathDir
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13880,7 +13865,7 @@ aTestFile
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13939,7 +13924,7 @@ aSubDir
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -13997,7 +13982,7 @@ aTestFile
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14049,7 +14034,7 @@ aStageDirExists
 aToBeDeletedDirExists
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14067,7 +14052,7 @@ null
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14124,7 +14109,7 @@ DIR_TOBEDELETED
 true
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14163,7 +14148,7 @@ exists
 toBeDeletedDirExists
 )
 ;
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14212,7 +14197,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14259,7 +14244,7 @@ exists
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14304,7 +14289,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14341,7 +14326,7 @@ checkForBackupFiles
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 testing
@@ -14503,7 +14488,7 @@ logContents
 expectedLogContents
 )
 {
-logTestInfo
+debugDump
 (
 "
 callback
@@ -14523,7 +14508,7 @@ true
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 callback
@@ -14596,7 +14581,7 @@ exists
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 postUpdateLog
@@ -14735,7 +14720,7 @@ checkPostUpdateAppLog
 return
 ;
 }
-logTestInfo
+debugDump
 (
 "
 post
@@ -14836,7 +14821,7 @@ logContents
 expectedLogContents
 )
 {
-logTestInfo
+debugDump
 (
 "
 callback
@@ -14859,7 +14844,7 @@ checkCallbackServiceLog
 return
 ;
 }
-logTestInfo
+debugDump
 (
 "
 testing
@@ -15073,7 +15058,7 @@ file
 leafName
 )
 ;
-logTestInfo
+debugDump
 (
 "
 file
@@ -15097,7 +15082,7 @@ catch
 e
 )
 {
-logTestInfo
+debugDump
 (
 "
 file
@@ -15198,7 +15183,7 @@ return
 }
 }
 }
-logTestInfo
+debugDump
 (
 "
 calling
@@ -16081,7 +16066,7 @@ gUpdates
 =
 aUpdates
 ;
-logTestInfo
+debugDump
 (
 "
 url
@@ -16154,7 +16139,7 @@ statusText
 :
 null
 ;
-logTestInfo
+debugDump
 (
 "
 url
@@ -16302,7 +16287,7 @@ getTestDirFile
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 http
@@ -16429,7 +16414,7 @@ testserverPort
 /
 "
 ;
-logTestInfo
+debugDump
 (
 "
 http
@@ -16788,7 +16773,7 @@ launchScript
 scriptContents
 )
 ;
-logTestInfo
+debugDump
 (
 "
 created
@@ -17177,7 +17162,7 @@ AGP_cleanup
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -17193,7 +17178,7 @@ if
 gAppTimer
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -17214,7 +17199,7 @@ gAppTimer
 =
 null
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -17236,7 +17221,7 @@ gProcess
 isRunning
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -17260,7 +17245,7 @@ catch
 e
 )
 {
-logTestInfo
+debugDump
 (
 "
 kill
@@ -17279,7 +17264,7 @@ gProcess
 =
 null
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -17297,7 +17282,7 @@ gHandle
 {
 try
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -17349,7 +17334,7 @@ gHandle
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 call
@@ -17370,7 +17355,7 @@ gHandle
 =
 null
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -17386,7 +17371,7 @@ catch
 e
 )
 {
-logTestInfo
+debugDump
 (
 "
 call
@@ -17417,7 +17402,7 @@ Function
 )
 )
 {
-logTestInfo
+debugDump
 (
 "
 calling
@@ -17441,7 +17426,7 @@ cleanupTestCommon
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -17461,7 +17446,7 @@ launchAppToApplyUpdate
 (
 )
 {
-logTestInfo
+debugDump
 (
 "
 start
@@ -17518,7 +17503,7 @@ getProcessArgs
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 launching
@@ -17610,7 +17595,7 @@ setEnvironment
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 launching
@@ -17633,7 +17618,7 @@ resetEnvironment
 (
 )
 ;
-logTestInfo
+debugDump
 (
 "
 finish
@@ -17661,7 +17646,7 @@ aTopic
 aData
 )
 {
-logTestInfo
+debugDump
 (
 "
 topic
@@ -17939,7 +17924,7 @@ gAddedEnvXRENoWindowsCrashDialog
 =
 true
 ;
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18083,7 +18068,7 @@ if
 shouldSetEnv
 )
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18172,7 +18157,7 @@ if
 shouldSetEnv
 )
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18226,7 +18211,7 @@ XPCOM_MEM_LEAK_LOG
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 removing
@@ -18282,7 +18267,7 @@ XPCOM_DEBUG_BREAK
 "
 )
 ;
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18308,7 +18293,7 @@ gEnvXPCOMDebugBreak
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18351,7 +18336,7 @@ if
 gStageUpdate
 )
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18377,7 +18362,7 @@ MOZ_UPDATE_STAGING
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18453,7 +18438,7 @@ if
 gEnvXPCOMMemLeakLog
 )
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18484,7 +18469,7 @@ if
 gEnvXPCOMDebugBreak
 )
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18512,7 +18497,7 @@ gEnvXPCOMDebugBreak
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 clearing
@@ -18550,7 +18535,7 @@ if
 gEnvDyldLibraryPath
 )
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18581,7 +18566,7 @@ gEnvDyldLibraryPath
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 removing
@@ -18611,7 +18596,7 @@ if
 gEnvLdLibraryPath
 )
 {
-logTestInfo
+debugDump
 (
 "
 setting
@@ -18642,7 +18627,7 @@ gEnvLdLibraryPath
 }
 else
 {
-logTestInfo
+debugDump
 (
 "
 removing
@@ -18674,7 +18659,7 @@ IS_WIN
 gAddedEnvXRENoWindowsCrashDialog
 )
 {
-logTestInfo
+debugDump
 (
 "
 removing
@@ -18705,7 +18690,7 @@ if
 gStageUpdate
 )
 {
-logTestInfo
+debugDump
 (
 "
 removing
@@ -18728,7 +18713,7 @@ MOZ_UPDATE_STAGING
 )
 ;
 }
-logTestInfo
+debugDump
 (
 "
 removing
