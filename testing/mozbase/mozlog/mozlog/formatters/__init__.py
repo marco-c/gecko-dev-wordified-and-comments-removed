@@ -1,5 +1,3 @@
-import
-json
 from
 unittest
 import
@@ -24,6 +22,19 @@ from
 errorsummary
 import
 ErrorSummaryFormatter
+try
+:
+    
+import
+ujson
+as
+json
+except
+ImportError
+:
+    
+import
+json
 def
 JSONFormatter
 (
