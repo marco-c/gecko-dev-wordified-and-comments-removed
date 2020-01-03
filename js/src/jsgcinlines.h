@@ -2321,9 +2321,7 @@ if
 rt
 -
 >
-hasPendingInterrupt
-(
-)
+interrupt
 )
 {
 ncx
