@@ -103,3 +103,13 @@ jar
 mn
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+ReaderMode
+.
+jsm
+'
+]
