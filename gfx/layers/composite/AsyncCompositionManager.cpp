@@ -777,6 +777,8 @@ const
 gfxPoint
 &
 aTranslation
+bool
+aAdjustClipRect
 )
 {
 Matrix
@@ -947,6 +949,9 @@ GetClipRect
 ;
 if
 (
+aAdjustClipRect
+&
+&
 clipRect
 )
 {
@@ -1365,12 +1370,6 @@ isStickyForSubtree
 ;
 if
 (
-aLayer
-=
-=
-aTransformedSubtreeRoot
-|
-|
 !
 isFixedOrSticky
 )
@@ -1731,6 +1730,10 @@ ThebesPoint
 (
 translation
 )
+aLayer
+!
+=
+aTransformedSubtreeRoot
 )
 ;
 }
