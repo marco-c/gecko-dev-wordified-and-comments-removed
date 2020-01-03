@@ -691,6 +691,9 @@ mAbnormalShutdownInProgress
 bool
 mIsBlockingDeletion
 ;
+bool
+mCanDecrypt
+;
 nsTArray
 <
 nsRefPtr
