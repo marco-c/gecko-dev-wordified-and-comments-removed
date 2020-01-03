@@ -527,6 +527,9 @@ JITSPEW_CHANNEL
 JitSpew_Terminator
 }
 ;
+class
+MIRGenerator
+;
 static
 const
 int
