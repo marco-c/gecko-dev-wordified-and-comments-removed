@@ -451,13 +451,6 @@ true
 )
 ;
 void
-Rotate
-(
-gfxFloat
-angle
-)
-;
-void
 Multiply
 (
 const
