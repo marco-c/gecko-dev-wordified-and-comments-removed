@@ -17834,7 +17834,7 @@ callback
 ;
 MOZ_ASSERT
 (
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 &
 marker

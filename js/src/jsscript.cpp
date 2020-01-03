@@ -19360,7 +19360,7 @@ trc
 {
 MOZ_ASSERT_IF
 (
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 trc
 )
@@ -19610,7 +19610,7 @@ lazyScript
 ;
 if
 (
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 trc
 )

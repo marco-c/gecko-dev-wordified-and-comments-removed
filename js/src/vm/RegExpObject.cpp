@@ -1119,7 +1119,7 @@ isHeapBusy
 )
 &
 &
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 trc
 )
@@ -2787,7 +2787,7 @@ trc
 {
 if
 (
-IS_GC_MARKING_TRACER
+IsMarkingTracer
 (
 trc
 )
