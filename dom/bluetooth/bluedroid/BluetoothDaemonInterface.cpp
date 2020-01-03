@@ -6708,10 +6708,6 @@ BluetoothDaemonInterface
 Channel
 mChannel
 ;
-BluetoothDaemonPDUConsumer
-*
-mConsumer
-;
 }
 ;
 BluetoothDaemonChannel
@@ -6732,6 +6728,10 @@ BluetoothDaemonPDUConsumer
 aConsumer
 )
 :
+BluetoothDaemonConnection
+(
+aConsumer
+)
 mInterface
 (
 aInterface
@@ -6739,10 +6739,6 @@ aInterface
 mChannel
 (
 aChannel
-)
-mConsumer
-(
-aConsumer
 )
 {
 }
@@ -6845,7 +6841,6 @@ GetIO
 return
 PrepareAccept
 (
-mConsumer
 )
 ;
 }

@@ -263,6 +263,9 @@ public
 :
 BluetoothDaemonConnection
 (
+BluetoothDaemonPDUConsumer
+*
+aConsumer
 )
 ;
 virtual
@@ -300,13 +303,14 @@ ConnectionOrientedSocketIO
 *
 PrepareAccept
 (
-BluetoothDaemonPDUConsumer
-*
-aConsumer
 )
 ;
 private
 :
+BluetoothDaemonPDUConsumer
+*
+mConsumer
+;
 BluetoothDaemonConnectionIO
 *
 mIO
