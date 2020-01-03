@@ -2242,11 +2242,10 @@ nullptr
 if
 (
 !
-Emit1
-(
-cx
-&
 bce
+.
+emit1
+(
 JSOP_RETRVAL
 )
 )
