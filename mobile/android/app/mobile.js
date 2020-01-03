@@ -5049,7 +5049,7 @@ mem
 .
 decodeondraw
 "
-false
+true
 )
 ;
 #
