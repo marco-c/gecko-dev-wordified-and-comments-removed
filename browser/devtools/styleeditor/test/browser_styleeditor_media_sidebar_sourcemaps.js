@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TESTCASE_URI
 =
@@ -402,6 +407,7 @@ resolve
 ;
 }
 )
+;
 return
 deferred
 .

@@ -149,11 +149,11 @@ focus
 function
 getStylesheetNameLinkFor
 (
-aEditor
+editor
 )
 {
 return
-aEditor
+editor
 .
 summary
 .
@@ -171,7 +171,7 @@ name
 function
 testKeyboardNavigation
 (
-aEditor
+editor
 panel
 )
 {
@@ -198,7 +198,7 @@ function
 let
 summary
 =
-aEditor
+editor
 .
 summary
 ;

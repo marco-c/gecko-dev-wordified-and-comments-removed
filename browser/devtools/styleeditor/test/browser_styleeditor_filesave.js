@@ -124,9 +124,6 @@ html
 "
 )
 ;
-let
-cssFile
-=
 yield
 copy
 (
@@ -404,8 +401,8 @@ summary
 function
 copy
 (
-aSrcChromeURL
-aDestFileName
+srcChromeURL
+destFileName
 )
 {
 let
@@ -428,7 +425,7 @@ getFile
 ProfD
 "
 [
-aDestFileName
+destFileName
 ]
 )
 ;
@@ -436,7 +433,7 @@ write
 (
 read
 (
-aSrcChromeURL
+srcChromeURL
 )
 destFile
 deferred
@@ -453,7 +450,7 @@ promise
 function
 read
 (
-aSrcChromeURL
+srcChromeURL
 )
 {
 let
@@ -488,7 +485,7 @@ io
 .
 newChannel2
 (
-aSrcChromeURL
+srcChromeURL
 null
 null
 null
@@ -581,9 +578,9 @@ data
 function
 write
 (
-aData
-aFile
-aCallback
+data
+file
+callback
 )
 {
 let
@@ -626,7 +623,7 @@ converter
 .
 convertToInputStream
 (
-aData
+data
 )
 ;
 let
@@ -636,7 +633,7 @@ FileUtils
 .
 openSafeFileOutputStream
 (
-aFile
+file
 )
 ;
 NetUtil
@@ -664,14 +661,14 @@ status
 info
 (
 "
-Coudln
+Couldn
 '
 t
 write
 to
 "
 +
-aFile
+file
 .
 path
 )
@@ -679,9 +676,9 @@ path
 return
 ;
 }
-aCallback
+callback
 (
-aFile
+file
 )
 ;
 }

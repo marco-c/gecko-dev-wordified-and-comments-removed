@@ -248,7 +248,6 @@ function
 onProp
 (
 property
-value
 )
 {
 let
@@ -415,6 +414,7 @@ is
 parseInt
 (
 ruleCount
+10
 )
 0
 "
@@ -613,6 +613,7 @@ is
 parseInt
 (
 ruleCount
+10
 )
 1
 "

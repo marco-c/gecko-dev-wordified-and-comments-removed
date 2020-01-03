@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TESTCASE_URI
 =
@@ -111,6 +116,9 @@ styleeditor
 /
 test
 /
+"
++
+"
 simple
 .
 css
