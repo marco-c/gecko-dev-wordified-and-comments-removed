@@ -144,6 +144,11 @@ MobileConnectionArray
 h
 '
 '
+MobileConnectionCallback
+.
+h
+'
+'
 MobileConnectionInfo
 .
 h
@@ -175,6 +180,11 @@ cpp
 '
 '
 MobileConnectionArray
+.
+cpp
+'
+'
+MobileConnectionCallback
 .
 cpp
 '
