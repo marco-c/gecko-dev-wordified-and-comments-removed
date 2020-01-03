@@ -3874,6 +3874,12 @@ sSendPerformanceTimingNotifications
 }
 static
 bool
+IsFrameTimingEnabled
+(
+)
+;
+static
+bool
 EncodeDecodeURLHash
 (
 )
@@ -5206,6 +5212,10 @@ sIsResourceTimingEnabled
 static
 bool
 sIsUserTimingLoggingEnabled
+;
+static
+bool
+sIsFrameTimingPrefEnabled
 ;
 static
 bool
