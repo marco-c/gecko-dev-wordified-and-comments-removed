@@ -156,7 +156,7 @@ PauseFromJS
 (
 )
 {
-Play
+Pause
 (
 )
 ;
