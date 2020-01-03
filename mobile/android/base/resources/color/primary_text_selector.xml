@@ -57,7 +57,7 @@ color
 "
 color
 /
-text_color_overlaybtn_disabled
+disabled_grey
 "
 /
 >
@@ -70,7 +70,7 @@ color
 "
 color
 /
-text_color_overlaybtn
+text_and_tabs_tray_grey
 "
 /
 >
