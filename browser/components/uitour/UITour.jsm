@@ -623,7 +623,7 @@ PanelUI
 -
 fxa
 -
-label
+status
 "
 )
 ;
@@ -651,7 +651,7 @@ PanelUI
 -
 fxa
 -
-label
+status
 "
 }
 ]
