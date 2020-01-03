@@ -57321,9 +57321,6 @@ other_values
 :
 [
 "
-instant
-"
-"
 smooth
 "
 ]
