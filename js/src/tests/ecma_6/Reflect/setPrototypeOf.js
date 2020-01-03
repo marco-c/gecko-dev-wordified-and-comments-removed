@@ -184,7 +184,7 @@ setPrototypeOf
 obj
 proto
 )
-false
+true
 )
 ;
 obj

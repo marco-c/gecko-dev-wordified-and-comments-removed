@@ -1324,7 +1324,7 @@ const
 MOZ_ASSERT
 (
 !
-uninlinedIsProxy
+hasLazyPrototype
 (
 )
 )
