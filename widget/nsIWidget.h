@@ -766,6 +766,10 @@ mNativeIMEContext
 (
 nullptr
 )
+mMayBeIMEUnaware
+(
+false
+)
 {
 }
 bool
@@ -800,6 +804,9 @@ mActionHint
 void
 *
 mNativeIMEContext
+;
+bool
+mMayBeIMEUnaware
 ;
 }
 ;
