@@ -1375,11 +1375,6 @@ Reader
 "
 Reader
 :
-Added
-"
-"
-Reader
-:
 Removed
 "
 "
