@@ -1038,17 +1038,6 @@ IsClusterStart
 )
 )
 {
-NS_WARNING
-(
-"
-Break
-suggested
-inside
-cluster
-!
-"
-)
-;
 canBreak
 =
 CompressedGlyph
