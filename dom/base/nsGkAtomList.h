@@ -3365,6 +3365,13 @@ integer
 )
 GK_ATOM
 (
+integrity
+"
+integrity
+"
+)
+GK_ATOM
+(
 intersection
 "
 intersection

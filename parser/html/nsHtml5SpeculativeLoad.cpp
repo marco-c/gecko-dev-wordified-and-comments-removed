@@ -174,6 +174,7 @@ mUrl
 mCharset
 mTypeOrCharsetSource
 mCrossOrigin
+mIntegrity
 false
 )
 ;
@@ -191,6 +192,7 @@ mUrl
 mCharset
 mTypeOrCharsetSource
 mCrossOrigin
+mIntegrity
 true
 )
 ;
@@ -207,6 +209,7 @@ PreloadStyle
 mUrl
 mCharset
 mCrossOrigin
+mIntegrity
 )
 ;
 break

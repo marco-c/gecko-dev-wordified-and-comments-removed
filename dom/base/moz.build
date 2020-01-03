@@ -2259,6 +2259,14 @@ base
 '
 '
 /
+security
+/
+manager
+/
+ssl
+'
+'
+/
 widget
 '
 '
