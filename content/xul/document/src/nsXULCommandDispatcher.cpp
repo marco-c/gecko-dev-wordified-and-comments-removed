@@ -240,11 +240,6 @@ Disconnect
 )
 ;
 }
-DOMCI_DATA
-(
-XULCommandDispatcher
-nsXULCommandDispatcher
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsXULCommandDispatcher

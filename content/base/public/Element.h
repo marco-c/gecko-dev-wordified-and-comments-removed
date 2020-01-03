@@ -101,13 +101,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CORSMode

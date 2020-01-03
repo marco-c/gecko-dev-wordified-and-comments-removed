@@ -689,11 +689,6 @@ mPersistStateStore
 mLocalStore
 mObservers
 )
-DOMCI_DATA
-(
-XULTreeBuilder
-nsXULTreeBuilder
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsXULTreeBuilder

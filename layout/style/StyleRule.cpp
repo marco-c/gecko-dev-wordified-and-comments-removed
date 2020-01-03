@@ -5531,14 +5531,6 @@ return
 nullptr
 ;
 }
-DOMCI_DATA
-(
-CSSStyleRule
-css
-:
-:
-DOMCSSStyleRule
-)
 namespace
 mozilla
 {

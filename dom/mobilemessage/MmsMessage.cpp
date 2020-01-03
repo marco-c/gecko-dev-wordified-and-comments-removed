@@ -153,17 +153,6 @@ dom
 :
 mobilemessage
 ;
-DOMCI_DATA
-(
-MozMmsMessage
-mozilla
-:
-:
-dom
-:
-:
-MmsMessage
-)
 namespace
 mozilla
 {
