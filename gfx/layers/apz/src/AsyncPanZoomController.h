@@ -906,6 +906,15 @@ GetVelocityVector
 )
 const
 ;
+void
+SetVelocityVector
+(
+const
+ParentLayerPoint
+&
+aVelocityVector
+)
+;
 ParentLayerPoint
 GetFirstTouchPoint
 (
