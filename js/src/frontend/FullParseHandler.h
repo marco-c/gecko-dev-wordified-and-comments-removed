@@ -4700,7 +4700,7 @@ isConstant
 }
 PropertyName
 *
-maybeName
+isName
 (
 ParseNode
 *
