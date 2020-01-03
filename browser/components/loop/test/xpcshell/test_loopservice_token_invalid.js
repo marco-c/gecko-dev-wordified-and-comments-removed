@@ -197,7 +197,7 @@ Assert
 equal
 (
 authorizationAttempts
-4
+2
 )
 ;
 Assert
