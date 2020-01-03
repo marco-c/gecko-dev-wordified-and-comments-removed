@@ -67,6 +67,17 @@ MOZ_CRASH
 )
 ;
 }
+void
+setScratchRegister
+(
+Register
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
 }
 ;
 typedef

@@ -993,6 +993,11 @@ populateSafepoints
 (
 )
 ;
+bool
+annotateMoveGroups
+(
+)
+;
 void
 dumpRegisterGroups
 (
