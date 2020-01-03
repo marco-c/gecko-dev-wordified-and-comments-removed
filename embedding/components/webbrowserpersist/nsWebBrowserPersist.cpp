@@ -7906,8 +7906,12 @@ get
 )
 )
 ;
-goto
-end
+aFilename
+=
+fileName
+;
+return
+NS_OK
 ;
 }
 if
@@ -8097,8 +8101,6 @@ a
 )
 ;
 }
-end
-:
 aFilename
 =
 fileName
