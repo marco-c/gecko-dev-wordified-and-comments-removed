@@ -1496,6 +1496,7 @@ nsContainerFrame
 aParent
 )
 ;
+virtual
 mozilla
 :
 :
