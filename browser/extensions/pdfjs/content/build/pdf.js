@@ -40,7 +40,7 @@ version
 .
 0
 .
-1130
+1147
 '
 ;
 PDFJS
@@ -48,7 +48,7 @@ PDFJS
 build
 =
 '
-e4f0ae2
+6bb0a48
 '
 ;
 (
@@ -1327,6 +1327,12 @@ return
 value
 ;
 }
+PDFJS
+.
+shadow
+=
+shadow
+;
 var
 PasswordResponses
 =
