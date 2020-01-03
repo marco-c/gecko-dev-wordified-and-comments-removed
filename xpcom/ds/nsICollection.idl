@@ -273,6 +273,7 @@ private
 :
 nsICollection
 *
+MOZ_NON_OWNING_REF
 mCollection
 ;
 uint32_t
