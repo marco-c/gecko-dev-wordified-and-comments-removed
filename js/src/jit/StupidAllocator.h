@@ -30,15 +30,10 @@ const
 uint32_t
 MAX_REGISTERS
 =
-Registers
+AnyRegister
 :
 :
-Allocatable
-+
-FloatRegisters
-:
-:
-Allocatable
+Total
 ;
 static
 const

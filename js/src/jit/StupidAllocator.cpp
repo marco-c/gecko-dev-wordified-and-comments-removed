@@ -37,6 +37,8 @@ vreg
 return
 vreg
 *
+2
+*
 sizeof
 (
 Value
@@ -472,7 +474,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeGeneral
+takeUnaliasedGeneral
 (
 )
 )
@@ -500,7 +502,7 @@ AnyRegister
 (
 remainingRegisters
 .
-takeFloat
+takeUnaliasedFloat
 (
 )
 )
