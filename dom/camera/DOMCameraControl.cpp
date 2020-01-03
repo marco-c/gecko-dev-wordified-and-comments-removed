@@ -5242,7 +5242,7 @@ mAudioChannelAgent
 mAudioChannelAgent
 -
 >
-StopPlaying
+NotifyStoppedPlaying
 (
 )
 ;
@@ -5392,7 +5392,7 @@ rv
 mAudioChannelAgent
 -
 >
-StartPlaying
+NotifyStartedPlaying
 (
 &
 volume
