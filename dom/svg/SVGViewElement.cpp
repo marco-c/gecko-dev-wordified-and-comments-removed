@@ -209,9 +209,9 @@ return
 }
 rv
 .
-Throw
+ThrowRangeError
 (
-NS_ERROR_RANGE_ERR
+MSG_INVALID_ZOOMANDPAN_VALUE_ERROR
 )
 ;
 }

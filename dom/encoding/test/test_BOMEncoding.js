@@ -583,7 +583,7 @@ data
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -703,7 +703,7 @@ data
 error
 :
 "
-TypeError
+RangeError
 "
 msg
 :
@@ -1980,7 +1980,7 @@ data
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :
@@ -2367,7 +2367,7 @@ data
 error
 :
 "
-EncodingError
+TypeError
 "
 msg
 :

@@ -114,7 +114,7 @@ label
 ;
 aRv
 .
-ThrowTypeError
+ThrowRangeError
 (
 MSG_ENCODING_NOT_SUPPORTED
 &
@@ -355,9 +355,9 @@ mFatal
 {
 aRv
 .
-Throw
+ThrowTypeError
 (
-NS_ERROR_DOM_ENCODING_DECODE_ERR
+MSG_DOM_DECODING_FAILED
 )
 ;
 }
@@ -383,9 +383,9 @@ rv
 {
 aRv
 .
-Throw
+ThrowTypeError
 (
-NS_ERROR_DOM_ENCODING_DECODE_ERR
+MSG_DOM_DECODING_FAILED
 )
 ;
 }
