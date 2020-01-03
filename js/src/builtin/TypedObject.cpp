@@ -6724,7 +6724,10 @@ global
 gc
 :
 :
-FINALIZE_OBJECT0
+AllocKind
+:
+:
+OBJECT0
 newKind
 )
 ;

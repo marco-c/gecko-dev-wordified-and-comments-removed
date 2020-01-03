@@ -15916,7 +15916,10 @@ metadata
 gc
 :
 :
-FINALIZE_OBJECT0
+AllocKind
+:
+:
+OBJECT0
 )
 )
 ;
@@ -15941,7 +15944,10 @@ cx
 gc
 :
 :
-FINALIZE_OBJECT4
+AllocKind
+:
+:
+OBJECT4
 gc
 :
 :
@@ -16485,7 +16491,10 @@ metadata
 gc
 :
 :
-FINALIZE_OBJECT0
+AllocKind
+:
+:
+OBJECT0
 )
 )
 ;

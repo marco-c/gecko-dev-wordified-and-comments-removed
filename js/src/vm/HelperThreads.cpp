@@ -4219,7 +4219,10 @@ zone
 gc
 :
 :
-FINALIZE_OBJECT_GROUP
+AllocKind
+:
+:
+OBJECT_GROUP
 )
 ;
 !

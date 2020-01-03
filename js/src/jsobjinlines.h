@@ -4065,7 +4065,10 @@ return
 gc
 :
 :
-FINALIZE_OBJECT4
+AllocKind
+:
+:
+OBJECT4
 ;
 }
 static
@@ -4097,7 +4100,10 @@ return
 gc
 :
 :
-FINALIZE_OBJECT8
+AllocKind
+:
+:
+OBJECT8
 ;
 }
 inline

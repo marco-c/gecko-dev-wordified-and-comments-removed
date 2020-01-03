@@ -598,7 +598,10 @@ ZoneCellIterUnderGC
 i
 (
 this
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !
@@ -895,7 +898,10 @@ ZoneCellIterUnderGC
 i
 (
 this
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !
@@ -973,7 +979,10 @@ ZoneCellIterUnderGC
 i
 (
 this
-FINALIZE_SCRIPT
+AllocKind
+:
+:
+SCRIPT
 )
 ;
 !

@@ -211,7 +211,10 @@ FINALIZE_KIND
 gc
 :
 :
-FINALIZE_OBJECT4_BACKGROUND
+AllocKind
+:
+:
+OBJECT4_BACKGROUND
 ;
 static
 ArgumentsObject

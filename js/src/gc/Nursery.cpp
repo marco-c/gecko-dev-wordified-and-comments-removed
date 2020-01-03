@@ -1992,7 +1992,10 @@ getElementsHeader
 )
 )
 return
-FINALIZE_OBJECT0_BACKGROUND
+AllocKind
+:
+:
+OBJECT0_BACKGROUND
 ;
 size_t
 nelements
@@ -2221,7 +2224,10 @@ OutlineTypedObject
 )
 )
 return
-FINALIZE_OBJECT0
+AllocKind
+:
+:
+OBJECT0
 ;
 MOZ_ASSERT
 (
