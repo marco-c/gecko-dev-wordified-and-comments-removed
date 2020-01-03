@@ -127,9 +127,6 @@ SkCanvas
 aCanvas
 SurfaceFormat
 aFormat
-DrawTargetSkia
-*
-aOwner
 )
 ;
 bool
@@ -195,14 +192,11 @@ mSize
 int32_t
 mStride
 ;
-RefPtr
-<
-DrawTargetSkia
->
-mDrawTarget
-;
 bool
 mLocked
+;
+bool
+mBitmapDataOwned
 ;
 }
 ;
