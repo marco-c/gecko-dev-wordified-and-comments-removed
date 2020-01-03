@@ -441,6 +441,11 @@ GMPService
 h
 '
 '
+GMPServiceChild
+.
+h
+'
+'
 GMPServiceParent
 .
 h
@@ -652,6 +657,11 @@ GMPService
 cpp
 '
 '
+GMPServiceChild
+.
+cpp
+'
+'
 GMPServiceParent
 .
 cpp
@@ -769,6 +779,11 @@ ipdl
 '
 '
 PGMPDecryptor
+.
+ipdl
+'
+'
+PGMPService
 .
 ipdl
 '
