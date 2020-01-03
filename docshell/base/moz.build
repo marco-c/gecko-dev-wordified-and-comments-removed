@@ -260,6 +260,11 @@ mozilla
 =
 [
 '
+AutoTimelineMarker
+.
+h
+'
+'
 IHistory
 .
 h
