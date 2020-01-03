@@ -5775,8 +5775,6 @@ PageThumbs
 captureToCanvas
 (
 chatbox
-.
-contentWindow
 canvas
 )
 ;
