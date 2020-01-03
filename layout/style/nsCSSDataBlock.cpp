@@ -2865,6 +2865,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aPropID
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 ClearLonghandProperty
@@ -2990,6 +2994,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aPropID
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 changed

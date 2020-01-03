@@ -343,6 +343,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aProperty
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 data
@@ -683,6 +687,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aProperty
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 if
@@ -6441,6 +6449,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aProperty
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 if

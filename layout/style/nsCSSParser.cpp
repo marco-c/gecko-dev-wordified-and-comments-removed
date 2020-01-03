@@ -41158,6 +41158,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 aPropID
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 nsCSSValueTokenStream
@@ -62456,6 +62460,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 p
 eCSSProperty_all
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 AppendValue

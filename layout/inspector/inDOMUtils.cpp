@@ -3698,6 +3698,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 subproperty
 propertyID
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 uint32_t
@@ -3733,6 +3737,10 @@ CSSPROPS_FOR_SHORTHAND_SUBPROPERTIES
 (
 subproperty
 propertyID
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 {
 uint32_t
