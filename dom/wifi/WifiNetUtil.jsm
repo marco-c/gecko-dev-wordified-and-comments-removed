@@ -175,6 +175,7 @@ runDhcp
 function
 (
 ifname
+gen
 callback
 )
 {
@@ -204,7 +205,18 @@ runIpConfig
 (
 ifname
 dhcpInfo
+function
+(
+data
+)
+{
 callback
+(
+data
+gen
+)
+;
+}
 )
 ;
 }
