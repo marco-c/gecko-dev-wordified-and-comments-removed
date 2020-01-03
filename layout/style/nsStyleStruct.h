@@ -2108,14 +2108,10 @@ MaxDifference
 )
 {
 return
-NS_SubtractHint
-(
-NS_STYLE_HINT_REFLOW
 NS_CombineHint
 (
-nsChangeHint_ClearDescendantIntrinsics
-nsChangeHint_NeedDirtyReflow
-)
+nsChangeHint_NeedReflow
+nsChangeHint_ClearAncestorIntrinsics
 )
 ;
 }
