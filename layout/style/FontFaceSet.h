@@ -909,9 +909,6 @@ bool
 mReadyIsResolved
 ;
 bool
-mDispatchedLoadingEvent
-;
-bool
 mHasLoadingFontFaces
 ;
 bool
