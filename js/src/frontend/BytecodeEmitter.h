@@ -2125,6 +2125,11 @@ pattern
 )
 ;
 bool
+emitRequireObjectCoercible
+(
+)
+;
+bool
 emitIterator
 (
 )

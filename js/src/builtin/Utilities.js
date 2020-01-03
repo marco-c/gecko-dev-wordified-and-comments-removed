@@ -176,7 +176,7 @@ v
 ;
 }
 function
-CheckObjectCoercible
+RequireObjectCoercible
 (
 v
 )
