@@ -3847,6 +3847,12 @@ size_t
 1024
 )
 ;
+JS_SetErrorReporter
+(
+mRuntime
+PACErrorReporter
+)
+;
 mContext
 =
 JS_NewContext
@@ -3934,12 +3940,6 @@ JS_InitStandardClasses
 (
 mContext
 global
-)
-;
-JS_SetErrorReporter
-(
-mContext
-PACErrorReporter
 )
 ;
 if

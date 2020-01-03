@@ -516,15 +516,6 @@ MOZ_CRASH
 (
 )
 ;
-JS_SetErrorReporter
-(
-mSafeJSContext
-xpc
-:
-:
-SystemErrorReporter
-)
-;
 return
 mSafeJSContext
 ;

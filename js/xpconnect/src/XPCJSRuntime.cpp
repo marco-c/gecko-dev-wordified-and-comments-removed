@@ -15990,6 +15990,15 @@ kSystemCodeBuffer
 kTrustedScriptBuffer
 )
 ;
+JS_SetErrorReporter
+(
+runtime
+xpc
+:
+:
+SystemErrorReporter
+)
+;
 JS_SetDestroyCompartmentCallback
 (
 runtime

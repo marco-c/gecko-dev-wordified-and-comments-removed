@@ -47,7 +47,7 @@ cx
 ;
 JS_SetErrorReporter
 (
-cx
+rt
 my_ErrorReporter
 )
 ;

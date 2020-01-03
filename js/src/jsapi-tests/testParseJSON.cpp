@@ -3126,7 +3126,7 @@ old
 =
 JS_SetErrorReporter
 (
-cx
+rt
 ReportJSONError
 )
 ;
@@ -3152,7 +3152,7 @@ dummy
 ;
 JS_SetErrorReporter
 (
-cx
+rt
 old
 )
 ;

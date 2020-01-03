@@ -18832,9 +18832,9 @@ JSErrorReporter
 )
 JS_GetErrorReporter
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 extern
@@ -18844,9 +18844,9 @@ JSErrorReporter
 )
 JS_SetErrorReporter
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 JSErrorReporter
 er
 )
