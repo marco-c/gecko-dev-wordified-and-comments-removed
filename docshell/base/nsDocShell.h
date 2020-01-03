@@ -2323,9 +2323,6 @@ bool
 mWindowDraggingAllowed
 ;
 bool
-mBlockNavigation
-;
-bool
 mCanExecuteScripts
 ;
 void
