@@ -193,6 +193,14 @@ api
 11
 -
 linux64
+post
+-
+build
+:
+-
+upload
+-
+symbols
 tests
 :
 -
