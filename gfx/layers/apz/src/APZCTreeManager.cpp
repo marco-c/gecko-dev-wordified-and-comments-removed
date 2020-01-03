@@ -1657,10 +1657,6 @@ mScrollId
 )
 ;
 }
-aOutParent
-=
-apzc
-;
 if
 (
 newApzc
@@ -1788,6 +1784,10 @@ apzc
 )
 ;
 }
+aOutParent
+=
+apzc
+;
 return
 apzc
 ;
