@@ -54091,6 +54091,15 @@ aShouldIntercept
 =
 false
 ;
+if
+(
+mSandboxFlags
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIServiceWorkerManager
