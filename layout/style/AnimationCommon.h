@@ -335,6 +335,14 @@ const
 MOZ_MUST_OVERRIDE
 override
 ;
+void
+WillRefresh
+(
+TimeStamp
+aTime
+)
+override
+;
 #
 ifdef
 DEBUG
