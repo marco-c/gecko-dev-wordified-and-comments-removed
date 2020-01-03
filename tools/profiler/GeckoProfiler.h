@@ -116,6 +116,15 @@ payload
 )
 do
 {
+nsAutoPtr
+<
+ProfilerMarkerPayload
+>
+payloadDeletor
+(
+payload
+)
+;
 }
 while
 (
