@@ -11425,10 +11425,6 @@ mJSContext
 (
 cx
 )
-mErrorReporterSet
-(
-false
-)
 mEvaluated
 (
 false
@@ -11445,10 +11441,6 @@ JS
 :
 HandleObject
 scope
-JSErrorReporter
-errorReporter
-=
-nullptr
 )
 ;
 ~
@@ -11473,9 +11465,6 @@ JS
 AutoSaveExceptionState
 >
 mState
-;
-bool
-mErrorReporterSet
 ;
 bool
 mEvaluated
