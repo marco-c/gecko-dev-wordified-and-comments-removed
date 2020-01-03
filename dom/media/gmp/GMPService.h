@@ -71,6 +71,13 @@ nsIThread
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 template
 <
 class

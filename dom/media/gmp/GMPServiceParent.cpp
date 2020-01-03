@@ -1,6 +1,13 @@
 #
 include
 "
+GMPServiceParent
+.
+h
+"
+#
+include
+"
 GMPService
 .
 h

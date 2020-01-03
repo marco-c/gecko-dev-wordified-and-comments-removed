@@ -1,6 +1,13 @@
 #
 include
 "
+GMPService
+.
+h
+"
+#
+include
+"
 GMPServiceParent
 .
 h
@@ -9,6 +16,13 @@ h
 include
 "
 GMPServiceChild
+.
+h
+"
+#
+include
+"
+GMPContentParent
 .
 h
 "
