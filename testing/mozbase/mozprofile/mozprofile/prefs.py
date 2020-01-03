@@ -662,6 +662,12 @@ ConfigParser
         
 parser
 .
+optionxform
+=
+str
+        
+parser
+.
 readfp
 (
 mozfile
