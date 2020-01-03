@@ -9072,16 +9072,6 @@ SVC_NAME
 595
 )
 ;
-LOG
-(
-(
-"
-calling
-QuitProgressUI
-"
-)
-)
-;
 QuitProgressUI
 (
 )
