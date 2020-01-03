@@ -191,6 +191,10 @@ gdk_keymap_get_entries_for_keyval
 )
 STUB
 (
+gdk_keymap_get_for_display
+)
+STUB
+(
 gdk_keymap_have_bidi_layouts
 )
 STUB
