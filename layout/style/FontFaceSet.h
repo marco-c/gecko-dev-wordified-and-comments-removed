@@ -459,6 +459,7 @@ aWasAlternate
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 ;
 IMPL_EVENT_HANDLER
 (

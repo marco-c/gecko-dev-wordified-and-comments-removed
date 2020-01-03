@@ -1363,6 +1363,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1373,6 +1374,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMCSSRule
@@ -1380,6 +1382,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMCSSRule
@@ -1387,6 +1390,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1431,6 +1435,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

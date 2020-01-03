@@ -86,6 +86,7 @@ GetCSSDeclaration
 bool
 aAllocate
 )
+MOZ_OVERRIDE
 ;
 virtual
 void

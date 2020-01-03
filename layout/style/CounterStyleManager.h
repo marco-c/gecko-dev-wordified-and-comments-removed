@@ -535,6 +535,7 @@ mSymbols
 NS_INLINE_DECL_REFCOUNTING
 (
 AnonymousCounterStyle
+MOZ_OVERRIDE
 )
 private
 :

@@ -144,6 +144,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -154,6 +155,7 @@ Clone
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 SetSheet
@@ -173,6 +175,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIDOMCSSRULE
 NS_DECL_NSIDOMCSSIMPORTRULE

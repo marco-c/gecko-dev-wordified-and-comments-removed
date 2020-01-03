@@ -719,6 +719,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -733,6 +734,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -747,6 +749,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -759,6 +762,7 @@ nsAString
 &
 aCssText
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -769,6 +773,7 @@ nsAString
 &
 aCssText
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -782,6 +787,7 @@ nsAString
 &
 _retval
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -795,6 +801,7 @@ nsAString
 &
 _retval
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -808,6 +815,7 @@ nsAString
 &
 _retval
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -826,6 +834,7 @@ nsAString
 &
 priority
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -835,6 +844,7 @@ uint32_t
 *
 aLength
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -846,6 +856,7 @@ nsAString
 &
 _retval
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -856,6 +867,7 @@ nsIDOMCSSRule
 *
 aParentRule
 )
+MOZ_OVERRIDE
 ;
 #
 endif

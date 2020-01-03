@@ -77,6 +77,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -90,6 +91,7 @@ nsIDOMCSSRule
 GetDOMRule
 (
 )
+MOZ_OVERRIDE
 ;
 \
 virtual
@@ -98,6 +100,7 @@ nsIDOMCSSRule
 GetExistingDOMRule
 (
 )
+MOZ_OVERRIDE
 ;
 class
 Rule
