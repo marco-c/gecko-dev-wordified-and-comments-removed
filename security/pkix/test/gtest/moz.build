@@ -118,6 +118,11 @@ pkixcheck_CheckKeyUsage_tests
 cpp
 '
 '
+pkixcheck_CheckSignatureAlgorithm_tests
+.
+cpp
+'
+'
 pkixcheck_CheckValidity_tests
 .
 cpp
