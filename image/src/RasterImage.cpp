@@ -10663,7 +10663,7 @@ image
 mDecoder
 -
 >
-GetProgress
+TakeProgress
 (
 )
 ;
@@ -10912,7 +10912,7 @@ progress
 decoder
 -
 >
-GetProgress
+TakeProgress
 (
 )
 ;
