@@ -2947,13 +2947,13 @@ main
 ScopeIter
 si
 (
+cx
 frame
 .
 baselineFrame
 (
 )
 pc
-cx
 )
 ;
 for
