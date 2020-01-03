@@ -10263,6 +10263,16 @@ this
 aNamespaceID
 aName
 aModType
+oldValue
+=
+=
+&
+aParsedValue
+?
+&
+aParsedValue
+:
+nullptr
 )
 ;
 }
@@ -11245,6 +11255,8 @@ nsIDOMMutationEvent
 :
 :
 REMOVAL
+&
+oldValue
 )
 ;
 }
