@@ -5695,9 +5695,9 @@ JSContext
 *
 cx
 HandleObject
-obj
+receiver
 HandleNativeObject
-pobj
+obj
 HandleShape
 shape
 MutableHandle
