@@ -1677,6 +1677,12 @@ obj
 PropertyName
 *
 name
+types
+:
+:
+TemporaryTypeSet
+*
+types
 )
 ;
 bool
@@ -1956,8 +1962,6 @@ name
 MDefinition
 *
 value
-bool
-barrier
 types
 :
 :
@@ -1981,8 +1985,6 @@ name
 MDefinition
 *
 value
-bool
-barrier
 types
 :
 :
