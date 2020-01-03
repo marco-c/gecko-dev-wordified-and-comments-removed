@@ -2647,6 +2647,13 @@ BINPATH
 /
 components
 /
+remoteTagService
+.
+js
+BINPATH
+/
+components
+/
 pluginGlue
 .
 manifest

@@ -115,6 +115,11 @@ multiprocessShims
 .
 js
 '
+'
+remoteTagService
+.
+js
+'
 ]
 EXTRA_JS_MODULES
 +
