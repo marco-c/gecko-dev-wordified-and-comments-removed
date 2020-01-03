@@ -1,3 +1,5 @@
+/
+/
 #
 filter
 substitution
@@ -1655,6 +1657,8 @@ MOZ_LINKER_ONDEMAND
 ;
 }
 }
+/
+/
 #
 ifdef
 MOZ_LINKER_EXTRACT
@@ -1721,6 +1725,8 @@ false
 )
 ;
 }
+/
+/
 #
 endif
 }

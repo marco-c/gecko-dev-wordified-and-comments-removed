@@ -1,10 +1,16 @@
+/
+/
 #
 filter
 substitution
+/
+/
 #
 define
 VIEW_NAME_SUFFIX
 RelativeLayout
+/
+/
 #
 define
 BASE_TYPE
@@ -13,6 +19,8 @@ android
 widget
 .
 RelativeLayout
+/
+/
 #
 include
 ThemedView
