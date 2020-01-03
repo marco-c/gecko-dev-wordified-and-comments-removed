@@ -519,6 +519,12 @@ char
 shortcutID
 )
 ;
+static
+void
+ResetNativeApplicationMenu
+(
+)
+;
 protected
 :
 void
