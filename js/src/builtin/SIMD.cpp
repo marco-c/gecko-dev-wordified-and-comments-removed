@@ -1109,7 +1109,6 @@ call
 }
 ;
 namespace
-js
 {
 class
 Int32x4Defn
@@ -1258,9 +1257,6 @@ Methods
 }
 const
 JSFunctionSpec
-js
-:
-:
 Float32x4Defn
 :
 :
@@ -1307,9 +1303,6 @@ JS_FS_END
 ;
 const
 JSPropertySpec
-js
-:
-:
 Float32x4Defn
 :
 :
@@ -1363,9 +1356,6 @@ JS_PS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Float32x4Defn
 :
 :
@@ -1390,9 +1380,6 @@ JS_FS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Float32x4Defn
 :
 :
@@ -1436,9 +1423,6 @@ JS_FS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Float64x2Defn
 :
 :
@@ -1485,9 +1469,6 @@ JS_FS_END
 ;
 const
 JSPropertySpec
-js
-:
-:
 Float64x2Defn
 :
 :
@@ -1525,9 +1506,6 @@ JS_PS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Float64x2Defn
 :
 :
@@ -1552,9 +1530,6 @@ JS_FS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Float64x2Defn
 :
 :
@@ -1598,9 +1573,6 @@ JS_FS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Int32x4Defn
 :
 :
@@ -1647,9 +1619,6 @@ JS_FS_END
 ;
 const
 JSPropertySpec
-js
-:
-:
 Int32x4Defn
 :
 :
@@ -1703,9 +1672,6 @@ JS_PS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Int32x4Defn
 :
 :
@@ -1730,9 +1696,6 @@ JS_FS_END
 ;
 const
 JSFunctionSpec
-js
-:
-:
 Int32x4Defn
 :
 :
