@@ -1900,17 +1900,6 @@ fence
 ;
 }
 ;
-struct
-OpDeliverFenceFromChild
-{
-PTexture
-texture
-;
-FenceHandle
-fence
-;
-}
-;
 union
 CompositableOperation
 {
@@ -2065,8 +2054,6 @@ OpReplyRemoveTexture
 union
 AsyncChildMessageData
 {
-OpDeliverFenceFromChild
-;
 OpRemoveTextureAsync
 ;
 }
