@@ -256,10 +256,8 @@ mozilla
 :
 WritingMode
 aLineWM
-const
-nsSize
-&
-aContainerSize
+nscoord
+aContainerISize
 nscoord
 aStart
 )
@@ -685,6 +683,7 @@ aIsEvenLevel
 nscoord
 &
 aStart
+const
 nsContinuationStates
 *
 aContinuationStates
@@ -693,10 +692,8 @@ mozilla
 :
 WritingMode
 aContainerWM
-const
-nsSize
-&
-aContainerSize
+nscoord
+aContainerISize
 )
 ;
 static
@@ -718,6 +715,7 @@ IsFirstOrLast
 nsIFrame
 *
 aFrame
+const
 nsContinuationStates
 *
 aContinuationStates
@@ -746,10 +744,8 @@ mozilla
 :
 WritingMode
 aLineWM
-const
-nsSize
-&
-aContainerSize
+nscoord
+aContainerISize
 nscoord
 aStart
 )
