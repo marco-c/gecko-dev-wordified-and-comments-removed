@@ -153,9 +153,6 @@ aLastKnownNetwork
 nsString
 *
 aLastKnownHomeNetwork
-nsString
-*
-aIccId
 int32_t
 *
 aNetworkSelectionMode

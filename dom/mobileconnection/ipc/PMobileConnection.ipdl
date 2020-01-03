@@ -189,12 +189,6 @@ nsString
 aStatus
 )
 ;
-NotifyIccChanged
-(
-nsString
-aIccId
-)
-;
 NotifyRadioStateChanged
 (
 int32_t
@@ -303,8 +297,6 @@ nsString
 aLastKnownNetwork
 nsString
 aLastKnownHomeNetwork
-nsString
-aIccId
 int32_t
 aNetworkSelectionMode
 int32_t
