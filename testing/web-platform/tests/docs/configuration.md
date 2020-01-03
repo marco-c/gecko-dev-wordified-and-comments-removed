@@ -392,10 +392,9 @@ can
 be
 started
 using
-python
-serve
 .
-py
+/
+serve
 This
 will
 start
