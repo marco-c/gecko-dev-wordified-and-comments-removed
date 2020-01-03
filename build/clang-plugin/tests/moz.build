@@ -118,6 +118,16 @@ TestMustOverride
 cpp
 '
 '
+TestNANTestingExpr
+.
+cpp
+'
+'
+TestNANTestingExprC
+.
+c
+'
+'
 TestNoArithmeticExprInArgument
 .
 cpp
