@@ -1543,6 +1543,8 @@ EventHandlerNonNull
 listener
 )
 ;
+#
+endif
 void
 DispatchEncrypted
 (
@@ -1560,6 +1562,9 @@ aInitDataType
 )
 override
 ;
+#
+ifdef
+MOZ_EME
 bool
 IsEventAttributeName
 (
@@ -1603,11 +1608,6 @@ MozCaptureStream
 ErrorResult
 &
 aRv
-MediaStreamGraph
-*
-aGraph
-=
-nullptr
 )
 ;
 already_AddRefed
@@ -1619,11 +1619,6 @@ MozCaptureStreamUntilEnded
 ErrorResult
 &
 aRv
-MediaStreamGraph
-*
-aGraph
-=
-nullptr
 )
 ;
 bool
@@ -2052,11 +2047,6 @@ CaptureStreamInternal
 (
 bool
 aFinishWhenEnded
-MediaStreamGraph
-*
-aGraph
-=
-nullptr
 )
 ;
 nsresult
@@ -2778,6 +2768,9 @@ mMediaInfo
 ;
 bool
 mIsEncrypted
+;
+EncryptionInfo
+mPendingEncryptedInitData
 ;
 bool
 mDownloadSuspendedByCache
