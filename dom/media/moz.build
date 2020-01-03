@@ -563,6 +563,11 @@ MediaDecoderStateMachine
 h
 '
 '
+MediaDecoderStateMachineScheduler
+.
+h
+'
+'
 MediaInfo
 .
 h
