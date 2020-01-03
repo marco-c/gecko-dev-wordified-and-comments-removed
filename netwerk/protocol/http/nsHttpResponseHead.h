@@ -26,6 +26,17 @@ nsString
 h
 "
 namespace
+IPC
+{
+template
+<
+typename
+>
+struct
+ParamTraits
+;
+}
+namespace
 mozilla
 {
 namespace

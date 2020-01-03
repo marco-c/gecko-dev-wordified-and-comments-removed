@@ -508,6 +508,11 @@ nsIRequestObserverProxy
 idl
 '
 '
+nsIResponseHeadProvider
+.
+idl
+'
+'
 nsIResumableChannel
 .
 idl
