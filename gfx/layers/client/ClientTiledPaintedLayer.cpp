@@ -1530,6 +1530,7 @@ PaintThebes
 (
 mValidRegion
 aInvalidRegion
+aInvalidRegion
 aCallback
 aCallbackData
 )

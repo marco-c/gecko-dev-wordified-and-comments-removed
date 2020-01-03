@@ -1288,6 +1288,10 @@ const
 nsIntRegion
 &
 aPaintRegion
+const
+nsIntRegion
+&
+aDirtyRegion
 LayerManager
 :
 :

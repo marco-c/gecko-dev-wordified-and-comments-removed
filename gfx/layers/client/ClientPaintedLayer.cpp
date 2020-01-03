@@ -466,6 +466,9 @@ iter
 mDrawRegion
 state
 .
+mRegionToDraw
+state
+.
 mClip
 state
 .
