@@ -3298,6 +3298,13 @@ while
 true
 )
 {
+let
+scaledStep
+=
+dataScale
+*
+timingStep
+;
 if
 (
 +
@@ -3311,13 +3318,6 @@ return
 scaledStep
 ;
 }
-let
-scaledStep
-=
-dataScale
-*
-timingStep
-;
 if
 (
 scaledStep
