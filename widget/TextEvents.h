@@ -621,10 +621,6 @@ mSeqno
 (
 kLatestSeqno
 )
-isChar
-(
-false
-)
 {
 }
 public
@@ -667,10 +663,6 @@ eTextEventClass
 mSeqno
 (
 kLatestSeqno
-)
-isChar
-(
-false
 )
 {
 }
@@ -738,9 +730,6 @@ result
 nsString
 mData
 ;
-bool
-isChar
-;
 nsRefPtr
 <
 TextRangeArray
@@ -763,12 +752,6 @@ AssignGUIEventData
 aEvent
 aCopyTargets
 )
-;
-isChar
-=
-aEvent
-.
-isChar
 ;
 }
 bool
