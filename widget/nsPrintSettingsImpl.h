@@ -263,9 +263,6 @@ mDuplex
 bool
 mDownloadFonts
 ;
-nsString
-mPrintCommand
-;
 int32_t
 mNumCopies
 ;
