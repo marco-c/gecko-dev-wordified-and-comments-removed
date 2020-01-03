@@ -86,7 +86,17 @@ EXTRA_PP_JS_MODULES
 =
 [
 '
+PushDB
+.
+jsm
+'
+'
 PushService
+.
+jsm
+'
+'
+PushServiceWebSocket
 .
 jsm
 '
