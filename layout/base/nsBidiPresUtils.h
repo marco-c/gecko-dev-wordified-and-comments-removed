@@ -672,7 +672,7 @@ aBpd
 )
 ;
 static
-void
+nscoord
 RepositionFrame
 (
 nsIFrame
@@ -681,8 +681,7 @@ aFrame
 bool
 aIsEvenLevel
 nscoord
-&
-aStart
+aStartOrEnd
 const
 nsContinuationStates
 *
@@ -692,6 +691,8 @@ mozilla
 :
 WritingMode
 aContainerWM
+bool
+aContainerReverseOrder
 nscoord
 aContainerISize
 )
