@@ -31,3 +31,8 @@ decrypt
 [
 fake
 ]
+Libraries
+:
+dxva2
+.
+dll
