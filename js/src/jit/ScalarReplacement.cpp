@@ -1180,14 +1180,7 @@ if
 obj
 -
 >
-as
-<
-NativeObject
->
-(
-)
-.
-lastProperty
+maybeShape
 (
 )
 !
