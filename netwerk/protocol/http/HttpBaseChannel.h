@@ -1012,6 +1012,11 @@ PRTime
 lastModifiedTime
 )
 ;
+NS_IMETHOD
+ForceNoIntercept
+(
+)
+;
 inline
 void
 CleanRedirectCacheChainIfNecessary
@@ -1308,6 +1313,11 @@ bool
 requireAppId
 )
 ;
+bool
+ShouldIntercept
+(
+)
+;
 friend
 class
 PrivateBrowsingChannel
@@ -1569,6 +1579,11 @@ mAllRedirectsSameOrigin
 ;
 uint32_t
 mAllRedirectsPassTimingAllowCheck
+:
+1
+;
+uint32_t
+mForceNoIntercept
 :
 1
 ;

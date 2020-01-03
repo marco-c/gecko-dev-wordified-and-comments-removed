@@ -353,6 +353,11 @@ nsINetUtil
 idl
 '
 '
+nsINetworkInterceptController
+.
+idl
+'
+'
 nsINetworkLinkService
 .
 idl
