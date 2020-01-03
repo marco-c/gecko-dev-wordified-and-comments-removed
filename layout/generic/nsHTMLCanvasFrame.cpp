@@ -1203,11 +1203,7 @@ aContainerParameters
 nsRect
 area
 =
-GetContentRect
-(
-)
--
-GetPosition
+GetContentRectRelativeToSelf
 (
 )
 +

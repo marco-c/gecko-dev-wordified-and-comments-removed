@@ -3569,11 +3569,7 @@ GetInnerArea
 const
 {
 return
-GetContentRect
-(
-)
--
-GetPosition
+GetContentRectRelativeToSelf
 (
 )
 ;
