@@ -698,16 +698,6 @@ chunk
 }
 ;
 }
-MOZ_NORETURN
-void
-CrashAtUnhandlableOOM
-(
-const
-char
-*
-reason
-)
-;
 class
 LifoAlloc
 {

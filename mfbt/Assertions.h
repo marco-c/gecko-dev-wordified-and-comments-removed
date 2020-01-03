@@ -364,6 +364,7 @@ C
 #
 endif
 static
+MOZ_COLD
 MOZ_ALWAYS_INLINE
 void
 MOZ_ReportAssertionFailure
@@ -457,6 +458,7 @@ stderr
 endif
 }
 static
+MOZ_COLD
 MOZ_ALWAYS_INLINE
 void
 MOZ_ReportCrash

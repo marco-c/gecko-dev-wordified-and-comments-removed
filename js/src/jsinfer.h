@@ -5912,6 +5912,7 @@ nullptr
 #
 endif
 MOZ_NORETURN
+MOZ_COLD
 void
 TypeFailure
 (

@@ -164,6 +164,7 @@ namespace
 js
 {
 extern
+MOZ_COLD
 void
 AllTheNonBasicVanillaNewAllocations
 (

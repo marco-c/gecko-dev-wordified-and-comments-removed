@@ -311,6 +311,7 @@ struct
 DtoaState
 ;
 extern
+MOZ_COLD
 void
 js_ReportOutOfMemory
 (
@@ -323,6 +324,7 @@ cx
 )
 ;
 extern
+MOZ_COLD
 void
 js_ReportAllocationOverflow
 (
@@ -335,6 +337,7 @@ maybecx
 )
 ;
 extern
+MOZ_COLD
 void
 js_ReportOverRecursed
 (
