@@ -1191,6 +1191,15 @@ locked
 ;
 if
 (
+!
+mIsLocked
+)
+{
+return
+;
+}
+if
+(
 mDrawTarget
 )
 {
