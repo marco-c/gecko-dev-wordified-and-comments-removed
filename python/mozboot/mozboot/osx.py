@@ -2439,7 +2439,7 @@ android
 -
 sdk
 /
-platform
+platforms
 /
 %
 s
