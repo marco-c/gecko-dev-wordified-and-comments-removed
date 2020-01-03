@@ -903,7 +903,8 @@ file
 like
 *
 (
-nsIDOMFile
+DOM
+File
 )
 object
 of

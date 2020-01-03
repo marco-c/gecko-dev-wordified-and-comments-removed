@@ -396,7 +396,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIDOMFile
+nsIDOMBlob
 >
 domFile
 =
@@ -1447,7 +1447,7 @@ nsBaseFilePicker
 :
 GetDomfile
 (
-nsIDOMFile
+nsISupports
 *
 *
 aDomfile
@@ -1491,9 +1491,9 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMBlob
 >
 domFile
 =

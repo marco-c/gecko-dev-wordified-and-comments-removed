@@ -126,6 +126,11 @@ nsIDocumentEncoder
 idl
 '
 '
+nsIDOMBlob
+.
+idl
+'
+'
 nsIDOMDataChannel
 .
 idl
@@ -137,11 +142,6 @@ idl
 '
 '
 nsIDOMDOMRequest
-.
-idl
-'
-'
-nsIDOMFile
 .
 idl
 '

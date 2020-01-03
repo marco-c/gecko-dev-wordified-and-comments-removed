@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

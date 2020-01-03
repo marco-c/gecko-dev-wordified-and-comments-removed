@@ -411,9 +411,12 @@ ICameraControl
 >
 mCameraControl
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMFile
+dom
+:
+:
+File
 >
 mLastCapture
 ;

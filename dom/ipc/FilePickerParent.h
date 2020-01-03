@@ -7,13 +7,6 @@ mozilla_dom_FilePickerParent_h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 nsIEventTarget
 .
 h

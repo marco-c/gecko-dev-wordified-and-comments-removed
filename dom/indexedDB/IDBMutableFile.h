@@ -101,9 +101,6 @@ nsCycleCollectionParticipant
 h
 "
 class
-nsIDOMFile
-;
-class
 nsPIDOMWindow
 ;
 namespace
@@ -117,6 +114,9 @@ dom
 {
 class
 DOMRequest
+;
+class
+File
 ;
 class
 MetadataParameters
@@ -271,7 +271,7 @@ mFileInfo
 }
 already_AddRefed
 <
-nsIDOMFile
+File
 >
 CreateFileObject
 (

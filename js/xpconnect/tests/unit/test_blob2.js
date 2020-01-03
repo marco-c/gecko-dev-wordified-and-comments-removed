@@ -8,6 +8,9 @@ importGlobalProperties
 '
 Blob
 '
+'
+File
+'
 ]
 )
 ;
@@ -105,9 +108,7 @@ do_check_true
 (
 f1
 instanceof
-Ci
-.
-nsIDOMFile
+File
 )
 "
 Should

@@ -407,9 +407,7 @@ if
 (
 a
 instanceof
-Ci
-.
-nsIDOMFile
+File
 )
 return
 '

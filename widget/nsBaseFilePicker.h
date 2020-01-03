@@ -159,7 +159,7 @@ aMode
 NS_IMETHOD
 GetDomfile
 (
-nsIDOMFile
+nsISupports
 *
 *
 aDomfile

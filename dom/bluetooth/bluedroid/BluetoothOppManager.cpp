@@ -298,7 +298,7 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
+Blob
 *
 aBlob
 )
@@ -319,9 +319,12 @@ aBlob
 nsString
 mDeviceAddress
 ;
-nsCOMArray
+nsTArray
 <
-nsIDOMBlob
+nsRefPtr
+<
+Blob
+>
 >
 mBlobs
 ;
@@ -1584,7 +1587,7 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
+Blob
 *
 aBlob
 )
@@ -1627,7 +1630,7 @@ const
 nsAString
 &
 aDeviceAddress
-nsIDOMBlob
+Blob
 *
 aBlob
 )
@@ -2970,7 +2973,8 @@ get
 (
 )
 )
-.
+-
+>
 ToFile
 (
 )

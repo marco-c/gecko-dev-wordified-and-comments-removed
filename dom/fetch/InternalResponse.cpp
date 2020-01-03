@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMFile
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

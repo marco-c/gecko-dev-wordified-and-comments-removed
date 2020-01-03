@@ -888,7 +888,7 @@ const
 nsAString
 &
 aType
-nsIDOMFile
+nsISupports
 *
 *
 aResult

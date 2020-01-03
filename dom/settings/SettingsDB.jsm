@@ -32,6 +32,9 @@ importGlobalProperties
 '
 Blob
 '
+'
+File
+'
 ]
 )
 ;
@@ -1405,9 +1408,7 @@ if
 (
 aObject
 instanceof
-Ci
-.
-nsIDOMFile
+File
 )
 {
 return
