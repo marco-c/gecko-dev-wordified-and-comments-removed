@@ -109,6 +109,13 @@ mozIGeckoMediaPluginService
 .
 h
 "
+#
+include
+"
+nsIRunnable
+.
+h
+"
 namespace
 mozilla
 {
@@ -313,7 +320,8 @@ CSF
 CC_CallInfoPtr
 info
 )
-;
+{
+}
 CSF
 :
 :
