@@ -747,8 +747,6 @@ finish
 fetchXHR
 (
 '
-fetch
-/
 redirect
 .
 sjs
