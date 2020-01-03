@@ -175,6 +175,12 @@ WebSocket
 :
 PrefEnabled
 "
+Exposed
+=
+(
+Window
+Worker
+)
 Constructor
 (
 DOMString

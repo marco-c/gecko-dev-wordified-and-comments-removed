@@ -374,6 +374,9 @@ URL
 URLSearchParams
 "
 "
+WebSocket
+"
+"
 Worker
 "
 "
