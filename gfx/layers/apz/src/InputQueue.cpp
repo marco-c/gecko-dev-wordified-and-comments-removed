@@ -36,6 +36,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+APZThreadUtils
+.
+h
+"
+#
+include
+"
 OverscrollHandoffState
 .
 h
@@ -101,7 +112,7 @@ uint64_t
 aOutInputBlockId
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1244,7 +1255,7 @@ CurrentBlock
 )
 const
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1418,7 +1429,7 @@ uint64_t
 aInputBlockId
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1548,7 +1559,7 @@ bool
 aPreventDefault
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1671,7 +1682,7 @@ AsyncPanZoomController
 aTargetApzc
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1819,7 +1830,7 @@ TouchBehaviorFlags
 aBehaviors
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1969,7 +1980,7 @@ ProcessInputBlocks
 (
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread

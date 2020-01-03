@@ -37,6 +37,17 @@ mozilla
 /
 layers
 /
+APZThreadUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 AsyncCompositionManager
 .
 h
@@ -137,7 +148,7 @@ Destroy
 (
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnCompositorThread

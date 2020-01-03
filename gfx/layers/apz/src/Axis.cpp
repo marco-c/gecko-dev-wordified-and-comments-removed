@@ -49,6 +49,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+APZThreadUtils
+.
+h
+"
+#
+include
+"
 FrameMetrics
 .
 h
@@ -294,7 +305,7 @@ uint32_t
 aTimestampMs
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1593,7 +1604,7 @@ uint32_t
 aTimestampMs
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
@@ -1714,7 +1725,7 @@ CancelTouch
 (
 )
 {
-AsyncPanZoomController
+APZThreadUtils
 :
 :
 AssertOnControllerThread
