@@ -574,13 +574,6 @@ parser
 HandleScript
 evalCaller
 ;
-Handle
-<
-StaticEvalObject
-*
->
-evalStaticScope
-;
 StmtInfoBCE
 *
 topStmt
@@ -716,12 +709,6 @@ bool
 insideEval
 HandleScript
 evalCaller
-Handle
-<
-StaticEvalObject
-*
->
-evalStaticScope
 bool
 insideNonGlobalEval
 uint32_t

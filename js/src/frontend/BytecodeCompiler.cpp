@@ -1562,6 +1562,7 @@ globalsc
 (
 cx
 directives
+evalStaticScope
 options
 .
 extraWarningsOption
@@ -1651,7 +1652,6 @@ options
 .
 forEval
 evalCaller
-evalStaticScope
 insideNonGlobalEval
 options
 .
@@ -2801,7 +2801,6 @@ script
 lazy
 false
 nullptr
-nullptr
 false
 options
 .
@@ -3471,7 +3470,6 @@ pn_funbox
 script
 nullptr
 false
-nullptr
 nullptr
 false
 options

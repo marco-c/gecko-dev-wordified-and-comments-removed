@@ -3449,6 +3449,7 @@ globalsc
 (
 context
 directives
+nullptr
 options
 (
 )
