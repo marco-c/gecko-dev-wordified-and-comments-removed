@@ -151,9 +151,6 @@ ANIMATION_GENERATORS
 "
 requestAnimationFrame
 "
-"
-mozRequestAnimationFrame
-"
 ]
 ;
 const

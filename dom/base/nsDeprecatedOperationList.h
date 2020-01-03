@@ -48,10 +48,6 @@ InputEncoding
 )
 DEPRECATED_OPERATION
 (
-MozBeforePaint
-)
-DEPRECATED_OPERATION
-(
 DOMExceptionCode
 )
 DEPRECATED_OPERATION

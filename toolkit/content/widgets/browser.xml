@@ -201,7 +201,6 @@ implements
 "
 nsIObserver
 nsIDOMEventListener
-nsIFrameRequestCallback
 nsIMessageListener
 "
 >

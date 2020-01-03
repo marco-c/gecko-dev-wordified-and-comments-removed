@@ -203,11 +203,6 @@ nsIFocusManager
 idl
 '
 '
-nsIFrameRequestCallback
-.
-idl
-'
-'
 nsIIdleObserver
 .
 idl
