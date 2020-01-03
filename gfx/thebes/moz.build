@@ -188,6 +188,11 @@ gfxFontInfoLoader
 h
 '
 '
+gfxFontPrefLangList
+.
+h
+'
+'
 gfxFontTest
 .
 h
