@@ -77,10 +77,9 @@ SetMediaTypes
 IMFMediaType
 *
 aInputType
-const
-GUID
-&
-aOutputSubType
+IMFMediaType
+*
+aOutputType
 )
 ;
 TemporaryRef
@@ -189,8 +188,11 @@ IMFTransform
 >
 mDecoder
 ;
-GUID
-mOutputSubtype
+RefPtr
+<
+IMFMediaType
+>
+mOutputType
 ;
 bool
 mMFTProvidesOutputSamples
