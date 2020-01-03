@@ -207,6 +207,15 @@ WaitAcquireFenceHandleSyncComplete
 )
 override
 ;
+virtual
+void
+SetCropRect
+(
+nsIntRect
+aCropRect
+)
+override
+;
 bool
 IsValid
 (

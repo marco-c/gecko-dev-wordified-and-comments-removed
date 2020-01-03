@@ -144,6 +144,9 @@ EGL_KHR_fence_sync
 EGL_ANDROID_native_fence_sync
 "
 "
+EGL_ANDROID_image_crop
+"
+"
 ANGLE_platform_angle
 "
 "

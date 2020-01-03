@@ -1106,6 +1106,15 @@ const
 0
 ;
 virtual
+void
+SetCropRect
+(
+nsIntRect
+aCropRect
+)
+{
+}
+virtual
 already_AddRefed
 <
 gfx
