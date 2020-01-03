@@ -883,16 +883,6 @@ o
 data
 ;
 }
-static
-ThingRootKind
-rootKind
-(
-)
-{
-return
-THING_ROOT_TYPE
-;
-}
 }
 ;
 static
