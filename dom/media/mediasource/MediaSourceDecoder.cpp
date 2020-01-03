@@ -827,6 +827,10 @@ Detach
 )
 ;
 }
+mDemuxer
+=
+nullptr
+;
 MediaDecoder
 :
 :
