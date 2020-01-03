@@ -16673,6 +16673,12 @@ EmptyCString
 ;
 if
 (
+rv
+!
+=
+NS_ERROR_FILE_TOO_BIG
+&
+&
 NS_WARN_IF
 (
 NS_FAILED
