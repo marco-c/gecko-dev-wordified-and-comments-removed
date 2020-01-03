@@ -542,6 +542,10 @@ UseTextureHost
 TextureHost
 *
 aTexture
+const
+nsIntRect
+&
+aPictureRect
 )
 override
 ;

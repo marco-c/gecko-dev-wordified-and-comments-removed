@@ -114,6 +114,10 @@ h
 namespace
 mozilla
 {
+using
+namespace
+gfx
+;
 namespace
 layers
 {
@@ -392,6 +396,10 @@ UseTextureHost
 TextureHost
 *
 aTexture
+const
+IntRect
+&
+aPictureRect
 )
 {
 if

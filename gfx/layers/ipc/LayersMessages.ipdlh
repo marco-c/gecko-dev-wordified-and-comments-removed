@@ -1788,6 +1788,9 @@ compositable
 OverlaySource
 overlay
 ;
+IntRect
+picture
+;
 }
 ;
 struct
@@ -1801,17 +1804,6 @@ bufferData
 ;
 nsIntRegion
 updatedRegion
-;
-}
-;
-struct
-OpUpdatePictureRect
-{
-PCompositable
-compositable
-;
-IntRect
-picture
 ;
 }
 ;
@@ -1920,6 +1912,9 @@ texture
 MaybeFence
 fence
 ;
+IntRect
+picture
+;
 }
 ;
 struct
@@ -1973,8 +1968,6 @@ fence
 union
 CompositableOperation
 {
-OpUpdatePictureRect
-;
 OpPaintTextureRegion
 ;
 OpUseTiledLayerBuffer
