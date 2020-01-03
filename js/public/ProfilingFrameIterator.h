@@ -485,6 +485,17 @@ const
 ;
 JS_FRIEND_API
 (
+bool
+)
+IsProfilingEnabledForRuntime
+(
+JSRuntime
+*
+runtime
+)
+;
+JS_FRIEND_API
+(
 void
 )
 UpdateJSRuntimeProfilerSampleBufferGen
