@@ -973,13 +973,12 @@ isGeofenced
 return
 (
 mGPSScanner
-=
+!
 =
 null
 )
-?
-false
-:
+&
+&
 mGPSScanner
 .
 isGeofenced

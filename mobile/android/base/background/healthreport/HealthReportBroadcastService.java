@@ -518,9 +518,8 @@ attemptHandleIntentForPrune
 (
 intent
 )
-?
-true
-:
+|
+|
 handled
 ;
 if
