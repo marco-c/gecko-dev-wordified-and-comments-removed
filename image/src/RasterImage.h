@@ -390,6 +390,13 @@ DecodingComplete
 imgFrame
 *
 aFinalFrame
+bool
+aIsAnimated
+)
+;
+void
+MarkAnimationDecoded
+(
 )
 ;
 nsresult

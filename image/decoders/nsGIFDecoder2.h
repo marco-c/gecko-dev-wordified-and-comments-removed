@@ -92,7 +92,7 @@ BeginGIF
 (
 )
 ;
-void
+nsresult
 BeginImageFrame
 (
 uint16_t
