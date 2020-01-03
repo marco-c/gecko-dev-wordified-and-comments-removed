@@ -142,7 +142,7 @@ R
 .
 color
 .
-nav_button_border_color
+disabled_grey
 )
 ;
 mBorderColorPrivate
