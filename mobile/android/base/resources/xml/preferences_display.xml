@@ -363,7 +363,7 @@ ui
 .
 zoomedview
 .
-disabled
+enabled
 "
 android
 :
@@ -372,7 +372,7 @@ title
 "
 string
 /
-pref_prevent_magnifying_glass
+pref_magnifying_glass_enabled
 "
 android
 :
@@ -381,7 +381,7 @@ summary
 "
 string
 /
-pref_prevent_magnifying_glass_summary
+pref_magnifying_glass_enabled_summary
 "
 /
 >
