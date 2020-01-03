@@ -1953,7 +1953,7 @@ nullptr
 1
 0
 "
-TypedArrayRedimension
+TypedObjectArrayRedimension
 "
 }
 JS_SELF_HOSTED_FN
@@ -1962,7 +1962,7 @@ JS_SELF_HOSTED_FN
 map
 "
 "
-TypedArrayMap
+TypedObjectArrayMap
 "
 2
 0
@@ -1973,7 +1973,7 @@ JS_SELF_HOSTED_FN
 mapPar
 "
 "
-TypedArrayMapPar
+TypedObjectArrayMapPar
 "
 2
 0
@@ -1984,7 +1984,7 @@ JS_SELF_HOSTED_FN
 reduce
 "
 "
-TypedArrayReduce
+TypedObjectArrayReduce
 "
 2
 0
@@ -1995,7 +1995,7 @@ JS_SELF_HOSTED_FN
 reducePar
 "
 "
-TypedArrayReducePar
+TypedObjectArrayReducePar
 "
 2
 0
@@ -2006,7 +2006,7 @@ JS_SELF_HOSTED_FN
 scatter
 "
 "
-TypedArrayScatter
+TypedObjectArrayScatter
 "
 4
 0
@@ -2017,7 +2017,7 @@ JS_SELF_HOSTED_FN
 scatterPar
 "
 "
-TypedArrayScatterPar
+TypedObjectArrayScatterPar
 "
 4
 0
@@ -2028,7 +2028,7 @@ JS_SELF_HOSTED_FN
 filter
 "
 "
-TypedArrayFilter
+TypedObjectArrayFilter
 "
 1
 0
@@ -2039,7 +2039,7 @@ JS_SELF_HOSTED_FN
 filterPar
 "
 "
-TypedArrayFilterPar
+TypedObjectArrayFilterPar
 "
 1
 0

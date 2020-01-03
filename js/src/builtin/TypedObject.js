@@ -1762,7 +1762,7 @@ otherDescr
 ;
 }
 function
-TypedArrayRedimension
+TypedObjectArrayRedimension
 (
 newArrayType
 )
@@ -2797,7 +2797,7 @@ JSMSG_TYPEDOBJECT_BAD_ARGS
 }
 }
 function
-TypedArrayMap
+TypedObjectArrayMap
 (
 a
 b
@@ -2902,7 +2902,7 @@ JSMSG_TYPEDOBJECT_BAD_ARGS
 ;
 }
 function
-TypedArrayMapPar
+TypedObjectArrayMapPar
 (
 a
 b
@@ -2926,7 +2926,7 @@ this
 return
 callFunction
 (
-TypedArrayMap
+TypedObjectArrayMap
 this
 a
 b
@@ -2951,7 +2951,7 @@ thisType
 return
 callFunction
 (
-TypedArrayMap
+TypedObjectArrayMap
 this
 a
 b
@@ -3003,7 +3003,7 @@ a
 return
 callFunction
 (
-TypedArrayMap
+TypedObjectArrayMap
 this
 a
 b
@@ -3011,7 +3011,7 @@ b
 ;
 }
 function
-TypedArrayReduce
+TypedObjectArrayReduce
 (
 a
 b
@@ -3099,7 +3099,7 @@ b
 ;
 }
 function
-TypedArrayScatter
+TypedObjectArrayScatter
 (
 a
 b
@@ -3210,7 +3210,7 @@ d
 ;
 }
 function
-TypedArrayFilter
+TypedObjectArrayFilter
 (
 func
 )
@@ -3418,7 +3418,7 @@ c
 ;
 }
 function
-TypedArrayReducePar
+TypedObjectArrayReducePar
 (
 a
 b
@@ -3427,7 +3427,7 @@ b
 return
 callFunction
 (
-TypedArrayReduce
+TypedObjectArrayReduce
 this
 a
 b
@@ -3435,7 +3435,7 @@ b
 ;
 }
 function
-TypedArrayScatterPar
+TypedObjectArrayScatterPar
 (
 a
 b
@@ -3446,7 +3446,7 @@ d
 return
 callFunction
 (
-TypedArrayScatter
+TypedObjectArrayScatter
 this
 a
 b
@@ -3456,7 +3456,7 @@ d
 ;
 }
 function
-TypedArrayFilterPar
+TypedObjectArrayFilterPar
 (
 func
 )
@@ -3464,7 +3464,7 @@ func
 return
 callFunction
 (
-TypedArrayFilter
+TypedObjectArrayFilter
 this
 func
 )
