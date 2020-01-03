@@ -89,7 +89,7 @@ MaybeReject
 nsresult
 aArg
 const
-nsCString
+nsACString
 &
 aReason
 )
@@ -110,7 +110,7 @@ MaybeReject
 ErrorResult
 &
 const
-nsCString
+nsACString
 &
 aReason
 )

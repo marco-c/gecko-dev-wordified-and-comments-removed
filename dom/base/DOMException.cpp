@@ -2942,7 +2942,7 @@ Create
 nsresult
 aRv
 const
-nsCString
+nsACString
 &
 aMessage
 )
