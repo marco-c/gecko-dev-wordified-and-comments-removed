@@ -63,7 +63,7 @@ ProfileGatherer
 TableTicker
 *
 aTicker
-float
+double
 aSinceTime
 Promise
 *

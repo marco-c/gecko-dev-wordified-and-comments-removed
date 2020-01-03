@@ -133,7 +133,7 @@ t
 '
 123
 .
-1f
+1
 )
 )
 ;
@@ -182,12 +182,12 @@ pb
 mReadPos
 ]
 .
-mTagFloat
+mTagDouble
 =
 =
 123
 .
-1f
+1
 )
 ;
 }

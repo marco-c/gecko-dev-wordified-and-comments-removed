@@ -177,8 +177,8 @@ ProfileEntry
 (
 char
 aTagName
-float
-aTagFloat
+double
+aTagDouble
 )
 ;
 ProfileEntry
@@ -330,8 +330,8 @@ ProfilerMarker
 *
 mTagMarker
 ;
-float
-mTagFloat
+double
+mTagDouble
 ;
 Address
 mTagAddress
@@ -1013,7 +1013,7 @@ SpliceableJSONWriter
 aWriter
 int
 aThreadId
-float
+double
 aSinceTime
 JSRuntime
 *
@@ -1031,7 +1031,7 @@ SpliceableJSONWriter
 aWriter
 int
 aThreadId
-float
+double
 aSinceTime
 UniqueStacks
 &
@@ -1180,7 +1180,7 @@ StreamJSON
 SpliceableJSONWriter
 &
 aWriter
-float
+double
 aSinceTime
 =
 0
@@ -1334,7 +1334,7 @@ StreamSamplesAndMarkers
 SpliceableJSONWriter
 &
 aWriter
-float
+double
 aSinceTime
 UniqueStacks
 &

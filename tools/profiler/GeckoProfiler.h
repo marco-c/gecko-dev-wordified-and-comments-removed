@@ -405,7 +405,7 @@ char
 >
 profiler_get_profile
 (
-float
+double
 aSinceTime
 =
 0
@@ -424,7 +424,7 @@ profiler_get_profile_jsobject
 JSContext
 *
 aCx
-float
+double
 aSinceTime
 =
 0
@@ -439,7 +439,7 @@ inline
 void
 profiler_get_profile_jsobject_async
 (
-float
+double
 aSinceTime
 =
 0

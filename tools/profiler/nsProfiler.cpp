@@ -571,7 +571,7 @@ nsProfiler
 :
 GetProfile
 (
-float
+double
 aSinceTime
 char
 *
@@ -1161,7 +1161,7 @@ nsProfiler
 :
 GetProfileData
 (
-float
+double
 aSinceTime
 JSContext
 *
@@ -1221,7 +1221,7 @@ nsProfiler
 :
 GetProfileDataAsync
 (
-float
+double
 aSinceTime
 JSContext
 *
@@ -1344,7 +1344,7 @@ nsProfiler
 :
 GetElapsedTime
 (
-float
+double
 *
 aElapsedTime
 )
@@ -1352,14 +1352,8 @@ aElapsedTime
 *
 aElapsedTime
 =
-static_cast
-<
-float
->
-(
 profiler_time
 (
-)
 )
 ;
 return

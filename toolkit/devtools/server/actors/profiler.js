@@ -341,6 +341,15 @@ DEFAULT_PROFILER_OPTIONS
 threadFilters
 }
 ;
+let
+currentTime
+=
+nsIProfilerModule
+.
+getElapsedTime
+(
+)
+;
 nsIProfilerModule
 .
 StartProfiler
@@ -390,6 +399,7 @@ true
 position
 totalSize
 generation
+currentTime
 }
 ;
 }

@@ -226,7 +226,7 @@ char
 >
 mozilla_sampler_get_profile
 (
-float
+double
 aSinceTime
 )
 ;
@@ -237,14 +237,14 @@ mozilla_sampler_get_profile_data
 JSContext
 *
 aCx
-float
+double
 aSinceTime
 )
 ;
 void
 mozilla_sampler_get_profile_data_async
 (
-float
+double
 aSinceTime
 mozilla
 :
