@@ -49,15 +49,6 @@ b2g_emulator_unittest
 py
 -
 -
-no
--
-read
--
-buildbot
--
-config
--
--
 config
 -
 file
