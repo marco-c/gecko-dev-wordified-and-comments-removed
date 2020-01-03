@@ -410,8 +410,7 @@ private
 Icc
 (
 )
-{
-}
+;
 bool
 mLive
 ;
