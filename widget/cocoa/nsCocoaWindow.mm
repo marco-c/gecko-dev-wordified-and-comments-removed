@@ -19556,6 +19556,15 @@ mUnifiedToolbarHeight
 =
 aHeight
 ;
+if
+(
+!
+[
+self
+drawsContentsIntoWindowFrame
+]
+)
+{
 /
 /
 Redraw
@@ -19612,6 +19621,7 @@ sync
 needSyncRedraw
 ]
 ;
+}
 }
 /
 /
