@@ -12629,7 +12629,7 @@ inspector
 .
 show_pseudo_elements
 "
-true
+false
 )
 ;
 pref
