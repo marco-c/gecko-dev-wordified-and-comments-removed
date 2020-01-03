@@ -116,6 +116,11 @@ KeyStore
 .
 cpp
 '
+'
+KeyStoreConnector
+.
+cpp
+'
 ]
 FAIL_ON_WARNINGS
 =
