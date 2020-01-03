@@ -232,6 +232,14 @@ numNurseryChunks_
 (
 0
 )
+profileThreshold_
+(
+0
+)
+enableProfiling_
+(
+false
+)
 {
 }
 ~
@@ -723,6 +731,12 @@ numActiveChunks_
 ;
 int
 numNurseryChunks_
+;
+int64_t
+profileThreshold_
+;
+bool
+enableProfiling_
 ;
 typedef
 HashSet
