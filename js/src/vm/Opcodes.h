@@ -1976,6 +1976,7 @@ JOF_OBJECT
 )
 \
 \
+\
 macro
 (
 JSOP_SUPERBASE
