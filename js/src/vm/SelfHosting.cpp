@@ -1310,8 +1310,8 @@ args
 [
 1
 ]
-JS_PropertyStub
-JS_StrictPropertyStub
+nullptr
+nullptr
 JSPROP_READONLY
 |
 JSPROP_ENUMERATE
