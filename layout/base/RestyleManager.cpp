@@ -12186,6 +12186,7 @@ final
 {
 public
 :
+explicit
 AutoSelectorArrayTruncater
 (
 nsTArray
