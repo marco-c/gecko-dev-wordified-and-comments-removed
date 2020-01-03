@@ -357,6 +357,13 @@ cpp
 '
 bluedroid
 /
+BluetoothDaemonSocketInterface
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothHALHelpers
 .
 cpp
