@@ -88,7 +88,7 @@ aOptions
 )
 ;
 bool
-ConfigRequest
+PowerRequest
 (
 android
 :
@@ -103,7 +103,7 @@ options
 )
 ;
 bool
-ConfigResponse
+PowerResponse
 (
 const
 android

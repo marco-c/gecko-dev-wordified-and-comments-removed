@@ -14,11 +14,11 @@ NFCD_MAJOR_VERSION
 #
 define
 NFCD_MINOR_VERSION
-14
+15
 enum
 NfcRequest
 {
-ConfigReq
+PowerReq
 =
 0
 ConnectReq
@@ -34,7 +34,7 @@ NfcResponse
 GeneralRsp
 =
 1000
-ConfigRsp
+PowerRsp
 ReadNDEFRsp
 }
 ;

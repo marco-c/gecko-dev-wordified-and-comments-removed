@@ -303,7 +303,7 @@ NotifySendFileStatusResponse
 "
 NFC
 :
-ConfigResponse
+PowerResponse
 "
 ]
 ;
@@ -1903,7 +1903,7 @@ case
 "
 NFC
 :
-ConfigResponse
+PowerResponse
 "
 :
 if
