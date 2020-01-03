@@ -534,7 +534,7 @@ PublicKeyToSpki
 (
 SECKEYPublicKey
 *
-aPrivKey
+aPubKey
 CryptoBuffer
 &
 aRetVal
@@ -592,7 +592,7 @@ PublicKeyToJwk
 (
 SECKEYPublicKey
 *
-aPrivKey
+aPubKey
 JsonWebKey
 &
 aRetVal
