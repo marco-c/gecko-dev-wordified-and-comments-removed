@@ -105,6 +105,14 @@ BaselineFrame
 class
 JitActivation
 ;
+void
+AssertValidJitStack
+(
+JSContext
+*
+cx
+)
+;
 class
 JitFrameIterator
 {
