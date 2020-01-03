@@ -3018,7 +3018,7 @@ mozL10n
 get
 (
 "
-share_button2
+share_button3
 "
 )
 )
