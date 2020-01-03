@@ -107,6 +107,11 @@ nsIIccProvider
 .
 idl
 '
+'
+nsIIccService
+.
+idl
+'
 ]
 if
 CONFIG
@@ -132,6 +137,11 @@ XPIDL_SOURCES
 +
 =
 [
+'
+nsIGonkIccService
+.
+idl
+'
 '
 nsIIccMessenger
 .
