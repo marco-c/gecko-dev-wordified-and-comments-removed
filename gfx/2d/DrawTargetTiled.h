@@ -45,6 +45,7 @@ false
 )
 {
 }
+explicit
 TileInternal
 (
 const
