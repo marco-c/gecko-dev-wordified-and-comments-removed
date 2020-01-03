@@ -637,6 +637,14 @@ prep_search_test
 test
 )
 {
+Services
+.
+search
+.
+getVisibleEngines
+(
+)
+;
 setHandlerFunc
 (
 execute_search_test
