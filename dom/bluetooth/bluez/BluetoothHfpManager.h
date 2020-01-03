@@ -437,10 +437,9 @@ HandleShutdown
 void
 HandleVolumeChanged
 (
-const
-nsAString
-&
-aData
+nsISupports
+*
+aSubject
 )
 ;
 bool
