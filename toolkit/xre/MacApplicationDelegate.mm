@@ -362,6 +362,9 @@ interface
 MacApplicationDelegate
 :
 NSObject
+<
+NSApplicationDelegate
+>
 {
 }
 end
@@ -589,8 +592,10 @@ of
 the
 app
 .
-MacApplicationDelegate
-*
+id
+<
+NSApplicationDelegate
+>
 delegate
 =
 [
