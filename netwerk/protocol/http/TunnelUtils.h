@@ -55,6 +55,15 @@ NullHttpTransaction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 struct
 PRSocketOptionData
 ;

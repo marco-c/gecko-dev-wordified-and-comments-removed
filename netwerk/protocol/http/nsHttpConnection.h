@@ -56,6 +56,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
