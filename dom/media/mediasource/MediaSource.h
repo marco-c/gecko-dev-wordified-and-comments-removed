@@ -485,6 +485,14 @@ MSRangeRemovalAction
 aAction
 )
 ;
+void
+SourceBufferIsActive
+(
+SourceBuffer
+*
+aSourceBuffer
+)
+;
 nsRefPtr
 <
 SourceBufferList
