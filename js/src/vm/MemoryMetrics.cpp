@@ -1770,10 +1770,6 @@ regexpCompartment
 &
 cStats
 .
-debuggeesSet
-&
-cStats
-.
 savedStacksSet
 )
 ;

@@ -66,7 +66,6 @@ hasAnyBreakpointsOrStepMode
 ;
 if
 (
-!
 cx
 -
 >
@@ -75,11 +74,7 @@ compartment
 )
 -
 >
-getDebuggees
-(
-)
-.
-empty
+debugMode
 (
 )
 |
