@@ -1301,6 +1301,17 @@ pld
 .
 )
 \
+if
+(
+gfxPrefs
+:
+:
+LayersDumpDecision
+(
+)
+)
+{
+\
 pld
 -
 >
@@ -1331,6 +1342,8 @@ AppendPrintf
 __VA_ARGS__
 )
 ;
+\
+}
 #
 else
 #
