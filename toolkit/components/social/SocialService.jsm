@@ -2580,17 +2580,6 @@ onDisabled
 addon
 )
 ;
-AddonManagerPrivate
-.
-notifyAddonChanged
-(
-addon
-.
-id
-ADDON_TYPE_SERVICE
-false
-)
-;
 }
 this
 .
