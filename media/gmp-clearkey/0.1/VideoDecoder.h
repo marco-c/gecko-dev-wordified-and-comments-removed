@@ -169,6 +169,11 @@ aInputFrame
 )
 ;
 void
+ResetCompleteTask
+(
+)
+;
+void
 ReturnOutput
 (
 IMFSample
@@ -258,6 +263,15 @@ mNumInputTasks
 ;
 bool
 mSentExtraData
+;
+std
+:
+:
+atomic
+<
+bool
+>
+mIsFlushing
 ;
 bool
 mHasShutdown
