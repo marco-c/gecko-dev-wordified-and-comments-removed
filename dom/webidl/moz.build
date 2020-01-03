@@ -1650,16 +1650,6 @@ PerformanceEntry
 webidl
 '
 '
-PerformanceMark
-.
-webidl
-'
-'
-PerformanceMeasure
-.
-webidl
-'
-'
 PerformanceNavigation
 .
 webidl
