@@ -409,6 +409,9 @@ referrer
 OptionalURIParams
 apiRedirectTo
 ;
+OptionalURIParams
+topWindowURI
+;
 uint32_t
 loadFlags
 ;
