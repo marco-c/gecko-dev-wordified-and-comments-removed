@@ -611,6 +611,11 @@ virtual
 bool
 DidRenderingDeviceReset
 (
+DeviceResetReason
+*
+aResetReason
+=
+nullptr
 )
 ;
 bool
