@@ -26631,7 +26631,7 @@ RunningX64
 OrUnless
 }
 {
-AtLeastWinVista
+AtLeastWin7
 }
 MessageBox
 MB_OK

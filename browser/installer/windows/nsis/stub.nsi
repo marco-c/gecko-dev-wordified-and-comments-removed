@@ -1569,7 +1569,7 @@ on
 x86
 and
 pre
-Vista
+Win7
 {
 Unless
 }
@@ -1580,7 +1580,7 @@ RunningX64
 OrUnless
 }
 {
-AtLeastWinVista
+AtLeastWin7
 }
 MessageBox
 MB_OK
