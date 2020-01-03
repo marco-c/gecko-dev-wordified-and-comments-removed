@@ -20414,6 +20414,17 @@ JSObject
 >
 (
 )
+|
+|
+referent
+.
+exposeToJS
+(
+)
+.
+isUndefined
+(
+)
 )
 return
 true
