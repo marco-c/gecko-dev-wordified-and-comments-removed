@@ -393,6 +393,10 @@ initHelpers
 (
 )
 ;
+throwIfScreenNotOn
+(
+)
+;
 }
 Override
 public

@@ -834,6 +834,10 @@ mActivity
 mAsserter
 )
 ;
+throwIfScreenNotOn
+(
+)
+;
 }
 protected
 void
@@ -892,11 +896,6 @@ profile
 .
 enqueueInitialization
 (
-profile
-.
-getDir
-(
-)
 )
 ;
 }
