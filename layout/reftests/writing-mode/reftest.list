@@ -3713,7 +3713,6 @@ right
 ref
 .
 html
-fails
 =
 =
 1147834
@@ -3738,9 +3737,6 @@ right
 ref
 .
 html
-#
-bug
-1131451
 =
 =
 1147834
@@ -3765,7 +3761,6 @@ left
 ref
 .
 html
-fails
 =
 =
 1147834
@@ -3790,9 +3785,6 @@ left
 ref
 .
 html
-#
-bug
-1131451
 =
 =
 1151993
