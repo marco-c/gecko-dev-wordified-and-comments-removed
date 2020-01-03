@@ -11528,7 +11528,7 @@ largestLineOuterSize
 }
 static
 nscoord
-ClampFlexContainerMainSize
+ResolveFlexContainerMainSize
 (
 const
 nsHTMLReflowState
@@ -11539,7 +11539,7 @@ FlexboxAxisTracker
 &
 aAxisTracker
 nscoord
-aUnclampedMainSize
+aTentativeMainSize
 nscoord
 aAvailableBSizeForContent
 const
@@ -11572,12 +11572,12 @@ IsMainAxisHorizontal
 )
 {
 return
-aUnclampedMainSize
+aTentativeMainSize
 ;
 }
 if
 (
-aUnclampedMainSize
+aTentativeMainSize
 !
 =
 NS_INTRINSICSIZE
@@ -11591,13 +11591,13 @@ aAvailableBSizeForContent
 NS_UNCONSTRAINEDSIZE
 |
 |
-aUnclampedMainSize
+aTentativeMainSize
 <
 aAvailableBSizeForContent
 )
 {
 return
-aUnclampedMainSize
+aTentativeMainSize
 ;
 }
 NS_FRAME_SET_INCOMPLETE
@@ -11631,7 +11631,7 @@ std
 :
 min
 (
-aUnclampedMainSize
+aTentativeMainSize
 largestLineOuterSize
 )
 ;
@@ -12895,7 +12895,7 @@ lines
 ;
 aContentBoxMainSize
 =
-ClampFlexContainerMainSize
+ResolveFlexContainerMainSize
 (
 aReflowState
 aAxisTracker
