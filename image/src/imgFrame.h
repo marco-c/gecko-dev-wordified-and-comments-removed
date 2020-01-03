@@ -132,10 +132,6 @@ nsresult
 InitForDecoder
 (
 const
-nsIntSize
-&
-aImageSize
-const
 nsIntRect
 &
 aRect
@@ -165,7 +161,6 @@ aPaletteDepth
 return
 InitForDecoder
 (
-aSize
 nsIntRect
 (
 0
@@ -221,6 +216,10 @@ const
 ImageRegion
 &
 aRegion
+const
+nsIntMargin
+&
+aPadding
 GraphicsFilter
 aFilter
 uint32_t
@@ -236,15 +235,6 @@ nsIntRect
 aUpdateRect
 )
 ;
-IntSize
-GetImageSize
-(
-)
-{
-return
-mImageSize
-;
-}
 nsIntRect
 GetRect
 (
@@ -429,6 +419,11 @@ SetCompositingFailed
 (
 bool
 val
+)
+;
+void
+SetDiscardable
+(
 )
 ;
 void
@@ -641,9 +636,6 @@ SourceSurface
 mOptSurface
 ;
 IntSize
-mImageSize
-;
-IntSize
 mSize
 ;
 nsIntPoint
@@ -704,6 +696,9 @@ mHasNoAlpha
 ;
 bool
 mNonPremult
+;
+bool
+mDiscardable
 ;
 bool
 mOptimizable
