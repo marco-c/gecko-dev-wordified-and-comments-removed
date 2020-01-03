@@ -482,6 +482,9 @@ mTrackChangedNotifyType
 BluetoothAvrcpNotification
 mPlayPosChangedNotifyType
 ;
+BluetoothAvrcpNotification
+mAppSettingsChangedNotifyType
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
