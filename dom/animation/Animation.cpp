@@ -436,6 +436,13 @@ IsNull
 )
 |
 |
+mStartTime
+.
+IsNull
+(
+)
+|
+|
 !
 mTimeline
 |
