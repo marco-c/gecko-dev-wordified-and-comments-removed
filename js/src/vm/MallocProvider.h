@@ -198,6 +198,8 @@ numExtra
 {
 if
 (
+MOZ_UNLIKELY
+(
 numExtra
 &
 mozilla
@@ -216,6 +218,7 @@ U
 :
 :
 value
+)
 )
 {
 client
@@ -248,11 +251,14 @@ U
 ;
 if
 (
+MOZ_UNLIKELY
+(
 bytes
 <
 sizeof
 (
 T
+)
 )
 )
 {
@@ -523,6 +529,8 @@ numExtra
 {
 if
 (
+MOZ_UNLIKELY
+(
 numExtra
 &
 mozilla
@@ -541,6 +549,7 @@ U
 :
 :
 value
+)
 )
 {
 client
@@ -573,11 +582,14 @@ U
 ;
 if
 (
+MOZ_UNLIKELY
+(
 bytes
 <
 sizeof
 (
 T
+)
 )
 )
 {

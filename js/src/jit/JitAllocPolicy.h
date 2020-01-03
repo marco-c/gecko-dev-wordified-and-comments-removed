@@ -167,6 +167,8 @@ n
 {
 if
 (
+MOZ_UNLIKELY
+(
 n
 &
 mozilla
@@ -182,6 +184,7 @@ ElemSize
 :
 :
 value
+)
 )
 return
 nullptr
@@ -205,9 +208,12 @@ ElemSize
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 ensureBallast
 (
+)
 )
 )
 return
@@ -290,6 +296,8 @@ numElems
 {
 if
 (
+MOZ_UNLIKELY
+(
 numElems
 &
 mozilla
@@ -308,6 +316,7 @@ T
 :
 :
 value
+)
 )
 return
 nullptr
@@ -360,7 +369,10 @@ numElems
 ;
 if
 (
+MOZ_LIKELY
+(
 p
+)
 )
 memset
 (
@@ -410,8 +422,11 @@ newSize
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 n
+)
 )
 return
 n
@@ -509,6 +524,8 @@ numElems
 {
 if
 (
+MOZ_UNLIKELY
+(
 numElems
 &
 mozilla
@@ -527,6 +544,7 @@ T
 :
 :
 value
+)
 )
 return
 nullptr

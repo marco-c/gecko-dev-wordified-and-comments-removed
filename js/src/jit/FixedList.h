@@ -110,6 +110,8 @@ true
 ;
 if
 (
+MOZ_UNLIKELY
+(
 length
 &
 mozilla
@@ -128,6 +130,7 @@ T
 :
 :
 value
+)
 )
 return
 false
@@ -228,6 +231,8 @@ false
 ;
 if
 (
+MOZ_UNLIKELY
+(
 newlength
 &
 mozilla
@@ -246,6 +251,7 @@ T
 :
 :
 value
+)
 )
 return
 false
@@ -276,8 +282,11 @@ T
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 list
+)
 )
 return
 false

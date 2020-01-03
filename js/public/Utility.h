@@ -859,6 +859,8 @@ numElems
 {
 if
 (
+MOZ_UNLIKELY
+(
 numElems
 &
 mozilla
@@ -877,6 +879,7 @@ T
 :
 :
 value
+)
 )
 return
 nullptr
@@ -914,6 +917,8 @@ numElems
 {
 if
 (
+MOZ_UNLIKELY
+(
 numElems
 &
 mozilla
@@ -932,6 +937,7 @@ T
 :
 :
 value
+)
 )
 return
 nullptr
@@ -999,6 +1005,8 @@ value
 ;
 if
 (
+MOZ_UNLIKELY
+(
 newSize
 &
 mozilla
@@ -1017,6 +1025,7 @@ T
 :
 :
 value
+)
 )
 return
 nullptr
