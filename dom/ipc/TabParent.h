@@ -2323,9 +2323,6 @@ uint64_t
 aOutInputBlockId
 )
 ;
-LayoutDeviceIntPoint
-mChildProcessOffsetAtTouchStart
-;
 bool
 mMarkedDestroying
 ;
