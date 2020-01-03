@@ -206,7 +206,7 @@ debugging
 profiling
 or
 using
-ASAN
+sanitizers
 we
 want
 a
@@ -235,6 +235,14 @@ o
 n
 "
 MOZ_DEBUG
+"
+-
+o
+\
+-
+n
+"
+MOZ_MSAN
 "
 -
 o
