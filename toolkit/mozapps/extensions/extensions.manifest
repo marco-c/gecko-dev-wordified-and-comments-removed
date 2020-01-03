@@ -306,6 +306,8 @@ addons
 PluginProvider
 .
 jsm
+#
+endif
 category
 addon
 -
@@ -326,7 +328,5 @@ addons
 OpenH264Provider
 .
 jsm
-#
-endif
 #
 endif

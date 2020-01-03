@@ -130,6 +130,11 @@ LightweightThemeImageOptimizer
 jsm
 '
 '
+OpenH264Provider
+.
+jsm
+'
+'
 SpellCheckDictionaryBootstrap
 .
 js
@@ -163,11 +168,6 @@ addons
 +
 =
 [
-'
-OpenH264Provider
-.
-jsm
-'
 '
 PluginProvider
 .

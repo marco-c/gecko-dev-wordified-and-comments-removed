@@ -414,6 +414,11 @@ CertUtils
 jsm
 '
 '
+GMPInstallManager
+.
+jsm
+'
+'
 ResetProfile
 .
 jsm
@@ -468,11 +473,6 @@ EXTRA_PP_JS_MODULES
 +
 =
 [
-'
-GMPInstallManager
-.
-jsm
-'
 '
 LightweightThemeConsumer
 .
