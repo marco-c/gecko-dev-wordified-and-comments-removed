@@ -404,9 +404,6 @@ gUpdateManager
 .
 refreshUpdateStatus
 (
-gUpdateManager
-.
-activeUpdate
 )
 ;
 }
