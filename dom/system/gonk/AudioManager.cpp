@@ -359,6 +359,7 @@ aState
 )
 ;
 static
+const
 uint32_t
 sMaxStreamVolumeTbl
 [
@@ -435,6 +436,7 @@ namespace
 gonk
 {
 static
+const
 VolumeData
 gVolumeData
 [
@@ -3891,11 +3893,6 @@ aCategory
 if
 (
 aIndex
-<
-0
-|
-|
-aIndex
 >
 maxIndex
 )
@@ -4748,11 +4745,6 @@ aIndex
 {
 if
 (
-aIndex
-<
-0
-|
-|
 aIndex
 >
 sMaxStreamVolumeTbl
@@ -5658,7 +5650,7 @@ numbers
 ;
 for
 (
-uint32_t
+int32_t
 idx
 =
 profilesNum
