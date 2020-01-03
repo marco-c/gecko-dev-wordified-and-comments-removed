@@ -545,7 +545,7 @@ function
 (
 webChannelId
 message
-target
+sendingContext
 )
 {
 if
@@ -566,6 +566,16 @@ data
 message
 .
 data
+;
+let
+target
+=
+sendingContext
+&
+&
+sendingContext
+.
+browser
 ;
 switch
 (
