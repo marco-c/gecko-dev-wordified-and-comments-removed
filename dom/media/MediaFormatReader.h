@@ -1078,6 +1078,10 @@ mNumSamplesOutput
 =
 0
 ;
+mSizeOfQueue
+=
+0
+;
 }
 Atomic
 <
