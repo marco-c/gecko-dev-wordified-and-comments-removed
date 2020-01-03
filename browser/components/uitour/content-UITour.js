@@ -118,6 +118,13 @@ type
 event
 .
 type
+pageVisibilityState
+:
+content
+.
+document
+.
+visibilityState
 }
 )
 ;
