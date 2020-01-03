@@ -23311,6 +23311,10 @@ contentWin
 ;
 if
 (
+!
+tab
+|
+|
 tab
 .
 hasAttribute
