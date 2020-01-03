@@ -7,7 +7,9 @@ proxy_ScriptedIndirectProxyHandler_h
 #
 include
 "
-jsproxy
+js
+/
+Proxy
 .
 h
 "

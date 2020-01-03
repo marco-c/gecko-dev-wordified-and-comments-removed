@@ -1,7 +1,9 @@
 #
 include
 "
-jsproxy
+js
+/
+Proxy
 .
 h
 "

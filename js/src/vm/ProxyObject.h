@@ -7,7 +7,9 @@ vm_ProxyObject_h
 #
 include
 "
-jsproxy
+js
+/
+Proxy
 .
 h
 "
