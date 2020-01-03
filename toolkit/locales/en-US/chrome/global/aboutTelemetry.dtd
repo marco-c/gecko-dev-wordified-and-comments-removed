@@ -234,7 +234,7 @@ ping
 ENTITY
 aboutTelemetry
 .
-showPreviousPing
+showNewerPing
 "
 &
 lt
@@ -242,7 +242,7 @@ lt
 &
 lt
 ;
-Previous
+Newer
 ping
 "
 >
@@ -251,9 +251,9 @@ ping
 ENTITY
 aboutTelemetry
 .
-showNextPing
+showOlderPing
 "
-Next
+Older
 ping
 &
 gt
