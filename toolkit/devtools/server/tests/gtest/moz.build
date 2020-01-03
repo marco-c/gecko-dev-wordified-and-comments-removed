@@ -116,6 +116,11 @@ UNIFIED_SOURCES
 =
 [
 '
+DeserializedNodeUbiNodes
+.
+cpp
+'
+'
 DoesCrossZoneBoundaries
 .
 cpp
