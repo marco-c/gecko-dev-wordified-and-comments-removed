@@ -161,6 +161,7 @@ aPort
 aUseSSL
 aBinaryType
 aAppId
+aInBrowser
 )
 {
 let
@@ -236,6 +237,13 @@ aAppId
 ;
 socketInternal
 .
+setInBrowser
+(
+aInBrowser
+)
+;
+socketInternal
+.
 setOnUpdateBufferedAmountHandler
 (
 this
@@ -270,6 +278,7 @@ aLocalPort
 aBacklog
 aBinaryType
 aAppId
+aInBrowser
 )
 {
 let
@@ -392,6 +401,13 @@ socketInternal
 setAppId
 (
 aAppId
+)
+;
+socketInternal
+.
+setInBrowser
+(
+aInBrowser
 )
 ;
 socketInternal
