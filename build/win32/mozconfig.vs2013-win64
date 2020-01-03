@@ -54,6 +54,8 @@ moztools
 includes
 :
 win8
+.
+1
 sdk
 includes
 winrt
@@ -91,7 +93,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -116,7 +118,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -141,7 +143,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -166,7 +168,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -193,7 +195,7 @@ Kits
 /
 8
 .
-0
+1
 /
 include
 /
@@ -236,6 +238,8 @@ include
 libs
 :
 win8
+.
+1
 sdk
 x86
 (
@@ -288,11 +292,13 @@ Kits
 /
 8
 .
-0
+1
 /
 Lib
 /
-win8
+winv6
+.
+3
 /
 um
 /
@@ -348,11 +354,13 @@ Kits
 /
 8
 .
-0
+1
 /
 Lib
 /
-win8
+winv6
+.
+3
 /
 um
 /
@@ -391,6 +399,8 @@ lib
 paths
 :
 win8
+.
+1
 sdk
 x86
 (
@@ -433,7 +443,7 @@ Kits
 /
 8
 .
-0
+1
 /
 bin
 /
@@ -519,7 +529,7 @@ Kits
 /
 8
 .
-0
+1
 /
 "
 .
