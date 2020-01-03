@@ -62,7 +62,7 @@ place
 "
 ;
 const
-OURURL
+URL
 =
 "
 chrome
@@ -189,7 +189,7 @@ NetUtil
 .
 newChannel
 (
-OURURL
+URL
 )
 ;
 chan
