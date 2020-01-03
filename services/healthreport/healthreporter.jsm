@@ -659,10 +659,12 @@ Task
 spawn
 (
 function
+*
 init
 (
 )
 {
+yield
 OS
 .
 File
