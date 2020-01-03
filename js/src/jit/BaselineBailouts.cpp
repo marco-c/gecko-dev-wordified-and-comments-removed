@@ -1648,6 +1648,12 @@ type
 =
 =
 JitFrame_Entry
+|
+|
+type
+=
+=
+JitFrame_IonAccessorIC
 )
 return
 nullptr
@@ -6302,6 +6308,12 @@ prevFrameType
 =
 =
 JitFrame_Rectifier
+|
+|
+prevFrameType
+=
+=
+JitFrame_IonAccessorIC
 )
 ;
 JitSpew
