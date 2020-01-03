@@ -7463,6 +7463,15 @@ WebGLTexture
 >
 mBound3DTextures
 ;
+nsTArray
+<
+WebGLRefPtr
+<
+WebGLSampler
+>
+>
+mBoundSamplers
+;
 void
 ResolveTexturesForDraw
 (
