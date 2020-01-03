@@ -78,6 +78,7 @@ int64_t
 aEnd
 )
 ;
+virtual
 bool
 TimestampsFuzzyEqual
 (
@@ -85,12 +86,6 @@ int64_t
 aLhs
 int64_t
 aRhs
-)
-;
-virtual
-int64_t
-GetRoundingError
-(
 )
 ;
 const
