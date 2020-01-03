@@ -260,6 +260,7 @@ aContext
 aText
 aOffset
 aLength
+aVertical
 aShapedText
 )
 ;
