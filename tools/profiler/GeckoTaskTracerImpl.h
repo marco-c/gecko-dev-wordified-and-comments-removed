@@ -69,11 +69,11 @@ mSavedCurTaskId
 )
 mCurTraceSourceType
 (
-UNKNOWN
+Unknown
 )
 mSavedCurTraceSourceType
 (
-UNKNOWN
+Unknown
 )
 mThreadId
 (

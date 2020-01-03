@@ -1397,7 +1397,7 @@ taskTracerEvent
 SourceEventType
 :
 :
-UNIXSOCKET
+Unixsocket
 )
 ;
 #
