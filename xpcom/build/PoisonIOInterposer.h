@@ -22,6 +22,13 @@ h
 >
 MOZ_BEGIN_EXTERN_C
 void
+MozillaRegisterDebugHandle
+(
+intptr_t
+aHandle
+)
+;
+void
 MozillaRegisterDebugFD
 (
 int
@@ -34,6 +41,13 @@ MozillaRegisterDebugFILE
 FILE
 *
 aFile
+)
+;
+void
+MozillaUnRegisterDebugHandle
+(
+intptr_t
+aHandle
 )
 ;
 void
