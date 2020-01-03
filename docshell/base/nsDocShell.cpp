@@ -17727,7 +17727,10 @@ presContext
 >
 MediaFeatureValuesChanged
 (
-eRestyle_Subtree
+nsRestyleHint
+(
+0
+)
 )
 ;
 }
