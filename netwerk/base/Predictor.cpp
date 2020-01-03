@@ -287,7 +287,7 @@ args
 MOZ_LOG
 (
 gPredictorLog
-4
+PR_LOG_DEBUG
 args
 )
 #
