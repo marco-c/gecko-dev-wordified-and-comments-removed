@@ -79,7 +79,7 @@ mozilla
 ipc
 :
 :
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 public
 mozilla
 :

@@ -50,7 +50,7 @@ namespace
 ipc
 {
 class
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 ;
 class
 BluetoothDaemonConnectionIO
@@ -277,7 +277,7 @@ BluetoothDaemonConnection
 BluetoothDaemonPDUConsumer
 *
 aPDUConsumer
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 *
 aConsumer
 int
@@ -352,7 +352,7 @@ BluetoothDaemonPDUConsumer
 *
 mPDUConsumer
 ;
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 *
 mConsumer
 ;

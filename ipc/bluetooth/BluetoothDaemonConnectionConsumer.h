@@ -47,7 +47,7 @@ namespace
 ipc
 {
 class
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 {
 public
 :
@@ -83,13 +83,13 @@ aIndex
 ;
 protected
 :
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 (
 )
 ;
 virtual
 ~
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 (
 )
 ;
