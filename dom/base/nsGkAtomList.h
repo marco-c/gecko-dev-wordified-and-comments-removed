@@ -5166,13 +5166,6 @@ ondisconnecting
 )
 GK_ATOM
 (
-ondiscoverystatechanged
-"
-ondiscoverystatechanged
-"
-)
-GK_ATOM
-(
 ondisplaypasskeyreq
 "
 ondisplaypasskeyreq
@@ -5862,13 +5855,6 @@ GK_ATOM
 onpaint
 "
 onpaint
-"
-)
-GK_ATOM
-(
-onpairedstatuschanged
-"
-onpairedstatuschanged
 "
 )
 GK_ATOM
