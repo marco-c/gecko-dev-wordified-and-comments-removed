@@ -61,6 +61,17 @@ PPluginWidgetParent
 {
 public
 :
+static
+void
+SendAsyncUpdate
+(
+nsIWidget
+*
+aWidget
+)
+;
+public
+:
 PluginWidgetParent
 (
 )
