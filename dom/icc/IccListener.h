@@ -18,13 +18,6 @@ nsIIccProvider
 .
 h
 "
-#
-include
-"
-nsIIccService
-.
-h
-"
 namespace
 mozilla
 {
@@ -101,12 +94,6 @@ nsCOMPtr
 nsIIccProvider
 >
 mProvider
-;
-nsCOMPtr
-<
-nsIIcc
->
-mHandler
 ;
 }
 ;

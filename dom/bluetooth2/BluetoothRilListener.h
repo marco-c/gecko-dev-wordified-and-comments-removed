@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIIccService
+nsIIccProvider
 .
 h
 "

@@ -25,9 +25,6 @@ DOMEventTargetHelper
 h
 "
 class
-nsIIcc
-;
-class
 nsIIccInfo
 ;
 class
@@ -74,9 +71,6 @@ nsPIDOMWindow
 aWindow
 long
 aClientId
-nsIIcc
-*
-aHandler
 nsIIccInfo
 *
 aIccInfo
@@ -431,12 +425,6 @@ nsCOMPtr
 nsIIccProvider
 >
 mProvider
-;
-nsCOMPtr
-<
-nsIIcc
->
-mHandler
 ;
 Nullable
 <

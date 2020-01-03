@@ -184,10 +184,6 @@ PHal
 ;
 include
 protocol
-PIcc
-;
-include
-protocol
 PProcessHangMonitor
 ;
 include
@@ -1286,9 +1282,6 @@ PFMRadio
 ;
 manages
 PHal
-;
-manages
-PIcc
 ;
 manages
 PMemoryReportRequest
@@ -2896,12 +2889,6 @@ isSecureURI
 ;
 PHal
 (
-)
-;
-PIcc
-(
-uint32_t
-serviceId
 )
 ;
 PMobileConnection
