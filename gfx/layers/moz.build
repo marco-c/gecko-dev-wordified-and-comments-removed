@@ -903,6 +903,13 @@ h
 '
 ipc
 /
+CompositorLRU
+.
+h
+'
+'
+ipc
+/
 CompositorParent
 .
 h
@@ -1888,6 +1895,13 @@ cpp
 ipc
 /
 CompositorChild
+.
+cpp
+'
+'
+ipc
+/
+CompositorLRU
 .
 cpp
 '

@@ -1055,6 +1055,12 @@ PreloadSlowThings
 )
 ;
 static
+void
+PostForkPreload
+(
+)
+;
+static
 already_AddRefed
 <
 TabChild
@@ -2168,6 +2174,11 @@ DidComposite
 (
 uint64_t
 aTransactionId
+)
+;
+void
+ClearCachedResources
+(
 )
 ;
 static
