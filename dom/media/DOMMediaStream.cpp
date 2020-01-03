@@ -455,9 +455,16 @@ GetType
 )
 )
 ;
-NS_DispatchToMainThread
+aGraph
+-
+>
+DispatchToMainThreadAfterStreamStateUpdate
 (
 runnable
+.
+forget
+(
+)
 )
 ;
 }

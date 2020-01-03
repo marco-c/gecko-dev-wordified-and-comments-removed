@@ -6561,9 +6561,13 @@ VideoFrameContainer
 Invalidate
 )
 ;
-NS_DispatchToMainThread
+DispatchToMainThreadAfterStreamStateUpdate
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
