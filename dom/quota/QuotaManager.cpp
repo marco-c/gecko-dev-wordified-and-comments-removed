@@ -21337,7 +21337,15 @@ return
 }
 mState
 =
+mTokenizer
+.
+hasMoreTokens
+(
+)
+?
 eExpectingDriveLetterOrPathnameComponent
+:
+eComplete
 ;
 return
 ;
@@ -21770,6 +21778,7 @@ HandleTrailingSeparator
 MOZ_ASSERT
 (
 mState
+=
 =
 eComplete
 )
