@@ -436,6 +436,9 @@ stack
 "
 message
 "
+"
+lastIndex
+"
 }
 ;
 static
