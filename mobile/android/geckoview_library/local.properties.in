@@ -82,11 +82,4 @@ sdk
 .
 dir
 =
-ANDROID_SDK
-/
-.
-.
-/
-.
-.
-/
+ANDROID_SDK_ROOT

@@ -80,16 +80,8 @@ NULL
 ANDROID
 =
 (
-ANDROID_SDK
+ANDROID_TOOLS
 )
-/
-.
-.
-/
-.
-.
-/
-tools
 /
 android
 TARGET
