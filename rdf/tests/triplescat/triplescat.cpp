@@ -264,6 +264,7 @@ Close
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -282,6 +283,7 @@ uint32_t
 *
 aWriteCount
 )
+MOZ_OVERRIDE
 {
 PR_Write
 (
@@ -314,6 +316,7 @@ uint32_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -340,6 +343,7 @@ uint32_t
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -359,6 +363,7 @@ bool
 *
 aNonBlocking
 )
+MOZ_OVERRIDE
 {
 NS_NOTREACHED
 (
@@ -376,6 +381,7 @@ Flush
 (
 void
 )
+MOZ_OVERRIDE
 {
 PR_Sync
 (
