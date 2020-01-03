@@ -236,3 +236,13 @@ gecko
 background
 '
 )
+ANDROID_INSTRUMENTATION_MANIFESTS
++
+=
+[
+'
+instrumentation
+.
+ini
+'
+]
