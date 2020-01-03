@@ -77,9 +77,7 @@ home
 /
 worker
 /
-object
--
-folder
+workspace
 env
 :
 TARGET
