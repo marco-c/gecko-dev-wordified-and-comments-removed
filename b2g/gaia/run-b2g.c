@@ -217,6 +217,11 @@ if
 full_profile_path
 )
 {
+free
+(
+full_path
+)
+;
 error
 (
 NOMEM
