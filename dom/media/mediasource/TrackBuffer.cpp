@@ -993,8 +993,6 @@ decoder
 NewDecoder
 (
 aTimestampOffset
--
-mAdjustedTimestamp
 )
 ;
 if
@@ -1026,8 +1024,6 @@ decoders
 NewDecoder
 (
 aTimestampOffset
--
-mAdjustedTimestamp
 )
 )
 {
@@ -1175,8 +1171,6 @@ decoders
 NewDecoder
 (
 aTimestampOffset
--
-mAdjustedTimestamp
 )
 )
 {
@@ -2740,6 +2734,8 @@ CreateSubDecoder
 (
 mType
 aTimestampOffset
+-
+mAdjustedTimestamp
 )
 ;
 if
