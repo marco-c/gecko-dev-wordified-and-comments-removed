@@ -252,6 +252,14 @@ MOZ_ASSERT
 mService
 )
 ;
+UuidToString
+(
+mCharId
+.
+mUuid
+mUuidStr
+)
+;
 nsString
 path
 ;
@@ -259,7 +267,6 @@ GeneratePathFromGattId
 (
 mCharId
 path
-mUuidStr
 )
 ;
 RegisterBluetoothSignalHandler

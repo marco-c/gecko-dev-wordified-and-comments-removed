@@ -215,6 +215,16 @@ IsEmpty
 )
 )
 ;
+UuidToString
+(
+mServiceId
+.
+mId
+.
+mUuid
+mUuidStr
+)
+;
 nsString
 path
 ;
@@ -224,7 +234,6 @@ mServiceId
 .
 mId
 path
-mUuidStr
 )
 ;
 RegisterBluetoothSignalHandler
