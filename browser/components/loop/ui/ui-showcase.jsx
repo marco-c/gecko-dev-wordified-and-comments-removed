@@ -673,7 +673,7 @@ options
 )
 {
 var
-dispatcher
+roomDispatcher
 =
 new
 loop
@@ -692,7 +692,7 @@ store
 .
 ActiveRoomStore
 (
-dispatcher
+roomDispatcher
 {
 mozLoop
 :
@@ -7188,6 +7188,7 @@ queuedFrames
 .
 length
 !
+=
 =
 0
 )

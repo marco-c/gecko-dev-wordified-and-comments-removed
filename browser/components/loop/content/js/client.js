@@ -360,7 +360,7 @@ outgoingCallData
 }
 catch
 (
-err
+ex
 )
 {
 console
@@ -373,12 +373,12 @@ requesting
 call
 info
 "
-err
+ex
 )
 ;
 cb
 (
-err
+ex
 )
 ;
 }

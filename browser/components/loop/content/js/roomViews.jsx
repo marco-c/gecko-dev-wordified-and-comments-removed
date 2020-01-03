@@ -649,11 +649,11 @@ filter
 (
 function
 (
-provider
+socialProvider
 )
 {
 return
-provider
+socialProvider
 .
 origin
 =
@@ -2143,7 +2143,7 @@ metadata
 description
 ;
 var
-url
+metaUrl
 =
 metadata
 .
@@ -2165,7 +2165,7 @@ description
 description
 url
 :
-url
+metaUrl
 }
 }
 )

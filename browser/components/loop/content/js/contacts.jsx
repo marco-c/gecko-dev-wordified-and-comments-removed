@@ -3298,7 +3298,7 @@ confirm_delete_contact_cancel_button
 )
 }
 (
-err
+error
 result
 )
 =
@@ -3306,11 +3306,11 @@ result
 {
 if
 (
-err
+error
 )
 {
 throw
-err
+error
 ;
 }
 if

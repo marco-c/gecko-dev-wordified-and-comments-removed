@@ -2852,7 +2852,7 @@ function
 function
 expectActionDispatched
 (
-view
+component
 )
 {
 sinon
@@ -2924,7 +2924,7 @@ READY
 )
 ;
 var
-view
+component
 =
 mountTestComponent
 (
@@ -2945,7 +2945,7 @@ MEDIA_WAIT
 ;
 expectActionDispatched
 (
-view
+component
 )
 ;
 }
@@ -2988,7 +2988,7 @@ ENDED
 )
 ;
 var
-view
+component
 =
 mountTestComponent
 (
@@ -3009,7 +3009,7 @@ MEDIA_WAIT
 ;
 expectActionDispatched
 (
-view
+component
 )
 ;
 }

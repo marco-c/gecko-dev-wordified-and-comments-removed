@@ -1056,8 +1056,8 @@ function
 )
 {
 var
-mozLoop
-fakeServerErrorDescription
+standaloneMozLoop
+fakeServerErrDescription
 ;
 beforeEach
 (
@@ -1065,7 +1065,7 @@ function
 (
 )
 {
-mozLoop
+standaloneMozLoop
 =
 new
 loop
@@ -1079,7 +1079,7 @@ fakeBaseServerUrl
 }
 )
 ;
-fakeServerErrorDescription
+fakeServerErrDescription
 =
 {
 code
@@ -1123,7 +1123,7 @@ function
 (
 )
 {
-mozLoop
+standaloneMozLoop
 .
 rooms
 .
@@ -1280,7 +1280,7 @@ function
 (
 )
 {
-mozLoop
+standaloneMozLoop
 .
 rooms
 .
@@ -1371,7 +1371,7 @@ function
 (
 )
 {
-mozLoop
+standaloneMozLoop
 .
 rooms
 .
@@ -1411,7 +1411,7 @@ JSON
 .
 stringify
 (
-fakeServerErrorDescription
+fakeServerErrDescription
 )
 )
 ;

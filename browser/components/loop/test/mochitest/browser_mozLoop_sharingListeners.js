@@ -156,7 +156,7 @@ createdTabs
 function
 promiseWindowIdReceivedNewTab
 (
-handlers
+handlersParam
 =
 [
 ]
@@ -168,7 +168,7 @@ promiseHandlers
 [
 ]
 ;
-handlers
+handlersParam
 .
 forEach
 (

@@ -3334,8 +3334,8 @@ function
 {
 var
 view
-conversation
-client
+fakeConversation
+fakeClient
 fakeAudio
 ;
 beforeEach
@@ -3400,7 +3400,7 @@ returns
 fakeAudio
 )
 ;
-client
+fakeClient
 =
 new
 loop
@@ -3424,7 +3424,7 @@ com
 }
 )
 ;
-conversation
+fakeConversation
 =
 new
 sharedModels
@@ -3441,7 +3441,7 @@ sdk
 }
 )
 ;
-conversation
+fakeConversation
 .
 set
 (
@@ -3457,7 +3457,7 @@ sandbox
 .
 stub
 (
-client
+fakeClient
 "
 requestCallUrlInfo
 "
@@ -3485,10 +3485,10 @@ FailedConversationView
 {
 conversation
 :
-conversation
+fakeConversation
 client
 :
-client
+fakeClient
 notifications
 :
 notifications
@@ -6740,7 +6740,7 @@ function
 )
 {
 var
-conversation
+fakeConversation
 setupOutgoingCall
 view
 requestCallUrlInfo
@@ -6751,7 +6751,7 @@ function
 (
 )
 {
-conversation
+fakeConversation
 =
 new
 loop
@@ -6775,7 +6775,7 @@ sandbox
 .
 stub
 (
-conversation
+fakeConversation
 "
 setupOutgoingCall
 "
@@ -6839,7 +6839,7 @@ StartConversationView
 {
 conversation
 :
-conversation
+fakeConversation
 notifications
 :
 notifications

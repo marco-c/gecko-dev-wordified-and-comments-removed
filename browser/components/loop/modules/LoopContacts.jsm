@@ -1518,7 +1518,7 @@ getStore
 (
 kObjectStoreName
 (
-err
+error
 store
 )
 =
@@ -1526,12 +1526,12 @@ store
 {
 if
 (
-err
+error
 )
 {
 callback
 (
-err
+error
 )
 ;
 return
@@ -2396,7 +2396,7 @@ getStore
 (
 kObjectStoreName
 (
-err
+error
 store
 )
 =
@@ -2404,12 +2404,12 @@ store
 {
 if
 (
-err
+error
 )
 {
 callback
 (
-err
+error
 )
 ;
 return

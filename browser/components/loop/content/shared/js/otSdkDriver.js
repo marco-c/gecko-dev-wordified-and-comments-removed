@@ -2548,7 +2548,7 @@ close
 :
 function
 (
-event
+e
 )
 {
 console
@@ -2625,7 +2625,7 @@ message
 :
 function
 (
-event
+ev
 )
 {
 try
@@ -2645,7 +2645,7 @@ JSON
 .
 parse
 (
-event
+ev
 .
 data
 )
@@ -2684,7 +2684,7 @@ close
 :
 function
 (
-event
+e
 )
 {
 console

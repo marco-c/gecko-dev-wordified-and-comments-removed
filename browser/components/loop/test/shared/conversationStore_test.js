@@ -4671,7 +4671,7 @@ function
 {
 var
 wsMediaFailSpy
-wsCloseSpy
+wsHangupSpy
 ;
 beforeEach
 (
@@ -4687,7 +4687,7 @@ spy
 (
 )
 ;
-wsCloseSpy
+wsHangupSpy
 =
 sinon
 .
@@ -4705,7 +4705,7 @@ mediaFail
 wsMediaFailSpy
 close
 :
-wsCloseSpy
+wsHangupSpy
 }
 ;
 store
@@ -4853,7 +4853,7 @@ assert
 .
 calledOnce
 (
-wsCloseSpy
+wsHangupSpy
 )
 ;
 }
@@ -4978,7 +4978,7 @@ function
 {
 var
 wsMediaFailSpy
-wsCloseSpy
+wsDisconnectSpy
 ;
 beforeEach
 (
@@ -4994,7 +4994,7 @@ spy
 (
 )
 ;
-wsCloseSpy
+wsDisconnectSpy
 =
 sinon
 .
@@ -5012,7 +5012,7 @@ mediaFail
 wsMediaFailSpy
 close
 :
-wsCloseSpy
+wsDisconnectSpy
 }
 ;
 store
@@ -5124,7 +5124,7 @@ assert
 .
 calledOnce
 (
-wsCloseSpy
+wsDisconnectSpy
 )
 ;
 }
@@ -6847,7 +6847,7 @@ function
 )
 {
 var
-fakeWebsocket
+fakeWs
 ;
 beforeEach
 (
@@ -6855,7 +6855,7 @@ function
 (
 )
 {
-fakeWebsocket
+fakeWs
 =
 store
 .
@@ -6943,7 +6943,7 @@ assert
 .
 calledOnce
 (
-fakeWebsocket
+fakeWs
 .
 decline
 )
@@ -7008,7 +7008,7 @@ assert
 .
 calledOnce
 (
-fakeWebsocket
+fakeWs
 .
 close
 )
