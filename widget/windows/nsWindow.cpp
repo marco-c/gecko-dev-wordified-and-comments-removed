@@ -18004,6 +18004,12 @@ break
 ;
 if
 (
+mSizeMode
+!
+=
+nsSizeMode_Fullscreen
+&
+&
 nsUXThemeData
 :
 :
