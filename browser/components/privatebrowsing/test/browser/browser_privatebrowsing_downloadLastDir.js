@@ -330,6 +330,17 @@ aGlobalLastDir
 aCallback
 )
 {
+let
+context
+=
+aWin
+.
+gBrowser
+.
+selectedBrowser
+.
+contentWindow
+;
 is
 (
 prefs
@@ -515,7 +526,7 @@ launcherDialog
 promptForSaveToFileAsync
 (
 launcher
-aWin
+context
 null
 null
 null
