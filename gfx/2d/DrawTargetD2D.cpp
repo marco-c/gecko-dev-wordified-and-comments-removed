@@ -345,11 +345,6 @@ hexa
 hr
 )
 ;
-MOZ_ASSERT
-(
-false
-)
-;
 return
 ;
 }
@@ -458,11 +453,6 @@ Code
 hexa
 (
 hr
-)
-;
-MOZ_ASSERT
-(
-false
 )
 ;
 return
@@ -7971,7 +7961,7 @@ if
 mTexture
 )
 {
-gfxDebug
+gfxCriticalError
 (
 )
 <
