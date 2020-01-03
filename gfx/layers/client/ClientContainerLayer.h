@@ -28,13 +28,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

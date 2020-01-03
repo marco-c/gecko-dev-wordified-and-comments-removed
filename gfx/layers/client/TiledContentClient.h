@@ -252,13 +252,6 @@ pratom
 .
 h
 "
-#
-include
-"
-gfxPrefs
-.
-h
-"
 namespace
 mozilla
 {

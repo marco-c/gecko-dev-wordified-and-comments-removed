@@ -1910,6 +1910,11 @@ Effects
 cpp
 '
 '
+FrameMetrics
+.
+cpp
+'
+'
 GLImages
 .
 cpp
