@@ -173,15 +173,11 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 WebGLVertexArray
 )
-bool
+void
 EnsureAttrib
 (
 GLuint
 index
-const
-char
-*
-info
 )
 ;
 bool
