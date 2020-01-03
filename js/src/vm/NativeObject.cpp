@@ -2148,12 +2148,6 @@ slotSpan
 (
 )
 ;
-initializeSlotRange
-(
-0
-oldSpan
-)
-;
 if
 (
 oldSpan
