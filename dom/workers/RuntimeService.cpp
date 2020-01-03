@@ -7235,11 +7235,10 @@ queuedWorker
 }
 if
 (
-!
 domainInfo
 -
 >
-ActiveWorkerCount
+HasNoWorkers
 (
 )
 )
