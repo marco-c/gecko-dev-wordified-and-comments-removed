@@ -13261,9 +13261,10 @@ mir
 (
 )
 ;
-MIRType
-type
-=
+MOZ_ASSERT
+(
+IsNumberType
+(
 mir
 -
 >
@@ -13275,12 +13276,6 @@ value
 type
 (
 )
-;
-MOZ_ASSERT
-(
-IsNumberType
-(
-type
 )
 )
 ;
