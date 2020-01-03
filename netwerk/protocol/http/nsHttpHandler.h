@@ -1514,6 +1514,9 @@ nsXPIDLCString
 mCompatDevice
 ;
 nsCString
+mDeviceModelId
+;
+nsCString
 mUserAgent
 ;
 nsXPIDLCString
