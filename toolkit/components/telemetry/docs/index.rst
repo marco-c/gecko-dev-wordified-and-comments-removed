@@ -163,4 +163,7 @@ ping
 deletion
 -
 ping
+crash
+-
+ping
 preferences
