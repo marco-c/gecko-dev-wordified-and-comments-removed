@@ -81,10 +81,6 @@ FlushableMediaTaskQueue
 class
 CDMProxy
 ;
-typedef
-int64_t
-Microseconds
-;
 class
 PlatformDecoderModule
 {

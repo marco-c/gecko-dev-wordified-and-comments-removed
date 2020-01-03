@@ -28,6 +28,13 @@ h
 #
 include
 "
+TimeUnits
+.
+h
+"
+#
+include
+"
 VideoUtils
 .
 h
@@ -106,7 +113,10 @@ nsIntRect
 aOutPictureRegion
 )
 ;
-int64_t
+media
+:
+:
+TimeUnit
 GetSampleDuration
 (
 IMFSample
@@ -114,7 +124,10 @@ IMFSample
 aSample
 )
 ;
-int64_t
+media
+:
+:
+TimeUnit
 GetSampleTime
 (
 IMFSample

@@ -2245,6 +2245,9 @@ initData
 )
 ;
 }
+mp4_demuxer
+:
+:
 Microseconds
 duration
 ;
@@ -2795,6 +2798,9 @@ return
 mVideo
 ;
 }
+mp4_demuxer
+:
+:
 Microseconds
 MP4Reader
 :
@@ -2935,6 +2941,9 @@ int64_t
 aTimeThreshold
 )
 {
+mp4_demuxer
+:
+:
 Microseconds
 nextKeyframe
 =
@@ -5469,6 +5478,9 @@ nsTArray
 <
 Interval
 <
+mp4_demuxer
+:
+:
 Microseconds
 >
 >
