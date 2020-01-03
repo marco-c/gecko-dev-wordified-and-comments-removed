@@ -141,7 +141,7 @@ language
 group
 "
 "
-blur
+change
 "
 gContentPane
 .
