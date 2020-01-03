@@ -108,11 +108,6 @@ nsTArrayHelpers
 h
 '
 '
-SandboxPrivate
-.
-h
-'
-'
 xpc_map_end
 .
 h
