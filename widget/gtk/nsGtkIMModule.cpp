@@ -6274,7 +6274,7 @@ editorHadCompositionString
 DispatchCompositionChangeEvent
 (
 mSelectedString
-false
+true
 )
 )
 {
@@ -6872,7 +6872,7 @@ if
 DispatchCompositionChangeEvent
 (
 compositionString
-true
+false
 )
 )
 {
