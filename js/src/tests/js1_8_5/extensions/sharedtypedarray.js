@@ -1544,6 +1544,18 @@ v
 )
 ;
 }
+if
+(
+typeof
+SharedArrayBuffer
+=
+=
+=
+"
+function
+"
+)
+{
 testSharedArrayBuffer
 (
 )
@@ -1556,6 +1568,7 @@ testSharedTypedArrayMethods
 (
 )
 ;
+}
 reportCompare
 (
 0
