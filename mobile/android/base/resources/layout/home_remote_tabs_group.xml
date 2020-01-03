@@ -208,6 +208,13 @@ layout_marginRight
 "
 10dip
 "
+android
+:
+scaleType
+=
+"
+center
+"
 /
 >
 <
@@ -398,6 +405,13 @@ layout_marginRight
 =
 "
 10dip
+"
+android
+:
+scaleType
+=
+"
+center
 "
 /
 >
