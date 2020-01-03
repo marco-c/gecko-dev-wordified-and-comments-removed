@@ -115,6 +115,14 @@ SharedLibrary
 mozsandbox
 '
 )
+USE_LIBS
++
+=
+[
+'
+mozglue
+'
+]
 else
 :
 Library
