@@ -141,6 +141,12 @@ aOther
 .
 mContentType
 )
+mSecurityInfo
+(
+aOther
+.
+mSecurityInfo
+)
 {
 }
 already_AddRefed
