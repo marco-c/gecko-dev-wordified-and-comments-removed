@@ -120,6 +120,7 @@ aCancelable
 bool
 aIsPrivate
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -366,6 +367,7 @@ aStateFlags
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -402,6 +404,7 @@ char16_t
 *
 aMessage
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -437,6 +440,7 @@ aLocation
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -475,6 +479,7 @@ aCurTotalProgress
 int32_t
 aMaxTotalProgress
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -515,6 +520,7 @@ aCurTotalProgress
 int64_t
 aMaxTotalProgress
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -554,6 +560,7 @@ bool
 *
 allowRefresh
 )
+MOZ_OVERRIDE
 {
 *
 allowRefresh
@@ -576,6 +583,7 @@ aRequest
 uint32_t
 aState
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -603,6 +611,7 @@ nsACString
 &
 aHash
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -627,6 +636,7 @@ nsIArray
 *
 aSignatureInfo
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (
@@ -651,6 +661,7 @@ nsIArray
 *
 aRedirects
 )
+MOZ_OVERRIDE
 {
 NS_ENSURE_TRUE
 (

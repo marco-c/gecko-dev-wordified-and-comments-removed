@@ -100,6 +100,7 @@ NS_IMETHOD
 Finish
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Write
@@ -114,6 +115,7 @@ uint32_t
 *
 result
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -128,6 +130,7 @@ perm
 int32_t
 behaviorFlags
 )
+MOZ_OVERRIDE
 ;
 protected
 :

@@ -57,6 +57,7 @@ nsINativeFileWatcherSuccessCallback
 *
 aOnSuccess
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -80,6 +81,7 @@ nsINativeFileWatcherSuccessCallback
 *
 aOnSuccess
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
