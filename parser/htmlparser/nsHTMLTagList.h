@@ -47,10 +47,9 @@ HTML_TAG
 base
 Shared
 )
-HTML_TAG
+HTML_HTMLELEMENT_TAG
 (
 basefont
-Span
 )
 HTML_HTMLELEMENT_TAG
 (
