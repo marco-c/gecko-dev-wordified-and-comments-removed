@@ -3759,14 +3759,10 @@ bool
 aAsyncInsert
 RemoveFlags
 aFlags
-=
-REMOVE_FOR_RECONSTRUCTION
 nsIContent
 *
 *
 aDestroyedFramesFor
-=
-nullptr
 )
 ;
 bool

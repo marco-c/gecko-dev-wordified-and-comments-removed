@@ -3467,6 +3467,11 @@ RecreateFramesForContent
 (
 content
 false
+nsCSSFrameConstructor
+:
+:
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 }
@@ -4460,6 +4465,11 @@ RecreateFramesForContent
 (
 aElement
 false
+nsCSSFrameConstructor
+:
+:
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 }

@@ -24030,6 +24030,8 @@ RecreateFramesForContent
 (
 rootElement
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 }
@@ -27853,6 +27855,8 @@ GetContent
 (
 )
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 return
@@ -28163,6 +28167,8 @@ RecreateFramesForContent
 (
 bindingParent
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -28324,6 +28330,8 @@ GetContent
 (
 )
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -29778,6 +29786,8 @@ RecreateFramesForContent
 (
 bindingParent
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -30060,6 +30070,8 @@ GetContent
 (
 )
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -30120,6 +30132,8 @@ GetContent
 (
 )
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -32994,6 +33008,8 @@ RecreateFramesForContent
 (
 aContent
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -35817,6 +35833,8 @@ RecreateFramesForContent
 (
 aElement
 false
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 }
@@ -45954,6 +45972,8 @@ GetContent
 (
 )
 true
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 return
@@ -46020,6 +46040,8 @@ GetContent
 (
 )
 true
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 return
@@ -46072,6 +46094,8 @@ GetContent
 (
 )
 true
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 return
@@ -46147,6 +46171,8 @@ GetContent
 (
 )
 true
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 return
@@ -46554,6 +46580,8 @@ GetContent
 (
 )
 true
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 return
@@ -46786,6 +46814,8 @@ RecreateFramesForContent
 (
 blockContent
 true
+REMOVE_FOR_RECONSTRUCTION
+nullptr
 )
 ;
 return
@@ -46969,6 +46999,7 @@ GetRootElement
 )
 true
 aFlags
+nullptr
 )
 ;
 }
