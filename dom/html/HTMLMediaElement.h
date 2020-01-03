@@ -2630,9 +2630,6 @@ mLoadingSrc
 PreloadAction
 mPreloadAction
 ;
-nsIntSize
-mMediaSize
-;
 TimeStamp
 mTimeUpdateTime
 ;
