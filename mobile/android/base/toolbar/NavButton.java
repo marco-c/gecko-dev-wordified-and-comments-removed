@@ -430,7 +430,7 @@ R
 .
 drawable
 .
-new_tablet_url_bar_nav_button
+url_bar_nav_button
 )
 ;
 }
