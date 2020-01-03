@@ -7156,7 +7156,7 @@ mIMECompositionText
 =
 event
 .
-theText
+mData
 ;
 return
 true
@@ -7188,7 +7188,7 @@ mIMECompositionStart
 +
 event
 .
-theText
+mData
 .
 Length
 (

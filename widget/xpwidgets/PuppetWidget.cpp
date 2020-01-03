@@ -1677,7 +1677,7 @@ aCancel
 &
 textEvent
 .
-theText
+mData
 )
 )
 {

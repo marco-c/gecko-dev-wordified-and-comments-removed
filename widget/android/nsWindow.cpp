@@ -3139,7 +3139,7 @@ AsTextEvent
 )
 -
 >
-theText
+mData
 ;
 break
 ;
@@ -7912,7 +7912,7 @@ nullptr
 ;
 textEvent
 .
-theText
+mData
 =
 mIMEComposingText
 ;
@@ -8514,7 +8514,7 @@ nullptr
 ;
 event
 .
-theText
+mData
 =
 ae
 -
@@ -8554,7 +8554,7 @@ mEndOffset
 =
 event
 .
-theText
+mData
 .
 Length
 (
@@ -9227,7 +9227,7 @@ mWasAsync
 ;
 event
 .
-theText
+mData
 =
 queryEvent
 .
@@ -9271,7 +9271,7 @@ else
 {
 event
 .
-theText
+mData
 =
 mIMEComposingText
 ;
@@ -9281,11 +9281,11 @@ ifdef
 DEBUG_ANDROID_IME
 const
 NS_ConvertUTF16toUTF8
-theText8
+data
 (
 event
 .
-theText
+mData
 )
 ;
 const
@@ -9293,7 +9293,7 @@ char
 *
 text
 =
-theText8
+data
 .
 get
 (
@@ -9326,7 +9326,7 @@ u
 text
 event
 .
-theText
+mData
 .
 Length
 (

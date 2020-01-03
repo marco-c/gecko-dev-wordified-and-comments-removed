@@ -736,7 +736,7 @@ result
 ;
 }
 nsString
-theText
+mData
 ;
 bool
 isChar

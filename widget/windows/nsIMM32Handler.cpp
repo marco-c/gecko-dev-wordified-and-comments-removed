@@ -7563,7 +7563,7 @@ CreateTextRangeArray
 }
 event
 .
-theText
+mData
 =
 mLastDispatchedCompositionString
 =

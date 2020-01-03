@@ -8829,7 +8829,7 @@ textEvent
 ;
 textEvent
 .
-theText
+mData
 =
 action
 .
@@ -8862,7 +8862,7 @@ mEndOffset
 =
 textEvent
 .
-theText
+mData
 .
 Length
 (
@@ -9031,7 +9031,7 @@ textEvent
 ;
 textEvent
 .
-theText
+mData
 =
 action
 .
@@ -9107,7 +9107,7 @@ data
 =
 textEvent
 .
-theText
+mData
 ;
 mWidget
 -

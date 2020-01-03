@@ -17302,7 +17302,7 @@ PR_IntervalNow
 ;
 textEvent
 .
-theText
+mData
 =
 aText
 ;
@@ -17327,7 +17327,7 @@ mLastDispatchedCompositionString
 =
 textEvent
 .
-theText
+mData
 ;
 return
 DispatchEvent

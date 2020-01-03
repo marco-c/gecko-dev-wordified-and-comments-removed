@@ -12539,7 +12539,7 @@ textString
 ;
 textEvent
 .
-theText
+mData
 =
 textString
 ;
