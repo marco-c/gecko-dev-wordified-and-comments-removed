@@ -1695,9 +1695,12 @@ MOZILLA_XPCOMRT_API
 )
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 nsCString

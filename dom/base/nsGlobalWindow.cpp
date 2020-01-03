@@ -37755,9 +37755,12 @@ IsShowModalDialogEnabled
 )
 |
 |
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 aError
@@ -45538,9 +45541,12 @@ lineno
 ;
 if
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 &
 &
 ProcessHangMonitor

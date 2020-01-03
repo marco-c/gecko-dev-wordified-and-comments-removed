@@ -1391,9 +1391,12 @@ osa
 endif
 if
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 signal

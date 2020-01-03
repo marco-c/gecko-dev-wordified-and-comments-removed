@@ -1548,9 +1548,12 @@ endif
 ifdef
 MOZ_WIDGET_GONK
 return
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 &
 &
 ContentChild

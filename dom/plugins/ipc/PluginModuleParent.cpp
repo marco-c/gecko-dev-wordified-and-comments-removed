@@ -1546,9 +1546,12 @@ aBrowserDumpId
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 ;
 nsRefPtr
@@ -1668,9 +1671,12 @@ aPluginId
 ;
 MOZ_ASSERT
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 ;
 dom

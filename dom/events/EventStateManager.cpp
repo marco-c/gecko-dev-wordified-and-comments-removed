@@ -2751,9 +2751,12 @@ NS_MOUSE_EXIT_WIDGET
 :
 if
 (
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 )
 {
 ClearCachedWidgetCursor

@@ -3344,9 +3344,12 @@ true
 }
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 ActivateOrDeactivate
@@ -3702,9 +3705,12 @@ nullptr
 ;
 if
 (
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Default
 )
 {
 ActivateOrDeactivate

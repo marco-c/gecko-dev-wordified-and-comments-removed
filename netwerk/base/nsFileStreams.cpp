@@ -2436,10 +2436,12 @@ behaviorFlags
 ;
 if
 (
-!
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+!
+=
+GeckoProcessType_Default
 )
 {
 mBehaviorFlags

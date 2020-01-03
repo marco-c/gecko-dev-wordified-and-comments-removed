@@ -838,9 +838,12 @@ false
 #
 else
 return
-XRE_IsContentProcess
+XRE_GetProcessType
 (
 )
+=
+=
+GeckoProcessType_Content
 &
 &
 mozilla

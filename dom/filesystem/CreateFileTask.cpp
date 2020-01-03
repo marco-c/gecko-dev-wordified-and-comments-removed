@@ -203,7 +203,10 @@ aBlobData
 {
 if
 (
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 )
@@ -312,7 +315,10 @@ false
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 "
@@ -853,7 +859,10 @@ mStream
 ;
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 "
@@ -1546,7 +1555,10 @@ sOutputBufferSize
 |
 |
 !
-XRE_IsParentProcess
+FileSystemUtils
+:
+:
+IsParentProcess
 (
 )
 )

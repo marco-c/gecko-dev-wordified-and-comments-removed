@@ -1114,10 +1114,12 @@ Singleton
 {
 MOZ_ASSERT
 (
-!
-XRE_IsParentProcess
+XRE_GetProcessType
 (
 )
+!
+=
+GeckoProcessType_Default
 )
 ;
 MOZ_ASSERT

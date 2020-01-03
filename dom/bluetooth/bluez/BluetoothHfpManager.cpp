@@ -1703,7 +1703,7 @@ Init
 {
 MOZ_ASSERT
 (
-XRE_IsParentProcess
+IsMainProcess
 (
 )
 )
