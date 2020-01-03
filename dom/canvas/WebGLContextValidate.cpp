@@ -6728,6 +6728,12 @@ gl
 return
 false
 ;
+mFormatUsage
+=
+CreateFormatUsage
+(
+)
+;
 GLenum
 error
 =
