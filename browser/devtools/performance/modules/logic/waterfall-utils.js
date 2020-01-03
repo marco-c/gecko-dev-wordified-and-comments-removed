@@ -16,7 +16,7 @@ devtools
 /
 performance
 /
-global
+markers
 "
 true
 )
