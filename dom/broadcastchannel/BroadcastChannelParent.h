@@ -71,7 +71,7 @@ ClonedMessageData
 &
 aData
 const
-nsString
+nsCString
 &
 aOrigin
 const
@@ -97,7 +97,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsAString
+nsACString
 &
 aOrigin
 const
@@ -146,7 +146,7 @@ BroadcastChannelService
 >
 mService
 ;
-nsString
+nsCString
 mOrigin
 ;
 nsString

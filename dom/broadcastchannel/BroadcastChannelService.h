@@ -91,7 +91,7 @@ ClonedMessageData
 &
 aData
 const
-nsAString
+nsACString
 &
 aOrigin
 uint64_t

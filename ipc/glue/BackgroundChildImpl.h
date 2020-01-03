@@ -242,7 +242,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsString
+nsCString
 &
 aOrigin
 const

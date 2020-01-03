@@ -240,7 +240,7 @@ PBroadcastChannel
 (
 PrincipalInfo
 pInfo
-nsString
+nsCString
 origin
 nsString
 channel

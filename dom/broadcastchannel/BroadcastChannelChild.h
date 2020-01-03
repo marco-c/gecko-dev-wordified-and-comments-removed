@@ -94,7 +94,7 @@ explicit
 BroadcastChannelChild
 (
 const
-nsAString
+nsACString
 &
 aOrigin
 )

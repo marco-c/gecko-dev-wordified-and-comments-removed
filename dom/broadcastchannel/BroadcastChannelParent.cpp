@@ -83,7 +83,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 const
-nsAString
+nsACString
 &
 aOrigin
 const
@@ -332,7 +332,7 @@ ClonedMessageData
 &
 aData
 const
-nsString
+nsCString
 &
 aOrigin
 uint64_t
