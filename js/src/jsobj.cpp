@@ -4920,6 +4920,7 @@ success
 checkStrict
 (
 cx
+obj
 id
 )
 ;
@@ -4963,6 +4964,7 @@ success
 checkStrict
 (
 cx
+obj
 id
 )
 ;
