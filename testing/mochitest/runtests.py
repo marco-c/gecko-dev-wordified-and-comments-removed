@@ -13717,6 +13717,8 @@ nsprlog
 zip
 "
 %
+self
+.
 browserEnv
 [
 "
