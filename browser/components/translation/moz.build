@@ -103,6 +103,11 @@ TranslationDocument
 .
 jsm
 '
+'
+YandexTranslator
+.
+jsm
+'
 ]
 JAR_MANIFESTS
 +
