@@ -2354,6 +2354,12 @@ nsIWidget
 *
 mChild
 ;
+uintptr_t
+mWindowID
+;
+bool
+mVisible
+;
 nsIntRect
 mBounds
 ;
