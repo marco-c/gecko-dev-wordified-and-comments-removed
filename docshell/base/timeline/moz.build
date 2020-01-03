@@ -130,6 +130,11 @@ AutoTimelineMarker
 cpp
 '
 '
+ObservedDocShell
+.
+cpp
+'
+'
 TimelineConsumers
 .
 cpp
