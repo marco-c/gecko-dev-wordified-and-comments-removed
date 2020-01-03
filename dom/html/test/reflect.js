@@ -3601,6 +3601,8 @@ resultInt
 {
 return
 resultInt
++
+0
 ;
 }
 }
