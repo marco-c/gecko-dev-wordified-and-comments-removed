@@ -690,6 +690,7 @@ true
 mWatchManager
 (
 this
+mTaskQueue
 )
 mRealTime
 (
@@ -11791,6 +11792,12 @@ DisconnectIfConnected
 mNextFrameStatus
 .
 DisconnectAll
+(
+)
+;
+mWatchManager
+.
+Shutdown
 (
 )
 ;
