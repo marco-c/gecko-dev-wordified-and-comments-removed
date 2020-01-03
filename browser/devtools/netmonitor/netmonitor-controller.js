@@ -3486,6 +3486,12 @@ WDA_DEFAULT_VERIFY_INTERVAL
 const
 WDA_DEFAULT_GIVE_UP_TIMEOUT
 =
+gDevTools
+.
+testing
+?
+45000
+:
 2000
 ;
 function
