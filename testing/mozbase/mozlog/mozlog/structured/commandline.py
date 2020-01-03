@@ -1037,8 +1037,10 @@ copy
     
 formatters
 =
-{
-}
+defaultdict
+(
+list
+)
     
 found
 =
@@ -1194,14 +1196,6 @@ formatter
 =
 parts
                 
-formatters
-[
-formatter
-]
-=
-[
-]
-                
 for
 value
 in
@@ -1296,10 +1290,11 @@ formatters
 [
 name
 ]
-=
-[
+.
+append
+(
 value
-]
+)
     
 elif
 not
@@ -1340,10 +1335,11 @@ formatters
 [
 name
 ]
-=
-[
+.
+append
+(
 value
-]
+)
     
 setup_handlers
 (
