@@ -373,12 +373,10 @@ LOCAL_INCLUDES
 =
 [
 '
-.
-.
+/
+docshell
 /
 shistory
-/
-src
 '
 '
 /
