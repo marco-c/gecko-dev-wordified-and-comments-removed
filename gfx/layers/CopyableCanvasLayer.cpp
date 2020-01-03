@@ -718,11 +718,6 @@ destFormat
 mGLContext
 -
 >
-Screen
-(
-)
--
->
 Readback
 (
 frontbuffer
@@ -790,11 +785,6 @@ return
 ;
 }
 mGLContext
--
->
-Screen
-(
-)
 -
 >
 Readback
