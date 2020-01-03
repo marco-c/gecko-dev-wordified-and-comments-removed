@@ -133,6 +133,9 @@ PREF_BOOL
 PREF_HAS_DEFAULT
 =
 256
+PREF_STICKY_DEFAULT
+=
+512
 PREF_VALUETYPE_MASK
 =
 (
@@ -362,6 +365,8 @@ PrefType
 type
 bool
 isDefault
+bool
+isStickyDefault
 )
 ;
 #

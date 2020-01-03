@@ -41,6 +41,8 @@ PrefType
 type
 bool
 defPref
+bool
+stickyPref
 )
 ;
 typedef
@@ -107,6 +109,9 @@ vtype
 ;
 bool
 fdefault
+;
+bool
+fstickydefault
 ;
 }
 PrefParseState
