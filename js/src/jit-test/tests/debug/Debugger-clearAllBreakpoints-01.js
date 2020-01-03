@@ -43,7 +43,6 @@ dbg
 .
 clearAllBreakpoints
 (
-handler
 )
 ;
 }

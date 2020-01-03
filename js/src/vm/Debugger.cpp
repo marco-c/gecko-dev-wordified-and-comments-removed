@@ -15645,7 +15645,7 @@ Debugger
 :
 :
 clearAllBreakpoints
-1
+0
 0
 )
 JS_FN
