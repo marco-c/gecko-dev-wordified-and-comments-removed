@@ -235,6 +235,13 @@ parsers
 js
 '
 '
+layout
+-
+helpers
+.
+js
+'
+'
 output
 -
 parser
@@ -262,11 +269,6 @@ devtools
 [
 '
 Console
-.
-jsm
-'
-'
-LayoutHelpers
 .
 jsm
 '
