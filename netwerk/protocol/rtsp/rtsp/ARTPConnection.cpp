@@ -3726,9 +3726,6 @@ s
 *
 it
 ;
-status_t
-err
-;
 if
 (
 it
@@ -3740,8 +3737,6 @@ mInterleavedRTPIdx
 index
 )
 {
-err
-=
 parseRTP
 (
 s
@@ -3751,8 +3746,6 @@ buffer
 }
 else
 {
-err
-=
 parseRTCP
 (
 s

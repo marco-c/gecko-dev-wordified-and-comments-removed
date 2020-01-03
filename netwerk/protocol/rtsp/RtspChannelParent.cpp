@@ -111,17 +111,12 @@ uint32_t
 channelId
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIChannel
 >
 channel
 ;
-rv
-=
 NS_LinkRedirectChannels
 (
 channelId

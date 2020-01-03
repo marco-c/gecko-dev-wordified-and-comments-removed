@@ -699,11 +699,6 @@ Fence
 NO_FENCE
 ;
 }
-status_t
-err
-;
-err
-=
 addReleaseFenceLocked
 (
 index
@@ -716,8 +711,6 @@ mGraphicBuffer
 fence
 )
 ;
-err
-=
 releaseBufferLocked
 (
 index
