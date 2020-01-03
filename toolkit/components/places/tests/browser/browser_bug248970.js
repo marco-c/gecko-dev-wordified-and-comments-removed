@@ -177,7 +177,9 @@ close
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

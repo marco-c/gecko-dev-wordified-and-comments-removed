@@ -372,7 +372,9 @@ containerOpen
 false
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -571,7 +573,9 @@ containerOpen
 false
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -766,7 +770,9 @@ containerOpen
 false
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -973,7 +979,9 @@ containerOpen
 false
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1136,7 +1144,9 @@ containerOpen
 false
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -1309,7 +1319,9 @@ containerOpen
 false
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

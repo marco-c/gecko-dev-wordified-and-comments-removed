@@ -618,7 +618,9 @@ unfiledBookmarksFolder
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
@@ -637,7 +639,9 @@ unfiledBookmarksFolder
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

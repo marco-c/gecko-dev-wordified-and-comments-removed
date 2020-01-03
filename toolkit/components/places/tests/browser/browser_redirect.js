@@ -303,7 +303,9 @@ hidden
 "
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

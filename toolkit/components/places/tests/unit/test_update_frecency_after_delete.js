@@ -164,7 +164,9 @@ remove_all_bookmarks
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -359,7 +361,9 @@ remove_all_bookmarks
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -568,7 +572,9 @@ remove_all_bookmarks
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -771,7 +777,9 @@ remove_all_bookmarks
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
@@ -976,7 +984,9 @@ remove_all_bookmarks
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

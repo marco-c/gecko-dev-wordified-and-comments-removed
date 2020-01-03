@@ -871,7 +871,9 @@ containerOpen
 false
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;

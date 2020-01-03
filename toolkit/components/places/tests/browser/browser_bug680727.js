@@ -534,7 +534,9 @@ URI
 "
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

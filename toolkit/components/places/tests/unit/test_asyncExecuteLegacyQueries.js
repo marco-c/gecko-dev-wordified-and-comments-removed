@@ -520,7 +520,9 @@ shift
 (
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

@@ -373,7 +373,9 @@ checker
 aIsVisited
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

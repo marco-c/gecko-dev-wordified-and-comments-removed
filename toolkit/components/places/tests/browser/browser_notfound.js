@@ -185,7 +185,9 @@ typed
 "
 )
 ;
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

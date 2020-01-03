@@ -441,7 +441,9 @@ function
 (
 )
 {
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .

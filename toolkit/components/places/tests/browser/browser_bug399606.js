@@ -421,7 +421,9 @@ aURI
 )
 ;
 }
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 .
