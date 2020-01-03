@@ -231,6 +231,12 @@ self
 symbols_path
 =
 symbols_path
+        
+self
+.
+crashed
+=
+False
     
 def
 __del__
@@ -1045,6 +1051,8 @@ minidumps
 '
 )
         
+self
+.
 crashed
 =
 False
@@ -1052,26 +1060,29 @@ False
 try
 :
             
+self
+.
 crashed
 =
 mozcrash
 .
 check_for_crashes
 (
+                
 dump_directory
-                                                 
+                
 self
 .
 symbols_path
-                                                 
+                
 dump_save_path
 =
 dump_save_path
-                                                 
+                
 test_name
 =
 test_name
-                                                 
+                
 quiet
 =
 quiet
@@ -1087,6 +1098,8 @@ print_exc
 )
         
 return
+self
+.
 crashed
     
 def
