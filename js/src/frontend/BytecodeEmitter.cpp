@@ -16422,9 +16422,18 @@ if
 emitOption
 =
 =
+InitializeVars
+)
+continue
+;
+MOZ_ASSERT
+(
+emitOption
+=
+=
 PushInitialValues
 )
-{
+;
 JS_ASSERT
 (
 (
@@ -16508,7 +16517,6 @@ pickDistance
 return
 false
 ;
-}
 }
 }
 if
