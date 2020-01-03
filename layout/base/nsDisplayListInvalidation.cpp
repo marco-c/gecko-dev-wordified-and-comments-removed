@@ -19,6 +19,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+nsTableFrame
+.
+h
+"
 nsDisplayItemGeometry
 :
 :
