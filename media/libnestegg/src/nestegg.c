@@ -9989,8 +9989,7 @@ return
 NESTEGG_TRACK_AUDIO
 ;
 return
--
-1
+NESTEGG_TRACK_UNKNOWN
 ;
 }
 int
@@ -10106,8 +10105,7 @@ return
 NESTEGG_CODEC_OPUS
 ;
 return
--
-1
+NESTEGG_CODEC_UNKNOWN
 ;
 }
 int
