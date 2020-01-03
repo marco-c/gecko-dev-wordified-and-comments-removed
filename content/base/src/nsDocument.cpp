@@ -25717,7 +25717,7 @@ htmlProto
 HTMLElementBinding
 :
 :
-GetProtoObject
+GetProtoObjectHandle
 (
 aCx
 global
@@ -25943,7 +25943,7 @@ svgProto
 SVGElementBinding
 :
 :
-GetProtoObject
+GetProtoObjectHandle
 (
 aCx
 global
