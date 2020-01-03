@@ -5,7 +5,7 @@ compiler
 /
 translator
 /
-intermediate
+IntermNode
 .
 h
 "
@@ -33,7 +33,10 @@ public
 :
 ValidateLimitations
 (
-ShShaderType
+sh
+:
+:
+GLenum
 shaderType
 TInfoSinkBase
 &
@@ -204,7 +207,10 @@ TIntermBinary
 node
 )
 ;
-ShShaderType
+sh
+:
+:
+GLenum
 mShaderType
 ;
 TInfoSinkBase

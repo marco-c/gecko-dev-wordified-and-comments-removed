@@ -35,7 +35,10 @@ static
 void
 writeVersion
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 TIntermNode
 *
@@ -100,7 +103,10 @@ TranslatorGLSL
 :
 TranslatorGLSL
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec

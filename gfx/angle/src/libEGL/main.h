@@ -5,9 +5,6 @@ LIBEGL_MAIN_H_
 define
 LIBEGL_MAIN_H_
 #
-define
-EGLAPI
-#
 include
 <
 EGL

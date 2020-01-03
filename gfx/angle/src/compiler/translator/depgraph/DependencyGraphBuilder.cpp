@@ -159,7 +159,7 @@ argumentNumber
 0
 ;
 TIntermSequence
-&
+*
 intermArguments
 =
 intermFunctionCall
@@ -178,7 +178,8 @@ const_iterator
 iter
 =
 intermArguments
-.
+-
+>
 begin
 (
 )
@@ -187,7 +188,8 @@ iter
 !
 =
 intermArguments
-.
+-
+>
 end
 (
 )
@@ -283,7 +285,7 @@ intermAggregate
 )
 {
 TIntermSequence
-&
+*
 sequence
 =
 intermAggregate
@@ -302,7 +304,8 @@ const_iterator
 iter
 =
 sequence
-.
+-
+>
 begin
 (
 )
@@ -311,7 +314,8 @@ iter
 !
 =
 sequence
-.
+-
+>
 end
 (
 )

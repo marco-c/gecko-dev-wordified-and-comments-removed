@@ -184,7 +184,7 @@ kIntegerIndex
 )
 {
 TIntermSequence
-&
+*
 declSeq
 =
 node
@@ -208,7 +208,10 @@ TIntermSymbol
 *
 symbol
 =
+(
+*
 declSeq
+)
 [
 0
 ]

@@ -20,7 +20,7 @@ compiler
 /
 translator
 /
-intermediate
+IntermNode
 .
 h
 "

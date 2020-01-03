@@ -1,13 +1,6 @@
 #
 include
 "
-precompiled
-.
-h
-"
-#
-include
-"
 libGLESv2
 /
 Program
@@ -625,10 +618,6 @@ false
 }
 mVertexShader
 =
-(
-VertexShader
-*
-)
 shader
 ;
 mVertexShader
@@ -664,10 +653,6 @@ false
 }
 mFragmentShader
 =
-(
-FragmentShader
-*
-)
 shader
 ;
 mFragmentShader
@@ -898,6 +883,10 @@ Program
 :
 link
 (
+const
+Caps
+&
+caps
 )
 {
 unlink
@@ -939,6 +928,7 @@ mFragmentShader
 mVertexShader
 mTransformFeedbackVaryings
 mTransformFeedbackBufferMode
+caps
 )
 ;
 return
@@ -1108,6 +1098,8 @@ Program
 :
 setProgramBinary
 (
+GLenum
+binaryFormat
 const
 void
 *
@@ -1146,6 +1138,7 @@ mProgramBinary
 load
 (
 mInfoLog
+binaryFormat
 binary
 length
 )
@@ -1774,6 +1767,10 @@ Program
 :
 validate
 (
+const
+Caps
+&
+caps
 )
 {
 mInfoLog
@@ -1806,6 +1803,7 @@ programBinary
 validate
 (
 mInfoLog
+caps
 )
 ;
 }

@@ -7,9 +7,9 @@ LIBGLESV2_RENDERER_IMAGEFORMATS_H_
 #
 include
 "
-libGLESv2
+common
 /
-angletypes
+mathutil
 .
 h
 "

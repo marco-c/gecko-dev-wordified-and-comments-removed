@@ -325,7 +325,7 @@ NULL
 return
 ;
 TIntermSequence
-&
+*
 declSeq
 =
 node
@@ -349,7 +349,10 @@ TIntermBinary
 *
 declInit
 =
+(
+*
 declSeq
+)
 [
 0
 ]

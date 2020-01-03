@@ -11,7 +11,7 @@ compiler
 /
 translator
 /
-ShHandle
+Compiler
 .
 h
 "
@@ -25,7 +25,10 @@ public
 :
 TranslatorGLSL
 (
-ShShaderType
+sh
+:
+:
+GLenum
 type
 ShShaderSpec
 spec
