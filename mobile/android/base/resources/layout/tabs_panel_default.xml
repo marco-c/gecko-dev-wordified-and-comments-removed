@@ -313,6 +313,15 @@ tab_indicator_divider
 "
 android
 :
+dividerPadding
+=
+"
+dimen
+/
+new_tablet_tab_panel_divider_vertical_padding
+"
+android
+:
 layout
 =
 "
