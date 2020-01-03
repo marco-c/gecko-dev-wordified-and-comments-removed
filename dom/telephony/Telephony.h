@@ -158,6 +158,12 @@ mIsAudioStartPlaying
 uint32_t
 mAudioAgentNotify
 ;
+bool
+mHaveDispatchedInterruptBeginEvent
+;
+bool
+mMuted
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
