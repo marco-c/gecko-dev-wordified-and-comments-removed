@@ -1568,6 +1568,13 @@ Invalidate
 (
 )
 ;
+aFrame
+-
+>
+SchedulePaint
+(
+)
+;
 nsIFrame
 *
 f
@@ -1618,6 +1625,8 @@ DoRedraw
 FrameSet
 *
 aFrameSet
+bool
+aForcePaint
 )
 {
 NS_ASSERTION
@@ -1736,6 +1745,11 @@ frame
 InvalidateImagesCallback
 )
 ;
+if
+(
+aForcePaint
+)
+{
 frame
 -
 >
@@ -1743,6 +1757,7 @@ SchedulePaint
 (
 )
 ;
+}
 }
 }
 }
@@ -2063,6 +2078,7 @@ null
 DoRedraw
 (
 frameSet
+true
 )
 ;
 return
@@ -2132,6 +2148,7 @@ null
 DoRedraw
 (
 frameSet
+false
 )
 ;
 return
