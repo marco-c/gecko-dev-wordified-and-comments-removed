@@ -855,6 +855,11 @@ mHasBeenDecoded
 1
 ;
 bool
+mDownscaleDuringDecode
+:
+1
+;
+bool
 mPendingAnimation
 :
 1
