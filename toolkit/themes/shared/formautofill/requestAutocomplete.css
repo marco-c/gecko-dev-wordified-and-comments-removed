@@ -1,6 +1,7 @@
 import
 url
 (
+"
 chrome
 :
 /
@@ -9,9 +10,14 @@ global
 /
 skin
 /
-inContentUI
+in
+-
+content
+/
+common
 .
 css
+"
 )
 ;
 :
