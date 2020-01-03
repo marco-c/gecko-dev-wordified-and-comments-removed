@@ -158,6 +158,10 @@ mImageIsTransient
 (
 false
 )
+mImageIsLocked
+(
+false
+)
 mFrameCount
 (
 0
