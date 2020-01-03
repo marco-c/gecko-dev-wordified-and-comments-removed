@@ -14424,6 +14424,13 @@ mNeedsMemoryReport
 =
 true
 ;
+{
+MonitorAutoLock
+monitorLock
+(
+mMonitor
+)
+;
 CurrentDriver
 (
 )
@@ -14433,6 +14440,7 @@ WakeUp
 (
 )
 ;
+}
 if
 (
 mLifecycleState
