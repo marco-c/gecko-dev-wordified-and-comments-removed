@@ -205,7 +205,7 @@ color
 "
 color
 /
-placeholder_active_grey
+text_and_tabs_tray_grey
 "
 /
 >
@@ -316,7 +316,7 @@ color
 "
 color
 /
-text_and_tabs_tray_grey
+placeholder_active_grey
 "
 /
 >
