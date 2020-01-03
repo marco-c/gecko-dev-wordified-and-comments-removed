@@ -2872,7 +2872,6 @@ init
 alloc
 (
 )
-block
 *
 ins
 def
@@ -2940,7 +2939,6 @@ init
 alloc
 (
 )
-block
 *
 ins
 def
@@ -3010,7 +3008,6 @@ init
 alloc
 (
 )
-block
 phi
 def
 false
