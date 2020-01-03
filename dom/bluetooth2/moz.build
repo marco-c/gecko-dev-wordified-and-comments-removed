@@ -126,6 +126,11 @@ BluetoothDiscoveryHandle
 cpp
 '
 '
+BluetoothGatt
+.
+cpp
+'
+'
 BluetoothHidManager
 .
 cpp
@@ -712,6 +717,11 @@ h
 '
 '
 BluetoothDiscoveryHandle
+.
+h
+'
+'
+BluetoothGatt
 .
 h
 '

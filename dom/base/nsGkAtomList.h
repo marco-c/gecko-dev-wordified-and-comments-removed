@@ -4949,6 +4949,13 @@ onconnecting
 )
 GK_ATOM
 (
+onconnectionstatechanged
+"
+onconnectionstatechanged
+"
+)
+GK_ATOM
+(
 oncontextmenu
 "
 oncontextmenu

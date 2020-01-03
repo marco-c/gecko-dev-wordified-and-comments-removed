@@ -844,6 +844,12 @@ requestmediaplaystatus
 "
 #
 define
+GATT_CONNECTION_STATE_CHANGED_ID
+"
+connectionstatechanged
+"
+#
+define
 BLUETOOTH_ADDRESS_LENGTH
 17
 #
