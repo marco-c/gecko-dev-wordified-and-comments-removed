@@ -38723,7 +38723,7 @@ widget
 =
 widget
 ;
-LayoutDeviceIntPoint
+nsIntPoint
 widgetPoint
 =
 widget
@@ -38753,9 +38753,9 @@ GetScreenRect
 BottomLeft
 (
 )
-)
 -
 widgetPoint
+)
 ;
 mCurrentEventContent
 =

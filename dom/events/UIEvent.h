@@ -269,6 +269,11 @@ aEvent
 >
 refPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 event
 -
 >
@@ -277,6 +282,7 @@ widget
 >
 WidgetToScreenOffset
 (
+)
 )
 ;
 nscoord

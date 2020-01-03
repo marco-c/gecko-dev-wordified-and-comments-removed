@@ -7673,7 +7673,7 @@ mWnd
 r1
 )
 ;
-LayoutDeviceIntPoint
+nsIntPoint
 pt
 =
 WidgetToScreenOffset
@@ -11673,7 +11673,7 @@ return
 NS_OK
 ;
 }
-LayoutDeviceIntPoint
+nsIntPoint
 nsWindow
 :
 :
@@ -11706,7 +11706,7 @@ point
 )
 ;
 return
-LayoutDeviceIntPoint
+nsIntPoint
 (
 point
 .
@@ -14676,7 +14676,7 @@ mpScreen
 =
 eventPoint
 +
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 ;

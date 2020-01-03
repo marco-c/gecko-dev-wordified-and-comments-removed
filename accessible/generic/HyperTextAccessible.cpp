@@ -6622,7 +6622,7 @@ aWidget
 )
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 -

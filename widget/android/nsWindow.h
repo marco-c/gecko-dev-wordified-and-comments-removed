@@ -456,10 +456,7 @@ aRect
 )
 ;
 virtual
-mozilla
-:
-:
-LayoutDeviceIntPoint
+nsIntPoint
 WidgetToScreenOffset
 (
 )

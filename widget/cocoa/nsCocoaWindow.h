@@ -983,10 +983,7 @@ false
 MOZ_OVERRIDE
 ;
 virtual
-mozilla
-:
-:
-LayoutDeviceIntPoint
+nsIntPoint
 WidgetToScreenOffset
 (
 )

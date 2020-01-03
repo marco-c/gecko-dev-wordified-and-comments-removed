@@ -1479,10 +1479,7 @@ aView
 )
 ;
 static
-mozilla
-:
-:
-LayoutDeviceIntPoint
+nsIntPoint
 TranslateViewToWidget
 (
 nsPresContext

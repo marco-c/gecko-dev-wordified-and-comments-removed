@@ -4651,7 +4651,7 @@ Time
 )
 ;
 const
-LayoutDeviceIntPoint
+nsIntPoint
 &
 offset
 =
@@ -4998,7 +4998,7 @@ offset
 widget
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 ;
@@ -5271,7 +5271,7 @@ Time
 )
 ;
 const
-LayoutDeviceIntPoint
+nsIntPoint
 &
 offset
 =

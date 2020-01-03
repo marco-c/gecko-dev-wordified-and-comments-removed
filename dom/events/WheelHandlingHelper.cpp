@@ -1230,6 +1230,7 @@ aEvent
 -
 >
 refPoint
+)
 +
 aEvent
 -
@@ -1239,7 +1240,6 @@ widget
 >
 WidgetToScreenOffset
 (
-)
 )
 ;
 }

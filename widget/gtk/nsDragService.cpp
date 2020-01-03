@@ -7746,7 +7746,7 @@ aWindowPoint
 aWindow
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )

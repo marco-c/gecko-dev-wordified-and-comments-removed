@@ -2195,7 +2195,7 @@ return
 NS_OK
 ;
 }
-LayoutDeviceIntPoint
+nsIntPoint
 nsWindow
 :
 :
@@ -2203,7 +2203,7 @@ WidgetToScreenOffset
 (
 )
 {
-LayoutDeviceIntPoint
+nsIntPoint
 p
 (
 0

@@ -22660,7 +22660,7 @@ if
 rootWidget
 )
 {
-LayoutDeviceIntPoint
+nsIntPoint
 rootDevPx
 =
 rootWidget
