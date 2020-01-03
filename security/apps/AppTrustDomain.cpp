@@ -159,6 +159,14 @@ gPIPNSSLog
 ;
 #
 endif
+static
+const
+unsigned
+int
+MINIMUM_NON_ECC_BITS
+=
+2048
+;
 namespace
 mozilla
 {
@@ -922,6 +930,7 @@ VerifySignedData
 (
 signedData
 subjectPublicKeyInfo
+MINIMUM_NON_ECC_BITS
 mPinArg
 )
 ;
@@ -1047,6 +1056,7 @@ pkix
 CheckPublicKey
 (
 subjectPublicKeyInfo
+MINIMUM_NON_ECC_BITS
 )
 ;
 }

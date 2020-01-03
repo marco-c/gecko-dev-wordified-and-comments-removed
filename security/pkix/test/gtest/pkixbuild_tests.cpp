@@ -727,6 +727,7 @@ VerifySignedData
 (
 signedData
 subjectPublicKeyInfo
+MINIMUM_TEST_KEY_BITS
 nullptr
 )
 ;
@@ -1450,6 +1451,7 @@ VerifySignedData
 (
 signedData
 subjectPublicKeyInfo
+MINIMUM_TEST_KEY_BITS
 nullptr
 )
 ;
