@@ -61,9 +61,6 @@ nsTableFrame
 class
 nsTableRowFrame
 ;
-class
-nsTableCellFrame
-;
 struct
 nsRowGroupReflowState
 {

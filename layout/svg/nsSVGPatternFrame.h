@@ -48,16 +48,7 @@ nsSVGPaintServerFrame
 h
 "
 class
-gfxASurface
-;
-class
-gfxContext
-;
-class
 nsIFrame
-;
-class
-nsSVGElement
 ;
 class
 nsSVGLength2

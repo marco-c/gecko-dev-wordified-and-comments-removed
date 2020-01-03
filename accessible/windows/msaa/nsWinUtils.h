@@ -33,9 +33,6 @@ nsRefPtrHashtable
 h
 "
 class
-nsIArray
-;
-class
 nsIContent
 ;
 namespace

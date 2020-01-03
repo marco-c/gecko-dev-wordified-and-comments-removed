@@ -169,16 +169,7 @@ class
 nsIContent
 ;
 class
-nsIDOMCharacterData
-;
-class
-nsIDOMDataTransfer
-;
-class
 nsIDOMDocument
-;
-class
-nsIDOMElement
 ;
 class
 nsIDOMEvent

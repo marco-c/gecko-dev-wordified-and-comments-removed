@@ -74,9 +74,6 @@ class
 nsITransactionListener
 ;
 class
-nsTransactionItem
-;
-class
 nsTransactionManager
 final
 :

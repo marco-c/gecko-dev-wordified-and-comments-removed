@@ -160,9 +160,6 @@ mIsInfinite
 }
 ;
 struct
-NewLayerEntry
-;
-struct
 ContainerLayerParameters
 {
 ContainerLayerParameters

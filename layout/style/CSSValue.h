@@ -19,9 +19,6 @@ nsStringFwd
 h
 "
 class
-nsIDOMCSSValue
-;
-class
 nsROCSSPrimitiveValue
 ;
 namespace

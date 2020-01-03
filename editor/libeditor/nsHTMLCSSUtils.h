@@ -70,9 +70,6 @@ Element
 class
 nsHTMLEditor
 ;
-class
-nsIDOMWindow
-;
 typedef
 void
 (

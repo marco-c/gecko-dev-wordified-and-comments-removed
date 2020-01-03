@@ -83,12 +83,6 @@ nsIWebProgressListener
 h
 "
 class
-nsIDOMWindow
-;
-class
-nsIDialogParamBlock
-;
-class
 nsPrintingPromptService
 :
 public

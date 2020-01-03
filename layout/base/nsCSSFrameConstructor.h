@@ -79,17 +79,11 @@ h
 struct
 nsFrameItems
 ;
-struct
-nsAbsoluteItems
-;
 class
 nsStyleContext
 ;
 struct
 nsStyleDisplay
-;
-class
-nsIDOMHTMLSelectElement
 ;
 struct
 nsGenConInitializer
@@ -114,9 +108,6 @@ nsGenericDOMDataNode
 ;
 class
 nsFrameConstructorState
-;
-class
-nsFrameConstructorSaveState
 ;
 namespace
 mozilla

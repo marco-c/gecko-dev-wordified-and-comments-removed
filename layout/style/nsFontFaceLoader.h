@@ -63,9 +63,6 @@ nsCSSRules
 h
 "
 class
-nsPresContext
-;
-class
 nsIPrincipal
 ;
 class

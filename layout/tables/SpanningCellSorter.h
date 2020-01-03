@@ -26,9 +26,6 @@ StackArena
 h
 "
 class
-nsIPresShell
-;
-class
 MOZ_STACK_CLASS
 SpanningCellSorter
 {

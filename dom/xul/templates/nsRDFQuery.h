@@ -55,6 +55,9 @@ NS_ITEMPLATERDFQUERY_IID
 }
 }
 class
+nsXULTemplateQueryProcessorRDF
+;
+class
 nsITemplateRDFQuery
 :
 public

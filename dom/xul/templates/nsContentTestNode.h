@@ -42,6 +42,9 @@ nsIDOMDocument
 h
 "
 class
+nsXULTemplateQueryProcessorRDF
+;
+class
 nsContentTestNode
 :
 public

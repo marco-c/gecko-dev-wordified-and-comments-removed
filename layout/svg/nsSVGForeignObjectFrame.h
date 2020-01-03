@@ -51,9 +51,6 @@ h
 class
 gfxContext
 ;
-class
-nsSVGOuterSVGFrame
-;
 typedef
 nsContainerFrame
 nsSVGForeignObjectFrameBase

@@ -35,9 +35,6 @@ class
 nsIContent
 ;
 class
-nsIContentIterator
-;
-class
 nsIDocument
 ;
 class
@@ -54,9 +51,6 @@ nsStyleContext
 ;
 class
 nsIURI
-;
-class
-nsString
 ;
 class
 nsIPresShell

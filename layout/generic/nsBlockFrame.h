@@ -66,9 +66,6 @@ nsBlockInFlowLineIterator
 class
 nsBulletFrame
 ;
-class
-nsFirstLineFrame
-;
 typedef
 nsContainerFrame
 nsBlockFrameSuper

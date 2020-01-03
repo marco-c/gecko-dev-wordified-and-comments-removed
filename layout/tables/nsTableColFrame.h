@@ -41,9 +41,6 @@ nsTArray
 .
 h
 "
-class
-nsTableCellFrame
-;
 enum
 nsTableColType
 {

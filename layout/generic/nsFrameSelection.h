@@ -108,9 +108,6 @@ h
 class
 nsRange
 ;
-class
-nsTableOuterFrame
-;
 #
 define
 NS_FRAME_SELECTION_IID

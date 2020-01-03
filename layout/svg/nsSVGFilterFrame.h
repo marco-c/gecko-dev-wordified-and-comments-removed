@@ -57,9 +57,6 @@ class
 nsStyleContext
 ;
 class
-nsSVGIntegerPair
-;
-class
 nsSVGLength2
 ;
 struct

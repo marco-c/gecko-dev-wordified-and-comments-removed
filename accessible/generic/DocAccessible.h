@@ -91,9 +91,6 @@ h
 class
 nsAccessiblePivot
 ;
-class
-nsIScrollableView
-;
 const
 uint32_t
 kDefaultCacheLength

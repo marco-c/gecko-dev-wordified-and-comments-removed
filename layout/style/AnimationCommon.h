@@ -165,9 +165,6 @@ nsIFrame
 class
 nsPresContext
 ;
-class
-nsStyleChangeList
-;
 namespace
 mozilla
 {

@@ -11,9 +11,6 @@ BaseAccessibles
 .
 h
 "
-class
-nsGenericHTMLElement
-;
 namespace
 mozilla
 {

@@ -329,9 +329,6 @@ DocAccessible
 }
 #
 endif
-class
-nsIWidget
-;
 struct
 nsArenaMemoryStats
 ;

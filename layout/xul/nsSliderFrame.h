@@ -56,9 +56,6 @@ nsIDOMEventListener
 h
 "
 class
-nsString
-;
-class
 nsITimer
 ;
 class

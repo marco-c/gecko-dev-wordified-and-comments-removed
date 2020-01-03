@@ -117,9 +117,6 @@ class
 nsIAtom
 ;
 class
-nsIScrollFrameInternal
-;
-class
 nsPresState
 ;
 class

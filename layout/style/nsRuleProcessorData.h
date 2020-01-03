@@ -90,9 +90,6 @@ GuardObjects
 h
 "
 class
-nsAttrValue
-;
-class
 nsIAtom
 ;
 class
@@ -100,9 +97,6 @@ nsIContent
 ;
 class
 nsICSSPseudoComparator
-;
-class
-nsIStyleSheet
 ;
 struct
 TreeMatchContext

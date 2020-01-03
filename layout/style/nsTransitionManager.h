@@ -67,9 +67,6 @@ nsPresContext
 class
 nsCSSPropertySet
 ;
-struct
-ElementDependentRuleProcessorData
-;
 namespace
 mozilla
 {

@@ -52,9 +52,6 @@ nsIScrollbarMediator
 class
 nsITimer
 ;
-class
-nsIAtom
-;
 namespace
 mozilla
 {

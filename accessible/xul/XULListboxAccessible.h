@@ -53,9 +53,6 @@ XULSelectControlAccessible
 .
 h
 "
-class
-nsIWeakReference
-;
 namespace
 mozilla
 {

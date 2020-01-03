@@ -24,9 +24,6 @@ class
 nsPresContext
 ;
 class
-nsIWidget
-;
-class
 nsViewManager
 ;
 #

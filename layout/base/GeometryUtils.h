@@ -30,9 +30,6 @@ h
 class
 nsINode
 ;
-class
-nsIDocument
-;
 namespace
 mozilla
 {

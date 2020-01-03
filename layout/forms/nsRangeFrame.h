@@ -60,9 +60,6 @@ nsCOMPtr
 h
 "
 class
-nsBaseContentList
-;
-class
 nsDisplayRangeFocusRing
 ;
 class

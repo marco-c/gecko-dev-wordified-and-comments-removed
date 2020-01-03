@@ -74,12 +74,6 @@ KeyPress
 #
 endif
 class
-nsIDOMHTMLSelectElement
-;
-class
-nsIDOMHTMLOptionsCollection
-;
-class
 nsIComboboxControlFrame
 ;
 class

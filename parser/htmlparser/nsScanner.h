@@ -40,9 +40,6 @@ nsScannerString
 h
 "
 class
-nsParser
-;
-class
 nsReadEndCondition
 {
 public

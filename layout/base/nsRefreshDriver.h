@@ -103,9 +103,6 @@ nsIDocument
 class
 imgIRequest
 ;
-class
-nsIRunnable
-;
 namespace
 mozilla
 {

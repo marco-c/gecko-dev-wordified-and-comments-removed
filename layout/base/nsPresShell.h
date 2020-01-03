@@ -118,9 +118,6 @@ h
 class
 nsRange
 ;
-class
-nsIDragService
-;
 struct
 RangePaintInfo
 ;

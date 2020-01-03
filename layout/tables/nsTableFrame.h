@@ -100,9 +100,6 @@ class
 nsTableColFrame
 ;
 class
-nsColGroupFrame
-;
-class
 nsTableRowGroupFrame
 ;
 class
@@ -119,9 +116,6 @@ nsStyleContext
 ;
 struct
 nsTableReflowState
-;
-struct
-nsStylePosition
 ;
 struct
 BCPropertyData

@@ -66,9 +66,6 @@ TimeStamp
 h
 "
 class
-nsCSSKeyframesRule
-;
-class
 nsStyleContext
 ;
 namespace

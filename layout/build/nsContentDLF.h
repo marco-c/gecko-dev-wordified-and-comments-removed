@@ -25,12 +25,6 @@ class
 nsIContentViewer
 ;
 class
-nsIFile
-;
-class
-nsIInputStream
-;
-class
 nsILoadGroup
 ;
 class

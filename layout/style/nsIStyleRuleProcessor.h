@@ -31,9 +31,6 @@ struct
 RuleProcessorData
 ;
 struct
-ElementDependentRuleProcessorData
-;
-struct
 ElementRuleProcessorData
 ;
 struct

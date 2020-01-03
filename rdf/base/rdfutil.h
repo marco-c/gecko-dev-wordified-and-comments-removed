@@ -10,12 +10,6 @@ nsACString
 class
 nsCString
 ;
-class
-nsString
-;
-class
-nsIURI
-;
 nsresult
 rdf_MakeRelativeRef
 (

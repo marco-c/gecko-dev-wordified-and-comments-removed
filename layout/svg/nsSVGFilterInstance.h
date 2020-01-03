@@ -47,9 +47,6 @@ nsTArray
 h
 "
 class
-nsIFrame
-;
-class
 nsSVGFilterFrame
 ;
 struct

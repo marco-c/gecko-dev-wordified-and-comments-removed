@@ -31,12 +31,6 @@ class
 nsPresContext
 ;
 class
-nsLineLayout
-;
-struct
-nsBlockHorizontalAlign
-;
-class
 nsBlockReflowContext
 {
 public

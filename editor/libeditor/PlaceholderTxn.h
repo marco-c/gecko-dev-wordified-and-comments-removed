@@ -60,9 +60,6 @@ nsAutoPtr
 .
 h
 "
-class
-nsHTMLEditor
-;
 namespace
 mozilla
 {

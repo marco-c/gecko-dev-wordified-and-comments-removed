@@ -36,9 +36,6 @@ nsCSSPropertySet
 class
 nsCSSValue
 ;
-struct
-nsCSSRect
-;
 class
 nsStyleCoord
 ;

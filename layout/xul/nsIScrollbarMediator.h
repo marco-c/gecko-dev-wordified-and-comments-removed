@@ -22,9 +22,6 @@ class
 nsScrollbarFrame
 ;
 class
-nsIDOMEventTarget
-;
-class
 nsIFrame
 ;
 class

@@ -407,9 +407,6 @@ _id
 struct
 nsBoxLayoutMetrics
 ;
-class
-nsDisplayBackgroundImage
-;
 struct
 nsRect
 ;

@@ -25,9 +25,6 @@ nsCOMPtr
 .
 h
 "
-class
-nsIHTMLContentSink
-;
 #
 ifdef
 _MSC_VER

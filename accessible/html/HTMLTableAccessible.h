@@ -26,9 +26,6 @@ TableCellAccessible
 h
 "
 class
-nsITableLayout
-;
-class
 nsITableCellLayout
 ;
 namespace

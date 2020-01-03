@@ -26,12 +26,6 @@ nsCOMPtr
 h
 "
 class
-nsGridRowGroupLayout
-;
-class
-nsGridRowLayout
-;
-class
 nsBoxLayoutState
 ;
 class

@@ -197,9 +197,6 @@ include
 algorithm
 >
 class
-nsIFormControlFrame
-;
-class
 nsPresContext
 ;
 class
@@ -326,9 +323,6 @@ layers
 {
 class
 Layer
-;
-class
-ClientLayerManager
 ;
 }
 }

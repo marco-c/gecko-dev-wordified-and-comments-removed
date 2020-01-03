@@ -38,9 +38,6 @@ class
 gfxContext
 ;
 class
-nsDisplayItem
-;
-class
 nsPresContext
 ;
 class

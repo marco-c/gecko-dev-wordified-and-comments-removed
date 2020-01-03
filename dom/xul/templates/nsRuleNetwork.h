@@ -66,9 +66,6 @@ class
 nsXULTemplateResultSetRDF
 ;
 class
-nsXULTemplateQueryProcessorRDF
-;
-class
 MemoryElement
 {
 protected
