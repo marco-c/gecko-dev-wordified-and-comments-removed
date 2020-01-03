@@ -3191,11 +3191,11 @@ mData
 (
 nullptr
 )
-mOffset
+mCapicity
 (
 0
 )
-mCapicity
+mOffset
 (
 0
 )
