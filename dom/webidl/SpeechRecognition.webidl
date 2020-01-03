@@ -226,6 +226,7 @@ speech
 interaction
 [
 Throws
+UnsafeInPrerendering
 ]
 void
 start

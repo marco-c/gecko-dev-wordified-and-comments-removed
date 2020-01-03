@@ -181,6 +181,9 @@ attribute
 boolean
 paused
 ;
+[
+UnsafeInPrerendering
+]
 void
 speak
 (
@@ -198,6 +201,9 @@ pause
 (
 )
 ;
+[
+UnsafeInPrerendering
+]
 void
 resume
 (
