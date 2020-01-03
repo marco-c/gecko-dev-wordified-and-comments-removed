@@ -8088,7 +8088,7 @@ ToRegister
 lir
 -
 >
-output
+getObjectLiteral
 (
 )
 )
