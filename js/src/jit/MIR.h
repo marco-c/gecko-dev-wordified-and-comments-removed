@@ -17536,10 +17536,6 @@ setGuard
 (
 )
 ;
-setMovable
-(
-)
-;
 setResultType
 (
 MIRType_None
