@@ -274,6 +274,11 @@ id
 "
 LanguagesDialogPane
 "
+class
+=
+"
+largeDialogContainer
+"
 onpaneload
 =
 "

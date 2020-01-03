@@ -271,6 +271,11 @@ id
 "
 FontsDialogPane
 "
+class
+=
+"
+largeDialogContainer
+"
 helpTopic
 =
 "

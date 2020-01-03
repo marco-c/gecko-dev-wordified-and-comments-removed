@@ -341,6 +341,14 @@ vbox
 class
 =
 "
+largeDialogContainer
+"
+>
+<
+vbox
+class
+=
+"
 contentPane
 "
 flex
@@ -730,6 +738,10 @@ treechildren
 <
 /
 tree
+>
+<
+/
+vbox
 >
 <
 /
