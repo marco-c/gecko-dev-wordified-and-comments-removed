@@ -876,6 +876,15 @@ tn
 kind
 !
 =
+JSTRY_FOR_OF
+&
+&
+tn
+-
+>
+kind
+!
+=
 JSTRY_LOOP
 )
 continue
