@@ -1097,6 +1097,7 @@ mScreenOrientation
 >
 GetLockOrientationPermission
 (
+false
 )
 )
 {

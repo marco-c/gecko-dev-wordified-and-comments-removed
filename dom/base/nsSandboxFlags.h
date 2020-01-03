@@ -74,5 +74,12 @@ SANDBOXED_AUXILIARY_NAVIGATION
 =
 0x200
 ;
+const
+unsigned
+long
+SANDBOXED_ORIENTATION_LOCK
+=
+0x400
+;
 #
 endif

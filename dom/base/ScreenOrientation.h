@@ -309,6 +309,8 @@ DispatchChangeEvent
 LockPermission
 GetLockOrientationPermission
 (
+bool
+aCheckSandbox
 )
 const
 ;

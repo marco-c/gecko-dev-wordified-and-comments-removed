@@ -365,6 +365,17 @@ allowfullscreen
 )
 GK_ATOM
 (
+alloworientationlock
+"
+allow
+-
+orientation
+-
+lock
+"
+)
+GK_ATOM
+(
 allowpointerlock
 "
 allow
