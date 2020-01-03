@@ -51,7 +51,7 @@ bin
 -
 dm_trans
 =
-sut
+SUT
 "
                 
 "
@@ -667,6 +667,16 @@ s
 "
 -
 -
+console
+-
+level
+=
+INFO
+"
+                
+"
+-
+-
 http
 -
 port
@@ -1040,8 +1050,6 @@ s
 -
 -
 robocop
--
-ini
 =
 mochitest
 /
