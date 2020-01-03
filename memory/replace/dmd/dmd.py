@@ -1997,6 +1997,11 @@ heapBlocks
 =
 0
     
+recordKeyPartCache
+=
+{
+}
+    
 for
 block
 in
@@ -2010,7 +2015,20 @@ traceKey
 )
 :
             
+if
+traceKey
+in
+recordKeyPartCache
+:
+                
 return
+recordKeyPartCache
+[
+traceKey
+]
+            
+recordKeyPart
+=
 str
 (
 map
@@ -2022,13 +2040,23 @@ frameTable
 [
 frameKey
 ]
-                           
+                                    
 traceTable
 [
 traceKey
 ]
 )
 )
+            
+recordKeyPartCache
+[
+traceKey
+]
+=
+recordKeyPart
+            
+return
+recordKeyPart
         
 allocatedAtTraceKey
 =
