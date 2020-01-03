@@ -18,10 +18,9 @@ performance
 ;
 const
 {
-sendProfilerCommand
 PMM_isProfilerActive
 PMM_stopProfiler
-PMM_loadFrameScripts
+PMM_loadProfilerScripts
 }
 =
 require
@@ -31,11 +30,9 @@ devtools
 /
 toolkit
 /
-performance
+shared
 /
-process
--
-communication
+profiler
 "
 )
 ;
@@ -100,7 +97,7 @@ connect
 (
 )
 ;
-PMM_loadFrameScripts
+PMM_loadProfilerScripts
 (
 gBrowser
 )
@@ -162,7 +159,7 @@ connect
 (
 )
 ;
-PMM_loadFrameScripts
+PMM_loadProfilerScripts
 (
 gBrowser
 )

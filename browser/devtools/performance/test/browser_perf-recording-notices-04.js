@@ -27,7 +27,7 @@ panel
 .
 panelWin
 ;
-PMM_loadFrameScripts
+PMM_loadProfilerScripts
 (
 gBrowser
 )

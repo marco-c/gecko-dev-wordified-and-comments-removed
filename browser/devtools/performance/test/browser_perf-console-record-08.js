@@ -177,9 +177,8 @@ spawnTest
 (
 )
 {
-PMM_loadFrameScripts
+loadFrameScripts
 (
-gBrowser
 )
 ;
 let
