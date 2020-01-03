@@ -513,6 +513,14 @@ overridden
 "
 )
 ;
+return
+gfx
+:
+:
+IntSize
+(
+)
+;
 }
 bool
 AddMaskEffect
