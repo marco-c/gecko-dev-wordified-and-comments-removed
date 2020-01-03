@@ -235,6 +235,13 @@ nsTArrayForwardDeclare
 h
 "
 #
+include
+"
+UnitTransforms
+.
+h
+"
+#
 if
 defined
 (
