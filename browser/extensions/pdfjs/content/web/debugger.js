@@ -819,13 +819,13 @@ mimeType
 )
 )
 ;
-}
 download
 .
 href
 =
 url
 ;
+}
 download
 .
 textContent
