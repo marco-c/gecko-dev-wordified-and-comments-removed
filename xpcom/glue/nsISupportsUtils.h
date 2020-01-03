@@ -72,13 +72,6 @@ NS_ADDREF_THIS
 AddRef
 (
 )
-extern
-"
-C
-+
-+
-"
-{
 template
 <
 class
@@ -104,7 +97,6 @@ AddRef
 (
 )
 ;
-}
 }
 }
 #
