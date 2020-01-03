@@ -98,6 +98,12 @@ Singleton
 (
 )
 ;
+static
+uint32_t
+NumberOfCores
+(
+)
+;
 void
 AsyncDecode
 (
@@ -176,6 +182,10 @@ StaticRefPtr
 DecodePool
 >
 sSingleton
+;
+static
+uint32_t
+sNumCores
 ;
 nsRefPtr
 <
