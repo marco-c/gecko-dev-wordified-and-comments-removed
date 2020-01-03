@@ -1353,9 +1353,19 @@ return
 }
 try
 {
+let
+setting
+=
+JSON
+.
+parse
+(
+aData
+)
+;
 if
 (
-aSubject
+setting
 .
 key
 =
@@ -1365,7 +1375,7 @@ SETTINGS_DEBUG_ENABLED
 {
 gLoggingEnabled
 =
-aSubject
+setting
 .
 value
 ;
@@ -1373,7 +1383,7 @@ value
 else
 if
 (
-aSubject
+setting
 .
 key
 =
@@ -1383,7 +1393,7 @@ SETTINGS_WIFI_ENABLED
 {
 gWifiScanningEnabled
 =
-aSubject
+setting
 .
 value
 ;
