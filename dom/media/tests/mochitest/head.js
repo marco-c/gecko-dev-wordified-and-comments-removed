@@ -768,6 +768,13 @@ test
 setTestOptions
 )
 ;
+SpecialPowers
+.
+exactGC
+(
+window
+)
+;
 }
 function
 run_test
