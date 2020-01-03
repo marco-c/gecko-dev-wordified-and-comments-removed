@@ -3375,6 +3375,11 @@ mScaleToResolution
 :
 1
 ;
+bool
+mIsLastChromeOnlyEscapeKeyConsumed
+:
+1
+;
 static
 bool
 sDisableNonTestMouseEvents
