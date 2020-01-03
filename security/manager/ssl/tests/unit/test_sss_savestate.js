@@ -783,6 +783,14 @@ includeSubdomains
 "
 )
 ;
+let
+sslStatus
+=
+new
+FakeSSLStatus
+(
+)
+;
 SSService
 .
 processHeader
@@ -799,6 +807,7 @@ uriIndex
 maxAge
 +
 includeSubdomains
+sslStatus
 0
 )
 ;

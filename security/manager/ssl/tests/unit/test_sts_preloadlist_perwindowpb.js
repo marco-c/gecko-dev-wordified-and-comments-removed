@@ -71,6 +71,14 @@ Observer
 (
 )
 ;
+var
+sslStatus
+=
+new
+FakeSSLStatus
+(
+)
+;
 function
 cleanup
 (
@@ -415,6 +423,7 @@ age
 =
 0
 "
+sslStatus
 0
 )
 ;
@@ -481,6 +490,7 @@ age
 =
 1000
 "
+sslStatus
 0
 )
 ;
@@ -579,6 +589,7 @@ age
 =
 0
 "
+sslStatus
 0
 )
 ;
@@ -671,6 +682,7 @@ age
 =
 0
 "
+sslStatus
 0
 )
 ;
@@ -787,6 +799,7 @@ age
 =
 1000
 "
+sslStatus
 0
 )
 ;
@@ -927,6 +940,7 @@ age
 =
 1
 "
+sslStatus
 0
 )
 ;
@@ -1080,6 +1094,7 @@ age
 =
 0
 "
+sslStatus
 IS_PRIVATE
 )
 ;
@@ -1150,6 +1165,7 @@ age
 =
 1000
 "
+sslStatus
 IS_PRIVATE
 )
 ;
@@ -1218,6 +1234,7 @@ age
 =
 0
 "
+sslStatus
 IS_PRIVATE
 )
 ;
@@ -1330,6 +1347,7 @@ age
 =
 1
 "
+sslStatus
 IS_PRIVATE
 )
 ;

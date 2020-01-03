@@ -173,6 +173,14 @@ com
 )
 )
 ;
+let
+sslStatus
+=
+new
+FakeSSLStatus
+(
+)
+;
 for
 (
 let
@@ -235,6 +243,7 @@ age
 =
 1000
 "
+sslStatus
 0
 )
 ;

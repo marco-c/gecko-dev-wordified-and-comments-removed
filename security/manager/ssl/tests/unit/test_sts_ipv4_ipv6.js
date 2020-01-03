@@ -6,6 +6,14 @@ v
 ip
 )
 {
+let
+sslStatus
+=
+new
+FakeSSLStatus
+(
+)
+;
 do_check_false
 (
 s
@@ -121,6 +129,7 @@ age
 ;
 includeSubdomains
 "
+sslStatus
 0
 parsedMaxAge
 parsedIncludeSubdomains

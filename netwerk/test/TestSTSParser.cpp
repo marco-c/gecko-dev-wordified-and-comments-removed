@@ -203,7 +203,7 @@ rv
 sss
 -
 >
-ProcessHeader
+UnsafeProcessHeader
 (
 nsISiteSecurityService
 :
@@ -373,7 +373,7 @@ rv
 sss
 -
 >
-ProcessHeader
+UnsafeProcessHeader
 (
 nsISiteSecurityService
 :
