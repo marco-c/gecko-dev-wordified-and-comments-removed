@@ -380,6 +380,11 @@ D
 (
 USER_INACTIVE
 )
+\
+D
+(
+XPCONNECT_SHUTDOWN
+)
 namespace
 gcreason
 {
