@@ -303,16 +303,6 @@ nsUpdateService
 js
 '
 ]
-EXTRA_JS_MODULES
-+
-=
-[
-'
-UpdaterHealthProvider
-.
-jsm
-'
-]
 JAR_MANIFESTS
 +
 =
