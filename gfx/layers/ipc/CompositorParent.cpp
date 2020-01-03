@@ -1083,6 +1083,11 @@ MOZ_WIDGET_GONK
 GeckoTouchDispatcher
 :
 :
+GetInstance
+(
+)
+-
+>
 SetCompositorVsyncObserver
 (
 this
@@ -1605,6 +1610,11 @@ MOZ_WIDGET_GONK
 GeckoTouchDispatcher
 :
 :
+GetInstance
+(
+)
+-
+>
 NotifyVsync
 (
 aVsyncTimestamp

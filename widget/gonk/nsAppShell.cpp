@@ -2167,8 +2167,10 @@ false
 {
 mTouchDispatcher
 =
-new
 GeckoTouchDispatcher
+:
+:
+GetInstance
 (
 )
 ;
