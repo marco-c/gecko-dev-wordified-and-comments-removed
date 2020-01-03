@@ -579,7 +579,7 @@ searchURL
 replaceUrl
 (
 "
-http
+https
 :
 /
 /
