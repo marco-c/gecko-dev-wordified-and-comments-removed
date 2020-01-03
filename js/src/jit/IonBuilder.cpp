@@ -3468,7 +3468,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -6488,7 +6488,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -9019,7 +9019,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -9068,7 +9068,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -9169,7 +9169,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -9785,7 +9785,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -38906,7 +38906,7 @@ script
 )
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )

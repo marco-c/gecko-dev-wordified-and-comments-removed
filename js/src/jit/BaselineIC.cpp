@@ -32186,7 +32186,7 @@ pc
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -32347,7 +32347,7 @@ pc
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )

@@ -116,15 +116,6 @@ include
 "
 vm
 /
-ScopeObject
-.
-h
-"
-#
-include
-"
-vm
-/
 TraceLogging
 .
 h
@@ -732,7 +723,10 @@ createTemplateObject
 (
 cx
 fun
-TenuredObject
+gc
+:
+:
+TenuredHeap
 )
 )
 ;
@@ -9033,7 +9027,7 @@ if
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -9230,7 +9224,7 @@ if
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
@@ -12862,7 +12856,7 @@ if
 script
 -
 >
-hasNonSyntacticScope
+hasPollutedGlobalScope
 (
 )
 )
