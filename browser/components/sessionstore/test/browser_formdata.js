@@ -1136,15 +1136,11 @@ promiseTabRestored
 tab
 )
 ;
-SyncHandlers
-.
-get
-(
-browser
-)
+TabState
 .
 flush
 (
+browser
 )
 ;
 (

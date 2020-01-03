@@ -88,15 +88,11 @@ promiseBrowserLoaded
 browser
 )
 ;
-SyncHandlers
-.
-get
-(
-browser
-)
+TabState
 .
 flush
 (
+browser
 )
 ;
 let
