@@ -356,11 +356,6 @@ WebGL2ContextSamplers
 cpp
 '
 '
-WebGL2ContextState
-.
-cpp
-'
-'
 WebGL2ContextSync
 .
 cpp
