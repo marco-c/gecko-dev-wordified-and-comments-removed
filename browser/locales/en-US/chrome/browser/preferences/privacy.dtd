@@ -204,7 +204,7 @@ history
 .
 accesskey
 "
-i
+H
 "
 >
 <
@@ -228,7 +228,7 @@ bookmarks
 .
 accesskey
 "
-d
+k
 "
 >
 <
@@ -253,7 +253,7 @@ openpage
 .
 accesskey
 "
-g
+O
 "
 >
 <
@@ -364,7 +364,7 @@ keepUntil
 .
 accesskey
 "
-K
+u
 "
 >
 <
