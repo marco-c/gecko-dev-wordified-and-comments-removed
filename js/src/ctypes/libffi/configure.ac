@@ -1386,6 +1386,13 @@ powerpc
 -
 openbsd
 *
+|
+powerpc
+-
+*
+-
+netbsd
+*
 )
 TARGET
 =
