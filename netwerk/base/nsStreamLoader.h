@@ -128,6 +128,12 @@ nsIRequest
 >
 mRequest
 ;
+nsCOMPtr
+<
+nsIRequestObserver
+>
+mRequestObserver
+;
 mozilla
 :
 :
