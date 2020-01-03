@@ -874,6 +874,16 @@ video
 avc
 "
 )
+|
+|
+!
+mPDM
+-
+>
+DecoderNeedsAVCC
+(
+aConfig
+)
 )
 {
 decoder
