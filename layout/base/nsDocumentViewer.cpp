@@ -3737,15 +3737,6 @@ BEFOREUNLOAD_DISABLED_PREFNAME
 )
 ;
 }
-if
-(
-sIsBeforeUnloadDisabled
-)
-{
-return
-NS_OK
-;
-}
 nsPIDOMWindow
 *
 window
@@ -3989,6 +3980,10 @@ text
 ;
 if
 (
+!
+sIsBeforeUnloadDisabled
+&
+&
 *
 aShouldPrompt
 &
