@@ -82,11 +82,11 @@ navigate
 "
 )
 ;
-content
-.
-location
-=
+navigateTo
+(
+toolbox
 URL_2
+)
 ;
 info
 (

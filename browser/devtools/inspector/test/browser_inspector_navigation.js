@@ -113,11 +113,12 @@ page
 "
 )
 ;
-content
-.
-location
-=
+yield
+navigateTo
+(
+toolbox
 TEST_URL_2
+)
 ;
 info
 (
