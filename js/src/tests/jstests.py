@@ -59,6 +59,7 @@ tests
 import
 TestCase
 TBPL_FLAGS
+TBPL_DEBUG_FLAGS
 from
 lib
 .
@@ -686,6 +687,42 @@ tbpl
 '
                           
 '
+tests
+.
+'
+)
+    
+harness_og
+.
+add_option
+(
+'
+-
+-
+tbpl
+-
+debug
+'
+action
+=
+'
+store_true
+'
+                          
+help
+=
+'
+Runs
+each
+test
+in
+some
+faster
+configurations
+'
+                          
+'
+tbpl
 tests
 .
 '
@@ -2334,6 +2371,10 @@ if
 options
 .
 tbpl
+or
+options
+.
+tbpl_debug
 :
         
 new_test_list
@@ -2344,6 +2385,12 @@ new_test_list
 flags_list
 =
 TBPL_FLAGS
+if
+options
+.
+tbpl
+else
+TBPL_DEBUG_FLAGS
         
 for
 test
