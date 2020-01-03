@@ -37646,6 +37646,12 @@ nsIRequest
 aRequest
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+mBlockNavigation
+)
+;
 nsresult
 rv
 =
