@@ -1,5 +1,3 @@
-from
-marionette_driver
 import
 errors
 import
