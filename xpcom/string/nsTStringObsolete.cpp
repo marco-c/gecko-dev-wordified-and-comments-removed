@@ -2253,11 +2253,7 @@ copy
 (
 mData
 oldData
-XPCOM_MAX
-(
 mLength
-newLength
-)
 )
 ;
 :
