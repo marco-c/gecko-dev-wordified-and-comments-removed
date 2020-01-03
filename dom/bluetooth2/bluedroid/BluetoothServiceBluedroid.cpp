@@ -6156,6 +6156,9 @@ if
 bonded
 &
 &
+aStatus
+=
+=
 STATUS_SUCCESS
 )
 {
