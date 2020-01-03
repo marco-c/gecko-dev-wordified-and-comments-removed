@@ -501,6 +501,15 @@ nsIDOMWindow
 aWindow
 )
 {
+if
+(
+PR_LOG_TEST
+(
+gSecureDocLog
+PR_LOG_DEBUG
+)
+)
+{
 nsCOMPtr
 <
 nsIDOMWindow
@@ -547,6 +556,7 @@ aWindow
 )
 )
 ;
+}
 if
 (
 !
