@@ -577,7 +577,6 @@ satisfied
 }
 }
 private
-static
 interface
 ChangeVerifier
 {
