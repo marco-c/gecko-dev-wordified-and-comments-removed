@@ -17365,7 +17365,6 @@ for
 certain
 margins
 .
-fails
 =
 =
 block
@@ -17384,10 +17383,6 @@ clear
 ref
 .
 html
-#
-Bug
-451791
-fails
 =
 =
 block
@@ -17406,9 +17401,6 @@ clear
 ref
 .
 html
-#
-Bug
-451791
 =
 =
 block
