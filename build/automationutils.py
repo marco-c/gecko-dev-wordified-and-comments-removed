@@ -4535,9 +4535,6 @@ malloc_
 __interceptor_malloc
 "
 "
-moz_malloc
-"
-"
 moz_xmalloc
 "
       
@@ -4554,9 +4551,6 @@ calloc_
 __interceptor_calloc
 "
 "
-moz_calloc
-"
-"
 moz_xcalloc
 "
       
@@ -4571,9 +4565,6 @@ realloc_
 "
 "
 __interceptor_realloc
-"
-"
-moz_realloc
 "
 "
 moz_xrealloc
