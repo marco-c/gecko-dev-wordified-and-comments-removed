@@ -2243,7 +2243,8 @@ runnable
 }
 }
 }
-bool
+JSObject
+*
 URL
 :
 :
@@ -2252,15 +2253,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-MutableHandle
-<
-JSObject
-*
->
-aReflector
 )
 {
 return
@@ -2271,7 +2263,6 @@ Wrap
 (
 aCx
 this
-aReflector
 )
 ;
 }

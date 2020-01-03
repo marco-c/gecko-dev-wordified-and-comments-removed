@@ -1387,7 +1387,8 @@ PeerConnectionImpl
 #
 ifdef
 MOZILLA_INTERNAL_API
-bool
+JSObject
+*
 PeerConnectionImpl
 :
 :
@@ -1396,15 +1397,6 @@ WrapObject
 JSContext
 *
 aCx
-JS
-:
-:
-MutableHandle
-<
-JSObject
-*
->
-aReflector
 )
 {
 return
@@ -1415,7 +1407,6 @@ Wrap
 (
 aCx
 this
-aReflector
 )
 ;
 }

@@ -535,9 +535,6 @@ HMD
 was
 configured
 with
-[
-NewObject
-]
 VRFieldOfView
 getCurrentEyeFieldOfView
 (
@@ -553,9 +550,6 @@ FOV
 per
 eye
 .
-[
-NewObject
-]
 VRFieldOfView
 getRecommendedEyeFieldOfView
 (
@@ -578,9 +572,6 @@ will
 look
 broken
 .
-[
-NewObject
-]
 VRFieldOfView
 getMaximumEyeFieldOfView
 (
@@ -842,9 +833,6 @@ null
 .
 *
 /
-[
-NewObject
-]
 VRPositionState
 getState
 (
