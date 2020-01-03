@@ -191,6 +191,10 @@ LaunchCompleteTask
 >
 (
 )
+bool
+aEnableSandbox
+=
+false
 )
 ;
 void

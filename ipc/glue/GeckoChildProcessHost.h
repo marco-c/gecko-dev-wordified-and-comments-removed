@@ -576,6 +576,9 @@ mAllowedFilesRead
 bool
 mEnableSandboxLogging
 ;
+bool
+mEnableNPAPISandbox
+;
 #
 if
 defined
