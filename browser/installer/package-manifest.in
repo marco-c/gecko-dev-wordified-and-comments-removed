@@ -1076,13 +1076,6 @@ RESPATH
 /
 components
 /
-dom_devicestorage
-.
-xpt
-RESPATH
-/
-components
-/
 dom_events
 .
 xpt
