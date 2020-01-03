@@ -10788,7 +10788,7 @@ if
 imgContainer
 )
 {
-nsIntSize
+CSSIntSize
 imageSize
 ;
 nsSize
