@@ -1743,8 +1743,6 @@ true
 ;
 }
 writeSuggestionPref
-:
-function
 (
 )
 {
@@ -1789,6 +1787,9 @@ bookmark
 "
 "
 openpage
+"
+"
+searches
 "
 ]
 .

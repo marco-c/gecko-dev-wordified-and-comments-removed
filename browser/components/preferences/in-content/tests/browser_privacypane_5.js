@@ -111,6 +111,13 @@ true
 test_locbar_suggestion_retention
 (
 "
+searches
+"
+true
+)
+test_locbar_suggestion_retention
+(
+"
 openpage
 "
 false
