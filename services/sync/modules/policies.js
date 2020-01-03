@@ -3525,6 +3525,11 @@ Sync
 .
 SyncMigration
 "
+"
+browserwindow
+.
+syncui
+"
 ]
 ;
 this
