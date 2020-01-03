@@ -1,11 +1,3 @@
-function
-runDrawWindowTests
-(
-win
-drawWindowFlags
-transparentBackground
-)
-{
 const
 CANVAS_WIDTH
 =
@@ -16,6 +8,14 @@ CANVAS_HEIGHT
 =
 100
 ;
+function
+runDrawWindowTests
+(
+win
+drawWindowFlags
+transparentBackground
+)
+{
 function
 make_canvas
 (
