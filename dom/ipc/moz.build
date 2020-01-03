@@ -717,6 +717,12 @@ sandbox
 '
 '
 /
+js
+/
+ipc
+'
+'
+/
 layout
 /
 base

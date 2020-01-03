@@ -363,6 +363,12 @@ xul
 /
 js
 /
+ipc
+'
+'
+/
+js
+/
 xpconnect
 /
 src

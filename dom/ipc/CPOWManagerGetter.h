@@ -11,7 +11,7 @@ namespace
 jsipc
 {
 class
-CPOWManager
+JavaScriptShared
 ;
 }
 namespace
@@ -29,7 +29,7 @@ mozilla
 jsipc
 :
 :
-CPOWManager
+JavaScriptShared
 *
 GetCPOWManager
 (
