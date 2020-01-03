@@ -357,6 +357,14 @@ mLoadFlags
 LOAD_REPLACE
 )
 ;
+newChannel
+-
+>
+SetLoadInfo
+(
+mLoadInfo
+)
+;
 if
 (
 mPrivateBrowsingOverriden
