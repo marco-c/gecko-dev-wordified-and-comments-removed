@@ -420,19 +420,14 @@ json
             
 super
 (
-                
 B2GMochitest
-                
 self
 )
 .
 buildTestPath
 (
-                
 options
-                
 testsToFilter
-                
 disabled
 =
 False
@@ -1188,6 +1183,18 @@ options
 None
 )
             
+manifestFile
+=
+options
+.
+manifestFile
+            
+options
+.
+manifestFile
+=
+None
+            
 self
 .
 buildURLOptions
@@ -1203,6 +1210,12 @@ MOZ_HIDE_RESULTS_TABLE
 '
 }
 )
+            
+options
+.
+manifestFile
+=
+manifestFile
             
 self
 .
@@ -2930,12 +2943,8 @@ finish
 (
 )
     
-sys
-.
-exit
-(
+return
 retVal
-)
 def
 run_desktop_mochitests
 (
@@ -3130,12 +3139,8 @@ finish
 (
 )
     
-sys
-.
-exit
-(
+return
 retVal
-)
 def
 main
 (
@@ -3167,6 +3172,7 @@ options
 desktop
 :
         
+return
 run_desktop_mochitests
 (
 options
@@ -3175,6 +3181,7 @@ options
 else
 :
         
+return
 run_remote_mochitests
 (
 options
@@ -3188,6 +3195,11 @@ __main__
 "
 :
     
+sys
+.
+exit
+(
 main
 (
+)
 )
