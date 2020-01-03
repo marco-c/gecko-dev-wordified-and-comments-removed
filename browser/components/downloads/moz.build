@@ -145,11 +145,6 @@ DownloadsStartup
 .
 js
 '
-'
-DownloadsUI
-.
-js
-'
 ]
 EXTRA_JS_MODULES
 +
