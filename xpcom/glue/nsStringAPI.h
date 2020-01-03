@@ -4623,6 +4623,7 @@ char16_t
 (
 aString
 )
+aLength
 )
 {
 }
