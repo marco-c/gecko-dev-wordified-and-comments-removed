@@ -1256,7 +1256,7 @@ ScreenToLayerScale
 ;
 mLastRootMetrics
 .
-mResolution
+mPresShellResolution
 =
 mLastRootMetrics
 .
@@ -2106,7 +2106,7 @@ ScreenToLayerScale
 ;
 metrics
 .
-mResolution
+mPresShellResolution
 =
 metrics
 .
@@ -2124,12 +2124,12 @@ SetResolution
 (
 metrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 metrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 )
@@ -4609,12 +4609,12 @@ SetResolution
 (
 mLastRootMetrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 mLastRootMetrics
 .
-mResolution
+mPresShellResolution
 .
 scale
 )
