@@ -7936,6 +7936,10 @@ mUsesRootEMUnits
 =
 false
 ;
+mUsesExChUnits
+=
+false
+;
 mUsesViewportUnits
 =
 false
