@@ -25,9 +25,7 @@ stringify
 (
 {
 "
-en
--
-US
+directory
 "
 :
 [
