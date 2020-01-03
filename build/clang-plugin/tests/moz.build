@@ -143,6 +143,11 @@ TestNANTestingExprC
 c
 '
 '
+TestNeedsNoVTableType
+.
+cpp
+'
+'
 TestNoAddRefReleaseOnReturn
 .
 cpp
