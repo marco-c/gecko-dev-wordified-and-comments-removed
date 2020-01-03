@@ -135,10 +135,11 @@ Sync
 ENTITY
 aboutAccountsConfig
 .
-manage
+syncPreferences
 .
 label
 "
-Manage
+Sync
+preferences
 "
 >
