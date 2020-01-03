@@ -1872,6 +1872,9 @@ type
 RuntimeTypes
 .
 WIFI
+prolongedConnection
+:
+true
 connect
 :
 function
