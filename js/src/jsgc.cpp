@@ -25795,6 +25795,15 @@ append
 zone
 )
 ;
+if
+(
+!
+zones
+.
+isEmpty
+(
+)
+)
 sweepBackgroundThings
 (
 zones
