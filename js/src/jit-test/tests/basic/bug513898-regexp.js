@@ -7,6 +7,10 @@ undefined
 .
 source
 '
+(
+?
+:
+)
 '
 )
 ;
@@ -53,6 +57,10 @@ undefined
 .
 source
 '
+(
+?
+:
+)
 '
 )
 ;

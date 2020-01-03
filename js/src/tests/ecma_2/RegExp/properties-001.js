@@ -43,6 +43,10 @@ AddRegExpCases
 new
 RegExp
 "
+(
+?
+:
+)
 "
 false
 false

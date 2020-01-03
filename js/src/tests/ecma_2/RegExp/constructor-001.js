@@ -105,6 +105,10 @@ RegExp
 source
 "
 "
+(
+?
+:
+)
 "
 re
 .
