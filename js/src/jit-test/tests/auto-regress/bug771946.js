@@ -1,6 +1,7 @@
+new
 Date
-.
-prototype
+(
+)
 .
 setFullYear
 (
