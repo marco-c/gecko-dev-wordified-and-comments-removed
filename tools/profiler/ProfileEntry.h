@@ -424,8 +424,7 @@ aThreadId
 ProfileBuffer
 (
 )
-{
-}
+;
 public
 :
 mozilla
