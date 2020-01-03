@@ -1008,6 +1008,12 @@ size_t
 nDynamicSlots
 )
 {
+AutoSuppressGCAnalysis
+suppress
+(
+cx
+)
+;
 UniqueSlots
 slots
 =
