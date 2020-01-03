@@ -3079,11 +3079,12 @@ counts
 .
 reduceRight
 (
-function
 (
 a
 b
 )
+=
+>
 a
 +
 b
