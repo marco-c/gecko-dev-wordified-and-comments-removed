@@ -13,12 +13,14 @@ a
 var
 s1
 =
+new
 Set
 (
 data
 )
 s2
 =
+new
 Set
 (
 data

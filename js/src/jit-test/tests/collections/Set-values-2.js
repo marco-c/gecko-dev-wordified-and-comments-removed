@@ -22,6 +22,7 @@ data
 var
 s
 =
+new
 Set
 (
 data

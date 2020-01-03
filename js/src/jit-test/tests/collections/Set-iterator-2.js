@@ -1,6 +1,7 @@
 var
 map
 =
+new
 Set
 (
 [

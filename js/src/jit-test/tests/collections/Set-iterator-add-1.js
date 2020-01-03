@@ -1,6 +1,7 @@
 var
 set
 =
+new
 Set
 (
 [

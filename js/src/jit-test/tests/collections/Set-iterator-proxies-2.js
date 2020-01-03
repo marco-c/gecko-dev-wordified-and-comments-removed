@@ -85,6 +85,7 @@ g
 eval
 (
 "
+new
 Set
 (
 [
@@ -115,8 +116,11 @@ x
 var
 next_fn
 =
+(
+new
 Set
 (
+)
 )
 [
 Symbol

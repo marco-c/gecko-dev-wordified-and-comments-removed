@@ -42,6 +42,7 @@ ws
 new
 WeakSet
 (
+new
 Set
 (
 list

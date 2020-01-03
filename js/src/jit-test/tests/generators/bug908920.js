@@ -27,6 +27,7 @@ yield
 )
 ;
 \
+new
 Set
 (
 x

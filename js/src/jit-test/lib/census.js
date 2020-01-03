@@ -270,6 +270,7 @@ object
 var
 unvisited
 =
+new
 Set
 (
 Object

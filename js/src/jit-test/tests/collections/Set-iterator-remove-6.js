@@ -12,6 +12,7 @@ js
 var
 set
 =
+new
 Set
 (
 )

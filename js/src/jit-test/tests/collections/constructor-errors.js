@@ -122,6 +122,7 @@ function
 (
 )
 {
+new
 Set
 (
 v

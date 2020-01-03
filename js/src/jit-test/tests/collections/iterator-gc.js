@@ -102,6 +102,7 @@ key
 ;
 test
 (
+new
 Set
 (
 [

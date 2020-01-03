@@ -78,6 +78,7 @@ iterator_fn
 .
 call
 (
+new
 Set
 (
 )
@@ -185,8 +186,11 @@ next_fn
 .
 call
 (
+(
+new
 Set
 (
+)
 )
 [
 Symbol

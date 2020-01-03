@@ -1,6 +1,7 @@
 var
 set
 =
+new
 Set
 (
 [
@@ -38,6 +39,7 @@ g
 =
 set
 (
+new
 Set
 (
 0xffffffff

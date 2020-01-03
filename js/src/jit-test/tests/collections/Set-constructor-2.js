@@ -1,6 +1,7 @@
 var
 s
 =
+new
 Set
 (
 [
@@ -28,6 +29,7 @@ false
 ;
 s
 =
+new
 Set
 (
 [
@@ -91,6 +93,7 @@ a
 ;
 s
 =
+new
 Set
 (
 a

@@ -12,6 +12,7 @@ js
 var
 s
 =
+new
 Set
 (
 )
@@ -42,6 +43,7 @@ undefined
 ;
 s
 =
+new
 Set
 (
 [
@@ -99,6 +101,7 @@ log
 ;
 s
 =
+new
 Set
 (
 [

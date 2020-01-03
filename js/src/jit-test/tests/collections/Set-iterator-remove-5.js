@@ -8,6 +8,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 var
 set
 =
+new
 Set
 (
 str

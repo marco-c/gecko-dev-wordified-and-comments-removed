@@ -141,6 +141,7 @@ for
 var
 x
 of
+new
 Set
 (
 Object
