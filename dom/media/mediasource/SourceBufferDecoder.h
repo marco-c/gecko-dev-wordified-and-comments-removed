@@ -208,6 +208,17 @@ MOZ_OVERRIDE
 ;
 virtual
 void
+FirstFrameLoaded
+(
+MediaInfo
+*
+aInfo
+)
+MOZ_FINAL
+MOZ_OVERRIDE
+;
+virtual
+void
 NotifyBytesConsumed
 (
 int64_t
