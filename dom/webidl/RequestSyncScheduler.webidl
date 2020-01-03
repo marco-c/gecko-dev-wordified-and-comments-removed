@@ -166,7 +166,7 @@ s
 )
 .
 dictionary
-RequestTask
+RequestTaskFull
 :
 RequestTaskParams
 {
@@ -269,7 +269,7 @@ Promise
 <
 sequence
 <
-RequestTask
+RequestTaskFull
 >
 >
 registrations
@@ -278,7 +278,7 @@ registrations
 ;
 Promise
 <
-RequestTask
+RequestTaskFull
 >
 registration
 (
