@@ -6910,9 +6910,6 @@ true
 }
 }
 ;
-#
-ifdef
-DEBUG
 PRThread
 *
 PRThreadFromThread
@@ -6955,8 +6952,6 @@ return
 result
 ;
 }
-#
-endif
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (

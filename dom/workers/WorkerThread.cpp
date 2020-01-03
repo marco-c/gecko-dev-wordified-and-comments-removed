@@ -90,9 +90,6 @@ size_t
 1024
 ;
 }
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
 WorkerThreadFriendKey
 :
 :
@@ -120,8 +117,6 @@ WorkerThreadFriendKey
 )
 ;
 }
-#
-endif
 class
 WorkerThread
 :
