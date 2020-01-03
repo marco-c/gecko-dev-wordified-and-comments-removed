@@ -873,6 +873,17 @@ n
 )
 ;
 }
+get
+dataDefaultServiceId
+(
+)
+{
+return
+this
+.
+_dataDefaultClientId
+;
+}
 getDataCallHandler
 :
 function
