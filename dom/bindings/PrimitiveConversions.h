@@ -33,6 +33,15 @@ h
 #
 include
 "
+js
+/
+Conversions
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions

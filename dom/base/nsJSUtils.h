@@ -30,6 +30,15 @@ h
 #
 include
 "
+js
+/
+Conversions
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

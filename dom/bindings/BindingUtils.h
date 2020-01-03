@@ -21,6 +21,15 @@ h
 #
 include
 "
+js
+/
+Conversions
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ArrayUtils
