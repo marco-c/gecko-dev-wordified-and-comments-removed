@@ -16839,6 +16839,8 @@ HandleObjectGroup
 group
 AllocatingBehaviour
 allocating
+bool
+convertDoubleElements
 )
 {
 NewObjectKind
@@ -16955,6 +16957,17 @@ arr
 setGroup
 (
 group
+)
+;
+if
+(
+convertDoubleElements
+)
+arr
+-
+>
+setShouldConvertDoubleElements
+(
 )
 ;
 if

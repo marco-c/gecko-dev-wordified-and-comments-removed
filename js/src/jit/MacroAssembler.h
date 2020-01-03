@@ -4697,6 +4697,10 @@ bool
 initContents
 =
 true
+bool
+convertDoubleElements
+=
+false
 )
 ;
 void
@@ -4733,6 +4737,10 @@ bool
 initContents
 =
 true
+bool
+convertDoubleElements
+=
+false
 )
 ;
 void
