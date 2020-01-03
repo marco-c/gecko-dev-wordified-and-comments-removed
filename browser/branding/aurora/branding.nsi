@@ -128,6 +128,14 @@ Edition
 "
 !
 define
+BrandShortName
+"
+Firefox
+Developer
+Edition
+"
+!
+define
 CompanyName
 "
 mozilla
