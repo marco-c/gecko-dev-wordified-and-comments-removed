@@ -3003,7 +3003,9 @@ displayPort
 (
 metrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -3017,7 +3019,9 @@ GetDisplayPort
 :
 metrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 )
 ;
 ScreenPoint
@@ -3982,7 +3986,9 @@ RoundedToInt
 (
 metrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -3996,7 +4002,9 @@ GetDisplayPort
 :
 metrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 )
 *
 geckoZoom

@@ -714,7 +714,9 @@ criticalDisplayPort
 (
 displayportMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 *
 displayportMetrics
 .
@@ -977,7 +979,9 @@ UseLowPrecisionBuffer
 !
 parentMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 .
 IsEmpty
 (

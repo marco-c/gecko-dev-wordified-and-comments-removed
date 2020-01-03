@@ -12042,7 +12042,9 @@ if
 !
 aLayerMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -12064,7 +12066,9 @@ darkgreen
 "
 aLayerMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 +
 aLayerMetrics
 .

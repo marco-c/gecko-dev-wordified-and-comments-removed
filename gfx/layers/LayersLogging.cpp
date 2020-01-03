@@ -1132,7 +1132,9 @@ AppendToString
 aStream
 m
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 "
 ]
 [

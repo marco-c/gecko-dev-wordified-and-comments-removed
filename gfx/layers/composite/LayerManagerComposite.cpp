@@ -4690,7 +4690,9 @@ if
 !
 metrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -4707,7 +4709,9 @@ GetDisplayportCoverage
 (
 metrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 transform
 screenRect
 )

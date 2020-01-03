@@ -3560,7 +3560,9 @@ aDrawingCritical
 !
 aMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 .
 IsEmpty
 (
@@ -3569,7 +3571,9 @@ IsEmpty
 ?
 aMetrics
 .
-mCriticalDisplayPort
+GetCriticalDisplayPort
+(
+)
 :
 aMetrics
 .
