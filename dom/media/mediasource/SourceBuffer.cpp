@@ -999,6 +999,13 @@ AbortUpdating
 )
 ;
 }
+mTrackBuffer
+-
+>
+ResetParserState
+(
+)
+;
 mAppendWindowStart
 =
 0
