@@ -1524,6 +1524,9 @@ internal
 error
 invalid
 call
+out
+of
+memory
 )
 "
 }
