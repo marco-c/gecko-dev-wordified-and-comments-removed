@@ -3755,6 +3755,11 @@ JSRuntime
 runtime
 )
 {
+MOZ_ASSERT
+(
+runtime
+)
+;
 return
 runtime
 -
