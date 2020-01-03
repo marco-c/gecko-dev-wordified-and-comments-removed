@@ -280,7 +280,11 @@ maxRoomCreationSize
 2
 defaultExpiresIn
 :
-5
+24
+*
+7
+*
+8
 _storeState
 :
 {
