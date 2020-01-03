@@ -418,7 +418,7 @@ failure
 "
         
 raise
-NotImplementedError
+NotImplementedErrors
     
 def
 GetRevision
@@ -5041,8 +5041,6 @@ StopIteration
 pass
             
 except
-Exception
-as
 e
 :
                 
@@ -5980,6 +5978,8 @@ system
 (
 "
 gzip
+-
+f
 %
 s
 "
