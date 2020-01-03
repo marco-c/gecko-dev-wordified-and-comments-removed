@@ -22,6 +22,13 @@ unistd
 h
 >
 #
+include
+<
+string
+.
+h
+>
+#
 if
 defined
 (
@@ -672,7 +679,7 @@ ClockTimeNs
 if
 defined
 (
-LINUX
+XP_LINUX
 )
 |
 |
