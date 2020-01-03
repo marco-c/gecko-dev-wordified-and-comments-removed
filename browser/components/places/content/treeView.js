@@ -1245,7 +1245,7 @@ getValue
 (
 document
 .
-documentURIObject
+documentURI
 uri
 "
 open
@@ -7068,7 +7068,7 @@ docURI
 =
 document
 .
-documentURIObject
+documentURI
 ;
 if
 (
