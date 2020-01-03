@@ -4638,7 +4638,7 @@ textColor
 >
 color
 /
-doorhanger_text
+placeholder_active_grey
 <
 /
 item
@@ -4697,7 +4697,7 @@ textColor
 >
 color
 /
-doorhanger_text
+placeholder_active_grey
 <
 /
 item
@@ -7046,8 +7046,9 @@ android
 textColor
 "
 >
-#
-ff222222
+color
+/
+placeholder_active_grey
 <
 /
 item
@@ -8355,7 +8356,7 @@ textColor
 >
 color
 /
-text_color_primary
+placeholder_active_grey
 <
 /
 item
@@ -9368,8 +9369,9 @@ android
 textColor
 "
 >
-#
-222222
+color
+/
+placeholder_active_grey
 <
 /
 item

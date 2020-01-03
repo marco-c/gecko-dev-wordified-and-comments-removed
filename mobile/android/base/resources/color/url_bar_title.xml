@@ -203,8 +203,9 @@ android
 color
 =
 "
-#
-FF222222
+color
+/
+placeholder_active_grey
 "
 /
 >
@@ -224,8 +225,9 @@ android
 color
 =
 "
-#
-FF222222
+color
+/
+placeholder_active_grey
 "
 /
 >

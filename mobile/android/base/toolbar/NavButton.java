@@ -338,7 +338,7 @@ R
 .
 color
 .
-new_tablet_highlight_pb
+placeholder_active_grey
 )
 )
 ;

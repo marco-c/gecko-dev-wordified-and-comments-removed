@@ -228,8 +228,9 @@ android
 textColor
 =
 "
-#
-222222
+color
+/
+placeholder_active_grey
 "
 android
 :

@@ -279,7 +279,7 @@ textColor
 "
 color
 /
-doorhanger_text
+placeholder_active_grey
 "
 android
 :
@@ -332,7 +332,7 @@ textColor
 "
 color
 /
-doorhanger_text
+placeholder_active_grey
 "
 android
 :
@@ -383,7 +383,7 @@ textColor
 "
 color
 /
-doorhanger_text
+placeholder_active_grey
 "
 android
 :
@@ -436,7 +436,7 @@ textColor
 "
 color
 /
-doorhanger_text
+placeholder_active_grey
 "
 android
 :
@@ -494,7 +494,7 @@ textColor
 "
 color
 /
-doorhanger_text
+placeholder_active_grey
 "
 android
 :
