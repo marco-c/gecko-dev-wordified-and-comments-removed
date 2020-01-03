@@ -180,7 +180,11 @@ final
 int
 MAXIMUM_INLINE_ELEMENTS
 =
-2
+R
+.
+integer
+.
+number_of_inline_share_devices
 ;
 private
 SendTabDeviceListArrayAdapter
