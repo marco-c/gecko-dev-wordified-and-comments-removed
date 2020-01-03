@@ -3673,6 +3673,7 @@ const
 ;
 public
 :
+virtual
 void
 runFromHelperThread
 (

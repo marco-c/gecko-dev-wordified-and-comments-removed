@@ -1985,6 +1985,9 @@ DEBUG
 bool
 ionCompiling
 ;
+bool
+gcSweeping
+;
 #
 endif
 unsigned
