@@ -1718,13 +1718,6 @@ cpp
 '
 vm
 /
-ForkJoin
-.
-cpp
-'
-'
-vm
-/
 ForOfIterator
 .
 cpp
@@ -1915,13 +1908,6 @@ cpp
 vm
 /
 Symbol
-.
-cpp
-'
-'
-vm
-/
-ThreadPool
 .
 cpp
 '
