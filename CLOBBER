@@ -195,10 +195,10 @@ any
 more
 .
 Bug
-1165422
--
-Updated
-the
-Android
-SDK
-versions
+1167064
+:
+Switch
+to
+bluetooth
+APIv2
+.
