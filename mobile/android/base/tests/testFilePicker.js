@@ -499,6 +499,11 @@ filepicker_save
 )
 {
 let
+failed
+=
+false
+;
+let
 fp
 =
 Cc
@@ -544,9 +549,14 @@ catch
 ex
 )
 {
+failed
+=
+true
+;
+}
 ok
 (
-true
+failed
 "
 Android
 does
@@ -558,7 +568,6 @@ modeSave
 "
 )
 ;
-}
 run_next_test
 (
 )
