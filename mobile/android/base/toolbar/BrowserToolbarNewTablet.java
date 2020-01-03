@@ -687,6 +687,13 @@ cancelEdit
 (
 )
 {
+if
+(
+isEditing
+(
+)
+)
+{
 stopEditingNewTablet
 (
 )
@@ -702,6 +709,7 @@ updateForwardButtonState
 forwardButtonState
 )
 ;
+}
 return
 super
 .
