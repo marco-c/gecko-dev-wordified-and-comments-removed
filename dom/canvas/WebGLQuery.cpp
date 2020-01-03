@@ -90,10 +90,6 @@ mType
 0
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mContext
 -
 >

@@ -123,10 +123,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 MobileConnectionArray
 :

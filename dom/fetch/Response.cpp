@@ -116,10 +116,6 @@ aOwner
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 Response
 :

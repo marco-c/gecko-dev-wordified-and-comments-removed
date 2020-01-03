@@ -60,10 +60,6 @@ AssertIsOnWorkerThread
 (
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 Performance
 :

@@ -829,10 +829,6 @@ window
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 Navigator
 :

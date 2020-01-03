@@ -102,10 +102,6 @@ WebGLContextBoundObject
 context
 )
 {
-SetIsDOMBinding
-(
-)
-;
 context
 -
 >

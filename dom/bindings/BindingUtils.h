@@ -12432,13 +12432,6 @@ aNative
 aCache
 -
 >
-SetIsDOMBinding
-(
-)
-;
-aCache
--
->
 SetWrapper
 (
 aGlobal

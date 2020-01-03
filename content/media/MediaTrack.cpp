@@ -127,10 +127,6 @@ BindToOwner
 aOwnerWindow
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 }
 }

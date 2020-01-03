@@ -86,10 +86,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *

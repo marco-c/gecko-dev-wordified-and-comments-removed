@@ -158,10 +158,6 @@ mGuard
 aGuard
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 explicit
 Headers

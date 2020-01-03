@@ -64,15 +64,6 @@ nsWrapperCache
 {
 public
 :
-CSSRuleList
-(
-)
-{
-SetIsDOMBinding
-(
-)
-;
-}
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ICSSRULELIST_IID

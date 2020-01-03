@@ -185,10 +185,6 @@ mViewportAnchorY
 100
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 TextTrackRegion

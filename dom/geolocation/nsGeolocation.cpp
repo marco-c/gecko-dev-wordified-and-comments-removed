@@ -889,10 +889,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 PositionError
 :
@@ -3908,10 +3904,6 @@ mLastWatchId
 0
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 Geolocation
 :

@@ -136,10 +136,6 @@ mContent
 aContent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 PLDHashOperator
 RemoveMapRef

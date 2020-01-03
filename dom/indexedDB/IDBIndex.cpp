@@ -253,10 +253,6 @@ MOZ_ASSERT
 aMetadata
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 IDBIndex
 :

@@ -2850,10 +2850,6 @@ mStyleSheet
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsMediaList
 :
@@ -4897,10 +4893,6 @@ this
 aCORSMode
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 CSSStyleSheet
 :
@@ -5034,10 +5026,6 @@ Clone
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 CSSStyleSheet
 :

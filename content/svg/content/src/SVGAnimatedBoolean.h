@@ -74,10 +74,6 @@ mSVGElement
 aSVGElement
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsSVGElement
 *

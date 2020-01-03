@@ -278,10 +278,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechSynthesis
 :

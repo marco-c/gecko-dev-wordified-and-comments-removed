@@ -87,10 +87,6 @@ mType
 aType
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsSVGElement
 *

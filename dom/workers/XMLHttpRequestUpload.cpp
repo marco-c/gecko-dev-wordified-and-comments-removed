@@ -39,10 +39,6 @@ mXHR
 aXHR
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 XMLHttpRequestUpload
 :

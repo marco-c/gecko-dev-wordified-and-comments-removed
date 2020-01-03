@@ -80,10 +80,6 @@ mSVGElement
 aSVGElement
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGAnimatedRect
 :

@@ -227,10 +227,6 @@ Preload
 (
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 DOMStorage
 :

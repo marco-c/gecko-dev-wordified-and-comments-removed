@@ -143,15 +143,6 @@ nsINodeList
 {
 public
 :
-nsBaseContentList
-(
-)
-{
-SetIsDOMBinding
-(
-)
-;
-}
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMNODELIST
 virtual

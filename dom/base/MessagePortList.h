@@ -116,10 +116,6 @@ mPorts
 aPorts
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsISupports
 *

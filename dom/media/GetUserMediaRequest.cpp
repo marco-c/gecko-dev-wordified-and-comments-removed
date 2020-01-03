@@ -116,10 +116,6 @@ mIsSecure
 aIsSecure
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (

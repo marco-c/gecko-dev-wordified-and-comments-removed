@@ -471,10 +471,6 @@ DOMEventTargetHelper
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 nsCOMPtr
 <
 nsIMobileConnectionService

@@ -237,10 +237,6 @@ WebGLImageDataStatus
 NoImageData
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mContext
 -
 >

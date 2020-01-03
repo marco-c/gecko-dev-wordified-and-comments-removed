@@ -109,10 +109,6 @@ mCompileStatus
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mContext
 -
 >

@@ -221,10 +221,6 @@ MOZ_ASSERT
 aOwner
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsCOMPtr
 <

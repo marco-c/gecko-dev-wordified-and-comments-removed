@@ -338,10 +338,6 @@ SetDOMStringToNull
 mResult
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMFileReader
 :

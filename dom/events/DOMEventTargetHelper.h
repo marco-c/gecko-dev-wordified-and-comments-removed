@@ -166,10 +166,6 @@ BindToOwner
 aWindow
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 explicit
 DOMEventTargetHelper
@@ -195,10 +191,6 @@ false
 BindToOwner
 (
 aOther
-)
-;
-SetIsDOMBinding
-(
 )
 ;
 }

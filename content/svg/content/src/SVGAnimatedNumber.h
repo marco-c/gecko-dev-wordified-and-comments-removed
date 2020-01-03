@@ -110,10 +110,6 @@ mSVGElement
 aSVGElement
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 virtual
 ~

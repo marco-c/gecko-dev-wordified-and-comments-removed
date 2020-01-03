@@ -486,10 +486,6 @@ AssertIsOnOwningThread
 (
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 IDBFactory
 :

@@ -768,10 +768,6 @@ MOZ_COUNT_CTOR
 FontFace
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 nsCOMPtr
 <
 nsIGlobalObject

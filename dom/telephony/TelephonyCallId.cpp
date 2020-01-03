@@ -61,10 +61,6 @@ mNamePresentation
 aNamePresentation
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 TelephonyCallId
 :

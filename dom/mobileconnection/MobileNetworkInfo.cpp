@@ -58,10 +58,6 @@ mWindow
 aWindow
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 MobileNetworkInfo
 :
@@ -111,10 +107,6 @@ mState
 aState
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 MobileNetworkInfo

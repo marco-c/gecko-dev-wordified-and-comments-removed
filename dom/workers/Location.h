@@ -142,10 +142,6 @@ MOZ_COUNT_CTOR
 WorkerLocation
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 ~
 WorkerLocation

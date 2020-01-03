@@ -95,10 +95,6 @@ MOZ_ASSERT
 mProvider
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *

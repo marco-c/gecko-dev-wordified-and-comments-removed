@@ -412,10 +412,6 @@ mIsBaseValue
 aIsBaseValue
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsSVGElement
 *

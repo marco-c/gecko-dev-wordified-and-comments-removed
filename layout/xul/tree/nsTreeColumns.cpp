@@ -1496,10 +1496,6 @@ mFirstColumn
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsTreeColumns
 :

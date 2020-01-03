@@ -86,10 +86,6 @@ mCorruptedFrames
 aCorruptedFrames
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLMediaElement
 *

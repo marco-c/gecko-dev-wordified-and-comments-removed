@@ -619,10 +619,6 @@ Data
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 HoldData
 (
 )

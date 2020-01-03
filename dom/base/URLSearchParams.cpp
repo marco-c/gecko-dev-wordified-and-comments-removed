@@ -63,10 +63,6 @@ URLSearchParams
 (
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 URLSearchParams
 :

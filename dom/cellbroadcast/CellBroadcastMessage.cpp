@@ -338,10 +338,6 @@ aCdmaServiceCategory
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *
@@ -470,10 +466,6 @@ aWarningType
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *

@@ -206,10 +206,6 @@ aInnerWindow
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsHistory
 :

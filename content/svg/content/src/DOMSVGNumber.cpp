@@ -361,10 +361,6 @@ DOMSVGNumber
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 DOMSVGNumber
 :
@@ -403,10 +399,6 @@ mValue
 0f
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 already_AddRefed
 <

@@ -100,10 +100,6 @@ MOZ_COUNT_CTOR
 WorkerNavigator
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 ~
 WorkerNavigator

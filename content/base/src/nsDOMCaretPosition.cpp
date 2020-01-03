@@ -66,10 +66,6 @@ mAnonymousContentNode
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMCaretPosition
 :

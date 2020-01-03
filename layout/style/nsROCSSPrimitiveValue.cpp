@@ -83,10 +83,6 @@ mAppUnits
 =
 0
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsROCSSPrimitiveValue
 :

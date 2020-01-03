@@ -69,15 +69,6 @@ nsWrapperCache
 {
 public
 :
-SVGIRect
-(
-)
-{
-SetIsDOMBinding
-(
-)
-;
-}
 virtual
 ~
 SVGIRect

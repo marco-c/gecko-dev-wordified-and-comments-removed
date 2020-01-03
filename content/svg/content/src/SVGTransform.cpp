@@ -393,10 +393,6 @@ mTransform
 nullptr
 )
 {
-SetIsDOMBinding
-(
-)
-;
 NS_ABORT_IF_FALSE
 (
 aList
@@ -456,10 +452,6 @@ nsSVGTransform
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGTransform
 :
@@ -493,10 +485,6 @@ aMatrix
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGTransform
 :
@@ -530,10 +518,6 @@ aTransform
 )
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGTransform
 :

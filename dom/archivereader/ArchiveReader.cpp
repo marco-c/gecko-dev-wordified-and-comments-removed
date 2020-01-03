@@ -255,10 +255,6 @@ MOZ_ASSERT
 aWindow
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 ArchiveReader
 :

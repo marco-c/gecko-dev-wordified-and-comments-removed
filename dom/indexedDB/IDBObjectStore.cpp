@@ -4000,10 +4000,6 @@ MOZ_ASSERT
 aSpec
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 IDBObjectStore
 :

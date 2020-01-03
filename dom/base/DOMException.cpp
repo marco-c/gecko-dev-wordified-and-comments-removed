@@ -814,10 +814,6 @@ mHoldingJSVal
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 if
 (
 !
@@ -2313,10 +2309,6 @@ mCode
 aCode
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 NS_IMETHODIMP
 DOMException

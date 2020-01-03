@@ -256,10 +256,6 @@ mType
 aType
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsRefPtr
 <

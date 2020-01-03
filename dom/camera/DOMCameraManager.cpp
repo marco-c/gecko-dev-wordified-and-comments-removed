@@ -278,10 +278,6 @@ MOZ_COUNT_CTOR
 nsDOMCameraManager
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMCameraManager
 :

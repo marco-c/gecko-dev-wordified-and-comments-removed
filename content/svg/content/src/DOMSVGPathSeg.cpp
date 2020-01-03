@@ -255,10 +255,6 @@ mIsAnimValItem
 aIsAnimValItem
 )
 {
-SetIsDOMBinding
-(
-)
-;
 NS_ABORT_IF_FALSE
 (
 aList
@@ -311,10 +307,6 @@ mIsAnimValItem
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 DOMSVGPathSeg

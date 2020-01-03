@@ -121,10 +121,6 @@ MOZ_ASSERT
 aOwner
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 Reset
 (
 )

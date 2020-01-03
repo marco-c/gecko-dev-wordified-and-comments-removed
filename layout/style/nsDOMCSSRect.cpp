@@ -63,10 +63,6 @@ mLeft
 aLeft
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMCSSRect
 :

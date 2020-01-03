@@ -500,10 +500,6 @@ initialized
 "
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 FMRadio
 :

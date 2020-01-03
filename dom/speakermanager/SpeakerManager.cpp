@@ -108,10 +108,6 @@ mVisible
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 SpeakerManagerService
 *
 service

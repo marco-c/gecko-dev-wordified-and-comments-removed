@@ -75,10 +75,6 @@ mUri
 aUri
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechSynthesisVoice
 :

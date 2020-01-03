@@ -90,10 +90,6 @@ mAttrAtom
 aAttrAtom
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMTokenList
 :

@@ -155,10 +155,6 @@ WebGLTextureFakeBlackStatus
 IncompleteTexture
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mContext
 -
 >

@@ -69,10 +69,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechGrammar
 :

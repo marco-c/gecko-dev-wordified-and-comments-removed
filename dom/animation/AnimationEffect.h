@@ -60,10 +60,6 @@ mAnimation
 aAnimation
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (

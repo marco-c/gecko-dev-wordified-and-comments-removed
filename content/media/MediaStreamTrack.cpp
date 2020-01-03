@@ -61,10 +61,6 @@ mEnabled
 true
 )
 {
-SetIsDOMBinding
-(
-)
-;
 memset
 (
 &

@@ -285,10 +285,6 @@ MOZ_ASSERT
 mScriptOwner
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 if
 (
 mScriptOwner

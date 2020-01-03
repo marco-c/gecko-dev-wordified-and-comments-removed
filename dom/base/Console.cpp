@@ -2450,10 +2450,6 @@ false
 ;
 }
 }
-SetIsDOMBinding
-(
-)
-;
 mozilla
 :
 :

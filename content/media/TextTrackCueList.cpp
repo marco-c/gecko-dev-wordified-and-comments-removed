@@ -189,10 +189,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 TextTrackCueList
 :

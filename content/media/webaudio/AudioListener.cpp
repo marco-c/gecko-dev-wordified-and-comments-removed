@@ -100,10 +100,6 @@ MOZ_ASSERT
 aContext
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 JSObject
 *

@@ -257,10 +257,6 @@ mIsConditionalProcessingAttribute
 aIsConditionalProcessingAttribute
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 ~
 DOMSVGStringList

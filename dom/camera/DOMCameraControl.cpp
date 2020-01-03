@@ -782,10 +782,6 @@ BindToOwner
 aWindow
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 nsRefPtr
 <
 DOMCameraConfiguration

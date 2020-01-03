@@ -213,10 +213,6 @@ HTMLSelectElement
 aSelect
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mSelect
 =
 aSelect

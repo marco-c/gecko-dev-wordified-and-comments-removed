@@ -122,10 +122,6 @@ mIsTranslatePoint
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 explicit
 nsISVGPoint
@@ -158,10 +154,6 @@ mIsTranslatePoint
 aIsTranslatePoint
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mPt
 .
 mX

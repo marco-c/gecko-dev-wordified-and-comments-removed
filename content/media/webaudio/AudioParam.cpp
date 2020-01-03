@@ -159,10 +159,6 @@ mDefaultValue
 aDefaultValue
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 AudioParam
 :

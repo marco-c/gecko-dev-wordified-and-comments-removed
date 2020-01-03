@@ -259,10 +259,6 @@ mAttribMaxNameLength
 0
 )
 {
-SetIsDOMBinding
-(
-)
-;
 mContext
 -
 >

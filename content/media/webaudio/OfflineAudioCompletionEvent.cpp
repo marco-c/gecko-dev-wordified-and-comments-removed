@@ -76,10 +76,6 @@ aPresContext
 aEvent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 OfflineAudioCompletionEvent
 :

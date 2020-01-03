@@ -526,10 +526,6 @@ mNotifiedOfMediaStreamGraphShutdown
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 DOMMediaStream
 :

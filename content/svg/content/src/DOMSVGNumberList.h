@@ -143,10 +143,6 @@ mAList
 aAList
 )
 {
-SetIsDOMBinding
-(
-)
-;
 InternalListLengthWillChange
 (
 aInternalList

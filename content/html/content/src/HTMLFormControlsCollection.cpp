@@ -259,10 +259,6 @@ HTMLFormElement
 FORM_CONTROL_LIST_HASHTABLE_LENGTH
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 HTMLFormControlsCollection
 :

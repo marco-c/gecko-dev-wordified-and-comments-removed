@@ -86,10 +86,6 @@ IsInnerWindow
 )
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 }
 BarProp
 :

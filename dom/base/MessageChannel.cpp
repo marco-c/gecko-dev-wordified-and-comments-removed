@@ -258,10 +258,6 @@ MOZ_COUNT_CTOR
 MessageChannel
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 mPort1
 =
 new

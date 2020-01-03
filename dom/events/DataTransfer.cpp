@@ -391,10 +391,6 @@ MOZ_ASSERT
 mParent
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 if
 (
 aEventType
@@ -571,10 +567,6 @@ aDragImageY
 MOZ_ASSERT
 (
 mParent
-)
-;
-SetIsDOMBinding
-(
 )
 ;
 NS_ASSERTION

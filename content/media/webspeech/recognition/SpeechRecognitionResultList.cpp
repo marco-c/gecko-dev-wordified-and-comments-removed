@@ -68,10 +68,6 @@ mParent
 aParent
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SpeechRecognitionResultList
 :

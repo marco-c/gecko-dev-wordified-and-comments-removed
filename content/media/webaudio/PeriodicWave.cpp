@@ -78,10 +78,6 @@ MOZ_ASSERT
 aContext
 )
 ;
-SetIsDOMBinding
-(
-)
-;
 MOZ_ASSERT
 (
 aLength

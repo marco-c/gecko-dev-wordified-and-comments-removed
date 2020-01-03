@@ -92011,33 +92011,6 @@ self
 if
 self
 .
-descriptor
-.
-wrapperCache
-:
-            
-setDOMBinding
-=
-"
-SetIsDOMBinding
-(
-)
-;
-\
-n
-"
-        
-else
-:
-            
-setDOMBinding
-=
-"
-"
-        
-if
-self
-.
 refcounted
 :
             
@@ -92062,8 +92035,6 @@ nativeType
                 
 {
                 
-%
-s
 }
                 
 {
@@ -92086,8 +92057,6 @@ nativeType
 "
 "
 )
-%
-setDOMBinding
         
 else
 :
@@ -94304,8 +94273,9 @@ that
 our
 ancestor
 has
+not
 called
-SetIsDOMBinding
+SetIsNotDOMBinding
 (
 )
                 
@@ -94441,17 +94411,6 @@ descriptor
 .
 name
 )
-            
-constructorBody
-=
-"
-SetIsDOMBinding
-(
-)
-;
-\
-n
-"
             
 extradefinitions
 =
@@ -94848,10 +94807,6 @@ public
 baseConstructors
 =
 baseConstructors
-            
-body
-=
-constructorBody
 )
         
 self
