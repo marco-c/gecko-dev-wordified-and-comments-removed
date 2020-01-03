@@ -2101,6 +2101,11 @@ aCreateSessionToken
 )
 )
 ;
+if
+(
+session
+)
+{
 session
 -
 >
@@ -2109,6 +2114,7 @@ SetSessionId
 aSessionId
 )
 ;
+}
 }
 void
 CDMProxy
