@@ -842,11 +842,6 @@ StateWatching
 .
 h
 '
-'
-TaskQueue
-.
-h
-'
 ]
 EXPORTS
 .
@@ -1208,11 +1203,6 @@ cpp
 '
 '
 StreamBuffer
-.
-cpp
-'
-'
-TaskQueue
 .
 cpp
 '

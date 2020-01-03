@@ -229,6 +229,11 @@ TaskDispatcher
 .
 h
 '
+'
+TaskQueue
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -301,6 +306,11 @@ cpp
 '
 '
 SharedThreadPool
+.
+cpp
+'
+'
+TaskQueue
 .
 cpp
 '
