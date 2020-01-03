@@ -2101,6 +2101,13 @@ mLayerManager
 =
 nullptr
 ;
+lts
+-
+>
+mParent
+=
+nullptr
+;
 }
 }
 mLayerManager
@@ -7563,6 +7570,11 @@ id
 mParent
 ;
 }
+if
+(
+parent
+)
+{
 parent
 -
 >
@@ -7571,6 +7583,7 @@ ForceComposite
 aLayerTree
 )
 ;
+}
 }
 bool
 CrossProcessCompositorParent
