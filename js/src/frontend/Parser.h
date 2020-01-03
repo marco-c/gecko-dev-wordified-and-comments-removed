@@ -1980,6 +1980,14 @@ yieldHandling
 )
 ;
 bool
+tryNewTarget
+(
+Node
+&
+newTarget
+)
+;
+bool
 checkAndMarkSuperScope
 (
 )

@@ -2140,6 +2140,14 @@ MNurseryObject
 ins
 )
 ;
+void
+visitNewTarget
+(
+MNewTarget
+*
+ins
+)
+;
 }
 ;
 }
