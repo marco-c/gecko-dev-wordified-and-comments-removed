@@ -126,11 +126,6 @@ MediaKeySession
 .
 h
 '
-'
-MediaKeySystemAccess
-.
-h
-'
 ]
 EXPORTS
 .
@@ -205,11 +200,6 @@ cpp
 '
 '
 MediaKeySession
-.
-cpp
-'
-'
-MediaKeySystemAccess
 .
 cpp
 '
