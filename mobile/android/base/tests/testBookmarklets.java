@@ -105,6 +105,9 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
+StringHelper
+.
+ROBOCOP_BLANK_PAGE_01_URL
 )
 ;
 enterUrl
