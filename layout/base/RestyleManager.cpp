@@ -6728,8 +6728,10 @@ mRebuildAllRestyleHint
 =
 aRestyleHint
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 mPresContext
@@ -6772,15 +6774,6 @@ presShell
 >
 GetViewManager
 (
-)
-;
-nsCOMPtr
-<
-nsIPresShell
->
-kungFuDeathGrip
-(
-presShell
 )
 ;
 presShell
