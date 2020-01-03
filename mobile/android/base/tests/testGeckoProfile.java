@@ -172,18 +172,18 @@ toString
 return
 ;
 }
-testProfileCreationDeletion
+checkProfileCreationDeletion
 (
 )
 ;
-testGuestProfile
+checkGuestProfile
 (
 )
 ;
 }
 private
 void
-testDefaultGetter
+checkDefaultGetter
 (
 )
 {
@@ -302,7 +302,7 @@ toString
 }
 private
 void
-testNamedGetter
+checkNamedGetter
 (
 String
 name
@@ -400,7 +400,7 @@ true
 }
 private
 void
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 String
 name
@@ -418,7 +418,7 @@ name
 )
 )
 {
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 name
 null
@@ -428,7 +428,7 @@ createBefore
 }
 else
 {
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 name
 name
@@ -443,7 +443,7 @@ createBefore
 }
 private
 void
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 String
 name
@@ -677,7 +677,7 @@ path
 }
 private
 void
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 String
 name
@@ -695,7 +695,7 @@ name
 )
 )
 {
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 name
 null
@@ -705,7 +705,7 @@ createBefore
 }
 else
 {
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 name
 new
@@ -725,7 +725,7 @@ createBefore
 }
 private
 void
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 String
 name
@@ -926,11 +926,11 @@ f
 }
 private
 void
-testProfileCreationDeletion
+checkProfileCreationDeletion
 (
 )
 {
-testDefaultGetter
+checkDefaultGetter
 (
 )
 ;
@@ -939,7 +939,7 @@ index
 =
 0
 ;
-testNamedGetter
+checkNamedGetter
 (
 TEST_PROFILE_NAME
 +
@@ -950,18 +950,18 @@ index
 )
 )
 ;
-testNamedGetter
+checkNamedGetter
 (
 "
 "
 )
 ;
-testNamedGetter
+checkNamedGetter
 (
 null
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -973,7 +973,7 @@ index
 true
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -985,7 +985,7 @@ index
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 TEST_PROFILE_NAME
@@ -1002,7 +1002,7 @@ _FORCED_DIR
 true
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 TEST_PROFILE_NAME
@@ -1019,7 +1019,7 @@ _FORCED_DIR
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1037,7 +1037,7 @@ _FORCED_DIR
 true
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1055,7 +1055,7 @@ _FORCED_DIR
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1068,7 +1068,7 @@ null
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1082,14 +1082,14 @@ index
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 null
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1097,7 +1097,7 @@ null
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 null
 "
@@ -1105,7 +1105,7 @@ null
 false
 )
 ;
-testNameAndPathGetter
+checkNameAndPathGetter
 (
 "
 "
@@ -1114,7 +1114,7 @@ testNameAndPathGetter
 false
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1126,7 +1126,7 @@ index
 true
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1138,7 +1138,7 @@ index
 false
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 null
 new
@@ -1160,7 +1160,7 @@ _FORCED_DIR
 true
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 null
 new
@@ -1182,7 +1182,7 @@ _FORCED_DIR
 false
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 "
 "
@@ -1205,7 +1205,7 @@ _FORCED_DIR
 true
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 "
 "
@@ -1228,7 +1228,7 @@ _FORCED_DIR
 false
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 TEST_PROFILE_NAME
 +
@@ -1241,7 +1241,7 @@ null
 false
 )
 ;
-testNameAndFileGetter
+checkNameAndFileGetter
 (
 null
 null
@@ -1251,7 +1251,7 @@ false
 }
 private
 void
-testGuestProfile
+checkGuestProfile
 (
 )
 {
