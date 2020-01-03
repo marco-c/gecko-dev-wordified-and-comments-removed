@@ -198,9 +198,6 @@ tests
 dromaeo_css
 "
 "
-dromaeo_dom
-"
-"
 kraken
 "
 "
@@ -222,9 +219,6 @@ tests
 [
 "
 dromaeo_css
-"
-"
-dromaeo_dom
 "
 "
 kraken
