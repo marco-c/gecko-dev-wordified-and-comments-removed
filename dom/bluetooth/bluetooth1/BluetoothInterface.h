@@ -2344,9 +2344,7 @@ const
 nsAString
 &
 aBdAddr
-const
-nsAString
-&
+BluetoothSspVariant
 aVariant
 bool
 aAccept
