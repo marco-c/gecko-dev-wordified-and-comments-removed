@@ -2057,11 +2057,11 @@ urllib2
 .
 urlopen
 (
-symbols_path
+symbols_url
 )
                 
 return
-symbols_path
+symbols_url
             
 except
 urllib2
