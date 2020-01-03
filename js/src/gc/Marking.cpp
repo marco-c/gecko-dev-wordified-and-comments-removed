@@ -4298,7 +4298,7 @@ if
 v
 -
 >
-isSingletonUnchecked
+isSingleton
 (
 )
 )
@@ -4339,7 +4339,7 @@ if
 v
 -
 >
-isGroupUnchecked
+isGroup
 (
 )
 )
