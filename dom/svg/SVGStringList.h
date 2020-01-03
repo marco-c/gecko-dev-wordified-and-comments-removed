@@ -297,6 +297,7 @@ InsertElementAt
 (
 aIndex
 aString
+fallible
 )
 )
 {

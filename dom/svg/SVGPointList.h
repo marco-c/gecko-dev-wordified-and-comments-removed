@@ -361,6 +361,7 @@ InsertElementAt
 (
 aIndex
 aPoint
+fallible
 )
 ;
 }

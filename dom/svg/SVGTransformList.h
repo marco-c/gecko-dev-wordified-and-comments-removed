@@ -306,6 +306,7 @@ InsertElementAt
 (
 aIndex
 aTransform
+fallible
 )
 ;
 }

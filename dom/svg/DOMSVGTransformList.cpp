@@ -1025,6 +1025,7 @@ domItem
 get
 (
 )
+fallible
 )
 )
 ;
@@ -1622,6 +1623,7 @@ InsertElementAt
 (
 aIndex
 nullptr
+fallible
 )
 )
 ;

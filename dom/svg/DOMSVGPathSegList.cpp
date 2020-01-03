@@ -1466,6 +1466,7 @@ get
 )
 internalIndex
 )
+fallible
 )
 )
 ;
@@ -2132,6 +2133,7 @@ ItemProxy
 nullptr
 aInternalIndex
 )
+fallible
 )
 )
 ;

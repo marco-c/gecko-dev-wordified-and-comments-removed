@@ -1254,6 +1254,7 @@ InsertElementAt
 (
 aIndex
 domItem
+fallible
 )
 )
 ;
@@ -1736,6 +1737,7 @@ InsertElementAt
 (
 aIndex
 nullptr
+fallible
 )
 )
 ;
