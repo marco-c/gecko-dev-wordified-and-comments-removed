@@ -2232,6 +2232,16 @@ AssertIsOnMainThread
 (
 )
 ;
+if
+(
+!
+mChannel
+)
+{
+return
+NS_OK
+;
+}
 #
 ifdef
 DEBUG
