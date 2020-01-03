@@ -396,6 +396,7 @@ mPromise
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 UnregisterCallback
 (
 Promise
