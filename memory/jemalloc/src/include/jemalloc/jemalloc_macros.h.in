@@ -195,6 +195,9 @@ s
 )
 )
 #
+ifndef
+JEMALLOC_EXPORT
+#
 define
 JEMALLOC_EXPORT
 JEMALLOC_ATTR
@@ -206,6 +209,8 @@ default
 "
 )
 )
+#
+endif
 #
 define
 JEMALLOC_ALIGNED
@@ -249,6 +254,9 @@ JEMALLOC_ATTR
 s
 )
 #
+ifndef
+JEMALLOC_EXPORT
+#
 ifdef
 DLLEXPORT
 #
@@ -267,6 +275,8 @@ __declspec
 (
 dllimport
 )
+#
+endif
 #
 endif
 #
