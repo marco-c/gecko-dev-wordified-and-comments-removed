@@ -98,9 +98,6 @@ SPHINX_PYTHON_PACKAGE_DIRS
 =
 [
 '
-codegen
-'
-'
 mach
 '
 '
