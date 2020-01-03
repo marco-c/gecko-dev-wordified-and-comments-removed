@@ -139,6 +139,7 @@ gecko
 workspace
 &
 &
+cd
 .
 /
 workspace
@@ -152,6 +153,13 @@ taskcluster
 scripts
 /
 builder
+&
+&
+buildbot_step
+'
+Build
+'
+.
 /
 build
 -
@@ -160,6 +168,8 @@ mulet
 linux
 .
 sh
+HOME
+/
 workspace
 extra
 :

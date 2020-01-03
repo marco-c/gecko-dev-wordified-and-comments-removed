@@ -94,6 +94,7 @@ gecko
 workspace
 &
 &
+cd
 .
 /
 workspace
@@ -107,6 +108,13 @@ taskcluster
 scripts
 /
 builder
+&
+&
+buildbot_step
+'
+Build
+'
+.
 /
 build
 -
@@ -115,6 +123,8 @@ b2g
 desktop
 .
 sh
+HOME
+/
 workspace
 extra
 :
