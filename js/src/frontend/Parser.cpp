@@ -23876,7 +23876,7 @@ isForDecl
 !
 handler
 .
-isName
+maybeName
 (
 lhsNode
 )
@@ -29515,7 +29515,7 @@ if
 (
 handler
 .
-isName
+maybeName
 (
 target
 )
@@ -30241,7 +30241,7 @@ name
 =
 handler
 .
-isName
+maybeName
 (
 node
 )
@@ -30335,7 +30335,7 @@ name
 =
 handler
 .
-isName
+maybeName
 (
 target
 )
@@ -30623,7 +30623,7 @@ if
 (
 handler
 .
-isName
+maybeName
 (
 target
 )
@@ -31010,7 +31010,7 @@ if
 (
 handler
 .
-isName
+maybeName
 (
 expr
 )
@@ -36913,13 +36913,13 @@ JSOP_CALL
 ;
 if
 (
-JSAtom
+PropertyName
 *
-atom
+name
 =
 handler
 .
-isName
+maybeName
 (
 lhs
 )
@@ -36933,7 +36933,7 @@ tt
 TOK_LP
 &
 &
-atom
+name
 =
 =
 context
