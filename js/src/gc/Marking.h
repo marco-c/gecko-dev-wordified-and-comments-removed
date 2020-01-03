@@ -603,14 +603,6 @@ PropertyName
 )
 DeclMarker
 (
-Symbol
-JS
-:
-:
-Symbol
-)
-DeclMarker
-(
 ObjectGroup
 ObjectGroup
 )

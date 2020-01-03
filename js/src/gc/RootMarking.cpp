@@ -517,7 +517,7 @@ JS
 :
 Symbol
 *
-MarkSymbolRoot
+TraceRoot
 >
 (
 trc
