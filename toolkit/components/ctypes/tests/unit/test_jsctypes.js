@@ -2256,7 +2256,7 @@ Int64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_class
@@ -2597,7 +2597,7 @@ toString
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -2635,7 +2635,7 @@ toSource
 )
 ;
 }
-Error
+TypeError
 )
 ;
 i
@@ -4297,7 +4297,7 @@ UInt64
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_class
@@ -4638,7 +4638,7 @@ toString
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -4676,7 +4676,7 @@ toSource
 )
 ;
 }
-Error
+TypeError
 )
 ;
 i
@@ -12490,7 +12490,7 @@ StructType
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -12512,7 +12512,7 @@ a
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -12986,7 +12986,7 @@ define
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -13005,7 +13005,7 @@ define
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -14224,7 +14224,7 @@ g_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 for
@@ -14437,7 +14437,7 @@ addressOfField
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -14476,7 +14476,7 @@ a
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_eq
@@ -15388,7 +15388,7 @@ PointerType
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -15408,7 +15408,7 @@ int32_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -17042,7 +17042,7 @@ FunctionType
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -17097,7 +17097,7 @@ void_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -18316,7 +18316,7 @@ ArrayType
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -18354,7 +18354,7 @@ int32_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
@@ -18919,7 +18919,7 @@ a2_t
 )
 ;
 }
-Error
+TypeError
 )
 ;
 do_check_throws
