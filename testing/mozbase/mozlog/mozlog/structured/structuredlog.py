@@ -180,6 +180,8 @@ FAIL
 TIMEOUT
 |
 NOTRUN
+|
+SKIP
 ]
 -
 test
