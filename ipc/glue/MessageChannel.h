@@ -248,12 +248,6 @@ Close
 (
 )
 ;
-bool
-Connected
-(
-)
-const
-;
 void
 CloseWithError
 (
@@ -1034,6 +1028,12 @@ return
 mDispatchingSyncMessagePriority
 ;
 }
+bool
+Connected
+(
+)
+const
+;
 private
 :
 void
