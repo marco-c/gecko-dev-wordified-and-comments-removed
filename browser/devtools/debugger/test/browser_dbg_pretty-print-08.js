@@ -82,9 +82,6 @@ BP_LOCATION
 line
 :
 5
-column
-:
-11
 }
 ;
 function
