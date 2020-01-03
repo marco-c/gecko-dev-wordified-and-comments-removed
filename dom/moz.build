@@ -402,6 +402,9 @@ xul
 '
 resourcestats
 '
+'
+manifest
+'
 ]
 if
 CONFIG
