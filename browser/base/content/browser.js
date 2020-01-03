@@ -6813,7 +6813,7 @@ init
 endif
 LoopUI
 .
-initialize
+init
 (
 )
 ;
@@ -7600,6 +7600,12 @@ uninit
 )
 ;
 gBrowserThumbnails
+.
+uninit
+(
+)
+;
+LoopUI
 .
 uninit
 (
