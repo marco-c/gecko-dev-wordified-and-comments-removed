@@ -10965,7 +10965,16 @@ getter_AddRefs
 chan
 )
 mURI
-nullptr
+thisContent
+nsILoadInfo
+:
+:
+SEC_NORMAL
+nsIContentPolicy
+:
+:
+TYPE_OBJECT
+channelPolicy
 group
 shim
 nsIChannel
@@ -10977,7 +10986,6 @@ nsIChannel
 :
 :
 LOAD_CLASSIFY_URI
-channelPolicy
 )
 ;
 NS_ENSURE_SUCCESS

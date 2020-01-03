@@ -1415,7 +1415,16 @@ aRequest
 -
 >
 mURI
-nullptr
+mDocument
+nsILoadInfo
+:
+:
+SEC_NORMAL
+nsIContentPolicy
+:
+:
+TYPE_SCRIPT
+channelPolicy
 loadGroup
 prompter
 nsIRequest
@@ -1427,7 +1436,6 @@ nsIChannel
 :
 :
 LOAD_CLASSIFY_URI
-channelPolicy
 )
 ;
 NS_ENSURE_SUCCESS

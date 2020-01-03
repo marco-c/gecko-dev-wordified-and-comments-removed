@@ -70,6 +70,13 @@ h
 #
 include
 "
+nsWeakPtr
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
@@ -243,6 +250,9 @@ nsCOMPtr
 nsILoadGroup
 >
 mCallingChannelLoadGroup
+;
+nsWeakPtr
+mLoadingContext
 ;
 }
 ;

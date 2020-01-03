@@ -1189,6 +1189,15 @@ getter_AddRefs
 channel
 )
 aURI
+aLoaderPrincipal
+nsILoadInfo
+:
+:
+SEC_NORMAL
+nsIContentPolicy
+:
+:
+TYPE_OTHER
 nullptr
 aLoadGroup
 )
