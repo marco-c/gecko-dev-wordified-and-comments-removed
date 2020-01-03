@@ -555,6 +555,16 @@ aRect
 MOZ_OVERRIDE
 ;
 virtual
+gfx
+:
+:
+IntSize
+GetClientSize
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsIntPoint
 GetClientOffset
 (
