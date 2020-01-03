@@ -743,7 +743,7 @@ case
 CompositableType
 :
 :
-BUFFER_CONTENT_INC
+CONTENT_INC
 :
 result
 =
@@ -759,13 +759,7 @@ case
 CompositableType
 :
 :
-BUFFER_TILED
-:
-case
-CompositableType
-:
-:
-BUFFER_SIMPLE_TILED
+CONTENT_TILED
 :
 result
 =

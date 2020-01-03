@@ -298,13 +298,13 @@ case
 CompositableType
 :
 :
-BUFFER_CONTENT_INC
+CONTENT_INC
 :
 case
 CompositableType
 :
 :
-BUFFER_TILED
+CONTENT_TILED
 :
 case
 CompositableType
