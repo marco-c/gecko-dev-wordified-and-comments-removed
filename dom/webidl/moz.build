@@ -2670,6 +2670,11 @@ WifiOptions
 webidl
 '
 '
+WindowRoot
+.
+webidl
+'
+'
 Worker
 .
 webidl
