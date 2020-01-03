@@ -820,11 +820,6 @@ JSRuntime
 rt
 )
 ;
-template
-<
-typename
-T
->
 void
 UpdateJitActivationsForMinorGC
 (

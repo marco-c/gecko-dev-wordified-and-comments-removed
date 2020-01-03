@@ -4312,9 +4312,6 @@ jit
 :
 :
 UpdateJitActivationsForMinorGC
-<
-Nursery
->
 (
 &
 rt
