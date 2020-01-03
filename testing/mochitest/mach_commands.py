@@ -1530,6 +1530,17 @@ p
 relpath
 (
 )
+if
+os
+.
+path
+.
+isabs
+(
+p
+)
+else
+p
 for
 p
 in
