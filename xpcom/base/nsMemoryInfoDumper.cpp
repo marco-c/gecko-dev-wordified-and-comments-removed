@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 nsDumpUtils
 .
 h
@@ -771,7 +780,10 @@ SetupFifo
 )
 {
 static
+DebugOnly
+<
 bool
+>
 fifoCallbacksRegistered
 =
 false
