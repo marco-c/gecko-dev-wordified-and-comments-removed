@@ -16225,15 +16225,7 @@ Services
 .
 appinfo
 .
-accessibilityEnabled
-&
-&
-!
-Services
-.
-appinfo
-.
-accessibilityIsUIA
+accessibilityIsBlacklistedForE10S
 )
 {
 this
