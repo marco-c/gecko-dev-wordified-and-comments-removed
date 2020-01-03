@@ -6854,7 +6854,7 @@ operation_
 op
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type
 =
@@ -10096,7 +10096,7 @@ templateObject
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 templateObjectIsClassPrototype
 !
@@ -14332,7 +14332,7 @@ mode_
 mode
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -
@@ -21439,7 +21439,7 @@ setCommutative
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mode
 !

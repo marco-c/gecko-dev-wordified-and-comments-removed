@@ -1968,13 +1968,13 @@ pendingLazyEvaluation
 =
 pendingLazyEvaluation
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pendingLazyEvaluation
 lazySource
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pendingLazyEvaluation
 matchesInput

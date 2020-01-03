@@ -5533,7 +5533,7 @@ getJitInfo
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 jitInfo
 -
@@ -22416,7 +22416,7 @@ propertyType
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 (
 *

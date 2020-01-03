@@ -1048,7 +1048,7 @@ JSString
 str
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cx
 -
@@ -2960,7 +2960,7 @@ JSRuntimes
 "
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 parentRuntime
 !
@@ -9688,7 +9688,7 @@ size_t
 untrustedScriptStackSize
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 trustedScriptStackSize
 trustedScriptStackSize
@@ -9705,7 +9705,7 @@ trustedScriptStackSize
 =
 systemCodeStackSize
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 untrustedScriptStackSize
 untrustedScriptStackSize
@@ -11737,7 +11737,7 @@ proto
 parent
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 obj
 obj
@@ -15984,7 +15984,7 @@ propertyOp
 op
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ps
 -
@@ -26260,7 +26260,7 @@ JSID_TYPE_MASK
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cx
 JS_StringHasBeenInterned
@@ -26318,7 +26318,7 @@ str
 InternAtom
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 atom
 JS_StringHasBeenInterned
@@ -26400,7 +26400,7 @@ length
 InternAtom
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 atom
 JS_StringHasBeenInterned
@@ -26601,7 +26601,7 @@ length
 InternAtom
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 atom
 JS_StringHasBeenInterned

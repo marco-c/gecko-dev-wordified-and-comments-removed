@@ -356,7 +356,7 @@ other
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isMemoryOrEffectiveAddress
 (
@@ -380,7 +380,7 @@ reg
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 other
 .

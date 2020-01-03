@@ -55,7 +55,7 @@ allocator
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isJSContext
 (
@@ -2184,7 +2184,7 @@ defined
 (
 DEBUG
 )
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 rt
 -
@@ -2388,7 +2388,7 @@ zone
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 t
 &

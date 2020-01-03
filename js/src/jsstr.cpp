@@ -27447,7 +27447,7 @@ quote
 '
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 buffer
@@ -27457,7 +27457,7 @@ bufferSize
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fp
 !

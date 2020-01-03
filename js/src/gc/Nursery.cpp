@@ -589,7 +589,7 @@ isEnabled
 return
 true
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 runtime_
 -
@@ -2993,7 +2993,7 @@ TypedArrayObject
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 typedArray
 .

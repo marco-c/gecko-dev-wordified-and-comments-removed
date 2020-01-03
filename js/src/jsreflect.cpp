@@ -1872,7 +1872,7 @@ HandleValue
 v
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 v
 .
@@ -2775,7 +2775,7 @@ HandleValue
 val
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 val
 .
@@ -3964,7 +3964,7 @@ i
 ]
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 val
 .
@@ -10373,7 +10373,7 @@ pn
 >
 pn_expr
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pnright
 pn
@@ -10999,7 +10999,7 @@ PNK_EXPORT_FROM
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -11373,7 +11373,7 @@ MutableHandleValue
 dst
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -11709,7 +11709,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -11867,7 +11867,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -11890,7 +11890,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -12517,7 +12517,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -12882,7 +12882,7 @@ pn
 >
 pn_left
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 head
 -
@@ -12905,7 +12905,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 head
 -
@@ -12928,7 +12928,7 @@ pn_pos
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 head
 -
@@ -13492,7 +13492,7 @@ case
 PNK_RETURN
 :
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -16453,7 +16453,7 @@ case
 PNK_YIELD
 :
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -

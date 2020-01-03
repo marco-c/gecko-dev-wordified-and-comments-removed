@@ -1816,7 +1816,7 @@ PNX_FUNCDEFS
 }
 else
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pc
 -
@@ -2455,7 +2455,7 @@ TokenPos
 pos
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 expr
 pos

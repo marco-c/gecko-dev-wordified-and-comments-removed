@@ -541,7 +541,7 @@ inlineScriptTree_
 inlineScriptTree
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 osrPc
 JSOp

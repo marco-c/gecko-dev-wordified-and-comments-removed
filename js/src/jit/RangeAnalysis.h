@@ -496,7 +496,7 @@ lower_
 upper_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 hasInt32LowerBound_
@@ -506,7 +506,7 @@ lower_
 JSVAL_INT_MIN
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 hasInt32UpperBound_
@@ -536,7 +536,7 @@ max_exponent_
 IncludesInfinityAndNaN
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 hasInt32LowerBound_

@@ -113,7 +113,7 @@ marked
 false
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 memberOf
 memberOf
@@ -2255,7 +2255,7 @@ compartment
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 value
 .

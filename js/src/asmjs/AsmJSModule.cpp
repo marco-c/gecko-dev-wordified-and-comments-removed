@@ -1942,7 +1942,7 @@ updateOffsets
 masm
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 i
 >
@@ -5448,7 +5448,7 @@ PropertyName
 name
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 name
 !
@@ -9644,7 +9644,7 @@ entry
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 profilingEnabled_
 callee
@@ -9653,7 +9653,7 @@ callee
 profilingEntry
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 profilingEnabled_
@@ -9886,7 +9886,7 @@ entry
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 profilingEnabled_
 callee
@@ -9895,7 +9895,7 @@ callee
 profilingEntry
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 profilingEnabled_

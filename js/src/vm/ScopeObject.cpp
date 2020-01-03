@@ -730,7 +730,7 @@ HandleObject
 obj
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 obj
 -
@@ -1568,7 +1568,7 @@ isStrictEvalFrame
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 .
@@ -1590,7 +1590,7 @@ asInterpreterFrame
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 .
@@ -6322,7 +6322,7 @@ needsClone
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 hasScopeObject_
 cur_
@@ -6390,7 +6390,7 @@ hasScopeObject_
 =
 true
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type_
 =
@@ -11231,7 +11231,7 @@ compartment
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 si
 .
@@ -12992,7 +12992,7 @@ ScopeIter
 Block
 :
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 si
 .

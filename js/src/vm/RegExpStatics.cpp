@@ -235,7 +235,7 @@ JSContext
 cx
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cx
 -

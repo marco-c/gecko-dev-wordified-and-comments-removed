@@ -2483,7 +2483,7 @@ TypedObject
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IsAnyTypedArray
 (
@@ -2505,7 +2505,7 @@ get
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 arrobj
 -

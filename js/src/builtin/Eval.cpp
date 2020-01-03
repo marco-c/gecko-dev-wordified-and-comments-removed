@@ -1195,7 +1195,7 @@ INDIRECT_EVAL
 pc
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 evalType
 =
@@ -1348,7 +1348,7 @@ evalType
 DIRECT_EVAL
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 caller
 .
@@ -2490,7 +2490,7 @@ pc
 JSOP_SPREADEVAL
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 caller
 .

@@ -380,7 +380,7 @@ exclusiveThreadsPresent
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 needs
 canCollect
@@ -625,7 +625,7 @@ JSScript
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isGCSweeping
 (
@@ -772,7 +772,7 @@ toJSObjectRef
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isGCSweeping
 (
@@ -815,7 +815,7 @@ IsObjectAboutToBeFinalized
 dbgobj
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 dying
@@ -922,7 +922,7 @@ JSScript
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 script
 -

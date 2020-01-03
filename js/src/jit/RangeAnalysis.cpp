@@ -3451,7 +3451,7 @@ rhs
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 lhs
 -
@@ -3473,7 +3473,7 @@ upper
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 rhs
 -
@@ -3495,7 +3495,7 @@ upper
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 lhs
 -
@@ -3517,7 +3517,7 @@ lower
 1
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 rhs
 -
@@ -9150,7 +9150,7 @@ lessEqual
 lessEqual
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 rhs
 !
@@ -12510,7 +12510,7 @@ index
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 truncateOperands_
 isInt32Comparison

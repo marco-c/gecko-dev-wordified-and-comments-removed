@@ -2542,7 +2542,7 @@ false
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 allowPoisoned
@@ -2566,7 +2566,7 @@ allowPoisoned
 false
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 allowPoisoned

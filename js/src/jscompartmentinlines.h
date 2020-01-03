@@ -82,7 +82,7 @@ maybeGlobal
 )
 const
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 global_
 global_
@@ -243,7 +243,7 @@ HandleObject
 existing
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 existing
 vp
@@ -459,7 +459,7 @@ setObject
 obj
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cacheResult
 obj

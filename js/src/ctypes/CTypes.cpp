@@ -15710,7 +15710,7 @@ typeObj
 return
 nullptr
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IsSizeDefined
 (
@@ -28307,7 +28307,7 @@ false
 ;
 }
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 argTypes
 .
@@ -31742,7 +31742,7 @@ ownResult
 source
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 refObj
 &

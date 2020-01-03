@@ -1405,7 +1405,7 @@ attributes
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &
@@ -2990,7 +2990,7 @@ return
 false
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 attrs
 &
@@ -6795,7 +6795,7 @@ props
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 obj
 -
@@ -7655,7 +7655,7 @@ ArrayObject
 class_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 clasp
 =
@@ -7683,7 +7683,7 @@ JSFunction
 ExtendedFinalizeKind
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 parent
 &
@@ -8064,7 +8064,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .
@@ -11215,7 +11215,7 @@ NewObjectKind
 newKind
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 obj
 -
@@ -11820,7 +11820,7 @@ cx
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mode
 =
@@ -12762,7 +12762,7 @@ false
 ;
 }
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mode
 =
@@ -13109,7 +13109,7 @@ numFixedSlots
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 srcObj
 -
@@ -13331,7 +13331,7 @@ getDenseElement
 i
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 value
 .
@@ -14265,7 +14265,7 @@ type_
 =
 tmp
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 a
 -
@@ -16826,7 +16826,7 @@ newCount
 oldCount
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 obj
@@ -17090,7 +17090,7 @@ nullptr
 return
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 obj
@@ -20629,7 +20629,7 @@ toPrivateUint32
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 next
 !
@@ -20776,7 +20776,7 @@ table
 .
 freelist
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 last
 !
@@ -20808,7 +20808,7 @@ getClass
 slot
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 last
 !
@@ -25840,7 +25840,7 @@ slot
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 vp

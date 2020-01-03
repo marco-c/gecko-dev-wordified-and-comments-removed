@@ -653,7 +653,7 @@ empty
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isEvacuating_
 hugeSlots
@@ -2126,7 +2126,7 @@ obj
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 oldSlots
 !

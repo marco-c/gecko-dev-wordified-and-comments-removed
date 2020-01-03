@@ -171,7 +171,7 @@ char
 )
 src_
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 dst
 >
@@ -190,7 +190,7 @@ src
 len
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 src
 >

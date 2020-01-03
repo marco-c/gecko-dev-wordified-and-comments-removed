@@ -2803,7 +2803,7 @@ idx_
 +
 +
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 idx_
 =

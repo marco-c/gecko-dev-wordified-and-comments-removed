@@ -136,7 +136,7 @@ AbstractFramePtr
 frame
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 .
@@ -262,7 +262,7 @@ isSelfHostedBuiltin
 return
 true
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 .
@@ -1521,7 +1521,7 @@ pc
 JSOP_SETGNAME
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 *
 pc

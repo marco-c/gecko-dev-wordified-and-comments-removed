@@ -817,7 +817,7 @@ CodeGenerator
 (
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 gen
@@ -14839,7 +14839,7 @@ numStackArgs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 call
 -
@@ -40978,7 +40978,7 @@ level
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 HasIonScript
 (
@@ -51506,7 +51506,7 @@ index
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 index
 <

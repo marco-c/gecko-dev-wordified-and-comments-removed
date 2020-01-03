@@ -78,7 +78,7 @@ depth
 MAX_STACK_DEPTH
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 initialized
 stackDepth

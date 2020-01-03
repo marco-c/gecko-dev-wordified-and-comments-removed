@@ -2485,7 +2485,7 @@ snapshot
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frameClass_
 !
@@ -4459,7 +4459,7 @@ lhs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 rhs
 -
@@ -4681,7 +4681,7 @@ mir
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mul
 -
@@ -5253,7 +5253,7 @@ output
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 lhs
 !
@@ -5273,7 +5273,7 @@ rhs
 edx
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 output
 =
@@ -5645,7 +5645,7 @@ rhs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 lhsCopy
 .
@@ -6561,7 +6561,7 @@ mir
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 lhs
 !
@@ -7504,7 +7504,7 @@ rhs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 lhs
 !

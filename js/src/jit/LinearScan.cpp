@@ -3168,7 +3168,7 @@ def
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 def
 -
@@ -5721,7 +5721,7 @@ canonicalSpill
 )
 return
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mine
 -
@@ -5871,7 +5871,7 @@ vreg
 )
 ]
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 alloc
 -
@@ -9884,7 +9884,7 @@ start
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 prev
 -

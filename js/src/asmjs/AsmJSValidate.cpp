@@ -16279,7 +16279,7 @@ joinBlock
 return
 true
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 curBlock_
 thenBlocks
@@ -16688,7 +16688,7 @@ pn
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 curBlock_
 curBlock_
@@ -17093,7 +17093,7 @@ length
 1
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 afterLoop
 afterLoop
@@ -37079,7 +37079,7 @@ assertCurrentBlockIs
 thenBlock
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 f
@@ -37189,7 +37189,7 @@ assertCurrentBlockIs
 thenBlock
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 f

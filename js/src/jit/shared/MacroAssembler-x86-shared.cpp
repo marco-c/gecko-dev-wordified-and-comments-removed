@@ -71,7 +71,7 @@ simdSet
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 simdSet
 .
@@ -330,7 +330,7 @@ simdSet
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 simdSet
 .

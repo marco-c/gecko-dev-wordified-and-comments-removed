@@ -171,7 +171,7 @@ limit
 start
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 start
 <
@@ -183,7 +183,7 @@ start
 1
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 limit
 <

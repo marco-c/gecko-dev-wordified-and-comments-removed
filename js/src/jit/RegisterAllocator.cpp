@@ -835,7 +835,7 @@ outputs
 i
 ]
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 oldDef
 .
@@ -905,7 +905,7 @@ getTemp
 i
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 temp
@@ -945,7 +945,7 @@ temps
 i
 ]
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 oldTemp
 .
@@ -1167,7 +1167,7 @@ return
 false
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -

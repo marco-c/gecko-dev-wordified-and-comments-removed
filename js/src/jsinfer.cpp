@@ -6077,7 +6077,7 @@ compilerOutputs
 i
 ]
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 co
 .
@@ -7375,7 +7375,7 @@ baseObjectCount
 =
 0
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 empty
 type
@@ -7505,7 +7505,7 @@ freeze
 constraints
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 types
 -
@@ -9993,7 +9993,7 @@ false
 ;
 }
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 alwaysConvert
 maybeConvert
@@ -10911,7 +10911,7 @@ TypeObjectFlags
 initialFlags
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .
@@ -15550,7 +15550,7 @@ id
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 shape
 -
@@ -16375,7 +16375,7 @@ singleton
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 flags
 &
@@ -21460,7 +21460,7 @@ hasSingletonType
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .
@@ -22386,7 +22386,7 @@ JSFunction
 fun
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 !
@@ -22506,7 +22506,7 @@ JSFunction
 fun
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 proto
@@ -22516,7 +22516,7 @@ isObject
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .
@@ -23156,7 +23156,7 @@ TaggedProto
 proto
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 proto
 .

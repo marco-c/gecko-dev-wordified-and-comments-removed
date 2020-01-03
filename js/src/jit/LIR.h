@@ -1852,7 +1852,7 @@ type
 TYPE_SHIFT
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 SupportsSimd

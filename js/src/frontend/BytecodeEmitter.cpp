@@ -620,13 +620,13 @@ emitterMode
 emitterMode
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 evalCaller
 insideEval
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 emitterMode
 =
@@ -2065,7 +2065,7 @@ if
 nextpn
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 nextpn
 -
@@ -2155,7 +2155,7 @@ if
 nextpn
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 nextpn
 -
@@ -3765,7 +3765,7 @@ dn
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 bce
 -
@@ -4538,7 +4538,7 @@ bce
 staticScope
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 stmt
@@ -6274,7 +6274,7 @@ sc
 }
 else
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 bce
 -
@@ -6531,7 +6531,7 @@ bce
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -6582,7 +6582,7 @@ isDefn
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -6603,7 +6603,7 @@ level
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -7184,7 +7184,7 @@ Definition
 :
 CONST
 :
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 sc
 -
@@ -7956,7 +7956,7 @@ PNK_NAME
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn
 -
@@ -8661,7 +8661,7 @@ level
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 skip
 dn
@@ -18152,7 +18152,7 @@ continue
 break
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn2
 -
@@ -22242,7 +22242,7 @@ type
 STMT_SPREAD
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type
 =
@@ -22263,7 +22263,7 @@ PNK_FOROF
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 type
 =
@@ -24319,7 +24319,7 @@ function
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 -
@@ -24345,7 +24345,7 @@ pn_dflags
 PND_EMITTEDFUNCTION
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 -
@@ -24638,7 +24638,7 @@ setMightAliasLocals
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 outersc
 -
@@ -27639,7 +27639,7 @@ JSOP_SETRVAL
 :
 JSOP_POP
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn2
 -
@@ -28079,7 +28079,7 @@ if
 useful
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 pn2
 -

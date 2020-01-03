@@ -589,7 +589,7 @@ nfixedvars
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 !
@@ -634,7 +634,7 @@ numFormalArgs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 !
@@ -691,7 +691,7 @@ numActualArgs
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 !
@@ -705,7 +705,7 @@ argsObjAliasesFormals
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 checkAliasing
 &

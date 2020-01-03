@@ -1925,7 +1925,7 @@ apply
 ExecutionStatus
 status
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 IsBaselineEnabled

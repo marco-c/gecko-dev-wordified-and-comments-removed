@@ -2945,7 +2945,7 @@ isOsrArgumentsObject
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 def
 -
@@ -3026,7 +3026,7 @@ isParameter
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 def
 -
@@ -5619,7 +5619,7 @@ use
 +
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 use
 -
@@ -6448,7 +6448,7 @@ lastIns
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 successorWithPhis_
 successorWithPhis_

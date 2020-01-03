@@ -4101,7 +4101,7 @@ reg
 return
 true
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 interval
 -
@@ -7471,7 +7471,7 @@ def
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 def
 -

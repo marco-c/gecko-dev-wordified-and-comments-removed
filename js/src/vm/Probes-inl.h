@@ -198,7 +198,7 @@ maybeFun
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 fp

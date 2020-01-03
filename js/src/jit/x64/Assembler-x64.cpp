@@ -778,7 +778,7 @@ size
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 jumpRelocations_
 .

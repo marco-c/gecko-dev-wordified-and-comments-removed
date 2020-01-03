@@ -167,7 +167,7 @@ runtime
 >
 activeContext
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 activeContext
 cx
@@ -1286,7 +1286,7 @@ rval
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 alreadyThrowing
@@ -1376,7 +1376,7 @@ rval
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 alreadyThrowing
@@ -1464,7 +1464,7 @@ args
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 native
 !
@@ -1898,7 +1898,7 @@ unwrappedException_
 =
 v
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 v
 .
@@ -2075,7 +2075,7 @@ JSCompartment
 comp
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 isJSContext
@@ -2102,7 +2102,7 @@ zone
 usedByExclusiveThread
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 isJSContext
 (
@@ -2122,7 +2122,7 @@ zone
 usedByExclusiveThread
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 runtime_
 -
@@ -2139,7 +2139,7 @@ currentThreadHasExclusiveAccess
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 comp
 &
@@ -2167,7 +2167,7 @@ zone
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 compartment_
 compartment_
@@ -2178,7 +2178,7 @@ hasBeenEntered
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 comp
 comp

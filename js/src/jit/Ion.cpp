@@ -877,7 +877,7 @@ js_delete
 ionAlloc_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 jitcodeGlobalTable_
 jitcodeGlobalTable_
@@ -11015,7 +11015,7 @@ cx
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 osrPc
 !
@@ -11027,7 +11027,7 @@ osrPc
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 executionMode
 =
@@ -11041,7 +11041,7 @@ osrFrame
 osrPc
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 executionMode
 =
@@ -12608,7 +12608,7 @@ enterIon
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 data
 .
@@ -12752,7 +12752,7 @@ freeOsrTempData
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 data
 .
@@ -13490,7 +13490,7 @@ set
 result
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 result
 .
@@ -13570,7 +13570,7 @@ it
 frameno
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frameno
 =

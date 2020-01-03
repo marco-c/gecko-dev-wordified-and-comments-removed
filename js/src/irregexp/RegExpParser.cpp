@@ -3187,7 +3187,7 @@ ParseDisjunction
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 result
 !

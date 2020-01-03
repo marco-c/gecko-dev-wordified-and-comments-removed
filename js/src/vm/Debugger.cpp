@@ -1421,7 +1421,7 @@ Debugger
 (
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 debuggees
 .
@@ -4320,7 +4320,7 @@ MutableHandleValue
 value
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ok
 !
@@ -12647,7 +12647,7 @@ global
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 debugEnum
 debugEnum
@@ -12910,7 +12910,7 @@ fop
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 debuggees
 .
@@ -25607,7 +25607,7 @@ env
 frame
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 thisv
@@ -25838,14 +25838,14 @@ ScriptFrameIter
 iter
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 iter
 !
 scope
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 iter

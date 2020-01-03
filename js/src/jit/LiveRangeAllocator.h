@@ -505,7 +505,7 @@ pos
 pos
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 use
@@ -3086,7 +3086,7 @@ numRanges
 )
 continue
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 prev
 prev

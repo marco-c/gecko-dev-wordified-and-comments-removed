@@ -239,7 +239,7 @@ lock
 lock_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 size_
 &
@@ -1110,7 +1110,7 @@ bool
 copy
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 sp
 !
@@ -1128,7 +1128,7 @@ pc
 nullptr
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 sp
 =

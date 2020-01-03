@@ -367,7 +367,7 @@ numCompartments
 +
 +
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 options
 .
@@ -1094,7 +1094,7 @@ toGCThing
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 wrapped
 .
@@ -1112,7 +1112,7 @@ isString
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 wrapped
 .
@@ -1761,7 +1761,7 @@ compartment
 this
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 existingArg
 existingArg
@@ -1780,7 +1780,7 @@ compartment
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 existingArg
 IsDeadProxyObject
@@ -3561,7 +3561,7 @@ empty
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 callsiteClones
 .

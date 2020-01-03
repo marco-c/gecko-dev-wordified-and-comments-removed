@@ -10173,7 +10173,7 @@ loopDepth_
 -
 -
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 successor
 successor
@@ -13604,7 +13604,7 @@ back
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 (
 JSOp
@@ -18177,7 +18177,7 @@ current
 return
 ControlStatus_Error
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 caseIsNew
@@ -18482,7 +18482,7 @@ length
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 current
 pc
@@ -18522,7 +18522,7 @@ currentIdx
 +
 ]
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 current
 pc
@@ -23328,7 +23328,7 @@ numCases
 0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 callInfo
 .
@@ -23349,7 +23349,7 @@ hasUses
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 callInfo
 .
@@ -23908,7 +23908,7 @@ length
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 maybeCache
@@ -23922,7 +23922,7 @@ length
 2
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 maybeCache
 targets
@@ -27110,7 +27110,7 @@ return
 false
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 gotLambda
 originals
@@ -28072,7 +28072,7 @@ i
 -
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 target
 !
@@ -28385,7 +28385,7 @@ bool
 cloneAtCallsite
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 callInfo
 .
@@ -29534,7 +29534,7 @@ script
 pc
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 info
 (
@@ -32092,7 +32092,7 @@ getSlot
 i
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 needsArgsObj
@@ -37098,7 +37098,7 @@ getKnownPrototype
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 expectedClass
 IsTypedObjectClass

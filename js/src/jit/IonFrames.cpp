@@ -13171,7 +13171,7 @@ length
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 idx
 <

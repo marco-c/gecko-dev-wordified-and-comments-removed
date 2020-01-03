@@ -1862,7 +1862,7 @@ ptrdiff_t
 relpc
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 offset
 >
@@ -1872,7 +1872,7 @@ relpc
 offset
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 offset
 >

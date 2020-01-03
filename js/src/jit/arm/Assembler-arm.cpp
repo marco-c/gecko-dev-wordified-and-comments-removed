@@ -10473,7 +10473,7 @@ Condition
 c
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 vn
@@ -10489,7 +10489,7 @@ vn
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 vm
@@ -12486,7 +12486,7 @@ bool
 final
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 i
 -

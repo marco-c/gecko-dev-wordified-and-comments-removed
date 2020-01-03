@@ -498,7 +498,7 @@ value_
 =
 numZeros
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 index_
 <

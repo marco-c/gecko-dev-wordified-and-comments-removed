@@ -2427,7 +2427,7 @@ chunk
 *
 chunkp
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 chunk
 pool
@@ -2701,7 +2701,7 @@ maxEmptyChunkCount
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 shrinkBuffers
 chunkPool
@@ -2718,7 +2718,7 @@ minEmptyChunkCount
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 releaseAll
 chunkPool
@@ -9432,7 +9432,7 @@ dstObj
 srcObj
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 dstObj
 -
@@ -12008,7 +12008,7 @@ isEmpty
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cx
 -
@@ -12102,7 +12102,7 @@ gcTriggerBytes
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 cx
 -
@@ -13534,7 +13534,7 @@ return
 ;
 }
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 chunk
 -
@@ -15074,7 +15074,7 @@ begin
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 keepAtleastOne
 !
@@ -18486,7 +18486,7 @@ Cell
 )
 thing
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 bitmap
 -
@@ -18506,7 +18506,7 @@ BLACK
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 bitmap
@@ -19382,7 +19382,7 @@ isGCMarking
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 isIncremental
@@ -19691,7 +19691,7 @@ JSObject
 obj
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 IsGrayListObject
 (
@@ -19797,7 +19797,7 @@ toObjectOrNull
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 next
 IsGrayListObject
@@ -20076,7 +20076,7 @@ next
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 color
 =
@@ -20095,7 +20095,7 @@ isGCMarkingGray
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 color
 =
@@ -20114,7 +20114,7 @@ isGCMarkingBlack
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 c
 -
@@ -22659,7 +22659,7 @@ fop
 rt
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 lastGC
 !
@@ -23057,7 +23057,7 @@ FINALIZE_LIMIT
 i
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 IsBackgroundFinalized
@@ -23545,7 +23545,7 @@ Idle
 #
 ifdef
 JSGC_GENERATIONAL
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 heapState
 =
@@ -24634,7 +24634,7 @@ zealMode
 }
 #
 endif
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 incrementalState
 !
@@ -26029,7 +26029,7 @@ return
 ;
 #
 endif
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 incremental
@@ -26852,7 +26852,7 @@ reason
 nullptr
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 rt
@@ -26972,7 +26972,7 @@ cx
 )
 ;
 }
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 rt
@@ -28334,7 +28334,7 @@ JSScript
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 script
 -

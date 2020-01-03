@@ -662,7 +662,7 @@ uint32_t
 earlyCheck
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 earlyCheck
 !
@@ -4015,7 +4015,7 @@ isNonEvalFunctionFrame
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ok
 frame
@@ -4047,7 +4047,7 @@ isStrictEvalFrame
 )
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frame
 -
@@ -5591,7 +5591,7 @@ runtime
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 obj

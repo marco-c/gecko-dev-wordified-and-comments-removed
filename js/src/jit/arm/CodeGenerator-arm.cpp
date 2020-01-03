@@ -931,7 +931,7 @@ snapshot
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frameClass_
 !
@@ -1147,7 +1147,7 @@ snapshot
 return
 false
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 frameClass_
 !
@@ -2442,7 +2442,7 @@ mir
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mul
 -
@@ -12996,7 +12996,7 @@ isMod
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -
@@ -13015,7 +13015,7 @@ output
 r0
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 ins
 -

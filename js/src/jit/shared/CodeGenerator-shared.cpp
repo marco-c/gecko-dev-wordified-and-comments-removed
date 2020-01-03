@@ -736,7 +736,7 @@ setBytecodeSite
 site
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 gen
@@ -842,7 +842,7 @@ currentOffset
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 nativeToBytecodeList_
 .
@@ -3840,7 +3840,7 @@ i
 nativeToBytecodeTableOffset_
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 i
 >
@@ -4134,7 +4134,7 @@ LInstruction
 ins
 )
 {
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 !
 safepointIndices_
@@ -5317,7 +5317,7 @@ executionMode
 )
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 fun
 .
@@ -5382,7 +5382,7 @@ toInstruction
 (
 )
 ;
-JS_ASSERT_IF
+MOZ_ASSERT_IF
 (
 mir
 -
