@@ -1603,30 +1603,7 @@ Direct
 leak
 "
 )
-:
-            
-self
-.
-_finishStack
-(
-)
-            
-self
-.
-recordMoreFrames
-=
-True
-            
-self
-.
-currStack
-=
-[
-]
-            
-return
-        
-if
+or
 line
 .
 startswith
@@ -1648,7 +1625,14 @@ self
 .
 recordMoreFrames
 =
-False
+True
+            
+self
+.
+currStack
+=
+[
+]
             
 return
         
