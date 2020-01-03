@@ -7904,6 +7904,12 @@ shutdown
 (
 )
 ;
+fakeGenerateUUID
+(
+generateUUID
+generateUUID
+)
+;
 let
 data
 =
@@ -8270,6 +8276,12 @@ TelemetrySession
 .
 shutdown
 (
+)
+;
+fakeGenerateUUID
+(
+generateUUID
+generateUUID
 )
 ;
 let
