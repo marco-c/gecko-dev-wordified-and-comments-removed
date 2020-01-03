@@ -740,6 +740,11 @@ int32_t
 aType
 int32_t
 aSelectionType
+bool
+*
+aActionTaken
+=
+nullptr
 )
 ;
 bool
