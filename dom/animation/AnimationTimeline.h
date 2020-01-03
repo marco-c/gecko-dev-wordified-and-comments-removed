@@ -159,14 +159,14 @@ aTimelineTime
 )
 const
 ;
+protected
+:
 TimeStamp
 GetCurrentTimeStamp
 (
 )
 const
 ;
-protected
-:
 virtual
 ~
 AnimationTimeline
