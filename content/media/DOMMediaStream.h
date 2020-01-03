@@ -647,6 +647,7 @@ VideoTrackList
 aVideoTrackList
 )
 ;
+virtual
 void
 NotifyMediaStreamTrackCreated
 (
@@ -655,6 +656,7 @@ MediaStreamTrack
 aTrack
 )
 ;
+virtual
 void
 NotifyMediaStreamTrackEnded
 (
