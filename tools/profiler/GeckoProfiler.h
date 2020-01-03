@@ -428,14 +428,6 @@ nullptr
 static
 inline
 void
-profiler_print_location
-(
-)
-{
-}
-static
-inline
-void
 profiler_lock
 (
 )

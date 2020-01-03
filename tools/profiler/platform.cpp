@@ -4498,12 +4498,6 @@ frameNumber
 ;
 }
 void
-mozilla_sampler_print_location2
-(
-)
-{
-}
-void
 mozilla_sampler_lock
 (
 )
