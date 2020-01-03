@@ -104,6 +104,7 @@ interface
 nsIDOMElement
 ;
 [
+scriptable
 uuid
 (
 ce572460

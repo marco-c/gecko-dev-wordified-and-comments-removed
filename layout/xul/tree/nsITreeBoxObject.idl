@@ -119,6 +119,7 @@ interface
 nsIScriptableRegion
 ;
 [
+scriptable
 uuid
 (
 64BA5199
