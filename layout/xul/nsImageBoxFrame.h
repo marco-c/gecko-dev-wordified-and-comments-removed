@@ -527,9 +527,9 @@ ImageLayer
 *
 aLayer
 const
-nsIntPoint
+ContainerLayerParameters
 &
-aOffset
+aParameters
 )
 override
 ;

@@ -11004,8 +11004,6 @@ ConfigureLayer
 (
 imageLayer
 mParameters
-.
-mOffset
 )
 ;
 imageLayer

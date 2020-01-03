@@ -1350,7 +1350,7 @@ aBuilder
 )
 override
 ;
-gfxRect
+nsRect
 GetDestRect
 (
 )
@@ -1472,9 +1472,9 @@ ImageLayer
 *
 aLayer
 const
-nsIntPoint
+ContainerLayerParameters
 &
-aOffset
+aParameters
 )
 override
 ;
