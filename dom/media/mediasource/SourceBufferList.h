@@ -197,12 +197,15 @@ AnyUpdating
 )
 ;
 void
-RangeRemoval
+Remove
 (
 double
 aStart
 double
 aEnd
+ErrorResult
+&
+aRv
 )
 ;
 void
