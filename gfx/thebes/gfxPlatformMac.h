@@ -252,6 +252,13 @@ UseAcceleratedCanvas
 (
 )
 ;
+virtual
+bool
+UseTiling
+(
+)
+MOZ_OVERRIDE
+;
 uint32_t
 GetAntiAliasingThreshold
 (
