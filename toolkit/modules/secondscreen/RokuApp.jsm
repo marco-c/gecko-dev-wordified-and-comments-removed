@@ -822,6 +822,7 @@ callback
 win
 viewport
 mirrorStartedCallback
+contentWindow
 )
 {
 if
@@ -850,6 +851,7 @@ callback
 win
 viewport
 mirrorStartedCallback
+contentWindow
 )
 )
 ;
@@ -864,6 +866,7 @@ callback
 win
 viewport
 mirrorStartedCallback
+contentWindow
 )
 ;
 }
@@ -876,6 +879,7 @@ callback
 win
 viewport
 mirrorStartedCallback
+contentWindow
 )
 {
 if
@@ -1017,6 +1021,7 @@ resourceURL
 win
 viewport
 mirrorStartedCallback
+contentWindow
 )
 ;
 }
@@ -1653,6 +1658,7 @@ url
 win
 viewport
 mirrorStartedCallback
+contentWindow
 )
 {
 this
@@ -1692,12 +1698,6 @@ mirrorStartedCallback
 let
 windowId
 =
-win
-.
-BrowserApp
-.
-selectedBrowser
-.
 contentWindow
 .
 QueryInterface
