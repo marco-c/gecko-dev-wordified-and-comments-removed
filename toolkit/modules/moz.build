@@ -229,6 +229,11 @@ InlineSpellChecker
 jsm
 '
 '
+InlineSpellCheckerContent
+.
+jsm
+'
+'
 LoadContextInfo
 .
 jsm

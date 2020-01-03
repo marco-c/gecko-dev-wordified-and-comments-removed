@@ -1706,6 +1706,14 @@ GeoPosition
 somewhere
 )
 ;
+UpdateDictionaryList
+(
+nsString
+[
+]
+dictionaries
+)
+;
 /
 /
 nsIPermissionManager
@@ -2103,6 +2111,10 @@ returns
 (
 bool
 isOffline
+nsString
+[
+]
+dictionaries
 )
 ;
 sync

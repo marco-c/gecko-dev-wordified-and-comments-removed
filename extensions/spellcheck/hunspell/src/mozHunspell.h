@@ -170,6 +170,8 @@ Init
 void
 LoadDictionaryList
 (
+bool
+aNotifyChildProcesses
 )
 ;
 nsresult

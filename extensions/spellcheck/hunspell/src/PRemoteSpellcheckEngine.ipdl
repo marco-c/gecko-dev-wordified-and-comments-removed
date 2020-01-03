@@ -63,7 +63,7 @@ PContent
 namespace
 mozilla
 {
-rpc
+sync
 protocol
 PRemoteSpellcheckEngine
 {
@@ -76,7 +76,7 @@ __delete__
 (
 )
 ;
-rpc
+sync
 Check
 (
 nsString
@@ -88,7 +88,7 @@ bool
 aIsMisspelled
 )
 ;
-rpc
+sync
 CheckAndSuggest
 (
 nsString
@@ -104,7 +104,7 @@ nsString
 aSuggestions
 )
 ;
-rpc
+sync
 SetDictionary
 (
 nsString

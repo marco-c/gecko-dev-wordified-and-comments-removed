@@ -45,6 +45,7 @@ mozSpellChecker
 aOwner
 )
 ;
+virtual
 ~
 RemoteSpellcheckEngineChild
 (
