@@ -860,6 +860,9 @@ this
 newChannel2
 (
 aSource
+"
+"
+null
 aLoadingNode
 aLoadingPrincipal
 aTriggeringPrincipal
