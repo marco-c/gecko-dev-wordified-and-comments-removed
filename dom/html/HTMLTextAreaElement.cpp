@@ -5848,8 +5848,7 @@ eHTMLTextWrap_Off
 )
 {
 return
--
-1
+0
 ;
 }
 return

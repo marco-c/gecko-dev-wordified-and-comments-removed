@@ -30310,8 +30310,7 @@ GetWrapCols
 )
 {
 return
--
-1
+0
 ;
 }
 NS_IMETHODIMP_
