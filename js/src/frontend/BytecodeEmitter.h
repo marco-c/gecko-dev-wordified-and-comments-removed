@@ -608,6 +608,11 @@ hasSingletons
 1
 ;
 bool
+hasTryFinally
+:
+1
+;
+bool
 emittingForInit
 :
 1
