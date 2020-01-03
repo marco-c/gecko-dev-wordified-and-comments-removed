@@ -22298,7 +22298,8 @@ PresShell
 )
 )
 ;
-aSize
+int32_t
+pizelSize
 =
 nsPresContext
 :
@@ -22315,7 +22316,7 @@ newValue
 .
 AppendInt
 (
-aSize
+pizelSize
 )
 ;
 if
