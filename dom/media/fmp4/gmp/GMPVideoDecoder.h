@@ -257,6 +257,10 @@ mAdapter
 (
 aAdapter
 )
+mConvertNALUnitLengths
+(
+false
+)
 {
 }
 public
@@ -322,6 +326,10 @@ display_height
 )
 aImageContainer
 )
+)
+mConvertNALUnitLengths
+(
+false
 )
 {
 }
@@ -437,6 +445,9 @@ nsAutoPtr
 VideoCallbackAdapter
 >
 mAdapter
+;
+bool
+mConvertNALUnitLengths
 ;
 }
 ;
