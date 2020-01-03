@@ -3076,7 +3076,14 @@ ostream
 &
 stream
 const
+BaseRect
+<
+T
 Sub
+Point
+SizeT
+MarginT
+>
 &
 aRect
 )
