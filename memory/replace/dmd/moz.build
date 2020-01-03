@@ -244,11 +244,15 @@ OS_LIBS
 dbghelp
 '
 ]
-TEST_DIRS
+XPCSHELL_TESTS_MANIFESTS
 +
 =
 [
 '
 test
+/
+xpcshell
+.
+ini
 '
 ]
