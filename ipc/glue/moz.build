@@ -350,11 +350,15 @@ CONFIG
 OS_ARCH
 '
 ]
-=
-=
+in
+(
 '
 Linux
 '
+'
+Darwin
+'
+)
 :
 UNIFIED_SOURCES
 +
