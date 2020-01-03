@@ -2616,6 +2616,7 @@ mSoftTextOffset
 ;
 public
 :
+explicit
 FirstLargerOffset
 (
 int32_t
