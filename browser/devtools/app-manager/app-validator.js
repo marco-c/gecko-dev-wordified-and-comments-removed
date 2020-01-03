@@ -158,14 +158,23 @@ properties
 function
 AppValidator
 (
-project
+{
+type
+location
+}
 )
 {
 this
 .
-project
+type
 =
-project
+type
+;
+this
+.
+location
+=
+location
 ;
 this
 .
@@ -244,8 +253,6 @@ FileUtils
 File
 (
 this
-.
-project
 .
 location
 )
@@ -981,8 +988,6 @@ if
 (
 this
 .
-project
-.
 type
 =
 =
@@ -1018,8 +1023,6 @@ if
 (
 this
 .
-project
-.
 type
 =
 =
@@ -1031,8 +1034,6 @@ hosted
 manifestURL
 =
 this
-.
-project
 .
 location
 ;
@@ -1105,8 +1106,6 @@ invalidProjectType
 "
 [
 this
-.
-project
 .
 type
 ]
@@ -1257,8 +1256,6 @@ if
 (
 this
 .
-project
-.
 type
 =
 =
@@ -1305,8 +1302,6 @@ if
 (
 this
 .
-project
-.
 type
 =
 =
@@ -1323,8 +1318,6 @@ io
 newURI
 (
 this
-.
-project
 .
 location
 null
@@ -1453,8 +1446,6 @@ if
 (
 this
 .
-project
-.
 type
 =
 =
@@ -1488,8 +1479,6 @@ else
 if
 (
 this
-.
-project
 .
 type
 =
@@ -1880,8 +1869,6 @@ else
 if
 (
 this
-.
-project
 .
 type
 =

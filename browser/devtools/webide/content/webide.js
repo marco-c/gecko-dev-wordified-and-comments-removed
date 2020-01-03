@@ -1092,7 +1092,7 @@ tab
 {
 AppManager
 .
-validateProject
+validateAndUpdateProject
 (
 AppManager
 .
@@ -3571,7 +3571,7 @@ resource
 {
 AppManager
 .
-validateProject
+validateAndUpdateProject
 (
 AppManager
 .
@@ -4068,14 +4068,6 @@ e
 ;
 }
 }
-yield
-AppManager
-.
-validateProject
-(
-project
-)
-;
 AppManager
 .
 selectedProject
@@ -6589,14 +6581,6 @@ ret
 location
 )
 ;
-yield
-AppManager
-.
-validateProject
-(
-project
-)
-;
 AppManager
 .
 selectedProject
@@ -6966,7 +6950,7 @@ icon
 {
 AppManager
 .
-validateProject
+validateAndUpdateProject
 (
 project
 )

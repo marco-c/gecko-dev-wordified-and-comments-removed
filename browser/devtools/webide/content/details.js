@@ -1139,6 +1139,15 @@ li
 ;
 }
 }
+AppManager
+.
+update
+(
+"
+details
+"
+)
+;
 }
 function
 showPrepackageLog
