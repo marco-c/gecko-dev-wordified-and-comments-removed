@@ -12323,15 +12323,6 @@ ownerDocument
 ;
 if
 (
-!
-ownerDoc
-)
-{
-return
-;
-}
-if
-(
 gMultiProcessBrowser
 &
 &
@@ -16146,6 +16137,7 @@ function
 (
 engine
 source
+selection
 )
 {
 BrowserUITelemetry
@@ -16153,6 +16145,8 @@ BrowserUITelemetry
 countSearchEvent
 (
 source
+null
+selection
 )
 ;
 #
