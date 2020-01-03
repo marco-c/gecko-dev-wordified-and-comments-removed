@@ -332,6 +332,9 @@ linux
 x86_64
 .
 zip
+ccache
+-
+s
 #
 #
 #

@@ -343,6 +343,9 @@ target
 tests
 .
 zip
+ccache
+-
+s
 #
 #
 #

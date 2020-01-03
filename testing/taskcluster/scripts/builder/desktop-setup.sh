@@ -40,6 +40,12 @@ cd
 &
 pwd
 )
+.
+setup
+-
+ccache
+.
+sh
 #
 Gecko
 source
