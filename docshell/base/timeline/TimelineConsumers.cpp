@@ -368,7 +368,7 @@ void
 TimelineConsumers
 :
 :
-AddMarkerToDocShellsList
+AddMarkerForDocShellsList
 (
 Vector
 <
@@ -438,7 +438,7 @@ void
 TimelineConsumers
 :
 :
-AddMarkerToAllObservedDocShells
+AddMarkerForAllObservedDocShells
 (
 const
 char
@@ -469,7 +469,7 @@ docShells
 return
 ;
 }
-AddMarkerToDocShellsList
+AddMarkerForDocShellsList
 (
 docShells
 aName
