@@ -1755,6 +1755,12 @@ js
 ImmutableSymbolPtr
 iterator
 ;
+js
+:
+:
+ImmutableSymbolPtr
+match
+;
 const
 ImmutableSymbolPtr
 &

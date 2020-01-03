@@ -17294,6 +17294,7 @@ SymbolCode
 uint32_t
 {
 iterator
+match
 InSymbolRegistry
 =
 0xfffffffe
@@ -17306,7 +17307,7 @@ const
 size_t
 WellKnownSymbolLimit
 =
-1
+2
 ;
 JS_PUBLIC_API
 (
