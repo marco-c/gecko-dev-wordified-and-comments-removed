@@ -1673,8 +1673,10 @@ pageYOffset
 void
 scroll
 (
+unrestricted
 double
 x
+unrestricted
 double
 y
 optional
@@ -1685,8 +1687,10 @@ options
 void
 scrollTo
 (
+unrestricted
 double
 x
+unrestricted
 double
 y
 optional
@@ -1697,8 +1701,10 @@ options
 void
 scrollBy
 (
+unrestricted
 double
 x
+unrestricted
 double
 y
 optional
