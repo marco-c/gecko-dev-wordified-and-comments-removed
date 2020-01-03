@@ -2788,6 +2788,15 @@ Downloads
 <
 !
 ENTITY
+pref_private_data_syncedTabs
+"
+Synced
+tabs
+"
+>
+<
+!
+ENTITY
 pref_about_firefox
 "
 About
