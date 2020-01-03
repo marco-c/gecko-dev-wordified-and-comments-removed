@@ -547,6 +547,7 @@ cleanup
 (
 )
 {
+if
 [
 -
 n
@@ -554,10 +555,14 @@ n
 xvfb_pid
 "
 ]
-&
-&
+;
+then
 kill
 xvfb_pid
+|
+|
+true
+fi
 }
 trap
 cleanup
