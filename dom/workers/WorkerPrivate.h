@@ -261,6 +261,9 @@ class
 WorkerRunnable
 ;
 class
+WorkerStructuredCloneClosure
+;
+class
 WorkerThread
 ;
 class
@@ -1098,15 +1101,9 @@ JSAutoStructuredCloneBuffer
 &
 &
 aBuffer
-nsTArray
-<
-nsCOMPtr
-<
-nsISupports
->
->
+WorkerStructuredCloneClosure
 &
-aClonedObjects
+aClosure
 )
 ;
 void

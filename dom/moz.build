@@ -385,6 +385,9 @@ audiochannel
 broadcastchannel
 '
 '
+messagechannel
+'
+'
 promise
 '
 '

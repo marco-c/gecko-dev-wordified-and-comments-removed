@@ -90,6 +90,10 @@ PFileDescriptorSet
 ;
 include
 protocol
+PMessagePort
+;
+include
+protocol
 PMedia
 ;
 include
@@ -185,6 +189,9 @@ manages
 PFileDescriptorSet
 ;
 manages
+PMessagePort
+;
+manages
 PMedia
 ;
 manages
@@ -266,6 +273,16 @@ Namespace
 aNamespace
 PrincipalInfo
 aPrincipalInfo
+)
+;
+PMessagePort
+(
+nsID
+uuid
+nsID
+destinationUuid
+uint32_t
+sequenceId
 )
 ;
 child

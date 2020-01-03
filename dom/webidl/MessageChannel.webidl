@@ -136,6 +136,12 @@ MessageChannel
 :
 Enabled
 "
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 MessageChannel
