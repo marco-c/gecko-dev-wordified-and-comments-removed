@@ -4532,6 +4532,12 @@ Clear
 (
 )
 ;
+decoder
+.
+mInputExhausted
+=
+false
+;
 }
 void
 MediaFormatReader
@@ -4908,12 +4914,6 @@ return
 needInput
 =
 true
-;
-decoder
-.
-mInputExhausted
-=
-false
 ;
 LOGV
 (
