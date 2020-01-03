@@ -1097,10 +1097,9 @@ MIRType_Elements
 MIRType_Pointer
 MIRType_Shape
 MIRType_TypeObject
-MIRType_ForkJoinContext
 MIRType_Last
 =
-MIRType_ForkJoinContext
+MIRType_TypeObject
 MIRType_Float32x4
 =
 MIRType_Float32
@@ -1491,14 +1490,6 @@ MIRType_Pointer
 return
 "
 Pointer
-"
-;
-case
-MIRType_ForkJoinContext
-:
-return
-"
-ForkJoinContext
 "
 ;
 case

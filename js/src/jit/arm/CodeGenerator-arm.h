@@ -1344,14 +1344,6 @@ ins
 )
 ;
 void
-visitForkJoinGetSlice
-(
-LForkJoinGetSlice
-*
-ins
-)
-;
-void
 visitMemoryBarrier
 (
 LMemoryBarrier

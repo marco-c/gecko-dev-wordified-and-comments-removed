@@ -23789,7 +23789,6 @@ loadBaselineOrIonRaw
 (
 code
 code
-SequentialExecution
 nullptr
 )
 ;
@@ -23867,7 +23866,6 @@ jitRuntime
 >
 getArgumentsRectifier
 (
-SequentialExecution
 )
 ;
 masm
@@ -24926,7 +24924,6 @@ loadBaselineOrIonRaw
 (
 scratchReg
 scratchReg
-SequentialExecution
 popR1
 ?
 &
@@ -40712,7 +40709,6 @@ loadBaselineOrIonRaw
 (
 code
 code
-SequentialExecution
 &
 failureLeaveStubFrame
 )
@@ -40819,7 +40815,6 @@ jitRuntime
 >
 getArgumentsRectifier
 (
-SequentialExecution
 )
 ;
 masm
@@ -48105,7 +48100,6 @@ loadBaselineOrIonRaw
 (
 code
 code
-SequentialExecution
 &
 failureLeaveStubFrame
 )
@@ -48231,7 +48225,6 @@ jitRuntime
 >
 getArgumentsRectifier
 (
-SequentialExecution
 )
 ;
 masm
@@ -53838,7 +53831,6 @@ loadBaselineOrIonRaw
 (
 temp
 temp
-SequentialExecution
 failure
 )
 ;
@@ -55136,7 +55128,6 @@ loadBaselineOrIonRaw
 (
 callee
 code
-SequentialExecution
 &
 failure
 )
@@ -55549,7 +55540,6 @@ loadBaselineOrIonRaw
 (
 callee
 code
-SequentialExecution
 &
 failureLeaveStubFrame
 )
@@ -55732,7 +55722,6 @@ jitRuntime
 >
 getArgumentsRectifier
 (
-SequentialExecution
 )
 ;
 masm
@@ -57894,7 +57883,6 @@ loadBaselineOrIonRaw
 (
 target
 target
-SequentialExecution
 nullptr
 )
 ;
@@ -57951,7 +57939,6 @@ jitRuntime
 >
 getArgumentsRectifier
 (
-SequentialExecution
 )
 ;
 masm
@@ -58307,7 +58294,6 @@ loadBaselineOrIonRaw
 (
 target
 target
-SequentialExecution
 nullptr
 )
 ;
@@ -58364,7 +58350,6 @@ jitRuntime
 >
 getArgumentsRectifier
 (
-SequentialExecution
 )
 ;
 masm
@@ -58758,7 +58743,6 @@ loadBaselineOrIonRaw
 (
 callee
 code
-SequentialExecution
 &
 failure
 )
@@ -59006,7 +58990,6 @@ jitRuntime
 >
 getArgumentsRectifier
 (
-SequentialExecution
 )
 ;
 masm

@@ -85,15 +85,6 @@ VMFunctions
 .
 h
 "
-#
-include
-"
-vm
-/
-ForkJoin
-.
-h
-"
 namespace
 js
 {

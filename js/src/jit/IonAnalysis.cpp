@@ -11186,9 +11186,6 @@ case
 MIRType_TypeObject
 :
 case
-MIRType_ForkJoinContext
-:
-case
 MIRType_Float32x4
 :
 case

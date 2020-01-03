@@ -350,14 +350,6 @@ ins
 )
 ;
 void
-visitForkJoinGetSlice
-(
-MForkJoinGetSlice
-*
-ins
-)
-;
-void
 visitSimdBinaryArith
 (
 MSimdBinaryArith

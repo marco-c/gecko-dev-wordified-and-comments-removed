@@ -1276,14 +1276,6 @@ ool
 )
 ;
 void
-visitForkJoinGetSlice
-(
-LForkJoinGetSlice
-*
-ins
-)
-;
-void
 visitNegI
 (
 LNegI
