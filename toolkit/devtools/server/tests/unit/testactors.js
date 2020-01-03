@@ -501,13 +501,9 @@ window
 )
 {
 return
-{
-wrappedJSObject
-:
 this
 .
 _global
-}
 ;
 }
 get
