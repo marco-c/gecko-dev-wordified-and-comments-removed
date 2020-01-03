@@ -1557,6 +1557,14 @@ nsHTMLReflowState
 aReflowState
 )
 ;
+void
+SyncAnnotationContainersBounds
+(
+PerFrameData
+*
+aRubyFrame
+)
+;
 bool
 CanPlaceFrame
 (
