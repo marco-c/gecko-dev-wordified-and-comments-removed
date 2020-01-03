@@ -6046,6 +6046,13 @@ numReadThisTime
 0
 )
 {
+imgData
+.
+growByUninitialized
+(
+numReadThisTime
+)
+;
 imgSize
 +
 =
