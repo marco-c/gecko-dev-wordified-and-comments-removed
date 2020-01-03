@@ -388,9 +388,7 @@ ok
 (
 computed
 .
-classList
-.
-contains
+hasAttribute
 (
 "
 filter
