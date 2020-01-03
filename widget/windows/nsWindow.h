@@ -728,7 +728,10 @@ aIconSpec
 )
 ;
 virtual
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 WidgetToScreenOffset
 (
 )

@@ -5608,7 +5608,7 @@ tipText
 tooltipText
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 screenDot
 =
 widget
