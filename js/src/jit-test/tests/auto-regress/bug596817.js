@@ -9,7 +9,6 @@ js
 '
 )
 ;
-assertThrowsInstanceOf
 (
 function
 (
@@ -21,11 +20,6 @@ var
 [
 x
 ]
-=
-x
->
->
-x
 in
 [
 [
@@ -38,8 +32,10 @@ in
 {
 [
 ]
+;
 }
 }
-TypeError
+)
+(
 )
 ;

@@ -264,12 +264,7 @@ function
 (
 )
 {
-for
-(
-var
-[
 arguments
-]
 =
 (
 {
@@ -281,6 +276,13 @@ y
 }
 }
 )
+;
+for
+(
+var
+[
+arguments
+]
 in
 y
 )

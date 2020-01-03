@@ -35,8 +35,6 @@ var
 v
 c
 ]
-=
-0
 in
 this
 .

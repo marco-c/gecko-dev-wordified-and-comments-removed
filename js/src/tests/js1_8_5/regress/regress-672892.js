@@ -6,8 +6,6 @@ for
 (
 var
 b
-=
-0
 in
 0
 )
