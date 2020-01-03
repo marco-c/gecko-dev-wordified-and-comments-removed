@@ -223,6 +223,11 @@ ScriptedNotificationObserver
 cpp
 '
 '
+ShutdownTracker
+.
+cpp
+'
+'
 SurfaceCache
 .
 cpp
