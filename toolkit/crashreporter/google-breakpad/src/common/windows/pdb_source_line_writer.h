@@ -14,7 +14,7 @@ h
 #
 include
 <
-hash_map
+unordered_map
 >
 #
 include
@@ -40,10 +40,10 @@ std
 wstring
 ;
 using
-stdext
+std
 :
 :
-hash_map
+unordered_map
 ;
 struct
 PDBModuleInfo
@@ -263,7 +263,7 @@ DWORD
 id
 )
 {
-hash_map
+unordered_map
 <
 wstring
 DWORD
@@ -312,7 +312,7 @@ DWORD
 id
 )
 {
-hash_map
+unordered_map
 <
 DWORD
 DWORD
@@ -393,14 +393,14 @@ FILE
 *
 output_
 ;
-hash_map
+unordered_map
 <
 DWORD
 DWORD
 >
 file_ids_
 ;
-hash_map
+unordered_map
 <
 wstring
 DWORD
