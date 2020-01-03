@@ -124,11 +124,6 @@ GetDesc
 )
 const
 ;
-HANDLE
-GetShareHandle
-(
-)
-;
 gfx
 :
 :
@@ -210,6 +205,9 @@ mShareHandle
 ;
 D3DSURFACE_DESC
 mDesc
+;
+bool
+mValid
 ;
 }
 ;
