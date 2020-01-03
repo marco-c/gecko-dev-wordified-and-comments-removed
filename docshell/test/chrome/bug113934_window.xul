@@ -582,6 +582,18 @@ f3
 contentWindow
 )
 ;
+/
+/
+This
+test
+is
+broken
+-
+see
+bug
+1090274
+/
+/
 ok
 (
 !
@@ -594,6 +606,8 @@ true
 [
 0
 ]
+/
+/
 "
 Should
 look
