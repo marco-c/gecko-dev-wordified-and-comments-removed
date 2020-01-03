@@ -4096,7 +4096,14 @@ browserIsRemote
 B2G
 )
 fuzzy
+-
+if
 (
+!
+browserIsRemote
+|
+|
+B2G
 1
 800000
 )
