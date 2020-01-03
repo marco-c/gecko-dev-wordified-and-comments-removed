@@ -4476,6 +4476,16 @@ nsISupports
 aSupports
 )
 {
+NS_IF_ADDREF
+(
+aSupports
+)
+;
+NS_IF_RELEASE
+(
+aSupports
+)
+;
 mDeferredSupports
 .
 AppendElement
