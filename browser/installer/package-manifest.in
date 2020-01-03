@@ -1243,6 +1243,13 @@ BINPATH
 /
 components
 /
+dom_workers
+.
+xpt
+BINPATH
+/
+components
+/
 dom_xbl
 .
 xpt
