@@ -852,6 +852,7 @@ aData
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 ;
 friend
 struct

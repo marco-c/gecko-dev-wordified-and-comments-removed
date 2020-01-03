@@ -268,6 +268,7 @@ ThreadSharedFloatArrayBufferList
 >
 aBuffer
 )
+MOZ_OVERRIDE
 {
 mBuffer
 =
@@ -351,6 +352,7 @@ bool
 *
 aFinished
 )
+MOZ_OVERRIDE
 {
 if
 (

@@ -194,6 +194,7 @@ DelayNodeEngine
 AsDelayNodeEngine
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

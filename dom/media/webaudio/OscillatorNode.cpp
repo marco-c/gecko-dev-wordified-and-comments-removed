@@ -395,6 +395,7 @@ aIndex
 StreamTime
 aParam
 )
+MOZ_OVERRIDE
 {
 switch
 (
@@ -441,6 +442,7 @@ aIndex
 int32_t
 aParam
 )
+MOZ_OVERRIDE
 {
 switch
 (
@@ -661,6 +663,7 @@ ThreadSharedFloatArrayBufferList
 >
 aBuffer
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

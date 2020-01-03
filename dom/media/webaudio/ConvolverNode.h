@@ -193,6 +193,7 @@ NodeType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 "
