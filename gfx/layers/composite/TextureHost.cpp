@@ -3553,9 +3553,9 @@ nullptr
 static
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
-ShSurfToTexSource
+SharedSurfaceToTexSource
 (
 gl
 :
@@ -3646,7 +3646,7 @@ R8G8B8X8
 ;
 RefPtr
 <
-NewTextureSource
+TextureSource
 >
 texSource
 ;
@@ -4253,7 +4253,7 @@ WaitSync
 ;
 mTexSource
 =
-ShSurfToTexSource
+SharedSurfaceToTexSource
 (
 mSurf
 mCompositor

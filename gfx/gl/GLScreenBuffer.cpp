@@ -183,7 +183,11 @@ factory
 #
 ifdef
 MOZ_WIDGET_GONK
-auto
+layers
+:
+:
+ISurfaceAllocator
+*
 allocator
 =
 caps

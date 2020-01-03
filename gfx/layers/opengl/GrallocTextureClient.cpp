@@ -1552,7 +1552,7 @@ TextureClient
 GrallocTextureClientOGL
 :
 :
-FromShSurf
+FromSharedSurface
 (
 gl
 :

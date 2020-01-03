@@ -765,7 +765,7 @@ return
 GrallocTextureClientOGL
 :
 :
-FromShSurf
+FromSharedSurface
 (
 surf
 flags
