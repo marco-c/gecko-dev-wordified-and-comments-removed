@@ -182,6 +182,11 @@ instrumentedProfilingIsCached_
 (
 false
 )
+nurseryObjects_
+(
+*
+alloc
+)
 options
 (
 options

@@ -2063,6 +2063,14 @@ MDebugger
 ins
 )
 ;
+void
+visitNurseryObject
+(
+MNurseryObject
+*
+ins
+)
+;
 }
 ;
 }
