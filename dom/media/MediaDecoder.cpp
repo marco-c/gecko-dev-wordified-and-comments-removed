@@ -2167,12 +2167,12 @@ NS_IsMainThread
 )
 )
 ;
+ReentrantMonitorAutoEnter
+mon
+(
 GetReentrantMonitor
 (
 )
-.
-AssertCurrentThreadIn
-(
 )
 ;
 DECODER_LOG
