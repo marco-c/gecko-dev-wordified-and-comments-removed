@@ -196,6 +196,16 @@ nsAString
 aMode
 )
 ;
+bool
+SendRequest
+(
+MobileConnectionRequest
+aRequest
+nsIMobileConnectionCallback
+*
+aRequestCallback
+)
+;
 protected
 :
 virtual
