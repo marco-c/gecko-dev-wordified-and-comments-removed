@@ -543,10 +543,6 @@ if
 aDormant
 )
 {
-DestroyDecodedStream
-(
-)
-;
 mDecoderStateMachine
 -
 >
