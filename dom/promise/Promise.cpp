@@ -6857,10 +6857,6 @@ false
 }
 (
 workerPromise
-.
-get
-(
-)
 -
 >
 *
