@@ -149,6 +149,11 @@ DestroyScriptSettings
 (
 )
 ;
+bool
+ScriptSettingsInitialized
+(
+)
+;
 void
 UseEntryScriptProfiling
 (
