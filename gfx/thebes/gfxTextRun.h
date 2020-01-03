@@ -1750,6 +1750,8 @@ aProvider
 TextRunDrawParams
 &
 aParams
+uint16_t
+aOrientation
 )
 ;
 void
@@ -1854,6 +1856,8 @@ aSpacingEnd
 TextRunDrawParams
 &
 aParams
+uint16_t
+aOrientation
 )
 ;
 nsAutoTArray

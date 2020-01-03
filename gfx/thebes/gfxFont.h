@@ -4805,6 +4805,8 @@ const
 TextRunDrawParams
 &
 aRunParams
+uint16_t
+aOrientation
 )
 ;
 virtual
@@ -6374,6 +6376,9 @@ DrawMode
 drawMode
 ;
 bool
+isVerticalRun
+;
+bool
 isRTL
 ;
 bool
@@ -6451,6 +6456,9 @@ gfx
 :
 DrawOptions
 drawOptions
+;
+bool
+isVerticalFont
 ;
 bool
 haveSVGGlyphs
