@@ -247,7 +247,7 @@ include
 "
 mozilla
 /
-AutoTimelineMarker
+AutoGlobalTimelineMarker
 .
 h
 "
