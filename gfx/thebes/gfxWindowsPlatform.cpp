@@ -2797,6 +2797,9 @@ mD2DDevice
 )
 ;
 }
+#
+ifdef
+USE_D2D1_1
 ScopedGfxFeatureReporter
 reporter1_1
 (
@@ -2824,6 +2827,8 @@ SetSuccessful
 )
 ;
 }
+#
+endif
 #
 endif
 }
