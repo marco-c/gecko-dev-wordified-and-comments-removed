@@ -5682,7 +5682,7 @@ BluetoothDaemonProtocol
 final
 :
 public
-BluetoothDaemonPDUConsumer
+DaemonSocketIOConsumer
 public
 BluetoothDaemonSetupModule
 public
