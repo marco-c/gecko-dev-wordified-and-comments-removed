@@ -1,3 +1,6 @@
+var
+test
+=
 class
 foo
 {
@@ -45,6 +48,18 @@ Object
 prototype
 .
 toString
+)
+;
+;
+if
+(
+classesEnabled
+(
+)
+)
+eval
+(
+test
 )
 ;
 if
