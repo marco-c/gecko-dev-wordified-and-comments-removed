@@ -81,12 +81,12 @@ import
         
 addCommonOptions
         
-getDebuggerInfo
-        
 isURL
         
 processLeakLog
 )
+import
+mozdebug
 import
 mozprofile
 def
@@ -2491,11 +2491,10 @@ None
     
 debuggerInfo
 =
-getDebuggerInfo
-(
-self
+mozdebug
 .
-oldcwd
+get_debugger_info
+(
 options
 .
 debugger

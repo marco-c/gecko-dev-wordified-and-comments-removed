@@ -61,6 +61,8 @@ json
 import
 mozcrash
 import
+mozdebug
+import
 mozinfo
 import
 mozprocess
@@ -96,8 +98,6 @@ import
 (
     
 environment
-    
-getDebuggerInfo
     
 isURL
     
@@ -2404,11 +2404,8 @@ and
 self
 .
 debuggerInfo
-[
-'
+.
 interactive
-'
-]
 :
         
 cmd
@@ -10102,29 +10099,20 @@ debuggerInfo
 interactive
 =
 debuggerInfo
-[
-'
+.
 interactive
-'
-]
         
 debug_args
 =
 [
 debuggerInfo
-[
-'
+.
 path
-'
-]
 ]
 +
 debuggerInfo
-[
-'
+.
 args
-'
-]
     
 if
 timeout
@@ -10239,11 +10227,8 @@ if
 debuggerInfo
 and
 debuggerInfo
-[
-'
+.
 requiresEscapedArgs
-'
-]
 :
           
 testUrl
@@ -12062,20 +12047,18 @@ options
     
 debuggerInfo
 =
-getDebuggerInfo
-(
-self
+mozdebug
 .
-oldcwd
-                                   
+get_debugger_info
+(
 options
 .
 debugger
-                                   
+                                              
 options
 .
 debuggerArgs
-                                   
+                                              
 options
 .
 debuggerInteractive
