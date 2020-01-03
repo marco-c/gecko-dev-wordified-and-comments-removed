@@ -164,6 +164,17 @@ str
 )
 ;
 bool
+IsIdentifier
+(
+const
+char16_t
+*
+chars
+size_t
+length
+)
+;
+bool
 IsKeyword
 (
 JSLinearString
