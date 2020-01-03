@@ -1005,17 +1005,9 @@ printerName
 ;
 if
 (
-NS_WARN_IF
-(
-!
 printer
 )
-)
 {
-return
-NS_ERROR_FAILURE
-;
-}
 [
 newPrintInfoDict
 setObject
@@ -1036,6 +1028,7 @@ forKey
 NSPrintPrinterName
 ]
 ;
+}
 }
 [
 newPrintInfoDict
