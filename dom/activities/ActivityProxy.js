@@ -204,6 +204,7 @@ actProxy_startActivity
 aActivity
 aOptions
 aWindow
+aChildID
 )
 {
 debug
@@ -608,6 +609,9 @@ document
 location
 .
 href
+childID
+:
+aChildID
 }
 )
 ;

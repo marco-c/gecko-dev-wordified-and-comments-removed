@@ -298,7 +298,7 @@ ipc
 .
 processPriorityManager
 .
-FOREGROUND
+BACKGROUND_PERCEIVABLE
 .
 LRUPoolLevels
 '
