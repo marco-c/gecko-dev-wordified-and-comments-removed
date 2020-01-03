@@ -19,6 +19,15 @@ nsStyleContext
 h
 "
 #
+ifndef
+RELEASE_BUILD
+#
+define
+WRITING_MODE_VERTICAL_ENABLED
+1
+#
+endif
+#
 define
 CHECK_WRITING_MODE
 (
