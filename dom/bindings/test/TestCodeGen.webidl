@@ -859,6 +859,16 @@ Constructor
 Date
 arg1
 )
+Constructor
+(
+ArrayBuffer
+arrayBuf
+)
+Constructor
+(
+Uint8Array
+typedArr
+)
 /
 /
 Constructor

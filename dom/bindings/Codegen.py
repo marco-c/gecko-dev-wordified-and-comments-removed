@@ -103368,7 +103368,17 @@ __init
 __Init
 "
 descriptor
+                                       
+singleOperation
+=
 False
+                                       
+rethrowContentException
+=
+True
+                                       
+typedArraysAreStructs
+=
 True
 )
     

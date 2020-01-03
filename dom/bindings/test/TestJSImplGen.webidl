@@ -186,6 +186,10 @@ optional
 object
 ?
 obj4
+Uint8Array
+typedArr
+ArrayBuffer
+arrayBuf
 )
 JSImplementation
 =
