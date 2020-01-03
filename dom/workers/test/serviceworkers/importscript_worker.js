@@ -84,7 +84,7 @@ n
 }
 try
 {
-importScript
+importScripts
 (
 [
 '
