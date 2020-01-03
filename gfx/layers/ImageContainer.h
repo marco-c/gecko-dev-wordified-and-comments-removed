@@ -916,7 +916,7 @@ ClearAllImages
 )
 ;
 void
-ClearCurrentImage
+ClearImagesFromImageBridge
 (
 )
 ;

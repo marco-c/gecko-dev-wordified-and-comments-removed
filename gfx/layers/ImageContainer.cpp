@@ -1222,7 +1222,7 @@ void
 ImageContainer
 :
 :
-ClearCurrentImage
+ClearImagesFromImageBridge
 (
 )
 {

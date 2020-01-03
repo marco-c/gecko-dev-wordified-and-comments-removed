@@ -2022,7 +2022,7 @@ aContainer
 aContainer
 -
 >
-ClearCurrentImage
+ClearImagesFromImageBridge
 (
 )
 ;
