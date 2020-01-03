@@ -455,9 +455,6 @@ ServiceWorkerRegistrationBase
 )
 ServiceWorkerRegistrationWorkerThread
 (
-nsPIDOMWindow
-*
-aWindow
 const
 nsAString
 &
@@ -466,7 +463,7 @@ aScope
 :
 ServiceWorkerRegistrationBase
 (
-aWindow
+nullptr
 aScope
 )
 {
@@ -475,15 +472,7 @@ void
 Update
 (
 )
-{
-MOZ_CRASH
-(
-"
-FIXME
-"
-)
 ;
-}
 already_AddRefed
 <
 Promise
