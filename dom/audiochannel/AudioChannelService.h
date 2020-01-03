@@ -125,12 +125,6 @@ Shutdown
 (
 )
 ;
-static
-bool
-IsAudioChannelMutedByDefault
-(
-)
-;
 void
 RegisterAudioChannelAgent
 (
@@ -418,9 +412,7 @@ mVolume
 )
 mMuted
 (
-IsAudioChannelMutedByDefault
-(
-)
+false
 )
 mNumberOfAgents
 (
