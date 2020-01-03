@@ -462,6 +462,11 @@ int64_t
 aOffset
 )
 ;
+int64_t
+GetInitEndOffset
+(
+)
+;
 private
 :
 ~
