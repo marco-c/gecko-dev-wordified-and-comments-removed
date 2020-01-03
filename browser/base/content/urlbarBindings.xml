@@ -7256,6 +7256,11 @@ level
 "
 top
 "
+consumeoutsideclicks
+=
+"
+never
+"
 >
 <
 xul
