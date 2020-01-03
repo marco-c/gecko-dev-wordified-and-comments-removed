@@ -3284,9 +3284,7 @@ change
 '
 data
 :
-[
 aValue
-]
 }
 null
 aOptions
