@@ -740,11 +740,6 @@ Connection
 Status
 .
 CONNECTED
-&
-&
-AppManager
-.
-preferenceFront
 )
 {
 if
