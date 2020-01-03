@@ -3752,12 +3752,7 @@ tab
 new
 TabChild
 (
-ContentChild
-:
-:
-GetSingleton
-(
-)
+nullptr
 TabContext
 (
 )
@@ -3967,6 +3962,13 @@ child
 >
 mTriedBrowserInit
 )
+;
+child
+-
+>
+mManager
+=
+aManager
 ;
 child
 -
