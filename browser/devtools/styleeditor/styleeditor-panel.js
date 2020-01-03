@@ -652,6 +652,12 @@ null
 ;
 this
 .
+_panelWin
+=
+null
+;
+this
+.
 _panelDoc
 =
 null
@@ -677,6 +683,12 @@ UI
 destroy
 (
 )
+;
+this
+.
+UI
+=
+null
 ;
 }
 return
