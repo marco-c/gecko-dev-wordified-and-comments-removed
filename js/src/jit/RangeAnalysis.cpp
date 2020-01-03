@@ -8556,6 +8556,9 @@ true
 bool
 canOsr
 ;
+size_t
+numBlocks
+=
 MarkLoopBlocks
 (
 graph_
@@ -8563,6 +8566,16 @@ header
 &
 canOsr
 )
+;
+if
+(
+numBlocks
+=
+=
+0
+)
+return
+true
 ;
 LoopIterationBound
 *
