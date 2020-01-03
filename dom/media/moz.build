@@ -984,6 +984,11 @@ MediaTaskQueue
 cpp
 '
 '
+MediaTimer
+.
+cpp
+'
+'
 MediaTrack
 .
 cpp
