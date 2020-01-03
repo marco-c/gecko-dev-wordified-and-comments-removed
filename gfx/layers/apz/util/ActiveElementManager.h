@@ -82,10 +82,15 @@ HandlePanStart
 )
 ;
 void
-HandleTouchEnd
+HandleTouchEndEvent
 (
 bool
 aWasClick
+)
+;
+void
+HandleTouchEnd
+(
 )
 ;
 bool
