@@ -427,7 +427,6 @@ define
 STRATEGY_CASE
 (
 name
-msg
 )
 \
 case
@@ -438,7 +437,8 @@ name
 :
 \
 return
-msg
+#
+name
 ;
 TRACKED_STRATEGY_LIST
 (
@@ -484,7 +484,6 @@ define
 OUTCOME_CASE
 (
 name
-msg
 )
 \
 case
@@ -495,7 +494,8 @@ name
 :
 \
 return
-msg
+#
+name
 ;
 TRACKED_OUTCOME_LIST
 (
@@ -541,7 +541,6 @@ define
 TYPESITE_CASE
 (
 name
-msg
 )
 \
 case
@@ -552,7 +551,8 @@ name
 :
 \
 return
-msg
+#
+name
 ;
 TRACKED_TYPESITE_LIST
 (
