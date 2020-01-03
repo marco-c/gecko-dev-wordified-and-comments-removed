@@ -184,17 +184,6 @@ charset
 ;
 }
 ;
-struct
-GenericURIParams
-{
-nsCString
-spec
-;
-nsCString
-charset
-;
-}
-;
 union
 URIParams
 {
@@ -203,8 +192,6 @@ SimpleURIParams
 StandardURLParams
 ;
 JARURIParams
-;
-GenericURIParams
 ;
 }
 ;
