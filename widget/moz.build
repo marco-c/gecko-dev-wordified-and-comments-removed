@@ -732,6 +732,11 @@ PuppetBidiKeyboard
 .
 h
 '
+'
+WidgetMessageUtils
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
