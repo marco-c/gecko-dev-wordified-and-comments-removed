@@ -2200,10 +2200,6 @@ gtk_widget_path_append_type
 )
 STUB
 (
-gtk_widget_path_free
-)
-STUB
-(
 gtk_widget_path_new
 )
 STUB
