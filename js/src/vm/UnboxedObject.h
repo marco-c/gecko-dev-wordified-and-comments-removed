@@ -364,6 +364,7 @@ bool
 isArray
 (
 )
+const
 {
 return
 elementType_
