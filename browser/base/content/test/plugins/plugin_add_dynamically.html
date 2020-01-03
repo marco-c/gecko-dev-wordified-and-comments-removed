@@ -32,7 +32,8 @@ script
 function
 addPlugin
 (
-type
+aId
+aType
 =
 "
 application
@@ -53,6 +54,16 @@ createElement
 "
 embed
 "
+)
+;
+embed
+.
+setAttribute
+(
+"
+id
+"
+aId
 )
 ;
 embed
@@ -82,7 +93,7 @@ setAttribute
 "
 type
 "
-type
+aType
 )
 ;
 return
