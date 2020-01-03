@@ -1402,6 +1402,10 @@ principal
 "
 )
 ;
+aPrincipalInfo
+=
+nullptr
+;
 *
 aFactory
 =
