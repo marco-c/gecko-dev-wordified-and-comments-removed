@@ -267,6 +267,15 @@ article
 =
 >
 {
+if
+(
+message
+.
+target
+.
+messageManager
+)
+{
 message
 .
 target
@@ -287,6 +296,7 @@ article
 }
 )
 ;
+}
 }
 )
 ;
