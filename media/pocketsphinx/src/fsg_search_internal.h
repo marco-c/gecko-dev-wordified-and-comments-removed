@@ -91,6 +91,15 @@ hmm_context_t
 *
 hmmctx
 ;
+char
+const
+*
+arpafile
+;
+cmd_ln_t
+*
+config
+;
 fsg_model_t
 *
 fsg

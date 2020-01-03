@@ -1559,6 +1559,13 @@ acmod
 -
 >
 mdef
+ps
+-
+>
+acmod
+-
+>
+lmath
 )
 )
 =
@@ -3842,6 +3849,13 @@ acmod
 -
 >
 mdef
+ps
+-
+>
+acmod
+-
+>
+lmath
 )
 )
 =
