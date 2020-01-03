@@ -450,7 +450,6 @@ NS_WARNING
 (
 "
 Unexpected
-nsIJSNativeInitializer
 owner
 "
 )

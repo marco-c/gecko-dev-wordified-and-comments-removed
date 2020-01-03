@@ -203,11 +203,6 @@ nsIGlobalObject
 h
 '
 '
-nsIJSNativeInitializer
-.
-h
-'
-'
 nsIScriptContext
 .
 h

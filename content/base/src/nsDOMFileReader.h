@@ -65,13 +65,6 @@ h
 #
 include
 "
-nsIJSNativeInitializer
-.
-h
-"
-#
-include
-"
 prtime
 .
 h
