@@ -3450,11 +3450,7 @@ trc
 }
 MarkInterpreterActivations
 (
-&
 rt
--
->
-mainThread
 trc
 )
 ;
@@ -3463,11 +3459,7 @@ jit
 :
 MarkJitActivations
 (
-&
 rt
--
->
-mainThread
 trc
 )
 ;

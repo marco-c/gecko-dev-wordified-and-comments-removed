@@ -796,9 +796,9 @@ frame
 void
 MarkJitActivations
 (
-PerThreadData
+JSRuntime
 *
-ptd
+rt
 JSTracer
 *
 trc
@@ -824,9 +824,9 @@ rt
 void
 UpdateJitActivationsForMinorGC
 (
-PerThreadData
+JSRuntime
 *
-ptd
+rt
 JSTracer
 *
 trc
