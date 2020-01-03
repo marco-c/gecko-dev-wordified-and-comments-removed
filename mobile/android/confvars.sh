@@ -241,16 +241,6 @@ MOZ_SERVICES_HEALTHREPORT
 1
 #
 Enable
-reading
-list
-service
-integration
-.
-MOZ_ANDROID_READING_LIST_SERVICE
-=
-1
-#
-Enable
 runtime
 locale
 switching
