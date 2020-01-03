@@ -15483,15 +15483,6 @@ JS
 :
 Handle
 <
-JSObject
-*
->
-obj
-JS
-:
-:
-Handle
-<
 JSScript
 *
 >
