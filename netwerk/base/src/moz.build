@@ -441,11 +441,6 @@ Tickler
 .
 cpp
 '
-'
-TLSServerSocket
-.
-cpp
-'
 ]
 #
 These
