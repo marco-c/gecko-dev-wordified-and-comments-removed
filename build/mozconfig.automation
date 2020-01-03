@@ -199,6 +199,17 @@ MOZ_AUTOMATION_UPLOAD_SYMBOLS
 0
 }
 "
+mk_add_options
+"
+export
+MOZ_AUTOMATION_SDK
+=
+{
+MOZ_AUTOMATION_SDK
+-
+0
+}
+"
 #
 If
 we
