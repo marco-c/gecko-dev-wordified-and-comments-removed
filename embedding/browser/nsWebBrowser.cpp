@@ -6865,7 +6865,7 @@ aDOMWindow
 *
 aDOMWindow
 =
-0
+nullptr
 ;
 nsCOMPtr
 <
@@ -7442,11 +7442,11 @@ CloseStream
 ;
 mStream
 =
-0
+nullptr
 ;
 mStreamGuard
 =
-0
+nullptr
 ;
 return
 rv
