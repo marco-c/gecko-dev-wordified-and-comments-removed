@@ -2879,6 +2879,12 @@ showBoxModel
 (
 {
 region
+showOnly
+:
+region
+onlyRegionArea
+:
+true
 }
 )
 ;
