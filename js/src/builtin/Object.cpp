@@ -4415,7 +4415,7 @@ false
 if
 (
 !
-StandardDefineProperty
+DefineProperty
 (
 cx
 obj

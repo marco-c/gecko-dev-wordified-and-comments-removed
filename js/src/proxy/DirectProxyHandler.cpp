@@ -218,7 +218,7 @@ target
 )
 ;
 return
-StandardDefineProperty
+DefineProperty
 (
 cx
 target
