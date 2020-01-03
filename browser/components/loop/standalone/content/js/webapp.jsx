@@ -3948,6 +3948,7 @@ clientShortname2
 )
 ;
 return
+(
 <
 InitiateConversationView
 {
@@ -3984,6 +3985,7 @@ initiate_audio_video_call_button2
 }
 /
 >
+)
 ;
 }
 }
@@ -4062,6 +4064,7 @@ status_error
 )
 ;
 return
+(
 <
 InitiateConversationView
 {
@@ -4098,6 +4101,7 @@ retry_call_button
 }
 /
 >
+)
 ;
 }
 }

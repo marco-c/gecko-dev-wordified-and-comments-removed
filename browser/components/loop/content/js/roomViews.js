@@ -886,6 +886,7 @@ HAS_PARTICIPANTS
 )
 {
 return
+(
 React
 .
 createElement
@@ -907,6 +908,7 @@ props
 .
 dispatcher
 }
+)
 )
 ;
 }
@@ -1219,6 +1221,7 @@ FULL
 :
 {
 return
+(
 React
 .
 createElement
@@ -1236,6 +1239,7 @@ this
 closeWindow
 }
 )
+)
 ;
 }
 case
@@ -1245,6 +1249,7 @@ ENDED
 :
 {
 return
+(
 React
 .
 createElement
@@ -1259,6 +1264,7 @@ this
 .
 closeWindow
 }
+)
 )
 ;
 }

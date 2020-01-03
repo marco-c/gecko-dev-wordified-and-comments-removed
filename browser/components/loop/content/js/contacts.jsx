@@ -3581,6 +3581,7 @@ item
 >
 {
 return
+(
 <
 ContactDetail
 key
@@ -3604,6 +3605,8 @@ handleContactAction
 }
 /
 >
+)
+;
 }
 ;
 let

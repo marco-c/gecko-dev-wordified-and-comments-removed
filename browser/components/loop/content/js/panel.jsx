@@ -1811,6 +1811,7 @@ a
 )
 ;
 return
+(
 <
 div
 id
@@ -1857,6 +1858,7 @@ p
 /
 div
 >
+)
 ;
 }
 else
@@ -4285,6 +4287,7 @@ i
 )
 {
 return
+(
 <
 RoomEntry
 key
@@ -4310,6 +4313,7 @@ room
 }
 /
 >
+)
 ;
 }
 this

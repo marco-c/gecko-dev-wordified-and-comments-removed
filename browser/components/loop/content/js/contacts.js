@@ -3026,6 +3026,7 @@ item
 >
 {
 return
+(
 React
 .
 createElement
@@ -3047,6 +3048,8 @@ this
 handleContactAction
 }
 )
+)
+;
 }
 ;
 let

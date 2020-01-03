@@ -1126,6 +1126,7 @@ HAS_PARTICIPANTS
 )
 {
 return
+(
 <
 DesktopRoomInvitationView
 roomStore
@@ -1148,6 +1149,7 @@ dispatcher
 }
 /
 >
+)
 ;
 }
 return
@@ -1609,6 +1611,7 @@ on
 desktop
 .
 return
+(
 <
 loop
 .
@@ -1624,6 +1627,7 @@ closeWindow
 }
 /
 >
+)
 ;
 }
 case
@@ -1633,6 +1637,7 @@ ENDED
 :
 {
 return
+(
 <
 sharedViews
 .
@@ -1646,6 +1651,7 @@ closeWindow
 }
 /
 >
+)
 ;
 }
 default
