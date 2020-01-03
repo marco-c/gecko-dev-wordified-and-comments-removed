@@ -171,6 +171,9 @@ DISABLE_ASSERTS_FOR_FUZZING
 define
 ASSERT_UNLESS_FUZZING
 (
+.
+.
+.
 )
 do
 {
@@ -185,6 +188,9 @@ else
 define
 ASSERT_UNLESS_FUZZING
 (
+.
+.
+.
 )
 MOZ_ASSERT
 (
