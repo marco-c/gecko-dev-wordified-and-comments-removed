@@ -3011,15 +3011,3 @@ test
 true
 )
 ;
-user_pref
-(
-"
-extensions
-.
-autoupdate
-.
-enabled
-"
-false
-)
-;
