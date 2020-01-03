@@ -230,6 +230,11 @@ ProcessHangMonitor
 jsm
 '
 '
+ReaderParent
+.
+jsm
+'
+'
 RemotePrompt
 .
 jsm
@@ -317,11 +322,6 @@ jsm
 '
 '
 PluginContent
-.
-jsm
-'
-'
-ReaderParent
 .
 jsm
 '
