@@ -6552,12 +6552,6 @@ resolve
 ;
 this
 .
-_hideBoxModel
-(
-)
-;
-this
-.
 _clearBriefBoxModelTimer
 (
 )
