@@ -182,12 +182,6 @@ RemoteObject
 uint64_t
 serializedId
 ;
-bool
-isCallable
-;
-bool
-isConstructor
-;
 }
 ;
 union
