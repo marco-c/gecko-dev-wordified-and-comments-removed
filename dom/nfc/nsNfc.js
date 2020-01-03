@@ -1059,6 +1059,7 @@ _nfcContentHelper
 checkSessionToken
 (
 sessionToken
+true
 )
 )
 {

@@ -639,6 +639,7 @@ function
 checkSessionToken
 (
 sessionToken
+isP2P
 )
 {
 if
@@ -685,6 +686,9 @@ CheckSessionToken
 sessionToken
 :
 sessionToken
+isP2P
+:
+isP2P
 }
 )
 ;
