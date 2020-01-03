@@ -7020,6 +7020,15 @@ IsInfinite
 )
 &
 &
+(
+mStartTime
+!
+=
+-
+1
+)
+&
+&
 NS_SUCCEEDED
 (
 mDecoder
@@ -13870,7 +13879,6 @@ mReader
 GetBuffered
 (
 aBuffered
-mStartTime
 )
 ;
 resource

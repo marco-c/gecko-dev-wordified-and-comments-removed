@@ -193,6 +193,27 @@ Init
 nullptr
 )
 ;
+{
+ReentrantMonitorAutoEnter
+mon
+(
+decoder
+-
+>
+GetReentrantMonitor
+(
+)
+)
+;
+reader
+-
+>
+SetStartTime
+(
+0
+)
+;
+}
 }
 void
 Init
@@ -356,7 +377,6 @@ reader
 GetBuffered
 (
 ranges
-0
 )
 )
 ;
@@ -517,7 +537,6 @@ reader
 GetBuffered
 (
 ranges
-0
 )
 )
 ;
@@ -668,7 +687,6 @@ reader
 GetBuffered
 (
 ranges
-0
 )
 )
 ;
@@ -980,7 +998,6 @@ reader
 GetBuffered
 (
 ranges
-0
 )
 )
 ;
@@ -1204,7 +1221,6 @@ reader
 GetBuffered
 (
 ranges
-0
 )
 )
 ;
