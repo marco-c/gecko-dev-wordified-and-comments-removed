@@ -754,6 +754,7 @@ uint64_t
 &
 aCallbackId
 )
+override
 ;
 virtual
 bool
@@ -771,6 +772,7 @@ uint64_t
 &
 aCallbackId
 )
+override
 ;
 void
 SetPluginFuncs
