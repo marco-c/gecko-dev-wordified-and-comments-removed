@@ -9383,7 +9383,7 @@ IsEmpty
 )
 )
 {
-RETURN_IF_FAILED
+WARN_IF_FAILED
 (
 mNetUtils
 -
