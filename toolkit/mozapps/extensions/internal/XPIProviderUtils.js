@@ -2188,13 +2188,11 @@ UTF
 )
 ;
 let
-(
 str
 =
 {
 }
-)
-{
+;
 let
 read
 =
@@ -2228,7 +2226,6 @@ read
 0
 )
 ;
-}
 readTimer
 .
 done
