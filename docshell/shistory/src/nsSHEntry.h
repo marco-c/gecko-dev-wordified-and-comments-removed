@@ -135,6 +135,9 @@ nsIURI
 >
 mReferrerURI
 ;
+uint32_t
+mReferrerPolicy
+;
 nsString
 mTitle
 ;

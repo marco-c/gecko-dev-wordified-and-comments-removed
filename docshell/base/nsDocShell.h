@@ -940,6 +940,8 @@ nsIURI
 aReferrer
 bool
 aSendReferrer
+uint32_t
+aReferrerPolicy
 nsISupports
 *
 aOwner
@@ -1065,6 +1067,14 @@ SetReferrerURI
 nsIURI
 *
 aURI
+)
+;
+virtual
+void
+SetReferrerPolicy
+(
+uint32_t
+referrerPolicy
 )
 ;
 virtual
@@ -2010,6 +2020,9 @@ nsCOMPtr
 nsIURI
 >
 mReferrerURI
+;
+uint32_t
+mReferrerPolicy
 ;
 nsRefPtr
 <
