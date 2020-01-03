@@ -591,6 +591,15 @@ nsNSSShutDownPreventionLock
 &
 )
 ;
+static
+bool
+PublicKeyValid
+(
+SECKEYPublicKey
+*
+aPubKey
+)
+;
 bool
 WriteStructuredClone
 (

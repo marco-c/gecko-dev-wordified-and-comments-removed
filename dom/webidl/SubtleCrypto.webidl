@@ -378,6 +378,17 @@ public
 ;
 }
 ;
+dictionary
+EcdsaParams
+:
+Algorithm
+{
+required
+AlgorithmIdentifier
+hash
+;
+}
+;
 /
 *
 *
