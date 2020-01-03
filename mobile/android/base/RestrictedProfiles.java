@@ -206,7 +206,7 @@ name
 private
 static
 String
-geckoActionToRestrction
+geckoActionToRestriction
 (
 int
 action
@@ -257,7 +257,7 @@ action
 private
 static
 Bundle
-getRestrctions
+getRestrictions
 (
 )
 {
@@ -331,7 +331,7 @@ false
 }
 return
 !
-getRestrctions
+getRestrictions
 (
 )
 .
@@ -409,14 +409,14 @@ final
 String
 restriction
 =
-geckoActionToRestrction
+geckoActionToRestriction
 (
 action
 )
 ;
 return
 !
-getRestrctions
+getRestrictions
 (
 )
 .
@@ -564,7 +564,7 @@ final
 Bundle
 restrictions
 =
-getRestrctions
+getRestrictions
 (
 )
 ;
