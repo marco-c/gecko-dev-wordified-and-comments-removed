@@ -1220,6 +1220,16 @@ JSObject
 >
 mRejectionStack
 ;
+JS
+:
+:
+Heap
+<
+JSObject
+*
+>
+mFullfillmentStack
+;
 PromiseState
 mState
 ;
