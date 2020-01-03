@@ -214,6 +214,7 @@ Exposed
 (
 Window
 Worker
+System
 )
 ]
 /
