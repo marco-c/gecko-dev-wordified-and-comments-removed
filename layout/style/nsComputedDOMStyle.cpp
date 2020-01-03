@@ -11304,7 +11304,7 @@ SetAppUnits
 border
 -
 >
-mBorderSpacingX
+mBorderSpacingCol
 )
 ;
 ySpacing
@@ -11315,7 +11315,7 @@ SetAppUnits
 border
 -
 >
-mBorderSpacingY
+mBorderSpacingRow
 )
 ;
 return

@@ -17135,7 +17135,7 @@ StyleTableBorder
 )
 -
 >
-mBorderSpacingX
+mBorderSpacingCol
 ;
 }
 nscoord
@@ -17303,7 +17303,7 @@ StyleTableBorder
 )
 -
 >
-mBorderSpacingY
+mBorderSpacingRow
 ;
 }
 nscoord

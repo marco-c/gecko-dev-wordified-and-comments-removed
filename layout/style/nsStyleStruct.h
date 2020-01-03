@@ -9145,10 +9145,10 @@ nsChangeHint_ClearAncestorIntrinsics
 ;
 }
 nscoord
-mBorderSpacingX
+mBorderSpacingCol
 ;
 nscoord
-mBorderSpacingY
+mBorderSpacingRow
 ;
 uint8_t
 mBorderCollapse
