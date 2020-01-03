@@ -163,6 +163,19 @@ mGotTimecodeScale
 false
 )
 {
+if
+(
+mStartOffset
+!
+=
+0
+)
+{
+mState
+=
+FIND_CLUSTER_SYNC
+;
+}
 }
 uint32_t
 GetTimecodeScale
@@ -260,6 +273,7 @@ State
 {
 READ_ELEMENT_ID
 READ_ELEMENT_SIZE
+FIND_CLUSTER_SYNC
 PARSE_ELEMENT
 READ_VINT
 READ_VINT_REST
@@ -334,6 +348,9 @@ mVInt
 ;
 bool
 mVIntRaw
+;
+uint32_t
+mClusterSyncPos
 ;
 uint32_t
 mVIntLeft
