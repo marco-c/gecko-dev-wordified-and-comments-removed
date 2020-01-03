@@ -1,4 +1,3 @@
- 
 #
 -
 *
@@ -1612,21 +1611,6 @@ tls_module
 pywebsocket
 .
 _TLS_BY_STANDARD_MODULE
-                
-logger
-.
-debug
-(
-"
-WebSocketDaemon
-:
-Using
-standard
-SSL
-module
-.
-"
-)
             
 elif
 pywebsocket
@@ -1641,39 +1625,17 @@ tls_module
 pywebsocket
 .
 _TLS_BY_PYOPENSSL
-                
-logger
-.
-debug
-(
-"
-WebSocketDaemon
-:
-Using
-PyOpenSSL
-module
-.
-"
-)
             
 else
 :
                 
-logger
-.
-critical
-(
+print
 "
-WebSocketDaemon
-:
 No
 SSL
 module
-is
 available
-.
 "
-)
                 
 sys
 .
