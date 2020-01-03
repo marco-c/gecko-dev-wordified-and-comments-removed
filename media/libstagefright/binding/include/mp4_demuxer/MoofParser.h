@@ -480,6 +480,12 @@ Box
 aBox
 )
 ;
+mozilla
+:
+:
+MediaByteRange
+mInitRange
+;
 nsRefPtr
 <
 Stream
