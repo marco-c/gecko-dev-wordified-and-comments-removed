@@ -7204,14 +7204,9 @@ computer
 ENTITY
 identity
 .
-connectionVerified
+connectionVerified1
 "
-&
-brandShortName
-;
-verified
-that
-you
+You
 are
 securely
 connected
