@@ -747,9 +747,6 @@ js_NoSuchMethodClass
 NullPtr
 (
 )
-NullPtr
-(
-)
 )
 ;
 if

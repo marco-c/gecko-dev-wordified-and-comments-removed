@@ -14231,7 +14231,6 @@ NewNativeObjectWithClassProto
 cx
 clasp
 protoProto
-obj
 SingletonObject
 )
 )
