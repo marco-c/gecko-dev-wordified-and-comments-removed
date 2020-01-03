@@ -614,8 +614,6 @@ TESTING_JS_MODULES
 \
 TESTING_JS_MODULE_DIR
 \
-TIERS
-\
 (
 NULL
 )
@@ -661,4 +659,17 @@ var
 '
 )
 )
+TIERS
+:
+=
+export
+(
+if
+(
+COMPILE_ENVIRONMENT
+)
+compile
+)
+libs
+tools
 endif
