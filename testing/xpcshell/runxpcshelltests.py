@@ -79,7 +79,7 @@ HAVE_PSUTIL
 =
 True
 except
-ImportError
+Exception
 :
     
 HAVE_PSUTIL
