@@ -14,10 +14,6 @@ widget
 .
 TextView
 #
-define
-STYLE_CONSTRUCTOR
-1
-#
 include
 ThemedView
 .
