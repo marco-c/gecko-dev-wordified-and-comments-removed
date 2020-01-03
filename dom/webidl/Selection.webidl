@@ -377,6 +377,14 @@ boolean
 interlinePosition
 ;
 [
+Throws
+]
+attribute
+short
+?
+caretBidiLevel
+;
+[
 ChromeOnly
 Throws
 ]
