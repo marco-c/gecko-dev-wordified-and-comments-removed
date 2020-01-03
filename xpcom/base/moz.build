@@ -439,6 +439,11 @@ Debug
 h
 '
 '
+DeferredFinalize
+.
+h
+'
+'
 ErrorNames
 .
 h
@@ -548,6 +553,11 @@ cpp
 '
 '
 Debug
+.
+cpp
+'
+'
+DeferredFinalize
 .
 cpp
 '
