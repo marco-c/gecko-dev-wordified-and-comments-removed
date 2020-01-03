@@ -52,6 +52,10 @@ mContentLength
 (
 UINT64_MAX
 )
+mCacheControlPrivate
+(
+false
+)
 mCacheControlNoStore
 (
 false
@@ -155,6 +159,16 @@ const
 {
 return
 mContentCharset
+;
+}
+bool
+Private
+(
+)
+const
+{
+return
+mCacheControlPrivate
 ;
 }
 bool
@@ -575,6 +589,9 @@ mContentType
 ;
 nsCString
 mContentCharset
+;
+bool
+mCacheControlPrivate
 ;
 bool
 mCacheControlNoStore
