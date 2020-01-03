@@ -97,8 +97,6 @@ generate
 bar
 .
 py
-:
-baz
 '
 foo
 =

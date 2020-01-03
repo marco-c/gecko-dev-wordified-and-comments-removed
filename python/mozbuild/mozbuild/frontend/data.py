@@ -4661,10 +4661,6 @@ script
 '
         
 '
-method
-'
-        
-'
 output
 '
         
@@ -4680,7 +4676,6 @@ __init__
 self
 context
 script
-method
 output
 inputs
 )
@@ -4699,12 +4694,6 @@ self
 script
 =
 script
-        
-self
-.
-method
-=
-method
         
 self
 .
