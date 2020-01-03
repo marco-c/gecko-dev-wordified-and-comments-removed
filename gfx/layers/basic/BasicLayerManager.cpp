@@ -781,7 +781,7 @@ return
 mLayer
 -
 >
-GetEffectiveTransform
+GetEffectiveTransformForBuffer
 (
 )
 .
@@ -4235,6 +4235,8 @@ Paint
 #
 endif
 gfx3DMatrix
+effectiveTransform
+;
 effectiveTransform
 =
 gfx
