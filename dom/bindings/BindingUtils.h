@@ -11512,7 +11512,7 @@ toObject
 ;
 }
 bool
-GetWindowForJSImplementedObject
+GetContentGlobalForJSImplementedObject
 (
 JSContext
 *
@@ -11526,10 +11526,10 @@ JSObject
 *
 >
 obj
-nsPIDOMWindow
+nsIGlobalObject
 *
 *
-window
+global
 )
 ;
 void
@@ -11542,9 +11542,9 @@ const
 char
 *
 aContractId
-nsPIDOMWindow
+nsIGlobalObject
 *
-aWindow
+aGlobal
 JS
 :
 :
@@ -11561,7 +11561,7 @@ aRv
 ;
 already_AddRefed
 <
-nsPIDOMWindow
+nsIGlobalObject
 >
 ConstructJSImplementation
 (
