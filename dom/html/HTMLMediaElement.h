@@ -1543,8 +1543,6 @@ EventHandlerNonNull
 listener
 )
 ;
-#
-endif
 void
 DispatchEncrypted
 (
@@ -1562,9 +1560,6 @@ aInitDataType
 )
 override
 ;
-#
-ifdef
-MOZ_EME
 bool
 IsEventAttributeName
 (
@@ -2768,9 +2763,6 @@ mMediaInfo
 ;
 bool
 mIsEncrypted
-;
-EncryptionInfo
-mPendingEncryptedInitData
 ;
 bool
 mDownloadSuspendedByCache
