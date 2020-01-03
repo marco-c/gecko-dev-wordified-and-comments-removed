@@ -256,8 +256,7 @@ false
 )
 mTimeThreshold
 (
--
-1
+0
 )
 mDropAudioBeforeThreshold
 (
@@ -1454,8 +1453,8 @@ mVideoReader
 >
 RequestVideoData
 (
-aSkipToNextKeyframe
-aTimeThreshold
+mDropVideoBeforeThreshold
+mTimeThreshold
 )
 -
 >
@@ -1546,8 +1545,8 @@ mVideoReader
 >
 RequestVideoData
 (
-false
-0
+mDropVideoBeforeThreshold
+mTimeThreshold
 )
 -
 >
@@ -1710,8 +1709,8 @@ mVideoReader
 >
 RequestVideoData
 (
-false
-0
+mDropVideoBeforeThreshold
+mTimeThreshold
 )
 -
 >
@@ -1741,6 +1740,10 @@ return
 mDropVideoBeforeThreshold
 =
 false
+;
+mTimeThreshold
+=
+0
 ;
 }
 mLastVideoTime
