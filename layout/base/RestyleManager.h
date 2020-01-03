@@ -263,6 +263,16 @@ return
 mAnimationGeneration
 ;
 }
+void
+IncrementAnimationGeneration
+(
+)
+{
++
++
+mAnimationGeneration
+;
+}
 bool
 SkipAnimationRules
 (
