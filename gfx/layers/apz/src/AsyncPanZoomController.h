@@ -480,6 +480,16 @@ ScrollableLayerGuid
 aGuid
 )
 ;
+bool
+HasTreeManager
+(
+const
+APZCTreeManager
+*
+aTreeManager
+)
+const
+;
 void
 StartAnimation
 (

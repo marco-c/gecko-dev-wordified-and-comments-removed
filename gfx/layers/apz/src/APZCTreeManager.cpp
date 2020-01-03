@@ -1680,6 +1680,7 @@ if
 apzc
 &
 &
+(
 !
 apzc
 -
@@ -1687,6 +1688,17 @@ apzc
 Matches
 (
 guid
+)
+|
+|
+!
+apzc
+-
+>
+HasTreeManager
+(
+this
+)
 )
 )
 {
