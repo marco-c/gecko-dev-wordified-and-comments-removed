@@ -471,6 +471,17 @@ clientIf
 ;
 }
 ;
+struct
+GattClientReadRemoteRssiRequest
+{
+int
+clientIf
+;
+nsString
+deviceAddress
+;
+}
+;
 union
 Request
 {
@@ -539,6 +550,8 @@ ConnectGattClientRequest
 DisconnectGattClientRequest
 ;
 UnregisterGattClientRequest
+;
+GattClientReadRemoteRssiRequest
 ;
 }
 ;

@@ -131,6 +131,17 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+Promise
+>
+ReadRemoteRssi
+(
+ErrorResult
+&
+aRv
+)
+;
 void
 Notify
 (
