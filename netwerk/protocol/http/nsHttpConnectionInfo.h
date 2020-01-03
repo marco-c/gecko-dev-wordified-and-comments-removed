@@ -32,15 +32,6 @@ nsStringFwd
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Logging
-.
-h
-"
 extern
 PRLogModuleInfo
 *
