@@ -4559,6 +4559,16 @@ sFontSizeInflationDisabledInMasterProcess
 ;
 }
 static
+bool
+SVGTransformOriginEnabled
+(
+)
+{
+return
+sSVGTransformOriginEnabled
+;
+}
+static
 int32_t
 FontSizeInflationMappingIntercept
 (
@@ -5165,6 +5175,10 @@ sCSSVariablesEnabled
 static
 bool
 sInterruptibleReflowEnabled
+;
+static
+bool
+sSVGTransformOriginEnabled
 ;
 static
 void
