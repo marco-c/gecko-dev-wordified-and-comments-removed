@@ -264,11 +264,6 @@ StreamList
 h
 '
 '
-StreamUtils
-.
-h
-'
-'
 Types
 .
 h
@@ -425,11 +420,6 @@ cpp
 '
 '
 StreamList
-.
-cpp
-'
-'
-StreamUtils
 .
 cpp
 '
