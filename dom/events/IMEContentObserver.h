@@ -158,6 +158,17 @@ ScrollPositionChanged
 )
 MOZ_OVERRIDE
 ;
+bool
+OnMouseButtonEvent
+(
+nsPresContext
+*
+aPresContext
+WidgetMouseEvent
+*
+aMouseEvent
+)
+;
 void
 Init
 (
