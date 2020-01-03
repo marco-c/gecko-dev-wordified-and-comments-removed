@@ -4586,7 +4586,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -4596,7 +4596,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -9837,7 +9837,7 @@ SetScrollId
 aScrollId
 )
 ;
-nsIntRect
+IntRect
 layerBound
 =
 aLayer
@@ -9945,7 +9945,7 @@ GetEventRegions
 (
 )
 ;
-nsIntRect
+IntRect
 scrollRect
 =
 LayerIntRect
@@ -9971,7 +9971,7 @@ mHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 layerBound
 .
@@ -10101,7 +10101,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10164,7 +10164,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10174,7 +10174,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10184,7 +10184,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 50
@@ -10428,7 +10428,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10438,7 +10438,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10448,7 +10448,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 10
 10
@@ -10458,7 +10458,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 10
 10
@@ -10468,7 +10468,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 5
 5
@@ -10518,7 +10518,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10528,7 +10528,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 10
 10
@@ -10538,7 +10538,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 10
 60
@@ -10548,7 +10548,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 10
 60
@@ -10690,7 +10690,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10700,7 +10700,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10710,7 +10710,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 50
 50
@@ -10720,7 +10720,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 50
 50
@@ -10730,7 +10730,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 200
@@ -10740,7 +10740,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 200
 0
@@ -10750,7 +10750,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 200
 0
@@ -10760,7 +10760,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 200
 0
@@ -10770,7 +10770,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 200
 200
@@ -10780,7 +10780,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 200
 300
@@ -10921,7 +10921,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -10931,7 +10931,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -13914,7 +13914,7 @@ SetVisibleRegion
 (
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 50
@@ -14026,7 +14026,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -14036,7 +14036,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 50
@@ -14163,7 +14163,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -14173,7 +14173,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -14183,7 +14183,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 50
@@ -14342,7 +14342,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -14352,7 +14352,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -14362,7 +14362,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -14372,7 +14372,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 50
@@ -14382,7 +14382,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 50
@@ -14559,7 +14559,7 @@ layerVisibleRegion
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -14569,7 +14569,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 20
@@ -15535,7 +15535,7 @@ layerVisibleRegions
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15545,7 +15545,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15555,7 +15555,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 100
@@ -15636,7 +15636,7 @@ regions
 (
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15660,7 +15660,7 @@ mDispatchToContentHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 100
@@ -15675,7 +15675,7 @@ mHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15701,7 +15701,7 @@ mHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 100
@@ -15778,7 +15778,7 @@ layerVisibleRegions
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15788,7 +15788,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 150
@@ -15823,7 +15823,7 @@ regions
 (
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15847,7 +15847,7 @@ mHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 150
@@ -15928,7 +15928,7 @@ layerVisibleRegions
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15938,7 +15938,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -15948,7 +15948,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 100
@@ -15958,7 +15958,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 100
@@ -16063,7 +16063,7 @@ regions
 (
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16087,7 +16087,7 @@ mHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16113,7 +16113,7 @@ mHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 100
@@ -16190,7 +16190,7 @@ layerVisibleRegions
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16200,7 +16200,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16210,7 +16210,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16299,7 +16299,7 @@ layerVisibleRegions
 {
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16309,7 +16309,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16319,7 +16319,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16329,7 +16329,7 @@ nsIntRect
 )
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16423,7 +16423,7 @@ regions
 (
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16450,7 +16450,7 @@ mHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0
@@ -16465,7 +16465,7 @@ mDispatchToContentHitRegion
 =
 nsIntRegion
 (
-nsIntRect
+IntRect
 (
 0
 0

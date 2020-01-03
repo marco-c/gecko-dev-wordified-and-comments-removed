@@ -320,7 +320,10 @@ buffer
 nsIntRegion
 validRegion
 (
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 0
 0
