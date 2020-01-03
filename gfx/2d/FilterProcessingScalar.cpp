@@ -10,6 +10,13 @@ inl
 .
 h
 "
+#
+include
+"
+Logging
+.
+h
+"
 namespace
 mozilla
 {
@@ -186,8 +193,11 @@ B8G8R8A8
 ;
 if
 (
+MOZ2D_WARN_IF
+(
 !
 target
+)
 )
 {
 return

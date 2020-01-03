@@ -6184,8 +6184,11 @@ mWidth
 ;
 if
 (
+NS_WARN_IF
+(
 !
 surf
+)
 )
 {
 return
