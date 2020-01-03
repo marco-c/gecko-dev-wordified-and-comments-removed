@@ -179,6 +179,8 @@ MacOS
 endif
 #
 _BINPATH
+ifndef
+_RESPATH
 #
 Resource
 path
@@ -196,6 +198,7 @@ _APPNAME
 Contents
 /
 Resources
+endif
 ifdef
 UNIVERSAL_BINARY
 STAGEPATH

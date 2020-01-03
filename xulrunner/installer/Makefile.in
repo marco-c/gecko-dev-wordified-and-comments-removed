@@ -177,6 +177,12 @@ _APPNAME
 Versions
 /
 Current
+_RESPATH
+:
+=
+(
+_BINPATH
+)
 endif
 include
 (
