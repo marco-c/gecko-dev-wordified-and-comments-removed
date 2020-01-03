@@ -52,9 +52,8 @@ Actions
 EventExpecter
 contentEventExpecter
 ;
-final
 String
-aboutAddonsURL
+url
 =
 StringHelper
 .
@@ -124,7 +123,6 @@ verifyPageTitle
 StringHelper
 .
 ADDONS_LABEL
-aboutAddonsURL
 )
 ;
 mActions
@@ -140,7 +138,7 @@ BACK
 ;
 loadAndPaint
 (
-aboutAddonsURL
+url
 )
 ;
 verifyPageTitle
@@ -148,7 +146,6 @@ verifyPageTitle
 StringHelper
 .
 ADDONS_LABEL
-aboutAddonsURL
 )
 ;
 tabEventExpecter
@@ -175,20 +172,14 @@ DOMContentLoaded
 "
 )
 ;
-final
-String
-blankURL
-=
+addTab
+(
 getAbsoluteUrl
 (
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
-;
-addTab
-(
-blankURL
 )
 ;
 tabEventExpecter
@@ -225,7 +216,6 @@ verifyPageTitle
 StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
-blankURL
 )
 ;
 selectMenuItem
