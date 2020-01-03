@@ -1508,6 +1508,12 @@ D
 \
 D
 (
+AccessorShape
+*
+)
+\
+D
+(
 BaseShape
 *
 )
