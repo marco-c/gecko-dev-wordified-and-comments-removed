@@ -88,7 +88,9 @@ normal
 "
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )

@@ -233,7 +233,9 @@ pleaseMatchMe
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

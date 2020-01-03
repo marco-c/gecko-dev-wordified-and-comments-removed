@@ -32,7 +32,9 @@ nodontjudgeabookbyitscover
 try
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 testURI
 )

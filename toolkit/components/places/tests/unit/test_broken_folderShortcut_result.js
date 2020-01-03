@@ -161,7 +161,9 @@ Bookmark
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 (

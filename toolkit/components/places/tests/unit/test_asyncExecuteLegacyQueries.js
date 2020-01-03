@@ -38,7 +38,9 @@ Test
 visit
 "
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

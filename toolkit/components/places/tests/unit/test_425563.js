@@ -144,7 +144,9 @@ com
 ]
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

@@ -540,7 +540,9 @@ tld
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri2
 )
@@ -993,7 +995,9 @@ org
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 newURI
 )

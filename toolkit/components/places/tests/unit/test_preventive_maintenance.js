@@ -7502,7 +7502,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -7535,7 +7537,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -7574,7 +7578,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -7615,7 +7621,9 @@ org
 "
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -7896,7 +7904,9 @@ function
 (
 )
 {
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -8276,7 +8286,9 @@ function
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {
@@ -8703,7 +8715,9 @@ test_preventive_maintenance
 )
 {
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 uri
 (

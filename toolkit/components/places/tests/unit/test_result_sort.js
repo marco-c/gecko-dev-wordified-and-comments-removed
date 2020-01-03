@@ -589,7 +589,9 @@ promiseOnItemVisited
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

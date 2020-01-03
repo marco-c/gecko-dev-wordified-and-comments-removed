@@ -289,7 +289,9 @@ do_test_pending
 (
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 url
 )

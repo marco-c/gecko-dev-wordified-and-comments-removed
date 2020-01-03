@@ -179,7 +179,9 @@ TOTAL_SITES
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -256,7 +258,9 @@ TOTAL_SITES
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

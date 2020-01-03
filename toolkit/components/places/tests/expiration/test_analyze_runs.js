@@ -223,7 +223,9 @@ TEST_TITLE
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 TEST_URI
 )

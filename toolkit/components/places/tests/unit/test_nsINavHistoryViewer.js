@@ -446,7 +446,9 @@ openedContainer
 null
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 testURI
 )
@@ -481,7 +483,9 @@ nodeChangedByHistoryDetails
 uri
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -529,7 +533,9 @@ com
 "
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 removedURI
 )

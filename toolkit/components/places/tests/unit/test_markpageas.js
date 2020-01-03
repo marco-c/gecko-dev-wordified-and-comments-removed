@@ -241,7 +241,9 @@ else
 {
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

@@ -109,7 +109,9 @@ TOPIC_FAVICONS_EXPIRED
 false
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

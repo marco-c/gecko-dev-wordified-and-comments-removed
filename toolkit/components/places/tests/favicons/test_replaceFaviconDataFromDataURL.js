@@ -365,7 +365,9 @@ bar
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )
@@ -527,7 +529,9 @@ bar
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )
@@ -709,7 +713,9 @@ bar
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )
@@ -909,7 +915,9 @@ bar
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )
@@ -1218,7 +1226,9 @@ bar
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )
@@ -1411,7 +1421,9 @@ bar
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )
@@ -1611,7 +1623,9 @@ bar
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 pageURI
 )

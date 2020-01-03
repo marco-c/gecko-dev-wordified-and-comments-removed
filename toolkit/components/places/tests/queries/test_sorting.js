@@ -1905,7 +1905,9 @@ _unsortedData
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

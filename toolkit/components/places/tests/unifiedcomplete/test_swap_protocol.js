@@ -149,7 +149,9 @@ wwwwwwacko
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

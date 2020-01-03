@@ -37,7 +37,9 @@ false
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -133,7 +135,9 @@ false
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -227,7 +231,9 @@ it
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -300,7 +306,9 @@ it
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
@@ -389,7 +397,9 @@ it
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .
@@ -474,7 +484,9 @@ it
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri

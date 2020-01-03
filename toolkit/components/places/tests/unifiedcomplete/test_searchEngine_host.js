@@ -429,7 +429,9 @@ Search
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )
@@ -625,7 +627,9 @@ false
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 NetUtil
 .

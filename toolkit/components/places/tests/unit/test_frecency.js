@@ -548,7 +548,9 @@ TRANSITION_TYPED
 ;
 }
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 visits
 )

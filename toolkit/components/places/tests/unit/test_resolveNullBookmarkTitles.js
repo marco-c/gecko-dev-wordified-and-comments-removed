@@ -49,7 +49,9 @@ tld
 "
 )
 ;
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 [
 {

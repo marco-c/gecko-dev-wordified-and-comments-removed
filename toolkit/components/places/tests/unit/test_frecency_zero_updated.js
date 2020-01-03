@@ -99,7 +99,9 @@ TEST_URI
 )
 ;
 yield
-promiseAddVisits
+PlacesTestUtils
+.
+addVisits
 (
 {
 uri
