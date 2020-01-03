@@ -109,6 +109,7 @@ mInputType
 MULTITOUCH_INPUT
 )
 {
+return
 aTarget
 -
 >
@@ -116,9 +117,6 @@ HandleInputEvent
 (
 aEvent
 )
-;
-return
-nsEventStatus_eConsumeDoDefault
 ;
 }
 TouchBlockState

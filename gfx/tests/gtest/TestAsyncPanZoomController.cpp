@@ -2004,7 +2004,7 @@ actualStatus
 aApzc
 -
 >
-HandleGestureEvent
+ReceiveInputEvent
 (
 PinchGestureInput
 (
@@ -2029,6 +2029,7 @@ aFocusY
 0
 0
 )
+nullptr
 )
 ;
 if
@@ -2052,7 +2053,7 @@ actualStatus
 aApzc
 -
 >
-HandleGestureEvent
+ReceiveInputEvent
 (
 PinchGestureInput
 (
@@ -2079,6 +2080,7 @@ aScale
 0
 0
 )
+nullptr
 )
 ;
 if
@@ -2102,7 +2104,7 @@ actualStatus
 aApzc
 -
 >
-HandleGestureEvent
+ReceiveInputEvent
 (
 PinchGestureInput
 (
@@ -2129,6 +2131,7 @@ aFocusY
 0
 0
 )
+nullptr
 )
 ;
 if
