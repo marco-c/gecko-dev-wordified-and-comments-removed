@@ -583,6 +583,14 @@ ARIARole
 )
 ;
 virtual
+nsIAtom
+*
+LandmarkRole
+(
+)
+const
+;
+virtual
 mozilla
 :
 :
@@ -1643,6 +1651,12 @@ RootAccessible
 AsRoot
 (
 )
+;
+bool
+IsSearchbox
+(
+)
+const
 ;
 bool
 IsSelect
@@ -2744,7 +2758,7 @@ const
 uint8_t
 kGenericTypesBits
 =
-13
+14
 ;
 uint32_t
 mChildrenFlags
