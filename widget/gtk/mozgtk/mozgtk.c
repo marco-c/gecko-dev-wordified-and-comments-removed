@@ -247,6 +247,14 @@ gdk_screen_get_height_mm
 )
 STUB
 (
+gdk_screen_get_monitor_at_window
+)
+STUB
+(
+gdk_screen_get_monitor_geometry
+)
+STUB
+(
 gdk_screen_get_number
 )
 STUB
