@@ -1669,7 +1669,10 @@ const
 Class
 *
 clasp
+Handle
+<
 TaggedProto
+>
 proto
 HandleObject
 parent
@@ -1709,7 +1712,10 @@ const
 Class
 *
 clasp
+Handle
+<
 TaggedProto
+>
 proto
 HandleObject
 parent
