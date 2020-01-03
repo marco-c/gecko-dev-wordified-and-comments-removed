@@ -81,6 +81,13 @@ Monitor
 .
 h
 "
+#
+include
+"
+OggDecoder
+.
+h
+"
 namespace
 mozilla
 {

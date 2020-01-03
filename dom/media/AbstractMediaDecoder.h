@@ -143,6 +143,16 @@ const
 ;
 virtual
 bool
+IsOggDecoderShutdown
+(
+)
+{
+return
+false
+;
+}
+virtual
+bool
 OnStateMachineTaskQueue
 (
 )
