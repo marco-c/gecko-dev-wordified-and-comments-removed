@@ -326,6 +326,14 @@ LOCAL_INCLUDES
 /
 base
 '
+'
+/
+media
+/
+libyuv
+/
+include
+'
 ]
 include
 (

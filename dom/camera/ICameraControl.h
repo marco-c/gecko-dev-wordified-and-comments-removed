@@ -218,6 +218,9 @@ maxVideoLengthMs
 bool
 autoEnableLowLightTorch
 ;
+bool
+createPoster
+;
 }
 ;
 struct
