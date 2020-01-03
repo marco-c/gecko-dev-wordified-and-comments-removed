@@ -9160,6 +9160,8 @@ aPseudoTag
 nsStyleContext
 *
 aParentContext
+uint32_t
+aFlags
 )
 {
 NS_ENSURE_FALSE
@@ -9399,7 +9401,7 @@ nsCSSPseudoElements
 :
 ePseudo_AnonBox
 nullptr
-eNoFlags
+aFlags
 )
 ;
 }
