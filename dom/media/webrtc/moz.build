@@ -268,11 +268,6 @@ EXPORTS
 =
 [
 '
-GonkCameraImage
-.
-h
-'
-'
 MediaEngineGonkVideoSource
 .
 h
@@ -282,11 +277,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-GonkCameraImage
-.
-cpp
-'
 '
 MediaEngineGonkVideoSource
 .
