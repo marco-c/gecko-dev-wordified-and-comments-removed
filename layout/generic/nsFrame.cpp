@@ -35310,6 +35310,15 @@ fType
 nsGkAtoms
 :
 :
+listControlFrame
+|
+|
+fType
+=
+=
+nsGkAtoms
+:
+:
 svgOuterSVGFrame
 )
 {
