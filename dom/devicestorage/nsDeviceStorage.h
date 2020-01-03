@@ -889,6 +889,12 @@ nsIPrincipal
 >
 mPrincipal
 ;
+nsCOMPtr
+<
+nsIContentPermissionRequester
+>
+mRequester
+;
 }
 ;
 bool

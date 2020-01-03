@@ -58,7 +58,7 @@ MPL
 /
 include
 protocol
-PBrowser
+PContent
 ;
 include
 PContentPermission
@@ -73,7 +73,7 @@ protocol
 PContentPermissionRequest
 {
 manager
-PBrowser
+PContent
 ;
 parent
 :
@@ -81,8 +81,18 @@ prompt
 (
 )
 ;
+NotifyVisibility
+(
+bool
+visibility
+)
+;
 child
 :
+GetVisibility
+(
+)
+;
 __delete__
 (
 bool
