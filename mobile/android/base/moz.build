@@ -3115,13 +3115,6 @@ java
 '
 toolbar
 /
-TabletTabsButton
-.
-java
-'
-'
-toolbar
-/
 ToolbarDisplayLayout
 .
 java
