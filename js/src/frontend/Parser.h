@@ -169,11 +169,6 @@ funHasReturnVoid
 1
 ;
 bool
-parsingForInit
-:
-1
-;
-bool
 parsingWith
 :
 1
@@ -201,10 +196,6 @@ funHasReturnExpr
 false
 )
 funHasReturnVoid
-(
-false
-)
-parsingForInit
 (
 false
 )
