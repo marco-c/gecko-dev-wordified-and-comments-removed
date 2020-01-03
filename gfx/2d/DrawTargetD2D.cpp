@@ -7673,6 +7673,12 @@ new
 GradientStopsD2D
 (
 stopCollection
+Factory
+:
+:
+GetDirect3D11Device
+(
+)
 )
 ;
 }
