@@ -403,6 +403,13 @@ return
 sSelf
 ;
 }
+static
+DOMLocalStorageManager
+*
+Ensure
+(
+)
+;
 private
 :
 static

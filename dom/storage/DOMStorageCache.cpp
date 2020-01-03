@@ -2928,7 +2928,7 @@ DOMStorageDBChild
 DOMLocalStorageManager
 :
 :
-Self
+Ensure
 (
 )
 )
