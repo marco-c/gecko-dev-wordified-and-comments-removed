@@ -1155,16 +1155,7 @@ ParticipatesInJustification
 (
 )
 const
-{
-return
-!
-mIsBullet
-&
-&
-!
-mIsEmpty
 ;
-}
 }
 ;
 PerFrameData
