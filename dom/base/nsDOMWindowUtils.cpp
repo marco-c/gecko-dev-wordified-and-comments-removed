@@ -765,13 +765,6 @@ gfx
 class
 gfxContext
 ;
-static
-NS_DEFINE_CID
-(
-kAppShellCID
-NS_APPSHELL_CID
-)
-;
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMWindowUtils
