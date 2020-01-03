@@ -12616,7 +12616,7 @@ asTenured
 (
 )
 .
-zone
+zoneFromAnyThread
 (
 )
 )

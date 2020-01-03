@@ -2873,6 +2873,8 @@ JSCompartment
 compartment
 HandleFunction
 fun
+HandleObject
+newParent
 )
 ;
 extern

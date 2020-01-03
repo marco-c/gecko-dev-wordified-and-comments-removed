@@ -5914,6 +5914,19 @@ return
 false
 ;
 }
+RootedObject
+global
+(
+cx
+&
+fun
+-
+>
+global
+(
+)
+)
+;
 bool
 useSameScript
 =
@@ -5926,6 +5939,7 @@ compartment
 (
 )
 currentCallee
+global
 )
 ;
 if
