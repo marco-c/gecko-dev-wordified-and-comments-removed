@@ -844,11 +844,11 @@ DOMStorageDBChild
 :
 RecvScopesHavingData
 (
-const
-InfallibleTArray
+nsTArray
 <
 nsCString
 >
+&
 &
 aScopes
 )

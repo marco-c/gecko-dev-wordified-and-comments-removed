@@ -2153,11 +2153,11 @@ const
 bool
 &
 aAllow
-const
-nsTArray
+InfallibleTArray
 <
 PermissionChoice
 >
+&
 &
 aChoices
 )

@@ -322,17 +322,16 @@ const
 *
 '
         
-if
-t
-.
-ref
-:
 ts
 +
 =
 '
 &
 '
+*
+t
+.
+ref
         
 self
 .
@@ -2464,6 +2463,21 @@ write
 '
 )
 '
+)
+    
+def
+visitExprMove
+(
+self
+em
+)
+:
+        
+self
+.
+visitExprCall
+(
+em
 )
     
 def

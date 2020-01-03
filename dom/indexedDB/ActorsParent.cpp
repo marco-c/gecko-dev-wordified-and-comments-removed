@@ -13301,11 +13301,11 @@ RecvPBackgroundIDBTransactionConstructor
 PBackgroundIDBTransactionParent
 *
 aActor
-const
-nsTArray
+InfallibleTArray
 <
 nsString
 >
+&
 &
 aObjectStoreNames
 const
@@ -24048,11 +24048,11 @@ RecvPBackgroundIDBTransactionConstructor
 PBackgroundIDBTransactionParent
 *
 aActor
-const
-nsTArray
+InfallibleTArray
 <
 nsString
 >
+&
 &
 aObjectStoreNames
 const

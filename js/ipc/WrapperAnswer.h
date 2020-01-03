@@ -246,11 +246,11 @@ const
 ObjectId
 &
 objId
-const
-nsTArray
+InfallibleTArray
 <
 JSParam
 >
+&
 &
 argv
 const

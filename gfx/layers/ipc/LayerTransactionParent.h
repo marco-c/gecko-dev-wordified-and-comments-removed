@@ -408,8 +408,8 @@ virtual
 bool
 RecvUpdate
 (
-const
 EditArray
+&
 &
 cset
 const
@@ -453,8 +453,8 @@ virtual
 bool
 RecvUpdateNoSwap
 (
-const
 EditArray
+&
 &
 cset
 const
@@ -665,11 +665,11 @@ virtual
 bool
 RecvChildAsyncMessages
 (
-const
 InfallibleTArray
 <
 AsyncChildMessageData
 >
+&
 &
 aMessages
 )

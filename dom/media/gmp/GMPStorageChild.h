@@ -330,11 +330,11 @@ const
 GMPErr
 &
 aStatus
-const
 InfallibleTArray
 <
 uint8_t
 >
+&
 &
 aBytes
 )
@@ -359,11 +359,11 @@ virtual
 bool
 RecvRecordNames
 (
-const
 InfallibleTArray
 <
 nsCString
 >
+&
 &
 aRecordNames
 const

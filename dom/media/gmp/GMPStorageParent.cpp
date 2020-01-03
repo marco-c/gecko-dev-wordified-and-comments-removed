@@ -2503,11 +2503,11 @@ const
 nsCString
 &
 aRecordName
-const
 InfallibleTArray
 <
 uint8_t
 >
+&
 &
 aBytes
 )

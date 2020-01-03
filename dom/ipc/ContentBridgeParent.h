@@ -241,7 +241,6 @@ const
 ClonedMessageData
 &
 aData
-const
 InfallibleTArray
 <
 jsipc
@@ -249,6 +248,7 @@ jsipc
 :
 CpowEntry
 >
+&
 &
 aCpows
 const
@@ -279,7 +279,6 @@ const
 ClonedMessageData
 &
 aData
-const
 InfallibleTArray
 <
 jsipc
@@ -287,6 +286,7 @@ jsipc
 :
 CpowEntry
 >
+&
 &
 aCpows
 const

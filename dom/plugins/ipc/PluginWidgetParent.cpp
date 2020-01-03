@@ -1018,11 +1018,11 @@ PluginWidgetParent
 :
 RecvSetWindowClipRegion
 (
-const
-nsTArray
+InfallibleTArray
 <
 nsIntRect
 >
+&
 &
 Regions
 const

@@ -514,11 +514,11 @@ const
 uint64_t
 &
 objId
-const
-nsTArray
+InfallibleTArray
 <
 JSParam
 >
+&
 &
 argv
 const
@@ -552,7 +552,10 @@ deserialize
 (
 objId
 )
+Move
+(
 argv
+)
 construct
 rs
 result

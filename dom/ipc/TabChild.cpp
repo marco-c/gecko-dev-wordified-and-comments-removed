@@ -13522,11 +13522,11 @@ const
 ClonedMessageData
 &
 aData
-const
 InfallibleTArray
 <
 CpowEntry
 >
+&
 &
 aCpows
 const

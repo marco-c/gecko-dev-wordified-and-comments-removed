@@ -263,11 +263,11 @@ const
 GMPVideoCodec
 &
 aCodecSettings
-const
-nsTArray
+InfallibleTArray
 <
 uint8_t
 >
+&
 &
 aCodecSpecific
 const
@@ -289,11 +289,11 @@ const
 bool
 &
 aMissingFrames
-const
-nsTArray
+InfallibleTArray
 <
 uint8_t
 >
+&
 &
 aCodecSpecificInfo
 const
@@ -308,6 +308,7 @@ bool
 RecvChildShmemForPool
 (
 Shmem
+&
 &
 aFrameBuffer
 )
