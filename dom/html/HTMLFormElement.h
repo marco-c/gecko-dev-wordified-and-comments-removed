@@ -1380,6 +1380,17 @@ bool
 aEarlyNotify
 )
 ;
+nsresult
+DoSecureToInsecureSubmitCheck
+(
+nsIURI
+*
+aActionURL
+bool
+*
+aCancelSubmit
+)
+;
 already_AddRefed
 <
 nsISupports
