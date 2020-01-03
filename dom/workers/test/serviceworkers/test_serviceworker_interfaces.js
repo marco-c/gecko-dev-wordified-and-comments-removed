@@ -379,6 +379,9 @@ IDBTransaction
 IDBVersionChangeEvent
 "
 "
+ImageBitmap
+"
+"
 ImageData
 "
 "
