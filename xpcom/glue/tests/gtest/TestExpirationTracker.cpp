@@ -201,7 +201,7 @@ static
 uint32_t
 slackMS
 =
-20
+30
 ;
 template
 <
