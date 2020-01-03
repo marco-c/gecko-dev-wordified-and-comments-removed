@@ -111,4 +111,5 @@ members
 extract
 extract_tarball
 extract_zip
+move
 remove
