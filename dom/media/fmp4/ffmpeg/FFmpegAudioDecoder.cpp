@@ -706,8 +706,10 @@ Error
 return
 ;
 }
+nsRefPtr
+<
 AudioData
-*
+>
 data
 =
 new
