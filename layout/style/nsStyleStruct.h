@@ -12663,13 +12663,12 @@ HasFilters
 const
 {
 return
+!
 mFilters
 .
-Length
+IsEmpty
 (
 )
->
-0
 ;
 }
 bool
