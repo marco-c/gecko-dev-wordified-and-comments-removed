@@ -132,8 +132,6 @@ widgetCategory
 =
 "
 home_screen
-|
-keyguard
 "
 android
 :
@@ -152,15 +150,6 @@ initialLayout
 layout
 /
 search_widget
-"
-android
-:
-initialKeyguardLayout
-=
-"
-layout
-/
-keyguard_widget
 "
 /
 >
