@@ -440,11 +440,8 @@ aArg
 )
 ;
 uint32_t
-GetMaxAlternatives
+MaxAlternatives
 (
-ErrorResult
-&
-aRv
 )
 const
 ;
@@ -453,9 +450,6 @@ SetMaxAlternatives
 (
 uint32_t
 aArg
-ErrorResult
-&
-aRv
 )
 ;
 void

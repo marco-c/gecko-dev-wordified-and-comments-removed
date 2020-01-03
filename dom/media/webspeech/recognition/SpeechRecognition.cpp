@@ -2769,11 +2769,8 @@ uint32_t
 SpeechRecognition
 :
 :
-GetMaxAlternatives
+MaxAlternatives
 (
-ErrorResult
-&
-aRv
 )
 const
 {
@@ -2789,9 +2786,6 @@ SetMaxAlternatives
 (
 uint32_t
 aArg
-ErrorResult
-&
-aRv
 )
 {
 mMaxAlternatives

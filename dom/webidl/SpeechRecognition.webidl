@@ -200,9 +200,6 @@ attribute
 boolean
 interimResults
 ;
-[
-Throws
-]
 attribute
 unsigned
 long

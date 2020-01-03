@@ -415,9 +415,6 @@ SpeechRecognitionResult
 mRecognition
 )
 ;
-ErrorResult
-rv
-;
 if
 (
 0
@@ -425,9 +422,8 @@ if
 mRecognition
 -
 >
-GetMaxAlternatives
+MaxAlternatives
 (
-rv
 )
 )
 {
