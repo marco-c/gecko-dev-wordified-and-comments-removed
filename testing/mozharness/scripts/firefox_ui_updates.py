@@ -2043,13 +2043,15 @@ symbols_url
 try
 :
                 
-return
 urllib2
 .
 urlopen
 (
-symbols_url
+symbols_path
 )
+                
+return
+symbols_path
             
 except
 urllib2
