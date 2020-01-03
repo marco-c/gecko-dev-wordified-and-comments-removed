@@ -765,15 +765,7 @@ subjectPublicKeyInfo
 )
 {
 return
-:
-:
-mozilla
-:
-:
-pkix
-:
-:
-CheckPublicKey
+TestCheckPublicKey
 (
 subjectPublicKeyInfo
 )
