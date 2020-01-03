@@ -288,6 +288,14 @@ ins
 )
 ;
 void
+visitAsmJSAtomicExchangeHeap
+(
+LAsmJSAtomicExchangeHeap
+*
+ins
+)
+;
+void
 visitAsmJSAtomicBinopHeap
 (
 LAsmJSAtomicBinopHeap

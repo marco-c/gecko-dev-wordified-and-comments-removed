@@ -340,6 +340,17 @@ int32_t
 newval
 )
 ;
+int32_t
+atomics_xchg_asm_callout
+(
+int32_t
+vt
+int32_t
+offset
+int32_t
+value
+)
+;
 class
 FutexRuntime
 {

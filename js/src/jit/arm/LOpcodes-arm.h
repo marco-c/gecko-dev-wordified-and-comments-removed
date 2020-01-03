@@ -108,6 +108,11 @@ AsmJSCompareExchangeCallout
 \
 _
 (
+AsmJSAtomicExchangeCallout
+)
+\
+_
+(
 AsmJSAtomicBinopCallout
 )
 #

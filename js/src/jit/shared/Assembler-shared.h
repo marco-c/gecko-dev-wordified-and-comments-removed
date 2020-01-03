@@ -3018,6 +3018,12 @@ AsmJSExit
 :
 :
 Builtin_AtomicCmpXchg
+AsmJSImm_AtomicXchg
+=
+AsmJSExit
+:
+:
+Builtin_AtomicXchg
 AsmJSImm_AtomicFetchAdd
 =
 AsmJSExit
