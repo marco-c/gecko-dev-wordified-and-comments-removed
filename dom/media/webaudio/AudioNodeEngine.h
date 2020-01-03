@@ -1231,9 +1231,7 @@ aMallocSizeOf
 ;
 if
 (
-HasNode
-(
-)
+mNode
 )
 {
 aUsage
