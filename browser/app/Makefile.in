@@ -590,6 +590,8 @@ pref
 call
 py_action
 preprocessor
+-
+Fsubstitution
 (
 PREF_PPFLAGS
 )
