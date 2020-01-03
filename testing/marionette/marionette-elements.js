@@ -1925,6 +1925,11 @@ ids
 .
 push
 (
+{
+'
+ELEMENT
+'
+:
 this
 .
 addToKnownElements
@@ -1934,6 +1939,7 @@ found
 i
 ]
 )
+}
 )
 ;
 }
