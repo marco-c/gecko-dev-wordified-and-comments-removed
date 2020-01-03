@@ -389,6 +389,7 @@ android
 layout_toLeftOf
 =
 "
++
 id
 /
 menu_items
@@ -742,7 +743,6 @@ android
 id
 =
 "
-+
 id
 /
 menu_items

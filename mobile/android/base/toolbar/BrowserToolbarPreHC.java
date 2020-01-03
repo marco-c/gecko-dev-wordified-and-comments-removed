@@ -225,14 +225,6 @@ tabsCounter
 curveTranslation
 )
 ;
-ViewHelper
-.
-setTranslationX
-(
-actionItemBar
-curveTranslation
-)
-;
 if
 (
 !
