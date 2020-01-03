@@ -366,9 +366,6 @@ nsHTMLReflowState
 >
 &
 aReflowStates
-nsReflowStatus
-&
-aStatus
 )
 ;
 struct

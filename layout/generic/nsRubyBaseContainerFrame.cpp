@@ -1754,15 +1754,6 @@ ReflowSpans
 aPresContext
 aReflowState
 spanReflowStates
-aStatus
-)
-;
-MOZ_ASSERT
-(
-aStatus
-=
-=
-NS_FRAME_COMPLETE
 )
 ;
 if
@@ -3191,9 +3182,6 @@ nsHTMLReflowState
 >
 &
 aReflowStates
-nsReflowStatus
-&
-aStatus
 )
 {
 WritingMode
