@@ -237,11 +237,6 @@ return
 mDT
 ;
 }
-bool
-HasError
-(
-)
-;
 void
 Save
 (
