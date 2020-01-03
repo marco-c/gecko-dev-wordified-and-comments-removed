@@ -3348,7 +3348,7 @@ bool
 mShutdownPending
 ;
 bool
-mShutdownComplete
+mIPCOpen
 ;
 friend
 class
