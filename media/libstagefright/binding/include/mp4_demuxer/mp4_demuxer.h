@@ -314,6 +314,11 @@ Microseconds
 aTime
 )
 ;
+Microseconds
+GetNextKeyframeTime
+(
+)
+;
 private
 :
 AudioDecoderConfig
@@ -361,6 +366,9 @@ mTimestampOffset
 Monitor
 *
 mMonitor
+;
+Microseconds
+mNextKeyframeTime
 ;
 }
 ;
