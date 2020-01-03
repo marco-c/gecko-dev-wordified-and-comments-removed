@@ -379,6 +379,11 @@ outerWindowID
 uint64_t
 parentOuterWindowID
 ;
+PrincipalInfo
+[
+]
+redirectChain
+;
 }
 ;
 /
