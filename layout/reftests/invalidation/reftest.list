@@ -137,6 +137,12 @@ layers
 ref
 .
 html
+random
+-
+if
+(
+B2G
+)
 =
 =
 test
