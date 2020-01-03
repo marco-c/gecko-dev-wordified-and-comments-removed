@@ -428,6 +428,9 @@ IsWaitingOnCDMResource
 (
 )
 {
+#
+ifdef
+MOZ_EME
 ReentrantMonitorAutoEnter
 mon
 (
@@ -482,6 +485,13 @@ IsEncrypted
 !
 mCDMProxy
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 size_t
 MediaSourceReader
