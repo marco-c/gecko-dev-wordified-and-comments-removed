@@ -109,7 +109,7 @@ c
 SharedLibrary
 (
 '
-replace_malloc
+dummy_replace_malloc
 '
 )
 DISABLE_STL_WRAPPING
