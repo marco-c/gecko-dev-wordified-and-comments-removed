@@ -2340,12 +2340,16 @@ override
 ;
 virtual
 bool
-RecvNavigateDocument
+RecvNavigateByKey
 (
 const
 bool
 &
 aForward
+const
+bool
+&
+aForDocumentNavigation
 )
 override
 ;
