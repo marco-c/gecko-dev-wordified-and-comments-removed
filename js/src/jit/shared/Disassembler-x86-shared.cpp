@@ -53,6 +53,7 @@ jit
 :
 Disassembler
 ;
+MOZ_COLD
 static
 bool
 REX_W
@@ -72,6 +73,7 @@ rex
 0x1
 ;
 }
+MOZ_COLD
 static
 bool
 REX_R
@@ -91,6 +93,7 @@ rex
 0x1
 ;
 }
+MOZ_COLD
 static
 bool
 REX_X
@@ -110,6 +113,7 @@ rex
 0x1
 ;
 }
+MOZ_COLD
 static
 bool
 REX_B
@@ -129,6 +133,7 @@ rex
 0x1
 ;
 }
+MOZ_COLD
 static
 uint8_t
 MakeREXFlags
@@ -174,7 +179,7 @@ b
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 REX_W
 (
@@ -185,7 +190,7 @@ rex
 w
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 REX_R
 (
@@ -196,7 +201,7 @@ rex
 r
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 REX_X
 (
@@ -207,7 +212,7 @@ rex
 x
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 REX_B
 (
@@ -222,6 +227,7 @@ return
 rex
 ;
 }
+MOZ_COLD
 static
 ModRmMode
 ModRM_Mode
@@ -244,6 +250,7 @@ modrm
 )
 ;
 }
+MOZ_COLD
 static
 uint8_t
 ModRM_Reg
@@ -263,6 +270,7 @@ modrm
 0x7
 ;
 }
+MOZ_COLD
 static
 uint8_t
 ModRM_RM
@@ -282,6 +290,7 @@ modrm
 0x7
 ;
 }
+MOZ_COLD
 static
 bool
 ModRM_hasSIB
@@ -309,6 +318,7 @@ modrm
 hasSib
 ;
 }
+MOZ_COLD
 static
 bool
 ModRM_hasDisp8
@@ -327,6 +337,7 @@ modrm
 ModRmMemoryDisp8
 ;
 }
+MOZ_COLD
 static
 bool
 ModRM_hasRIP
@@ -364,6 +375,7 @@ false
 #
 endif
 }
+MOZ_COLD
 static
 bool
 ModRM_hasDisp32
@@ -388,6 +400,7 @@ modrm
 )
 ;
 }
+MOZ_COLD
 static
 uint8_t
 SIB_SS
@@ -407,6 +420,7 @@ sib
 0x3
 ;
 }
+MOZ_COLD
 static
 uint8_t
 SIB_Index
@@ -426,6 +440,7 @@ sib
 0x7
 ;
 }
+MOZ_COLD
 static
 uint8_t
 SIB_Base
@@ -445,6 +460,7 @@ sib
 0x7
 ;
 }
+MOZ_COLD
 static
 bool
 SIB_hasRIP
@@ -472,6 +488,7 @@ sib
 noIndex
 ;
 }
+MOZ_COLD
 static
 bool
 HasRIP
@@ -497,6 +514,7 @@ sib
 )
 ;
 }
+MOZ_COLD
 static
 bool
 HasDisp8
@@ -512,6 +530,7 @@ modrm
 )
 ;
 }
+MOZ_COLD
 static
 bool
 HasDisp32
@@ -558,6 +577,7 @@ ModRmMemoryNoDisp
 )
 ;
 }
+MOZ_COLD
 static
 uint32_t
 Reg
@@ -587,6 +607,7 @@ rex
 )
 ;
 }
+MOZ_COLD
 static
 bool
 HasBase
@@ -632,6 +653,7 @@ modrm
 ModRmMemoryNoDisp
 ;
 }
+MOZ_COLD
 static
 RegisterID
 DecodeBase
@@ -684,6 +706,7 @@ rex
 invalid_reg
 ;
 }
+MOZ_COLD
 static
 RegisterID
 DecodeIndex
@@ -734,6 +757,7 @@ index
 invalid_reg
 ;
 }
+MOZ_COLD
 static
 uint32_t
 DecodeScale
@@ -1996,7 +2020,7 @@ instruction
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 haveImm
 )
@@ -2037,7 +2061,7 @@ instruction
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 haveImm
 )
@@ -2058,7 +2082,7 @@ break
 case
 OP_MOV_GvEv
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2087,7 +2111,7 @@ break
 case
 OP_MOV_GvEb
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2175,7 +2199,7 @@ Pack2ByteOpcode
 OP2_MOVZX_GvEb
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2207,7 +2231,7 @@ Pack2ByteOpcode
 OP2_MOVZX_GvEw
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2239,7 +2263,7 @@ Pack2ByteOpcode
 OP2_MOVSX_GvEb
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2271,7 +2295,7 @@ Pack2ByteOpcode
 OP2_MOVSX_GvEw
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2309,7 +2333,7 @@ Pack2ByteOpcode
 OP2_MOVAPS_VsdWsd
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2341,7 +2365,7 @@ Pack2ByteOpcode
 OP2_MOVSD_VsdWsd
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2416,7 +2440,7 @@ Pack2ByteOpcode
 OP2_MOVDQ_WdqVdq
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2448,7 +2472,7 @@ Pack2ByteOpcode
 OP2_MOVSD_WsdVsd
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2523,7 +2547,7 @@ Pack2ByteOpcode
 OP2_MOVD_VdEd
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2577,7 +2601,7 @@ Pack2ByteOpcode
 OP2_MOVQ_WdVd
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
@@ -2631,7 +2655,7 @@ Pack2ByteOpcode
 OP2_MOVD_EdVd
 )
 :
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 haveImm
