@@ -1720,7 +1720,7 @@ tv_sec
 >
 timeLimit
 .
-tv_nsec
+tv_sec
 |
 |
 (
@@ -1731,7 +1731,7 @@ tv_sec
 =
 timeLimit
 .
-tv_nsec
+tv_sec
 &
 &
 now
