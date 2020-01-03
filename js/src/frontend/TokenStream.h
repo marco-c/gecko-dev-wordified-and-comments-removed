@@ -2944,7 +2944,7 @@ bool
 getStringOrTemplateToken
 (
 int
-qc
+untilChar
 Token
 *
 *
@@ -3266,12 +3266,6 @@ sourceMapURL_
 ;
 CharBuffer
 tokenbuf
-;
-bool
-maybeStrSpecial
-[
-256
-]
 ;
 uint8_t
 isExprEnding
