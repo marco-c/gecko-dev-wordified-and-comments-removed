@@ -6717,6 +6717,8 @@ JS_ASSERT
 (
 !
 SupportsSimd
+(
+)
 &
 &
 simdSet
@@ -6929,6 +6931,8 @@ JS_ASSERT
 (
 !
 SupportsSimd
+(
+)
 &
 &
 simdSet
@@ -15302,7 +15306,7 @@ framePushed
 (
 )
 %
-StackAlignment
+ABIStackAlignment
 )
 ;
 reserveStack
