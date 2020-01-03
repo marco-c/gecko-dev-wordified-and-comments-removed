@@ -48,6 +48,9 @@ new
 size_t
 x
 )
+throw
+(
+)
 {
 return
 0
