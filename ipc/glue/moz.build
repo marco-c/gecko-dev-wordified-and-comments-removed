@@ -725,12 +725,6 @@ LOCAL_INCLUDES
 [
 '
 /
-dom
-/
-indexedDB
-'
-'
-/
 xpcom
 /
 build
