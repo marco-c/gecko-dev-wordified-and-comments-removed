@@ -10,9 +10,9 @@ manifestparser
 PACKAGE_VERSION
 =
 '
-1
-.
 0
+.
+9
 '
 setup
 (
