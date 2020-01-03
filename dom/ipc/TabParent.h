@@ -436,6 +436,10 @@ const
 bool
 &
 aForward
+const
+bool
+&
+aForDocumentNavigation
 )
 override
 ;
