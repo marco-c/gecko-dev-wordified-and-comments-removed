@@ -732,7 +732,7 @@ Length
 &
 err
 )
-0
+0u
 )
 ;
 EXPECT_FALSE
