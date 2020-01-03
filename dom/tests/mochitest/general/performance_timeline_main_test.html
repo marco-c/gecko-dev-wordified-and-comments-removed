@@ -154,8 +154,9 @@ image
 was
 loaded
 .
-is
-(
+var
+nEntries
+=
 window
 .
 performance
@@ -165,6 +166,12 @@ getEntries
 )
 .
 length
+;
+ok
+(
+nEntries
+>
+=
 4
 "
 Performance
@@ -293,7 +300,9 @@ getEntries
 )
 .
 length
-7
+nEntries
++
+3
 "
 User
 Timing
