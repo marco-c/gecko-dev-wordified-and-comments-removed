@@ -43,6 +43,11 @@ null
 array
 )
 ;
+const
+HEADER_LENGTH
+=
+21
+;
 let
 logMessages
 =
@@ -57,6 +62,8 @@ pos
 while
 (
 pos
++
+HEADER_LENGTH
 <
 byteString
 .
