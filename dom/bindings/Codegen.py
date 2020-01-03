@@ -11590,7 +11590,7 @@ nullptr
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 result
@@ -39958,7 +39958,7 @@ owned
 wrapMethod
 =
 "
-WrapNewBindingObject
+GetOrCreateDOMReflector
 "
             
 else
@@ -93993,7 +93993,7 @@ cx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 impl
@@ -95974,7 +95974,7 @@ cx
 ;
             
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 impl

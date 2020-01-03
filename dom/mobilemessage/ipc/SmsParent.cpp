@@ -427,7 +427,7 @@ blobImpl
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aContext
 blob

@@ -33111,7 +33111,7 @@ blobImpl
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 blob
@@ -59410,7 +59410,7 @@ ErrorCode
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 console

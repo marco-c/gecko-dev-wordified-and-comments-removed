@@ -2826,7 +2826,7 @@ aCx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 newBlob

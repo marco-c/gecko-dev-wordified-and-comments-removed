@@ -1672,7 +1672,7 @@ aCx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 cur

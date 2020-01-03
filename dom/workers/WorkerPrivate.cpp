@@ -1570,7 +1570,7 @@ aCx
 ;
 if
 (
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 blob
@@ -1983,7 +1983,7 @@ blobImpl
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 blob

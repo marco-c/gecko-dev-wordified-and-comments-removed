@@ -3005,7 +3005,7 @@ aCx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 aFile
@@ -3096,7 +3096,7 @@ aCx
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 aFile

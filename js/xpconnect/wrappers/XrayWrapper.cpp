@@ -5928,7 +5928,7 @@ true
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 f

@@ -457,7 +457,7 @@ blobImpl
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 blob

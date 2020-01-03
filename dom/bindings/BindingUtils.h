@@ -3840,7 +3840,7 @@ T
 >
 MOZ_ALWAYS_INLINE
 bool
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 JSContext
 *
@@ -6996,12 +6996,12 @@ T
 Value
 >
 struct
-WrapNewBindingObjectHelper
+GetOrCreateDOMReflectorHelper
 {
 static
 inline
 bool
-Wrap
+GetOrCreate
 (
 JSContext
 *
@@ -7024,7 +7024,7 @@ rval
 )
 {
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 value
@@ -7044,7 +7044,7 @@ class
 T
 >
 struct
-WrapNewBindingObjectHelper
+GetOrCreateDOMReflectorHelper
 <
 T
 false
@@ -7053,7 +7053,7 @@ false
 static
 inline
 bool
-Wrap
+GetOrCreate
 (
 JSContext
 *
@@ -7075,7 +7075,7 @@ rval
 )
 {
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 &
@@ -7093,7 +7093,7 @@ T
 >
 inline
 bool
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 JSContext
 *
@@ -7115,13 +7115,13 @@ rval
 )
 {
 return
-WrapNewBindingObjectHelper
+GetOrCreateDOMReflectorHelper
 <
 T
 >
 :
 :
-Wrap
+GetOrCreate
 (
 cx
 value
@@ -7136,7 +7136,7 @@ T
 >
 inline
 bool
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 JSContext
 *
@@ -7167,7 +7167,7 @@ rval
 )
 {
 return
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 cx
 value

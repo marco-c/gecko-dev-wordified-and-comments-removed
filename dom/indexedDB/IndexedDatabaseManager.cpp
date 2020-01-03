@@ -2127,7 +2127,7 @@ aGlobal
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 factory

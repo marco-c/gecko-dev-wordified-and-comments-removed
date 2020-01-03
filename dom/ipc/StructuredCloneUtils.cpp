@@ -298,7 +298,7 @@ Impl
 if
 (
 !
-WrapNewBindingObject
+GetOrCreateDOMReflector
 (
 aCx
 newBlob
