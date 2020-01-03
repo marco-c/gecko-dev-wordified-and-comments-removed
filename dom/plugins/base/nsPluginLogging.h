@@ -12,9 +12,6 @@ prlog
 h
 "
 #
-ifdef
-PR_LOGGING
-#
 ifndef
 PLUGIN_LOGGING
 #
@@ -96,8 +93,6 @@ gPluginLog
 ;
 }
 ;
-#
-endif
 #
 endif
 #
