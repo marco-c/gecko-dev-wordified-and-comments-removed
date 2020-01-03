@@ -289,7 +289,7 @@ normal
 upto
 urgent
 )
-intr
+sync
 protocol
 PContentBridge
 {

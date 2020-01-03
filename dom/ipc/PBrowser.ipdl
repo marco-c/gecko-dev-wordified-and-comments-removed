@@ -698,7 +698,7 @@ normal
 upto
 urgent
 )
-intr
+sync
 protocol
 PBrowser
 {
