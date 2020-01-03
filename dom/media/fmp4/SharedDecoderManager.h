@@ -55,10 +55,7 @@ PlatformDecoderModule
 *
 aPDM
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 layers
@@ -131,10 +128,7 @@ bool
 Recreate
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 )

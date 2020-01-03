@@ -98,10 +98,7 @@ GonkDecoderModule
 CreateVideoDecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 mozilla
@@ -167,10 +164,7 @@ GonkDecoderModule
 CreateAudioDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -218,10 +212,7 @@ GonkDecoderModule
 DecoderNeedsConversion
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 )
@@ -231,7 +222,7 @@ if
 (
 aConfig
 .
-IsVideoConfig
+IsVideo
 (
 )
 )

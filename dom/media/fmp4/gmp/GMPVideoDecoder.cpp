@@ -35,15 +35,6 @@ MediaData
 .
 h
 "
-#
-include
-"
-mp4_demuxer
-/
-DecoderData
-.
-h
-"
 namespace
 mozilla
 {
@@ -764,7 +755,9 @@ SetEncodedWidth
 (
 mConfig
 .
-display_width
+mDisplay
+.
+width
 )
 ;
 frame
@@ -774,7 +767,9 @@ SetEncodedHeight
 (
 mConfig
 .
-display_height
+mDisplay
+.
+height
 )
 ;
 frame
@@ -954,7 +949,9 @@ mWidth
 =
 mConfig
 .
-display_width
+mDisplay
+.
+width
 ;
 codec
 .
@@ -962,7 +959,9 @@ mHeight
 =
 mConfig
 .
-display_height
+mDisplay
+.
+height
 ;
 nsTArray
 <
@@ -983,7 +982,7 @@ AppendElements
 (
 mConfig
 .
-extra_data
+mExtraData
 -
 >
 Elements
@@ -991,7 +990,7 @@ Elements
 )
 mConfig
 .
-extra_data
+mExtraData
 -
 >
 Length

@@ -44,10 +44,7 @@ MediaDataDecoder
 CreateVideoDecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 mozilla
@@ -84,10 +81,7 @@ MediaDataDecoder
 CreateAudioDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -110,10 +104,7 @@ ConversionRequired
 DecoderNeedsConversion
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 )

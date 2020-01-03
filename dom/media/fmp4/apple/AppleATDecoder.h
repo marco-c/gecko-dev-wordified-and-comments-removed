@@ -65,10 +65,7 @@ public
 AppleATDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -124,10 +121,7 @@ Shutdown
 override
 ;
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 mConfig
 ;

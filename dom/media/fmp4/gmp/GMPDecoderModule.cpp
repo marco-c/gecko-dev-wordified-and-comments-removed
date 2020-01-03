@@ -171,10 +171,7 @@ GMPDecoderModule
 CreateVideoDecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 layers
@@ -201,7 +198,7 @@ if
 !
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (
@@ -267,10 +264,7 @@ GMPDecoderModule
 CreateAudioDecoder
 (
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 FlushableMediaTaskQueue
@@ -286,7 +280,7 @@ if
 !
 aConfig
 .
-mime_type
+mMimeType
 .
 EqualsLiteral
 (
@@ -352,10 +346,7 @@ GMPDecoderModule
 DecoderNeedsConversion
 (
 const
-mp4_demuxer
-:
-:
-TrackConfig
+TrackInfo
 &
 aConfig
 )
@@ -365,7 +356,7 @@ if
 (
 aConfig
 .
-IsVideoConfig
+IsVideo
 (
 )
 )

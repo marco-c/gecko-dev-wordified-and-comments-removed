@@ -68,10 +68,7 @@ CDMProxy
 *
 aProxy
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 MediaTaskQueue

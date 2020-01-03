@@ -71,10 +71,7 @@ MediaTaskQueue
 *
 aTaskQueue
 const
-mp4_demuxer
-:
-:
-AudioDecoderConfig
+AudioInfo
 &
 aConfig
 )

@@ -164,10 +164,7 @@ AppleVTDecoder
 AppleVTDecoder
 (
 const
-mp4_demuxer
-:
-:
-VideoDecoderConfig
+VideoInfo
 &
 aConfig
 FlushableMediaTaskQueue
