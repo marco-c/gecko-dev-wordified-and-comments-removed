@@ -197,6 +197,11 @@ FrameMetrics
 h
 '
 '
+GLImages
+.
+h
+'
+'
 GrallocImages
 .
 h
@@ -301,11 +306,6 @@ h
 '
 '
 ReadbackLayer
-.
-h
-'
-'
-SharedTextureImage
 .
 h
 '

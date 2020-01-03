@@ -242,6 +242,11 @@ DecomposeIntoNoRepeatTriangles
 h
 '
 '
+EGLUtils
+.
+h
+'
+'
 ForceDiscreteGPUHelperCGL
 .
 h
@@ -318,11 +323,6 @@ h
 '
 '
 GLScreenBuffer
-.
-h
-'
-'
-GLSharedHandleHelpers
 .
 h
 '
@@ -761,6 +761,11 @@ DecomposeIntoNoRepeatTriangles
 cpp
 '
 '
+EGLUtils
+.
+cpp
+'
+'
 GfxTexturesReporter
 .
 cpp
@@ -812,11 +817,6 @@ cpp
 '
 '
 GLScreenBuffer
-.
-cpp
-'
-'
-GLSharedHandleHelpers
 .
 cpp
 '
