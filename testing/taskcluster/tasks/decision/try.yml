@@ -701,7 +701,7 @@ bin
 bash
 -
 -
-c
+cx
 -
 >
 source
@@ -711,6 +711,8 @@ entrypoint
 )
 &
 &
+.
+/
 mach
 taskcluster
 -
@@ -737,7 +739,6 @@ owner
 }
 }
 '
-"
 -
 -
 extend

@@ -650,10 +650,6 @@ GECKO_HEAD_REPOSITORY
 '
 )
         
-required
-=
-True
-        
 help
 =
 '
@@ -732,10 +728,6 @@ get
 GECKO_HEAD_REV
 '
 )
-        
-required
-=
-True
         
 help
 =
@@ -998,17 +990,6 @@ scopes
         
 }
         
-if
-params
-[
-'
-ci
-'
-]
-is
-False
-:
-            
 graph
 [
 '
@@ -1017,7 +998,7 @@ metadata
 ]
 =
 {
-                
+            
 '
 source
 '
@@ -1037,7 +1018,7 @@ goes
 /
 here
 '
-                
+            
 '
 owner
 '
@@ -1048,7 +1029,7 @@ params
 owner
 '
 ]
-                
+            
 '
 description
 '
@@ -1064,7 +1045,7 @@ via
 mach
 trygraph
 '
-                
+            
 '
 name
 '
@@ -1073,7 +1054,7 @@ name
 trygraph
 local
 '
-            
+        
 }
         
 for
@@ -1532,6 +1513,37 @@ scopes
 '
 ]
 )
+)
+        
+if
+params
+[
+'
+ci
+'
+]
+is
+True
+:
+            
+graph
+.
+pop
+(
+'
+scopes
+'
+None
+)
+            
+graph
+.
+pop
+(
+'
+metadata
+'
+None
 )
         
 print
