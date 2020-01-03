@@ -322,6 +322,11 @@ TouchCaretState
 aState
 )
 ;
+void
+DispatchTapEvent
+(
+)
+;
 TouchCaretState
 mState
 ;
@@ -362,6 +367,9 @@ mPresShell
 ;
 bool
 mVisible
+;
+bool
+mIsValidTap
 ;
 nsCOMPtr
 <
