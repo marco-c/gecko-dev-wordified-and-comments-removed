@@ -82,7 +82,6 @@ uint32_t
 Length
 (
 )
-const
 ;
 MobileConnection
 *
@@ -102,13 +101,8 @@ MobileConnectionArray
 (
 )
 ;
-void
-Init
-(
-)
-;
 bool
-mInitialized
+mLengthInitialized
 ;
 nsCOMPtr
 <
