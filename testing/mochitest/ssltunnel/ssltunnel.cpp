@@ -7354,6 +7354,8 @@ f
 char
 c
 ;
+if
+(
 fscanf
 (
 f
@@ -7364,7 +7366,14 @@ c
 &
 c
 )
+!
+=
+1
+)
+{
+break
 ;
+}
 switch
 (
 c
