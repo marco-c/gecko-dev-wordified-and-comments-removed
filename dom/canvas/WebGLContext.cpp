@@ -3670,12 +3670,7 @@ height
 =
 signedHeight
 ;
-GetCanvas
-(
-)
--
->
-InvalidateCanvas
+Invalidate
 (
 )
 ;
@@ -4276,10 +4271,6 @@ AssertCachedState
 mBackbufferNeedsClear
 =
 true
-;
-ClearBackbufferIfNeeded
-(
-)
 ;
 mShouldPresent
 =
@@ -6542,10 +6533,8 @@ return
 false
 ;
 }
-MOZ_ASSERT
+ClearBackbufferIfNeeded
 (
-!
-mBackbufferNeedsClear
 )
 ;
 gl
