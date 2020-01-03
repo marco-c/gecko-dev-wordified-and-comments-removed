@@ -2320,20 +2320,6 @@ origins
 ;
 }
 ;
-bool
-IsMainProcess
-(
-)
-{
-return
-XRE_GetProcessType
-(
-)
-=
-=
-GeckoProcessType_Default
-;
-}
 void
 SanitizeOriginString
 (
@@ -4847,7 +4833,7 @@ rv
 ;
 if
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 )
@@ -11059,7 +11045,7 @@ aCallback
 ;
 NS_ENSURE_TRUE
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 NS_ERROR_NOT_AVAILABLE
@@ -11407,7 +11393,7 @@ NS_ERROR_INVALID_ARG
 }
 NS_ENSURE_TRUE
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 NS_ERROR_NOT_AVAILABLE
@@ -11834,7 +11820,7 @@ once
 }
 if
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 )
@@ -12031,7 +12017,7 @@ NS_TIMER_CALLBACK_TOPIC
 {
 NS_ASSERTION
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 "
@@ -12995,7 +12981,7 @@ appId
 ;
 NS_ENSURE_TRUE
 (
-IsMainProcess
+XRE_IsParentProcess
 (
 )
 NS_ERROR_NOT_AVAILABLE

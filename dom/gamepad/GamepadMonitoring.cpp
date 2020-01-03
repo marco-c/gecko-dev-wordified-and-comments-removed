@@ -55,12 +55,9 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 ;
 nsTArray

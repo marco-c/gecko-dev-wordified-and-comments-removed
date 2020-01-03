@@ -179,12 +179,10 @@ aParams
 {
 if
 (
-XRE_GetProcessType
+!
+XRE_IsParentProcess
 (
 )
-!
-=
-GeckoProcessType_Default
 )
 return
 NS_ERROR_NOT_IMPLEMENTED

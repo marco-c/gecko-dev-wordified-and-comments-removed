@@ -405,12 +405,9 @@ true
 ;
 if
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 {
 obs

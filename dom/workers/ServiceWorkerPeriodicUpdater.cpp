@@ -111,12 +111,9 @@ GetSingleton
 {
 MOZ_ASSERT
 (
-XRE_GetProcessType
+XRE_IsParentProcess
 (
 )
-=
-=
-GeckoProcessType_Default
 )
 ;
 if
