@@ -2136,6 +2136,16 @@ aElementTransitions
 >
 mPlayers
 ;
+players
+[
+currentIndex
+]
+-
+>
+Cancel
+(
+)
+;
 oldPT
 =
 nullptr
