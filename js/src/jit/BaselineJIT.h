@@ -1173,6 +1173,14 @@ prevLookedUpEntry
 )
 ;
 ICEntry
+&
+callVMEntryFromPCOffset
+(
+uint32_t
+pcOffset
+)
+;
+ICEntry
 *
 maybeICEntryFromReturnAddress
 (
