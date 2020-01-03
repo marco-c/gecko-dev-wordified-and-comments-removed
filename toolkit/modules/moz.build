@@ -439,6 +439,11 @@ GMPInstallManager
 jsm
 '
 '
+GMPUtils
+.
+jsm
+'
+'
 ResetProfile
 .
 jsm
