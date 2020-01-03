@@ -411,10 +411,10 @@ MAX_JSSCRIPT_SLOTS
 ;
 private
 :
-HeapPtrJitCode
+RelocatablePtrJitCode
 method_
 ;
-HeapPtrObject
+RelocatablePtrObject
 templateScope_
 ;
 FallbackICStubSpace
