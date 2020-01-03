@@ -3061,12 +3061,6 @@ char
 filename_strp
 )
 {
-AutoClearPendingException
-acpe
-(
-cx
-)
-;
 bool
 found
 ;
