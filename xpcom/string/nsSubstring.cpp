@@ -563,6 +563,7 @@ _s
 )
 #
 endif
+inline
 void
 ReleaseData
 (
