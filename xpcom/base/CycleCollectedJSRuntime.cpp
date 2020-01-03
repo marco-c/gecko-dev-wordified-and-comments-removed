@@ -4544,6 +4544,7 @@ JS
 GCForReason
 (
 mJSRuntime
+GC_NORMAL
 gcreason
 )
 ;
