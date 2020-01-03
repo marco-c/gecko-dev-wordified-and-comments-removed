@@ -1,3 +1,5 @@
+/
+/
 #
 filter
 substitution
@@ -155,6 +157,8 @@ MOZ_UPDATE_CHANNEL
 MOZ_UPDATE_CHANNEL
 "
 ;
+/
+/
 #
 ifdef
 MOZ_OFFICIAL_BRANDING
@@ -166,6 +170,8 @@ MOZ_OFFICIAL_BRANDING
 =
 true
 ;
+/
+/
 #
 else
 public
@@ -176,6 +182,8 @@ MOZ_OFFICIAL_BRANDING
 =
 false
 ;
+/
+/
 #
 endif
 public
