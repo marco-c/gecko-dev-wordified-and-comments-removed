@@ -6531,7 +6531,7 @@ result
 node
 -
 >
-GetNearestContainingApzc
+GetNearestContainingApzcWithSameLayersId
 (
 )
 ;
