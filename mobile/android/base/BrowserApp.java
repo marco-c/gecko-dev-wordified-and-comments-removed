@@ -13717,6 +13717,12 @@ panelId
 return
 ;
 }
+mFormAssistPopup
+.
+hide
+(
+)
+;
 refreshToolbarHeight
 (
 )
