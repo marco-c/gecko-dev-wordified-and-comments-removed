@@ -20,8 +20,6 @@ defined
 (
 MOZILLA_ARM_HAVE_CPUID_DETECTION
 )
-namespace
-{
 #
 if
 defined
@@ -710,7 +708,6 @@ MOZILLA_HAS_NEON_FLAG
 endif
 #
 endif
-}
 namespace
 mozilla
 {
