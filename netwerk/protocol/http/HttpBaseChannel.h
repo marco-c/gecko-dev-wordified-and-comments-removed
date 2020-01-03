@@ -1357,11 +1357,6 @@ mPeerAddr
 }
 public
 :
-bool
-IsNavigation
-(
-)
-;
 static
 bool
 ShouldRewriteRedirectToGET

@@ -710,11 +710,6 @@ Fetch
 webidl
 '
 '
-FetchEvent
-.
-webidl
-'
-'
 File
 .
 webidl
