@@ -879,7 +879,7 @@ taskify
 (
 function
 *
-test_menu
+test_bookmarks_menu
 (
 )
 {
