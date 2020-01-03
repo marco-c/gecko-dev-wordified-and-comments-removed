@@ -14485,6 +14485,16 @@ mAudioCompleted
 =
 true
 ;
+if
+(
+HasVideo
+(
+)
+)
+{
+return
+;
+}
 RefPtr
 <
 nsIRunnable
