@@ -20,6 +20,10 @@ spawns
 PTestBridgeSub
 ;
 child
+opens
+PTestBridgeMainSub
+;
+child
 :
 Start
 (
