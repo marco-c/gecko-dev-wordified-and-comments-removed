@@ -60,6 +60,7 @@ uint32_t
 *
 aId
 )
+override
 ;
 NS_IMETHOD
 GetRect
@@ -77,6 +78,7 @@ int32_t
 *
 aHeight
 )
+override
 ;
 NS_IMETHOD
 GetAvailRect
@@ -94,6 +96,7 @@ int32_t
 *
 aHeight
 )
+override
 ;
 NS_IMETHOD
 GetPixelDepth
@@ -102,6 +105,7 @@ int32_t
 *
 aPixelDepth
 )
+override
 ;
 NS_IMETHOD
 GetColorDepth
@@ -110,6 +114,7 @@ int32_t
 *
 aColorDepth
 )
+override
 ;
 protected
 :

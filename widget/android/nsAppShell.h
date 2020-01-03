@@ -135,6 +135,7 @@ ProcessNextNativeEvent
 bool
 mayWait
 )
+override
 ;
 void
 PostEvent
@@ -207,6 +208,7 @@ void
 ScheduleNativeEventCallback
 (
 )
+override
 ;
 virtual
 ~
