@@ -156,11 +156,14 @@ gmp
 USE_STATIC_LIBS
 =
 True
-USE_LIBS
-+
+DISABLE_STL_WRAPPING
 =
+True
+DEFINES
 [
 '
-mozalloc
+MOZ_NO_MOZALLOC
 '
 ]
+=
+True

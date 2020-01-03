@@ -26,6 +26,9 @@ Likely
 h
 "
 #
+ifndef
+MOZ_NO_MOZALLOC
+#
 include
 "
 mozilla
@@ -34,6 +37,8 @@ mozalloc_oom
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -784,6 +789,9 @@ len
 )
 )
 {
+#
+ifndef
+MOZ_NO_MOZALLOC
 mozalloc_handle_oom
 (
 len
@@ -803,6 +811,8 @@ len
 )
 )
 )
+#
+endif
 {
 MOZ_CRASH
 (
