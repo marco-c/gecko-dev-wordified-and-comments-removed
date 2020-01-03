@@ -122,11 +122,6 @@ actors
 js
 '
 '
-FireflyApp
-.
-jsm
-'
-'
 HelperApps
 .
 jsm
@@ -148,6 +143,11 @@ jsm
 '
 '
 LightweightThemeConsumer
+.
+jsm
+'
+'
+MatchstickApp
 .
 jsm
 '

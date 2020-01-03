@@ -9,7 +9,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-FireflyApp
+MatchstickApp
 "
 ]
 ;
@@ -698,7 +698,7 @@ PLAYER_STATUS_BUFFERING
 6
 ;
 function
-FireflyApp
+MatchstickApp
 (
 service
 )
@@ -729,7 +729,7 @@ host
 ;
 }
 ;
-FireflyApp
+MatchstickApp
 .
 prototype
 =
