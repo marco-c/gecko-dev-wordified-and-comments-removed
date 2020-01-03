@@ -1023,7 +1023,7 @@ char
 *
 eTLD
 =
-currDomain
+nullptr
 ;
 while
 (
