@@ -548,6 +548,17 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvConnectPluginBridge
+(
+const
+uint32_t
+&
+aPluginId
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvFindPlugins
 (
 const

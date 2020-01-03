@@ -10496,6 +10496,17 @@ bool
 aResult
 )
 {
+bool
+finalResult
+=
+aResult
+&
+&
+SendConnectPluginBridge
+(
+aPluginId
+)
+;
 plugins
 :
 :
@@ -10505,7 +10516,7 @@ PluginModuleContentParent
 OnLoadPluginResult
 (
 aPluginId
-aResult
+finalResult
 )
 ;
 return
