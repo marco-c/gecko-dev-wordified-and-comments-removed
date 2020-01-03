@@ -3407,13 +3407,7 @@ sandboxing
 if
 defined
 (
-MOZ_CONTENT_SANDBOX
-)
-|
-|
-defined
-(
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 BINPATH
 /
