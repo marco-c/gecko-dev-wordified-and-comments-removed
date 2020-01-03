@@ -965,6 +965,12 @@ constructor
 "
 )
 ;
+gSearchBox
+.
+doCommand
+(
+)
+;
 return
 expanded
 .
