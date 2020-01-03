@@ -302,10 +302,13 @@ T
 (
 mTotal
 /
+int64_t
+(
 mValues
 .
 length
 (
+)
 )
 )
 ;
