@@ -206,6 +206,16 @@ wrap_content
 >
 <
 TextView
+android
+:
+id
+=
+"
++
+id
+/
+private_tabs_empty_header
+"
 style
 =
 "
