@@ -3455,9 +3455,9 @@ void
 LIRGeneratorMIPS
 :
 :
-visitSimdTernaryBitwise
+visitSimdSelect
 (
-MSimdTernaryBitwise
+MSimdSelect
 *
 ins
 )

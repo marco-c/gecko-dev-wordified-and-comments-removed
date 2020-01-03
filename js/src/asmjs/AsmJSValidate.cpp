@@ -14719,7 +14719,7 @@ ins
 }
 MDefinition
 *
-ternarySimd
+selectSimd
 (
 MDefinition
 *
@@ -14730,11 +14730,6 @@ lhs
 MDefinition
 *
 rhs
-MSimdTernaryBitwise
-:
-:
-Operation
-op
 MIRType
 type
 )
@@ -14816,11 +14811,11 @@ type
 type
 )
 ;
-MSimdTernaryBitwise
+MSimdSelect
 *
 ins
 =
-MSimdTernaryBitwise
+MSimdSelect
 :
 :
 NewAsmJS
@@ -14831,7 +14826,6 @@ alloc
 mask
 lhs
 rhs
-op
 type
 )
 ;
@@ -35554,7 +35548,7 @@ def
 =
 f
 .
-ternarySimd
+selectSimd
 (
 defs
 [
@@ -35568,10 +35562,6 @@ defs
 [
 2
 ]
-MSimdTernaryBitwise
-:
-:
-select
 type
 -
 >

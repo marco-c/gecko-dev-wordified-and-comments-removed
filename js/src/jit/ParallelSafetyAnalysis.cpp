@@ -620,7 +620,7 @@ SimdShift
 )
 SAFE_OP
 (
-SimdTernaryBitwise
+SimdSelect
 )
 UNSAFE_OP
 (

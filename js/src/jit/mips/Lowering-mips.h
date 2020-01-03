@@ -637,9 +637,9 @@ ins
 )
 ;
 void
-visitSimdTernaryBitwise
+visitSimdSelect
 (
-MSimdTernaryBitwise
+MSimdSelect
 *
 ins
 )

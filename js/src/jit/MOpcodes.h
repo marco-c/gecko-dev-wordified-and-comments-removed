@@ -99,7 +99,7 @@ SimdShift
 \
 _
 (
-SimdTernaryBitwise
+SimdSelect
 )
 \
 _

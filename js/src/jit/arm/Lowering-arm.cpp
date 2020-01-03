@@ -3721,9 +3721,9 @@ void
 LIRGeneratorARM
 :
 :
-visitSimdTernaryBitwise
+visitSimdSelect
 (
-MSimdTernaryBitwise
+MSimdSelect
 *
 ins
 )

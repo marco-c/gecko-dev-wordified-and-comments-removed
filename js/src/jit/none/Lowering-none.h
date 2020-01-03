@@ -721,9 +721,9 @@ MOZ_CRASH
 ;
 }
 void
-visitSimdTernaryBitwise
+visitSimdSelect
 (
-MSimdTernaryBitwise
+MSimdSelect
 *
 ins
 )
