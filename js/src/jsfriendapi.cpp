@@ -5677,16 +5677,9 @@ RootedObject
 obj
 (
 cx
-JS_NewObject
+JS_NewPlainObject
 (
 cx
-nullptr
-NullPtr
-(
-)
-NullPtr
-(
-)
 )
 )
 ;
