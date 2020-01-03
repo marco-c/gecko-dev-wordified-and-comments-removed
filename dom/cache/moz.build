@@ -184,6 +184,11 @@ CacheStreamControlParent
 h
 '
 '
+Connection
+.
+h
+'
+'
 Context
 .
 h
@@ -345,6 +350,11 @@ cpp
 '
 '
 CacheStreamControlParent
+.
+cpp
+'
+'
+Connection
 .
 cpp
 '
