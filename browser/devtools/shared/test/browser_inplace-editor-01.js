@@ -699,11 +699,10 @@ editor
 )
 {
 for
-each
 (
 let
 ch
-in
+of
 "
 :
 Test

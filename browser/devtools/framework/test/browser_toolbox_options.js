@@ -127,9 +127,10 @@ tool
 "
 isTargetSupported
 :
-function
 (
 )
+=
+>
 true
 visibilityswitch
 :

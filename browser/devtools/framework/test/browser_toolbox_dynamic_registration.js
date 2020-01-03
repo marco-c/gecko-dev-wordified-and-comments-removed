@@ -136,9 +136,10 @@ inMenu
 true
 isTargetSupported
 :
-function
 (
 )
+=
+>
 true
 build
 :

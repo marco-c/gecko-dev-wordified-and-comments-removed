@@ -51,9 +51,10 @@ enabled
 "
 isTargetSupported
 :
-function
 (
 )
+=
+>
 true
 url
 :
