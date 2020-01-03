@@ -155,6 +155,11 @@ IEnumFE
 cpp
 '
 '
+IMMHandler
+.
+cpp
+'
+'
 InkCollector
 .
 cpp
@@ -206,11 +211,6 @@ cpp
 '
 '
 nsImageClipboard
-.
-cpp
-'
-'
-nsIMM32Handler
 .
 cpp
 '

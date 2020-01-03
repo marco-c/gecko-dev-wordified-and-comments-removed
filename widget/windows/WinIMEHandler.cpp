@@ -8,16 +8,16 @@ h
 #
 include
 "
-mozilla
-/
-Preferences
+IMMHandler
 .
 h
 "
 #
 include
 "
-nsIMM32Handler
+mozilla
+/
+Preferences
 .
 h
 "
@@ -200,7 +200,7 @@ SetInputScopes
 }
 #
 endif
-nsIMM32Handler
+IMMHandler
 :
 :
 Initialize
@@ -238,7 +238,7 @@ false
 }
 #
 endif
-nsIMM32Handler
+IMMHandler
 :
 :
 Terminate
@@ -436,7 +436,7 @@ false
 #
 endif
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 ProcessMessage
@@ -498,7 +498,7 @@ IsComposing
 )
 |
 |
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposing
@@ -509,7 +509,7 @@ IsComposing
 #
 endif
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposing
@@ -548,7 +548,7 @@ aWindow
 )
 |
 |
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposingOn
@@ -560,7 +560,7 @@ aWindow
 #
 endif
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 IsComposingOn
@@ -628,7 +628,7 @@ if
 isIMMActive
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 OnUpdateComposition
@@ -637,7 +637,7 @@ aWindow
 )
 ;
 }
-nsIMM32Handler
+IMMHandler
 :
 :
 OnSelectionChange
@@ -661,7 +661,7 @@ IsIMMActive
 )
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 OnUpdateComposition
@@ -698,7 +698,7 @@ aIMENotification
 case
 NOTIFY_IME_OF_FOCUS
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -726,7 +726,7 @@ GetInputContext
 case
 NOTIFY_IME_OF_BLUR
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -762,7 +762,7 @@ IsIMMActive
 )
 {
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 OnMouseButtonEvent
@@ -812,7 +812,7 @@ IsIMMActive
 )
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 CommitComposition
@@ -855,7 +855,7 @@ IsIMMActive
 )
 )
 {
-nsIMM32Handler
+IMMHandler
 :
 :
 CancelComposition
@@ -897,7 +897,7 @@ mMessage
 case
 REQUEST_TO_COMMIT_COMPOSITION
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 CommitComposition
@@ -911,7 +911,7 @@ NS_OK
 case
 REQUEST_TO_CANCEL_COMPOSITION
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 CancelComposition
@@ -928,7 +928,7 @@ NOTIFY_IME_OF_POSITION_CHANGE
 case
 NOTIFY_IME_OF_COMPOSITION_UPDATE
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnUpdateComposition
@@ -942,7 +942,7 @@ NS_OK
 case
 NOTIFY_IME_OF_SELECTION_CHANGE
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnSelectionChange
@@ -959,7 +959,7 @@ case
 NOTIFY_IME_OF_MOUSE_BUTTON_EVENT
 :
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 OnMouseButtonEvent
@@ -971,7 +971,7 @@ aIMENotification
 case
 NOTIFY_IME_OF_FOCUS
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -986,7 +986,7 @@ NS_OK
 case
 NOTIFY_IME_OF_BLUR
 :
-nsIMM32Handler
+IMMHandler
 :
 :
 OnFocusChange
@@ -1067,7 +1067,7 @@ GetIMEUpdatePreference
 #
 endif
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 GetIMEUpdatePreference
@@ -1670,7 +1670,7 @@ CurrentKeyboardLayoutHasIME
 #
 endif
 return
-nsIMM32Handler
+IMMHandler
 :
 :
 IsIMEAvailable

@@ -258,13 +258,6 @@ h
 #
 include
 "
-nsIMM32Handler
-.
-h
-"
-#
-include
-"
 WinMouseScrollHandler
 .
 h
