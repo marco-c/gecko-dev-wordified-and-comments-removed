@@ -8106,6 +8106,15 @@ rect
 height
 )
 ;
+if
+(
+gtk_check_version
+(
+3
+13
+7
+)
+)
 gtk_render_activity
 (
 style
