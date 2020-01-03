@@ -1237,6 +1237,13 @@ cancelCall
 this
 .
 closeWindow
+failureReason
+:
+this
+.
+state
+.
+failureReason
 }
 )
 )
