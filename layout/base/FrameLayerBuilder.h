@@ -749,6 +749,16 @@ aDisplayItemKey
 )
 ;
 static
+Layer
+*
+GetDebugSingleOldLayerForFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 DestroyDisplayItemDataFor
 (
