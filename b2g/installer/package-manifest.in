@@ -3796,13 +3796,6 @@ RESPATH
 /
 components
 /
-PushClient
-.
-js
-RESPATH
-/
-components
-/
 PushNotificationService
 .
 js
@@ -4137,6 +4130,13 @@ RESPATH
 components
 /
 nsUrlClassifierLib
+.
+js
+RESPATH
+/
+components
+/
+PrivateBrowsingTrackingProtectionWhitelist
 .
 js
 RESPATH

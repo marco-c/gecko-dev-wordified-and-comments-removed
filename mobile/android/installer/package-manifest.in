@@ -2883,6 +2883,13 @@ BINPATH
 /
 components
 /
+PrivateBrowsingTrackingProtectionWhitelist
+.
+js
+BINPATH
+/
+components
+/
 url
 -
 classifier
