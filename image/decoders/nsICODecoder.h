@@ -251,7 +251,7 @@ mRowBytes
 int32_t
 mOldLine
 ;
-nsAutoPtr
+nsRefPtr
 <
 Decoder
 >
