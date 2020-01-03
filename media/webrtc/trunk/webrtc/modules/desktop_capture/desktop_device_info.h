@@ -170,6 +170,14 @@ char
 appNameUTF8
 )
 ;
+void
+setWindowCount
+(
+const
+uint32_t
+count
+)
+;
 ProcessId
 getProcessId
 (
@@ -193,6 +201,11 @@ const
 char
 *
 getProcessAppName
+(
+)
+;
+uint32_t
+getWindowCount
 (
 )
 ;
@@ -222,6 +235,9 @@ applicationNameUTF8_
 char
 *
 processUniqueIdUTF8_
+;
+uint32_t
+windowCount_
 ;
 }
 ;
