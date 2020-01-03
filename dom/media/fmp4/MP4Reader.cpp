@@ -2516,6 +2516,15 @@ kVideo
 if
 (
 mSharedDecoderManager
+&
+&
+mPlatform
+-
+>
+SupportsSharedDecoders
+(
+video
+)
 )
 {
 mVideo
