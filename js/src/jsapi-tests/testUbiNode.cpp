@@ -224,7 +224,6 @@ JS
 Compile
 (
 cx
-global1
 options
 "
 "
@@ -278,7 +277,6 @@ JS
 Compile
 (
 cx
-global2
 options
 "
 "
@@ -566,7 +564,6 @@ JS
 Compile
 (
 cx
-global1
 options
 "
 "
@@ -598,7 +595,6 @@ JS
 Compile
 (
 cx
-global2
 options
 "
 "

@@ -3524,7 +3524,6 @@ mReuseLoaderGlobal
 Compile
 (
 cx
-obj
 options
 buf
 fileSize32
@@ -3733,7 +3732,6 @@ script
 Compile
 (
 cx
-obj
 options
 buf
 fileSize32
@@ -3939,7 +3937,6 @@ mReuseLoaderGlobal
 Compile
 (
 cx
-obj
 options
 buf
 bytesRead
