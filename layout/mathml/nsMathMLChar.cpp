@@ -2163,6 +2163,10 @@ gfxTextRange
 kFontGroup
 0
 false
+gfxTextRunFactory
+:
+:
+TEXT_ORIENT_HORIZONTAL
 )
 ;
 gfxTextRun
