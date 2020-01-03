@@ -1249,7 +1249,9 @@ conversation
 .
 _sdkDriver
 .
-connectionStartTime
+_getTwoWayMediaStartTime
+(
+)
 "
 )
     
@@ -1405,7 +1407,14 @@ be
 "
 >
 0
+noted_calls
+=
 "
++
+str
+(
+noted_calls
+)
 )
     
 def
