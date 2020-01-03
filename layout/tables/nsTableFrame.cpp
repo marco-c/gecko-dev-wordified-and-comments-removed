@@ -16143,7 +16143,7 @@ pctBSize
 rowFrame
 -
 >
-GetBSize
+GetInitialBSize
 (
 pctBasis
 )

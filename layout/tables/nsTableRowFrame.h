@@ -565,7 +565,7 @@ false
 )
 ;
 nscoord
-GetBSize
+GetInitialBSize
 (
 nscoord
 aBasis

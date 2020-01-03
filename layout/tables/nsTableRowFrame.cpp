@@ -1920,7 +1920,7 @@ nscoord
 nsTableRowFrame
 :
 :
-GetBSize
+GetInitialBSize
 (
 nscoord
 aPctBasis
@@ -2117,7 +2117,7 @@ HasVerticalAlignBaseline
 {
 if
 (
-GetBSize
+GetInitialBSize
 (
 )
 <
@@ -2223,7 +2223,7 @@ aDescent
 }
 if
 (
-GetBSize
+GetInitialBSize
 (
 )
 <
@@ -2526,7 +2526,7 @@ cellFrame
 }
 }
 return
-GetBSize
+GetInitialBSize
 (
 )
 ;
