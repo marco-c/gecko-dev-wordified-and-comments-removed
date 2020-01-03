@@ -628,6 +628,10 @@ LOG_PARTIAL_SUCCESS
 true
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

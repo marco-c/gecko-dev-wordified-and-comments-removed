@@ -47,6 +47,10 @@ false
 false
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

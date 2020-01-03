@@ -425,6 +425,10 @@ checkUpdateLogContents
 LOG_PARTIAL_SUCCESS
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

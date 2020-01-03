@@ -178,6 +178,10 @@ checkUpdateLogContains
 ERR_RENAME_FILE
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

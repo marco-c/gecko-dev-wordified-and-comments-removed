@@ -217,7 +217,7 @@ doUpdate
 runUpdateUsingService
 (
 STATE_PENDING_SVC
-STATE_FAILED
+STATE_FAILED_WRITE_ERROR_FILE_COPY
 )
 ;
 }
@@ -270,6 +270,10 @@ false
 checkUpdateLogContains
 (
 ERR_RENAME_FILE
+)
+;
+standardInit
+(
 )
 ;
 checkCallbackAppLog

@@ -68,6 +68,10 @@ false
 false
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackServiceLog
 (
 )

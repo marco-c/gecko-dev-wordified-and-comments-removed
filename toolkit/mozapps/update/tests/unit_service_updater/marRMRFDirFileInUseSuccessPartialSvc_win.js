@@ -219,6 +219,10 @@ checkUpdateLogContains
 ERR_BACKUP_DISCARD
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackServiceLog
 (
 )

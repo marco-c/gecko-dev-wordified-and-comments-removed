@@ -3,10 +3,6 @@ run_test
 (
 )
 {
-DEBUG_AUS_TEST
-=
-true
-;
 if
 (
 !
@@ -117,7 +113,7 @@ setupAppFilesFinished
 runUpdateUsingService
 (
 STATE_PENDING_SVC
-STATE_FAILED
+STATE_FAILED_LOADSOURCE_ERROR_WRONG_SIZE
 )
 ;
 }
@@ -193,6 +189,10 @@ false
 checkUpdateLogContents
 (
 LOG_PARTIAL_FAILURE
+)
+;
+standardInit
+(
 )
 ;
 waitForFilesInUse

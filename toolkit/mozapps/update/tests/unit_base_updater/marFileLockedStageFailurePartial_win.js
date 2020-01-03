@@ -196,7 +196,7 @@ doUpdate
 runUpdate
 (
 1
-STATE_FAILED_WRITE_ERROR
+STATE_FAILED_WRITE_ERROR_FILE_COPY
 null
 )
 ;
@@ -244,6 +244,10 @@ false
 checkUpdateLogContains
 (
 ERR_RENAME_FILE
+)
+;
+standardInit
+(
 )
 ;
 checkCallbackAppLog

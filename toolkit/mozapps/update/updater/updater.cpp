@@ -2806,11 +2806,11 @@ GetLastError
 )
 ;
 return
-WRITE_ERROR
+WRITE_ERROR_FILE_COPY
 ;
 }
 return
-0
+OK
 ;
 #
 else
@@ -3184,7 +3184,7 @@ buffer
 )
 ;
 return
-WRITE_ERROR
+WRITE_ERROR_FILE_COPY
 ;
 }
 written
@@ -3852,7 +3852,7 @@ errno
 )
 ;
 return
-UNEXPECTED_FILE_OPERATION_ERROR
+RENAME_ERROR_EXPECTED_FILE
 ;
 }
 else
@@ -3917,7 +3917,7 @@ dpath
 )
 ;
 return
-WRITE_ERROR
+WRITE_ERROR_DELETE_FILE
 ;
 }
 }
@@ -4256,7 +4256,7 @@ path
 )
 ;
 return
-WRITE_ERROR
+WRITE_ERROR_DELETE_BACKUP
 ;
 }
 if
@@ -4330,7 +4330,7 @@ if
 rv
 )
 return
-WRITE_ERROR
+WRITE_ERROR_DELETE_BACKUP
 ;
 #
 endif
@@ -4664,7 +4664,7 @@ mFile
 )
 ;
 return
-UNEXPECTED_FILE_OPERATION_ERROR
+DELETE_ERROR_EXPECTED_FILE
 ;
 }
 NS_tchar
@@ -4757,7 +4757,7 @@ errno
 )
 ;
 return
-WRITE_ERROR
+WRITE_ERROR_FILE_ACCESS_DENIED
 ;
 }
 return
@@ -5120,7 +5120,7 @@ mDir
 )
 ;
 return
-UNEXPECTED_FILE_OPERATION_ERROR
+DELETE_ERROR_EXPECTED_DIR
 ;
 }
 rv
@@ -5154,7 +5154,7 @@ errno
 )
 ;
 return
-WRITE_ERROR
+WRITE_ERROR_DIR_ACCESS_DENIED
 ;
 }
 return
@@ -5918,7 +5918,7 @@ slen
 )
 ;
 return
-UNEXPECTED_FILE_OPERATION_ERROR
+LOADSOURCE_ERROR_WRONG_SIZE
 ;
 }
 buf
@@ -6880,7 +6880,7 @@ errno
 )
 ;
 return
-WRITE_ERROR
+WRITE_ERROR_OPEN_PATCH_FILE
 ;
 }
 #
@@ -12589,7 +12589,7 @@ LogFinish
 ;
 WriteStatusFile
 (
-WRITE_ERROR
+WRITE_ERROR_APPLY_DIR_PATH
 )
 ;
 EXIT_WHEN_ELEVATED
@@ -12885,7 +12885,7 @@ LogFinish
 ;
 WriteStatusFile
 (
-WRITE_ERROR
+WRITE_ERROR_CALLBACK_PATH
 )
 ;
 EXIT_WHEN_ELEVATED
@@ -14114,7 +14114,7 @@ list
 )
 ;
 return
-UNEXPECTED_MAR_ERROR
+MAR_ERROR_EMPTY_ACTION_LIST
 ;
 }
 Action

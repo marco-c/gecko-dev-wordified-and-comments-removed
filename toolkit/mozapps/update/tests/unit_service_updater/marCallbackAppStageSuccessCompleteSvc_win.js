@@ -3,10 +3,6 @@ run_test
 (
 )
 {
-DEBUG_AUS_TEST
-=
-true
-;
 if
 (
 !
@@ -94,6 +90,10 @@ checkFilesAfterUpdateSuccess
 getApplyDirFile
 false
 false
+)
+;
+standardInit
+(
 )
 ;
 checkCallbackAppLog

@@ -705,7 +705,7 @@ x
 {
 rv
 =
-WRITE_ERROR
+WRITE_ERROR_PATCH_FILE
 ;
 goto
 end
@@ -772,7 +772,7 @@ y
 {
 rv
 =
-WRITE_ERROR
+WRITE_ERROR_PATCH_FILE
 ;
 goto
 end

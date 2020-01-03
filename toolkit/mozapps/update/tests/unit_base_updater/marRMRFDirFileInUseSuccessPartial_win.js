@@ -198,6 +198,10 @@ checkUpdateLogContains
 ERR_BACKUP_DISCARD
 )
 ;
+standardInit
+(
+)
+;
 checkCallbackAppLog
 (
 )

@@ -17,6 +17,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 ;
 Components
@@ -38,6 +39,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 const

@@ -3,10 +3,6 @@ run_test
 (
 )
 {
-DEBUG_AUS_TEST
-=
-true
-;
 if
 (
 !
@@ -416,6 +412,10 @@ false
 checkUpdateLogContents
 (
 LOG_PARTIAL_SUCCESS
+)
+;
+standardInit
+(
 )
 ;
 checkCallbackAppLog

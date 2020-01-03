@@ -3,10 +3,6 @@ run_test
 (
 )
 {
-DEBUG_AUS_TEST
-=
-true
-;
 setupTestCommon
 (
 )
@@ -153,6 +149,10 @@ true
 checkUpdateLogContains
 (
 ERR_BACKUP_DISCARD
+)
+;
+standardInit
+(
 )
 ;
 checkCallbackAppLog

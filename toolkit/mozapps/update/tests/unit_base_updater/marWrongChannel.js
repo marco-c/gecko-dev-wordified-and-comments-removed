@@ -83,6 +83,10 @@ false
 false
 )
 ;
+standardInit
+(
+)
+;
 doTestFinish
 (
 )

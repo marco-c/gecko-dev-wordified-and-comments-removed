@@ -3,10 +3,6 @@ run_test
 (
 )
 {
-DEBUG_AUS_TEST
-=
-true
-;
 if
 (
 !
@@ -249,6 +245,10 @@ false
 checkUpdateLogContains
 (
 ERR_RENAME_FILE
+)
+;
+standardInit
+(
 )
 ;
 checkCallbackAppLog
