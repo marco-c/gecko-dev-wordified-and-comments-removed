@@ -386,11 +386,11 @@ how
 -
 do
 -
-sponsored
--
 tiles
 -
 work
+-
+firefox
 "
 ;
 const
