@@ -194,16 +194,6 @@ mozilla
 :
 dom
 ;
-nsTArray
-<
-DocAccessibleParent
-*
->
-DocManager
-:
-:
-sRemoteDocuments
-;
 DocManager
 :
 :
