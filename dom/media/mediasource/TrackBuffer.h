@@ -327,6 +327,11 @@ uint32_t
 aDuration
 )
 ;
+void
+NotifyTimeRangesChanged
+(
+)
+;
 bool
 QueueInitializeDecoder
 (
