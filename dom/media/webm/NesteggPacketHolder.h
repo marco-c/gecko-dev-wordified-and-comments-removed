@@ -324,7 +324,7 @@ aItem
 )
 ;
 }
-nsRefPtr
+already_AddRefed
 <
 NesteggPacketHolder
 >
@@ -352,6 +352,10 @@ pop_front
 ;
 return
 result
+.
+forget
+(
+)
 ;
 }
 void

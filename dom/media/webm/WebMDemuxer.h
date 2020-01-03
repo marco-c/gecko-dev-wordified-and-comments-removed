@@ -89,7 +89,7 @@ aItem
 )
 ;
 }
-nsRefPtr
+already_AddRefed
 <
 MediaRawData
 >
@@ -117,6 +117,10 @@ pop_front
 ;
 return
 result
+.
+forget
+(
+)
 ;
 }
 void

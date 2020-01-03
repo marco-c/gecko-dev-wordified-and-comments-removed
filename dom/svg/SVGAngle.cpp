@@ -196,6 +196,10 @@ aValue
 isBaseVal
 ?
 mSVGElement
+.
+get
+(
+)
 :
 nullptr
 isBaseVal
@@ -342,6 +346,10 @@ mType
 BaseValue
 ?
 mSVGElement
+.
+get
+(
+)
 :
 nullptr
 )
@@ -392,6 +400,10 @@ mType
 BaseValue
 ?
 mSVGElement
+.
+get
+(
+)
 :
 nullptr
 )
@@ -449,6 +461,10 @@ aValue
 isBaseVal
 ?
 mSVGElement
+.
+get
+(
+)
 :
 nullptr
 isBaseVal
