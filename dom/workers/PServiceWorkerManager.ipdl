@@ -126,6 +126,12 @@ nsString
 scope
 )
 ;
+PropagateRemove
+(
+nsCString
+host
+)
+;
 PropagateRemoveAll
 (
 )
@@ -156,6 +162,12 @@ PrincipalInfo
 principalInfo
 nsString
 scope
+)
+;
+NotifyRemove
+(
+nsCString
+host
 )
 ;
 NotifyRemoveAll

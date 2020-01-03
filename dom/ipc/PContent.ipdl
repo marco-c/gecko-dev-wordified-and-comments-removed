@@ -1996,13 +1996,6 @@ UpdateServiceWorkerRegistrations
 )
 ;
 async
-RemoveServiceWorkerRegistrationsForDomain
-(
-nsString
-aDomain
-)
-;
-async
 DataStoreNotify
 (
 uint32_t

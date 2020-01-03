@@ -121,6 +121,17 @@ override
 ;
 virtual
 bool
+RecvNotifyRemove
+(
+const
+nsCString
+&
+aHost
+)
+override
+;
+virtual
+bool
 RecvNotifyRemoveAll
 (
 )

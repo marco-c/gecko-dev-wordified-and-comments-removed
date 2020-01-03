@@ -135,6 +135,17 @@ override
 ;
 virtual
 bool
+RecvPropagateRemove
+(
+const
+nsCString
+&
+aHost
+)
+override
+;
+virtual
+bool
 RecvPropagateRemoveAll
 (
 )
