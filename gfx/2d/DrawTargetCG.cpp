@@ -1050,7 +1050,7 @@ CGLayerRef
 mLayer
 ;
 CGContextRef
-mCg
+mLayerCg
 ;
 public
 :
@@ -1058,7 +1058,7 @@ UnboundnessFixer
 (
 )
 :
-mCg
+mLayerCg
 (
 nullptr
 )
@@ -1135,7 +1135,7 @@ size
 nullptr
 )
 ;
-mCg
+mLayerCg
 =
 CGLayerGetContext
 (
@@ -1144,7 +1144,7 @@ mLayer
 ;
 CGContextTranslateCTM
 (
-mCg
+mLayerCg
 -
 mClipBounds
 .
@@ -1166,14 +1166,14 @@ height
 ;
 CGContextScaleCTM
 (
-mCg
+mLayerCg
 1
 -
 1
 )
 ;
 return
-mCg
+mLayerCg
 ;
 }
 else
@@ -1192,7 +1192,7 @@ baseCg
 {
 if
 (
-mCg
+mLayerCg
 )
 {
 CGContextTranslateCTM
@@ -1235,7 +1235,7 @@ mLayer
 ;
 CGContextRelease
 (
-mCg
+mLayerCg
 )
 ;
 }
