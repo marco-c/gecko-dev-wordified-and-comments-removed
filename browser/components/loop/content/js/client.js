@@ -267,11 +267,7 @@ message
 ;
 cb
 (
-new
-Error
-(
-message
-)
+error
 )
 ;
 }
