@@ -7377,6 +7377,14 @@ gfxPrefs
 LayoutDumpDisplayList
 (
 )
+|
+|
+profiler_feature_active
+(
+"
+displaylistdump
+"
+)
 ;
 }
 bool
