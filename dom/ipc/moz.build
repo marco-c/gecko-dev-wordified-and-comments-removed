@@ -163,6 +163,11 @@ ContentProcess
 h
 '
 '
+CPOWManagerGetter
+.
+h
+'
+'
 CrashReporterChild
 .
 h

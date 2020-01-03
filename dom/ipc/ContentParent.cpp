@@ -7872,7 +7872,7 @@ false
 jsipc
 :
 :
-JavaScriptParent
+JavaScriptShared
 *
 ContentParent
 :

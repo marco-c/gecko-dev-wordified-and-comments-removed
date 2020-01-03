@@ -127,11 +127,12 @@ params
 jsipc
 :
 :
-JavaScriptChild
+JavaScriptShared
 *
 GetCPOWManager
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

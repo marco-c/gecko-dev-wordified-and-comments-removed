@@ -401,7 +401,7 @@ aIsForBrowser
 jsipc
 :
 :
-JavaScriptChild
+JavaScriptShared
 *
 ContentBridgeChild
 :

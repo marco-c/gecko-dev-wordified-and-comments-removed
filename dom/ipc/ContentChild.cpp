@@ -5231,7 +5231,7 @@ true
 jsipc
 :
 :
-JavaScriptChild
+JavaScriptShared
 *
 ContentChild
 :

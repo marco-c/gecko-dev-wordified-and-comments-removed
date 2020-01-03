@@ -191,7 +191,7 @@ namespace
 jsipc
 {
 class
-JavaScriptParent
+JavaScriptShared
 ;
 class
 PJavaScriptParent
@@ -651,11 +651,12 @@ GetTestShellSingleton
 jsipc
 :
 :
-JavaScriptParent
+JavaScriptShared
 *
 GetCPOWManager
 (
 )
+MOZ_OVERRIDE
 ;
 void
 ReportChildAlreadyBlocked

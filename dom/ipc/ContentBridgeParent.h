@@ -126,11 +126,12 @@ MOZ_OVERRIDE
 jsipc
 :
 :
-JavaScriptParent
+JavaScriptShared
 *
 GetCPOWManager
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t

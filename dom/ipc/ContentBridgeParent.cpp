@@ -566,7 +566,7 @@ aParent
 jsipc
 :
 :
-JavaScriptParent
+JavaScriptShared
 *
 ContentBridgeParent
 :
