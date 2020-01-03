@@ -1592,7 +1592,7 @@ state
 ;
 this
 .
-updatePlayPauseButton
+updateWidgetState
 (
 state
 .
@@ -1613,7 +1613,13 @@ finished
 :
 this
 .
-destroy
+stopTimelineAnimation
+(
+)
+;
+this
+.
+stopListeners
 (
 )
 ;
@@ -1668,7 +1674,7 @@ function
 {
 this
 .
-updatePlayPauseButton
+updateWidgetState
 (
 "
 paused
@@ -1709,7 +1715,7 @@ function
 {
 this
 .
-updatePlayPauseButton
+updateWidgetState
 (
 "
 running
@@ -1732,7 +1738,7 @@ play
 )
 ;
 }
-updatePlayPauseButton
+updateWidgetState
 :
 function
 (
