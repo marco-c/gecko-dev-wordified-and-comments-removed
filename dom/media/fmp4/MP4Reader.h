@@ -377,17 +377,6 @@ DisableHardwareAcceleration
 )
 override
 ;
-static
-bool
-IsVideoAccelerated
-(
-layers
-:
-:
-LayersBackend
-aBackend
-)
-;
 private
 :
 bool
