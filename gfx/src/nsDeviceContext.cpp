@@ -1640,7 +1640,7 @@ dpi
 mAppUnitsPerDevPixelAtUnitFullZoom
 )
 ;
-UpdateScaledAppUnits
+UpdateAppUnitsForFullZoom
 (
 )
 ;
@@ -3211,7 +3211,7 @@ mPixelScale
 =
 aScale
 ;
-UpdateScaledAppUnits
+UpdateAppUnitsForFullZoom
 (
 )
 ;
@@ -3226,7 +3226,7 @@ void
 nsDeviceContext
 :
 :
-UpdateScaledAppUnits
+UpdateAppUnitsForFullZoom
 (
 )
 {
