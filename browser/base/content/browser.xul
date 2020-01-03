@@ -9484,15 +9484,6 @@ PanelUI
 -
 button
 "
-class
-=
-"
-chromeclass
--
-toolbar
--
-additional
-"
 removable
 =
 "
