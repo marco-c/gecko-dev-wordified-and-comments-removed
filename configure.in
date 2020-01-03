@@ -42724,6 +42724,13 @@ MOZ_APPLEMEDIA
 fi
 if
 test
+"
+COMPILE_ENVIRONMENT
+"
+;
+then
+if
+test
 -
 n
 "
@@ -42804,6 +42811,9 @@ required
 ]
 )
 fi
+fi
+#
+COMPILE_ENVIRONMENT
 dnl
 =
 =
