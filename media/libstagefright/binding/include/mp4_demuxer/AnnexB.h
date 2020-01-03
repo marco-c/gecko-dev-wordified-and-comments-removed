@@ -118,6 +118,16 @@ MP4Sample
 aSample
 )
 ;
+static
+bool
+IsAnnexB
+(
+const
+MP4Sample
+*
+aSample
+)
+;
 private
 :
 static
