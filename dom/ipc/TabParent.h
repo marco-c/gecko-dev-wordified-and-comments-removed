@@ -1088,10 +1088,6 @@ const
 nsIntSize
 &
 size
-const
-nsIntPoint
-&
-chromeDisp
 )
 ;
 void
@@ -1978,9 +1974,6 @@ mDimensions
 ;
 ScreenOrientation
 mOrientation
-;
-nsIntPoint
-mChromeDisp
 ;
 float
 mDPI
