@@ -648,6 +648,13 @@ java
 '
 util
 /
+InputOptionsUtils
+.
+java
+'
+'
+util
+/
 IOUtils
 .
 java
@@ -733,13 +740,6 @@ java
 util
 /
 UIAsyncTask
-.
-java
-'
-'
-util
-/
-VoiceRecognizerUtils
 .
 java
 '
