@@ -703,9 +703,6 @@ ClearCompareHash
 (
 )
 ;
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -716,15 +713,9 @@ sizeof
 (
 CompareCacheHashEntryPtr
 )
-fallible
 64
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 return
 NS_OK
 ;

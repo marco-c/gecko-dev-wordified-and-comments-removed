@@ -7356,13 +7356,6 @@ ChildrenHashEntry
 aNumKids
 )
 ;
-if
-(
-!
-hash
-)
-return
-;
 for
 (
 nsRuleNode

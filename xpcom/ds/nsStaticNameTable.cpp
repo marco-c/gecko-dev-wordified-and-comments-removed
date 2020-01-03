@@ -590,9 +590,6 @@ return
 false
 ;
 }
-if
-(
-!
 PL_DHashTableInit
 (
 &
@@ -603,15 +600,9 @@ sizeof
 (
 NameTableEntry
 )
-fallible
 aLength
 )
-)
-{
-return
-false
 ;
-}
 for
 (
 int32_t
