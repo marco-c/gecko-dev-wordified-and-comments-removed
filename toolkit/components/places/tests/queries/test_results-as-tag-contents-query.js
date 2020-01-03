@@ -491,7 +491,7 @@ bugzilla
 ]
 }
 ;
-do_print
+LOG
 (
 "
 Adding
@@ -500,7 +500,6 @@ to
 query
 "
 )
-;
 yield
 task_populateDB
 (
@@ -509,7 +508,7 @@ change1
 ]
 )
 ;
-do_print
+LOG
 (
 "
 These
@@ -540,7 +539,7 @@ root
 )
 )
 ;
-do_print
+LOG
 (
 "
 Updating
@@ -670,7 +669,7 @@ root
 )
 )
 ;
-do_print
+LOG
 (
 "
 Deleting
