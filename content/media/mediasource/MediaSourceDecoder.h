@@ -219,6 +219,11 @@ NotifyGotData
 (
 )
 ;
+void
+PrepareReaderInitialization
+(
+)
+;
 private
 :
 dom

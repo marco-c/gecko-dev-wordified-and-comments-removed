@@ -105,6 +105,11 @@ return
 NS_OK
 ;
 }
+void
+PrepareInitialization
+(
+)
+;
 bool
 IsWaitingMediaResources
 (
@@ -352,6 +357,15 @@ TrackBuffer
 >
 mTrackBuffers
 ;
+nsTArray
+<
+nsRefPtr
+<
+TrackBuffer
+>
+>
+mEssentialTrackBuffers
+;
 nsRefPtr
 <
 TrackBuffer
@@ -387,6 +401,9 @@ mAudioIsSeeking
 ;
 bool
 mVideoIsSeeking
+;
+bool
+mHasEssentialTrackBuffers
 ;
 }
 ;

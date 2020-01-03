@@ -348,6 +348,11 @@ double
 aEnd
 )
 ;
+void
+QueueInitializationEvent
+(
+)
+;
 private
 :
 ~
@@ -398,6 +403,11 @@ ErrorResult
 aRv
 )
 ;
+void
+InitializationEvent
+(
+)
+;
 double
 mDuration
 ;
@@ -421,6 +431,9 @@ mDecoder
 ;
 MediaSourceReadyState
 mReadyState
+;
+bool
+mFirstSourceBufferInitialization
 ;
 }
 ;
