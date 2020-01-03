@@ -130,6 +130,7 @@ kVideoTrack
 kAudioTrack
 =
 2
+kTrackCount
 }
 ;
 #
