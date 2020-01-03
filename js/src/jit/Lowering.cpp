@@ -15547,6 +15547,9 @@ type
 case
 MIRType_Object
 :
+case
+MIRType_ObjectOrNull
+:
 {
 LDefinition
 tmp
