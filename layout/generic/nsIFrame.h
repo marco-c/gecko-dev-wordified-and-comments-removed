@@ -4399,7 +4399,11 @@ GetIntrinsicRatio
 0
 ;
 enum
+ComputeSizeFlags
 {
+eDefault
+=
+0
 eShrinkWrap
 =
 1
@@ -4459,7 +4463,7 @@ mozilla
 LogicalSize
 &
 aPadding
-uint32_t
+ComputeSizeFlags
 aFlags
 )
 =

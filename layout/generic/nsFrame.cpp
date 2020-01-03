@@ -19003,7 +19003,7 @@ const
 LogicalSize
 &
 aPadding
-uint32_t
+ComputeSizeFlags
 aFlags
 )
 {
@@ -19021,6 +19021,9 @@ aBorder
 aPadding
 aFlags
 &
+ComputeSizeFlags
+:
+:
 eShrinkWrap
 )
 ;
@@ -40181,7 +40184,10 @@ Size
 (
 wm
 )
-false
+ComputeSizeFlags
+:
+:
+eDefault
 )
 .
 Height

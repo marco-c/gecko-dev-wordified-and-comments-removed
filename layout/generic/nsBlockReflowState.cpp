@@ -2932,7 +2932,13 @@ Size
 (
 wm
 )
-true
+nsIFrame
+:
+:
+ComputeSizeFlags
+:
+:
+eShrinkWrap
 )
 ;
 return
