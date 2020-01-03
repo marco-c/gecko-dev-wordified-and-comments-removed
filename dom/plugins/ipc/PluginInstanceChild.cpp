@@ -631,7 +631,7 @@ aValues
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 mContentsScaleFactor
 (
@@ -5872,6 +5872,12 @@ elif
 defined
 (
 MOZ_WIDGET_QT
+)
+#
+elif
+defined
+(
+MOZ_WIDGET_UIKIT
 )
 #
 else
@@ -12880,7 +12886,7 @@ void
 {
 #
 ifndef
-XP_MACOSX
+XP_DARWIN
 nsIntRect
 toInvalidate
 (
@@ -13113,7 +13119,11 @@ return
 true
 ;
 #
-else
+elif
+defined
+(
+XP_MACOSX
+)
 if
 (
 !
@@ -13431,11 +13441,11 @@ toInvalidate
 )
 ;
 }
+#
+endif
 return
 true
 ;
-#
-endif
 }
 void
 PluginInstanceChild

@@ -1165,7 +1165,7 @@ MOZ_X11
 |
 defined
 (
-OS_MACOSX
+XP_MACOSX
 )
 nsPluginInfo
 info

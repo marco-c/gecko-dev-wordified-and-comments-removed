@@ -1145,7 +1145,7 @@ id
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 intptr_t
 id
