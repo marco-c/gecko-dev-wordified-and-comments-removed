@@ -212,12 +212,8 @@ DecodedStream
 {
 public
 :
-explicit
 DecodedStream
 (
-ReentrantMonitor
-&
-aMonitor
 )
 ;
 DecodedStreamData
@@ -295,8 +291,8 @@ OutputStreamData
 >
 mOutputStreams
 ;
+mutable
 ReentrantMonitor
-&
 mMonitor
 ;
 }
