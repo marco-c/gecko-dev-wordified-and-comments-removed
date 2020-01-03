@@ -4797,7 +4797,7 @@ sendTelemetry
 addBlocker
 (
 "
-Telemetry
+TelemetrySession
 :
 shutting
 down
