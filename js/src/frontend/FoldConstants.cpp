@@ -1693,6 +1693,14 @@ false
 }
 if
 (
+pn
+-
+>
+pn_right
+)
+{
+if
+(
 !
 Fold
 (
@@ -1715,6 +1723,7 @@ PNK_DOWHILE
 return
 false
 ;
+}
 }
 pn1
 =

@@ -859,6 +859,8 @@ newReturnStatement
 (
 Node
 expr
+Node
+genrval
 const
 TokenPos
 &
