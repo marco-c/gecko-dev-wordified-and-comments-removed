@@ -250,6 +250,11 @@ include
 vector
 >
 #
+include
+<
+cstdlib
+>
+#
 ifdef
 XP_LINUX
 #
