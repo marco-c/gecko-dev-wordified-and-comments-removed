@@ -120,7 +120,7 @@ namespace
 dom
 {
 class
-Blob
+File
 ;
 class
 WebSocketImpl
@@ -419,7 +419,7 @@ aRv
 void
 Send
 (
-Blob
+File
 &
 aData
 ErrorResult

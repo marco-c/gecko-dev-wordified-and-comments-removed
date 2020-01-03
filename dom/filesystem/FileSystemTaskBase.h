@@ -35,6 +35,9 @@ PFileSystemRequestChild
 .
 h
 "
+class
+nsIDOMFile
+;
 namespace
 mozilla
 {
@@ -43,9 +46,6 @@ dom
 {
 class
 BlobParent
-;
-class
-FileImpl
 ;
 class
 FileSystemBase
@@ -205,7 +205,7 @@ BlobParent
 *
 GetBlobParent
 (
-FileImpl
+nsIDOMFile
 *
 aFile
 )

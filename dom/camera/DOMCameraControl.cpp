@@ -6807,13 +6807,13 @@ picture
 }
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
 static_cast
 <
-Blob
+File
 *
 >
 (

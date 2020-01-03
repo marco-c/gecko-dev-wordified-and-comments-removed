@@ -37,7 +37,7 @@ namespace
 dom
 {
 class
-Blob
+File
 ;
 }
 class
@@ -102,7 +102,7 @@ already_AddRefed
 dom
 :
 :
-Blob
+File
 >
 ExtractBlob
 (

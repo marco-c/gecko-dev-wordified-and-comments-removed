@@ -1027,7 +1027,7 @@ nsTArray
 <
 nsRefPtr
 <
-Blob
+File
 >
 >
 &
@@ -1386,14 +1386,12 @@ blobImpl
 ;
 nsRefPtr
 <
-Blob
+File
 >
 domBlob
 =
-Blob
-:
-:
-Create
+new
+File
 (
 nullptr
 blobImpl

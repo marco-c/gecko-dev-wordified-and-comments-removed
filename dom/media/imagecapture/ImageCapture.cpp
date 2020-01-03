@@ -391,7 +391,7 @@ PhotoComplete
 (
 already_AddRefed
 <
-Blob
+File
 >
 aBlob
 )
@@ -399,7 +399,7 @@ override
 {
 nsRefPtr
 <
-Blob
+File
 >
 blob
 =
@@ -669,7 +669,7 @@ ImageCapture
 :
 PostBlobEvent
 (
-Blob
+File
 *
 aBlob
 )

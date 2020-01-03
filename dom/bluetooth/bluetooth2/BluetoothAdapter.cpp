@@ -6208,7 +6208,7 @@ const
 nsAString
 &
 aDeviceAddress
-Blob
+File
 &
 aBlob
 ErrorResult

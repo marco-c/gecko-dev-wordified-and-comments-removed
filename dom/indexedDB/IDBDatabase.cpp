@@ -4156,7 +4156,7 @@ IDBDatabase
 :
 GetOrCreateFileActorForBlob
 (
-Blob
+File
 *
 aBlob
 )
@@ -4571,7 +4571,7 @@ IDBDatabase
 :
 NoteReceivedBlob
 (
-Blob
+File
 *
 aBlob
 )

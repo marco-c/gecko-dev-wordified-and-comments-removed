@@ -1042,7 +1042,7 @@ nsDOMDataChannel
 :
 Send
 (
-Blob
+File
 &
 aData
 ErrorResult
