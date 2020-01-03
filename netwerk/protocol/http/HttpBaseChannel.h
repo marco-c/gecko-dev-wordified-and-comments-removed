@@ -234,6 +234,9 @@ PRLogModuleInfo
 *
 gHttpLog
 ;
+class
+nsPerformance
+;
 namespace
 mozilla
 {
@@ -1198,6 +1201,12 @@ DoNotifyListenerCleanup
 ;
 void
 ReleaseListeners
+(
+)
+;
+nsPerformance
+*
+GetPerformance
 (
 )
 ;
