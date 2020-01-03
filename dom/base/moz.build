@@ -456,6 +456,11 @@ nsHostObjectURI
 h
 '
 '
+nsIAnimationObserver
+.
+h
+'
+'
 nsIAttribute
 .
 h
@@ -642,6 +647,11 @@ h
 '
 '
 nsStructuredCloneContainer
+.
+h
+'
+'
+nsStubAnimationObserver
 .
 h
 '
@@ -1526,6 +1536,11 @@ cpp
 '
 '
 nsStructuredCloneContainer
+.
+cpp
+'
+'
+nsStubAnimationObserver
 .
 cpp
 '
