@@ -196,6 +196,7 @@ WorkerFeature
 {
 Promise
 *
+MOZ_NON_OWNING_REF
 mPromise
 ;
 public
