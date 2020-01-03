@@ -1517,7 +1517,7 @@ bool
 emitDupAt
 (
 unsigned
-slot
+slotFromTop
 )
 ;
 bool
