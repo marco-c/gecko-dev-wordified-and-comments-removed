@@ -244,6 +244,8 @@ else
 "
 pid
 :
+%
+s
 "
 %
 data
@@ -252,6 +254,28 @@ data
 process
 "
 ]
+        
+signature
+=
+data
+[
+"
+signature
+"
+]
+if
+data
+[
+"
+signature
+"
+]
+else
+"
+unknown
+top
+frame
+"
         
 rv
 =
@@ -274,13 +298,7 @@ s
 %
 (
 id
-                                                                 
-data
-[
-"
 signature
-"
-]
 )
 ]
         
