@@ -470,6 +470,11 @@ function
 )
 {
 return
+rootObject
+.
+navigator
+&
+&
 typeof
 rootObject
 .

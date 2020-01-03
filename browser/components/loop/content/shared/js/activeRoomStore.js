@@ -89,6 +89,15 @@ room
 -
 failed
 "
+HAS_PARTICIPANTS
+:
+"
+room
+-
+has
+-
+participants
+"
 }
 ;
 function
