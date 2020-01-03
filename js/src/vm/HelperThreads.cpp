@@ -26,6 +26,13 @@ h
 #
 include
 "
+jsnum
+.
+h
+"
+#
+include
+"
 prmjtime
 .
 h
@@ -4584,6 +4591,10 @@ nullptr
 }
 #
 endif
+FIX_FPU
+(
+)
+;
 static_cast
 <
 HelperThread
