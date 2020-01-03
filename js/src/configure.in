@@ -8191,7 +8191,12 @@ test
 -
 n
 "
+{
 CLANG_CC
+}
+{
+CLANG_CL
+}
 "
 ;
 then
@@ -8223,7 +8228,12 @@ test
 -
 n
 "
+{
 CLANG_CXX
+}
+{
+CLANG_CL
+}
 "
 ;
 then
