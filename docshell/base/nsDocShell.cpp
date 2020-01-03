@@ -11695,10 +11695,11 @@ ProfileTimelineMarker
 >
 profileTimelineMarkers
 ;
-decltype
-(
-mProfileTimelineMarkers
-)
+nsTArray
+<
+InternalProfileTimelineMarker
+*
+>
 keptMarkers
 ;
 for
