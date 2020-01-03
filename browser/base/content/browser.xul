@@ -1824,6 +1824,16 @@ rolluponmousewheel
 "
 true
 "
+#
+ifdef
+XP_WIN
+consumeoutsideclicks
+=
+"
+false
+"
+#
+endif
 /
 >
 <
