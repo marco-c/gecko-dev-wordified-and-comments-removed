@@ -32081,8 +32081,11 @@ initialPosition
 ;
 initialPosition
 .
-SetInitialValues
+SetInitialPercentValues
 (
+0
+.
+0f
 )
 ;
 SetBackgroundList

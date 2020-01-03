@@ -1261,8 +1261,10 @@ Position
 {
 }
 void
-SetInitialValues
+SetInitialPercentValues
 (
+float
+aPercentVal
 )
 ;
 bool
