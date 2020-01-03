@@ -11,6 +11,9 @@ EXPORTED_SYMBOLS
 "
 DownloadsCommon
 "
+"
+DownloadsDataItem
+"
 ]
 ;
 const
