@@ -15,10 +15,10 @@ b
 [
 ]
 ;
-}
 assertEq
 (
 b
 undefined
 )
 ;
+}

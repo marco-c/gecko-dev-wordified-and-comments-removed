@@ -4027,7 +4027,7 @@ if
 dn
 -
 >
-isLet
+isLexical
 (
 )
 &
@@ -4049,7 +4049,7 @@ pn
 pn_dflags
 |
 =
-PND_LET
+PND_LEXICAL
 ;
 }
 static

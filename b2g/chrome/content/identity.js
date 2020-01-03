@@ -234,7 +234,7 @@ undefined
 '
 )
 {
-const
+var
 kIdentityDelegateWatch
 =
 "
@@ -245,7 +245,7 @@ delegate
 watch
 "
 ;
-const
+var
 kIdentityDelegateRequest
 =
 "
@@ -256,7 +256,7 @@ delegate
 request
 "
 ;
-const
+var
 kIdentityDelegateLogout
 =
 "
@@ -267,7 +267,7 @@ delegate
 logout
 "
 ;
-const
+var
 kIdentityDelegateReady
 =
 "
@@ -278,7 +278,7 @@ delegate
 ready
 "
 ;
-const
+var
 kIdentityDelegateFinished
 =
 "
@@ -289,7 +289,7 @@ delegate
 finished
 "
 ;
-const
+var
 kIdentityControllerDoMethod
 =
 "
@@ -300,7 +300,7 @@ controller
 doMethod
 "
 ;
-const
+var
 kIdentktyJSLoaded
 =
 true

@@ -95,6 +95,8 @@ y
 }
 const
 x
+=
+undefined
 ;
 }
 )

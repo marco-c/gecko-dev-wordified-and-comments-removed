@@ -79,6 +79,8 @@ testLenientAndStrict
 '
 const
 eval
+=
+undefined
 ;
 '
 parsesSuccessfully
@@ -97,7 +99,11 @@ testLenientAndStrict
 '
 const
 x
+=
+undefined
 eval
+=
+undefined
 ;
 '
 parsesSuccessfully
@@ -116,6 +122,8 @@ testLenientAndStrict
 '
 const
 arguments
+=
+undefined
 ;
 '
 parsesSuccessfully
@@ -134,7 +142,11 @@ testLenientAndStrict
 '
 const
 x
+=
+undefined
 arguments
+=
+undefined
 ;
 '
 parsesSuccessfully
