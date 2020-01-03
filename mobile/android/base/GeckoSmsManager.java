@@ -5241,6 +5241,7 @@ kMessageClassNormal
 ;
 }
 }
+static
 class
 IdTooHighException
 extends
@@ -5255,6 +5256,7 @@ serialVersionUID
 29935575131092050L
 ;
 }
+static
 class
 InvalidTypeException
 extends
@@ -5269,6 +5271,7 @@ serialVersionUID
 47436856832535912L
 ;
 }
+static
 class
 NotFoundException
 extends
@@ -5283,6 +5286,7 @@ serialVersionUID
 1940676816633984L
 ;
 }
+static
 class
 TooManyResultsException
 extends
@@ -5297,6 +5301,7 @@ serialVersionUID
 51883196784325305L
 ;
 }
+static
 class
 UnexpectedDeliveryStateException
 extends
@@ -5311,6 +5316,7 @@ serialVersionUID
 494122763684005716L
 ;
 }
+static
 class
 UnmatchingIdException
 extends
