@@ -13229,7 +13229,11 @@ index
 NS_UpdateHint
 (
 transformHint
-kUpdateOverflowAndRepaintHint
+NS_CombineHint
+(
+nsChangeHint_UpdateTransformLayer
+nsChangeHint_UpdatePostTransformOverflow
+)
 )
 ;
 break
