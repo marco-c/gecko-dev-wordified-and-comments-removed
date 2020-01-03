@@ -20653,7 +20653,7 @@ CASE
 JSOP_INITHOMEOBJECT
 )
 {
-unsigned
+uint8_t
 skipOver
 =
 GET_UINT8
@@ -20672,9 +20672,9 @@ stackDepth
 )
 >
 =
-skipOver
-+
 2
++
+skipOver
 )
 ;
 RootedFunction
