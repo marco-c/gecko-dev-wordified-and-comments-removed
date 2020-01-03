@@ -1107,6 +1107,11 @@ return
 false
 ;
 }
+uint32_t
+EditableInclusiveDescendantCount
+(
+)
+;
 mozilla
 :
 :
