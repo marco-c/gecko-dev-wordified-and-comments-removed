@@ -20,10 +20,6 @@ function
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 info
 (
 "
