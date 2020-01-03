@@ -874,12 +874,6 @@ XPC_MAP_FLAGS
 nsIXPCScriptable
 :
 :
-DONT_ENUM_STATIC_PROPS
-|
-\
-nsIXPCScriptable
-:
-:
 ALLOW_PROP_MODS_DURING_RESOLVE
 #
 include
@@ -1128,12 +1122,6 @@ XPC_MAP_WANT_HASINSTANCE
 #
 define
 XPC_MAP_FLAGS
-nsIXPCScriptable
-:
-:
-DONT_ENUM_STATIC_PROPS
-|
-\
 nsIXPCScriptable
 :
 :

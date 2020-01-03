@@ -6353,14 +6353,6 @@ GET_IT
 USE_JSSTUB_FOR_SETPROPERTY
 )
 bool
-DontEnumStaticProps
-(
-)
-GET_IT
-(
-DONT_ENUM_STATIC_PROPS
-)
-bool
 DontEnumQueryInterface
 (
 )
