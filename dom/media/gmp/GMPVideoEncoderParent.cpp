@@ -126,7 +126,13 @@ MOZ_LOG
 GetGMPLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 msg
 )
 #
@@ -1386,7 +1392,10 @@ mem
 {
 LOG
 (
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 (
 "
 %

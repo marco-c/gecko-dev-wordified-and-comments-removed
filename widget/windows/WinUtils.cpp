@@ -2255,7 +2255,10 @@ exist
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 (
 utf8
 )
@@ -2410,7 +2413,10 @@ exist
 MOZ_LOG
 (
 gWindowsLog
-PR_LOG_ERROR
+LogLevel
+:
+:
+Error
 (
 buffer
 )

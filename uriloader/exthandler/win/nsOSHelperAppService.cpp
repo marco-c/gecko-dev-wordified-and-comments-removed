@@ -112,7 +112,13 @@ args
 MOZ_LOG
 (
 mLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 static

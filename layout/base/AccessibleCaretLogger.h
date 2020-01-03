@@ -38,7 +38,13 @@ MOZ_LOG
 GetAccessibleCaretLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 (
 __VA_ARGS__
 )
@@ -63,7 +69,10 @@ MOZ_LOG
 GetAccessibleCaretLog
 (
 )
-PR_LOG_VERBOSE
+LogLevel
+:
+:
+Verbose
 (
 __VA_ARGS__
 )

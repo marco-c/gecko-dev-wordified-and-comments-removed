@@ -33,7 +33,13 @@ WMF_CB_LOG
 MOZ_LOG
 (
 gWMFSourceReaderCallbackLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 (
 __VA_ARGS__
 )

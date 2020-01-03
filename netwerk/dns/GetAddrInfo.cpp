@@ -155,7 +155,10 @@ msg
 MOZ_LOG
 (
 gGetAddrInfoLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 (
 "
 [
@@ -182,7 +185,10 @@ msg
 MOZ_LOG
 (
 gGetAddrInfoLog
-PR_LOG_WARNING
+LogLevel
+:
+:
+Warning
 (
 "
 [

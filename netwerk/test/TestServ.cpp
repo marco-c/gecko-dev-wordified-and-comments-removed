@@ -79,7 +79,13 @@ args
 MOZ_LOG
 (
 gTestLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 class

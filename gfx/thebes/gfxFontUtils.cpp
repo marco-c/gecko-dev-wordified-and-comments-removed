@@ -147,7 +147,10 @@ GetLog
 log
 )
 \
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 args
 )
 #

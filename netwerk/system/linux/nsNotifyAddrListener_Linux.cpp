@@ -183,7 +183,13 @@ args
 MOZ_LOG
 (
 gNotifyAddrLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

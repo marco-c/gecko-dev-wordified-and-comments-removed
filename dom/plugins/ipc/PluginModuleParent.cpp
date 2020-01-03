@@ -10430,7 +10430,10 @@ MOZ_LOG
 GetPluginLog
 (
 )
-PR_LOG_WARNING
+LogLevel
+:
+:
+Warning
 (
 "
 %

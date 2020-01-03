@@ -2236,7 +2236,10 @@ txLog
 :
 :
 xslt
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 (
 "
 TX_LoadSheet

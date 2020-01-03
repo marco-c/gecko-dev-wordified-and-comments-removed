@@ -717,7 +717,10 @@ MOZ_LOG_TEST
 GetImgLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -1040,7 +1043,10 @@ MOZ_LOG_TEST
 GetImgLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {

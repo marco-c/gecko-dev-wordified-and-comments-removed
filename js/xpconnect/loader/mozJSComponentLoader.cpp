@@ -377,7 +377,13 @@ args
 MOZ_LOG
 (
 gJSCLLog
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

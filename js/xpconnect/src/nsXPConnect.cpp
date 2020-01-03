@@ -1153,9 +1153,15 @@ JSREPORT_IS_WARNING
 mFlags
 )
 ?
-PR_LOG_WARNING
+LogLevel
 :
-PR_LOG_ERROR
+:
+Warning
+:
+LogLevel
+:
+:
+Error
 (
 "
 file

@@ -298,7 +298,13 @@ MOZ_LOG
 GetSHParserLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 nsSecurityHeaderParser

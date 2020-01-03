@@ -2091,7 +2091,10 @@ aQueryNode
 MOZ_LOG
 (
 gXULTemplateLog
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 (
 "
 nsXULTemplateBuilder
@@ -6498,7 +6501,10 @@ if
 MOZ_LOG_TEST
 (
 gXULTemplateLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 mFlags

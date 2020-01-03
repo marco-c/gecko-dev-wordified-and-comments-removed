@@ -183,7 +183,13 @@ MOZ_LOG
 GetPipeLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #

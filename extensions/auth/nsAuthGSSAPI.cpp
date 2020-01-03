@@ -1179,7 +1179,10 @@ if
 MOZ_LOG_TEST
 (
 gNegotiateLog
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {

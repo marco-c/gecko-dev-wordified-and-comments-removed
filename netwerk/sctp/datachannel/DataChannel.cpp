@@ -758,7 +758,10 @@ MOZ_LOG_TEST
 GetSCTPLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -1363,7 +1366,10 @@ MOZ_LOG_TEST
 GetSCTPLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -3100,7 +3106,10 @@ MOZ_LOG_TEST
 GetSCTPLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {
@@ -3252,7 +3261,10 @@ MOZ_LOG_TEST
 GetSCTPLog
 (
 )
-PR_LOG_DEBUG
+LogLevel
+:
+:
+Debug
 )
 )
 {

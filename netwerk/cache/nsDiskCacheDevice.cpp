@@ -4458,7 +4458,10 @@ DIRECTORY_TYPE
 ;
 CACHE_LOG_PATH
 (
-PR_LOG_INFO
+LogLevel
+:
+:
+Info
 "
 \
 ncreate

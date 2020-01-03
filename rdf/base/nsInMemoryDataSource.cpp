@@ -217,6 +217,12 @@ rdfITripleVisitor
 .
 h
 "
+using
+mozilla
+:
+:
+LogLevel
+;
 class
 Assertion
 {
@@ -2723,7 +2729,10 @@ nullptr
 MOZ_LOG
 (
 gLog
-PR_LOG_NOTICE
+LogLevel
+:
+:
+Debug
 (
 "
 InMemoryDataSource
@@ -2916,7 +2925,10 @@ if
 MOZ_LOG_TEST
 (
 gLog
-PR_LOG_NOTICE
+LogLevel
+:
+:
+Debug
 )
 )
 return

@@ -323,7 +323,13 @@ MOZ_LOG
 GetUpdateLog
 (
 )
-PR_LOG_DEBUG
+mozilla
+:
+:
+LogLevel
+:
+:
+Debug
 args
 )
 #
