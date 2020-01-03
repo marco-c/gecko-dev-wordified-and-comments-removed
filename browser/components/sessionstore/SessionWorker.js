@@ -295,7 +295,7 @@ write
 :
 function
 (
-stateString
+state
 options
 =
 {
@@ -310,6 +310,16 @@ telemetry
 =
 {
 }
+;
+let
+stateString
+=
+JSON
+.
+stringify
+(
+state
+)
 ;
 let
 data
