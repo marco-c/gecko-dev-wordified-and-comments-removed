@@ -1535,8 +1535,6 @@ mozilla
 /
 dom
 /
-presentation
-/
 PresentationDeviceManager
 .
 h
