@@ -4057,6 +4057,10 @@ SetNeedStyleFlush
 )
 ;
 }
+MaybeStartOrStopObservingRefreshDriver
+(
+)
+;
 DispatchEvents
 (
 )

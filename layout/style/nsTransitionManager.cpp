@@ -3955,6 +3955,10 @@ SetNeedStyleFlush
 )
 ;
 }
+MaybeStartOrStopObservingRefreshDriver
+(
+)
+;
 for
 (
 uint32_t
