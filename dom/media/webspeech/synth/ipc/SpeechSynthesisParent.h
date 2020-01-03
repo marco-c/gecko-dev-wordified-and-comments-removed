@@ -94,12 +94,6 @@ aIsSpeaking
 )
 override
 ;
-bool
-RecvDropGlobalQueue
-(
-)
-override
-;
 protected
 :
 SpeechSynthesisParent
@@ -243,6 +237,13 @@ override
 virtual
 bool
 RecvCancel
+(
+)
+override
+;
+virtual
+bool
+RecvForceEnd
 (
 )
 override
