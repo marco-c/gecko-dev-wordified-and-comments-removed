@@ -891,6 +891,16 @@ QueueImageLoadTask
 (
 )
 ;
+bool
+HaveSrcsetOrInPicture
+(
+)
+;
+bool
+InResponsiveMode
+(
+)
+;
 nsresult
 LoadSelectedImage
 (
