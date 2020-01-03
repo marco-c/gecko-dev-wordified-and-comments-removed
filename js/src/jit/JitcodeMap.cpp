@@ -879,16 +879,6 @@ ptr
 ;
 MOZ_ASSERT
 (
-script_
--
->
-hasBaselineScript
-(
-)
-)
-;
-MOZ_ASSERT
-(
 maxResults
 >
 =
