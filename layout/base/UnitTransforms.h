@@ -32,6 +32,7 @@ uint8_t
 )
 ScreenIsParentLayerForRoot
 ParentLayerToLayerForRootComposition
+MovingDownToChildren
 TransformNotAvailable
 MOZ_END_ENUM_CLASS
 (
