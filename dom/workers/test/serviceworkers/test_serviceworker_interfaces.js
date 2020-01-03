@@ -355,6 +355,9 @@ Headers
 IDBCursor
 "
 "
+IDBCursorWithValue
+"
+"
 IDBDatabase
 "
 "

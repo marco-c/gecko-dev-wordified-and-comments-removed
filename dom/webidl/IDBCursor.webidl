@@ -233,6 +233,14 @@ delete
 ;
 }
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 IDBCursorWithValue
 :
