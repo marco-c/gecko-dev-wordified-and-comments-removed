@@ -32,9 +32,9 @@ h
 #
 include
 "
-vm
+js
 /
-NumericConversions
+Conversions
 .
 h
 "
@@ -775,6 +775,9 @@ false
 *
 dp
 =
+JS
+:
+:
 ToInteger
 (
 *

@@ -36,6 +36,15 @@ include
 "
 js
 /
+Conversions
+.
+h
+"
+#
+include
+"
+js
+/
 Value
 .
 h
@@ -2840,6 +2849,9 @@ T
 return
 T
 (
+JS
+:
+:
 ToUint32
 (
 d
@@ -2849,6 +2861,9 @@ d
 return
 T
 (
+JS
+:
+:
 ToInt32
 (
 d

@@ -120,6 +120,15 @@ include
 "
 js
 /
+Conversions
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryMetrics
 .
 h
@@ -3801,7 +3810,7 @@ double
 )
 >
 (
-js
+JS
 :
 :
 ToInt32
