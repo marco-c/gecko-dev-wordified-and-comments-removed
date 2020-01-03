@@ -7274,7 +7274,7 @@ GetApzcTreeManager
 )
 {
 Matrix4x4
-transform
+apzcToScreen
 =
 treeManagerLocal
 -
@@ -7283,16 +7283,14 @@ GetScreenToApzcTransform
 (
 this
 )
-;
-transform
 .
-Invert
+Inverse
 (
 )
 ;
 TransformVector
 (
-transform
+apzcToScreen
 aVector
 aAnchor
 )
