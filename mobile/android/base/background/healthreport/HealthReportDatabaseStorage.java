@@ -7526,6 +7526,7 @@ field_name
 )
 ;
 }
+Override
 public
 int
 getEventCount
@@ -7541,6 +7542,7 @@ events
 )
 ;
 }
+Override
 public
 int
 getEnvironmentCount
@@ -7581,6 +7583,7 @@ null
 )
 ;
 }
+Override
 public
 int
 deleteDataBefore
@@ -8566,6 +8569,7 @@ endTransaction
 ;
 }
 }
+Override
 public
 void
 pruneEnvironments
@@ -8668,6 +8672,7 @@ endTransaction
 ;
 }
 }
+Override
 public
 void
 pruneEvents

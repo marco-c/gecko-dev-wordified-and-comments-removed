@@ -58,6 +58,7 @@ logLevel
 logLevel
 ;
 }
+Override
 public
 void
 close

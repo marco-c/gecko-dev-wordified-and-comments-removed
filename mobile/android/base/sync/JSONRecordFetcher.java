@@ -220,6 +220,7 @@ return
 authHeaderProvider
 ;
 }
+Override
 public
 String
 ifUnmodifiedSince
@@ -230,6 +231,7 @@ return
 null
 ;
 }
+Override
 public
 void
 handleRequestSuccess
