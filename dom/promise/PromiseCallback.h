@@ -54,7 +54,7 @@ PromiseCallback
 )
 ;
 virtual
-void
+nsresult
 Call
 (
 JSContext
@@ -132,7 +132,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 WrapperPromiseCallback
 PromiseCallback
 )
-void
+nsresult
 Call
 (
 JSContext
@@ -228,7 +228,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 ResolvePromiseCallback
 PromiseCallback
 )
-void
+nsresult
 Call
 (
 JSContext
@@ -315,7 +315,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 RejectPromiseCallback
 PromiseCallback
 )
-void
+nsresult
 Call
 (
 JSContext
@@ -402,7 +402,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 NativePromiseCallback
 PromiseCallback
 )
-void
+nsresult
 Call
 (
 JSContext
