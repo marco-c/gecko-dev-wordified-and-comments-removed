@@ -924,6 +924,8 @@ log
 }
 else
 {
+document
+.
 body
 .
 appendChild

@@ -362,6 +362,18 @@ in
 test_data
 :
         
+if
+"
+script
+-
+off
+"
+in
+test
+:
+            
+continue
+        
 is_innerHTML
 =
 "
