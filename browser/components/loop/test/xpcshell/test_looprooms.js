@@ -1976,7 +1976,7 @@ loopconversation
 #
 (
 \
-d
+w
 +
 )
 /
