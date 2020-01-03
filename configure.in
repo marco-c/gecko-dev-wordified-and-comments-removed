@@ -27684,7 +27684,6 @@ nostartfiles
 "
 fi
 fi
-MOZ_CHECK_ALLOCATOR
 dnl
 See
 if
@@ -27945,6 +27944,7 @@ fi
 #
 !
 SKIP_COMPILER_CHECKS
+MOZ_CHECK_ALLOCATOR
 TARGET_XPCOM_ABI
 =
 if
