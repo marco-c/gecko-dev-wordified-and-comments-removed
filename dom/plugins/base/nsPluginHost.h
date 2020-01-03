@@ -1154,6 +1154,7 @@ nsNPAPIPluginInstance
 aInstance
 )
 ;
+explicit
 PluginDestructionGuard
 (
 NPP
