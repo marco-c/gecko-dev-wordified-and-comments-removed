@@ -116,6 +116,11 @@ Ril
 .
 cpp
 '
+'
+RilConnector
+.
+cpp
+'
 ]
 include
 (
