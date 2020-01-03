@@ -627,7 +627,6 @@ AudioSessionConduit
 :
 Create
 (
-nullptr
 )
 )
 audio_
@@ -2825,7 +2824,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP
@@ -2869,7 +2868,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP
@@ -3071,7 +3070,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP
@@ -3089,7 +3088,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP
@@ -3300,7 +3299,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP
@@ -3318,7 +3317,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP
@@ -3353,7 +3352,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP
@@ -3371,7 +3370,7 @@ ASSERT_EQ
 MediaPipelineFilter
 :
 :
-FAIL
+PASS
 filter
 .
 FilterRTCP

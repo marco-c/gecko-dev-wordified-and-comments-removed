@@ -667,9 +667,6 @@ broken
 "
 )
 ;
-return
-false
-;
 }
 return
 ssrcs_must_match
