@@ -2942,6 +2942,10 @@ endif
 }
 #
 endif
+#
+define
+JS_CODEGEN_REGISTER_PAIR
+1
 static
 const
 size_t
