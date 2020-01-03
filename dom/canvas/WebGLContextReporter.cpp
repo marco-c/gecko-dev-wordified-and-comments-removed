@@ -700,6 +700,14 @@ if
 buffer
 -
 >
+HasEverBeenBound
+(
+)
+&
+&
+buffer
+-
+>
 Target
 (
 )
@@ -707,6 +715,7 @@ Target
 =
 LOCAL_GL_ELEMENT_ARRAY_BUFFER
 )
+{
 result
 +
 =
@@ -718,6 +727,7 @@ SizeOfIncludingThis
 WebGLBufferMallocSizeOf
 )
 ;
+}
 }
 }
 return
