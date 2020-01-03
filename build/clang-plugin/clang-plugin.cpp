@@ -1407,6 +1407,15 @@ overrideNote
 }
 if
 (
+!
+d
+-
+>
+isAbstract
+(
+)
+&
+&
 isInterestingDecl
 (
 d
