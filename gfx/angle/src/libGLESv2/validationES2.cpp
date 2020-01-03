@@ -2633,6 +2633,12 @@ colorbufferFormat
 !
 =
 GL_RGBA8_OES
+&
+&
+colorbufferFormat
+!
+=
+GL_BGRA8_EXT
 )
 {
 context
