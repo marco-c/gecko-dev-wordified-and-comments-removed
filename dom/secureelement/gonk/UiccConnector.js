@@ -1513,7 +1513,7 @@ idx
 {
 this
 .
-_listeners
+_SEListeners
 .
 splice
 (
