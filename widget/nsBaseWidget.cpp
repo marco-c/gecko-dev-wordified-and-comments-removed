@@ -3616,6 +3616,7 @@ new
 ChromeProcessController
 (
 this
+mAPZEventState
 )
 ;
 return
