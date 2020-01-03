@@ -281,6 +281,14 @@ lir
 )
 ;
 void
+visitMop
+(
+LMop
+*
+lir
+)
+;
+void
 visitOsiPoint
 (
 LOsiPoint
