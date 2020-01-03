@@ -106,6 +106,9 @@ TEST_DIRS
 =
 [
 '
+test_cert_keyUsage
+'
+'
 test_intermediate_basic_usage_constraints
 '
 ]
