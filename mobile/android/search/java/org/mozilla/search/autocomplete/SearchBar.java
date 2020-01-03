@@ -284,6 +284,12 @@ hasFocus
 )
 ;
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 SearchBar
 (
