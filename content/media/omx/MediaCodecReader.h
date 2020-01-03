@@ -218,6 +218,13 @@ HasVideo
 )
 ;
 virtual
+void
+PreReadMetadata
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 nsresult
 ReadMetadata
 (
@@ -469,6 +476,11 @@ CreateExtractor
 (
 )
 ;
+void
+UpdateIsWaitingMediaResources
+(
+)
+;
 android
 :
 :
@@ -480,6 +492,9 @@ android
 MediaExtractor
 >
 mExtractor
+;
+bool
+mIsWaitingResources
 ;
 private
 :
