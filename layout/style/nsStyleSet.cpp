@@ -6806,6 +6806,10 @@ aReplacements
 eRestyle_CSSTransitions
 |
 eRestyle_CSSAnimations
+|
+eRestyle_Force
+|
+eRestyle_ForceDescendants
 )
 )
 nsPrintfCString
