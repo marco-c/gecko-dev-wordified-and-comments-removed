@@ -190,10 +190,9 @@ instrumentedProfilingIsCached_
 (
 false
 )
-nurseryObjects_
+safeForMinorGC_
 (
-*
-alloc
+true
 )
 outOfBoundsLabel_
 (

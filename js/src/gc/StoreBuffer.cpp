@@ -308,6 +308,10 @@ aboutToOverflow_
 =
 false
 ;
+cancelIonCompilations_
+=
+false
+;
 bufferVal
 .
 clear
