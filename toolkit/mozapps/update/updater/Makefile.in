@@ -150,12 +150,12 @@ der
 else
 PRIMARY_CERT
 =
-dep1
+xpcshellCertificate
 .
 der
 SECONDARY_CERT
 =
-dep2
+xpcshellCertificate
 .
 der
 endif
