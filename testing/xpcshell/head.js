@@ -4361,6 +4361,7 @@ Assert
 ok
 (
 condition
+stack
 )
 ;
 }
