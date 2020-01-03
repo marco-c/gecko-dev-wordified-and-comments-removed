@@ -2001,6 +2001,10 @@ pixels
 .
 *
 /
+prio
+(
+high
+)
 sync
 GetTabOffset
 (
