@@ -1233,13 +1233,7 @@ Item
 aContext
 aPresContext
 aCanStoreInRuleTree
-&
-aRefBox
-&
-TransformReferenceBox
-:
-:
-Height
+nullptr
 )
 ;
 aMatrix
