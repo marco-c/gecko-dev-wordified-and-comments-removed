@@ -119,3 +119,6 @@ LOCAL_INCLUDES
 directory
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

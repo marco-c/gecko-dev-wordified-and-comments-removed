@@ -201,3 +201,6 @@ NOMINMAX
 ]
 =
 True
+FAIL_ON_WARNINGS
+=
+True

@@ -414,3 +414,6 @@ OS_LIBS
 version
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
