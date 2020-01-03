@@ -40993,6 +40993,12 @@ js
 "
 )
 ;
+DebuggerServer
+.
+allowChromeProcess
+=
+true
+;
 }
 let
 pathOrPort

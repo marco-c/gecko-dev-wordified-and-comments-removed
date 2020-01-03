@@ -278,6 +278,13 @@ js
 '
 actors
 /
+chrome
+.
+js
+'
+'
+actors
+/
 common
 .
 js
