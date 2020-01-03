@@ -8681,6 +8681,10 @@ IS_UNIX
 &
 !
 IS_MACOSX
+&
+&
+!
+IS_TOOLKIT_GONK
 )
 {
 appFiles
@@ -9220,6 +9224,15 @@ exists
 (
 )
 MSG_SHOULD_EXIST
++
+"
+leafName
+:
+"
++
+srcFile
+.
+leafName
 )
 ;
 let
@@ -9281,6 +9294,9 @@ if
 (
 !
 shouldSymlink
+|
+|
+IS_TOOLKIT_GONK
 )
 {
 if
@@ -16367,6 +16383,7 @@ fns
 forEach
 (
 function
+UP_fns
 (
 aPromptFn
 )
