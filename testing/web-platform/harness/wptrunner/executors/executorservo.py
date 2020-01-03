@@ -47,7 +47,7 @@ ProcessTestExecutor
 from
 .
 .
-executors
+browsers
 .
 base
 import
@@ -420,6 +420,13 @@ self
 .
 hosts_path
         
+if
+not
+self
+.
+interactive
+:
+            
 self
 .
 proc
@@ -429,7 +436,7 @@ ProcessHandler
 self
 .
 command
-                                   
+                                       
 processOutputLine
 =
 [
@@ -437,20 +444,21 @@ self
 .
 on_output
 ]
-                                   
+                                       
 onFinish
 =
 self
 .
 on_finish
-                                   
+                                       
 env
 =
 env
+                                       
+storeOutput
+=
+False
 )
-        
-try
-:
             
 self
 .
@@ -459,6 +467,28 @@ proc
 run
 (
 )
+        
+else
+:
+            
+self
+.
+proc
+=
+subprocess
+.
+Popen
+(
+self
+.
+command
+env
+=
+env
+)
+        
+try
+:
             
 timeout
 =
@@ -471,11 +501,10 @@ self
 timeout_multiplier
             
 if
+not
 self
 .
-debug_info
-is
-None
+interactive
 and
 not
 self
@@ -488,14 +517,7 @@ wait_timeout
 timeout
 +
 5
-            
-else
-:
                 
-wait_timeout
-=
-None
-            
 self
 .
 result_flag
@@ -503,6 +525,21 @@ result_flag
 wait
 (
 wait_timeout
+)
+            
+else
+:
+                
+wait_timeout
+=
+None
+                
+self
+.
+proc
+.
+wait
+(
 )
             
 proc_is_running
@@ -556,8 +593,6 @@ else
                 
 if
 self
-.
-proc
 .
 proc
 .

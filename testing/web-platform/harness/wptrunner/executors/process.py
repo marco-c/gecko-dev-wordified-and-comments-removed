@@ -48,11 +48,22 @@ self
 .
 interactive
 =
+(
+False
+if
 self
 .
-browser
+debug_info
+is
+None
+                            
+else
+self
+.
+debug_info
 .
 interactive
+)
     
 def
 setup

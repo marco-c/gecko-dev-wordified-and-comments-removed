@@ -165,17 +165,6 @@ kwargs
 debug_info
 "
 ]
-            
-"
-interactive
-"
-:
-kwargs
-[
-"
-interactive
-"
-]
 }
 def
 executor_kwargs
@@ -276,9 +265,6 @@ binary
 debug_info
 =
 None
-interactive
-=
-False
 )
 :
         
@@ -301,12 +287,6 @@ self
 debug_info
 =
 debug_info
-        
-self
-.
-interactive
-=
-interactive
     
 def
 executor_browser
@@ -333,12 +313,4 @@ debug_info
 self
 .
 debug_info
-                                 
-"
-interactive
-"
-:
-self
-.
-interactive
 }

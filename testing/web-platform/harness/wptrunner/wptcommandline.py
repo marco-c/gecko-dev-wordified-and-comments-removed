@@ -2752,20 +2752,26 @@ debug_info
 interactive
 :
             
-require_arg
-(
+if
 kwargs
+[
 "
 processes
 "
-lambda
-x
-:
-x
-=
+]
+!
 =
 1
-)
+:
+                
+kwargs
+[
+"
+processes
+"
+]
+=
+1
             
 kwargs
 [
