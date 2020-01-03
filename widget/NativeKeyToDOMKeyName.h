@@ -3421,12 +3421,12 @@ AKEYCODE_CAPTIONS
 )
 KEY_MAP_WIN
 (
-Zoom
+ZoomToggle
 VK_ZOOM
 )
 KEY_MAP_QT
 (
-Zoom
+ZoomToggle
 Qt
 :
 :
