@@ -1474,12 +1474,12 @@ let
 info
 =
 {
-GUID
+guid
 :
 aData
 .
 itemGuid
-newParentGUID
+newParentGuid
 :
 aNewParentGuid
 newIndex
@@ -1569,7 +1569,7 @@ PlacesTransactions
 NewSeparator
 (
 {
-parentGUID
+parentGuid
 :
 aNewParentGuid
 index
@@ -1618,7 +1618,7 @@ uri
 title
 :
 title
-parentGUID
+parentGuid
 :
 aNewParentGuid
 index

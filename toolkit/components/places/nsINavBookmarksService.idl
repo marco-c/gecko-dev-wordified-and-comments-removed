@@ -399,7 +399,7 @@ epoch
 .
 *
 param
-aGUID
+aGuid
 *
 The
 unique
@@ -411,7 +411,7 @@ item
 .
 *
 param
-aParentGUID
+aParentGuid
 *
 The
 unique
@@ -455,10 +455,10 @@ PRTime
 aDateAdded
 in
 ACString
-aGUID
+aGuid
 in
 ACString
-aParentGUID
+aParentGuid
 )
 ;
 /
@@ -594,7 +594,7 @@ otherwise
 .
 *
 param
-aGUID
+aGuid
 *
 The
 unique
@@ -606,7 +606,7 @@ item
 .
 *
 param
-aParentGUID
+aParentGuid
 *
 The
 unique
@@ -644,10 +644,10 @@ nsIURI
 aURI
 in
 ACString
-aGUID
+aGuid
 in
 ACString
-aParentGUID
+aParentGuid
 )
 ;
 /
@@ -828,7 +828,7 @@ item
 .
 *
 param
-aGUID
+aGuid
 *
 The
 unique
@@ -840,7 +840,7 @@ item
 .
 *
 param
-aParentGUID
+aParentGuid
 *
 The
 unique
@@ -1056,10 +1056,10 @@ long
 aParentId
 in
 ACString
-aGUID
+aGuid
 in
 ACString
-aParentGUID
+aParentGuid
 )
 ;
 /
@@ -1166,7 +1166,7 @@ item
 .
 *
 param
-aGUID
+aGuid
 *
 The
 unique
@@ -1178,7 +1178,7 @@ item
 .
 *
 param
-aParentGUID
+aParentGuid
 *
 The
 unique
@@ -1295,10 +1295,10 @@ long
 aParentId
 in
 ACString
-aGUID
+aGuid
 in
 ACString
-aParentGUID
+aParentGuid
 )
 ;
 /
@@ -1394,7 +1394,7 @@ below
 .
 *
 param
-aGUID
+aGuid
 *
 The
 unique
@@ -1406,7 +1406,7 @@ item
 .
 *
 param
-aOldParentGUID
+aOldParentGuid
 *
 The
 unique
@@ -1422,7 +1422,7 @@ parent
 .
 *
 param
-aNewParentGUID
+aNewParentGuid
 *
 The
 unique
@@ -1465,13 +1465,13 @@ short
 aItemType
 in
 ACString
-aGUID
+aGuid
 in
 ACString
-aOldParentGUID
+aOldParentGuid
 in
 ACString
-aNewParentGUID
+aNewParentGuid
 )
 ;
 }
@@ -1816,7 +1816,7 @@ param
 [
 optional
 ]
-aGUID
+aGuid
 *
 The
 GUID
@@ -1891,7 +1891,7 @@ URI_LENGTH_MAX
 *
 throws
 if
-aGUID
+aGuid
 is
 malformed
 .
@@ -1919,7 +1919,7 @@ optional
 ]
 in
 ACString
-aGUID
+aGuid
 )
 ;
 /
@@ -2014,7 +2014,7 @@ param
 [
 optional
 ]
-aGUID
+aGuid
 *
 The
 GUID
@@ -2071,7 +2071,7 @@ folder
 *
 throws
 if
-aGUID
+aGuid
 is
 malformed
 .
@@ -2096,7 +2096,7 @@ optional
 ]
 in
 ACString
-aGUID
+aGuid
 )
 ;
 /
@@ -2458,7 +2458,7 @@ param
 [
 optional
 ]
-aGUID
+aGuid
 *
 The
 GUID
@@ -2513,7 +2513,7 @@ separator
 *
 throws
 if
-aGUID
+aGuid
 is
 malformed
 .
@@ -2535,7 +2535,7 @@ optional
 ]
 in
 ACString
-aGUID
+aGuid
 )
 ;
 /

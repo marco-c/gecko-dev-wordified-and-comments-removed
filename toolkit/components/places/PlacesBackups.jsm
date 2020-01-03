@@ -2475,12 +2475,12 @@ function
 )
 {
 let
-rootGUID
+rootGuid
 =
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 PlacesUtils
 .
@@ -2504,7 +2504,7 @@ PlacesUtils
 .
 promiseBookmarksTree
 (
-rootGUID
+rootGuid
 {
 excludeItemsCallback
 :

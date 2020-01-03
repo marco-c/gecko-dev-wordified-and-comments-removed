@@ -1718,7 +1718,7 @@ DEFAULT_INDEX
 ;
 DefineTransaction
 .
-isGUID
+isGuid
 =
 v
 =
@@ -2661,18 +2661,18 @@ defineInputProps
 (
 [
 "
-GUID
+guid
 "
 "
-parentGUID
+parentGuid
 "
 "
-newParentGUID
+newParentGuid
 "
 ]
 DefineTransaction
 .
-isGUID
+isGuid
 )
 ;
 DefineTransaction
@@ -2804,7 +2804,7 @@ function
 ExecuteCreateItem
 (
 aTransaction
-aParentGUID
+aParentGuid
 aCreateItemFunction
 aOnUndo
 =
@@ -2822,7 +2822,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 itemId
 =
@@ -2838,7 +2838,7 @@ guid
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 itemId
 )
@@ -2929,7 +2929,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 ;
 itemId
@@ -3090,7 +3090,7 @@ function
 createItem
 (
 aItem
-aParentGUID
+aParentGuid
 aIndex
 =
 PlacesUtils
@@ -3122,7 +3122,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 ;
 let
@@ -3289,7 +3289,7 @@ guid
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 itemId
 )
@@ -3508,7 +3508,7 @@ createItem
 aBookmarksTree
 aBookmarksTree
 .
-parentGUID
+parentGuid
 aBookmarksTree
 .
 index
@@ -3528,7 +3528,7 @@ DefineTransaction
 (
 [
 "
-parentGUID
+parentGuid
 "
 "
 uri
@@ -3571,7 +3571,7 @@ execute
 :
 function
 (
-aParentGUID
+aParentGuid
 aURI
 aIndex
 aTitle
@@ -3585,7 +3585,7 @@ return
 ExecuteCreateItem
 (
 this
-aParentGUID
+aParentGuid
 function
 (
 parentId
@@ -3750,7 +3750,7 @@ DefineTransaction
 (
 [
 "
-parentGUID
+parentGuid
 "
 "
 title
@@ -3781,7 +3781,7 @@ execute
 :
 function
 (
-aParentGUID
+aParentGuid
 aTitle
 aIndex
 aAnnos
@@ -3791,7 +3791,7 @@ return
 ExecuteCreateItem
 (
 this
-aParentGUID
+aParentGuid
 function
 (
 parentId
@@ -3850,7 +3850,7 @@ DefineTransaction
 (
 [
 "
-parentGUID
+parentGuid
 "
 ]
 [
@@ -3875,7 +3875,7 @@ execute
 :
 function
 (
-aParentGUID
+aParentGuid
 aIndex
 )
 {
@@ -3883,7 +3883,7 @@ return
 ExecuteCreateItem
 (
 this
-aParentGUID
+aParentGuid
 function
 (
 parentId
@@ -3931,7 +3931,7 @@ feedURI
 title
 "
 "
-parentGUID
+parentGuid
 "
 ]
 [
@@ -3965,7 +3965,7 @@ function
 (
 aFeedURI
 aTitle
-aParentGUID
+aParentGuid
 aSiteURI
 aIndex
 aAnnos
@@ -4006,7 +4006,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aParentGUID
+aParentGuid
 )
 ;
 let
@@ -4198,10 +4198,10 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
-newParentGUID
+newParentGuid
 "
 ]
 [
@@ -4227,8 +4227,8 @@ execute
 function
 *
 (
-aGUID
-aNewParentGUID
+aGuid
+aNewParentGuid
 aNewIndex
 )
 {
@@ -4240,7 +4240,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldParentId
 =
@@ -4269,7 +4269,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aNewParentGUID
+aNewParentGuid
 )
 ;
 PlacesUtils
@@ -4355,7 +4355,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 title
@@ -4379,7 +4379,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aTitle
 )
 {
@@ -4391,7 +4391,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldTitle
 =
@@ -4447,7 +4447,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 uri
@@ -4471,7 +4471,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aURI
 )
 {
@@ -4483,7 +4483,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldURI
 =
@@ -4697,7 +4697,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 annotations
@@ -4717,7 +4717,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aNewAnnos
 )
 {
@@ -4729,7 +4729,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 ;
 let
@@ -4865,7 +4865,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
 keyword
@@ -4889,7 +4889,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 aKeyword
 )
 {
@@ -4901,7 +4901,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldKeyword
 =
@@ -4957,7 +4957,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 ]
 )
@@ -4974,7 +4974,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 )
 {
 let
@@ -4985,7 +4985,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 oldOrder
 =
@@ -5340,7 +5340,7 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 ]
 )
@@ -5357,7 +5357,7 @@ execute
 function
 *
 (
-aGUID
+aGuid
 )
 {
 const
@@ -5381,7 +5381,7 @@ PlacesUtils
 .
 promiseBookmarksTree
 (
-aGUID
+aGuid
 )
 ;
 }
@@ -5408,7 +5408,7 @@ guid
 :
 "
 +
-aGUID
+aGuid
 +
 "
 )
@@ -5432,7 +5432,7 @@ PlacesUtils
 .
 promiseItemId
 (
-aGUID
+aGuid
 )
 )
 ;
@@ -5564,12 +5564,12 @@ currentURI
 )
 {
 let
-unfileGUID
+unfiledGuid
 =
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 PlacesUtils
 .
@@ -5594,9 +5594,9 @@ currentURI
 tags
 :
 aTags
-parentGUID
+parentGuid
 :
-unfileGUID
+unfiledGuid
 }
 )
 )
@@ -6012,10 +6012,10 @@ DefineTransaction
 (
 [
 "
-GUID
+guid
 "
 "
-newParentGUID
+newParentGuid
 "
 ]
 [
@@ -6040,8 +6040,8 @@ execute
 function
 *
 (
-aGUID
-aNewParentGUID
+aGuid
+aNewParentGuid
 aNewIndex
 aExcludingAnnotations
 )
@@ -6060,7 +6060,7 @@ PlacesUtils
 .
 promiseBookmarksTree
 (
-aGUID
+aGuid
 )
 ;
 }
@@ -6087,7 +6087,7 @@ guid
 :
 "
 +
-aGUID
+aGuid
 +
 "
 )
@@ -6102,9 +6102,9 @@ ex
 }
 creationInfo
 .
-parentGUID
+parentGuid
 =
-aNewParentGUID
+aNewParentGuid
 ;
 creationInfo
 .
@@ -6144,12 +6144,12 @@ newItemInfo
 )
 {
 let
-newItemGUID
+newItemGuid
 =
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 newItemId
 )
@@ -6161,7 +6161,7 @@ PlacesUtils
 .
 promiseBookmarksTree
 (
-newItemGUID
+newItemGuid
 )
 ;
 }
@@ -6199,7 +6199,7 @@ return
 yield
 PlacesUtils
 .
-promiseItemGUID
+promiseItemGuid
 (
 newItemId
 )
