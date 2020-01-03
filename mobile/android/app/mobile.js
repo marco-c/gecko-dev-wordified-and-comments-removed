@@ -5355,7 +5355,7 @@ draw
 .
 enabled
 "
-true
+false
 )
 ;
 #
