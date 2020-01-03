@@ -63,7 +63,7 @@ GeneratorIsRunning
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
@@ -163,7 +163,7 @@ GeneratorIsRunning
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
@@ -270,7 +270,7 @@ GeneratorIsRunning
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
@@ -374,7 +374,7 @@ GeneratorIsRunning
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
@@ -464,7 +464,7 @@ GeneratorIsRunning
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
@@ -576,7 +576,7 @@ GeneratorIsRunning
 this
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NESTING_GENERATOR
 )
