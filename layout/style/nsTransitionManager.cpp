@@ -2132,7 +2132,6 @@ collection
 EnsureStyleRuleFor
 (
 now
-EnsureStyleRule_IsNotThrottled
 )
 ;
 }
@@ -3689,7 +3688,6 @@ aAnimations
 EnsureStyleRuleFor
 (
 now
-EnsureStyleRule_IsThrottled
 )
 ;
 if

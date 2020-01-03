@@ -2157,7 +2157,6 @@ collection
 EnsureStyleRuleFor
 (
 refreshTime
-EnsureStyleRule_IsNotThrottled
 )
 ;
 if
