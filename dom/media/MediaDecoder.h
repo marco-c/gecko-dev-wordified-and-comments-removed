@@ -591,14 +591,6 @@ SetMinimizePrerollUntilPlaybackStarts
 )
 ;
 void
-ConnectDecodedStreamToOutputStream
-(
-OutputStreamData
-*
-aStream
-)
-;
-void
 UpdateDecodedStream
 (
 )
