@@ -218,7 +218,7 @@ _wait_for_homescreen
 (
 timeout
 =
-15
+300
 )
             
 self
