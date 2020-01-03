@@ -7087,7 +7087,7 @@ if
 mTarget
 -
 >
-IsInDoc
+IsInComposedDoc
 (
 )
 )
