@@ -5679,6 +5679,10 @@ Stop
 (
 )
 ;
+mCaptivePortalService
+=
+nullptr
+;
 }
 mProxyService
 =
