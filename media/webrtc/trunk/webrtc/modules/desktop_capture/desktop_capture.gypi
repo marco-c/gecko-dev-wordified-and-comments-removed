@@ -147,7 +147,7 @@ base
 .
 gyp
 :
-rtc_base
+rtc_base_approved
 '
 ]
 '

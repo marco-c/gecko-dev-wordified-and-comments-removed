@@ -226,7 +226,17 @@ use_system_libvpx
 :
 0
 '
+build_json
+'
+:
+0
+'
 build_libjpeg
+'
+:
+0
+'
+build_libyuv
 '
 :
 0
@@ -236,7 +246,7 @@ build_libvpx
 :
 0
 '
-build_libyuv
+build_ssl
 '
 :
 0
