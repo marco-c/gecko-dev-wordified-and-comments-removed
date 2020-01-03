@@ -11133,6 +11133,12 @@ MIRType_MagicUninitializedLexical
 case
 MIRType_Value
 :
+case
+MIRType_Float32x4
+:
+case
+MIRType_Int32x4
+:
 return
 true
 ;
@@ -11162,12 +11168,6 @@ MIRType_Shape
 :
 case
 MIRType_ObjectGroup
-:
-case
-MIRType_Float32x4
-:
-case
-MIRType_Int32x4
 :
 case
 MIRType_Doublex2
