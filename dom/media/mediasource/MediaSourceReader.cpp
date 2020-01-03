@@ -224,13 +224,11 @@ aDecoder
 )
 mLastAudioTime
 (
--
-1
+0
 )
 mLastVideoTime
 (
--
-1
+0
 )
 mPendingSeekTime
 (
