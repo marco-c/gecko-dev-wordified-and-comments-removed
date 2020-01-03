@@ -2,6 +2,8 @@ from
 marionette_driver
 import
 errors
+from
+marionette
 import
 marionette_test
 class

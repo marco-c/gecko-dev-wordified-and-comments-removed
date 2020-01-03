@@ -1,7 +1,5 @@
-import
-unittest
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 expectedFailure

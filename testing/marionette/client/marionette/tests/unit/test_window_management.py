@@ -1,7 +1,7 @@
 import
 time
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 class

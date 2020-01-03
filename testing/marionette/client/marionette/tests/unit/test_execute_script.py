@@ -12,9 +12,8 @@ marionette_driver
 errors
 import
 JavascriptException
-MarionetteException
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 def

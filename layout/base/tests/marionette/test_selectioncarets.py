@@ -23,7 +23,7 @@ marionette
 import
 Actions
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 from

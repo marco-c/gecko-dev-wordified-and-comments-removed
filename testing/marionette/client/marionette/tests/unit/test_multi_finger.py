@@ -1,8 +1,10 @@
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 from
+marionette
+.
 marionette
 import
 MultiActions

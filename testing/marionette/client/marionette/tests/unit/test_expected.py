@@ -10,6 +10,8 @@ marionette_driver
 by
 import
 By
+from
+marionette
 import
 marionette_test
 def

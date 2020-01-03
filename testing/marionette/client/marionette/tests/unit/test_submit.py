@@ -19,7 +19,7 @@ wait
 import
 Wait
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 class

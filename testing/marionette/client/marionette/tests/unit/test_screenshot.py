@@ -3,7 +3,7 @@ base64
 import
 imghdr
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 RED_ELEMENT_BASE64

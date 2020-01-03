@@ -1,12 +1,13 @@
 from
-marionette_test
+marionette
 import
 MarionetteTestCase
 from
+marionette
+.
 gestures
 import
 smooth_scroll
-pinch
 class
 testGestures
 (
