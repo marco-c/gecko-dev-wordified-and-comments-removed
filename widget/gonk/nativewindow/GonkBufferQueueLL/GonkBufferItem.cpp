@@ -1,12 +1,10 @@
 #
 include
-<
-gui
-/
-BufferItem
+"
+GonkBufferItem
 .
 h
->
+"
 #
 include
 <
@@ -37,10 +35,10 @@ h
 namespace
 android
 {
-BufferItem
+GonkBufferItem
 :
 :
-BufferItem
+GonkBufferItem
 (
 )
 :
@@ -88,11 +86,11 @@ makeInvalid
 )
 ;
 }
-BufferItem
+GonkBufferItem
 :
 :
 operator
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -100,7 +98,7 @@ BufferItem
 )
 const
 {
-IGraphicBufferConsumer
+IGonkGraphicBufferConsumer
 :
 :
 BufferItem
@@ -183,7 +181,7 @@ bufferItem
 ;
 }
 size_t
-BufferItem
+GonkBufferItem
 :
 :
 getPodSize
@@ -249,7 +247,7 @@ c
 ;
 }
 size_t
-BufferItem
+GonkBufferItem
 :
 :
 getFlattenedSize
@@ -336,7 +334,7 @@ getPodSize
 ;
 }
 size_t
-BufferItem
+GonkBufferItem
 :
 :
 getFdCount
@@ -392,7 +390,7 @@ c
 ;
 }
 status_t
-BufferItem
+GonkBufferItem
 :
 :
 flatten
@@ -418,7 +416,7 @@ if
 (
 count
 <
-BufferItem
+GonkBufferItem
 :
 :
 getFlattenedSize
@@ -677,7 +675,7 @@ NO_ERROR
 ;
 }
 status_t
-BufferItem
+GonkBufferItem
 :
 :
 unflatten
@@ -947,7 +945,7 @@ NO_ERROR
 const
 char
 *
-BufferItem
+GonkBufferItem
 :
 :
 scalingModeName
