@@ -25,6 +25,10 @@ Msg1
 (
 )
 ;
+prio
+(
+high
+)
 sync
 Msg2
 (
