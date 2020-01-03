@@ -17824,6 +17824,9 @@ data
 )
 ;
 }
+positive
+:
+true
 }
 ]
 ;
@@ -34505,6 +34508,9 @@ return
 false
 ;
 }
+positive
+:
+true
 }
 ]
 ;
@@ -35206,6 +35212,9 @@ eAttemptQuit
 ;
 }
 }
+positive
+:
+true
 }
 ]
 ;
@@ -36944,6 +36953,9 @@ showPopupsForSite
 )
 ;
 }
+positive
+:
+true
 }
 ]
 ;
@@ -37530,6 +37542,9 @@ ALLOW_ACTION
 )
 ;
 }
+positive
+:
+true
 }
 ]
 ;
