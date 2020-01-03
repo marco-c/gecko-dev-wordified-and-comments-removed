@@ -7138,6 +7138,7 @@ UINT32_MAX
 52
 64
 68
+72
 128
 256
 512
@@ -7191,7 +7192,6 @@ Pow2CapacityIndexes
 13
 19
 24
-26
 27
 28
 29
@@ -7205,6 +7205,7 @@ Pow2CapacityIndexes
 37
 38
 39
+40
 }
 ;
 static
@@ -7212,7 +7213,7 @@ const
 uint32_t
 MebiCapacityIndex
 =
-39
+40
 ;
 uint32_t
 UnboxedArrayObject
