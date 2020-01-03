@@ -199,6 +199,11 @@ Matrix
 h
 '
 '
+NumericTools
+.
+h
+'
+'
 PathHelpers
 .
 h
