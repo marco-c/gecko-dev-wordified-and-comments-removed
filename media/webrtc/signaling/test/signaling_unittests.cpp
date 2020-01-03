@@ -21508,11 +21508,6 @@ OFFER_AUDIO
 SHOULD_SENDRECV_AUDIO
 )
 ;
-PR_Sleep
-(
-20000
-)
-;
 }
 TEST_F
 (
@@ -21637,11 +21632,6 @@ agent
 offer
 (
 )
-)
-;
-PR_Sleep
-(
-1000
 )
 ;
 agent
@@ -25798,9 +25788,7 @@ WaitForCompleted
 ;
 PR_Sleep
 (
-kDefaultTimeout
-*
-2
+500
 )
 ;
 CloseStreams
