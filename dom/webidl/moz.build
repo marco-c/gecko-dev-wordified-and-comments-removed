@@ -1175,6 +1175,11 @@ IDBVersionChangeEvent
 webidl
 '
 '
+ImageCapture
+.
+webidl
+'
+'
 ImageData
 .
 webidl

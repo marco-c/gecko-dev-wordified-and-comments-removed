@@ -312,6 +312,9 @@ DIRS
 '
 webspeech
 '
+'
+imagecapture
+'
 ]
 if
 CONFIG
