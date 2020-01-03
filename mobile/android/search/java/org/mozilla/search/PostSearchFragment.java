@@ -76,6 +76,13 @@ SearchEngine
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Intent
@@ -232,6 +239,12 @@ private
 String
 resultsPageHost
 ;
+SuppressLint
+(
+"
+SetJavaScriptEnabled
+"
+)
 Override
 public
 View
