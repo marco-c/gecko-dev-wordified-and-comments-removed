@@ -4154,6 +4154,11 @@ props
 url
 :
 null
+rel
+:
+"
+noreferrer
+"
 target
 :
 "

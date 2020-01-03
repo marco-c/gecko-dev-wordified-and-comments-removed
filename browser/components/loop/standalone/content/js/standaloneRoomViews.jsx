@@ -1155,6 +1155,11 @@ this
 .
 recordClick
 }
+rel
+=
+"
+noreferrer
+"
 target
 =
 "
@@ -1295,6 +1300,11 @@ config
 .
 legalWebsiteUrl
 }
+rel
+=
+"
+noreferrer
+"
 target
 =
 "
@@ -1335,6 +1345,11 @@ config
 .
 privacyWebsiteUrl
 }
+rel
+=
+"
+noreferrer
+"
 target
 =
 "

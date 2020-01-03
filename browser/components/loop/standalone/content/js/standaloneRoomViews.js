@@ -1049,6 +1049,11 @@ onClick
 this
 .
 recordClick
+rel
+:
+"
+noreferrer
+"
 target
 :
 "
@@ -1162,6 +1167,11 @@ loop
 config
 .
 legalWebsiteUrl
+rel
+:
+"
+noreferrer
+"
 target
 :
 "
@@ -1201,6 +1211,11 @@ loop
 config
 .
 privacyWebsiteUrl
+rel
+:
+"
+noreferrer
+"
 target
 :
 "

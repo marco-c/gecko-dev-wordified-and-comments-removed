@@ -5057,6 +5057,11 @@ url
 :
 null
 }
+rel
+=
+"
+noreferrer
+"
 target
 =
 "
