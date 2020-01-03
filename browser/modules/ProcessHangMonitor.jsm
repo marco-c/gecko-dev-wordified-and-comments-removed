@@ -56,7 +56,7 @@ jsm
 const
 HANG_EXPIRATION_TIME
 =
-5000
+10000
 ;
 let
 ProcessHangMonitor

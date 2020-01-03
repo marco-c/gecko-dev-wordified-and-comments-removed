@@ -14821,7 +14821,7 @@ dom
 .
 max_child_script_run_time
 "
-2
+10
 )
 ;
 pref
@@ -14986,7 +14986,7 @@ plugins
 .
 contentTimeoutSecs
 "
-2
+45
 )
 ;
 pref
