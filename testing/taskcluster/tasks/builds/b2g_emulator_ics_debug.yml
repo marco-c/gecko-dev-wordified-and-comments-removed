@@ -59,13 +59,6 @@ worker
 object
 -
 folder
--
-emulator
--
-ics
--
-1
-/
 env
 :
 B2G_CONFIG

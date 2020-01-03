@@ -118,10 +118,6 @@ HOME
 object
 -
 folder
--
-B2G_CONFIG
--
-B2G_DEBUG
 "
 if
 [
