@@ -274,6 +274,8 @@ Http2Session
 nsISocketTransport
 *
 aSocketTransport
+uint32_t
+version
 )
 :
 mSocketTransport
@@ -426,6 +428,10 @@ mUseH2Deps
 (
 false
 )
+mVersion
+(
+version
+)
 {
 MOZ_ASSERT
 (
@@ -540,7 +546,7 @@ mNegotiatedToken
 .
 AssignLiteral
 (
-NS_HTTP2_DRAFT_TOKEN
+HTTP2_DRAFT_LATEST_TOKEN
 )
 ;
 }
@@ -4150,6 +4156,14 @@ kFrameHeaderBytes
 }
 if
 (
+(
+mVersion
+!
+=
+HTTP_VERSION_2_DRAFT_15
+)
+&
+&
 gHttpHandler
 -
 >
@@ -17796,7 +17810,7 @@ mNegotiatedToken
 .
 AssignLiteral
 (
-NS_HTTP2_DRAFT_TOKEN
+HTTP2_DRAFT_LATEST_TOKEN
 )
 ;
 }

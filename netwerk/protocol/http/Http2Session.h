@@ -108,11 +108,12 @@ mConnection
 )
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
-explicit
 Http2Session
 (
 nsISocketTransport
 *
+uint32_t
+version
 )
 ;
 bool
@@ -1306,6 +1307,9 @@ mNegotiatedToken
 ;
 bool
 mUseH2Deps
+;
+uint32_t
+mVersion
 ;
 private
 :
