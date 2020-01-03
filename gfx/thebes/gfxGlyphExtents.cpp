@@ -108,11 +108,6 @@ GetTightGlyphExtentsAppUnits
 gfxFont
 *
 aFont
-gfxFont
-:
-:
-Orientation
-aOrientation
 gfxContext
 *
 aContext
@@ -191,7 +186,6 @@ aFont
 SetupGlyphExtents
 (
 aContext
-aOrientation
 aGlyphID
 true
 this

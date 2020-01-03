@@ -168,11 +168,6 @@ GetTightGlyphExtentsAppUnits
 gfxFont
 *
 aFont
-gfxFont
-:
-:
-Orientation
-aOrientation
 gfxContext
 *
 aContext

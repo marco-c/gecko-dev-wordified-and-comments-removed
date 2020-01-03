@@ -5096,8 +5096,6 @@ SetupGlyphExtents
 gfxContext
 *
 aContext
-Orientation
-aOrientation
 uint32_t
 aGlyphID
 bool
