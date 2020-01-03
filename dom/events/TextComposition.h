@@ -437,6 +437,9 @@ mRequestedToCommitOrCancel
 bool
 mWasNativeCompositionEndEventDiscarded
 ;
+bool
+mAllowControlCharacters
+;
 TextComposition
 (
 )
