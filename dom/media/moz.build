@@ -563,11 +563,6 @@ MediaDecoderStateMachine
 h
 '
 '
-MediaDecoderStateMachineScheduler
-.
-h
-'
-'
 MediaInfo
 .
 h
@@ -609,6 +604,11 @@ h
 '
 '
 MediaTaskQueue
+.
+h
+'
+'
+MediaTimer
 .
 h
 '
@@ -925,11 +925,6 @@ cpp
 '
 '
 MediaDecoderStateMachine
-.
-cpp
-'
-'
-MediaDecoderStateMachineScheduler
 .
 cpp
 '
