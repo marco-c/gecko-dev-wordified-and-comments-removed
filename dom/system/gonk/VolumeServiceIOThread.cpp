@@ -89,9 +89,12 @@ this
 Volume
 :
 :
-RegisterObserver
+RegisterVolumeObserver
 (
 this
+"
+VolumeServiceIOThread
+"
 )
 ;
 UpdateAllVolumes
@@ -125,9 +128,12 @@ XRE_GetIOMessageLoop
 Volume
 :
 :
-UnregisterObserver
+UnregisterVolumeObserver
 (
 this
+"
+VolumeServiceIOThread
+"
 )
 ;
 VolumeManager
