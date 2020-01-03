@@ -2346,7 +2346,7 @@ route
 ci
 -
 >
-GetHost
+GetOrigin
 (
 )
 ;
@@ -2366,7 +2366,7 @@ AppendInt
 ci
 -
 >
-Port
+OriginPort
 (
 )
 )
