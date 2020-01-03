@@ -888,6 +888,15 @@ test1
 ref
 "
 )
+path
+=
+"
+path
+/
+to
+/
+test
+"
 )
         
 self
@@ -921,6 +930,18 @@ test1
 ref
 "
 )
+                                
+"
+path
+"
+:
+"
+path
+/
+to
+/
+test
+"
 }
 )
         
