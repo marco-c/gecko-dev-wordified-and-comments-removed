@@ -433,7 +433,7 @@ updater
 .
 app
 else
-mv
+cp
 (
 PROGRAM
 )
@@ -449,14 +449,7 @@ BIN_SUFFIX
 )
 cp
 (
-XPCSHELLTESTROOT
-)
-/
-data
-/
-updater
-(
-BIN_SUFFIX
+PROGRAM
 )
 (
 MOCHITESTROOT
