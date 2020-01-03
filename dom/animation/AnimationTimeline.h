@@ -92,7 +92,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 AnimationTimeline
 )
-nsISupports
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -101,6 +101,11 @@ const
 {
 return
 mDocument
+-
+>
+GetParentObject
+(
+)
 ;
 }
 virtual
