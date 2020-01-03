@@ -165,11 +165,6 @@ Animation
 webidl
 '
 '
-AnimationEffect
-.
-webidl
-'
-'
 AnimationEvent
 .
 webidl
