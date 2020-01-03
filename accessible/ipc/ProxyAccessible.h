@@ -315,6 +315,15 @@ aValue
 const
 ;
 void
+Help
+(
+nsString
+&
+aHelp
+)
+const
+;
+void
 Description
 (
 nsString
