@@ -393,6 +393,9 @@ mGeneration
 bool
 mAnonymize
 ;
+bool
+mMinimize
+;
 nsCOMPtr
 <
 nsITimer
@@ -404,9 +407,6 @@ mNumChildProcesses
 ;
 uint32_t
 mNumChildProcessesCompleted
-;
-bool
-mParentDone
 ;
 nsCOMPtr
 <
@@ -441,9 +441,8 @@ uint32_t
 aGeneration
 bool
 aAnonymize
-nsITimer
-*
-aTimer
+bool
+aMinimize
 uint32_t
 aNumChildProcesses
 nsIHandleReportCallback
@@ -472,9 +471,9 @@ mAnonymize
 (
 aAnonymize
 )
-mTimer
+mMinimize
 (
-aTimer
+aMinimize
 )
 mNumChildProcesses
 (
@@ -483,10 +482,6 @@ aNumChildProcesses
 mNumChildProcessesCompleted
 (
 0
-)
-mParentDone
-(
-false
 )
 mHandleReport
 (
