@@ -483,17 +483,6 @@ AsyncPanZoomController
 aInitialTarget
 )
 ;
-public
-:
-static
-bool
-WillHandleWheelEvent
-(
-WidgetWheelEvent
-*
-aEvent
-)
-;
 protected
 :
 virtual
