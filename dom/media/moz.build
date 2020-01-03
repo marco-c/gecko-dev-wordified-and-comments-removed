@@ -626,6 +626,11 @@ FileBlockCache
 h
 '
 '
+FlushableTaskQueue
+.
+h
+'
+'
 Intervals
 .
 h
@@ -1068,6 +1073,11 @@ cpp
 '
 '
 FileBlockCache
+.
+cpp
+'
+'
+FlushableTaskQueue
 .
 cpp
 '

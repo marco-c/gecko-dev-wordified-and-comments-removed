@@ -11,6 +11,13 @@ PlatformDecoderModule_h_
 #
 include
 "
+FlushableTaskQueue
+.
+h
+"
+#
+include
+"
 MediaDecoderReader
 .
 h
