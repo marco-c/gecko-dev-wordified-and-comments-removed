@@ -216,7 +216,6 @@ itemHandler
 new
 PanelViewItemHandler
 (
-viewConfig
 )
 ;
 adapter

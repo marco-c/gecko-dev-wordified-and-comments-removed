@@ -1508,7 +1508,7 @@ GRID
 view
 =
 new
-PanelGridView
+PanelRecyclerView
 (
 getContext
 (
