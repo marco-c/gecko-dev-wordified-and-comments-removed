@@ -2713,6 +2713,15 @@ mozStorage
 "
 )
 ;
+if
+(
+PR_LOG_TEST
+(
+gStorageLog
+PR_LOG_DEBUG
+)
+)
+{
 :
 :
 sqlite3_trace
@@ -2773,6 +2782,7 @@ this
 )
 )
 ;
+}
 #
 endif
 int64_t
