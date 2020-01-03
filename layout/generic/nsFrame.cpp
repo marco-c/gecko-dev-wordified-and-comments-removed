@@ -20145,8 +20145,12 @@ disp
 )
 )
 {
-LayoutDeviceIntSize
+nsIntSize
 widget
+(
+0
+0
+)
 ;
 bool
 canOverride

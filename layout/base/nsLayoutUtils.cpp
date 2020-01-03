@@ -22751,8 +22751,12 @@ disp
 )
 )
 {
-LayoutDeviceIntSize
+nsIntSize
 size
+(
+0
+0
+)
 ;
 bool
 canOverride
