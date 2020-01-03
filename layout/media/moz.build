@@ -101,11 +101,14 @@ GKMEDIAS_SHARED_LIBRARY
 '
 ]
 :
-SharedLibrary
+GeckoSharedLibrary
 (
 '
 gkmedias
 '
+linkage
+=
+None
 )
 USE_LIBS
 +

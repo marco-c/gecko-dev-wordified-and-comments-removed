@@ -93,11 +93,14 @@ MPL
 0
 /
 .
-Program
+GeckoProgram
 (
 '
 ssltunnel
 '
+linkage
+=
+None
 )
 SOURCES
 +

@@ -53,16 +53,6 @@ MPL
 0
 /
 .
-#
-Disable
-mozglue
-.
-WRAP_LDFLAGS
-=
-MOZ_GLUE_LDFLAGS
-=
-MOZ_GLUE_PROGRAM_LDFLAGS
-=
 include
 (
 topsrcdir

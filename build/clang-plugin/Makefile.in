@@ -64,8 +64,6 @@ flags
 .
 MOZ_OPTIMIZE
 =
-MOZ_GLUE_LDFLAGS
-=
 include
 (
 topsrcdir

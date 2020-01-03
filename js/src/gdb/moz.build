@@ -93,13 +93,16 @@ MPL
 0
 /
 .
-Program
+GeckoProgram
 (
 '
 gdb
 -
 tests
 '
+linkage
+=
+None
 )
 UNIFIED_SOURCES
 +

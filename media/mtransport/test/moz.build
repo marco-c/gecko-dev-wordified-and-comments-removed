@@ -118,7 +118,7 @@ MOZ_WIDGET_TOOLKIT
 gonk
 '
 :
-CppUnitTests
+GeckoCppUnitTests
 (
 [
 '
@@ -178,7 +178,7 @@ OS_TARGET
 Darwin
 '
 :
-CppUnitTests
+GeckoCppUnitTests
 (
 [
 '
@@ -194,7 +194,7 @@ MOZ_SCTP
 '
 ]
 :
-CppUnitTests
+GeckoCppUnitTests
 (
 [
 '
@@ -743,9 +743,6 @@ gtest_gtest
 gtest
 '
 '
-mozalloc
-'
-'
 mtransport_s
 '
 '
@@ -755,16 +752,7 @@ nicer
 nrappkit
 '
 '
-nspr
-'
-'
 nss
-'
-'
-xpcomglue_s
-'
-'
-xul
 '
 ]
 if

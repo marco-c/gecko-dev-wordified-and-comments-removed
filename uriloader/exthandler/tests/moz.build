@@ -199,13 +199,16 @@ xpcshell
 ini
 '
 ]
-SimplePrograms
+GeckoSimplePrograms
 (
 [
 '
 WriteArgument
 '
 ]
+linkage
+=
+None
 )
 USE_LIBS
 +

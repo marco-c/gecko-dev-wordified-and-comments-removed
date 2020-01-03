@@ -93,11 +93,14 @@ MPL
 0
 /
 .
-SharedLibrary
+GeckoSharedLibrary
 (
 '
 AccessibleMarshal
 '
+linkage
+=
+None
 )
 GENERATED_SOURCES
 +

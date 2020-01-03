@@ -139,9 +139,12 @@ libxul
 .
 dylib
 "
-Framework
+GeckoFramework
 (
 name
+linkage
+=
+None
 )
 SHARED_LIBRARY_NAME
 =
@@ -150,9 +153,12 @@ XUL
 '
 else
 :
-SharedLibrary
+GeckoSharedLibrary
 (
 name
+linkage
+=
+None
 )
 SHARED_LIBRARY_NAME
 =

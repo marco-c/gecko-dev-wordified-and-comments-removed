@@ -403,11 +403,14 @@ USE_LIBS
 libGLESv2
 '
 ]
-SharedLibrary
+GeckoSharedLibrary
 (
 '
 libEGL
 '
+linkage
+=
+None
 )
 RCFILE
 =

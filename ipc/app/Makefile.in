@@ -73,16 +73,6 @@ PROGRAM
 )
 )
 endif
-ifeq
-(
-android
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
-WRAP_LDFLAGS
-=
-endif
 ifndef
 MOZ_WINCONSOLE
 ifdef

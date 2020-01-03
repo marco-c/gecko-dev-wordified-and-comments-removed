@@ -53,17 +53,6 @@ MPL
 0
 /
 .
-#
-Don
-'
-t
-create
-a
-dependency
-on
-mozglue
-MOZ_GLUE_LDFLAGS
-=
 ifndef
 MOZ_WINCONSOLE
 ifdef

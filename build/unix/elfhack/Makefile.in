@@ -74,8 +74,6 @@ OS_CXXFLAGS
 )
 -
 fexceptions
-WRAP_LDFLAGS
-=
 include
 (
 topsrcdir

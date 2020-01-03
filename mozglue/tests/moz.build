@@ -96,11 +96,14 @@ MPL
 DISABLE_STL_WRAPPING
 =
 True
-CppUnitTests
+GeckoCppUnitTests
 (
 [
 '
 ShowSSEConfig
 '
 ]
+linkage
+=
+None
 )

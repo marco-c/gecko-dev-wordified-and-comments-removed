@@ -105,7 +105,7 @@ xpcshell
 ini
 '
 ]
-CppUnitTests
+GeckoCppUnitTests
 (
 [
 '
@@ -192,7 +192,7 @@ fails
 on
 OS
 X
-CppUnitTests
+GeckoCppUnitTests
 (
 [
 '
@@ -219,18 +219,6 @@ USE_LIBS
 =
 [
 '
-mozalloc
-'
-'
-nspr
-'
-'
 sqlite
-'
-'
-xpcomglue_s
-'
-'
-xul
 '
 ]

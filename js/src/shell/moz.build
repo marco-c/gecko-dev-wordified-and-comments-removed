@@ -101,7 +101,7 @@ JS_SHELL_NAME
 '
 ]
 :
-Program
+GeckoProgram
 (
 CONFIG
 [
@@ -109,6 +109,9 @@ CONFIG
 JS_SHELL_NAME
 '
 ]
+linkage
+=
+None
 )
 if
 CONFIG

@@ -3151,11 +3151,14 @@ JS_SHARED_LIBRARY
 '
 ]
 :
-SharedLibrary
+GeckoSharedLibrary
 (
 '
 js
 '
+linkage
+=
+None
 )
 SHARED_LIBRARY_NAME
 =

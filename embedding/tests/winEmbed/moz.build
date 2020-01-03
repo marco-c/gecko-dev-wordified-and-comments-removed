@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-Program
+GeckoProgram
 (
 '
 winEmbed
@@ -124,14 +124,6 @@ XPI_NAME
 '
 winembed
 '
-DEFINES
-[
-'
-XPCOM_GLUE
-'
-]
-=
-True
 RESFILE
 =
 '
@@ -250,9 +242,6 @@ USE_LIBS
 [
 '
 profdirserviceprovidersa_s
-'
-'
-xpcomglue
 '
 ]
 OS_LIBS

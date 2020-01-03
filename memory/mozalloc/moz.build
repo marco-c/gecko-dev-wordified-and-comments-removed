@@ -357,11 +357,14 @@ mozalloc
 )
 else
 :
-SharedLibrary
+GeckoSharedLibrary
 (
 '
 mozalloc
 '
+linkage
+=
+None
 )
 SDK_LIBRARY
 =

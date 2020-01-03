@@ -443,3 +443,12 @@ IMPL_MFBT
 ]
 =
 True
+LDFLAGS
++
+=
+CONFIG
+[
+'
+MOZ_GLUE_WRAP_LDFLAGS
+'
+]

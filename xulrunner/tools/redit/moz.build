@@ -106,7 +106,7 @@ OS_ARCH
 WINNT
 '
 :
-Program
+GeckoProgram
 (
 '
 redit
@@ -135,9 +135,6 @@ UNICODE
 '
 _UNICODE
 '
-'
-XPCOM_GLUE
-'
 )
 :
 DEFINES
@@ -161,13 +158,5 @@ WIN32_EXE_LDFLAGS
 '
 -
 municode
-'
-]
-USE_LIBS
-+
-=
-[
-'
-xpcomglue
 '
 ]

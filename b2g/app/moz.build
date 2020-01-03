@@ -110,7 +110,7 @@ GAIADIR
 '
 ]
 :
-Program
+GeckoProgram
 (
 CONFIG
 [
@@ -126,7 +126,7 @@ bin
 )
 else
 :
-Program
+GeckoProgram
 (
 CONFIG
 [
@@ -209,14 +209,6 @@ USE_LIBS
 zlib
 '
 ]
-DEFINES
-[
-'
-XPCOM_GLUE
-'
-]
-=
-True
 for
 var
 in
@@ -393,14 +385,6 @@ binder
 '
 '
 utils
-'
-]
-USE_LIBS
-+
-=
-[
-'
-xpcomglue
 '
 ]
 DISABLE_STL_WRAPPING

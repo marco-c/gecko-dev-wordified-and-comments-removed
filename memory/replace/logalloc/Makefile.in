@@ -54,14 +54,6 @@ MPL
 /
 .
 #
-Disable
-mozglue
-.
-WRAP_LDFLAGS
-=
-MOZ_GLUE_LDFLAGS
-=
-#
 Avoid
 Lock_impl
 code
