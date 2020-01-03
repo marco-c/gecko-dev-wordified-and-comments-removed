@@ -321,6 +321,13 @@ RemoteWebProgress
 jsm
 '
 '
+secondscreen
+/
+SimpleServiceDiscovery
+.
+jsm
+'
+'
 SelectContentHelper
 .
 jsm
@@ -415,13 +422,6 @@ jsm
 secondscreen
 /
 RokuApp
-.
-jsm
-'
-'
-secondscreen
-/
-SimpleServiceDiscovery
 .
 jsm
 '
