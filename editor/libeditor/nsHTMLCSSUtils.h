@@ -702,17 +702,6 @@ nsComputedDOMStyle
 >
 GetComputedStyle
 (
-nsIDOMElement
-*
-aElement
-)
-;
-already_AddRefed
-<
-nsComputedDOMStyle
->
-GetComputedStyle
-(
 mozilla
 :
 :
