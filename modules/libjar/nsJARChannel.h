@@ -509,6 +509,9 @@ mSynthesizedStreamLength
 bool
 mForceNoIntercept
 ;
+bool
+mBlockRemoteFiles
+;
 friend
 class
 mozilla
