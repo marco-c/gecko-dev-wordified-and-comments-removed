@@ -26483,12 +26483,12 @@ n
 HWND
 :
 %
-d
+p
 parent
 HWND
 :
 %
-d
+p
 wndobj
 :
 %
