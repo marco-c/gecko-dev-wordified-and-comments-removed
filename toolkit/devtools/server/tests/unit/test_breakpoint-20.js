@@ -37,7 +37,7 @@ run_test
 (
 )
 {
-initTestTracerServer
+initTestDebuggerServer
 (
 )
 ;
