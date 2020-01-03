@@ -533,6 +533,14 @@ frameLoader
 ;
 [
 ChromeOnly
+]
+void
+setIsPrerendered
+(
+)
+;
+[
+ChromeOnly
 Throws
 ]
 void

@@ -1750,6 +1750,11 @@ aFrameLoader
 )
 ;
 nsresult
+SetIsPrerendered
+(
+)
+;
+nsresult
 SwapFrameLoaders
 (
 nsIFrameLoaderOwner

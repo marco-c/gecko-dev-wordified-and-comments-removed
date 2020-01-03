@@ -872,6 +872,11 @@ nsIDocument
 mContainerDocWhileDetached
 ;
 bool
+mIsPrerendered
+:
+1
+;
+bool
 mDepthTooGreat
 :
 1
