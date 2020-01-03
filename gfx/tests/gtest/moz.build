@@ -269,6 +269,11 @@ TestBugs
 cpp
 '
 '
+TestCairo
+.
+cpp
+'
+'
 TestPoint
 .
 cpp
