@@ -31,4 +31,16 @@ BTA_AG_CHLD_VAL
 )
 "
 #
+define
+BTA_GATT_INCLUDED
+TRUE
+#
+define
+BLE_INCLUDED
+TRUE
+#
+define
+SMP_INCLUDED
+TRUE
+#
 endif
