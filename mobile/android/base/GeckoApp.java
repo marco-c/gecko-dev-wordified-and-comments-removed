@@ -6915,6 +6915,12 @@ createAndStart
 )
 ;
 }
+ThreadUtils
+.
+reduceGeckoPriority
+(
+)
+;
 Bundle
 stateBundle
 =
@@ -8659,6 +8665,12 @@ intent
 )
 ;
 }
+ThreadUtils
+.
+resetGeckoPriority
+(
+)
+;
 }
 private
 String
