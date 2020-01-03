@@ -82,6 +82,13 @@ h
 #
 include
 "
+XULTreeGridAccessible
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

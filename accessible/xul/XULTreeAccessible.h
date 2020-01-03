@@ -41,6 +41,9 @@ mozilla
 namespace
 a11y
 {
+class
+XULTreeGridCellAccessible
+;
 const
 uint32_t
 kMaxTreeColumns
@@ -539,7 +542,7 @@ mRow
 ;
 }
 virtual
-Accessible
+XULTreeGridCellAccessible
 *
 GetCellAccessible
 (
