@@ -978,7 +978,7 @@ int
 flags
 )
 {
-loadStartupTabWithExternalUrl
+loadStartupTab
 (
 null
 null
@@ -989,14 +989,14 @@ flags
 Override
 protected
 void
-loadStartupTabWithExternalUrl
+loadStartupTab
 (
 final
 String
 uri
 final
-String
-applicationId
+SafeIntent
+unusedIntent
 int
 flags
 )
@@ -1017,7 +1017,7 @@ LOADURL_EXTERNAL
 ;
 super
 .
-loadStartupTabWithExternalUrl
+loadStartupTab
 (
 "
 about
