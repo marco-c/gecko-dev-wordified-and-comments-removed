@@ -13378,11 +13378,6 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-MOZ_ASSERT
-(
-mBlobImpl
-)
-;
 mBlobImpl
 =
 nullptr
