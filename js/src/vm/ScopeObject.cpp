@@ -13402,7 +13402,7 @@ if
 script
 -
 >
-hasPollutedGlobalScope
+hasNonSyntacticScope
 (
 )
 )
