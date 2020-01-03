@@ -86,6 +86,12 @@ nsIInputStream
 >
 mContentStream
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mBaseURI
+;
 nsString
 mSrcdocData
 ;

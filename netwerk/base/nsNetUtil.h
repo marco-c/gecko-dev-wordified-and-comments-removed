@@ -758,11 +758,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsIURI
-*
-aBaseURI
-=
-nullptr
 )
 ;
 nsresult
@@ -838,11 +833,6 @@ bool
 aIsSrcdocChannel
 =
 false
-nsIURI
-*
-aBaseURI
-=
-nullptr
 )
 ;
 nsresult
@@ -874,11 +864,6 @@ bool
 aIsSrcdocChannel
 =
 false
-nsIURI
-*
-aBaseURI
-=
-nullptr
 )
 ;
 nsresult

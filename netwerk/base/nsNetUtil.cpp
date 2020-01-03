@@ -1310,9 +1310,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsIURI
-*
-aBaseURI
 )
 {
 nsCOMPtr
@@ -1332,7 +1329,6 @@ aTriggeringPrincipal
 aLoadingNode
 aSecurityFlags
 aContentPolicyType
-aBaseURI
 )
 ;
 if
@@ -1436,9 +1432,6 @@ nsContentPolicyType
 aContentPolicyType
 bool
 aIsSrcdocChannel
-nsIURI
-*
-aBaseURI
 )
 {
 nsresult
@@ -1550,7 +1543,6 @@ aLoadingPrincipal
 aTriggeringPrincipal
 aSecurityFlags
 aContentPolicyType
-aBaseURI
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1628,9 +1620,6 @@ nsContentPolicyType
 aContentPolicyType
 bool
 aIsSrcdocChannel
-nsIURI
-*
-aBaseURI
 )
 {
 return
@@ -1646,7 +1635,6 @@ nullptr
 aSecurityFlags
 aContentPolicyType
 aIsSrcdocChannel
-aBaseURI
 )
 ;
 }
