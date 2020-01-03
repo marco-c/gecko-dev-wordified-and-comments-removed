@@ -36181,11 +36181,9 @@ RootedObject
 metadata
 (
 cx
-obj
--
->
-getMetadata
+GetObjectMetadata
 (
+obj
 )
 )
 ;

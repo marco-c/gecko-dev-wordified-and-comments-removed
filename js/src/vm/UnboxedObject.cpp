@@ -2455,7 +2455,6 @@ PlainObject
 :
 class_
 proto
-nullptr
 nfixed
 0
 )
@@ -6535,12 +6534,6 @@ group
 -
 >
 proto
-(
-)
-templateShape
--
->
-getObjectMetadata
 (
 )
 templateShape
