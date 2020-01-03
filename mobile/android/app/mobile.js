@@ -7084,3 +7084,17 @@ enabled
 true
 )
 ;
+pref
+(
+"
+dom
+.
+meta
+-
+viewport
+.
+enabled
+"
+true
+)
+;
