@@ -129,6 +129,11 @@ httpd
 .
 js
 '
+'
+httpd
+.
+manifest
+'
 ]
 TESTING_JS_MODULES
 +
@@ -138,15 +143,5 @@ TESTING_JS_MODULES
 httpd
 .
 js
-'
-]
-JAR_MANIFESTS
-+
-=
-[
-'
-jar
-.
-mn
 '
 ]

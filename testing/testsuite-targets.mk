@@ -1768,11 +1768,7 @@ path
 =
 _tests
 /
-reftest
-/
-reftest
-/
-components
+modules
 \
 (
 SYMBOLS_PATH
@@ -1869,11 +1865,7 @@ path
 =
 _tests
 /
-reftest
-/
-reftest
-/
-components
+modules
 \
 (
 EXTRA_TEST_ARGS

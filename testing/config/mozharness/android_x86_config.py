@@ -358,9 +358,11 @@ httpd
 path
 "
 "
-reftest
-/
-components
+%
+(
+modules_dir
+)
+s
 "
                 
 "
