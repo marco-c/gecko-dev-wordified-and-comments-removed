@@ -387,8 +387,6 @@ mInfo
 void
 ContinueShutdown
 (
-bool
-aSuccess
 )
 ;
 MediaPromiseHolder

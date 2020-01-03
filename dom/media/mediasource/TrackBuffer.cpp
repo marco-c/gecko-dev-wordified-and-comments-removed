@@ -537,15 +537,8 @@ TrackBuffer
 :
 ContinueShutdown
 (
-bool
-aSuccess
 )
 {
-MOZ_ASSERT
-(
-aSuccess
-)
-;
 ReentrantMonitorAutoEnter
 mon
 (
