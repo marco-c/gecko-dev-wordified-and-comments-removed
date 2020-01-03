@@ -539,7 +539,7 @@ pos
 }
 Override
 public
-View
+TabsLayoutItemView
 newView
 (
 int
@@ -551,9 +551,6 @@ parent
 TabsLayoutItemView
 item
 =
-(
-TabsLayoutItemView
-)
 super
 .
 newView
@@ -578,7 +575,7 @@ public
 void
 bindView
 (
-View
+TabsLayoutItemView
 view
 Tab
 tab

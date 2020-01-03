@@ -286,7 +286,7 @@ tab
 Override
 final
 public
-View
+TabsLayoutItemView
 getView
 (
 int
@@ -298,7 +298,7 @@ parent
 )
 {
 final
-View
+TabsLayoutItemView
 view
 ;
 if
@@ -322,6 +322,9 @@ else
 {
 view
 =
+(
+TabsLayoutItemView
+)
 convertView
 ;
 }
@@ -346,7 +349,7 @@ return
 view
 ;
 }
-View
+TabsLayoutItemView
 newView
 (
 int
@@ -356,6 +359,9 @@ parent
 )
 {
 return
+(
+TabsLayoutItemView
+)
 mInflater
 .
 inflate
@@ -373,18 +379,13 @@ false
 void
 bindView
 (
-View
+TabsLayoutItemView
 view
 Tab
 tab
 )
 {
-(
-(
-TabsLayoutItemView
-)
 view
-)
 .
 assignValues
 (
