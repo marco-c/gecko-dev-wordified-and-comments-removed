@@ -3725,6 +3725,15 @@ return
 mMaskLayer
 ;
 }
+Maybe
+<
+ParentLayerIntRect
+>
+GetCombinedClipRect
+(
+)
+const
+;
 bool
 GetVisibleRegionRelativeToRootLayer
 (
