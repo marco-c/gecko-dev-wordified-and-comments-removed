@@ -321,16 +321,6 @@ public
 ifdef
 MOZ_NUWA_PROCESS
 static
-int32_t
-NuwaPid
-(
-)
-{
-return
-sNuwaPid
-;
-}
-static
 bool
 IsNuwaReady
 (
@@ -2914,10 +2904,6 @@ endif
 #
 ifdef
 MOZ_NUWA_PROCESS
-static
-int32_t
-sNuwaPid
-;
 static
 bool
 sNuwaReady
