@@ -5507,11 +5507,8 @@ XDRStaticBlockObject
 (
 xdr
 enclosingStaticScope
+&
 tmp
-.
-address
-(
-)
 )
 )
 return
@@ -5555,11 +5552,8 @@ XDRStaticWithObject
 (
 xdr
 enclosingStaticScope
+&
 tmp
-.
-address
-(
-)
 )
 )
 return
