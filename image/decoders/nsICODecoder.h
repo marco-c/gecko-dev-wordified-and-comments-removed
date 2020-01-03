@@ -143,6 +143,10 @@ virtual
 nsresult
 AllocateFrame
 (
+const
+nsIntSize
+&
+aTargetSize
 )
 MOZ_OVERRIDE
 ;
