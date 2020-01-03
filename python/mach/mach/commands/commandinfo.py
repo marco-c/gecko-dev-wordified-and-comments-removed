@@ -13,6 +13,8 @@ import
 CommandProvider
     
 Command
+    
+CommandArgument
 )
 CommandProvider
 class
@@ -118,10 +120,45 @@ commands
 '
 )
     
+CommandArgument
+(
+'
+match
+'
+metavar
+=
+'
+MATCH
+'
+default
+=
+None
+nargs
+=
+'
+?
+'
+        
+help
+=
+'
+Only
+display
+commands
+containing
+given
+substring
+.
+'
+)
+    
 def
 debug_commands
 (
 self
+match
+=
+None
 )
 :
         
@@ -150,6 +187,17 @@ keys
 )
 )
 :
+            
+if
+match
+and
+match
+not
+in
+command
+:
+                
+continue
             
 handler
 =
