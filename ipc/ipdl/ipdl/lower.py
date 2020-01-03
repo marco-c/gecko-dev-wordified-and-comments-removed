@@ -13194,12 +13194,25 @@ NL
         
 transitionfunc
 .
+addstmt
+(
+fromswitch
+)
+        
+if
+self
+.
+protocol
+.
+transitionStmts
+:
+            
+transitionfunc
+.
 addstmts
 (
 [
-            
-fromswitch
-            
+                
 StmtExpr
 (
 ExprAssn
@@ -13213,14 +13226,14 @@ _errorState
 )
 )
 )
-            
+                
 StmtReturn
 (
 ExprLiteral
 .
 FALSE
 )
-        
+            
 ]
 )
         
