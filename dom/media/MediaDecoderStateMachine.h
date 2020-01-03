@@ -207,7 +207,6 @@ DECODER_STATE_DECODING_NONE
 DECODER_STATE_DECODING_METADATA
 DECODER_STATE_WAIT_FOR_RESOURCES
 DECODER_STATE_WAIT_FOR_CDM
-DECODER_STATE_DECODING_FIRSTFRAME
 DECODER_STATE_DORMANT
 DECODER_STATE_DECODING
 DECODER_STATE_SEEKING
@@ -1129,6 +1128,11 @@ return
 mVideoQueue
 ;
 }
+bool
+IsDecodingFirstFrame
+(
+)
+;
 nsresult
 FinishDecodeFirstFrame
 (
@@ -3393,6 +3397,9 @@ uint32_t
 uint32_t
 >
 mCorruptFrames
+;
+bool
+mDecodingFirstFrame
 ;
 bool
 mDisabledHardwareAcceleration
