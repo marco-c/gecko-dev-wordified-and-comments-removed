@@ -2500,7 +2500,7 @@ lineWM
 =
 isize
 ;
-MOZ_ASSERT
+NS_WARN_IF_FALSE
 (
 NS_INLINE_IS_BREAK
 (
@@ -2519,6 +2519,10 @@ mFrames
 IsEmpty
 (
 )
+"
+bad
+isize
+"
 )
 ;
 MOZ_ASSERT
