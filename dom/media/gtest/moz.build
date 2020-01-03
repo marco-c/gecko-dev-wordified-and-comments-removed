@@ -132,6 +132,11 @@ TestMP3Demuxer
 .
 cpp
 '
+'
+TestMP4Demuxer
+.
+cpp
+'
 #
 '
 TestMP4Reader

@@ -27,6 +27,15 @@ StaticMutex
 .
 h
 "
+#
+include
+"
+mp4_demuxer
+/
+mp4_demuxer
+.
+h
+"
 namespace
 mozilla
 {

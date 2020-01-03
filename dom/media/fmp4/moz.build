@@ -108,6 +108,11 @@ MP4Demuxer
 h
 '
 '
+MP4Reader
+.
+h
+'
+'
 MP4Stream
 .
 h
@@ -134,6 +139,11 @@ SOURCES
 [
 '
 MP4Demuxer
+.
+cpp
+'
+'
+MP4Reader
 .
 cpp
 '
