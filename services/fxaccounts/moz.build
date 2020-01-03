@@ -133,6 +133,11 @@ FxAccountsOAuthClient
 .
 jsm
 '
+'
+FxAccountsProfileClient
+.
+jsm
+'
 ]
 EXTRA_PP_JS_MODULES
 +
