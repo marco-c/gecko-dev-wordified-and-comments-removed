@@ -135,6 +135,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+BrowserNewTabPreloader
+.
+jsm
+'
+'
 BrowserUITelemetry
 .
 jsm
