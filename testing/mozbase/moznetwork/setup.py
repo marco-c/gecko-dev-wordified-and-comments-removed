@@ -7,7 +7,7 @@ PACKAGE_VERSION
 '
 0
 .
-24
+25
 '
 deps
 =
