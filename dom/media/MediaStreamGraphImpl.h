@@ -852,10 +852,10 @@ const
 {
 NS_ASSERTION
 (
-0
-<
-=
 aTime
+>
+-
+STREAM_TIME_MAX
 &
 &
 aTime
