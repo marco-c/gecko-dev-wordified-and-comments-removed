@@ -643,12 +643,12 @@ JSContext
 cx
 HandleObject
 obj
-HandleObject
-receiver
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
+HandleValue
+receiver
 ObjectOpResult
 &
 result
