@@ -3311,6 +3311,7 @@ function
 remove
 (
 path
+options
 )
 {
 return
@@ -3330,7 +3331,9 @@ toMsg
 (
 path
 )
+options
 ]
+path
 )
 ;
 }
