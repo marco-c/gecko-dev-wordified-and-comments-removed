@@ -2931,6 +2931,14 @@ Float32x4
 3
 )
 ;
+trackOptimizationOutcome
+(
+TrackedOutcome
+:
+:
+CantInlineNativeNoSpecialization
+)
+;
 return
 InliningStatus_NotInlined
 ;
