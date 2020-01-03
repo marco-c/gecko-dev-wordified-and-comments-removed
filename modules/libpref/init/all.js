@@ -31862,7 +31862,7 @@ picture
 .
 enabled
 "
-false
+true
 )
 ;
 pref
