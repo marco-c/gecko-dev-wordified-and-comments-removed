@@ -49,9 +49,8 @@ global
 raw
     
 from
-py
 .
-xml
+xmlgen
 import
 html
 raw
