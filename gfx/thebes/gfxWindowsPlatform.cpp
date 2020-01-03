@@ -9042,9 +9042,9 @@ device
 <
 hr
 ;
+return
+;
 }
-else
-{
 mIsWARP
 =
 true
@@ -9055,7 +9055,6 @@ SetSuccessful
 (
 )
 ;
-}
 }
 mD3D11Device
 -
