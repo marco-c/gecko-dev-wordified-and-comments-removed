@@ -131,4 +131,10 @@ _args
 \
 PR_END_MACRO
 #
+undef
+PR_LOG
+#
+undef
+PR_LOG_TEST
+#
 endif
