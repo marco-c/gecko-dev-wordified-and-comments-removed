@@ -98,6 +98,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+ManifestImageObjectProcessor
+.
+jsm
+'
+'
 ManifestObtainer
 .
 jsm
@@ -106,6 +111,11 @@ jsm
 ManifestProcessor
 .
 jsm
+'
+'
+manifestValueExtractor
+.
+js
 '
 ]
 MOCHITEST_MANIFESTS
