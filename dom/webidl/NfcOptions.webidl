@@ -131,7 +131,7 @@ minorVersion
 ;
 sequence
 <
-DOMString
+NFCTechType
 >
 techList
 ;
@@ -161,12 +161,6 @@ Transaction
 fields
 DOMString
 origin
-;
-long
-originType
-;
-long
-originIndex
 ;
 Uint8Array
 aid
