@@ -10,6 +10,11 @@ NS_GRE_DIR
 )
 DIR_ATOM
 (
+sGRE_BinDirectory
+NS_GRE_BIN_DIR
+)
+DIR_ATOM
+(
 sOS_DriveDirectory
 NS_OS_DRIVE_DIR
 )
