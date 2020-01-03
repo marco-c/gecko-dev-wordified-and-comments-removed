@@ -379,6 +379,15 @@ xul
 dll
 '
 ]
+DEFINES
+[
+'
+HASH_NODE_ID_WITH_DEVICE_ID
+'
+]
+=
+1
+;
 SOURCES
 +
 =
