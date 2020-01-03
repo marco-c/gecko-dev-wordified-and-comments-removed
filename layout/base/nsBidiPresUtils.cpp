@@ -4793,7 +4793,14 @@ StyleText
 >
 NewlineIsSignificant
 (
+static_cast
+<
+nsTextFrame
+*
+>
+(
 frame
+)
 )
 )
 {

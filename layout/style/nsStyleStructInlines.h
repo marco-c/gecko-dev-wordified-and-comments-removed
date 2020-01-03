@@ -25,6 +25,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsTextFrame
+.
+h
+"
 inline
 void
 nsStyleImage
@@ -133,7 +140,7 @@ nsStyleText
 NewlineIsSignificant
 (
 const
-nsIFrame
+nsTextFrame
 *
 aContextFrame
 )
@@ -164,11 +171,6 @@ NewlineIsSignificantStyle
 &
 !
 aContextFrame
--
->
-StyleContext
-(
-)
 -
 >
 ShouldSuppressLineBreak
