@@ -171,6 +171,15 @@ ini
 '
 unit
 /
+history
+/
+xpcshell
+.
+ini
+'
+'
+unit
+/
 xpcshell
 .
 ini
