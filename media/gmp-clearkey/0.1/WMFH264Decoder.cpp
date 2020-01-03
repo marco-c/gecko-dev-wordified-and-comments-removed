@@ -626,6 +626,12 @@ subtype
 =
 =
 MFVideoFormat_I420
+|
+|
+subtype
+=
+=
+MFVideoFormat_IYUV
 )
 {
 hr
