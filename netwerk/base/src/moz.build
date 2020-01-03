@@ -117,6 +117,11 @@ nsURLHelper
 .
 h
 '
+'
+nsURLParsers
+.
+h
+'
 ]
 EXPORTS
 .
