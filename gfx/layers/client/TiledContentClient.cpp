@@ -623,13 +623,6 @@ ClearCachedResources
 (
 )
 {
-CompositableClient
-:
-:
-ClearCachedResources
-(
-)
-;
 mTiledBuffer
 .
 DiscardBuffers

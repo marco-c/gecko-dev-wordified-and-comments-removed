@@ -811,13 +811,6 @@ h
 '
 client
 /
-TextureClientRecycleAllocator
-.
-h
-'
-'
-client
-/
 TiledContentClient
 .
 h
@@ -1712,13 +1705,6 @@ cpp
 client
 /
 TextureClientPool
-.
-cpp
-'
-'
-client
-/
-TextureClientRecycleAllocator
 .
 cpp
 '

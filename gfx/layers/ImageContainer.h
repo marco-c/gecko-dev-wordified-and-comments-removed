@@ -1971,7 +1971,6 @@ CompositableClient
 *
 aClient
 )
-MOZ_OVERRIDE
 ;
 gfx
 :
