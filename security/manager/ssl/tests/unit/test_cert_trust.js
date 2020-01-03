@@ -269,12 +269,7 @@ checkCertErrorGeneric
 (
 certdb
 ee_cert
-!
-isRootCA
-?
 SEC_ERROR_UNTRUSTED_ISSUER
-:
-SEC_ERROR_INADEQUATE_CERT_TYPE
 certificateUsageStatusResponder
 )
 ;
@@ -368,6 +363,10 @@ checkCertErrorGeneric
 (
 certdb
 ee_cert
+isRootCA
+?
+SEC_ERROR_UNKNOWN_ISSUER
+:
 SEC_ERROR_INADEQUATE_CERT_TYPE
 certificateUsageStatusResponder
 )
@@ -442,10 +441,6 @@ checkCertErrorGeneric
 (
 certdb
 ee_cert
-isRootCA
-?
-SEC_ERROR_INADEQUATE_CERT_TYPE
-:
 SEC_ERROR_UNTRUSTED_ISSUER
 certificateUsageStatusResponder
 )
