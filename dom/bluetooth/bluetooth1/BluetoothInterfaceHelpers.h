@@ -218,7 +218,10 @@ failed
 %
 X
 "
+unsigned
+(
 rv
+)
 )
 ;
 }
@@ -520,7 +523,10 @@ failed
 %
 X
 "
+unsigned
+(
 rv
+)
 )
 ;
 }
