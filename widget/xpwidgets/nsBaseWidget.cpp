@@ -3313,6 +3313,13 @@ int
 aHeight
 )
 {
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+;
 MOZ_ASSERT
 (
 gfxPlatform
