@@ -94,6 +94,12 @@ callHandleEvent
 (
 )
 {
+gXHR
+.
+status
+=
+404
+;
 let
 e
 =
