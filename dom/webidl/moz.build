@@ -2610,11 +2610,6 @@ SVGZoomEvent
 webidl
 '
 '
-SystemDictionaries
-.
-webidl
-'
-'
 Telephony
 .
 webidl
