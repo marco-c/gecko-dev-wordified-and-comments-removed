@@ -20390,6 +20390,15 @@ nsGkAtoms
 :
 :
 type
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
+directory
 )
 {
 NS_UpdateHint

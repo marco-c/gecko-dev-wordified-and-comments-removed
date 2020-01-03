@@ -487,7 +487,13 @@ nsCOMPtr
 <
 nsIContent
 >
-mBrowse
+mBrowseDirs
+;
+nsCOMPtr
+<
+nsIContent
+>
+mBrowseFiles
 ;
 nsRefPtr
 <
