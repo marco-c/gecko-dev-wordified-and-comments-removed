@@ -97,6 +97,12 @@ MOZ_COUNT_DTOR
 ProxyAccessible
 )
 ;
+MOZ_ASSERT
+(
+!
+mWrapper
+)
+;
 }
 void
 AddChildAt
