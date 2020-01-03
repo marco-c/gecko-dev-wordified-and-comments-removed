@@ -777,6 +777,16 @@ str
 ;
 }
 static
+uint32_t
+GetMaxSurfaceSize
+(
+)
+{
+return
+D3D11_REQ_TEXTURE2D_U_OR_V_DIMENSION
+;
+}
+static
 uint64_t
 mVRAMUsageDT
 ;
