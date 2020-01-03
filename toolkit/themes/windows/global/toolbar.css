@@ -168,9 +168,9 @@ none
 ;
 border
 -
-style
+color
 :
-none
+transparent
 ;
 }
 toolbarseparator
@@ -252,9 +252,6 @@ toolbarpaletteitem
 {
 cursor
 :
--
-moz
--
 grab
 ;
 }
