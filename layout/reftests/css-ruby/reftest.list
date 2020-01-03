@@ -40,6 +40,7 @@ autohiding
 ref
 .
 html
+fails
 =
 =
 autohiding
@@ -54,6 +55,9 @@ autohiding
 ref
 .
 html
+#
+bug
+1107701
 =
 =
 box
