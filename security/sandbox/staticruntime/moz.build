@@ -224,9 +224,7 @@ security
 sandbox
 /
 chromium
-/
-base
-/
+-
 shim
 '
 ]
