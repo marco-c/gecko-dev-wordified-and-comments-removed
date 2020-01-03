@@ -115,10 +115,6 @@ is
 required
 )
 endif
-TOPLEVEL_BUILD
-:
-=
-1
 run_for_side_effects
 :
 =
