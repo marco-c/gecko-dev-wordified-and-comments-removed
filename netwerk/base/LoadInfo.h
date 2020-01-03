@@ -59,6 +59,7 @@ WebSocketChannelParent
 ;
 }
 class
+MOZ_EXPORT
 LoadInfo
 final
 :
