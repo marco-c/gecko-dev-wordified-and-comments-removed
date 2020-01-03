@@ -903,15 +903,10 @@ false
 vpx_codec_stream_info_t
 si
 ;
-memset
+PodZero
 (
 &
 si
-0
-sizeof
-(
-si
-)
 )
 ;
 si
