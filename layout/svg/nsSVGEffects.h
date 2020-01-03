@@ -183,7 +183,6 @@ false
 )
 {
 }
-NS_DECL_ISUPPORTS
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
@@ -490,6 +489,7 @@ nsSVGIDRenderingObserver
 {
 public
 :
+NS_DECL_ISUPPORTS
 nsSVGRenderingObserverProperty
 (
 nsIURI
@@ -521,6 +521,13 @@ aFrame
 }
 protected
 :
+virtual
+~
+nsSVGRenderingObserverProperty
+(
+)
+{
+}
 virtual
 void
 DoUpdate
