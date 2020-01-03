@@ -511,7 +511,14 @@ mSentFinOnData
 SpdyStream31
 :
 :
-mSynFrameComplete
+mRequestHeadersDone
+=
+1
+;
+SpdyStream31
+:
+:
+mSynFrameGenerated
 =
 1
 ;
