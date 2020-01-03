@@ -399,7 +399,7 @@ R
 .
 color
 .
-new_tablet_tab_strip_item_bg
+tab_strip_item_bg
 )
 ;
 backgroundDrawable
