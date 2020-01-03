@@ -2156,6 +2156,8 @@ GetModuleHandleW
 (
 L
 #
+#
+#
 DLL
 )
 #
@@ -2873,16 +2875,6 @@ IMFDXGIDeviceManager
 ppDXVAManager
 )
 {
-DECL_FUNCTION_PTR
-(
-MFCreateDXGIDeviceManager
-UINT
-*
-IMFDXGIDeviceManager
-*
-*
-)
-;
 ENSURE_FUNCTION_PTR
 (
 MFCreateDXGIDeviceManager
