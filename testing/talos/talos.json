@@ -71,7 +71,7 @@ talos_revision
 "
 :
 "
-85587fddabcd
+24ecc5140689
 "
 }
 "
@@ -406,9 +406,6 @@ sessionrestore
 "
 sessionrestore_no_auto_restore
 "
-"
-media_tests
-"
 ]
 }
 "
@@ -437,9 +434,6 @@ sessionrestore
 "
 "
 sessionrestore_no_auto_restore
-"
-"
-media_tests
 "
 ]
 "
