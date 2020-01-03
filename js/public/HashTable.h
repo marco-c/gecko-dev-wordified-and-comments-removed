@@ -1002,7 +1002,7 @@ new_key
 )
 ;
 }
-void
+bool
 rekeyAs
 (
 const
@@ -1029,6 +1029,7 @@ lookup
 old_lookup
 )
 )
+{
 impl
 .
 rekeyAndMaybeRehash
@@ -1037,6 +1038,13 @@ p
 new_lookup
 new_key
 )
+;
+return
+true
+;
+}
+return
+false
 ;
 }
 HashMap
@@ -1790,7 +1798,7 @@ new_value
 )
 ;
 }
-void
+bool
 rekeyAs
 (
 const
@@ -1817,6 +1825,7 @@ lookup
 old_lookup
 )
 )
+{
 impl
 .
 rekeyAndMaybeRehash
@@ -1825,6 +1834,13 @@ p
 new_lookup
 new_value
 )
+;
+return
+true
+;
+}
+return
+false
 ;
 }
 void

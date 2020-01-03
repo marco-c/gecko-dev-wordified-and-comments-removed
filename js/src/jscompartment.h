@@ -1095,6 +1095,11 @@ checkWrapperMapAfterMovingGC
 (
 )
 ;
+void
+checkBaseShapeTableAfterMovingGC
+(
+)
+;
 #
 endif
 js

@@ -32545,6 +32545,13 @@ checkWrapperMapAfterMovingGC
 (
 )
 ;
+c
+-
+>
+checkBaseShapeTableAfterMovingGC
+(
+)
+;
 if
 (
 c
