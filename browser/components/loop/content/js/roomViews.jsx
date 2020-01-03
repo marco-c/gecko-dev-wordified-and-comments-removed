@@ -5540,6 +5540,11 @@ showRoomName
 {
 false
 }
+useDesktopPaths
+=
+{
+true
+}
 /
 >
 <

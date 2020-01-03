@@ -3074,6 +3074,11 @@ showRoomName
 {
 true
 }
+useDesktopPaths
+=
+{
+false
+}
 /
 >
 <
