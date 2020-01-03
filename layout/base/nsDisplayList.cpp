@@ -21822,6 +21822,8 @@ uint32_t
 aFlags
 ViewID
 aScrollTarget
+float
+aScrollbarThumbRatio
 )
 :
 nsDisplayWrapList
@@ -21837,6 +21839,10 @@ aFlags
 mScrollTarget
 (
 aScrollTarget
+)
+mScrollbarThumbRatio
+(
+aScrollbarThumbRatio
 )
 {
 MOZ_COUNT_CTOR
@@ -21935,6 +21941,7 @@ ScrollDirection
 :
 :
 VERTICAL
+mScrollbarThumbRatio
 )
 ;
 }
@@ -21958,6 +21965,7 @@ ScrollDirection
 :
 :
 HORIZONTAL
+mScrollbarThumbRatio
 )
 ;
 }

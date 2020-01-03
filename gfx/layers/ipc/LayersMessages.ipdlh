@@ -1277,6 +1277,9 @@ scrollbarTargetContainerId
 uint32_t
 scrollbarDirection
 ;
+float
+scrollbarThumbRatio
+;
 int8_t
 mixBlendMode
 ;

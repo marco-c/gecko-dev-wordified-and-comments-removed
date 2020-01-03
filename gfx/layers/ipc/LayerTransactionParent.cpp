@@ -1869,6 +1869,11 @@ scrollbarDirection
 (
 )
 )
+common
+.
+scrollbarThumbRatio
+(
+)
 )
 ;
 layer

@@ -551,6 +551,12 @@ aEventStatus
 )
 override
 ;
+float
+GetThumbRatio
+(
+)
+const
+;
 private
 :
 bool
