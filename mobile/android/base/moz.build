@@ -4097,6 +4097,11 @@ MediaPlayerManager
 .
 java
 '
+'
+PresentationMediaPlayerManager
+.
+java
+'
 ]
 if
 CONFIG
