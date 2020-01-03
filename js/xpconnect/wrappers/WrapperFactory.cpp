@@ -1445,6 +1445,9 @@ bool
 waiveXrays
 bool
 originIsXBLScope
+JSObject
+*
+obj
 )
 {
 if
@@ -1574,6 +1577,15 @@ xrayType
 =
 =
 XrayForDOMObject
+&
+&
+IdentifyCrossOriginObject
+(
+obj
+)
+!
+=
+CrossOriginOpaque
 )
 return
 &
@@ -1588,6 +1600,12 @@ singleton
 ;
 if
 (
+xrayType
+=
+=
+XrayForJSObject
+&
+&
 originIsXBLScope
 )
 return
@@ -2127,6 +2145,7 @@ wantXrays
 xrayType
 waiveXrays
 originIsContentXBLScope
+obj
 )
 ;
 if
