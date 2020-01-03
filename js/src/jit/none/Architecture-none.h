@@ -31,7 +31,7 @@ const
 uint32_t
 SimdStackAlignment
 =
-0
+4
 ;
 static
 const
