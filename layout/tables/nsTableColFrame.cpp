@@ -99,6 +99,10 @@ NS_FRAME_STATE_BIT
 define
 COL_TYPE_OFFSET
 28
+using
+namespace
+mozilla
+;
 nsTableColFrame
 :
 :
@@ -305,7 +309,7 @@ StyleContext
 )
 )
 {
-nsIntRect
+TableArea
 damageArea
 (
 GetColIndex

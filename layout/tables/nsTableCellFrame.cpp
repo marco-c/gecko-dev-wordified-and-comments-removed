@@ -1011,7 +1011,7 @@ GetRowIndex
 rowIndex
 )
 ;
-nsIntRect
+TableArea
 damageArea
 (
 colIndex

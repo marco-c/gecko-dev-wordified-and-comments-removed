@@ -66,6 +66,13 @@ include
 algorithm
 >
 #
+include
+"
+TableArea
+.
+h
+"
+#
 undef
 DEBUG_TABLE_CELLMAP
 class
@@ -152,6 +159,13 @@ mLowerRightCorner
 class
 nsTableCellMap
 {
+typedef
+mozilla
+:
+:
+TableArea
+TableArea
+;
 public
 :
 nsTableCellMap
@@ -256,7 +270,7 @@ int32_t
 aRowIndex
 bool
 aRebuildIfNecessary
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -275,7 +289,7 @@ int32_t
 aRowIndex
 int32_t
 aColIndexBefore
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -288,7 +302,7 @@ nsTableCellFrame
 aCellFrame
 int32_t
 aRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -315,7 +329,7 @@ int32_t
 aFirstRowIndex
 bool
 aConsiderSpans
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -329,7 +343,7 @@ int32_t
 aNumRowsToRemove
 bool
 aConsiderSpans
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -486,7 +500,7 @@ int32_t
 aColIndex
 bool
 aInsert
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -510,7 +524,7 @@ nsTableRowFrame
 aRowsToInsert
 int32_t
 aNumRowsToRemove
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -688,6 +702,13 @@ mBCInfo
 class
 nsCellMap
 {
+typedef
+mozilla
+:
+:
+TableArea
+TableArea
+;
 public
 :
 nsCellMap
@@ -805,7 +826,7 @@ bool
 aRebuildIfNecessary
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 int32_t
@@ -849,7 +870,7 @@ int32_t
 aColIndexBefore
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -867,7 +888,7 @@ int32_t
 aRowIndex
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -891,7 +912,7 @@ bool
 aConsiderSpans
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -910,7 +931,7 @@ bool
 aConsiderSpans
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -1150,7 +1171,7 @@ int32_t
 aStartRowIndex
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -1178,7 +1199,7 @@ bool
 aRowSpanIsZero
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -1195,7 +1216,7 @@ int32_t
 aNumRowsToRemove
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
@@ -1215,7 +1236,7 @@ int32_t
 aColIndex
 int32_t
 aRgFirstRowIndex
-nsIntRect
+TableArea
 &
 aDamageArea
 )
