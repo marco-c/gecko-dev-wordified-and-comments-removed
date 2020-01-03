@@ -177,6 +177,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+TelemetryArchive
+.
+jsm
+'
+'
 TelemetryLog
 .
 jsm
