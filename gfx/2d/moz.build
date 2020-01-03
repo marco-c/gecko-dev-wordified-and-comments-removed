@@ -214,6 +214,11 @@ Point
 h
 '
 '
+Quaternion
+.
+h
+'
+'
 Rect
 .
 h
@@ -713,6 +718,11 @@ cpp
 '
 '
 PathRecording
+.
+cpp
+'
+'
+Quaternion
 .
 cpp
 '
