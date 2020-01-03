@@ -49529,7 +49529,12 @@ writingMode
 ;
 }
 return
+cs
+.
+getPropertyValue
+(
 prop
+)
 ;
 }
 function
@@ -50084,7 +50089,7 @@ property
 physicalize
 (
 property
-blockMapping
+inlineMapping
 "
 inline
 -
