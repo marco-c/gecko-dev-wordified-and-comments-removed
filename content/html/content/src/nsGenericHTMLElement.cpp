@@ -2774,7 +2774,7 @@ htmlDocument
 =
 do_QueryInterface
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -9041,7 +9041,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -10093,7 +10093,7 @@ form
 ?
 !
 !
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 :
@@ -10681,7 +10681,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -11299,7 +11299,7 @@ AddFormIdObserver
 {
 NS_ASSERTION
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 "
@@ -11732,7 +11732,7 @@ aFormIdElement
 }
 NS_ASSERTION
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 "
@@ -11756,7 +11756,7 @@ called
 NS_ASSERTION
 (
 !
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 |
@@ -11764,7 +11764,7 @@ GetCurrentDoc
 element
 =
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 -
@@ -12955,7 +12955,7 @@ htmlDocument
 =
 do_QueryInterface
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -13199,7 +13199,7 @@ nsIDocument
 *
 document
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -13382,7 +13382,7 @@ nsIDocument
 *
 document
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

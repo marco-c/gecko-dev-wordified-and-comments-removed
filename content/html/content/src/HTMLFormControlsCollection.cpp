@@ -415,7 +415,7 @@ doc
 mForm
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

@@ -1038,7 +1038,7 @@ href
 {
 SetBaseURIUsingFirstBaseWithHref
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 this
@@ -1059,7 +1059,7 @@ target
 {
 SetBaseTargetUsingFirstBaseWithTarget
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 this
@@ -1143,7 +1143,7 @@ href
 {
 SetBaseURIUsingFirstBaseWithHref
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 nullptr
@@ -1164,7 +1164,7 @@ target
 {
 SetBaseTargetUsingFirstBaseWithTarget
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 nullptr
@@ -1291,7 +1291,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

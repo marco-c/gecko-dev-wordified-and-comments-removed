@@ -4210,7 +4210,7 @@ aContent
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 !

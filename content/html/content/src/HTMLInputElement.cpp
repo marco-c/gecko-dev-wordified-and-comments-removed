@@ -7880,7 +7880,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -9737,12 +9737,12 @@ FlushFrames
 {
 if
 (
-GetCurrentDoc
+GetComposedDoc
 (
 )
 )
 {
-GetCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -12627,7 +12627,7 @@ nsDocument
 *
 >
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -16386,7 +16386,7 @@ nsIDocument
 *
 document
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;

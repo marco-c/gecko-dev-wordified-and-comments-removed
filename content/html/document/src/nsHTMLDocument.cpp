@@ -5021,7 +5021,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -5075,7 +5075,7 @@ do_QueryInterface
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -5308,7 +5308,7 @@ do_QueryInterface
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )

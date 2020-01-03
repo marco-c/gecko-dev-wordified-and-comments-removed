@@ -746,7 +746,7 @@ nsIDocument
 >
 oldDoc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -769,16 +769,9 @@ GetShadowRoot
 :
 nullptr
 ;
-if
+OwnerDoc
 (
-oldDoc
-&
-&
-!
-oldShadowRoot
 )
-{
-oldDoc
 -
 >
 UnregisterPendingLinkUpdate
@@ -786,7 +779,6 @@ UnregisterPendingLinkUpdate
 this
 )
 ;
-}
 CreateAndDispatchEvent
 (
 oldDoc
@@ -1018,7 +1010,7 @@ nsIDocument
 >
 doc
 =
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

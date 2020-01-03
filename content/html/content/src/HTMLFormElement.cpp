@@ -1921,7 +1921,7 @@ oldDocument
 =
 do_QueryInterface
 (
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -2426,7 +2426,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -2603,7 +2603,7 @@ aEvent
 {
 NS_ASSERTION
 (
-GetCurrentDoc
+GetComposedDoc
 (
 )
 "
@@ -2963,7 +2963,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -6838,7 +6838,7 @@ nsIDocument
 *
 doc
 =
-GetCurrentDoc
+GetComposedDoc
 (
 )
 ;
