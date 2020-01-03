@@ -610,10 +610,8 @@ nsIDocument
 aOriginDocument
 )
 ;
-nsRefPtr
-<
 ImportLoader
->
+*
 GetNearestPredecessor
 (
 nsINode

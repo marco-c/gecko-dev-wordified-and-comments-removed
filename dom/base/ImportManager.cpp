@@ -3129,10 +3129,8 @@ aLoader
 )
 ;
 }
-nsRefPtr
-<
 ImportLoader
->
+*
 ImportManager
 :
 :
