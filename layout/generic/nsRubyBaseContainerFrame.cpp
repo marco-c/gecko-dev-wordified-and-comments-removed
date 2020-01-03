@@ -1944,7 +1944,6 @@ isize
 spanISize
 ;
 }
-}
 if
 (
 !
@@ -1990,6 +1989,7 @@ NS_INLINE_LINE_BREAK_AFTER
 aStatus
 )
 ;
+}
 }
 DebugOnly
 <
@@ -2482,11 +2482,9 @@ mColumnCount
 |
 |
 !
-mSpanContainers
+aReflowState
 .
-IsEmpty
-(
-)
+mAllowLineBreak
 )
 {
 aStatus
@@ -2514,11 +2512,9 @@ aStatus
 )
 |
 |
-mSpanContainers
+aReflowState
 .
-IsEmpty
-(
-)
+mAllowLineBreak
 )
 ;
 if
