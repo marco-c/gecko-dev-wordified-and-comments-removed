@@ -1273,6 +1273,9 @@ contextMenu
 "
 sourceEditorContextMenu
 "
+enableCodeFolding
+:
+false
 }
 )
 ;
