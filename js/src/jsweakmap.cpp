@@ -50,6 +50,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject
@@ -692,6 +701,13 @@ m
 >
 next
 )
+{
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 m
 -
 >
@@ -700,6 +716,7 @@ traceMappings
 tracer
 )
 ;
+}
 }
 }
 bool
