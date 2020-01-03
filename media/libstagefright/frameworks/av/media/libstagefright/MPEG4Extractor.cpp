@@ -485,7 +485,7 @@ off64_t
 size
 )
 ;
-void
+status_t
 lookForMoof
 (
 )
@@ -16365,7 +16365,7 @@ return
 0
 ;
 }
-void
+status_t
 MPEG4Source
 :
 :
@@ -16412,7 +16412,8 @@ x
 8
 )
 {
-break
+return
+NOT_ENOUGH_DATA
 ;
 }
 uint32_t
@@ -16483,7 +16484,8 @@ parseChunk
 offset
 )
 ;
-break
+return
+OK
 ;
 }
 if
@@ -16508,7 +16510,8 @@ t
 )
 )
 {
-break
+return
+OK
 ;
 }
 offset
@@ -16556,11 +16559,12 @@ mLookedForMoof
 {
 mLookedForMoof
 =
-true
-;
 lookForMoof
 (
 )
+=
+=
+OK
 ;
 }
 if
