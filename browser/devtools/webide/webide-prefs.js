@@ -548,3 +548,17 @@ false
 ;
 #
 endif
+pref
+(
+"
+devtools
+.
+webide
+.
+zoom
+"
+"
+1
+"
+)
+;
