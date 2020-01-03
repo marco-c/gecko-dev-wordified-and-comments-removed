@@ -106,13 +106,6 @@ NS_NATIVE_WINDOW
 #
 include
 "
-HwcComposer2D
-.
-h
-"
-#
-include
-"
 libdisplay
 /
 GonkDisplay
