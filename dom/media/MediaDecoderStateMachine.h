@@ -1316,8 +1316,8 @@ int64_t
 aTime
 )
 ;
-void
-CheckTurningOffHardwareDecoder
+bool
+CheckFrameValidity
 (
 VideoData
 *
