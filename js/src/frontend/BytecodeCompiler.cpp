@@ -1506,7 +1506,6 @@ GlobalSharedContext
 globalsc
 (
 cx
-scopeChain
 directives
 options
 .
