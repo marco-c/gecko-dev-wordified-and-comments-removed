@@ -3920,10 +3920,12 @@ redeclared
 =
 false
 ;
-Shape
+ShapeTable
+:
+:
+Entry
 *
-*
-spp
+entry
 ;
 if
 (
@@ -3941,7 +3943,7 @@ lastProperty
 )
 id
 &
-spp
+entry
 true
 )
 )
@@ -4001,7 +4003,7 @@ nullptr
 slot
 propFlags
 0
-spp
+entry
 false
 )
 ;
