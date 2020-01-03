@@ -305,6 +305,11 @@ mIsInvalid
 false
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mLayer
+)
+;
 if
 (
 aFrame
@@ -331,6 +336,11 @@ nsIFrame
 aFrame
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mLayer
+)
+;
 mFrameList
 .
 AppendElement
@@ -638,6 +648,11 @@ aItem
 {
 MOZ_RELEASE_ASSERT
 (
+mLayer
+)
+;
+MOZ_RELEASE_ASSERT
+(
 aLayer
 )
 ;
@@ -868,6 +883,11 @@ DisplayItemData
 (
 )
 {
+MOZ_RELEASE_ASSERT
+(
+mLayer
+)
+;
 for
 (
 uint32_t
