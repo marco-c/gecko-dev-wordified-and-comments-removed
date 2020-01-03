@@ -376,8 +376,9 @@ Data
 (
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+mConnection
 mTarget
 =
 =
