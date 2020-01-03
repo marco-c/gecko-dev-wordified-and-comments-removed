@@ -35,7 +35,6 @@ namespace
 mozilla
 {
 class
-MOZALLOC_EXPORT
 VolatileBuffer
 :
 public
