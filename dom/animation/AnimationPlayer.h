@@ -597,7 +597,7 @@ PausePending
 ;
 }
 bool
-HasInPlaySource
+HasInPlayEffect
 (
 )
 const
@@ -621,7 +621,7 @@ this
 ;
 }
 bool
-HasCurrentSource
+HasCurrentEffect
 (
 )
 const
@@ -645,7 +645,7 @@ this
 ;
 }
 bool
-HasInEffectSource
+IsInEffect
 (
 )
 const
@@ -673,7 +673,7 @@ IsPlaying
 const
 {
 return
-HasInPlaySource
+HasInPlayEffect
 (
 )
 &
@@ -876,7 +876,7 @@ false
 )
 ;
 void
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -909,7 +909,7 @@ IsPossiblyOrphanedPendingPlayer
 const
 ;
 StickyTimeDuration
-SourceContentEnd
+EffectEnd
 (
 )
 const

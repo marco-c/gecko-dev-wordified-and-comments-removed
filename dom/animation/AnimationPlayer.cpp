@@ -582,7 +582,7 @@ UpdateFinishedState
 true
 )
 ;
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -813,7 +813,7 @@ Value
 )
 >
 =
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -1634,7 +1634,7 @@ SetNull
 (
 )
 ;
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -1654,12 +1654,12 @@ mIsRelevant
 ;
 mIsRelevant
 =
-HasCurrentSource
+HasCurrentEffect
 (
 )
 |
 |
-HasInEffectSource
+IsInEffect
 (
 )
 ;
@@ -1973,7 +1973,7 @@ mPlaybackRate
 )
 )
 ;
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -2122,7 +2122,7 @@ Value
 )
 >
 =
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -2192,7 +2192,7 @@ Value
 (
 )
 >
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -2206,7 +2206,7 @@ SetValue
 (
 TimeDuration
 (
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -2726,7 +2726,7 @@ UpdateFinishedState
 (
 )
 ;
-UpdateSourceContent
+UpdateEffect
 (
 )
 ;
@@ -2752,11 +2752,11 @@ GetCurrentTime
 )
 ;
 TimeDuration
-targetEffectEnd
+effectEnd
 =
 TimeDuration
 (
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -2804,7 +2804,7 @@ Value
 )
 >
 =
-targetEffectEnd
+effectEnd
 )
 {
 if
@@ -2842,7 +2842,7 @@ mPreviousCurrentTime
 Value
 (
 )
-targetEffectEnd
+effectEnd
 )
 )
 ;
@@ -2853,7 +2853,7 @@ mHoldTime
 .
 SetValue
 (
-targetEffectEnd
+effectEnd
 )
 ;
 }
@@ -3046,7 +3046,7 @@ void
 AnimationPlayer
 :
 :
-UpdateSourceContent
+UpdateEffect
 (
 )
 {
@@ -3277,7 +3277,7 @@ Value
 )
 >
 =
-SourceContentEnd
+EffectEnd
 (
 )
 )
@@ -3431,7 +3431,7 @@ StickyTimeDuration
 AnimationPlayer
 :
 :
-SourceContentEnd
+EffectEnd
 (
 )
 const

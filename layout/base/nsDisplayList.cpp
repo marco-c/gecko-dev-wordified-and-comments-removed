@@ -2774,8 +2774,7 @@ playing
 player
 should
 have
-a
-target
+an
 effect
 "
 )

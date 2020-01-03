@@ -4371,7 +4371,7 @@ playerIdx
 ]
 -
 >
-HasCurrentSource
+HasCurrentEffect
 (
 )
 )
