@@ -610,14 +610,6 @@ amr
 "
 #
 define
-AUDIO_FLAC
-"
-audio
-/
-flac
-"
-#
-define
 AUDIO_3GPP
 "
 audio
