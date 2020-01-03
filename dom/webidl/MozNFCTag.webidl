@@ -207,7 +207,7 @@ org
 /
 nfc
 /
-NFCTag
+tag
 ;
 1
 "

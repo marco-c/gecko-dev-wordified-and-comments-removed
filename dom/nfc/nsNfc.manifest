@@ -18,7 +18,9 @@ mozilla
 .
 org
 /
-navigatorNfc
+nfc
+/
+manager
 ;
 1
 {
@@ -54,7 +56,7 @@ org
 /
 nfc
 /
-NFCTag
+tag
 ;
 1
 {
@@ -90,7 +92,7 @@ org
 /
 nfc
 /
-NFCPeer
+peer
 ;
 1
 {

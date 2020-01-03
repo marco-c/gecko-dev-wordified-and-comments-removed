@@ -393,7 +393,9 @@ mozilla
 .
 org
 /
-navigatorNfc
+nfc
+/
+manager
 ;
 1
 "

@@ -110,7 +110,7 @@ org
 /
 nfc
 /
-NFCPeer
+peer
 ;
 1
 "
