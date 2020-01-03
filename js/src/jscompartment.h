@@ -658,6 +658,9 @@ marked
 bool
 warnedAboutNoSuchMethod
 ;
+bool
+warnedAboutFlagsArgument
+;
 JSAddonId
 *
 addonId
