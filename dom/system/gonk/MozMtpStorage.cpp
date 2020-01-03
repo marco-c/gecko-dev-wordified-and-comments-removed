@@ -458,7 +458,12 @@ NameStr
 1024uLL
 *
 1024uLL
-true
+mVolume
+-
+>
+IsHotSwappable
+(
+)
 2uLL
 *
 1024uLL
