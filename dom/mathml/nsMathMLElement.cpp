@@ -570,6 +570,7 @@ nsChangeHint
 (
 0
 )
+eRestyle_Subtree
 )
 ;
 }

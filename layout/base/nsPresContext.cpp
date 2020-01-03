@@ -8153,6 +8153,8 @@ PostRebuildAllStyleDataEvent
 (
 nsChangeHint
 aExtraHint
+nsRestyleHint
+aRestyleHint
 )
 {
 if
@@ -8172,7 +8174,7 @@ RestyleManager
 PostRebuildAllStyleDataEvent
 (
 aExtraHint
-eRestyle_Subtree
+aRestyleHint
 )
 ;
 }
@@ -9137,6 +9139,7 @@ return
 PostRebuildAllStyleDataEvent
 (
 NS_STYLE_HINT_REFLOW
+eRestyle_Subtree
 )
 ;
 }
@@ -9240,6 +9243,7 @@ NotifyCounterStylesAreDirty
 PostRebuildAllStyleDataEvent
 (
 NS_STYLE_HINT_REFLOW
+eRestyle_Subtree
 )
 ;
 }
