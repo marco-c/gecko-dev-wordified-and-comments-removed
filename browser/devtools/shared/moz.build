@@ -450,6 +450,13 @@ js
 '
 widgets
 /
+FilterWidget
+.
+js
+'
+'
+widgets
+/
 FlameGraph
 .
 js
