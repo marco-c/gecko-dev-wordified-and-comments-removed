@@ -705,7 +705,7 @@ aIsAudio
 )
 {
 }
-void
+bool
 RebuildFragmentedIndex
 (
 const
@@ -720,7 +720,7 @@ MediaByteRange
 aByteRanges
 )
 ;
-void
+bool
 RebuildFragmentedIndex
 (
 BoxContext
