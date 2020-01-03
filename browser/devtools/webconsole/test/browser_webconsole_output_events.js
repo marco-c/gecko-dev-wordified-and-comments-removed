@@ -1,3 +1,10 @@
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+null
+"
+)
+;
 const
 TEST_URI
 =
