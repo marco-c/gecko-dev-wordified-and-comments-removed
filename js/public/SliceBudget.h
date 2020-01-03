@@ -106,7 +106,7 @@ work
 )
 ;
 void
-reset
+makeUnlimited
 (
 )
 {
