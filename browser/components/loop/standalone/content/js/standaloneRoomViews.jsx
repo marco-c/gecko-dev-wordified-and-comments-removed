@@ -861,6 +861,9 @@ mixins
 Backbone
 .
 Events
+sharedMixins
+.
+RoomsAudioMixin
 ]
 propTypes
 :
