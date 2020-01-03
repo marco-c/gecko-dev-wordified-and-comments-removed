@@ -450,7 +450,9 @@ try
 {
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 host
 port

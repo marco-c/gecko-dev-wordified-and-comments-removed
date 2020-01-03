@@ -1137,7 +1137,9 @@ try
 {
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 this
 .

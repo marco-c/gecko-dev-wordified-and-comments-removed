@@ -140,3 +140,17 @@ FINAL_LIBRARY
 '
 xul
 '
+EXTRA_JS_MODULES
+.
+devtools
+.
+security
++
+=
+[
+'
+socket
+.
+js
+'
+]

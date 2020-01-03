@@ -258,7 +258,9 @@ started
 let
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 "
 127

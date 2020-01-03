@@ -101,7 +101,6 @@ jsm
 ;
 let
 {
-debuggerSocketConnect
 DebuggerClient
 }
 =
@@ -224,7 +223,9 @@ connect
 let
 transport
 =
-debuggerSocketConnect
+DebuggerClient
+.
+socketConnect
 (
 Prefs
 .
