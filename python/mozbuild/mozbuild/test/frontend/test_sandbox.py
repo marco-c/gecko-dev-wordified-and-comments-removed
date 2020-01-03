@@ -1673,6 +1673,11 @@ se
 exception
 .
 illegal_path
+            
+sandbox
+.
+normalize_path
+(
 '
 .
 .
@@ -1681,6 +1686,7 @@ moz
 .
 build
 '
+)
 )
     
 def
