@@ -1,4 +1,5 @@
 function
+*
 ifWebGLSupported
 (
 )
@@ -159,6 +160,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

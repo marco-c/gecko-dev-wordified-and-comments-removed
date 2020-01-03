@@ -2998,13 +2998,16 @@ decorate
 this
 )
 ;
-function
+let
+=
 (
 selector
 target
 =
 document
 )
+=
+>
 target
 .
 querySelector

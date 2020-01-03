@@ -17,6 +17,7 @@ front
 )
 ;
 function
+*
 spawnTest
 (
 )

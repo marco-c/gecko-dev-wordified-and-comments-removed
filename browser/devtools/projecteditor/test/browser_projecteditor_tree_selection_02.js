@@ -200,6 +200,7 @@ i
 )
 ;
 function
+*
 selectAndRefocusFile
 (
 projecteditor

@@ -251,6 +251,7 @@ i
 )
 ;
 function
+*
 selectFileFirstLoad
 (
 projecteditor
@@ -525,6 +526,7 @@ path
 ;
 }
 function
+*
 selectFileSubsequentLoad
 (
 projecteditor

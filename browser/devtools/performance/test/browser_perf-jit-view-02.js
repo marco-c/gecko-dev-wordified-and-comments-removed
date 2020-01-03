@@ -55,6 +55,7 @@ false
 )
 ;
 function
+*
 spawnTest
 (
 )

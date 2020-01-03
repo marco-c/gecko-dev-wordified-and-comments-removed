@@ -166,6 +166,7 @@ newContent
 )
 ;
 function
+*
 testEditFile
 (
 projecteditor

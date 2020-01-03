@@ -171,6 +171,7 @@ svg
 ]
 ;
 function
+*
 selectFile
 (
 projecteditor

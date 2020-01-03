@@ -436,6 +436,7 @@ enabled
 )
 ;
 function
+*
 openContextMenuForEditor
 (
 editor
@@ -490,6 +491,7 @@ shown
 ;
 }
 function
+*
 closeContextMenuForEditor
 (
 editor

@@ -36,6 +36,7 @@ utils
 "
 )
 function
+*
 spawnTest
 (
 )

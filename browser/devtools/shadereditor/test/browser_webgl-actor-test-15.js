@@ -1,4 +1,5 @@
 function
+*
 ifWebGLSupported
 (
 )
@@ -352,6 +353,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -419,6 +421,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -573,6 +576,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -835,6 +839,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

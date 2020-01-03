@@ -4,6 +4,7 @@ BUFFER_SIZE
 20000
 ;
 function
+*
 spawnTest
 (
 )
