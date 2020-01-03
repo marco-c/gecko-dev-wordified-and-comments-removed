@@ -685,6 +685,9 @@ mAudioFrames
 uint64_t
 mCodecDelay
 ;
+uint64_t
+mLastVideoFrameTime
+;
 nsRefPtr
 <
 WebMBufferedState

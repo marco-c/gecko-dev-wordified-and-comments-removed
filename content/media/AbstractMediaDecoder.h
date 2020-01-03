@@ -181,15 +181,6 @@ aDecoded
 ;
 virtual
 int64_t
-GetEndMediaTime
-(
-)
-const
-=
-0
-;
-virtual
-int64_t
 GetMediaDuration
 (
 )
