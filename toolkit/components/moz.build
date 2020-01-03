@@ -250,6 +250,9 @@ timermanager
 typeaheadfind
 '
 '
+utils
+'
+'
 urlformatter
 '
 '
