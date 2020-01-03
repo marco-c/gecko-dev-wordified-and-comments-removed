@@ -3147,9 +3147,6 @@ gContextMenu
 .
 shareSelect
 (
-getBrowserSelection
-(
-)
 )
 ;
 "

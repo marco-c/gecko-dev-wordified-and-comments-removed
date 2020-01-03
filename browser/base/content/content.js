@@ -5752,6 +5752,8 @@ target
 message
 .
 objects
+.
+target
 ;
 let
 result
