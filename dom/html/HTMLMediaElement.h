@@ -1770,6 +1770,11 @@ nullptr
 )
 ;
 }
+bool
+IsBeingDestroyed
+(
+)
+;
 protected
 :
 virtual
@@ -2321,6 +2326,11 @@ return
 isPaused
 ;
 }
+void
+ReportMSETelemetry
+(
+)
+;
 bool
 CheckAudioChannelPermissions
 (
