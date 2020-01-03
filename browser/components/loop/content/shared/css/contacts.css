@@ -153,6 +153,8 @@ height
 24px
 ;
 background
+-
+color
 :
 #
 eee
@@ -213,6 +215,8 @@ contact
 hover
 {
 background
+-
+color
 :
 #
 eee
@@ -288,6 +292,8 @@ height
 40px
 ;
 background
+-
+color
 :
 #
 ccc
@@ -680,7 +686,6 @@ auto
 ;
 padding
 :
-12px
 10px
 ;
 border
@@ -690,6 +695,8 @@ radius
 2px
 ;
 background
+-
+color
 :
 #
 5bc0a4
