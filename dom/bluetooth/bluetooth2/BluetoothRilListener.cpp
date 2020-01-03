@@ -119,10 +119,9 @@ IccListener
 :
 NotifyStkCommand
 (
-const
-nsAString
-&
-aMessage
+nsIStkProactiveCmd
+*
+aStkProactiveCmd
 )
 {
 return

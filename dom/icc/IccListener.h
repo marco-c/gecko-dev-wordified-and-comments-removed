@@ -98,12 +98,6 @@ mIccManager
 ;
 nsCOMPtr
 <
-nsIIccProvider
->
-mProvider
-;
-nsCOMPtr
-<
 nsIIcc
 >
 mHandler

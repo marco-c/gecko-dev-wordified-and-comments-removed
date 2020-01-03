@@ -5109,10 +5109,9 @@ MobileConnection
 :
 NotifyStkCommand
 (
-const
-nsAString
-&
-aMessage
+nsIStkProactiveCmd
+*
+aStkProactiveCmd
 )
 {
 return
