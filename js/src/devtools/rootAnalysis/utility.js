@@ -797,12 +797,14 @@ ctypes
 .
 open
 (
-environment
-[
+os
+.
+getenv
+(
 '
 XDB
 '
-]
+)
 )
 ;
 return
