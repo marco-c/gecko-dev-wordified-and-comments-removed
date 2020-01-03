@@ -171,13 +171,5 @@ CSSTransition
 :
 Animation
 {
-[
-Constant
-]
-readonly
-attribute
-DOMString
-transitionProperty
-;
 }
 ;
