@@ -384,6 +384,7 @@ fd
 int16_t
 outflags
 )
+MOZ_OVERRIDE
 {
 unsigned
 char
@@ -456,6 +457,7 @@ PRFileDesc
 *
 fd
 )
+MOZ_OVERRIDE
 {
 }
 void
@@ -465,6 +467,7 @@ bool
 *
 aIsLocal
 )
+MOZ_OVERRIDE
 {
 *
 aIsLocal
@@ -477,6 +480,7 @@ uint64_t
 ByteCountSent
 (
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -487,6 +491,7 @@ uint64_t
 ByteCountReceived
 (
 )
+MOZ_OVERRIDE
 {
 return
 0

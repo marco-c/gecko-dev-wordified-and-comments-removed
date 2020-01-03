@@ -278,6 +278,7 @@ record
 nsresult
 status
 )
+MOZ_OVERRIDE
 ;
 int
 cancel
