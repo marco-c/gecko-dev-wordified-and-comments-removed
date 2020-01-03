@@ -2637,12 +2637,26 @@ err
 rc
 timed_out
 test
+options
 )
 :
     
 if
 timed_out
 :
+        
+if
+test
+.
+relpath_tests
+in
+options
+.
+ignore_timeouts
+:
+            
+return
+True
         
 if
 sys
@@ -4222,6 +4236,7 @@ timed_out
 res
 .
 test
+options
 )
             
 doing
