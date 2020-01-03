@@ -779,10 +779,6 @@ BufferRecycleBin
 (
 )
 )
-mCompositionNotifySink
-(
-nullptr
-)
 mImageClient
 (
 nullptr
