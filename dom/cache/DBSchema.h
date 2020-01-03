@@ -100,6 +100,15 @@ aConn
 ;
 static
 nsresult
+InitializeConnection
+(
+mozIStorageConnection
+*
+aConn
+)
+;
+static
+nsresult
 CreateCache
 (
 mozIStorageConnection
