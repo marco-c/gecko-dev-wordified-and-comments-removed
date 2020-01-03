@@ -124,7 +124,7 @@ mozpath
 from
 types
 import
-StringTypes
+FunctionType
 from
 UserString
 import
@@ -8965,6 +8965,7 @@ self
 .
 _template_decorator
 (
+FunctionType
 )
         
 "
