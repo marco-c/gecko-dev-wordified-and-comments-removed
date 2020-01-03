@@ -3644,6 +3644,7 @@ mFirstChild
 ;
 nsIWidget
 *
+MOZ_NON_OWNING_REF
 mLastChild
 ;
 nsCOMPtr
@@ -3654,6 +3655,7 @@ mNextSibling
 ;
 nsIWidget
 *
+MOZ_NON_OWNING_REF
 mPrevSibling
 ;
 bool
