@@ -153,7 +153,10 @@ void
 DecomposeIntoNoRepeatTriangles
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aTexCoordRect
 const

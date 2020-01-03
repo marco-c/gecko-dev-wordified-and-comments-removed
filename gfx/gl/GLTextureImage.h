@@ -296,7 +296,10 @@ aSize
 nsIntRegion
 r
 (
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 0
 0

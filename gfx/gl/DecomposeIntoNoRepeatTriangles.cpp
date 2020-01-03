@@ -265,7 +265,10 @@ void
 DecomposeIntoNoRepeatTriangles
 (
 const
-nsIntRect
+gfx
+:
+:
+IntRect
 &
 aTexCoordRect
 const
@@ -279,7 +282,10 @@ bool
 aFlipY
 )
 {
-nsIntRect
+gfx
+:
+:
+IntRect
 tcr
 (
 aTexCoordRect
