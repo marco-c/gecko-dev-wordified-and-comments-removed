@@ -1189,11 +1189,6 @@ HookProtectedMode
 (
 )
 ;
-void
-CleanupProtectedModeHook
-(
-)
-;
 #
 endif
 #
