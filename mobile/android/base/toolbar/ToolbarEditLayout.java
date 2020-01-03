@@ -575,9 +575,7 @@ editingState
 .
 lastEditingText
 =
-mEditText
-.
-getNonAutocompleteText
+getText
 (
 )
 ;
