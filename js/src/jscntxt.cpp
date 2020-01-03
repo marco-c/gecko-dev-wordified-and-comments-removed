@@ -5692,13 +5692,15 @@ addressOfSimulatorStackLimit
 )
 ;
 #
-endif
+else
 return
 stackLimitAddress
 (
 kind
 )
 ;
+#
+endif
 }
 JSVersion
 JSContext
