@@ -9,15 +9,11 @@ By
 import
 urlparse
 from
-marionette
-.
 errors
 import
 NoSuchElementException
 StaleElementException
 from
-marionette
-.
 wait
 import
 Wait
