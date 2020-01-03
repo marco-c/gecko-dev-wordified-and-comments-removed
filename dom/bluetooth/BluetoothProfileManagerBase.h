@@ -356,7 +356,7 @@ OnDisconnect
 const
 nsAString
 &
-AErrorStr
+aErrorStr
 )
 override
 ;
