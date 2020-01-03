@@ -24,12 +24,11 @@ true
 )
 ;
 let
-[
+{
 target
-debuggee
 panel
 toolbox
-]
+}
 =
 yield
 initWebAudioEditor
