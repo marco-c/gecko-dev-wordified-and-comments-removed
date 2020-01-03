@@ -653,10 +653,7 @@ if
 mBlockedOnRwin
 &
 &
-mUpstreamState
-!
-=
-GENERATING_SYN_STREAM
+mSynFrameGenerated
 &
 &
 !
@@ -7663,7 +7660,12 @@ this
 )
 ;
 return
+*
+countRead
+?
 NS_OK
+:
+NS_BASE_STREAM_WOULD_BLOCK
 ;
 }
 if
