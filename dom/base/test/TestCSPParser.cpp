@@ -89,8 +89,9 @@ h
 #
 include
 "
-.
-.
+mozilla
+/
+dom
 /
 nsCSPContext
 .

@@ -152,6 +152,9 @@ xpath
 xul
 '
 '
+security
+'
+'
 storage
 '
 '
@@ -310,6 +313,9 @@ push
 '
 '
 quota
+'
+'
+security
 '
 '
 settings

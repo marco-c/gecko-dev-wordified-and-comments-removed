@@ -838,6 +838,13 @@ BINPATH
 /
 components
 /
+dom_security
+.
+xpt
+BINPATH
+/
+components
+/
 dom_settings
 .
 xpt
