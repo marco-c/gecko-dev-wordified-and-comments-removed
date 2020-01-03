@@ -513,6 +513,7 @@ aRv
 ;
 private
 :
+explicit
 WebSocket
 (
 nsPIDOMWindow

@@ -203,6 +203,7 @@ nsDOMSerializer
 (
 )
 ;
+explicit
 nsDOMSerializer
 (
 nsISupports

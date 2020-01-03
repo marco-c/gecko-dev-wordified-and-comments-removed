@@ -1694,6 +1694,7 @@ nsIConsoleListener
 {
 public
 :
+explicit
 ConsoleListener
 (
 ContentChild
@@ -3072,6 +3073,7 @@ MemoryReportsWrapper
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 MemoryReportsWrapper
 (
 InfallibleTArray
@@ -3111,6 +3113,7 @@ nsIMemoryReporterCallback
 public
 :
 NS_DECL_ISUPPORTS
+explicit
 MemoryReportCallback
 (
 const

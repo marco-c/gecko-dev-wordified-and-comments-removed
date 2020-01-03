@@ -19,6 +19,7 @@ nsContentTypeParser
 {
 public
 :
+explicit
 nsContentTypeParser
 (
 const

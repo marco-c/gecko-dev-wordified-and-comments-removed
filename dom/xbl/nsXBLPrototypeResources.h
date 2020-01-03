@@ -45,6 +45,7 @@ nsXBLPrototypeResources
 {
 public
 :
+explicit
 nsXBLPrototypeResources
 (
 nsXBLPrototypeBinding

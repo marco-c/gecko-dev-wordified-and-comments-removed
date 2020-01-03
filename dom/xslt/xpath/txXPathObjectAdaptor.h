@@ -33,6 +33,7 @@ txIXPathObject
 {
 public
 :
+explicit
 txXPathObjectAdaptor
 (
 txAExprResult

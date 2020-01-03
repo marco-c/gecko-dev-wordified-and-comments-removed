@@ -79,6 +79,7 @@ nsIDOMHTMLTableElement
 {
 public
 :
+explicit
 HTMLTableElement
 (
 already_AddRefed

@@ -52,6 +52,7 @@ FunctionCall
 {
 public
 :
+explicit
 DocumentFunctionCall
 (
 const
@@ -76,6 +77,7 @@ FunctionCall
 {
 public
 :
+explicit
 txKeyFunctionCall
 (
 txNamespaceMap

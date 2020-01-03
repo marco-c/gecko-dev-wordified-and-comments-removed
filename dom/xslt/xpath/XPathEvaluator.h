@@ -92,6 +92,7 @@ XPathEvaluator
 ;
 public
 :
+explicit
 XPathEvaluator
 (
 nsIDocument

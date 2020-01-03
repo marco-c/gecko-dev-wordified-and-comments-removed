@@ -218,6 +218,7 @@ nsStringHashKey
 {
 public
 :
+explicit
 nsRefMapEntry
 (
 const
@@ -233,6 +234,7 @@ aKey
 )
 {
 }
+explicit
 nsRefMapEntry
 (
 const
@@ -1697,6 +1699,7 @@ mElement
 ;
 public
 :
+explicit
 TemplateBuilderHookup
 (
 nsIContent

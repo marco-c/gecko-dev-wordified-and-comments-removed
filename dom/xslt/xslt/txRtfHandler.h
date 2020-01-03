@@ -42,6 +42,7 @@ txAExprResult
 {
 public
 :
+explicit
 txResultTreeFragment
 (
 nsAutoPtr

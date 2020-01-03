@@ -62,6 +62,7 @@ nsIConstraintValidation
 {
 public
 :
+explicit
 HTMLObjectElement
 (
 already_AddRefed

@@ -10374,6 +10374,7 @@ AppendElement
 )
 ;
 }
+explicit
 StringBuilder
 (
 StringBuilder

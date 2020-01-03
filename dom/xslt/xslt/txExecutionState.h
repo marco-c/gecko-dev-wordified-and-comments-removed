@@ -101,6 +101,7 @@ nsStringHashKey
 {
 public
 :
+explicit
 txLoadedDocumentEntry
 (
 KeyTypePointer

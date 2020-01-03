@@ -2708,6 +2708,7 @@ nsIInterfaceRequestor
 {
 public
 :
+explicit
 nsGlobalWindowObserver
 (
 nsGlobalWindow
@@ -36654,6 +36655,7 @@ nsRunnable
 {
 public
 :
+explicit
 nsPendingTimeoutRunner
 (
 nsGlobalWindow
@@ -49856,6 +49858,7 @@ mWin
 ;
 public
 :
+explicit
 AutoUnblockScriptClosing
 (
 nsGlobalWindow

@@ -68,6 +68,7 @@ BatteryObserver
 {
 public
 :
+explicit
 BatteryManager
 (
 nsPIDOMWindow

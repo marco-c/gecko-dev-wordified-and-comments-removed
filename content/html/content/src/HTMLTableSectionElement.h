@@ -42,6 +42,7 @@ nsGenericHTMLElement
 {
 public
 :
+explicit
 HTMLTableSectionElement
 (
 already_AddRefed

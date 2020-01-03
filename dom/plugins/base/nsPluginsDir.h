@@ -95,6 +95,7 @@ mPlugin
 ;
 public
 :
+explicit
 nsPluginFile
 (
 nsIFile

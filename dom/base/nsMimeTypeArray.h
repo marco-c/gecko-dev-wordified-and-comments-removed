@@ -56,6 +56,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 nsMimeTypeArray
 (
 nsPIDOMWindow

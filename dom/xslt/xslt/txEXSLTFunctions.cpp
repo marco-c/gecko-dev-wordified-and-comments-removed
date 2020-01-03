@@ -1196,6 +1196,7 @@ LOWEST
 DATE_TIME
 }
 ;
+explicit
 txEXSLTFunctionCall
 (
 eType

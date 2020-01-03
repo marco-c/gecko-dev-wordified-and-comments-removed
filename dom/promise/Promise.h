@@ -163,6 +163,7 @@ mPromise
 ;
 public
 :
+explicit
 PromiseReportRejectFeature
 (
 Promise
@@ -665,6 +666,7 @@ aRunnable
 ;
 private
 :
+explicit
 Promise
 (
 nsIGlobalObject

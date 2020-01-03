@@ -29,6 +29,7 @@ txBufferingHandler
 {
 public
 :
+explicit
 txUnknownHandler
 (
 txExecutionState

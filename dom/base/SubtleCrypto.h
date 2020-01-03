@@ -93,6 +93,7 @@ SubtleCrypto
 )
 public
 :
+explicit
 SubtleCrypto
 (
 nsPIDOMWindow

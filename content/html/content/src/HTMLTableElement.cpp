@@ -104,6 +104,7 @@ nsWrapperCache
 {
 public
 :
+explicit
 TableRowsCollection
 (
 HTMLTableElement

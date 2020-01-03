@@ -390,6 +390,7 @@ private
 struct
 ImageObserver
 {
+explicit
 ImageObserver
 (
 imgINotificationObserver

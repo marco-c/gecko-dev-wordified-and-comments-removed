@@ -51,6 +51,7 @@ nsIDOMEventListener
 {
 public
 :
+explicit
 nsXBLEventHandler
 (
 nsXBLPrototypeHandler
@@ -101,6 +102,7 @@ nsXBLEventHandler
 {
 public
 :
+explicit
 nsXBLMouseEventHandler
 (
 nsXBLPrototypeHandler

@@ -86,6 +86,7 @@ return
 mElement
 ;
 }
+explicit
 nsDOMStringMap
 (
 nsGenericHTMLElement

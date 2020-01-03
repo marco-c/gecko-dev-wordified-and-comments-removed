@@ -60,6 +60,7 @@ nsDocument
 {
 public
 :
+explicit
 XMLDocument
 (
 const

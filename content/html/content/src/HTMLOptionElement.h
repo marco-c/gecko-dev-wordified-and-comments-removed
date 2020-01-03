@@ -65,6 +65,7 @@ nsIDOMHTMLOptionElement
 {
 public
 :
+explicit
 HTMLOptionElement
 (
 already_AddRefed

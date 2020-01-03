@@ -235,6 +235,7 @@ nsJSURI
 )
 {
 }
+explicit
 nsJSURI
 (
 nsIURI

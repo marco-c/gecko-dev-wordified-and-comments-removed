@@ -10233,6 +10233,7 @@ public
 bool
 mResult
 ;
+explicit
 HasDataStoreSupportRunnable
 (
 workers

@@ -58,6 +58,7 @@ txAOutputXMLEventHandler
 {
 public
 :
+explicit
 txMozillaTextOutput
 (
 nsITransformObserver
@@ -65,6 +66,7 @@ nsITransformObserver
 aObserver
 )
 ;
+explicit
 txMozillaTextOutput
 (
 nsIDOMDocumentFragment

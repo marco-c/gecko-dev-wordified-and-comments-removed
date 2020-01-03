@@ -491,6 +491,7 @@ DOMRectReadOnly
 {
 public
 :
+explicit
 QuadBounds
 (
 DOMQuad

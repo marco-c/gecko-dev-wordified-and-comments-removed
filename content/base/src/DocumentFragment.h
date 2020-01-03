@@ -132,6 +132,7 @@ GetElementById
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_DECL_NSIDOMDOCUMENTFRAGMENT
+explicit
 DocumentFragment
 (
 already_AddRefed
@@ -162,6 +163,7 @@ Init
 )
 ;
 }
+explicit
 DocumentFragment
 (
 nsNodeInfoManager
