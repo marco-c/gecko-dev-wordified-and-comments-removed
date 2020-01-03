@@ -19428,6 +19428,12 @@ LDFLAGS
 -
 DYNAMICBASE
 "
+RCFLAGS
+=
+"
+-
+nologo
+"
 if
 test
 "

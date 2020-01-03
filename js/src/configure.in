@@ -15269,6 +15269,12 @@ LDFLAGS
 -
 DYNAMICBASE
 "
+RCFLAGS
+=
+"
+-
+nologo
+"
 fi
 AC_DEFINE
 (
