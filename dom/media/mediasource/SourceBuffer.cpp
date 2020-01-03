@@ -2284,7 +2284,14 @@ NS_IsMainThread
 double
 endTime
 =
-GetBufferedEnd
+mContentManager
+-
+>
+GroupEndTimestamp
+(
+)
+.
+ToSeconds
 (
 )
 ;

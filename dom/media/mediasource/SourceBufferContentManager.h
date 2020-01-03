@@ -275,6 +275,14 @@ RestartGroupStartTimestamp
 )
 {
 }
+virtual
+TimeUnit
+GroupEndTimestamp
+(
+)
+=
+0
+;
 #
 if
 defined

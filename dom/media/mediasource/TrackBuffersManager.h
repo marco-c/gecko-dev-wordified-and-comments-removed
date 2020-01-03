@@ -301,6 +301,12 @@ RestartGroupStartTimestamp
 )
 override
 ;
+TimeUnit
+GroupEndTimestamp
+(
+)
+override
+;
 MediaInfo
 GetMetadata
 (
@@ -1145,6 +1151,9 @@ mVideoBufferedRanges
 ;
 TimeIntervals
 mAudioBufferedRanges
+;
+TimeUnit
+mOfficialGroupEndTimestamp
 ;
 MediaInfo
 mInfo
