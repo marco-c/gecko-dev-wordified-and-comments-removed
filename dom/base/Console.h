@@ -572,7 +572,7 @@ ConsoleCallData
 aData
 )
 ;
-void
+bool
 ProcessArguments
 (
 JSContext
@@ -695,7 +695,7 @@ DOMHighResTimeStamp
 aTimestamp
 )
 ;
-void
+bool
 ArgumentsToValueList
 (
 const
