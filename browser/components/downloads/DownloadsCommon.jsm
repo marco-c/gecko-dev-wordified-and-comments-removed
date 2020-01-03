@@ -1613,14 +1613,12 @@ shouldApplySmoothing
 )
 {
 let
-(
 diff
 =
 aSeconds
 -
 aLastSeconds
-)
-{
+;
 aSeconds
 =
 aLastSeconds
@@ -1639,8 +1637,6 @@ diff
 *
 diff
 ;
-}
-let
 diff
 =
 aSeconds
