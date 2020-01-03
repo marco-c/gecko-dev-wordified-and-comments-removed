@@ -16108,6 +16108,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIGlobalObject
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
+)
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 ContentFrameMessageManager
