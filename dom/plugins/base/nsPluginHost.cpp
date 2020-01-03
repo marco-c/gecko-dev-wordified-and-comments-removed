@@ -9568,6 +9568,9 @@ mPluginEpoch
 aEpoch
 ;
 }
+#
+ifdef
+XP_WIN
 static
 void
 WatchRegKey
@@ -9672,6 +9675,8 @@ true
 )
 ;
 }
+#
+endif
 nsresult
 nsPluginHost
 :
