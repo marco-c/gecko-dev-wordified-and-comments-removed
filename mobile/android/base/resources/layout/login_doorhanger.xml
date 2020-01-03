@@ -375,6 +375,15 @@ Medium
 "
 android
 :
+textColor
+=
+"
+color
+/
+link_blue
+"
+android
+:
 paddingBottom
 =
 "

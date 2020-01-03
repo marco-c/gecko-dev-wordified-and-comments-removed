@@ -155,11 +155,6 @@ GeckoDefaultDoorHanger
 "
 ;
 private
-final
-Resources
-mResources
-;
-private
 static
 int
 sSpinnerTextColor
@@ -196,12 +191,6 @@ config
 type
 )
 ;
-mResources
-=
-getResources
-(
-)
-;
 if
 (
 sSpinnerTextColor
@@ -213,9 +202,7 @@ sSpinnerTextColor
 {
 sSpinnerTextColor
 =
-getResources
-(
-)
+mResources
 .
 getColor
 (
