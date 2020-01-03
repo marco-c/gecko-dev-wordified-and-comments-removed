@@ -6471,6 +6471,14 @@ IsAnyOfMathMLElements
 nsGkAtoms
 :
 :
+annotation_
+nsGkAtoms
+:
+:
+annotation_xml_
+nsGkAtoms
+:
+:
 mpadded_
 nsGkAtoms
 :
@@ -6488,6 +6496,10 @@ nsGkAtoms
 :
 :
 mspace_
+nsGkAtoms
+:
+:
+semantics_
 )
 )
 {
