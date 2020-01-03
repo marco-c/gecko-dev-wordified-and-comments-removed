@@ -110,6 +110,9 @@ class
 ForkJoinNurseryCollectionTracer
 ;
 class
+RelocationOverlay
+;
+class
 ForkJoinNurseryCollectionTracer
 :
 public
