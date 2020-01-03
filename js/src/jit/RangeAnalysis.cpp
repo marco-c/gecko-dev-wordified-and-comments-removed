@@ -12868,9 +12868,9 @@ kind
 if
 (
 kind
->
 =
-IndirectTruncate
+=
+Truncate
 )
 setInfallible
 (
