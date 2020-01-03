@@ -6832,7 +6832,6 @@ logger
 TraceLogCreateTextId
 (
 logger
-TraceLogger_Scripts
 scr
 )
 )
