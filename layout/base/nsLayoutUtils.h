@@ -5096,6 +5096,15 @@ ContainerLayerParameters
 aContainerParameters
 )
 ;
+static
+nsMargin
+ScrollbarAreaToExcludeFromCompositionBoundsFor
+(
+nsIFrame
+*
+aScrollFrame
+)
+;
 private
 :
 static
