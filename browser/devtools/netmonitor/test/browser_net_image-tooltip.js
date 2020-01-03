@@ -58,7 +58,7 @@ all
 waitForNetworkEvents
 (
 aMonitor
-6
+7
 )
 waitFor
 (
