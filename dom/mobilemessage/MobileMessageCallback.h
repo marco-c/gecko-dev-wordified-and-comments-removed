@@ -25,6 +25,9 @@ DOMRequest
 .
 h
 "
+class
+Promise
+;
 namespace
 mozilla
 {
@@ -53,6 +56,14 @@ DOMRequest
 aDOMRequest
 )
 ;
+explicit
+MobileMessageCallback
+(
+Promise
+*
+aPromise
+)
+;
 private
 :
 ~
@@ -65,6 +76,12 @@ nsRefPtr
 DOMRequest
 >
 mDOMRequest
+;
+nsRefPtr
+<
+Promise
+>
+mPromise
 ;
 nsresult
 NotifySuccess
