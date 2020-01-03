@@ -6166,6 +6166,14 @@ GET_IT
 WANT_RESOLVE
 )
 bool
+WantConvert
+(
+)
+GET_IT
+(
+WANT_CONVERT
+)
+bool
 WantFinalize
 (
 )
