@@ -35,7 +35,7 @@ class
 nsITransport
 ;
 class
-nsISchedulingContext
+nsILoadGroupConnectionInfo
 ;
 namespace
 mozilla
@@ -361,9 +361,9 @@ nullptr
 ;
 }
 virtual
-nsISchedulingContext
+nsILoadGroupConnectionInfo
 *
-SchedulingContext
+LoadGroupConnectionInfo
 (
 )
 {

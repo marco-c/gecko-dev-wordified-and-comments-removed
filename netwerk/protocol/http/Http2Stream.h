@@ -265,9 +265,9 @@ mTransaction
 ;
 }
 virtual
-nsISchedulingContext
+nsILoadGroupConnectionInfo
 *
-SchedulingContext
+LoadGroupConnectionInfo
 (
 )
 {
@@ -277,7 +277,7 @@ mTransaction
 mTransaction
 -
 >
-SchedulingContext
+LoadGroupConnectionInfo
 (
 )
 :

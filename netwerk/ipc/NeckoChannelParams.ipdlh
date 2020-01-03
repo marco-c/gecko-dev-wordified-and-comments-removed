@@ -484,9 +484,6 @@ contentPolicyType
 uint32_t
 innerWindowID
 ;
-nsCString
-schedulingContextID
-;
 }
 ;
 struct

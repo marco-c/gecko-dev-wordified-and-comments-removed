@@ -528,11 +528,6 @@ nsIResumableChannel
 idl
 '
 '
-nsISchedulingContext
-.
-idl
-'
-'
 nsISecretDecoderRing
 .
 idl
@@ -1211,11 +1206,6 @@ cpp
 '
 '
 RedirectChannelRegistrar
-.
-cpp
-'
-'
-SchedulingContextService
 .
 cpp
 '

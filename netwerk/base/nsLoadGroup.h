@@ -77,7 +77,7 @@ TimeStamp
 h
 "
 class
-nsISchedulingContext
+nsILoadGroupConnectionInfo
 ;
 class
 nsITimedChannel
@@ -178,9 +178,9 @@ mCallbacks
 ;
 nsCOMPtr
 <
-nsISchedulingContext
+nsILoadGroupConnectionInfo
 >
-mSchedulingContext
+mConnectionInfo
 ;
 nsCOMPtr
 <
