@@ -5184,6 +5184,13 @@ CheckIfDecodeComplete
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )
@@ -6068,6 +6075,13 @@ State
 aState
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )
