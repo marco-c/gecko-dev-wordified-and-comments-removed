@@ -1547,6 +1547,15 @@ callee
 ;
 MDefinition
 *
+createThisScriptedBaseline
+(
+MDefinition
+*
+callee
+)
+;
+MDefinition
+*
 createThis
 (
 JSFunction

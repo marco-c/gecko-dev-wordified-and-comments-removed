@@ -568,6 +568,15 @@ Class
 clasp
 )
 ;
+JSFunction
+*
+getSingleCallee
+(
+jsbytecode
+*
+pc
+)
+;
 DeclEnvObject
 *
 templateDeclEnvObject

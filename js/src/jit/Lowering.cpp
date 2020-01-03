@@ -19742,6 +19742,15 @@ obj
 (
 )
 )
+useRegister
+(
+ins
+-
+>
+expected
+(
+)
+)
 )
 ;
 assignSnapshot
