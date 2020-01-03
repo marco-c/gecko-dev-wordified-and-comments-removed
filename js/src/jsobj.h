@@ -1882,9 +1882,6 @@ js
 :
 HandleObject
 obj
-bool
-*
-succeeded
 )
 ;
 private

@@ -385,9 +385,6 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
 )
 const
 MOZ_OVERRIDE
@@ -766,9 +763,6 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
 )
 const
 {
@@ -778,7 +772,6 @@ preventExtensions
 (
 cx
 proxy
-succeeded
 )
 )
 ;
@@ -794,9 +787,6 @@ JSContext
 cx
 HandleObject
 proxy
-bool
-*
-succeeded
 )
 {
 ObjectId
@@ -818,7 +808,6 @@ SendPreventExtensions
 objId
 &
 status
-succeeded
 )
 )
 return

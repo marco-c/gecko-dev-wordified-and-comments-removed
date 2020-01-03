@@ -2447,9 +2447,6 @@ JSObject
 *
 >
 wrapper
-bool
-*
-succeeded
 )
 const
 MOZ_OVERRIDE

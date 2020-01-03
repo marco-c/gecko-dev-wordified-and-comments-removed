@@ -7034,9 +7034,6 @@ JSContext
 cx
 HandleObject
 obj
-bool
-*
-succeeded
 )
 {
 if
@@ -7062,7 +7059,6 @@ preventExtensions
 (
 cx
 obj
-succeeded
 )
 ;
 if
@@ -7075,16 +7071,9 @@ nonProxyIsExtensible
 (
 )
 )
-{
-*
-succeeded
-=
-true
-;
 return
 true
 ;
-}
 AutoIdVector
 props
 (
@@ -7140,11 +7129,6 @@ NativeObject
 )
 return
 false
-;
-*
-succeeded
-=
-true
 ;
 return
 obj
