@@ -1929,6 +1929,14 @@ time
 )
 )
 ;
+Allow
+(
+SYSCALL
+(
+sched_yield
+)
+)
+;
 #
 if
 SYSCALL_EXISTS
