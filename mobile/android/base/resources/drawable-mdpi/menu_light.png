@@ -1,6 +1,6 @@
 PNG
 IHDR
-D
+I
 PLTE
 DIP
 9k
@@ -8,12 +8,13 @@ tRNS
 9L
 ?
 j
-IDATx
+IDAT
+[
 c
-z
-p
+#
+h
+?
+at
 !
-m
-_
 IEND
 B
