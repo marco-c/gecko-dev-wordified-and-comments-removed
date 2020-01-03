@@ -239,6 +239,15 @@ false
 )
 ;
 static
+void
+OnCompositionEventDiscarded
+(
+WidgetEvent
+*
+aEvent
+)
+;
+static
 already_AddRefed
 <
 TextComposition
