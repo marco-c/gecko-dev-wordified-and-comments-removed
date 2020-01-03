@@ -13,6 +13,12 @@ HEADER
 }
 _h
 #
+ifndef
+MOZ_HAVE_INCLUDED_ALLOC
+#
+define
+MOZ_HAVE_INCLUDED_ALLOC
+#
 if
 _HAS_EXCEPTIONS
 #
@@ -103,6 +109,8 @@ new
 (
 )
 "
+#
+endif
 #
 endif
 #
