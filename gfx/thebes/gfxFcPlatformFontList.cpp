@@ -5634,6 +5634,13 @@ get
 )
 )
 ;
+FcPatternAddBool
+(
+genericPattern
+FC_SCALABLE
+FcTrue
+)
+;
 if
 (
 !
