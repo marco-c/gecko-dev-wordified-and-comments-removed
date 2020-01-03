@@ -4170,6 +4170,11 @@ standalone
 >
 <
 UnsupportedDeviceView
+platform
+=
+"
+ios
+"
 /
 >
 <
