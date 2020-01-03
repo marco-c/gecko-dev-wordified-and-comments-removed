@@ -1111,15 +1111,6 @@ sizedFormat
 )
 {
 case
-LOCAL_GL_ALPHA8
-:
-case
-LOCAL_GL_LUMINANCE8
-:
-case
-LOCAL_GL_LUMINANCE8_ALPHA8
-:
-case
 LOCAL_GL_RGB8
 :
 case
