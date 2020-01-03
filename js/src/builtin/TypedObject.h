@@ -2335,7 +2335,7 @@ TypedObject
 HandleTypedObject
 ;
 class
-OwnedTypedObject
+OutlineTypedObject
 :
 public
 TypedObject
@@ -2407,7 +2407,7 @@ DATA_SLOT
 ;
 }
 static
-OwnedTypedObject
+OutlineTypedObject
 *
 createUnattachedWithClass
 (
@@ -2425,7 +2425,7 @@ length
 )
 ;
 static
-OwnedTypedObject
+OutlineTypedObject
 *
 createUnattached
 (
@@ -2439,7 +2439,7 @@ length
 )
 ;
 static
-OwnedTypedObject
+OutlineTypedObject
 *
 createDerived
 (
@@ -2510,7 +2510,7 @@ class
 TransparentTypedObject
 :
 public
-OwnedTypedObject
+OutlineTypedObject
 {
 public
 :
@@ -2522,10 +2522,10 @@ class_
 }
 ;
 class
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 public
-OwnedTypedObject
+OutlineTypedObject
 {
 public
 :
@@ -3212,7 +3212,7 @@ class_
 =
 =
 &
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_
@@ -3518,7 +3518,7 @@ is
 js
 :
 :
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -3549,7 +3549,7 @@ getClass
 js
 :
 :
-OwnedOpaqueTypedObject
+OutlineOpaqueTypedObject
 :
 :
 class_

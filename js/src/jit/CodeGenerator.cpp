@@ -25303,7 +25303,7 @@ temp
 )
 ;
 Label
-notOwned
+inlineObject
 ;
 masm
 .
@@ -25331,7 +25331,7 @@ InlineOpaqueTypedObject
 class_
 )
 &
-notOwned
+inlineObject
 )
 ;
 masm
@@ -25341,7 +25341,7 @@ extractObject
 Address
 (
 obj
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfOwnerSlot
@@ -25406,7 +25406,7 @@ masm
 bind
 (
 &
-notOwned
+inlineObject
 )
 ;
 return
@@ -25536,7 +25536,7 @@ output
 )
 ;
 Label
-notOwned
+inlineObject
 done
 ;
 masm
@@ -25565,7 +25565,7 @@ InlineOpaqueTypedObject
 class_
 )
 &
-notOwned
+inlineObject
 )
 ;
 masm
@@ -25575,7 +25575,7 @@ loadPtr
 Address
 (
 obj
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfDataSlot
@@ -25598,7 +25598,7 @@ masm
 bind
 (
 &
-notOwned
+inlineObject
 )
 ;
 masm
@@ -25687,7 +25687,7 @@ unboxInt32
 Address
 (
 object
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfByteOffsetSlot
@@ -25713,7 +25713,7 @@ temp0
 Address
 (
 object
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfDataSlot
@@ -25731,7 +25731,7 @@ offset
 Address
 (
 object
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 offsetOfByteOffsetSlot

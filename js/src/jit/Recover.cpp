@@ -5398,7 +5398,7 @@ JSObject
 *
 obj
 =
-OwnedTypedObject
+OutlineTypedObject
 :
 :
 createDerived

@@ -276,7 +276,7 @@ typedObj
 .
 is
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
@@ -292,7 +292,7 @@ typedObj
 .
 as
 <
-OwnedTypedObject
+OutlineTypedObject
 >
 (
 )
