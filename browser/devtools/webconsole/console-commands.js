@@ -83,6 +83,9 @@ lookup
 splitconsoleTooltip
 "
 )
+isRemoteSafe
+:
+true
 state
 :
 {
