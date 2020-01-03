@@ -118,6 +118,17 @@ aAudioEnabled
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvSetRDSGroupMask
+(
+const
+uint32_t
+&
+aRDSGroupMask
+)
+MOZ_OVERRIDE
+;
 }
 ;
 END_FMRADIO_NAMESPACE
