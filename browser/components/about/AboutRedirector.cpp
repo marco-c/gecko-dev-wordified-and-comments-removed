@@ -840,6 +840,11 @@ URI_MUST_LOAD_IN_CHILD
 nsIAboutModule
 :
 :
+MAKE_UNLINKABLE
+|
+nsIAboutModule
+:
+:
 HIDE_FROM_ABOUTABOUT
 }
 }
