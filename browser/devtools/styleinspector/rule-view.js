@@ -349,7 +349,7 @@ FILTER_CHANGED_TIMEOUT
 150
 ;
 const
-CSS_PROP_RE
+FILTER_PROP_RE
 =
 /
 \
@@ -379,15 +379,6 @@ s
 \
 s
 *
-(
-?
-:
-!
-(
-important
-)
-)
-?
 ;
 ?
 /
@@ -9185,7 +9176,7 @@ true
 let
 propertyMatch
 =
-CSS_PROP_RE
+FILTER_PROP_RE
 .
 exec
 (
