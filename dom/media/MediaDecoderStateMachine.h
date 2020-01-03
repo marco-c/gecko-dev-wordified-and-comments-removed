@@ -1487,7 +1487,7 @@ MediaDecoder
 mDecoder
 ;
 const
-nsAutoPtr
+nsRefPtr
 <
 MediaDecoderStateMachineScheduler
 >
