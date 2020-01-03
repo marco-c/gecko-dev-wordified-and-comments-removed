@@ -527,7 +527,6 @@ hidden
 {
 d
 }
-)
 =
 yield
 getHighlighterRegionPath
@@ -538,6 +537,7 @@ border
 toolbox
 .
 highlighter
+)
 )
 ;
 ok
@@ -556,7 +556,6 @@ hidden
 {
 d
 }
-)
 =
 yield
 getHighlighterRegionPath
@@ -567,6 +566,7 @@ padding
 toolbox
 .
 highlighter
+)
 )
 ;
 ok
@@ -585,7 +585,6 @@ hidden
 {
 d
 }
-)
 =
 yield
 getHighlighterRegionPath
@@ -596,6 +595,7 @@ content
 toolbox
 .
 highlighter
+)
 )
 ;
 ok
@@ -673,7 +673,6 @@ shown
 {
 d
 }
-)
 =
 yield
 getHighlighterRegionPath
@@ -684,6 +683,7 @@ border
 toolbox
 .
 highlighter
+)
 )
 ;
 ok
@@ -702,7 +702,6 @@ hidden
 {
 d
 }
-)
 =
 yield
 getHighlighterRegionPath
@@ -713,6 +712,7 @@ padding
 toolbox
 .
 highlighter
+)
 )
 ;
 ok
@@ -731,7 +731,6 @@ hidden
 {
 d
 }
-)
 =
 yield
 getHighlighterRegionPath
@@ -742,6 +741,7 @@ content
 toolbox
 .
 highlighter
+)
 )
 ;
 ok

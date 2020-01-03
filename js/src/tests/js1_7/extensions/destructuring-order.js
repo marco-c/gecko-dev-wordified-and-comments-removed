@@ -98,10 +98,10 @@ b
 :
 b
 }
-)
 =
 exceptObj
 (
+)
 )
 ;
 throw
@@ -544,10 +544,10 @@ k
 :
 k
 }
-)
 =
 objWithGetters
 (
+)
 )
 ;
 }

@@ -153,10 +153,10 @@ transport
 :
 gMainTransport
 }
-)
 =
 newConnection
 (
+)
 )
 ;
 gClient

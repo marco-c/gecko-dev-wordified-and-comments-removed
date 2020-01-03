@@ -64,10 +64,11 @@ x
 :
 a
 }
-)
 =
 {
 }
+)
+;
 reportCompare
 (
 expect

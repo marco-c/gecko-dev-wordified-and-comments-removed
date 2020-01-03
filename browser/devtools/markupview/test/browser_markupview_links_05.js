@@ -259,7 +259,6 @@ ref
 {
 editor
 }
-)
 =
 yield
 getContainerForSelector
@@ -268,6 +267,7 @@ getContainerForSelector
 label
 "
 inspector
+)
 )
 ;
 popupNode
@@ -420,7 +420,6 @@ ref
 {
 editor
 }
-)
 =
 yield
 getContainerForSelector
@@ -429,6 +428,7 @@ getContainerForSelector
 output
 "
 inspector
+)
 )
 ;
 popupNode

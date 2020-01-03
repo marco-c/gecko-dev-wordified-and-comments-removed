@@ -3800,7 +3800,6 @@ undefined
 label
 preLabel
 }
-)
 =
 this
 .
@@ -3814,6 +3813,7 @@ popup
 .
 selectedIndex
 )
+)
 ;
 }
 else
@@ -3823,7 +3823,6 @@ else
 label
 preLabel
 }
-)
 =
 this
 .
@@ -3834,6 +3833,7 @@ getItemAtIndex
 this
 .
 _selectedIndex
+)
 )
 ;
 }

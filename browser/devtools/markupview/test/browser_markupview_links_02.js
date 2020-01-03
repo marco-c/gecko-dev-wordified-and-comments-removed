@@ -263,7 +263,6 @@ attribute
 {
 editor
 }
-)
 =
 yield
 getContainerForSelector
@@ -272,6 +271,7 @@ getContainerForSelector
 body
 "
 inspector
+)
 )
 ;
 linkEls

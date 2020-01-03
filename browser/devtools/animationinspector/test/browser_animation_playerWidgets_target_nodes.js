@@ -206,11 +206,11 @@ UI
 inspector
 panel
 }
-)
 =
 yield
 closeAnimationInspectorAndRestartWithNewUI
 (
+)
 )
 ;
 info

@@ -159,11 +159,11 @@ inspector
 panel
 controller
 }
-)
 =
 yield
 closeAnimationInspectorAndRestartWithNewUI
 (
+)
 )
 ;
 let
