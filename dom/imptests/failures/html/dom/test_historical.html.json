@@ -118,15 +118,4 @@ internalSubset
 "
 :
 true
-"
-Node
-member
-must
-be
-nuked
-:
-hasAttributes
-"
-:
-true
 }
