@@ -1,6 +1,5 @@
 let
 gTab
-gDebuggee
 gPanel
 gClient
 gThreadClient
@@ -36,7 +35,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -46,10 +44,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -265,8 +259,6 @@ function
 )
 {
 gTab
-=
-gDebuggee
 =
 gPanel
 =
