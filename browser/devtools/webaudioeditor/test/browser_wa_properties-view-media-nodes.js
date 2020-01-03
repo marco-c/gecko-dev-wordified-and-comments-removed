@@ -207,7 +207,7 @@ let
 {
 gFront
 EVENTS
-InspectorView
+PropertiesView
 }
 =
 panelWin
@@ -215,7 +215,7 @@ panelWin
 let
 gVars
 =
-InspectorView
+PropertiesView
 .
 _propsView
 ;
@@ -341,12 +341,10 @@ i
 )
 ;
 yield
-once
+waitForInspectorRender
 (
 panelWin
 EVENTS
-.
-UI_INSPECTOR_NODE_SET
 )
 ;
 checkVariableView
