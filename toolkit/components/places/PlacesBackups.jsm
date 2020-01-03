@@ -260,10 +260,7 @@ filenamesRegex
 )
 =
 >
-new
-RegExp
-(
-"
+/
 ^
 bookmarks
 -
@@ -272,7 +269,6 @@ bookmarks
 0
 -
 9
-\
 -
 ]
 +
@@ -306,9 +302,7 @@ z0
 -
 9
 =
-\
 +
-\
 -
 ]
 {
@@ -329,11 +323,8 @@ lz4
 )
 ?
 )
-"
-"
+/
 i
-"
-)
 )
 ;
 function
@@ -1443,10 +1434,7 @@ i
 let
 rx
 =
-new
-RegExp
-(
-"
+/
 \
 .
 json
@@ -1454,8 +1442,7 @@ json
 lz4
 )
 ?
-"
-)
+/
 ;
 if
 (
@@ -1524,10 +1511,7 @@ entries
 let
 rx
 =
-new
-RegExp
-(
-"
+/
 \
 .
 json
@@ -1535,8 +1519,7 @@ json
 lz4
 )
 ?
-"
-)
+/
 ;
 if
 (
