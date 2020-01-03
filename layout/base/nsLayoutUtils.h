@@ -2647,6 +2647,12 @@ unit
 eStyleUnit_None
 |
 |
+unit
+=
+=
+eStyleUnit_Enumerated
+|
+|
 (
 aCBBSize
 =
