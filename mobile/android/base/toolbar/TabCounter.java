@@ -265,7 +265,7 @@ R
 .
 styleable
 .
-TabCounter_layout
+TabCounter_android_layout
 R
 .
 layout
