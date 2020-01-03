@@ -149,7 +149,7 @@ apply
 *
 /
 dictionary
-CSSFontFaceLoadEventInit
+FontFaceSetLoadEventInit
 :
 EventInit
 {
@@ -170,7 +170,7 @@ Constructor
 DOMString
 type
 optional
-CSSFontFaceLoadEventInit
+FontFaceSetLoadEventInit
 eventInitDict
 )
 Pref
@@ -190,7 +190,7 @@ enabled
 "
 ]
 interface
-CSSFontFaceLoadEvent
+FontFaceSetLoadEvent
 :
 Event
 {

@@ -3711,11 +3711,6 @@ CloseEvent
 webidl
 '
 '
-CSSFontFaceLoadEvent
-.
-webidl
-'
-'
 DataErrorEvent
 .
 webidl
@@ -3767,6 +3762,11 @@ webidl
 '
 '
 ExternalAppEvent
+.
+webidl
+'
+'
+FontFaceSetLoadEvent
 .
 webidl
 '
