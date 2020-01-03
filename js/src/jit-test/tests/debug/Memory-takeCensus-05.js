@@ -17,7 +17,7 @@ g
 assertEq
 (
 "
-Int8Array
+AllocationMarker
 "
 in
 dbg
@@ -37,8 +37,8 @@ shouldn
 t
 exist
 any
-typed
-arrays
+allocation
+markers
 in
 the
 census
@@ -52,14 +52,8 @@ ccw
 =
 g
 .
-eval
+allocationMarker
 (
-"
-new
-Int8Array
-(
-)
-"
 )
 ;
 assertEq
@@ -74,7 +68,7 @@ takeCensus
 .
 objects
 .
-Int8Array
+AllocationMarker
 .
 count
 1
@@ -82,8 +76,8 @@ count
 Should
 have
 one
-typed
-array
+allocation
+marker
 in
 the
 census
@@ -98,6 +92,9 @@ cross
 -
 compartment
 wrapper
+referring
+to
+it
 .
 "
 )
