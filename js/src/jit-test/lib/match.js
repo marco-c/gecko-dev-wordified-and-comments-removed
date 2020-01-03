@@ -11,9 +11,11 @@ tests
 /
 js1_8_5
 /
-extensions
+reflect
+-
+parse
 /
-shell
+Match
 .
 js
 "
