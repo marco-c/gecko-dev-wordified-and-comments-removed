@@ -15867,6 +15867,13 @@ ScheduleStateMachine
 (
 )
 {
+MOZ_ASSERT
+(
+OnTaskQueue
+(
+)
+)
+;
 AssertCurrentThreadInMonitor
 (
 )

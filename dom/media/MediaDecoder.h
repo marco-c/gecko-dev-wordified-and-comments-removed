@@ -1733,7 +1733,7 @@ IsAppleMP3Enabled
 #
 endif
 nsresult
-ScheduleStateMachineThread
+ScheduleStateMachine
 (
 )
 ;
