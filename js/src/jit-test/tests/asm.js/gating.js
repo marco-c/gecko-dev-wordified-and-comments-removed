@@ -1,3 +1,15 @@
+if
+(
+!
+isAsmJSCompilationAvailable
+(
+)
+)
+quit
+(
+0
+)
+;
 function
 module_a
 (
