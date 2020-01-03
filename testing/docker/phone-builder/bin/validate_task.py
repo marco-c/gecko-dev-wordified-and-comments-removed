@@ -365,12 +365,8 @@ ret
 0
 :
             
-sys
-.
-exit
-(
+return
 ret
-)
     
 if
 len
@@ -386,6 +382,7 @@ argv
 try
 :
             
+return
 subprocess
 .
 call
@@ -410,14 +407,13 @@ as
 e
 :
             
-sys
-.
-exit
-(
+return
 e
 .
 returncode
-)
+    
+return
+0
 if
 __name__
 =
@@ -427,6 +423,11 @@ __main__
 '
 :
     
+sys
+.
+exit
+(
 main
 (
+)
 )
