@@ -302,6 +302,17 @@ i
 1
 )
 ;
+mSolo
+.
+waitForView
+(
+R
+.
+id
+.
+suggestion_text
+)
+;
 boolean
 success
 =
