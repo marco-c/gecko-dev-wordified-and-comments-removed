@@ -118,6 +118,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+RobocopTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils
@@ -155,6 +166,7 @@ final
 class
 HomeConfig
 {
+RobocopTarget
 public
 static
 enum
