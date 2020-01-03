@@ -13793,10 +13793,8 @@ os
 =
 WINNT
 osversion
-=
-5
-.
-2
+<
+6
 %
 override
 chrome
@@ -13905,10 +13903,8 @@ os
 =
 WINNT
 osversion
-=
-5
-.
-2
+<
+6
 %
 override
 chrome
@@ -14017,7 +14013,5 @@ os
 =
 WINNT
 osversion
-=
-5
-.
-2
+<
+6
