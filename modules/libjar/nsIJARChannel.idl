@@ -220,6 +220,15 @@ the
 JAR
 file
 .
+May
+be
+null
+if
+the
+jar
+is
+remote
+.
 *
 /
 readonly
