@@ -18663,6 +18663,14 @@ null
 )
 ;
 }
+handler
+.
+setEndPosition
+(
+pn
+pn2
+)
+;
 }
 while
 (
