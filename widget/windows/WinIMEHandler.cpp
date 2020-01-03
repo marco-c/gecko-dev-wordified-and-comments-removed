@@ -1081,7 +1081,7 @@ mNativeIMEContext
 nsTextStore
 :
 :
-GetTextStore
+GetThreadManager
 (
 )
 ;
@@ -1333,7 +1333,7 @@ mNativeIMEContext
 nsTextStore
 :
 :
-GetTextStore
+GetThreadManager
 (
 )
 ;
