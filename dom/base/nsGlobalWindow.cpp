@@ -4274,6 +4274,9 @@ true
 }
 if
 (
+false
+&
+&
 desc
 .
 isPermanent
