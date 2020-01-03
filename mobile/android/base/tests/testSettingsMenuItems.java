@@ -1005,6 +1005,15 @@ add
 textReflowUi
 )
 ;
+if
+(
+HardwareUtils
+.
+isTablet
+(
+)
+)
+{
 String
 [
 ]
@@ -1028,6 +1037,7 @@ add
 newTabletUi
 )
 ;
+}
 if
 (
 NewTabletUI
