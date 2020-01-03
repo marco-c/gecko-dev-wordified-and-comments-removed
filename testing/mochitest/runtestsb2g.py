@@ -1165,6 +1165,24 @@ browserEnv
             
 self
 .
+killNamedOrphans
+(
+'
+ssltunnel
+'
+)
+            
+self
+.
+killNamedOrphans
+(
+'
+xpcshell
+'
+)
+            
+self
+.
 startServers
 (
 options
