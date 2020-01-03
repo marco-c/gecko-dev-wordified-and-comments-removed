@@ -449,6 +449,9 @@ GL_EXT_robustness
 GL_EXT_sRGB
 "
 "
+GL_EXT_sRGB_write_control
+"
+"
 GL_EXT_shader_texture_lod
 "
 "
