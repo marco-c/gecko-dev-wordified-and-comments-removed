@@ -123,6 +123,11 @@ WebMDecoder
 h
 '
 '
+WebMDemuxer
+.
+h
+'
+'
 WebMReader
 .
 h
@@ -149,6 +154,11 @@ cpp
 '
 '
 WebMDecoder
+.
+cpp
+'
+'
+WebMDemuxer
 .
 cpp
 '
