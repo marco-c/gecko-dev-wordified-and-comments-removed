@@ -16812,6 +16812,15 @@ aPlaybackRate
 if
 (
 mPlaybackRate
+!
+=
+0
+.
+0
+&
+&
+(
+mPlaybackRate
 <
 0
 |
@@ -16824,6 +16833,7 @@ THRESHOLD_HIGH_PLAYBACKRATE_AUDIO
 mPlaybackRate
 <
 THRESHOLD_LOW_PLAYBACKRATE_AUDIO
+)
 )
 {
 SetMutedInternal
