@@ -58,6 +58,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
 public
 :
+explicit
 OfflineObserver
 (
 DisconnectableParent

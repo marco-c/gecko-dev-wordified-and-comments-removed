@@ -3820,6 +3820,7 @@ const
 JSClass
 sGlobalClass
 ;
+explicit
 JSRuntimeWrapper
 (
 JSRuntime
