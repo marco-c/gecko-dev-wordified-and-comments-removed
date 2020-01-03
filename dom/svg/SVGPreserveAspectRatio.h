@@ -64,10 +64,8 @@ mozilla
 {
 enum
 SVGAlign
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 SVG_PRESERVEASPECTRATIO_UNKNOWN
 =
@@ -118,10 +116,8 @@ SVG_PRESERVEASPECTRATIO_XMAXYMAX
 ;
 enum
 SVGMeetOrSlice
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 SVG_MEETORSLICE_UNKNOWN
 =

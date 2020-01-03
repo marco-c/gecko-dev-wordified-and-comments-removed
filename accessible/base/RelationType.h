@@ -19,10 +19,10 @@ mozilla
 namespace
 a11y
 {
-MOZ_BEGIN_ENUM_CLASS
-(
+enum
+class
 RelationType
-)
+{
 LABELLED_BY
 =
 0x00
@@ -89,10 +89,8 @@ CONTAINING_APPLICATION
 LAST
 =
 CONTAINING_APPLICATION
-MOZ_END_ENUM_CLASS
-(
-RelationType
-)
+}
+;
 }
 }
 #

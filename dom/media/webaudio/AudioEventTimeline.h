@@ -77,10 +77,8 @@ AudioTimelineEvent
 {
 enum
 Type
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 SetValue
 LinearRamp

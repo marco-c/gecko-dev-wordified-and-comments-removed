@@ -1326,10 +1326,8 @@ res
 }
 ;
 enum
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 TYPE_FLAG_UNDEFINED
 =
@@ -1416,10 +1414,8 @@ uint32_t
 TypeFlags
 ;
 enum
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 OBJECT_FLAG_FROM_ALLOCATION_SITE
 =

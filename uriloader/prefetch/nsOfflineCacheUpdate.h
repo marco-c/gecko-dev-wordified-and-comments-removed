@@ -315,10 +315,8 @@ private
 :
 enum
 LoadStatus
-MOZ_ENUM_TYPE
-(
+:
 uint16_t
-)
 {
 UNINITIALIZED
 =

@@ -502,10 +502,8 @@ mEventType
 ;
 enum
 ListenerType
-MOZ_ENUM_TYPE
-(
+:
 uint8_t
-)
 {
 eNativeListener
 =

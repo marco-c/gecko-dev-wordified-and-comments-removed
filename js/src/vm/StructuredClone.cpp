@@ -153,10 +153,8 @@ CanonicalizeNaN
 ;
 enum
 StructuredDataType
-MOZ_ENUM_TYPE
-(
+:
 uint32_t
-)
 {
 SCTAG_FLOAT_MAX
 =
