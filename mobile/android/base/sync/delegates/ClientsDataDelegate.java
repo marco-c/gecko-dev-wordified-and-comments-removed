@@ -64,6 +64,12 @@ guid
 )
 ;
 public
+String
+getFormFactor
+(
+)
+;
+public
 long
 getLastModifiedTimestamp
 (

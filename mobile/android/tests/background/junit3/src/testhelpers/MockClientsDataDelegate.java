@@ -221,4 +221,17 @@ return
 clientDataTimestamp
 ;
 }
+Override
+public
+String
+getFormFactor
+(
+)
+{
+return
+"
+phone
+"
+;
+}
 }
