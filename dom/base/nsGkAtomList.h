@@ -2472,6 +2472,13 @@ message
 )
 GK_ATOM
 (
+extapp
+"
+extapp
+"
+)
+GK_ATOM
+(
 extends
 "
 extends
