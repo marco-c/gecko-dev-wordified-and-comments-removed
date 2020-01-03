@@ -103,6 +103,11 @@ Helpers
 cpp
 '
 '
+TestCloneInputStream
+.
+cpp
+'
+'
 TestCRT
 .
 cpp
