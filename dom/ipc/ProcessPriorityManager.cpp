@@ -943,14 +943,6 @@ nsISupports
 aSubject
 )
 ;
-void
-OnChannelConnected
-(
-nsISupports
-*
-aSubject
-)
-;
 ProcessPriority
 CurrentPriority
 (
