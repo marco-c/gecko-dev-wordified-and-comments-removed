@@ -3623,6 +3623,7 @@ mType
 ;
 nsIPresShell
 *
+MOZ_NON_OWNING_REF
 mShell
 ;
 nsCOMPtr
