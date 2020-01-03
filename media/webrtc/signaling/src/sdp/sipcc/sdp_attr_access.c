@@ -6157,11 +6157,6 @@ SDP_INVALID_PARAMETER
 )
 ;
 }
-return
-(
-SDP_FAILURE
-)
-;
 }
 tinybool
 sdp_attr_is_present
@@ -6375,11 +6370,6 @@ SDP_INVALID_PARAMETER
 )
 ;
 }
-return
-(
-SDP_FAILURE
-)
-;
 }
 sdp_result_e
 sdp_attr_get_setup_attribute
@@ -6725,11 +6715,6 @@ SDP_INVALID_PARAMETER
 )
 ;
 }
-return
-(
-SDP_FAILURE
-)
-;
 }
 tinybool
 sdp_attr_sprtmap_payload_valid

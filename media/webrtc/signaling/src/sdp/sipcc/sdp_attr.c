@@ -31673,8 +31673,6 @@ debug_str
 return
 SDP_INVALID_PARAMETER
 ;
-break
-;
 default
 :
 CSFLogError
@@ -31707,8 +31705,6 @@ setup
 ;
 return
 SDP_FAILURE
-;
-break
 ;
 }
 return
@@ -31950,8 +31946,6 @@ debug_str
 return
 SDP_INVALID_PARAMETER
 ;
-break
-;
 default
 :
 CSFLogError
@@ -31984,8 +31978,6 @@ connection
 ;
 return
 SDP_FAILURE
-;
-break
 ;
 }
 return
