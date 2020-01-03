@@ -649,13 +649,6 @@ load
 4
 .
 html
-asserts
--
-if
-(
-gtk2Widget
-1
-)
 load
 798853
 .
