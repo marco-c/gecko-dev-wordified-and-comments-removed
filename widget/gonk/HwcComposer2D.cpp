@@ -854,6 +854,8 @@ return
 false
 ;
 }
+return
+!
 device
 -
 >
@@ -864,8 +866,8 @@ HWC_DISPLAY_PRIMARY
 HWC_EVENT_VSYNC
 aEnable
 )
-;
-return
+&
+&
 aEnable
 ;
 #
