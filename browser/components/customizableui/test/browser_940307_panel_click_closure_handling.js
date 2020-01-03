@@ -703,6 +703,12 @@ enabled
 suggestEnabled
 )
 ;
+CustomizableUI
+.
+reset
+(
+)
+;
 }
 )
 ;
