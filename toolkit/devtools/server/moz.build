@@ -516,6 +516,15 @@ id
 .
 js
 '
+'
+actors
+/
+utils
+/
+ScriptStore
+.
+js
+'
 ]
 FAIL_ON_WARNINGS
 =
