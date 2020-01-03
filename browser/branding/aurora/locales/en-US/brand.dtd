@@ -64,7 +64,7 @@ MPL
 ENTITY
 brandShortName
 "
-Aurora
+FirefoxDevEdition
 "
 >
 <
@@ -72,7 +72,9 @@ Aurora
 ENTITY
 brandFullName
 "
-Aurora
+Firefox
+Developer
+Edition
 "
 >
 <

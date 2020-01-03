@@ -55,4 +55,9 @@ MPL
 .
 MOZ_APP_DISPLAYNAME
 =
-Aurora
+FirefoxDevEdition
+MOZ_APP_REMOTINGNAME
+=
+firefox
+-
+dev

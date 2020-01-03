@@ -122,7 +122,9 @@ modified
 define
 BrandFullNameInternal
 "
-Aurora
+Firefox
+Developer
+Edition
 "
 !
 define
