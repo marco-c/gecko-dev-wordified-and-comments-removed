@@ -307,7 +307,14 @@ nsString
 aUserAgent
 )
 const
+{
+aUserAgent
+=
+mProperties
+.
+mUserAgent
 ;
+}
 bool
 OnLine
 (
