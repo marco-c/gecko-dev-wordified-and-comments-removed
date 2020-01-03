@@ -104,13 +104,13 @@ catch
 e
 )
 {
-}
-}
-foopy
+gc
 (
 )
 ;
-gc
+}
+}
+foopy
 (
 )
 ;
