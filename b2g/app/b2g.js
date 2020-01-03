@@ -4736,9 +4736,6 @@ log
 true
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
 pref
 (
 "
@@ -4763,8 +4760,6 @@ prompt
 "
 )
 ;
-#
-endif
 #
 else
 pref
@@ -4990,6 +4985,18 @@ dom
 forms
 .
 color
+"
+false
+)
+;
+pref
+(
+"
+gfx
+.
+gralloc
+.
+enabled
 "
 false
 )
