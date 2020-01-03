@@ -584,6 +584,17 @@ mozilla
 .
 gecko
 .
+restrictions
+.
+Restriction
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 Utils
@@ -17122,8 +17133,6 @@ RestrictedProfiles
 isAllowed
 (
 this
-RestrictedProfiles
-.
 Restriction
 .
 DISALLOW_SHARE
@@ -17172,8 +17181,6 @@ RestrictedProfiles
 isAllowed
 (
 this
-RestrictedProfiles
-.
 Restriction
 .
 DISALLOW_INSTALL_EXTENSION
@@ -17195,8 +17202,6 @@ RestrictedProfiles
 isAllowed
 (
 this
-RestrictedProfiles
-.
 Restriction
 .
 DISALLOW_DOWNLOADS
@@ -17604,8 +17609,6 @@ RestrictedProfiles
 isAllowed
 (
 this
-RestrictedProfiles
-.
 Restriction
 .
 DISALLOW_TOOLS_MENU

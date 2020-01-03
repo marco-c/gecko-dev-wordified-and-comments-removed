@@ -3243,6 +3243,8 @@ mozilla
 .
 gecko
 .
+restrictions
+.
 RestrictionProvider
 "
 >

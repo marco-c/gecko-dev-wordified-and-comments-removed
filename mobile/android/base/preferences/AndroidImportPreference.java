@@ -54,7 +54,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfiles
+restrictions
 .
 Restriction
 ;
