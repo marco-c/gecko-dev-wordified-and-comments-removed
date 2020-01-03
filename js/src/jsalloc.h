@@ -359,7 +359,7 @@ T
 (
 onOutOfMemory
 (
-p2
+prior
 newSize
 *
 sizeof
