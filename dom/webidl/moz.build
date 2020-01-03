@@ -1830,6 +1830,11 @@ RTCIdentityAssertion
 webidl
 '
 '
+RTCIdentityProvider
+.
+webidl
+'
+'
 RTCPeerConnection
 .
 webidl
