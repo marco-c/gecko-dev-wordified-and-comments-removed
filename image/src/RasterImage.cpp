@@ -1120,7 +1120,7 @@ mHasSize
 (
 false
 )
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 (
 false
 )
@@ -1276,7 +1276,7 @@ INIT_FLAG_DISCARDABLE
 (
 aFlags
 &
-INIT_FLAG_DECODE_ON_DRAW
+INIT_FLAG_DECODE_ONLY_ON_DRAW
 )
 &
 &
@@ -1314,14 +1314,14 @@ aFlags
 INIT_FLAG_DISCARDABLE
 )
 ;
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 =
 !
 !
 (
 aFlags
 &
-INIT_FLAG_DECODE_ON_DRAW
+INIT_FLAG_DECODE_ONLY_ON_DRAW
 )
 ;
 mTransient
@@ -4485,7 +4485,7 @@ finalStatus
 ;
 if
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 )
 {
 loadProgress
@@ -4515,7 +4515,7 @@ void
 RasterImage
 :
 :
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 (
 )
 {
@@ -4540,7 +4540,7 @@ this
 RasterImage
 :
 :
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 )
 ;
 NS_DispatchToMainThread
@@ -4585,7 +4585,7 @@ if
 (
 MOZ_UNLIKELY
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 &
 &
 aOffset
@@ -4595,7 +4595,7 @@ aOffset
 )
 )
 {
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 (
 )
 ;
@@ -5559,7 +5559,7 @@ RequestDecode
 {
 if
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 )
 {
 return
@@ -5584,7 +5584,7 @@ StartDecoding
 {
 if
 (
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 )
 {
 return

@@ -482,7 +482,7 @@ aLastPart
 override
 ;
 void
-NotifyForDecodeOnDrawOnly
+NotifyForDecodeOnlyOnDraw
 (
 )
 ;
@@ -849,7 +849,7 @@ mHasSize
 1
 ;
 bool
-mDecodeOnDraw
+mDecodeOnlyOnDraw
 :
 1
 ;

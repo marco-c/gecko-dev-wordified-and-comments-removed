@@ -182,12 +182,12 @@ ImageMemDiscardable
 )
 ;
 bool
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 gfxPrefs
 :
 :
-ImageMemDecodeOnDraw
+ImageDecodeOnlyOnDrawEnabled
 (
 )
 &
@@ -241,7 +241,7 @@ isChrome
 {
 isDiscardable
 =
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 false
 ;
@@ -278,7 +278,7 @@ isResource
 {
 isDiscardable
 =
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 false
 ;
@@ -289,7 +289,7 @@ if
 doDownscaleDuringDecode
 |
 |
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 )
 &
 &
@@ -304,7 +304,7 @@ doDownscaleDuringDecode
 =
 false
 ;
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 false
 ;
@@ -316,7 +316,7 @@ isMultiPart
 {
 isDiscardable
 =
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 =
 doDownscaleDuringDecode
 =
@@ -347,7 +347,7 @@ INIT_FLAG_DISCARDABLE
 }
 if
 (
-doDecodeOnDraw
+doDecodeOnlyOnDraw
 )
 {
 imageFlags
@@ -356,7 +356,7 @@ imageFlags
 Image
 :
 :
-INIT_FLAG_DECODE_ON_DRAW
+INIT_FLAG_DECODE_ONLY_ON_DRAW
 ;
 }
 if
