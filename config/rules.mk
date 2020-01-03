@@ -149,14 +149,6 @@ _eval_for_side_effects
 CHECK_MOZBUILD_VARIABLES
 )
 ifndef
-MOZILLA_DIR
-MOZILLA_DIR
-=
-(
-topsrcdir
-)
-endif
-ifndef
 INCLUDED_CONFIG_MK
 include
 (
