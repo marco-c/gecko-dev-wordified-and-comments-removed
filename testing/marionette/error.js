@@ -457,6 +457,15 @@ msg
 ;
 this
 .
+status
+=
+"
+webdriver
+error
+"
+;
+this
+.
 code
 =
 500
