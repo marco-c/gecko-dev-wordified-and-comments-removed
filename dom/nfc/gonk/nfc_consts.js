@@ -161,6 +161,12 @@ RF_EVENT_STATE_CHANGED
 ;
 this
 .
+FOCUS_CHANGED
+=
+0x07
+;
+this
+.
 SYSTEM_APP_ID
 =
 -
