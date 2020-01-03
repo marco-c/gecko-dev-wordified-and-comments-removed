@@ -170,6 +170,9 @@ uint8_t
 >
 mUserData
 ;
+bool
+mUseAdts
+;
 MediaDataDecoderCallback
 *
 mReaderCallback
