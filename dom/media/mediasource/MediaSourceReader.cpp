@@ -4095,10 +4095,6 @@ mWaitingForSeekData
 false
 ;
 }
-ResetDecode
-(
-)
-;
 mLastAudioTime
 =
 mPendingSeekTime
