@@ -2570,22 +2570,6 @@ obj2
 GetFlags
 (
 )
-|
-|
-obj1
--
->
-GetInterfacesBitmap
-(
-)
-!
-=
-obj2
--
->
-GetInterfacesBitmap
-(
-)
 )
 return
 false
@@ -2764,8 +2748,6 @@ flags
 char
 *
 name
-uint32_t
-interfacesBitmap
 XPCNativeScriptableInfo
 *
 si
@@ -2794,7 +2776,6 @@ key
 (
 flags
 name
-interfacesBitmap
 )
 ;
 Entry
@@ -2852,7 +2833,6 @@ key
 TransferNameOwnership
 (
 )
-interfacesBitmap
 )
 ;
 if

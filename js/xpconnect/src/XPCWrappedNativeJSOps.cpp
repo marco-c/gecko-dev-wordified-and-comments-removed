@@ -3101,7 +3101,6 @@ XPC_WN_JSOp_Enumerate
 XPC_WN_JSOp_ThisObject
 }
 }
-0
 }
 ;
 static
@@ -4805,12 +4804,6 @@ GetFlags
 (
 )
 name
-sci
--
->
-GetInterfacesBitmap
-(
-)
 newObj
 )
 ;
