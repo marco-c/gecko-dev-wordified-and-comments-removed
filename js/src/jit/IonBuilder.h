@@ -4700,9 +4700,6 @@ foundProto
 Shape
 *
 lastProperty
-JSFunction
-*
-getterOrSetter
 MDefinition
 *
 *
