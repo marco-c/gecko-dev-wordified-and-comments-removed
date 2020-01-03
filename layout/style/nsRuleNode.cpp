@@ -45103,11 +45103,11 @@ sizingBox
 =
 NS_STYLE_CLIP_SHAPE_SIZING_NOBOX
 ;
+nsRefPtr
+<
 nsStyleBasicShape
-*
+>
 basicShape
-=
-nullptr
 ;
 for
 (
