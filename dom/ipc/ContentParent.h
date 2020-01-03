@@ -895,6 +895,13 @@ OnChannelError
 MOZ_OVERRIDE
 ;
 virtual
+void
+OnBeginSyncTransaction
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 PCrashReporterParent
 *
 AllocPCrashReporterParent
