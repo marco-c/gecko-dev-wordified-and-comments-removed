@@ -550,6 +550,9 @@ CHROMIUM_LOG
 ERROR
 )
 #
+undef
+CHECK
+#
 define
 CHECK
 (

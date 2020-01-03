@@ -180,6 +180,9 @@ Services
 h
 "
 #
+undef
+VOLUME_MANAGER_LOG_TAG
+#
 define
 VOLUME_MANAGER_LOG_TAG
 "
