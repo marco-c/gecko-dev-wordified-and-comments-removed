@@ -3409,6 +3409,16 @@ cleanup_encoding
 (
 line
 )
+.
+rstrip
+(
+"
+\
+r
+\
+n
+"
+)
             
 self
 .
