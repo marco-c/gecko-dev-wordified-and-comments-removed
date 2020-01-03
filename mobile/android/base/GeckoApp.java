@@ -11031,6 +11031,12 @@ destroy
 (
 )
 ;
+GeckoNetworkManager
+.
+destroy
+(
+)
+;
 if
 (
 SmsManager
