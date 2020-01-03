@@ -599,6 +599,15 @@ stack
 .
 js
 '
+'
+actors
+/
+utils
+/
+TabSources
+.
+js
+'
 ]
 FAIL_ON_WARNINGS
 =
