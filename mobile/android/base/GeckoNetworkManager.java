@@ -141,7 +141,6 @@ GeckoNetworkManager
 ;
 static
 private
-final
 GeckoNetworkManager
 sInstance
 =
@@ -170,6 +169,10 @@ sInstance
 onDestroy
 (
 )
+;
+sInstance
+=
+null
 ;
 }
 }
