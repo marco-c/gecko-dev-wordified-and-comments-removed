@@ -2622,7 +2622,7 @@ endTime
 {
 mInfo
 .
-mMetadataEndTime
+mUnadjustedMetadataEndTime
 .
 emplace
 (
