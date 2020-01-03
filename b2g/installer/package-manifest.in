@@ -2866,14 +2866,14 @@ components
 DataCallManager
 .
 manifest
-BINPATH
+RESPATH
 /
 components
 /
 IccService
 .
 js
-BINPATH
+RESPATH
 /
 components
 /
