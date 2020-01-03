@@ -311,6 +311,10 @@ mDoRebuildAllStyleData
 (
 false
 )
+mInRebuildAllStyleData
+(
+false
+)
 mObservingRefreshDriver
 (
 false
@@ -6873,6 +6877,10 @@ RestyleTracker
 aRestyleTracker
 )
 {
+mInRebuildAllStyleData
+=
+true
+;
 nsresult
 rv
 =
@@ -7019,6 +7027,11 @@ FlushOverflowChangedTracker
 (
 )
 ;
+if
+(
+mInRebuildAllStyleData
+)
+{
 mPresContext
 -
 >
@@ -7031,6 +7044,11 @@ EndReconstruct
 (
 )
 ;
+mInRebuildAllStyleData
+=
+false
+;
+}
 }
 void
 RestyleManager
