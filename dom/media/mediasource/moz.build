@@ -87,6 +87,11 @@ MediaSourceDecoder
 .
 h
 '
+'
+MediaSourceReader
+.
+h
+'
 ]
 EXPORTS
 .

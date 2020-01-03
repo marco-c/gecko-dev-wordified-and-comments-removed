@@ -188,7 +188,10 @@ ReleaseMediaResources
 )
 ;
 virtual
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )

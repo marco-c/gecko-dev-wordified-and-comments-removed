@@ -633,7 +633,10 @@ clear
 )
 ;
 }
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 MediaOmxReader
 :
 :
@@ -662,6 +665,12 @@ NS_DispatchToMainThread
 cancelEvent
 )
 ;
+nsRefPtr
+<
+ShutdownPromise
+>
+p
+=
 MediaDecoderReader
 :
 :
@@ -689,6 +698,9 @@ NS_DispatchToMainThread
 (
 event
 )
+;
+return
+p
 ;
 }
 bool

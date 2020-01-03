@@ -690,7 +690,10 @@ MP4Reader
 )
 ;
 }
-void
+nsRefPtr
+<
+ShutdownPromise
+>
 MP4Reader
 :
 :
@@ -851,6 +854,7 @@ mPlatform
 nullptr
 ;
 }
+return
 MediaDecoderReader
 :
 :
