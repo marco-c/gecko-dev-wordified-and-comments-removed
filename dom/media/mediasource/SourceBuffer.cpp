@@ -2557,6 +2557,12 @@ NotifyWaitingForResourcesStatusChanged
 ;
 }
 }
+}
+if
+(
+mActive
+)
+{
 mMediaSource
 -
 >
