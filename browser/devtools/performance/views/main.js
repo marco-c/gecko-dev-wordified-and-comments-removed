@@ -59,7 +59,7 @@ _recordButton
 addEventListener
 (
 "
-mouseup
+click
 "
 this
 .
@@ -104,7 +104,7 @@ _recordButton
 removeEventListener
 (
 "
-mouseup
+click
 "
 this
 .
