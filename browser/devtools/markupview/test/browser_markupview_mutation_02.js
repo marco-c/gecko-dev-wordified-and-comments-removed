@@ -592,12 +592,6 @@ inspector
 .
 markup
 ;
-markup
-.
-_frame
-.
-contentWindow
-.
 clearTimeout
 (
 container
