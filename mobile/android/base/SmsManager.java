@@ -5,6 +5,7 @@ mozilla
 .
 gecko
 ;
+public
 class
 SmsManager
 {
@@ -48,7 +49,7 @@ return
 sInstance
 ;
 }
-}
+public
 interface
 ISmsManager
 {
@@ -148,4 +149,5 @@ int
 aListId
 )
 ;
+}
 }
