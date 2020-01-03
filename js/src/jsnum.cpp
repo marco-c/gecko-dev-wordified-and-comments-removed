@@ -5931,7 +5931,7 @@ number_constants
 NC_NaN
 ]
 .
-dval
+val
 =
 GenericNaN
 (
@@ -5942,7 +5942,7 @@ number_constants
 NC_POSITIVE_INFINITY
 ]
 .
-dval
+val
 =
 mozilla
 :
@@ -5959,7 +5959,7 @@ number_constants
 NC_NEGATIVE_INFINITY
 ]
 .
-dval
+val
 =
 mozilla
 :
@@ -5976,7 +5976,7 @@ number_constants
 NC_MIN_VALUE
 ]
 .
-dval
+val
 =
 MinNumberValue
 <
