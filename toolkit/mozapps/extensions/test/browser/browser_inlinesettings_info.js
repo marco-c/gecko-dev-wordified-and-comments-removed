@@ -2453,6 +2453,12 @@ button
 "
 )
 ;
+button
+.
+scrollIntoView
+(
+)
+;
 input
 =
 gManagerWindow
