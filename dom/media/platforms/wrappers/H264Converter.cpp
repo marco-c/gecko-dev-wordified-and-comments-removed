@@ -641,6 +641,11 @@ AbstractThread
 GetCurrent
 (
 )
+-
+>
+AsTaskQueue
+(
+)
 __func__
 this
 &
