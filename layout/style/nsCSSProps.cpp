@@ -4001,6 +4001,11 @@ LookAndFeel
 :
 :
 eColorID__moz_html_cellhighlighttext
+eCSSKeyword__moz_mac_buttonactivetext
+LookAndFeel
+:
+:
+eColorID__moz_mac_buttonactivetext
 eCSSKeyword__moz_mac_chrome_active
 LookAndFeel
 :
@@ -4011,6 +4016,11 @@ LookAndFeel
 :
 :
 eColorID__moz_mac_chrome_inactive
+eCSSKeyword__moz_mac_defaultbuttontext
+LookAndFeel
+:
+:
+eColorID__moz_mac_defaultbuttontext
 eCSSKeyword__moz_mac_focusring
 LookAndFeel
 :
