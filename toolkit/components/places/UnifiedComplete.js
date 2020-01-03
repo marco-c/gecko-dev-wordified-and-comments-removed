@@ -4924,6 +4924,10 @@ style
 match
 .
 finalCompleteValue
+|
+|
+"
+"
 )
 ;
 notifyResults
