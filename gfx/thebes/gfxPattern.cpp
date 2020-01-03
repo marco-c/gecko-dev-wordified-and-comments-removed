@@ -489,6 +489,7 @@ gfxPattern
 :
 GetPattern
 (
+const
 DrawTarget
 *
 aTarget

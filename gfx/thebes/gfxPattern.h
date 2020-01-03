@@ -232,6 +232,7 @@ Pattern
 *
 GetPattern
 (
+const
 mozilla
 :
 :
