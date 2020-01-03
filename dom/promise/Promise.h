@@ -257,6 +257,10 @@ NativePromiseCallback
 ;
 friend
 class
+PromiseCallbackTask
+;
+friend
+class
 PromiseResolverTask
 ;
 friend
