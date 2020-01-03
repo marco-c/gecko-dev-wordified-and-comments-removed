@@ -383,6 +383,17 @@ editca
 label
 ;
 "
+accesskey
+=
+"
+&
+certmgr
+.
+editca
+.
+accesskey
+;
+"
 oncommand
 =
 "
