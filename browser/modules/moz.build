@@ -160,6 +160,11 @@ ContentClick
 jsm
 '
 '
+ContentCrashReporters
+.
+jsm
+'
+'
 ContentLinkHandler
 .
 jsm
@@ -266,11 +271,6 @@ jsm
 '
 '
 Social
-.
-jsm
-'
-'
-TabCrashReporter
 .
 jsm
 '
