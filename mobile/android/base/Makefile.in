@@ -2973,6 +2973,16 @@ symbols
 5
 )
 \
+(
+if
+(
+MOZ_ANDROID_RESOURCE_CONSTRAINED
+)
+-
+c
+hdpi
+)
+\
 -
 -
 ignore
