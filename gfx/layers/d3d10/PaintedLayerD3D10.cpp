@@ -1496,8 +1496,11 @@ if
 mDrawTarget
 )
 {
-NS_WARNING
+gfxWarning
 (
+)
+<
+<
 "
 Failed
 to
@@ -1507,7 +1510,6 @@ for
 PaintedLayerD3D10
 .
 "
-)
 ;
 return
 ;
@@ -2515,8 +2517,11 @@ if
 mDrawTarget
 )
 {
-NS_WARNING
+gfxWarning
 (
+)
+<
+<
 "
 Failed
 to
@@ -2526,11 +2531,6 @@ for
 PaintedLayerD3D10
 .
 "
-)
-;
-mDrawTarget
-=
-nullptr
 ;
 return
 ;

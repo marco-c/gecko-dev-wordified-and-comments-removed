@@ -1746,6 +1746,8 @@ buffer
 )
 ;
 return
+!
+!
 mDTBufferOnWhite
 ;
 }
