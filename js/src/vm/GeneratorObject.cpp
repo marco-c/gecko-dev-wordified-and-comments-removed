@@ -979,17 +979,6 @@ suspendedBytecodeOffset
 (
 )
 ;
-if
-(
-!
-genObj
--
->
-isNewborn
-(
-)
-)
-{
 activation
 .
 regs
@@ -1036,7 +1025,6 @@ sp
 =
 arg
 ;
-}
 switch
 (
 resumeKind
