@@ -179,6 +179,11 @@ GetCurrentWheelTransaction
 )
 const
 ;
+void
+Clear
+(
+)
+;
 private
 :
 ~
