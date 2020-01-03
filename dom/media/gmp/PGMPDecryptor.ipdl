@@ -155,6 +155,8 @@ Init
 CreateSession
 (
 uint32_t
+aCreateSessionToken
+uint32_t
 aPromiseId
 nsCString
 aInitDataType
@@ -234,10 +236,10 @@ __delete__
 (
 )
 ;
-ResolveNewSessionPromise
+SetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionToken
 nsCString
 aSessionId
 )

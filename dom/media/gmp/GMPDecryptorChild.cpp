@@ -214,10 +214,10 @@ void
 GMPDecryptorChild
 :
 :
-ResolveNewSessionPromise
+SetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionToken
 const
 char
 *
@@ -228,8 +228,8 @@ aSessionIdLength
 {
 CALL_ON_GMP_THREAD
 (
-SendResolveNewSessionPromise
-aPromiseId
+SendSetSessionId
+aCreateSessionToken
 nsAutoCString
 (
 aSessionId
@@ -783,6 +783,10 @@ RecvCreateSession
 const
 uint32_t
 &
+aCreateSessionToken
+const
+uint32_t
+&
 aPromiseId
 const
 nsCString
@@ -816,6 +820,7 @@ mSession
 >
 CreateSession
 (
+aCreateSessionToken
 aPromiseId
 aInitDataType
 .

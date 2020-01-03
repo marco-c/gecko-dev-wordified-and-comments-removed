@@ -81,6 +81,8 @@ void
 Init
 (
 uint32_t
+aCreateSessionToken
+uint32_t
 aPromiseId
 const
 uint8_t

@@ -246,10 +246,10 @@ public
 :
 virtual
 void
-ResolveNewSessionPromise
+SetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionToken
 const
 char
 *
@@ -519,6 +519,8 @@ GMP_API_DECRYPTOR
 eme
 -
 decrypt
+-
+v2
 "
 class
 GMPDecryptor
@@ -540,6 +542,8 @@ virtual
 void
 CreateSession
 (
+uint32_t
+aCreateSessionToken
 uint32_t
 aPromiseId
 const

@@ -397,6 +397,8 @@ ClearKeyDecryptionManager
 CreateSession
 (
 uint32_t
+aCreateSessionToken
+uint32_t
 aPromiseId
 const
 char
@@ -462,6 +464,7 @@ ClearKeyPersistence
 DeferCreateSessionIfNotReady
 (
 this
+aCreateSessionToken
 aPromiseId
 aInitData
 aInitDataSize
@@ -517,6 +520,7 @@ session
 >
 Init
 (
+aCreateSessionToken
 aPromiseId
 aInitData
 aInitDataSize
@@ -896,15 +900,6 @@ aSessionId
 =
 session
 ;
-mCallback
--
->
-ResolveLoadSessionPromise
-(
-aPromiseId
-true
-)
-;
 uint32_t
 numKeys
 =
@@ -1060,6 +1055,15 @@ size
 )
 ;
 }
+mCallback
+-
+>
+ResolveLoadSessionPromise
+(
+aPromiseId
+true
+)
+;
 }
 void
 ClearKeyDecryptionManager

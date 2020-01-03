@@ -42,10 +42,10 @@ public
 :
 virtual
 void
-ResolveNewSessionPromise
+SetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionToken
 const
 nsCString
 &

@@ -170,6 +170,8 @@ aInPrivateBrowsing
 void
 CreateSession
 (
+uint32_t
+aCreateSessionToken
 dom
 :
 :
@@ -271,10 +273,10 @@ GetNodeId
 const
 ;
 void
-OnResolveNewSessionPromise
+OnSetSessionId
 (
 uint32_t
-aPromiseId
+aCreateSessionToken
 const
 nsAString
 &
@@ -487,6 +489,9 @@ dom
 :
 SessionType
 mSessionType
+;
+uint32_t
+mCreateSessionToken
 ;
 PromiseId
 mPromiseId

@@ -164,7 +164,7 @@ aRv
 )
 ;
 void
-Init
+SetSessionId
 (
 const
 nsAString
@@ -350,6 +350,12 @@ IsClosed
 )
 const
 ;
+uint32_t
+Token
+(
+)
+const
+;
 private
 :
 ~
@@ -385,6 +391,10 @@ mSessionId
 const
 SessionType
 mSessionType
+;
+const
+uint32_t
+mToken
 ;
 bool
 mIsClosed
