@@ -124,7 +124,17 @@ ClearKeyDecryptionManager
 cpp
 '
 '
+ClearKeyPersistence
+.
+cpp
+'
+'
 ClearKeySession
+.
+cpp
+'
+'
+ClearKeyStorage
 .
 cpp
 '
