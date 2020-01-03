@@ -325,6 +325,11 @@ MOZ_ASSERT
 sBluetoothOppManager
 )
 ;
+#
+ifdef
+MOZ_B2G_BT_API_V2
+#
+else
 if
 (
 !
@@ -344,6 +349,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 if
 (
 !
@@ -853,6 +860,11 @@ observer
 )
 ;
 }
+#
+ifdef
+MOZ_B2G_BT_API_V2
+#
+else
 if
 (
 NS_FAILED
@@ -881,6 +893,8 @@ observer
 )
 ;
 }
+#
+endif
 }
 bool
 BluetoothOppManager
@@ -941,6 +955,11 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_B2G_BT_API_V2
+#
+else
 if
 (
 NS_FAILED
@@ -974,6 +993,8 @@ return
 false
 ;
 }
+#
+endif
 return
 true
 ;
@@ -1162,6 +1183,11 @@ sBluetoothOppManager
 nullptr
 ;
 }
+#
+ifdef
+MOZ_B2G_BT_API_V2
+#
+else
 void
 BluetoothOppManager
 :
@@ -1257,6 +1283,8 @@ nullptr
 ;
 }
 }
+#
+endif
 bool
 BluetoothOppManager
 :

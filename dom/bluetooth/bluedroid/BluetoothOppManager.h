@@ -337,6 +337,11 @@ HandleShutdown
 (
 )
 ;
+#
+ifdef
+MOZ_B2G_BT_API_V2
+#
+else
 void
 HandleVolumeStateChanged
 (
@@ -345,6 +350,8 @@ nsISupports
 aSubject
 )
 ;
+#
+endif
 void
 StartFileTransfer
 (
