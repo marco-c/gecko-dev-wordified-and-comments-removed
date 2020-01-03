@@ -1382,11 +1382,6 @@ Reader
 :
 Removed
 "
-"
-Gesture
-:
-DoubleTap
-"
 ]
 "
 chrome
