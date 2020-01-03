@@ -1740,10 +1740,10 @@ return
 ScreenId
 screenid
 =
-webrtc
-:
-:
-kFullDesktopScreenId
+atoi
+(
+uniqueId
+)
 ;
 pScreenCapturer
 -
