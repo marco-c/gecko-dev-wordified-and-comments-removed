@@ -28897,6 +28897,14 @@ flags
 container
 -
 >
+SetVRHMDInfo
+(
+mHMD
+)
+;
+container
+-
+>
 SetUserData
 (
 nsIFrame

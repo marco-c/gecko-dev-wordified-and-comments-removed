@@ -134,6 +134,13 @@ nsString
 .
 h
 "
+#
+include
+"
+gfxVR
+.
+h
+"
 namespace
 mozilla
 {
