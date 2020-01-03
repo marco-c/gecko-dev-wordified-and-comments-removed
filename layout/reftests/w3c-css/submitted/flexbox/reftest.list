@@ -4132,7 +4132,6 @@ text
 enabled
 true
 )
-fails
 =
 =
 flexbox
@@ -4155,9 +4154,6 @@ mode
 ref
 .
 html
-#
-bug
-1173646
 test
 -
 pref
@@ -4173,7 +4169,6 @@ text
 enabled
 true
 )
-fails
 =
 =
 flexbox
@@ -4196,9 +4191,6 @@ mode
 ref
 .
 html
-#
-bug
-1173646
 test
 -
 pref
@@ -4214,7 +4206,6 @@ text
 enabled
 true
 )
-fails
 =
 =
 flexbox
@@ -4237,6 +4228,3 @@ mode
 ref
 .
 html
-#
-bug
-1173646
