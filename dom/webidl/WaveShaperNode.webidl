@@ -169,6 +169,9 @@ WaveShaperNode
 :
 AudioNode
 {
+[
+SetterThrows
+]
 attribute
 Float32Array
 ?

@@ -135,6 +135,9 @@ Float32Array
 >
 &
 aData
+ErrorResult
+&
+aRv
 )
 ;
 OverSampleType
