@@ -683,7 +683,7 @@ aRv
 scopeURI
 -
 >
-GetSpec
+GetSpecIgnoringRef
 (
 uriSpec
 )
