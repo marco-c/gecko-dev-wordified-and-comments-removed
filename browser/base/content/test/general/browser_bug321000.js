@@ -76,14 +76,12 @@ kTestString
 .
 replace
 (
-'
+/
 \
 n
-'
-'
-'
-'
+/
 g
+'
 '
 )
 }
