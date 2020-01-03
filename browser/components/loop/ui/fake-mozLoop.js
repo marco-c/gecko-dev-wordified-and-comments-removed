@@ -943,6 +943,9 @@ function
 )
 {
 }
+userProfile
+:
+null
 }
 ;
 }
