@@ -96,3 +96,16 @@ PyObject
 args
 )
 ;
+static
+PyObject
+*
+psutil_net_if_stats
+(
+PyObject
+*
+self
+PyObject
+*
+args
+)
+;

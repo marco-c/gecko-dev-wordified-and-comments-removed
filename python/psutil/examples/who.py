@@ -102,12 +102,6 @@ import
 datetime
 import
 psutil
-from
-psutil
-.
-_compat
-import
-print_
 def
 main
 (
@@ -128,7 +122,7 @@ in
 users
 :
         
-print_
+print
 (
 "
 %

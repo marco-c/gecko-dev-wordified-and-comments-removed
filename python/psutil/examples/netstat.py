@@ -181,12 +181,6 @@ SOCK_STREAM
 SOCK_DGRAM
 import
 psutil
-from
-psutil
-.
-_compat
-import
-print_
 AD
 =
 "
@@ -272,7 +266,7 @@ templ
 s
 "
     
-print_
+print
 (
 templ
 %
@@ -400,7 +394,7 @@ c
 raddr
 )
         
-print_
+print
 (
 templ
 %

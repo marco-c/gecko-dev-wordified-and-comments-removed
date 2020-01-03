@@ -35,14 +35,12 @@ TOKEN_QUERY
 hToken
 )
 )
-{
 return
 PyErr_SetFromWindowsErr
 (
 0
 )
 ;
-}
 return
 hToken
 ;
@@ -105,12 +103,10 @@ NULL
 =
 hToken
 )
-{
 return
 -
 1
 ;
-}
 if
 (
 !
@@ -444,7 +440,6 @@ if
 (
 bEnablePrivilege
 )
-{
 tpPrevious
 .
 Privileges
@@ -459,9 +454,7 @@ Attributes
 SE_PRIVILEGE_ENABLED
 )
 ;
-}
 else
-{
 tpPrevious
 .
 Privileges
@@ -485,7 +478,6 @@ Privileges
 Attributes
 )
 ;
-}
 AdjustTokenPrivileges
 (
 hToken
@@ -678,11 +670,9 @@ ImpersonateSelf
 SecurityImpersonation
 )
 )
-{
 return
 0
 ;
-}
 if
 (
 !
@@ -716,11 +706,9 @@ SE_DEBUG_NAME
 FALSE
 )
 )
-{
 return
 0
 ;
-}
 CloseHandle
 (
 hToken

@@ -269,12 +269,6 @@ import
 sys
 import
 psutil
-from
-psutil
-.
-_compat
-import
-print_
 def
 main
 (
@@ -324,7 +318,7 @@ argv
 )
 )
     
-print_
+print
 (
 "
 pid
@@ -364,7 +358,7 @@ templ
 s
 "
     
-print_
+print
 (
 templ
 %
@@ -408,7 +402,7 @@ m
 .
 rss
         
-print_
+print
 (
 templ
 %
@@ -456,7 +450,7 @@ path
 )
 )
     
-print_
+print
 (
 "
 -
@@ -465,7 +459,7 @@ print_
 33
 )
     
-print_
+print
 (
 templ
 %

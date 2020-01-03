@@ -397,19 +397,26 @@ chrome
 "
 "
 "
+from
+datetime
+import
+datetime
+timedelta
+import
+atexit
 import
 os
+import
+time
 import
 sys
-if
-os
-.
-name
-!
-=
-'
-posix
-'
+try
+:
+    
+import
+curses
+except
+ImportError
 :
     
 sys
@@ -422,17 +429,6 @@ not
 supported
 '
 )
-import
-atexit
-import
-curses
-import
-time
-from
-datetime
-import
-datetime
-timedelta
 import
 psutil
 def
@@ -1850,7 +1846,7 @@ interval
 0
         
 while
-1
+True
 :
             
 args

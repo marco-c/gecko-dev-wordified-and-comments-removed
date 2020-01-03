@@ -41,12 +41,6 @@ Swap
 "
 import
 psutil
-from
-psutil
-.
-_compat
-import
-print_
 def
 main
 (
@@ -89,7 +83,7 @@ templ
 10s
 "
     
-print_
+print
 (
 templ
 %
@@ -117,7 +111,7 @@ cache
 )
 )
     
-print_
+print
 (
 templ
 %
@@ -199,7 +193,7 @@ cached
 )
 )
     
-print_
+print
 (
 templ
 %
