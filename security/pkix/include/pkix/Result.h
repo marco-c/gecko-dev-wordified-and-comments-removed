@@ -216,6 +216,7 @@ rv
 )
 {
 return
+(
 static_cast
 <
 unsigned
@@ -226,6 +227,10 @@ rv
 )
 &
 FATAL_ERROR_FLAG
+)
+!
+=
+0
 ;
 }
 inline
