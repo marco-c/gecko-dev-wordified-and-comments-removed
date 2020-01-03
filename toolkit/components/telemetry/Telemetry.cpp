@@ -5336,13 +5336,6 @@ return
 NS_OK
 ;
 }
-histogram
-.
-Add
-(
-value
-)
-;
 #
 if
 !
@@ -5380,6 +5373,13 @@ value
 }
 #
 endif
+histogram
+.
+Add
+(
+value
+)
+;
 return
 NS_OK
 ;
