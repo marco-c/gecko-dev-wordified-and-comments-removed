@@ -202,6 +202,15 @@ selectAllOnFocus
 "
 true
 "
+android
+:
+contentDescription
+=
+"
+string
+/
+url_bar_default_text
+"
 gecko
 :
 autoUpdateTheme
