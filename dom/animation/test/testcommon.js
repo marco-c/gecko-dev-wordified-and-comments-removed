@@ -256,6 +256,9 @@ assert_equals
 assert_approx_equals
 "
 "
+assert_less_than
+"
+"
 assert_less_than_equal
 "
 "
