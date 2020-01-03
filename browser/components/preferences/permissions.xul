@@ -941,9 +941,6 @@ flex
 "
 /
 >
-#
-ifndef
-XP_MACOSX
 <
 button
 oncommand
@@ -983,8 +980,6 @@ accesskey
 "
 /
 >
-#
-endif
 <
 /
 hbox
