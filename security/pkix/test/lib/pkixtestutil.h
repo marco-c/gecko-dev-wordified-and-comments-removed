@@ -378,6 +378,10 @@ CN
 const
 ByteString
 &
+uint8_t
+encodingTag
+=
+0x0c
 )
 ;
 inline
@@ -388,6 +392,10 @@ const
 char
 *
 value
+uint8_t
+encodingTag
+=
+0x0c
 )
 {
 return
@@ -412,6 +420,7 @@ strlen
 value
 )
 )
+encodingTag
 )
 ;
 }

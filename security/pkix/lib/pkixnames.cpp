@@ -874,6 +874,15 @@ der
 :
 :
 UTF8String
+&
+&
+valueEncodingTag
+!
+=
+der
+:
+:
+TeletexString
 )
 {
 return

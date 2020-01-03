@@ -2733,6 +2733,8 @@ const
 ByteString
 &
 value
+uint8_t
+encodingTag
 )
 {
 static
@@ -2754,10 +2756,7 @@ return
 AVA
 (
 tlv_id_at_commonName
-der
-:
-:
-UTF8String
+encodingTag
 value
 )
 ;
