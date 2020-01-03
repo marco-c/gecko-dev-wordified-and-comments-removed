@@ -4787,6 +4787,15 @@ IsEditable
 (
 bodyChild
 )
+|
+|
+mEditor
+-
+>
+IsBlockNode
+(
+bodyChild
+)
 )
 {
 return
