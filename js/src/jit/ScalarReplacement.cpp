@@ -6225,9 +6225,6 @@ mir
 MIRGraph
 &
 graph
-bool
-*
-success
 )
 {
 EmulateStateOf
@@ -6252,11 +6249,6 @@ graph
 ;
 bool
 addedPhi
-=
-false
-;
-*
-success
 =
 false
 ;
@@ -6399,11 +6391,6 @@ assertSuccess
 (
 )
 ;
-*
-success
-=
-true
-;
 addedPhi
 =
 true
@@ -6459,11 +6446,6 @@ view
 assertSuccess
 (
 )
-;
-*
-success
-=
-true
 ;
 addedPhi
 =

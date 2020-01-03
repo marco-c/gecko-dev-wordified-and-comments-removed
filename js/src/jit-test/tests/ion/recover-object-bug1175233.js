@@ -118,7 +118,7 @@ i
 assertRecoveredOnBailout
 (
 obj
-true
+false
 )
 ;
 assertRecoveredOnBailout
@@ -126,7 +126,7 @@ assertRecoveredOnBailout
 obj
 .
 v
-true
+false
 )
 ;
 if
