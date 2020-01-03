@@ -26,6 +26,15 @@ h
 #
 include
 "
+gc
+/
+GCInternals
+.
+h
+"
+#
+include
+"
 jit
 /
 IonCode

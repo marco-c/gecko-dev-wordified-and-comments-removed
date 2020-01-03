@@ -645,6 +645,13 @@ JSObject
 old
 )
 {
+if
+(
+!
+keyDelegate
+)
+return
+;
 MOZ_RELEASE_ASSERT
 (
 keyDelegate
@@ -949,11 +956,6 @@ Int32Value
 (
 42
 )
-)
-;
-JS_GC
-(
-rt
 )
 ;
 return
