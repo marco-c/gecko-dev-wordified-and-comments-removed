@@ -1388,6 +1388,12 @@ GetIsFixedPosition
 )
 &
 &
+aLayer
+!
+=
+aTransformedSubtreeRoot
+&
+&
 !
 aLayer
 -
