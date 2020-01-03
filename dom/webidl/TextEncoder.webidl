@@ -185,7 +185,7 @@ Uint8Array
 encode
 (
 optional
-ScalarValueString
+USVString
 input
 =
 "

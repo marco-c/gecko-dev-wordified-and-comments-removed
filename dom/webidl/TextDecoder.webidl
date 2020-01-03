@@ -191,7 +191,7 @@ fatal
 [
 Throws
 ]
-ScalarValueString
+USVString
 decode
 (
 optional
