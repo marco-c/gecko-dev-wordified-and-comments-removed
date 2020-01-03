@@ -1369,7 +1369,7 @@ rv
 =
 err
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

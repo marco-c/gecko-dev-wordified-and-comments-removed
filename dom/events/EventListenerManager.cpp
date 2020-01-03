@@ -4753,7 +4753,7 @@ result
 =
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

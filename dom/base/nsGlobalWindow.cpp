@@ -15751,7 +15751,7 @@ aWindow
 rv
 rv
 .
-ErrorCode
+StealNSResult
 (
 )
 )

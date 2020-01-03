@@ -696,7 +696,7 @@ rv
 =
 res
 .
-ErrorCode
+StealNSResult
 (
 )
 ;

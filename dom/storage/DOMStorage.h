@@ -396,14 +396,11 @@ aRv
 ;
 aFound
 =
-(
+!
 aRv
 .
-ErrorCode
+ErrorCodeIs
 (
-)
-!
-=
 NS_SUCCESS_DOM_NO_OPERATION
 )
 ;

@@ -5320,7 +5320,7 @@ ENSURE_SUCCESS
 erv
 erv
 .
-ErrorCode
+StealNSResult
 (
 )
 )

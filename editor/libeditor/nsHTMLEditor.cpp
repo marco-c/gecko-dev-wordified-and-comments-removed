@@ -5254,16 +5254,10 @@ X
 \
 n
 "
-static_cast
-<
-uint32_t
->
-(
 err
 .
-ErrorCode
+ErrorCodeAsInt
 (
-)
 )
 )
 ;
