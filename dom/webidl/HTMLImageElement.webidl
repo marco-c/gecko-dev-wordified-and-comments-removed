@@ -274,13 +274,6 @@ useMap
 SetterThrows
 ]
 attribute
-DOMString
-referrer
-;
-[
-SetterThrows
-]
-attribute
 boolean
 isMap
 ;

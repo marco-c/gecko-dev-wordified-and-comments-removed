@@ -631,12 +631,6 @@ HTMLImageElement
 Lowsrc
 lowsrc
 )
-NS_IMPL_STRING_ATTR
-(
-HTMLImageElement
-Referrer
-referrer
-)
 NS_IMPL_URI_ATTR
 (
 HTMLImageElement
