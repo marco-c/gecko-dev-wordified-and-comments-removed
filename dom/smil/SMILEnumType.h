@@ -66,8 +66,10 @@ Destroy
 (
 nsSMILValue
 &
+aValue
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
