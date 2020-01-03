@@ -16225,6 +16225,14 @@ buildType
 "
 user
 "
+|
+|
+buildType
+=
+=
+"
+userdebug
+"
 )
 {
 url
