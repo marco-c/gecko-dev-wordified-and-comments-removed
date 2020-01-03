@@ -136,6 +136,14 @@ ClearVibrantAreas
 )
 const
 ;
+NSColor
+*
+VibrancyFillColorForType
+(
+VibrancyType
+aType
+)
+;
 static
 bool
 SystemSupportsVibrancy
