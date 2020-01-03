@@ -1629,6 +1629,11 @@ fixupGlobal
 (
 )
 ;
+void
+fixupBaseShapeTable
+(
+)
+;
 bool
 hasObjectMetadataCallback
 (

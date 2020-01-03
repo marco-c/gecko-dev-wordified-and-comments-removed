@@ -131,6 +131,17 @@ BEGIN_TEST
 testGCNurseryFinalizer
 )
 {
+#
+ifdef
+JS_GC_ZEAL
+AutoLeaveZeal
+nozeal
+(
+cx
+)
+;
+#
+endif
 JS
 :
 :
