@@ -1416,8 +1416,12 @@ nsLayoutUtils
 :
 DrawSingleImage
 (
-&
+*
 aRenderingContext
+.
+ThebesContext
+(
+)
 PresContext
 (
 )
