@@ -19840,12 +19840,14 @@ CompactBufferWriter
 writer
 )
 const
+MOZ_OVERRIDE
 ;
 bool
 canRecoverOnBailout
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 input
