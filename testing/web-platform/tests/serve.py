@@ -16,8 +16,6 @@ argparse
 import
 json
 import
-logging
-import
 os
 import
 signal
@@ -99,6 +97,12 @@ wptserve
 router
 import
 any_method
+from
+wptserve
+.
+logger
+import
+set_logger
 sys
 .
 path
@@ -297,15 +301,18 @@ l
 ve
 "
 ]
-logger
-=
-None
 def
-default_logger
+setup_logger
 (
 level
 )
 :
+    
+import
+logging
+    
+global
+logger
     
 logger
 =
@@ -339,8 +346,10 @@ upper
 )
 )
     
-return
+set_logger
+(
 logger
+)
 def
 open_socket
 (
@@ -2175,9 +2184,6 @@ main
 )
 :
     
-global
-logger
-    
 config
 =
 load_config
@@ -2197,9 +2203,7 @@ json
 "
 )
     
-logger
-=
-default_logger
+setup_logger
 (
 config
 [

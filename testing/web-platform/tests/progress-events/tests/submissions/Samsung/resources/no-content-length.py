@@ -10,7 +10,7 @@ response
 .
 headers
 .
-extend
+update
 (
 [
 (

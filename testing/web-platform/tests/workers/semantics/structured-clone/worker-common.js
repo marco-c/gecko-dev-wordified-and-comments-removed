@@ -57,6 +57,7 @@ msg
 input
 port
 expect_File
+orig_input
 )
 {
 expect_File
@@ -64,6 +65,13 @@ expect_File
 !
 !
 expect_File
+;
+orig_input
+=
+orig_input
+|
+|
+input
 ;
 try
 {
@@ -548,7 +556,7 @@ port
 .
 postMessage
 (
-input
+orig_input
 )
 ;
 }
@@ -8411,6 +8419,8 @@ input
 0
 ]
 port
+false
+input
 )
 ;
 }
@@ -8590,6 +8600,8 @@ x
 '
 ]
 port
+false
+input
 )
 ;
 }

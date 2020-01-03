@@ -5,10 +5,6 @@ cgi
 import
 Cookie
 import
-logging
-import
-os
-import
 StringIO
 import
 tempfile
@@ -20,16 +16,6 @@ from
 utils
 import
 HTTPException
-logger
-=
-logging
-.
-getLogger
-(
-"
-wptserve
-"
-)
 missing
 =
 object
@@ -2236,6 +2222,7 @@ lower
 )
         
 except
+KeyError
 :
             
 if

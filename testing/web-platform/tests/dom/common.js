@@ -4,9 +4,6 @@ strict
 "
 ;
 var
-selection
-;
-var
 testDiv
 paras
 detachedDiv
@@ -50,12 +47,6 @@ setupRangeTests
 (
 )
 {
-selection
-=
-getSelection
-(
-)
-;
 testDiv
 =
 document

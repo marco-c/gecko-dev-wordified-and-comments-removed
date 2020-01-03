@@ -1,29 +1,13 @@
 import
 itertools
 import
-logging
-import
 re
 import
 types
+from
 logger
-=
-logging
-.
-getLogger
-(
-"
-wptserve
-"
-)
-logger
-.
-setLevel
-(
-logging
-.
-DEBUG
-)
+import
+get_logger
 any_method
 =
 object
@@ -655,6 +639,14 @@ routes
 [
 ]
         
+self
+.
+logger
+=
+get_logger
+(
+)
+        
 for
 route
 in
@@ -1001,6 +993,8 @@ handler
 )
 )
             
+self
+.
 logger
 .
 debug
@@ -1169,6 +1163,8 @@ __class__
 .
 __name__
                     
+self
+.
 logger
 .
 debug

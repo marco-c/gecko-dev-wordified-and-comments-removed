@@ -181,6 +181,8 @@ github
 .
 com
 /
+w3c
+/
 wptrunner
 )
 test

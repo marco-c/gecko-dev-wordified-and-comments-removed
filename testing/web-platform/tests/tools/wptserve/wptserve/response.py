@@ -12,8 +12,6 @@ Cookie
 import
 json
 import
-logging
-import
 types
 import
 uuid
@@ -23,16 +21,10 @@ from
 constants
 import
 response_codes
+from
 logger
-=
-logging
-.
-getLogger
-(
-"
-wptserve
-"
-)
+import
+get_logger
 missing
 =
 object
@@ -402,6 +394,14 @@ content
 =
 [
 ]
+        
+self
+.
+logger
+=
+get_logger
+(
+)
     
 property
     
@@ -1542,6 +1542,8 @@ code
 500
 :
             
+self
+.
 logger
 .
 error
@@ -2891,12 +2893,12 @@ n
 )
         
 if
-not
 "
 content
 -
 length
 "
+not
 in
 self
 .

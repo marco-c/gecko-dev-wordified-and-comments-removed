@@ -7,8 +7,6 @@ gzip
 as
 gzip_module
 import
-logging
-import
 re
 import
 time
@@ -20,16 +18,6 @@ from
 cStringIO
 import
 StringIO
-logger
-=
-logging
-.
-getLogger
-(
-"
-wptserve
-"
-)
 def
 resolve_content
 (
@@ -1909,6 +1897,7 @@ token
 )
         
 except
+ValueError
 :
             
 token
@@ -2064,7 +2053,7 @@ key
         
 try
 :
-          
+            
 return
 self
 .
@@ -2078,7 +2067,7 @@ key
 except
 KeyError
 :
-          
+            
 return
 "
 "
@@ -3030,7 +3019,7 @@ w
 as
 f
 :
-      
+        
 f
 .
 write

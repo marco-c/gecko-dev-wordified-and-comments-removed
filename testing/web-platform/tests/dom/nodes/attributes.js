@@ -20,6 +20,13 @@ assert_equals
 (
 attr
 .
+nodeValue
+v
+)
+assert_equals
+(
+attr
+.
 textContent
 v
 )
