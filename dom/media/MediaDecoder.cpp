@@ -5189,7 +5189,7 @@ mDuration
 mOwner
 -
 >
-DispatchEvent
+DispatchAsyncEvent
 (
 NS_LITERAL_STRING
 (

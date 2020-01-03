@@ -828,6 +828,9 @@ mLoadID
 }
 ;
 class
+HTMLMediaElement
+:
+:
 nsAsyncEventRunner
 :
 public
