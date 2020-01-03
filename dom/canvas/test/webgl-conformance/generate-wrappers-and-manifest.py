@@ -169,7 +169,7 @@ using
 python
 generate
 -
-wrapper
+wrappers
 -
 and
 -
