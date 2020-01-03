@@ -1161,6 +1161,7 @@ MOZ_EXTERNAL_SIGNING_FORMAT
 filter
 -
 out
+osslsigncode
 signcode
 (
 MOZ_EXTERNAL_SIGNING_FORMAT
