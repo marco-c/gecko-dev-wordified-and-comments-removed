@@ -5128,8 +5128,11 @@ setupTimer
 gTestTimeout
 )
 ;
-aCallback
+SimpleTest
+.
+executeSoon
 (
+aCallback
 )
 ;
 }
@@ -5597,8 +5600,11 @@ false
 }
 )
 ;
-aCallback
+SimpleTest
+.
+executeSoon
 (
+aCallback
 )
 ;
 }

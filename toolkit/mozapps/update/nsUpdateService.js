@@ -2687,16 +2687,8 @@ return
 gUpdateMutexHandle
 ;
 }
-XPCOMUtils
-.
-defineLazyGetter
-(
-this
-"
-gCanApplyUpdates
-"
 function
-aus_gCanApplyUpdates
+getCanApplyUpdates
 (
 )
 {
@@ -2715,7 +2707,7 @@ shouldUseService
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 bypass
 the
@@ -2757,7 +2749,7 @@ FILE_PERMS_TEST
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 testing
 write
@@ -2804,7 +2796,7 @@ FILE_PERMS_TEST
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 testing
 write
@@ -2885,7 +2877,7 @@ version
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 windowsVersion
 =
@@ -2945,7 +2937,7 @@ userCanElevate
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 on
 Vista
@@ -2965,7 +2957,7 @@ ex
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 on
 Vista
@@ -3003,7 +2995,7 @@ FILE_PERMS_TEST
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 testing
 write
@@ -3064,7 +3056,7 @@ e
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 unable
 to
@@ -3086,7 +3078,7 @@ false
 LOG
 (
 "
-gCanApplyUpdates
+getCanApplyUpdates
 -
 able
 to
@@ -3099,8 +3091,6 @@ return
 true
 ;
 }
-)
-;
 XPCOMUtils
 .
 defineLazyGetter
@@ -10706,7 +10696,9 @@ UPDATE_UNABLE_TO_APPLY_
 this
 .
 _pingSuffix
-gCanApplyUpdates
+getCanApplyUpdates
+(
+)
 true
 )
 ;
@@ -11877,7 +11869,9 @@ return
 if
 (
 !
-gCanApplyUpdates
+getCanApplyUpdates
+(
+)
 )
 {
 LOG
@@ -12824,7 +12818,9 @@ length
 |
 |
 !
-gCanApplyUpdates
+getCanApplyUpdates
+(
+)
 )
 {
 LOG
@@ -13018,7 +13014,9 @@ canApplyUpdates
 )
 {
 return
-gCanApplyUpdates
+getCanApplyUpdates
+(
+)
 &
 &
 hasUpdateMutex

@@ -508,6 +508,15 @@ log
 "
 ;
 const
+FILE_PERMS_TEST
+=
+"
+update
+.
+test
+"
+;
+const
 FILE_UPDATER_INI
 =
 "
