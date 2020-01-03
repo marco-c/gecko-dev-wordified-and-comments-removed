@@ -13237,7 +13237,7 @@ performance
 .
 ui
 .
-show
+enable
 -
 jit
 -

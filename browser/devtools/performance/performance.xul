@@ -1046,7 +1046,7 @@ id
 "
 option
 -
-show
+enable
 -
 jit
 -
@@ -1069,7 +1069,7 @@ data
 pref
 =
 "
-show
+enable
 -
 jit
 -
@@ -1081,7 +1081,7 @@ label
 &
 profilerUI
 .
-showJITOptimizations
+enableJITOptimizations
 ;
 "
 tooltiptext
@@ -1090,7 +1090,7 @@ tooltiptext
 &
 profilerUI
 .
-showJITOptimizations
+enableJITOptimizations
 .
 tooltiptext
 ;
