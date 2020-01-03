@@ -429,6 +429,11 @@ selectionVisible
 e
 .
 selectionVisible
+selectionEditable
+:
+e
+.
+selectionEditable
 }
 ;
 let

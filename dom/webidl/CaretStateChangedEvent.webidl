@@ -147,6 +147,11 @@ selectionVisible
 =
 false
 ;
+boolean
+selectionEditable
+=
+false
+;
 }
 ;
 [
@@ -190,6 +195,11 @@ readonly
 attribute
 boolean
 selectionVisible
+;
+readonly
+attribute
+boolean
+selectionEditable
 ;
 }
 ;
