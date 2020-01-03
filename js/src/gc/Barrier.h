@@ -3768,6 +3768,14 @@ PreBarrieredJitCode
 typedef
 PreBarriered
 <
+JSString
+*
+>
+PreBarrieredString
+;
+typedef
+PreBarriered
+<
 JSAtom
 *
 >
