@@ -1631,8 +1631,6 @@ return
 template
 <
 typename
-ThisType
-typename
 ResolveFunction
 typename
 RejectFunction
