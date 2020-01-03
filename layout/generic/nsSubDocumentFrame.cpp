@@ -2224,15 +2224,7 @@ GetCurrentScrollParentId
 aBuilder
 -
 >
-SetAncestorHasTouchEventHandler
-(
-false
-)
-;
-aBuilder
--
->
-SetAncestorHasScrollEventHandler
+SetAncestorHasApzAwareEventHandler
 (
 false
 )
