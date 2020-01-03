@@ -1164,6 +1164,11 @@ CanBeShared
 )
 ;
 bool
+IsRemovable
+(
+)
+;
+bool
 Default
 (
 )
@@ -1355,6 +1360,9 @@ mStorageName
 ;
 bool
 mIsShareable
+;
+bool
+mIsRemovable
 ;
 already_AddRefed
 <
