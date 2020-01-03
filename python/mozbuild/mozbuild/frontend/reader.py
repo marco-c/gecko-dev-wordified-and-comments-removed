@@ -1022,12 +1022,11 @@ path
 )
         
 elif
-len
-(
 self
 .
-_execution_stack
-)
+_context
+.
+current_path
 :
             
 return
@@ -1046,11 +1045,9 @@ dirname
 (
 self
 .
-_execution_stack
-[
--
-1
-]
+_context
+.
+current_path
 )
 path
 )
@@ -1158,12 +1155,11 @@ config
 raise
 SandboxLoadError
 (
-list
-(
 self
 .
-_execution_stack
-)
+_context
+.
+source_stack
                 
 sys
 .
@@ -1754,7 +1750,9 @@ SandboxCalledError
 (
 self
 .
-_execution_stack
+_context
+.
+source_stack
 message
 )
     
@@ -2109,11 +2107,9 @@ func
 code
 self
 .
-_execution_stack
-[
--
-1
-]
+_context
+.
+current_path
     
 memoize
     
@@ -2248,11 +2244,9 @@ add_source
 (
 self
 .
-_execution_stack
-[
--
-1
-]
+_context
+.
+current_path
 )
             
 for

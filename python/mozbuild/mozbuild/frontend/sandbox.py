@@ -758,13 +758,6 @@ context
         
 self
 .
-_execution_stack
-=
-[
-]
-        
-self
-.
 _last_name_error
 =
 None
@@ -847,12 +840,11 @@ e
 raise
 SandboxLoadError
 (
-list
-(
 self
 .
-_execution_stack
-)
+_context
+.
+source_stack
                 
 sys
 .
@@ -955,15 +947,6 @@ weirdly
 "
 "
         
-self
-.
-_execution_stack
-.
-append
-(
-path
-)
-        
 if
 path
 :
@@ -972,7 +955,7 @@ self
 .
 _context
 .
-add_source
+push_source
 (
 path
 )
@@ -1034,12 +1017,11 @@ _last_name_error
 raise
 SandboxExecutionError
 (
-list
-(
 self
 .
-_execution_stack
-)
+_context
+.
+source_stack
                 
 type
 (
@@ -1073,12 +1055,11 @@ exc_info
 raise
 SandboxExecutionError
 (
-list
-(
 self
 .
-_execution_stack
-)
+_context
+.
+source_stack
 exc
 [
 0
@@ -1097,11 +1078,15 @@ exc
 finally
 :
             
+if
+path
+:
+                
 self
 .
-_execution_stack
+_context
 .
-pop
+pop_source
 (
 )
     
