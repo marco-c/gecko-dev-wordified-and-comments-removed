@@ -28,7 +28,7 @@ e
 .
 message
 .
-contains
+includes
 (
 "
 someName
@@ -72,7 +72,7 @@ e
 .
 message
 .
-contains
+includes
 (
 "
 someName

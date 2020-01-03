@@ -62,7 +62,7 @@ e
 .
 message
 .
-contains
+includes
 (
 "
 undeclared
