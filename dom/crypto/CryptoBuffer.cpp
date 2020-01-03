@@ -68,6 +68,7 @@ aData
 Length
 (
 )
+fallible
 )
 ;
 }
@@ -95,6 +96,7 @@ Length
 )
 aData
 aLength
+fallible
 )
 ;
 }

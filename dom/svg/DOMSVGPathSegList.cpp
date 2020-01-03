@@ -1676,10 +1676,8 @@ ToSVGPathSegEncodedData
 segAsRaw
 )
 ;
-bool
-ok
-=
-!
+if
+(
 !
 InternalList
 (
@@ -1697,12 +1695,8 @@ segAsRaw
 1
 +
 newArgCount
+fallible
 )
-;
-if
-(
-!
-ok
 )
 {
 aError
