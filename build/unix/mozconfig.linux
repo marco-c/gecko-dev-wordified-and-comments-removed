@@ -376,3 +376,16 @@ cairo
 -
 gtk3
 fi
+export
+SOCORRO_SYMBOL_UPLOAD_TOKEN_FILE
+=
+/
+builds
+/
+crash
+-
+stats
+-
+api
+.
+token
