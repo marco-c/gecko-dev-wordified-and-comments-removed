@@ -652,6 +652,11 @@ CheckLoadingFinished
 )
 ;
 void
+CheckLoadingFinishedAfterDelay
+(
+)
+;
+void
 DispatchLoadingFinishedEvent
 (
 const
@@ -910,6 +915,9 @@ mHasLoadingFontFaces
 ;
 bool
 mHasLoadingFontFacesIsDirty
+;
+bool
+mDelayedLoadCheck
 ;
 }
 ;
