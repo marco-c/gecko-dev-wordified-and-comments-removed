@@ -1182,7 +1182,7 @@ simulator
 =
 Simulator
 .
-getByVersion
+getByName
 (
 version
 )
