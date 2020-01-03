@@ -106,7 +106,7 @@ windowBackground
 >
 color
 /
-global_background_color
+toolbar_grey
 <
 /
 item
@@ -123,7 +123,7 @@ colorBackground
 >
 color
 /
-global_background_color
+toolbar_grey
 <
 /
 item
