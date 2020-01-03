@@ -707,6 +707,7 @@ bp
 let
 bpSet
 =
+new
 Set
 (
 bps
@@ -752,6 +753,7 @@ breakpoints
 ;
 bpSet
 =
+new
 Set
 (
 bps
@@ -830,6 +832,7 @@ url
 ;
 bpSet
 =
+new
 Set
 (
 bps

@@ -501,6 +501,7 @@ gcTypes
 typeName
 ]
 =
+new
 Set
 (
 )
@@ -539,6 +540,7 @@ gcPointers
 typeName
 ]
 =
+new
 Set
 (
 )
@@ -568,6 +570,7 @@ gcFields
 typeName
 ]
 =
+new
 Map
 (
 )
@@ -817,6 +820,7 @@ seen
 )
 seen
 =
+new
 Set
 (
 )

@@ -2063,7 +2063,14 @@ prototype
 "
 _itemsByElement
 "
+(
+)
+=
+>
+new
 Map
+(
+)
 )
 ;
 this

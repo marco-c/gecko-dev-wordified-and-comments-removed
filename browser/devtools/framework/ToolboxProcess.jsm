@@ -241,6 +241,7 @@ BrowserToolboxProcess
 let
 processes
 =
+new
 Set
 (
 )
