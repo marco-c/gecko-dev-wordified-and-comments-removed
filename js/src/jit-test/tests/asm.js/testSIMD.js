@@ -22569,7 +22569,7 @@ i4sel
 =
 i4
 .
-bitselect
+selectBits
 ;
 '
 const
@@ -22581,7 +22581,7 @@ f4sel
 =
 f4
 .
-bitselect
+selectBits
 ;
 '
 assertAsmTypeFail
@@ -25571,7 +25571,7 @@ SIMD
 .
 Int32x4
 .
-bitselect
+selectBits
 (
 mask
 x
@@ -25784,7 +25784,7 @@ SIMD
 .
 Float32x4
 .
-bitselect
+selectBits
 (
 mask
 x
