@@ -17,6 +17,12 @@ firefox
 -
 bin
 /
+gtest
+/
+*
+*
+*
+/
 pk12util
 /
 ssltunnel
