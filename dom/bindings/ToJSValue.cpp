@@ -257,6 +257,12 @@ Failed
 )
 )
 ;
+AutoForceSetExceptionOnContext
+forceExn
+(
+aCx
+)
+;
 DebugOnly
 <
 bool
