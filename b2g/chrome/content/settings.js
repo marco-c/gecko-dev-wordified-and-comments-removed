@@ -3276,6 +3276,15 @@ firefox
 com
 '
 '
+gfx
+.
+layerscope
+.
+enabled
+'
+:
+false
+'
 layers
 .
 draw
