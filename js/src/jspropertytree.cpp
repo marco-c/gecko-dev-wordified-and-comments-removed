@@ -73,6 +73,12 @@ js
 :
 gc
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 inline
 HashNumber
 ShapeHasher
