@@ -384,6 +384,14 @@ GetVersion
 )
 const
 ;
+const
+nsACString
+&
+GetPluginId
+(
+)
+const
+;
 bool
 CanBeSharedCrossNodeIds
 (
@@ -679,6 +687,9 @@ mDescription
 ;
 nsCString
 mVersion
+;
+nsCString
+mPluginId
 ;
 nsTArray
 <

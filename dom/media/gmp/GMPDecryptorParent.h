@@ -80,6 +80,16 @@ aPlugin
 )
 ;
 virtual
+const
+nsACString
+&
+GetPluginId
+(
+)
+const
+override
+;
+virtual
 nsresult
 Init
 (
@@ -443,6 +453,9 @@ nsRefPtr
 GMPParent
 >
 mPlugin
+;
+nsCString
+mPluginId
 ;
 GMPDecryptorProxyCallback
 *

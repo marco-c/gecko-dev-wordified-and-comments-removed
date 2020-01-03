@@ -231,6 +231,17 @@ GMPDecryptorProxy
 {
 }
 virtual
+const
+nsACString
+&
+GetPluginId
+(
+)
+const
+=
+0
+;
+virtual
 nsresult
 Init
 (
