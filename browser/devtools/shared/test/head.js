@@ -1262,9 +1262,7 @@ samples
 )
 {
 const
-{
 RecordingUtils
-}
 =
 devtools
 .
