@@ -4817,15 +4817,6 @@ if
 activatingWorker
 )
 {
-NS_WARNING
-(
-"
-No
-activatingWorker
-!
-"
-)
-;
 return
 ;
 }
