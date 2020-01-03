@@ -112,6 +112,9 @@ CachePushStreamChild
 *
 CreatePushStream
 (
+nsISupports
+*
+aParent
 nsIAsyncInputStream
 *
 aStream
