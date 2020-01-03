@@ -213,8 +213,15 @@ with
 XRE_main
 ifndef
 MOZ_WINCONSOLE
-ifdef
+ifneq
+(
+(
 MOZ_DEBUG
+)
+(
+MOZ_ASAN
+)
+)
 MOZ_WINCONSOLE
 =
 1
