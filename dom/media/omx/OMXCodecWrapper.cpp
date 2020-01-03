@@ -2648,6 +2648,8 @@ length
 ]
 =
 {
+uint8_t
+(
 (
 aSize
 >
@@ -2656,6 +2658,9 @@ aSize
 )
 &
 0xFF
+)
+uint8_t
+(
 (
 aSize
 >
@@ -2664,6 +2669,9 @@ aSize
 )
 &
 0xFF
+)
+uint8_t
+(
 (
 aSize
 >
@@ -2672,9 +2680,13 @@ aSize
 )
 &
 0xFF
+)
+uint8_t
+(
 aSize
 &
 0xFF
+)
 }
 ;
 aOutputBuf
@@ -4520,9 +4532,12 @@ decConfig
 =
 {
 0x04
+uint8_t
+(
 15
 +
 csdSize
+)
 0x40
 0x15
 0x00
@@ -4537,7 +4552,10 @@ csdSize
 0x77
 0x00
 0x05
+uint8_t
+(
 csdSize
+)
 }
 ;
 const

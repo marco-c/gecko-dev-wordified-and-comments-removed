@@ -98,6 +98,8 @@ size
 ]
 =
 {
+uint8_t
+(
 (
 mSize
 &
@@ -106,9 +108,13 @@ mSize
 >
 >
 8
+)
+uint8_t
+(
 mSize
 &
 0x00FF
+)
 }
 ;
 aOutputBuf
