@@ -2000,6 +2000,11 @@ jsperf
 cpp
 '
 '
+prmjtime
+.
+cpp
+'
+'
 proxy
 /
 BaseProxyHandler
@@ -2346,13 +2351,6 @@ cpp
 vm
 /
 Symbol
-.
-cpp
-'
-'
-vm
-/
-Time
 .
 cpp
 '
