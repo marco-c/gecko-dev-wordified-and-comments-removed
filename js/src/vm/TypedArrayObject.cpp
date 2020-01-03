@@ -4136,6 +4136,17 @@ TypedArrayReverse
 JS_SELF_HOSTED_FN
 (
 "
+slice
+"
+"
+TypedArraySlice
+"
+2
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 some
 "
 "
