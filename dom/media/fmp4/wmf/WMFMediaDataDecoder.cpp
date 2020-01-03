@@ -457,7 +457,7 @@ Error
 (
 )
 ;
-return
+continue
 ;
 }
 mLastStreamOffset
