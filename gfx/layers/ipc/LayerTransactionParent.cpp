@@ -2189,11 +2189,11 @@ presShellResolution
 containerLayer
 -
 >
-SetForceDispatchToContentRegion
+SetEventRegionsOverride
 (
 attrs
 .
-forceDispatchToContentRegion
+eventRegionsOverride
 (
 )
 )

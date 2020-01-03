@@ -194,8 +194,10 @@ nsIntRegion
 >
 &
 aClipRegion
-bool
-aForceDispatchToContent
+const
+EventRegionsOverride
+&
+aOverride
 )
 ;
 bool
@@ -231,8 +233,8 @@ aPoint
 )
 const
 ;
-bool
-GetForceDispatchToContent
+EventRegionsOverride
+GetEventRegionsOverride
 (
 )
 const
@@ -302,8 +304,8 @@ nsIntRegion
 >
 mClipRegion
 ;
-bool
-mForceDispatchToContent
+EventRegionsOverride
+mOverride
 ;
 }
 ;
