@@ -783,6 +783,13 @@ val
 isUndefined
 (
 )
+|
+|
+val
+.
+isSymbol
+(
+)
 )
 {
 state
@@ -1254,6 +1261,13 @@ if
 val
 .
 isUndefined
+(
+)
+|
+|
+val
+.
+isSymbol
 (
 )
 )
