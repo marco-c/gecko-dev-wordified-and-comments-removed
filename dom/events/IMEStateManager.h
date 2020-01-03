@@ -232,6 +232,10 @@ aStatus
 EventDispatchingCallback
 *
 aCallBack
+bool
+aIsSynthesized
+=
+false
 )
 ;
 static
