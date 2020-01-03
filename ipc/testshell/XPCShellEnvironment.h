@@ -110,15 +110,6 @@ ProcessFile
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-obj
 const
 char
 *
