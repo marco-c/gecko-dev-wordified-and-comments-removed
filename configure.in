@@ -62946,11 +62946,6 @@ pthread_cond_timedwait
 -
 wrap
 =
-__pthread_cond_timedwait
--
--
-wrap
-=
 pthread_cond_wait
 -
 -
