@@ -173,6 +173,14 @@ reportProcessHangs
 False
                       
 "
+focusmanager
+.
+testmode
+"
+:
+True
+                      
+"
 startup
 .
 homepage_welcome_url
