@@ -4283,6 +4283,15 @@ descriptor
 )
 :
     
+assert
+descriptor
+.
+interface
+.
+hasInterfaceObject
+(
+)
+    
 return
 descriptor
 .
@@ -6697,6 +6706,15 @@ d
 in
 descriptors
 if
+                                  
+d
+.
+interface
+.
+hasInterfaceObject
+(
+)
+and
                                   
 NeedsGeneratedHasInstance
 (
@@ -11836,6 +11854,15 @@ bp
 '
 )
 ]
+        
+assert
+descriptor
+.
+interface
+.
+hasInterfaceObject
+(
+)
         
 CGAbstractStaticMethod
 .
