@@ -532,7 +532,7 @@ const
 ;
 RenderFrameParent
 *
-GetCurrentRemoteFrame
+GetCurrentRenderFrame
 (
 )
 const

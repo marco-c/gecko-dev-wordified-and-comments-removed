@@ -1551,7 +1551,7 @@ rfp
 frameLoader
 -
 >
-GetCurrentRemoteFrame
+GetCurrentRenderFrame
 (
 )
 ;
