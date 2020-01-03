@@ -15,6 +15,7 @@ h
 "
 extern
 PLDHashTable
+*
 gHashTable
 ;
 extern
