@@ -108,7 +108,7 @@ EMEDecoderModule
 h
 '
 '
-EMEH264Decoder
+EMEVideoDecoder
 .
 h
 '
@@ -133,7 +133,7 @@ EMEDecoderModule
 cpp
 '
 '
-EMEH264Decoder
+EMEVideoDecoder
 .
 cpp
 '
