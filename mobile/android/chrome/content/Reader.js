@@ -1466,6 +1466,16 @@ new
 ChromeWorker
 (
 "
+chrome
+:
+/
+/
+global
+/
+content
+/
+reader
+/
 readerWorker
 .
 js

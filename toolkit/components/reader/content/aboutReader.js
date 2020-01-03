@@ -187,7 +187,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
