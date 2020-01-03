@@ -420,16 +420,6 @@ stub
 (
 router
 "
-loadView
-"
-)
-;
-sandbox
-.
-stub
-(
-router
-"
 loadReactComponent
 "
 )
