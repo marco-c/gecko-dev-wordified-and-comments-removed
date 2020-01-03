@@ -1750,6 +1750,16 @@ Request
 webidl
 '
 '
+RequestSyncManager
+.
+webidl
+'
+'
+RequestSyncScheduler
+.
+webidl
+'
+'
 ResourceStats
 .
 webidl
