@@ -5127,7 +5127,13 @@ mMetadataManager
 DispatchMetadataIfNeeded
 (
 mDecoder
+TimeUnit
+:
+:
+FromMicroseconds
+(
 aTime
+)
 )
 ;
 if
@@ -14267,7 +14273,9 @@ MediaDecoderStateMachine
 :
 QueueMetadata
 (
-int64_t
+const
+TimeUnit
+&
 aPublishTime
 nsAutoPtr
 <

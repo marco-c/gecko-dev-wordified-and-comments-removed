@@ -1040,7 +1040,12 @@ mAudioChannel
 void
 QueueMetadata
 (
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aPublishTime
 nsAutoPtr
 <

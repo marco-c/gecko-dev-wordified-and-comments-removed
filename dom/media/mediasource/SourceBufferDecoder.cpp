@@ -346,7 +346,12 @@ SourceBufferDecoder
 :
 QueueMetadata
 (
-int64_t
+const
+media
+:
+:
+TimeUnit
+&
 aTime
 nsAutoPtr
 <
