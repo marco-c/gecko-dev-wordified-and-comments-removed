@@ -2020,13 +2020,6 @@ initJitStackLimit
 (
 )
 ;
-void
-initJitStackLimitPar
-(
-uintptr_t
-limit
-)
-;
 uintptr_t
 jitStackLimit
 (

@@ -440,12 +440,6 @@ smallFunctionMaxBytecodeLength_
 100
 )
 ;
-SET_DEFAULT
-(
-compilerWarmUpThresholdPar
-1
-)
-;
 }
 bool
 JitOptions

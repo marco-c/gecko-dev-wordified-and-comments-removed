@@ -3362,13 +3362,6 @@ true
 ;
 enabledTextIds
 [
-TraceLogger_ParallelSafetyAnalysis
-]
-=
-true
-;
-enabledTextIds
-[
 TraceLogger_AliasAnalysis
 ]
 =
