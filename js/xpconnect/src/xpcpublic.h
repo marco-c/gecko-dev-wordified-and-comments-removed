@@ -1527,6 +1527,15 @@ JSObject
 aObj
 )
 ;
+nsGlobalWindow
+*
+AddonWindowOrNull
+(
+JSObject
+*
+aObj
+)
+;
 void
 SystemErrorReporter
 (
