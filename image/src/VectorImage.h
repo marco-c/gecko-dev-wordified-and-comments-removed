@@ -238,6 +238,11 @@ aParams
 private
 :
 void
+RecoverFromLossOfSurfaces
+(
+)
+;
+void
 CancelAllListeners
 (
 )
