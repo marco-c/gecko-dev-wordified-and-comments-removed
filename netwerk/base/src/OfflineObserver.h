@@ -36,6 +36,8 @@ uint32_t
 GetAppId
 (
 )
+=
+0
 ;
 virtual
 void
