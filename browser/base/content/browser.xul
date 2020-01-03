@@ -6708,6 +6708,11 @@ completeselectedindex
 "
 true
 "
+shrinkdelay
+=
+"
+250
+"
 tabscrolling
 =
 "
