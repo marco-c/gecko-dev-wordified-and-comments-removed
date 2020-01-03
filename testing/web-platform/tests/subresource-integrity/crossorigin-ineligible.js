@@ -1,4 +1,0 @@
-crossorigin_ineligible
-=
-true
-;
