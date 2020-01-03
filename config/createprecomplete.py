@@ -335,7 +335,7 @@ root_path
 =
 =
 "
-MacOS
+Resources
 "
 :
         
