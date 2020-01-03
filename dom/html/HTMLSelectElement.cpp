@@ -481,9 +481,7 @@ mOptions
 new
 HTMLOptionsCollection
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 )
 mAutocompleteAttrState

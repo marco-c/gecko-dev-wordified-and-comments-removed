@@ -179,9 +179,7 @@ ClientLayer
 *
 >
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 )
 aCreationHint
 )

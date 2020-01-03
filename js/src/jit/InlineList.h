@@ -1164,12 +1164,8 @@ InlineListNode
 T
 >
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
+this
 )
 {
 }

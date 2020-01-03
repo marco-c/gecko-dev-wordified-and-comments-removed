@@ -836,9 +836,7 @@ mThreshold
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendThresholdToStream
 -
 24
@@ -851,9 +849,7 @@ mKnee
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendKneeToStream
 30
 .
@@ -865,9 +861,7 @@ mRatio
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendRatioToStream
 12
 .
@@ -879,9 +873,7 @@ mReduction
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 Callback
 0
 .
@@ -893,9 +885,7 @@ mAttack
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendAttackToStream
 0
 .
@@ -907,9 +897,7 @@ mRelease
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendReleaseToStream
 0
 .

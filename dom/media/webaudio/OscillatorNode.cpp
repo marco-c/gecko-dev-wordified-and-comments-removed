@@ -1677,9 +1677,7 @@ mFrequency
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendFrequencyToStream
 440
 .
@@ -1691,9 +1689,7 @@ mDetune
 new
 AudioParam
 (
-MOZ_THIS_IN_INITIALIZER_LIST
-(
-)
+this
 SendDetuneToStream
 0
 .
