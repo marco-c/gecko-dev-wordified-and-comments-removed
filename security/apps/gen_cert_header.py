@@ -154,14 +154,6 @@ trustedAppTestRoot
 '
 xpcshellRoot
 '
-  
-'
-addonsPublicRoot
-'
-  
-'
-addonsStageRoot
-'
 ]
 for
 n

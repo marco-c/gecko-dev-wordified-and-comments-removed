@@ -518,9 +518,6 @@ targetPlatforms
 "
 multiprocessCompatible
 "
-"
-signedState
-"
 ]
 ;
 const
