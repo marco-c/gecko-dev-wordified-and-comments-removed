@@ -1971,6 +1971,13 @@ EvaluateAnimation
 (
 )
 ;
+mSVGDocumentWrapper
+-
+>
+TickRefreshDriver
+(
+)
+;
 if
 (
 mHasPendingInvalidation
