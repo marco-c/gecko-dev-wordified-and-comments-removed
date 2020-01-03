@@ -13,9 +13,9 @@ version
 "
 1
 .
-8
+29
 .
-8
+1
 "
 "
 description
@@ -32,6 +32,13 @@ node
 .
 js
 .
+"
+"
+license
+"
+:
+"
+MIT
 "
 "
 keywords

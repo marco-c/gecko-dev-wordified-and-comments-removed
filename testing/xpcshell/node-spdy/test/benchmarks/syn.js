@@ -153,6 +153,15 @@ spdy
 2
 '
 ]
+ALPNProtocols
+:
+[
+'
+spdy
+/
+2
+'
+]
 }
 function
 (
