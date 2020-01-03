@@ -4693,14 +4693,6 @@ Clear
 <
 !
 ENTITY
-button_remember
-"
-Remember
-"
->
-<
-!
-ENTITY
 button_copy
 "
 Copy
