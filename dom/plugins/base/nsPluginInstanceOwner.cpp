@@ -2578,10 +2578,16 @@ if
 (
 !
 aDocument
+|
+|
+!
+mContent
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 NS_IF_ADDREF
 (
 *
