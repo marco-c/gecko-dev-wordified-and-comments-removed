@@ -1660,6 +1660,13 @@ cpp
 '
 proxy
 /
+CrossCompartmentWrapper
+.
+cpp
+'
+'
+proxy
+/
 DeadObjectProxy
 .
 cpp
