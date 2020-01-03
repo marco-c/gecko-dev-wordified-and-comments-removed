@@ -285,16 +285,11 @@ psm
 :
 SharedSSLState
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 static
 nsresult
 attemptToLogInWithDefaultPassword

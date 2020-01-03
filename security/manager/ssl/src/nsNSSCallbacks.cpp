@@ -155,16 +155,11 @@ mozilla
 :
 psm
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 static
 void
 AccumulateCipherSuite
@@ -1374,9 +1369,6 @@ retry_count
 max_retries
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 retry_count
@@ -1437,8 +1429,6 @@ retry_count
 )
 ;
 }
-#
-endif
 return
 result_sec_status
 ;
@@ -2603,9 +2593,6 @@ req
 )
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 NS_FAILED
@@ -2634,8 +2621,6 @@ aStatus
 )
 ;
 }
-#
-endif
 if
 (
 NS_SUCCEEDED

@@ -319,16 +319,11 @@ FALSE_START_REQUIRE_NPN_DEFAULT
 false
 ;
 }
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 nsNSSSocketInfo
 :
 :

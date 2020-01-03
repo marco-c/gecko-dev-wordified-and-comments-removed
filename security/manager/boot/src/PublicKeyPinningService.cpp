@@ -141,12 +141,6 @@ mozilla
 :
 psm
 ;
-#
-if
-defined
-(
-PR_LOGGING
-)
 PRLogModuleInfo
 *
 gPublicKeyPinningLog
@@ -158,8 +152,6 @@ PublicKeyPinningService
 "
 )
 ;
-#
-endif
 static
 nsresult
 GetBase64HashSPKI

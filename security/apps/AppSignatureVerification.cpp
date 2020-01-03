@@ -227,16 +227,11 @@ mozilla
 :
 psm
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 namespace
 {
 nsresult

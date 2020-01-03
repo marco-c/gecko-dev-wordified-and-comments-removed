@@ -334,16 +334,11 @@ mozilla
 :
 psm
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 #
 define
 CERT_TYPE_NOT_YET_INITIALIZED

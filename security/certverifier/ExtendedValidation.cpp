@@ -70,16 +70,11 @@ prinit
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 #
 define
 CONST_OID

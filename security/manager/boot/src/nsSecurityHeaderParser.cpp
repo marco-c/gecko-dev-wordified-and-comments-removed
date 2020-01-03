@@ -253,12 +253,6 @@ chr
 )
 ;
 }
-#
-if
-defined
-(
-PR_LOGGING
-)
 static
 PRLogModuleInfo
 *
@@ -291,8 +285,6 @@ return
 sSHParserLog
 ;
 }
-#
-endif
 #
 define
 SHPARSERLOG

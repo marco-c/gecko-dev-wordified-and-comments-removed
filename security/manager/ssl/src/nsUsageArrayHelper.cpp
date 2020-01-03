@@ -97,16 +97,11 @@ mozilla
 :
 psm
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gPIPNSSLog
 ;
-#
-endif
 static
 NS_DEFINE_CID
 (

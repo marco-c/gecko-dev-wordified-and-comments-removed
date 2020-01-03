@@ -107,17 +107,12 @@ mozilla
 :
 psm
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gCertVerifierLog
 =
 nullptr
 ;
-#
-endif
 namespace
 mozilla
 {
@@ -204,9 +199,6 @@ InitCertVerifierLog
 (
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -223,8 +215,6 @@ certverifier
 )
 ;
 }
-#
-endif
 }
 SECStatus
 IsCertBuiltInRoot
