@@ -1176,6 +1176,11 @@ _
 (
 RecompileCheck
 )
+\
+_
+(
+UnknownValue
+)
 #
 define
 FORWARD_DECLARE
