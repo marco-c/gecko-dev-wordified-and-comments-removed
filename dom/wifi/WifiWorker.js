@@ -6377,6 +6377,10 @@ setWifiTethering
 (
 enabled
 WifiNetworkInterface
+.
+info
+.
+name
 configuration
 function
 (
