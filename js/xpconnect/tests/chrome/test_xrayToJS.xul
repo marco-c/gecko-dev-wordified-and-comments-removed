@@ -2200,6 +2200,12 @@ values
 "
 slice
 "
+"
+map
+"
+"
+filter
+"
 ]
 ;
 if
