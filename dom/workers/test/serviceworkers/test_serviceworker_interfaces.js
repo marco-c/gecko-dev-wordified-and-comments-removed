@@ -426,9 +426,6 @@ false
 android
 :
 false
-release
-:
-false
 }
 {
 name
@@ -440,9 +437,6 @@ b2g
 :
 false
 android
-:
-false
-release
 :
 false
 }
@@ -458,9 +452,6 @@ false
 android
 :
 false
-release
-:
-false
 }
 {
 name
@@ -472,9 +463,6 @@ b2g
 :
 false
 android
-:
-false
-release
 :
 false
 }
