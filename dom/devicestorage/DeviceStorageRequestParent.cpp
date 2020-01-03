@@ -226,7 +226,7 @@ blobParent
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -354,7 +354,7 @@ blobParent
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blobImpl
 =
@@ -2283,12 +2283,12 @@ fullPath
 ;
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 blob
 =
 new
-FileImplFile
+BlobImplFile
 (
 fullPath
 mime
@@ -2325,7 +2325,7 @@ actor
 cp
 -
 >
-GetOrCreateActorForFileImpl
+GetOrCreateActorForBlobImpl
 (
 blob
 )

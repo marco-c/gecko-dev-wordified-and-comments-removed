@@ -2014,7 +2014,7 @@ aContentType
 {
 nsRefPtr
 <
-FileImpl
+BlobImpl
 >
 impl
 =

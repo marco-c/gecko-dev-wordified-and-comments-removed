@@ -72,7 +72,7 @@ FILEIMPLSNAPSHOT_IID
 }
 }
 class
-PIFileImplSnapshot
+PIBlobImplSnapshot
 :
 public
 nsISupports
@@ -87,7 +87,7 @@ FILEIMPLSNAPSHOT_IID
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-PIFileImplSnapshot
+PIBlobImplSnapshot
 FILEIMPLSNAPSHOT_IID
 )
 namespace
@@ -106,13 +106,13 @@ class
 IDBFileHandle
 ;
 class
-FileImplSnapshot
+BlobImplSnapshot
 final
 :
 public
-FileImplBase
+BlobImplBase
 public
-PIFileImplSnapshot
+PIBlobImplSnapshot
 {
 typedef
 mozilla
@@ -138,7 +138,7 @@ mWholeFile
 ;
 public
 :
-FileImplSnapshot
+BlobImplSnapshot
 (
 const
 nsAString
@@ -165,10 +165,10 @@ aFileInfo
 NS_DECL_ISUPPORTS_INHERITED
 private
 :
-FileImplSnapshot
+BlobImplSnapshot
 (
 const
-FileImplSnapshot
+BlobImplSnapshot
 *
 aOther
 uint64_t
@@ -182,7 +182,7 @@ aContentType
 )
 ;
 ~
-FileImplSnapshot
+BlobImplSnapshot
 (
 )
 ;
@@ -240,7 +240,7 @@ false
 virtual
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 CreateSlice
 (

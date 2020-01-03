@@ -234,7 +234,7 @@ nsACString
 aEncoding
 )
 :
-mFileImpl
+mBlobImpl
 (
 aBlob
 .
@@ -385,7 +385,7 @@ nsIInputStream
 aInputStream
 )
 {
-mFileImpl
+mBlobImpl
 -
 >
 GetInternalStream
@@ -421,7 +421,7 @@ rv
 *
 aSize
 =
-mFileImpl
+mBlobImpl
 -
 >
 GetSize
@@ -773,7 +773,7 @@ this
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 ArchiveReader
-mFileImpl
+mBlobImpl
 mWindow
 mData
 .

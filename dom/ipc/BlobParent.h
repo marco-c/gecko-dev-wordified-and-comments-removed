@@ -101,7 +101,7 @@ class
 ContentParent
 ;
 class
-FileImpl
+BlobImpl
 ;
 class
 nsIContentParent
@@ -165,7 +165,7 @@ Mutex
 >
 sIDTableMutex
 ;
-FileImpl
+BlobImpl
 *
 mBlobImpl
 ;
@@ -230,7 +230,7 @@ GetOrCreate
 nsIContentParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -243,7 +243,7 @@ GetOrCreate
 PBackgroundParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )
@@ -299,7 +299,7 @@ aActor
 static
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 GetBlobImplForID
 (
@@ -346,7 +346,7 @@ mContentManager
 }
 already_AddRefed
 <
-FileImpl
+BlobImpl
 >
 GetBlobImpl
 (
@@ -394,7 +394,7 @@ BlobParent
 nsIContentParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 IDTableEntry
@@ -407,7 +407,7 @@ BlobParent
 PBackgroundParent
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 IDTableEntry
@@ -431,7 +431,7 @@ aIDTableEntry
 void
 CommonInit
 (
-FileImpl
+BlobImpl
 *
 aBlobImpl
 IDTableEntry
@@ -452,7 +452,7 @@ GetOrCreateFromImpl
 ParentManagerType
 *
 aManager
-FileImpl
+BlobImpl
 *
 aBlobImpl
 )

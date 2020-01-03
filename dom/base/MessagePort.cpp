@@ -394,7 +394,7 @@ empty
 "
 )
 ;
-FileImpl
+BlobImpl
 *
 blobImpl
 ;
@@ -667,7 +667,7 @@ blob
 )
 )
 {
-FileImpl
+BlobImpl
 *
 blobImpl
 =

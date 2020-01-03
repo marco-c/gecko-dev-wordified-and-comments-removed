@@ -1002,7 +1002,7 @@ CloseFile
 }
 }
 void
-OpenFileImpl
+OpenBlobImpl
 (
 )
 {
@@ -1084,7 +1084,7 @@ NS_IsMainThread
 )
 )
 ;
-OpenFileImpl
+OpenBlobImpl
 (
 )
 ;

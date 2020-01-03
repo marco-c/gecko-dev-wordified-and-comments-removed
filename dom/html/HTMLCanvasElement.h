@@ -857,7 +857,7 @@ aDataURL
 )
 ;
 nsresult
-MozGetAsFileImpl
+MozGetAsBlobImpl
 (
 const
 nsAString
