@@ -134,7 +134,13 @@ GetOverscroll
 const
 ;
 bool
-SampleSnapBack
+IsInUnderscroll
+(
+)
+const
+;
+bool
+SampleOverscrollAnimation
 (
 const
 TimeDuration
@@ -368,6 +374,9 @@ mAsyncPanZoomController
 ;
 ScreenCoord
 mOverscroll
+;
+bool
+mInUnderscroll
 ;
 nsTArray
 <

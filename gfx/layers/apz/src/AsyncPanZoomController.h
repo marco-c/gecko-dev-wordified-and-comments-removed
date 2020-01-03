@@ -1094,7 +1094,7 @@ CROSS_SLIDING_X
 CROSS_SLIDING_Y
 PINCHING
 ANIMATING_ZOOM
-SNAP_BACK
+OVERSCROLL_ANIMATION
 SMOOTH_SCROLL
 }
 ;
@@ -1222,7 +1222,7 @@ FlingAnimation
 ;
 friend
 class
-OverscrollSnapBackAnimation
+OverscrollAnimation
 ;
 friend
 class
@@ -1277,13 +1277,15 @@ OverscrollHandoffChain
 aOverscrollHandoffChain
 bool
 aHandoff
-bool
-aAllowOverscroll
 )
 ;
 void
-StartSnapBack
+StartOverscrollAnimation
 (
+const
+ScreenPoint
+&
+aVelocity
 )
 ;
 void
