@@ -47,6 +47,8 @@ nsMenuFrame
 aMenuItem
 bool
 aSelectFirstItem
+bool
+aFromKey
 )
 =
 0

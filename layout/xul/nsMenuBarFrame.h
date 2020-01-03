@@ -127,6 +127,8 @@ nsMenuFrame
 aMenuItem
 bool
 aSelectFirstItem
+bool
+aFromKey
 )
 override
 ;
