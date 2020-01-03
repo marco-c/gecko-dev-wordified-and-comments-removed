@@ -521,11 +521,6 @@ EXPORTS
 =
 [
 '
-AsyncScrollBase
-.
-h
-'
-'
 nsCanvasFrame
 .
 h
@@ -710,11 +705,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-AsyncScrollBase
-.
-cpp
-'
 '
 FrameChildList
 .
