@@ -1157,6 +1157,12 @@ ogg
 -
 video
 /
+skip
+-
+if
+(
+browserIsRemote
+)
 include
 ogg
 -
@@ -1170,6 +1176,12 @@ webm
 -
 video
 /
+skip
+-
+if
+(
+browserIsRemote
+)
 include
 webm
 -
