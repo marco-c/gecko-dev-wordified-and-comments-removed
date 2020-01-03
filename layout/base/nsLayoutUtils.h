@@ -641,7 +641,7 @@ MOZ_END_NESTED_ENUM_CLASS
 RepaintMode
 )
 static
-void
+bool
 SetDisplayPortMargins
 (
 nsIContent
@@ -4669,6 +4669,17 @@ aValue
 ;
 }
 }
+static
+bool
+CalculateAndSetDisplayPortMargins
+(
+nsIScrollableFrame
+*
+aScrollFrame
+RepaintMode
+aRepaintMode
+)
+;
 static
 bool
 GetOrMaybeCreateDisplayPort
