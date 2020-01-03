@@ -1266,13 +1266,6 @@ cpp
 '
 jit
 /
-JitOptions
-.
-cpp
-'
-'
-jit
-/
 JitSpewer
 .
 cpp
@@ -2094,6 +2087,13 @@ cpp
 frontend
 /
 Parser
+.
+cpp
+'
+'
+jit
+/
+JitOptions
 .
 cpp
 '
