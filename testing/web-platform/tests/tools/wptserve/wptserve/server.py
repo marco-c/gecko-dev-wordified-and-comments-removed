@@ -1783,6 +1783,8 @@ write
 (
 )
             
+self
+.
 logger
 .
 error

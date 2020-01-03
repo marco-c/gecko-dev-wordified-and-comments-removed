@@ -212,6 +212,15 @@ default
 boolean
 "
 }
+dialog
+:
+{
+open
+:
+"
+boolean
+"
+}
 undefinedelement
 :
 {
