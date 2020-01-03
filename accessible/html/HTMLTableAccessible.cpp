@@ -1997,6 +1997,7 @@ HTMLTableAccessible
 Caption
 (
 )
+const
 {
 Accessible
 *

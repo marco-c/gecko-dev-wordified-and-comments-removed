@@ -961,9 +961,6 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-nsresult
-rv
-=
 acc
 -
 >
@@ -975,10 +972,7 @@ aY
 )
 ;
 return
-GetHRESULT
-(
-rv
-)
+S_OK
 ;
 A11Y_TRYBLOCK_END
 }

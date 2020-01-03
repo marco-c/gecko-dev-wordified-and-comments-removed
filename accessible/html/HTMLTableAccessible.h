@@ -114,12 +114,14 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
 NativeState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
@@ -127,6 +129,7 @@ NativeInteractiveState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -278,6 +281,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -324,6 +328,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -393,6 +398,7 @@ Accessible
 Caption
 (
 )
+const
 ;
 virtual
 void
@@ -662,12 +668,14 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
 NativeState
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -796,6 +804,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Relation

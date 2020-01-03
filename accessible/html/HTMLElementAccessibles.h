@@ -57,6 +57,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -97,12 +98,14 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint64_t
 NativeState
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -152,6 +155,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 Relation
@@ -217,6 +221,7 @@ role
 NativeRole
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
