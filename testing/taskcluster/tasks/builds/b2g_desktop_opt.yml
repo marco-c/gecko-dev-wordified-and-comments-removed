@@ -28,5 +28,5 @@ mozconfigs
 /
 linux64_gecko
 /
-debug
+nightly
 '
