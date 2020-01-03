@@ -4838,14 +4838,13 @@ switchtab
 +
 escapedURL
 "
-action
+switchtab
 "
 ]
 :
 [
 escapedURL
-"
-"
+null
 ]
 ;
 let
@@ -5005,9 +5004,7 @@ style
 action
 "
 +
-match
-.
-style
+action
 ;
 match
 .
