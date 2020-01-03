@@ -65,9 +65,6 @@ JSObject2WrappedJSMap
 if
 (
 map
-&
-&
-map
 -
 >
 mTable
