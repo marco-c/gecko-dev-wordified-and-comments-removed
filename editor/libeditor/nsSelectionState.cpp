@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -407,7 +400,7 @@ nsSelectionState
 :
 RestoreSelection
 (
-nsISelection
+Selection
 *
 aSel
 )

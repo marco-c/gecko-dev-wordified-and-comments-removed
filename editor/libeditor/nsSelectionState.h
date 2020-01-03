@@ -49,9 +49,6 @@ class
 nsIDOMRange
 ;
 class
-nsISelection
-;
-class
 nsRange
 ;
 namespace
@@ -174,7 +171,13 @@ aSel
 nsresult
 RestoreSelection
 (
-nsISelection
+mozilla
+:
+:
+dom
+:
+:
+Selection
 *
 aSel
 )

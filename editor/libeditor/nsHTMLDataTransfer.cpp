@@ -410,13 +410,6 @@ h
 #
 include
 "
-nsISelection
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
