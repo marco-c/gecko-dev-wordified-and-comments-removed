@@ -44,6 +44,13 @@ AttributeSet
 import
 android
 .
+util
+.
+DisplayMetrics
+;
+import
+android
+.
 view
 .
 ViewGroup

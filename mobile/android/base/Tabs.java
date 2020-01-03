@@ -47,6 +47,13 @@ atomic
 AtomicInteger
 ;
 import
+android
+.
+graphics
+.
+Bitmap
+;
+import
 org
 .
 json
