@@ -1794,6 +1794,14 @@ _shouldHaveSyncKeyBundle
 false
 ;
 }
+prefetchMigrationSentinel
+:
+function
+(
+service
+)
+{
+}
 _getSyncCredentialsHosts
 :
 function
