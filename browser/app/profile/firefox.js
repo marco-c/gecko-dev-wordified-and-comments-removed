@@ -14413,6 +14413,16 @@ pref
 "
 loop
 .
+showPartnerLogo
+"
+true
+)
+;
+pref
+(
+"
+loop
+.
 gettingStarted
 .
 seen
