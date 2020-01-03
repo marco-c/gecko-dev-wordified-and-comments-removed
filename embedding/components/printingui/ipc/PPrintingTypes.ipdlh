@@ -301,6 +301,11 @@ isIFrameSelected
 bool
 isRangeSelection
 ;
+uint8_t
+[
+]
+devModeData
+;
 /
 *
 *
