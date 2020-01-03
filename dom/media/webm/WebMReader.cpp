@@ -512,7 +512,7 @@ format
 if
 (
 !
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gNesteggLog
 PR_LOG_DEBUG

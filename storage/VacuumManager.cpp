@@ -1090,7 +1090,7 @@ get
 endif
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gStorageLog
 PR_LOG_ERROR

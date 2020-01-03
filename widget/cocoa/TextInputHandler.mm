@@ -6205,7 +6205,7 @@ event
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_ALWAYS
@@ -9001,7 +9001,7 @@ DebugPrintAllKeyboardLayouts
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_ALWAYS
@@ -14483,7 +14483,7 @@ sLatestIMEOpenedModeInputSourceID
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_ALWAYS
@@ -15102,7 +15102,7 @@ DebugPrintAllIMEModes
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_ALWAYS
@@ -22772,7 +22772,7 @@ IsOpenedIMEMode
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gLog
 PR_LOG_ALWAYS

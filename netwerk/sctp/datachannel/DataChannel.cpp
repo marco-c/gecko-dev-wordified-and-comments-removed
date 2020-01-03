@@ -753,7 +753,7 @@ buffer
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetSCTPLog
 (
@@ -1358,7 +1358,7 @@ debug_printf
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetSCTPLog
 (
@@ -3095,7 +3095,7 @@ len
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetSCTPLog
 (
@@ -3247,7 +3247,7 @@ res
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 GetSCTPLog
 (

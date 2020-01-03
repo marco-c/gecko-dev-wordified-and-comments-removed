@@ -80,7 +80,7 @@ define
 LOG_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gUrlClassifierDbServiceLog
 PR_LOG_DEBUG

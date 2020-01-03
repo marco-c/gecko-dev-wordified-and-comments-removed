@@ -2918,7 +2918,7 @@ rv
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gContentSinkLog
 PR_LOG_ERROR
@@ -3085,7 +3085,7 @@ rv
 {
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gContentSinkLog
 PR_LOG_ERROR
@@ -3930,7 +3930,7 @@ rv
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 gContentSinkLog
 PR_LOG_DEBUG

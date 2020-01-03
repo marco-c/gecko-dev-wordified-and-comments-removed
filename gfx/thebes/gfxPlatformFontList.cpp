@@ -142,7 +142,7 @@ define
 LOG_FONTLIST_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 \
 gfxPlatform
@@ -179,7 +179,7 @@ define
 LOG_FONTINIT_ENABLED
 (
 )
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 \
 gfxPlatform
@@ -3035,7 +3035,7 @@ if
 (
 MOZ_UNLIKELY
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 log
 PR_LOG_WARNING

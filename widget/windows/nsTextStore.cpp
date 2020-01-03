@@ -10685,7 +10685,7 @@ hr
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 sTextStoreLog
 PR_LOG_DEBUG
@@ -22811,7 +22811,7 @@ hr
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 sTextStoreLog
 PR_LOG_ALWAYS

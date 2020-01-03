@@ -4519,7 +4519,7 @@ rv
 ;
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 nsComponentManagerLog
 PR_LOG_DEBUG
@@ -5055,7 +5055,7 @@ NS_ERROR_FACTORY_NOT_REGISTERED
 }
 if
 (
-PR_LOG_TEST
+MOZ_LOG_TEST
 (
 nsComponentManagerLog
 PR_LOG_WARNING
