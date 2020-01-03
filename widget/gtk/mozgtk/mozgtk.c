@@ -55,7 +55,7 @@ gdk_color_free
 )
 STUB
 (
-gdk_cursor_new
+gdk_cursor_new_for_display
 )
 STUB
 (
