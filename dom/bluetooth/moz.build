@@ -576,6 +576,13 @@ cpp
 '
 bluedroid
 /
+BluetoothDaemonGattInterface
+.
+cpp
+'
+'
+bluedroid
+/
 BluetoothDaemonHandsfreeInterface
 .
 cpp
