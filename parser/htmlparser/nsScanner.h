@@ -91,6 +91,7 @@ nsScanner
 {
 public
 :
+explicit
 nsScanner
 (
 const

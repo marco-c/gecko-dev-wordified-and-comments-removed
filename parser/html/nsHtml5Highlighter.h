@@ -48,6 +48,7 @@ nsHtml5Highlighter
 {
 public
 :
+explicit
 nsHtml5Highlighter
 (
 nsAHtml5TreeOpSink

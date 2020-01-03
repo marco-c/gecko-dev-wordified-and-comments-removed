@@ -282,6 +282,7 @@ position
 {
 }
 inline
+explicit
 Position
 (
 const
@@ -345,6 +346,7 @@ uint32_t
 capacity
 )
 ;
+explicit
 nsScannerBufferList
 (
 Buffer
@@ -593,6 +595,7 @@ nsScannerSubstring
 (
 )
 ;
+explicit
 nsScannerSubstring
 (
 const
@@ -892,6 +895,7 @@ nsScannerSubstring
 {
 public
 :
+explicit
 nsScannerString
 (
 Buffer
