@@ -2545,6 +2545,9 @@ hbox
 groupbox
 >
 <
+groupbox
+>
+<
 vbox
 >
 <
@@ -2702,6 +2705,10 @@ hbox
 <
 /
 vbox
+>
+<
+/
+groupbox
 >
 <
 spacer
