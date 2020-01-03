@@ -1090,8 +1090,7 @@ nsPluginFrame
 *
 mPluginFrame
 ;
-nsIContent
-*
+nsWeakPtr
 mContent
 ;
 nsCString
