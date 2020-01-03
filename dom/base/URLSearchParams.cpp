@@ -1534,6 +1534,10 @@ URLParams
 (
 )
 )
+mObserver
+(
+aObserver
+)
 {
 }
 URLSearchParams
@@ -1561,6 +1565,12 @@ get
 (
 )
 )
+)
+mObserver
+(
+aOther
+.
+mObserver
 )
 {
 }
