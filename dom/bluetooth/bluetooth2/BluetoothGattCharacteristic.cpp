@@ -888,11 +888,6 @@ aValue
 )
 const
 {
-MOZ_ASSERT
-(
-aValue
-)
-;
 aValue
 .
 set
