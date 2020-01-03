@@ -1059,7 +1059,6 @@ ccx
 call
 0
 0
-obj
 name
 )
 )
@@ -1340,7 +1339,6 @@ ccx
 XPC_WN_DoubleWrappedGetter
 0
 0
-obj
 name
 )
 ;

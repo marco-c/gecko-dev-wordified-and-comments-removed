@@ -233,7 +233,6 @@ cx
 CustomMethod
 0
 0
-customA
 "
 customMethodA
 "
@@ -361,7 +360,6 @@ cx
 CustomMethod
 0
 0
-customB
 "
 customMethodB
 "

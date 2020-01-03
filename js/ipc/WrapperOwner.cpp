@@ -2154,7 +2154,6 @@ cx
 CPOWToString
 0
 0
-proxy
 "
 toString
 "

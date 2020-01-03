@@ -27952,12 +27952,6 @@ nsDocument
 CustomElementConstructor
 0
 JSFUN_CONSTRUCTOR
-JS
-:
-:
-NullPtr
-(
-)
 NS_ConvertUTF16toUTF8
 (
 lcType

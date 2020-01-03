@@ -101,7 +101,6 @@ JSNative
 1
 0
 0
-global
 "
 dys
 "
@@ -132,8 +131,7 @@ JSNative
 1
 0
 0
-global
-0
+nullptr
 )
 )
 ;
@@ -157,7 +155,6 @@ JSNative
 1
 0
 0
-global
 "
 formFollows
 "

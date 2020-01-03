@@ -7142,7 +7142,6 @@ cx
 InterfaceObjectToString
 0
 0
-wrapper
 "
 toString
 "

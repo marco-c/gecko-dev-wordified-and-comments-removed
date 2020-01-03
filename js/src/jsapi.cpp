@@ -15412,8 +15412,6 @@ unsigned
 nargs
 unsigned
 flags
-HandleObject
-parent
 const
 char
 *
@@ -15450,12 +15448,6 @@ cx
 CHECK_REQUEST
 (
 cx
-)
-;
-assertSameCompartment
-(
-cx
-parent
 )
 ;
 RootedAtom
@@ -15511,7 +15503,9 @@ NullPtr
 native
 nargs
 funFlags
-parent
+NullPtr
+(
+)
 atom
 )
 ;
