@@ -176,14 +176,6 @@ attribute
 Clients
 clients
 ;
-[
-Unforgeable
-]
-readonly
-attribute
-DOMString
-scope
-;
 /
 /
 FIXME
