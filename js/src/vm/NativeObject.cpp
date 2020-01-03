@@ -7020,6 +7020,7 @@ cx
 obj
 shape
 attrs
+|
 JSPROP_GETTER
 |
 JSPROP_SETTER
@@ -7067,6 +7068,17 @@ false
 ;
 }
 }
+if
+(
+shouldDefine
+)
+attrs
+|
+=
+JSPROP_GETTER
+|
+JSPROP_SETTER
+;
 }
 else
 if
