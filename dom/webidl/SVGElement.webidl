@@ -159,6 +159,9 @@ xmlbase
 ;
 *
 /
+[
+Constant
+]
 readonly
 attribute
 SVGAnimatedString

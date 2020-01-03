@@ -144,6 +144,9 @@ SVGPathElement
 :
 SVGGraphicsElement
 {
+[
+Constant
+]
 readonly
 attribute
 SVGAnimatedNumber

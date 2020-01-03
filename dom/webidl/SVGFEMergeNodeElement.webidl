@@ -144,6 +144,9 @@ SVGFEMergeNodeElement
 :
 SVGElement
 {
+[
+Constant
+]
 readonly
 attribute
 SVGAnimatedString

@@ -144,6 +144,9 @@ SVGFEComponentTransferElement
 :
 SVGElement
 {
+[
+Constant
+]
 readonly
 attribute
 SVGAnimatedString
