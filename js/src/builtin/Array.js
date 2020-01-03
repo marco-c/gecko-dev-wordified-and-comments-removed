@@ -188,7 +188,7 @@ length
 <
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -410,7 +410,7 @@ length
 <
 1
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -622,7 +622,7 @@ length
 <
 2
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -641,7 +641,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -712,7 +712,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -733,7 +733,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -821,7 +821,7 @@ length
 <
 2
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -840,7 +840,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -911,7 +911,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -932,7 +932,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1035,7 +1035,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1056,7 +1056,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1157,7 +1157,7 @@ length
 <
 2
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1176,7 +1176,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1228,7 +1228,7 @@ length
 <
 2
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1247,7 +1247,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1317,7 +1317,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1338,7 +1338,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1383,7 +1383,7 @@ len
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
@@ -1456,7 +1456,7 @@ if
 !
 kPresent
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
@@ -1516,7 +1516,7 @@ length
 <
 2
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1535,7 +1535,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1609,7 +1609,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1630,7 +1630,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1677,7 +1677,7 @@ len
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
@@ -1751,7 +1751,7 @@ if
 !
 kPresent
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
 )
@@ -1812,7 +1812,7 @@ length
 <
 2
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1831,7 +1831,7 @@ IsCallable
 callbackfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -1905,7 +1905,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -1926,7 +1926,7 @@ IsCallable
 predicate
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -2029,7 +2029,7 @@ length
 =
 0
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_MISSING_FUN_ARG
 0
@@ -2050,7 +2050,7 @@ IsCallable
 predicate
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -2992,7 +2992,7 @@ IsCallable
 mapfn
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NOT_FUNCTION
 DecompileArg
@@ -3086,7 +3086,7 @@ IsObject
 next
 )
 )
-ThrowError
+ThrowTypeError
 (
 JSMSG_NEXT_RETURNED_PRIMITIVE
 )
