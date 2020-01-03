@@ -106,6 +106,9 @@ tests
 '
 ssltunnel
 '
+'
+BrowserTestUtils
+'
 ]
 if
 CONFIG
