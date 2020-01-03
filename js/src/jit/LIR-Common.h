@@ -13980,6 +13980,7 @@ LIR_HEADER
 (
 OsrEntry
 )
+explicit
 LOsrEntry
 (
 const
