@@ -470,15 +470,6 @@ file
 ;
 1
 "
-implementationLanguage
-:
-Components
-.
-interfaces
-.
-nsIProgrammingLanguage
-.
-JAVASCRIPT
 flags
 :
 0

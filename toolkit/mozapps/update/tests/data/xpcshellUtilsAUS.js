@@ -15697,13 +15697,6 @@ Ci
 nsIClassInfo
 .
 SINGLETON
-implementationLanguage
-:
-Ci
-.
-nsIProgrammingLanguage
-.
-JAVASCRIPT
 getScriptableHelper
 :
 function
@@ -15932,13 +15925,6 @@ Ci
 nsIClassInfo
 .
 SINGLETON
-implementationLanguage
-:
-Ci
-.
-nsIProgrammingLanguage
-.
-JAVASCRIPT
 getScriptableHelper
 :
 function

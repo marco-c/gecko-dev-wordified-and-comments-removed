@@ -357,15 +357,6 @@ blob
 ;
 1
 "
-implementationLanguage
-:
-Components
-.
-interfaces
-.
-nsIProgrammingLanguage
-.
-JAVASCRIPT
 flags
 :
 0

@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsIProgrammingLanguage
-.
-h
-"
-#
-include
-"
 nsRefPtr
 .
 h

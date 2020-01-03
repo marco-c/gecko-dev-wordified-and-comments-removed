@@ -248,13 +248,6 @@ classID
 classInfo
 .
 classID
-implementationLanguage
-:
-Ci
-.
-nsIProgrammingLanguage
-.
-JAVASCRIPT
 flags
 :
 classInfo
