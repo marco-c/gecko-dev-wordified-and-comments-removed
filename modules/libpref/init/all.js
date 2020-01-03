@@ -34916,13 +34916,6 @@ enabled
 false
 )
 ;
-#
-if
-!
-defined
-(
-RELEASE_BUILD
-)
 pref
 (
 "
@@ -34932,11 +34925,9 @@ push
 .
 debug
 "
-true
+false
 )
 ;
-#
-endif
 pref
 (
 "
