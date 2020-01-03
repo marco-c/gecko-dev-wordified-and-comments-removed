@@ -7368,15 +7368,6 @@ registeredPool
 this
 .
 threadLifetimePool
-getGlobalDebugObject
-:
-(
-)
-=
->
-this
-.
-globalDebugObject
 }
 )
 ;
