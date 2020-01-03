@@ -95,6 +95,9 @@ virtual
 bool
 RecvCreate
 (
+nsresult
+*
+aResult
 )
 MOZ_OVERRIDE
 ;
