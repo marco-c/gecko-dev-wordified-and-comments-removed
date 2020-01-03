@@ -181,6 +181,11 @@ nsCSSProperty
 h
 '
 '
+nsCSSPropertySet
+.
+h
+'
+'
 nsCSSPropList
 .
 h
