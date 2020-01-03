@@ -192,6 +192,15 @@ aName
 )
 const
 ;
+void
+Description
+(
+nsString
+&
+aDesc
+)
+const
+;
 uintptr_t
 GetWrapper
 (
