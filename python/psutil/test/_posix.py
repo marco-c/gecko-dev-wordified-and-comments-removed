@@ -18,15 +18,17 @@ py
 "
 "
 import
-datetime
-import
-os
+unittest
 import
 subprocess
 import
+time
+import
 sys
 import
-time
+os
+import
+datetime
 import
 psutil
 from
@@ -38,26 +40,7 @@ PY3
 from
 test_psutil
 import
-LINUX
-SUNOS
-OSX
-BSD
-PYTHON
-from
-test_psutil
-import
-(
-get_test_subprocess
-skip_on_access_denied
-                         
-retry_before_failing
-reap_children
-sh
-unittest
-                         
-get_kernel_version
-wait_for_pid
-)
+*
 def
 ps
 (
@@ -270,16 +253,14 @@ utility
 "
 "
     
-classmethod
-    
 def
-setUpClass
+setUp
 (
-cls
+self
 )
 :
         
-cls
+self
 .
 pid
 =
@@ -296,7 +277,7 @@ E
 O
 "
 ]
-                                      
+                                       
 stdin
 =
 subprocess
@@ -305,20 +286,11 @@ PIPE
 )
 .
 pid
-        
-wait_for_pid
-(
-cls
-.
-pid
-)
-    
-classmethod
     
 def
-tearDownClass
+tearDown
 (
-cls
+self
 )
 :
         
@@ -370,8 +342,6 @@ pid
 )
 .
 ppid
-(
-)
         
 self
 .
@@ -425,8 +395,6 @@ pid
 )
 .
 uids
-(
-)
 .
 real
         
@@ -482,8 +450,6 @@ pid
 )
 .
 gids
-(
-)
 .
 real
         
@@ -539,8 +505,6 @@ pid
 )
 .
 username
-(
-)
         
 self
 .
@@ -551,10 +515,6 @@ username_psutil
 )
     
 skip_on_access_denied
-(
-)
-    
-retry_before_failing
 (
 )
     
@@ -610,7 +570,7 @@ self
 pid
 )
 .
-memory_info
+get_memory_info
 (
 )
 [
@@ -628,10 +588,6 @@ rss_psutil
 )
     
 skip_on_access_denied
-(
-)
-    
-retry_before_failing
 (
 )
     
@@ -687,7 +643,7 @@ self
 pid
 )
 .
-memory_info
+get_memory_info
 (
 )
 [
@@ -731,12 +687,9 @@ p
 s
 "
 %
-(
-            
 self
 .
 pid
-)
 )
 .
 split
@@ -775,8 +728,6 @@ pid
 )
 .
 name
-(
-)
 .
 lower
 (
@@ -797,7 +748,7 @@ skipIf
 OSX
 or
 BSD
-                     
+                    
 '
 ps
 -
@@ -861,8 +812,6 @@ pid
 )
 .
 create_time
-(
-)
         
 if
 SUNOS
@@ -883,7 +832,7 @@ datetime
 .
 fromtimestamp
 (
-            
+                        
 time_psutil
 )
 .
@@ -936,7 +885,6 @@ p
 s
 "
 %
-                         
 self
 .
 pid
@@ -963,8 +911,6 @@ pid
 )
 .
 exe
-(
-)
         
 try
 :
@@ -1049,8 +995,6 @@ pid
 )
 .
 cmdline
-(
-)
 )
         
 if
@@ -1083,7 +1027,7 @@ retry_before_failing
 )
     
 def
-test_pids
+test_get_pids
 (
 self
 )
@@ -1233,7 +1177,7 @@ pids_psutil
 =
 psutil
 .
-pids
+get_pid_list
 (
 )
         
@@ -1456,12 +1400,8 @@ output
 nic
 )
     
-retry_before_failing
-(
-)
-    
 def
-test_users
+test_get_users
 (
 self
 )
@@ -1517,7 +1457,7 @@ len
 (
 psutil
 .
-users
+get_users
 (
 )
 )
@@ -1545,7 +1485,7 @@ u
 in
 psutil
 .
-users
+get_users
 (
 )
 :
@@ -1593,11 +1533,6 @@ attr
 )
 :
             
-args
-=
-(
-)
-            
 attr
 =
 getattr
@@ -1619,53 +1554,17 @@ attr
 )
 :
                 
-if
-name
+ret
 =
-=
-'
-rlimit
-'
-:
-                    
-args
-=
-(
-psutil
-.
-RLIMIT_NOFILE
-)
-                
-elif
-name
-=
-=
-'
-set_rlimit
-'
-:
-                    
-args
-=
-(
-psutil
-.
-RLIMIT_NOFILE
-(
-5
-5
-)
-)
-                
 attr
 (
-*
-args
 )
             
 else
 :
                 
+ret
+=
 attr
         
 p
@@ -1681,14 +1580,53 @@ getpid
 )
 )
         
+attrs
+=
+[
+]
+        
 failures
 =
 [
 ]
         
-ignored_names
-=
-[
+for
+name
+in
+dir
+(
+psutil
+.
+Process
+)
+:
+            
+if
+name
+.
+startswith
+(
+'
+_
+'
+)
+\
+            
+or
+name
+.
+startswith
+(
+'
+set_
+'
+)
+\
+            
+or
+name
+in
+(
 '
 terminate
 '
@@ -1704,7 +1642,7 @@ resume
 '
 nice
 '
-                         
+                        
 '
 send_signal
 '
@@ -1712,82 +1650,11 @@ send_signal
 wait
 '
 '
-children
+get_children
 '
 '
 as_dict
 '
-]
-        
-if
-LINUX
-and
-get_kernel_version
-(
-)
-<
-(
-2
-6
-36
-)
-:
-            
-ignored_names
-.
-append
-(
-'
-rlimit
-'
-)
-        
-for
-name
-in
-dir
-(
-psutil
-.
-Process
-)
-:
-            
-if
-(
-name
-.
-startswith
-(
-'
-_
-'
-)
-                    
-or
-name
-.
-startswith
-(
-'
-set_
-'
-)
-                    
-or
-name
-.
-startswith
-(
-'
-get
-'
-)
-                    
-or
-name
-in
-ignored_names
 )
 :
                 
@@ -1803,7 +1670,7 @@ num1
 =
 p
 .
-num_fds
+get_num_fds
 (
 )
                     
@@ -1826,7 +1693,7 @@ num2
 =
 p
 .
-num_fds
+get_num_fds
 (
 )
                 

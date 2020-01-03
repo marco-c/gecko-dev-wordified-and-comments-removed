@@ -18,9 +18,13 @@ py
 "
 "
 import
+unittest
+import
 subprocess
 import
 time
+import
+re
 import
 sys
 import
@@ -36,16 +40,7 @@ PY3
 from
 test_psutil
 import
-(
-TOLERANCE
-sh
-get_test_subprocess
-which
-                         
-retry_before_failing
-reap_children
-unittest
-)
+*
 PAGESIZE
 =
 os
@@ -56,17 +51,6 @@ sysconf
 SC_PAGE_SIZE
 "
 )
-if
-os
-.
-getuid
-(
-)
-=
-=
-0
-:
-    
 MUSE_AVAILABLE
 =
 which
@@ -75,12 +59,6 @@ which
 muse
 '
 )
-else
-:
-    
-MUSE_AVAILABLE
-=
-False
 def
 sysctl
 (
@@ -188,6 +166,9 @@ sh
 '
 muse
 '
+stderr
+=
+DEVNULL
 )
     
 for
@@ -249,16 +230,14 @@ TestCase
 )
 :
     
-classmethod
-    
 def
-setUpClass
+setUp
 (
-cls
+self
 )
 :
         
-cls
+self
 .
 pid
 =
@@ -268,12 +247,10 @@ get_test_subprocess
 .
 pid
     
-classmethod
-    
 def
-tearDownClass
+tearDown
 (
-cls
+self
 )
 :
         
@@ -282,7 +259,7 @@ reap_children
 )
     
 def
-test_boot_time
+test_BOOT_TIME
 (
 self
 )
@@ -346,9 +323,7 @@ assertEqual
 btime
 psutil
 .
-boot_time
-(
-)
+BOOT_TIME
 )
     
 def
@@ -448,8 +423,6 @@ pid
 )
 .
 create_time
-(
-)
         
 start_psutil
 =
@@ -788,7 +761,7 @@ self
 pid
 )
 .
-memory_maps
+get_memory_maps
 (
 grouped
 =

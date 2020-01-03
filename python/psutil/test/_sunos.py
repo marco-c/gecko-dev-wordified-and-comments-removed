@@ -19,14 +19,11 @@ py
 "
 "
 import
-sys
+psutil
 from
 test_psutil
 import
-sh
-unittest
-import
-psutil
+*
 class
 SunOSSpecificTestCase
 (
