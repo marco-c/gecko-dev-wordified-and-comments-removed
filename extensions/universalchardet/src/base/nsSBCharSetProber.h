@@ -96,6 +96,7 @@ nsCharSetProber
 {
 public
 :
+explicit
 nsSingleByteCharSetProber
 (
 const

@@ -30,6 +30,7 @@ nsCharSetProber
 {
 public
 :
+explicit
 nsEscCharSetProber
 (
 uint32_t

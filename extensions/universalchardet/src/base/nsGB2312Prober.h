@@ -33,6 +33,7 @@ nsCharSetProber
 {
 public
 :
+explicit
 nsGB18030Prober
 (
 bool

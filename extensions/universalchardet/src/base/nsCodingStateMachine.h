@@ -96,6 +96,7 @@ nsCodingStateMachine
 {
 public
 :
+explicit
 nsCodingStateMachine
 (
 const

@@ -323,6 +323,7 @@ nsICharsetDetector
 NS_DECL_ISUPPORTS
 public
 :
+explicit
 nsXPCOMDetector
 (
 uint32_t
@@ -395,6 +396,7 @@ nsIStringCharsetDetector
 NS_DECL_ISUPPORTS
 public
 :
+explicit
 nsXPCOMStringDetector
 (
 uint32_t

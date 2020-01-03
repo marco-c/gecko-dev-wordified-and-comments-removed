@@ -33,6 +33,7 @@ nsCharSetProber
 {
 public
 :
+explicit
 nsEUCTWProber
 (
 bool
