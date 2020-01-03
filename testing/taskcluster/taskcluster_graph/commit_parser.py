@@ -1533,13 +1533,17 @@ jobs
 flags
 '
 ]
-[
+.
+get
+(
 '
 post
 -
 build
 '
+[
 ]
+)
 :
                 
 job
@@ -1557,12 +1561,14 @@ job_flag
 ]
                 
 if
+(
 '
 allowed_build_tasks
 '
 in
 job
 and
+                        
 build_task
 not
 in
@@ -1572,6 +1578,7 @@ job
 allowed_build_tasks
 '
 ]
+)
 :
                     
 continue
