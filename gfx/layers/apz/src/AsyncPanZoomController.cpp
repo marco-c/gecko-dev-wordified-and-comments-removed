@@ -5084,6 +5084,12 @@ SetVelocity
 0
 )
 ;
+StateChangeNotificationBlocker
+blocker
+(
+this
+)
+;
 SetState
 (
 NOTHING
@@ -10925,6 +10931,12 @@ aSampleTime
 {
 AssertOnCompositorThread
 (
+)
+;
+StateChangeNotificationBlocker
+blocker
+(
+this
 )
 ;
 mAsyncTransformAppliedToContent
