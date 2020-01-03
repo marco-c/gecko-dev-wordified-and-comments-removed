@@ -32,9 +32,6 @@ Mutex
 h
 "
 struct
-nsIntSize
-;
-struct
 nsIntRect
 ;
 namespace

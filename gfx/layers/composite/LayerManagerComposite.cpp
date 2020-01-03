@@ -417,9 +417,6 @@ h
 class
 gfxContext
 ;
-struct
-nsIntSize
-;
 namespace
 mozilla
 {

@@ -2589,10 +2589,6 @@ GetPlatform
 CreateOffscreenContentDrawTarget
 (
 destSize
-.
-ToIntSize
-(
-)
 SurfaceFormat
 :
 :

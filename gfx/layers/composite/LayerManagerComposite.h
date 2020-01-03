@@ -202,12 +202,6 @@ h
 class
 gfxContext
 ;
-struct
-nsIntPoint
-;
-struct
-nsIntSize
-;
 #
 ifdef
 XP_WIN

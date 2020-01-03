@@ -2114,10 +2114,6 @@ bounds
 Size
 (
 )
-.
-ToIntSize
-(
-)
 gfxContentType
 :
 :

@@ -297,6 +297,13 @@ nsComponentManagerUtils
 h
 "
 #
+include
+"
+nsSize
+.
+h
+"
+#
 define
 DEFAULT_HOME_PAGE
 "
@@ -395,9 +402,6 @@ nsDOMWindowUtils
 ;
 class
 nsIIdleService
-;
-struct
-nsIntSize
 ;
 struct
 nsRect

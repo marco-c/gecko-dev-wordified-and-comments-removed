@@ -1339,10 +1339,6 @@ GetSize
 !
 =
 aSize
-.
-ToIntSize
-(
-)
 |
 |
 mTexImage
@@ -1367,10 +1363,6 @@ gl
 (
 )
 aSize
-.
-ToIntSize
-(
-)
 aContentType
 LOCAL_GL_CLAMP_TO_EDGE
 FlagsToGLFlags
@@ -1386,10 +1378,6 @@ mTexImage
 Resize
 (
 aSize
-.
-ToIntSize
-(
-)
 )
 ;
 }

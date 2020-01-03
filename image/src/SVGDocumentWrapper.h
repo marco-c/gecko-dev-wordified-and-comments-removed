@@ -48,6 +48,13 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+nsSize
+.
+h
+"
 class
 nsIAtom
 ;
@@ -62,9 +69,6 @@ nsILoadGroup
 ;
 class
 nsIFrame
-;
-struct
-nsIntSize
 ;
 #
 define

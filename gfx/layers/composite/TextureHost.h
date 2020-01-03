@@ -204,12 +204,6 @@ class
 gfxReusableSurfaceWrapper
 ;
 struct
-nsIntPoint
-;
-struct
-nsIntSize
-;
-struct
 nsIntRect
 ;
 namespace

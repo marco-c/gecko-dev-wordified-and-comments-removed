@@ -214,9 +214,6 @@ nsIntPoint
 struct
 nsIntRect
 ;
-struct
-nsIntSize
-;
 namespace
 mozilla
 {
@@ -1222,7 +1219,10 @@ nsIntPoint
 &
 aTextureOffset
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aTextureBounds
 )

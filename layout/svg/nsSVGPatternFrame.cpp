@@ -1266,10 +1266,6 @@ Size
 &
 resultOverflows
 )
-.
-ToIntSize
-(
-)
 ;
 if
 (

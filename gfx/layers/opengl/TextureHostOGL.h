@@ -253,9 +253,6 @@ nsIntPoint
 struct
 nsIntRect
 ;
-struct
-nsIntSize
-;
 namespace
 mozilla
 {
@@ -752,7 +749,10 @@ void
 EnsureBuffer
 (
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 gfxContentType

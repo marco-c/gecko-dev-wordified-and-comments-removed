@@ -39,6 +39,13 @@ nsIThread
 h
 "
 #
+include
+"
+nsSize
+.
+h
+"
+#
 if
 !
 (
@@ -128,9 +135,6 @@ mozilla
 :
 :
 CheckedUint32
-;
-struct
-nsIntSize
 ;
 struct
 nsIntRect

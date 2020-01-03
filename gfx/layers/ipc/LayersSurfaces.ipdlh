@@ -87,16 +87,6 @@ h
 ;
 using
 struct
-nsIntSize
-from
-"
-nsSize
-.
-h
-"
-;
-using
-struct
 mozilla
 :
 :

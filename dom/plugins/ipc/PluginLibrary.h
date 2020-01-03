@@ -56,6 +56,13 @@ EventForwards
 .
 h
 "
+#
+include
+"
+nsSize
+.
+h
+"
 class
 gfxContext
 ;
@@ -64,9 +71,6 @@ nsCString
 ;
 struct
 nsIntRect
-;
-struct
-nsIntSize
 ;
 class
 nsNPAPIPlugin

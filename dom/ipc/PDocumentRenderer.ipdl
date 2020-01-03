@@ -107,7 +107,6 @@ h
 "
 ;
 using
-struct
 nsIntSize
 from
 "

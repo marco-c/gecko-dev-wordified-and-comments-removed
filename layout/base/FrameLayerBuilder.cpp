@@ -11984,10 +11984,6 @@ itemVisibleRect
 Size
 (
 )
-.
-ToIntSize
-(
-)
 SurfaceFormat
 :
 :
