@@ -4194,6 +4194,16 @@ gfxPrefs
 MouseWheelHasScrollDeltaOverride
 (
 )
+&
+&
+!
+EventStateManager
+:
+:
+WheelEventNeedsDeltaMultipliers
+(
+aEvent
+)
 ;
 }
 nsEventStatus
