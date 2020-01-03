@@ -101,9 +101,7 @@ run_test
 (
 )
 {
-Cm
-.
-autoRegister
+registerAppManifest
 (
 do_get_file
 (
@@ -122,9 +120,7 @@ manifest
 )
 )
 ;
-Cm
-.
-autoRegister
+registerAppManifest
 (
 do_get_file
 (

@@ -904,7 +904,7 @@ argv
 endif
 XRE_AddManifestLocation
 (
-NS_COMPONENT_LOCATION
+NS_EXTENSION_LOCATION
 nsCOMPtr
 <
 nsIFile
@@ -927,7 +927,7 @@ manifest
 ;
 XRE_AddManifestLocation
 (
-NS_COMPONENT_LOCATION
+NS_EXTENSION_LOCATION
 nsCOMPtr
 <
 nsIFile
@@ -950,7 +950,7 @@ manifest
 ;
 XRE_AddJarManifestLocation
 (
-NS_COMPONENT_LOCATION
+NS_EXTENSION_LOCATION
 nsCOMPtr
 <
 nsIFile

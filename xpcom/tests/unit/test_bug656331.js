@@ -173,11 +173,7 @@ manifest
 '
 )
 ;
-Components
-.
-manager
-.
-autoRegister
+registerAppManifest
 (
 manifest
 )

@@ -3208,7 +3208,7 @@ parser
 ExtensionDirs
 "
 mExtensionDirectories
-NS_COMPONENT_LOCATION
+NS_EXTENSION_LOCATION
 )
 ;
 LoadExtensionDirectories
@@ -3375,7 +3375,7 @@ manifest
 ;
 XRE_AddManifestLocation
 (
-NS_COMPONENT_LOCATION
+NS_EXTENSION_LOCATION
 manifest
 )
 ;

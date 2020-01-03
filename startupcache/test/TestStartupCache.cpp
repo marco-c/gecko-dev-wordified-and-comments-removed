@@ -2311,7 +2311,7 @@ manifest
 endif
 XRE_AddManifestLocation
 (
-NS_COMPONENT_LOCATION
+NS_APP_LOCATION
 manifest
 )
 ;
