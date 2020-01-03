@@ -56,6 +56,18 @@ stmt
 .
 params
 )
+{
+if
+(
+name
+=
+=
+"
+QueryInterface
+"
+)
+continue
+;
 do_check_eq
 (
 name
@@ -67,6 +79,7 @@ index
 ]
 )
 ;
+}
 }
 function
 test_params_prototype
