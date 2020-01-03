@@ -2340,6 +2340,11 @@ JavaAddonManager
 java
 '
 '
+LayoutInterceptor
+.
+java
+'
+'
 LocaleManager
 .
 java
@@ -2473,6 +2478,11 @@ java
 '
 '
 OrderedBroadcastHelper
+.
+java
+'
+'
+OuterLayout
 .
 java
 '
