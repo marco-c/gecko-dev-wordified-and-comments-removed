@@ -145,6 +145,10 @@ nsString
 >
 &
 aFilterNames
+const
+nsString
+&
+aDisplayDirectory
 )
 MOZ_OVERRIDE
 ;

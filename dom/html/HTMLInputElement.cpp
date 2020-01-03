@@ -4665,6 +4665,9 @@ aFilePicker
 aFpCallback
 )
 ;
+#
+ifdef
+MOZ_B2G
 if
 (
 XRE_GetProcessType
@@ -4690,6 +4693,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsIContentPrefService2
@@ -4788,6 +4793,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_B2G
 if
 (
 XRE_GetProcessType
@@ -4802,6 +4810,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsIURI
