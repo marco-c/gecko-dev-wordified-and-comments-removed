@@ -166,10 +166,16 @@ None
 )
 :
         
-assert
-tags
-or
+if
+not
 paths
+or
+tags
+:
+            
+return
+{
+}
         
 tests
 =
