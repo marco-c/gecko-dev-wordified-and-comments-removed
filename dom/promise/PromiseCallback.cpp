@@ -765,6 +765,19 @@ IsJSException
 )
 )
 {
+{
+JSAutoCompartment
+ac
+(
+aCx
+mNextPromise
+-
+>
+GlobalJSObject
+(
+)
+)
+;
 rv
 .
 StealJSException
@@ -774,6 +787,7 @@ aCx
 value
 )
 ;
+}
 if
 (
 !
