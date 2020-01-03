@@ -213,6 +213,11 @@ NewObject
 \
 _
 (
+NewTypedObject
+)
+\
+_
+(
 NewDeclEnvObject
 )
 \
