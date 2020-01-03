@@ -168,6 +168,11 @@ TestNoArithmeticExprInArgument
 cpp
 '
 '
+TestNoAutoType
+.
+cpp
+'
+'
 TestNoDuplicateRefCntMember
 .
 cpp
