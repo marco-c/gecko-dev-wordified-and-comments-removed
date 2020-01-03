@@ -2342,14 +2342,6 @@ index
 :
 '
 index
-.
-garbage
-.
-staging
-.
-mshal
--
-testing
 '
             
 '

@@ -7453,17 +7453,23 @@ fmt
 index
 '
 :
+self
+.
+config
+.
+get
+(
+'
+taskcluster_index
+'
 '
 index
 .
 garbage
 .
 staging
-.
-mshal
--
-testing
 '
+)
                     
 '
 project

@@ -10022,6 +10022,26 @@ routes
 '
 ]
         
+index
+=
+self
+.
+config
+.
+get
+(
+'
+taskcluster_index
+'
+'
+index
+.
+garbage
+.
+staging
+'
+)
+        
 routes
 =
 [
@@ -10041,17 +10061,7 @@ fmt
 index
 '
 :
-'
 index
-.
-garbage
-.
-staging
-.
-mshal
--
-testing
-'
                 
 '
 project
@@ -10193,26 +10203,6 @@ self
 .
 log_obj
                          
-)
-        
-index
-=
-self
-.
-config
-.
-get
-(
-'
-taskcluster_index
-'
-'
-index
-.
-garbage
-.
-staging
-'
 )
         
 routes
