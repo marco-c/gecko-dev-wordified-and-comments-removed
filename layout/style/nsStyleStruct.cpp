@@ -7448,8 +7448,6 @@ nsChangeHint_ClearAncestorIntrinsics
 |
 nsChangeHint_ClearDescendantIntrinsics
 |
-nsChangeHint_NeedDirtyReflow
-|
 nsChangeHint_ReflowChangesSizeOrPosition
 )
 ;
