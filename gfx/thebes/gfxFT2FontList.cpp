@@ -1223,7 +1223,7 @@ aStretch
 fe
 -
 >
-mIsUserFont
+mIsDataUserFont
 =
 true
 ;
@@ -7522,11 +7522,6 @@ mStretch
 =
 aStretch
 ;
-fe
--
->
-mIsUserFont
-=
 fe
 -
 >

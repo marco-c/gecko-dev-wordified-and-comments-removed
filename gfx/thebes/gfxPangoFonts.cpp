@@ -1102,10 +1102,6 @@ mStretch
 =
 aStretch
 ;
-mIsUserFont
-=
-true
-;
 }
 void
 AdjustPatternToCSS
@@ -1559,6 +1555,10 @@ NULL
 !
 "
 )
+;
+mIsDataUserFont
+=
+true
 ;
 InitPattern
 (

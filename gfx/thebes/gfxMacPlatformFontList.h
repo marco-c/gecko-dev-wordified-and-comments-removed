@@ -115,7 +115,7 @@ aStretch
 uint32_t
 aItalicStyle
 bool
-aIsUserFont
+aIsDataUserFont
 bool
 aIsLocal
 )

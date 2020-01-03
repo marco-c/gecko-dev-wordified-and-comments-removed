@@ -362,10 +362,6 @@ mItalic
 =
 aItalic
 ;
-mIsUserFont
-=
-true
-;
 mIsLocalUserFont
 =
 true
@@ -421,7 +417,7 @@ mItalic
 =
 aItalic
 ;
-mIsUserFont
+mIsDataUserFont
 =
 true
 ;
