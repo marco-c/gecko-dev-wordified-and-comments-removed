@@ -117,17 +117,11 @@ __future__
 import
 unicode_literals
 import
-copy
-import
 os
 import
 sys
 import
 weakref
-from
-contextlib
-import
-contextmanager
 from
 mozbuild
 .
@@ -135,9 +129,27 @@ util
 import
 ReadOnlyDict
 from
+.
 context
 import
 Context
+from
+mozpack
+.
+files
+import
+FileFinder
+default_finder
+=
+FileFinder
+(
+'
+/
+'
+find_executables
+=
+False
+)
 def
 alphabetical_sorted
 (
@@ -695,6 +707,9 @@ context
 builtins
 =
 None
+finder
+=
+default_finder
 )
 :
         
@@ -778,6 +793,12 @@ self
 _current_source
 =
 None
+        
+self
+.
+_finder
+=
+finder
     
 property
     
@@ -839,28 +860,19 @@ isabs
 path
 )
         
-source
-=
-None
-        
 try
 :
             
-with
-open
-(
-path
-'
-rt
-'
-)
-as
-fd
-:
-                
 source
 =
-fd
+self
+.
+_finder
+.
+get
+(
+path
+)
 .
 read
 (
