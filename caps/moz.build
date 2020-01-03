@@ -140,6 +140,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIAddonPolicyService
+.
+idl
+'
+'
 nsIDomainPolicy
 .
 idl

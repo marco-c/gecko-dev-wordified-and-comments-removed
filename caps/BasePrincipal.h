@@ -537,6 +537,14 @@ aConsider
 =
 0
 ;
+bool
+AddonAllowsLoad
+(
+nsIURI
+*
+aURI
+)
+;
 nsCOMPtr
 <
 nsIContentSecurityPolicy
