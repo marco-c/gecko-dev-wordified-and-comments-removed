@@ -1870,6 +1870,15 @@ return
 mCompositorBackend
 ;
 }
+virtual
+void
+TestDeviceReset
+(
+DeviceResetReason
+aReason
+)
+{
+}
 protected
 :
 gfxPlatform

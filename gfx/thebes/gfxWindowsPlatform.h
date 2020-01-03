@@ -917,6 +917,14 @@ GetD3D11Version
 (
 )
 ;
+void
+TestDeviceReset
+(
+DeviceResetReason
+aReason
+)
+override
+;
 virtual
 already_AddRefed
 <
@@ -1213,6 +1221,9 @@ mIsWARP
 ;
 bool
 mHasDeviceReset
+;
+bool
+mHasFakeDeviceReset
 ;
 bool
 mDoesD3D11TextureSharingWork
