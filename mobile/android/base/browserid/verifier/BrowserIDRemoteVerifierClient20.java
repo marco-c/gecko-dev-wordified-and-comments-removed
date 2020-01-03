@@ -12,13 +12,6 @@ verifier
 import
 java
 .
-io
-.
-UnsupportedEncodingException
-;
-import
-java
-.
 net
 .
 URI
@@ -283,7 +276,7 @@ requestBody
 }
 catch
 (
-UnsupportedEncodingException
+Exception
 e
 )
 {
