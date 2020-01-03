@@ -12553,6 +12553,7 @@ Length
 )
 +
 1
+fallible
 )
 )
 )
@@ -29851,6 +29852,7 @@ aActors
 SetCapacity
 (
 count
+fallible
 )
 )
 )
@@ -29885,6 +29887,7 @@ aFileInfos
 SetCapacity
 (
 count
+fallible
 )
 )
 )
@@ -44585,6 +44588,7 @@ transactions
 SetCapacity
 (
 count
+fallible
 )
 )
 )
@@ -45970,6 +45974,7 @@ fallibleObjectStores
 SetCapacity
 (
 nameCount
+fallible
 )
 )
 )
@@ -62145,6 +62150,7 @@ uncompressed
 SetLength
 (
 uncompressedLength
+fallible
 )
 )
 )
@@ -63000,6 +63006,7 @@ aIndexValues
 SetCapacity
 (
 count
+fallible
 )
 )
 )
@@ -83047,6 +83054,7 @@ Length
 )
 +
 updateInfoCount
+fallible
 )
 )
 )
@@ -86520,6 +86528,7 @@ mStoredFileInfos
 SetCapacity
 (
 count
+fallible
 )
 )
 )
@@ -89534,6 +89543,7 @@ mResponse
 Length
 (
 )
+fallible
 )
 )
 )
@@ -92213,6 +92223,7 @@ mResponse
 Length
 (
 )
+fallible
 )
 )
 )
