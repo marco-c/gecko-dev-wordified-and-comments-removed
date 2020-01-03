@@ -210,6 +210,11 @@ LazyIdleThread
 h
 '
 '
+SharedThreadPool
+.
+h
+'
+'
 SyncRunnable
 .
 h
@@ -276,6 +281,11 @@ cpp
 '
 '
 nsTimerImpl
+.
+cpp
+'
+'
+SharedThreadPool
 .
 cpp
 '

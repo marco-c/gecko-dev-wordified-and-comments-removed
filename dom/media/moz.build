@@ -828,11 +828,6 @@ MozPromise
 h
 '
 '
-SharedThreadPool
-.
-h
-'
-'
 StateMirroring
 .
 h
@@ -1208,11 +1203,6 @@ cpp
 '
 '
 RtspMediaResource
-.
-cpp
-'
-'
-SharedThreadPool
 .
 cpp
 '
