@@ -599,7 +599,7 @@ nsStyleContext
 aStyleContext
 )
 ;
-void
+DrawResult
 DisplayAltFeedback
 (
 nsRenderingContext
@@ -614,6 +614,8 @@ imgIRequest
 aRequest
 nsPoint
 aPt
+uint32_t
+aFlags
 )
 ;
 nsRect
