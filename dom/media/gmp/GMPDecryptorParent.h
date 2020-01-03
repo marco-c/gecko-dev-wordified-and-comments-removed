@@ -460,6 +460,16 @@ GMPDecryptorProxyCallback
 *
 mCallback
 ;
+#
+ifdef
+DEBUG
+nsIThread
+*
+const
+mGMPThread
+;
+#
+endif
 }
 ;
 }
