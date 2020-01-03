@@ -894,6 +894,8 @@ dropped
 "
 )
 ;
+return
+;
 }
 MOZ_ASSERT
 (
