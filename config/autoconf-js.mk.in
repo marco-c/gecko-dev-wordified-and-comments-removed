@@ -2,7 +2,11 @@ ifndef
 INCLUDED_AUTOCONF_MK
 INCLUDED_AUTOCONF_MK
 =
-1
+autoconf
+-
+js
+.
+mk
 include
 (
 DEPTH
