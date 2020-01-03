@@ -3638,6 +3638,13 @@ serviceError
 error
 .
 friendlyDetailsButtonLabel
+detailsButtonCallback
+:
+serviceError
+.
+error
+.
+friendlyDetailsButtonCallback
 }
 )
 ;
@@ -3732,7 +3739,6 @@ call
 "
 )
 ;
-}
 this
 .
 setState
@@ -3744,6 +3750,7 @@ profile
 }
 )
 ;
+}
 this
 .
 updateServiceErrors

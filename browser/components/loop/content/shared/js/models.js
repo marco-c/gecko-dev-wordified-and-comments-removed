@@ -1155,6 +1155,9 @@ detailsButtonLabel
 :
 "
 "
+detailsButtonCallback
+:
+null
 level
 :
 "

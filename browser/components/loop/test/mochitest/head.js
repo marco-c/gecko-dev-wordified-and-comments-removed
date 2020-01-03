@@ -1065,6 +1065,7 @@ expected
 data
 "
 )
+;
 resolve
 (
 {
