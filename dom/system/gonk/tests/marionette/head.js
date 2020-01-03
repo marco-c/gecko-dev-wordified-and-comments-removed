@@ -55,7 +55,7 @@ NETWORK_STATE_UNKNOWN
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_UNKNOWN
 ;
@@ -64,7 +64,7 @@ NETWORK_STATE_CONNECTING
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_CONNECTING
 ;
@@ -73,7 +73,7 @@ NETWORK_STATE_CONNECTED
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_CONNECTED
 ;
@@ -82,7 +82,7 @@ NETWORK_STATE_DISCONNECTING
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_DISCONNECTING
 ;
@@ -91,7 +91,7 @@ NETWORK_STATE_DISCONNECTED
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_DISCONNECTED
 ;
@@ -100,7 +100,7 @@ NETWORK_TYPE_MOBILE
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_MOBILE
 ;
@@ -109,7 +109,7 @@ NETWORK_TYPE_MOBILE_MMS
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_MOBILE_MMS
 ;
@@ -118,7 +118,7 @@ NETWORK_TYPE_MOBILE_SUPL
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_MOBILE_SUPL
 ;
@@ -127,7 +127,7 @@ NETWORK_TYPE_MOBILE_IMS
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_MOBILE_IMS
 ;
@@ -136,7 +136,7 @@ NETWORK_TYPE_MOBILE_DUN
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_MOBILE_DUN
 ;
@@ -145,7 +145,7 @@ NETWORK_TYPE_MOBILE_FOTA
 =
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_TYPE_MOBILE_FOTA
 ;
@@ -590,7 +590,7 @@ aSubject
 instanceof
 Ci
 .
-nsIRilNetworkInterface
+nsIRilNetworkInfo
 "
 subject
 should
@@ -598,7 +598,7 @@ be
 an
 instance
 of
-nsIRILNetworkInterface
+nsIRilNetworkInfo
 "
 )
 ;
@@ -628,13 +628,13 @@ aEnabled
 ?
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_CONNECTED
 :
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_DISCONNECTED
 "
@@ -724,7 +724,7 @@ aSubject
 instanceof
 Ci
 .
-nsIRilNetworkInterface
+nsIRilNetworkInfo
 "
 subject
 should
@@ -732,7 +732,7 @@ be
 an
 instance
 of
-nsIRILNetworkInterface
+nsIRilNetworkInfo
 "
 )
 ;
@@ -760,7 +760,7 @@ aSubject
 state
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_CONNECTED
 "
@@ -842,7 +842,7 @@ aSubject
 instanceof
 Ci
 .
-nsIRilNetworkInterface
+nsIRilNetworkInfo
 "
 subject
 should
@@ -850,7 +850,7 @@ be
 an
 instance
 of
-nsIRILNetworkInterface
+nsIRilNetworkInfo
 "
 )
 ;
@@ -878,7 +878,7 @@ aSubject
 state
 Ci
 .
-nsINetworkInterface
+nsINetworkInfo
 .
 NETWORK_STATE_DISCONNECTED
 "
