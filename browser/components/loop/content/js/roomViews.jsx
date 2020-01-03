@@ -5312,11 +5312,6 @@ props
 .
 dispatcher
 }
-showAlways
-=
-{
-false
-}
 showRoomName
 =
 {
