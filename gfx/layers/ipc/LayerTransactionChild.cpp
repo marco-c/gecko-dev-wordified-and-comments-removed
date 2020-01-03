@@ -569,6 +569,10 @@ ActorDestroyReason
 why
 )
 {
+mDestroyed
+=
+true
+;
 DestroyAsyncTransactionTrackersHolder
 (
 )
