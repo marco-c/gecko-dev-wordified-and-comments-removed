@@ -19968,6 +19968,17 @@ bool
 aPlaying
 )
 {
+if
+(
+!
+HasAudio
+(
+)
+)
+{
+return
+;
+}
 WindowAudioCaptureChanged
 (
 )
