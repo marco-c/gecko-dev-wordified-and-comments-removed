@@ -217,6 +217,17 @@ builds
 b2g_emulator_x86_kk_opt
 .
 yml
+debug
+:
+task
+:
+tasks
+/
+builds
+/
+b2g_emulator_x86_kk_debug
+.
+yml
 emulator
 -
 jb
