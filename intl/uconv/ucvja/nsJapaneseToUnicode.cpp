@@ -3969,9 +3969,12 @@ EncodingUtils
 :
 DecoderForEncoding
 (
+NS_LITERAL_CSTRING
+(
 "
-gb18030
+GB2312
 "
+)
 )
 ;
 }

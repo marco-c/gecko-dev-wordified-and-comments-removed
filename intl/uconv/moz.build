@@ -311,6 +311,13 @@ cpp
 '
 ucvcn
 /
+nsUnicodeToGB2312V2
+.
+cpp
+'
+'
+ucvcn
+/
 nsUnicodeToGBK
 .
 cpp
