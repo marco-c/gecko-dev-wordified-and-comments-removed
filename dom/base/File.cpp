@@ -4825,6 +4825,7 @@ aClosure
 bool
 aAnonymize
 )
+MOZ_OVERRIDE
 {
 typedef
 FileImplMemory

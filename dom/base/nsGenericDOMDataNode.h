@@ -1179,6 +1179,7 @@ Element
 GetNameSpaceElement
 (
 )
+MOZ_OVERRIDE
 {
 nsINode
 *

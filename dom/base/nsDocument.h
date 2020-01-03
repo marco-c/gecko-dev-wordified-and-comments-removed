@@ -3642,6 +3642,7 @@ void
 Sanitize
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3653,6 +3654,7 @@ void
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -3662,18 +3664,21 @@ nsIRequest
 *
 aNewRequest
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 RemovedFromDocShell
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -3684,12 +3689,14 @@ GetLayoutHistoryState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
 BlockOnload
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3698,6 +3705,7 @@ UnblockOnload
 bool
 aFireSync
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3713,6 +3721,7 @@ Link
 *
 aLink
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3728,7 +3737,9 @@ Link
 *
 aLink
 )
+MOZ_OVERRIDE
 ;
+virtual
 void
 ClearBoxObjectFor
 (
@@ -3736,6 +3747,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -3785,6 +3797,7 @@ nsAString
 aAttrValue
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 Element
@@ -3800,6 +3813,7 @@ aIgnoreRootScrollFrame
 bool
 aFlushLayout
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3826,12 +3840,14 @@ nsIDOMNodeList
 *
 aReturn
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 FlushSkinBindings
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3841,6 +3857,7 @@ nsFrameLoader
 *
 aLoader
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3850,6 +3867,7 @@ nsFrameLoader
 *
 aLoader
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3859,6 +3877,7 @@ nsIDocShell
 *
 aShell
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -3868,6 +3887,7 @@ nsIDocShell
 *
 aShell
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -3885,6 +3905,7 @@ ExternalResourceLoad
 *
 aPendingLoad
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3896,6 +3917,7 @@ void
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 nsTArray
 <
@@ -3920,6 +3942,7 @@ GetPendingPlayerTracker
 (
 )
 MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 mPendingPlayerTracker
@@ -4278,6 +4301,7 @@ imgIRequest
 *
 aImage
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -4289,6 +4313,7 @@ aImage
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -4297,6 +4322,7 @@ SetImageLockingState
 bool
 aLocked
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -5019,6 +5045,7 @@ nsIDocument
 MasterDocument
 (
 )
+MOZ_OVERRIDE
 {
 return
 mMasterDocument
@@ -5040,6 +5067,7 @@ nsIDocument
 *
 master
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -5061,6 +5089,7 @@ bool
 IsMasterDocument
 (
 )
+MOZ_OVERRIDE
 {
 return
 !
@@ -5079,6 +5108,7 @@ ImportManager
 ImportManager
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -5151,6 +5181,7 @@ nsINode
 *
 aLink
 )
+MOZ_OVERRIDE
 {
 return
 mSubImportLinks
@@ -5169,6 +5200,7 @@ nsINode
 *
 aLink
 )
+MOZ_OVERRIDE
 {
 return
 mSubImportLinks
@@ -5187,6 +5219,7 @@ nsINode
 *
 aLink
 )
+MOZ_OVERRIDE
 {
 mSubImportLinks
 .
@@ -5204,6 +5237,7 @@ GetSubImportLink
 uint32_t
 aIdx
 )
+MOZ_OVERRIDE
 {
 return
 aIdx
@@ -5766,6 +5800,7 @@ nsAString
 *
 aTypeExtension
 )
+MOZ_OVERRIDE
 ;
 static
 bool

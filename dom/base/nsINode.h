@@ -640,6 +640,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 #
 define
@@ -764,7 +765,18 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_INODE_IID
 )
-NS_DECL_SIZEOF_EXCLUDING_THIS
+virtual
+size_t
+SizeOfExcludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 virtual
 size_t
 SizeOfIncludingThis
@@ -5778,6 +5790,7 @@ nsAString
 aNodeName
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5805,6 +5818,7 @@ nsAString
 aNodeValue
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5832,6 +5846,7 @@ nsAString
 aNodeValue
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5870,6 +5885,7 @@ uint16_t
 aNodeType
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5899,6 +5915,7 @@ nsIDOMNode
 aParentNode
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5923,6 +5940,7 @@ nsIDOMElement
 aParentElement
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5947,6 +5965,7 @@ nsIDOMNodeList
 aChildNodes
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5971,6 +5990,7 @@ nsIDOMNode
 aFirstChild
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -5995,6 +6015,7 @@ nsIDOMNode
 aLastChild
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6019,6 +6040,7 @@ nsIDOMNode
 aPreviousSibling
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6043,6 +6065,7 @@ nsIDOMNode
 aNextSibling
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6067,6 +6090,7 @@ nsIDOMDocument
 aOwnerDocument
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6097,6 +6121,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6127,6 +6152,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6154,6 +6180,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6182,6 +6209,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6204,6 +6232,7 @@ bool
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6237,6 +6266,7 @@ nsIDOMNode
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6329,6 +6359,7 @@ Normalize
 (
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6354,6 +6385,7 @@ nsAString
 aNamespaceURI
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6380,6 +6412,7 @@ nsAString
 aPrefix
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6406,6 +6439,7 @@ nsAString
 aLocalName
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6433,6 +6467,7 @@ bool
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6456,6 +6491,7 @@ nsAString
 aBaseURI
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6485,6 +6521,7 @@ uint16_t
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6509,6 +6546,7 @@ nsAString
 aTextContent
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6548,6 +6586,7 @@ nsAString
 aTextContent
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6590,6 +6629,7 @@ nsAString
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6621,6 +6661,7 @@ bool
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6654,6 +6695,7 @@ nsAString
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6684,6 +6726,7 @@ bool
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6716,6 +6759,7 @@ nsIVariant
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6746,6 +6790,7 @@ nsIVariant
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \
@@ -6773,6 +6818,7 @@ bool
 aResult
 )
 __VA_ARGS__
+MOZ_OVERRIDE
 \
 {
 \

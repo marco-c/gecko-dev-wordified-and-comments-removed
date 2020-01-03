@@ -2084,6 +2084,7 @@ OnRedirectVerifyCallback
 nsresult
 aResult
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
