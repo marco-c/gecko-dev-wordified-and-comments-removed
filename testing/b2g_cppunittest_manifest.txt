@@ -12,6 +12,12 @@ one
 test
 per
 line
+jsapi
+-
+tests
+#
+Bug
+1068946
 TestPLDHash
 #
 Bug
