@@ -399,6 +399,7 @@ ConsoleEvent
 (
 unsigned
 long
+long
 or
 DOMString
 )
@@ -406,6 +407,7 @@ ID
 ;
 (
 unsigned
+long
 long
 or
 DOMString
