@@ -2680,7 +2680,6 @@ role
 ;
 const
 nsString
-&
 description
 ;
 }
