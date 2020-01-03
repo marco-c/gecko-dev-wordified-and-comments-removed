@@ -1934,6 +1934,10 @@ DIST_FILES
 +
 =
 \
+liblgpllibs
+.
+so
+\
 libxul
 .
 so

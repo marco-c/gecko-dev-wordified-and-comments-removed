@@ -720,6 +720,9 @@ USE_LIBS
 gkmedias
 '
 '
+lgpllibs
+'
+'
 nspr
 '
 '

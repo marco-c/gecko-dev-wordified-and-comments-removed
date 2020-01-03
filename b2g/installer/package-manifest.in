@@ -598,6 +598,11 @@ mozsqlite3
 DLL_SUFFIX
 #
 endif
+BINPATH
+/
+DLL_PREFIX
+lgpllibs
+DLL_SUFFIX
 RESPATH
 /
 blocklist
