@@ -861,10 +861,6 @@ AsyncReadMetadata
 "
 )
 ;
-PreReadMetadata
-(
-)
-;
 if
 (
 IsWaitingMediaResources

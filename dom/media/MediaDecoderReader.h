@@ -450,14 +450,6 @@ AsyncReadMetadata
 )
 ;
 virtual
-void
-PreReadMetadata
-(
-)
-{
-}
-;
-virtual
 nsresult
 ReadMetadata
 (

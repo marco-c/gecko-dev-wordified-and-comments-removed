@@ -477,8 +477,7 @@ void
 resourceCanceled
 (
 )
-{
-}
+;
 private
 :
 MediaCodecProxy
