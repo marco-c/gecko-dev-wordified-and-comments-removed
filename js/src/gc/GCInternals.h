@@ -483,15 +483,6 @@ kind
 )
 ;
 static
-void
-Sweep
-(
-JSTracer
-*
-jstrc
-)
-;
-static
 bool
 IsMovingTracer
 (
