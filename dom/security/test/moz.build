@@ -118,6 +118,13 @@ MOCHITEST_MANIFESTS
 =
 [
 '
+cors
+/
+mochitest
+.
+ini
+'
+'
 csp
 /
 mochitest
