@@ -246,6 +246,11 @@ ServiceWorkerClients
 h
 '
 '
+ServiceWorkerWindowClient
+.
+h
+'
+'
 SharedWorker
 .
 h
@@ -392,6 +397,11 @@ cpp
 '
 '
 ServiceWorkerRegistration
+.
+cpp
+'
+'
+ServiceWorkerWindowClient
 .
 cpp
 '

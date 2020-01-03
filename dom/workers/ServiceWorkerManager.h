@@ -217,6 +217,9 @@ class
 ServiceWorker
 ;
 class
+ServiceWorkerClientInfo
+;
+class
 ServiceWorkerInfo
 ;
 class
@@ -1110,9 +1113,9 @@ nsCString
 aScope
 nsTArray
 <
-uint64_t
+ServiceWorkerClientInfo
 >
-*
+&
 aControlledDocuments
 )
 ;
