@@ -275,7 +275,7 @@ const
 uint32_t
 kCount
 =
-5
+4
 ;
 nsresult
 GetNPNIndex

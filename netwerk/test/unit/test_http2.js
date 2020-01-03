@@ -3653,6 +3653,8 @@ spdy
 enabled
 .
 v3
+-
+1
 "
 spdy3pref
 )
@@ -3894,6 +3896,8 @@ spdy
 enabled
 .
 v3
+-
+1
 "
 )
 ;
@@ -4021,6 +4025,8 @@ spdy
 enabled
 .
 v3
+-
+1
 "
 true
 )
