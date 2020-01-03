@@ -112,11 +112,6 @@ PlatformDecoderModule
 .
 h
 '
-'
-SharedDecoderManager
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -129,11 +124,6 @@ cpp
 '
 '
 PlatformDecoderModule
-.
-cpp
-'
-'
-SharedDecoderManager
 .
 cpp
 '

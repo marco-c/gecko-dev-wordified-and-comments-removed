@@ -363,12 +363,6 @@ mVideoReader
 bool
 mEnded
 ;
-nsRefPtr
-<
-SharedDecoderManager
->
-mSharedDecoderManager
-;
 }
 ;
 }
