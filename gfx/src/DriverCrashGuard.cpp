@@ -616,13 +616,6 @@ ActivateGuard
 (
 )
 {
-MOZ_ASSERT
-(
-XRE_IsParentProcess
-(
-)
-)
-;
 mGuardActivated
 =
 true
