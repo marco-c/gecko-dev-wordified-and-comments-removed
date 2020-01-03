@@ -784,6 +784,14 @@ aParent
 if
 (
 global
+&
+&
+FontFaceSet
+:
+:
+PrefEnabled
+(
+)
 )
 {
 ErrorResult

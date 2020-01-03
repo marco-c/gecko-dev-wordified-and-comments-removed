@@ -439,6 +439,12 @@ DidRefresh
 (
 )
 ;
+static
+bool
+PrefEnabled
+(
+)
+;
 NS_IMETHOD
 StyleSheetLoaded
 (
