@@ -1276,7 +1276,7 @@ return
 }
 RefPtr
 <
-SourceSurface
+DataSourceSurface
 >
 source
 =
