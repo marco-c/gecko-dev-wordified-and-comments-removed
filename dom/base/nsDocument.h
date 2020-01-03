@@ -4591,6 +4591,16 @@ nsIDocument
 aDoc
 )
 ;
+bool
+FullscreenElementReadyCheck
+(
+Element
+*
+aElement
+bool
+aWasCallerChrome
+)
+;
 void
 RequestFullScreen
 (
