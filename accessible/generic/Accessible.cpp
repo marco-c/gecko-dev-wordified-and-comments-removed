@@ -1372,9 +1372,6 @@ CompressWhitespace
 nsAutoString
 name
 ;
-ENameValueFlag
-nameFlag
-=
 Name
 (
 name
