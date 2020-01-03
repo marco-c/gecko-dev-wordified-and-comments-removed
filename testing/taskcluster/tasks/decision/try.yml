@@ -118,6 +118,9 @@ as_slugid
 }
 }
 '
+reruns
+:
+3
 task
 :
 created
