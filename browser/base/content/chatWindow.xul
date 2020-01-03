@@ -1044,7 +1044,7 @@ function
 browser_openURIInFrame
 (
 aURI
-aOpener
+aParams
 aWhere
 aContext
 )

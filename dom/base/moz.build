@@ -1490,6 +1490,11 @@ nsNodeUtils
 cpp
 '
 '
+nsOpenURIInFrameParams
+.
+cpp
+'
+'
 nsPerformance
 .
 cpp

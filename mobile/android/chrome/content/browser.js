@@ -18236,7 +18236,7 @@ function
 browser_openURIInFrame
 (
 aURI
-aOpener
+aParams
 aWhere
 aContext
 )
@@ -18249,7 +18249,7 @@ this
 _getBrowser
 (
 aURI
-aOpener
+null
 aWhere
 aContext
 )
