@@ -927,7 +927,7 @@ i
 +
 )
 {
-JS_SetElement
+JS_DefineElement
 (
 cx
 deleteArrayObj
@@ -936,6 +936,7 @@ aDeleted
 [
 i
 ]
+JSPROP_ENUMERATE
 )
 ;
 }

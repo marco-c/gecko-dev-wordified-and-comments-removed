@@ -485,12 +485,13 @@ jsobj
 bool
 rc
 =
-JS_SetElement
+JS_DefineElement
 (
 aContext
 visits
 idx
 jsobj
+JSPROP_ENUMERATE
 )
 ;
 NS_ENSURE_TRUE

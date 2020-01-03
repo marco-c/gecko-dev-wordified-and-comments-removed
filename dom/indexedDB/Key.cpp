@@ -682,7 +682,7 @@ aTypeOffset
 if
 (
 !
-JS_SetElement
+JS_DefineElement
 (
 aCx
 array
@@ -690,6 +690,7 @@ index
 +
 +
 val
+JSPROP_ENUMERATE
 )
 )
 {

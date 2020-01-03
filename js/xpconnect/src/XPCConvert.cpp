@@ -6190,12 +6190,13 @@ pErr
 |
 \
 !
-JS_SetElement
+JS_DefineElement
 (
 cx
 array
 i
 current
+JSPROP_ENUMERATE
 )
 )
 \
