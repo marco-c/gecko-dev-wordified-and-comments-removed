@@ -162,6 +162,15 @@ false
 spsPushToggleOffset_
 (
 )
+traceLoggerEnterToggleOffset_
+(
+)
+traceLoggerExitToggleOffset_
+(
+)
+traceLoggerScriptTextIdOffset_
+(
+)
 {
 }
 bool

@@ -6535,6 +6535,10 @@ Register
 logger
 uint32_t
 textId
+bool
+force
+=
+false
 )
 ;
 void
@@ -6553,6 +6557,10 @@ Register
 logger
 uint32_t
 textId
+bool
+force
+=
+false
 )
 ;
 void
