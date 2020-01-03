@@ -162,6 +162,13 @@ nsIUUIDGenerator
 h
 "
 #
+include
+"
+nsIGfxInfo
+.
+h
+"
+#
 endif
 using
 namespace

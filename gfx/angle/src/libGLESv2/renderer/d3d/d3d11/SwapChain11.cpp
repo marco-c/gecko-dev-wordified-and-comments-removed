@@ -3474,11 +3474,6 @@ releaseSync
 (
 )
 {
-SafeRelease
-(
-mOffscreenRTView
-)
-;
 }
 ID3D11ShaderResourceView
 *
