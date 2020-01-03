@@ -116,7 +116,20 @@ Sandbox
 (
 Context
 (
-VARIABLES
+{
+            
+'
+DIRS
+'
+:
+(
+list
+list
+None
+None
+)
+        
+}
 )
 )
     
@@ -1546,12 +1559,25 @@ DIRS
 '
 ]
 [
+            
+sandbox
+.
+normalize_path
+(
 '
 foo
 '
+)
+            
+sandbox
+.
+normalize_path
+(
 '
 bar
 '
+)
+        
 ]
 )
         
@@ -1924,9 +1950,16 @@ DIRS
 '
 ]
 [
+sandbox
+.
+normalize_path
+(
 '
+child
+/
 foo
 '
+)
 ]
 )
         
@@ -1973,9 +2006,16 @@ DIRS
 '
 ]
 [
+sandbox
+.
+normalize_path
+(
 '
+child
+/
 foo
 '
+)
 ]
 )
     
@@ -2025,9 +2065,14 @@ DIRS
 '
 ]
 [
+sandbox
+.
+normalize_path
+(
 '
 foo
 '
+)
 ]
 )
     
@@ -2546,9 +2591,14 @@ DIRS
 '
 :
 [
+sandbox
+.
+normalize_path
+(
 '
 foo
 '
+)
 ]
         
 }
@@ -2792,9 +2842,14 @@ DIRS
 '
 :
 [
+sandbox
+.
+normalize_path
+(
 '
 foo
 '
+)
 ]
         
 }
