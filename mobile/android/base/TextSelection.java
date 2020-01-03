@@ -267,7 +267,7 @@ boolean
 mDraggingHandles
 ;
 private
-int
+String
 selectionID
 ;
 private
@@ -674,7 +674,7 @@ selectionID
 =
 message
 .
-getInt
+getString
 (
 "
 selectionID
