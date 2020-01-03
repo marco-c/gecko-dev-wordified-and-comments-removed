@@ -477,6 +477,17 @@ mozilla
 .
 gecko
 .
+javaaddons
+.
+JavaAddonManager
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 menu
 .
 GeckoMenu
