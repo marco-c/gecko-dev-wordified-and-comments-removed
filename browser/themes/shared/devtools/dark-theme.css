@@ -75,17 +75,6 @@ theme
 -
 selection
 -
-color
-:
-#
-f5f7fa
-;
--
--
-theme
--
-selection
--
 background
 -
 semitransparent
@@ -98,6 +87,17 @@ rgba
 .
 5
 )
+;
+-
+-
+theme
+-
+selection
+-
+color
+:
+#
+f5f7fa
 ;
 -
 -
@@ -116,7 +116,7 @@ theme
 comment
 :
 #
-5c6773
+757873
 ;
 -
 -
@@ -127,7 +127,7 @@ body
 color
 :
 #
-a9bacb
+8fa1b2
 ;
 -
 -
@@ -173,7 +173,7 @@ content
 color3
 :
 #
-667380
+5f7387
 ;
 -
 -
@@ -184,7 +184,7 @@ highlight
 green
 :
 #
-5c9966
+70bf53
 ;
 -
 -
@@ -195,7 +195,7 @@ highlight
 blue
 :
 #
-3689b2
+46afe3
 ;
 -
 -
@@ -217,7 +217,7 @@ highlight
 purple
 :
 #
-6270b2
+6b7abb
 ;
 -
 -
@@ -228,7 +228,7 @@ highlight
 lightorange
 :
 #
-a18650
+d99b28
 ;
 -
 -
@@ -239,7 +239,7 @@ highlight
 orange
 :
 #
-b26b47
+d96629
 ;
 -
 -
@@ -250,7 +250,7 @@ highlight
 red
 :
 #
-bf5656
+eb5368
 ;
 -
 -
@@ -261,7 +261,7 @@ highlight
 pink
 :
 #
-a673bf
+df80ff
 ;
 }
 .
