@@ -2544,7 +2544,7 @@ ProxyObject
 (
 )
 ;
-MarkValue
+TraceEdge
 (
 trc
 wrapper

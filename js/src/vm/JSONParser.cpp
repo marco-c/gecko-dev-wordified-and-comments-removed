@@ -289,10 +289,7 @@ j
 +
 +
 )
-gc
-:
-:
-MarkValueRoot
+TraceRoot
 (
 trc
 &
@@ -342,10 +339,7 @@ j
 +
 )
 {
-gc
-:
-:
-MarkValueRoot
+TraceRoot
 (
 trc
 &
