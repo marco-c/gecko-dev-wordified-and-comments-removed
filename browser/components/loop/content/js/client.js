@@ -517,6 +517,7 @@ deleteCallUrl
 function
 (
 token
+sessionType
 cb
 )
 {
@@ -547,6 +548,7 @@ this
 _deleteCallUrlInternal
 (
 token
+sessionType
 cb
 )
 ;
@@ -564,6 +566,7 @@ _deleteCallUrlInternal
 function
 (
 token
+sessionType
 cb
 )
 {
@@ -629,13 +632,7 @@ mozLoop
 .
 hawkRequest
 (
-this
-.
-mozLoop
-.
-LOOP_SESSION_TYPE
-.
-GUEST
+sessionType
 "
 /
 call
