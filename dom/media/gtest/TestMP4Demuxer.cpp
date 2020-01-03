@@ -67,6 +67,13 @@ MockMediaResource
 .
 h
 "
+#
+include
+"
+VideoUtils
+.
+h
+"
 using
 namespace
 mozilla

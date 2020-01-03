@@ -31,6 +31,13 @@ ReentrantMonitor
 .
 h
 "
+#
+include
+"
+MediaResource
+.
+h
+"
 namespace
 mozilla
 {

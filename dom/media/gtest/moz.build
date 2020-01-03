@@ -118,6 +118,11 @@ TestGMPRemoveAndDelete
 cpp
 '
 '
+TestGMPUtils
+.
+cpp
+'
+'
 TestIntervalSet
 .
 cpp
