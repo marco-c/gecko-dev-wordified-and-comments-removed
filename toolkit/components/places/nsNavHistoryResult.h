@@ -2789,12 +2789,6 @@ aComparator
 )
 override
 ;
-nsCOMPtr
-<
-nsIURI
->
-mRemovingURI
-;
 nsresult
 NotifyIfTagsChanged
 (
