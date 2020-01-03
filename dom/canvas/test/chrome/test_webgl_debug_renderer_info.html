@@ -379,7 +379,7 @@ contexts
 )
 ;
 var
-debugRendererInfoExtension
+ext
 =
 gl
 .
@@ -392,7 +392,7 @@ WEBGL_debug_renderer_info
 ;
 ok
 (
-debugRendererInfoExtension
+ext
 "
 WEBGL_debug_renderer_info
 should
@@ -408,7 +408,7 @@ contexts
 ;
 ok
 (
-debugRendererInfoExtension
+ext
 .
 UNMASKED_VENDOR_WEBGL
 =
@@ -425,7 +425,7 @@ value
 ;
 ok
 (
-debugRendererInfoExtension
+ext
 .
 UNMASKED_RENDERER_WEBGL
 =
@@ -580,15 +580,13 @@ iframe
 src
 =
 "
-http
+chrome
 :
 /
 /
-mochi
-.
-test
-:
-8888
+mochitests
+/
+content
 /
 chrome
 /
