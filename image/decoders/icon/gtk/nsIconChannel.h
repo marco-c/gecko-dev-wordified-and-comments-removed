@@ -104,14 +104,6 @@ nsIChannel
 mRealChannel
 ;
 nsresult
-InitWithGnome
-(
-nsIMozIconURI
-*
-aURI
-)
-;
-nsresult
 InitWithGIO
 (
 nsIMozIconURI
