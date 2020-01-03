@@ -3289,11 +3289,12 @@ canOpen
 {
 setTimeout
 (
-function
 (
 )
+=
+>
 {
-allTabs
+this
 .
 toolbarButton
 .
