@@ -6321,9 +6321,6 @@ nsSVGUtils
 :
 GetFallbackOrPaintColor
 (
-gfxContext
-*
-aContext
 nsStyleContext
 *
 aStyleContext
@@ -6506,7 +6503,6 @@ nsSVGUtils
 :
 GetFallbackOrPaintColor
 (
-aContext
 aStyleContext
 aFillOrStroke
 )

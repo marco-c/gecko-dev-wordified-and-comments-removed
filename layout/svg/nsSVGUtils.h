@@ -1219,9 +1219,6 @@ static
 nscolor
 GetFallbackOrPaintColor
 (
-gfxContext
-*
-aContext
 nsStyleContext
 *
 aStyleContext
