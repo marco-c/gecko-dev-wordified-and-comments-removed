@@ -88,7 +88,7 @@ clear_on_exit
 ;
 Override
 public
-void
+boolean
 setupPref
 (
 Context
@@ -147,6 +147,9 @@ size
 >
 0
 )
+;
+return
+true
 ;
 }
 Override
