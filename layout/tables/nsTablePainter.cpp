@@ -700,7 +700,7 @@ wm
 aTableFrame
 -
 >
-GetContinuousLeftBCBorderWidth
+GetContinuousIStartBCBorderWidth
 (
 )
 ;
@@ -1116,7 +1116,7 @@ lastLeftBorder
 aTableFrame
 -
 >
-GetContinuousLeftBCBorderWidth
+GetContinuousIStartBCBorderWidth
 (
 )
 ;
