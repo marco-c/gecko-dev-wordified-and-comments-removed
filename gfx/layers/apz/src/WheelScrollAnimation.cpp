@@ -160,9 +160,8 @@ aDelta
 TimeStamp
 now
 =
-AsyncPanZoomController
-:
-:
+mApzc
+.
 GetFrameTime
 (
 )
