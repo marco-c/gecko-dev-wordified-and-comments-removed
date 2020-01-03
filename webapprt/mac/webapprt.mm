@@ -743,11 +743,14 @@ myWebRTPath
 =
 [
 myBundle
-pathForAuxiliaryExecutable
+pathForResource
 :
 "
 webapprt
 "
+ofType
+:
+nil
 ]
 ;
 if
