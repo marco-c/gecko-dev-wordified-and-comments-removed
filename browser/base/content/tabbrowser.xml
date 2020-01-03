@@ -28879,6 +28879,15 @@ crashed
 true
 )
 ;
+tab
+.
+removeAttribute
+(
+"
+soundplaying
+"
+)
+;
 this
 .
 setIcon
