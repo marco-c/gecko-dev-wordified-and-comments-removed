@@ -402,17 +402,6 @@ true
 ;
 }
 void
-Polygon
-(
-const
-gfxPoint
-*
-points
-uint32_t
-numPoints
-)
-;
-void
 Multiply
 (
 const
