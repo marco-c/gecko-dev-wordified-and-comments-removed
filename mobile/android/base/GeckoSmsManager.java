@@ -228,8 +228,6 @@ kNoError
 int
 size
 =
-Envelope
-.
 SubParts
 .
 values
@@ -290,8 +288,6 @@ public
 void
 decreaseRemainingParts
 (
-Envelope
-.
 SubParts
 aType
 )
@@ -357,8 +353,6 @@ public
 boolean
 arePartsRemaining
 (
-Envelope
-.
 SubParts
 aType
 )
@@ -381,8 +375,6 @@ public
 void
 markAsFailed
 (
-Envelope
-.
 SubParts
 aType
 )
@@ -403,8 +395,6 @@ public
 boolean
 isFailing
 (
-Envelope
-.
 SubParts
 aType
 )
@@ -1607,10 +1597,6 @@ String
 ]
 kRequiredMessageRows
 =
-new
-String
-[
-]
 {
 "
 _id
@@ -1695,8 +1681,6 @@ smsFilter
 .
 addAction
 (
-GeckoSmsManager
-.
 ACTION_SMS_RECEIVED
 )
 ;
@@ -1704,8 +1688,6 @@ smsFilter
 .
 addAction
 (
-GeckoSmsManager
-.
 ACTION_SMS_SENT
 )
 ;
@@ -1713,8 +1695,6 @@ smsFilter
 .
 addAction
 (
-GeckoSmsManager
-.
 ACTION_SMS_DELIVERED
 )
 ;
@@ -2472,8 +2452,6 @@ envelopeId
 )
 ;
 }
-return
-;
 }
 }
 Override

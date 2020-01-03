@@ -68,25 +68,21 @@ public
 interface
 ISmsManager
 {
-public
 void
 start
 (
 )
 ;
-public
 void
 stop
 (
 )
 ;
-public
 void
 shutdown
 (
 )
 ;
-public
 void
 send
 (
@@ -98,7 +94,6 @@ int
 aRequestId
 )
 ;
-public
 void
 getMessage
 (
@@ -108,7 +103,6 @@ int
 aRequestId
 )
 ;
-public
 void
 deleteMessage
 (
@@ -118,7 +112,6 @@ int
 aRequestId
 )
 ;
-public
 void
 createMessageList
 (
@@ -146,7 +139,6 @@ int
 aRequestId
 )
 ;
-public
 void
 getNextMessageInList
 (
@@ -156,7 +148,6 @@ int
 aRequestId
 )
 ;
-public
 void
 clearMessageList
 (
