@@ -3610,11 +3610,15 @@ GetOwner
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 window
 )
+{
+return
 ;
+}
 nsIDocument
 *
 doc
