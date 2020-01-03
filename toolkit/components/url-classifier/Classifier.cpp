@@ -2916,7 +2916,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsTArray
+FallibleTArray
 <
 uint32_t
 >
@@ -2929,7 +2929,6 @@ prefixSet
 >
 GetPrefixes
 (
-&
 AddPrefixHashes
 )
 ;
@@ -3873,7 +3872,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsTArray
+FallibleTArray
 <
 uint32_t
 >
@@ -3887,7 +3886,6 @@ cache
 >
 GetPrefixes
 (
-&
 prefixes
 )
 ;

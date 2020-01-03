@@ -186,6 +186,17 @@ nsIFile
 aFile
 )
 ;
+nsresult
+GetPrefixesNative
+(
+FallibleTArray
+<
+uint32_t
+>
+&
+outArray
+)
+;
 size_t
 SizeInMemory
 (
