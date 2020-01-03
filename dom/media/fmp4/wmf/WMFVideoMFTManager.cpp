@@ -2369,7 +2369,7 @@ error
 )
 ;
 return
-E_FAIL
+hr
 ;
 }
 nsRefPtr

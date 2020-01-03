@@ -247,6 +247,16 @@ mIsFlushing
 bool
 mIsShutDown
 ;
+bool
+mHasSuccessfulOutput
+=
+false
+;
+bool
+mRecordedError
+=
+false
+;
 }
 ;
 }
