@@ -510,6 +510,10 @@ mChromeMessageManager
 aChrome
 )
 {
+SetIsNotDOMBinding
+(
+)
+;
 mozilla
 :
 :

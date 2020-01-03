@@ -77,6 +77,10 @@ mPrincipal
 principal
 )
 {
+SetIsNotDOMBinding
+(
+)
+;
 SetWrapper
 (
 global
