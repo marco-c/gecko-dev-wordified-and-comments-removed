@@ -47,12 +47,9 @@ eval
 +
 +
 "
-Function
+Dummy
+description
 .
-prototype
-.
-isGenerator
-present
 "
 )
 ;
