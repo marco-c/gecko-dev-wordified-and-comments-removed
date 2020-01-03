@@ -841,7 +841,7 @@ const
 size_t
 kMaxLength
 =
-1024
+4096
 ;
 char
 buffer
