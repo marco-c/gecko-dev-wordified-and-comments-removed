@@ -8433,7 +8433,7 @@ Condition
 c
 )
 {
-if
+MOZ_ASSERT
 (
 data
 >
@@ -8442,7 +8442,16 @@ data
 !
 =
 0xf
+"
+Instruction
+must
+have
+a
+condition
+code
+"
 )
+;
 *
 c
 =
