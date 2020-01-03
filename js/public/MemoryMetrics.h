@@ -838,7 +838,7 @@ macro
 (
 _
 _
-nurseryHugeSlots
+nurseryMallocedBuffers
 )
 \
 macro

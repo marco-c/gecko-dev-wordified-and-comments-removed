@@ -5975,7 +5975,12 @@ nDynamicSlots
 Nursery
 :
 :
-MaxNurserySlots
+MaxNurseryBufferSize
+/
+sizeof
+(
+Value
+)
 )
 {
 jump

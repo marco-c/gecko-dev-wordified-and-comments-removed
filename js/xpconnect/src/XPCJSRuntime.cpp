@@ -12360,9 +12360,9 @@ gc
 /
 nursery
 -
-huge
+malloced
 -
-slots
+buffers
 "
 )
 KIND_NONHEAP
@@ -12372,7 +12372,7 @@ runtime
 .
 gc
 .
-nurseryHugeSlots
+nurseryMallocedBuffers
 "
 Out
 -
