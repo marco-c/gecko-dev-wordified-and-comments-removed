@@ -12524,6 +12524,10 @@ mLastDispatchedPaintMetrics
 =
 aLayerMetrics
 ;
+needContentRepaint
+=
+true
+;
 }
 }
 if
