@@ -907,6 +907,9 @@ Image
 >
 mImage
 ;
+TimeStamp
+mTimeStamp
+;
 }
 ;
 void
