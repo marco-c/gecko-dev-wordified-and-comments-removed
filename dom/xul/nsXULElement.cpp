@@ -10497,9 +10497,11 @@ if
 !
 mNodeInfo
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 nsresult
 tmp
 =
@@ -10558,9 +10560,11 @@ if
 !
 mAttributes
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 nsAutoString
 attributeValue
 ;
@@ -10627,9 +10631,11 @@ if
 !
 ni
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
+}
 mAttributes
 [
 i
