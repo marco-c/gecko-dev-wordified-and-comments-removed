@@ -2254,6 +2254,13 @@ LockProd
 ;
 }
 {
+src
+-
+>
+ProducerAcquire
+(
+)
+;
 UniquePtr
 <
 ReadBuffer
@@ -2284,6 +2291,13 @@ ReadPixelsIntoDataSurface
 (
 mGL
 dest
+)
+;
+src
+-
+>
+ProducerRelease
+(
 )
 ;
 }
