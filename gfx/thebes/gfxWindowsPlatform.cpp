@@ -8658,6 +8658,16 @@ gfxPrefs
 LayersD3D11DisableWARP
 (
 )
+|
+|
+GetModuleHandleA
+(
+"
+nvdxgiwrapper
+.
+dll
+"
+)
 )
 {
 return
