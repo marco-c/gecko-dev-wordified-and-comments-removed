@@ -402,13 +402,6 @@ double
 aTime
 )
 ;
-bool
-ContainsTime
-(
-double
-aTime
-)
-;
 private
 :
 virtual

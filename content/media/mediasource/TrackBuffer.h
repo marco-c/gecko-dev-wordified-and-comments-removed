@@ -188,7 +188,7 @@ aEnd
 bool
 ContainsTime
 (
-double
+int64_t
 aTime
 )
 ;

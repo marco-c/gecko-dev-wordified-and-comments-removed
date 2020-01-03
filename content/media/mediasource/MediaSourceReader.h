@@ -306,7 +306,7 @@ IsShutdown
 bool
 TrackBuffersContainTime
 (
-double
+int64_t
 aTime
 )
 ;
@@ -325,14 +325,14 @@ private
 bool
 SwitchAudioReader
 (
-double
+int64_t
 aTarget
 )
 ;
 bool
 SwitchVideoReader
 (
-double
+int64_t
 aTarget
 )
 ;
@@ -342,7 +342,7 @@ MediaDecoderReader
 >
 SelectReader
 (
-double
+int64_t
 aTarget
 bool
 (
@@ -387,7 +387,7 @@ aNewReader
 void
 WaitForTimeRange
 (
-double
+int64_t
 aTime
 )
 ;
