@@ -1344,6 +1344,7 @@ Zone
 *
 atomsZone
 ;
+explicit
 Census
 (
 JSContext
@@ -1409,6 +1410,7 @@ total_
 ;
 public
 :
+explicit
 Tally
 (
 Census
@@ -1630,6 +1632,7 @@ other
 ;
 public
 :
+explicit
 ByJSType
 (
 Census
@@ -2334,6 +2337,7 @@ return
 }
 public
 :
+explicit
 ByObjectClass
 (
 Census
@@ -2972,6 +2976,7 @@ table
 ;
 public
 :
+explicit
 ByUbinodeType
 (
 Census
@@ -3565,6 +3570,7 @@ assorter
 ;
 public
 :
+explicit
 CensusHandler
 (
 Census

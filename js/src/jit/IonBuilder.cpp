@@ -21248,6 +21248,7 @@ rp
 }
 public
 :
+explicit
 WrapMGetPropertyCache
 (
 MGetPropertyCache

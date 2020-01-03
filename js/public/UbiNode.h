@@ -1361,6 +1361,7 @@ compartment
 )
 ;
 }
+explicit
 TracerConcreteWithCompartment
 (
 Referent

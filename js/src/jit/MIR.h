@@ -10224,6 +10224,7 @@ private
 uint32_t
 numElements_
 ;
+explicit
 MArrayState
 (
 MDefinition
@@ -18913,6 +18914,7 @@ BitwisePolicy
 bool
 operandIsNeverZero_
 ;
+explicit
 MClz
 (
 MDefinition

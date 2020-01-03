@@ -1604,6 +1604,7 @@ fop
 )
 ;
 }
+explicit
 FreeOp
 (
 JSRuntime

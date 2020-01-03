@@ -239,6 +239,7 @@ value
 NonAssertingLabel
 uses
 ;
+explicit
 SimdData
 (
 const

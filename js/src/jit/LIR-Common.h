@@ -716,6 +716,7 @@ LIR_HEADER
 SimdSignMaskX4
 )
 ;
+explicit
 LSimdSignMaskX4
 (
 const
@@ -10543,6 +10544,7 @@ LIR_HEADER
 (
 ClzI
 )
+explicit
 LClzI
 (
 const
