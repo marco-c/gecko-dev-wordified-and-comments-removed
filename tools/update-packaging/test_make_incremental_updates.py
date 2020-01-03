@@ -53,11 +53,6 @@ updatev3
 .
 manifest
 '
-'
-removed
--
-files
-'
 ]
         
 self
@@ -1063,11 +1058,6 @@ manifest
 updatev3
 .
 manifest
-'
-'
-removed
--
-files
 '
 ]
 [
