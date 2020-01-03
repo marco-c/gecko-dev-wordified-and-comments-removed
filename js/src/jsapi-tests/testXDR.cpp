@@ -181,8 +181,9 @@ nchars
 script
 )
 ;
-free
+JS_free
 (
+cx
 chars
 )
 ;
