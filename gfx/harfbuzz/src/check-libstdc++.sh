@@ -106,6 +106,10 @@ to
 libstdc
 +
 +
+or
+libc
++
++
 "
 if
 ldd
@@ -114,6 +118,15 @@ so
 grep
 '
 libstdc
+[
++
+]
+[
++
+]
+\
+|
+libc
 [
 +
 ]
@@ -129,6 +142,10 @@ Ouch
 linked
 to
 libstdc
++
++
+or
+libc
 +
 +
 "

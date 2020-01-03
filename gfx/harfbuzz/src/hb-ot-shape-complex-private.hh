@@ -366,6 +366,7 @@ HB_SCRIPT_PSALTER_PAHLAVI
 :
 if
 (
+(
 planner
 -
 >
@@ -389,6 +390,18 @@ script
 =
 =
 HB_SCRIPT_ARABIC
+)
+&
+&
+HB_DIRECTION_IS_HORIZONTAL
+(
+planner
+-
+>
+props
+.
+direction
+)
 )
 return
 &
@@ -468,6 +481,9 @@ HB_SCRIPT_TAI_LE
 :
 case
 HB_SCRIPT_KHAROSHTHI
+:
+case
+HB_SCRIPT_NEW_TAI_LUE
 :
 case
 HB_SCRIPT_SYLOTI_NAGRI
@@ -723,9 +739,6 @@ _hb_ot_complex_shaper_default
 ;
 case
 HB_SCRIPT_BUGINESE
-:
-case
-HB_SCRIPT_NEW_TAI_LUE
 :
 case
 HB_SCRIPT_CHAM

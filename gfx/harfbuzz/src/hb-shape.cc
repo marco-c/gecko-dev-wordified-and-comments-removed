@@ -1317,8 +1317,10 @@ char
 *
 static_shaper_list
 ;
+#
+ifdef
+HB_USE_ATEXIT
 static
-inline
 void
 free_static_shaper_list
 (
@@ -1331,6 +1333,8 @@ static_shaper_list
 )
 ;
 }
+#
+endif
 const
 char
 *

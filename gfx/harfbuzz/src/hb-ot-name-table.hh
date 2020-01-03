@@ -157,10 +157,12 @@ sanitize
 hb_sanitize_context_t
 *
 c
+const
 void
 *
 base
 )
+const
 {
 TRACE_SANITIZE
 (
@@ -409,6 +411,7 @@ hb_sanitize_context_t
 *
 c
 )
+const
 {
 TRACE_SANITIZE
 (
@@ -484,6 +487,7 @@ hb_sanitize_context_t
 *
 c
 )
+const
 {
 TRACE_SANITIZE
 (

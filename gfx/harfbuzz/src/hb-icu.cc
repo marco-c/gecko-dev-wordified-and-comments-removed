@@ -1371,6 +1371,9 @@ icu_err
 =
 U_ZERO_ERROR
 ;
+(
+void
+)
 hb_atomic_ptr_cmpexch
 (
 &

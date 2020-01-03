@@ -731,7 +731,7 @@ z
 }
 ;
 static
-hb_bool_t
+bool
 lang_equal
 (
 hb_language_t
@@ -986,7 +986,6 @@ langs
 ifdef
 HB_USE_ATEXIT
 static
-inline
 void
 free_langs
 (
@@ -1134,6 +1133,13 @@ lang
 )
 )
 {
+lang
+-
+>
+finish
+(
+)
+;
 free
 (
 lang
@@ -1329,6 +1335,9 @@ NULL
 1
 )
 ;
+(
+void
+)
 hb_atomic_ptr_cmpexch
 (
 &

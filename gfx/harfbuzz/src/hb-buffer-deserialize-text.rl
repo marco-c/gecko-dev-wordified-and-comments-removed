@@ -708,9 +708,17 @@ cs
 ;
 hb_glyph_info_t
 info
+=
+{
+0
+}
 ;
 hb_glyph_position_t
 pos
+=
+{
+0
+}
 ;
 %
 %

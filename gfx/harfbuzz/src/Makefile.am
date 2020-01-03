@@ -47,6 +47,15 @@ Wpadded
 #
 AM_CXXFLAGS
 =
+#
+Convenience
+targets
+:
+lib
+:
+libharfbuzz
+.
+la
 lib_LTLIBRARIES
 =
 libharfbuzz

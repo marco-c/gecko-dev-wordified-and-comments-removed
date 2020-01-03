@@ -76,8 +76,10 @@ hb_shaper_pair_t
 *
 static_shapers
 ;
+#
+ifdef
+HB_USE_ATEXIT
 static
-inline
 void
 free_static_shapers
 (
@@ -104,6 +106,8 @@ static_shapers
 )
 ;
 }
+#
+endif
 const
 hb_shaper_pair_t
 *
