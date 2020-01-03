@@ -7207,6 +7207,9 @@ Ci
 nsIRadioInterfaceLayer
 Ci
 .
+nsIRadioInterfaceLayer_new
+Ci
+.
 nsIObserver
 ]
 )
