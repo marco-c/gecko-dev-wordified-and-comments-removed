@@ -184,10 +184,10 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
-aMessage
+aBuffer
 )
 override
 ;
@@ -206,7 +206,7 @@ aDeviceAddress
 )
 ;
 }
-bool
+void
 SendSocketData
 (
 mozilla
@@ -215,10 +215,11 @@ mozilla
 ipc
 :
 :
-UnixSocketRawData
+UnixSocketIOBuffer
 *
-aMessage
+aBuffer
 )
+override
 ;
 bool
 SendSocketData
@@ -257,6 +258,7 @@ void
 CloseSocket
 (
 )
+override
 ;
 void
 GetSocketAddr

@@ -280,7 +280,7 @@ ReceiveSocketData
 (
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
 aBuffer

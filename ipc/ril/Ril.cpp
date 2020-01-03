@@ -1771,10 +1771,10 @@ ReceiveSocketData
 (
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
-aMessage
+aBuffer
 )
 {
 MOZ_ASSERT
@@ -1794,7 +1794,7 @@ new
 DispatchRILEvent
 (
 mClientId
-aMessage
+aBuffer
 .
 forget
 (

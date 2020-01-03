@@ -110,10 +110,10 @@ ReceiveSocketData
 (
 nsAutoPtr
 <
-UnixSocketRawData
+UnixSocketBuffer
 >
 &
-aMessage
+aBuffer
 )
 override
 ;

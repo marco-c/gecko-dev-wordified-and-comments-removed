@@ -48,12 +48,12 @@ StreamSocket
 (
 )
 ;
-bool
+void
 SendSocketData
 (
-UnixSocketRawData
+UnixSocketIOBuffer
 *
-aMessage
+aBuffer
 )
 ;
 bool
