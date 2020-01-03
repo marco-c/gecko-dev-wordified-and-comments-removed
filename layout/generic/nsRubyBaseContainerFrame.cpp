@@ -1782,7 +1782,11 @@ NS_UNCONSTRAINEDSIZE
 false
 false
 lineWM
+nsSize
+(
 0
+0
+)
 )
 ;
 lineLayout

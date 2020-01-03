@@ -6309,7 +6309,9 @@ containerWidth
 -
 state
 .
-mContainerWidth
+ContainerWidth
+(
+)
 ;
 if
 (
@@ -9617,7 +9619,9 @@ containerWidth
 =
 aState
 .
-mContainerWidth
+ContainerWidth
+(
+)
 ;
 LogicalRect
 overflow
@@ -10939,7 +10943,9 @@ if
 (
 aState
 .
-mContainerWidth
+ContainerWidth
+(
+)
 !
 =
 line
@@ -10955,7 +10961,9 @@ mContainerWidth
 =
 aState
 .
-mContainerWidth
+ContainerWidth
+(
+)
 ;
 bool
 isLastLine
@@ -13774,7 +13782,9 @@ SlideBy
 aDeltaBCoord
 aState
 .
-mContainerWidth
+ContainerWidth
+(
+)
 )
 ;
 MoveChildFramesOfLine
@@ -17376,7 +17386,9 @@ lineWM
 outerWM
 aState
 .
-mContainerWidth
+ContainerWidth
+(
+)
 )
 ;
 nscoord
@@ -17453,7 +17465,7 @@ false
 lineWM
 aState
 .
-mContainerWidth
+mContainerSize
 )
 ;
 aState
@@ -33008,7 +33020,9 @@ wm
 )
 aState
 .
-mContainerWidth
+ContainerWidth
+(
+)
 )
 ;
 aBulletFrame
