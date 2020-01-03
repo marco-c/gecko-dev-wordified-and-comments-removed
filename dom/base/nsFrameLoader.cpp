@@ -4237,6 +4237,17 @@ return
 rv
 ;
 }
+mRemoteBrowser
+-
+>
+SwapLayerTreeObservers
+(
+aOther
+-
+>
+mRemoteBrowser
+)
+;
 nsCOMPtr
 <
 nsIBrowserDOMWindow

@@ -2060,6 +2060,14 @@ bool
 aActive
 )
 ;
+void
+SwapLayerTreeObservers
+(
+TabParent
+*
+aOther
+)
+;
 virtual
 bool
 RecvInvokeDragSession
