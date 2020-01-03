@@ -256,3 +256,6 @@ xpcshell
 .
 rc
 '
+FAIL_ON_WARNINGS
+=
+True
