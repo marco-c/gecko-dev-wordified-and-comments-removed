@@ -492,6 +492,14 @@ msg
 case
 RESTORED
 :
+tabStripView
+.
+restoreTabs
+(
+)
+;
+break
+;
 case
 ADDED
 :
