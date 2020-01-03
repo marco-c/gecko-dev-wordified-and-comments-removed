@@ -2872,15 +2872,6 @@ aDataType
 =
 0
 ;
-virtual
-nsDeviceContext
-*
-GetDeviceContext
-(
-)
-=
-0
-;
 NS_IMETHOD
 SetTitle
 (
