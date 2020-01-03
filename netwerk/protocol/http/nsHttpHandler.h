@@ -517,6 +517,15 @@ return
 mSpdyPushAllowance
 ;
 }
+uint32_t
+DefaultSpdyConcurrent
+(
+)
+{
+return
+mDefaultSpdyConcurrent
+;
+}
 PRIntervalTime
 SpdyPingThreshold
 (
@@ -1648,6 +1657,9 @@ mSpdySendBufferSize
 ;
 uint32_t
 mSpdyPushAllowance
+;
+uint32_t
+mDefaultSpdyConcurrent
 ;
 PRIntervalTime
 mSpdyPingThreshold

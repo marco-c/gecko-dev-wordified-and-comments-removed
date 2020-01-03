@@ -361,13 +361,6 @@ kQueueReserved
 const
 static
 uint32_t
-kDefaultMaxConcurrent
-=
-100
-;
-const
-static
-uint32_t
 kMaxStreamID
 =
 0x7800000

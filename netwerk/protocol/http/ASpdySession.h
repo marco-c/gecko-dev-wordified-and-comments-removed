@@ -178,6 +178,13 @@ kInitialRwin
 *
 1024
 ;
+const
+static
+uint32_t
+kDefaultMaxConcurrent
+=
+100
+;
 bool
 SoftStreamError
 (

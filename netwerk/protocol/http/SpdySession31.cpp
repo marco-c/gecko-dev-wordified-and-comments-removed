@@ -237,10 +237,6 @@ mGoAwayID
 (
 0
 )
-mMaxConcurrent
-(
-kDefaultMaxConcurrent
-)
 mConcurrent
 (
 0
@@ -361,6 +357,15 @@ gHttpHandler
 -
 >
 SpdyPushAllowance
+(
+)
+;
+mMaxConcurrent
+=
+gHttpHandler
+-
+>
+DefaultSpdyConcurrent
 (
 )
 ;
