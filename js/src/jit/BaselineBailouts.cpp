@@ -6277,6 +6277,7 @@ script
 >
 updateBaselineOrIonRaw
 (
+cx
 )
 ;
 BaselineStackBuilder
