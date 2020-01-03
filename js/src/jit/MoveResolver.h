@@ -38,6 +38,9 @@ namespace
 jit
 {
 class
+MacroAssembler
+;
+class
 MoveOperand
 {
 public
@@ -171,6 +174,17 @@ kind_
 REG
 ;
 }
+MoveOperand
+(
+MacroAssembler
+&
+masm
+const
+ABIArg
+&
+arg
+)
+;
 MoveOperand
 (
 const

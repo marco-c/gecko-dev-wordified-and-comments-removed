@@ -82,6 +82,17 @@ VMFunctions
 .
 h
 "
+#
+include
+"
+jit
+/
+MacroAssembler
+-
+inl
+.
+h
+"
 namespace
 js
 {
