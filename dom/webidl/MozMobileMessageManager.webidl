@@ -480,6 +480,16 @@ sms
 .
 enabled
 "
+CheckPermissions
+=
+"
+sms
+"
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 interface
 MozMobileMessageManager

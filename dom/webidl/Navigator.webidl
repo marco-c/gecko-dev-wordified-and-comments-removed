@@ -1886,6 +1886,11 @@ sms
 .
 enabled
 "
+AvailableIn
+=
+"
+CertifiedApps
+"
 ]
 readonly
 attribute
