@@ -948,7 +948,7 @@ isInList
 yield
 ReadingList
 .
-containsURL
+hasItemForURL
 (
 uri
 )

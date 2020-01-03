@@ -255,7 +255,7 @@ colNames
 =
 ReadingList
 .
-ItemBasicPropertyNames
+ItemRecordProperties
 ;
 let
 conn
@@ -902,7 +902,7 @@ name
 of
 ReadingList
 .
-ItemBasicPropertyNames
+ItemRecordProperties
 )
 {
 item

@@ -381,7 +381,7 @@ ListStatusRequest
 :
 ReadingList
 .
-containsURL
+hasItemForURL
 (
 message
 .
@@ -447,7 +447,7 @@ RemoveFromList
 :
 ReadingList
 .
-getItemForURL
+itemForURL
 (
 message
 .
