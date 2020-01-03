@@ -139,6 +139,12 @@ AsmJSPageSize
 =
 4096
 ;
+#
+if
+defined
+(
+ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
+)
 static_assert
 (
 jit
@@ -167,9 +173,6 @@ immediate
 "
 )
 ;
-#
-ifdef
-JS_CPU_X64
 static
 const
 size_t
