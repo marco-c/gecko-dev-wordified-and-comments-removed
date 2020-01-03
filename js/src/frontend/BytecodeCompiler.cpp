@@ -222,8 +222,6 @@ HandleObject
 scopeChain
 HandleScript
 evalCaller
-unsigned
-staticLevel
 )
 ;
 bool
@@ -278,10 +276,6 @@ bool
 savedCallerFun
 =
 false
-unsigned
-staticLevel
-=
-0
 )
 ;
 bool
@@ -320,10 +314,6 @@ parseContext
 SharedContext
 &
 globalsc
-unsigned
-staticLevel
-=
-0
 uint32_t
 blockScopeDepth
 =
@@ -350,8 +340,6 @@ HandleObject
 scopeChain
 HandleScript
 evalCaller
-unsigned
-staticLevel
 Maybe
 <
 ParseContext
@@ -1139,8 +1127,6 @@ createScript
 (
 bool
 savedCallerFun
-unsigned
-staticLevel
 )
 {
 script
@@ -1154,7 +1140,6 @@ cx
 enclosingStaticScope
 savedCallerFun
 options
-staticLevel
 sourceObject
 0
 sourceBuffer
@@ -1295,8 +1280,6 @@ parseContext
 SharedContext
 &
 globalsc
-unsigned
-staticLevel
 uint32_t
 blockScopeDepth
 )
@@ -1327,7 +1310,6 @@ Directives
 *
 )
 nullptr
-staticLevel
 blockScopeDepth
 )
 ;
@@ -1445,8 +1427,6 @@ HandleObject
 scopeChain
 HandleScript
 evalCaller
-unsigned
-staticLevel
 Maybe
 <
 ParseContext
@@ -1530,7 +1510,6 @@ createParseContext
 (
 parseContext
 globalsc
-staticLevel
 script
 -
 >
@@ -2629,8 +2608,6 @@ HandleObject
 scopeChain
 HandleScript
 evalCaller
-unsigned
-staticLevel
 )
 {
 if
@@ -2662,7 +2639,6 @@ if
 createScript
 (
 savedCallerFun
-staticLevel
 )
 )
 return
@@ -2711,7 +2687,6 @@ createParseContext
 (
 pc
 globalsc
-staticLevel
 )
 )
 return
@@ -2817,7 +2792,6 @@ handleStatementParseFailure
 (
 scopeChain
 evalCaller
-staticLevel
 pc
 globalsc
 )
@@ -3463,8 +3437,6 @@ srcBuf
 JSString
 *
 source_
-unsigned
-staticLevel
 SourceCompressionTask
 *
 extraSct
@@ -3511,27 +3483,6 @@ options
 strictOption
 )
 ;
-MOZ_ASSERT_IF
-(
-staticLevel
-!
-=
-0
-evalCaller
-)
-;
-MOZ_ASSERT_IF
-(
-staticLevel
-!
-=
-0
-!
-options
-.
-sourceIsLazy
-)
-;
 BytecodeCompiler
 compiler
 (
@@ -3557,7 +3508,6 @@ compileScript
 (
 scopeChain
 evalCaller
-staticLevel
 )
 ;
 }
@@ -3708,17 +3658,6 @@ checkOptions
 return
 false
 ;
-uint32_t
-staticLevel
-=
-lazy
--
->
-staticLevel
-(
-cx
-)
-;
 Rooted
 <
 JSFunction
@@ -3755,7 +3694,6 @@ parser
 standaloneLazyFunction
 (
 fun
-staticLevel
 lazy
 -
 >
@@ -3836,7 +3774,6 @@ cx
 enclosingScope
 false
 options
-staticLevel
 sourceObject
 lazy
 -

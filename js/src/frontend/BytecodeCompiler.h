@@ -70,10 +70,6 @@ JSString
 source_
 =
 nullptr
-unsigned
-staticLevel
-=
-0
 SourceCompressionTask
 *
 extraSct

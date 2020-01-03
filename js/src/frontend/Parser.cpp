@@ -3684,7 +3684,6 @@ null
 globalsc
 nullptr
 0
-0
 )
 ;
 if
@@ -4152,7 +4151,6 @@ pc
 fn
 funbox
 newDirectives
-0
 0
 )
 ;
@@ -11756,12 +11754,6 @@ null
 )
 funbox
 newDirectives
-outerpc
--
->
-staticLevel
-+
-1
 0
 )
 ;
@@ -11956,12 +11948,6 @@ pc
 pn
 funbox
 newDirectives
-outerpc
--
->
-staticLevel
-+
-1
 0
 )
 ;
@@ -12106,12 +12092,6 @@ null
 )
 funbox
 newDirectives
-outerpc
--
->
-staticLevel
-+
-1
 0
 )
 ;
@@ -12289,8 +12269,6 @@ standaloneLazyFunction
 (
 HandleFunction
 fun
-unsigned
-staticLevel
 bool
 strict
 GeneratorKind
@@ -12443,7 +12421,6 @@ pn
 funbox
 &
 newDirectives
-staticLevel
 0
 )
 ;
@@ -34745,12 +34722,6 @@ outerpc
 genfn
 genFunbox
 nullptr
-outerpc
--
->
-staticLevel
-+
-1
 0
 )
 ;

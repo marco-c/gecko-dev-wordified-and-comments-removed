@@ -58762,12 +58762,6 @@ fn
 funbox
 &
 newDirectives
-outerpc
--
->
-staticLevel
-+
-1
 0
 )
 ;

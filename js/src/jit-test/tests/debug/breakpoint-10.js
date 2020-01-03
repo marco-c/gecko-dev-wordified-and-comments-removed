@@ -45,14 +45,6 @@ getChildScripts
 0
 ]
 ;
-assertEq
-(
-fscript
-.
-staticLevel
-1
-)
-;
 }
 g
 .
