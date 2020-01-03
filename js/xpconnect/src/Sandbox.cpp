@@ -244,6 +244,9 @@ ResponseBinding
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 mozilla
@@ -254,6 +257,8 @@ RTCIdentityProviderRegistrar
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1102,6 +1107,9 @@ JSPROP_ENUMERATE
 )
 ;
 }
+#
+ifdef
+MOZ_WEBRTC
 static
 bool
 SandboxCreateRTCIdentityProvider
@@ -1189,6 +1197,8 @@ JSPROP_ENUMERATE
 )
 ;
 }
+#
+endif
 static
 bool
 SetFetchRequestFromValue
@@ -4466,6 +4476,9 @@ crypto
 =
 true
 ;
+#
+ifdef
+MOZ_WEBRTC
 }
 else
 if
@@ -4488,6 +4501,8 @@ rtcIdentityProvider
 =
 true
 ;
+#
+endif
 }
 else
 if
@@ -4802,6 +4817,9 @@ obj
 return
 false
 ;
+#
+ifdef
+MOZ_WEBRTC
 if
 (
 rtcIdentityProvider
@@ -4817,6 +4835,8 @@ obj
 return
 false
 ;
+#
+endif
 if
 (
 fetch
