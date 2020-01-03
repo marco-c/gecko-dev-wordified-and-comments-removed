@@ -1448,6 +1448,13 @@ ShutdownCMS
 (
 )
 ;
+gfxPlatform
+:
+:
+CreateCMSOutputProfile
+(
+)
+;
 return
 NS_OK
 ;
