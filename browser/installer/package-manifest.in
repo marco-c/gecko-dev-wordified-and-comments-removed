@@ -283,7 +283,7 @@ document
 icns
 RESPATH
 /
-AB
+LPROJ_ROOT
 .
 lproj
 /
