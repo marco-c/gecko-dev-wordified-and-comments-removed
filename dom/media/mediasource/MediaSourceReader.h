@@ -521,6 +521,14 @@ IsAsync
 )
 ;
 }
+bool
+IsActiveReader
+(
+MediaDecoderReader
+*
+aReader
+)
+;
 private
 :
 bool

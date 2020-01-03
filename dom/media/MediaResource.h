@@ -513,6 +513,7 @@ NS_ASSERTION
 (
 mStart
 <
+=
 mEnd
 "
 Range

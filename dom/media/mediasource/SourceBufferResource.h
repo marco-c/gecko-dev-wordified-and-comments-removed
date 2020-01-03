@@ -744,6 +744,8 @@ Ended
 uint32_t
 EvictData
 (
+uint64_t
+aPlaybackOffset
 uint32_t
 aThreshold
 )
@@ -753,6 +755,11 @@ EvictBefore
 (
 uint64_t
 aOffset
+)
+;
+uint32_t
+EvictAll
+(
 )
 ;
 int64_t

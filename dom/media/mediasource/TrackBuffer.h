@@ -137,8 +137,13 @@ aTimestampOffset
 bool
 EvictData
 (
+double
+aPlaybackTime
 uint32_t
 aThreshold
+double
+*
+aBufferStartTime
 )
 ;
 void

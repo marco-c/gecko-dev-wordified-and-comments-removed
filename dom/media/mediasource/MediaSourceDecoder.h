@@ -282,6 +282,14 @@ return
 mReader
 ;
 }
+bool
+IsActiveReader
+(
+MediaDecoderReader
+*
+aReader
+)
+;
 private
 :
 dom
