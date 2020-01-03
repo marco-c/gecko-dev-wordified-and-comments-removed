@@ -831,8 +831,6 @@ public
 nsIXPConnect
 public
 nsIThreadObserver
-public
-nsSupportsWeakReference
 {
 public
 :
