@@ -540,7 +540,7 @@ this
 .
 link
 .
-targetedSite
+targetedName
 }
 <
 /
