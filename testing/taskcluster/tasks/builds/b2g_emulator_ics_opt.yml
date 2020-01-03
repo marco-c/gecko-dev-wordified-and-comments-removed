@@ -32,6 +32,13 @@ workerType
 emulator
 -
 ics
+provisionerId
+:
+aws
+-
+provisioner
+-
+v1
 routes
 :
 -

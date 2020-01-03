@@ -36,6 +36,13 @@ emualtor
 x86
 -
 kk
+provisionerId
+:
+aws
+-
+provisioner
+-
+v1
 scopes
 :
 -
