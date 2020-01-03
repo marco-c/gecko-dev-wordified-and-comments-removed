@@ -799,12 +799,12 @@ test_works_on_windows_only
 .
 js
 ]
-run
+skip
 -
 if
 =
 os
-=
+!
 =
 '
 win
@@ -1932,10 +1932,6 @@ faciliates
 skip
 -
 if
-and
-run
--
-if
 logic
 .
 3
@@ -2184,10 +2180,6 @@ by
 skip
 -
 if
-run
--
-if
-or
 manually
 )
 .
