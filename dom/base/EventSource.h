@@ -310,6 +310,14 @@ nsIURI
 aBaseURI
 )
 ;
+net
+:
+:
+ReferrerPolicy
+GetReferrerPolicy
+(
+)
+;
 nsresult
 SetupHttpChannel
 (
