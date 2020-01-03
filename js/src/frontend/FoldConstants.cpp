@@ -4259,9 +4259,6 @@ case
 PNK_MODASSIGN
 :
 case
-PNK_POWASSIGN
-:
-case
 PNK_ELEM
 :
 case
@@ -4410,9 +4407,6 @@ PNK_DIV
 :
 case
 PNK_MOD
-:
-case
-PNK_POW
 :
 case
 PNK_COMMA
