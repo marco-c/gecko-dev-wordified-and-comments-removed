@@ -383,7 +383,6 @@ aTransitions
 void
 UpdateCascadeResultsWithAnimations
 (
-const
 AnimationPlayerCollection
 *
 aAnimations
@@ -404,7 +403,6 @@ UpdateCascadeResults
 AnimationPlayerCollection
 *
 aTransitions
-const
 AnimationPlayerCollection
 *
 aAnimations
