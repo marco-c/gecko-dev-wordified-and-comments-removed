@@ -3733,6 +3733,13 @@ components
 TestInterfaceJS
 .
 manifest
+RESPATH
+/
+components
+/
+TestInterfaceJSMaplike
+.
+js
 #
 endif
 RESPATH

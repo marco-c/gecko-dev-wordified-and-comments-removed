@@ -3244,6 +3244,11 @@ TestInterfaceJSDictionaries
 .
 webidl
 '
+'
+TestInterfaceJSMaplikeSetlike
+.
+webidl
+'
 ]
 if
 CONFIG
