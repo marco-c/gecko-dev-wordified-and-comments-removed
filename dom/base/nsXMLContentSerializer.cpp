@@ -266,6 +266,9 @@ nsXMLContentSerializer
 :
 Init
 (
+nsIDocument
+*
+aDocument
 uint32_t
 aFlags
 uint32_t

@@ -104,6 +104,9 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 Init
 (
+nsIDocument
+*
+aDocument
 uint32_t
 flags
 uint32_t
@@ -115,7 +118,7 @@ aCharSet
 bool
 aIsCopying
 bool
-aIsWholeDocument
+aRewriteEncodingDeclaration
 )
 MOZ_OVERRIDE
 ;

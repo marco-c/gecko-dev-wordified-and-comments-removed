@@ -454,6 +454,9 @@ nsPlainTextSerializer
 :
 Init
 (
+nsIDocument
+*
+aDocument
 uint32_t
 aFlags
 uint32_t
@@ -468,6 +471,11 @@ bool
 aIsWholeDocument
 )
 {
+MOZ_ASSERT
+(
+aDocument
+)
+;
 #
 ifdef
 DEBUG
@@ -755,6 +763,14 @@ nsIDocumentEncoder
 :
 :
 OutputNoFramesContent
+;
+aDocument
+-
+>
+FlushPendingNotifications
+(
+Flush_Style
+)
 ;
 return
 NS_OK
