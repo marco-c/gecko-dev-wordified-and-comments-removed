@@ -593,7 +593,7 @@ SwitchAudioReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 =
 0
 )
@@ -604,7 +604,7 @@ SwitchVideoReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 =
 0
 )
@@ -712,7 +712,7 @@ SelectReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 const
 nsTArray
 <

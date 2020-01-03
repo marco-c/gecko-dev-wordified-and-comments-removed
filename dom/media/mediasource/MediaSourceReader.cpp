@@ -2186,7 +2186,7 @@ SelectReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 const
 nsTArray
 <
@@ -2292,7 +2292,7 @@ aTarget
 USECS_PER_S
 double
 (
-aError
+aTolerance
 )
 /
 USECS_PER_S
@@ -2439,7 +2439,7 @@ SwitchAudioReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 )
 {
 ReentrantMonitorAutoEnter
@@ -2472,7 +2472,7 @@ newReader
 SelectReader
 (
 aTarget
-aError
+aTolerance
 mAudioTrack
 -
 >
@@ -2552,7 +2552,7 @@ SwitchVideoReader
 int64_t
 aTarget
 int64_t
-aError
+aTolerance
 )
 {
 ReentrantMonitorAutoEnter
@@ -2585,7 +2585,7 @@ newReader
 SelectReader
 (
 aTarget
-aError
+aTolerance
 mVideoTrack
 -
 >

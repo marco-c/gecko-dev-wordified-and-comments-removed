@@ -382,7 +382,7 @@ TimeRanges
 Normalize
 (
 double
-aError
+aTolerance
 )
 {
 if
@@ -479,7 +479,7 @@ current
 .
 mEnd
 +
-aError
+aTolerance
 >
 =
 mRanges
@@ -544,7 +544,7 @@ TimeRanges
 *
 aOtherRanges
 double
-aError
+aTolerance
 )
 {
 mRanges
@@ -559,7 +559,7 @@ mRanges
 ;
 Normalize
 (
-aError
+aTolerance
 )
 ;
 }
@@ -736,7 +736,7 @@ Find
 double
 aTime
 double
-aError
+aTolerance
 )
 {
 for
@@ -774,7 +774,7 @@ mEnd
 (
 aTime
 +
-aError
+aTolerance
 )
 >
 =

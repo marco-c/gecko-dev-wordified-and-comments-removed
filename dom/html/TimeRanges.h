@@ -99,7 +99,7 @@ void
 Normalize
 (
 double
-aError
+aTolerance
 =
 0
 .
@@ -114,7 +114,7 @@ TimeRanges
 *
 aOtherRanges
 double
-aError
+aTolerance
 )
 ;
 void
@@ -315,7 +315,7 @@ Find
 double
 aTime
 double
-aError
+aTolerance
 =
 0
 )
