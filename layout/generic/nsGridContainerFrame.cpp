@@ -5727,6 +5727,9 @@ GetUnit
 )
 {
 case
+eStyleUnit_Auto
+:
+case
 eStyleUnit_Enumerated
 :
 case
@@ -5770,6 +5773,9 @@ GetUnit
 )
 )
 {
+case
+eStyleUnit_Auto
+:
 case
 eStyleUnit_Enumerated
 :
