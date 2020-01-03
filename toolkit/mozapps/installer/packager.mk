@@ -4705,9 +4705,15 @@ MOZ_PKG_MANIFEST
 NO_PKG_FILES
 +
 =
-\
 ssltunnel
 *
+endif
+ifdef
+MOZ_DMD
+NO_PKG_FILES
++
+=
+SmokeDMD
 endif
 #
 browser
