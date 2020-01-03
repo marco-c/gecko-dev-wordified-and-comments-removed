@@ -842,10 +842,8 @@ DBMLIB
 )
 \
 (
-DIST
+SQLITE_LIB_DIR
 )
-/
-lib
 /
 (
 LIB_PREFIX
@@ -859,10 +857,8 @@ LIB_SUFFIX
 )
 \
 (
-DIST
+NSSUTIL_LIB_DIR
 )
-/
-lib
 /
 (
 LIB_PREFIX
@@ -1312,10 +1308,8 @@ EXTRA_SHARED_LIBS
 -
 L
 (
-DIST
+SQLITE_LIB_DIR
 )
-/
-lib
 \
 -
 l
@@ -1410,10 +1404,8 @@ LIB_SUFFIX
 )
 \
 (
-DIST
+NSSUTIL_LIB_DIR
 )
-/
-lib
 /
 (
 IMPORT_LIB_PREFIX

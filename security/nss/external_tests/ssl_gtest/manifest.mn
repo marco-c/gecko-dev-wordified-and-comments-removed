@@ -78,6 +78,10 @@ ssl_loopback_unittest
 .
 cc
 \
+ssl_extension_unittest
+.
+cc
+\
 ssl_gtest
 .
 cc

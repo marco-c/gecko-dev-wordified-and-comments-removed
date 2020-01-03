@@ -2677,6 +2677,9 @@ dtlsSRTPCipherCount
 PRUint16
 dtlsSRTPCipherSuite
 ;
+PRBool
+fatalAlertSent
+;
 }
 ;
 #

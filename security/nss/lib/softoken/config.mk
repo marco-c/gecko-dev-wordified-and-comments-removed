@@ -199,10 +199,8 @@ EXTRA_SHARED_LIBS
 -
 L
 (
-DIST
+SQLITE_LIB_DIR
 )
-/
-lib
 \
 -
 l
@@ -246,10 +244,8 @@ EXTRA_SHARED_LIBS
 =
 \
 (
-DIST
+SQLITE_LIB_DIR
 )
-/
-lib
 /
 (
 SQLITE_LIB_NAME
@@ -337,10 +333,8 @@ EXTRA_SHARED_LIBS
 -
 L
 (
-DIST
+SQLITE_LIB_DIR
 )
-/
-lib
 \
 -
 l

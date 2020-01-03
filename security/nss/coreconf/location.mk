@@ -427,6 +427,16 @@ DIST
 lib
 endif
 ifndef
+SQLITE_LIB_DIR
+SQLITE_LIB_DIR
+=
+(
+DIST
+)
+/
+lib
+endif
+ifndef
 SQLITE_LIB_NAME
 SQLITE_LIB_NAME
 =
