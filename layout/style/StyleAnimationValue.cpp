@@ -13769,10 +13769,6 @@ aProperty
 :
 aProperty
 ;
-if
-(
-NS_FAILED
-(
 parser
 .
 ParseProperty
@@ -13798,9 +13794,9 @@ changed
 false
 aUseSVGMode
 )
-)
-|
-|
+;
+if
+(
 !
 declaration
 -

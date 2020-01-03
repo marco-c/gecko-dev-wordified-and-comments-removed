@@ -1338,9 +1338,6 @@ mCSSLoader
 bool
 changed
 ;
-nsresult
-result
-=
 cssParser
 .
 ParseProperty
@@ -1364,12 +1361,6 @@ aIsImportant
 ;
 if
 (
-NS_FAILED
-(
-result
-)
-|
-|
 !
 changed
 )
@@ -1387,7 +1378,7 @@ decl
 ;
 }
 return
-result
+NS_OK
 ;
 }
 return
@@ -1502,9 +1493,6 @@ mCSSLoader
 bool
 changed
 ;
-nsresult
-result
-=
 cssParser
 .
 ParseVariable
@@ -1532,12 +1520,6 @@ aIsImportant
 ;
 if
 (
-NS_FAILED
-(
-result
-)
-|
-|
 !
 changed
 )
@@ -1555,7 +1537,7 @@ decl
 ;
 }
 return
-result
+NS_OK
 ;
 }
 return

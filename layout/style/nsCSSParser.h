@@ -317,7 +317,7 @@ Rule
 aResult
 )
 ;
-nsresult
+void
 ParseProperty
 (
 const
@@ -356,7 +356,7 @@ aIsSVGMode
 false
 )
 ;
-nsresult
+void
 ParseVariable
 (
 const

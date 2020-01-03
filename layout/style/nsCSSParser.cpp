@@ -640,7 +640,7 @@ Rule
 aResult
 )
 ;
-nsresult
+void
 ParseProperty
 (
 const
@@ -724,7 +724,7 @@ bool
 aHTMLMode
 )
 ;
-nsresult
+void
 ParseVariable
 (
 const
@@ -5889,7 +5889,7 @@ disable
 )
 #
 endif
-nsresult
+void
 CSSParserImpl
 :
 :
@@ -6099,7 +6099,6 @@ ReleaseScanner
 )
 ;
 return
-NS_OK
 ;
 }
 bool
@@ -6241,11 +6240,8 @@ ReleaseScanner
 (
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 CSSParserImpl
 :
 :
@@ -6492,9 +6488,6 @@ AssertInitialState
 ReleaseScanner
 (
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -65665,7 +65658,7 @@ aResult
 )
 ;
 }
-nsresult
+void
 nsCSSParser
 :
 :
@@ -65702,7 +65695,6 @@ bool
 aIsSVGMode
 )
 {
-return
 static_cast
 <
 CSSParserImpl
@@ -65727,7 +65719,7 @@ aIsSVGMode
 )
 ;
 }
-nsresult
+void
 nsCSSParser
 :
 :
@@ -65763,7 +65755,6 @@ bool
 aIsImportant
 )
 {
-return
 static_cast
 <
 CSSParserImpl
