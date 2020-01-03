@@ -268,5 +268,3 @@ mozilla
 .
 org
 /
->
->
