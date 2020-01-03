@@ -255,6 +255,15 @@ aTags
 MOZ_OVERRIDE
 ;
 void
+ReadUpdatedMetadata
+(
+MediaInfo
+*
+aInfo
+)
+MOZ_OVERRIDE
+;
+void
 Seek
 (
 int64_t
