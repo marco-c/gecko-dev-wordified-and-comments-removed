@@ -1156,15 +1156,6 @@ share
 <
 !
 ENTITY
-overlay_share_retry
-"
-Try
-again
-"
->
-<
-!
-ENTITY
 overlay_share_select_device
 "
 Select
