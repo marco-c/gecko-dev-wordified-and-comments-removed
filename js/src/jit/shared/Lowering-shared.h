@@ -722,6 +722,8 @@ getVirtualRegister
 if
 (
 vreg
++
+1
 >
 =
 MAX_VIRTUAL_REGISTERS
