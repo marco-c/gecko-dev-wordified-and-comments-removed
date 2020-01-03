@@ -5109,6 +5109,16 @@ nsChangeHint
 )
 ;
 }
+typedef
+nsStyleBackground
+:
+:
+Position
+Position
+;
+Position
+mObjectPosition
+;
 nsStyleSides
 mOffset
 ;
