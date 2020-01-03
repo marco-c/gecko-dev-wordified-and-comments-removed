@@ -20,6 +20,8 @@ EVENTS
 PerformanceController
 DetailsView
 MemoryFlameGraphView
+RecordingUtils
+FlameGraphUtils
 }
 =
 panel

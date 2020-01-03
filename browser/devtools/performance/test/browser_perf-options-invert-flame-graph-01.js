@@ -1,20 +1,3 @@
-const
-INVERT_PREF
-=
-"
-devtools
-.
-performance
-.
-ui
-.
-invert
--
-flame
--
-graph
-"
-;
 function
 spawnTest
 (
@@ -60,7 +43,7 @@ prefs
 .
 setBoolPref
 (
-INVERT_PREF
+INVERT_FLAME_PREF
 true
 )
 ;
@@ -112,7 +95,7 @@ prefs
 .
 setBoolPref
 (
-INVERT_PREF
+INVERT_FLAME_PREF
 false
 )
 ;
@@ -152,7 +135,7 @@ prefs
 .
 setBoolPref
 (
-INVERT_PREF
+INVERT_FLAME_PREF
 true
 )
 ;
