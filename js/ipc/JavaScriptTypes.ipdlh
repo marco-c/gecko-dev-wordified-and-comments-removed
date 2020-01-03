@@ -172,7 +172,7 @@ struct
 LocalObject
 {
 uint64_t
-id
+serializedId
 ;
 }
 ;
@@ -180,7 +180,7 @@ struct
 RemoteObject
 {
 uint64_t
-id
+serializedId
 ;
 }
 ;
