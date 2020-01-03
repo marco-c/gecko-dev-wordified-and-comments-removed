@@ -6120,6 +6120,9 @@ cx
 js_GetErrorMessage
 nullptr
 JSMSG_INVALID_MAP_ITERABLE
+"
+Map
+"
 )
 ;
 return

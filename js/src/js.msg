@@ -727,12 +727,14 @@ property
 MSG_DEF
 (
 JSMSG_INVALID_MAP_ITERABLE
-0
+1
 JSEXN_TYPEERR
 "
 iterable
 for
-map
+{
+0
+}
 should
 have
 array
