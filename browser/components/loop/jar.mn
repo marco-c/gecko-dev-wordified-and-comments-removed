@@ -1269,7 +1269,7 @@ shared
 /
 js
 /
-roomListStore
+roomStore
 .
 js
 (
@@ -1279,7 +1279,7 @@ shared
 /
 js
 /
-roomListStore
+roomStore
 .
 js
 )
@@ -1293,7 +1293,7 @@ shared
 /
 js
 /
-localRoomStore
+activeRoomStore
 .
 js
 (
@@ -1303,7 +1303,7 @@ shared
 /
 js
 /
-localRoomStore
+activeRoomStore
 .
 js
 )

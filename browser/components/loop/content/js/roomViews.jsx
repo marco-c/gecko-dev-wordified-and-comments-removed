@@ -132,7 +132,7 @@ PropTypes
 object
 .
 isRequired
-localRoomStore
+roomStore
 :
 React
 .
@@ -144,7 +144,7 @@ loop
 .
 store
 .
-LocalRoomStore
+RoomStore
 )
 .
 isRequired
@@ -160,7 +160,7 @@ this
 .
 props
 .
-localRoomStore
+roomStore
 .
 getStoreState
 (
@@ -181,13 +181,15 @@ this
 .
 props
 .
-localRoomStore
+roomStore
 "
 change
+:
+activeRoom
 "
 this
 .
-_onLocalRoomStoreChanged
+_onActiveRoomStateChanged
 )
 ;
 }
@@ -203,7 +205,7 @@ change
 event
 on
 the
-localRoomStore
+roomStore
 and
 updates
 this
@@ -220,7 +222,7 @@ store
 private
 *
 /
-_onLocalRoomStoreChanged
+_onActiveRoomStateChanged
 :
 function
 (
@@ -234,10 +236,13 @@ this
 .
 props
 .
-localRoomStore
+roomStore
 .
 getStoreState
 (
+"
+activeRoom
+"
 )
 )
 ;
@@ -256,7 +261,7 @@ this
 .
 props
 .
-localRoomStore
+roomStore
 )
 ;
 }
@@ -334,5 +339,4 @@ navigator
 .
 mozL10n
 )
-;
 ;

@@ -23,7 +23,7 @@ loop
 .
 store
 .
-LocalRoomStore
+ActiveRoomStore
 =
 (
 function
@@ -45,7 +45,7 @@ shared
 actions
 ;
 function
-LocalRoomStore
+ActiveRoomStore
 (
 options
 )
@@ -129,7 +129,7 @@ setupWindowData
 )
 ;
 }
-LocalRoomStore
+ActiveRoomStore
 .
 prototype
 =
@@ -252,7 +252,7 @@ Events
 )
 ;
 return
-LocalRoomStore
+ActiveRoomStore
 ;
 }
 )

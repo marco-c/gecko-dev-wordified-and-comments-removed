@@ -21,7 +21,7 @@ loop
 .
 store
 .
-LocalRoomStore
+ActiveRoomStore
 "
 function
 (
@@ -117,7 +117,7 @@ loop
 .
 store
 .
-LocalRoomStore
+ActiveRoomStore
 (
 {
 mozLoop
@@ -169,7 +169,7 @@ loop
 .
 store
 .
-LocalRoomStore
+ActiveRoomStore
 (
 {
 dispatcher
@@ -257,7 +257,7 @@ loop
 .
 store
 .
-LocalRoomStore
+ActiveRoomStore
 (
 {
 mozLoop
@@ -362,7 +362,7 @@ it
 "
 should
 set
-localRoomId
+roomToken
 on
 the
 store
