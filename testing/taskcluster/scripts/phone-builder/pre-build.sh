@@ -110,6 +110,11 @@ MOZHARNESS_REV
 mozharness
 revision
 test
+MOZHARNESS_REF
+#
+mozharness
+ref
+test
 TARGET
 test
 VARIANT
@@ -183,6 +188,7 @@ mozharness
 MOZHARNESS_REPOSITORY
 MOZHARNESS_REPOSITORY
 MOZHARNESS_REV
+MOZHARNESS_REF
 fi
 #
 Figure

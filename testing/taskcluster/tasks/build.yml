@@ -362,6 +362,15 @@ mozharness_rev
 }
 }
 '
+MOZHARNESS_REF
+:
+'
+{
+{
+mozharness_ref
+}
+}
+'
 extra
 :
 treeherder
