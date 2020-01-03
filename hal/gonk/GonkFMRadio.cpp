@@ -1797,6 +1797,9 @@ if
 (
 sRDSEnabled
 )
+hal
+:
+:
 DisableRDS
 (
 )
@@ -2941,6 +2944,9 @@ block_bitmap
 )
 continue
 ;
+hal
+:
+:
 FMRadioRDSGroup
 group
 ;
