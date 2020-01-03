@@ -64,7 +64,7 @@ label
 =
 "
 &
-charsetMenu
+charsetMenu2
 .
 label
 ;
@@ -76,7 +76,7 @@ accesskey
 =
 "
 &
-charsetMenu
+charsetMenu2
 .
 accesskey
 ;

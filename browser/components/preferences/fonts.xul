@@ -3056,7 +3056,7 @@ groupbox
 !
 -
 -
-Character
+Text
 Encoding
 -
 -
@@ -3074,7 +3074,7 @@ languages
 .
 customize
 .
-Fallback
+Fallback2
 .
 grouplabel
 ;
@@ -3089,7 +3089,7 @@ languages
 .
 customize
 .
-Fallback
+Fallback2
 .
 desc
 ;
@@ -3115,7 +3115,7 @@ languages
 .
 customize
 .
-Fallback
+Fallback2
 .
 label
 ;
@@ -3128,7 +3128,7 @@ languages
 .
 customize
 .
-Fallback
+Fallback2
 .
 accesskey
 ;
