@@ -1,0 +1,8 @@
+namespace
+google
+{
+namespace
+protobuf
+{
+}
+}
