@@ -2868,7 +2868,9 @@ getItemDescription
 (
 this
 .
-_itemId
+_paneInfo
+.
+itemId
 )
 )
 {
@@ -3037,7 +3039,9 @@ PlacesEditBookmarkURITransaction
 (
 this
 .
-_itemId
+_paneInfo
+.
+itemId
 newURI
 )
 ;
@@ -3691,7 +3695,9 @@ getFolderIdForItem
 (
 this
 .
-_itemId
+_paneInfo
+.
+itemId
 )
 ;
 let

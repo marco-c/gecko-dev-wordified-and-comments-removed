@@ -993,6 +993,16 @@ dialogInfo
 .
 node
 ;
+this
+.
+_title
+=
+this
+.
+_node
+.
+title
+;
 switch
 (
 dialogInfo
