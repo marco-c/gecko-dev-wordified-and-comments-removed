@@ -8657,6 +8657,7 @@ mTextInputHandler
 >
 OnSelectionChange
 (
+aIMENotification
 )
 ;
 default
