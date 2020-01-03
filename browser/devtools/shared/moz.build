@@ -299,6 +299,13 @@ object
 js
 '
 '
+options
+-
+view
+.
+js
+'
+'
 telemetry
 .
 js
