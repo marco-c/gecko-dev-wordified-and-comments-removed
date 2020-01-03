@@ -88,6 +88,9 @@ class
 MediaRawData
 ;
 class
+MediaSourceDemuxer
+;
+class
 SourceBuffer
 ;
 class
@@ -952,6 +955,12 @@ nsMainThreadPtrHandle
 MediaSourceDecoder
 >
 mParentDecoder
+;
+nsRefPtr
+<
+MediaSourceDemuxer
+>
+mMediaSourceDemuxer
 ;
 Mirror
 <

@@ -88,6 +88,11 @@ MediaSourceDecoder
 h
 '
 '
+MediaSourceDemuxer
+.
+h
+'
+'
 MediaSourceReader
 .
 h
@@ -138,6 +143,11 @@ cpp
 '
 '
 MediaSourceDecoder
+.
+cpp
+'
+'
+MediaSourceDemuxer
 .
 cpp
 '
