@@ -484,7 +484,7 @@ verifyTabCount
 ;
 verifyUrl
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -549,7 +549,7 @@ pages
 ]
 .
 url
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 "
@@ -560,7 +560,7 @@ tab
 is
 "
 +
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 )
@@ -770,7 +770,7 @@ text
 ;
 if
 (
-StringHelper
+mStringHelper
 .
 ABOUT_HOME_URL
 .
@@ -784,7 +784,7 @@ url
 {
 text
 =
-StringHelper
+mStringHelper
 .
 TITLE_PLACE_HOLDER
 ;

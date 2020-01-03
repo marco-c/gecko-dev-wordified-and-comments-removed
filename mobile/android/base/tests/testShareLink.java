@@ -147,7 +147,7 @@ url
 String
 urlTitle
 =
-StringHelper
+mStringHelper
 .
 ROBOCOP_BIG_LINK_TITLE
 ;
@@ -161,7 +161,7 @@ url
 =
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BIG_LINK_URL
 )
@@ -195,7 +195,7 @@ url
 ;
 selectMenuItem
 (
-StringHelper
+mStringHelper
 .
 SHARE_LABEL
 )
@@ -520,7 +520,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_01_URL
 )
@@ -530,7 +530,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_02_URL
 )
@@ -540,7 +540,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_03_URL
 )
@@ -550,7 +550,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_04_URL
 )
@@ -574,7 +574,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BLANK_PAGE_05_URL
 )
@@ -584,7 +584,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_BOXES_URL
 )
@@ -594,7 +594,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_SEARCH_URL
 )
@@ -604,7 +604,7 @@ inputAndLoadUrl
 (
 getAbsoluteUrl
 (
-StringHelper
+mStringHelper
 .
 ROBOCOP_TEXT_PAGE_URL
 )
