@@ -13,6 +13,11 @@ yml
 '
 task
 :
+workerType
+:
+emulator
+-
+ics
 scopes
 :
 -

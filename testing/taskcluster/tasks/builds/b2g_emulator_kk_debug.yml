@@ -15,11 +15,11 @@ task
 :
 workerType
 :
-b2gbuild
--
 emulator
 -
 kk
+-
+debug
 scopes
 :
 -

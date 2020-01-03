@@ -61,11 +61,7 @@ owner
 }
 workerType
 :
-test
--
-c4
--
-2xlarge
+b2gtest
 provisionerId
 :
 aws
