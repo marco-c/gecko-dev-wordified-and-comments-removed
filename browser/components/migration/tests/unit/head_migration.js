@@ -168,6 +168,9 @@ promiseMigration
 (
 migrator
 resourceType
+aProfile
+=
+null
 )
 {
 let
@@ -177,7 +180,7 @@ migrator
 .
 getMigrateData
 (
-null
+aProfile
 false
 )
 ;
@@ -192,6 +195,12 @@ resourceType
 )
 >
 0
+"
+Resource
+supported
+by
+migrator
+"
 )
 ;
 return
@@ -246,7 +255,7 @@ migrate
 (
 resourceType
 null
-null
+aProfile
 )
 ;
 }
