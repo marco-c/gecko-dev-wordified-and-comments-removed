@@ -9,9 +9,9 @@ FM
 {
 tRNS
 #
-;
-IDATx
-c
+<
+IDAT
+Wc
 A
 00
 P
@@ -24,8 +24,8 @@ l
 M
 {
 -
-A1b
+J1b
 E
-0AE
+0AEu
 IEND
 B

@@ -12,7 +12,7 @@ bg_bh
 cg_cg_ch
 <
 tRNS
-7IDATx
+8IDAT8
 c
 4
 C
@@ -27,8 +27,9 @@ p
 %
 QQ
 \
--
+G6
+)
 >
-{
+8GP
 IEND
 B
