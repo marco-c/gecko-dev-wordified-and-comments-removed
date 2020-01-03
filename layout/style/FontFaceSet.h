@@ -239,7 +239,7 @@ already_AddRefed
 <
 gfxUserFontEntry
 >
-CreateFontFace
+CreateUserFontEntry
 (
 const
 nsTArray
@@ -595,7 +595,7 @@ already_AddRefed
 <
 gfxUserFontEntry
 >
-FindOrCreateFontFaceFromRule
+FindOrCreateUserFontEntryFromRule
 (
 const
 nsAString

@@ -551,7 +551,7 @@ already_AddRefed
 <
 gfxUserFontEntry
 >
-CreateFontFace
+CreateUserFontEntry
 (
 const
 nsTArray
@@ -586,7 +586,7 @@ already_AddRefed
 <
 gfxUserFontEntry
 >
-FindOrCreateFontFace
+FindOrCreateUserFontEntry
 (
 const
 nsAString
@@ -620,7 +620,7 @@ aUnicodeRanges
 )
 ;
 void
-AddFontFace
+AddUserFontEntry
 (
 const
 nsAString

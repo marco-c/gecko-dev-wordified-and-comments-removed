@@ -2038,7 +2038,7 @@ break
 mUserFontSet
 -
 >
-AddFontFace
+AddUserFontEntry
 (
 fontfamily
 ruleRec
@@ -2083,7 +2083,7 @@ ruleRec
 .
 mUserFontEntry
 =
-FindOrCreateFontFaceFromRule
+FindOrCreateUserFontEntryFromRule
 (
 fontfamily
 aRule
@@ -2120,7 +2120,7 @@ aSheetType
 mUserFontSet
 -
 >
-AddFontFace
+AddUserFontEntry
 (
 fontfamily
 ruleRec
@@ -2147,7 +2147,7 @@ gfxUserFontEntry
 FontFaceSet
 :
 :
-FindOrCreateFontFaceFromRule
+FindOrCreateUserFontEntryFromRule
 (
 const
 nsAString
@@ -3157,7 +3157,7 @@ entry
 mUserFontSet
 -
 >
-FindOrCreateFontFace
+FindOrCreateUserFontEntry
 (
 aFamilyName
 srcArray
@@ -5038,7 +5038,7 @@ FontFaceSet
 UserFontSet
 :
 :
-CreateFontFace
+CreateUserFontEntry
 (
 const
 nsTArray
