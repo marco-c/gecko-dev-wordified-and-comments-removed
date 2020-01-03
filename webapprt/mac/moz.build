@@ -197,6 +197,9 @@ USE_LIBS
 =
 [
 '
+mfbt
+'
+'
 xpcomglue
 '
 ]
