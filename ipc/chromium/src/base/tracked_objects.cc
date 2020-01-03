@@ -970,7 +970,7 @@ size
 HANDLE
 completion_handle
 =
-CreateEvent
+CreateEventW
 (
 NULL
 false
