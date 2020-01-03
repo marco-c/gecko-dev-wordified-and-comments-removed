@@ -8,7 +8,7 @@ extern
 void
 FdPrintf
 (
-int
+intptr_t
 aFd
 const
 char
