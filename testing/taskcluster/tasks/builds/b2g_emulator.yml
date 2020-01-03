@@ -229,7 +229,7 @@ docker_image
 '
 maxRunTime
 :
-7200
+14400
 command
 :
 -
