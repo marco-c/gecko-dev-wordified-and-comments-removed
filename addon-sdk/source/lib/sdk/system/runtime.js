@@ -89,6 +89,14 @@ runtime
 .
 widgetToolkit
 ;
+exports
+.
+processID
+=
+runtime
+.
+processID
+;
 try
 {
 exports

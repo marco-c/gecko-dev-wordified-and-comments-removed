@@ -318,9 +318,13 @@ addon
 -
 sdk
 /
-wiki
+blob
 /
-Contribute
+master
+/
+CONTRIBUTING
+.
+md
 )
 *
 [

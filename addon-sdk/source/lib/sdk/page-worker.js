@@ -518,6 +518,9 @@ string
 array
 '
 '
+regexp
+'
+'
 undefined
 '
 ]
