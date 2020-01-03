@@ -96,13 +96,8 @@ STRINGSPATH
 includesubst
 SYNCSTRINGSPATH
 #
-ifdef
-MOZ_ANDROID_SEARCH_ACTIVITY
-#
 includesubst
 SEARCHSTRINGSPATH
-#
-endif
 <
 !
 -
@@ -345,9 +340,6 @@ ANDROID_PACKAGE_NAME
 string
 >
 #
-ifdef
-MOZ_ANDROID_SEARCH_ACTIVITY
-#
 include
 .
 .
@@ -361,8 +353,6 @@ search_strings
 xml
 .
 in
-#
-endif
 #
 include
 .
