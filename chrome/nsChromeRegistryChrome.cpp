@@ -2112,6 +2112,11 @@ CollectPackages
 args
 )
 ;
+if
+(
+aParent
+)
+{
 nsCOMPtr
 <
 nsIIOService
@@ -2193,6 +2198,7 @@ CollectSubstitutions
 resources
 )
 ;
+}
 mOverrideTable
 .
 EnumerateRead
