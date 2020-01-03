@@ -268,7 +268,7 @@ mozilla
 .
 gecko
 .
-RestrictedProfile
+RestrictedProfiles
 "
 {
 static_methods
