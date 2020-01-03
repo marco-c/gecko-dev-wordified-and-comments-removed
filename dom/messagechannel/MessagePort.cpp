@@ -1675,8 +1675,9 @@ mState
 =
 eStateDisentangled
 ;
+return
+;
 }
-else
 if
 (
 mState
