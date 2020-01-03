@@ -55,7 +55,6 @@ recording
 -
 utils
 "
-true
 )
 ;
 loader
@@ -494,12 +493,6 @@ promise
 }
 }
 ;
-exports
-.
-PerformanceIO
-=
-PerformanceIO
-;
 function
 isValidSerializerVersion
 (
@@ -614,3 +607,9 @@ return
 data
 ;
 }
+exports
+.
+PerformanceIO
+=
+PerformanceIO
+;

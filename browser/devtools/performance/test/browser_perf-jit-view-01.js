@@ -1,7 +1,5 @@
 const
-{
 RecordingUtils
-}
 =
 devtools
 .

@@ -27,10 +27,6 @@ Polymorphic
 const
 OptimizationSite
 =
-exports
-.
-OptimizationSite
-=
 function
 (
 id
@@ -139,10 +135,6 @@ types
 }
 ;
 const
-JITOptimizations
-=
-exports
-.
 JITOptimizations
 =
 function
@@ -502,3 +494,15 @@ line
 )
 ;
 }
+exports
+.
+OptimizationSite
+=
+OptimizationSite
+;
+exports
+.
+JITOptimizations
+=
+JITOptimizations
+;

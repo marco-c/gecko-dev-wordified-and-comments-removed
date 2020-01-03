@@ -4,9 +4,7 @@ test
 )
 {
 let
-{
 RecordingUtils
-}
 =
 devtools
 .

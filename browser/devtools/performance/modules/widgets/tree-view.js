@@ -275,12 +275,6 @@ b
 0
 )
 ;
-exports
-.
-CallView
-=
-CallView
-;
 function
 CallView
 (
@@ -2272,4 +2266,10 @@ this
 }
 }
 )
+;
+exports
+.
+CallView
+=
+CallView
 ;

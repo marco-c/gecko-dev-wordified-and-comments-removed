@@ -464,12 +464,6 @@ line
 }
 }
 ;
-exports
-.
-MarkerDetails
-=
-MarkerDetails
-;
 function
 findActionFromEvent
 (
@@ -530,3 +524,9 @@ return
 null
 ;
 }
+exports
+.
+MarkerDetails
+=
+MarkerDetails
+;
