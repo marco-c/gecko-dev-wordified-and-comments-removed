@@ -421,11 +421,6 @@ timingStep
 TIME_INTERVAL_MULTIPLE
 ;
 let
-maxIters
-=
-OPTIMAL_TIME_INTERVAL_MAX_ITERS
-;
-let
 numIters
 =
 0
@@ -459,7 +454,7 @@ if
 +
 numIters
 >
-maxIters
+OPTIMAL_TIME_INTERVAL_MAX_ITERS
 )
 {
 return
