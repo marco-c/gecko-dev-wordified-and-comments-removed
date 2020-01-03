@@ -5020,7 +5020,10 @@ nsSize
 RuleNodeCacheConditions
 dummy
 ;
-gfx3DMatrix
+gfx
+:
+:
+Matrix4x4
 matrix
 =
 nsStyleTransformMatrix
@@ -5112,7 +5115,14 @@ nsComputedDOMStyle
 :
 MatrixToCSSValue
 (
-gfx3DMatrix
+const
+mozilla
+:
+:
+gfx
+:
+:
+Matrix4x4
 &
 matrix
 )

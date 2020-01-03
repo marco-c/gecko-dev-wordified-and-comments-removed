@@ -1051,8 +1051,6 @@ aFrame
 Matrix4x4
 transform
 =
-ToMatrix4x4
-(
 nsStyleTransformMatrix
 :
 :
@@ -1079,7 +1077,6 @@ presContext
 >
 AppUnitsPerCSSPixel
 (
-)
 )
 )
 ;

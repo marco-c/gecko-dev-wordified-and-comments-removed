@@ -23089,8 +23089,6 @@ AppUnitsPerDevPixel
 Matrix4x4
 result
 =
-ToMatrix4x4
-(
 nsDisplayTransform
 :
 :
@@ -23105,7 +23103,6 @@ nsPoint
 scaleFactor
 nullptr
 aOutAncestor
-)
 )
 ;
 nsPoint

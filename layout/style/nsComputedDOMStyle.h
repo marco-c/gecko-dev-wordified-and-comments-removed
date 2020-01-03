@@ -148,9 +148,6 @@ struct
 nsTimingFunction
 ;
 class
-gfx3DMatrix
-;
-class
 nsComputedDOMStyle
 final
 :
@@ -407,7 +404,14 @@ nsROCSSPrimitiveValue
 *
 MatrixToCSSValue
 (
-gfx3DMatrix
+const
+mozilla
+:
+:
+gfx
+:
+:
+Matrix4x4
 &
 aMatrix
 )

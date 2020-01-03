@@ -11294,7 +11294,7 @@ mToPerspectiveOrigin
 }
 ;
 static
-gfx3DMatrix
+Matrix4x4
 GetResultingTransformMatrix
 (
 const
@@ -11326,7 +11326,7 @@ false
 )
 ;
 static
-gfx3DMatrix
+Matrix4x4
 GetResultingTransformMatrix
 (
 const
@@ -11428,7 +11428,7 @@ aBuilder
 )
 ;
 static
-gfx3DMatrix
+Matrix4x4
 GetResultingTransformMatrixInternal
 (
 const
