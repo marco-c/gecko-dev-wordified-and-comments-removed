@@ -355,6 +355,10 @@ mTarget
 }
 else
 {
+CancelTask
+(
+)
+;
 MOZ_ASSERT
 (
 mSetActiveTask
