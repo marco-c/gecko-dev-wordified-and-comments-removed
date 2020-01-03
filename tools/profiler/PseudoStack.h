@@ -364,14 +364,14 @@ const
 void
 SetGeneration
 (
-int
+uint32_t
 aGenID
 )
 ;
 bool
 HasExpired
 (
-int
+uint32_t
 aGenID
 )
 const
@@ -407,7 +407,7 @@ mNext
 float
 mTime
 ;
-int
+uint32_t
 mGenID
 ;
 }

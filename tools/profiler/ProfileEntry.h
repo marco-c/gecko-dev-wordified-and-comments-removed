@@ -566,7 +566,7 @@ mReadPos
 int
 mEntrySize
 ;
-int
+uint32_t
 mGeneration
 ;
 ProfilerMarkerLinkedList
@@ -790,17 +790,6 @@ bufferGeneration
 )
 const
 {
-MOZ_ASSERT
-(
-mBuffer
--
->
-mGeneration
->
-=
-0
-)
-;
 return
 mBuffer
 -
