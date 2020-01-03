@@ -297,6 +297,11 @@ AboutServiceWorkers
 jsm
 '
 '
+ActivityChannel
+.
+jsm
+'
+'
 AlertsHelper
 .
 jsm
