@@ -200,6 +200,17 @@ window
 PrivateBrowsingUtils
 .
 permanentPrivateBrowsing
+&
+&
+!
+Services
+.
+prefs
+.
+prefHasUserValue
+(
+PREF
+)
 )
 {
 return
