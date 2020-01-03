@@ -8148,6 +8148,15 @@ NS_ERROR_ABORT
 }
 if
 (
+!
+gIOService
+-
+>
+IsOffline
+(
+)
+&
+&
 RecoverFromError
 (
 )
