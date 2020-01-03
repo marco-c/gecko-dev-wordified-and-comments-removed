@@ -73,6 +73,7 @@ maxdepth
 :
 2
 mozfile
+mozinstall
 mozprofile
 mozprocess
 mozrunner
