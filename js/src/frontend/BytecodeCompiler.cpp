@@ -1869,6 +1869,7 @@ parser
 .
 statement
 (
+YieldIsName
 canHaveDirectives
 )
 ;
@@ -1995,6 +1996,7 @@ parser
 .
 statement
 (
+YieldIsName
 )
 ;
 }

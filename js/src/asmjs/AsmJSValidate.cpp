@@ -2271,6 +2271,7 @@ parser
 .
 statement
 (
+YieldIsName
 )
 ;
 if
@@ -46848,6 +46849,8 @@ parser
 .
 functionArgsAndBodyGeneric
 (
+InAllowed
+YieldIsName
 fn
 fun
 Normal
@@ -50030,6 +50033,7 @@ parser
 .
 statement
 (
+YieldIsName
 )
 ;
 if

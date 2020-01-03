@@ -3499,6 +3499,7 @@ pn
 =
 statements
 (
+YieldIsName
 )
 ;
 if
@@ -4128,12 +4129,26 @@ null
 )
 ;
 }
+YieldHandling
+yieldHandling
+=
+generatorKind
+!
+=
+NotGenerator
+?
+YieldIsKeyword
+:
+YieldIsName
+;
 ParseNode
 *
 pn
 =
 functionBody
 (
+InAllowed
+yieldHandling
 Statement
 StatementListBody
 )
@@ -5116,6 +5131,10 @@ ParseHandler
 :
 functionBody
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 FunctionSyntaxKind
 kind
 FunctionBodyType
@@ -5179,6 +5198,7 @@ pn
 =
 statements
 (
+yieldHandling
 )
 ;
 if
@@ -5207,6 +5227,8 @@ kid
 =
 assignExpr
 (
+inHandling
+yieldHandling
 )
 ;
 if
@@ -7629,6 +7651,8 @@ ParseHandler
 :
 functionArguments
 (
+YieldHandling
+yieldHandling
 FunctionSyntaxKind
 kind
 FunctionType
@@ -8052,6 +8076,7 @@ lhs
 =
 destructuringExprWithoutYield
 (
+yieldHandling
 &
 data
 tt
@@ -8189,6 +8214,14 @@ checkYieldNameValidity
 )
 return
 false
+;
+MOZ_ASSERT
+(
+yieldHandling
+=
+=
+YieldIsName
+)
 ;
 goto
 TOK_NAME
@@ -8437,6 +8470,7 @@ def_expr
 =
 assignExprWithoutYield
 (
+yieldHandling
 JSMSG_YIELD_IN_DEFAULT
 )
 ;
@@ -9974,6 +10008,8 @@ ParseHandler
 :
 addExprAndGetNextTemplStrToken
 (
+YieldHandling
+yieldHandling
 Node
 nodeList
 TokenKind
@@ -9986,6 +10022,8 @@ pn
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -10070,6 +10108,8 @@ ParseHandler
 :
 taggedTemplate
 (
+YieldHandling
+yieldHandling
 Node
 nodeList
 TokenKind
@@ -10140,6 +10180,7 @@ if
 !
 addExprAndGetNextTemplStrToken
 (
+yieldHandling
 nodeList
 &
 tt
@@ -10179,6 +10220,8 @@ ParseHandler
 :
 templateLiteral
 (
+YieldHandling
+yieldHandling
 )
 {
 Node
@@ -10219,6 +10262,7 @@ if
 !
 addExprAndGetNextTemplStrToken
 (
+yieldHandling
 nodeList
 &
 tt
@@ -10284,6 +10328,10 @@ ParseHandler
 :
 functionDef
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 HandlePropertyName
 funName
 FunctionType
@@ -10476,6 +10524,7 @@ if
 (
 functionArgsAndBody
 (
+inHandling
 pn
 fun
 type
@@ -10486,8 +10535,10 @@ directives
 newDirectives
 )
 )
+{
 break
 ;
+}
 if
 (
 tokenStream
@@ -11062,6 +11113,8 @@ FullParseHandler
 :
 functionArgsAndBody
 (
+InHandling
+inHandling
 ParseNode
 *
 pn
@@ -11109,6 +11162,18 @@ funbox
 )
 return
 false
+;
+YieldHandling
+yieldHandling
+=
+generatorKind
+!
+=
+NotGenerator
+?
+YieldIsKeyword
+:
+YieldIsName
 ;
 do
 {
@@ -11235,6 +11300,8 @@ parser
 >
 functionArgsAndBodyGeneric
 (
+inHandling
+yieldHandling
 SyntaxParseHandler
 :
 :
@@ -11436,6 +11503,8 @@ if
 !
 functionArgsAndBodyGeneric
 (
+inHandling
+yieldHandling
 pn
 fun
 type
@@ -11495,6 +11564,8 @@ SyntaxParseHandler
 :
 functionArgsAndBody
 (
+InHandling
+inHandling
 Node
 pn
 HandleFunction
@@ -11583,11 +11654,25 @@ tokenStream
 return
 false
 ;
+YieldHandling
+yieldHandling
+=
+generatorKind
+!
+=
+NotGenerator
+?
+YieldIsKeyword
+:
+YieldIsName
+;
 if
 (
 !
 functionArgsAndBodyGeneric
 (
+inHandling
+yieldHandling
 pn
 fun
 type
@@ -11866,6 +11951,18 @@ null
 (
 )
 ;
+YieldHandling
+yieldHandling
+=
+generatorKind
+!
+=
+NotGenerator
+?
+YieldIsKeyword
+:
+YieldIsName
+;
 FunctionSyntaxKind
 syntaxKind
 =
@@ -11885,6 +11982,8 @@ if
 !
 functionArgsAndBodyGeneric
 (
+InAllowed
+yieldHandling
 pn
 fun
 Normal
@@ -12047,6 +12146,10 @@ ParseHandler
 :
 functionArgsAndBodyGeneric
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 Node
 pn
 HandleFunction
@@ -12072,6 +12175,7 @@ if
 !
 functionArguments
 (
+yieldHandling
 kind
 type
 &
@@ -12292,6 +12396,8 @@ body
 =
 functionBody
 (
+inHandling
+yieldHandling
 kind
 bodyType
 )
@@ -12545,6 +12651,8 @@ ParseHandler
 :
 functionStmt
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -12730,6 +12838,8 @@ null
 return
 functionDef
 (
+InAllowed
+yieldHandling
 name
 Normal
 Statement
@@ -12884,9 +12994,23 @@ ungetToken
 )
 ;
 }
+YieldHandling
+yieldHandling
+=
+generatorKind
+!
+=
+NotGenerator
+?
+YieldIsKeyword
+:
+YieldIsName
+;
 return
 functionDef
 (
+InAllowed
+yieldHandling
 name
 Normal
 Expression
@@ -13310,6 +13434,8 @@ ParseHandler
 :
 statements
 (
+YieldHandling
+yieldHandling
 )
 {
 JS_CHECK_RECURSION
@@ -13489,6 +13615,7 @@ next
 =
 statement
 (
+yieldHandling
 canHaveDirectives
 )
 ;
@@ -13657,6 +13784,10 @@ ParseHandler
 :
 condition
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 )
 {
 MUST_MATCH_TOKEN
@@ -13670,6 +13801,8 @@ pn
 =
 exprInParens
 (
+inHandling
+yieldHandling
 )
 ;
 if
@@ -13735,6 +13868,8 @@ ParseHandler
 :
 matchLabel
 (
+YieldHandling
+yieldHandling
 MutableHandle
 <
 PropertyName
@@ -13777,6 +13912,29 @@ tokenStream
 consumeKnownToken
 (
 TOK_NAME
+)
+;
+MOZ_ASSERT_IF
+(
+tokenStream
+.
+currentName
+(
+)
+=
+=
+context
+-
+>
+names
+(
+)
+.
+yield
+yieldHandling
+=
+=
+YieldIsName
 )
 ;
 label
@@ -16794,6 +16952,8 @@ ParseHandler
 :
 destructuringExpr
 (
+YieldHandling
+yieldHandling
 BindData
 <
 ParseHandler
@@ -16826,6 +16986,7 @@ pn
 =
 primaryExpr
 (
+yieldHandling
 tt
 )
 ;
@@ -16882,6 +17043,8 @@ ParseHandler
 :
 destructuringExprWithoutYield
 (
+YieldHandling
+yieldHandling
 BindData
 <
 ParseHandler
@@ -16907,6 +17070,7 @@ res
 =
 destructuringExpr
 (
+yieldHandling
 data
 tt
 )
@@ -17381,6 +17545,8 @@ ParseHandler
 :
 deprecatedLetBlockOrExpression
 (
+YieldHandling
+yieldHandling
 LetContext
 letContext
 )
@@ -17438,6 +17604,7 @@ vars
 =
 variables
 (
+yieldHandling
 PNK_LET
 nullptr
 blockObj
@@ -17580,6 +17747,7 @@ expr
 =
 statements
 (
+yieldHandling
 )
 ;
 if
@@ -17645,6 +17813,8 @@ expr
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -17855,6 +18025,8 @@ ParseHandler
 :
 blockStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -17895,6 +18067,7 @@ list
 =
 statements
 (
+yieldHandling
 )
 ;
 if
@@ -18099,6 +18272,8 @@ ParseHandler
 :
 variables
 (
+YieldHandling
+yieldHandling
 ParseNodeKind
 kind
 bool
@@ -18325,6 +18500,7 @@ pn2
 =
 primaryExpr
 (
+yieldHandling
 tt
 )
 ;
@@ -18456,6 +18632,8 @@ init
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -18708,6 +18886,8 @@ init
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -19451,6 +19631,8 @@ FullParseHandler
 :
 lexicalDeclaration
 (
+YieldHandling
+yieldHandling
 bool
 isConst
 )
@@ -19514,6 +19696,7 @@ pn
 =
 variables
 (
+yieldHandling
 kind
 nullptr
 CurrentLexicalStaticBlock
@@ -19566,6 +19749,7 @@ SyntaxParseHandler
 :
 lexicalDeclaration
 (
+YieldHandling
 bool
 )
 {
@@ -19596,6 +19780,8 @@ FullParseHandler
 :
 letDeclarationOrBlock
 (
+YieldHandling
+yieldHandling
 )
 {
 handler
@@ -19637,6 +19823,7 @@ node
 =
 deprecatedLetBlockOrExpression
 (
+yieldHandling
 LetStatement
 )
 ;
@@ -19723,6 +19910,7 @@ decl
 =
 lexicalDeclaration
 (
+yieldHandling
 false
 )
 ;
@@ -19784,6 +19972,8 @@ SyntaxParseHandler
 :
 letDeclarationOrBlock
 (
+YieldHandling
+yieldHandling
 )
 {
 JS_ALWAYS_FALSE
@@ -21048,6 +21238,7 @@ kid
 =
 functionStmt
 (
+YieldIsKeyword
 )
 ;
 if
@@ -21069,6 +21260,7 @@ kid
 =
 variables
 (
+YieldIsName
 PNK_VAR
 )
 ;
@@ -21131,6 +21323,7 @@ kid
 =
 lexicalDeclaration
 (
+YieldIsName
 tt
 =
 =
@@ -21234,6 +21427,8 @@ ParseHandler
 :
 expressionStatement
 (
+YieldHandling
+yieldHandling
 InvokedPrediction
 invoked
 )
@@ -21249,6 +21444,8 @@ pnexpr
 =
 expr
 (
+InAllowed
+yieldHandling
 invoked
 )
 ;
@@ -21307,6 +21504,8 @@ ParseHandler
 :
 ifStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 uint32_t
@@ -21323,6 +21522,8 @@ cond
 =
 condition
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -21404,6 +21605,7 @@ thenBranch
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -21458,6 +21660,7 @@ elseBranch
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -21516,6 +21719,8 @@ ParseHandler
 :
 doWhileStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 uint32_t
@@ -21546,6 +21751,7 @@ body
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -21569,6 +21775,8 @@ cond
 =
 condition
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -21644,6 +21852,8 @@ ParseHandler
 :
 whileStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 uint32_t
@@ -21674,6 +21884,8 @@ cond
 =
 condition
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -21691,6 +21903,7 @@ body
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -22020,6 +22233,8 @@ FullParseHandler
 :
 forStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -22248,6 +22463,7 @@ pn1
 =
 variables
 (
+yieldHandling
 PNK_VAR
 )
 ;
@@ -22316,6 +22532,7 @@ pn1
 =
 deprecatedLetBlockOrExpression
 (
+yieldHandling
 LetExpression
 )
 ;
@@ -22350,6 +22567,7 @@ pn1
 =
 variables
 (
+yieldHandling
 constDecl
 ?
 PNK_CONST
@@ -22368,6 +22586,8 @@ pn1
 =
 expr
 (
+InProhibited
+yieldHandling
 )
 ;
 }
@@ -22716,10 +22936,14 @@ PNK_FOROF
 ?
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 :
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -23020,6 +23244,8 @@ pn2
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -23078,6 +23304,8 @@ pn3
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -23140,6 +23368,7 @@ body
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -23296,6 +23525,8 @@ SyntaxParseHandler
 :
 forStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -23466,6 +23697,7 @@ lhsNode
 =
 variables
 (
+yieldHandling
 PNK_VAR
 &
 simpleForDecl
@@ -23506,6 +23738,8 @@ lhsNode
 =
 expr
 (
+InProhibited
+yieldHandling
 )
 ;
 }
@@ -23662,8 +23896,20 @@ null
 if
 (
 !
+(
+isForIn
+?
 expr
 (
+InAllowed
+yieldHandling
+)
+:
+assignExpr
+(
+InAllowed
+yieldHandling
+)
 )
 )
 return
@@ -23716,6 +23962,8 @@ if
 !
 expr
 (
+InAllowed
+yieldHandling
 )
 )
 return
@@ -23763,6 +24011,8 @@ if
 !
 expr
 (
+InAllowed
+yieldHandling
 )
 )
 return
@@ -23783,6 +24033,7 @@ if
 !
 statement
 (
+yieldHandling
 )
 )
 return
@@ -23821,6 +24072,8 @@ ParseHandler
 :
 switchStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -23853,6 +24106,8 @@ discriminant
 =
 exprInParens
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -24053,6 +24308,8 @@ caseExpr
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -24222,6 +24479,7 @@ stmt
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -24428,6 +24686,8 @@ ParseHandler
 :
 continueStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -24460,6 +24720,7 @@ if
 !
 matchLabel
 (
+yieldHandling
 &
 label
 )
@@ -24686,6 +24947,8 @@ ParseHandler
 :
 breakStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -24718,6 +24981,7 @@ if
 !
 matchLabel
 (
+yieldHandling
 &
 label
 )
@@ -24905,6 +25169,8 @@ ParseHandler
 :
 returnStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -24926,9 +25192,8 @@ pos
 .
 begin
 ;
-if
+MOZ_ASSERT
 (
-!
 pc
 -
 >
@@ -24939,24 +25204,7 @@ isFunctionBox
 (
 )
 )
-{
-report
-(
-ParseError
-false
-null
-(
-)
-JSMSG_BAD_RETURN_OR_YIELD
-js_return_str
-)
 ;
-return
-null
-(
-)
-;
-}
 Node
 exprNode
 ;
@@ -25022,6 +25270,8 @@ exprNode
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -25313,6 +25563,8 @@ ParseHandler
 :
 yieldExpression
 (
+InHandling
+inHandling
 )
 {
 MOZ_ASSERT
@@ -25456,6 +25708,8 @@ exprNode
 =
 assignExpr
 (
+inHandling
+YieldIsKeyword
 )
 ;
 if
@@ -25697,6 +25951,8 @@ exprNode
 =
 assignExpr
 (
+inHandling
+YieldIsKeyword
 )
 ;
 if
@@ -25740,6 +25996,8 @@ FullParseHandler
 :
 withStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 if
@@ -25824,6 +26082,8 @@ objectExpr
 =
 exprInParens
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -25923,6 +26183,7 @@ innerBlock
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -26099,6 +26360,8 @@ SyntaxParseHandler
 :
 withStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 JS_ALWAYS_FALSE
@@ -26132,6 +26395,8 @@ ParseHandler
 :
 labeledStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 uint32_t
@@ -26244,6 +26509,7 @@ pn
 =
 statement
 (
+yieldHandling
 )
 ;
 if
@@ -26291,6 +26557,8 @@ ParseHandler
 :
 throwStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -26400,6 +26668,8 @@ throwExpr
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -26461,6 +26731,8 @@ ParseHandler
 :
 tryStatement
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -26516,6 +26788,7 @@ innerBlock
 =
 statements
 (
+yieldHandling
 )
 ;
 if
@@ -26727,6 +27000,7 @@ catchName
 =
 destructuringExpr
 (
+yieldHandling
 &
 data
 tt
@@ -26747,6 +27021,33 @@ break
 case
 TOK_YIELD
 :
+if
+(
+yieldHandling
+=
+=
+YieldIsKeyword
+)
+{
+report
+(
+ParseError
+false
+null
+(
+)
+JSMSG_RESERVED_ID
+"
+yield
+"
+)
+;
+return
+null
+(
+)
+;
+}
 if
 (
 !
@@ -26876,6 +27177,8 @@ catchGuard
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -26908,6 +27211,7 @@ catchBody
 =
 statements
 (
+yieldHandling
 )
 ;
 if
@@ -27056,6 +27360,7 @@ finallyBlock
 =
 statements
 (
+yieldHandling
 )
 ;
 if
@@ -27226,6 +27531,8 @@ FullParseHandler
 :
 classDefinition
 (
+YieldHandling
+yieldHandling
 ClassContext
 classContext
 )
@@ -27309,6 +27616,14 @@ checkYieldNameValidity
 return
 null
 (
+)
+;
+MOZ_ASSERT
+(
+yieldHandling
+!
+=
+YieldIsKeyword
 )
 ;
 name
@@ -27483,6 +27798,7 @@ classHeritage
 =
 memberExpr
 (
+yieldHandling
 tt
 true
 )
@@ -27510,6 +27826,7 @@ classMethods
 =
 propertyList
 (
+yieldHandling
 ClassBody
 )
 ;
@@ -27678,6 +27995,8 @@ SyntaxParseHandler
 :
 classDefinition
 (
+YieldHandling
+yieldHandling
 ClassContext
 classContext
 )
@@ -27714,6 +28033,8 @@ ParseHandler
 :
 statement
 (
+YieldHandling
+yieldHandling
 bool
 canHaveDirectives
 )
@@ -27766,6 +28087,7 @@ TOK_LC
 return
 blockStatement
 (
+yieldHandling
 )
 ;
 case
@@ -27777,6 +28099,7 @@ pn
 =
 variables
 (
+yieldHandling
 PNK_VAR
 )
 ;
@@ -27892,6 +28215,7 @@ null
 return
 expressionStatement
 (
+yieldHandling
 )
 ;
 case
@@ -27961,12 +28285,14 @@ null
 return
 labeledStatement
 (
+yieldHandling
 )
 ;
 }
 return
 expressionStatement
 (
+yieldHandling
 )
 ;
 }
@@ -28003,11 +28329,13 @@ TOK_COLON
 return
 labeledStatement
 (
+yieldHandling
 )
 ;
 return
 expressionStatement
 (
+yieldHandling
 )
 ;
 }
@@ -28017,6 +28345,7 @@ TOK_NEW
 return
 expressionStatement
 (
+yieldHandling
 PredictInvoked
 )
 ;
@@ -28025,6 +28354,7 @@ default
 return
 expressionStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28033,6 +28363,7 @@ TOK_IF
 return
 ifStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28041,6 +28372,7 @@ TOK_DO
 return
 doWhileStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28049,6 +28381,7 @@ TOK_WHILE
 return
 whileStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28057,6 +28390,7 @@ TOK_FOR
 return
 forStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28065,6 +28399,7 @@ TOK_SWITCH
 return
 switchStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28073,6 +28408,7 @@ TOK_CONTINUE
 return
 continueStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28081,14 +28417,47 @@ TOK_BREAK
 return
 breakStatement
 (
+yieldHandling
 )
 ;
 case
 TOK_RETURN
 :
+if
+(
+!
+pc
+-
+>
+sc
+-
+>
+isFunctionBox
+(
+)
+)
+{
+report
+(
+ParseError
+false
+null
+(
+)
+JSMSG_BAD_RETURN_OR_YIELD
+js_return_str
+)
+;
+return
+null
+(
+)
+;
+}
 return
 returnStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28097,6 +28466,7 @@ TOK_WITH
 return
 withStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28105,6 +28475,7 @@ TOK_THROW
 return
 throwStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28113,6 +28484,7 @@ TOK_TRY
 return
 tryStatement
 (
+yieldHandling
 )
 ;
 case
@@ -28129,6 +28501,7 @@ TOK_FUNCTION
 return
 functionStmt
 (
+yieldHandling
 )
 ;
 case
@@ -28149,6 +28522,7 @@ null
 return
 classDefinition
 (
+yieldHandling
 ClassStatement
 )
 ;
@@ -28158,6 +28532,7 @@ TOK_LET
 return
 letDeclarationOrBlock
 (
+yieldHandling
 )
 ;
 case
@@ -28178,6 +28553,7 @@ null
 return
 lexicalDeclaration
 (
+yieldHandling
 true
 )
 ;
@@ -28253,6 +28629,10 @@ ParseHandler
 :
 expr
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 InvokedPrediction
 invoked
 )
@@ -28262,6 +28642,8 @@ pn
 =
 assignExpr
 (
+inHandling
+yieldHandling
 invoked
 )
 ;
@@ -28354,6 +28736,8 @@ pn
 =
 assignExpr
 (
+inHandling
+yieldHandling
 )
 ;
 if
@@ -28630,6 +29014,10 @@ ParseHandler
 :
 orExpr1
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 InvokedPrediction
 invoked
 )
@@ -28679,6 +29067,7 @@ pn
 =
 unaryExpr
 (
+yieldHandling
 invoked
 )
 ;
@@ -28883,6 +29272,10 @@ ParseHandler
 :
 condExpr1
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 InvokedPrediction
 invoked
 )
@@ -28892,6 +29285,8 @@ condition
 =
 orExpr1
 (
+inHandling
+yieldHandling
 invoked
 )
 ;
@@ -28932,6 +29327,8 @@ thenExpr
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 pc
@@ -28962,6 +29359,8 @@ elseExpr
 =
 assignExpr
 (
+inHandling
+yieldHandling
 )
 ;
 if
@@ -29316,6 +29715,10 @@ ParseHandler
 :
 assignExpr
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 InvokedPrediction
 invoked
 )
@@ -29386,6 +29789,7 @@ endsExpr
 return
 identifierName
 (
+yieldHandling
 )
 ;
 }
@@ -29477,6 +29881,7 @@ yieldExpressionsSupported
 return
 yieldExpression
 (
+inHandling
 )
 ;
 tokenStream
@@ -29507,6 +29912,8 @@ lhs
 =
 condExpr1
 (
+inHandling
+yieldHandling
 invoked
 )
 ;
@@ -29788,6 +30195,8 @@ null
 return
 functionDef
 (
+inHandling
+yieldHandling
 NullPtr
 (
 )
@@ -29865,6 +30274,8 @@ rhs
 =
 assignExpr
 (
+inHandling
+yieldHandling
 )
 ;
 pc
@@ -30201,6 +30612,8 @@ ParseHandler
 :
 unaryOpExpr
 (
+YieldHandling
+yieldHandling
 ParseNodeKind
 kind
 JSOp
@@ -30214,6 +30627,7 @@ kid
 =
 unaryExpr
 (
+yieldHandling
 )
 ;
 if
@@ -30256,6 +30670,8 @@ ParseHandler
 :
 unaryExpr
 (
+YieldHandling
+yieldHandling
 InvokedPrediction
 invoked
 )
@@ -30316,6 +30732,7 @@ TOK_TYPEOF
 return
 unaryOpExpr
 (
+yieldHandling
 PNK_TYPEOF
 JSOP_TYPEOF
 begin
@@ -30327,6 +30744,7 @@ TOK_VOID
 return
 unaryOpExpr
 (
+yieldHandling
 PNK_VOID
 JSOP_VOID
 begin
@@ -30338,6 +30756,7 @@ TOK_NOT
 return
 unaryOpExpr
 (
+yieldHandling
 PNK_NOT
 JSOP_NOT
 begin
@@ -30349,6 +30768,7 @@ TOK_BITNOT
 return
 unaryOpExpr
 (
+yieldHandling
 PNK_BITNOT
 JSOP_BITNOT
 begin
@@ -30360,6 +30780,7 @@ TOK_ADD
 return
 unaryOpExpr
 (
+yieldHandling
 PNK_POS
 JSOP_POS
 begin
@@ -30371,6 +30792,7 @@ TOK_SUB
 return
 unaryOpExpr
 (
+yieldHandling
 PNK_NEG
 JSOP_NEG
 begin
@@ -30410,6 +30832,7 @@ pn2
 =
 memberExpr
 (
+yieldHandling
 tt2
 true
 )
@@ -30469,6 +30892,7 @@ expr
 =
 unaryExpr
 (
+yieldHandling
 )
 ;
 if
@@ -30542,6 +30966,7 @@ pn
 =
 memberExpr
 (
+yieldHandling
 tt
 true
 invoked
@@ -32430,6 +32855,7 @@ pn3
 =
 primaryExpr
 (
+YieldIsKeyword
 tt
 )
 ;
@@ -32617,6 +33043,8 @@ pn4
 =
 expr
 (
+InAllowed
+YieldIsKeyword
 )
 ;
 if
@@ -32875,6 +33303,8 @@ cond
 =
 condition
 (
+InAllowed
+YieldIsKeyword
 )
 ;
 if
@@ -34237,6 +34667,8 @@ rhs
 =
 assignExpr
 (
+InAllowed
+YieldIsKeyword
 )
 ;
 if
@@ -34520,6 +34952,8 @@ cond
 =
 assignExpr
 (
+InAllowed
+YieldIsKeyword
 )
 ;
 if
@@ -34709,6 +35143,8 @@ bodyExpr
 =
 assignExpr
 (
+InAllowed
+YieldIsKeyword
 )
 ;
 if
@@ -35107,6 +35543,8 @@ ParseHandler
 :
 assignExprWithoutYield
 (
+YieldHandling
+yieldHandling
 unsigned
 msg
 )
@@ -35124,6 +35562,8 @@ res
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -35176,6 +35616,8 @@ ParseHandler
 :
 argumentList
 (
+YieldHandling
+yieldHandling
 Node
 listNode
 bool
@@ -35301,6 +35743,8 @@ argNode
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -35745,6 +36189,8 @@ ParseHandler
 :
 memberExpr
 (
+YieldHandling
+yieldHandling
 TokenKind
 tt
 bool
@@ -35842,6 +36288,7 @@ ctorExpr
 =
 memberExpr
 (
+yieldHandling
 tt
 false
 PredictInvoked
@@ -35900,6 +36347,7 @@ if
 !
 argumentList
 (
+yieldHandling
 lhs
 &
 isSpread
@@ -35950,6 +36398,7 @@ lhs
 =
 primaryExpr
 (
+yieldHandling
 tt
 invoked
 )
@@ -36161,6 +36610,8 @@ propExpr
 =
 expr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -36576,6 +37027,7 @@ if
 !
 argumentList
 (
+yieldHandling
 nextMember
 &
 isSpread
@@ -36628,6 +37080,7 @@ if
 !
 taggedTemplate
 (
+yieldHandling
 nextMember
 tt
 )
@@ -36769,6 +37222,8 @@ ParseHandler
 :
 identifierName
 (
+YieldHandling
+yieldHandling
 )
 {
 RootedPropertyName
@@ -36782,6 +37237,46 @@ currentName
 )
 )
 ;
+if
+(
+yieldHandling
+=
+=
+YieldIsKeyword
+&
+&
+name
+=
+=
+context
+-
+>
+names
+(
+)
+.
+yield
+)
+{
+report
+(
+ParseError
+false
+null
+(
+)
+JSMSG_RESERVED_ID
+"
+yield
+"
+)
+;
+return
+null
+(
+)
+;
+}
 Node
 pn
 =
@@ -37131,6 +37626,8 @@ ParseHandler
 :
 arrayInitializer
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -37386,6 +37883,8 @@ inner
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -37423,6 +37922,8 @@ element
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -37631,6 +38132,8 @@ ParseHandler
 :
 computedPropertyName
 (
+YieldHandling
+yieldHandling
 Node
 literal
 )
@@ -37664,6 +38167,8 @@ assignNode
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 pc
@@ -37807,6 +38312,8 @@ ParseHandler
 :
 propertyList
 (
+YieldHandling
+yieldHandling
 PropListType
 type
 )
@@ -38081,6 +38588,7 @@ propname
 =
 computedPropertyName
 (
+yieldHandling
 propList
 )
 ;
@@ -38419,6 +38927,7 @@ propname
 =
 computedPropertyName
 (
+yieldHandling
 propList
 )
 ;
@@ -38838,6 +39347,8 @@ propexpr
 =
 assignExpr
 (
+InAllowed
+yieldHandling
 )
 ;
 if
@@ -39074,6 +39585,7 @@ nameExpr
 =
 identifierName
 (
+yieldHandling
 )
 ;
 if
@@ -39124,6 +39636,7 @@ if
 !
 methodDefinition
 (
+yieldHandling
 type
 propList
 propname
@@ -39171,6 +39684,7 @@ if
 !
 methodDefinition
 (
+yieldHandling
 type
 propList
 propname
@@ -39315,6 +39829,8 @@ ParseHandler
 :
 methodDefinition
 (
+YieldHandling
+yieldHandling
 PropListType
 listType
 Node
@@ -39370,6 +39886,8 @@ fn
 =
 functionDef
 (
+InAllowed
+yieldHandling
 funName
 type
 Method
@@ -39441,6 +39959,8 @@ ParseHandler
 :
 primaryExpr
 (
+YieldHandling
+yieldHandling
 TokenKind
 tt
 InvokedPrediction
@@ -39486,6 +40006,7 @@ TOK_CLASS
 return
 classDefinition
 (
+yieldHandling
 ClassExpression
 )
 ;
@@ -39495,6 +40016,7 @@ TOK_LB
 return
 arrayInitializer
 (
+yieldHandling
 )
 ;
 case
@@ -39503,6 +40025,7 @@ TOK_LC
 return
 propertyList
 (
+yieldHandling
 ObjectLiteral
 )
 ;
@@ -39512,6 +40035,7 @@ TOK_LET
 return
 deprecatedLetBlockOrExpression
 (
+yieldHandling
 LetExpression
 )
 ;
@@ -39552,6 +40076,7 @@ TOK_RP
 return
 parenExprOrGeneratorComprehension
 (
+yieldHandling
 )
 ;
 tokenStream
@@ -39625,6 +40150,7 @@ TOK_TEMPLATE_HEAD
 return
 templateLiteral
 (
+yieldHandling
 )
 ;
 case
@@ -39664,6 +40190,7 @@ TOK_NAME
 return
 identifierName
 (
+yieldHandling
 )
 ;
 case
@@ -39986,6 +40513,8 @@ ParseHandler
 :
 parenExprOrGeneratorComprehension
 (
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -40069,6 +40598,8 @@ pn
 =
 expr
 (
+InAllowed
+yieldHandling
 PredictInvoked
 )
 ;
@@ -40299,6 +40830,10 @@ ParseHandler
 :
 exprInParens
 (
+InHandling
+inHandling
+YieldHandling
+yieldHandling
 )
 {
 MOZ_ASSERT
@@ -40348,6 +40883,8 @@ pn
 =
 expr
 (
+inHandling
+yieldHandling
 PredictInvoked
 )
 ;
