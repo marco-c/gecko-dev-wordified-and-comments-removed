@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+ContentCache
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ipc
@@ -2452,8 +2461,8 @@ TabParent
 *
 mIMETabParent
 ;
-nsString
-mIMECacheText
+ContentCache
+mContentCache
 ;
 uint32_t
 mIMESelectionAnchor

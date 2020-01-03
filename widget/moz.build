@@ -626,6 +626,11 @@ CommandList
 h
 '
 '
+ContentCache
+.
+h
+'
+'
 ContentEvents
 .
 h
@@ -719,6 +724,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+ContentCache
+.
+cpp
+'
 '
 ContentHelper
 .
