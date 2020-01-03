@@ -23,6 +23,9 @@ module
 object
 "
 )
+/
+/
+CommonJS
 return
 mod
 (
@@ -44,6 +47,9 @@ define
 .
 amd
 )
+/
+/
+AMD
 return
 define
 (
@@ -79,6 +85,11 @@ signal
 }
 )
 ;
+/
+/
+Plain
+browser
+env
 }
 )
 (
