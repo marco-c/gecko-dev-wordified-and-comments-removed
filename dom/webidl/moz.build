@@ -3186,11 +3186,6 @@ BluetoothDiscoveryHandle
 webidl
 '
 '
-BluetoothGatt
-.
-webidl
-'
-'
 BluetoothManager2
 .
 webidl
@@ -4004,6 +3999,11 @@ webidl
 '
 '
 MediaKeySession
+.
+webidl
+'
+'
+MediaKeysRequestStatus
 .
 webidl
 '

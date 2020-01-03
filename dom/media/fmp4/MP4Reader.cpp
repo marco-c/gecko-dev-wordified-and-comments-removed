@@ -2011,16 +2011,6 @@ valid
 #
 ifdef
 MOZ_EME
-if
-(
-!
-sIsEMEEnabled
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
 nsRefPtr
 <
 CDMProxy
