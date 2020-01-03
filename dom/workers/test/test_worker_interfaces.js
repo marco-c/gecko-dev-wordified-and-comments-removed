@@ -430,6 +430,9 @@ TextEncoder
 XMLHttpRequest
 "
 "
+XMLHttpRequestEventTarget
+"
+"
 XMLHttpRequestUpload
 "
 "

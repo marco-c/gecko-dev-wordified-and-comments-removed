@@ -142,7 +142,6 @@ apply
 *
 /
 [
-NoInterfaceObject
 Exposed
 =
 (
