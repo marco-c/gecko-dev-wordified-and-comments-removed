@@ -103,10 +103,11 @@ box
 hidden
 )
 {
-SidebarUI
-.
-hide
+toggleSidebar
 (
+"
+"
+false
 )
 ;
 }
