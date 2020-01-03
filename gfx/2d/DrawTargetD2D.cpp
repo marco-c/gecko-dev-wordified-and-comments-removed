@@ -7753,7 +7753,7 @@ GetDirect3D10Device
 )
 )
 {
-gfxDebug
+gfxCriticalError
 (
 )
 <
@@ -7835,7 +7835,7 @@ hr
 )
 )
 {
-gfxDebug
+gfxCriticalError
 (
 )
 <
@@ -7992,7 +7992,7 @@ hr
 )
 )
 {
-gfxWarning
+gfxCriticalError
 (
 )
 <
@@ -8610,6 +8610,20 @@ factory
 )
 )
 {
+gfxCriticalError
+(
+)
+<
+<
+"
+No
+valid
+D2D
+factory
+available
+.
+"
+;
 return
 false
 ;
@@ -11127,7 +11141,7 @@ hr
 )
 )
 {
-gfxWarning
+gfxCriticalError
 (
 )
 <
@@ -11231,7 +11245,7 @@ hr
 )
 )
 {
-gfxWarning
+gfxCriticalError
 (
 )
 <
