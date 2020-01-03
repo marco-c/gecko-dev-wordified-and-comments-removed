@@ -1218,10 +1218,6 @@ IS_DELETED
 =
 =
 1
-?
-true
-:
-false
 ;
 final
 HistoryRecord
