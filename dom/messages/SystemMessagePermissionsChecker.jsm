@@ -711,6 +711,14 @@ request
 "
 :
 {
+"
+wifi
+-
+manage
+"
+:
+[
+]
 }
 "
 first
