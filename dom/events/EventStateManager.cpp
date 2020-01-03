@@ -3474,7 +3474,7 @@ NS_COMPOSITION_CHANGE
 {
 WidgetCompositionEvent
 *
-textEvent
+compositionEvent
 =
 aEvent
 -
@@ -3487,7 +3487,7 @@ if
 (
 IsTargetCrossProcess
 (
-textEvent
+compositionEvent
 )
 )
 {
@@ -3501,7 +3501,7 @@ GetCrossProcessTarget
 SendTextEvent
 (
 *
-textEvent
+compositionEvent
 )
 )
 {

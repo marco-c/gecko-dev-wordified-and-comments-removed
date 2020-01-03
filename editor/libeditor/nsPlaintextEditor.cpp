@@ -3888,7 +3888,7 @@ nullptr
 ;
 WidgetCompositionEvent
 *
-widgetTextEvent
+compositionChangeEvent
 =
 aDOMTextEvent
 -
@@ -3904,13 +3904,13 @@ AsCompositionEvent
 ;
 NS_ENSURE_TRUE
 (
-widgetTextEvent
+compositionChangeEvent
 NS_ERROR_INVALID_ARG
 )
 ;
 MOZ_ASSERT
 (
-compChangeEvent
+compositionChangeEvent
 -
 >
 message
@@ -3929,7 +3929,7 @@ NS_COMPOSITION_CHANGE
 ;
 EnsureComposition
 (
-widgetTextEvent
+compositionChangeEvent
 )
 ;
 nsCOMPtr
@@ -3996,7 +3996,7 @@ TextEventHandlingMarker
 textEventHandlingMarker
 (
 mComposition
-widgetTextEvent
+compositionChangeEvent
 )
 ;
 NotifyEditorObservers
@@ -4032,7 +4032,7 @@ rv
 =
 InsertText
 (
-widgetTextEvent
+compositionChangeEvent
 -
 >
 mData

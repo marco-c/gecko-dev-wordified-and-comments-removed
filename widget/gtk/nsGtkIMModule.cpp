@@ -4672,7 +4672,7 @@ mOffset
 }
 }
 WidgetCompositionEvent
-textEvent
+compositionChangeEvent
 (
 true
 NS_COMPOSITION_CHANGE
@@ -4681,7 +4681,7 @@ mLastFocusedWindow
 ;
 InitEvent
 (
-textEvent
+compositionChangeEvent
 )
 ;
 uint32_t
@@ -4689,7 +4689,7 @@ targetOffset
 =
 mCompositionStart
 ;
-textEvent
+compositionChangeEvent
 .
 mData
 =
@@ -4703,7 +4703,7 @@ if
 aIsCommit
 )
 {
-textEvent
+compositionChangeEvent
 .
 mRanges
 =
@@ -4714,7 +4714,7 @@ CreateTextRangeArray
 targetOffset
 +
 =
-textEvent
+compositionChangeEvent
 .
 mRanges
 -
@@ -4738,7 +4738,7 @@ mLastFocusedWindow
 DispatchEvent
 (
 &
-textEvent
+compositionChangeEvent
 status
 )
 ;
