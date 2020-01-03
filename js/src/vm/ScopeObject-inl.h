@@ -246,10 +246,12 @@ v
 {
 setSlot
 (
-argsValue
-.
-magicUint32
+ArgumentsObject
+:
+:
+SlotFromMagicScopeSlotValue
 (
+argsValue
 )
 v
 )

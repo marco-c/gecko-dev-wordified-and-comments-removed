@@ -257,10 +257,7 @@ frameIndex
 )
 ]
 =
-JS
-:
-:
-MagicValueUint32
+MagicScopeSlotValue
 (
 fi
 .
@@ -398,10 +395,7 @@ frameIndex
 )
 ]
 =
-JS
-:
-:
-MagicValueUint32
+MagicScopeSlotValue
 (
 fi
 .
