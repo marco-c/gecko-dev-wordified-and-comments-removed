@@ -184,6 +184,11 @@ GeckoMediaPluginService
 (
 )
 ;
+void
+ClearStorage
+(
+)
+;
 GMPParent
 *
 SelectPluginForAPI
