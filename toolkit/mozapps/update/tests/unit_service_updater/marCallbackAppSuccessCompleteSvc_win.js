@@ -29,8 +29,6 @@ gTestDirsCompleteSuccess
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
-false
-false
 )
 ;
 gCallbackBinFile
@@ -65,6 +63,9 @@ checkUpdateFinished
 {
 checkFilesAfterUpdateSuccess
 (
+getApplyDirFile
+false
+false
 )
 ;
 checkCallbackServiceLog

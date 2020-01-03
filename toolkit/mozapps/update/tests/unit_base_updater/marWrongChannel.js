@@ -28,8 +28,6 @@ gTestDirs
 setupUpdaterTest
 (
 FILE_WRONG_CHANNEL_MAR
-false
-false
 )
 ;
 createUpdaterINI
@@ -56,10 +54,10 @@ checkUpdateApplied
 {
 if
 (
-IS_MACOSX
-|
-|
 IS_WIN
+|
+|
+IS_MACOSX
 )
 {
 do_check_false
@@ -80,6 +78,9 @@ exists
 }
 checkFilesAfterUpdateSuccess
 (
+getApplyDirFile
+false
+false
 )
 ;
 doTestFinish

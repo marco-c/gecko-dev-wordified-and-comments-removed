@@ -9,10 +9,6 @@ run_test
 (
 )
 {
-gUseTestAppDir
-=
-false
-;
 setupTestCommon
 (
 )
