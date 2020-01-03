@@ -6020,9 +6020,12 @@ NS_IsMainThread
 ;
 int32_t
 state
+=
+nsIAppOfflineInfo
+:
+:
+ONLINE
 ;
-if
-(
 mAppsOfflineStatus
 .
 Get
@@ -6031,8 +6034,9 @@ aAppId
 &
 state
 )
-&
-&
+;
+if
+(
 state
 =
 =
