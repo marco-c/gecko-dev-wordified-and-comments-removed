@@ -4234,7 +4234,7 @@ mutedErrors
 if
 (
 !
-ExpandErrorArguments
+ExpandErrorArgumentsVA
 (
 cx
 GetErrorMessage

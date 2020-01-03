@@ -2974,7 +2974,7 @@ ArgumentsAreASCII
 if
 (
 !
-ExpandErrorArguments
+ExpandErrorArgumentsVA
 (
 cx
 GetErrorMessage

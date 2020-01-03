@@ -2036,7 +2036,7 @@ args
 endif
 extern
 bool
-ExpandErrorArguments
+ExpandErrorArgumentsVA
 (
 ExclusiveContext
 *
