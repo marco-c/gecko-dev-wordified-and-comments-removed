@@ -60,6 +60,10 @@ nsACString
 hostname
 uint32_t
 flags
+const
+nsACString
+&
+networkInterface
 )
 ;
 bool
@@ -73,6 +77,10 @@ const
 uint32_t
 &
 flags
+const
+nsCString
+&
+networkInterface
 const
 nsresult
 &
