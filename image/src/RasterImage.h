@@ -360,10 +360,6 @@ const
 void
 Discard
 (
-bool
-aNotify
-=
-true
 )
 ;
 nsresult
@@ -746,13 +742,6 @@ aPreviousFrame
 nsresult
 DoImageDataComplete
 (
-)
-;
-bool
-ApplyDecodeFlags
-(
-uint32_t
-aNewFlags
 )
 ;
 already_AddRefed
