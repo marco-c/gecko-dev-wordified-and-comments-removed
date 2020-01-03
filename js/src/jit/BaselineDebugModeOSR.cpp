@@ -1367,6 +1367,9 @@ return
 true
 ;
 }
+#
+ifdef
+DEBUG
 static
 const
 char
@@ -1495,6 +1498,8 @@ kind
 ;
 }
 }
+#
+endif
 static
 void
 SpewPatchBaselineFrame
