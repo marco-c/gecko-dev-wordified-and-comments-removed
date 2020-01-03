@@ -173,11 +173,6 @@ CP1250
 1258
 CP866
 874
-ISO
--
-IR
--
-111
 KOI8
 Mac
 charsets

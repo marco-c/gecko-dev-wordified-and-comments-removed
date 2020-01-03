@@ -597,13 +597,6 @@ cpp
 '
 ucvlatin
 /
-nsISOIR111ToUnicode
-.
-cpp
-'
-'
-ucvlatin
-/
 nsKOI8RToUnicode
 .
 cpp
@@ -913,13 +906,6 @@ cpp
 ucvlatin
 /
 nsUnicodeToISO88599
-.
-cpp
-'
-'
-ucvlatin
-/
-nsUnicodeToISOIR111
 .
 cpp
 '
