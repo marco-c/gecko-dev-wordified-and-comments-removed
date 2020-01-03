@@ -860,7 +860,7 @@ delegate
 gc
 :
 :
-IsObjectMarked
+IsMarkedUnbarriered
 (
 &
 delegate

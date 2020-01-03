@@ -384,7 +384,7 @@ edge
 JSTRACE_OBJECT
 )
 ;
-MarkObjectRoot
+TraceRoot
 (
 trc
 reinterpret_cast

@@ -4639,13 +4639,10 @@ if
 matchResultTemplateObject_
 &
 &
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalized
 (
+&
 matchResultTemplateObject_
-.
-unsafeGet
-(
-)
 )
 )
 {

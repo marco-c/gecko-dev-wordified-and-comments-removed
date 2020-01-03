@@ -11255,7 +11255,7 @@ maybeGlobal
 if
 (
 !
-IsObjectMarked
+IsMarkedUnbarriered
 (
 &
 global
@@ -11351,7 +11351,7 @@ continue
 bool
 dbgMarked
 =
-IsObjectMarked
+IsMarked
 (
 &
 dbgobj
@@ -11371,7 +11371,7 @@ hasAnyLiveHooks
 )
 )
 {
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -11439,7 +11439,7 @@ script
 if
 (
 !
-IsObjectMarked
+IsMarked
 (
 &
 bp
@@ -11451,7 +11451,7 @@ getHandlerRef
 )
 )
 {
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -11575,7 +11575,7 @@ front
 (
 )
 ;
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -11619,7 +11619,7 @@ toJSObjectRef
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -11712,7 +11712,7 @@ script
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -11783,7 +11783,7 @@ if
 (
 uncaughtExceptionHook
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -11852,7 +11852,7 @@ getPrivate
 )
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -11897,7 +11897,7 @@ s
 >
 frame
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -11993,7 +11993,7 @@ getNext
 {
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalized
 (
 &
 dbg

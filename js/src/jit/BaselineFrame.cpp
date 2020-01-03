@@ -212,10 +212,7 @@ if
 (
 scopeChain_
 )
-gc
-:
-:
-MarkObjectRoot
+TraceRoot
 (
 trc
 &
@@ -274,10 +271,7 @@ hasArgsObj
 (
 )
 )
-gc
-:
-:
-MarkObjectRoot
+TraceRoot
 (
 trc
 &

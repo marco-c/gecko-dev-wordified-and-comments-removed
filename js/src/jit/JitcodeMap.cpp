@@ -4605,7 +4605,7 @@ hasConstructor
 &
 &
 !
-IsObjectMarked
+IsMarkedUnbarriered
 (
 &
 iter
@@ -4615,7 +4615,7 @@ constructor
 )
 )
 {
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -4776,7 +4776,7 @@ hasConstructor
 )
 MOZ_ALWAYS_FALSE
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 iter

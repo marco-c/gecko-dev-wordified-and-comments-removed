@@ -3703,7 +3703,7 @@ singletonNoBarrier
 ;
 rv
 =
-IsObjectMarked
+IsMarkedUnbarriered
 (
 &
 obj
@@ -3979,7 +3979,7 @@ singletonNoBarrier
 ;
 isAboutToBeFinalized
 =
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 singleton
@@ -9441,7 +9441,7 @@ shouldSweep
 )
 {
 return
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 obj
@@ -17392,7 +17392,7 @@ if
 ptr
 &
 &
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 ptr
 )
@@ -20051,7 +20051,7 @@ JSTracer
 trc
 )
 {
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -20065,7 +20065,7 @@ if
 (
 templateObject_
 )
-MarkObject
+TraceEdge
 (
 trc
 &

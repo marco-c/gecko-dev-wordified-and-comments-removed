@@ -6406,13 +6406,10 @@ staticScope_
 )
 MOZ_ALWAYS_FALSE
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalized
 (
+&
 staticScope_
-.
-unsafeGet
-(
-)
 )
 )
 ;
@@ -10029,7 +10026,7 @@ unsafeGet
 ;
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 debugScope
 )
@@ -10164,7 +10161,7 @@ sweep
 ;
 if
 (
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 scope

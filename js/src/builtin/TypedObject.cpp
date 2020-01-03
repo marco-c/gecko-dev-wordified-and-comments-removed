@@ -7546,10 +7546,7 @@ typedObj
 .
 owner_
 ;
-gc
-:
-:
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -15232,10 +15229,7 @@ if
 *
 objectPtr
 )
-gc
-:
-:
-MarkObject
+TraceEdge
 (
 trace_
 objectPtr

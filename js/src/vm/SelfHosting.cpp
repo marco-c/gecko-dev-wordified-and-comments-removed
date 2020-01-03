@@ -7560,7 +7560,7 @@ selfHostingGlobal_
 !
 parentRuntime
 )
-MarkObjectRoot
+TraceRoot
 (
 trc
 &

@@ -1101,7 +1101,7 @@ toCall_Scripted
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1129,7 +1129,7 @@ templateObject
 (
 )
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1166,7 +1166,7 @@ toCall_Native
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1194,7 +1194,7 @@ templateObject
 (
 )
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1240,7 +1240,7 @@ templateObject
 (
 )
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1277,7 +1277,7 @@ toCall_StringSplit
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1454,7 +1454,7 @@ name
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1567,7 +1567,7 @@ name
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -1588,7 +1588,7 @@ getter
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -2003,7 +2003,7 @@ toTypeMonitor_SingleObject
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -2077,7 +2077,7 @@ toTypeUpdate_SingleObject
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -2494,7 +2494,7 @@ trace
 trc
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -2960,7 +2960,7 @@ expandoshape
 )
 ;
 }
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3002,7 +3002,7 @@ holdershape
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3113,7 +3113,7 @@ trace
 trc
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3155,7 +3155,7 @@ holdershape
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3206,7 +3206,7 @@ trace
 trc
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3248,7 +3248,7 @@ holdershape
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3695,7 +3695,7 @@ trace
 trc
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3737,7 +3737,7 @@ holdershape
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3788,7 +3788,7 @@ trace
 trc
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3830,7 +3830,7 @@ holdershape
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3890,7 +3890,7 @@ shape
 "
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3929,7 +3929,7 @@ toNewArray_Fallback
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -3975,7 +3975,7 @@ templateObject
 (
 )
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -4012,7 +4012,7 @@ toRest_Fallback
 (
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &

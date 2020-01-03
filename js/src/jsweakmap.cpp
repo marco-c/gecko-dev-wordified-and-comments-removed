@@ -370,10 +370,7 @@ m
 >
 memberOf
 )
-gc
-:
-:
-MarkObject
+TraceEdge
 (
 tracer
 &

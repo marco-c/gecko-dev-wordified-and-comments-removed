@@ -2213,7 +2213,7 @@ if
 (
 templateScope_
 )
-MarkObject
+TraceEdge
 (
 trc
 &

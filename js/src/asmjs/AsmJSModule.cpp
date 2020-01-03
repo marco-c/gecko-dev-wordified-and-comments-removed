@@ -645,7 +645,7 @@ i
 .
 fun
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -876,10 +876,7 @@ if
 (
 maybeHeap_
 )
-gc
-:
-:
-MarkObject
+TraceEdge
 (
 trc
 &

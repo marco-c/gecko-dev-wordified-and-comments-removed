@@ -205,7 +205,7 @@ char
 name
 )
 {
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 objp
@@ -369,7 +369,7 @@ char
 name
 )
 {
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 objp
@@ -483,7 +483,7 @@ char
 name
 )
 {
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 funp
@@ -551,7 +551,7 @@ void
 objp
 )
 ;
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -855,7 +855,7 @@ zone
 )
 continue
 ;
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 trc
 &

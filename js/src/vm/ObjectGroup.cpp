@@ -7544,7 +7544,7 @@ TaggedProto
 LazyProto
 &
 &
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 key
@@ -8067,7 +8067,7 @@ entry
 associated
 &
 &
-IsObjectAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 entry

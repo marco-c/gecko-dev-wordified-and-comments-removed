@@ -21530,7 +21530,7 @@ GRAY
 {
 if
 (
-IsObjectMarked
+IsMarkedUnbarriered
 (
 &
 src
@@ -21579,7 +21579,7 @@ else
 {
 if
 (
-IsObjectMarked
+IsMarkedUnbarriered
 (
 &
 src
@@ -26822,7 +26822,7 @@ obj
 +
 +
 )
-MarkObjectUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 marker

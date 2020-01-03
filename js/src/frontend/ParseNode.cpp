@@ -5415,7 +5415,7 @@ while
 box
 )
 {
-MarkObjectRoot
+TraceRoot
 (
 trc
 &

@@ -19652,7 +19652,7 @@ objects
 (
 )
 ;
-MarkObjectRange
+TraceRange
 (
 trc
 objarray
@@ -19684,7 +19684,7 @@ regexps
 (
 )
 ;
-MarkObjectRange
+TraceRange
 (
 trc
 objarray
@@ -19760,7 +19760,7 @@ compartment
 )
 )
 ;
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -19777,7 +19777,7 @@ functionNonDelazifying
 (
 )
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -19791,7 +19791,7 @@ if
 (
 enclosingStaticScope_
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -19888,7 +19888,7 @@ if
 (
 function_
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -19902,7 +19902,7 @@ if
 (
 sourceObject_
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -19916,7 +19916,7 @@ if
 (
 enclosingScope_
 )
-MarkObject
+TraceEdge
 (
 trc
 &
@@ -20021,7 +20021,7 @@ i
 +
 +
 )
-MarkObject
+TraceEdge
 (
 trc
 &
