@@ -286,8 +286,15 @@ TestBulkActor
 )
 ;
 }
-function
+let
 test_string_error
+=
+Task
+.
+async
+(
+function
+*
 (
 transportFactory
 onReady
@@ -305,6 +312,7 @@ defer
 let
 transport
 =
+yield
 transportFactory
 (
 )
@@ -390,6 +398,8 @@ deferred
 promise
 ;
 }
+)
+;
 function
 json_reply
 (

@@ -854,6 +854,14 @@ this
 .
 _listener
 .
+encryption
+=
+true
+;
+this
+.
+_listener
+.
 open
 (
 )

@@ -1671,8 +1671,7 @@ socketConnect
 =
 function
 (
-host
-port
+options
 )
 {
 return
@@ -1680,8 +1679,7 @@ DebuggerSocket
 .
 connect
 (
-host
-port
+options
 )
 ;
 }

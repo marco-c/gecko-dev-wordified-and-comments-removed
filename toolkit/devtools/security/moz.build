@@ -149,6 +149,11 @@ security
 =
 [
 '
+cert
+.
+js
+'
+'
 socket
 .
 js

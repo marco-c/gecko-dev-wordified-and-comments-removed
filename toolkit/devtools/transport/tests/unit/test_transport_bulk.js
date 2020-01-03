@@ -121,8 +121,15 @@ run_next_test
 )
 ;
 }
-function
+let
 test_bulk_transfer_transport
+=
+Task
+.
+async
+(
+function
+*
 (
 transportFactory
 )
@@ -204,6 +211,7 @@ length
 let
 transport
 =
+yield
 transportFactory
 (
 )
@@ -579,6 +587,8 @@ promise
 )
 ;
 }
+)
+;
 function
 verify
 (
