@@ -25,7 +25,7 @@ function
 aMsisdn
 aOperator
 aServiceId
-aExternal
+aIccId
 aPrimary
 )
 {
@@ -49,9 +49,17 @@ aServiceId
 ;
 this
 .
+iccId
+=
+aIccId
+;
+this
+.
 external
 =
-aExternal
+!
+!
+aIccId
 ;
 this
 .
