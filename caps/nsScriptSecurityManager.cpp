@@ -1234,10 +1234,7 @@ aPrin
 >
 GetOrigin
 (
-getter_Copies
-(
 origin
-)
 )
 nsIPrincipal
 :
@@ -1296,10 +1293,7 @@ nsPrincipal
 GetOriginForURI
 (
 appURI
-getter_Copies
-(
 appOriginPunned
-)
 )
 nsIPrincipal
 :
@@ -3032,10 +3026,7 @@ nsPrincipal
 GetOriginForURI
 (
 targetBaseURI
-getter_Copies
-(
 targetOrigin
-)
 )
 ;
 if
@@ -3056,10 +3047,7 @@ aPrincipal
 >
 GetOrigin
 (
-getter_Copies
-(
 pOrigin
-)
 )
 ;
 return

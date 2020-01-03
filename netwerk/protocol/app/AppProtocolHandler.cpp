@@ -1293,10 +1293,7 @@ nsPrincipal
 GetOriginForURI
 (
 aUri
-getter_Copies
-(
 origin
-)
 )
 ;
 nsAdoptingCString

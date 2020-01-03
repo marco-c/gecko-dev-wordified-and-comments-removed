@@ -186,9 +186,8 @@ override
 NS_IMETHOD
 GetOrigin
 (
-char
-*
-*
+nsACString
+&
 aOrigin
 )
 override

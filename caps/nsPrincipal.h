@@ -166,9 +166,8 @@ override
 NS_IMETHOD
 GetOrigin
 (
-char
-*
-*
+nsACString
+&
 aOrigin
 )
 override
@@ -357,9 +356,8 @@ GetOriginForURI
 nsIURI
 *
 aURI
-char
-*
-*
+nsACString
+&
 aOrigin
 )
 ;
@@ -574,9 +572,8 @@ override
 NS_IMETHOD
 GetOrigin
 (
-char
-*
-*
+nsACString
+&
 aOrigin
 )
 override

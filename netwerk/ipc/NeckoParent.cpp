@@ -2819,10 +2819,7 @@ nsPrincipal
 GetOriginForURI
 (
 appUri
-getter_Copies
-(
 origin
-)
 )
 ;
 nsAutoCString

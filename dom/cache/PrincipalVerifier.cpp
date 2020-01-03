@@ -574,10 +574,7 @@ principal
 >
 GetOrigin
 (
-getter_Copies
-(
 origin
-)
 )
 ;
 if
