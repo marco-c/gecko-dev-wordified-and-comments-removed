@@ -331,7 +331,7 @@ setupParentProcess
 (
 {
 mm
-childID
+prefix
 }
 )
 {
@@ -384,7 +384,7 @@ child
 :
 "
 +
-childID
+prefix
 handleMessageManagerDisconnected
 )
 ;
