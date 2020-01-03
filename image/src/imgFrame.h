@@ -1,9 +1,9 @@
 #
 ifndef
-imgFrame_h
+mozilla_image_src_imgFrame_h
 #
 define
-imgFrame_h
+mozilla_image_src_imgFrame_h
 #
 include
 "
