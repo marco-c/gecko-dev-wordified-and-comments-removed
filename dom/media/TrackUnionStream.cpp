@@ -1642,7 +1642,7 @@ IsEnded
 aInputTrack
 -
 >
-GetEndTimeRoundDown
+GetEnd
 (
 )
 <
