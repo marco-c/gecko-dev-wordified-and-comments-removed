@@ -152,11 +152,6 @@ inIDOMView
 idl
 '
 '
-inIFlasher
-.
-idl
-'
-'
 inISearchObserver
 .
 idl
@@ -213,11 +208,6 @@ cpp
 '
 '
 inDOMUtils
-.
-cpp
-'
-'
-inFlasher
 .
 cpp
 '
