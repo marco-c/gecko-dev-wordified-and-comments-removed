@@ -272,8 +272,12 @@ NS_ERROR_FAILURE
 "
 )
 ;
-NS_WARNING
+NS_WARN_IF_FALSE
 (
+rc
+=
+=
+SQLITE_ERROR
 message
 .
 get
