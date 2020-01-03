@@ -123,6 +123,11 @@ TestIntervalSet
 cpp
 '
 '
+TestMediaEventSource
+.
+cpp
+'
+'
 TestMozPromise
 .
 cpp
