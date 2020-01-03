@@ -29,6 +29,7 @@ BaseDOMProxyHandler
 {
 public
 :
+MOZ_CONSTEXPR
 WindowNamedPropertiesHandler
 (
 )

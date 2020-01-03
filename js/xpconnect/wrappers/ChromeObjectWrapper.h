@@ -46,6 +46,7 @@ ChromeObjectWrapperBase
 {
 public
 :
+MOZ_CONSTEXPR
 ChromeObjectWrapper
 (
 )
