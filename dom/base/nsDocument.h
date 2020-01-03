@@ -4187,6 +4187,11 @@ MaybePreconnect
 nsIURI
 *
 uri
+mozilla
+:
+:
+CORSMode
+aCORSMode
 )
 override
 ;
