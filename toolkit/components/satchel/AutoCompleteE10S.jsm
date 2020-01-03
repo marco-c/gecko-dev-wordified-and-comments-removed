@@ -645,9 +645,15 @@ setAttribute
 "
 width
 "
+Math
+.
+max
+(
+100
 rect
 .
 width
+)
 )
 ;
 this
