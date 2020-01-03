@@ -51,6 +51,14 @@ aName
 ;
 virtual
 void
+UpdateReadyState
+(
+)
+=
+0
+;
+virtual
+void
 FireTimeUpdate
 (
 bool

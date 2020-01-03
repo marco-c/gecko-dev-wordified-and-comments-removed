@@ -1663,6 +1663,12 @@ MediaTaskQueue
 >
 mTaskQueue
 ;
+WatchManager
+<
+MediaDecoderStateMachine
+>
+mWatchManager
+;
 bool
 mRealTime
 ;
@@ -1994,9 +2000,6 @@ MediaDecoder
 PLAY_STATE_PLAYING
 ;
 }
-WatcherHolder
-mNextFrameStatusUpdater
-;
 Canonical
 <
 NextFrameStatus
