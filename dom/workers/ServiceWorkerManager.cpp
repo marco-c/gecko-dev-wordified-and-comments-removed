@@ -9202,11 +9202,15 @@ GetRegistration
 aScope
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 registration
 )
+{
+return
 ;
+}
 FilterRegistrationData
 data
 (
