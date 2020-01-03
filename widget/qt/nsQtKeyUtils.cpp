@@ -2456,12 +2456,6 @@ case
 Qt
 :
 :
-Key_CameraFocus
-:
-case
-Qt
-:
-:
 Key_Context1
 :
 case

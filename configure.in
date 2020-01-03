@@ -35697,8 +35697,8 @@ AC_MSG_ERROR
 [
 MOZ_QT_PKG_ERRORS
 Need
-qtbase
-widgets
+qt5
+printsupport
 development
 package
 ]

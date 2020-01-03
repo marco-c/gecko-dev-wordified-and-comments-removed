@@ -2700,7 +2700,7 @@ WidgetToScreenOffset
 NS_ENSURE_TRUE
 (
 mWidget
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
@@ -6769,7 +6769,7 @@ aRect
 .
 MoveTo
 (
-WidgetToScreenOffset
+WidgetToScreenOffsetUntyped
 (
 )
 )
