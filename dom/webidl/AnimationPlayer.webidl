@@ -211,7 +211,11 @@ AnimationTimeline
 timeline
 ;
 [
-Pure
+BinaryName
+=
+"
+startTimeAsDouble
+"
 ]
 readonly
 attribute
