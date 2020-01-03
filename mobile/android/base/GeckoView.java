@@ -800,6 +800,13 @@ boolean
 doInit
 )
 {
+GeckoAppShell
+.
+setLayerView
+(
+this
+)
+;
 if
 (
 !
@@ -1082,13 +1089,6 @@ profile
 getName
 (
 )
-)
-;
-GeckoAppShell
-.
-setLayerView
-(
-this
 )
 ;
 GeckoAppShell

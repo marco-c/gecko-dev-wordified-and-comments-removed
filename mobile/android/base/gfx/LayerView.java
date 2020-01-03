@@ -1383,13 +1383,6 @@ mInputConnectionHandler
 =
 inputConnectionHandler
 ;
-mLayerClient
-.
-forceRedraw
-(
-null
-)
-;
 }
 Override
 public
