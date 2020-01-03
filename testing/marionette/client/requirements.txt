@@ -15,6 +15,11 @@ driver
 .
 2
 manifestparser
+>
+=
+1
+.
+1
 mozhttpd
 >
 =
