@@ -2191,6 +2191,11 @@ _
 (
 storeXYZ
 )
+\
+_
+(
+check
+)
 #
 define
 FORALL_SIMD_OP
