@@ -30221,7 +30221,7 @@ id
 )
 ;
 return
-js_SuppressDeletedProperty
+SuppressDeletedProperty
 (
 cx
 obj
@@ -30303,7 +30303,7 @@ id
 )
 &
 &
-js_SuppressDeletedProperty
+SuppressDeletedProperty
 (
 cx
 obj

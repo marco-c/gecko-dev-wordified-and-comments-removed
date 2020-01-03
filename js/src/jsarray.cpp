@@ -1824,7 +1824,7 @@ JS_ELEMENTS_HOLE
 if
 (
 !
-js_SuppressDeletedElement
+SuppressDeletedElement
 (
 cx
 obj
@@ -6535,7 +6535,7 @@ JS_ELEMENTS_HOLE
 &
 &
 !
-js_SuppressDeletedProperty
+SuppressDeletedProperty
 (
 cx
 obj
@@ -6570,7 +6570,7 @@ JS_ELEMENTS_HOLE
 &
 &
 !
-js_SuppressDeletedProperty
+SuppressDeletedProperty
 (
 cx
 obj
@@ -10486,7 +10486,7 @@ return
 false
 ;
 return
-js_SuppressDeletedProperty
+SuppressDeletedProperty
 (
 cx
 obj

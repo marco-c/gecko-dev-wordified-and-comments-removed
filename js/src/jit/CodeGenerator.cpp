@@ -38153,7 +38153,7 @@ FunctionInfo
 IteratorNextFn
 >
 (
-js_IteratorNext
+IteratorNext
 )
 ;
 bool
@@ -38390,7 +38390,7 @@ FunctionInfo
 IteratorMoreFn
 >
 (
-js_IteratorMore
+IteratorMore
 )
 ;
 bool

@@ -4641,7 +4641,10 @@ obj
 ;
 }
 bool
-js_ThrowStopIteration
+js
+:
+:
+ThrowStopIteration
 (
 JSContext
 *
@@ -4895,7 +4898,7 @@ more
 if
 (
 !
-js_IteratorMore
+IteratorMore
 (
 cx
 thisObj
@@ -4912,7 +4915,7 @@ if
 more
 )
 {
-js_ThrowStopIteration
+ThrowStopIteration
 (
 cx
 )
@@ -4922,7 +4925,7 @@ false
 ;
 }
 return
-js_IteratorNext
+IteratorNext
 (
 cx
 thisObj
@@ -6177,7 +6180,10 @@ true
 ;
 }
 bool
-js_SuppressDeletedProperty
+js
+:
+:
+SuppressDeletedProperty
 (
 JSContext
 *
@@ -6234,7 +6240,10 @@ str
 ;
 }
 bool
-js_SuppressDeletedElement
+js
+:
+:
+SuppressDeletedElement
 (
 JSContext
 *
@@ -6266,7 +6275,7 @@ return
 false
 ;
 return
-js_SuppressDeletedProperty
+SuppressDeletedProperty
 (
 cx
 obj
@@ -6351,7 +6360,10 @@ false
 ;
 }
 bool
-js_SuppressDeletedElements
+js
+:
+:
+SuppressDeletedElements
 (
 JSContext
 *
@@ -6378,7 +6390,10 @@ end
 ;
 }
 bool
-js_IteratorMore
+js
+:
+:
+IteratorMore
 (
 JSContext
 *
@@ -6762,7 +6777,10 @@ true
 ;
 }
 bool
-js_IteratorNext
+js
+:
+:
+IteratorNext
 (
 JSContext
 *
@@ -9489,7 +9507,7 @@ JSGENOP_CLOSE
 )
 ok
 =
-js_ThrowStopIteration
+ThrowStopIteration
 (
 cx
 )
@@ -9774,7 +9792,7 @@ state
 JSGEN_CLOSED
 )
 return
-js_ThrowStopIteration
+ThrowStopIteration
 (
 cx
 )
