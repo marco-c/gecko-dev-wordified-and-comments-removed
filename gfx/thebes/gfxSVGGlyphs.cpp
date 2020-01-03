@@ -812,7 +812,10 @@ viewer
 Init
 (
 nullptr
-nsIntRect
+gfx
+:
+:
+IntRect
 (
 0
 0

@@ -130,7 +130,7 @@ Rect
 ToRect
 (
 const
-nsIntRect
+IntRect
 &
 aRect
 )

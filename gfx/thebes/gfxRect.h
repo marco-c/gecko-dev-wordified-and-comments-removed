@@ -400,7 +400,13 @@ MOZ_IMPLICIT
 gfxRect
 (
 const
-nsIntRect
+mozilla
+:
+:
+gfx
+:
+:
+IntRect
 &
 aRect
 )
