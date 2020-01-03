@@ -457,7 +457,7 @@ MediaSourceReadyState
 mReadyState
 ;
 bool
-mFirstSourceBufferInitialization
+mFirstSourceBufferInitialized
 ;
 }
 ;
