@@ -2671,6 +2671,11 @@ ScrollHeight
 (
 )
 ;
+void
+MozScrollSnap
+(
+)
+;
 int32_t
 ClientTop
 (

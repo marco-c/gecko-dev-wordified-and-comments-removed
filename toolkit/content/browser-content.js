@@ -846,6 +846,14 @@ _scrollable
 this
 .
 _scrollable
+.
+mozScrollSnap
+(
+)
+;
+this
+.
+_scrollable
 =
 null
 ;
