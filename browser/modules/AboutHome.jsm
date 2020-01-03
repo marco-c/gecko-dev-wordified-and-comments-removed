@@ -787,6 +787,10 @@ loadURI
 about
 :
 accounts
+?
+entrypoint
+=
+abouthome
 "
 )
 ;
