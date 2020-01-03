@@ -197,6 +197,14 @@ CanScroll
 const
 ;
 bool
+CanScroll
+(
+double
+aDelta
+)
+const
+;
+bool
 CanScrollNow
 (
 )
