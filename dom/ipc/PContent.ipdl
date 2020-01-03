@@ -2265,6 +2265,13 @@ Shutdown
 (
 )
 ;
+async
+LoadProcessScript
+(
+nsString
+url
+)
+;
 parent
 :
 /

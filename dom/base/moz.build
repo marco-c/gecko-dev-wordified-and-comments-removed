@@ -950,6 +950,11 @@ PerformanceResourceTiming
 h
 '
 '
+ProcessGlobal
+.
+h
+'
+'
 ResponsiveImageSelector
 .
 h
@@ -1611,6 +1616,11 @@ cpp
 '
 '
 PerformanceResourceTiming
+.
+cpp
+'
+'
+ProcessGlobal
 .
 cpp
 '
