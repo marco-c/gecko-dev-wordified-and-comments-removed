@@ -12958,7 +12958,7 @@ true
 ;
 #
 ifdef
-MOZ_DEV_EDITION
+NIGHTLY_BUILD
 pref
 (
 "
