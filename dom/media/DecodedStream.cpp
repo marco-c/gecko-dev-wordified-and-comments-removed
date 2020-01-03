@@ -732,6 +732,7 @@ DecodedStream
 GetData
 (
 )
+const
 {
 GetReentrantMonitor
 (
@@ -1098,6 +1099,7 @@ DecodedStream
 GetReentrantMonitor
 (
 )
+const
 {
 return
 mMonitor
