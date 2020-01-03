@@ -10929,10 +10929,13 @@ maybeSetForwardingPointer
 trc
 oldData
 newData
+size_t
+(
 descr
 .
 size
 (
+)
 )
 >
 =
