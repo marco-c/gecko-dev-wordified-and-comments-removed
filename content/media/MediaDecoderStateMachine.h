@@ -1143,6 +1143,11 @@ OnAudioSinkError
 (
 )
 ;
+void
+DoNotifyWaitingForResourcesStatusChanged
+(
+)
+;
 nsRefPtr
 <
 MediaDecoder

@@ -184,6 +184,14 @@ HasVideo
 0
 ;
 virtual
+void
+PreReadMetadata
+(
+)
+{
+}
+;
+virtual
 nsresult
 ReadMetadata
 (
