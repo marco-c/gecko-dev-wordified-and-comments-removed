@@ -4037,7 +4037,7 @@ proxy
 }
 #
 endif
-MarkCrossCompartmentSlot
+TraceCrossCompartmentEdge
 (
 trc
 obj
