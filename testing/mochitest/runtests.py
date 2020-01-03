@@ -6887,6 +6887,9 @@ ssl3
 '
 rc4
 '
+'
+failHandshake
+'
 )
 :
         
