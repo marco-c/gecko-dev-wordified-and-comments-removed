@@ -43,6 +43,7 @@ eApplicationType
 eHTMLOptGroupType
 eImageMapType
 eMenuPopupType
+eProxyType
 eProgressType
 eRootType
 eXULLabelType

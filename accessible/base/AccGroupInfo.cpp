@@ -295,7 +295,9 @@ if
 sibling
 -
 >
-mGroupInfo
+mBits
+.
+groupInfo
 )
 {
 mPosInSet
@@ -304,7 +306,9 @@ mPosInSet
 sibling
 -
 >
-mGroupInfo
+mBits
+.
+groupInfo
 -
 >
 mPosInSet
@@ -314,7 +318,9 @@ mParent
 sibling
 -
 >
-mGroupInfo
+mBits
+.
+groupInfo
 -
 >
 mParent
@@ -324,7 +330,9 @@ mSetSize
 sibling
 -
 >
-mGroupInfo
+mBits
+.
+groupInfo
 -
 >
 mSetSize
@@ -453,7 +461,9 @@ if
 sibling
 -
 >
-mGroupInfo
+mBits
+.
+groupInfo
 )
 {
 mParent
@@ -461,7 +471,9 @@ mParent
 sibling
 -
 >
-mGroupInfo
+mBits
+.
+groupInfo
 -
 >
 mParent
@@ -471,7 +483,9 @@ mSetSize
 sibling
 -
 >
-mGroupInfo
+mBits
+.
+groupInfo
 -
 >
 mSetSize
