@@ -194,14 +194,6 @@ changes
 any
 more
 .
-Bug
-1119997
--
-Change
-build
-environment
-for
-B2G
-devide
-builds
-.
+Merge
+day
+clobber
