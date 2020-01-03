@@ -2184,6 +2184,14 @@ dll
 '
 '
 ]
+if
+CONFIG
+[
+'
+MOZ_HAS_WINSDK_WITH_D3D
+'
+]
+:
 SOURCES
 [
 '
