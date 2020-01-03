@@ -662,6 +662,11 @@ Disconnect
 (
 )
 ;
+void
+RemoveDOMContentLoadedListener
+(
+)
+;
 bool
 MightHavePendingFontLoads
 (
