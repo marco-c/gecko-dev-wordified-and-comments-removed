@@ -29500,6 +29500,12 @@ GCParallelTask
 CancelAndWait
 )
 ;
+nursery
+.
+waitBackgroundFreeEnd
+(
+)
+;
 AutoLockGC
 lock
 (
