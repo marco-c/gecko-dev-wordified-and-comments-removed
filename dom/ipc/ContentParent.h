@@ -1319,6 +1319,9 @@ aPriority
 void
 TransformPreallocatedIntoApp
 (
+ContentParent
+*
+aOpener
 const
 nsAString
 &
@@ -1328,6 +1331,9 @@ aAppManifestURL
 void
 TransformPreallocatedIntoBrowser
 (
+ContentParent
+*
+aOpener
 )
 ;
 void

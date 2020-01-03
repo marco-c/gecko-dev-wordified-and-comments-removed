@@ -3077,6 +3077,7 @@ process
 >
 TransformPreallocatedIntoApp
 (
+aOpener
 manifestURL
 )
 ;
@@ -3733,6 +3734,7 @@ p
 >
 TransformPreallocatedIntoBrowser
 (
+aOpener
 )
 ;
 }
@@ -6208,6 +6210,9 @@ ContentParent
 :
 TransformPreallocatedIntoApp
 (
+ContentParent
+*
+aOpener
 const
 nsAString
 &
@@ -6220,6 +6225,10 @@ IsPreallocated
 (
 )
 )
+;
+mOpener
+=
+aOpener
 ;
 mAppManifestURL
 =
@@ -6238,8 +6247,15 @@ ContentParent
 :
 TransformPreallocatedIntoBrowser
 (
+ContentParent
+*
+aOpener
 )
 {
+mOpener
+=
+aOpener
+;
 mAppManifestURL
 .
 Truncate
