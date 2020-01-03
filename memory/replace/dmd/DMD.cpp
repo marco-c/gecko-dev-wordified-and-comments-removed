@@ -2883,8 +2883,6 @@ static
 void
 StackWalkCallback
 (
-uint32_t
-aFrameNumber
 void
 *
 aPc
@@ -2935,17 +2933,6 @@ st
 mLength
 +
 +
-;
-MOZ_ASSERT
-(
-st
--
->
-mLength
-=
-=
-aFrameNumber
-)
 ;
 }
 static
@@ -3125,9 +3112,6 @@ aLocService
 >
 GetLocation
 (
-i
-+
-1
 Pc
 (
 i
@@ -6901,8 +6885,6 @@ static
 void
 NopStackWalkCallback
 (
-uint32_t
-aFrameNumber
 void
 *
 aPc

@@ -145,8 +145,6 @@ static
 void
 StackFrameToOStringStream
 (
-uint32_t
-aFrameNumber
 void
 *
 aPC
@@ -195,7 +193,6 @@ details
 ;
 NS_FormatCodeAddressDetails
 (
-aFrameNumber
 aPC
 &
 details
