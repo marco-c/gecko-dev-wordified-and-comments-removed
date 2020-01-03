@@ -124,6 +124,16 @@ aLayerTree
 }
 virtual
 void
+ApplyAsyncProperties
+(
+LayerTransactionParent
+*
+aLayerTree
+)
+{
+}
+virtual
+void
 GetAPZTestData
 (
 const

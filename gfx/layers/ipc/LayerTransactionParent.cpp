@@ -3892,6 +3892,14 @@ return
 false
 ;
 }
+mShadowLayersManager
+-
+>
+ApplyAsyncProperties
+(
+this
+)
+;
 if
 (
 !
