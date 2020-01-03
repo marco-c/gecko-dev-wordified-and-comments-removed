@@ -181,7 +181,7 @@ uint8_t
 dest
 )
 {
-colorType
+colorDataType
 temp
 ;
 ReadColor

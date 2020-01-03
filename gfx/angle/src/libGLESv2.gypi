@@ -389,6 +389,13 @@ h
 '
 libGLESv2
 /
+Constants
+.
+h
+'
+'
+libGLESv2
+/
 Context
 .
 cpp
@@ -670,13 +677,6 @@ cpp
 libGLESv2
 /
 angletypes
-.
-h
-'
-'
-libGLESv2
-/
-constants
 .
 h
 '

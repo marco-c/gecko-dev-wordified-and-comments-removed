@@ -7564,14 +7564,12 @@ if
 elementArrayBuffer
 )
 {
-unsigned
-int
+uintptr_t
 offset
 =
 reinterpret_cast
 <
-unsigned
-int
+uintptr_t
 >
 (
 indices

@@ -5,7 +5,7 @@ libGLESv2
 /
 renderer
 /
-copyImage
+copyimage
 .
 h
 "
