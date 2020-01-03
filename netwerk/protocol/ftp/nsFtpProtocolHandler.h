@@ -47,9 +47,6 @@ nsWeakReference
 h
 "
 class
-nsICacheSession
-;
-class
 nsFtpProtocolHandler
 MOZ_FINAL
 :
@@ -237,12 +234,6 @@ timerStruct
 *
 >
 mRootConnectionList
-;
-nsCOMPtr
-<
-nsICacheSession
->
-mCacheSession
 ;
 int32_t
 mIdleTimeout
