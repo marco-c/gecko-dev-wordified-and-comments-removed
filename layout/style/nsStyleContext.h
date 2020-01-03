@@ -1075,6 +1075,11 @@ uint32_t
 aStructs
 )
 ;
+void
+SetIneligibleForSharing
+(
+)
+;
 #
 ifdef
 DEBUG

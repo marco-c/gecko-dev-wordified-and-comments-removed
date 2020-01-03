@@ -12377,6 +12377,13 @@ HasSingleReference
 )
 )
 {
+oldContext
+-
+>
+SetIneligibleForSharing
+(
+)
+;
 ContextToClear
 *
 toClear
