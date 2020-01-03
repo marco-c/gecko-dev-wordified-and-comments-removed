@@ -173,11 +173,6 @@ nsILoadContext
 idl
 '
 '
-nsILoadInfo
-.
-idl
-'
-'
 nsIPrivacyTransitionObserver
 .
 idl
@@ -274,11 +269,6 @@ LoadContext
 .
 h
 '
-'
-LoadInfo
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -286,11 +276,6 @@ UNIFIED_SOURCES
 [
 '
 LoadContext
-.
-cpp
-'
-'
-LoadInfo
 .
 cpp
 '
