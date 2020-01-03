@@ -394,6 +394,12 @@ mState
 QuotaInfo
 mQuotaInfo
 ;
+nsRefPtr
+<
+QuotaInitRunnable
+>
+mInitRunnable
+;
 nsTArray
 <
 PendingAction
