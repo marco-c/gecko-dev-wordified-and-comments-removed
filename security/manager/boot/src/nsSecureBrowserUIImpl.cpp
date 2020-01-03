@@ -5232,6 +5232,9 @@ mNotifiedSecurityState
 )
 {
 case
+lis_broken_security
+:
+case
 lis_mixed_security
 :
 case
@@ -5261,9 +5264,6 @@ switch
 ;
 case
 lis_no_security
-:
-case
-lis_broken_security
 :
 *
 _result
