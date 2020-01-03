@@ -217,15 +217,10 @@ mStringHelper
 ABOUT_ABOUT_URL
 )
 ;
-mActions
+mSolo
 .
-sendSpecialKey
+goBack
 (
-Actions
-.
-SpecialKey
-.
-BACK
 )
 ;
 mSolo

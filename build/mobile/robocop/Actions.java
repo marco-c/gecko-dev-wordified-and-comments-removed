@@ -26,6 +26,7 @@ LEFT
 RIGHT
 ENTER
 MENU
+Deprecated
 BACK
 }
 public

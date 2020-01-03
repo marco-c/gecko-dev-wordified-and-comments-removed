@@ -124,15 +124,10 @@ verifyUrlBarTitle
 aboutAddonsURL
 )
 ;
-mActions
+mSolo
 .
-sendSpecialKey
+goBack
 (
-Actions
-.
-SpecialKey
-.
-BACK
 )
 ;
 loadAndPaint

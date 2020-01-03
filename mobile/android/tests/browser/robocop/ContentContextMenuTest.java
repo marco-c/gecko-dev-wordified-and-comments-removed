@@ -599,15 +599,10 @@ displayed
 "
 )
 ;
-mActions
+mSolo
 .
-sendSpecialKey
+goBack
 (
-Actions
-.
-SpecialKey
-.
-BACK
 )
 ;
 waitForText

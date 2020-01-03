@@ -935,15 +935,10 @@ expectedCount
 MAX_WAIT_TEST_MS
 )
 ;
-mActions
+mSolo
 .
-sendSpecialKey
+goBack
 (
-Actions
-.
-SpecialKey
-.
-BACK
 )
 ;
 waitForText
