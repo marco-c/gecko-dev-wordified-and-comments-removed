@@ -7132,3 +7132,15 @@ enabled
 false
 )
 ;
+pref
+(
+"
+dom
+.
+mozSettings
+.
+allowForceReadOnly
+"
+false
+)
+;
