@@ -3491,10 +3491,10 @@ JSOP_INITIALYIELD
 initialyield
 "
 NULL
+4
 1
 1
-1
-JOF_BYTE
+JOF_UINT24
 )
 \
 \
@@ -3506,10 +3506,10 @@ JSOP_YIELD
 yield
 "
 NULL
-1
+4
 2
 1
-JOF_BYTE
+JOF_UINT24
 )
 \
 \

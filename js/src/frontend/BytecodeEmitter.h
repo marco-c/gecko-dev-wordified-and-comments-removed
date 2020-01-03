@@ -501,6 +501,9 @@ uint32_t
 maxStackDepth
 ;
 uint32_t
+yieldIndex
+;
+uint32_t
 arrayCompDepth
 ;
 unsigned
