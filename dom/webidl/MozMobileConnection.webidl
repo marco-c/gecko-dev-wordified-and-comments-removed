@@ -173,6 +173,11 @@ evdo
 "
 lte
 "
+"
+lte
+/
+wcdma
+"
 }
 ;
 enum
@@ -1283,9 +1288,14 @@ cdma
 /
 evdo
 '
+'
+lte
+'
 or
 '
 lte
+/
+wcdma
 '
 .
 *
