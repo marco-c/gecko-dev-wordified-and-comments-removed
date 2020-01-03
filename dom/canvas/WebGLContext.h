@@ -3100,7 +3100,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 srcFormat
 mPixelStorePremultiplyAlpha
 )
@@ -3527,7 +3527,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 srcFormat
 mPixelStorePremultiplyAlpha
 )

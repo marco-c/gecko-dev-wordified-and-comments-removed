@@ -4832,7 +4832,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 )
 return
 true

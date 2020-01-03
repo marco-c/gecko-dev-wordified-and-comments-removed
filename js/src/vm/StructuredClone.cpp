@@ -266,7 +266,7 @@ SCTAG_TYPED_ARRAY_V1_MIN
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 -
 1
 SCTAG_TRANSFER_MAP_HEADER

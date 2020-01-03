@@ -18795,7 +18795,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 ;
 }
 else
@@ -19043,7 +19043,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 WebGLTexelFormat
 :
 :
@@ -20070,7 +20070,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 WebGLTexelFormat
 :
 :

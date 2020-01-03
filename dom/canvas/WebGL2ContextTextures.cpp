@@ -1082,7 +1082,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 ;
 }
 else

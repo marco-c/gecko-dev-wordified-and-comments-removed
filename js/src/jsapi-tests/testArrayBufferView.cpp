@@ -287,7 +287,7 @@ js
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 8
 8
 >

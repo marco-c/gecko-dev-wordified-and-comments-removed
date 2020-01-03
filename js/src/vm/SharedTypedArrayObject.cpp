@@ -331,7 +331,7 @@ classes
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 ]
 )
 ;
@@ -4549,7 +4549,7 @@ classes
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 ]
 =
 {
@@ -4601,7 +4601,7 @@ protoClasses
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 ]
 =
 {

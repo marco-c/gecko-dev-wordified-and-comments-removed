@@ -1672,7 +1672,7 @@ type
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 &
 &
 TypedArrayObject
@@ -1726,7 +1726,7 @@ type
 Scalar
 :
 :
-TypeMax
+MaxTypedArrayViewType
 &
 &
 SharedTypedArrayObject

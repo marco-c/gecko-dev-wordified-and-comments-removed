@@ -6113,7 +6113,9 @@ Uint32
 Float32
 Float64
 Uint8Clamped
-TypeMax
+MaxTypedArrayViewType
+Float32x4
+Int32x4
 }
 ;
 static
@@ -6168,6 +6170,15 @@ Float64
 :
 return
 8
+;
+case
+Int32x4
+:
+case
+Float32x4
+:
+return
+16
 ;
 default
 :
