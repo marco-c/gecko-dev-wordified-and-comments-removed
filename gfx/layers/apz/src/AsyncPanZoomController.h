@@ -769,6 +769,12 @@ PanDistance
 )
 const
 ;
+ScreenPoint
+PanStart
+(
+)
+const
+;
 const
 ScreenPoint
 GetVelocityVector

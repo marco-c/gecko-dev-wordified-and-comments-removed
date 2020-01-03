@@ -165,6 +165,12 @@ ClearOverscroll
 )
 ;
 ScreenCoord
+PanStart
+(
+)
+const
+;
+ScreenCoord
 PanDistance
 (
 )
