@@ -1725,6 +1725,11 @@ double
 (
 )
 ;
+if
+(
+mActiveSourceBuffers
+)
+{
 mActiveSourceBuffers
 -
 >
@@ -1732,6 +1737,12 @@ Clear
 (
 )
 ;
+}
+if
+(
+mSourceBuffers
+)
+{
 mSourceBuffers
 -
 >
@@ -1739,6 +1750,7 @@ Clear
 (
 )
 ;
+}
 }
 void
 MediaSource
