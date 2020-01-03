@@ -9,15 +9,6 @@ include
 <
 cassert
 >
-#
-include
-"
-pkix
-/
-enumclass
-.
-h
-"
 namespace
 mozilla
 {
@@ -433,7 +424,8 @@ nothing
 here
 *
 /
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 Result
 {
 #
@@ -462,9 +454,6 @@ Result
 result
 )
 ;
-#
-ifdef
-MOZILLA_PKIX_ENUM_CLASS_REALLY_IS_ENUM_CLASS
 static
 const
 Result
@@ -475,8 +464,6 @@ Result
 :
 Success
 ;
-#
-endif
 inline
 bool
 IsFatalError

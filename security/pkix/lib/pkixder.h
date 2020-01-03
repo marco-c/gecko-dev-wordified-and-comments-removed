@@ -145,7 +145,8 @@ UNIVERSAL
 0x18
 }
 ;
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 EmptyAllowed
 {
 No
@@ -1512,7 +1513,8 @@ return
 Success
 ;
 }
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 Version
 {
 v1

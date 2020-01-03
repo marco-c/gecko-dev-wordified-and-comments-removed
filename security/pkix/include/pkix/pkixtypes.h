@@ -35,7 +35,8 @@ mozilla
 namespace
 pkix
 {
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 DigestAlgorithm
 {
 sha512
@@ -52,7 +53,8 @@ sha1
 4
 }
 ;
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 SignatureAlgorithm
 {
 ecdsa_with_sha512
@@ -111,7 +113,8 @@ SignedDataWithSignature
 ;
 }
 ;
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 EndEntityOrCA
 {
 MustBeEndEntity
@@ -122,7 +125,8 @@ MustBeCA
 1
 }
 ;
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 KeyUsage
 :
 uint8_t
@@ -150,7 +154,8 @@ noParticularKeyUsageRequired
 0xff
 }
 ;
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 KeyPurposeId
 {
 anyExtendedKeyUsage
@@ -205,7 +210,8 @@ anyPolicy
 ;
 }
 ;
-MOZILLA_PKIX_ENUM_CLASS
+enum
+class
 TrustLevel
 {
 TrustAnchor
