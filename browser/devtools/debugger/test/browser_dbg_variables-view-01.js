@@ -74,7 +74,7 @@ testScope
 .
 id
 .
-contains
+includes
 (
 "
 test
@@ -194,7 +194,7 @@ target
 .
 id
 .
-contains
+includes
 (
 "
 test

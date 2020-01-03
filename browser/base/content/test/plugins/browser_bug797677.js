@@ -147,7 +147,7 @@ aMessage
 .
 message
 .
-contains
+includes
 (
 "
 NS_ERROR

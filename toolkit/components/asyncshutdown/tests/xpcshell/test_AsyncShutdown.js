@@ -1066,7 +1066,7 @@ x
 >
 x
 .
-contains
+includes
 (
 "
 test_state
@@ -1101,7 +1101,7 @@ x
 >
 x
 .
-contains
+includes
 (
 filename
 )

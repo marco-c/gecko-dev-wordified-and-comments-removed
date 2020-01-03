@@ -1346,7 +1346,7 @@ if
 !
 size
 .
-contains
+includes
 (
 '
 x

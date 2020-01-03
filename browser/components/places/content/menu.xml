@@ -4519,7 +4519,7 @@ disablePointerEvents
 (
 transitionProp
 .
-contains
+includes
 (
 "
 transform

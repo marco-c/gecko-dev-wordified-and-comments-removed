@@ -2207,7 +2207,7 @@ data
 .
 pageID
 .
-contains
+includes
 (
 BrowserUITelemetry
 .
@@ -9771,6 +9771,8 @@ window
 closed
 )
 continue
+;
+debugger
 ;
 let
 originTabs

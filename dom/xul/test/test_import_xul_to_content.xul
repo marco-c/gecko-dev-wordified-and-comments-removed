@@ -377,7 +377,7 @@ msg
 .
 category
 .
-contains
+includes
 (
 "
 DOM
@@ -389,7 +389,7 @@ msg
 .
 errorMessage
 .
-contains
+includes
 (
 "
 Importing

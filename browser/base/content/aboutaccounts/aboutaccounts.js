@@ -647,7 +647,7 @@ url
 (
 url
 .
-contains
+includes
 (
 "
 ?

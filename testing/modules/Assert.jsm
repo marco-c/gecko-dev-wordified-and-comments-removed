@@ -472,7 +472,7 @@ stack
 .
 filename
 .
-contains
+includes
 (
 "
 Assert

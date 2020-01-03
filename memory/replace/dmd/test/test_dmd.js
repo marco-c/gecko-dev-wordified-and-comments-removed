@@ -123,7 +123,7 @@ file
 .
 path
 .
-contains
+includes
 (
 "
 xpcshell

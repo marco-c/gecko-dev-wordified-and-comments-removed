@@ -358,7 +358,7 @@ username
 |
 username
 .
-contains
+includes
 (
 '
 '

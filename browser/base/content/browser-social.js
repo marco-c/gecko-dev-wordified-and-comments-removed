@@ -1243,7 +1243,7 @@ chromehidden
 "
 )
 .
-contains
+includes
 (
 "
 extrachrome
@@ -1260,7 +1260,7 @@ chromehidden
 '
 )
 .
-contains
+includes
 (
 "
 toolbar
@@ -3303,18 +3303,6 @@ origin
 provider
 .
 origin
-)
-;
-button
-.
-setAttribute
-(
-"
-label
-"
-provider
-.
-name
 )
 ;
 button

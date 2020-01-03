@@ -215,7 +215,7 @@ menuItem
 .
 label
 .
-contains
+includes
 (
 opts
 .

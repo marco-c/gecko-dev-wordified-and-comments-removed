@@ -2638,7 +2638,7 @@ toLocaleLowerCase
 (
 )
 .
-contains
+includes
 (
 filter
 )
@@ -2658,7 +2658,7 @@ toLocaleLowerCase
 (
 )
 .
-contains
+includes
 (
 filter
 )

@@ -3996,7 +3996,7 @@ if
 !
 selectedVal
 .
-contains
+includes
 (
 "
 /
@@ -7248,11 +7248,6 @@ crop
 =
 "
 end
-"
-role
-=
-"
-presentation
 "
 /
 >

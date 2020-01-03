@@ -6520,7 +6520,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 query
 )
@@ -7158,7 +7158,7 @@ aUrl
 |
 aContentType
 .
-contains
+includes
 (
 "
 javascript
@@ -11064,7 +11064,7 @@ str
 >
 type
 .
-contains
+includes
 (
 str
 )
@@ -12927,7 +12927,7 @@ toLowerCase
 (
 )
 .
-contains
+includes
 (
 lowerCaseToken
 )
@@ -12979,7 +12979,7 @@ if
 !
 lowerCaseLine
 .
-contains
+includes
 (
 lowerCaseToken
 )

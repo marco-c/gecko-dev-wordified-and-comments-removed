@@ -157,7 +157,7 @@ appinfo
 .
 version
 .
-contains
+includes
 (
 "
 a1

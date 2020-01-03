@@ -245,7 +245,7 @@ aGrip
 .
 testTabActor1
 .
-contains
+includes
 (
 "
 test_one

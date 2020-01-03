@@ -84,7 +84,7 @@ ok
 (
 vertSource
 .
-contains
+includes
 (
 "
 I
@@ -112,7 +112,7 @@ ok
 (
 fragSource
 .
-contains
+includes
 (
 "
 I

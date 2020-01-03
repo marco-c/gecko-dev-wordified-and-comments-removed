@@ -427,7 +427,7 @@ isRelease
 !
 version
 .
-contains
+includes
 (
 "
 a
@@ -459,7 +459,7 @@ isDesktop
 !
 userAgent
 .
-contains
+includes
 (
 "
 Android

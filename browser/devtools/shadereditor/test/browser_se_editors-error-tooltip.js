@@ -238,7 +238,7 @@ content
 .
 className
 .
-contains
+includes
 (
 "
 devtools
@@ -301,7 +301,7 @@ messages
 .
 className
 .
-contains
+includes
 (
 "
 devtools
@@ -333,7 +333,7 @@ messages
 .
 className
 .
-contains
+includes
 (
 "
 devtools
@@ -365,7 +365,7 @@ messages
 .
 textContent
 .
-contains
+includes
 (
 "
 '
@@ -398,7 +398,7 @@ messages
 .
 textContent
 .
-contains
+includes
 (
 "
 '

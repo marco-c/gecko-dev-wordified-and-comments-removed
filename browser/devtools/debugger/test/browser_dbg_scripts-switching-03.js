@@ -214,7 +214,7 @@ getText
 (
 )
 .
-contains
+includes
 (
 gL10N
 .

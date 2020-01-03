@@ -1039,7 +1039,7 @@ if
 (
 auth
 .
-contains
+includes
 (
 "
 inactive

@@ -3740,7 +3740,7 @@ appData
 .
 path
 .
-contains
+includes
 (
 profile
 .
