@@ -1179,9 +1179,11 @@ Display
 <
 !
 ENTITY
-pref_category_display_summary2
+pref_category_display_summary
 "
 Text
+title
+bar
 full
 -
 screen
