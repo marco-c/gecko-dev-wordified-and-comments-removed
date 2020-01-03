@@ -3901,16 +3901,12 @@ closed
 "
 ]
 .
-indexOf
+contains
 (
 element
 .
 state
 )
-!
-=
--
-1
 ;
 if
 (
