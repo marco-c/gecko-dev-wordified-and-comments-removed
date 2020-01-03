@@ -506,6 +506,11 @@ CantInlineBigCallee
 \
 _
 (
+CantInlineBigCalleeInlinedBytecodeLength
+)
+\
+_
+(
 CantInlineNotHot
 )
 \
