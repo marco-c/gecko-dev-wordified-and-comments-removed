@@ -216,6 +216,11 @@ InImageBridgeChildThread
 )
 )
 {
+if
+(
+mTextureClient
+)
+{
 ADDREF_MANUALLY
 (
 mTextureClient
@@ -233,6 +238,7 @@ mTextureClient
 =
 nullptr
 ;
+}
 ImageBridgeChild
 :
 :
