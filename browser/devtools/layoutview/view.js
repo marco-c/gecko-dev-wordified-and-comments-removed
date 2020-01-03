@@ -2139,7 +2139,8 @@ newLabel
 width
 +
 "
-x
+\
+u00D7
 "
 +
 height
@@ -2522,7 +2523,8 @@ newValue
 width
 +
 "
-x
+\
+u00D7
 "
 +
 height
