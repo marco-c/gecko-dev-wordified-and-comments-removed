@@ -3000,6 +3000,11 @@ tmp
 selOffset
 )
 ;
+NS_ENSURE_STATE
+(
+selNode
+)
+;
 +
 +
 selOffset
