@@ -784,15 +784,6 @@ OnVideoEOS
 )
 ;
 }
-else
-{
-RequestVideoData
-(
-false
-mTimeThreshold
-)
-;
-}
 }
 void
 MediaSourceReader
