@@ -2190,6 +2190,16 @@ srcdir
 /
 builtin
 /
+RegExp
+.
+js
+\
+(
+srcdir
+)
+/
+builtin
+/
 String
 .
 js
