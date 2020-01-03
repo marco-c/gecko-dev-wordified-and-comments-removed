@@ -220,11 +220,6 @@ FreeSpaceWatcher
 jsm
 '
 '
-InterAppCommService
-.
-jsm
-'
-'
 Langpacks
 .
 jsm
@@ -266,6 +261,11 @@ jsm
 '
 '
 ImportExport
+.
+jsm
+'
+'
+InterAppCommService
 .
 jsm
 '
