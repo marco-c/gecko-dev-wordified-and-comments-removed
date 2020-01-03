@@ -1507,6 +1507,15 @@ JSObject
 aObj
 )
 ;
+nsGlobalWindow
+*
+CurrentWindowOrNull
+(
+JSContext
+*
+cx
+)
+;
 void
 SystemErrorReporter
 (
