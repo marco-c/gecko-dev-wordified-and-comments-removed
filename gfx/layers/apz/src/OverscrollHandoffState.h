@@ -408,6 +408,8 @@ const
 ScreenPoint
 &
 aPanDistance
+ScrollSource
+aScrollSource
 )
 :
 mChain
@@ -422,6 +424,10 @@ mPanDistance
 (
 aPanDistance
 )
+mScrollSource
+(
+aScrollSource
+)
 {
 }
 const
@@ -435,6 +441,9 @@ mChainIndex
 const
 ScreenPoint
 mPanDistance
+;
+ScrollSource
+mScrollSource
 ;
 }
 ;

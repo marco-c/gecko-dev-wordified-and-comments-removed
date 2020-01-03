@@ -38,6 +38,15 @@ ExcludeOverscroll
 1
 }
 ;
+enum
+class
+ScrollSource
+{
+DOM
+Touch
+Wheel
+}
+;
 typedef
 uint32_t
 TouchBehaviorFlags

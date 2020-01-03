@@ -672,6 +672,8 @@ const
 PanGestureInput
 &
 aEvent
+ScrollSource
+aSource
 bool
 aFingersOnTouchpad
 )
@@ -1304,6 +1306,8 @@ aVelocity
 void
 StartSmoothScroll
 (
+ScrollSource
+aSource
 )
 ;
 public

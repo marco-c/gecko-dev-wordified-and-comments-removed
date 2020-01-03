@@ -118,6 +118,10 @@ aDisplacementOut
 float
 &
 aOverscrollAmountOut
+bool
+forceOverscroll
+=
+false
 )
 ;
 void

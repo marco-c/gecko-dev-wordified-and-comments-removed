@@ -569,6 +569,15 @@ aEvent
 )
 ;
 static
+bool
+CanVerticallyScrollFrameWithWheel
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 LayoutDeviceIntPoint
 sLastScreenPoint
 ;
