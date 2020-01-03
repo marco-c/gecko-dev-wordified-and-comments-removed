@@ -701,7 +701,7 @@ Timeline
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 tab
 .
@@ -746,7 +746,7 @@ Headers
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 tab
 .
@@ -791,7 +791,7 @@ Cookies
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 tab
 .
@@ -836,7 +836,7 @@ Params
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 tab
 .
@@ -881,7 +881,7 @@ Response
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 tab
 .
@@ -926,7 +926,7 @@ Timings
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 tab
 .
@@ -1016,7 +1016,7 @@ Security
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1064,7 +1064,7 @@ All
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1112,7 +1112,7 @@ HTML
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1160,7 +1160,7 @@ CSS
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1208,7 +1208,7 @@ JS
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1256,7 +1256,7 @@ XHR
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1304,7 +1304,7 @@ Fonts
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1352,7 +1352,7 @@ Images
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1400,7 +1400,7 @@ Media
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1448,7 +1448,7 @@ Flash
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1496,7 +1496,7 @@ Other
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1543,7 +1543,7 @@ Clear
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 footer
 .
@@ -1591,7 +1591,7 @@ analysis
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 panesButton
 .
@@ -1642,7 +1642,7 @@ info
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -1689,7 +1689,7 @@ URL
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -1736,7 +1736,55 @@ method
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
+.
+summary
+.
+address
+)
+:
+This
+is
+the
+label
+displayed
+-
+in
+the
+network
+details
+headers
+tab
+identifying
+the
+remote
+address
+.
+-
+-
+>
+<
+!
+ENTITY
+netmonitorUI
+.
+summary
+.
+address
+"
+Remote
+address
+:
+"
+>
+<
+!
+-
+-
+LOCALIZATION
+NOTE
+(
+netmonitorUI
 .
 summary
 .
@@ -1784,7 +1832,7 @@ code
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -1831,7 +1879,7 @@ Version
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -1879,7 +1927,7 @@ size
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 response
 .
@@ -1929,7 +1977,7 @@ Name
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 response
 .
@@ -1978,7 +2026,7 @@ Dimensions
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 response
 .
@@ -2028,7 +2076,7 @@ Type
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 response
 .
@@ -2077,7 +2125,7 @@ Encoding
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 timings
 .
@@ -2133,7 +2181,7 @@ Blocked
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 timings
 .
@@ -2190,7 +2238,7 @@ resolution
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 timings
 .
@@ -2246,7 +2294,7 @@ Connecting
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 timings
 .
@@ -2302,7 +2350,7 @@ Sending
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 timings
 .
@@ -2358,7 +2406,7 @@ Waiting
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 timings
 .
@@ -3267,7 +3315,7 @@ I
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -3323,7 +3371,7 @@ Resend
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -3379,7 +3427,7 @@ R
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -3436,7 +3484,7 @@ headers
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -3489,7 +3537,7 @@ headers
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 summary
 .
@@ -3654,7 +3702,7 @@ O
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 custom
 .
@@ -3699,7 +3747,7 @@ Request
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 custom
 .
@@ -3746,7 +3794,7 @@ String
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 custom
 .
@@ -3793,7 +3841,7 @@ Headers
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 custom
 .
@@ -3840,7 +3888,7 @@ Body
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 custom
 .
@@ -3883,7 +3931,7 @@ Send
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 custom
 .
@@ -3929,7 +3977,7 @@ Cancel
 LOCALIZATION
 NOTE
 (
-debuggerUI
+netmonitorUI
 .
 backButton
 )
