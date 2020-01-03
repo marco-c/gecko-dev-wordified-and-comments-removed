@@ -19,6 +19,13 @@ h
 #
 include
 "
+AsyncPanZoomController
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h

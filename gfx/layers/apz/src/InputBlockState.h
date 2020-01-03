@@ -32,6 +32,9 @@ namespace
 layers
 {
 class
+AsyncPanZoomController
+;
+class
 OverscrollHandoffChain
 ;
 class
