@@ -775,6 +775,18 @@ n
 ?
 "
 )
+find_substitutions
+=
+re
+.
+compile
+(
+r
+"
+\
+{
+"
+)
 memoize
 def
 compile_fill_template
@@ -1106,6 +1118,35 @@ sub
 fill_multiline_substitution_re
 replace
 t
+)
+    
+if
+not
+re
+.
+search
+(
+find_substitutions
+t
+)
+:
+        
+raise
+TypeError
+(
+"
+Using
+fill
+(
+)
+when
+dedent
+(
+)
+would
+do
+.
+"
 )
     
 return
@@ -18788,7 +18829,7 @@ setUnforgeableHolder
 =
 CGGeneric
 (
-fill
+dedent
 (
                 
 "
@@ -18827,14 +18868,6 @@ unforgeableHolder
 "
 "
 "
-                
-name
-=
-self
-.
-descriptor
-.
-name
 )
 )
         
@@ -80890,7 +80923,7 @@ else
 body
 +
 =
-fill
+dedent
 (
                 
 "
@@ -81586,7 +81619,7 @@ else
 body
 +
 =
-fill
+dedent
 (
                 
 "
