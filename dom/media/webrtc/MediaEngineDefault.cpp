@@ -865,13 +865,6 @@ i
 ;
 }
 }
-aSource
--
->
-Finish
-(
-)
-;
 mState
 =
 kStopped
@@ -1930,13 +1923,6 @@ i
 ;
 }
 }
-aSource
--
->
-Finish
-(
-)
-;
 mState
 =
 kStopped
