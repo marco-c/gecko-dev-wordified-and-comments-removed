@@ -33758,7 +33758,7 @@ if
 ExpectSymbol
 (
 '
-(
+[
 '
 true
 )
@@ -33785,7 +33785,7 @@ mToken
 IsSymbol
 (
 '
-)
+]
 '
 )
 )
@@ -33918,7 +33918,7 @@ UngetToken
 SkipUntil
 (
 '
-)
+]
 '
 )
 ;
@@ -33943,7 +33943,7 @@ mToken
 IsSymbol
 (
 '
-)
+]
 '
 )
 )

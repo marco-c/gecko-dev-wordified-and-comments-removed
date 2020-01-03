@@ -10174,7 +10174,7 @@ lineNamesString
 Assign
 (
 '
-(
+[
 '
 )
 ;
@@ -10235,7 +10235,7 @@ lineNamesString
 Append
 (
 '
-)
+]
 '
 )
 ;

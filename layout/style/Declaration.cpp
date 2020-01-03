@@ -6039,7 +6039,7 @@ aValue
 Append
 (
 '
-(
+[
 '
 )
 ;
@@ -6060,7 +6060,7 @@ aValue
 Append
 (
 '
-)
+]
 '
 )
 ;
