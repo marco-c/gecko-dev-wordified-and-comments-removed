@@ -1543,6 +1543,13 @@ aData
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+RecvOnAppThemeChanged
+(
+)
+MOZ_OVERRIDE
+;
 #
 ifdef
 ANDROID
