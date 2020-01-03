@@ -1588,6 +1588,9 @@ const
 nsAString
 &
 aUnmodifiedCharacters
+nsIObserver
+*
+aObserver
 )
 override
 ;
@@ -1604,6 +1607,9 @@ uint32_t
 aNativeMessage
 uint32_t
 aModifierFlags
+nsIObserver
+*
+aObserver
 )
 override
 ;
@@ -1616,6 +1622,9 @@ mozilla
 :
 LayoutDeviceIntPoint
 aPoint
+nsIObserver
+*
+aObserver
 )
 override
 {
@@ -1625,6 +1634,7 @@ SynthesizeNativeMouseEvent
 aPoint
 NSMouseMoved
 0
+aObserver
 )
 ;
 }

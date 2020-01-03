@@ -3588,6 +3588,9 @@ mozilla
 :
 LayoutDeviceIntPoint
 aPoint
+nsIObserver
+*
+aObserver
 )
 {
 if

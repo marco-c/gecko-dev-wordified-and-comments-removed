@@ -1486,6 +1486,9 @@ uint32_t
 aNativeMessage
 uint32_t
 aModifierFlags
+nsIObserver
+*
+aObserver
 )
 override
 ;

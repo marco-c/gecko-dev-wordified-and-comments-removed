@@ -896,7 +896,11 @@ const
 nsAString
 &
 aUnmodifiedCharacters
+nsIObserver
+*
+aObserver
 )
+override
 ;
 virtual
 nsresult
@@ -911,7 +915,11 @@ uint32_t
 aNativeMessage
 uint32_t
 aModifierFlags
+nsIObserver
+*
+aObserver
 )
+override
 ;
 virtual
 nsresult
@@ -922,7 +930,11 @@ mozilla
 :
 LayoutDeviceIntPoint
 aPoint
+nsIObserver
+*
+aObserver
 )
+override
 {
 return
 SynthesizeNativeMouseEvent
@@ -930,6 +942,7 @@ SynthesizeNativeMouseEvent
 aPoint
 MOUSEEVENTF_MOVE
 0
+aObserver
 )
 ;
 }
@@ -954,7 +967,11 @@ uint32_t
 aModifierFlags
 uint32_t
 aAdditionalFlags
+nsIObserver
+*
+aObserver
 )
+override
 ;
 NS_IMETHOD_
 (

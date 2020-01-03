@@ -348,6 +348,9 @@ double
 aPointerPressure
 uint32_t
 aPointerOrientation
+nsIObserver
+*
+aObserver
 )
 override
 ;

@@ -1394,6 +1394,9 @@ uint32_t
 aNativeMessage
 uint32_t
 aModifierFlags
+nsIObserver
+*
+aObserver
 )
 override
 ;
@@ -1406,6 +1409,9 @@ mozilla
 :
 LayoutDeviceIntPoint
 aPoint
+nsIObserver
+*
+aObserver
 )
 override
 {
@@ -1415,6 +1421,7 @@ SynthesizeNativeMouseEvent
 aPoint
 GDK_MOTION_NOTIFY
 0
+aObserver
 )
 ;
 }

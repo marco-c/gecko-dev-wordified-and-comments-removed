@@ -17263,6 +17263,7 @@ widget
 WidgetToScreenOffset
 (
 )
+nullptr
 )
 ;
 }
@@ -17731,6 +17732,7 @@ aWidget
 WidgetToScreenOffset
 (
 )
+nullptr
 )
 ;
 nsIPresShell
@@ -17775,6 +17777,7 @@ aWidget
 WidgetToScreenOffset
 (
 )
+nullptr
 )
 ;
 nsIPresShell

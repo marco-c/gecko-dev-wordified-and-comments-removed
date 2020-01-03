@@ -493,6 +493,9 @@ mozilla
 :
 LayoutDeviceIntPoint
 aPoint
+nsIObserver
+*
+aObserver
 )
 override
 ;
