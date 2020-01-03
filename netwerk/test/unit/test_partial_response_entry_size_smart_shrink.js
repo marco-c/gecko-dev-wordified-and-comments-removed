@@ -437,7 +437,7 @@ enforce
 -
 framing
 .
-http1
+soft
 "
 )
 ;
@@ -456,7 +456,7 @@ enforce
 -
 framing
 .
-http1
+soft
 "
 false
 )
@@ -599,7 +599,7 @@ enforce
 -
 framing
 .
-http1
+soft
 "
 enforcePref
 )
