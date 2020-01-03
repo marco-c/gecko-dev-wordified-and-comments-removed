@@ -818,8 +818,6 @@ FullParseHandler
 >
 *
 pc
-bool
-foldConstants
 )
 {
 if
