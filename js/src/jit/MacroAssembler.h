@@ -4167,6 +4167,10 @@ const
 BaseIndex
 &
 dest
+unsigned
+numElems
+=
+0
 )
 ;
 void
@@ -4183,6 +4187,10 @@ const
 Address
 &
 dest
+unsigned
+numElems
+=
+0
 )
 ;
 template
