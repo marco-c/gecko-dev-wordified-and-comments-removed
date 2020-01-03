@@ -45,6 +45,17 @@ aries
 DEBUG
 :
 0
+MOZHARNESS_CONFIG
+:
+b2g
+/
+taskcluster
+-
+spark
+-
+ota
+.
+py
 command
 :
 -
@@ -81,7 +92,7 @@ Build
 /
 build
 -
-spark
+phone
 -
 ota
 .

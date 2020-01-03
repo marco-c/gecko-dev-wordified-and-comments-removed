@@ -99,6 +99,15 @@ B2G_SYSTEM_APPS
 '
 1
 '
+MOZHARNESS_CONFIG
+:
+b2g
+/
+taskcluster
+-
+spark
+.
+py
 command
 :
 -
@@ -135,7 +144,7 @@ Build
 /
 build
 -
-spark
+phone
 .
 sh
 HOME
