@@ -132,6 +132,11 @@ OCSPRequestor
 .
 cpp
 '
+'
+OCSPVerificationTrustDomain
+.
+cpp
+'
 ]
 if
 not
