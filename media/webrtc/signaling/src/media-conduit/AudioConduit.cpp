@@ -349,9 +349,6 @@ i
 ]
 ;
 }
-delete
-mCurSendCodecConfig
-;
 if
 (
 mPtrVoEXmedia
@@ -1717,6 +1714,7 @@ webrtc
 CodecInst
 cinst
 ;
+{
 if
 (
 (
@@ -1736,6 +1734,7 @@ kMediaConduitNoError
 return
 condError
 ;
+}
 }
 condError
 =
@@ -1976,8 +1975,12 @@ return
 condError
 ;
 }
-delete
-mCurSendCodecConfig
+{
+MutexAutoLock
+lock
+(
+mCodecMutex
+)
 ;
 mCurSendCodecConfig
 =
@@ -2010,6 +2013,7 @@ codecConfig
 mRate
 )
 ;
+}
 return
 kMediaConduitNoError
 ;
@@ -4727,7 +4731,6 @@ codecInfo
 bool
 send
 )
-const
 {
 bool
 codecAppliedAlready
@@ -4848,6 +4851,12 @@ if
 send
 )
 {
+MutexAutoLock
+lock
+(
+mCodecMutex
+)
+;
 codecAppliedAlready
 =
 CheckCodecsForMatch
