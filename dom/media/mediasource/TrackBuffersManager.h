@@ -461,6 +461,11 @@ InitializationSegmentReceived
 )
 ;
 void
+ShutdownDemuxers
+(
+)
+;
+void
 CreateDemuxerforMIMEType
 (
 )
