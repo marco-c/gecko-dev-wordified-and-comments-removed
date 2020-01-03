@@ -6409,9 +6409,6 @@ case
 AKEYCODE_ENDCALL
 :
 case
-AKEYCODE_SYM
-:
-case
 AKEYCODE_NUM
 :
 case
