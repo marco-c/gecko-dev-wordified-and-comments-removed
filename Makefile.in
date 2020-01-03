@@ -1837,7 +1837,7 @@ SYMBOL_FULL_ARCHIVE_BASENAME
 .
 zip
 '
-endif
+else
 (
 SHELL
 )
@@ -1871,6 +1871,7 @@ SYMBOL_FULL_ARCHIVE_BASENAME
 .
 zip
 '
+endif
 endif
 #
 MOZ_SOURCE_STAMP
