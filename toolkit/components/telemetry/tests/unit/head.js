@@ -37,6 +37,9 @@ ede71682a1ac
 "
 )
 ;
+let
+gAppInfo
+;
 function
 createAppInfo
 (

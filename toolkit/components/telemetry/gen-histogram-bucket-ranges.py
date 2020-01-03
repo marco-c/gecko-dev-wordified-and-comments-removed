@@ -117,6 +117,14 @@ exponential
 0
 '
             
+'
+count
+'
+:
+'
+4
+'
+            
 }
         
 histogram_tools

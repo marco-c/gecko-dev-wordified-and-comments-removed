@@ -633,6 +633,14 @@ histogram
     
 pass
 def
+static_asserts_for_count
+(
+histogram
+)
+:
+    
+pass
+def
 static_asserts_for_enumerated
 (
 histogram
@@ -904,6 +912,12 @@ flag
 '
 :
 static_asserts_for_flag
+        
+'
+count
+'
+:
+static_asserts_for_count
         
 '
 enumerated
