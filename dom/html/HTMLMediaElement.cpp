@@ -13238,6 +13238,14 @@ codes
 "
 )
 ;
+if
+(
+mError
+)
+{
+return
+;
+}
 mError
 =
 new

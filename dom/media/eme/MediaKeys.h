@@ -382,6 +382,11 @@ Shutdown
 (
 )
 ;
+void
+Terminated
+(
+)
+;
 bool
 IsBoundToMediaElement
 (

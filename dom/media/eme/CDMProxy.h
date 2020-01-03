@@ -257,6 +257,11 @@ Shutdown
 (
 )
 ;
+void
+Terminated
+(
+)
+;
 const
 nsCString
 &
@@ -406,11 +411,6 @@ uint8_t
 >
 &
 aDecryptedData
-)
-;
-void
-gmp_Terminated
-(
 )
 ;
 CDMCaps
