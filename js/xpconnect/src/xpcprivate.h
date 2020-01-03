@@ -6112,14 +6112,6 @@ GET_IT
 WANT_CREATE
 )
 bool
-WantPostCreate
-(
-)
-GET_IT
-(
-WANT_POSTCREATE
-)
-bool
 WantAddProperty
 (
 )
