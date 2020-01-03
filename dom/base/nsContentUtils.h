@@ -3856,6 +3856,16 @@ sIsResourceTimingEnabled
 }
 static
 bool
+SendPerformanceTimingNotifications
+(
+)
+{
+return
+sSendPerformanceTimingNotifications
+;
+}
+static
+bool
 EncodeDecodeURLHash
 (
 )
@@ -5198,6 +5208,10 @@ sGettersDecodeURLHash
 static
 bool
 sPrivacyResistFingerprinting
+;
+static
+bool
+sSendPerformanceTimingNotifications
 ;
 static
 nsHtml5StringParser
