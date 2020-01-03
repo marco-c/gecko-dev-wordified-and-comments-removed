@@ -207,6 +207,12 @@ Ended
 (
 )
 ;
+bool
+IsExpectingMoreData
+(
+)
+MOZ_OVERRIDE
+;
 void
 SetMediaSourceDuration
 (

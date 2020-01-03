@@ -1468,7 +1468,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-IsDataCachedToEndOfResource
+IsExpectingMoreData
 (
 )
 ;
