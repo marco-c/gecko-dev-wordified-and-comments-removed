@@ -1,4 +1,0 @@
-refresh_header
-=
-true
-;

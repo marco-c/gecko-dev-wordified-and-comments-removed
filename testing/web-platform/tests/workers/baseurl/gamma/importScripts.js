@@ -1,0 +1,9 @@
+importScripts
+(
+"
+script
+.
+js
+"
+)
+;
