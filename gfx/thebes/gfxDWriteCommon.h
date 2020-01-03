@@ -84,6 +84,7 @@ dwrite
 h
 >
 static
+inline
 DWRITE_FONT_STRETCH
 DWriteFontStretchFromStretch
 (
@@ -158,6 +159,7 @@ DWRITE_FONT_STRETCH_UNDEFINED
 }
 }
 static
+inline
 int16_t
 FontStretchFromDWriteStretch
 (

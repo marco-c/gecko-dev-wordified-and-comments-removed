@@ -352,6 +352,7 @@ nsModuleHandle
 namespace
 {
 bool
+inline
 IsRunningInWindowsMetro
 (
 )
@@ -463,6 +464,7 @@ isMetro
 ;
 }
 HMODULE
+inline
 LoadLibrarySystem32
 (
 LPCWSTR

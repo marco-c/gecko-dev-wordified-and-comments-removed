@@ -1768,6 +1768,7 @@ FALSE
 ;
 }
 static
+inline
 TemporaryRef
 <
 ID2D1Geometry
@@ -1810,6 +1811,7 @@ forget
 ;
 }
 static
+inline
 TemporaryRef
 <
 ID2D1Geometry
@@ -1887,6 +1889,7 @@ forget
 ;
 }
 static
+inline
 TemporaryRef
 <
 ID2D1Geometry
@@ -1964,6 +1967,7 @@ forget
 ;
 }
 static
+inline
 TemporaryRef
 <
 ID2D1StrokeStyle
@@ -2283,6 +2287,7 @@ forget
 ;
 }
 static
+inline
 TemporaryRef
 <
 ID2D1Bitmap

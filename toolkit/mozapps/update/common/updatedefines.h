@@ -214,6 +214,7 @@ NS_T
 '
 )
 static
+inline
 int
 mysnprintf
 (
@@ -284,6 +285,7 @@ define
 snprintf
 mysnprintf
 static
+inline
 int
 mywcsprintf
 (
