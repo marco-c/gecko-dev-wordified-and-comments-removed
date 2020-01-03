@@ -67,6 +67,14 @@ aUuid
 )
 ;
 void
+GenerateUuid
+(
+nsAString
+&
+aUuidString
+)
+;
+void
 GeneratePathFromGattId
 (
 const

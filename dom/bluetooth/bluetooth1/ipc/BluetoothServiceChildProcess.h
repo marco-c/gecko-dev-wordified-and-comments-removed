@@ -111,7 +111,7 @@ aRunnable
 override
 ;
 virtual
-nsresult
+void
 StopDiscoveryInternal
 (
 BluetoothReplyRunnable
@@ -121,7 +121,7 @@ aRunnable
 override
 ;
 virtual
-nsresult
+void
 StartDiscoveryInternal
 (
 BluetoothReplyRunnable

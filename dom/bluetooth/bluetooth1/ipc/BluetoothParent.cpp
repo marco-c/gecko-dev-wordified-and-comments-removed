@@ -1483,9 +1483,6 @@ Request
 TStartDiscoveryRequest
 )
 ;
-nsresult
-rv
-=
 mService
 -
 >
@@ -1496,12 +1493,6 @@ mReplyRunnable
 get
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-false
 )
 ;
 return
@@ -1536,9 +1527,6 @@ Request
 TStopDiscoveryRequest
 )
 ;
-nsresult
-rv
-=
 mService
 -
 >
@@ -1549,12 +1537,6 @@ mReplyRunnable
 get
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-false
 )
 ;
 return

@@ -436,7 +436,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 BluetoothServiceChildProcess
 :
 :
@@ -455,11 +455,8 @@ StopDiscoveryRequest
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 BluetoothServiceChildProcess
 :
 :
@@ -477,9 +474,6 @@ StartDiscoveryRequest
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

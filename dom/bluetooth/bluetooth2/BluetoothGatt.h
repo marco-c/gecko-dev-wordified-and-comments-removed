@@ -260,14 +260,6 @@ aState
 )
 ;
 void
-GenerateUuid
-(
-nsAString
-&
-aUuidString
-)
-;
-void
 HandleServicesDiscovered
 (
 const

@@ -230,6 +230,13 @@ cpp
 '
 bluetooth2
 /
+BluetoothLeDeviceEvent
+.
+cpp
+'
+'
+bluetooth2
+/
 BluetoothManager
 .
 cpp
@@ -978,6 +985,13 @@ h
 bluetooth2
 /
 BluetoothGattService
+.
+h
+'
+'
+bluetooth2
+/
+BluetoothLeDeviceEvent
 .
 h
 '

@@ -282,7 +282,7 @@ aRunnable
 0
 ;
 virtual
-nsresult
+void
 StopDiscoveryInternal
 (
 BluetoothReplyRunnable
@@ -293,7 +293,7 @@ aRunnable
 0
 ;
 virtual
-nsresult
+void
 StartDiscoveryInternal
 (
 BluetoothReplyRunnable

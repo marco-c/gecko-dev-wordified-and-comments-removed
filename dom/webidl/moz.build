@@ -3271,6 +3271,11 @@ BluetoothGattService
 webidl
 '
 '
+BluetoothLeDeviceEvent
+.
+webidl
+'
+'
 BluetoothManager2
 .
 webidl
