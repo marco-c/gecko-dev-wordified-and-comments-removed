@@ -22,7 +22,7 @@ h
 "
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 #
 define
 MOZ_MALLOC_PLATFORM_OPTIONS
