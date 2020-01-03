@@ -205,6 +205,10 @@ hello
 world
 '
 "
+)
+.
+then
+(
 onExecute
 )
 ;

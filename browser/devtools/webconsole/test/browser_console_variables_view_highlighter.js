@@ -122,6 +122,10 @@ p
 '
 )
 "
+)
+.
+then
+(
 onQSAexecuted
 )
 ;

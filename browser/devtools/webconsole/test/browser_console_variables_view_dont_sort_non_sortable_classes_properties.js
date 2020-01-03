@@ -229,6 +229,7 @@ hud
 .
 jsterm
 ;
+yield
 jsterm
 .
 execute

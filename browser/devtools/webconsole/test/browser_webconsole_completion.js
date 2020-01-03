@@ -473,6 +473,7 @@ completion
 "
 )
 ;
+yield
 jsterm
 .
 execute

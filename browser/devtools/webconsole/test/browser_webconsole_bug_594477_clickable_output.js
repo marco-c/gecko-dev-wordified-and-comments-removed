@@ -571,6 +571,10 @@ execute
 "
 document
 "
+)
+.
+then
+(
 (
 msg
 )
