@@ -108,6 +108,11 @@ pkixcert_extension_tests
 cpp
 '
 '
+pkixcert_signature_algorithm_tests
+.
+cpp
+'
+'
 pkixcheck_CheckKeyUsage_tests
 .
 cpp
