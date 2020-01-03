@@ -98,18 +98,6 @@ s
 "
                 
 "
--
--
-skip
--
-manifest
-=
-b2g_cppunittest_manifest
-.
-txt
-"
-                
-"
 .
 "
             

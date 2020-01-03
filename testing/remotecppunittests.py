@@ -981,6 +981,10 @@ None
 interactive
 =
 False
+                     
+timeout_factor
+=
+1
 )
 :
         
@@ -1052,6 +1056,18 @@ on
 crash
 .
         
+*
+timeout_factor
+:
+An
+optional
+test
+-
+specific
+timeout
+multiplier
+.
+        
 Return
 True
 if
@@ -1110,6 +1126,16 @@ StringIO
 (
 )
         
+test_timeout
+=
+cppunittests
+.
+CPPUnitTests
+.
+TEST_PROC_TIMEOUT
+*
+timeout_factor
+        
 returncode
 =
 self
@@ -1133,11 +1159,7 @@ remote_home_dir
                                        
 timeout
 =
-cppunittests
-.
-CPPUnitTests
-.
-TEST_PROC_TIMEOUT
+test_timeout
 )
         
 self
@@ -2336,9 +2358,14 @@ cppunittests
 extract_unittests_from_args
 (
 args
+                                                     
 mozinfo
 .
 info
+                                                     
+options
+.
+manifest_path
 )
     
 tester
@@ -2347,7 +2374,16 @@ RemoteCPPUnitTests
 (
 dm
 options
+[
+item
+[
+0
+]
+for
+item
+in
 progs
+]
 )
     
 try
