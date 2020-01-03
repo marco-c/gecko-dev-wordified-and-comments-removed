@@ -10850,6 +10850,12 @@ if
 IsOverscrolled
 (
 )
+&
+&
+mState
+!
+=
+OVERSCROLL_ANIMATION
 )
 {
 APZC_LOG
