@@ -91,7 +91,7 @@ aWidget
 )
 ;
 nsresult
-Init
+BeginInputTransaction
 (
 TextEventDispatcherListener
 *
@@ -99,7 +99,7 @@ aListener
 )
 ;
 nsresult
-InitForTests
+BeginInputTransactionForTests
 (
 TextEventDispatcherListener
 *
@@ -324,7 +324,7 @@ bool
 mIsComposing
 ;
 nsresult
-InitInternal
+BeginInputTransactionInternal
 (
 TextEventDispatcherListener
 *

@@ -219,7 +219,7 @@ NS_IMETHODIMP
 TextInputProcessor
 :
 :
-Init
+BeginInputTransaction
 (
 nsIDOMWindow
 *
@@ -273,7 +273,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 return
-InitInternal
+BeginInputTransactionInternal
 (
 aWindow
 aCallback
@@ -287,7 +287,7 @@ NS_IMETHODIMP
 TextInputProcessor
 :
 :
-InitForTests
+BeginInputTransactionForTests
 (
 nsIDOMWindow
 *
@@ -338,7 +338,7 @@ aCallback
 nullptr
 ;
 return
-InitInternal
+BeginInputTransactionInternal
 (
 aWindow
 callback
@@ -352,7 +352,7 @@ nsresult
 TextInputProcessor
 :
 :
-InitInternal
+BeginInputTransactionInternal
 (
 nsIDOMWindow
 *
@@ -611,7 +611,7 @@ rv
 dispatcher
 -
 >
-InitForTests
+BeginInputTransactionForTests
 (
 this
 )
@@ -624,7 +624,7 @@ rv
 dispatcher
 -
 >
-Init
+BeginInputTransaction
 (
 this
 )
@@ -711,7 +711,11 @@ TextInputProcessorNotification
 "
 notify
 -
-detached
+end
+-
+input
+-
+transaction
 "
 )
 ;

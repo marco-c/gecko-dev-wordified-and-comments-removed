@@ -104,7 +104,7 @@ nsresult
 TextEventDispatcher
 :
 :
-Init
+BeginInputTransaction
 (
 TextEventDispatcherListener
 *
@@ -112,7 +112,7 @@ aListener
 )
 {
 return
-InitInternal
+BeginInputTransactionInternal
 (
 aListener
 false
@@ -123,7 +123,7 @@ nsresult
 TextEventDispatcher
 :
 :
-InitForTests
+BeginInputTransactionForTests
 (
 TextEventDispatcherListener
 *
@@ -131,7 +131,7 @@ aListener
 )
 {
 return
-InitInternal
+BeginInputTransactionInternal
 (
 aListener
 true
@@ -142,7 +142,7 @@ nsresult
 TextEventDispatcher
 :
 :
-InitInternal
+BeginInputTransactionInternal
 (
 TextEventDispatcherListener
 *

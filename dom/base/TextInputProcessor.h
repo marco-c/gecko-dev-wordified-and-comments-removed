@@ -113,7 +113,7 @@ TextInputProcessor
 private
 :
 nsresult
-InitInternal
+BeginInputTransactionInternal
 (
 nsIDOMWindow
 *
