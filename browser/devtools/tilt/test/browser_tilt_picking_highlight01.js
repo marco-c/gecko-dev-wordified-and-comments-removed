@@ -24,6 +24,10 @@ isTiltEnabled
 )
 )
 {
+aborting
+(
+)
+;
 info
 (
 "
@@ -51,6 +55,10 @@ isWebGLSupported
 )
 )
 {
+aborting
+(
+)
+;
 info
 (
 "
@@ -162,8 +170,9 @@ suddenDeath
 (
 )
 {
-info
+ok
 (
+false
 "
 Tilt
 could
