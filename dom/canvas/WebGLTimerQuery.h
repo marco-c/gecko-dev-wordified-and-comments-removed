@@ -7,6 +7,13 @@ WEBGL_TIMER_QUERY_H_
 #
 include
 "
+GLConsts
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
