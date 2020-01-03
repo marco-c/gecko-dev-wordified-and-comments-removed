@@ -204,7 +204,6 @@ Context
 )
 ;
 }
-;
 virtual
 JSObject
 *
