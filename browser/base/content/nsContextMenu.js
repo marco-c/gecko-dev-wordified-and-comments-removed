@@ -605,7 +605,7 @@ ex
 }
 this
 .
-linkText
+linkTextStr
 =
 this
 .
@@ -4457,7 +4457,7 @@ null
 ;
 this
 .
-linkText
+linkTextStr
 =
 "
 "
@@ -5558,7 +5558,7 @@ getLinkURI
 ;
 this
 .
-linkText
+linkTextStr
 =
 this
 .
@@ -8516,7 +8516,7 @@ this
 linkURL
 this
 .
-linkText
+linkTextStr
 null
 true
 this
@@ -9565,6 +9565,18 @@ return
 text
 ;
 }
+linkText
+:
+function
+(
+)
+{
+return
+this
+.
+linkTextStr
+;
+}
 isMediaURLReusable
 :
 function
@@ -10006,7 +10018,7 @@ this
 linkURL
 this
 .
-linkText
+linkTextStr
 )
 ;
 }
@@ -10563,7 +10575,7 @@ textSelected
 :
 this
 .
-linkText
+linkTextStr
 ;
 menuItem
 .
