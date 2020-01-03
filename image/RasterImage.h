@@ -840,6 +840,9 @@ mSourceBuffer
 uint32_t
 mFrameCount
 ;
+uint8_t
+mRetryCount
+;
 bool
 mHasSize
 :
