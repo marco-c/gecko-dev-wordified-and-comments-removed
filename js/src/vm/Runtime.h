@@ -4898,9 +4898,6 @@ js
 PerformanceData
 performance
 ;
-JSCurrentPerfGroupCallback
-currentPerfGroupCallback
-;
 Stopwatch
 (
 )
@@ -4912,10 +4909,6 @@ iteration
 isEmpty
 (
 true
-)
-currentPerfGroupCallback
-(
-nullptr
 )
 isActive_
 (
