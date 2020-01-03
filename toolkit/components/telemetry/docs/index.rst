@@ -160,4 +160,7 @@ environment
 main
 -
 ping
+deletion
+-
+ping
 preferences
