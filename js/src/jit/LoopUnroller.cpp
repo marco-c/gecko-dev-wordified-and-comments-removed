@@ -547,8 +547,9 @@ bound
 >
 header
 ;
-JS_ASSERT
+if
 (
+!
 header
 -
 >
@@ -556,6 +557,7 @@ isLoopHeader
 (
 )
 )
+return
 ;
 backedge
 =
