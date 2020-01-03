@@ -1014,6 +1014,16 @@ h
 /
 public
 /
+TraceableFifo
+.
+h
+'
+'
+.
+.
+/
+public
+/
 TraceableHashTable
 .
 h
