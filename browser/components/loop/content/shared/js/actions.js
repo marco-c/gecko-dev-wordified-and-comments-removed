@@ -468,7 +468,10 @@ getAllRoomsError
 {
 error
 :
+[
 Error
+Object
+]
 }
 )
 UpdateRoomList

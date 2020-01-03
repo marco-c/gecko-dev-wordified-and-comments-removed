@@ -121,6 +121,8 @@ Assert
 equal
 (
 err
+.
+message
 "
 session
 -
