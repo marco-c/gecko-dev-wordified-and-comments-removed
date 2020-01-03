@@ -1,9 +1,9 @@
 #
 ifndef
-jsinfer_h
+vm_TypeInference_h
 #
 define
-jsinfer_h
+vm_TypeInference_h
 #
 include
 "

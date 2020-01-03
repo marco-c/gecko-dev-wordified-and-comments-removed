@@ -1527,11 +1527,6 @@ jsgc
 cpp
 '
 '
-jsinfer
-.
-cpp
-'
-'
 jsiter
 .
 cpp
@@ -1941,6 +1936,13 @@ cpp
 vm
 /
 TypedArrayObject
+.
+cpp
+'
+'
+vm
+/
+TypeInference
 .
 cpp
 '

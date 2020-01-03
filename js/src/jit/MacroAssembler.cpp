@@ -10,13 +10,6 @@ h
 #
 include
 "
-jsinfer
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -124,13 +117,6 @@ h
 include
 "
 jsgcinlines
-.
-h
-"
-#
-include
-"
-jsinferinlines
 .
 h
 "

@@ -239,13 +239,6 @@ h
 #
 include
 "
-jsinferinlines
-.
-h
-"
-#
-include
-"
 jsscriptinlines
 .
 h

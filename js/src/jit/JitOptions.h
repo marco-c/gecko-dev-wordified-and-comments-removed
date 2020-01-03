@@ -7,6 +7,15 @@ jit_JitOptions_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 jit
 /
 IonTypes

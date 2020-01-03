@@ -42,13 +42,6 @@ h
 #
 include
 "
-jsinfer
-.
-h
-"
-#
-include
-"
 jsnum
 .
 h
@@ -179,13 +172,6 @@ h
 include
 "
 jsgcinlines
-.
-h
-"
-#
-include
-"
-jsinferinlines
 .
 h
 "
