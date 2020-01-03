@@ -1456,9 +1456,6 @@ versionNumber
 Node
 parse
 (
-JSObject
-*
-chain
 )
 ;
 ObjectBox

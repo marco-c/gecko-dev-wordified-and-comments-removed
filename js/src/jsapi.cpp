@@ -20477,7 +20477,6 @@ parser
 .
 parse
 (
-obj
 )
 )
 {

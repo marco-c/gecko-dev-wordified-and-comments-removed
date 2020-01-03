@@ -3398,9 +3398,6 @@ ParseHandler
 :
 parse
 (
-JSObject
-*
-chain
 )
 {
 MOZ_ASSERT
