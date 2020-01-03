@@ -117,6 +117,11 @@ SocketBase
 h
 '
 '
+StreamSocket
+.
+h
+'
+'
 UnixSocket
 .
 h
@@ -143,6 +148,11 @@ cpp
 '
 '
 SocketBase
+.
+cpp
+'
+'
+StreamSocket
 .
 cpp
 '
