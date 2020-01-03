@@ -397,6 +397,15 @@ aRv
 ;
 virtual
 void
+Finish
+(
+ErrorResult
+&
+aRv
+)
+;
+virtual
+void
 Play
 (
 LimitBehavior
