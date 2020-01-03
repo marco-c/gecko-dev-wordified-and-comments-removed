@@ -1811,6 +1811,8 @@ i
 )
 {
 result
+=
+result
 .
 Intersect
 (
