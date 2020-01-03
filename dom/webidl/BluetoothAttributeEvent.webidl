@@ -130,12 +130,14 @@ BluetoothAttributeEventInit
 :
 EventInit
 {
-required
 sequence
 <
 DOMString
 >
 attrs
+=
+[
+]
 ;
 }
 ;

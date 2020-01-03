@@ -114,6 +114,7 @@ Event
 readonly
 attribute
 BluetoothGattCharacteristic
+?
 characteristic
 ;
 }
@@ -123,9 +124,11 @@ BluetoothGattCharacteristicEventInit
 :
 EventInit
 {
-required
 BluetoothGattCharacteristic
+?
 characteristic
+=
+null
 ;
 }
 ;

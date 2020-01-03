@@ -119,6 +119,7 @@ deviceName
 readonly
 attribute
 BluetoothPairingHandle
+?
 handle
 ;
 }
@@ -128,13 +129,17 @@ BluetoothPairingEventInit
 :
 EventInit
 {
-required
 DOMString
 deviceName
+=
+"
+"
 ;
-required
 BluetoothPairingHandle
+?
 handle
+=
+null
 ;
 }
 ;
