@@ -430,6 +430,9 @@ codec
 case
 kRtpVideoVp8
 :
+case
+kRtpVideoVp9
+:
 if
 (
 isFirstPacket
@@ -466,7 +469,16 @@ kNaluIncomplete
 ;
 codec
 =
+videoHeader
+.
+codec
+=
+=
+kRtpVideoVp8
+?
 kVideoCodecVP8
+:
+kVideoCodecVP9
 ;
 return
 ;
