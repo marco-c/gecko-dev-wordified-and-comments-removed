@@ -400,14 +400,6 @@ self
 Unforgeable
 StoreInSlot
 Pure
-Func
-=
-"
-nsGlobalWindow
-:
-:
-WindowOnWebIDL
-"
 ]
 readonly
 attribute

@@ -3045,17 +3045,6 @@ return
 nullptr
 ;
 }
-static
-bool
-WindowOnWebIDL
-(
-JSContext
-*
-JSObject
-*
-aObj
-)
-;
 nsIDOMWindow
 *
 GetWindow
