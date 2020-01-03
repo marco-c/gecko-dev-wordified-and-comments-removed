@@ -1397,6 +1397,11 @@ false
 )
 {
 *
+aId
+=
+0
+;
+*
 aSuccess
 =
 false
@@ -1410,11 +1415,6 @@ mFrameLoader
 return
 ;
 }
-*
-aId
-=
-0
-;
 nsRefPtr
 <
 LayerManager
