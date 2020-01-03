@@ -220,6 +220,12 @@ cx
 kind
 nDynamicSlots
 heap
+type
+-
+>
+clasp
+(
+)
 )
 ;
 if

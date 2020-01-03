@@ -274,6 +274,11 @@ testGCMarking
 cpp
 '
 '
+testGCNursery
+.
+cpp
+'
+'
 testGCOutOfMemory
 .
 cpp
