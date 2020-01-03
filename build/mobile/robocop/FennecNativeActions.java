@@ -152,10 +152,6 @@ KeyEvent
 import
 com
 .
-jayway
-.
-android
-.
 robotium
 .
 solo
@@ -1841,9 +1837,9 @@ keyCode
 )
 ;
 }
-mInstr
+mSolo
 .
-sendCharacterSync
+sendKey
 (
 keyCode
 )
