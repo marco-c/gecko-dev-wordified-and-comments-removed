@@ -2773,10 +2773,11 @@ if
 in
 the
 manifest
+!
 "
 "
 "
-false
+true
 )
 )
 ;
