@@ -2478,7 +2478,7 @@ data
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -2536,7 +2536,7 @@ search
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -5480,7 +5480,7 @@ function
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -5719,7 +5719,7 @@ function
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -5931,7 +5931,7 @@ function
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -6914,7 +6914,7 @@ length
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -7130,7 +7130,7 @@ DefaultBrowserCheck
 .
 prompt
 (
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -8355,7 +8355,7 @@ accesskey
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -8564,11 +8564,6 @@ homepage_override_url
 }
 )
 ;
-var
-self
-=
-this
-;
 function
 clickCallback
 (
@@ -8591,7 +8586,7 @@ return
 let
 win
 =
-self
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -8685,7 +8680,7 @@ PREF_PLUGINS_UPDATEURL
 var
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -9741,7 +9736,7 @@ helpTopic
 var
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
@@ -13141,21 +13136,6 @@ null
 }
 }
 )
-getMostRecentBrowserWindow
-:
-function
-BG_getMostRecentBrowserWindow
-(
-)
-{
-return
-RecentWindow
-.
-getMostRecentBrowserWindow
-(
-)
-;
-}
 #
 ifdef
 MOZ_SERVICES_SYNC
@@ -13401,7 +13381,7 @@ true
 let
 win
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
