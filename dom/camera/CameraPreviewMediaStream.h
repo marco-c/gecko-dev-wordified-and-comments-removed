@@ -186,6 +186,7 @@ void
 Destroy
 (
 )
+MOZ_OVERRIDE
 ;
 void
 OnPreviewStateChange

@@ -41,13 +41,10 @@ public
 explicit
 FallbackCameraControl
 (
-uint32_t
-aCameraId
 )
 :
 CameraControlImpl
 (
-aCameraId
 )
 {
 }

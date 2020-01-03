@@ -551,6 +551,10 @@ lock
 mMutex
 )
 ;
+mMainThreadDestroyed
+=
+true
+;
 DestroyImpl
 (
 )
