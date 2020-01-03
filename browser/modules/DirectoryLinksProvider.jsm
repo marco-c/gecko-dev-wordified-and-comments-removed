@@ -8662,7 +8662,6 @@ resolve
 (
 )
 ;
-;
 }
 delete
 capObject
