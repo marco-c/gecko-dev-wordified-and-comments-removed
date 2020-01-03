@@ -203,7 +203,7 @@ WebGLContext
 context
 )
 :
-WebGLBindable
+WebGLBindableName
 <
 RBTarget
 >

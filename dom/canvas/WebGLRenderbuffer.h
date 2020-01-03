@@ -51,7 +51,7 @@ MOZ_FINAL
 public
 nsWrapperCache
 public
-WebGLBindable
+WebGLBindableName
 <
 RBTarget
 >
