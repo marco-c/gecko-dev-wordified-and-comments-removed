@@ -523,7 +523,7 @@ auto_com
 :
 need_uninit
 (
-true
+false
 )
 {
 HRESULT
@@ -555,10 +555,6 @@ STA
 "
 )
 ;
-need_uninit
-=
-false
-;
 }
 else
 if
@@ -580,6 +576,10 @@ MTA
 "
 )
 ;
+need_uninit
+=
+true
+;
 }
 else
 if
@@ -598,6 +598,10 @@ initialized
 .
 "
 )
+;
+need_uninit
+=
+true
 ;
 }
 }
