@@ -186,7 +186,7 @@ Default
 for
 stereo
 is
-equalpower
+HRTF
 attribute
 PanningModelType
 panningModel
