@@ -4672,15 +4672,6 @@ BlockedTrackingNodes
 )
 const
 ;
-static
-void
-ExitFullscreen
-(
-nsIDocument
-*
-aDoc
-)
-;
 bool
 FullscreenElementReadyCheck
 (

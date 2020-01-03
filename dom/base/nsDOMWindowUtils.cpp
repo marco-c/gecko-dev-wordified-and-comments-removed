@@ -14956,10 +14956,9 @@ doc
 nsIDocument
 :
 :
-ExitFullscreen
+ExitFullscreenInDocTree
 (
 doc
-false
 )
 ;
 return

@@ -5991,7 +5991,7 @@ FocusedWindowedPluginWhileFullScreen
 nsIDocument
 :
 :
-ExitFullscreen
+AsyncExitFullscreen
 (
 contentToFocus
 -
@@ -5999,7 +5999,6 @@ contentToFocus
 OwnerDoc
 (
 )
-true
 )
 ;
 }

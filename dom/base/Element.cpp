@@ -7659,12 +7659,11 @@ RemovedFullScreenElement
 nsIDocument
 :
 :
-ExitFullscreen
+ExitFullscreenInDocTree
 (
 OwnerDoc
 (
 )
-false
 )
 ;
 }

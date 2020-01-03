@@ -35057,10 +35057,9 @@ NS_KEY_UP
 nsIDocument
 :
 :
-ExitFullscreen
+AsyncExitFullscreen
 (
 nullptr
-true
 )
 ;
 }

@@ -26829,10 +26829,9 @@ else
 nsIDocument
 :
 :
-ExitFullscreen
+ExitFullscreenInDocTree
 (
 aDoc
-false
 )
 ;
 }
