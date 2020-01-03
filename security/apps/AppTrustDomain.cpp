@@ -1000,6 +1000,8 @@ const
 DERArray
 &
 certChain
+Time
+time
 )
 {
 SECStatus

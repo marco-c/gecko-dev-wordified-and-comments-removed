@@ -252,6 +252,7 @@ IsChainValid
 const
 DERArray
 &
+Time
 )
 {
 return

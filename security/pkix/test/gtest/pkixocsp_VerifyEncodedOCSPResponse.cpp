@@ -148,6 +148,7 @@ IsChainValid
 const
 DERArray
 &
+Time
 )
 {
 ADD_FAILURE

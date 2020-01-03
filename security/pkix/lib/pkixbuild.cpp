@@ -908,6 +908,7 @@ trustDomain
 IsChainValid
 (
 chain
+time
 )
 ;
 }

@@ -427,6 +427,8 @@ const
 DERArray
 &
 certChain
+Time
+time
 )
 =
 0
