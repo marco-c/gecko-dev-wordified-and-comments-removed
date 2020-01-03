@@ -244,12 +244,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 accept
 (
@@ -288,12 +293,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 dismiss
 (
@@ -332,12 +342,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 accept
 (
@@ -405,12 +420,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 dismiss
 (
@@ -478,12 +498,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 accept
 (
@@ -550,12 +575,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 dismiss
 (
@@ -606,12 +636,17 @@ NoAlertPresentException
 )
 :
             
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+            
+alert
 .
 text
         
@@ -641,16 +676,21 @@ wait_for_alert
 (
 )
         
+alert
+=
+self
+.
+marionette
+.
+switch_to_alert
+(
+)
+        
 self
 .
 assertEqual
 (
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 text
 '
@@ -659,12 +699,7 @@ alert
 '
 )
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 accept
 (
@@ -686,12 +721,17 @@ NoAlertPresentException
 )
 :
             
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+            
+alert
 .
 text
         
@@ -721,16 +761,21 @@ wait_for_alert
 (
 )
         
+alert
+=
+self
+.
+marionette
+.
+switch_to_alert
+(
+)
+        
 self
 .
 assertEqual
 (
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 text
 '
@@ -739,12 +784,7 @@ prompt
 '
 )
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 accept
 (
@@ -766,12 +806,17 @@ NoAlertPresentException
 )
 :
             
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+            
+alert
 .
 text
         
@@ -801,16 +846,21 @@ wait_for_alert
 (
 )
         
+alert
+=
+self
+.
+marionette
+.
+switch_to_alert
+(
+)
+        
 self
 .
 assertEqual
 (
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 text
 '
@@ -819,12 +869,7 @@ confirm
 '
 )
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 accept
 (
@@ -881,17 +926,22 @@ wait_for_alert
 (
 )
         
+alert
+=
+self
+.
+marionette
+.
+switch_to_alert
+(
+)
+        
 self
 .
 assertRaises
 (
 ElementNotVisibleException
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 send_keys
 "
@@ -899,12 +949,7 @@ Foo
 "
 )
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 accept
 (
@@ -943,12 +988,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 send_keys
 (
@@ -960,12 +1010,7 @@ text
 )
 ;
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 accept
 (
@@ -1035,12 +1080,17 @@ wait_for_alert
 (
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 send_keys
 (
@@ -1052,12 +1102,7 @@ text
 )
 ;
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 dismiss
 (
@@ -1180,22 +1225,23 @@ wait_for_alert
 (
 )
         
-alert_text
+alert
 =
-Alert
-(
 self
 .
 marionette
-)
 .
-text
+switch_to_alert
+(
+)
         
 self
 .
 assertTrue
 (
-alert_text
+alert
+.
+text
 .
 startswith
 (
@@ -1211,12 +1257,7 @@ confirm
 )
 )
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 dismiss
 (
@@ -1318,22 +1359,23 @@ wait_for_alert
 (
 )
         
-alert_text
+alert
 =
-Alert
-(
 self
 .
 marionette
-)
 .
-text
+switch_to_alert
+(
+)
         
 self
 .
 assertTrue
 (
-alert_text
+alert
+.
+text
 .
 startswith
 (
@@ -1349,12 +1391,7 @@ confirm
 )
 )
         
-Alert
-(
-self
-.
-marionette
-)
+alert
 .
 accept
 (
@@ -1524,12 +1561,17 @@ text
 '
 )
         
-Alert
-(
+alert
+=
 self
 .
 marionette
+.
+switch_to_alert
+(
 )
+        
+alert
 .
 accept
 (
