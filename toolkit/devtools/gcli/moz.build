@@ -162,6 +162,13 @@ js
 '
 commands
 /
+index
+.
+js
+'
+'
+commands
+/
 inject
 .
 js

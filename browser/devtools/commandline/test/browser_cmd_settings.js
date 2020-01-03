@@ -153,12 +153,10 @@ gcliInit
 require
 (
 "
-devtools
-/
-commandline
+gcli
 /
 commands
--
+/
 index
 "
 )

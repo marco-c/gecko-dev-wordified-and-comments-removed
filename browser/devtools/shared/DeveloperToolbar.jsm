@@ -354,12 +354,10 @@ return
 require
 (
 "
-devtools
-/
-commandline
+gcli
 /
 commands
--
+/
 index
 "
 )
