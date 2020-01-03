@@ -27983,6 +27983,16 @@ aEvent
 .
 hitCluster
 ;
+if
+(
+this
+.
+_inCluster
+)
+{
+return
+;
+}
 let
 uri
 =
@@ -28752,7 +28762,6 @@ break
 _clusterClicked
 :
 function
-sh_clusterClicked
 (
 aX
 aY
@@ -28770,7 +28779,7 @@ Gesture
 :
 clusteredLinksClicked
 "
-clicPosition
+clickPosition
 :
 {
 x

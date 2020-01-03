@@ -3395,6 +3395,9 @@ GAMEPAD_DATA
 LONG_PRESS
 =
 47
+ZOOMEDVIEW
+=
+48
 dummy_java_enum_list_end
 }
 ;
