@@ -194,6 +194,15 @@ TimelineMarker
 h
 "
 #
+include
+"
+timeline
+/
+TimelineConsumers
+.
+h
+"
+#
 define
 REFRESH_REDIRECT_TIMER
 15000
@@ -865,11 +874,6 @@ TimelineMarker
 &
 aMarker
 )
-;
-static
-unsigned
-long
-gProfileTimelineRecordingsCount
 ;
 class
 ObservedDocShell
