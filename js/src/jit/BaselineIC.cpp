@@ -48915,6 +48915,11 @@ js
 :
 :
 simd_int32x4_add
+&
+&
+JitSupportsSimd
+(
+)
 )
 {
 Rooted
