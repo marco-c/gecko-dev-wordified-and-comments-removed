@@ -3143,6 +3143,9 @@ SetValue
 (
 )
 ;
+if
+(
+!
 deletedMsgIds
 .
 AppendElements
@@ -3158,7 +3161,12 @@ deletedMessageIds
 (
 )
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 uint32_t
 threadIdLength
@@ -3198,6 +3206,9 @@ SetValue
 (
 )
 ;
+if
+(
+!
 deletedThreadIds
 .
 AppendElements
@@ -3213,7 +3224,12 @@ deletedThreadIds
 (
 )
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 nsRefPtr
 <
