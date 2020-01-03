@@ -2153,8 +2153,12 @@ obj
 )
 {
 return
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectValue
 (
+*
 obj
 )
 ;

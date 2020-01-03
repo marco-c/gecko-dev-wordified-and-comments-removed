@@ -420,11 +420,12 @@ parent
 )
 )
 ;
-*
 vp
-=
-OBJECT_TO_JSVAL
+-
+>
+setObject
 (
+*
 funobj
 )
 ;

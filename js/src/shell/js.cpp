@@ -5131,8 +5131,9 @@ SetReservedSlot
 (
 cache
 CacheEntry_BYTECODE
-OBJECT_TO_JSVAL
+ObjectValue
 (
+*
 arrayBuffer
 )
 )

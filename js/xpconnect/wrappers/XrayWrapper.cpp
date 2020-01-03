@@ -5107,7 +5107,7 @@ JS_SetReservedSlot
 (
 expandoObject
 JSSLOT_EXPANDO_EXCLUSIVE_GLOBAL
-OBJECT_TO_JSVAL
+ObjectOrNullValue
 (
 exclusiveGlobal
 )
@@ -5137,7 +5137,7 @@ JS_SetReservedSlot
 (
 expandoObject
 JSSLOT_EXPANDO_NEXT
-OBJECT_TO_JSVAL
+ObjectOrNullValue
 (
 chain
 )

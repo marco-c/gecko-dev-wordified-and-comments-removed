@@ -8740,9 +8740,10 @@ NS_ERROR_OUT_OF_MEMORY
 }
 }
 v
-=
-OBJECT_TO_JSVAL
+.
+setObject
 (
+*
 dot_prototype
 )
 ;
