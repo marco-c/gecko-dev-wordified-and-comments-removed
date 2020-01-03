@@ -34575,7 +34575,6 @@ AC_CHECK_FUNCS
 (
 setlocale
 localeconv
-malloc_size
 malloc_usable_size
 )
 AC_SUBST
