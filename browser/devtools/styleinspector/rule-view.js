@@ -724,6 +724,13 @@ showUserAgentStyles
 =
 aShowUserAgentStyles
 ;
+this
+.
+rules
+=
+[
+]
+;
 if
 (
 !
