@@ -186,6 +186,8 @@ virtual
 nsSecureBrowserUIImpl
 (
 )
+{
+}
 ;
 mozilla
 :
@@ -374,7 +376,7 @@ nsISupports
 >
 mCurrentToplevelSecurityInfo
 ;
-PLDHashTable
+PLDHashTable2
 mTransferringRequests
 ;
 }
