@@ -501,6 +501,13 @@ style
 -
 >
 mClipPath
+.
+GetType
+(
+)
+!
+=
+NS_STYLE_CLIP_PATH_NONE
 |
 |
 style

@@ -2090,6 +2090,13 @@ kBoxPackKTable
 static
 const
 KTableValue
+kClipShapeSizingKTable
+[
+]
+;
+static
+const
+KTableValue
 kDominantBaselineKTable
 [
 ]
