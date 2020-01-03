@@ -3398,6 +3398,11 @@ BluetoothGattDescriptor
 webidl
 '
 '
+BluetoothGattServer
+.
+webidl
+'
+'
 BluetoothGattService
 .
 webidl
