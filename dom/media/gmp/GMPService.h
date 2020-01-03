@@ -530,12 +530,17 @@ GMPParent
 >
 mAsyncShutdownPlugins
 ;
+#
+ifndef
+MOZ_WIDGET_GONK
 nsCOMPtr
 <
 nsIFile
 >
 mStorageBaseDir
 ;
+#
+endif
 nsClassHashtable
 <
 nsUint32HashKey
