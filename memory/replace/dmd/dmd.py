@@ -41,7 +41,7 @@ import
 tempfile
 outputVersion
 =
-1
+2
 allocatorFns
 =
 [
@@ -1023,50 +1023,6 @@ add_argument
 (
 '
 -
-r
-'
-'
--
--
-ignore
--
-reports
-'
-action
-=
-'
-store_true
-'
-                   
-help
-=
-'
-ignore
-memory
-reports
-data
-;
-useful
-if
-you
-just
-'
-+
-                        
-'
-want
-basic
-heap
-profiling
-'
-)
-    
-p
-.
-add_argument
-(
-'
--
 s
 '
 '
@@ -1615,6 +1571,15 @@ dmdEnvVar
 '
 ]
     
+mode
+=
+invocation
+[
+'
+mode
+'
+]
+    
 sampleBelowSize
 =
 invocation
@@ -1650,6 +1615,46 @@ j
 frameTable
 '
 ]
+    
+if
+not
+mode
+in
+[
+'
+live
+'
+'
+dark
+-
+matter
+'
+]
+:
+        
+raise
+Exception
+(
+"
+bad
+'
+mode
+'
+property
+:
+'
+{
+:
+s
+}
+'
+"
+.
+format
+(
+mode
+)
+)
     
 heapIsSampled
 =
@@ -1922,9 +1927,12 @@ return
 desc
     
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
         
 liveRecords
@@ -1936,7 +1944,15 @@ defaultdict
 Record
 )
     
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
         
 unreportedRecords
@@ -2017,9 +2033,12 @@ alloc
 ]
         
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
             
 recordKey
@@ -2033,7 +2052,15 @@ records
 =
 liveRecords
         
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
             
 recordKey
@@ -2258,14 +2285,25 @@ allocatedAtTraceKey
 )
         
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
             
 pass
         
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
             
 if
@@ -2336,6 +2374,15 @@ dmdEnvVar
 digest
 [
 '
+mode
+'
+]
+=
+mode
+    
+digest
+[
+'
 sampleBelowSize
 '
 ]
@@ -2370,9 +2417,12 @@ heapIsSampled
 heapIsSampled
     
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
         
 digest
@@ -2384,7 +2434,15 @@ liveRecords
 =
 liveRecords
     
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
         
 digest
@@ -2529,6 +2587,41 @@ d2
 )
 :
     
+if
+(
+d1
+[
+'
+mode
+'
+]
+!
+=
+d2
+[
+'
+mode
+'
+]
+)
+:
+        
+raise
+Exception
+(
+"
+the
+input
+files
+have
+different
+'
+mode
+'
+properties
+"
+)
+    
 d3
 =
 {
@@ -2555,6 +2648,20 @@ dmdEnvVar
 '
 ]
 )
+    
+d3
+[
+'
+mode
+'
+]
+=
+d1
+[
+'
+mode
+'
+]
     
 d3
 [
@@ -2642,9 +2749,17 @@ heapIsSampled
 ]
     
 if
-args
-.
-ignore_reports
+d1
+[
+'
+mode
+'
+]
+=
+=
+'
+live
+'
 :
         
 d3
@@ -2672,7 +2787,20 @@ liveRecords
 ]
 )
     
-else
+elif
+d1
+[
+'
+mode
+'
+]
+=
+=
+'
+dark
+-
+matter
+'
 :
         
 d3
@@ -2769,6 +2897,15 @@ dmdEnvVar
 '
 ]
     
+mode
+=
+digest
+[
+'
+mode
+'
+]
+    
 sampleBelowSize
 =
 digest
@@ -2806,9 +2943,12 @@ heapBlocks
 ]
     
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
         
 liveRecords
@@ -2820,7 +2960,15 @@ liveRecords
 '
 ]
     
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
         
 unreportedRecords
@@ -3553,14 +3701,25 @@ heapUsableSize
 )
             
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
                 
 pass
             
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
                 
 out
@@ -3634,14 +3793,25 @@ out
 )
             
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
                 
 pass
             
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
                 
 for
@@ -3873,9 +4043,12 @@ sampleBelowSize
 )
     
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
         
 liveUsableSize
@@ -3892,7 +4065,15 @@ liveRecords
 heapUsableSize
 )
     
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
         
 twiceReportedUsableSize
@@ -3955,9 +4136,12 @@ Summary
 )
     
 if
-args
-.
-ignore_reports
+mode
+=
+=
+'
+live
+'
 :
         
 out
@@ -3993,7 +4177,15 @@ heapIsSampled
 )
 )
     
-else
+elif
+mode
+=
+=
+'
+dark
+-
+matter
+'
 :
         
 fmt

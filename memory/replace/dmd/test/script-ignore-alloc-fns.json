@@ -3,7 +3,7 @@
 version
 "
 :
-1
+2
 "
 invocation
 "
@@ -15,6 +15,13 @@ dmdEnvVar
 :
 "
 1
+"
+"
+mode
+"
+:
+"
+live
 "
 "
 sampleBelowSize
