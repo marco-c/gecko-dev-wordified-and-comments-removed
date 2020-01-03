@@ -1,9 +1,9 @@
 #
 ifndef
-WEBGL2SAMPLER_H_
+WEBGLSAMPLER_H_
 #
 define
-WEBGL2SAMPLER_H_
+WEBGLSAMPLER_H_
 #
 include
 "
@@ -73,6 +73,8 @@ WebGLSampler
 WebGLContext
 *
 aContext
+GLuint
+sampler
 )
 ;
 void
@@ -98,6 +100,8 @@ cx
 )
 MOZ_OVERRIDE
 ;
+private
+:
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 WebGLSampler

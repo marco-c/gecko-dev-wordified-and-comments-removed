@@ -361,6 +361,11 @@ WebGLContextState
 cpp
 '
 '
+WebGLContextUnchecked
+.
+cpp
+'
+'
 WebGLContextUtils
 .
 cpp
