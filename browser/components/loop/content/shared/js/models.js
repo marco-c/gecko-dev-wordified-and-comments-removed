@@ -61,9 +61,6 @@ undefined
 loopToken
 :
 undefined
-loopCallId
-:
-undefined
 sessionId
 :
 undefined
