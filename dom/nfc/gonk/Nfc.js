@@ -1414,10 +1414,10 @@ sessionToken
 )
 ;
 }
-onRFStateChange
+onRFStateChanged
 :
 function
-onRFStateChange
+onRFStateChanged
 (
 rfState
 )
@@ -1447,7 +1447,7 @@ event
 :
 NFC
 .
-RF_EVENT_STATE_CHANGE
+RF_EVENT_STATE_CHANGED
 rfState
 :
 rfState
@@ -2788,7 +2788,7 @@ rfState
 ;
 gMessageManager
 .
-onRFStateChange
+onRFStateChanged
 (
 this
 .

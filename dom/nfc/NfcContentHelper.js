@@ -1894,7 +1894,7 @@ break
 case
 NFC
 .
-RF_EVENT_STATE_CHANGE
+RF_EVENT_STATE_CHANGED
 :
 this
 .
@@ -1908,7 +1908,7 @@ this
 .
 eventListener
 .
-notifyRFStateChange
+notifyRFStateChanged
 (
 this
 .
