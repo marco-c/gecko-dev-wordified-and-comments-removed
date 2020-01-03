@@ -24428,12 +24428,8 @@ UnboxedPlainObject
 )
 ;
 return
-compartment
-(
-)
--
->
-unsafeUnbarrieredMaybeGlobal
+&
+global
 (
 )
 ;
