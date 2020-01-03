@@ -1190,8 +1190,10 @@ MessageManagerCallback
 >
 mOwnedCallback
 ;
+nsRefPtr
+<
 nsFrameMessageManager
-*
+>
 mParentManager
 ;
 nsTArray
