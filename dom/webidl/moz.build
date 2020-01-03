@@ -2555,6 +2555,11 @@ URLUtilsReadOnly
 webidl
 '
 '
+USSDSession
+.
+webidl
+'
+'
 ValidityState
 .
 webidl
