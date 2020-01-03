@@ -437,6 +437,13 @@ aA
 )
 ;
 void
+DrainDecoder
+(
+TrackType
+aTrack
+)
+;
+void
 NotifyNewOutput
 (
 TrackType
@@ -756,10 +763,6 @@ mDemuxEOS
 (
 false
 )
-mDemuxEOSServiced
-(
-false
-)
 mWaitingForData
 (
 false
@@ -781,6 +784,10 @@ mInputExhausted
 false
 )
 mError
+(
+false
+)
+mNeedDraining
 (
 false
 )
@@ -851,9 +858,6 @@ mUpdateScheduled
 ;
 bool
 mDemuxEOS
-;
-bool
-mDemuxEOSServiced
 ;
 bool
 mWaitingForData
@@ -929,6 +933,9 @@ mInputExhausted
 ;
 bool
 mError
+;
+bool
+mNeedDraining
 ;
 bool
 mDrainComplete
@@ -1024,10 +1031,6 @@ mDemuxEOS
 =
 false
 ;
-mDemuxEOSServiced
-=
-false
-;
 mWaitingForData
 =
 false
@@ -1051,6 +1054,10 @@ mOutputRequested
 false
 ;
 mInputExhausted
+=
+false
+;
+mNeedDraining
 =
 false
 ;
