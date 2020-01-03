@@ -15,9 +15,7 @@ require
 "
 devtools
 /
-shared
-/
-timeline
+performance
 /
 global
 "

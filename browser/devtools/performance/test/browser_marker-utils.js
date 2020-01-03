@@ -15,9 +15,7 @@ require
 "
 devtools
 /
-shared
-/
-timeline
+performance
 /
 global
 "
@@ -33,9 +31,7 @@ require
 "
 devtools
 /
-shared
-/
-timeline
+performance
 /
 marker
 -

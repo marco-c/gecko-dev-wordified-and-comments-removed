@@ -10,9 +10,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 tree
 -

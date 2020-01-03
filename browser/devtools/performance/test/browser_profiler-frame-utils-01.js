@@ -417,9 +417,7 @@ require
 "
 devtools
 /
-shared
-/
-profiler
+performance
 /
 frame
 -
