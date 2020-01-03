@@ -216,6 +216,14 @@ JS_PUBLIC_API
 (
 bool
 )
+failCantDelete
+(
+)
+;
+JS_PUBLIC_API
+(
+bool
+)
 failCantSetInterposed
 (
 )
@@ -224,7 +232,7 @@ JS_PUBLIC_API
 (
 bool
 )
-failCantDelete
+failCantDefineWindowElement
 (
 )
 ;
