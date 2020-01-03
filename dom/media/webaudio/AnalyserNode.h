@@ -302,13 +302,13 @@ mSmoothingTimeConstant
 uint32_t
 mWriteIndex
 ;
-AlignedFallibleTArray
+AlignedTArray
 <
 float
 >
 mBuffer
 ;
-AlignedFallibleTArray
+AlignedTArray
 <
 float
 >
