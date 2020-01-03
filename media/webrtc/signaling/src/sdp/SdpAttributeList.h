@@ -280,6 +280,17 @@ const
 ;
 virtual
 const
+SdpSimulcastAttribute
+&
+GetSimulcast
+(
+)
+const
+=
+0
+;
+virtual
+const
 SdpMsidAttributeList
 &
 GetMsid
