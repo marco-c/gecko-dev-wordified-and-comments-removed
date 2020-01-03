@@ -25,10 +25,10 @@ protected
 :
 struct
 Entry
-{
+:
+public
 PLDHashEntryHdr
-mHdr
-;
+{
 nsIContent
 *
 mContent
@@ -128,7 +128,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -226,7 +226,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -244,11 +244,7 @@ if
 (
 PL_DHASH_ENTRY_IS_BUSY
 (
-&
 entry
--
->
-mHdr
 )
 )
 NS_IF_ADDREF

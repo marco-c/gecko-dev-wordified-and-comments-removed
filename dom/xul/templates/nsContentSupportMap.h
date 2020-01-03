@@ -88,7 +88,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -181,7 +181,7 @@ Entry
 *
 entry
 =
-reinterpret_cast
+static_cast
 <
 Entry
 *
@@ -241,10 +241,10 @@ Finish
 ;
 struct
 Entry
-{
+:
+public
 PLDHashEntryHdr
-mHdr
-;
+{
 nsIContent
 *
 mContent
