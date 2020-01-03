@@ -274,15 +274,6 @@ dimen
 /
 tab_thumbnail_height
 "
-android
-:
-src
-=
-"
-drawable
-/
-tab_thumbnail_default
-"
 /
 >
 <

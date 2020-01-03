@@ -843,6 +843,7 @@ mThumbnailView
 setImageBitmap
 (
 thumbnail
+true
 )
 ;
 mThumbnailView
@@ -1017,6 +1018,7 @@ mThumbnailView
 setImageBitmap
 (
 favicon
+false
 )
 ;
 if
