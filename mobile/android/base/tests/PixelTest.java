@@ -59,7 +59,7 @@ expectPaint
 (
 )
 ;
-inputAndLoadUrl
+loadUrl
 (
 url
 )

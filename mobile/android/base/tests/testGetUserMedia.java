@@ -317,7 +317,7 @@ com
 "
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 GUM_CAMERA_URL
 )
@@ -407,7 +407,7 @@ verifyUrlBarTitle
 GUM_CAMERA_URL
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 GUM_TAB_HTTPS_URL
 )
@@ -717,7 +717,7 @@ ICE_CREAM_SANDWICH
 return
 ;
 }
-inputAndLoadUrl
+loadUrlAndWait
 (
 GUM_TAB_HTTPS_URL
 )
@@ -842,7 +842,7 @@ verifyUrlBarTitle
 GUM_TAB_HTTPS_URL
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 GUM_TAB_HTTPS_URL
 )

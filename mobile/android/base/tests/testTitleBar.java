@@ -83,7 +83,7 @@ StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
-inputAndLoadUrl
+loadUrl
 (
 blank1
 )
@@ -100,7 +100,7 @@ StringHelper
 SHOW_PAGE_TITLE_LABEL
 )
 ;
-inputAndLoadUrl
+loadUrl
 (
 blank1
 )
@@ -117,7 +117,7 @@ StringHelper
 SHOW_PAGE_ADDRESS_LABEL
 )
 ;
-inputAndLoadUrl
+loadUrl
 (
 blank1
 )

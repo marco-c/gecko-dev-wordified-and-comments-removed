@@ -120,7 +120,7 @@ blockForGeckoReady
 (
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 GEO_URL
 )
@@ -206,7 +206,7 @@ share
 "
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 GEO_URL
 )
@@ -497,7 +497,7 @@ toString
 )
 ;
 }
-inputAndLoadUrl
+loadUrlAndWait
 (
 OFFLINE_STORAGE_URL
 )
@@ -562,7 +562,7 @@ storage
 "
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 OFFLINE_STORAGE_URL
 )
@@ -616,7 +616,7 @@ storage
 "
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 OFFLINE_STORAGE_URL
 )
@@ -723,7 +723,7 @@ toString
 )
 ;
 }
-inputAndLoadUrl
+loadUrlAndWait
 (
 LOGIN_URL
 )
@@ -777,7 +777,7 @@ password
 "
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 LOGIN_URL
 )
@@ -928,7 +928,7 @@ toString
 )
 ;
 }
-inputAndLoadUrl
+loadUrlAndWait
 (
 POPUP_URL
 )
@@ -1121,7 +1121,7 @@ unregisterListener
 (
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 POPUP_URL
 )

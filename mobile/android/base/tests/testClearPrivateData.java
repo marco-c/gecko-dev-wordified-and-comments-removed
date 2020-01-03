@@ -114,7 +114,7 @@ StringHelper
 .
 ROBOCOP_BLANK_PAGE_01_TITLE
 ;
-inputAndLoadUrl
+loadUrl
 (
 blank1
 )
@@ -574,7 +574,7 @@ String
 message
 )
 {
-inputAndLoadUrl
+loadUrlAndWait
 (
 url
 )
