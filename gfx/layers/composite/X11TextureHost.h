@@ -139,11 +139,7 @@ GetAsSurface
 (
 )
 override
-{
-return
-nullptr
 ;
-}
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
