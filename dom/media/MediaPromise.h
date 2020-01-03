@@ -997,6 +997,7 @@ void
 AssertOnDispatchThread
 (
 )
+MOZ_OVERRIDE
 {
 detail
 :
