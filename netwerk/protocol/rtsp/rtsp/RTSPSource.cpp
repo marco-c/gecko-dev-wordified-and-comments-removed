@@ -1112,6 +1112,12 @@ duration
 ;
 MOZ_ASSERT
 (
+duration
+=
+=
+0
+|
+|
 playTimeUs
 <
 duration
@@ -1131,6 +1137,11 @@ time
 ;
 if
 (
+duration
+>
+0
+&
+&
 playTimeUs
 >
 =
