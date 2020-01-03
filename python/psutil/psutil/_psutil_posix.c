@@ -38,7 +38,7 @@ h
 static
 PyObject
 *
-posix_getpriority
+psutil_posix_getpriority
 (
 PyObject
 *
@@ -112,7 +112,7 @@ priority
 static
 PyObject
 *
-posix_setpriority
+psutil_posix_setpriority
 (
 PyObject
 *
@@ -196,7 +196,7 @@ PsutilMethods
 "
 getpriority
 "
-posix_getpriority
+psutil_posix_getpriority
 METH_VARARGS
 "
 Return
@@ -208,7 +208,7 @@ priority
 "
 setpriority
 "
-posix_setpriority
+psutil_posix_setpriority
 METH_VARARGS
 "
 Set
@@ -357,8 +357,7 @@ define
 INITERROR
 return
 NULL
-PyObject
-*
+PyMODINIT_FUNC
 PyInit__psutil_posix
 (
 void
