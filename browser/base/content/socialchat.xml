@@ -1210,9 +1210,7 @@ this
 .
 content
 .
-docShell
-.
-isActive
+docShellIsActive
 ;
 <
 /
@@ -1225,9 +1223,7 @@ this
 .
 content
 .
-docShell
-.
-isActive
+docShellIsActive
 =
 !
 !
