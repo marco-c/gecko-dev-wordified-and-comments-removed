@@ -122,13 +122,6 @@ h
 #
 include
 "
-nsIDOMUserDataHandler
-.
-h
-"
-#
-include
-"
 nsChangeHint
 .
 h

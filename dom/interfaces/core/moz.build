@@ -178,11 +178,6 @@ nsIDOMText
 idl
 '
 '
-nsIDOMUserDataHandler
-.
-idl
-'
-'
 nsIDOMXMLDocument
 .
 idl

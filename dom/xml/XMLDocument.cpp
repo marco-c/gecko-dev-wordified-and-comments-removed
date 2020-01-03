@@ -263,13 +263,6 @@ h
 #
 include
 "
-nsIDOMUserDataHandler
-.
-h
-"
-#
-include
-"
 nsNodeUtils
 .
 h

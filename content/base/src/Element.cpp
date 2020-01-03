@@ -580,13 +580,6 @@ h
 #
 include
 "
-nsIDOMUserDataHandler
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h

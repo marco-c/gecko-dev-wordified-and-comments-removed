@@ -776,13 +776,6 @@ h
 #
 include
 "
-nsIDOMUserDataHandler
-.
-h
-"
-#
-include
-"
 nsIDOMXULCommandEvent
 .
 h

@@ -152,9 +152,6 @@ interface
 URI
 ;
 interface
-UserDataHandler
-;
-interface
 Node
 :
 EventTarget
@@ -647,9 +644,6 @@ DOMString
 key
 any
 data
-UserDataHandler
-?
-handler
 )
 ;
 [

@@ -171,9 +171,6 @@ class
 nsIDOMNodeList
 ;
 class
-nsIDOMUserDataHandler
-;
-class
 nsIEditor
 ;
 class
@@ -650,12 +647,8 @@ DOM_USER_DATA
 1
 #
 define
-DOM_USER_DATA_HANDLER
-2
-#
-define
 SMIL_MAPPED_ATTR_ANIMVAL
-3
+2
 #
 define
 NS_INODE_IID
@@ -2665,9 +2658,6 @@ aKey
 nsIVariant
 *
 aData
-nsIDOMUserDataHandler
-*
-aHandler
 nsIVariant
 *
 *
@@ -5004,9 +4994,6 @@ JS
 Value
 >
 aData
-nsIDOMUserDataHandler
-*
-aHandler
 JS
 :
 :
@@ -6799,9 +6786,6 @@ aKey
 nsIVariant
 *
 aData
-nsIDOMUserDataHandler
-*
-aHandler
 nsIVariant
 *
 *
@@ -6819,7 +6803,6 @@ SetUserData
 (
 aKey
 aData
-aHandler
 aResult
 )
 ;
