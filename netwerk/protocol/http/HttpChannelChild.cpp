@@ -8166,6 +8166,11 @@ ResetInterception
 (
 )
 {
+if
+(
+mInterceptListener
+)
+{
 mInterceptListener
 -
 >
@@ -8173,6 +8178,7 @@ Cleanup
 (
 )
 ;
+}
 mInterceptListener
 =
 nullptr
