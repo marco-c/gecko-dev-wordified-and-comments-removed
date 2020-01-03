@@ -2731,15 +2731,13 @@ attributeName
 aAnimElem
 -
 >
-Tag
+IsSVGElement
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 animateTransform
+)
 )
 )
 return
