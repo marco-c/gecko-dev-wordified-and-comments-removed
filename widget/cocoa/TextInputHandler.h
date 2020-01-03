@@ -2043,6 +2043,10 @@ IMEInputHandler
 *
 sFocusedIMEHandler
 ;
+static
+bool
+sCachedIsForRTLLangage
+;
 }
 ;
 class

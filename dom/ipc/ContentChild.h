@@ -1403,6 +1403,17 @@ override
 ;
 virtual
 bool
+RecvBidiKeyboardNotify
+(
+const
+bool
+&
+isLangRTL
+)
+override
+;
+virtual
+bool
 RecvNotifyVisited
 (
 const
