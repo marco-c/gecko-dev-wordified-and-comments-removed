@@ -3172,6 +3172,13 @@ startBufferGen
 ;
 if
 (
+!
+aSample
+-
+>
+isSamplingCurrentThread
+&
+&
 pseudoStack
 -
 >
