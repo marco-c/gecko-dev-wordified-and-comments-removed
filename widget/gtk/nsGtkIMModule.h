@@ -201,6 +201,7 @@ mRefCnt
 ;
 public
 :
+explicit
 nsGtkIMModule
 (
 nsWindow
