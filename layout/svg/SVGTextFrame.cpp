@@ -14637,7 +14637,6 @@ y
 dx
 &
 dy
-nullptr
 )
 ;
 const
