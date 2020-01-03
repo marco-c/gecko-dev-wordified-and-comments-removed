@@ -463,7 +463,7 @@ if
 mIsUsingFormatReader
 &
 &
-mGenerateTimestamp
+mGenerateTimestamps
 &
 &
 aMode
@@ -1883,14 +1883,14 @@ aac
 )
 )
 {
-mGenerateTimestamp
+mGenerateTimestamps
 =
 true
 ;
 }
 else
 {
-mGenerateTimestamp
+mGenerateTimestamps
 =
 false
 ;
@@ -1919,7 +1919,7 @@ dummy
 ;
 if
 (
-mGenerateTimestamp
+mGenerateTimestamps
 )
 {
 SetMode
