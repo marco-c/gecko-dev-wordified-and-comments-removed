@@ -6566,6 +6566,11 @@ details
 AppManager
 .
 selectedProject
+&
+&
+AppManager
+.
+selectedProject
 .
 type
 !
