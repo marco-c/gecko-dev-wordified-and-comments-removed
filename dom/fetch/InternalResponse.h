@@ -595,6 +595,15 @@ PrincipalInfo
 aPrincipalInfo
 )
 ;
+nsresult
+StripFragmentAndSetUrl
+(
+const
+nsACString
+&
+aUrl
+)
+;
 private
 :
 ~
