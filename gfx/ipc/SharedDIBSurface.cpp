@@ -214,7 +214,7 @@ gfxImageSurface
 InitWithData
 (
 data
-gfxIntSize
+IntSize
 (
 aWidth
 aHeight
