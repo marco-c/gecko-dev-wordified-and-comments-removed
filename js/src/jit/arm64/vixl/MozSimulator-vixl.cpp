@@ -822,7 +822,8 @@ Simulator
 :
 set_resume_pc
 (
-void
+const
+Instruction
 *
 new_resume_pc
 )
@@ -831,14 +832,7 @@ resume_pc_
 =
 AddressUntag
 (
-reinterpret_cast
-<
-Instruction
-*
->
-(
 new_resume_pc
-)
 )
 ;
 }

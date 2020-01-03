@@ -3011,10 +3011,6 @@ CodeLocationJump
 jump_
 CodeLocationLabel
 label
-ReprotectCode
-reprotect
-=
-DontReprotect
 )
 ;
 static

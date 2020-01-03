@@ -972,11 +972,7 @@ reg
 return
 Operand
 (
-masm
-.
-getStackPointer
-(
-)
+StackPointer
 ToStackOffset
 (
 &

@@ -1664,8 +1664,6 @@ CodeLocationJump
 jump_
 CodeLocationLabel
 label
-ReprotectCode
-reprotect
 )
 {
 MOZ_CRASH
