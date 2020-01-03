@@ -757,7 +757,7 @@ iter
 =
 mObjects
 .
-RemovingIter
+Iter
 (
 )
 ;

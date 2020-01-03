@@ -3470,7 +3470,7 @@ self
 mNativeScriptableSharedMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
@@ -3569,7 +3569,7 @@ self
 mClassInfo2NativeSetMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
@@ -3638,7 +3638,7 @@ self
 mNativeSetMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
@@ -3735,7 +3735,7 @@ self
 mIID2NativeInterfaceMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
@@ -3932,7 +3932,7 @@ self
 mDyingWrappedNativeProtoMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
@@ -19008,7 +19008,7 @@ i
 mNativeSetMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;

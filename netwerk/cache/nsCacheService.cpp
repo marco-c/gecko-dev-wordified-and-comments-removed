@@ -12892,7 +12892,7 @@ iter
 =
 mActiveEntries
 .
-RemovingIter
+Iter
 (
 )
 ;

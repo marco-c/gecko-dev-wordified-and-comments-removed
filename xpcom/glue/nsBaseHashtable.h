@@ -465,7 +465,7 @@ this
 >
 mTable
 .
-Iter
+ConstIter
 (
 )
 ;
@@ -588,7 +588,7 @@ this
 >
 mTable
 .
-RemovingIter
+Iter
 (
 )
 ;

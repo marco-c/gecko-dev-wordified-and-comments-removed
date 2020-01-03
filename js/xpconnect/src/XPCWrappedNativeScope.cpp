@@ -3312,7 +3312,7 @@ cur
 mWrappedNativeProtoMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
@@ -3377,7 +3377,7 @@ cur
 mWrappedNativeMap
 -
 >
-RemovingIter
+Iter
 (
 )
 ;

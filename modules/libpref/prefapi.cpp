@@ -2527,7 +2527,7 @@ iter
 gHashTable
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
@@ -2761,7 +2761,7 @@ iter
 gHashTable
 -
 >
-RemovingIter
+Iter
 (
 )
 ;
