@@ -940,6 +940,14 @@ open
 )
 ;
 }
+localPreview
+=
+ViERenderer
+.
+GetLocalRenderer
+(
+)
+;
 if
 (
 localPreview
