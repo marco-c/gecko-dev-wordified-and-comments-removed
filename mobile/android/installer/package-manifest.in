@@ -640,7 +640,7 @@ components
 commandlines
 .
 xpt
-RESPATH
+BINPATH
 /
 components
 /
