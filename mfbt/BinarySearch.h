@@ -162,6 +162,7 @@ BinarySearchDefaultComparator
 {
 public
 :
+explicit
 BinarySearchDefaultComparator
 (
 const
