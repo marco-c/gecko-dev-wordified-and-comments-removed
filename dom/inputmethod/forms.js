@@ -667,7 +667,7 @@ addEventListener
 submit
 "
 this
-true
+false
 false
 )
 ;
@@ -1659,6 +1659,12 @@ if
 this
 .
 focusedElement
+&
+&
+!
+evt
+.
+defaultPrevented
 )
 {
 this
