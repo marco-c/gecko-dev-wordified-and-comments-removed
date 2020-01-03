@@ -1245,7 +1245,6 @@ pname
 case
 LOCAL_GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING
 :
-{
 return
 WebGLObjectAsJSValue
 (
@@ -1266,11 +1265,9 @@ get
 rv
 )
 ;
-}
 case
 LOCAL_GL_VERTEX_ATTRIB_ARRAY_STRIDE
 :
-{
 return
 JS
 :
@@ -1288,11 +1285,9 @@ index
 stride
 )
 ;
-}
 case
 LOCAL_GL_VERTEX_ATTRIB_ARRAY_SIZE
 :
-{
 if
 (
 !
@@ -1332,11 +1327,9 @@ index
 size
 )
 ;
-}
 case
 LOCAL_GL_VERTEX_ATTRIB_ARRAY_TYPE
 :
-{
 if
 (
 !
@@ -1382,11 +1375,9 @@ type
 )
 )
 ;
-}
 case
 LOCAL_GL_VERTEX_ATTRIB_ARRAY_DIVISOR
 :
-{
 if
 (
 IsExtensionEnabled
@@ -1397,7 +1388,6 @@ WebGLExtensionID
 ANGLE_instanced_arrays
 )
 )
-{
 return
 JS
 :
@@ -1415,10 +1405,8 @@ index
 divisor
 )
 ;
-}
 break
 ;
-}
 case
 LOCAL_GL_CURRENT_VERTEX_ATTRIB
 :
@@ -1544,7 +1532,6 @@ obj
 case
 LOCAL_GL_VERTEX_ATTRIB_ARRAY_ENABLED
 :
-{
 return
 JS
 :
@@ -1562,11 +1549,9 @@ index
 enabled
 )
 ;
-}
 case
 LOCAL_GL_VERTEX_ATTRIB_ARRAY_NORMALIZED
 :
-{
 return
 JS
 :
@@ -1584,7 +1569,6 @@ index
 normalized
 )
 ;
-}
 default
 :
 break
