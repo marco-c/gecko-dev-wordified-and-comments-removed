@@ -341,6 +341,17 @@ aContext
 )
 ;
 void
+Invalidate
+(
+)
+;
+bool
+IsValid
+(
+)
+const
+;
+void
 AddRefCacheId
 (
 CacheId
@@ -859,6 +870,9 @@ mStreamLists
 ;
 bool
 mShuttingDown
+;
+bool
+mValid
 ;
 struct
 CacheIdRefCounter
