@@ -161,7 +161,6 @@ huh
 ?
 "
 ;
-static
 unsigned
 int
 _gdb_sleep_duration
