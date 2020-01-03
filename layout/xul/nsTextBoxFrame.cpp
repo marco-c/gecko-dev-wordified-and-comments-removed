@@ -2863,6 +2863,17 @@ HasRTLChars
 (
 mTitle
 )
+|
+|
+StyleVisibility
+(
+)
+-
+>
+mDirection
+=
+=
+NS_STYLE_DIRECTION_RTL
 )
 {
 mState
