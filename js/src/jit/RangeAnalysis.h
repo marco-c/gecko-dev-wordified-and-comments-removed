@@ -300,6 +300,11 @@ shouldRemoveDeadCode
 )
 ;
 bool
+tryRemovingGuards
+(
+)
+;
+bool
 truncate
 (
 )
