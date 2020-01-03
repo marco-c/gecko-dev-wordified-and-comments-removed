@@ -363,6 +363,16 @@ then
 {
 this
 .
+panelWin
+.
+gFront
+.
+destroy
+(
+)
+;
+this
+.
 emit
 (
 "
