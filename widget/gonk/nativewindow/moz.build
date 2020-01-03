@@ -241,6 +241,13 @@ h
 '
 GonkBufferQueueLL
 /
+GonkBufferQueueProducer
+.
+h
+'
+'
+GonkBufferQueueLL
+/
 GonkBufferSlot
 .
 h

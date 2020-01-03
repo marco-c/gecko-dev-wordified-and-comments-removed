@@ -247,6 +247,14 @@ uint32_t
 usage
 )
 ;
+virtual
+status_t
+setSynchronousMode
+(
+bool
+enabled
+)
+;
 private
 :
 virtual
@@ -295,6 +303,9 @@ mSlots
 ;
 String8
 mConsumerName
+;
+bool
+mSynchronousMode
 ;
 uint32_t
 mStickyTransform
