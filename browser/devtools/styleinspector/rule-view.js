@@ -4327,6 +4327,7 @@ _outputParser
 new
 OutputParser
 (
+document
 )
 ;
 this
