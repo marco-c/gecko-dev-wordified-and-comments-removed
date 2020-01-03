@@ -844,6 +844,7 @@ void
 *
 aClosure
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -915,6 +916,7 @@ void
 *
 aPtr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -926,6 +928,7 @@ void
 *
 aPtr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -944,6 +947,7 @@ void
 *
 aClosure
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -2283,6 +2287,8 @@ nsCycleCollectionTraversalCallback
 &
 cb
 )
+\
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2295,6 +2301,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -2413,6 +2420,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -2593,6 +2601,7 @@ p
 bool
 aRemovingAllowed
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2605,6 +2614,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2617,6 +2627,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -2690,6 +2701,8 @@ void
 *
 closure
 )
+\
+MOZ_OVERRIDE
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -2770,6 +2783,7 @@ void
 *
 closure
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2784,6 +2798,7 @@ p
 bool
 aRemovingAllowed
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2796,6 +2811,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -2808,6 +2824,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -2976,6 +2993,8 @@ nsCycleCollectionTraversalCallback
 &
 cb
 )
+\
+MOZ_OVERRIDE
 ;
 \
 static
@@ -3043,6 +3062,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -3181,6 +3201,8 @@ void
 *
 closure
 )
+\
+MOZ_OVERRIDE
 ;
 \
 NS_IMPL_GET_XPCOM_CYCLE_COLLECTION_PARTICIPANT
@@ -3220,6 +3242,7 @@ void
 *
 n
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -3232,6 +3255,7 @@ void
 *
 n
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -3244,6 +3268,7 @@ void
 *
 n
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD
@@ -3256,6 +3281,8 @@ nsCycleCollectionTraversalCallback
 &
 cb
 )
+\
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -3268,6 +3295,7 @@ void
 *
 n
 )
+MOZ_OVERRIDE
 \
 {
 \
@@ -3463,6 +3491,7 @@ p
 bool
 aRemovingAllowed
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -3475,6 +3504,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -3487,6 +3517,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 static
@@ -3567,6 +3598,7 @@ p
 bool
 aRemovingAllowed
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -3579,6 +3611,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 NS_IMETHOD_
@@ -3591,6 +3624,7 @@ void
 *
 p
 )
+MOZ_OVERRIDE
 ;
 \
 static
@@ -3671,6 +3705,8 @@ void
 *
 closure
 )
+\
+MOZ_OVERRIDE
 ;
 \
 static

@@ -69,6 +69,7 @@ void
 *
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

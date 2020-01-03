@@ -1015,6 +1015,7 @@ MozExternalRefCountType
 AddRef
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -1025,6 +1026,7 @@ MozExternalRefCountType
 Release
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;

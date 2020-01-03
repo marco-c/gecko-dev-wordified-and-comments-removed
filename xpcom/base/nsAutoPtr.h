@@ -2902,6 +2902,7 @@ void
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 nsresult
 status
