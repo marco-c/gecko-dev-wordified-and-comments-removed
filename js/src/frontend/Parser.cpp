@@ -21623,15 +21623,6 @@ end
 ;
 }
 case
-TOK_NAME
-:
-tokenStream
-.
-ungetToken
-(
-)
-;
-case
 TOK_LET
 :
 case
