@@ -2154,7 +2154,7 @@ req
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 ;

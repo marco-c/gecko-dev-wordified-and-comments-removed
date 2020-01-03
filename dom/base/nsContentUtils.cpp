@@ -25492,7 +25492,7 @@ nsIInterfaceRequestor
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 {

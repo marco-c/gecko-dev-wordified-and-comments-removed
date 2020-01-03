@@ -6232,7 +6232,7 @@ req
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 ;

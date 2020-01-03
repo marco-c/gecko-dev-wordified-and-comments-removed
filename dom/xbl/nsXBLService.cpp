@@ -4848,7 +4848,7 @@ sameOriginChecker
 nsContentUtils
 :
 :
-GetSameOriginChecker
+SameOriginChecker
 (
 )
 ;
