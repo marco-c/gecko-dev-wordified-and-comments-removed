@@ -1215,6 +1215,16 @@ select
 \
 _
 (
+swizzle
+)
+\
+_
+(
+shuffle
+)
+\
+_
+(
 splat
 )
 \
