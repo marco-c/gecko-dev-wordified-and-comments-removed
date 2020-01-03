@@ -978,6 +978,13 @@ null
 )
 ;
 }
+else
+{
+updateSearchEngineBar
+(
+)
+;
+}
 Telemetry
 .
 startUISession
@@ -1463,10 +1470,6 @@ SearchEngines
 :
 Data
 "
-)
-;
-updateSearchEngineBar
-(
 )
 ;
 mSearchEngineBar
