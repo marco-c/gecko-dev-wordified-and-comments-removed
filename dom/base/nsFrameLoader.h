@@ -676,6 +676,11 @@ ShouldUseRemoteProcess
 )
 ;
 bool
+IsRemoteFrame
+(
+)
+;
+bool
 OwnerIsBrowserOrAppFrame
 (
 )
