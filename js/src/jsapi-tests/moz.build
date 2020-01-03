@@ -134,11 +134,6 @@ testArrayBufferView
 cpp
 '
 '
-testBindCallable
-.
-cpp
-'
-'
 testBug604087
 .
 cpp
