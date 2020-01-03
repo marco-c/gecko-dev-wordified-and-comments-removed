@@ -495,7 +495,7 @@ NS_ConvertUTF8toUTF16
 Discoverable
 "
 )
-true
+false
 )
 new
 SetAdapterPropertyResultHandler
