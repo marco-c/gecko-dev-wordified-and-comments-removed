@@ -678,6 +678,7 @@ install_dir
     
 except
 Exception
+ex
 :
         
 cls
@@ -701,10 +702,18 @@ install
 "
 %
 s
+(
+%
+s
+)
 "
 '
 %
 src
+str
+(
+ex
+)
 )
         
 raise
@@ -1215,6 +1224,7 @@ folder
             
 except
 Exception
+ex
 :
                 
 cls
@@ -1237,9 +1247,17 @@ to
 uninstall
 %
 s
+(
+%
+s
+)
 '
 %
 install_folder
+str
+(
+ex
+)
 )
                 
 raise
