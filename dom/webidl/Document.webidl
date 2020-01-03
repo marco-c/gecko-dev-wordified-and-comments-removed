@@ -2741,3 +2741,7 @@ Document
 implements
 GeometryUtils
 ;
+Document
+implements
+FontFaceSource
+;
