@@ -30,6 +30,9 @@ class
 FrameBlender
 ;
 class
+RasterImage
+;
+class
 FrameAnimator
 {
 public

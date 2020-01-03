@@ -15,6 +15,13 @@ h
 #
 include
 "
+RasterImage
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h
