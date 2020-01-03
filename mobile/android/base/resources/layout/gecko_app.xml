@@ -274,7 +274,7 @@ layout_below
 +
 id
 /
-new_tablet_tab_strip
+tablet_tab_strip
 "
 android
 :
@@ -822,7 +822,7 @@ id
 +
 id
 /
-new_tablet_tab_strip
+tablet_tab_strip
 "
 android
 :
@@ -831,7 +831,7 @@ inflatedId
 "
 id
 /
-new_tablet_tab_strip
+tablet_tab_strip
 "
 android
 :
