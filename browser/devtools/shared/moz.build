@@ -429,6 +429,13 @@ widgets
 '
 widgets
 /
+CubicBezierPresets
+.
+js
+'
+'
+widgets
+/
 CubicBezierWidget
 .
 js
