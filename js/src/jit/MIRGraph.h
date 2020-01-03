@@ -2472,6 +2472,12 @@ defined
 (
 JS_ION_PERF
 )
+|
+|
+defined
+(
+DEBUG
+)
 unsigned
 lineno_
 ;

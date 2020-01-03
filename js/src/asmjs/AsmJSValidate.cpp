@@ -18958,6 +18958,12 @@ defined
 (
 JS_ION_PERF
 )
+|
+|
+defined
+(
+DEBUG
+)
 if
 (
 pn
