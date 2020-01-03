@@ -1523,6 +1523,13 @@ kXPCOMRTModule
 nullptr
 )
 ;
+RegisterModule
+(
+&
+kNeckoStandaloneModule
+nullptr
+)
+;
 #
 else
 RegisterModule
