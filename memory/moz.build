@@ -145,15 +145,9 @@ if
 CONFIG
 [
 '
-MOZ_REPLACE_MALLOC_LINKAGE
+MOZ_REPLACE_MALLOC
 '
 ]
-=
-=
-'
-dummy
-library
-'
 :
 DIRS
 +
@@ -161,7 +155,5 @@ DIRS
 [
 '
 replace
-/
-dummy
 '
 ]
