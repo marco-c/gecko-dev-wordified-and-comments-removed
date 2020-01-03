@@ -54,7 +54,7 @@ testcase
 noScriptRval
 :
 true
-isRunOnce
+compileAndGo
 :
 true
 }

@@ -92,6 +92,11 @@ x
 "
 ;
 }
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

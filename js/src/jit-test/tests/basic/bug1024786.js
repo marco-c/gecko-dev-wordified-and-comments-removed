@@ -513,7 +513,7 @@ null
 lineNumber
 :
 42
-isRunOnce
+compileAndGo
 :
 9
 }

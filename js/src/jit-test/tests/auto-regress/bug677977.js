@@ -177,6 +177,11 @@ a
 }
 )
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

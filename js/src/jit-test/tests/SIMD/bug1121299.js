@@ -184,7 +184,7 @@ test_2
 ;
 "
 {
-isRunOnce
+compileAndGo
 :
 true
 }

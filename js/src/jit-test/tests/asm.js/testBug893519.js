@@ -71,6 +71,9 @@ f
 }
 "
 {
+compileAndGo
+:
+false
 global
 :
 g

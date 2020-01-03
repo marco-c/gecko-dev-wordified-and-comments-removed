@@ -79,7 +79,7 @@ if
 !
 (
 "
-isRunOnce
+compileAndGo
 "
 in
 ctx
@@ -87,7 +87,7 @@ ctx
 )
 ctx
 .
-isRunOnce
+compileAndGo
 =
 true
 ;

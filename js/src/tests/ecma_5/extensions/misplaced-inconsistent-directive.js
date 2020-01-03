@@ -70,7 +70,7 @@ evaluate
 (
 code
 {
-isRunOnce
+compileAndGo
 :
 true
 noScriptRval

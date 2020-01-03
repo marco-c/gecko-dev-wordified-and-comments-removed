@@ -74,7 +74,7 @@ code
 ;
 ctx
 .
-isRunOnce
+compileAndGo
 =
 true
 ;

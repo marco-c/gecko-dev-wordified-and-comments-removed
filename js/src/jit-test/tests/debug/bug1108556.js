@@ -75,7 +75,7 @@ fe
 \
 '
 {
-isRunOnce
+compileAndGo
 :
 true
 }

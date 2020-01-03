@@ -119,7 +119,7 @@ __proto__
 ;
 "
 {
-isRunOnce
+compileAndGo
 :
 true
 }

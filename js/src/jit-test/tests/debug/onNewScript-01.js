@@ -227,6 +227,11 @@ a
 }
 )
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

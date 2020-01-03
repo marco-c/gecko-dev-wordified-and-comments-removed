@@ -75,7 +75,7 @@ sym
 )
 "
 {
-isRunOnce
+compileAndGo
 :
 true
 }

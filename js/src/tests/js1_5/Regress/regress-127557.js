@@ -143,6 +143,11 @@ n
 }
 )
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

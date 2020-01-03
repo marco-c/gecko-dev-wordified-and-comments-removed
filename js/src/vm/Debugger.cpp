@@ -32541,12 +32541,12 @@ cx
 ;
 options
 .
-setHasPollutedScope
+setCompileAndGo
 (
 true
 )
 .
-setIsRunOnce
+setHasPollutedScope
 (
 true
 )

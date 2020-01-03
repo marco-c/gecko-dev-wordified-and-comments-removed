@@ -109,6 +109,11 @@ a
 }
 )
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 g

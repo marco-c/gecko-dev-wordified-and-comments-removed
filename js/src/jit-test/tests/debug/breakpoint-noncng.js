@@ -71,6 +71,11 @@ n
 \
 n
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var

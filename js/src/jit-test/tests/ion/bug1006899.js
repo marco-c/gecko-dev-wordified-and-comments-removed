@@ -113,7 +113,7 @@ x
 \
 "
 {
-isRunOnce
+compileAndGo
 :
 true
 }

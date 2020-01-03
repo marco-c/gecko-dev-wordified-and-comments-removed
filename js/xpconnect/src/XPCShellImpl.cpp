@@ -1756,7 +1756,7 @@ ptr
 1
 )
 .
-setIsRunOnce
+setCompileAndGo
 (
 true
 )
@@ -4447,7 +4447,7 @@ filename
 1
 )
 .
-setIsRunOnce
+setCompileAndGo
 (
 true
 )
@@ -4604,7 +4604,7 @@ typein
 startline
 )
 .
-setIsRunOnce
+setCompileAndGo
 (
 true
 )

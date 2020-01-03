@@ -148,6 +148,11 @@ otherGlobal
 evaluate
 (
 code
+{
+compileAndGo
+:
+false
+}
 )
 )
 ;

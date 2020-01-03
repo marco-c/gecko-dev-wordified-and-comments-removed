@@ -776,6 +776,11 @@ options
 canLazilyParse
 &
 &
+options
+.
+compileAndGo
+&
+&
 !
 options
 .
@@ -1204,7 +1209,7 @@ MOZ_ASSERT_IF
 evalCaller
 options
 .
-isRunOnce
+compileAndGo
 )
 ;
 MOZ_ASSERT_IF
@@ -2425,6 +2430,11 @@ column
 )
 )
 .
+setCompileAndGo
+(
+true
+)
+.
 setNoScriptRval
 (
 false
@@ -2827,14 +2837,6 @@ GeneratorKind
 generatorKind
 )
 {
-MOZ_ASSERT
-(
-!
-options
-.
-isRunOnce
-)
-;
 js
 :
 :

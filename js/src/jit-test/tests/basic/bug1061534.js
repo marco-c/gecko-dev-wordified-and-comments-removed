@@ -141,7 +141,7 @@ ms
 noScriptRval
 :
 true
-isRunOnce
+compileAndGo
 :
 true
 }

@@ -115,7 +115,7 @@ true
 noScriptRval
 :
 true
-isRunOnce
+compileAndGo
 :
 true
 }

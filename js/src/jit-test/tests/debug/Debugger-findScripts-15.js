@@ -23,6 +23,11 @@ x
 ;
 }
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var
