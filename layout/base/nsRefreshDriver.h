@@ -863,8 +863,6 @@ DispatchPendingEvents
 void
 RunFrameRequestCallbacks
 (
-int64_t
-aNowEpoch
 mozilla
 :
 :

@@ -5719,8 +5719,6 @@ nsRefreshDriver
 :
 RunFrameRequestCallbacks
 (
-int64_t
-aNowEpoch
 TimeStamp
 aNowTime
 )
@@ -6358,7 +6356,6 @@ DispatchPendingEvents
 ;
 RunFrameRequestCallbacks
 (
-aNowEpoch
 aNowTime
 )
 ;
