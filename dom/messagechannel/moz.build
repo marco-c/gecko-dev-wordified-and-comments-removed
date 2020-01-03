@@ -170,11 +170,6 @@ MessagePortService
 cpp
 '
 '
-MessagePortUtils
-.
-cpp
-'
-'
 SharedMessagePortMessage
 .
 cpp

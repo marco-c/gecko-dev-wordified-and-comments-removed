@@ -96,6 +96,7 @@ MessagePortList
 nsISupports
 *
 aOwner
+const
 nsTArray
 <
 nsRefPtr
