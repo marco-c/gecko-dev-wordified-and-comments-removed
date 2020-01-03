@@ -12621,6 +12621,14 @@ IsIgnoringViewportClipping
 bool
 usingDisplayPort
 =
+aBuilder
+-
+>
+IsPaintingToWindow
+(
+)
+&
+&
 nsLayoutUtils
 :
 :
@@ -12717,11 +12725,10 @@ false
 ;
 if
 (
-!
 aBuilder
 -
 >
-IsForEventDelivery
+IsPaintingToWindow
 (
 )
 )
