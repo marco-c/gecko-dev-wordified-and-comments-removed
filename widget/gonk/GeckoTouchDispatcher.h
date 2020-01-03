@@ -161,13 +161,10 @@ TimeDuration
 mMinResampleTime
 ;
 TimeDuration
-mTouchTimeDiff
-;
-TimeStamp
-mLastTouchTime
+mDelayedVsyncThreshold
 ;
 TimeDuration
-mDelayedVsyncThreshold
+mOldTouchThreshold
 ;
 }
 ;
