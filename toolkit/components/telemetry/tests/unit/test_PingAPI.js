@@ -781,6 +781,7 @@ checkLoadingPings
 (
 )
 ;
+yield
 TelemetryController
 .
 reset
@@ -2536,7 +2537,7 @@ test_clientId
 yield
 TelemetryController
 .
-setup
+reset
 (
 )
 ;
@@ -2616,6 +2617,7 @@ id
 .
 "
 )
+;
 Assert
 .
 ok

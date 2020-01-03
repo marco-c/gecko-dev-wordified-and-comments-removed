@@ -1878,6 +1878,13 @@ true
 true
 )
 ;
+yield
+TelemetrySend
+.
+testWaitOnOutgoingPings
+(
+)
+;
 now
 =
 fakeNow
@@ -1912,6 +1919,13 @@ ping
 TEST_PING_TYPE
 true
 true
+)
+;
+yield
+TelemetrySend
+.
+testWaitOnOutgoingPings
+(
 )
 ;
 fakeMidnightPingFuzzingDelay
