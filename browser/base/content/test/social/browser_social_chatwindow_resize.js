@@ -690,7 +690,7 @@ chatWidth
 *
 3
 +
-4
+2
 3
 "
 now
@@ -717,10 +717,10 @@ chatWidth
 *
 3
 -
-4
+2
 2
 "
-4
+2
 pixels
 less
 and
