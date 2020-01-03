@@ -1371,13 +1371,6 @@ TraceRuntime
 MarkRuntime
 }
 ;
-enum
-TraceRootsOrUsedSaved
-{
-TraceRoots
-UseSavedRoots
-}
-;
 void
 markRuntime
 (
@@ -1388,10 +1381,6 @@ TraceOrMarkRuntime
 traceOrMark
 =
 TraceRuntime
-TraceRootsOrUsedSaved
-rootsSource
-=
-TraceRoots
 )
 ;
 void
