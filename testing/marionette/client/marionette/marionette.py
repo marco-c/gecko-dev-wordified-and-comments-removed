@@ -10058,6 +10058,9 @@ False
 script_timeout
 =
 None
+debug_script
+=
+False
 )
 :
         
@@ -10248,6 +10251,20 @@ are
 preserved
 .
         
+:
+param
+debug_script
+:
+Capture
+javascript
+exceptions
+when
+in
+         
+CONTEXT_CHROME
+context
+.
+        
 Usage
 example
 :
@@ -10427,6 +10444,10 @@ frame
 0
 ]
 )
+                                      
+debug_script
+=
+debug_script
 )
         
 return
