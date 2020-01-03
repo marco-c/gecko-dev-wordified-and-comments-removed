@@ -105,6 +105,10 @@ DOMString
 ?
 filename
 ;
+DOMString
+?
+referrer
+;
 }
 ;
 [
