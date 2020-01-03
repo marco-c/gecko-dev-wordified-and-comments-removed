@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_dom_AnimationUtils_h
+#
+define
+mozilla_dom_AnimationUtils_h
+#
 include
 "
 mozilla
@@ -85,3 +91,5 @@ result
 ;
 }
 }
+#
+endif
