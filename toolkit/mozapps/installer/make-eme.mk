@@ -76,6 +76,13 @@ OS_ARCH
 )
 WINNT
 )
+ifneq
+(
+(
+TARGET_CPU
+)
+x86_64
+)
 #
 The
 argument
@@ -160,5 +167,6 @@ voucher
 .
 bin
 "
+endif
 endif
 endif
