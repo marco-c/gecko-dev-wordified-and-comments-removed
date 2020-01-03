@@ -1053,6 +1053,13 @@ ref
 html
 #
 Bugs
+fails
+-
+if
+(
+!
+layersGPUAccelerated
+)
 =
 =
 1035611
