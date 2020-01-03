@@ -44,6 +44,7 @@ aLen
 uint32_t
 aPos
 )
+MOZ_OVERRIDE
 ;
 int32_t
 Prev
@@ -57,6 +58,7 @@ aLen
 uint32_t
 aPos
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -74,6 +76,7 @@ uint8_t
 *
 aBreakBefore
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -91,6 +94,7 @@ uint8_t
 *
 aBreakBefore
 )
+MOZ_OVERRIDE
 ;
 private
 :

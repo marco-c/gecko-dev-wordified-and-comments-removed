@@ -83,6 +83,7 @@ char
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ConvertToEntity
@@ -96,6 +97,7 @@ char
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ConvertToEntities
@@ -111,6 +113,7 @@ char16_t
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 protected
 :

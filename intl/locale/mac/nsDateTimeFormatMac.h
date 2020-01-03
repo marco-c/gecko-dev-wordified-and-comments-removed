@@ -46,6 +46,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 FormatTMTime
@@ -68,6 +69,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 FormatPRTime
@@ -88,6 +90,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 FormatPRExplodedTime
@@ -109,6 +112,7 @@ nsAString
 &
 stringOut
 )
+MOZ_OVERRIDE
 ;
 nsDateTimeFormatMac
 (

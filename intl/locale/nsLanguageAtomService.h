@@ -84,6 +84,7 @@ nsresult
 *
 aError
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -97,6 +98,7 @@ nsACString
 &
 aCharSet
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -107,6 +109,7 @@ nsresult
 *
 aError
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -120,6 +123,7 @@ nsresult
 *
 aError
 )
+MOZ_OVERRIDE
 ;
 nsLanguageAtomService
 (

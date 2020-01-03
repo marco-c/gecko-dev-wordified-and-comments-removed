@@ -57,6 +57,7 @@ nsICollation
 *
 instancePtr
 )
+MOZ_OVERRIDE
 ;
 nsCollationFactory
 (
