@@ -4248,15 +4248,6 @@ this
 ;
 if
 (
-mRequestHead
-)
-{
-delete
-mRequestHead
-;
-}
-if
-(
 mDrivingTransaction
 )
 {

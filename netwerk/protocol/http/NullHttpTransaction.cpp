@@ -381,13 +381,13 @@ caps
 |
 NS_HTTP_ALLOW_KEEPALIVE
 )
-mCapsToClear
-(
-0
-)
 mRequestHead
 (
 nullptr
+)
+mCapsToClear
+(
+0
 )
 mIsDone
 (
