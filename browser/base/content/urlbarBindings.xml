@@ -7997,7 +7997,7 @@ self
 this
 ;
 let
-keyPressHandler
+inputHandler
 =
 function
 (
@@ -8037,9 +8037,9 @@ textbox
 addEventListener
 (
 "
-keyup
+input
 "
-keyPressHandler
+inputHandler
 )
 ;
 this
@@ -8059,9 +8059,9 @@ textbox
 removeEventListener
 (
 "
-keyup
+input
 "
-keyPressHandler
+inputHandler
 )
 ;
 this
@@ -8077,7 +8077,7 @@ hiding
 }
 )
 ;
-keyPressHandler
+inputHandler
 (
 )
 ;
