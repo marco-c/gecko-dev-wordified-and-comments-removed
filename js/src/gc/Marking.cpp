@@ -5789,11 +5789,10 @@ unsafeUnbarrieredMaybeGlobal
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 global
 )
-;
 MarkObjectUnbarriered
 (
 trc
