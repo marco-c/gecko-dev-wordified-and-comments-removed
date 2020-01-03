@@ -951,7 +951,7 @@ DaemonSocketIOConsumer
 {
 }
 class
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 final
 :
 public
@@ -959,7 +959,7 @@ ConnectionOrientedSocketIO
 {
 public
 :
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 (
 MessageLoop
 *
@@ -1058,10 +1058,10 @@ mShuttingDownOnIOThread
 ;
 }
 ;
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 (
 MessageLoop
 *
@@ -1117,7 +1117,7 @@ mConsumer
 ;
 }
 nsresult
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 QueryReceiveBuffer
@@ -1165,7 +1165,7 @@ NS_OK
 ;
 }
 void
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 ConsumeBuffer
@@ -1188,7 +1188,7 @@ mPDU
 ;
 }
 void
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 DiscardBuffer
@@ -1198,7 +1198,7 @@ DiscardBuffer
 }
 SocketBase
 *
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 GetSocketBase
@@ -1210,7 +1210,7 @@ mConnection
 ;
 }
 bool
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 IsShutdownOnConsumerThread
@@ -1233,7 +1233,7 @@ nullptr
 ;
 }
 bool
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 IsShutdownOnIOThread
@@ -1246,7 +1246,7 @@ mShuttingDownOnIOThread
 ;
 }
 void
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 ShutdownOnConsumerThread
@@ -1274,7 +1274,7 @@ nullptr
 ;
 }
 void
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 :
 :
 ShutdownOnIOThread
@@ -1386,7 +1386,7 @@ SOCKET_CONNECTING
 mIO
 =
 new
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 (
 aConsumerLoop
 aIOLoop
@@ -1449,7 +1449,7 @@ FROM_HERE
 new
 SocketIOSendTask
 <
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 UnixSocketIOBuffer
 >
 (

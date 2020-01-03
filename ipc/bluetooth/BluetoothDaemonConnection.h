@@ -53,7 +53,7 @@ class
 DaemonSocketConsumer
 ;
 class
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 ;
 class
 DaemonSocketIOConsumer
@@ -344,7 +344,7 @@ override
 ;
 private
 :
-BluetoothDaemonConnectionIO
+DaemonSocketIO
 *
 mIO
 ;
