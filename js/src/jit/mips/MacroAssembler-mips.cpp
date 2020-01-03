@@ -6705,7 +6705,7 @@ void
 MacroAssemblerMIPSCompat
 :
 :
-callIonFromAsmJS
+callJitFromAsmJS
 (
 Register
 callee

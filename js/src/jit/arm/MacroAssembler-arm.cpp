@@ -8675,7 +8675,7 @@ void
 MacroAssemblerARMCompat
 :
 :
-callIonFromAsmJS
+callJitFromAsmJS
 (
 Register
 callee

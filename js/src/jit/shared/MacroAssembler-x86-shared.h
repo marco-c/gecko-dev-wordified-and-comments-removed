@@ -6847,7 +6847,7 @@ callee
 ;
 }
 void
-callIonFromAsmJS
+callJitFromAsmJS
 (
 Register
 callee

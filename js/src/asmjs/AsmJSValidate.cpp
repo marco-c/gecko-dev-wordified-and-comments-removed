@@ -10165,7 +10165,7 @@ end
 ;
 }
 bool
-finishGeneratingIonExit
+finishGeneratingJitExit
 (
 unsigned
 exitIndex
@@ -10200,7 +10200,7 @@ exit
 exitIndex
 )
 .
-initIonOffset
+initJitOffset
 (
 beg
 )
@@ -10236,7 +10236,7 @@ AsmJSModule
 CodeRange
 :
 :
-IonFFI
+JitFFI
 beg
 pret
 end
@@ -51851,7 +51851,7 @@ framePushed
 AsmJSExit
 :
 :
-IonFFI
+JitFFI
 &
 begin
 )
@@ -52477,7 +52477,7 @@ AsmJSStackAlignment
 ;
 masm
 .
-callIonFromAsmJS
+callJitFromAsmJS
 (
 callee
 )
@@ -52887,7 +52887,7 @@ framePushed
 AsmJSExit
 :
 :
-IonFFI
+JitFFI
 &
 profilingReturn
 )
@@ -53164,7 +53164,7 @@ framePushed
 return
 m
 .
-finishGeneratingIonExit
+finishGeneratingJitExit
 (
 exitIndex
 &

@@ -155,7 +155,7 @@ enum
 ReasonKind
 {
 Reason_None
-Reason_IonFFI
+Reason_JitFFI
 Reason_SlowFFI
 Reason_Interrupt
 Reason_Builtin
@@ -207,9 +207,9 @@ Reason_None
 static
 const
 uint32_t
-IonFFI
+JitFFI
 =
-Reason_IonFFI
+Reason_JitFFI
 ;
 static
 const
