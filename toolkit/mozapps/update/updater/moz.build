@@ -244,6 +244,12 @@ crypt32
 '
 advapi32
 '
+'
+ole32
+'
+'
+rpcrt4
+'
 ]
 else
 :
