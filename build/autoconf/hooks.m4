@@ -413,7 +413,7 @@ dumpenv
 =
 "
 PERL
-srcdir
+_topsrcdir
 /
 build
 /
