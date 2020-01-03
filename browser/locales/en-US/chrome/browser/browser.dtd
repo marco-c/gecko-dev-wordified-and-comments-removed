@@ -6619,6 +6619,16 @@ C
 <
 !
 ENTITY
+toggleMuteCmd
+.
+key
+"
+M
+"
+>
+<
+!
+ENTITY
 pageStyleMenu
 .
 label
