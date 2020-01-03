@@ -163,11 +163,6 @@ nsIDOMHistory
 idl
 '
 '
-nsIDOMJSWindow
-.
-idl
-'
-'
 nsIDOMLocation
 .
 idl

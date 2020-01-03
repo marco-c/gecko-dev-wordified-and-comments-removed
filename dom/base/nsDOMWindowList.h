@@ -69,9 +69,6 @@ IndexedGetter
 (
 uint32_t
 aIndex
-bool
-&
-aFound
 )
 ;
 NS_IMETHOD
