@@ -337,11 +337,6 @@ nsITelephonyAudioService
 .
 idl
 '
-'
-nsITelephonyMessenger
-.
-idl
-'
 ]
 EXTRA_COMPONENTS
 +
