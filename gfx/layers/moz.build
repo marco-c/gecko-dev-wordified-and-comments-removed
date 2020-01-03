@@ -250,6 +250,11 @@ ImageTypes
 h
 '
 '
+IMFYCbCrImage
+.
+h
+'
+'
 ipc
 /
 ThreadSafeRefcountingWithMainThreadDestruction
