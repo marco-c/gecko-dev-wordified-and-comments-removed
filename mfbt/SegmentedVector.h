@@ -81,6 +81,8 @@ typename
 T
 size_t
 IdealSegmentSize
+=
+4096
 typename
 AllocPolicy
 =
