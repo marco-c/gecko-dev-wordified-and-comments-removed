@@ -229,6 +229,16 @@ PlayFromJS
 )
 MOZ_OVERRIDE
 ;
+void
+PlayFromStyle
+(
+)
+{
+DoPlay
+(
+)
+;
+}
 protected
 :
 virtual

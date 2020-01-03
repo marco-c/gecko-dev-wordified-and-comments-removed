@@ -2284,7 +2284,9 @@ ToTimeStamp
 aPlayer
 -
 >
-mStartTime
+GetStartTime
+(
+)
 .
 Value
 (

@@ -486,12 +486,6 @@ bool
 aNeedsRefreshes
 )
 ;
-Nullable
-<
-TimeDuration
->
-mStartTime
-;
 protected
 :
 void
@@ -566,6 +560,12 @@ nsRefPtr
 Animation
 >
 mSource
+;
+Nullable
+<
+TimeDuration
+>
+mStartTime
 ;
 Nullable
 <
