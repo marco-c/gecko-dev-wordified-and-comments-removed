@@ -26,6 +26,11 @@ specified
 .
 flags
 :
+aliases
+:
+mochitests
+:
+mochitest
 builds
 :
 -
