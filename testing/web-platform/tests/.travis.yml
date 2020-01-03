@@ -1,3 +1,14 @@
+sudo
+:
+false
+#
+cause
+Travis
+to
+start
+builds
+much
+faster
 language
 :
 python

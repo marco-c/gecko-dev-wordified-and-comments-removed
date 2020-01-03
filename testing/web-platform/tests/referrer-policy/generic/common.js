@@ -452,9 +452,6 @@ server_data
 .
 headers
 }
-return
-result
-;
 }
 function
 queryIframe

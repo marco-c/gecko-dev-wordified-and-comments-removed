@@ -1050,3 +1050,17 @@ function
 {
 }
 ;
+SanityChecker
+.
+prototype
+.
+setFailTimeout
+=
+function
+(
+test
+timeout
+)
+{
+}
+;

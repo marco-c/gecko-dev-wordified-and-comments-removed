@@ -90,6 +90,7 @@ function
 verifyStaticList
 (
 type
+doc
 root
 )
 {
