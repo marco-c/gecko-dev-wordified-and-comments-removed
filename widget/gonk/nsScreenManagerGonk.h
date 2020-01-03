@@ -270,6 +270,13 @@ nsScreenManagerGonk
 (
 )
 ;
+void
+VsyncControl
+(
+bool
+aEnabled
+)
+;
 bool
 mInitialized
 ;
