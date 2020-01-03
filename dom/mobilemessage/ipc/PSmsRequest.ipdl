@@ -282,6 +282,12 @@ ReplyGetSmscAddress
 nsString
 smscAddress
 ;
+uint32_t
+typeOfNumber
+;
+uint32_t
+numberPlanIdentification
+;
 }
 ;
 struct
