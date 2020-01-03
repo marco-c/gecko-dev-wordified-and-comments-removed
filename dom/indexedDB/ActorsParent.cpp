@@ -48427,8 +48427,11 @@ nullptr
 ;
 }
 }
+DebugOnly
+<
 const
 uint32_t
+>
 oldLength
 =
 fallibleObjectStores
