@@ -1207,10 +1207,10 @@ bootloader
 <
 !
 ENTITY
-runtimedetails_restrictedPrivileges
+runtimedetails_unrestrictedPrivileges
 "
+Unrestricted
 DevTools
-restricted
 privileges
 :
 "
