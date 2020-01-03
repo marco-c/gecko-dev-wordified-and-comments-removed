@@ -5812,6 +5812,14 @@ setArity
 PN_NULLARY
 )
 ;
+dn
+-
+>
+setDefn
+(
+false
+)
+;
 return
 true
 ;
