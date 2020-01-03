@@ -7848,7 +7848,16 @@ WhiteSpaceOrNewlineIsSignificant
 ;
 }
 return
-false
+GetIdForContent
+(
+aElement
+)
+=
+=
+nsGkAtoms
+:
+:
+pre
 ;
 }
 bool
