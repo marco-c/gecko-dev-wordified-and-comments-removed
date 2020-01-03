@@ -673,10 +673,12 @@ debuggerArgs
 :
         
 debugger_arguments
-.
-extend
-(
++
+=
 debuggerArgs
+.
+split
+(
 )
     
 debugger_interactive
