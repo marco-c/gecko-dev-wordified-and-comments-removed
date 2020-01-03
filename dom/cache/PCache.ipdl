@@ -61,6 +61,10 @@ protocol
 PBackground
 ;
 include
+protocol
+PCachePushStream
+;
+include
 PCacheTypes
 ;
 include
@@ -133,8 +137,15 @@ PCache
 manager
 PBackground
 ;
+manages
+PCachePushStream
+;
 parent
 :
+PCachePushStream
+(
+)
+;
 Teardown
 (
 )

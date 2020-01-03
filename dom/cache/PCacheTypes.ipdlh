@@ -58,6 +58,10 @@ MPL
 /
 include
 protocol
+PCachePushStream
+;
+include
+protocol
 PCacheStreamControl
 ;
 include
@@ -192,6 +196,10 @@ fds
 nullable
 PCacheStreamControl
 control
+;
+nullable
+PCachePushStream
+pushStream
 ;
 }
 ;

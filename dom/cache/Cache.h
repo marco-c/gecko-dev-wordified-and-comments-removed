@@ -427,6 +427,17 @@ override
 #
 endif
 virtual
+CachePushStreamChild
+*
+CreatePushStream
+(
+nsIAsyncInputStream
+*
+aStream
+)
+override
+;
+virtual
 void
 ResolvedCallback
 (
