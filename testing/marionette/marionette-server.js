@@ -10673,6 +10673,16 @@ curBrowser
 .
 frameManager
 .
+removeSpecialPowers
+(
+)
+;
+this
+.
+curBrowser
+.
+frameManager
+.
 removeMessageManagerListeners
 (
 this
