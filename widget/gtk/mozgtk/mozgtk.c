@@ -2032,6 +2032,10 @@ gtk_menu_button_new
 )
 STUB
 (
+gtk_offscreen_window_new
+)
+STUB
+(
 gtk_paned_new
 )
 STUB
