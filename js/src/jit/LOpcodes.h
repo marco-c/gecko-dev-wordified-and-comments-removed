@@ -113,12 +113,12 @@ SimdSignMaskX4
 \
 _
 (
-SimdGeneralSwizzleI
+SimdGeneralShuffleI
 )
 \
 _
 (
-SimdGeneralSwizzleF
+SimdGeneralShuffleF
 )
 \
 _

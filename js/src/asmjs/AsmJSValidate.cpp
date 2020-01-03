@@ -15038,7 +15038,7 @@ ins
 MSimdSwizzle
 :
 :
-NewAsmJS
+New
 (
 alloc
 (
@@ -15101,7 +15101,7 @@ ins
 MSimdShuffle
 :
 :
-NewAsmJS
+New
 (
 alloc
 (

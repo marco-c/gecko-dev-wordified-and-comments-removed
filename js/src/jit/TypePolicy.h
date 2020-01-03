@@ -1176,7 +1176,7 @@ MOZ_OVERRIDE
 }
 ;
 class
-SimdSwizzlePolicy
+SimdShufflePolicy
 MOZ_FINAL
 :
 public

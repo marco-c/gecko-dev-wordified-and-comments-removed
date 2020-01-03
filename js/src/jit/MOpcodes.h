@@ -84,7 +84,7 @@ SimdSwizzle
 \
 _
 (
-SimdGeneralSwizzle
+SimdGeneralShuffle
 )
 \
 _

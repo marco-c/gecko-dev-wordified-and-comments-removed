@@ -1593,9 +1593,9 @@ NYI
 ;
 }
 void
-visitSimdGeneralSwizzleI
+visitSimdGeneralShuffleI
 (
-LSimdGeneralSwizzleI
+LSimdGeneralShuffleI
 *
 lir
 )
@@ -1609,9 +1609,9 @@ NYI
 ;
 }
 void
-visitSimdGeneralSwizzleF
+visitSimdGeneralShuffleF
 (
-LSimdGeneralSwizzleF
+LSimdGeneralShuffleF
 *
 lir
 )
