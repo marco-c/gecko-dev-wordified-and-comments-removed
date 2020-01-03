@@ -18,17 +18,6 @@ annotation
 .
 WrapForJNI
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-JNITarget
-;
 WrapForJNI
 public
 final

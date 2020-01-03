@@ -70,7 +70,9 @@ mozilla
 .
 gecko
 .
-Tab
+annotation
+.
+RobocopTarget
 ;
 import
 org
@@ -103,9 +105,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-RobocopTarget
+Tab
 ;
 import
 android

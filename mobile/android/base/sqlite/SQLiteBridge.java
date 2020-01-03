@@ -60,7 +60,7 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
 RobocopTarget
 ;

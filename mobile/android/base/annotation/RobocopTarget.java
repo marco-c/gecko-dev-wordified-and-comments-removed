@@ -5,7 +5,7 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 ;
 import
 java

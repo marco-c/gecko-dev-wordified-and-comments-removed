@@ -72,7 +72,7 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
 WebRTCJNITarget
 ;

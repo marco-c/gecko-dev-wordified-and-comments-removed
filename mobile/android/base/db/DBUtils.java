@@ -124,7 +124,9 @@ mozilla
 .
 gecko
 .
-Telemetry
+annotation
+.
+RobocopTarget
 ;
 import
 org
@@ -133,9 +135,7 @@ mozilla
 .
 gecko
 .
-mozglue
-.
-RobocopTarget
+Telemetry
 ;
 import
 java

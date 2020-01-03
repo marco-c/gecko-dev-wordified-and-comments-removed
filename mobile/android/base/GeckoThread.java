@@ -12,9 +12,9 @@ mozilla
 .
 gecko
 .
-mozglue
+annotation
 .
-GeckoLoader
+RobocopTarget
 ;
 import
 org
@@ -25,7 +25,7 @@ gecko
 .
 mozglue
 .
-RobocopTarget
+GeckoLoader
 ;
 import
 org
