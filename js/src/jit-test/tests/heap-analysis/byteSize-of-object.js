@@ -84,7 +84,7 @@ byteSize
 obj
 )
 ;
-gc
+minorgc
 (
 )
 ;
