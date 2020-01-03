@@ -116,13 +116,6 @@ html_theme
 '
 default
 '
-html_static_path
-=
-[
-'
-_static
-'
-]
 htmlhelp_basename
 =
 '
