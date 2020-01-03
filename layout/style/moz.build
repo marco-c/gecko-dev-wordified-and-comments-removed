@@ -700,6 +700,11 @@ StyleRule
 .
 cpp
 '
+'
+SVGAttrAnimationRuleProcessor
+.
+cpp
+'
 ]
 #
 nsCSSRuleProcessor
