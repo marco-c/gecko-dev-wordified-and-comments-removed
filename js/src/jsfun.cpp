@@ -3003,6 +3003,8 @@ HandleObject
 enclosingScope
 HandleFunction
 srcFun
+PollutedGlobalScopeOption
+polluted
 )
 {
 RootedObject
@@ -3137,6 +3139,7 @@ cx
 enclosingScope
 clone
 srcScript
+polluted
 )
 )
 ;
