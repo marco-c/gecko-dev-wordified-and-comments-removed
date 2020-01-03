@@ -47,7 +47,6 @@ nsCOMPtr
 .
 h
 "
-NS_COM_GLUE
 nsresult
 nsMemory
 :
@@ -100,7 +99,6 @@ aImmediate
 )
 ;
 }
-NS_COM_GLUE
 void
 *
 nsMemory
@@ -142,7 +140,6 @@ return
 newPtr
 ;
 }
-NS_COM_GLUE
 nsIMemory
 *
 nsMemory

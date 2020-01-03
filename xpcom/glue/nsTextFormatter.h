@@ -62,7 +62,6 @@ dependencies
 #
 endif
 class
-NS_COM_GLUE
 nsTextFormatter
 {
 public

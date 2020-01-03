@@ -44,7 +44,6 @@ nsISupports
 h
 "
 class
-NS_COM_GLUE
 nsCOMArray_base
 {
 friend

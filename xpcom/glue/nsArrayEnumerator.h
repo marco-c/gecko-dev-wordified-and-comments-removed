@@ -20,7 +20,6 @@ nsIArray
 class
 nsCOMArray_base
 ;
-NS_COM_GLUE
 nsresult
 NS_NewArrayEnumerator
 (
@@ -33,7 +32,6 @@ nsIArray
 aArray
 )
 ;
-NS_COM_GLUE
 nsresult
 NS_NewArrayEnumerator
 (

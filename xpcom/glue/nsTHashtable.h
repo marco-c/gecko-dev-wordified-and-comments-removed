@@ -75,7 +75,6 @@ include
 <
 new
 >
-NS_COM_GLUE
 PLDHashOperator
 PL_DHashStubEnumRemove
 (

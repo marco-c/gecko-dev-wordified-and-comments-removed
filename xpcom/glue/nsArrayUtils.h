@@ -19,7 +19,6 @@ nsIArray
 h
 "
 class
-NS_COM_GLUE
 nsQueryArrayElementAt
 :
 public

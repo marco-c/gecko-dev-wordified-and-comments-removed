@@ -847,7 +847,6 @@ aClosure
 ;
 static
 void
-NS_COM_GLUE
 NoteJSChild
 (
 void

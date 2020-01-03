@@ -3354,7 +3354,6 @@ offset
 ;
 }
 ;
-NS_COM_GLUE
 nsresult
 NS_FASTCALL
 NS_TableDrivenQI

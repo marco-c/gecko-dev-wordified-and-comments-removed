@@ -172,7 +172,6 @@ return
 status
 ;
 }
-NS_COM_GLUE
 nsIWeakReference
 *
 NS_GetWeakReference
@@ -252,7 +251,6 @@ return
 result
 ;
 }
-NS_COM_GLUE
 nsresult
 nsSupportsWeakReference
 :

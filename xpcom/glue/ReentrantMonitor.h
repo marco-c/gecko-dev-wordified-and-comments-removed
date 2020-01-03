@@ -36,7 +36,6 @@ namespace
 mozilla
 {
 class
-NS_COM_GLUE
 ReentrantMonitor
 :
 BlockingResourceBase
@@ -325,7 +324,6 @@ endif
 }
 ;
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 ReentrantMonitorAutoEnter
 {

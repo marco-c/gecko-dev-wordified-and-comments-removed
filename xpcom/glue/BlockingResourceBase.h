@@ -97,7 +97,6 @@ DeadlockDetector
 #
 endif
 class
-NS_COM_GLUE
 BlockingResourceBase
 {
 public

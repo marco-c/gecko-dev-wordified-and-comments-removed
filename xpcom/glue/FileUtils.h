@@ -276,7 +276,6 @@ ScopedCloseFileTraits
 >
 ScopedCloseFile
 ;
-NS_COM_GLUE
 bool
 fallocate
 (
@@ -287,7 +286,6 @@ int64_t
 aLength
 )
 ;
-NS_COM_GLUE
 void
 ReadAheadLib
 (
@@ -296,7 +294,6 @@ nsIFile
 aFile
 )
 ;
-NS_COM_GLUE
 void
 ReadAheadFile
 (
@@ -322,7 +319,6 @@ nullptr
 ;
 #
 endif
-NS_COM_GLUE
 void
 ReadAheadLib
 (
@@ -330,7 +326,6 @@ pathstr_t
 aFilePath
 )
 ;
-NS_COM_GLUE
 void
 ReadAheadFile
 (
@@ -353,7 +348,6 @@ aOutFd
 nullptr
 )
 ;
-NS_COM_GLUE
 void
 ReadAhead
 (

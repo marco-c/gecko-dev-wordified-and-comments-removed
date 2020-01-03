@@ -60,7 +60,6 @@ include
 new
 >
 class
-NS_COM_GLUE
 GenericClassInfo
 :
 public

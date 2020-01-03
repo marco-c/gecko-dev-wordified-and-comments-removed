@@ -100,7 +100,6 @@ aData
 )
 ;
 class
-NS_COM_GLUE
 nsVoidArray
 {
 public
@@ -582,7 +581,6 @@ aOther
 }
 ;
 class
-NS_COM_GLUE
 nsSmallVoidArray
 :
 private

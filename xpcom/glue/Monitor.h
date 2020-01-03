@@ -26,7 +26,6 @@ namespace
 mozilla
 {
 class
-NS_COM_GLUE
 Monitor
 {
 public
@@ -189,7 +188,6 @@ mCondVar
 }
 ;
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 MonitorAutoLock
 {
@@ -326,7 +324,6 @@ mMonitor
 }
 ;
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 MonitorAutoUnlock
 {

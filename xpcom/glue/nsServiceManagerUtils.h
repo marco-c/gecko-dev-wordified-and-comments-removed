@@ -198,7 +198,6 @@ aError
 )
 ;
 }
-NS_COM_GLUE
 nsresult
 CallGetService
 (
@@ -216,7 +215,6 @@ void
 aResult
 )
 ;
-NS_COM_GLUE
 nsresult
 CallGetService
 (

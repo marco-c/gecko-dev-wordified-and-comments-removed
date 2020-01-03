@@ -172,7 +172,6 @@ m0
 )
 ;
 }
-NS_COM_GLUE
 bool
 Parse
 (
@@ -185,7 +184,6 @@ aIDStr
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-NS_COM_GLUE
 char
 *
 ToString
@@ -193,7 +191,6 @@ ToString
 )
 const
 ;
-NS_COM_GLUE
 void
 ToProvidedString
 (

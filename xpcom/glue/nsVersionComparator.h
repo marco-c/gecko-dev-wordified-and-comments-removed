@@ -65,7 +65,6 @@ namespace
 mozilla
 {
 int32_t
-NS_COM_GLUE
 CompareVersions
 (
 const
@@ -82,7 +81,6 @@ aStrB
 ifdef
 XP_WIN
 int32_t
-NS_COM_GLUE
 CompareVersions
 (
 const
@@ -98,7 +96,6 @@ aStrB
 #
 endif
 struct
-NS_COM_GLUE
 Version
 {
 explicit
@@ -449,7 +446,6 @@ versionContent
 ifdef
 XP_WIN
 struct
-NS_COM_GLUE
 VersionW
 {
 VersionW

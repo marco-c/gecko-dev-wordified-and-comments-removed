@@ -21,7 +21,6 @@ C
 {
 #
 endif
-NS_COM_GLUE
 void
 NS_QuickSort
 (

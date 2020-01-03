@@ -26,7 +26,6 @@ class
 nsIThread
 ;
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_GetMainThread
 (
@@ -40,7 +39,6 @@ aResult
 ifdef
 MOZILLA_INTERNAL_API
 extern
-NS_COM_GLUE
 nsIThread
 *
 NS_GetCurrentThread
@@ -60,7 +58,6 @@ NS_IsMainThread
 #
 else
 extern
-NS_COM_GLUE
 bool
 NS_IsMainThread
 (

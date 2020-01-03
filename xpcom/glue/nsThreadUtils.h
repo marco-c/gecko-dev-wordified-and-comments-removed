@@ -84,7 +84,6 @@ Likely
 h
 "
 extern
-NS_COM_GLUE
 void
 NS_SetThreadName
 (
@@ -103,7 +102,6 @@ size_t
 LEN
 >
 inline
-NS_COM_GLUE
 void
 NS_SetThreadName
 (
@@ -151,7 +149,6 @@ aName
 ;
 }
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_NewThread
 (
@@ -301,7 +298,6 @@ rv
 ;
 }
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_GetCurrentThread
 (
@@ -312,7 +308,6 @@ aResult
 )
 ;
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_DispatchToCurrentThread
 (
@@ -322,7 +317,6 @@ aEvent
 )
 ;
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_DispatchToMainThread
 (
@@ -339,7 +333,6 @@ NS_DISPATCH_NORMAL
 ifndef
 XPCOM_GLUE_AVOID_NSPR
 extern
-NS_COM_GLUE
 NS_METHOD
 NS_ProcessPendingEvents
 (
@@ -355,7 +348,6 @@ PR_INTERVAL_NO_TIMEOUT
 #
 endif
 extern
-NS_COM_GLUE
 bool
 NS_HasPendingEvents
 (
@@ -367,7 +359,6 @@ nullptr
 )
 ;
 extern
-NS_COM_GLUE
 bool
 NS_ProcessNextEvent
 (
@@ -448,7 +439,6 @@ thread
 ifdef
 MOZILLA_INTERNAL_API
 extern
-NS_COM_GLUE
 nsIThread
 *
 NS_GetCurrentThread
@@ -460,15 +450,7 @@ endif
 #
 ifndef
 XPCOM_GLUE_AVOID_NSPR
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
-NS_COM_GLUE
 class
-NS_COM_GLUE
 nsRunnable
 :
 public
@@ -495,7 +477,6 @@ nsRunnable
 }
 ;
 class
-NS_COM_GLUE
 nsCancelableRunnable
 :
 public
@@ -522,12 +503,6 @@ nsCancelableRunnable
 }
 }
 ;
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
 template
 <
 class

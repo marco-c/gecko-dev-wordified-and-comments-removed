@@ -66,13 +66,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsCycleCollectionNoteChild
 .
 h
@@ -564,7 +557,6 @@ const
 }
 ;
 class
-NS_COM_GLUE
 MOZ_STACK_CLASS
 nsQueryInterface
 MOZ_FINAL
@@ -610,7 +602,6 @@ mRawPtr
 }
 ;
 class
-NS_COM_GLUE
 nsQueryInterfaceWithError
 {
 public
@@ -736,7 +727,6 @@ nsresult
 {
 }
 class
-NS_COM_GLUE
 nsGetServiceByCID
 {
 public
@@ -781,7 +771,6 @@ mCID
 }
 ;
 class
-NS_COM_GLUE
 nsGetServiceByCIDWithError
 {
 public
@@ -836,7 +825,6 @@ mErrorPtr
 }
 ;
 class
-NS_COM_GLUE
 nsGetServiceByContractID
 {
 public
@@ -881,7 +869,6 @@ mContractID
 }
 ;
 class
-NS_COM_GLUE
 nsGetServiceByContractIDWithError
 {
 public
@@ -956,7 +943,6 @@ aRawPtr
 )
 {
 }
-NS_COM_GLUE
 NS_CONSTRUCTOR_FASTCALL
 ~
 nsCOMPtr_base
@@ -982,7 +968,6 @@ mRawPtr
 ;
 }
 }
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_with_AddRef
@@ -991,7 +976,6 @@ nsISupports
 *
 )
 ;
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_from_qi
@@ -1003,7 +987,6 @@ nsIID
 &
 )
 ;
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_from_qi_with_error
@@ -1016,7 +999,6 @@ nsIID
 &
 )
 ;
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_from_gs_cid
@@ -1028,7 +1010,6 @@ nsIID
 &
 )
 ;
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_from_gs_cid_with_error
@@ -1041,7 +1022,6 @@ nsIID
 &
 )
 ;
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_from_gs_contractid
@@ -1053,7 +1033,6 @@ nsIID
 &
 )
 ;
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_from_gs_contractid_with_error
@@ -1066,7 +1045,6 @@ nsIID
 &
 )
 ;
-NS_COM_GLUE
 void
 NS_FASTCALL
 assign_from_helper
@@ -1079,7 +1057,6 @@ nsIID
 &
 )
 ;
-NS_COM_GLUE
 void
 *
 *

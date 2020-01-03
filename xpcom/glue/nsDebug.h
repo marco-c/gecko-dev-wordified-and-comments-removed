@@ -1593,7 +1593,6 @@ C
 {
 #
 endif
-NS_COM_GLUE
 void
 printf_stderr
 (
@@ -1606,7 +1605,6 @@ aFmt
 .
 )
 ;
-NS_COM_GLUE
 void
 vprintf_stderr
 (
@@ -1618,7 +1616,6 @@ va_list
 aArgs
 )
 ;
-NS_COM_GLUE
 void
 fprintf_stderr
 (
@@ -1634,7 +1631,6 @@ aFmt
 .
 )
 ;
-NS_COM_GLUE
 void
 set_stderr_callback
 (

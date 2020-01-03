@@ -45,7 +45,6 @@ class
 nsIFile
 ;
 class
-NS_COM_GLUE
 nsINIParser
 {
 public

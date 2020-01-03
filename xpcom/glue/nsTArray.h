@@ -691,7 +691,6 @@ aSize
 #
 endif
 struct
-NS_COM_GLUE
 nsTArrayHeader
 {
 static
