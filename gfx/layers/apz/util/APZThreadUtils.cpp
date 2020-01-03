@@ -21,12 +21,17 @@ Compositor
 h
 "
 #
+ifdef
+MOZ_ANDROID_APZ
+#
 include
 "
 AndroidBridge
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
