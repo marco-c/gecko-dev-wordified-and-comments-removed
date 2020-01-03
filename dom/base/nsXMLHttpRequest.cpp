@@ -16281,6 +16281,10 @@ js_realloc
 (
 mDataPtr
 aNewCap
+?
+aNewCap
+:
+1
 )
 ;
 if
