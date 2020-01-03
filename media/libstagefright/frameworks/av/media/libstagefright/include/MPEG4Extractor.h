@@ -301,6 +301,9 @@ uint32_t
 timescale
 ;
 uint64_t
+empty_duration
+;
+uint64_t
 segment_duration
 ;
 int64_t
