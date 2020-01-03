@@ -238,8 +238,6 @@ TenuredHeap
 enum
 class
 AllocKind
-:
-uint8_t
 {
 FIRST
 OBJECT0
