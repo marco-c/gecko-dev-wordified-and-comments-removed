@@ -728,7 +728,7 @@ l10n
 get
 (
 "
-hangup_button_caption
+hangup_button_caption2
 "
 )
 )

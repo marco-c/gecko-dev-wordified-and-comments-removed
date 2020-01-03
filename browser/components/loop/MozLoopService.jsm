@@ -1185,7 +1185,7 @@ this
 localizedStrings
 [
 "
-incoming_call_title
+incoming_call_title2
 "
 ]
 .

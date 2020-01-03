@@ -1412,7 +1412,7 @@ label
 __
 (
 "
-initiate_call_button_label
+initiate_call_button_label2
 "
 )
 )
@@ -1550,7 +1550,7 @@ title
 __
 (
 "
-initiate_audio_video_call_tooltip
+initiate_audio_video_call_tooltip2
 "
 )
 }
@@ -1576,7 +1576,7 @@ text
 __
 (
 "
-initiate_audio_video_call_button
+initiate_audio_video_call_button2
 "
 )
 )
@@ -1682,7 +1682,7 @@ disableCallButton
 __
 (
 "
-initiate_audio_call_button
+initiate_audio_call_button2
 "
 )
 )
