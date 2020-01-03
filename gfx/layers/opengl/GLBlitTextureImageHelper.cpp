@@ -1122,6 +1122,13 @@ UseBlitProgram
 (
 )
 {
+mCompositor
+-
+>
+ResetProgram
+(
+)
+;
 GLContext
 *
 gl

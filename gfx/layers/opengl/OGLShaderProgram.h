@@ -1047,7 +1047,7 @@ currentProgram
 )
 ;
 \
-NS_ASSERTION
+MOZ_ASSERT
 (
 currentProgram
 =
@@ -1146,8 +1146,8 @@ mProgramState
 STATE_OK
 ;
 }
-void
-Activate
+GLuint
+GetProgram
 (
 )
 ;

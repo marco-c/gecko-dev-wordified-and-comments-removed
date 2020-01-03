@@ -1039,6 +1039,11 @@ return
 mGLContext
 ;
 }
+void
+ResetProgram
+(
+)
+;
 gfx
 :
 :
@@ -1438,6 +1443,14 @@ aTexture
 )
 ;
 void
+ActivateProgram
+(
+ShaderProgramOGL
+*
+aProg
+)
+;
+void
 CleanupResources
 (
 )
@@ -1495,6 +1508,10 @@ mHeight
 ;
 FenceHandle
 mReleaseFenceHandle
+;
+ShaderProgramOGL
+*
+mCurrentProgram
 ;
 }
 ;
