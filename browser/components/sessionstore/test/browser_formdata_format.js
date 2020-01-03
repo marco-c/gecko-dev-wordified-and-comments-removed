@@ -929,6 +929,12 @@ tab
 .
 linkedBrowser
 ;
+aFormData
+.
+url
+=
+URL
+;
 let
 tabState
 =
@@ -940,11 +946,11 @@ entries
 url
 :
 URL
+}
+]
 formdata
 :
 aFormData
-}
-]
 }
 ;
 Task
