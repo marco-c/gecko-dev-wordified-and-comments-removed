@@ -3161,6 +3161,9 @@ GetKeyLightEnabled
 LightConfiguration
 config
 ;
+bool
+ok
+=
 GetLight
 (
 eHalLightID_Buttons
@@ -3168,6 +3171,11 @@ eHalLightID_Buttons
 config
 )
 ;
+if
+(
+ok
+)
+{
 return
 (
 config
@@ -3177,6 +3185,10 @@ color
 =
 0x00000000
 )
+;
+}
+return
+false
 ;
 }
 void
@@ -3306,6 +3318,9 @@ light
 =
 eHalLightID_Backlight
 ;
+bool
+ok
+=
 GetLight
 (
 light
@@ -3313,6 +3328,11 @@ light
 config
 )
 ;
+if
+(
+ok
+)
+{
 int
 brightness
 =
@@ -3327,6 +3347,10 @@ brightness
 /
 255
 .
+0
+;
+}
+return
 0
 ;
 }
