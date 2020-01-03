@@ -118,6 +118,11 @@ TestGlobalClass
 cpp
 '
 '
+TestHeapClass
+.
+cpp
+'
+'
 TestInheritTypeAnnotationsFromTemplateArgs
 .
 cpp
