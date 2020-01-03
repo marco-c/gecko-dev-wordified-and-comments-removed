@@ -583,7 +583,7 @@ private
 enum
 SwitchSourceResult
 {
-SOURCE_ERROR
+SOURCE_NONE
 =
 -
 1
