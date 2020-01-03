@@ -311,6 +311,10 @@ bool
 null
 on
 failure
+not
+available
+on
+Android
 e10sEnabled
 :
 <
