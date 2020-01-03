@@ -9135,6 +9135,8 @@ CheckPermission
 "
 settings
 -
+api
+-
 read
 "
 )
@@ -9144,6 +9146,8 @@ CheckPermission
 (
 "
 settings
+-
+api
 -
 write
 "
