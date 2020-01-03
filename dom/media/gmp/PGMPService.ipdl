@@ -164,8 +164,6 @@ nsString
 topLevelOrigin
 bool
 inPrivateBrowsing
-nsCString
-version
 )
 returns
 (

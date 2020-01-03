@@ -117,10 +117,6 @@ nsAString
 aTopLevelOrigin
 bool
 aInPrivateBrowsingMode
-const
-nsACString
-&
-aVersion
 UniquePtr
 <
 GetNodeIdCallback
