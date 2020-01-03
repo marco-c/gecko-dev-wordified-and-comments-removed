@@ -235,6 +235,8 @@ center
 getTextSize
 (
 )
++
+1
 ;
 final
 float
@@ -245,6 +247,8 @@ center
 getTextSize
 (
 )
+-
+1
 ;
 canvas
 .
