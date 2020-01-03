@@ -3133,7 +3133,7 @@ GetClipRect
 (
 )
 :
-nsIntRect
+ParentLayerIntRect
 (
 )
 )

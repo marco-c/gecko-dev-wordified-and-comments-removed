@@ -387,6 +387,18 @@ using
 mozilla
 :
 :
+ParentLayerIntRect
+from
+"
+Units
+.
+h
+"
+;
+using
+mozilla
+:
+:
 layers
 :
 :
@@ -1247,7 +1259,7 @@ opacity
 bool
 useClipRect
 ;
-nsIntRect
+ParentLayerIntRect
 clipRect
 ;
 bool
