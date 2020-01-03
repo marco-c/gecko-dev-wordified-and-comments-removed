@@ -31,6 +31,40 @@ abspath
 __file__
 )
 )
+def
+create_realpath_tempdir
+(
+)
+:
+    
+"
+"
+"
+    
+Create
+a
+tempdir
+without
+symlinks
+.
+    
+"
+"
+"
+    
+return
+os
+.
+path
+.
+realpath
+(
+tempfile
+.
+mkdtemp
+(
+)
+)
 class
 TestDirectoryConversion
 (
@@ -104,9 +138,7 @@ None
             
 directory
 =
-tempfile
-.
-mkdtemp
+create_realpath_tempdir
 (
 )
         
@@ -921,9 +953,7 @@ files
         
 tempdir
 =
-tempfile
-.
-mkdtemp
+create_realpath_tempdir
 (
 )
         
@@ -965,9 +995,7 @@ i
         
 newtempdir
 =
-tempfile
-.
-mkdtemp
+create_realpath_tempdir
 (
 )
         
