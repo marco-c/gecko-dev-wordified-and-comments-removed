@@ -562,14 +562,6 @@ xml
 "
 #
 define
-APPLICATION_PACKAGE
-"
-application
-/
-package
-"
-#
-define
 AUDIO_BASIC
 "
 audio
