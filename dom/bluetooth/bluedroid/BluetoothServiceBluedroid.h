@@ -38,6 +38,9 @@ class
 CancelDiscoveryResultHandler
 ;
 class
+CleanupResultHandler
+;
+class
 CreateBondResultHandler
 ;
 class
