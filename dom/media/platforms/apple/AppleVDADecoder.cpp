@@ -2114,7 +2114,7 @@ kCFTypeDictionaryValueCallBacks
 SInt32
 PixelFormatTypeValue
 =
-kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange
+kCVPixelFormatType_32BGRA
 ;
 AutoCFRelease
 <

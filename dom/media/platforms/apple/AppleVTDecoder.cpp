@@ -1624,6 +1624,10 @@ AppleCMLinker
 :
 :
 skPropExtensionAtoms
+AppleCMLinker
+:
+:
+skPropFullRangeVideo
 }
 ;
 const
@@ -1637,6 +1641,7 @@ extensionValues
 kCVImageBufferChromaLocation_Left
 kCVImageBufferChromaLocation_Left
 atoms
+kCFBooleanTrue
 }
 ;
 static_assert
