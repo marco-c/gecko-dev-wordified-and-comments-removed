@@ -1,14 +1,14 @@
 Tutorial
 :
 Evaluate
-An
+an
 Expression
 When
 a
 debugger
 ;
 Statement
-is
+Is
 Executed
 =
 =
