@@ -2229,7 +2229,7 @@ nullptr
 )
 asmJSCompilationInProgress
 (
-nullptr
+false
 )
 helperLock
 (
