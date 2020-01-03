@@ -822,16 +822,16 @@ label
 =
 "
 &
-dntTrackingNotOkay
+dntTrackingNotOkay2
 .
-label2
+label
 ;
 "
 accesskey
 =
 "
 &
-dntTrackingNotOkay
+dntTrackingNotOkay2
 .
 accesskey
 ;
@@ -935,7 +935,7 @@ accesskey
 =
 "
 &
-trackingProtection
+trackingProtection2
 .
 accesskey
 ;
@@ -944,7 +944,7 @@ label
 =
 "
 &
-trackingProtection
+trackingProtection2
 .
 label
 ;
@@ -1022,7 +1022,7 @@ accesskey
 =
 "
 &
-trackingProtectionPBM
+trackingProtectionPBM2
 .
 accesskey
 ;
@@ -1031,7 +1031,7 @@ label
 =
 "
 &
-trackingProtectionPBM
+trackingProtectionPBM2
 .
 label
 ;
