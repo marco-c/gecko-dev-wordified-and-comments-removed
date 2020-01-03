@@ -340,6 +340,17 @@ Initialize
 ;
 #
 endif
+nsPresContext
+*
+PresContext
+(
+)
+const
+{
+return
+mPresContext
+;
+}
 void
 Disconnect
 (
