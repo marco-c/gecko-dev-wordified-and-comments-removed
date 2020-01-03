@@ -4245,6 +4245,10 @@ aColors
 ;
 protected
 :
+friend
+struct
+MacCharsetMappingComparator
+;
 static
 nsresult
 ReadNames
