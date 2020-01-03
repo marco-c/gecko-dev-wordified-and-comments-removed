@@ -723,15 +723,6 @@ emptyString
 (
 nullptr
 )
-#
-ifdef
-NIGHTLY_BUILD
-assertOnScriptEntryHook_
-(
-nullptr
-)
-#
-endif
 spsProfiler
 (
 thisFromCtor
