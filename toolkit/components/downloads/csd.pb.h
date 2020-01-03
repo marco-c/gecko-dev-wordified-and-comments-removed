@@ -245,6 +245,9 @@ ClientDownloadRequest_DownloadType_ANDROID_APK
 ClientDownloadRequest_DownloadType_ZIPPED_EXECUTABLE
 =
 3
+ClientDownloadRequest_DownloadType_MAC_EXECUTABLE
+=
+4
 }
 ;
 bool
@@ -264,7 +267,7 @@ const
 ClientDownloadRequest_DownloadType
 ClientDownloadRequest_DownloadType_DownloadType_MAX
 =
-ClientDownloadRequest_DownloadType_ZIPPED_EXECUTABLE
+ClientDownloadRequest_DownloadType_MAC_EXECUTABLE
 ;
 const
 int
@@ -5227,6 +5230,13 @@ DownloadType
 ZIPPED_EXECUTABLE
 =
 ClientDownloadRequest_DownloadType_ZIPPED_EXECUTABLE
+;
+static
+const
+DownloadType
+MAC_EXECUTABLE
+=
+ClientDownloadRequest_DownloadType_MAC_EXECUTABLE
 ;
 static
 inline

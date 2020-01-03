@@ -1234,6 +1234,19 @@ a
 serialized
 protocol
 buffer
+(
+the
+length
+doesn
+'
+t
+match
+our
+hard
+-
+coded
+values
+)
 "
 ;
 if
@@ -1243,7 +1256,7 @@ buf
 length
 =
 =
-65
+67
 )
 {
 blob
@@ -1262,7 +1275,7 @@ buf
 length
 =
 =
-71
+73
 )
 {
 blob
