@@ -575,6 +575,8 @@ version
 =
 null
 callback
+=
+null
 )
 {
 if
