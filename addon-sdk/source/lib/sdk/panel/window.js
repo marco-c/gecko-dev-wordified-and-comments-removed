@@ -156,6 +156,8 @@ anchorWindow
 break
 ;
 }
+try
+{
 let
 browser
 =
@@ -179,6 +181,13 @@ enumWindow
 ;
 break
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 }
 }
