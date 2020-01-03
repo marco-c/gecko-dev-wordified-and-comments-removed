@@ -591,7 +591,10 @@ nextUpdate
 (
 time
 +
-10
+Time
+:
+:
+ONE_DAY_IN_SECONDS
 )
 includeNextUpdate
 (
