@@ -7774,13 +7774,7 @@ if
 aRestyleHint
 &
 ~
-(
-eRestyle_CSSTransitions
-|
-eRestyle_CSSAnimations
-|
-eRestyle_SVGAttrAnimations
-)
+eRestyle_AllHintsWithAnimations
 )
 {
 mHavePendingNonAnimationRestyles
