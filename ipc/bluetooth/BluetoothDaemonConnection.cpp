@@ -903,8 +903,6 @@ final
 public
 UnixSocketWatcher
 public
-DataSocketIO
-public
 ConnectionOrientedSocketIO
 {
 public

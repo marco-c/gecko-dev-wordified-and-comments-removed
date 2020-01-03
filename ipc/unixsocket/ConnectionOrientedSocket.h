@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsError
+DataSocket
 .
 h
 "
@@ -31,6 +31,9 @@ sockaddr_any
 ;
 class
 ConnectionOrientedSocketIO
+:
+public
+DataSocketIO
 {
 public
 :
@@ -63,6 +66,9 @@ ConnectionOrientedSocketIO
 ;
 class
 ConnectionOrientedSocket
+:
+public
+DataSocket
 {
 public
 :
