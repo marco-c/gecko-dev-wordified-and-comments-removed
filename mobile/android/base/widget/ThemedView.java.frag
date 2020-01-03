@@ -298,8 +298,6 @@ int
 defStyle
 )
 {
-/
-/
 #
 ifdef
 STYLE_CONSTRUCTOR
@@ -310,8 +308,6 @@ attrs
 defStyle
 )
 ;
-/
-/
 #
 else
 super
@@ -320,8 +316,6 @@ context
 attrs
 )
 ;
-/
-/
 #
 endif
 mTheme

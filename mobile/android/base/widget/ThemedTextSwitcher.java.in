@@ -1,16 +1,10 @@
-/
-/
 #
 filter
 substitution
-/
-/
 #
 define
 VIEW_NAME_SUFFIX
 TextSwitcher
-/
-/
 #
 define
 BASE_TYPE
@@ -19,8 +13,6 @@ android
 widget
 .
 TextSwitcher
-/
-/
 #
 include
 ThemedView
