@@ -27678,15 +27678,7 @@ false
 ;
 }
 return
-mSheetPrincipal
-&
-&
-mSheetPrincipal
--
->
-IsOnCSSUnprefixingWhitelist
-(
-)
+true
 ;
 }
 bool
