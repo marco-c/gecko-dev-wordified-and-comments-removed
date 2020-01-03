@@ -113,11 +113,6 @@ gfx2DGlue
 h
 '
 '
-gfx3DMatrix
-.
-h
-'
-'
 gfxAlphaRecovery
 .
 h
@@ -1118,11 +1113,6 @@ UNIFIED_SOURCES
 [
 '
 CJKCompatSVS
-.
-cpp
-'
-'
-gfx3DMatrix
 .
 cpp
 '
