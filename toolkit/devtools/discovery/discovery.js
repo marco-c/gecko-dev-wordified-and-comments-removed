@@ -348,13 +348,6 @@ UDPSocket
 (
 port
 false
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 )
 ;
 this

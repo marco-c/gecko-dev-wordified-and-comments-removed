@@ -237,10 +237,6 @@ PUDPSocketChild
 AllocPUDPSocketChild
 (
 const
-Principal
-&
-aPrincipal
-const
 nsCString
 &
 aFilter

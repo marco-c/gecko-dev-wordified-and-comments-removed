@@ -2105,9 +2105,6 @@ NeckoParent
 AllocPUDPSocketParent
 (
 const
-Principal
-&
-const
 nsCString
 &
 )
@@ -2145,10 +2142,6 @@ PUDPSocketParent
 *
 aActor
 const
-Principal
-&
-aPrincipal
-const
 nsCString
 &
 aFilter
@@ -2167,7 +2160,6 @@ aActor
 >
 Init
 (
-aPrincipal
 aFilter
 )
 ;

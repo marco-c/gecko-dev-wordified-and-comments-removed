@@ -813,13 +813,6 @@ init
 (
 SSDP_PORT
 false
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 )
 ;
 socket
