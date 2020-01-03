@@ -179,6 +179,7 @@ GstMozVideoBufferData
 {
 public
 :
+explicit
 GstMozVideoBufferData
 (
 layers
