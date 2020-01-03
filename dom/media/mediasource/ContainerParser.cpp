@@ -1009,6 +1009,15 @@ public
 MP4ContainerParser
 (
 )
+:
+mMonitor
+(
+"
+MP4ContainerParser
+Index
+Monitor
+"
+)
 {
 }
 bool
@@ -1224,6 +1233,12 @@ int64_t
 aEnd
 )
 {
+MonitorAutoLock
+mon
+(
+mMonitor
+)
+;
 bool
 initSegment
 =
@@ -1258,6 +1273,8 @@ MoofParser
 (
 mStream
 0
+&
+mMonitor
 )
 ;
 }
@@ -1497,6 +1514,9 @@ mp4_demuxer
 MoofParser
 >
 mParser
+;
+Monitor
+mMonitor
 ;
 }
 ;

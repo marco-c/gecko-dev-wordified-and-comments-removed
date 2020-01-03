@@ -812,6 +812,8 @@ GetResource
 (
 )
 )
+&
+mIndexMonitor
 )
 ;
 InitLayersBackendType

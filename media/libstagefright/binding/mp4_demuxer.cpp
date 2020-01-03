@@ -337,6 +337,9 @@ MP4Demuxer
 Stream
 *
 source
+Monitor
+*
+aMonitor
 )
 :
 mPrivate
@@ -349,6 +352,10 @@ StageFrightPrivate
 mSource
 (
 source
+)
+mMonitor
+(
+aMonitor
 )
 {
 mPrivate
@@ -597,6 +604,7 @@ mSource
 mAudioConfig
 .
 mTrackId
+mMonitor
 )
 ;
 mPrivate
@@ -726,6 +734,7 @@ mSource
 mVideoConfig
 .
 mTrackId
+mMonitor
 )
 ;
 mPrivate
