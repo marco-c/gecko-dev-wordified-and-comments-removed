@@ -9079,6 +9079,9 @@ aAllowMixedContent
 var
 aSkipAnimation
 ;
+var
+aForceNotRemote
+;
 if
 (
 arguments
@@ -9176,6 +9179,12 @@ params
 .
 skipAnimation
 ;
+aForceNotRemote
+=
+params
+.
+forceNotRemote
+;
 }
 var
 bgLoad
@@ -9251,6 +9260,9 @@ aSkipAnimation
 allowMixedContent
 :
 aAllowMixedContent
+forceNotRemote
+:
+aForceNotRemote
 }
 )
 ;
@@ -11153,6 +11165,9 @@ aSkipAnimation
 var
 aAllowMixedContent
 ;
+var
+aForceNotRemote
+;
 if
 (
 arguments
@@ -11249,6 +11264,12 @@ aAllowMixedContent
 params
 .
 allowMixedContent
+;
+aForceNotRemote
+=
+params
+.
+forceNotRemote
 ;
 }
 /
@@ -11358,7 +11379,12 @@ tab
 let
 remote
 =
+(
 gMultiProcessBrowser
+&
+&
+!
+aForceNotRemote
 &
 &
 E10SUtils
@@ -11366,6 +11392,7 @@ E10SUtils
 shouldBrowserBeRemote
 (
 aURI
+)
 )
 ;
 if
