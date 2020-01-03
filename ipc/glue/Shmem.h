@@ -154,6 +154,7 @@ Shmem
 :
 mSegment
 (
+nullptr
 )
 mData
 (
@@ -722,10 +723,8 @@ const
 ;
 #
 endif
-nsRefPtr
-<
 SharedMemory
->
+*
 mSegment
 ;
 void
