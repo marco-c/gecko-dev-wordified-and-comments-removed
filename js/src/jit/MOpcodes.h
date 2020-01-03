@@ -274,6 +274,11 @@ ApplyArgs
 \
 _
 (
+ArraySplice
+)
+\
+_
+(
 Bail
 )
 \

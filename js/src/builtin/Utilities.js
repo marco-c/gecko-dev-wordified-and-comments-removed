@@ -241,12 +241,7 @@ return
 std_Math_min
 (
 v
-2
-*
-*
-53
--
-1
+0x1fffffffffffff
 )
 ;
 }
