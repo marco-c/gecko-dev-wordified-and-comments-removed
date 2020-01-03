@@ -1,9 +1,9 @@
 #
 ifndef
-__nsPrintingProxy_h
+__nsPrintingPromptServiceProxy_h
 #
 define
-__nsPrintingProxy_h
+__nsPrintingPromptServiceProxy_h
 #
 include
 "
@@ -23,7 +23,7 @@ PPrintingChild
 h
 "
 class
-nsPrintingProxy
+nsPrintingPromptServiceProxy
 :
 public
 nsIPrintingPromptService
@@ -38,13 +38,13 @@ PPrintingChild
 {
 virtual
 ~
-nsPrintingProxy
+nsPrintingPromptServiceProxy
 (
 )
 ;
 public
 :
-nsPrintingProxy
+nsPrintingPromptServiceProxy
 (
 )
 ;
