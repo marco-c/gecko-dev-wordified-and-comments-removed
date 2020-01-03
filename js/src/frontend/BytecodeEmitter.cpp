@@ -1379,7 +1379,7 @@ return
 true
 ;
 }
-ptrdiff_t
+bool
 frontend
 :
 :
@@ -1443,8 +1443,7 @@ offset
 0
 )
 return
--
-1
+false
 ;
 jsbytecode
 *
@@ -1490,7 +1489,7 @@ offset
 )
 ;
 return
-offset
+true
 ;
 }
 ptrdiff_t
@@ -1671,7 +1670,7 @@ offset
 ;
 }
 static
-ptrdiff_t
+bool
 EmitCall
 (
 ExclusiveContext
@@ -1710,8 +1709,7 @@ begin
 )
 )
 return
--
-1
+false
 ;
 return
 Emit3
@@ -2015,7 +2013,7 @@ topStmt
 ;
 }
 static
-ptrdiff_t
+bool
 EmitBackPatchOp
 (
 ExclusiveContext
@@ -2031,9 +2029,6 @@ lastp
 {
 ptrdiff_t
 offset
-delta
-;
-offset
 =
 bce
 -
@@ -2042,6 +2037,7 @@ offset
 (
 )
 ;
+ptrdiff_t
 delta
 =
 offset
@@ -2069,6 +2065,9 @@ bce
 JSOP_BACKPATCH
 delta
 )
+>
+=
+0
 ;
 }
 static
@@ -2664,6 +2663,7 @@ JS_BEGIN_MACRO
 \
 if
 (
+!
 Emit3
 (
 cx
@@ -2678,8 +2678,6 @@ UINT16_LO
 i
 )
 )
-<
-0
 )
 \
 return
@@ -3092,6 +3090,7 @@ FLUSH_POPS
 ;
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -3104,8 +3103,6 @@ gosubs
 (
 )
 )
-<
-0
 )
 return
 false
@@ -3383,13 +3380,23 @@ return
 1
 ;
 }
-return
+if
+(
+!
 EmitBackPatchOp
 (
 cx
 bce
 lastp
 )
+)
+return
+-
+1
+;
+return
+*
+lastp
 ;
 }
 static
@@ -16931,6 +16938,7 @@ false
 ;
 if
 (
+!
 EmitCall
 (
 cx
@@ -16939,8 +16947,6 @@ JSOP_CALL
 0
 pn
 )
-<
-0
 )
 return
 false
@@ -21876,6 +21882,7 @@ pn_kid3
 {
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -21887,8 +21894,6 @@ gosubs
 (
 )
 )
-<
-0
 )
 return
 false
@@ -21926,6 +21931,7 @@ catchJump
 ;
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -21933,8 +21939,6 @@ bce
 &
 catchJump
 )
-<
-0
 )
 return
 false
@@ -22040,6 +22044,7 @@ pn_kid3
 {
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -22051,8 +22056,6 @@ gosubs
 (
 )
 )
-<
-0
 )
 return
 false
@@ -22071,6 +22074,7 @@ depth
 }
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -22078,8 +22082,6 @@ bce
 &
 catchJump
 )
-<
-0
 )
 return
 false
@@ -23127,6 +23129,7 @@ false
 ;
 if
 (
+!
 EmitCall
 (
 cx
@@ -23134,8 +23137,6 @@ bce
 JSOP_CALL
 0
 )
-<
-0
 )
 return
 false
@@ -28050,6 +28051,7 @@ initialSend
 ;
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -28057,8 +28059,6 @@ bce
 &
 initialSend
 )
-<
-0
 )
 return
 false
@@ -28188,6 +28188,7 @@ subsequentSend
 ;
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -28195,8 +28196,6 @@ bce
 &
 subsequentSend
 )
-<
-0
 )
 return
 false
@@ -28461,6 +28460,7 @@ false
 ;
 if
 (
+!
 EmitCall
 (
 cx
@@ -28469,8 +28469,6 @@ JSOP_CALL
 1
 iter
 )
-<
-0
 )
 return
 false
@@ -28501,6 +28499,7 @@ checkResult
 ;
 if
 (
+!
 EmitBackPatchOp
 (
 cx
@@ -28508,8 +28507,6 @@ bce
 &
 checkResult
 )
-<
-0
 )
 return
 false
@@ -28700,6 +28697,7 @@ false
 ;
 if
 (
+!
 EmitCall
 (
 cx
@@ -28708,8 +28706,6 @@ JSOP_CALL
 1
 iter
 )
-<
-0
 )
 return
 false
@@ -29875,6 +29871,7 @@ pn_count
 ;
 if
 (
+!
 EmitCall
 (
 cx
@@ -29887,8 +29884,6 @@ getOp
 )
 argc
 )
-<
-0
 )
 return
 false
@@ -30056,6 +30051,7 @@ pn_next
 ;
 if
 (
+!
 EmitCall
 (
 cx
@@ -30063,8 +30059,6 @@ bce
 JSOP_RESUME
 operand
 )
-<
-0
 )
 return
 false
@@ -30664,6 +30658,7 @@ spread
 {
 if
 (
+!
 EmitCall
 (
 cx
@@ -30677,8 +30672,6 @@ getOp
 argc
 pn
 )
-<
-0
 )
 return
 false

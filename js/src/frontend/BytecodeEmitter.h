@@ -1046,7 +1046,7 @@ jsbytecode
 op1
 )
 ;
-ptrdiff_t
+bool
 Emit3
 (
 ExclusiveContext
