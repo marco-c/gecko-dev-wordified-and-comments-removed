@@ -875,6 +875,7 @@ false
 )
 ;
 }
+final
 Drawable
 icon
 =
@@ -896,6 +897,10 @@ R
 drawable
 .
 search_icon_active
+)
+.
+mutate
+(
 )
 )
 ;
