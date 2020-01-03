@@ -5,10 +5,12 @@ waitForExplicitFinish
 const
 TEST_URL
 =
+TEST_BASE
++
 "
-about
-:
-config
+doc_xulpage
+.
+xul
 "
 ;
 add_task
