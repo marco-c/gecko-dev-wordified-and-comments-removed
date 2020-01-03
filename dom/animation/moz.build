@@ -163,7 +163,7 @@ AnimationUtils
 h
 '
 '
-PendingPlayerTracker
+PendingAnimationTracker
 .
 h
 '
@@ -198,7 +198,7 @@ KeyframeEffect
 cpp
 '
 '
-PendingPlayerTracker
+PendingAnimationTracker
 .
 cpp
 '

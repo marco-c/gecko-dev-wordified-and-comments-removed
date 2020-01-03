@@ -113,7 +113,7 @@ include
 "
 mozilla
 /
-PendingPlayerTracker
+PendingAnimationTracker
 .
 h
 "
@@ -10948,14 +10948,14 @@ if
 doc
 )
 {
-PendingPlayerTracker
+PendingAnimationTracker
 *
 tracker
 =
 doc
 -
 >
-GetPendingPlayerTracker
+GetPendingAnimationTracker
 (
 )
 ;
@@ -10967,7 +10967,7 @@ tracker
 tracker
 -
 >
-TriggerPendingPlayersNow
+TriggerPendingAnimationsNow
 (
 )
 ;

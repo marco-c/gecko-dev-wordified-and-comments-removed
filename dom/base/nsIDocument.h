@@ -354,7 +354,7 @@ class
 EventStates
 ;
 class
-PendingPlayerTracker
+PendingAnimationTracker
 ;
 class
 SVGAttrAnimationRuleProcessor
@@ -3994,9 +3994,9 @@ virtual
 mozilla
 :
 :
-PendingPlayerTracker
+PendingAnimationTracker
 *
-GetPendingPlayerTracker
+GetPendingAnimationTracker
 (
 )
 =
@@ -4006,9 +4006,9 @@ virtual
 mozilla
 :
 :
-PendingPlayerTracker
+PendingAnimationTracker
 *
-GetOrCreatePendingPlayerTracker
+GetOrCreatePendingAnimationTracker
 (
 )
 =
