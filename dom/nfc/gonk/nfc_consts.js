@@ -573,6 +573,12 @@ TAG_EVENT_LOST
 ;
 this
 .
+PEER_EVENT_FOUND
+=
+0x05
+;
+this
+.
 EXPORTED_SYMBOLS
 =
 Object
