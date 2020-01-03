@@ -135,6 +135,13 @@ cpp
 '
 lib
 /
+pkixnames
+.
+cpp
+'
+'
+lib
+/
 pkixnss
 .
 cpp
