@@ -175,6 +175,14 @@ mAdapterPath
 (
 aAdapterPath
 )
+mConnected
+(
+false
+)
+mPaired
+(
+false
+)
 mIsRooted
 (
 false
