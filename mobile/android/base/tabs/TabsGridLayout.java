@@ -282,9 +282,7 @@ view
 ;
 item
 .
-thumbnail
-.
-setImageDrawable
+setThumbnail
 (
 null
 )
@@ -369,7 +367,9 @@ getTab
 (
 itemView
 .
-id
+getTabId
+(
+)
 )
 ;
 Tabs
@@ -422,7 +422,9 @@ selectTab
 (
 tab
 .
-id
+getTabId
+(
+)
 )
 ;
 autoHidePanel
