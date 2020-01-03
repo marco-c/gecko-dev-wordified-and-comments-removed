@@ -36,6 +36,9 @@ narenas
 lg_chunk
 :
 20
+tcache
+:
+false
 "
 ;
 #
