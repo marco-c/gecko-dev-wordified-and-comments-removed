@@ -1489,6 +1489,9 @@ case
 PNK_FORHEAD
 :
 case
+PNK_FRESHENBLOCK
+:
+case
 PNK_CLASSMETHOD
 :
 case
