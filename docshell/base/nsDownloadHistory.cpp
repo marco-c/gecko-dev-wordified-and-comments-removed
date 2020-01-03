@@ -97,9 +97,11 @@ if
 !
 history
 )
+{
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 bool
 visited
 ;
@@ -172,6 +174,7 @@ if
 (
 os
 )
+{
 os
 -
 >
@@ -182,6 +185,7 @@ NS_LINK_VISITED_EVENT_TOPIC
 nullptr
 )
 ;
+}
 }
 return
 NS_OK

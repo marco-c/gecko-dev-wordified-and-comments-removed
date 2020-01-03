@@ -67,7 +67,7 @@ mozilla
 :
 :
 CSSIntPoint
-scrollPos
+aScrollPos
 )
 {
 }
@@ -81,7 +81,7 @@ mozilla
 :
 :
 CSSIntPoint
-scrollPos
+aScrollPos
 )
 {
 }

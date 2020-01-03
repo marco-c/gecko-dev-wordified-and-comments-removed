@@ -42,7 +42,7 @@ nsDocShellEditorData
 (
 nsIDocShell
 *
-inOwningDocShell
+aOwningDocShell
 )
 ;
 ~
@@ -54,7 +54,7 @@ nsresult
 MakeEditable
 (
 bool
-inWaitForUriLoad
+aWaitForUriLoad
 )
 ;
 bool
@@ -73,7 +73,7 @@ GetEditingSession
 nsIEditingSession
 *
 *
-outEditingSession
+aResult
 )
 ;
 nsresult
@@ -82,7 +82,7 @@ GetEditor
 nsIEditor
 *
 *
-outEditor
+aResult
 )
 ;
 nsresult
@@ -90,7 +90,7 @@ SetEditor
 (
 nsIEditor
 *
-inEditor
+aEditor
 )
 ;
 void
