@@ -192,9 +192,6 @@ id
 "
 paneTabs
 "
-#
-ifdef
-XP_WIN
 onpaneload
 =
 "
@@ -205,8 +202,6 @@ init
 )
 ;
 "
-#
-endif
 helpTopic
 =
 "
