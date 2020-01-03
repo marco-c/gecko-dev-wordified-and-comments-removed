@@ -2708,6 +2708,16 @@ ROOM_STATES
 .
 CLOSING
 :
+case
+ROOM_STATES
+.
+FULL
+:
+case
+ROOM_STATES
+.
+ENDED
+:
 /
 /
 the

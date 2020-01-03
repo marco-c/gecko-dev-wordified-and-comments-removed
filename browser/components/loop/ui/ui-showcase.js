@@ -9404,7 +9404,7 @@ Showcase
 var
 expectedWarningsCount
 =
-18
+16
 ;
 var
 warningsMismatch
