@@ -3,6 +3,11 @@ use
 strict
 '
 ;
+const
+{
+ManifestObtainer
+}
+=
 Cu
 .
 import
@@ -16,11 +21,12 @@ gre
 /
 modules
 /
-ManifestObtainer
+WebManifest
 .
 jsm
 '
-this
+{
+}
 )
 ;
 requestLongerTimeout
@@ -1610,7 +1616,7 @@ of
 randBrowsers
 (
 browsers
-1000
+100
 )
 )
 obtainer
