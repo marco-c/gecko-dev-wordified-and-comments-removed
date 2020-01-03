@@ -8450,13 +8450,11 @@ UTF
 )
 ;
 let
-(
 str
 =
 {
 }
-)
-{
+;
 let
 read
 =
@@ -8490,7 +8488,6 @@ read
 0
 )
 ;
-}
 data
 =
 data
@@ -8787,13 +8784,11 @@ UTF
 )
 ;
 let
-(
 str
 =
 {
 }
-)
-{
+;
 let
 read
 =
@@ -8827,7 +8822,6 @@ read
 0
 )
 ;
-}
 cstream
 .
 close

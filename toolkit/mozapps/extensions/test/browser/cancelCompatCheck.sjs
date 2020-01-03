@@ -333,13 +333,11 @@ n
 )
 ;
 let
-(
 str
 =
 {
 }
-)
-{
+;
 let
 read
 =
@@ -390,7 +388,6 @@ read
 0
 )
 ;
-}
 cstream
 .
 close
