@@ -3745,7 +3745,7 @@ groupNoBarrier
 ;
 rv
 =
-IsObjectGroupMarked
+IsMarkedUnbarriered
 (
 &
 group
@@ -3928,7 +3928,7 @@ groupNoBarrier
 ;
 isAboutToBeFinalized
 =
-IsObjectGroupAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 group
@@ -15903,7 +15903,7 @@ res
 {
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 group
@@ -16175,7 +16175,7 @@ res
 {
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 group
@@ -20093,7 +20093,7 @@ if
 (
 initializedGroup_
 )
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -20806,7 +20806,7 @@ this
 ;
 if
 (
-IsObjectGroupAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 group
@@ -21898,7 +21898,7 @@ ObjectGroup
 if
 (
 !
-IsObjectGroupAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 group

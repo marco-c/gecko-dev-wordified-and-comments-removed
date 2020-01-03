@@ -909,7 +909,7 @@ receiver_guard_shape
 )
 ;
 else
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -1747,7 +1747,7 @@ shape
 "
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -1786,7 +1786,7 @@ toSetElem_DenseAdd
 (
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -2040,7 +2040,7 @@ toTypeMonitor_ObjectGroup
 (
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -2114,7 +2114,7 @@ toTypeUpdate_ObjectGroup
 (
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -2807,7 +2807,7 @@ toGetProp_Unboxed
 (
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -3308,7 +3308,7 @@ shape
 "
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -3347,7 +3347,7 @@ toSetProp_NativeAdd
 (
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -3398,7 +3398,7 @@ newGroup
 (
 )
 )
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -3578,7 +3578,7 @@ toSetProp_Unboxed
 (
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &
@@ -3642,7 +3642,7 @@ shape
 "
 )
 ;
-MarkObjectGroup
+TraceEdge
 (
 trc
 &

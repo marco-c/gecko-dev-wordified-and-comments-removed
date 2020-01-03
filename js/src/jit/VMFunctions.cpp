@@ -6525,10 +6525,7 @@ ObjectGroup
 groupp
 )
 {
-gc
-:
-:
-MarkObjectGroupUnbarriered
+TraceManuallyBarrieredEdge
 (
 &
 rt
