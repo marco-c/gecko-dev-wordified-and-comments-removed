@@ -257,6 +257,9 @@ aOutScrollAncestor
 LayerMetricsWrapper
 *
 aOutDisplayPortAncestor
+bool
+*
+aOutHasTransformAnimation
 )
 ;
 private

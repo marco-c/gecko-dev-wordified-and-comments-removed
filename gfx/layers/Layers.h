@@ -3760,6 +3760,12 @@ mAnimationGeneration
 aCount
 ;
 }
+bool
+HasTransformAnimation
+(
+)
+const
+;
 const
 gfx
 :
