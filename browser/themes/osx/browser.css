@@ -29518,7 +29518,7 @@ popup
 -
 notification
 -
-description
+body
 [
 popupid
 =
@@ -29533,7 +29533,7 @@ popup
 -
 notification
 -
-description
+body
 [
 popupid
 =
@@ -29548,13 +29548,13 @@ confirmation
 {
 width
 :
-27em
+28em
 ;
 max
 -
 width
 :
-27em
+28em
 ;
 }
 #
