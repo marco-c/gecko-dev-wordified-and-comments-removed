@@ -4896,13 +4896,6 @@ BINPATH
 /
 components
 /
-YoutubeProtocolHandler
-.
-js
-BINPATH
-/
-components
-/
 RecoveryService
 .
 js

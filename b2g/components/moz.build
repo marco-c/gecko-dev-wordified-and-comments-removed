@@ -195,11 +195,6 @@ WebappsUpdateTimer
 .
 js
 '
-'
-YoutubeProtocolHandler
-.
-js
-'
 ]
 if
 CONFIG
