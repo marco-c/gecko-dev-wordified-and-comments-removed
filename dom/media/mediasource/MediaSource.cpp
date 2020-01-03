@@ -1631,6 +1631,13 @@ MediaSourceEndOfStreamError
 :
 Network
 :
+mDecoder
+-
+>
+NetworkError
+(
+)
+;
 break
 ;
 case
@@ -1639,6 +1646,13 @@ MediaSourceEndOfStreamError
 :
 Decode
 :
+mDecoder
+-
+>
+DecodeError
+(
+)
+;
 break
 ;
 default
