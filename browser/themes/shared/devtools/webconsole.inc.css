@@ -68,6 +68,11 @@ box
 message
 >
 .
+prefix
+.
+message
+>
+.
 timestamp
 {
 flex
@@ -80,7 +85,7 @@ GrayText
 ;
 margin
 :
-4px
+3px
 6px
 0
 0

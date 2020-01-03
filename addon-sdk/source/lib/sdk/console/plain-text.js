@@ -311,10 +311,6 @@ prefix
 self
 .
 name
-+
-"
-:
-"
 maxLogLevel
 :
 logLevel
