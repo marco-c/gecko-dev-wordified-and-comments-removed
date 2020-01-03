@@ -7675,7 +7675,7 @@ bool
 js
 :
 :
-HasObjectMovedOpIfRequired
+HasObjectMovedOp
 (
 JSObject
 *

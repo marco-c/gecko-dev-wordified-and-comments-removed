@@ -2422,7 +2422,7 @@ JS_FRIEND_API
 (
 bool
 )
-HasObjectMovedOpIfRequired
+HasObjectMovedOp
 (
 JSObject
 *
