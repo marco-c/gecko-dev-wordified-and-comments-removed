@@ -95,5 +95,16 @@ vars
 )
 ;
 }
+language
+:
+{
+code
+:
+"
+en
+-
+US
+"
+}
 }
 ;

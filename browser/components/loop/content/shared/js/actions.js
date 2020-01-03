@@ -400,6 +400,9 @@ String
 message
 :
 String
+sentTimestamp
+:
+String
 }
 )
 ReceivedTextChatMessage
@@ -416,6 +419,9 @@ contentType
 :
 String
 message
+:
+String
+receivedTimestamp
 :
 String
 }

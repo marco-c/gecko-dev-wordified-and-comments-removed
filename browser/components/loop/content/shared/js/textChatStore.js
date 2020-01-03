@@ -267,6 +267,16 @@ extraData
 messageData
 .
 extraData
+sentTimestamp
+:
+messageData
+.
+sentTimestamp
+receivedTimestamp
+:
+messageData
+.
+receivedTimestamp
 }
 ;
 var
