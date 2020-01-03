@@ -13234,6 +13234,9 @@ isLangRTL
 bool
 isConnected
 ;
+bool
+isSafeMode
+;
 InfallibleTArray
 <
 nsString
@@ -13265,6 +13268,8 @@ clipboardCaps
 domainPolicy
 &
 initialData
+&
+isSafeMode
 )
 ;
 mozilla
