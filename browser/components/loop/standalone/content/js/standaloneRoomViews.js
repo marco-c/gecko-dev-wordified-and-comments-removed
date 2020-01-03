@@ -324,6 +324,11 @@ FAILURE_DETAILS
 .
 MEDIA_DENIED
 :
+case
+FAILURE_DETAILS
+.
+NO_MEDIA
+:
 return
 mozL10n
 .
