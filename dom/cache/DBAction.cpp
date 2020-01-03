@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 DBSchema
 .
 h
