@@ -2644,11 +2644,6 @@ aFocusEventTarget
 )
 ;
 void
-FinalizeSelection
-(
-)
-;
-void
 OnFocus
 (
 nsIDOMEventTarget
