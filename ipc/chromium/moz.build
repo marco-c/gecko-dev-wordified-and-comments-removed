@@ -377,15 +377,6 @@ src
 /
 base
 /
-scoped_temp_dir
-.
-cc
-'
-'
-src
-/
-base
-/
 string_piece
 .
 cc
