@@ -282,15 +282,6 @@ UseFastPath
 )
 ;
 bool
-IsScrollingOnCompositor
-(
-const
-FrameMetrics
-&
-aParentMetrics
-)
-;
-bool
 RenderHighPrecision
 (
 nsIntRegion
