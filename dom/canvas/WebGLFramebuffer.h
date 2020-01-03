@@ -21,13 +21,6 @@ h
 #
 include
 "
-WebGLStrongTypes
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -68,9 +61,6 @@ public
 nsWrapperCache
 public
 WebGLBindableName
-<
-GLenum
->
 public
 WebGLRefCountedObject
 <
@@ -121,7 +111,7 @@ mRenderbufferPtr
 GLenum
 mAttachmentPoint
 ;
-TexImageTarget
+GLenum
 mTexImageTarget
 ;
 GLint
@@ -186,7 +176,7 @@ SetTexImage
 WebGLTexture
 *
 tex
-TexImageTarget
+GLenum
 target
 GLint
 level
@@ -244,8 +234,8 @@ return
 mRenderbufferPtr
 ;
 }
+GLenum
 TexImageTarget
-ImageTarget
 (
 )
 const
@@ -255,7 +245,7 @@ mTexImageTarget
 ;
 }
 GLint
-MipLevel
+TexImageLevel
 (
 )
 const
@@ -344,8 +334,8 @@ GLenum
 target
 GLenum
 attachment
-TexImageTarget
-texImageTarget
+GLenum
+textarget
 WebGLTexture
 *
 wtex

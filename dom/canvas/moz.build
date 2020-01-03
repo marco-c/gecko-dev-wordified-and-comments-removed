@@ -306,6 +306,11 @@ WebGLActiveInfo
 cpp
 '
 '
+WebGLBindableName
+.
+cpp
+'
+'
 WebGLBuffer
 .
 cpp

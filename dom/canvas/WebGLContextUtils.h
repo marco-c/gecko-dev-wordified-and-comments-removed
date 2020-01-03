@@ -14,13 +14,6 @@ h
 #
 include
 "
-WebGLStrongTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -96,10 +89,10 @@ GLenum
 webGLType
 )
 ;
-TexTarget
+GLenum
 TexImageTargetToTexTarget
 (
-TexImageTarget
+GLenum
 texImageTarget
 )
 ;

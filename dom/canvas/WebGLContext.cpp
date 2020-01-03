@@ -7173,8 +7173,7 @@ WebGLContext
 :
 TexImageFromVideoElement
 (
-const
-TexImageTarget
+GLenum
 texImageTarget
 GLint
 level
@@ -7497,10 +7496,6 @@ gl
 fTexImage2D
 (
 texImageTarget
-.
-get
-(
-)
 level
 internalformat
 srcImage
@@ -7557,10 +7552,6 @@ GLName
 (
 )
 texImageTarget
-.
-get
-(
-)
 mPixelStoreFlipY
 )
 ;
