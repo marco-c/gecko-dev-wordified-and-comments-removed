@@ -1031,12 +1031,6 @@ mImages
 bool
 mInUpdate
 ;
-gfx
-:
-:
-IntSize
-mSize
-;
 unsigned
 int
 mTileSize
