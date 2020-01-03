@@ -3242,7 +3242,7 @@ virtual
 bool
 RecvOpenAnonymousTemporaryFile
 (
-FileDescriptor
+FileDescOrError
 *
 aFD
 )

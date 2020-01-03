@@ -1190,6 +1190,15 @@ void_t
 }
 ;
 union
+FileDescOrError
+{
+FileDescriptor
+;
+nsresult
+;
+}
+;
+union
 OptionalContentId
 {
 ContentParentId
@@ -3782,7 +3791,7 @@ OpenAnonymousTemporaryFile
 )
 returns
 (
-FileDescriptor
+FileDescOrError
 aFD
 )
 ;

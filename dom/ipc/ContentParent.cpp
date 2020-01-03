@@ -19903,7 +19903,7 @@ ContentParent
 :
 RecvOpenAnonymousTemporaryFile
 (
-FileDescriptor
+FileDescOrError
 *
 aFD
 )
@@ -19932,8 +19932,13 @@ rv
 )
 )
 {
+*
+aFD
+=
+rv
+;
 return
-false
+true
 ;
 }
 *
