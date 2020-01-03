@@ -7431,16 +7431,6 @@ IsFresh
 )
 )
 ;
-MOZ_ASSERT
-(
-aEntry
--
->
-IsDirty
-(
-)
-)
-;
 CacheIndexEntry
 *
 entry
