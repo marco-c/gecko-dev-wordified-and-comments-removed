@@ -15,7 +15,6 @@ html
 ;
 let
 gTab
-gDebuggee
 gPanel
 gDebugger
 ;
@@ -40,7 +39,6 @@ then
 (
 [
 aTab
-aDebuggee
 aPanel
 ]
 )
@@ -50,10 +48,6 @@ aPanel
 gTab
 =
 aTab
-;
-gDebuggee
-=
-aDebuggee
 ;
 gPanel
 =
@@ -175,10 +169,12 @@ stack
 }
 )
 ;
-gDebuggee
-.
-firstCall
+callInTab
 (
+gTab
+"
+firstCall
+"
 )
 ;
 }
@@ -966,10 +962,6 @@ function
 )
 {
 gTab
-=
-null
-;
-gDebuggee
 =
 null
 ;
