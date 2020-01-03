@@ -123,10 +123,6 @@ PBackgroundIDBFactoryChild
 *
 AllocPBackgroundIDBFactoryChild
 (
-const
-OptionalWindowId
-&
-aOptionalWindowId
 )
 MOZ_OVERRIDE
 ;

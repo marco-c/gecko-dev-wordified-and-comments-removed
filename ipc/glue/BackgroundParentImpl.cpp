@@ -429,10 +429,6 @@ BackgroundParentImpl
 :
 AllocPBackgroundIDBFactoryParent
 (
-const
-OptionalWindowId
-&
-aOptionalWindowId
 )
 -
 >
@@ -462,8 +458,6 @@ AssertIsOnBackgroundThread
 return
 AllocPBackgroundIDBFactoryParent
 (
-this
-aOptionalWindowId
 )
 ;
 }
@@ -476,10 +470,6 @@ RecvPBackgroundIDBFactoryConstructor
 PBackgroundIDBFactoryParent
 *
 aActor
-const
-OptionalWindowId
-&
-aOptionalWindowId
 )
 {
 using
@@ -510,9 +500,7 @@ aActor
 return
 RecvPBackgroundIDBFactoryConstructor
 (
-this
 aActor
-aOptionalWindowId
 )
 ;
 }

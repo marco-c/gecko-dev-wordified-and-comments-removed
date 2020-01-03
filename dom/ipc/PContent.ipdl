@@ -1165,6 +1165,15 @@ void_t
 ;
 }
 ;
+union
+OptionalContentId
+{
+ContentParentId
+;
+void_t
+;
+}
+;
 prio
 (
 normal

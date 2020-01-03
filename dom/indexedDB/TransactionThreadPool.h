@@ -220,15 +220,6 @@ nsIRunnable
 aCallback
 )
 ;
-bool
-HasTransactionsForDatabase
-(
-const
-nsACString
-&
-aDatabaseId
-)
-;
 NS_INLINE_DECL_REFCOUNTING
 (
 TransactionThreadPool

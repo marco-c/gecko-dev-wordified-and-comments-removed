@@ -98,10 +98,6 @@ PBackgroundIDBFactoryParent
 *
 AllocPBackgroundIDBFactoryParent
 (
-const
-OptionalWindowId
-&
-aOptionalWindowId
 )
 MOZ_OVERRIDE
 ;
@@ -112,10 +108,6 @@ RecvPBackgroundIDBFactoryConstructor
 PBackgroundIDBFactoryParent
 *
 aActor
-const
-OptionalWindowId
-&
-aOptionalWindowId
 )
 MOZ_OVERRIDE
 ;
