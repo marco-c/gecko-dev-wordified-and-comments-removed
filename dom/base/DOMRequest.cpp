@@ -44,6 +44,17 @@ Promise
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ScriptSettings
+.
+h
+"
 using
 mozilla
 :
