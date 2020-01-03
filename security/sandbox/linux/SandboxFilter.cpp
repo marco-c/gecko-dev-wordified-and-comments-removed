@@ -1911,6 +1911,15 @@ getpriority
 ;
 Deny
 (
+EACCES
+SYSCALL
+(
+setpriority
+)
+)
+;
+Deny
+(
 ENOSYS
 SYSCALL
 (
