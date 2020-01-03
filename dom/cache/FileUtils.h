@@ -79,6 +79,15 @@ aBaseDir
 ;
 static
 nsresult
+BodyDeleteDir
+(
+nsIFile
+*
+aBaseDir
+)
+;
+static
+nsresult
 BodyGetCacheDir
 (
 nsIFile

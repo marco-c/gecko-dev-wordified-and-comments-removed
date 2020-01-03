@@ -140,6 +140,17 @@ mozIStorageConnection
 aConnOut
 )
 ;
+nsresult
+WipeDatabase
+(
+nsIFile
+*
+aDBFile
+nsIFile
+*
+aDBDir
+)
+;
 const
 Mode
 mMode

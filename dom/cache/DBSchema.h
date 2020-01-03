@@ -372,6 +372,11 @@ nsString
 aKeysOut
 )
 ;
+static
+const
+int32_t
+kMaxWipeSchemaVersion
+;
 private
 :
 typedef

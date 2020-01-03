@@ -99,6 +99,15 @@ int32_t
 DBSchema
 :
 :
+kMaxWipeSchemaVersion
+=
+1
+;
+const
+int32_t
+DBSchema
+:
+:
 kLatestSchemaVersion
 =
 1
