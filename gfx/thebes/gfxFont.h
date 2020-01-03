@@ -5443,6 +5443,13 @@ GetHorizontalMetrics
 =
 0
 ;
+const
+Metrics
+*
+CreateVerticalMetrics
+(
+)
+;
 void
 DrawOneGlyph
 (
@@ -6129,6 +6136,13 @@ gfx
 ScaledFont
 >
 mAzureScaledFont
+;
+nsAutoPtr
+<
+const
+Metrics
+>
+mVerticalMetrics
 ;
 bool
 InitMetricsFromSfntTables
