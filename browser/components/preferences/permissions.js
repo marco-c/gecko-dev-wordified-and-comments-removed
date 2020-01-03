@@ -454,7 +454,6 @@ uri
 ;
 try
 {
-let
 uri
 =
 Services
