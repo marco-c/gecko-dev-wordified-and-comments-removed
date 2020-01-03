@@ -1099,7 +1099,6 @@ aApiRedirectToURI
 )
 override
 ;
-virtual
 nsresult
 AddSecurityMessage
 (
