@@ -8600,12 +8600,6 @@ nullptr
 }
 if
 (
-PL_DHASH_ENTRY_IS_BUSY
-(
-entry
-)
-&
-&
 entry
 -
 >
@@ -9257,10 +9251,8 @@ npobj
 ;
 if
 (
-PL_DHASH_ENTRY_IS_FREE
-(
+!
 entry
-)
 )
 {
 return
