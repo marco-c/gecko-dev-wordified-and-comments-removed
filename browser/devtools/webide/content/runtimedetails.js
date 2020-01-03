@@ -631,7 +631,7 @@ Strings
 GetStringFromName
 (
 "
-runtimedetails_checkunkown
+runtimedetails_checkunknown
 "
 )
 ;
