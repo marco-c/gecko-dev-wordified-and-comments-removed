@@ -327,11 +327,10 @@ false
 )
 ;
 for
-each
 (
 let
 i
-in
+of
 data
 )
 {
@@ -1582,11 +1581,10 @@ oncomplete
 grabEventAndContinueHandler
 ;
 for
-each
 (
 let
 i
-in
+of
 data
 )
 {

@@ -70,11 +70,10 @@ indexedDB
 ]
 ;
 for
-each
 (
 var
 symbol
-in
+of
 expectedSymbols
 )
 {

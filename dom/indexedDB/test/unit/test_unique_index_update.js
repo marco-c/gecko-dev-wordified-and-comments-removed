@@ -68,11 +68,10 @@ target
 result
 ;
 for
-each
 (
 let
 autoIncrement
-in
+of
 [
 false
 true
@@ -169,11 +168,10 @@ event
 )
 ;
 for
-each
 (
 let
 autoIncrement
-in
+of
 [
 false
 true

@@ -320,11 +320,10 @@ jsm
 )
 ;
 for
-each
 (
 var
 stage
-in
+of
 [
 "
 install
@@ -342,11 +341,10 @@ uninstall
 )
 {
 for
-each
 (
 var
 symbol
-in
+of
 [
 "
 IDBKeyRange
