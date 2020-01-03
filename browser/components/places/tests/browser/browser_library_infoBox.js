@@ -683,7 +683,13 @@ containerOpen
 =
 false
 ;
-waitForClearHistory
+PlacesTestUtils
+.
+clearHistory
+(
+)
+.
+then
 (
 nextTest
 )

@@ -116,7 +116,13 @@ function
 (
 )
 {
-waitForClearHistory
+PlacesTestUtils
+.
+clearHistory
+(
+)
+.
+then
 (
 finish
 )

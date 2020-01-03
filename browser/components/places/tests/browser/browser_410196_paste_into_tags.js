@@ -325,7 +325,13 @@ PlacesUtils
 unfiledBookmarksFolderId
 )
 ;
-waitForClearHistory
+PlacesTestUtils
+.
+clearHistory
+(
+)
+.
+then
 (
 finish
 )

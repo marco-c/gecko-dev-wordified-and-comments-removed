@@ -36,7 +36,9 @@ eraseEverything
 )
 ;
 yield
-promiseClearHistory
+PlacesTestUtils
+.
+clearHistory
 (
 )
 ;
