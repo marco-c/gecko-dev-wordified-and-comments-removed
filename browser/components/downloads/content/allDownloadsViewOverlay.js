@@ -4986,7 +4986,6 @@ join
 n
 "
 )
-document
 )
 ;
 }

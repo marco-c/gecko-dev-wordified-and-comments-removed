@@ -7595,7 +7595,6 @@ join
 n
 "
 )
-document
 )
 ;
 }

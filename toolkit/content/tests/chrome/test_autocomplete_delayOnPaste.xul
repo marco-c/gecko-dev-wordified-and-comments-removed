@@ -832,7 +832,6 @@ interfaces
 nsIClipboard
 .
 kGlobalClipboard
-document
 )
 ;
 }

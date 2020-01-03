@@ -2228,7 +2228,6 @@ clipboard
 copyString
 (
 password
-document
 )
 ;
 Services

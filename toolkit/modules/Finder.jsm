@@ -598,13 +598,6 @@ Ci
 nsIClipboard
 .
 kFindClipboard
-this
-.
-_getWindow
-(
-)
-.
-document
 )
 ;
 }

@@ -7547,7 +7547,6 @@ nsIClipboardHelper
 copyString
 (
 str
-doc
 )
 ;
 }
@@ -8033,7 +8032,6 @@ cbHelperSvc
 copyString
 (
 preExpectedVal
-doc
 )
 ;
 }

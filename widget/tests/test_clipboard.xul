@@ -584,7 +584,6 @@ helper
 copyString
 (
 data
-document
 )
 ;
 is

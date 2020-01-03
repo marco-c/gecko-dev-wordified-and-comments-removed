@@ -9578,7 +9578,6 @@ clipboard
 copyString
 (
 addresses
-document
 )
 ;
 }
@@ -9620,7 +9619,6 @@ copyString
 this
 .
 linkURL
-document
 )
 ;
 }
@@ -11010,7 +11008,6 @@ copyString
 this
 .
 mediaURL
-document
 )
 ;
 }

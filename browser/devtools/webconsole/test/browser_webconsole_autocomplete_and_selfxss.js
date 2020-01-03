@@ -185,7 +185,6 @@ clipboardHelper
 copyString
 (
 stringToCopy
-document
 )
 ;
 }

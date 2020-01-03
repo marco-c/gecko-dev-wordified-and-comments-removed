@@ -12476,9 +12476,6 @@ join
 n
 "
 )
-this
-.
-document
 )
 ;
 }

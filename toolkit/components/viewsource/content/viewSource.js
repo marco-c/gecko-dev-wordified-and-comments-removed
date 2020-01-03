@@ -1849,7 +1849,6 @@ this
 contextMenuData
 .
 href
-document
 )
 ;
 }

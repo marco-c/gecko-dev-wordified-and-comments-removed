@@ -115,7 +115,6 @@ nsIClipboardHelper
 copyString
 (
 url
-document
 )
 ;
 }

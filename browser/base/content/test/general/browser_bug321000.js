@@ -133,7 +133,6 @@ cbHelper
 copyString
 (
 kTestString
-document
 )
 ;
 }
