@@ -32829,17 +32829,3 @@ true
 ;
 #
 endif
-pref
-(
-"
-dom
-.
-meta
--
-viewport
-.
-enabled
-"
-false
-)
-;
