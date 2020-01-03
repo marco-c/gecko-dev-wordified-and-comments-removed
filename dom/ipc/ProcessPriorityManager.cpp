@@ -581,6 +581,7 @@ final
 {
 public
 :
+explicit
 ProcessLRUPool
 (
 ProcessPriority
