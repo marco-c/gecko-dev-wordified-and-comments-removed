@@ -36,6 +36,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsNSSCertificate
 .
 h
