@@ -370,6 +370,17 @@ sandbox
 chromium
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+security
+/
+sandbox
+'
+]
 if
 CONFIG
 [

@@ -250,6 +250,17 @@ LOCAL_INCLUDES
 '
 /
 security
+/
+sandbox
+'
+]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+security
 '
 ]
 LOCAL_INCLUDES
