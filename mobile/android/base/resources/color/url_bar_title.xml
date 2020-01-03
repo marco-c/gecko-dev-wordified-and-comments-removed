@@ -147,8 +147,9 @@ android
 color
 =
 "
-#
-FFDDDDDD
+color
+/
+private_active_text
 "
 /
 >
@@ -175,8 +176,9 @@ android
 color
 =
 "
-#
-FFDDDDDD
+color
+/
+private_active_text
 "
 /
 >
