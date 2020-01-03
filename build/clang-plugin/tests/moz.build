@@ -163,6 +163,11 @@ TestNonHeapClass
 cpp
 '
 '
+TestNonMemMovable
+.
+cpp
+'
+'
 TestNoRefcountedInsideLambdas
 .
 cpp
