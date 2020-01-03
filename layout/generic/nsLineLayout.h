@@ -715,6 +715,16 @@ mLastOptionalBreakFrame
 nullptr
 ;
 }
+gfxBreakPriority
+LastOptionalBreakPriority
+(
+)
+const
+{
+return
+mLastOptionalBreakPriority
+;
+}
 bool
 NeedsBackup
 (
