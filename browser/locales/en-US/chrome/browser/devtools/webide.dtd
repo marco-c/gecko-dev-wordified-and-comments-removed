@@ -526,6 +526,14 @@ Apps
 <
 !
 ENTITY
+projectPanel_tabs
+"
+Tabs
+"
+>
+<
+!
+ENTITY
 runtimePanel_USBDevices
 "
 USB
