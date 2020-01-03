@@ -178,6 +178,13 @@ FreeTraceInfo
 (
 )
 ;
+const
+char
+*
+GetJSLabelPrefix
+(
+)
+;
 }
 }
 #
