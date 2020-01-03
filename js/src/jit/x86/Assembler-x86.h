@@ -1920,7 +1920,7 @@ ptr
 {
 masm
 .
-cmpl_ir
+cmpl_i32r
 (
 uintptr_t
 (
@@ -1995,7 +1995,7 @@ REG
 :
 masm
 .
-cmpl_ir_force32
+cmpl_i32r
 (
 uintptr_t
 (
@@ -2025,7 +2025,7 @@ MEM_REG_DISP
 :
 masm
 .
-cmpl_im_force32
+cmpl_i32m
 (
 uintptr_t
 (
@@ -2060,7 +2060,7 @@ MEM_ADDRESS32
 :
 masm
 .
-cmpl_im
+cmpl_i32m
 (
 uintptr_t
 (
@@ -2127,7 +2127,7 @@ rhs
 {
 masm
 .
-cmpl_rm_force32
+cmpl_rm_disp32
 (
 rhs
 .

@@ -6850,7 +6850,7 @@ rhs
 {
 masm
 .
-cmpl_ir_force32
+cmpl_i32r
 (
 rhs
 .
@@ -7051,7 +7051,7 @@ rhs
 {
 masm
 .
-testl_i32r
+testl_ir
 (
 rhs
 .
@@ -7092,7 +7092,7 @@ REG
 :
 masm
 .
-testl_i32r
+testl_ir
 (
 rhs
 .
@@ -7194,8 +7194,8 @@ code
 )
 ;
 }
-void
-addl_wide
+CodeOffsetLabel
+addlWithPatch
 (
 Imm32
 imm
@@ -7205,7 +7205,7 @@ dest
 {
 masm
 .
-addl_ir_wide
+addl_i32r
 (
 imm
 .
@@ -7213,6 +7213,16 @@ value
 dest
 .
 code
+(
+)
+)
+;
+return
+CodeOffsetLabel
+(
+masm
+.
+currentOffset
 (
 )
 )

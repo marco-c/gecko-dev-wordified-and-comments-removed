@@ -3675,7 +3675,7 @@ size
 ;
 masm
 .
-addl_wide
+addlWithPatch
 (
 Imm32
 (
@@ -3992,7 +3992,7 @@ size
 ;
 masm
 .
-addl_wide
+addlWithPatch
 (
 Imm32
 (
