@@ -1541,6 +1541,7 @@ ComparisonResult
 NS_OK
 false
 mNewCacheName
+mMaxScope
 )
 ;
 Cleanup
@@ -1692,6 +1693,9 @@ false
 EmptyString
 (
 )
+EmptyCString
+(
+)
 )
 ;
 Cleanup
@@ -1775,6 +1779,7 @@ aIsEqual
 EmptyString
 (
 )
+mMaxScope
 )
 ;
 Cleanup
