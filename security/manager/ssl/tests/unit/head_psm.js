@@ -1976,6 +1976,16 @@ LD_LIBRARY_PATH
 greBinDir
 .
 path
++
+"
+:
+/
+data
+/
+local
+/
+xpcb
+"
 )
 ;
 envSvc
