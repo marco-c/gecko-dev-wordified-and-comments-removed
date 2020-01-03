@@ -1,6 +1,13 @@
 #
 include
 "
+nsSMILAnimationFunction
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -12,7 +19,9 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+mozilla
+/
+Move
 .
 h
 "
@@ -1122,8 +1131,8 @@ result
 )
 {
 aResult
-.
-Swap
+=
+Move
 (
 result
 )

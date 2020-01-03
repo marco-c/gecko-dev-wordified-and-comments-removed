@@ -159,14 +159,6 @@ Singleton
 )
 ;
 }
-void
-Swap
-(
-nsSMILValue
-&
-aOther
-)
-;
 nsresult
 Add
 (

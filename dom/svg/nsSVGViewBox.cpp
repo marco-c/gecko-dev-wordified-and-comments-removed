@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h
@@ -1328,8 +1337,8 @@ mPtr
 viewBox
 ;
 aValue
-.
-Swap
+=
+Move
 (
 val
 )

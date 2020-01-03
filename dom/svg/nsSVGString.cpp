@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsSVGAttrTearoffTable
 .
 h
@@ -444,8 +453,8 @@ mPtr
 aStr
 ;
 aValue
-.
-Swap
+=
+Move
 (
 val
 )

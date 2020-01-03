@@ -30,6 +30,15 @@ h
 #
 include
 "
+mozilla
+/
+Move
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h
@@ -960,8 +969,8 @@ return
 ;
 }
 aResult
-.
-Swap
+=
+Move
 (
 val
 )
