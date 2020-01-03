@@ -554,7 +554,7 @@ numWords
 )
 ;
 }
-inline
+explicit
 operator
 bool
 (

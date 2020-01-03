@@ -581,6 +581,7 @@ other
 ptr_
 ;
 }
+explicit
 operator
 bool
 (

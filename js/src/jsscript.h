@@ -7187,6 +7187,7 @@ count
 )
 ;
 }
+explicit
 operator
 bool
 (
@@ -7596,6 +7597,7 @@ p_
 end_
 ;
 }
+explicit
 operator
 bool
 (

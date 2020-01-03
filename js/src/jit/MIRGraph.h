@@ -3326,6 +3326,7 @@ return
 old
 ;
 }
+explicit
 operator
 bool
 (
@@ -3648,6 +3649,7 @@ return
 old
 ;
 }
+explicit
 operator
 bool
 (

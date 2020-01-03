@@ -3313,6 +3313,7 @@ usesBegin
 )
 {
 }
+explicit
 operator
 bool
 (
