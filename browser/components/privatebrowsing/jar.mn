@@ -72,7 +72,6 @@ aboutPrivateBrowsing
 .
 css
 )
-*
 content
 /
 browser
@@ -86,4 +85,19 @@ content
 aboutPrivateBrowsing
 .
 xhtml
+)
+*
+content
+/
+browser
+/
+aboutPrivateBrowsing
+.
+js
+(
+content
+/
+aboutPrivateBrowsing
+.
+js
 )
