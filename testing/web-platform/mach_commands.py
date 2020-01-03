@@ -599,6 +599,13 @@ setup_logging
 (
 kwargs
 {
+"
+mach
+"
+:
+sys
+.
+stdout
 }
 )
         
