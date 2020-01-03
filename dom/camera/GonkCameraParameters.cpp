@@ -770,6 +770,16 @@ aIsoOut
 {
 if
 (
+!
+aIso
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
+if
+(
 strcmp
 (
 aIso
@@ -1607,6 +1617,11 @@ rv
 }
 if
 (
+val
+)
+{
+if
+(
 aKey
 =
 =
@@ -1623,10 +1638,6 @@ aValue
 ;
 }
 else
-if
-(
-val
-)
 {
 aValue
 .
@@ -1635,6 +1646,7 @@ AssignASCII
 val
 )
 ;
+}
 }
 else
 {
