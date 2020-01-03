@@ -3231,6 +3231,7 @@ CanvasDrawObserver
 {
 public
 :
+explicit
 CanvasDrawObserver
 (
 CanvasRenderingContext2D

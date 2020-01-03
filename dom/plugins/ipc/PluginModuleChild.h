@@ -649,6 +649,7 @@ MOZ_OVERRIDE
 ;
 public
 :
+explicit
 PluginModuleChild
 (
 bool

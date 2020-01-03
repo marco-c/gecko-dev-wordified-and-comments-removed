@@ -1789,6 +1789,7 @@ SandboxStarter
 {
 public
 :
+explicit
 MacOSXSandboxStarter
 (
 GMPChild

@@ -88,6 +88,7 @@ DOMEventTargetHelper
 {
 public
 :
+explicit
 MediaDevices
 (
 nsPIDOMWindow

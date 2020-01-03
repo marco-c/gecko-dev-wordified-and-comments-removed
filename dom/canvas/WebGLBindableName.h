@@ -186,10 +186,11 @@ T
 {
 public
 :
+explicit
 WebGLBindableName
 (
 GLuint
-name
+aName
 )
 :
 WebGLBindable
@@ -200,7 +201,7 @@ T
 )
 mGLName
 (
-name
+aName
 )
 {
 }

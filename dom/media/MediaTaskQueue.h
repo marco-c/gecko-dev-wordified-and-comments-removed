@@ -216,6 +216,7 @@ mRunnable
 bool
 mForceDispatch
 ;
+explicit
 TaskQueueEntry
 (
 TemporaryRef

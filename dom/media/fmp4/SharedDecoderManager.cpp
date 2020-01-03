@@ -25,6 +25,7 @@ MediaDataDecoderCallback
 {
 public
 :
+explicit
 SharedDecoderCallback
 (
 SharedDecoderManager

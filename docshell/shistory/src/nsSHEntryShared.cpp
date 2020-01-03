@@ -158,6 +158,7 @@ HistoryTrackerBase
 {
 public
 :
+explicit
 HistoryTracker
 (
 uint32_t

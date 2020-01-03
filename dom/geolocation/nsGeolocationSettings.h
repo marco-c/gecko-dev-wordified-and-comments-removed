@@ -253,6 +253,7 @@ MOZ_FINAL
 {
 public
 :
+explicit
 GeolocationSetting
 (
 const
