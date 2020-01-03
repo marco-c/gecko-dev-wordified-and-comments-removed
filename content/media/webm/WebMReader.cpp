@@ -4363,10 +4363,6 @@ return
 false
 ;
 }
-mLastVideoFrameTime
-=
-tstamp
-;
 uint64_t
 next_tstamp
 =
@@ -4438,6 +4434,10 @@ tstamp
 mLastVideoFrameTime
 ;
 }
+mLastVideoFrameTime
+=
+tstamp
+;
 int64_t
 tstamp_usecs
 =
