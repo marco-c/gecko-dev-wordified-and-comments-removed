@@ -6263,7 +6263,10 @@ mGLContext
 uint32_t
 mFrontbufferGLTex
 ;
-nsIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 bool

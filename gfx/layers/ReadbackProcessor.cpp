@@ -784,7 +784,7 @@ mBackgroundColor
 )
 )
 ;
-nsIntSize
+IntSize
 size
 =
 aLayer

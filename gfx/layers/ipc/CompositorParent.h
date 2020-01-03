@@ -1721,7 +1721,10 @@ mPaused
 bool
 mUseExternalSurfaceSize
 ;
-nsIntSize
+gfx
+:
+:
+IntSize
 mEGLSurfaceSize
 ;
 mozilla

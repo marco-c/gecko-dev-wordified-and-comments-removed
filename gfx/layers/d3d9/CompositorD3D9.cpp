@@ -3383,7 +3383,7 @@ EndScene
 (
 )
 ;
-nsIntSize
+IntSize
 oldSize
 =
 mSize

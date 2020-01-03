@@ -14,7 +14,11 @@ h
 #
 include
 "
-nsPoint
+mozilla
+/
+gfx
+/
+Point
 .
 h
 "
@@ -294,7 +298,10 @@ GraphicBuffer
 *
 aSurface
 const
-nsIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 LayerRenderStateFlags
@@ -445,7 +452,10 @@ mSurface
 int32_t
 mOverlayId
 ;
-nsIntSize
+gfx
+:
+:
+IntSize
 mSize
 ;
 TextureHost
