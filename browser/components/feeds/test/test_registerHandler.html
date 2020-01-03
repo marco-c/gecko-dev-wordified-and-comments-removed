@@ -279,7 +279,6 @@ generic
 case
 is
 (
-true
 testRegisterHandler
 (
 true
@@ -305,6 +304,7 @@ Foo
 handler
 "
 )
+true
 "
 registering
 a
@@ -318,7 +318,6 @@ work
 ;
 is
 (
-true
 testRegisterHandler
 (
 false
@@ -348,6 +347,7 @@ Foo
 handler
 "
 )
+true
 "
 registering
 a
@@ -367,7 +367,6 @@ wrong
 uris
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -391,6 +390,7 @@ Foo
 handler
 "
 )
+false
 "
 a
 protocol
@@ -405,7 +405,6 @@ s
 ;
 is
 (
-false
 testRegisterHandler
 (
 false
@@ -433,6 +432,7 @@ Foo
 handler
 "
 )
+false
 "
 a
 content
@@ -458,7 +458,6 @@ be
 passed
 is
 (
-true
 testRegisterHandler
 (
 true
@@ -476,6 +475,7 @@ Foo
 handler
 "
 )
+true
 "
 a
 protocol
@@ -489,7 +489,6 @@ valid
 ;
 is
 (
-true
 testRegisterHandler
 (
 false
@@ -511,6 +510,7 @@ Foo
 handler
 "
 )
+true
 "
 a
 content
@@ -547,7 +547,6 @@ bug
 )
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -571,6 +570,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -589,7 +589,6 @@ work
 ;
 is
 (
-false
 testRegisterHandler
 (
 false
@@ -617,6 +616,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -667,7 +667,6 @@ case
 )
 is
 (
-true
 testRegisterHandler
 (
 true
@@ -693,6 +692,7 @@ Foo
 handler
 "
 )
+true
 "
 registering
 a
@@ -709,7 +709,6 @@ work
 ;
 is
 (
-true
 testRegisterHandler
 (
 false
@@ -739,6 +738,7 @@ Foo
 handler
 "
 )
+true
 "
 registering
 a
@@ -761,7 +761,6 @@ not
 work
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -787,6 +786,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -804,7 +804,6 @@ work
 ;
 is
 (
-false
 testRegisterHandler
 (
 false
@@ -834,6 +833,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -857,7 +857,6 @@ not
 work
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -883,6 +882,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -900,7 +900,6 @@ work
 ;
 is
 (
-false
 testRegisterHandler
 (
 false
@@ -930,6 +929,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -953,7 +953,6 @@ not
 work
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -979,6 +978,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -996,7 +996,6 @@ work
 ;
 is
 (
-false
 testRegisterHandler
 (
 false
@@ -1026,6 +1025,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 a
@@ -1068,7 +1068,6 @@ bug
 )
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -1094,6 +1093,7 @@ chrome
 handler
 "
 )
+false
 "
 registering
 a
@@ -1108,7 +1108,6 @@ work
 ;
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -1134,6 +1133,7 @@ vbscript
 handler
 "
 )
+false
 "
 registering
 a
@@ -1148,7 +1148,6 @@ work
 ;
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -1174,6 +1173,7 @@ javascript
 handler
 "
 )
+false
 "
 registering
 a
@@ -1188,7 +1188,6 @@ work
 ;
 is
 (
-false
 testRegisterHandler
 (
 true
@@ -1218,6 +1217,7 @@ icon
 handler
 "
 )
+false
 "
 registering
 a
@@ -1254,7 +1254,6 @@ html
 )
 is
 (
-true
 testRegisterHandler
 (
 false
@@ -1284,6 +1283,7 @@ Foo
 handler
 "
 )
+true
 "
 registering
 rss
@@ -1296,7 +1296,6 @@ work
 ;
 is
 (
-true
 testRegisterHandler
 (
 false
@@ -1326,6 +1325,7 @@ Foo
 handler
 "
 )
+true
 "
 registering
 atom
@@ -1336,9 +1336,8 @@ work
 "
 )
 ;
-todo
+todo_is
 (
-false
 testRegisterHandler
 (
 false
@@ -1366,6 +1365,7 @@ Foo
 handler
 "
 )
+false
 "
 registering
 html
