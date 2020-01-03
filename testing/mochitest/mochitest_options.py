@@ -5817,6 +5817,23 @@ tab
 "
 )
         
+if
+mozinfo
+.
+isMac
+:
+            
+options
+.
+leakThresholds
+[
+"
+tab
+"
+]
+=
+50000
+        
 return
 options
 class
