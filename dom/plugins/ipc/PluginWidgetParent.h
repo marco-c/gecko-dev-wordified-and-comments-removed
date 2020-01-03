@@ -186,6 +186,11 @@ ShutdownType
 aType
 )
 ;
+void
+KillWidget
+(
+)
+;
 nsCOMPtr
 <
 nsIWidget
