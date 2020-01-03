@@ -281,8 +281,6 @@ id
 =
 "
 +
-android
-:
 id
 /
 account_server_title
@@ -351,8 +349,6 @@ id
 =
 "
 +
-android
-:
 id
 /
 account_server_summary
@@ -621,8 +617,6 @@ id
 =
 "
 +
-android
-:
 id
 /
 sync_server_title
@@ -691,8 +685,6 @@ id
 =
 "
 +
-android
-:
 id
 /
 sync_server_summary
