@@ -122,6 +122,8 @@ android
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -133,6 +135,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
