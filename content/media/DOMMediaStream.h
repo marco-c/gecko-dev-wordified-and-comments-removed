@@ -488,6 +488,16 @@ mHintContents
 aHintContents
 ;
 }
+TrackTypeHints
+GetTrackTypesAvailable
+(
+)
+const
+{
+return
+mTrackTypesAvailable
+;
+}
 static
 already_AddRefed
 <
