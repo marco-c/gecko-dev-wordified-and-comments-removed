@@ -11789,6 +11789,11 @@ TeardownProtoChain
 (
 )
 ;
+if
+(
+mInstanceOwner
+)
+{
 mInstanceOwner
 -
 >
@@ -11800,6 +11805,7 @@ mInstanceOwner
 =
 nullptr
 ;
+}
 return
 NS_OK
 ;
