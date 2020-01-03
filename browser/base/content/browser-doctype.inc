@@ -128,5 +128,17 @@ chrome
 %
 searchBarDTD
 ;
+<
+!
+ENTITY
+%
+syncBrandDTD
+SYSTEM
+"
+chrome
+:
+%
+syncBrandDTD
+;
 ]
 >
