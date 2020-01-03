@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsDebug
+.
+h
+"
+#
+include
+"
 yuv_convert
 .
 h
