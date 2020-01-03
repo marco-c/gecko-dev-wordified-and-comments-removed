@@ -7950,6 +7950,11 @@ setCompileAndGo
 (
 false
 )
+.
+setHasPollutedScope
+(
+true
+)
 ;
 if
 (
