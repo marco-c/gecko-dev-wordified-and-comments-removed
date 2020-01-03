@@ -535,6 +535,7 @@ return
 this
 ;
 }
+explicit
 Node
 (
 JS

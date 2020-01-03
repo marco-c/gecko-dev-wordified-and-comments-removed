@@ -1620,6 +1620,7 @@ ProxyOptions
 {
 protected
 :
+explicit
 ProxyOptions
 (
 bool

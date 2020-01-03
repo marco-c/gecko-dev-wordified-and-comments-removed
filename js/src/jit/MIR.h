@@ -40414,6 +40414,7 @@ MIsNoIter
 public
 MUnaryInstruction
 {
+explicit
 MIsNoIter
 (
 MDefinition

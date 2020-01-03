@@ -493,6 +493,7 @@ LInstructionHelper
 {
 protected
 :
+explicit
 LSimdExtractElementBase
 (
 const
@@ -559,6 +560,7 @@ LIR_HEADER
 SimdExtractElementI
 )
 ;
+explicit
 LSimdExtractElementI
 (
 const
@@ -588,6 +590,7 @@ LIR_HEADER
 SimdExtractElementF
 )
 ;
+explicit
 LSimdExtractElementF
 (
 const
