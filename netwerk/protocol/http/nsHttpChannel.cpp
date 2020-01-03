@@ -10924,6 +10924,10 @@ CHECK_MULTITHREADED
 }
 if
 (
+!
+mPostID
+&
+&
 mApplicationCache
 )
 {
@@ -10976,6 +10980,11 @@ cacheStorageService
 DiskCacheStorage
 (
 info
+!
+mPostID
+&
+&
+(
 mChooseApplicationCache
 |
 |
@@ -10983,6 +10992,7 @@ mChooseApplicationCache
 mLoadFlags
 &
 LOAD_CHECK_OFFLINE_CACHE
+)
 )
 getter_AddRefs
 (
