@@ -8853,7 +8853,7 @@ wm
 Negative
 containing
 block
-width
+isize
 !
 "
 )
@@ -8898,7 +8898,7 @@ wm
 Negative
 containing
 block
-height
+bsize
 !
 "
 )
@@ -10032,7 +10032,7 @@ ComputedISize
 "
 Bogus
 computed
-width
+isize
 "
 )
 ;
@@ -10051,7 +10051,8 @@ GetUnit
 )
 "
 unexpected
-width
+inline
+size
 unit
 change
 "
