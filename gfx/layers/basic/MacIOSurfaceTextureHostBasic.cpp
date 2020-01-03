@@ -44,6 +44,11 @@ mSurface
 aSurface
 )
 {
+MOZ_COUNT_CTOR
+(
+MacIOSurfaceTextureSourceBasic
+)
+;
 }
 MacIOSurfaceTextureSourceBasic
 :
@@ -53,6 +58,11 @@ MacIOSurfaceTextureSourceBasic
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+MacIOSurfaceTextureSourceBasic
+)
+;
 }
 gfx
 :

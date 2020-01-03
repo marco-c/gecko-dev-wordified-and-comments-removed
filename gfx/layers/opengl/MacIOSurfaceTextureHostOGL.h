@@ -212,6 +212,12 @@ aDescriptor
 )
 ;
 virtual
+~
+MacIOSurfaceTextureHostOGL
+(
+)
+;
+virtual
 void
 DeallocateDeviceData
 (
