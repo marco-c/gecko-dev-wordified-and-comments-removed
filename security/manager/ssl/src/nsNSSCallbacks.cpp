@@ -3887,8 +3887,9 @@ if
 channelInfo
 .
 protocolVersion
-<
-SSL_LIBRARY_VERSION_TLS_1_0
+!
+=
+SSL_LIBRARY_VERSION_TLS_1_2
 )
 {
 PR_LOG
@@ -3910,9 +3911,11 @@ SSL
 Version
 must
 be
->
-=
-TLS1
+TLS
+1
+.
+2
+was
 %
 x
 \
