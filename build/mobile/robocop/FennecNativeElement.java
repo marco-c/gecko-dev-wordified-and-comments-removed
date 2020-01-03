@@ -326,12 +326,6 @@ TextSwitcher
 )
 v
 ;
-ts
-.
-getNextView
-(
-)
-;
 mText
 =
 (
