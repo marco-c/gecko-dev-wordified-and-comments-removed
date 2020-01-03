@@ -1203,6 +1203,14 @@ eTreeChange
 eStyleChange
 }
 ;
+enum
+ReflowRootHandling
+{
+ePositionOrSizeChange
+eNoPositionOrSizeChange
+eInferFromBitToAdd
+}
+;
 virtual
 void
 FrameNeedsReflow
@@ -1214,6 +1222,10 @@ IntrinsicDirty
 aIntrinsicDirty
 nsFrameState
 aBitToAdd
+ReflowRootHandling
+aRootHandling
+=
+eInferFromBitToAdd
 )
 =
 0

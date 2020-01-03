@@ -411,6 +411,10 @@ IntrinsicDirty
 aIntrinsicDirty
 nsFrameState
 aBitToAdd
+ReflowRootHandling
+aRootHandling
+=
+eInferFromBitToAdd
 )
 override
 ;
