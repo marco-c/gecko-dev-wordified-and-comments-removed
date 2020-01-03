@@ -87,6 +87,10 @@ mInverted
 (
 false
 )
+mIsLocked
+(
+false
+)
 {
 mFlags
 |
