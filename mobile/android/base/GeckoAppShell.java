@@ -1039,11 +1039,9 @@ String
 add
 (
 "
-application
+unknown
 /
-octet
--
-stream
+unknown
 "
 )
 ;
@@ -9518,7 +9516,7 @@ getName
 (
 )
 true
-aMimeType
+mimeType
 f
 .
 getAbsolutePath
@@ -9554,7 +9552,7 @@ startScan
 (
 context
 aFile
-aMimeType
+mimeType
 )
 ;
 }
