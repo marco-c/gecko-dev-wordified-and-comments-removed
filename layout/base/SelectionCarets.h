@@ -435,17 +435,6 @@ nsAString
 aEvent
 )
 ;
-nsRect
-GetSelectionBoundingRect
-(
-dom
-:
-:
-Selection
-*
-aSel
-)
-;
 void
 LaunchLongTapDetector
 (
