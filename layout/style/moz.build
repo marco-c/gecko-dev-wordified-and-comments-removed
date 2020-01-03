@@ -525,6 +525,11 @@ RuleNodeCacheConditions
 h
 '
 '
+RuleProcessorCache
+.
+h
+'
+'
 StyleAnimationValue
 .
 h
@@ -894,6 +899,11 @@ cpp
 '
 '
 RuleNodeCacheConditions
+.
+cpp
+'
+'
+RuleProcessorCache
 .
 cpp
 '

@@ -972,6 +972,16 @@ nsAString
 aInput
 )
 ;
+void
+SetInRuleProcessorCache
+(
+)
+{
+mInRuleProcessorCache
+=
+true
+;
+}
 NS_DECL_NSIDOMSTYLESHEET
 NS_DECL_NSIDOMCSSSTYLESHEET
 static
@@ -1428,6 +1438,9 @@ mDisabled
 ;
 bool
 mDirty
+;
+bool
+mInRuleProcessorCache
 ;
 nsRefPtr
 <
