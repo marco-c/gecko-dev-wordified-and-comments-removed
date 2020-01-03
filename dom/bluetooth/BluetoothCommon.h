@@ -638,11 +638,11 @@ BOND_STATE_BONDED
 }
 ;
 enum
-BluetoothDeviceType
+BluetoothTypeOfDevice
 {
-DEVICE_TYPE_BREDR
-DEVICE_TYPE_BLE
-DEVICE_TYPE_DUAL
+TYPE_OF_DEVICE_BREDR
+TYPE_OF_DEVICE_BLE
+TYPE_OF_DEVICE_DUAL
 }
 ;
 enum
@@ -741,8 +741,8 @@ mUint32
 int32_t
 mInt32
 ;
-BluetoothDeviceType
-mDeviceType
+BluetoothTypeOfDevice
+mTypeOfDevice
 ;
 BluetoothServiceRecord
 mServiceRecord

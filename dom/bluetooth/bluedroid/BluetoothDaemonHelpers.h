@@ -496,7 +496,7 @@ Convert
 (
 int32_t
 aIn
-BluetoothDeviceType
+BluetoothTypeOfDevice
 &
 aOut
 )
@@ -707,7 +707,7 @@ Convert
 (
 uint8_t
 aIn
-BluetoothDeviceType
+BluetoothTypeOfDevice
 &
 aOut
 )
@@ -2943,7 +2943,7 @@ UnpackPDU
 BluetoothDaemonPDU
 &
 aPDU
-BluetoothDeviceType
+BluetoothTypeOfDevice
 &
 aOut
 )
