@@ -1076,6 +1076,8 @@ TrackID
 track_id
 TrackRate
 track_rate
+bool
+queue_track
 )
 :
 source_
@@ -1093,6 +1095,10 @@ track_rate
 played_ticks_
 (
 0
+)
+queue_track_
+(
+queue_track
 )
 {
 }
@@ -1151,6 +1157,9 @@ track_rate_
 ;
 TrackTicks
 played_ticks_
+;
+bool
+queue_track_
 ;
 }
 ;
@@ -2021,6 +2030,8 @@ nsAutoPtr
 MediaPipelineFilter
 >
 filter
+bool
+queue_track
 )
 :
 MediaPipelineReceive
@@ -2049,6 +2060,7 @@ AsSourceStream
 )
 numeric_track_id
 conduit
+queue_track
 )
 )
 {
@@ -2128,6 +2140,8 @@ MediaSessionConduit
 >
 &
 conduit
+bool
+queue_track
 )
 ;
 ~
@@ -2295,6 +2309,8 @@ nsAutoPtr
 MediaPipelineFilter
 >
 filter
+bool
+queue_track
 )
 :
 MediaPipelineReceive
@@ -2330,6 +2346,7 @@ AsSourceStream
 (
 )
 numeric_track_id
+queue_track
 )
 )
 {
@@ -2531,6 +2548,8 @@ SourceMediaStream
 source
 TrackID
 track_id
+bool
+queue_track
 )
 ;
 virtual
