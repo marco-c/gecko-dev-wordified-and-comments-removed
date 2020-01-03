@@ -9387,6 +9387,7 @@ uint32_t
 *
 result
 )
+const
 ;
 bool
 GetInterfaceTypeFromParam
@@ -9415,7 +9416,9 @@ nsID
 *
 result
 )
+const
 ;
+static
 void
 CleanupPointerArray
 (
@@ -9431,6 +9434,7 @@ void
 arrayp
 )
 ;
+static
 void
 CleanupPointerTypeObject
 (

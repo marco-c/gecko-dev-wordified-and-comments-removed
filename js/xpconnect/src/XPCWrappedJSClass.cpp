@@ -2544,6 +2544,7 @@ uint32_t
 *
 result
 )
+const
 {
 uint8_t
 argnum
@@ -2689,6 +2690,7 @@ nsID
 *
 result
 )
+const
 {
 uint8_t
 type_tag
