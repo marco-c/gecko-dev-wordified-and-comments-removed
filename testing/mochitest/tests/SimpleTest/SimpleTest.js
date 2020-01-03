@@ -4480,8 +4480,14 @@ successFn
 }
 else
 {
-setTimeout
+SimpleTest
+.
+_originalSetTimeout
+.
+apply
 (
+window
+[
 function
 (
 )
@@ -4497,6 +4503,7 @@ flavor
 ;
 }
 100
+]
 )
 ;
 }
