@@ -1450,6 +1450,15 @@ math_imul
 break
 ;
 case
+AsmJSMathBuiltin_clz32
+:
+native
+=
+math_clz32
+;
+break
+;
+case
 AsmJSMathBuiltin_fround
 :
 native
