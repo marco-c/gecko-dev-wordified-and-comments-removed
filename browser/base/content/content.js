@@ -2874,12 +2874,6 @@ case
 pagehide
 "
 :
-this
-.
-_savedArticle
-=
-null
-;
 sendAsyncMessage
 (
 "
@@ -2917,6 +2911,12 @@ isAboutReader
 return
 ;
 }
+this
+.
+_savedArticle
+=
+null
+;
 ReaderMode
 .
 parseDocument
