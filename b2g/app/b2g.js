@@ -4736,6 +4736,9 @@ log
 true
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 pref
 (
 "
@@ -4760,6 +4763,8 @@ prompt
 "
 )
 ;
+#
+endif
 #
 else
 pref
