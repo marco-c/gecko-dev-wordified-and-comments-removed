@@ -562,6 +562,15 @@ aRegion
 if
 (
 !
+mCompositor
+)
+{
+return
+;
+}
+if
+(
+!
 mTextureSource
 )
 {
