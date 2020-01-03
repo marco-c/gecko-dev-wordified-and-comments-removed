@@ -11259,6 +11259,15 @@ pn
 isLikelyIIFE
 (
 )
+&
+&
+!
+funbox
+-
+>
+isGenerator
+(
+)
 )
 break
 ;
