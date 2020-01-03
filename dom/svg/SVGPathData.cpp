@@ -1054,7 +1054,7 @@ tinyLength
 =
 aStrokeWidth
 /
-512
+SVG_ZERO_LENGTH_PATH_FIX_FACTOR
 ;
 aPB
 -
