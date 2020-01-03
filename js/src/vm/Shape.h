@@ -2617,6 +2617,10 @@ listp
 =
 nullptr
 ;
+if
+(
+dictp
+)
 insertIntoDictionary
 (
 dictp
