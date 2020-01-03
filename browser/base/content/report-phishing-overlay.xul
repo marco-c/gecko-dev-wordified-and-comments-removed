@@ -330,7 +330,7 @@ gSafeBrowsing
 getReportURL
 (
 '
-Error
+PhishMistake
 '
 )
 '

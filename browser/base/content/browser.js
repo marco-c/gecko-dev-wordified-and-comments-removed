@@ -16078,7 +16078,7 @@ gSafeBrowsing
 getReportURL
 (
 '
-MalwareError
+MalwareMistake
 '
 )
 '
@@ -16162,7 +16162,7 @@ gSafeBrowsing
 getReportURL
 (
 '
-Error
+PhishMistake
 '
 )
 '
