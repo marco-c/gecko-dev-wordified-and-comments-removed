@@ -996,9 +996,10 @@ target
 ;
 if
 (
+!
 target
 .
-chrome
+isTabActor
 )
 {
 this
