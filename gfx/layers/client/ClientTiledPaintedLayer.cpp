@@ -808,7 +808,7 @@ n
 this
 mPaintData
 .
-mPresShellResolution
+mResolution
 .
 scale
 )
