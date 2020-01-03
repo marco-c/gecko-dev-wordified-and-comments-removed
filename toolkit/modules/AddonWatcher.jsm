@@ -221,6 +221,12 @@ Set
 )
 ;
 }
+Cu
+.
+stopwatchMonitoring
+=
+true
+;
 this
 .
 _timer
@@ -274,6 +280,12 @@ _timer
 null
 ;
 }
+Cu
+.
+stopwatchMonitoring
+=
+false
+;
 }
 _checkAddons
 :
