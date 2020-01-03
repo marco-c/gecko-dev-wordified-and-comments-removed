@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 for
 (
 var
@@ -84,7 +72,6 @@ arr
 1
 )
 ;
-}
 }
 if
 (

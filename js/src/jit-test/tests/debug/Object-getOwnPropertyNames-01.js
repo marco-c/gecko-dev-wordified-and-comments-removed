@@ -331,18 +331,6 @@ function
 "
 )
 ;
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 test
 (
 "
@@ -419,4 +407,3 @@ n
 "
 )
 ;
-}

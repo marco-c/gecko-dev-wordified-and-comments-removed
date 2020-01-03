@@ -3380,18 +3380,6 @@ FAIL
 "
 )
 ;
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 valueToConvert
 =
 Symbol
@@ -3411,7 +3399,6 @@ f
 TypeError
 )
 ;
-}
 }
 testBadConversions
 (

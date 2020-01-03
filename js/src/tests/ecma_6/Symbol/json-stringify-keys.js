@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 obj
 =
@@ -137,7 +125,6 @@ a
 '
 )
 ;
-}
 if
 (
 typeof

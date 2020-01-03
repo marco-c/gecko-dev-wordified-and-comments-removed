@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 N
 =
@@ -65,4 +53,3 @@ hits
 N
 )
 ;
-}

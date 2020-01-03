@@ -59,18 +59,6 @@ bar
 )
 ;
 }
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 s
 =
@@ -134,4 +122,3 @@ dust
 "
 )
 ;
-}

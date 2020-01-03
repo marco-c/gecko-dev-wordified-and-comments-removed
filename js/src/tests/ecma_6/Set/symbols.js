@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 s
 =
@@ -216,7 +204,6 @@ word
 ]
 )
 ;
-}
 if
 (
 typeof

@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 gczeal
 (
 9
@@ -55,4 +43,3 @@ a
 )
 )
 ;
-}

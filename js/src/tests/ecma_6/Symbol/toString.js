@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 cases
 =
@@ -199,7 +187,6 @@ nonsym
 TypeError
 )
 ;
-}
 if
 (
 typeof

@@ -3,17 +3,6 @@ f
 (
 )
 {
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
 return
 Object
 (

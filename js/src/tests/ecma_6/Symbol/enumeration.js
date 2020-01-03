@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 obj
 =
@@ -408,7 +396,6 @@ gopd
 ]
 )
 ;
-}
 if
 (
 typeof

@@ -1,18 +1,6 @@
 if
 (
 typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
-if
-(
-typeof
 Reflect
 !
 =
@@ -269,7 +257,6 @@ rainbows
 )
 )
 ;
-}
 }
 if
 (

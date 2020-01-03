@@ -4222,18 +4222,6 @@ blah
 NaN
 )
 ;
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 assertThrowsInstanceOf
 (
 (
@@ -4409,7 +4397,6 @@ blah
 TypeError
 )
 ;
-}
 assertEq
 (
 asmLink

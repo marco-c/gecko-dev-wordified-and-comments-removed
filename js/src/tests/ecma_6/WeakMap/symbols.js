@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 m
 =
@@ -39,7 +27,6 @@ sym
 TypeError
 )
 ;
-}
 if
 (
 typeof

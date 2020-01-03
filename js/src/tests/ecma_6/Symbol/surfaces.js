@@ -1,15 +1,3 @@
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
-{
 var
 desc
 =
@@ -218,7 +206,6 @@ length
 0
 )
 ;
-}
 if
 (
 typeof

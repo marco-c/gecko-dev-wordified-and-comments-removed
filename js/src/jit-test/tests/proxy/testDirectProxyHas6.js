@@ -58,17 +58,6 @@ p
 false
 )
 ;
-if
-(
-typeof
-Symbol
-=
-=
-=
-"
-function
-"
-)
 assertEq
 (
 Symbol
