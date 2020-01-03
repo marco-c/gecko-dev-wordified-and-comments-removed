@@ -1683,6 +1683,14 @@ stopAlerting
 ;
 this
 .
+_websocket
+.
+accept
+(
+)
+;
+this
+.
 _conversation
 .
 incoming
