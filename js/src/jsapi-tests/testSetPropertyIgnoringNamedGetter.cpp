@@ -119,12 +119,12 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
-receiver
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
+HandleValue
+receiver
 ObjectOpResult
 &
 result
@@ -165,7 +165,7 @@ SetPropertyIgnoringNamedGetter
 cx
 proxy
 id
-vp
+v
 receiver
 desc
 result

@@ -133,12 +133,12 @@ JSContext
 cx
 HandleObject
 wrapper
-HandleObject
-receiver
 HandleId
 id
-MutableHandleValue
-vp
+HandleValue
+v
+HandleValue
+receiver
 ObjectOpResult
 &
 result
@@ -155,7 +155,7 @@ checkPassToPrivilegedCode
 (
 cx
 wrapper
-vp
+v
 )
 )
 return
@@ -169,9 +169,9 @@ set
 (
 cx
 wrapper
-receiver
 id
-vp
+v
+receiver
 result
 )
 ;

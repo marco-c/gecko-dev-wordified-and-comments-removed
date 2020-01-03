@@ -68742,7 +68742,7 @@ checkFound
 =
 True
                  
-argumentMutableValue
+argumentHandleValue
 =
 None
 resultVar
@@ -68904,12 +68904,12 @@ name
 )
             
 if
-argumentMutableValue
+argumentHandleValue
 is
 None
 :
                 
-argumentMutableValue
+argumentHandleValue
 =
 "
 desc
@@ -68951,7 +68951,7 @@ _holder
 val
 "
 :
-argumentMutableValue
+argumentHandleValue
                 
 "
 obj
@@ -69319,7 +69319,7 @@ checkFound
 =
 True
                  
-argumentMutableValue
+argumentHandleValue
 =
 None
 resultVar
@@ -69346,9 +69346,9 @@ descriptor
 name
 checkFound
                                          
-argumentMutableValue
+argumentHandleValue
 =
-argumentMutableValue
+argumentHandleValue
                                          
 resultVar
 =
@@ -69734,7 +69734,7 @@ __init__
 (
 self
 descriptor
-argumentMutableValue
+argumentHandleValue
 =
 None
 )
@@ -69750,9 +69750,9 @@ descriptor
 IndexedSetter
 '
                                          
-argumentMutableValue
+argumentHandleValue
 =
-argumentMutableValue
+argumentHandleValue
 )
 class
 CGProxyIndexedDeleter
@@ -69909,7 +69909,7 @@ name
 value
 =
 None
-argumentMutableValue
+argumentHandleValue
 =
 None
                  
@@ -69930,9 +69930,9 @@ self
 descriptor
 name
                                          
-argumentMutableValue
+argumentHandleValue
 =
-argumentMutableValue
+argumentHandleValue
                                          
 resultVar
 =
@@ -70496,7 +70496,7 @@ __init__
 (
 self
 descriptor
-argumentMutableValue
+argumentHandleValue
 =
 None
 )
@@ -70512,9 +70512,9 @@ descriptor
 NamedSetter
 '
                                        
-argumentMutableValue
+argumentHandleValue
 =
-argumentMutableValue
+argumentHandleValue
 )
 class
 CGProxyNamedDeleter
@@ -74793,7 +74793,7 @@ Argument
 JS
 :
 :
-MutableHandle
+Handle
 <
 JS
 :
@@ -74802,7 +74802,7 @@ Value
 >
 '
 '
-vp
+v
 '
 )
                 
@@ -75074,10 +75074,10 @@ CGProxyNamedSetter
 self
 .
 descriptor
-argumentMutableValue
+argumentHandleValue
 =
 "
-vp
+v
 "
 )
             
@@ -75246,10 +75246,10 @@ self
 .
 descriptor
                                                 
-argumentMutableValue
+argumentHandleValue
 =
 "
-vp
+v
 "
 )
 .
