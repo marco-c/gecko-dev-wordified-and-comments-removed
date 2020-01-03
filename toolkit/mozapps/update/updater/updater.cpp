@@ -3750,6 +3750,11 @@ break
 }
 }
 }
+NS_tclosedir
+(
+dir
+)
+;
 return
 rv
 ;
