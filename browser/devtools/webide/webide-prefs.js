@@ -370,3 +370,16 @@ localhost
 "
 )
 ;
+pref
+(
+"
+devtools
+.
+webide
+.
+lastConnectedRuntime
+"
+"
+"
+)
+;
