@@ -67,6 +67,9 @@ Symbol
 iterator
 "
 )
+Symbol
+.
+iterator
 ]
 ;
 for
