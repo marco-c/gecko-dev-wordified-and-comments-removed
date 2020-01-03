@@ -7892,7 +7892,9 @@ clone
 NewDenseEmptyArray
 (
 cx
-nullptr
+NullPtr
+(
+)
 TenuredObject
 )
 ;

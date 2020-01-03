@@ -20700,7 +20700,9 @@ NewDenseFullyAllocatedArray
 (
 cx
 count
-nullptr
+NullPtr
+(
+)
 MaybeSingletonObject
 )
 )

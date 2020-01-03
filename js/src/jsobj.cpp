@@ -10240,7 +10240,9 @@ ArrayObject
 length
 (
 )
-nullptr
+NullPtr
+(
+)
 newKind
 )
 ;
@@ -10945,7 +10947,9 @@ NewDenseUnallocatedArray
 (
 cx
 length
-NULL
+NullPtr
+(
+)
 js
 :
 :
@@ -12264,7 +12268,9 @@ NewDenseFullyAllocatedArray
 (
 cx
 length
-nullptr
+NullPtr
+(
+)
 MaybeSingletonObject
 )
 )

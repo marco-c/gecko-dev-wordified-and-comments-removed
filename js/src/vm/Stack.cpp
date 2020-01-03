@@ -748,7 +748,9 @@ NewDenseCopiedArray
 cx
 nrest
 restvp
-nullptr
+NullPtr
+(
+)
 )
 ;
 if
