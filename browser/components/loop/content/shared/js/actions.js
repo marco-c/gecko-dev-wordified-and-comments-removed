@@ -142,9 +142,12 @@ define
 setupWindowData
 "
 {
-windowData
+windowId
 :
-Object
+String
+type
+:
+String
 }
 )
 FetchEmailLink

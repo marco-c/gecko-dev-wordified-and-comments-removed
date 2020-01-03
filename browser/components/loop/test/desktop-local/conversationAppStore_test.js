@@ -202,7 +202,7 @@ function
 )
 {
 var
-fakeCallData
+fakeWindowData
 fakeGetWindowData
 fakeMozLoop
 store
@@ -213,7 +213,7 @@ function
 (
 )
 {
-fakeCallData
+fakeWindowData
 =
 {
 type
@@ -251,7 +251,7 @@ return
 false
 ;
 }
-getCallData
+getConversationWindowData
 :
 function
 (
@@ -270,7 +270,7 @@ windowId
 )
 {
 return
-fakeCallData
+fakeWindowData
 ;
 }
 return
@@ -348,6 +348,9 @@ windowType
 "
 incoming
 "
+windowData
+:
+fakeWindowData
 }
 )
 ;
@@ -422,11 +425,19 @@ sharedActions
 .
 SetupWindowData
 (
+_
+.
+extend
+(
 {
-windowData
+windowId
 :
-fakeCallData
+fakeGetWindowData
+.
+windowId
 }
+fakeWindowData
+)
 )
 )
 ;

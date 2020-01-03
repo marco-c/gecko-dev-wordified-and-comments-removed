@@ -347,9 +347,11 @@ sharedActions
 SetupWindowData
 (
 {
-windowData
+windowId
 :
-{
+"
+42
+"
 type
 :
 "
@@ -358,7 +360,6 @@ room
 localRoomId
 :
 fakeRoomId
-}
 }
 )
 )
@@ -434,9 +435,11 @@ sharedActions
 SetupWindowData
 (
 {
-windowData
+windowId
 :
-{
+"
+42
+"
 type
 :
 "
@@ -445,7 +448,6 @@ room
 localRoomId
 :
 fakeRoomId
-}
 }
 )
 )
@@ -524,9 +526,11 @@ sharedActions
 SetupWindowData
 (
 {
-windowData
+windowId
 :
-{
+"
+42
+"
 type
 :
 "
@@ -535,7 +539,6 @@ room
 localRoomId
 :
 fakeRoomId
-}
 }
 )
 )
@@ -643,9 +646,11 @@ sharedActions
 SetupWindowData
 (
 {
-windowData
+windowId
 :
-{
+"
+42
+"
 type
 :
 "
@@ -654,7 +659,6 @@ room
 localRoomId
 :
 fakeRoomId
-}
 }
 )
 )

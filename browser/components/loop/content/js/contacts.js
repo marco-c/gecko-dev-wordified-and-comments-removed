@@ -2198,6 +2198,8 @@ navigator
 .
 mozLoop
 .
+calls
+.
 startDirectCall
 (
 contact
@@ -2227,6 +2229,8 @@ blocked
 navigator
 .
 mozLoop
+.
+calls
 .
 startDirectCall
 (

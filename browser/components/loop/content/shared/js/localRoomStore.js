@@ -242,8 +242,6 @@ if
 (
 actionData
 .
-windowData
-.
 type
 !
 =
@@ -261,8 +259,6 @@ this
 _fetchRoomData
 (
 actionData
-.
-windowData
 .
 localRoomId
 function
@@ -282,8 +278,6 @@ error
 localRoomId
 :
 actionData
-.
-windowData
 .
 localRoomId
 serverData

@@ -115,7 +115,7 @@ window
 )
 ;
 let
-callId
+windowId
 =
 openedUrl
 .
@@ -140,9 +140,9 @@ d
 ;
 LoopCalls
 .
-releaseCallData
+clearCallInProgress
 (
-callId
+windowId
 )
 ;
 }
@@ -151,7 +151,7 @@ callId
 add_task
 (
 function
-test_startDirectCall_getCallData
+test_startDirectCall_getConversationWindowData
 (
 )
 {
@@ -189,7 +189,7 @@ video
 )
 ;
 let
-callId
+windowId
 =
 openedUrl
 .
@@ -215,11 +215,11 @@ d
 let
 callData
 =
-LoopCalls
+MozLoopService
 .
-getCallData
+getConversationWindowData
 (
-callId
+windowId
 )
 ;
 do_check_eq
@@ -259,9 +259,9 @@ details
 ;
 LoopCalls
 .
-releaseCallData
+clearCallInProgress
 (
-callId
+windowId
 )
 ;
 }
