@@ -102,6 +102,15 @@ aThisIndex
 )
 ;
 void
+SendIPCEvent
+(
+AccEvent
+*
+aEvent
+)
+const
+;
+void
 CoalesceTextChangeEventsFor
 (
 AccHideEvent
