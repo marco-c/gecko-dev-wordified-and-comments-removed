@@ -223,7 +223,7 @@ MacroAssemblerMIPS
 public
 Assembler
 {
-protected
+public
 :
 Operand
 ToPayload
@@ -253,6 +253,8 @@ toAddress
 )
 ;
 }
+protected
+:
 Operand
 ToType
 (

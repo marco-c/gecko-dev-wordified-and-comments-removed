@@ -119,6 +119,8 @@ protected
 Register
 secondScratchReg_
 ;
+public
+:
 Operand
 ToPayload
 (
@@ -169,6 +171,8 @@ toAddress
 )
 ;
 }
+protected
+:
 Operand
 ToType
 (
