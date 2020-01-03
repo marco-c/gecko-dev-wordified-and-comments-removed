@@ -154,6 +154,7 @@ bool
 *
 aSuccess
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -10798,6 +10798,7 @@ NS_DECL_ISUPPORTS
 #
 define
 NO_IMPL
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -10891,6 +10892,7 @@ nsIURI
 *
 aUri
 )
+MOZ_OVERRIDE
 {
 NS_IF_ADDREF
 (
@@ -10929,6 +10931,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
+MOZ_OVERRIDE
 {
 NS_IF_ADDREF
 (
@@ -10949,6 +10952,7 @@ nsILoadInfo
 *
 aLoadInfo
 )
+MOZ_OVERRIDE
 {
 mLoadInfo
 =
@@ -10966,6 +10970,7 @@ nsIInterfaceRequestor
 *
 aRequestor
 )
+MOZ_OVERRIDE
 {
 NS_ADDREF
 (
@@ -11099,6 +11104,7 @@ nsIAuthInformation
 *
 aAuthInfo
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnAuthCancelled
@@ -11109,6 +11115,7 @@ aContext
 bool
 userCancel
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetInterface
@@ -11122,6 +11129,7 @@ void
 *
 result
 )
+MOZ_OVERRIDE
 {
 return
 QueryInterface
@@ -11155,6 +11163,7 @@ nsIDOMElement
 *
 aElement
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <

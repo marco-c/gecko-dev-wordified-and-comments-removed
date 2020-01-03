@@ -378,8 +378,9 @@ RecvReplyKeyEvent
 const
 WidgetKeyboardEvent
 &
-event
+aEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -388,8 +389,9 @@ RecvDispatchAfterKeyboardEvent
 const
 WidgetKeyboardEvent
 &
-event
+aEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -835,6 +837,7 @@ bool
 *
 aIsVisible
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -853,12 +856,14 @@ nsString
 &
 aTooltip
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 RecvHideTooltip
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

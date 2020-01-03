@@ -224,6 +224,7 @@ void
 *
 aInstancePtr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -233,6 +234,7 @@ AddRef
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 1
@@ -246,6 +248,7 @@ Release
 (
 void
 )
+MOZ_OVERRIDE
 {
 return
 1
@@ -593,6 +596,7 @@ bool
 &
 aIsForBrowser
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -601,6 +605,7 @@ DeallocPBrowserChild
 PBrowserChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PDeviceStorageRequestChild
@@ -611,6 +616,7 @@ const
 DeviceStorageParams
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -619,6 +625,7 @@ DeallocPDeviceStorageRequestChild
 PDeviceStorageRequestChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PFileSystemRequestChild
@@ -629,6 +636,7 @@ const
 FileSystemParams
 &
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -637,6 +645,7 @@ DeallocPFileSystemRequestChild
 PFileSystemRequestChild
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PBlobChild

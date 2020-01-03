@@ -2136,15 +2136,16 @@ Recv__delete__
 const
 uint32_t
 &
-generation
+aGeneration
 const
 InfallibleTArray
 <
 MemoryReport
 >
 &
-report
+aReport
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -6248,6 +6249,7 @@ nsITimer
 *
 aTimer
 )
+MOZ_OVERRIDE
 {
 ShutDown
 (
