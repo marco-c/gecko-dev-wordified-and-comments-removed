@@ -2111,6 +2111,15 @@ if
 TimingEnabled
 (
 )
+&
+&
+GetRequestStart
+(
+)
+.
+IsNull
+(
+)
 )
 {
 if
