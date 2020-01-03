@@ -1784,6 +1784,17 @@ GLint
 level
 )
 ;
+bool
+ValidateFramebufferAttachment
+(
+GLenum
+attachment
+const
+char
+*
+funcName
+)
+;
 void
 FrontFace
 (

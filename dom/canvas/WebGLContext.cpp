@@ -6119,7 +6119,7 @@ char
 info
 )
 {
-GLenum
+FBStatus
 status
 =
 CheckFramebufferStatus
