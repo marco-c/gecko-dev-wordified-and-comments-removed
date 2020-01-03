@@ -5037,7 +5037,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptAnyThreadDontStopIon
+RequestInterruptCanWait
 )
 ;
 HelperThreadState

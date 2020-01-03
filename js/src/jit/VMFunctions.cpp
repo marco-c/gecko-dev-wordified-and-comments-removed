@@ -2776,6 +2776,11 @@ MaybeVerifyBarriers
 cx
 )
 ;
+{
+JitRuntime
+*
+jrt
+=
 cx
 -
 >
@@ -2787,6 +2792,17 @@ runtime
 jitRuntime
 (
 )
+;
+JitRuntime
+:
+:
+AutoMutateBackedges
+amb
+(
+jrt
+)
+;
+jrt
 -
 >
 patchIonBackedges
@@ -2803,6 +2819,7 @@ JitRuntime
 BackedgeLoopHeader
 )
 ;
+}
 return
 CheckForInterrupt
 (

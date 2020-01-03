@@ -7342,7 +7342,7 @@ requestInterrupt
 JSRuntime
 :
 :
-RequestInterruptAnyThreadForkJoin
+RequestInterruptCanWait
 )
 ;
 }
