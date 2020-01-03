@@ -7,8 +7,6 @@ unicode_literals
 import
 argparse
 import
-glob
-import
 logging
 import
 mozpack
@@ -289,6 +287,9 @@ self
 _activate_virtualenv
 (
 )
+        
+import
+glob
         
 return_code
 =
