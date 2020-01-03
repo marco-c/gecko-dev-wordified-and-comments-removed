@@ -6767,6 +6767,15 @@ IsNaN
 x
 )
 ;
+if
+(
+isInfinite
+|
+|
+isNaN
+)
+continue
+;
 double
 xabs
 =
