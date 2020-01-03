@@ -292,7 +292,7 @@ id
 yield
 TelemetryController
 .
-send
+submitExternalPing
 (
 data
 .

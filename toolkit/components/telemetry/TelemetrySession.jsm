@@ -6710,7 +6710,7 @@ true
 return
 TelemetryController
 .
-send
+submitExternalPing
 (
 getPingType
 (
@@ -9087,7 +9087,7 @@ promise
 =
 TelemetryController
 .
-send
+submitExternalPing
 (
 getPingType
 (
@@ -9464,7 +9464,7 @@ oldEnvironment
 ;
 TelemetryController
 .
-send
+submitExternalPing
 (
 getPingType
 (

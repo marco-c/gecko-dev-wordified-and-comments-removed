@@ -410,7 +410,7 @@ TEST_PING_RETENTION
 return
 TelemetryController
 .
-send
+submitExternalPing
 (
 TEST_PING_TYPE
 {

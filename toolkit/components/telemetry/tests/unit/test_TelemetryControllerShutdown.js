@@ -423,7 +423,7 @@ primaryPort
 ;
 TelemetryController
 .
-send
+submitExternalPing
 (
 "
 test
