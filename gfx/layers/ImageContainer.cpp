@@ -726,7 +726,7 @@ CreateImageClient
 CompositableType
 :
 :
-BUFFER_IMAGE_SINGLE
+IMAGE
 )
 .
 drop

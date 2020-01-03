@@ -721,7 +721,7 @@ case
 CompositableType
 :
 :
-BUFFER_BRIDGE
+IMAGE_BRIDGE
 :
 NS_ERROR
 (
