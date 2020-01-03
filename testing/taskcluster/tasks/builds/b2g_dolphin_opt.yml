@@ -27,7 +27,7 @@ build
 -
 dolphin
 -
-eng
+opt
 '
 metadata
 :
@@ -39,15 +39,12 @@ TC
 ]
 B2G
 Dolphin
-Eng
+Opt
 '
 extra
 :
 treeherder
 :
-symbol
-:
-Be
 groupSymbol
 :
 Dolphin
@@ -73,7 +70,7 @@ build
 -
 dolphin
 -
-eng
+opt
 :
 /
 home
@@ -90,6 +87,3 @@ TARGET
 '
 dolphin
 '
-VARIANT
-:
-eng

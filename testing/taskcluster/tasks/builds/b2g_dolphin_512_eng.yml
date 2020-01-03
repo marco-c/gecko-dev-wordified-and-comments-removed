@@ -27,6 +27,8 @@ build
 -
 dolphin
 -
+512
+-
 eng
 '
 metadata
@@ -39,6 +41,7 @@ TC
 ]
 B2G
 Dolphin
+512
 Eng
 '
 extra
@@ -51,9 +54,12 @@ Be
 groupSymbol
 :
 Dolphin
+-
+512
 groupName
 :
 Dolphin
+512
 Device
 Image
 machine
@@ -73,6 +79,8 @@ build
 -
 dolphin
 -
+512
+-
 eng
 :
 /
@@ -89,6 +97,8 @@ TARGET
 :
 '
 dolphin
+-
+512
 '
 VARIANT
 :
