@@ -1481,8 +1481,9 @@ indexSize
 ;
 mIndexDeltas
 .
-Clear
+SetLength
 (
+indexSize
 )
 ;
 mTotalPrefixes
@@ -1580,12 +1581,6 @@ i
 +
 )
 {
-mIndexDeltas
-.
-AppendElement
-(
-)
-;
 uint32_t
 numInDelta
 =
