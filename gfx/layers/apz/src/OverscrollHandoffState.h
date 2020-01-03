@@ -23,6 +23,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 namespace
 mozilla
 {
