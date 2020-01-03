@@ -338,6 +338,9 @@ mEndTouchIsClick
 bool
 mTouchEndCancelled
 ;
+int
+mActiveAPZTransforms
+;
 }
 ;
 }
