@@ -105,6 +105,10 @@ mozilla
 :
 MediaEnginePrefs
 &
+const
+nsString
+&
+aDeviceId
 )
 override
 ;
@@ -241,6 +245,10 @@ MediaTrackConstraintSet
 >
 &
 aConstraintSets
+const
+nsString
+&
+aDeviceId
 )
 override
 {

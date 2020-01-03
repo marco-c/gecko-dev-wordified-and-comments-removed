@@ -171,6 +171,10 @@ const
 MediaEnginePrefs
 &
 aPrefs
+const
+nsString
+&
+aDeviceId
 )
 override
 ;

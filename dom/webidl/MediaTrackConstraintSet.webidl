@@ -147,6 +147,9 @@ browserWindow
 "
 scrollWithPage
 "
+"
+deviceId
+"
 }
 ;
 enum
@@ -185,6 +188,9 @@ browserWindow
 ;
 boolean
 scrollWithPage
+;
+ConstrainDOMString
+deviceId
 ;
 }
 ;

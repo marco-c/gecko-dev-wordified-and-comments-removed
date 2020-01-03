@@ -201,8 +201,6 @@ Mozilla
 legacy
 boolean
 fake
-=
-false
 ;
 /
 /
@@ -236,8 +234,6 @@ enabled
 .
 boolean
 fakeTracks
-=
-false
 ;
 /
 /

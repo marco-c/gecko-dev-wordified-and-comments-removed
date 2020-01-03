@@ -2377,11 +2377,6 @@ this
 )
 )
 ;
-MOZ_COUNT_CTOR
-(
-Parent
-)
-;
 }
 template
 <
@@ -2414,11 +2409,6 @@ p
 "
 this
 )
-)
-;
-MOZ_COUNT_DTOR
-(
-Parent
 )
 ;
 }
