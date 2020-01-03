@@ -3106,13 +3106,6 @@ return
 mLayerManager
 ;
 }
-mUseLayersAcceleration
-=
-ComputeShouldAccelerate
-(
-mUseLayersAcceleration
-)
-;
 const
 nsTArray
 <

@@ -7229,8 +7229,6 @@ nsChildView
 :
 ComputeShouldAccelerate
 (
-bool
-aDefault
 )
 {
 /
@@ -7286,7 +7284,6 @@ nsBaseWidget
 :
 ComputeShouldAccelerate
 (
-aDefault
 )
 ;
 }

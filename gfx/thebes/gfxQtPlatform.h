@@ -304,6 +304,16 @@ GetScreenDepth
 const
 override
 ;
+bool
+AccelerateLayersByDefault
+(
+)
+override
+{
+return
+true
+;
+}
 protected
 :
 static
