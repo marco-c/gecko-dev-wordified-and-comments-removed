@@ -550,8 +550,10 @@ aState
 )
 ;
 static
+StaticRefPtr
+<
 nsIContent
-*
+>
 sContent
 ;
 static
