@@ -47,6 +47,17 @@ PluginWidgetChild
 )
 ;
 virtual
+bool
+RecvUpdateWindow
+(
+const
+uintptr_t
+&
+aChildId
+)
+MOZ_OVERRIDE
+;
+virtual
 void
 ActorDestroy
 (
