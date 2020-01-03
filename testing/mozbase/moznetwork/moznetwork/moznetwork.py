@@ -883,7 +883,13 @@ ips
 0
 ]
         
-else
+elif
+len
+(
+ips
+)
+>
+1
 :
             
 logger
@@ -901,6 +907,22 @@ s
 %
 ips
 )
+            
+ip
+=
+ips
+[
+0
+]
+if
+mozinfo
+.
+isWin
+else
+None
+        
+else
+:
             
 ip
 =
