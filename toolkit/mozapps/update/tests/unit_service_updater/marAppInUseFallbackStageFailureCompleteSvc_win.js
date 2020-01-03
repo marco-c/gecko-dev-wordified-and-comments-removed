@@ -1,3 +1,13 @@
+const
+START_STATE
+=
+STATE_PENDING_SVC
+;
+const
+END_STATE
+=
+STATE_PENDING
+;
 function
 run_test
 (
@@ -138,7 +148,7 @@ doUpdate
 {
 runUpdateUsingService
 (
-STATE_PENDING_SVC
+START_STATE
 STATE_APPLIED
 )
 ;
@@ -159,7 +169,8 @@ true
 runUpdate
 (
 1
-STATE_PENDING
+END_STATE
+checkUpdateApplied
 )
 ;
 }

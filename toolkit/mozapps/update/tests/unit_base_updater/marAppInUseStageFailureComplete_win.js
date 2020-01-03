@@ -1,3 +1,13 @@
+const
+START_STATE
+=
+STATE_APPLIED
+;
+const
+END_STATE
+=
+STATE_FAILED_WRITE_ERROR
+;
 function
 run_test
 (
@@ -118,7 +128,7 @@ doUpdate
 runUpdate
 (
 0
-STATE_APPLIED
+START_STATE
 null
 )
 ;
@@ -137,7 +147,8 @@ true
 runUpdate
 (
 1
-STATE_FAILED_WRITE_ERROR
+END_STATE
+checkUpdateApplied
 )
 ;
 }

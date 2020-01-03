@@ -1,3 +1,13 @@
+const
+START_STATE
+=
+STATE_APPLIED
+;
+const
+END_STATE
+=
+STATE_PENDING
+;
 function
 run_test
 (
@@ -118,7 +128,7 @@ doUpdate
 runUpdate
 (
 0
-STATE_APPLIED
+START_STATE
 null
 )
 ;
@@ -133,7 +143,8 @@ true
 runUpdate
 (
 1
-STATE_PENDING
+END_STATE
+checkUpdateApplied
 )
 ;
 }

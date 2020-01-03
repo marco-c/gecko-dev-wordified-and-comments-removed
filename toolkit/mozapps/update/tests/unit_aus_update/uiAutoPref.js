@@ -228,11 +228,10 @@ STATE_DOWNLOADING
 "
 the
 update
-should
-not
-be
-downloading
+state
 "
++
+MSG_SHOULD_EQUAL
 )
 ;
 gAUS

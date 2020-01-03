@@ -217,6 +217,7 @@ runUpdate
 (
 1
 STATE_PENDING
+checkUpdateApplied
 )
 ;
 }
