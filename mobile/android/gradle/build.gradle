@@ -36,6 +36,12 @@ mozconfig
 .
 topobjdir
 }
+repositories
+{
+jcenter
+(
+)
+}
 }
 buildDir
 "
@@ -146,12 +152,6 @@ gradle
 0
 '
 }
-}
-repositories
-{
-jcenter
-(
-)
 }
 task
 generateCodeAndResources
