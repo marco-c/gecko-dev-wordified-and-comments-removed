@@ -2484,6 +2484,16 @@ dummy
 '
                    
 '
+toolkit
+.
+telemetry
+.
+unifiedIsOptIn
+'
+:
+True
+                   
+'
 dom
 .
 serviceWorkers
