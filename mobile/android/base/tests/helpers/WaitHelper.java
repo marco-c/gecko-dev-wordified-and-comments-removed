@@ -151,7 +151,7 @@ final
 int
 DEFAULT_MAX_WAIT_MS
 =
-5000
+15000
 ;
 private
 static
