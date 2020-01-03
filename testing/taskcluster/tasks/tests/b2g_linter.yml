@@ -22,6 +22,7 @@ name
 [
 TC
 ]
+-
 Gaia
 Linter
 '
@@ -191,8 +192,19 @@ from_now
 '
 extra
 :
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
+groupSymbol
+:
+"
+?
+"
 symbol
 :
 '

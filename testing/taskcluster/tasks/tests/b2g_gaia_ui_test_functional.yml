@@ -22,6 +22,7 @@ name
 [
 TC
 ]
+-
 Gaia
 Python
 Functional
@@ -282,6 +283,12 @@ chunks
 total
 :
 3
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
 groupName
@@ -292,8 +299,6 @@ Integration
 Tests
 groupSymbol
 :
-tc
--
 Gip
 symbol
 :

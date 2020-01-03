@@ -22,6 +22,7 @@ name
 [
 TC
 ]
+-
 Gaia
 Build
 Unit
@@ -207,8 +208,19 @@ from_now
 '
 extra
 :
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
+groupSymbol
+:
+"
+?
+"
 symbol
 :
 '

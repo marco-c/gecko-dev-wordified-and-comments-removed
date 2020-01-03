@@ -22,6 +22,7 @@ name
 [
 TC
 ]
+-
 Gaia
 JS
 Integration
@@ -239,7 +240,13 @@ chunks
 :
 total
 :
-20
+30
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
 groupName
@@ -250,8 +257,6 @@ Integration
 Test
 groupSymbol
 :
-tc
--
 Gij
 symbol
 :

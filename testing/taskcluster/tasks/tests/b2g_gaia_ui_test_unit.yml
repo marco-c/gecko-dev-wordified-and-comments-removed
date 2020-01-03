@@ -22,6 +22,7 @@ name
 [
 TC
 ]
+-
 Gaia
 Python
 Integration
@@ -257,6 +258,12 @@ from_now
 '
 extra
 :
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
 groupName
@@ -267,8 +274,6 @@ Integration
 Tests
 groupSymbol
 :
-tc
--
 Gip
 symbol
 :

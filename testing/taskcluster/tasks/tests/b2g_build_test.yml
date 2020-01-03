@@ -22,6 +22,7 @@ name
 [
 TC
 ]
+-
 Gaia
 Build
 Test
@@ -249,8 +250,19 @@ from_now
 '
 extra
 :
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
+groupSymbol
+:
+"
+?
+"
 symbol
 :
 '
