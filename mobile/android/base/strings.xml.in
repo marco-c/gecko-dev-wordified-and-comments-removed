@@ -3099,7 +3099,7 @@ pref_tab_queue_title
 "
 >
 &
-pref_tab_queue_title
+pref_tab_queue_title2
 ;
 <
 /
@@ -3114,7 +3114,7 @@ pref_tab_queue_summary
 "
 >
 &
-pref_tab_queue_summary
+pref_tab_queue_summary2
 ;
 <
 /
@@ -3144,7 +3144,7 @@ tab_queue_prompt_text
 "
 >
 &
-tab_queue_prompt_text
+tab_queue_prompt_text2
 ;
 <
 /
@@ -3204,7 +3204,7 @@ tab_queue_toast_message
 "
 >
 &
-tab_queue_toast_message
+tab_queue_toast_message2
 ;
 <
 /
