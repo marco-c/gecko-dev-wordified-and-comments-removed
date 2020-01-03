@@ -4724,7 +4724,6 @@ nullptr
 &
 aOrigin
 nullptr
-nullptr
 )
 ;
 return
@@ -4780,7 +4779,6 @@ principal
 nullptr
 &
 aOrigin
-nullptr
 nullptr
 )
 ;

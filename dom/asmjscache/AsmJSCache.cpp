@@ -2005,10 +2005,6 @@ mIsApp
 (
 false
 )
-mHasUnlimStoragePerm
-(
-false
-)
 mEnforcingQuota
 (
 true
@@ -2449,9 +2445,6 @@ bool
 mIsApp
 ;
 bool
-mHasUnlimStoragePerm
-;
-bool
 mEnforcingQuota
 ;
 }
@@ -2525,7 +2518,6 @@ quota
 PERSISTENCE_TYPE_PERSISTENT
 mOrigin
 mIsApp
-mHasUnlimStoragePerm
 )
 )
 {
@@ -2658,8 +2650,6 @@ mGroup
 mOrigin
 &
 mIsApp
-&
-mHasUnlimStoragePerm
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2682,7 +2672,6 @@ IsQuotaEnforced
 mPersistence
 mOrigin
 mIsApp
-mHasUnlimStoragePerm
 )
 ;
 QuotaManager
@@ -2771,7 +2760,6 @@ mPersistence
 mGroup
 mOrigin
 mIsApp
-mHasUnlimStoragePerm
 getter_AddRefs
 (
 mDirectory

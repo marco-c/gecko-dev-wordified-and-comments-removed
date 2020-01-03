@@ -194,11 +194,6 @@ UNIFIED_SOURCES
 =
 [
 '
-CheckQuotaHelper
-.
-cpp
-'
-'
 FileStreams
 .
 cpp

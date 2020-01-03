@@ -80,13 +80,6 @@ indexedDB
 "
 offlineApps
 "
-"
-indexedDBQuota
-"
-:
-"
-indexedDBQuota
-"
 }
 ;
 const

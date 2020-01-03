@@ -15486,9 +15486,6 @@ bool
 mIsApp
 ;
 bool
-mHasUnlimStoragePerm
-;
-bool
 mEnforcingQuota
 ;
 const
@@ -40985,10 +40982,6 @@ mIsApp
 (
 false
 )
-mHasUnlimStoragePerm
-(
-false
-)
 mEnforcingQuota
 (
 true
@@ -42326,8 +42319,6 @@ mGroup
 mOrigin
 &
 mIsApp
-&
-mHasUnlimStoragePerm
 )
 ;
 MOZ_ASSERT
@@ -42354,7 +42345,6 @@ IsQuotaEnforced
 persistenceType
 mOrigin
 mIsApp
-mHasUnlimStoragePerm
 )
 ;
 }
@@ -42425,9 +42415,6 @@ origin
 bool
 isApp
 ;
-bool
-hasUnlimStoragePerm
-;
 rv
 =
 QuotaManager
@@ -42442,8 +42429,6 @@ group
 origin
 &
 isApp
-&
-hasUnlimStoragePerm
 )
 ;
 if
@@ -42645,10 +42630,6 @@ mIsApp
 =
 isApp
 ;
-mHasUnlimStoragePerm
-=
-hasUnlimStoragePerm
-;
 mEnforcingQuota
 =
 QuotaManager
@@ -42659,7 +42640,6 @@ IsQuotaEnforced
 persistenceType
 mOrigin
 mIsApp
-mHasUnlimStoragePerm
 )
 ;
 }
@@ -44304,7 +44284,6 @@ persistenceType
 mGroup
 mOrigin
 mIsApp
-mHasUnlimStoragePerm
 getter_AddRefs
 (
 dbDirectory
