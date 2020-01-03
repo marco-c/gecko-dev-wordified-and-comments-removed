@@ -1638,11 +1638,11 @@ column
 report
 -
 >
-originPrincipals
+isMuted
 =
 iter
 .
-originPrincipals
+mutedErrors
 (
 )
 ;

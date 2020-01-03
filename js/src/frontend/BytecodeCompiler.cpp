@@ -2383,12 +2383,12 @@ version
 ;
 options
 .
-setOriginPrincipals
+setMutedErrors
 (
 lazy
 -
 >
-originPrincipals
+mutedErrors
 (
 )
 )

@@ -5521,9 +5521,8 @@ functionDisplayAtom
 )
 const
 ;
-JSPrincipals
-*
-originPrincipals
+bool
+mutedErrors
 (
 )
 const

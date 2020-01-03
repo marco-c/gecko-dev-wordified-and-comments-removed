@@ -5200,12 +5200,11 @@ state
 )
 ;
 }
-JSPrincipals
-*
+bool
 FrameIter
 :
 :
-originPrincipals
+mutedErrors
 (
 )
 const
@@ -5234,7 +5233,7 @@ script
 )
 -
 >
-originPrincipals
+mutedErrors
 (
 )
 ;
@@ -5261,7 +5260,7 @@ scriptSource
 )
 -
 >
-originPrincipals
+mutedErrors
 (
 )
 ;

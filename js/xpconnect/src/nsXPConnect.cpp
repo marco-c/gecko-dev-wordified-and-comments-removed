@@ -1111,6 +1111,13 @@ aReport
 >
 flags
 ;
+mIsMuted
+=
+aReport
+-
+>
+isMuted
+;
 }
 #
 ifdef

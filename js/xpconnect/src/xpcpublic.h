@@ -1610,6 +1610,10 @@ mFlags
 (
 0
 )
+mIsMuted
+(
+false
+)
 {
 }
 void
@@ -1708,6 +1712,9 @@ mColumn
 ;
 uint32_t
 mFlags
+;
+bool
+mIsMuted
 ;
 nsCOMPtr
 <

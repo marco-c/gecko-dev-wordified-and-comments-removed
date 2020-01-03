@@ -8792,9 +8792,8 @@ filename
 unsigned
 lineno
 ;
-JSPrincipals
-*
-originPrincipals
+bool
+mutedErrors
 ;
 uint32_t
 pcOffset
@@ -8811,7 +8810,7 @@ lineno
 &
 pcOffset
 &
-originPrincipals
+mutedErrors
 )
 ;
 const
@@ -8882,9 +8881,9 @@ cx
 ;
 options
 .
-setOriginPrincipals
+setMutedErrors
 (
-originPrincipals
+mutedErrors
 )
 .
 setFileAndLine

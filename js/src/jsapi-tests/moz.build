@@ -316,6 +316,11 @@ testMappedArrayBuffer
 cpp
 '
 '
+testMutedErrors
+.
+cpp
+'
+'
 testNewObject
 .
 cpp
@@ -337,11 +342,6 @@ cpp
 '
 '
 testOps
-.
-cpp
-'
-'
-testOriginPrincipals
 .
 cpp
 '

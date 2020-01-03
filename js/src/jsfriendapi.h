@@ -553,10 +553,9 @@ script
 extern
 JS_FRIEND_API
 (
-JSPrincipals
-*
+bool
 )
-JS_GetScriptOriginPrincipals
+JS_ScriptHasMutedErrors
 (
 JSScript
 *

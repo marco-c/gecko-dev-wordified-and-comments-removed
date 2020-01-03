@@ -1578,9 +1578,8 @@ char
 *
 filename
 ;
-JSPrincipals
-*
-originPrincipals
+bool
+mutedErrors
 ;
 uint32_t
 pcOffset
@@ -1597,7 +1596,7 @@ lineno
 &
 pcOffset
 &
-originPrincipals
+mutedErrors
 evalType
 =
 =
@@ -1675,9 +1674,9 @@ setNoScriptRval
 false
 )
 .
-setOriginPrincipals
+setMutedErrors
 (
-originPrincipals
+mutedErrors
 )
 .
 setIntroductionInfo
@@ -2010,9 +2009,8 @@ filename
 unsigned
 lineno
 ;
-JSPrincipals
-*
-originPrincipals
+bool
+mutedErrors
 ;
 uint32_t
 pcOffset
@@ -2029,7 +2027,7 @@ lineno
 &
 pcOffset
 &
-originPrincipals
+mutedErrors
 CALLED_FROM_JSOP_EVAL
 )
 ;
@@ -2100,9 +2098,9 @@ setNoScriptRval
 false
 )
 .
-setOriginPrincipals
+setMutedErrors
 (
-originPrincipals
+mutedErrors
 )
 .
 setIntroductionInfo
