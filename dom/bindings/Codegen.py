@@ -73349,10 +73349,25 @@ self
 descriptor
                                                      
 addUnforgeable
-                                                     
+)
+            
+addUnforgeable
+=
+CGIfWrapper
+(
+CGGeneric
+(
+addUnforgeable
+)
+                                         
 "
+!
 isXray
 "
+)
+.
+define
+(
 )
         
 else
