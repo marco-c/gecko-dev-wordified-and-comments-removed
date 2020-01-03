@@ -207,6 +207,14 @@ this
 )
 ;
 }
+ssize_t
+IndexOfEmbeddedChild
+(
+const
+ProxyAccessible
+*
+)
+;
 bool
 MustPruneChildren
 (
