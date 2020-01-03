@@ -315,6 +315,10 @@ HTMLAreaElement
 implements
 URLUtils
 ;
+HTMLAreaElement
+implements
+URLUtilsSearchParams
+;
 /
 /
 http

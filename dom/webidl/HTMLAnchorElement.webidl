@@ -285,6 +285,10 @@ HTMLAnchorElement
 implements
 URLUtils
 ;
+HTMLAnchorElement
+implements
+URLUtilsSearchParams
+;
 /
 /
 http
