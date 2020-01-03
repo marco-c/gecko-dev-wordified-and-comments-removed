@@ -2601,6 +2601,8 @@ pn_funbox
 -
 >
 strict
+(
+)
 )
 opn
 -

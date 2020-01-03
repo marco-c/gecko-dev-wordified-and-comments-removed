@@ -14543,6 +14543,8 @@ sc
 -
 >
 strict
+(
+)
 ;
 script
 -

@@ -873,6 +873,8 @@ sc
 -
 >
 strict
+(
+)
 )
 asmJS_
 (
@@ -1552,6 +1554,8 @@ sc
 -
 >
 strict
+(
+)
 ;
 }
 const
