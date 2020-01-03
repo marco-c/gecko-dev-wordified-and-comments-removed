@@ -514,11 +514,6 @@ sort
 (
 )
 ;
-ignoreReportedErrors
-(
-true
-)
-;
 for
 each
 (
@@ -560,11 +555,6 @@ e
 {
 }
 }
-ignoreReportedErrors
-(
-false
-)
-;
 }
 function
 resolveResource
