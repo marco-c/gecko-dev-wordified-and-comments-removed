@@ -1942,6 +1942,8 @@ JSContext
 cx
 HandleObject
 obj
+HandleObject
+receiver
 HandleId
 id
 MutableHandleValue
@@ -1959,6 +1961,8 @@ JSContext
 cx
 HandleObject
 obj
+HandleObject
+receiver
 uint32_t
 index
 MutableHandleValue

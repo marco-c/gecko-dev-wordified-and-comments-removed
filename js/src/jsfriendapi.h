@@ -1387,6 +1387,11 @@ obj
 JS
 :
 :
+HandleObject
+receiver
+JS
+:
+:
 HandleId
 id
 JS

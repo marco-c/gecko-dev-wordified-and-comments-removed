@@ -3716,6 +3716,8 @@ JSContext
 cx
 HandleObject
 obj
+HandleObject
+receiver
 HandleId
 id
 MutableHandleValue
@@ -3732,7 +3734,7 @@ set
 (
 cx
 obj
-obj
+receiver
 id
 strict
 vp
