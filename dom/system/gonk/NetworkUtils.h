@@ -1366,6 +1366,14 @@ aOptions
 )
 ;
 CommandResult
+getNetId
+(
+NetworkParams
+&
+aOptions
+)
+;
+CommandResult
 addHostRouteLegacy
 (
 NetworkParams
