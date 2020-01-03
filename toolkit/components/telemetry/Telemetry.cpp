@@ -4087,6 +4087,9 @@ mBucketCount
 ;
 }
 ;
+StatisticsRecorder
+gStatisticsRecorder
+;
 struct
 TelemetryHistogram
 {
