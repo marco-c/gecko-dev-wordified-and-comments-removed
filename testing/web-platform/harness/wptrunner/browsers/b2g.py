@@ -152,6 +152,7 @@ pass
 def
 browser_kwargs
 (
+test_environment
 *
 *
 kwargs

@@ -21,6 +21,7 @@ executors
 executorservo
 import
 ServoTestharnessExecutor
+ServoReftestExecutor
 here
 =
 os
@@ -79,6 +80,14 @@ testharness
 :
 "
 ServoTestharnessExecutor
+"
+                              
+"
+reftest
+"
+:
+"
+ServoReftestExecutor
 "
 }
                  

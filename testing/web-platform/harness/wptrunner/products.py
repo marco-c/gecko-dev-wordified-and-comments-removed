@@ -324,9 +324,14 @@ test_type
 cls
     
 return
+(
 check_args
+            
 browser_cls
 browser_kwargs
+            
 executor_classes
 executor_kwargs
+            
 env_options
+)

@@ -243,7 +243,11 @@ host
 "
 :
 "
-localhost
+web
+-
+platform
+.
+test
 "
             
 "

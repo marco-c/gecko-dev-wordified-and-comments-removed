@@ -34,7 +34,7 @@ PACKAGE_VERSION
 '
 1
 .
-7
+8
 '
 with
 open
