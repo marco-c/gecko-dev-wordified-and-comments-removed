@@ -237,11 +237,11 @@ T
 operator
 =
 (
-const
 already_AddRefed
 <
 T
 >
+&
 &
 aValue
 )
