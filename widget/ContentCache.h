@@ -1096,6 +1096,9 @@ IMENotification
 mPendingTextChange
 ;
 IMENotification
+mPendingLayoutChange
+;
+IMENotification
 mPendingCompositionUpdate
 ;
 nsString

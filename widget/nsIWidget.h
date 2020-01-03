@@ -1661,6 +1661,9 @@ mTextChangeData
 break
 ;
 case
+NOTIFY_IME_OF_POSITION_CHANGE
+:
+case
 NOTIFY_IME_OF_COMPOSITION_UPDATE
 :
 MOZ_ASSERT
@@ -1670,7 +1673,7 @@ aNotification
 mMessage
 =
 =
-NOTIFY_IME_OF_COMPOSITION_UPDATE
+mMessage
 )
 ;
 break
