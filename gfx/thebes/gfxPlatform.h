@@ -897,6 +897,7 @@ AsyncPanZoomEnabled
 (
 )
 ;
+virtual
 void
 GetAzureBackendInfo
 (
