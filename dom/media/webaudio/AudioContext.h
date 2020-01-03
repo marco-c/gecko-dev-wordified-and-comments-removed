@@ -112,6 +112,13 @@ nsIMemoryReporter
 h
 "
 #
+include
+"
+nsIObserver
+.
+h
+"
+#
 ifdef
 CurrentTime
 #
@@ -223,6 +230,8 @@ public
 DOMEventTargetHelper
 public
 nsIMemoryReporter
+public
+nsIObserver
 {
 AudioContext
 (
@@ -854,6 +863,7 @@ aAnonymize
 )
 MOZ_OVERRIDE
 ;
+NS_DECL_NSIOBSERVER
 friend
 struct
 :
