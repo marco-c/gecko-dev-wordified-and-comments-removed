@@ -2961,6 +2961,7 @@ void
 *
 result
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv

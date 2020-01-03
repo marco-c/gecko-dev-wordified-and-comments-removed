@@ -180,6 +180,7 @@ sourceOffset
 uint32_t
 count
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -350,6 +351,7 @@ nsISupports
 *
 ctxt
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -367,6 +369,7 @@ ctxt
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK

@@ -240,6 +240,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 {
 *
 _retval
