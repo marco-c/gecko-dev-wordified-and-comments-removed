@@ -1003,6 +1003,15 @@ mHandle
 nsCString
 mKey
 ;
+bool
+mFirstRead
+;
+mozilla
+:
+:
+TimeStamp
+mReadStart
+;
 CacheHash
 :
 :
