@@ -5192,11 +5192,6 @@ if
 (
 AppConstants
 .
-NIGHTLY_BUILD
-&
-&
-AppConstants
-.
 MOZ_ANDROID_TAB_QUEUE
 &
 &
@@ -19421,11 +19416,6 @@ if
 (
 AppConstants
 .
-NIGHTLY_BUILD
-&
-&
-AppConstants
-.
 MOZ_ANDROID_TAB_QUEUE
 &
 &
@@ -19640,11 +19630,6 @@ run
 {
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-&
-&
 AppConstants
 .
 MOZ_ANDROID_TAB_QUEUE
