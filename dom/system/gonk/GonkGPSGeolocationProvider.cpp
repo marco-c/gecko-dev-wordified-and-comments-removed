@@ -72,7 +72,7 @@ h
 #
 include
 "
-nsINetworkManager
+nsINetworkInterface
 .
 h
 "
@@ -1383,7 +1383,7 @@ mRadioInterface
 )
 {
 return
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_STATE_UNKNOWN
@@ -1397,7 +1397,7 @@ mRadioInterface
 >
 GetDataCallStateByType
 (
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE_SUPL
@@ -1483,7 +1483,7 @@ if
 connectionState
 =
 =
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_STATE_CONNECTED
@@ -1548,7 +1548,7 @@ if
 connectionState
 =
 =
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_STATE_DISCONNECTED
@@ -1790,7 +1790,7 @@ GetDataConnectionState
 )
 =
 =
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_STATE_CONNECTED
@@ -1815,7 +1815,7 @@ mRadioInterface
 >
 SetupDataCallByType
 (
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE_SUPL
@@ -1852,7 +1852,7 @@ mRadioInterface
 >
 DeactivateDataCallByType
 (
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE_SUPL
@@ -4291,7 +4291,7 @@ aNetworkInterfaceType
 )
 {
 case
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_WIFI
@@ -4300,7 +4300,7 @@ return
 AGPS_RIL_NETWORK_TYPE_WIFI
 ;
 case
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE
@@ -4309,7 +4309,7 @@ return
 AGPS_RIL_NETWORK_TYPE_MOBILE
 ;
 case
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE_MMS
@@ -4318,7 +4318,7 @@ return
 AGPS_RIL_NETWORK_TYPE_MOBILE_MMS
 ;
 case
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE_SUPL
@@ -4327,7 +4327,7 @@ return
 AGPS_RIL_NETWORK_TYPE_MOBILE_SUPL
 ;
 case
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_TYPE_MOBILE_DUN
@@ -4405,9 +4405,9 @@ kNetworkConnStateChangedTopic
 {
 nsCOMPtr
 <
-nsINetworkInterface
+nsINetworkInfo
 >
-iface
+info
 =
 do_QueryInterface
 (
@@ -4417,7 +4417,7 @@ aSubject
 if
 (
 !
-iface
+info
 )
 {
 return
@@ -4426,9 +4426,9 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIRilNetworkInterface
+nsIRilNetworkInfo
 >
-rilface
+rilInfo
 =
 do_QueryInterface
 (
@@ -4452,7 +4452,7 @@ state
 int32_t
 type
 ;
-iface
+info
 -
 >
 GetState
@@ -4461,7 +4461,7 @@ GetState
 state
 )
 ;
-iface
+info
 -
 >
 GetType
@@ -4477,7 +4477,7 @@ connected
 state
 =
 =
-nsINetworkInterface
+nsINetworkInfo
 :
 :
 NETWORK_STATE_CONNECTED
@@ -4506,7 +4506,7 @@ gpsNetworkType
 {
 if
 (
-rilface
+rilInfo
 )
 {
 do
@@ -4613,7 +4613,7 @@ nullptr
 if
 (
 !
-rilface
+rilInfo
 )
 {
 return
