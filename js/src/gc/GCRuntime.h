@@ -3583,16 +3583,11 @@ objectsMarkedInDeadZones
 bool
 poked
 ;
-mozilla
-:
-:
-Atomic
-<
+volatile
 js
 :
 :
 HeapState
->
 heapState
 ;
 #
