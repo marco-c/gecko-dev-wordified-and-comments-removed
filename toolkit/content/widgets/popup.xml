@@ -750,6 +750,15 @@ hidePopup
 "
 >
 <
+parameter
+name
+=
+"
+cancel
+"
+/
+>
+<
 body
 >
 <
@@ -834,6 +843,7 @@ popupBox
 .
 hidePopup
 (
+cancel
 )
 ;
 ]
@@ -3240,6 +3250,7 @@ this
 .
 hidePopup
 (
+true
 )
 fadeDelay
 this

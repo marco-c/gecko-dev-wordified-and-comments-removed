@@ -588,7 +588,7 @@ aPopupType
 bool
 aDeselectMenu
 bool
-aIsRollup
+aIsCancel
 )
 :
 mPopup
@@ -613,7 +613,7 @@ aDeselectMenu
 )
 mIsRollup
 (
-aIsRollup
+aIsCancel
 )
 {
 NS_ASSERTION
@@ -1116,7 +1116,7 @@ aDeselectMenu
 bool
 aAsynchronous
 bool
-aIsRollup
+aIsCancel
 nsIContent
 *
 aLastPopup
@@ -1496,7 +1496,7 @@ aPopupType
 bool
 aDeselectMenu
 bool
-aIsRollup
+aIsCancel
 )
 ;
 bool
