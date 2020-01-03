@@ -420,7 +420,7 @@ Capabilites
 )
 ;
 void
-OnKeysChange
+OnKeyStatusesChange
 (
 const
 nsAString

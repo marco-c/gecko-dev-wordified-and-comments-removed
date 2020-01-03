@@ -346,7 +346,7 @@ system_code
 )
 ;
 void
-DispatchKeysChange
+DispatchKeyStatusesChange
 (
 )
 ;

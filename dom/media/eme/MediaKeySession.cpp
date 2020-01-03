@@ -1336,7 +1336,7 @@ void
 MediaKeySession
 :
 :
-DispatchKeysChange
+DispatchKeyStatusesChange
 (
 )
 {
@@ -1367,7 +1367,7 @@ this
 NS_LITERAL_STRING
 (
 "
-keyschange
+keystatuseschange
 "
 )
 false

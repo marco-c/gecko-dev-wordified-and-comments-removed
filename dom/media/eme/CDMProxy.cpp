@@ -2310,7 +2310,7 @@ void
 CDMProxy
 :
 :
-OnKeysChange
+OnKeyStatusesChange
 (
 const
 nsAString
@@ -2363,7 +2363,7 @@ session
 session
 -
 >
-DispatchKeysChange
+DispatchKeyStatusesChange
 (
 )
 ;

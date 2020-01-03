@@ -993,7 +993,7 @@ IsOnGMPThread
 )
 ;
 bool
-keysChange
+keyStatusesChange
 =
 false
 ;
@@ -1012,7 +1012,7 @@ Capabilites
 )
 )
 ;
-keysChange
+keyStatusesChange
 =
 caps
 .
@@ -1029,7 +1029,7 @@ aStatus
 }
 if
 (
-keysChange
+keyStatusesChange
 )
 {
 nsRefPtr
@@ -1050,7 +1050,7 @@ mProxy
 CDMProxy
 :
 :
-OnKeysChange
+OnKeyStatusesChange
 NS_ConvertUTF8toUTF16
 (
 aSessionId

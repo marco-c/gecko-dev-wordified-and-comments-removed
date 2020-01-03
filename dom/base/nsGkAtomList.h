@@ -3421,9 +3421,9 @@ keycode
 )
 GK_ATOM
 (
-keyschange
+keystatuseschange
 "
-keyschange
+keystatuseschange
 "
 )
 GK_ATOM
