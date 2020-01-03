@@ -1055,12 +1055,6 @@ mInvalidBack
 nsExpirationState
 mExpirationState
 ;
-gfx
-:
-:
-IntPoint
-mOrigin
-;
 private
 :
 void
