@@ -157,7 +157,10 @@ mCaps
 ;
 private
 :
+Atomic
+<
 uint32_t
+>
 mCapsToClear
 ;
 nsHttpRequestHead

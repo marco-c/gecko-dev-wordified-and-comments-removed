@@ -884,9 +884,6 @@ mRestartCount
 uint32_t
 mCaps
 ;
-uint32_t
-mCapsToClear
-;
 enum
 Classifier
 mClassification
@@ -896,6 +893,12 @@ mPipelinePosition
 ;
 int64_t
 mMaxPipelineObjectSize
+;
+Atomic
+<
+uint32_t
+>
+mCapsToClear
 ;
 nsHttpVersion
 mHttpVersion
