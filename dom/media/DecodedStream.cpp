@@ -263,8 +263,6 @@ DecodedStreamData
 :
 DecodedStreamData
 (
-int64_t
-aInitialTime
 SourceMediaStream
 *
 aStream
@@ -273,10 +271,6 @@ aStream
 mAudioFramesWritten
 (
 0
-)
-mInitialTime
-(
-aInitialTime
 )
 mNextVideoTime
 (
@@ -391,14 +385,12 @@ int64_t
 DecodedStreamData
 :
 :
-GetClock
+GetPosition
 (
 )
 const
 {
 return
-mInitialTime
-+
 mListener
 -
 >
@@ -898,8 +890,6 @@ DecodedStream
 :
 RecreateData
 (
-int64_t
-aInitialTime
 MediaStreamGraph
 *
 aGraph
@@ -990,7 +980,6 @@ reset
 new
 DecodedStreamData
 (
-aInitialTime
 source
 )
 )

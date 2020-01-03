@@ -229,8 +229,6 @@ UpdateStreamBlockingForStateMachinePlaying
 void
 RecreateDecodedStream
 (
-int64_t
-aInitialTime
 MediaStreamGraph
 *
 aGraph
@@ -1345,6 +1343,12 @@ GetAudioClock
 const
 ;
 int64_t
+GetStreamClock
+(
+)
+const
+;
+int64_t
 GetVideoStreamPosition
 (
 )
@@ -2385,6 +2389,9 @@ mCurrentPosition
 }
 protected
 :
+int64_t
+mStreamStartTime
+;
 int64_t
 mAudioStartTime
 ;
