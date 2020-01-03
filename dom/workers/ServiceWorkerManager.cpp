@@ -7667,6 +7667,10 @@ MOZ_ASSERT
 aDocumentURI
 )
 ;
+AssertIsOnMainThread
+(
+)
+;
 nsRefPtr
 <
 ServiceWorkerDomainInfo
@@ -7787,6 +7791,10 @@ nsIDOMEventTarget
 aListener
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 MOZ_ASSERT
 (
 aDocumentURI
