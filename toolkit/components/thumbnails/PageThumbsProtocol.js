@@ -263,7 +263,9 @@ file
 )
 )
 ;
-return
+let
+channel
+=
 Services
 .
 io
@@ -273,6 +275,15 @@ newChannelFromURIWithLoadInfo
 fileuri
 aLoadInfo
 )
+;
+channel
+.
+originalURI
+=
+aURI
+;
+return
+channel
 ;
 }
 newChannel
