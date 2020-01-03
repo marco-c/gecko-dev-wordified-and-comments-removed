@@ -26,9 +26,9 @@ indexOf
 :
 function
 (
+comparator
 array
 target
-comparator
 )
 {
 let
@@ -41,9 +41,9 @@ this
 .
 search
 (
+comparator
 array
 target
-comparator
 )
 ;
 return
@@ -59,9 +59,9 @@ insertionIndexOf
 :
 function
 (
+comparator
 array
 target
-comparator
 )
 {
 return
@@ -69,9 +69,9 @@ this
 .
 search
 (
+comparator
 array
 target
-comparator
 )
 [
 1
@@ -82,9 +82,9 @@ search
 :
 function
 (
+comparator
 array
 target
-comparator
 )
 {
 let

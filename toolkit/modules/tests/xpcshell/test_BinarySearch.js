@@ -571,9 +571,9 @@ BinarySearch
 .
 search
 (
+cmp
 array
 target
-cmp
 )
 ;
 do_check_eq
@@ -603,9 +603,9 @@ BinarySearch
 .
 indexOf
 (
+cmp
 array
 target
-cmp
 )
 idx
 )
@@ -616,9 +616,9 @@ BinarySearch
 .
 insertionIndexOf
 (
+cmp
 array
 target
-cmp
 )
 expectedIdx
 )
