@@ -1391,6 +1391,13 @@ HandleObject
 val
 )
 ;
+unsigned
+GetInitDataPropAttrs
+(
+JSOp
+op
+)
+;
 bool
 EnterWithOperation
 (
