@@ -6292,7 +6292,6 @@ NS_SUCCEEDED
 rv
 )
 )
-\
 {
 \
 aData
