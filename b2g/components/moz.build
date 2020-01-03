@@ -342,6 +342,11 @@ OrientationChangeHandler
 jsm
 '
 '
+Screenshot
+.
+jsm
+'
+'
 SignInToWebsite
 .
 jsm
