@@ -39,6 +39,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsWeakPtr
+.
+h
+"
 class
 nsString
 ;
@@ -243,6 +250,9 @@ mFormatConv
 ;
 bool
 mPrivateData
+;
+nsWeakPtr
+mRequestingNode
 ;
 #
 if

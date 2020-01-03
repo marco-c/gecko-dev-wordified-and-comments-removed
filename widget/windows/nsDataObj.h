@@ -84,6 +84,9 @@ h
 class
 nsIThread
 ;
+class
+nsINode
+;
 #
 ifdef
 __IDataObjectAsyncCapability_INTERFACE_DEFINED__
@@ -939,6 +942,9 @@ Init
 nsIURI
 *
 pSourceURI
+nsINode
+*
+aRequestingNode
 )
 ;
 NS_DECL_ISUPPORTS
