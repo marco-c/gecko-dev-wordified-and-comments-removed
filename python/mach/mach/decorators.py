@@ -15,12 +15,7 @@ from
 .
 base
 import
-(
-    
 MachError
-    
-MethodHandler
-)
 from
 .
 config
@@ -105,7 +100,7 @@ conditions
 '
         
 '
-parser
+_parser
 '
         
 '
@@ -114,6 +109,22 @@ arguments
         
 '
 argument_group_names
+'
+        
+'
+cls
+'
+        
+'
+pass_context
+'
+        
+'
+method
+'
+        
+'
+subcommand_handlers
 '
     
 )
@@ -179,7 +190,7 @@ or
         
 self
 .
-parser
+_parser
 =
 parser
         
@@ -196,6 +207,87 @@ argument_group_names
 =
 [
 ]
+        
+self
+.
+cls
+=
+None
+        
+self
+.
+pass_context
+=
+None
+        
+self
+.
+method
+=
+None
+        
+self
+.
+subcommand_handlers
+=
+{
+}
+    
+property
+    
+def
+parser
+(
+self
+)
+:
+        
+if
+callable
+(
+self
+.
+_parser
+)
+:
+            
+self
+.
+_parser
+=
+self
+.
+_parser
+(
+)
+        
+return
+self
+.
+_parser
+    
+property
+    
+def
+docstring
+(
+self
+)
+:
+        
+return
+self
+.
+cls
+.
+__dict__
+[
+self
+.
+method
+]
+.
+__doc__
     
 def
 __ior__
@@ -614,24 +706,29 @@ MachError
 msg
 )
         
-handler
-=
-MethodHandler
-(
-cls
-attr
 command
-                                
+.
+cls
+=
+cls
+        
+command
+.
+method
+=
+attr
+        
+command
+.
 pass_context
 =
 pass_context
-)
         
 Registrar
 .
 register_command_handler
 (
-handler
+command
 )
     
 for
@@ -746,18 +843,23 @@ command_handlers
             
 continue
         
-handler
-=
-MethodHandler
-(
-cls
-attr
 command
-                                
+.
+cls
+=
+cls
+        
+command
+.
+method
+=
+attr
+        
+command
+.
 pass_context
 =
 pass_context
-)
         
 parent
 =
@@ -773,7 +875,7 @@ name
 if
 parent
 .
-parser
+_parser
 :
             
 raise
@@ -841,7 +943,7 @@ command
 subcommand
 ]
 =
-handler
+command
     
 return
 cls
