@@ -438,6 +438,10 @@ mControlStatus
 (
 NS_OK
 )
+mDoomCache
+(
+false
+)
 mDeferredCallbackPending
 (
 false
