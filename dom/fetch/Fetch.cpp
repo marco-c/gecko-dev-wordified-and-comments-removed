@@ -6559,8 +6559,6 @@ Reset
 NS_NAMED_LITERAL_CSTRING
 (
 formDataMimeType
-NS_LITERAL_CSTRING
-(
 "
 multipart
 /
@@ -6568,7 +6566,6 @@ form
 -
 data
 "
-)
 )
 ;
 bool
@@ -6697,8 +6694,6 @@ else
 NS_NAMED_LITERAL_CSTRING
 (
 urlDataMimeType
-NS_LITERAL_CSTRING
-(
 "
 application
 /
@@ -6710,7 +6705,6 @@ form
 -
 urlencoded
 "
-)
 )
 ;
 bool
