@@ -4,6 +4,15 @@ from
 functools
 import
 partial
+from
+mozlog
+.
+structured
+import
+get_default_logger
+logger
+=
+None
 def
 vcs
 (
@@ -22,6 +31,24 @@ args
 kwargs
 )
 :
+        
+global
+logger
+        
+if
+logger
+is
+None
+:
+            
+logger
+=
+get_default_logger
+(
+"
+vcs
+"
+)
         
 repo
 =
@@ -80,13 +107,17 @@ command
 +
 args
         
-print
+logger
+.
+debug
+(
 "
 "
 .
 join
 (
 command_line
+)
 )
         
 try
@@ -111,13 +142,14 @@ as
 e
 :
             
-print
-proc_kwargs
-            
-print
+logger
+.
+error
+(
 e
 .
 output
+)
             
 raise
     
@@ -194,9 +226,6 @@ CalledProcessError
         
 return
 False
-    
-print
-rv
     
 return
 rv

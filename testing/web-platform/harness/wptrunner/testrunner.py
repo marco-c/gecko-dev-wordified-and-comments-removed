@@ -2137,7 +2137,7 @@ self
 .
 logger
 .
-error
+warning
 (
 "
 Init

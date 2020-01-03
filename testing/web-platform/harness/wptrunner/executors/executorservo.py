@@ -208,15 +208,14 @@ result_flag
 is_set
 (
 )
-:
-            
-assert
+and
 self
 .
 result_data
 is
 not
 None
+:
             
 self
 .
