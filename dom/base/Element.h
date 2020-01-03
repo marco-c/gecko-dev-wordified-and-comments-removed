@@ -4898,7 +4898,6 @@ nsIDOMMozNamedAttrMap
 aAttributes
 )
 final
-\
 override
 \
 {
@@ -5160,7 +5159,6 @@ nsAString
 localName
 )
 final
-\
 override
 \
 {
@@ -5762,7 +5760,6 @@ nsIDOMNodeList
 aChildElements
 )
 final
-\
 override
 \
 {
@@ -6017,7 +6014,6 @@ uint32_t
 aChildElementCount
 )
 final
-\
 override
 \
 {
@@ -6071,7 +6067,6 @@ nsIDOMClientRectList
 _retval
 )
 final
-\
 override
 \
 {
@@ -6106,7 +6101,6 @@ nsIDOMClientRect
 _retval
 )
 final
-\
 override
 \
 {

@@ -521,7 +521,6 @@ nsISupports
 *
 result
 )
-\
 override
 \
 {

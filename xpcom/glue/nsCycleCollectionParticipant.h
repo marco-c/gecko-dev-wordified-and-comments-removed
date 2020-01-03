@@ -2701,7 +2701,6 @@ void
 *
 closure
 )
-\
 override
 ;
 \
