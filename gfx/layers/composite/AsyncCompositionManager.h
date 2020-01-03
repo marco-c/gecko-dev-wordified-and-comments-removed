@@ -603,12 +603,6 @@ mLayersUpdated
 bool
 mReadyForCompose
 ;
-gfx
-:
-:
-Matrix
-mWorldTransform
-;
 }
 ;
 class
