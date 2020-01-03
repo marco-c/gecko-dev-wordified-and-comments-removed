@@ -20045,11 +20045,17 @@ runtime
 )
 )
 ;
+if
+(
+!
 TraceLoggerEnable
 (
 logger
 cx
 )
+)
+return
+false
 ;
 args
 .
