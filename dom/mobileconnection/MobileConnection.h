@@ -555,14 +555,11 @@ MobileConnection
 ;
 private
 :
-uint32_t
-mClientId
-;
 nsCOMPtr
 <
-nsIMobileConnectionService
+nsIMobileConnection
 >
-mService
+mMobileConnection
 ;
 nsRefPtr
 <
