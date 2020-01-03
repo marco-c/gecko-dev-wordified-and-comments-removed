@@ -108,6 +108,11 @@ TestCRT
 cpp
 '
 '
+TestEncoding
+.
+cpp
+'
+'
 TestFileUtils
 .
 cpp
