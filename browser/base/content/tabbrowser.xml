@@ -41554,6 +41554,11 @@ if
 this
 .
 mOverCloseButton
+|
+|
+this
+.
+_overPlayingIcon
 )
 {
 /
