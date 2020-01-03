@@ -56,6 +56,9 @@ MPL
 NO_EXPAND_LIBS
 =
 1
+ENABLE_CLANG_PLUGIN
+:
+=
 include
 (
 topsrcdir

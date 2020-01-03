@@ -132,9 +132,6 @@ clang
 -
 plugin
 '
-external
-=
-True
 )
 add_tier_dir
 (
