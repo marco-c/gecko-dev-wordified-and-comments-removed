@@ -491,6 +491,10 @@ ScriptAndCountsVector
 struct
 EvalCacheEntry
 {
+JSLinearString
+*
+str
+;
 JSScript
 *
 script
