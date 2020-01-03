@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsIEditor
+.
+h
+"
+#
+include
+"
 nsIForm
 .
 h
@@ -2724,6 +2731,9 @@ aPresContext
 nsIContent
 *
 aContent
+nsIEditor
+*
+aEditor
 )
 {
 PR_LOG
@@ -2749,9 +2759,14 @@ aContent
 0x
 %
 p
+"
+"
+aEditor
+=
+0x
+%
+p
 )
-"
-"
 sPresContext
 =
 0x
@@ -2762,6 +2777,8 @@ sContent
 0x
 %
 p
+"
+"
 sActiveIMEContentObserver
 =
 0x
@@ -2770,6 +2787,7 @@ p
 "
 aPresContext
 aContent
+aEditor
 sPresContext
 sContent
 sActiveIMEContentObserver
@@ -2876,6 +2894,7 @@ DestroyIMEContentObserver
 }
 CreateIMEContentObserver
 (
+aEditor
 )
 ;
 }
@@ -2892,6 +2911,9 @@ aNewIMEState
 nsIContent
 *
 aContent
+nsIEditor
+*
+aEditor
 )
 {
 PR_LOG
@@ -2922,6 +2944,11 @@ mOpen
 s
 }
 aContent
+=
+0x
+%
+p
+aEditor
 =
 0x
 %
@@ -2964,6 +2991,7 @@ aNewIMEState
 mOpen
 )
 aContent
+aEditor
 sPresContext
 sContent
 sActiveIMEContentObserver
@@ -3200,6 +3228,7 @@ createTextStateManager
 {
 CreateIMEContentObserver
 (
+aEditor
 )
 ;
 }
@@ -5693,6 +5722,9 @@ IMEStateManager
 :
 CreateIMEContentObserver
 (
+nsIEditor
+*
+aEditor
 )
 {
 PR_LOG
@@ -5708,6 +5740,11 @@ IMEStateManager
 :
 CreateIMEContentObserver
 (
+aEditor
+=
+0x
+%
+p
 )
 "
 "
@@ -5740,6 +5777,7 @@ sContent
 %
 s
 "
+aEditor
 sPresContext
 sContent
 sActiveIMEContentObserver
@@ -5998,6 +6036,7 @@ Init
 widget
 sPresContext
 sContent
+aEditor
 )
 ;
 }
