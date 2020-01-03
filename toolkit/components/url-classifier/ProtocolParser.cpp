@@ -1407,10 +1407,10 @@ length
 )
 ;
 mPending
-=
-Substring
+.
+Cut
 (
-mPending
+0
 mChunkState
 .
 length
@@ -3199,7 +3199,7 @@ NextLine
 (
 nsACString
 &
-line
+aLine
 )
 {
 int32_t
@@ -3227,7 +3227,7 @@ return
 false
 ;
 }
-line
+aLine
 .
 Assign
 (
@@ -3240,10 +3240,10 @@ newline
 )
 ;
 mPending
-=
-Substring
+.
+Cut
 (
-mPending
+0
 newline
 +
 1
