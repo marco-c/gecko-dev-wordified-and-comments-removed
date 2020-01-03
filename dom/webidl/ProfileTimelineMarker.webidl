@@ -135,6 +135,12 @@ end
 =
 0
 ;
+object
+?
+stack
+=
+null
+;
 /
 *
 For
@@ -145,6 +151,12 @@ markers
 /
 DOMString
 causeName
+;
+object
+?
+endStack
+=
+null
 ;
 /
 *

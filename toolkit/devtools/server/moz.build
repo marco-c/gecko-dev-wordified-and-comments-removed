@@ -536,6 +536,15 @@ ScriptStore
 .
 js
 '
+'
+actors
+/
+utils
+/
+stack
+.
+js
+'
 ]
 FAIL_ON_WARNINGS
 =
