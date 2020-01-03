@@ -2159,6 +2159,16 @@ positionInPhiSuccessor_
 id
 ;
 }
+void
+clearSuccessorWithPhis
+(
+)
+{
+successorWithPhis_
+=
+nullptr
+;
+}
 size_t
 numSuccessors
 (
