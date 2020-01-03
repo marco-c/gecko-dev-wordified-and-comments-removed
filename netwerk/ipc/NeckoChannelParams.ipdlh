@@ -367,6 +367,9 @@ securityFlags
 uint32_t
 contentPolicyType
 ;
+bool
+upgradeInsecureRequests
+;
 uint64_t
 innerWindowID
 ;
