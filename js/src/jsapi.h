@@ -10651,7 +10651,7 @@ JS_PUBLIC_API
 (
 bool
 )
-ParsePropertyDescriptorObject
+ObjectToCompletePropertyDescriptor
 (
 JSContext
 *
