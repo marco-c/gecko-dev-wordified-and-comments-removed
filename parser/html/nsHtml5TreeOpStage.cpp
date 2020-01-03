@@ -78,7 +78,7 @@ else
 {
 mOpQueue
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -138,7 +138,7 @@ else
 {
 aOpQueue
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -168,7 +168,7 @@ else
 {
 aSpeculativeLoadQueue
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -222,7 +222,7 @@ else
 {
 mSpeculativeLoadQueue
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (
@@ -276,7 +276,7 @@ else
 {
 aSpeculativeLoadQueue
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (

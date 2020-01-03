@@ -786,7 +786,7 @@ mLogsMutex
 ;
 aResult
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (

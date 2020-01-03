@@ -5372,7 +5372,7 @@ decoder
 .
 mQueuedSamples
 .
-MoveElementsFrom
+AppendElements
 (
 Move
 (

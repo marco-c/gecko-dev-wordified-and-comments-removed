@@ -382,7 +382,7 @@ aList
 {
 mRequests
 .
-MoveElementsFrom
+AppendElements
 (
 mozilla
 :
