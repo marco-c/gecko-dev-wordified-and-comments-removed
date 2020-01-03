@@ -588,10 +588,7 @@ key
 (
 )
 ;
-gc
-:
-:
-Mark
+TraceEdge
 (
 tracer
 &
