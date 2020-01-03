@@ -4502,8 +4502,6 @@ HandleShape
 shape
 unsigned
 attrs
-unsigned
-mask
 GetterOp
 getter
 SetterOp
@@ -4536,16 +4534,6 @@ setter
 =
 JS_StrictPropertyStub
 )
-;
-attrs
-|
-=
-shape
--
->
-attrs
-&
-mask
 ;
 MOZ_ASSERT_IF
 (
