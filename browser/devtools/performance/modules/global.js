@@ -46,7 +46,7 @@ locale
 /
 devtools
 /
-timeline
+markers
 .
 properties
 "
@@ -61,7 +61,7 @@ locale
 /
 devtools
 /
-profiler
+performance
 .
 properties
 "
