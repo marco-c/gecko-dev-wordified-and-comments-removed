@@ -5673,7 +5673,7 @@ payloadReg
 )
 )
 ;
-pextrd
+vpextrd
 (
 1
 src
@@ -5697,12 +5697,13 @@ payloadReg
 )
 )
 ;
-psrldq
+vpsrldq
 (
 Imm32
 (
 4
 )
+src
 src
 )
 ;
@@ -6060,7 +6061,7 @@ payloadReg
 dest
 )
 ;
-pinsrd
+vpinsrd
 (
 1
 src
@@ -6068,6 +6069,7 @@ src
 typeReg
 (
 )
+dest
 dest
 )
 ;
@@ -6156,10 +6158,11 @@ type
 scratch
 )
 ;
-pinsrd
+vpinsrd
 (
 1
 scratch
+dest
 dest
 )
 ;
