@@ -40340,7 +40340,7 @@ nsRect
 &
 aClipRect
 bool
-aIsRoot
+aIsRootContent
 const
 ContainerLayerParameters
 &
@@ -40832,9 +40832,9 @@ scrollId
 ;
 metrics
 .
-SetIsRoot
+SetIsRootContent
 (
-aIsRoot
+aIsRootContent
 )
 ;
 metrics

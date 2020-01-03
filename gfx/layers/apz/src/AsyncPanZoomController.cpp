@@ -5591,7 +5591,7 @@ if
 (
 mFrameMetrics
 .
-GetIsRoot
+IsRootContent
 (
 )
 &
@@ -14648,7 +14648,7 @@ return
 ;
 }
 bool
-isRoot
+isRootContent
 ;
 CSSRect
 contentRect
@@ -14663,11 +14663,11 @@ lock
 mMonitor
 )
 ;
-isRoot
+isRootContent
 =
 mFrameMetrics
 .
-GetIsRoot
+IsRootContent
 (
 )
 ;
@@ -14704,7 +14704,7 @@ controller
 >
 SendAsyncScrollDOMEvent
 (
-isRoot
+isRootContent
 contentRect
 scrollableSize
 )

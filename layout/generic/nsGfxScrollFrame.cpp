@@ -13657,7 +13657,7 @@ aContainerReferenceFrame
 )
 ;
 bool
-isRoot
+isRootContent
 =
 mIsRoot
 &
@@ -13708,7 +13708,7 @@ mOuter
 ;
 if
 (
-isRoot
+isRootContent
 )
 {
 double
@@ -13821,7 +13821,7 @@ MOZ_ANDROID_APZ
 if
 (
 !
-isRoot
+isRootContent
 )
 {
 thisScrollFrameUsesAsyncScrolling
@@ -13974,7 +13974,7 @@ aLayer
 mScrollParentID
 scrollport
 parentLayerClip
-isRoot
+isRootContent
 aParameters
 )
 ;

@@ -175,7 +175,7 @@ void
 SendAsyncScrollDOMEvent
 (
 bool
-aIsRoot
+aIsRootContent
 const
 CSSRect
 &

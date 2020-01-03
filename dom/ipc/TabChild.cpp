@@ -2756,7 +2756,7 @@ if
 (
 aFrameMetrics
 .
-GetIsRoot
+IsRootContent
 (
 )
 )

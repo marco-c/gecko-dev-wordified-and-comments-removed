@@ -8695,7 +8695,7 @@ ensureMetricsForRootId
 )
 {
 bool
-isRoot
+isRootContent
 =
 presContext
 -
@@ -8751,7 +8751,7 @@ viewport
 Nothing
 (
 )
-isRoot
+isRootContent
 containerParameters
 )
 )

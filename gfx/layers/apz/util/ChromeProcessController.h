@@ -235,7 +235,7 @@ void
 SendAsyncScrollDOMEvent
 (
 bool
-aIsRoot
+aIsRootContent
 const
 mozilla
 :

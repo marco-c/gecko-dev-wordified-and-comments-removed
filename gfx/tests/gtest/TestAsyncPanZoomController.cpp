@@ -3936,7 +3936,7 @@ CSSToParentLayerScale2D
 ;
 fm
 .
-SetIsRoot
+SetIsRootContent
 (
 true
 )
@@ -4810,7 +4810,7 @@ CSSToParentLayerScale2D
 ;
 fm
 .
-SetIsRoot
+SetIsRootContent
 (
 true
 )
