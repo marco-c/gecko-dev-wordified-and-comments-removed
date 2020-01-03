@@ -6564,6 +6564,16 @@ function
 (
 )
 {
+BrowserSearch
+.
+searchBar
+.
+_textbox
+.
+closePopup
+(
+)
+;
 if
 (
 !
