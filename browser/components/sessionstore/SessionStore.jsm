@@ -2931,11 +2931,7 @@ TabState
 .
 copyFromCache
 (
-{
-linkedBrowser
-:
 browser
-}
 tabData
 .
 state
