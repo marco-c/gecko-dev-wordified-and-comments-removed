@@ -22946,8 +22946,8 @@ Append
 '
 )
 ;
-uint8_t
-fillRule
+bool
+hasEvenOdd
 =
 aStyleBasicShape
 -
@@ -22955,13 +22955,13 @@ aStyleBasicShape
 GetFillRule
 (
 )
-;
-if
-(
-fillRule
 =
 =
 NS_STYLE_FILL_RULE_EVENODD
+;
+if
+(
+hasEvenOdd
 )
 {
 shapeFunctionString
@@ -23010,7 +23010,7 @@ i
 0
 |
 |
-fillRule
+hasEvenOdd
 )
 {
 shapeFunctionString
