@@ -6187,12 +6187,6 @@ PresShell
 (
 )
 content
--
->
-GetParent
-(
-)
-content
 )
 ;
 }

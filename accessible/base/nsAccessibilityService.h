@@ -247,9 +247,6 @@ nsIPresShell
 aPresShell
 nsIContent
 *
-aContainer
-nsIContent
-*
 aChild
 )
 ;
