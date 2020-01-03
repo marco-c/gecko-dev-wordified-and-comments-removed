@@ -4374,7 +4374,7 @@ viewType
 (
 )
 <
-AsmJSHeapAccess
+Scalar
 :
 :
 Float32
@@ -4468,7 +4468,7 @@ viewType
 (
 )
 <
-AsmJSHeapAccess
+Scalar
 :
 :
 Float32
