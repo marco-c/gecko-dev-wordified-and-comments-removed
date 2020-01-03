@@ -24384,7 +24384,7 @@ expectedThis_
 HeapPtrString
 expectedArg_
 ;
-HeapPtrNativeObject
+HeapPtrObject
 templateObject_
 ;
 ICCall_StringSplit
@@ -24401,7 +24401,7 @@ HandleString
 thisString
 HandleString
 argString
-HandleNativeObject
+HandleObject
 templateObject
 )
 :
@@ -24455,7 +24455,7 @@ HandleString
 thisString
 HandleString
 argString
-HandleNativeObject
+HandleObject
 templateObject
 )
 {
@@ -24547,7 +24547,7 @@ return
 expectedArg_
 ;
 }
-HeapPtrNativeObject
+HeapPtrObject
 &
 templateObject
 (
@@ -24578,7 +24578,7 @@ expectedThis_
 RootedString
 expectedArg_
 ;
-RootedNativeObject
+RootedObject
 templateObject_
 ;
 bool
@@ -24659,13 +24659,6 @@ cx
 templateObject
 .
 toObject
-(
-)
-.
-as
-<
-NativeObject
->
 (
 )
 )
