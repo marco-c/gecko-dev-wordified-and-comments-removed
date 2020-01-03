@@ -53,6 +53,9 @@ MPL
 0
 /
 .
+HAS_MISC_RULE
+=
+True
 EXTRA_COMPONENTS
 +
 =

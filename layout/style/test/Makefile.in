@@ -215,6 +215,10 @@ tests
 (
 relativesrcdir
 )
+TEST_TARGET
+:
+=
+misc
 INSTALL_TARGETS
 +
 =
