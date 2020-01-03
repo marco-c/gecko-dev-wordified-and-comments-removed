@@ -42902,6 +42902,12 @@ JSOP_SETGNAME
 op
 =
 =
+JSOP_STRICTSETGNAME
+|
+|
+op
+=
+=
 JSOP_INITPROP
 |
 |
@@ -43174,6 +43180,12 @@ op
 =
 =
 JSOP_SETGNAME
+|
+|
+op
+=
+=
+JSOP_STRICTSETGNAME
 )
 {
 if

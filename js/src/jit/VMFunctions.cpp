@@ -2733,6 +2733,12 @@ op
 =
 =
 JSOP_SETGNAME
+|
+|
+op
+=
+=
+JSOP_STRICTSETGNAME
 )
 ?
 baseops
