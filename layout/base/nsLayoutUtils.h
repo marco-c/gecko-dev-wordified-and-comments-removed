@@ -3776,10 +3776,7 @@ ComputeSizeForDrawing
 imgIContainer
 *
 aImage
-mozilla
-:
-:
-CSSIntSize
+nsIntSize
 &
 aImageSize
 nsSize
@@ -3794,10 +3791,7 @@ aGotHeight
 )
 ;
 static
-mozilla
-:
-:
-CSSIntSize
+nsIntSize
 ComputeSizeForDrawingWithFallback
 (
 imgIContainer
