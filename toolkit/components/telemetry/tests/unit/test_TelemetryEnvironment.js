@@ -2018,7 +2018,7 @@ do_get_profile
 (
 )
 ;
-createAppInfo
+loadAddonManager
 (
 APP_ID
 APP_NAME
