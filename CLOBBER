@@ -194,6 +194,12 @@ changes
 any
 more
 .
-Merge
-day
-clobber
+Bug
+1061335
+-
+CLOBBER
+for
+Win32
+compiler
+update
+.
