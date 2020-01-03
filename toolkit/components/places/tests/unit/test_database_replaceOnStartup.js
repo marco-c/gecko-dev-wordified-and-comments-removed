@@ -4,7 +4,6 @@ run_test
 )
 {
 let
-(
 dbFile
 =
 gProfD
@@ -12,8 +11,7 @@ gProfD
 clone
 (
 )
-)
-{
+;
 dbFile
 .
 append
@@ -34,9 +32,6 @@ exists
 )
 )
 ;
-}
-let
-(
 dbFile
 =
 gProfD
@@ -44,8 +39,7 @@ gProfD
 clone
 (
 )
-)
-{
+;
 dbFile
 .
 append
@@ -68,7 +62,6 @@ exists
 )
 )
 ;
-}
 let
 file
 =
@@ -177,8 +170,6 @@ history
 DATABASE_STATUS_CORRUPT
 )
 ;
-let
-(
 dbFile
 =
 gProfD
@@ -186,8 +177,7 @@ gProfD
 clone
 (
 )
-)
-{
+;
 dbFile
 .
 append
@@ -208,7 +198,6 @@ exists
 )
 )
 ;
-let
 db
 =
 Services
@@ -262,9 +251,6 @@ close
 (
 )
 ;
-}
-let
-(
 dbFile
 =
 gProfD
@@ -272,8 +258,7 @@ gProfD
 clone
 (
 )
-)
-{
+;
 dbFile
 .
 append
@@ -297,5 +282,3 @@ exists
 )
 ;
 }
-}
-;

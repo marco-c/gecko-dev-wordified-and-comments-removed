@@ -1751,7 +1751,6 @@ icon
 "
 :
 let
-(
 deferred
 =
 Promise
@@ -1759,9 +1758,7 @@ Promise
 defer
 (
 )
-data
-)
-{
+;
 PlacesUtils
 .
 favicons
@@ -1794,6 +1791,7 @@ aData
 }
 )
 ;
+let
 data
 =
 yield
@@ -1837,7 +1835,6 @@ aExpected
 icon
 )
 ;
-}
 break
 ;
 case

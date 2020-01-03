@@ -64,8 +64,8 @@ jsm
 "
 )
 ;
+{
 let
-(
 commonFile
 =
 do_get_file
@@ -80,8 +80,7 @@ js
 "
 false
 )
-)
-{
+;
 let
 uri
 =

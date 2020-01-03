@@ -797,14 +797,12 @@ indexOf
 )
 ;
 let
-(
 curChildCount
 =
 tagRoot
 .
 childCount
-)
-{
+;
 try
 {
 tagssvc
@@ -1155,7 +1153,6 @@ NS_ERROR_ILLEGAL_VALUE
 "
 )
 ;
-}
 }
 tagRoot
 .

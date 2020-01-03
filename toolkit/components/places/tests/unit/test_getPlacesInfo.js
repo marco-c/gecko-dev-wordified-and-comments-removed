@@ -161,6 +161,7 @@ placeId
 ;
 }
 function
+*
 test_getPlacesInfoExistentPlace
 (
 )
@@ -297,6 +298,7 @@ test_getPlacesInfoExistentPlace
 )
 ;
 function
+*
 test_getPlacesInfoNonExistentPlace
 (
 )
@@ -357,12 +359,12 @@ test_getPlacesInfoNonExistentPlace
 )
 ;
 function
+*
 test_promisedHelper
 (
 )
 {
 let
-(
 uri
 =
 NetUtil
@@ -381,8 +383,7 @@ helper_existent_example
 tld
 "
 )
-)
-{
+;
 yield
 PlacesTestUtils
 .
@@ -411,10 +412,6 @@ Ci
 mozIPlaceInfo
 )
 ;
-}
-;
-let
-(
 uri
 =
 NetUtil
@@ -433,8 +430,7 @@ helper_non_existent_example
 tld
 "
 )
-)
-{
+;
 try
 {
 let
@@ -470,14 +466,13 @@ ex
 {
 }
 }
-;
-}
 add_task
 (
 test_promisedHelper
 )
 ;
 function
+*
 test_infoByGUID
 (
 )
@@ -547,6 +542,7 @@ test_infoByGUID
 )
 ;
 function
+*
 test_invalid_guid
 (
 )
@@ -593,6 +589,7 @@ test_invalid_guid
 )
 ;
 function
+*
 test_mixed_selection
 (
 )
@@ -602,7 +599,6 @@ placeInfo1
 placeInfo2
 ;
 let
-(
 uri
 =
 NetUtil
@@ -621,8 +617,7 @@ mixed_selection_test_1
 tld
 "
 )
-)
-{
+;
 yield
 PlacesTestUtils
 .
@@ -641,10 +636,6 @@ promisePlaceInfo
 uri
 )
 ;
-}
-;
-let
-(
 uri
 =
 NetUtil
@@ -663,8 +654,7 @@ mixed_selection_test_2
 tld
 "
 )
-)
-{
+;
 yield
 PlacesTestUtils
 .
@@ -682,8 +672,6 @@ promisePlaceInfo
 (
 uri
 )
-;
-}
 ;
 let
 getPlacesInfoResult

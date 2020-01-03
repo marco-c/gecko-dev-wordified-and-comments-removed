@@ -1109,7 +1109,6 @@ nsIIOService
 )
 ;
 let
-(
 channel
 =
 ios
@@ -1139,8 +1138,7 @@ nsIContentPolicy
 .
 TYPE_IMAGE
 )
-)
-{
+;
 channel
 .
 asyncOpen
@@ -1161,9 +1159,6 @@ do_test_pending
 (
 )
 ;
-}
-let
-(
 channel
 =
 ios
@@ -1203,8 +1198,7 @@ nsIContentPolicy
 .
 TYPE_IMAGE
 )
-)
-{
+;
 channel
 .
 asyncOpen
@@ -1225,9 +1219,7 @@ do_test_pending
 (
 )
 ;
-}
 let
-(
 testURI
 =
 uri
@@ -1243,8 +1235,7 @@ org
 /
 "
 )
-)
-{
+;
 fs
 .
 replaceFaviconDataFromDataURL
@@ -1270,7 +1261,6 @@ now
 1000
 )
 ;
-let
 channel
 =
 ios
@@ -1325,5 +1315,4 @@ do_test_pending
 (
 )
 ;
-}
 }
