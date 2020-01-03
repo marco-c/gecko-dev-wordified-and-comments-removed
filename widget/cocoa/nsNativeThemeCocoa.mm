@@ -13909,6 +13909,15 @@ ScaleInverse
 thebesCtx
 -
 >
+SetMatrix
+(
+thebesCtx
+-
+>
+CurrentMatrix
+(
+)
+.
 Scale
 (
 2
@@ -13917,6 +13926,7 @@ Scale
 2
 .
 0f
+)
 )
 ;
 }

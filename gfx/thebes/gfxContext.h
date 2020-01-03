@@ -451,15 +451,6 @@ true
 )
 ;
 void
-Scale
-(
-gfxFloat
-x
-gfxFloat
-y
-)
-;
-void
 Rotate
 (
 gfxFloat
