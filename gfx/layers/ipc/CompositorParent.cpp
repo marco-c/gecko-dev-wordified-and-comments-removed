@@ -2818,6 +2818,13 @@ return
 ;
 }
 }
+mCompositionManager
+-
+>
+ComputeRotation
+(
+)
+;
 TimeStamp
 time
 =
@@ -2859,13 +2866,6 @@ GetRoot
 "
 0000
 "
-)
-;
-mCompositionManager
--
->
-ComputeRotation
-(
 )
 ;
 #
