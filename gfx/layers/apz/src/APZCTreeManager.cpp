@@ -2093,7 +2093,7 @@ if
 apzc
 -
 >
-IsRootForLayersId
+HasNoParentWithSameLayersId
 (
 )
 )
@@ -2110,7 +2110,7 @@ GetScrollId
 (
 )
 "
-isRootForLayersId
+hasNoParentWithSameLayersId
 "
 true
 )
@@ -2169,7 +2169,7 @@ if
 apzc
 -
 >
-IsRootForLayersId
+HasNoParentWithSameLayersId
 (
 )
 )
@@ -4790,7 +4790,7 @@ GetApzc
 )
 -
 >
-IsRootForLayersId
+HasNoParentWithSameLayersId
 (
 )
 )
@@ -4905,7 +4905,7 @@ GetApzc
 )
 -
 >
-IsRootForLayersId
+HasNoParentWithSameLayersId
 (
 )
 )
@@ -5914,7 +5914,7 @@ if
 apzc
 -
 >
-IsRootForLayersId
+HasNoParentWithSameLayersId
 (
 )
 )
@@ -5986,7 +5986,7 @@ while
 parent
 -
 >
-IsRootForLayersId
+HasNoParentWithSameLayersId
 (
 )
 )
@@ -7094,7 +7094,7 @@ apzc
 apzc
 -
 >
-IsRootForLayersId
+HasNoParentWithSameLayersId
 (
 )
 )
