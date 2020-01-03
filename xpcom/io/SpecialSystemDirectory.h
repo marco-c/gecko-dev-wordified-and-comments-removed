@@ -226,6 +226,17 @@ Win_Music
 Win_Videos
 =
 235
+#
+if
+defined
+(
+MOZ_CONTENT_SANDBOX
+)
+Win_LocalAppdataLow
+=
+236
+#
+endif
 Unix_LocalDirectory
 =
 301
