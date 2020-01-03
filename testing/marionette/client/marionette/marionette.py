@@ -4344,6 +4344,12 @@ now
 (
 )
         
+poll_interval
+=
+0
+.
+1
+        
 while
 datetime
 .
@@ -4364,6 +4370,10 @@ seconds
 timeout
 )
 :
+            
+sock
+=
+None
             
 try
 :
@@ -4419,13 +4429,6 @@ in
 data
 :
                     
-time
-.
-sleep
-(
-5
-)
-                    
 return
 True
             
@@ -4437,11 +4440,24 @@ error
                 
 pass
             
+finally
+:
+                
+if
+sock
+:
+                    
+sock
+.
+close
+(
+)
+            
 time
 .
 sleep
 (
-1
+poll_interval
 )
         
 return
