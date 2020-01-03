@@ -5513,7 +5513,7 @@ self
 return
 self
 .
-run_b2g_desktop
+run_mochitest_b2g_desktop
 (
 test_paths
 *
