@@ -4613,7 +4613,7 @@ nsIFrame
 aFrame
 uint8_t
 aWidgetType
-nsIntSize
+LayoutDeviceIntSize
 *
 aResult
 bool

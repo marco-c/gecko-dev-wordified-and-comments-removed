@@ -622,7 +622,7 @@ if
 theme
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 size
 ;
 bool

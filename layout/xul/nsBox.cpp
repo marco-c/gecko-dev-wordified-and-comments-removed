@@ -2840,7 +2840,7 @@ mAppearance
 )
 )
 {
-nsIntSize
+LayoutDeviceIntSize
 size
 ;
 theme
