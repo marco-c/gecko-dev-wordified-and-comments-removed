@@ -91,6 +91,8 @@ undefined
 '
 )
 {
+try
+{
 this
 .
 __defineSetter__
@@ -103,6 +105,13 @@ function
 }
 )
 ;
+}
+catch
+(
+exc
+)
+{
+}
 this
 .
 watch
