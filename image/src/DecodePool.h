@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_IMAGELIB_DECODEPOOL_H_
+mozilla_image_src_DecodePool_h
 #
 define
-MOZILLA_IMAGELIB_DECODEPOOL_H_
+mozilla_image_src_DecodePool_h
 #
 include
 "
