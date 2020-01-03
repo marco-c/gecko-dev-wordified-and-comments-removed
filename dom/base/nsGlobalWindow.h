@@ -1615,6 +1615,13 @@ ForceClose
 override
 ;
 virtual
+void
+MaybeUpdateTouchState
+(
+)
+override
+;
+virtual
 bool
 DispatchCustomEvent
 (
