@@ -179,6 +179,8 @@ orig_frame_
 scoped_ptr
 <
 uint8_t
+[
+]
 >
 prev_frame_
 ;
