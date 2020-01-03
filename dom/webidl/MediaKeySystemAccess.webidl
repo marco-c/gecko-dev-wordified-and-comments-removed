@@ -228,7 +228,7 @@ media
 .
 eme
 .
-enabled
+apiVisible
 "
 ]
 interface

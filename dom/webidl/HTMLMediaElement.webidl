@@ -869,7 +869,7 @@ media
 .
 eme
 .
-enabled
+apiVisible
 "
 ]
 readonly
@@ -913,7 +913,7 @@ media
 .
 eme
 .
-enabled
+apiVisible
 "
 NewObject
 ]
@@ -936,7 +936,7 @@ media
 .
 eme
 .
-enabled
+apiVisible
 "
 ]
 attribute

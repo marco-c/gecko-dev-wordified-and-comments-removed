@@ -190,7 +190,7 @@ media
 .
 eme
 .
-enabled
+apiVisible
 "
 Constructor
 (

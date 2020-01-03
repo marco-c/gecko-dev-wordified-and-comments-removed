@@ -2756,7 +2756,7 @@ media
 .
 eme
 .
-enabled
+apiVisible
 "
 NewObject
 ]
