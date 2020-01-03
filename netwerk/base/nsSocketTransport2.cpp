@@ -4422,7 +4422,7 @@ int32_t
 mProxyPort
 ;
 uint32_t
-proxyFlags
+controlFlags
 =
 0
 ;
@@ -4505,7 +4505,7 @@ if
 (
 mProxyTransparentResolvesHost
 )
-proxyFlags
+controlFlags
 |
 =
 nsISocketProvider
@@ -4522,7 +4522,7 @@ nsISocketTransport
 :
 ANONYMOUS_CONNECT
 )
-proxyFlags
+controlFlags
 |
 =
 nsISocketProvider
@@ -4539,7 +4539,7 @@ nsISocketTransport
 :
 NO_PERMANENT_STORAGE
 )
-proxyFlags
+controlFlags
 |
 =
 nsISocketProvider
@@ -4585,7 +4585,7 @@ proxyPort
 port
 proxyHost
 proxyPort
-proxyFlags
+controlFlags
 &
 fd
 getter_AddRefs
@@ -4644,7 +4644,7 @@ host
 port
 proxyHost
 proxyPort
-proxyFlags
+controlFlags
 fd
 getter_AddRefs
 (
