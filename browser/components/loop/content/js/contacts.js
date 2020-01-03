@@ -2219,6 +2219,9 @@ mozLoop
 .
 confirm
 (
+{
+message
+:
 mozL10n
 .
 get
@@ -2227,6 +2230,8 @@ get
 confirm_delete_contact_alert
 "
 )
+okButton
+:
 mozL10n
 .
 get
@@ -2235,6 +2240,8 @@ get
 confirm_delete_contact_remove_button
 "
 )
+cancelButton
+:
 mozL10n
 .
 get
@@ -2243,6 +2250,7 @@ get
 confirm_delete_contact_cancel_button
 "
 )
+}
 (
 err
 result
