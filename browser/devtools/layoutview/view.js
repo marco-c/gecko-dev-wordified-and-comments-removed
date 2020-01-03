@@ -2783,8 +2783,6 @@ showBoxModel
 (
 {
 region
-:
-region
 }
 )
 ;
