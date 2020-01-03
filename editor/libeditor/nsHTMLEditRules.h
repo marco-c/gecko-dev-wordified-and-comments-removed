@@ -2194,13 +2194,9 @@ ClearCachedStyles
 (
 )
 ;
-nsresult
+void
 AdjustSpecialBreaks
 (
-bool
-aSafeToAskFrames
-=
-false
 )
 ;
 nsresult
