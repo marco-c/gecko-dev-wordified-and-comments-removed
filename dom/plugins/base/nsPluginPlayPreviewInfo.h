@@ -46,6 +46,10 @@ const
 char
 *
 aRedirectURL
+const
+char
+*
+aWhitelist
 )
 ;
 explicit
@@ -65,6 +69,9 @@ mIgnoreCTP
 ;
 nsCString
 mRedirectURL
+;
+nsCString
+mWhitelist
 ;
 }
 ;
