@@ -274,6 +274,13 @@ defined
 (
 XP_UNIX
 )
+&
+&
+!
+defined
+(
+MOZ_ASAN
+)
 void
 abort
 (
