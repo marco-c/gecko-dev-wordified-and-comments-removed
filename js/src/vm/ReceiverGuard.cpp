@@ -25,6 +25,13 @@ UnboxedObject
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js

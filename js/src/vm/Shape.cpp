@@ -83,6 +83,13 @@ h
 #
 include
 "
+jscompartmentinlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h

@@ -8224,6 +8224,9 @@ isIon
 )
 )
 {
+jit
+:
+:
 JitFrameIterator
 jitIter
 (

@@ -68,6 +68,15 @@ include
 "
 jit
 /
+JitCompartment
+.
+h
+"
+#
+include
+"
+jit
+/
 Registers
 .
 h
