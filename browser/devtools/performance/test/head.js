@@ -399,6 +399,17 @@ html
 "
 ;
 const
+ALLOCS_URL
+=
+EXAMPLE_URL
++
+"
+doc_allocs
+.
+html
+"
+;
+const
 MEMORY_SAMPLE_PROB_PREF
 =
 "

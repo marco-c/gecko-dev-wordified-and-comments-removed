@@ -298,6 +298,11 @@ i
 =
 timeOffset
 ;
+if
+(
+timeScale
+)
+{
 timestamps
 [
 i
@@ -306,6 +311,7 @@ i
 =
 timeScale
 ;
+}
 }
 }
 let
