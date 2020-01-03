@@ -104,6 +104,10 @@ TestInterface
 ?
 NullableTestInterface
 ;
+typedef
+CustomEventInit
+TestDictionaryTypedef
+;
 interface
 TestExternalInterface
 ;
@@ -7494,6 +7498,9 @@ requiredObject
 ;
 CustomEventInit
 customEventInit
+;
+TestDictionaryTypedef
+dictionaryTypedef
 ;
 }
 ;

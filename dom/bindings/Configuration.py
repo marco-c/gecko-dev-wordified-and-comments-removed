@@ -266,22 +266,21 @@ location
 )
 )
             
+assert
+not
+thing
+.
+isType
+(
+)
+;
+            
 if
-(
 not
-isinstance
-(
 thing
-IDLInterface
-)
-and
-                
-not
-isinstance
+.
+isInterface
 (
-thing
-IDLExternalInterface
-)
 )
 :
                 
@@ -5929,6 +5928,8 @@ isCallback
 )
 and
 type
+.
+callback
 not
 in
 callbacks
@@ -5942,6 +5943,8 @@ getFlatTypes
 getTypesFromCallback
 (
 type
+.
+callback
 )
 )
                 
@@ -5950,6 +5953,8 @@ callbacks
 add
 (
 type
+.
+callback
 )
             
 elif
