@@ -4988,7 +4988,7 @@ index
 return
 result
 .
-succeed
+failReadOnly
 (
 )
 ;
