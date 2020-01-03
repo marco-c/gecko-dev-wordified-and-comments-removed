@@ -26304,9 +26304,8 @@ catchList
 =
 handler
 .
-newList
+newCatchList
 (
-PNK_CATCH
 )
 ;
 if
