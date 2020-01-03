@@ -498,6 +498,7 @@ other
 :
         
 return
+(
 self
 .
 _lexpos
@@ -507,8 +508,7 @@ other
 .
 _lexpos
 and
-\
-               
+                
 self
 .
 _file
@@ -517,6 +517,7 @@ _file
 other
 .
 _file
+)
     
 def
 filename
@@ -796,14 +797,14 @@ other
 :
         
 return
+(
 isinstance
 (
 other
 BuiltinLocation
 )
 and
-\
-               
+                
 self
 .
 msg
@@ -812,6 +813,7 @@ msg
 other
 .
 msg
+)
     
 def
 filename
@@ -1547,22 +1549,21 @@ newObject
 :
         
 if
+(
 isinstance
 (
 originalObject
 IDLExternalInterface
 )
 and
-\
-           
+            
 isinstance
 (
 newObject
 IDLExternalInterface
 )
 and
-\
-           
+            
 originalObject
 .
 identifier
@@ -1575,6 +1576,7 @@ newObject
 identifier
 .
 name
+)
 :
             
 return
@@ -1710,6 +1712,7 @@ location
 )
         
 if
+(
 originalObject
 .
 tag
@@ -1721,7 +1724,6 @@ Tags
 .
 Method
 and
-\
            
 newObject
 .
@@ -1733,6 +1735,7 @@ IDLInterfaceMember
 Tags
 .
 Method
+)
 :
             
 return
@@ -6712,7 +6715,7 @@ attribute
 s
 "
 %
-                              
+                                          
 (
 attr
 .
@@ -6722,7 +6725,7 @@ name
 iface
 putForwards
 )
-                              
+                                          
 [
 attr
 .
@@ -15895,14 +15898,14 @@ other
 :
         
 return
+(
 isinstance
 (
 other
 IDLWrapperType
 )
 and
-\
-               
+                
 self
 .
 _identifier
@@ -15912,8 +15915,7 @@ other
 .
 _identifier
 and
-\
-               
+                
 self
 .
 builtin
@@ -15922,6 +15924,7 @@ builtin
 other
 .
 builtin
+)
     
 def
 __str__
@@ -16058,6 +16061,7 @@ self
 :
         
 return
+(
 isinstance
 (
 self
@@ -16066,14 +16070,14 @@ inner
 IDLInterface
 )
 or
-\
-               
+                
 isinstance
 (
 self
 .
 inner
 IDLExternalInterface
+)
 )
     
 def
@@ -16145,6 +16149,7 @@ self
 :
         
 return
+(
 isinstance
 (
 self
@@ -16153,8 +16158,7 @@ inner
 IDLInterface
 )
 and
-\
-               
+                
 self
 .
 inner
@@ -16167,6 +16171,7 @@ name
 "
 Promise
 "
+)
     
 def
 promiseInnerType
@@ -17584,6 +17589,7 @@ self
 :
         
 return
+(
 self
 .
 _typeTag
@@ -17595,8 +17601,7 @@ Types
 .
 domstring
 or
-\
-               
+                
 self
 .
 _typeTag
@@ -17608,8 +17613,7 @@ Types
 .
 bytestring
 or
-\
-               
+                
 self
 .
 _typeTag
@@ -17620,6 +17624,7 @@ IDLBuiltinType
 Types
 .
 usvstring
+)
     
 def
 isByteString
@@ -17781,6 +17786,7 @@ self
 :
         
 return
+(
 self
 .
 _typeTag
@@ -17792,8 +17798,7 @@ Types
 .
 Int8Array
 and
-\
-               
+                
 self
 .
 _typeTag
@@ -17804,6 +17809,7 @@ IDLBuiltinType
 Types
 .
 Float64Array
+)
     
 def
 isSharedTypedArray
@@ -17813,6 +17819,7 @@ self
 :
         
 return
+(
 self
 .
 _typeTag
@@ -17824,8 +17831,7 @@ Types
 .
 SharedInt8Array
 and
-\
-               
+                
 self
 .
 _typeTag
@@ -17836,6 +17842,7 @@ IDLBuiltinType
 Types
 .
 SharedFloat64Array
+)
     
 def
 isInterface
@@ -17845,50 +17852,47 @@ self
 :
         
 return
+(
 self
 .
 isArrayBuffer
 (
 )
 or
-\
-               
+                
 self
 .
 isArrayBufferView
 (
 )
 or
-\
-               
+                
 self
 .
 isSharedArrayBuffer
 (
 )
 or
-\
-               
+                
 self
 .
 isSharedArrayBufferView
 (
 )
 or
-\
-               
+                
 self
 .
 isTypedArray
 (
 )
 or
-\
-               
+                
 self
 .
 isSharedTypedArray
 (
+)
 )
     
 def
@@ -17913,6 +17917,7 @@ self
 :
         
 return
+(
 self
 .
 _typeTag
@@ -17924,8 +17929,7 @@ Types
 .
 float
 or
-\
-               
+                
 self
 .
 _typeTag
@@ -17937,8 +17941,7 @@ Types
 .
 double
 or
-\
-               
+                
 self
 .
 _typeTag
@@ -17950,8 +17953,7 @@ Types
 .
 unrestricted_float
 or
-\
-               
+                
 self
 .
 _typeTag
@@ -17962,6 +17964,7 @@ IDLBuiltinType
 Types
 .
 unrestricted_double
+)
     
 def
 isUnrestricted
@@ -17978,6 +17981,7 @@ isFloat
 )
         
 return
+(
 self
 .
 _typeTag
@@ -17989,8 +17993,7 @@ Types
 .
 unrestricted_float
 or
-\
-               
+                
 self
 .
 _typeTag
@@ -18001,6 +18004,7 @@ IDLBuiltinType
 Types
 .
 unrestricted_double
+)
     
 def
 isSerializable
@@ -28432,6 +28436,7 @@ arguments
 1
             
 assert
+(
 arguments
 [
 0
@@ -28449,8 +28454,7 @@ Types
 domstring
 ]
 or
-\
-                   
+                    
 arguments
 [
 0
@@ -28467,6 +28471,7 @@ Types
 .
 unsigned_long
 ]
+)
             
 assert
 not
@@ -28542,6 +28547,7 @@ arguments
 2
             
 assert
+(
 arguments
 [
 0
@@ -28559,8 +28565,7 @@ Types
 domstring
 ]
 or
-\
-                   
+                    
 arguments
 [
 0
@@ -28577,6 +28582,7 @@ Types
 .
 unsigned_long
 ]
+)
             
 assert
 not
@@ -28784,6 +28790,7 @@ self
 :
         
 assert
+(
 self
 .
 _specialType
@@ -28795,7 +28802,6 @@ NamedOrIndexed
 .
 Named
 or
-\
                
 self
 .
@@ -28807,6 +28813,7 @@ IDLMethod
 NamedOrIndexed
 .
 Indexed
+)
         
 return
 self
@@ -28828,6 +28835,7 @@ self
 :
         
 assert
+(
 self
 .
 _specialType
@@ -28839,8 +28847,7 @@ NamedOrIndexed
 .
 Named
 or
-\
-               
+                
 self
 .
 _specialType
@@ -28851,6 +28858,7 @@ IDLMethod
 NamedOrIndexed
 .
 Indexed
+)
         
 return
 self
@@ -37205,6 +37213,7 @@ identifier
 :
             
 if
+(
 not
 getter
 and
@@ -37214,8 +37223,7 @@ and
 not
 creator
 and
-\
-               
+                
 not
 deleter
 and
@@ -37224,6 +37232,7 @@ legacycaller
 and
 not
 stringifier
+)
 :
                 
 raise
@@ -42113,6 +42122,7 @@ modifiers
 :
             
 assert
+(
 modifier
 =
 =
@@ -42122,8 +42132,7 @@ TypeSuffixModifier
 .
 QMark
 or
-\
-                   
+                    
 modifier
 =
 =
@@ -42132,6 +42141,7 @@ IDLMethod
 TypeSuffixModifier
 .
 Brackets
+)
             
 if
 modifier
