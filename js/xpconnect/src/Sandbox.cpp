@@ -2540,19 +2540,6 @@ callable
 )
 )
 ;
-js
-:
-:
-ProxyOptions
-options
-;
-options
-.
-selectDefaultClass
-(
-true
-)
-;
 return
 js
 :
@@ -2568,7 +2555,6 @@ sandboxCallableProxyHandler
 priv
 nullptr
 sandboxProtoProxy
-options
 )
 ;
 }

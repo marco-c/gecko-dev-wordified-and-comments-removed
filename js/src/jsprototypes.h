@@ -524,11 +524,10 @@ real
 Proxy
 31
 js_InitProxyClass
-&
-ProxyObject
-:
-:
-uncallableClass_
+OCLASP
+(
+Proxy
+)
 )
 \
 real

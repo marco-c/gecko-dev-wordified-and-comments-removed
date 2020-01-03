@@ -2223,16 +2223,9 @@ isLazy
 existing
 -
 >
-getClass
+isCallable
 (
 )
-!
-=
-&
-ProxyObject
-:
-:
-uncallableClass_
 |
 |
 existing

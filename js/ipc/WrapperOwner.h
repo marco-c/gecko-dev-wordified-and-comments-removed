@@ -432,6 +432,14 @@ HandleObject
 proxy
 )
 ;
+bool
+isCallable
+(
+JSObject
+*
+obj
+)
+;
 nsresult
 instanceOf
 (

@@ -185,6 +185,9 @@ class
 OutOfLineCallPostWriteBarrier
 ;
 class
+OutOfLineIsCallable
+;
+class
 CodeGenerator
 :
 public
@@ -2207,6 +2210,14 @@ visitIsCallable
 LIsCallable
 *
 lir
+)
+;
+bool
+visitOutOfLineIsCallable
+(
+OutOfLineIsCallable
+*
+ool
 )
 ;
 bool

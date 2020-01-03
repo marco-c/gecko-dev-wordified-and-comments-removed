@@ -46,8 +46,6 @@ Proxy
 "
 0
 0
-nullptr
-nullptr
 PROXY_MAKE_EXT
 (
 nullptr
@@ -261,7 +259,6 @@ Wrapper
 :
 :
 singleton
-&
 options
 )
 )
@@ -508,7 +505,6 @@ Wrapper
 :
 :
 singleton
-&
 options
 )
 ;
