@@ -151,7 +151,7 @@ DEPTH
 -
 TOPSRCDIR
 (
-MOZILLA_DIR
+topsrcdir
 )
 -
 OBJDIR
@@ -274,7 +274,7 @@ RCFILE
 RCINCLUDE
 )
 (
-MOZILLA_DIR
+topsrcdir
 )
 /
 config
@@ -286,7 +286,7 @@ pl
 PERL
 )
 (
-MOZILLA_DIR
+topsrcdir
 )
 /
 config

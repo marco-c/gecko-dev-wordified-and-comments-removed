@@ -904,7 +904,7 @@ USE_RCS_MK
 1
 include
 (
-MOZILLA_DIR
+topsrcdir
 )
 /
 config
