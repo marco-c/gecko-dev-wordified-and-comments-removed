@@ -520,7 +520,7 @@ src
 "
 drawable
 /
-new_tablet_tab_item_close_button
+tab_item_close_button
 "
 android
 :
