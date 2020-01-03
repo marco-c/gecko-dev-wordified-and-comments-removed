@@ -2751,7 +2751,6 @@ inflation
 lineThreshold
 0
 )
-fails
 =
 =
 font
@@ -2822,7 +2821,6 @@ inflation
 lineThreshold
 0
 )
-fails
 =
 =
 font
@@ -2893,7 +2891,6 @@ inflation
 lineThreshold
 0
 )
-fails
 !
 =
 font
@@ -2964,7 +2961,6 @@ inflation
 lineThreshold
 0
 )
-fails
 !
 =
 font
