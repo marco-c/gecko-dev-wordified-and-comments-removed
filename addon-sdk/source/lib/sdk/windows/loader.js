@@ -208,6 +208,12 @@ if
 _window
 )
 {
+if
+(
+this
+.
+__unloadListener
+)
 _window
 .
 removeEventListener
@@ -219,6 +225,12 @@ __unloadListener
 false
 )
 ;
+if
+(
+this
+.
+__loadListener
+)
 _window
 .
 removeEventListener

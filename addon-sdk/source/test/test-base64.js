@@ -35,6 +35,18 @@ const
 utf8text
 =
 "
+\
+u2713
+la
+mode
+"
+;
+const
+badutf8text
+=
+"
+\
+u0013
 la
 mode
 "
@@ -457,7 +469,7 @@ assert
 {
 assert
 .
-notEqual
+equal
 (
 base64
 .
@@ -470,7 +482,7 @@ encode
 utf8text
 )
 )
-utf8text
+badutf8text
 "
 Unicode
 strings
@@ -481,6 +493,10 @@ utf
 8
 '
 charset
+or
+will
+be
+mangled
 "
 )
 ;

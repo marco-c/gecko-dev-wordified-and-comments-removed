@@ -3515,9 +3515,9 @@ count
 assert
 (
 count
+>
 =
-=
-6
+3
 "
 body
 .

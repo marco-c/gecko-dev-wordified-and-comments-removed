@@ -15,6 +15,8 @@ require
 content
 /
 worker
+-
+parent
 '
 )
 .
