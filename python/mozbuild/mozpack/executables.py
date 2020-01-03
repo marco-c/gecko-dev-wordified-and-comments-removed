@@ -558,6 +558,7 @@ import
 substs
     
 return
+(
 '
 USE_ELF_HACK
 '
@@ -571,8 +572,7 @@ USE_ELF_HACK
 '
 ]
 and
-\
-           
+        
 path
 .
 endswith
@@ -581,6 +581,21 @@ substs
 [
 '
 DLL_SUFFIX
+'
+]
+)
+and
+        
+'
+COMPILE_ENVIRONMENT
+'
+in
+substs
+and
+substs
+[
+'
+COMPILE_ENVIRONMENT
 '
 ]
 )
