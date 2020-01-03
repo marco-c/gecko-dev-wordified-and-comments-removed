@@ -7187,6 +7187,13 @@ aDirtyRegion
 backBuffer
 -
 >
+Unlock
+(
+)
+;
+backBuffer
+-
+>
 SetWaste
 (
 tileRegion
