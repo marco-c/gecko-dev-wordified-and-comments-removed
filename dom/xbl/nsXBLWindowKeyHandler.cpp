@@ -929,13 +929,6 @@ nsXBLPrototypeHandler
 key
 )
 ;
-if
-(
-!
-handler
-)
-return
-;
 handler
 -
 >

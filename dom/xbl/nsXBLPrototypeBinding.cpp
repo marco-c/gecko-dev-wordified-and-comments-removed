@@ -5522,12 +5522,6 @@ nsXULPrototypeElement
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-prototype
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 prototype
 -
 >
