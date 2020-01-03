@@ -910,7 +910,7 @@ return
 gfxPrefs
 :
 :
-LayoutEventRegionsEnabled
+LayoutEventRegionsEnabledDoNotUseDirectly
 (
 )
 |

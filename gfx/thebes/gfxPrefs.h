@@ -3242,7 +3242,7 @@ regions
 .
 enabled
 "
-LayoutEventRegionsEnabled
+LayoutEventRegionsEnabledDoNotUseDirectly
 bool
 false
 )
