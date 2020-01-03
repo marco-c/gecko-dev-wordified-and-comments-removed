@@ -2972,6 +2972,10 @@ mSharedLock
 (
 nullptr
 )
+mAsyncTransformAppliedToContent
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -10783,6 +10787,10 @@ TimeStamp
 aSampleTime
 )
 {
+mAsyncTransformAppliedToContent
+=
+false
+;
 bool
 requestAnimationFrame
 =
