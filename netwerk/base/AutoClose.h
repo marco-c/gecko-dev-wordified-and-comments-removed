@@ -42,6 +42,7 @@ Close
 )
 ;
 }
+explicit
 operator
 bool
 (
