@@ -284,8 +284,9 @@ instance
 ;
 }
 static
-void
-Install
+JSObject
+*
+Create
 (
 JSContext
 *
