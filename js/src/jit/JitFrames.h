@@ -820,9 +820,6 @@ JSRuntime
 rt
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 template
 <
 typename
@@ -839,8 +836,6 @@ JSTracer
 trc
 )
 ;
-#
-endif
 static
 inline
 uint32_t

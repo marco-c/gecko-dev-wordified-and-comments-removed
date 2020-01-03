@@ -13205,9 +13205,6 @@ swap
 "
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -13258,8 +13255,6 @@ putWholeCellFromMainThread
 b
 )
 ;
-#
-endif
 unsigned
 r
 =

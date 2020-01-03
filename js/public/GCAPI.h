@@ -735,17 +735,8 @@ GCRuntime
 gc
 ;
 #
-if
-defined
-(
-JSGC_GENERATIONAL
-)
-&
-&
-defined
-(
+ifdef
 JS_GC_ZEAL
-)
 bool
 restartVerifier
 ;
@@ -1129,9 +1120,6 @@ asCell
 )
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 IsInsideNursery
@@ -1145,8 +1133,6 @@ asCell
 )
 return
 ;
-#
-endif
 if
 (
 IsIncrementalBarrierNeededOnTenuredGCThing
@@ -1235,9 +1221,6 @@ asShadowRuntime
 aRt
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 IsInsideNursery
@@ -1251,8 +1234,6 @@ asCell
 )
 return
 ;
-#
-endif
 if
 (
 IsIncrementalBarrierNeededOnTenuredGCThing

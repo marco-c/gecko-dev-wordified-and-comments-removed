@@ -9017,9 +9017,6 @@ src
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 void
 branchPtrInNurseryRange
 (
@@ -9048,8 +9045,6 @@ Label
 label
 )
 ;
-#
-endif
 void
 loadAsmJSActivation
 (

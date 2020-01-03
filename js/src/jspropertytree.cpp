@@ -1764,9 +1764,6 @@ fixupShapeTreeAfterMovingGC
 }
 #
 endif
-#
-ifdef
-JSGC_GENERATIONAL
 void
 ShapeGetterSetterRef
 :
@@ -1917,8 +1914,6 @@ shape
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG

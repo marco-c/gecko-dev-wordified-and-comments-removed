@@ -1,7 +1,4 @@
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 js
@@ -430,5 +427,3 @@ END_TEST
 (
 testGCHeapPostBarriers
 )
-#
-endif

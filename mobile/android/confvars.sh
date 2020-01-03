@@ -392,17 +392,6 @@ MOZ_ANDROID_DOWNLOADS_INTEGRATION
 1
 fi
 #
-Enable
-generational
-GC
-on
-mobile
-.
-export
-JSGC_GENERATIONAL
-=
-1
-#
 Use
 the
 low

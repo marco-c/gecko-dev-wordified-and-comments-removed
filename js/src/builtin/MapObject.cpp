@@ -5226,9 +5226,6 @@ value
 }
 }
 }
-#
-ifdef
-JSGC_GENERATIONAL
 struct
 UnbarrieredHashPolicy
 {
@@ -5432,8 +5429,6 @@ key
 }
 }
 ;
-#
-endif
 inline
 static
 void
@@ -5451,9 +5446,6 @@ Value
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 typedef
 OrderedHashMap
 <
@@ -5514,8 +5506,6 @@ key
 )
 ;
 }
-#
-endif
 }
 inline
 static
@@ -5534,9 +5524,6 @@ Value
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 typedef
 OrderedHashSet
 <
@@ -5596,8 +5583,6 @@ key
 )
 ;
 }
-#
-endif
 }
 bool
 MapObject

@@ -9974,9 +9974,6 @@ PreBarrieredObject
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 key
@@ -10007,12 +10004,7 @@ get
 )
 )
 ;
-#
-endif
 }
-#
-ifdef
-JSGC_GENERATIONAL
 class
 DebugScopes
 :
@@ -10140,8 +10132,6 @@ key
 }
 }
 ;
-#
-endif
 MOZ_ALWAYS_INLINE
 void
 DebugScopes
@@ -10161,9 +10151,6 @@ ScopeIterKey
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 key
@@ -10198,8 +10185,6 @@ key
 )
 )
 ;
-#
-endif
 }
 MOZ_ALWAYS_INLINE
 void
@@ -10219,9 +10204,6 @@ ScopeObject
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 typedef
 HashMap
 <
@@ -10282,8 +10264,6 @@ key
 )
 )
 ;
-#
-endif
 }
 DebugScopes
 :

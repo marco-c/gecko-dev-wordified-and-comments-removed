@@ -5473,9 +5473,6 @@ stubPcOffset
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 inline
 bool
 ICStubCompiler
@@ -5640,8 +5637,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 EnsureCanEnterIon
@@ -19532,9 +19527,6 @@ JSFunction
 (
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 IsInsideNursery
@@ -19558,8 +19550,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 func
@@ -20110,9 +20100,6 @@ JSFunction
 (
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 IsInsideNursery
@@ -20136,8 +20123,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 func
@@ -29671,9 +29656,6 @@ add
 key
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -29722,8 +29704,6 @@ r
 )
 ;
 }
-#
-endif
 EmitReturnFromIC
 (
 masm
@@ -30734,9 +30714,6 @@ add
 key
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -30785,8 +30762,6 @@ r
 )
 ;
 }
-#
-endif
 EmitReturnFromIC
 (
 masm
@@ -45757,9 +45732,6 @@ add
 holderReg
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -45815,8 +45787,6 @@ scr
 )
 ;
 }
-#
-endif
 masm
 .
 moveValue
@@ -46605,9 +46575,6 @@ add
 holderReg
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -46656,8 +46623,6 @@ saveRegs
 )
 ;
 }
-#
-endif
 masm
 .
 moveValue

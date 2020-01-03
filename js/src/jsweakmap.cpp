@@ -2009,9 +2009,6 @@ JSObject
 key
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 key
@@ -2038,8 +2035,6 @@ key
 )
 )
 ;
-#
-endif
 }
 static
 MOZ_ALWAYS_INLINE

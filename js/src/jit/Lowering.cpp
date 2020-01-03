@@ -14823,9 +14823,6 @@ MPostWriteBarrier
 ins
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 switch
 (
 ins
@@ -14995,8 +14992,6 @@ default
 break
 ;
 }
-#
-endif
 }
 void
 LIRGenerator

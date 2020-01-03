@@ -2412,9 +2412,6 @@ BaselineScript
 script
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 fop
@@ -2434,8 +2431,6 @@ isEmpty
 )
 )
 ;
-#
-endif
 script
 -
 >

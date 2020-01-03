@@ -3669,9 +3669,6 @@ empty
 return
 true
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 cx
 -
 >
@@ -3686,8 +3683,6 @@ evictNursery
 (
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 !

@@ -11361,9 +11361,6 @@ return
 false
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -11475,8 +11472,6 @@ buffer
 )
 ;
 }
-#
-endif
 return
 true
 ;

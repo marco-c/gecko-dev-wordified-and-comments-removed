@@ -898,9 +898,6 @@ uint32_t
 count
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 count
@@ -952,8 +949,6 @@ count
 )
 ;
 }
-#
-endif
 }
 class
 NativeObject
@@ -4995,9 +4990,6 @@ void
 pprivate
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 gc
 :
 :
@@ -5059,8 +5051,6 @@ putCellFromAnyThread
 cellp
 )
 ;
-#
-endif
 }
 inline
 void

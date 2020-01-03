@@ -68,9 +68,6 @@ lookupForAdd
 lookup
 )
 )
-#
-ifdef
-JSGC_GENERATIONAL
 originalGcNumber
 (
 cx
@@ -85,8 +82,6 @@ gcNumber
 (
 )
 )
-#
-endif
 {
 }
 template
@@ -116,9 +111,6 @@ ValueInput
 value
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 bool
 gcHappened
 =
@@ -150,8 +142,6 @@ lookupForAdd
 key
 )
 ;
-#
-endif
 return
 table
 .
@@ -250,15 +240,10 @@ private
 AddPtr
 addPtr
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 const
 uint64_t
 originalGcNumber
 ;
-#
-endif
 DependentAddPtr
 (
 )

@@ -1743,9 +1743,6 @@ Cell
 cell
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 !
@@ -1811,13 +1808,6 @@ location
 &
 ChunkLocationAnyNursery
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 }
 }
@@ -1840,9 +1830,6 @@ MOZ_ASSERT
 thing
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -1868,8 +1855,6 @@ thing
 )
 )
 ;
-#
-endif
 return
 js
 :
@@ -1914,9 +1899,6 @@ MOZ_ASSERT
 thing
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 js
@@ -1943,8 +1925,6 @@ thing
 return
 false
 ;
-#
-endif
 uintptr_t
 *
 word
@@ -2013,9 +1993,6 @@ MOZ_ASSERT
 thing
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 !
@@ -2035,8 +2012,6 @@ asCell
 )
 )
 ;
-#
-endif
 if
 (
 !

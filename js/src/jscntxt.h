@@ -1967,9 +1967,6 @@ DONT_ALLOW_CROSS_COMPARTMENT
 )
 const
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 inline
 js
 :
@@ -1989,8 +1986,6 @@ gc
 nursery
 ;
 }
-#
-endif
 void
 minorGC
 (

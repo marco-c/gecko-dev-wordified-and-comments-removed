@@ -5,9 +5,6 @@ gc_StoreBuffer_h
 define
 gc_StoreBuffer_h
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 mozilla
@@ -2780,7 +2777,5 @@ sizes
 ;
 }
 }
-#
-endif
 #
 endif

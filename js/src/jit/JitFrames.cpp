@@ -5622,9 +5622,6 @@ nextInstruction
 }
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 template
 <
 typename
@@ -5918,8 +5915,6 @@ slots
 ;
 }
 }
-#
-endif
 static
 void
 MarkBaselineStubFrame
@@ -8093,9 +8088,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 template
 <
 typename
@@ -8261,8 +8253,6 @@ JSTracer
 trc
 )
 ;
-#
-endif
 #
 endif
 void

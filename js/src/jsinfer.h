@@ -4007,9 +4007,6 @@ newFunction
 )
 {
 }
-#
-ifdef
-JSGC_GENERATIONAL
 Lookup
 (
 const
@@ -4043,8 +4040,6 @@ newFunction
 )
 {
 }
-#
-endif
 }
 ;
 static

@@ -221,9 +221,6 @@ maybeGetMathCache
 (
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 const
 Nursery
 &
@@ -231,8 +228,6 @@ gcNursery
 (
 )
 ;
-#
-endif
 }
 ;
 class

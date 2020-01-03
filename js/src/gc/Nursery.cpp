@@ -1,7 +1,4 @@
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -5112,5 +5109,3 @@ updateDecommittedRegion
 )
 ;
 }
-#
-endif

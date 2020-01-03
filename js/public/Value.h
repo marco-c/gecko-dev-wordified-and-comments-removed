@@ -6490,9 +6490,6 @@ data
 ;
 }
 }
-#
-ifdef
-JSGC_GENERATIONAL
 namespace
 JS
 {
@@ -6519,8 +6516,6 @@ valuep
 )
 ;
 }
-#
-endif
 namespace
 js
 {
@@ -6733,9 +6728,6 @@ toObject
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 static
 void
 postBarrier
@@ -6778,8 +6770,6 @@ v
 )
 ;
 }
-#
-endif
 }
 ;
 template

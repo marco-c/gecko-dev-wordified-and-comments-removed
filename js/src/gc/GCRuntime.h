@@ -21,9 +21,6 @@ Heap
 h
 "
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -32,8 +29,6 @@ Nursery
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -44,9 +39,6 @@ Statistics
 h
 "
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -55,8 +47,6 @@ StoreBuffer
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1597,9 +1587,6 @@ CancelAndWait
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 void
 requestMinorGC
 (
@@ -1613,8 +1600,6 @@ Reason
 reason
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG
@@ -3233,9 +3218,6 @@ gc
 ZoneVector
 zones
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 js
 :
 :
@@ -3251,8 +3233,6 @@ gc
 StoreBuffer
 storeBuffer
 ;
-#
-endif
 js
 :
 :
@@ -3352,9 +3332,6 @@ gcreason
 Reason
 majorGCTriggerReason
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 bool
 minorGCRequested
 ;
@@ -3367,8 +3344,6 @@ gcreason
 Reason
 minorGCTriggerReason
 ;
-#
-endif
 uint64_t
 majorGCNumber
 ;

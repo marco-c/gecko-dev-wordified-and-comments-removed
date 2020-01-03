@@ -8487,9 +8487,6 @@ getObjectFlags
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 class
 InitialShapeSetRef
 :
@@ -8769,8 +8766,6 @@ p
 }
 }
 ;
-#
-endif
 #
 ifdef
 JSGC_HASH_TABLE_CHECKS
@@ -9283,9 +9278,6 @@ protoRoot
 return
 nullptr
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 cx
@@ -9374,8 +9366,6 @@ ref
 ;
 }
 }
-#
-endif
 return
 shape
 ;

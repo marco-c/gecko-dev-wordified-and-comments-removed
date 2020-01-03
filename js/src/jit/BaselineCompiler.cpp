@@ -571,9 +571,6 @@ emitEpilogue
 return
 Method_Error
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 !
@@ -584,8 +581,6 @@ emitOutOfLinePostBarrierSlot
 return
 Method_Error
 ;
-#
-endif
 if
 (
 masm
@@ -2325,9 +2320,6 @@ return
 true
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 bool
 BaselineCompiler
 :
@@ -2496,8 +2488,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 BaselineCompiler
 :
@@ -10141,9 +10131,6 @@ push
 R0
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 Register
 temp
 =
@@ -10200,8 +10187,6 @@ bind
 skipBarrier
 )
 ;
-#
-endif
 return
 true
 ;
@@ -11778,9 +11763,6 @@ R0
 argAddr
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT
 (
 frame
@@ -11875,8 +11857,6 @@ bind
 skipBarrier
 )
 ;
-#
-endif
 }
 masm
 .
@@ -15300,9 +15280,6 @@ scopeObj
 scopeChainSlot
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 Register
 temp
 =
@@ -15385,8 +15362,6 @@ bind
 skipBarrier
 )
 ;
-#
-endif
 masm
 .
 tagValue
@@ -15659,9 +15634,6 @@ scopeObj
 scopeChainSlot
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 Register
 temp
 =
@@ -15730,8 +15702,6 @@ bind
 skipBarrier
 )
 ;
-#
-endif
 }
 else
 {

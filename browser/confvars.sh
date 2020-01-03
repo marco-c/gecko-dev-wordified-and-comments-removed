@@ -414,14 +414,3 @@ MOZ_JSDOWNLOADS
 MOZ_WEBM_ENCODER
 =
 1
-#
-Enable
-generational
-GC
-on
-desktop
-.
-export
-JSGC_GENERATIONAL
-=
-1

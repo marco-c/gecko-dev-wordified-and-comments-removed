@@ -3449,9 +3449,6 @@ ImmMaybeNurseryPtr
 ptr
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 ptr
@@ -3490,8 +3487,6 @@ embedsNurseryPointers_
 true
 ;
 }
-#
-endif
 return
 ImmGCPtr
 (

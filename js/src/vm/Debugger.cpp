@@ -9494,9 +9494,6 @@ js
 :
 jit
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 cx
 -
 >
@@ -9511,8 +9508,6 @@ evictNursery
 (
 )
 ;
-#
-endif
 AutoSuppressProfilerSampling
 suppressProfilerSampling
 (

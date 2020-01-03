@@ -579,15 +579,10 @@ shadow
 :
 Runtime
 (
-#
-ifdef
-JSGC_GENERATIONAL
 &
 gc
 .
 storeBuffer
-#
-endif
 )
 mainThread
 (
@@ -1882,9 +1877,6 @@ js_delete
 ionPcScriptCache
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 gc
 .
 storeBuffer
@@ -1901,8 +1893,6 @@ disable
 (
 )
 ;
-#
-endif
 #
 if
 defined
@@ -2036,9 +2026,6 @@ JSRuntime
 rt
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 for
 (
 unsigned
@@ -2136,8 +2123,6 @@ e
 ;
 }
 }
-#
-endif
 }
 void
 JSRuntime
@@ -2480,9 +2465,6 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 rtSizes
 -
 >
@@ -2546,8 +2528,6 @@ rtSizes
 gc
 )
 ;
-#
-endif
 }
 static
 bool

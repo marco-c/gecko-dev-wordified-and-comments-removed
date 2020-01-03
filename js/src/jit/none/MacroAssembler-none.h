@@ -4657,9 +4657,6 @@ MOZ_CRASH
 )
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 void
 branchPtrInNurseryRange
 (
@@ -4690,8 +4687,6 @@ MOZ_CRASH
 )
 ;
 }
-#
-endif
 void
 buildFakeExitFrame
 (

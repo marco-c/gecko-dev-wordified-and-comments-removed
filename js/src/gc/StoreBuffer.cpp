@@ -1,7 +1,4 @@
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -1390,5 +1387,3 @@ StoreBuffer
 WholeCellEdges
 >
 ;
-#
-endif

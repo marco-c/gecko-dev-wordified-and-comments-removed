@@ -764,9 +764,6 @@ return
 false
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 static
 void
 postBarrier
@@ -787,8 +784,6 @@ idp
 )
 {
 }
-#
-endif
 }
 ;
 #

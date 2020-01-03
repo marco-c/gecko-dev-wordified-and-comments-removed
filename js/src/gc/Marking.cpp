@@ -117,9 +117,6 @@ jsobjinlines
 h
 "
 #
-ifdef
-JSGC_GENERATIONAL
-#
 include
 "
 gc
@@ -130,8 +127,6 @@ inl
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2014,9 +2009,6 @@ MOZ_ASSERT
 thingp
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 JSRuntime
 *
 rt
@@ -2119,8 +2111,6 @@ thingp
 ;
 }
 }
-#
-endif
 Zone
 *
 zone
@@ -2320,9 +2310,6 @@ false
 ;
 #
 ifdef
-JSGC_GENERATIONAL
-#
-ifdef
 JSGC_FJGENERATIONAL
 if
 (
@@ -2437,8 +2424,6 @@ false
 ;
 }
 }
-#
-endif
 Zone
 *
 zone
@@ -2569,9 +2554,6 @@ nullptr
 ;
 #
 ifdef
-JSGC_GENERATIONAL
-#
-ifdef
 JSGC_FJGENERATIONAL
 if
 (
@@ -2663,8 +2645,6 @@ return
 thingp
 ;
 }
-#
-endif
 #
 ifdef
 JSGC_COMPACTING

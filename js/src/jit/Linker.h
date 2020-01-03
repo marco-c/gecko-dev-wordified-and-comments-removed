@@ -315,9 +315,6 @@ link
 code
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 masm
@@ -343,8 +340,6 @@ putWholeCellFromMainThread
 code
 )
 ;
-#
-endif
 return
 code
 ;

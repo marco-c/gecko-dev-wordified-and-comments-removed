@@ -4630,9 +4630,6 @@ systemZone
 (
 nullptr
 )
-#
-ifdef
-JSGC_GENERATIONAL
 nursery
 (
 rt
@@ -4642,8 +4639,6 @@ storeBuffer
 rt
 nursery
 )
-#
-endif
 stats
 (
 rt
@@ -4718,9 +4713,6 @@ gcreason
 :
 NO_REASON
 )
-#
-ifdef
-JSGC_GENERATIONAL
 minorGCRequested
 (
 false
@@ -4735,8 +4727,6 @@ gcreason
 :
 NO_REASON
 )
-#
-endif
 majorGCNumber
 (
 0
@@ -5227,9 +5217,6 @@ rt
 PostBarrierVerifier
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 zealMode
@@ -5269,8 +5256,6 @@ enterZealMode
 (
 )
 ;
-#
-endif
 bool
 schedule
 =
@@ -5529,9 +5514,6 @@ majorGCNumber
 +
 JIT_SCRIPT_RELEASE_TYPES_PERIOD
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 !
@@ -5603,8 +5585,6 @@ return
 false
 ;
 }
-#
-endif
 #
 ifdef
 JS_GC_ZEAL
@@ -26599,9 +26579,6 @@ heapState
 Idle
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 MOZ_ASSERT_IF
 (
 heapState
@@ -26620,8 +26597,6 @@ isEmpty
 )
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 rt
@@ -28370,9 +28345,6 @@ change
 }
 namespace
 {
-#
-ifdef
-JSGC_GENERATIONAL
 class
 AutoDisableStoreBuffer
 {
@@ -28434,23 +28406,6 @@ enable
 }
 }
 ;
-#
-else
-struct
-AutoDisableStoreBuffer
-{
-AutoDisableStoreBuffer
-(
-GCRuntime
-*
-gc
-)
-{
-}
-}
-;
-#
-endif
 }
 MOZ_NEVER_INLINE
 bool
@@ -29997,9 +29952,6 @@ Reason
 reason
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 minorGCRequested
 =
 false
@@ -30048,8 +30000,6 @@ isEmpty
 )
 )
 ;
-#
-endif
 }
 void
 GCRuntime
@@ -30070,9 +30020,6 @@ Reason
 reason
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 minorGCRequested
 =
 false
@@ -30172,8 +30119,6 @@ isEmpty
 )
 )
 ;
-#
-endif
 }
 void
 GCRuntime
@@ -30183,9 +30128,6 @@ disableGenerationalGC
 (
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 isGenerationalGCEnabled
@@ -30217,8 +30159,6 @@ disable
 )
 ;
 }
-#
-endif
 +
 +
 rt
@@ -30248,9 +30188,6 @@ generationalDisabled
 -
 generationalDisabled
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 generationalDisabled
@@ -30272,8 +30209,6 @@ enable
 )
 ;
 }
-#
-endif
 }
 bool
 GCRuntime
@@ -30286,9 +30221,6 @@ JSContext
 cx
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 minorGCRequested
@@ -30311,8 +30243,6 @@ minorGCTriggerReason
 )
 ;
 }
-#
-endif
 if
 (
 majorGCRequested
@@ -31505,9 +31435,6 @@ FreeOp
 fop
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 fop
 -
 >
@@ -31522,8 +31449,6 @@ evictNursery
 (
 )
 ;
-#
-endif
 for
 (
 ZonesIter

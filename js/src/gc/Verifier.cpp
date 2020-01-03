@@ -1690,9 +1690,6 @@ startVerifyPostBarriers
 (
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 verifyPostData
@@ -1742,12 +1739,7 @@ verifyPostData
 =
 trc
 ;
-#
-endif
 }
-#
-ifdef
-JSGC_GENERATIONAL
 void
 PostVerifierCollectStoreBufferEdges
 (
@@ -2035,8 +2027,6 @@ dst
 )
 ;
 }
-#
-endif
 bool
 js
 :
@@ -2051,9 +2041,6 @@ endVerifyPostBarriers
 (
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 VerifyPostTracer
 *
 trc
@@ -2247,13 +2234,6 @@ nullptr
 return
 true
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 void
 gc
@@ -2431,9 +2411,6 @@ bool
 always
 )
 {
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 zealMode
@@ -2501,8 +2478,6 @@ startVerifyPostBarriers
 (
 )
 ;
-#
-endif
 }
 void
 js
@@ -2589,9 +2564,6 @@ verifyPreData
 nullptr
 ;
 }
-#
-ifdef
-JSGC_GENERATIONAL
 if
 (
 VerifyPostTracer
@@ -2615,8 +2587,6 @@ verifyPostData
 nullptr
 ;
 }
-#
-endif
 }
 #
 endif

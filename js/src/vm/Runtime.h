@@ -1482,9 +1482,6 @@ kind
 )
 )
 ;
-#
-ifdef
-JSGC_GENERATIONAL
 Shape
 :
 :
@@ -1520,8 +1517,6 @@ dst
 type_
 )
 ;
-#
-endif
 }
 }
 ;
