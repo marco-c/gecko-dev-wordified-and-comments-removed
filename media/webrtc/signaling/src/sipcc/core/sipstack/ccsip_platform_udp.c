@@ -554,6 +554,8 @@ sock_addr
 ;
 uint16_t
 addr_len
+=
+0
 ;
 if
 (
@@ -845,6 +847,8 @@ sock_addr
 ;
 uint16_t
 addr_len
+=
+0
 ;
 cpr_sockaddr_storage
 local_sock_addr
