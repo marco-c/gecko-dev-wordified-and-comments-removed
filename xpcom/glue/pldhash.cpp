@@ -684,12 +684,18 @@ if
 (
 capacity
 <
-PL_DHASH_MIN_CAPACITY
+PLDHashTable
+:
+:
+kMinCapacity
 )
 {
 capacity
 =
-PL_DHASH_MIN_CAPACITY
+PLDHashTable
+:
+:
+kMinCapacity
 ;
 }
 uint32_t
@@ -712,7 +718,10 @@ MOZ_ASSERT
 capacity
 <
 =
-PL_DHASH_MAX_CAPACITY
+PLDHashTable
+:
+:
+kMaxCapacity
 )
 ;
 *
@@ -726,9 +735,11 @@ aLog2CapacityOut
 log2
 ;
 }
-static
 MOZ_ALWAYS_INLINE
 uint32_t
+PLDHashTable
+:
+:
 HashShift
 (
 uint32_t
@@ -741,7 +752,7 @@ if
 (
 aLength
 >
-PL_DHASH_MAX_INITIAL_LENGTH
+kMaxInitialLength
 )
 {
 MOZ_CRASH
@@ -799,7 +810,7 @@ large
 ;
 }
 return
-PL_DHASH_BITS
+kHashBits
 -
 log2
 ;
@@ -1373,7 +1384,7 @@ Clear
 {
 ClearAndPrepareForLength
 (
-PL_DHASH_DEFAULT_INITIAL_LENGTH
+kDefaultInitialLength
 )
 ;
 }
@@ -1496,7 +1507,7 @@ entry
 int
 sizeLog2
 =
-PL_DHASH_BITS
+kHashBits
 -
 mHashShift
 ;
@@ -1717,7 +1728,7 @@ entry
 int
 sizeLog2
 =
-PL_DHASH_BITS
+kHashBits
 -
 mHashShift
 ;
@@ -1826,7 +1837,7 @@ mEntryStore
 int32_t
 oldLog2
 =
-PL_DHASH_BITS
+kHashBits
 -
 mHashShift
 ;
@@ -1849,7 +1860,7 @@ if
 (
 newCapacity
 >
-PL_DHASH_MAX_CAPACITY
+kMaxCapacity
 )
 {
 return
@@ -1900,7 +1911,7 @@ false
 }
 mHashShift
 =
-PL_DHASH_BITS
+kHashBits
 -
 newLog2
 ;
@@ -2088,7 +2099,7 @@ aKey
 keyHash
 *
 =
-PL_DHASH_GOLDEN_RATIO
+kGoldenRatio
 ;
 ENSURE_LIVE_KEYHASH
 (
@@ -2534,7 +2545,7 @@ if
 (
 capacity
 >
-PL_DHASH_MIN_CAPACITY
+kMinCapacity
 &
 &
 mEntryCount
@@ -2793,7 +2804,7 @@ capacity
 (
 capacity
 >
-PL_DHASH_MIN_CAPACITY
+kMinCapacity
 &
 &
 mEntryCount
@@ -2824,7 +2835,7 @@ deltaLog2
 log2
 -
 (
-PL_DHASH_BITS
+kHashBits
 -
 mHashShift
 )

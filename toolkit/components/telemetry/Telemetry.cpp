@@ -599,7 +599,10 @@ AutoHashtable
 uint32_t
 initLength
 =
-PL_DHASH_DEFAULT_INITIAL_LENGTH
+PLDHashTable
+:
+:
+kDefaultInitialLength
 )
 ;
 typedef

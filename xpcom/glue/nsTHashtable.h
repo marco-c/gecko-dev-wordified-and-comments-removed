@@ -128,7 +128,10 @@ sizeof
 (
 EntryType
 )
-PL_DHASH_DEFAULT_INITIAL_LENGTH
+PLDHashTable
+:
+:
+kDefaultInitialLength
 )
 {
 }
