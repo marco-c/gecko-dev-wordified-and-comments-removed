@@ -917,6 +917,11 @@ audio
 3gpp
 "
 "
+audio
+/
+flac
+"
+"
 video
 /
 mp4
