@@ -884,14 +884,6 @@ IntRect
 aClipBounds
 )
 ;
-TemporaryRef
-<
-ID2D1Geometry
->
-GetInverseClippedGeometry
-(
-)
-;
 bool
 GetDeviceSpaceClipRect
 (
