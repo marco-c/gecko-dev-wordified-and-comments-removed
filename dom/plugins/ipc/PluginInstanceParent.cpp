@@ -6437,6 +6437,16 @@ pdata
 ;
 if
 (
+!
+s
+)
+{
+return
+NPERR_NO_ERROR
+;
+}
+if
+(
 s
 -
 >
