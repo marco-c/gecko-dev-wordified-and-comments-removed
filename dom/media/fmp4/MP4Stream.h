@@ -13,6 +13,15 @@ mp4_demuxer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Monitor
+.
+h
+"
 namespace
 mozilla
 {
@@ -36,6 +45,9 @@ MP4Stream
 MediaResource
 *
 aResource
+Monitor
+*
+aDemuxerMonitor
 )
 ;
 virtual
@@ -95,6 +107,10 @@ nsRefPtr
 MediaResource
 >
 mResource
+;
+Monitor
+*
+mDemuxerMonitor
 ;
 }
 ;
