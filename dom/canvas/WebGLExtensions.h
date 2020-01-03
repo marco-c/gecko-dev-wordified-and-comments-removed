@@ -172,6 +172,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionCompressedTextureATC
 (
 WebGLContext
@@ -195,6 +196,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionCompressedTextureETC1
 (
 WebGLContext
@@ -218,6 +220,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionCompressedTexturePVRTC
 (
 WebGLContext
@@ -241,6 +244,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionCompressedTextureS3TC
 (
 WebGLContext
@@ -264,6 +268,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionDebugRendererInfo
 (
 WebGLContext
@@ -287,6 +292,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionDebugShaders
 (
 WebGLContext
@@ -321,6 +327,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionDepthTexture
 (
 WebGLContext
@@ -344,6 +351,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionElementIndexUint
 (
 WebGLContext
@@ -367,6 +375,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionFragDepth
 (
 WebGLContext
@@ -400,6 +409,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionLoseContext
 (
 WebGLContext
@@ -433,6 +443,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionSRGB
 (
 WebGLContext
@@ -466,6 +477,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionStandardDerivatives
 (
 WebGLContext
@@ -489,6 +501,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionShaderTextureLod
 (
 WebGLContext
@@ -512,6 +525,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionTextureFilterAnisotropic
 (
 WebGLContext
@@ -535,6 +549,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionTextureFloat
 (
 WebGLContext
@@ -558,6 +573,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionTextureFloatLinear
 (
 WebGLContext
@@ -581,6 +597,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionTextureHalfFloat
 (
 WebGLContext
@@ -604,6 +621,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionTextureHalfFloatLinear
 (
 WebGLContext
@@ -627,6 +645,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionColorBufferFloat
 (
 WebGLContext
@@ -659,6 +678,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionColorBufferHalfFloat
 (
 WebGLContext
@@ -691,6 +711,7 @@ WebGLExtensionBase
 {
 public
 :
+explicit
 WebGLExtensionDrawBuffers
 (
 WebGLContext
