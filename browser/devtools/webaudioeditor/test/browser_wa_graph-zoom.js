@@ -27,7 +27,7 @@ let
 {
 gFront
 EVENTS
-ContextView
+WebAudioGraphView
 }
 =
 panelWin
@@ -66,7 +66,7 @@ panelWin
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentScale
 (
@@ -84,7 +84,7 @@ is
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentTranslation
 (
@@ -106,7 +106,7 @@ is
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentTranslation
 (
@@ -160,7 +160,7 @@ scale
 "
 )
 ;
-ContextView
+WebAudioGraphView
 .
 _zoomBinding
 .
@@ -169,7 +169,7 @@ scale
 10
 )
 ;
-ContextView
+WebAudioGraphView
 .
 _zoomBinding
 .
@@ -183,7 +183,7 @@ translate
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentScale
 (
@@ -201,7 +201,7 @@ is
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentTranslation
 (
@@ -224,7 +224,7 @@ is
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentTranslation
 (
@@ -266,7 +266,7 @@ panelWin
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentScale
 (
@@ -285,7 +285,7 @@ is
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentTranslation
 (
@@ -308,7 +308,7 @@ is
 ;
 is
 (
-ContextView
+WebAudioGraphView
 .
 getCurrentTranslation
 (
