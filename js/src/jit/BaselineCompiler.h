@@ -1157,6 +1157,16 @@ emitDebugTrap
 )
 ;
 bool
+emitTraceLoggerEnter
+(
+)
+;
+bool
+emitTraceLoggerExit
+(
+)
+;
+bool
 emitSPSPush
 (
 )
