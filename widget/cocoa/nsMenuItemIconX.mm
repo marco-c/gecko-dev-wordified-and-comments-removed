@@ -1968,6 +1968,13 @@ LoadImage
 aIconURI
 nullptr
 nullptr
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 nullptr
 loadGroup
 this

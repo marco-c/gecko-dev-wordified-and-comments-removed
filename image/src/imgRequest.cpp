@@ -306,6 +306,16 @@ imgIRequest
 :
 CORS_NONE
 )
+mReferrerPolicy
+(
+mozilla
+:
+:
+net
+:
+:
+RP_Default
+)
 mImageErrorCode
 (
 NS_OK
@@ -442,6 +452,8 @@ nsIPrincipal
 aLoadingPrincipal
 int32_t
 aCORSMode
+ReferrerPolicy
+aReferrerPolicy
 )
 {
 MOZ_ASSERT
@@ -571,6 +583,10 @@ aLoadingPrincipal
 mCORSMode
 =
 aCORSMode
+;
+mReferrerPolicy
+=
+aReferrerPolicy
 ;
 mChannel
 -

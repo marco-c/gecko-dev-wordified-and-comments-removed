@@ -4096,6 +4096,8 @@ const
 nsAString
 &
 aCrossOriginAttr
+ReferrerPolicy
+aReferrerPolicy
 )
 =
 0

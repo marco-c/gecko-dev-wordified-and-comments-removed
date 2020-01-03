@@ -1389,6 +1389,13 @@ LoadImage
 imageUri
 nullptr
 nullptr
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 aPrincipal
 nullptr
 this

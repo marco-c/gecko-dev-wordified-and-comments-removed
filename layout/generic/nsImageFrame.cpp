@@ -9363,6 +9363,13 @@ LoadImage
 realURI
 nullptr
 nullptr
+mozilla
+:
+:
+net
+:
+:
+RP_Default
 nullptr
 loadGroup
 gIconLoad

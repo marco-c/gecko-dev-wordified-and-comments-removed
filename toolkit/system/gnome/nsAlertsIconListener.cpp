@@ -1074,6 +1074,12 @@ LoadImageXPCOM
 imageUri
 nullptr
 nullptr
+NS_LITERAL_STRING
+(
+"
+default
+"
+)
 nullptr
 nullptr
 this

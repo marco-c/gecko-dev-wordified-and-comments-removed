@@ -665,6 +665,9 @@ loadImageXPCOM
 uri
 null
 null
+"
+default
+"
 null
 loadGroup
 outer

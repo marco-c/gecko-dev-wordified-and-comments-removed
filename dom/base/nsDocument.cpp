@@ -41660,6 +41660,8 @@ const
 nsAString
 &
 aCrossOriginAttr
+ReferrerPolicy
+aReferrerPolicy
 )
 {
 int16_t
@@ -41794,6 +41796,7 @@ NodePrincipal
 (
 )
 mDocumentURI
+aReferrerPolicy
 nullptr
 loadFlags
 NS_LITERAL_STRING

@@ -544,6 +544,12 @@ url
 doc
 docPrincipal
 docURL
+doc
+-
+>
+GetReferrerPolicy
+(
+)
 nullptr
 nsIRequest
 :
