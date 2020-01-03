@@ -1110,6 +1110,8 @@ bool
 null
 on
 failure
+/
+/
 DWriteVersion
 :
 <
@@ -1117,9 +1119,11 @@ string
 >
 /
 /
-null
-on
-failure
+temporarily
+removed
+pending
+bug
+1154500
 adapters
 :
 [

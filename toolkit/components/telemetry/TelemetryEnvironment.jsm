@@ -4821,15 +4821,6 @@ DWriteEnabled
 "
 null
 )
-DWriteVersion
-:
-getGfxField
-(
-"
-DWriteVersion
-"
-null
-)
 adapters
 :
 [
