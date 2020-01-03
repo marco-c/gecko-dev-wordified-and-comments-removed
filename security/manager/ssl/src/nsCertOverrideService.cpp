@@ -29,6 +29,15 @@ h
 #
 include
 "
+mozilla
+/
+Telemetry
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h
