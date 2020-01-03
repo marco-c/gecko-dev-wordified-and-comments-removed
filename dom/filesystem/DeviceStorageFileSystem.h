@@ -122,9 +122,8 @@ mStorageType
 nsString
 mStorageName
 ;
-nsDOMDeviceStorage
-*
-mDeviceStorage
+uint64_t
+mWindowId
 ;
 }
 ;
