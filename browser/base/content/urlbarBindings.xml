@@ -2883,6 +2883,17 @@ true
 postData
 :
 postData
+allowPopups
+:
+url
+.
+startsWith
+(
+"
+javascript
+:
+"
+)
 }
 )
 ;
