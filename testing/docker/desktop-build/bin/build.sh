@@ -1298,6 +1298,15 @@ pool
 {
 MH_BUILD_POOL
 }
+mkdir
+-
+p
+/
+home
+/
+worker
+/
+artifacts
 #
 upload
 auxiliary
