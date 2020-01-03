@@ -1544,6 +1544,13 @@ surf
 return
 nullptr
 ;
+surf
+-
+>
+WaitForBufferOwnership
+(
+)
+;
 return
 new
 ShSurfHandle
