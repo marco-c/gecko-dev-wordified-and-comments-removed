@@ -2562,6 +2562,8 @@ functionName
 assert
 (
 !
+os
+.
 system
 (
 "
