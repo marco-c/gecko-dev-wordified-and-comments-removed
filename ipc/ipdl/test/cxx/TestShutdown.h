@@ -96,6 +96,7 @@ PTestShutdownSubsubParent
 {
 public
 :
+explicit
 TestShutdownSubsubParent
 (
 bool
@@ -141,6 +142,7 @@ PTestShutdownSubParent
 {
 public
 :
+explicit
 TestShutdownSubParent
 (
 bool
@@ -370,6 +372,7 @@ PTestShutdownSubsubChild
 {
 public
 :
+explicit
 TestShutdownSubsubChild
 (
 bool
@@ -415,6 +418,7 @@ PTestShutdownSubChild
 {
 public
 :
+explicit
 TestShutdownSubChild
 (
 bool

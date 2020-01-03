@@ -76,6 +76,7 @@ PTestDataStructuresSubChild
 {
 public
 :
+explicit
 TestDataStructuresSub
 (
 uint32_t
