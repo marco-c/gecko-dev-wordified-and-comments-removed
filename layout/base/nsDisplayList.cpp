@@ -11914,6 +11914,14 @@ false
 ;
 nscolor
 color
+=
+NS_RGBA
+(
+0
+0
+0
+0
+)
 ;
 if
 (
