@@ -173,11 +173,6 @@ FrameBlender
 cpp
 '
 '
-FrameSequence
-.
-cpp
-'
-'
 FrozenImage
 .
 cpp
