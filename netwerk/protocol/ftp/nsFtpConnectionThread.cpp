@@ -9968,6 +9968,7 @@ new
 SaveNetworkStatsEvent
 (
 appId
+isInBrowser
 mActiveNetwork
 mCountRecv
 0

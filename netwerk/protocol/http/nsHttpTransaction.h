@@ -1192,6 +1192,9 @@ mCountSent
 uint32_t
 mAppId
 ;
+bool
+mIsInBrowser
+;
 #
 ifdef
 MOZ_WIDGET_GONK

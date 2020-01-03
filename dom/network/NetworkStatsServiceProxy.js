@@ -120,15 +120,15 @@ Components
 ID
 (
 "
-705c01d6
+98fd8f69
 -
-8574
+784e
 -
-464c
+4626
 -
-8ec9
+aa59
 -
-ac1522a45546
+56d6436a3c24
 "
 )
 ;
@@ -170,6 +170,7 @@ function
 saveAppStats
 (
 aAppId
+aIsInBrowser
 aNetwork
 aTimeStamp
 aRxBytes
@@ -230,6 +231,11 @@ aAppId
 "
 "
 +
+aIsInBrowser
++
+"
+"
++
 aNetwork
 .
 type
@@ -273,6 +279,7 @@ NetworkStatsService
 saveStats
 (
 aAppId
+aIsInBrowser
 "
 "
 aNetwork
@@ -393,6 +400,7 @@ NetworkStatsService
 saveStats
 (
 0
+false
 aServiceType
 aNetwork
 aTimeStamp

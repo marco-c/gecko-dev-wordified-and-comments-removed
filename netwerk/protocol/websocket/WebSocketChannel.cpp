@@ -4537,6 +4537,10 @@ mAppId
 (
 NECKO_NO_APP_ID
 )
+mIsInBrowser
+(
+false
+)
 {
 NS_ABORT_IF_FALSE
 (
@@ -5422,16 +5426,13 @@ if
 localChannel
 )
 {
-bool
-isInBrowser
-;
 NS_GetAppInfo
 (
 localChannel
 &
 mAppId
 &
-isInBrowser
+mIsInBrowser
 )
 ;
 }
@@ -17009,6 +17010,7 @@ new
 SaveNetworkStatsEvent
 (
 mAppId
+mIsInBrowser
 mActiveNetwork
 mCountRecv
 mCountSent

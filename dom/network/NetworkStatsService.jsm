@@ -3645,6 +3645,9 @@ stats
 appId
 :
 0
+isInBrowser
+:
+false
 serviceType
 :
 "
@@ -3760,6 +3763,7 @@ function
 saveStats
 (
 aAppId
+aIsInBrowser
 aServiceType
 aNetwork
 aTimeStamp
@@ -3855,6 +3859,9 @@ stats
 appId
 :
 aAppId
+isInBrowser
+:
+aIsInBrowser
 serviceType
 :
 aServiceType
@@ -3953,6 +3960,13 @@ appId
 +
 aStats
 .
+isInBrowser
++
+"
+"
++
+aStats
+.
 serviceType
 +
 "
@@ -3968,13 +3982,6 @@ networkId
 aStats
 .
 networkType
-+
-"
-"
-+
-aStats
-.
-date
 +
 "
 "

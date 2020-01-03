@@ -170,6 +170,8 @@ SaveNetworkStatsEvent
 (
 uint32_t
 aAppId
+bool
+aIsInBrowser
 nsMainThreadPtrHandle
 <
 nsINetworkInterface
@@ -187,6 +189,10 @@ aIsAccumulative
 mAppId
 (
 aAppId
+)
+mIsInBrowser
+(
+aIsInBrowser
 )
 mActiveNetwork
 (
@@ -273,6 +279,7 @@ mNetworkStatsServiceProxy
 SaveAppStats
 (
 mAppId
+mIsInBrowser
 mActiveNetwork
 PR_Now
 (
@@ -293,6 +300,9 @@ private
 :
 uint32_t
 mAppId
+;
+bool
+mIsInBrowser
 ;
 nsMainThreadPtrHandle
 <
