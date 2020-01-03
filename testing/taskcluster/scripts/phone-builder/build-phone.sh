@@ -510,6 +510,8 @@ locations
 mkdir
 -
 p
+HOME
+/
 artifacts
 mv
 WORKSPACE
@@ -521,6 +523,8 @@ upload
 sources
 .
 xml
+HOME
+/
 artifacts
 /
 sources
@@ -542,6 +546,8 @@ crashreporter
 symbols
 .
 zip
+HOME
+/
 artifacts
 /
 b2g
@@ -569,6 +575,8 @@ arm
 tar
 .
 gz
+HOME
+/
 artifacts
 /
 b2g
@@ -592,6 +600,8 @@ TARGET
 }
 .
 zip
+HOME
+/
 artifacts
 /
 {
@@ -609,6 +619,8 @@ upload
 gaia
 .
 zip
+HOME
+/
 artifacts
 /
 gaia
