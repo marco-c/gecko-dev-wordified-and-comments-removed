@@ -40,9 +40,6 @@ SignedDataWithSignature
 sd
 Input
 subjectPublicKeyInfo
-unsigned
-int
-minimumNonECCBits
 void
 *
 pkcs11PinArg
@@ -58,16 +55,6 @@ uint8_t
 digestBuf
 size_t
 digestBufLen
-)
-;
-Result
-CheckPublicKeyNSS
-(
-Input
-subjectPublicKeyInfo
-unsigned
-int
-minimumNonECCBits
 )
 ;
 Result

@@ -39,14 +39,6 @@ ScopedPtr
 .
 h
 "
-static
-const
-unsigned
-int
-MINIMUM_TEST_KEY_BITS
-=
-1024
-;
 namespace
 mozilla
 {
