@@ -30279,7 +30279,10 @@ provider
 .
 InitializeForDisplay
 (
-true
+!
+IsSelected
+(
+)
 )
 ;
 gfxContext
@@ -42831,7 +42834,7 @@ provider
 .
 InitializeForDisplay
 (
-true
+false
 )
 ;
 gfxTextRun
