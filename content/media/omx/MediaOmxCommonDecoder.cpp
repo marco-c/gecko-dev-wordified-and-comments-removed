@@ -410,10 +410,6 @@ mDecoderStateMachine
 return
 ;
 }
-StopProgress
-(
-)
-;
 mDecoderStateMachine
 -
 >
