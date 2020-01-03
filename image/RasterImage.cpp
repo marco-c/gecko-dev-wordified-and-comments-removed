@@ -4549,6 +4549,9 @@ canSyncSizeDecode
 mSyncLoad
 |
 |
+mTransient
+|
+|
 DecodePool
 :
 :
