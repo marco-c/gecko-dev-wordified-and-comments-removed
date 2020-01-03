@@ -898,7 +898,7 @@ let
 x
 y
 center
-type
+options
 }
 =
 msg
@@ -915,9 +915,7 @@ EventUtils
 synthesizeMouseAtCenter
 (
 node
-{
-type
-}
+options
 node
 .
 ownerDocument
@@ -935,9 +933,7 @@ synthesizeMouse
 node
 x
 y
-{
-type
-}
+options
 node
 .
 ownerDocument
@@ -946,6 +942,15 @@ defaultView
 )
 ;
 }
+sendAsyncMessage
+(
+"
+Test
+:
+SynthesizeMouse
+"
+)
+;
 }
 )
 ;

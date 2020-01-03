@@ -457,11 +457,15 @@ SynthesizeMouse
 {
 x
 y
+options
+:
+{
 type
 :
 "
 mousemove
 "
+}
 }
 {
 node
