@@ -475,13 +475,13 @@ mozapps
 /
 extensions
 /
-openH264Prefs
+gmpPrefs
 .
 xul
 (
 content
 /
-openH264Prefs
+gmpPrefs
 .
 xul
 )
