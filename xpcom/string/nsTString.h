@@ -1431,6 +1431,7 @@ mFixedBuf
 }
 ;
 class
+MOZ_NON_MEMMOVABLE
 nsTAutoString_CharT
 :
 public
