@@ -354,15 +354,7 @@ gc
 MarkGCThingUnbarriered
 (
 trc
-reinterpret_cast
-<
-void
-*
-*
->
-(
 ptr
-)
 "
 ion
 -
