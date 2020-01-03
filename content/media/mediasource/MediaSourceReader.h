@@ -363,6 +363,12 @@ mVideoReader
 bool
 mEnded
 ;
+bool
+mAudioIsSeeking
+;
+bool
+mVideoIsSeeking
+;
 }
 ;
 }
