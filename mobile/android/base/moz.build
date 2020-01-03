@@ -3245,13 +3245,6 @@ java
 '
 widget
 /
-TabRow
-.
-java
-'
-'
-widget
-/
 TabThumbnailWrapper
 .
 java

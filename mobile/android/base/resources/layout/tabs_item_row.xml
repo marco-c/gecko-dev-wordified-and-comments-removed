@@ -85,9 +85,9 @@ mozilla
 .
 gecko
 .
-widget
+tabs
 .
-TabRow
+TabsLayoutItemView
 xmlns
 :
 android
@@ -475,7 +475,7 @@ mozilla
 .
 gecko
 .
-widget
+tabs
 .
-TabRow
+TabsLayoutItemView
 >
