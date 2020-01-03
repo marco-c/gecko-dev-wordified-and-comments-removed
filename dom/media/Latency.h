@@ -60,9 +60,6 @@ h
 class
 AsyncLatencyLogger
 ;
-class
-LogEvent
-;
 PRLogModuleInfo
 *
 GetLatencyLog

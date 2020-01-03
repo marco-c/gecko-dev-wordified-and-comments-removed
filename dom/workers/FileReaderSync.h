@@ -14,9 +14,6 @@ h
 class
 nsIInputStream
 ;
-class
-nsIDOMBlob
-;
 namespace
 mozilla
 {

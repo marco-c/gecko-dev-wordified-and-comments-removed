@@ -141,9 +141,6 @@ SCHEDULE_SAFETY_MARGIN_MS
 class
 MediaStreamGraphImpl
 ;
-class
-MessageBlock
-;
 typedef
 int64_t
 GraphTime

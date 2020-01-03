@@ -31,9 +31,6 @@ prlog
 .
 h
 "
-class
-nsIDOMBlob
-;
 namespace
 mozilla
 {

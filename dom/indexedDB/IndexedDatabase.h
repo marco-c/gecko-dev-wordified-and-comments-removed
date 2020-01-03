@@ -34,9 +34,6 @@ nsTArray
 .
 h
 "
-class
-nsIInputStream
-;
 namespace
 mozilla
 {
@@ -56,13 +53,7 @@ class
 IDBDatabase
 ;
 class
-IDBTransaction
-;
-class
 SerializedStructuredCloneReadInfo
-;
-class
-SerializedStructuredCloneWriteInfo
 ;
 struct
 StructuredCloneFile

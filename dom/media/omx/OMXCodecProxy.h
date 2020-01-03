@@ -60,9 +60,6 @@ namespace
 android
 {
 struct
-MediaBufferGroup
-;
-struct
 MetaData
 ;
 class

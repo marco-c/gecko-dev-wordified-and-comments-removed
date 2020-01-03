@@ -40,9 +40,6 @@ namespace
 mozilla
 {
 class
-AndroidMediaReader
-;
-class
 AndroidMediaPluginHost
 {
 nsRefPtr

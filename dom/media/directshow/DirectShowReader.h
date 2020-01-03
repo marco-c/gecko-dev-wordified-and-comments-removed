@@ -47,9 +47,6 @@ IMediaControl
 struct
 IMediaSeeking
 ;
-struct
-IMediaEventEx
-;
 namespace
 mozilla
 {
@@ -59,13 +56,6 @@ AudioSinkFilter
 class
 SourceFilter
 ;
-namespace
-dom
-{
-class
-TimeRanges
-;
-}
 class
 DirectShowReader
 :

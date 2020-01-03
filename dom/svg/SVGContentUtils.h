@@ -79,9 +79,6 @@ class
 nsIFrame
 ;
 class
-nsPresContext
-;
-class
 nsStyleContext
 ;
 class

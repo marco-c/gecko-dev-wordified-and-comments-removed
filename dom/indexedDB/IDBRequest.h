@@ -106,9 +106,6 @@ dom
 class
 DOMError
 ;
-struct
-ErrorEventInit
-;
 template
 <
 typename

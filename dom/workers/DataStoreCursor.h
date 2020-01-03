@@ -29,9 +29,6 @@ GlobalObject
 class
 DataStoreCursor
 ;
-class
-DataStoreCursorImpl
-;
 namespace
 workers
 {

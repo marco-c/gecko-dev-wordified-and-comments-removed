@@ -182,9 +182,6 @@ mBuffers
 }
 ;
 class
-AudioStream
-;
-class
 AudioMixer
 ;
 const

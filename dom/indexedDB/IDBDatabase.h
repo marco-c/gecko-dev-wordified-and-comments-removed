@@ -100,9 +100,6 @@ class
 nsIDocument
 ;
 class
-nsIWeakReference
-;
-class
 nsPIDOMWindow
 ;
 namespace

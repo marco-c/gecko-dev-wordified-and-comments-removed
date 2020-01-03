@@ -77,9 +77,6 @@ class
 MediaDecoder
 ;
 class
-StateMachineThread
-;
-class
 MediaShutdownManager
 :
 public

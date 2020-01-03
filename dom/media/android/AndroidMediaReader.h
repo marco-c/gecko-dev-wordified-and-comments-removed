@@ -79,13 +79,6 @@ class
 ImageContainer
 ;
 }
-namespace
-dom
-{
-class
-TimeRanges
-;
-}
 class
 AndroidMediaReader
 :

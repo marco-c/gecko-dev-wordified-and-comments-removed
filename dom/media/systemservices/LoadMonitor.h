@@ -72,9 +72,6 @@ namespace
 mozilla
 {
 class
-LoadInfoUpdateRunner
-;
-class
 LoadInfoCollectRunner
 ;
 class

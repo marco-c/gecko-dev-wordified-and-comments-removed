@@ -52,12 +52,6 @@ namespace
 WebCore
 {
 class
-DirectConvolver
-;
-class
-FFTConvolver
-;
-class
 Reverb
 {
 public

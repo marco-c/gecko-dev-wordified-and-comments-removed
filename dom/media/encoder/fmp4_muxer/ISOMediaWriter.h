@@ -28,9 +28,6 @@ class
 FragmentBuffer
 ;
 class
-ISOMediaWriterRunnable
-;
-class
 ISOMediaWriter
 :
 public

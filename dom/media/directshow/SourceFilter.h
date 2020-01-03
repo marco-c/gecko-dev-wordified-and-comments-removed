@@ -66,9 +66,6 @@ class
 MediaResource
 ;
 class
-ReadRequest
-;
-class
 OutputPin
 ;
 class

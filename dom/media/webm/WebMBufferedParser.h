@@ -34,13 +34,6 @@ h
 namespace
 mozilla
 {
-namespace
-dom
-{
-class
-TimeRanges
-;
-}
 struct
 WebMTimeDataOffset
 {

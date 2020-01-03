@@ -22,9 +22,6 @@ nsISupportsImpl
 .
 h
 "
-class
-nsITimer
-;
 namespace
 mozilla
 {
@@ -32,13 +29,7 @@ namespace
 gmp
 {
 class
-GeckoMediaPluginService
-;
-class
 GMPAudioDecoderParent
-;
-class
-GMPCapability
 ;
 class
 GMPDecryptorParent

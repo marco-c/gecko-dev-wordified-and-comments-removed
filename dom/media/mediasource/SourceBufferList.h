@@ -84,9 +84,6 @@ JSObject
 namespace
 mozilla
 {
-class
-ErrorResult
-;
 template
 <
 typename

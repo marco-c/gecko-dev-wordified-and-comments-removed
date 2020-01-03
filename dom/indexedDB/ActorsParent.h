@@ -12,16 +12,7 @@ struct
 already_AddRefed
 ;
 class
-nsCString
-;
-struct
-nsID
-;
-class
 nsIPrincipal
-;
-class
-nsPIDOMWindow
 ;
 namespace
 mozilla
@@ -31,9 +22,6 @@ dom
 {
 class
 Element
-;
-class
-TabParent
 ;
 namespace
 quota

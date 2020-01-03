@@ -82,13 +82,6 @@ MediaExtractor
 namespace
 mozilla
 {
-namespace
-dom
-{
-class
-TimeRanges
-;
-}
 class
 AbstractMediaDecoder
 ;

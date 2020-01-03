@@ -66,9 +66,6 @@ CORSMode
 .
 h
 "
-class
-nsXPCClassInfo
-;
 #
 ifdef
 GetCurrentTime

@@ -29,9 +29,6 @@ SVGAnimatedNumberList
 .
 h
 "
-class
-nsSVGElement
-;
 namespace
 mozilla
 {

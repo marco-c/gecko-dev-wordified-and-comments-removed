@@ -80,9 +80,6 @@ namespace
 system
 {
 class
-WakeLockCallback
-;
-class
 Volume
 ;
 class

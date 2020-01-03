@@ -57,13 +57,6 @@ WMFSourceReaderCallback
 class
 DXVA2Manager
 ;
-namespace
-dom
-{
-class
-TimeRanges
-;
-}
 class
 WMFReader
 :

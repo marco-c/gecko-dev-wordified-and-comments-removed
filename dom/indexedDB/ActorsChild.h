@@ -204,9 +204,6 @@ class
 Key
 ;
 class
-PBackgroundIDBFileChild
-;
-class
 PermissionRequestChild
 ;
 class

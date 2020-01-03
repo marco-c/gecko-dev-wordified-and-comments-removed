@@ -40,9 +40,6 @@ DOMSVGPointList
 .
 h
 "
-class
-nsSVGElement
-;
 #
 define
 MOZILLA_NSISVGPOINT_IID

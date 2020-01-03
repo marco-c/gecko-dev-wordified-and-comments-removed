@@ -95,9 +95,6 @@ dom
 class
 DOMStringList
 ;
-class
-nsIContentParent
-;
 template
 <
 typename
@@ -109,13 +106,7 @@ namespace
 indexedDB
 {
 class
-FileManager
-;
-class
 IDBCursor
-;
-class
-IDBKeyRange
 ;
 class
 IDBRequest
@@ -134,9 +125,6 @@ KeyPath
 ;
 class
 ObjectStoreSpec
-;
-struct
-StructuredCloneFile
 ;
 struct
 StructuredCloneReadInfo

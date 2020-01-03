@@ -134,9 +134,6 @@ class
 nsSVGNumberPair
 ;
 class
-nsSVGPathGeometryElement
-;
-class
 nsSVGString
 ;
 class
@@ -148,9 +145,6 @@ mozilla
 namespace
 dom
 {
-class
-CSSValue
-;
 class
 SVGSVGElement
 ;

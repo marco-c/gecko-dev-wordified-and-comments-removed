@@ -92,9 +92,6 @@ layers
 class
 ImageContainer
 ;
-class
-PlanarYCbCrImage
-;
 }
 class
 MediaEngineDefault
