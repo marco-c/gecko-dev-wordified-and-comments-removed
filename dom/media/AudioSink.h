@@ -219,6 +219,16 @@ IsPlaybackContinuing
 (
 )
 ;
+bool
+PlayAudio
+(
+)
+;
+void
+FinishAudioLoop
+(
+)
+;
 uint32_t
 PlaySilence
 (
