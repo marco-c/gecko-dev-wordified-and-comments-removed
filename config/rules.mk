@@ -9649,7 +9649,7 @@ endif
 endif
 ifdef
 EXTRA_COMPONENTS
-libs
+misc
 :
 :
 (
@@ -9671,6 +9671,10 @@ FINAL_TARGET
 )
 /
 components
+EXTRA_COMPONENTS_TARGET
+:
+=
+misc
 INSTALL_TARGETS
 +
 =
@@ -9689,6 +9693,10 @@ FINAL_TARGET
 )
 /
 components
+EXTRA_PP_COMPONENTS_TARGET
+:
+=
+misc
 PP_TARGETS
 +
 =
@@ -9715,7 +9723,7 @@ ifneq
 EXTRA_MANIFESTS
 )
 )
-libs
+misc
 :
 :
 (
