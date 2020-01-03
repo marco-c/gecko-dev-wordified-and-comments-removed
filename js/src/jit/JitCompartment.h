@@ -759,8 +759,8 @@ trc
 )
 ;
 static
-void
-MarkJitcodeGlobalTable
+bool
+MarkJitcodeGlobalTableIteratively
 (
 JSTracer
 *
