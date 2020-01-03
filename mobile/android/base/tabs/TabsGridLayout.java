@@ -1718,6 +1718,7 @@ getInstance
 closeTab
 (
 tab
+true
 )
 ;
 }
