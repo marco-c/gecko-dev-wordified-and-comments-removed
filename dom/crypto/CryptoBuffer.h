@@ -201,13 +201,6 @@ nsString
 aBase64
 )
 ;
-SECItem
-*
-ToSECItem
-(
-)
-const
-;
 bool
 ToSECItem
 (
