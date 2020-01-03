@@ -1192,10 +1192,13 @@ current
 )
 ;
 }
+Override
 public
 void
 onError
 (
+NativeJSObject
+error
 )
 {
 updateResult
