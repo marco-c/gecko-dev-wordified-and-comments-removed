@@ -889,6 +889,12 @@ REPORT_BUILD
 TOUCH
 )
 java
+\
+-
+Xmx512m
+-
+Xms128m
+\
 -
 jar
 (
