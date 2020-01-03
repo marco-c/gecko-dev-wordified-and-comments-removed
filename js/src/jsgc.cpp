@@ -2327,7 +2327,7 @@ Chunk
 *
 chunk
 =
-emptyChunkListHead
+head_
 ;
 if
 (
@@ -2338,7 +2338,7 @@ chunk
 MOZ_ASSERT
 (
 !
-emptyCount
+count_
 )
 ;
 return
@@ -2347,10 +2347,10 @@ nullptr
 }
 MOZ_ASSERT
 (
-emptyCount
+count_
 )
 ;
-emptyChunkListHead
+head_
 =
 chunk
 -
@@ -2361,7 +2361,7 @@ next
 ;
 -
 -
-emptyCount
+count_
 ;
 return
 chunk
@@ -2395,13 +2395,13 @@ info
 .
 next
 =
-emptyChunkListHead
+head_
 ;
-emptyChunkListHead
+head_
 =
 chunk
 ;
-emptyCount
+count_
 +
 +
 ;
@@ -2431,7 +2431,7 @@ MOZ_ASSERT_IF
 chunk
 pool
 .
-getEmptyCount
+count
 (
 )
 !
@@ -2512,7 +2512,7 @@ next
 -
 pool
 .
-emptyCount
+count_
 ;
 }
 Chunk
@@ -2688,7 +2688,7 @@ MOZ_ASSERT
 (
 chunkPool
 .
-getEmptyCount
+count
 (
 )
 <
@@ -2705,7 +2705,7 @@ MOZ_ASSERT_IF
 shrinkBuffers
 chunkPool
 .
-getEmptyCount
+count
 (
 )
 <
@@ -2722,7 +2722,7 @@ MOZ_ASSERT_IF
 releaseAll
 chunkPool
 .
-getEmptyCount
+count
 (
 )
 =
@@ -4160,7 +4160,7 @@ canBackgroundAllocate
 &
 chunkPool
 .
-getEmptyCount
+count
 (
 )
 <
@@ -6228,7 +6228,7 @@ uint32_t
 (
 chunkPool
 .
-getEmptyCount
+count
 (
 )
 )
@@ -6247,7 +6247,7 @@ count
 +
 chunkPool
 .
-getEmptyCount
+count
 (
 )
 )
