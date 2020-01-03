@@ -1689,8 +1689,32 @@ options
 )
 :
         
+if
+options
+.
+gmp_path
+:
+            
 return
-None
+options
+.
+gmp_path
+        
+return
+'
+/
+system
+/
+b2g
+/
+gmp
+-
+clearkey
+/
+0
+.
+1
+'
     
 def
 getChromeTestDir
