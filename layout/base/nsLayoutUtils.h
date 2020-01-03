@@ -3687,6 +3687,17 @@ aAnimationProperty
 ;
 static
 bool
+HasCurrentAnimationsForProperty
+(
+nsIContent
+*
+aContent
+nsCSSProperty
+aProperty
+)
+;
+static
+bool
 AreAsyncAnimationsEnabled
 (
 )
