@@ -3612,19 +3612,16 @@ _stderr
 =
 subprocess
 .
-STDOUT
+PIPE
         
 if
+not
 processStderrLine
 :
             
-self
-.
-_stderr
+processStderrLine
 =
-subprocess
-.
-PIPE
+processOutputLine
         
 self
 .
