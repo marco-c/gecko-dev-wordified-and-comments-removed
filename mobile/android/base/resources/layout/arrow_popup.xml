@@ -137,10 +137,9 @@ android
 layout_width
 =
 "
-?
-attr
+dimen
 /
-arrowPopupWidth
+arrow_popup_container_width
 "
 android
 :
