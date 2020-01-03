@@ -477,5 +477,10 @@ int32_t
 addrLen
 )
 ;
+int32_t
+net_GetURLMaxLength
+(
+)
+;
 #
 endif
