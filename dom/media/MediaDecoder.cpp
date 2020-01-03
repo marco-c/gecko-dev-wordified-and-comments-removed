@@ -3674,19 +3674,11 @@ MetadataTags
 aTags
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
-"
-Should
-be
-on
-decode
-thread
-.
-"
 )
 ;
 GetReentrantMonitor
@@ -4756,7 +4748,7 @@ OnStateMachineTaskQueue
 )
 |
 |
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 )
@@ -6473,7 +6465,7 @@ OnStateMachineTaskQueue
 )
 |
 |
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 )
@@ -6523,7 +6515,7 @@ OnStateMachineTaskQueue
 )
 |
 |
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 )
@@ -6754,7 +6746,7 @@ bool
 MediaDecoder
 :
 :
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 const

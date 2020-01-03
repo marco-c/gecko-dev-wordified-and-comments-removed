@@ -1503,7 +1503,7 @@ MOZ_ASSERT
 mDecoder
 -
 >
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 )

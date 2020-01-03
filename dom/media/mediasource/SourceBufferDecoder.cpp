@@ -521,7 +521,7 @@ bool
 SourceBufferDecoder
 :
 :
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 const
@@ -544,7 +544,7 @@ return
 mParentDecoder
 -
 >
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 ;

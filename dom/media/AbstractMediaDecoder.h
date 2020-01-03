@@ -148,7 +148,7 @@ const
 ;
 virtual
 bool
-OnDecodeThread
+OnDecodeTaskQueue
 (
 )
 const
