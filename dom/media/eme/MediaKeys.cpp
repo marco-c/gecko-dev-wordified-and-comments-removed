@@ -2047,6 +2047,7 @@ bool
 IsStillValid
 (
 )
+override
 {
 nsCOMPtr
 <
