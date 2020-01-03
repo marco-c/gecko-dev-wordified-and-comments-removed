@@ -22640,6 +22640,23 @@ defaultValue
         
 return
 deps
+    
+def
+canHaveMissingValue
+(
+self
+)
+:
+        
+return
+self
+.
+optional
+and
+not
+self
+.
+defaultValue
 class
 IDLCallbackType
 (

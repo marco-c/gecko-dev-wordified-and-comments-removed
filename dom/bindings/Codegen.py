@@ -36439,14 +36439,9 @@ self
 .
 argument
 .
-optional
-and
-not
-self
-.
-argument
-.
-defaultValue
+canHaveMissingValue
+(
+)
 :
             
 self
@@ -42637,12 +42632,9 @@ True
 if
 a
 .
-optional
-and
-not
-a
-.
-defaultValue
+canHaveMissingValue
+(
+)
 :
                     
 return
@@ -44376,12 +44368,9 @@ isOptional
 =
 arg
 .
-optional
-and
-not
-arg
-.
-defaultValue
+canHaveMissingValue
+(
+)
     
 if
 isOptional
@@ -47503,22 +47492,13 @@ signature
                 
 argIsOptional
 =
-(
 distinguishingArgument
 (
 signature
 )
 .
-optional
-and
-                                 
-not
-distinguishingArgument
+canHaveMissingValue
 (
-signature
-)
-.
-defaultValue
 )
                 
 testCode
@@ -49072,6 +49052,16 @@ return
 self
 .
 _allowTreatNonCallableAsNull
+    
+def
+canHaveMissingValue
+(
+self
+)
+:
+        
+return
+False
 class
 CGSetterCall
 (
@@ -88570,15 +88560,11 @@ getArgType
 arg
 .
 type
-                                    
 arg
 .
-optional
-and
-not
-arg
-.
-defaultValue
+canHaveMissingValue
+(
+)
                                     
 "
 Variadic
@@ -95796,12 +95782,9 @@ i
 if
 arg
 .
-optional
-and
-not
-arg
-.
-defaultValue
+canHaveMissingValue
+(
+)
 :
                 
 argval
@@ -96094,12 +96077,9 @@ conversion
 elif
 arg
 .
-optional
-and
-not
-arg
-.
-defaultValue
+canHaveMissingValue
+(
+)
 :
             
 conversion
@@ -101267,12 +101247,9 @@ type
                                     
 arg
 .
-optional
-and
-not
-arg
-.
-defaultValue
+canHaveMissingValue
+(
+)
                                     
 "
 Variadic
