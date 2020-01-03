@@ -145,9 +145,6 @@ File
 >
 fileValue
 ;
-nsString
-filename
-;
 bool
 valueIsFile
 ;
@@ -243,13 +240,6 @@ aData
 fileValue
 =
 aBlob
-;
-aData
--
->
-filename
-=
-aFilename
 ;
 aData
 -
