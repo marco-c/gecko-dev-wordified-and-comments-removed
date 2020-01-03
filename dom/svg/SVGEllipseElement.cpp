@@ -377,10 +377,10 @@ GetGeometryBounds
 Rect
 *
 aBounds
-Float
-aStrokeWidth
-CapStyle
-aCapStyle
+const
+StrokeOptions
+&
+aStrokeOptions
 const
 Matrix
 &
@@ -456,7 +456,9 @@ IsRectilinear
 {
 if
 (
-aStrokeWidth
+aStrokeOptions
+.
+mLineWidth
 >
 0
 .
@@ -466,7 +468,9 @@ f
 rx
 +
 =
-aStrokeWidth
+aStrokeOptions
+.
+mLineWidth
 /
 2
 .
@@ -475,7 +479,9 @@ f
 ry
 +
 =
-aStrokeWidth
+aStrokeOptions
+.
+mLineWidth
 /
 2
 .

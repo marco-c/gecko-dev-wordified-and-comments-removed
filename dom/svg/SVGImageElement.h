@@ -233,10 +233,10 @@ GetGeometryBounds
 Rect
 *
 aBounds
-Float
-aStrokeWidth
-CapStyle
-cap
+const
+StrokeOptions
+&
+aStrokeOptions
 const
 Matrix
 &

@@ -483,10 +483,10 @@ GetGeometryBounds
 Rect
 *
 aBounds
-Float
-aStrokeWidth
-CapStyle
-aCapStyle
+const
+StrokeOptions
+&
+aStrokeOptions
 const
 Matrix
 &
@@ -611,7 +611,9 @@ false
 }
 if
 (
-aStrokeWidth
+aStrokeOptions
+.
+mLineWidth
 >
 0
 .
@@ -622,7 +624,9 @@ rect
 .
 Inflate
 (
-aStrokeWidth
+aStrokeOptions
+.
+mLineWidth
 /
 2
 .
