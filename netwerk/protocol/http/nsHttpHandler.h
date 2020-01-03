@@ -128,14 +128,6 @@ nsHttpTransaction
 class
 AltSvcMapping
 ;
-enum
-FrameCheckLevel
-{
-FRAMECHECK_LAX
-FRAMECHECK_BARELY
-FRAMECHECK_STRICT
-}
-;
 class
 nsHttpHandler
 MOZ_FINAL
@@ -714,7 +706,7 @@ return
 mTCPKeepaliveLongLivedIdleTimeS
 ;
 }
-FrameCheckLevel
+bool
 GetEnforceH1Framing
 (
 )
@@ -1714,7 +1706,7 @@ mTCPKeepaliveLongLivedEnabled
 int32_t
 mTCPKeepaliveLongLivedIdleTimeS
 ;
-FrameCheckLevel
+bool
 mEnforceH1Framing
 ;
 private

@@ -964,12 +964,6 @@ bool
 mReuseOnRestart
 ;
 bool
-mContentDecoding
-;
-bool
-mContentDecodingCheck
-;
-bool
 mReportedStart
 ;
 bool
