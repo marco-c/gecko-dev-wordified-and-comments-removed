@@ -1351,17 +1351,6 @@ Symbol
 sym
 )
 ;
-bool
-markObject
-(
-JSObject
-*
-source
-JSObject
-*
-obj
-)
-;
 void
 appendGrayRoot
 (
