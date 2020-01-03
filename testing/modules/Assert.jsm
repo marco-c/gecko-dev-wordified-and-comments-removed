@@ -796,7 +796,9 @@ this
 .
 report
 (
-_deepEqual
+ObjectUtils
+.
+deepEqual
 (
 actual
 expected
