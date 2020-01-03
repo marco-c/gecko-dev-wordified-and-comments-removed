@@ -47,8 +47,6 @@ TraceInfo
 (
 uint32_t
 aThreadId
-bool
-aStartLogging
 )
 :
 mCurTraceSourceId
@@ -83,9 +81,9 @@ mLastUniqueTaskId
 (
 0
 )
-mStartLogging
+mObsolete
 (
-aStartLogging
+false
 )
 mLogsMutex
 (
@@ -149,8 +147,14 @@ mThreadId
 uint32_t
 mLastUniqueTaskId
 ;
+mozilla
+:
+:
+Atomic
+<
 bool
-mStartLogging
+>
+mObsolete
 ;
 mozilla
 :
