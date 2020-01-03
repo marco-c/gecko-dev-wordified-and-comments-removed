@@ -10585,6 +10585,7 @@ info
 {
 MOZ_ASSERT
 (
+(
 info
 .
 fun
@@ -10592,6 +10593,17 @@ fun
 >
 isArrow
 (
+)
+|
+|
+info
+.
+fun
+-
+>
+isMethod
+(
+)
 )
 =
 =
