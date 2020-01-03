@@ -1114,7 +1114,6 @@ mIdleService
 ;
 bool
 mIMEMaskSelectionUpdate
-mIMEMaskTextUpdate
 ;
 int32_t
 mIMEMaskEventsCount
