@@ -241,6 +241,15 @@ size
 ;
 packet
 .
+dts
+=
+aSample
+-
+>
+decode_timestamp
+;
+packet
+.
 pts
 =
 aSample

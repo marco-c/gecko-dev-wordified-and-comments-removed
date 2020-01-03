@@ -185,6 +185,11 @@ bool
 isSyncSample
 =
 NULL
+uint32_t
+*
+decodeTime
+=
+NULL
 )
 ;
 enum
