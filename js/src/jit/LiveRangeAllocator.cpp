@@ -5924,6 +5924,9 @@ return
 #
 endif
 }
+#
+ifdef
+DEBUG
 static
 bool
 IsHintInteresting
@@ -6018,6 +6021,8 @@ kind
 )
 ;
 }
+#
+endif
 const
 char
 *

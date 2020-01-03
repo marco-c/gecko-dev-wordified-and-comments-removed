@@ -10009,6 +10009,9 @@ break
 ;
 }
 }
+#
+ifdef
+DEBUG
 static
 void
 AssertNonGrayGCThing
@@ -10038,6 +10041,8 @@ thingp
 )
 ;
 }
+#
+endif
 static
 void
 UnmarkGrayGCThing

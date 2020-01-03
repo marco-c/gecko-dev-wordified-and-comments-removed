@@ -76,6 +76,12 @@ js
 :
 jit
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 struct
 DebugModeOSREntry
 {
@@ -1364,7 +1370,10 @@ entryIndex
 *
 start
 ;
+DebugOnly
+<
 bool
+>
 expectedDebugMode
 =
 cx
