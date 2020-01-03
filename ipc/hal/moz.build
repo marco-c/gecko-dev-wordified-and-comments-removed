@@ -146,6 +146,11 @@ DaemonSocketPDU
 .
 cpp
 '
+'
+DaemonSocketPDUHelpers
+.
+cpp
+'
 ]
 include
 (
