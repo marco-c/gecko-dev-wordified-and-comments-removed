@@ -866,10 +866,9 @@ aEnable
 nsresult
 HandleSettingsChanged
 (
-const
-nsAString
-&
-aData
+nsISupports
+*
+aSubject
 )
 ;
 virtual
