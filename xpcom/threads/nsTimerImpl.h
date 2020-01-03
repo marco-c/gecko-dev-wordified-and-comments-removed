@@ -155,10 +155,9 @@ friend
 struct
 TimerAdditionComparator
 ;
-void
-Fire
-(
-)
+friend
+class
+nsTimerEvent
 ;
 static
 already_AddRefed
@@ -226,6 +225,11 @@ SetDelayInternal
 (
 uint32_t
 aDelay
+)
+;
+void
+Fire
+(
 )
 ;
 enum
