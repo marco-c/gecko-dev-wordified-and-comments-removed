@@ -27818,6 +27818,13 @@ break
 ;
 }
 }
+Promise
+:
+:
+PerformMicroTaskCheckpoint
+(
+)
+;
 NS_ASSERTION
 (
 mRunningExpiredTimeouts
