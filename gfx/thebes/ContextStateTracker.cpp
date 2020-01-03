@@ -13,12 +13,17 @@ GLContext
 h
 "
 #
+ifdef
+MOZ_ENABLE_PROFILER_SPS
+#
 include
 "
 ProfilerMarkers
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -470,6 +475,9 @@ fDeleteQueries
 handle
 )
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 PROFILER_MARKER_PAYLOAD
 (
 "
@@ -495,6 +503,8 @@ gpuTime
 )
 )
 ;
+#
+endif
 mCompletedSections
 .
 RemoveElementAt
