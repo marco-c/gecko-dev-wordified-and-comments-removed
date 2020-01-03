@@ -2969,6 +2969,11 @@ fallback
 null
 ;
 let
+lastNode
+=
+null
+;
+let
 moreChildren
 =
 (
@@ -2986,7 +2991,7 @@ node
 {
 start
 :
-fallback
+lastNode
 maxNodes
 :
 10
@@ -3058,6 +3063,10 @@ fallback
 node
 ;
 }
+lastNode
+=
+node
+;
 }
 if
 (
