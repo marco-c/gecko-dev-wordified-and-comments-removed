@@ -358,17 +358,13 @@ capabilities
 get
 (
 '
-platform
+device
 '
 )
-.
-lower
-(
-)
-=
+!
 =
 '
-android
+desktop
 '
 :
             
