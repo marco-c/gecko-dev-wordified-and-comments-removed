@@ -713,12 +713,15 @@ registerCleanupFunction
 function
 (
 )
+{
 gBrowser
 .
 removeTab
 (
 tab
 )
+;
+}
 )
 ;
 whenPageShown
