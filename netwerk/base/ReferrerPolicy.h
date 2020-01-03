@@ -63,6 +63,12 @@ nsIHttpChannel
 :
 :
 REFERRER_POLICY_UNSAFE_URL
+RP_Unset
+=
+nsIHttpChannel
+:
+:
+REFERRER_POLICY_NO_REFERRER_WHEN_DOWNGRADE
 }
 ;
 inline
