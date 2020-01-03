@@ -462,6 +462,8 @@ doc
 getElementById
 (
 "
+moz
+-
 reader
 -
 content
@@ -2290,13 +2292,18 @@ newFontSize
 )
 {
 let
-htmlClasses
+containerClasses
 =
 this
 .
 _doc
 .
-documentElement
+getElementById
+(
+"
+container
+"
+)
 .
 classList
 ;
@@ -2308,7 +2315,7 @@ _fontSize
 >
 0
 )
-htmlClasses
+containerClasses
 .
 remove
 (
@@ -2329,7 +2336,7 @@ _fontSize
 =
 newFontSize
 ;
-htmlClasses
+containerClasses
 .
 add
 (
