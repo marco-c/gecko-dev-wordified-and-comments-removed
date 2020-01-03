@@ -739,7 +739,7 @@ index
                         
 self
 .
-_handle_main_help
+_handle_command_help
 (
 parser
 command
@@ -757,7 +757,7 @@ else
                     
 self
 .
-_handle_main_help
+_handle_command_help
 (
 parser
 command
