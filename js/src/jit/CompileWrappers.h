@@ -191,6 +191,13 @@ positiveInfinityValue
 (
 )
 ;
+const
+WellKnownSymbols
+&
+wellKnownSymbols
+(
+)
+;
 #
 ifdef
 DEBUG

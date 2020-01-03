@@ -1764,6 +1764,7 @@ js
 ImmutableSymbolPtr
 iterator
 ;
+const
 ImmutableSymbolPtr
 &
 get
@@ -1771,6 +1772,7 @@ get
 size_t
 u
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1782,12 +1784,14 @@ JS
 WellKnownSymbolLimit
 )
 ;
+const
 ImmutableSymbolPtr
 *
 symbols
 =
 reinterpret_cast
 <
+const
 ImmutableSymbolPtr
 *
 >
@@ -1802,6 +1806,7 @@ u
 ]
 ;
 }
+const
 ImmutableSymbolPtr
 &
 get
@@ -1812,6 +1817,7 @@ JS
 SymbolCode
 code
 )
+const
 {
 return
 get
