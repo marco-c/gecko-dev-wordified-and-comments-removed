@@ -21436,11 +21436,6 @@ this
 tp
 )
 ;
-if
-(
-tp
-)
-{
 nsresult
 response
 =
@@ -21477,8 +21472,6 @@ principal
 on
 local
 blocklist
-"
-"
 [
 this
 =
@@ -21494,7 +21487,6 @@ mLocalBlocklist
 =
 true
 ;
-}
 }
 }
 }
