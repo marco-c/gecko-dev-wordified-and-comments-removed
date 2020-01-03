@@ -485,6 +485,10 @@ ResolveStyleForNonElement
 nsStyleContext
 *
 aParentContext
+bool
+aSuppressLineBreak
+=
+false
 )
 ;
 already_AddRefed
@@ -1305,6 +1309,12 @@ eSkipParentDisplayBasedStyleFixup
 <
 <
 3
+eSuppressLineBreak
+=
+1
+<
+<
+4
 }
 ;
 already_AddRefed
