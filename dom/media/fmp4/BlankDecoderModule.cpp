@@ -1073,6 +1073,7 @@ return
 true
 ;
 }
+virtual
 ConversionRequired
 DecoderNeedsConversion
 (
@@ -1085,6 +1086,7 @@ TrackConfig
 aConfig
 )
 const
+override
 {
 return
 kNeedNone
