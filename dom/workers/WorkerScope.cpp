@@ -2136,6 +2136,7 @@ mRegistration
 new
 ServiceWorkerRegistrationWorkerThread
 (
+mWorkerPrivate
 mScope
 )
 ;
