@@ -117,6 +117,17 @@ mozilla
 :
 dom
 ;
+#
+ifndef
+MOZ_WIDGET_GONK
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+TestGonkCameraHardware
+GonkCameraHardware
+)
+;
+#
+endif
 static
 void
 CopyFaceFeature
@@ -2973,6 +2984,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_WIDGET_GONK
 int
 TestGonkCameraHardware
 :
@@ -3124,6 +3138,8 @@ s
 )
 ;
 }
+#
+endif
 int
 TestGonkCameraHardware
 :
