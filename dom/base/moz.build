@@ -361,11 +361,6 @@ nsCopySupport
 h
 '
 '
-nsCrossSiteListenerProxy
-.
-h
-'
-'
 nsDeprecatedOperationList
 .
 h
@@ -1246,11 +1241,6 @@ cpp
 '
 '
 nsCopySupport
-.
-cpp
-'
-'
-nsCrossSiteListenerProxy
 .
 cpp
 '
