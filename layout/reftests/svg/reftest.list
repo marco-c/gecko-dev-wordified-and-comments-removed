@@ -5413,17 +5413,6 @@ scaling
 ref
 .
 svg
-fails
--
-if
-(
-OSX
-=
-=
-10
-.
-8
-)
 =
 =
 stroke
@@ -5442,9 +5431,6 @@ dasharray
 ref
 .
 svg
-#
-bug
-896487
 =
 =
 stroke
