@@ -4,11 +4,10 @@ spawnTest
 )
 {
 let
-[
+{
 target
-debuggee
 front
-]
+}
 =
 yield
 initBackend

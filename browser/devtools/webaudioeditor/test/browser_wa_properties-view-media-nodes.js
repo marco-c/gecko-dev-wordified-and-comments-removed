@@ -183,11 +183,10 @@ spawnTest
 )
 {
 let
-[
+{
 target
-debuggee
 panel
-]
+}
 =
 yield
 initWebAudioEditor
