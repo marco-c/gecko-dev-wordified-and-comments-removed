@@ -4420,6 +4420,11 @@ KEY_MAP_ANDROID
 Info
 AKEYCODE_INFO
 )
+KEY_MAP_GTK
+(
+MediaFastForward
+GDK_AudioForward
+)
 KEY_MAP_QT
 (
 MediaFastForward
