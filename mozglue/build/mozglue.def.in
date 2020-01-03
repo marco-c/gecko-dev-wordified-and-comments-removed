@@ -91,6 +91,9 @@ malloc_usable_size_impl
 malloc_good_size
 =
 malloc_good_size_impl
+_aligned_free
+=
+free_impl
 #
 else
 malloc
@@ -114,8 +117,12 @@ je_malloc_usable_size
 malloc_good_size
 =
 je_malloc_good_size
+_aligned_free
+=
+je_free
 #
 endif
+_aligned_malloc
 strndup
 =
 wrap_strndup
