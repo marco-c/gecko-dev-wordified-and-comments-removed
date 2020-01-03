@@ -2055,7 +2055,7 @@ AddIPDLReference
 (
 )
 ;
-LoadInfoArgs
+OptionalLoadInfoArgs
 loadInfoArgs
 ;
 nsresult

@@ -49,7 +49,7 @@ namespace
 net
 {
 class
-LoadInfoArgs
+OptionalLoadInfoArgs
 ;
 }
 namespace
@@ -65,7 +65,7 @@ mozilla
 net
 :
 :
-LoadInfoArgs
+OptionalLoadInfoArgs
 &
 aLoadInfoArgs
 nsILoadInfo
@@ -150,7 +150,7 @@ mozilla
 net
 :
 :
-LoadInfoArgs
+OptionalLoadInfoArgs
 &
 aLoadInfoArgs
 nsILoadInfo

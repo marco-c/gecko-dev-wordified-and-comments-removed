@@ -1240,7 +1240,7 @@ OptionalFileDescriptorSet
 &
 aFds
 const
-LoadInfoArgs
+OptionalLoadInfoArgs
 &
 aLoadInfoArgs
 const
