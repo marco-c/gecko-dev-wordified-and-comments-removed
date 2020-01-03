@@ -39,6 +39,15 @@ support
 .
 annotation
 .
+CheckResult
+;
+import
+android
+.
+support
+.
+annotation
+.
 ColorRes
 ;
 import
@@ -87,6 +96,7 @@ public
 class
 DrawableUtil
 {
+CheckResult
 public
 static
 Drawable
@@ -145,6 +155,7 @@ return
 icon
 ;
 }
+CheckResult
 public
 static
 Drawable

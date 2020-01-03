@@ -278,6 +278,10 @@ setVisibility
 VISIBLE
 )
 ;
+final
+Drawable
+tintedIcon
+=
 DrawableUtil
 .
 tintDrawableWithStateList
@@ -288,7 +292,7 @@ drawableColors
 ;
 setImageDrawable
 (
-icon
+tintedIcon
 )
 ;
 }
