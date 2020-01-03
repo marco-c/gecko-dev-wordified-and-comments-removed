@@ -181,6 +181,8 @@ State
 {
 INITIAL
 LAUNCHED
+MOZGLUE_READY
+LIBS_READY
 RUNNING
 EXITING
 EXITED
@@ -606,6 +608,13 @@ loadMozGlue
 context
 )
 ;
+setState
+(
+State
+.
+MOZGLUE_READY
+)
+;
 final
 Resources
 res
@@ -767,10 +776,11 @@ context
 resourcePath
 )
 ;
-GeckoJavaSampler
-.
-setLibsLoaded
+setState
 (
+State
+.
+LIBS_READY
 )
 ;
 return
