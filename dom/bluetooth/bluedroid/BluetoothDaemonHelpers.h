@@ -40,7 +40,7 @@ mozilla
 /
 ipc
 /
-BluetoothDaemonConnection
+DaemonSocketPDU
 .
 h
 "

@@ -18,7 +18,7 @@ mozilla
 /
 ipc
 /
-BluetoothDaemonConnectionConsumer
+DaemonSocketConsumer
 .
 h
 "
