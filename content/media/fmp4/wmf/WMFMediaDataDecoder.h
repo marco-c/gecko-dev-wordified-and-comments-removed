@@ -101,6 +101,14 @@ aOutput
 =
 0
 ;
+virtual
+void
+Shutdown
+(
+)
+=
+0
+;
 }
 ;
 class
@@ -189,6 +197,11 @@ ProcessOutput
 ;
 void
 ProcessDrain
+(
+)
+;
+void
+ProcessShutdown
 (
 )
 ;

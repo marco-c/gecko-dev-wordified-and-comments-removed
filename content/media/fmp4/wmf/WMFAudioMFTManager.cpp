@@ -1354,4 +1354,17 @@ return
 S_OK
 ;
 }
+void
+WMFAudioMFTManager
+:
+:
+Shutdown
+(
+)
+{
+mDecoder
+=
+nullptr
+;
+}
 }

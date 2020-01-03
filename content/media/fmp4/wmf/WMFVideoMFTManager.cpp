@@ -1952,4 +1952,17 @@ return
 S_OK
 ;
 }
+void
+WMFVideoMFTManager
+:
+:
+Shutdown
+(
+)
+{
+mDecoder
+=
+nullptr
+;
+}
 }
