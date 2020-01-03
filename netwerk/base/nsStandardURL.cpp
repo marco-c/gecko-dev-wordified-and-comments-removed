@@ -12236,6 +12236,9 @@ mLen
 0
 ;
 }
+nsAutoCString
+buf
+;
 if
 (
 nsContentUtils
@@ -12246,9 +12249,6 @@ EncodeDecodeURLHash
 )
 )
 {
-nsAutoCString
-buf
-;
 bool
 encoded
 ;
