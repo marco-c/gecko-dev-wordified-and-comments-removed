@@ -881,6 +881,9 @@ mFalseStartRequireNPN
 bool
 mUseStaticFallbackList
 ;
+bool
+mUnrestrictedRC4Fallback
+;
 uint16_t
 mVersionFallbackLimit
 ;
