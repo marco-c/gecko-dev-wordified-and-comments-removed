@@ -1316,6 +1316,11 @@ DispatchDecodeTasksIfNeeded
 (
 )
 ;
+void
+AcquireMonitorAndInvokeDispatchDecodeTasksIfNeeded
+(
+)
+;
 int64_t
 GetMediaTime
 (

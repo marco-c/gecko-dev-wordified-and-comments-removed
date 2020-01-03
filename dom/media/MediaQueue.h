@@ -747,9 +747,9 @@ AddPopListener
 nsIRunnable
 *
 aRunnable
-MediaTaskQueue
+nsIEventTarget
 *
-aTaskQueue
+aTarget
 )
 {
 ReentrantMonitorAutoEnter
@@ -765,7 +765,7 @@ AppendElement
 Listener
 (
 aRunnable
-aTaskQueue
+aTarget
 )
 )
 ;
@@ -784,9 +784,9 @@ Listener
 nsIRunnable
 *
 aRunnable
-MediaTaskQueue
+nsIEventTarget
 *
-aTaskQueue
+aTarget
 )
 :
 mRunnable
@@ -795,7 +795,7 @@ aRunnable
 )
 mTarget
 (
-aTaskQueue
+aTarget
 )
 {
 }
@@ -829,7 +829,7 @@ mRunnable
 ;
 RefPtr
 <
-MediaTaskQueue
+nsIEventTarget
 >
 mTarget
 ;
@@ -885,6 +885,7 @@ Dispatch
 l
 .
 mRunnable
+NS_DISPATCH_NORMAL
 )
 ;
 }
