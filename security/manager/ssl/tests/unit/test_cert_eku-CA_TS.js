@@ -38,32 +38,16 @@ cert_from_file
 filename
 )
 {
-let
-der
-=
-readFile
+return
+constructCertFromFile
 (
-do_get_file
-(
-"
 test_cert_eku
 /
-"
-+
+{
 filename
-false
-)
-)
-;
-return
-certdb
+}
 .
-constructX509
-(
-der
-der
-.
-length
+pem
 )
 ;
 }
@@ -74,32 +58,23 @@ cert_name
 trust_string
 )
 {
-let
-cert_filename
-=
-cert_name
-+
-"
-.
-der
-"
-;
 addCertFromFile
 (
 certdb
-"
 test_cert_eku
 /
-"
-+
-cert_filename
+{
+cert_name
+}
+.
+pem
 trust_string
 )
 ;
 return
 cert_from_file
 (
-cert_filename
+cert_name
 )
 ;
 }
@@ -156,8 +131,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 PRErrorCodeSuccess
@@ -181,8 +154,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -206,8 +177,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -231,8 +200,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -256,8 +223,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -281,8 +246,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -306,8 +269,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 PRErrorCodeSuccess
@@ -331,8 +292,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -356,8 +315,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -381,8 +338,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -406,8 +361,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -431,8 +384,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -456,8 +407,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -481,8 +430,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -506,8 +453,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -531,8 +476,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -556,8 +499,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -581,8 +522,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -606,8 +545,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 PRErrorCodeSuccess
@@ -631,8 +568,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -656,8 +591,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -681,8 +614,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -706,8 +637,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -731,8 +660,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -756,8 +683,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -781,8 +706,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -806,8 +729,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -831,8 +752,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -856,8 +775,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -881,8 +798,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -906,8 +821,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 PRErrorCodeSuccess
@@ -931,8 +844,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -956,8 +867,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -981,8 +890,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1006,8 +913,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1031,8 +936,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1056,8 +959,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 PRErrorCodeSuccess
@@ -1081,8 +982,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1106,8 +1005,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -1131,8 +1028,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1156,8 +1051,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1181,8 +1074,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1206,8 +1097,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1231,8 +1120,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1256,8 +1143,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -1281,8 +1166,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1306,8 +1189,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1331,8 +1212,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1356,8 +1235,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1381,8 +1258,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1406,8 +1281,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -1431,8 +1304,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1456,8 +1327,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1481,8 +1350,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1506,8 +1373,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1531,8 +1396,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1556,8 +1419,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -1581,8 +1442,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1606,8 +1465,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1631,8 +1488,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1656,8 +1511,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1681,8 +1534,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1706,8 +1557,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -1731,8 +1580,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1756,8 +1603,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1781,8 +1626,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1806,8 +1649,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1831,8 +1672,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1856,8 +1695,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -1881,8 +1718,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1906,8 +1741,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1931,8 +1764,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -1956,8 +1787,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 PRErrorCodeSuccess
@@ -1981,8 +1810,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2006,8 +1833,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -2031,8 +1856,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2056,8 +1879,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2081,8 +1902,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2106,8 +1925,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2131,8 +1948,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2156,8 +1971,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -2181,8 +1994,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2206,8 +2017,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2231,8 +2040,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2256,8 +2063,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2281,8 +2086,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2306,8 +2109,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -2331,8 +2132,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2356,8 +2155,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2381,8 +2178,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2406,8 +2201,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2431,8 +2224,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2456,8 +2247,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -2481,8 +2270,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2506,8 +2293,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2531,8 +2316,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2556,8 +2339,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2581,8 +2362,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2606,8 +2385,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -2631,8 +2408,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2656,8 +2431,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2681,8 +2454,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2706,8 +2477,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2731,8 +2500,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2756,8 +2523,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -2781,8 +2546,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2806,8 +2569,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2831,8 +2592,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2856,8 +2615,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2881,8 +2638,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2906,8 +2661,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -2931,8 +2684,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2956,8 +2707,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -2981,8 +2730,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3006,8 +2753,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3031,8 +2776,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3056,8 +2799,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -3081,8 +2822,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3106,8 +2845,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3131,8 +2868,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3156,8 +2891,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3181,8 +2914,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3206,8 +2937,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -3231,8 +2960,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3256,8 +2983,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3281,8 +3006,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3306,8 +3029,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3331,8 +3052,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3356,8 +3075,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -3381,8 +3098,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3406,8 +3121,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3431,8 +3144,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3456,8 +3167,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3481,8 +3190,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3506,8 +3213,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_KEY_USAGE
@@ -3531,8 +3236,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3556,8 +3259,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
@@ -3581,8 +3282,6 @@ int
 EKU
 -
 CA_TS
-.
-der
 '
 )
 SEC_ERROR_INADEQUATE_CERT_TYPE
