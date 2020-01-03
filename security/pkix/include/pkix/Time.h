@@ -295,6 +295,13 @@ Now
 (
 )
 ;
+Time
+TimeFromEpochInSeconds
+(
+uint64_t
+secondsSinceEpoch
+)
+;
 }
 }
 #
