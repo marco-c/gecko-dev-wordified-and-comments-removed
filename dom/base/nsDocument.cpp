@@ -50795,6 +50795,8 @@ return
 false
 ;
 }
+if
+(
 doc
 -
 >
@@ -50802,12 +50804,14 @@ ApplyFullscreen
 (
 aRequest
 )
-;
+)
+{
 *
 aHandled
 =
 true
 ;
+}
 return
 true
 ;
@@ -51081,7 +51085,7 @@ getNext
 }
 }
 }
-void
+bool
 nsDocument
 :
 :
@@ -51116,6 +51120,7 @@ mIsCallerChrome
 )
 {
 return
+false
 ;
 }
 nsCOMPtr
@@ -51456,6 +51461,9 @@ i
 )
 ;
 }
+return
+true
+;
 }
 NS_IMETHODIMP
 nsDocument

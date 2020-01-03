@@ -5803,7 +5803,7 @@ NotifyStyleSheetApplicableStateChanged
 (
 )
 ;
-void
+bool
 ApplyFullscreen
 (
 const
