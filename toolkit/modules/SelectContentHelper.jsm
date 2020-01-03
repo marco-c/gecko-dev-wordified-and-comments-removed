@@ -571,6 +571,11 @@ tagName
 textContent
 :
 textContent
+disabled
+:
+child
+.
+disabled
 textDirection
 :
 win
