@@ -899,7 +899,6 @@ this
 .
 showInAboutDownloads
 (
-id
 download
 )
 ;
