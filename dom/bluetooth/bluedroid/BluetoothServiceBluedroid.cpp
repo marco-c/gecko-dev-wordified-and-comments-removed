@@ -1298,7 +1298,7 @@ BluetoothService
 :
 AcknowledgeToggleBt
 (
-true
+false
 )
 ;
 }

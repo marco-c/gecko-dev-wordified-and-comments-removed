@@ -1710,6 +1710,10 @@ int
 aStatus
 )
 ;
+sBluetoothHfpInterface
+=
+nullptr
+;
 if
 (
 mRes

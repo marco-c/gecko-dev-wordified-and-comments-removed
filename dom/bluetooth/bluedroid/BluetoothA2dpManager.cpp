@@ -1300,6 +1300,10 @@ int
 aStatus
 )
 ;
+sBtAvrcpInterface
+=
+nullptr
+;
 if
 (
 mRes
@@ -1415,6 +1419,10 @@ int
 )
 aStatus
 )
+;
+sBtA2dpInterface
+=
+nullptr
 ;
 if
 (
