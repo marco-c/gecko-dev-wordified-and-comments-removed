@@ -580,11 +580,6 @@ DOMMatrix
 webidl
 '
 '
-DOMMMIError
-.
-webidl
-'
-'
 DOMMobileMessageError
 .
 webidl
