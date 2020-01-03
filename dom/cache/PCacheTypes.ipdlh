@@ -276,6 +276,9 @@ headersGuard
 PCacheReadStreamOrVoid
 body
 ;
+nsCString
+securityInfo
+;
 }
 ;
 union
