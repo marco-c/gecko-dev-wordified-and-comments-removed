@@ -1500,6 +1500,11 @@ char
 text
 )
 {
+assertNoQuotes
+(
+text
+)
+;
 PointerHashMap
 :
 :
@@ -1738,6 +1743,11 @@ filename
 unknown
 >
 "
+;
+assertNoQuotes
+(
+filename
+)
 ;
 if
 (
