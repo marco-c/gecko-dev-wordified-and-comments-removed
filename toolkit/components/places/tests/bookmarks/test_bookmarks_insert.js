@@ -2632,7 +2632,7 @@ com
 keyword
 :
 "
-test
+tEsT
 "
 }
 )

@@ -2420,7 +2420,7 @@ guid
 keyword
 :
 "
-kw2
+KW2
 "
 }
 )
