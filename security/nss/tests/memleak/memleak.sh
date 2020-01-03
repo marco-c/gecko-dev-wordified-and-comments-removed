@@ -1829,6 +1829,15 @@ FIPS
 is
 OFF
 "
+#
+ciphers
+l
+and
+m
+removed
+see
+bug
+1136095
 cipher_list
 =
 "
@@ -1876,8 +1885,6 @@ g
 i
 j
 k
-l
-m
 n
 v
 y

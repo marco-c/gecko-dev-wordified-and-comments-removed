@@ -3450,8 +3450,6 @@ global
 :
 __PK11_SetCertificateNickname
 ;
-CERT_FindCertURLExtension
-;
 SEC_CheckCrlTimes
 ;
 SEC_GetCrlTimes

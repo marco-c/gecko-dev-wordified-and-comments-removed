@@ -39,7 +39,7 @@ NSSUTIL_VPATCH
 #
 define
 NSSUTIL_VBUILD
-0
+2
 #
 define
 NSSUTIL_BETA
