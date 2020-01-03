@@ -1258,6 +1258,14 @@ mSandboxFlags
 ;
 }
 void
+GetSandboxFlagsAsString
+(
+nsAString
+&
+aFlags
+)
+;
+void
 SetSandboxFlags
 (
 uint32_t

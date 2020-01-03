@@ -1973,6 +1973,17 @@ nsAString
 aFlag
 )
 ;
+static
+void
+SandboxFlagsToString
+(
+uint32_t
+aFlags
+nsAString
+&
+aString
+)
+;
 private
 :
 static
