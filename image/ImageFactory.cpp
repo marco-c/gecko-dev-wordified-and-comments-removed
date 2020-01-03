@@ -219,10 +219,10 @@ ImageDecodeOnlyOnDrawEnabled
 )
 &
 &
-gfxPrefs
+gfxPlatform
 :
 :
-AsyncPanZoomEnabledDoNotUseDirectly
+AsyncPanZoomEnabled
 (
 )
 ;
