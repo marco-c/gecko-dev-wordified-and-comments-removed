@@ -92,6 +92,8 @@ endif
 bool
 SetSecurityLevelForPluginProcess
 (
+bool
+aMoreStrict
 )
 ;
 bool
