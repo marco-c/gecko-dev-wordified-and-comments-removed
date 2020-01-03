@@ -119,6 +119,7 @@ JSContext
 *
 aCx
 )
+MOZ_OVERRIDE
 ;
 void
 Register
