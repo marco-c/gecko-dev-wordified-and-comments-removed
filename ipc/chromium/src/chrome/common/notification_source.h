@@ -100,6 +100,7 @@ ptr_
 }
 protected
 :
+explicit
 NotificationSource
 (
 void
@@ -132,6 +133,7 @@ NotificationSource
 {
 public
 :
+explicit
 Source
 (
 T
@@ -145,6 +147,7 @@ ptr
 )
 {
 }
+explicit
 Source
 (
 const

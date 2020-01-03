@@ -580,9 +580,12 @@ InstanceCreated
 Notify
 (
 NotificationType
+(
+NotificationType
 :
 :
 CHILD_INSTANCE_CREATED
+)
 )
 ;
 }
@@ -991,9 +994,12 @@ host_
 Notify
 (
 NotificationType
+(
+NotificationType
 :
 :
 CHILD_PROCESS_HOST_CONNECTED
+)
 )
 ;
 }

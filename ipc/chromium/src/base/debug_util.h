@@ -138,6 +138,7 @@ EnvironmentLog
 {
 public
 :
+explicit
 EnvironmentLog
 (
 const

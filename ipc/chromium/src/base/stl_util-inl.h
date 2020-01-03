@@ -933,6 +933,7 @@ STLElementDeleter
 {
 public
 :
+explicit
 STLElementDeleter
 (
 STLContainer
@@ -975,6 +976,7 @@ STLValueDeleter
 {
 public
 :
+explicit
 STLValueDeleter
 (
 STLContainer
@@ -1053,6 +1055,7 @@ Arg2
 >
 Callback
 ;
+explicit
 STLBinaryFunction
 (
 Callback
@@ -1130,6 +1133,7 @@ Arg
 Callback
 Callback
 ;
+explicit
 STLBinaryPredicate
 (
 Callback
@@ -1181,6 +1185,7 @@ UnaryOperateOnFirst
 )
 {
 }
+explicit
 UnaryOperateOnFirst
 (
 const
@@ -1289,6 +1294,7 @@ UnaryOperateOnSecond
 )
 {
 }
+explicit
 UnaryOperateOnSecond
 (
 const
@@ -1398,6 +1404,7 @@ BinaryOperateOnFirst
 )
 {
 }
+explicit
 BinaryOperateOnFirst
 (
 const
@@ -1514,6 +1521,7 @@ BinaryOperateOnSecond
 )
 {
 }
+explicit
 BinaryOperateOnSecond
 (
 const

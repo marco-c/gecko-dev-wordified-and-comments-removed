@@ -65,6 +65,7 @@ Thread
 {
 public
 :
+explicit
 ChildThread
 (
 Thread

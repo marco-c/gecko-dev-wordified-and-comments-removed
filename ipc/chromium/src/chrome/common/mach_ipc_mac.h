@@ -123,6 +123,7 @@ type
 MACH_MSG_PORT_DESCRIPTOR
 ;
 }
+explicit
 MachMsgPortDescriptor
 (
 mach_port_t
@@ -578,6 +579,7 @@ MachMessage
 {
 public
 :
+explicit
 MachSendMessage
 (
 int32_t
@@ -616,6 +618,7 @@ ReceivePort
 {
 public
 :
+explicit
 ReceivePort
 (
 const
@@ -624,6 +627,7 @@ char
 receive_port_name
 )
 ;
+explicit
 ReceivePort
 (
 mach_port_t
@@ -679,6 +683,7 @@ MachPortSender
 {
 public
 :
+explicit
 MachPortSender
 (
 const
@@ -687,6 +692,7 @@ char
 receive_port_name
 )
 ;
+explicit
 MachPortSender
 (
 mach_port_t

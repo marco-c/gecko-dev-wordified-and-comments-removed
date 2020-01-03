@@ -56,6 +56,7 @@ ProcessHandle
 ;
 public
 :
+explicit
 ProcessChild
 (
 ProcessHandle

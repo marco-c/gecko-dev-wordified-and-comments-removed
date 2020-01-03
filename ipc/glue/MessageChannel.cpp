@@ -827,6 +827,7 @@ MaybeScriptBlocker
 {
 public
 :
+explicit
 MaybeScriptBlocker
 (
 MessageChannel

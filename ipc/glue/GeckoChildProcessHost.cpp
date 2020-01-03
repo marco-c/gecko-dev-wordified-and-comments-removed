@@ -633,6 +633,7 @@ AutoCFTypeObject
 {
 public
 :
+explicit
 AutoCFTypeObject
 (
 CFTypeRef
@@ -3160,7 +3161,10 @@ parent_message
 .
 AddDescriptor
 (
+MachMsgPortDescriptor
+(
 bootstrap_port
+)
 )
 )
 {

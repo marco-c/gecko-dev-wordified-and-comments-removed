@@ -58,6 +58,7 @@ ChildProcess
 {
 public
 :
+explicit
 ChildProcess
 (
 ChildThread

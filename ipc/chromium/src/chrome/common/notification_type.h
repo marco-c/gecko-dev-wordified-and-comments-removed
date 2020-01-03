@@ -105,6 +105,7 @@ RENDER_VIEW_HOST_DELETED
 NOTIFICATION_TYPE_COUNT
 }
 ;
+explicit
 NotificationType
 (
 Type
