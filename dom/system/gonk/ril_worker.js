@@ -8882,6 +8882,8 @@ request
 options
 )
 ;
+return
+;
 }
 else
 if
@@ -8906,7 +8908,16 @@ REQUEST_SET_DATA_SUBSCRIPTION
 options
 )
 ;
+return
+;
 }
+this
+.
+sendChromeMessage
+(
+options
+)
+;
 }
 getFailCauseCode
 :
