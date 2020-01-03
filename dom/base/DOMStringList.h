@@ -70,7 +70,6 @@ JSContext
 *
 aCx
 )
-MOZ_OVERRIDE
 ;
 nsISupports
 *

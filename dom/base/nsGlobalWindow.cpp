@@ -2748,7 +2748,6 @@ char16_t
 *
 aData
 )
-MOZ_OVERRIDE
 {
 if
 (
@@ -2792,7 +2791,6 @@ void
 *
 aResult
 )
-MOZ_OVERRIDE
 {
 if
 (

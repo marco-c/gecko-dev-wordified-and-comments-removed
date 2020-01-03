@@ -512,7 +512,6 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
 ;
 EventStates
 State
@@ -3606,7 +3605,6 @@ Element
 GetNameSpaceElement
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -3833,7 +3831,6 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -3843,7 +3840,6 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsINode
@@ -3851,7 +3847,6 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
 {
 return
 mParent
@@ -4695,7 +4690,6 @@ nsAString
 aTagName
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -4722,7 +4716,6 @@ nsAString
 aId
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -4750,7 +4743,6 @@ nsAString
 aId
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -4777,7 +4769,6 @@ nsAString
 aClassName
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -4805,7 +4796,6 @@ nsAString
 aClassName
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -4833,7 +4823,6 @@ nsISupports
 aClassList
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -4861,8 +4850,6 @@ nsIDOMMozNamedAttrMap
 aAttributes
 )
 MOZ_FINAL
-\
-MOZ_OVERRIDE
 \
 {
 \
@@ -4902,8 +4889,6 @@ nsAString
 _retval
 )
 MOZ_FINAL
-\
-MOZ_OVERRIDE
 \
 {
 \
@@ -4947,7 +4932,6 @@ nsAString
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -4981,7 +4965,6 @@ nsAString
 &
 value
 )
-MOZ_OVERRIDE
 \
 {
 \
@@ -5032,7 +5015,6 @@ nsAString
 value
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5081,7 +5063,6 @@ nsAString
 name
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5123,8 +5104,6 @@ nsAString
 localName
 )
 MOZ_FINAL
-\
-MOZ_OVERRIDE
 \
 {
 \
@@ -5176,7 +5155,6 @@ bool
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5213,7 +5191,6 @@ bool
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5244,7 +5221,6 @@ bool
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5279,7 +5255,6 @@ nsIDOMAttr
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5317,7 +5292,6 @@ nsIDOMAttr
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5408,7 +5382,6 @@ nsIDOMAttr
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5505,7 +5478,6 @@ nsIDOMAttr
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5545,7 +5517,6 @@ nsIDOMAttr
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5625,8 +5596,6 @@ _retval
 )
 MOZ_FINAL
 \
-MOZ_OVERRIDE
-\
 {
 \
 Element
@@ -5665,8 +5634,6 @@ _retval
 )
 MOZ_FINAL
 \
-MOZ_OVERRIDE
-\
 {
 \
 return
@@ -5699,8 +5666,6 @@ _retval
 )
 MOZ_FINAL
 \
-MOZ_OVERRIDE
-\
 {
 \
 return
@@ -5725,8 +5690,6 @@ nsIDOMNodeList
 aChildElements
 )
 MOZ_FINAL
-\
-MOZ_OVERRIDE
 \
 {
 \
@@ -5761,8 +5724,6 @@ nsIDOMElement
 aFirstElementChild
 )
 MOZ_FINAL
-\
-MOZ_OVERRIDE
 \
 {
 \
@@ -5816,8 +5777,6 @@ nsIDOMElement
 aLastElementChild
 )
 MOZ_FINAL
-\
-MOZ_OVERRIDE
 \
 {
 \
@@ -5872,7 +5831,6 @@ aPreviousElementSibling
 )
 \
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5927,7 +5885,6 @@ aNextElementSibling
 )
 \
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -5981,8 +5938,6 @@ aChildElementCount
 )
 MOZ_FINAL
 \
-MOZ_OVERRIDE
-\
 {
 \
 *
@@ -6007,7 +5962,6 @@ MozRemove
 (
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6034,8 +5988,6 @@ nsIDOMClientRectList
 _retval
 )
 MOZ_FINAL
-\
-MOZ_OVERRIDE
 \
 {
 \
@@ -6070,8 +6022,6 @@ _retval
 )
 MOZ_FINAL
 \
-MOZ_OVERRIDE
-\
 {
 \
 *
@@ -6103,7 +6053,6 @@ int32_t
 aScrollTop
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6131,7 +6080,6 @@ int32_t
 aScrollTop
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6158,7 +6106,6 @@ int32_t
 aScrollLeft
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6186,7 +6133,6 @@ int32_t
 aScrollLeft
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6213,7 +6159,6 @@ int32_t
 aScrollWidth
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6242,7 +6187,6 @@ int32_t
 aScrollHeight
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6271,7 +6215,6 @@ int32_t
 aClientTop
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6300,7 +6243,6 @@ int32_t
 aClientLeft
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6329,7 +6271,6 @@ int32_t
 aClientWidth
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6358,7 +6299,6 @@ int32_t
 aClientHeight
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6387,7 +6327,6 @@ int32_t
 aScrollLeftMax
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6416,7 +6355,6 @@ int32_t
 aScrollTopMax
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6450,7 +6388,6 @@ bool
 _retval
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6491,7 +6428,6 @@ bool
 retargetToElement
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6516,7 +6452,6 @@ ReleaseCapture
 void
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6540,7 +6475,6 @@ MozRequestFullScreen
 void
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6573,7 +6507,6 @@ MozRequestPointerLock
 void
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6612,7 +6545,6 @@ nsIDOMElement
 aReturn
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \
@@ -6650,7 +6582,6 @@ nsIDOMNodeList
 aReturn
 )
 MOZ_FINAL
-MOZ_OVERRIDE
 \
 {
 \

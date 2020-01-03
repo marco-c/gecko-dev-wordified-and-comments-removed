@@ -513,7 +513,6 @@ ScreenConfiguration
 &
 aConfiguration
 )
-MOZ_OVERRIDE
 ;
 protected
 :
