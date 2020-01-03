@@ -2123,15 +2123,6 @@ mTextInputHandler
 ;
 }
 void
-NotifyDirtyRegion
-(
-const
-nsIntRegion
-&
-aDirtyRegion
-)
-;
-void
 ClearVibrantAreas
 (
 )

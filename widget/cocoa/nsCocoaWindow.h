@@ -188,6 +188,9 @@ NSTrackingArea
 *
 mTrackingArea
 ;
+NSRect
+mDirtyRect
+;
 BOOL
 mBeingShown
 ;
@@ -413,6 +416,12 @@ disableSetNeedsDisplay
 void
 )
 enableSetNeedsDisplay
+;
+-
+(
+NSRect
+)
+getAndResetNativeDirtyRect
 ;
 end
 interface
