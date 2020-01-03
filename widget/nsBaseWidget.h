@@ -692,6 +692,12 @@ aHeight
 )
 ;
 virtual
+bool
+IsMultiProcessWindow
+(
+)
+;
+virtual
 void
 PrepareWindowEffects
 (
