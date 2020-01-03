@@ -171,8 +171,9 @@ n
 "
 gonkdir
 "
--
-a
+&
+&
+test
 "
 ANDROID_VERSION
 "
