@@ -28317,8 +28317,8 @@ opt
 mode
 assertions
 and
-heap
-poisoning
+minidump
+instrumentation
 dnl
 =
 =
@@ -28393,8 +28393,9 @@ Enable
 JS
 diagnostic
 assertions
-heap
-poisoning
+and
+breakpad
+data
 ]
 JS_CRASH_DIAGNOSTICS
 =
