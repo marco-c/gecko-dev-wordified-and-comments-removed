@@ -1931,24 +1931,6 @@ ANDROID_TARGET_SDK
 '
 ]
         
-defines
-[
-'
-MOZ_ANDROID_MIN_SDK_VERSION
-'
-]
-=
-self
-.
-environment
-.
-defines
-[
-'
-MOZ_ANDROID_MIN_SDK_VERSION
-'
-]
-        
 copier
 =
 FileCopier
