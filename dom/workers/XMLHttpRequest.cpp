@@ -4570,7 +4570,6 @@ if
 doClone
 )
 {
-const
 JSStructuredCloneCallbacks
 *
 callbacks
@@ -5092,7 +5091,6 @@ mResponseBuffer
 )
 )
 ;
-const
 JSStructuredCloneCallbacks
 *
 callbacks
@@ -5869,7 +5867,6 @@ rv
 =
 NS_OK
 ;
-const
 JSStructuredCloneCallbacks
 *
 callbacks
@@ -8408,7 +8405,6 @@ bodyStr
 )
 ;
 }
-const
 JSStructuredCloneCallbacks
 *
 callbacks
@@ -8582,7 +8578,6 @@ NS_ERROR_FAILURE
 return
 ;
 }
-const
 JSStructuredCloneCallbacks
 *
 callbacks

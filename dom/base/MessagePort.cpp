@@ -1288,7 +1288,6 @@ port
 ;
 }
 }
-const
 JSStructuredCloneCallbacks
 kPostMessageCallbacks
 =

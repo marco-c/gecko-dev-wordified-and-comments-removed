@@ -3560,7 +3560,6 @@ WORKER_CONTEXT_NATIVE_STACK_LIMIT
 )
 ;
 static
-const
 JSSecurityCallbacks
 securityCallbacks
 =
@@ -3576,7 +3575,6 @@ securityCallbacks
 )
 ;
 static
-const
 JS
 :
 :

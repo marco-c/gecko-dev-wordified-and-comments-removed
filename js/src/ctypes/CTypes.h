@@ -1615,7 +1615,6 @@ JSObject
 obj
 )
 ;
-const
 JSCTypesCallbacks
 *
 GetCallbacks
@@ -1987,7 +1986,6 @@ CTypeProtoSlot
 slot
 )
 ;
-const
 JSCTypesCallbacks
 *
 GetCallbacksFromType

@@ -5725,7 +5725,6 @@ PromiseWorkerProxyRunnable
 PromiseWorkerProxy
 *
 aPromiseWorkerProxy
-const
 JSStructuredCloneCallbacks
 *
 aCallbacks
@@ -5924,7 +5923,6 @@ PromiseWorkerProxy
 >
 mPromiseWorkerProxy
 ;
-const
 JSStructuredCloneCallbacks
 *
 mCallbacks
@@ -5951,7 +5949,6 @@ aWorkerPrivate
 Promise
 *
 aWorkerPromise
-const
 JSStructuredCloneCallbacks
 *
 aCallbacks

@@ -5906,7 +5906,6 @@ toObject
 )
 ;
 }
-const
 JSCTypesCallbacks
 *
 GetCallbacks
@@ -5947,7 +5946,6 @@ nullptr
 return
 static_cast
 <
-const
 JSCTypesCallbacks
 *
 >
@@ -6269,7 +6267,6 @@ JS_SetCTypesCallbacks
 JSObject
 *
 ctypesObj
-const
 JSCTypesCallbacks
 *
 callbacks
@@ -6294,14 +6291,7 @@ ctypesObj
 SLOT_CALLBACKS
 PRIVATE_TO_JSVAL
 (
-const_cast
-<
-JSCTypesCallbacks
-*
->
-(
 callbacks
-)
 )
 )
 ;

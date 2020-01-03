@@ -240,7 +240,6 @@ false
 ;
 }
 static
-const
 JSCTypesCallbacks
 callbacks
 =

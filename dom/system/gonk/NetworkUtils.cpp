@@ -613,7 +613,6 @@ gWifiTetheringParms
 =
 0
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -677,7 +676,6 @@ NetworkUtils
 wifiTetheringSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -733,7 +731,6 @@ NetworkUtils
 wifiTetheringSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -761,7 +758,6 @@ NetworkUtils
 stopTethering
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -833,7 +829,6 @@ NetworkUtils
 wifiTetheringSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -853,7 +848,6 @@ NetworkUtils
 wifiOperationModeSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -897,7 +891,6 @@ NetworkUtils
 usbTetheringSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -937,7 +930,6 @@ NetworkUtils
 usbTetheringSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -961,7 +953,6 @@ NetworkUtils
 stopTethering
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -985,7 +976,6 @@ NetworkUtils
 updateUpStreamSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -1009,7 +999,6 @@ NetworkUtils
 setDhcpServerSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -1029,7 +1018,6 @@ NetworkUtils
 setDhcpServerSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -1057,7 +1045,6 @@ NetworkUtils
 networkInterfaceAlarmSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -1081,7 +1068,6 @@ NetworkUtils
 networkInterfaceAlarmSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :
@@ -1101,7 +1087,6 @@ NetworkUtils
 networkInterfaceAlarmSuccess
 }
 ;
-const
 CommandFunc
 NetworkUtils
 :

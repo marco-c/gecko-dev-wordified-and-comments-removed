@@ -1850,7 +1850,6 @@ NS_ERROR_DOM_DATA_CLONE_ERR
 }
 }
 ;
-const
 JSStructuredCloneCallbacks
 gWorkerStructuredCloneCallbacks
 =
@@ -2254,7 +2253,6 @@ aErrorId
 }
 }
 ;
-const
 JSStructuredCloneCallbacks
 gMainThreadWorkerStructuredCloneCallbacks
 =
@@ -2374,7 +2372,6 @@ aErrorId
 }
 }
 ;
-const
 JSStructuredCloneCallbacks
 gChromeWorkerStructuredCloneCallbacks
 =
@@ -2582,7 +2579,6 @@ aErrorId
 }
 }
 ;
-const
 JSStructuredCloneCallbacks
 gMainThreadChromeWorkerStructuredCloneCallbacks
 =
@@ -10772,7 +10768,6 @@ return
 ;
 }
 }
-const
 JSStructuredCloneCallbacks
 *
 callbacks
@@ -21118,7 +21113,6 @@ array
 )
 ;
 }
-const
 JSStructuredCloneCallbacks
 *
 callbacks
@@ -25469,7 +25463,6 @@ GetCrossThreadDispatcher
 )
 ;
 }
-const
 JSStructuredCloneCallbacks
 *
 WorkerStructuredCloneCallbacks
@@ -25488,7 +25481,6 @@ gMainThreadWorkerStructuredCloneCallbacks
 gWorkerStructuredCloneCallbacks
 ;
 }
-const
 JSStructuredCloneCallbacks
 *
 ChromeWorkerStructuredCloneCallbacks

@@ -731,7 +731,6 @@ ANDROID_VERSION
 =
 18
 static
-const
 btrc_callbacks_t
 sCallbacks
 =

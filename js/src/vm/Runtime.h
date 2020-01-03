@@ -2925,7 +2925,6 @@ numExclusiveThreads
 size_t
 numCompartments
 ;
-const
 JSLocaleCallbacks
 *
 localeCallbacks

@@ -4629,7 +4629,6 @@ aCx
 )
 ;
 static
-const
 JSStructuredCloneCallbacks
 callbacks
 =
@@ -4787,7 +4786,6 @@ aCx
 )
 ;
 static
-const
 JSStructuredCloneCallbacks
 callbacks
 =
