@@ -73698,11 +73698,6 @@ h
 inttypes
 .
 h
-sys
-/
-int_types
-.
-h
 )
 if
 test
