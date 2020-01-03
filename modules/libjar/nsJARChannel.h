@@ -204,6 +204,8 @@ nsJARInputThunk
 nsresult
 LookupFile
 (
+bool
+aAllowAsync
 )
 ;
 nsresult
