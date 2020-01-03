@@ -34,14 +34,6 @@ CommandProvider
     
 Command
 )
-from
-wptrunner
-import
-wptcommandline
-from
-update
-import
-updatecommandline
 class
 InvalidTestPathError
 (
@@ -91,6 +83,11 @@ self
 kwargs
 )
 :
+        
+from
+wptrunner
+import
+wptcommandline
         
 build_path
 =
@@ -543,6 +540,11 @@ kwargs
 import
 update
         
+from
+update
+import
+updatecommandline
+        
 if
 kwargs
 [
@@ -741,6 +743,62 @@ item
 .
 id
 )
+def
+create_parser_wpt
+(
+)
+:
+    
+from
+wptrunner
+import
+wptcommandline
+    
+return
+wptcommandline
+.
+create_parser
+(
+[
+"
+firefox
+"
+]
+)
+def
+create_parser_update
+(
+)
+:
+    
+from
+update
+import
+updatecommandline
+    
+return
+updatecommandline
+.
+create_parser
+(
+)
+def
+create_parser_reduce
+(
+)
+:
+    
+from
+wptrunner
+import
+wptcommandline
+    
+return
+wptcommandline
+.
+create_parser_reduce
+(
+)
 CommandProvider
 class
 MachCommands
@@ -775,16 +833,7 @@ is_firefox
              
 parser
 =
-wptcommandline
-.
-create_parser
-(
-[
-"
-firefox
-"
-]
-)
+create_parser_wpt
 )
     
 def
@@ -908,11 +957,7 @@ testing
              
 parser
 =
-updatecommandline
-.
-create_parser
-(
-)
+create_parser_update
 )
     
 def
@@ -1018,16 +1063,7 @@ is_firefox
              
 parser
 =
-wptcommandline
-.
 create_parser_reduce
-(
-[
-"
-firefox
-"
-]
-)
 )
     
 def
