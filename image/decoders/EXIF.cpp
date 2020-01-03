@@ -365,9 +365,6 @@ count
 return
 false
 ;
-Orientation
-orientation
-;
 if
 (
 !
