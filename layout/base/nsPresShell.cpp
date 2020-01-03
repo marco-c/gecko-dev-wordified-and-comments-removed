@@ -39716,6 +39716,17 @@ nsHTMLReflowState
 CALLER_WILL_INIT
 )
 ;
+reflowState
+.
+mOrthogonalLimit
+=
+size
+.
+BSize
+(
+wm
+)
+;
 if
 (
 rootFrame

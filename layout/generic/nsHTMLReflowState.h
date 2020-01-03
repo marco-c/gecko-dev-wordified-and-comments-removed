@@ -640,6 +640,9 @@ nscoord
 mBlockDelta
 ;
 nscoord
+mOrthogonalLimit
+;
+nscoord
 AvailableWidth
 (
 )
