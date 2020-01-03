@@ -956,6 +956,17 @@ continue
 ;
 if
 (
+def
+-
+>
+canRecoverOnBailout
+(
+)
+)
+continue
+;
+if
+(
 set
 .
 isStore
