@@ -1237,9 +1237,12 @@ toArray
 new
 Parcelable
 [
+intents
+.
+size
+(
+)
 ]
-{
-}
 )
 )
 ;
