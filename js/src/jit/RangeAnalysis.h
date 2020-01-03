@@ -565,7 +565,13 @@ max_exponent_
 IncludesInfinityAndNaN
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 uint32_t
+>
 adjustedExponent
 =
 max_exponent_

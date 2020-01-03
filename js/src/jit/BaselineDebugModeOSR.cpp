@@ -1742,8 +1742,6 @@ entryIndex
 break
 ;
 }
-if
-(
 BaselineDebugModeOSRInfo
 *
 info
@@ -1758,6 +1756,10 @@ baselineFrame
 getDebugModeOSRInfo
 (
 )
+;
+if
+(
+info
 )
 {
 MOZ_ASSERT
