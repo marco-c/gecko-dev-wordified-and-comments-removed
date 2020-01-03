@@ -9625,6 +9625,13 @@ applyThemeChange
 (
 )
 ;
+AddonManagerPrivate
+.
+markProviderSafe
+(
+this
+)
+;
 if
 (
 aAppChanged
