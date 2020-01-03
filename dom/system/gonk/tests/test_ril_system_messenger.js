@@ -2862,11 +2862,6 @@ Item
 "
 }
 ]
-presentationType
-:
-RIL
-.
-STK_PRESENTATION_TYPE_NOT_SPECIFIED
 isHelpAvailable
 :
 true
@@ -2989,11 +2984,6 @@ basicIcon
 colorIcon
 colorTransparencyIcon
 ]
-presentationType
-:
-RIL
-.
-STK_PRESENTATION_TYPE_NOT_SPECIFIED
 isHelpAvailable
 :
 false
@@ -3058,6 +3048,11 @@ Item
 "
 }
 ]
+presentationType
+:
+RIL
+.
+STK_PRESENTATION_TYPE_NOT_SPECIFIED
 isHelpAvailable
 :
 false
@@ -3185,6 +3180,11 @@ basicIcon
 colorIcon
 colorTransparencyIcon
 ]
+presentationType
+:
+RIL
+.
+STK_PRESENTATION_TYPE_NAVIGATION_OPTIONS
 isHelpAvailable
 :
 false
