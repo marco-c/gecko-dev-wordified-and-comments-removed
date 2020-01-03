@@ -1384,6 +1384,15 @@ result
 Result
 :
 :
+ERROR_BAD_DER
+|
+|
+result
+=
+=
+Result
+:
+:
 ERROR_BAD_CERT_DOMAIN
 )
 {
