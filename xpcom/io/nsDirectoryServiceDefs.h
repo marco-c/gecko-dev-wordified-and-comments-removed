@@ -485,9 +485,9 @@ LocalAppDataLow
 "
 #
 define
-NS_WIN_LOW_INTEGRITY_TEMP
+NS_WIN_LOW_INTEGRITY_TEMP_BASE
 "
-LowTmpD
+LowTmpDBase
 "
 #
 endif
