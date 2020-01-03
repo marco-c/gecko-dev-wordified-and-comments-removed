@@ -18,6 +18,15 @@ pldhash
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFrame
 ;
@@ -125,6 +134,7 @@ UndisplayedMap
 ;
 nsIPresShell
 *
+MOZ_NON_OWNING_REF
 mPresShell
 ;
 nsStyleSet
