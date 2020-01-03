@@ -261,6 +261,7 @@ LinkMfplat
 )
 &
 &
+(
 !
 !
 GetModuleHandleA
@@ -271,8 +272,8 @@ msauddecmft
 dll
 "
 )
-&
-&
+|
+|
 !
 !
 GetModuleHandleA
@@ -282,6 +283,7 @@ msmpeg2adec
 .
 dll
 "
+)
 )
 &
 &
