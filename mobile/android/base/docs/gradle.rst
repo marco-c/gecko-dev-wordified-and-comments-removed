@@ -94,15 +94,10 @@ build
 /
 mach
 package
-cd
-OBJDIR
-/
-mobile
-/
-android
 .
 /
-gradlew
+mach
+gradle
 build
 The
 debug
