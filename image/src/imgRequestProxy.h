@@ -1,9 +1,9 @@
 #
 ifndef
-imgRequestProxy_h__
+mozilla_image_src_imgRequestProxy_h
 #
 define
-imgRequestProxy_h__
+mozilla_image_src_imgRequestProxy_h
 #
 include
 "

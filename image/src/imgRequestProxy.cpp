@@ -299,9 +299,11 @@ if
 !
 mOwnerHasImage
 )
+{
 return
 nullptr
 ;
+}
 nsRefPtr
 <
 ProgressTracker
@@ -471,10 +473,12 @@ while
 (
 mLockCount
 )
+{
 UnlockImage
 (
 )
 ;
+}
 ClearAnimationConsumers
 (
 )
@@ -618,6 +622,7 @@ GetOwner
 (
 )
 )
+{
 GetOwner
 (
 )
@@ -628,6 +633,7 @@ AddProxy
 this
 )
 ;
+}
 return
 NS_OK
 ;
@@ -680,10 +686,12 @@ while
 (
 mLockCount
 )
+{
 UnlockImage
 (
 )
 ;
+}
 uint32_t
 oldAnimationConsumers
 =
@@ -770,10 +778,12 @@ i
 +
 +
 )
+{
 LockImage
 (
 )
 ;
+}
 for
 (
 uint32_t
@@ -789,10 +799,12 @@ i
 +
 +
 )
+{
 IncrementAnimationConsumers
 (
 )
 ;
+}
 GetOwner
 (
 )
@@ -884,8 +896,10 @@ if
 !
 mIsInLoadGroup
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 imgIRequest
@@ -941,6 +955,7 @@ if
 (
 mURI
 )
+{
 mURI
 -
 >
@@ -949,6 +964,7 @@ GetSpec
 aName
 )
 ;
+}
 return
 NS_OK
 ;
@@ -997,9 +1013,11 @@ if
 (
 mCanceled
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 LOG_SCOPE
 (
 GetImgLog
@@ -1089,9 +1107,11 @@ mCanceled
 !
 mListener
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 LOG_SCOPE
 (
 GetImgLog
@@ -1316,6 +1336,7 @@ if
 (
 image
 )
+{
 return
 image
 -
@@ -1324,6 +1345,7 @@ LockImage
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1369,6 +1391,7 @@ if
 (
 image
 )
+{
 return
 image
 -
@@ -1377,6 +1400,7 @@ UnlockImage
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1403,6 +1427,7 @@ if
 (
 image
 )
+{
 return
 image
 -
@@ -1411,6 +1436,7 @@ RequestDiscard
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1441,6 +1467,7 @@ if
 (
 image
 )
+{
 image
 -
 >
@@ -1448,6 +1475,7 @@ IncrementAnimationConsumers
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1485,6 +1513,7 @@ if
 (
 image
 )
+{
 image
 -
 >
@@ -1492,6 +1521,7 @@ DecrementAnimationConsumers
 (
 )
 ;
+}
 }
 return
 NS_OK
@@ -1511,10 +1541,12 @@ mAnimationConsumers
 >
 0
 )
+{
 DecrementAnimationConsumers
 (
 )
 ;
+}
 }
 NS_IMETHODIMP
 imgRequestProxy
@@ -1770,9 +1802,11 @@ GetOwner
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aStatus
 =
@@ -1861,9 +1895,11 @@ GetOwner
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 return
 GetOwner
 (
@@ -1893,9 +1929,11 @@ if
 !
 mURI
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ADDREF
 (
 *
@@ -1954,9 +1992,11 @@ GetOwner
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 const
 char
 *
@@ -1976,9 +2016,11 @@ if
 !
 type
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aMimeType
 =
@@ -2216,9 +2258,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 NS_ADDREF
 (
 *
@@ -2257,9 +2301,11 @@ GetOwner
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ADDREF
 (
 *
@@ -2297,9 +2343,11 @@ GetOwner
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aMultipart
 =
@@ -2334,9 +2382,11 @@ GetOwner
 (
 )
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 *
 aCorsMode
 =
@@ -2482,6 +2532,7 @@ GetOwner
 (
 )
 )
+{
 return
 GetOwner
 (
@@ -2493,6 +2544,7 @@ GetSecurityInfo
 _retval
 )
 ;
+}
 *
 _retval
 =
@@ -3103,10 +3155,12 @@ if
 (
 mListener
 )
+{
 ClearAnimationConsumers
 (
 )
 ;
+}
 if
 (
 mListenerIsStrongRef
@@ -3478,6 +3532,7 @@ mLockCount
 +
 i
 )
+{
 image
 -
 >
@@ -3485,6 +3540,7 @@ LockImage
 (
 )
 ;
+}
 for
 (
 uint32_t
@@ -3500,6 +3556,7 @@ i
 +
 +
 )
+{
 image
 -
 >
@@ -3507,6 +3564,7 @@ IncrementAnimationConsumers
 (
 )
 ;
+}
 }
 already_AddRefed
 <
@@ -3570,9 +3628,11 @@ if
 !
 mOwnerHasImage
 )
+{
 return
 false
 ;
+}
 nsRefPtr
 <
 ProgressTracker
@@ -3844,9 +3904,11 @@ if
 !
 mPrincipal
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ADDREF
 (
 *
