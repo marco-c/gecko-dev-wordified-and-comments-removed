@@ -522,7 +522,7 @@ aRange
 explicit
 nsDOMIterator
 (
-nsIDOMNode
+nsINode
 &
 aNode
 )
