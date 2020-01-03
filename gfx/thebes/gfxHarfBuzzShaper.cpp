@@ -1899,6 +1899,16 @@ d
 )
 )
 ;
+if
+(
+!
+headTable
+)
+{
+return
+nullptr
+;
+}
 const
 HeadTable
 *
