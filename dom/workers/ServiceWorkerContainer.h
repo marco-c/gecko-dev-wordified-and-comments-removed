@@ -198,6 +198,11 @@ ServiceWorkerContainer
 (
 )
 ;
+void
+RemoveReadyPromise
+(
+)
+;
 nsRefPtr
 <
 workers
