@@ -1,7 +1,7 @@
 #
 include
 "
-DirectShowUtils
+dshow
 .
 h
 "
@@ -23,6 +23,13 @@ h
 include
 "
 dmoreg
+.
+h
+"
+#
+include
+"
+DirectShowUtils
 .
 h
 "
