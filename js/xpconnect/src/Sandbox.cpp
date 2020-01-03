@@ -1496,7 +1496,6 @@ if
 GetOrCreateDOMReflector
 (
 cx
-scope
 response
 args
 .

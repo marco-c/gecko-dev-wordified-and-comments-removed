@@ -132,6 +132,12 @@ nsWrapperCache
 :
 GetWrapperPreserveColor
 ;
+using
+nsWrapperCache
+:
+:
+GetWrapper
+;
 virtual
 JSObject
 *
