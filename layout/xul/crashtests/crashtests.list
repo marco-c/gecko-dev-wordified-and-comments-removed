@@ -365,6 +365,16 @@ asserts
 (
 4
 )
+asserts
+-
+if
+(
+gtkWidget
+&
+&
+browserIsRemote
+6
+)
 load
 415394
 -
@@ -374,6 +384,8 @@ xhtml
 #
 Bug
 163838
+bug
+1195474
 load
 417509
 .
