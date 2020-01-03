@@ -90,7 +90,7 @@ namespace
 mozilla
 {
 struct
-DestroyPolicy
+CubebDestroyPolicy
 {
 void
 operator
@@ -1126,7 +1126,7 @@ mBuffer
 UniquePtr
 <
 cubeb_stream
-DestroyPolicy
+CubebDestroyPolicy
 >
 mCubebStream
 ;
