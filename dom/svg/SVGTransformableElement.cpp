@@ -264,6 +264,12 @@ GetPrimaryFrame
 (
 )
 ;
+NS_UpdateHint
+(
+retval
+nsChangeHint_InvalidateRenderingObservers
+)
+;
 if
 (
 !

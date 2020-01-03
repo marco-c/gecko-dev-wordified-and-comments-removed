@@ -86,6 +86,9 @@ nsChangeHint_SchedulePaint
 nsChangeHint_NeutralChange
 =
 0x100000
+nsChangeHint_InvalidateRenderingObservers
+=
+0x200000
 }
 ;
 inline
@@ -285,6 +288,9 @@ nsChangeHint_UpdateTransformLayer
 nsChangeHint_UpdateEffects
 |
 \
+nsChangeHint_InvalidateRenderingObservers
+|
+\
 nsChangeHint_UpdateOpacityLayer
 |
 \
@@ -330,6 +336,8 @@ aChangeHint
 nsChangeHint_UpdateTransformLayer
 |
 nsChangeHint_UpdateEffects
+|
+nsChangeHint_InvalidateRenderingObservers
 |
 nsChangeHint_UpdateOpacityLayer
 |
