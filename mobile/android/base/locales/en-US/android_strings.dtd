@@ -3979,6 +3979,17 @@ password
 <
 !
 ENTITY
+doorhanger_login_edit_toast_error
+"
+Failed
+to
+save
+login
+"
+>
+<
+!
+ENTITY
 pref_titlebar_mode
 "
 Title
