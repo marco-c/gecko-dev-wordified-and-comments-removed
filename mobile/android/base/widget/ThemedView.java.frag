@@ -101,6 +101,8 @@ mozilla
 .
 gecko
 .
+lwt
+.
 LightweightTheme
 ;
 import
