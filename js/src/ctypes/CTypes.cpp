@@ -4384,7 +4384,7 @@ RootedObject
 prototype
 (
 cx
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 &
@@ -4877,7 +4877,7 @@ typeProto
 .
 set
 (
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 &
@@ -4983,7 +4983,7 @@ dataProto
 .
 set
 (
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 &
@@ -15591,7 +15591,7 @@ RootedObject
 typeObj
 (
 cx
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 &
@@ -15670,7 +15670,7 @@ RootedObject
 prototype
 (
 cx
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 &
@@ -23893,9 +23893,6 @@ cx
 &
 sCDataProtoClass
 dataProto
-NullPtr
-(
-)
 )
 )
 ;
@@ -31600,7 +31597,7 @@ RootedObject
 dataObj
 (
 cx
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 &
@@ -34731,9 +34728,6 @@ cx
 &
 sCDataFinalizerClass
 objProto
-NullPtr
-(
-)
 )
 ;
 args
@@ -35306,9 +35300,6 @@ cx
 &
 sCDataFinalizerClass
 objProto
-NullPtr
-(
-)
 )
 ;
 if
@@ -36629,7 +36620,7 @@ RootedObject
 result
 (
 cx
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 clasp

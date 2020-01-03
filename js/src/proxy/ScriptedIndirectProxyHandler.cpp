@@ -2882,12 +2882,6 @@ js
 NullPtr
 (
 )
-cx
--
->
-global
-(
-)
 )
 )
 ;

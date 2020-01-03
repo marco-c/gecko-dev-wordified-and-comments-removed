@@ -3496,7 +3496,7 @@ false
 }
 mFlatJSObject
 =
-JS_NewObjectWithGivenProto
+JS_DeprecatedNewObjectWithGivenProtoAndParent
 (
 cx
 jsclazz
