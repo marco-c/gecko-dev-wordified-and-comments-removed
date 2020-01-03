@@ -2541,10 +2541,6 @@ test
         
 timeout
 =
-self
-.
-timeout_multiplier
-*
 test
 .
 timeout
