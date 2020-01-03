@@ -135,7 +135,7 @@ unsigned
 int
 kTimeout
 =
-1000
+665
 ;
 nsresult
 SetupJS
