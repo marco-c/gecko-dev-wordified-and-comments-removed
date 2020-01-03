@@ -634,6 +634,22 @@ out
 )
 )
         
+if
+self
+.
+config
+.
+substs
+.
+get
+(
+'
+COMPILE_ENVIRONMENT
+'
+True
+)
+:
+            
 start
 =
 time
@@ -641,7 +657,7 @@ time
 time
 (
 )
-        
+            
 objs
 =
 list
@@ -653,7 +669,7 @@ _emit_libs_derived
 contexts
 )
 )
-        
+            
 emitter_time
 +
 =
@@ -664,7 +680,7 @@ time
 )
 -
 start
-        
+            
 for
 o
 in
