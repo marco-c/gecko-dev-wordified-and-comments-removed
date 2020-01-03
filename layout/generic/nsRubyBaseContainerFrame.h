@@ -298,6 +298,8 @@ const
 ReflowState
 &
 aReflowState
+uint32_t
+aColumnIndex
 const
 mozilla
 :
@@ -344,9 +346,6 @@ aIsComplete
 ;
 nscoord
 mBaseline
-;
-uint32_t
-mColumnCount
 ;
 }
 ;
