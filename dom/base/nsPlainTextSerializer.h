@@ -90,6 +90,7 @@ Element
 }
 class
 nsPlainTextSerializer
+MOZ_FINAL
 :
 public
 nsIContentSerializer
@@ -273,9 +274,8 @@ aStr
 )
 MOZ_OVERRIDE
 ;
-protected
+private
 :
-virtual
 ~
 nsPlainTextSerializer
 (
@@ -519,8 +519,6 @@ nsIAtom
 aTag
 )
 ;
-private
-:
 bool
 IsElementPreformatted
 (
@@ -535,7 +533,7 @@ Element
 aElement
 )
 ;
-protected
+private
 :
 nsString
 mCurrentLine
