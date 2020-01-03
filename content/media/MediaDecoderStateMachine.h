@@ -1138,11 +1138,6 @@ OnAudioSinkComplete
 (
 )
 ;
-void
-DoNotifyWaitingForResourcesStatusChanged
-(
-)
-;
 nsRefPtr
 <
 MediaDecoder
