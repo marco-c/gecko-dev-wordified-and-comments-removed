@@ -730,13 +730,9 @@ if
 !
 dstArr
 .
-SetCapacity
+Assign
 (
 srcArr
-.
-Length
-(
-)
 fallible
 )
 )
@@ -745,10 +741,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-dstArr
-=
-srcArr
-;
 return
 NS_OK
 ;

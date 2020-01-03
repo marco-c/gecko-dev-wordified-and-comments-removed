@@ -157,13 +157,9 @@ if
 !
 mItems
 .
-SetCapacity
+Assign
 (
 aTransformArray
-.
-Length
-(
-)
 fallible
 )
 )
@@ -172,10 +168,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-mItems
-=
-aTransformArray
-;
 return
 NS_OK
 ;
