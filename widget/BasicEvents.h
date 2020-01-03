@@ -3341,6 +3341,16 @@ AccelModifier
 (
 )
 ;
+static
+Modifier
+GetModifier
+(
+const
+nsAString
+&
+aDOMKeyName
+)
+;
 bool
 IsAccel
 (
