@@ -3688,7 +3688,7 @@ urlbar
 .
 unifiedcomplete
 "
-false
+true
 )
 ;
 pref
