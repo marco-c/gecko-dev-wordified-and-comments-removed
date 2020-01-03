@@ -207,7 +207,10 @@ defaultShift
 =
 sizeof
 (
-jsval
+JS
+:
+:
+Value
 )
 "
 The

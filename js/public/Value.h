@@ -9027,13 +9027,6 @@ aligned
 #
 endif
 }
-typedef
-JS
-:
-:
-Value
-jsval
-;
 static_assert
 (
 sizeof
