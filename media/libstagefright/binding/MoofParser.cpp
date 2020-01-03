@@ -43,12 +43,6 @@ defined
 (
 MOZ_FMP4
 )
-&
-&
-defined
-(
-PR_LOGGING
-)
 extern
 PRLogModuleInfo
 *
