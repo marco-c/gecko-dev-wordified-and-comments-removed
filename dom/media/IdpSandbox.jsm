@@ -1284,6 +1284,9 @@ crypto
 '
 rtcIdentityProvider
 '
+'
+fetch
+'
 ]
 }
 )
