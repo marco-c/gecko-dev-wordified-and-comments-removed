@@ -71,7 +71,6 @@ let
 cachedLeftPaneFolderIdGetter
 ;
 let
-(
 getter
 =
 PlacesUIUtils
@@ -82,8 +81,7 @@ __lookupGetter__
 leftPaneFolderId
 "
 )
-)
-{
+;
 if
 (
 !
@@ -100,6 +98,7 @@ getter
 function
 "
 )
+{
 cachedLeftPaneFolderIdGetter
 =
 getter
@@ -112,7 +111,6 @@ function
 )
 {
 let
-(
 getter
 =
 PlacesUIUtils
@@ -123,8 +121,7 @@ __lookupGetter__
 leftPaneFolderId
 "
 )
-)
-{
+;
 if
 (
 cachedLeftPaneFolderIdGetter
@@ -140,6 +137,7 @@ getter
 function
 "
 )
+{
 PlacesUIUtils
 .
 __defineGetter__

@@ -103,14 +103,12 @@ return
 ;
 }
 let
-(
 sessionStoreJS
 =
 getSessionstoreFile
 (
 )
-)
-{
+;
 if
 (
 sessionStoreJS
@@ -126,7 +124,6 @@ remove
 false
 )
 ;
-}
 const
 TEST_URL
 =

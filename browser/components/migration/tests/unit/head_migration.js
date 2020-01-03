@@ -140,7 +140,6 @@ do_get_profile
 )
 ;
 let
-(
 XULAppInfo
 =
 {
@@ -301,8 +300,7 @@ this
 ;
 }
 }
-)
-{
+;
 const
 CONTRACT_ID
 =
@@ -407,4 +405,3 @@ nsIFactory
 }
 )
 ;
-}
