@@ -2412,6 +2412,14 @@ ins
 )
 ;
 void
+visitNewTarget
+(
+LNewTarget
+*
+ins
+)
+;
+void
 visitCheckOverRecursed
 (
 LCheckOverRecursed
