@@ -2846,10 +2846,6 @@ static
 bool
 sDoNotReturnNoLayoutErrorToEasyChangjei
 ;
-static
-UINT
-sFlushTIPInputMessage
-;
 }
 ;
 #
