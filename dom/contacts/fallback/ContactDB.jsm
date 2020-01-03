@@ -6382,7 +6382,7 @@ newTxn
 "
 readwrite
 "
-STORE_NAME
+SAVED_GETALL_STORE_NAME
 function
 (
 txn
