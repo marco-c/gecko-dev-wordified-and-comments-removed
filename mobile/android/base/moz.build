@@ -2591,11 +2591,6 @@ Restarter
 java
 '
 '
-RestrictedProfiles
-.
-java
-'
-'
 ScrollAnimator
 .
 java
