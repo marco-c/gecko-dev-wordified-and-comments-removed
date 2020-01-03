@@ -274,6 +274,11 @@ gst_plugin_feature_get_rank
 GST_FUNC
 (
 LIBGSTREAMER
+gst_plugin_feature_get_type
+)
+GST_FUNC
+(
+LIBGSTREAMER
 gst_registry_feature_filter
 )
 GST_FUNC
@@ -396,6 +401,11 @@ GST_FUNC
 (
 LIBGSTREAMER
 gst_pad_set_bufferalloc_function
+)
+GST_FUNC
+(
+LIBGSTREAMER
+gst_plugin_feature_get_name
 )
 GST_FUNC
 (
