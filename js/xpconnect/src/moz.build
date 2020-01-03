@@ -138,6 +138,11 @@ nsScriptError
 cpp
 '
 '
+nsScriptErrorWithStack
+.
+cpp
+'
+'
 nsXPConnect
 .
 cpp
