@@ -9242,13 +9242,7 @@ dstAlloc
 )
 dstAlloc
 =
-js
-:
-:
-gc
-:
-:
-ArenaLists
+GCRuntime
 :
 :
 refillFreeListInGC
