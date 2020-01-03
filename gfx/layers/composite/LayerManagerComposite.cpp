@@ -1425,6 +1425,15 @@ Matrix4x4
 )
 )
 ;
+nsIntRegion
+opaque
+;
+ApplyOcclusionCulling
+(
+mRoot
+opaque
+)
+;
 Render
 (
 )
