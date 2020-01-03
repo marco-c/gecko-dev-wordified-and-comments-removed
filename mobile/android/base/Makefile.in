@@ -3006,7 +3006,6 @@ MOZ_ANDROID_RESOURCE_CONSTRAINED
 )
 -
 c
-mdpi
 hdpi
 )
 \
