@@ -1337,14 +1337,6 @@ vSource
 )
 )
 {
-vSource
--
->
-Refresh
-(
-i
-)
-;
 aVSources
 -
 >
