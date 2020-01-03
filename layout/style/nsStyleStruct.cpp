@@ -7438,8 +7438,7 @@ aOther
 mMaxHeight
 )
 {
-return
-NS_CombineHint
+NS_UpdateHint
 (
 hint
 nsChangeHint_NeedReflow
@@ -7476,8 +7475,7 @@ aOther
 mMaxWidth
 )
 {
-return
-NS_CombineHint
+NS_UpdateHint
 (
 hint
 NS_SubtractHint
@@ -7527,8 +7525,7 @@ nsChangeHint_UpdateParentOverflow
 }
 else
 {
-return
-NS_CombineHint
+NS_UpdateHint
 (
 hint
 nsChangeHint_AllReflowHints
