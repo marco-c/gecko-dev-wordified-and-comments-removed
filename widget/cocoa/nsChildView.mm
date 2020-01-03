@@ -8442,11 +8442,11 @@ DoHasPendingInputEvent
 pragma
 mark
 -
-NS_IMETHODIMP
+nsresult
 nsChildView
 :
 :
-NotifyIME
+NotifyIMEInternal
 (
 const
 IMENotification

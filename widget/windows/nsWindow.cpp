@@ -26408,11 +26408,11 @@ NotifySysColorChanged
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
-NotifyIME
+NotifyIMEInternal
 (
 const
 IMENotification

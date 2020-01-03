@@ -12708,11 +12708,11 @@ NO
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsCocoaWindow
 :
 :
-NotifyIME
+NotifyIMEInternal
 (
 const
 IMENotification
