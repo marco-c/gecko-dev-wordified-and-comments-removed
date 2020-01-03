@@ -1574,6 +1574,11 @@ Init
 )
 ;
 void
+ForwardKnownInfo
+(
+)
+;
+void
 MaybeTakeCPUWakeLock
 (
 Element
@@ -3364,6 +3369,9 @@ mNumDestroyingTabs
 ;
 bool
 mIsAlive
+;
+bool
+mMetamorphosed
 ;
 bool
 mSendPermissionUpdates
