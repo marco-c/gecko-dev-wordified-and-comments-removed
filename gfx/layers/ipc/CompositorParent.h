@@ -435,9 +435,9 @@ mCompositorParent
 ;
 nsRefPtr
 <
-VsyncDispatcher
+CompositorVsyncDispatcher
 >
-mVsyncDispatcher
+mCompositorVsyncDispatcher
 ;
 mozilla
 :

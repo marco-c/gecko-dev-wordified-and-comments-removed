@@ -954,12 +954,12 @@ aWidget
 nullptr
 )
 ;
-mVsyncDispatcher
+mCompositorVsyncDispatcher
 =
 aWidget
 -
 >
-GetVsyncDispatcher
+GetCompositorVsyncDispatcher
 (
 )
 ;
@@ -1009,7 +1009,7 @@ mCompositorParent
 =
 nullptr
 ;
-mVsyncDispatcher
+mCompositorVsyncDispatcher
 =
 nullptr
 ;
@@ -1306,7 +1306,7 @@ IsInCompositorThread
 )
 )
 ;
-mVsyncDispatcher
+mCompositorVsyncDispatcher
 -
 >
 SetCompositorVsyncObserver
@@ -1342,7 +1342,7 @@ NS_IsMainThread
 )
 )
 ;
-mVsyncDispatcher
+mCompositorVsyncDispatcher
 -
 >
 SetCompositorVsyncObserver

@@ -153,7 +153,7 @@ namespace
 mozilla
 {
 class
-VsyncDispatcher
+CompositorVsyncDispatcher
 ;
 namespace
 dom
@@ -1534,8 +1534,8 @@ typedef
 mozilla
 :
 :
-VsyncDispatcher
-VsyncDispatcher
+CompositorVsyncDispatcher
+CompositorVsyncDispatcher
 ;
 struct
 ThemeGeometry
@@ -1785,9 +1785,9 @@ GetDPI
 0
 ;
 virtual
-VsyncDispatcher
+CompositorVsyncDispatcher
 *
-GetVsyncDispatcher
+GetCompositorVsyncDispatcher
 (
 )
 =
