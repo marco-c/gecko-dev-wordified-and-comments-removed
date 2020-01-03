@@ -178,11 +178,11 @@ override
 ;
 virtual
 void
-SetRemoveFromCompositableTracker
+SetRemoveFromCompositableWaiter
 (
-AsyncTransactionTracker
+AsyncTransactionWaiter
 *
-aTracker
+aWaiter
 )
 override
 ;
@@ -442,9 +442,9 @@ mGrallocHandle
 ;
 RefPtr
 <
-AsyncTransactionTracker
+AsyncTransactionWaiter
 >
-mRemoveFromCompositableTracker
+mRemoveFromCompositableWaiter
 ;
 android
 :

@@ -214,7 +214,7 @@ namespace
 layers
 {
 class
-AsyncTransactionTracker
+AsyncTransactionWaiter
 ;
 class
 CompositableForwarder
@@ -1102,11 +1102,11 @@ mAcquireFenceHandle
 }
 virtual
 void
-SetRemoveFromCompositableTracker
+SetRemoveFromCompositableWaiter
 (
-AsyncTransactionTracker
+AsyncTransactionWaiter
 *
-aTracker
+aWaiter
 )
 {
 }
