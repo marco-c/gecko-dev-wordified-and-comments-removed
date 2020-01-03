@@ -3920,6 +3920,15 @@ EndUnless
 {
 EndIf
 }
+;
+Add
+the
+Firewall
+entries
+during
+install
+Call
+AddFirewallEntries
 !
 ifdef
 MOZ_MAINTENANCE_SERVICE

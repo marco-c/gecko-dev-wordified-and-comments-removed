@@ -170,6 +170,10 @@ InvokeShellVerb
 .
 dll
 \
+liteFirewallW
+.
+dll
+\
 ServicesHelper
 .
 dll
