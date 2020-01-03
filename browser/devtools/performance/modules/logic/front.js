@@ -2112,7 +2112,7 @@ ui
 .
 enable
 -
-memory
+allocations
 "
 )
 allocationsSampleProbability

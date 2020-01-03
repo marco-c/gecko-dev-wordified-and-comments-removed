@@ -41,6 +41,16 @@ prefs
 .
 setBoolPref
 (
+ALLOCATIONS_PREF
+true
+)
+;
+Services
+.
+prefs
+.
+setBoolPref
+(
 MEMORY_PREF
 true
 )

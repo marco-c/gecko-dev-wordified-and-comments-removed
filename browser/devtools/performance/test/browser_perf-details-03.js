@@ -19,7 +19,6 @@ let
 {
 EVENTS
 PerformanceController
-OverviewView
 DetailsView
 }
 =
@@ -45,7 +44,7 @@ prefs
 .
 setBoolPref
 (
-MEMORY_PREF
+ALLOCATIONS_PREF
 false
 )
 ;
@@ -91,7 +90,7 @@ prefs
 .
 setBoolPref
 (
-MEMORY_PREF
+ALLOCATIONS_PREF
 true
 )
 ;
