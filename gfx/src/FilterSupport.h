@@ -1580,6 +1580,10 @@ SourceSurface
 &
 aAdditionalImages
 const
+Point
+&
+aDestPoint
+const
 DrawOptions
 &
 aOptions

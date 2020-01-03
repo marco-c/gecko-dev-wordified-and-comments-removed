@@ -7744,6 +7744,10 @@ SourceSurface
 &
 aAdditionalImages
 const
+Point
+&
+aDestPoint
+const
 DrawOptions
 &
 aOptions
@@ -7776,11 +7780,7 @@ DrawFilter
 (
 resultFilter
 aRenderRect
-Point
-(
-0
-0
-)
+aDestPoint
 aOptions
 )
 ;
