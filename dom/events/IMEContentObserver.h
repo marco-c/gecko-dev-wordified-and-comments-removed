@@ -438,10 +438,15 @@ ObserveEditableNode
 )
 ;
 void
-UnregisterObservers
+NotifyIMEOfBlur
 (
 bool
 aPostEvent
+)
+;
+void
+UnregisterObservers
+(
 )
 ;
 void
