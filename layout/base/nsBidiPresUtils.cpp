@@ -1607,7 +1607,7 @@ AppendFrame
 frame
 )
 ;
-uint8_t
+nsBidiLevel
 level
 =
 nsBidiPresUtils
@@ -2914,7 +2914,7 @@ rv
 rv
 )
 ;
-uint8_t
+nsBidiLevel
 embeddingLevel
 =
 aBpd
