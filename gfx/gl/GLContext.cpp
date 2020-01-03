@@ -4829,8 +4829,11 @@ NVIDIA
 nsCocoaFeatures
 :
 :
-OnMavericksOrLater
+IsAtLeastVersion
 (
+10
+8
+3
 )
 )
 {
