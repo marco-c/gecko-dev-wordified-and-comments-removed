@@ -1455,14 +1455,6 @@ PlayState
 aState
 )
 ;
-virtual
-void
-ApplyStateToStateMachine
-(
-PlayState
-aState
-)
-;
 void
 OnReadMetadataCompleted
 (
