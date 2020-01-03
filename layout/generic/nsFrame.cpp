@@ -7137,6 +7137,7 @@ MaybeSnapToDevicePixels
 (
 rect
 aDrawTarget
+true
 )
 ;
 aDrawTarget
