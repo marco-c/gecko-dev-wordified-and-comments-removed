@@ -279,4 +279,15 @@ string
 "
 )
 ;
+do_check_eq
+(
+s
+"
+[
+object
+Object
+]
+"
+)
+;
 }
