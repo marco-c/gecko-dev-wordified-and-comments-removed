@@ -713,15 +713,6 @@ aValue
 )
 ;
 void
-HandlePairingRequest
-(
-const
-BluetoothValue
-&
-aValue
-)
-;
-void
 DispatchAttributeEvent
 (
 const
@@ -764,6 +755,11 @@ const
 BluetoothValue
 &
 aValue
+)
+;
+bool
+IsBluetoothCertifiedApp
+(
 )
 ;
 BluetoothAdapterState
