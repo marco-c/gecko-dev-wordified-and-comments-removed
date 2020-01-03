@@ -74,7 +74,7 @@ aEventType
 bool
 aBubbles
 bool
-aDispatchChromeOnly
+aOnlyChromeDispatch
 )
 :
 mTarget
@@ -89,9 +89,9 @@ mBubbles
 (
 aBubbles
 )
-mDispatchChromeOnly
+mOnlyChromeDispatch
 (
-aDispatchChromeOnly
+aOnlyChromeDispatch
 )
 {
 }
@@ -123,7 +123,7 @@ mBubbles
 (
 aBubbles
 )
-mDispatchChromeOnly
+mOnlyChromeDispatch
 (
 false
 )
@@ -150,7 +150,7 @@ mEvent
 (
 aEvent
 )
-mDispatchChromeOnly
+mOnlyChromeDispatch
 (
 false
 )
@@ -207,7 +207,7 @@ bool
 mBubbles
 ;
 bool
-mDispatchChromeOnly
+mOnlyChromeDispatch
 ;
 }
 ;
