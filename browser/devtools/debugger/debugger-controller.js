@@ -1086,10 +1086,9 @@ actor
 else
 if
 (
-!
 target
 .
-isTabActor
+chrome
 )
 {
 yield

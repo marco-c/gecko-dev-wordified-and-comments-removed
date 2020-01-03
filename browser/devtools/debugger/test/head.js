@@ -3980,9 +3980,6 @@ client
 chrome
 :
 true
-isTabActor
-:
-false
 }
 ;
 let

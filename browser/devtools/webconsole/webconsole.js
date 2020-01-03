@@ -21009,11 +21009,12 @@ consoleActor
 ;
 if
 (
+!
 this
 .
 target
 .
-isTabActor
+chrome
 )
 {
 let
