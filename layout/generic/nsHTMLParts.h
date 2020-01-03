@@ -816,8 +816,9 @@ aPresShell
 nsStyleContext
 *
 aContext
-bool
-aIsBorderCollapse
+nsTableFrame
+*
+aTableFrame
 )
 ;
 nsresult

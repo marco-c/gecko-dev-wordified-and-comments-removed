@@ -18,6 +18,9 @@ nsISupports
 .
 h
 "
+class
+nsTableFrame
+;
 nsIFrame
 *
 NS_NewMathMLTokenFrame
@@ -220,6 +223,9 @@ aPresShell
 nsStyleContext
 *
 aContext
+nsTableFrame
+*
+aTableFrame
 )
 ;
 nsContainerFrame
