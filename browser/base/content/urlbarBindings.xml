@@ -3480,6 +3480,10 @@ url
 getShortcutOrURIAndPostData
 (
 url
+)
+.
+then
+(
 data
 =
 >
