@@ -64,3 +64,7 @@ TestTArray
 #
 Bug
 1054251
+TestAudioBuffers
+#
+Bug
+1062937
