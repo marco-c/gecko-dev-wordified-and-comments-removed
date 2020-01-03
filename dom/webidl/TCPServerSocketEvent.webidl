@@ -71,7 +71,7 @@ eventInitDict
 Func
 =
 "
-TCPServerSocketParent
+TCPSocketUtils
 :
 :
 SocketEnabled
@@ -90,12 +90,9 @@ Event
 {
 readonly
 attribute
-nsIDOMTCPSocket
+mozTCPSocket
 socket
 ;
-/
-/
-mozTCPSocket
 }
 ;
 dictionary
@@ -103,7 +100,7 @@ TCPServerSocketEventInit
 :
 EventInit
 {
-nsIDOMTCPSocket
+mozTCPSocket
 ?
 socket
 =

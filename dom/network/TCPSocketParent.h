@@ -39,13 +39,6 @@ h
 #
 include
 "
-nsIDOMTCPSocket
-.
-h
-"
-#
-include
-"
 js
 /
 TypeDecls
@@ -82,6 +75,9 @@ TCPSOCKETPARENT_CID
 0x4a
 }
 }
+class
+nsITCPSocketInternal
+;
 namespace
 mozilla
 {
@@ -152,7 +148,7 @@ mIntermediary
 ;
 nsCOMPtr
 <
-nsIDOMTCPSocket
+nsITCPSocketInternal
 >
 mSocket
 ;

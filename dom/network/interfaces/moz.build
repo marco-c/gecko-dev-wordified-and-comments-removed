@@ -98,11 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMTCPSocket
-.
-idl
-'
-'
 nsIMozNavigatorNetwork
 .
 idl
@@ -124,6 +119,11 @@ idl
 '
 '
 nsITCPSocketChild
+.
+idl
+'
+'
+nsITCPSocketInternal
 .
 idl
 '

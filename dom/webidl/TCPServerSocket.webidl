@@ -173,7 +173,7 @@ socket
 Func
 =
 "
-TCPServerSocketParent
+TCPSocketUtils
 :
 :
 SocketEnabled

@@ -64,7 +64,7 @@ domstubs
 idl
 "
 interface
-nsIDOMTCPSocket
+nsITCPSocketInternal
 ;
 interface
 nsITCPServerSocketInternal
@@ -330,14 +330,11 @@ object
 See
 nsITCPSocketIntermediary
 .
-[
-implicit_jscontext
-]
 void
 setSocketAndIntermediary
 (
 in
-nsIDOMTCPSocket
+nsITCPSocketInternal
 socket
 in
 nsITCPSocketIntermediary
@@ -571,7 +568,7 @@ with
 the
 given
 parameters
-nsIDOMTCPSocket
+nsITCPSocketInternal
 open
 (
 in
