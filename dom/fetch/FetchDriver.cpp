@@ -2894,6 +2894,8 @@ mPipeOutputStream
 )
 0
 UINT32_MAX
+true
+false
 )
 ;
 if
