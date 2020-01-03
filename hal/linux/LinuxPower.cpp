@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+HalLog
+.
+h
+"
+#
+include
 <
 unistd
 .
