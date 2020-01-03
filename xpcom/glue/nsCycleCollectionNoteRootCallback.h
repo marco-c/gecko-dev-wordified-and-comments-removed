@@ -34,7 +34,7 @@ void
 )
 NoteJSRoot
 (
-void
+JSObject
 *
 aRoot
 )
