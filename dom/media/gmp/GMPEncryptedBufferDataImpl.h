@@ -54,6 +54,7 @@ GMPStringList
 {
 public
 :
+explicit
 GMPStringListImpl
 (
 const
