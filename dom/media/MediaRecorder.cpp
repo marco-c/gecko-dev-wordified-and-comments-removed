@@ -2785,6 +2785,10 @@ NS_IsMainThread
 )
 )
 ;
+CleanupStreams
+(
+)
+;
 if
 (
 NS_FAILED
@@ -2819,10 +2823,6 @@ runnable
 )
 ;
 }
-CleanupStreams
-(
-)
-;
 if
 (
 NS_FAILED
