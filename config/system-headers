@@ -1619,6 +1619,11 @@ ftcache
 h
 freetype
 /
+ftfntfmt
+.
+h
+freetype
+/
 ftglyph
 .
 h
