@@ -237,6 +237,9 @@ TextRange
 class
 TextRangeArray
 ;
+struct
+FontRange
+;
 }
 #
 endif
