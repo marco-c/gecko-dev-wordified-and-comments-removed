@@ -13093,6 +13093,15 @@ mBrowserToolbar
 isEditing
 (
 )
+&
+&
+!
+NewTabletUI
+.
+isEnabled
+(
+this
+)
 )
 {
 return
