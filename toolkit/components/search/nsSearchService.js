@@ -25074,7 +25074,11 @@ sendSubmissionURL
 :
 jar
 :
-|
+)
+?
+(
+?
+:
 \
 [
 app
