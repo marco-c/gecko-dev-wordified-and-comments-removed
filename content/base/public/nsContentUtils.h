@@ -1695,6 +1695,15 @@ aArgNames
 ;
 static
 bool
+IsInPrivateBrowsing
+(
+nsIDocument
+*
+aDoc
+)
+;
+static
+bool
 IsInSameAnonymousTree
 (
 const
