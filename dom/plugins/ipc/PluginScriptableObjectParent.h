@@ -73,6 +73,10 @@ invalidated
 (
 false
 )
+asyncWrapperCount
+(
+0
+)
 {
 }
 PluginScriptableObjectParent
@@ -81,6 +85,9 @@ parent
 ;
 bool
 invalidated
+;
+int32_t
+asyncWrapperCount
 ;
 }
 ;

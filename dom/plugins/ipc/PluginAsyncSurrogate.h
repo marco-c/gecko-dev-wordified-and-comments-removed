@@ -82,6 +82,9 @@ mozilla
 namespace
 plugins
 {
+struct
+ParentNPObject
+;
 class
 PluginInstanceParent
 ;
@@ -878,7 +881,7 @@ PluginAsyncSurrogate
 >
 mSurrogate
 ;
-NPObject
+ParentNPObject
 *
 mRealObject
 ;
