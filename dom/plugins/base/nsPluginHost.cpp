@@ -7039,8 +7039,7 @@ host
 {
 }
 NS_DECL_ISUPPORTS
-virtual
-nsresult
+NS_IMETHOD
 Callback
 (
 nsresult
@@ -7168,8 +7167,7 @@ return
 NS_OK
 ;
 }
-virtual
-nsresult
+NS_IMETHOD
 SitesWithData
 (
 InfallibleTArray
@@ -7527,8 +7525,7 @@ host
 )
 {
 }
-virtual
-nsresult
+NS_IMETHOD
 SitesWithData
 (
 InfallibleTArray
