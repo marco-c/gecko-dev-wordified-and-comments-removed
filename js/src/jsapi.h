@@ -20568,16 +20568,6 @@ ThrowOnNonIterable
 )
 ;
 bool
-initWithIterator
-(
-JS
-:
-:
-HandleValue
-aIterator
-)
-;
-bool
 next
 (
 JS

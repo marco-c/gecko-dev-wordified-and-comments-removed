@@ -4447,14 +4447,6 @@ nullptr
 JS_FRIEND_API
 (
 void
-)
-onTooMuchMalloc
-(
-)
-;
-JS_FRIEND_API
-(
-void
 *
 )
 onOutOfMemory
