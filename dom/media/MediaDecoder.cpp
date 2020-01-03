@@ -2426,7 +2426,7 @@ mDecoderStateMachine
 mDecoderStateMachine
 -
 >
-SetAudioCaptured
+DispatchAudioCaptured
 (
 )
 ;
@@ -3383,7 +3383,7 @@ GetDecodedStream
 mDecoderStateMachine
 -
 >
-SetAudioCaptured
+DispatchAudioCaptured
 (
 )
 ;
