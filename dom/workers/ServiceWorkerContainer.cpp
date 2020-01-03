@@ -212,11 +212,15 @@ GetServiceWorkerManager
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 swm
 )
+{
+return
 ;
+}
 swm
 -
 >
