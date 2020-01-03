@@ -632,7 +632,7 @@ mTitle
 (
 TextView
 )
-mIdentityKnownContainer
+mIdentity
 .
 findViewById
 (
