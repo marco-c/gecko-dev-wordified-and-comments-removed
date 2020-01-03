@@ -389,7 +389,7 @@ getColorStateList
 (
 R
 .
-drawable
+color
 .
 new_tablet_tab_strip_item_bg
 )
