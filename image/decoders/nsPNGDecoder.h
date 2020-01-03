@@ -1,9 +1,9 @@
 #
 ifndef
-nsPNGDecoder_h__
+nsPNGDecoder_h
 #
 define
-nsPNGDecoder_h__
+nsPNGDecoder_h
 #
 include
 "
