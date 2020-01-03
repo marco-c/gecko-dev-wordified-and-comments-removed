@@ -106,7 +106,6 @@ char
 aBuffer
 uint32_t
 aCount
-DecodeStrategy
 )
 {
 NS_ABORT_IF_FALSE

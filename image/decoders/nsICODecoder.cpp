@@ -783,8 +783,6 @@ char
 aBuffer
 uint32_t
 aCount
-DecodeStrategy
-aStrategy
 )
 {
 NS_ABORT_IF_FALSE
@@ -820,7 +818,6 @@ WriteToContainedDecoder
 (
 aBuffer
 aCount
-aStrategy
 )
 ;
 }
@@ -1461,7 +1458,6 @@ WriteToContainedDecoder
 (
 mSignature
 PNGSIGNATURESIZE
-aStrategy
 )
 )
 {
@@ -1493,7 +1489,6 @@ WriteToContainedDecoder
 (
 aBuffer
 aCount
-aStrategy
 )
 )
 {
@@ -1828,7 +1823,6 @@ sizeof
 (
 bfhBuffer
 )
-aStrategy
 )
 )
 {
@@ -1895,7 +1889,6 @@ sizeof
 (
 mBIHraw
 )
-aStrategy
 )
 )
 {
@@ -2094,7 +2087,6 @@ WriteToContainedDecoder
 (
 aBuffer
 toFeed
-aStrategy
 )
 )
 {
@@ -2498,8 +2490,6 @@ char
 aBuffer
 uint32_t
 aCount
-DecodeStrategy
-aStrategy
 )
 {
 mContainedDecoder
@@ -2509,7 +2499,6 @@ Write
 (
 aBuffer
 aCount
-aStrategy
 )
 ;
 mProgress
