@@ -118,6 +118,9 @@ collapsetoend
 "
 blur
 "
+"
+updateposition
+"
 }
 ;
 dictionary
@@ -125,6 +128,11 @@ SelectionStateChangedEventInit
 :
 EventInit
 {
+boolean
+visible
+=
+true
+;
 DOMString
 selectedText
 =
@@ -164,6 +172,11 @@ SelectionStateChangedEvent
 :
 Event
 {
+readonly
+attribute
+boolean
+visible
+;
 readonly
 attribute
 DOMString
