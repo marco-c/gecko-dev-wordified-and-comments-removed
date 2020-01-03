@@ -1311,6 +1311,11 @@ mIsProcessingAnimationStyleChange
 :
 1
 ;
+bool
+mHavePendingNonAnimationRestyles
+:
+1
+;
 uint32_t
 mHoverGeneration
 ;
