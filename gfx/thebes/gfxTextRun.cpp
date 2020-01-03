@@ -16671,7 +16671,7 @@ fontNeeded
 .
 Append
 (
-PRUnichar
+char16_t
 (
 '
 '
