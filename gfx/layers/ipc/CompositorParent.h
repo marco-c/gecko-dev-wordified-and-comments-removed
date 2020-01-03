@@ -410,6 +410,13 @@ UnobserveVsync
 (
 )
 ;
+void
+DispatchTouchEvents
+(
+TimeStamp
+aVsyncTimestamp
+)
+;
 bool
 mNeedsComposite
 ;
