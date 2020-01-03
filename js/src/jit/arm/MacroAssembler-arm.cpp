@@ -1177,7 +1177,7 @@ Imm32
 1
 )
 r0
-SetCond
+SetCC
 )
 ;
 ma_adc
@@ -1187,7 +1187,7 @@ Imm32
 0
 )
 r1
-NoSetCond
+LeaveCC
 )
 ;
 ma_strd
@@ -1234,8 +1234,8 @@ Register
 dest
 ALUOp
 op
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -1243,10 +1243,10 @@ c
 if
 (
 (
-sc
+s
 =
 =
-SetCond
+SetCC
 &
 &
 !
@@ -1312,7 +1312,7 @@ both
 fst
 )
 interop
-NoSetCond
+LeaveCC
 c
 )
 ;
@@ -1327,7 +1327,7 @@ both
 snd
 )
 op
-sc
+s
 c
 )
 ;
@@ -1349,8 +1349,8 @@ Register
 dest
 ALUOp
 op
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -1364,10 +1364,10 @@ InvalidReg
 )
 MOZ_ASSERT
 (
-sc
+s
 =
 =
-SetCond
+SetCC
 )
 ;
 Imm8
@@ -1394,7 +1394,7 @@ dest
 src1
 imm8
 op
-sc
+s
 c
 )
 ;
@@ -1452,7 +1452,7 @@ negDest
 src1
 negImm8
 negOp
-sc
+s
 c
 )
 ;
@@ -1468,10 +1468,10 @@ HasMOVWT
 {
 if
 (
-sc
+s
 =
 =
-NoSetCond
+LeaveCC
 &
 &
 (
@@ -1651,7 +1651,7 @@ src1
 imm
 dest
 op
-sc
+s
 c
 )
 )
@@ -1671,7 +1671,7 @@ src1
 negImm
 negDest
 negOp
-sc
+s
 c
 )
 )
@@ -1776,7 +1776,7 @@ O2Reg
 ScratchRegister
 )
 op
-sc
+s
 c
 )
 ;
@@ -1795,8 +1795,8 @@ Register
 dest
 ALUOp
 op
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -1829,7 +1829,7 @@ toOp2
 (
 )
 op
-sc
+s
 c
 )
 ;
@@ -1848,8 +1848,8 @@ Register
 dest
 ALUOp
 op
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -1860,7 +1860,7 @@ dest
 src1
 op2
 op
-sc
+s
 c
 )
 ;
@@ -2155,8 +2155,8 @@ Register
 src
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2166,10 +2166,10 @@ c
 {
 if
 (
-sc
+s
 =
 =
-SetCond
+SetCC
 |
 |
 dest
@@ -2184,7 +2184,7 @@ O2Reg
 (
 src
 )
-sc
+s
 c
 )
 ;
@@ -2199,8 +2199,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2214,7 +2214,7 @@ InvalidReg
 imm
 dest
 OpMov
-sc
+s
 c
 )
 ;
@@ -2229,8 +2229,8 @@ ImmWord
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2249,7 +2249,7 @@ value
 )
 dest
 OpMov
-sc
+s
 c
 )
 ;
@@ -2586,8 +2586,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2601,7 +2601,7 @@ InvalidReg
 imm
 dest
 OpMvn
-sc
+s
 c
 )
 ;
@@ -2616,8 +2616,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2634,7 +2634,7 @@ O2Reg
 src1
 )
 OpMvn
-sc
+s
 c
 )
 ;
@@ -2649,8 +2649,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2666,7 +2666,7 @@ Imm8
 (
 0
 )
-sc
+s
 c
 )
 ;
@@ -2681,8 +2681,8 @@ Register
 src
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2710,8 +2710,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2727,7 +2727,7 @@ O2Reg
 (
 src2
 )
-sc
+s
 c
 )
 ;
@@ -2742,8 +2742,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2757,7 +2757,7 @@ dest
 imm
 dest
 OpAnd
-sc
+s
 c
 )
 ;
@@ -2774,8 +2774,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2789,7 +2789,7 @@ src1
 imm
 dest
 OpAnd
-sc
+s
 c
 )
 ;
@@ -2804,8 +2804,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2819,7 +2819,7 @@ dest
 imm
 dest
 OpBic
-sc
+s
 c
 )
 ;
@@ -2834,8 +2834,8 @@ Register
 src
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2848,7 +2848,7 @@ ma_eor
 dest
 src
 dest
-sc
+s
 c
 )
 ;
@@ -2865,8 +2865,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2882,7 +2882,7 @@ O2Reg
 (
 src2
 )
-sc
+s
 c
 )
 ;
@@ -2897,8 +2897,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2912,7 +2912,7 @@ dest
 imm
 dest
 OpEor
-sc
+s
 c
 )
 ;
@@ -2929,8 +2929,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2944,7 +2944,7 @@ src1
 imm
 dest
 OpEor
-sc
+s
 c
 )
 ;
@@ -2959,8 +2959,8 @@ Register
 src
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -2973,7 +2973,7 @@ ma_orr
 dest
 src
 dest
-sc
+s
 c
 )
 ;
@@ -2990,8 +2990,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -3007,7 +3007,7 @@ O2Reg
 (
 src2
 )
-sc
+s
 c
 )
 ;
@@ -3022,8 +3022,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -3037,7 +3037,7 @@ dest
 imm
 dest
 OpOrr
-sc
+s
 c
 )
 ;
@@ -3054,8 +3054,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Assembler
 :
 :
@@ -3069,7 +3069,7 @@ src1
 imm
 dest
 OpOrr
-sc
+s
 c
 )
 ;
@@ -3084,8 +3084,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3096,7 +3096,7 @@ dest
 imm
 dest
 OpAdc
-sc
+s
 c
 )
 ;
@@ -3111,8 +3111,8 @@ Register
 src
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3126,7 +3126,7 @@ O2Reg
 src
 )
 OpAdc
-sc
+s
 c
 )
 ;
@@ -3143,8 +3143,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3158,7 +3158,7 @@ O2Reg
 src2
 )
 OpAdc
-sc
+s
 c
 )
 ;
@@ -3173,8 +3173,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3185,7 +3185,7 @@ dest
 imm
 dest
 OpAdd
-sc
+s
 c
 )
 ;
@@ -3200,8 +3200,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3215,7 +3215,7 @@ src1
 )
 dest
 OpAdd
-sc
+s
 c
 )
 ;
@@ -3232,8 +3232,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3247,7 +3247,7 @@ O2Reg
 src2
 )
 OpAdd
-sc
+s
 c
 )
 ;
@@ -3264,8 +3264,8 @@ Operand
 op
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3276,7 +3276,7 @@ src1
 op
 dest
 OpAdd
-sc
+s
 c
 )
 ;
@@ -3293,8 +3293,8 @@ Imm32
 op
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3305,7 +3305,7 @@ src1
 op
 dest
 OpAdd
-sc
+s
 c
 )
 ;
@@ -3320,8 +3320,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3332,7 +3332,7 @@ dest
 imm
 dest
 OpSbc
-sc
+s
 c
 )
 ;
@@ -3347,8 +3347,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3362,7 +3362,7 @@ O2Reg
 src1
 )
 OpSbc
-sc
+s
 c
 )
 ;
@@ -3379,8 +3379,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3394,7 +3394,7 @@ O2Reg
 src2
 )
 OpSbc
-sc
+s
 c
 )
 ;
@@ -3409,8 +3409,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3421,7 +3421,7 @@ dest
 imm
 dest
 OpSub
-sc
+s
 c
 )
 ;
@@ -3436,8 +3436,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3451,7 +3451,7 @@ src1
 )
 dest
 OpSub
-sc
+s
 c
 )
 ;
@@ -3468,8 +3468,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3483,7 +3483,7 @@ src2
 )
 dest
 OpSub
-sc
+s
 c
 )
 ;
@@ -3500,8 +3500,8 @@ Operand
 op
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3512,7 +3512,7 @@ src1
 op
 dest
 OpSub
-sc
+s
 c
 )
 ;
@@ -3529,8 +3529,8 @@ Imm32
 op
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3541,7 +3541,7 @@ src1
 op
 dest
 OpSub
-sc
+s
 c
 )
 ;
@@ -3556,8 +3556,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3568,7 +3568,7 @@ dest
 imm
 dest
 OpRsb
-sc
+s
 c
 )
 ;
@@ -3583,8 +3583,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3598,7 +3598,7 @@ O2Reg
 src1
 )
 OpAdd
-sc
+s
 c
 )
 ;
@@ -3615,8 +3615,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3630,7 +3630,7 @@ O2Reg
 src2
 )
 OpRsb
-sc
+s
 c
 )
 ;
@@ -3647,8 +3647,8 @@ Imm32
 op2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3659,7 +3659,7 @@ src1
 op2
 dest
 OpRsb
-sc
+s
 c
 )
 ;
@@ -3674,8 +3674,8 @@ Imm32
 imm
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3686,7 +3686,7 @@ dest
 imm
 dest
 OpRsc
-sc
+s
 c
 )
 ;
@@ -3701,8 +3701,8 @@ Register
 src1
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3716,7 +3716,7 @@ O2Reg
 src1
 )
 OpRsc
-sc
+s
 c
 )
 ;
@@ -3733,8 +3733,8 @@ Register
 src2
 Register
 dest
-SetCond_
-sc
+SBit
+s
 Condition
 c
 )
@@ -3748,7 +3748,7 @@ O2Reg
 src2
 )
 OpRsc
-sc
+s
 c
 )
 ;
@@ -3773,7 +3773,7 @@ src1
 imm
 InvalidReg
 OpCmn
-SetCond
+SetCC
 c
 )
 ;
@@ -3801,7 +3801,7 @@ O2Reg
 src1
 )
 OpCmn
-SetCond
+SetCC
 c
 )
 ;
@@ -3849,7 +3849,7 @@ src1
 imm
 InvalidReg
 OpCmp
-SetCond
+SetCC
 c
 )
 ;
@@ -4041,7 +4041,7 @@ src1
 imm
 InvalidReg
 OpTeq
-SetCond
+SetCC
 c
 )
 ;
@@ -4117,7 +4117,7 @@ src1
 imm
 InvalidReg
 OpTst
-SetCond
+SetCC
 c
 )
 ;
@@ -4262,7 +4262,7 @@ ScratchRegister
 dest
 src1
 src2
-SetCond
+SetCC
 )
 ;
 return
@@ -4353,7 +4353,7 @@ ScratchRegister
 dest
 ScratchRegister
 src1
-SetCond
+SetCC
 )
 ;
 return
@@ -4439,7 +4439,7 @@ O2Reg
 (
 src
 )
-SetCond
+SetCC
 )
 ;
 ma_mov
@@ -4468,7 +4468,7 @@ Imm32
 1
 )
 hold
-NoSetCond
+LeaveCC
 Signed
 )
 ;
@@ -4479,7 +4479,7 @@ Imm32
 0
 )
 tmp
-SetCond
+SetCC
 Signed
 )
 ;
@@ -4514,14 +4514,14 @@ Imm32
 mask
 )
 secondScratchReg_
-SetCond
+SetCC
 )
 ;
 ma_mov
 (
 secondScratchReg_
 dest
-NoSetCond
+LeaveCC
 NotSigned
 )
 ;
@@ -4533,7 +4533,7 @@ lsr
 tmp
 shift
 )
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -4559,7 +4559,7 @@ Imm32
 0
 )
 dest
-SetCond
+SetCC
 Signed
 )
 ;
@@ -5560,7 +5560,7 @@ as_sub
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -5621,7 +5621,7 @@ as_sub
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -5671,7 +5671,7 @@ as_add
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -5729,7 +5729,7 @@ as_add
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -5860,7 +5860,7 @@ as_sub
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -5922,7 +5922,7 @@ as_sub
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -5973,7 +5973,7 @@ as_add
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -6032,7 +6032,7 @@ as_add
 ScratchRegister
 rn
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -8033,7 +8033,7 @@ as_sub
 ScratchRegister
 base
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -8092,7 +8092,7 @@ as_sub
 ScratchRegister
 base
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -8140,7 +8140,7 @@ as_add
 ScratchRegister
 base
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -8196,7 +8196,7 @@ as_add
 ScratchRegister
 base
 sub_off
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -8227,7 +8227,7 @@ Imm32
 off
 )
 ScratchRegister
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -8325,7 +8325,7 @@ lsl
 index
 shift
 )
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -8421,7 +8421,7 @@ lsl
 index
 shift
 )
-NoSetCond
+LeaveCC
 cc
 )
 ;
@@ -9039,7 +9039,7 @@ ma_add
 (
 src
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9059,7 +9059,7 @@ ma_add
 (
 imm
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9079,7 +9079,7 @@ ma_eor
 (
 imm
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9107,7 +9107,7 @@ ma_add
 (
 imm
 ScratchRegister
-SetCond
+SetCC
 )
 ;
 store32
@@ -9133,7 +9133,7 @@ ma_sub
 (
 imm
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9153,7 +9153,7 @@ ma_sub
 (
 src
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9173,7 +9173,7 @@ ma_and
 (
 src
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9193,7 +9193,7 @@ ma_and
 (
 imm
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9221,7 +9221,7 @@ ma_and
 (
 ScratchRegister
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -9268,7 +9268,7 @@ ma_add
 (
 ScratchRegister
 dest
-SetCond
+SetCC
 )
 ;
 }
@@ -11764,7 +11764,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 Zero
 )
 ;
@@ -11828,7 +11828,7 @@ Imm32
 0
 )
 output
-NoSetCond
+LeaveCC
 Overflow
 )
 ;
@@ -11855,7 +11855,7 @@ Imm32
 0xff
 )
 output
-NoSetCond
+LeaveCC
 Above
 )
 ;
@@ -11897,7 +11897,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 Zero
 )
 ;
@@ -16115,7 +16115,7 @@ scale
 )
 scratch
 OpAdd
-NoSetCond
+LeaveCC
 )
 ;
 return
@@ -20668,7 +20668,7 @@ ma_mov
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -20776,7 +20776,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 NotEqual
 )
 ;
@@ -20788,7 +20788,7 @@ Imm32
 0
 )
 output
-SetCond
+SetCC
 )
 ;
 ma_vneg
@@ -20896,7 +20896,7 @@ ma_mov
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -21014,7 +21014,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 NotEqual
 )
 ;
@@ -21026,7 +21026,7 @@ Imm32
 0
 )
 output
-SetCond
+SetCC
 )
 ;
 ma_vneg_f32
@@ -21162,7 +21162,7 @@ ma_neg
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -21252,7 +21252,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 NotEqual
 )
 ;
@@ -21260,7 +21260,7 @@ ma_mov
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -21396,7 +21396,7 @@ ma_neg
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -21493,7 +21493,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 NotEqual
 )
 ;
@@ -21501,7 +21501,7 @@ ma_mov
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -21758,7 +21758,7 @@ ma_mov
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -21878,7 +21878,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 Equal
 )
 ;
@@ -21890,7 +21890,7 @@ Imm32
 0
 )
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -22012,7 +22012,7 @@ ma_mov
 (
 output
 output
-SetCond
+SetCC
 )
 ;
 ma_b
@@ -22154,7 +22154,7 @@ Imm32
 1
 )
 output
-NoSetCond
+LeaveCC
 Equal
 )
 ;
@@ -22172,7 +22172,7 @@ Imm32
 0
 )
 output
-SetCond
+SetCC
 )
 ;
 ma_b

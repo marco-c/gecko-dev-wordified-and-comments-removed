@@ -144,7 +144,7 @@ R0
 payloadReg
 (
 )
-NoSetCond
+LeaveCC
 cond
 )
 ;
@@ -161,7 +161,7 @@ R0
 payloadReg
 (
 )
-NoSetCond
+LeaveCC
 Assembler
 :
 :
@@ -306,7 +306,7 @@ Imm32
 1
 )
 dest
-NoSetCond
+LeaveCC
 cond
 )
 ;
@@ -477,7 +477,7 @@ payloadReg
 (
 )
 scratchReg
-SetCond
+SetCC
 )
 ;
 masm
@@ -524,7 +524,7 @@ payloadReg
 (
 )
 scratchReg
-SetCond
+SetCC
 )
 ;
 masm

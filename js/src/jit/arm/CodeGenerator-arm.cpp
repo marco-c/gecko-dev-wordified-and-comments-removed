@@ -711,7 +711,7 @@ ToRegister
 (
 def
 )
-NoSetCond
+LeaveCC
 cond
 )
 ;
@@ -2164,7 +2164,7 @@ ToRegister
 (
 dest
 )
-SetCond
+SetCC
 )
 ;
 else
@@ -2184,7 +2184,7 @@ ToRegister
 (
 dest
 )
-SetCond
+SetCC
 )
 ;
 if
@@ -2289,7 +2289,7 @@ ToRegister
 (
 dest
 )
-SetCond
+SetCC
 )
 ;
 else
@@ -2309,7 +2309,7 @@ ToRegister
 (
 dest
 )
-SetCond
+SetCC
 )
 ;
 if
@@ -2548,7 +2548,7 @@ ToRegister
 (
 dest
 )
-SetCond
+SetCC
 )
 ;
 break
@@ -2610,7 +2610,7 @@ ToRegister
 (
 dest
 )
-SetCond
+SetCC
 )
 ;
 break
@@ -3895,7 +3895,7 @@ lhs
 -
 shift
 )
-SetCond
+SetCC
 )
 ;
 bailoutIf
@@ -4807,7 +4807,7 @@ ma_mov
 (
 in
 out
-SetCond
+SetCC
 )
 ;
 masm
@@ -4831,7 +4831,7 @@ Imm32
 0
 )
 out
-NoSetCond
+LeaveCC
 Assembler
 :
 :
@@ -4870,7 +4870,7 @@ Imm32
 0
 )
 out
-SetCond
+SetCC
 Assembler
 :
 :
@@ -6422,7 +6422,7 @@ low
 )
 )
 index
-SetCond
+SetCC
 )
 ;
 masm
@@ -6437,7 +6437,7 @@ cases
 1
 )
 index
-SetCond
+SetCC
 Assembler
 :
 :
@@ -9823,7 +9823,7 @@ Imm32
 1
 )
 dest
-NoSetCond
+LeaveCC
 Assembler
 :
 :
@@ -9839,7 +9839,7 @@ Imm32
 1
 )
 dest
-NoSetCond
+LeaveCC
 Assembler
 :
 :
@@ -9976,7 +9976,7 @@ Imm32
 1
 )
 dest
-NoSetCond
+LeaveCC
 Assembler
 :
 :
@@ -9992,7 +9992,7 @@ Imm32
 1
 )
 dest
-NoSetCond
+LeaveCC
 Assembler
 :
 :
@@ -11312,7 +11312,7 @@ Imm32
 0
 )
 d
-NoSetCond
+LeaveCC
 Assembler
 :
 :
