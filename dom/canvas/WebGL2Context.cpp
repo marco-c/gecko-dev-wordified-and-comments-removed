@@ -241,15 +241,7 @@ OES_standard_derivatives
 WebGLExtensionID
 :
 :
-OES_texture_float
-WebGLExtensionID
-:
-:
 OES_texture_float_linear
-WebGLExtensionID
-:
-:
-OES_texture_half_float
 WebGLExtensionID
 :
 :
