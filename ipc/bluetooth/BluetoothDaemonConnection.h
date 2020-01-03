@@ -271,14 +271,6 @@ BluetoothDaemonConnection
 (
 )
 ;
-nsresult
-ConnectSocket
-(
-BluetoothDaemonPDUConsumer
-*
-aConsumer
-)
-;
 virtual
 ConnectionOrientedSocketIO
 *
