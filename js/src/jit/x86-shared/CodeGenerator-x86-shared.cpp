@@ -8797,9 +8797,7 @@ CodeGeneratorX86Shared
 :
 toMoveOperand
 (
-const
 LAllocation
-*
 a
 )
 const
@@ -8807,8 +8805,7 @@ const
 if
 (
 a
--
->
+.
 isGeneralReg
 (
 )
@@ -8825,8 +8822,7 @@ a
 if
 (
 a
--
->
+.
 isFloatReg
 (
 )

@@ -760,7 +760,7 @@ pass
 ;
 c1Spewer
 .
-spewIntervals
+spewRanges
 (
 pass
 ra
@@ -789,7 +789,7 @@ graph
 ;
 jsonSpewer
 .
-spewIntervals
+spewRanges
 (
 ra
 )
