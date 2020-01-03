@@ -537,11 +537,6 @@ FailWithNetworkError
 )
 ;
 }
-bool
-corsPreflight
-=
-false
-;
 if
 (
 mRequest
@@ -592,10 +587,6 @@ HasOnlySimpleHeaders
 )
 )
 {
-corsPreflight
-=
-true
-;
 }
 mRequest
 -
