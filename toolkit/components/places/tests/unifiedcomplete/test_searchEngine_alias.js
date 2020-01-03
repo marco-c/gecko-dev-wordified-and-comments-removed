@@ -78,6 +78,9 @@ alias
 "
 doit
 "
+heuristic
+:
+true
 }
 )
 ]
@@ -123,6 +126,9 @@ alias
 "
 doit
 "
+heuristic
+:
+true
 }
 )
 ]
@@ -171,6 +177,9 @@ alias
 "
 doit
 "
+heuristic
+:
+true
 }
 )
 ]
@@ -222,6 +231,9 @@ alias
 "
 doit
 "
+heuristic
+:
+true
 }
 )
 ]

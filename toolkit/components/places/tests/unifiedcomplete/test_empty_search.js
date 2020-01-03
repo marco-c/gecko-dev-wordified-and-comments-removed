@@ -331,6 +331,11 @@ makeSearchMatch
 "
 foo
 "
+{
+heuristic
+:
+true
+}
 )
 {
 uri
@@ -727,11 +732,6 @@ actions
 matches
 :
 [
-makeSearchMatch
-(
-"
-"
-)
 makeSwitchToTabMatch
 (
 "

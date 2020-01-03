@@ -156,6 +156,9 @@ style
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -220,6 +223,9 @@ style
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -283,6 +289,9 @@ style
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -340,6 +349,9 @@ style
 [
 "
 keyword
+"
+"
+heuristic
 "
 ]
 }
@@ -404,6 +416,9 @@ style
 "
 keyword
 "
+"
+heuristic
+"
 ]
 }
 ]
@@ -464,6 +479,9 @@ style
 [
 "
 keyword
+"
+"
+heuristic
 "
 ]
 }
@@ -525,6 +543,9 @@ style
 [
 "
 keyword
+"
+"
+heuristic
 "
 ]
 }
