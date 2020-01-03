@@ -494,6 +494,9 @@ ptr
 )
 ;
 }
+struct
+ConstructFunctor
+;
 public
 :
 Node
