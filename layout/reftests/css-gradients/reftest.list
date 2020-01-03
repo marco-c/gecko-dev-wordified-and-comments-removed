@@ -10,7 +10,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-2
+4
 88500
 )
 fuzzy
@@ -20,14 +20,6 @@ if
 azureSkiaGL
 3
 89700
-)
-fuzzy
--
-if
-(
-azureQuartz
-1
-18
 )
 fuzzy
 -
@@ -81,7 +73,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-2
+4
 88500
 )
 fuzzy
@@ -91,14 +83,6 @@ if
 azureSkiaGL
 3
 89700
-)
-fuzzy
--
-if
-(
-azureQuartz
-1
-18
 )
 fuzzy
 -
@@ -773,7 +757,7 @@ fuzzy
 -
 if
 (
-azureQuartz
+cocoaWidget
 4
 29437
 )
@@ -1172,7 +1156,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 88500
 )
 fuzzy
@@ -1215,7 +1199,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 88500
 )
 fuzzy
@@ -1258,7 +1242,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 88500
 )
 fuzzy
@@ -1301,7 +1285,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 88500
 )
 fuzzy
@@ -1344,7 +1328,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 88500
 )
 fuzzy
@@ -2023,7 +2007,7 @@ fuzzy
 -
 if
 (
-azureQuartz
+cocoaWidget
 4
 22317
 )
@@ -2070,7 +2054,7 @@ fuzzy
 -
 if
 (
-azureQuartz
+cocoaWidget
 4
 22608
 )
@@ -2392,7 +2376,7 @@ fuzzy
 -
 if
 (
-azureQuartz
+cocoaWidget
 2
 41281
 )
@@ -3204,7 +3188,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 20000
 )
 fuzzy
@@ -3281,6 +3265,9 @@ OSX
 1010
 &
 &
+azureQuartz
+&
+&
 isDebugBuild
 )
 )
@@ -3326,7 +3313,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 20000
 )
 fuzzy
@@ -3399,7 +3386,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 20000
 )
 fuzzy
@@ -3472,7 +3459,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 20000
 )
 fuzzy
@@ -3545,7 +3532,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 20000
 )
 fuzzy
@@ -3618,7 +3605,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+3
 20000
 )
 fuzzy
@@ -3691,7 +3678,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+2
 20000
 )
 fuzzy
@@ -3764,7 +3751,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+2
 20000
 )
 fuzzy
@@ -3887,7 +3874,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+2
 19999
 )
 fuzzy
@@ -3954,7 +3941,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-1
+2
 19999
 )
 fuzzy
@@ -4021,7 +4008,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-2
+4
 20000
 )
 fuzzy
@@ -4094,7 +4081,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-2
+4
 20000
 )
 fuzzy
@@ -4167,7 +4154,7 @@ if
 (
 !
 contentSameGfxBackendAsCanvas
-2
+4
 20000
 )
 fuzzy
