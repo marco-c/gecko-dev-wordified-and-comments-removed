@@ -861,8 +861,10 @@ nsTreeBodyFrame
 *
 mTree
 ;
+nsRefPtr
+<
 nsTreeColumn
-*
+>
 mFirstColumn
 ;
 }
