@@ -140,6 +140,11 @@ AboutHome
 jsm
 '
 '
+AboutNewTab
+.
+jsm
+'
+'
 BrowserUITelemetry
 .
 jsm
