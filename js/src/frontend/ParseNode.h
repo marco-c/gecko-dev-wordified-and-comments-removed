@@ -6513,7 +6513,6 @@ Statement
 Arrow
 Method
 ClassConstructor
-DerivedClassConstructor
 Getter
 Setter
 }

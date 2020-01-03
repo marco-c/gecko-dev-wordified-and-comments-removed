@@ -1473,14 +1473,6 @@ end
 {
 }
 void
-setDerivedClassConstructor
-(
-Node
-pn
-)
-{
-}
-void
 setPosition
 (
 Node
