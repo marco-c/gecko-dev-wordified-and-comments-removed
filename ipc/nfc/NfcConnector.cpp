@@ -77,7 +77,7 @@ aFd
 socket
 (
 AF_LOCAL
-SOCK_STREAM
+SOCK_SEQPACKET
 0
 )
 ;
