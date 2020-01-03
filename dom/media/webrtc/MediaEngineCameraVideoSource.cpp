@@ -1649,7 +1649,7 @@ SetAsDouble
 =
 aPrefs
 .
-mMinFPS
+mFPS
 ;
 for
 (
