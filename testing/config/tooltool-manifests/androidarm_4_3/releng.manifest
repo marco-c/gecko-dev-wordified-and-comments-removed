@@ -52,8 +52,6 @@ gz
 unpack
 "
 :
-"
-True
-"
+true
 }
 ]
