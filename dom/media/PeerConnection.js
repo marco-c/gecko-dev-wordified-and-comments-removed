@@ -4037,6 +4037,11 @@ idpError
 null
 ;
 let
+isDone
+=
+false
+;
+let
 allDone
 =
 (
@@ -4054,8 +4059,7 @@ setRemoteComplete
 idpComplete
 |
 |
-!
-onSuccess
+isDone
 )
 {
 return
@@ -4068,9 +4072,9 @@ callCB
 onSuccess
 )
 ;
-onSuccess
+isDone
 =
-null
+true
 ;
 this
 .
