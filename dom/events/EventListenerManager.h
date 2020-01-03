@@ -1187,15 +1187,6 @@ mMayHavePaintEventListener
 ;
 }
 bool
-MayHaveTouchEventListener
-(
-)
-{
-return
-mMayHaveTouchEventListener
-;
-}
-bool
 MayHaveMouseEnterLeaveEventListener
 (
 )
@@ -1739,11 +1730,6 @@ mMayHaveCapturingListeners
 ;
 uint32_t
 mMayHaveSystemGroupListeners
-:
-1
-;
-uint32_t
-mMayHaveTouchEventListener
 :
 1
 ;

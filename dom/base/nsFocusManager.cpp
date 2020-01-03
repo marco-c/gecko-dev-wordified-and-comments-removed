@@ -8364,13 +8364,6 @@ aWindow
 false
 )
 ;
-aWindow
--
->
-UpdateTouchState
-(
-)
-;
 }
 if
 (
