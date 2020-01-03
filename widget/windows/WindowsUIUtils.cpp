@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsIDocshell
+nsIDocShell
 .
 h
 "
