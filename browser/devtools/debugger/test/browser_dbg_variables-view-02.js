@@ -147,7 +147,7 @@ scope
 is
 (
 duplVar
-testVar
+null
 "
 Shouldn
 '
