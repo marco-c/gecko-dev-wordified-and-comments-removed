@@ -153,6 +153,7 @@ function
 (
 )
 {
+return
 window
 .
 QueryInterface
@@ -198,6 +199,7 @@ Ci
 .
 nsIDOMChromeWindow
 )
+;
 }
 )
 ;
