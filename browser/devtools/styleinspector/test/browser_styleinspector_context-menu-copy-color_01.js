@@ -30,6 +30,11 @@ function
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 const
 TEST_DOC
 =
