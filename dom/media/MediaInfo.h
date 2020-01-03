@@ -168,6 +168,10 @@ mMediaTime
 (
 0
 )
+mIsRenderedExternally
+(
+false
+)
 mType
 (
 aType
@@ -266,6 +270,9 @@ mMediaTime
 ;
 CryptoTrack
 mCrypto
+;
+bool
+mIsRenderedExternally
 ;
 virtual
 AudioInfo
@@ -493,6 +500,12 @@ mCrypto
 aOther
 .
 mCrypto
+;
+mIsRenderedExternally
+=
+aOther
+.
+mIsRenderedExternally
 ;
 mType
 =
