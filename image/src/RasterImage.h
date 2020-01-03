@@ -726,10 +726,6 @@ mRequestStatus
 (
 REQUEST_INACTIVE
 )
-mAllocatedNewFrame
-(
-false
-)
 {
 }
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -750,9 +746,6 @@ REQUEST_WORK_DONE
 REQUEST_STOPPED
 }
 mRequestStatus
-;
-bool
-mAllocatedNewFrame
 ;
 private
 :

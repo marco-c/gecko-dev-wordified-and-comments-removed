@@ -440,6 +440,16 @@ return
 mNeedsNewFrame
 ;
 }
+bool
+NeedsToFlushData
+(
+)
+const
+{
+return
+mNeedsToFlushData
+;
+}
 virtual
 nsresult
 AllocateFrame
@@ -747,6 +757,9 @@ mNewFrameData
 ;
 bool
 mNeedsNewFrame
+;
+bool
+mNeedsToFlushData
 ;
 bool
 mInitialized
