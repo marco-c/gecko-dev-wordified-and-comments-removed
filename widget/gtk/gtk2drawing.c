@@ -2916,6 +2916,7 @@ return
 MOZ_GTK_SUCCESS
 ;
 }
+static
 gint
 moz_gtk_widget_get_focus
 (
@@ -3280,6 +3281,7 @@ return
 MOZ_GTK_SUCCESS
 ;
 }
+static
 gint
 moz_gtk_button_get_inner_border
 (
