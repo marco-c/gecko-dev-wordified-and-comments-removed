@@ -378,6 +378,7 @@ node
 -
 >
 mStr
+fallible
 )
 )
 ;
@@ -426,6 +427,7 @@ node
 >
 mUnicode
 )
+fallible
 )
 )
 ;

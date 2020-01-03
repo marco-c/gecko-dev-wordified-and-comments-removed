@@ -621,6 +621,7 @@ PL_DHashTableAdd
 (
 aTable
 aKey
+fallible
 )
 )
 ;

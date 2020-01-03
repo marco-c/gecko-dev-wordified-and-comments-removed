@@ -795,6 +795,7 @@ mRecord
 HashNumber
 (
 )
+fallible
 )
 ;
 if

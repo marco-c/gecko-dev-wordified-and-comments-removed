@@ -74,6 +74,10 @@ PL_DHashTableAdd
 &
 mMap
 aElement
+mozilla
+:
+:
+fallible
 )
 ;
 if

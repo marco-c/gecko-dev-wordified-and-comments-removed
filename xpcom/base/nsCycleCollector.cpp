@@ -2801,6 +2801,7 @@ PL_DHashTableAdd
 &
 mPtrToNodeMap
 aPtr
+fallible
 )
 )
 ;
