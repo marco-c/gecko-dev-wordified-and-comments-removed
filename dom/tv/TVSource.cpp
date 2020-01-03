@@ -1581,6 +1581,7 @@ programs
 .
 AppendElement
 (
+fallible
 )
 =
 program

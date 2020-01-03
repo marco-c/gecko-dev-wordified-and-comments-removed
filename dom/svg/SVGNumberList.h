@@ -392,6 +392,7 @@ mNumbers
 AppendElement
 (
 aNumber
+fallible
 )
 ;
 }

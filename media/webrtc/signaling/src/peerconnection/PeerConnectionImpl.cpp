@@ -14625,6 +14625,7 @@ Value
 AppendElement
 (
 cand
+fallible
 )
 ;
 }
@@ -14896,6 +14897,7 @@ Value
 AppendElement
 (
 s
+fallible
 )
 ;
 }
@@ -15355,6 +15357,7 @@ Value
 AppendElement
 (
 s
+fallible
 )
 ;
 }
@@ -15572,6 +15575,7 @@ Value
 AppendElement
 (
 s
+fallible
 )
 ;
 }
@@ -15781,6 +15785,7 @@ Value
 AppendElement
 (
 s
+fallible
 )
 ;
 }
@@ -16114,6 +16119,7 @@ Value
 AppendElement
 (
 s
+fallible
 )
 ;
 break

@@ -1536,6 +1536,7 @@ messages
 AppendElement
 (
 message
+fallible
 )
 )
 ;
@@ -1550,6 +1551,7 @@ message
 get
 (
 )
+fallible
 )
 )
 ;
@@ -1676,6 +1678,7 @@ threads
 AppendElement
 (
 thread
+fallible
 )
 )
 ;
@@ -1690,6 +1693,7 @@ thread
 get
 (
 )
+fallible
 )
 )
 ;

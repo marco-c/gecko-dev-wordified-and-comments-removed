@@ -4836,6 +4836,7 @@ Value
 AppendElement
 (
 jsonCSP
+fallible
 )
 ;
 }

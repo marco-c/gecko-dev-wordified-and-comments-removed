@@ -225,6 +225,7 @@ mAddPrefixes
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -277,6 +278,7 @@ mSubPrefixes
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -334,6 +336,7 @@ mAddCompletes
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -386,6 +389,7 @@ mSubCompletes
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -3169,6 +3173,7 @@ slice4
 i
 ]
 )
+fallible
 )
 ;
 }
@@ -3254,6 +3259,7 @@ mAddPrefixes
 .
 AppendElement
 (
+fallible
 )
 ;
 add
@@ -3403,6 +3409,7 @@ mSubPrefixes
 .
 AppendElement
 (
+fallible
 )
 ;
 sub

@@ -29904,6 +29904,10 @@ nestingLevel
 .
 AppendElement
 (
+mozilla
+:
+:
+fallible
 )
 ;
               
@@ -38775,6 +38779,10 @@ declName
 .
 AppendElement
 (
+mozilla
+:
+:
+fallible
 )
 ;
                 

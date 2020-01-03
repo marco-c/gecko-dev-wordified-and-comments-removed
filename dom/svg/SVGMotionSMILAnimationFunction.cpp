@@ -937,6 +937,7 @@ AppendElement
 0
 .
 0
+fallible
 )
 ;
 }
@@ -967,6 +968,7 @@ AppendElement
 0
 .
 0
+fallible
 )
 ;
 }
@@ -1072,6 +1074,7 @@ mPathVertices
 AppendElement
 (
 dist
+fallible
 )
 ;
 }
@@ -1503,6 +1506,7 @@ curDist
 mRotateType
 mRotateAngle
 )
+fallible
 )
 )
 {

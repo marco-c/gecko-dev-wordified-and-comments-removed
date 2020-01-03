@@ -717,6 +717,7 @@ ItemProxy
 nullptr
 dataIndex
 )
+fallible
 )
 )
 {

@@ -401,6 +401,7 @@ mItems
 AppendElement
 (
 aTransform
+fallible
 )
 ;
 }

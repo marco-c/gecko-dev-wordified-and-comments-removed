@@ -5254,6 +5254,7 @@ SelectionState
 :
 :
 Drag
+fallible
 )
 ;
 }
@@ -5275,6 +5276,7 @@ SelectionState
 :
 :
 Mousedown
+fallible
 )
 ;
 }
@@ -5296,6 +5298,7 @@ SelectionState
 :
 :
 Mouseup
+fallible
 )
 ;
 }
@@ -5317,6 +5320,7 @@ SelectionState
 :
 :
 Keypress
+fallible
 )
 ;
 }
@@ -5338,6 +5342,7 @@ SelectionState
 :
 :
 Selectall
+fallible
 )
 ;
 }
@@ -5359,6 +5364,7 @@ SelectionState
 :
 :
 Collapsetostart
+fallible
 )
 ;
 }
@@ -5380,6 +5386,7 @@ SelectionState
 :
 :
 Collapsetoend
+fallible
 )
 ;
 }
@@ -5483,6 +5490,7 @@ state
 AppendElement
 (
 aState
+fallible
 )
 ;
 DispatchSelectionStateChangedEvent

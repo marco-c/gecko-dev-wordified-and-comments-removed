@@ -23537,6 +23537,7 @@ aRectangles
 AppendElement
 (
 rect
+fallible
 )
 ;
 }

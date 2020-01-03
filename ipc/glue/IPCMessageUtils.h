@@ -2099,6 +2099,10 @@ aResult
 >
 AppendElement
 (
+mozilla
+:
+:
+fallible
 )
 ;
 MOZ_ASSERT

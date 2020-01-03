@@ -861,6 +861,7 @@ AppendElement
 state
 .
 length
+fallible
 )
 )
 {

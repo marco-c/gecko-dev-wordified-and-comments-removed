@@ -3837,6 +3837,10 @@ filters
 j
 ]
 )
+mozilla
+:
+:
+fallible
 )
 )
 {
@@ -4187,6 +4191,10 @@ mutations
 .
 AppendElement
 (
+mozilla
+:
+:
+fallible
 )
 =
 current

@@ -669,6 +669,10 @@ dashes
 AppendElement
 (
 d
+mozilla
+:
+:
+fallible
 )
 )
 {

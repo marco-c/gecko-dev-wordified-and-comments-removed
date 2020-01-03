@@ -388,6 +388,7 @@ mLengths
 AppendElement
 (
 aLength
+fallible
 )
 ;
 }

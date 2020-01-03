@@ -282,6 +282,7 @@ Move
 *
 aChunk
 )
+fallible
 )
 )
 )

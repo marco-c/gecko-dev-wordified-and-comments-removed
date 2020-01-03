@@ -2741,6 +2741,7 @@ arguments
 AppendElement
 (
 value
+fallible
 )
 )
 {
@@ -3457,6 +3458,7 @@ data
 AppendElement
 (
 aTime
+fallible
 )
 )
 {
@@ -3539,6 +3541,7 @@ data
 AppendElement
 (
 aTime
+fallible
 )
 )
 {
@@ -3620,6 +3623,7 @@ data
 AppendElement
 (
 aData
+fallible
 )
 )
 {
@@ -3843,6 +3847,7 @@ aData
 [
 i
 ]
+fallible
 )
 )
 {
@@ -6631,6 +6636,7 @@ StringValue
 (
 str
 )
+fallible
 )
 )
 {
@@ -7280,6 +7286,7 @@ aSequence
 AppendElement
 (
 v
+fallible
 )
 )
 {
@@ -7425,6 +7432,7 @@ JS
 NullValue
 (
 )
+fallible
 )
 )
 {
@@ -7448,6 +7456,7 @@ StringValue
 (
 jsString
 )
+fallible
 )
 )
 {
@@ -7817,6 +7826,7 @@ aData
 [
 index
 ]
+fallible
 )
 )
 {
@@ -8558,6 +8568,7 @@ aData
 [
 i
 ]
+fallible
 )
 )
 {

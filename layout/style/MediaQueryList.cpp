@@ -340,6 +340,7 @@ AppendElement
 (
 &
 aListener
+fallible
 )
 ;
 if
@@ -633,6 +634,7 @@ aListenersToNotify
 .
 AppendElement
 (
+fallible
 )
 ;
 if

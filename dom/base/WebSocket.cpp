@@ -3453,6 +3453,7 @@ protocols
 AppendElement
 (
 aProtocol
+fallible
 )
 )
 {

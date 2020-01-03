@@ -1020,6 +1020,7 @@ orientations
 AppendElement
 (
 orientation
+fallible
 )
 )
 {

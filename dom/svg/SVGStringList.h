@@ -403,6 +403,7 @@ mStrings
 AppendElement
 (
 aString
+fallible
 )
 )
 {

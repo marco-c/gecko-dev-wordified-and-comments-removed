@@ -1418,6 +1418,7 @@ srcArr
 [
 0
 ]
+fallible
 )
 )
 {
@@ -2152,6 +2153,7 @@ resultDist
 rotateType
 rotateAngle
 )
+fallible
 )
 )
 ;
@@ -2418,6 +2420,7 @@ aDist
 aRotateType
 aRotateAngle
 )
+fallible
 )
 )
 ;

@@ -567,6 +567,7 @@ mTransforms
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -669,6 +670,7 @@ mTransforms
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -775,6 +777,7 @@ mTransforms
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -860,6 +863,7 @@ mTransforms
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -929,6 +933,7 @@ mTransforms
 .
 AppendElement
 (
+fallible
 )
 ;
 if
@@ -1003,6 +1008,7 @@ mTransforms
 .
 AppendElement
 (
+fallible
 )
 ;
 if

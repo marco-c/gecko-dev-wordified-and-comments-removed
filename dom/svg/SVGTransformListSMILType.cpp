@@ -609,6 +609,7 @@ srcTransform
 .
 mTransformType
 )
+fallible
 )
 ;
 NS_ENSURE_TRUE
@@ -850,6 +851,7 @@ dstTransforms
 AppendElement
 (
 srcTransform
+fallible
 )
 ;
 NS_ENSURE_TRUE
@@ -1576,6 +1578,7 @@ dstTransforms
 AppendElement
 (
 resultTransform
+fallible
 )
 ;
 NS_ENSURE_TRUE
@@ -1645,6 +1648,7 @@ transforms
 AppendElement
 (
 aTransform
+fallible
 )
 ?
 NS_OK
@@ -1760,6 +1764,7 @@ aList
 i
 ]
 )
+fallible
 )
 )
 ;
@@ -1880,6 +1885,7 @@ i
 ToSVGTransform
 (
 )
+fallible
 )
 ;
 }
