@@ -372,7 +372,7 @@ ini
 '
 tests
 /
-identity
+ipc
 /
 mochitest
 .
@@ -381,7 +381,9 @@ ini
 '
 tests
 /
-ipc
+mochitest
+/
+identity
 /
 mochitest
 .
