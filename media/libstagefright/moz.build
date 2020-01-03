@@ -985,6 +985,14 @@ core
 include
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+gtest
+'
+]
 FINAL_LIBRARY
 =
 '
