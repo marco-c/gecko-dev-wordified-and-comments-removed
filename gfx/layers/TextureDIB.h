@@ -512,6 +512,17 @@ override
 ;
 virtual
 bool
+HasInternalBuffer
+(
+)
+const
+{
+return
+true
+;
+}
+virtual
+bool
 BindTextureSource
 (
 CompositableTextureSourceRef
