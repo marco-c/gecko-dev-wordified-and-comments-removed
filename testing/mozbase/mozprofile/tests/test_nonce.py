@@ -33,6 +33,8 @@ import
 tempfile
 import
 unittest
+import
+mozfile
 from
 mozprofile
 .
@@ -67,6 +69,16 @@ tempfile
 .
 mktemp
 (
+)
+        
+self
+.
+addCleanup
+(
+mozfile
+.
+remove
+path
 )
         
 profile

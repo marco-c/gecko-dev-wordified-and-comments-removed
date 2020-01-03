@@ -3,6 +3,8 @@ sut
 import
 MockAgent
 import
+mozfile
+import
 mozdevice
 import
 mozlog
@@ -273,6 +275,16 @@ tempfile
 .
 mkdtemp
 (
+)
+        
+self
+.
+addCleanup
+(
+mozfile
+.
+remove
+tempdir
 )
         
 complex_path

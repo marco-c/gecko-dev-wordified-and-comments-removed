@@ -1,4 +1,6 @@
 import
+mozfile
+import
 mozhttpd
 import
 urllib2
@@ -1350,6 +1352,16 @@ tempfile
 .
 mkdtemp
 (
+)
+        
+self
+.
+addCleanup
+(
+mozfile
+.
+remove
+docroot
 )
         
 hosts
