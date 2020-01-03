@@ -1026,8 +1026,14 @@ if
 doc
 )
 {
-StartNow
+StartOnNextTick
 (
+Nullable
+<
+TimeDuration
+>
+(
+)
 )
 ;
 return
