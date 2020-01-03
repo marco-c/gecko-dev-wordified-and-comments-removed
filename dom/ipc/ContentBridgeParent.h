@@ -39,6 +39,13 @@ IdType
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 namespace
 mozilla
 {
@@ -52,6 +59,8 @@ public
 PContentBridgeParent
 public
 nsIContentParent
+public
+nsIObserver
 {
 public
 :
@@ -64,6 +73,7 @@ aTransport
 )
 ;
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 virtual
 void
 ActorDestroy
