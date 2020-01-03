@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h

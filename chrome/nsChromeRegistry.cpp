@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CSSStyleSheet

@@ -646,6 +646,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsSandboxFlags
 .
 h

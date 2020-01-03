@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h

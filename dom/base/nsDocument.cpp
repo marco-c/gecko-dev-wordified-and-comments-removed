@@ -189,6 +189,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsDOMClassInfo
 .
 h

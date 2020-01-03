@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

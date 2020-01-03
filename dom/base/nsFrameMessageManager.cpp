@@ -329,6 +329,13 @@ h
 "
 #
 include
+"
+nsQueryObject
+.
+h
+"
+#
+include
 <
 algorithm
 >

@@ -440,6 +440,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
