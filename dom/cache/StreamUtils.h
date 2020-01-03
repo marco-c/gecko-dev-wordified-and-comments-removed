@@ -24,19 +24,19 @@ class
 Feature
 ;
 class
-PCacheRequest
+CacheRequest
 ;
 class
-PCacheResponse
+CacheResponse
 ;
 class
-PCacheResponseOrVoid
+CacheResponseOrVoid
 ;
 void
 StartDestroyStreamChild
 (
 const
-PCacheResponseOrVoid
+CacheResponseOrVoid
 &
 aResponseOrVoid
 )
@@ -45,7 +45,7 @@ void
 StartDestroyStreamChild
 (
 const
-PCacheResponse
+CacheResponse
 &
 aResponse
 )
@@ -56,7 +56,7 @@ StartDestroyStreamChild
 const
 nsTArray
 <
-PCacheResponse
+CacheResponse
 >
 &
 aResponses
@@ -68,7 +68,7 @@ StartDestroyStreamChild
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
@@ -78,7 +78,7 @@ void
 AddFeatureToStreamChild
 (
 const
-PCacheResponseOrVoid
+CacheResponseOrVoid
 &
 aResponseOrVoid
 Feature
@@ -90,7 +90,7 @@ void
 AddFeatureToStreamChild
 (
 const
-PCacheResponse
+CacheResponse
 &
 aResponse
 Feature
@@ -104,7 +104,7 @@ AddFeatureToStreamChild
 const
 nsTArray
 <
-PCacheResponse
+CacheResponse
 >
 &
 aResponses
@@ -119,7 +119,7 @@ AddFeatureToStreamChild
 const
 nsTArray
 <
-PCacheRequest
+CacheRequest
 >
 &
 aRequests
