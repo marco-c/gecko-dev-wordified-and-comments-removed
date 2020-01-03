@@ -299,11 +299,6 @@ testHashTable
 cpp
 '
 '
-testHashTableInit
-.
-cpp
-'
-'
 testIndexToString
 .
 cpp
