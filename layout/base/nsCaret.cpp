@@ -3051,7 +3051,15 @@ theFrameOffset
 ;
 if
 (
-IsBidiUI
+theFrame
+-
+>
+PresContext
+(
+)
+-
+>
+BidiEnabled
 (
 )
 )
