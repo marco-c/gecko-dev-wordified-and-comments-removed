@@ -25893,10 +25893,6 @@ relocatedList
 }
 #
 endif
-shrinkBuffers
-(
-)
-;
 #
 ifdef
 DEBUG
@@ -26211,6 +26207,10 @@ wasGCStarted
 )
 ;
 }
+shrinkBuffers
+(
+)
+;
 lastGCTime
 =
 currentTime
