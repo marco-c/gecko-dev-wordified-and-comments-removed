@@ -139,14 +139,6 @@ h
 "
 #
 ifdef
-None
-#
-undef
-None
-#
-endif
-#
-ifdef
 CurrentTime
 #
 undef
@@ -1497,12 +1489,6 @@ ErrorResult
 aRv
 )
 ;
-MediaWaitingFor
-WaitingFor
-(
-)
-const
-;
 mozilla
 :
 :
@@ -2771,9 +2757,6 @@ nsRefPtr
 VideoTrackList
 >
 mVideoTrackList
-;
-MediaWaitingFor
-mWaitingFor
 ;
 enum
 ElementInTreeState
