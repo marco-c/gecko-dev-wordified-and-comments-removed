@@ -480,12 +480,9 @@ if
 not
 name
 .
-lower
+islower
 (
 )
-=
-=
-name
 :
         
 raise

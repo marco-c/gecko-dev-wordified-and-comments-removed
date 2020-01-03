@@ -2301,8 +2301,6 @@ e
 require
 (
 "
-sdk
-/
 test
 "
 )

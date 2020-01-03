@@ -657,8 +657,6 @@ browser
 require
 (
 "
-sdk
-/
 test
 "
 )

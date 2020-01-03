@@ -249,16 +249,6 @@ contentLocales
 =
 prefs
 .
-getLocalized
-(
-PREF_ACCEPT_LANGUAGES
-"
-"
-)
-|
-|
-prefs
-.
 get
 (
 PREF_ACCEPT_LANGUAGES

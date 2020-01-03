@@ -5856,8 +5856,6 @@ delimiter
 require
 (
 '
-sdk
-/
 test
 '
 )

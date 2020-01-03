@@ -1778,8 +1778,6 @@ called
 require
 (
 "
-sdk
-/
 test
 "
 )

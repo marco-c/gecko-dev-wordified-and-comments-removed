@@ -498,8 +498,6 @@ exists
 require
 (
 '
-sdk
-/
 test
 '
 )

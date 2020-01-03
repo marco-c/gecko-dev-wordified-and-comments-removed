@@ -1332,8 +1332,6 @@ pref
 require
 (
 "
-sdk
-/
 test
 "
 )

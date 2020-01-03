@@ -700,8 +700,6 @@ i
 require
 (
 '
-sdk
-/
 test
 '
 )

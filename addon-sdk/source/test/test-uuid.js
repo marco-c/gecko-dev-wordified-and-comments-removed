@@ -207,8 +207,6 @@ value
 require
 (
 '
-sdk
-/
 test
 '
 )

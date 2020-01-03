@@ -1157,18 +1157,6 @@ paused
 =
 false
 ;
-if
-(
-nsIInputStreamPump
-(
-this
-)
-.
-isPending
-(
-)
-)
-{
 nsIInputStreamPump
 (
 this
@@ -1186,7 +1174,6 @@ resume
 "
 )
 ;
-}
 }
 close
 :

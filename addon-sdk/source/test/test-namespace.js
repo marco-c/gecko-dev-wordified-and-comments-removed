@@ -1002,8 +1002,6 @@ inherited
 require
 (
 "
-sdk
-/
 test
 "
 )

@@ -307,12 +307,6 @@ disposable
 ;
 }
 ;
-exports
-.
-setupDisposable
-=
-setupDisposable
-;
 const
 disposeDisposable
 =
@@ -327,12 +321,6 @@ addonUnloadTopic
 )
 ;
 }
-;
-exports
-.
-disposeDisposable
-=
-disposeDisposable
 ;
 const
 Disposable

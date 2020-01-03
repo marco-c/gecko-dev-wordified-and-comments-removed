@@ -522,6 +522,7 @@ passed
 }
 )
 ;
+;
 exports
 [
 "
@@ -2536,8 +2537,6 @@ noop2
 require
 (
 '
-sdk
-/
 test
 '
 )

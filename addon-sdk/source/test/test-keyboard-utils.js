@@ -515,8 +515,6 @@ key
 require
 (
 "
-sdk
-/
 test
 "
 )

@@ -944,8 +944,6 @@ window
 require
 (
 '
-sdk
-/
 test
 '
 )

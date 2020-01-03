@@ -293,10 +293,8 @@ require
 .
 .
 /
-deprecated
+content
 /
-sync
--
 worker
 '
 )

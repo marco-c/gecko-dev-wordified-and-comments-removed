@@ -2489,8 +2489,6 @@ error
 require
 (
 '
-sdk
-/
 test
 '
 )

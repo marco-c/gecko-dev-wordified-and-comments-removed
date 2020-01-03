@@ -226,8 +226,6 @@ throws
 require
 (
 '
-sdk
-/
 test
 '
 )

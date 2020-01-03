@@ -4082,8 +4082,6 @@ fn
 require
 (
 '
-sdk
-/
 test
 '
 )

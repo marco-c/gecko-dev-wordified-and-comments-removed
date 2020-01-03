@@ -95,8 +95,6 @@ applications
 require
 (
 '
-sdk
-/
 test
 '
 )

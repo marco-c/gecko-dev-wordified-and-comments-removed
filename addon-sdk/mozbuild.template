@@ -172,6 +172,17 @@ modules
 /
 system
 /
+Startup
+.
+js
+'
+'
+source
+/
+modules
+/
+system
+/
 XulApp
 .
 js

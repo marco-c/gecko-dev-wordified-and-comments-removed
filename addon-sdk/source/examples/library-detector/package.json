@@ -34,8 +34,6 @@ version
 0
 .
 1
-.
-1
 "
 "
 title
@@ -56,7 +54,6 @@ id
 jid1
 -
 R4rSVNkBANnvGQ
-jetpack
 "
 "
 description
@@ -68,18 +65,5 @@ basic
 add
 -
 on
-"
-"
-main
-"
-:
-"
-.
-/
-lib
-/
-main
-.
-js
 "
 }

@@ -1537,8 +1537,6 @@ unload
 require
 (
 "
-sdk
-/
 test
 "
 )

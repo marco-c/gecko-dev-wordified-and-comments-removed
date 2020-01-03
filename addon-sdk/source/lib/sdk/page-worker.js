@@ -356,7 +356,6 @@ self
 const
 views
 =
-new
 WeakMap
 (
 )
@@ -364,7 +363,6 @@ WeakMap
 const
 workers
 =
-new
 WeakMap
 (
 )
@@ -372,7 +370,6 @@ WeakMap
 const
 pages
 =
-new
 WeakMap
 (
 )

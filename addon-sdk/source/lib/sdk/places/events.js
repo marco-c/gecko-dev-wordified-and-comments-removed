@@ -27,13 +27,6 @@ Firefox
 '
 *
 '
-"
-SeaMonkey
-"
-:
-'
-*
-'
 }
 }
 ;

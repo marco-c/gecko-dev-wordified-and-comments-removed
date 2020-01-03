@@ -481,8 +481,6 @@ throws
 require
 (
 "
-sdk
-/
 test
 "
 )

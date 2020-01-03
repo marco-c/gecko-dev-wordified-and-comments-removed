@@ -1943,8 +1943,6 @@ false
 require
 (
 "
-sdk
-/
 test
 "
 )

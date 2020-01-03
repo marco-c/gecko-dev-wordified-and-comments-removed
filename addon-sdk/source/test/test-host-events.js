@@ -952,8 +952,6 @@ e
 require
 (
 '
-sdk
-/
 test
 '
 )

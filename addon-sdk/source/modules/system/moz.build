@@ -106,4 +106,9 @@ Startup
 .
 js
 '
+'
+XulApp
+.
+js
+'
 ]
