@@ -1120,6 +1120,9 @@ toolbarbutton
 record
 -
 button
+devtools
+-
+thobber
 "
 tooltiptext
 =
@@ -1923,11 +1926,6 @@ record
 button
 "
 standalone
-=
-"
-true
-"
-checked
 =
 "
 true
