@@ -18303,6 +18303,17 @@ this
 )
 ;
 }
+RobocopTarget
+public
+ReadingListHelper
+getReadingListHelper
+(
+)
+{
+return
+mReadingListHelper
+;
+}
 protected
 boolean
 handleUpdaterLaunch
