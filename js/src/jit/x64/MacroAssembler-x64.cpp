@@ -218,7 +218,7 @@ vmovsd_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -402,7 +402,7 @@ vmovss_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -653,7 +653,7 @@ vmovdqa_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -780,7 +780,7 @@ vmovaps_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )

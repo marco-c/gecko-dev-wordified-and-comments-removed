@@ -2350,7 +2350,7 @@ code
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -2371,7 +2371,7 @@ vmovq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -3951,7 +3951,7 @@ vmovsd_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3978,7 +3978,7 @@ vmovss_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4005,7 +4005,7 @@ vmovdqa_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4032,7 +4032,7 @@ vmovaps_ripr
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4086,7 +4086,7 @@ vmovsd_rrip
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4113,7 +4113,7 @@ vmovss_rrip
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4140,7 +4140,7 @@ vmovdqa_rrip
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4167,7 +4167,7 @@ vmovaps_rrip
 (
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5018,7 +5018,7 @@ vcvttsd2sq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5044,7 +5044,7 @@ vcvttss2sq_rr
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5077,12 +5077,12 @@ code
 )
 src0
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5110,12 +5110,12 @@ code
 )
 src0
 .
-code
+encoding
 (
 )
 dest
 .
-code
+encoding
 (
 )
 )

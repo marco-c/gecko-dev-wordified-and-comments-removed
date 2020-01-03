@@ -3246,7 +3246,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3270,7 +3270,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3349,7 +3349,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3373,7 +3373,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3452,7 +3452,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3476,7 +3476,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3555,7 +3555,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3579,7 +3579,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3658,7 +3658,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3682,7 +3682,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3761,7 +3761,7 @@ base
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -3785,7 +3785,7 @@ address
 )
 dest
 .
-code
+encoding
 (
 )
 )
@@ -4142,7 +4142,7 @@ vmovd_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4171,7 +4171,7 @@ vmovd_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4245,7 +4245,7 @@ vmovq_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4274,7 +4274,7 @@ vmovq_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4348,7 +4348,7 @@ vmovss_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4377,7 +4377,7 @@ vmovss_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4451,7 +4451,7 @@ vmovsd_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4480,7 +4480,7 @@ vmovsd_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4554,7 +4554,7 @@ vmovups_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4583,7 +4583,7 @@ vmovups_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4657,7 +4657,7 @@ vmovdqu_rm_disp32
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4686,7 +4686,7 @@ vmovdqu_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -4960,7 +4960,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5001,7 +5001,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5042,7 +5042,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5083,7 +5083,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5124,7 +5124,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5165,7 +5165,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5206,7 +5206,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5247,7 +5247,7 @@ src
 addr
 dest
 .
-code
+encoding
 (
 )
 )
@@ -5387,7 +5387,7 @@ vmovss_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5428,7 +5428,7 @@ vmovd_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5469,7 +5469,7 @@ vmovq_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5510,7 +5510,7 @@ vmovsd_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5551,7 +5551,7 @@ vmovdqa_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5592,7 +5592,7 @@ vmovaps_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5633,7 +5633,7 @@ vmovdqu_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
@@ -5674,7 +5674,7 @@ vmovups_rm
 (
 src
 .
-code
+encoding
 (
 )
 dest
