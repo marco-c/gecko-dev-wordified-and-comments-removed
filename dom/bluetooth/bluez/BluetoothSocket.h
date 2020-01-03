@@ -142,17 +142,6 @@ aChannel
 ;
 inline
 void
-Disconnect
-(
-)
-{
-Close
-(
-)
-;
-}
-inline
-void
 GetAddress
 (
 nsAString
