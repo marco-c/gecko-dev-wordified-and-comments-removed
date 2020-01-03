@@ -3238,6 +3238,16 @@ isAddon
 target
 .
 chrome
+&
+&
+target
+.
+hasActor
+(
+"
+webaudio
+"
+)
 ;
 }
 build
