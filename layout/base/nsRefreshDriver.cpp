@@ -6907,10 +6907,6 @@ vm
 >
 ProcessPendingUpdates
 (
-nsViewManager
-:
-:
-eTrySyncUpdate
 )
 ;
 #

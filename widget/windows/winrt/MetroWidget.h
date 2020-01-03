@@ -656,13 +656,6 @@ nsIntRect
 aRect
 )
 ;
-virtual
-void
-Update
-(
-)
-override
-;
 NS_IMETHOD
 DispatchEvent
 (
