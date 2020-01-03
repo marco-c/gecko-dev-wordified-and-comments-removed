@@ -323,6 +323,12 @@ file
 "
 "
     
+rel_path_precomplete
+=
+"
+precomplete
+"
+    
 if
 os
 .
@@ -364,14 +370,16 @@ root_path
 '
 )
 )
-    
-rel_file_path_list
-rel_dir_path_list
+        
+rel_path_precomplete
 =
-get_build_entries
-(
-root_path
-)
+"
+Contents
+/
+Resources
+/
+precomplete
+"
     
 precomplete_file_path
 =
@@ -382,9 +390,7 @@ path
 join
 (
 root_path
-"
-precomplete
-"
+rel_path_precomplete
 )
     
 precomplete_file
@@ -395,6 +401,14 @@ precomplete_file_path
 "
 wb
 "
+)
+    
+rel_file_path_list
+rel_dir_path_list
+=
+get_build_entries
+(
+root_path
 )
     
 for
