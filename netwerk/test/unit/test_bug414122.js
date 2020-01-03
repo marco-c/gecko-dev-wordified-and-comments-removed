@@ -288,7 +288,6 @@ firstTwo
 )
 {
 let
-(
 rest
 =
 line
@@ -297,8 +296,7 @@ substring
 (
 2
 )
-)
-{
+;
 checkPublicSuffix
 (
 "
@@ -329,7 +327,6 @@ PREFIX
 rest
 )
 ;
-}
 }
 else
 if
