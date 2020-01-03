@@ -2270,7 +2270,12 @@ LIBPATH
 ABS_DIST
 )
 /
-lib
+.
+.
+/
+mozglue
+/
+build
 -
 DEFAULTLIB
 :
