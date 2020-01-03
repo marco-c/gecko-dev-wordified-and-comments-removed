@@ -228,6 +228,9 @@ serverCertificate
 DOMString
 subjectMatch
 ;
+DOMString
+userCertificate
+;
 }
 ;
 [
@@ -430,6 +433,11 @@ attribute
 DOMString
 ?
 subjectMatch
+;
+attribute
+DOMString
+?
+userCertificate
 ;
 }
 ;
