@@ -570,6 +570,8 @@ mHasEssentialTrackBuffers
 void
 ContinueShutdown
 (
+bool
+aSuccess
 )
 ;
 MediaPromiseHolder

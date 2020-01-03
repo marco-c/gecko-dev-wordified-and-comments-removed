@@ -209,6 +209,8 @@ ShutdownReader
 void
 FinishShutdown
 (
+bool
+aSuccess
 )
 ;
 int64_t
