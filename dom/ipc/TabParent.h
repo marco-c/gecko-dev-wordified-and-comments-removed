@@ -1824,6 +1824,9 @@ mIsDestroyed
 bool
 mAppPackageFileDescriptorSent
 ;
+bool
+mSendOfflineStatus
+;
 uint32_t
 mChromeFlags
 ;
