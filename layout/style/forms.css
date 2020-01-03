@@ -5152,6 +5152,14 @@ spin
 -
 box
 {
+writing
+-
+mode
+:
+horizontal
+-
+tb
+;
 display
 :
 flex
@@ -5171,9 +5179,11 @@ width
 ;
 %
 endif
+max
+-
 height
 :
-0
+1em
 ;
 align
 -
