@@ -63,7 +63,7 @@ namespace
 dom
 {
 class
-File
+DOMFile
 ;
 }
 struct
@@ -442,7 +442,7 @@ already_AddRefed
 dom
 :
 :
-File
+DOMFile
 >
 aBlob
 )

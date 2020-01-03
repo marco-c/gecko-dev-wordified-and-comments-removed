@@ -21,11 +21,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-File
+nsIDOMFile
 .
 h
 "
@@ -52,9 +48,9 @@ StructuredCloneClosure
 {
 nsTArray
 <
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMBlob
 >
 >
 mBlobs

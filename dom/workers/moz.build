@@ -266,6 +266,11 @@ DataStoreCursor
 cpp
 '
 '
+File
+.
+cpp
+'
+'
 FileReaderSync
 .
 cpp

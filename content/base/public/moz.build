@@ -273,6 +273,11 @@ nsDocElementCreatedNotificationRunner
 h
 '
 '
+nsDOMFile
+.
+h
+'
+'
 nsHostObjectProtocolHandler
 .
 h
@@ -382,11 +387,6 @@ dom
 =
 [
 '
-BlobSet
-.
-h
-'
-'
 DirectionalityUtils
 .
 h
@@ -398,11 +398,6 @@ h
 '
 '
 ElementInlines
-.
-h
-'
-'
-File
 .
 h
 '

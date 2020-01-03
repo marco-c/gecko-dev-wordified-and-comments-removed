@@ -29,9 +29,6 @@ importGlobalProperties
 '
 URL
 '
-'
-Blob
-'
 ]
 )
 ;

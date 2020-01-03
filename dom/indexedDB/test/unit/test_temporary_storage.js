@@ -1,16 +1,3 @@
-Components
-.
-utils
-.
-importGlobalProperties
-(
-[
-'
-Blob
-'
-]
-)
-;
 var
 testGenerator
 =

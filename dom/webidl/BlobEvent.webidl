@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+interface
+Blob
+;
 [
 Constructor
 (

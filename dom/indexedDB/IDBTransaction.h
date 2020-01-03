@@ -73,6 +73,9 @@ nsTArray
 h
 "
 class
+nsIDOMBlob
+;
+class
 nsPIDOMWindow
 ;
 namespace

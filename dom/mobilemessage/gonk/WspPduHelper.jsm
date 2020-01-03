@@ -23,17 +23,6 @@ Components
 ;
 Cu
 .
-importGlobalProperties
-(
-[
-'
-Blob
-'
-]
-)
-;
-Cu
-.
 import
 (
 "

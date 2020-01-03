@@ -110,17 +110,6 @@ mozilla
 /
 dom
 /
-File
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ScriptSettings
 .
 h
@@ -4161,8 +4150,8 @@ const
 nsAString
 &
 aDeviceAddress
-File
-&
+nsIDOMBlob
+*
 aBlob
 ErrorResult
 &
@@ -4264,7 +4253,6 @@ bs
 SendFile
 (
 aDeviceAddress
-&
 aBlob
 results
 )
@@ -4309,7 +4297,6 @@ cc
 >
 GetOrCreateActorForBlob
 (
-&
 aBlob
 )
 ;

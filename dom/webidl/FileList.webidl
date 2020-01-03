@@ -142,6 +142,9 @@ apply
 *
 /
 interface
+File
+;
+interface
 FileList
 {
 getter

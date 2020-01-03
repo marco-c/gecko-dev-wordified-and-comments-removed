@@ -90,9 +90,6 @@ namespace
 dom
 {
 class
-File
-;
-class
 VideoStreamTrack
 ;
 class
@@ -199,7 +196,7 @@ aOwnerWindow
 nsresult
 PostBlobEvent
 (
-File
+nsIDOMBlob
 *
 aBlob
 )

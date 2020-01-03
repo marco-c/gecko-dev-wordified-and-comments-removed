@@ -263,12 +263,8 @@ nullptr
 }
 return
 new
-dom
-:
-:
-File
+DOMFile
 (
-aArchiveReader
 new
 ArchiveZipFileImpl
 (

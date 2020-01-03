@@ -1065,7 +1065,7 @@ file
 currently
 selected
 as
-File
+DOMFile
 *
 /
 readonly
@@ -1100,7 +1100,7 @@ files
 currently
 selected
 as
-Files
+DOMFiles
 *
 /
 readonly

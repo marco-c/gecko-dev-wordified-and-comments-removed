@@ -32,6 +32,9 @@ ErrorResult
 h
 "
 class
+nsIDOMBlob
+;
+class
 nsIInputStream
 ;
 namespace
@@ -41,10 +44,7 @@ namespace
 dom
 {
 class
-File
-;
-class
-FileImpl
+DOMFileImpl
 ;
 class
 Promise
@@ -67,7 +67,7 @@ const
 nsAString
 &
 aPath
-File
+nsIDOMBlob
 *
 aBlobData
 InfallibleTArray
@@ -190,9 +190,9 @@ mPromise
 nsString
 mTargetRealPath
 ;
-nsRefPtr
+nsCOMPtr
 <
-File
+nsIDOMBlob
 >
 mBlobData
 ;
@@ -213,7 +213,7 @@ mReplace
 ;
 nsRefPtr
 <
-FileImpl
+DOMFileImpl
 >
 mTargetFileImpl
 ;

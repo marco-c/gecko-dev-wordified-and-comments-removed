@@ -142,6 +142,9 @@ apply
 *
 /
 interface
+Blob
+;
+interface
 InputStream
 ;
 interface
