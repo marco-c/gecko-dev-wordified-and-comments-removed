@@ -313,6 +313,16 @@ aQueuedMedia
 )
 {
 }
+virtual
+void
+NotifyFinishedTrackCreation
+(
+MediaStreamGraph
+*
+aGraph
+)
+{
+}
 }
 ;
 class

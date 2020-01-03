@@ -868,6 +868,11 @@ aStreamTrack
 )
 ;
 void
+TracksCreated
+(
+)
+;
+void
 CheckTracksAvailable
 (
 )
@@ -916,6 +921,9 @@ OnTracksAvailableCallback
 >
 >
 mRunOnTracksAvailable
+;
+bool
+mTracksCreated
 ;
 nsString
 mID
