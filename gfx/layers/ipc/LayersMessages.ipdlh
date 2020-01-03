@@ -1338,6 +1338,12 @@ inheritedXScale
 float
 inheritedYScale
 ;
+float
+presShellResolution
+;
+bool
+scaleToResolution
+;
 /
 /
 This
