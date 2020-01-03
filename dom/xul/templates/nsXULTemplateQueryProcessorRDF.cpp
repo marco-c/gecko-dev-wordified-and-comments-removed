@@ -2006,9 +2006,6 @@ mLastRef
 aRef
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -2112,8 +2109,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 root
@@ -3420,9 +3415,6 @@ rv
 ReteNodeSet
 livenodes
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -3516,8 +3508,6 @@ get
 )
 ;
 }
-#
-endif
 {
 ReteNodeSet
 :
@@ -3793,9 +3783,6 @@ nsIRDFNode
 aTarget
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -3889,8 +3876,6 @@ get
 )
 ;
 }
-#
-endif
 ReteNodeSet
 :
 :
@@ -4106,9 +4091,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-PR_LOGGING
 nsresult
 nsXULTemplateQueryProcessorRDF
 :
@@ -4288,8 +4270,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsresult
 nsXULTemplateQueryProcessorRDF
 :
@@ -5158,9 +5138,6 @@ aResult
 }
 else
 {
-#
-ifdef
-PR_LOGGING
 nsAutoString
 tagstr
 ;
@@ -5210,8 +5187,6 @@ get
 )
 )
 ;
-#
-endif
 rv
 =
 NS_OK

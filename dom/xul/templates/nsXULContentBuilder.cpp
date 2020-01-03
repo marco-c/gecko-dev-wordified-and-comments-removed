@@ -868,9 +868,6 @@ aNewIndexInContainer
 nsresult
 rv
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1006,8 +1003,6 @@ get
 )
 ;
 }
-#
-endif
 for
 (
 nsIContent
@@ -1112,9 +1107,6 @@ NameAtom
 (
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1180,8 +1172,6 @@ unique
 )
 ;
 }
-#
-endif
 bool
 realKidAlreadyExisted
 =
@@ -3398,9 +3388,6 @@ int32_t
 aNewIndexInContainer
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -3451,8 +3438,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 !

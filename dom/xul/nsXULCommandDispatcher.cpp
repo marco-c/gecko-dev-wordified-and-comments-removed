@@ -178,16 +178,11 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-PR_LOGGING
 static
 PRLogModuleInfo
 *
 gCommandLog
 ;
-#
-endif
 nsXULCommandDispatcher
 :
 :
@@ -207,9 +202,6 @@ mUpdaters
 nullptr
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -224,8 +216,6 @@ nsXULCommandDispatcher
 "
 )
 ;
-#
-endif
 }
 nsXULCommandDispatcher
 :

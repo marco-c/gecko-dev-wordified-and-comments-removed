@@ -26,9 +26,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -41,8 +38,6 @@ nsIRDFLiteral
 .
 h
 "
-#
-endif
 nsRDFPropertyTestNode
 :
 :
@@ -94,9 +89,6 @@ mTarget
 nullptr
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -232,8 +224,6 @@ get
 )
 ;
 }
-#
-endif
 }
 nsRDFPropertyTestNode
 :
@@ -286,9 +276,6 @@ mTarget
 nullptr
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -416,8 +403,6 @@ get
 )
 ;
 }
-#
-endif
 }
 nsRDFPropertyTestNode
 :
@@ -470,9 +455,6 @@ mTarget
 aTarget
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -595,8 +577,6 @@ get
 )
 ;
 }
-#
-endif
 }
 nsresult
 nsRDFPropertyTestNode
@@ -769,9 +749,6 @@ targetValue
 )
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -873,8 +850,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 hasSourceBinding
@@ -911,9 +886,6 @@ rv
 return
 rv
 ;
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gXULTemplateLog
@@ -939,8 +911,6 @@ failed
 )
 )
 ;
-#
-endif
 if
 (
 hasAssertion
@@ -1175,9 +1145,6 @@ nsIRDFNode
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1238,8 +1205,6 @@ get
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -1284,9 +1249,6 @@ nsIRDFResource
 "
 )
 ;
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1338,8 +1300,6 @@ s
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -1555,9 +1515,6 @@ result
 true
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1667,8 +1624,6 @@ false
 )
 ;
 }
-#
-endif
 return
 result
 ;
@@ -1703,9 +1658,6 @@ get
 )
 )
 {
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -1802,8 +1754,6 @@ get
 )
 ;
 }
-#
-endif
 mProcessor
 -
 >

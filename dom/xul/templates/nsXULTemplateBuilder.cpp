@@ -427,15 +427,10 @@ nsXULTemplateBuilder
 :
 gObserverService
 ;
-#
-ifdef
-PR_LOGGING
 PRLogModuleInfo
 *
 gXULTemplateLog
 ;
-#
-endif
 #
 define
 NS_QUERY_PROCESSOR_CONTRACTID_PREFIX
@@ -723,9 +718,6 @@ return
 rv
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 !
@@ -740,8 +732,6 @@ nsXULTemplateBuilder
 "
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -6501,9 +6491,6 @@ mFlags
 eLoggingEnabled
 ;
 }
-#
-ifdef
-PR_LOGGING
 if
 (
 PR_LOG_TEST
@@ -6517,8 +6504,6 @@ mFlags
 =
 eLoggingEnabled
 ;
-#
-endif
 nsCOMPtr
 <
 nsIDOMNode

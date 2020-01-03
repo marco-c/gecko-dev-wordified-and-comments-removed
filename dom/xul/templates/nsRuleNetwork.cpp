@@ -26,9 +26,6 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
@@ -55,8 +52,6 @@ nsXULContentUtils
 .
 h
 "
-#
-endif
 #
 include
 "

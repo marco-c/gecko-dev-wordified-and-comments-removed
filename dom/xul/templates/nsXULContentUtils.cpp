@@ -249,16 +249,11 @@ nsXULContentUtils
 :
 gCollation
 ;
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gXULTemplateLog
 ;
-#
-endif
 #
 define
 XUL_RESOURCE

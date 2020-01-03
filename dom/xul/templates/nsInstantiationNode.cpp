@@ -26,16 +26,11 @@ prlog
 .
 h
 "
-#
-ifdef
-PR_LOGGING
 extern
 PRLogModuleInfo
 *
 gXULTemplateLog
 ;
-#
-endif
 nsInstantiationNode
 :
 :
@@ -58,9 +53,6 @@ mQuery
 aQuery
 )
 {
-#
-ifdef
-PR_LOGGING
 PR_LOG
 (
 gXULTemplateLog
@@ -82,8 +74,6 @@ aQuery
 )
 )
 ;
-#
-endif
 MOZ_COUNT_CTOR
 (
 nsInstantiationNode
