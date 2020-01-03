@@ -217,11 +217,15 @@ get
 isRunning
 (
 )
+{
+return
 !
 !
 this
 .
 process
+;
+}
 run
 (
 )

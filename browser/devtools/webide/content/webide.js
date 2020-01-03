@@ -1410,6 +1410,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
