@@ -5236,6 +5236,12 @@ GetNativeContext
 )
 )
 ;
+entryScript
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JS
 :
 :

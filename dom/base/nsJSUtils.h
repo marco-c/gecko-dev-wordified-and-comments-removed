@@ -128,15 +128,6 @@ aContext
 )
 ;
 static
-void
-ReportPendingException
-(
-JSContext
-*
-aContext
-)
-;
-static
 nsresult
 CompileFunction
 (
