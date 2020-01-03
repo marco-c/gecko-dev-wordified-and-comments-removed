@@ -143,6 +143,10 @@ mIsRunningOnCompositor
 (
 false
 )
+mIsPreviousStateFinished
+(
+false
+)
 {
 }
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
@@ -481,6 +485,9 @@ mIsPaused
 ;
 bool
 mIsRunningOnCompositor
+;
+bool
+mIsPreviousStateFinished
 ;
 }
 ;
