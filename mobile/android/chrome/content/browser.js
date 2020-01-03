@@ -13659,6 +13659,7 @@ aValue
 aButtons
 aTabID
 aOptions
+aCategory
 )
 {
 if
@@ -13773,6 +13774,9 @@ aOptions
 |
 {
 }
+category
+:
+aCategory
 }
 ;
 Messaging

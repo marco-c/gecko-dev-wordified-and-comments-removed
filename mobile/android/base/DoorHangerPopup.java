@@ -585,7 +585,7 @@ DoorHanger
 .
 Type
 .
-PASSWORD
+LOGIN
 .
 toString
 (
@@ -605,7 +605,7 @@ DoorHanger
 .
 Type
 .
-PASSWORD
+LOGIN
 )
 ;
 }

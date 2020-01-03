@@ -196,8 +196,16 @@ type
 )
 {
 case
-PASSWORD
+LOGIN
 :
+return
+new
+LoginDoorHanger
+(
+context
+config
+)
+;
 case
 SITE
 :
@@ -227,7 +235,7 @@ enum
 Type
 {
 DEFAULT
-PASSWORD
+LOGIN
 SITE
 }
 public
@@ -375,7 +383,7 @@ type
 )
 {
 case
-PASSWORD
+LOGIN
 :
 resource
 =
@@ -383,7 +391,7 @@ R
 .
 layout
 .
-doorhanger
+login_doorhanger
 ;
 break
 ;
@@ -471,7 +479,7 @@ R
 .
 style
 .
-TextAppearance_Widget_DoorHanger_Small
+TextAppearance_DoorHanger_Small
 )
 ;
 }
