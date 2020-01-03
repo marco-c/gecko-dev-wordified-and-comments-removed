@@ -391,7 +391,7 @@ R
 .
 dimen
 .
-browser_toolbar_favicon_size
+new_tablet_tab_strip_favicon_size
 )
 ;
 LayoutInflater
@@ -1019,7 +1019,7 @@ R
 .
 drawable
 .
-toolbar_favicon_default
+new_tablet_default_favicon
 )
 ;
 return

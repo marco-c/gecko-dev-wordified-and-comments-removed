@@ -804,13 +804,6 @@ true
 "
 android
 :
-layout_marginRight
-=
-"
-6dp
-"
-android
-:
 contentDescription
 =
 "

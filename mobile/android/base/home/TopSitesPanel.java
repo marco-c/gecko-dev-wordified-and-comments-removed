@@ -3462,7 +3462,7 @@ R
 .
 drawable
 .
-favicon_globe
+favicon
 )
 ;
 listener
