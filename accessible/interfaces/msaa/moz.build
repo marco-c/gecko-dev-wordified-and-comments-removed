@@ -168,9 +168,6 @@ OS_LIBS
 kernel32
 '
 '
-rpcns4
-'
-'
 rpcrt4
 '
 '

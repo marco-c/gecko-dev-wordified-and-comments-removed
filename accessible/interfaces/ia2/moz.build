@@ -131,9 +131,6 @@ uuid
 kernel32
 '
 '
-rpcns4
-'
-'
 rpcrt4
 '
 '
