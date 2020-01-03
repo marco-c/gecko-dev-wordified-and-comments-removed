@@ -4003,10 +4003,7 @@ ANDROID_RES_DIRS
 +
 =
 [
-SRCDIR
-+
 '
-/
 crashreporter
 /
 res
@@ -5579,8 +5576,6 @@ ANDROID_RES_DIRS
 +
 =
 [
-TOPSRCDIR
-+
 '
 /
 '
@@ -5596,16 +5591,11 @@ MOZ_BRANDING_DIRECTORY
 /
 res
 '
-SRCDIR
-+
 '
-/
 resources
 '
-OBJDIR
-+
 '
-/
+!
 res
 '
 ]
