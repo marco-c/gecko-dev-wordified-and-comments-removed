@@ -61,10 +61,6 @@ mozprofile
 import
 Profile
 Preferences
-from
-mozlog
-import
-structured
 import
 mozinfo
 import

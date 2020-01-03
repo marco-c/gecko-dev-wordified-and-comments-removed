@@ -1,7 +1,7 @@
 import
 mozdevice
 import
-mozlog
+logging
 import
 unittest
 from
@@ -216,7 +216,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -294,7 +294,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -372,7 +372,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )

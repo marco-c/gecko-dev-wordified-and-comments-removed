@@ -3,7 +3,7 @@ hashlib
 import
 mozdevice
 import
-mozlog
+logging
 import
 shutil
 import
@@ -159,7 +159,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -237,7 +237,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -374,7 +374,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )
@@ -563,7 +563,7 @@ m
 port
 logLevel
 =
-mozlog
+logging
 .
 DEBUG
 )

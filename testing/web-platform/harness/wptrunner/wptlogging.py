@@ -14,8 +14,6 @@ import
 Queue
 from
 mozlog
-.
-structured
 import
 commandline
 stdadapter

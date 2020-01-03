@@ -2047,8 +2047,6 @@ mozinfo
         
 from
 mozlog
-.
-structured
 import
 commandline
         

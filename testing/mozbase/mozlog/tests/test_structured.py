@@ -36,8 +36,6 @@ import
 mozfile
 from
 mozlog
-.
-structured
 import
 (
     

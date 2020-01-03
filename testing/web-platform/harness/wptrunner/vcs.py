@@ -6,8 +6,6 @@ import
 partial
 from
 mozlog
-.
-structured
 import
 get_default_logger
 logger

@@ -21,14 +21,12 @@ import
 mozcrash
 import
 mozfile
+import
+mozlog
 from
 contextlib
 import
 contextmanager
-from
-mozlog
-import
-structured
 from
 subprocess
 import
@@ -1030,9 +1028,7 @@ self
 .
 log
 =
-structured
-.
-structuredlog
+mozlog
 .
 get_default_logger
 (
@@ -1655,7 +1651,7 @@ CPPUnittestOptions
 (
 )
     
-structured
+mozlog
 .
 commandline
 .
@@ -1760,7 +1756,7 @@ exit
     
 log
 =
-structured
+mozlog
 .
 commandline
 .
@@ -1769,9 +1765,8 @@ setup_logging
 "
 cppunittests
 "
-                                               
 options
-                                               
+                                           
 {
 "
 tbpl

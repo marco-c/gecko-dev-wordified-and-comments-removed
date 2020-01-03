@@ -454,8 +454,6 @@ func
 ~
 mozlog
 .
-structured
-.
 commandline
 .
 setup_logging

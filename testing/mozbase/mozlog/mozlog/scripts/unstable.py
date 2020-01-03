@@ -8,8 +8,6 @@ import
 json
 from
 mozlog
-.
-structured
 import
 reader
 class

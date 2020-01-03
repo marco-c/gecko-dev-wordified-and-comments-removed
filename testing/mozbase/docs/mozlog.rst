@@ -2,8 +2,6 @@
 mod
 :
 mozlog
-.
-structured
 -
 -
 -
@@ -81,8 +79,6 @@ py
 mod
 :
 mozlog
-.
-structured
 is
 a
 library
@@ -138,8 +134,6 @@ py
 mod
 :
 mozlog
-.
-structured
 is
 *
 not
@@ -1409,8 +1403,6 @@ automodule
 :
 mozlog
 .
-structured
-.
 structuredlog
 :
 members
@@ -1518,8 +1510,6 @@ automodule
 :
 :
 mozlog
-.
-structured
 .
 handlers
 .
@@ -1690,8 +1680,6 @@ automodule
 :
 mozlog
 .
-structured
-.
 formatters
 .
 base
@@ -1710,8 +1698,6 @@ automodule
 :
 :
 mozlog
-.
-structured
 .
 formatters
 .
@@ -1732,8 +1718,6 @@ automodule
 :
 mozlog
 .
-structured
-.
 formatters
 .
 xunit
@@ -1752,8 +1736,6 @@ automodule
 :
 :
 mozlog
-.
-structured
 .
 formatters
 .
@@ -1774,8 +1756,6 @@ automodule
 :
 mozlog
 .
-structured
-.
 formatters
 .
 machformatter
@@ -1794,8 +1774,6 @@ automodule
 :
 :
 mozlog
-.
-structured
 .
 formatters
 .
@@ -1835,8 +1813,6 @@ Files
 The
 mozlog
 .
-structured
-.
 reader
 module
 provides
@@ -1854,8 +1830,6 @@ automodule
 :
 :
 mozlog
-.
-structured
 .
 reader
 :
@@ -1892,8 +1866,6 @@ argparse
 The
 mozlog
 .
-structured
-.
 commandline
 module
 provides
@@ -1915,8 +1887,6 @@ to
 programs
 using
 mozlog
-.
-structured
 .
 Each
 known
@@ -1962,8 +1932,6 @@ automodule
 :
 mozlog
 .
-structured
-.
 commandline
 :
 members
@@ -1992,14 +1960,10 @@ stdout
 :
 from
 mozlog
-.
-structured
 import
 structuredlog
 from
 mozlog
-.
-structured
 import
 handlers
 formatters
@@ -2160,8 +2124,6 @@ import
 argparse
 from
 mozlog
-.
-structured
 import
 commandline
 parser
@@ -2231,8 +2193,6 @@ testsuite
 :
 from
 mozlog
-.
-structured
 import
 reader
 count
@@ -2529,8 +2489,6 @@ py
 class
 :
 mozlog
-.
-structured
 .
 StructuredLogger
 object

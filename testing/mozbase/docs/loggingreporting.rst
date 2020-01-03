@@ -69,4 +69,4 @@ toctree
 maxdepth
 :
 2
-mozlog_structured
+mozlog

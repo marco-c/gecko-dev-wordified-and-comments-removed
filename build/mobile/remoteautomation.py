@@ -27,8 +27,6 @@ DMError
 DeviceManager
 from
 mozlog
-.
-structured
 import
 get_default_logger
 import

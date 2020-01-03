@@ -22,8 +22,6 @@ current_process
 Queue
 from
 mozlog
-.
-structured
 import
 structuredlog
 Stop

@@ -58,10 +58,6 @@ get_b2g_pid
 get_dm
 from
 mozlog
-.
-structured
-.
-structuredlog
 import
 get_default_logger
 from

@@ -69,6 +69,8 @@ log
 =
 mozlog
 .
+unstructured
+.
 getLogger
 (
 '

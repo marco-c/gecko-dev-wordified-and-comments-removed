@@ -8,8 +8,6 @@ import
 types
 from
 mozlog
-.
-structured
 import
 commandline
 get_default_logger

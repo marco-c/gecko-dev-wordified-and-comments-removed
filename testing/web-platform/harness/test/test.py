@@ -20,15 +20,11 @@ import
 StringIO
 from
 mozlog
-.
-structured
 import
 structuredlog
 reader
 from
 mozlog
-.
-structured
 .
 handlers
 import
@@ -37,8 +33,6 @@ StreamHandler
 StatusHandler
 from
 mozlog
-.
-structured
 .
 formatters
 import

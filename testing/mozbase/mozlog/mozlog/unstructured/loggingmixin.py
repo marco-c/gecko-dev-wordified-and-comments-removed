@@ -1,5 +1,13 @@
+from
+.
+logger
 import
-mozlog
+(
+    
+Logger
+    
+getLogger
+)
 class
 LoggingMixin
 (
@@ -63,8 +71,6 @@ not
 isinstance
 (
 logger_instance
-mozlog
-.
 Logger
 )
 :
@@ -79,12 +85,6 @@ be
 an
 instance
 of
-"
-+
-                             
-"
-mozlog
-.
 Logger
 "
 )
@@ -121,8 +121,6 @@ _logger
 =
 logger_instance
 or
-mozlog
-.
 getLogger
 (
 name
@@ -156,8 +154,6 @@ self
 .
 _logger
 =
-mozlog
-.
 getLogger
 (
 "
@@ -170,7 +166,7 @@ join
 self
 .
 __module__
-                                                      
+                                               
 self
 .
 __class__

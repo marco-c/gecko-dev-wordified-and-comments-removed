@@ -16,14 +16,10 @@ import
 defaultdict
 from
 mozlog
-.
-structured
 import
 reader
 from
 mozlog
-.
-structured
 import
 structuredlog
 import

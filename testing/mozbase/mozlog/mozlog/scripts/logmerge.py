@@ -19,8 +19,6 @@ time
 from
 mozlog
 .
-structured
-.
 reader
 import
 read

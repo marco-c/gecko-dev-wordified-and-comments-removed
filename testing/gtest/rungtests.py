@@ -22,6 +22,8 @@ log
 =
 mozlog
 .
+unstructured
+.
 getLogger
 (
 '

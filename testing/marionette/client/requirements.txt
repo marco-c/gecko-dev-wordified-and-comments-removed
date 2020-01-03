@@ -55,9 +55,9 @@ mozdevice
 mozlog
 >
 =
-2
+3
 .
-7
+0
 moznetwork
 >
 =

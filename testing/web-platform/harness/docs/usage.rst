@@ -1428,8 +1428,6 @@ py
 mod
 :
 mozlog
-.
-structured
 package
 for
 output
@@ -1474,8 +1472,6 @@ py
 mod
 :
 mozlog
-.
-structured
 documentation
 .
 By

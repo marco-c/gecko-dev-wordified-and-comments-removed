@@ -30,8 +30,6 @@ import
 Automation
 from
 mozlog
-.
-structured
 import
 get_default_logger
 from

@@ -210,7 +210,7 @@ tags
 from
 mozlog
 import
-structured
+commandline
 import
 mozcrash
 import
@@ -3882,9 +3882,6 @@ log
 message
 in
 mozlog
-.
-structured
-        
 format
 .
 "
@@ -11474,8 +11471,6 @@ XPCShellOptions
 (
 )
     
-structured
-.
 commandline
 .
 add_logging_group
@@ -11494,8 +11489,6 @@ parse_args
     
 log
 =
-structured
-.
 commandline
 .
 setup_logging
@@ -11503,9 +11496,7 @@ setup_logging
 "
 XPCShell
 "
-                                               
 options
-                                               
 {
 "
 tbpl

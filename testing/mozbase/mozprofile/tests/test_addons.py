@@ -18,6 +18,10 @@ import
 mozhttpd
 import
 mozlog
+.
+unstructured
+as
+mozlog
 import
 mozprofile
 from

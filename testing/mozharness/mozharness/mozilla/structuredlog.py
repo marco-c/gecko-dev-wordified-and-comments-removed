@@ -136,7 +136,7 @@ __init__
 kwargs
 )
         
-structured
+mozlog
 =
 self
 .
@@ -148,7 +148,7 @@ self
 .
 formatter
 =
-structured
+mozlog
 .
 formatters
 .
@@ -160,7 +160,7 @@ self
 .
 handler
 =
-structured
+mozlog
 .
 handlers
 .
@@ -172,7 +172,7 @@ self
 .
 log_actions
 =
-structured
+mozlog
 .
 structuredlog
 .
@@ -202,10 +202,8 @@ self
 try
 :
             
-from
-mozlog
 import
-structured
+mozlog
         
 except
 ImportError
@@ -241,7 +239,7 @@ available
 )
         
 return
-structured
+mozlog
     
 def
 _handle_unstructured_output

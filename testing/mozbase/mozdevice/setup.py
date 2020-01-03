@@ -30,9 +30,9 @@ mozfile
 mozlog
 >
 =
-2
+3
 .
-1
+0
 '
         
 '
