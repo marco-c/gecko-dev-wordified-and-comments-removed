@@ -1178,7 +1178,6 @@ PINCHING
 ANIMATING_ZOOM
 OVERSCROLL_ANIMATION
 SMOOTH_SCROLL
-WHEEL_SCROLL
 }
 ;
 PanZoomState
@@ -1304,16 +1303,6 @@ OverscrollAnimation
 friend
 class
 SmoothScrollAnimation
-;
-friend
-class
-WheelScrollAnimation
-;
-static
-TimeStamp
-GetFrameTime
-(
-)
 ;
 ParentLayerPoint
 mLastFlingVelocity

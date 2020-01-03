@@ -1471,15 +1471,6 @@ cpp
 '
 apz
 /
-src
-/
-WheelScrollAnimation
-.
-cpp
-'
-'
-apz
-/
 testutil
 /
 APZTestData
