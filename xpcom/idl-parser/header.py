@@ -3173,8 +3173,7 @@ None
         
 if
 tmpl_notxpcom
-=
-=
+is
 None
 :
             

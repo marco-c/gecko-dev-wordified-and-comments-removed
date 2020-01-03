@@ -509,8 +509,8 @@ string
 '
 and
 size_is
-!
-=
+is
+not
 None
 :
                 
@@ -534,8 +534,8 @@ wstring
 '
 and
 size_is
-!
-=
+is
+not
 None
 :
                 
@@ -792,8 +792,8 @@ isRef
             
 elif
 iid_is
-!
-=
+is
+not
 None
 :
                 
