@@ -3316,8 +3316,9 @@ space1
 )
 )
 {
-CHECK
+if
 (
+!
 IsRTSPVersion
 (
 AString
@@ -3344,7 +3345,11 @@ space2
 )
 )
 )
+{
+return
+false
 ;
+}
 isRequest
 =
 true
