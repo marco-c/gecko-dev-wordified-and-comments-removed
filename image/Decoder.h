@@ -108,11 +108,6 @@ Init
 nsresult
 Decode
 (
-IResumable
-*
-aOnResume
-=
-nullptr
 )
 ;
 bool

@@ -111,11 +111,6 @@ Common
 cpp
 '
 '
-TestDecoders
-.
-cpp
-'
-'
 TestDecodeToSurface
 .
 cpp
